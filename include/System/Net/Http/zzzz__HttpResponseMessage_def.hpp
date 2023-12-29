@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HttpResponseMessage)
+namespace System {
+class Version;
+}
 namespace System::Net::Http {
 class HttpContent;
 }
+namespace System::Net::Http {
+class HttpRequestMessage;
+}
 namespace System::Net {
 struct HttpStatusCode;
-}
-namespace System {
-class Version;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Net::Http::Headers {
 class HttpResponseHeaders;
-}
-namespace System::Net::Http {
-class HttpRequestMessage;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::System::Net::Http::HttpResponseMessage);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9027))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14655))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7864)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14872))
 // CS Name: ::System.Net.Http::HttpResponseMessage*
 class CORDL_TYPE HttpResponseMessage : public ::System::Object {
 public:
@@ -122,49 +122,49 @@ public:
 
   static inline ::System::Net::Http::HttpResponseMessage* New_ctor(::System::Net::HttpStatusCode statusCode);
 
-  /// @brief Method .ctor addr 0x282e2b4 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x26b32a4 size 0x2c virtual false final false
   inline void _ctor(::System::Net::HttpStatusCode statusCode);
 
-  /// @brief Method get_Content addr 0x2834050 size 0x8 virtual false final false
+  /// @brief Method get_Content addr 0x26b9040 size 0x8 virtual false final false
   inline ::System::Net::Http::HttpContent* get_Content();
 
-  /// @brief Method set_Content addr 0x2834058 size 0x8 virtual false final false
+  /// @brief Method set_Content addr 0x26b9048 size 0x8 virtual false final false
   inline void set_Content(::System::Net::Http::HttpContent* value);
 
-  /// @brief Method get_Headers addr 0x282e420 size 0x68 virtual false final false
+  /// @brief Method get_Headers addr 0x26b3410 size 0x68 virtual false final false
   inline ::System::Net::Http::Headers::HttpResponseHeaders* get_Headers();
 
-  /// @brief Method get_IsSuccessStatusCode addr 0x28340c0 size 0x14 virtual false final false
+  /// @brief Method get_IsSuccessStatusCode addr 0x26b90b0 size 0x14 virtual false final false
   inline bool get_IsSuccessStatusCode();
 
-  /// @brief Method get_ReasonPhrase addr 0x28340d4 size 0x1c virtual false final false
+  /// @brief Method get_ReasonPhrase addr 0x26b90c4 size 0x1c virtual false final false
   inline ::StringW get_ReasonPhrase();
 
-  /// @brief Method set_ReasonPhrase addr 0x28340f0 size 0x8 virtual false final false
+  /// @brief Method set_ReasonPhrase addr 0x26b90e0 size 0x8 virtual false final false
   inline void set_ReasonPhrase(::StringW value);
 
-  /// @brief Method set_RequestMessage addr 0x28340f8 size 0x8 virtual false final false
+  /// @brief Method set_RequestMessage addr 0x26b90e8 size 0x8 virtual false final false
   inline void set_RequestMessage(::System::Net::Http::HttpRequestMessage* value);
 
-  /// @brief Method get_StatusCode addr 0x2834100 size 0x8 virtual false final false
+  /// @brief Method get_StatusCode addr 0x26b90f0 size 0x8 virtual false final false
   inline ::System::Net::HttpStatusCode get_StatusCode();
 
-  /// @brief Method set_StatusCode addr 0x2834000 size 0x50 virtual false final false
+  /// @brief Method set_StatusCode addr 0x26b8ff0 size 0x50 virtual false final false
   inline void set_StatusCode(::System::Net::HttpStatusCode value);
 
-  /// @brief Method get_Version addr 0x2834108 size 0x64 virtual false final false
+  /// @brief Method get_Version addr 0x26b90f8 size 0x64 virtual false final false
   inline ::System::Version* get_Version();
 
-  /// @brief Method Dispose addr 0x283416c size 0x10 virtual true final true
+  /// @brief Method Dispose addr 0x26b915c size 0x10 virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x283417c size 0x34 virtual true final false
+  /// @brief Method Dispose addr 0x26b916c size 0x34 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnsureSuccessStatusCode addr 0x28324c8 size 0xb0 virtual false final false
+  /// @brief Method EnsureSuccessStatusCode addr 0x26b74b8 size 0xb0 virtual false final false
   inline ::System::Net::Http::HttpResponseMessage* EnsureSuccessStatusCode();
 
-  /// @brief Method ToString addr 0x28341b0 size 0x23c virtual true final false
+  /// @brief Method ToString addr 0x26b91a0 size 0x23c virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpResponseMessage", modifiers: "&&", def_value: None }]
@@ -206,6 +206,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpResponseMessage, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpResponseMessage, ___headers) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpResponseMessage, ___reasonPhrase) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpResponseMessage, ___statusCode) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpResponseMessage, ___version) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpResponseMessage, ___disposed) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpResponseMessage, ____Content_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpResponseMessage, ____RequestMessage_k__BackingField) == 0x40, "Offset mismatch!");
 
 } // namespace System::Net::Http
 NEED_NO_BOX(::System::Net::Http::HttpResponseMessage);

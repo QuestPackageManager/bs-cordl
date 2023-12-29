@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(PublicSubkeyPacket)
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
-namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+namespace System {
+struct DateTime;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct PublicKeyAlgorithmTag;
 }
-namespace System {
-struct DateTime;
+namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class IBcpgKey;
@@ -37,15 +37,15 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::PublicSubkeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x11cf194 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x115df44 size 0x4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::PublicSubkeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-  /// @brief Method .ctor addr 0x11d2864 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x1161614 size 0x4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-  /// @brief Method Encode addr 0x11d2868 size 0x38 virtual true final false
+  /// @brief Method Encode addr 0x1161618 size 0x38 virtual true final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "PublicSubkeyPacket", modifiers: "&&", def_value: None }]

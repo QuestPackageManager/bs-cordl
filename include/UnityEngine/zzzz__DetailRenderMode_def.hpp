@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::DetailRenderMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15468))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15452))
 // CS Name: ::UnityEngine::DetailRenderMode
 struct CORDL_TYPE DetailRenderMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::DetailRenderMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::DetailRenderMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::DetailRenderMode, "UnityEngine", "DetailRenderMode");

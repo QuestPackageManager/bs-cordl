@@ -24,16 +24,16 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_TransformEuler);
 // SizeInfo { instance_size: 40, native_size: 56, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9715)), TypeDefinitionIndex(TypeDefinitionIndex(9714))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9727))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9641)), TypeDefinitionIndex(TypeDefinitionIndex(9642))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9654))
 // CS Name: ::HoudiniEngineUnity::HAPI_TransformEuler
 struct CORDL_TYPE HAPI_TransformEuler {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2188610 size 0xa4 virtual false final false
+  /// @brief Method .ctor addr 0x2031c74 size 0xa4 virtual false final false
   inline void _ctor(bool initializeFields);
 
-  /// @brief Method Init addr 0x2191ab0 size 0xc8 virtual false final false
+  /// @brief Method Init addr 0x203b114 size 0xc8 virtual false final false
   inline void Init();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "rotationEuler", ty:
@@ -72,6 +72,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_TransformEuler, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_TransformEuler, position) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_TransformEuler, rotationEuler) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_TransformEuler, scale) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_TransformEuler, shear) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_TransformEuler, rotationOrder) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_TransformEuler, rstOrder) == 0x24, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_TransformEuler, "HoudiniEngineUnity", "HAPI_TransformEuler");

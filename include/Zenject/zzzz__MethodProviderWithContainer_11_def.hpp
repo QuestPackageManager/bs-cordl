@@ -6,22 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(MethodProviderWithContainer_11)
 namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
 class DiContainer;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace System {
-class Action;
 }
 namespace Zenject {
 class IProvider;
 }
-namespace System {
-class Type;
+namespace Zenject {
+class InjectContext;
 }
 namespace System {
 class Object;
@@ -29,8 +20,17 @@ class Object;
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename TResult> class Func_12;
 }
+namespace System {
+class Action;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Zenject {
@@ -47,8 +47,8 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11218))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11146))
 // CS Name: ::Zenject::MethodProviderWithContainer`11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TValue>*
 class CORDL_TYPE MethodProviderWithContainer_11 : public ::System::Object {
 public:

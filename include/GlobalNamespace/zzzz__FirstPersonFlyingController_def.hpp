@@ -3,30 +3,26 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "UnityEngine/zzzz__StereoTargetEyeMask_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FirstPersonFlyingController)
-namespace GlobalNamespace {
-class VRCenterAdjust;
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class VRController;
 }
-namespace UnityEngine::SpatialTracking {
-class TrackedPoseDriver;
-}
 namespace GlobalNamespace {
-class MouseLook;
+class VRCenterAdjust;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 class Camera;
 }
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class MouseLook;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,11 +31,11 @@ class FirstPersonFlyingController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FirstPersonFlyingController);
 // Type: ::FirstPersonFlyingController
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10102))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5835))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5926))
 // CS Name: ::FirstPersonFlyingController*
 class CORDL_TYPE FirstPersonFlyingController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -71,20 +67,11 @@ public:
   /// @brief Field _mouseLook, offset 0x58, size 0x8
   __declspec(property(get = __get__mouseLook, put = __set__mouseLook))::GlobalNamespace::MouseLook* _mouseLook;
 
-  /// @brief Field _trackedPoseDriver, offset 0x60, size 0x8
-  __declspec(property(get = __get__trackedPoseDriver, put = __set__trackedPoseDriver))::UnityEngine::SpatialTracking::TrackedPoseDriver* _trackedPoseDriver;
-
-  /// @brief Field _shouldBeEnabled, offset 0x68, size 0x1
+  /// @brief Field _shouldBeEnabled, offset 0x60, size 0x1
   __declspec(property(get = __get__shouldBeEnabled, put = __set__shouldBeEnabled)) bool _shouldBeEnabled;
 
-  /// @brief Field _cameraTransform, offset 0x70, size 0x8
+  /// @brief Field _cameraTransform, offset 0x68, size 0x8
   __declspec(property(get = __get__cameraTransform, put = __set__cameraTransform))::UnityEngine::Transform* _cameraTransform;
-
-  /// @brief Field _originalStereoTargetEyeMask, offset 0x78, size 0x4
-  __declspec(property(get = __get__originalStereoTargetEyeMask, put = __set__originalStereoTargetEyeMask))::UnityEngine::StereoTargetEyeMask _originalStereoTargetEyeMask;
-
-  /// @brief Field _originalCameraFov, offset 0x7c, size 0x4
-  __declspec(property(get = __get__originalCameraFov, put = __set__originalCameraFov)) float_t _originalCameraFov;
 
   constexpr float_t& __get__moveSensitivity();
 
@@ -140,12 +127,6 @@ public:
 
   constexpr void __set__mouseLook(::GlobalNamespace::MouseLook* value);
 
-  constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver*& __get__trackedPoseDriver();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SpatialTracking::TrackedPoseDriver*> const& __get__trackedPoseDriver() const;
-
-  constexpr void __set__trackedPoseDriver(::UnityEngine::SpatialTracking::TrackedPoseDriver* value);
-
   constexpr bool& __get__shouldBeEnabled();
 
   constexpr bool const& __get__shouldBeEnabled() const;
@@ -158,37 +139,28 @@ public:
 
   constexpr void __set__cameraTransform(::UnityEngine::Transform* value);
 
-  constexpr ::UnityEngine::StereoTargetEyeMask& __get__originalStereoTargetEyeMask();
-
-  constexpr ::UnityEngine::StereoTargetEyeMask const& __get__originalStereoTargetEyeMask() const;
-
-  constexpr void __set__originalStereoTargetEyeMask(::UnityEngine::StereoTargetEyeMask value);
-
-  constexpr float_t& __get__originalCameraFov();
-
-  constexpr float_t const& __get__originalCameraFov() const;
-
-  constexpr void __set__originalCameraFov(float_t value);
-
-  /// @brief Method Awake addr 0x22ed928 size 0xc virtual false final false
+  /// @brief Method Awake addr 0x21a7b94 size 0xc virtual false final false
   inline void Awake();
 
-  /// @brief Method OnEnable addr 0x22ed934 size 0x270 virtual false final false
+  /// @brief Method Start addr 0x21a7ba0 size 0x1b4 virtual false final false
+  inline void Start();
+
+  /// @brief Method OnEnable addr 0x21a7dc0 size 0x20 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x22edc44 size 0x25c virtual false final false
+  /// @brief Method OnDisable addr 0x21a7e14 size 0x30 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method Update addr 0x22edea0 size 0x3a8 virtual false final false
+  /// @brief Method Update addr 0x21a7e44 size 0x3a8 virtual false final false
   inline void Update();
 
-  /// @brief Method Inject addr 0x22ee5a4 size 0x13c virtual false final false
+  /// @brief Method Inject addr 0x21a8548 size 0x12c virtual false final false
   inline void Inject(::UnityEngine::Camera* camera, ::GlobalNamespace::VRCenterAdjust* centerAdjust, ::GlobalNamespace::VRController* controller0, ::GlobalNamespace::VRController* controller1,
-                     ::UnityEngine::SpatialTracking::TrackedPoseDriver* trackedPoseDriver, bool shouldBeEnabled);
+                     bool shouldBeEnabled);
 
   static inline ::GlobalNamespace::FirstPersonFlyingController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22ee6e0 size 0xa8 virtual false final false
+  /// @brief Method .ctor addr 0x21a8674 size 0xa8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FirstPersonFlyingController", modifiers: "&&", def_value: None }]
@@ -232,25 +204,38 @@ public:
   /// @brief Field _mouseLook, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::MouseLook* ____mouseLook;
 
-  /// @brief Field _trackedPoseDriver, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::SpatialTracking::TrackedPoseDriver* ____trackedPoseDriver;
-
-  /// @brief Field _shouldBeEnabled, offset: 0x68, size: 0x1, def value: None
+  /// @brief Field _shouldBeEnabled, offset: 0x60, size: 0x1, def value: None
   bool ____shouldBeEnabled;
 
-  /// @brief Field _cameraTransform, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _cameraTransform, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Transform* ____cameraTransform;
-
-  /// @brief Field _originalStereoTargetEyeMask, offset: 0x78, size: 0x4, def value: None
-  ::UnityEngine::StereoTargetEyeMask ____originalStereoTargetEyeMask;
-
-  /// @brief Field _originalCameraFov, offset: 0x7c, size: 0x4, def value: None
-  float_t ____originalCameraFov;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FirstPersonFlyingController, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FirstPersonFlyingController, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____moveSensitivity) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____transform) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____camera) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____cameraFov) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____centerAdjust) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____controller0) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____controller1) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____controllerModels) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____mouseLook) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____shouldBeEnabled) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____cameraTransform) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FirstPersonFlyingController);

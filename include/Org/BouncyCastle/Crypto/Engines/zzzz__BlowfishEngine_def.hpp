@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BlowfishEngine)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::BlowfishEngine);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(829))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::BlowfishEngine*
 class CORDL_TYPE BlowfishEngine : public ::System::Object {
@@ -157,40 +157,40 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::BlowfishEngine* New_ctor();
 
-  /// @brief Method .ctor addr 0xebc7f8 size 0xe8 virtual false final false
+  /// @brief Method .ctor addr 0xe48624 size 0xe8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0xebc8e0 size 0x144 virtual true final true
+  /// @brief Method Init addr 0xe4870c size 0x144 virtual true final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName addr 0xebcd2c size 0x40 virtual true final true
+  /// @brief Method get_AlgorithmName addr 0xe48b58 size 0x40 virtual true final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay addr 0xebcd6c size 0x8 virtual true final true
+  /// @brief Method get_IsPartialBlockOkay addr 0xe48b98 size 0x8 virtual true final true
   inline bool get_IsPartialBlockOkay();
 
-  /// @brief Method ProcessBlock addr 0xebcd74 size 0x138 virtual true final true
+  /// @brief Method ProcessBlock addr 0xe48ba0 size 0x138 virtual true final true
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xebd1e0 size 0x4 virtual true final true
+  /// @brief Method Reset addr 0xe4900c size 0x4 virtual true final true
   inline void Reset();
 
-  /// @brief Method GetBlockSize addr 0xebd1e4 size 0x8 virtual true final true
+  /// @brief Method GetBlockSize addr 0xe49010 size 0x8 virtual true final true
   inline int32_t GetBlockSize();
 
-  /// @brief Method F addr 0xebd1ec size 0xa0 virtual false final false
+  /// @brief Method F addr 0xe49018 size 0xa0 virtual false final false
   inline uint32_t F(uint32_t x);
 
-  /// @brief Method ProcessTable addr 0xebd28c size 0x1a8 virtual false final false
+  /// @brief Method ProcessTable addr 0xe490b8 size 0x1a8 virtual false final false
   inline void ProcessTable(uint32_t xl, uint32_t xr, ::ArrayW<uint32_t, ::Array<uint32_t>*> table);
 
-  /// @brief Method SetKey addr 0xebca24 size 0x308 virtual false final false
+  /// @brief Method SetKey addr 0xe48850 size 0x308 virtual false final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method EncryptBlock addr 0xebceac size 0x1a4 virtual false final false
+  /// @brief Method EncryptBlock addr 0xe48cd8 size 0x1a4 virtual false final false
   inline void EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t srcIndex, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t dstIndex);
 
-  /// @brief Method DecryptBlock addr 0xebd050 size 0x190 virtual false final false
+  /// @brief Method DecryptBlock addr 0xe48e7c size 0x190 virtual false final false
   inline void DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t srcIndex, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t dstIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "BlowfishEngine", modifiers: "&&", def_value: None }]
@@ -235,6 +235,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::BlowfishEngine, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::BlowfishEngine, ___S0) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::BlowfishEngine, ___S1) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::BlowfishEngine, ___S2) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::BlowfishEngine, ___S3) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::BlowfishEngine, ___P) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::BlowfishEngine, ___encrypting) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::BlowfishEngine, ___workingKey) == 0x40, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::BlowfishEngine);

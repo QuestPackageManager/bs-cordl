@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BTSStarTextEffectController)
 namespace UnityEngine {
+class Sprite;
+}
+namespace UnityEngine {
 class SpriteRenderer;
 }
-namespace GlobalNamespace {
-class __BTSStarTextEffectController__Pool;
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 class Animation;
 }
-namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class __BTSStarTextEffectController__Pool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BTSStarTextEffectController__Pool);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3979))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3965))
 // CS Name: ::BTSStarTextEffectController*
 class CORDL_TYPE BTSStarTextEffectController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -83,15 +83,15 @@ public:
 
   constexpr void __set__currentAnimationDuration(float_t value);
 
-  /// @brief Method get_animationDuration addr 0x221d164 size 0x8 virtual false final false
+  /// @brief Method get_animationDuration addr 0x20bc17c size 0x8 virtual false final false
   inline float_t get_animationDuration();
 
-  /// @brief Method Reinitialize addr 0x221d16c size 0x108 virtual false final false
+  /// @brief Method Reinitialize addr 0x20bc184 size 0x108 virtual false final false
   inline void Reinitialize(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* parentTransform, float_t desiredAnimationLength);
 
   static inline ::GlobalNamespace::BTSStarTextEffectController* New_ctor();
 
-  /// @brief Method .ctor addr 0x221d274 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20bc28c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSStarTextEffectController", modifiers: "&&", def_value: None }]
@@ -128,24 +128,32 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BTSStarTextEffectController, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::BTSStarTextEffectController, ____transform) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BTSStarTextEffectController, ____spriteRenderer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BTSStarTextEffectController, ____animation) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BTSStarTextEffectController, ____currentAnimationDuration) == 0x30, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Pool
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11053), inst: 3514 }), TypeDefinitionIndex(TypeDefinitionIndex(11053)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(10276)), TypeDefinitionIndex(TypeDefinitionIndex(3979))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(3978)) CS Name: ::BTSStarTextEffectController::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10981)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10981), inst: 3440 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10213)), TypeDefinitionIndex(TypeDefinitionIndex(10203)), TypeDefinitionIndex(TypeDefinitionIndex(3965))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(3964)) CS Name: ::BTSStarTextEffectController::Pool*
 class CORDL_TYPE __BTSStarTextEffectController__Pool : public ::Zenject::MonoMemoryPool_4<::UnityEngine::Sprite*, ::UnityEngine::Transform*, float_t, ::GlobalNamespace::BTSStarTextEffectController*> {
 public:
   // Declarations
-  /// @brief Method Reinitialize addr 0x221d27c size 0x14 virtual true final false
+  /// @brief Method Reinitialize addr 0x20bc294 size 0x14 virtual true final false
   inline void Reinitialize(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* transform, float_t desiredAnimationLength,
                            ::GlobalNamespace::BTSStarTextEffectController* starTextEffectController);
 
   static inline ::GlobalNamespace::__BTSStarTextEffectController__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x221d290 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x20bc2a8 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BTSStarTextEffectController__Pool", modifiers: "&&", def_value: None }]

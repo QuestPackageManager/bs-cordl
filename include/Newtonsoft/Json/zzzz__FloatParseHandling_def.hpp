@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::FloatParseHandling);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11799))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11727))
 // CS Name: ::Newtonsoft.Json::FloatParseHandling
 struct CORDL_TYPE FloatParseHandling {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::FloatParseHandling, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::FloatParseHandling, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::FloatParseHandling, "Newtonsoft.Json", "FloatParseHandling");

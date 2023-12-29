@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(Cone)
 namespace UnityEngine {
 struct Bounds;
 }
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Cone);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12233))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12225))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12161))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12153))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Cone*
 class CORDL_TYPE Cone : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
@@ -64,18 +64,18 @@ public:
 
   constexpr void __set_m_Smooth(bool value);
 
-  /// @brief Method CopyShape addr 0x2b87aec size 0x84 virtual true final false
+  /// @brief Method CopyShape addr 0x2a06d98 size 0x84 virtual true final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method UpdateBounds addr 0x2b87b70 size 0x174 virtual true final false
+  /// @brief Method UpdateBounds addr 0x2a06e1c size 0x174 virtual true final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
-  /// @brief Method RebuildMesh addr 0x2b87ce4 size 0xc4c virtual true final false
+  /// @brief Method RebuildMesh addr 0x2a06f90 size 0xc4c virtual true final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Cone* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b88930 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x2a07bdc size 0x18 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Cone", modifiers: "&&", def_value: None }]
@@ -105,6 +105,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::Cone, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Cone, ___m_NumberOfSides) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Cone, ___m_Radius) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Cone, ___m_Smooth) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Shapes
 NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Cone);

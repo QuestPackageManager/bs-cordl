@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_CurveOrders);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9712))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9639))
 // CS Name: ::HoudiniEngineUnity::HAPI_CurveOrders
 struct CORDL_TYPE HAPI_CurveOrders {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_CurveOrders, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CurveOrders, value__) == 0x0, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_CurveOrders, "HoudiniEngineUnity", "HAPI_CurveOrders");

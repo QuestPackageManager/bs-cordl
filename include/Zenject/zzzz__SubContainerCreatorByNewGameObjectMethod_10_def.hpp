@@ -6,27 +6,27 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__SubContainerCreatorByNewGameObjectDynamicContext_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewGameObjectMethod_10)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Zenject {
-class GameObjectCreationParameters;
-}
 namespace Zenject {
 struct TypeValuePair;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
 class GameObjectContext;
 }
 namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10>
 class __SubContainerCreatorByNewGameObjectMethod_10____c__DisplayClass2_0;
 }
-namespace Zenject {
-class DiContainer;
-}
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11> class Action_11;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
 }
 namespace System {
 class Object;
@@ -52,8 +52,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11271))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11199))
 // CS Name: ::SubContainerCreatorByNewGameObjectMethod`10::<>c__DisplayClass2_0<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10>*
 class CORDL_TYPE __SubContainerCreatorByNewGameObjectMethod_10____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -124,8 +124,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11255))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11272))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11183))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11200))
 // CS Name: ::Zenject::SubContainerCreatorByNewGameObjectMethod`10<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10>*
 class CORDL_TYPE SubContainerCreatorByNewGameObjectMethod_10 : public ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext {
 public:

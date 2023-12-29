@@ -12,25 +12,25 @@ namespace UnityEngine {
 class MeshRenderer;
 }
 namespace UnityEngine {
-class MeshFilter;
+class Material;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine {
+class MeshFilter;
 }
 namespace GlobalNamespace {
 class __OVRScreenFade___Fade_d__25;
 }
-namespace UnityEngine {
-class Material;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRScreenFade___Fade_d__25);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8164))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8939))
 // CS Name: ::OVRScreenFade::<Fade>d__25*
 class CORDL_TYPE __OVRScreenFade___Fade_d__25 : public ::System::Object {
 public:
@@ -121,22 +121,22 @@ public:
 
   static inline ::GlobalNamespace::__OVRScreenFade___Fade_d__25* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x27bd724 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x26479cc size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x27bd778 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2647a20 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x27bd77c size 0x11c virtual true final true
+  /// @brief Method MoveNext addr 0x2647a24 size 0x11c virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x27bd898 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2647b40 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x27bd8a0 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2647b48 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x27bd8e0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2647b88 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRScreenFade___Fade_d__25", modifiers: "&&", def_value: None }]
@@ -176,13 +176,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRScreenFade___Fade_d__25, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRScreenFade___Fade_d__25, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRScreenFade___Fade_d__25, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRScreenFade___Fade_d__25, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRScreenFade___Fade_d__25, ___startAlpha) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRScreenFade___Fade_d__25, ___endAlpha) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRScreenFade___Fade_d__25, ____elapsedTime_5__2) == 0x30, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OVRScreenFade
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8165))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8940))
 // CS Name: ::OVRScreenFade*
 class CORDL_TYPE OVRScreenFade : public ::UnityEngine::MonoBehaviour {
 public:
@@ -297,48 +309,48 @@ public:
 
   static inline ::GlobalNamespace::OVRScreenFade* getStaticF__instance_k__BackingField();
 
-  /// @brief Method get_instance addr 0x27bcdac size 0x48 virtual false final false
+  /// @brief Method get_instance addr 0x2647054 size 0x48 virtual false final false
   static inline ::GlobalNamespace::OVRScreenFade* get_instance();
 
-  /// @brief Method set_instance addr 0x27bcdf4 size 0x4c virtual false final false
+  /// @brief Method set_instance addr 0x264709c size 0x4c virtual false final false
   static inline void set_instance(::GlobalNamespace::OVRScreenFade* value);
 
-  /// @brief Method get_currentAlpha addr 0x27bce40 size 0xbc virtual false final false
+  /// @brief Method get_currentAlpha addr 0x26470e8 size 0xbc virtual false final false
   inline float_t get_currentAlpha();
 
-  /// @brief Method Start addr 0x27bcefc size 0x49c virtual false final false
+  /// @brief Method Start addr 0x26471a4 size 0x49c virtual false final false
   inline void Start();
 
-  /// @brief Method FadeIn addr 0x27bd398 size 0x28 virtual false final false
+  /// @brief Method FadeIn addr 0x2647640 size 0x28 virtual false final false
   inline void FadeIn();
 
-  /// @brief Method FadeOut addr 0x27bd43c size 0x28 virtual false final false
+  /// @brief Method FadeOut addr 0x26476e4 size 0x28 virtual false final false
   inline void FadeOut();
 
-  /// @brief Method OnLevelFinishedLoading addr 0x27bd464 size 0x28 virtual false final false
+  /// @brief Method OnLevelFinishedLoading addr 0x264770c size 0x28 virtual false final false
   inline void OnLevelFinishedLoading(int32_t level);
 
-  /// @brief Method OnEnable addr 0x27bd48c size 0x18 virtual false final false
+  /// @brief Method OnEnable addr 0x2647734 size 0x18 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDestroy addr 0x27bd4a4 size 0x154 virtual false final false
+  /// @brief Method OnDestroy addr 0x264774c size 0x154 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method SetUIFade addr 0x27bd5f8 size 0x1c virtual false final false
+  /// @brief Method SetUIFade addr 0x26478a0 size 0x1c virtual false final false
   inline void SetUIFade(float_t level);
 
-  /// @brief Method SetExplicitFade addr 0x27bd71c size 0x8 virtual false final false
+  /// @brief Method SetExplicitFade addr 0x26479c4 size 0x8 virtual false final false
   inline void SetExplicitFade(float_t level);
 
-  /// @brief Method Fade addr 0x27bd3c0 size 0x7c virtual false final false
+  /// @brief Method Fade addr 0x2647668 size 0x7c virtual false final false
   inline ::System::Collections::IEnumerator* Fade(float_t startAlpha, float_t endAlpha);
 
-  /// @brief Method SetMaterialAlpha addr 0x27bd614 size 0x108 virtual false final false
+  /// @brief Method SetMaterialAlpha addr 0x26478bc size 0x108 virtual false final false
   inline void SetMaterialAlpha();
 
   static inline ::GlobalNamespace::OVRScreenFade* New_ctor();
 
-  /// @brief Method .ctor addr 0x27bd74c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x26479f4 size 0x2c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRScreenFade", modifiers: "&&", def_value: None }]
@@ -392,6 +404,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRScreenFade, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRScreenFade, ___fadeTime) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRScreenFade, ___fadeColor) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRScreenFade, ___fadeOnStart) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRScreenFade, ___renderQueue) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRScreenFade, ___explicitFadeAlpha) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRScreenFade, ___animatedFadeAlpha) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRScreenFade, ___uiFadeAlpha) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRScreenFade, ___fadeRenderer) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRScreenFade, ___fadeMesh) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRScreenFade, ___fadeMaterial) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRScreenFade, ___isFading) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRScreenFade);

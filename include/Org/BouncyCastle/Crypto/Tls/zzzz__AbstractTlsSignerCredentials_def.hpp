@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractTlsSignerCredentials)
 namespace Org::BouncyCastle::Crypto::Tls {
-class SignatureAndHashAlgorithm;
+class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSignerCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
+class SignatureAndHashAlgorithm;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -42,12 +42,12 @@ public:
   /// @brief Method GenerateCertificateSignature addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateCertificateSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> hash);
 
-  /// @brief Method get_SignatureAndHashAlgorithm addr 0xf5c9d8 size 0x50 virtual true final false
+  /// @brief Method get_SignatureAndHashAlgorithm addr 0xee67c8 size 0x50 virtual true final false
   inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* get_SignatureAndHashAlgorithm();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials* New_ctor();
 
-  /// @brief Method .ctor addr 0xf5ca28 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xee6818 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsSignerCredentials", modifiers: "&&", def_value: None }]

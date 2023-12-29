@@ -38,16 +38,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::IO::DigestSink* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0xf07b08 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xe92934 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_Digest addr 0xf07b30 size 0x8 virtual true final false
+  /// @brief Method get_Digest addr 0xe9295c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
-  /// @brief Method WriteByte addr 0xf07b38 size 0xac virtual true final false
+  /// @brief Method WriteByte addr 0xe92964 size 0xac virtual true final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method Write addr 0xf07be4 size 0xdc virtual true final false
+  /// @brief Method Write addr 0xe92a10 size 0xdc virtual true final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "DigestSink", modifiers: "&&", def_value: None }]
@@ -71,6 +71,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::IO::DigestSink, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::IO::DigestSink, ___mDigest) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::IO
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::IO::DigestSink);

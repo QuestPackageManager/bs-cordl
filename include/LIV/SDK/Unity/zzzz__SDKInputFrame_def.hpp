@@ -12,6 +12,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SDKInputFrame)
 namespace LIV::SDK::Unity {
+struct SDKPose;
+}
+namespace LIV::SDK::Unity {
 struct SDKClipPlane;
 }
 namespace LIV::SDK::Unity {
@@ -19,9 +22,6 @@ struct SDKTransform;
 }
 namespace LIV::SDK::Unity {
 struct FEATURES;
-}
-namespace LIV::SDK::Unity {
-struct SDKPose;
 }
 namespace LIV::SDK::Unity {
 struct SDKPriority;
@@ -36,21 +36,21 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKInputFrame);
 // SizeInfo { instance_size: 344, native_size: 344, calculated_instance_size: 344, calculated_native_size: 360, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15101)), TypeDefinitionIndex(TypeDefinitionIndex(15122)), TypeDefinitionIndex(TypeDefinitionIndex(15119)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15113)), TypeDefinitionIndex(TypeDefinitionIndex(15120))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15115)) CS Name: ::LIV.SDK.Unity::SDKInputFrame
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15223)), TypeDefinitionIndex(TypeDefinitionIndex(15205)), TypeDefinitionIndex(TypeDefinitionIndex(15224)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15217)), TypeDefinitionIndex(TypeDefinitionIndex(15226))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15219)) CS Name: ::LIV.SDK.Unity::SDKInputFrame
 struct CORDL_TYPE SDKInputFrame {
 public:
   // Declarations
-  /// @brief Method get_empty addr 0x220f32c size 0x144 virtual false final false
+  /// @brief Method get_empty addr 0x20ae3f4 size 0x144 virtual false final false
   static inline ::LIV::SDK::Unity::SDKInputFrame get_empty();
 
-  /// @brief Method ReleaseControl addr 0x2213858 size 0x10 virtual false final false
+  /// @brief Method ReleaseControl addr 0x20b2920 size 0x10 virtual false final false
   inline void ReleaseControl();
 
-  /// @brief Method ObtainControl addr 0x2213868 size 0x14 virtual false final false
+  /// @brief Method ObtainControl addr 0x20b2930 size 0x14 virtual false final false
   inline void ObtainControl();
 
-  /// @brief Method ToString addr 0x221527c size 0x334 virtual true final false
+  /// @brief Method ToString addr 0x20b4344 size 0x334 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "pose", ty: "::LIV::SDK::Unity::SDKPose", modifiers: "", def_value: None }, CppParam { name: "clipPlane", ty: "::LIV::SDK::Unity::SDKClipPlane", modifiers: "",
@@ -96,6 +96,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::SDKInputFrame, 0x158>, "Size mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKInputFrame, pose) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKInputFrame, clipPlane) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKInputFrame, stageTransform) == 0xbc, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKInputFrame, features) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKInputFrame, groundClipPlane) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKInputFrame, frameid) == 0x140, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKInputFrame, referenceframe) == 0x148, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKInputFrame, priority) == 0x150, "Offset mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKInputFrame, "LIV.SDK.Unity", "SDKInputFrame");

@@ -24,7 +24,7 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace RootMotion::FinalIK {
-class __HitReaction__HitPoint;
+class __HitReaction__HitPointEffector;
 }
 namespace UnityEngine {
 class Collider;
@@ -33,16 +33,16 @@ namespace RootMotion::FinalIK {
 class __HitReaction__HitPointBone;
 }
 namespace RootMotion::FinalIK {
-class __HitReaction__HitPointEffector;
+class __HitReaction__HitPoint;
 }
-namespace GlobalNamespace {
-class __HitReaction__HitPointBone__BoneLink;
+namespace UnityEngine {
+class Rigidbody;
 }
 namespace UnityEngine {
 class AnimationCurve;
 }
-namespace UnityEngine {
-class Rigidbody;
+namespace GlobalNamespace {
+class __HitReaction__HitPointBone__BoneLink;
 }
 namespace GlobalNamespace {
 class __HitReaction__HitPointEffector__EffectorLink;
@@ -77,8 +77,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__HitReaction__HitPointEffector);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12638))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12566))
 // CS Name: ::HitReaction::HitPoint*
 class CORDL_TYPE __HitReaction__HitPoint : public ::System::Object {
 public:
@@ -183,37 +183,37 @@ public:
 
   constexpr void __set_lastTime(float_t value);
 
-  /// @brief Method get_inProgress addr 0x1294f40 size 0x14 virtual false final false
+  /// @brief Method get_inProgress addr 0x1223c14 size 0x14 virtual false final false
   inline bool get_inProgress();
 
-  /// @brief Method get_crossFader addr 0x1295440 size 0x8 virtual false final false
+  /// @brief Method get_crossFader addr 0x1224114 size 0x8 virtual false final false
   inline float_t get_crossFader();
 
-  /// @brief Method set_crossFader addr 0x1295448 size 0x8 virtual false final false
+  /// @brief Method set_crossFader addr 0x122411c size 0x8 virtual false final false
   inline void set_crossFader(float_t value);
 
-  /// @brief Method get_timer addr 0x1295450 size 0x8 virtual false final false
+  /// @brief Method get_timer addr 0x1224124 size 0x8 virtual false final false
   inline float_t get_timer();
 
-  /// @brief Method set_timer addr 0x1295458 size 0x8 virtual false final false
+  /// @brief Method set_timer addr 0x122412c size 0x8 virtual false final false
   inline void set_timer(float_t value);
 
-  /// @brief Method get_force addr 0x1295460 size 0xc virtual false final false
+  /// @brief Method get_force addr 0x1224134 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_force();
 
-  /// @brief Method set_force addr 0x129546c size 0xc virtual false final false
+  /// @brief Method set_force addr 0x1224140 size 0xc virtual false final false
   inline void set_force(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_point addr 0x1295478 size 0xc virtual false final false
+  /// @brief Method get_point addr 0x122414c size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_point();
 
-  /// @brief Method set_point addr 0x1295484 size 0xc virtual false final false
+  /// @brief Method set_point addr 0x1224158 size 0xc virtual false final false
   inline void set_point(::UnityEngine::Vector3 value);
 
-  /// @brief Method Hit addr 0x1295308 size 0x128 virtual false final false
+  /// @brief Method Hit addr 0x1223fdc size 0x128 virtual false final false
   inline void Hit(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 point);
 
-  /// @brief Method Apply addr 0x1295014 size 0xd8 virtual false final false
+  /// @brief Method Apply addr 0x1223ce8 size 0xd8 virtual false final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
 
   /// @brief Method GetLength addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -227,7 +227,7 @@ public:
 
   static inline ::RootMotion::FinalIK::__HitReaction__HitPoint* New_ctor();
 
-  /// @brief Method .ctor addr 0x1295490 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x1224164 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HitReaction__HitPoint", modifiers: "&&", def_value: None }]
@@ -279,13 +279,33 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__HitReaction__HitPoint, 0x50>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPoint, ___name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPoint, ___collider) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPoint, ___crossFadeTime) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPoint, ____crossFader_k__BackingField) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPoint, ____timer_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPoint, ____force_k__BackingField) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPoint, ____point_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPoint, ___length) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPoint, ___crossFadeSpeed) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPoint, ___lastTime) == 0x4c, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::EffectorLink
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12571)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12639))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12499))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12567))
 // CS Name: ::HitReaction::HitPointEffector::EffectorLink*
 class CORDL_TYPE __HitReaction__HitPointEffector__EffectorLink : public ::System::Object {
 public:
@@ -326,15 +346,15 @@ public:
 
   constexpr void __set_current(::UnityEngine::Vector3 value);
 
-  /// @brief Method Apply addr 0x12957c4 size 0x9c virtual false final false
+  /// @brief Method Apply addr 0x1224498 size 0x9c virtual false final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Vector3 offset, float_t crossFader);
 
-  /// @brief Method CrossFadeStart addr 0x1295620 size 0x14 virtual false final false
+  /// @brief Method CrossFadeStart addr 0x12242f4 size 0x14 virtual false final false
   inline void CrossFadeStart();
 
   static inline ::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink* New_ctor();
 
-  /// @brief Method .ctor addr 0x1295874 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1224548 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HitReaction__HitPointEffector__EffectorLink", modifiers: "&&", def_value: None }]
@@ -368,13 +388,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink, ___effector) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink, ___weight) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink, ___lastValue) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink, ___current) == 0x24, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::HitPointEffector
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12638))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12640))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12566))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12568))
 // CS Name: ::HitReaction::HitPointEffector*
 class CORDL_TYPE __HitReaction__HitPointEffector : public ::RootMotion::FinalIK::__HitReaction__HitPoint {
 public:
@@ -410,18 +438,18 @@ public:
 
   constexpr void __set_effectorLinks(::ArrayW<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*, ::Array<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*>*> value);
 
-  /// @brief Method GetLength addr 0x12954a4 size 0x11c virtual true final false
+  /// @brief Method GetLength addr 0x1224178 size 0x11c virtual true final false
   inline float_t GetLength();
 
-  /// @brief Method CrossFadeStart addr 0x12955c0 size 0x60 virtual true final false
+  /// @brief Method CrossFadeStart addr 0x1224294 size 0x60 virtual true final false
   inline void CrossFadeStart();
 
-  /// @brief Method OnApply addr 0x1295634 size 0x190 virtual true final false
+  /// @brief Method OnApply addr 0x1224308 size 0x190 virtual true final false
   inline void OnApply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
 
   static inline ::RootMotion::FinalIK::__HitReaction__HitPointEffector* New_ctor();
 
-  /// @brief Method .ctor addr 0x1295860 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x1224534 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HitReaction__HitPointEffector", modifiers: "&&", def_value: None }]
@@ -452,13 +480,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__HitReaction__HitPointEffector, 0x68>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPointEffector, ___offsetInForceDirection) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPointEffector, ___offsetInUpDirection) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPointEffector, ___effectorLinks) == 0x60, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::BoneLink
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12641))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10179))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12569))
 // CS Name: ::HitReaction::HitPointBone::BoneLink*
 class CORDL_TYPE __HitReaction__HitPointBone__BoneLink : public ::System::Object {
 public:
@@ -499,15 +533,15 @@ public:
 
   constexpr void __set_current(::UnityEngine::Quaternion value);
 
-  /// @brief Method Apply addr 0x1295b34 size 0x18c virtual false final false
+  /// @brief Method Apply addr 0x1224808 size 0x18c virtual false final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Quaternion offset, float_t crossFader);
 
-  /// @brief Method CrossFadeStart addr 0x1295960 size 0xc virtual false final false
+  /// @brief Method CrossFadeStart addr 0x1224634 size 0xc virtual false final false
   inline void CrossFadeStart();
 
   static inline ::GlobalNamespace::__HitReaction__HitPointBone__BoneLink* New_ctor();
 
-  /// @brief Method .ctor addr 0x1295cd4 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x12249a8 size 0x64 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HitReaction__HitPointBone__BoneLink", modifiers: "&&", def_value: None }]
@@ -541,13 +575,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HitReaction__HitPointBone__BoneLink, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__HitReaction__HitPointBone__BoneLink, ___bone) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__HitReaction__HitPointBone__BoneLink, ___weight) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__HitReaction__HitPointBone__BoneLink, ___lastValue) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__HitReaction__HitPointBone__BoneLink, ___current) == 0x2c, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::HitPointBone
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12638))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12642))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12566))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12570))
 // CS Name: ::HitReaction::HitPointBone*
 class CORDL_TYPE __HitReaction__HitPointBone : public ::RootMotion::FinalIK::__HitReaction__HitPoint {
 public:
@@ -582,18 +624,18 @@ public:
 
   constexpr void __set_rigidbody(::UnityEngine::Rigidbody* value);
 
-  /// @brief Method GetLength addr 0x129587c size 0x8c virtual true final false
+  /// @brief Method GetLength addr 0x1224550 size 0x8c virtual true final false
   inline float_t GetLength();
 
-  /// @brief Method CrossFadeStart addr 0x1295908 size 0x58 virtual true final false
+  /// @brief Method CrossFadeStart addr 0x12245dc size 0x58 virtual true final false
   inline void CrossFadeStart();
 
-  /// @brief Method OnApply addr 0x129596c size 0x1c8 virtual true final false
+  /// @brief Method OnApply addr 0x1224640 size 0x1c8 virtual true final false
   inline void OnApply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
 
   static inline ::RootMotion::FinalIK::__HitReaction__HitPointBone* New_ctor();
 
-  /// @brief Method .ctor addr 0x1295cc0 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x1224994 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HitReaction__HitPointBone", modifiers: "&&", def_value: None }]
@@ -624,13 +666,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__HitReaction__HitPointBone, 0x68>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPointBone, ___aroundCenterOfMass) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPointBone, ___boneLinks) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPointBone, ___rigidbody) == 0x60, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: RootMotion.FinalIK::HitReaction
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12656))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12643))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12584))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12571))
 // CS Name: ::RootMotion.FinalIK::HitReaction*
 class CORDL_TYPE HitReaction : public ::RootMotion::FinalIK::OffsetModifier {
 public:
@@ -664,18 +712,18 @@ public:
 
   constexpr void __set_boneHitPoints(::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointBone*, ::Array<::RootMotion::FinalIK::__HitReaction__HitPointBone*>*> value);
 
-  /// @brief Method get_inProgress addr 0x1294ea4 size 0x9c virtual false final false
+  /// @brief Method get_inProgress addr 0x1223b78 size 0x9c virtual false final false
   inline bool get_inProgress();
 
-  /// @brief Method OnModifyOffset addr 0x1294f54 size 0xc0 virtual true final false
+  /// @brief Method OnModifyOffset addr 0x1223c28 size 0xc0 virtual true final false
   inline void OnModifyOffset();
 
-  /// @brief Method Hit addr 0x12950ec size 0x21c virtual false final false
+  /// @brief Method Hit addr 0x1223dc0 size 0x21c virtual false final false
   inline void Hit(::UnityEngine::Collider* collider, ::UnityEngine::Vector3 force, ::UnityEngine::Vector3 point);
 
   static inline ::RootMotion::FinalIK::HitReaction* New_ctor();
 
-  /// @brief Method .ctor addr 0x1295430 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x1224104 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HitReaction", modifiers: "&&", def_value: None }]
@@ -702,6 +750,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::HitReaction, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::HitReaction, ___effectorHitPoints) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::HitReaction, ___boneHitPoints) == 0x38, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::GlobalNamespace::__HitReaction__HitPointBone__BoneLink);

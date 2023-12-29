@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsKeyTransRecipientInfoGenerator)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class IKeyWrapper;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Crypto {
-class IKeyWrapper;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Operators {
@@ -48,18 +48,18 @@ public:
   static inline ::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate* recipCert,
                                                                                             ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
 
-  /// @brief Method .ctor addr 0xf2d928 size 0x14c virtual false final false
+  /// @brief Method .ctor addr 0xeb873c size 0x14c virtual false final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* recipCert, ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
 
   static inline ::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyID, ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
 
-  /// @brief Method .ctor addr 0xf2da74 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0xeb8888 size 0x74 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyID, ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
 
-  /// @brief Method get_AlgorithmDetails addr 0xf2dae8 size 0xec virtual true final false
+  /// @brief Method get_AlgorithmDetails addr 0xeb88fc size 0xec virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmDetails();
 
-  /// @brief Method GenerateWrappedKey addr 0xf2dbd4 size 0x130 virtual true final false
+  /// @brief Method GenerateWrappedKey addr 0xeb89e8 size 0x130 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateWrappedKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsKeyTransRecipientInfoGenerator", modifiers: "&&", def_value: None }]
@@ -83,6 +83,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator, ___keyWrapper) == 0x40, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Operators
 NEED_NO_BOX(::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator);

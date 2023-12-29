@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Platform);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8898))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7735))
 // CS Name: ::System::Platform*
 class CORDL_TYPE Platform : public ::System::Object {
 public:
@@ -63,25 +63,25 @@ public:
 
   static inline bool getStaticF_isOpenBSD();
 
-  /// @brief Method uname addr 0x294d900 size 0x7c virtual false final false
+  /// @brief Method uname addr 0x27d07e0 size 0x7c virtual false final false
   static inline int32_t uname(void* buf);
 
-  /// @brief Method CheckOS addr 0x294d97c size 0x20c virtual false final false
+  /// @brief Method CheckOS addr 0x27d085c size 0x20c virtual false final false
   static inline void CheckOS();
 
-  /// @brief Method get_IsMacOS addr 0x294db88 size 0xe0 virtual false final false
+  /// @brief Method get_IsMacOS addr 0x27d0a68 size 0xe0 virtual false final false
   static inline bool get_IsMacOS();
 
-  /// @brief Method get_IsFreeBSD addr 0x294dc68 size 0x5c virtual false final false
+  /// @brief Method get_IsFreeBSD addr 0x27d0b48 size 0x5c virtual false final false
   static inline bool get_IsFreeBSD();
 
-  /// @brief Method get_IsOpenBSD addr 0x294dcc4 size 0x5c virtual false final false
+  /// @brief Method get_IsOpenBSD addr 0x27d0ba4 size 0x5c virtual false final false
   static inline bool get_IsOpenBSD();
 
-  /// @brief Method get_IsIBMi addr 0x294dd20 size 0x5c virtual false final false
+  /// @brief Method get_IsIBMi addr 0x27d0c00 size 0x5c virtual false final false
   static inline bool get_IsIBMi();
 
-  /// @brief Method get_IsAix addr 0x294dd7c size 0x5c virtual false final false
+  /// @brief Method get_IsAix addr 0x27d0c5c size 0x5c virtual false final false
   static inline bool get_IsAix();
 
   // Ctor Parameters [CppParam { name: "", ty: "Platform", modifiers: "&&", def_value: None }]

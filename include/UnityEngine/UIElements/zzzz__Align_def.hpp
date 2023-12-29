@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Align);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6891))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6977))
 // CS Name: ::UnityEngine.UIElements::Align
 struct CORDL_TYPE Align {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Align, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Align, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Align, "UnityEngine.UIElements", "Align");

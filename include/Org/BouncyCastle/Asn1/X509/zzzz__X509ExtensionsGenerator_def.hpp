@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ExtensionsGenerator)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace System::Collections {
-class IDictionary;
+class IList;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
-}
-namespace System::Collections {
-class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(407))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::X509ExtensionsGenerator*
 class CORDL_TYPE X509ExtensionsGenerator : public ::System::Object {
@@ -57,24 +57,24 @@ public:
 
   constexpr void __set_extOrdering(::System::Collections::IList* value);
 
-  /// @brief Method Reset addr 0x11a10a8 size 0x68 virtual false final false
+  /// @brief Method Reset addr 0x1130e60 size 0x68 virtual false final false
   inline void Reset();
 
-  /// @brief Method AddExtension addr 0x11a1110 size 0x114 virtual false final false
+  /// @brief Method AddExtension addr 0x1130ec8 size 0x114 virtual false final false
   inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* extValue);
 
-  /// @brief Method AddExtension addr 0x11a1224 size 0x28c virtual false final false
+  /// @brief Method AddExtension addr 0x1130fdc size 0x28c virtual false final false
   inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> extValue);
 
-  /// @brief Method get_IsEmpty addr 0x11a14b0 size 0xb0 virtual false final false
+  /// @brief Method get_IsEmpty addr 0x1131268 size 0xb0 virtual false final false
   inline bool get_IsEmpty();
 
-  /// @brief Method Generate addr 0x11a1560 size 0x68 virtual false final false
+  /// @brief Method Generate addr 0x1131318 size 0x68 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* Generate();
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x11a15c8 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x1131380 size 0x70 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509ExtensionsGenerator", modifiers: "&&", def_value: None }]
@@ -101,6 +101,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator, ___extensions) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator, ___extOrdering) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator);

@@ -44,21 +44,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::GenRepContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe67a3c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xdf286c size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe67a64 size 0x18c virtual false final false
+  /// @brief Method GetInstance addr 0xdf2894 size 0x18c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::GenRepContent* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::GenRepContent* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> itv);
 
-  /// @brief Method .ctor addr 0xe67bf0 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0xdf2a20 size 0x7c virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> itv);
 
-  /// @brief Method ToInfoTypeAndValueArray addr 0xe67c6c size 0xf4 virtual true final false
+  /// @brief Method ToInfoTypeAndValueArray addr 0xdf2a9c size 0xf4 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> ToInfoTypeAndValueArray();
 
-  /// @brief Method ToAsn1Object addr 0xe67d60 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xdf2b90 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "GenRepContent", modifiers: "&&", def_value: None }]
@@ -82,6 +82,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::GenRepContent, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::GenRepContent, ___content) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::GenRepContent);

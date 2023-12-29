@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TextContainerAnchors);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12305))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12233))
 // CS Name: ::TMPro::TextContainerAnchors
 struct CORDL_TYPE TextContainerAnchors {
 public:
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TextContainerAnchors, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TextContainerAnchors, value__) == 0x0, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TextContainerAnchors, "TMPro", "TextContainerAnchors");

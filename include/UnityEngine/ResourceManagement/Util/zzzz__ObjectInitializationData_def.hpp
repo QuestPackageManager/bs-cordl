@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(ObjectInitializationData)
 namespace UnityEngine::ResourceManagement::Util {
 struct SerializedType;
 }
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -25,8 +25,8 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::Util::ObjectInitializationData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13983))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13984))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14254))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14255))
 // CS Name: ::UnityEngine.ResourceManagement.Util::ObjectInitializationData
 struct CORDL_TYPE ObjectInitializationData {
 public:
@@ -37,22 +37,22 @@ public:
 
   __declspec(property(get = get_Data))::StringW Data;
 
-  /// @brief Method get_Id addr 0x2bd27e0 size 0x8 virtual false final false
+  /// @brief Method get_Id addr 0x2a4fa8c size 0x8 virtual false final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_ObjectType addr 0x2bd27e8 size 0x10 virtual false final false
+  /// @brief Method get_ObjectType addr 0x2a4fa94 size 0x10 virtual false final false
   inline ::UnityEngine::ResourceManagement::Util::SerializedType get_ObjectType();
 
-  /// @brief Method get_Data addr 0x2bd27f8 size 0x8 virtual false final false
+  /// @brief Method get_Data addr 0x2a4faa4 size 0x8 virtual false final false
   inline ::StringW get_Data();
 
-  /// @brief Method ToString addr 0x2bd2800 size 0x98 virtual true final false
+  /// @brief Method ToString addr 0x2a4faac size 0x98 virtual true final false
   inline ::StringW ToString();
 
   /// @brief Method CreateInstance addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename TObject> inline TObject CreateInstance(::StringW idOverride);
 
-  /// @brief Method GetAsyncInitHandle addr 0x2bd2898 size 0x24c virtual false final false
+  /// @brief Method GetAsyncInitHandle addr 0x2a4fb44 size 0x24c virtual false final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle GetAsyncInitHandle(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW idOverride);
 
   // Ctor Parameters [CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_ObjectType", ty: "::UnityEngine::ResourceManagement::Util::SerializedType",
@@ -79,6 +79,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Util::ObjectInitializationData, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::ObjectInitializationData, m_Id) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::ObjectInitializationData, m_ObjectType) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::ObjectInitializationData, m_Data) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::Util
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::ObjectInitializationData, "UnityEngine.ResourceManagement.Util", "ObjectInitializationData");

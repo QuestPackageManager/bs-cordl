@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(OcspStatusRequest)
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
 }
 namespace System::Collections {
 class IList;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1258))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::OcspStatusRequest*
 class CORDL_TYPE OcspStatusRequest : public ::System::Object {
@@ -53,19 +53,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* New_ctor(::System::Collections::IList* responderIDList, ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions);
 
-  /// @brief Method .ctor addr 0xf9208c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xf1be68 size 0x2c virtual false final false
   inline void _ctor(::System::Collections::IList* responderIDList, ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions);
 
-  /// @brief Method get_ResponderIDList addr 0xf920b8 size 0x8 virtual true final false
+  /// @brief Method get_ResponderIDList addr 0xf1be94 size 0x8 virtual true final false
   inline ::System::Collections::IList* get_ResponderIDList();
 
-  /// @brief Method get_RequestExtensions addr 0xf920c0 size 0x8 virtual true final false
+  /// @brief Method get_RequestExtensions addr 0xf1be9c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_RequestExtensions();
 
-  /// @brief Method Encode addr 0xf920c8 size 0x3c0 virtual true final false
+  /// @brief Method Encode addr 0xf1bea4 size 0x3c0 virtual true final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse addr 0xf92488 size 0x2ac virtual false final false
+  /// @brief Method Parse addr 0xf1c264 size 0x2a8 virtual false final false
   static inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* Parse(::System::IO::Stream* input);
 
   // Ctor Parameters [CppParam { name: "", ty: "OcspStatusRequest", modifiers: "&&", def_value: None }]
@@ -92,6 +92,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest, ___mResponderIDList) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest, ___mRequestExtensions) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest);

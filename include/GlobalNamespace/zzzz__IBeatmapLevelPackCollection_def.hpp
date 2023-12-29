@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatmapLevelPackCollection);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4352))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4375))
 // CS Name: ::IBeatmapLevelPackCollection*
 class CORDL_TYPE IBeatmapLevelPackCollection {
 public:

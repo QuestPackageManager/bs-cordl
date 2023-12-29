@@ -22,18 +22,18 @@ MARK_VAL_T(::UnityEngine::SceneManagement::LoadSceneParameters);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::SceneManagement {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10376)), TypeDefinitionIndex(TypeDefinitionIndex(10375))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10377))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10297)), TypeDefinitionIndex(TypeDefinitionIndex(10298))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10299))
 // CS Name: ::UnityEngine.SceneManagement::LoadSceneParameters
 struct CORDL_TYPE LoadSceneParameters {
 public:
   // Declarations
   __declspec(property(put = set_loadSceneMode))::UnityEngine::SceneManagement::LoadSceneMode loadSceneMode;
 
-  /// @brief Method set_loadSceneMode addr 0x2cef280 size 0x8 virtual false final false
+  /// @brief Method set_loadSceneMode addr 0x2b87e4c size 0x8 virtual false final false
   inline void set_loadSceneMode(::UnityEngine::SceneManagement::LoadSceneMode value);
 
-  /// @brief Method .ctor addr 0x2cef288 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2b87e54 size 0x8 virtual false final false
   inline void _ctor(::UnityEngine::SceneManagement::LoadSceneMode mode);
 
   // Ctor Parameters [CppParam { name: "m_LoadSceneMode", ty: "::UnityEngine::SceneManagement::LoadSceneMode", modifiers: "", def_value: None }, CppParam { name: "m_LocalPhysicsMode", ty:
@@ -57,6 +57,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SceneManagement::LoadSceneParameters, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::SceneManagement::LoadSceneParameters, m_LoadSceneMode) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::SceneManagement::LoadSceneParameters, m_LocalPhysicsMode) == 0x4, "Offset mismatch!");
 
 } // namespace UnityEngine::SceneManagement
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SceneManagement::LoadSceneParameters, "UnityEngine.SceneManagement", "LoadSceneParameters");

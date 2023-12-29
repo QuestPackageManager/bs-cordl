@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RSAPKCS1SignatureDescription);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2966))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2967))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2965))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2966))
 // CS Name: ::System.Security.Cryptography::RSAPKCS1SignatureDescription*
 class CORDL_TYPE RSAPKCS1SignatureDescription : public ::System::Security::Cryptography::SignatureDescription {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Security::Cryptography::RSAPKCS1SignatureDescription* New_ctor(::StringW hashAlgorithm, ::StringW digestAlgorithm);
 
-  /// @brief Method .ctor addr 0x246a060 size 0xa4 virtual false final false
+  /// @brief Method .ctor addr 0x23112ec size 0xa4 virtual false final false
   inline void _ctor(::StringW hashAlgorithm, ::StringW digestAlgorithm);
 
   // Ctor Parameters [CppParam { name: "", ty: "RSAPKCS1SignatureDescription", modifiers: "&&", def_value: None }]
@@ -56,6 +56,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::RSAPKCS1SignatureDescription, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RSAPKCS1SignatureDescription, ____hashAlgorithm) == 0x30, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::RSAPKCS1SignatureDescription);

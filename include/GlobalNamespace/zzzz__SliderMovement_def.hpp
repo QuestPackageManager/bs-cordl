@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(SliderMovement)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class PlayerTransforms;
 }
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderMovement);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4824))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4944))
 // CS Name: ::SliderMovement*
 class CORDL_TYPE SliderMovement : public ::UnityEngine::MonoBehaviour {
 public:
@@ -238,55 +238,55 @@ public:
 
   constexpr void __set__timeSinceHeadNoteJump(float_t value);
 
-  /// @brief Method add_movementDidFinishEvent addr 0x2390d50 size 0x9c virtual false final false
+  /// @brief Method add_movementDidFinishEvent addr 0x225c590 size 0x9c virtual false final false
   inline void add_movementDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_movementDidFinishEvent addr 0x23913b8 size 0x9c virtual false final false
+  /// @brief Method remove_movementDidFinishEvent addr 0x225cbf8 size 0x9c virtual false final false
   inline void remove_movementDidFinishEvent(::System::Action* value);
 
-  /// @brief Method add_movementDidMoveEvent addr 0x2394dc4 size 0xb0 virtual false final false
+  /// @brief Method add_movementDidMoveEvent addr 0x22603d0 size 0xb0 virtual false final false
   inline void add_movementDidMoveEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_movementDidMoveEvent addr 0x2394e74 size 0xb0 virtual false final false
+  /// @brief Method remove_movementDidMoveEvent addr 0x2260480 size 0xb0 virtual false final false
   inline void remove_movementDidMoveEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method add_headDidMovePastCutMarkEvent addr 0x2390dec size 0x9c virtual false final false
+  /// @brief Method add_headDidMovePastCutMarkEvent addr 0x225c62c size 0x9c virtual false final false
   inline void add_headDidMovePastCutMarkEvent(::System::Action* value);
 
-  /// @brief Method remove_headDidMovePastCutMarkEvent addr 0x2391454 size 0x9c virtual false final false
+  /// @brief Method remove_headDidMovePastCutMarkEvent addr 0x225cc94 size 0x9c virtual false final false
   inline void remove_headDidMovePastCutMarkEvent(::System::Action* value);
 
-  /// @brief Method add_tailDidMovePastCutMarkEvent addr 0x2390e88 size 0x9c virtual false final false
+  /// @brief Method add_tailDidMovePastCutMarkEvent addr 0x225c6c8 size 0x9c virtual false final false
   inline void add_tailDidMovePastCutMarkEvent(::System::Action* value);
 
-  /// @brief Method remove_tailDidMovePastCutMarkEvent addr 0x23914f0 size 0x9c virtual false final false
+  /// @brief Method remove_tailDidMovePastCutMarkEvent addr 0x225cd30 size 0x9c virtual false final false
   inline void remove_tailDidMovePastCutMarkEvent(::System::Action* value);
 
-  /// @brief Method get_jumpDuration addr 0x2394f24 size 0x8 virtual false final false
+  /// @brief Method get_jumpDuration addr 0x2260530 size 0x8 virtual false final false
   inline float_t get_jumpDuration();
 
-  /// @brief Method get_headNoteGravity addr 0x2394f2c size 0x8 virtual false final false
+  /// @brief Method get_headNoteGravity addr 0x2260538 size 0x8 virtual false final false
   inline float_t get_headNoteGravity();
 
-  /// @brief Method get_tailNoteGravity addr 0x2394f34 size 0x8 virtual false final false
+  /// @brief Method get_tailNoteGravity addr 0x2260540 size 0x8 virtual false final false
   inline float_t get_tailNoteGravity();
 
-  /// @brief Method get_timeSinceHeadNoteJump addr 0x2394f3c size 0x8 virtual false final false
+  /// @brief Method get_timeSinceHeadNoteJump addr 0x2260548 size 0x8 virtual false final false
   inline float_t get_timeSinceHeadNoteJump();
 
-  /// @brief Method Init addr 0x238ff38 size 0xf0 virtual false final false
+  /// @brief Method Init addr 0x225b8d0 size 0xf0 virtual false final false
   inline void Init(float_t headNoteTime, float_t tailNoteTime, float_t worldRotation, ::UnityEngine::Vector3 headNoteJumpStartPos, ::UnityEngine::Vector3 headNoteJumpEndPos, float_t jumpDuration,
                    float_t headNoteGravity, float_t tailNoteGravity);
 
-  /// @brief Method StartMovement addr 0x2390bc8 size 0x28 virtual false final false
+  /// @brief Method StartMovement addr 0x225c408 size 0x28 virtual false final false
   inline void StartMovement();
 
-  /// @brief Method ManualUpdate addr 0x23916f8 size 0x20c virtual false final false
+  /// @brief Method ManualUpdate addr 0x225cf38 size 0x20c virtual false final false
   inline void ManualUpdate();
 
   static inline ::GlobalNamespace::SliderMovement* New_ctor();
 
-  /// @brief Method .ctor addr 0x2394f44 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2260550 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderMovement", modifiers: "&&", def_value: None }]
@@ -370,6 +370,48 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderMovement, 0xb0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ____audioTimeSyncController) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ____playerTransforms) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ___movementDidFinishEvent) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ___movementDidMoveEvent) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ___headDidMovePastCutMarkEvent) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ___tailDidMovePastCutMarkEvent) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ____headNoteJumpStartPos) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ____headNoteJumpEndPos) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ____headNoteTime) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ____tailNoteTime) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ____localPosition) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ____worldRotation) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ____inverseWorldRotation) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ____jumpDuration) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ____headNoteGravity) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ____tailNoteGravity) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ____transform) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ____movementEndReported) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ____headDidMovePastCutMarkReported) == 0xa9, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ____tailDidMovePastCutMarkReported) == 0xaa, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMovement, ____timeSinceHeadNoteJump) == 0xac, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SliderMovement);

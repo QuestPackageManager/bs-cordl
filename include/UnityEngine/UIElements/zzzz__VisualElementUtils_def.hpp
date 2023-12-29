@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementUtils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6917))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7003))
 // CS Name: ::UnityEngine.UIElements::VisualElementUtils*
 class CORDL_TYPE VisualElementUtils : public ::System::Object {
 public:
@@ -45,13 +45,13 @@ public:
 
   static inline ::System::Type* getStaticF_s_FoldoutType();
 
-  /// @brief Method GetUniqueName addr 0x2e038d0 size 0x114 virtual false final false
+  /// @brief Method GetUniqueName addr 0x2c9d520 size 0x114 virtual false final false
   static inline ::StringW GetUniqueName(::StringW nameBase);
 
-  /// @brief Method GetFoldoutDepth addr 0x2e01fe4 size 0xe4 virtual false final false
+  /// @brief Method GetFoldoutDepth addr 0x2c9bc34 size 0xe4 virtual false final false
   static inline int32_t GetFoldoutDepth(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method GetListAndFoldoutDepth addr 0x2e039e4 size 0x114 virtual false final false
+  /// @brief Method GetListAndFoldoutDepth addr 0x2c9d634 size 0x114 virtual false final false
   static inline int32_t GetListAndFoldoutDepth(::UnityEngine::UIElements::VisualElement* element);
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementUtils", modifiers: "&&", def_value: None }]

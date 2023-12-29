@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_OutputAttribute);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9707)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9703))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9666))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9634)), TypeDefinitionIndex(TypeDefinitionIndex(9630)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9593))
 // CS Name: ::HoudiniEngineUnity::HEU_OutputAttribute*
 class CORDL_TYPE HEU_OutputAttribute : public ::System::Object {
 public:
@@ -100,7 +100,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_OutputAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x21839d8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x202d03c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_OutputAttribute", modifiers: "&&", def_value: None }]
@@ -145,6 +145,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_OutputAttribute, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_OutputAttribute, ____name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_OutputAttribute, ____class) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_OutputAttribute, ____type) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_OutputAttribute, ____count) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_OutputAttribute, ____tupleSize) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_OutputAttribute, ____intValues) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_OutputAttribute, ____floatValues) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_OutputAttribute, ____stringValues) == 0x38, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_OutputAttribute);

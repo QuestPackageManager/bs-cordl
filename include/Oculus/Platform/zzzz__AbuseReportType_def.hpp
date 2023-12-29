@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::AbuseReportType);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13222))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13225))
 // CS Name: ::Oculus.Platform::AbuseReportType
 struct CORDL_TYPE AbuseReportType {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::AbuseReportType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::AbuseReportType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::AbuseReportType, "Oculus.Platform", "AbuseReportType");

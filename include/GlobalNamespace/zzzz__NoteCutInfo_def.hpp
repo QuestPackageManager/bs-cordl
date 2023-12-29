@@ -12,20 +12,20 @@ CORDL_MODULE_EXPORT(NoteCutInfo)
 namespace GlobalNamespace {
 struct SaberType;
 }
+namespace UnityEngine {
+struct Vector3;
+}
 namespace GlobalNamespace {
 class ISaberMovementData;
 }
 namespace GlobalNamespace {
 struct __NoteCutInfo__FailReason;
 }
-namespace GlobalNamespace {
-class NoteData;
-}
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class NoteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,7 +42,7 @@ MARK_VAL_T(::GlobalNamespace::NoteCutInfo);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15024))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15169))
 // CS Name: ::NoteCutInfo::FailReason
 struct CORDL_TYPE __NoteCutInfo__FailReason {
 public:
@@ -96,13 +96,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NoteCutInfo__FailReason, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__NoteCutInfo__FailReason, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::NoteCutInfo
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15036)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15025))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15181)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15170))
 // CS Name: ::NoteCutInfo
 struct CORDL_TYPE NoteCutInfo {
 public:
@@ -115,16 +117,16 @@ public:
 
   __declspec(property(get = get_failReason))::GlobalNamespace::__NoteCutInfo__FailReason failReason;
 
-  /// @brief Method get_allIsOK addr 0x12a3fb8 size 0x30 virtual false final false
+  /// @brief Method get_allIsOK addr 0x1231ebc size 0x30 virtual false final false
   inline bool get_allIsOK();
 
-  /// @brief Method get_allExceptSaberTypeIsOK addr 0x12a3fe8 size 0x28 virtual false final false
+  /// @brief Method get_allExceptSaberTypeIsOK addr 0x1231eec size 0x28 virtual false final false
   inline bool get_allExceptSaberTypeIsOK();
 
-  /// @brief Method get_failReason addr 0x12a4010 size 0x44 virtual false final false
+  /// @brief Method get_failReason addr 0x1231f14 size 0x44 virtual false final false
   inline ::GlobalNamespace::__NoteCutInfo__FailReason get_failReason();
 
-  /// @brief Method .ctor addr 0x12a4054 size 0x234 virtual false final false
+  /// @brief Method .ctor addr 0x1231f58 size 0x234 virtual false final false
   inline void _ctor(::GlobalNamespace::NoteData* noteData, bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float_t saberSpeed, ::UnityEngine::Vector3 saberDir,
                     ::GlobalNamespace::SaberType saberType, float_t timeDeviation, float_t cutDirDeviation, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal,
                     float_t cutDistanceToCenter, float_t cutAngle, ::UnityEngine::Quaternion worldRotation, ::UnityEngine::Quaternion inverseWorldRotation, ::UnityEngine::Quaternion noteRotation,
@@ -213,6 +215,44 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutInfo, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, noteData) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, speedOK) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, directionOK) == 0x9, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, saberTypeOK) == 0xa, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, wasCutTooSoon) == 0xb, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, saberSpeed) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, saberDir) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, saberType) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, timeDeviation) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, cutDirDeviation) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, cutPoint) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, cutNormal) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, cutAngle) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, cutDistanceToCenter) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, worldRotation) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, inverseWorldRotation) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, noteRotation) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, notePosition) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfo, saberMovementData) == 0x88, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__NoteCutInfo__FailReason, "", "NoteCutInfo/FailReason");

@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::X509CollectionStore);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1848))
 // CS Name: ::Org.BouncyCastle.X509.Store::X509CollectionStore*
 class CORDL_TYPE X509CollectionStore : public ::System::Object {
@@ -43,10 +43,10 @@ public:
 
   static inline ::Org::BouncyCastle::X509::Store::X509CollectionStore* New_ctor(::System::Collections::ICollection* collection);
 
-  /// @brief Method .ctor addr 0x1171650 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x1101408 size 0x74 virtual false final false
   inline void _ctor(::System::Collections::ICollection* collection);
 
-  /// @brief Method GetMatches addr 0x11716c4 size 0x448 virtual true final true
+  /// @brief Method GetMatches addr 0x110147c size 0x448 virtual true final true
   inline ::System::Collections::ICollection* GetMatches(::Org::BouncyCastle::X509::Store::IX509Selector* selector);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CollectionStore", modifiers: "&&", def_value: None }]
@@ -70,6 +70,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::Store::X509CollectionStore, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::Store::X509CollectionStore, ____local) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::X509::Store
 NEED_NO_BOX(::Org::BouncyCastle::X509::Store::X509CollectionStore);

@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__FactoryFromBinder_1_def.hpp"
 CORDL_MODULE_EXPORT(FactoryToChoiceBinder_1)
-namespace Zenject {
-class FactoryFromBinderUntyped;
-}
 namespace System {
 class Type;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-class FactoryBindInfo;
+template <typename TContract> class FactoryFromBinder_1;
 }
 namespace Zenject {
-template <typename TContract> class FactoryFromBinder_1;
+class FactoryFromBinderUntyped;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class FactoryBindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -34,8 +34,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10716)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10716), inst: 1789 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10848))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10644)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10644), inst: 1725 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10776))
 // CS Name: ::Zenject::FactoryToChoiceBinder`1<TContract>*
 class CORDL_TYPE FactoryToChoiceBinder_1 : public ::Zenject::FactoryFromBinder_1<TContract> {
 public:

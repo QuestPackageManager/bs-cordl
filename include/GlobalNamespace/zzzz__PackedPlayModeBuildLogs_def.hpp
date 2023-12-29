@@ -30,13 +30,13 @@ MARK_VAL_T(::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10036))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14043))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9964))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14314))
 // CS Name: ::PackedPlayModeBuildLogs::RuntimeBuildLog
 struct CORDL_TYPE __PackedPlayModeBuildLogs__RuntimeBuildLog {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2a0eff8 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x28912b0 size 0xc virtual false final false
   inline void _ctor(::UnityEngine::LogType type, ::StringW message);
 
   // Ctor Parameters [CppParam { name: "Type", ty: "::UnityEngine::LogType", modifiers: "", def_value: None }, CppParam { name: "Message", ty: "::StringW", modifiers: "", def_value: None }]
@@ -60,13 +60,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog, Type) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog, Message) == 0x8, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::PackedPlayModeBuildLogs
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14044))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14315))
 // CS Name: ::PackedPlayModeBuildLogs*
 class CORDL_TYPE PackedPlayModeBuildLogs : public ::System::Object {
 public:
@@ -85,15 +89,15 @@ public:
 
   constexpr void __set_m_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* value);
 
-  /// @brief Method get_RuntimeBuildLogs addr 0x2a0ef6c size 0x8 virtual false final false
+  /// @brief Method get_RuntimeBuildLogs addr 0x2891224 size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* get_RuntimeBuildLogs();
 
-  /// @brief Method set_RuntimeBuildLogs addr 0x2a0ef74 size 0x8 virtual false final false
+  /// @brief Method set_RuntimeBuildLogs addr 0x289122c size 0x8 virtual false final false
   inline void set_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* value);
 
   static inline ::GlobalNamespace::PackedPlayModeBuildLogs* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a0ef7c size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x2891234 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PackedPlayModeBuildLogs", modifiers: "&&", def_value: None }]
@@ -117,6 +121,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PackedPlayModeBuildLogs, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PackedPlayModeBuildLogs, ___m_RuntimeBuildLogs) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PackedPlayModeBuildLogs);

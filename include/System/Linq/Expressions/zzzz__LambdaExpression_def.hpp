@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Linq::Expressions::LambdaExpression);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14300))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14303))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14638))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14641))
 // CS Name: ::System.Linq.Expressions::LambdaExpression*
 class CORDL_TYPE LambdaExpression : public ::System::Linq::Expressions::Expression {
 public:
@@ -34,7 +34,7 @@ public:
 
   constexpr void __set__body(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method get_Body addr 0x2813d58 size 0x8 virtual false final false
+  /// @brief Method get_Body addr 0x2698d44 size 0x8 virtual false final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
   // Ctor Parameters [CppParam { name: "", ty: "LambdaExpression", modifiers: "&&", def_value: None }]
@@ -58,6 +58,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::LambdaExpression, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Linq::Expressions::LambdaExpression, ____body) == 0x10, "Offset mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::LambdaExpression);

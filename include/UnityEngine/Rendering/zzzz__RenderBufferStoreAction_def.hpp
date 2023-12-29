@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::RenderBufferStoreAction);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10333))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10255))
 // CS Name: ::UnityEngine.Rendering::RenderBufferStoreAction
 struct CORDL_TYPE RenderBufferStoreAction {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderBufferStoreAction, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::RenderBufferStoreAction, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderBufferStoreAction, "UnityEngine.Rendering", "RenderBufferStoreAction");

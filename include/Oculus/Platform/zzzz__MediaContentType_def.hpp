@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::MediaContentType);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13260))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13267))
 // CS Name: ::Oculus.Platform::MediaContentType
 struct CORDL_TYPE MediaContentType {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MediaContentType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::MediaContentType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MediaContentType, "Oculus.Platform", "MediaContentType");

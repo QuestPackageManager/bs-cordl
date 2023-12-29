@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberSound);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5300))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5395))
 // CS Name: ::SaberSound*
 class CORDL_TYPE SaberSound : public ::UnityEngine::MonoBehaviour {
 public:
@@ -121,15 +121,15 @@ public:
 
   constexpr void __set__speed(float_t value);
 
-  /// @brief Method Start addr 0x226458c size 0x2c virtual false final false
+  /// @brief Method Start addr 0x21203bc size 0x2c virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x22645b8 size 0x1cc virtual false final false
+  /// @brief Method Update addr 0x21203e8 size 0x1cc virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::SaberSound* New_ctor();
 
-  /// @brief Method .ctor addr 0x2264784 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x21205b4 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberSound", modifiers: "&&", def_value: None }]
@@ -180,6 +180,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberSound, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberSound, ____saberTop) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberSound, ____audioSource) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberSound, ____pitchBySpeedCurve) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberSound, ____gainBySpeedCurve) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberSound, ____speedMultiplier) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberSound, ____upSmooth) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberSound, ____downSmooth) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberSound, ____noSoundTopThresholdSqr) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberSound, ____prevPos) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberSound, ____speed) == 0x54, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberSound);

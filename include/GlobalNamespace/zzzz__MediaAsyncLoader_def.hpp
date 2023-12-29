@@ -13,17 +13,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MediaAsyncLoader)
-namespace GlobalNamespace {
-struct __MediaAsyncLoader___LoadSpriteAsync_d__3;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
-namespace UnityEngine {
-class Sprite;
+namespace GlobalNamespace {
+class IMediaAsyncLoader;
 }
 namespace GlobalNamespace {
 struct __MediaAsyncLoader___LoadWebpage_d__0;
 }
 namespace GlobalNamespace {
-class IMediaAsyncLoader;
+struct __MediaAsyncLoader___LoadAudioClipFromFilePathAsync_d__1;
+}
+namespace GlobalNamespace {
+struct __MediaAsyncLoader___LoadSpriteAsync_d__3;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -31,29 +34,26 @@ struct CancellationToken;
 namespace GlobalNamespace {
 struct __MediaAsyncLoader___LoadTextureAsync_d__2;
 }
-namespace GlobalNamespace {
-struct __MediaAsyncLoader___LoadAudioClipFromFilePathAsync_d__1;
-}
-namespace UnityEngine {
-class AudioClip;
-}
 namespace UnityEngine {
 class Texture2D;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace UnityEngine {
+class Sprite;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
+namespace UnityEngine {
+class AudioClip;
 }
 namespace UnityEngine {
 class AsyncOperation;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -84,18 +84,18 @@ MARK_VAL_T(::GlobalNamespace::__MediaAsyncLoader___LoadWebpage_d__0);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5899)) CS Name: ::MediaAsyncLoader::<LoadWebpage>d__0
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3388)), TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 393 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5990)) CS Name: ::MediaAsyncLoader::<LoadWebpage>d__0
 struct CORDL_TYPE __MediaAsyncLoader___LoadWebpage_d__0 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x22fc490 size 0x43c virtual true final true
+  /// @brief Method MoveNext addr 0x21b3ee0 size 0x43c virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x22fc8cc size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0x21b431c size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -140,13 +140,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MediaAsyncLoader___LoadWebpage_d__0, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadWebpage_d__0, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadWebpage_d__0, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadWebpage_d__0, uri) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadWebpage_d__0, cancellationToken) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadWebpage_d__0, _www_5__2) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadWebpage_d__0, _request_5__3) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadWebpage_d__0, __u__1) == 0x40, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<LoadAudioClipFromFilePathAsync>d__1
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 276 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(15594))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5900)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3388)), TypeDefinitionIndex(TypeDefinitionIndex(15614)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 280 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5991)) CS Name:
 // ::MediaAsyncLoader::<LoadAudioClipFromFilePathAsync>d__1
 struct CORDL_TYPE __MediaAsyncLoader___LoadAudioClipFromFilePathAsync_d__1 {
 public:
@@ -154,10 +168,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x22fc924 size 0x47c virtual true final true
+  /// @brief Method MoveNext addr 0x21b4374 size 0x47c virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x22fcda0 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0x21b47f0 size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -198,24 +212,36 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MediaAsyncLoader___LoadAudioClipFromFilePathAsync_d__1, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadAudioClipFromFilePathAsync_d__1, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadAudioClipFromFilePathAsync_d__1, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadAudioClipFromFilePathAsync_d__1, filePath) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadAudioClipFromFilePathAsync_d__1, _www_5__2) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadAudioClipFromFilePathAsync_d__1, _request_5__3) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadAudioClipFromFilePathAsync_d__1, __u__1) == 0x38, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<LoadTextureAsync>d__2
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(10073)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 403 }), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5901)) CS
-// Name: ::MediaAsyncLoader::<LoadTextureAsync>d__2
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3388)), TypeDefinitionIndex(TypeDefinitionIndex(10001)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 398
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5992)) CS Name:
+// ::MediaAsyncLoader::<LoadTextureAsync>d__2
 struct CORDL_TYPE __MediaAsyncLoader___LoadTextureAsync_d__2 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x22fcdf8 size 0x434 virtual true final true
+  /// @brief Method MoveNext addr 0x21b4848 size 0x434 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x22fd22c size 0x1058 virtual true final true
+  /// @brief Method SetStateMachine addr 0x21b4c7c size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -260,24 +286,38 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MediaAsyncLoader___LoadTextureAsync_d__2, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadTextureAsync_d__2, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadTextureAsync_d__2, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadTextureAsync_d__2, path) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadTextureAsync_d__2, cancellationToken) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadTextureAsync_d__2, _www_5__2) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadTextureAsync_d__2, _request_5__3) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadTextureAsync_d__2, __u__1) == 0x40, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<LoadSpriteAsync>d__3
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5902)) CS Name:
-// ::MediaAsyncLoader::<LoadSpriteAsync>d__3
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 765 }), TypeDefinitionIndex(TypeDefinitionIndex(10213)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(3388))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5993))
+// CS Name: ::MediaAsyncLoader::<LoadSpriteAsync>d__3
 struct CORDL_TYPE __MediaAsyncLoader___LoadSpriteAsync_d__3 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x22fe284 size 0x5ec virtual true final true
+  /// @brief Method MoveNext addr 0x21b4cd4 size 0x5ec virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x22fe870 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0x21b52c0 size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -322,13 +362,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MediaAsyncLoader___LoadSpriteAsync_d__3, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadSpriteAsync_d__3, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadSpriteAsync_d__3, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadSpriteAsync_d__3, path) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadSpriteAsync_d__3, cancellationToken) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadSpriteAsync_d__3, _www_5__2) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadSpriteAsync_d__3, _request_5__3) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadSpriteAsync_d__3, __u__1) == 0x40, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MediaAsyncLoader
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5903))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5994))
 // CS Name: ::MediaAsyncLoader*
 class CORDL_TYPE MediaAsyncLoader : public ::System::Object {
 public:
@@ -344,24 +398,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMediaAsyncLoader"
   constexpr operator ::GlobalNamespace::IMediaAsyncLoader*() noexcept;
 
-  /// @brief Method LoadWebpage addr 0x22fc04c size 0xfc virtual false final false
+  /// @brief Method LoadWebpage addr 0x21b3a9c size 0xfc virtual false final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* LoadWebpage(::StringW uri, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method LoadAudioClipFromFilePathAsync addr 0x22fc148 size 0xf0 virtual true final true
+  /// @brief Method LoadAudioClipFromFilePathAsync addr 0x21b3b98 size 0xf0 virtual true final true
   inline ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* LoadAudioClipFromFilePathAsync(::StringW filePath);
 
-  /// @brief Method LoadTextureAsync addr 0x22fc238 size 0xfc virtual false final false
+  /// @brief Method LoadTextureAsync addr 0x21b3c88 size 0xfc virtual false final false
   static inline ::System::Threading::Tasks::Task_1<::UnityEngine::Texture2D*>* LoadTextureAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method LoadSpriteAsync addr 0x22fc334 size 0xfc virtual false final false
+  /// @brief Method LoadSpriteAsync addr 0x21b3d84 size 0xfc virtual false final false
   static inline ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Log addr 0x22fc430 size 0x58 virtual false final false
+  /// @brief Method Log addr 0x21b3e80 size 0x58 virtual false final false
   static inline void Log(::StringW message);
 
   static inline ::GlobalNamespace::MediaAsyncLoader* New_ctor();
 
-  /// @brief Method .ctor addr 0x22fc488 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21b3ed8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MediaAsyncLoader", modifiers: "&&", def_value: None }]

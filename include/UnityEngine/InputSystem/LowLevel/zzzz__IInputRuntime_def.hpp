@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IInputRuntime)
 namespace System {
-template <typename T> class Action_1;
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 class Action;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class InputUpdateDelegate;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
+struct InputEvent;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
+class InputUpdateDelegate;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -30,11 +30,11 @@ struct Vector2;
 namespace UnityEngine {
 struct ScreenOrientation;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputUpdateType;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputDeviceCommand;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputRuntime);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6549))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6635))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IInputRuntime*
 class CORDL_TYPE IInputRuntime {
 public:

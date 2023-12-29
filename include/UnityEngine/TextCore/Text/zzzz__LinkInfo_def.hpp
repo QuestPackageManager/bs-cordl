@@ -17,12 +17,12 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::LinkInfo);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13686))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13565))
 // CS Name: ::UnityEngine.TextCore.Text::LinkInfo
 struct CORDL_TYPE LinkInfo {
 public:
   // Declarations
-  /// @brief Method SetLinkId addr 0x2d407a0 size 0xd4 virtual false final false
+  /// @brief Method SetLinkId addr 0x2bd83f0 size 0xd4 virtual false final false
   inline void SetLinkId(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
 
   // Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkIdFirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None },
@@ -60,6 +60,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::LinkInfo, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LinkInfo, hashCode) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LinkInfo, linkIdFirstCharacterIndex) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LinkInfo, linkIdLength) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LinkInfo, linkTextfirstCharacterIndex) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LinkInfo, linkTextLength) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LinkInfo, linkId) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::LinkInfo, "UnityEngine.TextCore.Text", "LinkInfo");

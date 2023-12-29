@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_PresetType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9699))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9626))
 // CS Name: ::HoudiniEngineUnity::HAPI_PresetType
 struct CORDL_TYPE HAPI_PresetType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_PresetType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_PresetType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_PresetType, "HoudiniEngineUnity", "HAPI_PresetType");

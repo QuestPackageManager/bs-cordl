@@ -14,40 +14,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ServicePointScheduler)
 namespace System {
-class Object;
-}
-namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System::Net {
-struct __ServicePointScheduler___RunScheduler_d__32;
-}
-namespace System::Net {
-class ServicePoint;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
-}
-namespace System::Net {
-class WebConnection;
+class Object;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Net {
-class __ServicePointScheduler__ConnectionGroup;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> struct ValueTuple_3;
+class __ServicePointScheduler__AsyncManualResetEvent;
 }
 namespace System::Net {
-class __ServicePointScheduler__AsyncManualResetEvent;
+class __ServicePointScheduler__ConnectionGroup;
+}
+namespace System::Net {
+struct __ServicePointScheduler___RunScheduler_d__32;
+}
+namespace System::Net {
+struct __ServicePointScheduler___WaitAsync_d__46;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace System::Net {
+class ServicePoint;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> struct ValueTuple_3;
 }
 namespace System::Net {
 class WebOperation;
@@ -56,7 +56,7 @@ namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System::Net {
-struct __ServicePointScheduler___WaitAsync_d__46;
+class WebConnection;
 }
 namespace GlobalNamespace {
 class __ServicePointScheduler__AsyncManualResetEvent____c;
@@ -65,7 +65,7 @@ namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -74,7 +74,7 @@ namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+class IAsyncStateMachine;
 }
 namespace System::Threading {
 class CancellationTokenSource;
@@ -112,8 +112,8 @@ MARK_VAL_T(::System::Net::__ServicePointScheduler___WaitAsync_d__46);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9203))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8040))
 // CS Name: ::ServicePointScheduler::ConnectionGroup*
 class CORDL_TYPE __ServicePointScheduler__ConnectionGroup : public ::System::Object {
 public:
@@ -172,36 +172,36 @@ public:
 
   static inline int32_t getStaticF_nextId();
 
-  /// @brief Method get_Scheduler addr 0x29dafdc size 0x8 virtual false final false
+  /// @brief Method get_Scheduler addr 0x285e75c size 0x8 virtual false final false
   inline ::System::Net::ServicePointScheduler* get_Scheduler();
 
   static inline ::System::Net::__ServicePointScheduler__ConnectionGroup* New_ctor(::System::Net::ServicePointScheduler* scheduler, ::StringW name);
 
-  /// @brief Method .ctor addr 0x29d9530 size 0x10c virtual false final false
+  /// @brief Method .ctor addr 0x285ccb0 size 0x10c virtual false final false
   inline void _ctor(::System::Net::ServicePointScheduler* scheduler, ::StringW name);
 
-  /// @brief Method IsEmpty addr 0x29d9bc4 size 0x74 virtual false final false
+  /// @brief Method IsEmpty addr 0x285d344 size 0x74 virtual false final false
   inline bool IsEmpty();
 
-  /// @brief Method RemoveConnection addr 0x29da2e8 size 0x88 virtual false final false
+  /// @brief Method RemoveConnection addr 0x285da68 size 0x88 virtual false final false
   inline void RemoveConnection(::System::Net::WebConnection* connection);
 
-  /// @brief Method Cleanup addr 0x29da43c size 0xf0 virtual false final false
+  /// @brief Method Cleanup addr 0x285dbbc size 0xf0 virtual false final false
   inline void Cleanup();
 
-  /// @brief Method Close addr 0x29dab90 size 0x318 virtual false final false
+  /// @brief Method Close addr 0x285e310 size 0x318 virtual false final false
   inline void Close();
 
-  /// @brief Method EnqueueOperation addr 0x29dab38 size 0x58 virtual false final false
+  /// @brief Method EnqueueOperation addr 0x285e2b8 size 0x58 virtual false final false
   inline void EnqueueOperation(::System::Net::WebOperation* operation);
 
-  /// @brief Method GetNextOperation addr 0x29da704 size 0xec virtual false final false
+  /// @brief Method GetNextOperation addr 0x285de84 size 0xec virtual false final false
   inline ::System::Net::WebOperation* GetNextOperation();
 
-  /// @brief Method FindIdleConnection addr 0x29db08c size 0x314 virtual false final false
+  /// @brief Method FindIdleConnection addr 0x285e80c size 0x314 virtual false final false
   inline ::System::Net::WebConnection* FindIdleConnection(::System::Net::WebOperation* operation);
 
-  /// @brief Method CreateOrReuseConnection addr 0x29da52c size 0x1a0 virtual false final false
+  /// @brief Method CreateOrReuseConnection addr 0x285dcac size 0x1a0 virtual false final false
   inline ::System::ValueTuple_2<::System::Net::WebConnection*, bool> CreateOrReuseConnection(::System::Net::WebOperation* operation, bool force);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ServicePointScheduler__ConnectionGroup", modifiers: "&&", def_value: None }]
@@ -238,13 +238,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__ServicePointScheduler__ConnectionGroup, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__ServicePointScheduler__ConnectionGroup, ____Scheduler_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler__ConnectionGroup, ____Name_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler__ConnectionGroup, ____cordl_ID) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler__ConnectionGroup, ___connections) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler__ConnectionGroup, ___queue) == 0x30, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9204))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8041))
 // CS Name: ::ServicePointScheduler::AsyncManualResetEvent::<>c*
 class CORDL_TYPE __ServicePointScheduler__AsyncManualResetEvent____c : public ::System::Object {
 public:
@@ -265,10 +275,10 @@ public:
 
   static inline ::GlobalNamespace::__ServicePointScheduler__AsyncManualResetEvent____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x29dbaa0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x285f220 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Set>b__4_0 addr 0x29dbaa8 size 0x9c virtual false final false
+  /// @brief Method <Set>b__4_0 addr 0x285f228 size 0x9c virtual false final false
   inline bool _Set_b__4_0(::System::Object* s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ServicePointScheduler__AsyncManualResetEvent____c", modifiers: "&&", def_value: None }]
@@ -295,8 +305,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ServicePointS
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9205))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8042))
 // CS Name: ::ServicePointScheduler::AsyncManualResetEvent*
 class CORDL_TYPE __ServicePointScheduler__AsyncManualResetEvent : public ::System::Object {
 public:
@@ -312,18 +322,18 @@ public:
 
   constexpr void __set_m_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  /// @brief Method WaitAsync addr 0x29db9e8 size 0x54 virtual false final false
+  /// @brief Method WaitAsync addr 0x285f168 size 0x54 virtual false final false
   inline ::System::Threading::Tasks::Task_1<bool>* WaitAsync(int32_t millisecondTimeout);
 
-  /// @brief Method Set addr 0x29d9704 size 0x230 virtual false final false
+  /// @brief Method Set addr 0x285ce84 size 0x230 virtual false final false
   inline void Set();
 
-  /// @brief Method Reset addr 0x29d9dc4 size 0xc4 virtual false final false
+  /// @brief Method Reset addr 0x285d544 size 0xc4 virtual false final false
   inline void Reset();
 
   static inline ::System::Net::__ServicePointScheduler__AsyncManualResetEvent* New_ctor(bool state);
 
-  /// @brief Method .ctor addr 0x29d9488 size 0xa8 virtual false final false
+  /// @brief Method .ctor addr 0x285cc08 size 0xa8 virtual false final false
   inline void _ctor(bool state);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ServicePointScheduler__AsyncManualResetEvent", modifiers: "&&", def_value: None }]
@@ -348,13 +358,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__ServicePointScheduler__AsyncManualResetEvent, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__ServicePointScheduler__AsyncManualResetEvent, ___m_tcs) == 0x10, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: ::<RunScheduler>d__32
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2787))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9206)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 396 }), TypeDefinitionIndex(TypeDefinitionIndex(2783)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(3392))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8043)) CS Name:
 // ::ServicePointScheduler::<RunScheduler>d__32
 struct CORDL_TYPE __ServicePointScheduler___RunScheduler_d__32 {
 public:
@@ -362,10 +374,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x29dbb44 size 0xaf4 virtual true final true
+  /// @brief Method MoveNext addr 0x285f2c4 size 0xaf4 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x29dc638 size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0x285fdb8 size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -431,13 +443,31 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__ServicePointScheduler___RunScheduler_d__32, 0x60>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__ServicePointScheduler___RunScheduler_d__32, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler___RunScheduler_d__32, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler___RunScheduler_d__32, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler___RunScheduler_d__32, _operationArray_5__2) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler___RunScheduler_d__32, _idleArray_5__3) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler___RunScheduler_d__32, _taskList_5__4) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler___RunScheduler_d__32, _schedulerTask_5__5) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler___RunScheduler_d__32, _finalCleanup_5__6) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler___RunScheduler_d__32, __u__1) == 0x50, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: ::<WaitAsync>d__46
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2787)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9207)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2783)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 112
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3392)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 396 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8044)) CS
 // Name: ::ServicePointScheduler::<WaitAsync>d__46
 struct CORDL_TYPE __ServicePointScheduler___WaitAsync_d__46 {
 public:
@@ -445,10 +475,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x29dc644 size 0x44c virtual true final true
+  /// @brief Method MoveNext addr 0x285fdc4 size 0x44c virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x29dca90 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0x2860210 size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -494,13 +524,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__ServicePointScheduler___WaitAsync_d__46, 0x50>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__ServicePointScheduler___WaitAsync_d__46, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler___WaitAsync_d__46, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler___WaitAsync_d__46, millisecondTimeout) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler___WaitAsync_d__46, workerTask) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler___WaitAsync_d__46, _cts_5__2) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler___WaitAsync_d__46, _timeoutTask_5__3) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointScheduler___WaitAsync_d__46, __u__1) == 0x40, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: System.Net::ServicePointScheduler
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9208))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8045))
 // CS Name: ::System.Net::ServicePointScheduler*
 class CORDL_TYPE ServicePointScheduler : public ::System::Object {
 public:
@@ -643,69 +687,69 @@ public:
 
   static inline int32_t getStaticF_nextId();
 
-  /// @brief Method get_ServicePoint addr 0x29d9470 size 0x8 virtual false final false
+  /// @brief Method get_ServicePoint addr 0x285cbf0 size 0x8 virtual false final false
   inline ::System::Net::ServicePoint* get_ServicePoint();
 
-  /// @brief Method set_ServicePoint addr 0x29d9478 size 0x8 virtual false final false
+  /// @brief Method set_ServicePoint addr 0x285cbf8 size 0x8 virtual false final false
   inline void set_ServicePoint(::System::Net::ServicePoint* value);
 
-  /// @brief Method get_MaxIdleTime addr 0x29d9480 size 0x8 virtual false final false
+  /// @brief Method get_MaxIdleTime addr 0x285cc00 size 0x8 virtual false final false
   inline int32_t get_MaxIdleTime();
 
   static inline ::System::Net::ServicePointScheduler* New_ctor(::System::Net::ServicePoint* servicePoint, int32_t connectionLimit, int32_t maxIdleTime);
 
-  /// @brief Method .ctor addr 0x29d7338 size 0x1d8 virtual false final false
+  /// @brief Method .ctor addr 0x285aab0 size 0x1d8 virtual false final false
   inline void _ctor(::System::Net::ServicePoint* servicePoint, int32_t connectionLimit, int32_t maxIdleTime);
 
-  /// @brief Method Run addr 0x29d963c size 0xc8 virtual false final false
+  /// @brief Method Run addr 0x285cdbc size 0xc8 virtual false final false
   inline void Run();
 
-  /// @brief Method RunScheduler addr 0x29d9934 size 0xd0 virtual false final false
+  /// @brief Method RunScheduler addr 0x285d0b4 size 0xd0 virtual false final false
   inline ::System::Threading::Tasks::Task* RunScheduler();
 
-  /// @brief Method Cleanup addr 0x29d9a04 size 0x1c0 virtual false final false
+  /// @brief Method Cleanup addr 0x285d184 size 0x1c0 virtual false final false
   inline void Cleanup();
 
-  /// @brief Method RunSchedulerIteration addr 0x29d9c38 size 0x18c virtual false final false
+  /// @brief Method RunSchedulerIteration addr 0x285d3b8 size 0x18c virtual false final false
   inline void RunSchedulerIteration();
 
-  /// @brief Method OperationCompleted addr 0x29d9f68 size 0x220 virtual false final false
+  /// @brief Method OperationCompleted addr 0x285d6e8 size 0x220 virtual false final false
   inline bool OperationCompleted(::System::Net::__ServicePointScheduler__ConnectionGroup* group, ::System::Net::WebOperation* operation);
 
-  /// @brief Method CloseIdleConnection addr 0x29da6cc size 0x38 virtual false final false
+  /// @brief Method CloseIdleConnection addr 0x285de4c size 0x38 virtual false final false
   inline void CloseIdleConnection(::System::Net::__ServicePointScheduler__ConnectionGroup* group, ::System::Net::WebConnection* connection);
 
-  /// @brief Method SchedulerIteration addr 0x29d9e88 size 0xe0 virtual false final false
+  /// @brief Method SchedulerIteration addr 0x285d608 size 0xe0 virtual false final false
   inline bool SchedulerIteration(::System::Net::__ServicePointScheduler__ConnectionGroup* group);
 
-  /// @brief Method RemoveOperation addr 0x29da7f0 size 0xcc virtual false final false
+  /// @brief Method RemoveOperation addr 0x285df70 size 0xcc virtual false final false
   inline void RemoveOperation(::System::Net::WebOperation* operation);
 
-  /// @brief Method RemoveIdleConnection addr 0x29da370 size 0xcc virtual false final false
+  /// @brief Method RemoveIdleConnection addr 0x285daf0 size 0xcc virtual false final false
   inline void RemoveIdleConnection(::System::Net::WebConnection* connection);
 
-  /// @brief Method FinalCleanup addr 0x29da8bc size 0x80 virtual false final false
+  /// @brief Method FinalCleanup addr 0x285e03c size 0x80 virtual false final false
   inline void FinalCleanup();
 
-  /// @brief Method SendRequest addr 0x29d7f18 size 0xe8 virtual false final false
+  /// @brief Method SendRequest addr 0x285b690 size 0xe8 virtual false final false
   inline void SendRequest(::System::Net::WebOperation* operation, ::StringW groupName);
 
-  /// @brief Method CloseConnectionGroup addr 0x29d80ec size 0x110 virtual false final false
+  /// @brief Method CloseConnectionGroup addr 0x285b864 size 0x110 virtual false final false
   inline bool CloseConnectionGroup(::StringW groupName);
 
-  /// @brief Method GetConnectionGroup addr 0x29da93c size 0x1fc virtual false final false
+  /// @brief Method GetConnectionGroup addr 0x285e0bc size 0x1fc virtual false final false
   inline ::System::Net::__ServicePointScheduler__ConnectionGroup* GetConnectionGroup(::StringW name);
 
-  /// @brief Method OnConnectionCreated addr 0x29daea8 size 0xc virtual false final false
+  /// @brief Method OnConnectionCreated addr 0x285e628 size 0xc virtual false final false
   inline void OnConnectionCreated(::System::Net::WebConnection* connection);
 
-  /// @brief Method OnConnectionClosed addr 0x29daeb4 size 0x1c virtual false final false
+  /// @brief Method OnConnectionClosed addr 0x285e634 size 0x1c virtual false final false
   inline void OnConnectionClosed(::System::Net::WebConnection* connection);
 
-  /// @brief Method WaitAsync addr 0x29daed0 size 0x108 virtual false final false
+  /// @brief Method WaitAsync addr 0x285e650 size 0x108 virtual false final false
   static inline ::System::Threading::Tasks::Task_1<bool>* WaitAsync(::System::Threading::Tasks::Task* workerTask, int32_t millisecondTimeout);
 
-  /// @brief Method <Run>b__31_0 addr 0x29dafd8 size 0x4 virtual false final false
+  /// @brief Method <Run>b__31_0 addr 0x285e758 size 0x4 virtual false final false
   inline ::System::Threading::Tasks::Task* _Run_b__31_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "ServicePointScheduler", modifiers: "&&", def_value: None }]
@@ -763,6 +807,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::ServicePointScheduler, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePointScheduler, ____ServicePoint_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePointScheduler, ___running) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePointScheduler, ___maxIdleTime) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePointScheduler, ___schedulerEvent) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePointScheduler, ___defaultGroup) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePointScheduler, ___groups) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePointScheduler, ___operations) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePointScheduler, ___idleConnections) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePointScheduler, ___currentConnections) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePointScheduler, ___connectionLimit) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePointScheduler, ___idleSince) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePointScheduler, ____cordl_ID) == 0x58, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::GlobalNamespace::__ServicePointScheduler__AsyncManualResetEvent____c);

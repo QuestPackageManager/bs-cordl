@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ISliderDidStartDissolvingEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4803))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4923))
 // CS Name: ::ISliderDidStartDissolvingEvent*
 class CORDL_TYPE ISliderDidStartDissolvingEvent {
 public:

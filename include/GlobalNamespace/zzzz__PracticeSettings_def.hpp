@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PracticeSettings);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4661))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4784))
 // CS Name: ::PracticeSettings*
 class CORDL_TYPE PracticeSettings : public ::System::Object {
 public:
@@ -54,43 +54,43 @@ public:
 
   constexpr void __set__startInAdvanceAndClearNotes(bool value);
 
-  /// @brief Method get_startSongTime addr 0x23730f8 size 0x8 virtual false final false
+  /// @brief Method get_startSongTime addr 0x223eca8 size 0x8 virtual false final false
   inline float_t get_startSongTime();
 
-  /// @brief Method set_startSongTime addr 0x2373100 size 0x8 virtual false final false
+  /// @brief Method set_startSongTime addr 0x223ecb0 size 0x8 virtual false final false
   inline void set_startSongTime(float_t value);
 
-  /// @brief Method get_songSpeedMul addr 0x2373108 size 0x8 virtual false final false
+  /// @brief Method get_songSpeedMul addr 0x223ecb8 size 0x8 virtual false final false
   inline float_t get_songSpeedMul();
 
-  /// @brief Method set_songSpeedMul addr 0x2373110 size 0x8 virtual false final false
+  /// @brief Method set_songSpeedMul addr 0x223ecc0 size 0x8 virtual false final false
   inline void set_songSpeedMul(float_t value);
 
-  /// @brief Method get_startInAdvanceAndClearNotes addr 0x2373118 size 0x8 virtual false final false
+  /// @brief Method get_startInAdvanceAndClearNotes addr 0x223ecc8 size 0x8 virtual false final false
   inline bool get_startInAdvanceAndClearNotes();
 
-  /// @brief Method set_startInAdvanceAndClearNotes addr 0x2373120 size 0xc virtual false final false
+  /// @brief Method set_startInAdvanceAndClearNotes addr 0x223ecd0 size 0xc virtual false final false
   inline void set_startInAdvanceAndClearNotes(bool value);
 
-  /// @brief Method get_defaultPracticeSettings addr 0x237312c size 0x74 virtual false final false
+  /// @brief Method get_defaultPracticeSettings addr 0x223ecdc size 0x74 virtual false final false
   static inline ::GlobalNamespace::PracticeSettings* get_defaultPracticeSettings();
 
   static inline ::GlobalNamespace::PracticeSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x23731a0 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x223b9ec size 0x38 virtual false final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::PracticeSettings* New_ctor(::GlobalNamespace::PracticeSettings* practiceSettings);
 
-  /// @brief Method .ctor addr 0x23731f0 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x223ed68 size 0x40 virtual false final false
   inline void _ctor(::GlobalNamespace::PracticeSettings* practiceSettings);
 
   static inline ::GlobalNamespace::PracticeSettings* New_ctor(float_t startSongTime, float_t songSpeedMul);
 
-  /// @brief Method .ctor addr 0x2373230 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x223b1e4 size 0x40 virtual false final false
   inline void _ctor(float_t startSongTime, float_t songSpeedMul);
 
-  /// @brief Method ResetToDefault addr 0x23731d8 size 0x18 virtual false final false
+  /// @brief Method ResetToDefault addr 0x223ed50 size 0x18 virtual false final false
   inline void ResetToDefault();
 
   // Ctor Parameters [CppParam { name: "", ty: "PracticeSettings", modifiers: "&&", def_value: None }]
@@ -123,6 +123,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PracticeSettings, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PracticeSettings, ____startSongTime) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PracticeSettings, ____songSpeedMul) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PracticeSettings, ____startInAdvanceAndClearNotes) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PracticeSettings);

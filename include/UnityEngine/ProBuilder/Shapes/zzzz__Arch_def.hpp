@@ -11,6 +11,12 @@ namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
@@ -18,12 +24,6 @@ struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Arch);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12233))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12224))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12161))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12152))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Arch*
 class CORDL_TYPE Arch : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
@@ -86,18 +86,18 @@ public:
 
   constexpr void __set_m_Smooth(bool value);
 
-  /// @brief Method CopyShape addr 0x2b86d64 size 0x94 virtual true final false
+  /// @brief Method CopyShape addr 0x2a06010 size 0x94 virtual true final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method GetFace addr 0x2b86df8 size 0xc4 virtual false final false
+  /// @brief Method GetFace addr 0x2a060a4 size 0xc4 virtual false final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetFace(::UnityEngine::Vector2 vertex1, ::UnityEngine::Vector2 vertex2, float_t depth);
 
-  /// @brief Method RebuildMesh addr 0x2b86ebc size 0xc00 virtual true final false
+  /// @brief Method RebuildMesh addr 0x2a06168 size 0xc00 virtual true final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Arch* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b87abc size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2a06d68 size 0x28 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Arch", modifiers: "&&", def_value: None }]
@@ -133,6 +133,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::Arch, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Arch, ___m_Thickness) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Arch, ___m_NumberOfSides) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Arch, ___m_ArchDegrees) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Arch, ___m_EndCaps) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Arch, ___m_Smooth) == 0x1d, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Shapes
 NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Arch);

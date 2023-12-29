@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::IInputInteraction);
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6129))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6215))
 // CS Name: ::UnityEngine.InputSystem::IInputInteraction*
 class CORDL_TYPE IInputInteraction {
 public:

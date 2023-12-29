@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(AnimationPosePlayable)
 namespace UnityEngine::Playables {
+struct PlayableHandle;
+}
+namespace UnityEngine::Playables {
 class IPlayable;
 }
 namespace System {
 template <typename T> class IEquatable_1;
-}
-namespace UnityEngine::Playables {
-struct PlayableHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {
@@ -24,8 +24,8 @@ MARK_VAL_T(::UnityEngine::Animations::AnimationPosePlayable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10440))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14897))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10362))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15124))
 // CS Name: ::UnityEngine.Animations::AnimationPosePlayable
 struct CORDL_TYPE AnimationPosePlayable {
 public:
@@ -43,13 +43,13 @@ public:
 
   static inline ::UnityEngine::Animations::AnimationPosePlayable getStaticF_m_NullPlayable();
 
-  /// @brief Method .ctor addr 0x2c98568 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x2b328c8 size 0xc0 virtual false final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
-  /// @brief Method GetHandle addr 0x2c98628 size 0xc virtual true final true
+  /// @brief Method GetHandle addr 0x2b32988 size 0xc virtual true final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method Equals addr 0x2c98634 size 0xac virtual true final true
+  /// @brief Method Equals addr 0x2b32994 size 0xac virtual true final true
   inline bool Equals(::UnityEngine::Animations::AnimationPosePlayable other);
 
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Animations::AnimationPosePlayable, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Animations::AnimationPosePlayable, m_Handle) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Animations
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimationPosePlayable, "UnityEngine.Animations", "AnimationPosePlayable");

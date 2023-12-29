@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerModeSettings);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14719))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4514))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14936))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4525))
 // CS Name: ::MultiplayerModeSettings*
 class CORDL_TYPE MultiplayerModeSettings : public ::System::Object {
 public:
@@ -61,7 +61,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerModeSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x2362f4c size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x2213e44 size 0x68 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerModeSettings", modifiers: "&&", def_value: None }]
@@ -94,6 +94,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerModeSettings, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerModeSettings, ___createServerPlayersCount) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerModeSettings, ___quickPlayBeatmapDifficulty) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerModeSettings, ___quickPlaySongPackMaskSerializedName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerModeSettings, ___quickPlayEnableLevelSelection) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerModeSettings);

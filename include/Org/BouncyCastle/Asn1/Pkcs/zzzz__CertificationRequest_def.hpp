@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertificationRequest)
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class CertificationRequestInfo;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerBitString;
+}
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class CertificationRequestInfo;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -71,39 +71,39 @@ public:
 
   constexpr void __set_sigBits(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method GetInstance addr 0xf860dc size 0xd8 virtual false final false
+  /// @brief Method GetInstance addr 0xf0feb8 size 0xd8 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* New_ctor();
 
-  /// @brief Method .ctor addr 0xf862fc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xf100d8 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* requestInfo,
                                                                                 ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::Org::BouncyCastle::Asn1::DerBitString* signature);
 
-  /// @brief Method .ctor addr 0xf86304 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0xf100e0 size 0x3c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* requestInfo, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm,
                     ::Org::BouncyCastle::Asn1::DerBitString* signature);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf861b4 size 0x148 virtual false final false
+  /// @brief Method .ctor addr 0xf0ff90 size 0x148 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetCertificationRequestInfo addr 0xf863e4 size 0x8 virtual false final false
+  /// @brief Method GetCertificationRequestInfo addr 0xf101c0 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* GetCertificationRequestInfo();
 
-  /// @brief Method get_SignatureAlgorithm addr 0xf863ec size 0x8 virtual false final false
+  /// @brief Method get_SignatureAlgorithm addr 0xf101c8 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm();
 
-  /// @brief Method get_Signature addr 0xf863f4 size 0x8 virtual false final false
+  /// @brief Method get_Signature addr 0xf101d0 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_Signature();
 
-  /// @brief Method GetSignatureOctets addr 0xf863fc size 0x20 virtual false final false
+  /// @brief Method GetSignatureOctets addr 0xf101d8 size 0x20 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignatureOctets();
 
-  /// @brief Method ToAsn1Object addr 0xf8641c size 0x11c virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf101f8 size 0x11c virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificationRequest", modifiers: "&&", def_value: None }]
@@ -133,6 +133,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest, ___reqInfo) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest, ___sigAlgId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest, ___sigBits) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest);

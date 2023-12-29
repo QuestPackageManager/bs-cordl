@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Formatting);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11800))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11728))
 // CS Name: ::Newtonsoft.Json::Formatting
 struct CORDL_TYPE Formatting {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Formatting, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Formatting, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Formatting, "Newtonsoft.Json", "Formatting");

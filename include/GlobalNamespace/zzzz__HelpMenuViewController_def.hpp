@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HelpMenuViewController)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-template <typename T> class Action_1;
-}
 namespace HMUI {
 class SegmentedControl;
 }
 namespace HMUI {
 class TextSegmentedControl;
 }
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
 namespace HMUI {
 class ViewController;
 }
 namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+template <typename T> class Action_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::HelpMenuViewController);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5646))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5745))
 // CS Name: ::HelpMenuViewController*
 class CORDL_TYPE HelpMenuViewController : public ::HMUI::ViewController {
 public:
@@ -67,24 +67,24 @@ public:
 
   constexpr void __set__viewControllers(::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController*, ::StringW>>* value);
 
-  /// @brief Method add_didSelectHelpSubMenuEvent addr 0x22b54e0 size 0xb0 virtual false final false
+  /// @brief Method add_didSelectHelpSubMenuEvent addr 0x2172d9c size 0xb0 virtual false final false
   inline void add_didSelectHelpSubMenuEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_didSelectHelpSubMenuEvent addr 0x22b5590 size 0xb0 virtual false final false
+  /// @brief Method remove_didSelectHelpSubMenuEvent addr 0x2172e4c size 0xb0 virtual false final false
   inline void remove_didSelectHelpSubMenuEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method Init addr 0x22b5640 size 0x8 virtual false final false
+  /// @brief Method Init addr 0x2172efc size 0x8 virtual false final false
   inline void Init(::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController*, ::StringW>>* viewControllers);
 
-  /// @brief Method DidActivate addr 0x22b5648 size 0x2b8 virtual true final false
+  /// @brief Method DidActivate addr 0x2172f04 size 0x2b8 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleHelpMenuSegmentedControlDidSelectCell addr 0x22b5900 size 0x24 virtual false final false
+  /// @brief Method HandleHelpMenuSegmentedControlDidSelectCell addr 0x21731bc size 0x24 virtual false final false
   inline void HandleHelpMenuSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
   static inline ::GlobalNamespace::HelpMenuViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22b5924 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21731e0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HelpMenuViewController", modifiers: "&&", def_value: None }]
@@ -114,6 +114,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HelpMenuViewController, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HelpMenuViewController, ____helpMenuSegmentedControl) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HelpMenuViewController, ___didSelectHelpSubMenuEvent) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HelpMenuViewController, ____viewControllers) == 0x80, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HelpMenuViewController);

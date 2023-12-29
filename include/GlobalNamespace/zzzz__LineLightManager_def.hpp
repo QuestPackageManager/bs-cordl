@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LineLightManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14561))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14779))
 // CS Name: ::LineLightManager*
 class CORDL_TYPE LineLightManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -97,12 +97,12 @@ public:
 
   static inline int32_t getStaticF__lineLightColorsID();
 
-  /// @brief Method Update addr 0x2114414 size 0x370 virtual false final false
+  /// @brief Method Update addr 0x1fbe9b0 size 0x370 virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::LineLightManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2114784 size 0xa4 virtual false final false
+  /// @brief Method .ctor addr 0x1fbed20 size 0xa4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LineLightManager", modifiers: "&&", def_value: None }]
@@ -138,6 +138,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LineLightManager, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LineLightManager, ____points) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LineLightManager, ____dirs) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LineLightManager, ____dirLengths) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LineLightManager, ____colors) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LineLightManager);

@@ -11,7 +11,7 @@ template <class T, class U>
 concept convertible_to = std::is_convertible_v<T, U>;
 
 template <class T, class U>
-concept is_or_is_backed_by = std::is_same_v<T, U> || (requires { typename T::__CORDL_BACKING_ENUM_TYPE; } && std::is_same_v<typename T::__CORDL_BACKING_ENUM_TYPE, U>);
+concept is_or_is_backed_by = std::is_same_v<T, U> ||(requires { typename T::__CORDL_BACKING_ENUM_TYPE; } && std::is_same_v<typename T::__CORDL_BACKING_ENUM_TYPE, U>);
 
 template <typename T>
 concept il2cpp_convertible = requires(T const& t) {
@@ -24,8 +24,7 @@ concept il2cpp_convertible = requires(T const& t) {
 /// @tparam offset the offset of the field
 /// @tparam value_sz the size of the field
 template <std::size_t instance_sz, std::size_t offset, std::size_t value_sz>
-  requires(offset <= instance_sz && (offset + value_sz) <= instance_sz)
-struct offset_check {
+requires(offset <= instance_sz && (offset + value_sz) <= instance_sz) struct offset_check {
   static constexpr bool value = true;
 };
 

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OutputStreamPacket);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(578))
 // CS Name: ::Org.BouncyCastle.Bcpg::OutputStreamPacket*
 class CORDL_TYPE OutputStreamPacket : public ::System::Object {
@@ -34,7 +34,7 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OutputStreamPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method .ctor addr 0x11d21a4 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x1160f54 size 0x78 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   /// @brief Method Open addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OutputStreamPacket, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::OutputStreamPacket, ___bcpgOut) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OutputStreamPacket);

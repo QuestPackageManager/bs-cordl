@@ -5,12 +5,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IConstructionCallMessage)
-namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
-}
-namespace System::Runtime::Remoting::Activation {
-class IActivator;
-}
 namespace System {
 class Object;
 }
@@ -20,11 +14,17 @@ class Type;
 namespace System::Collections {
 class IList;
 }
+namespace System::Runtime::Remoting::Activation {
+class IActivator;
+}
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMethodCallMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::IConstructionCallMessage
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3134))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3133))
 // CS Name: ::System.Runtime.Remoting.Activation::IConstructionCallMessage*
 class CORDL_TYPE IConstructionCallMessage {
 public:

@@ -5,23 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnvironmentLightGroups)
-namespace GlobalNamespace {
-class __EnvironmentLightGroups____c;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class ILightGroup;
 }
 namespace GlobalNamespace {
 class LightGroupSO;
 }
 namespace GlobalNamespace {
-class IEnvironmentLightGroups;
+class __EnvironmentLightGroups____c;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -40,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__EnvironmentLightGroups____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4175))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4207))
 // CS Name: ::EnvironmentLightGroups::<>c*
 class CORDL_TYPE __EnvironmentLightGroups____c : public ::System::Object {
 public:
@@ -62,10 +56,10 @@ public:
 
   static inline ::GlobalNamespace::__EnvironmentLightGroups____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x22408e8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d1a48 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Sort>b__6_0 addr 0x22408f0 size 0x18 virtual false final false
+  /// @brief Method <Sort>b__6_0 addr 0x21d1a50 size 0x18 virtual false final false
   inline int32_t _Sort_b__6_0(::GlobalNamespace::LightGroupSO* s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EnvironmentLightGroups____c", modifiers: "&&", def_value: None }]
@@ -92,8 +86,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EnvironmentLi
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4176))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4208))
 // CS Name: ::EnvironmentLightGroups*
 class CORDL_TYPE EnvironmentLightGroups : public ::System::Object {
 public:
@@ -111,9 +105,6 @@ public:
                       put = __set__lightGroupSOListForLightGroupDataDict))::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>* _lightGroupSOListForLightGroupDataDict;
 
   __declspec(property(get = get_lightGroupSOList))::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>* lightGroupSOList;
-
-  /// @brief Convert operator to "::GlobalNamespace::IEnvironmentLightGroups"
-  constexpr operator ::GlobalNamespace::IEnvironmentLightGroups*() noexcept;
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>*& __get__lightGroupSOList();
 
@@ -133,18 +124,18 @@ public:
 
   constexpr void __set__lightGroupSOListForLightGroupDataDict(::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>* value);
 
-  /// @brief Method get_lightGroupSOList addr 0x2240508 size 0x8 virtual false final false
+  /// @brief Method get_lightGroupSOList addr 0x21d1668 size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>* get_lightGroupSOList();
 
-  /// @brief Method GetDataForGroup addr 0x2240510 size 0x24c virtual true final true
-  inline ::GlobalNamespace::ILightGroup* GetDataForGroup(int32_t groupId);
+  /// @brief Method GetDataForGroup addr 0x21d1670 size 0x24c virtual false final false
+  inline ::GlobalNamespace::LightGroupSO* GetDataForGroup(int32_t groupId);
 
-  /// @brief Method Sort addr 0x224075c size 0x120 virtual true final true
+  /// @brief Method Sort addr 0x21d18bc size 0x120 virtual false final false
   inline void Sort();
 
   static inline ::GlobalNamespace::EnvironmentLightGroups* New_ctor();
 
-  /// @brief Method .ctor addr 0x224087c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d19dc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightGroups", modifiers: "&&", def_value: None }]
@@ -174,6 +165,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentLightGroups, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentLightGroups, ____lightGroupSOList) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentLightGroups, ____lightGroupSODict) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentLightGroups, ____lightGroupSOListForLightGroupDataDict) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentLightGroups);

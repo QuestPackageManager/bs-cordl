@@ -51,22 +51,22 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty,
                                                                                                         int32_t countSmallPrimes);
 
-  /// @brief Method .ctor addr 0xf38c74 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0xec2a88 size 0xbc virtual false final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty, int32_t countSmallPrimes);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty,
                                                                                                         int32_t countSmallPrimes, bool debug);
 
-  /// @brief Method .ctor addr 0xf38d30 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0xec2b44 size 0x4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty, int32_t countSmallPrimes, bool debug);
 
-  /// @brief Method get_Certainty addr 0xf38d34 size 0x8 virtual false final false
+  /// @brief Method get_Certainty addr 0xec2b48 size 0x8 virtual false final false
   inline int32_t get_Certainty();
 
-  /// @brief Method get_CountSmallPrimes addr 0xf38d3c size 0x8 virtual false final false
+  /// @brief Method get_CountSmallPrimes addr 0xec2b50 size 0x8 virtual false final false
   inline int32_t get_CountSmallPrimes();
 
-  /// @brief Method get_IsDebug addr 0xf38d44 size 0x8 virtual false final false
+  /// @brief Method get_IsDebug addr 0xec2b58 size 0x8 virtual false final false
   inline bool get_IsDebug();
 
   // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternKeyGenerationParameters", modifiers: "&&", def_value: None }]
@@ -93,6 +93,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters, ___certainty) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters, ___countSmallPrimes) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters);

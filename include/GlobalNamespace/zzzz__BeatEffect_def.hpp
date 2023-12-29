@@ -8,22 +8,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatEffect)
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-class SpriteRenderer;
-}
-namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
 class __BeatEffect__Pool;
@@ -34,8 +19,23 @@ class TubeBloomPrePassLight;
 namespace GlobalNamespace {
 class IBeatEffectDidFinishEvent;
 }
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace GlobalNamespace {
 template <typename T> class LazyCopyHashSet_1;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace UnityEngine {
+class SpriteRenderer;
+}
+namespace GlobalNamespace {
+template <typename T> class ILazyCopyHashSet_1;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatEffect__Pool);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4837))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4957))
 // CS Name: ::BeatEffect*
 class CORDL_TYPE BeatEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -160,18 +160,18 @@ public:
 
   constexpr void __set__color(::UnityEngine::Color value);
 
-  /// @brief Method get_didFinishEvent addr 0x23962d0 size 0x8 virtual false final false
+  /// @brief Method get_didFinishEvent addr 0x22618bc size 0x8 virtual false final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* get_didFinishEvent();
 
-  /// @brief Method Init addr 0x23962d8 size 0xb8 virtual false final false
+  /// @brief Method Init addr 0x22618c4 size 0xb8 virtual false final false
   inline void Init(::UnityEngine::Color color, float_t animationDuration, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method ManualUpdate addr 0x2396390 size 0x2dc virtual false final false
+  /// @brief Method ManualUpdate addr 0x226197c size 0x2dc virtual false final false
   inline void ManualUpdate(float_t deltaTime);
 
   static inline ::GlobalNamespace::BeatEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x239666c size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x2261c58 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatEffect", modifiers: "&&", def_value: None }]
@@ -226,19 +226,41 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatEffect, 0x70>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____spriteRenderer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____spriteTransform) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____tubeBloomPrePassLight) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____lightIntensityCurve) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____spriteXScaleCurve) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____spriteYScaleCurve) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____transparencyCurve) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____didFinishEvent) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____animationDuration) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____elapsedTime) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____color) == 0x60, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Pool
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4837)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2808 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4836)) CS Name: ::BeatEffect::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10978)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst: 2748 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4957))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4956)) CS Name: ::BeatEffect::Pool*
 class CORDL_TYPE __BeatEffect__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BeatEffect*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__BeatEffect__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x23966e8 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2261cd4 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatEffect__Pool", modifiers: "&&", def_value: None }]

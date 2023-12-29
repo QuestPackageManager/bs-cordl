@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::IntegratedSubsystem);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15964))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15856))
 // CS Name: ::UnityEngine::IntegratedSubsystem*
 class CORDL_TYPE IntegratedSubsystem : public ::System::Object {
 public:
@@ -53,30 +53,30 @@ public:
 
   constexpr void __set_m_SubsystemDescriptor(::UnityEngine::ISubsystemDescriptor* value);
 
-  /// @brief Method SetHandle addr 0x2d1a2bc size 0x44 virtual false final false
+  /// @brief Method SetHandle addr 0x2bb2f0c size 0x44 virtual false final false
   inline void SetHandle(::UnityEngine::IntegratedSubsystem* subsystem);
 
-  /// @brief Method Start addr 0x2d1a300 size 0x3c virtual true final true
+  /// @brief Method Start addr 0x2bb2f50 size 0x3c virtual true final true
   inline void Start();
 
-  /// @brief Method Stop addr 0x2d1a33c size 0x3c virtual true final true
+  /// @brief Method Stop addr 0x2bb2f8c size 0x3c virtual true final true
   inline void Stop();
 
-  /// @brief Method Destroy addr 0x2d1a378 size 0xb0 virtual true final true
+  /// @brief Method Destroy addr 0x2bb2fc8 size 0xb0 virtual true final true
   inline void Destroy();
 
-  /// @brief Method get_running addr 0x2d1a5e8 size 0x54 virtual true final true
+  /// @brief Method get_running addr 0x2bb3238 size 0x54 virtual true final true
   inline bool get_running();
 
-  /// @brief Method get_valid addr 0x2d1a63c size 0x54 virtual false final false
+  /// @brief Method get_valid addr 0x2bb328c size 0x54 virtual false final false
   inline bool get_valid();
 
-  /// @brief Method IsRunning addr 0x2d1a690 size 0x3c virtual false final false
+  /// @brief Method IsRunning addr 0x2bb32e0 size 0x3c virtual false final false
   inline bool IsRunning();
 
   static inline ::UnityEngine::IntegratedSubsystem* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d1a6cc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2bb331c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem", modifiers: "&&", def_value: None }]
@@ -103,6 +103,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::IntegratedSubsystem, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::IntegratedSubsystem, ___m_Ptr) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::IntegratedSubsystem, ___m_SubsystemDescriptor) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::IntegratedSubsystem);

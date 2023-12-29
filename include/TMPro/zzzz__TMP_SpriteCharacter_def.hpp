@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_SpriteCharacter)
 namespace TMPro {
-class TMP_SpriteGlyph;
+class TMP_SpriteAsset;
 }
 namespace TMPro {
-class TMP_SpriteAsset;
+class TMP_SpriteGlyph;
 }
 // Forward declare root types
 namespace TMPro {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::TMPro::TMP_SpriteCharacter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12448))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12422))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12376))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12350))
 // CS Name: ::TMPro::TMP_SpriteCharacter*
 class CORDL_TYPE TMP_SpriteCharacter : public ::TMPro::TMP_TextElement {
 public:
@@ -50,33 +50,33 @@ public:
 
   constexpr void __set_m_HashCode(int32_t value);
 
-  /// @brief Method get_name addr 0x2c44838 size 0x8 virtual false final false
+  /// @brief Method get_name addr 0x2ac0ae4 size 0x8 virtual false final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name addr 0x2c44664 size 0x78 virtual false final false
+  /// @brief Method set_name addr 0x2ac0910 size 0x78 virtual false final false
   inline void set_name(::StringW value);
 
-  /// @brief Method get_hashCode addr 0x2c448ac size 0x8 virtual false final false
+  /// @brief Method get_hashCode addr 0x2ac0b58 size 0x8 virtual false final false
   inline int32_t get_hashCode();
 
   static inline ::TMPro::TMP_SpriteCharacter* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c44644 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x2ac08f0 size 0x20 virtual false final false
   inline void _ctor();
 
   static inline ::TMPro::TMP_SpriteCharacter* New_ctor(uint32_t unicode, ::TMPro::TMP_SpriteGlyph* glyph);
 
-  /// @brief Method .ctor addr 0x2c448bc size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x2ac0b68 size 0x54 virtual false final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_SpriteGlyph* glyph);
 
   static inline ::TMPro::TMP_SpriteCharacter* New_ctor(uint32_t unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, ::TMPro::TMP_SpriteGlyph* glyph);
 
-  /// @brief Method .ctor addr 0x2c44910 size 0x60 virtual false final false
+  /// @brief Method .ctor addr 0x2ac0bbc size 0x60 virtual false final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, ::TMPro::TMP_SpriteGlyph* glyph);
 
   static inline ::TMPro::TMP_SpriteCharacter* New_ctor(uint32_t unicode, uint32_t glyphIndex);
 
-  /// @brief Method .ctor addr 0x2c44970 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x2ac0c1c size 0x40 virtual false final false
   inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteCharacter", modifiers: "&&", def_value: None }]
@@ -103,6 +103,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_SpriteCharacter, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_SpriteCharacter, ___m_Name) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_SpriteCharacter, ___m_HashCode) == 0x38, "Offset mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::TMP_SpriteCharacter);

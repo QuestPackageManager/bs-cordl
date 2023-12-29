@@ -16,7 +16,7 @@ MARK_VAL_T(::RootMotion::FinalIK::FullBodyBipedEffector);
 namespace RootMotion::FinalIK {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12571))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12499))
 // CS Name: ::RootMotion.FinalIK::FullBodyBipedEffector
 struct CORDL_TYPE FullBodyBipedEffector {
 public:
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::FullBodyBipedEffector, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FullBodyBipedEffector, value__) == 0x0, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::FullBodyBipedEffector, "RootMotion.FinalIK", "FullBodyBipedEffector");

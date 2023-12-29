@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Video::VideoAspectRatio);
 namespace UnityEngine::Video {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16078))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15919))
 // CS Name: ::UnityEngine.Video::VideoAspectRatio
 struct CORDL_TYPE VideoAspectRatio {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Video::VideoAspectRatio, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Video::VideoAspectRatio, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Video
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Video::VideoAspectRatio, "UnityEngine.Video", "VideoAspectRatio");

@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Security::AccessControl::PrivilegeNotHeldException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2501))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3012))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2499))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3011))
 // CS Name: ::System.Security.AccessControl::PrivilegeNotHeldException*
 class CORDL_TYPE PrivilegeNotHeldException : public ::System::UnauthorizedAccessException {
 public:
@@ -44,16 +44,16 @@ public:
 
   static inline ::System::Security::AccessControl::PrivilegeNotHeldException* New_ctor();
 
-  /// @brief Method .ctor addr 0x2480530 size 0x4c virtual false final false
+  /// @brief Method .ctor addr 0x2328a3c size 0x4c virtual false final false
   inline void _ctor();
 
   static inline ::System::Security::AccessControl::PrivilegeNotHeldException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                        ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x248057c size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x2328a88 size 0x88 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData addr 0x2480604 size 0xdc virtual true final false
+  /// @brief Method GetObjectData addr 0x2328b10 size 0xdc virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "PrivilegeNotHeldException", modifiers: "&&", def_value: None }]
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::PrivilegeNotHeldException, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::PrivilegeNotHeldException, ____privilegeName) == 0x90, "Offset mismatch!");
 
 } // namespace System::Security::AccessControl
 NEED_NO_BOX(::System::Security::AccessControl::PrivilegeNotHeldException);

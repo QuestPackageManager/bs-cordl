@@ -16,13 +16,13 @@ MARK_REF_PTR_T(::UnityEngine::ScriptingRuntime);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10202))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10130))
 // CS Name: ::UnityEngine::ScriptingRuntime*
 class CORDL_TYPE ScriptingRuntime : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAllUserAssemblies addr 0x2cd0a48 size 0x28 virtual false final false
+  /// @brief Method GetAllUserAssemblies addr 0x2b6a544 size 0x28 virtual false final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetAllUserAssemblies();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptingRuntime", modifiers: "&&", def_value: None }]

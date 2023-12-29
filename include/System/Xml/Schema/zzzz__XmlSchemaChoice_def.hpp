@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaChoice);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11727))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11718))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11655))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11646))
 // CS Name: ::System.Xml.Schema::XmlSchemaChoice*
 class CORDL_TYPE XmlSchemaChoice : public ::System::Xml::Schema::XmlSchemaGroupBase {
 public:
@@ -34,7 +34,7 @@ public:
 
   constexpr void __set_items(::System::Xml::Schema::XmlSchemaObjectCollection* value);
 
-  /// @brief Method get_Items addr 0x28c72dc size 0x8 virtual true final false
+  /// @brief Method get_Items addr 0x27492b8 size 0x8 virtual true final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaChoice", modifiers: "&&", def_value: None }]
@@ -58,6 +58,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaChoice, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaChoice, ___items) == 0x38, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaChoice);

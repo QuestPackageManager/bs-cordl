@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::GUIStyleState);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14624))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14841))
 // CS Name: ::UnityEngine::GUIStyleState*
 class CORDL_TYPE GUIStyleState : public ::System::Object {
 public:
@@ -49,32 +49,32 @@ public:
 
   constexpr void __set_m_SourceStyle(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method set_textColor addr 0x2d0c684 size 0x54 virtual false final false
+  /// @brief Method set_textColor addr 0x2ba5274 size 0x54 virtual false final false
   inline void set_textColor(::UnityEngine::Color value);
 
-  /// @brief Method Init addr 0x2d0c71c size 0x28 virtual false final false
+  /// @brief Method Init addr 0x2ba530c size 0x28 virtual false final false
   static inline void* Init();
 
-  /// @brief Method Cleanup addr 0x2d0c744 size 0x3c virtual false final false
+  /// @brief Method Cleanup addr 0x2ba5334 size 0x3c virtual false final false
   inline void Cleanup();
 
   static inline ::UnityEngine::GUIStyleState* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d0c780 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2ba5370 size 0x48 virtual false final false
   inline void _ctor();
 
   static inline ::UnityEngine::GUIStyleState* New_ctor(::UnityEngine::GUIStyle* sourceStyle, void* source);
 
-  /// @brief Method .ctor addr 0x2d0c7c8 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2ba53b8 size 0x2c virtual false final false
   inline void _ctor(::UnityEngine::GUIStyle* sourceStyle, void* source);
 
-  /// @brief Method GetGUIStyleState addr 0x2d0c7f4 size 0x70 virtual false final false
+  /// @brief Method GetGUIStyleState addr 0x2ba53e4 size 0x70 virtual false final false
   static inline ::UnityEngine::GUIStyleState* GetGUIStyleState(::UnityEngine::GUIStyle* sourceStyle, void* source);
 
-  /// @brief Method Finalize addr 0x2d0c864 size 0xf8 virtual true final false
+  /// @brief Method Finalize addr 0x2ba5454 size 0xf8 virtual true final false
   inline void Finalize();
 
-  /// @brief Method set_textColor_Injected addr 0x2d0c6d8 size 0x44 virtual false final false
+  /// @brief Method set_textColor_Injected addr 0x2ba52c8 size 0x44 virtual false final false
   inline void set_textColor_Injected(ByRef<::UnityEngine::Color> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "GUIStyleState", modifiers: "&&", def_value: None }]
@@ -101,6 +101,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::GUIStyleState, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUIStyleState, ___m_Ptr) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUIStyleState, ___m_SourceStyle) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::GUIStyleState);

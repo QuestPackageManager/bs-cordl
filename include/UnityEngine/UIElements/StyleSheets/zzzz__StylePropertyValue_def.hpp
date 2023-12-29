@@ -21,8 +21,8 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StylePropertyValue);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7277))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7462))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7363))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7548))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StylePropertyValue
 struct CORDL_TYPE StylePropertyValue {
 public:
@@ -48,6 +48,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::StylePropertyValue, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::StylePropertyValue, sheet) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::StylePropertyValue, handle) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::StylePropertyValue, "UnityEngine.UIElements.StyleSheets", "StylePropertyValue");

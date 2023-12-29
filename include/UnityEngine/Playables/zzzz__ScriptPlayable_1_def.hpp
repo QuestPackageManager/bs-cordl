@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScriptPlayable_1)
+namespace UnityEngine::Playables {
+struct PlayableHandle;
+}
+namespace UnityEngine {
+class Object;
+}
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace System {
+class ICloneable;
+}
+namespace UnityEngine::Playables {
 class IPlayableBehaviour;
+}
+namespace UnityEngine::Playables {
+class IPlayable;
 }
 namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class ICloneable;
-}
-namespace UnityEngine::Playables {
-class IPlayable;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine::Playables {
-struct PlayableHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -45,8 +45,8 @@ namespace UnityEngine::Playables {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10423)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10423), inst: 4948 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10440))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10423)) CS Name: ::UnityEngine.Playables::ScriptPlayable`1<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10345)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10345), inst: 4841 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10362))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10345)) CS Name: ::UnityEngine.Playables::ScriptPlayable`1<T>
 struct CORDL_TYPE ScriptPlayable_1 {
 public:
   // Declarations

@@ -20,7 +20,7 @@ MARK_VAL_T(::UnityEngine::Tilemaps::TileAnimationData);
 namespace UnityEngine::Tilemaps {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15944))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15836))
 // CS Name: ::UnityEngine.Tilemaps::TileAnimationData
 struct CORDL_TYPE TileAnimationData {
 public:
@@ -49,6 +49,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Tilemaps::TileAnimationData, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::TileAnimationData, m_AnimatedSprites) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::TileAnimationData, m_AnimationSpeed) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::TileAnimationData, m_AnimationStartTime) == 0xc, "Offset mismatch!");
 
 } // namespace UnityEngine::Tilemaps
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Tilemaps::TileAnimationData, "UnityEngine.Tilemaps", "TileAnimationData");

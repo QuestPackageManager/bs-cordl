@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::ReflectionBakingCoverageModes);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11354))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11282))
 // CS Name: ::Zenject::ReflectionBakingCoverageModes
 struct CORDL_TYPE ReflectionBakingCoverageModes {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::ReflectionBakingCoverageModes, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::ReflectionBakingCoverageModes, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Zenject
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::ReflectionBakingCoverageModes, "Zenject", "ReflectionBakingCoverageModes");

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MirroredDisappearingArrowController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 348 }), TypeDefinitionIndex(TypeDefinitionIndex(4742)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4755))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4753)) CS Name: ::MirroredDisappearingArrowController*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4863), inst: 345 }), TypeDefinitionIndex(TypeDefinitionIndex(4876)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4863))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4874)) CS Name: ::MirroredDisappearingArrowController*
 class CORDL_TYPE MirroredDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::MirroredGameNoteController*> {
 public:
   // Declarations
@@ -34,12 +34,12 @@ public:
 
   constexpr void __set__mirroredGameNoteController(::GlobalNamespace::MirroredGameNoteController* value);
 
-  /// @brief Method get_gameNoteController addr 0x23861c4 size 0x8 virtual true final false
+  /// @brief Method get_gameNoteController addr 0x22517c8 size 0x8 virtual true final false
   inline ::GlobalNamespace::MirroredGameNoteController* get_gameNoteController();
 
   static inline ::GlobalNamespace::MirroredDisappearingArrowController* New_ctor();
 
-  /// @brief Method .ctor addr 0x23861cc size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x22517d0 size 0x6c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MirroredDisappearingArrowController", modifiers: "&&", def_value: None }]
@@ -63,6 +63,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MirroredDisappearingArrowController, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MirroredDisappearingArrowController, ____mirroredGameNoteController) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MirroredDisappearingArrowController);

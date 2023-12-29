@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BurstSliderNoteDisappearingArrowController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4742)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 288 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4738))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4739)) CS Name: ::BurstSliderNoteDisappearingArrowController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4863)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4863), inst: 289 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4859))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4860)) CS Name: ::BurstSliderNoteDisappearingArrowController*
 class CORDL_TYPE BurstSliderNoteDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::BurstSliderGameNoteController*> {
 public:
   // Declarations
@@ -34,12 +34,12 @@ public:
 
   constexpr void __set__burstSliderNoteController(::GlobalNamespace::BurstSliderGameNoteController* value);
 
-  /// @brief Method get_gameNoteController addr 0x2384ba4 size 0x8 virtual true final false
+  /// @brief Method get_gameNoteController addr 0x224f22c size 0x8 virtual true final false
   inline ::GlobalNamespace::BurstSliderGameNoteController* get_gameNoteController();
 
   static inline ::GlobalNamespace::BurstSliderNoteDisappearingArrowController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2384bac size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x224f234 size 0x6c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BurstSliderNoteDisappearingArrowController", modifiers: "&&", def_value: None }]
@@ -63,6 +63,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BurstSliderNoteDisappearingArrowController, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BurstSliderNoteDisappearingArrowController, ____burstSliderNoteController) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BurstSliderNoteDisappearingArrowController);

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BakerUtilities)
 namespace UnityEngine {
-class AnimationCurve;
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Keyframe;
 }
 namespace UnityEngine {
-struct Quaternion;
+class AnimationCurve;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -25,25 +25,25 @@ MARK_REF_PTR_T(::RootMotion::BakerUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12475))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12403))
 // CS Name: ::RootMotion::BakerUtilities*
 class CORDL_TYPE BakerUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReduceKeyframes addr 0x123257c size 0x38 virtual false final false
+  /// @brief Method ReduceKeyframes addr 0x11c2250 size 0x38 virtual false final false
   static inline void ReduceKeyframes(::UnityEngine::AnimationCurve* curve, float_t maxError);
 
-  /// @brief Method GetReducedKeyframes addr 0x12325b4 size 0x3c4 virtual false final false
+  /// @brief Method GetReducedKeyframes addr 0x11c2288 size 0x3c4 virtual false final false
   static inline ::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> GetReducedKeyframes(::UnityEngine::AnimationCurve* curve, float_t maxError);
 
-  /// @brief Method SetLoopFrame addr 0x1232978 size 0x1e0 virtual false final false
+  /// @brief Method SetLoopFrame addr 0x11c264c size 0x1e0 virtual false final false
   static inline void SetLoopFrame(float_t time, ::UnityEngine::AnimationCurve* curve);
 
-  /// @brief Method SetTangentMode addr 0x1232b58 size 0x4 virtual false final false
+  /// @brief Method SetTangentMode addr 0x11c282c size 0x4 virtual false final false
   static inline void SetTangentMode(::UnityEngine::AnimationCurve* curve);
 
-  /// @brief Method EnsureQuaternionContinuity addr 0x1232b5c size 0x194 virtual false final false
+  /// @brief Method EnsureQuaternionContinuity addr 0x11c2830 size 0x194 virtual false final false
   static inline ::UnityEngine::Quaternion EnsureQuaternionContinuity(::UnityEngine::Quaternion lastQ, ::UnityEngine::Quaternion q);
 
   // Ctor Parameters [CppParam { name: "", ty: "BakerUtilities", modifiers: "&&", def_value: None }]

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IGroupManager);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6860))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6946))
 // CS Name: ::UnityEngine.UIElements::IGroupManager*
 class CORDL_TYPE IGroupManager {
 public:

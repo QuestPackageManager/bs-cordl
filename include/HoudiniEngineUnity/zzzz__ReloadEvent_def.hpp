@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::ReloadEvent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10467), inst: 5233 }), TypeDefinitionIndex(TypeDefinitionIndex(3843)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9639)), TypeDefinitionIndex(TypeDefinitionIndex(10467)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 311 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10196))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9600)) CS Name: ::HoudiniEngineUnity::ReloadEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10389)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10389), inst: 5116 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10124)), TypeDefinitionIndex(TypeDefinitionIndex(9566)), TypeDefinitionIndex(TypeDefinitionIndex(3831)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3831), inst: 312 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9527)) CS Name: ::HoudiniEngineUnity::ReloadEvent*
 class CORDL_TYPE ReloadEvent : public ::UnityEngine::Events::UnityEvent_3<::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*> {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::ReloadEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x214e3b8 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x1ff6a1c size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReloadEvent", modifiers: "&&", def_value: None }]

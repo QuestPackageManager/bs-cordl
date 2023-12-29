@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
 CORDL_MODULE_EXPORT(BaseFieldTraits_2)
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -25,8 +25,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TValueUxmlAttributeType>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7129), inst: 5214 }), TypeDefinitionIndex(TypeDefinitionIndex(7129))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7131))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst: 5098 }), TypeDefinitionIndex(TypeDefinitionIndex(7215))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7217))
 // CS Name: ::UnityEngine.UIElements::BaseFieldTraits`2<TValueType,TValueUxmlAttributeType>*
 class CORDL_TYPE BaseFieldTraits_2 : public ::UnityEngine::UIElements::__BaseField_1__UxmlTraits<TValueType> {
 public:

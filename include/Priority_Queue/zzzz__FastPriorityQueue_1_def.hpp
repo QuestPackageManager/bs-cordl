@@ -7,8 +7,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FastPriorityQueue_1)
+namespace System::Collections {
+class IEnumerator;
+}
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
+}
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Priority_Queue {
 template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
@@ -17,22 +26,13 @@ namespace Priority_Queue {
 template <typename T> class __FastPriorityQueue_1___GetEnumerator_d__22;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class Object;
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Priority_Queue {
@@ -50,8 +50,8 @@ namespace Priority_Queue {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6091))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6162))
 // CS Name: ::FastPriorityQueue`1::<GetEnumerator>d__22<T>*
 class CORDL_TYPE __FastPriorityQueue_1___GetEnumerator_d__22 : public ::System::Object {
 public:
@@ -161,8 +161,8 @@ namespace Priority_Queue {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6092))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6163))
 // CS Name: ::Priority_Queue::FastPriorityQueue`1<T>*
 class CORDL_TYPE FastPriorityQueue_1 : public ::System::Object {
 public:

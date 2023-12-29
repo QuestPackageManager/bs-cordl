@@ -11,11 +11,11 @@ class FileInfo;
 namespace Org::BouncyCastle::Cms {
 class CmsReadable;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsProcessable;
 }
 namespace System {
 class Object;
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsProcessableFile);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(646))
 // CS Name: ::Org.BouncyCastle.Cms::CmsProcessableFile*
 class CORDL_TYPE CmsProcessableFile : public ::System::Object {
@@ -62,21 +62,21 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableFile* New_ctor(::System::IO::FileInfo* file);
 
-  /// @brief Method .ctor addr 0x11e5190 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x1173f40 size 0x30 virtual false final false
   inline void _ctor(::System::IO::FileInfo* file);
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableFile* New_ctor(::System::IO::FileInfo* file, int32_t bufSize);
 
-  /// @brief Method .ctor addr 0x11e51c0 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x1173f70 size 0x30 virtual false final false
   inline void _ctor(::System::IO::FileInfo* file, int32_t bufSize);
 
-  /// @brief Method GetInputStream addr 0x11e51f0 size 0x94 virtual true final false
+  /// @brief Method GetInputStream addr 0x1173fa0 size 0x94 virtual true final false
   inline ::System::IO::Stream* GetInputStream();
 
-  /// @brief Method Write addr 0x11e5284 size 0x84 virtual true final false
+  /// @brief Method Write addr 0x1174034 size 0x84 virtual true final false
   inline void Write(::System::IO::Stream* zOut);
 
-  /// @brief Method GetContent addr 0x11e5308 size 0x8 virtual true final false
+  /// @brief Method GetContent addr 0x11740b8 size 0x8 virtual true final false
   inline ::System::Object* GetContent();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsProcessableFile", modifiers: "&&", def_value: None }]
@@ -106,6 +106,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsProcessableFile, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsProcessableFile, ____file) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsProcessableFile, ____bufSize) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsProcessableFile);

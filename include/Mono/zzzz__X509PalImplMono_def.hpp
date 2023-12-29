@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509PalImplMono)
+namespace Microsoft::Win32::SafeHandles {
+class SafePasswordHandle;
+}
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImpl;
 }
@@ -14,9 +17,6 @@ struct X509KeyStorageFlags;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2Impl;
-}
-namespace Microsoft::Win32::SafeHandles {
-class SafePasswordHandle;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
@@ -31,25 +31,25 @@ MARK_REF_PTR_T(::Mono::X509PalImplMono);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8754))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8753))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7591))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7590))
 // CS Name: ::Mono::X509PalImplMono*
 class CORDL_TYPE X509PalImplMono : public ::Mono::X509PalImpl {
 public:
   // Declarations
-  /// @brief Method Import addr 0x2816ed8 size 0x4 virtual true final false
+  /// @brief Method Import addr 0x269bec8 size 0x4 virtual true final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Import addr 0x2816edc size 0x4 virtual true final false
+  /// @brief Method Import addr 0x269becc size 0x4 virtual true final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                                                                                           ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
-  /// @brief Method Import addr 0x2816ee0 size 0x8 virtual true final false
+  /// @brief Method Import addr 0x269bed0 size 0x8 virtual true final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
   static inline ::Mono::X509PalImplMono* New_ctor();
 
-  /// @brief Method .ctor addr 0x2816478 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x269b464 size 0x58 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509PalImplMono", modifiers: "&&", def_value: None }]

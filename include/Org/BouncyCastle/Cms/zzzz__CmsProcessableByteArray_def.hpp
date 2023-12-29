@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsProcessableByteArray)
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsReadable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Cms {
+class CmsReadable;
+}
+namespace Org::BouncyCastle::Cms {
 class CmsProcessable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsProcessableByteArray);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(645))
 // CS Name: ::Org.BouncyCastle.Cms::CmsProcessableByteArray*
 class CORDL_TYPE CmsProcessableByteArray : public ::System::Object {
@@ -65,24 +65,24 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableByteArray* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method .ctor addr 0x11e5024 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x1173dd4 size 0x78 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableByteArray* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* type, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method .ctor addr 0x11e509c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x1173e4c size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* type, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method get_Type addr 0x11e50c8 size 0x8 virtual false final false
+  /// @brief Method get_Type addr 0x1173e78 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
 
-  /// @brief Method GetInputStream addr 0x11e50d0 size 0x6c virtual true final false
+  /// @brief Method GetInputStream addr 0x1173e80 size 0x6c virtual true final false
   inline ::System::IO::Stream* GetInputStream();
 
-  /// @brief Method Write addr 0x11e513c size 0x38 virtual true final false
+  /// @brief Method Write addr 0x1173eec size 0x38 virtual true final false
   inline void Write(::System::IO::Stream* zOut);
 
-  /// @brief Method GetContent addr 0x11e5174 size 0x1c virtual true final false
+  /// @brief Method GetContent addr 0x1173f24 size 0x1c virtual true final false
   inline ::System::Object* GetContent();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsProcessableByteArray", modifiers: "&&", def_value: None }]
@@ -109,6 +109,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsProcessableByteArray, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsProcessableByteArray, ___type) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsProcessableByteArray, ___bytes) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsProcessableByteArray);

@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::FrameTiming);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10132))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10060))
 // CS Name: ::UnityEngine::FrameTiming
 struct CORDL_TYPE FrameTiming {
 public:
@@ -61,6 +61,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::FrameTiming, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::FrameTiming, cpuTimePresentCalled) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::FrameTiming, cpuFrameTime) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::FrameTiming, cpuTimeFrameComplete) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::FrameTiming, gpuFrameTime) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::FrameTiming, heightScale) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::FrameTiming, widthScale) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::FrameTiming, syncInterval) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::FrameTiming, "UnityEngine", "FrameTiming");

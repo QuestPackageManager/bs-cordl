@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::KeyGenerationParameters);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1018))
 // CS Name: ::Org.BouncyCastle.Crypto::KeyGenerationParameters*
 class CORDL_TYPE KeyGenerationParameters : public ::System::Object {
@@ -48,13 +48,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::KeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength);
 
-  /// @brief Method .ctor addr 0xf3023c size 0xd4 virtual false final false
+  /// @brief Method .ctor addr 0xebb050 size 0xd4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength);
 
-  /// @brief Method get_Random addr 0xf30310 size 0x8 virtual false final false
+  /// @brief Method get_Random addr 0xebb124 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Security::SecureRandom* get_Random();
 
-  /// @brief Method get_Strength addr 0xf30318 size 0x8 virtual false final false
+  /// @brief Method get_Strength addr 0xebb12c size 0x8 virtual false final false
   inline int32_t get_Strength();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyGenerationParameters", modifiers: "&&", def_value: None }]
@@ -81,6 +81,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::KeyGenerationParameters, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::KeyGenerationParameters, ___random) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::KeyGenerationParameters, ___strength) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::KeyGenerationParameters);

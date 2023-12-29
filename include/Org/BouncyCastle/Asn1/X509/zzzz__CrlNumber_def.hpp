@@ -28,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlNumber* New_ctor(::Org::BouncyCastle::Math::BigInteger* number);
 
-  /// @brief Method .ctor addr 0x118b000 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x111adb8 size 0x8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* number);
 
-  /// @brief Method get_Number addr 0x118b008 size 0x8 virtual false final false
+  /// @brief Method get_Number addr 0x111adc0 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Number();
 
-  /// @brief Method ToString addr 0x118b010 size 0x5c virtual true final false
+  /// @brief Method ToString addr 0x111adc8 size 0x5c virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrlNumber", modifiers: "&&", def_value: None }]

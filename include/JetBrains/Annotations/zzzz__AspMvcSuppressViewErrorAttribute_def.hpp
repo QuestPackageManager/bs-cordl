@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspMvcSuppressViewErrorAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15772))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15722))
 // CS Name: ::JetBrains.Annotations::AspMvcSuppressViewErrorAttribute*
 class CORDL_TYPE AspMvcSuppressViewErrorAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::AspMvcSuppressViewErrorAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2eba61c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d5289c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AspMvcSuppressViewErrorAttribute", modifiers: "&&", def_value: None }]

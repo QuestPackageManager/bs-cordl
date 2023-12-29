@@ -8,19 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StringWriter)
 namespace System::Text {
-class StringBuilder;
-}
-namespace System::Text {
 class UnicodeEncoding;
+}
+namespace System {
+class IFormatProvider;
 }
 namespace System::Text {
 class Encoding;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
-class IFormatProvider;
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace System::IO {
@@ -32,8 +29,8 @@ MARK_REF_PTR_T(::System::IO::StringWriter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3586))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3624))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3575))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3612))
 // CS Name: ::System.IO::StringWriter*
 class CORDL_TYPE StringWriter : public ::System::IO::TextWriter {
 public:
@@ -67,41 +64,38 @@ public:
 
   static inline ::System::IO::StringWriter* New_ctor();
 
-  /// @brief Method .ctor addr 0x253be60 size 0x94 virtual false final false
+  /// @brief Method .ctor addr 0x23dfc58 size 0x94 virtual false final false
   inline void _ctor();
 
   static inline ::System::IO::StringWriter* New_ctor(::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor addr 0x253bfdc size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x23dfdd4 size 0x74 virtual false final false
   inline void _ctor(::System::IFormatProvider* formatProvider);
 
   static inline ::System::IO::StringWriter* New_ctor(::System::Text::StringBuilder* sb, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor addr 0x253bef4 size 0xe8 virtual false final false
+  /// @brief Method .ctor addr 0x23dfcec size 0xe8 virtual false final false
   inline void _ctor(::System::Text::StringBuilder* sb, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method Close addr 0x253c050 size 0x10 virtual true final false
+  /// @brief Method Close addr 0x23dfe48 size 0x10 virtual true final false
   inline void Close();
 
-  /// @brief Method Dispose addr 0x253c060 size 0x10 virtual true final false
+  /// @brief Method Dispose addr 0x23dfe58 size 0x10 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method get_Encoding addr 0x253c070 size 0xac virtual true final false
+  /// @brief Method get_Encoding addr 0x23dfe68 size 0xac virtual true final false
   inline ::System::Text::Encoding* get_Encoding();
 
-  /// @brief Method Write addr 0x253c11c size 0x28 virtual true final false
+  /// @brief Method Write addr 0x23dff14 size 0x28 virtual true final false
   inline void Write(char16_t value);
 
-  /// @brief Method Write addr 0x253c144 size 0x188 virtual true final false
+  /// @brief Method Write addr 0x23dff3c size 0x188 virtual true final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write addr 0x253c2cc size 0x34 virtual true final false
+  /// @brief Method Write addr 0x23e00c4 size 0x34 virtual true final false
   inline void Write(::StringW value);
 
-  /// @brief Method FlushAsync addr 0x253c300 size 0x88 virtual true final false
-  inline ::System::Threading::Tasks::Task* FlushAsync();
-
-  /// @brief Method ToString addr 0x253c388 size 0x20 virtual true final false
+  /// @brief Method ToString addr 0x23e00f8 size 0x20 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "StringWriter", modifiers: "&&", def_value: None }]
@@ -128,6 +122,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::StringWriter, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::IO::StringWriter, ____sb) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::StringWriter, ____isOpen) == 0x38, "Offset mismatch!");
 
 } // namespace System::IO
 NEED_NO_BOX(::System::IO::StringWriter);

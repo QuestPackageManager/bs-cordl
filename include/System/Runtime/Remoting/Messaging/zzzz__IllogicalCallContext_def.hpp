@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IllogicalCallContext);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3144))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3143))
 // CS Name: ::System.Runtime.Remoting.Messaging::IllogicalCallContext*
 class CORDL_TYPE IllogicalCallContext : public ::System::Object {
 public:
@@ -51,27 +51,27 @@ public:
 
   constexpr void __set_m_HostContext(::System::Object* value);
 
-  /// @brief Method get_Datastore addr 0x24a634c size 0x6c virtual false final false
+  /// @brief Method get_Datastore addr 0x234d858 size 0x6c virtual false final false
   inline ::System::Collections::Hashtable* get_Datastore();
 
-  /// @brief Method get_HostContext addr 0x24a63b8 size 0x8 virtual false final false
+  /// @brief Method get_HostContext addr 0x234d8c4 size 0x8 virtual false final false
   inline ::System::Object* get_HostContext();
 
-  /// @brief Method set_HostContext addr 0x24a63c0 size 0x8 virtual false final false
+  /// @brief Method set_HostContext addr 0x234d8cc size 0x8 virtual false final false
   inline void set_HostContext(::System::Object* value);
 
-  /// @brief Method get_HasUserData addr 0x24a63c8 size 0x2c virtual false final false
+  /// @brief Method get_HasUserData addr 0x234d8d4 size 0x2c virtual false final false
   inline bool get_HasUserData();
 
-  /// @brief Method FreeNamedDataSlot addr 0x24a6288 size 0x2c virtual false final false
+  /// @brief Method FreeNamedDataSlot addr 0x234d794 size 0x2c virtual false final false
   inline void FreeNamedDataSlot(::StringW name);
 
-  /// @brief Method CreateCopy addr 0x24a63f4 size 0x254 virtual false final false
+  /// @brief Method CreateCopy addr 0x234d900 size 0x254 virtual false final false
   inline ::System::Runtime::Remoting::Messaging::IllogicalCallContext* CreateCopy();
 
   static inline ::System::Runtime::Remoting::Messaging::IllogicalCallContext* New_ctor();
 
-  /// @brief Method .ctor addr 0x24a6648 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x234db54 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IllogicalCallContext", modifiers: "&&", def_value: None }]
@@ -98,6 +98,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::IllogicalCallContext, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::IllogicalCallContext, ___m_Datastore) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::IllogicalCallContext, ___m_HostContext) == 0x18, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::IllogicalCallContext);

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(DelayedMenuButtonTrigger)
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
 namespace Zenject {
 class ITickable;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+class IMenuButtonTrigger;
 }
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-class IMenuButtonTrigger;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DelayedMenuButtonTrigger);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5052))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5157))
 // CS Name: ::DelayedMenuButtonTrigger*
 class CORDL_TYPE DelayedMenuButtonTrigger : public ::System::Object {
 public:
@@ -84,18 +84,18 @@ public:
 
   constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method add_menuButtonTriggeredEvent addr 0x23c3e2c size 0x9c virtual true final true
+  /// @brief Method add_menuButtonTriggeredEvent addr 0x20e1fac size 0x9c virtual true final true
   inline void add_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method remove_menuButtonTriggeredEvent addr 0x23c3ec8 size 0x9c virtual true final true
+  /// @brief Method remove_menuButtonTriggeredEvent addr 0x20e2048 size 0x9c virtual true final true
   inline void remove_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method Tick addr 0x23c3f64 size 0x110 virtual true final true
+  /// @brief Method Tick addr 0x20e20e4 size 0x110 virtual true final true
   inline void Tick();
 
   static inline ::GlobalNamespace::DelayedMenuButtonTrigger* New_ctor();
 
-  /// @brief Method .ctor addr 0x23c4074 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x20e21f4 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DelayedMenuButtonTrigger", modifiers: "&&", def_value: None }]
@@ -131,6 +131,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DelayedMenuButtonTrigger, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DelayedMenuButtonTrigger, ___menuButtonTriggeredEvent) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DelayedMenuButtonTrigger, ____pressDuration) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DelayedMenuButtonTrigger, ____timer) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DelayedMenuButtonTrigger, ____waitingForButtonRelease) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DelayedMenuButtonTrigger, ____vrPlatformHelper) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DelayedMenuButtonTrigger);

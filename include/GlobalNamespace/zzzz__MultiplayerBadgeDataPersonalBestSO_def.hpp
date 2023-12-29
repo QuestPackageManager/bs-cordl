@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerBadgeDataPersonalBestSO)
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class MultiplayerBadgeAwardData;
 }
 namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
@@ -18,7 +18,7 @@ namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
-class MultiplayerBadgeAwardData;
+class IDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5108))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5105))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5213))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5210))
 // CS Name: ::MultiplayerBadgeDataPersonalBestSO*
 class CORDL_TYPE MultiplayerBadgeDataPersonalBestSO : public ::GlobalNamespace::MultiplayerBadgeDataSO {
 public:
@@ -45,14 +45,14 @@ public:
 
   constexpr void __set__weight(float_t value);
 
-  /// @brief Method CalculateBadgeData addr 0x23cf314 size 0x550 virtual true final false
+  /// @brief Method CalculateBadgeData addr 0x20ed804 size 0x550 virtual true final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                           ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap,
                                                                           float_t randomMultiplier);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x23cf864 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x20edd54 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataPersonalBestSO", modifiers: "&&", def_value: None }]
@@ -76,6 +76,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO, ____weight) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO);

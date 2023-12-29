@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::MultiplayerGameState);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12880))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12803))
 // CS Name: ::MultiplayerGameState
 struct CORDL_TYPE MultiplayerGameState {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerGameState, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerGameState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerGameState, "", "MultiplayerGameState");

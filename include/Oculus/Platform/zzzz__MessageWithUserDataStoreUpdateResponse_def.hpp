@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithUserDataStoreUpdateResponse);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4613 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13489))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13330)) CS Name: ::Oculus.Platform::MessageWithUserDataStoreUpdateResponse*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13269)), TypeDefinitionIndex(TypeDefinitionIndex(13552)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst:
+// 4520 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13353)) CS Name: ::Oculus.Platform::MessageWithUserDataStoreUpdateResponse*
 class CORDL_TYPE MessageWithUserDataStoreUpdateResponse : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserDataStoreUpdateResponse*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithUserDataStoreUpdateResponse* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x26efad8 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x2593df4 size 0x58 virtual false final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetUserDataStoreUpdateResponse addr 0x26f3fd8 size 0x3c virtual true final false
+  /// @brief Method GetUserDataStoreUpdateResponse addr 0x2598a4c size 0x3c virtual true final false
   inline ::Oculus::Platform::Models::UserDataStoreUpdateResponse* GetUserDataStoreUpdateResponse();
 
-  /// @brief Method GetDataFromMessage addr 0x26f4014 size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage addr 0x2598a88 size 0x9c virtual true final false
   inline ::Oculus::Platform::Models::UserDataStoreUpdateResponse* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithUserDataStoreUpdateResponse", modifiers: "&&", def_value: None }]

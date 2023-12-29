@@ -11,10 +11,10 @@ namespace UnityEngine::UIElements {
 struct TextureId;
 }
 namespace UnityEngine {
-class Texture;
+class Material;
 }
 namespace UnityEngine {
-class Material;
+class Texture;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::State);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7339))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7441))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7425))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7527))
 // CS Name: ::UnityEngine.UIElements.UIR::State
 struct CORDL_TYPE State {
 public:
@@ -63,6 +63,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::State, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::State, material) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::State, font) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::State, fontTexSDFScale) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::State, texture) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::State, stencilRef) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::State, "UnityEngine.UIElements.UIR", "State");

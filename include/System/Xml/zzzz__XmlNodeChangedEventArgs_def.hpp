@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Xml::XmlNodeChangedEventArgs);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(11511))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11521))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11439)), TypeDefinitionIndex(TypeDefinitionIndex(2376))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11449))
 // CS Name: ::System.Xml::XmlNodeChangedEventArgs*
 class CORDL_TYPE XmlNodeChangedEventArgs : public ::System::EventArgs {
 public:
@@ -87,11 +87,11 @@ public:
   static inline ::System::Xml::XmlNodeChangedEventArgs* New_ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue,
                                                                  ::StringW newValue, ::System::Xml::XmlNodeChangedAction action);
 
-  /// @brief Method .ctor addr 0x2891780 size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0x2714760 size 0x9c virtual false final false
   inline void _ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue, ::StringW newValue,
                     ::System::Xml::XmlNodeChangedAction action);
 
-  /// @brief Method get_Action addr 0x289181c size 0x8 virtual false final false
+  /// @brief Method get_Action addr 0x27147fc size 0x8 virtual false final false
   inline ::System::Xml::XmlNodeChangedAction get_Action();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlNodeChangedEventArgs", modifiers: "&&", def_value: None }]
@@ -130,6 +130,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlNodeChangedEventArgs, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlNodeChangedEventArgs, ___action) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlNodeChangedEventArgs, ___node) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlNodeChangedEventArgs, ___oldParent) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlNodeChangedEventArgs, ___newParent) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlNodeChangedEventArgs, ___oldValue) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlNodeChangedEventArgs, ___newValue) == 0x38, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlNodeChangedEventArgs);

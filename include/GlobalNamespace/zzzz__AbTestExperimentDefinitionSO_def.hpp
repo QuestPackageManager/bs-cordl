@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::AbTestExperimentDefinitionSO);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5816))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5909))
 // CS Name: ::AbTestExperimentDefinitionSO::Group
 struct CORDL_TYPE __AbTestExperimentDefinitionSO__Group {
 public:
@@ -73,13 +73,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AbTestExperimentDefinitionSO__Group, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__AbTestExperimentDefinitionSO__Group, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::AbTestExperimentDefinitionSO
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(5816))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5817))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879)), TypeDefinitionIndex(TypeDefinitionIndex(5909))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5910))
 // CS Name: ::AbTestExperimentDefinitionSO*
 class CORDL_TYPE AbTestExperimentDefinitionSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -148,33 +150,33 @@ public:
 
   constexpr void __set__currentUserTreatmentGroup(::GlobalNamespace::__AbTestExperimentDefinitionSO__Group value);
 
-  /// @brief Method get_test1GroupSize addr 0x22eada8 size 0x8 virtual false final false
+  /// @brief Method get_test1GroupSize addr 0x21a5bb4 size 0x8 virtual false final false
   inline float_t get_test1GroupSize();
 
-  /// @brief Method get_test2GroupSize addr 0x22eadb0 size 0x8 virtual false final false
+  /// @brief Method get_test2GroupSize addr 0x21a5bbc size 0x8 virtual false final false
   inline float_t get_test2GroupSize();
 
-  /// @brief Method get_experimentName addr 0x22eadb8 size 0x8 virtual false final false
+  /// @brief Method get_experimentName addr 0x21a5bc4 size 0x8 virtual false final false
   inline ::StringW get_experimentName();
 
-  /// @brief Method get_currentUserTreatmentGroup addr 0x22eadc0 size 0x8 virtual false final false
+  /// @brief Method get_currentUserTreatmentGroup addr 0x21a5bcc size 0x8 virtual false final false
   inline ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group get_currentUserTreatmentGroup();
 
-  /// @brief Method OnValidate addr 0x22eadc8 size 0x2c virtual false final false
+  /// @brief Method OnValidate addr 0x21a5bd4 size 0x2c virtual false final false
   inline void OnValidate();
 
-  /// @brief Method ComputeCurrentUserTreatment addr 0x22eadf4 size 0x18 virtual false final false
+  /// @brief Method ComputeCurrentUserTreatment addr 0x21a5c00 size 0x18 virtual false final false
   inline void ComputeCurrentUserTreatment(::StringW userId);
 
-  /// @brief Method ForceSetTreatmentGroup addr 0x22eb094 size 0x8 virtual false final false
+  /// @brief Method ForceSetTreatmentGroup addr 0x21a5ea0 size 0x8 virtual false final false
   inline void ForceSetTreatmentGroup(::GlobalNamespace::__AbTestExperimentDefinitionSO__Group group);
 
-  /// @brief Method AbSplit addr 0x22eae0c size 0x288 virtual false final false
+  /// @brief Method AbSplit addr 0x21a5c18 size 0x288 virtual false final false
   inline ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group AbSplit(::StringW userId);
 
   static inline ::GlobalNamespace::AbTestExperimentDefinitionSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x22eb09c size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x21a5ea8 size 0x18 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AbTestExperimentDefinitionSO", modifiers: "&&", def_value: None }]
@@ -213,6 +215,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AbTestExperimentDefinitionSO, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AbTestExperimentDefinitionSO, ____experimentName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AbTestExperimentDefinitionSO, ____test1GroupSize) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AbTestExperimentDefinitionSO, ____test2GroupSize) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AbTestExperimentDefinitionSO, ____controlGroupSize) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AbTestExperimentDefinitionSO, ____salt) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AbTestExperimentDefinitionSO, ____currentUserTreatmentGroup) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__AbTestExperimentDefinitionSO__Group, "", "AbTestExperimentDefinitionSO/Group");

@@ -10,14 +10,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector2Composite)
+namespace UnityEngine {
+struct Vector2;
+}
 namespace UnityEngine::InputSystem::Composites {
 struct __Vector2Composite__Mode;
 }
 namespace UnityEngine::InputSystem {
 struct InputBindingCompositeContext;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Composites {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::Vector2Composite);
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6719))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6805))
 // CS Name: ::Vector2Composite::Mode
 struct CORDL_TYPE __Vector2Composite__Mode {
 public:
@@ -80,13 +80,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::Composites
 // Type: UnityEngine.InputSystem.Composites::Vector2Composite
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 411 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6190)), TypeDefinitionIndex(TypeDefinitionIndex(6719))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6720)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6276), inst: 406 }), TypeDefinitionIndex(TypeDefinitionIndex(10170)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6276)), TypeDefinitionIndex(TypeDefinitionIndex(6805))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6806)) CS Name:
 // ::UnityEngine.InputSystem.Composites::Vector2Composite*
 class CORDL_TYPE Vector2Composite : public ::UnityEngine::InputSystem::InputBindingComposite_1<::UnityEngine::Vector2> {
 public:
@@ -147,15 +149,15 @@ public:
 
   constexpr void __set_mode(::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode value);
 
-  /// @brief Method ReadValue addr 0x2a5ba08 size 0x164 virtual true final false
+  /// @brief Method ReadValue addr 0x28dbcc0 size 0x164 virtual true final false
   inline ::UnityEngine::Vector2 ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method EvaluateMagnitude addr 0x2a5bb6c size 0x70 virtual true final false
+  /// @brief Method EvaluateMagnitude addr 0x28dbe24 size 0x70 virtual true final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::Vector2Composite* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a5bbdc size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x28dbe94 size 0x50 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector2Composite", modifiers: "&&", def_value: None }]
@@ -194,6 +196,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Composites::Vector2Composite, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Composites::Vector2Composite, ___up) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Composites::Vector2Composite, ___down) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Composites::Vector2Composite, ___left) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Composites::Vector2Composite, ___right) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Composites::Vector2Composite, ___normalize) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Composites::Vector2Composite, ___mode) == 0x24, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Composites
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode, "UnityEngine.InputSystem.Composites", "Vector2Composite/Mode");

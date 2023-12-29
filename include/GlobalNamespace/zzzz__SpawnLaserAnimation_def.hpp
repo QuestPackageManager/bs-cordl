@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(SpawnLaserAnimation)
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SpawnLaserAnimation);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4883))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5001))
 // CS Name: ::SpawnLaserAnimation*
 class CORDL_TYPE SpawnLaserAnimation : public ::UnityEngine::MonoBehaviour {
 public:
@@ -108,15 +108,15 @@ public:
 
   constexpr void __set__initialized(bool value);
 
-  /// @brief Method InitIfNeeded addr 0x23a0cd4 size 0xc0 virtual false final false
+  /// @brief Method InitIfNeeded addr 0x226ad68 size 0xc0 virtual false final false
   inline void InitIfNeeded();
 
-  /// @brief Method LateUpdate addr 0x23a0d94 size 0x108 virtual false final false
+  /// @brief Method LateUpdate addr 0x226ae28 size 0x108 virtual false final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SpawnLaserAnimation* New_ctor();
 
-  /// @brief Method .ctor addr 0x23a0e9c size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x226af30 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SpawnLaserAnimation", modifiers: "&&", def_value: None }]
@@ -164,6 +164,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpawnLaserAnimation, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnLaserAnimation, ____centerThresholdTransform) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnLaserAnimation, ____horizontalLasersTransform) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnLaserAnimation, ____leftHorizontalLaser) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnLaserAnimation, ____rightHorizontalLaser) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnLaserAnimation, ____normalizedDistance) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnLaserAnimation, ____alphaMultiplier) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnLaserAnimation, ____laserLength) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnLaserAnimation, ____centerDistance) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnLaserAnimation, ____initialized) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SpawnLaserAnimation);

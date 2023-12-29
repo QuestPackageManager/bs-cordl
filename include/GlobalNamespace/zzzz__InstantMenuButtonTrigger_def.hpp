@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(InstantMenuButtonTrigger)
+namespace Zenject {
+class ITickable;
+}
 namespace GlobalNamespace {
 class IMenuButtonTrigger;
 }
 namespace System {
 class Action;
-}
-namespace Zenject {
-class ITickable;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::InstantMenuButtonTrigger);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5054))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5159))
 // CS Name: ::InstantMenuButtonTrigger*
 class CORDL_TYPE InstantMenuButtonTrigger : public ::System::Object {
 public:
@@ -56,18 +56,18 @@ public:
 
   constexpr void __set_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method add_menuButtonTriggeredEvent addr 0x23c4088 size 0x9c virtual true final true
+  /// @brief Method add_menuButtonTriggeredEvent addr 0x20e2208 size 0x9c virtual true final true
   inline void add_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method remove_menuButtonTriggeredEvent addr 0x23c4124 size 0x9c virtual true final true
+  /// @brief Method remove_menuButtonTriggeredEvent addr 0x20e22a4 size 0x9c virtual true final true
   inline void remove_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method Tick addr 0x23c41c0 size 0xcc virtual true final true
+  /// @brief Method Tick addr 0x20e2340 size 0xcc virtual true final true
   inline void Tick();
 
   static inline ::GlobalNamespace::InstantMenuButtonTrigger* New_ctor();
 
-  /// @brief Method .ctor addr 0x23c428c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20e240c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InstantMenuButtonTrigger", modifiers: "&&", def_value: None }]
@@ -94,6 +94,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::InstantMenuButtonTrigger, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::InstantMenuButtonTrigger, ____vrPlatformHelper) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::InstantMenuButtonTrigger, ___menuButtonTriggeredEvent) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::InstantMenuButtonTrigger);

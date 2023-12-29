@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::PKCS1);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2281))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14065))
 // CS Name: ::Mono.Security.Cryptography::PKCS1*
 class CORDL_TYPE PKCS1 : public ::System::Object {
 public:
@@ -57,33 +57,32 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_emptySHA512();
 
-  /// @brief Method Compare addr 0x2421c90 size 0x74 virtual false final false
+  /// @brief Method Compare addr 0x22ab974 size 0x74 virtual false final false
   static inline bool Compare(::ArrayW<uint8_t, ::Array<uint8_t>*> array1, ::ArrayW<uint8_t, ::Array<uint8_t>*> array2);
 
-  /// @brief Method I2OSP addr 0x2421d04 size 0x8c virtual false final false
+  /// @brief Method I2OSP addr 0x22ab9e8 size 0x8c virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> I2OSP(::ArrayW<uint8_t, ::Array<uint8_t>*> x, int32_t size);
 
-  /// @brief Method OS2IP addr 0x2421d90 size 0xbc virtual false final false
+  /// @brief Method OS2IP addr 0x22aba74 size 0xbc virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> OS2IP(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
-  /// @brief Method RSAVP1 addr 0x2421e4c size 0x1c virtual false final false
+  /// @brief Method RSAVP1 addr 0x22abb30 size 0x20 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> RSAVP1(::System::Security::Cryptography::RSA* rsa, ::ArrayW<uint8_t, ::Array<uint8_t>*> s);
 
-  /// @brief Method Verify_v15 addr 0x2421e68 size 0x80 virtual false final false
-  static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue,
-                                ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
-
-  /// @brief Method Verify_v15 addr 0x24220c8 size 0x1dc virtual false final false
-  static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::StringW hashName, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
-
-  /// @brief Method Verify_v15 addr 0x2421ee8 size 0x1e0 virtual false final false
+  /// @brief Method Verify_v15 addr 0x22abb50 size 0x1e4 virtual false final false
   static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue,
                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> signature, bool tryNonStandardEncoding);
 
-  /// @brief Method Encode_v15 addr 0x24226b4 size 0x350 virtual false final false
+  /// @brief Method Encode_v15 addr 0x22abd34 size 0x348 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode_v15(::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue, int32_t emLength);
 
-  /// @brief Method CreateFromName addr 0x24222a4 size 0x410 virtual false final false
+  /// @brief Method HashNameFromOid addr 0x22ac07c size 0x394 virtual false final false
+  static inline ::StringW HashNameFromOid(::StringW oid, bool throwOnError);
+
+  /// @brief Method CreateFromOid addr 0x22ac48c size 0x5c virtual false final false
+  static inline ::System::Security::Cryptography::HashAlgorithm* CreateFromOid(::StringW oid);
+
+  /// @brief Method CreateFromName addr 0x22ac4e8 size 0x40c virtual false final false
   static inline ::System::Security::Cryptography::HashAlgorithm* CreateFromName(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "PKCS1", modifiers: "&&", def_value: None }]

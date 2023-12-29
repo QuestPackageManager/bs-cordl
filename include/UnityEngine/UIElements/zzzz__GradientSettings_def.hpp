@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(GradientSettings)
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct RectInt;
+namespace UnityEngine::UIElements {
+struct GradientType;
 }
 namespace UnityEngine::UIElements {
 struct AddressMode;
 }
-namespace UnityEngine::UIElements {
-struct GradientType;
+namespace UnityEngine {
+struct RectInt;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -30,8 +30,8 @@ MARK_VAL_T(::UnityEngine::UIElements::GradientSettings);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(6803)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6802))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6805)) CS Name: ::UnityEngine.UIElements::GradientSettings
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6888)), TypeDefinitionIndex(TypeDefinitionIndex(6889)), TypeDefinitionIndex(TypeDefinitionIndex(10090)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10170))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6891)) CS Name: ::UnityEngine.UIElements::GradientSettings
 struct CORDL_TYPE GradientSettings {
 public:
   // Declarations
@@ -64,6 +64,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::GradientSettings, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::GradientSettings, gradientType) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::GradientSettings, addressMode) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::GradientSettings, radialFocus) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::GradientSettings, location) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::GradientSettings, "UnityEngine.UIElements", "GradientSettings");

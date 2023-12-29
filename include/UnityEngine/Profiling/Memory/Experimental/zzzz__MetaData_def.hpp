@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::Profiling::Memory::Experimental::MetaData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Profiling::Memory::Experimental {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10298))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10220))
 // CS Name: ::UnityEngine.Profiling.Memory.Experimental::MetaData*
 class CORDL_TYPE MetaData : public ::System::Object {
 public:
@@ -41,7 +41,7 @@ public:
 
   static inline ::UnityEngine::Profiling::Memory::Experimental::MetaData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ce6cd0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2b7f89c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MetaData", modifiers: "&&", def_value: None }]
@@ -68,6 +68,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Profiling::Memory::Experimental::MetaData, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Profiling::Memory::Experimental::MetaData, ___content) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Profiling::Memory::Experimental::MetaData, ___platform) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::Profiling::Memory::Experimental
 NEED_NO_BOX(::UnityEngine::Profiling::Memory::Experimental::MetaData);

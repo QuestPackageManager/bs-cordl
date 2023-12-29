@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(MonoEventInfo)
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 class MethodInfo;
 }
 namespace System::Reflection {
 struct EventAttributes;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -26,8 +26,8 @@ MARK_VAL_T(::System::Reflection::MonoEventInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3464))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3518))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3459))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3513))
 // CS Name: ::System.Reflection::MonoEventInfo
 struct CORDL_TYPE MonoEventInfo {
 public:
@@ -76,6 +76,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::MonoEventInfo, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::MonoEventInfo, declaring_type) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::MonoEventInfo, reflected_type) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::MonoEventInfo, name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::MonoEventInfo, add_method) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::MonoEventInfo, remove_method) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::MonoEventInfo, raise_method) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::MonoEventInfo, attrs) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::MonoEventInfo, other_methods) == 0x38, "Offset mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MonoEventInfo, "System.Reflection", "MonoEventInfo");

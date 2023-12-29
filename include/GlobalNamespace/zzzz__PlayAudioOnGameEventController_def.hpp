@@ -17,10 +17,10 @@ namespace GlobalNamespace {
 class Signal;
 }
 namespace GlobalNamespace {
-class LocalizedAudioClipSO;
+template <typename T> class RandomObjectPicker_1;
 }
 namespace GlobalNamespace {
-template <typename T> class RandomObjectPicker_1;
+class LocalizedAudioClipSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBi
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4074))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4062))
 // CS Name: ::PlayAudioOnGameEventController::EventAudioBinding*
 class CORDL_TYPE __PlayAudioOnGameEventController__EventAudioBinding : public ::System::Object {
 public:
@@ -88,18 +88,18 @@ public:
 
   constexpr void __set__randomObjectPicker(::GlobalNamespace::RandomObjectPicker_1<::GlobalNamespace::LocalizedAudioClipSO*>* value);
 
-  /// @brief Method Init addr 0x222fcb0 size 0xf0 virtual false final false
+  /// @brief Method Init addr 0x20d01c4 size 0xf0 virtual false final false
   inline void Init(::GlobalNamespace::AudioClipQueue* audioClipQueue);
 
-  /// @brief Method Deinit addr 0x222fdfc size 0x8c virtual false final false
+  /// @brief Method Deinit addr 0x20d0310 size 0x8c virtual false final false
   inline void Deinit();
 
-  /// @brief Method HandleGameEvent addr 0x222fe90 size 0xc4 virtual false final false
+  /// @brief Method HandleGameEvent addr 0x20d03a4 size 0xc4 virtual false final false
   inline void HandleGameEvent();
 
   static inline ::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding* New_ctor();
 
-  /// @brief Method .ctor addr 0x222ff54 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20d0468 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayAudioOnGameEventController__EventAudioBinding", modifiers: "&&", def_value: None }]
@@ -136,13 +136,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding, ____signal) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding, ____delay) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding, ____localizedAudioClips) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding, ____audioClipQueue) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding, ____randomObjectPicker) == 0x30, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::PlayAudioOnGameEventController
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4075))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4063))
 // CS Name: ::PlayAudioOnGameEventController*
 class CORDL_TYPE PlayAudioOnGameEventController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -171,15 +181,15 @@ public:
   constexpr void
   __set__eventAudioBindings(::ArrayW<::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding*, ::Array<::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding*>*> value);
 
-  /// @brief Method Awake addr 0x222fc4c size 0x64 virtual false final false
+  /// @brief Method Awake addr 0x20d0160 size 0x64 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x222fda0 size 0x5c virtual false final false
+  /// @brief Method OnDestroy addr 0x20d02b4 size 0x5c virtual false final false
   inline void OnDestroy();
 
   static inline ::GlobalNamespace::PlayAudioOnGameEventController* New_ctor();
 
-  /// @brief Method .ctor addr 0x222fe88 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20d039c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayAudioOnGameEventController", modifiers: "&&", def_value: None }]
@@ -206,6 +216,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayAudioOnGameEventController, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayAudioOnGameEventController, ____audioClipQueue) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayAudioOnGameEventController, ____eventAudioBindings) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayAudioOnGameEventController);

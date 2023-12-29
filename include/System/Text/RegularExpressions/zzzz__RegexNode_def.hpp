@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexNode);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8925)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8924))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7762)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7761))
 // CS Name: ::System.Text.RegularExpressions::RegexNode*
 class CORDL_TYPE RegexNode : public ::System::Object {
 public:
@@ -103,72 +103,72 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options);
 
-  /// @brief Method .ctor addr 0x29628d4 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x27e4fd8 size 0x30 virtual false final false
   inline void _ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options);
 
   static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, char16_t ch);
 
-  /// @brief Method .ctor addr 0x2962904 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x27e5008 size 0x40 virtual false final false
   inline void _ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, char16_t ch);
 
   static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, ::StringW str);
 
-  /// @brief Method .ctor addr 0x2962944 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x27e5048 size 0x40 virtual false final false
   inline void _ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, ::StringW str);
 
   static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, int32_t m);
 
-  /// @brief Method .ctor addr 0x2962984 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x27e5088 size 0x40 virtual false final false
   inline void _ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, int32_t m);
 
   static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, int32_t m, int32_t n);
 
-  /// @brief Method .ctor addr 0x29629c4 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x27e50c8 size 0x44 virtual false final false
   inline void _ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, int32_t m, int32_t n);
 
-  /// @brief Method UseOptionR addr 0x2962a08 size 0xc virtual false final false
+  /// @brief Method UseOptionR addr 0x27e510c size 0xc virtual false final false
   inline bool UseOptionR();
 
-  /// @brief Method ReverseLeft addr 0x2962a14 size 0x7c virtual false final false
+  /// @brief Method ReverseLeft addr 0x27e5118 size 0x7c virtual false final false
   inline ::System::Text::RegularExpressions::RegexNode* ReverseLeft();
 
-  /// @brief Method MakeRep addr 0x2962a90 size 0x18 virtual false final false
+  /// @brief Method MakeRep addr 0x27e5194 size 0x18 virtual false final false
   inline void MakeRep(int32_t type, int32_t min, int32_t max);
 
-  /// @brief Method Reduce addr 0x2962aa8 size 0x68 virtual false final false
+  /// @brief Method Reduce addr 0x27e51ac size 0x68 virtual false final false
   inline ::System::Text::RegularExpressions::RegexNode* Reduce();
 
-  /// @brief Method StripEnation addr 0x2963504 size 0xbc virtual false final false
+  /// @brief Method StripEnation addr 0x27e5c08 size 0xbc virtual false final false
   inline ::System::Text::RegularExpressions::RegexNode* StripEnation(int32_t emptyType);
 
-  /// @brief Method ReduceGroup addr 0x29633bc size 0x2c virtual false final false
+  /// @brief Method ReduceGroup addr 0x27e5ac0 size 0x2c virtual false final false
   inline ::System::Text::RegularExpressions::RegexNode* ReduceGroup();
 
-  /// @brief Method ReduceRep addr 0x2963230 size 0x18c virtual false final false
+  /// @brief Method ReduceRep addr 0x27e5934 size 0x18c virtual false final false
   inline ::System::Text::RegularExpressions::RegexNode* ReduceRep();
 
-  /// @brief Method ReduceSet addr 0x29633e8 size 0x11c virtual false final false
+  /// @brief Method ReduceSet addr 0x27e5aec size 0x11c virtual false final false
   inline ::System::Text::RegularExpressions::RegexNode* ReduceSet();
 
-  /// @brief Method ReduceAlternation addr 0x2962b10 size 0x3b8 virtual false final false
+  /// @brief Method ReduceAlternation addr 0x27e5214 size 0x3b8 virtual false final false
   inline ::System::Text::RegularExpressions::RegexNode* ReduceAlternation();
 
-  /// @brief Method ReduceConcatenation addr 0x2962ec8 size 0x368 virtual false final false
+  /// @brief Method ReduceConcatenation addr 0x27e55cc size 0x368 virtual false final false
   inline ::System::Text::RegularExpressions::RegexNode* ReduceConcatenation();
 
-  /// @brief Method MakeQuantifier addr 0x29635c0 size 0x11c virtual false final false
+  /// @brief Method MakeQuantifier addr 0x27e5cc4 size 0x11c virtual false final false
   inline ::System::Text::RegularExpressions::RegexNode* MakeQuantifier(bool lazy, int32_t min, int32_t max);
 
-  /// @brief Method AddChild addr 0x29636dc size 0x114 virtual false final false
+  /// @brief Method AddChild addr 0x27e5de0 size 0x114 virtual false final false
   inline void AddChild(::System::Text::RegularExpressions::RegexNode* newChild);
 
-  /// @brief Method Child addr 0x295f448 size 0x58 virtual false final false
+  /// @brief Method Child addr 0x27e1b4c size 0x58 virtual false final false
   inline ::System::Text::RegularExpressions::RegexNode* Child(int32_t i);
 
-  /// @brief Method ChildCount addr 0x295f3fc size 0x4c virtual false final false
+  /// @brief Method ChildCount addr 0x27e1b00 size 0x4c virtual false final false
   inline int32_t ChildCount();
 
-  /// @brief Method Type addr 0x29637f0 size 0x8 virtual false final false
+  /// @brief Method Type addr 0x27e5ef4 size 0x8 virtual false final false
   inline int32_t Type();
 
   // Ctor Parameters [CppParam { name: "", ty: "RegexNode", modifiers: "&&", def_value: None }]
@@ -213,6 +213,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexNode, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexNode, ___NType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexNode, ___Children) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexNode, ___Str) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexNode, ___Ch) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexNode, ___M) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexNode, ___N) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexNode, ___Options) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexNode, ___Next) == 0x38, "Offset mismatch!");
 
 } // namespace System::Text::RegularExpressions
 NEED_NO_BOX(::System::Text::RegularExpressions::RegexNode);

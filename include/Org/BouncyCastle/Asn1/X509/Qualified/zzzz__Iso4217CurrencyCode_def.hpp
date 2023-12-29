@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Iso4217CurrencyCode)
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class Asn1Encodable;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class IAsn1Choice;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509::Qualified {
@@ -52,29 +52,29 @@ public:
 
   constexpr void __set_obj(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method GetInstance addr 0x1080a04 size 0x1ec virtual false final false
+  /// @brief Method GetInstance addr 0x100f7b4 size 0x1ec virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* New_ctor(int32_t numeric);
 
-  /// @brief Method .ctor addr 0x1080bf0 size 0x228 virtual false final false
+  /// @brief Method .ctor addr 0x100f9a0 size 0x228 virtual false final false
   inline void _ctor(int32_t numeric);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* New_ctor(::StringW alphabetic);
 
-  /// @brief Method .ctor addr 0x1080e18 size 0x108 virtual false final false
+  /// @brief Method .ctor addr 0x100fbc8 size 0x108 virtual false final false
   inline void _ctor(::StringW alphabetic);
 
-  /// @brief Method get_IsAlphabetic addr 0x1080f20 size 0x7c virtual false final false
+  /// @brief Method get_IsAlphabetic addr 0x100fcd0 size 0x7c virtual false final false
   inline bool get_IsAlphabetic();
 
-  /// @brief Method get_Alphabetic addr 0x1080f9c size 0xa8 virtual false final false
+  /// @brief Method get_Alphabetic addr 0x100fd4c size 0xa8 virtual false final false
   inline ::StringW get_Alphabetic();
 
-  /// @brief Method get_Numeric addr 0x1081044 size 0x80 virtual false final false
+  /// @brief Method get_Numeric addr 0x100fdf4 size 0x80 virtual false final false
   inline int32_t get_Numeric();
 
-  /// @brief Method ToAsn1Object addr 0x10810c4 size 0x20 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x100fe74 size 0x20 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Iso4217CurrencyCode", modifiers: "&&", def_value: None }]
@@ -107,6 +107,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode, ___obj) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509::Qualified
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode);

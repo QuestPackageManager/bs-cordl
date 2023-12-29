@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IInternalListViewBinding);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7084))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7170))
 // CS Name: ::UnityEngine.UIElements::IInternalListViewBinding*
 class CORDL_TYPE IInternalListViewBinding {
 public:

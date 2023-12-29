@@ -13,6 +13,18 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DateTimeResult)
 namespace System {
+struct ParseFailureKind;
+}
+namespace System::Globalization {
+class Calendar;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System {
+class Object;
+}
+namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
@@ -20,18 +32,6 @@ struct ParseFlags;
 }
 namespace System {
 struct DateTime;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System {
-struct ParseFailureKind;
-}
-namespace System::Globalization {
-class Calendar;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System {
@@ -43,34 +43,34 @@ MARK_VAL_T(::System::DateTimeResult);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2398)), TypeDefinitionIndex(TypeDefinitionIndex(2464)), TypeDefinitionIndex(TypeDefinitionIndex(2484)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2482)), TypeDefinitionIndex(TypeDefinitionIndex(2397)), TypeDefinitionIndex(TypeDefinitionIndex(2398)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2462), inst: 293 }), TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2462))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(2399)) CS Name: ::System::DateTimeResult
 struct CORDL_TYPE DateTimeResult {
 public:
   // Declarations
-  /// @brief Method Init addr 0x25a58b4 size 0x24 virtual false final false
+  /// @brief Method Init addr 0x244a274 size 0x24 virtual false final false
   inline void Init(::System::ReadOnlySpan_1<char16_t> originalDateTimeString);
 
-  /// @brief Method SetDate addr 0x25a58d8 size 0xc virtual false final false
+  /// @brief Method SetDate addr 0x244a298 size 0xc virtual false final false
   inline void SetDate(int32_t year, int32_t month, int32_t day);
 
-  /// @brief Method SetBadFormatSpecifierFailure addr 0x25a58e4 size 0x94 virtual false final false
+  /// @brief Method SetBadFormatSpecifierFailure addr 0x244a2a4 size 0x94 virtual false final false
   inline void SetBadFormatSpecifierFailure();
 
-  /// @brief Method SetBadFormatSpecifierFailure addr 0x25a5978 size 0x64 virtual false final false
+  /// @brief Method SetBadFormatSpecifierFailure addr 0x244a338 size 0x64 virtual false final false
   inline void SetBadFormatSpecifierFailure(::System::ReadOnlySpan_1<char16_t> failedFormatSpecifier);
 
-  /// @brief Method SetBadDateTimeFailure addr 0x25a59dc size 0x50 virtual false final false
+  /// @brief Method SetBadDateTimeFailure addr 0x244a39c size 0x50 virtual false final false
   inline void SetBadDateTimeFailure();
 
-  /// @brief Method SetFailure addr 0x25a5a2c size 0xc virtual false final false
+  /// @brief Method SetFailure addr 0x244a3ec size 0xc virtual false final false
   inline void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID);
 
-  /// @brief Method SetFailure addr 0x25a5a38 size 0xc virtual false final false
+  /// @brief Method SetFailure addr 0x244a3f8 size 0xc virtual false final false
   inline void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument);
 
-  /// @brief Method SetFailure addr 0x25a5a44 size 0x10 virtual false final false
+  /// @brief Method SetFailure addr 0x244a404 size 0x10 virtual false final false
   inline void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument, ::StringW failureArgumentName);
 
   // Ctor Parameters [CppParam { name: "Year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Month", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Day", ty:
@@ -152,6 +152,42 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::DateTimeResult, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, Year) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, Month) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, Day) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, Hour) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, Minute) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, Second) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, fraction) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, era) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, flags) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, timeZoneOffset) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, calendar) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, parsedDate) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, failure) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, failureMessageID) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, failureMessageFormatArgument) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, failureArgumentName) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, originalDateTimeString) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeResult, failedFormatSpecifier) == 0x70, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::DateTimeResult, "System", "DateTimeResult");

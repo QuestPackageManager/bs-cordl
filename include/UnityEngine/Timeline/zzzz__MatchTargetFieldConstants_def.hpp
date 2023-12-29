@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::MatchTargetFieldConstants);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13837)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13840))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14108)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14111))
 // CS Name: ::UnityEngine.Timeline::MatchTargetFieldConstants*
 class CORDL_TYPE MatchTargetFieldConstants : public ::System::Object {
 public:
@@ -52,10 +52,10 @@ public:
 
   static inline ::UnityEngine::Timeline::MatchTargetFields getStaticF_Rotation();
 
-  /// @brief Method HasAny addr 0x2c50cd8 size 0x74 virtual false final false
+  /// @brief Method HasAny addr 0x2accf84 size 0x74 virtual false final false
   static inline bool HasAny(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields fields);
 
-  /// @brief Method Toggle addr 0x2c50d4c size 0x8 virtual false final false
+  /// @brief Method Toggle addr 0x2accff8 size 0x8 virtual false final false
   static inline ::UnityEngine::Timeline::MatchTargetFields Toggle(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields flag);
 
   // Ctor Parameters [CppParam { name: "", ty: "MatchTargetFieldConstants", modifiers: "&&", def_value: None }]

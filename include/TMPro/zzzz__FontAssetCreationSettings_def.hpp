@@ -18,12 +18,12 @@ MARK_VAL_T(::TMPro::FontAssetCreationSettings);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12359))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12287))
 // CS Name: ::TMPro::FontAssetCreationSettings
 struct CORDL_TYPE FontAssetCreationSettings {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2c10214 size 0xd4 virtual false final false
+  /// @brief Method .ctor addr 0x2a8b4c0 size 0xd4 virtual false final false
   inline void _ctor(::StringW sourceFontFileGUID, int32_t pointSize, int32_t pointSizeSamplingMode, int32_t padding, int32_t packingMode, int32_t atlasWidth, int32_t atlasHeight,
                     int32_t characterSelectionMode, ::StringW characterSet, int32_t renderMode);
 
@@ -98,6 +98,38 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::FontAssetCreationSettings, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, sourceFontFileName) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, sourceFontFileGUID) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, pointSizeSamplingMode) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, pointSize) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, padding) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, packingMode) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, atlasWidth) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, atlasHeight) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, characterSetSelectionMode) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, characterSequence) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, referencedFontAssetGUID) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, referencedTextAssetGUID) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, fontStyle) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, fontStyleModifier) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, renderMode) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, includeFontFeatures) == 0x54, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::FontAssetCreationSettings, "TMPro", "FontAssetCreationSettings");

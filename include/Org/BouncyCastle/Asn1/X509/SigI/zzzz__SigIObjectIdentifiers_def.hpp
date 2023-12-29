@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509::SigI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(337))
 // CS Name: ::Org.BouncyCastle.Asn1.X509.SigI::SigIObjectIdentifiers*
 class CORDL_TYPE SigIObjectIdentifiers : public ::System::Object {
@@ -74,7 +74,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor addr 0x108347c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x101222c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SigIObjectIdentifiers", modifiers: "&&", def_value: None }]

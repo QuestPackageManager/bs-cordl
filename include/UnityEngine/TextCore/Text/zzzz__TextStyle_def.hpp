@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextStyle);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13704))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13583))
 // CS Name: ::UnityEngine.TextCore.Text::TextStyle*
 class CORDL_TYPE TextStyle : public ::System::Object {
 public:
@@ -108,16 +108,16 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextStyle* getStaticF_k_NormalStyle();
 
-  /// @brief Method get_hashCode addr 0x2d43704 size 0x8 virtual false final false
+  /// @brief Method get_hashCode addr 0x2bdb354 size 0x8 virtual false final false
   inline int32_t get_hashCode();
 
-  /// @brief Method get_styleOpeningTagArray addr 0x2d4370c size 0x8 virtual false final false
+  /// @brief Method get_styleOpeningTagArray addr 0x2bdb35c size 0x8 virtual false final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_styleOpeningTagArray();
 
-  /// @brief Method get_styleClosingTagArray addr 0x2d43714 size 0x8 virtual false final false
+  /// @brief Method get_styleClosingTagArray addr 0x2bdb364 size 0x8 virtual false final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_styleClosingTagArray();
 
-  /// @brief Method RefreshStyle addr 0x2d4371c size 0x1e4 virtual false final false
+  /// @brief Method RefreshStyle addr 0x2bdb36c size 0x1e4 virtual false final false
   inline void RefreshStyle();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextStyle", modifiers: "&&", def_value: None }]
@@ -162,6 +162,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextStyle, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextStyle, ___m_Name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextStyle, ___m_HashCode) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextStyle, ___m_OpeningDefinition) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextStyle, ___m_ClosingDefinition) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextStyle, ___m_OpeningTagArray) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextStyle, ___m_ClosingTagArray) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextStyle, ___m_OpeningTagUnicodeArray) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextStyle, ___m_ClosingTagUnicodeArray) == 0x48, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::TextStyle);

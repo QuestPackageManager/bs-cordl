@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ArgumentException)
 namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
 class Exception;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::ArgumentException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2344))
 // CS Name: ::System::ArgumentException*
 class CORDL_TYPE ArgumentException : public ::System::SystemException {
@@ -43,38 +43,38 @@ public:
 
   static inline ::System::ArgumentException* New_ctor();
 
-  /// @brief Method .ctor addr 0x25209d8 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x23c770c size 0x5c virtual false final false
   inline void _ctor();
 
   static inline ::System::ArgumentException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x251f7c8 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x23c64fc size 0x24 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::ArgumentException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor addr 0x2520a34 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x23c7768 size 0x24 virtual false final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::System::ArgumentException* New_ctor(::StringW message, ::StringW paramName, ::System::Exception* innerException);
 
-  /// @brief Method .ctor addr 0x2520a58 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x23c778c size 0x38 virtual false final false
   inline void _ctor(::StringW message, ::StringW paramName, ::System::Exception* innerException);
 
   static inline ::System::ArgumentException* New_ctor(::StringW message, ::StringW paramName);
 
-  /// @brief Method .ctor addr 0x25194a0 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x23c01d4 size 0x34 virtual false final false
   inline void _ctor(::StringW message, ::StringW paramName);
 
   static inline ::System::ArgumentException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x2520a90 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x23c77c4 size 0x88 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData addr 0x2520b18 size 0xdc virtual true final false
+  /// @brief Method GetObjectData addr 0x23c784c size 0xdc virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Message addr 0x2520bf4 size 0xa0 virtual true final false
+  /// @brief Method get_Message addr 0x23c7928 size 0xa0 virtual true final false
   inline ::StringW get_Message();
 
   // Ctor Parameters [CppParam { name: "", ty: "ArgumentException", modifiers: "&&", def_value: None }]
@@ -98,6 +98,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ArgumentException, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::System::ArgumentException, ____paramName) == 0x90, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::ArgumentException);

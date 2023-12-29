@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::InspectorNameAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10172))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10098))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10100))
 // CS Name: ::UnityEngine::InspectorNameAttribute*
 class CORDL_TYPE InspectorNameAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::InspectorNameAttribute* New_ctor(::StringW displayName);
 
-  /// @brief Method .ctor addr 0x2ccc0f8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2b65bf4 size 0x28 virtual false final false
   inline void _ctor(::StringW displayName);
 
   // Ctor Parameters [CppParam { name: "", ty: "InspectorNameAttribute", modifiers: "&&", def_value: None }]
@@ -56,6 +56,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InspectorNameAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InspectorNameAttribute, ___displayName) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::InspectorNameAttribute);

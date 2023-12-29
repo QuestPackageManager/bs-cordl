@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::MonoTypeInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2580))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2578))
 // CS Name: ::System::MonoTypeInfo*
 class CORDL_TYPE MonoTypeInfo : public ::System::Object {
 public:
@@ -44,7 +44,7 @@ public:
 
   static inline ::System::MonoTypeInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x25f6248 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x249b308 size 0x4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoTypeInfo", modifiers: "&&", def_value: None }]
@@ -71,6 +71,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::MonoTypeInfo, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::MonoTypeInfo, ___full_name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::MonoTypeInfo, ___default_ctor) == 0x18, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::MonoTypeInfo);

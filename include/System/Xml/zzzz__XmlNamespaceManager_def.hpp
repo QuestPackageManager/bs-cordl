@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlNamespaceManager)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Xml {
-class XmlNameTable;
+struct __XmlNamespaceManager__NamespaceDeclaration;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Xml {
-struct __XmlNamespaceManager__NamespaceDeclaration;
+class XmlNameTable;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -41,12 +41,12 @@ MARK_VAL_T(::System::Xml::__XmlNamespaceManager__NamespaceDeclaration);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11569))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11497))
 // CS Name: ::XmlNamespaceManager::NamespaceDeclaration
 struct CORDL_TYPE __XmlNamespaceManager__NamespaceDeclaration {
 public:
   // Declarations
-  /// @brief Method Set addr 0x28a7f18 size 0xc virtual false final false
+  /// @brief Method Set addr 0x272aef4 size 0xc virtual false final false
   inline void Set(::StringW prefix, ::StringW uri, int32_t scopeId, int32_t previousNsIndex);
 
   // Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "uri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
@@ -77,13 +77,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::__XmlNamespaceManager__NamespaceDeclaration, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::System::Xml::__XmlNamespaceManager__NamespaceDeclaration, prefix) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::__XmlNamespaceManager__NamespaceDeclaration, uri) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::__XmlNamespaceManager__NamespaceDeclaration, scopeId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::__XmlNamespaceManager__NamespaceDeclaration, previousNsIndex) == 0x14, "Offset mismatch!");
+
 } // namespace System::Xml
 // Type: System.Xml::XmlNamespaceManager
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11570))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11498))
 // CS Name: ::System.Xml::XmlNamespaceManager*
 class CORDL_TYPE XmlNamespaceManager : public ::System::Object {
 public:
@@ -175,42 +183,42 @@ public:
 
   static inline ::System::Xml::XmlNamespaceManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x28a7d54 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x272ad30 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::System::Xml::XmlNamespaceManager* New_ctor(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method .ctor addr 0x28a7d5c size 0x1bc virtual false final false
+  /// @brief Method .ctor addr 0x272ad38 size 0x1bc virtual false final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method get_NameTable addr 0x28a7f24 size 0x8 virtual true final false
+  /// @brief Method get_NameTable addr 0x272af00 size 0x8 virtual true final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method get_DefaultNamespace addr 0x28a7f2c size 0x70 virtual true final false
+  /// @brief Method get_DefaultNamespace addr 0x272af08 size 0x70 virtual true final false
   inline ::StringW get_DefaultNamespace();
 
-  /// @brief Method PushScope addr 0x28a7f9c size 0x10 virtual true final false
+  /// @brief Method PushScope addr 0x272af78 size 0x10 virtual true final false
   inline void PushScope();
 
-  /// @brief Method PopScope addr 0x28a7fac size 0xd8 virtual true final false
+  /// @brief Method PopScope addr 0x272af88 size 0xd8 virtual true final false
   inline bool PopScope();
 
-  /// @brief Method AddNamespace addr 0x28a8084 size 0x3a4 virtual true final false
+  /// @brief Method AddNamespace addr 0x272b060 size 0x3a4 virtual true final false
   inline void AddNamespace(::StringW prefix, ::StringW uri);
 
-  /// @brief Method RemoveNamespace addr 0x28a85b4 size 0x13c virtual true final false
+  /// @brief Method RemoveNamespace addr 0x272b590 size 0x13c virtual true final false
   inline void RemoveNamespace(::StringW prefix, ::StringW uri);
 
-  /// @brief Method GetEnumerator addr 0x28a86f0 size 0x170 virtual true final false
+  /// @brief Method GetEnumerator addr 0x272b6cc size 0x170 virtual true final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method LookupNamespace addr 0x28a8860 size 0x4c virtual true final false
+  /// @brief Method LookupNamespace addr 0x272b83c size 0x4c virtual true final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
-  /// @brief Method LookupNamespaceDecl addr 0x28a8428 size 0x18c virtual false final false
+  /// @brief Method LookupNamespaceDecl addr 0x272b404 size 0x18c virtual false final false
   inline int32_t LookupNamespaceDecl(::StringW prefix);
 
-  /// @brief Method LookupPrefix addr 0x28a88ac size 0xc4 virtual true final false
+  /// @brief Method LookupPrefix addr 0x272b888 size 0xc4 virtual true final false
   inline ::StringW LookupPrefix(::StringW uri);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlNamespaceManager", modifiers: "&&", def_value: None }]
@@ -255,6 +263,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlNamespaceManager, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlNamespaceManager, ___nsdecls) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlNamespaceManager, ___lastDecl) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlNamespaceManager, ___nameTable) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlNamespaceManager, ___scopeId) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlNamespaceManager, ___hashTable) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlNamespaceManager, ___useHashtable) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlNamespaceManager, ___xml) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlNamespaceManager, ___xmlNs) == 0x48, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlNamespaceManager);

@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(CacheInitialization)
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
-}
-namespace UnityEngine::AddressableAssets::Initialization {
-class __CacheInitialization____c__DisplayClass1_0;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
 namespace UnityEngine::ResourceManagement::Util {
 class IInitializableObject;
 }
 namespace UnityEngine::AddressableAssets::Initialization {
+class __CacheInitialization____c__DisplayClass1_0;
+}
+namespace UnityEngine::AddressableAssets::Initialization {
 class __CacheInitialization__CacheInitOp;
 }
-namespace System {
-template <typename TResult> class Func_1;
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::ResourceManagement {
 class IUpdateReceiver;
+}
+namespace System {
+template <typename TResult> class Func_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::Initialization {
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Initialization::__CacheInitiali
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(14032))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14117))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14303)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14303), inst: 112 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14388))
 // CS Name: ::CacheInitialization::CacheInitOp*
 class CORDL_TYPE __CacheInitialization__CacheInitOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
 public:
@@ -73,21 +73,21 @@ public:
 
   constexpr void __set_m_UpdateRequired(bool value);
 
-  /// @brief Method Init addr 0x2a306f4 size 0x8 virtual false final false
+  /// @brief Method Init addr 0x28b29ac size 0x8 virtual false final false
   inline void Init(::System::Func_1<bool>* callback);
 
-  /// @brief Method InvokeWaitForCompletion addr 0x2a306fc size 0x94 virtual true final false
+  /// @brief Method InvokeWaitForCompletion addr 0x28b29b4 size 0x94 virtual true final false
   inline bool InvokeWaitForCompletion();
 
-  /// @brief Method Update addr 0x2a30790 size 0xb4 virtual true final true
+  /// @brief Method Update addr 0x28b2a48 size 0xb4 virtual true final true
   inline void Update(float_t unscaledDeltaTime);
 
-  /// @brief Method Execute addr 0x2a30844 size 0x98 virtual true final false
+  /// @brief Method Execute addr 0x28b2afc size 0x98 virtual true final false
   inline void Execute();
 
   static inline ::UnityEngine::AddressableAssets::Initialization::__CacheInitialization__CacheInitOp* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a30624 size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x28b28dc size 0x50 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CacheInitialization__CacheInitOp", modifiers: "&&", def_value: None }]
@@ -115,13 +115,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::Initialization::__CacheInitialization__CacheInitOp, 0x98>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__CacheInitialization__CacheInitOp, ___m_Callback) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__CacheInitialization__CacheInitOp, ___m_UpdateRequired) == 0x90, "Offset mismatch!");
+
 } // namespace UnityEngine::AddressableAssets::Initialization
 // Type: ::<>c__DisplayClass1_0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14118))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14389))
 // CS Name: ::CacheInitialization::<>c__DisplayClass1_0*
 class CORDL_TYPE __CacheInitialization____c__DisplayClass1_0 : public ::System::Object {
 public:
@@ -155,10 +159,10 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a3061c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x28b28d4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <InitializeAsync>b__0 addr 0x2a308dc size 0x24 virtual false final false
+  /// @brief Method <InitializeAsync>b__0 addr 0x28b2b94 size 0x24 virtual false final false
   inline bool _InitializeAsync_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CacheInitialization____c__DisplayClass1_0", modifiers: "&&", def_value: None }]
@@ -189,13 +193,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0, ___id) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0, ___data) == 0x20, "Offset mismatch!");
+
 } // namespace UnityEngine::AddressableAssets::Initialization
 // Type: UnityEngine.AddressableAssets.Initialization::CacheInitialization
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14119))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14390))
 // CS Name: ::UnityEngine.AddressableAssets.Initialization::CacheInitialization*
 class CORDL_TYPE CacheInitialization : public ::System::Object {
 public:
@@ -207,18 +217,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IInitializableObject"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IInitializableObject*() noexcept;
 
-  /// @brief Method Initialize addr 0x2a3037c size 0x14c virtual true final true
+  /// @brief Method Initialize addr 0x28b2634 size 0x14c virtual true final true
   inline bool Initialize(::StringW id, ::StringW dataStr);
 
-  /// @brief Method InitializeAsync addr 0x2a304c8 size 0x154 virtual true final false
+  /// @brief Method InitializeAsync addr 0x28b2780 size 0x154 virtual true final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW id, ::StringW data);
 
-  /// @brief Method get_RootPath addr 0x2a30674 size 0x78 virtual false final false
+  /// @brief Method get_RootPath addr 0x28b292c size 0x78 virtual false final false
   static inline ::StringW get_RootPath();
 
   static inline ::UnityEngine::AddressableAssets::Initialization::CacheInitialization* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a306ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x28b29a4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CacheInitialization", modifiers: "&&", def_value: None }]

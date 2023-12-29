@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_HAPI_TransformEuler)
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+struct HAPI_TransformEuler;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_TransformEuler;
+template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_TransformEuler);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9727)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9900))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9654)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9827))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_TransformEuler*
 class CORDL_TYPE Test_HAPI_TransformEuler : public ::System::Object {
 public:
@@ -41,10 +41,10 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_HAPI_TransformEuler* New_ctor(::HoudiniEngineUnity::HAPI_TransformEuler self);
 
-  /// @brief Method .ctor addr 0x21e36d4 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x208ad38 size 0x34 virtual false final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_TransformEuler self);
 
-  /// @brief Method IsEquivalentTo addr 0x21e3708 size 0x254 virtual true final true
+  /// @brief Method IsEquivalentTo addr 0x208ad6c size 0x254 virtual true final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_TransformEuler* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_HAPI_TransformEuler", modifiers: "&&", def_value: None }]
@@ -68,6 +68,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::Test_HAPI_TransformEuler, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::Test_HAPI_TransformEuler, ___self) == 0x10, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::Test_HAPI_TransformEuler);

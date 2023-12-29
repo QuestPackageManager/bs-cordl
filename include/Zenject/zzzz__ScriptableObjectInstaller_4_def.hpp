@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ScriptableObjectInstaller_4)
+namespace System {
+class Object;
+}
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
 class DiContainer;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -27,8 +27,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TDerived>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11154))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11151))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11082))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11079))
 // CS Name: ::Zenject::ScriptableObjectInstaller`4<TParam1,TParam2,TParam3,TDerived>*
 class CORDL_TYPE ScriptableObjectInstaller_4 : public ::Zenject::ScriptableObjectInstallerBase {
 public:

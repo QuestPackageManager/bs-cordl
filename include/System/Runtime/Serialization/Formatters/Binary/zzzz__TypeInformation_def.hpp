@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::TypeInforma
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3285))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3284))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::TypeInformation*
 class CORDL_TYPE TypeInformation : public ::System::Object {
 public:
@@ -54,18 +54,18 @@ public:
 
   constexpr void __set_hasTypeForwardedFrom(bool value);
 
-  /// @brief Method get_FullTypeName addr 0x24cb3d0 size 0x8 virtual false final false
+  /// @brief Method get_FullTypeName addr 0x23728cc size 0x8 virtual false final false
   inline ::StringW get_FullTypeName();
 
-  /// @brief Method get_AssemblyString addr 0x24cb3d8 size 0x8 virtual false final false
+  /// @brief Method get_AssemblyString addr 0x23728d4 size 0x8 virtual false final false
   inline ::StringW get_AssemblyString();
 
-  /// @brief Method get_HasTypeForwardedFrom addr 0x24cb3e0 size 0x8 virtual false final false
+  /// @brief Method get_HasTypeForwardedFrom addr 0x23728dc size 0x8 virtual false final false
   inline bool get_HasTypeForwardedFrom();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::TypeInformation* New_ctor(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom);
 
-  /// @brief Method .ctor addr 0x24cb3e8 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x23728e4 size 0x3c virtual false final false
   inline void _ctor(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeInformation", modifiers: "&&", def_value: None }]
@@ -95,6 +95,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::TypeInformation, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::TypeInformation, ___fullTypeName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::TypeInformation, ___assemblyString) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::TypeInformation, ___hasTypeForwardedFrom) == 0x20, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::TypeInformation);

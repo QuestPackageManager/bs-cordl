@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BakedReflectionProbe)
 namespace UnityEngine {
-class Cubemap;
+struct Vector3;
 }
 namespace GlobalNamespace {
 class ReflectionProbeDataSO;
 }
 namespace UnityEngine {
-struct Vector3;
+class Cubemap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BakedReflectionProbe);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5854))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5943))
 // CS Name: ::BakedReflectionProbe*
 class CORDL_TYPE BakedReflectionProbe : public ::UnityEngine::MonoBehaviour {
 public:
@@ -128,30 +128,30 @@ public:
 
   static inline int32_t getStaticF__reflectionProbeTexture2PropertyId();
 
-  /// @brief Method get_reflectionProbeData addr 0x22f675c size 0x8 virtual false final false
+  /// @brief Method get_reflectionProbeData addr 0x21adf00 size 0x8 virtual false final false
   inline ::GlobalNamespace::ReflectionProbeDataSO* get_reflectionProbeData();
 
-  /// @brief Method set_reflectionProbeData addr 0x22f6764 size 0x8 virtual false final false
+  /// @brief Method set_reflectionProbeData addr 0x21adf08 size 0x8 virtual false final false
   inline void set_reflectionProbeData(::GlobalNamespace::ReflectionProbeDataSO* value);
 
-  /// @brief Method get_position addr 0x22f676c size 0x20 virtual false final false
+  /// @brief Method get_position addr 0x21adf10 size 0x20 virtual false final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_resolutionBeforeDownsample addr 0x22f678c size 0x8 virtual false final false
+  /// @brief Method get_resolutionBeforeDownsample addr 0x21adf30 size 0x8 virtual false final false
   inline int32_t get_resolutionBeforeDownsample();
 
-  /// @brief Method get_downsampleByHalfCount addr 0x22f6794 size 0x8 virtual false final false
+  /// @brief Method get_downsampleByHalfCount addr 0x21adf38 size 0x8 virtual false final false
   inline int32_t get_downsampleByHalfCount();
 
-  /// @brief Method Start addr 0x22f679c size 0xb8 virtual false final false
+  /// @brief Method Start addr 0x21adf40 size 0xb8 virtual false final false
   inline void Start();
 
-  /// @brief Method SendDataToShaders addr 0x22f6854 size 0x22c virtual false final false
+  /// @brief Method SendDataToShaders addr 0x21adff8 size 0x22c virtual false final false
   inline void SendDataToShaders();
 
   static inline ::GlobalNamespace::BakedReflectionProbe* New_ctor();
 
-  /// @brief Method .ctor addr 0x22f6a80 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x21ae224 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BakedReflectionProbe", modifiers: "&&", def_value: None }]
@@ -190,6 +190,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BakedReflectionProbe, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BakedReflectionProbe, ____resolutionBeforeDownsample) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BakedReflectionProbe, ____downsampleByHalfCount) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BakedReflectionProbe, ____size) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BakedReflectionProbe, ____offset) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BakedReflectionProbe, ____reflectionProbeData) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BakedReflectionProbe, ____blackCubemap) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BakedReflectionProbe);

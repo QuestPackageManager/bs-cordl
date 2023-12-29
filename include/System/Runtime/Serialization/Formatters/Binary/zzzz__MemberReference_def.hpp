@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::MemberRefer
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3272))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3271))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::MemberReference*
 class CORDL_TYPE MemberReference : public ::System::Object {
 public:
@@ -38,19 +38,19 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::MemberReference* New_ctor();
 
-  /// @brief Method .ctor addr 0x24c336c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x236a878 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Set addr 0x24c3374 size 0x8 virtual false final false
+  /// @brief Method Set addr 0x236a880 size 0x8 virtual false final false
   inline void Set(int32_t idRef);
 
-  /// @brief Method Write addr 0x24c337c size 0x54 virtual true final true
+  /// @brief Method Write addr 0x236a888 size 0x54 virtual true final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method Read addr 0x24c33d0 size 0x28 virtual true final true
+  /// @brief Method Read addr 0x236a8dc size 0x28 virtual true final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Dump addr 0x24c33f8 size 0x4 virtual false final false
+  /// @brief Method Dump addr 0x236a904 size 0x4 virtual false final false
   inline void Dump();
 
   // Ctor Parameters [CppParam { name: "", ty: "MemberReference", modifiers: "&&", def_value: None }]
@@ -74,6 +74,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::MemberReference, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::MemberReference, ___idRef) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::MemberReference);

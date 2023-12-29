@@ -3,19 +3,35 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMultiplayerSessionManager)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace GlobalNamespace {
 template <typename TData> class INetworkPacketSubSerializer_1;
+}
+namespace GlobalNamespace {
+class ConnectedPlayerManager;
+}
+namespace GlobalNamespace {
+struct __MultiplayerSessionManager__SessionType;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace GlobalNamespace {
-struct DisconnectedReason;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -23,23 +39,8 @@ class IConnectedPlayer;
 namespace System {
 class Action;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-struct __MultiplayerSessionManager__SessionType;
-}
-namespace GlobalNamespace {
-class ConnectedPlayerManager;
-}
 namespace GlobalNamespace {
 struct __MultiplayerSessionManager__MessageType;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,7 +53,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerSessionManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12799))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12716))
 // CS Name: ::IMultiplayerSessionManager*
 class CORDL_TYPE IMultiplayerSessionManager {
 public:
@@ -61,7 +62,7 @@ public:
 
   __declspec(property(get = get_isConnectionOwner)) bool isConnectionOwner;
 
-  __declspec(property(get = get_syncTime)) int64_t syncTime;
+  __declspec(property(get = get_syncTime)) float_t syncTime;
 
   __declspec(property(get = get_isSyncTimeInitialized)) bool isSyncTimeInitialized;
 
@@ -90,7 +91,7 @@ public:
   inline bool get_isConnectionOwner();
 
   /// @brief Method get_syncTime addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline int64_t get_syncTime();
+  inline float_t get_syncTime();
 
   /// @brief Method get_isSyncTimeInitialized addr 0x0 size 0xffffffffffffffff virtual true final false
   inline bool get_isSyncTimeInitialized();
@@ -208,12 +209,6 @@ public:
 
   /// @brief Method SendUnreliableEncryptedToPlayer addr 0x0 size 0xffffffffffffffff virtual true final false
   template <typename T> inline void SendUnreliableEncryptedToPlayer(T message, ::GlobalNamespace::IConnectedPlayer* player);
-
-  /// @brief Method SendUnreliableOnlyToFirstDegreeConnections addr 0x0 size 0xffffffffffffffff virtual true final false
-  template <typename T> inline void SendUnreliableOnlyToFirstDegreeConnections(T message);
-
-  /// @brief Method SendUnreliableFromPlayerToPlayer addr 0x0 size 0xffffffffffffffff virtual true final false
-  template <typename T> inline void SendUnreliableFromPlayerToPlayer(T message, ::GlobalNamespace::IConnectedPlayer* fromPlayer, ::GlobalNamespace::IConnectedPlayer* toPlayer);
 
   /// @brief Method RegisterCallback addr 0x0 size 0xffffffffffffffff virtual true final false
   template <typename T>

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SongTimeToShaderWriter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5977))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6054))
 // CS Name: ::SongTimeToShaderWriter*
 class CORDL_TYPE SongTimeToShaderWriter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -40,12 +40,12 @@ public:
 
   static inline int32_t getStaticF__songTimePropertyId();
 
-  /// @brief Method Update addr 0x230da14 size 0x240 virtual false final false
+  /// @brief Method Update addr 0x21c2990 size 0x240 virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::SongTimeToShaderWriter* New_ctor();
 
-  /// @brief Method .ctor addr 0x230dc54 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21c2bd0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SongTimeToShaderWriter", modifiers: "&&", def_value: None }]
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongTimeToShaderWriter, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongTimeToShaderWriter, ____audioTimeSource) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongTimeToShaderWriter);

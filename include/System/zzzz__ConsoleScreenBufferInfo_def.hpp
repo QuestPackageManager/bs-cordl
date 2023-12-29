@@ -23,8 +23,8 @@ MARK_VAL_T(::System::ConsoleScreenBufferInfo);
 // SizeInfo { instance_size: 22, native_size: 22, calculated_instance_size: 22, calculated_native_size: 38, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2646)), TypeDefinitionIndex(TypeDefinitionIndex(2645))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2647))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2643)), TypeDefinitionIndex(TypeDefinitionIndex(2644))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2645))
 // CS Name: ::System::ConsoleScreenBufferInfo
 struct CORDL_TYPE ConsoleScreenBufferInfo {
 public:
@@ -60,6 +60,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ConsoleScreenBufferInfo, 0x16>, "Size mismatch!");
+
+static_assert(offsetof(::System::ConsoleScreenBufferInfo, Size) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::ConsoleScreenBufferInfo, CursorPosition) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::System::ConsoleScreenBufferInfo, Attribute) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::ConsoleScreenBufferInfo, Window) == 0xa, "Offset mismatch!");
+
+static_assert(offsetof(::System::ConsoleScreenBufferInfo, MaxWindowSize) == 0x12, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::ConsoleScreenBufferInfo, "System", "ConsoleScreenBufferInfo");

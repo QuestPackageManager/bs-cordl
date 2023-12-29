@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(INotifyValueChangedExtensions)
 namespace UnityEngine::UIElements {
-template <typename TEventType> class EventCallback_1;
+template <typename T> class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ChangeEvent_1;
+template <typename TEventType> class EventCallback_1;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class INotifyValueChanged_1;
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::INotifyValueChangedExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7128))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7214))
 // CS Name: ::UnityEngine.UIElements::INotifyValueChangedExtensions*
 class CORDL_TYPE INotifyValueChangedExtensions : public ::System::Object {
 public:

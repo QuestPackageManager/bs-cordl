@@ -19,18 +19,18 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::FontStyleStack);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13726))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13605))
 // CS Name: ::UnityEngine.TextCore.Text::FontStyleStack
 struct CORDL_TYPE FontStyleStack {
 public:
   // Declarations
-  /// @brief Method Clear addr 0x2d4a820 size 0xc virtual false final false
+  /// @brief Method Clear addr 0x2be2470 size 0xc virtual false final false
   inline void Clear();
 
-  /// @brief Method Add addr 0x2d4a82c size 0xfc virtual false final false
+  /// @brief Method Add addr 0x2be247c size 0xfc virtual false final false
   inline uint8_t Add(::UnityEngine::TextCore::Text::FontStyles style);
 
-  /// @brief Method Remove addr 0x2d4a928 size 0x120 virtual false final false
+  /// @brief Method Remove addr 0x2be2578 size 0x120 virtual false final false
   inline uint8_t Remove(::UnityEngine::TextCore::Text::FontStyles style);
 
   // Ctor Parameters [CppParam { name: "bold", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "italic", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
@@ -82,6 +82,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::FontStyleStack, 0xa>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontStyleStack, bold) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontStyleStack, italic) == 0x1, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontStyleStack, underline) == 0x2, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontStyleStack, strikethrough) == 0x3, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontStyleStack, highlight) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontStyleStack, superscript) == 0x5, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontStyleStack, subscript) == 0x6, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontStyleStack, uppercase) == 0x7, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontStyleStack, lowercase) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontStyleStack, smallcaps) == 0x9, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::FontStyleStack, "UnityEngine.TextCore.Text", "FontStyleStack");

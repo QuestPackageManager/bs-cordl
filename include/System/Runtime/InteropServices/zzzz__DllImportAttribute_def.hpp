@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DllImportAttribute)
-namespace System::Reflection {
-class RuntimeMethodInfo;
-}
-namespace System::Runtime::InteropServices {
-struct CallingConvention;
-}
 namespace System::Runtime::InteropServices {
 struct CharSet;
 }
 namespace System {
 class Attribute;
+}
+namespace System::Runtime::InteropServices {
+struct CallingConvention;
+}
+namespace System::Reflection {
+class RuntimeMethodInfo;
 }
 // Forward declare root types
 namespace System::Runtime::InteropServices {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::DllImportAttribute);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 46, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3301)), TypeDefinitionIndex(TypeDefinitionIndex(3333))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3330))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3330)), TypeDefinitionIndex(TypeDefinitionIndex(2545)), TypeDefinitionIndex(TypeDefinitionIndex(3300))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3327))
 // CS Name: ::System.Runtime.InteropServices::DllImportAttribute*
 class CORDL_TYPE DllImportAttribute : public ::System::Attribute {
 public:
@@ -118,26 +118,26 @@ public:
 
   constexpr void __set_ThrowOnUnmappableChar(bool value);
 
-  /// @brief Method GetCustomAttribute addr 0x24d7310 size 0x1b8 virtual false final false
+  /// @brief Method GetCustomAttribute addr 0x237e428 size 0x1b8 virtual false final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::RuntimeMethodInfo* method);
 
-  /// @brief Method IsDefined addr 0x24d7554 size 0x28 virtual false final false
+  /// @brief Method IsDefined addr 0x237e66c size 0x28 virtual false final false
   static inline bool IsDefined(::System::Reflection::RuntimeMethodInfo* method);
 
   static inline ::System::Runtime::InteropServices::DllImportAttribute* New_ctor(::StringW dllName, ::StringW entryPoint, ::System::Runtime::InteropServices::CharSet charSet, bool exactSpelling,
                                                                                  bool setLastError, bool preserveSig, ::System::Runtime::InteropServices::CallingConvention callingConvention,
                                                                                  bool bestFitMapping, bool throwOnUnmappableChar);
 
-  /// @brief Method .ctor addr 0x24d74c8 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0x237e5e0 size 0x8c virtual false final false
   inline void _ctor(::StringW dllName, ::StringW entryPoint, ::System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig,
                     ::System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar);
 
   static inline ::System::Runtime::InteropServices::DllImportAttribute* New_ctor(::StringW dllName);
 
-  /// @brief Method .ctor addr 0x24d757c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x237e694 size 0x28 virtual false final false
   inline void _ctor(::StringW dllName);
 
-  /// @brief Method get_Value addr 0x24d75a4 size 0x8 virtual false final false
+  /// @brief Method get_Value addr 0x237e6bc size 0x8 virtual false final false
   inline ::StringW get_Value();
 
   // Ctor Parameters [CppParam { name: "", ty: "DllImportAttribute", modifiers: "&&", def_value: None }]
@@ -185,6 +185,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::DllImportAttribute, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::DllImportAttribute, ____val) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::DllImportAttribute, ___EntryPoint) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::DllImportAttribute, ___CharSet) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::DllImportAttribute, ___SetLastError) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::DllImportAttribute, ___ExactSpelling) == 0x25, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::DllImportAttribute, ___PreserveSig) == 0x26, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::DllImportAttribute, ___CallingConvention) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::DllImportAttribute, ___BestFitMapping) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::DllImportAttribute, ___ThrowOnUnmappableChar) == 0x2d, "Offset mismatch!");
 
 } // namespace System::Runtime::InteropServices
 NEED_NO_BOX(::System::Runtime::InteropServices::DllImportAttribute);

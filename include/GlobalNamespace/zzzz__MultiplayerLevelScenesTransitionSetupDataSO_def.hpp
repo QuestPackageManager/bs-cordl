@@ -10,16 +10,13 @@ namespace GlobalNamespace {
 class PracticeSettings;
 }
 namespace GlobalNamespace {
-struct DisconnectedReason;
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class MultiplayerResultsData;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
@@ -28,25 +25,28 @@ namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class SceneInfo;
 }
 namespace GlobalNamespace {
-class MultiplayerResultsData;
-}
-namespace GlobalNamespace {
 class ColorScheme;
 }
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,8 +58,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(6067))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6076))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6125)), TypeDefinitionIndex(TypeDefinitionIndex(14934))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6136))
 // CS Name: ::MultiplayerLevelScenesTransitionSetupDataSO*
 class CORDL_TYPE MultiplayerLevelScenesTransitionSetupDataSO : public ::GlobalNamespace::LevelScenesTransitionSetupDataSO {
 public:
@@ -200,75 +200,75 @@ public:
 
   constexpr void __set__colorScheme_k__BackingField(::GlobalNamespace::ColorScheme* value);
 
-  /// @brief Method add_didFinishEvent addr 0x231d778 size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent addr 0x21e1bc8 size 0xb0 virtual false final false
   inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x231db6c size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent addr 0x21e1fbc size 0xb0 virtual false final false
   inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* value);
 
-  /// @brief Method add_didDisconnectEvent addr 0x231e914 size 0xb0 virtual false final false
+  /// @brief Method add_didDisconnectEvent addr 0x21e3574 size 0xb0 virtual false final false
   inline void add_didDisconnectEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method remove_didDisconnectEvent addr 0x231e230 size 0xb0 virtual false final false
+  /// @brief Method remove_didDisconnectEvent addr 0x21e34c4 size 0xb0 virtual false final false
   inline void remove_didDisconnectEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method get_gameMode addr 0x231febc size 0x8 virtual false final false
+  /// @brief Method get_gameMode addr 0x21e57d8 size 0x8 virtual false final false
   inline ::StringW get_gameMode();
 
-  /// @brief Method set_gameMode addr 0x231fec4 size 0x8 virtual false final false
+  /// @brief Method set_gameMode addr 0x21e57e0 size 0x8 virtual false final false
   inline void set_gameMode(::StringW value);
 
-  /// @brief Method get_previewBeatmapLevel addr 0x231fecc size 0x8 virtual false final false
+  /// @brief Method get_previewBeatmapLevel addr 0x21e57e8 size 0x8 virtual false final false
   inline ::GlobalNamespace::IPreviewBeatmapLevel* get_previewBeatmapLevel();
 
-  /// @brief Method set_previewBeatmapLevel addr 0x231fed4 size 0x8 virtual false final false
+  /// @brief Method set_previewBeatmapLevel addr 0x21e57f0 size 0x8 virtual false final false
   inline void set_previewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel* value);
 
-  /// @brief Method get_beatmapDifficulty addr 0x231fedc size 0x8 virtual false final false
+  /// @brief Method get_beatmapDifficulty addr 0x21e57f8 size 0x8 virtual false final false
   inline ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
 
-  /// @brief Method set_beatmapDifficulty addr 0x231fee4 size 0x8 virtual false final false
+  /// @brief Method set_beatmapDifficulty addr 0x21e5800 size 0x8 virtual false final false
   inline void set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  /// @brief Method get_difficultyBeatmap addr 0x231feec size 0x8 virtual false final false
+  /// @brief Method get_difficultyBeatmap addr 0x21e5808 size 0x8 virtual false final false
   inline ::GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
 
-  /// @brief Method set_difficultyBeatmap addr 0x231fef4 size 0x8 virtual false final false
+  /// @brief Method set_difficultyBeatmap addr 0x21e5810 size 0x8 virtual false final false
   inline void set_difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
 
-  /// @brief Method get_beatmapCharacteristic addr 0x231fefc size 0x8 virtual false final false
+  /// @brief Method get_beatmapCharacteristic addr 0x21e5818 size 0x8 virtual false final false
   inline ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
 
-  /// @brief Method set_beatmapCharacteristic addr 0x231ff04 size 0x8 virtual false final false
+  /// @brief Method set_beatmapCharacteristic addr 0x21e5820 size 0x8 virtual false final false
   inline void set_beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
 
-  /// @brief Method get_usingOverrideColorScheme addr 0x231ff0c size 0x8 virtual false final false
+  /// @brief Method get_usingOverrideColorScheme addr 0x21e5828 size 0x8 virtual false final false
   inline bool get_usingOverrideColorScheme();
 
-  /// @brief Method set_usingOverrideColorScheme addr 0x231ff14 size 0xc virtual false final false
+  /// @brief Method set_usingOverrideColorScheme addr 0x21e5830 size 0xc virtual false final false
   inline void set_usingOverrideColorScheme(bool value);
 
-  /// @brief Method get_colorScheme addr 0x231ff20 size 0x8 virtual false final false
+  /// @brief Method get_colorScheme addr 0x21e583c size 0x8 virtual false final false
   inline ::GlobalNamespace::ColorScheme* get_colorScheme();
 
-  /// @brief Method set_colorScheme addr 0x231ff28 size 0x8 virtual false final false
+  /// @brief Method set_colorScheme addr 0x21e5844 size 0x8 virtual false final false
   inline void set_colorScheme(::GlobalNamespace::ColorScheme* value);
 
-  /// @brief Method Init addr 0x231e9c4 size 0x3b0 virtual false final false
+  /// @brief Method Init addr 0x21e3624 size 0x374 virtual false final false
   inline void Init(::StringW gameMode, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                    ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::ColorScheme* overrideColorScheme,
                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
                    bool useTestNoteCutSoundEffects);
 
-  /// @brief Method Finish addr 0x231ff30 size 0x28 virtual false final false
+  /// @brief Method Finish addr 0x21e584c size 0x28 virtual false final false
   inline void Finish(::GlobalNamespace::MultiplayerResultsData* resultsData);
 
-  /// @brief Method FinishWithDisconnect addr 0x231ff58 size 0x28 virtual false final false
+  /// @brief Method FinishWithDisconnect addr 0x21e5874 size 0x28 virtual false final false
   inline void FinishWithDisconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
   static inline ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x231ff80 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21e589c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
@@ -328,6 +328,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO, ____multiplayerLevelSceneInfo) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO, ____gameCoreSceneInfo) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO, ____multiplayerEnvironmentInfo) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO, ____mainSettingsModel) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO, ___didFinishEvent) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO, ___didDisconnectEvent) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO, ____gameMode_k__BackingField) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO, ____previewBeatmapLevel_k__BackingField) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO, ____beatmapDifficulty_k__BackingField) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO, ____difficultyBeatmap_k__BackingField) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO, ____beatmapCharacteristic_k__BackingField) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO, ____usingOverrideColorScheme_k__BackingField) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO, ____colorScheme_k__BackingField) == 0x98, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO);

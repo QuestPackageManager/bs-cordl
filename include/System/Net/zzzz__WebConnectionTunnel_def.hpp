@@ -19,56 +19,56 @@ CORDL_MODULE_EXPORT(WebConnectionTunnel)
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System::Net {
-class HttpWebRequest;
-}
-namespace System::Net {
-struct __WebConnectionTunnel___Initialize_d__42;
-}
-namespace System {
-class Uri;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace System {
 template <typename T1, typename T2, typename T3> struct ValueTuple_3;
 }
-namespace System::Net {
-struct __WebConnectionTunnel__NtlmAuthState;
+namespace System::IO {
+class Stream;
 }
 namespace System::Net {
 struct __WebConnectionTunnel___ReadHeaders_d__43;
 }
 namespace System {
-class Version;
+class Uri;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Net {
 class WebHeaderCollection;
 }
-namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+namespace System::Net {
+struct __WebConnectionTunnel___Initialize_d__42;
+}
+namespace System {
+class Version;
+}
+namespace System::Net {
+class HttpWebRequest;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Net {
+struct __WebConnectionTunnel__NtlmAuthState;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::IO {
 class MemoryStream;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 // Forward declare root types
 namespace System::Net {
@@ -93,7 +93,7 @@ MARK_VAL_T(::System::Net::__WebConnectionTunnel___ReadHeaders_d__43);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9221))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8058))
 // CS Name: ::WebConnectionTunnel::NtlmAuthState
 struct CORDL_TYPE __WebConnectionTunnel__NtlmAuthState {
 public:
@@ -139,14 +139,16 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebConnectionTunnel__NtlmAuthState, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__WebConnectionTunnel__NtlmAuthState, value__) == 0x0, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: ::<Initialize>d__42
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(9091)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5332 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2508)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 871 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9222)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3392)), TypeDefinitionIndex(TypeDefinitionIndex(2675)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 857 }), TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(2506)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7928)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2506), inst: 5210 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8059)) CS
 // Name: ::WebConnectionTunnel::<Initialize>d__42
 struct CORDL_TYPE __WebConnectionTunnel___Initialize_d__42 {
 public:
@@ -154,10 +156,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x29e0940 size 0xdd4 virtual true final true
+  /// @brief Method MoveNext addr 0x28640c0 size 0xdd4 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x29e1714 size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0x2864e94 size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -211,25 +213,41 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebConnectionTunnel___Initialize_d__42, 0x60>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___Initialize_d__42, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___Initialize_d__42, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___Initialize_d__42, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___Initialize_d__42, stream) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___Initialize_d__42, cancellationToken) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___Initialize_d__42, _have_auth_5__2) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___Initialize_d__42, __u__1) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___Initialize_d__42, __u__2) == 0x50, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: ::<ReadHeaders>d__43
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9091)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5332 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2508)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 871 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(9223)) CS Name: ::WebConnectionTunnel::<ReadHeaders>d__43
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2506)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7928)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 857 }), TypeDefinitionIndex(TypeDefinitionIndex(3392)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2506), inst: 5210 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 101 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(8060)) CS Name: ::WebConnectionTunnel::<ReadHeaders>d__43
 struct CORDL_TYPE __WebConnectionTunnel___ReadHeaders_d__43 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x29e1720 size 0x7bc virtual true final true
+  /// @brief Method MoveNext addr 0x2864ea0 size 0x7bc virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x29e1edc size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0x286565c size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -288,13 +306,33 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebConnectionTunnel___ReadHeaders_d__43, 0x68>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___ReadHeaders_d__43, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___ReadHeaders_d__43, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___ReadHeaders_d__43, cancellationToken) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___ReadHeaders_d__43, stream) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___ReadHeaders_d__43, __4__this) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___ReadHeaders_d__43, _retBuffer_5__2) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___ReadHeaders_d__43, _status_5__3) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___ReadHeaders_d__43, _buffer_5__4) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___ReadHeaders_d__43, _ms_5__5) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebConnectionTunnel___ReadHeaders_d__43, __u__1) == 0x58, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: System.Net::WebConnectionTunnel
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9221))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9224))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(8058))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8061))
 // CS Name: ::System.Net::WebConnectionTunnel*
 class CORDL_TYPE WebConnectionTunnel : public ::System::Object {
 public:
@@ -433,70 +471,70 @@ public:
 
   constexpr void __set__Data_k__BackingField(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_Request addr 0x29e0714 size 0x8 virtual false final false
+  /// @brief Method get_Request addr 0x2863e94 size 0x8 virtual false final false
   inline ::System::Net::HttpWebRequest* get_Request();
 
-  /// @brief Method get_ConnectUri addr 0x29e071c size 0x8 virtual false final false
+  /// @brief Method get_ConnectUri addr 0x2863e9c size 0x8 virtual false final false
   inline ::System::Uri* get_ConnectUri();
 
   static inline ::System::Net::WebConnectionTunnel* New_ctor(::System::Net::HttpWebRequest* request, ::System::Uri* connectUri);
 
-  /// @brief Method .ctor addr 0x29dee70 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x28625f0 size 0x2c virtual false final false
   inline void _ctor(::System::Net::HttpWebRequest* request, ::System::Uri* connectUri);
 
-  /// @brief Method get_Success addr 0x29e0724 size 0x8 virtual false final false
+  /// @brief Method get_Success addr 0x2863ea4 size 0x8 virtual false final false
   inline bool get_Success();
 
-  /// @brief Method set_Success addr 0x29e072c size 0xc virtual false final false
+  /// @brief Method set_Success addr 0x2863eac size 0xc virtual false final false
   inline void set_Success(bool value);
 
-  /// @brief Method get_CloseConnection addr 0x29e0738 size 0x8 virtual false final false
+  /// @brief Method get_CloseConnection addr 0x2863eb8 size 0x8 virtual false final false
   inline bool get_CloseConnection();
 
-  /// @brief Method set_CloseConnection addr 0x29e0740 size 0xc virtual false final false
+  /// @brief Method set_CloseConnection addr 0x2863ec0 size 0xc virtual false final false
   inline void set_CloseConnection(bool value);
 
-  /// @brief Method get_StatusCode addr 0x29e074c size 0x8 virtual false final false
+  /// @brief Method get_StatusCode addr 0x2863ecc size 0x8 virtual false final false
   inline int32_t get_StatusCode();
 
-  /// @brief Method set_StatusCode addr 0x29e0754 size 0x8 virtual false final false
+  /// @brief Method set_StatusCode addr 0x2863ed4 size 0x8 virtual false final false
   inline void set_StatusCode(int32_t value);
 
-  /// @brief Method set_StatusDescription addr 0x29e075c size 0x8 virtual false final false
+  /// @brief Method set_StatusDescription addr 0x2863edc size 0x8 virtual false final false
   inline void set_StatusDescription(::StringW value);
 
-  /// @brief Method get_Challenge addr 0x29e0764 size 0x8 virtual false final false
+  /// @brief Method get_Challenge addr 0x2863ee4 size 0x8 virtual false final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Challenge();
 
-  /// @brief Method set_Challenge addr 0x29e076c size 0x8 virtual false final false
+  /// @brief Method set_Challenge addr 0x2863eec size 0x8 virtual false final false
   inline void set_Challenge(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method get_Headers addr 0x29e0774 size 0x8 virtual false final false
+  /// @brief Method get_Headers addr 0x2863ef4 size 0x8 virtual false final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method set_Headers addr 0x29e077c size 0x8 virtual false final false
+  /// @brief Method set_Headers addr 0x2863efc size 0x8 virtual false final false
   inline void set_Headers(::System::Net::WebHeaderCollection* value);
 
-  /// @brief Method get_ProxyVersion addr 0x29e0784 size 0x8 virtual false final false
+  /// @brief Method get_ProxyVersion addr 0x2863f04 size 0x8 virtual false final false
   inline ::System::Version* get_ProxyVersion();
 
-  /// @brief Method set_ProxyVersion addr 0x29e078c size 0x8 virtual false final false
+  /// @brief Method set_ProxyVersion addr 0x2863f0c size 0x8 virtual false final false
   inline void set_ProxyVersion(::System::Version* value);
 
-  /// @brief Method get_Data addr 0x29e0794 size 0x8 virtual false final false
+  /// @brief Method get_Data addr 0x2863f14 size 0x8 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Data();
 
-  /// @brief Method set_Data addr 0x29e079c size 0x8 virtual false final false
+  /// @brief Method set_Data addr 0x2863f1c size 0x8 virtual false final false
   inline void set_Data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method Initialize addr 0x29dee9c size 0xe4 virtual false final false
+  /// @brief Method Initialize addr 0x286261c size 0xe4 virtual false final false
   inline ::System::Threading::Tasks::Task* Initialize(::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadHeaders addr 0x29e07a4 size 0x108 virtual false final false
+  /// @brief Method ReadHeaders addr 0x2863f24 size 0x108 virtual false final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_3<::System::Net::WebHeaderCollection*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t>>*
   ReadHeaders(::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method FlushContents addr 0x29e08ac size 0x94 virtual false final false
+  /// @brief Method FlushContents addr 0x286402c size 0x94 virtual false final false
   inline void FlushContents(::System::IO::Stream* stream, int32_t contentLength);
 
   // Ctor Parameters [CppParam { name: "", ty: "WebConnectionTunnel", modifiers: "&&", def_value: None }]
@@ -553,6 +591,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::WebConnectionTunnel, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::WebConnectionTunnel, ____Request_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebConnectionTunnel, ____ConnectUri_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebConnectionTunnel, ___connectRequest) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebConnectionTunnel, ___ntlmAuthState) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebConnectionTunnel, ____Success_k__BackingField) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebConnectionTunnel, ____CloseConnection_k__BackingField) == 0x2d, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebConnectionTunnel, ____StatusCode_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebConnectionTunnel, ____StatusDescription_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebConnectionTunnel, ____Challenge_k__BackingField) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebConnectionTunnel, ____Headers_k__BackingField) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebConnectionTunnel, ____ProxyVersion_k__BackingField) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebConnectionTunnel, ____Data_k__BackingField) == 0x58, "Offset mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::__WebConnectionTunnel__NtlmAuthState, "System.Net", "WebConnectionTunnel/NtlmAuthState");

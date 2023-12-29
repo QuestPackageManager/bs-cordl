@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::DisconnectResult);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14175))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14513))
 // CS Name: ::LiteNetLib::DisconnectResult
 struct CORDL_TYPE DisconnectResult {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::DisconnectResult, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::DisconnectResult, value__) == 0x0, "Offset mismatch!");
 
 } // namespace LiteNetLib
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::DisconnectResult, "LiteNetLib", "DisconnectResult");

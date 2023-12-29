@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ReflectionAttributeProvider)
 namespace System {
-class Object;
+class Attribute;
 }
 namespace System {
 class Type;
 }
-namespace System {
-class Attribute;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace Newtonsoft::Json::Serialization {
 class IAttributeProvider;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ReflectionAttributeProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11909))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11837))
 // CS Name: ::Newtonsoft.Json.Serialization::ReflectionAttributeProvider*
 class CORDL_TYPE ReflectionAttributeProvider : public ::System::Object {
 public:
@@ -49,13 +49,13 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::ReflectionAttributeProvider* New_ctor(::System::Object* attributeProvider);
 
-  /// @brief Method .ctor addr 0x266ae54 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x2507710 size 0x68 virtual false final false
   inline void _ctor(::System::Object* attributeProvider);
 
-  /// @brief Method GetAttributes addr 0x266aebc size 0x6c virtual true final true
+  /// @brief Method GetAttributes addr 0x2507778 size 0x6c virtual true final true
   inline ::System::Collections::Generic::IList_1<::System::Attribute*>* GetAttributes(bool inherit);
 
-  /// @brief Method GetAttributes addr 0x266af28 size 0x70 virtual true final true
+  /// @brief Method GetAttributes addr 0x25077e4 size 0x70 virtual true final true
   inline ::System::Collections::Generic::IList_1<::System::Attribute*>* GetAttributes(::System::Type* attributeType, bool inherit);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionAttributeProvider", modifiers: "&&", def_value: None }]
@@ -79,6 +79,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::ReflectionAttributeProvider, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Serialization::ReflectionAttributeProvider, ____attributeProvider) == 0x10, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::ReflectionAttributeProvider);

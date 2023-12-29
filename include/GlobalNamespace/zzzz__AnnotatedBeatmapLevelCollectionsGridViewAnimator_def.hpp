@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnnotatedBeatmapLevelCollectionsGridViewAnimator)
 namespace Tweening {
+class TimeTweeningManager;
+}
+namespace Tweening {
 class Vector2Tween;
 }
 namespace UnityEngine {
 class RectTransform;
-}
-namespace Tweening {
-class TimeTweeningManager;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimat
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5769))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(15944))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5860))
 // CS Name: ::AnnotatedBeatmapLevelCollectionsGridViewAnimator*
 class CORDL_TYPE AnnotatedBeatmapLevelCollectionsGridViewAnimator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -125,54 +125,54 @@ public:
 
   constexpr void __set__contentPositionTween(::Tweening::Vector2Tween* value);
 
-  /// @brief Method Init addr 0x22dc970 size 0xb0 virtual false final false
+  /// @brief Method Init addr 0x2196dd4 size 0xb0 virtual false final false
   inline void Init(float_t rowHeight, int32_t rowCount);
 
-  /// @brief Method OnDestroy addr 0x22dee20 size 0x4 virtual false final false
+  /// @brief Method OnDestroy addr 0x2198910 size 0x4 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method ScrollToRowIdxInstant addr 0x22dd66c size 0x5c virtual false final false
+  /// @brief Method ScrollToRowIdxInstant addr 0x21978c8 size 0x5c virtual false final false
   inline void ScrollToRowIdxInstant(int32_t selectedRow);
 
-  /// @brief Method AnimateOpen addr 0x22dd71c size 0x334 virtual false final false
+  /// @brief Method AnimateOpen addr 0x2197978 size 0x334 virtual false final false
   inline void AnimateOpen(bool animated);
 
-  /// @brief Method AnimateClose addr 0x22ddab8 size 0x308 virtual false final false
+  /// @brief Method AnimateClose addr 0x2197d14 size 0x308 virtual false final false
   inline void AnimateClose(int32_t selectedRow, bool animated);
 
-  /// @brief Method DespawnAllActiveTweens addr 0x22dee24 size 0xc8 virtual false final false
+  /// @brief Method DespawnAllActiveTweens addr 0x2198914 size 0xc8 virtual false final false
   inline void DespawnAllActiveTweens();
 
-  /// @brief Method GetContentYOffset addr 0x22dedf4 size 0x2c virtual false final false
+  /// @brief Method GetContentYOffset addr 0x21988e4 size 0x2c virtual false final false
   inline float_t GetContentYOffset();
 
   static inline ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator* New_ctor();
 
-  /// @brief Method .ctor addr 0x22deeec size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x21989dc size 0x18 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <AnimateOpen>b__13_0 addr 0x22def04 size 0x1c virtual false final false
+  /// @brief Method <AnimateOpen>b__13_0 addr 0x21989f4 size 0x1c virtual false final false
   inline void _AnimateOpen_b__13_0(::UnityEngine::Vector2 size);
 
-  /// @brief Method <AnimateOpen>b__13_1 addr 0x22def20 size 0x88 virtual false final false
+  /// @brief Method <AnimateOpen>b__13_1 addr 0x2198a10 size 0x88 virtual false final false
   inline void _AnimateOpen_b__13_1();
 
-  /// @brief Method <AnimateOpen>b__13_2 addr 0x22defa8 size 0x1c virtual false final false
+  /// @brief Method <AnimateOpen>b__13_2 addr 0x2198a98 size 0x1c virtual false final false
   inline void _AnimateOpen_b__13_2(::UnityEngine::Vector2 pos);
 
-  /// @brief Method <AnimateOpen>b__13_3 addr 0x22defc4 size 0x88 virtual false final false
+  /// @brief Method <AnimateOpen>b__13_3 addr 0x2198ab4 size 0x88 virtual false final false
   inline void _AnimateOpen_b__13_3();
 
-  /// @brief Method <AnimateClose>b__14_0 addr 0x22df04c size 0x1c virtual false final false
+  /// @brief Method <AnimateClose>b__14_0 addr 0x2198b3c size 0x1c virtual false final false
   inline void _AnimateClose_b__14_0(::UnityEngine::Vector2 size);
 
-  /// @brief Method <AnimateClose>b__14_1 addr 0x22df068 size 0x88 virtual false final false
+  /// @brief Method <AnimateClose>b__14_1 addr 0x2198b58 size 0x88 virtual false final false
   inline void _AnimateClose_b__14_1();
 
-  /// @brief Method <AnimateClose>b__14_2 addr 0x22df0f0 size 0x1c virtual false final false
+  /// @brief Method <AnimateClose>b__14_2 addr 0x2198be0 size 0x1c virtual false final false
   inline void _AnimateClose_b__14_2(::UnityEngine::Vector2 pos);
 
-  /// @brief Method <AnimateClose>b__14_3 addr 0x22df10c size 0x88 virtual false final false
+  /// @brief Method <AnimateClose>b__14_3 addr 0x2198bfc size 0x88 virtual false final false
   inline void _AnimateClose_b__14_3();
 
   // Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionsGridViewAnimator", modifiers: "&&", def_value: None }]
@@ -223,6 +223,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____viewportTransform) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____contentTransform) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____transitionDuration) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____easeType) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____tweeningManager) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____rowHeight) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____rowCount) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____selectedRow) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____viewportSizeTween) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____contentPositionTween) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator);

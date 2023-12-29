@@ -10,125 +10,125 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MenuTransitionsHelper)
 namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class __MenuTransitionsHelper____c__DisplayClass29_0;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class MissionObjective;
+class MissionCompletionResults;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
 }
 namespace GlobalNamespace {
-class __MenuTransitionsHelper____c__DisplayClass36_0;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace BeatmapEditor3D {
-class BeatmapEditorStandardLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class MissionCompletionResults;
-}
-namespace GlobalNamespace {
-struct __RecordingToolManager__SetupData;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace GlobalNamespace {
-class BeatmapDataCache;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
 class __MenuTransitionsHelper____c__DisplayClass31_0;
 }
 namespace GlobalNamespace {
-class LevelScenesTransitionSetupDataSO;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace GlobalNamespace {
-class ColorScheme;
-}
-namespace GlobalNamespace {
-class __MenuTransitionsHelper____c__DisplayClass32_0;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
-class __MenuTransitionsHelper____c__DisplayClass33_0;
-}
-namespace GlobalNamespace {
-class CreditsScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class __MenuTransitionsHelper____c__DisplayClass30_0;
-}
-namespace GlobalNamespace {
-class PracticeSettings;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace GlobalNamespace {
-class TutorialScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-struct __TutorialScenesTransitionSetupDataSO__TutorialEndStateType;
+class __MenuTransitionsHelper____c;
 }
 namespace GlobalNamespace {
 class BeatmapEditorScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class AppInitScenesTransitionSetupDataContainerSO;
+class MissionObjective;
+}
+namespace GlobalNamespace {
+class __MenuTransitionsHelper____c__DisplayClass36_0;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class PracticeSettings;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelScenesTransitionSetupDataSO;
+}
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class OverrideEnvironmentSettings;
 }
 namespace GlobalNamespace {
-class MultiplayerResultsData;
+class AppInitScenesTransitionSetupDataContainerSO;
+}
+namespace BeatmapEditor3D {
+class BeatmapEditorStandardLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MissionLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+class __MenuTransitionsHelper____c__DisplayClass29_0;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class BeatmapDataCache;
+}
+namespace GlobalNamespace {
+struct __TutorialScenesTransitionSetupDataSO__TutorialEndStateType;
+}
+namespace GlobalNamespace {
+class __MenuTransitionsHelper____c__DisplayClass30_0;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
+namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+class __MenuTransitionsHelper____c__DisplayClass32_0;
+}
+namespace GlobalNamespace {
+class __MenuTransitionsHelper____c__DisplayClass33_0;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
+class ColorScheme;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class CreditsScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MultiplayerResultsData;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+class StandardLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class LevelScenesTransitionSetupDataSO;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace GlobalNamespace {
+class TutorialScenesTransitionSetupDataSO;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class MenuTransitionsHelper;
+}
+namespace GlobalNamespace {
+class __MenuTransitionsHelper____c;
 }
 namespace GlobalNamespace {
 class __MenuTransitionsHelper____c__DisplayClass29_0;
@@ -150,18 +150,71 @@ class __MenuTransitionsHelper____c__DisplayClass36_0;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MenuTransitionsHelper);
+MARK_REF_PTR_T(::GlobalNamespace::__MenuTransitionsHelper____c);
 MARK_REF_PTR_T(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass29_0);
 MARK_REF_PTR_T(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass30_0);
 MARK_REF_PTR_T(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass31_0);
 MARK_REF_PTR_T(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass32_0);
 MARK_REF_PTR_T(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass33_0);
 MARK_REF_PTR_T(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass36_0);
+// Type: ::<>c
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6127))
+// CS Name: ::MenuTransitionsHelper::<>c*
+class CORDL_TYPE __MenuTransitionsHelper____c : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__MenuTransitionsHelper____c* __9;
+
+  /// @brief Field <>9__26_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__26_0, put = setStaticF___9__26_0))::System::Action* __9__26_0;
+
+  static inline void setStaticF___9(::GlobalNamespace::__MenuTransitionsHelper____c* value);
+
+  static inline ::GlobalNamespace::__MenuTransitionsHelper____c* getStaticF___9();
+
+  static inline void setStaticF___9__26_0(::System::Action* value);
+
+  static inline ::System::Action* getStaticF___9__26_0();
+
+  static inline ::GlobalNamespace::__MenuTransitionsHelper____c* New_ctor();
+
+  /// @brief Method .ctor addr 0x21e5610 size 0x8 virtual false final false
+  inline void _ctor();
+
+  /// @brief Method <StartBeatmapEditor>b__26_0 addr 0x21e5618 size 0x24 virtual false final false
+  inline void _StartBeatmapEditor_b__26_0();
+
+  // Ctor Parameters [CppParam { name: "", ty: "__MenuTransitionsHelper____c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __MenuTransitionsHelper____c(__MenuTransitionsHelper____c&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__MenuTransitionsHelper____c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __MenuTransitionsHelper____c(__MenuTransitionsHelper____c const&) = delete;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MenuTransitionsHelper____c();
+
+public:
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuTransitionsHelper____c, 0x10>, "Size mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass29_0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6068))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6128))
 // CS Name: ::MenuTransitionsHelper::<>c__DisplayClass29_0*
 class CORDL_TYPE __MenuTransitionsHelper____c__DisplayClass29_0 : public ::System::Object {
 public:
@@ -196,10 +249,10 @@ public:
 
   static inline ::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass29_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x231f2ac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21e4be0 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <HandleMainGameSceneDidFinish>b__0 addr 0x231fd20 size 0x38 virtual false final false
+  /// @brief Method <HandleMainGameSceneDidFinish>b__0 addr 0x21e563c size 0x38 virtual false final false
   inline void _HandleMainGameSceneDidFinish_b__0(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuTransitionsHelper____c__DisplayClass29_0", modifiers: "&&", def_value: None }]
@@ -230,13 +283,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass29_0, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass29_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass29_0, ___standardLevelScenesTransitionSetupData) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass29_0, ___levelCompletionResults) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass30_0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6069))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6129))
 // CS Name: ::MenuTransitionsHelper::<>c__DisplayClass30_0*
 class CORDL_TYPE __MenuTransitionsHelper____c__DisplayClass30_0 : public ::System::Object {
 public:
@@ -271,10 +330,10 @@ public:
 
   static inline ::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass30_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x231f484 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21e4db8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <HandleMultiplayerLevelDidFinish>b__0 addr 0x231fd58 size 0x38 virtual false final false
+  /// @brief Method <HandleMultiplayerLevelDidFinish>b__0 addr 0x21e5674 size 0x38 virtual false final false
   inline void _HandleMultiplayerLevelDidFinish_b__0(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuTransitionsHelper____c__DisplayClass30_0", modifiers: "&&", def_value: None }]
@@ -305,13 +364,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass30_0, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass30_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass30_0, ___multiplayerLevelScenesTransitionSetupData) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass30_0, ___multiplayerResultsData) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass31_0
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12720))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6070))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12648)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6130))
 // CS Name: ::MenuTransitionsHelper::<>c__DisplayClass31_0*
 class CORDL_TYPE __MenuTransitionsHelper____c__DisplayClass31_0 : public ::System::Object {
 public:
@@ -336,10 +401,10 @@ public:
 
   static inline ::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass31_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x231f614 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21e4f48 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <HandleMultiplayerLevelDidDisconnect>b__0 addr 0x231fd90 size 0x38 virtual false final false
+  /// @brief Method <HandleMultiplayerLevelDidDisconnect>b__0 addr 0x21e56ac size 0x38 virtual false final false
   inline void _HandleMultiplayerLevelDidDisconnect_b__0(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuTransitionsHelper____c__DisplayClass31_0", modifiers: "&&", def_value: None }]
@@ -367,13 +432,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass31_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass31_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass31_0, ___disconnectedReason) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass32_0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6071))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6131))
 // CS Name: ::MenuTransitionsHelper::<>c__DisplayClass32_0*
 class CORDL_TYPE __MenuTransitionsHelper____c__DisplayClass32_0 : public ::System::Object {
 public:
@@ -408,10 +477,10 @@ public:
 
   static inline ::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass32_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x231f7dc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21e5110 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <HandleMissionLevelSceneDidFinish>b__0 addr 0x231fdc8 size 0x38 virtual false final false
+  /// @brief Method <HandleMissionLevelSceneDidFinish>b__0 addr 0x21e56e4 size 0x38 virtual false final false
   inline void _HandleMissionLevelSceneDidFinish_b__0(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuTransitionsHelper____c__DisplayClass32_0", modifiers: "&&", def_value: None }]
@@ -442,13 +511,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass32_0, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass32_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass32_0, ___missionLevelScenesTransitionSetupData) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass32_0, ___missionCompletionResults) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass33_0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6080)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6072))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(6140))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6132))
 // CS Name: ::MenuTransitionsHelper::<>c__DisplayClass33_0*
 class CORDL_TYPE __MenuTransitionsHelper____c__DisplayClass33_0 : public ::System::Object {
 public:
@@ -483,10 +558,10 @@ public:
 
   static inline ::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass33_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x231f928 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21e525c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <HandleTutorialSceneDidFinish>b__0 addr 0x231fe00 size 0x3c virtual false final false
+  /// @brief Method <HandleTutorialSceneDidFinish>b__0 addr 0x21e571c size 0x3c virtual false final false
   inline void _HandleTutorialSceneDidFinish_b__0(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuTransitionsHelper____c__DisplayClass33_0", modifiers: "&&", def_value: None }]
@@ -517,13 +592,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass33_0, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass33_0, ___endState) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass33_0, _____4__this) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass33_0, ___tutorialSceneTransitionSetupData) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass36_0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6073))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6133))
 // CS Name: ::MenuTransitionsHelper::<>c__DisplayClass36_0*
 class CORDL_TYPE __MenuTransitionsHelper____c__DisplayClass36_0 : public ::System::Object {
 public:
@@ -559,10 +640,10 @@ public:
 
   static inline ::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass36_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x231fc44 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21e5580 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <HandleBeatmapEditorGameSceneDidFinish>b__0 addr 0x231fe3c size 0x30 virtual false final false
+  /// @brief Method <HandleBeatmapEditorGameSceneDidFinish>b__0 addr 0x21e5758 size 0x30 virtual false final false
   inline void _HandleBeatmapEditorGameSceneDidFinish_b__0(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuTransitionsHelper____c__DisplayClass36_0", modifiers: "&&", def_value: None }]
@@ -593,13 +674,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass36_0, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass36_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass36_0, ___beatmapEditorStandardLevelScenesTransitionSetupData) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass36_0, ___levelCompletionResults) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MenuTransitionsHelper
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6074))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6134))
 // CS Name: ::MenuTransitionsHelper*
 class CORDL_TYPE MenuTransitionsHelper : public ::UnityEngine::MonoBehaviour {
 public:
@@ -615,6 +702,8 @@ public:
   using __c__DisplayClass30_0 = ::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass30_0;
 
   using __c__DisplayClass29_0 = ::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass29_0;
+
+  using __c = ::GlobalNamespace::__MenuTransitionsHelper____c;
 
   /// @brief Field _appInitScenesTransitionSetupDataContainer, offset 0x18, size 0x8
   __declspec(property(get = __get__appInitScenesTransitionSetupDataContainer,
@@ -640,48 +729,57 @@ public:
   __declspec(property(get = __get__creditsScenesTransitionSetupData,
                       put = __set__creditsScenesTransitionSetupData))::GlobalNamespace::CreditsScenesTransitionSetupDataSO* _creditsScenesTransitionSetupData;
 
-  /// @brief Field _mainSettingsModel, offset 0x48, size 0x8
+  /// @brief Field _beatmapEditorScenesTransitionSetupData, offset 0x48, size 0x8
+  __declspec(property(get = __get__beatmapEditorScenesTransitionSetupData,
+                      put = __set__beatmapEditorScenesTransitionSetupData))::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO* _beatmapEditorScenesTransitionSetupData;
+
+  /// @brief Field _beatmapEditorStandardLevelScenesTransitionSetupData, offset 0x50, size 0x8
+  __declspec(property(
+      get = __get__beatmapEditorStandardLevelScenesTransitionSetupData,
+      put = __set__beatmapEditorStandardLevelScenesTransitionSetupData))::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO* _beatmapEditorStandardLevelScenesTransitionSetupData;
+
+  /// @brief Field _mainSettingsModel, offset 0x58, size 0x8
   __declspec(property(get = __get__mainSettingsModel, put = __set__mainSettingsModel))::GlobalNamespace::MainSettingsModelSO* _mainSettingsModel;
 
-  /// @brief Field _gameScenesManager, offset 0x50, size 0x8
+  /// @brief Field _gameScenesManager, offset 0x60, size 0x8
   __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
 
-  /// @brief Field _beatmapDataCache, offset 0x58, size 0x8
+  /// @brief Field _beatmapDataCache, offset 0x68, size 0x8
   __declspec(property(get = __get__beatmapDataCache, put = __set__beatmapDataCache))::GlobalNamespace::BeatmapDataCache* _beatmapDataCache;
 
-  /// @brief Field _standardLevelFinishedCallback, offset 0x60, size 0x8
+  /// @brief Field _standardLevelFinishedCallback, offset 0x70, size 0x8
   __declspec(property(get = __get__standardLevelFinishedCallback,
                       put = __set__standardLevelFinishedCallback))::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*,
                                                                                      ::GlobalNamespace::LevelCompletionResults*>* _standardLevelFinishedCallback;
 
-  /// @brief Field _standardLevelRestartedCallback, offset 0x68, size 0x8
+  /// @brief Field _standardLevelRestartedCallback, offset 0x78, size 0x8
   __declspec(property(get = __get__standardLevelRestartedCallback,
                       put = __set__standardLevelRestartedCallback))::System::Action_2<::GlobalNamespace::LevelScenesTransitionSetupDataSO*,
                                                                                       ::GlobalNamespace::LevelCompletionResults*>* _standardLevelRestartedCallback;
 
-  /// @brief Field _multiplayerLevelFinishedCallback, offset 0x70, size 0x8
+  /// @brief Field _multiplayerLevelFinishedCallback, offset 0x80, size 0x8
   __declspec(property(get = __get__multiplayerLevelFinishedCallback,
                       put = __set__multiplayerLevelFinishedCallback))::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*,
                                                                                         ::GlobalNamespace::MultiplayerResultsData*>* _multiplayerLevelFinishedCallback;
 
-  /// @brief Field _multiplayerDidDisconnectCallback, offset 0x78, size 0x8
+  /// @brief Field _multiplayerDidDisconnectCallback, offset 0x88, size 0x8
   __declspec(property(get = __get__multiplayerDidDisconnectCallback,
                       put = __set__multiplayerDidDisconnectCallback))::System::Action_1<::GlobalNamespace::DisconnectedReason>* _multiplayerDidDisconnectCallback;
 
-  /// @brief Field _missionLevelFinishedCallback, offset 0x80, size 0x8
+  /// @brief Field _missionLevelFinishedCallback, offset 0x90, size 0x8
   __declspec(property(get = __get__missionLevelFinishedCallback,
                       put = __set__missionLevelFinishedCallback))::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*,
                                                                                     ::GlobalNamespace::MissionCompletionResults*>* _missionLevelFinishedCallback;
 
-  /// @brief Field _missionLevelRestartedCallback, offset 0x88, size 0x8
+  /// @brief Field _missionLevelRestartedCallback, offset 0x98, size 0x8
   __declspec(property(get = __get__missionLevelRestartedCallback,
                       put = __set__missionLevelRestartedCallback))::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*,
                                                                                      ::GlobalNamespace::MissionCompletionResults*>* _missionLevelRestartedCallback;
 
-  /// @brief Field _beatmapEditorFinishedCallback, offset 0x90, size 0x8
+  /// @brief Field _beatmapEditorFinishedCallback, offset 0xa0, size 0x8
   __declspec(property(get = __get__beatmapEditorFinishedCallback, put = __set__beatmapEditorFinishedCallback))::System::Action* _beatmapEditorFinishedCallback;
 
-  /// @brief Field _beatmapEditorGameplayLevelFinishedCallback, offset 0x98, size 0x8
+  /// @brief Field _beatmapEditorGameplayLevelFinishedCallback, offset 0xa8, size 0x8
   __declspec(property(get = __get__beatmapEditorGameplayLevelFinishedCallback,
                       put = __set__beatmapEditorGameplayLevelFinishedCallback))::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*,
                                                                                                   ::GlobalNamespace::LevelCompletionResults*>* _beatmapEditorGameplayLevelFinishedCallback;
@@ -721,6 +819,18 @@ public:
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*> const& __get__creditsScenesTransitionSetupData() const;
 
   constexpr void __set__creditsScenesTransitionSetupData(::GlobalNamespace::CreditsScenesTransitionSetupDataSO* value);
+
+  constexpr ::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*& __get__beatmapEditorScenesTransitionSetupData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*> const& __get__beatmapEditorScenesTransitionSetupData() const;
+
+  constexpr void __set__beatmapEditorScenesTransitionSetupData(::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO* value);
+
+  constexpr ::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*& __get__beatmapEditorStandardLevelScenesTransitionSetupData();
+
+  constexpr ::cordl_internals::to_const_pointer<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*> const& __get__beatmapEditorStandardLevelScenesTransitionSetupData() const;
+
+  constexpr void __set__beatmapEditorStandardLevelScenesTransitionSetupData(::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO* value);
 
   constexpr ::GlobalNamespace::MainSettingsModelSO*& __get__mainSettingsModel();
 
@@ -796,30 +906,25 @@ public:
   constexpr void
   __set__beatmapEditorGameplayLevelFinishedCallback(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* value);
 
-  /// @brief Method OnDestroy addr 0x231dfd4 size 0x25c virtual false final false
-  inline void OnDestroy();
-
-  /// @brief Method StartStandardLevel addr 0x231e390 size 0x58 virtual false final false
+  /// @brief Method StartStandardLevel addr 0x21e2438 size 0x48 virtual false final false
   inline void StartStandardLevel(::StringW gameMode, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                                  ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::ColorScheme* overrideColorScheme,
-                                 ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
-                                 ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::StringW backButtonText,
-                                 bool useTestNoteCutSoundEffects, bool startPaused, ::System::Action* beforeSceneSwitchCallback,
+                                 ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
+                                 ::GlobalNamespace::PracticeSettings* practiceSettings, ::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused,
+                                 ::System::Action* beforeSceneSwitchCallback,
                                  ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback,
-                                 ::System::Action_2<::GlobalNamespace::LevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelRestartedCallback,
-                                 ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
+                                 ::System::Action_2<::GlobalNamespace::LevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelRestartedCallback);
 
-  /// @brief Method StartStandardLevel addr 0x231e3e8 size 0x17c virtual false final false
+  /// @brief Method StartStandardLevel addr 0x21e2480 size 0x178 virtual false final false
   inline void StartStandardLevel(::StringW gameMode, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                                  ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::ColorScheme* overrideColorScheme,
-                                 ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
-                                 ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::StringW backButtonText,
-                                 bool useTestNoteCutSoundEffects, bool startPaused, ::System::Action* beforeSceneSwitchCallback, ::System::Action_1<::Zenject::DiContainer*>* afterSceneSwitchCallback,
+                                 ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
+                                 ::GlobalNamespace::PracticeSettings* practiceSettings, ::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused,
+                                 ::System::Action* beforeSceneSwitchCallback, ::System::Action_1<::Zenject::DiContainer*>* afterSceneSwitchCallback,
                                  ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback,
-                                 ::System::Action_2<::GlobalNamespace::LevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelRestartedCallback,
-                                 ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
+                                 ::System::Action_2<::GlobalNamespace::LevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelRestartedCallback);
 
-  /// @brief Method StartMissionLevel addr 0x231e564 size 0x180 virtual false final false
+  /// @brief Method StartMissionLevel addr 0x21e2c00 size 0x180 virtual false final false
   inline void StartMissionLevel(::StringW missionId, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                                 ::GlobalNamespace::ColorScheme* overrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                 ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives,
@@ -827,7 +932,7 @@ public:
                                 ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* levelFinishedCallback,
                                 ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* levelRestartedCallback);
 
-  /// @brief Method StartMultiplayerLevel addr 0x231e6e4 size 0x3c virtual false final false
+  /// @brief Method StartMultiplayerLevel addr 0x21e3294 size 0x3c virtual false final false
   inline void StartMultiplayerLevel(::StringW gameMode, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                                     ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap,
                                     ::GlobalNamespace::ColorScheme* overrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
@@ -836,7 +941,7 @@ public:
                                     ::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* levelFinishedCallback,
                                     ::System::Action_1<::GlobalNamespace::DisconnectedReason>* didDisconnectCallback);
 
-  /// @brief Method StartMultiplayerLevel addr 0x231e720 size 0x1f4 virtual false final false
+  /// @brief Method StartMultiplayerLevel addr 0x21e32d0 size 0x1f4 virtual false final false
   inline void StartMultiplayerLevel(::StringW gameMode, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                                     ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap,
                                     ::GlobalNamespace::ColorScheme* overrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
@@ -845,65 +950,61 @@ public:
                                     ::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* levelFinishedCallback,
                                     ::System::Action_1<::GlobalNamespace::DisconnectedReason>* didDisconnectCallback);
 
-  /// @brief Method StartTutorial addr 0x231ed74 size 0x108 virtual false final false
+  /// @brief Method StartTutorial addr 0x21e3998 size 0x108 virtual false final false
   inline void StartTutorial(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::System::Action* beforeSceneSwitchCallback);
 
-  /// @brief Method ShowCredits addr 0x231ef2c size 0xf8 virtual false final false
+  /// @brief Method ShowCredits addr 0x21e3e84 size 0x100 virtual false final false
   inline void ShowCredits();
 
-  /// @brief Method StartBeatmapEditor addr 0x231f024 size 0x4 virtual false final false
+  /// @brief Method StartBeatmapEditor addr 0x21e3f84 size 0x1b4 virtual false final false
   inline void StartBeatmapEditor(::System::Action* beatmapEditorFinishedCallback);
 
-  /// @brief Method StartBeatmapEditorStandardLevel addr 0x231f028 size 0x4 virtual false final false
+  /// @brief Method StartBeatmapEditorStandardLevel addr 0x21e4138 size 0x150 virtual false final false
   inline void
   StartBeatmapEditorStandardLevel(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                                   ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
-                                  ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::ColorScheme* colorScheme, bool useFirstPersonFlyingController,
-                                  ::System::Action* beforeSceneSwitchCallback,
+                                  ::GlobalNamespace::PracticeSettings* practiceSettings, bool useFirstPersonFlyingController, ::System::Action* beforeSceneSwitchCallback,
                                   ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback);
 
-  /// @brief Method RestartGame addr 0x231f02c size 0x64 virtual false final false
+  /// @brief Method RestartGame addr 0x21e49c8 size 0x64 virtual false final false
   inline void RestartGame(::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method StopStandardLevel addr 0x231f090 size 0x68 virtual false final false
-  inline void StopStandardLevel();
-
-  /// @brief Method HandleMainGameSceneDidFinish addr 0x231f0f8 size 0x1b4 virtual false final false
+  /// @brief Method HandleMainGameSceneDidFinish addr 0x21e4a2c size 0x1b4 virtual false final false
   inline void HandleMainGameSceneDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData,
                                            ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method HandleMultiplayerLevelDidFinish addr 0x231f2b4 size 0x1d0 virtual false final false
+  /// @brief Method HandleMultiplayerLevelDidFinish addr 0x21e4be8 size 0x1d0 virtual false final false
   inline void HandleMultiplayerLevelDidFinish(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData,
                                               ::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData);
 
-  /// @brief Method HandleMultiplayerLevelDidDisconnect addr 0x231f48c size 0x188 virtual false final false
+  /// @brief Method HandleMultiplayerLevelDidDisconnect addr 0x21e4dc0 size 0x188 virtual false final false
   inline void HandleMultiplayerLevelDidDisconnect(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData,
                                                   ::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method HandleMissionLevelSceneDidFinish addr 0x231f61c size 0x1c0 virtual false final false
+  /// @brief Method HandleMissionLevelSceneDidFinish addr 0x21e4f50 size 0x1c0 virtual false final false
   inline void HandleMissionLevelSceneDidFinish(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData,
                                                ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method HandleTutorialSceneDidFinish addr 0x231f7e4 size 0x144 virtual false final false
+  /// @brief Method HandleTutorialSceneDidFinish addr 0x21e5118 size 0x144 virtual false final false
   inline void HandleTutorialSceneDidFinish(::GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneTransitionSetupData,
                                            ::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType endState);
 
-  /// @brief Method HandleCreditsSceneDidFinish addr 0x231f930 size 0xb0 virtual false final false
+  /// @brief Method HandleCreditsSceneDidFinish addr 0x21e5264 size 0xb4 virtual false final false
   inline void HandleCreditsSceneDidFinish(::GlobalNamespace::CreditsScenesTransitionSetupDataSO* creditsSceneTransitionSetupData);
 
-  /// @brief Method HandleBeatmapEditorSceneDidFinish addr 0x231f9e0 size 0x130 virtual false final false
+  /// @brief Method HandleBeatmapEditorSceneDidFinish addr 0x21e5318 size 0x134 virtual false final false
   inline void HandleBeatmapEditorSceneDidFinish(::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO* beatmapEditorScenesTransitionSetupData);
 
-  /// @brief Method HandleBeatmapEditorGameSceneDidFinish addr 0x231fb10 size 0x134 virtual false final false
+  /// @brief Method HandleBeatmapEditorGameSceneDidFinish addr 0x21e544c size 0x134 virtual false final false
   inline void HandleBeatmapEditorGameSceneDidFinish(::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO* beatmapEditorStandardLevelScenesTransitionSetupData,
                                                     ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::MenuTransitionsHelper* New_ctor();
 
-  /// @brief Method .ctor addr 0x231fcfc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21e5588 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <HandleBeatmapEditorSceneDidFinish>b__35_0 addr 0x231fd04 size 0x1c virtual false final false
+  /// @brief Method <HandleBeatmapEditorSceneDidFinish>b__35_0 addr 0x21e5590 size 0x1c virtual false final false
   inline void _HandleBeatmapEditorSceneDidFinish_b__35_0(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuTransitionsHelper", modifiers: "&&", def_value: None }]
@@ -938,47 +1039,93 @@ public:
   /// @brief Field _creditsScenesTransitionSetupData, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::CreditsScenesTransitionSetupDataSO* ____creditsScenesTransitionSetupData;
 
-  /// @brief Field _mainSettingsModel, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _beatmapEditorScenesTransitionSetupData, offset: 0x48, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO* ____beatmapEditorScenesTransitionSetupData;
+
+  /// @brief Field _beatmapEditorStandardLevelScenesTransitionSetupData, offset: 0x50, size: 0x8, def value: None
+  ::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO* ____beatmapEditorStandardLevelScenesTransitionSetupData;
+
+  /// @brief Field _mainSettingsModel, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::MainSettingsModelSO* ____mainSettingsModel;
 
-  /// @brief Field _gameScenesManager, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _gameScenesManager, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
 
-  /// @brief Field _beatmapDataCache, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _beatmapDataCache, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCache* ____beatmapDataCache;
 
-  /// @brief Field _standardLevelFinishedCallback, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _standardLevelFinishedCallback, offset: 0x70, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* ____standardLevelFinishedCallback;
 
-  /// @brief Field _standardLevelRestartedCallback, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _standardLevelRestartedCallback, offset: 0x78, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::LevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* ____standardLevelRestartedCallback;
 
-  /// @brief Field _multiplayerLevelFinishedCallback, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _multiplayerLevelFinishedCallback, offset: 0x80, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* ____multiplayerLevelFinishedCallback;
 
-  /// @brief Field _multiplayerDidDisconnectCallback, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _multiplayerDidDisconnectCallback, offset: 0x88, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::DisconnectedReason>* ____multiplayerDidDisconnectCallback;
 
-  /// @brief Field _missionLevelFinishedCallback, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _missionLevelFinishedCallback, offset: 0x90, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* ____missionLevelFinishedCallback;
 
-  /// @brief Field _missionLevelRestartedCallback, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _missionLevelRestartedCallback, offset: 0x98, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* ____missionLevelRestartedCallback;
 
-  /// @brief Field _beatmapEditorFinishedCallback, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _beatmapEditorFinishedCallback, offset: 0xa0, size: 0x8, def value: None
   ::System::Action* ____beatmapEditorFinishedCallback;
 
-  /// @brief Field _beatmapEditorGameplayLevelFinishedCallback, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _beatmapEditorGameplayLevelFinishedCallback, offset: 0xa8, size: 0x8, def value: None
   ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* ____beatmapEditorGameplayLevelFinishedCallback;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuTransitionsHelper, 0xa0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuTransitionsHelper, 0xb0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____appInitScenesTransitionSetupDataContainer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____standardLevelScenesTransitionSetupData) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____multiplayerLevelScenesTransitionSetupData) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____missionLevelScenesTransitionSetupData) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____tutorialScenesTransitionSetupData) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____creditsScenesTransitionSetupData) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____beatmapEditorScenesTransitionSetupData) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____beatmapEditorStandardLevelScenesTransitionSetupData) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____mainSettingsModel) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____gameScenesManager) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____beatmapDataCache) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____standardLevelFinishedCallback) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____standardLevelRestartedCallback) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____multiplayerLevelFinishedCallback) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____multiplayerDidDisconnectCallback) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____missionLevelFinishedCallback) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____missionLevelRestartedCallback) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____beatmapEditorFinishedCallback) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuTransitionsHelper, ____beatmapEditorGameplayLevelFinishedCallback) == 0xa8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MenuTransitionsHelper);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MenuTransitionsHelper*, "", "MenuTransitionsHelper");
+NEED_NO_BOX(::GlobalNamespace::__MenuTransitionsHelper____c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MenuTransitionsHelper____c*, "", "MenuTransitionsHelper/<>c");
 NEED_NO_BOX(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass29_0);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass29_0*, "", "MenuTransitionsHelper/<>c__DisplayClass29_0");
 NEED_NO_BOX(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass30_0);

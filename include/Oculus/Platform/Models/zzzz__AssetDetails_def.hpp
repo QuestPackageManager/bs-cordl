@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AssetDetails);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13417))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13454))
 // CS Name: ::Oculus.Platform.Models::AssetDetails*
 class CORDL_TYPE AssetDetails : public ::System::Object {
 public:
@@ -99,7 +99,7 @@ public:
 
   static inline ::Oculus::Platform::Models::AssetDetails* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x2704588 size 0x168 virtual false final false
+  /// @brief Method .ctor addr 0x25b1294 size 0x168 virtual false final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetDetails", modifiers: "&&", def_value: None }]
@@ -144,6 +144,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::AssetDetails, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::AssetDetails, ___AssetId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::AssetDetails, ___AssetType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::AssetDetails, ___DownloadStatus) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::AssetDetails, ___Filepath) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::AssetDetails, ___IapStatus) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::AssetDetails, ___LanguageOptional) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::AssetDetails, ___Language) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::AssetDetails, ___Metadata) == 0x48, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::AssetDetails);

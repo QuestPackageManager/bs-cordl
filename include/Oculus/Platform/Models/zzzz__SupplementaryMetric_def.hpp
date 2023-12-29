@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::SupplementaryMetric);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13482))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13542))
 // CS Name: ::Oculus.Platform.Models::SupplementaryMetric*
 class CORDL_TYPE SupplementaryMetric : public ::System::Object {
 public:
@@ -41,7 +41,7 @@ public:
 
   static inline ::Oculus::Platform::Models::SupplementaryMetric* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x2706c38 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x25b429c size 0x88 virtual false final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "SupplementaryMetric", modifiers: "&&", def_value: None }]
@@ -68,6 +68,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::SupplementaryMetric, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::SupplementaryMetric, ____cordl_ID) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::SupplementaryMetric, ___Metric) == 0x18, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::SupplementaryMetric);

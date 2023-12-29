@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_CacheProperty);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9720))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9647))
 // CS Name: ::HoudiniEngineUnity::HAPI_CacheProperty
 struct CORDL_TYPE HAPI_CacheProperty {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_CacheProperty, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CacheProperty, value__) == 0x0, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_CacheProperty, "HoudiniEngineUnity", "HAPI_CacheProperty");

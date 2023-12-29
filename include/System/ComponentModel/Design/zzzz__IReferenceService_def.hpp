@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::IReferenceService);
 namespace System::ComponentModel::Design {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9502))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8339))
 // CS Name: ::System.ComponentModel.Design::IReferenceService*
 class CORDL_TYPE IReferenceService {
 public:

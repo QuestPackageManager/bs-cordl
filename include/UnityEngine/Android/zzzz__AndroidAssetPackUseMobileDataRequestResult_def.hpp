@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResul
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::Android {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14924))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15069))
 // CS Name: ::UnityEngine.Android::AndroidAssetPackUseMobileDataRequestResult*
 class CORDL_TYPE AndroidAssetPackUseMobileDataRequestResult : public ::System::Object {
 public:
@@ -31,7 +31,7 @@ public:
 
   static inline ::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult* New_ctor(bool allowed);
 
-  /// @brief Method .ctor addr 0x2c8cc04 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2b27cdc size 0x28 virtual false final false
   inline void _ctor(bool allowed);
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPackUseMobileDataRequestResult", modifiers: "&&", def_value: None }]
@@ -55,6 +55,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult, ____allowed_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::Android
 NEED_NO_BOX(::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult);

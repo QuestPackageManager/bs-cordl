@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::SignalTrack);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13890))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13896))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14161))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14167))
 // CS Name: ::UnityEngine.Timeline::SignalTrack*
 class CORDL_TYPE SignalTrack : public ::UnityEngine::Timeline::MarkerTrack {
 public:
   // Declarations
   static inline ::UnityEngine::Timeline::SignalTrack* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c69e70 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x2ae611c size 0x4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalTrack", modifiers: "&&", def_value: None }]

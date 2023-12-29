@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::HealthWarningSceneSetupData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15408))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6053))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13934))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6108))
 // CS Name: ::HealthWarningSceneSetupData*
 class CORDL_TYPE HealthWarningSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
@@ -34,12 +34,12 @@ public:
 
   constexpr void __set__nextScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
 
-  /// @brief Method get_nextScenesTransitionSetupData addr 0x231ccb0 size 0x8 virtual false final false
+  /// @brief Method get_nextScenesTransitionSetupData addr 0x21c9040 size 0x8 virtual false final false
   inline ::GlobalNamespace::ScenesTransitionSetupDataSO* get_nextScenesTransitionSetupData();
 
   static inline ::GlobalNamespace::HealthWarningSceneSetupData* New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
-  /// @brief Method .ctor addr 0x231ccb8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x21c9048 size 0x28 virtual false final false
   inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
   // Ctor Parameters [CppParam { name: "", ty: "HealthWarningSceneSetupData", modifiers: "&&", def_value: None }]
@@ -63,6 +63,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HealthWarningSceneSetupData, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HealthWarningSceneSetupData, ____nextScenesTransitionSetupData) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HealthWarningSceneSetupData);

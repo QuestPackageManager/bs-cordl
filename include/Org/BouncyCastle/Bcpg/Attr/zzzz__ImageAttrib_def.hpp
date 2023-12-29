@@ -63,6 +63,8 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format, 0x1>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Bcpg::Attr
 // Type: Org.BouncyCastle.Bcpg.Attr::ImageAttrib
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
@@ -125,29 +127,29 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::Attr::ImageAttrib* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0x11c6ed0 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x1155c80 size 0xc virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Attr::ImageAttrib* New_ctor(bool forceLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0x11c6edc size 0xdc virtual false final false
+  /// @brief Method .ctor addr 0x1155c8c size 0xdc virtual false final false
   inline void _ctor(bool forceLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Attr::ImageAttrib* New_ctor(::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format imageType, ::ArrayW<uint8_t, ::Array<uint8_t>*> imageData);
 
-  /// @brief Method .ctor addr 0x11c6fb8 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x1155d68 size 0x78 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format imageType, ::ArrayW<uint8_t, ::Array<uint8_t>*> imageData);
 
-  /// @brief Method ToByteArray addr 0x11c7030 size 0x14c virtual false final false
+  /// @brief Method ToByteArray addr 0x1155de0 size 0x14c virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToByteArray(::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format imageType, ::ArrayW<uint8_t, ::Array<uint8_t>*> imageData);
 
-  /// @brief Method get_Version addr 0x11c717c size 0x8 virtual true final false
+  /// @brief Method get_Version addr 0x1155f2c size 0x8 virtual true final false
   inline int32_t get_Version();
 
-  /// @brief Method get_Encoding addr 0x11c7184 size 0x8 virtual true final false
+  /// @brief Method get_Encoding addr 0x1155f34 size 0x8 virtual true final false
   inline int32_t get_Encoding();
 
-  /// @brief Method GetImageData addr 0x11c718c size 0x8 virtual true final false
+  /// @brief Method GetImageData addr 0x1155f3c size 0x8 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetImageData();
 
   // Ctor Parameters [CppParam { name: "", ty: "ImageAttrib", modifiers: "&&", def_value: None }]
@@ -180,6 +182,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::Attr::ImageAttrib, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::Attr::ImageAttrib, ___hdrLength) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::Attr::ImageAttrib, ____version) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::Attr::ImageAttrib, ____encoding) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::Attr::ImageAttrib, ___imageData) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg::Attr
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format, "Org.BouncyCastle.Bcpg.Attr", "ImageAttrib/Format");

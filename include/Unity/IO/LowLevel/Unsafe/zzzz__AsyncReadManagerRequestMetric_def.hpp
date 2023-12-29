@@ -15,13 +15,13 @@ namespace Unity::IO::LowLevel::Unsafe {
 struct AssetLoadingSubsystem;
 }
 namespace Unity::IO::LowLevel::Unsafe {
-struct Priority;
-}
-namespace Unity::IO::LowLevel::Unsafe {
 struct ProcessingState;
 }
 namespace Unity::IO::LowLevel::Unsafe {
 struct FileReadType;
+}
+namespace Unity::IO::LowLevel::Unsafe {
+struct Priority;
 }
 // Forward declare root types
 namespace Unity::IO::LowLevel::Unsafe {
@@ -33,8 +33,8 @@ MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9987)), TypeDefinitionIndex(TypeDefinitionIndex(9989)), TypeDefinitionIndex(TypeDefinitionIndex(9986)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9988))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9990)) CS Name: ::Unity.IO.LowLevel.Unsafe::AsyncReadManagerRequestMetric
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9917)), TypeDefinitionIndex(TypeDefinitionIndex(9915)), TypeDefinitionIndex(TypeDefinitionIndex(9916)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9914))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9918)) CS Name: ::Unity.IO.LowLevel.Unsafe::AsyncReadManagerRequestMetric
 struct CORDL_TYPE AsyncReadManagerRequestMetric {
 public:
   // Declarations
@@ -110,6 +110,36 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _AssetName_k__BackingField) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _FileName_k__BackingField) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _OffsetBytes_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _SizeBytes_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _AssetTypeId_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _CurrentBytesRead_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _BatchReadCount_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _IsBatchRead_k__BackingField) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _State_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _ReadType_k__BackingField) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _PriorityLevel_k__BackingField) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _Subsystem_k__BackingField) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _RequestTimeMicroseconds_k__BackingField) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _TimeInQueueMicroseconds_k__BackingField) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _TotalTimeMicroseconds_k__BackingField) == 0x58, "Offset mismatch!");
 
 } // namespace Unity::IO::LowLevel::Unsafe
 DEFINE_IL2CPP_ARG_TYPE(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, "Unity.IO.LowLevel.Unsafe", "AsyncReadManagerRequestMetric");

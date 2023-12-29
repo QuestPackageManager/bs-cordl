@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::DynamicAtlasFiltersInternal);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7016))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7102))
 // CS Name: ::UnityEngine.UIElements::DynamicAtlasFiltersInternal
 struct CORDL_TYPE DynamicAtlasFiltersInternal {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DynamicAtlasFiltersInternal, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DynamicAtlasFiltersInternal, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DynamicAtlasFiltersInternal, "UnityEngine.UIElements", "DynamicAtlasFiltersInternal");

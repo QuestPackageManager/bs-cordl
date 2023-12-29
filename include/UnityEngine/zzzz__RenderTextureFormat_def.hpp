@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::RenderTextureFormat);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10117))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10045))
 // CS Name: ::UnityEngine::RenderTextureFormat
 struct CORDL_TYPE RenderTextureFormat {
 public:
@@ -161,6 +161,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::RenderTextureFormat, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::RenderTextureFormat, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RenderTextureFormat, "UnityEngine", "RenderTextureFormat");

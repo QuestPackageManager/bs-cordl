@@ -17,8 +17,8 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2592))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2590))
 // CS Name: ::System::EmptyArray`1<T>*
 class CORDL_TYPE EmptyArray_1 : public ::System::Object {
 public:

@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CanvasUpdateRegistry)
-namespace UnityEngine::UI::Collections {
-template <typename T> class IndexedSet_1;
-}
 namespace System {
 template <typename T> class Comparison_1;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace UnityEngine::UI {
 class ICanvasElement;
+}
+namespace UnityEngine::UI::Collections {
+template <typename T> class IndexedSet_1;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::UnityEngine::UI::CanvasUpdateRegistry);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13022))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13027))
 // CS Name: ::UnityEngine.UI::CanvasUpdateRegistry*
 class CORDL_TYPE CanvasUpdateRegistry : public ::System::Object {
 public:
@@ -96,67 +96,67 @@ public:
 
   static inline ::UnityEngine::UI::CanvasUpdateRegistry* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d512d0 size 0x26c virtual false final false
+  /// @brief Method .ctor addr 0x2be8f20 size 0x26c virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_instance addr 0x2d5153c size 0xa8 virtual false final false
+  /// @brief Method get_instance addr 0x2be918c size 0xa8 virtual false final false
   static inline ::UnityEngine::UI::CanvasUpdateRegistry* get_instance();
 
-  /// @brief Method ObjectValidForUpdate addr 0x2d515e4 size 0xd0 virtual false final false
+  /// @brief Method ObjectValidForUpdate addr 0x2be9234 size 0xd0 virtual false final false
   inline bool ObjectValidForUpdate(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method CleanInvalidItems addr 0x2d516b4 size 0x2e4 virtual false final false
+  /// @brief Method CleanInvalidItems addr 0x2be9304 size 0x2e4 virtual false final false
   inline void CleanInvalidItems();
 
-  /// @brief Method PerformUpdate addr 0x2d51998 size 0x640 virtual false final false
+  /// @brief Method PerformUpdate addr 0x2be95e8 size 0x640 virtual false final false
   inline void PerformUpdate();
 
-  /// @brief Method ParentCount addr 0x2d52160 size 0xc0 virtual false final false
+  /// @brief Method ParentCount addr 0x2be9db0 size 0xc0 virtual false final false
   static inline int32_t ParentCount(::UnityEngine::Transform* child);
 
-  /// @brief Method SortLayoutList addr 0x2d52220 size 0x150 virtual false final false
+  /// @brief Method SortLayoutList addr 0x2be9e70 size 0x150 virtual false final false
   static inline int32_t SortLayoutList(::UnityEngine::UI::ICanvasElement* x, ::UnityEngine::UI::ICanvasElement* y);
 
-  /// @brief Method RegisterCanvasElementForLayoutRebuild addr 0x2d52370 size 0x60 virtual false final false
+  /// @brief Method RegisterCanvasElementForLayoutRebuild addr 0x2be9fc0 size 0x60 virtual false final false
   static inline void RegisterCanvasElementForLayoutRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method TryRegisterCanvasElementForLayoutRebuild addr 0x2d52468 size 0x60 virtual false final false
+  /// @brief Method TryRegisterCanvasElementForLayoutRebuild addr 0x2bea0b8 size 0x60 virtual false final false
   static inline bool TryRegisterCanvasElementForLayoutRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalRegisterCanvasElementForLayoutRebuild addr 0x2d523d0 size 0x98 virtual false final false
+  /// @brief Method InternalRegisterCanvasElementForLayoutRebuild addr 0x2bea020 size 0x98 virtual false final false
   inline bool InternalRegisterCanvasElementForLayoutRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method RegisterCanvasElementForGraphicRebuild addr 0x2d524c8 size 0x60 virtual false final false
+  /// @brief Method RegisterCanvasElementForGraphicRebuild addr 0x2bea118 size 0x60 virtual false final false
   static inline void RegisterCanvasElementForGraphicRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method TryRegisterCanvasElementForGraphicRebuild addr 0x2d525f8 size 0x60 virtual false final false
+  /// @brief Method TryRegisterCanvasElementForGraphicRebuild addr 0x2bea248 size 0x60 virtual false final false
   static inline bool TryRegisterCanvasElementForGraphicRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalRegisterCanvasElementForGraphicRebuild addr 0x2d52528 size 0xd0 virtual false final false
+  /// @brief Method InternalRegisterCanvasElementForGraphicRebuild addr 0x2bea178 size 0xd0 virtual false final false
   inline bool InternalRegisterCanvasElementForGraphicRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method UnRegisterCanvasElementForRebuild addr 0x2d52658 size 0x70 virtual false final false
+  /// @brief Method UnRegisterCanvasElementForRebuild addr 0x2bea2a8 size 0x70 virtual false final false
   static inline void UnRegisterCanvasElementForRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method DisableCanvasElementForRebuild addr 0x2d52990 size 0x70 virtual false final false
+  /// @brief Method DisableCanvasElementForRebuild addr 0x2bea5e0 size 0x70 virtual false final false
   static inline void DisableCanvasElementForRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalUnRegisterCanvasElementForLayoutRebuild addr 0x2d526c8 size 0x164 virtual false final false
+  /// @brief Method InternalUnRegisterCanvasElementForLayoutRebuild addr 0x2bea318 size 0x164 virtual false final false
   inline void InternalUnRegisterCanvasElementForLayoutRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalUnRegisterCanvasElementForGraphicRebuild addr 0x2d5282c size 0x164 virtual false final false
+  /// @brief Method InternalUnRegisterCanvasElementForGraphicRebuild addr 0x2bea47c size 0x164 virtual false final false
   inline void InternalUnRegisterCanvasElementForGraphicRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalDisableCanvasElementForLayoutRebuild addr 0x2d52a00 size 0x164 virtual false final false
+  /// @brief Method InternalDisableCanvasElementForLayoutRebuild addr 0x2bea650 size 0x164 virtual false final false
   inline void InternalDisableCanvasElementForLayoutRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalDisableCanvasElementForGraphicRebuild addr 0x2d52b64 size 0x164 virtual false final false
+  /// @brief Method InternalDisableCanvasElementForGraphicRebuild addr 0x2bea7b4 size 0x164 virtual false final false
   inline void InternalDisableCanvasElementForGraphicRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method IsRebuildingLayout addr 0x2d52cc8 size 0x5c virtual false final false
+  /// @brief Method IsRebuildingLayout addr 0x2bea918 size 0x5c virtual false final false
   static inline bool IsRebuildingLayout();
 
-  /// @brief Method IsRebuildingGraphics addr 0x2d52d24 size 0x5c virtual false final false
+  /// @brief Method IsRebuildingGraphics addr 0x2bea974 size 0x5c virtual false final false
   static inline bool IsRebuildingGraphics();
 
   // Ctor Parameters [CppParam { name: "", ty: "CanvasUpdateRegistry", modifiers: "&&", def_value: None }]
@@ -195,6 +195,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::CanvasUpdateRegistry, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::CanvasUpdateRegistry, ___m_PerformingLayoutUpdate) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::CanvasUpdateRegistry, ___m_PerformingGraphicUpdate) == 0x11, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::CanvasUpdateRegistry, ___m_CanvasUpdateProfilerStrings) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::CanvasUpdateRegistry, ___m_LayoutRebuildQueue) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::CanvasUpdateRegistry, ___m_GraphicRebuildQueue) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::UI
 NEED_NO_BOX(::UnityEngine::UI::CanvasUpdateRegistry);

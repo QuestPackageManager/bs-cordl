@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::FalloffType);
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10388))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10310))
 // CS Name: ::UnityEngine.Experimental.GlobalIllumination::FalloffType
 struct CORDL_TYPE FalloffType {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::FalloffType, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::FalloffType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Experimental::GlobalIllumination
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::FalloffType, "UnityEngine.Experimental.GlobalIllumination", "FalloffType");

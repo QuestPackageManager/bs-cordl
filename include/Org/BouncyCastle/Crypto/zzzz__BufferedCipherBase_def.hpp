@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::BufferedCipherBase);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(965))
 // CS Name: ::Org.BouncyCastle.Crypto::BufferedCipherBase*
 class CORDL_TYPE BufferedCipherBase : public ::System::Object {
@@ -59,37 +59,37 @@ public:
   /// @brief Method ProcessByte addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessByte(uint8_t input);
 
-  /// @brief Method ProcessByte addr 0xf19c34 size 0xb4 virtual true final false
+  /// @brief Method ProcessByte addr 0xea4a48 size 0xb4 virtual true final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes addr 0xf19ce8 size 0x28 virtual true final false
+  /// @brief Method ProcessBytes addr 0xea4afc size 0x28 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   /// @brief Method ProcessBytes addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method ProcessBytes addr 0xf19d10 size 0x30 virtual true final false
+  /// @brief Method ProcessBytes addr 0xea4b24 size 0x30 virtual true final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes addr 0xf19d40 size 0xb4 virtual true final false
+  /// @brief Method ProcessBytes addr 0xea4b54 size 0xb4 virtual true final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
   /// @brief Method DoFinal addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal();
 
-  /// @brief Method DoFinal addr 0xf19df4 size 0x28 virtual true final false
+  /// @brief Method DoFinal addr 0xea4c08 size 0x28 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   /// @brief Method DoFinal addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method DoFinal addr 0xf19e1c size 0xb8 virtual true final false
+  /// @brief Method DoFinal addr 0xea4c30 size 0xb8 virtual true final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method DoFinal addr 0xf19ed4 size 0x30 virtual true final false
+  /// @brief Method DoFinal addr 0xea4ce8 size 0x30 virtual true final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method DoFinal addr 0xf19f04 size 0x5c virtual true final false
+  /// @brief Method DoFinal addr 0xea4d18 size 0x5c virtual true final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
   /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -97,7 +97,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::BufferedCipherBase* New_ctor();
 
-  /// @brief Method .ctor addr 0xf19fc8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xea4ddc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferedCipherBase", modifiers: "&&", def_value: None }]

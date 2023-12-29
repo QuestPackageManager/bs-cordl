@@ -16,19 +16,19 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 struct AngularFalloffType;
 }
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct FalloffType;
+}
+namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct LightMode;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct LinearColor;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct FalloffType;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {
@@ -40,9 +40,9 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::SpotLight);
 // SizeInfo { instance_size: 88, native_size: 92, calculated_instance_size: 88, calculated_native_size: 102, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10387)), TypeDefinitionIndex(TypeDefinitionIndex(10390)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10389)), TypeDefinitionIndex(TypeDefinitionIndex(10388)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(10393)) CS Name: ::UnityEngine.Experimental.GlobalIllumination::SpotLight
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10312)), TypeDefinitionIndex(TypeDefinitionIndex(10311)), TypeDefinitionIndex(TypeDefinitionIndex(10176)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10310)), TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10309))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(10315)) CS Name: ::UnityEngine.Experimental.GlobalIllumination::SpotLight
 struct CORDL_TYPE SpotLight {
 public:
   // Declarations
@@ -109,6 +109,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::SpotLight, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, instanceID) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, shadow) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, mode) == 0x5, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, position) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, orientation) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, color) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, indirectColor) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, range) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, sphereRadius) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, coneAngle) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, innerConeAngle) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, falloff) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::SpotLight, angularFalloff) == 0x55, "Offset mismatch!");
 
 } // namespace UnityEngine::Experimental::GlobalIllumination
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::SpotLight, "UnityEngine.Experimental.GlobalIllumination", "SpotLight");

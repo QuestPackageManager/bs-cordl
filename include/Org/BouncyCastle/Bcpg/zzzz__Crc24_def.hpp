@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Crc24);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(561))
 // CS Name: ::Org.BouncyCastle.Bcpg::Crc24*
 class CORDL_TYPE Crc24 : public ::System::Object {
@@ -34,19 +34,19 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::Crc24* New_ctor();
 
-  /// @brief Method .ctor addr 0x11c97c0 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x1158570 size 0x14 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Update addr 0x11ca494 size 0x38 virtual false final false
+  /// @brief Method Update addr 0x1159244 size 0x38 virtual false final false
   inline void Update(int32_t b);
 
-  /// @brief Method GetValue addr 0x11d04d4 size 0x8 virtual false final false
+  /// @brief Method GetValue addr 0x115f284 size 0x8 virtual false final false
   inline int32_t GetValue();
 
-  /// @brief Method get_Value addr 0x11d04dc size 0x8 virtual false final false
+  /// @brief Method get_Value addr 0x115f28c size 0x8 virtual false final false
   inline int32_t get_Value();
 
-  /// @brief Method Reset addr 0x11ca484 size 0x10 virtual false final false
+  /// @brief Method Reset addr 0x1159234 size 0x10 virtual false final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "Crc24", modifiers: "&&", def_value: None }]
@@ -76,6 +76,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::Crc24, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::Crc24, ___crc) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::Crc24);

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Timeline::MatchTargetFields);
 namespace UnityEngine::Timeline {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13837))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14108))
 // CS Name: ::UnityEngine.Timeline::MatchTargetFields
 struct CORDL_TYPE MatchTargetFields {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::MatchTargetFields, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::MatchTargetFields, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Timeline
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::MatchTargetFields, "UnityEngine.Timeline", "MatchTargetFields");

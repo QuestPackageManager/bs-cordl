@@ -70,49 +70,49 @@ public:
 
   static inline ::Mono::Security::Cryptography::MD4Managed* New_ctor();
 
-  /// @brief Method .ctor addr 0x2420f74 size 0xd0 virtual false final false
+  /// @brief Method .ctor addr 0x22c74f4 size 0xd0 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Initialize addr 0x2421044 size 0xb4 virtual true final false
+  /// @brief Method Initialize addr 0x22c75c4 size 0xb4 virtual true final false
   inline void Initialize();
 
-  /// @brief Method HashCore addr 0x24210f8 size 0x124 virtual true final false
+  /// @brief Method HashCore addr 0x22c7678 size 0x124 virtual true final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal addr 0x2421894 size 0xfc virtual true final false
+  /// @brief Method HashFinal addr 0x22c7e14 size 0xfc virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Padding addr 0x2421a88 size 0x78 virtual false final false
+  /// @brief Method Padding addr 0x22c8008 size 0x78 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Padding(int32_t nLength);
 
-  /// @brief Method F addr 0x2421b00 size 0x10 virtual false final false
+  /// @brief Method F addr 0x22c8080 size 0x10 virtual false final false
   inline uint32_t F(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method G addr 0x2421b10 size 0x14 virtual false final false
+  /// @brief Method G addr 0x22c8090 size 0x14 virtual false final false
   inline uint32_t G(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method H addr 0x2421b24 size 0xc virtual false final false
+  /// @brief Method H addr 0x22c80a4 size 0xc virtual false final false
   inline uint32_t H(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method ROL addr 0x2421b30 size 0x10 virtual false final false
+  /// @brief Method ROL addr 0x22c80b0 size 0x10 virtual false final false
   inline uint32_t ROL(uint32_t x, uint8_t n);
 
-  /// @brief Method FF addr 0x2421b40 size 0x2c virtual false final false
+  /// @brief Method FF addr 0x22c80c0 size 0x2c virtual false final false
   inline void FF(ByRef<uint32_t> a, uint32_t b, uint32_t c, uint32_t d, uint32_t x, uint8_t s);
 
-  /// @brief Method GG addr 0x2421b6c size 0x3c virtual false final false
+  /// @brief Method GG addr 0x22c80ec size 0x3c virtual false final false
   inline void GG(ByRef<uint32_t> a, uint32_t b, uint32_t c, uint32_t d, uint32_t x, uint8_t s);
 
-  /// @brief Method HH addr 0x2421ba8 size 0x34 virtual false final false
+  /// @brief Method HH addr 0x22c8128 size 0x34 virtual false final false
   inline void HH(ByRef<uint32_t> a, uint32_t b, uint32_t c, uint32_t d, uint32_t x, uint8_t s);
 
-  /// @brief Method Encode addr 0x2421990 size 0xf8 virtual false final false
+  /// @brief Method Encode addr 0x22c7f10 size 0xf8 virtual false final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint32_t, ::Array<uint32_t>*> input);
 
-  /// @brief Method Decode addr 0x2421bdc size 0xb4 virtual false final false
+  /// @brief Method Decode addr 0x22c815c size 0xb4 virtual false final false
   inline void Decode(::ArrayW<uint32_t, ::Array<uint32_t>*> output, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t index);
 
-  /// @brief Method MD4Transform addr 0x242121c size 0x678 virtual false final false
+  /// @brief Method MD4Transform addr 0x22c779c size 0x678 virtual false final false
   inline void MD4Transform(::ArrayW<uint32_t, ::Array<uint32_t>*> state, ::ArrayW<uint8_t, ::Array<uint8_t>*> block, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "MD4Managed", modifiers: "&&", def_value: None }]
@@ -148,6 +148,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Cryptography::MD4Managed, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::MD4Managed, ___state) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::MD4Managed, ___buffer) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::MD4Managed, ___count) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::MD4Managed, ___x) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::MD4Managed, ___digest) == 0x48, "Offset mismatch!");
 
 } // namespace Mono::Security::Cryptography
 NEED_NO_BOX(::Mono::Security::Cryptography::MD4Managed);

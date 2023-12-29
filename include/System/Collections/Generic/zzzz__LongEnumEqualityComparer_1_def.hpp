@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/Collections/Generic/zzzz__EqualityComparer_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LongEnumEqualityComparer_1)
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System {
+class Object;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -29,8 +29,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3869), inst: 1702 }), TypeDefinitionIndex(TypeDefinitionIndex(3869))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3877))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3857)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3857), inst: 1635 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3865))
 // CS Name: ::System.Collections.Generic::LongEnumEqualityComparer`1<T>*
 class CORDL_TYPE LongEnumEqualityComparer_1 : public ::System::Collections::Generic::EqualityComparer_1<T> {
 public:

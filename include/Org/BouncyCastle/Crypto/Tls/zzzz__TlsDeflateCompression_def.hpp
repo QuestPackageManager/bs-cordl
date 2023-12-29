@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsDeflateCompression)
+namespace System::IO {
+class Stream;
+}
 namespace Org::BouncyCastle::Utilities::Zlib {
 class ZStream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class __TlsDeflateCompression__DeflateOutputStream;
-}
-namespace System::IO {
-class Stream;
+class TlsCompression;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCompression;
+class __TlsDeflateCompression__DeflateOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -40,10 +40,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::__TlsDeflateCompression__DeflateOutputStream* New_ctor(::System::IO::Stream* output, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z, bool compress);
 
-  /// @brief Method .ctor addr 0xfa3038 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0xf2cdf0 size 0x38 virtual false final false
   inline void _ctor(::System::IO::Stream* output, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z, bool compress);
 
-  /// @brief Method Flush addr 0xfa3214 size 0x4 virtual true final false
+  /// @brief Method Flush addr 0xf2cfcc size 0x4 virtual true final false
   inline void Flush();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TlsDeflateCompression__DeflateOutputStream", modifiers: "&&", def_value: None }]
@@ -70,7 +70,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1296))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsDeflateCompression*
 class CORDL_TYPE TlsDeflateCompression : public ::System::Object {
@@ -101,18 +101,18 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression* New_ctor();
 
-  /// @brief Method .ctor addr 0xfa2ef0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xf2cca8 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression* New_ctor(int32_t level);
 
-  /// @brief Method .ctor addr 0xfa2ef8 size 0xac virtual false final false
+  /// @brief Method .ctor addr 0xf2ccb0 size 0xac virtual false final false
   inline void _ctor(int32_t level);
 
-  /// @brief Method Compress addr 0xfa2fa4 size 0x94 virtual true final false
+  /// @brief Method Compress addr 0xf2cd5c size 0x94 virtual true final false
   inline ::System::IO::Stream* Compress(::System::IO::Stream* output);
 
-  /// @brief Method Decompress addr 0xfa3070 size 0x90 virtual true final false
+  /// @brief Method Decompress addr 0xf2ce28 size 0x90 virtual true final false
   inline ::System::IO::Stream* Decompress(::System::IO::Stream* output);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsDeflateCompression", modifiers: "&&", def_value: None }]
@@ -151,6 +151,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression, ___zIn) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression, ___zOut) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression);

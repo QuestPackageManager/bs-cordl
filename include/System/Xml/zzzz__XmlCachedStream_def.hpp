@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Xml::XmlCachedStream);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11554))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3561))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11482))
 // CS Name: ::System.Xml::XmlCachedStream*
 class CORDL_TYPE XmlCachedStream : public ::System::IO::MemoryStream {
 public:
@@ -37,7 +37,7 @@ public:
 
   static inline ::System::Xml::XmlCachedStream* New_ctor(::System::Uri* uri, ::System::IO::Stream* stream);
 
-  /// @brief Method .ctor addr 0x28a42cc size 0x174 virtual false final false
+  /// @brief Method .ctor addr 0x27272ac size 0x174 virtual false final false
   inline void _ctor(::System::Uri* uri, ::System::IO::Stream* stream);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlCachedStream", modifiers: "&&", def_value: None }]
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlCachedStream, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlCachedStream, ___uri) == 0x50, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlCachedStream);

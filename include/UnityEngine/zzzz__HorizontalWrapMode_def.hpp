@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::HorizontalWrapMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15902))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15794))
 // CS Name: ::UnityEngine::HorizontalWrapMode
 struct CORDL_TYPE HorizontalWrapMode {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::HorizontalWrapMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::HorizontalWrapMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HorizontalWrapMode, "UnityEngine", "HorizontalWrapMode");

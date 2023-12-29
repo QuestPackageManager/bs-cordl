@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(CertificateValues)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509CertificateStructure;
+}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509CertificateStructure;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -45,29 +45,29 @@ public:
 
   constexpr void __set_certificates(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0xe8eac4 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xe198f0 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CertificateValues* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CertificateValues* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe8ec4c size 0x350 virtual false final false
+  /// @brief Method .ctor addr 0xe19a78 size 0x350 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CertificateValues*
   New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> certificates);
 
-  /// @brief Method .ctor addr 0xe8ef9c size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0xe19dc8 size 0xc4 virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> certificates);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CertificateValues* New_ctor(::System::Collections::IEnumerable* certificates);
 
-  /// @brief Method .ctor addr 0xe8f060 size 0x1a4 virtual false final false
+  /// @brief Method .ctor addr 0xe19e8c size 0x1a4 virtual false final false
   inline void _ctor(::System::Collections::IEnumerable* certificates);
 
-  /// @brief Method GetCertificates addr 0xe8f204 size 0x114 virtual false final false
+  /// @brief Method GetCertificates addr 0xe1a030 size 0x114 virtual false final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> GetCertificates();
 
-  /// @brief Method ToAsn1Object addr 0xe8f318 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe1a144 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateValues", modifiers: "&&", def_value: None }]
@@ -91,6 +91,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Esf::CertificateValues, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Esf::CertificateValues, ___certificates) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Esf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Esf::CertificateValues);

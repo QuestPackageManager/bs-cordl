@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphLoadFlags);
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15532))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15516))
 // CS Name: ::UnityEngine.TextCore.LowLevel::GlyphLoadFlags
 struct CORDL_TYPE GlyphLoadFlags {
 public:
@@ -93,6 +93,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, "UnityEngine.TextCore.LowLevel", "GlyphLoadFlags");

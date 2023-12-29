@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Ram::G_RamText);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Ram {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15079))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15257))
 // CS Name: ::Tayx.Graphy.Ram::G_RamText*
 class CORDL_TYPE G_RamText : public ::UnityEngine::MonoBehaviour {
 public:
@@ -93,21 +93,21 @@ public:
 
   constexpr void __set_m_deltaTime(float_t value);
 
-  /// @brief Method Awake addr 0x2a082d0 size 0x4 virtual false final false
+  /// @brief Method Awake addr 0x288ae24 size 0x4 virtual false final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x2a082d4 size 0x160 virtual false final false
+  /// @brief Method Update addr 0x288aeec size 0x160 virtual false final false
   inline void Update();
 
-  /// @brief Method UpdateParameters addr 0x2a07fd0 size 0xa0 virtual false final false
+  /// @brief Method UpdateParameters addr 0x288ac30 size 0xa0 virtual false final false
   inline void UpdateParameters();
 
-  /// @brief Method Init addr 0x2a08070 size 0x10c virtual false final false
+  /// @brief Method Init addr 0x288ae28 size 0xc4 virtual false final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Ram::G_RamText* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a08434 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x288b04c size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_RamText", modifiers: "&&", def_value: None }]
@@ -149,6 +149,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Ram::G_RamText, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Ram::G_RamText, ___m_allocatedSystemMemorySizeText) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Ram::G_RamText, ___m_reservedSystemMemorySizeText) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Ram::G_RamText, ___m_monoSystemMemorySizeText) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Ram::G_RamText, ___m_graphyManager) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Ram::G_RamText, ___m_ramMonitor) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Ram::G_RamText, ___m_updateRate) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Ram::G_RamText, ___m_deltaTime) == 0x44, "Offset mismatch!");
 
 } // namespace Tayx::Graphy::Ram
 NEED_NO_BOX(::Tayx::Graphy::Ram::G_RamText);

@@ -21,25 +21,25 @@ MARK_REF_PTR_T(::System::MulticastNotSupportedException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2443))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2441))
 // CS Name: ::System::MulticastNotSupportedException*
 class CORDL_TYPE MulticastNotSupportedException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::MulticastNotSupportedException* New_ctor();
 
-  /// @brief Method .ctor addr 0x25afddc size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x2453e90 size 0x5c virtual false final false
   inline void _ctor();
 
   static inline ::System::MulticastNotSupportedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x25afe38 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2453eec size 0x24 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::MulticastNotSupportedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x25afe5c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2453f10 size 0x8 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "MulticastNotSupportedException", modifiers: "&&", def_value: None }]

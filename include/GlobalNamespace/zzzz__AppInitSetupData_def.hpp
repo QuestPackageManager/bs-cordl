@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::AppInitSetupData);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15393))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4015))
 // CS Name: ::AppInitSetupData::RunMode
 struct CORDL_TYPE __AppInitSetupData__RunMode {
 public:
@@ -67,13 +67,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AppInitSetupData__RunMode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__AppInitSetupData__RunMode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::AppInitSetupData
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15393))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15394))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4015)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4016))
 // CS Name: ::AppInitSetupData*
 class CORDL_TYPE AppInitSetupData : public ::System::Object {
 public:
@@ -91,7 +93,7 @@ public:
 
   static inline ::GlobalNamespace::AppInitSetupData* New_ctor();
 
-  /// @brief Method .ctor addr 0xe1eac0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20c5f3c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AppInitSetupData", modifiers: "&&", def_value: None }]
@@ -115,6 +117,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AppInitSetupData, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AppInitSetupData, ___runMode) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__AppInitSetupData__RunMode, "", "AppInitSetupData/RunMode");

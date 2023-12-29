@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::XPath::XPathNodeType);
 namespace System::Xml::XPath {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11584))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11512))
 // CS Name: ::System.Xml.XPath::XPathNodeType
 struct CORDL_TYPE XPathNodeType {
 public:
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XPath::XPathNodeType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XPath::XPathNodeType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml::XPath
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XPath::XPathNodeType, "System.Xml.XPath", "XPathNodeType");

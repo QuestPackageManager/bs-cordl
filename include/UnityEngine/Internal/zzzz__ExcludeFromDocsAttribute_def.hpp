@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::Internal::ExcludeFromDocsAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Internal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10322))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10244))
 // CS Name: ::UnityEngine.Internal::ExcludeFromDocsAttribute*
 class CORDL_TYPE ExcludeFromDocsAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::Internal::ExcludeFromDocsAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ce9e84 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2b82a50 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExcludeFromDocsAttribute", modifiers: "&&", def_value: None }]

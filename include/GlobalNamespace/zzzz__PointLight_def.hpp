@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PointLight);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14498))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14716))
 // CS Name: ::PointLight*
 class CORDL_TYPE PointLight : public ::UnityEngine::MonoBehaviour {
 public:
@@ -51,18 +51,18 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::PointLight*>* getStaticF__lights();
 
-  /// @brief Method get_lights addr 0x210bf24 size 0x58 virtual false final false
+  /// @brief Method get_lights addr 0x1fb6a40 size 0x58 virtual false final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::PointLight*>* get_lights();
 
-  /// @brief Method OnEnable addr 0x210bf7c size 0xd0 virtual false final false
+  /// @brief Method OnEnable addr 0x1fb6a98 size 0xd0 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x210c04c size 0x80 virtual false final false
+  /// @brief Method OnDisable addr 0x1fb6b68 size 0x80 virtual false final false
   inline void OnDisable();
 
   static inline ::GlobalNamespace::PointLight* New_ctor();
 
-  /// @brief Method .ctor addr 0x210c0cc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fb6be8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PointLight", modifiers: "&&", def_value: None }]
@@ -92,6 +92,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PointLight, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PointLight, ___color) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PointLight, ___intensity) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PointLight);

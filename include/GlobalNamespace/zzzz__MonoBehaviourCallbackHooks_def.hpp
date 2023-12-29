@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MonoBehaviourCallbackHooks);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst: 1062 }), TypeDefinitionIndex(TypeDefinitionIndex(13966))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13948))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14237)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14237), inst: 1040 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14219))
 // CS Name: ::MonoBehaviourCallbackHooks*
 class CORDL_TYPE MonoBehaviourCallbackHooks : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::GlobalNamespace::MonoBehaviourCallbackHooks*> {
 public:
@@ -34,21 +34,21 @@ public:
 
   constexpr void __set_m_OnUpdateDelegate(::System::Action_1<float_t>* value);
 
-  /// @brief Method add_OnUpdateDelegate addr 0x2bc994c size 0xa8 virtual false final false
+  /// @brief Method add_OnUpdateDelegate addr 0x2a46bf8 size 0xa8 virtual false final false
   inline void add_OnUpdateDelegate(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_OnUpdateDelegate addr 0x2bc99f4 size 0xa8 virtual false final false
+  /// @brief Method remove_OnUpdateDelegate addr 0x2a46ca0 size 0xa8 virtual false final false
   inline void remove_OnUpdateDelegate(::System::Action_1<float_t>* value);
 
-  /// @brief Method GetGameObjectName addr 0x2bc9a9c size 0x40 virtual true final false
+  /// @brief Method GetGameObjectName addr 0x2a46d48 size 0x40 virtual true final false
   inline ::StringW GetGameObjectName();
 
-  /// @brief Method Update addr 0x2bc9adc size 0x30 virtual false final false
+  /// @brief Method Update addr 0x2a46d88 size 0x30 virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::MonoBehaviourCallbackHooks* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bc9b0c size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2a46db8 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoBehaviourCallbackHooks", modifiers: "&&", def_value: None }]
@@ -72,6 +72,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MonoBehaviourCallbackHooks, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MonoBehaviourCallbackHooks, ___m_OnUpdateDelegate) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MonoBehaviourCallbackHooks);

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::Group);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8900))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8903))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7737))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7740))
 // CS Name: ::System.Text.RegularExpressions::Group*
 class CORDL_TYPE Group : public ::System::Text::RegularExpressions::Capture {
 public:
@@ -73,15 +73,15 @@ public:
 
   static inline ::System::Text::RegularExpressions::Group* New_ctor(::StringW text, ::ArrayW<int32_t, ::Array<int32_t>*> caps, int32_t capcount, ::StringW name);
 
-  /// @brief Method .ctor addr 0x294e534 size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0x27d1414 size 0x9c virtual false final false
   inline void _ctor(::StringW text, ::ArrayW<int32_t, ::Array<int32_t>*> caps, int32_t capcount, ::StringW name);
 
-  /// @brief Method get_Success addr 0x294e5d0 size 0x10 virtual false final false
+  /// @brief Method get_Success addr 0x27d14b0 size 0x10 virtual false final false
   inline bool get_Success();
 
   static inline ::System::Text::RegularExpressions::Group* New_ctor();
 
-  /// @brief Method .ctor addr 0x294e6dc size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x27d15bc size 0x38 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Group", modifiers: "&&", def_value: None }]
@@ -114,6 +114,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::Group, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::Group, ____caps) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::Group, ____capcount) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::Group, ____capcoll) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::Group, ____Name_k__BackingField) == 0x38, "Offset mismatch!");
 
 } // namespace System::Text::RegularExpressions
 NEED_NO_BOX(::System::Text::RegularExpressions::Group);

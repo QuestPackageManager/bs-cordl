@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Parameters::X448KeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor addr 0xf3c138 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0xec5f4c size 0xc virtual false final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
   // Ctor Parameters [CppParam { name: "", ty: "X448KeyGenerationParameters", modifiers: "&&", def_value: None }]

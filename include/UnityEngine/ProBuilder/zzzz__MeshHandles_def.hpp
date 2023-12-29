@@ -7,11 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshHandles)
+namespace UnityEngine::ProBuilder {
+class Face;
+}
 namespace UnityEngine {
-struct Vector3;
+struct Vector4;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace UnityEngine::ProBuilder {
 struct Edge;
@@ -20,28 +26,22 @@ namespace UnityEngine::ProBuilder {
 class __MeshHandles____c;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace UnityEngine {
-class Mesh;
-}
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class IList_1;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -57,8 +57,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::__MeshHandles____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12141))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12069))
 // CS Name: ::MeshHandles::<>c*
 class CORDL_TYPE __MeshHandles____c : public ::System::Object {
 public:
@@ -88,13 +88,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::__MeshHandles____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b509c4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x29cec70 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <CreateFaceMesh>b__9_0 addr 0x2b509cc size 0x18 virtual false final false
+  /// @brief Method <CreateFaceMesh>b__9_0 addr 0x29cec78 size 0x18 virtual false final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _CreateFaceMesh_b__9_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <CreateFaceMeshFromFaces>b__10_0 addr 0x2b509e4 size 0x18 virtual false final false
+  /// @brief Method <CreateFaceMeshFromFaces>b__10_0 addr 0x29cec90 size 0x18 virtual false final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _CreateFaceMeshFromFaces_b__10_0(::UnityEngine::ProBuilder::Face* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MeshHandles____c", modifiers: "&&", def_value: None }]
@@ -121,8 +121,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__MeshH
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12142))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12070))
 // CS Name: ::UnityEngine.ProBuilder::MeshHandles*
 class CORDL_TYPE MeshHandles : public ::System::Object {
 public:
@@ -192,41 +192,41 @@ public:
 
   static inline ::UnityEngine::Vector2 getStaticF_k_Billboard3();
 
-  /// @brief Method CreateFaceMesh addr 0x2b4c260 size 0x164 virtual false final false
+  /// @brief Method CreateFaceMesh addr 0x29ca50c size 0x164 virtual false final false
   static inline void CreateFaceMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreateFaceMeshFromFaces addr 0x2b4c3c4 size 0x150 virtual false final false
+  /// @brief Method CreateFaceMeshFromFaces addr 0x29ca670 size 0x150 virtual false final false
   static inline void CreateFaceMeshFromFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces,
                                              ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreateEdgeMesh addr 0x2b4c514 size 0x3fc virtual false final false
+  /// @brief Method CreateEdgeMesh addr 0x29ca7c0 size 0x3fc virtual false final false
   static inline void CreateEdgeMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreateEdgeMesh addr 0x2b4c910 size 0x2d4 virtual false final false
+  /// @brief Method CreateEdgeMesh addr 0x29cabbc size 0x2d4 virtual false final false
   static inline void CreateEdgeMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target,
                                     ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> edges);
 
-  /// @brief Method CreateVertexMesh addr 0x2b4cbe4 size 0x19c virtual false final false
+  /// @brief Method CreateVertexMesh addr 0x29cae90 size 0x19c virtual false final false
   static inline void CreateVertexMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreateVertexMesh addr 0x2b4cd80 size 0xb8 virtual false final false
+  /// @brief Method CreateVertexMesh addr 0x29cb02c size 0xb8 virtual false final false
   static inline void CreateVertexMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-  /// @brief Method CreatePointMesh addr 0x2b4ce38 size 0x1b8 virtual false final false
+  /// @brief Method CreatePointMesh addr 0x29cb0e4 size 0x1b8 virtual false final false
   static inline void CreatePointMesh(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::System::Collections::Generic::IList_1<int32_t>* indexes,
                                      ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreatePointBillboardMesh addr 0x2b4d99c size 0x914 virtual false final false
+  /// @brief Method CreatePointBillboardMesh addr 0x29cbc48 size 0x914 virtual false final false
   static inline void CreatePointBillboardMesh(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions, ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreatePointBillboardMesh addr 0x2b4cff0 size 0x9ac virtual false final false
+  /// @brief Method CreatePointBillboardMesh addr 0x29cb29c size 0x9ac virtual false final false
   static inline void CreatePointBillboardMesh(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions, ::System::Collections::Generic::IList_1<int32_t>* indexes,
                                               ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreateEdgeBillboardMesh addr 0x2b4e2b0 size 0x8c0 virtual false final false
+  /// @brief Method CreateEdgeBillboardMesh addr 0x29cc55c size 0x8c0 virtual false final false
   static inline void CreateEdgeBillboardMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreateEdgeBillboardMesh addr 0x2b4eb70 size 0xc48 virtual false final false
+  /// @brief Method CreateEdgeBillboardMesh addr 0x29cce1c size 0xc48 virtual false final false
   static inline void CreateEdgeBillboardMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target,
                                              ::System::Collections::Generic::ICollection_1<::UnityEngine::ProBuilder::Edge>* edges);
 

@@ -9,7 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRRuntimeController)
 namespace GlobalNamespace {
+class OVRGLTFAnimatinonNode;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
 class __OVRRuntimeController___UpdateControllerModel_d__16;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
+struct OVRGLTFInputNode;
 }
 namespace UnityEngine {
 class Shader;
@@ -17,26 +29,14 @@ class Shader;
 namespace UnityEngine {
 class GameObject;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class OVRGLTFAnimatinonNode;
-}
-namespace GlobalNamespace {
-struct OVRGLTFInputNode;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,8 +52,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8161))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8936))
 // CS Name: ::OVRRuntimeController::<UpdateControllerModel>d__16*
 class CORDL_TYPE __OVRRuntimeController___UpdateControllerModel_d__16 : public ::System::Object {
 public:
@@ -100,22 +100,22 @@ public:
 
   static inline ::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x27bb58c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x264681c size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x27bb668 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x26468f4 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x27bb66c size 0x120 virtual true final true
+  /// @brief Method MoveNext addr 0x26468f8 size 0x120 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x27bb78c size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2646a18 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x27bb794 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2646a20 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x27bb7d4 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2646a60 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRRuntimeController___UpdateControllerModel_d__16", modifiers: "&&", def_value: None }]
@@ -146,13 +146,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16, _____4__this) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OVRRuntimeController
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8162))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(8492))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8937))
 // CS Name: ::OVRRuntimeController*
 class CORDL_TYPE OVRRuntimeController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -265,33 +271,33 @@ public:
 
   static inline ::StringW getStaticF_rightControllerModelPath();
 
-  /// @brief Method Start addr 0x27bab34 size 0x184 virtual false final false
+  /// @brief Method Start addr 0x2645dcc size 0x184 virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x27bae84 size 0x10c virtual false final false
+  /// @brief Method Update addr 0x264611c size 0x10c virtual false final false
   inline void Update();
 
-  /// @brief Method IsModelSupported addr 0x27bacb8 size 0x164 virtual false final false
+  /// @brief Method IsModelSupported addr 0x2645f50 size 0x164 virtual false final false
   inline bool IsModelSupported(::StringW modelPath);
 
-  /// @brief Method LoadControllerModel addr 0x27bb2cc size 0x2c0 virtual false final false
+  /// @brief Method LoadControllerModel addr 0x264655c size 0x2c0 virtual false final false
   inline bool LoadControllerModel(::StringW modelPath);
 
-  /// @brief Method UpdateControllerModel addr 0x27bae1c size 0x68 virtual false final false
+  /// @brief Method UpdateControllerModel addr 0x26460b4 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* UpdateControllerModel();
 
-  /// @brief Method UpdateControllerAnimation addr 0x27baf90 size 0x33c virtual false final false
+  /// @brief Method UpdateControllerAnimation addr 0x2646228 size 0x334 virtual false final false
   inline void UpdateControllerAnimation();
 
-  /// @brief Method InputFocusAquired addr 0x27bb5b4 size 0xc virtual false final false
+  /// @brief Method InputFocusAquired addr 0x2646844 size 0xc virtual false final false
   inline void InputFocusAquired();
 
-  /// @brief Method InputFocusLost addr 0x27bb5c0 size 0x8 virtual false final false
+  /// @brief Method InputFocusLost addr 0x2646850 size 0x8 virtual false final false
   inline void InputFocusLost();
 
   static inline ::GlobalNamespace::OVRRuntimeController* New_ctor();
 
-  /// @brief Method .ctor addr 0x27bb5c8 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x2646858 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRRuntimeController", modifiers: "&&", def_value: None }]
@@ -342,6 +348,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRRuntimeController, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controller) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controllerModelShader) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_supportAnimation) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controllerObject) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controllerModelPath) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_modelSupported) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_hasInputFocus) == 0x41, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_hasInputFocusPrev) == 0x42, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controllerConnectedPrev) == 0x43, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_animationNodes) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRRuntimeController);

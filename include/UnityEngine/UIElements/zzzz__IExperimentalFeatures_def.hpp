@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IExperimentalFeatures);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6858))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6944))
 // CS Name: ::UnityEngine.UIElements::IExperimentalFeatures*
 class CORDL_TYPE IExperimentalFeatures {
 public:

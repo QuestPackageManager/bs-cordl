@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ValueChangedBinder_1)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace HMUI {
 template <typename T> class IValueChanger_1;
+}
+namespace System {
+template <typename T1, typename T2> class Tuple_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-template <typename T1, typename T2> class Tuple_2;
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace HMUI {
@@ -28,8 +28,8 @@ namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13524))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13644))
 // CS Name: ::HMUI::ValueChangedBinder`1<T>*
 class CORDL_TYPE ValueChangedBinder_1 : public ::System::Object {
 public:

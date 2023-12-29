@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__SystemException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BadImageFormatException)
-namespace System {
-class Exception;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::BadImageFormatException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2356))
 // CS Name: ::System::BadImageFormatException*
 class CORDL_TYPE BadImageFormatException : public ::System::SystemException {
@@ -52,39 +52,39 @@ public:
 
   static inline ::System::BadImageFormatException* New_ctor();
 
-  /// @brief Method .ctor addr 0x2521554 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x23c8288 size 0x5c virtual false final false
   inline void _ctor();
 
   static inline ::System::BadImageFormatException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x25215b0 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x23c82e4 size 0x24 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::BadImageFormatException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor addr 0x25215d4 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x23c8308 size 0x24 virtual false final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
   static inline ::System::BadImageFormatException* New_ctor(::StringW message, ::StringW fileName);
 
-  /// @brief Method .ctor addr 0x25215f8 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x23c832c size 0x34 virtual false final false
   inline void _ctor(::StringW message, ::StringW fileName);
 
   static inline ::System::BadImageFormatException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x252162c size 0xb0 virtual false final false
+  /// @brief Method .ctor addr 0x23c8360 size 0xb0 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData addr 0x25216dc size 0x118 virtual true final false
+  /// @brief Method GetObjectData addr 0x23c8410 size 0x118 virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Message addr 0x25217f4 size 0x18 virtual true final false
+  /// @brief Method get_Message addr 0x23c8528 size 0x18 virtual true final false
   inline ::StringW get_Message();
 
-  /// @brief Method SetMessageField addr 0x252180c size 0x7c virtual false final false
+  /// @brief Method SetMessageField addr 0x23c8540 size 0x7c virtual false final false
   inline void SetMessageField();
 
-  /// @brief Method ToString addr 0x2521888 size 0x1e4 virtual true final false
+  /// @brief Method ToString addr 0x23c85bc size 0x1e4 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "BadImageFormatException", modifiers: "&&", def_value: None }]
@@ -111,6 +111,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::BadImageFormatException, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::System::BadImageFormatException, ____fileName) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::System::BadImageFormatException, ____fusionLog) == 0x98, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::BadImageFormatException);

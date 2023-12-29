@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsAeadCipher)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadBlockCipher;
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1287))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsAeadCipher*
 class CORDL_TYPE TlsAeadCipher : public ::System::Object {
@@ -110,7 +110,7 @@ public:
                                                                           ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* clientWriteCipher,
                                                                           ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* serverWriteCipher, int32_t cipherKeySize, int32_t macSize);
 
-  /// @brief Method .ctor addr 0xf98c34 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xf229f8 size 0x8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* clientWriteCipher,
                     ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* serverWriteCipher, int32_t cipherKeySize, int32_t macSize);
 
@@ -119,20 +119,20 @@ public:
                                                                           ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* serverWriteCipher, int32_t cipherKeySize, int32_t macSize,
                                                                           int32_t nonceMode);
 
-  /// @brief Method .ctor addr 0xf98c3c size 0x4c8 virtual false final false
+  /// @brief Method .ctor addr 0xf22a00 size 0x4c8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* clientWriteCipher,
                     ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* serverWriteCipher, int32_t cipherKeySize, int32_t macSize, int32_t nonceMode);
 
-  /// @brief Method GetPlaintextLimit addr 0xf99104 size 0x10 virtual true final false
+  /// @brief Method GetPlaintextLimit addr 0xf22ec8 size 0x10 virtual true final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
-  /// @brief Method EncodePlaintext addr 0xf99114 size 0x574 virtual true final false
+  /// @brief Method EncodePlaintext addr 0xf22ed8 size 0x574 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method DecodeCiphertext addr 0xf99688 size 0x568 virtual true final false
+  /// @brief Method DecodeCiphertext addr 0xf2344c size 0x568 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> ciphertext, int32_t offset, int32_t len);
 
-  /// @brief Method GetAdditionalData addr 0xf99bf0 size 0x160 virtual true final false
+  /// @brief Method GetAdditionalData addr 0xf239b4 size 0x160 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetAdditionalData(int64_t seqNo, uint8_t type, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsAeadCipher", modifiers: "&&", def_value: None }]
@@ -183,6 +183,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher, ___context) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher, ___macSize) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher, ___record_iv_length) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher, ___encryptCipher) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher, ___decryptCipher) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher, ___encryptImplicitNonce) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher, ___decryptImplicitNonce) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher, ___nonceMode) == 0x40, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher);

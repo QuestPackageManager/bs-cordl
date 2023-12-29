@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DiscretionaryAcl)
 namespace System::Security::AccessControl {
-struct AccessControlType;
-}
-namespace System::Security::Principal {
-class SecurityIdentifier;
+struct PropagationFlags;
 }
 namespace System::Security::AccessControl {
-struct PropagationFlags;
+class GenericAce;
 }
 namespace System::Security::AccessControl {
 struct AceQualifier;
 }
 namespace System::Security::AccessControl {
-class GenericAce;
+struct AccessControlType;
+}
+namespace System::Security::Principal {
+class SecurityIdentifier;
 }
 namespace System::Security::AccessControl {
 struct InheritanceFlags;
@@ -33,31 +33,31 @@ MARK_REF_PTR_T(::System::Security::AccessControl::DiscretionaryAcl);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3025))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3030))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3024))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3029))
 // CS Name: ::System.Security.AccessControl::DiscretionaryAcl*
 class CORDL_TYPE DiscretionaryAcl : public ::System::Security::AccessControl::CommonAcl {
 public:
   // Declarations
   static inline ::System::Security::AccessControl::DiscretionaryAcl* New_ctor(bool isContainer, bool isDS, int32_t capacity);
 
-  /// @brief Method .ctor addr 0x2483248 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x232b754 size 0xc virtual false final false
   inline void _ctor(bool isContainer, bool isDS, int32_t capacity);
 
-  /// @brief Method AddAccess addr 0x2483254 size 0x60 virtual false final false
+  /// @brief Method AddAccess addr 0x232b760 size 0x60 virtual false final false
   inline void AddAccess(::System::Security::AccessControl::AccessControlType accessType, ::System::Security::Principal::SecurityIdentifier* sid, int32_t accessMask,
                         ::System::Security::AccessControl::InheritanceFlags inheritanceFlags, ::System::Security::AccessControl::PropagationFlags propagationFlags);
 
-  /// @brief Method ApplyCanonicalSortToExplicitAces addr 0x2483428 size 0x48 virtual true final false
+  /// @brief Method ApplyCanonicalSortToExplicitAces addr 0x232b934 size 0x48 virtual true final false
   inline void ApplyCanonicalSortToExplicitAces();
 
-  /// @brief Method GetAceInsertPosition addr 0x2483470 size 0x10 virtual true final false
+  /// @brief Method GetAceInsertPosition addr 0x232b97c size 0x10 virtual true final false
   inline int32_t GetAceInsertPosition(::System::Security::AccessControl::AceQualifier aceQualifier);
 
-  /// @brief Method GetAceQualifier addr 0x24833c8 size 0x60 virtual false final false
+  /// @brief Method GetAceQualifier addr 0x232b8d4 size 0x60 virtual false final false
   static inline ::System::Security::AccessControl::AceQualifier GetAceQualifier(::System::Security::AccessControl::AccessControlType accessType);
 
-  /// @brief Method IsAceMeaningless addr 0x2483480 size 0xf8 virtual true final false
+  /// @brief Method IsAceMeaningless addr 0x232b98c size 0xf8 virtual true final false
   inline bool IsAceMeaningless(::System::Security::AccessControl::GenericAce* ace);
 
   // Ctor Parameters [CppParam { name: "", ty: "DiscretionaryAcl", modifiers: "&&", def_value: None }]

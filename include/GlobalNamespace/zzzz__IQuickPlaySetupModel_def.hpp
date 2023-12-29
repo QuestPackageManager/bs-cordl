@@ -3,14 +3,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IQuickPlaySetupModel)
-namespace GlobalNamespace {
-class QuickPlaySetupData;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System::Threading {
 struct CancellationToken;
+}
+namespace GlobalNamespace {
+class QuickPlaySetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IQuickPlaySetupModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4468))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4479))
 // CS Name: ::IQuickPlaySetupModel*
 class CORDL_TYPE IQuickPlaySetupModel {
 public:

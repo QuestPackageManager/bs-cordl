@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1OctetString)
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Convertible;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
+namespace System::IO {
+class Stream;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetStringParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -58,33 +58,33 @@ public:
 
   constexpr void __set_str(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method GetInstance addr 0x11b756c size 0xd4 virtual false final false
+  /// @brief Method GetInstance addr 0x114631c size 0xd4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance addr 0x11b07a0 size 0x2b8 virtual false final false
+  /// @brief Method GetInstance addr 0x113f558 size 0x2b8 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor addr 0x11b776c size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x114651c size 0x78 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method GetOctetStream addr 0x11b77e4 size 0x6c virtual true final true
+  /// @brief Method GetOctetStream addr 0x1146594 size 0x6c virtual true final true
   inline ::System::IO::Stream* GetOctetStream();
 
-  /// @brief Method get_Parser addr 0x11b7850 size 0x4 virtual false final false
+  /// @brief Method get_Parser addr 0x1146600 size 0x4 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* get_Parser();
 
-  /// @brief Method GetOctets addr 0x11b7854 size 0x8 virtual true final false
+  /// @brief Method GetOctets addr 0x1146604 size 0x8 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-  /// @brief Method Asn1GetHashCode addr 0x11b785c size 0x70 virtual true final false
+  /// @brief Method Asn1GetHashCode addr 0x114660c size 0x70 virtual true final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Asn1Equals addr 0x11b78cc size 0xec virtual true final false
+  /// @brief Method Asn1Equals addr 0x114667c size 0xec virtual true final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method ToString addr 0x11b79b8 size 0x84 virtual true final false
+  /// @brief Method ToString addr 0x1146768 size 0x84 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1OctetString", modifiers: "&&", def_value: None }]
@@ -108,6 +108,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Asn1OctetString, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Asn1OctetString, ___str) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Asn1OctetString);

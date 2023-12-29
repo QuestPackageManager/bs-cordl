@@ -3,20 +3,20 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IPanel)
+namespace UnityEngine::UIElements {
+class FocusController;
+}
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine::UIElements {
-struct ContextType;
-}
-namespace UnityEngine::UIElements {
-class FocusController;
+class EventDispatcher;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
-class EventDispatcher;
+struct ContextType;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IPanel);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6869))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6955))
 // CS Name: ::UnityEngine.UIElements::IPanel*
 class CORDL_TYPE IPanel {
 public:

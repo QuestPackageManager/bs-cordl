@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::EnvironmentContext);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4982))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5087))
 // CS Name: ::EnvironmentContext
 struct CORDL_TYPE EnvironmentContext {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentContext, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentContext, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentContext, "", "EnvironmentContext");

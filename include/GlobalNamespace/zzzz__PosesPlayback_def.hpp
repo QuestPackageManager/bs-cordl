@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PosesPlayback)
 namespace GlobalNamespace {
-class AudioTimeSyncController;
+class PoseObject;
 }
 namespace GlobalNamespace {
-class IBeatSaberLogger;
+class PosesRecordingData;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class PosesRecordingData;
+class IBeatSaberLogger;
 }
 namespace GlobalNamespace {
-class PoseObject;
+class AudioTimeSyncController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PosesPlayback);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5929))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6020))
 // CS Name: ::PosesPlayback*
 class CORDL_TYPE PosesPlayback : public ::UnityEngine::MonoBehaviour {
 public:
@@ -83,25 +83,25 @@ public:
 
   constexpr void __set__keyframeIndex(int32_t value);
 
-  /// @brief Method Update addr 0x23017c0 size 0x1c virtual false final false
+  /// @brief Method Update addr 0x21b8210 size 0x1c virtual false final false
   inline void Update();
 
-  /// @brief Method Init addr 0x22ff99c size 0x26c virtual false final false
+  /// @brief Method Init addr 0x21b63ec size 0x26c virtual false final false
   inline void Init(::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> poseObjects, ::GlobalNamespace::PosesRecordingData* data,
                    ::GlobalNamespace::IBeatSaberLogger* logger);
 
-  /// @brief Method StartPlayback addr 0x2300040 size 0xe8 virtual false final false
+  /// @brief Method StartPlayback addr 0x21b6a90 size 0xe8 virtual false final false
   inline void StartPlayback();
 
-  /// @brief Method PlaybackTick addr 0x23017dc size 0x3a0 virtual false final false
+  /// @brief Method PlaybackTick addr 0x21b822c size 0x3a0 virtual false final false
   inline void PlaybackTick(float_t time);
 
-  /// @brief Method StopPlayback addr 0x22fffb8 size 0xc virtual false final false
+  /// @brief Method StopPlayback addr 0x21b6a08 size 0xc virtual false final false
   inline void StopPlayback();
 
   static inline ::GlobalNamespace::PosesPlayback* New_ctor();
 
-  /// @brief Method .ctor addr 0x2301b7c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21b85cc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PosesPlayback", modifiers: "&&", def_value: None }]
@@ -137,6 +137,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PosesPlayback, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PosesPlayback, ____audioTimeSyncController) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PosesPlayback, ____logger) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PosesPlayback, ____transforms) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PosesPlayback, ____data) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PosesPlayback, ____keyframeIndex) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PosesPlayback);

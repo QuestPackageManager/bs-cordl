@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(598))
 // CS Name: ::Org.BouncyCastle.Bcpg::UserAttributeSubpacketsParser*
 class CORDL_TYPE UserAttributeSubpacketsParser : public ::System::Object {
@@ -37,10 +37,10 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor addr 0x11d4ee4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1163c94 size 0x28 virtual false final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method ReadPacket addr 0x11d5014 size 0x2c4 virtual true final false
+  /// @brief Method ReadPacket addr 0x1163dc4 size 0x2c4 virtual true final false
   inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* ReadPacket();
 
   // Ctor Parameters [CppParam { name: "", ty: "UserAttributeSubpacketsParser", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser, ___input) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser);

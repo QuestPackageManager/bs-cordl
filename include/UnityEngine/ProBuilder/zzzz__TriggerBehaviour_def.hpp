@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/ProBuilder/zzzz__EntityBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(TriggerBehaviour)
 namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
+struct Scene;
 }
 namespace UnityEngine::SceneManagement {
-struct Scene;
+struct LoadSceneMode;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -20,24 +20,24 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::TriggerBehaviour);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12123))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12210))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12051))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12138))
 // CS Name: ::UnityEngine.ProBuilder::TriggerBehaviour*
 class CORDL_TYPE TriggerBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour {
 public:
   // Declarations
-  /// @brief Method Initialize addr 0x2b7ccd4 size 0x19c virtual true final false
+  /// @brief Method Initialize addr 0x29fbf80 size 0x19c virtual true final false
   inline void Initialize();
 
-  /// @brief Method OnEnterPlayMode addr 0x2b7ce70 size 0xb8 virtual true final false
+  /// @brief Method OnEnterPlayMode addr 0x29fc11c size 0xb8 virtual true final false
   inline void OnEnterPlayMode();
 
-  /// @brief Method OnSceneLoaded addr 0x2b7cf28 size 0xb8 virtual true final false
+  /// @brief Method OnSceneLoaded addr 0x29fc1d4 size 0xb8 virtual true final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
   static inline ::UnityEngine::ProBuilder::TriggerBehaviour* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b7cfe0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x29fc28c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TriggerBehaviour", modifiers: "&&", def_value: None }]

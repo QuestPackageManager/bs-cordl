@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(VRCenterAdjust)
 namespace GlobalNamespace {
-class MainSettingsModelSO;
+class FloatSO;
 }
 namespace GlobalNamespace {
-class FloatSO;
+class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
 class ISaveData;
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::VRCenterAdjust);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5999))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6056))
 // CS Name: ::VRCenterAdjust*
 class CORDL_TYPE VRCenterAdjust : public ::UnityEngine::MonoBehaviour {
 public:
@@ -68,33 +68,33 @@ public:
 
   constexpr void __set__savedata(::GlobalNamespace::ISaveData* value);
 
-  /// @brief Method Awake addr 0x2314828 size 0xc virtual false final false
+  /// @brief Method Awake addr 0x21c2d10 size 0xc virtual false final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x2314834 size 0x150 virtual false final false
+  /// @brief Method Start addr 0x21c2d1c size 0x150 virtual false final false
   inline void Start();
 
-  /// @brief Method OnEnable addr 0x2314a08 size 0x108 virtual false final false
+  /// @brief Method OnEnable addr 0x21c2ef0 size 0x108 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2314b10 size 0x108 virtual false final false
+  /// @brief Method OnDisable addr 0x21c2ff8 size 0x108 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method HandleRoomCenterDidChange addr 0x2314c18 size 0x70 virtual false final false
+  /// @brief Method HandleRoomCenterDidChange addr 0x21c3100 size 0x70 virtual false final false
   inline void HandleRoomCenterDidChange();
 
-  /// @brief Method HandleRoomRotationDidChange addr 0x2314c88 size 0x7c virtual false final false
+  /// @brief Method HandleRoomRotationDidChange addr 0x21c3170 size 0x7c virtual false final false
   inline void HandleRoomRotationDidChange();
 
-  /// @brief Method Update addr 0x2314d04 size 0x2c virtual false final false
+  /// @brief Method Update addr 0x21c31ec size 0x2c virtual false final false
   inline void Update();
 
-  /// @brief Method ResetRoom addr 0x2314984 size 0x84 virtual false final false
+  /// @brief Method ResetRoom addr 0x21c2e6c size 0x84 virtual false final false
   inline void ResetRoom();
 
   static inline ::GlobalNamespace::VRCenterAdjust* New_ctor();
 
-  /// @brief Method .ctor addr 0x2314d30 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21c3218 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VRCenterAdjust", modifiers: "&&", def_value: None }]
@@ -127,6 +127,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VRCenterAdjust, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRCenterAdjust, ____roomCenter) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRCenterAdjust, ____roomRotation) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRCenterAdjust, ____mainSettingsModel) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRCenterAdjust, ____savedata) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::VRCenterAdjust);

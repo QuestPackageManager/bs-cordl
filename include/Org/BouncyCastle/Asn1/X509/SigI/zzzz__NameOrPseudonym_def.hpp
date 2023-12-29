@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NameOrPseudonym)
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
@@ -14,9 +17,6 @@ class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X500 {
 class DirectoryString;
-}
-namespace System {
-class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -71,39 +71,39 @@ public:
 
   constexpr void __set_givenName(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0x1082440 size 0x1e8 virtual false final false
+  /// @brief Method GetInstance addr 0x10111f0 size 0x1e8 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* pseudonym);
 
-  /// @brief Method .ctor addr 0x1082628 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x10113d8 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* pseudonym);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1082650 size 0x1a8 virtual false final false
+  /// @brief Method .ctor addr 0x1011400 size 0x1a8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::StringW pseudonym);
 
-  /// @brief Method .ctor addr 0x10827f8 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x10115a8 size 0x78 virtual false final false
   inline void _ctor(::StringW pseudonym);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* surname, ::Org::BouncyCastle::Asn1::Asn1Sequence* givenName);
 
-  /// @brief Method .ctor addr 0x1082870 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x1011620 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* surname, ::Org::BouncyCastle::Asn1::Asn1Sequence* givenName);
 
-  /// @brief Method get_Pseudonym addr 0x108289c size 0x8 virtual false final false
+  /// @brief Method get_Pseudonym addr 0x101164c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_Pseudonym();
 
-  /// @brief Method get_Surname addr 0x10828a4 size 0x8 virtual false final false
+  /// @brief Method get_Surname addr 0x1011654 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_Surname();
 
-  /// @brief Method GetGivenName addr 0x10828ac size 0x318 virtual false final false
+  /// @brief Method GetGivenName addr 0x101165c size 0x318 virtual false final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Array<::Org::BouncyCastle::Asn1::X500::DirectoryString*>*> GetGivenName();
 
-  /// @brief Method ToAsn1Object addr 0x1082bc4 size 0x10c virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1011974 size 0x10c virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "NameOrPseudonym", modifiers: "&&", def_value: None }]
@@ -133,6 +133,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym, ___pseudonym) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym, ___surname) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym, ___givenName) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509::SigI
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym);

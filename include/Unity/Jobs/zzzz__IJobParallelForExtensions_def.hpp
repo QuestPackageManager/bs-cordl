@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IJobParallelForExtensions)
-namespace Unity::Jobs::LowLevel::Unsafe {
-struct JobRanges;
-}
 namespace System {
 class Object;
+}
+namespace Unity::Jobs::LowLevel::Unsafe {
+struct JobRanges;
 }
 namespace Unity::Jobs {
 struct JobHandle;
@@ -44,8 +44,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9970))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9898))
 // CS Name: ::IJobParallelForExtensions::ParallelForJobStruct`1::ExecuteJobFunction<T>*
 class CORDL_TYPE __IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction : public ::System::MulticastDelegate {
 public:
@@ -82,8 +82,8 @@ namespace Unity::Jobs {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9971))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9899))
 // CS Name: ::IJobParallelForExtensions::ParallelForJobStruct`1<T>
 #pragma pack(push, 0)
 struct CORDL_TYPE __IJobParallelForExtensions__ParallelForJobStruct_1 {
@@ -120,8 +120,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::Jobs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9972))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9900))
 // CS Name: ::Unity.Jobs::IJobParallelForExtensions*
 class CORDL_TYPE IJobParallelForExtensions : public ::System::Object {
 public:

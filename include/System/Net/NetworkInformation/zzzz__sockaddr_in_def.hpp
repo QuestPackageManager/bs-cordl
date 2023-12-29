@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::sockaddr_in);
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9272))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8109))
 // CS Name: ::System.Net.NetworkInformation::sockaddr_in
 struct CORDL_TYPE sockaddr_in {
 public:
@@ -45,6 +45,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::sockaddr_in, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::sockaddr_in, sin_family) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::sockaddr_in, sin_port) == 0x2, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::sockaddr_in, sin_addr) == 0x4, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::sockaddr_in, "System.Net.NetworkInformation", "sockaddr_in");

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEve
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4765))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4886))
 // CS Name: ::INoteControllerNoteDidPassJumpThreeQuartersEvent*
 class CORDL_TYPE INoteControllerNoteDidPassJumpThreeQuartersEvent {
 public:

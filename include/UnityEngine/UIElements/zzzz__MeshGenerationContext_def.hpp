@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MeshGenerationContext);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7337))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7423))
 // CS Name: ::MeshGenerationContext::MeshFlags
 struct CORDL_TYPE __MeshGenerationContext__MeshFlags {
 public:
@@ -73,13 +73,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::MeshGenerationContext
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7338))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7424))
 // CS Name: ::UnityEngine.UIElements::MeshGenerationContext*
 class CORDL_TYPE MeshGenerationContext : public ::System::Object {
 public:
@@ -97,7 +99,7 @@ public:
 
   static inline ::UnityEngine::UIElements::MeshGenerationContext* New_ctor(::UnityEngine::UIElements::IStylePainter* painter);
 
-  /// @brief Method .ctor addr 0x2e7c390 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d13fe0 size 0x28 virtual false final false
   inline void _ctor(::UnityEngine::UIElements::IStylePainter* painter);
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshGenerationContext", modifiers: "&&", def_value: None }]
@@ -121,6 +123,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MeshGenerationContext, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::MeshGenerationContext, ___painter) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags, "UnityEngine.UIElements", "MeshGenerationContext/MeshFlags");

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IOOperation);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8893))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7730))
 // CS Name: ::System::IOOperation
 struct CORDL_TYPE IOOperation {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IOOperation, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::IOOperation, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::IOOperation, "System", "IOOperation");

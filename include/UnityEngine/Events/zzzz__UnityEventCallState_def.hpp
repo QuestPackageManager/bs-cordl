@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Events::UnityEventCallState);
 namespace UnityEngine::Events {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10457))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10379))
 // CS Name: ::UnityEngine.Events::UnityEventCallState
 struct CORDL_TYPE UnityEventCallState {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Events::UnityEventCallState, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Events::UnityEventCallState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Events
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::UnityEventCallState, "UnityEngine.Events", "UnityEventCallState");

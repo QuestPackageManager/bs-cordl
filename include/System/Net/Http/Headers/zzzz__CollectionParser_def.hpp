@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CollectionParser)
 namespace System::Net::Http::Headers {
-class Lexer;
+template <typename T> class ElementTryParser_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Net::Http::Headers {
-struct Token;
+class Lexer;
 }
 namespace System::Net::Http::Headers {
-template <typename T> class ElementTryParser_1;
+struct Token;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::CollectionParser);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14662))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14879))
 // CS Name: ::System.Net.Http.Headers::CollectionParser*
 class CORDL_TYPE CollectionParser : public ::System::Object {
 public:
@@ -39,10 +39,10 @@ public:
   template <typename T>
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::System::Net::Http::Headers::ElementTryParser_1<T>* parser, ByRef<::System::Collections::Generic::List_1<T>*> result);
 
-  /// @brief Method TryParse addr 0x2837418 size 0xb0 virtual false final false
+  /// @brief Method TryParse addr 0x26bc404 size 0xb0 virtual false final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::StringW>*> result);
 
-  /// @brief Method TryParseStringElement addr 0x28374c8 size 0xcc virtual false final false
+  /// @brief Method TryParseStringElement addr 0x26bc4b4 size 0xcc virtual false final false
   static inline bool TryParseStringElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::StringW> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
 
   // Ctor Parameters [CppParam { name: "", ty: "CollectionParser", modifiers: "&&", def_value: None }]

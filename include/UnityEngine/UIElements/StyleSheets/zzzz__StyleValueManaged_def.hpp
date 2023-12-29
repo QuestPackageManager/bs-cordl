@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(StyleValueManaged)
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
 }
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -25,8 +25,8 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StyleValueManaged);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7487)), TypeDefinitionIndex(TypeDefinitionIndex(7300))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7467))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7386)), TypeDefinitionIndex(TypeDefinitionIndex(7573))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7553))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StyleValueManaged
 struct CORDL_TYPE StyleValueManaged {
 public:
@@ -55,6 +55,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::StyleValueManaged, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::StyleValueManaged, id) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::StyleValueManaged, keyword) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::StyleValueManaged, value) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::StyleValueManaged, "UnityEngine.UIElements.StyleSheets", "StyleValueManaged");

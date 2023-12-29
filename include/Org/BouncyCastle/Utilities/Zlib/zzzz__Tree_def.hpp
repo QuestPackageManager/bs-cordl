@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Tree)
 namespace Org::BouncyCastle::Utilities::Zlib {
-class Deflate;
+class StaticTree;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
-class StaticTree;
+class Deflate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::Tree);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1826))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::Tree*
 class CORDL_TYPE Tree : public ::System::Object {
@@ -111,24 +111,24 @@ public:
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_base_dist();
 
-  /// @brief Method d_code addr 0x1168ae0 size 0x98 virtual false final false
+  /// @brief Method d_code addr 0x10f8898 size 0x98 virtual false final false
   static inline int32_t d_code(int32_t dist);
 
-  /// @brief Method gen_bitlen addr 0x1168b78 size 0x2cc virtual false final false
+  /// @brief Method gen_bitlen addr 0x10f8930 size 0x2cc virtual false final false
   inline void gen_bitlen(::Org::BouncyCastle::Utilities::Zlib::Deflate* s);
 
-  /// @brief Method build_tree addr 0x1168e44 size 0x474 virtual false final false
+  /// @brief Method build_tree addr 0x10f8bfc size 0x474 virtual false final false
   inline void build_tree(::Org::BouncyCastle::Utilities::Zlib::Deflate* s);
 
-  /// @brief Method gen_codes addr 0x11692b8 size 0x17c virtual false final false
+  /// @brief Method gen_codes addr 0x10f9070 size 0x17c virtual false final false
   static inline void gen_codes(::ArrayW<int16_t, ::Array<int16_t>*> tree, int32_t max_code, ::ArrayW<int16_t, ::Array<int16_t>*> bl_count);
 
-  /// @brief Method bi_reverse addr 0x1169434 size 0x28 virtual false final false
+  /// @brief Method bi_reverse addr 0x10f91ec size 0x28 virtual false final false
   static inline int32_t bi_reverse(int32_t code, int32_t len);
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::Tree* New_ctor();
 
-  /// @brief Method .ctor addr 0x11696c0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x10f9478 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Tree", modifiers: "&&", def_value: None }]
@@ -200,6 +200,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Zlib::Tree, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Tree, ___dyn_tree) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Tree, ___max_code) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Tree, ___stat_desc) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::Zlib
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::Tree);

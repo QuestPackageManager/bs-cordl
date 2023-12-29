@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IK);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 51, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12499))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12536))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12427))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12464))
 // CS Name: ::RootMotion.FinalIK::IK*
 class CORDL_TYPE IK : public ::RootMotion::SolverManager {
 public:
@@ -26,13 +26,13 @@ public:
   /// @brief Method GetIKSolver addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::RootMotion::FinalIK::IKSolver* GetIKSolver();
 
-  /// @brief Method UpdateSolver addr 0x124f114 size 0x78 virtual true final false
+  /// @brief Method UpdateSolver addr 0x11dede8 size 0x78 virtual true final false
   inline void UpdateSolver();
 
-  /// @brief Method InitiateSolver addr 0x124f18c size 0x70 virtual true final false
+  /// @brief Method InitiateSolver addr 0x11dee60 size 0x70 virtual true final false
   inline void InitiateSolver();
 
-  /// @brief Method FixTransforms addr 0x124f1fc size 0x50 virtual true final false
+  /// @brief Method FixTransforms addr 0x11deed0 size 0x50 virtual true final false
   inline void FixTransforms();
 
   /// @brief Method OpenUserManual addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -43,7 +43,7 @@ public:
 
   static inline ::RootMotion::FinalIK::IK* New_ctor();
 
-  /// @brief Method .ctor addr 0x124e14c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x11dde20 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IK", modifiers: "&&", def_value: None }]

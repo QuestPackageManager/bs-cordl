@@ -14,11 +14,11 @@ class GameServersFilter;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameServersFilter);
 // Type: ::GameServersFilter
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 59, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 43, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14719)), TypeDefinitionIndex(TypeDefinitionIndex(14997)), TypeDefinitionIndex(TypeDefinitionIndex(15047)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5572)) CS Name: ::GameServersFilter*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15144)), TypeDefinitionIndex(TypeDefinitionIndex(14936)), TypeDefinitionIndex(TypeDefinitionIndex(15192)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2611))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5665)) CS Name: ::GameServersFilter*
 class CORDL_TYPE GameServersFilter : public ::System::Object {
 public:
   // Declarations
@@ -37,16 +37,16 @@ public:
   /// @brief Field filterBySongPacks, offset 0x16, size 0x1
   __declspec(property(get = __get_filterBySongPacks, put = __set_filterBySongPacks)) bool filterBySongPacks;
 
-  /// @brief Field filteredSongPacks, offset 0x18, size 0x20
+  /// @brief Field filteredSongPacks, offset 0x18, size 0x10
   __declspec(property(get = __get_filteredSongPacks, put = __set_filteredSongPacks))::GlobalNamespace::SongPackMask filteredSongPacks;
 
-  /// @brief Field showFull, offset 0x38, size 0x1
+  /// @brief Field showFull, offset 0x28, size 0x1
   __declspec(property(get = __get_showFull, put = __set_showFull)) bool showFull;
 
-  /// @brief Field showProtected, offset 0x39, size 0x1
+  /// @brief Field showProtected, offset 0x29, size 0x1
   __declspec(property(get = __get_showProtected, put = __set_showProtected)) bool showProtected;
 
-  /// @brief Field showInternetGames, offset 0x3a, size 0x1
+  /// @brief Field showInternetGames, offset 0x2a, size 0x1
   __declspec(property(get = __get_showInternetGames, put = __set_showInternetGames)) bool showInternetGames;
 
   constexpr bool& __get_filterByDifficulty();
@@ -105,7 +105,7 @@ public:
 
   static inline ::GlobalNamespace::GameServersFilter* New_ctor();
 
-  /// @brief Method .ctor addr 0x22a5690 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x21604b4 size 0x40 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServersFilter", modifiers: "&&", def_value: None }]
@@ -137,22 +137,40 @@ public:
   /// @brief Field filterBySongPacks, offset: 0x16, size: 0x1, def value: None
   bool ___filterBySongPacks;
 
-  /// @brief Field filteredSongPacks, offset: 0x18, size: 0x20, def value: None
+  /// @brief Field filteredSongPacks, offset: 0x18, size: 0x10, def value: None
   ::GlobalNamespace::SongPackMask ___filteredSongPacks;
 
-  /// @brief Field showFull, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field showFull, offset: 0x28, size: 0x1, def value: None
   bool ___showFull;
 
-  /// @brief Field showProtected, offset: 0x39, size: 0x1, def value: None
+  /// @brief Field showProtected, offset: 0x29, size: 0x1, def value: None
   bool ___showProtected;
 
-  /// @brief Field showInternetGames, offset: 0x3a, size: 0x1, def value: None
+  /// @brief Field showInternetGames, offset: 0x2a, size: 0x1, def value: None
   bool ___showInternetGames;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServersFilter, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServersFilter, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServersFilter, ___filterByDifficulty) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServersFilter, ___filteredDifficulty) == 0x11, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServersFilter, ___filterByModifiers) == 0x12, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServersFilter, ___filteredModifiers) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServersFilter, ___filterBySongPacks) == 0x16, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServersFilter, ___filteredSongPacks) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServersFilter, ___showFull) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServersFilter, ___showProtected) == 0x29, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServersFilter, ___showInternetGames) == 0x2a, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameServersFilter);

@@ -11,14 +11,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelBar)
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+struct __LevelBar___Setup_d__17;
+}
 namespace HMUI {
 class ImageView;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-struct __LevelBar___Setup_d__17;
 }
 namespace UnityEngine {
 class GameObject;
@@ -32,8 +35,11 @@ struct BeatmapDifficulty;
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -43,12 +49,6 @@ class Sprite;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -64,19 +64,19 @@ MARK_VAL_T(::GlobalNamespace::__LevelBar___Setup_d__17);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777
-// }), TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(10291))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5790)) CS Name: ::LevelBar::<Setup>d__17
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10213)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 765 }), TypeDefinitionIndex(TypeDefinitionIndex(14934)), TypeDefinitionIndex(TypeDefinitionIndex(2675))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(5881)) CS Name: ::LevelBar::<Setup>d__17
 struct CORDL_TYPE __LevelBar___Setup_d__17 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x22e3230 size 0x940 virtual true final true
+  /// @brief Method MoveNext addr 0x219e858 size 0x940 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x22e3b70 size 0x100c virtual true final true
+  /// @brief Method SetStateMachine addr 0x219f198 size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -126,13 +126,29 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelBar___Setup_d__17, 0x58>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__17, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__17, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__17, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__17, previewBeatmapLevel) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__17, beatmapDifficulty) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__17, beatmapCharacteristic) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__17, _cancellationToken_5__2) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__17, __u__1) == 0x50, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LevelBar
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5791))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5882))
 // CS Name: ::LevelBar*
 class CORDL_TYPE LevelBar : public ::UnityEngine::MonoBehaviour {
 public:
@@ -267,22 +283,22 @@ public:
 
   constexpr void __set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  /// @brief Method set_hide addr 0x22dfa2c size 0x2c virtual false final false
+  /// @brief Method set_hide addr 0x219e748 size 0x2c virtual false final false
   inline void set_hide(bool value);
 
-  /// @brief Method Setup addr 0x22e3208 size 0xc virtual false final false
+  /// @brief Method Setup addr 0x219e774 size 0xc virtual false final false
   inline void Setup(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
 
-  /// @brief Method Setup addr 0x22cff58 size 0xbc virtual false final false
+  /// @brief Method Setup addr 0x219e780 size 0xbc virtual false final false
   inline void Setup(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
                     ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
-  /// @brief Method OnDestroy addr 0x22e3214 size 0x14 virtual false final false
+  /// @brief Method OnDestroy addr 0x219e83c size 0x14 virtual false final false
   inline void OnDestroy();
 
   static inline ::GlobalNamespace::LevelBar* New_ctor();
 
-  /// @brief Method .ctor addr 0x22e3228 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x219e850 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelBar", modifiers: "&&", def_value: None }]
@@ -345,6 +361,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelBar, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelBar, ____songArtworkImageView) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelBar, ____songNameText) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelBar, ____authorNameText) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelBar, ____showSongSubName) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelBar, ____singleLineSongInfoContainer) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelBar, ____multiLineSongInfoContainer) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelBar, ____multiLineSongNameText) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelBar, ____multiLineAuthorNameText) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelBar, ____showDifficultyAndCharacteristic) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelBar, ____difficultyText) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelBar, ____characteristicIconImageView) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelBar, ____useArtworkBackground) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelBar, ____artworkBackgroundImage) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelBar, ____cancellationTokenSource) == 0x80, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelBar);

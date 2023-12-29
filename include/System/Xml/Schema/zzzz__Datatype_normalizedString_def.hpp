@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_normalizedString);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11627))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11652))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11555))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11580))
 // CS Name: ::System.Xml.Schema::Datatype_normalizedString*
 class CORDL_TYPE Datatype_normalizedString : public ::System::Xml::Schema::Datatype_string {
 public:
@@ -30,15 +30,15 @@ public:
 
   __declspec(property(get = get_BuiltInWhitespaceFacet))::System::Xml::Schema::XmlSchemaWhiteSpace BuiltInWhitespaceFacet;
 
-  /// @brief Method get_TypeCode addr 0x28bb650 size 0x8 virtual true final false
+  /// @brief Method get_TypeCode addr 0x273d62c size 0x8 virtual true final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_BuiltInWhitespaceFacet addr 0x28bb658 size 0x8 virtual true final false
+  /// @brief Method get_BuiltInWhitespaceFacet addr 0x273d634 size 0x8 virtual true final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
   static inline ::System::Xml::Schema::Datatype_normalizedString* New_ctor();
 
-  /// @brief Method .ctor addr 0x28bb660 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x273d63c size 0x4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_normalizedString", modifiers: "&&", def_value: None }]

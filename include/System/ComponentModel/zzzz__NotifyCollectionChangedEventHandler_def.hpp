@@ -9,13 +9,13 @@ namespace System {
 class AsyncCallback;
 }
 namespace System {
-class Object;
-}
-namespace System {
 class IAsyncResult;
 }
 namespace System::ComponentModel {
 class NotifyCollectionChangedEventArgs;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -27,24 +27,24 @@ MARK_REF_PTR_T(::System::ComponentModel::NotifyCollectionChangedEventHandler);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11791))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11719))
 // CS Name: ::System.ComponentModel::NotifyCollectionChangedEventHandler*
 class CORDL_TYPE NotifyCollectionChangedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::ComponentModel::NotifyCollectionChangedEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x263e03c size 0x130 virtual false final false
+  /// @brief Method .ctor addr 0x24db8f8 size 0x130 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x263e16c size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x24dba28 size 0x14 virtual true final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::NotifyCollectionChangedEventArgs* e);
 
-  /// @brief Method BeginInvoke addr 0x263e180 size 0x28 virtual true final false
+  /// @brief Method BeginInvoke addr 0x24dba3c size 0x28 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* sender, ::System::ComponentModel::NotifyCollectionChangedEventArgs* e, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x263e1a8 size 0xc virtual true final false
+  /// @brief Method EndInvoke addr 0x24dba64 size 0xc virtual true final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "NotifyCollectionChangedEventHandler", modifiers: "&&", def_value: None }]

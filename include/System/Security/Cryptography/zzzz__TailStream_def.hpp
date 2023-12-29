@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::TailStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2944))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3607))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2943))
 // CS Name: ::System.Security.Cryptography::TailStream*
 class CORDL_TYPE TailStream : public ::System::IO::Stream {
 public:
@@ -75,49 +75,49 @@ public:
 
   static inline ::System::Security::Cryptography::TailStream* New_ctor(int32_t bufferSize);
 
-  /// @brief Method .ctor addr 0x245f6fc size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x2306084 size 0x90 virtual false final false
   inline void _ctor(int32_t bufferSize);
 
-  /// @brief Method Clear addr 0x245fa38 size 0x10 virtual false final false
+  /// @brief Method Clear addr 0x23063c0 size 0x10 virtual false final false
   inline void Clear();
 
-  /// @brief Method Dispose addr 0x245fa48 size 0xc0 virtual true final false
+  /// @brief Method Dispose addr 0x23063d0 size 0xc0 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method get_Buffer addr 0x245f8d8 size 0x78 virtual false final false
+  /// @brief Method get_Buffer addr 0x2306260 size 0x78 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Buffer();
 
-  /// @brief Method get_CanRead addr 0x245fb08 size 0x8 virtual true final false
+  /// @brief Method get_CanRead addr 0x2306490 size 0x8 virtual true final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek addr 0x245fb10 size 0x8 virtual true final false
+  /// @brief Method get_CanSeek addr 0x2306498 size 0x8 virtual true final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite addr 0x245fb18 size 0x10 virtual true final false
+  /// @brief Method get_CanWrite addr 0x23064a0 size 0x10 virtual true final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length addr 0x245fb28 size 0x60 virtual true final false
+  /// @brief Method get_Length addr 0x23064b0 size 0x60 virtual true final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position addr 0x245fb88 size 0x60 virtual true final false
+  /// @brief Method get_Position addr 0x2306510 size 0x60 virtual true final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position addr 0x245fbe8 size 0x60 virtual true final false
+  /// @brief Method set_Position addr 0x2306570 size 0x60 virtual true final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method Flush addr 0x245fc48 size 0x4 virtual true final false
+  /// @brief Method Flush addr 0x23065d0 size 0x4 virtual true final false
   inline void Flush();
 
-  /// @brief Method Seek addr 0x245fc4c size 0x60 virtual true final false
+  /// @brief Method Seek addr 0x23065d4 size 0x60 virtual true final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength addr 0x245fcac size 0x60 virtual true final false
+  /// @brief Method SetLength addr 0x2306634 size 0x60 virtual true final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Read addr 0x245fd0c size 0x60 virtual true final false
+  /// @brief Method Read addr 0x2306694 size 0x60 virtual true final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Write addr 0x245fd6c size 0x174 virtual true final false
+  /// @brief Method Write addr 0x23066f4 size 0x174 virtual true final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
   // Ctor Parameters [CppParam { name: "", ty: "TailStream", modifiers: "&&", def_value: None }]
@@ -150,6 +150,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::TailStream, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::TailStream, ____Buffer) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::TailStream, ____BufferSize) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::TailStream, ____BufferIndex) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::TailStream, ____BufferFull) == 0x38, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::TailStream);

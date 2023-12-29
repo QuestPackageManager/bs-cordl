@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DerBoolean)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
@@ -60,41 +60,41 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerBoolean* getStaticF_True();
 
-  /// @brief Method GetInstance addr 0x11c0ba4 size 0xf0 virtual false final false
+  /// @brief Method GetInstance addr 0x114f954 size 0xf0 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerBoolean* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance addr 0x11c0c94 size 0x68 virtual false final false
+  /// @brief Method GetInstance addr 0x114fa44 size 0x68 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerBoolean* GetInstance(bool value);
 
-  /// @brief Method GetInstance addr 0x11c0cfc size 0x150 virtual false final false
+  /// @brief Method GetInstance addr 0x114faac size 0x150 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerBoolean* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::DerBoolean* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> val);
 
-  /// @brief Method .ctor addr 0x11c0e4c size 0xa0 virtual false final false
+  /// @brief Method .ctor addr 0x114fbfc size 0xa0 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> val);
 
   static inline ::Org::BouncyCastle::Asn1::DerBoolean* New_ctor(bool value);
 
-  /// @brief Method .ctor addr 0x11c0eec size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x114fc9c size 0x34 virtual false final false
   inline void _ctor(bool value);
 
-  /// @brief Method get_IsTrue addr 0x11c0f20 size 0x10 virtual false final false
+  /// @brief Method get_IsTrue addr 0x114fcd0 size 0x10 virtual false final false
   inline bool get_IsTrue();
 
-  /// @brief Method Encode addr 0x11c0f30 size 0x84 virtual true final false
+  /// @brief Method Encode addr 0x114fce0 size 0x84 virtual true final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method Asn1Equals addr 0x11c0fb4 size 0xa4 virtual true final false
+  /// @brief Method Asn1Equals addr 0x114fd64 size 0xa4 virtual true final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode addr 0x11c1058 size 0x28 virtual true final false
+  /// @brief Method Asn1GetHashCode addr 0x114fe08 size 0x28 virtual true final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method ToString addr 0x11c1080 size 0x6c virtual true final false
+  /// @brief Method ToString addr 0x114fe30 size 0x6c virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method FromOctetString addr 0x11b7124 size 0x120 virtual false final false
+  /// @brief Method FromOctetString addr 0x1145ed4 size 0x120 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerBoolean* FromOctetString(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "DerBoolean", modifiers: "&&", def_value: None }]
@@ -118,6 +118,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::DerBoolean, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::DerBoolean, ___value) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerBoolean);

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NotImplementedException)
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -21,25 +21,25 @@ MARK_REF_PTR_T(::System::NotImplementedException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2445))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2443))
 // CS Name: ::System::NotImplementedException*
 class CORDL_TYPE NotImplementedException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::NotImplementedException* New_ctor();
 
-  /// @brief Method .ctor addr 0x25afe6c size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x2453f20 size 0x5c virtual false final false
   inline void _ctor();
 
   static inline ::System::NotImplementedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x25afec8 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2453f7c size 0x24 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::NotImplementedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x25afeec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2453fa0 size 0x8 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "NotImplementedException", modifiers: "&&", def_value: None }]

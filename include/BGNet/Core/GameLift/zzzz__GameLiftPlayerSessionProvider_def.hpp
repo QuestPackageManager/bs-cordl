@@ -21,32 +21,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameLiftPlayerSessionProvider)
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace BGNet::Core::GameLift {
-struct __GameLiftPlayerSessionProvider___PingRegionAsync_d__17;
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
 }
 namespace BGNet::Core::GameLift {
 class PlayerSessionInfo;
 }
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace GlobalNamespace {
+class RollingAverage;
+}
 namespace BGNet::Core::GameLift {
-struct __GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14;
+struct __GameLiftPlayerSessionProvider___PingRegionAsync_d__17;
 }
 namespace GlobalNamespace {
 class XPlatformAuthFeatureFlag;
 }
 namespace GlobalNamespace {
-class INetworkConfig;
-}
-namespace GlobalNamespace {
 class IAuthenticationTokenProvider;
-}
-namespace BGNet::Core::GameLift {
-class IGameLiftPlayerSessionProvider;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
 class GraphAPIClient;
@@ -55,28 +55,25 @@ namespace BGNet::Core::GameLift {
 class __GameLiftPlayerSessionProvider____c;
 }
 namespace GlobalNamespace {
-struct GameplayServerConfiguration;
+class INetworkConfig;
 }
-namespace GlobalNamespace {
-class IPollable;
+namespace BGNet::Core::GameLift {
+class IGameLiftPlayerSessionProvider;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace GlobalNamespace {
-class XPlatformAccessTokenData;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace BGNet::Core::GameLift {
+struct __GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14;
 }
 namespace GlobalNamespace {
-class RollingAverage;
+class IPollable;
+}
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
 }
 namespace BGNet::Core::GameLift {
 struct __GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
@@ -84,14 +81,14 @@ template <typename TKey, typename TValue> struct KeyValuePair_2;
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Diagnostics {
-class Stopwatch;
+namespace GlobalNamespace {
+class XPlatformAccessTokenData;
 }
 namespace GlobalNamespace {
 struct AuthenticationToken;
+}
+namespace GlobalNamespace {
+struct __AuthenticationToken__Platform;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -99,17 +96,20 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
-namespace GlobalNamespace {
-struct __AuthenticationToken__Platform;
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
-namespace System {
-template <typename T> struct Nullable_1;
+namespace BGNet::Core::GameLift {
+struct GetMultiplayerInstanceResponse;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
-namespace BGNet::Core::GameLift {
-struct GetMultiplayerInstanceResponse;
+namespace System::Diagnostics {
+class Stopwatch;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -137,56 +137,53 @@ MARK_VAL_T(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLif
 MARK_VAL_T(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15);
 MARK_VAL_T(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingRegionAsync_d__17);
 // Type: ::<GetGameLiftPlayerSessionInfo>d__14
-// SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 876 }), TypeDefinitionIndex(TypeDefinitionIndex(13011)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12681)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(12925)), TypeDefinitionIndex(TypeDefinitionIndex(13013)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 95 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 897 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 876 }), TypeDefinitionIndex(TypeDefinitionIndex(12686)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 902 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4764 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12682)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13005)) CS Name: ::GameLiftPlayerSessionProvider::<GetGameLiftPlayerSessionInfo>d__14
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 860 }), TypeDefinitionIndex(TypeDefinitionIndex(13016)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3389), inst: 882 }), TypeDefinitionIndex(TypeDefinitionIndex(12846)), TypeDefinitionIndex(TypeDefinitionIndex(12614)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2446), inst: 4665 }), TypeDefinitionIndex(TypeDefinitionIndex(2446)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 860 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(12687)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(12609)), TypeDefinitionIndex(TypeDefinitionIndex(2675)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 877 }), TypeDefinitionIndex(TypeDefinitionIndex(12610)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13018)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 4953 }), TypeDefinitionIndex(TypeDefinitionIndex(3388))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(13010)) CS Name: ::GameLiftPlayerSessionProvider::<GetGameLiftPlayerSessionInfo>d__14
 struct CORDL_TYPE __GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0xe5ef24 size 0x16e8 virtual true final true
+  /// @brief Method MoveNext addr 0xde8f6c size 0x14d4 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0xe60668 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0xdea498 size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGNet::Core::GameLift::PlayerSessionInfo*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*", modifiers: "", def_value: None }, CppParam { name: "authenticationTokenProvider", ty:
-  // "::GlobalNamespace::IAuthenticationTokenProvider*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
-  // None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelSelectionMask", ty: "::GlobalNamespace::BeatmapLevelSelectionMask", modifiers:
-  // "", def_value: None }, CppParam { name: "gameplayServerConfiguration", ty: "::GlobalNamespace::GameplayServerConfiguration", modifiers: "", def_value: None }, CppParam { name: "secret", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_stopwatch_5__2", ty:
-  // "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: None }, CppParam { name: "_ticketId_5__3", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_placementId_5__4",
-  // ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_xPlatformAccessToken_5__5", ty: "::GlobalNamespace::XPlatformAccessTokenData*", modifiers: "", def_value: None }, CppParam {
-  // name: "_graphAPIAccessToken_5__6", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_userPlatform_5__7", ty:
-  // "::System::Nullable_1<::GlobalNamespace::__AuthenticationToken__Platform>", modifiers: "", def_value: None }, CppParam { name: "_singleUsePlatformAuthToken_5__8", ty:
-  // "::System::Nullable_1<::GlobalNamespace::AuthenticationToken>", modifiers: "", def_value: None }, CppParam { name: "_numAttempts_5__9", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData*>", modifiers: "", def_value: None }, CppParam { name:
-  // "_getMatchmakingInstanceResponse_5__10", ty: "::BGNet::Core::GameLift::GetMultiplayerInstanceResponse", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AuthenticationToken>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap10", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::GetMultiplayerInstanceResponse>", modifiers: "", def_value: None },
-  // CppParam { name: "__u__4", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // "::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None }, CppParam { name: "authenticationTokenProvider", ty: "::GlobalNamespace::IAuthenticationTokenProvider*", modifiers: "", def_value: None }, CppParam { name: "userId", ty:
+  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelSelectionMask", ty: "::GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: None }, CppParam { name:
+  // "gameplayServerConfiguration", ty: "::GlobalNamespace::GameplayServerConfiguration", modifiers: "", def_value: None }, CppParam { name: "secret", ty: "::StringW", modifiers: "", def_value: None
+  // }, CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_stopwatch_5__2", ty: "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: None },
+  // CppParam { name: "_ticketId_5__3", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_placementId_5__4", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
+  // "_xPlatformAccessToken_5__5", ty: "::GlobalNamespace::XPlatformAccessTokenData*", modifiers: "", def_value: None }, CppParam { name: "_graphAPIAccessToken_5__6", ty: "::StringW", modifiers: "",
+  // def_value: None }, CppParam { name: "_userPlatform_5__7", ty: "::System::Nullable_1<::GlobalNamespace::__AuthenticationToken__Platform>", modifiers: "", def_value: None }, CppParam { name:
+  // "_singleUsePlatformAuthToken_5__8", ty: "::System::Nullable_1<::GlobalNamespace::AuthenticationToken>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AuthenticationToken>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::GetMultiplayerInstanceResponse>", modifiers: "", def_value: None }, CppParam { name: "__u__4", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
   constexpr __GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGNet::Core::GameLift::PlayerSessionInfo*> __t__builder,
-      ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* __4__this, ::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider,
-      ::System::Threading::CancellationToken cancellationToken, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
+      ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* __4__this, ::System::Threading::CancellationToken cancellationToken,
+      ::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
       ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW secret, ::StringW code, ::System::Diagnostics::Stopwatch* _stopwatch_5__2, ::StringW _ticketId_5__3,
       ::StringW _placementId_5__4, ::GlobalNamespace::XPlatformAccessTokenData* _xPlatformAccessToken_5__5, ::StringW _graphAPIAccessToken_5__6,
       ::System::Nullable_1<::GlobalNamespace::__AuthenticationToken__Platform> _userPlatform_5__7, ::System::Nullable_1<::GlobalNamespace::AuthenticationToken> _singleUsePlatformAuthToken_5__8,
-      int32_t _numAttempts_5__9, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData*> __u__1,
-      ::BGNet::Core::GameLift::GetMultiplayerInstanceResponse _getMatchmakingInstanceResponse_5__10, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AuthenticationToken> __u__2,
-      int32_t __7__wrap10, ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::GetMultiplayerInstanceResponse> __u__3,
-      ::System::Runtime::CompilerServices::TaskAwaiter __u__4) noexcept;
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData*> __u__1,
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AuthenticationToken> __u__2,
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::GetMultiplayerInstanceResponse> __u__3, ::System::Runtime::CompilerServices::TaskAwaiter __u__4) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -201,95 +198,128 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* __4__this;
 
-  /// @brief Field authenticationTokenProvider, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider;
-
-  /// @brief Field cancellationToken, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
+
+  /// @brief Field authenticationTokenProvider, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider;
 
   /// @brief Field userId, offset: 0x38, size: 0x8, def value: None
   ::StringW userId;
 
-  /// @brief Field beatmapLevelSelectionMask, offset: 0x40, size: 0x28, def value: None
+  /// @brief Field beatmapLevelSelectionMask, offset: 0x40, size: 0x18, def value: None
   ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask;
 
-  /// @brief Field gameplayServerConfiguration, offset: 0x68, size: 0x18, def value: None
+  /// @brief Field gameplayServerConfiguration, offset: 0x58, size: 0x18, def value: None
   ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration;
 
-  /// @brief Field secret, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field secret, offset: 0x70, size: 0x8, def value: None
   ::StringW secret;
 
-  /// @brief Field code, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field code, offset: 0x78, size: 0x8, def value: None
   ::StringW code;
 
-  /// @brief Field <stopwatch>5__2, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field <stopwatch>5__2, offset: 0x80, size: 0x8, def value: None
   ::System::Diagnostics::Stopwatch* _stopwatch_5__2;
 
-  /// @brief Field <ticketId>5__3, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field <ticketId>5__3, offset: 0x88, size: 0x8, def value: None
   ::StringW _ticketId_5__3;
 
-  /// @brief Field <placementId>5__4, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field <placementId>5__4, offset: 0x90, size: 0x8, def value: None
   ::StringW _placementId_5__4;
 
-  /// @brief Field <xPlatformAccessToken>5__5, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field <xPlatformAccessToken>5__5, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::XPlatformAccessTokenData* _xPlatformAccessToken_5__5;
 
-  /// @brief Field <graphAPIAccessToken>5__6, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field <graphAPIAccessToken>5__6, offset: 0xa0, size: 0x8, def value: None
   ::StringW _graphAPIAccessToken_5__6;
 
-  /// @brief Field <userPlatform>5__7, offset: 0xb8, size: 0x2, def value: None
+  /// @brief Field <userPlatform>5__7, offset: 0xa8, size: 0x2, def value: None
   ::System::Nullable_1<::GlobalNamespace::__AuthenticationToken__Platform> _userPlatform_5__7;
 
-  /// @brief Field <singleUsePlatformAuthToken>5__8, offset: 0xc0, size: 0x28, def value: None
+  /// @brief Field <singleUsePlatformAuthToken>5__8, offset: 0xb0, size: 0x28, def value: None
   ::System::Nullable_1<::GlobalNamespace::AuthenticationToken> _singleUsePlatformAuthToken_5__8;
 
-  /// @brief Field <numAttempts>5__9, offset: 0xe8, size: 0x4, def value: None
-  int32_t _numAttempts_5__9;
-
-  /// @brief Field <>u__1, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field <>u__1, offset: 0xd8, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData*> __u__1;
 
-  /// @brief Field <getMatchmakingInstanceResponse>5__10, offset: 0xf8, size: 0x38, def value: None
-  ::BGNet::Core::GameLift::GetMultiplayerInstanceResponse _getMatchmakingInstanceResponse_5__10;
-
-  /// @brief Field <>u__2, offset: 0x130, size: 0x8, def value: None
+  /// @brief Field <>u__2, offset: 0xe0, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AuthenticationToken> __u__2;
 
-  /// @brief Field <>7__wrap10, offset: 0x138, size: 0x4, def value: None
-  int32_t __7__wrap10;
-
-  /// @brief Field <>u__3, offset: 0x140, size: 0x8, def value: None
+  /// @brief Field <>u__3, offset: 0xe8, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::GetMultiplayerInstanceResponse> __u__3;
 
-  /// @brief Field <>u__4, offset: 0x148, size: 0x8, def value: None
+  /// @brief Field <>u__4, offset: 0xf0, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__4;
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x150 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xf8 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, 0x150>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, 0xf8>, "Size mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, cancellationToken) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, authenticationTokenProvider) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, userId) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, beatmapLevelSelectionMask) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, gameplayServerConfiguration) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, secret) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, code) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, _stopwatch_5__2) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, _ticketId_5__3) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, _placementId_5__4) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, _xPlatformAccessToken_5__5) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, _graphAPIAccessToken_5__6) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, _userPlatform_5__7) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, _singleUsePlatformAuthToken_5__8) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, __u__1) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, __u__2) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, __u__3) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14, __u__4) == 0xf0, "Offset mismatch!");
 
 } // namespace BGNet::Core::GameLift
 // Type: ::<PingAllAwsGameLiftRegions>d__15
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 601 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3394), inst: 5060 }), TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13006))
-// CS Name: ::GameLiftPlayerSessionProvider::<PingAllAwsGameLiftRegions>d__15
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 4950 }), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(2505)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2505), inst: 1378 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(13011)) CS Name: ::GameLiftPlayerSessionProvider::<PingAllAwsGameLiftRegions>d__15
 struct CORDL_TYPE __GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0xe606c0 size 0x368 virtual true final true
+  /// @brief Method MoveNext addr 0xdea4f0 size 0x368 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0xe60a28 size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0xdea858 size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -324,13 +354,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15, __u__1) == 0x30, "Offset mismatch!");
+
 } // namespace BGNet::Core::GameLift
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13007))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13012))
 // CS Name: ::GameLiftPlayerSessionProvider::<>c*
 class CORDL_TYPE __GameLiftPlayerSessionProvider____c : public ::System::Object {
 public:
@@ -368,16 +406,16 @@ public:
 
   static inline ::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider____c* New_ctor();
 
-  /// @brief Method .ctor addr 0xe60a98 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdea8c8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <GetAverageLatencies>b__16_0 addr 0xe60aa0 size 0x48 virtual false final false
+  /// @brief Method <GetAverageLatencies>b__16_0 addr 0xdea8d0 size 0x48 virtual false final false
   inline bool _GetAverageLatencies_b__16_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
 
-  /// @brief Method <GetAverageLatencies>b__16_1 addr 0xe60ae8 size 0x3c virtual false final false
+  /// @brief Method <GetAverageLatencies>b__16_1 addr 0xdea918 size 0x3c virtual false final false
   inline ::StringW _GetAverageLatencies_b__16_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
 
-  /// @brief Method <GetAverageLatencies>b__16_2 addr 0xe60b24 size 0x5c virtual false final false
+  /// @brief Method <GetAverageLatencies>b__16_2 addr 0xdea954 size 0x5c virtual false final false
   inline int64_t _GetAverageLatencies_b__16_2(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameLiftPlayerSessionProvider____c", modifiers: "&&", def_value: None }]
@@ -404,19 +442,19 @@ static_assert(::cordl_internals::size_check_v<::BGNet::Core::GameLift::__GameLif
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 601 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 869 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 333 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2507))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13008)) CS Name: ::GameLiftPlayerSessionProvider::<PingRegionAsync>d__17
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2505), inst: 1378 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 856 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 844 }), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2505))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13013)) CS Name: ::GameLiftPlayerSessionProvider::<PingRegionAsync>d__17
 struct CORDL_TYPE __GameLiftPlayerSessionProvider___PingRegionAsync_d__17 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0xe60b80 size 0x2ec virtual true final true
+  /// @brief Method MoveNext addr 0xdea9b0 size 0x2ec virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0xe60e6c size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0xdeac9c size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -450,13 +488,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingRegionAsync_d__17, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingRegionAsync_d__17, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingRegionAsync_d__17, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingRegionAsync_d__17, awsRegion) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingRegionAsync_d__17, __u__1) == 0x28, "Offset mismatch!");
+
 } // namespace BGNet::Core::GameLift
 // Type: BGNet.Core.GameLift::GameLiftPlayerSessionProvider
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13009))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13014))
 // CS Name: ::BGNet.Core.GameLift::GameLiftPlayerSessionProvider*
 class CORDL_TYPE GameLiftPlayerSessionProvider : public ::System::Object {
 public:
@@ -539,34 +585,30 @@ public:
   static inline ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* New_ctor(::GlobalNamespace::INetworkConfig* networkConfig,
                                                                                  ::GlobalNamespace::XPlatformAuthFeatureFlag* xPlatformAuthFeatureFlag);
 
-  /// @brief Method .ctor addr 0xe5e1bc size 0x1a4 virtual false final false
+  /// @brief Method .ctor addr 0xde8374 size 0x1a4 virtual false final false
   inline void _ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::GlobalNamespace::XPlatformAuthFeatureFlag* xPlatformAuthFeatureFlag);
 
-  /// @brief Method PollUpdate addr 0xe5e360 size 0xc0 virtual true final true
+  /// @brief Method PollUpdate addr 0xde8518 size 0xc0 virtual true final true
   inline void PollUpdate();
 
-  /// @brief Method GetGameLiftPlayerSessionInfo addr 0xe5e4b4 size 0x158 virtual true final true
+  /// @brief Method GetGameLiftPlayerSessionInfo addr 0xde866c size 0x154 virtual true final true
   inline ::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>*
   GetGameLiftPlayerSessionInfo(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
                                ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW secret, ::StringW code, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method PingAllAwsGameLiftRegions addr 0xe5e420 size 0x94 virtual false final false
+  /// @brief Method PingAllAwsGameLiftRegions addr 0xde85d8 size 0x94 virtual false final false
   inline void PingAllAwsGameLiftRegions();
 
-  /// @brief Method GetAverageLatencies addr 0xe5e60c size 0x24c virtual false final false
+  /// @brief Method GetAverageLatencies addr 0xde87c0 size 0x24c virtual false final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* GetAverageLatencies();
 
-  /// @brief Method PingRegionAsync addr 0xe5e858 size 0xf0 virtual false final false
+  /// @brief Method PingRegionAsync addr 0xde8a0c size 0xf0 virtual false final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* PingRegionAsync(::StringW awsRegion);
 
-  /// @brief Method GetAwsGameLiftRegionEndpoint addr 0xe5e948 size 0x6c virtual false final false
+  /// @brief Method GetAwsGameLiftRegionEndpoint addr 0xde8afc size 0x6c virtual false final false
   static inline ::StringW GetAwsGameLiftRegionEndpoint(::StringW awsRegion);
 
-  /// @brief Method GetXPlatformAccessToken addr 0xe5e9b4 size 0x16c virtual false final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* GetXPlatformAccessToken(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider,
-                                                                                                                   ::System::Threading::CancellationToken cancellationToken, bool skipCache);
-
-  /// @brief Method <PingAllAwsGameLiftRegions>b__15_0 addr 0xe5ef20 size 0x4 virtual false final false
+  /// @brief Method <PingAllAwsGameLiftRegions>b__15_0 addr 0xde8f68 size 0x4 virtual false final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* _PingAllAwsGameLiftRegions_b__15_0(::StringW region);
 
   // Ctor Parameters [CppParam { name: "", ty: "GameLiftPlayerSessionProvider", modifiers: "&&", def_value: None }]
@@ -620,6 +662,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::GameLiftPlayerSessionProvider, ____networkConfig) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::GameLiftPlayerSessionProvider, ____graphAPIClient) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::GameLiftPlayerSessionProvider, ____xPlatformAuthFeatureFlag) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::GameLiftPlayerSessionProvider, ____pingAverages) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::GameLiftPlayerSessionProvider, ____pingCount) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::GameLiftPlayerSessionProvider, ____lastPingTime) == 0x38, "Offset mismatch!");
 
 } // namespace BGNet::Core::GameLift
 NEED_NO_BOX(::BGNet::Core::GameLift::GameLiftPlayerSessionProvider);

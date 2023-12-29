@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::DrawBufferRange);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15380))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15410))
 // CS Name: ::UnityEngine.UIElements.UIR::DrawBufferRange
 struct CORDL_TYPE DrawBufferRange {
 public:
@@ -48,6 +48,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::DrawBufferRange, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::DrawBufferRange, firstIndex) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::DrawBufferRange, indexCount) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::DrawBufferRange, minIndexVal) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::DrawBufferRange, vertsReferenced) == 0xc, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::DrawBufferRange, "UnityEngine.UIElements.UIR", "DrawBufferRange");

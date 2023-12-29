@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::TextAreaAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10179))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10098))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10107))
 // CS Name: ::UnityEngine::TextAreaAttribute*
 class CORDL_TYPE TextAreaAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -41,12 +41,12 @@ public:
 
   static inline ::UnityEngine::TextAreaAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ccc22c size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x2b65d28 size 0x20 virtual false final false
   inline void _ctor();
 
   static inline ::UnityEngine::TextAreaAttribute* New_ctor(int32_t minLines, int32_t maxLines);
 
-  /// @brief Method .ctor addr 0x2ccc24c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2b65d48 size 0x2c virtual false final false
   inline void _ctor(int32_t minLines, int32_t maxLines);
 
   // Ctor Parameters [CppParam { name: "", ty: "TextAreaAttribute", modifiers: "&&", def_value: None }]
@@ -73,6 +73,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextAreaAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextAreaAttribute, ___minLines) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextAreaAttribute, ___maxLines) == 0x14, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::TextAreaAttribute);

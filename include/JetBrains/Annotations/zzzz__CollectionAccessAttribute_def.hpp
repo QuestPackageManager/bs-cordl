@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::CollectionAccessAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15784)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15783))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15734)), TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15733))
 // CS Name: ::JetBrains.Annotations::CollectionAccessAttribute*
 class CORDL_TYPE CollectionAccessAttribute : public ::System::Attribute {
 public:
@@ -38,13 +38,13 @@ public:
 
   static inline ::JetBrains::Annotations::CollectionAccessAttribute* New_ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType);
 
-  /// @brief Method .ctor addr 0x2eba6dc size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d5295c size 0x28 virtual false final false
   inline void _ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType);
 
-  /// @brief Method get_CollectionAccessType addr 0x2eba704 size 0x8 virtual false final false
+  /// @brief Method get_CollectionAccessType addr 0x2d52984 size 0x8 virtual false final false
   inline ::JetBrains::Annotations::CollectionAccessType get_CollectionAccessType();
 
-  /// @brief Method set_CollectionAccessType addr 0x2eba70c size 0x8 virtual false final false
+  /// @brief Method set_CollectionAccessType addr 0x2d5298c size 0x8 virtual false final false
   inline void set_CollectionAccessType(::JetBrains::Annotations::CollectionAccessType value);
 
   // Ctor Parameters [CppParam { name: "", ty: "CollectionAccessAttribute", modifiers: "&&", def_value: None }]
@@ -68,6 +68,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::CollectionAccessAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::CollectionAccessAttribute, ____CollectionAccessType_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::CollectionAccessAttribute);

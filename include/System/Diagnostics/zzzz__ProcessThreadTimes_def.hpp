@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Diagnostics::ProcessThreadTimes);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8953))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7790))
 // CS Name: ::System.Diagnostics::ProcessThreadTimes*
 class CORDL_TYPE ProcessThreadTimes : public ::System::Object {
 public:
@@ -62,12 +62,12 @@ public:
 
   constexpr void __set_user(int64_t value);
 
-  /// @brief Method get_TotalProcessorTime addr 0x2970134 size 0xc virtual false final false
+  /// @brief Method get_TotalProcessorTime addr 0x27f26ac size 0xc virtual false final false
   inline ::System::TimeSpan get_TotalProcessorTime();
 
   static inline ::System::Diagnostics::ProcessThreadTimes* New_ctor();
 
-  /// @brief Method .ctor addr 0x296fd30 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27f2308 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProcessThreadTimes", modifiers: "&&", def_value: None }]
@@ -100,6 +100,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::ProcessThreadTimes, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::ProcessThreadTimes, ___create) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::ProcessThreadTimes, ___exit) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::ProcessThreadTimes, ___kernel) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::ProcessThreadTimes, ___user) == 0x28, "Offset mismatch!");
 
 } // namespace System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::ProcessThreadTimes);

@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::EventHandler);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2377))
 // CS Name: ::System::EventHandler*
 class CORDL_TYPE EventHandler : public ::System::MulticastDelegate {
@@ -29,10 +29,10 @@ public:
   // Declarations
   static inline ::System::EventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2596fdc size 0x130 virtual false final false
+  /// @brief Method .ctor addr 0x243b99c size 0x130 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x259710c size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x243bacc size 0x14 virtual true final false
   inline void Invoke(::System::Object* sender, ::System::EventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "EventHandler", modifiers: "&&", def_value: None }]

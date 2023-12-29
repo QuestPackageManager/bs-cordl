@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException* New_ctor();
 
-  /// @brief Method .ctor addr 0x11d8360 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x1167110 size 0x4 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x11d8364 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x1167114 size 0x4 virtual false final false
   inline void _ctor(::StringW name);
 
   static inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException* New_ctor(::StringW name, ::System::Exception* e);
 
-  /// @brief Method .ctor addr 0x11d8368 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x1167118 size 0x4 virtual false final false
   inline void _ctor(::StringW name, ::System::Exception* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsAttributeTableGenerationException", modifiers: "&&", def_value: None }]

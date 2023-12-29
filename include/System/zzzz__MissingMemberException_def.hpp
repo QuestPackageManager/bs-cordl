@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::MissingMemberException);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2436))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2528))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2434))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2526))
 // CS Name: ::System::MissingMemberException*
 class CORDL_TYPE MissingMemberException : public ::System::MemberAccessException {
 public:
@@ -60,26 +60,26 @@ public:
 
   static inline ::System::MissingMemberException* New_ctor();
 
-  /// @brief Method .ctor addr 0x25d1818 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x24748f0 size 0x5c virtual false final false
   inline void _ctor();
 
   static inline ::System::MissingMemberException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x25d17a8 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2474880 size 0x24 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::MissingMemberException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x25d1878 size 0x184 virtual false final false
+  /// @brief Method .ctor addr 0x2474950 size 0x184 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData addr 0x25d1c3c size 0x15c virtual true final false
+  /// @brief Method GetObjectData addr 0x2474d14 size 0x15c virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Message addr 0x25d1b10 size 0x12c virtual true final false
+  /// @brief Method get_Message addr 0x2474be8 size 0x12c virtual true final false
   inline ::StringW get_Message();
 
-  /// @brief Method FormatSignature addr 0x25d1d98 size 0x48 virtual false final false
+  /// @brief Method FormatSignature addr 0x2474e70 size 0x48 virtual false final false
   static inline ::StringW FormatSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   // Ctor Parameters [CppParam { name: "", ty: "MissingMemberException", modifiers: "&&", def_value: None }]
@@ -109,6 +109,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::MissingMemberException, 0xa8>, "Size mismatch!");
+
+static_assert(offsetof(::System::MissingMemberException, ___ClassName) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::System::MissingMemberException, ___MemberName) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::System::MissingMemberException, ___Signature) == 0xa0, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::MissingMemberException);

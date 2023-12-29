@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Yoga::YogaPositionType);
 namespace UnityEngine::Yoga {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15353))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15383))
 // CS Name: ::UnityEngine.Yoga::YogaPositionType
 struct CORDL_TYPE YogaPositionType {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Yoga::YogaPositionType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Yoga::YogaPositionType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Yoga
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Yoga::YogaPositionType, "UnityEngine.Yoga", "YogaPositionType");

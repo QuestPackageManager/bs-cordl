@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlSchemaAnyAttribute)
 namespace System::Xml::Schema {
-struct XmlSchemaContentProcessing;
+class NamespaceList;
 }
 namespace System::Xml::Schema {
-class NamespaceList;
+struct XmlSchemaContentProcessing;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaAnyAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11714)), TypeDefinitionIndex(TypeDefinitionIndex(11721))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11716))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11649)), TypeDefinitionIndex(TypeDefinitionIndex(11642))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11644))
 // CS Name: ::System.Xml.Schema::XmlSchemaAnyAttribute*
 class CORDL_TYPE XmlSchemaAnyAttribute : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
@@ -57,15 +57,15 @@ public:
 
   constexpr void __set_namespaceList(::System::Xml::Schema::NamespaceList* value);
 
-  /// @brief Method set_ProcessContents addr 0x28c723c size 0x8 virtual false final false
+  /// @brief Method set_ProcessContents addr 0x2749218 size 0x8 virtual false final false
   inline void set_ProcessContents(::System::Xml::Schema::XmlSchemaContentProcessing value);
 
-  /// @brief Method BuildNamespaceList addr 0x28c7244 size 0x90 virtual false final false
+  /// @brief Method BuildNamespaceList addr 0x2749220 size 0x90 virtual false final false
   inline void BuildNamespaceList(::StringW targetNamespace);
 
   static inline ::System::Xml::Schema::XmlSchemaAnyAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x28c72d4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27492b0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAnyAttribute", modifiers: "&&", def_value: None }]
@@ -95,6 +95,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaAnyAttribute, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaAnyAttribute, ___ns) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaAnyAttribute, ___processContents) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaAnyAttribute, ___namespaceList) == 0x20, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaAnyAttribute);

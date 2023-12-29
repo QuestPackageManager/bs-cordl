@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Security::SecureString);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2885))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2881))
 // CS Name: ::System.Security::SecureString*
 class CORDL_TYPE SecureString : public ::System::Object {
 public:
@@ -59,30 +59,30 @@ public:
 
   static inline ::System::Security::SecureString* New_ctor();
 
-  /// @brief Method .ctor addr 0x245294c size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x22f8e30 size 0x24 virtual false final false
   inline void _ctor();
 
   static inline ::System::Security::SecureString* New_ctor(::cordl_internals::Ptr<char16_t> value, int32_t length);
 
-  /// @brief Method .ctor addr 0x2452aec size 0x14c virtual false final false
+  /// @brief Method .ctor addr 0x22f8fd0 size 0x14c virtual false final false
   inline void _ctor(::cordl_internals::Ptr<char16_t> value, int32_t length);
 
-  /// @brief Method get_Length addr 0x2452c3c size 0x64 virtual false final false
+  /// @brief Method get_Length addr 0x22f9120 size 0x64 virtual false final false
   inline int32_t get_Length();
 
-  /// @brief Method Dispose addr 0x2452ca0 size 0x38 virtual true final true
+  /// @brief Method Dispose addr 0x22f9184 size 0x38 virtual true final true
   inline void Dispose();
 
-  /// @brief Method Encrypt addr 0x2452c38 size 0x4 virtual false final false
+  /// @brief Method Encrypt addr 0x22f911c size 0x4 virtual false final false
   inline void Encrypt();
 
-  /// @brief Method Decrypt addr 0x2452cd8 size 0x4 virtual false final false
+  /// @brief Method Decrypt addr 0x22f91bc size 0x4 virtual false final false
   inline void Decrypt();
 
-  /// @brief Method Alloc addr 0x2452970 size 0x17c virtual false final false
+  /// @brief Method Alloc addr 0x22f8e54 size 0x17c virtual false final false
   inline void Alloc(int32_t length, bool realloc);
 
-  /// @brief Method GetBuffer addr 0x2452cdc size 0xb0 virtual false final false
+  /// @brief Method GetBuffer addr 0x22f91c0 size 0xb0 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBuffer();
 
   // Ctor Parameters [CppParam { name: "", ty: "SecureString", modifiers: "&&", def_value: None }]
@@ -112,6 +112,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::SecureString, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::SecureString, ___length) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::SecureString, ___disposed) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::SecureString, ___data) == 0x18, "Offset mismatch!");
 
 } // namespace System::Security
 NEED_NO_BOX(::System::Security::SecureString);

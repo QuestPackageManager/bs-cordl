@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VRMessageOverlayResponse);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8627))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9396))
 // CS Name: ::OVR.OpenVR::VRMessageOverlayResponse
 struct CORDL_TYPE VRMessageOverlayResponse {
 public:
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VRMessageOverlayResponse, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRMessageOverlayResponse, value__) == 0x0, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VRMessageOverlayResponse, "OVR.OpenVR", "VRMessageOverlayResponse");

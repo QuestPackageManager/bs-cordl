@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::EventCallbackListPool);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7165))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7251))
 // CS Name: ::UnityEngine.UIElements::EventCallbackListPool*
 class CORDL_TYPE EventCallbackListPool : public ::System::Object {
 public:
@@ -35,15 +35,15 @@ public:
 
   constexpr void __set_m_Stack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* value);
 
-  /// @brief Method Get addr 0x2e4ad94 size 0xc4 virtual false final false
+  /// @brief Method Get addr 0x2ce29e4 size 0xc4 virtual false final false
   inline ::UnityEngine::UIElements::EventCallbackList* Get(::UnityEngine::UIElements::EventCallbackList* initializer);
 
-  /// @brief Method Release addr 0x2e4b0f8 size 0x64 virtual false final false
+  /// @brief Method Release addr 0x2ce2d48 size 0x64 virtual false final false
   inline void Release(::UnityEngine::UIElements::EventCallbackList* element);
 
   static inline ::UnityEngine::UIElements::EventCallbackListPool* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e4b1c8 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x2ce2e18 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventCallbackListPool", modifiers: "&&", def_value: None }]
@@ -67,6 +67,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventCallbackListPool, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::EventCallbackListPool, ___m_Stack) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::EventCallbackListPool);

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::LocalDataStoreElement);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2542))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2540))
 // CS Name: ::System::LocalDataStoreElement*
 class CORDL_TYPE LocalDataStoreElement : public ::System::Object {
 public:
@@ -48,16 +48,16 @@ public:
 
   static inline ::System::LocalDataStoreElement* New_ctor(int64_t cookie);
 
-  /// @brief Method .ctor addr 0x25d7c04 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x247bcdc size 0x28 virtual false final false
   inline void _ctor(int64_t cookie);
 
-  /// @brief Method get_Value addr 0x25d7c2c size 0x8 virtual false final false
+  /// @brief Method get_Value addr 0x247bd04 size 0x8 virtual false final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method set_Value addr 0x25d7c34 size 0x8 virtual false final false
+  /// @brief Method set_Value addr 0x247bd0c size 0x8 virtual false final false
   inline void set_Value(::System::Object* value);
 
-  /// @brief Method get_Cookie addr 0x25d7c3c size 0x8 virtual false final false
+  /// @brief Method get_Cookie addr 0x247bd14 size 0x8 virtual false final false
   inline int64_t get_Cookie();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalDataStoreElement", modifiers: "&&", def_value: None }]
@@ -84,6 +84,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::LocalDataStoreElement, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::LocalDataStoreElement, ___m_value) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::LocalDataStoreElement, ___m_cookie) == 0x18, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::LocalDataStoreElement);

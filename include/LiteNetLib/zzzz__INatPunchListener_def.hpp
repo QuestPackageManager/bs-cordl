@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(INatPunchListener)
-namespace LiteNetLib {
-struct NatAddressType;
-}
 namespace System::Net {
 class IPEndPoint;
+}
+namespace LiteNetLib {
+struct NatAddressType;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::LiteNetLib::INatPunchListener);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14145))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14483))
 // CS Name: ::LiteNetLib::INatPunchListener*
 class CORDL_TYPE INatPunchListener {
 public:

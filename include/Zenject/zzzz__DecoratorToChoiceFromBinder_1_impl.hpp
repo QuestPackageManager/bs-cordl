@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__DecoratorToChoiceFromBinder_1_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__FactoryFromBinder_2_def.hpp"
 #include "Zenject/zzzz__FactoryBindInfo_def.hpp"
+#include "Zenject/zzzz__FactoryFromBinder_2_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 template <typename TContract> constexpr ::Zenject::DiContainer*& Zenject::DecoratorToChoiceFromBinder_1<TContract>::__get__bindContainer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindContainer;

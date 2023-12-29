@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IX509Extension)
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {

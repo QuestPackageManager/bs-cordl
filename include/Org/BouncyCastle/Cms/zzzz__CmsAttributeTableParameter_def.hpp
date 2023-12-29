@@ -66,5 +66,7 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsAttributeTableParameter, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsAttributeTableParameter, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Cms
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsAttributeTableParameter, "Org.BouncyCastle.Cms", "CmsAttributeTableParameter");

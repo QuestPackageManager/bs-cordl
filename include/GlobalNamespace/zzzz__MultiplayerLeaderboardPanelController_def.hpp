@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLeaderboardPanelController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5037))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5142))
 // CS Name: ::MultiplayerLeaderboardPanelController*
 class CORDL_TYPE MultiplayerLeaderboardPanelController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -45,15 +45,15 @@ public:
 
   constexpr void __set__scoreProvider(::GlobalNamespace::MultiplayerScoreProvider* value);
 
-  /// @brief Method Start addr 0x23c1940 size 0x60 virtual false final false
+  /// @brief Method Start addr 0x22885d4 size 0x60 virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x23c19cc size 0x248 virtual false final false
+  /// @brief Method Update addr 0x2288660 size 0x248 virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::MultiplayerLeaderboardPanelController* New_ctor();
 
-  /// @brief Method .ctor addr 0x23c1ee4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2288b78 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLeaderboardPanelController", modifiers: "&&", def_value: None }]
@@ -80,6 +80,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLeaderboardPanelController, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLeaderboardPanelController, ____items) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLeaderboardPanelController, ____scoreProvider) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLeaderboardPanelController);

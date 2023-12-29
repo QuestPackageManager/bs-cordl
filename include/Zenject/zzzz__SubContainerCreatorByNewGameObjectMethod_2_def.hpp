@@ -9,18 +9,6 @@ CORDL_MODULE_EXPORT(SubContainerCreatorByNewGameObjectMethod_2)
 namespace Zenject {
 class DiContainer;
 }
-namespace Zenject {
-template <typename TParam1, typename TParam2> class __SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0;
-}
-namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
@@ -28,10 +16,22 @@ namespace Zenject {
 class GameObjectContext;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class GameObjectCreationParameters;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2> class __SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace System {
 class Object;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -49,8 +49,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11261))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11189))
 // CS Name: ::SubContainerCreatorByNewGameObjectMethod`2::<>c__DisplayClass2_0<TParam1,TParam2>*
 class CORDL_TYPE __SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -117,8 +117,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11255))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11262))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11183))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11190))
 // CS Name: ::Zenject::SubContainerCreatorByNewGameObjectMethod`2<TParam1,TParam2>*
 class CORDL_TYPE SubContainerCreatorByNewGameObjectMethod_2 : public ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext {
 public:

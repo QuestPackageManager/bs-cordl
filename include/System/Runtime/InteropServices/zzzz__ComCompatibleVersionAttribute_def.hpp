@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::ComCompatibleVersionAttribute
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3332))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3329))
 // CS Name: ::System.Runtime.InteropServices::ComCompatibleVersionAttribute*
 class CORDL_TYPE ComCompatibleVersionAttribute : public ::System::Attribute {
 public:
@@ -59,7 +59,7 @@ public:
 
   static inline ::System::Runtime::InteropServices::ComCompatibleVersionAttribute* New_ctor(int32_t major, int32_t minor, int32_t build, int32_t revision);
 
-  /// @brief Method .ctor addr 0x24d75d4 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x237e6ec size 0x40 virtual false final false
   inline void _ctor(int32_t major, int32_t minor, int32_t build, int32_t revision);
 
   // Ctor Parameters [CppParam { name: "", ty: "ComCompatibleVersionAttribute", modifiers: "&&", def_value: None }]
@@ -92,6 +92,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::ComCompatibleVersionAttribute, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::ComCompatibleVersionAttribute, ____major) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::ComCompatibleVersionAttribute, ____minor) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::ComCompatibleVersionAttribute, ____build) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::ComCompatibleVersionAttribute, ____revision) == 0x1c, "Offset mismatch!");
 
 } // namespace System::Runtime::InteropServices
 NEED_NO_BOX(::System::Runtime::InteropServices::ComCompatibleVersionAttribute);

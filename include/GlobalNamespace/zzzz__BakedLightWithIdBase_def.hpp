@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BakedLightWithIdBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15274))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15303))
 // CS Name: ::BakedLightWithIdBase*
 class CORDL_TYPE BakedLightWithIdBase : public ::UnityEngine::MonoBehaviour {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::GlobalNamespace::BakedLightWithIdBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x28063e0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x268b758 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BakedLightWithIdBase", modifiers: "&&", def_value: None }]

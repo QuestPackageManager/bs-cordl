@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Diagnostics::Tracing::EventAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics::Tracing {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3743)), TypeDefinitionIndex(TypeDefinitionIndex(3744)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3745))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3732)), TypeDefinitionIndex(TypeDefinitionIndex(2545)), TypeDefinitionIndex(TypeDefinitionIndex(3731))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3733))
 // CS Name: ::System.Diagnostics.Tracing::EventAttribute*
 class CORDL_TYPE EventAttribute : public ::System::Attribute {
 public:
@@ -76,19 +76,19 @@ public:
 
   static inline ::System::Diagnostics::Tracing::EventAttribute* New_ctor(int32_t eventId);
 
-  /// @brief Method .ctor addr 0x257b8c4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x242044c size 0x28 virtual false final false
   inline void _ctor(int32_t eventId);
 
-  /// @brief Method set_EventId addr 0x257b8ec size 0x8 virtual false final false
+  /// @brief Method set_EventId addr 0x2420474 size 0x8 virtual false final false
   inline void set_EventId(int32_t value);
 
-  /// @brief Method set_Level addr 0x257b8f4 size 0x8 virtual false final false
+  /// @brief Method set_Level addr 0x242047c size 0x8 virtual false final false
   inline void set_Level(::System::Diagnostics::Tracing::EventLevel value);
 
-  /// @brief Method set_Keywords addr 0x257b8fc size 0x8 virtual false final false
+  /// @brief Method set_Keywords addr 0x2420484 size 0x8 virtual false final false
   inline void set_Keywords(::System::Diagnostics::Tracing::EventKeywords value);
 
-  /// @brief Method set_Message addr 0x257b904 size 0x8 virtual false final false
+  /// @brief Method set_Message addr 0x242048c size 0x8 virtual false final false
   inline void set_Message(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "EventAttribute", modifiers: "&&", def_value: None }]
@@ -121,6 +121,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::Tracing::EventAttribute, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Tracing::EventAttribute, ____EventId_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Tracing::EventAttribute, ____Level_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Tracing::EventAttribute, ____Keywords_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Tracing::EventAttribute, ____Message_k__BackingField) == 0x20, "Offset mismatch!");
 
 } // namespace System::Diagnostics::Tracing
 NEED_NO_BOX(::System::Diagnostics::Tracing::EventAttribute);

@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Services::ITrackingHandler);
 namespace System::Runtime::Remoting::Services {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3084))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3083))
 // CS Name: ::System.Runtime.Remoting.Services::ITrackingHandler*
 class CORDL_TYPE ITrackingHandler {
 public:

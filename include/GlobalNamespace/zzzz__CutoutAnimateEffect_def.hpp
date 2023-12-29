@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CutoutAnimateEffect)
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace GlobalNamespace {
-class CutoutEffect;
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace GlobalNamespace {
 class __CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7;
 }
+namespace GlobalNamespace {
+class CutoutEffect;
+}
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCorouti
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4839))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4959))
 // CS Name: ::CutoutAnimateEffect::<AnimateToCutoutCoroutine>d__7*
 class CORDL_TYPE __CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7 : public ::System::Object {
 public:
@@ -127,22 +127,22 @@ public:
 
   static inline ::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2396940 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2261f2c size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2396a60 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x226204c size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2396a64 size 0xf8 virtual true final true
+  /// @brief Method MoveNext addr 0x2262050 size 0xf8 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2396b5c size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2262148 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2396b64 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2262150 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2396ba4 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2262190 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7", modifiers: "&&", def_value: None }]
@@ -185,13 +185,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7, ___duration) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7, ___cutoutStart) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7, ___cutoutEnd) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7, ____elapsedTime_5__2) == 0x34, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::CutoutAnimateEffect
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4840))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4960))
 // CS Name: ::CutoutAnimateEffect*
 class CORDL_TYPE CutoutAnimateEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -227,30 +241,30 @@ public:
 
   constexpr void __set__animating_k__BackingField(bool value);
 
-  /// @brief Method get_animating addr 0x239682c size 0x8 virtual false final false
+  /// @brief Method get_animating addr 0x2261e18 size 0x8 virtual false final false
   inline bool get_animating();
 
-  /// @brief Method set_animating addr 0x2396834 size 0xc virtual false final false
+  /// @brief Method set_animating addr 0x2261e20 size 0xc virtual false final false
   inline void set_animating(bool value);
 
-  /// @brief Method Start addr 0x2396840 size 0x8 virtual false final false
+  /// @brief Method Start addr 0x2261e2c size 0x8 virtual false final false
   inline void Start();
 
-  /// @brief Method AnimateToCutoutCoroutine addr 0x23968b4 size 0x8c virtual false final false
+  /// @brief Method AnimateToCutoutCoroutine addr 0x2261ea0 size 0x8c virtual false final false
   inline ::System::Collections::IEnumerator* AnimateToCutoutCoroutine(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
-  /// @brief Method SetCutout addr 0x2396848 size 0x6c virtual false final false
+  /// @brief Method SetCutout addr 0x2261e34 size 0x6c virtual false final false
   inline void SetCutout(float_t cutout);
 
-  /// @brief Method ResetEffect addr 0x238e510 size 0x24 virtual false final false
+  /// @brief Method ResetEffect addr 0x2252254 size 0x24 virtual false final false
   inline void ResetEffect();
 
-  /// @brief Method AnimateCutout addr 0x238e558 size 0x54 virtual false final false
+  /// @brief Method AnimateCutout addr 0x225a108 size 0x54 virtual false final false
   inline void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
   static inline ::GlobalNamespace::CutoutAnimateEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x2396a2c size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x2262018 size 0x34 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CutoutAnimateEffect", modifiers: "&&", def_value: None }]
@@ -280,6 +294,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CutoutAnimateEffect, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CutoutAnimateEffect, ____cuttoutEffects) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CutoutAnimateEffect, ____transitionCurve) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CutoutAnimateEffect, ____animating_k__BackingField) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CutoutAnimateEffect);

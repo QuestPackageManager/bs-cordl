@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISO10126d2Padding)
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto::Paddings {
 class IBlockCipherPadding;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Paddings {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Paddings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1006))
 // CS Name: ::Org.BouncyCastle.Crypto.Paddings::ISO10126d2Padding*
 class CORDL_TYPE ISO10126d2Padding : public ::System::Object {
@@ -43,21 +43,21 @@ public:
 
   constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method Init addr 0xf2e114 size 0x6c virtual true final true
+  /// @brief Method Init addr 0xeb8f28 size 0x6c virtual true final true
   inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_PaddingName addr 0xf2e180 size 0x40 virtual true final true
+  /// @brief Method get_PaddingName addr 0xeb8f94 size 0x40 virtual true final true
   inline ::StringW get_PaddingName();
 
-  /// @brief Method AddPadding addr 0xf2e1c0 size 0xb4 virtual true final true
+  /// @brief Method AddPadding addr 0xeb8fd4 size 0xb4 virtual true final true
   inline int32_t AddPadding(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method PadCount addr 0xf2e274 size 0x84 virtual true final true
+  /// @brief Method PadCount addr 0xeb9088 size 0x84 virtual true final true
   inline int32_t PadCount(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   static inline ::Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding* New_ctor();
 
-  /// @brief Method .ctor addr 0xf2e2f8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xeb910c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ISO10126d2Padding", modifiers: "&&", def_value: None }]
@@ -81,6 +81,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding, ___random) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Paddings
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding);

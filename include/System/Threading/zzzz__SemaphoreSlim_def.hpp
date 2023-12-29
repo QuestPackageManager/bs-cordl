@@ -12,11 +12,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SemaphoreSlim)
-namespace System::Threading {
-struct __SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32;
+namespace System {
+class Object;
 }
 namespace System::Threading {
-class ManualResetEvent;
+struct CancellationToken;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -24,8 +24,8 @@ template <typename TResult> class Task_1;
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace System::Threading {
+class ManualResetEvent;
 }
 namespace System::Threading {
 class __SemaphoreSlim__TaskNode;
@@ -34,28 +34,28 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-class Object;
+template <typename T> class Action_1;
 }
 namespace System::Threading {
-struct CancellationToken;
+struct __SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32;
+}
+namespace System::Threading {
+class IThreadPoolWorkItem;
 }
 namespace System::Threading {
 class ThreadAbortException;
 }
 namespace System::Threading {
-class IThreadPoolWorkItem;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+class CancellationTokenSource;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
-namespace System::Threading {
-class CancellationTokenSource;
-}
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -75,8 +75,8 @@ MARK_VAL_T(::System::Threading::__SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2773))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2697))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2769), inst: 112 }), TypeDefinitionIndex(TypeDefinitionIndex(2769))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2695))
 // CS Name: ::SemaphoreSlim::TaskNode*
 class CORDL_TYPE __SemaphoreSlim__TaskNode : public ::System::Threading::Tasks::Task_1<bool> {
 public:
@@ -104,13 +104,13 @@ public:
 
   static inline ::System::Threading::__SemaphoreSlim__TaskNode* New_ctor();
 
-  /// @brief Method .ctor addr 0x2614edc size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x24b9ec0 size 0x48 virtual false final false
   inline void _ctor();
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem addr 0x26155fc size 0x4c virtual true final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem addr 0x24ba5e0 size 0x4c virtual true final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted addr 0x2615648 size 0x4 virtual true final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted addr 0x24ba62c size 0x4 virtual true final true
   inline void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SemaphoreSlim__TaskNode", modifiers: "&&", def_value: None }]
@@ -138,25 +138,29 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::__SemaphoreSlim__TaskNode, 0x68>, "Size mismatch!");
 
+static_assert(offsetof(::System::Threading::__SemaphoreSlim__TaskNode, ___Prev) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::__SemaphoreSlim__TaskNode, ___Next) == 0x60, "Offset mismatch!");
+
 } // namespace System::Threading
 // Type: ::<WaitUntilCountOrTimeoutAsync>d__32
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2787)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 400 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2698)) CS
-// Name: ::SemaphoreSlim::<WaitUntilCountOrTimeoutAsync>d__32
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3392)), TypeDefinitionIndex(TypeDefinitionIndex(2783)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 396
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 112 }), TypeDefinitionIndex(TypeDefinitionIndex(2675)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3392), inst: 112 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2696)) CS Name:
+// ::SemaphoreSlim::<WaitUntilCountOrTimeoutAsync>d__32
 struct CORDL_TYPE __SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x261564c size 0x76c virtual true final true
+  /// @brief Method MoveNext addr 0x24ba630 size 0x76c virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x2615db8 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0x24bad9c size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -215,13 +219,33 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::__SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32, 0x70>, "Size mismatch!");
 
+static_assert(offsetof(::System::Threading::__SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::__SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::__SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32, cancellationToken) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::__SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32, asyncWaiter) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::__SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32, millisecondsTimeout) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::__SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32, __4__this) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::__SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32, _cts_5__2) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::__SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32, __7__wrap2) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::__SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32, __u__1) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::__SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32, __u__2) == 0x60, "Offset mismatch!");
+
 } // namespace System::Threading
 // Type: System.Threading::SemaphoreSlim
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2699))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2697))
 // CS Name: ::System.Threading::SemaphoreSlim*
 class CORDL_TYPE SemaphoreSlim : public ::System::Object {
 public:
@@ -320,72 +344,72 @@ public:
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_cancellationTokenCanceledEventHandler();
 
-  /// @brief Method get_CurrentCount addr 0x2614218 size 0x18 virtual false final false
+  /// @brief Method get_CurrentCount addr 0x24b91fc size 0x18 virtual false final false
   inline int32_t get_CurrentCount();
 
   static inline ::System::Threading::SemaphoreSlim* New_ctor(int32_t initialCount);
 
-  /// @brief Method .ctor addr 0x2614230 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24b9214 size 0x8 virtual false final false
   inline void _ctor(int32_t initialCount);
 
   static inline ::System::Threading::SemaphoreSlim* New_ctor(int32_t initialCount, int32_t maxCount);
 
-  /// @brief Method .ctor addr 0x2614238 size 0x194 virtual false final false
+  /// @brief Method .ctor addr 0x24b921c size 0x194 virtual false final false
   inline void _ctor(int32_t initialCount, int32_t maxCount);
 
-  /// @brief Method Wait addr 0x26143d4 size 0xc virtual false final false
+  /// @brief Method Wait addr 0x24b93b8 size 0xc virtual false final false
   inline void Wait();
 
-  /// @brief Method Wait addr 0x26148b8 size 0x8 virtual false final false
+  /// @brief Method Wait addr 0x24b989c size 0x8 virtual false final false
   inline bool Wait(int32_t millisecondsTimeout);
 
-  /// @brief Method Wait addr 0x26143e0 size 0x4d8 virtual false final false
+  /// @brief Method Wait addr 0x24b93c4 size 0x4d8 virtual false final false
   inline bool Wait(int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WaitUntilCountOrTimeout addr 0x2614c28 size 0x90 virtual false final false
+  /// @brief Method WaitUntilCountOrTimeout addr 0x24b9c0c size 0x90 virtual false final false
   inline bool WaitUntilCountOrTimeout(int32_t millisecondsTimeout, uint32_t startTime, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WaitAsync addr 0x2614d1c size 0xc virtual false final false
+  /// @brief Method WaitAsync addr 0x24b9d00 size 0xc virtual false final false
   inline ::System::Threading::Tasks::Task* WaitAsync();
 
-  /// @brief Method WaitAsync addr 0x2614d28 size 0xc virtual false final false
+  /// @brief Method WaitAsync addr 0x24b9d0c size 0xc virtual false final false
   inline ::System::Threading::Tasks::Task* WaitAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WaitAsync addr 0x2614944 size 0x2e4 virtual false final false
+  /// @brief Method WaitAsync addr 0x24b9928 size 0x2e4 virtual false final false
   inline ::System::Threading::Tasks::Task_1<bool>* WaitAsync(int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method CreateAndAddAsyncWaiter addr 0x2614d34 size 0x84 virtual false final false
+  /// @brief Method CreateAndAddAsyncWaiter addr 0x24b9d18 size 0x84 virtual false final false
   inline ::System::Threading::__SemaphoreSlim__TaskNode* CreateAndAddAsyncWaiter();
 
-  /// @brief Method RemoveAsyncWaiter addr 0x2614f24 size 0x80 virtual false final false
+  /// @brief Method RemoveAsyncWaiter addr 0x24b9f08 size 0x80 virtual false final false
   inline bool RemoveAsyncWaiter(::System::Threading::__SemaphoreSlim__TaskNode* task);
 
-  /// @brief Method WaitUntilCountOrTimeoutAsync addr 0x2614db8 size 0x124 virtual false final false
+  /// @brief Method WaitUntilCountOrTimeoutAsync addr 0x24b9d9c size 0x124 virtual false final false
   inline ::System::Threading::Tasks::Task_1<bool>* WaitUntilCountOrTimeoutAsync(::System::Threading::__SemaphoreSlim__TaskNode* asyncWaiter, int32_t millisecondsTimeout,
                                                                                 ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Release addr 0x2614fa4 size 0x8 virtual false final false
+  /// @brief Method Release addr 0x24b9f88 size 0x8 virtual false final false
   inline int32_t Release();
 
-  /// @brief Method Release addr 0x2614fac size 0x2e4 virtual false final false
+  /// @brief Method Release addr 0x24b9f90 size 0x2e4 virtual false final false
   inline int32_t Release(int32_t releaseCount);
 
-  /// @brief Method QueueWaiterTask addr 0x26152e8 size 0xc virtual false final false
+  /// @brief Method QueueWaiterTask addr 0x24ba2cc size 0xc virtual false final false
   static inline void QueueWaiterTask(::System::Threading::__SemaphoreSlim__TaskNode* waiterTask);
 
-  /// @brief Method Dispose addr 0x26152f4 size 0x6c virtual true final true
+  /// @brief Method Dispose addr 0x24ba2d8 size 0x6c virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x2615360 size 0x5c virtual true final false
+  /// @brief Method Dispose addr 0x24ba344 size 0x5c virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method CancellationTokenCanceledEventHandler addr 0x26153bc size 0x114 virtual false final false
+  /// @brief Method CancellationTokenCanceledEventHandler addr 0x24ba3a0 size 0x114 virtual false final false
   static inline void CancellationTokenCanceledEventHandler(::System::Object* obj);
 
-  /// @brief Method CheckDispose addr 0x26148c0 size 0x84 virtual false final false
+  /// @brief Method CheckDispose addr 0x24b98a4 size 0x84 virtual false final false
   inline void CheckDispose();
 
-  /// @brief Method GetResourceString addr 0x26143cc size 0x8 virtual false final false
+  /// @brief Method GetResourceString addr 0x24b93b0 size 0x8 virtual false final false
   static inline ::StringW GetResourceString(::StringW str);
 
   // Ctor Parameters [CppParam { name: "", ty: "SemaphoreSlim", modifiers: "&&", def_value: None }]
@@ -430,6 +454,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::SemaphoreSlim, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::SemaphoreSlim, ___m_currentCount) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::SemaphoreSlim, ___m_maxCount) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::SemaphoreSlim, ___m_waitCount) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::SemaphoreSlim, ___m_lockObj) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::SemaphoreSlim, ___m_waitHandle) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::SemaphoreSlim, ___m_asyncHead) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::SemaphoreSlim, ___m_asyncTail) == 0x38, "Offset mismatch!");
 
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::SemaphoreSlim);

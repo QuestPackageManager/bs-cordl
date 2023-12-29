@@ -5,29 +5,29 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MiscHelpers)
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __MiscHelpers___EveryNth_d__1_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> class __MiscHelpers___EveryNth_d__1_1;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -45,8 +45,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6679))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6765))
 // CS Name: ::MiscHelpers::<EveryNth>d__1`1<TValue>*
 class CORDL_TYPE __MiscHelpers___EveryNth_d__1_1 : public ::System::Object {
 public:
@@ -253,8 +253,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6680))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6766))
 // CS Name: ::UnityEngine.InputSystem.Utilities::MiscHelpers*
 class CORDL_TYPE MiscHelpers : public ::System::Object {
 public:

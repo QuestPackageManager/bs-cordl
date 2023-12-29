@@ -9,14 +9,14 @@ class Task;
 namespace System {
 template <typename TResult> class Func_1;
 }
+namespace System {
+class Action;
+}
 namespace GlobalNamespace {
 class IStandaloneThreadRunner;
 }
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace System {
-class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IStandaloneMonobehavior);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12817))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12735))
 // CS Name: ::IStandaloneMonobehavior*
 class CORDL_TYPE IStandaloneMonobehavior {
 public:

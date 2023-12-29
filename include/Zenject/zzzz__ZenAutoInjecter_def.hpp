@@ -9,9 +9,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenAutoInjecter)
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
@@ -19,6 +16,9 @@ struct __ZenAutoInjecter__ContainerSources;
 }
 namespace System {
 class Object;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::Zenject::ZenAutoInjecter);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11359))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11287))
 // CS Name: ::ZenAutoInjecter::ContainerSources
 struct CORDL_TYPE __ZenAutoInjecter__ContainerSources {
 public:
@@ -81,13 +81,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__ZenAutoInjecter__ContainerSources, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__ZenAutoInjecter__ContainerSources, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: Zenject::ZenAutoInjecter
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11359)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11360))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(11287))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11288))
 // CS Name: ::Zenject::ZenAutoInjecter*
 class CORDL_TYPE ZenAutoInjecter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -114,33 +116,33 @@ public:
 
   constexpr void __set__hasInjected(bool value);
 
-  /// @brief Method get_ContainerSource addr 0x2f1fc6c size 0x8 virtual false final false
+  /// @brief Method get_ContainerSource addr 0x2db7e9c size 0x8 virtual false final false
   inline ::Zenject::__ZenAutoInjecter__ContainerSources get_ContainerSource();
 
-  /// @brief Method set_ContainerSource addr 0x2f1fc74 size 0x8 virtual false final false
+  /// @brief Method set_ContainerSource addr 0x2db7ea4 size 0x8 virtual false final false
   inline void set_ContainerSource(::Zenject::__ZenAutoInjecter__ContainerSources value);
 
-  /// @brief Method Construct addr 0x2f1fc7c size 0x44 virtual false final false
+  /// @brief Method Construct addr 0x2db7eac size 0x44 virtual false final false
   inline void Construct();
 
-  /// @brief Method Awake addr 0x2f1fcc0 size 0x48 virtual false final false
+  /// @brief Method Awake addr 0x2db7ef0 size 0x48 virtual false final false
   inline void Awake();
 
-  /// @brief Method LookupContainer addr 0x2f1fd08 size 0x158 virtual false final false
+  /// @brief Method LookupContainer addr 0x2db7f38 size 0x158 virtual false final false
   inline ::Zenject::DiContainer* LookupContainer();
 
-  /// @brief Method GetContainerForCurrentScene addr 0x2f1fe60 size 0x90 virtual false final false
+  /// @brief Method GetContainerForCurrentScene addr 0x2db8090 size 0x90 virtual false final false
   inline ::Zenject::DiContainer* GetContainerForCurrentScene();
 
   static inline ::Zenject::ZenAutoInjecter* New_ctor();
 
-  /// @brief Method .ctor addr 0x2f1fef0 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2db8120 size 0x10 virtual false final false
   inline void _ctor();
 
-  /// @brief Method __zenInjectMethod0 addr 0x2f1ff00 size 0x80 virtual false final false
+  /// @brief Method __zenInjectMethod0 addr 0x2db8130 size 0x80 virtual false final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f1ff80 size 0x254 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2db81b0 size 0x254 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "ZenAutoInjecter", modifiers: "&&", def_value: None }]
@@ -167,6 +169,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::ZenAutoInjecter, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::ZenAutoInjecter, ____containerSource) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::ZenAutoInjecter, ____hasInjected) == 0x1c, "Offset mismatch!");
 
 } // namespace Zenject
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::__ZenAutoInjecter__ContainerSources, "Zenject", "ZenAutoInjecter/ContainerSources");

@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectableStateController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5455))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5561))
 // CS Name: ::SelectableStateController::ViewState
 struct CORDL_TYPE __SelectableStateController__ViewState {
 public:
@@ -89,13 +89,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SelectableStateController__ViewState, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SelectableStateController__ViewState, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SelectableStateController
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5455))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5456))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5561)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5562))
 // CS Name: ::SelectableStateController*
 class CORDL_TYPE SelectableStateController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -136,30 +138,30 @@ public:
 
   constexpr void __set__currentViewState_k__BackingField(::GlobalNamespace::__SelectableStateController__ViewState value);
 
-  /// @brief Method add_stateDidChangeEvent addr 0x227cab0 size 0xb0 virtual false final false
+  /// @brief Method add_stateDidChangeEvent addr 0x213ded8 size 0xb0 virtual false final false
   inline void add_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::__SelectableStateController__ViewState, bool>* value);
 
-  /// @brief Method remove_stateDidChangeEvent addr 0x227cbf0 size 0xb0 virtual false final false
+  /// @brief Method remove_stateDidChangeEvent addr 0x213df88 size 0xb0 virtual false final false
   inline void remove_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::__SelectableStateController__ViewState, bool>* value);
 
-  /// @brief Method get_tweeningManager addr 0x227f5c8 size 0x8 virtual false final false
+  /// @brief Method get_tweeningManager addr 0x213e038 size 0x8 virtual false final false
   inline ::Tweening::TimeTweeningManager* get_tweeningManager();
 
-  /// @brief Method get_viewState addr 0x227cb60 size 0x8 virtual false final false
+  /// @brief Method get_viewState addr 0x213e040 size 0x8 virtual false final false
   inline ::GlobalNamespace::__SelectableStateController__ViewState get_viewState();
 
-  /// @brief Method get_currentViewState addr 0x227f5d0 size 0x8 virtual false final false
+  /// @brief Method get_currentViewState addr 0x213e048 size 0x8 virtual false final false
   inline ::GlobalNamespace::__SelectableStateController__ViewState get_currentViewState();
 
-  /// @brief Method set_currentViewState addr 0x227f5d8 size 0x8 virtual false final false
+  /// @brief Method set_currentViewState addr 0x213e050 size 0x8 virtual false final false
   inline void set_currentViewState(::GlobalNamespace::__SelectableStateController__ViewState value);
 
-  /// @brief Method SetState addr 0x227f5e0 size 0x24 virtual false final false
+  /// @brief Method SetState addr 0x213e058 size 0x24 virtual false final false
   inline void SetState(::GlobalNamespace::__SelectableStateController__ViewState state, bool animated);
 
   static inline ::GlobalNamespace::SelectableStateController* New_ctor();
 
-  /// @brief Method .ctor addr 0x227f604 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x213e07c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectableStateController", modifiers: "&&", def_value: None }]
@@ -189,6 +191,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectableStateController, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SelectableStateController, ____tweeningManager) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SelectableStateController, ___stateDidChangeEvent) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SelectableStateController, ____currentViewState_k__BackingField) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SelectableStateController__ViewState, "", "SelectableStateController/ViewState");

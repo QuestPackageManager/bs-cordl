@@ -18,8 +18,8 @@ MARK_VAL_T(::UnityEngine::UIElements::PanelClearSettings);
 // SizeInfo { instance_size: 20, native_size: 24, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6866))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6952))
 // CS Name: ::UnityEngine.UIElements::PanelClearSettings
 struct CORDL_TYPE PanelClearSettings {
 public:
@@ -48,6 +48,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PanelClearSettings, 0x14>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::PanelClearSettings, clearDepthStencil) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::PanelClearSettings, clearColor) == 0x1, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::PanelClearSettings, color) == 0x4, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PanelClearSettings, "UnityEngine.UIElements", "PanelClearSettings");

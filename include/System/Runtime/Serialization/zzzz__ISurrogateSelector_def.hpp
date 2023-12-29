@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(ISurrogateSelector)
 namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
 class ISerializationSurrogate;
 }
 namespace System {
 class Type;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ISurrogateSelector);
 namespace System::Runtime::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3204))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3203))
 // CS Name: ::System.Runtime.Serialization::ISurrogateSelector*
 class CORDL_TYPE ISurrogateSelector {
 public:

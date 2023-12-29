@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 CORDL_MODULE_EXPORT(ColorConverter)
-namespace System {
-class Object;
-}
 namespace Newtonsoft::Json {
-class JsonWriter;
+class JsonReader;
 }
 namespace System {
 class Type;
 }
-namespace Newtonsoft::Json {
-class JsonReader;
+namespace System {
+class Object;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -29,29 +29,29 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::ColorConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11830))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12030))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11758))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11958))
 // CS Name: ::Newtonsoft.Json.Converters::ColorConverter*
 class CORDL_TYPE ColorConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
   __declspec(property(get = get_CanRead)) bool CanRead;
 
-  /// @brief Method WriteJson addr 0x26b3750 size 0x1d4 virtual true final false
+  /// @brief Method WriteJson addr 0x254f00c size 0x1d4 virtual true final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method CanConvert addr 0x26b3924 size 0xc8 virtual true final false
+  /// @brief Method CanConvert addr 0x254f1e0 size 0xc8 virtual true final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method ReadJson addr 0x26b39ec size 0x2a8 virtual true final false
+  /// @brief Method ReadJson addr 0x254f2a8 size 0x2a8 virtual true final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method get_CanRead addr 0x26b3c94 size 0x8 virtual true final false
+  /// @brief Method get_CanRead addr 0x254f550 size 0x8 virtual true final false
   inline bool get_CanRead();
 
   static inline ::Newtonsoft::Json::Converters::ColorConverter* New_ctor();
 
-  /// @brief Method .ctor addr 0x26b3c9c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x254f558 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorConverter", modifiers: "&&", def_value: None }]

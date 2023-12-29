@@ -10,8 +10,17 @@ CORDL_MODULE_EXPORT(StyleSyntaxParser)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
-class Expression;
+struct ExpressionCombinator;
+}
+namespace UnityEngine::UIElements::StyleSheets::Syntax {
+struct ExpressionMultiplier;
+}
+namespace UnityEngine::UIElements::StyleSheets::Syntax {
+class StyleSyntaxTokenizer;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
@@ -20,16 +29,7 @@ namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct StyleSyntaxToken;
 }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
-struct ExpressionCombinator;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements::StyleSheets::Syntax {
-class StyleSyntaxTokenizer;
-}
-namespace UnityEngine::UIElements::StyleSheets::Syntax {
-struct ExpressionMultiplier;
+class Expression;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7491))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7577))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::StyleSyntaxParser*
 class CORDL_TYPE StyleSyntaxParser : public ::System::Object {
 public:
@@ -89,54 +89,54 @@ public:
 
   constexpr void __set_m_ParsedExpressionCache(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>* value);
 
-  /// @brief Method Parse addr 0x2df6fa8 size 0x198 virtual false final false
+  /// @brief Method Parse addr 0x2c8fbf8 size 0x198 virtual false final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* Parse(::StringW syntax);
 
-  /// @brief Method ParseExpression addr 0x2df7140 size 0x280 virtual false final false
+  /// @brief Method ParseExpression addr 0x2c8fd90 size 0x280 virtual false final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* ParseExpression(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer);
 
-  /// @brief Method ProcessCombinatorStack addr 0x2df78b0 size 0x2f0 virtual false final false
+  /// @brief Method ProcessCombinatorStack addr 0x2c90500 size 0x2f0 virtual false final false
   inline void ProcessCombinatorStack();
 
-  /// @brief Method ParseTerm addr 0x2df73c0 size 0x170 virtual false final false
+  /// @brief Method ParseTerm addr 0x2c90010 size 0x170 virtual false final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* ParseTerm(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer);
 
-  /// @brief Method ParseCombinatorType addr 0x2df7758 size 0x158 virtual false final false
+  /// @brief Method ParseCombinatorType addr 0x2c903a8 size 0x158 virtual false final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator ParseCombinatorType(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer);
 
-  /// @brief Method ParseGroup addr 0x2df7530 size 0x228 virtual false final false
+  /// @brief Method ParseGroup addr 0x2c90180 size 0x228 virtual false final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* ParseGroup(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer);
 
-  /// @brief Method ParseDataType addr 0x2df7c04 size 0x3e4 virtual false final false
+  /// @brief Method ParseDataType addr 0x2c90854 size 0x3e4 virtual false final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* ParseDataType(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer);
 
-  /// @brief Method ParseNonTerminalValue addr 0x2df81b8 size 0x154 virtual false final false
+  /// @brief Method ParseNonTerminalValue addr 0x2c90e08 size 0x154 virtual false final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* ParseNonTerminalValue(::StringW syntax);
 
-  /// @brief Method ParseProperty addr 0x2df830c size 0x2ec virtual false final false
+  /// @brief Method ParseProperty addr 0x2c90f5c size 0x2ec virtual false final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* ParseProperty(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer);
 
-  /// @brief Method ParseMultiplier addr 0x2df7fe8 size 0x17c virtual false final false
+  /// @brief Method ParseMultiplier addr 0x2c90c38 size 0x17c virtual false final false
   inline void ParseMultiplier(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer, ByRef<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier> multiplier);
 
-  /// @brief Method ParseRanges addr 0x2df8620 size 0x124 virtual false final false
+  /// @brief Method ParseRanges addr 0x2c91270 size 0x124 virtual false final false
   inline void ParseRanges(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer, ByRef<int32_t> min, ByRef<int32_t> max);
 
-  /// @brief Method EatSpace addr 0x2df8178 size 0x40 virtual false final false
+  /// @brief Method EatSpace addr 0x2c90dc8 size 0x40 virtual false final false
   static inline void EatSpace(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer);
 
-  /// @brief Method IsExpressionEnd addr 0x2df7ba0 size 0x20 virtual false final false
+  /// @brief Method IsExpressionEnd addr 0x2c907f0 size 0x20 virtual false final false
   static inline bool IsExpressionEnd(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken token);
 
-  /// @brief Method IsCombinator addr 0x2df8164 size 0x14 virtual false final false
+  /// @brief Method IsCombinator addr 0x2c90db4 size 0x14 virtual false final false
   static inline bool IsCombinator(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken token);
 
-  /// @brief Method IsMultiplier addr 0x2df85f8 size 0x24 virtual false final false
+  /// @brief Method IsMultiplier addr 0x2c91248 size 0x24 virtual false final false
   static inline bool IsMultiplier(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken token);
 
   static inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser* New_ctor();
 
-  /// @brief Method .ctor addr 0x2df8744 size 0x148 virtual false final false
+  /// @brief Method .ctor addr 0x2c91394 size 0x148 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleSyntaxParser", modifiers: "&&", def_value: None }]
@@ -169,6 +169,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser, ___m_ProcessExpressionList) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser, ___m_ExpressionStack) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser, ___m_CombinatorStack) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser, ___m_ParsedExpressionCache) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets::Syntax
 NEED_NO_BOX(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser);

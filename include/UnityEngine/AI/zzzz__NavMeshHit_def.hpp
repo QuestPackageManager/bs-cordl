@@ -20,15 +20,15 @@ MARK_VAL_T(::UnityEngine::AI::NavMeshHit);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::AI {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16116))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15970))
 // CS Name: ::UnityEngine.AI::NavMeshHit
 struct CORDL_TYPE NavMeshHit {
 public:
   // Declarations
   __declspec(property(get = get_position))::UnityEngine::Vector3 position;
 
-  /// @brief Method get_position addr 0x2c7d8e0 size 0xc virtual false final false
+  /// @brief Method get_position addr 0x2b189b8 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_position();
 
   // Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "",
@@ -62,6 +62,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AI::NavMeshHit, 0x24>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AI::NavMeshHit, m_Position) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AI::NavMeshHit, m_Normal) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AI::NavMeshHit, m_Distance) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AI::NavMeshHit, m_Mask) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AI::NavMeshHit, m_Hit) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::AI
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AI::NavMeshHit, "UnityEngine.AI", "NavMeshHit");

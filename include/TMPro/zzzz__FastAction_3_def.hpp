@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(FastAction_3)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
 }
 // Forward declare root types
 namespace TMPro {
@@ -28,8 +28,8 @@ namespace TMPro {
 // cpp template
 template <typename A, typename B, typename C>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12300))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12228))
 // CS Name: ::TMPro::FastAction`3<A,B,C>*
 class CORDL_TYPE FastAction_3 : public ::System::Object {
 public:

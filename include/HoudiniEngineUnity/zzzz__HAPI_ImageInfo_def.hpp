@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_ImageInfo)
 namespace HoudiniEngineUnity {
-struct HAPI_ImagePacking;
+struct HAPI_ImageDataFormat;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_ImageDataFormat;
+struct HAPI_ImagePacking;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -24,8 +24,8 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ImageInfo);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9717)), TypeDefinitionIndex(TypeDefinitionIndex(9716))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9744))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9644)), TypeDefinitionIndex(TypeDefinitionIndex(9643))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9671))
 // CS Name: ::HoudiniEngineUnity::HAPI_ImageInfo
 struct CORDL_TYPE HAPI_ImageInfo {
 public:
@@ -69,6 +69,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_ImageInfo, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ImageInfo, imageFileFormatNameSH) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ImageInfo, xRes) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ImageInfo, yRes) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ImageInfo, dataFormat) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ImageInfo, interleaved) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ImageInfo, packing) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ImageInfo, gamma) == 0x18, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_ImageInfo, "HoudiniEngineUnity", "HAPI_ImageInfo");

@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::NetSyncVoipStreamMode);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13342))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13369))
 // CS Name: ::Oculus.Platform::NetSyncVoipStreamMode
 struct CORDL_TYPE NetSyncVoipStreamMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::NetSyncVoipStreamMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::NetSyncVoipStreamMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::NetSyncVoipStreamMode, "Oculus.Platform", "NetSyncVoipStreamMode");

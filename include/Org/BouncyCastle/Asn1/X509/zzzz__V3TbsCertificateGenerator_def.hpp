@@ -5,31 +5,31 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(V3TbsCertificateGenerator)
 namespace Org::BouncyCastle::Asn1::X509 {
+class Time;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerUtcTime;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerTaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class TbsCertificateStructure;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class Time;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class TbsCertificateStructure;
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerUtcTime;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(400))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::V3TbsCertificateGenerator*
 class CORDL_TYPE V3TbsCertificateGenerator : public ::System::Object {
@@ -160,46 +160,46 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x119cb7c size 0xa0 virtual false final false
+  /// @brief Method .ctor addr 0x112c934 size 0xa0 virtual false final false
   inline void _ctor();
 
-  /// @brief Method SetSerialNumber addr 0x119cc1c size 0x8 virtual false final false
+  /// @brief Method SetSerialNumber addr 0x112c9d4 size 0x8 virtual false final false
   inline void SetSerialNumber(::Org::BouncyCastle::Asn1::DerInteger* serialNumber);
 
-  /// @brief Method SetSignature addr 0x119cc24 size 0x8 virtual false final false
+  /// @brief Method SetSignature addr 0x112c9dc size 0x8 virtual false final false
   inline void SetSignature(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature);
 
-  /// @brief Method SetIssuer addr 0x119cc2c size 0x8 virtual false final false
+  /// @brief Method SetIssuer addr 0x112c9e4 size 0x8 virtual false final false
   inline void SetIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
-  /// @brief Method SetStartDate addr 0x119cc34 size 0x6c virtual false final false
+  /// @brief Method SetStartDate addr 0x112c9ec size 0x6c virtual false final false
   inline void SetStartDate(::Org::BouncyCastle::Asn1::DerUtcTime* startDate);
 
-  /// @brief Method SetStartDate addr 0x119cca0 size 0x8 virtual false final false
+  /// @brief Method SetStartDate addr 0x112ca58 size 0x8 virtual false final false
   inline void SetStartDate(::Org::BouncyCastle::Asn1::X509::Time* startDate);
 
-  /// @brief Method SetEndDate addr 0x119cca8 size 0x6c virtual false final false
+  /// @brief Method SetEndDate addr 0x112ca60 size 0x6c virtual false final false
   inline void SetEndDate(::Org::BouncyCastle::Asn1::DerUtcTime* endDate);
 
-  /// @brief Method SetEndDate addr 0x119cd14 size 0x8 virtual false final false
+  /// @brief Method SetEndDate addr 0x112cacc size 0x8 virtual false final false
   inline void SetEndDate(::Org::BouncyCastle::Asn1::X509::Time* endDate);
 
-  /// @brief Method SetSubject addr 0x119cd1c size 0x8 virtual false final false
+  /// @brief Method SetSubject addr 0x112cad4 size 0x8 virtual false final false
   inline void SetSubject(::Org::BouncyCastle::Asn1::X509::X509Name* subject);
 
-  /// @brief Method SetIssuerUniqueID addr 0x119cd24 size 0x8 virtual false final false
+  /// @brief Method SetIssuerUniqueID addr 0x112cadc size 0x8 virtual false final false
   inline void SetIssuerUniqueID(::Org::BouncyCastle::Asn1::DerBitString* uniqueID);
 
-  /// @brief Method SetSubjectUniqueID addr 0x119cd2c size 0x8 virtual false final false
+  /// @brief Method SetSubjectUniqueID addr 0x112cae4 size 0x8 virtual false final false
   inline void SetSubjectUniqueID(::Org::BouncyCastle::Asn1::DerBitString* uniqueID);
 
-  /// @brief Method SetSubjectPublicKeyInfo addr 0x119cd34 size 0x8 virtual false final false
+  /// @brief Method SetSubjectPublicKeyInfo addr 0x112caec size 0x8 virtual false final false
   inline void SetSubjectPublicKeyInfo(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pubKeyInfo);
 
-  /// @brief Method SetExtensions addr 0x119cd3c size 0x84 virtual false final false
+  /// @brief Method SetExtensions addr 0x112caf4 size 0x84 virtual false final false
   inline void SetExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GenerateTbsCertificate addr 0x119ceb4 size 0x3ec virtual false final false
+  /// @brief Method GenerateTbsCertificate addr 0x112cc6c size 0x3ec virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* GenerateTbsCertificate();
 
   // Ctor Parameters [CppParam { name: "", ty: "V3TbsCertificateGenerator", modifiers: "&&", def_value: None }]
@@ -256,6 +256,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator, ___version) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator, ___serialNumber) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator, ___signature) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator, ___issuer) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator, ___startDate) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator, ___endDate) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator, ___subject) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator, ___subjectPublicKeyInfo) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator, ___extensions) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator, ___altNamePresentAndCritical) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator, ___issuerUniqueID) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator, ___subjectUniqueID) == 0x68, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator);

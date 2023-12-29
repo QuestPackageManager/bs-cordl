@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::ExceptionHandlingClauseOptions);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3467))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3462))
 // CS Name: ::System.Reflection::ExceptionHandlingClauseOptions
 struct CORDL_TYPE ExceptionHandlingClauseOptions {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::ExceptionHandlingClauseOptions, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::ExceptionHandlingClauseOptions, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::ExceptionHandlingClauseOptions, "System.Reflection", "ExceptionHandlingClauseOptions");

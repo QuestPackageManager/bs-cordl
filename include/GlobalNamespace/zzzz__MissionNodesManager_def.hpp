@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MissionNodesManager)
 namespace GlobalNamespace {
-class MissionNodeConnection;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+class MissionNode;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace GlobalNamespace {
 class MissionStagesManager;
@@ -21,10 +21,10 @@ namespace GlobalNamespace {
 class CampaignProgressModel;
 }
 namespace GlobalNamespace {
-class MissionNodeVisualController;
+class MissionNodeConnection;
 }
 namespace GlobalNamespace {
-class MissionNode;
+class MissionNodeVisualController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionNodesManager);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5549))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5642))
 // CS Name: ::MissionNodesManager*
 class CORDL_TYPE MissionNodesManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -136,76 +136,76 @@ public:
 
   constexpr void __set__isInitialized(bool value);
 
-  /// @brief Method get_rootMissionNode addr 0x22a1618 size 0x8 virtual false final false
+  /// @brief Method get_rootMissionNode addr 0x215c694 size 0x8 virtual false final false
   inline ::GlobalNamespace::MissionNode* get_rootMissionNode();
 
-  /// @brief Method get_finalMissionNode addr 0x22a1620 size 0x8 virtual false final false
+  /// @brief Method get_finalMissionNode addr 0x215c69c size 0x8 virtual false final false
   inline ::GlobalNamespace::MissionNode* get_finalMissionNode();
 
-  /// @brief Method get_missionStagesManager addr 0x22a1628 size 0x8 virtual false final false
+  /// @brief Method get_missionStagesManager addr 0x215c6a4 size 0x8 virtual false final false
   inline ::GlobalNamespace::MissionStagesManager* get_missionStagesManager();
 
-  /// @brief Method get_missionProgressModel addr 0x22a1630 size 0x8 virtual false final false
+  /// @brief Method get_missionProgressModel addr 0x215c6ac size 0x8 virtual false final false
   inline ::GlobalNamespace::CampaignProgressModel* get_missionProgressModel();
 
-  /// @brief Method get_allMissionNodes addr 0x22a1638 size 0x8 virtual false final false
+  /// @brief Method get_allMissionNodes addr 0x215c6b4 size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> get_allMissionNodes();
 
-  /// @brief Method get_IsInitialized addr 0x22a1640 size 0x8 virtual false final false
+  /// @brief Method get_IsInitialized addr 0x215c6bc size 0x8 virtual false final false
   inline bool get_IsInitialized();
 
-  /// @brief Method Awake addr 0x22a1648 size 0x2c virtual false final false
+  /// @brief Method Awake addr 0x215c6c4 size 0x2c virtual false final false
   inline void Awake();
 
-  /// @brief Method SetupNodeMap addr 0x229f54c size 0x3c virtual false final false
+  /// @brief Method SetupNodeMap addr 0x215a5c8 size 0x3c virtual false final false
   inline void SetupNodeMap();
 
-  /// @brief Method MissionWasCleared addr 0x22a1a68 size 0x6c virtual false final false
+  /// @brief Method MissionWasCleared addr 0x215cae4 size 0x6c virtual false final false
   inline bool MissionWasCleared(::GlobalNamespace::MissionNode* missionNode);
 
-  /// @brief Method GetMissionNodeWithModelClearedStateInconsistency addr 0x229f19c size 0xb0 virtual false final false
+  /// @brief Method GetMissionNodeWithModelClearedStateInconsistency addr 0x215a218 size 0xb0 virtual false final false
   inline ::GlobalNamespace::MissionNode* GetMissionNodeWithModelClearedStateInconsistency();
 
-  /// @brief Method DidFirstLockedMissionStageChange addr 0x229fc6c size 0x9c virtual false final false
+  /// @brief Method DidFirstLockedMissionStageChange addr 0x215ace8 size 0x9c virtual false final false
   inline bool DidFirstLockedMissionStageChange();
 
-  /// @brief Method UpdateStageLockText addr 0x229fc38 size 0x34 virtual false final false
+  /// @brief Method UpdateStageLockText addr 0x215acb4 size 0x34 virtual false final false
   inline void UpdateStageLockText();
 
-  /// @brief Method GetTopMostNotClearedMissionNode addr 0x229f318 size 0x14c virtual false final false
+  /// @brief Method GetTopMostNotClearedMissionNode addr 0x215a394 size 0x14c virtual false final false
   inline ::GlobalNamespace::MissionNode* GetTopMostNotClearedMissionNode();
 
-  /// @brief Method GetAllMissionNodes addr 0x22a1674 size 0xac virtual false final false
+  /// @brief Method GetAllMissionNodes addr 0x215c6f0 size 0xac virtual false final false
   inline void GetAllMissionNodes();
 
-  /// @brief Method GetAllMissionNodes addr 0x22a1c08 size 0xe4 virtual false final false
+  /// @brief Method GetAllMissionNodes addr 0x215cc84 size 0xe4 virtual false final false
   inline ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MissionNode*>* GetAllMissionNodes(::GlobalNamespace::MissionNode* node,
                                                                                                         ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MissionNode*>* visited);
 
-  /// @brief Method GetNewEnabledConnection addr 0x22a022c size 0x174 virtual false final false
+  /// @brief Method GetNewEnabledConnection addr 0x215b2a8 size 0x174 virtual false final false
   inline ::ArrayW<::GlobalNamespace::MissionNodeConnection*, ::Array<::GlobalNamespace::MissionNodeConnection*>*> GetNewEnabledConnection();
 
-  /// @brief Method ResetAllNodes addr 0x22a17e0 size 0x4c virtual false final false
+  /// @brief Method ResetAllNodes addr 0x215c85c size 0x4c virtual false final false
   inline void ResetAllNodes();
 
-  /// @brief Method SetupStages addr 0x22a182c size 0x64 virtual false final false
+  /// @brief Method SetupStages addr 0x215c8a8 size 0x64 virtual false final false
   inline void SetupStages();
 
-  /// @brief Method RegisterAllNodes addr 0x22a1720 size 0xc0 virtual false final false
+  /// @brief Method RegisterAllNodes addr 0x215c79c size 0xc0 virtual false final false
   inline void RegisterAllNodes();
 
-  /// @brief Method SetupNodeTree addr 0x22a1890 size 0x118 virtual false final false
+  /// @brief Method SetupNodeTree addr 0x215c90c size 0x118 virtual false final false
   inline void SetupNodeTree(::GlobalNamespace::MissionNodeVisualController* node, bool parentCleared);
 
-  /// @brief Method IsNodeInteractable addr 0x22a1cec size 0x5c virtual false final false
+  /// @brief Method IsNodeInteractable addr 0x215cd68 size 0x5c virtual false final false
   inline bool IsNodeInteractable(::GlobalNamespace::MissionNodeVisualController* node, bool parentCleared);
 
-  /// @brief Method SetupNodeConnections addr 0x22a19a8 size 0xc0 virtual false final false
+  /// @brief Method SetupNodeConnections addr 0x215ca24 size 0xc0 virtual false final false
   inline void SetupNodeConnections();
 
   static inline ::GlobalNamespace::MissionNodesManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x22a1d78 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x215cdf4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionNodesManager", modifiers: "&&", def_value: None }]
@@ -253,6 +253,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionNodesManager, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodesManager, ____rootMissionNode) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodesManager, ____finalMissionNode) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodesManager, ____missionStagesManager) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodesManager, ____connectionsParentObject) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodesManager, ____missionNodesParentObject) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodesManager, ____missionProgressModel) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodesManager, ____allMissionNodeConnections) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodesManager, ____allMissionNodes) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodesManager, ____isInitialized) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionNodesManager);

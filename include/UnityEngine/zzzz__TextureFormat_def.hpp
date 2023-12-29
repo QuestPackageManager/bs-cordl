@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextureFormat);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10115))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10043))
 // CS Name: ::UnityEngine::TextureFormat
 struct CORDL_TYPE TextureFormat {
 public:
@@ -329,6 +329,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextureFormat, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextureFormat, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextureFormat, "UnityEngine", "TextureFormat");

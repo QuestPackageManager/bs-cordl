@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__StaticMemoryPoolBase_1_def.hpp"
 CORDL_MODULE_EXPORT(StaticMemoryPool_5)
-namespace System {
-template <typename T> class Action_1;
+namespace Zenject {
+class IMemoryPool;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue> class IMemoryPool_5;
@@ -13,11 +13,11 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5> class Action_5;
 }
-namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace Zenject {
-class IMemoryPool;
+template <typename TValue> class IDespawnableMemoryPool_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -31,8 +31,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11085)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11085), inst: 187 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11090))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11013)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11013), inst: 190 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11018))
 // CS Name: ::Zenject::StaticMemoryPool`5<TParam1,TParam2,TParam3,TParam4,TValue>*
 class CORDL_TYPE StaticMemoryPool_5 : public ::Zenject::StaticMemoryPoolBase_1<TValue> {
 public:

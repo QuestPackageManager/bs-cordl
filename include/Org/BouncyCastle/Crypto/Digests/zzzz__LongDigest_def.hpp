@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LongDigest)
-namespace Org::BouncyCastle::Utilities {
-class IMemoable;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Utilities {
+class IMemoable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::LongDigest);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(756))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::LongDigest*
 class CORDL_TYPE LongDigest : public ::System::Object {
@@ -181,60 +181,60 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::LongDigest* New_ctor();
 
-  /// @brief Method .ctor addr 0x122672c size 0xa0 virtual false final false
+  /// @brief Method .ctor addr 0x11b64dc size 0xa0 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::LongDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::LongDigest* t);
 
-  /// @brief Method .ctor addr 0x12267cc size 0xac virtual false final false
+  /// @brief Method .ctor addr 0x11b657c size 0xac virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::LongDigest* t);
 
-  /// @brief Method CopyIn addr 0x1226878 size 0x9c virtual false final false
+  /// @brief Method CopyIn addr 0x11b6628 size 0x9c virtual false final false
   inline void CopyIn(::Org::BouncyCastle::Crypto::Digests::LongDigest* t);
 
-  /// @brief Method Update addr 0x1226914 size 0x74 virtual true final true
+  /// @brief Method Update addr 0x11b66c4 size 0x74 virtual true final true
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate addr 0x12269fc size 0x110 virtual true final true
+  /// @brief Method BlockUpdate addr 0x11b67ac size 0x110 virtual true final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Finish addr 0x1226b0c size 0x6c virtual false final false
+  /// @brief Method Finish addr 0x11b68bc size 0x6c virtual false final false
   inline void Finish();
 
-  /// @brief Method Reset addr 0x1227188 size 0x6c virtual true final false
+  /// @brief Method Reset addr 0x11b6f38 size 0x6c virtual true final false
   inline void Reset();
 
-  /// @brief Method ProcessWord addr 0x1226988 size 0x74 virtual false final false
+  /// @brief Method ProcessWord addr 0x11b6738 size 0x74 virtual false final false
   inline void ProcessWord(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method AdjustByteCounts addr 0x1226b78 size 0x24 virtual false final false
+  /// @brief Method AdjustByteCounts addr 0x11b6928 size 0x24 virtual false final false
   inline void AdjustByteCounts();
 
-  /// @brief Method ProcessLength addr 0x1226b9c size 0x60 virtual false final false
+  /// @brief Method ProcessLength addr 0x11b694c size 0x60 virtual false final false
   inline void ProcessLength(int64_t lowW, int64_t hiW);
 
-  /// @brief Method ProcessBlock addr 0x1226bfc size 0x58c virtual false final false
+  /// @brief Method ProcessBlock addr 0x11b69ac size 0x58c virtual false final false
   inline void ProcessBlock();
 
-  /// @brief Method Ch addr 0x1227224 size 0x10 virtual false final false
+  /// @brief Method Ch addr 0x11b6fd4 size 0x10 virtual false final false
   static inline uint64_t Ch(uint64_t x, uint64_t y, uint64_t z);
 
-  /// @brief Method Maj addr 0x1227244 size 0x14 virtual false final false
+  /// @brief Method Maj addr 0x11b6ff4 size 0x14 virtual false final false
   static inline uint64_t Maj(uint64_t x, uint64_t y, uint64_t z);
 
-  /// @brief Method Sum0 addr 0x1227234 size 0x10 virtual false final false
+  /// @brief Method Sum0 addr 0x11b6fe4 size 0x10 virtual false final false
   static inline uint64_t Sum0(uint64_t x);
 
-  /// @brief Method Sum1 addr 0x1227214 size 0x10 virtual false final false
+  /// @brief Method Sum1 addr 0x11b6fc4 size 0x10 virtual false final false
   static inline uint64_t Sum1(uint64_t x);
 
-  /// @brief Method Sigma0 addr 0x1227204 size 0x10 virtual false final false
+  /// @brief Method Sigma0 addr 0x11b6fb4 size 0x10 virtual false final false
   static inline uint64_t Sigma0(uint64_t x);
 
-  /// @brief Method Sigma1 addr 0x12271f4 size 0x10 virtual false final false
+  /// @brief Method Sigma1 addr 0x11b6fa4 size 0x10 virtual false final false
   static inline uint64_t Sigma1(uint64_t x);
 
-  /// @brief Method GetByteLength addr 0x1227258 size 0x8 virtual true final true
+  /// @brief Method GetByteLength addr 0x11b7008 size 0x8 virtual true final true
   inline int32_t GetByteLength();
 
   /// @brief Method get_AlgorithmName addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -315,6 +315,36 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::LongDigest, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::LongDigest, ___MyByteLength) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::LongDigest, ___xBuf) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::LongDigest, ___xBufOff) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::LongDigest, ___byteCount1) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::LongDigest, ___byteCount2) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::LongDigest, ___H1) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::LongDigest, ___H2) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::LongDigest, ___H3) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::LongDigest, ___H4) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::LongDigest, ___H5) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::LongDigest, ___H6) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::LongDigest, ___H7) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::LongDigest, ___H8) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::LongDigest, ___W) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::LongDigest, ___wOff) == 0x80, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Digests
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::LongDigest);

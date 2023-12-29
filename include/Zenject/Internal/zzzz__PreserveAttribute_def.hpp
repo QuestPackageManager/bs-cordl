@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::Zenject::Internal::PreserveAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15707))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15657))
 // CS Name: ::Zenject.Internal::PreserveAttribute*
 class CORDL_TYPE PreserveAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Zenject::Internal::PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2eb97a8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d51a28 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PreserveAttribute", modifiers: "&&", def_value: None }]

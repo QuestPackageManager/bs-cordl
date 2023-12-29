@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::FakeReflectionDynamicObjectsState);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5860))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5949))
 // CS Name: ::FakeReflectionDynamicObjectsState
 struct CORDL_TYPE FakeReflectionDynamicObjectsState {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FakeReflectionDynamicObjectsState, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FakeReflectionDynamicObjectsState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FakeReflectionDynamicObjectsState, "", "FakeReflectionDynamicObjectsState");

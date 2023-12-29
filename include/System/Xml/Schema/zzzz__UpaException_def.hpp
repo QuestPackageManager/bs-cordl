@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::UpaException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11595))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11523))
 // CS Name: ::System.Xml.Schema::UpaException*
 class CORDL_TYPE UpaException : public ::System::Exception {
 public:
@@ -43,7 +43,7 @@ public:
 
   static inline ::System::Xml::Schema::UpaException* New_ctor(::System::Object* particle1, ::System::Object* particle2);
 
-  /// @brief Method .ctor addr 0x28acab0 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x272fa8c size 0x70 virtual false final false
   inline void _ctor(::System::Object* particle1, ::System::Object* particle2);
 
   // Ctor Parameters [CppParam { name: "", ty: "UpaException", modifiers: "&&", def_value: None }]
@@ -70,6 +70,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::UpaException, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::UpaException, ___particle1) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::UpaException, ___particle2) == 0x98, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::UpaException);

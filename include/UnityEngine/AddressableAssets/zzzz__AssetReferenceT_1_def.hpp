@@ -23,8 +23,8 @@ namespace UnityEngine::AddressableAssets {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14089))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14082))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14360))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14353))
 // CS Name: ::UnityEngine.AddressableAssets::AssetReferenceT`1<TObject>*
 class CORDL_TYPE AssetReferenceT_1 : public ::UnityEngine::AddressableAssets::AssetReference {
 public:

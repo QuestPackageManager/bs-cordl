@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioFading);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4045))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4033))
 // CS Name: ::AudioFading*
 class CORDL_TYPE AudioFading : public ::UnityEngine::MonoBehaviour {
 public:
@@ -60,21 +60,21 @@ public:
 
   constexpr void __set__targetVolume(float_t value);
 
-  /// @brief Method Start addr 0x222ae60 size 0x5c virtual false final false
+  /// @brief Method Start addr 0x20ca374 size 0x5c virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x222aee0 size 0xd0 virtual false final false
+  /// @brief Method Update addr 0x20ca3f4 size 0xd0 virtual false final false
   inline void Update();
 
-  /// @brief Method FadeOut addr 0x222afb0 size 0x20 virtual false final false
+  /// @brief Method FadeOut addr 0x20ca4c4 size 0x20 virtual false final false
   inline void FadeOut();
 
-  /// @brief Method FadeIn addr 0x222aebc size 0x24 virtual false final false
+  /// @brief Method FadeIn addr 0x20ca3d0 size 0x24 virtual false final false
   inline void FadeIn();
 
   static inline ::GlobalNamespace::AudioFading* New_ctor();
 
-  /// @brief Method .ctor addr 0x222afd0 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x20ca4e4 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioFading", modifiers: "&&", def_value: None }]
@@ -107,6 +107,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioFading, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioFading, ____audioSource) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioFading, ____smooth) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioFading, ____fadeInOnStart) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioFading, ____targetVolume) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AudioFading);

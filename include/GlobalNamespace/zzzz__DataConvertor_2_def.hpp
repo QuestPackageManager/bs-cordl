@@ -28,8 +28,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T, typename TParam>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4295))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4321))
 // CS Name: ::DataConvertor`2<T,TParam>*
 class CORDL_TYPE DataConvertor_2 : public ::System::Object {
 public:

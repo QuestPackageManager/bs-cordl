@@ -53,12 +53,14 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::__MonoAssemblyName___public_key_token_e__FixedBuffer, 0x11>, "Size mismatch!");
 
+static_assert(offsetof(::Mono::__MonoAssemblyName___public_key_token_e__FixedBuffer, FixedElementField) == 0x0, "Offset mismatch!");
+
 } // namespace Mono
 // Type: Mono::MonoAssemblyName
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 90, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2240)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2240)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2241))
 // CS Name: ::Mono::MonoAssemblyName
 struct CORDL_TYPE MonoAssemblyName {
@@ -125,6 +127,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::MonoAssemblyName, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::MonoAssemblyName, name) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::MonoAssemblyName, culture) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::MonoAssemblyName, hash_value) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::MonoAssemblyName, public_key) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::MonoAssemblyName, public_key_token) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::MonoAssemblyName, hash_alg) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::MonoAssemblyName, hash_len) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::MonoAssemblyName, flags) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::MonoAssemblyName, major) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::MonoAssemblyName, minor) == 0x42, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::MonoAssemblyName, build) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::MonoAssemblyName, revision) == 0x46, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::MonoAssemblyName, arch) == 0x48, "Offset mismatch!");
 
 } // namespace Mono
 DEFINE_IL2CPP_ARG_TYPE(::Mono::MonoAssemblyName, "Mono", "MonoAssemblyName");

@@ -7,10 +7,10 @@ namespace System::Collections {
 class IDictionary;
 }
 namespace System::Collections {
-class ICollection;
+class IEnumerable;
 }
 namespace System::Collections {
-class IEnumerable;
+class ICollection;
 }
 namespace System {
 class Object;
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::IWrappedDictionary);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11880))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11808))
 // CS Name: ::Newtonsoft.Json.Utilities::IWrappedDictionary*
 class CORDL_TYPE IWrappedDictionary {
 public:

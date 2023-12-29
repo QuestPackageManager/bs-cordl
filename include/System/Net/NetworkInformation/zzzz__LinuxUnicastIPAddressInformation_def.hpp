@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::LinuxUnicastIPAddressInformati
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9256))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9277))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8093))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8114))
 // CS Name: ::System.Net.NetworkInformation::LinuxUnicastIPAddressInformation*
 class CORDL_TYPE LinuxUnicastIPAddressInformation : public ::System::Net::NetworkInformation::UnicastIPAddressInformation {
 public:
@@ -36,10 +36,10 @@ public:
 
   static inline ::System::Net::NetworkInformation::LinuxUnicastIPAddressInformation* New_ctor(::System::Net::IPAddress* address);
 
-  /// @brief Method .ctor addr 0x29ef2ac size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2872a28 size 0x28 virtual false final false
   inline void _ctor(::System::Net::IPAddress* address);
 
-  /// @brief Method get_Address addr 0x29ef2d4 size 0x8 virtual true final false
+  /// @brief Method get_Address addr 0x2872a50 size 0x8 virtual true final false
   inline ::System::Net::IPAddress* get_Address();
 
   // Ctor Parameters [CppParam { name: "", ty: "LinuxUnicastIPAddressInformation", modifiers: "&&", def_value: None }]
@@ -63,6 +63,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::LinuxUnicastIPAddressInformation, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::LinuxUnicastIPAddressInformation, ___address) == 0x10, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation
 NEED_NO_BOX(::System::Net::NetworkInformation::LinuxUnicastIPAddressInformation);

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__RuntimeLightWithIds_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 CORDL_MODULE_EXPORT(DirectionalLightWithIds)
-namespace GlobalNamespace {
-class DirectionalLight;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class DirectionalLight;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DirectionalLightWithIds);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14552)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14524))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14770)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14739))
 // CS Name: ::DirectionalLightWithIds*
 class CORDL_TYPE DirectionalLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
 public:
@@ -54,12 +54,12 @@ public:
 
   constexpr void __set__defaultColor(::UnityEngine::Color value);
 
-  /// @brief Method ColorWasSet addr 0x210f0e4 size 0x44 virtual true final false
+  /// @brief Method ColorWasSet addr 0x1fb9ac0 size 0x44 virtual true final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::DirectionalLightWithIds* New_ctor();
 
-  /// @brief Method .ctor addr 0x210f128 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x1fb9b04 size 0x24 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIds", modifiers: "&&", def_value: None }]
@@ -89,6 +89,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DirectionalLightWithIds, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DirectionalLightWithIds, ____directionalLight) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DirectionalLightWithIds, ____setIntensityOnly) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DirectionalLightWithIds, ____defaultColor) == 0x54, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DirectionalLightWithIds);

@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerCenterResizeController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5193))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5297))
 // CS Name: ::MultiplayerCenterResizeController*
 class CORDL_TYPE MultiplayerCenterResizeController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -81,36 +81,36 @@ public:
 
   constexpr void __set__edgeDistanceFromCenter_k__BackingField(float_t value);
 
-  /// @brief Method add_edgeDistanceFromCenterWasCalculatedEvent addr 0x2245524 size 0xb0 virtual false final false
+  /// @brief Method add_edgeDistanceFromCenterWasCalculatedEvent addr 0x2104400 size 0xb0 virtual false final false
   inline void add_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_edgeDistanceFromCenterWasCalculatedEvent addr 0x22455d4 size 0xb0 virtual false final false
+  /// @brief Method remove_edgeDistanceFromCenterWasCalculatedEvent addr 0x21044b0 size 0xb0 virtual false final false
   inline void remove_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_isEdgeDistanceFromCenterCalculated addr 0x2245684 size 0x8 virtual false final false
+  /// @brief Method get_isEdgeDistanceFromCenterCalculated addr 0x2104560 size 0x8 virtual false final false
   inline bool get_isEdgeDistanceFromCenterCalculated();
 
-  /// @brief Method set_isEdgeDistanceFromCenterCalculated addr 0x224568c size 0xc virtual false final false
+  /// @brief Method set_isEdgeDistanceFromCenterCalculated addr 0x2104568 size 0xc virtual false final false
   inline void set_isEdgeDistanceFromCenterCalculated(bool value);
 
-  /// @brief Method get_edgeDistanceFromCenter addr 0x2245698 size 0x8 virtual false final false
+  /// @brief Method get_edgeDistanceFromCenter addr 0x2104574 size 0x8 virtual false final false
   inline float_t get_edgeDistanceFromCenter();
 
-  /// @brief Method set_edgeDistanceFromCenter addr 0x22456a0 size 0x8 virtual false final false
+  /// @brief Method set_edgeDistanceFromCenter addr 0x210457c size 0x8 virtual false final false
   inline void set_edgeDistanceFromCenter(float_t value);
 
-  /// @brief Method Start addr 0x22456a8 size 0xa4 virtual false final false
+  /// @brief Method Start addr 0x2104584 size 0xa4 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x2245874 size 0x94 virtual false final false
+  /// @brief Method OnDestroy addr 0x2104750 size 0x94 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandlePlayersLayoutWasCalculated addr 0x224574c size 0x78 virtual false final false
+  /// @brief Method HandlePlayersLayoutWasCalculated addr 0x2104628 size 0x78 virtual false final false
   inline void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int32_t numberOfPlayers);
 
   static inline ::GlobalNamespace::MultiplayerCenterResizeController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22459b8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2104894 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerCenterResizeController", modifiers: "&&", def_value: None }]
@@ -146,6 +146,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerCenterResizeController, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerCenterResizeController, ____platformWidth) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerCenterResizeController, ____layoutProvider) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerCenterResizeController, ___edgeDistanceFromCenterWasCalculatedEvent) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerCenterResizeController, ____isEdgeDistanceFromCenterCalculated_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerCenterResizeController, ____edgeDistanceFromCenter_k__BackingField) == 0x34, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerCenterResizeController);

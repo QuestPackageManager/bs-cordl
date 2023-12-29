@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Encoders::HexTranslator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Encoders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1801))
 // CS Name: ::Org.BouncyCastle.Utilities.Encoders::HexTranslator*
 class CORDL_TYPE HexTranslator : public ::System::Object {
@@ -35,21 +35,21 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_hexTable();
 
-  /// @brief Method GetEncodedBlockSize addr 0x115eaf4 size 0x8 virtual true final true
+  /// @brief Method GetEncodedBlockSize addr 0x10ed8ac size 0x8 virtual true final true
   inline int32_t GetEncodedBlockSize();
 
-  /// @brief Method Encode addr 0x115eafc size 0x140 virtual true final true
+  /// @brief Method Encode addr 0x10ed8b4 size 0x140 virtual true final true
   inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method GetDecodedBlockSize addr 0x115ec3c size 0x8 virtual true final true
+  /// @brief Method GetDecodedBlockSize addr 0x10ed9f4 size 0x8 virtual true final true
   inline int32_t GetDecodedBlockSize();
 
-  /// @brief Method Decode addr 0x115ec44 size 0xc8 virtual true final true
+  /// @brief Method Decode addr 0x10ed9fc size 0xc8 virtual true final true
   inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::HexTranslator* New_ctor();
 
-  /// @brief Method .ctor addr 0x115eda0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x10edb58 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HexTranslator", modifiers: "&&", def_value: None }]

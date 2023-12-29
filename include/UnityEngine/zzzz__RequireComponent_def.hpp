@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::RequireComponent);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10214))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10141))
 // CS Name: ::UnityEngine::RequireComponent*
 class CORDL_TYPE RequireComponent : public ::System::Attribute {
 public:
@@ -52,12 +52,12 @@ public:
 
   static inline ::UnityEngine::RequireComponent* New_ctor(::System::Type* requiredComponent);
 
-  /// @brief Method .ctor addr 0x2cd276c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2b6bfec size 0x28 virtual false final false
   inline void _ctor(::System::Type* requiredComponent);
 
   static inline ::UnityEngine::RequireComponent* New_ctor(::System::Type* requiredComponent, ::System::Type* requiredComponent2);
 
-  /// @brief Method .ctor addr 0x2cd2794 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2b6c014 size 0x2c virtual false final false
   inline void _ctor(::System::Type* requiredComponent, ::System::Type* requiredComponent2);
 
   // Ctor Parameters [CppParam { name: "", ty: "RequireComponent", modifiers: "&&", def_value: None }]
@@ -87,6 +87,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::RequireComponent, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::RequireComponent, ___m_Type0) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::RequireComponent, ___m_Type1) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::RequireComponent, ___m_Type2) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::RequireComponent);

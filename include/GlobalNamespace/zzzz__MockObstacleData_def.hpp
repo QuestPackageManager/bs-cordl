@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockObstacleData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15512))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14973))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15496))
 // CS Name: ::MockObstacleData*
 class CORDL_TYPE MockObstacleData : public ::System::Object {
 public:
@@ -81,39 +81,39 @@ public:
 
   constexpr void __set__width_k__BackingField(int32_t value);
 
-  /// @brief Method get_time addr 0x23e6e28 size 0x8 virtual false final false
+  /// @brief Method get_time addr 0x228b850 size 0x8 virtual false final false
   inline float_t get_time();
 
-  /// @brief Method set_time addr 0x23e6e30 size 0x8 virtual false final false
+  /// @brief Method set_time addr 0x228b858 size 0x8 virtual false final false
   inline void set_time(float_t value);
 
-  /// @brief Method get_lineIndex addr 0x23e6e38 size 0x8 virtual false final false
+  /// @brief Method get_lineIndex addr 0x228b860 size 0x8 virtual false final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method set_lineIndex addr 0x23e6e40 size 0x8 virtual false final false
+  /// @brief Method set_lineIndex addr 0x228b868 size 0x8 virtual false final false
   inline void set_lineIndex(int32_t value);
 
-  /// @brief Method get_lineLayer addr 0x23e6e48 size 0x8 virtual false final false
+  /// @brief Method get_lineLayer addr 0x228b870 size 0x8 virtual false final false
   inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
 
-  /// @brief Method set_lineLayer addr 0x23e6e50 size 0x8 virtual false final false
+  /// @brief Method set_lineLayer addr 0x228b878 size 0x8 virtual false final false
   inline void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method get_duration addr 0x23e6e58 size 0x8 virtual false final false
+  /// @brief Method get_duration addr 0x228b880 size 0x8 virtual false final false
   inline float_t get_duration();
 
-  /// @brief Method set_duration addr 0x23e6e60 size 0x8 virtual false final false
+  /// @brief Method set_duration addr 0x228b888 size 0x8 virtual false final false
   inline void set_duration(float_t value);
 
-  /// @brief Method get_width addr 0x23e6e68 size 0x8 virtual false final false
+  /// @brief Method get_width addr 0x228b890 size 0x8 virtual false final false
   inline int32_t get_width();
 
-  /// @brief Method set_width addr 0x23e6e70 size 0x8 virtual false final false
+  /// @brief Method set_width addr 0x228b898 size 0x8 virtual false final false
   inline void set_width(int32_t value);
 
   static inline ::GlobalNamespace::MockObstacleData* New_ctor();
 
-  /// @brief Method .ctor addr 0x23e6e78 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x228b8a0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockObstacleData", modifiers: "&&", def_value: None }]
@@ -149,6 +149,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockObstacleData, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockObstacleData, ____time_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockObstacleData, ____lineIndex_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockObstacleData, ____lineLayer_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockObstacleData, ____duration_k__BackingField) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockObstacleData, ____width_k__BackingField) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockObstacleData);

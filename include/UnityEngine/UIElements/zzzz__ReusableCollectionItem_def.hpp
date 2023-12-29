@@ -9,6 +9,12 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements::Experimental {
+struct StyleValues;
+}
+namespace UnityEngine::UIElements {
+template <typename TEventType> class EventCallback_1;
+}
+namespace UnityEngine::UIElements::Experimental {
 template <typename T> class ValueAnimation_1;
 }
 namespace System {
@@ -16,12 +22,6 @@ template <typename T> class Action_1;
 }
 namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
-}
-namespace UnityEngine::UIElements {
-template <typename TEventType> class EventCallback_1;
-}
-namespace UnityEngine::UIElements::Experimental {
-struct StyleValues;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ReusableCollectionItem);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7372))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7458))
 // CS Name: ::UnityEngine.UIElements::ReusableCollectionItem*
 class CORDL_TYPE ReusableCollectionItem : public ::System::Object {
 public:
@@ -106,57 +106,57 @@ public:
 
   constexpr void __set_m_GeometryChangedEventCallback(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::GeometryChangedEvent*>* value);
 
-  /// @brief Method get_rootElement addr 0x2e87bcc size 0x8 virtual true final false
+  /// @brief Method get_rootElement addr 0x2d1f81c size 0x8 virtual true final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
-  /// @brief Method get_bindableElement addr 0x2e87bd4 size 0x8 virtual false final false
+  /// @brief Method get_bindableElement addr 0x2d1f824 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::VisualElement* get_bindableElement();
 
-  /// @brief Method set_bindableElement addr 0x2e87bdc size 0x8 virtual false final false
+  /// @brief Method set_bindableElement addr 0x2d1f82c size 0x8 virtual false final false
   inline void set_bindableElement(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method get_animator addr 0x2e87be4 size 0x8 virtual false final false
+  /// @brief Method get_animator addr 0x2d1f834 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>* get_animator();
 
-  /// @brief Method set_animator addr 0x2e87bec size 0x8 virtual false final false
+  /// @brief Method set_animator addr 0x2d1f83c size 0x8 virtual false final false
   inline void set_animator(::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>* value);
 
-  /// @brief Method get_index addr 0x2e87bf4 size 0x8 virtual false final false
+  /// @brief Method get_index addr 0x2d1f844 size 0x8 virtual false final false
   inline int32_t get_index();
 
-  /// @brief Method set_index addr 0x2e87bfc size 0x8 virtual false final false
+  /// @brief Method set_index addr 0x2d1f84c size 0x8 virtual false final false
   inline void set_index(int32_t value);
 
-  /// @brief Method get_id addr 0x2e87c04 size 0x8 virtual false final false
+  /// @brief Method get_id addr 0x2d1f854 size 0x8 virtual false final false
   inline int32_t get_id();
 
-  /// @brief Method set_id addr 0x2e87c0c size 0x8 virtual false final false
+  /// @brief Method set_id addr 0x2d1f85c size 0x8 virtual false final false
   inline void set_id(int32_t value);
 
-  /// @brief Method add_onGeometryChanged addr 0x2e87c14 size 0xb0 virtual false final false
+  /// @brief Method add_onGeometryChanged addr 0x2d1f864 size 0xb0 virtual false final false
   inline void add_onGeometryChanged(::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* value);
 
-  /// @brief Method remove_onGeometryChanged addr 0x2e87cc4 size 0xb0 virtual false final false
+  /// @brief Method remove_onGeometryChanged addr 0x2d1f914 size 0xb0 virtual false final false
   inline void remove_onGeometryChanged(::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* value);
 
   static inline ::UnityEngine::UIElements::ReusableCollectionItem* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e87b14 size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x2d1f764 size 0x90 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0x2e875c8 size 0x8 virtual true final false
+  /// @brief Method Init addr 0x2d1f218 size 0x8 virtual true final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item);
 
-  /// @brief Method PreAttachElement addr 0x2e878d0 size 0xbc virtual true final false
+  /// @brief Method PreAttachElement addr 0x2d1f520 size 0xbc virtual true final false
   inline void PreAttachElement();
 
-  /// @brief Method DetachElement addr 0x2e87a18 size 0xf8 virtual true final false
+  /// @brief Method DetachElement addr 0x2d1f668 size 0xf8 virtual true final false
   inline void DetachElement();
 
-  /// @brief Method SetSelected addr 0x2e87d74 size 0xf0 virtual true final false
+  /// @brief Method SetSelected addr 0x2d1f9c4 size 0xf0 virtual true final false
   inline void SetSelected(bool selected);
 
-  /// @brief Method OnGeometryChanged addr 0x2e87e64 size 0x20 virtual false final false
+  /// @brief Method OnGeometryChanged addr 0x2d1fab4 size 0x20 virtual false final false
   inline void OnGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReusableCollectionItem", modifiers: "&&", def_value: None }]
@@ -195,6 +195,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ReusableCollectionItem, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ReusableCollectionItem, ____bindableElement_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ReusableCollectionItem, ____animator_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ReusableCollectionItem, ____index_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ReusableCollectionItem, ____id_k__BackingField) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ReusableCollectionItem, ___onGeometryChanged) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ReusableCollectionItem, ___m_GeometryChangedEventCallback) == 0x30, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ReusableCollectionItem);

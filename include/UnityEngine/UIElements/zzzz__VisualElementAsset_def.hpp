@@ -13,10 +13,10 @@ namespace UnityEngine {
 class ISerializationCallbackReceiver;
 }
 namespace UnityEngine::UIElements {
-class StyleSheet;
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class StyleSheet;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementAsset);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6823))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7013))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6909)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7099))
 // CS Name: ::UnityEngine.UIElements::VisualElementAsset*
 class CORDL_TYPE VisualElementAsset : public ::System::Object {
 public:
@@ -171,49 +171,49 @@ public:
 
   constexpr void __set_m_Properties(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method get_id addr 0x2e122c0 size 0x8 virtual false final false
+  /// @brief Method get_id addr 0x2cabf10 size 0x8 virtual false final false
   inline int32_t get_id();
 
-  /// @brief Method get_orderInDocument addr 0x2e131d0 size 0x8 virtual false final false
+  /// @brief Method get_orderInDocument addr 0x2cace20 size 0x8 virtual false final false
   inline int32_t get_orderInDocument();
 
-  /// @brief Method get_parentId addr 0x2e12094 size 0x8 virtual false final false
+  /// @brief Method get_parentId addr 0x2cabce4 size 0x8 virtual false final false
   inline int32_t get_parentId();
 
-  /// @brief Method get_ruleIndex addr 0x2e1318c size 0x8 virtual false final false
+  /// @brief Method get_ruleIndex addr 0x2cacddc size 0x8 virtual false final false
   inline int32_t get_ruleIndex();
 
-  /// @brief Method get_fullTypeName addr 0x2e13454 size 0x8 virtual false final false
+  /// @brief Method get_fullTypeName addr 0x2cad0a4 size 0x8 virtual false final false
   inline ::StringW get_fullTypeName();
 
-  /// @brief Method get_classes addr 0x2e13658 size 0x8 virtual false final false
+  /// @brief Method get_classes addr 0x2cad2a8 size 0x8 virtual false final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_classes();
 
-  /// @brief Method get_stylesheetPaths addr 0x2e13670 size 0x80 virtual false final false
+  /// @brief Method get_stylesheetPaths addr 0x2cad2c0 size 0x80 virtual false final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_stylesheetPaths();
 
-  /// @brief Method get_hasStylesheetPaths addr 0x2e13660 size 0x10 virtual false final false
+  /// @brief Method get_hasStylesheetPaths addr 0x2cad2b0 size 0x10 virtual false final false
   inline bool get_hasStylesheetPaths();
 
-  /// @brief Method get_stylesheets addr 0x2e13700 size 0x80 virtual false final false
+  /// @brief Method get_stylesheets addr 0x2cad350 size 0x80 virtual false final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* get_stylesheets();
 
-  /// @brief Method get_hasStylesheets addr 0x2e136f0 size 0x10 virtual false final false
+  /// @brief Method get_hasStylesheets addr 0x2cad340 size 0x10 virtual false final false
   inline bool get_hasStylesheets();
 
-  /// @brief Method OnBeforeSerialize addr 0x2e14ad4 size 0x4 virtual true final true
+  /// @brief Method OnBeforeSerialize addr 0x2cae724 size 0x4 virtual true final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method OnAfterDeserialize addr 0x2e14ad8 size 0x188 virtual true final true
+  /// @brief Method OnAfterDeserialize addr 0x2cae728 size 0x188 virtual true final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method AddProperty addr 0x2e14c60 size 0x4 virtual false final false
+  /// @brief Method AddProperty addr 0x2cae8b0 size 0x4 virtual false final false
   inline void AddProperty(::StringW propertyName, ::StringW propertyValue);
 
-  /// @brief Method SetOrAddProperty addr 0x2e14c64 size 0x210 virtual false final false
+  /// @brief Method SetOrAddProperty addr 0x2cae8b4 size 0x210 virtual false final false
   inline void SetOrAddProperty(::StringW propertyName, ::StringW propertyValue);
 
-  /// @brief Method TryGetAttributeValue addr 0x2e14e74 size 0xd0 virtual true final true
+  /// @brief Method TryGetAttributeValue addr 0x2caeac4 size 0xd0 virtual true final true
   inline bool TryGetAttributeValue(::StringW propertyName, ByRef<::StringW> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementAsset", modifiers: "&&", def_value: None }]
@@ -270,6 +270,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualElementAsset, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_Name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_Id) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_OrderInDocument) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_ParentId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_RuleIndex) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_Text) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_PickingMode) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_FullTypeName) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_Classes) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_StylesheetPaths) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_Stylesheets) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_Properties) == 0x58, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VisualElementAsset);

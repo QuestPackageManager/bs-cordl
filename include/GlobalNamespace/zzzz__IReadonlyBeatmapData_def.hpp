@@ -5,34 +5,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IReadonlyBeatmapData)
 namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;
 }
 namespace GlobalNamespace {
+class IBeatmapDataBasicInfo;
+}
+namespace GlobalNamespace {
 class BeatmapDataItem;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class BeatmapEventData;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
 class BeatmapData;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IReadonlyBeatmapData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4260))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4292))
 // CS Name: ::IReadonlyBeatmapData*
 class CORDL_TYPE IReadonlyBeatmapData {
 public:

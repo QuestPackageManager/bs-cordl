@@ -7,32 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OculusPlatformLeaderboardsHandler)
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace Oculus::Platform {
-class Request;
-}
 namespace GlobalNamespace {
-class __OculusPlatformLeaderboardsHandler____c__DisplayClass4_0;
-}
-namespace GlobalNamespace {
-class __LeaderboardScoreUploader__ScoreData;
-}
-namespace GlobalNamespace {
-class __OculusPlatformLeaderboardsHandler____c__DisplayClass6_0;
+class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
 }
 namespace GlobalNamespace {
 class HMAsyncRequest;
-}
-namespace GlobalNamespace {
-class GameplayModifiersModelSO;
 }
 namespace Oculus::Platform {
 class Message;
 }
 namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__ScoresScope;
+class __OculusPlatformLeaderboardsHandler____c;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
@@ -40,17 +25,32 @@ class IDifficultyBeatmap;
 namespace GlobalNamespace {
 class __OculusPlatformLeaderboardsHandler____c__DisplayClass7_0;
 }
+namespace Oculus::Platform {
+class Request;
+}
+namespace GlobalNamespace {
+class __LeaderboardScoreUploader__ScoreData;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace GlobalNamespace {
+class LeaderboardIdsModelSO;
+}
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
+}
 namespace GlobalNamespace {
 class __PlatformLeaderboardsModel__GetScoresCompletionHandler;
 }
 namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
+class __OculusPlatformLeaderboardsHandler____c__DisplayClass4_0;
 }
 namespace GlobalNamespace {
-class __OculusPlatformLeaderboardsHandler____c;
+class __OculusPlatformLeaderboardsHandler____c__DisplayClass6_0;
 }
 namespace GlobalNamespace {
-class LeaderboardIdsModelSO;
+struct __PlatformLeaderboardsModel__ScoresScope;
 }
 namespace Oculus::Platform {
 template <typename T> class __Message_1__Callback;
@@ -87,8 +87,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__Disp
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4220))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4253))
 // CS Name: ::OculusPlatformLeaderboardsHandler::<>c*
 class CORDL_TYPE __OculusPlatformLeaderboardsHandler____c : public ::System::Object {
 public:
@@ -109,10 +109,10 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x232ab74 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d9e80 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <.ctor>b__3_0 addr 0x232ab7c size 0x4 virtual false final false
+  /// @brief Method <.ctor>b__3_0 addr 0x21d9e88 size 0x4 virtual false final false
   inline void __ctor_b__3_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>* message);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformLeaderboardsHandler____c", modifiers: "&&", def_value: None }]
@@ -139,8 +139,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatfor
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4221))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4254))
 // CS Name: ::OculusPlatformLeaderboardsHandler::<>c__DisplayClass4_0*
 class CORDL_TYPE __OculusPlatformLeaderboardsHandler____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -165,10 +165,10 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x232a5ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d98f8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <AddOculusRequest>b__0 addr 0x232ab80 size 0x64 virtual false final false
+  /// @brief Method <AddOculusRequest>b__0 addr 0x21d9e8c size 0x64 virtual false final false
   inline void _AddOculusRequest_b__0(::GlobalNamespace::HMAsyncRequest* request);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
@@ -196,13 +196,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0, ___oculusRequest) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass6_0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4222))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4255))
 // CS Name: ::OculusPlatformLeaderboardsHandler::<>c__DisplayClass6_0*
 class CORDL_TYPE __OculusPlatformLeaderboardsHandler____c__DisplayClass6_0 : public ::System::Object {
 public:
@@ -236,10 +240,10 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x232a8f4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d9c00 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <GetScores>b__0 addr 0x232abe4 size 0x2f8 virtual false final false
+  /// @brief Method <GetScores>b__0 addr 0x21d9ef0 size 0x2f8 virtual false final false
   inline void _GetScores_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>* message);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0", modifiers: "&&", def_value: None }]
@@ -270,13 +274,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0, ___completionHandler) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0, ___referencePlayerId) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass7_0
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4223))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4256))
 // CS Name: ::OculusPlatformLeaderboardsHandler::<>c__DisplayClass7_0*
 class CORDL_TYPE __OculusPlatformLeaderboardsHandler____c__DisplayClass7_0 : public ::System::Object {
 public:
@@ -301,10 +311,10 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x232ab08 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d9e14 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <UploadScore>b__0 addr 0x232af1c size 0x98 virtual false final false
+  /// @brief Method <UploadScore>b__0 addr 0x21da228 size 0x98 virtual false final false
   inline void _UploadScore_b__0(::Oculus::Platform::Message_1<bool>* messsage);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
@@ -332,13 +342,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0, ___completionHandler) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OculusPlatformLeaderboardsHandler
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4224))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4258))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4257))
 // CS Name: ::OculusPlatformLeaderboardsHandler*
 class CORDL_TYPE OculusPlatformLeaderboardsHandler : public ::GlobalNamespace::PlatformLeaderboardsHandler {
 public:
@@ -351,20 +365,14 @@ public:
 
   using __c = ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c;
 
-  /// @brief Field _leaderboardIdsModel, offset 0x10, size 0x8
-  __declspec(property(get = __get__leaderboardIdsModel, put = __set__leaderboardIdsModel))::GlobalNamespace::LeaderboardIdsModelSO* _leaderboardIdsModel;
-
-  /// @brief Field _oculusRequestIds, offset 0x18, size 0x8
+  /// @brief Field _oculusRequestIds, offset 0x10, size 0x8
   __declspec(property(get = __get__oculusRequestIds, put = __set__oculusRequestIds))::System::Collections::Generic::HashSet_1<uint64_t>* _oculusRequestIds;
 
-  /// @brief Field _gameplayModifiersModel, offset 0x20, size 0x8
+  /// @brief Field _gameplayModifiersModel, offset 0x18, size 0x8
   __declspec(property(get = __get__gameplayModifiersModel, put = __set__gameplayModifiersModel))::GlobalNamespace::GameplayModifiersModelSO* _gameplayModifiersModel;
 
-  constexpr ::GlobalNamespace::LeaderboardIdsModelSO*& __get__leaderboardIdsModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LeaderboardIdsModelSO*> const& __get__leaderboardIdsModel() const;
-
-  constexpr void __set__leaderboardIdsModel(::GlobalNamespace::LeaderboardIdsModelSO* value);
+  /// @brief Field _leaderboardIdsModel, offset 0x20, size 0x8
+  __declspec(property(get = __get__leaderboardIdsModel, put = __set__leaderboardIdsModel))::GlobalNamespace::LeaderboardIdsModelSO* _leaderboardIdsModel;
 
   constexpr ::System::Collections::Generic::HashSet_1<uint64_t>*& __get__oculusRequestIds();
 
@@ -378,23 +386,29 @@ public:
 
   constexpr void __set__gameplayModifiersModel(::GlobalNamespace::GameplayModifiersModelSO* value);
 
+  constexpr ::GlobalNamespace::LeaderboardIdsModelSO*& __get__leaderboardIdsModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LeaderboardIdsModelSO*> const& __get__leaderboardIdsModel() const;
+
+  constexpr void __set__leaderboardIdsModel(::GlobalNamespace::LeaderboardIdsModelSO* value);
+
   static inline ::GlobalNamespace::OculusPlatformLeaderboardsHandler* New_ctor();
 
-  /// @brief Method .ctor addr 0x232a3d8 size 0x120 virtual false final false
+  /// @brief Method .ctor addr 0x21d96e4 size 0x120 virtual false final false
   inline void _ctor();
 
-  /// @brief Method AddOculusRequest addr 0x232a500 size 0xec virtual false final false
+  /// @brief Method AddOculusRequest addr 0x21d980c size 0xec virtual false final false
   inline void AddOculusRequest(::Oculus::Platform::Request* oculusRequest, ::GlobalNamespace::HMAsyncRequest* asyncRequest);
 
-  /// @brief Method CheckMessageForValidRequest addr 0x232a5f4 size 0x98 virtual false final false
+  /// @brief Method CheckMessageForValidRequest addr 0x21d9900 size 0x98 virtual false final false
   inline bool CheckMessageForValidRequest(::Oculus::Platform::Message* message);
 
-  /// @brief Method GetScores addr 0x232a68c size 0x268 virtual true final false
+  /// @brief Method GetScores addr 0x21d9998 size 0x268 virtual true final false
   inline ::GlobalNamespace::HMAsyncRequest* GetScores(::GlobalNamespace::IDifficultyBeatmap* beatmap, int32_t count, int32_t fromRank,
                                                       ::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope scope, ::StringW referencePlayerId,
                                                       ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler* completionHandler);
 
-  /// @brief Method UploadScore addr 0x232a8fc size 0x20c virtual true final false
+  /// @brief Method UploadScore addr 0x21d9c08 size 0x20c virtual true final false
   inline ::GlobalNamespace::HMAsyncRequest* UploadScore(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* scoreData,
                                                         ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* completionHandler);
 
@@ -412,19 +426,25 @@ protected:
   constexpr OculusPlatformLeaderboardsHandler();
 
 public:
-  /// @brief Field _leaderboardIdsModel, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::LeaderboardIdsModelSO* ____leaderboardIdsModel;
-
-  /// @brief Field _oculusRequestIds, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _oculusRequestIds, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<uint64_t>* ____oculusRequestIds;
 
-  /// @brief Field _gameplayModifiersModel, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _gameplayModifiersModel, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiersModelSO* ____gameplayModifiersModel;
+
+  /// @brief Field _leaderboardIdsModel, offset: 0x20, size: 0x8, def value: None
+  ::GlobalNamespace::LeaderboardIdsModelSO* ____leaderboardIdsModel;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusPlatformLeaderboardsHandler, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OculusPlatformLeaderboardsHandler, ____oculusRequestIds) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OculusPlatformLeaderboardsHandler, ____gameplayModifiersModel) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OculusPlatformLeaderboardsHandler, ____leaderboardIdsModel) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OculusPlatformLeaderboardsHandler);

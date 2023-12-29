@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::Profiling::LowLevel::MarkerFlags);
 namespace Unity::Profiling::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9967))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9895))
 // CS Name: ::Unity.Profiling.LowLevel::MarkerFlags
 struct CORDL_TYPE MarkerFlags {
 public:
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Profiling::LowLevel::MarkerFlags, 0x2>, "Size mismatch!");
+
+static_assert(offsetof(::Unity::Profiling::LowLevel::MarkerFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Unity::Profiling::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Profiling::LowLevel::MarkerFlags, "Unity.Profiling.LowLevel", "MarkerFlags");

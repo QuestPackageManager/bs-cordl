@@ -9,43 +9,43 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
 }
 namespace UnityEngine::UIElements {
-struct FontDefinition;
+struct Length;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UIElements {
-struct TextShadow;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-struct Translate;
+class Font;
 }
 namespace UnityEngine::UIElements {
 struct Background;
 }
-namespace UnityEngine {
-class Font;
+namespace UnityEngine::UIElements {
+struct TransformOrigin;
+}
+namespace UnityEngine::UIElements {
+struct Scale;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::UIElements {
-struct Scale;
+struct TextShadow;
 }
 namespace UnityEngine::UIElements {
-struct Length;
+struct Translate;
 }
 namespace UnityEngine::UIElements {
-struct TransformOrigin;
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+struct Rotate;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace UnityEngine {
+struct Color;
+}
 namespace UnityEngine::UIElements {
-struct Rotate;
+struct FontDefinition;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IStylePropertyAnimationSystem);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6831))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6917))
 // CS Name: ::UnityEngine.UIElements::IStylePropertyAnimationSystem*
 class CORDL_TYPE IStylePropertyAnimationSystem {
 public:

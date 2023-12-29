@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Shadow)
-namespace UnityEngine::UI {
-class VertexHelper;
-}
 namespace UnityEngine {
-struct Color;
+struct Vector2;
 }
 namespace UnityEngine {
 struct UIVertex;
 }
 namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-struct Vector2;
+struct Color;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine::UI {
+class VertexHelper;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::UnityEngine::UI::Shadow);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13143)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13148))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13148)), TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13153))
 // CS Name: ::UnityEngine.UI::Shadow*
 class CORDL_TYPE Shadow : public ::UnityEngine::UI::BaseMeshEffect {
 public:
@@ -77,34 +77,34 @@ public:
 
   static inline ::UnityEngine::UI::Shadow* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d91650 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2c292a0 size 0x28 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_effectColor addr 0x2d91678 size 0xc virtual false final false
+  /// @brief Method get_effectColor addr 0x2c292c8 size 0xc virtual false final false
   inline ::UnityEngine::Color get_effectColor();
 
-  /// @brief Method set_effectColor addr 0x2d91684 size 0xd4 virtual false final false
+  /// @brief Method set_effectColor addr 0x2c292d4 size 0xd4 virtual false final false
   inline void set_effectColor(::UnityEngine::Color value);
 
-  /// @brief Method get_effectDistance addr 0x2d91758 size 0x8 virtual false final false
+  /// @brief Method get_effectDistance addr 0x2c293a8 size 0x8 virtual false final false
   inline ::UnityEngine::Vector2 get_effectDistance();
 
-  /// @brief Method set_effectDistance addr 0x2d91760 size 0x104 virtual false final false
+  /// @brief Method set_effectDistance addr 0x2c293b0 size 0x104 virtual false final false
   inline void set_effectDistance(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_useGraphicAlpha addr 0x2d91864 size 0x8 virtual false final false
+  /// @brief Method get_useGraphicAlpha addr 0x2c294b4 size 0x8 virtual false final false
   inline bool get_useGraphicAlpha();
 
-  /// @brief Method set_useGraphicAlpha addr 0x2d9186c size 0xb8 virtual false final false
+  /// @brief Method set_useGraphicAlpha addr 0x2c294bc size 0xb8 virtual false final false
   inline void set_useGraphicAlpha(bool value);
 
-  /// @brief Method ApplyShadowZeroAlloc addr 0x2d91924 size 0x30c virtual false final false
+  /// @brief Method ApplyShadowZeroAlloc addr 0x2c29574 size 0x30c virtual false final false
   inline void ApplyShadowZeroAlloc(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts, ::UnityEngine::Color32 color, int32_t start, int32_t end, float_t x, float_t y);
 
-  /// @brief Method ApplyShadow addr 0x2d91c30 size 0x8 virtual false final false
+  /// @brief Method ApplyShadow addr 0x2c29880 size 0x8 virtual false final false
   inline void ApplyShadow(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts, ::UnityEngine::Color32 color, int32_t start, int32_t end, float_t x, float_t y);
 
-  /// @brief Method ModifyMesh addr 0x2d91c38 size 0x3e0 virtual true final false
+  /// @brief Method ModifyMesh addr 0x2c29888 size 0x3e0 virtual true final false
   inline void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
 
   // Ctor Parameters [CppParam { name: "", ty: "Shadow", modifiers: "&&", def_value: None }]
@@ -137,6 +137,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::Shadow, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Shadow, ___m_EffectColor) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Shadow, ___m_EffectDistance) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Shadow, ___m_UseGraphicAlpha) == 0x38, "Offset mismatch!");
 
 } // namespace UnityEngine::UI
 NEED_NO_BOX(::UnityEngine::UI::Shadow);

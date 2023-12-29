@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Threading::IThreadPoolWorkItem);
 namespace System::Threading {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2727))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2725))
 // CS Name: ::System.Threading::IThreadPoolWorkItem*
 class CORDL_TYPE IThreadPoolWorkItem {
 public:

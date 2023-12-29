@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelPackCollectionContainerSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4354))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4377))
 // CS Name: ::BeatmapLevelPackCollectionContainerSO*
 class CORDL_TYPE BeatmapLevelPackCollectionContainerSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -34,12 +34,12 @@ public:
 
   constexpr void __set__beatmapLevelPackCollection(::GlobalNamespace::BeatmapLevelPackCollectionSO* value);
 
-  /// @brief Method get_beatmapLevelPackCollection addr 0x23424d4 size 0x8 virtual false final false
+  /// @brief Method get_beatmapLevelPackCollection addr 0x21f7f84 size 0x8 virtual false final false
   inline ::GlobalNamespace::BeatmapLevelPackCollectionSO* get_beatmapLevelPackCollection();
 
   static inline ::GlobalNamespace::BeatmapLevelPackCollectionContainerSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x23424dc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21f7f8c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelPackCollectionContainerSO", modifiers: "&&", def_value: None }]
@@ -63,6 +63,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelPackCollectionContainerSO, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackCollectionContainerSO, ____beatmapLevelPackCollection) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapLevelPackCollectionContainerSO);

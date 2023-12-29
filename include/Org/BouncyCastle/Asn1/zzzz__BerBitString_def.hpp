@@ -30,25 +30,25 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::BerBitString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t padBits);
 
-  /// @brief Method .ctor addr 0x11bbbb8 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x114a968 size 0x70 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t padBits);
 
   static inline ::Org::BouncyCastle::Asn1::BerBitString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0x11bbc28 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x114a9d8 size 0x68 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Asn1::BerBitString* New_ctor(int32_t namedBits);
 
-  /// @brief Method .ctor addr 0x11bbc90 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x114aa40 size 0x68 virtual false final false
   inline void _ctor(int32_t namedBits);
 
   static inline ::Org::BouncyCastle::Asn1::BerBitString* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor addr 0x11bbcf8 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x114aaa8 size 0x68 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method Encode addr 0x11bbd60 size 0xd4 virtual true final false
+  /// @brief Method Encode addr 0x114ab10 size 0xd4 virtual true final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "BerBitString", modifiers: "&&", def_value: None }]

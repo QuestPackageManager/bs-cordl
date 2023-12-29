@@ -4,11 +4,8 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(AutoSetupController)
-namespace UnityEngine::UI {
-class Button;
-}
-namespace UnityEngine::UI {
-class Toggle;
+namespace GlobalNamespace {
+class AutoSetupData;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -16,8 +13,11 @@ template <typename T> class Action_1;
 namespace HMUI {
 class ToggleBinder;
 }
-namespace GlobalNamespace {
-class AutoSetupData;
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 namespace HMUI {
 class ButtonBinder;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AutoSetupController);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5556))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5649))
 // CS Name: ::AutoSetupController*
 class CORDL_TYPE AutoSetupController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -119,39 +119,39 @@ public:
 
   constexpr void __set__autoSetupData(::GlobalNamespace::AutoSetupData* value);
 
-  /// @brief Method add_didFinishEvent addr 0x22a2a60 size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent addr 0x215dadc size 0xb0 virtual false final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x22a2b10 size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent addr 0x215db8c size 0xb0 virtual false final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
-  /// @brief Method Setup addr 0x22a2bc0 size 0x8 virtual false final false
+  /// @brief Method Setup addr 0x215dc3c size 0x8 virtual false final false
   inline void Setup(::GlobalNamespace::AutoSetupData* autoSetupData);
 
-  /// @brief Method OnEnable addr 0x22a2bc8 size 0x200 virtual false final false
+  /// @brief Method OnEnable addr 0x215dc44 size 0x200 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x22a2dc8 size 0x1c virtual false final false
+  /// @brief Method OnDisable addr 0x215de44 size 0x1c virtual false final false
   inline void OnDisable();
 
   static inline ::GlobalNamespace::AutoSetupController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22a2de4 size 0xc8 virtual false final false
+  /// @brief Method .ctor addr 0x215de60 size 0xc8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <OnEnable>b__12_0 addr 0x22a2eb4 size 0x20 virtual false final false
+  /// @brief Method <OnEnable>b__12_0 addr 0x215df30 size 0x20 virtual false final false
   inline void _OnEnable_b__12_0();
 
-  /// @brief Method <OnEnable>b__12_1 addr 0x22a2ed4 size 0x20 virtual false final false
+  /// @brief Method <OnEnable>b__12_1 addr 0x215df50 size 0x20 virtual false final false
   inline void _OnEnable_b__12_1(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_2 addr 0x22a2ef4 size 0x20 virtual false final false
+  /// @brief Method <OnEnable>b__12_2 addr 0x215df70 size 0x20 virtual false final false
   inline void _OnEnable_b__12_2(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_3 addr 0x22a2f14 size 0x20 virtual false final false
+  /// @brief Method <OnEnable>b__12_3 addr 0x215df90 size 0x20 virtual false final false
   inline void _OnEnable_b__12_3(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_4 addr 0x22a2f34 size 0x20 virtual false final false
+  /// @brief Method <OnEnable>b__12_4 addr 0x215dfb0 size 0x20 virtual false final false
   inline void _OnEnable_b__12_4(bool isOn);
 
   // Ctor Parameters [CppParam { name: "", ty: "AutoSetupController", modifiers: "&&", def_value: None }]
@@ -199,6 +199,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AutoSetupController, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____closeButton) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____selectBasedOnSuggestionsToggle) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____autoStartWhenAllReadyToggle) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____forceAutoStartAfterSongSelectionToggle) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____randomSongIfNoneSuggestedToggle) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ___didFinishEvent) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____buttonBinder) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____toggleBinder) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____autoSetupData) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AutoSetupController);

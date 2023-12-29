@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SerializationHeaderRecord)
 namespace System::Runtime::Serialization::Formatters::Binary {
+class __BinaryWriter;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryParser;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryHeaderEnum;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::Serializati
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3258))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3242))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3257))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::SerializationHeaderRecord*
 class CORDL_TYPE SerializationHeaderRecord : public ::System::Object {
 public:
@@ -97,25 +97,25 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord* New_ctor();
 
-  /// @brief Method .ctor addr 0x24c1ad4 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2368fe0 size 0x10 virtual false final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord* New_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum,
                                                                                                           int32_t topId, int32_t headerId, int32_t majorVersion, int32_t minorVersion);
 
-  /// @brief Method .ctor addr 0x24c1ae4 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x2368ff0 size 0x58 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int32_t topId, int32_t headerId, int32_t majorVersion, int32_t minorVersion);
 
-  /// @brief Method Write addr 0x24c1b3c size 0xb0 virtual true final true
+  /// @brief Method Write addr 0x2369048 size 0xb0 virtual true final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method GetInt32 addr 0x24c1bec size 0x74 virtual false final false
+  /// @brief Method GetInt32 addr 0x23690f8 size 0x74 virtual false final false
   static inline int32_t GetInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index);
 
-  /// @brief Method Read addr 0x24c1c60 size 0x164 virtual true final true
+  /// @brief Method Read addr 0x236916c size 0x164 virtual true final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Dump addr 0x24c1dc4 size 0x4 virtual false final false
+  /// @brief Method Dump addr 0x23692d0 size 0x4 virtual false final false
   inline void Dump();
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializationHeaderRecord", modifiers: "&&", def_value: None }]
@@ -157,6 +157,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord, ___binaryFormatterMajorVersion) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord, ___binaryFormatterMinorVersion) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord, ___binaryHeaderEnum) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord, ___topId) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord, ___headerId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord, ___majorVersion) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord, ___minorVersion) == 0x28, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord);

@@ -16,7 +16,7 @@ MARK_VAL_T(::Internal::Cryptography::Pal::GeneralNameType);
 namespace Internal::Cryptography::Pal {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8855))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7692))
 // CS Name: ::Internal.Cryptography.Pal::GeneralNameType
 struct CORDL_TYPE GeneralNameType {
 public:
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Internal::Cryptography::Pal::GeneralNameType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Internal::Cryptography::Pal::GeneralNameType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Internal::Cryptography::Pal
 DEFINE_IL2CPP_ARG_TYPE(::Internal::Cryptography::Pal::GeneralNameType, "Internal.Cryptography.Pal", "GeneralNameType");

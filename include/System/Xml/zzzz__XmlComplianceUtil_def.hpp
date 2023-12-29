@@ -15,16 +15,16 @@ MARK_REF_PTR_T(::System::Xml::XmlComplianceUtil);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11545))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11473))
 // CS Name: ::System.Xml::XmlComplianceUtil*
 class CORDL_TYPE XmlComplianceUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NonCDataNormalize addr 0x289df68 size 0x270 virtual false final false
+  /// @brief Method NonCDataNormalize addr 0x2720f48 size 0x270 virtual false final false
   static inline ::StringW NonCDataNormalize(::StringW value);
 
-  /// @brief Method CDataNormalize addr 0x289e1e0 size 0x1e4 virtual false final false
+  /// @brief Method CDataNormalize addr 0x27211c0 size 0x1e4 virtual false final false
   static inline ::StringW CDataNormalize(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlComplianceUtil", modifiers: "&&", def_value: None }]

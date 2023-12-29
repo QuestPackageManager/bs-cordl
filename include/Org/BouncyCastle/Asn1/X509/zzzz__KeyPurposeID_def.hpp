@@ -107,7 +107,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::KeyPurposeID* New_ctor(::StringW id);
 
-  /// @brief Method .ctor addr 0x1191f2c size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x1121ce4 size 0x68 virtual false final false
   inline void _ctor(::StringW id);
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyPurposeID", modifiers: "&&", def_value: None }]

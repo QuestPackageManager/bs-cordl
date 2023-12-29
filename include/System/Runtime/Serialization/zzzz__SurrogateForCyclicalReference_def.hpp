@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SurrogateForCyclicalReference)
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 class ISerializationSurrogate;
 }
 namespace System::Runtime::Serialization {
 class ISurrogateSelector;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SurrogateForCyclicalReference);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3214))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3213))
 // CS Name: ::System.Runtime.Serialization::SurrogateForCyclicalReference*
 class CORDL_TYPE SurrogateForCyclicalReference : public ::System::Object {
 public:
@@ -47,10 +47,10 @@ public:
 
   constexpr void __set_innerSurrogate(::System::Runtime::Serialization::ISerializationSurrogate* value);
 
-  /// @brief Method GetObjectData addr 0x24b8338 size 0xd0 virtual true final true
+  /// @brief Method GetObjectData addr 0x235f844 size 0xd0 virtual true final true
   inline void GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SetObjectData addr 0x24b8408 size 0xdc virtual true final true
+  /// @brief Method SetObjectData addr 0x235f914 size 0xdc virtual true final true
   inline ::System::Object* SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context,
                                          ::System::Runtime::Serialization::ISurrogateSelector* selector);
 
@@ -75,6 +75,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::SurrogateForCyclicalReference, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SurrogateForCyclicalReference, ___innerSurrogate) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::SurrogateForCyclicalReference);

@@ -1,3 +1,0 @@
-#pragma once
-#include "GlobalNamespace/zzzz__MixedLightsColorSetterRuntimeLightWithIds_def.hpp"
-#include "GlobalNamespace/zzzz__MixedLightsColorSetterRuntimeLightWithIds_impl.hpp"

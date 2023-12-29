@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngineInternal::Input::NativeInputEventType);
 namespace UnityEngineInternal::Input {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16108))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15962))
 // CS Name: ::UnityEngineInternal.Input::NativeInputEventType
 struct CORDL_TYPE NativeInputEventType {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngineInternal::Input::NativeInputEventType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngineInternal::Input::NativeInputEventType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngineInternal::Input
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngineInternal::Input::NativeInputEventType, "UnityEngineInternal.Input", "NativeInputEventType");

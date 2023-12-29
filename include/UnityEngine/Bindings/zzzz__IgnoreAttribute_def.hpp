@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::IgnoreAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16030))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15894))
 // CS Name: ::UnityEngine.Bindings::IgnoreAttribute*
 class CORDL_TYPE IgnoreAttribute : public ::System::Attribute {
 public:
@@ -31,12 +31,12 @@ public:
 
   constexpr void __set__DoesNotContributeToSize_k__BackingField(bool value);
 
-  /// @brief Method set_DoesNotContributeToSize addr 0x2d189d0 size 0xc virtual false final false
+  /// @brief Method set_DoesNotContributeToSize addr 0x2bb1620 size 0xc virtual false final false
   inline void set_DoesNotContributeToSize(bool value);
 
   static inline ::UnityEngine::Bindings::IgnoreAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d189dc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2bb162c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IgnoreAttribute", modifiers: "&&", def_value: None }]
@@ -60,6 +60,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::IgnoreAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Bindings::IgnoreAttribute, ____DoesNotContributeToSize_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::Bindings
 NEED_NO_BOX(::UnityEngine::Bindings::IgnoreAttribute);

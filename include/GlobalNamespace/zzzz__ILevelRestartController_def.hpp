@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ILevelRestartController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5068))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5173))
 // CS Name: ::ILevelRestartController*
 class CORDL_TYPE ILevelRestartController {
 public:

@@ -8,19 +8,19 @@ namespace System::Threading {
 class ExecutionContext;
 }
 namespace System::Threading {
-class ContextCallback;
+class CancellationTokenSource;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace System::Threading {
+class ContextCallback;
 }
 namespace System::Threading {
 class __CancellationCallbackInfo__WithSyncContext;
 }
-namespace System::Threading {
-class CancellationTokenSource;
-}
 namespace System {
 class Object;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Threading::CancellationCallbackInfo);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2691))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2689))
 // CS Name: ::System.Threading::CancellationCallbackInfo*
 class CORDL_TYPE CancellationCallbackInfo : public ::System::Object {
 public:
@@ -87,14 +87,14 @@ public:
                                                                         ::System::Threading::ExecutionContext* targetExecutionContext,
                                                                         ::System::Threading::CancellationTokenSource* cancellationTokenSource);
 
-  /// @brief Method .ctor addr 0x261300c size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x24b7ff0 size 0x40 virtual false final false
   inline void _ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback, ::System::Threading::ExecutionContext* targetExecutionContext,
                     ::System::Threading::CancellationTokenSource* cancellationTokenSource);
 
-  /// @brief Method ExecuteCallback addr 0x26136b0 size 0xfc virtual false final false
+  /// @brief Method ExecuteCallback addr 0x24b8694 size 0xfc virtual false final false
   inline void ExecuteCallback();
 
-  /// @brief Method ExecutionContextCallback addr 0x26140cc size 0x8c virtual false final false
+  /// @brief Method ExecutionContextCallback addr 0x24b90b0 size 0x8c virtual false final false
   static inline void ExecutionContextCallback(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "CancellationCallbackInfo", modifiers: "&&", def_value: None }]
@@ -127,6 +127,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::CancellationCallbackInfo, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::CancellationCallbackInfo, ___Callback) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::CancellationCallbackInfo, ___StateForCallback) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::CancellationCallbackInfo, ___TargetExecutionContext) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::CancellationCallbackInfo, ___CancellationTokenSource) == 0x28, "Offset mismatch!");
 
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::CancellationCallbackInfo);

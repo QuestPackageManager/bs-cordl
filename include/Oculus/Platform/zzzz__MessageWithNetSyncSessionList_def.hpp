@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithNetSyncSessionList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4598 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13460))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13307)) CS Name: ::Oculus.Platform::MessageWithNetSyncSessionList*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13515)), TypeDefinitionIndex(TypeDefinitionIndex(13269)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst:
+// 4504 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13324)) CS Name: ::Oculus.Platform::MessageWithNetSyncSessionList*
 class CORDL_TYPE MessageWithNetSyncSessionList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncSessionList*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithNetSyncSessionList* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x26f2b00 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x2597064 size 0x58 virtual false final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetNetSyncSessionList addr 0x26f2b58 size 0x3c virtual true final false
+  /// @brief Method GetNetSyncSessionList addr 0x25970bc size 0x3c virtual true final false
   inline ::Oculus::Platform::Models::NetSyncSessionList* GetNetSyncSessionList();
 
-  /// @brief Method GetDataFromMessage addr 0x26f2b94 size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage addr 0x25970f8 size 0x9c virtual true final false
   inline ::Oculus::Platform::Models::NetSyncSessionList* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithNetSyncSessionList", modifiers: "&&", def_value: None }]

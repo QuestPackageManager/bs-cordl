@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SwitchView)
-namespace UnityEngine {
-class AnimationClip;
-}
 namespace HMUI {
 struct __SwitchView__AnimationType;
 }
 namespace HMUI {
 struct __ToggleWithCallbacks__SelectionState;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 namespace HMUI {
 class ToggleWithCallbacks;
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::HMUI::SwitchView);
 namespace HMUI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13657))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13774))
 // CS Name: ::SwitchView::AnimationType
 struct CORDL_TYPE __SwitchView__AnimationType {
 public:
@@ -76,13 +76,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__SwitchView__AnimationType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__SwitchView__AnimationType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: HMUI::SwitchView
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(13657))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13658))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13774)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13775))
 // CS Name: ::HMUI::SwitchView*
 class CORDL_TYPE SwitchView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -179,27 +181,27 @@ public:
 
   constexpr void __set__toggle(::HMUI::ToggleWithCallbacks* value);
 
-  /// @brief Method Awake addr 0x2146a7c size 0x50 virtual false final false
+  /// @brief Method Awake addr 0x1fef0e0 size 0x50 virtual false final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x2146acc size 0x114 virtual false final false
+  /// @brief Method Start addr 0x1fef130 size 0x114 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x2146db8 size 0x10c virtual false final false
+  /// @brief Method OnDestroy addr 0x1fef41c size 0x10c virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleOnValueChanged addr 0x2146f78 size 0x4 virtual false final false
+  /// @brief Method HandleOnValueChanged addr 0x1fef5dc size 0x4 virtual false final false
   inline void HandleOnValueChanged(bool value);
 
-  /// @brief Method HandleStateDidChange addr 0x2146f7c size 0x4 virtual false final false
+  /// @brief Method HandleStateDidChange addr 0x1fef5e0 size 0x4 virtual false final false
   inline void HandleStateDidChange(::HMUI::__ToggleWithCallbacks__SelectionState value);
 
-  /// @brief Method RefreshVisuals addr 0x2146c94 size 0x124 virtual false final false
+  /// @brief Method RefreshVisuals addr 0x1fef2f8 size 0x124 virtual false final false
   inline void RefreshVisuals();
 
   static inline ::HMUI::SwitchView* New_ctor();
 
-  /// @brief Method .ctor addr 0x2146fd4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fef638 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SwitchView", modifiers: "&&", def_value: None }]
@@ -250,6 +252,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::SwitchView, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::SwitchView, ____animationType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::SwitchView, ____normalAnimationClip) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::SwitchView, ____highlightedAnimationClip) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::SwitchView, ____pressedAnimationClip) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::SwitchView, ____disabledAnimationClip) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::SwitchView, ____onAnimationClip) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::SwitchView, ____offAnimationClip) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::SwitchView, ____selectedAnimationClip) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::SwitchView, ____selectedAndHighlightedAnimationClip) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::SwitchView, ____toggle) == 0x60, "Offset mismatch!");
 
 } // namespace HMUI
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::__SwitchView__AnimationType, "HMUI", "SwitchView/AnimationType");

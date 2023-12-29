@@ -7,12 +7,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IPEndPoint)
 namespace System::Net {
-class SocketAddress;
-}
-namespace System::Net {
-class IPAddress;
-}
-namespace System::Net {
 class EndPoint;
 }
 namespace System::Net::Sockets {
@@ -20,6 +14,12 @@ struct AddressFamily;
 }
 namespace System {
 class Object;
+}
+namespace System::Net {
+class SocketAddress;
+}
+namespace System::Net {
+class IPAddress;
 }
 // Forward declare root types
 namespace System::Net {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::System::Net::IPEndPoint);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9061))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9032))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7898))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7869))
 // CS Name: ::System.Net::IPEndPoint*
 class CORDL_TYPE IPEndPoint : public ::System::Net::EndPoint {
 public:
@@ -75,33 +75,33 @@ public:
 
   static inline ::System::Net::IPEndPoint* getStaticF_IPv6Any();
 
-  /// @brief Method get_AddressFamily addr 0x298c624 size 0x2c virtual true final false
+  /// @brief Method get_AddressFamily addr 0x280edb4 size 0x2c virtual true final false
   inline ::System::Net::Sockets::AddressFamily get_AddressFamily();
 
   static inline ::System::Net::IPEndPoint* New_ctor(::System::Net::IPAddress* address, int32_t port);
 
-  /// @brief Method .ctor addr 0x298c650 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x280ede0 size 0xc0 virtual false final false
   inline void _ctor(::System::Net::IPAddress* address, int32_t port);
 
-  /// @brief Method get_Address addr 0x298c718 size 0x8 virtual false final false
+  /// @brief Method get_Address addr 0x280eea8 size 0x8 virtual false final false
   inline ::System::Net::IPAddress* get_Address();
 
-  /// @brief Method get_Port addr 0x298c720 size 0x8 virtual false final false
+  /// @brief Method get_Port addr 0x280eeb0 size 0x8 virtual false final false
   inline int32_t get_Port();
 
-  /// @brief Method ToString addr 0x298c728 size 0xc0 virtual true final false
+  /// @brief Method ToString addr 0x280eeb8 size 0xc0 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method Serialize addr 0x298c7e8 size 0x70 virtual true final false
+  /// @brief Method Serialize addr 0x280ef78 size 0x70 virtual true final false
   inline ::System::Net::SocketAddress* Serialize();
 
-  /// @brief Method Create addr 0x298c858 size 0x1f4 virtual true final false
+  /// @brief Method Create addr 0x280efe8 size 0x1f4 virtual true final false
   inline ::System::Net::EndPoint* Create(::System::Net::SocketAddress* socketAddress);
 
-  /// @brief Method Equals addr 0x298ca4c size 0xb4 virtual true final false
+  /// @brief Method Equals addr 0x280f1dc size 0xb4 virtual true final false
   inline bool Equals(::System::Object* comparand);
 
-  /// @brief Method GetHashCode addr 0x298cb00 size 0x30 virtual true final false
+  /// @brief Method GetHashCode addr 0x280f290 size 0x30 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPEndPoint", modifiers: "&&", def_value: None }]
@@ -137,6 +137,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::IPEndPoint, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::IPEndPoint, ____address) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::IPEndPoint, ____port) == 0x18, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::IPEndPoint);

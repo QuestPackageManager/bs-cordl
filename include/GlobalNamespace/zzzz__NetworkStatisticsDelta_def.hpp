@@ -16,12 +16,12 @@ MARK_VAL_T(::GlobalNamespace::NetworkStatisticsDelta);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12901))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12823))
 // CS Name: ::NetworkStatisticsDelta
 struct CORDL_TYPE NetworkStatisticsDelta {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0xe4d09c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xdc80bc size 0x28 virtual false final false
   inline void _ctor(int64_t packetsSentDelta, int64_t packetsReceivedDelta, int64_t bytesSentDelta, int64_t bytesReceivedDelta, int64_t packetsLostDelta, int64_t packetsSentEncryptedDelta,
                     int64_t packetsSentPlaintextDelta, int64_t packetsSentRejectedDelta, int64_t packetsReceivedEncryptedDelta, int64_t packetsReceivedPlaintextDelta,
                     int64_t packetsReceivedRejectedDelta, int64_t encryptionProcessingTimeDelta, int64_t decryptionProcessingTimeDelta);
@@ -87,6 +87,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkStatisticsDelta, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, packetsSentDelta) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, packetsReceivedDelta) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, bytesSentDelta) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, bytesReceivedDelta) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, packetsLostDelta) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, packetsSentEncryptedDelta) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, packetsSentPlaintextDelta) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, packetsSentRejectedDelta) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, packetsReceivedEncryptedDelta) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, packetsReceivedPlaintextDelta) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, packetsReceivedRejectedDelta) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, encryptionProcessingTimeDelta) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsDelta, decryptionProcessingTimeDelta) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NetworkStatisticsDelta, "", "NetworkStatisticsDelta");

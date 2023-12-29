@@ -44,19 +44,19 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* x,
                                                                                                ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
-  /// @brief Method .ctor addr 0xf35a04 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0xec0818 size 0x88 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
-  /// @brief Method get_X addr 0xf35a8c size 0x8 virtual false final false
+  /// @brief Method get_X addr 0xec08a0 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_X();
 
-  /// @brief Method Equals addr 0xf35a94 size 0x9c virtual true final false
+  /// @brief Method Equals addr 0xec08a8 size 0x9c virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xf35b30 size 0x58 virtual false final false
+  /// @brief Method Equals addr 0xec0944 size 0x58 virtual false final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters* other);
 
-  /// @brief Method GetHashCode addr 0xf35b88 size 0x40 virtual true final false
+  /// @brief Method GetHashCode addr 0xec099c size 0x40 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalPrivateKeyParameters", modifiers: "&&", def_value: None }]
@@ -80,6 +80,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters, ___x) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters);

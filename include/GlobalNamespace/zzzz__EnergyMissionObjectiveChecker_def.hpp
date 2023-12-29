@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnergyMissionObjectiveChecker);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5093))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5088))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5198))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5193))
 // CS Name: ::EnergyMissionObjectiveChecker*
 class CORDL_TYPE EnergyMissionObjectiveChecker : public ::GlobalNamespace::MissionObjectiveChecker {
 public:
@@ -33,21 +33,21 @@ public:
 
   constexpr void __set__energyCounter(::GlobalNamespace::GameEnergyCounter* value);
 
-  /// @brief Method OnDestroy addr 0x23cb6dc size 0xd0 virtual false final false
+  /// @brief Method OnDestroy addr 0x20e9bcc size 0xd0 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleEnergyDidChange addr 0x23cb7ac size 0x6c virtual false final false
+  /// @brief Method HandleEnergyDidChange addr 0x20e9c9c size 0x6c virtual false final false
   inline void HandleEnergyDidChange(float_t energy);
 
-  /// @brief Method Init addr 0x23cb8dc size 0x138 virtual true final false
+  /// @brief Method Init addr 0x20e9dcc size 0x138 virtual true final false
   inline void Init();
 
-  /// @brief Method CheckAndUpdateStatus addr 0x23cb818 size 0xc4 virtual false final false
+  /// @brief Method CheckAndUpdateStatus addr 0x20e9d08 size 0xc4 virtual false final false
   inline void CheckAndUpdateStatus();
 
   static inline ::GlobalNamespace::EnergyMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x23cba14 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20e9f04 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnergyMissionObjectiveChecker", modifiers: "&&", def_value: None }]
@@ -71,6 +71,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnergyMissionObjectiveChecker, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnergyMissionObjectiveChecker, ____energyCounter) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnergyMissionObjectiveChecker);

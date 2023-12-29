@@ -8,34 +8,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Datatype_float)
 namespace System {
-class Object;
-}
-namespace System::Xml::Schema {
-class XmlValueConverter;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System {
 class Type;
 }
 namespace System::Xml::Schema {
 class FacetsChecker;
 }
-namespace System {
-class Exception;
-}
 namespace System::Xml::Schema {
 class XmlSchemaType;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System::Xml {
 class XmlNameTable;
 }
 namespace System::Xml::Schema {
+struct XmlTypeCode;
+}
+namespace System::Xml::Schema {
 struct XmlSchemaWhiteSpace;
+}
+namespace System::Xml::Schema {
+class XmlValueConverter;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_float);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11624))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11629))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11552))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11557))
 // CS Name: ::System.Xml.Schema::Datatype_float*
 class CORDL_TYPE Datatype_float : public ::System::Xml::Schema::Datatype_anySimpleType {
 public:
@@ -77,33 +77,33 @@ public:
 
   static inline ::System::Type* getStaticF_listValueType();
 
-  /// @brief Method CreateValueConverter addr 0x28b7f40 size 0x8 virtual true final false
+  /// @brief Method CreateValueConverter addr 0x2739f1c size 0x8 virtual true final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method get_FacetsChecker addr 0x28b7fa8 size 0x58 virtual true final false
+  /// @brief Method get_FacetsChecker addr 0x2739f84 size 0x58 virtual true final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_TypeCode addr 0x28b8000 size 0x8 virtual true final false
+  /// @brief Method get_TypeCode addr 0x2739fdc size 0x8 virtual true final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_ValueType addr 0x28b8008 size 0x58 virtual true final false
+  /// @brief Method get_ValueType addr 0x2739fe4 size 0x58 virtual true final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_ListValueType addr 0x28b8060 size 0x58 virtual true final false
+  /// @brief Method get_ListValueType addr 0x273a03c size 0x58 virtual true final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_BuiltInWhitespaceFacet addr 0x28b80b8 size 0x8 virtual true final false
+  /// @brief Method get_BuiltInWhitespaceFacet addr 0x273a094 size 0x8 virtual true final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method Compare addr 0x28b80c0 size 0x94 virtual true final false
+  /// @brief Method Compare addr 0x273a09c size 0x94 virtual true final false
   inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
 
-  /// @brief Method TryParseValue addr 0x28b8154 size 0x140 virtual true final false
+  /// @brief Method TryParseValue addr 0x273a130 size 0x140 virtual true final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
   static inline ::System::Xml::Schema::Datatype_float* New_ctor();
 
-  /// @brief Method .ctor addr 0x28b8294 size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x273a270 size 0x54 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_float", modifiers: "&&", def_value: None }]

@@ -5,7 +5,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SignalExtensions)
 namespace Zenject {
-class DiContainer;
+class DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder;
 }
 namespace Zenject {
 template <typename TSignal> class BindSignalIdToBinder_1;
@@ -13,11 +13,11 @@ template <typename TSignal> class BindSignalIdToBinder_1;
 namespace Zenject {
 class SignalDeclarationBindInfo;
 }
+namespace Zenject {
+class DiContainer;
+}
 namespace System {
 class Type;
-}
-namespace Zenject {
-class DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder;
 }
 // Forward declare root types
 namespace Zenject {
@@ -29,13 +29,13 @@ MARK_REF_PTR_T(::Zenject::SignalExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10656))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10584))
 // CS Name: ::Zenject::SignalExtensions*
 class CORDL_TYPE SignalExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateDefaultSignalDeclarationBindInfo addr 0x2ec279c size 0xa4 virtual false final false
+  /// @brief Method CreateDefaultSignalDeclarationBindInfo addr 0x2d5aa1c size 0xa4 virtual false final false
   static inline ::Zenject::SignalDeclarationBindInfo* CreateDefaultSignalDeclarationBindInfo(::Zenject::DiContainer* container, ::System::Type* signalType);
 
   /// @brief Method DeclareSignal addr 0x0 size 0xffffffffffffffff virtual false final false

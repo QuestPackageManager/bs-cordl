@@ -12,13 +12,13 @@ namespace Unity::Jobs {
 struct JobHandle;
 }
 namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
 struct Plane;
 }
 namespace UnityEngine::Rendering {
 struct BatchVisibility;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -30,8 +30,8 @@ MARK_VAL_T(::UnityEngine::Rendering::BatchRendererCullingOutput);
 // SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9977)), TypeDefinitionIndex(TypeDefinitionIndex(10245))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10366))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10172)), TypeDefinitionIndex(TypeDefinitionIndex(9905))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10288))
 // CS Name: ::UnityEngine.Rendering::BatchRendererCullingOutput
 struct CORDL_TYPE BatchRendererCullingOutput {
 public:
@@ -88,6 +88,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BatchRendererCullingOutput, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchRendererCullingOutput, cullingJobsFence) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchRendererCullingOutput, cullingMatrix) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchRendererCullingOutput, cullingPlanes) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchRendererCullingOutput, batchVisibility) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchRendererCullingOutput, visibleIndices) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchRendererCullingOutput, visibleIndicesY) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchRendererCullingOutput, cullingPlanesCount) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchRendererCullingOutput, batchVisibilityCount) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchRendererCullingOutput, visibleIndicesCount) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchRendererCullingOutput, nearPlane) == 0x7c, "Offset mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::BatchRendererCullingOutput, "UnityEngine.Rendering", "BatchRendererCullingOutput");

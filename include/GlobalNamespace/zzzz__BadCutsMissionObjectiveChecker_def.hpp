@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(BadCutsMissionObjectiveChecker)
 namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
 struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BadCutsMissionObjectiveChecker);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5098))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5086))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5203))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5191))
 // CS Name: ::BadCutsMissionObjectiveChecker*
 class CORDL_TYPE BadCutsMissionObjectiveChecker : public ::GlobalNamespace::SimpleValueMissionObjectiveChecker {
 public:
@@ -39,18 +39,18 @@ public:
 
   constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  /// @brief Method Init addr 0x23cb068 size 0x14c virtual true final false
+  /// @brief Method Init addr 0x20e9558 size 0x14c virtual true final false
   inline void Init();
 
-  /// @brief Method OnDestroy addr 0x23cb1f0 size 0x98 virtual false final false
+  /// @brief Method OnDestroy addr 0x20e96e0 size 0x98 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleNoteWasCut addr 0x23cb288 size 0x8c virtual false final false
+  /// @brief Method HandleNoteWasCut addr 0x20e9778 size 0x8c virtual false final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::GlobalNamespace::BadCutsMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x23cb454 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20e9944 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BadCutsMissionObjectiveChecker", modifiers: "&&", def_value: None }]
@@ -74,6 +74,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BadCutsMissionObjectiveChecker, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BadCutsMissionObjectiveChecker, ____beatmapObjectManager) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BadCutsMissionObjectiveChecker);

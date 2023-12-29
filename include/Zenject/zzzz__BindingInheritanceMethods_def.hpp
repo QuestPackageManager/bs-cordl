@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::BindingInheritanceMethods);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10945))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10873))
 // CS Name: ::Zenject::BindingInheritanceMethods
 struct CORDL_TYPE BindingInheritanceMethods {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::BindingInheritanceMethods, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::BindingInheritanceMethods, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Zenject
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::BindingInheritanceMethods, "Zenject", "BindingInheritanceMethods");

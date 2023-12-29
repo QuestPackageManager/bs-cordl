@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::RootMotion::TriggerEventBroadcaster);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12500))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12428))
 // CS Name: ::RootMotion::TriggerEventBroadcaster*
 class CORDL_TYPE TriggerEventBroadcaster : public ::UnityEngine::MonoBehaviour {
 public:
@@ -35,18 +35,18 @@ public:
 
   constexpr void __set_target(::UnityEngine::GameObject* value);
 
-  /// @brief Method OnTriggerEnter addr 0x123f7fc size 0xb4 virtual false final false
+  /// @brief Method OnTriggerEnter addr 0x11cf4d0 size 0xb4 virtual false final false
   inline void OnTriggerEnter(::UnityEngine::Collider* collider);
 
-  /// @brief Method OnTriggerStay addr 0x123f8b0 size 0xb4 virtual false final false
+  /// @brief Method OnTriggerStay addr 0x11cf584 size 0xb4 virtual false final false
   inline void OnTriggerStay(::UnityEngine::Collider* collider);
 
-  /// @brief Method OnTriggerExit addr 0x123f964 size 0xb4 virtual false final false
+  /// @brief Method OnTriggerExit addr 0x11cf638 size 0xb4 virtual false final false
   inline void OnTriggerExit(::UnityEngine::Collider* collider);
 
   static inline ::RootMotion::TriggerEventBroadcaster* New_ctor();
 
-  /// @brief Method .ctor addr 0x123fa18 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x11cf6ec size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TriggerEventBroadcaster", modifiers: "&&", def_value: None }]
@@ -70,6 +70,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::TriggerEventBroadcaster, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::TriggerEventBroadcaster, ___target) == 0x18, "Offset mismatch!");
 
 } // namespace RootMotion
 NEED_NO_BOX(::RootMotion::TriggerEventBroadcaster);

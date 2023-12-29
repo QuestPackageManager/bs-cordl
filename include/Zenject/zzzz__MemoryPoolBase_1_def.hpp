@@ -7,37 +7,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryPoolBase_1)
 namespace Zenject {
-template <typename TValue> class IFactory_1;
-}
-namespace Zenject {
 class DiContainer;
-}
-namespace Zenject {
-class MemoryPoolSettings;
-}
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
 }
 namespace System {
 class Type;
 }
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
+}
+namespace Zenject {
+template <typename TValue> class IFactory_1;
+}
 namespace System {
-class Object;
+class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class MemoryPoolSettings;
 }
 namespace Zenject {
 class IMemoryPool;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 namespace Zenject {
 class IValidatable;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -51,8 +51,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11049))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10977))
 // CS Name: ::Zenject::MemoryPoolBase`1<TContract>*
 class CORDL_TYPE MemoryPoolBase_1 : public ::System::Object {
 public:

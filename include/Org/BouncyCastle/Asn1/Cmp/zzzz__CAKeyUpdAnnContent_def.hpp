@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(CAKeyUpdAnnContent)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class CmpCertificate;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -67,22 +67,22 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe63e80 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0xdeecb0 size 0x80 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe640dc size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xdeef0c size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_OldWithNew addr 0xe64264 size 0x8 virtual true final false
+  /// @brief Method get_OldWithNew addr 0xdef094 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* get_OldWithNew();
 
-  /// @brief Method get_NewWithOld addr 0xe6426c size 0x8 virtual true final false
+  /// @brief Method get_NewWithOld addr 0xdef09c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* get_NewWithOld();
 
-  /// @brief Method get_NewWithNew addr 0xe64274 size 0x8 virtual true final false
+  /// @brief Method get_NewWithNew addr 0xdef0a4 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* get_NewWithNew();
 
-  /// @brief Method ToAsn1Object addr 0xe6427c size 0x11c virtual true final false
+  /// @brief Method ToAsn1Object addr 0xdef0ac size 0x11c virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CAKeyUpdAnnContent", modifiers: "&&", def_value: None }]
@@ -112,6 +112,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent, ___oldWithNew) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent, ___newWithOld) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent, ___newWithNew) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent);

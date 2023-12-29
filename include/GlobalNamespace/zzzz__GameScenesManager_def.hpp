@@ -12,14 +12,50 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameScenesManager)
+namespace GlobalNamespace {
+class __GameScenesManager____c__DisplayClass38_0;
+}
+namespace GlobalNamespace {
+class __GameScenesManager____c__DisplayClass32_0;
+}
+namespace GlobalNamespace {
+struct __GameScenesManager__ScenePresentType;
+}
+namespace GlobalNamespace {
+class __GameScenesManager__ScenesStackData;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class __GameScenesManager____c__DisplayClass34_0;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace GlobalNamespace {
+class __GameScenesManager____c__DisplayClass30_0;
+}
+namespace GlobalNamespace {
+class __GameScenesManager____c__DisplayClass33_0;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+struct __GameScenesManager__SceneDismissType;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace Zenject {
+class ZenjectSceneLoader;
+}
+namespace GlobalNamespace {
+class __GameScenesManager____c__DisplayClass31_0;
+}
+namespace GlobalNamespace {
+class SceneInfo;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
@@ -27,71 +63,35 @@ class ScenesTransitionSetupDataSO;
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace Zenject {
-class ZenjectSceneLoader;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace GlobalNamespace {
-class __GameScenesManager___ScenesTransitionCoroutine_d__38;
+class __GameScenesManager____c__DisplayClass35_0;
+}
+namespace UnityEngine {
+class WaitUntil;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass33_0;
-}
-namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass31_0;
-}
-namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass38_0;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace GlobalNamespace {
-class __GameScenesManager__ScenesStackData;
-}
-namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass32_0;
-}
-namespace GlobalNamespace {
-struct __GameScenesManager__SceneDismissType;
-}
-namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass35_0;
-}
-namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass30_0;
-}
-namespace GlobalNamespace {
-class SceneInfo;
-}
-namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass34_0;
-}
-namespace UnityEngine {
-class WaitUntil;
-}
-namespace GlobalNamespace {
-struct __GameScenesManager__ScenePresentType;
-}
-namespace System {
-template <typename T> class Action_1;
+class __GameScenesManager___ScenesTransitionCoroutine_d__38;
 }
 namespace UnityEngine {
 class AsyncOperation;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace UnityEngine::EventSystems {
 class EventSystem;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -147,8 +147,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameScenesManager____c__DisplayClass38_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15395))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13920))
 // CS Name: ::GameScenesManager::ScenesStackData*
 class CORDL_TYPE __GameScenesManager__ScenesStackData : public ::System::Object {
 public:
@@ -175,24 +175,24 @@ public:
 
   constexpr void __set__container_k__BackingField(::Zenject::DiContainer* value);
 
-  /// @brief Method get_sceneNames addr 0xe21a04 size 0x8 virtual false final false
+  /// @brief Method get_sceneNames addr 0x1f9f794 size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_sceneNames();
 
-  /// @brief Method set_sceneNames addr 0xe21a0c size 0x8 virtual false final false
+  /// @brief Method set_sceneNames addr 0x1f9f79c size 0x8 virtual false final false
   inline void set_sceneNames(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method get_container addr 0xe21a14 size 0x8 virtual false final false
+  /// @brief Method get_container addr 0x1f9f7a4 size 0x8 virtual false final false
   inline ::Zenject::DiContainer* get_container();
 
-  /// @brief Method set_container addr 0xe21a1c size 0x8 virtual false final false
+  /// @brief Method set_container addr 0x1f9f7ac size 0x8 virtual false final false
   inline void set_container(::Zenject::DiContainer* value);
 
   static inline ::GlobalNamespace::__GameScenesManager__ScenesStackData* New_ctor(::System::Collections::Generic::List_1<::StringW>* sceneNames);
 
-  /// @brief Method .ctor addr 0xe1f62c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1f9d3c0 size 0x28 virtual false final false
   inline void _ctor(::System::Collections::Generic::List_1<::StringW>* sceneNames);
 
-  /// @brief Method SetDiContainer addr 0xe21a24 size 0x8 virtual false final false
+  /// @brief Method SetDiContainer addr 0x1f9f7b4 size 0x8 virtual false final false
   inline void SetDiContainer(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameScenesManager__ScenesStackData", modifiers: "&&", def_value: None }]
@@ -220,13 +220,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameScenesManager__ScenesStackData, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager__ScenesStackData, ____sceneNames_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager__ScenesStackData, ____container_k__BackingField) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ScenePresentType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15396))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13921))
 // CS Name: ::GameScenesManager::ScenePresentType
 struct CORDL_TYPE __GameScenesManager__ScenePresentType {
 public:
@@ -272,13 +276,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameScenesManager__ScenePresentType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager__ScenePresentType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SceneDismissType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15397))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13922))
 // CS Name: ::GameScenesManager::SceneDismissType
 struct CORDL_TYPE __GameScenesManager__SceneDismissType {
 public:
@@ -324,13 +330,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameScenesManager__SceneDismissType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager__SceneDismissType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass30_0
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15398))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13923))
 // CS Name: ::GameScenesManager::<>c__DisplayClass30_0*
 class CORDL_TYPE __GameScenesManager____c__DisplayClass30_0 : public ::System::Object {
 public:
@@ -373,13 +381,13 @@ public:
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass30_0* New_ctor();
 
-  /// @brief Method .ctor addr 0xe1f4fc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1f9d290 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <PushScenes>b__0 addr 0xe21a2c size 0x6c virtual false final false
+  /// @brief Method <PushScenes>b__0 addr 0x1f9f7bc size 0x6c virtual false final false
   inline void _PushScenes_b__0(::Zenject::DiContainer* container);
 
-  /// @brief Method <PushScenes>b__1 addr 0xe21bc4 size 0x78 virtual false final false
+  /// @brief Method <PushScenes>b__1 addr 0x1f9f954 size 0x78 virtual false final false
   inline void _PushScenes_b__1(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameScenesManager____c__DisplayClass30_0", modifiers: "&&", def_value: None }]
@@ -413,13 +421,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameScenesManager____c__DisplayClass30_0, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass30_0, ___scenesStackData) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass30_0, ___scenesTransitionSetupData) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass30_0, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass30_0, ___finishCallback) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass31_0
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15399))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13924))
 // CS Name: ::GameScenesManager::<>c__DisplayClass31_0*
 class CORDL_TYPE __GameScenesManager____c__DisplayClass31_0 : public ::System::Object {
 public:
@@ -444,10 +460,10 @@ public:
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass31_0* New_ctor();
 
-  /// @brief Method .ctor addr 0xe1f90c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1f9d6a0 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <PopScenes>b__0 addr 0xe21c3c size 0xa8 virtual false final false
+  /// @brief Method <PopScenes>b__0 addr 0x1f9f9cc size 0xa8 virtual false final false
   inline void _PopScenes_b__0(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameScenesManager____c__DisplayClass31_0", modifiers: "&&", def_value: None }]
@@ -475,13 +491,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameScenesManager____c__DisplayClass31_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass31_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass31_0, ___finishCallback) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass32_0
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15400))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13925))
 // CS Name: ::GameScenesManager::<>c__DisplayClass32_0*
 class CORDL_TYPE __GameScenesManager____c__DisplayClass32_0 : public ::System::Object {
 public:
@@ -560,16 +580,16 @@ public:
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass32_0* New_ctor();
 
-  /// @brief Method .ctor addr 0xe1fc6c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1f9da00 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <ReplaceScenes>b__0 addr 0xe21ce4 size 0x128 virtual false final false
+  /// @brief Method <ReplaceScenes>b__0 addr 0x1f9fa74 size 0x128 virtual false final false
   inline void _ReplaceScenes_b__0(::Zenject::DiContainer* emptySceneContainer);
 
-  /// @brief Method <ReplaceScenes>b__1 addr 0xe21e0c size 0x6c virtual false final false
+  /// @brief Method <ReplaceScenes>b__1 addr 0x1f9fb9c size 0x6c virtual false final false
   inline void _ReplaceScenes_b__1(::Zenject::DiContainer* container);
 
-  /// @brief Method <ReplaceScenes>b__2 addr 0xe21e78 size 0x78 virtual false final false
+  /// @brief Method <ReplaceScenes>b__2 addr 0x1f9fc08 size 0x78 virtual false final false
   inline void _ReplaceScenes_b__2(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameScenesManager____c__DisplayClass32_0", modifiers: "&&", def_value: None }]
@@ -615,13 +635,29 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameScenesManager____c__DisplayClass32_0, 0x50>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass32_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass32_0, ___scenesTransitionSetupData) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass32_0, ___newSceneNames) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass32_0, ___emptyTransitionSceneNameList) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass32_0, ___scenesStackData) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass32_0, ___finishCallback) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass32_0, _____9__1) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass32_0, _____9__2) == 0x48, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass33_0
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15401))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13926))
 // CS Name: ::GameScenesManager::<>c__DisplayClass33_0*
 class CORDL_TYPE __GameScenesManager____c__DisplayClass33_0 : public ::System::Object {
 public:
@@ -700,16 +736,16 @@ public:
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass33_0* New_ctor();
 
-  /// @brief Method .ctor addr 0xe202a0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1f9e034 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <ClearAndOpenScenes>b__0 addr 0xe21ef0 size 0x128 virtual false final false
+  /// @brief Method <ClearAndOpenScenes>b__0 addr 0x1f9fc80 size 0x128 virtual false final false
   inline void _ClearAndOpenScenes_b__0(::Zenject::DiContainer* emptySceneContainer);
 
-  /// @brief Method <ClearAndOpenScenes>b__1 addr 0xe22018 size 0x6c virtual false final false
+  /// @brief Method <ClearAndOpenScenes>b__1 addr 0x1f9fda8 size 0x6c virtual false final false
   inline void _ClearAndOpenScenes_b__1(::Zenject::DiContainer* container);
 
-  /// @brief Method <ClearAndOpenScenes>b__2 addr 0xe22084 size 0x78 virtual false final false
+  /// @brief Method <ClearAndOpenScenes>b__2 addr 0x1f9fe14 size 0x78 virtual false final false
   inline void _ClearAndOpenScenes_b__2(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameScenesManager____c__DisplayClass33_0", modifiers: "&&", def_value: None }]
@@ -755,13 +791,29 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameScenesManager____c__DisplayClass33_0, 0x50>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass33_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass33_0, ___scenesTransitionSetupData) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass33_0, ___newSceneNames) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass33_0, ___emptyTransitionSceneNameList) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass33_0, ___scenesStackData) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass33_0, ___finishCallback) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass33_0, _____9__1) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass33_0, _____9__2) == 0x48, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass34_0
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15402))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13927))
 // CS Name: ::GameScenesManager::<>c__DisplayClass34_0*
 class CORDL_TYPE __GameScenesManager____c__DisplayClass34_0 : public ::System::Object {
 public:
@@ -804,13 +856,13 @@ public:
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass34_0* New_ctor();
 
-  /// @brief Method .ctor addr 0xe20664 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1f9e3f8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <AppendScenes>b__0 addr 0xe220fc size 0x6c virtual false final false
+  /// @brief Method <AppendScenes>b__0 addr 0x1f9fe8c size 0x6c virtual false final false
   inline void _AppendScenes_b__0(::Zenject::DiContainer* container);
 
-  /// @brief Method <AppendScenes>b__1 addr 0xe22168 size 0x78 virtual false final false
+  /// @brief Method <AppendScenes>b__1 addr 0x1f9fef8 size 0x78 virtual false final false
   inline void _AppendScenes_b__1(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameScenesManager____c__DisplayClass34_0", modifiers: "&&", def_value: None }]
@@ -844,13 +896,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameScenesManager____c__DisplayClass34_0, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass34_0, ___scenesStackData) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass34_0, ___scenesTransitionSetupData) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass34_0, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass34_0, ___finishCallback) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass35_0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15403))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13928))
 // CS Name: ::GameScenesManager::<>c__DisplayClass35_0*
 class CORDL_TYPE __GameScenesManager____c__DisplayClass35_0 : public ::System::Object {
 public:
@@ -884,13 +944,13 @@ public:
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass35_0* New_ctor();
 
-  /// @brief Method .ctor addr 0xe20a0c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1f9e7a0 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <RemoveScenes>b__0 addr 0xe221e0 size 0xa8 virtual false final false
+  /// @brief Method <RemoveScenes>b__0 addr 0x1f9ff70 size 0xa8 virtual false final false
   inline void _RemoveScenes_b__0(::Zenject::DiContainer* container);
 
-  /// @brief Method <RemoveScenes>b__1 addr 0xe22288 size 0x64 virtual false final false
+  /// @brief Method <RemoveScenes>b__1 addr 0x1fa0018 size 0x64 virtual false final false
   inline bool _RemoveScenes_b__1(::StringW scene);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameScenesManager____c__DisplayClass35_0", modifiers: "&&", def_value: None }]
@@ -921,13 +981,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameScenesManager____c__DisplayClass35_0, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass35_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass35_0, ___finishCallback) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass35_0, ___sceneNamesToRemove) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass38_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15404))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13929))
 // CS Name: ::GameScenesManager::<>c__DisplayClass38_0*
 class CORDL_TYPE __GameScenesManager____c__DisplayClass38_0 : public ::System::Object {
 public:
@@ -943,13 +1009,13 @@ public:
 
   static inline ::GlobalNamespace::__GameScenesManager____c__DisplayClass38_0* New_ctor();
 
-  /// @brief Method .ctor addr 0xe222ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fa007c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <ScenesTransitionCoroutine>b__0 addr 0xe222f4 size 0x24 virtual false final false
+  /// @brief Method <ScenesTransitionCoroutine>b__0 addr 0x1fa0084 size 0x24 virtual false final false
   inline bool _ScenesTransitionCoroutine_b__0();
 
-  /// @brief Method <ScenesTransitionCoroutine>b__1 addr 0xe22318 size 0x24 virtual false final false
+  /// @brief Method <ScenesTransitionCoroutine>b__1 addr 0x1fa00a8 size 0x24 virtual false final false
   inline bool _ScenesTransitionCoroutine_b__1();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameScenesManager____c__DisplayClass38_0", modifiers: "&&", def_value: None }]
@@ -974,14 +1040,16 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameScenesManager____c__DisplayClass38_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager____c__DisplayClass38_0, ___newScenesTransitionSetupData) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<ScenesTransitionCoroutine>d__38
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 397
-// }), TypeDefinitionIndex(TypeDefinitionIndex(15396)), TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15405)) CS Name:
-// ::GameScenesManager::<ScenesTransitionCoroutine>d__38*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(13921)), TypeDefinitionIndex(TypeDefinitionIndex(3830)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13922)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3830), inst: 393 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13930)) CS
+// Name: ::GameScenesManager::<ScenesTransitionCoroutine>d__38*
 class CORDL_TYPE __GameScenesManager___ScenesTransitionCoroutine_d__38 : public ::System::Object {
 public:
   // Declarations
@@ -1162,28 +1230,28 @@ public:
 
   static inline ::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0xe20a14 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1f9e7a8 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0xe2233c size 0x38 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x1fa00cc size 0x38 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0xe22374 size 0xefc virtual true final true
+  /// @brief Method MoveNext addr 0x1fa0104 size 0xefc virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1 addr 0xe23310 size 0x50 virtual false final false
+  /// @brief Method <>m__Finally1 addr 0x1fa10a0 size 0x50 virtual false final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2 addr 0xe23360 size 0x50 virtual false final false
+  /// @brief Method <>m__Finally2 addr 0x1fa10f0 size 0x50 virtual false final false
   inline void __m__Finally2();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0xe233b0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1fa1140 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0xe233b8 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1fa1148 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0xe233f8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1fa1188 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameScenesManager___ScenesTransitionCoroutine_d__38", modifiers: "&&", def_value: None }]
@@ -1259,13 +1327,49 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, 0xa8>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, ___newScenesTransitionSetupData) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, ___scenesToDismiss) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, _____4__this) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, ___scenesToPresent) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, ___minDuration) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, ___presentType) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, ___afterMinDurationCallback) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, _____8__1) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, ___extraBindingsCallback) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, ___dismissType) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, ___finishCallback) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, ____eventSystem_5__2) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, ____sceneName_5__3) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, ____loadSceneOperation_5__4) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, ____sceneNum_5__5) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameScenesManager___ScenesTransitionCoroutine_d__38, _____7__wrap5) == 0x90, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::GameScenesManager
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15406))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13931))
 // CS Name: ::GameScenesManager*
 class CORDL_TYPE GameScenesManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -1381,109 +1485,109 @@ public:
 
   constexpr void __set__neverUnloadScenes(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  /// @brief Method add_transitionDidStartEvent addr 0xe1eac8 size 0xb0 virtual false final false
+  /// @brief Method add_transitionDidStartEvent addr 0x1f9c6cc size 0xb0 virtual false final false
   inline void add_transitionDidStartEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_transitionDidStartEvent addr 0xe1eb78 size 0xb0 virtual false final false
+  /// @brief Method remove_transitionDidStartEvent addr 0x1f9c77c size 0xb0 virtual false final false
   inline void remove_transitionDidStartEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method add_beforeDismissingScenesEvent addr 0xe1e8d0 size 0x9c virtual false final false
+  /// @brief Method add_beforeDismissingScenesEvent addr 0x1f9c82c size 0x9c virtual false final false
   inline void add_beforeDismissingScenesEvent(::System::Action* value);
 
-  /// @brief Method remove_beforeDismissingScenesEvent addr 0xe1d924 size 0x9c virtual false final false
+  /// @brief Method remove_beforeDismissingScenesEvent addr 0x1f9c8c8 size 0x9c virtual false final false
   inline void remove_beforeDismissingScenesEvent(::System::Action* value);
 
-  /// @brief Method add_transitionDidFinishEvent addr 0xe1ec28 size 0xb0 virtual false final false
+  /// @brief Method add_transitionDidFinishEvent addr 0x1f9c964 size 0xb0 virtual false final false
   inline void add_transitionDidFinishEvent(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* value);
 
-  /// @brief Method remove_transitionDidFinishEvent addr 0xe1ecd8 size 0xb0 virtual false final false
+  /// @brief Method remove_transitionDidFinishEvent addr 0x1f9ca14 size 0xb0 virtual false final false
   inline void remove_transitionDidFinishEvent(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* value);
 
-  /// @brief Method add_installEarlyBindingsEvent addr 0xe1ed88 size 0xb0 virtual false final false
+  /// @brief Method add_installEarlyBindingsEvent addr 0x1f9cac4 size 0xb0 virtual false final false
   inline void add_installEarlyBindingsEvent(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* value);
 
-  /// @brief Method remove_installEarlyBindingsEvent addr 0xe1ee38 size 0xb0 virtual false final false
+  /// @brief Method remove_installEarlyBindingsEvent addr 0x1f9cb74 size 0xb0 virtual false final false
   inline void remove_installEarlyBindingsEvent(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* value);
 
-  /// @brief Method get_currentScenesContainer addr 0xe1eee8 size 0x58 virtual false final false
+  /// @brief Method get_currentScenesContainer addr 0x1f9cc24 size 0x58 virtual false final false
   inline ::Zenject::DiContainer* get_currentScenesContainer();
 
-  /// @brief Method get_isInTransition addr 0xe1ef40 size 0x8 virtual false final false
+  /// @brief Method get_isInTransition addr 0x1f9cc7c size 0x8 virtual false final false
   inline bool get_isInTransition();
 
-  /// @brief Method get_waitUntilSceneTransitionFinish addr 0xe1ef48 size 0xac virtual false final false
+  /// @brief Method get_waitUntilSceneTransitionFinish addr 0x1f9cc84 size 0xac virtual false final false
   inline ::UnityEngine::WaitUntil* get_waitUntilSceneTransitionFinish();
 
-  /// @brief Method MarkSceneAsPersistent addr 0xe1e878 size 0x58 virtual false final false
+  /// @brief Method MarkSceneAsPersistent addr 0x1f9cd30 size 0x58 virtual false final false
   inline void MarkSceneAsPersistent(::StringW sceneName);
 
-  /// @brief Method GetCurrentlyLoadedSceneNames addr 0xe1eff4 size 0x1b4 virtual false final false
+  /// @brief Method GetCurrentlyLoadedSceneNames addr 0x1f9cd88 size 0x1b4 virtual false final false
   inline ::System::Collections::Generic::List_1<::StringW>* GetCurrentlyLoadedSceneNames();
 
-  /// @brief Method PushScenes addr 0xe1f1a8 size 0x354 virtual false final false
+  /// @brief Method PushScenes addr 0x1f9cf3c size 0x354 virtual false final false
   inline void PushScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float_t minDuration, ::System::Action* afterMinDurationCallback,
                          ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method PopScenes addr 0xe1f724 size 0x1e8 virtual false final false
+  /// @brief Method PopScenes addr 0x1f9d4b8 size 0x1e8 virtual false final false
   inline void PopScenes(float_t minDuration, ::System::Action* afterMinDurationCallback, ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method ReplaceScenes addr 0xe1f914 size 0x358 virtual false final false
+  /// @brief Method ReplaceScenes addr 0x1f9d6a8 size 0x358 virtual false final false
   inline void ReplaceScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData,
                             ::ArrayW<::System::Collections::IEnumerator*, ::Array<::System::Collections::IEnumerator*>*> beforeNewScenesActivateRoutines, float_t minDuration,
                             ::System::Action* afterMinDurationCallback, ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method ClearAndOpenScenes addr 0xe1fc74 size 0x62c virtual false final false
+  /// @brief Method ClearAndOpenScenes addr 0x1f9da08 size 0x62c virtual false final false
   inline void ClearAndOpenScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float_t minDuration, ::System::Action* afterMinDurationCallback,
                                  ::System::Action_1<::Zenject::DiContainer*>* finishCallback, bool unloadAllScenes);
 
-  /// @brief Method AppendScenes addr 0xe202a8 size 0x3bc virtual false final false
+  /// @brief Method AppendScenes addr 0x1f9e03c size 0x3bc virtual false final false
   inline void AppendScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float_t minDuration, ::System::Action* afterMinDurationCallback,
                            ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method RemoveScenes addr 0xe2066c size 0x3a0 virtual false final false
+  /// @brief Method RemoveScenes addr 0x1f9e400 size 0x3a0 virtual false final false
   inline void RemoveScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupDataSo, float_t minDuration, ::System::Action* afterMinDurationCallback,
                            ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method ScenesTransitionCoroutine addr 0xe1f654 size 0xd0 virtual false final false
+  /// @brief Method ScenesTransitionCoroutine addr 0x1f9d3e8 size 0xd0 virtual false final false
   inline ::System::Collections::IEnumerator*
   ScenesTransitionCoroutine(::GlobalNamespace::ScenesTransitionSetupDataSO* newScenesTransitionSetupData, ::System::Collections::Generic::List_1<::StringW>* scenesToPresent,
                             ::GlobalNamespace::__GameScenesManager__ScenePresentType presentType, ::System::Collections::Generic::List_1<::StringW>* scenesToDismiss,
                             ::GlobalNamespace::__GameScenesManager__SceneDismissType dismissType, float_t minDuration, ::System::Action* afterMinDurationCallback,
                             ::System::Action_1<::Zenject::DiContainer*>* extraBindingsCallback, ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method ActivatePresentedSceneRootObjects addr 0xe20a3c size 0x300 virtual false final false
+  /// @brief Method ActivatePresentedSceneRootObjects addr 0x1f9e7d0 size 0x300 virtual false final false
   static inline void ActivatePresentedSceneRootObjects(::System::Collections::Generic::List_1<::StringW>* scenesToPresent);
 
-  /// @brief Method IsAnySceneInStack addr 0xe20d3c size 0x164 virtual false final false
+  /// @brief Method IsAnySceneInStack addr 0x1f9ead0 size 0x164 virtual false final false
   inline bool IsAnySceneInStack(::System::Collections::Generic::List_1<::StringW>* sceneNames);
 
-  /// @brief Method AreAllScenesInStack addr 0xe21154 size 0x8 virtual false final false
+  /// @brief Method AreAllScenesInStack addr 0x1f9eee8 size 0x8 virtual false final false
   inline bool AreAllScenesInStack(::System::Collections::Generic::List_1<::StringW>* sceneNames);
 
-  /// @brief Method IsSceneInStack addr 0xe20ea0 size 0x2b4 virtual false final false
+  /// @brief Method IsSceneInStack addr 0x1f9ec34 size 0x2b4 virtual false final false
   inline bool IsSceneInStack(::StringW searchSceneName);
 
-  /// @brief Method SceneNamesFromSceneInfoArray addr 0xe1f504 size 0x128 virtual false final false
+  /// @brief Method SceneNamesFromSceneInfoArray addr 0x1f9d298 size 0x128 virtual false final false
   inline ::System::Collections::Generic::List_1<::StringW>* SceneNamesFromSceneInfoArray(::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> sceneInfos);
 
-  /// @brief Method SetActiveRootObjectsInScenes addr 0xe2115c size 0x180 virtual false final false
+  /// @brief Method SetActiveRootObjectsInScenes addr 0x1f9eef0 size 0x17c virtual false final false
   inline void SetActiveRootObjectsInScenes(::System::Collections::Generic::List_1<::StringW>* sceneNames, bool value);
 
-  /// @brief Method ReparentRootGameObjectsToDisabledGameObject addr 0xe212dc size 0x284 virtual false final false
+  /// @brief Method ReparentRootGameObjectsToDisabledGameObject addr 0x1f9f06c size 0x284 virtual false final false
   inline void ReparentRootGameObjectsToDisabledGameObject(::StringW sceneName);
 
-  /// @brief Method MoveGameObjectsFromContainerToSceneRoot addr 0xe21560 size 0x37c virtual false final false
+  /// @brief Method MoveGameObjectsFromContainerToSceneRoot addr 0x1f9f2f0 size 0x37c virtual false final false
   inline void MoveGameObjectsFromContainerToSceneRoot(::StringW sceneName);
 
-  /// @brief Method Log addr 0xe218dc size 0x58 virtual false final false
+  /// @brief Method Log addr 0x1f9f66c size 0x58 virtual false final false
   static inline void Log(::StringW message);
 
   static inline ::GlobalNamespace::GameScenesManager* New_ctor();
 
-  /// @brief Method .ctor addr 0xe21934 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x1f9f6c4 size 0xc0 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <get_waitUntilSceneTransitionFinish>b__22_0 addr 0xe219f4 size 0x10 virtual false final false
+  /// @brief Method <get_waitUntilSceneTransitionFinish>b__22_0 addr 0x1f9f784 size 0x10 virtual false final false
   inline bool _get_waitUntilSceneTransitionFinish_b__22_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager", modifiers: "&&", def_value: None }]
@@ -1543,6 +1647,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameScenesManager, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameScenesManager, ____emptyTransitionSceneInfo) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameScenesManager, ____zenjectSceneLoader) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameScenesManager, ___transitionDidStartEvent) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameScenesManager, ___beforeDismissingScenesEvent) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameScenesManager, ___transitionDidFinishEvent) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameScenesManager, ___installEarlyBindingsEvent) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameScenesManager, ____inTransition) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameScenesManager, ____scenesStack) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameScenesManager, ____neverUnloadScenes) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__GameScenesManager__SceneDismissType, "", "GameScenesManager/SceneDismissType");

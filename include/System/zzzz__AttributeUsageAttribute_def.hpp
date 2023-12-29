@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::AttributeUsageAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 22, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(2354))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2354)), TypeDefinitionIndex(TypeDefinitionIndex(2545))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2355))
 // CS Name: ::System::AttributeUsageAttribute*
 class CORDL_TYPE AttributeUsageAttribute : public ::System::Attribute {
@@ -64,19 +64,19 @@ public:
 
   static inline ::System::AttributeUsageAttribute* New_ctor(::System::AttributeTargets validOn);
 
-  /// @brief Method .ctor addr 0x252147c size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x23c81b0 size 0x38 virtual false final false
   inline void _ctor(::System::AttributeTargets validOn);
 
-  /// @brief Method get_AllowMultiple addr 0x25214b4 size 0x8 virtual false final false
+  /// @brief Method get_AllowMultiple addr 0x23c81e8 size 0x8 virtual false final false
   inline bool get_AllowMultiple();
 
-  /// @brief Method set_AllowMultiple addr 0x25214bc size 0xc virtual false final false
+  /// @brief Method set_AllowMultiple addr 0x23c81f0 size 0xc virtual false final false
   inline void set_AllowMultiple(bool value);
 
-  /// @brief Method get_Inherited addr 0x25214c8 size 0x8 virtual false final false
+  /// @brief Method get_Inherited addr 0x23c81fc size 0x8 virtual false final false
   inline bool get_Inherited();
 
-  /// @brief Method set_Inherited addr 0x25214d0 size 0xc virtual false final false
+  /// @brief Method set_Inherited addr 0x23c8204 size 0xc virtual false final false
   inline void set_Inherited(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "AttributeUsageAttribute", modifiers: "&&", def_value: None }]
@@ -106,6 +106,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::AttributeUsageAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::AttributeUsageAttribute, ____attributeTarget) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::AttributeUsageAttribute, ____allowMultiple) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::AttributeUsageAttribute, ____inherited) == 0x15, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::AttributeUsageAttribute);

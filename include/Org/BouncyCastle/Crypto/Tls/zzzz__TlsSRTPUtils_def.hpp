@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsSRTPUtils)
-namespace Org::BouncyCastle::Crypto::Tls {
-class UseSrtpData;
-}
 namespace System::Collections {
 class IDictionary;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class UseSrtpData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -22,27 +22,27 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1329))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsSRTPUtils*
 class CORDL_TYPE TlsSRTPUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddUseSrtpExtension addr 0xfb8e08 size 0xf0 virtual false final false
+  /// @brief Method AddUseSrtpExtension addr 0xf42bc0 size 0xf0 virtual false final false
   static inline void AddUseSrtpExtension(::System::Collections::IDictionary* extensions, ::Org::BouncyCastle::Crypto::Tls::UseSrtpData* useSRTPData);
 
-  /// @brief Method GetUseSrtpExtension addr 0xfb9014 size 0x6c virtual false final false
+  /// @brief Method GetUseSrtpExtension addr 0xf42dcc size 0x6c virtual false final false
   static inline ::Org::BouncyCastle::Crypto::Tls::UseSrtpData* GetUseSrtpExtension(::System::Collections::IDictionary* extensions);
 
-  /// @brief Method CreateUseSrtpExtension addr 0xfb8ef8 size 0x11c virtual false final false
+  /// @brief Method CreateUseSrtpExtension addr 0xf42cb0 size 0x11c virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateUseSrtpExtension(::Org::BouncyCastle::Crypto::Tls::UseSrtpData* useSrtpData);
 
-  /// @brief Method ReadUseSrtpExtension addr 0xfb9080 size 0x18c virtual false final false
+  /// @brief Method ReadUseSrtpExtension addr 0xf42e38 size 0x18c virtual false final false
   static inline ::Org::BouncyCastle::Crypto::Tls::UseSrtpData* ReadUseSrtpExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionData);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils* New_ctor();
 
-  /// @brief Method .ctor addr 0xfb93c4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xf4317c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsSRTPUtils", modifiers: "&&", def_value: None }]

@@ -15,31 +15,31 @@ MARK_REF_PTR_T(::UnityEngine::XR::HashCodeHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15635))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15593))
 // CS Name: ::UnityEngine.XR::HashCodeHelper*
 class CORDL_TYPE HashCodeHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Combine addr 0x2eb3864 size 0x10 virtual false final false
+  /// @brief Method Combine addr 0x2d4aabc size 0x10 virtual false final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2);
 
-  /// @brief Method Combine addr 0x2eb3874 size 0x14 virtual false final false
+  /// @brief Method Combine addr 0x2d4aacc size 0x14 virtual false final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3);
 
-  /// @brief Method Combine addr 0x2eb3888 size 0x18 virtual false final false
+  /// @brief Method Combine addr 0x2d4aae0 size 0x18 virtual false final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4);
 
-  /// @brief Method Combine addr 0x2eb38a0 size 0x1c virtual false final false
+  /// @brief Method Combine addr 0x2d4aaf8 size 0x1c virtual false final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4, int32_t hash5);
 
-  /// @brief Method Combine addr 0x2eb38bc size 0x20 virtual false final false
+  /// @brief Method Combine addr 0x2d4ab14 size 0x20 virtual false final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4, int32_t hash5, int32_t hash6);
 
-  /// @brief Method Combine addr 0x2eb38dc size 0x24 virtual false final false
+  /// @brief Method Combine addr 0x2d4ab34 size 0x24 virtual false final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4, int32_t hash5, int32_t hash6, int32_t hash7);
 
-  /// @brief Method Combine addr 0x2eb3900 size 0x28 virtual false final false
+  /// @brief Method Combine addr 0x2d4ab58 size 0x28 virtual false final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4, int32_t hash5, int32_t hash6, int32_t hash7, int32_t hash8);
 
   // Ctor Parameters [CppParam { name: "", ty: "HashCodeHelper", modifiers: "&&", def_value: None }]

@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ModifiersSelectionView)
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace GlobalNamespace {
 class __ModifiersSelectionView____c__DisplayClass3_0;
 }
 namespace GlobalNamespace {
 class GameplayModifierInfoListItemsList;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class GameplayModifiersModelSO;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
-class GameplayModifierParamsSO;
+class GameplayModifiers;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class GameplayModifierInfoListItem;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class GameplayModifierParamsSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__ModifiersSelectionView____c__DisplayClass3_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5797))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5887))
 // CS Name: ::ModifiersSelectionView::<>c__DisplayClass3_0*
 class CORDL_TYPE __ModifiersSelectionView____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -61,10 +61,10 @@ public:
 
   static inline ::GlobalNamespace::__ModifiersSelectionView____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x22e771c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21a1a9c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <SetGameplayModifiers>b__0 addr 0x22e772c size 0x7c virtual false final false
+  /// @brief Method <SetGameplayModifiers>b__0 addr 0x21a1aac size 0x7c virtual false final false
   inline void _SetGameplayModifiers_b__0(int32_t idx, ::GlobalNamespace::GameplayModifierInfoListItem* item);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ModifiersSelectionView____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
@@ -89,13 +89,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ModifiersSelectionView____c__DisplayClass3_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ModifiersSelectionView____c__DisplayClass3_0, ___modifierParams) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ModifiersSelectionView
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5798))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5888))
 // CS Name: ::ModifiersSelectionView*
 class CORDL_TYPE ModifiersSelectionView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -129,12 +131,12 @@ public:
 
   constexpr void __set__gameplayModifiersModel(::GlobalNamespace::GameplayModifiersModelSO* value);
 
-  /// @brief Method SetGameplayModifiers addr 0x22e75b0 size 0x16c virtual true final false
+  /// @brief Method SetGameplayModifiers addr 0x21a1930 size 0x16c virtual true final false
   inline void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   static inline ::GlobalNamespace::ModifiersSelectionView* New_ctor();
 
-  /// @brief Method .ctor addr 0x22e7724 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21a1aa4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ModifiersSelectionView", modifiers: "&&", def_value: None }]
@@ -164,6 +166,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ModifiersSelectionView, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ModifiersSelectionView, ____modifierInfoList) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ModifiersSelectionView, ____noModifiersText) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ModifiersSelectionView, ____gameplayModifiersModel) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ModifiersSelectionView);

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::CipherMode);
 namespace System::Security::Cryptography {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2921))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2920))
 // CS Name: ::System.Security.Cryptography::CipherMode
 struct CORDL_TYPE CipherMode {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::CipherMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::CipherMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::CipherMode, "System.Security.Cryptography", "CipherMode");

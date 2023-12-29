@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(746))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::Blake2bDigest*
 class CORDL_TYPE Blake2bDigest : public ::System::Object {
@@ -155,70 +155,70 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Blake2bDigest* New_ctor();
 
-  /// @brief Method .ctor addr 0x121d4b0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x11ac260 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Blake2bDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest* digest);
 
-  /// @brief Method .ctor addr 0x121d5d4 size 0x134 virtual false final false
+  /// @brief Method .ctor addr 0x11ac384 size 0x134 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest* digest);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Blake2bDigest* New_ctor(int32_t digestSize);
 
-  /// @brief Method .ctor addr 0x121d4b8 size 0x11c virtual false final false
+  /// @brief Method .ctor addr 0x11ac268 size 0x11c virtual false final false
   inline void _ctor(int32_t digestSize);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Blake2bDigest* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor addr 0x121d9b4 size 0x164 virtual false final false
+  /// @brief Method .ctor addr 0x11ac764 size 0x164 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Blake2bDigest* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t digestLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
                                                                               ::ArrayW<uint8_t, ::Array<uint8_t>*> personalization);
 
-  /// @brief Method .ctor addr 0x121db18 size 0x268 virtual false final false
+  /// @brief Method .ctor addr 0x11ac8c8 size 0x268 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t digestLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::ArrayW<uint8_t, ::Array<uint8_t>*> personalization);
 
-  /// @brief Method Init addr 0x121d708 size 0x2ac virtual false final false
+  /// @brief Method Init addr 0x11ac4b8 size 0x2ac virtual false final false
   inline void Init();
 
-  /// @brief Method InitializeInternalState addr 0x121dd80 size 0x148 virtual false final false
+  /// @brief Method InitializeInternalState addr 0x11acb30 size 0x148 virtual false final false
   inline void InitializeInternalState();
 
-  /// @brief Method Update addr 0x121dec8 size 0xb8 virtual true final false
+  /// @brief Method Update addr 0x11acc78 size 0xb8 virtual true final false
   inline void Update(uint8_t b);
 
-  /// @brief Method BlockUpdate addr 0x121e50c size 0x140 virtual true final false
+  /// @brief Method BlockUpdate addr 0x11ad2bc size 0x140 virtual true final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> message, int32_t offset, int32_t len);
 
-  /// @brief Method DoFinal addr 0x121e64c size 0x14c virtual true final false
+  /// @brief Method DoFinal addr 0x11ad3fc size 0x14c virtual true final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOffset);
 
-  /// @brief Method Reset addr 0x121e798 size 0x68 virtual true final false
+  /// @brief Method Reset addr 0x11ad548 size 0x68 virtual true final false
   inline void Reset();
 
-  /// @brief Method Compress addr 0x121df80 size 0x58c virtual false final false
+  /// @brief Method Compress addr 0x11acd30 size 0x58c virtual false final false
   inline void Compress(::ArrayW<uint8_t, ::Array<uint8_t>*> message, int32_t messagePos);
 
-  /// @brief Method G addr 0x121e800 size 0x208 virtual false final false
+  /// @brief Method G addr 0x11ad5b0 size 0x208 virtual false final false
   inline void G(uint64_t m1, uint64_t m2, int32_t posA, int32_t posB, int32_t posC, int32_t posD);
 
-  /// @brief Method Rotr64 addr 0x121ea08 size 0x8 virtual false final false
+  /// @brief Method Rotr64 addr 0x11ad7b8 size 0x8 virtual false final false
   static inline uint64_t Rotr64(uint64_t x, int32_t rot);
 
-  /// @brief Method get_AlgorithmName addr 0x121ea10 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0x11ad7c0 size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetDigestSize addr 0x121ea50 size 0x8 virtual true final false
+  /// @brief Method GetDigestSize addr 0x11ad800 size 0x8 virtual true final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method GetByteLength addr 0x121ea58 size 0x8 virtual true final false
+  /// @brief Method GetByteLength addr 0x11ad808 size 0x8 virtual true final false
   inline int32_t GetByteLength();
 
-  /// @brief Method ClearKey addr 0x121ea60 size 0x48 virtual true final false
+  /// @brief Method ClearKey addr 0x11ad810 size 0x48 virtual true final false
   inline void ClearKey();
 
-  /// @brief Method ClearSalt addr 0x121eaa8 size 0x1c virtual true final false
+  /// @brief Method ClearSalt addr 0x11ad858 size 0x1c virtual true final false
   inline void ClearSalt();
 
   // Ctor Parameters [CppParam { name: "", ty: "Blake2bDigest", modifiers: "&&", def_value: None }]
@@ -281,6 +281,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::Blake2bDigest, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest, ___digestLength) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest, ___keyLength) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest, ___salt) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest, ___personalization) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest, ___key) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest, ___buffer) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest, ___bufferPos) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest, ___internalState) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest, ___chainValue) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest, ___t0) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest, ___t1) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest, ___f0) == 0x60, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Digests
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest);

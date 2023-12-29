@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::UpdateConnectionStateReason);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12992))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12913))
 // CS Name: ::UpdateConnectionStateReason
 struct CORDL_TYPE UpdateConnectionStateReason {
 public:
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UpdateConnectionStateReason, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UpdateConnectionStateReason, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UpdateConnectionStateReason, "", "UpdateConnectionStateReason");

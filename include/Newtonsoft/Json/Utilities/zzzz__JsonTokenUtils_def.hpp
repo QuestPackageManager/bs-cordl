@@ -17,19 +17,19 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::JsonTokenUtils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11848))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11776))
 // CS Name: ::Newtonsoft.Json.Utilities::JsonTokenUtils*
 class CORDL_TYPE JsonTokenUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsEndToken addr 0x2656308 size 0x10 virtual false final false
+  /// @brief Method IsEndToken addr 0x24f2bc4 size 0x10 virtual false final false
   static inline bool IsEndToken(::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method IsStartToken addr 0x2656108 size 0x10 virtual false final false
+  /// @brief Method IsStartToken addr 0x24f29c4 size 0x10 virtual false final false
   static inline bool IsStartToken(::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method IsPrimitiveToken addr 0x2659da4 size 0x24 virtual false final false
+  /// @brief Method IsPrimitiveToken addr 0x24f6660 size 0x24 virtual false final false
   static inline bool IsPrimitiveToken(::Newtonsoft::Json::JsonToken token);
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonTokenUtils", modifiers: "&&", def_value: None }]

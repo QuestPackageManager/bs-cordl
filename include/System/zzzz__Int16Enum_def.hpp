@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Int16Enum);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2594))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2592))
 // CS Name: ::System::Int16Enum
 struct CORDL_TYPE Int16Enum {
 public:
@@ -48,6 +48,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Int16Enum, 0x2>, "Size mismatch!");
+
+static_assert(offsetof(::System::Int16Enum, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::Int16Enum, "System", "Int16Enum");

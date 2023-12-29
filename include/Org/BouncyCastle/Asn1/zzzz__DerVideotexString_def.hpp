@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DerVideotexString)
 namespace Org::BouncyCastle::Asn1 {
+class DerOutputStream;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace System {
@@ -15,9 +18,6 @@ class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -44,30 +44,30 @@ public:
 
   constexpr void __set_mString(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method GetInstance addr 0x11c58d4 size 0x220 virtual false final false
+  /// @brief Method GetInstance addr 0x1154684 size 0x220 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerVideotexString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance addr 0x11c5af4 size 0x130 virtual false final false
+  /// @brief Method GetInstance addr 0x11548a4 size 0x130 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerVideotexString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::DerVideotexString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method .ctor addr 0x11b7488 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x1146238 size 0x78 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method GetString addr 0x11c5c24 size 0xc virtual true final false
+  /// @brief Method GetString addr 0x11549d4 size 0xc virtual true final false
   inline ::StringW GetString();
 
-  /// @brief Method GetOctets addr 0x11c5c30 size 0x5c virtual false final false
+  /// @brief Method GetOctets addr 0x11549e0 size 0x5c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-  /// @brief Method Encode addr 0x11c5c8c size 0x24 virtual true final false
+  /// @brief Method Encode addr 0x1154a3c size 0x24 virtual true final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method Asn1GetHashCode addr 0x11c5cb0 size 0x5c virtual true final false
+  /// @brief Method Asn1GetHashCode addr 0x1154a60 size 0x5c virtual true final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Asn1Equals addr 0x11c5d0c size 0xc8 virtual true final false
+  /// @brief Method Asn1Equals addr 0x1154abc size 0xc8 virtual true final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
   // Ctor Parameters [CppParam { name: "", ty: "DerVideotexString", modifiers: "&&", def_value: None }]
@@ -91,6 +91,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::DerVideotexString, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::DerVideotexString, ___mString) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerVideotexString);

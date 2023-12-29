@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(IOSelectorJob)
 namespace System {
+class IOAsyncCallback;
+}
+namespace System {
 struct IOOperation;
 }
-namespace System::Threading {
-class ThreadAbortException;
+namespace System {
+class IOAsyncResult;
 }
 namespace System::Threading {
 class IThreadPoolWorkItem;
 }
-namespace System {
-class IOAsyncCallback;
-}
-namespace System {
-class IOAsyncResult;
+namespace System::Threading {
+class ThreadAbortException;
 }
 // Forward declare root types
 namespace System {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::System::IOSelectorJob);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8893))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8896))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7730)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7733))
 // CS Name: ::System::IOSelectorJob*
 class CORDL_TYPE IOSelectorJob : public ::System::Object {
 public:
@@ -68,16 +68,16 @@ public:
 
   static inline ::System::IOSelectorJob* New_ctor(::System::IOOperation operation, ::System::IOAsyncCallback* callback, ::System::IOAsyncResult* state);
 
-  /// @brief Method .ctor addr 0x294d874 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x27d0754 size 0x3c virtual false final false
   inline void _ctor(::System::IOOperation operation, ::System::IOAsyncCallback* callback, ::System::IOAsyncResult* state);
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem addr 0x294d8b0 size 0x28 virtual true final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem addr 0x27d0790 size 0x28 virtual true final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted addr 0x294d8d8 size 0x4 virtual true final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted addr 0x27d07b8 size 0x4 virtual true final true
   inline void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
 
-  /// @brief Method MarkDisposed addr 0x294d8dc size 0x20 virtual false final false
+  /// @brief Method MarkDisposed addr 0x27d07bc size 0x20 virtual false final false
   inline void MarkDisposed();
 
   // Ctor Parameters [CppParam { name: "", ty: "IOSelectorJob", modifiers: "&&", def_value: None }]
@@ -107,6 +107,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IOSelectorJob, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::IOSelectorJob, ___operation) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::IOSelectorJob, ___callback) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::IOSelectorJob, ___state) == 0x20, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::IOSelectorJob);

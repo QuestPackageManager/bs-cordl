@@ -11,20 +11,20 @@ CORDL_MODULE_EXPORT(ConnectionRequest)
 namespace LiteNetLib {
 class NetManager;
 }
-namespace LiteNetLib {
-class NetPeer;
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace LiteNetLib {
 struct ConnectionRequestResult;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
+}
+namespace LiteNetLib {
+class NetPeer;
 }
 namespace System::Net {
 class IPEndPoint;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
 }
 namespace LiteNetLib {
 class NetConnectRequestPacket;
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::LiteNetLib::ConnectionRequest);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14128))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14129))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14466))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14467))
 // CS Name: ::LiteNetLib::ConnectionRequest*
 class CORDL_TYPE ConnectionRequest : public ::System::Object {
 public:
@@ -110,55 +110,55 @@ public:
 
   constexpr void __set_RemoteEndPoint(::System::Net::IPEndPoint* value);
 
-  /// @brief Method get_Result addr 0x21f81d0 size 0x8 virtual false final false
+  /// @brief Method get_Result addr 0x209637c size 0x8 virtual false final false
   inline ::LiteNetLib::ConnectionRequestResult get_Result();
 
-  /// @brief Method set_Result addr 0x21f81d8 size 0x8 virtual false final false
+  /// @brief Method set_Result addr 0x2096384 size 0x8 virtual false final false
   inline void set_Result(::LiteNetLib::ConnectionRequestResult value);
 
-  /// @brief Method TryActivate addr 0x21f81e0 size 0x28 virtual false final false
+  /// @brief Method TryActivate addr 0x209638c size 0x28 virtual false final false
   inline bool TryActivate();
 
-  /// @brief Method UpdateRequest addr 0x21f8208 size 0x30 virtual false final false
+  /// @brief Method UpdateRequest addr 0x20963b4 size 0x30 virtual false final false
   inline void UpdateRequest(::LiteNetLib::NetConnectRequestPacket* connRequest);
 
   static inline ::LiteNetLib::ConnectionRequest* New_ctor(int64_t connectionId, uint8_t connectionNumber, ::LiteNetLib::Utils::NetDataReader* netDataReader, ::System::Net::IPEndPoint* endPoint,
                                                           ::LiteNetLib::NetManager* listener);
 
-  /// @brief Method .ctor addr 0x21f8238 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x20963e4 size 0x58 virtual false final false
   inline void _ctor(int64_t connectionId, uint8_t connectionNumber, ::LiteNetLib::Utils::NetDataReader* netDataReader, ::System::Net::IPEndPoint* endPoint, ::LiteNetLib::NetManager* listener);
 
-  /// @brief Method AcceptIfKey addr 0x21f8290 size 0x1a8 virtual false final false
+  /// @brief Method AcceptIfKey addr 0x209643c size 0x1a8 virtual false final false
   inline ::LiteNetLib::NetPeer* AcceptIfKey(::StringW key);
 
-  /// @brief Method Accept addr 0x21f8938 size 0x64 virtual false final false
+  /// @brief Method Accept addr 0x2096ae4 size 0x64 virtual false final false
   inline ::LiteNetLib::NetPeer* Accept();
 
-  /// @brief Method Reject addr 0x21f899c size 0x88 virtual false final false
+  /// @brief Method Reject addr 0x2096b48 size 0x88 virtual false final false
   inline void Reject(::ArrayW<uint8_t, ::Array<uint8_t>*> rejectData, int32_t start, int32_t length, bool force);
 
-  /// @brief Method Reject addr 0x21f8a24 size 0x8 virtual false final false
+  /// @brief Method Reject addr 0x2096bd0 size 0x8 virtual false final false
   inline void Reject(::ArrayW<uint8_t, ::Array<uint8_t>*> rejectData, int32_t start, int32_t length);
 
-  /// @brief Method RejectForce addr 0x21f8a2c size 0x8 virtual false final false
+  /// @brief Method RejectForce addr 0x2096bd8 size 0x8 virtual false final false
   inline void RejectForce(::ArrayW<uint8_t, ::Array<uint8_t>*> rejectData, int32_t start, int32_t length);
 
-  /// @brief Method RejectForce addr 0x21f8a34 size 0x14 virtual false final false
+  /// @brief Method RejectForce addr 0x2096be0 size 0x14 virtual false final false
   inline void RejectForce();
 
-  /// @brief Method RejectForce addr 0x21f8a48 size 0x20 virtual false final false
+  /// @brief Method RejectForce addr 0x2096bf4 size 0x20 virtual false final false
   inline void RejectForce(::ArrayW<uint8_t, ::Array<uint8_t>*> rejectData);
 
-  /// @brief Method RejectForce addr 0x21f8a68 size 0x28 virtual false final false
+  /// @brief Method RejectForce addr 0x2096c14 size 0x28 virtual false final false
   inline void RejectForce(::LiteNetLib::Utils::NetDataWriter* rejectData);
 
-  /// @brief Method Reject addr 0x21f8a90 size 0x14 virtual false final false
+  /// @brief Method Reject addr 0x2096c3c size 0x14 virtual false final false
   inline void Reject();
 
-  /// @brief Method Reject addr 0x21f8aa4 size 0x20 virtual false final false
+  /// @brief Method Reject addr 0x2096c50 size 0x20 virtual false final false
   inline void Reject(::ArrayW<uint8_t, ::Array<uint8_t>*> rejectData);
 
-  /// @brief Method Reject addr 0x21f8ac4 size 0x28 virtual false final false
+  /// @brief Method Reject addr 0x2096c70 size 0x28 virtual false final false
   inline void Reject(::LiteNetLib::Utils::NetDataWriter* rejectData);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectionRequest", modifiers: "&&", def_value: None }]
@@ -200,6 +200,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::ConnectionRequest, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ConnectionRequest, ____listener) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ConnectionRequest, ____used) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ConnectionRequest, ___Data) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ConnectionRequest, ____Result_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ConnectionRequest, ___ConnectionTime) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ConnectionRequest, ___ConnectionNumber) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ConnectionRequest, ___RemoteEndPoint) == 0x40, "Offset mismatch!");
 
 } // namespace LiteNetLib
 NEED_NO_BOX(::LiteNetLib::ConnectionRequest);

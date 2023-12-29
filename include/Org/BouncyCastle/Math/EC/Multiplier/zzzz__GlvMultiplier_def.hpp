@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(GlvMultiplier)
 namespace Org::BouncyCastle::Math::EC::Endo {
 class GlvEndomorphism;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -53,10 +53,10 @@ public:
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve,
                                                                                    ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism);
 
-  /// @brief Method .ctor addr 0x10368d8 size 0xa8 virtual false final false
+  /// @brief Method .ctor addr 0xfc468c size 0xa8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism);
 
-  /// @brief Method MultiplyPositive addr 0x1036980 size 0x26c virtual true final false
+  /// @brief Method MultiplyPositive addr 0xfc4734 size 0x26c virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   // Ctor Parameters [CppParam { name: "", ty: "GlvMultiplier", modifiers: "&&", def_value: None }]
@@ -83,6 +83,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier, ___curve) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier, ___glvEndomorphism) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC::Multiplier
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier);

@@ -7,28 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Collection_1)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
 }
 namespace System {
 class Array;
 }
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections {
 class ICollection;
+}
+namespace System::Collections {
+class IList;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
@@ -36,11 +33,14 @@ template <typename T> class IReadOnlyList_1;
 namespace System {
 class Object;
 }
-namespace System::Collections {
-class IList;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Collections::ObjectModel {
@@ -54,8 +54,8 @@ namespace System::Collections::ObjectModel {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3814))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3802))
 // CS Name: ::System.Collections.ObjectModel::Collection`1<T>*
 class CORDL_TYPE Collection_1 : public ::System::Object {
 public:

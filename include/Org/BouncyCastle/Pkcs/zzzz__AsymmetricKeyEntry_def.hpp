@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsymmetricKeyEntry)
 namespace System::Collections {
-class IDictionary;
+class Hashtable;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections {
-class Hashtable;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {
@@ -46,26 +46,26 @@ public:
 
   static inline ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method .ctor addr 0x10d5ef8 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x1064ca4 size 0x74 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
   static inline ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::System::Collections::Hashtable* attributes);
 
-  /// @brief Method .ctor addr 0x10d5f6c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1064d18 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::System::Collections::Hashtable* attributes);
 
   static inline ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method .ctor addr 0x10d5f94 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1064d40 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method get_Key addr 0x10d5fbc size 0x8 virtual false final false
+  /// @brief Method get_Key addr 0x1064d68 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Key();
 
-  /// @brief Method Equals addr 0x10d5fc4 size 0xa4 virtual true final false
+  /// @brief Method Equals addr 0x1064d70 size 0xa4 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x10d6068 size 0x28 virtual true final false
+  /// @brief Method GetHashCode addr 0x1064e14 size 0x28 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "AsymmetricKeyEntry", modifiers: "&&", def_value: None }]
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry, ___key) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry);

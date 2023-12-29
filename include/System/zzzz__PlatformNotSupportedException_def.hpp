@@ -21,25 +21,25 @@ MARK_REF_PTR_T(::System::PlatformNotSupportedException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2446))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2460))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2444))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2458))
 // CS Name: ::System::PlatformNotSupportedException*
 class CORDL_TYPE PlatformNotSupportedException : public ::System::NotSupportedException {
 public:
   // Declarations
   static inline ::System::PlatformNotSupportedException* New_ctor();
 
-  /// @brief Method .ctor addr 0x25bf9b8 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x2462a90 size 0x5c virtual false final false
   inline void _ctor();
 
   static inline ::System::PlatformNotSupportedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x25bfa14 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2462aec size 0x24 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::PlatformNotSupportedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x25bfa38 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2462b10 size 0x8 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformNotSupportedException", modifiers: "&&", def_value: None }]

@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Security::AccessControl::GenericSecurityDescriptor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3037))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3036))
 // CS Name: ::System.Security.AccessControl::GenericSecurityDescriptor*
 class CORDL_TYPE GenericSecurityDescriptor : public ::System::Object {
 public:
@@ -29,7 +29,7 @@ public:
 
   static inline ::System::Security::AccessControl::GenericSecurityDescriptor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2483080 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x232b58c size 0x8 virtual false final false
   inline void _ctor();
 
   /// @brief Method set_Group addr 0x0 size 0xffffffffffffffff virtual true final false

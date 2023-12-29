@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15328))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15358))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DTSweepBasin*
 class CORDL_TYPE DTSweepBasin : public ::System::Object {
 public:
@@ -71,7 +71,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b34384 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x29b2630 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DTSweepBasin", modifiers: "&&", def_value: None }]
@@ -107,6 +107,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin, ___leftNode) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin, ___bottomNode) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin, ___rightNode) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin, ___width) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin, ___leftHighest) == 0x30, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Poly2Tri
 NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin);

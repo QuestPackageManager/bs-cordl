@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Utilities::PrimitiveTypeCode);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11870))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11798))
 // CS Name: ::Newtonsoft.Json.Utilities::PrimitiveTypeCode
 struct CORDL_TYPE PrimitiveTypeCode {
 public:
@@ -217,6 +217,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::PrimitiveTypeCode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::PrimitiveTypeCode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::PrimitiveTypeCode, "Newtonsoft.Json.Utilities", "PrimitiveTypeCode");

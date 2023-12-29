@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(LocalizedTextMesh)
 namespace UnityEngine {
 class TextMesh;
 }
-namespace Polyglot {
-class ILocalize;
-}
 namespace UnityEngine {
 struct TextAlignment;
+}
+namespace Polyglot {
+class ILocalize;
 }
 namespace Polyglot {
 struct LanguageDirection;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::Polyglot::LocalizedTextMesh);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15566))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15550))
 // CS Name: ::Polyglot::LocalizedTextMesh*
 class CORDL_TYPE LocalizedTextMesh : public ::UnityEngine::MonoBehaviour {
 public:
@@ -56,30 +56,30 @@ public:
 
   constexpr void __set_key(::StringW value);
 
-  /// @brief Method get_Key addr 0x2805b04 size 0x8 virtual false final false
+  /// @brief Method get_Key addr 0x268ae7c size 0x8 virtual false final false
   inline ::StringW get_Key();
 
-  /// @brief Method Reset addr 0x2805b0c size 0x50 virtual false final false
+  /// @brief Method Reset addr 0x268ae84 size 0x50 virtual false final false
   inline void Reset();
 
-  /// @brief Method Start addr 0x2805b5c size 0x20 virtual false final false
+  /// @brief Method Start addr 0x268aed4 size 0x20 virtual false final false
   inline void Start();
 
-  /// @brief Method OnLocalize addr 0x2805b7c size 0xf8 virtual true final true
+  /// @brief Method OnLocalize addr 0x268aef4 size 0xf8 virtual true final true
   inline void OnLocalize();
 
-  /// @brief Method IsOppositeDirection addr 0x2805c74 size 0x2c virtual false final false
+  /// @brief Method IsOppositeDirection addr 0x268afec size 0x2c virtual false final false
   inline bool IsOppositeDirection(::UnityEngine::TextAlignment alignment, ::Polyglot::LanguageDirection direction);
 
-  /// @brief Method IsAlignmentRight addr 0x2805ca0 size 0xc virtual false final false
+  /// @brief Method IsAlignmentRight addr 0x268b018 size 0xc virtual false final false
   inline bool IsAlignmentRight(::UnityEngine::TextAlignment alignment);
 
-  /// @brief Method IsAlignmentLeft addr 0x2805cac size 0xc virtual false final false
+  /// @brief Method IsAlignmentLeft addr 0x268b024 size 0xc virtual false final false
   inline bool IsAlignmentLeft(::UnityEngine::TextAlignment alignment);
 
   static inline ::Polyglot::LocalizedTextMesh* New_ctor();
 
-  /// @brief Method .ctor addr 0x2805cb8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x268b030 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextMesh", modifiers: "&&", def_value: None }]
@@ -106,6 +106,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Polyglot::LocalizedTextMesh, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Polyglot::LocalizedTextMesh, ___text) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Polyglot::LocalizedTextMesh, ___key) == 0x20, "Offset mismatch!");
 
 } // namespace Polyglot
 NEED_NO_BOX(::Polyglot::LocalizedTextMesh);

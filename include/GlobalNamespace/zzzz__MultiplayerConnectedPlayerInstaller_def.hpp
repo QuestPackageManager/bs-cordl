@@ -6,13 +6,16 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerInstaller)
 namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
-class MultiplayerConnectedPlayerBombNoteController;
+class MultiplayerConnectedPlayerGameNoteController;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerSongTimeSyncController;
 }
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerBeatmapObjectEventManager;
@@ -24,10 +27,7 @@ namespace GlobalNamespace {
 class PlayersSpecificSettingsAtGameStartModel;
 }
 namespace GlobalNamespace {
-class MultiplayerConnectedPlayerSongTimeSyncController;
-}
-namespace GlobalNamespace {
-class MultiplayerConnectedPlayerGameNoteController;
+class MultiplayerConnectedPlayerBombNoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerInstaller);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138)), TypeDefinitionIndex(TypeDefinitionIndex(5239))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5124))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066)), TypeDefinitionIndex(TypeDefinitionIndex(5333))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5229))
 // CS Name: ::MultiplayerConnectedPlayerInstaller*
 class CORDL_TYPE MultiplayerConnectedPlayerInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -164,12 +164,12 @@ public:
 
   constexpr void __set__playersSpecificSettingsAtGameStartModel(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
 
-  /// @brief Method InstallBindings addr 0x23d5814 size 0xc84 virtual true final false
+  /// @brief Method InstallBindings addr 0x20f3cd4 size 0xc84 virtual true final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x23d64d4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20f4994 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerInstaller", modifiers: "&&", def_value: None }]
@@ -226,6 +226,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerInstaller, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____connectedPlayerAudioTimeSyncControllerPrefab) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____connectedPlayerBeatmapObjectEventManagerPrefab) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____multiplayerGameNoteControllerPrefab) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____multiplayerBurstSliderHeadGameNoteControllerPrefab) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____multiplayerBurstSliderGameNoteControllerPrefab) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____multiplayerBurstSliderFillControllerPrefab) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____multiplayerBombNoteControllerPrefab) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____multiplayerObstacleControllerPrefab) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____connectedPlayer) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____localPlayerStartState) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____sceneSetupData) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____playersSpecificSettingsAtGameStartModel) == 0x78, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerInstaller);

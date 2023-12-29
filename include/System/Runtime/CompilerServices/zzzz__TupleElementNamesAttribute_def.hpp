@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::TupleElementNamesAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3386))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3381))
 // CS Name: ::System.Runtime.CompilerServices::TupleElementNamesAttribute*
 class CORDL_TYPE TupleElementNamesAttribute : public ::System::Attribute {
 public:
@@ -33,7 +33,7 @@ public:
 
   static inline ::System::Runtime::CompilerServices::TupleElementNamesAttribute* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> transformNames);
 
-  /// @brief Method .ctor addr 0x24db510 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x2381b20 size 0x78 virtual false final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> transformNames);
 
   // Ctor Parameters [CppParam { name: "", ty: "TupleElementNamesAttribute", modifiers: "&&", def_value: None }]
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::TupleElementNamesAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::CompilerServices::TupleElementNamesAttribute, ____transformNames) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::TupleElementNamesAttribute);

@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MouseLook);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5836))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5927))
 // CS Name: ::MouseLook*
 class CORDL_TYPE MouseLook : public ::System::Object {
 public:
@@ -127,30 +127,30 @@ public:
 
   constexpr void __set__cursorIsLocked(bool value);
 
-  /// @brief Method Init addr 0x22edba4 size 0x6c virtual false final false
+  /// @brief Method Init addr 0x21a7d54 size 0x6c virtual false final false
   inline void Init(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
 
-  /// @brief Method SetRotations addr 0x22ee7bc size 0x14 virtual false final false
+  /// @brief Method SetRotations addr 0x21a8750 size 0x14 virtual false final false
   inline void SetRotations(::UnityEngine::Quaternion characterRotation, ::UnityEngine::Quaternion cameraRotation);
 
-  /// @brief Method LookRotation addr 0x22ee248 size 0x35c virtual false final false
+  /// @brief Method LookRotation addr 0x21a81ec size 0x35c virtual false final false
   inline void LookRotation(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
 
-  /// @brief Method SetCursorLock addr 0x22edc10 size 0x34 virtual false final false
+  /// @brief Method SetCursorLock addr 0x21a7de0 size 0x34 virtual false final false
   inline void SetCursorLock(bool value);
 
-  /// @brief Method UpdateCursorLock addr 0x22ee834 size 0x10 virtual false final false
+  /// @brief Method UpdateCursorLock addr 0x21a87c8 size 0x10 virtual false final false
   inline void UpdateCursorLock();
 
-  /// @brief Method InternalLockUpdate addr 0x22ee844 size 0x78 virtual false final false
+  /// @brief Method InternalLockUpdate addr 0x21a87d8 size 0x78 virtual false final false
   inline void InternalLockUpdate();
 
-  /// @brief Method ClampRotationAroundXAxis addr 0x22ee7d0 size 0x64 virtual false final false
+  /// @brief Method ClampRotationAroundXAxis addr 0x21a8764 size 0x64 virtual false final false
   inline ::UnityEngine::Quaternion ClampRotationAroundXAxis(::UnityEngine::Quaternion q);
 
   static inline ::GlobalNamespace::MouseLook* New_ctor();
 
-  /// @brief Method .ctor addr 0x22ee788 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x21a871c size 0x34 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseLook", modifiers: "&&", def_value: None }]
@@ -204,6 +204,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MouseLook, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MouseLook, ____xSensitivity) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MouseLook, ____ySensitivity) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MouseLook, ____clampVerticalRotation) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MouseLook, ____minimumX) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MouseLook, ____maximumX) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MouseLook, ____smooth) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MouseLook, ____smoothTime) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MouseLook, ____lockCursor) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MouseLook, ____characterTargetRot) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MouseLook, ____cameraTargetRot) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MouseLook, ____cursorIsLocked) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MouseLook);

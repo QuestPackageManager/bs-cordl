@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TrailElementCollection)
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class TrailElement;
 }
 namespace GlobalNamespace {
 struct __TrailElementCollection__InterpolationState;
 }
-namespace GlobalNamespace {
-class TrailElement;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,7 +33,7 @@ MARK_VAL_T(::GlobalNamespace::__TrailElementCollection__InterpolationState);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4880))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4998))
 // CS Name: ::TrailElementCollection::InterpolationState
 struct CORDL_TYPE __TrailElementCollection__InterpolationState {
 public:
@@ -59,13 +59,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TrailElementCollection__InterpolationState, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__TrailElementCollection__InterpolationState, segmentIndex) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__TrailElementCollection__InterpolationState, segmentLerp) == 0x4, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::TrailElementCollection
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4881))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4999))
 // CS Name: ::TrailElementCollection*
 class CORDL_TYPE TrailElementCollection : public ::System::Object {
 public:
@@ -110,29 +114,29 @@ public:
 
   static inline ::GlobalNamespace::TrailElementCollection* New_ctor(int32_t capacity, ::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float_t time);
 
-  /// @brief Method .ctor addr 0x239ec30 size 0x1b0 virtual false final false
+  /// @brief Method .ctor addr 0x2268cc4 size 0x1b0 virtual false final false
   inline void _ctor(int32_t capacity, ::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float_t time);
 
-  /// @brief Method InitSnapshots addr 0x239ef38 size 0x90 virtual false final false
+  /// @brief Method InitSnapshots addr 0x2268fcc size 0x90 virtual false final false
   inline void InitSnapshots(::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float_t time);
 
-  /// @brief Method SetHeadData addr 0x239f3ac size 0xb4 virtual false final false
+  /// @brief Method SetHeadData addr 0x2269440 size 0xb4 virtual false final false
   inline void SetHeadData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t time);
 
-  /// @brief Method MoveTailToHead addr 0x239f460 size 0x9c virtual false final false
+  /// @brief Method MoveTailToHead addr 0x22694f4 size 0x9c virtual false final false
   inline void MoveTailToHead();
 
-  /// @brief Method UpdateDistances addr 0x239f4fc size 0x7c virtual false final false
+  /// @brief Method UpdateDistances addr 0x2269590 size 0x7c virtual false final false
   inline void UpdateDistances();
 
-  /// @brief Method Interpolate addr 0x23a03c0 size 0x294 virtual false final false
+  /// @brief Method Interpolate addr 0x226a454 size 0x294 virtual false final false
   inline void Interpolate(float_t t, ByRef<::GlobalNamespace::__TrailElementCollection__InterpolationState> lerpState, ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Vector3> normal,
                           ByRef<float_t> time);
 
-  /// @brief Method UpdateLerpState addr 0x23a0988 size 0x110 virtual false final false
+  /// @brief Method UpdateLerpState addr 0x226aa1c size 0x110 virtual false final false
   inline void UpdateLerpState(float_t t, ByRef<::GlobalNamespace::__TrailElementCollection__InterpolationState> interpolationState);
 
-  /// @brief Method GetElement addr 0x23a0a98 size 0x44 virtual false final false
+  /// @brief Method GetElement addr 0x226ab2c size 0x44 virtual false final false
   inline ::GlobalNamespace::TrailElement* GetElement(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "TrailElementCollection", modifiers: "&&", def_value: None }]
@@ -165,6 +169,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TrailElementCollection, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrailElementCollection, ____capacity) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrailElementCollection, ____snapshots) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrailElementCollection, ____headIndex) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrailElementCollection, ____totalDistance) == 0x24, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TrailElementCollection);

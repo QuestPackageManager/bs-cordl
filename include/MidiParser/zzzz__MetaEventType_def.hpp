@@ -16,7 +16,7 @@ MARK_VAL_T(::MidiParser::MetaEventType);
 namespace MidiParser {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16231))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16055))
 // CS Name: ::MidiParser::MetaEventType
 struct CORDL_TYPE MetaEventType {
 public:
@@ -53,6 +53,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::MidiParser::MetaEventType, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::MidiParser::MetaEventType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace MidiParser
 DEFINE_IL2CPP_ARG_TYPE(::MidiParser::MetaEventType, "MidiParser", "MetaEventType");

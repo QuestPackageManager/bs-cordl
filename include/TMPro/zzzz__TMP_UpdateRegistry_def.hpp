@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_UpdateRegistry)
-namespace UnityEngine::UI {
-class ICanvasElement;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UI {
+class ICanvasElement;
 }
 // Forward declare root types
 namespace TMPro {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::TMPro::TMP_UpdateRegistry);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12459))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12387))
 // CS Name: ::TMPro::TMP_UpdateRegistry*
 class CORDL_TYPE TMP_UpdateRegistry : public ::System::Object {
 public:
@@ -73,39 +73,39 @@ public:
 
   static inline ::TMPro::TMP_UpdateRegistry* getStaticF_s_Instance();
 
-  /// @brief Method get_instance addr 0x2c4dcc8 size 0x7c virtual false final false
+  /// @brief Method get_instance addr 0x2ac9f74 size 0x7c virtual false final false
   static inline ::TMPro::TMP_UpdateRegistry* get_instance();
 
   static inline ::TMPro::TMP_UpdateRegistry* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c4dd44 size 0x15c virtual false final false
+  /// @brief Method .ctor addr 0x2ac9ff0 size 0x15c virtual false final false
   inline void _ctor();
 
-  /// @brief Method RegisterCanvasElementForLayoutRebuild addr 0x2c4dea0 size 0x20 virtual false final false
+  /// @brief Method RegisterCanvasElementForLayoutRebuild addr 0x2aca14c size 0x20 virtual false final false
   static inline void RegisterCanvasElementForLayoutRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalRegisterCanvasElementForLayoutRebuild addr 0x2c4dec0 size 0x15c virtual false final false
+  /// @brief Method InternalRegisterCanvasElementForLayoutRebuild addr 0x2aca16c size 0x15c virtual false final false
   inline bool InternalRegisterCanvasElementForLayoutRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method RegisterCanvasElementForGraphicRebuild addr 0x2c4e01c size 0x20 virtual false final false
+  /// @brief Method RegisterCanvasElementForGraphicRebuild addr 0x2aca2c8 size 0x20 virtual false final false
   static inline void RegisterCanvasElementForGraphicRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalRegisterCanvasElementForGraphicRebuild addr 0x2c4e03c size 0x15c virtual false final false
+  /// @brief Method InternalRegisterCanvasElementForGraphicRebuild addr 0x2aca2e8 size 0x15c virtual false final false
   inline bool InternalRegisterCanvasElementForGraphicRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method PerformUpdateForCanvasRendererObjects addr 0x2c4e198 size 0x25c virtual false final false
+  /// @brief Method PerformUpdateForCanvasRendererObjects addr 0x2aca444 size 0x25c virtual false final false
   inline void PerformUpdateForCanvasRendererObjects();
 
-  /// @brief Method PerformUpdateForMeshRendererObjects addr 0x2c4e3f4 size 0x68 virtual false final false
+  /// @brief Method PerformUpdateForMeshRendererObjects addr 0x2aca6a0 size 0x68 virtual false final false
   inline void PerformUpdateForMeshRendererObjects();
 
-  /// @brief Method UnRegisterCanvasElementForRebuild addr 0x2c4e45c size 0x30 virtual false final false
+  /// @brief Method UnRegisterCanvasElementForRebuild addr 0x2aca708 size 0x30 virtual false final false
   static inline void UnRegisterCanvasElementForRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalUnRegisterCanvasElementForLayoutRebuild addr 0x2c4e48c size 0xdc virtual false final false
+  /// @brief Method InternalUnRegisterCanvasElementForLayoutRebuild addr 0x2aca738 size 0xdc virtual false final false
   inline void InternalUnRegisterCanvasElementForLayoutRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalUnRegisterCanvasElementForGraphicRebuild addr 0x2c4e568 size 0xdc virtual false final false
+  /// @brief Method InternalUnRegisterCanvasElementForGraphicRebuild addr 0x2aca814 size 0xdc virtual false final false
   inline void InternalUnRegisterCanvasElementForGraphicRebuild(::UnityEngine::UI::ICanvasElement* element);
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_UpdateRegistry", modifiers: "&&", def_value: None }]
@@ -138,6 +138,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_UpdateRegistry, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_UpdateRegistry, ___m_LayoutRebuildQueue) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_UpdateRegistry, ___m_LayoutQueueLookup) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_UpdateRegistry, ___m_GraphicRebuildQueue) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_UpdateRegistry, ___m_GraphicQueueLookup) == 0x28, "Offset mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::TMP_UpdateRegistry);

@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GuestNameButtonsListItem);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5531))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5624))
 // CS Name: ::GuestNameButtonsListItem*
 class CORDL_TYPE GuestNameButtonsListItem : public ::UnityEngine::MonoBehaviour {
 public:
@@ -61,21 +61,21 @@ public:
 
   constexpr void __set__buttonPressed(::System::Action* value);
 
-  /// @brief Method set_nameText addr 0x229e540 size 0x24 virtual false final false
+  /// @brief Method set_nameText addr 0x21595bc size 0x24 virtual false final false
   inline void set_nameText(::StringW value);
 
-  /// @brief Method set_buttonPressed addr 0x229e564 size 0x8 virtual false final false
+  /// @brief Method set_buttonPressed addr 0x21595e0 size 0x8 virtual false final false
   inline void set_buttonPressed(::System::Action* value);
 
-  /// @brief Method Awake addr 0x229e56c size 0x94 virtual false final false
+  /// @brief Method Awake addr 0x21595e8 size 0x94 virtual false final false
   inline void Awake();
 
   static inline ::GlobalNamespace::GuestNameButtonsListItem* New_ctor();
 
-  /// @brief Method .ctor addr 0x229e600 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x215967c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__7_0 addr 0x229e608 size 0x1c virtual false final false
+  /// @brief Method <Awake>b__7_0 addr 0x2159684 size 0x1c virtual false final false
   inline void _Awake_b__7_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "GuestNameButtonsListItem", modifiers: "&&", def_value: None }]
@@ -105,6 +105,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GuestNameButtonsListItem, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GuestNameButtonsListItem, ____nameText) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GuestNameButtonsListItem, ____button) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GuestNameButtonsListItem, ____buttonPressed) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GuestNameButtonsListItem);

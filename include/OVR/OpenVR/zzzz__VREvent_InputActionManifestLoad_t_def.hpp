@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_InputActionManifestLoad_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8690))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9459))
 // CS Name: ::OVR.OpenVR::VREvent_InputActionManifestLoad_t
 struct CORDL_TYPE VREvent_InputActionManifestLoad_t {
 public:
@@ -48,6 +48,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VREvent_InputActionManifestLoad_t, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_InputActionManifestLoad_t, pathAppKey) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_InputActionManifestLoad_t, pathMessage) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_InputActionManifestLoad_t, pathMessageParam) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_InputActionManifestLoad_t, pathManifestPath) == 0x18, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VREvent_InputActionManifestLoad_t, "OVR.OpenVR", "VREvent_InputActionManifestLoad_t");

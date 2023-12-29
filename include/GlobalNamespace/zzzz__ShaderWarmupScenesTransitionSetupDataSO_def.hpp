@@ -17,18 +17,18 @@ MARK_REF_PTR_T(::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15418))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6078))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13940))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6138))
 // CS Name: ::ShaderWarmupScenesTransitionSetupDataSO*
 class CORDL_TYPE ShaderWarmupScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init addr 0x231ff90 size 0x8 virtual false final false
+  /// @brief Method Init addr 0x21e58b4 size 0x8 virtual false final false
   inline void Init(::GlobalNamespace::ShaderWarmupSceneSetupData* shaderWarmupSceneSetupData);
 
   static inline ::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x231ff98 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21e58bc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderWarmupScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]

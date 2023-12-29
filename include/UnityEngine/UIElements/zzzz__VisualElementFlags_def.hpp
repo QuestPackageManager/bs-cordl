@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::VisualElementFlags);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6822))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6908))
 // CS Name: ::UnityEngine.UIElements::VisualElementFlags
 struct CORDL_TYPE VisualElementFlags {
 public:
@@ -105,6 +105,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualElementFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualElementFlags, "UnityEngine.UIElements", "VisualElementFlags");

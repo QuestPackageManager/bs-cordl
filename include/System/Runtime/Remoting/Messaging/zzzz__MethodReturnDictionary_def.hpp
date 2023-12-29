@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::MethodReturnDictionary);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3177))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3179))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3178))
 // CS Name: ::System.Runtime.Remoting.Messaging::MethodReturnDictionary*
 class CORDL_TYPE MethodReturnDictionary : public ::System::Runtime::Remoting::Messaging::MessageDictionary {
 public:
@@ -41,7 +41,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::MethodReturnDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* message);
 
-  /// @brief Method .ctor addr 0x24b07c4 size 0xfc virtual false final false
+  /// @brief Method .ctor addr 0x2357cd0 size 0xfc virtual false final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MethodReturnDictionary", modifiers: "&&", def_value: None }]

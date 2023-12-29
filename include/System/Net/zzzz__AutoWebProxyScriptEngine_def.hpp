@@ -23,16 +23,16 @@ MARK_REF_PTR_T(::System::Net::AutoWebProxyScriptEngine);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9140))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7977))
 // CS Name: ::System.Net::AutoWebProxyScriptEngine*
 class CORDL_TYPE AutoWebProxyScriptEngine : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetProxies addr 0x29b9280 size 0xc virtual false final false
+  /// @brief Method GetProxies addr 0x283ba08 size 0xc virtual false final false
   inline bool GetProxies(::System::Uri* destination, ByRef<::System::Collections::Generic::IList_1<::StringW>*> proxyList);
 
-  /// @brief Method GetProxies addr 0x29b928c size 0xc virtual false final false
+  /// @brief Method GetProxies addr 0x283ba14 size 0xc virtual false final false
   inline bool GetProxies(::System::Uri* destination, ByRef<::System::Collections::Generic::IList_1<::StringW>*> proxyList, ByRef<int32_t> syncStatus);
 
   // Ctor Parameters [CppParam { name: "", ty: "AutoWebProxyScriptEngine", modifiers: "&&", def_value: None }]

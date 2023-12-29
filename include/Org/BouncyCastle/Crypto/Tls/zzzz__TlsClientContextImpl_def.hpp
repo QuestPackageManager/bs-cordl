@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(TlsClientContextImpl)
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsClientContext;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class SecurityParameters;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -43,10 +43,10 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom,
                                                                                  ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
-  /// @brief Method .ctor addr 0xf9b73c size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0xf25500 size 0x70 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom, ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
-  /// @brief Method get_IsServer addr 0xf9b7ac size 0x8 virtual true final false
+  /// @brief Method get_IsServer addr 0xf25570 size 0x8 virtual true final false
   inline bool get_IsServer();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsClientContextImpl", modifiers: "&&", def_value: None }]

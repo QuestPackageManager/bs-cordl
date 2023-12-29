@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::HierarchyChangeType);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6785))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6871))
 // CS Name: ::UnityEngine.UIElements::HierarchyChangeType
 struct CORDL_TYPE HierarchyChangeType {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::HierarchyChangeType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::HierarchyChangeType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::HierarchyChangeType, "UnityEngine.UIElements", "HierarchyChangeType");

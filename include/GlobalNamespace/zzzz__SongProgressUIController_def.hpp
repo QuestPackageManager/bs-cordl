@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SongProgressUIController)
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 namespace System::Text {
 class StringBuilder;
 }
-namespace UnityEngine {
-class RectTransform;
-}
 namespace UnityEngine::UI {
 class Slider;
 }
-namespace GlobalNamespace {
-class IAudioTimeSource;
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SongProgressUIController);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5048))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5153))
 // CS Name: ::SongProgressUIController*
 class CORDL_TYPE SongProgressUIController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -138,15 +138,15 @@ public:
 
   constexpr void __set__progressImageRectTransform(::UnityEngine::RectTransform* value);
 
-  /// @brief Method Start addr 0x23c32f8 size 0x1a4 virtual false final false
+  /// @brief Method Start addr 0x20e1450 size 0x1a4 virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x23c349c size 0x2c0 virtual false final false
+  /// @brief Method Update addr 0x20e15f4 size 0x2e8 virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::SongProgressUIController* New_ctor();
 
-  /// @brief Method .ctor addr 0x23c375c size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x20e18dc size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SongProgressUIController", modifiers: "&&", def_value: None }]
@@ -200,6 +200,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongProgressUIController, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____slider) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____progressImage) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____durationMinutesText) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____durationSecondsText) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____progressMinutesText) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____progressSecondsText) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____audioTimeSource) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____prevMinutes) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____prevSeconds) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____stringBuilder) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____progressImageRectTransform) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongProgressUIController);

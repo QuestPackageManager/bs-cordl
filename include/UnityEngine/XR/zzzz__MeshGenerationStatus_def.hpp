@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::XR::MeshGenerationStatus);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15634))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15592))
 // CS Name: ::UnityEngine.XR::MeshGenerationStatus
 struct CORDL_TYPE MeshGenerationStatus {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::MeshGenerationStatus, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::MeshGenerationStatus, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::MeshGenerationStatus, "UnityEngine.XR", "MeshGenerationStatus");

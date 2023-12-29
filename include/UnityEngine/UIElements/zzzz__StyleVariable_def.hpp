@@ -24,15 +24,15 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleVariable);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7265))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7351))
 // CS Name: ::UnityEngine.UIElements::StyleVariable
 struct CORDL_TYPE StyleVariable {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2e69af8 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2d00748 size 0xc virtual false final false
   inline void _ctor(::StringW name, ::UnityEngine::UIElements::StyleSheet* sheet, ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> handles);
 
-  /// @brief Method GetHashCode addr 0x2e69b04 size 0x78 virtual true final false
+  /// @brief Method GetHashCode addr 0x2d00754 size 0x78 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sheet", ty: "::UnityEngine::UIElements::StyleSheet*", modifiers: "", def_value: None
@@ -60,6 +60,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleVariable, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleVariable, name) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleVariable, sheet) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleVariable, handles) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleVariable, "UnityEngine.UIElements", "StyleVariable");

@@ -5,10 +5,7 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(AttributePkcs)
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -17,7 +14,10 @@ namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -57,26 +57,26 @@ public:
 
   constexpr void __set_attrValues(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method GetInstance addr 0xf855f4 size 0x154 virtual false final false
+  /// @brief Method GetInstance addr 0xf0f3d0 size 0x154 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AttributePkcs* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AttributePkcs* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf85748 size 0x130 virtual false final false
+  /// @brief Method .ctor addr 0xf0f524 size 0x130 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AttributePkcs* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType, ::Org::BouncyCastle::Asn1::Asn1Set* attrValues);
 
-  /// @brief Method .ctor addr 0xf85878 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xf0f654 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType, ::Org::BouncyCastle::Asn1::Asn1Set* attrValues);
 
-  /// @brief Method get_AttrType addr 0xf858a4 size 0x8 virtual false final false
+  /// @brief Method get_AttrType addr 0xf0f680 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_AttrType();
 
-  /// @brief Method get_AttrValues addr 0xf858ac size 0x8 virtual false final false
+  /// @brief Method get_AttrValues addr 0xf0f688 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_AttrValues();
 
-  /// @brief Method ToAsn1Object addr 0xf858b4 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf0f690 size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "AttributePkcs", modifiers: "&&", def_value: None }]
@@ -103,6 +103,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::AttributePkcs, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::AttributePkcs, ___attrType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::AttributePkcs, ___attrValues) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Pkcs::AttributePkcs);

@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::Vector2Mask);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12216))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12144))
 // CS Name: ::UnityEngine.ProBuilder::Vector2Mask
 struct CORDL_TYPE Vector2Mask {
 public:
@@ -39,34 +39,34 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Vector2Mask getStaticF_XY();
 
-  /// @brief Method get_x addr 0x2b7f618 size 0x18 virtual false final false
+  /// @brief Method get_x addr 0x29fe8c4 size 0x18 virtual false final false
   inline float_t get_x();
 
-  /// @brief Method get_y addr 0x2b7f630 size 0x18 virtual false final false
+  /// @brief Method get_y addr 0x29fe8dc size 0x18 virtual false final false
   inline float_t get_y();
 
-  /// @brief Method .ctor addr 0x2b7f648 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x29fe8f4 size 0x24 virtual false final false
   inline void _ctor(::UnityEngine::Vector3 v, float_t epsilon);
 
-  /// @brief Method .ctor addr 0x2b7f66c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x29fe918 size 0x8 virtual false final false
   inline void _ctor(uint8_t mask);
 
-  /// @brief Method op_Implicit addr 0x2b7f674 size 0x1c virtual false final false
+  /// @brief Method op_Implicit addr 0x29fe920 size 0x1c virtual false final false
   static inline ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::ProBuilder::Vector2Mask mask);
 
-  /// @brief Method op_Implicit addr 0x2b7f690 size 0x28 virtual false final false
+  /// @brief Method op_Implicit addr 0x29fe93c size 0x28 virtual false final false
   static inline ::UnityEngine::ProBuilder::Vector2Mask op_Implicit___UnityEngine__ProBuilder__Vector2Mask(::UnityEngine::Vector2 v);
 
-  /// @brief Method op_BitwiseOr addr 0x2b7f6b8 size 0xc virtual false final false
+  /// @brief Method op_BitwiseOr addr 0x29fe964 size 0xc virtual false final false
   static inline ::UnityEngine::ProBuilder::Vector2Mask op_BitwiseOr(::UnityEngine::ProBuilder::Vector2Mask left, ::UnityEngine::ProBuilder::Vector2Mask right);
 
-  /// @brief Method op_BitwiseAnd addr 0x2b7f6c4 size 0xc virtual false final false
+  /// @brief Method op_BitwiseAnd addr 0x29fe970 size 0xc virtual false final false
   static inline ::UnityEngine::ProBuilder::Vector2Mask op_BitwiseAnd(::UnityEngine::ProBuilder::Vector2Mask left, ::UnityEngine::ProBuilder::Vector2Mask right);
 
-  /// @brief Method op_ExclusiveOr addr 0x2b7f6d0 size 0xc virtual false final false
+  /// @brief Method op_ExclusiveOr addr 0x29fe97c size 0xc virtual false final false
   static inline ::UnityEngine::ProBuilder::Vector2Mask op_ExclusiveOr(::UnityEngine::ProBuilder::Vector2Mask left, ::UnityEngine::ProBuilder::Vector2Mask right);
 
-  /// @brief Method op_Multiply addr 0x2b7f6dc size 0x28 virtual false final false
+  /// @brief Method op_Multiply addr 0x29fe988 size 0x28 virtual false final false
   static inline ::UnityEngine::Vector2 op_Multiply(::UnityEngine::ProBuilder::Vector2Mask mask, float_t value);
 
   // Ctor Parameters [CppParam { name: "m_Mask", ty: "uint8_t", modifiers: "", def_value: None }]
@@ -92,6 +92,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Vector2Mask, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Vector2Mask, m_Mask) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Vector2Mask, "UnityEngine.ProBuilder", "Vector2Mask");

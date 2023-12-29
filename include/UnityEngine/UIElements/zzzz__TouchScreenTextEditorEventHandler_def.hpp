@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__TextEditorEventHandler_def.hpp"
 CORDL_MODULE_EXPORT(TouchScreenTextEditorEventHandler)
 namespace UnityEngine::UIElements {
-class EventBase;
+class TextEditorEngine;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class TextEditorEngine;
 }
 namespace UnityEngine {
 class TouchScreenKeyboard;
 }
 namespace UnityEngine::UIElements {
+class IVisualElementScheduledItem;
+}
+namespace UnityEngine::UIElements {
 class ITextInputField;
 }
 namespace UnityEngine::UIElements {
-class IVisualElementScheduledItem;
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TouchScreenTextEditorEventHandler);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7094))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7132))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7180))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7218))
 // CS Name: ::UnityEngine.UIElements::TouchScreenTextEditorEventHandler*
 class CORDL_TYPE TouchScreenTextEditorEventHandler : public ::UnityEngine::UIElements::TextEditorEventHandler {
 public:
@@ -66,16 +66,16 @@ public:
   static inline ::UnityEngine::UIElements::TouchScreenTextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine,
                                                                                        ::UnityEngine::UIElements::ITextInputField* textInputField);
 
-  /// @brief Method .ctor addr 0x2e3ab1c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2cd376c size 0x8 virtual false final false
   inline void _ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine, ::UnityEngine::UIElements::ITextInputField* textInputField);
 
-  /// @brief Method PollTouchScreenKeyboard addr 0x2e3ab24 size 0x25c virtual false final false
+  /// @brief Method PollTouchScreenKeyboard addr 0x2cd3774 size 0x25c virtual false final false
   inline void PollTouchScreenKeyboard();
 
-  /// @brief Method DoPollTouchScreenKeyboard addr 0x2e3ad80 size 0x728 virtual false final false
+  /// @brief Method DoPollTouchScreenKeyboard addr 0x2cd39d0 size 0x728 virtual false final false
   inline void DoPollTouchScreenKeyboard();
 
-  /// @brief Method ExecuteDefaultActionAtTarget addr 0x2e3b4a8 size 0x550 virtual true final false
+  /// @brief Method ExecuteDefaultActionAtTarget addr 0x2cd40f8 size 0x550 virtual true final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
   // Ctor Parameters [CppParam { name: "", ty: "TouchScreenTextEditorEventHandler", modifiers: "&&", def_value: None }]
@@ -102,6 +102,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TouchScreenTextEditorEventHandler, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TouchScreenTextEditorEventHandler, ___m_TouchKeyboardPoller) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TouchScreenTextEditorEventHandler, ___m_LastPointerDownTarget) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::TouchScreenTextEditorEventHandler);

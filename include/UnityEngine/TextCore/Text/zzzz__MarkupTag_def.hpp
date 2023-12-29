@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::MarkupTag);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13715))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13594))
 // CS Name: ::UnityEngine.TextCore.Text::MarkupTag
 struct CORDL_TYPE MarkupTag {
 public:
@@ -553,6 +553,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::MarkupTag, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::MarkupTag, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::MarkupTag, "UnityEngine.TextCore.Text", "MarkupTag");

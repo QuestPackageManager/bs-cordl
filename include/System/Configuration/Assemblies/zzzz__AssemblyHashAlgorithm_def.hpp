@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Configuration::Assemblies::AssemblyHashAlgorithm);
 namespace System::Configuration::Assemblies {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3750))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3738))
 // CS Name: ::System.Configuration.Assemblies::AssemblyHashAlgorithm
 struct CORDL_TYPE AssemblyHashAlgorithm {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Configuration::Assemblies::AssemblyHashAlgorithm, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Configuration::Assemblies::AssemblyHashAlgorithm, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Configuration::Assemblies
 DEFINE_IL2CPP_ARG_TYPE(::System::Configuration::Assemblies::AssemblyHashAlgorithm, "System.Configuration.Assemblies", "AssemblyHashAlgorithm");

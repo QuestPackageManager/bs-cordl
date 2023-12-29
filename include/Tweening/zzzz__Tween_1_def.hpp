@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Tweening/zzzz__Tween_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Tween_1)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace Tweening {
@@ -23,8 +23,8 @@ namespace Tweening {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16098))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16099))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15952))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15953))
 // CS Name: ::Tweening::Tween`1<T>*
 class CORDL_TYPE Tween_1 : public ::Tweening::Tween {
 public:

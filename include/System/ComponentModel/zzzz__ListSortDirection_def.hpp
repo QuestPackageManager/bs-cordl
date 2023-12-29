@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ComponentModel::ListSortDirection);
 namespace System::ComponentModel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9442))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8279))
 // CS Name: ::System.ComponentModel::ListSortDirection
 struct CORDL_TYPE ListSortDirection {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::ListSortDirection, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::ListSortDirection, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ListSortDirection, "System.ComponentModel", "ListSortDirection");

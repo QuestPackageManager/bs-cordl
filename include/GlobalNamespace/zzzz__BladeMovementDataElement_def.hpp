@@ -19,8 +19,8 @@ MARK_VAL_T(::GlobalNamespace::BladeMovementDataElement);
 // SizeInfo { instance_size: 44, native_size: 44, calculated_instance_size: 44, calculated_native_size: 60, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15009))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15156))
 // CS Name: ::BladeMovementDataElement
 struct CORDL_TYPE BladeMovementDataElement {
 public:
@@ -56,6 +56,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BladeMovementDataElement, 0x2c>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BladeMovementDataElement, time) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BladeMovementDataElement, segmentAngle) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BladeMovementDataElement, topPos) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BladeMovementDataElement, bottomPos) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BladeMovementDataElement, segmentNormal) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BladeMovementDataElement, "", "BladeMovementDataElement");

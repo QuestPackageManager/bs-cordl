@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::OnErrorAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11964))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11892))
 // CS Name: ::Newtonsoft.Json.Serialization::OnErrorAttribute*
 class CORDL_TYPE OnErrorAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::Serialization::OnErrorAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x268f958 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x252c214 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OnErrorAttribute", modifiers: "&&", def_value: None }]

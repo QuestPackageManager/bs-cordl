@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BlueNoiseDithering);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14493))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14711))
 // CS Name: ::BlueNoiseDithering*
 class CORDL_TYPE BlueNoiseDithering : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -47,12 +47,12 @@ public:
 
   static inline int32_t getStaticF__globalNoiseTextureID();
 
-  /// @brief Method SetBlueNoiseShaderParams addr 0x210ad48 size 0xec virtual false final false
+  /// @brief Method SetBlueNoiseShaderParams addr 0x1fb5864 size 0xec virtual false final false
   inline void SetBlueNoiseShaderParams(int32_t cameraPixelWidth, int32_t cameraPixelHeight);
 
   static inline ::GlobalNamespace::BlueNoiseDithering* New_ctor();
 
-  /// @brief Method .ctor addr 0x210ae34 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fb5950 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BlueNoiseDithering", modifiers: "&&", def_value: None }]
@@ -76,6 +76,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BlueNoiseDithering, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BlueNoiseDithering, ____noiseTexture) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BlueNoiseDithering);

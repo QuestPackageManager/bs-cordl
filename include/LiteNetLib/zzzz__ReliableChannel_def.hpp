@@ -33,21 +33,21 @@ MARK_VAL_T(::LiteNetLib::__ReliableChannel__PendingPacket);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14184))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14522))
 // CS Name: ::ReliableChannel::PendingPacket
 struct CORDL_TYPE __ReliableChannel__PendingPacket {
 public:
   // Declarations
-  /// @brief Method ToString addr 0x2207b80 size 0x68 virtual true final false
+  /// @brief Method ToString addr 0x20a5d2c size 0x68 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method Init addr 0x2207600 size 0xc virtual false final false
+  /// @brief Method Init addr 0x20a57ac size 0xc virtual false final false
   inline void Init(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method TrySend addr 0x220760c size 0x78 virtual false final false
+  /// @brief Method TrySend addr 0x20a57b8 size 0x78 virtual false final false
   inline void TrySend(int64_t currentTime, ::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method Clear addr 0x2207158 size 0x3c virtual false final false
+  /// @brief Method Clear addr 0x20a5304 size 0x3c virtual false final false
   inline bool Clear(::LiteNetLib::NetPeer* peer);
 
   // Ctor Parameters [CppParam { name: "_packet", ty: "::LiteNetLib::NetPacket*", modifiers: "", def_value: None }, CppParam { name: "_timeStamp", ty: "int64_t", modifiers: "", def_value: None },
@@ -75,13 +75,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::__ReliableChannel__PendingPacket, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::LiteNetLib::__ReliableChannel__PendingPacket, _packet) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::__ReliableChannel__PendingPacket, _timeStamp) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::__ReliableChannel__PendingPacket, _isSent) == 0x10, "Offset mismatch!");
+
 } // namespace LiteNetLib
 // Type: LiteNetLib::ReliableChannel
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14127)), TypeDefinitionIndex(TypeDefinitionIndex(14155))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14185))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14465)), TypeDefinitionIndex(TypeDefinitionIndex(14493))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14523))
 // CS Name: ::LiteNetLib::ReliableChannel*
 class CORDL_TYPE ReliableChannel : public ::LiteNetLib::BaseChannel {
 public:
@@ -208,16 +214,16 @@ public:
 
   static inline ::LiteNetLib::ReliableChannel* New_ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id);
 
-  /// @brief Method .ctor addr 0x22036dc size 0x188 virtual false final false
+  /// @brief Method .ctor addr 0x20a1888 size 0x188 virtual false final false
   inline void _ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id);
 
-  /// @brief Method ProcessAck addr 0x2206e08 size 0x350 virtual false final false
+  /// @brief Method ProcessAck addr 0x20a4fb4 size 0x350 virtual false final false
   inline void ProcessAck(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method SendNextPackets addr 0x2207194 size 0x46c virtual true final false
+  /// @brief Method SendNextPackets addr 0x20a5340 size 0x46c virtual true final false
   inline void SendNextPackets();
 
-  /// @brief Method ProcessPacket addr 0x2207684 size 0x4fc virtual true final false
+  /// @brief Method ProcessPacket addr 0x20a5830 size 0x4fc virtual true final false
   inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReliableChannel", modifiers: "&&", def_value: None }]
@@ -280,6 +286,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::ReliableChannel, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ReliableChannel, ____outgoingAcks) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ReliableChannel, ____pendingPackets) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ReliableChannel, ____receivedPackets) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ReliableChannel, ____earlyReceived) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ReliableChannel, ____localSeqence) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ReliableChannel, ____remoteSequence) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ReliableChannel, ____localWindowStart) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ReliableChannel, ____remoteWindowStart) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ReliableChannel, ____mustSendAcks) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ReliableChannel, ____deliveryMethod) == 0x59, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ReliableChannel, ____ordered) == 0x5a, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ReliableChannel, ____windowSize) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ReliableChannel, ____id) == 0x60, "Offset mismatch!");
 
 } // namespace LiteNetLib
 NEED_NO_BOX(::LiteNetLib::ReliableChannel);

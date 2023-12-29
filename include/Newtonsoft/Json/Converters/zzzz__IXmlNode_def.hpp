@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IXmlNode)
-namespace System::Xml {
-struct XmlNodeType;
-}
 namespace System {
 class Object;
+}
+namespace System::Xml {
+struct XmlNodeType;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::IXmlNode);
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12057))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11985))
 // CS Name: ::Newtonsoft.Json.Converters::IXmlNode*
 class CORDL_TYPE IXmlNode {
 public:

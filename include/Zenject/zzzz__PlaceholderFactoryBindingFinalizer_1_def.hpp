@@ -8,10 +8,10 @@ namespace Zenject {
 class FactoryBindInfo;
 }
 namespace Zenject {
-class BindInfo;
+class DiContainer;
 }
 namespace Zenject {
-class DiContainer;
+class BindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -25,8 +25,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10966))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10864))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10894))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10792))
 // CS Name: ::Zenject::PlaceholderFactoryBindingFinalizer`1<TContract>*
 class CORDL_TYPE PlaceholderFactoryBindingFinalizer_1 : public ::Zenject::ProviderBindingFinalizer {
 public:

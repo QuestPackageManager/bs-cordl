@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(OtherInfo)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
 class KeySpecificInfo;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -68,24 +68,24 @@ public:
   static inline ::Org::BouncyCastle::Asn1::X9::OtherInfo* New_ctor(::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* keyInfo, ::Org::BouncyCastle::Asn1::Asn1OctetString* partyAInfo,
                                                                    ::Org::BouncyCastle::Asn1::Asn1OctetString* suppPubInfo);
 
-  /// @brief Method .ctor addr 0x11aa7cc size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x1139584 size 0x3c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* keyInfo, ::Org::BouncyCastle::Asn1::Asn1OctetString* partyAInfo, ::Org::BouncyCastle::Asn1::Asn1OctetString* suppPubInfo);
 
   static inline ::Org::BouncyCastle::Asn1::X9::OtherInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x11aa808 size 0x3a8 virtual false final false
+  /// @brief Method .ctor addr 0x11395c0 size 0x3a8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_KeyInfo addr 0x11aabc8 size 0x8 virtual false final false
+  /// @brief Method get_KeyInfo addr 0x1139980 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* get_KeyInfo();
 
-  /// @brief Method get_PartyAInfo addr 0x11aabd0 size 0x8 virtual false final false
+  /// @brief Method get_PartyAInfo addr 0x1139988 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_PartyAInfo();
 
-  /// @brief Method get_SuppPubInfo addr 0x11aabd8 size 0x8 virtual false final false
+  /// @brief Method get_SuppPubInfo addr 0x1139990 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_SuppPubInfo();
 
-  /// @brief Method ToAsn1Object addr 0x11aabe0 size 0x168 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1139998 size 0x168 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OtherInfo", modifiers: "&&", def_value: None }]
@@ -115,6 +115,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X9::OtherInfo, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X9::OtherInfo, ___keyInfo) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X9::OtherInfo, ___partyAInfo) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X9::OtherInfo, ___suppPubInfo) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X9
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X9::OtherInfo);

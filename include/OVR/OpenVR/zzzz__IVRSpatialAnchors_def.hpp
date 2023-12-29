@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRSpatialAnchors)
-namespace System {
-class IAsyncResult;
-}
 namespace OVR::OpenVR {
 struct EVRSpatialAnchorError;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class Object;
@@ -30,16 +30,16 @@ namespace System::Text {
 class StringBuilder;
 }
 namespace OVR::OpenVR {
-class __IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor;
+class __IVRSpatialAnchors___GetSpatialAnchorPose;
 }
 namespace OVR::OpenVR {
 class __IVRSpatialAnchors___CreateSpatialAnchorFromPose;
 }
 namespace OVR::OpenVR {
-class __IVRSpatialAnchors___GetSpatialAnchorPose;
+class __IVRSpatialAnchors___GetSpatialAnchorDescriptor;
 }
 namespace OVR::OpenVR {
-class __IVRSpatialAnchors___GetSpatialAnchorDescriptor;
+class __IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -67,24 +67,24 @@ MARK_VAL_T(::OVR::OpenVR::IVRSpatialAnchors);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8547))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9316))
 // CS Name: ::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor*
 class CORDL_TYPE __IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x27f0164 size 0xd8 virtual false final false
+  /// @brief Method .ctor addr 0x26791e0 size 0xd8 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x27f023c size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x26792b8 size 0x14 virtual true final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError Invoke(::StringW pchDescriptor, ByRef<uint32_t> pHandleOut);
 
-  /// @brief Method BeginInvoke addr 0x27f0250 size 0x94 virtual true final false
+  /// @brief Method BeginInvoke addr 0x26792cc size 0x94 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchDescriptor, ByRef<uint32_t> pHandleOut, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x27f02e4 size 0x2c virtual true final false
+  /// @brief Method EndInvoke addr 0x2679360 size 0x2c virtual true final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError EndInvoke(ByRef<uint32_t> pHandleOut, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor", modifiers: "&&", def_value: None }]
@@ -111,26 +111,26 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSpatialAnchors
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8548))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9317))
 // CS Name: ::IVRSpatialAnchors::_CreateSpatialAnchorFromPose*
 class CORDL_TYPE __IVRSpatialAnchors___CreateSpatialAnchorFromPose : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRSpatialAnchors___CreateSpatialAnchorFromPose* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x27f0310 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x267938c size 0xc4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x27f03d4 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2679450 size 0x14 virtual true final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError Invoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPose,
                                                      ByRef<uint32_t> pHandleOut);
 
-  /// @brief Method BeginInvoke addr 0x27f03e8 size 0x100 virtual true final false
+  /// @brief Method BeginInvoke addr 0x2679464 size 0x100 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPose, ByRef<uint32_t> pHandleOut,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x27f04e8 size 0x34 virtual true final false
+  /// @brief Method EndInvoke addr 0x2679564 size 0x34 virtual true final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError EndInvoke(ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPose, ByRef<uint32_t> pHandleOut, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRSpatialAnchors___CreateSpatialAnchorFromPose", modifiers: "&&", def_value: None }]
@@ -157,25 +157,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSpatialAnchors
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8549))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9318))
 // CS Name: ::IVRSpatialAnchors::_GetSpatialAnchorPose*
 class CORDL_TYPE __IVRSpatialAnchors___GetSpatialAnchorPose : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRSpatialAnchors___GetSpatialAnchorPose* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x27f051c size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x2679598 size 0xc4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x27f05e0 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x267965c size 0x14 virtual true final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError Invoke(uint32_t unHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPoseOut);
 
-  /// @brief Method BeginInvoke addr 0x27f05f4 size 0xe8 virtual true final false
+  /// @brief Method BeginInvoke addr 0x2679670 size 0xe8 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPoseOut, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x27f06dc size 0x2c virtual true final false
+  /// @brief Method EndInvoke addr 0x2679758 size 0x2c virtual true final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError EndInvoke(ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPoseOut, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRSpatialAnchors___GetSpatialAnchorPose", modifiers: "&&", def_value: None }]
@@ -202,25 +202,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSpatialAnchors
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8550))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9319))
 // CS Name: ::IVRSpatialAnchors::_GetSpatialAnchorDescriptor*
 class CORDL_TYPE __IVRSpatialAnchors___GetSpatialAnchorDescriptor : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRSpatialAnchors___GetSpatialAnchorDescriptor* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x27f0708 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x2679784 size 0xc4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x27f07cc size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2679848 size 0x14 virtual true final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError Invoke(uint32_t unHandle, ::System::Text::StringBuilder* pchDescriptorOut, ByRef<uint32_t> punDescriptorBufferLenInOut);
 
-  /// @brief Method BeginInvoke addr 0x27f07e0 size 0xa8 virtual true final false
+  /// @brief Method BeginInvoke addr 0x267985c size 0xa8 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unHandle, ::System::Text::StringBuilder* pchDescriptorOut, ByRef<uint32_t> punDescriptorBufferLenInOut, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x27f0888 size 0x2c virtual true final false
+  /// @brief Method EndInvoke addr 0x2679904 size 0x2c virtual true final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError EndInvoke(ByRef<uint32_t> punDescriptorBufferLenInOut, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRSpatialAnchors___GetSpatialAnchorDescriptor", modifiers: "&&", def_value: None }]
@@ -248,7 +248,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSpatialAnchors
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8551))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9320))
 // CS Name: ::OVR.OpenVR::IVRSpatialAnchors
 struct CORDL_TYPE IVRSpatialAnchors {
 public:
@@ -293,6 +293,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRSpatialAnchors, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::IVRSpatialAnchors, CreateSpatialAnchorFromDescriptor) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::IVRSpatialAnchors, CreateSpatialAnchorFromPose) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::IVRSpatialAnchors, GetSpatialAnchorPose) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::IVRSpatialAnchors, GetSpatialAnchorDescriptor) == 0x18, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 NEED_NO_BOX(::OVR::OpenVR::__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor);

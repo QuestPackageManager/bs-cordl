@@ -13,11 +13,8 @@ CORDL_MODULE_EXPORT(SelectRegionViewController)
 namespace GlobalNamespace {
 struct __SelectRegionViewController__RegionToLocalizationKeyPair;
 }
-namespace UnityEngine::UI {
-class Button;
-}
-namespace System {
-template <typename T> class Action_1;
+namespace HMUI {
+class SimpleTextDropdown;
 }
 namespace GlobalNamespace {
 struct __SelectRegionViewController__Region;
@@ -25,11 +22,14 @@ struct __SelectRegionViewController__Region;
 namespace GlobalNamespace {
 class __SelectRegionViewController____c;
 }
+namespace UnityEngine::UI {
+class Button;
+}
 namespace HMUI {
 class DropdownWithTableView;
 }
-namespace HMUI {
-class SimpleTextDropdown;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -57,7 +57,7 @@ MARK_VAL_T(::GlobalNamespace::__SelectRegionViewController__RegionToLocalization
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5749))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5847))
 // CS Name: ::SelectRegionViewController::Region
 struct CORDL_TYPE __SelectRegionViewController__Region {
 public:
@@ -115,18 +115,20 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SelectRegionViewController__Region, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SelectRegionViewController__Region, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::RegionToLocalizationKeyPair
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5749))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5750))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5847))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5848))
 // CS Name: ::SelectRegionViewController::RegionToLocalizationKeyPair
 struct CORDL_TYPE __SelectRegionViewController__RegionToLocalizationKeyPair {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x22da268 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2195a04 size 0xc virtual false final false
   inline void _ctor(::GlobalNamespace::__SelectRegionViewController__Region region, ::StringW localizationKey);
 
   // Ctor Parameters [CppParam { name: "region", ty: "::GlobalNamespace::__SelectRegionViewController__Region", modifiers: "", def_value: None }, CppParam { name: "localizationKey", ty: "::StringW",
@@ -151,13 +153,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SelectRegionViewController__RegionToLocalizationKeyPair, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SelectRegionViewController__RegionToLocalizationKeyPair, region) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SelectRegionViewController__RegionToLocalizationKeyPair, localizationKey) == 0x8, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5751))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5849))
 // CS Name: ::SelectRegionViewController::<>c*
 class CORDL_TYPE __SelectRegionViewController____c : public ::System::Object {
 public:
@@ -178,10 +184,10 @@ public:
 
   static inline ::GlobalNamespace::__SelectRegionViewController____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x22da2d8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2195a74 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__8_1 addr 0x22da2e0 size 0xc virtual false final false
+  /// @brief Method <DidActivate>b__8_1 addr 0x2195a7c size 0xc virtual false final false
   inline ::StringW _DidActivate_b__8_1(::GlobalNamespace::__SelectRegionViewController__RegionToLocalizationKeyPair p);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SelectRegionViewController____c", modifiers: "&&", def_value: None }]
@@ -208,8 +214,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SelectRegionV
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5752))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5850))
 // CS Name: ::SelectRegionViewController*
 class CORDL_TYPE SelectRegionViewController : public ::HMUI::ViewController {
 public:
@@ -262,27 +268,27 @@ public:
 
   constexpr void __set_didPressContinueButtonEvent(::System::Action_1<::GlobalNamespace::__SelectRegionViewController__Region>* value);
 
-  /// @brief Method add_didPressContinueButtonEvent addr 0x22d9d54 size 0xb0 virtual false final false
+  /// @brief Method add_didPressContinueButtonEvent addr 0x21954f0 size 0xb0 virtual false final false
   inline void add_didPressContinueButtonEvent(::System::Action_1<::GlobalNamespace::__SelectRegionViewController__Region>* value);
 
-  /// @brief Method remove_didPressContinueButtonEvent addr 0x22d9e04 size 0xb0 virtual false final false
+  /// @brief Method remove_didPressContinueButtonEvent addr 0x21955a0 size 0xb0 virtual false final false
   inline void remove_didPressContinueButtonEvent(::System::Action_1<::GlobalNamespace::__SelectRegionViewController__Region>* value);
 
-  /// @brief Method DidActivate addr 0x22d9eb4 size 0x230 virtual true final false
+  /// @brief Method DidActivate addr 0x2195650 size 0x230 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method OnDestroy addr 0x22da0e4 size 0xe0 virtual true final false
+  /// @brief Method OnDestroy addr 0x2195880 size 0xe0 virtual true final false
   inline void OnDestroy();
 
-  /// @brief Method HandleRegionSelectionDropdownDidSelectCell addr 0x22da1c4 size 0x44 virtual false final false
+  /// @brief Method HandleRegionSelectionDropdownDidSelectCell addr 0x2195960 size 0x44 virtual false final false
   inline void HandleRegionSelectionDropdownDidSelectCell(::HMUI::DropdownWithTableView* dropdown, int32_t idx);
 
   static inline ::GlobalNamespace::SelectRegionViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22da208 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21959a4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__8_0 addr 0x22da210 size 0x58 virtual false final false
+  /// @brief Method <DidActivate>b__8_0 addr 0x21959ac size 0x58 virtual false final false
   inline void _DidActivate_b__8_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectRegionViewController", modifiers: "&&", def_value: None }]
@@ -316,6 +322,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectRegionViewController, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SelectRegionViewController, ____continueButton) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SelectRegionViewController, ____regionSelectionDropdown) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SelectRegionViewController, ____regionLocalizationKeys) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SelectRegionViewController, ___didPressContinueButtonEvent) == 0x88, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SelectRegionViewController__Region, "", "SelectRegionViewController/Region");

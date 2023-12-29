@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IInternalMessage);
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3167))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3166))
 // CS Name: ::System.Runtime.Remoting.Messaging::IInternalMessage*
 class CORDL_TYPE IInternalMessage {
 public:

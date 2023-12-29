@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Macs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(936))
 // CS Name: ::Org.BouncyCastle.Crypto.Macs::MacCFBBlockCipher*
 class CORDL_TYPE MacCFBBlockCipher : public ::System::Object {
@@ -83,28 +83,28 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t bitBlockSize);
 
-  /// @brief Method .ctor addr 0xf09de4 size 0x1e0 virtual false final false
+  /// @brief Method .ctor addr 0xe94c04 size 0x1e0 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t bitBlockSize);
 
-  /// @brief Method Init addr 0xf09fc4 size 0x13c virtual true final true
+  /// @brief Method Init addr 0xe94de4 size 0x13c virtual true final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName addr 0xf0a1bc size 0x104 virtual true final true
+  /// @brief Method get_AlgorithmName addr 0xe94fdc size 0x104 virtual true final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay addr 0xf0a2c0 size 0x8 virtual true final true
+  /// @brief Method get_IsPartialBlockOkay addr 0xe950e0 size 0x8 virtual true final true
   inline bool get_IsPartialBlockOkay();
 
-  /// @brief Method GetBlockSize addr 0xf0a2c8 size 0x8 virtual true final true
+  /// @brief Method GetBlockSize addr 0xe950e8 size 0x8 virtual true final true
   inline int32_t GetBlockSize();
 
-  /// @brief Method ProcessBlock addr 0xf0a2d0 size 0x258 virtual true final true
+  /// @brief Method ProcessBlock addr 0xe950f0 size 0x258 virtual true final true
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method Reset addr 0xf0a100 size 0xbc virtual true final true
+  /// @brief Method Reset addr 0xe94f20 size 0xbc virtual true final true
   inline void Reset();
 
-  /// @brief Method GetMacBlock addr 0xf0a528 size 0xbc virtual false final false
+  /// @brief Method GetMacBlock addr 0xe95348 size 0xbc virtual false final false
   inline void GetMacBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> mac);
 
   // Ctor Parameters [CppParam { name: "", ty: "MacCFBBlockCipher", modifiers: "&&", def_value: None }]
@@ -140,6 +140,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher, ___IV) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher, ___cfbV) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher, ___cfbOutV) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher, ___blockSize) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher, ___cipher) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Macs
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher);

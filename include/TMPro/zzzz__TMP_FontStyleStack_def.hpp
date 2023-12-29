@@ -19,18 +19,18 @@ MARK_VAL_T(::TMPro::TMP_FontStyleStack);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12452))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12380))
 // CS Name: ::TMPro::TMP_FontStyleStack
 struct CORDL_TYPE TMP_FontStyleStack {
 public:
   // Declarations
-  /// @brief Method Clear addr 0x2c48e58 size 0xc virtual false final false
+  /// @brief Method Clear addr 0x2ac5104 size 0xc virtual false final false
   inline void Clear();
 
-  /// @brief Method Add addr 0x2c48e64 size 0xfc virtual false final false
+  /// @brief Method Add addr 0x2ac5110 size 0xfc virtual false final false
   inline uint8_t Add(::TMPro::FontStyles style);
 
-  /// @brief Method Remove addr 0x2c48f60 size 0x120 virtual false final false
+  /// @brief Method Remove addr 0x2ac520c size 0x120 virtual false final false
   inline uint8_t Remove(::TMPro::FontStyles style);
 
   // Ctor Parameters [CppParam { name: "bold", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "italic", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
@@ -82,6 +82,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_FontStyleStack, 0xa>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_FontStyleStack, bold) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_FontStyleStack, italic) == 0x1, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_FontStyleStack, underline) == 0x2, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_FontStyleStack, strikethrough) == 0x3, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_FontStyleStack, highlight) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_FontStyleStack, superscript) == 0x5, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_FontStyleStack, subscript) == 0x6, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_FontStyleStack, uppercase) == 0x7, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_FontStyleStack, lowercase) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_FontStyleStack, smallcaps) == 0x9, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_FontStyleStack, "TMPro", "TMP_FontStyleStack");

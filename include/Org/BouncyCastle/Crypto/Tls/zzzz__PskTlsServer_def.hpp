@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PskTlsServer)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
+class TlsCipherFactory;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHParameters;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
+class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsEncryptionCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipherFactory;
+class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsPskIdentityManager;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -51,31 +51,31 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::PskTlsServer* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager);
 
-  /// @brief Method .ctor addr 0xf9329c size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0xf1d074 size 0x7c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::PskTlsServer* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory,
                                                                          ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager);
 
-  /// @brief Method .ctor addr 0xf93318 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xf1d0f0 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager);
 
-  /// @brief Method GetRsaEncryptionCredentials addr 0xf93340 size 0x44 virtual true final false
+  /// @brief Method GetRsaEncryptionCredentials addr 0xf1d118 size 0x44 virtual true final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* GetRsaEncryptionCredentials();
 
-  /// @brief Method GetDHParameters addr 0xf93384 size 0x58 virtual true final false
+  /// @brief Method GetDHParameters addr 0xf1d15c size 0x58 virtual true final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* GetDHParameters();
 
-  /// @brief Method GetCipherSuites addr 0xf933dc size 0x70 virtual true final false
+  /// @brief Method GetCipherSuites addr 0xf1d1b4 size 0x70 virtual true final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetCipherSuites();
 
-  /// @brief Method GetCredentials addr 0xf9344c size 0xdc virtual true final false
+  /// @brief Method GetCredentials addr 0xf1d224 size 0xdc virtual true final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* GetCredentials();
 
-  /// @brief Method GetKeyExchange addr 0xf93528 size 0xc8 virtual true final false
+  /// @brief Method GetKeyExchange addr 0xf1d300 size 0xc8 virtual true final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* GetKeyExchange();
 
-  /// @brief Method CreatePskKeyExchange addr 0xf935f0 size 0xd0 virtual true final false
+  /// @brief Method CreatePskKeyExchange addr 0xf1d3c8 size 0xd0 virtual true final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreatePskKeyExchange(int32_t keyExchange);
 
   // Ctor Parameters [CppParam { name: "", ty: "PskTlsServer", modifiers: "&&", def_value: None }]
@@ -99,6 +99,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::PskTlsServer, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::PskTlsServer, ___mPskIdentityManager) == 0x90, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::PskTlsServer);

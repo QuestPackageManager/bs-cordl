@@ -19,7 +19,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Spacing);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6798))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6884))
 // CS Name: ::UnityEngine.UIElements::Spacing
 struct CORDL_TYPE Spacing {
 public:
@@ -28,16 +28,16 @@ public:
 
   __declspec(property(get = get_vertical)) float_t vertical;
 
-  /// @brief Method get_horizontal addr 0x2dbce0c size 0x10 virtual false final false
+  /// @brief Method get_horizontal addr 0x2c55a5c size 0x10 virtual false final false
   inline float_t get_horizontal();
 
-  /// @brief Method get_vertical addr 0x2dbce1c size 0x10 virtual false final false
+  /// @brief Method get_vertical addr 0x2c55a6c size 0x10 virtual false final false
   inline float_t get_vertical();
 
-  /// @brief Method .ctor addr 0x2dbce2c size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2c55a7c size 0xc virtual false final false
   inline void _ctor(float_t left, float_t top, float_t right, float_t bottom);
 
-  /// @brief Method op_Subtraction addr 0x2dbce38 size 0xc8 virtual false final false
+  /// @brief Method op_Subtraction addr 0x2c55a88 size 0xc8 virtual false final false
   static inline ::UnityEngine::Rect op_Subtraction(::UnityEngine::Rect r, ::UnityEngine::UIElements::Spacing a);
 
   // Ctor Parameters [CppParam { name: "left", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "top", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "right", ty:
@@ -67,6 +67,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Spacing, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Spacing, left) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Spacing, top) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Spacing, right) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Spacing, bottom) == 0xc, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Spacing, "UnityEngine.UIElements", "Spacing");

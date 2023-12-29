@@ -9,25 +9,25 @@ namespace System {
 class Object;
 }
 namespace Zenject {
+class IValidatable;
+}
+namespace System {
+struct Guid;
+}
+namespace Zenject {
 struct TypeValuePair;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace System {
+class Action;
 }
 namespace Zenject {
 class InjectContext;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System {
-class Action;
-}
-namespace Zenject {
-class IValidatable;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace System {
-struct Guid;
 }
 // Forward declare root types
 namespace Zenject {
@@ -41,8 +41,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11219), inst: 4847 }), TypeDefinitionIndex(TypeDefinitionIndex(11219))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11226))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11147)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11147), inst: 4749 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11154))
 // CS Name: ::Zenject::PoolableMemoryPoolProvider`8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract,TMemoryPool>*
 class CORDL_TYPE PoolableMemoryPoolProvider_8 : public ::Zenject::PoolableMemoryPoolProviderBase_1<TContract> {
 public:

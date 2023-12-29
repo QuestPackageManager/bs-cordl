@@ -37,7 +37,7 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method .ctor addr 0x10b0708 size 0x120 virtual false final false
+  /// @brief Method .ctor addr 0x103f4b8 size 0x120 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpMarker", modifiers: "&&", def_value: None }]
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker, ___data) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg::OpenPgp
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker);

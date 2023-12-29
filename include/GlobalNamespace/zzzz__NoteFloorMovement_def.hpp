@@ -7,11 +7,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteFloorMovement)
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 class PlayerTransforms;
@@ -19,8 +16,11 @@ class PlayerTransforms;
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace System {
+class Action;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteFloorMovement);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4777))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4898))
 // CS Name: ::NoteFloorMovement*
 class CORDL_TYPE NoteFloorMovement : public ::UnityEngine::MonoBehaviour {
 public:
@@ -156,48 +156,48 @@ public:
 
   constexpr void __set__localPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method add_floorMovementDidFinishEvent addr 0x23887c0 size 0x9c virtual false final false
+  /// @brief Method add_floorMovementDidFinishEvent addr 0x2254cb4 size 0x9c virtual false final false
   inline void add_floorMovementDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_floorMovementDidFinishEvent addr 0x238885c size 0x9c virtual false final false
+  /// @brief Method remove_floorMovementDidFinishEvent addr 0x2254d50 size 0x9c virtual false final false
   inline void remove_floorMovementDidFinishEvent(::System::Action* value);
 
-  /// @brief Method get_distanceToPlayer addr 0x23888f8 size 0x40 virtual false final false
+  /// @brief Method get_distanceToPlayer addr 0x2254dec size 0x40 virtual false final false
   inline float_t get_distanceToPlayer();
 
-  /// @brief Method get_startPos addr 0x2388938 size 0xc virtual false final false
+  /// @brief Method get_startPos addr 0x2254e2c size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_startPos();
 
-  /// @brief Method get_endPos addr 0x2388944 size 0xc virtual false final false
+  /// @brief Method get_endPos addr 0x2254e38 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_endPos();
 
-  /// @brief Method get_startTime addr 0x2388950 size 0x8 virtual false final false
+  /// @brief Method get_startTime addr 0x2254e44 size 0x8 virtual false final false
   inline float_t get_startTime();
 
-  /// @brief Method get_moveDuration addr 0x2388958 size 0x8 virtual false final false
+  /// @brief Method get_moveDuration addr 0x2254e4c size 0x8 virtual false final false
   inline float_t get_moveDuration();
 
-  /// @brief Method get_worldRotation addr 0x2388960 size 0xc virtual false final false
+  /// @brief Method get_worldRotation addr 0x2254e54 size 0xc virtual false final false
   inline ::UnityEngine::Quaternion get_worldRotation();
 
-  /// @brief Method get_inverseWorldRotation addr 0x238896c size 0xc virtual false final false
+  /// @brief Method get_inverseWorldRotation addr 0x2254e60 size 0xc virtual false final false
   inline ::UnityEngine::Quaternion get_inverseWorldRotation();
 
-  /// @brief Method get_localPosition addr 0x2388978 size 0xc virtual false final false
+  /// @brief Method get_localPosition addr 0x2254e6c size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_localPosition();
 
-  /// @brief Method Init addr 0x2388984 size 0xb8 virtual false final false
+  /// @brief Method Init addr 0x2254e78 size 0xb8 virtual false final false
   inline void Init(float_t worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, float_t moveDuration, float_t startTime);
 
-  /// @brief Method SetToStart addr 0x2388a3c size 0xf4 virtual false final false
+  /// @brief Method SetToStart addr 0x2254f30 size 0xf4 virtual false final false
   inline ::UnityEngine::Vector3 SetToStart();
 
-  /// @brief Method ManualUpdate addr 0x2388b30 size 0x180 virtual false final false
+  /// @brief Method ManualUpdate addr 0x2255024 size 0x180 virtual false final false
   inline ::UnityEngine::Vector3 ManualUpdate();
 
   static inline ::GlobalNamespace::NoteFloorMovement* New_ctor();
 
-  /// @brief Method .ctor addr 0x2388cb0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22551a4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteFloorMovement", modifiers: "&&", def_value: None }]
@@ -251,6 +251,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteFloorMovement, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____rotatedObject) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____playerTransforms) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____audioTimeSyncController) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ___floorMovementDidFinishEvent) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____startPos) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____endPos) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____moveDuration) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____startTime) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____worldRotation) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____inverseWorldRotation) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteFloorMovement, ____localPosition) == 0x78, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteFloorMovement);

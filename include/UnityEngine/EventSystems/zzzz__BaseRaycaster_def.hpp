@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseRaycaster)
-namespace UnityEngine {
-class Camera;
-}
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::BaseRaycaster);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13209))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13219))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13214))
 // CS Name: ::UnityEngine.EventSystems::BaseRaycaster*
 class CORDL_TYPE BaseRaycaster : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
@@ -59,36 +59,36 @@ public:
   /// @brief Method get_eventCamera addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::UnityEngine::Camera* get_eventCamera();
 
-  /// @brief Method get_priority addr 0x2da008c size 0x8 virtual true final false
+  /// @brief Method get_priority addr 0x2c37cdc size 0x8 virtual true final false
   inline int32_t get_priority();
 
-  /// @brief Method get_sortOrderPriority addr 0x2da0094 size 0x8 virtual true final false
+  /// @brief Method get_sortOrderPriority addr 0x2c37ce4 size 0x8 virtual true final false
   inline int32_t get_sortOrderPriority();
 
-  /// @brief Method get_renderOrderPriority addr 0x2da009c size 0x8 virtual true final false
+  /// @brief Method get_renderOrderPriority addr 0x2c37cec size 0x8 virtual true final false
   inline int32_t get_renderOrderPriority();
 
-  /// @brief Method get_rootRaycaster addr 0x2d97134 size 0xb8 virtual false final false
+  /// @brief Method get_rootRaycaster addr 0x2c2ed84 size 0xb8 virtual false final false
   inline ::UnityEngine::EventSystems::BaseRaycaster* get_rootRaycaster();
 
-  /// @brief Method ToString addr 0x2da00a4 size 0x2c4 virtual true final false
+  /// @brief Method ToString addr 0x2c37cf4 size 0x2c4 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method OnEnable addr 0x2da0368 size 0x54 virtual true final false
+  /// @brief Method OnEnable addr 0x2c37fb8 size 0x54 virtual true final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2da03bc size 0x54 virtual true final false
+  /// @brief Method OnDisable addr 0x2c3800c size 0x54 virtual true final false
   inline void OnDisable();
 
-  /// @brief Method OnCanvasHierarchyChanged addr 0x2da0410 size 0x8 virtual true final false
+  /// @brief Method OnCanvasHierarchyChanged addr 0x2c38060 size 0x8 virtual true final false
   inline void OnCanvasHierarchyChanged();
 
-  /// @brief Method OnTransformParentChanged addr 0x2da041c size 0x8 virtual true final false
+  /// @brief Method OnTransformParentChanged addr 0x2c3806c size 0x8 virtual true final false
   inline void OnTransformParentChanged();
 
   static inline ::UnityEngine::EventSystems::BaseRaycaster* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d95370 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2c2cfc0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseRaycaster", modifiers: "&&", def_value: None }]
@@ -112,6 +112,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::BaseRaycaster, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::BaseRaycaster, ___m_RootRaycaster) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::EventSystems
 NEED_NO_BOX(::UnityEngine::EventSystems::BaseRaycaster);

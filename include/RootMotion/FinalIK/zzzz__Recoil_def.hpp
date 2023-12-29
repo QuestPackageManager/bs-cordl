@@ -14,22 +14,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Recoil)
 namespace RootMotion::FinalIK {
-class __Recoil__RecoilOffset;
-}
-namespace RootMotion::FinalIK {
 class AimIK;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace RootMotion::FinalIK {
-class IKEffector;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace RootMotion::FinalIK {
+class __Recoil__RecoilOffset;
+}
+namespace RootMotion::FinalIK {
+class IKEffector;
+}
+namespace RootMotion::FinalIK {
 struct __Recoil__Handedness;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace UnityEngine {
 class Transform;
@@ -62,8 +62,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__Recoil__RecoilOffset);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12664))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12499))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12592))
 // CS Name: ::Recoil::RecoilOffset::EffectorLink*
 class CORDL_TYPE __Recoil__RecoilOffset__EffectorLink : public ::System::Object {
 public:
@@ -88,7 +88,7 @@ public:
 
   static inline ::GlobalNamespace::__Recoil__RecoilOffset__EffectorLink* New_ctor();
 
-  /// @brief Method .ctor addr 0x129a374 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1229048 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Recoil__RecoilOffset__EffectorLink", modifiers: "&&", def_value: None }]
@@ -116,13 +116,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Recoil__RecoilOffset__EffectorLink, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__Recoil__RecoilOffset__EffectorLink, ___effector) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__Recoil__RecoilOffset__EffectorLink, ___weight) == 0x14, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::RecoilOffset
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12665))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12593))
 // CS Name: ::Recoil::RecoilOffset*
 class CORDL_TYPE __Recoil__RecoilOffset : public ::System::Object {
 public:
@@ -184,15 +188,15 @@ public:
 
   constexpr void __set_lastOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method Start addr 0x12991c4 size 0xd4 virtual false final false
+  /// @brief Method Start addr 0x1227e98 size 0xd4 virtual false final false
   inline void Start();
 
-  /// @brief Method Apply addr 0x1299d20 size 0x1cc virtual false final false
+  /// @brief Method Apply addr 0x12289f4 size 0x1cc virtual false final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Quaternion rotation, float_t masterWeight, float_t length, float_t timeLeft);
 
   static inline ::RootMotion::FinalIK::__Recoil__RecoilOffset* New_ctor();
 
-  /// @brief Method .ctor addr 0x129a360 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x1229034 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Recoil__RecoilOffset", modifiers: "&&", def_value: None }]
@@ -232,13 +236,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__Recoil__RecoilOffset, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__Recoil__RecoilOffset, ___offset) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Recoil__RecoilOffset, ___additivity) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Recoil__RecoilOffset, ___maxAdditiveOffsetMag) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Recoil__RecoilOffset, ___effectorLinks) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Recoil__RecoilOffset, ___additiveOffset) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Recoil__RecoilOffset, ___lastOffset) == 0x3c, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::Handedness
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12666))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12594))
 // CS Name: ::Recoil::Handedness
 struct CORDL_TYPE __Recoil__Handedness {
 public:
@@ -280,13 +296,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__Recoil__Handedness, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__Recoil__Handedness, value__) == 0x0, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: RootMotion.FinalIK::Recoil
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12656)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12666)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12667)) CS Name: ::RootMotion.FinalIK::Recoil*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12584)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12594))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12595)) CS Name: ::RootMotion.FinalIK::Recoil*
 class CORDL_TYPE Recoil : public ::RootMotion::FinalIK::OffsetModifier {
 public:
   // Declarations
@@ -511,42 +529,42 @@ public:
 
   constexpr void __set_aimIKAxis(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_isFinished addr 0x1299028 size 0x24 virtual false final false
+  /// @brief Method get_isFinished addr 0x1227cfc size 0x24 virtual false final false
   inline bool get_isFinished();
 
-  /// @brief Method SetHandRotations addr 0x129904c size 0x2c virtual false final false
+  /// @brief Method SetHandRotations addr 0x1227d20 size 0x2c virtual false final false
   inline void SetHandRotations(::UnityEngine::Quaternion leftHandRotation, ::UnityEngine::Quaternion rightHandRotation);
 
-  /// @brief Method Fire addr 0x1299078 size 0x14c virtual false final false
+  /// @brief Method Fire addr 0x1227d4c size 0x14c virtual false final false
   inline void Fire(float_t magnitude);
 
-  /// @brief Method OnModifyOffset addr 0x1299298 size 0xa88 virtual true final false
+  /// @brief Method OnModifyOffset addr 0x1227f6c size 0xa88 virtual true final false
   inline void OnModifyOffset();
 
-  /// @brief Method AfterFBBIK addr 0x1299f9c size 0x118 virtual false final false
+  /// @brief Method AfterFBBIK addr 0x1228c70 size 0x118 virtual false final false
   inline void AfterFBBIK();
 
-  /// @brief Method AfterAimIK addr 0x129a0b4 size 0x50 virtual false final false
+  /// @brief Method AfterAimIK addr 0x1228d88 size 0x50 virtual false final false
   inline void AfterAimIK();
 
-  /// @brief Method get_primaryHandEffector addr 0x1299f24 size 0x3c virtual false final false
+  /// @brief Method get_primaryHandEffector addr 0x1228bf8 size 0x3c virtual false final false
   inline ::RootMotion::FinalIK::IKEffector* get_primaryHandEffector();
 
-  /// @brief Method get_secondaryHandEffector addr 0x1299f60 size 0x3c virtual false final false
+  /// @brief Method get_secondaryHandEffector addr 0x1228c34 size 0x3c virtual false final false
   inline ::RootMotion::FinalIK::IKEffector* get_secondaryHandEffector();
 
-  /// @brief Method get_primaryHand addr 0x1299eec size 0x1c virtual false final false
+  /// @brief Method get_primaryHand addr 0x1228bc0 size 0x1c virtual false final false
   inline ::UnityEngine::Transform* get_primaryHand();
 
-  /// @brief Method get_secondaryHand addr 0x1299f08 size 0x1c virtual false final false
+  /// @brief Method get_secondaryHand addr 0x1228bdc size 0x1c virtual false final false
   inline ::UnityEngine::Transform* get_secondaryHand();
 
-  /// @brief Method OnDestroy addr 0x129a104 size 0x1d0 virtual true final false
+  /// @brief Method OnDestroy addr 0x1228dd8 size 0x1d0 virtual true final false
   inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::Recoil* New_ctor();
 
-  /// @brief Method .ctor addr 0x129a2d4 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0x1228fa8 size 0x8c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Recoil", modifiers: "&&", def_value: None }]
@@ -636,6 +654,52 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::Recoil, 0xf0>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___aimIK) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___aimIKSolvedLast) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___handedness) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___twoHanded) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___recoilWeight) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___magnitudeRandom) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___rotationRandom) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___handRotationOffset) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___blendTime) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___offsets) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___rotationOffset) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___magnitudeMlp) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___endTime) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___handRotation) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___secondaryHandRelativeRotation) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___randomRotation) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___length) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___initiated) == 0xc4, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___blendWeight) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___w) == 0xcc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___primaryHandRotation) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___handRotationsSet) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Recoil, ___aimIKAxis) == 0xe4, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::__Recoil__Handedness, "RootMotion.FinalIK", "Recoil/Handedness");

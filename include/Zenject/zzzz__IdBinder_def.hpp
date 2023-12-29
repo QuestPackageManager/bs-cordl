@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Zenject::IdBinder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10920))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10848))
 // CS Name: ::Zenject::IdBinder*
 class CORDL_TYPE IdBinder : public ::System::Object {
 public:
@@ -37,10 +37,10 @@ public:
 
   static inline ::Zenject::IdBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor addr 0x2eda128 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d723a8 size 0x28 virtual false final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithId addr 0x2eda150 size 0x101c virtual false final false
+  /// @brief Method WithId addr 0x2d723d0 size 0x101c virtual false final false
   inline void WithId(::System::Object* identifier);
 
   // Ctor Parameters [CppParam { name: "", ty: "IdBinder", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::IdBinder, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::IdBinder, ____bindInfo) == 0x10, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::IdBinder);

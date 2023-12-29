@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Xml::Base64Encoder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11404))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11332))
 // CS Name: ::System.Xml::Base64Encoder*
 class CORDL_TYPE Base64Encoder : public ::System::Object {
 public:
@@ -51,16 +51,16 @@ public:
 
   static inline ::System::Xml::Base64Encoder* New_ctor();
 
-  /// @brief Method .ctor addr 0x284d784 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x26d1770 size 0x5c virtual false final false
   inline void _ctor();
 
   /// @brief Method WriteChars addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void WriteChars(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count);
 
-  /// @brief Method Encode addr 0x284d7e0 size 0x334 virtual false final false
+  /// @brief Method Encode addr 0x26d17cc size 0x334 virtual false final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Flush addr 0x284db14 size 0xa8 virtual false final false
+  /// @brief Method Flush addr 0x26d1b00 size 0xa8 virtual false final false
   inline void Flush();
 
   // Ctor Parameters [CppParam { name: "", ty: "Base64Encoder", modifiers: "&&", def_value: None }]
@@ -90,6 +90,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Base64Encoder, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Base64Encoder, ___leftOverBytes) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Base64Encoder, ___leftOverBytesCount) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Base64Encoder, ___charsLine) == 0x20, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::Base64Encoder);

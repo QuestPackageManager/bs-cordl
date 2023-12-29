@@ -4,46 +4,46 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IStyle)
 namespace UnityEngine::UIElements {
-struct StyleTranslate;
+struct Visibility;
 }
 namespace UnityEngine::UIElements {
 struct StyleFloat;
 }
 namespace UnityEngine::UIElements {
-struct Position;
-}
-namespace UnityEngine::UIElements {
-struct StyleTransformOrigin;
-}
-namespace UnityEngine::UIElements {
 struct StyleColor;
-}
-namespace UnityEngine::UIElements {
-struct FlexDirection;
-}
-namespace UnityEngine::UIElements {
-struct StyleScale;
-}
-namespace UnityEngine::UIElements {
-struct StyleTextShadow;
-}
-namespace UnityEngine::UIElements {
-struct Visibility;
-}
-namespace UnityEngine::UIElements {
-template <typename T> struct StyleEnum_1;
-}
-namespace UnityEngine::UIElements {
-struct StyleLength;
 }
 namespace UnityEngine::UIElements {
 struct StyleCursor;
 }
 namespace UnityEngine::UIElements {
-struct StyleRotate;
+struct StyleTransformOrigin;
 }
 namespace UnityEngine::UIElements {
 struct DisplayStyle;
+}
+namespace UnityEngine::UIElements {
+struct Position;
+}
+namespace UnityEngine::UIElements {
+struct StyleTranslate;
+}
+namespace UnityEngine::UIElements {
+struct StyleScale;
+}
+namespace UnityEngine::UIElements {
+struct StyleLength;
+}
+namespace UnityEngine::UIElements {
+template <typename T> struct StyleEnum_1;
+}
+namespace UnityEngine::UIElements {
+struct StyleTextShadow;
+}
+namespace UnityEngine::UIElements {
+struct FlexDirection;
+}
+namespace UnityEngine::UIElements {
+struct StyleRotate;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IStyle);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7362))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7448))
 // CS Name: ::UnityEngine.UIElements::IStyle*
 class CORDL_TYPE IStyle {
 public:

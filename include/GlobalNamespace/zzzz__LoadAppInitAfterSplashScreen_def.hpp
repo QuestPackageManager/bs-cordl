@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LoadAppInitAfterSplashScreen)
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class AppInitScenesTransitionSetupDataSO;
-}
 namespace GlobalNamespace {
 class __LoadAppInitAfterSplashScreen____c;
 }
 namespace GlobalNamespace {
 class __LoadAppInitAfterSplashScreen___Start_d__2;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace UnityEngine {
 class Camera;
+}
+namespace GlobalNamespace {
+class AppInitScenesTransitionSetupDataSO;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -27,11 +27,11 @@ template <typename T> class IEnumerator_1;
 namespace System {
 class IDisposable;
 }
-namespace System {
-class Object;
-}
 namespace UnityEngine {
 class AsyncOperation;
+}
+namespace System {
+class Object;
 }
 namespace System {
 template <typename TResult> class Func_1;
@@ -54,8 +54,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__LoadAppInitAfterSplashScreen____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4024))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4019))
 // CS Name: ::LoadAppInitAfterSplashScreen::<>c*
 class CORDL_TYPE __LoadAppInitAfterSplashScreen____c : public ::System::Object {
 public:
@@ -76,10 +76,10 @@ public:
 
   static inline ::GlobalNamespace::__LoadAppInitAfterSplashScreen____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2226038 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20c6290 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Start>b__2_0 addr 0x2226040 size 0x8 virtual false final false
+  /// @brief Method <Start>b__2_0 addr 0x20c6298 size 0x8 virtual false final false
   inline bool _Start_b__2_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LoadAppInitAfterSplashScreen____c", modifiers: "&&", def_value: None }]
@@ -106,8 +106,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LoadAppInitAf
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4025))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4020))
 // CS Name: ::LoadAppInitAfterSplashScreen::<Start>d__2*
 class CORDL_TYPE __LoadAppInitAfterSplashScreen___Start_d__2 : public ::System::Object {
 public:
@@ -163,22 +163,22 @@ public:
 
   static inline ::GlobalNamespace::__LoadAppInitAfterSplashScreen___Start_d__2* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2225fa4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x20c61fc size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2226048 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x20c62a0 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x222604c size 0x1f0 virtual true final true
+  /// @brief Method MoveNext addr 0x20c62a4 size 0x1f0 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x222623c size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x20c6494 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2226244 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x20c649c size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2226284 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x20c64dc size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LoadAppInitAfterSplashScreen___Start_d__2", modifiers: "&&", def_value: None }]
@@ -212,13 +212,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LoadAppInitAfterSplashScreen___Start_d__2, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LoadAppInitAfterSplashScreen___Start_d__2, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LoadAppInitAfterSplashScreen___Start_d__2, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LoadAppInitAfterSplashScreen___Start_d__2, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LoadAppInitAfterSplashScreen___Start_d__2, ____sceneAsyncLoad_5__2) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LoadAppInitAfterSplashScreen
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4026))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4021))
 // CS Name: ::LoadAppInitAfterSplashScreen*
 class CORDL_TYPE LoadAppInitAfterSplashScreen : public ::UnityEngine::MonoBehaviour {
 public:
@@ -245,12 +253,12 @@ public:
 
   constexpr void __set__appInitScenesTransitionSetup(::GlobalNamespace::AppInitScenesTransitionSetupDataSO* value);
 
-  /// @brief Method Start addr 0x2225f3c size 0x68 virtual false final false
+  /// @brief Method Start addr 0x20c6194 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* Start();
 
   static inline ::GlobalNamespace::LoadAppInitAfterSplashScreen* New_ctor();
 
-  /// @brief Method .ctor addr 0x2225fcc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20c6224 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LoadAppInitAfterSplashScreen", modifiers: "&&", def_value: None }]
@@ -277,6 +285,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LoadAppInitAfterSplashScreen, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LoadAppInitAfterSplashScreen, ____camera) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LoadAppInitAfterSplashScreen, ____appInitScenesTransitionSetup) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LoadAppInitAfterSplashScreen);

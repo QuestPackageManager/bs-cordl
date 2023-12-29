@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Activator)
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 struct BindingFlags;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Reflection {
 class Binder;
@@ -17,8 +17,8 @@ class Binder;
 namespace System {
 class Object;
 }
-namespace System::Globalization {
-class CultureInfo;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -30,35 +30,35 @@ MARK_REF_PTR_T(::System::Activator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2546))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2544))
 // CS Name: ::System::Activator*
 class CORDL_TYPE Activator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateInstance addr 0x25d8dd4 size 0x8 virtual false final false
+  /// @brief Method CreateInstance addr 0x247ceac size 0x8 virtual false final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder,
                                                  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method CreateInstance addr 0x25d8ddc size 0x204 virtual false final false
+  /// @brief Method CreateInstance addr 0x247ceb4 size 0x204 virtual false final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder,
                                                  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::Globalization::CultureInfo* culture,
                                                  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes);
 
-  /// @brief Method CreateInstance addr 0x25d9978 size 0x18 virtual false final false
+  /// @brief Method CreateInstance addr 0x247da50 size 0x18 virtual false final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method CreateInstance addr 0x25d9990 size 0x18 virtual false final false
+  /// @brief Method CreateInstance addr 0x247da68 size 0x18 virtual false final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args,
                                                  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes);
 
-  /// @brief Method CreateInstance addr 0x25d99a8 size 0xc virtual false final false
+  /// @brief Method CreateInstance addr 0x247da80 size 0xc virtual false final false
   static inline ::System::Object* CreateInstance(::System::Type* type);
 
-  /// @brief Method CreateInstance addr 0x25d99b4 size 0xc virtual false final false
+  /// @brief Method CreateInstance addr 0x247da8c size 0xc virtual false final false
   static inline ::System::Object* CreateInstance(::System::Type* type, bool nonPublic);
 
-  /// @brief Method CreateInstance addr 0x25d99c0 size 0x180 virtual false final false
+  /// @brief Method CreateInstance addr 0x247da98 size 0x180 virtual false final false
   static inline ::System::Object* CreateInstance(::System::Type* type, bool nonPublic, bool wrapExceptions);
 
   /// @brief Method CreateInstance addr 0x0 size 0xffffffffffffffff virtual false final false

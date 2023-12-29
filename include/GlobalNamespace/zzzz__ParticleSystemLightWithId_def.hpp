@@ -11,10 +11,10 @@ namespace UnityEngine {
 struct __ParticleSystem__Particle;
 }
 namespace UnityEngine {
-class ParticleSystem;
+struct Color;
 }
 namespace UnityEngine {
-struct Color;
+class ParticleSystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ParticleSystemLightWithId);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15882)), TypeDefinitionIndex(TypeDefinitionIndex(14542))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14548))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15774)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14765))
 // CS Name: ::ParticleSystemLightWithId*
 class CORDL_TYPE ParticleSystemLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -97,18 +97,18 @@ public:
 
   constexpr void __set__particles(::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*> value);
 
-  /// @brief Method get_color addr 0x2111ec8 size 0x5c virtual false final false
+  /// @brief Method get_color addr 0x1fbc450 size 0x5c virtual false final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method Awake addr 0x2111f24 size 0x78 virtual false final false
+  /// @brief Method Awake addr 0x1fbc4ac size 0x78 virtual false final false
   inline void Awake();
 
-  /// @brief Method ColorWasSet addr 0x2111f9c size 0x464 virtual true final false
+  /// @brief Method ColorWasSet addr 0x1fbc524 size 0x464 virtual true final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::ParticleSystemLightWithId* New_ctor();
 
-  /// @brief Method .ctor addr 0x2112400 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x1fbc988 size 0x18 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemLightWithId", modifiers: "&&", def_value: None }]
@@ -150,6 +150,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ParticleSystemLightWithId, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParticleSystemLightWithId, ____particleSystem) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParticleSystemLightWithId, ___setOnlyOnce) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParticleSystemLightWithId, ____setColorOnly) == 0x39, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParticleSystemLightWithId, ____intensity) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParticleSystemLightWithId, ____minAlpha) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParticleSystemLightWithId, ____mainModule) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParticleSystemLightWithId, ____particles) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ParticleSystemLightWithId);

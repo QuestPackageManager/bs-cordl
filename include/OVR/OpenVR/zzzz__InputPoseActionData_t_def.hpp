@@ -19,8 +19,8 @@ MARK_VAL_T(::OVR::OpenVR::InputPoseActionData_t);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8658))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8722))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9427))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9491))
 // CS Name: ::OVR.OpenVR::InputPoseActionData_t
 struct CORDL_TYPE InputPoseActionData_t {
 public:
@@ -49,6 +49,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::InputPoseActionData_t, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputPoseActionData_t, bActive) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputPoseActionData_t, activeOrigin) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputPoseActionData_t, pose) == 0x10, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::InputPoseActionData_t, "OVR.OpenVR", "InputPoseActionData_t");

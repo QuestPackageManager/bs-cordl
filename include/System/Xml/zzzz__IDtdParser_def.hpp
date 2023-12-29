@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IDtdParser)
 namespace System::Xml {
-class IDtdInfo;
+class IDtdParserAdapter;
 }
 namespace System::Xml {
-class IDtdParserAdapter;
+class IDtdInfo;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Xml::IDtdParser);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11426))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11354))
 // CS Name: ::System.Xml::IDtdParser*
 class CORDL_TYPE IDtdParser {
 public:

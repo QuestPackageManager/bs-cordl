@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextureSlotManager)
+namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace UnityEngine {
+struct Vector4;
+}
 namespace UnityEngine::UIElements {
 struct TextureId;
 }
 namespace UnityEngine::UIElements {
 class TextureRegistry;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-class MaterialPropertyBlock;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::TextureSlotManager);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7408))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7494))
 // CS Name: ::UnityEngine.UIElements.UIR::TextureSlotManager*
 class CORDL_TYPE TextureSlotManager : public ::System::Object {
 public:
@@ -122,31 +122,31 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::TextureSlotManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e9a040 size 0x168 virtual false final false
+  /// @brief Method .ctor addr 0x2d31c90 size 0x168 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Reset addr 0x2e9a1a8 size 0x12c virtual false final false
+  /// @brief Method Reset addr 0x2d31df8 size 0x12c virtual false final false
   inline void Reset();
 
-  /// @brief Method StartNewBatch addr 0x2e9a2d4 size 0x6c virtual false final false
+  /// @brief Method StartNewBatch addr 0x2d31f24 size 0x6c virtual false final false
   inline void StartNewBatch();
 
-  /// @brief Method IndexOf addr 0x2e9a340 size 0xd4 virtual false final false
+  /// @brief Method IndexOf addr 0x2d31f90 size 0xd4 virtual false final false
   inline int32_t IndexOf(::UnityEngine::UIElements::TextureId id);
 
-  /// @brief Method MarkUsed addr 0x2e9a414 size 0x58 virtual false final false
+  /// @brief Method MarkUsed addr 0x2d32064 size 0x58 virtual false final false
   inline void MarkUsed(int32_t slotIndex);
 
-  /// @brief Method get_FreeSlots addr 0x2e9a46c size 0x8 virtual false final false
+  /// @brief Method get_FreeSlots addr 0x2d320bc size 0x8 virtual false final false
   inline int32_t get_FreeSlots();
 
-  /// @brief Method set_FreeSlots addr 0x2e9a474 size 0x8 virtual false final false
+  /// @brief Method set_FreeSlots addr 0x2d320c4 size 0x8 virtual false final false
   inline void set_FreeSlots(int32_t value);
 
-  /// @brief Method FindOldestSlot addr 0x2e9a47c size 0xd0 virtual false final false
+  /// @brief Method FindOldestSlot addr 0x2d320cc size 0xd0 virtual false final false
   inline int32_t FindOldestSlot();
 
-  /// @brief Method Bind addr 0x2e9a54c size 0x218 virtual false final false
+  /// @brief Method Bind addr 0x2d3219c size 0x218 virtual false final false
   inline void Bind(::UnityEngine::UIElements::TextureId id, int32_t slot, ::UnityEngine::MaterialPropertyBlock* mat);
 
   // Ctor Parameters [CppParam { name: "", ty: "TextureSlotManager", modifiers: "&&", def_value: None }]
@@ -188,6 +188,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::TextureSlotManager, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ___m_Textures) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ___m_Tickets) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ___m_CurrentTicket) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ___m_FirstUsedTicket) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ___m_GpuTextures) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ____FreeSlots_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureSlotManager, ___textureRegistry) == 0x38, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::TextureSlotManager);

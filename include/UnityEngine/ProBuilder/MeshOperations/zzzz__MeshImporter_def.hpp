@@ -5,12 +5,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MeshImporter)
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __MeshImporter____c;
-}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
@@ -22,6 +16,12 @@ class MeshImportSettings;
 }
 namespace UnityEngine::ProBuilder {
 class Vertex;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __MeshImporter____c;
 }
 namespace UnityEngine {
 class Material;
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12271))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12199))
 // CS Name: ::MeshImporter::<>c*
 class CORDL_TYPE __MeshImporter____c : public ::System::Object {
 public:
@@ -68,10 +68,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bbb4a8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a39754 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Import>b__9_0 addr 0x2bbb4b0 size 0x1c virtual false final false
+  /// @brief Method <Import>b__9_0 addr 0x2a3975c size 0x1c virtual false final false
   inline ::UnityEngine::Vector3 _Import_b__9_0(::UnityEngine::ProBuilder::Vertex* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MeshImporter____c", modifiers: "&&", def_value: None }]
@@ -98,8 +98,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12272))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12200))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::MeshImporter*
 class CORDL_TYPE MeshImporter : public ::System::Object {
 public:
@@ -151,24 +151,24 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter* New_ctor(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method .ctor addr 0x2bb9c60 size 0x16c virtual false final false
+  /// @brief Method .ctor addr 0x2a37f0c size 0x16c virtual false final false
   inline void _ctor(::UnityEngine::GameObject* gameObject);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter*
   New_ctor(::UnityEngine::Mesh* sourceMesh, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> sourceMaterials, ::UnityEngine::ProBuilder::ProBuilderMesh* destination);
 
-  /// @brief Method .ctor addr 0x2bb9dcc size 0x128 virtual false final false
+  /// @brief Method .ctor addr 0x2a38078 size 0x128 virtual false final false
   inline void _ctor(::UnityEngine::Mesh* sourceMesh, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> sourceMaterials, ::UnityEngine::ProBuilder::ProBuilderMesh* destination);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter* New_ctor(::UnityEngine::ProBuilder::ProBuilderMesh* destination);
 
-  /// @brief Method .ctor addr 0x2bb9ef4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2a381a0 size 0x28 virtual false final false
   inline void _ctor(::UnityEngine::ProBuilder::ProBuilderMesh* destination);
 
-  /// @brief Method Import addr 0x2bb9f1c size 0x184 virtual false final false
+  /// @brief Method Import addr 0x2a381c8 size 0x184 virtual false final false
   inline bool Import(::UnityEngine::GameObject* go, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
 
-  /// @brief Method Import addr 0x2bba0a0 size 0xab8 virtual false final false
+  /// @brief Method Import addr 0x2a3834c size 0xab8 virtual false final false
   inline void Import(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshImporter", modifiers: "&&", def_value: None }]
@@ -201,6 +201,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::MeshImporter, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::MeshImporter, ___m_SourceMesh) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::MeshImporter, ___m_SourceMaterials) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::MeshImporter, ___m_Destination) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::MeshImporter, ___m_Vertices) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
 NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::MeshImporter);

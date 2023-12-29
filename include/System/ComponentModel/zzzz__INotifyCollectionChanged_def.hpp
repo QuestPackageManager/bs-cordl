@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::ComponentModel::INotifyCollectionChanged);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11787))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11715))
 // CS Name: ::System.ComponentModel::INotifyCollectionChanged*
 class CORDL_TYPE INotifyCollectionChanged {
 public:

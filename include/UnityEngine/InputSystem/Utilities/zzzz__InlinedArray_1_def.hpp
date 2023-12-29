@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InlinedArray_1)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace System::Collections {
+class IEnumerable;
+}
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct __InlinedArray_1__Enumerator;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -51,7 +51,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6669))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6755))
 // CS Name: ::UnityEngine.InputSystem.Utilities::InlinedArray`1<TValue>
 struct CORDL_TYPE InlinedArray_1 {
 public:
@@ -176,8 +176,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3155 }), TypeDefinitionIndex(TypeDefinitionIndex(6669))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6668))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6755), inst: 3090 }), TypeDefinitionIndex(TypeDefinitionIndex(6755))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6754))
 // CS Name: ::InlinedArray`1::Enumerator<TValue>
 struct CORDL_TYPE __InlinedArray_1__Enumerator {
 public:

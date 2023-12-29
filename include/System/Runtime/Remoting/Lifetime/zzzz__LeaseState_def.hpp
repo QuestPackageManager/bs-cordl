@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Remoting::Lifetime::LeaseState);
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3096))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3095))
 // CS Name: ::System.Runtime.Remoting.Lifetime::LeaseState
 struct CORDL_TYPE LeaseState {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Lifetime::LeaseState, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Lifetime::LeaseState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Lifetime
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Lifetime::LeaseState, "System.Runtime.Remoting.Lifetime", "LeaseState");

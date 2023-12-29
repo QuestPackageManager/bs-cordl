@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PemWriter)
-namespace System::IO {
-class TextWriter;
-}
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 class PemObjectGenerator;
 }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 class PemObject;
+}
+namespace System::IO {
+class TextWriter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::IO::Pem {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::Pem::PemWriter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1690))
 // CS Name: ::Org.BouncyCastle.Utilities.IO.Pem::PemWriter*
 class CORDL_TYPE PemWriter : public ::System::Object {
@@ -63,25 +63,25 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemWriter* New_ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method .ctor addr 0x10d4088 size 0xfc virtual false final false
+  /// @brief Method .ctor addr 0x1062e34 size 0xfc virtual false final false
   inline void _ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method get_Writer addr 0x10d4184 size 0x8 virtual false final false
+  /// @brief Method get_Writer addr 0x1062f30 size 0x8 virtual false final false
   inline ::System::IO::TextWriter* get_Writer();
 
-  /// @brief Method GetOutputSize addr 0x10d418c size 0x4d8 virtual false final false
+  /// @brief Method GetOutputSize addr 0x1062f38 size 0x4d8 virtual false final false
   inline int32_t GetOutputSize(::Org::BouncyCastle::Utilities::IO::Pem::PemObject* obj);
 
-  /// @brief Method WriteObject addr 0x10d4664 size 0x54c virtual false final false
+  /// @brief Method WriteObject addr 0x1063410 size 0x54c virtual false final false
   inline void WriteObject(::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator* objGen);
 
-  /// @brief Method WriteEncoded addr 0x10d4c44 size 0xe0 virtual false final false
+  /// @brief Method WriteEncoded addr 0x10639f0 size 0xe0 virtual false final false
   inline void WriteEncoded(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method WritePreEncapsulationBoundary addr 0x10d4bb0 size 0x94 virtual false final false
+  /// @brief Method WritePreEncapsulationBoundary addr 0x106395c size 0x94 virtual false final false
   inline void WritePreEncapsulationBoundary(::StringW type);
 
-  /// @brief Method WritePostEncapsulationBoundary addr 0x10d4d24 size 0x94 virtual false final false
+  /// @brief Method WritePostEncapsulationBoundary addr 0x1063ad0 size 0x94 virtual false final false
   inline void WritePostEncapsulationBoundary(::StringW type);
 
   // Ctor Parameters [CppParam { name: "", ty: "PemWriter", modifiers: "&&", def_value: None }]
@@ -114,6 +114,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::IO::Pem::PemWriter, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::IO::Pem::PemWriter, ___writer) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::IO::Pem::PemWriter, ___nlLength) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::IO::Pem::PemWriter, ___buf) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::IO::Pem
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::IO::Pem::PemWriter);

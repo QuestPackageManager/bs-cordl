@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7395))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7481))
 // CS Name: ::UnityEngine.UIElements.UIR::RenderDataDirtyTypeClasses
 struct CORDL_TYPE RenderDataDirtyTypeClasses {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses, "UnityEngine.UIElements.UIR", "RenderDataDirtyTypeClasses");

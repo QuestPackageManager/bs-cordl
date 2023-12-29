@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AlphabetScrollbarInfoBeatmapLevelHelper)
 namespace GlobalNamespace {
-class __AlphabetScrollInfo__Data;
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class __AlphabetScrollbarInfoBeatmapLevelHelper____c;
 }
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class __AlphabetScrollInfo__Data;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4410))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4430))
 // CS Name: ::AlphabetScrollbarInfoBeatmapLevelHelper::<>c*
 class CORDL_TYPE __AlphabetScrollbarInfoBeatmapLevelHelper____c : public ::System::Object {
 public:
@@ -58,10 +58,10 @@ public:
 
   static inline ::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x234cd14 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2200664 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <CreateData>b__3_0 addr 0x234cd1c size 0xac virtual false final false
+  /// @brief Method <CreateData>b__3_0 addr 0x220066c size 0xac virtual false final false
   inline ::StringW _CreateData_b__3_0(::GlobalNamespace::IPreviewBeatmapLevel* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AlphabetScrollbarInfoBeatmapLevelHelper____c", modifiers: "&&", def_value: None }]
@@ -88,17 +88,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AlphabetScrol
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4411))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4431))
 // CS Name: ::AlphabetScrollbarInfoBeatmapLevelHelper*
 class CORDL_TYPE AlphabetScrollbarInfoBeatmapLevelHelper : public ::System::Object {
 public:
   // Declarations
   using __c = ::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c;
 
-  /// @brief Method CreateData addr 0x234c61c size 0x694 virtual false final false
+  /// @brief Method CreateData addr 0x21fff7c size 0x684 virtual false final false
   static inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__AlphabetScrollInfo__Data*>*
-  CreateData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* previewBeatmapLevels, bool sortPreviewBeatmapLevels,
+  CreateData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* previewBeatmapLevels,
              ByRef<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>*> sortedPreviewBeatmapLevels);
 
   // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollbarInfoBeatmapLevelHelper", modifiers: "&&", def_value: None }]

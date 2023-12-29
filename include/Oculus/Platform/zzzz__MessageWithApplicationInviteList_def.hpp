@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithApplicationInviteList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13415)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 4575 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13273)) CS Name: ::Oculus.Platform::MessageWithApplicationInviteList*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13452)), TypeDefinitionIndex(TypeDefinitionIndex(13269)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst:
+// 4469 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13278)) CS Name: ::Oculus.Platform::MessageWithApplicationInviteList*
 class CORDL_TYPE MessageWithApplicationInviteList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ApplicationInviteList*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithApplicationInviteList* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x26eeab0 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x259279c size 0x58 virtual false final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetApplicationInviteList addr 0x26f0cc0 size 0x3c virtual true final false
+  /// @brief Method GetApplicationInviteList addr 0x25947ac size 0x3c virtual true final false
   inline ::Oculus::Platform::Models::ApplicationInviteList* GetApplicationInviteList();
 
-  /// @brief Method GetDataFromMessage addr 0x26f0cfc size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage addr 0x25947e8 size 0x9c virtual true final false
   inline ::Oculus::Platform::Models::ApplicationInviteList* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithApplicationInviteList", modifiers: "&&", def_value: None }]

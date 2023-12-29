@@ -35,8 +35,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5904))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5995))
 // CS Name: ::AsyncCache`2::<>c__DisplayClass4_0<TKey,TValue>*
 class CORDL_TYPE __AsyncCache_2____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -97,8 +97,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5905))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5996))
 // CS Name: ::AsyncCache`2<TKey,TValue>*
 class CORDL_TYPE AsyncCache_2 : public ::System::Object {
 public:

@@ -46,13 +46,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::LimitedInputStream* New_ctor(::System::IO::Stream* inStream, int32_t limit);
 
-  /// @brief Method .ctor addr 0x11c00bc size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x114ee6c size 0x2c virtual false final false
   inline void _ctor(::System::IO::Stream* inStream, int32_t limit);
 
-  /// @brief Method get_Limit addr 0x11c00e8 size 0x8 virtual true final false
+  /// @brief Method get_Limit addr 0x114ee98 size 0x8 virtual true final false
   inline int32_t get_Limit();
 
-  /// @brief Method SetParentEofDetect addr 0x11c00f0 size 0x90 virtual true final false
+  /// @brief Method SetParentEofDetect addr 0x114eea0 size 0x90 virtual true final false
   inline void SetParentEofDetect(bool on);
 
   // Ctor Parameters [CppParam { name: "", ty: "LimitedInputStream", modifiers: "&&", def_value: None }]
@@ -79,6 +79,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::LimitedInputStream, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::LimitedInputStream, ____in) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::LimitedInputStream, ____limit) == 0x38, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::LimitedInputStream);

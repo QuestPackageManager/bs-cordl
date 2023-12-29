@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::HmdMatrix44_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8646))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9415))
 // CS Name: ::OVR.OpenVR::HmdMatrix44_t
 struct CORDL_TYPE HmdMatrix44_t {
 public:
@@ -90,6 +90,38 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::HmdMatrix44_t, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix44_t, m0) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix44_t, m1) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix44_t, m2) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix44_t, m3) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix44_t, m4) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix44_t, m5) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix44_t, m6) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix44_t, m7) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix44_t, m8) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix44_t, m9) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix44_t, m10) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix44_t, m11) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix44_t, m12) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix44_t, m13) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix44_t, m14) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix44_t, m15) == 0x3c, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::HmdMatrix44_t, "OVR.OpenVR", "HmdMatrix44_t");

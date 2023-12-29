@@ -2,8 +2,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__EulerPose_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "UnityEngine/zzzz__Pose_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
@@ -11,55 +11,55 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityXRHelper)
 namespace GlobalNamespace {
-struct __UnityXRHelper__VRControllerManufacturerName;
-}
-namespace UnityEngine::InputSystem {
-class InputActionReference;
-}
-namespace GlobalNamespace {
-class UnityXRController;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-class __UnityXRController__Configuration;
-}
-namespace UnityEngine::XR {
-struct XRNodeState;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace UnityEngine {
-struct Pose;
-}
-namespace UnityEngine::XR {
-class XRInputSubsystem;
-}
-namespace GlobalNamespace {
-struct VRPlatformSDK;
+class IVerboseLogger;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+struct EulerPose;
+}
+namespace UnityEngine::XR {
+class XRInputSubsystem;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine::XR {
+struct XRNode;
 }
 namespace GlobalNamespace {
-class IVerboseLogger;
+class __UnityXRController__Configuration;
 }
 namespace System {
 class Action;
 }
 namespace UnityEngine::InputSystem {
-struct __InputAction__CallbackContext;
+class InputAction;
+}
+namespace GlobalNamespace {
+struct __UnityXRHelper__VRControllerManufacturerName;
 }
 namespace UnityEngine::XR {
-struct XRNode;
+struct XRNodeState;
+}
+namespace GlobalNamespace {
+class UnityXRController;
+}
+namespace UnityEngine::InputSystem {
+class InputActionReference;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace UnityEngine::InputSystem {
+struct __InputAction__CallbackContext;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+struct VRPlatformSDK;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -76,7 +76,7 @@ MARK_REF_PTR_T(::GlobalNamespace::UnityXRHelper);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14435))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13996))
 // CS Name: ::UnityXRHelper::VRControllerManufacturerName
 struct CORDL_TYPE __UnityXRHelper__VRControllerManufacturerName {
 public:
@@ -134,13 +134,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::UnityXRHelper
-// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 276, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 242, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14436))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(16065))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13997))
 // CS Name: ::UnityXRHelper*
 class CORDL_TYPE UnityXRHelper : public ::UnityEngine::MonoBehaviour {
 public:
@@ -168,70 +170,58 @@ public:
   /// @brief Field controllersDidChangeReferenceEvent, offset 0x48, size 0x8
   __declspec(property(get = __get_controllersDidChangeReferenceEvent, put = __set_controllersDidChangeReferenceEvent))::System::Action* controllersDidChangeReferenceEvent;
 
-  /// @brief Field controllersDidDisconnectEvent, offset 0x50, size 0x8
-  __declspec(property(get = __get_controllersDidDisconnectEvent, put = __set_controllersDidDisconnectEvent))::System::Action* controllersDidDisconnectEvent;
+  /// @brief Field <hasInputFocus>k__BackingField, offset 0x50, size 0x1
+  __declspec(property(get = __get__hasInputFocus_k__BackingField, put = __set__hasInputFocus_k__BackingField)) bool _hasInputFocus_k__BackingField;
 
-  /// @brief Field <hasVrFocus>k__BackingField, offset 0x58, size 0x1
+  /// @brief Field <hasVrFocus>k__BackingField, offset 0x51, size 0x1
   __declspec(property(get = __get__hasVrFocus_k__BackingField, put = __set__hasVrFocus_k__BackingField)) bool _hasVrFocus_k__BackingField;
 
-  /// @brief Field _oculusOffsetPose, offset 0x5c, size 0x1c
-  __declspec(property(get = __get__oculusOffsetPose, put = __set__oculusOffsetPose))::UnityEngine::Pose _oculusOffsetPose;
+  /// @brief Field _oculusPoseOffset, offset 0x54, size 0x18
+  __declspec(property(get = __get__oculusPoseOffset, put = __set__oculusPoseOffset))::GlobalNamespace::EulerPose _oculusPoseOffset;
 
-  /// @brief Field _valveIndexOffsetPose, offset 0x78, size 0x1c
-  __declspec(property(get = __get__valveIndexOffsetPose, put = __set__valveIndexOffsetPose))::UnityEngine::Pose _valveIndexOffsetPose;
+  /// @brief Field _valveIndexPoseOffset, offset 0x6c, size 0x18
+  __declspec(property(get = __get__valveIndexPoseOffset, put = __set__valveIndexPoseOffset))::GlobalNamespace::EulerPose _valveIndexPoseOffset;
 
-  /// @brief Field _htcViveOffsetPose, offset 0x94, size 0x1c
-  __declspec(property(get = __get__htcViveOffsetPose, put = __set__htcViveOffsetPose))::UnityEngine::Pose _htcViveOffsetPose;
+  /// @brief Field _htcVivePoseOffset, offset 0x84, size 0x18
+  __declspec(property(get = __get__htcVivePoseOffset, put = __set__htcVivePoseOffset))::GlobalNamespace::EulerPose _htcVivePoseOffset;
 
-  /// @brief Field _leftControllerConfiguration, offset 0xb0, size 0x8
+  /// @brief Field _leftControllerConfiguration, offset 0xa0, size 0x8
   __declspec(property(get = __get__leftControllerConfiguration, put = __set__leftControllerConfiguration))::GlobalNamespace::__UnityXRController__Configuration* _leftControllerConfiguration;
 
-  /// @brief Field _rightControllerConfiguration, offset 0xb8, size 0x8
+  /// @brief Field _rightControllerConfiguration, offset 0xa8, size 0x8
   __declspec(property(get = __get__rightControllerConfiguration, put = __set__rightControllerConfiguration))::GlobalNamespace::__UnityXRController__Configuration* _rightControllerConfiguration;
 
-  /// @brief Field _userPresenceActionReference, offset 0xc0, size 0x8
+  /// @brief Field _userPresenceActionReference, offset 0xb0, size 0x8
   __declspec(property(get = __get__userPresenceActionReference, put = __set__userPresenceActionReference))::UnityEngine::InputSystem::InputActionReference* _userPresenceActionReference;
 
-  /// @brief Field _headPositionActionReference, offset 0xc8, size 0x8
+  /// @brief Field _headPositionActionReference, offset 0xb8, size 0x8
   __declspec(property(get = __get__headPositionActionReference, put = __set__headPositionActionReference))::UnityEngine::InputSystem::InputActionReference* _headPositionActionReference;
 
-  /// @brief Field _headOrientationActionReference, offset 0xd0, size 0x8
+  /// @brief Field _headOrientationActionReference, offset 0xc0, size 0x8
   __declspec(property(get = __get__headOrientationActionReference, put = __set__headOrientationActionReference))::UnityEngine::InputSystem::InputActionReference* _headOrientationActionReference;
 
-  /// @brief Field _pauseGameActionReference, offset 0xd8, size 0x8
-  __declspec(property(get = __get__pauseGameActionReference, put = __set__pauseGameActionReference))::UnityEngine::InputSystem::InputActionReference* _pauseGameActionReference;
-
-  /// @brief Field _leftController, offset 0xe0, size 0x8
+  /// @brief Field _leftController, offset 0xc8, size 0x8
   __declspec(property(get = __get__leftController, put = __set__leftController))::GlobalNamespace::UnityXRController* _leftController;
 
-  /// @brief Field _rightController, offset 0xe8, size 0x8
+  /// @brief Field _rightController, offset 0xd0, size 0x8
   __declspec(property(get = __get__rightController, put = __set__rightController))::GlobalNamespace::UnityXRController* _rightController;
 
-  /// @brief Field _headPositionAction, offset 0xf0, size 0x8
+  /// @brief Field _headPositionAction, offset 0xd8, size 0x8
   __declspec(property(get = __get__headPositionAction, put = __set__headPositionAction))::UnityEngine::InputSystem::InputAction* _headPositionAction;
 
-  /// @brief Field _headOrientationAction, offset 0xf8, size 0x8
+  /// @brief Field _headOrientationAction, offset 0xe0, size 0x8
   __declspec(property(get = __get__headOrientationAction, put = __set__headOrientationAction))::UnityEngine::InputSystem::InputAction* _headOrientationAction;
 
-  /// @brief Field _userPresenceAction, offset 0x100, size 0x8
+  /// @brief Field _userPresenceAction, offset 0xe8, size 0x8
   __declspec(property(get = __get__userPresenceAction, put = __set__userPresenceAction))::UnityEngine::InputSystem::InputAction* _userPresenceAction;
 
-  /// @brief Field _pauseGameAction, offset 0x108, size 0x8
-  __declspec(property(get = __get__pauseGameAction, put = __set__pauseGameAction))::UnityEngine::InputSystem::InputAction* _pauseGameAction;
-
-  /// @brief Field _scrollingLastFrame, offset 0x110, size 0x1
+  /// @brief Field _scrollingLastFrame, offset 0xf0, size 0x1
   __declspec(property(get = __get__scrollingLastFrame, put = __set__scrollingLastFrame)) bool _scrollingLastFrame;
 
-  /// @brief Field _userPresence, offset 0x111, size 0x1
+  /// @brief Field _userPresence, offset 0xf1, size 0x1
   __declspec(property(get = __get__userPresence, put = __set__userPresence)) bool _userPresence;
 
-  /// @brief Field _isPausePressed, offset 0x112, size 0x1
-  __declspec(property(get = __get__isPausePressed, put = __set__isPausePressed)) bool _isPausePressed;
-
-  /// @brief Field _wasPausePressedThisFrame, offset 0x113, size 0x1
-  __declspec(property(get = __get__wasPausePressedThisFrame, put = __set__wasPausePressedThisFrame)) bool _wasPausePressedThisFrame;
-
-  __declspec(property(get = get_hasInputFocus)) bool hasInputFocus;
+  __declspec(property(get = get_hasInputFocus, put = set_hasInputFocus)) bool hasInputFocus;
 
   __declspec(property(get = get_hasVrFocus, put = set_hasVrFocus)) bool hasVrFocus;
 
@@ -291,11 +281,11 @@ public:
 
   constexpr void __set_controllersDidChangeReferenceEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_controllersDidDisconnectEvent();
+  constexpr bool& __get__hasInputFocus_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_controllersDidDisconnectEvent() const;
+  constexpr bool const& __get__hasInputFocus_k__BackingField() const;
 
-  constexpr void __set_controllersDidDisconnectEvent(::System::Action* value);
+  constexpr void __set__hasInputFocus_k__BackingField(bool value);
 
   constexpr bool& __get__hasVrFocus_k__BackingField();
 
@@ -303,23 +293,23 @@ public:
 
   constexpr void __set__hasVrFocus_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::Pose& __get__oculusOffsetPose();
+  constexpr ::GlobalNamespace::EulerPose& __get__oculusPoseOffset();
 
-  constexpr ::UnityEngine::Pose const& __get__oculusOffsetPose() const;
+  constexpr ::GlobalNamespace::EulerPose const& __get__oculusPoseOffset() const;
 
-  constexpr void __set__oculusOffsetPose(::UnityEngine::Pose value);
+  constexpr void __set__oculusPoseOffset(::GlobalNamespace::EulerPose value);
 
-  constexpr ::UnityEngine::Pose& __get__valveIndexOffsetPose();
+  constexpr ::GlobalNamespace::EulerPose& __get__valveIndexPoseOffset();
 
-  constexpr ::UnityEngine::Pose const& __get__valveIndexOffsetPose() const;
+  constexpr ::GlobalNamespace::EulerPose const& __get__valveIndexPoseOffset() const;
 
-  constexpr void __set__valveIndexOffsetPose(::UnityEngine::Pose value);
+  constexpr void __set__valveIndexPoseOffset(::GlobalNamespace::EulerPose value);
 
-  constexpr ::UnityEngine::Pose& __get__htcViveOffsetPose();
+  constexpr ::GlobalNamespace::EulerPose& __get__htcVivePoseOffset();
 
-  constexpr ::UnityEngine::Pose const& __get__htcViveOffsetPose() const;
+  constexpr ::GlobalNamespace::EulerPose const& __get__htcVivePoseOffset() const;
 
-  constexpr void __set__htcViveOffsetPose(::UnityEngine::Pose value);
+  constexpr void __set__htcVivePoseOffset(::GlobalNamespace::EulerPose value);
 
   constexpr ::GlobalNamespace::__UnityXRController__Configuration*& __get__leftControllerConfiguration();
 
@@ -351,12 +341,6 @@ public:
 
   constexpr void __set__headOrientationActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get__pauseGameActionReference();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get__pauseGameActionReference() const;
-
-  constexpr void __set__pauseGameActionReference(::UnityEngine::InputSystem::InputActionReference* value);
-
   constexpr ::GlobalNamespace::UnityXRController*& __get__leftController();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::UnityXRController*> const& __get__leftController() const;
@@ -387,12 +371,6 @@ public:
 
   constexpr void __set__userPresenceAction(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get__pauseGameAction();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get__pauseGameAction() const;
-
-  constexpr void __set__pauseGameAction(::UnityEngine::InputSystem::InputAction* value);
-
   constexpr bool& __get__scrollingLastFrame();
 
   constexpr bool const& __get__scrollingLastFrame() const;
@@ -405,168 +383,147 @@ public:
 
   constexpr void __set__userPresence(bool value);
 
-  constexpr bool& __get__isPausePressed();
-
-  constexpr bool const& __get__isPausePressed() const;
-
-  constexpr void __set__isPausePressed(bool value);
-
-  constexpr bool& __get__wasPausePressedThisFrame();
-
-  constexpr bool const& __get__wasPausePressedThisFrame() const;
-
-  constexpr void __set__wasPausePressedThisFrame(bool value);
-
-  /// @brief Method add_inputFocusWasCapturedEvent addr 0x20fd71c size 0x9c virtual true final true
+  /// @brief Method add_inputFocusWasCapturedEvent addr 0x1fa8f20 size 0x9c virtual true final true
   inline void add_inputFocusWasCapturedEvent(::System::Action* value);
 
-  /// @brief Method remove_inputFocusWasCapturedEvent addr 0x20fd7b8 size 0x9c virtual true final true
+  /// @brief Method remove_inputFocusWasCapturedEvent addr 0x1fa8fbc size 0x9c virtual true final true
   inline void remove_inputFocusWasCapturedEvent(::System::Action* value);
 
-  /// @brief Method add_inputFocusWasReleasedEvent addr 0x20fd854 size 0x9c virtual true final true
+  /// @brief Method add_inputFocusWasReleasedEvent addr 0x1fa9058 size 0x9c virtual true final true
   inline void add_inputFocusWasReleasedEvent(::System::Action* value);
 
-  /// @brief Method remove_inputFocusWasReleasedEvent addr 0x20fd8f0 size 0x9c virtual true final true
+  /// @brief Method remove_inputFocusWasReleasedEvent addr 0x1fa90f4 size 0x9c virtual true final true
   inline void remove_inputFocusWasReleasedEvent(::System::Action* value);
 
-  /// @brief Method add_vrFocusWasCapturedEvent addr 0x20fd98c size 0x9c virtual true final true
+  /// @brief Method add_vrFocusWasCapturedEvent addr 0x1fa9190 size 0x9c virtual true final true
   inline void add_vrFocusWasCapturedEvent(::System::Action* value);
 
-  /// @brief Method remove_vrFocusWasCapturedEvent addr 0x20fda28 size 0x9c virtual true final true
+  /// @brief Method remove_vrFocusWasCapturedEvent addr 0x1fa922c size 0x9c virtual true final true
   inline void remove_vrFocusWasCapturedEvent(::System::Action* value);
 
-  /// @brief Method add_vrFocusWasReleasedEvent addr 0x20fdac4 size 0x9c virtual true final true
+  /// @brief Method add_vrFocusWasReleasedEvent addr 0x1fa92c8 size 0x9c virtual true final true
   inline void add_vrFocusWasReleasedEvent(::System::Action* value);
 
-  /// @brief Method remove_vrFocusWasReleasedEvent addr 0x20fdb60 size 0x9c virtual true final true
+  /// @brief Method remove_vrFocusWasReleasedEvent addr 0x1fa9364 size 0x9c virtual true final true
   inline void remove_vrFocusWasReleasedEvent(::System::Action* value);
 
-  /// @brief Method add_hmdUnmountedEvent addr 0x20fdbfc size 0x9c virtual true final true
+  /// @brief Method add_hmdUnmountedEvent addr 0x1fa9400 size 0x9c virtual true final true
   inline void add_hmdUnmountedEvent(::System::Action* value);
 
-  /// @brief Method remove_hmdUnmountedEvent addr 0x20fdc98 size 0x9c virtual true final true
+  /// @brief Method remove_hmdUnmountedEvent addr 0x1fa949c size 0x9c virtual true final true
   inline void remove_hmdUnmountedEvent(::System::Action* value);
 
-  /// @brief Method add_hmdMountedEvent addr 0x20fdd34 size 0x9c virtual true final true
+  /// @brief Method add_hmdMountedEvent addr 0x1fa9538 size 0x9c virtual true final true
   inline void add_hmdMountedEvent(::System::Action* value);
 
-  /// @brief Method remove_hmdMountedEvent addr 0x20fddd0 size 0x9c virtual true final true
+  /// @brief Method remove_hmdMountedEvent addr 0x1fa95d4 size 0x9c virtual true final true
   inline void remove_hmdMountedEvent(::System::Action* value);
 
-  /// @brief Method add_controllersDidChangeReferenceEvent addr 0x20fde6c size 0x9c virtual true final true
+  /// @brief Method add_controllersDidChangeReferenceEvent addr 0x1fa9670 size 0x9c virtual true final true
   inline void add_controllersDidChangeReferenceEvent(::System::Action* value);
 
-  /// @brief Method remove_controllersDidChangeReferenceEvent addr 0x20fdf08 size 0x9c virtual true final true
+  /// @brief Method remove_controllersDidChangeReferenceEvent addr 0x1fa970c size 0x9c virtual true final true
   inline void remove_controllersDidChangeReferenceEvent(::System::Action* value);
 
-  /// @brief Method add_controllersDidDisconnectEvent addr 0x20fdfa4 size 0x9c virtual true final true
-  inline void add_controllersDidDisconnectEvent(::System::Action* value);
-
-  /// @brief Method remove_controllersDidDisconnectEvent addr 0x20fe040 size 0x9c virtual true final true
-  inline void remove_controllersDidDisconnectEvent(::System::Action* value);
-
-  /// @brief Method get_hasInputFocus addr 0x20fe0dc size 0x8 virtual true final true
+  /// @brief Method get_hasInputFocus addr 0x1fa97a8 size 0x8 virtual true final true
   inline bool get_hasInputFocus();
 
-  /// @brief Method get_hasVrFocus addr 0x20fe0e4 size 0x8 virtual true final true
+  /// @brief Method set_hasInputFocus addr 0x1fa97b0 size 0xc virtual false final false
+  inline void set_hasInputFocus(bool value);
+
+  /// @brief Method get_hasVrFocus addr 0x1fa97bc size 0x8 virtual true final true
   inline bool get_hasVrFocus();
 
-  /// @brief Method set_hasVrFocus addr 0x20fe0ec size 0xc virtual false final false
+  /// @brief Method set_hasVrFocus addr 0x1fa97c4 size 0xc virtual false final false
   inline void set_hasVrFocus(bool value);
 
-  /// @brief Method get_isAlwaysWireless addr 0x20fe0f8 size 0x8 virtual true final true
+  /// @brief Method get_isAlwaysWireless addr 0x1fa97d0 size 0x8 virtual true final true
   inline bool get_isAlwaysWireless();
 
-  /// @brief Method get_vrPlatformSDK addr 0x20fe100 size 0x8 virtual true final true
+  /// @brief Method get_vrPlatformSDK addr 0x1fa97d8 size 0x8 virtual true final true
   inline ::GlobalNamespace::VRPlatformSDK get_vrPlatformSDK();
 
-  /// @brief Method get_loggerPrefix addr 0x20fe108 size 0x40 virtual true final true
+  /// @brief Method get_loggerPrefix addr 0x1fa97e0 size 0x40 virtual true final true
   inline ::StringW get_loggerPrefix();
 
-  /// @brief Method set_userPresence addr 0x20fe148 size 0x80 virtual false final false
+  /// @brief Method set_userPresence addr 0x1fa9820 size 0x8c virtual false final false
   inline void set_userPresence(bool value);
 
-  /// @brief Method Start addr 0x20fe1c8 size 0x43c virtual false final false
+  /// @brief Method Start addr 0x1fa98ac size 0x380 virtual false final false
   inline void Start();
 
-  /// @brief Method OnTrackingOriginUpdated addr 0x20fe69c size 0x1c virtual false final false
+  /// @brief Method OnTrackingOriginUpdated addr 0x1fa9cc4 size 0x1c virtual false final false
   inline void OnTrackingOriginUpdated(::UnityEngine::XR::XRInputSubsystem* inputSystem);
 
-  /// @brief Method OnboundaryChanged addr 0x20fe6d4 size 0x1c virtual false final false
+  /// @brief Method OnboundaryChanged addr 0x1fa9cfc size 0x1c virtual false final false
   inline void OnboundaryChanged(::UnityEngine::XR::XRInputSubsystem* inputSystem);
 
-  /// @brief Method OnDestroy addr 0x20fe6f0 size 0x22c virtual false final false
+  /// @brief Method OnDestroy addr 0x1fa9d18 size 0x174 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method OnUserPresenceCanceled addr 0x20fe91c size 0x8 virtual false final false
+  /// @brief Method OnUserPresenceCanceled addr 0x1fa9e8c size 0x8 virtual false final false
   inline void OnUserPresenceCanceled(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
 
-  /// @brief Method OnUserPresenceStarted addr 0x20fe924 size 0x8 virtual false final false
+  /// @brief Method OnUserPresenceStarted addr 0x1fa9e94 size 0x8 virtual false final false
   inline void OnUserPresenceStarted(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
 
-  /// @brief Method OnApplicationPause addr 0x20fe92c size 0x34 virtual false final false
+  /// @brief Method OnApplicationPause addr 0x1fa9e9c size 0x34 virtual false final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method OnPauseGamePerformed addr 0x20fe960 size 0xc virtual false final false
-  inline void OnPauseGamePerformed(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
-
-  /// @brief Method OnPauseGameCancelled addr 0x20fe96c size 0x8 virtual false final false
-  inline void OnPauseGameCancelled(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
-
-  /// @brief Method HandleNewXRNode addr 0x20fe974 size 0x24 virtual false final false
+  /// @brief Method HandleNewXRNode addr 0x1fa9ed0 size 0x24 virtual false final false
   inline void HandleNewXRNode(::UnityEngine::XR::XRNodeState state);
 
-  /// @brief Method UpdateManufacturerOnNode addr 0x20fe604 size 0x98 virtual false final false
+  /// @brief Method UpdateManufacturerOnNode addr 0x1fa9c2c size 0x98 virtual false final false
   inline void UpdateManufacturerOnNode(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method HandleRemovedXRNode addr 0x20fe998 size 0x60 virtual false final false
+  /// @brief Method HandleRemovedXRNode addr 0x1fa9ef4 size 0x44 virtual false final false
   inline void HandleRemovedXRNode(::UnityEngine::XR::XRNodeState state);
 
-  /// @brief Method ControllerFromNode addr 0x20fe9f8 size 0x2c virtual false final false
+  /// @brief Method ControllerFromNode addr 0x1fa9f38 size 0x2c virtual false final false
   inline ::GlobalNamespace::UnityXRController* ControllerFromNode(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method TriggerHapticPulse addr 0x20fea24 size 0x18c virtual true final true
+  /// @brief Method TriggerHapticPulse addr 0x1fa9f64 size 0xe0 virtual true final true
   inline void TriggerHapticPulse(::UnityEngine::XR::XRNode node, float_t duration, float_t strength, float_t frequency);
 
-  /// @brief Method StopHaptics addr 0x20febb0 size 0x174 virtual true final true
+  /// @brief Method StopHaptics addr 0x1faa044 size 0xcc virtual true final true
   inline void StopHaptics(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method TryGetPoseOffsetForNode addr 0x20fed24 size 0xe8 virtual true final true
-  inline bool TryGetPoseOffsetForNode(::UnityEngine::XR::XRNode node, ByRef<::UnityEngine::Pose> poseOffset);
+  /// @brief Method GetPoseOffsetForNode addr 0x1faa110 size 0xf4 virtual true final true
+  inline ::GlobalNamespace::EulerPose GetPoseOffsetForNode(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetPoseOffsetForManufacturer addr 0x20fee0c size 0x150 virtual false final false
-  inline ::UnityEngine::Pose GetPoseOffsetForManufacturer(::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName manufacturerName);
+  /// @brief Method GetPoseOffsetForManufacturer addr 0x1faa204 size 0x178 virtual false final false
+  inline ::GlobalNamespace::EulerPose GetPoseOffsetForManufacturer(::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName manufacturerName);
 
-  /// @brief Method GetNodePose addr 0x20fef5c size 0x1f4 virtual true final true
+  /// @brief Method GetNodePose addr 0x1faa37c size 0x1f4 virtual true final true
   inline bool GetNodePose(::UnityEngine::XR::XRNode nodeType, int32_t idx, ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> rot);
 
-  /// @brief Method GetAnyJoystickMaxAxis addr 0x20ff1e8 size 0x4 virtual true final true
+  /// @brief Method GetAnyJoystickMaxAxis addr 0x1faa608 size 0x8 virtual true final true
   inline ::UnityEngine::Vector2 GetAnyJoystickMaxAxis();
 
-  /// @brief Method GetTriggerValue addr 0x20ff1ec size 0x8 virtual true final true
+  /// @brief Method GetTriggerValue addr 0x1faa610 size 0xc virtual true final true
   inline float_t GetTriggerValue(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetThumbstickValue addr 0x20ff1f4 size 0x78 virtual true final true
+  /// @brief Method GetThumbstickValue addr 0x1faa61c size 0x78 virtual true final true
   inline ::UnityEngine::Vector2 GetThumbstickValue(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetMenuButton addr 0x20ff26c size 0x8 virtual true final true
+  /// @brief Method GetMenuButton addr 0x1faa694 size 0x4c virtual true final true
   inline bool GetMenuButton();
 
-  /// @brief Method GetMenuButtonDown addr 0x20ff274 size 0x8 virtual true final true
+  /// @brief Method GetMenuButtonDown addr 0x1faa7a8 size 0x4c virtual true final true
   inline bool GetMenuButtonDown();
 
-  /// @brief Method RefreshControllersReference addr 0x20fe6b8 size 0x1c virtual true final true
+  /// @brief Method GetMenuButtonNames addr 0x1faa6e0 size 0xc8 virtual false final false
+  inline void GetMenuButtonNames(ByRef<::StringW> leftControllerButtonName, ByRef<::StringW> rightControllerButtonName);
+
+  /// @brief Method RefreshControllersReference addr 0x1fa9ce0 size 0x1c virtual true final true
   inline void RefreshControllersReference();
 
-  /// @brief Method ReadHeadPose addr 0x20ff150 size 0x98 virtual false final false
+  /// @brief Method ReadHeadPose addr 0x1faa570 size 0x98 virtual false final false
   inline void ReadHeadPose(ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> rot);
-
-  /// @brief Method LateUpdate addr 0x20ff27c size 0x8 virtual false final false
-  inline void LateUpdate();
 
   static inline ::GlobalNamespace::UnityXRHelper* New_ctor();
 
-  /// @brief Method .ctor addr 0x20ff284 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1faa7f4 size 0xf0 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityXRHelper", modifiers: "&&", def_value: None }]
@@ -604,73 +561,115 @@ public:
   /// @brief Field controllersDidChangeReferenceEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action* ___controllersDidChangeReferenceEvent;
 
-  /// @brief Field controllersDidDisconnectEvent, offset: 0x50, size: 0x8, def value: None
-  ::System::Action* ___controllersDidDisconnectEvent;
+  /// @brief Field <hasInputFocus>k__BackingField, offset: 0x50, size: 0x1, def value: None
+  bool ____hasInputFocus_k__BackingField;
 
-  /// @brief Field <hasVrFocus>k__BackingField, offset: 0x58, size: 0x1, def value: None
+  /// @brief Field <hasVrFocus>k__BackingField, offset: 0x51, size: 0x1, def value: None
   bool ____hasVrFocus_k__BackingField;
 
-  /// @brief Field _oculusOffsetPose, offset: 0x5c, size: 0x1c, def value: None
-  ::UnityEngine::Pose ____oculusOffsetPose;
+  /// @brief Field _oculusPoseOffset, offset: 0x54, size: 0x18, def value: None
+  ::GlobalNamespace::EulerPose ____oculusPoseOffset;
 
-  /// @brief Field _valveIndexOffsetPose, offset: 0x78, size: 0x1c, def value: None
-  ::UnityEngine::Pose ____valveIndexOffsetPose;
+  /// @brief Field _valveIndexPoseOffset, offset: 0x6c, size: 0x18, def value: None
+  ::GlobalNamespace::EulerPose ____valveIndexPoseOffset;
 
-  /// @brief Field _htcViveOffsetPose, offset: 0x94, size: 0x1c, def value: None
-  ::UnityEngine::Pose ____htcViveOffsetPose;
+  /// @brief Field _htcVivePoseOffset, offset: 0x84, size: 0x18, def value: None
+  ::GlobalNamespace::EulerPose ____htcVivePoseOffset;
 
-  /// @brief Field _leftControllerConfiguration, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _leftControllerConfiguration, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::__UnityXRController__Configuration* ____leftControllerConfiguration;
 
-  /// @brief Field _rightControllerConfiguration, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _rightControllerConfiguration, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::__UnityXRController__Configuration* ____rightControllerConfiguration;
 
-  /// @brief Field _userPresenceActionReference, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field _userPresenceActionReference, offset: 0xb0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputActionReference* ____userPresenceActionReference;
 
-  /// @brief Field _headPositionActionReference, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _headPositionActionReference, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputActionReference* ____headPositionActionReference;
 
-  /// @brief Field _headOrientationActionReference, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field _headOrientationActionReference, offset: 0xc0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputActionReference* ____headOrientationActionReference;
 
-  /// @brief Field _pauseGameActionReference, offset: 0xd8, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ____pauseGameActionReference;
-
-  /// @brief Field _leftController, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field _leftController, offset: 0xc8, size: 0x8, def value: None
   ::GlobalNamespace::UnityXRController* ____leftController;
 
-  /// @brief Field _rightController, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field _rightController, offset: 0xd0, size: 0x8, def value: None
   ::GlobalNamespace::UnityXRController* ____rightController;
 
-  /// @brief Field _headPositionAction, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field _headPositionAction, offset: 0xd8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputAction* ____headPositionAction;
 
-  /// @brief Field _headOrientationAction, offset: 0xf8, size: 0x8, def value: None
+  /// @brief Field _headOrientationAction, offset: 0xe0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputAction* ____headOrientationAction;
 
-  /// @brief Field _userPresenceAction, offset: 0x100, size: 0x8, def value: None
+  /// @brief Field _userPresenceAction, offset: 0xe8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputAction* ____userPresenceAction;
 
-  /// @brief Field _pauseGameAction, offset: 0x108, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputAction* ____pauseGameAction;
-
-  /// @brief Field _scrollingLastFrame, offset: 0x110, size: 0x1, def value: None
+  /// @brief Field _scrollingLastFrame, offset: 0xf0, size: 0x1, def value: None
   bool ____scrollingLastFrame;
 
-  /// @brief Field _userPresence, offset: 0x111, size: 0x1, def value: None
+  /// @brief Field _userPresence, offset: 0xf1, size: 0x1, def value: None
   bool ____userPresence;
 
-  /// @brief Field _isPausePressed, offset: 0x112, size: 0x1, def value: None
-  bool ____isPausePressed;
+  /// @brief Field kSecondaryButtonLeftHand offset 0xffffffff size 0x8
+  static constexpr ::ConstString kSecondaryButtonLeftHand{ u"OpenXRSecondaryButtonLeftHand" };
 
-  /// @brief Field _wasPausePressedThisFrame, offset: 0x113, size: 0x1, def value: None
-  bool ____wasPausePressedThisFrame;
+  /// @brief Field kSecondaryButtonRightHand offset 0xffffffff size 0x8
+  static constexpr ::ConstString kSecondaryButtonRightHand{ u"OpenXRSecondaryButtonRightHand" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UnityXRHelper, 0x118>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UnityXRHelper, 0xf8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ___inputFocusWasCapturedEvent) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ___inputFocusWasReleasedEvent) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ___vrFocusWasCapturedEvent) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ___vrFocusWasReleasedEvent) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ___hmdUnmountedEvent) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ___hmdMountedEvent) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ___controllersDidChangeReferenceEvent) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____hasInputFocus_k__BackingField) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____hasVrFocus_k__BackingField) == 0x51, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____oculusPoseOffset) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____valveIndexPoseOffset) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____htcVivePoseOffset) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____leftControllerConfiguration) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____rightControllerConfiguration) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____userPresenceActionReference) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____headPositionActionReference) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____headOrientationActionReference) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____leftController) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____rightController) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____headPositionAction) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____headOrientationAction) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____userPresenceAction) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____scrollingLastFrame) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____userPresence) == 0xf1, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName, "", "UnityXRHelper/VRControllerManufacturerName");

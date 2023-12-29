@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AssetFileDownloadUpdate);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13422))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13459))
 // CS Name: ::Oculus.Platform.Models::AssetFileDownloadUpdate*
 class CORDL_TYPE AssetFileDownloadUpdate : public ::System::Object {
 public:
@@ -68,7 +68,7 @@ public:
 
   static inline ::Oculus::Platform::Models::AssetFileDownloadUpdate* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x2704ba4 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x25b18b0 size 0xbc virtual false final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetFileDownloadUpdate", modifiers: "&&", def_value: None }]
@@ -104,6 +104,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::AssetFileDownloadUpdate, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::AssetFileDownloadUpdate, ___AssetFileId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::AssetFileDownloadUpdate, ___AssetId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::AssetFileDownloadUpdate, ___BytesTotal) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::AssetFileDownloadUpdate, ___BytesTransferred) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::AssetFileDownloadUpdate, ___Completed) == 0x30, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::AssetFileDownloadUpdate);

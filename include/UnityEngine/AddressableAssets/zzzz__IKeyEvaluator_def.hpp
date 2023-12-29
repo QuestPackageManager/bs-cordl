@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::IKeyEvaluator);
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14090))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14361))
 // CS Name: ::UnityEngine.AddressableAssets::IKeyEvaluator*
 class CORDL_TYPE IKeyEvaluator {
 public:

@@ -11,8 +11,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HumanoidBaker)
+namespace RootMotion {
+class BakerMuscle;
+}
 namespace UnityEngine {
-class AnimationClip;
+class Transform;
 }
 namespace UnityEngine {
 class HumanPoseHandler;
@@ -20,11 +23,8 @@ class HumanPoseHandler;
 namespace RootMotion {
 class BakerHumanoidQT;
 }
-namespace RootMotion {
-class BakerMuscle;
-}
 namespace UnityEngine {
-class Transform;
+class AnimationClip;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::RootMotion::HumanoidBaker);
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12471)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14884))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12479)) CS Name: ::RootMotion::HumanoidBaker*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12399)), TypeDefinitionIndex(TypeDefinitionIndex(15111)), TypeDefinitionIndex(TypeDefinitionIndex(10179)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10176))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12407)) CS Name: ::RootMotion::HumanoidBaker*
 class CORDL_TYPE HumanoidBaker : public ::RootMotion::Baker {
 public:
   // Declarations
@@ -185,30 +185,30 @@ public:
 
   constexpr void __set_lastBodyRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method Awake addr 0x1234900 size 0x4b8 virtual false final false
+  /// @brief Method Awake addr 0x11c45d4 size 0x4b8 virtual false final false
   inline void Awake();
 
-  /// @brief Method GetCharacterRoot addr 0x1234db8 size 0x1c virtual true final false
+  /// @brief Method GetCharacterRoot addr 0x11c4a8c size 0x1c virtual true final false
   inline ::UnityEngine::Transform* GetCharacterRoot();
 
-  /// @brief Method OnStartBaking addr 0x1234dd4 size 0xdc virtual true final false
+  /// @brief Method OnStartBaking addr 0x11c4aa8 size 0xdc virtual true final false
   inline void OnStartBaking();
 
-  /// @brief Method OnSetLoopFrame addr 0x1234eb0 size 0xbc virtual true final false
+  /// @brief Method OnSetLoopFrame addr 0x11c4b84 size 0xbc virtual true final false
   inline void OnSetLoopFrame(float_t time);
 
-  /// @brief Method OnSetCurves addr 0x1234f6c size 0x1a0 virtual true final false
+  /// @brief Method OnSetCurves addr 0x11c4c40 size 0x1a0 virtual true final false
   inline void OnSetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
 
-  /// @brief Method OnSetKeyframes addr 0x123510c size 0x2a4 virtual true final false
+  /// @brief Method OnSetKeyframes addr 0x11c4de0 size 0x2a4 virtual true final false
   inline void OnSetKeyframes(float_t time, bool lastFrame);
 
-  /// @brief Method UpdateHumanPose addr 0x12353b0 size 0xd8 virtual false final false
+  /// @brief Method UpdateHumanPose addr 0x11c5084 size 0xd8 virtual false final false
   inline void UpdateHumanPose();
 
   static inline ::RootMotion::HumanoidBaker* New_ctor();
 
-  /// @brief Method .ctor addr 0x1235488 size 0xa4 virtual false final false
+  /// @brief Method .ctor addr 0x11c515c size 0xa4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HumanoidBaker", modifiers: "&&", def_value: None }]
@@ -277,6 +277,38 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::HumanoidBaker, 0x118>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::HumanoidBaker, ___bakeHandIK) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::HumanoidBaker, ___IKKeyReductionError) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::HumanoidBaker, ___muscleFrameRateDiv) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::HumanoidBaker, ___bakerMuscles) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::HumanoidBaker, ___rootQT) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::HumanoidBaker, ___leftFootQT) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::HumanoidBaker, ___rightFootQT) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::HumanoidBaker, ___leftHandQT) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::HumanoidBaker, ___rightHandQT) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::HumanoidBaker, ___muscles) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::HumanoidBaker, ___pose) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::HumanoidBaker, ___handler) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::HumanoidBaker, ___bodyPosition) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::HumanoidBaker, ___bodyRotation) == 0xf4, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::HumanoidBaker, ___mN) == 0x104, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::HumanoidBaker, ___lastBodyRotation) == 0x108, "Offset mismatch!");
 
 } // namespace RootMotion
 NEED_NO_BOX(::RootMotion::HumanoidBaker);

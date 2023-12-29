@@ -18,25 +18,25 @@ MARK_REF_PTR_T(::UnityEngine::Assertions::AssertionMessageUtil);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Assertions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10315))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10237))
 // CS Name: ::UnityEngine.Assertions::AssertionMessageUtil*
 class CORDL_TYPE AssertionMessageUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMessage addr 0x2ce99b8 size 0xec virtual false final false
+  /// @brief Method GetMessage addr 0x2b82584 size 0xec virtual false final false
   static inline ::StringW GetMessage(::StringW failureMessage);
 
-  /// @brief Method GetMessage addr 0x2ce9aa4 size 0x158 virtual false final false
+  /// @brief Method GetMessage addr 0x2b82670 size 0x158 virtual false final false
   static inline ::StringW GetMessage(::StringW failureMessage, ::StringW expected);
 
-  /// @brief Method GetEqualityMessage addr 0x2ce9624 size 0x1f4 virtual false final false
+  /// @brief Method GetEqualityMessage addr 0x2b821f0 size 0x1f4 virtual false final false
   static inline ::StringW GetEqualityMessage(::System::Object* actual, ::System::Object* expected, bool expectEqual);
 
-  /// @brief Method NullFailureMessage addr 0x2ce92c4 size 0x168 virtual false final false
+  /// @brief Method NullFailureMessage addr 0x2b81e90 size 0x168 virtual false final false
   static inline ::StringW NullFailureMessage(::System::Object* value, bool expectNull);
 
-  /// @brief Method BooleanFailureMessage addr 0x2ce8fd0 size 0x90 virtual false final false
+  /// @brief Method BooleanFailureMessage addr 0x2b81b9c size 0x90 virtual false final false
   static inline ::StringW BooleanFailureMessage(bool expected);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssertionMessageUtil", modifiers: "&&", def_value: None }]

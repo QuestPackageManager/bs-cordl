@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::StaticBatchedMeshContainer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16276))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16104))
 // CS Name: ::StaticBatchedMeshContainer*
 class CORDL_TYPE StaticBatchedMeshContainer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   static inline ::GlobalNamespace::StaticBatchedMeshContainer* New_ctor();
 
-  /// @brief Method .ctor addr 0xe24bb0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2691cf0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StaticBatchedMeshContainer", modifiers: "&&", def_value: None }]

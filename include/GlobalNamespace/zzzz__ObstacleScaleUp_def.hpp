@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ObstacleScaleUp)
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class ObstacleControllerBase;
 }
 namespace GlobalNamespace {
 class ObstacleController;
 }
-namespace GlobalNamespace {
-class ObstacleControllerBase;
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleScaleUp);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4796))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4916))
 // CS Name: ::ObstacleScaleUp*
 class CORDL_TYPE ObstacleScaleUp : public ::UnityEngine::MonoBehaviour {
 public:
@@ -57,24 +57,24 @@ public:
 
   constexpr void __set__obstacleController(::GlobalNamespace::ObstacleController* value);
 
-  /// @brief Method Awake addr 0x238e798 size 0x94 virtual false final false
+  /// @brief Method Awake addr 0x225a164 size 0x94 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x238e948 size 0x138 virtual false final false
+  /// @brief Method OnDestroy addr 0x225a314 size 0x138 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateScale addr 0x238e82c size 0x11c virtual false final false
+  /// @brief Method UpdateScale addr 0x225a1f8 size 0x11c virtual false final false
   inline void UpdateScale(float_t progress);
 
-  /// @brief Method HandleObstacleControllerDidUpdateProgress addr 0x238ea80 size 0x28 virtual false final false
+  /// @brief Method HandleObstacleControllerDidUpdateProgress addr 0x225a44c size 0x28 virtual false final false
   inline void HandleObstacleControllerDidUpdateProgress(::GlobalNamespace::ObstacleController* obstacleController, float_t time);
 
-  /// @brief Method HandleObstacleControllerDidInit addr 0x238eaa8 size 0xd0 virtual false final false
+  /// @brief Method HandleObstacleControllerDidInit addr 0x225a474 size 0xd0 virtual false final false
   inline void HandleObstacleControllerDidInit(::GlobalNamespace::ObstacleControllerBase* obstacleController);
 
   static inline ::GlobalNamespace::ObstacleScaleUp* New_ctor();
 
-  /// @brief Method .ctor addr 0x238eb78 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x225a544 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleScaleUp", modifiers: "&&", def_value: None }]
@@ -104,6 +104,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObstacleScaleUp, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleScaleUp, ____fullScalePart) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleScaleUp, ____targetTransform) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleScaleUp, ____obstacleController) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ObstacleScaleUp);

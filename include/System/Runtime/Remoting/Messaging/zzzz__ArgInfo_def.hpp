@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArgInfo)
-namespace System {
-class Object;
-}
 namespace System::Reflection {
 class MethodBase;
 }
 namespace System::Runtime::Remoting::Messaging {
 struct ArgInfoType;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ArgInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3150))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3149))
 // CS Name: ::System.Runtime.Remoting.Messaging::ArgInfo*
 class CORDL_TYPE ArgInfo : public ::System::Object {
 public:
@@ -60,10 +60,10 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::ArgInfo* New_ctor(::System::Reflection::MethodBase* method, ::System::Runtime::Remoting::Messaging::ArgInfoType type);
 
-  /// @brief Method .ctor addr 0x24a7594 size 0x1b4 virtual false final false
+  /// @brief Method .ctor addr 0x234eaa0 size 0x1b4 virtual false final false
   inline void _ctor(::System::Reflection::MethodBase* method, ::System::Runtime::Remoting::Messaging::ArgInfoType type);
 
-  /// @brief Method GetInOutArgs addr 0x24a7748 size 0x100 virtual false final false
+  /// @brief Method GetInOutArgs addr 0x234ec54 size 0x100 virtual false final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetInOutArgs(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   // Ctor Parameters [CppParam { name: "", ty: "ArgInfo", modifiers: "&&", def_value: None }]
@@ -93,6 +93,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::ArgInfo, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::ArgInfo, ____paramMap) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::ArgInfo, ____inoutArgCount) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::ArgInfo, ____method) == 0x20, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::ArgInfo);

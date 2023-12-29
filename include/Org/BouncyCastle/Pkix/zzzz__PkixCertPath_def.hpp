@@ -7,17 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkixCertPath)
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
 namespace System::Collections {
-class IList;
+class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 namespace System::Collections {
 class ICollection;
@@ -29,7 +26,10 @@ namespace System {
 class Object;
 }
 namespace System::Collections {
-class IEnumerable;
+class IList;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPath);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1715))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixCertPath*
 class CORDL_TYPE PkixCertPath : public ::System::Object {
@@ -67,46 +67,46 @@ public:
 
   static inline ::System::Collections::IList* getStaticF_certPathEncodings();
 
-  /// @brief Method SortCerts addr 0x10f00b0 size 0xd94 virtual false final false
+  /// @brief Method SortCerts addr 0x107ee5c size 0xd94 virtual false final false
   static inline ::System::Collections::IList* SortCerts(::System::Collections::IList* certs);
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPath* New_ctor(::System::Collections::ICollection* certificates);
 
-  /// @brief Method .ctor addr 0x10eb394 size 0xac virtual false final false
+  /// @brief Method .ctor addr 0x107a140 size 0xac virtual false final false
   inline void _ctor(::System::Collections::ICollection* certificates);
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPath* New_ctor(::System::IO::Stream* inStream);
 
-  /// @brief Method .ctor addr 0x10f0e44 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x107fbf0 size 0x58 virtual false final false
   inline void _ctor(::System::IO::Stream* inStream);
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPath* New_ctor(::System::IO::Stream* inStream, ::StringW encoding);
 
-  /// @brief Method .ctor addr 0x10f0e9c size 0x86c virtual false final false
+  /// @brief Method .ctor addr 0x107fc48 size 0x86c virtual false final false
   inline void _ctor(::System::IO::Stream* inStream, ::StringW encoding);
 
-  /// @brief Method get_Encodings addr 0x10f1708 size 0x90 virtual true final false
+  /// @brief Method get_Encodings addr 0x10804b4 size 0x90 virtual true final false
   inline ::System::Collections::IEnumerable* get_Encodings();
 
-  /// @brief Method Equals addr 0x10f1798 size 0x41c virtual true final false
+  /// @brief Method Equals addr 0x1080544 size 0x41c virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x10f1bb4 size 0x28 virtual true final false
+  /// @brief Method GetHashCode addr 0x1080960 size 0x28 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetEncoded addr 0x10f1bdc size 0x344 virtual true final false
+  /// @brief Method GetEncoded addr 0x1080988 size 0x344 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetEncoded addr 0x10f1f20 size 0x88c virtual true final false
+  /// @brief Method GetEncoded addr 0x1080ccc size 0x88c virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded(::StringW encoding);
 
-  /// @brief Method get_Certificates addr 0x10f29c8 size 0xc virtual true final false
+  /// @brief Method get_Certificates addr 0x1081774 size 0xc virtual true final false
   inline ::System::Collections::IList* get_Certificates();
 
-  /// @brief Method ToAsn1Object addr 0x10f27ac size 0x100 virtual false final false
+  /// @brief Method ToAsn1Object addr 0x1081558 size 0x100 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method ToDerEncoded addr 0x10f28ac size 0x11c virtual false final false
+  /// @brief Method ToDerEncoded addr 0x1081658 size 0x11c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToDerEncoded(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixCertPath", modifiers: "&&", def_value: None }]
@@ -130,6 +130,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkix::PkixCertPath, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixCertPath, ___certificates) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Pkix
 NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixCertPath);

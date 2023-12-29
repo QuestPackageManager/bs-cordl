@@ -8,31 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Certificate)
 namespace Org::BouncyCastle::Asn1::X509 {
-class BasicConstraints;
-}
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509CertificateStructure;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
 }
 namespace System::Collections {
 class IList;
@@ -40,14 +16,38 @@ class IList;
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509CertificateStructure;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class BasicConstraints;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
+namespace Org::BouncyCastle::Crypto {
+class IVerifierFactory;
+}
+namespace System::Collections {
+class ICollection;
 }
 namespace Org::BouncyCastle::Crypto {
 class IVerifierFactoryProvider;
 }
-namespace Org::BouncyCastle::Crypto {
-class IVerifierFactory;
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerBitString;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -172,114 +172,114 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509Certificate* New_ctor();
 
-  /// @brief Method .ctor addr 0x1176fcc size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x1106d84 size 0x68 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::X509::X509Certificate* New_ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c);
 
-  /// @brief Method .ctor addr 0x1177034 size 0x530 virtual false final false
+  /// @brief Method .ctor addr 0x1106dec size 0x530 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c);
 
-  /// @brief Method get_CertificateStructure addr 0x1177848 size 0x8 virtual true final false
+  /// @brief Method get_CertificateStructure addr 0x1107600 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* get_CertificateStructure();
 
-  /// @brief Method get_IsValidNow addr 0x1177850 size 0x6c virtual true final false
+  /// @brief Method get_IsValidNow addr 0x1107608 size 0x6c virtual true final false
   inline bool get_IsValidNow();
 
-  /// @brief Method IsValid addr 0x11778bc size 0xd0 virtual true final false
+  /// @brief Method IsValid addr 0x1107674 size 0xd0 virtual true final false
   inline bool IsValid(::System::DateTime time);
 
-  /// @brief Method CheckValidity addr 0x117798c size 0x6c virtual true final false
+  /// @brief Method CheckValidity addr 0x1107744 size 0x6c virtual true final false
   inline void CheckValidity();
 
-  /// @brief Method CheckValidity addr 0x11779f8 size 0x1cc virtual true final false
+  /// @brief Method CheckValidity addr 0x11077b0 size 0x1cc virtual true final false
   inline void CheckValidity(::System::DateTime time);
 
-  /// @brief Method get_Version addr 0x1177bc4 size 0x1c virtual true final false
+  /// @brief Method get_Version addr 0x110797c size 0x1c virtual true final false
   inline int32_t get_Version();
 
-  /// @brief Method get_SerialNumber addr 0x1177be0 size 0x28 virtual true final false
+  /// @brief Method get_SerialNumber addr 0x1107998 size 0x28 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
-  /// @brief Method get_IssuerDN addr 0x1177c08 size 0x1c virtual true final false
+  /// @brief Method get_IssuerDN addr 0x11079c0 size 0x1c virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_IssuerDN();
 
-  /// @brief Method get_SubjectDN addr 0x1177c24 size 0x1c virtual true final false
+  /// @brief Method get_SubjectDN addr 0x11079dc size 0x1c virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_SubjectDN();
 
-  /// @brief Method get_NotBefore addr 0x1177c40 size 0x28 virtual true final false
+  /// @brief Method get_NotBefore addr 0x11079f8 size 0x28 virtual true final false
   inline ::System::DateTime get_NotBefore();
 
-  /// @brief Method get_NotAfter addr 0x1177c68 size 0x28 virtual true final false
+  /// @brief Method get_NotAfter addr 0x1107a20 size 0x28 virtual true final false
   inline ::System::DateTime get_NotAfter();
 
-  /// @brief Method GetTbsCertificate addr 0x1177c90 size 0x24 virtual true final false
+  /// @brief Method GetTbsCertificate addr 0x1107a48 size 0x24 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetTbsCertificate();
 
-  /// @brief Method GetSignature addr 0x1177cb4 size 0x1c virtual true final false
+  /// @brief Method GetSignature addr 0x1107a6c size 0x1c virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignature();
 
-  /// @brief Method get_SigAlgName addr 0x1177cd0 size 0x8 virtual true final false
+  /// @brief Method get_SigAlgName addr 0x1107a88 size 0x8 virtual true final false
   inline ::StringW get_SigAlgName();
 
-  /// @brief Method get_SigAlgOid addr 0x1177cd8 size 0x34 virtual true final false
+  /// @brief Method get_SigAlgOid addr 0x1107a90 size 0x34 virtual true final false
   inline ::StringW get_SigAlgOid();
 
-  /// @brief Method GetSigAlgParams addr 0x1177d0c size 0x5c virtual true final false
+  /// @brief Method GetSigAlgParams addr 0x1107ac4 size 0x5c virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSigAlgParams();
 
-  /// @brief Method get_IssuerUniqueID addr 0x1177d68 size 0x24 virtual true final false
+  /// @brief Method get_IssuerUniqueID addr 0x1107b20 size 0x24 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_IssuerUniqueID();
 
-  /// @brief Method get_SubjectUniqueID addr 0x1177d8c size 0x24 virtual true final false
+  /// @brief Method get_SubjectUniqueID addr 0x1107b44 size 0x24 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_SubjectUniqueID();
 
-  /// @brief Method GetKeyUsage addr 0x1177db0 size 0x5c virtual true final false
+  /// @brief Method GetKeyUsage addr 0x1107b68 size 0x5c virtual true final false
   inline ::ArrayW<bool, ::Array<bool>*> GetKeyUsage();
 
-  /// @brief Method GetExtendedKeyUsage addr 0x1177e0c size 0x4d4 virtual true final false
+  /// @brief Method GetExtendedKeyUsage addr 0x1107bc4 size 0x4d4 virtual true final false
   inline ::System::Collections::IList* GetExtendedKeyUsage();
 
-  /// @brief Method GetBasicConstraints addr 0x11782e0 size 0x68 virtual true final false
+  /// @brief Method GetBasicConstraints addr 0x1108098 size 0x68 virtual true final false
   inline int32_t GetBasicConstraints();
 
-  /// @brief Method GetSubjectAlternativeNames addr 0x1178348 size 0x54 virtual true final false
+  /// @brief Method GetSubjectAlternativeNames addr 0x1108100 size 0x54 virtual true final false
   inline ::System::Collections::ICollection* GetSubjectAlternativeNames();
 
-  /// @brief Method GetIssuerAlternativeNames addr 0x117839c size 0x54 virtual true final false
+  /// @brief Method GetIssuerAlternativeNames addr 0x1108154 size 0x54 virtual true final false
   inline ::System::Collections::ICollection* GetIssuerAlternativeNames();
 
-  /// @brief Method GetAlternativeNames addr 0x11783f0 size 0x2dc virtual true final false
+  /// @brief Method GetAlternativeNames addr 0x11081a8 size 0x2dc virtual true final false
   inline ::System::Collections::ICollection* GetAlternativeNames(::StringW oid);
 
-  /// @brief Method GetX509Extensions addr 0x11786cc size 0x44 virtual true final false
+  /// @brief Method GetX509Extensions addr 0x1108484 size 0x44 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
-  /// @brief Method GetPublicKey addr 0x1178710 size 0x94 virtual true final false
+  /// @brief Method GetPublicKey addr 0x11084c8 size 0x94 virtual true final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* GetPublicKey();
 
-  /// @brief Method GetEncoded addr 0x11787a4 size 0x1c virtual true final false
+  /// @brief Method GetEncoded addr 0x110855c size 0x1c virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method Equals addr 0x11787c0 size 0x118 virtual true final false
+  /// @brief Method Equals addr 0x1108578 size 0x118 virtual true final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode addr 0x11788d8 size 0x5c virtual true final false
+  /// @brief Method GetHashCode addr 0x1108690 size 0x5c virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x1178934 size 0xd48 virtual true final false
+  /// @brief Method ToString addr 0x11086ec size 0xd48 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method Verify addr 0x117967c size 0x90 virtual true final false
+  /// @brief Method Verify addr 0x1109434 size 0x90 virtual true final false
   inline void Verify(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method Verify addr 0x117970c size 0xc8 virtual true final false
+  /// @brief Method Verify addr 0x11094c4 size 0xc8 virtual true final false
   inline void Verify(::Org::BouncyCastle::Crypto::IVerifierFactoryProvider* verifierProvider);
 
-  /// @brief Method CheckSignature addr 0x11797d4 size 0x3e4 virtual true final false
+  /// @brief Method CheckSignature addr 0x110958c size 0x3e4 virtual true final false
   inline void CheckSignature(::Org::BouncyCastle::Crypto::IVerifierFactory* verifier);
 
-  /// @brief Method IsAlgIDEqual addr 0x1179bb8 size 0x14c virtual false final false
+  /// @brief Method IsAlgIDEqual addr 0x1109970 size 0x14c virtual false final false
   static inline bool IsAlgIDEqual(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* id1, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* id2);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Certificate", modifiers: "&&", def_value: None }]
@@ -327,6 +327,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::X509Certificate, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509Certificate, ___c) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509Certificate, ___sigAlgName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509Certificate, ___sigAlgParams) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509Certificate, ___basicConstraints) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509Certificate, ___keyUsage) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509Certificate, ___cacheLock) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509Certificate, ___publicKeyValue) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509Certificate, ___hashValueSet) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509Certificate, ___hashValue) == 0x4c, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::X509
 NEED_NO_BOX(::Org::BouncyCastle::X509::X509Certificate);

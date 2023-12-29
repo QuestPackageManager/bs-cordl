@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDsaExt)
-namespace Org::BouncyCastle::Crypto {
-class IDsa;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDsa;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {

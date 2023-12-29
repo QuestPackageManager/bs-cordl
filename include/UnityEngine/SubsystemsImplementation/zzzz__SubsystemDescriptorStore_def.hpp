@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(SubsystemDescriptorStore)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::SubsystemsImplementation {
-class SubsystemDescriptorWithProvider;
-}
 namespace UnityEngine {
 class SubsystemDescriptor;
+}
+namespace UnityEngine::SubsystemsImplementation {
+class SubsystemDescriptorWithProvider;
 }
 namespace UnityEngine {
 class IntegratedSubsystemDescriptor;
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::SubsystemsImplementation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15971))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15863))
 // CS Name: ::UnityEngine.SubsystemsImplementation::SubsystemDescriptorStore*
 class CORDL_TYPE SubsystemDescriptorStore : public ::System::Object {
 public:
@@ -59,16 +59,16 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::SubsystemDescriptor*>* getStaticF_s_DeprecatedDescriptors();
 
-  /// @brief Method RegisterDeprecatedDescriptor addr 0x2d1a244 size 0x78 virtual false final false
+  /// @brief Method RegisterDeprecatedDescriptor addr 0x2bb2e94 size 0x78 virtual false final false
   static inline void RegisterDeprecatedDescriptor(::UnityEngine::SubsystemDescriptor* descriptor);
 
-  /// @brief Method InitializeManagedDescriptor addr 0x2d1b078 size 0xdc virtual false final false
+  /// @brief Method InitializeManagedDescriptor addr 0x2bb3cc8 size 0xdc virtual false final false
   static inline void InitializeManagedDescriptor(void* ptr, ::UnityEngine::IntegratedSubsystemDescriptor* desc);
 
-  /// @brief Method ClearManagedDescriptors addr 0x2d1b154 size 0x1e4 virtual false final false
+  /// @brief Method ClearManagedDescriptors addr 0x2bb3da4 size 0x1e4 virtual false final false
   static inline void ClearManagedDescriptors();
 
-  /// @brief Method ReportSingleSubsystemAnalytics addr 0x2d1b338 size 0x3c virtual false final false
+  /// @brief Method ReportSingleSubsystemAnalytics addr 0x2bb3f88 size 0x3c virtual false final false
   static inline void ReportSingleSubsystemAnalytics(::StringW id);
 
   /// @brief Method GetSubsystemDescriptors addr 0x0 size 0xffffffffffffffff virtual false final false

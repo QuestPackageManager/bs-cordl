@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Text::NormalizationForm);
 namespace System::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2852))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2848))
 // CS Name: ::System.Text::NormalizationForm
 struct CORDL_TYPE NormalizationForm {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::NormalizationForm, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Text::NormalizationForm, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Text
 DEFINE_IL2CPP_ARG_TYPE(::System::Text::NormalizationForm, "System.Text", "NormalizationForm");

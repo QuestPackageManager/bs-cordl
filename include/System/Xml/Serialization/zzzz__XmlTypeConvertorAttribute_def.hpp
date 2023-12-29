@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Xml::Serialization::XmlTypeConvertorAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11585))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11513))
 // CS Name: ::System.Xml.Serialization::XmlTypeConvertorAttribute*
 class CORDL_TYPE XmlTypeConvertorAttribute : public ::System::Attribute {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __set__Method_k__BackingField(::StringW value);
 
-  /// @brief Method set_Method addr 0x28abea0 size 0x8 virtual false final false
+  /// @brief Method set_Method addr 0x272ee7c size 0x8 virtual false final false
   inline void set_Method(::StringW value);
 
   static inline ::System::Xml::Serialization::XmlTypeConvertorAttribute* New_ctor(::StringW method);
 
-  /// @brief Method .ctor addr 0x28abea8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x272ee84 size 0x28 virtual false final false
   inline void _ctor(::StringW method);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlTypeConvertorAttribute", modifiers: "&&", def_value: None }]
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlTypeConvertorAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Serialization::XmlTypeConvertorAttribute, ____Method_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlTypeConvertorAttribute);

@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MemberInfoSerializationHolder)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Reflection {
-struct MemberTypes;
-}
-namespace System::Runtime::Serialization {
 class SerializationInfo;
-}
-namespace System {
-class RuntimeType;
-}
-namespace System {
-class Object;
 }
 namespace System::Runtime::Serialization {
 class IObjectReference;
 }
 namespace System {
-class Type;
+class RuntimeType;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System::Reflection {
+struct MemberTypes;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::System::Reflection::MemberInfoSerializationHolder);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3475)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3509))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3470)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3504))
 // CS Name: ::System.Reflection::MemberInfoSerializationHolder*
 class CORDL_TYPE MemberInfoSerializationHolder : public ::System::Object {
 public:
@@ -107,23 +107,23 @@ public:
 
   constexpr void __set_m_info(::System::Runtime::Serialization::SerializationInfo* value);
 
-  /// @brief Method GetSerializationInfo addr 0x24edeec size 0x10 virtual false final false
+  /// @brief Method GetSerializationInfo addr 0x2394434 size 0x10 virtual false final false
   static inline void GetSerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::StringW name, ::System::RuntimeType* reflectedClass, ::StringW signature,
                                           ::System::Reflection::MemberTypes type);
 
-  /// @brief Method GetSerializationInfo addr 0x24edefc size 0x314 virtual false final false
+  /// @brief Method GetSerializationInfo addr 0x2394444 size 0x314 virtual false final false
   static inline void GetSerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::StringW name, ::System::RuntimeType* reflectedClass, ::StringW signature, ::StringW signature2,
                                           ::System::Reflection::MemberTypes type, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> genericArguments);
 
   static inline ::System::Reflection::MemberInfoSerializationHolder* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x24ee210 size 0x324 virtual false final false
+  /// @brief Method .ctor addr 0x2394758 size 0x324 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData addr 0x24ee534 size 0x60 virtual true final false
+  /// @brief Method GetObjectData addr 0x2394a7c size 0x60 virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetRealObject addr 0x24ee594 size 0x808 virtual true final false
+  /// @brief Method GetRealObject addr 0x2394adc size 0x808 virtual true final false
   inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemberInfoSerializationHolder", modifiers: "&&", def_value: None }]
@@ -162,6 +162,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::MemberInfoSerializationHolder, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::MemberInfoSerializationHolder, ___m_memberName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::MemberInfoSerializationHolder, ___m_reflectedType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::MemberInfoSerializationHolder, ___m_signature) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::MemberInfoSerializationHolder, ___m_signature2) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::MemberInfoSerializationHolder, ___m_memberType) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::MemberInfoSerializationHolder, ___m_info) == 0x38, "Offset mismatch!");
 
 } // namespace System::Reflection
 NEED_NO_BOX(::System::Reflection::MemberInfoSerializationHolder);

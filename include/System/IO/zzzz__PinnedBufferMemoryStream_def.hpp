@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PinnedBufferMemoryStream)
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+template <typename T> struct Span_1;
 }
 namespace System {
-template <typename T> struct Span_1;
+template <typename T> struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System::IO {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::IO::PinnedBufferMemoryStream);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3587)), TypeDefinitionIndex(TypeDefinitionIndex(3336))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3569))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3576)), TypeDefinitionIndex(TypeDefinitionIndex(3332))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3564))
 // CS Name: ::System.IO::PinnedBufferMemoryStream*
 class CORDL_TYPE PinnedBufferMemoryStream : public ::System::IO::UnmanagedMemoryStream {
 public:
@@ -49,19 +49,19 @@ public:
 
   static inline ::System::IO::PinnedBufferMemoryStream* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> array);
 
-  /// @brief Method .ctor addr 0x2500294 size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0x23a65c8 size 0xb4 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> array);
 
-  /// @brief Method Read addr 0x25005b4 size 0x4 virtual true final false
+  /// @brief Method Read addr 0x23a68e8 size 0x4 virtual true final false
   inline int32_t Read(::System::Span_1<uint8_t> buffer);
 
-  /// @brief Method Write addr 0x25007e4 size 0x4 virtual true final false
+  /// @brief Method Write addr 0x23a6b18 size 0x4 virtual true final false
   inline void Write(::System::ReadOnlySpan_1<uint8_t> buffer);
 
-  /// @brief Method Finalize addr 0x2500ae4 size 0xa4 virtual true final false
+  /// @brief Method Finalize addr 0x23a6e18 size 0xa4 virtual true final false
   inline void Finalize();
 
-  /// @brief Method Dispose addr 0x2500b88 size 0x50 virtual true final false
+  /// @brief Method Dispose addr 0x23a6ebc size 0x50 virtual true final false
   inline void Dispose(bool disposing);
 
   // Ctor Parameters [CppParam { name: "", ty: "PinnedBufferMemoryStream", modifiers: "&&", def_value: None }]
@@ -88,6 +88,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::PinnedBufferMemoryStream, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::System::IO::PinnedBufferMemoryStream, ____array) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::PinnedBufferMemoryStream, ____pinningHandle) == 0x70, "Offset mismatch!");
 
 } // namespace System::IO
 NEED_NO_BOX(::System::IO::PinnedBufferMemoryStream);

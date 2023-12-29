@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(XmlImplementation)
 namespace System::Xml {
-class XmlNameTable;
+class XmlDocument;
 }
 namespace System::Xml {
-class XmlDocument;
+class XmlNameTable;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Xml::XmlImplementation);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11512))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11440))
 // CS Name: ::System.Xml::XmlImplementation*
 class CORDL_TYPE XmlImplementation : public ::System::Object {
 public:
@@ -39,18 +39,18 @@ public:
 
   static inline ::System::Xml::XmlImplementation* New_ctor();
 
-  /// @brief Method .ctor addr 0x288a230 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x270d210 size 0x68 virtual false final false
   inline void _ctor();
 
   static inline ::System::Xml::XmlImplementation* New_ctor(::System::Xml::XmlNameTable* nt);
 
-  /// @brief Method .ctor addr 0x288a308 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x270d2e8 size 0x28 virtual false final false
   inline void _ctor(::System::Xml::XmlNameTable* nt);
 
-  /// @brief Method CreateDocument addr 0x288a330 size 0x64 virtual true final false
+  /// @brief Method CreateDocument addr 0x270d310 size 0x64 virtual true final false
   inline ::System::Xml::XmlDocument* CreateDocument();
 
-  /// @brief Method get_NameTable addr 0x288a394 size 0x8 virtual false final false
+  /// @brief Method get_NameTable addr 0x270d374 size 0x8 virtual false final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlImplementation", modifiers: "&&", def_value: None }]
@@ -74,6 +74,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlImplementation, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlImplementation, ___nameTable) == 0x10, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlImplementation);

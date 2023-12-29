@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__ResultsEnvironmentManager____c__DisplayClass
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4695))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4816))
 // CS Name: ::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*
 class CORDL_TYPE __ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword : public ::System::Object {
 public:
@@ -62,15 +62,15 @@ public:
 
   constexpr void __set__resultsEnvironmentController(::GlobalNamespace::BaseResultsEnvironmentController* value);
 
-  /// @brief Method get_keyword addr 0x2376a00 size 0x8 virtual false final false
+  /// @brief Method get_keyword addr 0x22422f8 size 0x8 virtual false final false
   inline ::StringW get_keyword();
 
-  /// @brief Method get_resultsEnvironmentController addr 0x2376a08 size 0x8 virtual false final false
+  /// @brief Method get_resultsEnvironmentController addr 0x2242300 size 0x8 virtual false final false
   inline ::GlobalNamespace::BaseResultsEnvironmentController* get_resultsEnvironmentController();
 
   static inline ::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword* New_ctor();
 
-  /// @brief Method .ctor addr 0x2376a10 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2242308 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword", modifiers: "&&", def_value: None }]
@@ -98,13 +98,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword, ____keyword) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword, ____resultsEnvironmentController) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass3_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4696))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4817))
 // CS Name: ::ResultsEnvironmentManager::<>c__DisplayClass3_0*
 class CORDL_TYPE __ResultsEnvironmentManager____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -120,10 +124,10 @@ public:
 
   static inline ::GlobalNamespace::__ResultsEnvironmentManager____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x23768b8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22421b0 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <GetResultEnvironmentControllerForKeyword>b__0 addr 0x2376a18 size 0x24 virtual false final false
+  /// @brief Method <GetResultEnvironmentControllerForKeyword>b__0 addr 0x2242310 size 0x24 virtual false final false
   inline bool _GetResultEnvironmentControllerForKeyword_b__0(::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword* controllerWithKeyword);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ResultsEnvironmentManager____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
@@ -148,13 +152,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ResultsEnvironmentManager____c__DisplayClass3_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ResultsEnvironmentManager____c__DisplayClass3_0, ___keyword) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ResultsEnvironmentManager
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4697))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4818))
 // CS Name: ::ResultsEnvironmentManager*
 class CORDL_TYPE ResultsEnvironmentManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -189,18 +195,18 @@ public:
 
   constexpr void __set__currentShownKeyword(::StringW value);
 
-  /// @brief Method GetResultEnvironmentControllerForKeyword addr 0x23767d4 size 0xe4 virtual false final false
+  /// @brief Method GetResultEnvironmentControllerForKeyword addr 0x22420cc size 0xe4 virtual false final false
   inline ::GlobalNamespace::BaseResultsEnvironmentController* GetResultEnvironmentControllerForKeyword(::StringW keyword);
 
-  /// @brief Method ShowResultForKeyword addr 0x23768c0 size 0xa4 virtual false final false
+  /// @brief Method ShowResultForKeyword addr 0x22421b8 size 0xa4 virtual false final false
   inline void ShowResultForKeyword(::StringW keyword, bool immediately);
 
-  /// @brief Method HideResultForKeyword addr 0x2376964 size 0x94 virtual false final false
+  /// @brief Method HideResultForKeyword addr 0x224225c size 0x94 virtual false final false
   inline void HideResultForKeyword(::StringW keyword, bool immediately);
 
   static inline ::GlobalNamespace::ResultsEnvironmentManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x23769f8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22422f0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResultsEnvironmentManager", modifiers: "&&", def_value: None }]
@@ -228,6 +234,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResultsEnvironmentManager, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ResultsEnvironmentManager, ____resultEnvironmentControllersWithKeyword) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ResultsEnvironmentManager, ____currentShownKeyword) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ResultsEnvironmentManager);

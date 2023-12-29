@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::OverflowInternal);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6887))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6973))
 // CS Name: ::UnityEngine.UIElements::OverflowInternal
 struct CORDL_TYPE OverflowInternal {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::OverflowInternal, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::OverflowInternal, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::OverflowInternal, "UnityEngine.UIElements", "OverflowInternal");

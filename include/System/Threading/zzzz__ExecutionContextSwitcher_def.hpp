@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ExecutionContextSwitcher)
-namespace System {
-class Object;
+namespace System::Threading {
+class Thread;
 }
 namespace System::Threading {
 struct __ExecutionContext__Reader;
 }
-namespace System::Threading {
-class Thread;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -24,16 +24,16 @@ MARK_VAL_T(::System::Threading::ExecutionContextSwitcher);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2712))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2710))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2710))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2708))
 // CS Name: ::System.Threading::ExecutionContextSwitcher
 struct CORDL_TYPE ExecutionContextSwitcher {
 public:
   // Declarations
-  /// @brief Method UndoNoThrow addr 0x2616c48 size 0x88 virtual false final false
+  /// @brief Method UndoNoThrow addr 0x24bbc2c size 0x88 virtual false final false
   inline bool UndoNoThrow();
 
-  /// @brief Method Undo addr 0x2616cd0 size 0x88 virtual false final false
+  /// @brief Method Undo addr 0x24bbcb4 size 0x88 virtual false final false
   inline void Undo();
 
   // Ctor Parameters [CppParam { name: "outerEC", ty: "::System::Threading::__ExecutionContext__Reader", modifiers: "", def_value: None }, CppParam { name: "outerECBelongsToScope", ty: "bool",
@@ -64,6 +64,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::ExecutionContextSwitcher, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::ExecutionContextSwitcher, outerEC) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::ExecutionContextSwitcher, outerECBelongsToScope) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::ExecutionContextSwitcher, hecsw) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::ExecutionContextSwitcher, thread) == 0x18, "Offset mismatch!");
 
 } // namespace System::Threading
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ExecutionContextSwitcher, "System.Threading", "ExecutionContextSwitcher");

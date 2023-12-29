@@ -19,8 +19,8 @@ MARK_VAL_T(::OVR::OpenVR::VRControllerState_t);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8695))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8696))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9464))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9465))
 // CS Name: ::OVR.OpenVR::VRControllerState_t
 struct CORDL_TYPE VRControllerState_t {
 public:
@@ -67,6 +67,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VRControllerState_t, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRControllerState_t, unPacketNum) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRControllerState_t, ulButtonPressed) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRControllerState_t, ulButtonTouched) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRControllerState_t, rAxis0) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRControllerState_t, rAxis1) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRControllerState_t, rAxis2) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRControllerState_t, rAxis3) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRControllerState_t, rAxis4) == 0x38, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VRControllerState_t, "OVR.OpenVR", "VRControllerState_t");

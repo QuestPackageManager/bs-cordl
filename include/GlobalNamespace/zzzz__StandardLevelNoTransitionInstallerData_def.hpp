@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StandardLevelNoTransitionInstallerData)
 namespace GlobalNamespace {
-class ColorSchemeSO;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-class PracticeSettings;
-}
-namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class BeatmapLevelSO;
+class ColorSchemeSO;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+class PracticeSettings;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelNoTransitionInstallerData);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6043))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14934)), TypeDefinitionIndex(TypeDefinitionIndex(10137))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6098))
 // CS Name: ::StandardLevelNoTransitionInstallerData*
 class CORDL_TYPE StandardLevelNoTransitionInstallerData : public ::UnityEngine::ScriptableObject {
 public:
@@ -156,69 +156,69 @@ public:
 
   constexpr void __set__useTestNoteCutSoundEffects(bool value);
 
-  /// @brief Method get_beatmapLevel addr 0x231bf18 size 0x8 virtual false final false
+  /// @brief Method get_beatmapLevel addr 0x21c8538 size 0x8 virtual false final false
   inline ::GlobalNamespace::BeatmapLevelSO* get_beatmapLevel();
 
-  /// @brief Method set_beatmapLevel addr 0x231bf20 size 0x8 virtual false final false
+  /// @brief Method set_beatmapLevel addr 0x21c8540 size 0x8 virtual false final false
   inline void set_beatmapLevel(::GlobalNamespace::BeatmapLevelSO* value);
 
-  /// @brief Method get_beatmapCharacteristic addr 0x231bf28 size 0x8 virtual false final false
+  /// @brief Method get_beatmapCharacteristic addr 0x21c8548 size 0x8 virtual false final false
   inline ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
 
-  /// @brief Method set_beatmapCharacteristic addr 0x231bf30 size 0x8 virtual false final false
+  /// @brief Method set_beatmapCharacteristic addr 0x21c8550 size 0x8 virtual false final false
   inline void set_beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
 
-  /// @brief Method get_beatmapDifficulty addr 0x231bf38 size 0x8 virtual false final false
+  /// @brief Method get_beatmapDifficulty addr 0x21c8558 size 0x8 virtual false final false
   inline ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
 
-  /// @brief Method set_beatmapDifficulty addr 0x231bf40 size 0x8 virtual false final false
+  /// @brief Method set_beatmapDifficulty addr 0x21c8560 size 0x8 virtual false final false
   inline void set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  /// @brief Method get_colorScheme addr 0x231bf48 size 0x8 virtual false final false
+  /// @brief Method get_colorScheme addr 0x21c8568 size 0x8 virtual false final false
   inline ::GlobalNamespace::ColorSchemeSO* get_colorScheme();
 
-  /// @brief Method set_colorScheme addr 0x231bf50 size 0x8 virtual false final false
+  /// @brief Method set_colorScheme addr 0x21c8570 size 0x8 virtual false final false
   inline void set_colorScheme(::GlobalNamespace::ColorSchemeSO* value);
 
-  /// @brief Method get_environmentInfo addr 0x231bf58 size 0x8 virtual false final false
+  /// @brief Method get_environmentInfo addr 0x21c8578 size 0x8 virtual false final false
   inline ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
 
-  /// @brief Method set_environmentInfo addr 0x231bf60 size 0x8 virtual false final false
+  /// @brief Method set_environmentInfo addr 0x21c8580 size 0x8 virtual false final false
   inline void set_environmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
 
-  /// @brief Method get_gameplayModifiers addr 0x231bf68 size 0x8 virtual false final false
+  /// @brief Method get_gameplayModifiers addr 0x21c8588 size 0x8 virtual false final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method set_gameplayModifiers addr 0x231bf70 size 0x8 virtual false final false
+  /// @brief Method set_gameplayModifiers addr 0x21c8590 size 0x8 virtual false final false
   inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method get_playerSpecificSettings addr 0x231bf78 size 0x8 virtual false final false
+  /// @brief Method get_playerSpecificSettings addr 0x21c8598 size 0x8 virtual false final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
 
-  /// @brief Method set_playerSpecificSettings addr 0x231bf80 size 0x8 virtual false final false
+  /// @brief Method set_playerSpecificSettings addr 0x21c85a0 size 0x8 virtual false final false
   inline void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  /// @brief Method get_practiceSettings addr 0x231bf88 size 0x8 virtual false final false
+  /// @brief Method get_practiceSettings addr 0x21c85a8 size 0x8 virtual false final false
   inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
 
-  /// @brief Method set_practiceSettings addr 0x231bf90 size 0x8 virtual false final false
+  /// @brief Method set_practiceSettings addr 0x21c85b0 size 0x8 virtual false final false
   inline void set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
 
-  /// @brief Method get_backButtonText addr 0x231bf98 size 0x8 virtual false final false
+  /// @brief Method get_backButtonText addr 0x21c85b8 size 0x8 virtual false final false
   inline ::StringW get_backButtonText();
 
-  /// @brief Method set_backButtonText addr 0x231bfa0 size 0x8 virtual false final false
+  /// @brief Method set_backButtonText addr 0x21c85c0 size 0x8 virtual false final false
   inline void set_backButtonText(::StringW value);
 
-  /// @brief Method get_useTestNoteCutSoundEffects addr 0x231bfa8 size 0x8 virtual false final false
+  /// @brief Method get_useTestNoteCutSoundEffects addr 0x21c85c8 size 0x8 virtual false final false
   inline bool get_useTestNoteCutSoundEffects();
 
-  /// @brief Method set_useTestNoteCutSoundEffects addr 0x231bfb0 size 0xc virtual false final false
+  /// @brief Method set_useTestNoteCutSoundEffects addr 0x21c85d0 size 0xc virtual false final false
   inline void set_useTestNoteCutSoundEffects(bool value);
 
   static inline ::GlobalNamespace::StandardLevelNoTransitionInstallerData* New_ctor();
 
-  /// @brief Method .ctor addr 0x231bfbc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21c85dc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelNoTransitionInstallerData", modifiers: "&&", def_value: None }]
@@ -269,6 +269,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelNoTransitionInstallerData, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelNoTransitionInstallerData, ____beatmapLevel) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelNoTransitionInstallerData, ____beatmapCharacteristic) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelNoTransitionInstallerData, ____beatmapDifficulty) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelNoTransitionInstallerData, ____colorScheme) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelNoTransitionInstallerData, ____environmentInfo) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelNoTransitionInstallerData, ____gameplayModifiers) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelNoTransitionInstallerData, ____playerSpecificSettings) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelNoTransitionInstallerData, ____practiceSettings) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelNoTransitionInstallerData, ____backButtonText) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelNoTransitionInstallerData, ____useTestNoteCutSoundEffects) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandardLevelNoTransitionInstallerData);

@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ActionResult);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12092))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12020))
 // CS Name: ::ActionResult::Status
 struct CORDL_TYPE __ActionResult__Status {
 public:
@@ -76,13 +76,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__ActionResult__Status, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::ProBuilder::__ActionResult__Status, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::ProBuilder
 // Type: UnityEngine.ProBuilder::ActionResult
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12092)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12093))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12020)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12021))
 // CS Name: ::UnityEngine.ProBuilder::ActionResult*
 class CORDL_TYPE ActionResult : public ::System::Object {
 public:
@@ -111,39 +113,39 @@ public:
 
   constexpr void __set__notification_k__BackingField(::StringW value);
 
-  /// @brief Method get_status addr 0x2b366fc size 0x8 virtual false final false
+  /// @brief Method get_status addr 0x29b49a8 size 0x8 virtual false final false
   inline ::UnityEngine::ProBuilder::__ActionResult__Status get_status();
 
-  /// @brief Method set_status addr 0x2b36704 size 0x8 virtual false final false
+  /// @brief Method set_status addr 0x29b49b0 size 0x8 virtual false final false
   inline void set_status(::UnityEngine::ProBuilder::__ActionResult__Status value);
 
-  /// @brief Method get_notification addr 0x2b3670c size 0x8 virtual false final false
+  /// @brief Method get_notification addr 0x29b49b8 size 0x8 virtual false final false
   inline ::StringW get_notification();
 
-  /// @brief Method set_notification addr 0x2b36714 size 0x8 virtual false final false
+  /// @brief Method set_notification addr 0x29b49c0 size 0x8 virtual false final false
   inline void set_notification(::StringW value);
 
   static inline ::UnityEngine::ProBuilder::ActionResult* New_ctor(::UnityEngine::ProBuilder::__ActionResult__Status status, ::StringW notification);
 
-  /// @brief Method .ctor addr 0x2b3671c size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x29b49c8 size 0x30 virtual false final false
   inline void _ctor(::UnityEngine::ProBuilder::__ActionResult__Status status, ::StringW notification);
 
-  /// @brief Method op_Implicit addr 0x2b3674c size 0x14 virtual false final false
+  /// @brief Method op_Implicit addr 0x29b49f8 size 0x14 virtual false final false
   static inline bool op_Implicit_bool(::UnityEngine::ProBuilder::ActionResult* res);
 
-  /// @brief Method ToBool addr 0x2b36760 size 0x10 virtual false final false
+  /// @brief Method ToBool addr 0x29b4a0c size 0x10 virtual false final false
   inline bool ToBool();
 
-  /// @brief Method FromBool addr 0x2b36770 size 0xa0 virtual false final false
+  /// @brief Method FromBool addr 0x29b4a1c size 0xa0 virtual false final false
   static inline bool FromBool(bool success);
 
-  /// @brief Method get_Success addr 0x2b36810 size 0x7c virtual false final false
+  /// @brief Method get_Success addr 0x29b4abc size 0x7c virtual false final false
   static inline ::UnityEngine::ProBuilder::ActionResult* get_Success();
 
-  /// @brief Method get_NoSelection addr 0x2b3688c size 0x80 virtual false final false
+  /// @brief Method get_NoSelection addr 0x29b4b38 size 0x80 virtual false final false
   static inline ::UnityEngine::ProBuilder::ActionResult* get_NoSelection();
 
-  /// @brief Method get_UserCanceled addr 0x2b3690c size 0x80 virtual false final false
+  /// @brief Method get_UserCanceled addr 0x29b4bb8 size 0x80 virtual false final false
   static inline ::UnityEngine::ProBuilder::ActionResult* get_UserCanceled();
 
   // Ctor Parameters [CppParam { name: "", ty: "ActionResult", modifiers: "&&", def_value: None }]
@@ -170,6 +172,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::ActionResult, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::ActionResult, ____status_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::ActionResult, ____notification_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::__ActionResult__Status, "UnityEngine.ProBuilder", "ActionResult/Status");

@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1119))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::VmpcRandomGenerator*
 class CORDL_TYPE VmpcRandomGenerator : public ::System::Object {
@@ -57,19 +57,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0xf44fd0 size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0xecede4 size 0x90 virtual false final false
   inline void _ctor();
 
-  /// @brief Method AddSeedMaterial addr 0xf45060 size 0xd0 virtual true final false
+  /// @brief Method AddSeedMaterial addr 0xecee74 size 0xd0 virtual true final false
   inline void AddSeedMaterial(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method AddSeedMaterial addr 0xf45130 size 0x2c virtual true final false
+  /// @brief Method AddSeedMaterial addr 0xecef44 size 0x2c virtual true final false
   inline void AddSeedMaterial(int64_t seed);
 
-  /// @brief Method NextBytes addr 0xf4515c size 0x24 virtual true final false
+  /// @brief Method NextBytes addr 0xecef70 size 0x24 virtual true final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method NextBytes addr 0xf45180 size 0x210 virtual true final false
+  /// @brief Method NextBytes addr 0xecef94 size 0x210 virtual true final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "VmpcRandomGenerator", modifiers: "&&", def_value: None }]
@@ -99,6 +99,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator, ___n) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator, ___P) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator, ___s) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Prng
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator);

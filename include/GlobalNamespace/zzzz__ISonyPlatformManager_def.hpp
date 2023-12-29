@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ISonyPlatformManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4573))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4665))
 // CS Name: ::ISonyPlatformManager*
 class CORDL_TYPE ISonyPlatformManager {
 public:

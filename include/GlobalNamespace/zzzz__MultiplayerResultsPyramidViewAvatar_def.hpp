@@ -13,23 +13,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerResultsPyramidViewAvatar)
-namespace Tweening {
-class ColorTween;
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine {
+class Sprite;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class __MultiplayerResultsPyramidViewAvatar__Factory;
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class MultiplayerPlayerResultsData;
 }
 namespace GlobalNamespace {
 class GhostDuplicationEffect;
 }
+namespace GlobalNamespace {
+class __MultiplayerResultsPyramidViewAvatar__Factory;
+}
 namespace UnityEngine {
 class CanvasGroup;
-}
-namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
 }
 namespace Tweening {
 class FloatTween;
@@ -37,29 +43,23 @@ class FloatTween;
 namespace UnityEngine {
 class GameObject;
 }
-namespace Tweening {
-class Vector3Tween;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace UnityEngine {
-class Sprite;
-}
 namespace UnityEngine::Playables {
 class PlayableDirector;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class PlayerDataModel;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace Tweening {
+class Vector3Tween;
 }
 namespace HMUI {
 class ImageView;
 }
+namespace Tweening {
+class ColorTween;
+}
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,8 +75,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory
 // SizeInfo { instance_size: 456, native_size: -1, calculated_instance_size: 456, calculated_native_size: 456, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4859))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5245)) CS Name: ::MultiplayerResultsPyramidViewAvatar*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(4979)), TypeDefinitionIndex(TypeDefinitionIndex(10176)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10178))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5340)) CS Name: ::MultiplayerResultsPyramidViewAvatar*
 class CORDL_TYPE MultiplayerResultsPyramidViewAvatar : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -399,21 +399,21 @@ public:
 
   constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method get_badgeDirector addr 0x22588a4 size 0x8 virtual false final false
+  /// @brief Method get_badgeDirector addr 0x2115034 size 0x8 virtual false final false
   inline ::UnityEngine::Playables::PlayableDirector* get_badgeDirector();
 
-  /// @brief Method Awake addr 0x22588ac size 0x20 virtual false final false
+  /// @brief Method Awake addr 0x211503c size 0x20 virtual false final false
   inline void Awake();
 
-  /// @brief Method Setup addr 0x22583bc size 0x464 virtual false final false
+  /// @brief Method Setup addr 0x2114b4c size 0x464 virtual false final false
   inline void Setup(::GlobalNamespace::MultiplayerPlayerResultsData* resultData, int32_t position, int32_t playerCount);
 
-  /// @brief Method SetupBadgeTimeline addr 0x2257e40 size 0x57c virtual false final false
+  /// @brief Method SetupBadgeTimeline addr 0x2112618 size 0x57c virtual false final false
   inline void SetupBadgeTimeline(::UnityEngine::Transform* startTransform, ::UnityEngine::Transform* midTransform);
 
   static inline ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar* New_ctor();
 
-  /// @brief Method .ctor addr 0x22588cc size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x211505c size 0x2c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidViewAvatar", modifiers: "&&", def_value: None }]
@@ -540,20 +540,91 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, 0x1c8>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____badgeDirector) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____ghostFirstTrackName) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____ghostSecondTrackName) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____standWithAvatarTransform) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____perPositionRotation) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____localPlayerColor) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____positionText) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____nameText) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____nameBackground) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____badgeCanvas) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____badgeTitles) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____badgeImages) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____badgeSubtitleText) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____badgeSubtitleCanvas) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____ghostDuplicationEffect) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____ghostAppear) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____ghostReceive) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____trophyImage) == 0x128, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____firstPlaceTrophy) == 0x130, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____secondPlaceTrophy) == 0x138, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____thirdPlaceTrophy) == 0x140, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____firstPlaceColor) == 0x148, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____personalBestVisual) == 0x158, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____playerDataModel) == 0x160, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____difficultyBeatmap) == 0x168, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____riseTween) == 0x170, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____avatarRiseTween) == 0x178, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____badgePositionTween) == 0x180, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____badgeOpacityTween) == 0x188, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____nameOpacityTween) == 0x190, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____namePositionTween) == 0x198, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____localGlowTween) == 0x1a0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____titleMakingSpaceForBadgeTween) == 0x1a8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____originalBadgeLocalPos) == 0x1b0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____connectedPlayer) == 0x1c0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Factory
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11005)), TypeDefinitionIndex(TypeDefinitionIndex(5245)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst:
-// 3489 }), TypeDefinitionIndex(TypeDefinitionIndex(12778))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5244)) CS Name: ::MultiplayerResultsPyramidViewAvatar::Factory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10933)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10933), inst: 3415 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(12705)), TypeDefinitionIndex(TypeDefinitionIndex(5340))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5339)) CS Name:
+// ::MultiplayerResultsPyramidViewAvatar::Factory*
 class CORDL_TYPE __MultiplayerResultsPyramidViewAvatar__Factory
     : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory* New_ctor();
 
-  /// @brief Method .ctor addr 0x22588f8 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2115088 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerResultsPyramidViewAvatar__Factory", modifiers: "&&", def_value: None }]

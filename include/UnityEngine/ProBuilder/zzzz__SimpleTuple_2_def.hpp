@@ -18,7 +18,7 @@ namespace UnityEngine::ProBuilder {
 template <typename T1, typename T2>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12201))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12129))
 // CS Name: ::UnityEngine.ProBuilder::SimpleTuple`2<T1,T2>
 struct CORDL_TYPE SimpleTuple_2 {
 public:

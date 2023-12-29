@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::FtpLoginState);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9039))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7876))
 // CS Name: ::System.Net::FtpLoginState
 struct CORDL_TYPE FtpLoginState {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::FtpLoginState, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::FtpLoginState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::FtpLoginState, "System.Net", "FtpLoginState");

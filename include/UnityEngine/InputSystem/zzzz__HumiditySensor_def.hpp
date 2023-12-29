@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::HumiditySensor);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6274))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6284))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6360))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6370))
 // CS Name: ::UnityEngine.InputSystem::HumiditySensor*
 class CORDL_TYPE HumiditySensor : public ::UnityEngine::InputSystem::Sensor {
 public:
@@ -42,30 +42,30 @@ public:
 
   static inline ::UnityEngine::InputSystem::HumiditySensor* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_relativeHumidity addr 0x2aa8db0 size 0x8 virtual false final false
+  /// @brief Method get_relativeHumidity addr 0x292a068 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_relativeHumidity();
 
-  /// @brief Method set_relativeHumidity addr 0x2aa8db8 size 0x8 virtual false final false
+  /// @brief Method set_relativeHumidity addr 0x292a070 size 0x8 virtual false final false
   inline void set_relativeHumidity(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_current addr 0x2aa8dc0 size 0x48 virtual false final false
+  /// @brief Method get_current addr 0x292a078 size 0x48 virtual false final false
   static inline ::UnityEngine::InputSystem::HumiditySensor* get_current();
 
-  /// @brief Method set_current addr 0x2aa8e08 size 0x4c virtual false final false
+  /// @brief Method set_current addr 0x292a0c0 size 0x4c virtual false final false
   static inline void set_current(::UnityEngine::InputSystem::HumiditySensor* value);
 
-  /// @brief Method MakeCurrent addr 0x2aa8e54 size 0x54 virtual true final false
+  /// @brief Method MakeCurrent addr 0x292a10c size 0x54 virtual true final false
   inline void MakeCurrent();
 
-  /// @brief Method OnRemoved addr 0x2aa8ea8 size 0x84 virtual true final false
+  /// @brief Method OnRemoved addr 0x292a160 size 0x84 virtual true final false
   inline void OnRemoved();
 
-  /// @brief Method FinishSetup addr 0x2aa8f2c size 0x78 virtual true final false
+  /// @brief Method FinishSetup addr 0x292a1e4 size 0x78 virtual true final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::HumiditySensor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2aa8fa4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x292a25c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HumiditySensor", modifiers: "&&", def_value: None }]
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HumiditySensor, 0x160>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HumiditySensor, ____relativeHumidity_k__BackingField) == 0x158, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 NEED_NO_BOX(::UnityEngine::InputSystem::HumiditySensor);

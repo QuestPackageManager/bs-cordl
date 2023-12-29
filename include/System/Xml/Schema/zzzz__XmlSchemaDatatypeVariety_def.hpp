@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::Schema::XmlSchemaDatatypeVariety);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11615))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11543))
 // CS Name: ::System.Xml.Schema::XmlSchemaDatatypeVariety
 struct CORDL_TYPE XmlSchemaDatatypeVariety {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaDatatypeVariety, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaDatatypeVariety, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaDatatypeVariety, "System.Xml.Schema", "XmlSchemaDatatypeVariety");

@@ -9,31 +9,31 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(GameplayServerFiniteStateMachine)
 namespace GlobalNamespace {
-struct __GameplayServerFiniteStateMachine__InitParams;
+struct GameplayServerConfiguration;
+}
+namespace GlobalNamespace {
+class GameState;
 }
 namespace GlobalNamespace {
 class IServerBeatmapProvider;
-}
-namespace BGNet::Core {
-class ITaskUtility;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class MenuRpcManager;
 }
 namespace GlobalNamespace {
-class GameplayRpcManager;
-}
-namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
-struct GameplayServerConfiguration;
+class GameplayRpcManager;
 }
 namespace GlobalNamespace {
-class GameState;
+class IMultiplayerSessionManager;
+}
+namespace BGNet::Core {
+class ITaskUtility;
+}
+namespace GlobalNamespace {
+struct __GameplayServerFiniteStateMachine__InitParams;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -46,16 +46,16 @@ struct __GameplayServerFiniteStateMachine__InitParams;
 MARK_REF_PTR_T(::GlobalNamespace::GameplayServerFiniteStateMachine);
 MARK_VAL_T(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams);
 // Type: ::InitParams
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12686))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12761))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12614)), TypeDefinitionIndex(TypeDefinitionIndex(12687))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12690))
 // CS Name: ::GameplayServerFiniteStateMachine::InitParams
 struct CORDL_TYPE __GameplayServerFiniteStateMachine__InitParams {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0xe3bff0 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0xdb7bb8 size 0x2c virtual false final false
   inline void _ctor(::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::StringW creatorId,
                     ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration,
                     ::GlobalNamespace::IServerBeatmapProvider* beatmapProvider);
@@ -81,30 +81,42 @@ public:
   /// @brief Field creatorId, offset: 0x10, size: 0x8, def value: None
   ::StringW creatorId;
 
-  /// @brief Field selectionMask, offset: 0x18, size: 0x28, def value: None
+  /// @brief Field selectionMask, offset: 0x18, size: 0x18, def value: None
   ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask;
 
-  /// @brief Field configuration, offset: 0x40, size: 0x18, def value: None
+  /// @brief Field configuration, offset: 0x30, size: 0x18, def value: None
   ::GlobalNamespace::GameplayServerConfiguration configuration;
 
-  /// @brief Field beatmapProvider, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field beatmapProvider, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IServerBeatmapProvider* beatmapProvider;
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams, taskUtility) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams, multiplayerSessionManager) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams, creatorId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams, selectionMask) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams, configuration) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams, beatmapProvider) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::GameplayServerFiniteStateMachine
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 121, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12762))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12687)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12614))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12691))
 // CS Name: ::GameplayServerFiniteStateMachine*
 class CORDL_TYPE GameplayServerFiniteStateMachine : public ::System::Object {
 public:
@@ -121,25 +133,25 @@ public:
   /// @brief Field <ownerUserId>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __get__ownerUserId_k__BackingField, put = __set__ownerUserId_k__BackingField))::StringW _ownerUserId_k__BackingField;
 
-  /// @brief Field <selectionMask>k__BackingField, offset 0x28, size 0x28
+  /// @brief Field <selectionMask>k__BackingField, offset 0x28, size 0x18
   __declspec(property(get = __get__selectionMask_k__BackingField, put = __set__selectionMask_k__BackingField))::GlobalNamespace::BeatmapLevelSelectionMask _selectionMask_k__BackingField;
 
-  /// @brief Field <configuration>k__BackingField, offset 0x50, size 0x18
+  /// @brief Field <configuration>k__BackingField, offset 0x40, size 0x18
   __declspec(property(get = __get__configuration_k__BackingField, put = __set__configuration_k__BackingField))::GlobalNamespace::GameplayServerConfiguration _configuration_k__BackingField;
 
-  /// @brief Field <beatmapProvider>k__BackingField, offset 0x68, size 0x8
+  /// @brief Field <beatmapProvider>k__BackingField, offset 0x58, size 0x8
   __declspec(property(get = __get__beatmapProvider_k__BackingField, put = __set__beatmapProvider_k__BackingField))::GlobalNamespace::IServerBeatmapProvider* _beatmapProvider_k__BackingField;
 
-  /// @brief Field <menuRpcManager>k__BackingField, offset 0x70, size 0x8
+  /// @brief Field <menuRpcManager>k__BackingField, offset 0x60, size 0x8
   __declspec(property(get = __get__menuRpcManager_k__BackingField, put = __set__menuRpcManager_k__BackingField))::GlobalNamespace::MenuRpcManager* _menuRpcManager_k__BackingField;
 
-  /// @brief Field <gameplayRpcManager>k__BackingField, offset 0x78, size 0x8
+  /// @brief Field <gameplayRpcManager>k__BackingField, offset 0x68, size 0x8
   __declspec(property(get = __get__gameplayRpcManager_k__BackingField, put = __set__gameplayRpcManager_k__BackingField))::GlobalNamespace::GameplayRpcManager* _gameplayRpcManager_k__BackingField;
 
-  /// @brief Field state, offset 0x80, size 0x8
+  /// @brief Field state, offset 0x70, size 0x8
   __declspec(property(get = __get_state, put = __set_state))::GlobalNamespace::GameState* state;
 
-  /// @brief Field enteringState, offset 0x88, size 0x1
+  /// @brief Field enteringState, offset 0x78, size 0x1
   __declspec(property(get = __get_enteringState, put = __set_enteringState)) bool enteringState;
 
   __declspec(property(get = get_taskUtility, put = set_taskUtility))::BGNet::Core::ITaskUtility* taskUtility;
@@ -218,57 +230,57 @@ public:
 
   constexpr void __set_enteringState(bool value);
 
-  /// @brief Method get_taskUtility addr 0xe3bf38 size 0x8 virtual false final false
+  /// @brief Method get_taskUtility addr 0xdb69b8 size 0x8 virtual false final false
   inline ::BGNet::Core::ITaskUtility* get_taskUtility();
 
-  /// @brief Method set_taskUtility addr 0xe3bf40 size 0x8 virtual false final false
+  /// @brief Method set_taskUtility addr 0xdb69c0 size 0x8 virtual false final false
   inline void set_taskUtility(::BGNet::Core::ITaskUtility* value);
 
-  /// @brief Method get_multiplayerSessionManager addr 0xe3bf48 size 0x8 virtual false final false
+  /// @brief Method get_multiplayerSessionManager addr 0xdb69c8 size 0x8 virtual false final false
   inline ::GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();
 
-  /// @brief Method set_multiplayerSessionManager addr 0xe3bf50 size 0x8 virtual false final false
+  /// @brief Method set_multiplayerSessionManager addr 0xdb69d0 size 0x8 virtual false final false
   inline void set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method get_ownerUserId addr 0xe3bf58 size 0x8 virtual false final false
+  /// @brief Method get_ownerUserId addr 0xdb69d8 size 0x8 virtual false final false
   inline ::StringW get_ownerUserId();
 
-  /// @brief Method set_ownerUserId addr 0xe3bf60 size 0x8 virtual false final false
+  /// @brief Method set_ownerUserId addr 0xdb69e0 size 0x8 virtual false final false
   inline void set_ownerUserId(::StringW value);
 
-  /// @brief Method get_selectionMask addr 0xe3bf68 size 0x18 virtual false final false
+  /// @brief Method get_selectionMask addr 0xdb69e8 size 0x14 virtual false final false
   inline ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
 
-  /// @brief Method set_selectionMask addr 0xe3bf80 size 0x18 virtual false final false
+  /// @brief Method set_selectionMask addr 0xdb69fc size 0x14 virtual false final false
   inline void set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
 
-  /// @brief Method get_configuration addr 0xe3bf98 size 0x14 virtual false final false
+  /// @brief Method get_configuration addr 0xdb6a10 size 0x14 virtual false final false
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
-  /// @brief Method set_configuration addr 0xe3bfac size 0x14 virtual false final false
+  /// @brief Method set_configuration addr 0xdb6a24 size 0x14 virtual false final false
   inline void set_configuration(::GlobalNamespace::GameplayServerConfiguration value);
 
-  /// @brief Method get_beatmapProvider addr 0xe3bfc0 size 0x8 virtual false final false
+  /// @brief Method get_beatmapProvider addr 0xdb6a38 size 0x8 virtual false final false
   inline ::GlobalNamespace::IServerBeatmapProvider* get_beatmapProvider();
 
-  /// @brief Method set_beatmapProvider addr 0xe3bfc8 size 0x8 virtual false final false
+  /// @brief Method set_beatmapProvider addr 0xdb6a40 size 0x8 virtual false final false
   inline void set_beatmapProvider(::GlobalNamespace::IServerBeatmapProvider* value);
 
-  /// @brief Method get_menuRpcManager addr 0xe3bfd0 size 0x8 virtual false final false
+  /// @brief Method get_menuRpcManager addr 0xdb6a48 size 0x8 virtual false final false
   inline ::GlobalNamespace::MenuRpcManager* get_menuRpcManager();
 
-  /// @brief Method set_menuRpcManager addr 0xe3bfd8 size 0x8 virtual false final false
+  /// @brief Method set_menuRpcManager addr 0xdb6a50 size 0x8 virtual false final false
   inline void set_menuRpcManager(::GlobalNamespace::MenuRpcManager* value);
 
-  /// @brief Method get_gameplayRpcManager addr 0xe3bfe0 size 0x8 virtual false final false
+  /// @brief Method get_gameplayRpcManager addr 0xdb6a58 size 0x8 virtual false final false
   inline ::GlobalNamespace::GameplayRpcManager* get_gameplayRpcManager();
 
-  /// @brief Method set_gameplayRpcManager addr 0xe3bfe8 size 0x8 virtual false final false
+  /// @brief Method set_gameplayRpcManager addr 0xdb6a60 size 0x8 virtual false final false
   inline void set_gameplayRpcManager(::GlobalNamespace::GameplayRpcManager* value);
 
   static inline ::GlobalNamespace::GameplayServerFiniteStateMachine* New_ctor(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams initParams);
 
-  /// @brief Method .ctor addr 0xe3be14 size 0x124 virtual false final false
+  /// @brief Method .ctor addr 0xdb68a0 size 0x118 virtual false final false
   inline void _ctor(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams initParams);
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayServerFiniteStateMachine", modifiers: "&&", def_value: None }]
@@ -294,31 +306,51 @@ public:
   /// @brief Field <ownerUserId>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____ownerUserId_k__BackingField;
 
-  /// @brief Field <selectionMask>k__BackingField, offset: 0x28, size: 0x28, def value: None
+  /// @brief Field <selectionMask>k__BackingField, offset: 0x28, size: 0x18, def value: None
   ::GlobalNamespace::BeatmapLevelSelectionMask ____selectionMask_k__BackingField;
 
-  /// @brief Field <configuration>k__BackingField, offset: 0x50, size: 0x18, def value: None
+  /// @brief Field <configuration>k__BackingField, offset: 0x40, size: 0x18, def value: None
   ::GlobalNamespace::GameplayServerConfiguration ____configuration_k__BackingField;
 
-  /// @brief Field <beatmapProvider>k__BackingField, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field <beatmapProvider>k__BackingField, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::IServerBeatmapProvider* ____beatmapProvider_k__BackingField;
 
-  /// @brief Field <menuRpcManager>k__BackingField, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field <menuRpcManager>k__BackingField, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::MenuRpcManager* ____menuRpcManager_k__BackingField;
 
-  /// @brief Field <gameplayRpcManager>k__BackingField, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field <gameplayRpcManager>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::GameplayRpcManager* ____gameplayRpcManager_k__BackingField;
 
-  /// @brief Field state, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field state, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::GameState* ___state;
 
-  /// @brief Field enteringState, offset: 0x88, size: 0x1, def value: None
+  /// @brief Field enteringState, offset: 0x78, size: 0x1, def value: None
   bool ___enteringState;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayServerFiniteStateMachine, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayServerFiniteStateMachine, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayServerFiniteStateMachine, ____taskUtility_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayServerFiniteStateMachine, ____multiplayerSessionManager_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayServerFiniteStateMachine, ____ownerUserId_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayServerFiniteStateMachine, ____selectionMask_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayServerFiniteStateMachine, ____configuration_k__BackingField) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayServerFiniteStateMachine, ____beatmapProvider_k__BackingField) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayServerFiniteStateMachine, ____menuRpcManager_k__BackingField) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayServerFiniteStateMachine, ____gameplayRpcManager_k__BackingField) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayServerFiniteStateMachine, ___state) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayServerFiniteStateMachine, ___enteringState) == 0x78, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameplayServerFiniteStateMachine);

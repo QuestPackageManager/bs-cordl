@@ -14,16 +14,16 @@ MARK_REF_PTR_T(::System::Xml::XmlConfiguration::XmlReaderSection);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::XmlConfiguration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11591))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11519))
 // CS Name: ::System.Xml.XmlConfiguration::XmlReaderSection*
 class CORDL_TYPE XmlReaderSection : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_ProhibitDefaultUrlResolver addr 0x28abf90 size 0x8 virtual false final false
+  /// @brief Method get_ProhibitDefaultUrlResolver addr 0x272ef6c size 0x8 virtual false final false
   static inline bool get_ProhibitDefaultUrlResolver();
 
-  /// @brief Method get_CollapseWhiteSpaceIntoEmptyString addr 0x289e1d8 size 0x8 virtual false final false
+  /// @brief Method get_CollapseWhiteSpaceIntoEmptyString addr 0x27211b8 size 0x8 virtual false final false
   static inline bool get_CollapseWhiteSpaceIntoEmptyString();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlReaderSection", modifiers: "&&", def_value: None }]

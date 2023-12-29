@@ -12,14 +12,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointerModel)
-namespace UnityEngine::InputSystem::UI {
-struct __PointerModel__ButtonState;
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::InputSystem::UI {
+struct __PointerModel__ButtonState;
 }
 namespace UnityEngine::InputSystem::UI {
 struct UIPointerType;
@@ -27,20 +30,17 @@ struct UIPointerType;
 namespace UnityEngine::InputSystem::UI {
 class ExtendedPointerEventData;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine::EventSystems {
 class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
 }
 namespace UnityEngine::EventSystems {
 struct __PointerEventData__FramePressState;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::UI {
@@ -56,8 +56,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 155, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13167)), TypeDefinitionIndex(TypeDefinitionIndex(13213)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6379))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13172)), TypeDefinitionIndex(TypeDefinitionIndex(13218)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6465))
 // CS Name: ::PointerModel::ButtonState
 struct CORDL_TYPE __PointerModel__ButtonState {
 public:
@@ -74,43 +74,43 @@ public:
 
   __declspec(property(get = get_wasReleasedThisFrame)) bool wasReleasedThisFrame;
 
-  /// @brief Method get_isPressed addr 0x2ad688c size 0x8 virtual false final false
+  /// @brief Method get_isPressed addr 0x2956b44 size 0x8 virtual false final false
   inline bool get_isPressed();
 
-  /// @brief Method set_isPressed addr 0x2ad59f0 size 0x54 virtual false final false
+  /// @brief Method set_isPressed addr 0x2955ca8 size 0x54 virtual false final false
   inline void set_isPressed(bool value);
 
-  /// @brief Method get_ignoreNextClick addr 0x2ad6894 size 0x8 virtual false final false
+  /// @brief Method get_ignoreNextClick addr 0x2956b4c size 0x8 virtual false final false
   inline bool get_ignoreNextClick();
 
-  /// @brief Method set_ignoreNextClick addr 0x2ad689c size 0xc virtual false final false
+  /// @brief Method set_ignoreNextClick addr 0x2956b54 size 0xc virtual false final false
   inline void set_ignoreNextClick(bool value);
 
-  /// @brief Method get_pressTime addr 0x2ad68a8 size 0x8 virtual false final false
+  /// @brief Method get_pressTime addr 0x2956b60 size 0x8 virtual false final false
   inline float_t get_pressTime();
 
-  /// @brief Method set_pressTime addr 0x2ad68b0 size 0x8 virtual false final false
+  /// @brief Method set_pressTime addr 0x2956b68 size 0x8 virtual false final false
   inline void set_pressTime(float_t value);
 
-  /// @brief Method get_clickedOnSameGameObject addr 0x2ad68b8 size 0x8 virtual false final false
+  /// @brief Method get_clickedOnSameGameObject addr 0x2956b70 size 0x8 virtual false final false
   inline bool get_clickedOnSameGameObject();
 
-  /// @brief Method set_clickedOnSameGameObject addr 0x2ad68c0 size 0xc virtual false final false
+  /// @brief Method set_clickedOnSameGameObject addr 0x2956b78 size 0xc virtual false final false
   inline void set_clickedOnSameGameObject(bool value);
 
-  /// @brief Method get_wasPressedThisFrame addr 0x2ad2774 size 0x10 virtual false final false
+  /// @brief Method get_wasPressedThisFrame addr 0x2952a2c size 0x10 virtual false final false
   inline bool get_wasPressedThisFrame();
 
-  /// @brief Method get_wasReleasedThisFrame addr 0x2ad20cc size 0x14 virtual false final false
+  /// @brief Method get_wasReleasedThisFrame addr 0x2952384 size 0x14 virtual false final false
   inline bool get_wasReleasedThisFrame();
 
-  /// @brief Method CopyPressStateTo addr 0x2ad1244 size 0xa0 virtual false final false
+  /// @brief Method CopyPressStateTo addr 0x29514fc size 0xa0 virtual false final false
   inline void CopyPressStateTo(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method CopyPressStateFrom addr 0x2ad2784 size 0x68 virtual false final false
+  /// @brief Method CopyPressStateFrom addr 0x2952a3c size 0x68 virtual false final false
   inline void CopyPressStateFrom(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnEndFrame addr 0x2ad6880 size 0xc virtual false final false
+  /// @brief Method OnEndFrame addr 0x2956b38 size 0xc virtual false final false
   inline void OnEndFrame();
 
   // Ctor Parameters [CppParam { name: "m_IsPressed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_FramePressState", ty:
@@ -180,13 +180,41 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::UI::__PointerModel__ButtonState, 0x90>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState, m_IsPressed) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState, m_FramePressState) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState, m_PressTime) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState, m_PressRaycast) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState, m_PressObject) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState, m_RawPressObject) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState, m_LastPressObject) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState, m_DragObject) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState, m_PressPosition) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState, m_ClickTime) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState, m_ClickCount) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState, m_Dragging) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState, m_ClickedOnSameGameObject) == 0x89, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState, m_IgnoreNextClick) == 0x8a, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::UI
 // Type: UnityEngine.InputSystem.UI::PointerModel
 // SizeInfo { instance_size: 520, native_size: -1, calculated_instance_size: 520, calculated_native_size: 532, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(6379)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6380)) CS Name: ::UnityEngine.InputSystem.UI::PointerModel
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(6465)), TypeDefinitionIndex(TypeDefinitionIndex(10179)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10176))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6466)) CS Name: ::UnityEngine.InputSystem.UI::PointerModel
 struct CORDL_TYPE PointerModel {
 public:
   // Declarations
@@ -212,70 +240,70 @@ public:
 
   __declspec(property(get = get_radius, put = set_radius))::UnityEngine::Vector2 radius;
 
-  /// @brief Method get_pointerType addr 0x2ad1330 size 0x1c virtual false final false
+  /// @brief Method get_pointerType addr 0x29515e8 size 0x1c virtual false final false
   inline ::UnityEngine::InputSystem::UI::UIPointerType get_pointerType();
 
-  /// @brief Method get_screenPosition addr 0x2ad6768 size 0xc virtual false final false
+  /// @brief Method get_screenPosition addr 0x2956a20 size 0xc virtual false final false
   inline ::UnityEngine::Vector2 get_screenPosition();
 
-  /// @brief Method set_screenPosition addr 0x2ad53b8 size 0x40 virtual false final false
+  /// @brief Method set_screenPosition addr 0x2955670 size 0x40 virtual false final false
   inline void set_screenPosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_worldPosition addr 0x2ad6774 size 0x10 virtual false final false
+  /// @brief Method get_worldPosition addr 0x2956a2c size 0x10 virtual false final false
   inline ::UnityEngine::Vector3 get_worldPosition();
 
-  /// @brief Method set_worldPosition addr 0x2ad5e0c size 0x54 virtual false final false
+  /// @brief Method set_worldPosition addr 0x29560c4 size 0x54 virtual false final false
   inline void set_worldPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_worldOrientation addr 0x2ad6784 size 0x14 virtual false final false
+  /// @brief Method get_worldOrientation addr 0x2956a3c size 0x14 virtual false final false
   inline ::UnityEngine::Quaternion get_worldOrientation();
 
-  /// @brief Method set_worldOrientation addr 0x2ad5d30 size 0x58 virtual false final false
+  /// @brief Method set_worldOrientation addr 0x2955fe8 size 0x58 virtual false final false
   inline void set_worldOrientation(::UnityEngine::Quaternion value);
 
-  /// @brief Method get_scrollDelta addr 0x2ad6798 size 0xc virtual false final false
+  /// @brief Method get_scrollDelta addr 0x2956a50 size 0xc virtual false final false
   inline ::UnityEngine::Vector2 get_scrollDelta();
 
-  /// @brief Method set_scrollDelta addr 0x2ad5c0c size 0x40 virtual false final false
+  /// @brief Method set_scrollDelta addr 0x2955ec4 size 0x40 virtual false final false
   inline void set_scrollDelta(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_pressure addr 0x2ad67a4 size 0x8 virtual false final false
+  /// @brief Method get_pressure addr 0x2956a5c size 0x8 virtual false final false
   inline float_t get_pressure();
 
-  /// @brief Method set_pressure addr 0x2ad67ac size 0x1c virtual false final false
+  /// @brief Method set_pressure addr 0x2956a64 size 0x1c virtual false final false
   inline void set_pressure(float_t value);
 
-  /// @brief Method get_azimuthAngle addr 0x2ad67c8 size 0x8 virtual false final false
+  /// @brief Method get_azimuthAngle addr 0x2956a80 size 0x8 virtual false final false
   inline float_t get_azimuthAngle();
 
-  /// @brief Method set_azimuthAngle addr 0x2ad67d0 size 0x1c virtual false final false
+  /// @brief Method set_azimuthAngle addr 0x2956a88 size 0x1c virtual false final false
   inline void set_azimuthAngle(float_t value);
 
-  /// @brief Method get_altitudeAngle addr 0x2ad67ec size 0x8 virtual false final false
+  /// @brief Method get_altitudeAngle addr 0x2956aa4 size 0x8 virtual false final false
   inline float_t get_altitudeAngle();
 
-  /// @brief Method set_altitudeAngle addr 0x2ad67f4 size 0x1c virtual false final false
+  /// @brief Method set_altitudeAngle addr 0x2956aac size 0x1c virtual false final false
   inline void set_altitudeAngle(float_t value);
 
-  /// @brief Method get_twist addr 0x2ad6810 size 0x8 virtual false final false
+  /// @brief Method get_twist addr 0x2956ac8 size 0x8 virtual false final false
   inline float_t get_twist();
 
-  /// @brief Method set_twist addr 0x2ad6818 size 0x1c virtual false final false
+  /// @brief Method set_twist addr 0x2956ad0 size 0x1c virtual false final false
   inline void set_twist(float_t value);
 
-  /// @brief Method get_radius addr 0x2ad6834 size 0xc virtual false final false
+  /// @brief Method get_radius addr 0x2956aec size 0xc virtual false final false
   inline ::UnityEngine::Vector2 get_radius();
 
-  /// @brief Method set_radius addr 0x2ad6840 size 0x40 virtual false final false
+  /// @brief Method set_radius addr 0x2956af8 size 0x40 virtual false final false
   inline void set_radius(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor addr 0x2ad53f8 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x29556b0 size 0x6c virtual false final false
   inline void _ctor(::UnityEngine::InputSystem::UI::ExtendedPointerEventData* eventData);
 
-  /// @brief Method OnFrameFinished addr 0x2ad6018 size 0x48 virtual false final false
+  /// @brief Method OnFrameFinished addr 0x29562d0 size 0x48 virtual false final false
   inline void OnFrameFinished();
 
-  /// @brief Method CopyTouchOrPenStateFrom addr 0x2ad6060 size 0xc8 virtual false final false
+  /// @brief Method CopyTouchOrPenStateFrom addr 0x2956318 size 0xc8 virtual false final false
   inline void CopyTouchOrPenStateFrom(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   // Ctor Parameters [CppParam { name: "changedThisFrame", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "leftButton", ty:
@@ -344,6 +372,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::UI::PointerModel, 0x208>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::PointerModel, changedThisFrame) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::PointerModel, leftButton) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::PointerModel, rightButton) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::PointerModel, middleButton) == 0x128, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::PointerModel, eventData) == 0x1b8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::PointerModel, m_ScreenPosition) == 0x1c0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::PointerModel, m_ScrollDelta) == 0x1c8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::PointerModel, m_WorldPosition) == 0x1d0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::PointerModel, m_WorldOrientation) == 0x1dc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::PointerModel, m_Pressure) == 0x1ec, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::PointerModel, m_AzimuthAngle) == 0x1f0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::PointerModel, m_AltitudeAngle) == 0x1f4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::PointerModel, m_Twist) == 0x1f8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::PointerModel, m_Radius) == 0x1fc, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::UI
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::UI::PointerModel, "UnityEngine.InputSystem.UI", "PointerModel");

@@ -37,10 +37,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* New_ctor(int32_t value);
 
-  /// @brief Method .ctor addr 0xe89458 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0xe14284 size 0x4 virtual false final false
   inline void _ctor(int32_t value);
 
-  /// @brief Method ValueOf addr 0xe87b38 size 0x110 virtual false final false
+  /// @brief Method ValueOf addr 0xe12964 size 0x110 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* ValueOf(int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubsequentMessage", modifiers: "&&", def_value: None }]

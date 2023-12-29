@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Authentication::SslProtocols);
 namespace System::Security::Authentication {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8964))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7801))
 // CS Name: ::System.Security.Authentication::SslProtocols
 struct CORDL_TYPE SslProtocols {
 public:
@@ -81,6 +81,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Authentication::SslProtocols, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Authentication::SslProtocols, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Security::Authentication
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Authentication::SslProtocols, "System.Security.Authentication", "SslProtocols");

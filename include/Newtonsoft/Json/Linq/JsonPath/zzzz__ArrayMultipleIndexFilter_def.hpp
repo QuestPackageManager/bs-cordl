@@ -7,20 +7,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayMultipleIndexFilter)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace Newtonsoft::Json::Linq {
 class JToken;
-}
-namespace Newtonsoft::Json::Linq::JsonPath {
-class __ArrayMultipleIndexFilter___ExecuteFilter_d__4;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class IDisposable;
+namespace Newtonsoft::Json::Linq::JsonPath {
+class __ArrayMultipleIndexFilter___ExecuteFilter_d__4;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -28,11 +25,14 @@ class IEnumerable;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3842)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12010)) CS Name: ::ArrayMultipleIndexFilter::<ExecuteFilter>d__4*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3830)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3830), inst: 101 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2611))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11938)) CS Name: ::ArrayMultipleIndexFilter::<ExecuteFilter>d__4*
 class CORDL_TYPE __ArrayMultipleIndexFilter___ExecuteFilter_d__4 : public ::System::Object {
 public:
   // Declarations
@@ -174,34 +174,34 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x26ac268 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x2547b24 size 0x44 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x26ac2b4 size 0xb0 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2547b70 size 0xb0 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x26ac364 size 0x358 virtual true final true
+  /// @brief Method MoveNext addr 0x2547c20 size 0x358 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1 addr 0x26ac70c size 0xb0 virtual false final false
+  /// @brief Method <>m__Finally1 addr 0x2547fc8 size 0xb0 virtual false final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2 addr 0x26ac6bc size 0x50 virtual false final false
+  /// @brief Method <>m__Finally2 addr 0x2547f78 size 0x50 virtual false final false
   inline void __m__Finally2();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current addr 0x26ac7bc size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current addr 0x2548078 size 0x8 virtual true final true
   inline ::Newtonsoft::Json::Linq::JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x26ac7c4 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2548080 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x26ac804 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x25480c0 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator addr 0x26ac80c size 0xb0 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator addr 0x25480c8 size 0xb0 virtual true final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* System_Collections_Generic_IEnumerable_Newtonsoft_Json_Linq_JToken__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x26ac8bc size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2548178 size 0x4 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ArrayMultipleIndexFilter___ExecuteFilter_d__4", modifiers: "&&", def_value: None }]
@@ -256,13 +256,35 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__4, 0x70>, "Size mismatch!");
 
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__4, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__4, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__4, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__4, ___current) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__4, _____3__current) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__4, _____4__this) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__4, ____t_5__1) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__4, ___errorWhenNoMatch) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__4, _____3__errorWhenNoMatch) == 0x49, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__4, _____7__wrap1) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__4, _____7__wrap2) == 0x58, "Offset mismatch!");
+
 } // namespace Newtonsoft::Json::Linq::JsonPath
 // Type: Newtonsoft.Json.Linq.JsonPath::ArrayMultipleIndexFilter
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12020))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12011))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11948))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11939))
 // CS Name: ::Newtonsoft.Json.Linq.JsonPath::ArrayMultipleIndexFilter*
 class CORDL_TYPE ArrayMultipleIndexFilter : public ::Newtonsoft::Json::Linq::JsonPath::PathFilter {
 public:
@@ -280,19 +302,19 @@ public:
 
   constexpr void __set__Indexes_k__BackingField(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method get_Indexes addr 0x26ac1dc size 0x8 virtual false final false
+  /// @brief Method get_Indexes addr 0x2547a98 size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<int32_t>* get_Indexes();
 
-  /// @brief Method set_Indexes addr 0x26ac1e4 size 0x8 virtual false final false
+  /// @brief Method set_Indexes addr 0x2547aa0 size 0x8 virtual false final false
   inline void set_Indexes(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method ExecuteFilter addr 0x26ac1ec size 0x7c virtual true final false
+  /// @brief Method ExecuteFilter addr 0x2547aa8 size 0x7c virtual true final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
                                                                                                          bool errorWhenNoMatch);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter* New_ctor();
 
-  /// @brief Method .ctor addr 0x26ac2ac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2547b68 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayMultipleIndexFilter", modifiers: "&&", def_value: None }]
@@ -316,6 +338,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter, ____Indexes_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Linq::JsonPath
 NEED_NO_BOX(::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter);

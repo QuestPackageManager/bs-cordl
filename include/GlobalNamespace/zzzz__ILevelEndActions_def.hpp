@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ILevelEndActions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5015))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5120))
 // CS Name: ::ILevelEndActions*
 class CORDL_TYPE ILevelEndActions {
 public:

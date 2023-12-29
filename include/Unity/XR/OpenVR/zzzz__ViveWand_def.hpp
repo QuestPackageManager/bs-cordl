@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/XR/zzzz__XRControllerWithRumble_def.hpp"
 CORDL_MODULE_EXPORT(ViveWand)
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
-}
-namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
-}
-namespace UnityEngine::InputSystem::Controls {
 class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
+class Vector2Control;
+}
+namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class AxisControl;
 }
 // Forward declare root types
 namespace Unity::XR::OpenVR {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::Unity::XR::OpenVR::ViveWand);
 // SizeInfo { instance_size: 456, native_size: -1, calculated_instance_size: 456, calculated_native_size: 456, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6326))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6117))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6412))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6203))
 // CS Name: ::Unity.XR.OpenVR::ViveWand*
 class CORDL_TYPE ViveWand : public ::UnityEngine::InputSystem::XR::XRControllerWithRumble {
 public:
@@ -143,72 +143,72 @@ public:
 
   constexpr void __set__deviceAngularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_grip addr 0x2a342dc size 0x8 virtual false final false
+  /// @brief Method get_grip addr 0x28b5594 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_grip();
 
-  /// @brief Method set_grip addr 0x2a342e4 size 0x8 virtual false final false
+  /// @brief Method set_grip addr 0x28b559c size 0x8 virtual false final false
   inline void set_grip(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_gripPressed addr 0x2a342ec size 0x8 virtual false final false
+  /// @brief Method get_gripPressed addr 0x28b55a4 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_gripPressed();
 
-  /// @brief Method set_gripPressed addr 0x2a342f4 size 0x8 virtual false final false
+  /// @brief Method set_gripPressed addr 0x28b55ac size 0x8 virtual false final false
   inline void set_gripPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_primary addr 0x2a342fc size 0x8 virtual false final false
+  /// @brief Method get_primary addr 0x28b55b4 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_primary();
 
-  /// @brief Method set_primary addr 0x2a34304 size 0x8 virtual false final false
+  /// @brief Method set_primary addr 0x28b55bc size 0x8 virtual false final false
   inline void set_primary(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_trackpadPressed addr 0x2a3430c size 0x8 virtual false final false
+  /// @brief Method get_trackpadPressed addr 0x28b55c4 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadPressed();
 
-  /// @brief Method set_trackpadPressed addr 0x2a34314 size 0x8 virtual false final false
+  /// @brief Method set_trackpadPressed addr 0x28b55cc size 0x8 virtual false final false
   inline void set_trackpadPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_trackpadTouched addr 0x2a3431c size 0x8 virtual false final false
+  /// @brief Method get_trackpadTouched addr 0x28b55d4 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadTouched();
 
-  /// @brief Method set_trackpadTouched addr 0x2a34324 size 0x8 virtual false final false
+  /// @brief Method set_trackpadTouched addr 0x28b55dc size 0x8 virtual false final false
   inline void set_trackpadTouched(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_trackpad addr 0x2a3432c size 0x8 virtual false final false
+  /// @brief Method get_trackpad addr 0x28b55e4 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_trackpad();
 
-  /// @brief Method set_trackpad addr 0x2a34334 size 0x8 virtual false final false
+  /// @brief Method set_trackpad addr 0x28b55ec size 0x8 virtual false final false
   inline void set_trackpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method get_trigger addr 0x2a3433c size 0x8 virtual false final false
+  /// @brief Method get_trigger addr 0x28b55f4 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_trigger();
 
-  /// @brief Method set_trigger addr 0x2a34344 size 0x8 virtual false final false
+  /// @brief Method set_trigger addr 0x28b55fc size 0x8 virtual false final false
   inline void set_trigger(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_triggerPressed addr 0x2a3434c size 0x8 virtual false final false
+  /// @brief Method get_triggerPressed addr 0x28b5604 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_triggerPressed();
 
-  /// @brief Method set_triggerPressed addr 0x2a34354 size 0x8 virtual false final false
+  /// @brief Method set_triggerPressed addr 0x28b560c size 0x8 virtual false final false
   inline void set_triggerPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_deviceVelocity addr 0x2a3435c size 0x8 virtual false final false
+  /// @brief Method get_deviceVelocity addr 0x28b5614 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
 
-  /// @brief Method set_deviceVelocity addr 0x2a34364 size 0x8 virtual false final false
+  /// @brief Method set_deviceVelocity addr 0x28b561c size 0x8 virtual false final false
   inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_deviceAngularVelocity addr 0x2a3436c size 0x8 virtual false final false
+  /// @brief Method get_deviceAngularVelocity addr 0x28b5624 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularVelocity();
 
-  /// @brief Method set_deviceAngularVelocity addr 0x2a34374 size 0x8 virtual false final false
+  /// @brief Method set_deviceAngularVelocity addr 0x28b562c size 0x8 virtual false final false
   inline void set_deviceAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method FinishSetup addr 0x2a3437c size 0x238 virtual true final false
+  /// @brief Method FinishSetup addr 0x28b5634 size 0x238 virtual true final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::OpenVR::ViveWand* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a345b4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x28b586c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ViveWand", modifiers: "&&", def_value: None }]
@@ -259,6 +259,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::XR::OpenVR::ViveWand, 0x1c8>, "Size mismatch!");
+
+static_assert(offsetof(::Unity::XR::OpenVR::ViveWand, ____grip_k__BackingField) == 0x178, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::OpenVR::ViveWand, ____gripPressed_k__BackingField) == 0x180, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::OpenVR::ViveWand, ____primary_k__BackingField) == 0x188, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::OpenVR::ViveWand, ____trackpadPressed_k__BackingField) == 0x190, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::OpenVR::ViveWand, ____trackpadTouched_k__BackingField) == 0x198, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::OpenVR::ViveWand, ____trackpad_k__BackingField) == 0x1a0, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::OpenVR::ViveWand, ____trigger_k__BackingField) == 0x1a8, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::OpenVR::ViveWand, ____triggerPressed_k__BackingField) == 0x1b0, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::OpenVR::ViveWand, ____deviceVelocity_k__BackingField) == 0x1b8, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::OpenVR::ViveWand, ____deviceAngularVelocity_k__BackingField) == 0x1c0, "Offset mismatch!");
 
 } // namespace Unity::XR::OpenVR
 NEED_NO_BOX(::Unity::XR::OpenVR::ViveWand);

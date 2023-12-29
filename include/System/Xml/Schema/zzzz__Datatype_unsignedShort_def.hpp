@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Datatype_unsignedShort)
-namespace System {
-class Type;
-}
 namespace System::Xml::Schema {
 class FacetsChecker;
 }
-namespace System {
-class Object;
+namespace System::Xml::Schema {
+struct XmlTypeCode;
 }
 namespace System::Xml {
 class XmlNameTable;
 }
-namespace System::Xml {
-class IXmlNamespaceResolver;
+namespace System {
+class Type;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Exception;
 }
-namespace System::Xml::Schema {
-struct XmlTypeCode;
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_unsignedShort);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11673))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11674))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11602))
 // CS Name: ::System.Xml.Schema::Datatype_unsignedShort*
 class CORDL_TYPE Datatype_unsignedShort : public ::System::Xml::Schema::Datatype_unsignedInt {
 public:
@@ -73,27 +73,27 @@ public:
 
   static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker();
 
-  /// @brief Method get_FacetsChecker addr 0x28bdea0 size 0x58 virtual true final false
+  /// @brief Method get_FacetsChecker addr 0x273fe7c size 0x58 virtual true final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_TypeCode addr 0x28bdef8 size 0x8 virtual true final false
+  /// @brief Method get_TypeCode addr 0x273fed4 size 0x8 virtual true final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method Compare addr 0x28bdf00 size 0x94 virtual true final false
+  /// @brief Method Compare addr 0x273fedc size 0x94 virtual true final false
   inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
 
-  /// @brief Method get_ValueType addr 0x28bdf94 size 0x58 virtual true final false
+  /// @brief Method get_ValueType addr 0x273ff70 size 0x58 virtual true final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_ListValueType addr 0x28bdfec size 0x58 virtual true final false
+  /// @brief Method get_ListValueType addr 0x273ffc8 size 0x58 virtual true final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method TryParseValue addr 0x28be044 size 0x140 virtual true final false
+  /// @brief Method TryParseValue addr 0x2740020 size 0x140 virtual true final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
   static inline ::System::Xml::Schema::Datatype_unsignedShort* New_ctor();
 
-  /// @brief Method .ctor addr 0x28be184 size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x2740160 size 0x54 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_unsignedShort", modifiers: "&&", def_value: None }]

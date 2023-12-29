@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NamedIntListController)
-namespace GlobalNamespace {
-class __NamedIntListController__TextValuePair;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace HMUI {
 template <typename T> class IValueChanger_1;
+}
+namespace GlobalNamespace {
+class __NamedIntListController__TextValuePair;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__NamedIntListController__TextValuePair);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16152))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5536))
 // CS Name: ::NamedIntListController::TextValuePair*
 class CORDL_TYPE __NamedIntListController__TextValuePair : public ::System::Object {
 public:
@@ -58,12 +58,12 @@ public:
 
   constexpr void __set_value(int32_t value);
 
-  /// @brief Method get_localizedText addr 0x23e5724 size 0xc virtual false final false
+  /// @brief Method get_localizedText addr 0x2139820 size 0xc virtual false final false
   inline ::StringW get_localizedText();
 
   static inline ::GlobalNamespace::__NamedIntListController__TextValuePair* New_ctor();
 
-  /// @brief Method .ctor addr 0x23e5738 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2139834 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NamedIntListController__TextValuePair", modifiers: "&&", def_value: None }]
@@ -91,13 +91,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NamedIntListController__TextValuePair, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__NamedIntListController__TextValuePair, ___localizationKey) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__NamedIntListController__TextValuePair, ___value) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::NamedIntListController
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16149))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16153))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5691))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5537))
 // CS Name: ::NamedIntListController*
 class CORDL_TYPE NamedIntListController : public ::GlobalNamespace::ListSettingsController {
 public:
@@ -136,30 +140,30 @@ public:
 
   constexpr void __set_valueChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_valueChangedEvent addr 0x23e5484 size 0xb0 virtual true final true
+  /// @brief Method add_valueChangedEvent addr 0x21395d0 size 0xb0 virtual true final true
   inline void add_valueChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_valueChangedEvent addr 0x23e5534 size 0xb0 virtual true final true
+  /// @brief Method remove_valueChangedEvent addr 0x2139680 size 0xb0 virtual true final true
   inline void remove_valueChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method InitValues addr 0x23e55e4 size 0x38 virtual false final false
+  /// @brief Method InitValues addr 0x2139730 size 0x10 virtual false final false
   inline void InitValues(::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*> values);
 
-  /// @brief Method SetValue addr 0x23e561c size 0x38 virtual false final false
+  /// @brief Method SetValue addr 0x2139740 size 0x10 virtual false final false
   inline void SetValue(int32_t value);
 
-  /// @brief Method GetInitValues addr 0x23e5654 size 0x74 virtual true final false
+  /// @brief Method GetInitValues addr 0x2139750 size 0x74 virtual true final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method ApplyValue addr 0x23e56c8 size 0x20 virtual true final false
+  /// @brief Method ApplyValue addr 0x21397c4 size 0x20 virtual true final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method TextForValue addr 0x23e56e8 size 0x3c virtual true final false
+  /// @brief Method TextForValue addr 0x21397e4 size 0x3c virtual true final false
   inline ::StringW TextForValue(int32_t idx);
 
   static inline ::GlobalNamespace::NamedIntListController* New_ctor();
 
-  /// @brief Method .ctor addr 0x23e5730 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x213982c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NamedIntListController", modifiers: "&&", def_value: None }]
@@ -189,6 +193,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NamedIntListController, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NamedIntListController, ____textValuePairs) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NamedIntListController, ____value) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NamedIntListController, ___valueChangedEvent) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NamedIntListController);

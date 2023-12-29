@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::FocusChangeDirection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6881))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6967))
 // CS Name: ::UnityEngine.UIElements::FocusChangeDirection*
 class CORDL_TYPE FocusChangeDirection : public ::System::Object {
 public:
@@ -64,30 +64,30 @@ public:
 
   static inline ::UnityEngine::UIElements::FocusChangeDirection* getStaticF__lastValue_k__BackingField();
 
-  /// @brief Method get_unspecified addr 0x2dfa40c size 0x58 virtual false final false
+  /// @brief Method get_unspecified addr 0x2c9405c size 0x58 virtual false final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_unspecified();
 
-  /// @brief Method get_none addr 0x2dfa464 size 0x58 virtual false final false
+  /// @brief Method get_none addr 0x2c940b4 size 0x58 virtual false final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_none();
 
-  /// @brief Method get_lastValue addr 0x2dfa4bc size 0x58 virtual false final false
+  /// @brief Method get_lastValue addr 0x2c9410c size 0x58 virtual false final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_lastValue();
 
   static inline ::UnityEngine::UIElements::FocusChangeDirection* New_ctor(int32_t value);
 
-  /// @brief Method .ctor addr 0x2dfa514 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2c94164 size 0x28 virtual false final false
   inline void _ctor(int32_t value);
 
-  /// @brief Method op_Implicit addr 0x2dfa53c size 0xc virtual false final false
+  /// @brief Method op_Implicit addr 0x2c9418c size 0xc virtual false final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::UIElements::FocusChangeDirection* fcd);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2dfa548 size 0xc virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2c94198 size 0xc virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method Dispose addr 0x2dfa554 size 0x4 virtual true final false
+  /// @brief Method Dispose addr 0x2c941a4 size 0x4 virtual true final false
   inline void Dispose();
 
-  /// @brief Method ApplyTo addr 0x2dfa558 size 0x28 virtual true final false
+  /// @brief Method ApplyTo addr 0x2c941a8 size 0x28 virtual true final false
   inline void ApplyTo(::UnityEngine::UIElements::FocusController* focusController, ::UnityEngine::UIElements::Focusable* f);
 
   // Ctor Parameters [CppParam { name: "", ty: "FocusChangeDirection", modifiers: "&&", def_value: None }]
@@ -111,6 +111,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::FocusChangeDirection, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::FocusChangeDirection, ___m_Value) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::FocusChangeDirection);

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Reflection::SignatureArrayType);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3493))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3490))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3488))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3485))
 // CS Name: ::System.Reflection::SignatureArrayType*
 class CORDL_TYPE SignatureArrayType : public ::System::Reflection::SignatureHasElementType {
 public:
@@ -51,28 +51,28 @@ public:
 
   static inline ::System::Reflection::SignatureArrayType* New_ctor(::System::Reflection::SignatureType* elementType, int32_t rank, bool isMultiDim);
 
-  /// @brief Method .ctor addr 0x24e9e84 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x23903cc size 0x3c virtual false final false
   inline void _ctor(::System::Reflection::SignatureType* elementType, int32_t rank, bool isMultiDim);
 
-  /// @brief Method IsArrayImpl addr 0x24e9ee4 size 0x8 virtual true final true
+  /// @brief Method IsArrayImpl addr 0x239042c size 0x8 virtual true final true
   inline bool IsArrayImpl();
 
-  /// @brief Method IsByRefImpl addr 0x24e9eec size 0x8 virtual true final true
+  /// @brief Method IsByRefImpl addr 0x2390434 size 0x8 virtual true final true
   inline bool IsByRefImpl();
 
-  /// @brief Method IsPointerImpl addr 0x24e9ef4 size 0x8 virtual true final true
+  /// @brief Method IsPointerImpl addr 0x239043c size 0x8 virtual true final true
   inline bool IsPointerImpl();
 
-  /// @brief Method get_IsSZArray addr 0x24e9efc size 0x10 virtual true final true
+  /// @brief Method get_IsSZArray addr 0x2390444 size 0x10 virtual true final true
   inline bool get_IsSZArray();
 
-  /// @brief Method get_IsVariableBoundArray addr 0x24e9f0c size 0x8 virtual true final true
+  /// @brief Method get_IsVariableBoundArray addr 0x2390454 size 0x8 virtual true final true
   inline bool get_IsVariableBoundArray();
 
-  /// @brief Method GetArrayRank addr 0x24e9f14 size 0x8 virtual true final true
+  /// @brief Method GetArrayRank addr 0x239045c size 0x8 virtual true final true
   inline int32_t GetArrayRank();
 
-  /// @brief Method get_Suffix addr 0x24e9f1c size 0xc8 virtual true final true
+  /// @brief Method get_Suffix addr 0x2390464 size 0xc8 virtual true final true
   inline ::StringW get_Suffix();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignatureArrayType", modifiers: "&&", def_value: None }]
@@ -99,6 +99,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::SignatureArrayType, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::SignatureArrayType, ____rank) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::SignatureArrayType, ____isMultiDim) == 0x24, "Offset mismatch!");
 
 } // namespace System::Reflection
 NEED_NO_BOX(::System::Reflection::SignatureArrayType);

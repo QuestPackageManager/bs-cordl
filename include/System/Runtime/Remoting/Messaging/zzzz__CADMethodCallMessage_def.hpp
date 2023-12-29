@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CADMethodCallMessage)
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMethodCallMessage;
 }
+namespace System::Collections {
+class ArrayList;
+}
 namespace System {
 class Object;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CADMethodCallMessage);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3155))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3156))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3154))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3155))
 // CS Name: ::System.Runtime.Remoting.Messaging::CADMethodCallMessage*
 class CORDL_TYPE CADMethodCallMessage : public ::System::Runtime::Remoting::Messaging::CADMessageBase {
 public:
@@ -48,24 +48,24 @@ public:
 
   constexpr void __set__uri(::StringW value);
 
-  /// @brief Method get_Uri addr 0x24aa1b4 size 0x8 virtual false final false
+  /// @brief Method get_Uri addr 0x23516c0 size 0x8 virtual false final false
   inline ::StringW get_Uri();
 
-  /// @brief Method Create addr 0x24a3920 size 0x90 virtual false final false
+  /// @brief Method Create addr 0x234ae2c size 0x90 virtual false final false
   static inline ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* Create(::System::Runtime::Remoting::Messaging::IMessage* callMsg);
 
   static inline ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* New_ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg);
 
-  /// @brief Method .ctor addr 0x24aa1bc size 0x1f0 virtual false final false
+  /// @brief Method .ctor addr 0x23516c8 size 0x1f0 virtual false final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg);
 
-  /// @brief Method GetArguments addr 0x24aa3ac size 0x140 virtual false final false
+  /// @brief Method GetArguments addr 0x23518b8 size 0x140 virtual false final false
   inline ::System::Collections::ArrayList* GetArguments();
 
-  /// @brief Method GetArgs addr 0x24aa4ec size 0x10 virtual false final false
+  /// @brief Method GetArgs addr 0x23519f8 size 0x10 virtual false final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetArgs(::System::Collections::ArrayList* args);
 
-  /// @brief Method get_PropertiesCount addr 0x24aa4fc size 0x8 virtual false final false
+  /// @brief Method get_PropertiesCount addr 0x2351a08 size 0x8 virtual false final false
   inline int32_t get_PropertiesCount();
 
   // Ctor Parameters [CppParam { name: "", ty: "CADMethodCallMessage", modifiers: "&&", def_value: None }]
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::CADMethodCallMessage, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADMethodCallMessage, ____uri) == 0x38, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CADMethodCallMessage);

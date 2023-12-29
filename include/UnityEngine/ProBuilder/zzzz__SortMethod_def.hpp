@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::SortMethod);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12162))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12090))
 // CS Name: ::UnityEngine.ProBuilder::SortMethod
 struct CORDL_TYPE SortMethod {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::SortMethod, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::SortMethod, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::SortMethod, "UnityEngine.ProBuilder", "SortMethod");

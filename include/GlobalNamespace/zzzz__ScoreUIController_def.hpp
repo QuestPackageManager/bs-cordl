@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoreUIController)
 namespace GlobalNamespace {
-class IScoreController;
-}
-namespace TMPro {
-class TextMeshProUGUI;
+class __ScoreUIController__InitData;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace GlobalNamespace {
-class __ScoreUIController__InitData;
+struct __ScoreUIController__ScoreDisplayType;
 }
 namespace GlobalNamespace {
-struct __ScoreUIController__ScoreDisplayType;
+class IScoreController;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__ScoreUIController__InitData);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5045))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5150))
 // CS Name: ::ScoreUIController::ScoreDisplayType
 struct CORDL_TYPE __ScoreUIController__ScoreDisplayType {
 public:
@@ -84,13 +84,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ScoreUIController__ScoreDisplayType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ScoreUIController__ScoreDisplayType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::InitData
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5045))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5044))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5150)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5149))
 // CS Name: ::ScoreUIController::InitData*
 class CORDL_TYPE __ScoreUIController__InitData : public ::System::Object {
 public:
@@ -106,7 +108,7 @@ public:
 
   static inline ::GlobalNamespace::__ScoreUIController__InitData* New_ctor(::GlobalNamespace::__ScoreUIController__ScoreDisplayType scoreDisplayType);
 
-  /// @brief Method .ctor addr 0x23c3280 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x20e13d8 size 0x28 virtual false final false
   inline void _ctor(::GlobalNamespace::__ScoreUIController__ScoreDisplayType scoreDisplayType);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScoreUIController__InitData", modifiers: "&&", def_value: None }]
@@ -131,13 +133,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ScoreUIController__InitData, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ScoreUIController__InitData, ___scoreDisplayType) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ScoreUIController
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5046))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5151))
 // CS Name: ::ScoreUIController*
 class CORDL_TYPE ScoreUIController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -182,33 +186,33 @@ public:
 
   constexpr void __set__stringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method Start addr 0x23c2d08 size 0x78 virtual false final false
+  /// @brief Method Start addr 0x20e0dcc size 0x78 virtual false final false
   inline void Start();
 
-  /// @brief Method OnEnable addr 0x23c309c size 0x4 virtual false final false
+  /// @brief Method OnEnable addr 0x20e11bc size 0x4 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x23c30a0 size 0x4 virtual false final false
+  /// @brief Method OnDisable addr 0x20e11c0 size 0x4 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method RegisterForEvents addr 0x23c2d80 size 0x198 virtual false final false
+  /// @brief Method RegisterForEvents addr 0x20e0e44 size 0x198 virtual false final false
   inline void RegisterForEvents();
 
-  /// @brief Method UnregisterFromEvents addr 0x23c30a4 size 0x108 virtual false final false
+  /// @brief Method UnregisterFromEvents addr 0x20e11c4 size 0x108 virtual false final false
   inline void UnregisterFromEvents();
 
-  /// @brief Method HandleScoreDidChangeRealtime addr 0x23c31ac size 0x4 virtual false final false
+  /// @brief Method HandleScoreDidChangeRealtime addr 0x20e12cc size 0x4 virtual false final false
   inline void HandleScoreDidChangeRealtime(int32_t multipliedScore, int32_t modifiedScore);
 
-  /// @brief Method UpdateScore addr 0x23c2f18 size 0x184 virtual false final false
+  /// @brief Method UpdateScore addr 0x20e0fdc size 0x1e0 virtual false final false
   inline void UpdateScore(int32_t multipliedScore, int32_t modifiedScore);
 
-  /// @brief Method Append000Number addr 0x23c31b0 size 0x60 virtual false final false
+  /// @brief Method Append000Number addr 0x20e12d0 size 0x98 virtual false final false
   static inline void Append000Number(::System::Text::StringBuilder* stringBuilder, int32_t number);
 
   static inline ::GlobalNamespace::ScoreUIController* New_ctor();
 
-  /// @brief Method .ctor addr 0x23c3210 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x20e1368 size 0x70 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScoreUIController", modifiers: "&&", def_value: None }]
@@ -244,6 +248,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScoreUIController, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScoreUIController, ____scoreText) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScoreUIController, ____initData) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScoreUIController, ____scoreController) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScoreUIController, ____stringBuilder) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ScoreUIController__ScoreDisplayType, "", "ScoreUIController/ScoreDisplayType");

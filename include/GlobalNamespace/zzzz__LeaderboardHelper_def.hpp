@@ -10,8 +10,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LeaderboardHelper)
-namespace GlobalNamespace {
-class LeaderboardIdsModelSO;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 struct __LeaderboardHelper___CreateOculusLeaderboard_d__2;
@@ -19,11 +19,8 @@ struct __LeaderboardHelper___CreateOculusLeaderboard_d__2;
 namespace GlobalNamespace {
 class BeatmapLevelCollectionSO;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Net::Http {
-class HttpRequestMessage;
+namespace GlobalNamespace {
+class LeaderboardIdsModelSO;
 }
 namespace System::Net::Http {
 class HttpResponseMessage;
@@ -31,11 +28,14 @@ class HttpResponseMessage;
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
 namespace System::Net::Http {
 class HttpClient;
+}
+namespace System::Net::Http {
+class HttpRequestMessage;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
@@ -54,8 +54,8 @@ MARK_VAL_T(::GlobalNamespace::__LeaderboardHelper___CreateOculusLeaderboard_d__2
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(14655)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 883 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5849)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 866 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(14872))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5938)) CS Name:
 // ::LeaderboardHelper::<CreateOculusLeaderboard>d__2
 struct CORDL_TYPE __LeaderboardHelper___CreateOculusLeaderboard_d__2 {
 public:
@@ -63,10 +63,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x22f4bb8 size 0xb48 virtual true final true
+  /// @brief Method MoveNext addr 0x21ac388 size 0xb48 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x22f5700 size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0x21aced0 size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -116,13 +116,29 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LeaderboardHelper___CreateOculusLeaderboard_d__2, 0x58>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LeaderboardHelper___CreateOculusLeaderboard_d__2, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardHelper___CreateOculusLeaderboard_d__2, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardHelper___CreateOculusLeaderboard_d__2, leaderboardID) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardHelper___CreateOculusLeaderboard_d__2, appToken) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardHelper___CreateOculusLeaderboard_d__2, _httpClient_5__2) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardHelper___CreateOculusLeaderboard_d__2, _request_5__3) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardHelper___CreateOculusLeaderboard_d__2, _contentList_5__4) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardHelper___CreateOculusLeaderboard_d__2, __u__1) == 0x50, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LeaderboardHelper
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5850))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5939))
 // CS Name: ::LeaderboardHelper*
 class CORDL_TYPE LeaderboardHelper : public ::System::Object {
 public:
@@ -138,15 +154,15 @@ public:
 
   constexpr void __set__leaderboardIds(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method CreateOculusLeaderboards addr 0x22f3c18 size 0xe7c virtual false final false
+  /// @brief Method CreateOculusLeaderboards addr 0x21ab3e8 size 0xe7c virtual false final false
   inline void CreateOculusLeaderboards(::GlobalNamespace::LeaderboardIdsModelSO* leaderboardIdsModel, ::GlobalNamespace::BeatmapLevelCollectionSO* _levelCollection, bool debug, ::StringW appToken);
 
-  /// @brief Method CreateOculusLeaderboard addr 0x22f4a94 size 0xa4 virtual false final false
+  /// @brief Method CreateOculusLeaderboard addr 0x21ac264 size 0xa4 virtual false final false
   inline void CreateOculusLeaderboard(::StringW leaderboardID, ::StringW appToken);
 
   static inline ::GlobalNamespace::LeaderboardHelper* New_ctor();
 
-  /// @brief Method .ctor addr 0x22f4b38 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x21ac308 size 0x80 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardHelper", modifiers: "&&", def_value: None }]
@@ -170,6 +186,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LeaderboardHelper, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardHelper, ____leaderboardIds) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LeaderboardHelper);

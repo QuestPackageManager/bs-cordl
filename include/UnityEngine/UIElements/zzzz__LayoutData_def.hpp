@@ -15,34 +15,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LayoutData)
 namespace UnityEngine::UIElements {
+struct Length;
+}
+namespace UnityEngine::UIElements {
 struct Position;
 }
 namespace UnityEngine::UIElements {
 struct Wrap;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
 struct DisplayStyle;
 }
-namespace UnityEngine::UIElements {
-struct FlexDirection;
+namespace System {
+class Object;
 }
 namespace UnityEngine::UIElements {
-struct Length;
+struct Justify;
+}
+namespace UnityEngine::UIElements {
+struct Align;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class IStyleDataGroup_1;
 }
 namespace UnityEngine::UIElements {
-struct Justify;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace UnityEngine::UIElements {
-struct Align;
+struct FlexDirection;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -54,9 +54,9 @@ MARK_VAL_T(::UnityEngine::UIElements::LayoutData);
 // SizeInfo { instance_size: 208, native_size: 208, calculated_instance_size: 208, calculated_native_size: 224, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(6890)), TypeDefinitionIndex(TypeDefinitionIndex(6892)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6886)), TypeDefinitionIndex(TypeDefinitionIndex(6891)), TypeDefinitionIndex(TypeDefinitionIndex(6889)), TypeDefinitionIndex(TypeDefinitionIndex(6898))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7357)) CS Name: ::UnityEngine.UIElements::LayoutData
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7399)), TypeDefinitionIndex(TypeDefinitionIndex(6972)), TypeDefinitionIndex(TypeDefinitionIndex(6978)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6975)), TypeDefinitionIndex(TypeDefinitionIndex(6984)), TypeDefinitionIndex(TypeDefinitionIndex(6977)), TypeDefinitionIndex(TypeDefinitionIndex(6976))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7443)) CS Name: ::UnityEngine.UIElements::LayoutData
 struct CORDL_TYPE LayoutData {
 public:
   // Declarations
@@ -66,22 +66,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>*();
 
-  /// @brief Method Copy addr 0x2e83a84 size 0x1c virtual true final true
+  /// @brief Method Copy addr 0x2d1b6d4 size 0x1c virtual true final true
   inline ::UnityEngine::UIElements::LayoutData Copy();
 
-  /// @brief Method CopyFrom addr 0x2e83aa0 size 0x14 virtual true final true
+  /// @brief Method CopyFrom addr 0x2d1b6f0 size 0x14 virtual true final true
   inline void CopyFrom(ByRef<::UnityEngine::UIElements::LayoutData> other);
 
-  /// @brief Method op_Equality addr 0x2e83ab4 size 0x280 virtual false final false
+  /// @brief Method op_Equality addr 0x2d1b704 size 0x280 virtual false final false
   static inline bool op_Equality(::UnityEngine::UIElements::LayoutData lhs, ::UnityEngine::UIElements::LayoutData rhs);
 
-  /// @brief Method Equals addr 0x2e83d34 size 0x4c virtual true final true
+  /// @brief Method Equals addr 0x2d1b984 size 0x4c virtual true final true
   inline bool Equals(::UnityEngine::UIElements::LayoutData other);
 
-  /// @brief Method Equals addr 0x2e83d80 size 0xa8 virtual true final false
+  /// @brief Method Equals addr 0x2d1b9d0 size 0xa8 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2e83e28 size 0x264 virtual true final false
+  /// @brief Method GetHashCode addr 0x2d1ba78 size 0x264 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "alignContent", ty: "::UnityEngine::UIElements::Align", modifiers: "", def_value: None }, CppParam { name: "alignItems", ty: "::UnityEngine::UIElements::Align",
@@ -223,6 +223,72 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::LayoutData, 0xd0>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, alignContent) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, alignItems) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, alignSelf) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, borderBottomWidth) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, borderLeftWidth) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, borderRightWidth) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, borderTopWidth) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, bottom) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, display) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, flexBasis) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, flexDirection) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, flexGrow) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, flexShrink) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, flexWrap) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, height) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, justifyContent) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, left) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, marginBottom) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, marginLeft) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, marginRight) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, marginTop) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, maxHeight) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, maxWidth) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, minHeight) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, minWidth) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, paddingBottom) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, paddingLeft) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, paddingRight) == 0xa4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, paddingTop) == 0xac, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, position) == 0xb4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, right) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, top) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::LayoutData, width) == 0xc8, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::LayoutData, "UnityEngine.UIElements", "LayoutData");

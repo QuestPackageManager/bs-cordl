@@ -3,14 +3,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDecoratorProvider)
+namespace System {
+class Object;
+}
 namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
 class IProvider;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Zenject::Internal::IDecoratorProvider);
 namespace Zenject::Internal {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11369))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11297))
 // CS Name: ::Zenject.Internal::IDecoratorProvider*
 class CORDL_TYPE IDecoratorProvider {
 public:

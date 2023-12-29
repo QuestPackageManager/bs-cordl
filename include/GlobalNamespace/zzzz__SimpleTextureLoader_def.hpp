@@ -7,53 +7,50 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimpleTextureLoader)
 namespace GlobalNamespace {
-class ICoroutineStarter;
-}
-namespace GlobalNamespace {
 template <typename K, typename V> class HMCache_2;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace UnityEngine {
 class Texture2D;
 }
+namespace GlobalNamespace {
+class __SimpleTextureLoader___LoadTextureCoroutine_d__2;
+}
 namespace System {
 template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-class __SimpleTextureLoader___LoadTextureCoroutine_d__3;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace UnityEngine::Networking {
 class UnityWebRequest;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class SimpleTextureLoader;
 }
 namespace GlobalNamespace {
-class __SimpleTextureLoader___LoadTextureCoroutine_d__3;
+class __SimpleTextureLoader___LoadTextureCoroutine_d__2;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SimpleTextureLoader);
-MARK_REF_PTR_T(::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__3);
-// Type: ::<LoadTextureCoroutine>d__3
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__2);
+// Type: ::<LoadTextureCoroutine>d__2
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5376))
-// CS Name: ::SimpleTextureLoader::<LoadTextureCoroutine>d__3*
-class CORDL_TYPE __SimpleTextureLoader___LoadTextureCoroutine_d__3 : public ::System::Object {
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5473))
+// CS Name: ::SimpleTextureLoader::<LoadTextureCoroutine>d__2*
+class CORDL_TYPE __SimpleTextureLoader___LoadTextureCoroutine_d__2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
@@ -65,16 +62,13 @@ public:
   /// @brief Field useCache, offset 0x20, size 0x1
   __declspec(property(get = __get_useCache, put = __set_useCache)) bool useCache;
 
-  /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::SimpleTextureLoader* __4__this;
-
-  /// @brief Field filePath, offset 0x30, size 0x8
+  /// @brief Field filePath, offset 0x28, size 0x8
   __declspec(property(get = __get_filePath, put = __set_filePath))::StringW filePath;
 
-  /// @brief Field finishedCallback, offset 0x38, size 0x8
+  /// @brief Field finishedCallback, offset 0x30, size 0x8
   __declspec(property(get = __get_finishedCallback, put = __set_finishedCallback))::System::Action_1<::UnityEngine::Texture2D*>* finishedCallback;
 
-  /// @brief Field <uwr>5__2, offset 0x40, size 0x8
+  /// @brief Field <uwr>5__2, offset 0x38, size 0x8
   __declspec(property(get = __get__uwr_5__2, put = __set__uwr_5__2))::UnityEngine::Networking::UnityWebRequest* _uwr_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -108,12 +102,6 @@ public:
 
   constexpr void __set_useCache(bool value);
 
-  constexpr ::GlobalNamespace::SimpleTextureLoader*& __get___4__this();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SimpleTextureLoader*> const& __get___4__this() const;
-
-  constexpr void __set___4__this(::GlobalNamespace::SimpleTextureLoader* value);
-
   constexpr ::StringW& __get_filePath();
 
   constexpr ::StringW const& __get_filePath() const;
@@ -132,41 +120,41 @@ public:
 
   constexpr void __set__uwr_5__2(::UnityEngine::Networking::UnityWebRequest* value);
 
-  static inline ::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__3* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__2* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x226d6f0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x212945c size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x226d798 size 0x1c virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2129514 size 0x1c virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x226d7b4 size 0x29c virtual true final true
+  /// @brief Method MoveNext addr 0x2129530 size 0x2e4 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1 addr 0x226da50 size 0xb0 virtual false final false
+  /// @brief Method <>m__Finally1 addr 0x2129814 size 0xb0 virtual false final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x226db00 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x21298c4 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x226db08 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x21298cc size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x226db48 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x212990c size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SimpleTextureLoader___LoadTextureCoroutine_d__3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__SimpleTextureLoader___LoadTextureCoroutine_d__2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SimpleTextureLoader___LoadTextureCoroutine_d__3(__SimpleTextureLoader___LoadTextureCoroutine_d__3&&) = delete;
+  __SimpleTextureLoader___LoadTextureCoroutine_d__2(__SimpleTextureLoader___LoadTextureCoroutine_d__2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SimpleTextureLoader___LoadTextureCoroutine_d__3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__SimpleTextureLoader___LoadTextureCoroutine_d__2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SimpleTextureLoader___LoadTextureCoroutine_d__3(__SimpleTextureLoader___LoadTextureCoroutine_d__3 const&) = delete;
+  __SimpleTextureLoader___LoadTextureCoroutine_d__2(__SimpleTextureLoader___LoadTextureCoroutine_d__2 const&) = delete;
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SimpleTextureLoader___LoadTextureCoroutine_d__3();
+  constexpr __SimpleTextureLoader___LoadTextureCoroutine_d__2();
 
 public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
@@ -178,64 +166,57 @@ public:
   /// @brief Field useCache, offset: 0x20, size: 0x1, def value: None
   bool ___useCache;
 
-  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::SimpleTextureLoader* _____4__this;
-
-  /// @brief Field filePath, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field filePath, offset: 0x28, size: 0x8, def value: None
   ::StringW ___filePath;
 
-  /// @brief Field finishedCallback, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field finishedCallback, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::Texture2D*>* ___finishedCallback;
 
-  /// @brief Field <uwr>5__2, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field <uwr>5__2, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Networking::UnityWebRequest* ____uwr_5__2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__3, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__2, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__2, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__2, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__2, ___useCache) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__2, ___filePath) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__2, ___finishedCallback) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__2, ____uwr_5__2) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::SimpleTextureLoader
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5377))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5474))
 // CS Name: ::SimpleTextureLoader*
 class CORDL_TYPE SimpleTextureLoader : public ::System::Object {
 public:
   // Declarations
-  using _LoadTextureCoroutine_d__3 = ::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__3;
+  using _LoadTextureCoroutine_d__2 = ::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__2;
 
-  /// @brief Field _cache, offset 0x10, size 0x8
-  __declspec(property(get = __get__cache, put = __set__cache))::GlobalNamespace::HMCache_2<::StringW, ::UnityEngine::Texture2D*>* _cache;
+  /// @brief Field _cache, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__cache, put = setStaticF__cache))::GlobalNamespace::HMCache_2<::StringW, ::UnityEngine::Texture2D*>* _cache;
 
-  /// @brief Field _coroutineStarter, offset 0x18, size 0x8
-  __declspec(property(get = __get__coroutineStarter, put = __set__coroutineStarter))::GlobalNamespace::ICoroutineStarter* _coroutineStarter;
+  static inline void setStaticF__cache(::GlobalNamespace::HMCache_2<::StringW, ::UnityEngine::Texture2D*>* value);
 
-  constexpr ::GlobalNamespace::HMCache_2<::StringW, ::UnityEngine::Texture2D*>*& __get__cache();
+  static inline ::GlobalNamespace::HMCache_2<::StringW, ::UnityEngine::Texture2D*>* getStaticF__cache();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HMCache_2<::StringW, ::UnityEngine::Texture2D*>*> const& __get__cache() const;
+  /// @brief Method LoadTexture addr 0x2129310 size 0xcc virtual false final false
+  static inline void LoadTexture(::StringW filePath, bool useCache, ::System::Action_1<::UnityEngine::Texture2D*>* finishedCallback);
 
-  constexpr void __set__cache(::GlobalNamespace::HMCache_2<::StringW, ::UnityEngine::Texture2D*>* value);
-
-  constexpr ::GlobalNamespace::ICoroutineStarter*& __get__coroutineStarter();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& __get__coroutineStarter() const;
-
-  constexpr void __set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
-
-  /// @brief Method LoadTexture addr 0x226d590 size 0xd0 virtual false final false
-  inline void LoadTexture(::StringW filePath, bool useCache, ::System::Action_1<::UnityEngine::Texture2D*>* finishedCallback);
-
-  /// @brief Method LoadTextureCoroutine addr 0x226d660 size 0x90 virtual false final false
-  inline ::System::Collections::IEnumerator* LoadTextureCoroutine(::StringW filePath, bool useCache, ::System::Action_1<::UnityEngine::Texture2D*>* finishedCallback);
-
-  static inline ::GlobalNamespace::SimpleTextureLoader* New_ctor();
-
-  /// @brief Method .ctor addr 0x226d718 size 0x80 virtual false final false
-  inline void _ctor();
+  /// @brief Method LoadTextureCoroutine addr 0x21293dc size 0x80 virtual false final false
+  static inline ::System::Collections::IEnumerator* LoadTextureCoroutine(::StringW filePath, bool useCache, ::System::Action_1<::UnityEngine::Texture2D*>* finishedCallback);
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleTextureLoader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -251,19 +232,13 @@ protected:
   constexpr SimpleTextureLoader();
 
 public:
-  /// @brief Field _cache, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::HMCache_2<::StringW, ::UnityEngine::Texture2D*>* ____cache;
-
-  /// @brief Field _coroutineStarter, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleTextureLoader, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleTextureLoader, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SimpleTextureLoader);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleTextureLoader*, "", "SimpleTextureLoader");
-NEED_NO_BOX(::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__3);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__3*, "", "SimpleTextureLoader/<LoadTextureCoroutine>d__3");
+NEED_NO_BOX(::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__2);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__2*, "", "SimpleTextureLoader/<LoadTextureCoroutine>d__2");

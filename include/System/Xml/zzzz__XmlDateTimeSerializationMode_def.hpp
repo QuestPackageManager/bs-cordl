@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::XmlDateTimeSerializationMode);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11547))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11475))
 // CS Name: ::System.Xml::XmlDateTimeSerializationMode
 struct CORDL_TYPE XmlDateTimeSerializationMode {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlDateTimeSerializationMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlDateTimeSerializationMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlDateTimeSerializationMode, "System.Xml", "XmlDateTimeSerializationMode");

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(TutorialNoteCutEffectSpawner)
 namespace GlobalNamespace {
-class FlyingTextSpawner;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class FlyingTextSpawner;
 }
 namespace GlobalNamespace {
 struct NoteCutInfo;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialNoteCutEffectSpawner);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5342))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5437))
 // CS Name: ::TutorialNoteCutEffectSpawner*
 class CORDL_TYPE TutorialNoteCutEffectSpawner : public ::UnityEngine::MonoBehaviour {
 public:
@@ -51,18 +51,18 @@ public:
 
   constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  /// @brief Method Start addr 0x226a66c size 0x8c virtual false final false
+  /// @brief Method Start addr 0x2126530 size 0x8c virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x226a6f8 size 0x98 virtual false final false
+  /// @brief Method OnDestroy addr 0x21265bc size 0x98 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleNoteWasCut addr 0x226a790 size 0x268 virtual false final false
+  /// @brief Method HandleNoteWasCut addr 0x2126654 size 0x268 virtual false final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::GlobalNamespace::TutorialNoteCutEffectSpawner* New_ctor();
 
-  /// @brief Method .ctor addr 0x226a9f8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21268bc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialNoteCutEffectSpawner", modifiers: "&&", def_value: None }]
@@ -89,6 +89,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialNoteCutEffectSpawner, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialNoteCutEffectSpawner, ____failFlyingTextSpawner) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialNoteCutEffectSpawner, ____beatmapObjectManager) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TutorialNoteCutEffectSpawner);

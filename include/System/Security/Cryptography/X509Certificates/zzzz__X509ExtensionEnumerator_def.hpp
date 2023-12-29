@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Extension
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9013))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7850))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ExtensionEnumerator*
 class CORDL_TYPE X509ExtensionEnumerator : public ::System::Object {
 public:
@@ -50,19 +50,19 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator* New_ctor(::System::Collections::ArrayList* list);
 
-  /// @brief Method .ctor addr 0x2984e78 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x2807608 size 0x44 virtual false final false
   inline void _ctor(::System::Collections::ArrayList* list);
 
-  /// @brief Method get_Current addr 0x2984f88 size 0xf0 virtual false final false
+  /// @brief Method get_Current addr 0x2807718 size 0xf0 virtual false final false
   inline ::System::Security::Cryptography::X509Certificates::X509Extension* get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2985078 size 0xa4 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2807808 size 0xa4 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method MoveNext addr 0x298511c size 0xa0 virtual true final true
+  /// @brief Method MoveNext addr 0x28078ac size 0xa0 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x29851bc size 0xa4 virtual true final true
+  /// @brief Method Reset addr 0x280794c size 0xa4 virtual true final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509ExtensionEnumerator", modifiers: "&&", def_value: None }]
@@ -86,6 +86,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator, ___enumerator) == 0x10, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator);

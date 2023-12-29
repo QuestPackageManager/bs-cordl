@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_UnityMaterialInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9780))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9707))
 // CS Name: ::HoudiniEngineUnity::HEU_UnityMaterialInfo*
 class CORDL_TYPE HEU_UnityMaterialInfo : public ::System::Object {
 public:
@@ -51,7 +51,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_UnityMaterialInfo* New_ctor(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex);
 
-  /// @brief Method .ctor addr 0x21a19d4 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x204b038 size 0x3c virtual false final false
   inline void _ctor(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_UnityMaterialInfo", modifiers: "&&", def_value: None }]
@@ -81,6 +81,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_UnityMaterialInfo, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_UnityMaterialInfo, ____unityMaterialPath) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_UnityMaterialInfo, ____substancePath) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_UnityMaterialInfo, ____substanceIndex) == 0x20, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_UnityMaterialInfo);

@@ -3,11 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ITypeDescriptorContext)
-namespace System {
-class IServiceProvider;
-}
 namespace System::ComponentModel {
 class IContainer;
+}
+namespace System {
+class IServiceProvider;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::ComponentModel::ITypeDescriptorContext);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9434))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8271))
 // CS Name: ::System.ComponentModel::ITypeDescriptorContext*
 class CORDL_TYPE ITypeDescriptorContext {
 public:

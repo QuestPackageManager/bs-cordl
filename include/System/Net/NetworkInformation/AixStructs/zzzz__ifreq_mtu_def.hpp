@@ -24,7 +24,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::ifreq_mtu);
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9305))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8142))
 // CS Name: ::ifreq_mtu::<ifr_name>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __ifreq_mtu___ifr_name_e__FixedBuffer {
@@ -52,13 +52,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer, FixedElementField) == 0x0, "Offset mismatch!");
+
 } // namespace System::Net::NetworkInformation::AixStructs
 // Type: System.Net.NetworkInformation.AixStructs::ifreq_mtu
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9305))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9306))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8142))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8143))
 // CS Name: ::System.Net.NetworkInformation.AixStructs::ifreq_mtu
 #pragma pack(push, 0)
 struct CORDL_TYPE ifreq_mtu {

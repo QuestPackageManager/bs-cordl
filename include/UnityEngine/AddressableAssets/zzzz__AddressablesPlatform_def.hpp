@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AddressableAssets::AddressablesPlatform);
 namespace UnityEngine::AddressableAssets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14098))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14369))
 // CS Name: ::UnityEngine.AddressableAssets::AddressablesPlatform
 struct CORDL_TYPE AddressablesPlatform {
 public:
@@ -93,6 +93,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::AddressablesPlatform, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesPlatform, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::AddressablesPlatform, "UnityEngine.AddressableAssets", "AddressablesPlatform");

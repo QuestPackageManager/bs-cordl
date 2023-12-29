@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/Configuration/zzzz__ConfigurationSection_def.hpp"
 CORDL_MODULE_EXPORT(DefaultProxySection)
 namespace System::Configuration {
-class ConfigurationPropertyCollection;
+class ConfigurationElement;
 }
 namespace System::Configuration {
-class ConfigurationElement;
+class ConfigurationPropertyCollection;
 }
 // Forward declare root types
 namespace System::Net::Configuration {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Net::Configuration::DefaultProxySection);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16258))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9570))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16081))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8406))
 // CS Name: ::System.Net.Configuration::DefaultProxySection*
 class CORDL_TYPE DefaultProxySection : public ::System::Configuration::ConfigurationSection {
 public:
@@ -30,13 +30,13 @@ public:
 
   static inline ::System::Net::Configuration::DefaultProxySection* New_ctor();
 
-  /// @brief Method .ctor addr 0x2944d54 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x27c6c34 size 0x38 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_Properties addr 0x2944d8c size 0x38 virtual true final false
+  /// @brief Method get_Properties addr 0x27c6c6c size 0x38 virtual true final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
-  /// @brief Method Reset addr 0x2944dc4 size 0x38 virtual true final false
+  /// @brief Method Reset addr 0x27c6ca4 size 0x38 virtual true final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentElement);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultProxySection", modifiers: "&&", def_value: None }]

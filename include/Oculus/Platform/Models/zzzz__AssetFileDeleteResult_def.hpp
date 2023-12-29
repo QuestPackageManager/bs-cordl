@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AssetFileDeleteResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13419))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13456))
 // CS Name: ::Oculus.Platform.Models::AssetFileDeleteResult*
 class CORDL_TYPE AssetFileDeleteResult : public ::System::Object {
 public:
@@ -60,7 +60,7 @@ public:
 
   static inline ::Oculus::Platform::Models::AssetFileDeleteResult* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x27049c4 size 0xac virtual false final false
+  /// @brief Method .ctor addr 0x25b16d0 size 0xac virtual false final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetFileDeleteResult", modifiers: "&&", def_value: None }]
@@ -93,6 +93,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::AssetFileDeleteResult, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::AssetFileDeleteResult, ___AssetFileId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::AssetFileDeleteResult, ___AssetId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::AssetFileDeleteResult, ___Filepath) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::AssetFileDeleteResult, ___Success) == 0x28, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::AssetFileDeleteResult);

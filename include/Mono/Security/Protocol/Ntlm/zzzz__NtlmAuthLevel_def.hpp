@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel);
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13766))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14037))
 // CS Name: ::Mono.Security.Protocol.Ntlm::NtlmAuthLevel
 struct CORDL_TYPE NtlmAuthLevel {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Protocol::Ntlm::NtlmAuthLevel, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Mono::Security::Protocol::Ntlm
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel, "Mono.Security.Protocol.Ntlm", "NtlmAuthLevel");

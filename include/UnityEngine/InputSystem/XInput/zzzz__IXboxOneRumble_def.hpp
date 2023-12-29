@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(IXboxOneRumble)
 namespace UnityEngine::InputSystem::Haptics {
-class IHaptics;
+class IDualMotorRumble;
 }
 namespace UnityEngine::InputSystem::Haptics {
-class IDualMotorRumble;
+class IHaptics;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XInput {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XInput::IXboxOneRumble);
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6350))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6436))
 // CS Name: ::UnityEngine.InputSystem.XInput::IXboxOneRumble*
 class CORDL_TYPE IXboxOneRumble {
 public:

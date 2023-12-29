@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(CustomTimelineTween)
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomTimelineTween);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6010))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6065))
 // CS Name: ::CustomTimelineTween*
 class CORDL_TYPE CustomTimelineTween : public ::UnityEngine::MonoBehaviour {
 public:
@@ -45,12 +45,12 @@ public:
 
   constexpr void __set_startPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method OnValidate addr 0x23158c0 size 0xd4 virtual false final false
+  /// @brief Method OnValidate addr 0x21c3a9c size 0xd4 virtual false final false
   inline void OnValidate();
 
   static inline ::GlobalNamespace::CustomTimelineTween* New_ctor();
 
-  /// @brief Method .ctor addr 0x2315994 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21c3b70 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomTimelineTween", modifiers: "&&", def_value: None }]
@@ -77,6 +77,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CustomTimelineTween, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CustomTimelineTween, ___transforms) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CustomTimelineTween, ___startPositions) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CustomTimelineTween);

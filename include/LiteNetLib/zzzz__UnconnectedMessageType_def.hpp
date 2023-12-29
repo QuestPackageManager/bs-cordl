@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::UnconnectedMessageType);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14130))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14468))
 // CS Name: ::LiteNetLib::UnconnectedMessageType
 struct CORDL_TYPE UnconnectedMessageType {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::UnconnectedMessageType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::UnconnectedMessageType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace LiteNetLib
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::UnconnectedMessageType, "LiteNetLib", "UnconnectedMessageType");

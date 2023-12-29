@@ -11,31 +11,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FireworkItemController)
 namespace GlobalNamespace {
-template <typename T> class RandomObjectPicker_1;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace GlobalNamespace {
-class DirectionalLight;
-}
-namespace GlobalNamespace {
-class __FireworkItemController___FireCoroutine_d__29;
-}
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
-}
-namespace UnityEngine {
-class AudioSource;
-}
-namespace GlobalNamespace {
 class __FireworkItemController__Pool;
 }
 namespace System {
 template <typename T> class Action_1;
 }
+namespace UnityEngine {
+class AudioClip;
+}
 namespace GlobalNamespace {
-class __FireworkItemController__FireworkItemParticleSystem;
+class TubeBloomPrePassLight;
+}
+namespace GlobalNamespace {
+class DirectionalLight;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -44,19 +32,31 @@ namespace UnityEngine {
 class Gradient;
 }
 namespace UnityEngine {
-class AudioClip;
+class AnimationCurve;
+}
+namespace UnityEngine {
+class AudioSource;
+}
+namespace GlobalNamespace {
+template <typename T> class RandomObjectPicker_1;
+}
+namespace GlobalNamespace {
+class __FireworkItemController___FireCoroutine_d__29;
+}
+namespace GlobalNamespace {
+class __FireworkItemController__FireworkItemParticleSystem;
 }
 namespace UnityEngine {
 class ParticleSystem;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +80,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4843))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4963))
 // CS Name: ::FireworkItemController::FireworkItemParticleSystem*
 class CORDL_TYPE __FireworkItemController__FireworkItemParticleSystem : public ::System::Object {
 public:
@@ -142,7 +142,7 @@ public:
 
   static inline ::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem* New_ctor();
 
-  /// @brief Method .ctor addr 0x23975e8 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2262bac size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FireworkItemController__FireworkItemParticleSystem", modifiers: "&&", def_value: None }]
@@ -182,13 +182,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem, ____particleSystem) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem, ____isSubemitter) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem, ____useMainColor) == 0x19, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem, ____useOwnGradient) == 0x1a, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem, ____particleColorGradient) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem, ____randomizeSpeed) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::FireworkItemController
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4846))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4966))
 // CS Name: ::FireworkItemController*
 class CORDL_TYPE FireworkItemController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -369,42 +381,42 @@ public:
 
   constexpr void __set_didFinishEvent(::System::Action_1<::GlobalNamespace::FireworkItemController*>* value);
 
-  /// @brief Method set_directionalLight addr 0x2396ddc size 0x8 virtual false final false
+  /// @brief Method set_directionalLight addr 0x22623c8 size 0x8 virtual false final false
   inline void set_directionalLight(::GlobalNamespace::DirectionalLight* value);
 
-  /// @brief Method set_directionalLightIntensity addr 0x2396de4 size 0x8 virtual false final false
+  /// @brief Method set_directionalLightIntensity addr 0x22623d0 size 0x8 virtual false final false
   inline void set_directionalLightIntensity(float_t value);
 
-  /// @brief Method add_didFinishEvent addr 0x2396dec size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent addr 0x22623d8 size 0xb0 virtual false final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::FireworkItemController*>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x2396e9c size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent addr 0x2262488 size 0xb0 virtual false final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::FireworkItemController*>* value);
 
-  /// @brief Method Awake addr 0x2396f4c size 0x84 virtual false final false
+  /// @brief Method Awake addr 0x2262538 size 0x84 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDisable addr 0x2396fd0 size 0x58 virtual false final false
+  /// @brief Method OnDisable addr 0x22625bc size 0x58 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method Fire addr 0x2397128 size 0x20 virtual false final false
+  /// @brief Method Fire addr 0x2262714 size 0x20 virtual false final false
   inline void Fire();
 
-  /// @brief Method FireCoroutine addr 0x2397148 size 0x68 virtual false final false
+  /// @brief Method FireCoroutine addr 0x2262734 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* FireCoroutine();
 
-  /// @brief Method SetLightsColor addr 0x2397028 size 0x100 virtual false final false
+  /// @brief Method SetLightsColor addr 0x2262614 size 0x100 virtual false final false
   inline void SetLightsColor(float_t intensity);
 
-  /// @brief Method PlayExplosionSound addr 0x23971d8 size 0xdc virtual false final false
+  /// @brief Method PlayExplosionSound addr 0x226279c size 0xdc virtual false final false
   inline void PlayExplosionSound();
 
-  /// @brief Method InitializeParticleSystem addr 0x23972b4 size 0x314 virtual false final false
+  /// @brief Method InitializeParticleSystem addr 0x2262878 size 0x314 virtual false final false
   inline void InitializeParticleSystem();
 
   static inline ::GlobalNamespace::FireworkItemController* New_ctor();
 
-  /// @brief Method .ctor addr 0x23975c8 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x2262b8c size 0x20 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController", modifiers: "&&", def_value: None }]
@@ -480,19 +492,55 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FireworkItemController, 0x98>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____particleSystems) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lights) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____audioSource) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lightFlashDuration) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lightIntensityCurve) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lightIntensityMultiplier) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____randomizeColor) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lightsColor) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lightsColorGradient) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____randomizeSpeed) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____minSpeedMultiplier) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____maxSpeedMultiplier) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____explosionClips) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____randomAudioPicker) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____directionalLight) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____directionalLightIntensity) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____initialized) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ___didFinishEvent) == 0x90, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Pool
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 307 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4846))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4844)) CS Name: ::FireworkItemController::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10978)), TypeDefinitionIndex(TypeDefinitionIndex(4966)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst:
+// 308 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4964)) CS Name: ::FireworkItemController::Pool*
 class CORDL_TYPE __FireworkItemController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FireworkItemController*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__FireworkItemController__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x23975f8 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2262bbc size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FireworkItemController__Pool", modifiers: "&&", def_value: None }]
@@ -519,8 +567,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FireworkItemC
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4845))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4965))
 // CS Name: ::FireworkItemController::<FireCoroutine>d__29*
 class CORDL_TYPE __FireworkItemController___FireCoroutine_d__29 : public ::System::Object {
 public:
@@ -594,22 +642,22 @@ public:
 
   static inline ::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x23971b0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2262c04 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2397640 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2262c2c size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2397644 size 0x230 virtual true final true
+  /// @brief Method MoveNext addr 0x2262c30 size 0x244 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2397874 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2262e74 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x239787c size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2262e7c size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x23978bc size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2262ebc size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FireworkItemController___FireCoroutine_d__29", modifiers: "&&", def_value: None }]
@@ -648,6 +696,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, ____soundTimeToCenter_5__2) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, ____elapsedTime_5__3) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29, ____explosionSoundFired_5__4) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FireworkItemController);

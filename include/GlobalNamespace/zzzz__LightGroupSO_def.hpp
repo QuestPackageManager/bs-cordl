@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightGroupSO)
-namespace GlobalNamespace {
-class ILightGroup;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class LightGroupSO;
@@ -19,8 +16,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupSO);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14511))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14728))
 // CS Name: ::LightGroupSO*
 class CORDL_TYPE LightGroupSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -57,9 +54,6 @@ public:
   __declspec(property(get = get_sameIdElements)) int32_t sameIdElements;
 
   __declspec(property(get = get_ignoreLightGroupEffectManager)) bool ignoreLightGroupEffectManager;
-
-  /// @brief Convert operator to "::GlobalNamespace::ILightGroup"
-  constexpr operator ::GlobalNamespace::ILightGroup*() noexcept;
 
   constexpr ::StringW& __get__groupName();
 
@@ -103,27 +97,27 @@ public:
 
   constexpr void __set__ignoreLightGroupEffectManager(bool value);
 
-  /// @brief Method get_groupName addr 0x210e344 size 0x8 virtual true final true
+  /// @brief Method get_groupName addr 0x1fb8e60 size 0x8 virtual false final false
   inline ::StringW get_groupName();
 
-  /// @brief Method get_groupId addr 0x210e34c size 0x8 virtual true final true
+  /// @brief Method get_groupId addr 0x1fb8e68 size 0x8 virtual false final false
   inline int32_t get_groupId();
 
-  /// @brief Method get_startLightId addr 0x210e354 size 0x8 virtual true final true
+  /// @brief Method get_startLightId addr 0x1fb8e70 size 0x8 virtual false final false
   inline int32_t get_startLightId();
 
-  /// @brief Method get_numberOfElements addr 0x210e35c size 0x8 virtual true final true
+  /// @brief Method get_numberOfElements addr 0x1fb8e78 size 0x8 virtual false final false
   inline int32_t get_numberOfElements();
 
-  /// @brief Method get_sameIdElements addr 0x210e364 size 0x8 virtual true final true
+  /// @brief Method get_sameIdElements addr 0x1fb8e80 size 0x8 virtual false final false
   inline int32_t get_sameIdElements();
 
-  /// @brief Method get_ignoreLightGroupEffectManager addr 0x210e36c size 0x8 virtual true final true
+  /// @brief Method get_ignoreLightGroupEffectManager addr 0x1fb8e88 size 0x8 virtual false final false
   inline bool get_ignoreLightGroupEffectManager();
 
   static inline ::GlobalNamespace::LightGroupSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x210e374 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x1fb8e90 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupSO", modifiers: "&&", def_value: None }]
@@ -165,6 +159,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroupSO, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____groupName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____groupDescription) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____groupId) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____startLightId) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____numberOfElements) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____sameIdElements) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____ignoreLightGroupEffectManager) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightGroupSO);

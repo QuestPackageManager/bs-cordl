@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Linq::CommentHandling);
 namespace Newtonsoft::Json::Linq {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11966))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11894))
 // CS Name: ::Newtonsoft.Json.Linq::CommentHandling
 struct CORDL_TYPE CommentHandling {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::CommentHandling, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::CommentHandling, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Linq
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::CommentHandling, "Newtonsoft.Json.Linq", "CommentHandling");

@@ -24,7 +24,7 @@ MARK_VAL_T(::UnityEngine::HumanDescription);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14852))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15082))
 // CS Name: ::UnityEngine::HumanDescription
 struct CORDL_TYPE HumanDescription {
 public:
@@ -93,6 +93,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::HumanDescription, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanDescription, human) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanDescription, skeleton) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanDescription, m_ArmTwist) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanDescription, m_ForeArmTwist) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanDescription, m_UpperLegTwist) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanDescription, m_LegTwist) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanDescription, m_ArmStretch) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanDescription, m_LegStretch) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanDescription, m_FeetSpacing) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanDescription, m_GlobalScale) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanDescription, m_RootMotionBoneName) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanDescription, m_HasTranslationDoF) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanDescription, m_HasExtraRoot) == 0x39, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanDescription, m_SkeletonHasParents) == 0x3a, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HumanDescription, "UnityEngine", "HumanDescription");

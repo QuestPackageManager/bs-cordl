@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TrailElement);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4879))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4997))
 // CS Name: ::TrailElement*
 class CORDL_TYPE TrailElement : public ::System::Object {
 public:
@@ -70,21 +70,21 @@ public:
 
   constexpr void __set_time(float_t value);
 
-  /// @brief Method SetData addr 0x23a0850 size 0x40 virtual false final false
+  /// @brief Method SetData addr 0x226a8e4 size 0x40 virtual false final false
   inline void SetData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t time);
 
-  /// @brief Method CopyFrom addr 0x23a0890 size 0x40 virtual false final false
+  /// @brief Method CopyFrom addr 0x226a924 size 0x40 virtual false final false
   inline void CopyFrom(::GlobalNamespace::TrailElement* other);
 
-  /// @brief Method SetDistance addr 0x23a08d0 size 0x8 virtual false final false
+  /// @brief Method SetDistance addr 0x226a964 size 0x8 virtual false final false
   inline void SetDistance(float_t value);
 
-  /// @brief Method UpdateLocalDistance addr 0x23a08d8 size 0xa8 virtual false final false
+  /// @brief Method UpdateLocalDistance addr 0x226a96c size 0xa8 virtual false final false
   inline void UpdateLocalDistance(::GlobalNamespace::TrailElement* prev);
 
   static inline ::GlobalNamespace::TrailElement* New_ctor();
 
-  /// @brief Method .ctor addr 0x23a0980 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x226aa14 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TrailElement", modifiers: "&&", def_value: None }]
@@ -120,6 +120,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TrailElement, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrailElement, ___position) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrailElement, ___normal) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrailElement, ___distance) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrailElement, ___localDistance) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrailElement, ___time) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TrailElement);

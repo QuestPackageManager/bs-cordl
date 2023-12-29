@@ -17,7 +17,7 @@ MARK_VAL_T(::System::Globalization::InternalEncodingDataItem);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3716))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3704))
 // CS Name: ::System.Globalization::InternalEncodingDataItem
 struct CORDL_TYPE InternalEncodingDataItem {
 public:
@@ -42,6 +42,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::InternalEncodingDataItem, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::InternalEncodingDataItem, webName) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::InternalEncodingDataItem, codePage) == 0x8, "Offset mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::InternalEncodingDataItem, "System.Globalization", "InternalEncodingDataItem");

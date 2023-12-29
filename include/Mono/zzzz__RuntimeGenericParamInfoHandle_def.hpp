@@ -35,19 +35,19 @@ public:
 
   __declspec(property(get = get_Attributes))::System::Reflection::GenericParameterAttributes Attributes;
 
-  /// @brief Method .ctor addr 0x2412678 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x22b8bf8 size 0x20 virtual false final false
   inline void _ctor(void* ptr);
 
-  /// @brief Method get_Constraints addr 0x2412698 size 0x4 virtual false final false
+  /// @brief Method get_Constraints addr 0x22b8c18 size 0x4 virtual false final false
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> get_Constraints();
 
-  /// @brief Method get_Attributes addr 0x24127c8 size 0x1c virtual false final false
+  /// @brief Method get_Attributes addr 0x22b8d48 size 0x1c virtual false final false
   inline ::System::Reflection::GenericParameterAttributes get_Attributes();
 
-  /// @brief Method GetConstraints addr 0x241269c size 0x12c virtual false final false
+  /// @brief Method GetConstraints addr 0x22b8c1c size 0x12c virtual false final false
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetConstraints();
 
-  /// @brief Method GetConstraintsCount addr 0x24127e4 size 0x40 virtual false final false
+  /// @brief Method GetConstraintsCount addr 0x22b8d64 size 0x40 virtual false final false
   inline int32_t GetConstraintsCount();
 
   // Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__GenericParamInfo>", modifiers: "", def_value: None }]
@@ -67,6 +67,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::RuntimeGenericParamInfoHandle, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::RuntimeGenericParamInfoHandle, value) == 0x0, "Offset mismatch!");
 
 } // namespace Mono
 DEFINE_IL2CPP_ARG_TYPE(::Mono::RuntimeGenericParamInfoHandle, "Mono", "RuntimeGenericParamInfoHandle");

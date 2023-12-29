@@ -6,13 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Kernel)
 namespace Zenject {
-class ITickable;
-}
-namespace Zenject {
 class DisposableManager;
 }
 namespace Zenject {
-class InitializableManager;
+class IInitializable;
 }
 namespace System {
 class Object;
@@ -21,22 +18,25 @@ namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-class TickableManager;
-}
-namespace System {
-class IDisposable;
-}
-namespace Zenject {
-class IInitializable;
+class InitializableManager;
 }
 namespace Zenject {
 class ILateTickable;
 }
 namespace Zenject {
-class IFixedTickable;
+class ITickable;
 }
 namespace Zenject {
 class ILateDisposable;
+}
+namespace Zenject {
+class TickableManager;
+}
+namespace Zenject {
+class IFixedTickable;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace Zenject {
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::Zenject::Kernel);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11322))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11250))
 // CS Name: ::Zenject::Kernel*
 class CORDL_TYPE Kernel : public ::System::Object {
 public:
@@ -99,42 +99,42 @@ public:
 
   constexpr void __set__disposablesManager(::Zenject::DisposableManager* value);
 
-  /// @brief Method Initialize addr 0x2f14b9c size 0x18 virtual true final false
+  /// @brief Method Initialize addr 0x2dacdcc size 0x18 virtual true final false
   inline void Initialize();
 
-  /// @brief Method Dispose addr 0x2f14bb4 size 0x18 virtual true final false
+  /// @brief Method Dispose addr 0x2dacde4 size 0x18 virtual true final false
   inline void Dispose();
 
-  /// @brief Method LateDispose addr 0x2f14bcc size 0x18 virtual true final false
+  /// @brief Method LateDispose addr 0x2dacdfc size 0x18 virtual true final false
   inline void LateDispose();
 
-  /// @brief Method Tick addr 0x2f14be4 size 0x18 virtual true final false
+  /// @brief Method Tick addr 0x2dace14 size 0x18 virtual true final false
   inline void Tick();
 
-  /// @brief Method LateTick addr 0x2f14c84 size 0x18 virtual true final false
+  /// @brief Method LateTick addr 0x2daceb4 size 0x18 virtual true final false
   inline void LateTick();
 
-  /// @brief Method FixedTick addr 0x2f14d24 size 0x18 virtual true final false
+  /// @brief Method FixedTick addr 0x2dacf54 size 0x18 virtual true final false
   inline void FixedTick();
 
   static inline ::Zenject::Kernel* New_ctor();
 
-  /// @brief Method .ctor addr 0x2f14dc4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2dacff4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method __zenCreate addr 0x2f14dcc size 0x5c virtual false final false
+  /// @brief Method __zenCreate addr 0x2dacffc size 0x5c virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenFieldSetter0 addr 0x2f14e28 size 0x134 virtual false final false
+  /// @brief Method __zenFieldSetter0 addr 0x2dad058 size 0x134 virtual false final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter1 addr 0x2f14f5c size 0x134 virtual false final false
+  /// @brief Method __zenFieldSetter1 addr 0x2dad18c size 0x134 virtual false final false
   static inline void __zenFieldSetter1(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter2 addr 0x2f15090 size 0x134 virtual false final false
+  /// @brief Method __zenFieldSetter2 addr 0x2dad2c0 size 0x134 virtual false final false
   static inline void __zenFieldSetter2(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f151c4 size 0x4c8 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2dad3f4 size 0x4c8 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "Kernel", modifiers: "&&", def_value: None }]
@@ -164,6 +164,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::Kernel, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::Kernel, ____tickableManager) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::Kernel, ____initializableManager) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::Kernel, ____disposablesManager) == 0x20, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::Kernel);

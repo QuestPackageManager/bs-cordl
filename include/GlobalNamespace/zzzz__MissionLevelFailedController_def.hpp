@@ -7,10 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionLevelFailedController)
 namespace GlobalNamespace {
-class MissionObjectiveCheckersManager;
+class MissionLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class ILevelEndActions;
+class LevelFailedTextEffect;
+}
+namespace GlobalNamespace {
+class __MissionLevelFailedController___LevelFailedCoroutine_d__13;
 }
 namespace GlobalNamespace {
 class BeatmapObjectSpawnController;
@@ -19,13 +22,13 @@ namespace GlobalNamespace {
 class __MissionLevelFailedController__InitData;
 }
 namespace GlobalNamespace {
-class __MissionLevelFailedController___LevelFailedCoroutine_d__13;
+class ILevelEndActions;
 }
 namespace GlobalNamespace {
-class LevelFailedTextEffect;
+class MissionObjectiveCheckersManager;
 }
-namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
 class GameSongController;
@@ -36,8 +39,8 @@ class BeatmapObjectManager;
 namespace GlobalNamespace {
 class PrepareLevelCompletionResults;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class IDisposable;
 }
 namespace GlobalNamespace {
 class MissionCompletionResults;
@@ -47,9 +50,6 @@ class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -69,8 +69,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionLevelFailedController___LevelFailedCo
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5070))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5175))
 // CS Name: ::MissionLevelFailedController::InitData*
 class CORDL_TYPE __MissionLevelFailedController__InitData : public ::System::Object {
 public:
@@ -86,7 +86,7 @@ public:
 
   static inline ::GlobalNamespace::__MissionLevelFailedController__InitData* New_ctor(bool autoRestart);
 
-  /// @brief Method .ctor addr 0x23c9424 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x20e7914 size 0x28 virtual false final false
   inline void _ctor(bool autoRestart);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionLevelFailedController__InitData", modifiers: "&&", def_value: None }]
@@ -111,13 +111,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionLevelFailedController__InitData, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MissionLevelFailedController__InitData, ___autoRestart) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<LevelFailedCoroutine>d__13
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5071))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5176))
 // CS Name: ::MissionLevelFailedController::<LevelFailedCoroutine>d__13*
 class CORDL_TYPE __MissionLevelFailedController___LevelFailedCoroutine_d__13 : public ::System::Object {
 public:
@@ -173,22 +175,22 @@ public:
 
   static inline ::GlobalNamespace::__MissionLevelFailedController___LevelFailedCoroutine_d__13* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x23c93f4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x20e78e4 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x23c944c size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x20e793c size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x23c9450 size 0x174 virtual true final true
+  /// @brief Method MoveNext addr 0x20e7940 size 0x174 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x23c9758 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x20e7c48 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x23c9760 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x20e7c50 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x23c97a0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x20e7c90 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionLevelFailedController___LevelFailedCoroutine_d__13", modifiers: "&&", def_value: None }]
@@ -222,13 +224,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionLevelFailedController___LevelFailedCoroutine_d__13, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MissionLevelFailedController___LevelFailedCoroutine_d__13, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionLevelFailedController___LevelFailedCoroutine_d__13, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionLevelFailedController___LevelFailedCoroutine_d__13, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionLevelFailedController___LevelFailedCoroutine_d__13, ____missionCompletionResults_5__2) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MissionLevelFailedController
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5072))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5177))
 // CS Name: ::MissionLevelFailedController*
 class CORDL_TYPE MissionLevelFailedController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -318,21 +328,21 @@ public:
 
   constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  /// @brief Method Start addr 0x23c9178 size 0xec virtual false final false
+  /// @brief Method Start addr 0x20e7668 size 0xec virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x23c9264 size 0x108 virtual false final false
+  /// @brief Method OnDestroy addr 0x20e7754 size 0x108 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleLevelFailed addr 0x23c936c size 0x20 virtual false final false
+  /// @brief Method HandleLevelFailed addr 0x20e785c size 0x20 virtual false final false
   inline void HandleLevelFailed();
 
-  /// @brief Method LevelFailedCoroutine addr 0x23c938c size 0x68 virtual false final false
+  /// @brief Method LevelFailedCoroutine addr 0x20e787c size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* LevelFailedCoroutine();
 
   static inline ::GlobalNamespace::MissionLevelFailedController* New_ctor();
 
-  /// @brief Method .ctor addr 0x23c941c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20e790c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFailedController", modifiers: "&&", def_value: None }]
@@ -380,6 +390,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelFailedController, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelFailedController, ____prepareLevelCompletionResults) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelFailedController, ____levelFailedTextEffect) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelFailedController, ____missionLevelSceneSetupData) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelFailedController, ____missionObjectiveCheckersManager) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelFailedController, ____initData) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelFailedController, ____beatmapObjectSpawnController) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelFailedController, ____gameSongController) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelFailedController, ____gameplayManager) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelFailedController, ____beatmapObjectManager) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionLevelFailedController);

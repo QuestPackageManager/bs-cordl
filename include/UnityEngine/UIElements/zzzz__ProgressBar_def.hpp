@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__ProgressBar__UxmlFactory);
 // SizeInfo { instance_size: 1000, native_size: -1, calculated_instance_size: 1000, calculated_native_size: 996, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7117))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7119))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7203))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7205))
 // CS Name: ::UnityEngine.UIElements::ProgressBar*
 class CORDL_TYPE ProgressBar : public ::UnityEngine::UIElements::AbstractProgressBar {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::UIElements::ProgressBar* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e387a8 size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x2cd13f8 size 0x54 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProgressBar", modifiers: "&&", def_value: None }]
@@ -59,14 +59,14 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Progres
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7116)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5270 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7119))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7118)) CS Name: ::ProgressBar::UxmlFactory*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5154 }), TypeDefinitionIndex(TypeDefinitionIndex(7202)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7083)), TypeDefinitionIndex(TypeDefinitionIndex(7205))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7204)) CS Name: ::ProgressBar::UxmlFactory*
 class CORDL_TYPE __ProgressBar__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ProgressBar*, ::UnityEngine::UIElements::__AbstractProgressBar__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__ProgressBar__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e387fc size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2cd144c size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ProgressBar__UxmlFactory", modifiers: "&&", def_value: None }]

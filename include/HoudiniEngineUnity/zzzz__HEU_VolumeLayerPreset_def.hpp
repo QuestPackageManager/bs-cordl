@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VolumeLayerPreset);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9611))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9538))
 // CS Name: ::HoudiniEngineUnity::HEU_VolumeLayerPreset*
 class CORDL_TYPE HEU_VolumeLayerPreset : public ::System::Object {
 public:
@@ -61,7 +61,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_VolumeLayerPreset* New_ctor();
 
-  /// @brief Method .ctor addr 0x214e868 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1ff6ecc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_VolumeLayerPreset", modifiers: "&&", def_value: None }]
@@ -94,6 +94,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_VolumeLayerPreset, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeLayerPreset, ____layerName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeLayerPreset, ____strength) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeLayerPreset, ____uiExpanded) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeLayerPreset, ____tile) == 0x20, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_VolumeLayerPreset);

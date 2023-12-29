@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::EnvironmentEffectsFilterPreset);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4621))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4736))
 // CS Name: ::EnvironmentEffectsFilterPreset
 struct CORDL_TYPE EnvironmentEffectsFilterPreset {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentEffectsFilterPreset, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentEffectsFilterPreset, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentEffectsFilterPreset, "", "EnvironmentEffectsFilterPreset");

@@ -12,10 +12,10 @@ namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+class IBeatmapLevelPack;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectLevelDestination);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(4152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4156))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14934)), TypeDefinitionIndex(TypeDefinitionIndex(4187))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4191))
 // CS Name: ::SelectLevelDestination*
 class CORDL_TYPE SelectLevelDestination : public ::GlobalNamespace::MenuDestination {
 public:
@@ -72,7 +72,7 @@ public:
   static inline ::GlobalNamespace::SelectLevelDestination* New_ctor(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                                                                     ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
-  /// @brief Method .ctor addr 0x223cf3c size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x21ceb98 size 0x44 virtual false final false
   inline void _ctor(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                     ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
@@ -106,6 +106,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectLevelDestination, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SelectLevelDestination, ___beatmapLevelPack) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SelectLevelDestination, ___previewBeatmapLevel) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SelectLevelDestination, ___beatmapDifficulty) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SelectLevelDestination, ___beatmapCharacteristic) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SelectLevelDestination);

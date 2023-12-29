@@ -6,7 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleMatchingContext)
 namespace UnityEngine::UIElements {
+class StyleSheet;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct MatchResultInfo;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -14,14 +20,8 @@ template <typename T1, typename T2> class Action_2;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-struct MatchResultInfo;
-}
 namespace UnityEngine::UIElements {
 class StyleVariableContext;
-}
-namespace UnityEngine::UIElements {
-class StyleSheet;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleMatchingContext);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6817))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6903))
 // CS Name: ::UnityEngine.UIElements::StyleMatchingContext*
 class CORDL_TYPE StyleMatchingContext : public ::System::Object {
 public:
@@ -79,22 +79,22 @@ public:
 
   constexpr void __set_processResult(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* value);
 
-  /// @brief Method get_styleSheetCount addr 0x2dc1bb4 size 0x48 virtual false final false
+  /// @brief Method get_styleSheetCount addr 0x2c5a804 size 0x48 virtual false final false
   inline int32_t get_styleSheetCount();
 
   static inline ::UnityEngine::UIElements::StyleMatchingContext*
   New_ctor(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult);
 
-  /// @brief Method .ctor addr 0x2dc1bfc size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x2c5a84c size 0xc4 virtual false final false
   inline void _ctor(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult);
 
-  /// @brief Method AddStyleSheet addr 0x2dc1cc0 size 0xec virtual false final false
+  /// @brief Method AddStyleSheet addr 0x2c5a910 size 0xec virtual false final false
   inline void AddStyleSheet(::UnityEngine::UIElements::StyleSheet* sheet);
 
-  /// @brief Method RemoveStyleSheetRange addr 0x2dc1dac size 0x68 virtual false final false
+  /// @brief Method RemoveStyleSheetRange addr 0x2c5a9fc size 0x68 virtual false final false
   inline void RemoveStyleSheetRange(int32_t index, int32_t count);
 
-  /// @brief Method GetStyleSheetAt addr 0x2dc1e14 size 0x58 virtual false final false
+  /// @brief Method GetStyleSheetAt addr 0x2c5aa64 size 0x58 virtual false final false
   inline ::UnityEngine::UIElements::StyleSheet* GetStyleSheetAt(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleMatchingContext", modifiers: "&&", def_value: None }]
@@ -127,6 +127,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleMatchingContext, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleMatchingContext, ___m_StyleSheetStack) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleMatchingContext, ___variableContext) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleMatchingContext, ___currentElement) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleMatchingContext, ___processResult) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::StyleMatchingContext);

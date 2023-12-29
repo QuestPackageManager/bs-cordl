@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AsyncTaskMethodBuilder_1)
-namespace System {
-class Exception;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncMethodBuilderCore;
@@ -15,8 +15,8 @@ struct AsyncMethodBuilderCore;
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -30,8 +30,8 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3408))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3402))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3403))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3397))
 // CS Name: ::System.Runtime.CompilerServices::AsyncTaskMethodBuilder`1<TResult>
 struct CORDL_TYPE AsyncTaskMethodBuilder_1 {
 public:

@@ -25,7 +25,7 @@ namespace Org::BouncyCastle::Bcpg {
 class CORDL_TYPE ContainedPacket : public ::Org::BouncyCastle::Bcpg::Packet {
 public:
   // Declarations
-  /// @brief Method GetEncoded addr 0x11d041c size 0xb0 virtual false final false
+  /// @brief Method GetEncoded addr 0x115f1cc size 0xb0 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   /// @brief Method Encode addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -33,7 +33,7 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::ContainedPacket* New_ctor();
 
-  /// @brief Method .ctor addr 0x11d04cc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x115f27c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContainedPacket", modifiers: "&&", def_value: None }]

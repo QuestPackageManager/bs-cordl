@@ -10,20 +10,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_DefaultControls)
-namespace TMPro {
-struct __TMP_DefaultControls__Resources;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace TMPro {
-class TMP_Text;
+struct __TMP_DefaultControls__Resources;
 }
 namespace UnityEngine {
 class GameObject;
 }
+namespace TMPro {
+class TMP_Text;
+}
 namespace UnityEngine::UI {
 class Selectable;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 namespace UnityEngine {
 class Sprite;
@@ -43,7 +43,7 @@ MARK_VAL_T(::TMPro::__TMP_DefaultControls__Resources);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12345))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12273))
 // CS Name: ::TMP_DefaultControls::Resources
 struct CORDL_TYPE __TMP_DefaultControls__Resources {
 public:
@@ -88,13 +88,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_DefaultControls__Resources, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::TMPro::__TMP_DefaultControls__Resources, standard) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::__TMP_DefaultControls__Resources, background) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::__TMP_DefaultControls__Resources, inputField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::__TMP_DefaultControls__Resources, knob) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::__TMP_DefaultControls__Resources, checkmark) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::__TMP_DefaultControls__Resources, dropdown) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::__TMP_DefaultControls__Resources, mask) == 0x30, "Offset mismatch!");
+
 } // namespace TMPro
 // Type: TMPro::TMP_DefaultControls
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12346))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12274))
 // CS Name: ::TMPro::TMP_DefaultControls*
 class CORDL_TYPE TMP_DefaultControls : public ::System::Object {
 public:
@@ -136,37 +150,37 @@ public:
 
   static inline ::UnityEngine::Color getStaticF_s_TextColor();
 
-  /// @brief Method CreateUIElementRoot addr 0x2c024c4 size 0xa8 virtual false final false
+  /// @brief Method CreateUIElementRoot addr 0x2a7d770 size 0xa8 virtual false final false
   static inline ::UnityEngine::GameObject* CreateUIElementRoot(::StringW name, ::UnityEngine::Vector2 size);
 
-  /// @brief Method CreateUIObject addr 0x2c0256c size 0xc0 virtual false final false
+  /// @brief Method CreateUIObject addr 0x2a7d818 size 0xc0 virtual false final false
   static inline ::UnityEngine::GameObject* CreateUIObject(::StringW name, ::UnityEngine::GameObject* parent);
 
-  /// @brief Method SetDefaultTextValues addr 0x2c0272c size 0x88 virtual false final false
+  /// @brief Method SetDefaultTextValues addr 0x2a7d9d8 size 0x88 virtual false final false
   static inline void SetDefaultTextValues(::TMPro::TMP_Text* lbl);
 
-  /// @brief Method SetDefaultColorTransitionValues addr 0x2c027b4 size 0x10 virtual false final false
+  /// @brief Method SetDefaultColorTransitionValues addr 0x2a7da60 size 0x10 virtual false final false
   static inline void SetDefaultColorTransitionValues(::UnityEngine::UI::Selectable* slider);
 
-  /// @brief Method SetParentAndAlign addr 0x2c0262c size 0x100 virtual false final false
+  /// @brief Method SetParentAndAlign addr 0x2a7d8d8 size 0x100 virtual false final false
   static inline void SetParentAndAlign(::UnityEngine::GameObject* child, ::UnityEngine::GameObject* parent);
 
-  /// @brief Method SetLayerRecursively addr 0x2c027c4 size 0xe4 virtual false final false
+  /// @brief Method SetLayerRecursively addr 0x2a7da70 size 0xe4 virtual false final false
   static inline void SetLayerRecursively(::UnityEngine::GameObject* go, int32_t layer);
 
-  /// @brief Method CreateScrollbar addr 0x2c028a8 size 0x2c4 virtual false final false
+  /// @brief Method CreateScrollbar addr 0x2a7db54 size 0x2c4 virtual false final false
   static inline ::UnityEngine::GameObject* CreateScrollbar(::TMPro::__TMP_DefaultControls__Resources resources);
 
-  /// @brief Method CreateButton addr 0x2c02b6c size 0x2c0 virtual false final false
+  /// @brief Method CreateButton addr 0x2a7de18 size 0x2c0 virtual false final false
   static inline ::UnityEngine::GameObject* CreateButton(::TMPro::__TMP_DefaultControls__Resources resources);
 
-  /// @brief Method CreateText addr 0x2c02e2c size 0xa0 virtual false final false
+  /// @brief Method CreateText addr 0x2a7e0d8 size 0xa0 virtual false final false
   static inline ::UnityEngine::GameObject* CreateText(::TMPro::__TMP_DefaultControls__Resources resources);
 
-  /// @brief Method CreateInputField addr 0x2c02ecc size 0x65c virtual false final false
+  /// @brief Method CreateInputField addr 0x2a7e178 size 0x65c virtual false final false
   static inline ::UnityEngine::GameObject* CreateInputField(::TMPro::__TMP_DefaultControls__Resources resources);
 
-  /// @brief Method CreateDropdown addr 0x2c036cc size 0xdf4 virtual false final false
+  /// @brief Method CreateDropdown addr 0x2a7e978 size 0xdf4 virtual false final false
   static inline ::UnityEngine::GameObject* CreateDropdown(::TMPro::__TMP_DefaultControls__Resources resources);
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_DefaultControls", modifiers: "&&", def_value: None }]

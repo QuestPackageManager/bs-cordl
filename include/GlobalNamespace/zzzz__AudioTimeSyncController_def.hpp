@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioTimeSyncController)
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-struct __AudioTimeSyncController__State;
-}
-namespace UnityEngine {
-class WaitUntil;
-}
 namespace GlobalNamespace {
 class __AudioTimeSyncController__InitData;
 }
 namespace GlobalNamespace {
+struct __AudioTimeSyncController__State;
+}
+namespace GlobalNamespace {
 class IAudioTimeSource;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+class WaitUntil;
 }
 namespace UnityEngine {
 class AudioSource;
@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__AudioTimeSyncController__InitData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4051))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4039))
 // CS Name: ::AudioTimeSyncController::InitData*
 class CORDL_TYPE __AudioTimeSyncController__InitData : public ::System::Object {
 public:
@@ -95,7 +95,7 @@ public:
 
   static inline ::GlobalNamespace::__AudioTimeSyncController__InitData* New_ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale);
 
-  /// @brief Method .ctor addr 0x222c22c size 0x4c virtual false final false
+  /// @brief Method .ctor addr 0x20cc740 size 0x4c virtual false final false
   inline void _ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AudioTimeSyncController__InitData", modifiers: "&&", def_value: None }]
@@ -129,13 +129,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AudioTimeSyncController__InitData, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__AudioTimeSyncController__InitData, ___audioClip) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__AudioTimeSyncController__InitData, ___startSongTime) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__AudioTimeSyncController__InitData, ___songTimeOffset) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__AudioTimeSyncController__InitData, ___timeScale) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::State
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4052))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4040))
 // CS Name: ::AudioTimeSyncController::State
 struct CORDL_TYPE __AudioTimeSyncController__State {
 public:
@@ -181,13 +189,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AudioTimeSyncController__State, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__AudioTimeSyncController__State, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::AudioTimeSyncController
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 141, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(4052))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4053))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(4040))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4041))
 // CS Name: ::AudioTimeSyncController*
 class CORDL_TYPE AudioTimeSyncController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -441,87 +451,87 @@ public:
 
   constexpr void __set__forceNoAudioSyncOrAudioSyncErrorFixing(bool value);
 
-  /// @brief Method get_state addr 0x222b684 size 0x8 virtual false final false
+  /// @brief Method get_state addr 0x20cab98 size 0x8 virtual false final false
   inline ::GlobalNamespace::__AudioTimeSyncController__State get_state();
 
-  /// @brief Method get_songTime addr 0x222b68c size 0x8 virtual true final true
+  /// @brief Method get_songTime addr 0x20caba0 size 0x8 virtual true final true
   inline float_t get_songTime();
 
-  /// @brief Method get_lastFrameDeltaSongTime addr 0x222b694 size 0x8 virtual true final true
+  /// @brief Method get_lastFrameDeltaSongTime addr 0x20caba8 size 0x8 virtual true final true
   inline float_t get_lastFrameDeltaSongTime();
 
-  /// @brief Method get_songLength addr 0x222b69c size 0x98 virtual true final true
+  /// @brief Method get_songLength addr 0x20cabb0 size 0x98 virtual true final true
   inline float_t get_songLength();
 
-  /// @brief Method get_isAudioLoaded addr 0x222b734 size 0x30 virtual false final false
+  /// @brief Method get_isAudioLoaded addr 0x20cac48 size 0x30 virtual false final false
   inline bool get_isAudioLoaded();
 
-  /// @brief Method get_songEndTime addr 0x222b764 size 0x6c virtual true final true
+  /// @brief Method get_songEndTime addr 0x20cac78 size 0x6c virtual true final true
   inline float_t get_songEndTime();
 
-  /// @brief Method get_timeScale addr 0x222b7d0 size 0x8 virtual false final false
+  /// @brief Method get_timeScale addr 0x20cace4 size 0x8 virtual false final false
   inline float_t get_timeScale();
 
-  /// @brief Method get_dspTimeOffset addr 0x222b7d8 size 0x8 virtual false final false
+  /// @brief Method get_dspTimeOffset addr 0x20cacec size 0x8 virtual false final false
   inline double_t get_dspTimeOffset();
 
-  /// @brief Method get_waitUntilAudioIsLoaded addr 0x222b7e0 size 0xac virtual false final false
+  /// @brief Method get_waitUntilAudioIsLoaded addr 0x20cacf4 size 0xac virtual false final false
   inline ::UnityEngine::WaitUntil* get_waitUntilAudioIsLoaded();
 
-  /// @brief Method get_isReady addr 0x222b88c size 0x8 virtual true final true
+  /// @brief Method get_isReady addr 0x20cada0 size 0x8 virtual true final true
   inline bool get_isReady();
 
-  /// @brief Method get_songTimeOffset addr 0x222b894 size 0x8 virtual false final false
+  /// @brief Method get_songTimeOffset addr 0x20cada8 size 0x8 virtual false final false
   inline float_t get_songTimeOffset();
 
-  /// @brief Method get_forceNoAudioSyncOrAudioSyncErrorFixing addr 0x222b89c size 0x8 virtual false final false
+  /// @brief Method get_forceNoAudioSyncOrAudioSyncErrorFixing addr 0x20cadb0 size 0x8 virtual false final false
   inline bool get_forceNoAudioSyncOrAudioSyncErrorFixing();
 
-  /// @brief Method set_forceNoAudioSyncOrAudioSyncErrorFixing addr 0x222b8a4 size 0xc virtual false final false
+  /// @brief Method set_forceNoAudioSyncOrAudioSyncErrorFixing addr 0x20cadb8 size 0xc virtual false final false
   inline void set_forceNoAudioSyncOrAudioSyncErrorFixing(bool value);
 
-  /// @brief Method add_stateChangedEvent addr 0x222b8b0 size 0x9c virtual false final false
+  /// @brief Method add_stateChangedEvent addr 0x20cadc4 size 0x9c virtual false final false
   inline void add_stateChangedEvent(::System::Action* value);
 
-  /// @brief Method remove_stateChangedEvent addr 0x222b94c size 0x9c virtual false final false
+  /// @brief Method remove_stateChangedEvent addr 0x20cae60 size 0x9c virtual false final false
   inline void remove_stateChangedEvent(::System::Action* value);
 
-  /// @brief Method get_timeSinceStart addr 0x222b9e8 size 0x20 virtual false final false
+  /// @brief Method get_timeSinceStart addr 0x20caefc size 0x20 virtual false final false
   inline float_t get_timeSinceStart();
 
-  /// @brief Method Awake addr 0x222ba08 size 0x48 virtual false final false
+  /// @brief Method Awake addr 0x20caf1c size 0x48 virtual false final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x222ba50 size 0xd8 virtual false final false
+  /// @brief Method Start addr 0x20caf64 size 0xd8 virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x222bb28 size 0x358 virtual false final false
+  /// @brief Method Update addr 0x20cb03c size 0x358 virtual false final false
   inline void Update();
 
-  /// @brief Method StartSong addr 0x222be80 size 0x44 virtual false final false
+  /// @brief Method StartSong addr 0x20cb394 size 0x44 virtual false final false
   inline void StartSong(float_t startTimeOffset);
 
-  /// @brief Method SeekTo addr 0x222bec4 size 0x180 virtual false final false
+  /// @brief Method SeekTo addr 0x20cb3d8 size 0x180 virtual false final false
   inline void SeekTo(float_t startTimeOffset);
 
-  /// @brief Method StopSong addr 0x222c044 size 0x48 virtual false final false
+  /// @brief Method StopSong addr 0x20cb558 size 0x48 virtual false final false
   inline void StopSong();
 
-  /// @brief Method Pause addr 0x222c08c size 0x58 virtual false final false
+  /// @brief Method Pause addr 0x20cb5a0 size 0x58 virtual false final false
   inline void Pause();
 
-  /// @brief Method Resume addr 0x222c0e4 size 0x50 virtual false final false
+  /// @brief Method Resume addr 0x20cb5f8 size 0x50 virtual false final false
   inline void Resume();
 
-  /// @brief Method SetSongTimeIntoAudioTime addr 0x222c134 size 0xe0 virtual false final false
+  /// @brief Method SetSongTimeIntoAudioTime addr 0x20cb648 size 0xe0 virtual false final false
   inline void SetSongTimeIntoAudioTime();
 
   static inline ::GlobalNamespace::AudioTimeSyncController* New_ctor();
 
-  /// @brief Method .ctor addr 0x222c214 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x20cb728 size 0x14 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <get_waitUntilAudioIsLoaded>b__27_0 addr 0x222c228 size 0x4 virtual false final false
+  /// @brief Method <get_waitUntilAudioIsLoaded>b__27_0 addr 0x20cb73c size 0x1004 virtual false final false
   inline bool _get_waitUntilAudioIsLoaded_b__27_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioTimeSyncController", modifiers: "&&", def_value: None }]
@@ -614,6 +624,54 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioTimeSyncController, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____audioSyncLerpSpeed) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____forcedSyncDeltaTime) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____startSyncDeltaTime) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____stopSyncDeltaTime) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____audioSource) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____audioLatency) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____initData) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ___forcedNoAudioSync) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ___stateChangedEvent) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____fixingAudioSyncError) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____audioStartTimeOffsetSinceStart) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____playbackLoopIndex) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____prevAudioSamplePos) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____startSongTime) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____songTimeOffset) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____audioStarted) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____timeScale) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____songTime) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____dspTimeOffset) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____state) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____canStartSong) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____isReady) == 0x85, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____lastFrameDeltaSongTime) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioTimeSyncController, ____forceNoAudioSyncOrAudioSyncErrorFixing) == 0x8c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__AudioTimeSyncController__State, "", "AudioTimeSyncController/State");

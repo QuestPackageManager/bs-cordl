@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(NoAllocHelpers)
 namespace System {
 class Array;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::UnityEngine::NoAllocHelpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10237))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10164))
 // CS Name: ::UnityEngine::NoAllocHelpers*
 class CORDL_TYPE NoAllocHelpers : public ::System::Object {
 public:
@@ -37,7 +37,7 @@ public:
   /// @brief Method EnsureListElemCount addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline void EnsureListElemCount(::System::Collections::Generic::List_1<T>* list, int32_t count);
 
-  /// @brief Method SafeLength addr 0x2cd3cac size 0x10 virtual false final false
+  /// @brief Method SafeLength addr 0x2b6d52c size 0x10 virtual false final false
   static inline int32_t SafeLength(::System::Array* values);
 
   /// @brief Method SafeLength addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -46,10 +46,10 @@ public:
   /// @brief Method ExtractArrayFromListT addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> ExtractArrayFromListT(::System::Collections::Generic::List_1<T>* list);
 
-  /// @brief Method Internal_ResizeList addr 0x2cd3cbc size 0x44 virtual false final false
+  /// @brief Method Internal_ResizeList addr 0x2b6d53c size 0x44 virtual false final false
   static inline void Internal_ResizeList(::System::Object* list, int32_t size);
 
-  /// @brief Method ExtractArrayFromList addr 0x2cd3d00 size 0x3c virtual false final false
+  /// @brief Method ExtractArrayFromList addr 0x2b6d580 size 0x3c virtual false final false
   static inline ::System::Array* ExtractArrayFromList(::System::Object* list);
 
   // Ctor Parameters [CppParam { name: "", ty: "NoAllocHelpers", modifiers: "&&", def_value: None }]

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorBindInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11242))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11170))
 // CS Name: ::Zenject::SubContainerCreatorBindInfo*
 class CORDL_TYPE SubContainerCreatorBindInfo : public ::System::Object {
 public:
@@ -57,27 +57,27 @@ public:
 
   constexpr void __set__KernelType_k__BackingField(::System::Type* value);
 
-  /// @brief Method get_DefaultParentName addr 0x2f0afb0 size 0x8 virtual false final false
+  /// @brief Method get_DefaultParentName addr 0x2da31e0 size 0x8 virtual false final false
   inline ::StringW get_DefaultParentName();
 
-  /// @brief Method set_DefaultParentName addr 0x2f0afb8 size 0x8 virtual false final false
+  /// @brief Method set_DefaultParentName addr 0x2da31e8 size 0x8 virtual false final false
   inline void set_DefaultParentName(::StringW value);
 
-  /// @brief Method get_CreateKernel addr 0x2f0afc0 size 0x8 virtual false final false
+  /// @brief Method get_CreateKernel addr 0x2da31f0 size 0x8 virtual false final false
   inline bool get_CreateKernel();
 
-  /// @brief Method set_CreateKernel addr 0x2f0afc8 size 0xc virtual false final false
+  /// @brief Method set_CreateKernel addr 0x2da31f8 size 0xc virtual false final false
   inline void set_CreateKernel(bool value);
 
-  /// @brief Method get_KernelType addr 0x2f0afd4 size 0x8 virtual false final false
+  /// @brief Method get_KernelType addr 0x2da3204 size 0x8 virtual false final false
   inline ::System::Type* get_KernelType();
 
-  /// @brief Method set_KernelType addr 0x2f0afdc size 0x8 virtual false final false
+  /// @brief Method set_KernelType addr 0x2da320c size 0x8 virtual false final false
   inline void set_KernelType(::System::Type* value);
 
   static inline ::Zenject::SubContainerCreatorBindInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x2f0afe4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2da3214 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorBindInfo", modifiers: "&&", def_value: None }]
@@ -107,6 +107,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::SubContainerCreatorBindInfo, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::SubContainerCreatorBindInfo, ____DefaultParentName_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::SubContainerCreatorBindInfo, ____CreateKernel_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::SubContainerCreatorBindInfo, ____KernelType_k__BackingField) == 0x20, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::SubContainerCreatorBindInfo);

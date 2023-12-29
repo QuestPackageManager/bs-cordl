@@ -12,10 +12,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_AttributeData)
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+struct __HEU_AttributeData__AttributeType;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_AttributeData__AttributeType;
+template <typename T> class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
 struct __HEU_AttributeData__AttributeState;
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AttributeData);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9661))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9588))
 // CS Name: ::HEU_AttributeData::AttributeType
 struct CORDL_TYPE __HEU_AttributeData__AttributeType {
 public:
@@ -97,13 +97,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_AttributeData__AttributeType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_AttributeData__AttributeType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HoudiniEngineUnity
 // Type: ::AttributeState
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9662))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9589))
 // CS Name: ::HEU_AttributeData::AttributeState
 struct CORDL_TYPE __HEU_AttributeData__AttributeState {
 public:
@@ -149,13 +151,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_AttributeData__AttributeState, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_AttributeData__AttributeState, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_AttributeData
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9661)), TypeDefinitionIndex(TypeDefinitionIndex(9741)), TypeDefinitionIndex(TypeDefinitionIndex(9662)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9663)) CS Name: ::HoudiniEngineUnity::HEU_AttributeData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(9668)), TypeDefinitionIndex(TypeDefinitionIndex(9589)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9588))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9590)) CS Name: ::HoudiniEngineUnity::HEU_AttributeData*
 class CORDL_TYPE HEU_AttributeData : public ::System::Object {
 public:
   // Declarations
@@ -229,18 +233,18 @@ public:
 
   constexpr void __set__attributeState(::HoudiniEngineUnity::__HEU_AttributeData__AttributeState value);
 
-  /// @brief Method IsColorAttribute addr 0x217f7c4 size 0x70 virtual false final false
+  /// @brief Method IsColorAttribute addr 0x2027e28 size 0x70 virtual false final false
   inline bool IsColorAttribute();
 
-  /// @brief Method CopyValuesTo addr 0x217f834 size 0x124 virtual false final false
+  /// @brief Method CopyValuesTo addr 0x2027e98 size 0x124 virtual false final false
   inline void CopyValuesTo(::HoudiniEngineUnity::HEU_AttributeData* destAttrData);
 
-  /// @brief Method IsEquivalentTo addr 0x217f958 size 0x328 virtual true final true
+  /// @brief Method IsEquivalentTo addr 0x2027fbc size 0x328 virtual true final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AttributeData* other);
 
   static inline ::HoudiniEngineUnity::HEU_AttributeData* New_ctor();
 
-  /// @brief Method .ctor addr 0x217fc80 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20282e4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_AttributeData", modifiers: "&&", def_value: None }]
@@ -282,6 +286,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_AttributeData, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AttributeData, ____attributeInfo) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AttributeData, ____name) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AttributeData, ____attributeType) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AttributeData, ____intValues) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AttributeData, ____floatValues) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AttributeData, ____stringValues) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AttributeData, ____attributeState) == 0x60, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_AttributeData__AttributeState, "HoudiniEngineUnity", "HEU_AttributeData/AttributeState");

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Tayx::Graphy::UI::IModifiableState);
 namespace Tayx::Graphy::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15074))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15252))
 // CS Name: ::Tayx.Graphy.UI::IModifiableState*
 class CORDL_TYPE IModifiableState {
 public:

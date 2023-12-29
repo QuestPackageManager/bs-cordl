@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MenuSceneSetup)
-namespace GlobalNamespace {
-class __MenuSceneSetup___Start_d__3;
-}
 namespace HMUI {
 class FlowCoordinator;
 }
@@ -18,17 +15,20 @@ class HierarchyManager;
 namespace GlobalNamespace {
 class GameScenesManager;
 }
+namespace GlobalNamespace {
+class __MenuSceneSetup___Start_d__3;
+}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MenuSceneSetup___Start_d__3);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6036))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6091))
 // CS Name: ::MenuSceneSetup::<Start>d__3*
 class CORDL_TYPE __MenuSceneSetup___Start_d__3 : public ::System::Object {
 public:
@@ -92,22 +92,22 @@ public:
 
   static inline ::GlobalNamespace::__MenuSceneSetup___Start_d__3* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x231af84 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x21c8160 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x231afb4 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x21c8190 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x231afb8 size 0x94 virtual true final true
+  /// @brief Method MoveNext addr 0x21c8194 size 0x94 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x231b04c size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x21c8228 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x231b054 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x21c8230 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x231b094 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x21c8270 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuSceneSetup___Start_d__3", modifiers: "&&", def_value: None }]
@@ -138,13 +138,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuSceneSetup___Start_d__3, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MenuSceneSetup___Start_d__3, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MenuSceneSetup___Start_d__3, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MenuSceneSetup___Start_d__3, _____4__this) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MenuSceneSetup
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6037))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6092))
 // CS Name: ::MenuSceneSetup*
 class CORDL_TYPE MenuSceneSetup : public ::UnityEngine::MonoBehaviour {
 public:
@@ -178,12 +184,12 @@ public:
 
   constexpr void __set__hierarchyManager(::HMUI::HierarchyManager* value);
 
-  /// @brief Method Start addr 0x231af1c size 0x68 virtual false final false
+  /// @brief Method Start addr 0x21c80f8 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* Start();
 
   static inline ::GlobalNamespace::MenuSceneSetup* New_ctor();
 
-  /// @brief Method .ctor addr 0x231afac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21c8188 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuSceneSetup", modifiers: "&&", def_value: None }]
@@ -213,6 +219,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuSceneSetup, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuSceneSetup, ____rootFlowCoordinator) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuSceneSetup, ____gameScenesManager) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuSceneSetup, ____hierarchyManager) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MenuSceneSetup);

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
 CORDL_MODULE_EXPORT(EventsTestScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
-class SceneInfo;
+class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class SceneInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EventsTestScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15417))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6063))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13939))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6121))
 // CS Name: ::EventsTestScenesTransitionSetupDataSO*
 class CORDL_TYPE EventsTestScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
@@ -53,12 +53,12 @@ public:
 
   constexpr void __set__gameCoreSceneInfo(::GlobalNamespace::SceneInfo* value);
 
-  /// @brief Method Init addr 0x231d240 size 0x1dc virtual false final false
+  /// @brief Method Init addr 0x21c9790 size 0x1dc virtual false final false
   inline void Init();
 
   static inline ::GlobalNamespace::EventsTestScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x231d41c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21c996c size 0x1008 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventsTestScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
@@ -88,6 +88,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EventsTestScenesTransitionSetupDataSO, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventsTestScenesTransitionSetupDataSO, ____environmentInfo) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventsTestScenesTransitionSetupDataSO, ____eventsTestSceneInfo) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventsTestScenesTransitionSetupDataSO, ____gameCoreSceneInfo) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EventsTestScenesTransitionSetupDataSO);

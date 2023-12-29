@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(PkiStatusEncodable)
+namespace Org::BouncyCastle::Asn1::Cmp {
+struct PkiStatus;
+}
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
@@ -16,8 +16,8 @@ class DerInteger;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Asn1::Cmp {
-struct PkiStatus;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -97,21 +97,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatus status);
 
-  /// @brief Method .ctor addr 0xe6d21c size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0xdf8048 size 0x7c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatus status);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* status);
 
-  /// @brief Method .ctor addr 0xe6d298 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xdf80c4 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* status);
 
-  /// @brief Method GetInstance addr 0xe6d2c0 size 0x18c virtual false final false
+  /// @brief Method GetInstance addr 0xdf80ec size 0x18c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Value addr 0xe6d44c size 0x1c virtual true final false
+  /// @brief Method get_Value addr 0xdf8278 size 0x1c virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Value();
 
-  /// @brief Method ToAsn1Object addr 0xe6d468 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xdf8294 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkiStatusEncodable", modifiers: "&&", def_value: None }]
@@ -135,6 +135,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable, ___status) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable);

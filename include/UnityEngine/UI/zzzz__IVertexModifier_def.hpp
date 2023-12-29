@@ -3,11 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IVertexModifier)
-namespace UnityEngine {
-struct UIVertex;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct UIVertex;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::IVertexModifier);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13144))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13149))
 // CS Name: ::UnityEngine.UI::IVertexModifier*
 class CORDL_TYPE IVertexModifier {
 public:

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ITraceWriter)
-namespace System {
-class Exception;
-}
 namespace System::Diagnostics {
 struct TraceLevel;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ITraceWriter);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11906))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11834))
 // CS Name: ::Newtonsoft.Json.Serialization::ITraceWriter*
 class CORDL_TYPE ITraceWriter {
 public:

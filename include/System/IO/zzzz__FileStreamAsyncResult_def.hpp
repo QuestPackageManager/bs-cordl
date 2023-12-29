@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileStreamAsyncResult)
+namespace System::Threading {
+class WaitHandle;
+}
+namespace System::Threading {
+class ManualResetEvent;
+}
+namespace System {
+class Object;
+}
 namespace System {
 class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
-}
-namespace System::Threading {
-class ManualResetEvent;
-}
-namespace System::Threading {
-class WaitHandle;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::IO {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::System::IO::FileStreamAsyncResult);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3628))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3616))
 // CS Name: ::System.IO::FileStreamAsyncResult*
 class CORDL_TYPE FileStreamAsyncResult : public ::System::Object {
 public:
@@ -130,22 +130,22 @@ public:
 
   static inline ::System::IO::FileStreamAsyncResult* New_ctor(::System::AsyncCallback* cb, ::System::Object* state);
 
-  /// @brief Method .ctor addr 0x2540510 size 0xd8 virtual false final false
+  /// @brief Method .ctor addr 0x23e427c size 0xd8 virtual false final false
   inline void _ctor(::System::AsyncCallback* cb, ::System::Object* state);
 
-  /// @brief Method CBWrapper addr 0x2541554 size 0x94 virtual false final false
+  /// @brief Method CBWrapper addr 0x23e52b8 size 0x94 virtual false final false
   static inline void CBWrapper(::System::IAsyncResult* ares);
 
-  /// @brief Method get_AsyncState addr 0x25415e8 size 0x8 virtual true final true
+  /// @brief Method get_AsyncState addr 0x23e534c size 0x8 virtual true final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_CompletedSynchronously addr 0x25415f0 size 0x8 virtual true final true
+  /// @brief Method get_CompletedSynchronously addr 0x23e5354 size 0x8 virtual true final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_AsyncWaitHandle addr 0x25415f8 size 0x8 virtual true final true
+  /// @brief Method get_AsyncWaitHandle addr 0x23e535c size 0x8 virtual true final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_IsCompleted addr 0x2541600 size 0x8 virtual true final true
+  /// @brief Method get_IsCompleted addr 0x23e5364 size 0x8 virtual true final true
   inline bool get_IsCompleted();
 
   // Ctor Parameters [CppParam { name: "", ty: "FileStreamAsyncResult", modifiers: "&&", def_value: None }]
@@ -193,6 +193,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::FileStreamAsyncResult, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::System::IO::FileStreamAsyncResult, ___state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::FileStreamAsyncResult, ___completed) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::FileStreamAsyncResult, ___wh) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::FileStreamAsyncResult, ___cb) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::FileStreamAsyncResult, ___completedSynch) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::FileStreamAsyncResult, ___Count) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::FileStreamAsyncResult, ___OriginalCount) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::FileStreamAsyncResult, ___BytesRead) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::FileStreamAsyncResult, ___realcb) == 0x40, "Offset mismatch!");
 
 } // namespace System::IO
 NEED_NO_BOX(::System::IO::FileStreamAsyncResult);

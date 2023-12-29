@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_WorkItemTally);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9774))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9701))
 // CS Name: ::HoudiniEngineUnity::HEU_WorkItemTally*
 class CORDL_TYPE HEU_WorkItemTally : public ::System::Object {
 public:
@@ -76,24 +76,24 @@ public:
 
   constexpr void __set__erroredWorkItems(int32_t value);
 
-  /// @brief Method ZeroAll addr 0x219b8fc size 0xc virtual false final false
+  /// @brief Method ZeroAll addr 0x2044f60 size 0xc virtual false final false
   inline void ZeroAll();
 
-  /// @brief Method AreAllWorkItemsComplete addr 0x219c9a8 size 0x38 virtual false final false
+  /// @brief Method AreAllWorkItemsComplete addr 0x204600c size 0x38 virtual false final false
   inline bool AreAllWorkItemsComplete();
 
-  /// @brief Method AnyWorkItemsFailed addr 0x219c9e0 size 0x10 virtual false final false
+  /// @brief Method AnyWorkItemsFailed addr 0x2046044 size 0x10 virtual false final false
   inline bool AnyWorkItemsFailed();
 
-  /// @brief Method AnyWorkItemsPending addr 0x219ca48 size 0x44 virtual false final false
+  /// @brief Method AnyWorkItemsPending addr 0x20460ac size 0x44 virtual false final false
   inline bool AnyWorkItemsPending();
 
-  /// @brief Method ProgressRatio addr 0x219ca8c size 0xac virtual false final false
+  /// @brief Method ProgressRatio addr 0x20460f0 size 0xac virtual false final false
   inline ::StringW ProgressRatio();
 
   static inline ::HoudiniEngineUnity::HEU_WorkItemTally* New_ctor();
 
-  /// @brief Method .ctor addr 0x219c834 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2045e98 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_WorkItemTally", modifiers: "&&", def_value: None }]
@@ -132,6 +132,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_WorkItemTally, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_WorkItemTally, ____totalWorkItems) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_WorkItemTally, ____waitingWorkItems) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_WorkItemTally, ____scheduledWorkItems) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_WorkItemTally, ____cookingWorkItems) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_WorkItemTally, ____cookedWorkItems) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_WorkItemTally, ____erroredWorkItems) == 0x24, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_WorkItemTally);

@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ObservableVariableSO_1_def.hpp"
-#include "GlobalNamespace/zzzz__IValue_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__IValue_1_def.hpp"
 #include "GlobalNamespace/zzzz__IObservableChange_def.hpp"
 /// @brief Convert operator to "::GlobalNamespace::IValue_1<T>"
 template <typename T> constexpr GlobalNamespace::ObservableVariableSO_1<T>::operator ::GlobalNamespace::IValue_1<T>*() noexcept {

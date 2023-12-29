@@ -15,7 +15,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_SessionSyncInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9756))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9683))
 // CS Name: ::HoudiniEngineUnity::HAPI_SessionSyncInfo
 struct CORDL_TYPE HAPI_SessionSyncInfo {
 public:
@@ -40,6 +40,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_SessionSyncInfo, 0x2>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_SessionSyncInfo, cookUsingHoudiniTime) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_SessionSyncInfo, syncViewport) == 0x1, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_SessionSyncInfo, "HoudiniEngineUnity", "HAPI_SessionSyncInfo");

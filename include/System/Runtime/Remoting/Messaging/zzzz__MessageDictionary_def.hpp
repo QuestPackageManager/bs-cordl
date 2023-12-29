@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageDictionary)
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class ICollection;
+}
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
 namespace System::Collections {
-class IDictionary;
+class IEnumerator;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Runtime::Remoting::Messaging {
 class __MessageDictionary__DictionaryEnumerator;
 }
 namespace System::Collections {
-class ICollection;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections {
 class IDictionaryEnumerator;
 }
 namespace System::Collections {
-class IEnumerator;
+class IDictionary;
+}
+namespace System {
+class Array;
 }
 namespace System::Collections {
 struct DictionaryEntry;
@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::__MessageDictionary__Dict
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3176))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3175))
 // CS Name: ::MessageDictionary::DictionaryEnumerator*
 class CORDL_TYPE __MessageDictionary__DictionaryEnumerator : public ::System::Object {
 public:
@@ -100,25 +100,25 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator* New_ctor(::System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary);
 
-  /// @brief Method .ctor addr 0x24af8b8 size 0xe4 virtual false final false
+  /// @brief Method .ctor addr 0x2356dc4 size 0xe4 virtual false final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary);
 
-  /// @brief Method get_Current addr 0x24af9fc size 0x64 virtual true final true
+  /// @brief Method get_Current addr 0x2356f08 size 0x64 virtual true final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method MoveNext addr 0x24afbcc size 0x1c4 virtual true final true
+  /// @brief Method MoveNext addr 0x23570d8 size 0x1c4 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x24afd90 size 0xac virtual true final true
+  /// @brief Method Reset addr 0x235729c size 0xac virtual true final true
   inline void Reset();
 
-  /// @brief Method get_Entry addr 0x24afa60 size 0x16c virtual true final true
+  /// @brief Method get_Entry addr 0x2356f6c size 0x16c virtual true final true
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key addr 0x24afe3c size 0x4 virtual true final true
+  /// @brief Method get_Key addr 0x2357348 size 0x4 virtual true final true
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value addr 0x24afe40 size 0x14 virtual true final true
+  /// @brief Method get_Value addr 0x235734c size 0x14 virtual true final true
   inline ::System::Object* get_Value();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MessageDictionary__DictionaryEnumerator", modifiers: "&&", def_value: None }]
@@ -149,13 +149,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator, ____methodDictionary) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator, ____hashtableEnum) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator, ____posMethod) == 0x20, "Offset mismatch!");
+
 } // namespace System::Runtime::Remoting::Messaging
 // Type: System.Runtime.Remoting.Messaging::MessageDictionary
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3177))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3176))
 // CS Name: ::System.Runtime.Remoting.Messaging::MessageDictionary*
 class CORDL_TYPE MessageDictionary : public ::System::Object {
 public:
@@ -229,79 +235,79 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::MessageDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
-  /// @brief Method .ctor addr 0x24ac134 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2353640 size 0x28 virtual false final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
-  /// @brief Method HasUserData addr 0x24a8f90 size 0xfc virtual false final false
+  /// @brief Method HasUserData addr 0x235049c size 0xfc virtual false final false
   inline bool HasUserData();
 
-  /// @brief Method get_InternalDictionary addr 0x24a908c size 0x88 virtual false final false
+  /// @brief Method get_InternalDictionary addr 0x2350598 size 0x88 virtual false final false
   inline ::System::Collections::IDictionary* get_InternalDictionary();
 
-  /// @brief Method set_MethodKeys addr 0x24ae730 size 0x8 virtual false final false
+  /// @brief Method set_MethodKeys addr 0x2355c3c size 0x8 virtual false final false
   inline void set_MethodKeys(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method AllocInternalProperties addr 0x24ae738 size 0x68 virtual true final false
+  /// @brief Method AllocInternalProperties addr 0x2355c44 size 0x68 virtual true final false
   inline ::System::Collections::IDictionary* AllocInternalProperties();
 
-  /// @brief Method GetInternalProperties addr 0x24ab230 size 0x30 virtual false final false
+  /// @brief Method GetInternalProperties addr 0x235273c size 0x30 virtual false final false
   inline ::System::Collections::IDictionary* GetInternalProperties();
 
-  /// @brief Method IsOverridenKey addr 0x24ae7a0 size 0x8c virtual false final false
+  /// @brief Method IsOverridenKey addr 0x2355cac size 0x8c virtual false final false
   inline bool IsOverridenKey(::StringW key);
 
-  /// @brief Method get_IsFixedSize addr 0x24ae82c size 0x8 virtual true final true
+  /// @brief Method get_IsFixedSize addr 0x2355d38 size 0x8 virtual true final true
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly addr 0x24ae834 size 0x8 virtual true final true
+  /// @brief Method get_IsReadOnly addr 0x2355d40 size 0x8 virtual true final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Item addr 0x24ae83c size 0x14c virtual true final true
+  /// @brief Method get_Item addr 0x2355d48 size 0x14c virtual true final true
   inline ::System::Object* get_Item(::System::Object* key);
 
-  /// @brief Method set_Item addr 0x24ae988 size 0x4 virtual true final true
+  /// @brief Method set_Item addr 0x2355e94 size 0x4 virtual true final true
   inline void set_Item(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method GetMethodProperty addr 0x24ac508 size 0x540 virtual true final false
+  /// @brief Method GetMethodProperty addr 0x2353a14 size 0x540 virtual true final false
   inline ::System::Object* GetMethodProperty(::StringW key);
 
-  /// @brief Method SetMethodProperty addr 0x24accb4 size 0x2e0 virtual true final false
+  /// @brief Method SetMethodProperty addr 0x23541c0 size 0x2e0 virtual true final false
   inline void SetMethodProperty(::StringW key, ::System::Object* value);
 
-  /// @brief Method get_Keys addr 0x24aeaf4 size 0x434 virtual true final true
+  /// @brief Method get_Keys addr 0x2356000 size 0x434 virtual true final true
   inline ::System::Collections::ICollection* get_Keys();
 
-  /// @brief Method get_Values addr 0x24aef28 size 0x420 virtual true final true
+  /// @brief Method get_Values addr 0x2356434 size 0x420 virtual true final true
   inline ::System::Collections::ICollection* get_Values();
 
-  /// @brief Method Add addr 0x24ae98c size 0x168 virtual true final true
+  /// @brief Method Add addr 0x2355e98 size 0x168 virtual true final true
   inline void Add(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method Clear addr 0x24af348 size 0xac virtual true final true
+  /// @brief Method Clear addr 0x2356854 size 0xac virtual true final true
   inline void Clear();
 
-  /// @brief Method Contains addr 0x24af3f4 size 0x148 virtual true final true
+  /// @brief Method Contains addr 0x2356900 size 0x148 virtual true final true
   inline bool Contains(::System::Object* key);
 
-  /// @brief Method Remove addr 0x24af53c size 0x188 virtual true final true
+  /// @brief Method Remove addr 0x2356a48 size 0x188 virtual true final true
   inline void Remove(::System::Object* key);
 
-  /// @brief Method get_Count addr 0x24af6c4 size 0xc8 virtual true final true
+  /// @brief Method get_Count addr 0x2356bd0 size 0xc8 virtual true final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized addr 0x24af78c size 0x8 virtual true final true
+  /// @brief Method get_IsSynchronized addr 0x2356c98 size 0x8 virtual true final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot addr 0x24af794 size 0x4 virtual true final true
+  /// @brief Method get_SyncRoot addr 0x2356ca0 size 0x4 virtual true final true
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method CopyTo addr 0x24af798 size 0xc0 virtual true final true
+  /// @brief Method CopyTo addr 0x2356ca4 size 0xc0 virtual true final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x24af858 size 0x60 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2356d64 size 0x60 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method GetEnumerator addr 0x24af99c size 0x60 virtual true final true
+  /// @brief Method GetEnumerator addr 0x2356ea8 size 0x60 virtual true final true
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageDictionary", modifiers: "&&", def_value: None }]
@@ -334,6 +340,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::MessageDictionary, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MessageDictionary, ____internalProperties) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MessageDictionary, ____message) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MessageDictionary, ____methodKeys) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MessageDictionary, ____ownProperties) == 0x28, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::MessageDictionary);

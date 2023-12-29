@@ -10,10 +10,10 @@ namespace System::Net::NetworkInformation {
 class IPInterfaceProperties;
 }
 namespace System::Net::NetworkInformation {
-struct OperationalStatus;
+struct NetworkInterfaceType;
 }
 namespace System::Net::NetworkInformation {
-struct NetworkInterfaceType;
+struct OperationalStatus;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::NetworkInterface);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9252))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8089))
 // CS Name: ::System.Net.NetworkInformation::NetworkInterface*
 class CORDL_TYPE NetworkInterface : public ::System::Object {
 public:
@@ -37,24 +37,24 @@ public:
 
   __declspec(property(get = get_NetworkInterfaceType))::System::Net::NetworkInformation::NetworkInterfaceType NetworkInterfaceType;
 
-  /// @brief Method GetAllNetworkInterfaces addr 0x29eb788 size 0x4c virtual false final false
+  /// @brief Method GetAllNetworkInterfaces addr 0x286ef04 size 0x4c virtual false final false
   static inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetAllNetworkInterfaces();
 
-  /// @brief Method get_Name addr 0x29eb8d0 size 0x40 virtual true final false
+  /// @brief Method get_Name addr 0x286f04c size 0x40 virtual true final false
   inline ::StringW get_Name();
 
-  /// @brief Method GetIPProperties addr 0x29eb910 size 0x40 virtual true final false
+  /// @brief Method GetIPProperties addr 0x286f08c size 0x40 virtual true final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
-  /// @brief Method get_OperationalStatus addr 0x29eb950 size 0x40 virtual true final false
+  /// @brief Method get_OperationalStatus addr 0x286f0cc size 0x40 virtual true final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
-  /// @brief Method get_NetworkInterfaceType addr 0x29eb990 size 0x40 virtual true final false
+  /// @brief Method get_NetworkInterfaceType addr 0x286f10c size 0x40 virtual true final false
   inline ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
 
   static inline ::System::Net::NetworkInformation::NetworkInterface* New_ctor();
 
-  /// @brief Method .ctor addr 0x29eb9d0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x286f14c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkInterface", modifiers: "&&", def_value: None }]

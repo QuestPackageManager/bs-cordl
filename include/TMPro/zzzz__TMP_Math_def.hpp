@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::TMPro::TMP_Math);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12315))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12243))
 // CS Name: ::TMPro::TMP_Math*
 class CORDL_TYPE TMP_Math : public ::System::Object {
 public:
@@ -37,10 +37,10 @@ public:
 
   static inline ::UnityEngine::Vector2 getStaticF_MIN_16BIT();
 
-  /// @brief Method Approximately addr 0x2c00c8c size 0x30 virtual false final false
+  /// @brief Method Approximately addr 0x2a7bf38 size 0x30 virtual false final false
   static inline bool Approximately(float_t a, float_t b);
 
-  /// @brief Method Mod addr 0x2c00cbc size 0x14 virtual false final false
+  /// @brief Method Mod addr 0x2a7bf68 size 0x14 virtual false final false
   static inline int32_t Mod(int32_t a, int32_t b);
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_Math", modifiers: "&&", def_value: None }]

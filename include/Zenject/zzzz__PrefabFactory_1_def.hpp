@@ -12,16 +12,16 @@ namespace UnityEngine {
 class Object;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-template <typename TParam1, typename TValue> class IFactory_2;
-}
-namespace Zenject {
 class IFactory;
 }
 namespace System {
 class Object;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+template <typename TParam1, typename TValue> class IFactory_2;
 }
 // Forward declare root types
 namespace Zenject {
@@ -35,8 +35,8 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11100))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11028))
 // CS Name: ::Zenject::PrefabFactory`1<T>*
 class CORDL_TYPE PrefabFactory_1 : public ::System::Object {
 public:

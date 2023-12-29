@@ -30,18 +30,18 @@ MARK_REF_PTR_T(::UnityEngine::__CullingGroup__StateChanged);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10147))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10075))
 // CS Name: ::CullingGroup::StateChanged*
 class CORDL_TYPE __CullingGroup__StateChanged : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::__CullingGroup__StateChanged* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2cc67f0 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x2b603d8 size 0xc4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2cc68b4 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2b6049c size 0x14 virtual true final false
   inline void Invoke(::UnityEngine::CullingGroupEvent sphere);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CullingGroup__StateChanged", modifiers: "&&", def_value: None }]
@@ -68,8 +68,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__CullingGroup__Sta
 // SizeInfo { instance_size: 32, native_size: 16, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10148))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10076))
 // CS Name: ::UnityEngine::CullingGroup*
 class CORDL_TYPE CullingGroup : public ::System::Object {
 public:
@@ -94,7 +94,7 @@ public:
 
   constexpr void __set_m_OnStateChanged(::UnityEngine::__CullingGroup__StateChanged* value);
 
-  /// @brief Method SendEvents addr 0x2cc6794 size 0x5c virtual false final false
+  /// @brief Method SendEvents addr 0x2b6037c size 0x5c virtual false final false
   static inline void SendEvents(::UnityEngine::CullingGroup* cullingGroup, void* eventsPtr, int32_t count);
 
   // Ctor Parameters [CppParam { name: "", ty: "CullingGroup", modifiers: "&&", def_value: None }]
@@ -121,6 +121,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::CullingGroup, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::CullingGroup, ___m_Ptr) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::CullingGroup, ___m_OnStateChanged) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::CullingGroup);

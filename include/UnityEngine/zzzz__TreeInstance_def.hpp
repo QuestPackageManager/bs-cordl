@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TreeInstance)
 namespace UnityEngine {
-struct Vector3;
+struct Color32;
 }
 namespace UnityEngine {
-struct Color32;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -24,8 +24,8 @@ MARK_VAL_T(::UnityEngine::TreeInstance);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15470))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10177))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15454))
 // CS Name: ::UnityEngine::TreeInstance
 struct CORDL_TYPE TreeInstance {
 public:
@@ -72,6 +72,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TreeInstance, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TreeInstance, position) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TreeInstance, widthScale) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TreeInstance, heightScale) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TreeInstance, rotation) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TreeInstance, color) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TreeInstance, lightmapColor) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TreeInstance, prototypeIndex) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TreeInstance, temporaryDistance) == 0x24, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TreeInstance, "UnityEngine", "TreeInstance");

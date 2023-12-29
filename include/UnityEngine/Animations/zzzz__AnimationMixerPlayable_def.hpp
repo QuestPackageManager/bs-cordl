@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(AnimationMixerPlayable)
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
+namespace UnityEngine::Playables {
+struct Playable;
+}
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::Playables {
-struct PlayableHandle;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
 class IPlayable;
+}
+namespace UnityEngine::Playables {
+struct PlayableHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {
@@ -32,8 +32,8 @@ MARK_VAL_T(::UnityEngine::Animations::AnimationMixerPlayable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10440))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14899))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10362))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15126))
 // CS Name: ::UnityEngine.Animations::AnimationMixerPlayable
 struct CORDL_TYPE AnimationMixerPlayable {
 public:
@@ -51,28 +51,28 @@ public:
 
   static inline ::UnityEngine::Animations::AnimationMixerPlayable getStaticF_m_NullPlayable();
 
-  /// @brief Method Create addr 0x2c98c94 size 0x98 virtual false final false
+  /// @brief Method Create addr 0x2b32ff4 size 0x98 virtual false final false
   static inline ::UnityEngine::Animations::AnimationMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
-  /// @brief Method CreateHandle addr 0x2c98d2c size 0xe4 virtual false final false
+  /// @brief Method CreateHandle addr 0x2b3308c size 0xe4 virtual false final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
-  /// @brief Method .ctor addr 0x2c98e10 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x2b33170 size 0xc0 virtual false final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
-  /// @brief Method GetHandle addr 0x2c98f5c size 0xc virtual true final true
+  /// @brief Method GetHandle addr 0x2b332bc size 0xc virtual true final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method op_Implicit addr 0x2c98f68 size 0x30 virtual false final false
+  /// @brief Method op_Implicit addr 0x2b332c8 size 0x30 virtual false final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Animations::AnimationMixerPlayable playable);
 
-  /// @brief Method Equals addr 0x2c98f98 size 0x78 virtual true final true
+  /// @brief Method Equals addr 0x2b332f8 size 0x78 virtual true final true
   inline bool Equals(::UnityEngine::Animations::AnimationMixerPlayable other);
 
-  /// @brief Method CreateHandleInternal addr 0x2c98ed0 size 0x8c virtual false final false
+  /// @brief Method CreateHandleInternal addr 0x2b33230 size 0x8c virtual false final false
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method CreateHandleInternal_Injected addr 0x2c99010 size 0x44 virtual false final false
+  /// @brief Method CreateHandleInternal_Injected addr 0x2b33370 size 0x44 virtual false final false
   static inline bool CreateHandleInternal_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
@@ -92,6 +92,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Animations::AnimationMixerPlayable, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Animations::AnimationMixerPlayable, m_Handle) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Animations
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimationMixerPlayable, "UnityEngine.Animations", "AnimationMixerPlayable");

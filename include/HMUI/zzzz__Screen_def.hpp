@@ -20,11 +20,11 @@ struct __ViewController__AnimationType;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::HMUI::__Screen___TransitionCoroutine_d__5);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13600)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13589))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13717)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13706))
 // CS Name: ::Screen::<TransitionCoroutine>d__5*
 class CORDL_TYPE __Screen___TransitionCoroutine_d__5 : public ::System::Object {
 public:
@@ -136,22 +136,22 @@ public:
 
   static inline ::HMUI::__Screen___TransitionCoroutine_d__5* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x212bc4c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1fd421c size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x212bc88 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x1fd4258 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x212bc8c size 0x504 virtual true final true
+  /// @brief Method MoveNext addr 0x1fd425c size 0x504 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x212c224 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1fd47f4 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x212c22c size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1fd47fc size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x212c26c size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1fd483c size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Screen___TransitionCoroutine_d__5", modifiers: "&&", def_value: None }]
@@ -197,13 +197,29 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__Screen___TransitionCoroutine_d__5, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__Screen___TransitionCoroutine_d__5, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__Screen___TransitionCoroutine_d__5, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__Screen___TransitionCoroutine_d__5, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__Screen___TransitionCoroutine_d__5, ___newRootViewController) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__Screen___TransitionCoroutine_d__5, ___animationType) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__Screen___TransitionCoroutine_d__5, ____oldRootViewController_5__2) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__Screen___TransitionCoroutine_d__5, ____oldRootViewControllerStartAlpha_5__3) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__Screen___TransitionCoroutine_d__5, ____elapsedTime_5__4) == 0x44, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: HMUI::Screen
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13590))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13707))
 // CS Name: ::HMUI::Screen*
 class CORDL_TYPE Screen : public ::UnityEngine::MonoBehaviour {
 public:
@@ -230,21 +246,21 @@ public:
 
   constexpr void __set__isBeingDestroyed(bool value);
 
-  /// @brief Method get_isBeingDestroyed addr 0x212baf8 size 0x8 virtual false final false
+  /// @brief Method get_isBeingDestroyed addr 0x1fd40c8 size 0x8 virtual false final false
   inline bool get_isBeingDestroyed();
 
-  /// @brief Method SetRootViewController addr 0x212bb00 size 0xd0 virtual false final false
+  /// @brief Method SetRootViewController addr 0x1fd40d0 size 0xd0 virtual false final false
   inline void SetRootViewController(::HMUI::ViewController* newRootViewController, ::HMUI::__ViewController__AnimationType animationType);
 
-  /// @brief Method TransitionCoroutine addr 0x212bbd0 size 0x7c virtual false final false
+  /// @brief Method TransitionCoroutine addr 0x1fd41a0 size 0x7c virtual false final false
   inline ::System::Collections::IEnumerator* TransitionCoroutine(::HMUI::ViewController* newRootViewController, ::HMUI::__ViewController__AnimationType animationType);
 
-  /// @brief Method OnDestroy addr 0x212bc74 size 0xc virtual false final false
+  /// @brief Method OnDestroy addr 0x1fd4244 size 0xc virtual false final false
   inline void OnDestroy();
 
   static inline ::HMUI::Screen* New_ctor();
 
-  /// @brief Method .ctor addr 0x212bc80 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fd4250 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Screen", modifiers: "&&", def_value: None }]
@@ -271,6 +287,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::Screen, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::Screen, ____rootViewController) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::Screen, ____isBeingDestroyed) == 0x20, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::Screen);

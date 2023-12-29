@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeLightWithLightGroupIds)
 namespace GlobalNamespace {
-class __LightWithIds__LightWithId;
-}
-namespace UnityEngine {
-struct Color;
+class __RuntimeLightWithLightGroupIds__LightIntensitiesWithId;
 }
 namespace GlobalNamespace {
-class __RuntimeLightWithLightGroupIds__LightIntensitiesWithId;
+class __LightWithIds__LightWithId;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace GlobalNamespace {
 class LightGroup;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__RuntimeLightWithLightGroupIds__LightIntensit
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14543))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14553))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14761))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14771))
 // CS Name: ::RuntimeLightWithLightGroupIds::LightIntensitiesWithId*
 class CORDL_TYPE __RuntimeLightWithLightGroupIds__LightIntensitiesWithId : public ::GlobalNamespace::__LightWithIds__LightWithId {
 public:
@@ -53,15 +53,15 @@ public:
 
   constexpr void __set__intensity(float_t value);
 
-  /// @brief Method get_intensity addr 0x2113e9c size 0x8 virtual false final false
+  /// @brief Method get_intensity addr 0x1fbd428 size 0x8 virtual false final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity addr 0x2113ea4 size 0x8 virtual false final false
+  /// @brief Method set_intensity addr 0x1fbd430 size 0x8 virtual false final false
   inline void set_intensity(float_t value);
 
   static inline ::GlobalNamespace::__RuntimeLightWithLightGroupIds__LightIntensitiesWithId* New_ctor(int32_t lightId, float_t intensity);
 
-  /// @brief Method .ctor addr 0x2113cf8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1fbd28c size 0x38 virtual false final false
   inline void _ctor(int32_t lightId, float_t intensity);
 
   // Ctor Parameters [CppParam { name: "", ty: "__RuntimeLightWithLightGroupIds__LightIntensitiesWithId", modifiers: "&&", def_value: None }]
@@ -86,13 +86,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__RuntimeLightWithLightGroupIds__LightIntensitiesWithId, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__RuntimeLightWithLightGroupIds__LightIntensitiesWithId, ____intensity) == 0x30, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::RuntimeLightWithLightGroupIds
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14544))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14554))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14762))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14772))
 // CS Name: ::RuntimeLightWithLightGroupIds*
 class CORDL_TYPE RuntimeLightWithLightGroupIds : public ::GlobalNamespace::LightWithIds {
 public:
@@ -152,21 +154,21 @@ public:
   /// @brief Method ColorWasSet addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method Awake addr 0x2113b38 size 0x1c0 virtual true final false
+  /// @brief Method Awake addr 0x1fbd0cc size 0x1c0 virtual true final false
   inline void Awake();
 
-  /// @brief Method ProcessNewColorData addr 0x2113d20 size 0x13c virtual true final false
+  /// @brief Method ProcessNewColorData addr 0x1fbd2c4 size 0x13c virtual true final false
   inline void ProcessNewColorData();
 
-  /// @brief Method GetLightWithIds addr 0x2113e7c size 0x8 virtual true final false
+  /// @brief Method GetLightWithIds addr 0x1fbd420 size 0x8 virtual true final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* GetLightWithIds();
 
-  /// @brief Method ProcessColor addr 0x2113e5c size 0x20 virtual false final false
+  /// @brief Method ProcessColor addr 0x1fbd400 size 0x20 virtual false final false
   inline ::UnityEngine::Color ProcessColor(::UnityEngine::Color color, float_t intensity);
 
   static inline ::GlobalNamespace::RuntimeLightWithLightGroupIds* New_ctor();
 
-  /// @brief Method .ctor addr 0x2113e84 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x1fb9bc8 size 0x18 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithLightGroupIds", modifiers: "&&", def_value: None }]
@@ -202,6 +204,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RuntimeLightWithLightGroupIds, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RuntimeLightWithLightGroupIds, ____lightGroupList) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RuntimeLightWithLightGroupIds, ____intensity) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RuntimeLightWithLightGroupIds, ____maxIntensity) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RuntimeLightWithLightGroupIds, ____multiplyColorByAlpha) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RuntimeLightWithLightGroupIds, ____lightIntensityData) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RuntimeLightWithLightGroupIds);

@@ -18,13 +18,13 @@ MARK_VAL_T(::Unity::Collections::NativeArrayDispose);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10003))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10000))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9931))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9928))
 // CS Name: ::Unity.Collections::NativeArrayDispose
 struct CORDL_TYPE NativeArrayDispose {
 public:
   // Declarations
-  /// @brief Method Dispose addr 0x2c9dfe0 size 0x44 virtual false final false
+  /// @brief Method Dispose addr 0x2b392c0 size 0x44 virtual false final false
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }, CppParam { name: "m_AllocatorLabel", ty: "::Unity::Collections::Allocator",
@@ -48,6 +48,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::NativeArrayDispose, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::Unity::Collections::NativeArrayDispose, m_Buffer) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::Collections::NativeArrayDispose, m_AllocatorLabel) == 0x8, "Offset mismatch!");
 
 } // namespace Unity::Collections
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::NativeArrayDispose, "Unity.Collections", "NativeArrayDispose");

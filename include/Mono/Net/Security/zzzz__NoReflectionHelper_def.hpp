@@ -17,13 +17,13 @@ MARK_REF_PTR_T(::Mono::Net::Security::NoReflectionHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8845))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7682))
 // CS Name: ::Mono.Net.Security::NoReflectionHelper*
 class CORDL_TYPE NoReflectionHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetProvider addr 0x2825d30 size 0x4c virtual false final false
+  /// @brief Method GetProvider addr 0x26aad20 size 0x4c virtual false final false
   static inline ::System::Object* GetProvider();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoReflectionHelper", modifiers: "&&", def_value: None }]

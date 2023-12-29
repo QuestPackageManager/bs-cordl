@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::DisplayStyle);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6898))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6984))
 // CS Name: ::UnityEngine.UIElements::DisplayStyle
 struct CORDL_TYPE DisplayStyle {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DisplayStyle, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DisplayStyle, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DisplayStyle, "UnityEngine.UIElements", "DisplayStyle");

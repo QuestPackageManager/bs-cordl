@@ -16,7 +16,7 @@ MARK_VAL_T(::JetBrains::Annotations::ImplicitUseTargetFlags);
 namespace JetBrains::Annotations {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10029))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15701))
 // CS Name: ::JetBrains.Annotations::ImplicitUseTargetFlags
 struct CORDL_TYPE ImplicitUseTargetFlags {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::ImplicitUseTargetFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::ImplicitUseTargetFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::ImplicitUseTargetFlags, "JetBrains.Annotations", "ImplicitUseTargetFlags");

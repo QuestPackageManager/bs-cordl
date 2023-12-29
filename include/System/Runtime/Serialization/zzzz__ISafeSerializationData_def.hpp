@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ISafeSerializationData);
 namespace System::Runtime::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3226))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3225))
 // CS Name: ::System.Runtime.Serialization::ISafeSerializationData*
 class CORDL_TYPE ISafeSerializationData {
 public:

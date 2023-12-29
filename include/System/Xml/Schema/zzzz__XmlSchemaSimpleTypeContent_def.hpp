@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSimpleTypeContent);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11714))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11738))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11642))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11666))
 // CS Name: ::System.Xml.Schema::XmlSchemaSimpleTypeContent*
 class CORDL_TYPE XmlSchemaSimpleTypeContent : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaSimpleTypeContent* New_ctor();
 
-  /// @brief Method .ctor addr 0x28c90f4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x274b0d0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleTypeContent", modifiers: "&&", def_value: None }]

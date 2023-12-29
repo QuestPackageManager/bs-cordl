@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OpenVRInterop)
 namespace OVR::OpenVR {
-struct EVRInitError;
+struct EVRApplicationType;
 }
 namespace OVR::OpenVR {
-struct EVRApplicationType;
+struct EVRInitError;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -23,42 +23,42 @@ MARK_REF_PTR_T(::OVR::OpenVR::OpenVRInterop);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8579))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9348))
 // CS Name: ::OVR.OpenVR::OpenVRInterop*
 class CORDL_TYPE OpenVRInterop : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InitInternal addr 0x27f61c8 size 0x84 virtual false final false
+  /// @brief Method InitInternal addr 0x267f244 size 0x84 virtual false final false
   static inline uint32_t InitInternal(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType);
 
-  /// @brief Method InitInternal2 addr 0x27f624c size 0xb0 virtual false final false
+  /// @brief Method InitInternal2 addr 0x267f2c8 size 0xb0 virtual false final false
   static inline uint32_t InitInternal2(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType, ByRefConst<::StringW> pStartupInfo);
 
-  /// @brief Method ShutdownInternal addr 0x27f62fc size 0x64 virtual false final false
+  /// @brief Method ShutdownInternal addr 0x267f378 size 0x64 virtual false final false
   static inline void ShutdownInternal();
 
-  /// @brief Method IsHmdPresent addr 0x27f6360 size 0x70 virtual false final false
+  /// @brief Method IsHmdPresent addr 0x267f3dc size 0x70 virtual false final false
   static inline bool IsHmdPresent();
 
-  /// @brief Method IsRuntimeInstalled addr 0x27f63d0 size 0x70 virtual false final false
+  /// @brief Method IsRuntimeInstalled addr 0x267f44c size 0x70 virtual false final false
   static inline bool IsRuntimeInstalled();
 
-  /// @brief Method GetStringForHmdError addr 0x27f6440 size 0x7c virtual false final false
+  /// @brief Method GetStringForHmdError addr 0x267f4bc size 0x7c virtual false final false
   static inline void* GetStringForHmdError(::OVR::OpenVR::EVRInitError error);
 
-  /// @brief Method GetGenericInterface addr 0x27f64bc size 0x9c virtual false final false
+  /// @brief Method GetGenericInterface addr 0x267f538 size 0x9c virtual false final false
   static inline void* GetGenericInterface(ByRefConst<::StringW> pchInterfaceVersion, ByRef<::OVR::OpenVR::EVRInitError> peError);
 
-  /// @brief Method IsInterfaceVersionValid addr 0x27f6558 size 0x98 virtual false final false
+  /// @brief Method IsInterfaceVersionValid addr 0x267f5d4 size 0x98 virtual false final false
   static inline bool IsInterfaceVersionValid(ByRefConst<::StringW> pchInterfaceVersion);
 
-  /// @brief Method GetInitToken addr 0x27f65f0 size 0x68 virtual false final false
+  /// @brief Method GetInitToken addr 0x267f66c size 0x68 virtual false final false
   static inline uint32_t GetInitToken();
 
   static inline ::OVR::OpenVR::OpenVRInterop* New_ctor();
 
-  /// @brief Method .ctor addr 0x27f6658 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x267f6d4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenVRInterop", modifiers: "&&", def_value: None }]

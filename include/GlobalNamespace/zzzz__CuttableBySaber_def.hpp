@@ -10,23 +10,23 @@ CORDL_MODULE_EXPORT(CuttableBySaber)
 namespace GlobalNamespace {
 class Saber;
 }
-namespace GlobalNamespace {
-class __CuttableBySaber__WasCutBySaberDelegate;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace System {
-class IAsyncResult;
+namespace GlobalNamespace {
+class __CuttableBySaber__WasCutBySaberDelegate;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,25 +42,25 @@ MARK_REF_PTR_T(::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5285))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5380))
 // CS Name: ::CuttableBySaber::WasCutBySaberDelegate*
 class CORDL_TYPE __CuttableBySaber__WasCutBySaberDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x226255c size 0x130 virtual false final false
+  /// @brief Method .ctor addr 0x211e38c size 0x130 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x226268c size 0x24 virtual true final false
+  /// @brief Method Invoke addr 0x211e4bc size 0x24 virtual true final false
   inline void Invoke(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method BeginInvoke addr 0x22626b0 size 0xec virtual true final false
+  /// @brief Method BeginInvoke addr 0x211e4e0 size 0xec virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x226279c size 0xc virtual true final false
+  /// @brief Method EndInvoke addr 0x211e5cc size 0xc virtual true final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CuttableBySaber__WasCutBySaberDelegate", modifiers: "&&", def_value: None }]
@@ -87,8 +87,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CuttableBySab
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5286))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5381))
 // CS Name: ::CuttableBySaber*
 class CORDL_TYPE CuttableBySaber : public ::UnityEngine::MonoBehaviour {
 public:
@@ -108,13 +108,13 @@ public:
 
   constexpr void __set_wasCutBySaberEvent(::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate* value);
 
-  /// @brief Method add_wasCutBySaberEvent addr 0x2262424 size 0x9c virtual false final false
+  /// @brief Method add_wasCutBySaberEvent addr 0x211e254 size 0x9c virtual false final false
   inline void add_wasCutBySaberEvent(::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate* value);
 
-  /// @brief Method remove_wasCutBySaberEvent addr 0x22624c0 size 0x9c virtual false final false
+  /// @brief Method remove_wasCutBySaberEvent addr 0x211e2f0 size 0x9c virtual false final false
   inline void remove_wasCutBySaberEvent(::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate* value);
 
-  /// @brief Method CallWasCutBySaberEvent addr 0x2262390 size 0x2c virtual false final false
+  /// @brief Method CallWasCutBySaberEvent addr 0x211e1c0 size 0x2c virtual false final false
   inline void CallWasCutBySaberEvent(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
   /// @brief Method get_canBeCut addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -131,7 +131,7 @@ public:
 
   static inline ::GlobalNamespace::CuttableBySaber* New_ctor();
 
-  /// @brief Method .ctor addr 0x226241c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x211e24c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CuttableBySaber", modifiers: "&&", def_value: None }]
@@ -155,6 +155,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CuttableBySaber, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CuttableBySaber, ___wasCutBySaberEvent) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CuttableBySaber);

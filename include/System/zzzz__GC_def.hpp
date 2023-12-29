@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GC)
-namespace System {
-class Object;
-}
 namespace System::Runtime::CompilerServices {
 struct Ephemeron;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::GC);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2562))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2560))
 // CS Name: ::System::GC*
 class CORDL_TYPE GC : public ::System::Object {
 public:
@@ -36,47 +36,47 @@ public:
 
   static inline ::System::Object* getStaticF_EPHEMERON_TOMBSTONE();
 
-  /// @brief Method GetCollectionCount addr 0x25e7bc8 size 0x4 virtual false final false
+  /// @brief Method GetCollectionCount addr 0x248bca0 size 0x4 virtual false final false
   static inline int32_t GetCollectionCount(int32_t generation);
 
-  /// @brief Method GetMaxGeneration addr 0x25e7bcc size 0x4 virtual false final false
+  /// @brief Method GetMaxGeneration addr 0x248bca4 size 0x4 virtual false final false
   static inline int32_t GetMaxGeneration();
 
-  /// @brief Method InternalCollect addr 0x25e7bd0 size 0x4 virtual false final false
+  /// @brief Method InternalCollect addr 0x248bca8 size 0x4 virtual false final false
   static inline void InternalCollect(int32_t generation);
 
-  /// @brief Method register_ephemeron_array addr 0x25e7bd4 size 0x4 virtual false final false
+  /// @brief Method register_ephemeron_array addr 0x248bcac size 0x4 virtual false final false
   static inline void register_ephemeron_array(::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> array);
 
-  /// @brief Method get_ephemeron_tombstone addr 0x25e7bd8 size 0x4 virtual false final false
+  /// @brief Method get_ephemeron_tombstone addr 0x248bcb0 size 0x4 virtual false final false
   static inline ::System::Object* get_ephemeron_tombstone();
 
-  /// @brief Method GetMemoryInfo addr 0x25e7bdc size 0x98 virtual false final false
+  /// @brief Method GetMemoryInfo addr 0x248bcb4 size 0x98 virtual false final false
   static inline void GetMemoryInfo(ByRef<uint32_t> highMemLoadThreshold, ByRef<uint64_t> totalPhysicalMem, ByRef<uint32_t> lastRecordedMemLoad, ByRef<void*> lastRecordedHeapSize,
                                    ByRef<void*> lastRecordedFragmentation);
 
-  /// @brief Method Collect addr 0x25e7c74 size 0x50 virtual false final false
+  /// @brief Method Collect addr 0x248bd4c size 0x50 virtual false final false
   static inline void Collect();
 
-  /// @brief Method CollectionCount addr 0x25e7d10 size 0xc0 virtual false final false
+  /// @brief Method CollectionCount addr 0x248bde8 size 0xc0 virtual false final false
   static inline int32_t CollectionCount(int32_t generation);
 
-  /// @brief Method KeepAlive addr 0x25e7dd0 size 0x4 virtual false final false
+  /// @brief Method KeepAlive addr 0x248bea8 size 0x4 virtual false final false
   static inline void KeepAlive(::System::Object* obj);
 
-  /// @brief Method get_MaxGeneration addr 0x25e7cc4 size 0x4c virtual false final false
+  /// @brief Method get_MaxGeneration addr 0x248bd9c size 0x4c virtual false final false
   static inline int32_t get_MaxGeneration();
 
-  /// @brief Method _SuppressFinalize addr 0x25e7dd4 size 0x4 virtual false final false
+  /// @brief Method _SuppressFinalize addr 0x248beac size 0x4 virtual false final false
   static inline void _SuppressFinalize(::System::Object* o);
 
-  /// @brief Method SuppressFinalize addr 0x25e7dd8 size 0xa4 virtual false final false
+  /// @brief Method SuppressFinalize addr 0x248beb0 size 0xa4 virtual false final false
   static inline void SuppressFinalize(::System::Object* obj);
 
-  /// @brief Method _ReRegisterForFinalize addr 0x25e7e7c size 0x4 virtual false final false
+  /// @brief Method _ReRegisterForFinalize addr 0x248bf54 size 0x4 virtual false final false
   static inline void _ReRegisterForFinalize(::System::Object* o);
 
-  /// @brief Method ReRegisterForFinalize addr 0x25e7e80 size 0xa4 virtual false final false
+  /// @brief Method ReRegisterForFinalize addr 0x248bf58 size 0xa4 virtual false final false
   static inline void ReRegisterForFinalize(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "GC", modifiers: "&&", def_value: None }]

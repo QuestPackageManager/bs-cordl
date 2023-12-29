@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AnimatorControllerParameterType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14873))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15100))
 // CS Name: ::UnityEngine::AnimatorControllerParameterType
 struct CORDL_TYPE AnimatorControllerParameterType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimatorControllerParameterType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorControllerParameterType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimatorControllerParameterType, "UnityEngine", "AnimatorControllerParameterType");

@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaterialReference)
-namespace UnityEngine::TextCore::Text {
-class FontAsset;
-}
-namespace UnityEngine::TextCore::Text {
-class SpriteAsset;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
 class Material;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine::TextCore::Text {
+class SpriteAsset;
+}
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -31,20 +31,20 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::MaterialReference);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13697))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13576))
 // CS Name: ::UnityEngine.TextCore.Text::MaterialReference
 struct CORDL_TYPE MaterialReference {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2d43078 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x2bdacc8 size 0x7c virtual false final false
   inline void _ctor(int32_t index, ::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, ::UnityEngine::Material* material, float_t padding);
 
-  /// @brief Method AddMaterialReference addr 0x2d430f4 size 0x20c virtual false final false
+  /// @brief Method AddMaterialReference addr 0x2bdad44 size 0x20c virtual false final false
   static inline int32_t AddMaterialReference(::UnityEngine::Material* material, ::UnityEngine::TextCore::Text::FontAsset* fontAsset,
                                              ByRef<::ArrayW<::UnityEngine::TextCore::Text::MaterialReference, ::Array<::UnityEngine::TextCore::Text::MaterialReference>*>> materialReferences,
                                              ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* materialReferenceIndexLookup);
 
-  /// @brief Method AddMaterialReference addr 0x2d43300 size 0x1d8 virtual false final false
+  /// @brief Method AddMaterialReference addr 0x2bdaf50 size 0x1d8 virtual false final false
   static inline int32_t AddMaterialReference(::UnityEngine::Material* material, ::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset,
                                              ByRef<::ArrayW<::UnityEngine::TextCore::Text::MaterialReference, ::Array<::UnityEngine::TextCore::Text::MaterialReference>*>> materialReferences,
                                              ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* materialReferenceIndexLookup);
@@ -95,6 +95,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::MaterialReference, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::MaterialReference, index) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::MaterialReference, fontAsset) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::MaterialReference, spriteAsset) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::MaterialReference, material) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::MaterialReference, isDefaultMaterial) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::MaterialReference, isFallbackMaterial) == 0x21, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::MaterialReference, fallbackMaterial) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::MaterialReference, padding) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::MaterialReference, referenceCount) == 0x34, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::MaterialReference, "UnityEngine.TextCore.Text", "MaterialReference");

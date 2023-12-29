@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SetSaberGlowColor)
-namespace GlobalNamespace {
-class __SetSaberGlowColor__PropertyTintColorPair;
-}
-namespace GlobalNamespace {
-class SaberTypeObject;
-}
 namespace UnityEngine {
 class MeshRenderer;
+}
+namespace GlobalNamespace {
+class ColorManager;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
 }
 namespace GlobalNamespace {
-class ColorManager;
+class __SetSaberGlowColor__PropertyTintColorPair;
+}
+namespace GlobalNamespace {
+class SaberTypeObject;
 }
 namespace GlobalNamespace {
 struct SaberType;
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5307))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5402))
 // CS Name: ::SetSaberGlowColor::PropertyTintColorPair*
 class CORDL_TYPE __SetSaberGlowColor__PropertyTintColorPair : public ::System::Object {
 public:
@@ -67,7 +67,7 @@ public:
 
   static inline ::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair* New_ctor();
 
-  /// @brief Method .ctor addr 0x2264c14 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2120a44 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SetSaberGlowColor__PropertyTintColorPair", modifiers: "&&", def_value: None }]
@@ -95,13 +95,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair, ___tintColor) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair, ___property) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SetSaberGlowColor
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15036))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5308))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(15181))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5403))
 // CS Name: ::SetSaberGlowColor*
 class CORDL_TYPE SetSaberGlowColor : public ::UnityEngine::MonoBehaviour {
 public:
@@ -168,18 +172,18 @@ public:
 
   constexpr void __set__saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method set_saberType addr 0x22644a4 size 0xc virtual false final false
+  /// @brief Method set_saberType addr 0x21202d4 size 0xc virtual false final false
   inline void set_saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method Start addr 0x2264b8c size 0x80 virtual false final false
+  /// @brief Method Start addr 0x21209bc size 0x80 virtual false final false
   inline void Start();
 
-  /// @brief Method SetColors addr 0x2264a74 size 0x118 virtual false final false
+  /// @brief Method SetColors addr 0x21208a4 size 0x118 virtual false final false
   inline void SetColors();
 
   static inline ::GlobalNamespace::SetSaberGlowColor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2264c0c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2120a3c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SetSaberGlowColor", modifiers: "&&", def_value: None }]
@@ -218,6 +222,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SetSaberGlowColor, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SetSaberGlowColor, ____saberTypeObject) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SetSaberGlowColor, ____meshRenderer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SetSaberGlowColor, ____propertyTintColorPairs) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SetSaberGlowColor, ____colorManager) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SetSaberGlowColor, ____materialPropertyBlock) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SetSaberGlowColor, ____saberType) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SetSaberGlowColor);

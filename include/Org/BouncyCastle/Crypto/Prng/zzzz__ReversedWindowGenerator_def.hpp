@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1110))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::ReversedWindowGenerator*
 class CORDL_TYPE ReversedWindowGenerator : public ::System::Object {
@@ -57,22 +57,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator* New_ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator, int32_t windowSize);
 
-  /// @brief Method .ctor addr 0xf42920 size 0x114 virtual false final false
+  /// @brief Method .ctor addr 0xecc734 size 0x114 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator, int32_t windowSize);
 
-  /// @brief Method AddSeedMaterial addr 0xf42a34 size 0x134 virtual true final false
+  /// @brief Method AddSeedMaterial addr 0xecc848 size 0x134 virtual true final false
   inline void AddSeedMaterial(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method AddSeedMaterial addr 0xf42b68 size 0x138 virtual true final false
+  /// @brief Method AddSeedMaterial addr 0xecc97c size 0x138 virtual true final false
   inline void AddSeedMaterial(int64_t seed);
 
-  /// @brief Method NextBytes addr 0xf42ca0 size 0x1c virtual true final false
+  /// @brief Method NextBytes addr 0xeccab4 size 0x1c virtual true final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method NextBytes addr 0xf42edc size 0x4 virtual true final false
+  /// @brief Method NextBytes addr 0xecccf0 size 0x4 virtual true final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t len);
 
-  /// @brief Method doNextBytes addr 0xf42cbc size 0x220 virtual false final false
+  /// @brief Method doNextBytes addr 0xeccad0 size 0x220 virtual false final false
   inline void doNextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReversedWindowGenerator", modifiers: "&&", def_value: None }]
@@ -102,6 +102,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator, ___generator) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator, ___window) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator, ___windowCount) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Prng
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator);

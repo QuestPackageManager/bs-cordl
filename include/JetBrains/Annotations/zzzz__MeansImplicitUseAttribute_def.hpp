@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::MeansImplicitUseAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(15751)), TypeDefinitionIndex(TypeDefinitionIndex(15750))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15749))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15700)), TypeDefinitionIndex(TypeDefinitionIndex(2545)), TypeDefinitionIndex(TypeDefinitionIndex(15701))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15699))
 // CS Name: ::JetBrains.Annotations::MeansImplicitUseAttribute*
 class CORDL_TYPE MeansImplicitUseAttribute : public ::System::Attribute {
 public:
@@ -52,35 +52,35 @@ public:
 
   static inline ::JetBrains::Annotations::MeansImplicitUseAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2eba214 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2d52494 size 0x24 virtual false final false
   inline void _ctor();
 
   static inline ::JetBrains::Annotations::MeansImplicitUseAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags);
 
-  /// @brief Method .ctor addr 0x2eba264 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2d524e4 size 0x2c virtual false final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags);
 
   static inline ::JetBrains::Annotations::MeansImplicitUseAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
-  /// @brief Method .ctor addr 0x2eba290 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2d52510 size 0x2c virtual false final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
   static inline ::JetBrains::Annotations::MeansImplicitUseAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags,
                                                                               ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
-  /// @brief Method .ctor addr 0x2eba238 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2d524b8 size 0x2c virtual false final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
-  /// @brief Method get_UseKindFlags addr 0x2eba2bc size 0x8 virtual false final false
+  /// @brief Method get_UseKindFlags addr 0x2d5253c size 0x8 virtual false final false
   inline ::JetBrains::Annotations::ImplicitUseKindFlags get_UseKindFlags();
 
-  /// @brief Method set_UseKindFlags addr 0x2eba2c4 size 0x8 virtual false final false
+  /// @brief Method set_UseKindFlags addr 0x2d52544 size 0x8 virtual false final false
   inline void set_UseKindFlags(::JetBrains::Annotations::ImplicitUseKindFlags value);
 
-  /// @brief Method get_TargetFlags addr 0x2eba2cc size 0x8 virtual false final false
+  /// @brief Method get_TargetFlags addr 0x2d5254c size 0x8 virtual false final false
   inline ::JetBrains::Annotations::ImplicitUseTargetFlags get_TargetFlags();
 
-  /// @brief Method set_TargetFlags addr 0x2eba2d4 size 0x8 virtual false final false
+  /// @brief Method set_TargetFlags addr 0x2d52554 size 0x8 virtual false final false
   inline void set_TargetFlags(::JetBrains::Annotations::ImplicitUseTargetFlags value);
 
   // Ctor Parameters [CppParam { name: "", ty: "MeansImplicitUseAttribute", modifiers: "&&", def_value: None }]
@@ -107,6 +107,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::MeansImplicitUseAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::MeansImplicitUseAttribute, ____UseKindFlags_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::MeansImplicitUseAttribute, ____TargetFlags_k__BackingField) == 0x14, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::MeansImplicitUseAttribute);

@@ -9,19 +9,19 @@ namespace System {
 class Object;
 }
 namespace System::Collections {
-class ArrayList;
-}
-namespace System::Collections {
-class ICollection;
+class IEnumerator;
 }
 namespace System {
 class Array;
 }
 namespace System::Collections {
-class IEnumerator;
+class ICollection;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::System::Collections::ReadOnlyCollectionBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3777))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3765))
 // CS Name: ::System.Collections::ReadOnlyCollectionBase*
 class CORDL_TYPE ReadOnlyCollectionBase : public ::System::Object {
 public:
@@ -62,27 +62,27 @@ public:
 
   constexpr void __set__list(::System::Collections::ArrayList* value);
 
-  /// @brief Method get_InnerList addr 0x257fb04 size 0x68 virtual false final false
+  /// @brief Method get_InnerList addr 0x242469c size 0x68 virtual false final false
   inline ::System::Collections::ArrayList* get_InnerList();
 
-  /// @brief Method get_Count addr 0x257fb6c size 0x24 virtual true final false
+  /// @brief Method get_Count addr 0x2424704 size 0x24 virtual true final false
   inline int32_t get_Count();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized addr 0x257fb90 size 0x24 virtual true final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized addr 0x2424728 size 0x24 virtual true final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot addr 0x257fbb4 size 0x24 virtual true final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot addr 0x242474c size 0x24 virtual true final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method System.Collections.ICollection.CopyTo addr 0x257fbd8 size 0x3c virtual true final true
+  /// @brief Method System.Collections.ICollection.CopyTo addr 0x2424770 size 0x3c virtual true final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator addr 0x257fc14 size 0x24 virtual true final false
+  /// @brief Method GetEnumerator addr 0x24247ac size 0x24 virtual true final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Collections::ReadOnlyCollectionBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x257fc38 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24247d0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyCollectionBase", modifiers: "&&", def_value: None }]
@@ -106,6 +106,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::ReadOnlyCollectionBase, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Collections::ReadOnlyCollectionBase, ____list) == 0x10, "Offset mismatch!");
 
 } // namespace System::Collections
 NEED_NO_BOX(::System::Collections::ReadOnlyCollectionBase);

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeUpdateCallback)
+namespace System {
+class Object;
+}
 namespace UnityEngineInternal::Input {
 struct NativeInputEventBuffer;
 }
 namespace UnityEngineInternal::Input {
 struct NativeInputUpdateType;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngineInternal::Input {
@@ -24,18 +24,18 @@ MARK_REF_PTR_T(::UnityEngineInternal::Input::NativeUpdateCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngineInternal::Input {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16107))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15961))
 // CS Name: ::UnityEngineInternal.Input::NativeUpdateCallback*
 class CORDL_TYPE NativeUpdateCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngineInternal::Input::NativeUpdateCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2d0fc80 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x2ba8898 size 0xc4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2d0fd44 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2ba895c size 0x14 virtual true final false
   inline void Invoke(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ::cordl_internals::Ptr<::UnityEngineInternal::Input::NativeInputEventBuffer> buffer);
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeUpdateCallback", modifiers: "&&", def_value: None }]

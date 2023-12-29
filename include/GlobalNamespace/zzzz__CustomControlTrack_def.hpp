@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomControlTrack);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13875))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6009))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14146))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6064))
 // CS Name: ::CustomControlTrack*
 class CORDL_TYPE CustomControlTrack : public ::UnityEngine::Timeline::ControlTrack {
 public:
   // Declarations
   static inline ::GlobalNamespace::CustomControlTrack* New_ctor();
 
-  /// @brief Method .ctor addr 0x23158b8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21c3a94 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomControlTrack", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::Tasks::CausalityTraceLevel);
 namespace System::Threading::Tasks {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2816))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2812))
 // CS Name: ::System.Threading.Tasks::CausalityTraceLevel
 struct CORDL_TYPE CausalityTraceLevel {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::CausalityTraceLevel, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::CausalityTraceLevel, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Threading::Tasks
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::CausalityTraceLevel, "System.Threading.Tasks", "CausalityTraceLevel");

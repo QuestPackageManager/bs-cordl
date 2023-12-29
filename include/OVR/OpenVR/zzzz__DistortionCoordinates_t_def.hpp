@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::DistortionCoordinates_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8656))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9425))
 // CS Name: ::OVR.OpenVR::DistortionCoordinates_t
 struct CORDL_TYPE DistortionCoordinates_t {
 public:
@@ -55,6 +55,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::DistortionCoordinates_t, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::DistortionCoordinates_t, rfRed0) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::DistortionCoordinates_t, rfRed1) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::DistortionCoordinates_t, rfGreen0) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::DistortionCoordinates_t, rfGreen1) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::DistortionCoordinates_t, rfBlue0) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::DistortionCoordinates_t, rfBlue1) == 0x14, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::DistortionCoordinates_t, "OVR.OpenVR", "DistortionCoordinates_t");

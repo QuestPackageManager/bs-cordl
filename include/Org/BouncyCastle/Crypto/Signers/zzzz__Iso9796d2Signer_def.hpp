@@ -11,16 +11,16 @@ namespace Org::BouncyCastle::Crypto {
 class ISignerWithRecovery;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class ISigner;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1147))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::Iso9796d2Signer*
 class CORDL_TYPE Iso9796d2Signer : public ::System::Object {
@@ -145,54 +145,54 @@ public:
 
   constexpr void __set_preBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method GetRecoveredMessage addr 0xf5114c size 0x8 virtual true final true
+  /// @brief Method GetRecoveredMessage addr 0xedaf3c size 0x8 virtual true final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRecoveredMessage();
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest,
                                                                                 bool isImplicit);
 
-  /// @brief Method .ctor addr 0xf51154 size 0x108 virtual false final false
+  /// @brief Method .ctor addr 0xedaf44 size 0x108 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, bool isImplicit);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0xf5125c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xedb04c size 0x8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_AlgorithmName addr 0xf51264 size 0xc0 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xedb054 size 0xc0 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0xf51324 size 0x218 virtual true final false
+  /// @brief Method Init addr 0xedb114 size 0x218 virtual true final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method IsSameAs addr 0xf5153c size 0xb0 virtual false final false
+  /// @brief Method IsSameAs addr 0xedb32c size 0xb0 virtual false final false
   inline bool IsSameAs(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-  /// @brief Method ClearBlock addr 0xf515ec size 0x24 virtual false final false
+  /// @brief Method ClearBlock addr 0xedb3dc size 0x24 virtual false final false
   inline void ClearBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> block);
 
-  /// @brief Method UpdateWithRecoveredMessage addr 0xf51610 size 0x490 virtual true final false
+  /// @brief Method UpdateWithRecoveredMessage addr 0xedb400 size 0x490 virtual true final false
   inline void UpdateWithRecoveredMessage(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method Update addr 0xf51aa0 size 0xe8 virtual true final false
+  /// @brief Method Update addr 0xedb890 size 0xe8 virtual true final false
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate addr 0xf51b88 size 0x134 virtual true final false
+  /// @brief Method BlockUpdate addr 0xedb978 size 0x134 virtual true final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Reset addr 0xf51cbc size 0xe0 virtual true final false
+  /// @brief Method Reset addr 0xedbaac size 0xe0 virtual true final false
   inline void Reset();
 
-  /// @brief Method GenerateSignature addr 0xf51d9c size 0x3e8 virtual true final false
+  /// @brief Method GenerateSignature addr 0xedbb8c size 0x3e8 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method VerifySignature addr 0xf52184 size 0x7a4 virtual true final false
+  /// @brief Method VerifySignature addr 0xedbf74 size 0x7a4 virtual true final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method ReturnFalse addr 0xf52928 size 0x28 virtual false final false
+  /// @brief Method ReturnFalse addr 0xedc718 size 0x28 virtual false final false
   inline bool ReturnFalse(::ArrayW<uint8_t, ::Array<uint8_t>*> block);
 
-  /// @brief Method HasFullMessage addr 0xf52950 size 0x8 virtual true final false
+  /// @brief Method HasFullMessage addr 0xedc740 size 0x8 virtual true final false
   inline bool HasFullMessage();
 
   // Ctor Parameters [CppParam { name: "", ty: "Iso9796d2Signer", modifiers: "&&", def_value: None }]
@@ -270,6 +270,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer, ___digest) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer, ___cipher) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer, ___trailer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer, ___keyBits) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer, ___block) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer, ___mBuf) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer, ___messageLength) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer, ___fullMessage) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer, ___recoveredMessage) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer, ___preSig) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer, ___preBlock) == 0x50, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Signers
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer);

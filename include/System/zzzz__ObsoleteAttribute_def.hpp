@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::ObsoleteAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2454))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2452))
 // CS Name: ::System::ObsoleteAttribute*
 class CORDL_TYPE ObsoleteAttribute : public ::System::Attribute {
 public:
@@ -43,20 +43,20 @@ public:
 
   static inline ::System::ObsoleteAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x25bdea0 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x2460f78 size 0x20 virtual false final false
   inline void _ctor();
 
   static inline ::System::ObsoleteAttribute* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x25bdec0 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2460f98 size 0x2c virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::ObsoleteAttribute* New_ctor(::StringW message, bool error);
 
-  /// @brief Method .ctor addr 0x25bdeec size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x2460fc4 size 0x30 virtual false final false
   inline void _ctor(::StringW message, bool error);
 
-  /// @brief Method get_Message addr 0x25bdf1c size 0x8 virtual false final false
+  /// @brief Method get_Message addr 0x2460ff4 size 0x8 virtual false final false
   inline ::StringW get_Message();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObsoleteAttribute", modifiers: "&&", def_value: None }]
@@ -83,6 +83,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ObsoleteAttribute, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::ObsoleteAttribute, ____message) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::ObsoleteAttribute, ____error) == 0x18, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::ObsoleteAttribute);

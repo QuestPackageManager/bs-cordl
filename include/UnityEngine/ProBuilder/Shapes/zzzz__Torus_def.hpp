@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Torus)
-namespace UnityEngine {
-struct Bounds;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
@@ -16,8 +16,8 @@ class Shape;
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+namespace UnityEngine {
+struct Bounds;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Torus);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12233))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12239))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12161))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12167))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Torus*
 class CORDL_TYPE Torus : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
@@ -92,26 +92,26 @@ public:
 
   constexpr void __set_m_Smooth(bool value);
 
-  /// @brief Method CopyShape addr 0x2b914f0 size 0x8c virtual true final false
+  /// @brief Method CopyShape addr 0x2a1079c size 0x8c virtual true final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method UpdateBounds addr 0x2b9157c size 0x88 virtual true final false
+  /// @brief Method UpdateBounds addr 0x2a10828 size 0x88 virtual true final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
-  /// @brief Method RebuildMesh addr 0x2b91604 size 0x984 virtual true final false
+  /// @brief Method RebuildMesh addr 0x2a108b0 size 0x984 virtual true final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method GetCirclePoints addr 0x2b91f88 size 0x34c virtual false final false
+  /// @brief Method GetCirclePoints addr 0x2a11234 size 0x34c virtual false final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetCirclePoints(int32_t segments, float_t radius, float_t circumference, ::UnityEngine::Quaternion rotation,
                                                                                                    float_t offset);
 
-  /// @brief Method GetCirclePoints addr 0x2b922d4 size 0x298 virtual false final false
+  /// @brief Method GetCirclePoints addr 0x2a11580 size 0x298 virtual false final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetCirclePoints(int32_t segments, float_t radius, float_t circumference, ::UnityEngine::Quaternion rotation,
                                                                                                    ::UnityEngine::Vector3 offset);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Torus* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b9256c size 0x102c virtual false final false
+  /// @brief Method .ctor addr 0x2a11818 size 0x2c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Torus", modifiers: "&&", def_value: None }]
@@ -150,6 +150,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::Torus, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Torus, ___m_Rows) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Torus, ___m_Columns) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Torus, ___m_TubeRadius) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Torus, ___m_HorizontalCircumference) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Torus, ___m_VerticalCircumference) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Torus, ___m_Smooth) == 0x24, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Shapes
 NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Torus);

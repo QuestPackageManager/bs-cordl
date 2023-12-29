@@ -10,52 +10,52 @@ namespace System {
 class Object;
 }
 namespace System::Threading {
-template <typename T> class SparselyPopulatedArray_1;
+struct CancellationCallbackCoreWorkArguments;
 }
 namespace System::Threading {
 class __CancellationTokenSource__LinkedNCancellationTokenSource;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System::Threading {
+class __CancellationTokenSource__Linked1CancellationTokenSource;
+}
+namespace System::Threading {
+class __CancellationTokenSource__Linked2CancellationTokenSource;
+}
+namespace System::Threading {
+class Timer;
+}
+namespace System::Threading {
+class TimerCallback;
+}
+namespace System::Threading {
+template <typename T> class SparselyPopulatedArray_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System::Threading {
+class ExecutionContext;
+}
+namespace System::Threading {
+class CancellationCallbackInfo;
+}
+namespace System::Threading {
+class ManualResetEvent;
+}
+namespace System::Threading {
+struct CancellationTokenRegistration;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace System::Threading {
 class SynchronizationContext;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Threading {
-class CancellationCallbackInfo;
-}
-namespace System::Threading {
-class TimerCallback;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System::Threading {
-struct CancellationCallbackCoreWorkArguments;
-}
-namespace System::Threading {
-class __CancellationTokenSource__Linked2CancellationTokenSource;
-}
-namespace System::Threading {
-class ManualResetEvent;
-}
-namespace System::Threading {
-class ExecutionContext;
-}
-namespace System::Threading {
-class Timer;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Threading {
-struct CancellationTokenRegistration;
-}
-namespace System::Threading {
-class __CancellationTokenSource__Linked1CancellationTokenSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -71,8 +71,8 @@ MARK_REF_PTR_T(::System::Threading::CancellationTokenSource);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2686))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2684))
 // CS Name: ::CancellationTokenSource::LinkedNCancellationTokenSource::<>c*
 class CORDL_TYPE __CancellationTokenSource__LinkedNCancellationTokenSource____c : public ::System::Object {
 public:
@@ -86,10 +86,10 @@ public:
 
   static inline ::GlobalNamespace::__CancellationTokenSource__LinkedNCancellationTokenSource____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2613e2c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24b8e10 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__4_0 addr 0x2613e34 size 0x84 virtual false final false
+  /// @brief Method <.cctor>b__4_0 addr 0x24b8e18 size 0x84 virtual false final false
   inline void __cctor_b__4_0(::System::Object* s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CancellationTokenSource__LinkedNCancellationTokenSource____c", modifiers: "&&", def_value: None }]
@@ -116,8 +116,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CancellationT
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2688))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2686))
 // CS Name: ::System.Threading::CancellationTokenSource*
 class CORDL_TYPE CancellationTokenSource : public ::System::Object {
 public:
@@ -243,90 +243,90 @@ public:
 
   static inline ::System::Threading::TimerCallback* getStaticF_s_timerCallback();
 
-  /// @brief Method get_IsCancellationRequested addr 0x26103c0 size 0x1c virtual false final false
+  /// @brief Method get_IsCancellationRequested addr 0x24b5438 size 0x1c virtual false final false
   inline bool get_IsCancellationRequested();
 
-  /// @brief Method get_IsCancellationCompleted addr 0x2612510 size 0x1c virtual false final false
+  /// @brief Method get_IsCancellationCompleted addr 0x24b7588 size 0x1c virtual false final false
   inline bool get_IsCancellationCompleted();
 
-  /// @brief Method get_IsDisposed addr 0x26127c4 size 0x8 virtual false final false
+  /// @brief Method get_IsDisposed addr 0x24b77a8 size 0x8 virtual false final false
   inline bool get_IsDisposed();
 
-  /// @brief Method get_ThreadIDExecutingCallbacks addr 0x261252c size 0x18 virtual false final false
+  /// @brief Method get_ThreadIDExecutingCallbacks addr 0x24b75a4 size 0x18 virtual false final false
   inline int32_t get_ThreadIDExecutingCallbacks();
 
-  /// @brief Method set_ThreadIDExecutingCallbacks addr 0x26127cc size 0x24 virtual false final false
+  /// @brief Method set_ThreadIDExecutingCallbacks addr 0x24b77b0 size 0x24 virtual false final false
   inline void set_ThreadIDExecutingCallbacks(int32_t value);
 
-  /// @brief Method get_Token addr 0x26127f0 size 0x18 virtual false final false
+  /// @brief Method get_Token addr 0x24b77d4 size 0x18 virtual false final false
   inline ::System::Threading::CancellationToken get_Token();
 
-  /// @brief Method get_ExecutingCallback addr 0x261285c size 0x18 virtual false final false
+  /// @brief Method get_ExecutingCallback addr 0x24b7840 size 0x18 virtual false final false
   inline ::System::Threading::CancellationCallbackInfo* get_ExecutingCallback();
 
   static inline ::System::Threading::CancellationTokenSource* New_ctor();
 
-  /// @brief Method .ctor addr 0x2612874 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x24b7858 size 0x34 virtual false final false
   inline void _ctor();
 
   static inline ::System::Threading::CancellationTokenSource* New_ctor(::System::TimeSpan delay);
 
-  /// @brief Method .ctor addr 0x26128a8 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x24b788c size 0xbc virtual false final false
   inline void _ctor(::System::TimeSpan delay);
 
-  /// @brief Method InitializeWithTimer addr 0x2612964 size 0xbc virtual false final false
+  /// @brief Method InitializeWithTimer addr 0x24b7948 size 0xbc virtual false final false
   inline void InitializeWithTimer(int32_t millisecondsDelay);
 
-  /// @brief Method Cancel addr 0x2612a20 size 0x1c virtual false final false
+  /// @brief Method Cancel addr 0x24b7a04 size 0x1c virtual false final false
   inline void Cancel();
 
-  /// @brief Method Cancel addr 0x2612a3c size 0x28 virtual false final false
+  /// @brief Method Cancel addr 0x24b7a20 size 0x28 virtual false final false
   inline void Cancel(bool throwOnFirstException);
 
-  /// @brief Method CancelAfter addr 0x2612b14 size 0xa4 virtual false final false
+  /// @brief Method CancelAfter addr 0x24b7af8 size 0xa4 virtual false final false
   inline void CancelAfter(::System::TimeSpan delay);
 
-  /// @brief Method CancelAfter addr 0x2612bb8 size 0x1ec virtual false final false
+  /// @brief Method CancelAfter addr 0x24b7b9c size 0x1ec virtual false final false
   inline void CancelAfter(int32_t millisecondsDelay);
 
-  /// @brief Method TimerCallbackLogic addr 0x2612da4 size 0x118 virtual false final false
+  /// @brief Method TimerCallbackLogic addr 0x24b7d88 size 0x118 virtual false final false
   static inline void TimerCallbackLogic(::System::Object* obj);
 
-  /// @brief Method Dispose addr 0x2612ebc size 0x6c virtual true final true
+  /// @brief Method Dispose addr 0x24b7ea0 size 0x6c virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x2612f28 size 0x90 virtual true final false
+  /// @brief Method Dispose addr 0x24b7f0c size 0x90 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method ThrowIfDisposed addr 0x2612808 size 0x54 virtual false final false
+  /// @brief Method ThrowIfDisposed addr 0x24b77ec size 0x54 virtual false final false
   inline void ThrowIfDisposed();
 
-  /// @brief Method ThrowObjectDisposedException addr 0x2612fb8 size 0x54 virtual false final false
+  /// @brief Method ThrowObjectDisposedException addr 0x24b7f9c size 0x54 virtual false final false
   static inline void ThrowObjectDisposedException();
 
-  /// @brief Method InternalRegister addr 0x2610774 size 0x2c8 virtual false final false
+  /// @brief Method InternalRegister addr 0x24b57ec size 0x2c8 virtual false final false
   inline ::System::Threading::CancellationTokenRegistration InternalRegister(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback,
                                                                              ::System::Threading::SynchronizationContext* targetSyncContext, ::System::Threading::ExecutionContext* executionContext);
 
-  /// @brief Method NotifyCancellation addr 0x2612a64 size 0xb0 virtual false final false
+  /// @brief Method NotifyCancellation addr 0x24b7a48 size 0xb0 virtual false final false
   inline void NotifyCancellation(bool throwOnFirstException);
 
-  /// @brief Method ExecuteCallbackHandlers addr 0x261309c size 0x4d4 virtual false final false
+  /// @brief Method ExecuteCallbackHandlers addr 0x24b8080 size 0x4d4 virtual false final false
   inline void ExecuteCallbackHandlers(bool throwOnFirstException);
 
-  /// @brief Method CancellationCallbackCoreWork_OnSyncContext addr 0x2613638 size 0x78 virtual false final false
+  /// @brief Method CancellationCallbackCoreWork_OnSyncContext addr 0x24b861c size 0x78 virtual false final false
   inline void CancellationCallbackCoreWork_OnSyncContext(::System::Object* obj);
 
-  /// @brief Method CancellationCallbackCoreWork addr 0x261357c size 0xbc virtual false final false
+  /// @brief Method CancellationCallbackCoreWork addr 0x24b8560 size 0xbc virtual false final false
   inline void CancellationCallbackCoreWork(::System::Threading::CancellationCallbackCoreWorkArguments args);
 
-  /// @brief Method CreateLinkedTokenSource addr 0x26137ac size 0xd4 virtual false final false
+  /// @brief Method CreateLinkedTokenSource addr 0x24b8790 size 0xd4 virtual false final false
   static inline ::System::Threading::CancellationTokenSource* CreateLinkedTokenSource(::System::Threading::CancellationToken token1, ::System::Threading::CancellationToken token2);
 
-  /// @brief Method CreateLinkedTokenSource addr 0x2613a64 size 0xb0 virtual false final false
+  /// @brief Method CreateLinkedTokenSource addr 0x24b8a48 size 0xb0 virtual false final false
   static inline ::System::Threading::CancellationTokenSource* CreateLinkedTokenSource(::System::Threading::CancellationToken token);
 
-  /// @brief Method WaitForCallbackToComplete addr 0x2612544 size 0x4c virtual false final false
+  /// @brief Method WaitForCallbackToComplete addr 0x24b75bc size 0x4c virtual false final false
   inline void WaitForCallbackToComplete(::System::Threading::CancellationCallbackInfo* callbackInfo);
 
   // Ctor Parameters [CppParam { name: "", ty: "CancellationTokenSource", modifiers: "&&", def_value: None }]
@@ -382,6 +382,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::CancellationTokenSource, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::CancellationTokenSource, ____kernelEvent) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::CancellationTokenSource, ____registeredCallbacksLists) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::CancellationTokenSource, ____state) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::CancellationTokenSource, ____threadIDExecutingCallbacks) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::CancellationTokenSource, ____disposed) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::CancellationTokenSource, ____executingCallback) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::CancellationTokenSource, ____timer) == 0x38, "Offset mismatch!");
 
 } // namespace System::Threading
 NEED_NO_BOX(::GlobalNamespace::__CancellationTokenSource__LinkedNCancellationTokenSource____c);

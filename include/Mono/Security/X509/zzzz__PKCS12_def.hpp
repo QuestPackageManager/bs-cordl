@@ -8,47 +8,50 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PKCS12)
-namespace Mono::Security {
-class __PKCS7__EncryptedData;
+namespace System::Collections {
+class ArrayList;
 }
-namespace Mono::Security {
-class __PKCS7__ContentInfo;
-}
-namespace System {
-class Object;
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Security::Cryptography {
 class SymmetricAlgorithm;
-}
-namespace Mono::Security::X509 {
-class __PKCS12__DeriveBytes;
-}
-namespace Mono::Security::Cryptography {
-class __PKCS8__PrivateKeyInfo;
-}
-namespace System::Collections {
-class ArrayList;
 }
 namespace System {
 class ICloneable;
 }
 namespace System::Security::Cryptography {
+struct DSAParameters;
+}
+namespace Mono::Security {
+class __PKCS7__ContentInfo;
+}
+namespace Mono::Security::Cryptography {
+class __PKCS8__PrivateKeyInfo;
+}
+namespace System::Security::Cryptography {
 class RandomNumberGenerator;
+}
+namespace System {
+class Object;
+}
+namespace Mono::Security::X509 {
+class X509CertificateCollection;
+}
+namespace Mono::Security {
+class __PKCS7__EncryptedData;
 }
 namespace Mono::Security {
 class ASN1;
 }
 namespace System::Security::Cryptography {
-struct DSAParameters;
+class AsymmetricAlgorithm;
 }
 namespace Mono::Security::X509 {
-class X509CertificateCollection;
+class __PKCS12__DeriveBytes;
 }
 namespace Mono::Security::X509 {
 class X509Certificate;
-}
-namespace System::Collections {
-class IDictionary;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {
@@ -64,8 +67,8 @@ MARK_REF_PTR_T(::Mono::Security::X509::__PKCS12__DeriveBytes);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13746))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14017))
 // CS Name: ::PKCS12::DeriveBytes*
 class CORDL_TYPE __PKCS12__DeriveBytes : public ::System::Object {
 public:
@@ -137,34 +140,34 @@ public:
 
   static inline ::Mono::Security::X509::__PKCS12__DeriveBytes* New_ctor();
 
-  /// @brief Method .ctor addr 0x23f2c0c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2297720 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method set_HashName addr 0x23f74e0 size 0x8 virtual false final false
+  /// @brief Method set_HashName addr 0x229d1d4 size 0x8 virtual false final false
   inline void set_HashName(::StringW value);
 
-  /// @brief Method set_IterationCount addr 0x23f74e8 size 0x8 virtual false final false
+  /// @brief Method set_IterationCount addr 0x229d1dc size 0x8 virtual false final false
   inline void set_IterationCount(int32_t value);
 
-  /// @brief Method set_Password addr 0x23f2c14 size 0xbc virtual false final false
+  /// @brief Method set_Password addr 0x2297728 size 0xbc virtual false final false
   inline void set_Password(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method set_Salt addr 0x23f2cd0 size 0xa8 virtual false final false
+  /// @brief Method set_Salt addr 0x22977e4 size 0xa8 virtual false final false
   inline void set_Salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method Adjust addr 0x23f74f0 size 0xdc virtual false final false
+  /// @brief Method Adjust addr 0x229d1e4 size 0xdc virtual false final false
   inline void Adjust(::ArrayW<uint8_t, ::Array<uint8_t>*> a, int32_t aOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-  /// @brief Method Derive addr 0x23f75cc size 0x430 virtual false final false
+  /// @brief Method Derive addr 0x229d2c0 size 0x430 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Derive(::ArrayW<uint8_t, ::Array<uint8_t>*> diversifier, int32_t n);
 
-  /// @brief Method DeriveKey addr 0x23f2d78 size 0x70 virtual false final false
+  /// @brief Method DeriveKey addr 0x229788c size 0x70 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DeriveKey(int32_t size);
 
-  /// @brief Method DeriveIV addr 0x23f2de8 size 0x70 virtual false final false
+  /// @brief Method DeriveIV addr 0x22978fc size 0x70 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DeriveIV(int32_t size);
 
-  /// @brief Method DeriveMAC addr 0x23f463c size 0x70 virtual false final false
+  /// @brief Method DeriveMAC addr 0x2299f24 size 0x70 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DeriveMAC(int32_t size);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PKCS12__DeriveBytes", modifiers: "&&", def_value: None }]
@@ -198,13 +201,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::__PKCS12__DeriveBytes, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::Mono::Security::X509::__PKCS12__DeriveBytes, ____hashName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::__PKCS12__DeriveBytes, ____iterations) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::__PKCS12__DeriveBytes, ____password) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::__PKCS12__DeriveBytes, ____salt) == 0x28, "Offset mismatch!");
+
 } // namespace Mono::Security::X509
 // Type: Mono.Security.X509::PKCS12
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13747))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14018))
 // CS Name: ::Mono.Security.X509::PKCS12*
 class CORDL_TYPE PKCS12 : public ::System::Object {
 public:
@@ -323,96 +334,105 @@ public:
 
   static inline ::Mono::Security::X509::PKCS12* New_ctor();
 
-  /// @brief Method .ctor addr 0x23f058c size 0xec virtual false final false
+  /// @brief Method .ctor addr 0x22950a0 size 0xec virtual false final false
   inline void _ctor();
 
   static inline ::Mono::Security::X509::PKCS12* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0x23f0678 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x229518c size 0x34 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Mono::Security::X509::PKCS12* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password);
 
-  /// @brief Method .ctor addr 0x23f0f10 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x2295a24 size 0x38 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password);
 
-  /// @brief Method Decode addr 0x23f0860 size 0x6b0 virtual false final false
+  /// @brief Method Decode addr 0x2295374 size 0x6b0 virtual false final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Finalize addr 0x23f18a0 size 0xac virtual true final false
+  /// @brief Method Finalize addr 0x22963b4 size 0xac virtual true final false
   inline void Finalize();
 
-  /// @brief Method set_Password addr 0x23f06ac size 0x1b4 virtual false final false
+  /// @brief Method set_Password addr 0x22951c0 size 0x1b4 virtual false final false
   inline void set_Password(::StringW value);
 
-  /// @brief Method get_IterationCount addr 0x23f194c size 0x8 virtual false final false
+  /// @brief Method get_IterationCount addr 0x2296460 size 0x8 virtual false final false
   inline int32_t get_IterationCount();
 
-  /// @brief Method set_IterationCount addr 0x23f1954 size 0x8 virtual false final false
+  /// @brief Method set_IterationCount addr 0x2296468 size 0x8 virtual false final false
   inline void set_IterationCount(int32_t value);
 
-  /// @brief Method get_Keys addr 0x23f195c size 0x700 virtual false final false
+  /// @brief Method get_Keys addr 0x2296470 size 0x700 virtual false final false
   inline ::System::Collections::ArrayList* get_Keys();
 
-  /// @brief Method get_Certificates addr 0x23f2210 size 0x450 virtual false final false
+  /// @brief Method get_Certificates addr 0x2296d24 size 0x450 virtual false final false
   inline ::Mono::Security::X509::X509CertificateCollection* get_Certificates();
 
-  /// @brief Method get_RNG addr 0x23f2660 size 0x20 virtual false final false
+  /// @brief Method get_RNG addr 0x2297174 size 0x20 virtual false final false
   inline ::System::Security::Cryptography::RandomNumberGenerator* get_RNG();
 
-  /// @brief Method Compare addr 0x23f109c size 0x74 virtual false final false
+  /// @brief Method Compare addr 0x2295bb0 size 0x74 virtual false final false
   inline bool Compare(::ArrayW<uint8_t, ::Array<uint8_t>*> expected, ::ArrayW<uint8_t, ::Array<uint8_t>*> actual);
 
-  /// @brief Method GetSymmetricAlgorithm addr 0x23f2680 size 0x58c virtual false final false
+  /// @brief Method GetSymmetricAlgorithm addr 0x2297194 size 0x58c virtual false final false
   inline ::System::Security::Cryptography::SymmetricAlgorithm* GetSymmetricAlgorithm(::StringW algorithmOid, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method Decrypt addr 0x23f205c size 0x1b4 virtual false final false
+  /// @brief Method Decrypt addr 0x2296b70 size 0x1b4 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decrypt(::StringW algorithmOid, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> encryptedData);
 
-  /// @brief Method Decrypt addr 0x23f1810 size 0x90 virtual false final false
+  /// @brief Method Decrypt addr 0x2296324 size 0x90 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decrypt(::Mono::Security::__PKCS7__EncryptedData* ed);
 
-  /// @brief Method Encrypt addr 0x23f2e58 size 0x254 virtual false final false
+  /// @brief Method Encrypt addr 0x229796c size 0x254 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encrypt(::StringW algorithmOid, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method GetExistingParameters addr 0x23f30ac size 0x290 virtual false final false
+  /// @brief Method GetExistingParameters addr 0x2297bc0 size 0x290 virtual false final false
   inline ::System::Security::Cryptography::DSAParameters GetExistingParameters(ByRef<bool> found);
 
-  /// @brief Method AddPrivateKey addr 0x23f37c8 size 0x27c virtual false final false
+  /// @brief Method AddPrivateKey addr 0x22982dc size 0x27c virtual false final false
   inline void AddPrivateKey(::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo* pki);
 
-  /// @brief Method ReadSafeBag addr 0x23f1110 size 0x700 virtual false final false
+  /// @brief Method ReadSafeBag addr 0x2295c24 size 0x700 virtual false final false
   inline void ReadSafeBag(::Mono::Security::ASN1* safeBag);
 
-  /// @brief Method CertificateSafeBag addr 0x23f3a44 size 0xbf8 virtual false final false
+  /// @brief Method Pkcs8ShroudedKeyBagSafeBag addr 0x2298558 size 0xdd4 virtual false final false
+  inline ::Mono::Security::ASN1* Pkcs8ShroudedKeyBagSafeBag(::System::Security::Cryptography::AsymmetricAlgorithm* aa, ::System::Collections::IDictionary* attributes);
+
+  /// @brief Method CertificateSafeBag addr 0x229932c size 0xbf8 virtual false final false
   inline ::Mono::Security::ASN1* CertificateSafeBag(::Mono::Security::X509::X509Certificate* x509, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method MAC addr 0x23f0f48 size 0x154 virtual false final false
+  /// @brief Method MAC addr 0x2295a5c size 0x154 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> MAC(::ArrayW<uint8_t, ::Array<uint8_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterations,
                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method GetBytes addr 0x23f46ac size 0x2240 virtual false final false
+  /// @brief Method GetBytes addr 0x2299f94 size 0x2240 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
-  /// @brief Method EncryptedContentInfo addr 0x23f68fc size 0x310 virtual false final false
+  /// @brief Method EncryptedContentInfo addr 0x229c1e4 size 0x310 virtual false final false
   inline ::Mono::Security::__PKCS7__ContentInfo* EncryptedContentInfo(::Mono::Security::ASN1* safeBags, ::StringW algorithmOid);
 
-  /// @brief Method AddCertificate addr 0x23f68f4 size 0x8 virtual false final false
+  /// @brief Method AddCertificate addr 0x229c1dc size 0x8 virtual false final false
   inline void AddCertificate(::Mono::Security::X509::X509Certificate* cert);
 
-  /// @brief Method AddCertificate addr 0x23f6c0c size 0x250 virtual false final false
+  /// @brief Method AddCertificate addr 0x229c4f4 size 0x250 virtual false final false
   inline void AddCertificate(::Mono::Security::X509::X509Certificate* cert, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method RemoveCertificate addr 0x23f68ec size 0x8 virtual false final false
+  /// @brief Method RemoveCertificate addr 0x229c1d4 size 0x8 virtual false final false
   inline void RemoveCertificate(::Mono::Security::X509::X509Certificate* cert);
 
-  /// @brief Method RemoveCertificate addr 0x23f6e5c size 0x50c virtual false final false
+  /// @brief Method RemoveCertificate addr 0x229c744 size 0x50c virtual false final false
   inline void RemoveCertificate(::Mono::Security::X509::X509Certificate* cert, ::System::Collections::IDictionary* attrs);
 
-  /// @brief Method Clone addr 0x23f7368 size 0xd4 virtual true final true
+  /// @brief Method CompareAsymmetricAlgorithm addr 0x229cc50 size 0x9c virtual false final false
+  inline bool CompareAsymmetricAlgorithm(::System::Security::Cryptography::AsymmetricAlgorithm* a1, ::System::Security::Cryptography::AsymmetricAlgorithm* a2);
+
+  /// @brief Method AddPkcs8ShroudedKeyBag addr 0x229ccec size 0x370 virtual false final false
+  inline void AddPkcs8ShroudedKeyBag(::System::Security::Cryptography::AsymmetricAlgorithm* aa, ::System::Collections::IDictionary* attributes);
+
+  /// @brief Method Clone addr 0x229d05c size 0xd4 virtual true final true
   inline ::System::Object* Clone();
 
-  /// @brief Method get_MaximumPasswordLength addr 0x23f743c size 0x58 virtual false final false
+  /// @brief Method get_MaximumPasswordLength addr 0x229d130 size 0x58 virtual false final false
   static inline int32_t get_MaximumPasswordLength();
 
   // Ctor Parameters [CppParam { name: "", ty: "PKCS12", modifiers: "&&", def_value: None }]
@@ -463,6 +483,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::PKCS12, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::PKCS12, ____password) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::PKCS12, ____keyBags) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::PKCS12, ____secretBags) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::PKCS12, ____certs) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::PKCS12, ____keyBagsChanged) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::PKCS12, ____secretBagsChanged) == 0x31, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::PKCS12, ____certsChanged) == 0x32, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::PKCS12, ____iterations) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::PKCS12, ____safeBags) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::PKCS12, ____rng) == 0x40, "Offset mismatch!");
 
 } // namespace Mono::Security::X509
 NEED_NO_BOX(::Mono::Security::X509::PKCS12);

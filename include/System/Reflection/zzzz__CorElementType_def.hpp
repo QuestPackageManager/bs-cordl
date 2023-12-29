@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::CorElementType);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3507))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3502))
 // CS Name: ::System.Reflection::CorElementType
 struct CORDL_TYPE CorElementType {
 public:
@@ -337,6 +337,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::CorElementType, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::CorElementType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::CorElementType, "System.Reflection", "CorElementType");

@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(XObject)
-namespace System::Xml::Linq {
-struct SaveOptions;
+namespace System {
+class Object;
 }
 namespace System::Xml::Linq {
-class XElement;
+struct SaveOptions;
 }
 namespace System::Xml::Linq {
 class XObjectChangeEventArgs;
 }
 namespace System::Xml::Linq {
+class XElement;
+}
+namespace System::Xml::Linq {
 class XContainer;
-}
-namespace System::Xml {
-struct XmlNodeType;
-}
-namespace System {
-class Object;
 }
 namespace System {
 class Type;
+}
+namespace System::Xml {
+struct XmlNodeType;
 }
 // Forward declare root types
 namespace System::Xml::Linq {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::System::Xml::Linq::XObject);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15454))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15438))
 // CS Name: ::System.Xml.Linq::XObject*
 class CORDL_TYPE XObject : public ::System::Object {
 public:
@@ -65,31 +65,31 @@ public:
 
   static inline ::System::Xml::Linq::XObject* New_ctor();
 
-  /// @brief Method .ctor addr 0x285aaa4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26dea88 size 0x8 virtual false final false
   inline void _ctor();
 
   /// @brief Method get_NodeType addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Parent addr 0x28611b4 size 0x7c virtual false final false
+  /// @brief Method get_Parent addr 0x26e5198 size 0x7c virtual false final false
   inline ::System::Xml::Linq::XElement* get_Parent();
 
-  /// @brief Method AnnotationForSealedType addr 0x2861230 size 0x144 virtual false final false
+  /// @brief Method AnnotationForSealedType addr 0x26e5214 size 0x144 virtual false final false
   inline ::System::Object* AnnotationForSealedType(::System::Type* type);
 
   /// @brief Method Annotation addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> inline T Annotation();
 
-  /// @brief Method NotifyChanged addr 0x285b3dc size 0xa8 virtual false final false
+  /// @brief Method NotifyChanged addr 0x26df3c0 size 0xa8 virtual false final false
   inline bool NotifyChanged(::System::Object* sender, ::System::Xml::Linq::XObjectChangeEventArgs* e);
 
-  /// @brief Method NotifyChanging addr 0x285b334 size 0xa8 virtual false final false
+  /// @brief Method NotifyChanging addr 0x26df318 size 0xa8 virtual false final false
   inline bool NotifyChanging(::System::Object* sender, ::System::Xml::Linq::XObjectChangeEventArgs* e);
 
-  /// @brief Method SkipNotify addr 0x285c890 size 0x70 virtual false final false
+  /// @brief Method SkipNotify addr 0x26e0874 size 0x70 virtual false final false
   inline bool SkipNotify();
 
-  /// @brief Method GetSaveOptionsFromAnnotations addr 0x2860c60 size 0xe0 virtual false final false
+  /// @brief Method GetSaveOptionsFromAnnotations addr 0x26e4c44 size 0xe0 virtual false final false
   inline ::System::Xml::Linq::SaveOptions GetSaveOptionsFromAnnotations();
 
   // Ctor Parameters [CppParam { name: "", ty: "XObject", modifiers: "&&", def_value: None }]
@@ -116,6 +116,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XObject, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XObject, ___parent) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XObject, ___annotations) == 0x18, "Offset mismatch!");
 
 } // namespace System::Xml::Linq
 NEED_NO_BOX(::System::Xml::Linq::XObject);

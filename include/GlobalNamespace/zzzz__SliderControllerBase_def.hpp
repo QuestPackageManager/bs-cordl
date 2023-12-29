@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SliderControllerBase)
 namespace GlobalNamespace {
-class CutoutAnimateEffect;
+class MaterialPropertyBlockController;
 }
 namespace GlobalNamespace {
-class MaterialPropertyBlockController;
+class CutoutAnimateEffect;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderControllerBase);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4812))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4932))
 // CS Name: ::SliderControllerBase*
 class CORDL_TYPE SliderControllerBase : public ::UnityEngine::MonoBehaviour {
 public:
@@ -54,12 +54,12 @@ public:
 
   constexpr void __set__dissolving(bool value);
 
-  /// @brief Method AnimateCutout addr 0x2391ba0 size 0x28 virtual false final false
+  /// @brief Method AnimateCutout addr 0x225261c size 0x28 virtual false final false
   inline void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
   static inline ::GlobalNamespace::SliderControllerBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x23925e0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x225264c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderControllerBase", modifiers: "&&", def_value: None }]
@@ -89,6 +89,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderControllerBase, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderControllerBase, ____materialPropertyBlockController) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderControllerBase, ____cutoutAnimateEffect) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderControllerBase, ____dissolving) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SliderControllerBase);

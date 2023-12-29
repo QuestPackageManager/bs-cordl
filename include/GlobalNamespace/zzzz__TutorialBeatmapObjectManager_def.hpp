@@ -7,8 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(TutorialBeatmapObjectManager)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
+class BombNoteController;
+}
+namespace GlobalNamespace {
+class __TutorialBeatmapObjectManager__InitData;
 }
 namespace GlobalNamespace {
 class TutorialNoteController;
@@ -16,38 +22,11 @@ class TutorialNoteController;
 namespace GlobalNamespace {
 class ObstacleData;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class NoteController;
 }
 namespace GlobalNamespace {
-class SliderData;
-}
-namespace GlobalNamespace {
-class __BombNoteController__Pool;
-}
-namespace GlobalNamespace {
-class __TutorialNoteController__Pool;
-}
-namespace GlobalNamespace {
-template <typename T> class MemoryPoolContainer_1;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-class __ObstacleController__Pool;
-}
-namespace GlobalNamespace {
-class BombNoteController;
-}
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
-}
-namespace GlobalNamespace {
-class __TutorialBeatmapObjectManager__InitData;
-}
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 namespace GlobalNamespace {
 class ObstacleController;
@@ -56,7 +35,28 @@ namespace GlobalNamespace {
 class SliderController;
 }
 namespace GlobalNamespace {
-class NoteController;
+struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+}
+namespace GlobalNamespace {
+class __BombNoteController__Pool;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
+class SliderData;
+}
+namespace GlobalNamespace {
+template <typename T> class MemoryPoolContainer_1;
+}
+namespace GlobalNamespace {
+class __TutorialNoteController__Pool;
+}
+namespace GlobalNamespace {
+class __ObstacleController__Pool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -72,8 +72,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__TutorialBeatmapObjectManager__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4830))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4950))
 // CS Name: ::TutorialBeatmapObjectManager::InitData*
 class CORDL_TYPE __TutorialBeatmapObjectManager__InitData : public ::System::Object {
 public:
@@ -89,7 +89,7 @@ public:
 
   static inline ::GlobalNamespace::__TutorialBeatmapObjectManager__InitData* New_ctor(float_t cutAngleTolerance);
 
-  /// @brief Method .ctor addr 0x2396150 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x226175c size 0x28 virtual false final false
   inline void _ctor(float_t cutAngleTolerance);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TutorialBeatmapObjectManager__InitData", modifiers: "&&", def_value: None }]
@@ -114,13 +114,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TutorialBeatmapObjectManager__InitData, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__TutorialBeatmapObjectManager__InitData, ___cutAngleTolerance) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::TutorialBeatmapObjectManager
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4716))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4831))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4837))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4951))
 // CS Name: ::TutorialBeatmapObjectManager*
 class CORDL_TYPE TutorialBeatmapObjectManager : public ::GlobalNamespace::BeatmapObjectManager {
 public:
@@ -166,35 +168,35 @@ public:
 
   constexpr void __set__initData(::GlobalNamespace::__TutorialBeatmapObjectManager__InitData* value);
 
-  /// @brief Method get_activeObstacleControllers addr 0x2395bf0 size 0x50 virtual true final false
+  /// @brief Method get_activeObstacleControllers addr 0x22611fc size 0x50 virtual true final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();
 
-  /// @brief Method Init addr 0x2395c40 size 0x12c virtual false final false
+  /// @brief Method Init addr 0x226124c size 0x12c virtual false final false
   inline void Init(::GlobalNamespace::__TutorialBeatmapObjectManager__InitData* initData, ::GlobalNamespace::__TutorialNoteController__Pool* tutorialNotePool,
                    ::GlobalNamespace::__BombNoteController__Pool* bombNotePool, ::GlobalNamespace::__ObstacleController__Pool* obstaclePool);
 
-  /// @brief Method ProcessObstacleData addr 0x2395d6c size 0xf8 virtual true final false
+  /// @brief Method ProcessObstacleData addr 0x2261378 size 0xf8 virtual true final false
   inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData> obstacleSpawnData, float_t rotation);
 
-  /// @brief Method ProcessNoteData addr 0x2395e64 size 0x180 virtual true final false
+  /// @brief Method ProcessNoteData addr 0x2261470 size 0x180 virtual true final false
   inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation,
                               bool forceIsFirstNoteBehaviour);
 
-  /// @brief Method ProcessSliderData addr 0x2395fe4 size 0x4 virtual true final false
+  /// @brief Method ProcessSliderData addr 0x22615f0 size 0x4 virtual true final false
   inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData, float_t rotation);
 
-  /// @brief Method DespawnInternal addr 0x2395fe8 size 0x104 virtual true final false
+  /// @brief Method DespawnInternal addr 0x22615f4 size 0x104 virtual true final false
   inline void DespawnInternal(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method DespawnInternal addr 0x23960ec size 0x58 virtual true final false
+  /// @brief Method DespawnInternal addr 0x22616f8 size 0x58 virtual true final false
   inline void DespawnInternal(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method DespawnInternal addr 0x2396144 size 0x4 virtual true final false
+  /// @brief Method DespawnInternal addr 0x2261750 size 0x4 virtual true final false
   inline void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);
 
   static inline ::GlobalNamespace::TutorialBeatmapObjectManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2396148 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2261754 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialBeatmapObjectManager", modifiers: "&&", def_value: None }]
@@ -227,6 +229,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialBeatmapObjectManager, 0xb8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialBeatmapObjectManager, ____tutorialNotePoolContainer) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialBeatmapObjectManager, ____bombNotePoolContainer) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialBeatmapObjectManager, ____obstaclePoolContainer) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialBeatmapObjectManager, ____initData) == 0xb0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TutorialBeatmapObjectManager);

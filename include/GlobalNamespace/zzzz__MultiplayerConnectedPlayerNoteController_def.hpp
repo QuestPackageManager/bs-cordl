@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerNoteController);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4761))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5138))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4882))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5243))
 // CS Name: ::MultiplayerConnectedPlayerNoteController*
 class CORDL_TYPE MultiplayerConnectedPlayerNoteController : public ::GlobalNamespace::NoteController {
 public:
@@ -32,15 +32,15 @@ public:
 
   constexpr void __set__visualsWrapperGo(::UnityEngine::GameObject* value);
 
-  /// @brief Method HiddenStateDidChange addr 0x23d7a28 size 0x24 virtual true final false
+  /// @brief Method HiddenStateDidChange addr 0x20f5eb0 size 0x24 virtual true final false
   inline void HiddenStateDidChange(bool hide);
 
-  /// @brief Method Pause addr 0x23d7a4c size 0x10 virtual true final false
+  /// @brief Method Pause addr 0x20f5ed4 size 0x10 virtual true final false
   inline void Pause(bool pause);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerNoteController* New_ctor();
 
-  /// @brief Method .ctor addr 0x23d779c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20f5c24 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerNoteController", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerNoteController, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerNoteController, ____visualsWrapperGo) == 0x80, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerNoteController);

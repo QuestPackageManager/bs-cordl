@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(TrackedDevicePose_t)
 namespace OVR::OpenVR {
+struct HmdMatrix34_t;
+}
+namespace OVR::OpenVR {
 struct HmdVector3_t;
 }
 namespace OVR::OpenVR {
 struct ETrackingResult;
-}
-namespace OVR::OpenVR {
-struct HmdMatrix34_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -26,8 +26,8 @@ MARK_VAL_T(::OVR::OpenVR::TrackedDevicePose_t);
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 94, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8583)), TypeDefinitionIndex(TypeDefinitionIndex(8644)), TypeDefinitionIndex(TypeDefinitionIndex(8647))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8658))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9416)), TypeDefinitionIndex(TypeDefinitionIndex(9352)), TypeDefinitionIndex(TypeDefinitionIndex(9413))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9427))
 // CS Name: ::OVR.OpenVR::TrackedDevicePose_t
 struct CORDL_TYPE TrackedDevicePose_t {
 public:
@@ -68,6 +68,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::TrackedDevicePose_t, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::TrackedDevicePose_t, mDeviceToAbsoluteTracking) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::TrackedDevicePose_t, vVelocity) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::TrackedDevicePose_t, vAngularVelocity) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::TrackedDevicePose_t, eTrackingResult) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::TrackedDevicePose_t, bPoseIsValid) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::TrackedDevicePose_t, bDeviceIsConnected) == 0x4d, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::TrackedDevicePose_t, "OVR.OpenVR", "TrackedDevicePose_t");

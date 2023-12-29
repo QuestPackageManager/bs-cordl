@@ -12,10 +12,10 @@ namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+struct __RankModel__Rank;
 }
 namespace GlobalNamespace {
-struct __RankModel__Rank;
+class BeatmapCharacteristicSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerLevelStatsData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15034)), TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4632))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14934)), TypeDefinitionIndex(TypeDefinitionIndex(15179))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4746))
 // CS Name: ::PlayerLevelStatsData*
 class CORDL_TYPE PlayerLevelStatsData : public ::System::Object {
 public:
@@ -132,51 +132,51 @@ public:
 
   constexpr void __set__beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
 
-  /// @brief Method get_levelID addr 0x2372640 size 0x8 virtual false final false
+  /// @brief Method get_levelID addr 0x223c0e8 size 0x8 virtual false final false
   inline ::StringW get_levelID();
 
-  /// @brief Method get_difficulty addr 0x2372648 size 0x8 virtual false final false
+  /// @brief Method get_difficulty addr 0x223c0f0 size 0x8 virtual false final false
   inline ::GlobalNamespace::BeatmapDifficulty get_difficulty();
 
-  /// @brief Method get_beatmapCharacteristic addr 0x2372650 size 0x8 virtual false final false
+  /// @brief Method get_beatmapCharacteristic addr 0x223c0f8 size 0x8 virtual false final false
   inline ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
 
-  /// @brief Method get_highScore addr 0x2372658 size 0x8 virtual false final false
+  /// @brief Method get_highScore addr 0x223c100 size 0x8 virtual false final false
   inline int32_t get_highScore();
 
-  /// @brief Method get_maxCombo addr 0x2372660 size 0x8 virtual false final false
+  /// @brief Method get_maxCombo addr 0x223c108 size 0x8 virtual false final false
   inline int32_t get_maxCombo();
 
-  /// @brief Method get_fullCombo addr 0x2372668 size 0x8 virtual false final false
+  /// @brief Method get_fullCombo addr 0x223c110 size 0x8 virtual false final false
   inline bool get_fullCombo();
 
-  /// @brief Method get_maxRank addr 0x2372670 size 0x8 virtual false final false
+  /// @brief Method get_maxRank addr 0x223c118 size 0x8 virtual false final false
   inline ::GlobalNamespace::__RankModel__Rank get_maxRank();
 
-  /// @brief Method get_validScore addr 0x2372678 size 0x8 virtual false final false
+  /// @brief Method get_validScore addr 0x223c120 size 0x8 virtual false final false
   inline bool get_validScore();
 
-  /// @brief Method get_playCount addr 0x2372680 size 0x8 virtual false final false
+  /// @brief Method get_playCount addr 0x223c128 size 0x8 virtual false final false
   inline int32_t get_playCount();
 
   static inline ::GlobalNamespace::PlayerLevelStatsData* New_ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty,
                                                                   ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
-  /// @brief Method .ctor addr 0x2372688 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x223c130 size 0x40 virtual false final false
   inline void _ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
   static inline ::GlobalNamespace::PlayerLevelStatsData* New_ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
                                                                   int32_t highScore, int32_t maxCombo, bool fullCombo, ::GlobalNamespace::__RankModel__Rank maxRank, bool validScore,
                                                                   int32_t playCount);
 
-  /// @brief Method .ctor addr 0x23726c8 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x223b12c size 0x88 virtual false final false
   inline void _ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, int32_t highScore, int32_t maxCombo,
                     bool fullCombo, ::GlobalNamespace::__RankModel__Rank maxRank, bool validScore, int32_t playCount);
 
-  /// @brief Method UpdateScoreData addr 0x2372750 size 0x4c virtual false final false
+  /// @brief Method UpdateScoreData addr 0x223c170 size 0x4c virtual false final false
   inline void UpdateScoreData(int32_t score, int32_t maxCombo, bool fullCombo, ::GlobalNamespace::__RankModel__Rank rank);
 
-  /// @brief Method IncreaseNumberOfGameplays addr 0x237279c size 0x10 virtual false final false
+  /// @brief Method IncreaseNumberOfGameplays addr 0x223c1bc size 0x10 virtual false final false
   inline void IncreaseNumberOfGameplays();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerLevelStatsData", modifiers: "&&", def_value: None }]
@@ -224,6 +224,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerLevelStatsData, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerLevelStatsData, ____highScore) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerLevelStatsData, ____maxCombo) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerLevelStatsData, ____fullCombo) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerLevelStatsData, ____maxRank) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerLevelStatsData, ____validScore) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerLevelStatsData, ____playCount) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerLevelStatsData, ____levelID) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerLevelStatsData, ____difficulty) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerLevelStatsData, ____beatmapCharacteristic) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerLevelStatsData);

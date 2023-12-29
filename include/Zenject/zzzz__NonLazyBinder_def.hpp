@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__IfNotBoundBinder_def.hpp"
 CORDL_MODULE_EXPORT(NonLazyBinder)
 namespace Zenject {
-class IfNotBoundBinder;
+class BindInfo;
 }
 namespace Zenject {
-class BindInfo;
+class IfNotBoundBinder;
 }
 // Forward declare root types
 namespace Zenject {
@@ -20,21 +20,21 @@ MARK_REF_PTR_T(::Zenject::NonLazyBinder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10922))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10925))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10850))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10853))
 // CS Name: ::Zenject::NonLazyBinder*
 class CORDL_TYPE NonLazyBinder : public ::Zenject::IfNotBoundBinder {
 public:
   // Declarations
   static inline ::Zenject::NonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor addr 0x2edb214 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d73494 size 0x28 virtual false final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method NonLazy addr 0x2edb23c size 0x20 virtual false final false
+  /// @brief Method NonLazy addr 0x2d734bc size 0x20 virtual false final false
   inline ::Zenject::IfNotBoundBinder* NonLazy();
 
-  /// @brief Method Lazy addr 0x2edb25c size 0x1c virtual false final false
+  /// @brief Method Lazy addr 0x2d734dc size 0x1c virtual false final false
   inline ::Zenject::IfNotBoundBinder* Lazy();
 
   // Ctor Parameters [CppParam { name: "", ty: "NonLazyBinder", modifiers: "&&", def_value: None }]

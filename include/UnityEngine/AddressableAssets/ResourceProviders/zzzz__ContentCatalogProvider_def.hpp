@@ -11,8 +11,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContentCatalogProvider)
+namespace UnityEngine::ResourceManagement {
+class WebRequestQueueOperation;
+}
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class ContentCatalogData;
+}
 namespace UnityEngine {
 class AssetBundle;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
 class AssetBundleCreateRequest;
@@ -20,50 +29,41 @@ class AssetBundleCreateRequest;
 namespace UnityEngine {
 class AsyncOperation;
 }
-namespace UnityEngine::ResourceManagement {
-class WebRequestQueueOperation;
+namespace UnityEngine {
+class AssetBundleRequest;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequestAsyncOperation;
 }
-namespace UnityEngine {
-class AssetBundleRequest;
-}
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class ContentCatalogData;
-}
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 namespace System {
 class Object;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
+namespace UnityEngine::AddressableAssets::ResourceProviders {
+struct __ContentCatalogProvider__DependencyHashIndex;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace UnityEngine::AddressableAssets::ResourceProviders {
-struct __ContentCatalogProvider__DependencyHashIndex;
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct ProvideHandle;
 }
 namespace UnityEngine::AddressableAssets::ResourceProviders {
 class __ContentCatalogProvider__InternalOp;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace GlobalNamespace {
 class __ContentCatalogProvider__InternalOp__BundledCatalog;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceProviders {
@@ -88,7 +88,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceProviders::__ContentCat
 namespace UnityEngine::AddressableAssets::ResourceProviders {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14104))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14375))
 // CS Name: ::ContentCatalogProvider::DependencyHashIndex
 struct CORDL_TYPE __ContentCatalogProvider__DependencyHashIndex {
 public:
@@ -134,13 +134,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__DependencyHashIndex, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__DependencyHashIndex, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::AddressableAssets::ResourceProviders
 // Type: ::BundledCatalog
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14105))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14376))
 // CS Name: ::ContentCatalogProvider::InternalOp::BundledCatalog*
 class CORDL_TYPE __ContentCatalogProvider__InternalOp__BundledCatalog : public ::System::Object {
 public:
@@ -239,45 +241,45 @@ public:
 
   constexpr void __set_OnLoaded(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
 
-  /// @brief Method add_OnLoaded addr 0x2a2bc48 size 0xb0 virtual false final false
+  /// @brief Method add_OnLoaded addr 0x28adf00 size 0xb0 virtual false final false
   inline void add_OnLoaded(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
 
-  /// @brief Method remove_OnLoaded addr 0x2a2c834 size 0xb0 virtual false final false
+  /// @brief Method remove_OnLoaded addr 0x28aeaec size 0xb0 virtual false final false
   inline void remove_OnLoaded(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
 
-  /// @brief Method get_OpInProgress addr 0x2a2c8e4 size 0x8 virtual false final false
+  /// @brief Method get_OpInProgress addr 0x28aeb9c size 0x8 virtual false final false
   inline bool get_OpInProgress();
 
-  /// @brief Method get_OpIsSuccess addr 0x2a2c8ec size 0x20 virtual false final false
+  /// @brief Method get_OpIsSuccess addr 0x28aeba4 size 0x20 virtual false final false
   inline bool get_OpIsSuccess();
 
   static inline ::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog* New_ctor(::StringW bundlePath, int32_t webRequestTimeout);
 
-  /// @brief Method .ctor addr 0x2a2bb20 size 0x128 virtual false final false
+  /// @brief Method .ctor addr 0x28addd8 size 0x128 virtual false final false
   inline void _ctor(::StringW bundlePath, int32_t webRequestTimeout);
 
-  /// @brief Method Finalize addr 0x2a2c90c size 0xa8 virtual true final false
+  /// @brief Method Finalize addr 0x28aebc4 size 0xa8 virtual true final false
   inline void Finalize();
 
-  /// @brief Method Unload addr 0x2a2c9b4 size 0x28 virtual false final false
+  /// @brief Method Unload addr 0x28aec6c size 0x28 virtual false final false
   inline void Unload();
 
-  /// @brief Method LoadCatalogFromBundleAsync addr 0x2a2bcf8 size 0x294 virtual false final false
+  /// @brief Method LoadCatalogFromBundleAsync addr 0x28adfb0 size 0x294 virtual false final false
   inline void LoadCatalogFromBundleAsync();
 
-  /// @brief Method WebRequestOperationCompleted addr 0x2a2c9dc size 0x1fc virtual false final false
+  /// @brief Method WebRequestOperationCompleted addr 0x28aec94 size 0x1fc virtual false final false
   inline void WebRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
 
-  /// @brief Method LoadTextAssetRequestComplete addr 0x2a2cbd8 size 0x198 virtual false final false
+  /// @brief Method LoadTextAssetRequestComplete addr 0x28aee90 size 0x198 virtual false final false
   inline void LoadTextAssetRequestComplete(::UnityEngine::AsyncOperation* op);
 
-  /// @brief Method WaitForCompletion addr 0x2a2b928 size 0xe4 virtual false final false
+  /// @brief Method WaitForCompletion addr 0x28adbe0 size 0xe4 virtual false final false
   inline bool WaitForCompletion();
 
-  /// @brief Method <LoadCatalogFromBundleAsync>b__19_1 addr 0x2a2cd70 size 0x98 virtual false final false
+  /// @brief Method <LoadCatalogFromBundleAsync>b__19_1 addr 0x28af028 size 0x98 virtual false final false
   inline void _LoadCatalogFromBundleAsync_b__19_1(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
 
-  /// @brief Method <LoadCatalogFromBundleAsync>b__19_0 addr 0x2a2ce08 size 0x1d8 virtual false final false
+  /// @brief Method <LoadCatalogFromBundleAsync>b__19_0 addr 0x28af0c0 size 0x1d8 virtual false final false
   inline void _LoadCatalogFromBundleAsync_b__19_0(::UnityEngine::AsyncOperation* loadOp);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ContentCatalogProvider__InternalOp__BundledCatalog", modifiers: "&&", def_value: None }]
@@ -329,14 +331,34 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog, 0x60>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog, ___m_BundlePath) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog, ___m_OpInProgress) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog, ___m_LoadBundleRequest) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog, ___m_CatalogAssetBundle) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog, ___m_LoadTextAssetRequest) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog, ___m_CatalogData) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog, ___m_WebRequestQueueOperation) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog, ___m_RequestOperation) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog, ___m_WebRequestTimeout) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog, ___OnLoaded) == 0x58, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::InternalOp
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 115, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 296 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14002)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14111))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(14106)) CS Name: ::ContentCatalogProvider::InternalOp*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14304), inst: 297 }), TypeDefinitionIndex(TypeDefinitionIndex(14304)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14273)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14382))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(14377)) CS Name: ::ContentCatalogProvider::InternalOp*
 class CORDL_TYPE __ContentCatalogProvider__InternalOp : public ::System::Object {
 public:
   // Declarations
@@ -435,40 +457,40 @@ public:
 
   constexpr void __set_m_IsLocalCatalogInBundle(bool value);
 
-  /// @brief Method Start addr 0x2a2aa3c size 0x17c virtual false final false
+  /// @brief Method Start addr 0x28accf4 size 0x17c virtual false final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface, bool disableCatalogUpdateOnStart, bool isLocalCatalogInBundle);
 
-  /// @brief Method WaitForCompletionCallback addr 0x2a2b860 size 0xc8 virtual false final false
+  /// @brief Method WaitForCompletionCallback addr 0x28adb18 size 0xc8 virtual false final false
   inline bool WaitForCompletionCallback();
 
-  /// @brief Method Release addr 0x2a2a8c8 size 0x10 virtual false final false
+  /// @brief Method Release addr 0x28acb80 size 0x10 virtual false final false
   inline void Release();
 
-  /// @brief Method CanLoadCatalogFromBundle addr 0x2a2b300 size 0xc4 virtual false final false
+  /// @brief Method CanLoadCatalogFromBundle addr 0x28ad5b8 size 0xc4 virtual false final false
   inline bool CanLoadCatalogFromBundle(::StringW idToLoad, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method LoadCatalog addr 0x2a2b3c4 size 0x49c virtual false final false
+  /// @brief Method LoadCatalog addr 0x28ad67c size 0x49c virtual false final false
   inline void LoadCatalog(::StringW idToLoad, bool loadCatalogFromLocalBundle);
 
-  /// @brief Method CatalogLoadOpCompleteCallback addr 0x2a2bf8c size 0xe0 virtual false final false
+  /// @brief Method CatalogLoadOpCompleteCallback addr 0x28ae244 size 0xe0 virtual false final false
   inline void CatalogLoadOpCompleteCallback(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> op);
 
-  /// @brief Method GetTransformedInternalId addr 0x2a2ba64 size 0xbc virtual false final false
+  /// @brief Method GetTransformedInternalId addr 0x28add1c size 0xbc virtual false final false
   inline ::StringW GetTransformedInternalId(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
 
-  /// @brief Method DetermineIdToLoad addr 0x2a2abb8 size 0x748 virtual false final false
+  /// @brief Method DetermineIdToLoad addr 0x28ace70 size 0x748 virtual false final false
   inline ::StringW DetermineIdToLoad(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Collections::Generic::IList_1<::System::Object*>* dependencyObjects,
                                      bool disableCatalogUpdateOnStart);
 
-  /// @brief Method OnCatalogLoaded addr 0x2a2c06c size 0x7c0 virtual false final false
+  /// @brief Method OnCatalogLoaded addr 0x28ae324 size 0x7c0 virtual false final false
   inline void OnCatalogLoaded(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);
 
   static inline ::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a2aa34 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x28accec size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <LoadCatalog>b__14_0 addr 0x2a2c82c size 0x8 virtual false final false
+  /// @brief Method <LoadCatalog>b__14_0 addr 0x28aeae4 size 0x8 virtual false final false
   inline void _LoadCatalog_b__14_0(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ContentCatalogProvider__InternalOp", modifiers: "&&", def_value: None }]
@@ -520,13 +542,33 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp, 0x78>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp, ___m_LocalDataPath) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp, ___m_RemoteHashValue) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp, ___m_LocalHashValue) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp, ___m_ProviderInterface) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp, ___m_ContentCatalogData) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp, ___m_ContentCatalogDataLoadOp) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp, ___m_BundledCatalog) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp, ___m_Retried) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp, ___m_DisableCatalogUpdateOnStart) == 0x71, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp, ___m_IsLocalCatalogInBundle) == 0x72, "Offset mismatch!");
+
 } // namespace UnityEngine::AddressableAssets::ResourceProviders
 // Type: UnityEngine.AddressableAssets.ResourceProviders::ContentCatalogProvider
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14013))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14107))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14284))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14378))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceProviders::ContentCatalogProvider*
 class CORDL_TYPE ContentCatalogProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {
 public:
@@ -580,13 +622,13 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider* New_ctor(::UnityEngine::ResourceManagement::ResourceManager* resourceManagerInstance);
 
-  /// @brief Method .ctor addr 0x2a2a754 size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x28aca0c size 0x98 virtual false final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceManager* resourceManagerInstance);
 
-  /// @brief Method Release addr 0x2a2a7ec size 0xdc virtual true final false
+  /// @brief Method Release addr 0x28acaa4 size 0xdc virtual true final false
   inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* obj);
 
-  /// @brief Method Provide addr 0x2a2a8d8 size 0x15c virtual true final false
+  /// @brief Method Provide addr 0x28acb90 size 0x15c virtual true final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface);
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogProvider", modifiers: "&&", def_value: None }]
@@ -620,6 +662,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider, ___DisableCatalogUpdateOnStart) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider, ___IsLocalCatalogInBundle) == 0x1d, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider, ___m_LocationToCatalogLoadOpMap) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider, ___m_RM) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::AddressableAssets::ResourceProviders
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__DependencyHashIndex, "UnityEngine.AddressableAssets.ResourceProviders",

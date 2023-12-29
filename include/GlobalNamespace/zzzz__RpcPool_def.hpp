@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RpcPool);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12954))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12875))
 // CS Name: ::RpcPool*
 class CORDL_TYPE RpcPool : public ::System::Object {
 public:
@@ -29,7 +29,7 @@ public:
   /// @brief Method Fill addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline void Fill();
 
-  /// @brief Method Release addr 0xe54494 size 0xfc virtual false final false
+  /// @brief Method Release addr 0xdcf4c0 size 0xfc virtual false final false
   static inline void Release(::GlobalNamespace::IRemoteProcedureCall* t);
 
   // Ctor Parameters [CppParam { name: "", ty: "RpcPool", modifiers: "&&", def_value: None }]

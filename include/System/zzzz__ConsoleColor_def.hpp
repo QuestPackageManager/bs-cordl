@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ConsoleColor);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2518))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2516))
 // CS Name: ::System::ConsoleColor
 struct CORDL_TYPE ConsoleColor {
 public:
@@ -113,6 +113,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ConsoleColor, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::ConsoleColor, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::ConsoleColor, "System", "ConsoleColor");

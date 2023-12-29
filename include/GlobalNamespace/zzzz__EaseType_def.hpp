@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::EaseType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16090))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15944))
 // CS Name: ::EaseType
 struct CORDL_TYPE EaseType {
 public:
@@ -57,9 +57,6 @@ public:
     __E_InBounce = static_cast<int32_t>(0x1d),
     __E_OutBounce = static_cast<int32_t>(0x1e),
     __E_InOutBounce = static_cast<int32_t>(0x1f),
-    __E_BeatSaberInOutBack = static_cast<int32_t>(0x20),
-    __E_BeatSaberInOutElastic = static_cast<int32_t>(0x21),
-    __E_BeatSaberInOutBounce = static_cast<int32_t>(0x22),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -176,19 +173,12 @@ public:
   /// @brief Field InOutBounce value: static_cast<int32_t>(0x1f)
   static ::GlobalNamespace::EaseType const InOutBounce;
 
-  /// @brief Field BeatSaberInOutBack value: static_cast<int32_t>(0x20)
-  static ::GlobalNamespace::EaseType const BeatSaberInOutBack;
-
-  /// @brief Field BeatSaberInOutElastic value: static_cast<int32_t>(0x21)
-  static ::GlobalNamespace::EaseType const BeatSaberInOutElastic;
-
-  /// @brief Field BeatSaberInOutBounce value: static_cast<int32_t>(0x22)
-  static ::GlobalNamespace::EaseType const BeatSaberInOutBounce;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EaseType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EaseType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EaseType, "", "EaseType");

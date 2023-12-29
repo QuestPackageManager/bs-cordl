@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(MissionNodeConnection)
 namespace UnityEngine {
 class RectTransform;
 }
-namespace UnityEngine {
-class Animator;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace UnityEngine {
+class Animator;
 }
 namespace GlobalNamespace {
 class MissionNodeVisualController;
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionNodeConnection);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5544))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5637))
 // CS Name: ::MissionNodeConnection*
 class CORDL_TYPE MissionNodeConnection : public ::UnityEngine::MonoBehaviour {
 public:
@@ -130,30 +130,30 @@ public:
 
   constexpr void __set__isActive(bool value);
 
-  /// @brief Method get_parentMissionNode addr 0x22a05c0 size 0x8 virtual false final false
+  /// @brief Method get_parentMissionNode addr 0x215b63c size 0x8 virtual false final false
   inline ::GlobalNamespace::MissionNodeVisualController* get_parentMissionNode();
 
-  /// @brief Method get_childMissionNode addr 0x22a05c8 size 0x8 virtual false final false
+  /// @brief Method get_childMissionNode addr 0x215b644 size 0x8 virtual false final false
   inline ::GlobalNamespace::MissionNodeVisualController* get_childMissionNode();
 
-  /// @brief Method get_isActive addr 0x22a05d0 size 0x8 virtual false final false
+  /// @brief Method get_isActive addr 0x215b64c size 0x8 virtual false final false
   inline bool get_isActive();
 
-  /// @brief Method Setup addr 0x229f118 size 0x8 virtual false final false
+  /// @brief Method Setup addr 0x215a194 size 0x8 virtual false final false
   inline void Setup(::GlobalNamespace::MissionNodeVisualController* parentMissionNode, ::GlobalNamespace::MissionNodeVisualController* childMissionNode);
 
-  /// @brief Method UpdateConnectionRectTransform addr 0x22a05d8 size 0x278 virtual false final false
+  /// @brief Method UpdateConnectionRectTransform addr 0x215b654 size 0x278 virtual false final false
   inline void UpdateConnectionRectTransform();
 
-  /// @brief Method SetActive addr 0x22a03a0 size 0xcc virtual false final false
+  /// @brief Method SetActive addr 0x215b41c size 0xcc virtual false final false
   inline void SetActive(bool animated);
 
-  /// @brief Method MissionConnectionEnabledDidFinish addr 0x22a0850 size 0x20 virtual false final false
+  /// @brief Method MissionConnectionEnabledDidFinish addr 0x215b8cc size 0x20 virtual false final false
   inline void MissionConnectionEnabledDidFinish();
 
   static inline ::GlobalNamespace::MissionNodeConnection* New_ctor();
 
-  /// @brief Method .ctor addr 0x22a0870 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x215b8ec size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionNodeConnection", modifiers: "&&", def_value: None }]
@@ -204,6 +204,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionNodeConnection, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeConnection, ____separator) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeConnection, ____width) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeConnection, ____rectTransform) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeConnection, ____image) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeConnection, ____parentMissionNode) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeConnection, ____childMissionNode) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeConnection, ____animator) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeConnection, ____parentMissionNodePosition) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeConnection, ____childMissionNodePosition) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeConnection, ____isActive) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionNodeConnection);

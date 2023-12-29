@@ -3,11 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IReadonlyBeatmapLineData)
-namespace GlobalNamespace {
-class BeatmapObjectData;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class BeatmapObjectData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IReadonlyBeatmapLineData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14749))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14962))
 // CS Name: ::IReadonlyBeatmapLineData*
 class CORDL_TYPE IReadonlyBeatmapLineData {
 public:

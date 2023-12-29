@@ -11,25 +11,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScrollView)
 namespace HMUI {
-class ButtonBinder;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace HMUI {
-struct __ScrollView__ScrollDirection;
-}
-namespace UnityEngine {
-struct Vector2;
+class __ScrollView____c__DisplayClass56_0;
 }
 namespace UnityEngine::UI {
 class Button;
 }
-namespace HMUI {
-class __ScrollView____c__DisplayClass61_1;
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace HMUI {
+class __ScrollView____c__DisplayClass55_0;
 }
 namespace UnityEngine {
 class RectTransform;
@@ -38,7 +29,31 @@ namespace HMUI {
 class ItemForFocussedScrolling;
 }
 namespace HMUI {
+class ButtonBinder;
+}
+namespace HMUI {
+struct __ScrollView__ScrollType;
+}
+namespace HMUI {
+struct __ScrollView__ScrollViewDirection;
+}
+namespace HMUI {
+class __ScrollView____c__DisplayClass61_1;
+}
+namespace HMUI {
+class __ScrollView____c;
+}
+namespace HMUI {
+struct __ScrollView__ScrollDirection;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace HMUI {
 class EventSystemListener;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace HMUI {
 class VerticalScrollIndicator;
@@ -47,25 +62,10 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace HMUI {
-struct __ScrollView__ScrollViewDirection;
-}
-namespace HMUI {
 class __ScrollView____c__DisplayClass61_0;
 }
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace HMUI {
-class __ScrollView____c__DisplayClass55_0;
-}
-namespace HMUI {
-struct __ScrollView__ScrollType;
-}
-namespace HMUI {
-class __ScrollView____c;
-}
-namespace HMUI {
-class __ScrollView____c__DisplayClass56_0;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -113,7 +113,7 @@ MARK_REF_PTR_T(::HMUI::__ScrollView____c__DisplayClass61_1);
 namespace HMUI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13640))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13757))
 // CS Name: ::ScrollView::ScrollType
 struct CORDL_TYPE __ScrollView__ScrollType {
 public:
@@ -159,13 +159,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__ScrollView__ScrollType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__ScrollView__ScrollType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: ::ScrollDirection
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13641))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13758))
 // CS Name: ::ScrollView::ScrollDirection
 struct CORDL_TYPE __ScrollView__ScrollDirection {
 public:
@@ -219,13 +221,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__ScrollView__ScrollDirection, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__ScrollView__ScrollDirection, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: ::ScrollViewDirection
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13642))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13759))
 // CS Name: ::ScrollView::ScrollViewDirection
 struct CORDL_TYPE __ScrollView__ScrollViewDirection {
 public:
@@ -267,13 +271,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__ScrollView__ScrollViewDirection, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__ScrollView__ScrollViewDirection, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13643))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13760))
 // CS Name: ::ScrollView::<>c*
 class CORDL_TYPE __ScrollView____c : public ::System::Object {
 public:
@@ -301,13 +307,13 @@ public:
 
   static inline ::HMUI::__ScrollView____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2144df4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fed458 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__42_1 addr 0x2144dfc size 0x4 virtual false final false
+  /// @brief Method <Awake>b__42_1 addr 0x1fed460 size 0x4 virtual false final false
   inline float_t _Awake_b__42_1(float_t i);
 
-  /// @brief Method <Awake>b__42_3 addr 0x2144e00 size 0x4 virtual false final false
+  /// @brief Method <Awake>b__42_3 addr 0x1fed464 size 0x4 virtual false final false
   inline float_t _Awake_b__42_3(float_t i);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScrollView____c", modifiers: "&&", def_value: None }]
@@ -334,8 +340,8 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__ScrollView____c, 0x10>, 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13644))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13761))
 // CS Name: ::ScrollView::<>c__DisplayClass55_0*
 class CORDL_TYPE __ScrollView____c__DisplayClass55_0 : public ::System::Object {
 public:
@@ -351,10 +357,10 @@ public:
 
   static inline ::HMUI::__ScrollView____c__DisplayClass55_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2144950 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fecfb4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <PageUpButtonPressed>b__0 addr 0x2144e04 size 0x10 virtual false final false
+  /// @brief Method <PageUpButtonPressed>b__0 addr 0x1fed468 size 0x10 virtual false final false
   inline bool _PageUpButtonPressed_b__0(float_t pos);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScrollView____c__DisplayClass55_0", modifiers: "&&", def_value: None }]
@@ -379,13 +385,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__ScrollView____c__DisplayClass55_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__ScrollView____c__DisplayClass55_0, ___threshold) == 0x10, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: ::<>c__DisplayClass56_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13645))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13762))
 // CS Name: ::ScrollView::<>c__DisplayClass56_0*
 class CORDL_TYPE __ScrollView____c__DisplayClass56_0 : public ::System::Object {
 public:
@@ -401,10 +409,10 @@ public:
 
   static inline ::HMUI::__ScrollView____c__DisplayClass56_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2144c6c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fed2d0 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <PageDownButtonPressed>b__0 addr 0x2144e14 size 0x10 virtual false final false
+  /// @brief Method <PageDownButtonPressed>b__0 addr 0x1fed478 size 0x10 virtual false final false
   inline bool _PageDownButtonPressed_b__0(float_t pos);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScrollView____c__DisplayClass56_0", modifiers: "&&", def_value: None }]
@@ -429,13 +437,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__ScrollView____c__DisplayClass56_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__ScrollView____c__DisplayClass56_0, ___threshold) == 0x10, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: ::<>c__DisplayClass61_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13646))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13763))
 // CS Name: ::ScrollView::<>c__DisplayClass61_0*
 class CORDL_TYPE __ScrollView____c__DisplayClass61_0 : public ::System::Object {
 public:
@@ -451,10 +461,10 @@ public:
 
   static inline ::HMUI::__ScrollView____c__DisplayClass61_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2144ce0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fed344 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <HandleJoystickWasCenteredThisFrame>b__0 addr 0x2144e24 size 0x10 virtual false final false
+  /// @brief Method <HandleJoystickWasCenteredThisFrame>b__0 addr 0x1fed488 size 0x10 virtual false final false
   inline bool _HandleJoystickWasCenteredThisFrame_b__0(float_t pos);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScrollView____c__DisplayClass61_0", modifiers: "&&", def_value: None }]
@@ -479,13 +489,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__ScrollView____c__DisplayClass61_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__ScrollView____c__DisplayClass61_0, ___threshold) == 0x10, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: ::<>c__DisplayClass61_1
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13647))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13764))
 // CS Name: ::ScrollView::<>c__DisplayClass61_1*
 class CORDL_TYPE __ScrollView____c__DisplayClass61_1 : public ::System::Object {
 public:
@@ -501,10 +513,10 @@ public:
 
   static inline ::HMUI::__ScrollView____c__DisplayClass61_1* New_ctor();
 
-  /// @brief Method .ctor addr 0x2144ce8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fed34c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <HandleJoystickWasCenteredThisFrame>b__1 addr 0x2144e34 size 0x10 virtual false final false
+  /// @brief Method <HandleJoystickWasCenteredThisFrame>b__1 addr 0x1fed498 size 0x10 virtual false final false
   inline bool _HandleJoystickWasCenteredThisFrame_b__1(float_t pos);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScrollView____c__DisplayClass61_1", modifiers: "&&", def_value: None }]
@@ -529,13 +541,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__ScrollView____c__DisplayClass61_1, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__ScrollView____c__DisplayClass61_1, ___threshold) == 0x10, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: HMUI::ScrollView
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13642)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(13640)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13641))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13648)) CS Name: ::HMUI::ScrollView*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13757)), TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(13759)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13758))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13765)) CS Name: ::HMUI::ScrollView*
 class CORDL_TYPE ScrollView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -783,102 +797,102 @@ public:
 
   constexpr void __set__joystickScrollStartTime(float_t value);
 
-  /// @brief Method add_scrollPositionChangedEvent addr 0x2142edc size 0xb0 virtual false final false
+  /// @brief Method add_scrollPositionChangedEvent addr 0x1feb540 size 0xb0 virtual false final false
   inline void add_scrollPositionChangedEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_scrollPositionChangedEvent addr 0x2142f8c size 0xb0 virtual false final false
+  /// @brief Method remove_scrollPositionChangedEvent addr 0x1feb5f0 size 0xb0 virtual false final false
   inline void remove_scrollPositionChangedEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_viewportTransform addr 0x214303c size 0x8 virtual false final false
+  /// @brief Method get_viewportTransform addr 0x1feb6a0 size 0x8 virtual false final false
   inline ::UnityEngine::RectTransform* get_viewportTransform();
 
-  /// @brief Method get_contentTransform addr 0x2143044 size 0x8 virtual false final false
+  /// @brief Method get_contentTransform addr 0x1feb6a8 size 0x8 virtual false final false
   inline ::UnityEngine::RectTransform* get_contentTransform();
 
-  /// @brief Method get_position addr 0x214304c size 0x30 virtual false final false
+  /// @brief Method get_position addr 0x1feb6b0 size 0x30 virtual false final false
   inline float_t get_position();
 
-  /// @brief Method get_scrollableSize addr 0x214307c size 0x34 virtual false final false
+  /// @brief Method get_scrollableSize addr 0x1feb6e0 size 0x34 virtual false final false
   inline float_t get_scrollableSize();
 
-  /// @brief Method get_scrollPageSize addr 0x2143104 size 0x54 virtual false final false
+  /// @brief Method get_scrollPageSize addr 0x1feb768 size 0x54 virtual false final false
   inline float_t get_scrollPageSize();
 
-  /// @brief Method get_contentSize addr 0x21430b0 size 0x54 virtual false final false
+  /// @brief Method get_contentSize addr 0x1feb714 size 0x54 virtual false final false
   inline float_t get_contentSize();
 
-  /// @brief Method Awake addr 0x2143158 size 0x4e8 virtual false final false
+  /// @brief Method Awake addr 0x1feb7bc size 0x4e8 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x21437e4 size 0x13c virtual false final false
+  /// @brief Method OnDestroy addr 0x1febe48 size 0x13c virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method CheckScrollInput addr 0x2143920 size 0x15c virtual false final false
+  /// @brief Method CheckScrollInput addr 0x1febf84 size 0x15c virtual false final false
   inline void CheckScrollInput();
 
-  /// @brief Method Update addr 0x2143fc4 size 0x120 virtual false final false
+  /// @brief Method Update addr 0x1fec628 size 0x120 virtual false final false
   inline void Update();
 
-  /// @brief Method SetContentSize addr 0x21441b8 size 0x220 virtual false final false
+  /// @brief Method SetContentSize addr 0x1fec81c size 0x220 virtual false final false
   inline void SetContentSize(float_t contentSize);
 
-  /// @brief Method UpdateContentSize addr 0x2143640 size 0x94 virtual false final false
+  /// @brief Method UpdateContentSize addr 0x1febca4 size 0x94 virtual false final false
   inline void UpdateContentSize();
 
-  /// @brief Method ScrollToEnd addr 0x2144404 size 0x40 virtual false final false
+  /// @brief Method ScrollToEnd addr 0x1feca68 size 0x40 virtual false final false
   inline void ScrollToEnd(bool animated);
 
-  /// @brief Method ScrollToWorldPosition addr 0x2144444 size 0x48 virtual false final false
+  /// @brief Method ScrollToWorldPosition addr 0x1fecaa8 size 0x48 virtual false final false
   inline void ScrollToWorldPosition(::UnityEngine::Vector3 worldPosition, float_t pageRelativePosition, bool animated);
 
-  /// @brief Method ScrollToWorldPositionIfOutsideArea addr 0x214453c size 0xb0 virtual false final false
+  /// @brief Method ScrollToWorldPositionIfOutsideArea addr 0x1fecba0 size 0xb0 virtual false final false
   inline void ScrollToWorldPositionIfOutsideArea(::UnityEngine::Vector3 worldPosition, float_t pageRelativePosition, float_t relativeBoundaryStart, float_t relativeBoundaryEnd, bool animated);
 
-  /// @brief Method ScrollTo addr 0x2142e10 size 0xc4 virtual false final false
+  /// @brief Method ScrollTo addr 0x1feb474 size 0xc4 virtual false final false
   inline void ScrollTo(float_t destinationPos, bool animated);
 
-  /// @brief Method WorldPositionToScrollViewPosition addr 0x214448c size 0xb0 virtual false final false
+  /// @brief Method WorldPositionToScrollViewPosition addr 0x1fecaf0 size 0xb0 virtual false final false
   inline ::UnityEngine::Vector2 WorldPositionToScrollViewPosition(::UnityEngine::Vector3 worldPosition);
 
-  /// @brief Method SetDestinationPos addr 0x21445ec size 0x54 virtual false final false
+  /// @brief Method SetDestinationPos addr 0x1fecc50 size 0x54 virtual false final false
   inline void SetDestinationPos(float_t value);
 
-  /// @brief Method UpdateVerticalScrollIndicator addr 0x21440e4 size 0xd4 virtual false final false
+  /// @brief Method UpdateVerticalScrollIndicator addr 0x1fec748 size 0xd4 virtual false final false
   inline void UpdateVerticalScrollIndicator(float_t posY);
 
-  /// @brief Method PageUpButtonPressed addr 0x214466c size 0x2e4 virtual false final false
+  /// @brief Method PageUpButtonPressed addr 0x1feccd0 size 0x2e4 virtual false final false
   inline void PageUpButtonPressed();
 
-  /// @brief Method PageDownButtonPressed addr 0x2144958 size 0x314 virtual false final false
+  /// @brief Method PageDownButtonPressed addr 0x1fecfbc size 0x314 virtual false final false
   inline void PageDownButtonPressed();
 
-  /// @brief Method RefreshButtons addr 0x21436d4 size 0x110 virtual false final false
+  /// @brief Method RefreshButtons addr 0x1febd38 size 0x110 virtual false final false
   inline void RefreshButtons();
 
-  /// @brief Method HandlePointerDidEnter addr 0x2144c74 size 0x14 virtual false final false
+  /// @brief Method HandlePointerDidEnter addr 0x1fed2d8 size 0x14 virtual false final false
   inline void HandlePointerDidEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method HandlePointerDidExit addr 0x2144c88 size 0x8 virtual false final false
+  /// @brief Method HandlePointerDidExit addr 0x1fed2ec size 0x8 virtual false final false
   inline void HandlePointerDidExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method HandleJoystickWasNotCenteredThisFrame addr 0x2143a7c size 0xf4 virtual false final false
+  /// @brief Method HandleJoystickWasNotCenteredThisFrame addr 0x1fec0e0 size 0xf4 virtual false final false
   inline void HandleJoystickWasNotCenteredThisFrame(::UnityEngine::Vector2 deltaPos);
 
-  /// @brief Method HandleJoystickWasCenteredThisFrame addr 0x2143b70 size 0x454 virtual false final false
+  /// @brief Method HandleJoystickWasCenteredThisFrame addr 0x1fec1d4 size 0x454 virtual false final false
   inline void HandleJoystickWasCenteredThisFrame();
 
-  /// @brief Method ResolveScrollDirection addr 0x2144c90 size 0x50 virtual false final false
+  /// @brief Method ResolveScrollDirection addr 0x1fed2f4 size 0x50 virtual false final false
   inline ::HMUI::__ScrollView__ScrollDirection ResolveScrollDirection(::UnityEngine::Vector2 deltaPos);
 
   static inline ::HMUI::ScrollView* New_ctor();
 
-  /// @brief Method .ctor addr 0x2144cf0 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x1fed354 size 0x30 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__42_0 addr 0x2144d20 size 0x3c virtual false final false
+  /// @brief Method <Awake>b__42_0 addr 0x1fed384 size 0x3c virtual false final false
   inline float_t _Awake_b__42_0(::HMUI::ItemForFocussedScrolling* item);
 
-  /// @brief Method <Awake>b__42_2 addr 0x2144d5c size 0x34 virtual false final false
+  /// @brief Method <Awake>b__42_2 addr 0x1fed3c0 size 0x34 virtual false final false
   inline float_t _Awake_b__42_2(::HMUI::ItemForFocussedScrolling* item);
 
   // Ctor Parameters [CppParam { name: "", ty: "ScrollView", modifiers: "&&", def_value: None }]
@@ -974,6 +988,54 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::ScrollView, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____viewport) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____contentRectTransform) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____scrollViewDirection) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____pageUpButton) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____pageDownButton) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____verticalScrollIndicator) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____smooth) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____joystickScrollSpeed) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____joystickQuickSnapMaxTime) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____scrollType) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____fixedCellSize) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____scrollItemRelativeThresholdPosition) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____pageStepNormalizedSize) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____scrollingLastFrame) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____isHoveredByPointer) == 0x65, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____shouldAnimate) == 0x66, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____platformHelper) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ___scrollPositionChangedEvent) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____buttonBinder) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____destinationPos) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____scrollFocusPositions) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____eventSystemListener) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____lastJoystickScrollDirection) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ScrollView, ____joystickScrollStartTime) == 0x9c, "Offset mismatch!");
 
 } // namespace HMUI
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::__ScrollView__ScrollDirection, "HMUI", "ScrollView/ScrollDirection");

@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Zenject::IBindingFinalizer);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10953))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10881))
 // CS Name: ::Zenject::IBindingFinalizer*
 class CORDL_TYPE IBindingFinalizer {
 public:

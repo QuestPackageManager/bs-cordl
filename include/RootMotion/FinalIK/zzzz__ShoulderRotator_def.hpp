@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(ShoulderRotator)
 namespace RootMotion::FinalIK {
-struct FullBodyBipedChain;
+class __IKMapping__BoneMap;
 }
 namespace RootMotion::FinalIK {
-class __IKMapping__BoneMap;
+struct FullBodyBipedChain;
 }
 namespace RootMotion::FinalIK {
 class FullBodyBipedIK;
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::ShoulderRotator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12668))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12596))
 // CS Name: ::RootMotion.FinalIK::ShoulderRotator*
 class CORDL_TYPE ShoulderRotator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -66,24 +66,24 @@ public:
 
   constexpr void __set_skip(bool value);
 
-  /// @brief Method Start addr 0x129a37c size 0xf0 virtual false final false
+  /// @brief Method Start addr 0x1229050 size 0xf0 virtual false final false
   inline void Start();
 
-  /// @brief Method RotateShoulders addr 0x129a46c size 0xdc virtual false final false
+  /// @brief Method RotateShoulders addr 0x1229140 size 0xdc virtual false final false
   inline void RotateShoulders();
 
-  /// @brief Method RotateShoulder addr 0x129a548 size 0x404 virtual false final false
+  /// @brief Method RotateShoulder addr 0x122921c size 0x404 virtual false final false
   inline void RotateShoulder(::RootMotion::FinalIK::FullBodyBipedChain chain, float_t weight, float_t offset);
 
-  /// @brief Method GetParentBoneMap addr 0x129a94c size 0x34 virtual false final false
+  /// @brief Method GetParentBoneMap addr 0x1229620 size 0x34 virtual false final false
   inline ::RootMotion::FinalIK::__IKMapping__BoneMap* GetParentBoneMap(::RootMotion::FinalIK::FullBodyBipedChain chain);
 
-  /// @brief Method OnDestroy addr 0x129a980 size 0x10c virtual false final false
+  /// @brief Method OnDestroy addr 0x1229654 size 0x10c virtual false final false
   inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::ShoulderRotator* New_ctor();
 
-  /// @brief Method .ctor addr 0x129aa8c size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x1229760 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ShoulderRotator", modifiers: "&&", def_value: None }]
@@ -116,6 +116,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::ShoulderRotator, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::ShoulderRotator, ___weight) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::ShoulderRotator, ___offset) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::ShoulderRotator, ___ik) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::ShoulderRotator, ___skip) == 0x28, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::ShoulderRotator);

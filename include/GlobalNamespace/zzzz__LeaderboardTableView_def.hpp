@@ -11,17 +11,17 @@ CORDL_MODULE_EXPORT(LeaderboardTableView)
 namespace HMUI {
 class __TableView__IDataSource;
 }
-namespace GlobalNamespace {
-class __LeaderboardTableView__ScoreData;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class LeaderboardTableCell;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HMUI {
 class TableView;
+}
+namespace GlobalNamespace {
+class __LeaderboardTableView__ScoreData;
 }
 namespace HMUI {
 class TableCell;
@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__LeaderboardTableView__ScoreData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5788))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5879))
 // CS Name: ::LeaderboardTableView::ScoreData*
 class CORDL_TYPE __LeaderboardTableView__ScoreData : public ::System::Object {
 public:
@@ -90,33 +90,33 @@ public:
 
   constexpr void __set__fullCombo_k__BackingField(bool value);
 
-  /// @brief Method get_score addr 0x22e31c4 size 0x8 virtual false final false
+  /// @brief Method get_score addr 0x219e6b8 size 0x8 virtual false final false
   inline int32_t get_score();
 
-  /// @brief Method set_score addr 0x22e31cc size 0x8 virtual false final false
+  /// @brief Method set_score addr 0x219e6c0 size 0x8 virtual false final false
   inline void set_score(int32_t value);
 
-  /// @brief Method get_playerName addr 0x22e31d4 size 0x8 virtual false final false
+  /// @brief Method get_playerName addr 0x219e6c8 size 0x8 virtual false final false
   inline ::StringW get_playerName();
 
-  /// @brief Method set_playerName addr 0x22e31dc size 0x8 virtual false final false
+  /// @brief Method set_playerName addr 0x219e6d0 size 0x8 virtual false final false
   inline void set_playerName(::StringW value);
 
-  /// @brief Method get_rank addr 0x22e31e4 size 0x8 virtual false final false
+  /// @brief Method get_rank addr 0x219e6d8 size 0x8 virtual false final false
   inline int32_t get_rank();
 
-  /// @brief Method set_rank addr 0x22e31ec size 0x8 virtual false final false
+  /// @brief Method set_rank addr 0x219e6e0 size 0x8 virtual false final false
   inline void set_rank(int32_t value);
 
-  /// @brief Method get_fullCombo addr 0x22e31f4 size 0x8 virtual false final false
+  /// @brief Method get_fullCombo addr 0x219e6e8 size 0x8 virtual false final false
   inline bool get_fullCombo();
 
-  /// @brief Method set_fullCombo addr 0x22e31fc size 0xc virtual false final false
+  /// @brief Method set_fullCombo addr 0x219e6f0 size 0xc virtual false final false
   inline void set_fullCombo(bool value);
 
   static inline ::GlobalNamespace::__LeaderboardTableView__ScoreData* New_ctor(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo);
 
-  /// @brief Method .ctor addr 0x22d3870 size 0x4c virtual false final false
+  /// @brief Method .ctor addr 0x219e6fc size 0x4c virtual false final false
   inline void _ctor(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LeaderboardTableView__ScoreData", modifiers: "&&", def_value: None }]
@@ -150,13 +150,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LeaderboardTableView__ScoreData, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LeaderboardTableView__ScoreData, ____score_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardTableView__ScoreData, ____playerName_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardTableView__ScoreData, ____rank_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardTableView__ScoreData, ____fullCombo_k__BackingField) == 0x24, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LeaderboardTableView
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5789))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5880))
 // CS Name: ::LeaderboardTableView*
 class CORDL_TYPE LeaderboardTableView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -211,21 +219,21 @@ public:
 
   constexpr void __set__specialScorePos(int32_t value);
 
-  /// @brief Method CellSize addr 0x22e2f70 size 0x8 virtual true final true
+  /// @brief Method CellSize addr 0x219e434 size 0x8 virtual true final true
   inline float_t CellSize();
 
-  /// @brief Method NumberOfCells addr 0x22e2f78 size 0x4c virtual true final true
+  /// @brief Method NumberOfCells addr 0x219e43c size 0x4c virtual true final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method CellForIdx addr 0x22e2fc4 size 0x1f0 virtual true final true
+  /// @brief Method CellForIdx addr 0x219e488 size 0x1f0 virtual true final true
   inline ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method SetScores addr 0x22d38bc size 0x30 virtual false final false
+  /// @brief Method SetScores addr 0x219e678 size 0x30 virtual false final false
   inline void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>* scores, int32_t specialScorePos);
 
   static inline ::GlobalNamespace::LeaderboardTableView* New_ctor();
 
-  /// @brief Method .ctor addr 0x22e31b4 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x219e6a8 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableView", modifiers: "&&", def_value: None }]
@@ -264,6 +272,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LeaderboardTableView, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableView, ____tableView) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableView, ____cellPrefab) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableView, ____rowHeight) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableView, ____scores) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableView, ____specialScorePos) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LeaderboardTableView);

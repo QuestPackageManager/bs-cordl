@@ -4,13 +4,13 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IGameNoteMirrorable)
 namespace GlobalNamespace {
-class INoteMirrorable;
+struct __NoteData__GameplayType;
 }
 namespace GlobalNamespace {
 class NoteMovement;
 }
 namespace GlobalNamespace {
-struct __NoteData__GameplayType;
+class INoteMirrorable;
 }
 namespace GlobalNamespace {
 struct NoteVisualModifierType;
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IGameNoteMirrorable);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4746))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4867))
 // CS Name: ::IGameNoteMirrorable*
 class CORDL_TYPE IGameNoteMirrorable {
 public:

@@ -22,7 +22,7 @@ namespace System {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2448))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2446))
 // CS Name: ::System::Nullable`1<T>
 struct CORDL_TYPE Nullable_1 {
 public:

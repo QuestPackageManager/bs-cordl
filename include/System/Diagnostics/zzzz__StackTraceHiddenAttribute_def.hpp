@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Diagnostics::StackTraceHiddenAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3728))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3716))
 // CS Name: ::System.Diagnostics::StackTraceHiddenAttribute*
 class CORDL_TYPE StackTraceHiddenAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Diagnostics::StackTraceHiddenAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2579c00 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x241e788 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StackTraceHiddenAttribute", modifiers: "&&", def_value: None }]

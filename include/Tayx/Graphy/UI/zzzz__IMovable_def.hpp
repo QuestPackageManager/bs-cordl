@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Tayx::Graphy::UI::IMovable);
 namespace Tayx::Graphy::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15075))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15253))
 // CS Name: ::Tayx.Graphy.UI::IMovable*
 class CORDL_TYPE IMovable {
 public:

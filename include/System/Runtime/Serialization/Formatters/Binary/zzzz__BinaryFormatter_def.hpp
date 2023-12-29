@@ -9,26 +9,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BinaryFormatter)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
-}
 namespace System {
 class Type;
 }
-namespace System::IO {
-class Stream;
-}
-namespace System::Runtime::Remoting::Messaging {
-class HeaderHandler;
-}
 namespace System::Runtime::Remoting::Messaging {
 class Header;
-}
-namespace System::Runtime::Serialization {
-class IFormatter;
 }
 namespace System::Runtime::Serialization {
 class SerializationBinder;
@@ -36,14 +21,29 @@ class SerializationBinder;
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Runtime::Remoting::Messaging {
+class HeaderHandler;
+}
+namespace System::Runtime::Serialization {
+class IFormatter;
+}
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
+}
 namespace System {
 class Object;
 }
-namespace System::Runtime::Serialization::Formatters {
-struct FormatterAssemblyStyle;
+namespace System::IO {
+class Stream;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class TypeInformation;
+}
+namespace System::Runtime::Serialization::Formatters {
+struct FormatterAssemblyStyle;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -55,8 +55,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryForma
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3240)), TypeDefinitionIndex(TypeDefinitionIndex(3242)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3241)), TypeDefinitionIndex(TypeDefinitionIndex(3235))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3278)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3239)), TypeDefinitionIndex(TypeDefinitionIndex(3234)), TypeDefinitionIndex(TypeDefinitionIndex(3240)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3241))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3277)) CS Name:
 // ::System.Runtime.Serialization.Formatters.Binary::BinaryFormatter*
 class CORDL_TYPE BinaryFormatter : public ::System::Object {
 public:
@@ -142,47 +142,47 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>* getStaticF_typeNameCache();
 
-  /// @brief Method set_AssemblyFormat addr 0x24c5dd0 size 0x8 virtual false final false
+  /// @brief Method set_AssemblyFormat addr 0x236d2dc size 0x8 virtual false final false
   inline void set_AssemblyFormat(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value);
 
-  /// @brief Method set_SurrogateSelector addr 0x24c5dd8 size 0x8 virtual true final true
+  /// @brief Method set_SurrogateSelector addr 0x236d2e4 size 0x8 virtual true final true
   inline void set_SurrogateSelector(::System::Runtime::Serialization::ISurrogateSelector* value);
 
-  /// @brief Method set_Binder addr 0x24c5de0 size 0x8 virtual true final true
+  /// @brief Method set_Binder addr 0x236d2ec size 0x8 virtual true final true
   inline void set_Binder(::System::Runtime::Serialization::SerializationBinder* value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* New_ctor();
 
-  /// @brief Method .ctor addr 0x24c5de8 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x236d2f4 size 0x34 virtual false final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* New_ctor(::System::Runtime::Serialization::ISurrogateSelector* selector,
                                                                                                 ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x24c5e1c size 0x4c virtual false final false
+  /// @brief Method .ctor addr 0x236d328 size 0x4c virtual false final false
   inline void _ctor(::System::Runtime::Serialization::ISurrogateSelector* selector, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Deserialize addr 0x24c5e68 size 0xc virtual true final true
+  /// @brief Method Deserialize addr 0x236d374 size 0xc virtual true final true
   inline ::System::Object* Deserialize(::System::IO::Stream* serializationStream);
 
-  /// @brief Method Deserialize addr 0x24c5e7c size 0x24c virtual false final false
+  /// @brief Method Deserialize addr 0x236d388 size 0x24c virtual false final false
   inline ::System::Object* Deserialize(::System::IO::Stream* serializationStream, ::System::Runtime::Remoting::Messaging::HeaderHandler* handler, bool fCheck);
 
-  /// @brief Method Deserialize addr 0x24c5e74 size 0x8 virtual true final true
+  /// @brief Method Deserialize addr 0x236d380 size 0x8 virtual true final true
   inline ::System::Object* Deserialize(::System::IO::Stream* serializationStream, ::System::Runtime::Remoting::Messaging::HeaderHandler* handler);
 
-  /// @brief Method Serialize addr 0x24c60c8 size 0xc virtual true final true
+  /// @brief Method Serialize addr 0x236d5d4 size 0xc virtual true final true
   inline void Serialize(::System::IO::Stream* serializationStream, ::System::Object* graph);
 
-  /// @brief Method Serialize addr 0x24c60d4 size 0x8 virtual true final true
+  /// @brief Method Serialize addr 0x236d5e0 size 0x8 virtual true final true
   inline void Serialize(::System::IO::Stream* serializationStream, ::System::Object* graph,
                         ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> headers);
 
-  /// @brief Method Serialize addr 0x24c60dc size 0x1f8 virtual false final false
+  /// @brief Method Serialize addr 0x236d5e8 size 0x1f8 virtual false final false
   inline void Serialize(::System::IO::Stream* serializationStream, ::System::Object* graph,
                         ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> headers, bool fCheck);
 
-  /// @brief Method GetTypeInformation addr 0x24c638c size 0x25c virtual false final false
+  /// @brief Method GetTypeInformation addr 0x236d898 size 0x25c virtual false final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::TypeInformation* GetTypeInformation(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryFormatter", modifiers: "&&", def_value: None }]
@@ -224,6 +224,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter, ___m_surrogates) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter, ___m_context) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter, ___m_binder) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter, ___m_typeFormat) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter, ___m_assemblyFormat) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter, ___m_securityLevel) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter, ___m_crossAppDomainArray) == 0x40, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter);

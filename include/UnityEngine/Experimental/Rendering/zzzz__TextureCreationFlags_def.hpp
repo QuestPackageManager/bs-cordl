@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Experimental::Rendering::TextureCreationFlags);
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10403))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10325))
 // CS Name: ::UnityEngine.Experimental.Rendering::TextureCreationFlags
 struct CORDL_TYPE TextureCreationFlags {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Rendering::TextureCreationFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::Rendering::TextureCreationFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Experimental::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Rendering::TextureCreationFlags, "UnityEngine.Experimental.Rendering", "TextureCreationFlags");

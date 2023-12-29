@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::InteractionLookAt);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12596))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12524))
 // CS Name: ::RootMotion.FinalIK::InteractionLookAt*
 class CORDL_TYPE InteractionLookAt : public ::System::Object {
 public:
@@ -99,24 +99,24 @@ public:
 
   constexpr void __set_firstFBBIKSolve(bool value);
 
-  /// @brief Method Look addr 0x1286268 size 0x110 virtual false final false
+  /// @brief Method Look addr 0x1214f3c size 0x110 virtual false final false
   inline void Look(::UnityEngine::Transform* target, float_t time);
 
-  /// @brief Method OnFixTransforms addr 0x1286378 size 0x98 virtual false final false
+  /// @brief Method OnFixTransforms addr 0x121504c size 0x98 virtual false final false
   inline void OnFixTransforms();
 
-  /// @brief Method Update addr 0x1286410 size 0x1f0 virtual false final false
+  /// @brief Method Update addr 0x12150e4 size 0x1f0 virtual false final false
   inline void Update();
 
-  /// @brief Method SolveSpine addr 0x1286600 size 0xa8 virtual false final false
+  /// @brief Method SolveSpine addr 0x12152d4 size 0xa8 virtual false final false
   inline void SolveSpine();
 
-  /// @brief Method SolveHead addr 0x12866a8 size 0xac virtual false final false
+  /// @brief Method SolveHead addr 0x121537c size 0xac virtual false final false
   inline void SolveHead();
 
   static inline ::RootMotion::FinalIK::InteractionLookAt* New_ctor();
 
-  /// @brief Method .ctor addr 0x1286754 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x1215428 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InteractionLookAt", modifiers: "&&", def_value: None }]
@@ -161,6 +161,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::InteractionLookAt, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::InteractionLookAt, ___ik) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::InteractionLookAt, ___lerpSpeed) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::InteractionLookAt, ___weightSpeed) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::InteractionLookAt, ___isPaused) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::InteractionLookAt, ___lookAtTarget) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::InteractionLookAt, ___stopLookTime) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::InteractionLookAt, ___weight) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::InteractionLookAt, ___firstFBBIKSolve) == 0x38, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::InteractionLookAt);

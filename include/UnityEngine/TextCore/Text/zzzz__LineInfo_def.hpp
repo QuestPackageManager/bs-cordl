@@ -24,8 +24,8 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::LineInfo);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13718)), TypeDefinitionIndex(TypeDefinitionIndex(13694))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13695))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13573)), TypeDefinitionIndex(TypeDefinitionIndex(13597))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13574))
 // CS Name: ::UnityEngine.TextCore.Text::LineInfo
 struct CORDL_TYPE LineInfo {
 public:
@@ -119,6 +119,48 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::LineInfo, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, controlCharacterCount) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, characterCount) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, visibleCharacterCount) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, spaceCount) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, visibleSpaceCount) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, wordCount) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, firstCharacterIndex) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, firstVisibleCharacterIndex) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, lastCharacterIndex) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, lastVisibleCharacterIndex) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, length) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, lineHeight) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, ascender) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, baseline) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, descender) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, maxAdvance) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, width) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, marginLeft) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, marginRight) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, alignment) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, lineExtents) == 0x50, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::LineInfo, "UnityEngine.TextCore.Text", "LineInfo");

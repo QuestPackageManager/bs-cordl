@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CollectionVirtualizationController)
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class ReusableCollectionItem;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::UIElements {
 class ScrollView;
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::CollectionVirtualizationController);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7371))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7457))
 // CS Name: ::UnityEngine.UIElements::CollectionVirtualizationController*
 class CORDL_TYPE CollectionVirtualizationController : public ::System::Object {
 public:
@@ -60,7 +60,7 @@ public:
 
   static inline ::UnityEngine::UIElements::CollectionVirtualizationController* New_ctor(::UnityEngine::UIElements::ScrollView* scrollView);
 
-  /// @brief Method .ctor addr 0x2e87ba4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d1f7f4 size 0x28 virtual false final false
   inline void _ctor(::UnityEngine::UIElements::ScrollView* scrollView);
 
   /// @brief Method Refresh addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -117,6 +117,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::CollectionVirtualizationController, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::CollectionVirtualizationController, ___m_ScrollView) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::CollectionVirtualizationController);

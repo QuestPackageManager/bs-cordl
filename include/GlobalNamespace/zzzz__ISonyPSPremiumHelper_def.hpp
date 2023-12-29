@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISonyPSPremiumHelper)
-namespace GlobalNamespace {
-struct __ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace GlobalNamespace {
 struct __ISonyPSPremiumHelper__GetPremiumStatusResult;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+struct __ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ISonyPSPremiumHelper);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4574))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4666))
 // CS Name: ::ISonyPSPremiumHelper::DisplayJoinPremiumDialogResult
 struct CORDL_TYPE __ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult {
 public:
@@ -78,13 +78,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::GetPremiumStatusResult
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4575))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4667))
 // CS Name: ::ISonyPSPremiumHelper::GetPremiumStatusResult
 struct CORDL_TYPE __ISonyPSPremiumHelper__GetPremiumStatusResult {
 public:
@@ -130,13 +132,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStatusResult, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStatusResult, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ISonyPSPremiumHelper
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4576))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4668))
 // CS Name: ::ISonyPSPremiumHelper*
 class CORDL_TYPE ISonyPSPremiumHelper {
 public:
@@ -152,7 +156,7 @@ public:
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStatusResult>* GetPremiumStatusAsync(::System::Threading::CancellationToken token);
 
   /// @brief Method NotifyPremiumFeature addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void NotifyPremiumFeature(bool isSpectator);
+  inline void NotifyPremiumFeature();
 
   // Ctor Parameters [CppParam { name: "", ty: "ISonyPSPremiumHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

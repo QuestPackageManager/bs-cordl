@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::SicBlockCipher);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(977))
 // CS Name: ::Org.BouncyCastle.Crypto.Modes::SicBlockCipher*
 class CORDL_TYPE SicBlockCipher : public ::System::Object {
@@ -83,28 +83,28 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Modes::SicBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method .ctor addr 0xf279cc size 0x100 virtual false final false
+  /// @brief Method .ctor addr 0xeb27e0 size 0x100 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method GetUnderlyingCipher addr 0xf27acc size 0x8 virtual true final false
+  /// @brief Method GetUnderlyingCipher addr 0xeb28e0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Crypto::IBlockCipher* GetUnderlyingCipher();
 
-  /// @brief Method Init addr 0xf27ad4 size 0x2e8 virtual true final false
+  /// @brief Method Init addr 0xeb28e8 size 0x2e8 virtual true final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName addr 0xf27dbc size 0xc0 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xeb2bd0 size 0xc0 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay addr 0xf27e7c size 0x8 virtual true final false
+  /// @brief Method get_IsPartialBlockOkay addr 0xeb2c90 size 0x8 virtual true final false
   inline bool get_IsPartialBlockOkay();
 
-  /// @brief Method GetBlockSize addr 0xf27e84 size 0xa4 virtual true final false
+  /// @brief Method GetBlockSize addr 0xeb2c98 size 0xa4 virtual true final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method ProcessBlock addr 0xf27f28 size 0x1bc virtual true final false
+  /// @brief Method ProcessBlock addr 0xeb2d3c size 0x1bc virtual true final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xf280e4 size 0xfc virtual true final false
+  /// @brief Method Reset addr 0xeb2ef8 size 0xfc virtual true final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "SicBlockCipher", modifiers: "&&", def_value: None }]
@@ -140,6 +140,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Modes::SicBlockCipher, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::SicBlockCipher, ___cipher) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::SicBlockCipher, ___blockSize) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::SicBlockCipher, ___counter) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::SicBlockCipher, ___counterOut) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::SicBlockCipher, ___IV) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Modes
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Modes::SicBlockCipher);

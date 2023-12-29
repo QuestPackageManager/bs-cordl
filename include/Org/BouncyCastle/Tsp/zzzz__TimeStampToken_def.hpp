@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeStampToken)
+namespace Org::BouncyCastle::Cms {
+class SignerInformation;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class AttributeTable;
+}
+namespace Org::BouncyCastle::Cms {
+class SignerID;
+}
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfo;
 }
 namespace Org::BouncyCastle::Tsp {
 class TimeStampTokenInfo;
 }
-namespace Org::BouncyCastle::Tsp {
-class __TimeStampToken__CertID;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsSignedData;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Cms {
-class SignerInformation;
-}
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
 }
 namespace Org::BouncyCastle::Cms {
-class SignerID;
+class CmsSignedData;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
+namespace Org::BouncyCastle::Tsp {
+class __TimeStampToken__CertID;
 }
 namespace Org::BouncyCastle::Asn1::Ess {
 class EssCertIDv2;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class IssuerSerial;
-}
 namespace Org::BouncyCastle::Asn1::Ess {
 class EssCertID;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class IssuerSerial;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
@@ -60,7 +60,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::__TimeStampToken__CertID);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1769))
 // CS Name: ::TimeStampToken::CertID*
 class CORDL_TYPE __TimeStampToken__CertID : public ::System::Object {
@@ -88,24 +88,24 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID* New_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertID* certID);
 
-  /// @brief Method .ctor addr 0x1152b58 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x10e1910 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ess::EssCertID* certID);
 
   static inline ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID* New_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* certID);
 
-  /// @brief Method .ctor addr 0x1152b80 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x10e1938 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* certID);
 
-  /// @brief Method GetHashAlgorithmName addr 0x11532b0 size 0xf8 virtual false final false
+  /// @brief Method GetHashAlgorithmName addr 0x10e2068 size 0xf8 virtual false final false
   inline ::StringW GetHashAlgorithmName();
 
-  /// @brief Method GetHashAlgorithm addr 0x11537f8 size 0xac virtual false final false
+  /// @brief Method GetHashAlgorithm addr 0x10e25b0 size 0xac virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetHashAlgorithm();
 
-  /// @brief Method GetCertHash addr 0x11533a8 size 0x34 virtual false final false
+  /// @brief Method GetCertHash addr 0x10e2160 size 0x34 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetCertHash();
 
-  /// @brief Method get_IssuerSerial addr 0x11533dc size 0x30 virtual false final false
+  /// @brief Method get_IssuerSerial addr 0x10e2194 size 0x30 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_IssuerSerial();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TimeStampToken__CertID", modifiers: "&&", def_value: None }]
@@ -133,12 +133,16 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Tsp::__TimeStampToken__CertID, ___certID) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::__TimeStampToken__CertID, ___certIDv2) == 0x18, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Tsp
 // Type: Org.BouncyCastle.Tsp::TimeStampToken
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1770))
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampToken*
 class CORDL_TYPE TimeStampToken : public ::System::Object {
@@ -192,45 +196,45 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampToken* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method .ctor addr 0x11507d0 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x10df588 size 0x74 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampToken* New_ctor(::Org::BouncyCastle::Cms::CmsSignedData* signedData);
 
-  /// @brief Method .ctor addr 0x1152194 size 0x890 virtual false final false
+  /// @brief Method .ctor addr 0x10e0f4c size 0x890 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsSignedData* signedData);
 
-  /// @brief Method get_TimeStampInfo addr 0x1152ba8 size 0x8 virtual false final false
+  /// @brief Method get_TimeStampInfo addr 0x10e1960 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Tsp::TimeStampTokenInfo* get_TimeStampInfo();
 
-  /// @brief Method get_SignerID addr 0x1152bb0 size 0x1c virtual false final false
+  /// @brief Method get_SignerID addr 0x10e1968 size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Cms::SignerID* get_SignerID();
 
-  /// @brief Method get_SignedAttributes addr 0x1151058 size 0x1c virtual false final false
+  /// @brief Method get_SignedAttributes addr 0x10dfe10 size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* get_SignedAttributes();
 
-  /// @brief Method get_UnsignedAttributes addr 0x1152bcc size 0x1c virtual false final false
+  /// @brief Method get_UnsignedAttributes addr 0x10e1984 size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* get_UnsignedAttributes();
 
-  /// @brief Method GetCertificates addr 0x1152be8 size 0x1c virtual false final false
+  /// @brief Method GetCertificates addr 0x10e19a0 size 0x1c virtual false final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCertificates(::StringW type);
 
-  /// @brief Method GetCrls addr 0x1152c04 size 0x1c virtual false final false
+  /// @brief Method GetCrls addr 0x10e19bc size 0x1c virtual false final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCrls(::StringW type);
 
-  /// @brief Method GetAttributeCertificates addr 0x1152c20 size 0x1c virtual false final false
+  /// @brief Method GetAttributeCertificates addr 0x10e19d8 size 0x1c virtual false final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetAttributeCertificates(::StringW type);
 
-  /// @brief Method Validate addr 0x1152c3c size 0x674 virtual false final false
+  /// @brief Method Validate addr 0x10e19f4 size 0x674 virtual false final false
   inline void Validate(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method ToCmsSignedData addr 0x1153780 size 0x8 virtual false final false
+  /// @brief Method ToCmsSignedData addr 0x10e2538 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Cms::CmsSignedData* ToCmsSignedData();
 
-  /// @brief Method GetEncoded addr 0x1153788 size 0x54 virtual false final false
+  /// @brief Method GetEncoded addr 0x10e2540 size 0x54 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetEncoded addr 0x11537dc size 0x1c virtual false final false
+  /// @brief Method GetEncoded addr 0x10e2594 size 0x1c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded(::StringW encoding);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampToken", modifiers: "&&", def_value: None }]
@@ -263,6 +267,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Tsp::TimeStampToken, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::TimeStampToken, ___tsToken) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::TimeStampToken, ___tsaSignerInfo) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::TimeStampToken, ___tstInfo) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::TimeStampToken, ___certID) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Tsp
 NEED_NO_BOX(::Org::BouncyCastle::Tsp::TimeStampToken);

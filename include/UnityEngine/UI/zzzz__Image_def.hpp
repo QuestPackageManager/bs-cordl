@@ -11,34 +11,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Image)
 namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace UnityEngine {
 struct Vector3;
 }
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+class Sprite;
+}
 namespace UnityEngine::UI {
-struct __Image__OriginVertical;
+class ILayoutElement;
+}
+namespace UnityEngine::UI {
+struct __Image__Origin180;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 namespace UnityEngine::UI {
 struct __Image__FillMethod;
 }
 namespace UnityEngine {
-struct Vector4;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UI {
-struct __Image__Origin360;
-}
-namespace UnityEngine {
-struct Color32;
+class Texture;
 }
 namespace UnityEngine::UI {
 struct __Image__Type;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
-class Camera;
 }
 namespace UnityEngine::UI {
 class VertexHelper;
@@ -46,35 +46,35 @@ class VertexHelper;
 namespace UnityEngine::U2D {
 class SpriteAtlas;
 }
+namespace UnityEngine::UI {
+struct __Image__Origin90;
+}
 namespace UnityEngine {
 class ICanvasRaycastFilter;
 }
 namespace UnityEngine::UI {
 struct __Image__OriginHorizontal;
 }
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace UnityEngine {
-class Texture;
+namespace UnityEngine::UI {
+struct __Image__Origin360;
 }
 namespace UnityEngine {
 struct Rect;
 }
-namespace UnityEngine::UI {
-struct __Image__Origin90;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UI {
-class ILayoutElement;
+struct __Image__OriginVertical;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::UI {
-struct __Image__Origin180;
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -115,7 +115,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::Image);
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13048))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13053))
 // CS Name: ::Image::Type
 struct CORDL_TYPE __Image__Type {
 public:
@@ -165,13 +165,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Image__Type, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UI::__Image__Type, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UI
 // Type: ::FillMethod
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13049))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13054))
 // CS Name: ::Image::FillMethod
 struct CORDL_TYPE __Image__FillMethod {
 public:
@@ -225,13 +227,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Image__FillMethod, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UI::__Image__FillMethod, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UI
 // Type: ::OriginHorizontal
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13050))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13055))
 // CS Name: ::Image::OriginHorizontal
 struct CORDL_TYPE __Image__OriginHorizontal {
 public:
@@ -273,13 +277,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Image__OriginHorizontal, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UI::__Image__OriginHorizontal, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UI
 // Type: ::OriginVertical
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13051))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13056))
 // CS Name: ::Image::OriginVertical
 struct CORDL_TYPE __Image__OriginVertical {
 public:
@@ -321,13 +327,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Image__OriginVertical, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UI::__Image__OriginVertical, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UI
 // Type: ::Origin90
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13052))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13057))
 // CS Name: ::Image::Origin90
 struct CORDL_TYPE __Image__Origin90 {
 public:
@@ -377,13 +385,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Image__Origin90, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UI::__Image__Origin90, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UI
 // Type: ::Origin180
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13053))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13058))
 // CS Name: ::Image::Origin180
 struct CORDL_TYPE __Image__Origin180 {
 public:
@@ -433,13 +443,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Image__Origin180, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UI::__Image__Origin180, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UI
 // Type: ::Origin360
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13054))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13059))
 // CS Name: ::Image::Origin360
 struct CORDL_TYPE __Image__Origin360 {
 public:
@@ -489,13 +501,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Image__Origin360, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UI::__Image__Origin360, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UI
 // Type: UnityEngine.UI::Image
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13099)), TypeDefinitionIndex(TypeDefinitionIndex(13048)), TypeDefinitionIndex(TypeDefinitionIndex(13049))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13055))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13054)), TypeDefinitionIndex(TypeDefinitionIndex(13104)), TypeDefinitionIndex(TypeDefinitionIndex(13053))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13060))
 // CS Name: ::UnityEngine.UI::Image*
 class CORDL_TYPE Image : public ::UnityEngine::UI::MaskableGraphic {
 public:
@@ -751,225 +765,225 @@ public:
 
   static inline bool getStaticF_s_Initialized();
 
-  /// @brief Method get_sprite addr 0x2d60ea4 size 0x8 virtual false final false
+  /// @brief Method get_sprite addr 0x2bf8af4 size 0x8 virtual false final false
   inline ::UnityEngine::Sprite* get_sprite();
 
-  /// @brief Method set_sprite addr 0x2d53ffc size 0x2e8 virtual false final false
+  /// @brief Method set_sprite addr 0x2bebc4c size 0x2e8 virtual false final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method DisableSpriteOptimizations addr 0x2d60f98 size 0x8 virtual false final false
+  /// @brief Method DisableSpriteOptimizations addr 0x2bf8be8 size 0x8 virtual false final false
   inline void DisableSpriteOptimizations();
 
-  /// @brief Method get_overrideSprite addr 0x2d60fa0 size 0x4 virtual false final false
+  /// @brief Method get_overrideSprite addr 0x2bf8bf0 size 0x4 virtual false final false
   inline ::UnityEngine::Sprite* get_overrideSprite();
 
-  /// @brief Method set_overrideSprite addr 0x2d6101c size 0x88 virtual false final false
+  /// @brief Method set_overrideSprite addr 0x2bf8c6c size 0x88 virtual false final false
   inline void set_overrideSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method get_activeSprite addr 0x2d60fa4 size 0x78 virtual false final false
+  /// @brief Method get_activeSprite addr 0x2bf8bf4 size 0x78 virtual false final false
   inline ::UnityEngine::Sprite* get_activeSprite();
 
-  /// @brief Method get_type addr 0x2d610a4 size 0x8 virtual false final false
+  /// @brief Method get_type addr 0x2bf8cf4 size 0x8 virtual false final false
   inline ::UnityEngine::UI::__Image__Type get_type();
 
-  /// @brief Method set_type addr 0x2d542e4 size 0x80 virtual false final false
+  /// @brief Method set_type addr 0x2bebf34 size 0x80 virtual false final false
   inline void set_type(::UnityEngine::UI::__Image__Type value);
 
-  /// @brief Method get_preserveAspect addr 0x2d610ac size 0x8 virtual false final false
+  /// @brief Method get_preserveAspect addr 0x2bf8cfc size 0x8 virtual false final false
   inline bool get_preserveAspect();
 
-  /// @brief Method set_preserveAspect addr 0x2d610b4 size 0x80 virtual false final false
+  /// @brief Method set_preserveAspect addr 0x2bf8d04 size 0x80 virtual false final false
   inline void set_preserveAspect(bool value);
 
-  /// @brief Method get_fillCenter addr 0x2d61134 size 0x8 virtual false final false
+  /// @brief Method get_fillCenter addr 0x2bf8d84 size 0x8 virtual false final false
   inline bool get_fillCenter();
 
-  /// @brief Method set_fillCenter addr 0x2d6113c size 0x80 virtual false final false
+  /// @brief Method set_fillCenter addr 0x2bf8d8c size 0x80 virtual false final false
   inline void set_fillCenter(bool value);
 
-  /// @brief Method get_fillMethod addr 0x2d611bc size 0x8 virtual false final false
+  /// @brief Method get_fillMethod addr 0x2bf8e0c size 0x8 virtual false final false
   inline ::UnityEngine::UI::__Image__FillMethod get_fillMethod();
 
-  /// @brief Method set_fillMethod addr 0x2d611c4 size 0x78 virtual false final false
+  /// @brief Method set_fillMethod addr 0x2bf8e14 size 0x78 virtual false final false
   inline void set_fillMethod(::UnityEngine::UI::__Image__FillMethod value);
 
-  /// @brief Method get_fillAmount addr 0x2d6123c size 0x8 virtual false final false
+  /// @brief Method get_fillAmount addr 0x2bf8e8c size 0x8 virtual false final false
   inline float_t get_fillAmount();
 
-  /// @brief Method set_fillAmount addr 0x2d61244 size 0x90 virtual false final false
+  /// @brief Method set_fillAmount addr 0x2bf8e94 size 0x90 virtual false final false
   inline void set_fillAmount(float_t value);
 
-  /// @brief Method get_fillClockwise addr 0x2d612d4 size 0x8 virtual false final false
+  /// @brief Method get_fillClockwise addr 0x2bf8f24 size 0x8 virtual false final false
   inline bool get_fillClockwise();
 
-  /// @brief Method set_fillClockwise addr 0x2d612dc size 0x80 virtual false final false
+  /// @brief Method set_fillClockwise addr 0x2bf8f2c size 0x80 virtual false final false
   inline void set_fillClockwise(bool value);
 
-  /// @brief Method get_fillOrigin addr 0x2d6135c size 0x8 virtual false final false
+  /// @brief Method get_fillOrigin addr 0x2bf8fac size 0x8 virtual false final false
   inline int32_t get_fillOrigin();
 
-  /// @brief Method set_fillOrigin addr 0x2d61364 size 0x80 virtual false final false
+  /// @brief Method set_fillOrigin addr 0x2bf8fb4 size 0x80 virtual false final false
   inline void set_fillOrigin(int32_t value);
 
-  /// @brief Method get_eventAlphaThreshold addr 0x2d613e4 size 0x10 virtual false final false
+  /// @brief Method get_eventAlphaThreshold addr 0x2bf9034 size 0x10 virtual false final false
   inline float_t get_eventAlphaThreshold();
 
-  /// @brief Method set_eventAlphaThreshold addr 0x2d613f4 size 0x10 virtual false final false
+  /// @brief Method set_eventAlphaThreshold addr 0x2bf9044 size 0x10 virtual false final false
   inline void set_eventAlphaThreshold(float_t value);
 
-  /// @brief Method get_alphaHitTestMinimumThreshold addr 0x2d61404 size 0x8 virtual false final false
+  /// @brief Method get_alphaHitTestMinimumThreshold addr 0x2bf9054 size 0x8 virtual false final false
   inline float_t get_alphaHitTestMinimumThreshold();
 
-  /// @brief Method set_alphaHitTestMinimumThreshold addr 0x2d6140c size 0x8 virtual false final false
+  /// @brief Method set_alphaHitTestMinimumThreshold addr 0x2bf905c size 0x8 virtual false final false
   inline void set_alphaHitTestMinimumThreshold(float_t value);
 
-  /// @brief Method get_useSpriteMesh addr 0x2d61414 size 0x8 virtual false final false
+  /// @brief Method get_useSpriteMesh addr 0x2bf9064 size 0x8 virtual false final false
   inline bool get_useSpriteMesh();
 
-  /// @brief Method set_useSpriteMesh addr 0x2d6141c size 0x80 virtual false final false
+  /// @brief Method set_useSpriteMesh addr 0x2bf906c size 0x80 virtual false final false
   inline void set_useSpriteMesh(bool value);
 
   static inline ::UnityEngine::UI::Image* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d6149c size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x2bf90ec size 0x40 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_defaultETC1GraphicMaterial addr 0x2d614dc size 0xdc virtual false final false
+  /// @brief Method get_defaultETC1GraphicMaterial addr 0x2bf912c size 0xdc virtual false final false
   static inline ::UnityEngine::Material* get_defaultETC1GraphicMaterial();
 
-  /// @brief Method get_mainTexture addr 0x2d615b8 size 0x178 virtual true final false
+  /// @brief Method get_mainTexture addr 0x2bf9208 size 0x178 virtual true final false
   inline ::UnityEngine::Texture* get_mainTexture();
 
-  /// @brief Method get_hasBorder addr 0x2d61730 size 0xb8 virtual false final false
+  /// @brief Method get_hasBorder addr 0x2bf9380 size 0xb8 virtual false final false
   inline bool get_hasBorder();
 
-  /// @brief Method get_pixelsPerUnitMultiplier addr 0x2d617e8 size 0x8 virtual false final false
+  /// @brief Method get_pixelsPerUnitMultiplier addr 0x2bf9438 size 0x8 virtual false final false
   inline float_t get_pixelsPerUnitMultiplier();
 
-  /// @brief Method set_pixelsPerUnitMultiplier addr 0x2d617f0 size 0x20 virtual false final false
+  /// @brief Method set_pixelsPerUnitMultiplier addr 0x2bf9440 size 0x20 virtual false final false
   inline void set_pixelsPerUnitMultiplier(float_t value);
 
-  /// @brief Method get_pixelsPerUnit addr 0x2d61810 size 0xf4 virtual false final false
+  /// @brief Method get_pixelsPerUnit addr 0x2bf9460 size 0xf4 virtual false final false
   inline float_t get_pixelsPerUnit();
 
-  /// @brief Method get_multipliedPixelsPerUnit addr 0x2d61904 size 0x1c virtual false final false
+  /// @brief Method get_multipliedPixelsPerUnit addr 0x2bf9554 size 0x1c virtual false final false
   inline float_t get_multipliedPixelsPerUnit();
 
-  /// @brief Method get_material addr 0x2d61920 size 0x12c virtual true final false
+  /// @brief Method get_material addr 0x2bf9570 size 0x12c virtual true final false
   inline ::UnityEngine::Material* get_material();
 
-  /// @brief Method set_material addr 0x2d61a4c size 0x4 virtual true final false
+  /// @brief Method set_material addr 0x2bf969c size 0x4 virtual true final false
   inline void set_material(::UnityEngine::Material* value);
 
-  /// @brief Method OnBeforeSerialize addr 0x2d61a50 size 0x4 virtual true final false
+  /// @brief Method OnBeforeSerialize addr 0x2bf96a0 size 0x4 virtual true final false
   inline void OnBeforeSerialize();
 
-  /// @brief Method OnAfterDeserialize addr 0x2d61a54 size 0x50 virtual true final false
+  /// @brief Method OnAfterDeserialize addr 0x2bf96a4 size 0x50 virtual true final false
   inline void OnAfterDeserialize();
 
-  /// @brief Method PreserveSpriteAspectRatio addr 0x2d61aa4 size 0x158 virtual false final false
+  /// @brief Method PreserveSpriteAspectRatio addr 0x2bf96f4 size 0x158 virtual false final false
   inline void PreserveSpriteAspectRatio(ByRef<::UnityEngine::Rect> rect, ::UnityEngine::Vector2 spriteSize);
 
-  /// @brief Method GetDrawingDimensions addr 0x2d61bfc size 0x484 virtual false final false
+  /// @brief Method GetDrawingDimensions addr 0x2bf984c size 0x484 virtual false final false
   inline ::UnityEngine::Vector4 GetDrawingDimensions(bool shouldPreserveAspect);
 
-  /// @brief Method SetNativeSize addr 0x2d62080 size 0x164 virtual true final false
+  /// @brief Method SetNativeSize addr 0x2bf9cd0 size 0x164 virtual true final false
   inline void SetNativeSize();
 
-  /// @brief Method OnPopulateMesh addr 0x2d621e4 size 0x144 virtual true final false
+  /// @brief Method OnPopulateMesh addr 0x2bf9e34 size 0x144 virtual true final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* toFill);
 
-  /// @brief Method TrackSprite addr 0x2d60eac size 0xec virtual false final false
+  /// @brief Method TrackSprite addr 0x2bf8afc size 0xec virtual false final false
   inline void TrackSprite();
 
-  /// @brief Method OnEnable addr 0x2d67bec size 0x1c virtual true final false
+  /// @brief Method OnEnable addr 0x2bff83c size 0x1c virtual true final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2d67c08 size 0x74 virtual true final false
+  /// @brief Method OnDisable addr 0x2bff858 size 0x74 virtual true final false
   inline void OnDisable();
 
-  /// @brief Method UpdateMaterial addr 0x2d67cfc size 0xf4 virtual true final false
+  /// @brief Method UpdateMaterial addr 0x2bff94c size 0xf4 virtual true final false
   inline void UpdateMaterial();
 
-  /// @brief Method OnCanvasHierarchyChanged addr 0x2d67df0 size 0x108 virtual true final false
+  /// @brief Method OnCanvasHierarchyChanged addr 0x2bffa40 size 0x108 virtual true final false
   inline void OnCanvasHierarchyChanged();
 
-  /// @brief Method GenerateSimpleSprite addr 0x2d62328 size 0xb24 virtual false final false
+  /// @brief Method GenerateSimpleSprite addr 0x2bf9f78 size 0xb24 virtual false final false
   inline void GenerateSimpleSprite(::UnityEngine::UI::VertexHelper* vh, bool lPreserveAspect);
 
-  /// @brief Method GenerateSprite addr 0x2d62e4c size 0x5f0 virtual false final false
+  /// @brief Method GenerateSprite addr 0x2bfaa9c size 0x5f0 virtual false final false
   inline void GenerateSprite(::UnityEngine::UI::VertexHelper* vh, bool lPreserveAspect);
 
-  /// @brief Method GenerateSlicedSprite addr 0x2d6343c size 0x850 virtual false final false
+  /// @brief Method GenerateSlicedSprite addr 0x2bfb08c size 0x850 virtual false final false
   inline void GenerateSlicedSprite(::UnityEngine::UI::VertexHelper* toFill);
 
-  /// @brief Method GenerateTiledSprite addr 0x2d63c8c size 0x29d8 virtual false final false
+  /// @brief Method GenerateTiledSprite addr 0x2bfb8dc size 0x29d8 virtual false final false
   inline void GenerateTiledSprite(::UnityEngine::UI::VertexHelper* toFill);
 
-  /// @brief Method AddQuad addr 0x2d681ac size 0xe4 virtual false final false
+  /// @brief Method AddQuad addr 0x2bffdfc size 0xe4 virtual false final false
   static inline void AddQuad(::UnityEngine::UI::VertexHelper* vertexHelper, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> quadPositions, ::UnityEngine::Color32 color,
                              ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> quadUVs);
 
-  /// @brief Method AddQuad addr 0x2d68058 size 0x154 virtual false final false
+  /// @brief Method AddQuad addr 0x2bffca8 size 0x154 virtual false final false
   static inline void AddQuad(::UnityEngine::UI::VertexHelper* vertexHelper, ::UnityEngine::Vector2 posMin, ::UnityEngine::Vector2 posMax, ::UnityEngine::Color32 color, ::UnityEngine::Vector2 uvMin,
                              ::UnityEngine::Vector2 uvMax);
 
-  /// @brief Method GetAdjustedBorders addr 0x2d67ef8 size 0x160 virtual false final false
+  /// @brief Method GetAdjustedBorders addr 0x2bffb48 size 0x160 virtual false final false
   inline ::UnityEngine::Vector4 GetAdjustedBorders(::UnityEngine::Vector4 border, ::UnityEngine::Rect adjustedRect);
 
-  /// @brief Method GenerateFilledSprite addr 0x2d66664 size 0x1428 virtual false final false
+  /// @brief Method GenerateFilledSprite addr 0x2bfe2b4 size 0x1428 virtual false final false
   inline void GenerateFilledSprite(::UnityEngine::UI::VertexHelper* toFill, bool preserveAspect);
 
-  /// @brief Method RadialCut addr 0x2d68290 size 0x120 virtual false final false
+  /// @brief Method RadialCut addr 0x2bffee0 size 0x120 virtual false final false
   static inline bool RadialCut(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> xy, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> uv, float_t fill, bool invert,
                                int32_t corner);
 
-  /// @brief Method RadialCut addr 0x2d683b0 size 0x3ec virtual false final false
+  /// @brief Method RadialCut addr 0x2c00000 size 0x3ec virtual false final false
   static inline void RadialCut(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> xy, float_t cos, float_t sin, bool invert, int32_t corner);
 
-  /// @brief Method CalculateLayoutInputHorizontal addr 0x2d6879c size 0x4 virtual true final false
+  /// @brief Method CalculateLayoutInputHorizontal addr 0x2c003ec size 0x4 virtual true final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical addr 0x2d687a0 size 0x4 virtual true final false
+  /// @brief Method CalculateLayoutInputVertical addr 0x2c003f0 size 0x4 virtual true final false
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method get_minWidth addr 0x2d687a4 size 0x8 virtual true final false
+  /// @brief Method get_minWidth addr 0x2c003f4 size 0x8 virtual true final false
   inline float_t get_minWidth();
 
-  /// @brief Method get_preferredWidth addr 0x2d687ac size 0xe4 virtual true final false
+  /// @brief Method get_preferredWidth addr 0x2c003fc size 0xe4 virtual true final false
   inline float_t get_preferredWidth();
 
-  /// @brief Method get_flexibleWidth addr 0x2d68890 size 0x8 virtual true final false
+  /// @brief Method get_flexibleWidth addr 0x2c004e0 size 0x8 virtual true final false
   inline float_t get_flexibleWidth();
 
-  /// @brief Method get_minHeight addr 0x2d68898 size 0x8 virtual true final false
+  /// @brief Method get_minHeight addr 0x2c004e8 size 0x8 virtual true final false
   inline float_t get_minHeight();
 
-  /// @brief Method get_preferredHeight addr 0x2d688a0 size 0xe4 virtual true final false
+  /// @brief Method get_preferredHeight addr 0x2c004f0 size 0xe4 virtual true final false
   inline float_t get_preferredHeight();
 
-  /// @brief Method get_flexibleHeight addr 0x2d68984 size 0x8 virtual true final false
+  /// @brief Method get_flexibleHeight addr 0x2c005d4 size 0x8 virtual true final false
   inline float_t get_flexibleHeight();
 
-  /// @brief Method get_layoutPriority addr 0x2d6898c size 0x8 virtual true final false
+  /// @brief Method get_layoutPriority addr 0x2c005dc size 0x8 virtual true final false
   inline int32_t get_layoutPriority();
 
-  /// @brief Method IsRaycastLocationValid addr 0x2d68994 size 0x38c virtual true final false
+  /// @brief Method IsRaycastLocationValid addr 0x2c005e4 size 0x38c virtual true final false
   inline bool IsRaycastLocationValid(::UnityEngine::Vector2 screenPoint, ::UnityEngine::Camera* eventCamera);
 
-  /// @brief Method MapCoordinate addr 0x2d68d20 size 0x340 virtual false final false
+  /// @brief Method MapCoordinate addr 0x2c00970 size 0x340 virtual false final false
   inline ::UnityEngine::Vector2 MapCoordinate(::UnityEngine::Vector2 local, ::UnityEngine::Rect rect);
 
-  /// @brief Method RebuildImage addr 0x2d69060 size 0x1a8 virtual false final false
+  /// @brief Method RebuildImage addr 0x2c00cb0 size 0x1a8 virtual false final false
   static inline void RebuildImage(::UnityEngine::U2D::SpriteAtlas* spriteAtlas);
 
-  /// @brief Method TrackImage addr 0x2d67a8c size 0x160 virtual false final false
+  /// @brief Method TrackImage addr 0x2bff6dc size 0x160 virtual false final false
   static inline void TrackImage(::UnityEngine::UI::Image* g);
 
-  /// @brief Method UnTrackImage addr 0x2d67c7c size 0x80 virtual false final false
+  /// @brief Method UnTrackImage addr 0x2bff8cc size 0x80 virtual false final false
   static inline void UnTrackImage(::UnityEngine::UI::Image* g);
 
-  /// @brief Method OnDidApplyAnimationProperties addr 0x2d69208 size 0x38 virtual true final false
+  /// @brief Method OnDidApplyAnimationProperties addr 0x2c00e58 size 0x38 virtual true final false
   inline void OnDidApplyAnimationProperties();
 
   // Ctor Parameters [CppParam { name: "", ty: "Image", modifiers: "&&", def_value: None }]
@@ -1032,6 +1046,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::Image, 0x108>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Image, ___m_Sprite) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Image, ___m_OverrideSprite) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Image, ___m_Type) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Image, ___m_PreserveAspect) == 0xe4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Image, ___m_FillCenter) == 0xe5, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Image, ___m_FillMethod) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Image, ___m_FillAmount) == 0xec, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Image, ___m_FillClockwise) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Image, ___m_FillOrigin) == 0xf4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Image, ___m_AlphaHitTestMinimumThreshold) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Image, ___m_Tracked) == 0xfc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Image, ___m_UseSpriteMesh) == 0xfd, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Image, ___m_PixelsPerUnitMultiplier) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Image, ___m_CachedReferencePixelsPerUnit) == 0x104, "Offset mismatch!");
 
 } // namespace UnityEngine::UI
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::__Image__FillMethod, "UnityEngine.UI", "Image/FillMethod");

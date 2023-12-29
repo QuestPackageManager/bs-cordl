@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IXmlDocument)
 namespace Newtonsoft::Json::Converters {
-class IXmlNode;
+class IXmlElement;
 }
 namespace Newtonsoft::Json::Converters {
-class IXmlElement;
+class IXmlNode;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::IXmlDocument);
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12053))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11981))
 // CS Name: ::Newtonsoft.Json.Converters::IXmlDocument*
 class CORDL_TYPE IXmlDocument {
 public:

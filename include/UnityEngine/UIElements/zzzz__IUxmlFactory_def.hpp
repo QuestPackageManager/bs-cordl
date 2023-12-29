@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IUxmlFactory)
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IUxmlFactory);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6996))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7082))
 // CS Name: ::UnityEngine.UIElements::IUxmlFactory*
 class CORDL_TYPE IUxmlFactory {
 public:

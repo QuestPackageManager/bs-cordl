@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__Context_def.hpp"
 CORDL_MODULE_EXPORT(RunnableContext)
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Zenject::RunnableContext);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11119))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11122))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11047))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11050))
 // CS Name: ::Zenject::RunnableContext*
 class CORDL_TYPE RunnableContext : public ::Zenject::Context {
 public:
@@ -53,16 +53,16 @@ public:
 
   static inline bool getStaticF__staticAutoRun();
 
-  /// @brief Method get_Initialized addr 0x2ef13ac size 0x8 virtual false final false
+  /// @brief Method get_Initialized addr 0x2d895e4 size 0x8 virtual false final false
   inline bool get_Initialized();
 
-  /// @brief Method set_Initialized addr 0x2ef13b4 size 0xc virtual false final false
+  /// @brief Method set_Initialized addr 0x2d895ec size 0xc virtual false final false
   inline void set_Initialized(bool value);
 
-  /// @brief Method Initialize addr 0x2eee5b4 size 0x9c virtual false final false
+  /// @brief Method Initialize addr 0x2d86834 size 0x94 virtual false final false
   inline void Initialize();
 
-  /// @brief Method Run addr 0x2ef13c0 size 0x70 virtual true final false
+  /// @brief Method Run addr 0x2d895f8 size 0x70 virtual false final false
   inline void Run();
 
   /// @brief Method RunInternal addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -73,10 +73,10 @@ public:
 
   static inline ::Zenject::RunnableContext* New_ctor();
 
-  /// @brief Method .ctor addr 0x2eeef38 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2d871b4 size 0xc virtual false final false
   inline void _ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2ef147c size 0x178 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d896b4 size 0x178 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "RunnableContext", modifiers: "&&", def_value: None }]
@@ -103,6 +103,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::RunnableContext, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::RunnableContext, ____autoRun) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::RunnableContext, ____Initialized_k__BackingField) == 0x41, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::RunnableContext);

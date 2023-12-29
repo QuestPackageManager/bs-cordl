@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::ComponentModel::EditorAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9422))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8259))
 // CS Name: ::System.ComponentModel::EditorAttribute*
 class CORDL_TYPE EditorAttribute : public ::System::Attribute {
 public:
@@ -60,22 +60,22 @@ public:
 
   static inline ::System::ComponentModel::EditorAttribute* New_ctor(::StringW typeName, ::StringW baseTypeName);
 
-  /// @brief Method .ctor addr 0x290ece4 size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x2790cbc size 0x90 virtual false final false
   inline void _ctor(::StringW typeName, ::StringW baseTypeName);
 
-  /// @brief Method get_EditorBaseTypeName addr 0x290ed74 size 0x8 virtual false final false
+  /// @brief Method get_EditorBaseTypeName addr 0x2790d4c size 0x8 virtual false final false
   inline ::StringW get_EditorBaseTypeName();
 
-  /// @brief Method get_EditorTypeName addr 0x290ed7c size 0x8 virtual false final false
+  /// @brief Method get_EditorTypeName addr 0x2790d54 size 0x8 virtual false final false
   inline ::StringW get_EditorTypeName();
 
-  /// @brief Method get_TypeId addr 0x290ed84 size 0x8c virtual true final false
+  /// @brief Method get_TypeId addr 0x2790d5c size 0x8c virtual true final false
   inline ::System::Object* get_TypeId();
 
-  /// @brief Method Equals addr 0x290ee10 size 0xa4 virtual true final false
+  /// @brief Method Equals addr 0x2790de8 size 0xa4 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x290eeb4 size 0x8 virtual true final false
+  /// @brief Method GetHashCode addr 0x2790e8c size 0x8 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "EditorAttribute", modifiers: "&&", def_value: None }]
@@ -105,6 +105,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::EditorAttribute, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::EditorAttribute, ____typeId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::EditorAttribute, ____EditorBaseTypeName_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::EditorAttribute, ____EditorTypeName_k__BackingField) == 0x20, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::EditorAttribute);

@@ -84,57 +84,57 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::MD4Digest* New_ctor();
 
-  /// @brief Method .ctor addr 0x1227c20 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x11b79d0 size 0x6c virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::MD4Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::MD4Digest* t);
 
-  /// @brief Method .ctor addr 0x1227c8c size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x11b7a3c size 0x74 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::MD4Digest* t);
 
-  /// @brief Method CopyIn addr 0x1227d00 size 0x5c virtual false final false
+  /// @brief Method CopyIn addr 0x11b7ab0 size 0x5c virtual false final false
   inline void CopyIn(::Org::BouncyCastle::Crypto::Digests::MD4Digest* t);
 
-  /// @brief Method get_AlgorithmName addr 0x1227d5c size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0x11b7b0c size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetDigestSize addr 0x1227d9c size 0x8 virtual true final false
+  /// @brief Method GetDigestSize addr 0x11b7b4c size 0x8 virtual true final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method ProcessWord addr 0x1227da4 size 0xbc virtual true final false
+  /// @brief Method ProcessWord addr 0x11b7b54 size 0xbc virtual true final false
   inline void ProcessWord(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method ProcessLength addr 0x1227e60 size 0x6c virtual true final false
+  /// @brief Method ProcessLength addr 0x11b7c10 size 0x6c virtual true final false
   inline void ProcessLength(int64_t bitLength);
 
-  /// @brief Method UnpackWord addr 0x1227ecc size 0x80 virtual false final false
+  /// @brief Method UnpackWord addr 0x11b7c7c size 0x80 virtual false final false
   inline void UnpackWord(int32_t word, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method DoFinal addr 0x1227f4c size 0x80 virtual true final false
+  /// @brief Method DoFinal addr 0x11b7cfc size 0x80 virtual true final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0x1227fcc size 0x60 virtual true final false
+  /// @brief Method Reset addr 0x11b7d7c size 0x60 virtual true final false
   inline void Reset();
 
-  /// @brief Method RotateLeft addr 0x122802c size 0xc virtual false final false
+  /// @brief Method RotateLeft addr 0x11b7ddc size 0xc virtual false final false
   inline int32_t RotateLeft(int32_t x, int32_t n);
 
-  /// @brief Method F addr 0x1228038 size 0x10 virtual false final false
+  /// @brief Method F addr 0x11b7de8 size 0x10 virtual false final false
   inline int32_t F(int32_t u, int32_t v, int32_t w);
 
-  /// @brief Method G addr 0x1228048 size 0x14 virtual false final false
+  /// @brief Method G addr 0x11b7df8 size 0x14 virtual false final false
   inline int32_t G(int32_t u, int32_t v, int32_t w);
 
-  /// @brief Method H addr 0x122805c size 0xc virtual false final false
+  /// @brief Method H addr 0x11b7e0c size 0xc virtual false final false
   inline int32_t H(int32_t u, int32_t v, int32_t w);
 
-  /// @brief Method ProcessBlock addr 0x1228068 size 0x648 virtual true final false
+  /// @brief Method ProcessBlock addr 0x11b7e18 size 0x648 virtual true final false
   inline void ProcessBlock();
 
-  /// @brief Method Copy addr 0x12286b0 size 0x60 virtual true final false
+  /// @brief Method Copy addr 0x11b8460 size 0x60 virtual true final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method Reset addr 0x1228710 size 0x84 virtual true final false
+  /// @brief Method Reset addr 0x11b84c0 size 0x84 virtual true final false
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "MD4Digest", modifiers: "&&", def_value: None }]
@@ -212,6 +212,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::MD4Digest, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::MD4Digest, ___H1) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::MD4Digest, ___H2) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::MD4Digest, ___H3) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::MD4Digest, ___H4) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::MD4Digest, ___X) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::MD4Digest, ___xOff) == 0x40, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Digests
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::MD4Digest);

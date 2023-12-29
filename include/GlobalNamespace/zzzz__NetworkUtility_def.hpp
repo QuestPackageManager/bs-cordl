@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NetworkUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12902))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12824))
 // CS Name: ::NetworkUtility*
 class CORDL_TYPE NetworkUtility : public ::System::Object {
 public:
@@ -40,22 +40,22 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF__nameEncryptionIv();
 
-  /// @brief Method Init addr 0xe4d248 size 0xe0 virtual false final false
+  /// @brief Method Init addr 0xdc8268 size 0xe0 virtual false final false
   static inline void Init();
 
-  /// @brief Method GetHashedUserId addr 0xe4d328 size 0xcc virtual false final false
+  /// @brief Method GetHashedUserId addr 0xdc8348 size 0xcc virtual false final false
   static inline ::StringW GetHashedUserId(::StringW userId, ::GlobalNamespace::__AuthenticationToken__Platform platform);
 
-  /// @brief Method EncryptName addr 0xe4d600 size 0x420 virtual false final false
+  /// @brief Method EncryptName addr 0xdc8620 size 0x420 virtual false final false
   static inline ::StringW EncryptName(::StringW text);
 
-  /// @brief Method DecryptName addr 0xe4da20 size 0x424 virtual false final false
+  /// @brief Method DecryptName addr 0xdc8a40 size 0x424 virtual false final false
   static inline ::StringW DecryptName(::StringW text);
 
-  /// @brief Method GenerateId addr 0xe4de44 size 0x98 virtual false final false
+  /// @brief Method GenerateId addr 0xdc8e64 size 0x98 virtual false final false
   static inline ::StringW GenerateId();
 
-  /// @brief Method GetHashBase64 addr 0xe4d3f4 size 0x20c virtual false final false
+  /// @brief Method GetHashBase64 addr 0xdc8414 size 0x20c virtual false final false
   static inline ::StringW GetHashBase64(::StringW input);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkUtility", modifiers: "&&", def_value: None }]

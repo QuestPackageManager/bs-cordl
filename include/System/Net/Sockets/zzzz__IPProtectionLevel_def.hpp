@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Sockets::IPProtectionLevel);
 namespace System::Net::Sockets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9340))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8177))
 // CS Name: ::System.Net.Sockets::IPProtectionLevel
 struct CORDL_TYPE IPProtectionLevel {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::IPProtectionLevel, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::IPProtectionLevel, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net::Sockets
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::IPProtectionLevel, "System.Net.Sockets", "IPProtectionLevel");

@@ -24,8 +24,8 @@ MARK_VAL_T(::UnityEngine::Experimental::Playables::CameraPlayable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Playables {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10440))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10412))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10362))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10334))
 // CS Name: ::UnityEngine.Experimental.Playables::CameraPlayable
 struct CORDL_TYPE CameraPlayable {
 public:
@@ -36,10 +36,10 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::CameraPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Experimental::Playables::CameraPlayable>*();
 
-  /// @brief Method GetHandle addr 0x2cf4834 size 0xc virtual true final true
+  /// @brief Method GetHandle addr 0x2b8c4f4 size 0xc virtual true final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method Equals addr 0x2cf4840 size 0x74 virtual true final true
+  /// @brief Method Equals addr 0x2b8c500 size 0x74 virtual true final true
   inline bool Equals(::UnityEngine::Experimental::Playables::CameraPlayable other);
 
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
@@ -59,6 +59,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Playables::CameraPlayable, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::Playables::CameraPlayable, m_Handle) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Experimental::Playables
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Playables::CameraPlayable, "UnityEngine.Experimental.Playables", "CameraPlayable");

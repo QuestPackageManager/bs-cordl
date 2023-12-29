@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Ed448KeyPairGenerator)
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Crypto {
 class KeyGenerationParameters;
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(901))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::Ed448KeyPairGenerator*
 class CORDL_TYPE Ed448KeyPairGenerator : public ::System::Object {
@@ -44,15 +44,15 @@ public:
 
   constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method Init addr 0xefa280 size 0x1c virtual true final false
+  /// @brief Method Init addr 0xe850ac size 0x1c virtual true final false
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKeyPair addr 0xefa29c size 0xb0 virtual true final false
+  /// @brief Method GenerateKeyPair addr 0xe850c8 size 0xb0 virtual true final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0xefa34c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xe85178 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Ed448KeyPairGenerator", modifiers: "&&", def_value: None }]
@@ -76,6 +76,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator, ___random) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator);

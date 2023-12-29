@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(CrlIdentifier)
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -16,14 +16,14 @@ class Asn1Object;
 namespace Org::BouncyCastle::Asn1 {
 class DerUtcTime;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 namespace System {
 struct DateTime;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -77,35 +77,35 @@ public:
 
   constexpr void __set_crlNumber(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method GetInstance addr 0xe9138c size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xe1c1b8 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe91514 size 0x218 virtual false final false
+  /// @brief Method .ctor addr 0xe1c340 size 0x218 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* crlIssuer, ::System::DateTime crlIssuedTime);
 
-  /// @brief Method .ctor addr 0xe9172c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xe1c558 size 0x8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* crlIssuer, ::System::DateTime crlIssuedTime);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* crlIssuer, ::System::DateTime crlIssuedTime,
                                                                         ::Org::BouncyCastle::Math::BigInteger* crlNumber);
 
-  /// @brief Method .ctor addr 0xe91734 size 0x10c virtual false final false
+  /// @brief Method .ctor addr 0xe1c560 size 0x10c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* crlIssuer, ::System::DateTime crlIssuedTime, ::Org::BouncyCastle::Math::BigInteger* crlNumber);
 
-  /// @brief Method get_CrlIssuer addr 0xe91840 size 0x8 virtual false final false
+  /// @brief Method get_CrlIssuer addr 0xe1c66c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_CrlIssuer();
 
-  /// @brief Method get_CrlIssuedTime addr 0xe91848 size 0x1c virtual false final false
+  /// @brief Method get_CrlIssuedTime addr 0xe1c674 size 0x1c virtual false final false
   inline ::System::DateTime get_CrlIssuedTime();
 
-  /// @brief Method get_CrlNumber addr 0xe91864 size 0x10 virtual false final false
+  /// @brief Method get_CrlNumber addr 0xe1c690 size 0x10 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_CrlNumber();
 
-  /// @brief Method ToAsn1Object addr 0xe91874 size 0x18c virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe1c6a0 size 0x18c virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrlIdentifier", modifiers: "&&", def_value: None }]
@@ -135,6 +135,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Esf::CrlIdentifier, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Esf::CrlIdentifier, ___crlIssuer) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Esf::CrlIdentifier, ___crlIssuedTime) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Esf::CrlIdentifier, ___crlNumber) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Esf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Esf::CrlIdentifier);

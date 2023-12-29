@@ -11,29 +11,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteSpawnInfoNetSerializable)
-namespace GlobalNamespace {
-struct __NoteData__ScoringType;
-}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace GlobalNamespace {
-struct NoteLineLayer;
+struct NoteCutDirection;
+}
+namespace GlobalNamespace {
+struct __NoteData__ScoringType;
 }
 namespace GlobalNamespace {
 struct __NoteData__GameplayType;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace GlobalNamespace {
 struct ColorType;
 }
 namespace GlobalNamespace {
-struct NoteCutDirection;
+struct NoteLineLayer;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -45,9 +45,9 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteSpawnInfoNetSerializable);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(14758)), TypeDefinitionIndex(TypeDefinitionIndex(14755)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(15039)), TypeDefinitionIndex(TypeDefinitionIndex(14752))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15028))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14973)), TypeDefinitionIndex(TypeDefinitionIndex(15178)), TypeDefinitionIndex(TypeDefinitionIndex(14971)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15184)), TypeDefinitionIndex(TypeDefinitionIndex(14970)), TypeDefinitionIndex(TypeDefinitionIndex(14965)), TypeDefinitionIndex(TypeDefinitionIndex(14968))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15173))
 // CS Name: ::NoteSpawnInfoNetSerializable*
 class CORDL_TYPE NoteSpawnInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
@@ -241,10 +241,10 @@ public:
 
   constexpr void __set_cutSfxVolumeMultiplier(float_t value);
 
-  /// @brief Method Obtain addr 0x12a4c54 size 0x64 virtual false final false
+  /// @brief Method Obtain addr 0x1232b58 size 0x64 virtual false final false
   static inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Init addr 0x12a4cb8 size 0x140 virtual false final false
+  /// @brief Method Init addr 0x1232bbc size 0x140 virtual false final false
   inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* Init(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer,
                                                                ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer, ::GlobalNamespace::__NoteData__GameplayType gameplayType,
                                                                ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::ColorType colorType,
@@ -255,13 +255,13 @@ public:
 
   static inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method .ctor addr 0x12a4df8 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x1232cfc size 0x58 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Serialize addr 0x12a4e50 size 0x1a4 virtual true final false
+  /// @brief Method Serialize addr 0x1232d54 size 0x1a4 virtual true final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize addr 0x12a4ff4 size 0x1b4 virtual true final false
+  /// @brief Method Deserialize addr 0x1232ef8 size 0x1b4 virtual true final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteSpawnInfoNetSerializable", modifiers: "&&", def_value: None }]
@@ -345,6 +345,48 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteSpawnInfoNetSerializable, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___time) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___lineIndex) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___noteLineLayer) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___beforeJumpNoteLineLayer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___gameplayType) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___scoringType) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___colorType) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___cutDirection) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___timeToNextColorNote) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___timeToPrevColorNote) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___flipLineIndex) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___flipYSide) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___moveStartPos) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___moveEndPos) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___jumpEndPos) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___jumpGravity) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___moveDuration) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___jumpDuration) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___rotation) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___cutDirectionAngleOffset) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___cutSfxVolumeMultiplier) == 0x7c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteSpawnInfoNetSerializable);

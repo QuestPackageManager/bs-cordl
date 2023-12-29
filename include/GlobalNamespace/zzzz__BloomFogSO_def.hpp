@@ -19,17 +19,14 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomFogSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14453))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14672))
 // CS Name: ::BloomFogSO*
 class CORDL_TYPE BloomFogSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _bloomFogEnabled, offset 0x18, size 0x1
   __declspec(property(get = __get__bloomFogEnabled, put = __set__bloomFogEnabled)) bool _bloomFogEnabled;
-
-  /// @brief Field _legacyAutoExposureEnabled, offset 0x19, size 0x1
-  __declspec(property(get = __get__legacyAutoExposureEnabled, put = __set__legacyAutoExposureEnabled)) bool _legacyAutoExposureEnabled;
 
   /// @brief Field _transition, offset 0x1c, size 0x4
   __declspec(property(get = __get__transition, put = __set__transition)) float_t _transition;
@@ -66,8 +63,6 @@ public:
 
   __declspec(property(get = get_bloomFogEnabled, put = set_bloomFogEnabled)) bool bloomFogEnabled;
 
-  __declspec(property(get = get_legacyAutoExposureEnabled, put = set_legacyAutoExposureEnabled)) bool legacyAutoExposureEnabled;
-
   __declspec(property(get = get_autoExposureLimit)) float_t autoExposureLimit;
 
   __declspec(property(get = get_noteSpawnIntensity)) float_t noteSpawnIntensity;
@@ -77,12 +72,6 @@ public:
   constexpr bool const& __get__bloomFogEnabled() const;
 
   constexpr void __set__bloomFogEnabled(bool value);
-
-  constexpr bool& __get__legacyAutoExposureEnabled();
-
-  constexpr bool const& __get__legacyAutoExposureEnabled() const;
-
-  constexpr void __set__legacyAutoExposureEnabled(bool value);
 
   constexpr float_t& __get__transition();
 
@@ -130,57 +119,51 @@ public:
 
   static inline int32_t getStaticF__customFogHeightFogHeightID();
 
-  /// @brief Method set_transition addr 0x2101ebc size 0x18 virtual false final false
+  /// @brief Method set_transition addr 0x1facf14 size 0x18 virtual false final false
   inline void set_transition(float_t value);
 
-  /// @brief Method get_transition addr 0x21025a8 size 0x8 virtual false final false
+  /// @brief Method get_transition addr 0x1fad5c8 size 0x8 virtual false final false
   inline float_t get_transition();
 
-  /// @brief Method get_defaultForParams addr 0x21025b0 size 0x8 virtual false final false
+  /// @brief Method get_defaultForParams addr 0x1fad5d0 size 0x8 virtual false final false
   inline ::GlobalNamespace::BloomFogEnvironmentParams* get_defaultForParams();
 
-  /// @brief Method set_defaultForParams addr 0x21023d0 size 0x9c virtual false final false
+  /// @brief Method set_defaultForParams addr 0x1fad3f0 size 0x9c virtual false final false
   inline void set_defaultForParams(::GlobalNamespace::BloomFogEnvironmentParams* value);
 
-  /// @brief Method get_transitionFogParams addr 0x21025b8 size 0x8 virtual false final false
+  /// @brief Method get_transitionFogParams addr 0x1fad5d8 size 0x8 virtual false final false
   inline ::GlobalNamespace::BloomFogEnvironmentParams* get_transitionFogParams();
 
-  /// @brief Method set_transitionFogParams addr 0x2102210 size 0x98 virtual false final false
+  /// @brief Method set_transitionFogParams addr 0x1fad230 size 0x98 virtual false final false
   inline void set_transitionFogParams(::GlobalNamespace::BloomFogEnvironmentParams* value);
 
-  /// @brief Method set_bloomFogEnabled addr 0x2101f3c size 0x78 virtual false final false
+  /// @brief Method set_bloomFogEnabled addr 0x1facf7c size 0x78 virtual false final false
   inline void set_bloomFogEnabled(bool value);
 
-  /// @brief Method get_bloomFogEnabled addr 0x21025c0 size 0x8 virtual false final false
+  /// @brief Method get_bloomFogEnabled addr 0x1fad5e0 size 0x8 virtual false final false
   inline bool get_bloomFogEnabled();
 
-  /// @brief Method set_legacyAutoExposureEnabled addr 0x2101fb4 size 0x1c virtual false final false
-  inline void set_legacyAutoExposureEnabled(bool value);
-
-  /// @brief Method get_legacyAutoExposureEnabled addr 0x21025c8 size 0x8 virtual false final false
-  inline bool get_legacyAutoExposureEnabled();
-
-  /// @brief Method get_autoExposureLimit addr 0x21025d0 size 0x8 virtual false final false
+  /// @brief Method get_autoExposureLimit addr 0x1fad5e8 size 0x8 virtual false final false
   inline float_t get_autoExposureLimit();
 
-  /// @brief Method get_noteSpawnIntensity addr 0x21025d8 size 0x8 virtual false final false
+  /// @brief Method get_noteSpawnIntensity addr 0x1fad5f0 size 0x8 virtual false final false
   inline float_t get_noteSpawnIntensity();
 
-  /// @brief Method Setup addr 0x2101ed4 size 0x8 virtual false final false
+  /// @brief Method Setup addr 0x1facf2c size 0x8 virtual false final false
   inline void Setup(::GlobalNamespace::BloomFogEnvironmentParams* defaultFogParams);
 
-  /// @brief Method OnEnable addr 0x21025e0 size 0x1c virtual true final false
+  /// @brief Method OnEnable addr 0x1fad5f8 size 0x1c virtual true final false
   inline void OnEnable();
 
-  /// @brief Method UpdateShaderParams addr 0x2101fd0 size 0x18c virtual false final false
+  /// @brief Method UpdateShaderParams addr 0x1facff4 size 0x198 virtual false final false
   inline void UpdateShaderParams();
 
-  /// @brief Method SetParams addr 0x21025fc size 0x138 virtual false final false
+  /// @brief Method SetParams addr 0x1fad614 size 0xe4 virtual false final false
   inline void SetParams(float_t attenuation, float_t offset, float_t heightFogStartY, float_t heightFogHeight, float_t autoExposureLimit, float_t noteSpawnIntensity);
 
   static inline ::GlobalNamespace::BloomFogSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x2102734 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x1fad6f8 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomFogSO", modifiers: "&&", def_value: None }]
@@ -199,9 +182,6 @@ protected:
 public:
   /// @brief Field _bloomFogEnabled, offset: 0x18, size: 0x1, def value: None
   bool ____bloomFogEnabled;
-
-  /// @brief Field _legacyAutoExposureEnabled, offset: 0x19, size: 0x1, def value: None
-  bool ____legacyAutoExposureEnabled;
 
   /// @brief Field _transition, offset: 0x1c, size: 0x4, def value: None
   float_t ____transition;
@@ -225,6 +205,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomFogSO, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomFogSO, ____bloomFogEnabled) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomFogSO, ____transition) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomFogSO, ____autoExposureLimit) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomFogSO, ____noteSpawnIntensity) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomFogSO, ____defaultFogParams) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomFogSO, ____transitionFogParams) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomFogSO);

@@ -20,16 +20,16 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_Transform);
 // SizeInfo { instance_size: 40, native_size: 56, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9714))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9726))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9641))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9653))
 // CS Name: ::HoudiniEngineUnity::HAPI_Transform
 struct CORDL_TYPE HAPI_Transform {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x218898c size 0xac virtual false final false
+  /// @brief Method .ctor addr 0x2031ff0 size 0xac virtual false final false
   inline void _ctor(bool initializeFields);
 
-  /// @brief Method Init addr 0x21919d0 size 0xe0 virtual false final false
+  /// @brief Method Init addr 0x203b034 size 0xe0 virtual false final false
   inline void Init();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "rotationQuaternion", ty:
@@ -64,6 +64,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_Transform, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_Transform, position) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_Transform, rotationQuaternion) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_Transform, scale) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_Transform, shear) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_Transform, rstOrder) == 0x20, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_Transform, "HoudiniEngineUnity", "HAPI_Transform");

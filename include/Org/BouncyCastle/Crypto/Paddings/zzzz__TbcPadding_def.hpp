@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Paddings::TbcPadding);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Paddings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1010))
 // CS Name: ::Org.BouncyCastle.Crypto.Paddings::TbcPadding*
 class CORDL_TYPE TbcPadding : public ::System::Object {
@@ -34,21 +34,21 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
   constexpr operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*() noexcept;
 
-  /// @brief Method get_PaddingName addr 0xf2f204 size 0x40 virtual true final true
+  /// @brief Method get_PaddingName addr 0xeba018 size 0x40 virtual true final true
   inline ::StringW get_PaddingName();
 
-  /// @brief Method Init addr 0xf2f244 size 0x4 virtual true final false
+  /// @brief Method Init addr 0xeba058 size 0x4 virtual true final false
   inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method AddPadding addr 0xf2f248 size 0x88 virtual true final false
+  /// @brief Method AddPadding addr 0xeba05c size 0x88 virtual true final false
   inline int32_t AddPadding(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method PadCount addr 0xf2f2d0 size 0x5c virtual true final false
+  /// @brief Method PadCount addr 0xeba0e4 size 0x5c virtual true final false
   inline int32_t PadCount(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   static inline ::Org::BouncyCastle::Crypto::Paddings::TbcPadding* New_ctor();
 
-  /// @brief Method .ctor addr 0xf2f32c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xeba140 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TbcPadding", modifiers: "&&", def_value: None }]

@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::ExitGUIException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14626))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14843))
 // CS Name: ::UnityEngine::ExitGUIException*
 class CORDL_TYPE ExitGUIException : public ::System::Exception {
 public:
   // Declarations
   static inline ::UnityEngine::ExitGUIException* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d0e090 size 0x94 virtual false final false
+  /// @brief Method .ctor addr 0x2ba6c80 size 0x94 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExitGUIException", modifiers: "&&", def_value: None }]

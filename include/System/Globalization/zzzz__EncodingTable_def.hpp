@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EncodingTable)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace System::Globalization {
 struct InternalCodePageDataItem;
 }
 namespace System::Globalization {
 class CodePageDataItem;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Globalization {
 struct InternalEncodingDataItem;
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Globalization::EncodingTable);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3715))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3703))
 // CS Name: ::System.Globalization::EncodingTable*
 class CORDL_TYPE EncodingTable : public ::System::Object {
 public:
@@ -73,22 +73,22 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Globalization::CodePageDataItem*>* getStaticF_hashByCodePage();
 
-  /// @brief Method GetNumEncodingItems addr 0x256c824 size 0x64 virtual false final false
+  /// @brief Method GetNumEncodingItems addr 0x24108bc size 0x64 virtual false final false
   static inline int32_t GetNumEncodingItems();
 
-  /// @brief Method ENC addr 0x256c888 size 0x8 virtual false final false
+  /// @brief Method ENC addr 0x2410920 size 0x8 virtual false final false
   static inline ::System::Globalization::InternalEncodingDataItem ENC(::StringW name, uint16_t cp);
 
-  /// @brief Method MapCodePageDataItem addr 0x256c890 size 0x14 virtual false final false
+  /// @brief Method MapCodePageDataItem addr 0x2410928 size 0x14 virtual false final false
   static inline ::System::Globalization::InternalCodePageDataItem MapCodePageDataItem(uint16_t cp, uint16_t fcp, ::StringW names, uint32_t flags);
 
-  /// @brief Method internalGetCodePageFromName addr 0x2571d5c size 0x258 virtual false final false
+  /// @brief Method internalGetCodePageFromName addr 0x2415df4 size 0x254 virtual false final false
   static inline int32_t internalGetCodePageFromName(::StringW name);
 
-  /// @brief Method GetCodePageFromName addr 0x2571fb4 size 0x284 virtual false final false
+  /// @brief Method GetCodePageFromName addr 0x2416048 size 0x284 virtual false final false
   static inline int32_t GetCodePageFromName(::StringW name);
 
-  /// @brief Method GetCodePageDataItem addr 0x2572238 size 0x2e8 virtual false final false
+  /// @brief Method GetCodePageDataItem addr 0x24162cc size 0x2e8 virtual false final false
   static inline ::System::Globalization::CodePageDataItem* GetCodePageDataItem(int32_t codepage);
 
   // Ctor Parameters [CppParam { name: "", ty: "EncodingTable", modifiers: "&&", def_value: None }]

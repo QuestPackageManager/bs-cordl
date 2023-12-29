@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DSAManaged)
+namespace Mono::Math {
+class BigInteger;
+}
 namespace System::Security::Cryptography {
-struct DSAParameters;
+class RandomNumberGenerator;
 }
 namespace Mono::Security::Cryptography {
 class __DSAManaged__KeyGeneratedEventHandler;
 }
 namespace System::Security::Cryptography {
-class RandomNumberGenerator;
-}
-namespace Mono::Math {
-class BigInteger;
+struct DSAParameters;
 }
 namespace System {
 class Object;
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHa
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2285))
 // CS Name: ::DSAManaged::KeyGeneratedEventHandler*
 class CORDL_TYPE __DSAManaged__KeyGeneratedEventHandler : public ::System::MulticastDelegate {
@@ -47,10 +47,10 @@ public:
   // Declarations
   static inline ::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x24283a0 size 0x130 virtual false final false
+  /// @brief Method .ctor addr 0x22ce92c size 0x130 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x24284d0 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x22cea5c size 0x14 virtual true final false
   inline void Invoke(::System::Object* sender, ::System::EventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DSAManaged__KeyGeneratedEventHandler", modifiers: "&&", def_value: None }]
@@ -77,7 +77,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Security::Cryptography::__
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2931))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2930))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2286))
 // CS Name: ::Mono.Security.Cryptography::DSAManaged*
 class CORDL_TYPE DSAManaged : public ::System::Security::Cryptography::DSA {
@@ -210,52 +210,52 @@ public:
 
   static inline ::Mono::Security::Cryptography::DSAManaged* New_ctor(int32_t dwKeySize);
 
-  /// @brief Method .ctor addr 0x2426820 size 0xe0 virtual false final false
+  /// @brief Method .ctor addr 0x22ccdac size 0xe0 virtual false final false
   inline void _ctor(int32_t dwKeySize);
 
-  /// @brief Method Finalize addr 0x2426900 size 0xa0 virtual true final false
+  /// @brief Method Finalize addr 0x22cce8c size 0xa0 virtual true final false
   inline void Finalize();
 
-  /// @brief Method Generate addr 0x24269a0 size 0x4c virtual false final false
+  /// @brief Method Generate addr 0x22ccf2c size 0x4c virtual false final false
   inline void Generate();
 
-  /// @brief Method GenerateKeyPair addr 0x2426f14 size 0xe0 virtual false final false
+  /// @brief Method GenerateKeyPair addr 0x22cd4a0 size 0xe0 virtual false final false
   inline void GenerateKeyPair();
 
-  /// @brief Method add addr 0x2427130 size 0xa4 virtual false final false
+  /// @brief Method add addr 0x22cd6bc size 0xa4 virtual false final false
   inline void add(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t value);
 
-  /// @brief Method GenerateParams addr 0x24269ec size 0x528 virtual false final false
+  /// @brief Method GenerateParams addr 0x22ccf78 size 0x528 virtual false final false
   inline void GenerateParams(int32_t keyLength);
 
-  /// @brief Method get_Random addr 0x24271d4 size 0x20 virtual false final false
+  /// @brief Method get_Random addr 0x22cd760 size 0x20 virtual false final false
   inline ::System::Security::Cryptography::RandomNumberGenerator* get_Random();
 
-  /// @brief Method get_KeySize addr 0x2427508 size 0x2c virtual true final false
+  /// @brief Method get_KeySize addr 0x22cda94 size 0x2c virtual true final false
   inline int32_t get_KeySize();
 
-  /// @brief Method get_PublicOnly addr 0x2427534 size 0x74 virtual false final false
+  /// @brief Method get_PublicOnly addr 0x22cdac0 size 0x74 virtual false final false
   inline bool get_PublicOnly();
 
-  /// @brief Method NormalizeArray addr 0x24275a8 size 0xa4 virtual false final false
+  /// @brief Method NormalizeArray addr 0x22cdb34 size 0xa4 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> NormalizeArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array);
 
-  /// @brief Method ExportParameters addr 0x242764c size 0x278 virtual true final false
+  /// @brief Method ExportParameters addr 0x22cdbd8 size 0x278 virtual true final false
   inline ::System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters);
 
-  /// @brief Method ImportParameters addr 0x2427930 size 0x2a8 virtual true final false
+  /// @brief Method ImportParameters addr 0x22cdebc size 0x2a8 virtual true final false
   inline void ImportParameters(::System::Security::Cryptography::DSAParameters parameters);
 
-  /// @brief Method VerifySignature addr 0x2427bd8 size 0x4c0 virtual true final false
+  /// @brief Method VerifySignature addr 0x22ce164 size 0x4c0 virtual true final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
 
-  /// @brief Method Dispose addr 0x2428098 size 0x1d0 virtual true final false
+  /// @brief Method Dispose addr 0x22ce624 size 0x1d0 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method add_KeyGenerated addr 0x2428268 size 0x9c virtual false final false
+  /// @brief Method add_KeyGenerated addr 0x22ce7f4 size 0x9c virtual false final false
   inline void add_KeyGenerated(::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler* value);
 
-  /// @brief Method remove_KeyGenerated addr 0x2428304 size 0x9c virtual false final false
+  /// @brief Method remove_KeyGenerated addr 0x22ce890 size 0x9c virtual false final false
   inline void remove_KeyGenerated(::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "DSAManaged", modifiers: "&&", def_value: None }]
@@ -315,6 +315,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Cryptography::DSAManaged, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::DSAManaged, ___keypairGenerated) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::DSAManaged, ___m_disposed) == 0x21, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::DSAManaged, ___p) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::DSAManaged, ___q) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::DSAManaged, ___g) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::DSAManaged, ___x) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::DSAManaged, ___y) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::DSAManaged, ___j) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::DSAManaged, ___seed) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::DSAManaged, ___counter) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::DSAManaged, ___j_missing) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::DSAManaged, ___rng) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::DSAManaged, ___KeyGenerated) == 0x70, "Offset mismatch!");
 
 } // namespace Mono::Security::Cryptography
 NEED_NO_BOX(::Mono::Security::Cryptography::DSAManaged);

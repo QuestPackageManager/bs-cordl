@@ -9,10 +9,10 @@ namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class CenterStageScreenController;
+class ILobbyStateDataModel;
 }
 namespace GlobalNamespace {
-class ILobbyStateDataModel;
+class CenterStageScreenController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyCenterStageManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5563))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5656))
 // CS Name: ::MultiplayerLobbyCenterStageManager*
 class CORDL_TYPE MultiplayerLobbyCenterStageManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -75,21 +75,21 @@ public:
 
   constexpr void __set__minOuterCircleRadius(float_t value);
 
-  /// @brief Method Init addr 0x22a3940 size 0x8 virtual false final false
+  /// @brief Method Init addr 0x215e9a8 size 0x8 virtual false final false
   inline void Init(float_t innerCircleRadius, float_t minOuterCircleRadius);
 
-  /// @brief Method ActivateCenterStageManager addr 0x22a3948 size 0x24 virtual false final false
+  /// @brief Method ActivateCenterStageManager addr 0x215e9b0 size 0x24 virtual false final false
   inline void ActivateCenterStageManager();
 
-  /// @brief Method DeactivateCenterStageManager addr 0x22a3a64 size 0x24 virtual false final false
+  /// @brief Method DeactivateCenterStageManager addr 0x215eacc size 0x24 virtual false final false
   inline void DeactivateCenterStageManager();
 
-  /// @brief Method RecalculateCenterPosition addr 0x22a396c size 0xf8 virtual false final false
+  /// @brief Method RecalculateCenterPosition addr 0x215e9d4 size 0xf8 virtual false final false
   inline void RecalculateCenterPosition();
 
   static inline ::GlobalNamespace::MultiplayerLobbyCenterStageManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x22a3a88 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x215eaf0 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyCenterStageManager", modifiers: "&&", def_value: None }]
@@ -125,6 +125,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyCenterStageManager, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyCenterStageManager, ____centerObjectTransform) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyCenterStageManager, ____centerStageScreenController) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyCenterStageManager, ____lobbyStateDataModel) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyCenterStageManager, ____innerCircleRadius) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyCenterStageManager, ____minOuterCircleRadius) == 0x34, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLobbyCenterStageManager);

@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IEventSystemHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13170))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13175))
 // CS Name: ::UnityEngine.EventSystems::IEventSystemHandler*
 class CORDL_TYPE IEventSystemHandler {
 public:

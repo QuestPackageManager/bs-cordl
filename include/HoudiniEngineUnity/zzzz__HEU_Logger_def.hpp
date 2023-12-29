@@ -22,48 +22,48 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_Logger);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9850))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9777))
 // CS Name: ::HoudiniEngineUnity::HEU_Logger*
 class CORDL_TYPE HEU_Logger : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Log addr 0x21cfdb8 size 0x58 virtual false final false
+  /// @brief Method Log addr 0x207841c size 0x58 virtual false final false
   static inline void Log(::StringW text);
 
-  /// @brief Method LogFormat addr 0x21cfe10 size 0x68 virtual false final false
+  /// @brief Method LogFormat addr 0x2078474 size 0x68 virtual false final false
   static inline void LogFormat(::StringW text, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method LogWarning addr 0x21caa30 size 0x60 virtual false final false
+  /// @brief Method LogWarning addr 0x2073094 size 0x60 virtual false final false
   static inline void LogWarning(::StringW text);
 
-  /// @brief Method LogWarningFormat addr 0x21caa90 size 0x74 virtual false final false
+  /// @brief Method LogWarningFormat addr 0x20730f4 size 0x74 virtual false final false
   static inline void LogWarningFormat(::StringW text, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method LogError addr 0x21c9140 size 0x60 virtual false final false
+  /// @brief Method LogError addr 0x20717a4 size 0x60 virtual false final false
   static inline void LogError(::StringW text);
 
-  /// @brief Method LogErrorFormat addr 0x21cb484 size 0x74 virtual false final false
+  /// @brief Method LogErrorFormat addr 0x2073ae8 size 0x74 virtual false final false
   static inline void LogErrorFormat(::StringW text, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method LogError addr 0x21cff1c size 0x8c virtual false final false
+  /// @brief Method LogError addr 0x2078580 size 0x8c virtual false final false
   static inline void LogError(::System::Exception* ex);
 
-  /// @brief Method LogAssertion addr 0x21cffa8 size 0x4 virtual false final false
+  /// @brief Method LogAssertion addr 0x207860c size 0x4 virtual false final false
   static inline void LogAssertion(::StringW text);
 
-  /// @brief Method LogAssertionFormat addr 0x21cffac size 0x4 virtual false final false
+  /// @brief Method LogAssertionFormat addr 0x2078610 size 0x4 virtual false final false
   static inline void LogAssertionFormat(::StringW text, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method LogToCookLogsIfOn addr 0x21cfe78 size 0x40 virtual false final false
+  /// @brief Method LogToCookLogsIfOn addr 0x20784dc size 0x40 virtual false final false
   static inline void LogToCookLogsIfOn(::StringW text);
 
-  /// @brief Method LogToCookLogsIfOnFormat addr 0x21cfeb8 size 0x64 virtual false final false
+  /// @brief Method LogToCookLogsIfOnFormat addr 0x207851c size 0x64 virtual false final false
   static inline void LogToCookLogsIfOnFormat(::StringW text, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::HoudiniEngineUnity::HEU_Logger* New_ctor();
 
-  /// @brief Method .ctor addr 0x21cffb0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2078614 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_Logger", modifiers: "&&", def_value: None }]

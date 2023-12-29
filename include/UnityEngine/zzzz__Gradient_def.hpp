@@ -10,9 +10,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Gradient)
 namespace UnityEngine {
-struct GradientAlphaKey;
-}
-namespace UnityEngine {
 struct GradientColorKey;
 }
 namespace System {
@@ -23,6 +20,9 @@ template <typename T> class IEquatable_1;
 }
 namespace UnityEngine {
 struct GradientMode;
+}
+namespace UnityEngine {
+struct GradientAlphaKey;
 }
 namespace UnityEngine {
 struct Color;
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::UnityEngine::Gradient);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10257))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10184))
 // CS Name: ::UnityEngine::Gradient*
 class CORDL_TYPE Gradient : public ::System::Object {
 public:
@@ -61,55 +61,55 @@ public:
 
   constexpr void __set_m_Ptr(void* value);
 
-  /// @brief Method Init addr 0x2cdd624 size 0x28 virtual false final false
+  /// @brief Method Init addr 0x2b77dcc size 0x28 virtual false final false
   static inline void* Init();
 
-  /// @brief Method Cleanup addr 0x2cdd64c size 0x3c virtual false final false
+  /// @brief Method Cleanup addr 0x2b77df4 size 0x3c virtual false final false
   inline void Cleanup();
 
-  /// @brief Method Internal_Equals addr 0x2cdd688 size 0x44 virtual false final false
+  /// @brief Method Internal_Equals addr 0x2b77e30 size 0x44 virtual false final false
   inline bool Internal_Equals(void* other);
 
   static inline ::UnityEngine::Gradient* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cdd6cc size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2b77e74 size 0x48 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Finalize addr 0x2cdd714 size 0xb8 virtual true final false
+  /// @brief Method Finalize addr 0x2b77ebc size 0xb8 virtual true final false
   inline void Finalize();
 
-  /// @brief Method Evaluate addr 0x2cdd7cc size 0x68 virtual false final false
+  /// @brief Method Evaluate addr 0x2b77f74 size 0x68 virtual false final false
   inline ::UnityEngine::Color Evaluate(float_t time);
 
-  /// @brief Method get_colorKeys addr 0x2cdd888 size 0x3c virtual false final false
+  /// @brief Method get_colorKeys addr 0x2b78030 size 0x3c virtual false final false
   inline ::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> get_colorKeys();
 
-  /// @brief Method set_colorKeys addr 0x2cdd8c4 size 0x44 virtual false final false
+  /// @brief Method set_colorKeys addr 0x2b7806c size 0x44 virtual false final false
   inline void set_colorKeys(::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> value);
 
-  /// @brief Method get_alphaKeys addr 0x2cdd908 size 0x3c virtual false final false
+  /// @brief Method get_alphaKeys addr 0x2b780b0 size 0x3c virtual false final false
   inline ::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> get_alphaKeys();
 
-  /// @brief Method set_alphaKeys addr 0x2cdd944 size 0x44 virtual false final false
+  /// @brief Method set_alphaKeys addr 0x2b780ec size 0x44 virtual false final false
   inline void set_alphaKeys(::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> value);
 
-  /// @brief Method set_mode addr 0x2cdd988 size 0x44 virtual false final false
+  /// @brief Method set_mode addr 0x2b78130 size 0x44 virtual false final false
   inline void set_mode(::UnityEngine::GradientMode value);
 
-  /// @brief Method SetKeys addr 0x2cdd9cc size 0x54 virtual false final false
+  /// @brief Method SetKeys addr 0x2b78174 size 0x54 virtual false final false
   inline void SetKeys(::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> colorKeys,
                       ::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> alphaKeys);
 
-  /// @brief Method Equals addr 0x2cdda20 size 0xc8 virtual true final false
+  /// @brief Method Equals addr 0x2b781c8 size 0xc8 virtual true final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals addr 0x2cddae8 size 0xc8 virtual true final true
+  /// @brief Method Equals addr 0x2b78290 size 0xc8 virtual true final true
   inline bool Equals(::UnityEngine::Gradient* other);
 
-  /// @brief Method GetHashCode addr 0x2cddbb0 size 0xc virtual true final false
+  /// @brief Method GetHashCode addr 0x2b78358 size 0xc virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Evaluate_Injected addr 0x2cdd834 size 0x54 virtual false final false
+  /// @brief Method Evaluate_Injected addr 0x2b77fdc size 0x54 virtual false final false
   inline void Evaluate_Injected(float_t time, ByRef<::UnityEngine::Color> ret);
 
   // Ctor Parameters [CppParam { name: "", ty: "Gradient", modifiers: "&&", def_value: None }]
@@ -133,6 +133,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Gradient, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Gradient, ___m_Ptr) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::Gradient);

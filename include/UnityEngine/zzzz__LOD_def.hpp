@@ -20,12 +20,12 @@ MARK_VAL_T(::UnityEngine::LOD);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10090))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10018))
 // CS Name: ::UnityEngine::LOD
 struct CORDL_TYPE LOD {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2cb70f4 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2b51cdc size 0x10 virtual false final false
   inline void _ctor(float_t screenRelativeTransitionHeight, ::ArrayW<::UnityEngine::Renderer*, ::Array<::UnityEngine::Renderer*>*> renderers);
 
   // Ctor Parameters [CppParam { name: "screenRelativeTransitionHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fadeTransitionWidth", ty: "float_t", modifiers: "",
@@ -52,6 +52,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::LOD, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::LOD, screenRelativeTransitionHeight) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::LOD, fadeTransitionWidth) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::LOD, renderers) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LOD, "UnityEngine", "LOD");

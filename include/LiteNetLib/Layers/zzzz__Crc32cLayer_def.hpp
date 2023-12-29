@@ -20,21 +20,21 @@ MARK_REF_PTR_T(::LiteNetLib::Layers::Crc32cLayer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib::Layers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14242))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14241))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14580))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14579))
 // CS Name: ::LiteNetLib.Layers::Crc32cLayer*
 class CORDL_TYPE Crc32cLayer : public ::LiteNetLib::Layers::PacketLayerBase {
 public:
   // Declarations
   static inline ::LiteNetLib::Layers::Crc32cLayer* New_ctor();
 
-  /// @brief Method .ctor addr 0x220d1ec size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x20ac2b4 size 0x20 virtual false final false
   inline void _ctor();
 
-  /// @brief Method ProcessInboundPacket addr 0x220d234 size 0x194 virtual true final false
+  /// @brief Method ProcessInboundPacket addr 0x20ac2fc size 0x194 virtual true final false
   inline void ProcessInboundPacket(::System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> data, ByRef<int32_t> offset, ByRef<int32_t> length);
 
-  /// @brief Method ProcessOutBoundPacket addr 0x220d3c8 size 0xa0 virtual true final false
+  /// @brief Method ProcessOutBoundPacket addr 0x20ac490 size 0xa0 virtual true final false
   inline void ProcessOutBoundPacket(::System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> data, ByRef<int32_t> offset, ByRef<int32_t> length);
 
   // Ctor Parameters [CppParam { name: "", ty: "Crc32cLayer", modifiers: "&&", def_value: None }]

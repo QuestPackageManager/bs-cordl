@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingToolSceneSetupData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15408))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6056))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13934))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6111))
 // CS Name: ::RecordingToolSceneSetupData*
 class CORDL_TYPE RecordingToolSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
@@ -34,12 +34,12 @@ public:
 
   constexpr void __set__nextScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
 
-  /// @brief Method get_nextScenesTransitionSetupData addr 0x231cd94 size 0x8 virtual false final false
+  /// @brief Method get_nextScenesTransitionSetupData addr 0x21c9124 size 0x8 virtual false final false
   inline ::GlobalNamespace::ScenesTransitionSetupDataSO* get_nextScenesTransitionSetupData();
 
   static inline ::GlobalNamespace::RecordingToolSceneSetupData* New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
-  /// @brief Method .ctor addr 0x231cd9c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x21c912c size 0x28 virtual false final false
   inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolSceneSetupData", modifiers: "&&", def_value: None }]
@@ -63,6 +63,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RecordingToolSceneSetupData, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RecordingToolSceneSetupData, ____nextScenesTransitionSetupData) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RecordingToolSceneSetupData);

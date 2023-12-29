@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CrlParser)
-namespace System::Collections {
-class ICollection;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class CertificateList;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Crl;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1InputStream;
@@ -24,8 +24,8 @@ class Stream;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Crl;
+namespace System::Collections {
+class ICollection;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509CrlParser);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1866))
 // CS Name: ::Org.BouncyCastle.X509::X509CrlParser*
 class CORDL_TYPE X509CrlParser : public ::System::Object {
@@ -88,36 +88,36 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509CrlParser* New_ctor();
 
-  /// @brief Method .ctor addr 0x117e4e4 size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x110e29c size 0x1c virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::X509::X509CrlParser* New_ctor(bool lazyAsn1);
 
-  /// @brief Method .ctor addr 0x117e500 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x110e2b8 size 0x28 virtual false final false
   inline void _ctor(bool lazyAsn1);
 
-  /// @brief Method ReadPemCrl addr 0x117e528 size 0xa8 virtual false final false
+  /// @brief Method ReadPemCrl addr 0x110e2e0 size 0xa8 virtual false final false
   inline ::Org::BouncyCastle::X509::X509Crl* ReadPemCrl(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadDerCrl addr 0x117e5d0 size 0x218 virtual false final false
+  /// @brief Method ReadDerCrl addr 0x110e388 size 0x218 virtual false final false
   inline ::Org::BouncyCastle::X509::X509Crl* ReadDerCrl(::Org::BouncyCastle::Asn1::Asn1InputStream* dIn);
 
-  /// @brief Method GetCrl addr 0x117e7e8 size 0x84 virtual false final false
+  /// @brief Method GetCrl addr 0x110e5a0 size 0x84 virtual false final false
   inline ::Org::BouncyCastle::X509::X509Crl* GetCrl();
 
-  /// @brief Method CreateX509Crl addr 0x117e86c size 0x60 virtual true final false
+  /// @brief Method CreateX509Crl addr 0x110e624 size 0x60 virtual true final false
   inline ::Org::BouncyCastle::X509::X509Crl* CreateX509Crl(::Org::BouncyCastle::Asn1::X509::CertificateList* c);
 
-  /// @brief Method ReadCrl addr 0x117e8cc size 0x78 virtual false final false
+  /// @brief Method ReadCrl addr 0x110e684 size 0x78 virtual false final false
   inline ::Org::BouncyCastle::X509::X509Crl* ReadCrl(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadCrls addr 0x117eca4 size 0x78 virtual false final false
+  /// @brief Method ReadCrls addr 0x110ea5c size 0x78 virtual false final false
   inline ::System::Collections::ICollection* ReadCrls(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadCrl addr 0x117e944 size 0x360 virtual false final false
+  /// @brief Method ReadCrl addr 0x110e6fc size 0x360 virtual false final false
   inline ::Org::BouncyCastle::X509::X509Crl* ReadCrl(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadCrls addr 0x117ed1c size 0x110 virtual false final false
+  /// @brief Method ReadCrls addr 0x110ead4 size 0x110 virtual false final false
   inline ::System::Collections::ICollection* ReadCrls(::System::IO::Stream* inStream);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CrlParser", modifiers: "&&", def_value: None }]
@@ -150,6 +150,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::X509CrlParser, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509CrlParser, ___lazyAsn1) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509CrlParser, ___sCrlData) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509CrlParser, ___sCrlDataObjectCount) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509CrlParser, ___currentCrlStream) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::X509
 NEED_NO_BOX(::Org::BouncyCastle::X509::X509CrlParser);

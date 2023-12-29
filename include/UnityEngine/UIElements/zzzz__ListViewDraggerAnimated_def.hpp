@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListViewDraggerAnimated)
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UIElements {
+class BaseVerticalCollectionView;
 }
 namespace UnityEngine::UIElements {
-struct DragVisualMode;
+class ReusableCollectionItem;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::UIElements {
+struct DragVisualMode;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
 struct __ListViewDragger__DragPosition;
 }
 namespace UnityEngine::UIElements {
-class BaseVerticalCollectionView;
-}
-namespace UnityEngine::UIElements {
 class StartDragArgs;
-}
-namespace UnityEngine::UIElements {
-class ReusableCollectionItem;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ListViewDraggerAnimated);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(6959))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6961))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(7045))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7047))
 // CS Name: ::UnityEngine.UIElements::ListViewDraggerAnimated*
 class CORDL_TYPE ListViewDraggerAnimated : public ::UnityEngine::UIElements::ListViewDragger {
 public:
@@ -114,36 +114,36 @@ public:
 
   constexpr void __set_m_OffsetItem(::UnityEngine::UIElements::ReusableCollectionItem* value);
 
-  /// @brief Method get_isDragging addr 0x2e0bcd4 size 0x10 virtual false final false
+  /// @brief Method get_isDragging addr 0x2ca5924 size 0x10 virtual false final false
   inline bool get_isDragging();
 
-  /// @brief Method get_draggedItem addr 0x2e0bce4 size 0x8 virtual false final false
+  /// @brief Method get_draggedItem addr 0x2ca5934 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::ReusableCollectionItem* get_draggedItem();
 
-  /// @brief Method get_supportsDragEvents addr 0x2e0bcec size 0x8 virtual true final false
+  /// @brief Method get_supportsDragEvents addr 0x2ca593c size 0x8 virtual true final false
   inline bool get_supportsDragEvents();
 
   static inline ::UnityEngine::UIElements::ListViewDraggerAnimated* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* listView);
 
-  /// @brief Method .ctor addr 0x2e0bcf4 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x2ca5944 size 0x4 virtual false final false
   inline void _ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* listView);
 
-  /// @brief Method StartDrag addr 0x2e0bcf8 size 0x6e0 virtual true final false
+  /// @brief Method StartDrag addr 0x2ca5948 size 0x6e0 virtual true final false
   inline ::UnityEngine::UIElements::StartDragArgs* StartDrag(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method UpdateDrag addr 0x2e0c718 size 0x894 virtual true final false
+  /// @brief Method UpdateDrag addr 0x2ca6368 size 0x894 virtual true final false
   inline ::UnityEngine::UIElements::DragVisualMode UpdateDrag(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method Animate addr 0x2e0c3d8 size 0x340 virtual false final false
+  /// @brief Method Animate addr 0x2ca6028 size 0x340 virtual false final false
   inline void Animate(::UnityEngine::UIElements::ReusableCollectionItem* element, float_t paddingTop);
 
-  /// @brief Method OnDrop addr 0x2e0cfac size 0x300 virtual true final false
+  /// @brief Method OnDrop addr 0x2ca6bfc size 0x300 virtual true final false
   inline void OnDrop(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method ClearDragAndDropUI addr 0x2e0d2ac size 0x4 virtual true final false
+  /// @brief Method ClearDragAndDropUI addr 0x2ca6efc size 0x4 virtual true final false
   inline void ClearDragAndDropUI();
 
-  /// @brief Method TryGetDragPosition addr 0x2e0d2b0 size 0x20 virtual true final false
+  /// @brief Method TryGetDragPosition addr 0x2ca6f00 size 0x20 virtual true final false
   inline bool TryGetDragPosition(::UnityEngine::Vector2 pointerPosition, ByRef<::UnityEngine::UIElements::__ListViewDragger__DragPosition> dragPosition);
 
   // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerAnimated", modifiers: "&&", def_value: None }]
@@ -185,6 +185,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ListViewDraggerAnimated, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ListViewDraggerAnimated, ___m_DragStartIndex) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ListViewDraggerAnimated, ___m_CurrentIndex) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ListViewDraggerAnimated, ___m_SelectionHeight) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ListViewDraggerAnimated, ___m_LocalOffsetOnStart) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ListViewDraggerAnimated, ___m_CurrentPointerPosition) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ListViewDraggerAnimated, ___m_Item) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ListViewDraggerAnimated, ___m_OffsetItem) == 0x88, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ListViewDraggerAnimated);

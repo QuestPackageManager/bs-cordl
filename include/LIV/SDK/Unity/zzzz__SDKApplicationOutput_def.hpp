@@ -19,16 +19,16 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKApplicationOutput);
 // SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15101))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15114))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15205))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15218))
 // CS Name: ::LIV.SDK.Unity::SDKApplicationOutput
 struct CORDL_TYPE SDKApplicationOutput {
 public:
   // Declarations
-  /// @brief Method get_empty addr 0x220e4f8 size 0x80 virtual false final false
+  /// @brief Method get_empty addr 0x20ad5c0 size 0x80 virtual false final false
   static inline ::LIV::SDK::Unity::SDKApplicationOutput get_empty();
 
-  /// @brief Method ToString addr 0x2214ff0 size 0x244 virtual true final false
+  /// @brief Method ToString addr 0x20b40b8 size 0x244 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "supportedFeatures", ty: "::LIV::SDK::Unity::FEATURES", modifiers: "", def_value: None }, CppParam { name: "engineName", ty: "::StringW", modifiers: "",
@@ -77,6 +77,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::SDKApplicationOutput, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKApplicationOutput, supportedFeatures) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKApplicationOutput, engineName) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKApplicationOutput, engineVersion) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKApplicationOutput, applicationName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKApplicationOutput, applicationVersion) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKApplicationOutput, xrDeviceName) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKApplicationOutput, graphicsAPI) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKApplicationOutput, sdkID) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKApplicationOutput, sdkVersion) == 0x40, "Offset mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKApplicationOutput, "LIV.SDK.Unity", "SDKApplicationOutput");

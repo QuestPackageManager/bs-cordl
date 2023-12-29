@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RSAPKCS1SHA1SignatureDescriptio
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2967))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2968))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2966))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2967))
 // CS Name: ::System.Security.Cryptography::RSAPKCS1SHA1SignatureDescription*
 class CORDL_TYPE RSAPKCS1SHA1SignatureDescription : public ::System::Security::Cryptography::RSAPKCS1SignatureDescription {
 public:
   // Declarations
   static inline ::System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription* New_ctor();
 
-  /// @brief Method .ctor addr 0x246a104 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x2311390 size 0x68 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RSAPKCS1SHA1SignatureDescription", modifiers: "&&", def_value: None }]

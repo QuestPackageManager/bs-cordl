@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(EnterTextViewController)
+namespace UnityEngine::UI {
+class Button;
+}
 namespace GlobalNamespace {
 class VRTextEntryController;
-}
-namespace TMPro {
-class TextMeshProUGUI;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnterTextViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5625))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5726))
 // CS Name: ::EnterTextViewController*
 class CORDL_TYPE EnterTextViewController : public ::HMUI::ViewController {
 public:
@@ -69,24 +69,24 @@ public:
 
   constexpr void __set_didFinishEvent(::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* value);
 
-  /// @brief Method add_didFinishEvent addr 0x22afbd0 size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent addr 0x216db54 size 0xb0 virtual false final false
   inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x22afc80 size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent addr 0x216dc04 size 0xb0 virtual false final false
   inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* value);
 
-  /// @brief Method Init addr 0x22afd30 size 0x24 virtual false final false
+  /// @brief Method Init addr 0x216dcb4 size 0x24 virtual false final false
   inline void Init(::StringW titleText);
 
-  /// @brief Method DidActivate addr 0x22afd54 size 0xe4 virtual true final false
+  /// @brief Method DidActivate addr 0x216dcd8 size 0xe4 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method OkButtonPressed addr 0x22afe38 size 0x98 virtual false final false
+  /// @brief Method OkButtonPressed addr 0x216ddbc size 0x98 virtual false final false
   inline void OkButtonPressed();
 
   static inline ::GlobalNamespace::EnterTextViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22afed0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x216de54 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnterTextViewController", modifiers: "&&", def_value: None }]
@@ -119,6 +119,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnterTextViewController, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnterTextViewController, ____textEntryController) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnterTextViewController, ____titleText) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnterTextViewController, ____okButton) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnterTextViewController, ___didFinishEvent) == 0x88, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnterTextViewController);

@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PKCS8)
 namespace Mono::Security::Cryptography {
-class __PKCS8__EncryptedPrivateKeyInfo;
-}
-namespace Mono::Security::Cryptography {
 class __PKCS8__PrivateKeyInfo;
 }
-namespace System::Collections {
-class ArrayList;
+namespace Mono::Security::Cryptography {
+class __PKCS8__EncryptedPrivateKeyInfo;
 }
 namespace System::Security::Cryptography {
 class AsymmetricAlgorithm;
 }
 namespace System::Security::Cryptography {
-class DSA;
+struct DSAParameters;
 }
 namespace System::Security::Cryptography {
-struct DSAParameters;
+class DSA;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Security::Cryptography {
 class RSA;
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13795))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14066))
 // CS Name: ::PKCS8::PrivateKeyInfo*
 class CORDL_TYPE __PKCS8__PrivateKeyInfo : public ::System::Object {
 public:
@@ -64,9 +64,9 @@ public:
   /// @brief Field _list, offset 0x28, size 0x8
   __declspec(property(get = __get__list, put = __set__list))::System::Collections::ArrayList* _list;
 
-  __declspec(property(get = get_Algorithm))::StringW Algorithm;
+  __declspec(property(get = get_Algorithm, put = set_Algorithm))::StringW Algorithm;
 
-  __declspec(property(get = get_PrivateKey))::ArrayW<uint8_t, ::Array<uint8_t>*> PrivateKey;
+  __declspec(property(get = get_PrivateKey, put = set_PrivateKey))::ArrayW<uint8_t, ::Array<uint8_t>*> PrivateKey;
 
   constexpr int32_t& __get__version();
 
@@ -94,42 +94,51 @@ public:
 
   static inline ::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x2406d4c size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x22aca44 size 0x70 virtual false final false
   inline void _ctor();
 
   static inline ::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0x2406dbc size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x22acab4 size 0x28 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_Algorithm addr 0x240704c size 0x8 virtual false final false
+  /// @brief Method get_Algorithm addr 0x22acd44 size 0x8 virtual false final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_PrivateKey addr 0x2407054 size 0x74 virtual false final false
+  /// @brief Method set_Algorithm addr 0x22acd4c size 0x8 virtual false final false
+  inline void set_Algorithm(::StringW value);
+
+  /// @brief Method get_PrivateKey addr 0x22acd54 size 0x74 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_PrivateKey();
 
-  /// @brief Method Decode addr 0x2406de4 size 0x268 virtual false final false
+  /// @brief Method set_PrivateKey addr 0x22acdc8 size 0xf4 virtual false final false
+  inline void set_PrivateKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method Decode addr 0x22acadc size 0x268 virtual false final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method RemoveLeadingZero addr 0x24070c8 size 0x9c virtual false final false
+  /// @brief Method GetBytes addr 0x22acebc size 0x494 virtual false final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
+
+  /// @brief Method RemoveLeadingZero addr 0x22ad350 size 0x9c virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> RemoveLeadingZero(::ArrayW<uint8_t, ::Array<uint8_t>*> bigInt);
 
-  /// @brief Method Normalize addr 0x2407164 size 0xa0 virtual false final false
+  /// @brief Method Normalize addr 0x22ad3ec size 0xa0 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Normalize(::ArrayW<uint8_t, ::Array<uint8_t>*> bigInt, int32_t length);
 
-  /// @brief Method DecodeRSA addr 0x2407204 size 0x3d0 virtual false final false
+  /// @brief Method DecodeRSA addr 0x22ad48c size 0x3d0 virtual false final false
   static inline ::System::Security::Cryptography::RSA* DecodeRSA(::ArrayW<uint8_t, ::Array<uint8_t>*> keypair);
 
-  /// @brief Method Encode addr 0x24075d4 size 0x1fc virtual false final false
+  /// @brief Method Encode addr 0x22ad85c size 0x200 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::System::Security::Cryptography::RSA* rsa);
 
-  /// @brief Method DecodeDSA addr 0x24077d0 size 0x12c virtual false final false
+  /// @brief Method DecodeDSA addr 0x22ada5c size 0x12c virtual false final false
   static inline ::System::Security::Cryptography::DSA* DecodeDSA(::ArrayW<uint8_t, ::Array<uint8_t>*> privateKey, ::System::Security::Cryptography::DSAParameters dsaParameters);
 
-  /// @brief Method Encode addr 0x24078fc size 0x4c virtual false final false
+  /// @brief Method Encode addr 0x22adb88 size 0x4c virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::System::Security::Cryptography::DSA* dsa);
 
-  /// @brief Method Encode addr 0x2407948 size 0x128 virtual false final false
+  /// @brief Method Encode addr 0x22adbd4 size 0x128 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::System::Security::Cryptography::AsymmetricAlgorithm* aa);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PKCS8__PrivateKeyInfo", modifiers: "&&", def_value: None }]
@@ -163,13 +172,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo, ____version) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo, ____algorithm) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo, ____key) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo, ____list) == 0x28, "Offset mismatch!");
+
 } // namespace Mono::Security::Cryptography
 // Type: ::EncryptedPrivateKeyInfo
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13796))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14067))
 // CS Name: ::PKCS8::EncryptedPrivateKeyInfo*
 class CORDL_TYPE __PKCS8__EncryptedPrivateKeyInfo : public ::System::Object {
 public:
@@ -186,13 +203,13 @@ public:
   /// @brief Field _data, offset 0x28, size 0x8
   __declspec(property(get = __get__data, put = __set__data))::ArrayW<uint8_t, ::Array<uint8_t>*> _data;
 
-  __declspec(property(get = get_Algorithm))::StringW Algorithm;
+  __declspec(property(get = get_Algorithm, put = set_Algorithm))::StringW Algorithm;
 
-  __declspec(property(get = get_EncryptedData))::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptedData;
+  __declspec(property(get = get_EncryptedData, put = set_EncryptedData))::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptedData;
 
   __declspec(property(get = get_Salt))::ArrayW<uint8_t, ::Array<uint8_t>*> Salt;
 
-  __declspec(property(get = get_IterationCount)) int32_t IterationCount;
+  __declspec(property(get = get_IterationCount, put = set_IterationCount)) int32_t IterationCount;
 
   constexpr ::StringW& __get__algorithm();
 
@@ -220,28 +237,40 @@ public:
 
   static inline ::Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x2407a70 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22adcfc size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0x2407a78 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x22add04 size 0x2c virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_Algorithm addr 0x2407d6c size 0x8 virtual false final false
+  /// @brief Method get_Algorithm addr 0x22adff8 size 0x8 virtual false final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_EncryptedData addr 0x2407d74 size 0x74 virtual false final false
+  /// @brief Method set_Algorithm addr 0x22ae000 size 0x8 virtual false final false
+  inline void set_Algorithm(::StringW value);
+
+  /// @brief Method get_EncryptedData addr 0x22ae008 size 0x74 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_EncryptedData();
 
-  /// @brief Method get_Salt addr 0x2407de8 size 0xb4 virtual false final false
+  /// @brief Method set_EncryptedData addr 0x22ae07c size 0x88 virtual false final false
+  inline void set_EncryptedData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method get_Salt addr 0x22ae104 size 0xb4 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Salt();
 
-  /// @brief Method get_IterationCount addr 0x2407e9c size 0x8 virtual false final false
+  /// @brief Method get_IterationCount addr 0x22ae1b8 size 0x8 virtual false final false
   inline int32_t get_IterationCount();
 
-  /// @brief Method Decode addr 0x2407aa4 size 0x2c8 virtual false final false
+  /// @brief Method set_IterationCount addr 0x22ae1c0 size 0x7c virtual false final false
+  inline void set_IterationCount(int32_t value);
+
+  /// @brief Method Decode addr 0x22add30 size 0x2c8 virtual false final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+
+  /// @brief Method GetBytes addr 0x22ae23c size 0x1e0 virtual false final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PKCS8__EncryptedPrivateKeyInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -274,13 +303,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo, ____algorithm) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo, ____salt) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo, ____iterations) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo, ____data) == 0x28, "Offset mismatch!");
+
 } // namespace Mono::Security::Cryptography
 // Type: Mono.Security.Cryptography::PKCS8
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13797))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14068))
 // CS Name: ::Mono.Security.Cryptography::PKCS8*
 class CORDL_TYPE PKCS8 : public ::System::Object {
 public:

@@ -12,29 +12,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDevice)
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceDescription;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
 }
 namespace System {
-class Type;
+class Object;
 }
-namespace UnityEngine::InputSystem {
-struct __InputDevice__DeviceFlags;
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
 }
-namespace System {
-class Object;
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceDescription;
+namespace UnityEngine::InputSystem {
+struct __InputDevice__DeviceFlags;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::InputDevice);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6238))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6324))
 // CS Name: ::InputDevice::DeviceFlags
 struct CORDL_TYPE __InputDevice__DeviceFlags {
 public:
@@ -141,13 +141,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputDevice__DeviceFlags, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputDevice__DeviceFlags, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: UnityEngine.InputSystem::InputDevice
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 344, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(6238)), TypeDefinitionIndex(TypeDefinitionIndex(6620))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6239))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6324)), TypeDefinitionIndex(TypeDefinitionIndex(6706)), TypeDefinitionIndex(TypeDefinitionIndex(6301))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6325))
 // CS Name: ::UnityEngine.InputSystem::InputDevice*
 class CORDL_TYPE InputDevice : public ::UnityEngine::InputSystem::InputControl {
 public:
@@ -310,168 +312,168 @@ public:
 
   constexpr void __set_m_StateOffsetToControlMap(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method get_description addr 0x2a6afe4 size 0x24 virtual false final false
+  /// @brief Method get_description addr 0x28eb29c size 0x24 virtual false final false
   inline ::UnityEngine::InputSystem::Layouts::InputDeviceDescription get_description();
 
-  /// @brief Method get_enabled addr 0x2a6b008 size 0x1c virtual false final false
+  /// @brief Method get_enabled addr 0x28eb2c0 size 0x1c virtual false final false
   inline bool get_enabled();
 
-  /// @brief Method get_canRunInBackground addr 0x2a6b0cc size 0xb8 virtual false final false
+  /// @brief Method get_canRunInBackground addr 0x28eb384 size 0xb8 virtual false final false
   inline bool get_canRunInBackground();
 
-  /// @brief Method get_added addr 0x2a603bc size 0x10 virtual false final false
+  /// @brief Method get_added addr 0x28e0674 size 0x10 virtual false final false
   inline bool get_added();
 
-  /// @brief Method get_remote addr 0x2a6b184 size 0xc virtual false final false
+  /// @brief Method get_remote addr 0x28eb43c size 0xc virtual false final false
   inline bool get_remote();
 
-  /// @brief Method get_native addr 0x2a6b190 size 0xc virtual false final false
+  /// @brief Method get_native addr 0x28eb448 size 0xc virtual false final false
   inline bool get_native();
 
-  /// @brief Method get_updateBeforeRender addr 0x2a6b19c size 0xc virtual false final false
+  /// @brief Method get_updateBeforeRender addr 0x28eb454 size 0xc virtual false final false
   inline bool get_updateBeforeRender();
 
-  /// @brief Method get_deviceId addr 0x2a6b1a8 size 0x8 virtual false final false
+  /// @brief Method get_deviceId addr 0x28eb460 size 0x8 virtual false final false
   inline int32_t get_deviceId();
 
-  /// @brief Method get_lastUpdateTime addr 0x2a6b1b0 size 0x54 virtual false final false
+  /// @brief Method get_lastUpdateTime addr 0x28eb468 size 0x54 virtual false final false
   inline double_t get_lastUpdateTime();
 
-  /// @brief Method get_wasUpdatedThisFrame addr 0x2a6b204 size 0x58 virtual false final false
+  /// @brief Method get_wasUpdatedThisFrame addr 0x28eb4bc size 0x58 virtual false final false
   inline bool get_wasUpdatedThisFrame();
 
-  /// @brief Method get_allControls addr 0x2a6b25c size 0x60 virtual false final false
+  /// @brief Method get_allControls addr 0x28eb514 size 0x60 virtual false final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControl*> get_allControls();
 
-  /// @brief Method get_valueType addr 0x2a6b2bc size 0x6c virtual true final false
+  /// @brief Method get_valueType addr 0x28eb574 size 0x6c virtual true final false
   inline ::System::Type* get_valueType();
 
-  /// @brief Method get_valueSizeInBytes addr 0x2a6b328 size 0xc virtual true final false
+  /// @brief Method get_valueSizeInBytes addr 0x28eb5e0 size 0xc virtual true final false
   inline int32_t get_valueSizeInBytes();
 
-  /// @brief Method get_all addr 0x2a6b334 size 0x4c virtual false final false
+  /// @brief Method get_all addr 0x28eb5ec size 0x4c virtual false final false
   static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*> get_all();
 
   static inline ::UnityEngine::InputSystem::InputDevice* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a6afb8 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x28eb270 size 0x2c virtual false final false
   inline void _ctor();
 
-  /// @brief Method ReadValueFromBufferAsObject addr 0x2a6b380 size 0x40 virtual true final false
+  /// @brief Method ReadValueFromBufferAsObject addr 0x28eb638 size 0x40 virtual true final false
   inline ::System::Object* ReadValueFromBufferAsObject(::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
 
-  /// @brief Method ReadValueFromStateAsObject addr 0x2a6b3c0 size 0xc8 virtual true final false
+  /// @brief Method ReadValueFromStateAsObject addr 0x28eb678 size 0xc8 virtual true final false
   inline ::System::Object* ReadValueFromStateAsObject(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method ReadValueFromStateIntoBuffer addr 0x2a6b488 size 0x184 virtual true final false
+  /// @brief Method ReadValueFromStateIntoBuffer addr 0x28eb740 size 0x184 virtual true final false
   inline void ReadValueFromStateIntoBuffer(::cordl_internals::Ptr<void> statePtr, ::cordl_internals::Ptr<void> bufferPtr, int32_t bufferSize);
 
-  /// @brief Method CompareValue addr 0x2a6b60c size 0xb4 virtual true final false
+  /// @brief Method CompareValue addr 0x28eb8c4 size 0xb4 virtual true final false
   inline bool CompareValue(::cordl_internals::Ptr<void> firstStatePtr, ::cordl_internals::Ptr<void> secondStatePtr);
 
-  /// @brief Method NotifyConfigurationChanged addr 0x2a6b6c0 size 0x7c virtual false final false
+  /// @brief Method NotifyConfigurationChanged addr 0x28eb978 size 0x7c virtual false final false
   inline void NotifyConfigurationChanged();
 
-  /// @brief Method MakeCurrent addr 0x2a6adb8 size 0x4 virtual true final false
+  /// @brief Method MakeCurrent addr 0x28eb070 size 0x4 virtual true final false
   inline void MakeCurrent();
 
-  /// @brief Method OnAdded addr 0x2a6b73c size 0x4 virtual true final false
+  /// @brief Method OnAdded addr 0x28eb9f4 size 0x4 virtual true final false
   inline void OnAdded();
 
-  /// @brief Method OnRemoved addr 0x2a6b740 size 0x4 virtual true final false
+  /// @brief Method OnRemoved addr 0x28eb9f8 size 0x4 virtual true final false
   inline void OnRemoved();
 
-  /// @brief Method OnConfigurationChanged addr 0x2a6b744 size 0x4 virtual true final false
+  /// @brief Method OnConfigurationChanged addr 0x28eb9fc size 0x4 virtual true final false
   inline void OnConfigurationChanged();
 
   /// @brief Method ExecuteCommand addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename TCommand> inline int64_t ExecuteCommand(ByRef<TCommand> command);
 
-  /// @brief Method ExecuteCommand addr 0x2a6b748 size 0xd8 virtual true final false
+  /// @brief Method ExecuteCommand addr 0x28eba00 size 0xd8 virtual true final false
   inline int64_t ExecuteCommand(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> commandPtr);
 
-  /// @brief Method QueryEnabledStateFromRuntime addr 0x2a6b024 size 0xa8 virtual false final false
+  /// @brief Method QueryEnabledStateFromRuntime addr 0x28eb2dc size 0xa8 virtual false final false
   inline bool QueryEnabledStateFromRuntime();
 
-  /// @brief Method get_disabledInFrontend addr 0x2a6b820 size 0xc virtual false final false
+  /// @brief Method get_disabledInFrontend addr 0x28ebad8 size 0xc virtual false final false
   inline bool get_disabledInFrontend();
 
-  /// @brief Method set_disabledInFrontend addr 0x2a6b82c size 0x1c virtual false final false
+  /// @brief Method set_disabledInFrontend addr 0x28ebae4 size 0x1c virtual false final false
   inline void set_disabledInFrontend(bool value);
 
-  /// @brief Method get_disabledInRuntime addr 0x2a6b848 size 0xc virtual false final false
+  /// @brief Method get_disabledInRuntime addr 0x28ebb00 size 0xc virtual false final false
   inline bool get_disabledInRuntime();
 
-  /// @brief Method set_disabledInRuntime addr 0x2a6b854 size 0x1c virtual false final false
+  /// @brief Method set_disabledInRuntime addr 0x28ebb0c size 0x1c virtual false final false
   inline void set_disabledInRuntime(bool value);
 
-  /// @brief Method get_disabledWhileInBackground addr 0x2a6b870 size 0xc virtual false final false
+  /// @brief Method get_disabledWhileInBackground addr 0x28ebb28 size 0xc virtual false final false
   inline bool get_disabledWhileInBackground();
 
-  /// @brief Method set_disabledWhileInBackground addr 0x2a6b87c size 0x1c virtual false final false
+  /// @brief Method set_disabledWhileInBackground addr 0x28ebb34 size 0x1c virtual false final false
   inline void set_disabledWhileInBackground(bool value);
 
-  /// @brief Method EncodeStateOffsetToControlMapEntry addr 0x2a6b898 size 0xc virtual false final false
+  /// @brief Method EncodeStateOffsetToControlMapEntry addr 0x28ebb50 size 0xc virtual false final false
   static inline uint32_t EncodeStateOffsetToControlMapEntry(uint32_t controlIndex, uint32_t stateOffsetInBits, uint32_t stateSizeInBits);
 
-  /// @brief Method DecodeStateOffsetToControlMapEntry addr 0x2a66da8 size 0x1c virtual false final false
+  /// @brief Method DecodeStateOffsetToControlMapEntry addr 0x28e7060 size 0x1c virtual false final false
   static inline void DecodeStateOffsetToControlMapEntry(uint32_t entry, ByRef<uint32_t> controlIndex, ByRef<uint32_t> stateOffset, ByRef<uint32_t> stateSize);
 
-  /// @brief Method get_hasControlsWithDefaultState addr 0x2a6b8a4 size 0xc virtual false final false
+  /// @brief Method get_hasControlsWithDefaultState addr 0x28ebb5c size 0xc virtual false final false
   inline bool get_hasControlsWithDefaultState();
 
-  /// @brief Method set_hasControlsWithDefaultState addr 0x2a67058 size 0x1c virtual false final false
+  /// @brief Method set_hasControlsWithDefaultState addr 0x28e7310 size 0x1c virtual false final false
   inline void set_hasControlsWithDefaultState(bool value);
 
-  /// @brief Method get_hasDontResetControls addr 0x2a6b8b0 size 0xc virtual false final false
+  /// @brief Method get_hasDontResetControls addr 0x28ebb68 size 0xc virtual false final false
   inline bool get_hasDontResetControls();
 
-  /// @brief Method set_hasDontResetControls addr 0x2a67148 size 0x1c virtual false final false
+  /// @brief Method set_hasDontResetControls addr 0x28e7400 size 0x1c virtual false final false
   inline void set_hasDontResetControls(bool value);
 
-  /// @brief Method get_hasStateCallbacks addr 0x2a6560c size 0xc virtual false final false
+  /// @brief Method get_hasStateCallbacks addr 0x28e58c4 size 0xc virtual false final false
   inline bool get_hasStateCallbacks();
 
-  /// @brief Method set_hasStateCallbacks addr 0x2a6b8bc size 0x1c virtual false final false
+  /// @brief Method set_hasStateCallbacks addr 0x28ebb74 size 0x1c virtual false final false
   inline void set_hasStateCallbacks(bool value);
 
-  /// @brief Method get_hasEventMerger addr 0x2a6b8d8 size 0xc virtual false final false
+  /// @brief Method get_hasEventMerger addr 0x28ebb90 size 0xc virtual false final false
   inline bool get_hasEventMerger();
 
-  /// @brief Method set_hasEventMerger addr 0x2a6b8e4 size 0x1c virtual false final false
+  /// @brief Method set_hasEventMerger addr 0x28ebb9c size 0x1c virtual false final false
   inline void set_hasEventMerger(bool value);
 
-  /// @brief Method get_hasEventPreProcessor addr 0x2a6b900 size 0xc virtual false final false
+  /// @brief Method get_hasEventPreProcessor addr 0x28ebbb8 size 0xc virtual false final false
   inline bool get_hasEventPreProcessor();
 
-  /// @brief Method set_hasEventPreProcessor addr 0x2a6b90c size 0x1c virtual false final false
+  /// @brief Method set_hasEventPreProcessor addr 0x28ebbc4 size 0x1c virtual false final false
   inline void set_hasEventPreProcessor(bool value);
 
-  /// @brief Method AddDeviceUsage addr 0x2a6b928 size 0xb4 virtual false final false
+  /// @brief Method AddDeviceUsage addr 0x28ebbe0 size 0xb4 virtual false final false
   inline void AddDeviceUsage(::UnityEngine::InputSystem::Utilities::InternedString usage);
 
-  /// @brief Method RemoveDeviceUsage addr 0x2a6b9dc size 0xdc virtual false final false
+  /// @brief Method RemoveDeviceUsage addr 0x28ebc94 size 0xdc virtual false final false
   inline void RemoveDeviceUsage(::UnityEngine::InputSystem::Utilities::InternedString usage);
 
-  /// @brief Method ClearDeviceUsages addr 0x2a6bab8 size 0x60 virtual false final false
+  /// @brief Method ClearDeviceUsages addr 0x28ebd70 size 0x60 virtual false final false
   inline void ClearDeviceUsages();
 
-  /// @brief Method RequestSync addr 0x2a603cc size 0x6c virtual false final false
+  /// @brief Method RequestSync addr 0x28e0684 size 0x6c virtual false final false
   inline bool RequestSync();
 
-  /// @brief Method RequestReset addr 0x2a60510 size 0x6c virtual false final false
+  /// @brief Method RequestReset addr 0x28e07c8 size 0x6c virtual false final false
   inline bool RequestReset();
 
-  /// @brief Method ExecuteEnableCommand addr 0x2a6bb18 size 0x6c virtual false final false
+  /// @brief Method ExecuteEnableCommand addr 0x28ebdd0 size 0x6c virtual false final false
   inline bool ExecuteEnableCommand();
 
-  /// @brief Method ExecuteDisableCommand addr 0x2a6bb84 size 0x6c virtual false final false
+  /// @brief Method ExecuteDisableCommand addr 0x28ebe3c size 0x6c virtual false final false
   inline bool ExecuteDisableCommand();
 
-  /// @brief Method NotifyAdded addr 0x2a6bbf0 size 0x10 virtual false final false
+  /// @brief Method NotifyAdded addr 0x28ebea8 size 0x10 virtual false final false
   inline void NotifyAdded();
 
-  /// @brief Method NotifyRemoved addr 0x2a6bc00 size 0x10 virtual false final false
+  /// @brief Method NotifyRemoved addr 0x28ebeb8 size 0x10 virtual false final false
   inline void NotifyRemoved();
 
   /// @brief Method Build addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -550,6 +552,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputDevice, 0x158>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputDevice, ___m_DeviceFlags) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputDevice, ___m_DeviceId) == 0xdc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputDevice, ___m_ParticipantId) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputDevice, ___m_DeviceIndex) == 0xe4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputDevice, ___m_Description) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputDevice, ___m_LastUpdateTimeInternal) == 0x120, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputDevice, ___m_CurrentUpdateStepCount) == 0x128, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputDevice, ___m_AliasesForEachControl) == 0x130, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputDevice, ___m_UsagesForEachControl) == 0x138, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputDevice, ___m_UsageToControl) == 0x140, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputDevice, ___m_ChildrenForEachControl) == 0x148, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputDevice, ___m_StateOffsetToControlMap) == 0x150, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::__InputDevice__DeviceFlags, "UnityEngine.InputSystem", "InputDevice/DeviceFlags");

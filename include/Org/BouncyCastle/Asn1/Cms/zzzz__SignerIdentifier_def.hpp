@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(SignerIdentifier)
-namespace Org::BouncyCastle::Asn1::Cms {
-class IssuerAndSerialNumber;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1::Cms {
+class IssuerAndSerialNumber;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -56,29 +56,29 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* id);
 
-  /// @brief Method .ctor addr 0xe80814 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xe0b640 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* id);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
-  /// @brief Method .ctor addr 0xe8083c size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0xe0b668 size 0x84 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* id);
 
-  /// @brief Method .ctor addr 0xe808c0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xe0b6ec size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* id);
 
-  /// @brief Method GetInstance addr 0xe808e8 size 0x230 virtual false final false
+  /// @brief Method GetInstance addr 0xe0b714 size 0x230 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* GetInstance(::System::Object* o);
 
-  /// @brief Method get_IsTagged addr 0xe80b18 size 0x7c virtual false final false
+  /// @brief Method get_IsTagged addr 0xe0b944 size 0x7c virtual false final false
   inline bool get_IsTagged();
 
-  /// @brief Method get_ID addr 0xe80b94 size 0x88 virtual false final false
+  /// @brief Method get_ID addr 0xe0b9c0 size 0x88 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_ID();
 
-  /// @brief Method ToAsn1Object addr 0xe80c1c size 0x20 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe0ba48 size 0x20 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignerIdentifier", modifiers: "&&", def_value: None }]
@@ -102,6 +102,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::SignerIdentifier, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier, ___id) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier);

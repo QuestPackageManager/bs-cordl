@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Oculus::Platform::MultiplayerErrorOptions);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13337))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13364))
 // CS Name: ::Oculus.Platform::MultiplayerErrorOptions*
 class CORDL_TYPE MultiplayerErrorOptions : public ::System::Object {
 public:
@@ -36,16 +36,16 @@ public:
 
   static inline ::Oculus::Platform::MultiplayerErrorOptions* New_ctor();
 
-  /// @brief Method .ctor addr 0x26f4500 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x25993b4 size 0x64 virtual false final false
   inline void _ctor();
 
-  /// @brief Method SetErrorKey addr 0x26f4564 size 0x68 virtual false final false
+  /// @brief Method SetErrorKey addr 0x2599418 size 0x68 virtual false final false
   inline void SetErrorKey(::Oculus::Platform::MultiplayerErrorErrorKey value);
 
-  /// @brief Method op_Explicit addr 0x26f45cc size 0x58 virtual false final false
+  /// @brief Method op_Explicit addr 0x2599480 size 0x58 virtual false final false
   static inline void* op_Explicit_void_(::Oculus::Platform::MultiplayerErrorOptions* options);
 
-  /// @brief Method Finalize addr 0x26f4624 size 0xd4 virtual true final false
+  /// @brief Method Finalize addr 0x25994d8 size 0xd4 virtual true final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerErrorOptions", modifiers: "&&", def_value: None }]
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MultiplayerErrorOptions, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::MultiplayerErrorOptions, ___Handle) == 0x10, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::MultiplayerErrorOptions);

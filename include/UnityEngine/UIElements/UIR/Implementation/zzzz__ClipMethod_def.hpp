@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::Implementation::ClipMethod);
 namespace UnityEngine::UIElements::UIR::Implementation {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7445))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7531))
 // CS Name: ::UnityEngine.UIElements.UIR.Implementation::ClipMethod
 struct CORDL_TYPE ClipMethod {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::Implementation::ClipMethod, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::ClipMethod, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR::Implementation
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::Implementation::ClipMethod, "UnityEngine.UIElements.UIR.Implementation", "ClipMethod");

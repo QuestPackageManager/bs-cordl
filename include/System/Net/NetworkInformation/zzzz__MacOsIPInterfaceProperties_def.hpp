@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MacOsIPInterfaceProperties)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Net {
-class IPAddress;
-}
 namespace System::Net::NetworkInformation {
 class MacOsNetworkInterface;
 }
 namespace System::Net::NetworkInformation {
 class GatewayIPAddressInformationCollection;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Net {
+class IPAddress;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::MacOsIPInterfaceProperties);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9290))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9278))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8127))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8115))
 // CS Name: ::System.Net.NetworkInformation::MacOsIPInterfaceProperties*
 class CORDL_TYPE MacOsIPInterfaceProperties : public ::System::Net::NetworkInformation::UnixIPInterfaceProperties {
 public:
@@ -40,13 +40,13 @@ public:
   static inline ::System::Net::NetworkInformation::MacOsIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::MacOsNetworkInterface* iface,
                                                                                         ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method .ctor addr 0x29ef2dc size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x2872a58 size 0x70 virtual false final false
   inline void _ctor(::System::Net::NetworkInformation::MacOsNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method ParseRouteInfo_icall addr 0x29ef34c size 0x4 virtual false final false
+  /// @brief Method ParseRouteInfo_icall addr 0x2872ac8 size 0x4 virtual false final false
   static inline bool ParseRouteInfo_icall(::StringW iface, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> gw_addr_list);
 
-  /// @brief Method get_GatewayAddresses addr 0x29ef350 size 0x22c virtual true final false
+  /// @brief Method get_GatewayAddresses addr 0x2872acc size 0x22c virtual true final false
   inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
 
   // Ctor Parameters [CppParam { name: "", ty: "MacOsIPInterfaceProperties", modifiers: "&&", def_value: None }]

@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__AlphabetScrollInfo__Data);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14349))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13831))
 // CS Name: ::AlphabetScrollInfo::Data*
 class CORDL_TYPE __AlphabetScrollInfo__Data : public ::System::Object {
 public:
@@ -48,7 +48,7 @@ public:
 
   static inline ::GlobalNamespace::__AlphabetScrollInfo__Data* New_ctor(char16_t character, int32_t cellIdx);
 
-  /// @brief Method .ctor addr 0x20f0df8 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x1f93918 size 0x30 virtual false final false
   inline void _ctor(char16_t character, int32_t cellIdx);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AlphabetScrollInfo__Data", modifiers: "&&", def_value: None }]
@@ -76,13 +76,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AlphabetScrollInfo__Data, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__AlphabetScrollInfo__Data, ___character) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__AlphabetScrollInfo__Data, ___cellIdx) == 0x14, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::AlphabetScrollInfo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14350))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13832))
 // CS Name: ::AlphabetScrollInfo*
 class CORDL_TYPE AlphabetScrollInfo : public ::System::Object {
 public:
@@ -91,7 +95,7 @@ public:
 
   static inline ::GlobalNamespace::AlphabetScrollInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f0df0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1f93910 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollInfo", modifiers: "&&", def_value: None }]

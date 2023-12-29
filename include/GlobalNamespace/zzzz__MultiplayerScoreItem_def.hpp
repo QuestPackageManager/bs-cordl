@@ -6,17 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerScoreItem)
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace Tweening {
-template <typename T> class Tween_1;
-}
-namespace UnityEngine {
-struct Quaternion;
+class TimeTweeningManager;
 }
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace UnityEngine {
 struct Color;
@@ -25,7 +22,10 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace Tweening {
-class TimeTweeningManager;
+template <typename T> class Tween_1;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerScoreItem);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5247))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5342))
 // CS Name: ::MultiplayerScoreItem*
 class CORDL_TYPE MultiplayerScoreItem : public ::UnityEngine::MonoBehaviour {
 public:
@@ -88,33 +88,33 @@ public:
 
   constexpr void __set__scoreColorTween(::Tweening::Tween_1<::UnityEngine::Color>* value);
 
-  /// @brief Method Awake addr 0x2258b98 size 0x1b0 virtual false final false
+  /// @brief Method Awake addr 0x211512c size 0x168 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x2258d48 size 0x88 virtual false final false
+  /// @brief Method OnDestroy addr 0x2115294 size 0x88 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method SetPositionAndRotation addr 0x2258dd0 size 0x78 virtual false final false
+  /// @brief Method SetPositionAndRotation addr 0x211531c size 0x78 virtual false final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method AnimateColors addr 0x224b894 size 0x114 virtual false final false
+  /// @brief Method AnimateColors addr 0x2115394 size 0x114 virtual false final false
   inline void AnimateColors(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method SetName addr 0x224c0b4 size 0x24 virtual false final false
+  /// @brief Method SetName addr 0x21154a8 size 0x24 virtual false final false
   inline void SetName(::StringW text);
 
-  /// @brief Method SetScore addr 0x224c170 size 0x24 virtual false final false
+  /// @brief Method SetScore addr 0x21154cc size 0x24 virtual false final false
   inline void SetScore(::StringW text);
 
   static inline ::GlobalNamespace::MultiplayerScoreItem* New_ctor();
 
-  /// @brief Method .ctor addr 0x2258e48 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21154f0 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__5_0 addr 0x2258e50 size 0x24 virtual false final false
+  /// @brief Method <Awake>b__5_0 addr 0x21154f8 size 0x24 virtual false final false
   inline void _Awake_b__5_0(::UnityEngine::Color val);
 
-  /// @brief Method <Awake>b__5_1 addr 0x2258e74 size 0x24 virtual false final false
+  /// @brief Method <Awake>b__5_1 addr 0x211551c size 0x24 virtual false final false
   inline void _Awake_b__5_1(::UnityEngine::Color val);
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreItem", modifiers: "&&", def_value: None }]
@@ -150,6 +150,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerScoreItem, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerScoreItem, ____scoreText) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerScoreItem, ____nameText) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerScoreItem, ____tweeningManager) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerScoreItem, ____nameColorTween) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerScoreItem, ____scoreColorTween) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerScoreItem);

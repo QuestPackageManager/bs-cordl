@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SByteConverter)
-namespace System::Globalization {
-class NumberFormatInfo;
-}
 namespace System {
 class Object;
 }
 namespace System {
 class Type;
+}
+namespace System::Globalization {
+class NumberFormatInfo;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -25,29 +25,29 @@ MARK_REF_PTR_T(::System::ComponentModel::SByteConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9407))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9453))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8244))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8290))
 // CS Name: ::System.ComponentModel::SByteConverter*
 class CORDL_TYPE SByteConverter : public ::System::ComponentModel::BaseNumberConverter {
 public:
   // Declarations
   __declspec(property(get = get_TargetType))::System::Type* TargetType;
 
-  /// @brief Method get_TargetType addr 0x2917fe0 size 0x6c virtual true final false
+  /// @brief Method get_TargetType addr 0x2799fb8 size 0x6c virtual true final false
   inline ::System::Type* get_TargetType();
 
-  /// @brief Method FromString addr 0x291804c size 0x94 virtual true final false
+  /// @brief Method FromString addr 0x279a024 size 0x94 virtual true final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
-  /// @brief Method FromString addr 0x29180e0 size 0x74 virtual true final false
+  /// @brief Method FromString addr 0x279a0b8 size 0x74 virtual true final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method ToString addr 0x2918154 size 0xb0 virtual true final false
+  /// @brief Method ToString addr 0x279a12c size 0xb0 virtual true final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
   static inline ::System::ComponentModel::SByteConverter* New_ctor();
 
-  /// @brief Method .ctor addr 0x2918204 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x279a1dc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SByteConverter", modifiers: "&&", def_value: None }]

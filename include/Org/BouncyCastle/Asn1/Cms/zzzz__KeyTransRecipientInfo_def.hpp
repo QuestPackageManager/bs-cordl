@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(KeyTransRecipientInfo)
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class RecipientIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -89,31 +89,31 @@ public:
                                                                                 ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
                                                                                 ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
-  /// @brief Method .ctor addr 0xe79ea0 size 0xf4 virtual false final false
+  /// @brief Method .ctor addr 0xe04ccc size 0xf4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::RecipientIdentifier* rid, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe79f94 size 0x188 virtual false final false
+  /// @brief Method .ctor addr 0xe04dc0 size 0x188 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe7a34c size 0x178 virtual false final false
+  /// @brief Method GetInstance addr 0xe05178 size 0x178 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Version addr 0xe7a4c4 size 0x8 virtual false final false
+  /// @brief Method get_Version addr 0xe052f0 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_RecipientIdentifier addr 0xe7a4cc size 0x8 virtual false final false
+  /// @brief Method get_RecipientIdentifier addr 0xe052f8 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientIdentifier* get_RecipientIdentifier();
 
-  /// @brief Method get_KeyEncryptionAlgorithm addr 0xe7a4d4 size 0x8 virtual false final false
+  /// @brief Method get_KeyEncryptionAlgorithm addr 0xe05300 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyEncryptionAlgorithm();
 
-  /// @brief Method get_EncryptedKey addr 0xe7a4dc size 0x8 virtual false final false
+  /// @brief Method get_EncryptedKey addr 0xe05308 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_EncryptedKey();
 
-  /// @brief Method ToAsn1Object addr 0xe7a4e4 size 0x148 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe05310 size 0x148 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyTransRecipientInfo", modifiers: "&&", def_value: None }]
@@ -146,6 +146,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo, ___version) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo, ___rid) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo, ___keyEncryptionAlgorithm) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo, ___encryptedKey) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo);

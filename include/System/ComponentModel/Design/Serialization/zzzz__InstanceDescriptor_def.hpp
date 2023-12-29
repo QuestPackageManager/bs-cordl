@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::Serialization::InstanceDescript
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel::Design::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9504))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8341))
 // CS Name: ::System.ComponentModel.Design.Serialization::InstanceDescriptor*
 class CORDL_TYPE InstanceDescriptor : public ::System::Object {
 public:
@@ -62,21 +62,21 @@ public:
 
   static inline ::System::ComponentModel::Design::Serialization::InstanceDescriptor* New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments);
 
-  /// @brief Method .ctor addr 0x293ab88 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27bcb60 size 0x8 virtual false final false
   inline void _ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments);
 
   static inline ::System::ComponentModel::Design::Serialization::InstanceDescriptor* New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments, bool isComplete);
 
-  /// @brief Method .ctor addr 0x293ab90 size 0x50c virtual false final false
+  /// @brief Method .ctor addr 0x27bcb68 size 0x50c virtual false final false
   inline void _ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments, bool isComplete);
 
-  /// @brief Method get_Arguments addr 0x293b09c size 0x8 virtual false final false
+  /// @brief Method get_Arguments addr 0x27bd074 size 0x8 virtual false final false
   inline ::System::Collections::ICollection* get_Arguments();
 
-  /// @brief Method get_MemberInfo addr 0x293b0a4 size 0x8 virtual false final false
+  /// @brief Method get_MemberInfo addr 0x27bd07c size 0x8 virtual false final false
   inline ::System::Reflection::MemberInfo* get_MemberInfo();
 
-  /// @brief Method Invoke addr 0x293b0ac size 0x358 virtual false final false
+  /// @brief Method Invoke addr 0x27bd084 size 0x358 virtual false final false
   inline ::System::Object* Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "InstanceDescriptor", modifiers: "&&", def_value: None }]
@@ -106,6 +106,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::Design::Serialization::InstanceDescriptor, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::Design::Serialization::InstanceDescriptor, ____Arguments_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::Design::Serialization::InstanceDescriptor, ____IsComplete_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::Design::Serialization::InstanceDescriptor, ____MemberInfo_k__BackingField) == 0x20, "Offset mismatch!");
 
 } // namespace System::ComponentModel::Design::Serialization
 NEED_NO_BOX(::System::ComponentModel::Design::Serialization::InstanceDescriptor);

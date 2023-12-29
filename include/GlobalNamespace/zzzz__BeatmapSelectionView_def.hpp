@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapSelectionView)
 namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
+class LevelBar;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
-class LevelBar;
+class PreviewDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapSelectionView);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5772))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5863))
 // CS Name: ::BeatmapSelectionView*
 class CORDL_TYPE BeatmapSelectionView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -47,12 +47,12 @@ public:
 
   constexpr void __set__noLevelText(::TMPro::TextMeshProUGUI* value);
 
-  /// @brief Method SetBeatmap addr 0x22df98c size 0xa0 virtual true final false
+  /// @brief Method SetBeatmap addr 0x2199384 size 0xa8 virtual true final false
   inline void SetBeatmap(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel);
 
   static inline ::GlobalNamespace::BeatmapSelectionView* New_ctor();
 
-  /// @brief Method .ctor addr 0x22dfa58 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x219942c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapSelectionView", modifiers: "&&", def_value: None }]
@@ -79,6 +79,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapSelectionView, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapSelectionView, ____levelBar) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapSelectionView, ____noLevelText) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapSelectionView);

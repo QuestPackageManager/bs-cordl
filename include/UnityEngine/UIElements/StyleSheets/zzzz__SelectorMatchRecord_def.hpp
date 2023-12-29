@@ -22,15 +22,15 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord);
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7469))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7555))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::SelectorMatchRecord
 struct CORDL_TYPE SelectorMatchRecord {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2de9884 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x2c834d4 size 0x14 virtual false final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheet* sheet, int32_t styleSheetIndexInStack);
 
-  /// @brief Method Compare addr 0x2de9898 size 0xe8 virtual false final false
+  /// @brief Method Compare addr 0x2c834e8 size 0xe8 virtual false final false
   static inline int32_t Compare(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord a, ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord b);
 
   // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityEngine::UIElements::StyleSheet*", modifiers: "", def_value: None }, CppParam { name: "styleSheetIndexInStack", ty: "int32_t", modifiers: "",
@@ -57,6 +57,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord, sheet) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord, styleSheetIndexInStack) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord, complexSelector) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord, "UnityEngine.UIElements.StyleSheets", "SelectorMatchRecord");

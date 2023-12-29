@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputObjectPreset);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9609))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9536))
 // CS Name: ::HoudiniEngineUnity::HEU_InputObjectPreset*
 class CORDL_TYPE HEU_InputObjectPreset : public ::System::Object {
 public:
@@ -78,7 +78,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_InputObjectPreset* New_ctor();
 
-  /// @brief Method .ctor addr 0x214e7b8 size 0xa8 virtual false final false
+  /// @brief Method .ctor addr 0x1ff6e1c size 0xa8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputObjectPreset", modifiers: "&&", def_value: None }]
@@ -117,6 +117,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputObjectPreset, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputObjectPreset, ____gameObjectName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputObjectPreset, ____isSceneObject) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputObjectPreset, ____useTransformOffset) == 0x19, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputObjectPreset, ____translateOffset) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputObjectPreset, ____rotateOffset) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputObjectPreset, ____scaleOffset) == 0x34, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputObjectPreset);

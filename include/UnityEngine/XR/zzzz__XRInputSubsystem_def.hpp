@@ -8,6 +8,9 @@ CORDL_MODULE_EXPORT(XRInputSubsystem)
 namespace System {
 template <typename T> class Action_1;
 }
+namespace UnityEngine::XR {
+struct TrackingOriginModeFlags;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -21,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::XR::XRInputSubsystem);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15965), inst: 3917 }), TypeDefinitionIndex(TypeDefinitionIndex(15965))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15631))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15857), inst: 3825 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15589))
 // CS Name: ::UnityEngine.XR::XRInputSubsystem*
 class CORDL_TYPE XRInputSubsystem : public ::UnityEngine::IntegratedSubsystem_1<Il2CppObject*> {
 public:
@@ -54,30 +57,33 @@ public:
 
   constexpr void __set_m_DeviceIdsCache(::System::Collections::Generic::List_1<uint64_t>* value);
 
-  /// @brief Method TryRecenter addr 0x2eb3194 size 0x3c virtual false final false
+  /// @brief Method TryRecenter addr 0x2d4a3a8 size 0x3c virtual false final false
   inline bool TryRecenter();
 
-  /// @brief Method add_trackingOriginUpdated addr 0x2eb31d0 size 0xb0 virtual false final false
+  /// @brief Method TrySetTrackingOriginMode addr 0x2d4a3e4 size 0x44 virtual false final false
+  inline bool TrySetTrackingOriginMode(::UnityEngine::XR::TrackingOriginModeFlags origin);
+
+  /// @brief Method add_trackingOriginUpdated addr 0x2d4a428 size 0xb0 virtual false final false
   inline void add_trackingOriginUpdated(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
-  /// @brief Method remove_trackingOriginUpdated addr 0x2eb3280 size 0xb0 virtual false final false
+  /// @brief Method remove_trackingOriginUpdated addr 0x2d4a4d8 size 0xb0 virtual false final false
   inline void remove_trackingOriginUpdated(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
-  /// @brief Method add_boundaryChanged addr 0x2eb3330 size 0xb0 virtual false final false
+  /// @brief Method add_boundaryChanged addr 0x2d4a588 size 0xb0 virtual false final false
   inline void add_boundaryChanged(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
-  /// @brief Method remove_boundaryChanged addr 0x2eb33e0 size 0xb0 virtual false final false
+  /// @brief Method remove_boundaryChanged addr 0x2d4a638 size 0xb0 virtual false final false
   inline void remove_boundaryChanged(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
-  /// @brief Method InvokeTrackingOriginUpdatedEvent addr 0x2eb3490 size 0xc4 virtual false final false
+  /// @brief Method InvokeTrackingOriginUpdatedEvent addr 0x2d4a6e8 size 0xc4 virtual false final false
   static inline void InvokeTrackingOriginUpdatedEvent(void* internalPtr);
 
-  /// @brief Method InvokeBoundaryChangedEvent addr 0x2eb3554 size 0xc4 virtual false final false
+  /// @brief Method InvokeBoundaryChangedEvent addr 0x2d4a7ac size 0xc4 virtual false final false
   static inline void InvokeBoundaryChangedEvent(void* internalPtr);
 
   static inline ::UnityEngine::XR::XRInputSubsystem* New_ctor();
 
-  /// @brief Method .ctor addr 0x2eb3618 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2d4a870 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XRInputSubsystem", modifiers: "&&", def_value: None }]
@@ -107,6 +113,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::XRInputSubsystem, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::XRInputSubsystem, ___trackingOriginUpdated) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::XRInputSubsystem, ___boundaryChanged) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::XRInputSubsystem, ___m_DeviceIdsCache) == 0x30, "Offset mismatch!");
 
 } // namespace UnityEngine::XR
 NEED_NO_BOX(::UnityEngine::XR::XRInputSubsystem);

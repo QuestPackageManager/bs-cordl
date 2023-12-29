@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(VerticalScrollIndicator)
 namespace UnityEngine {
-class AnimationClip;
+class RectTransform;
 }
 namespace UnityEngine {
-class RectTransform;
+class AnimationClip;
 }
 // Forward declare root types
 namespace HMUI {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HMUI::VerticalScrollIndicator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13675))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13792))
 // CS Name: ::HMUI::VerticalScrollIndicator*
 class CORDL_TYPE VerticalScrollIndicator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -87,30 +87,30 @@ public:
 
   constexpr void __set__normalizedPageHeight(float_t value);
 
-  /// @brief Method set_progress addr 0x2144640 size 0x2c virtual false final false
+  /// @brief Method set_progress addr 0x1fecca4 size 0x2c virtual false final false
   inline void set_progress(float_t value);
 
-  /// @brief Method get_progress addr 0x214ac08 size 0x8 virtual false final false
+  /// @brief Method get_progress addr 0x1ff326c size 0x8 virtual false final false
   inline float_t get_progress();
 
-  /// @brief Method set_normalizedPageHeight addr 0x21443d8 size 0x2c virtual false final false
+  /// @brief Method set_normalizedPageHeight addr 0x1feca3c size 0x2c virtual false final false
   inline void set_normalizedPageHeight(float_t value);
 
-  /// @brief Method get_normalizedPageHeight addr 0x214ac10 size 0x8 virtual false final false
+  /// @brief Method get_normalizedPageHeight addr 0x1ff3274 size 0x8 virtual false final false
   inline float_t get_normalizedPageHeight();
 
-  /// @brief Method set_disabled addr 0x214ac18 size 0x40 virtual false final false
+  /// @brief Method set_disabled addr 0x1ff327c size 0x40 virtual false final false
   inline void set_disabled(bool value);
 
-  /// @brief Method OnEnable addr 0x214ac58 size 0x4 virtual false final false
+  /// @brief Method OnEnable addr 0x1ff32bc size 0x4 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method RefreshHandle addr 0x214ab18 size 0xf0 virtual false final false
+  /// @brief Method RefreshHandle addr 0x1ff317c size 0xf0 virtual false final false
   inline void RefreshHandle();
 
   static inline ::HMUI::VerticalScrollIndicator* New_ctor();
 
-  /// @brief Method .ctor addr 0x214ac5c size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x1ff32c0 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VerticalScrollIndicator", modifiers: "&&", def_value: None }]
@@ -149,6 +149,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::VerticalScrollIndicator, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::VerticalScrollIndicator, ____handle) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::VerticalScrollIndicator, ____normalAnimationClip) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::VerticalScrollIndicator, ____disabledAnimationClip) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::VerticalScrollIndicator, ____padding) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::VerticalScrollIndicator, ____progress) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::VerticalScrollIndicator, ____normalizedPageHeight) == 0x38, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::VerticalScrollIndicator);

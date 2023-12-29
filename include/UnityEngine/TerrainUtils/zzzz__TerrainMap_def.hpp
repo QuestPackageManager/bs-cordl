@@ -13,20 +13,20 @@ struct TerrainTileCoord;
 namespace UnityEngine {
 struct Vector2;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::TerrainUtils {
-struct TerrainMapStatusCode;
-}
 namespace UnityEngine {
 class Terrain;
+}
+namespace System {
+template <typename T> class Predicate_1;
 }
 namespace UnityEngine::TerrainUtils {
 class __TerrainMap____c__DisplayClass3_0;
 }
-namespace System {
-template <typename T> class Predicate_1;
+namespace UnityEngine::TerrainUtils {
+struct TerrainMapStatusCode;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace UnityEngine::TerrainUtils {
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::UnityEngine::TerrainUtils::__TerrainMap____c__DisplayClass3_0);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15478))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15462))
 // CS Name: ::TerrainMap::<>c__DisplayClass3_0*
 class CORDL_TYPE __TerrainMap____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -59,10 +59,10 @@ public:
 
   static inline ::UnityEngine::TerrainUtils::__TerrainMap____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d1ebac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2bb77fc size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <CreateFromPlacement>b__0 addr 0x2d1faf4 size 0x58 virtual false final false
+  /// @brief Method <CreateFromPlacement>b__0 addr 0x2bb8744 size 0x58 virtual false final false
   inline bool _CreateFromPlacement_b__0(::UnityEngine::Terrain* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TerrainMap____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
@@ -87,13 +87,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TerrainUtils::__TerrainMap____c__DisplayClass3_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::TerrainUtils::__TerrainMap____c__DisplayClass3_0, ___groupID) == 0x10, "Offset mismatch!");
+
 } // namespace UnityEngine::TerrainUtils
 // Type: UnityEngine.TerrainUtils::TerrainMap
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15476)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15479))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(15460))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15463))
 // CS Name: ::UnityEngine.TerrainUtils::TerrainMap*
 class CORDL_TYPE TerrainMap : public ::System::Object {
 public:
@@ -131,34 +133,34 @@ public:
 
   constexpr void __set_m_terrainTiles(::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityEngine::Terrain*>* value);
 
-  /// @brief Method GetTerrain addr 0x2d1e884 size 0x78 virtual false final false
+  /// @brief Method GetTerrain addr 0x2bb74d4 size 0x78 virtual false final false
   inline ::UnityEngine::Terrain* GetTerrain(int32_t tileX, int32_t tileZ);
 
-  /// @brief Method CreateFromPlacement addr 0x2d1e8fc size 0x2b0 virtual false final false
+  /// @brief Method CreateFromPlacement addr 0x2bb754c size 0x2b0 virtual false final false
   static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Terrain* originTerrain, ::System::Predicate_1<::UnityEngine::Terrain*>* filter, bool fullValidation);
 
-  /// @brief Method CreateFromPlacement addr 0x2d1ebb4 size 0x3e0 virtual false final false
+  /// @brief Method CreateFromPlacement addr 0x2bb7804 size 0x3e0 virtual false final false
   static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Vector2 gridOrigin, ::UnityEngine::Vector2 gridSize, ::System::Predicate_1<::UnityEngine::Terrain*>* filter,
                                                                              bool fullValidation);
 
-  /// @brief Method get_terrainTiles addr 0x2d1f290 size 0x8 virtual false final false
+  /// @brief Method get_terrainTiles addr 0x2bb7ee0 size 0x8 virtual false final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityEngine::Terrain*>* get_terrainTiles();
 
   static inline ::UnityEngine::TerrainUtils::TerrainMap* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d1ef94 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x2bb7be4 size 0x84 virtual false final false
   inline void _ctor();
 
-  /// @brief Method AddTerrainInternal addr 0x2d1f298 size 0x128 virtual false final false
+  /// @brief Method AddTerrainInternal addr 0x2bb7ee8 size 0x128 virtual false final false
   inline void AddTerrainInternal(int32_t x, int32_t z, ::UnityEngine::Terrain* terrain);
 
-  /// @brief Method TryToAddTerrain addr 0x2d1f018 size 0x114 virtual false final false
+  /// @brief Method TryToAddTerrain addr 0x2bb7c68 size 0x114 virtual false final false
   inline bool TryToAddTerrain(int32_t tileX, int32_t tileZ, ::UnityEngine::Terrain* terrain);
 
-  /// @brief Method ValidateTerrain addr 0x2d1f3c0 size 0x734 virtual false final false
+  /// @brief Method ValidateTerrain addr 0x2bb8010 size 0x734 virtual false final false
   inline void ValidateTerrain(int32_t tileX, int32_t tileZ);
 
-  /// @brief Method Validate addr 0x2d1f12c size 0x164 virtual false final false
+  /// @brief Method Validate addr 0x2bb7d7c size 0x164 virtual false final false
   inline ::UnityEngine::TerrainUtils::TerrainMapStatusCode Validate();
 
   // Ctor Parameters [CppParam { name: "", ty: "TerrainMap", modifiers: "&&", def_value: None }]
@@ -188,6 +190,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TerrainUtils::TerrainMap, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TerrainUtils::TerrainMap, ___m_patchSize) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TerrainUtils::TerrainMap, ___m_errorCode) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TerrainUtils::TerrainMap, ___m_terrainTiles) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::TerrainUtils
 NEED_NO_BOX(::UnityEngine::TerrainUtils::TerrainMap);

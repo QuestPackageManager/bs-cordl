@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerOverEvent);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 234, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7198)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7198), inst: 4839 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7207))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7284), inst: 4741 }), TypeDefinitionIndex(TypeDefinitionIndex(7284))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7293))
 // CS Name: ::UnityEngine.UIElements::PointerOverEvent*
 class CORDL_TYPE PointerOverEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerOverEvent*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::PointerOverEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e50868 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2ce84b8 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerOverEvent", modifiers: "&&", def_value: None }]

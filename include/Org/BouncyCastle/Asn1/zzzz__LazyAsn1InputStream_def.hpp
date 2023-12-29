@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LazyAsn1InputStream)
-namespace Org::BouncyCastle::Asn1 {
-class DerSet;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DefiniteLengthInputStream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerSequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DefiniteLengthInputStream;
+class DerSet;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -36,18 +36,18 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::LazyAsn1InputStream* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method .ctor addr 0x11c6394 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x1155144 size 0x4 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   static inline ::Org::BouncyCastle::Asn1::LazyAsn1InputStream* New_ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method .ctor addr 0x11c6398 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x1155148 size 0x30 virtual false final false
   inline void _ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method CreateDerSequence addr 0x11c63c8 size 0x74 virtual true final false
+  /// @brief Method CreateDerSequence addr 0x1155178 size 0x74 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerSequence* CreateDerSequence(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
 
-  /// @brief Method CreateDerSet addr 0x11c64a4 size 0x74 virtual true final false
+  /// @brief Method CreateDerSet addr 0x1155254 size 0x74 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerSet* CreateDerSet(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
 
   // Ctor Parameters [CppParam { name: "", ty: "LazyAsn1InputStream", modifiers: "&&", def_value: None }]

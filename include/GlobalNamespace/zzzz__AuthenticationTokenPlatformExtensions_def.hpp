@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AuthenticationTokenPlatformExtensions)
 namespace GlobalNamespace {
-struct __UserInfo__Platform;
+struct __AuthenticationToken__Platform;
 }
 namespace GlobalNamespace {
-struct __AuthenticationToken__Platform;
+struct __UserInfo__Platform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,16 +20,16 @@ MARK_REF_PTR_T(::GlobalNamespace::AuthenticationTokenPlatformExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14933))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4533))
 // CS Name: ::AuthenticationTokenPlatformExtensions*
 class CORDL_TYPE AuthenticationTokenPlatformExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToAuthenticationTokenPlatform addr 0x2635414 size 0x28 virtual false final false
+  /// @brief Method ToAuthenticationTokenPlatform addr 0x221550c size 0x28 virtual false final false
   static inline ::GlobalNamespace::__AuthenticationToken__Platform ToAuthenticationTokenPlatform(::GlobalNamespace::__UserInfo__Platform platform);
 
-  /// @brief Method ToUserInfoPlatform addr 0x263543c size 0x2c virtual false final false
+  /// @brief Method ToUserInfoPlatform addr 0x2215534 size 0x2c virtual false final false
   static inline ::GlobalNamespace::__UserInfo__Platform ToUserInfoPlatform(::GlobalNamespace::__AuthenticationToken__Platform platform);
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthenticationTokenPlatformExtensions", modifiers: "&&", def_value: None }]

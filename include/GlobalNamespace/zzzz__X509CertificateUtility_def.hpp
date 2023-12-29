@@ -8,40 +8,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CertificateUtility)
 namespace GlobalNamespace {
+class __X509CertificateUtility____c;
+}
+namespace GlobalNamespace {
+class ICertificateEncryptionProvider;
+}
+namespace GlobalNamespace {
 class __X509CertificateUtility__PasswordFinder;
 }
 namespace GlobalNamespace {
 class __X509CertificateUtility__RSACertificateEncryptionProvider;
 }
 namespace GlobalNamespace {
-class __X509CertificateUtility___GetCertificateList_d__9;
-}
-namespace GlobalNamespace {
-class __X509CertificateUtility____c;
-}
-namespace GlobalNamespace {
-class ICertificateEncryptionProvider;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+class __X509CertificateUtility___GetCertificateList_d__8;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace Org::BouncyCastle::OpenSsl {
 class IPasswordFinder;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaPrivateCrtKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaPrivateCrtKeyParameters;
 }
 namespace Org::BouncyCastle::X509 {
 class X509CertificateParser;
@@ -50,16 +47,19 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
 class IEnumerable;
 }
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatus;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -72,7 +72,7 @@ namespace GlobalNamespace {
 class __X509CertificateUtility__RSACertificateEncryptionProvider;
 }
 namespace GlobalNamespace {
-class __X509CertificateUtility___GetCertificateList_d__9;
+class __X509CertificateUtility___GetCertificateList_d__8;
 }
 namespace GlobalNamespace {
 class __X509CertificateUtility____c;
@@ -81,14 +81,14 @@ class __X509CertificateUtility____c;
 MARK_REF_PTR_T(::GlobalNamespace::X509CertificateUtility);
 MARK_REF_PTR_T(::GlobalNamespace::__X509CertificateUtility__PasswordFinder);
 MARK_REF_PTR_T(::GlobalNamespace::__X509CertificateUtility__RSACertificateEncryptionProvider);
-MARK_REF_PTR_T(::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9);
+MARK_REF_PTR_T(::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__8);
 MARK_REF_PTR_T(::GlobalNamespace::__X509CertificateUtility____c);
 // Type: ::PasswordFinder
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12994))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12915))
 // CS Name: ::X509CertificateUtility::PasswordFinder*
 class CORDL_TYPE __X509CertificateUtility__PasswordFinder : public ::System::Object {
 public:
@@ -107,15 +107,15 @@ public:
 
   static inline ::GlobalNamespace::__X509CertificateUtility__PasswordFinder* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method .ctor addr 0xe5d304 size 0xb8 virtual false final false
+  /// @brief Method .ctor addr 0xdd7348 size 0xb8 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
   static inline ::GlobalNamespace::__X509CertificateUtility__PasswordFinder* New_ctor(::StringW password);
 
-  /// @brief Method .ctor addr 0xe5d3bc size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0xdd5f88 size 0x3c virtual false final false
   inline void _ctor(::StringW password);
 
-  /// @brief Method GetPassword addr 0xe5d3f8 size 0x8 virtual true final true
+  /// @brief Method GetPassword addr 0xdd7400 size 0x8 virtual true final true
   inline ::ArrayW<char16_t, ::Array<char16_t>*> GetPassword();
 
   // Ctor Parameters [CppParam { name: "", ty: "__X509CertificateUtility__PasswordFinder", modifiers: "&&", def_value: None }]
@@ -140,13 +140,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__X509CertificateUtility__PasswordFinder, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__X509CertificateUtility__PasswordFinder, ____password) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::RSACertificateEncryptionProvider
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12995))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12916))
 // CS Name: ::X509CertificateUtility::RSACertificateEncryptionProvider*
 class CORDL_TYPE __X509CertificateUtility__RSACertificateEncryptionProvider : public ::System::Object {
 public:
@@ -168,13 +170,13 @@ public:
 
   static inline ::GlobalNamespace::__X509CertificateUtility__RSACertificateEncryptionProvider* New_ctor(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privateKey);
 
-  /// @brief Method .ctor addr 0xe5d400 size 0x10c virtual false final false
+  /// @brief Method .ctor addr 0xdd61c8 size 0x10c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privateKey);
 
-  /// @brief Method Dispose addr 0xe5d50c size 0x4 virtual true final true
+  /// @brief Method Dispose addr 0xdd7408 size 0x4 virtual true final true
   inline void Dispose();
 
-  /// @brief Method SignData addr 0xe5d510 size 0x194 virtual true final true
+  /// @brief Method SignData addr 0xdd740c size 0x194 virtual true final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SignData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "__X509CertificateUtility__RSACertificateEncryptionProvider", modifiers: "&&", def_value: None }]
@@ -199,15 +201,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__X509CertificateUtility__RSACertificateEncryptionProvider, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__X509CertificateUtility__RSACertificateEncryptionProvider, ____signer) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
-// Type: ::<GetCertificateList>d__9
+// Type: ::<GetCertificateList>d__8
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12996))
-// CS Name: ::X509CertificateUtility::<GetCertificateList>d__9*
-class CORDL_TYPE __X509CertificateUtility___GetCertificateList_d__9 : public ::System::Object {
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12917))
+// CS Name: ::X509CertificateUtility::<GetCertificateList>d__8*
+class CORDL_TYPE __X509CertificateUtility___GetCertificateList_d__8 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
@@ -311,48 +315,48 @@ public:
 
   constexpr void __set___7__wrap2(::System::Collections::IEnumerator* value);
 
-  static inline ::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0xe5d6a4 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0xdd62d4 size 0x34 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0xe5d6d8 size 0x1c virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0xdd75a0 size 0x1c virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0xe5d6f4 size 0x540 virtual true final true
+  /// @brief Method MoveNext addr 0xdd75bc size 0x540 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1 addr 0xe5dc34 size 0xbc virtual false final false
+  /// @brief Method <>m__Finally1 addr 0xdd7afc size 0xbc virtual false final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Security.Cryptography.X509Certificates.X509Certificate2>.get_Current addr 0xe5dcf0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Security.Cryptography.X509Certificates.X509Certificate2>.get_Current addr 0xdd7bb8 size 0x8 virtual true final true
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* System_Collections_Generic_IEnumerator_System_Security_Cryptography_X509Certificates_X509Certificate2__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0xe5dcf8 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0xdd7bc0 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0xe5dd38 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0xdd7c00 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Security.Cryptography.X509Certificates.X509Certificate2>.GetEnumerator addr 0xe5dd40 size 0xac virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Security.Cryptography.X509Certificates.X509Certificate2>.GetEnumerator addr 0xdd7c08 size 0xac virtual true final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*
   System_Collections_Generic_IEnumerable_System_Security_Cryptography_X509Certificates_X509Certificate2__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0xe5ddec size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0xdd7cb4 size 0x4 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__X509CertificateUtility___GetCertificateList_d__9", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__X509CertificateUtility___GetCertificateList_d__8", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __X509CertificateUtility___GetCertificateList_d__9(__X509CertificateUtility___GetCertificateList_d__9&&) = delete;
+  __X509CertificateUtility___GetCertificateList_d__8(__X509CertificateUtility___GetCertificateList_d__8&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__X509CertificateUtility___GetCertificateList_d__9", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__X509CertificateUtility___GetCertificateList_d__8", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __X509CertificateUtility___GetCertificateList_d__9(__X509CertificateUtility___GetCertificateList_d__9 const&) = delete;
+  __X509CertificateUtility___GetCertificateList_d__8(__X509CertificateUtility___GetCertificateList_d__8 const&) = delete;
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __X509CertificateUtility___GetCertificateList_d__9();
+  constexpr __X509CertificateUtility___GetCertificateList_d__8();
 
 public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
@@ -385,15 +389,33 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__8, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__8, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__8, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__8, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__8, ___certificatePem) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__8, _____3__certificatePem) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__8, ___certificateChainPem) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__8, _____3__certificateChainPem) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__8, ____x509CertificateParser_5__2) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__8, _____7__wrap2) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12997))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12918))
 // CS Name: ::X509CertificateUtility::<>c*
 class CORDL_TYPE __X509CertificateUtility____c : public ::System::Object {
 public:
@@ -401,34 +423,34 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__X509CertificateUtility____c* __9;
 
+  /// @brief Field <>9__10_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0))::System::Func_2<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::StringW>* __9__10_0;
+
   /// @brief Field <>9__11_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__11_0, put = setStaticF___9__11_0))::System::Func_2<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::StringW>* __9__11_0;
-
-  /// @brief Field <>9__12_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0))::System::Func_2<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::StringW>* __9__12_0;
 
   static inline void setStaticF___9(::GlobalNamespace::__X509CertificateUtility____c* value);
 
   static inline ::GlobalNamespace::__X509CertificateUtility____c* getStaticF___9();
 
+  static inline void setStaticF___9__10_0(::System::Func_2<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::StringW>* value);
+
+  static inline ::System::Func_2<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::StringW>* getStaticF___9__10_0();
+
   static inline void setStaticF___9__11_0(::System::Func_2<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::StringW>* value);
 
   static inline ::System::Func_2<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::StringW>* getStaticF___9__11_0();
 
-  static inline void setStaticF___9__12_0(::System::Func_2<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::StringW>* value);
-
-  static inline ::System::Func_2<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::StringW>* getStaticF___9__12_0();
-
   static inline ::GlobalNamespace::__X509CertificateUtility____c* New_ctor();
 
-  /// @brief Method .ctor addr 0xe5de54 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdd7d1c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <ValidateCertificateChainUnity>b__11_0 addr 0xe5de5c size 0x64 virtual false final false
-  inline ::StringW _ValidateCertificateChainUnity_b__11_0(::System::Security::Cryptography::X509Certificates::X509ChainStatus s);
+  /// @brief Method <ValidateCertificateChainUnity>b__10_0 addr 0xdd7d24 size 0x64 virtual false final false
+  inline ::StringW _ValidateCertificateChainUnity_b__10_0(::System::Security::Cryptography::X509Certificates::X509ChainStatus s);
 
-  /// @brief Method <ValidateCertificateChainDotNet>b__12_0 addr 0xe5dec0 size 0x64 virtual false final false
-  inline ::StringW _ValidateCertificateChainDotNet_b__12_0(::System::Security::Cryptography::X509Certificates::X509ChainStatus s);
+  /// @brief Method <ValidateCertificateChainDotNet>b__11_0 addr 0xdd7d88 size 0x64 virtual false final false
+  inline ::StringW _ValidateCertificateChainDotNet_b__11_0(::System::Security::Cryptography::X509Certificates::X509ChainStatus s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__X509CertificateUtility____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -454,15 +476,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__X509Certifica
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12998))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12919))
 // CS Name: ::X509CertificateUtility*
 class CORDL_TYPE X509CertificateUtility : public ::System::Object {
 public:
   // Declarations
   using __c = ::GlobalNamespace::__X509CertificateUtility____c;
 
-  using _GetCertificateList_d__9 = ::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9;
+  using _GetCertificateList_d__8 = ::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__8;
 
   using RSACertificateEncryptionProvider = ::GlobalNamespace::__X509CertificateUtility__RSACertificateEncryptionProvider;
 
@@ -493,32 +515,29 @@ public:
   static inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509Certificate2*, ::Array<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*>
   getStaticF__rootCertificates();
 
-  /// @brief Method GetRootCertificates addr 0xe5ae64 size 0xc4 virtual false final false
+  /// @brief Method GetRootCertificates addr 0xdd5d9c size 0xc4 virtual false final false
   static inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509Certificate2*, ::Array<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*> GetRootCertificates();
 
-  /// @brief Method GetRootCertificatesRaw addr 0xe5afa0 size 0x78 virtual false final false
-  static inline ::StringW GetRootCertificatesRaw();
-
-  /// @brief Method GetCertificateEncryptionProvider addr 0xe5b018 size 0xa4 virtual false final false
+  /// @brief Method GetCertificateEncryptionProvider addr 0xdd5ee8 size 0xa0 virtual false final false
   static inline ::GlobalNamespace::ICertificateEncryptionProvider* GetCertificateEncryptionProvider(::StringW privateKeyPem, ::StringW password);
 
-  /// @brief Method GetRSACertificateEncryptionProvider addr 0xe5b0bc size 0x208 virtual false final false
+  /// @brief Method GetRSACertificateEncryptionProvider addr 0xdd5fc4 size 0x204 virtual false final false
   static inline ::GlobalNamespace::__X509CertificateUtility__RSACertificateEncryptionProvider*
   GetRSACertificateEncryptionProvider(::StringW privateKeyPem, ::GlobalNamespace::__X509CertificateUtility__PasswordFinder* passwordFinder);
 
-  /// @brief Method GetCertificateList addr 0xe5af28 size 0x78 virtual false final false
+  /// @brief Method GetCertificateList addr 0xdd5e60 size 0x88 virtual false final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* GetCertificateList(::StringW certificatePem,
                                                                                                                                                          ::StringW certificateChainPem);
 
-  /// @brief Method ValidateCertificateChain addr 0xe5b2c4 size 0x64 virtual false final false
+  /// @brief Method ValidateCertificateChain addr 0xdd6308 size 0x64 virtual false final false
   static inline void ValidateCertificateChain(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                               ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);
 
-  /// @brief Method ValidateCertificateChainUnity addr 0xe5b328 size 0xa44 virtual false final false
+  /// @brief Method ValidateCertificateChainUnity addr 0xdd636c size 0xa44 virtual false final false
   static inline void ValidateCertificateChainUnity(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                                    ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);
 
-  /// @brief Method ValidateCertificateChainDotNet addr 0xe5bd6c size 0x50c virtual false final false
+  /// @brief Method ValidateCertificateChainDotNet addr 0xdd6db0 size 0x50c virtual false final false
   static inline void ValidateCertificateChainDotNet(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                                     ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);
 
@@ -548,7 +567,7 @@ NEED_NO_BOX(::GlobalNamespace::__X509CertificateUtility__PasswordFinder);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__X509CertificateUtility__PasswordFinder*, "", "X509CertificateUtility/PasswordFinder");
 NEED_NO_BOX(::GlobalNamespace::__X509CertificateUtility__RSACertificateEncryptionProvider);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__X509CertificateUtility__RSACertificateEncryptionProvider*, "", "X509CertificateUtility/RSACertificateEncryptionProvider");
-NEED_NO_BOX(::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9*, "", "X509CertificateUtility/<GetCertificateList>d__9");
+NEED_NO_BOX(::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__8);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__8*, "", "X509CertificateUtility/<GetCertificateList>d__8");
 NEED_NO_BOX(::GlobalNamespace::__X509CertificateUtility____c);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__X509CertificateUtility____c*, "", "X509CertificateUtility/<>c");

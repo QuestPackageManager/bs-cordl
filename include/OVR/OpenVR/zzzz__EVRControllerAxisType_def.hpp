@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRControllerAxisType);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8599))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9368))
 // CS Name: ::OVR.OpenVR::EVRControllerAxisType
 struct CORDL_TYPE EVRControllerAxisType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRControllerAxisType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::EVRControllerAxisType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRControllerAxisType, "OVR.OpenVR", "EVRControllerAxisType");

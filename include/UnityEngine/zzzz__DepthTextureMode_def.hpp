@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::DepthTextureMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10108))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10036))
 // CS Name: ::UnityEngine::DepthTextureMode
 struct CORDL_TYPE DepthTextureMode {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::DepthTextureMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::DepthTextureMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::DepthTextureMode, "UnityEngine", "DepthTextureMode");

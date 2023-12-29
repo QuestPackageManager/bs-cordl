@@ -14,13 +14,13 @@ namespace UnityEngine {
 class ParticleSystem;
 }
 namespace GlobalNamespace {
-class ColorManager;
+class Saber;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class Saber;
+class ColorManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderParticleInteractionEffect);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4819)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4825))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4939)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4945))
 // CS Name: ::SliderParticleInteractionEffect*
 class CORDL_TYPE SliderParticleInteractionEffect : public ::GlobalNamespace::SliderInteractionEffect {
 public:
@@ -83,24 +83,24 @@ public:
 
   constexpr void __set__saber(::GlobalNamespace::Saber* value);
 
-  /// @brief Method Start addr 0x2394f4c size 0x98 virtual true final false
+  /// @brief Method Start addr 0x2260558 size 0x98 virtual true final false
   inline void Start();
 
-  /// @brief Method Update addr 0x23950b8 size 0x6c virtual false final false
+  /// @brief Method Update addr 0x22606c4 size 0x6c virtual false final false
   inline void Update();
 
-  /// @brief Method SetPSStartColor addr 0x2394fe4 size 0xd4 virtual false final false
+  /// @brief Method SetPSStartColor addr 0x22605f0 size 0xd4 virtual false final false
   inline void SetPSStartColor(::UnityEngine::Color color);
 
-  /// @brief Method StartEffect addr 0x2395124 size 0xb8 virtual true final false
+  /// @brief Method StartEffect addr 0x2260730 size 0xb8 virtual true final false
   inline void StartEffect(float_t saberInteractionParam);
 
-  /// @brief Method EndEffect addr 0x23951dc size 0x94 virtual true final false
+  /// @brief Method EndEffect addr 0x22607e8 size 0x94 virtual true final false
   inline void EndEffect();
 
   static inline ::GlobalNamespace::SliderParticleInteractionEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x2395270 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x226087c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderParticleInteractionEffect", modifiers: "&&", def_value: None }]
@@ -136,6 +136,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderParticleInteractionEffect, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderParticleInteractionEffect, ____particleSystems) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderParticleInteractionEffect, ____colorManager) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderParticleInteractionEffect, ____saberManager) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderParticleInteractionEffect, ____startColor) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderParticleInteractionEffect, ____saber) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SliderParticleInteractionEffect);

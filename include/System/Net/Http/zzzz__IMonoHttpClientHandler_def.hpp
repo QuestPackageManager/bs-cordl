@@ -3,26 +3,26 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMonoHttpClientHandler)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Net::Http {
-class HttpRequestMessage;
+namespace System::Net::Security {
+class SslClientAuthenticationOptions;
 }
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Net::Http {
 class HttpResponseMessage;
 }
 namespace System {
-struct TimeSpan;
+class IDisposable;
 }
-namespace System::Net::Security {
-class SslClientAuthenticationOptions;
+namespace System::Net::Http {
+class HttpRequestMessage;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::System::Net::Http::IMonoHttpClientHandler);
 namespace System::Net::Http {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14635))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14852))
 // CS Name: ::System.Net.Http::IMonoHttpClientHandler*
 class CORDL_TYPE IMonoHttpClientHandler {
 public:

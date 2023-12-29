@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::MeshTopology);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10109))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10037))
 // CS Name: ::UnityEngine::MeshTopology
 struct CORDL_TYPE MeshTopology {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::MeshTopology, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::MeshTopology, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::MeshTopology, "UnityEngine", "MeshTopology");

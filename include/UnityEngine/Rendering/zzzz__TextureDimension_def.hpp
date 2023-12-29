@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::TextureDimension);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10350))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10272))
 // CS Name: ::UnityEngine.Rendering::TextureDimension
 struct CORDL_TYPE TextureDimension {
 public:
@@ -81,6 +81,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::TextureDimension, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::TextureDimension, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::TextureDimension, "UnityEngine.Rendering", "TextureDimension");

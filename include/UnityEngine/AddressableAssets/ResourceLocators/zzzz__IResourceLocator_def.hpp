@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IResourceLocator)
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
 }
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceLocators {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLoca
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14112))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14383))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::IResourceLocator*
 class CORDL_TYPE IResourceLocator {
 public:

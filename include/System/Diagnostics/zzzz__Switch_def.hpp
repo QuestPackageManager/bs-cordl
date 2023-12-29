@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Diagnostics::Switch);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8935))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7772))
 // CS Name: ::System.Diagnostics::Switch*
 class CORDL_TYPE Switch : public ::System::Object {
 public:
@@ -80,15 +80,15 @@ public:
 
   static inline ::System::Diagnostics::Switch* New_ctor(::StringW displayName, ::StringW description);
 
-  /// @brief Method .ctor addr 0x296bd00 size 0x60 virtual false final false
+  /// @brief Method .ctor addr 0x27ee404 size 0x60 virtual false final false
   inline void _ctor(::StringW displayName, ::StringW description);
 
   static inline ::System::Diagnostics::Switch* New_ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue);
 
-  /// @brief Method .ctor addr 0x296bd60 size 0x24c virtual false final false
+  /// @brief Method .ctor addr 0x27ee464 size 0x24c virtual false final false
   inline void _ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue);
 
-  /// @brief Method _pruneCachedSwitches addr 0x296bfac size 0x4e4 virtual false final false
+  /// @brief Method _pruneCachedSwitches addr 0x27ee6b0 size 0x4e4 virtual false final false
   static inline void _pruneCachedSwitches();
 
   // Ctor Parameters [CppParam { name: "", ty: "Switch", modifiers: "&&", def_value: None }]
@@ -121,6 +121,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::Switch, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Switch, ___description) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Switch, ___displayName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Switch, ___switchValueString) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Switch, ___defaultValue) == 0x28, "Offset mismatch!");
 
 } // namespace System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::Switch);

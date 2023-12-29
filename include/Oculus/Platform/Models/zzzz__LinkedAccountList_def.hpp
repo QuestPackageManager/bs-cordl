@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LinkedAccountList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1177 }), TypeDefinitionIndex(TypeDefinitionIndex(13430)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13451))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13452)) CS Name: ::Oculus.Platform.Models::LinkedAccountList*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13476)), TypeDefinitionIndex(TypeDefinitionIndex(13497)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13476), inst:
+// 1153 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13498)) CS Name: ::Oculus.Platform.Models::LinkedAccountList*
 class CORDL_TYPE LinkedAccountList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::LinkedAccount*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::Models::LinkedAccountList* New_ctor(void* a);
 
-  /// @brief Method .ctor addr 0x2706fd4 size 0x23c virtual false final false
+  /// @brief Method .ctor addr 0x25b4638 size 0x23c virtual false final false
   inline void _ctor(void* a);
 
   // Ctor Parameters [CppParam { name: "", ty: "LinkedAccountList", modifiers: "&&", def_value: None }]

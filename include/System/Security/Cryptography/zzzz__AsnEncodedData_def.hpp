@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::AsnEncodedData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8977))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7814))
 // CS Name: ::System.Security.Cryptography::AsnEncodedData*
 class CORDL_TYPE AsnEncodedData : public ::System::Object {
 public:
@@ -50,64 +50,64 @@ public:
 
   static inline ::System::Security::Cryptography::AsnEncodedData* New_ctor();
 
-  /// @brief Method .ctor addr 0x297634c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27f85d4 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::AsnEncodedData* New_ctor(::StringW oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
-  /// @brief Method .ctor addr 0x2976354 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x27f85dc size 0x84 virtual false final false
   inline void _ctor(::StringW oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
   static inline ::System::Security::Cryptography::AsnEncodedData* New_ctor(::System::Security::Cryptography::Oid* oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
-  /// @brief Method .ctor addr 0x29764cc size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x27f8754 size 0x3c virtual false final false
   inline void _ctor(::System::Security::Cryptography::Oid* oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
   static inline ::System::Security::Cryptography::AsnEncodedData* New_ctor(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  /// @brief Method .ctor addr 0x2976578 size 0xe0 virtual false final false
+  /// @brief Method .ctor addr 0x27f8800 size 0xe0 virtual false final false
   inline void _ctor(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  /// @brief Method get_Oid addr 0x2976658 size 0x8 virtual false final false
+  /// @brief Method get_Oid addr 0x27f88e0 size 0x8 virtual false final false
   inline ::System::Security::Cryptography::Oid* get_Oid();
 
-  /// @brief Method set_Oid addr 0x2976508 size 0x70 virtual false final false
+  /// @brief Method set_Oid addr 0x27f8790 size 0x70 virtual false final false
   inline void set_Oid(::System::Security::Cryptography::Oid* value);
 
-  /// @brief Method get_RawData addr 0x2976660 size 0x8 virtual false final false
+  /// @brief Method get_RawData addr 0x27f88e8 size 0x8 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_RawData();
 
-  /// @brief Method set_RawData addr 0x29763d8 size 0xf4 virtual false final false
+  /// @brief Method set_RawData addr 0x27f8660 size 0xf4 virtual false final false
   inline void set_RawData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method CopyFrom addr 0x2976668 size 0xfc virtual true final false
+  /// @brief Method CopyFrom addr 0x27f88f0 size 0xfc virtual true final false
   inline void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  /// @brief Method Format addr 0x2976764 size 0x90 virtual true final false
+  /// @brief Method Format addr 0x27f89ec size 0x90 virtual true final false
   inline ::StringW Format(bool multiLine);
 
-  /// @brief Method ToString addr 0x2976908 size 0x1b0 virtual true final false
+  /// @brief Method ToString addr 0x27f8b90 size 0x1b0 virtual true final false
   inline ::StringW ToString(bool multiLine);
 
-  /// @brief Method Default addr 0x29767f4 size 0x114 virtual false final false
+  /// @brief Method Default addr 0x27f8a7c size 0x114 virtual false final false
   inline ::StringW Default(bool multiLine);
 
-  /// @brief Method BasicConstraintsExtension addr 0x2976ab8 size 0x10c virtual false final false
+  /// @brief Method BasicConstraintsExtension addr 0x27f8d40 size 0x10c virtual false final false
   inline ::StringW BasicConstraintsExtension(bool multiLine);
 
-  /// @brief Method EnhancedKeyUsageExtension addr 0x2976bc4 size 0x10c virtual false final false
+  /// @brief Method EnhancedKeyUsageExtension addr 0x27f8e4c size 0x10c virtual false final false
   inline ::StringW EnhancedKeyUsageExtension(bool multiLine);
 
-  /// @brief Method KeyUsageExtension addr 0x2976cd0 size 0x110 virtual false final false
+  /// @brief Method KeyUsageExtension addr 0x27f8f58 size 0x110 virtual false final false
   inline ::StringW KeyUsageExtension(bool multiLine);
 
-  /// @brief Method SubjectKeyIdentifierExtension addr 0x2976de0 size 0x110 virtual false final false
+  /// @brief Method SubjectKeyIdentifierExtension addr 0x27f9068 size 0x110 virtual false final false
   inline ::StringW SubjectKeyIdentifierExtension(bool multiLine);
 
-  /// @brief Method SubjectAltName addr 0x2976ef0 size 0x3c0 virtual false final false
+  /// @brief Method SubjectAltName addr 0x27f9178 size 0x3c0 virtual false final false
   inline ::StringW SubjectAltName(bool multiLine);
 
-  /// @brief Method NetscapeCertType addr 0x29772b0 size 0x394 virtual false final false
+  /// @brief Method NetscapeCertType addr 0x27f9538 size 0x394 virtual false final false
   inline ::StringW NetscapeCertType(bool multiLine);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsnEncodedData", modifiers: "&&", def_value: None }]
@@ -134,6 +134,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::AsnEncodedData, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::AsnEncodedData, ____oid) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::AsnEncodedData, ____raw) == 0x18, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::AsnEncodedData);

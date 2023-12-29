@@ -7,14 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Triangulation)
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationContext;
+namespace UnityEngine::ProBuilder {
+class Vertex;
 }
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __Triangulation____c__DisplayClass7_0;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationContext;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -23,19 +26,16 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
+class __Triangulation____c__DisplayClass7_0;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
 class __Triangulation____c__DisplayClass8_0;
-}
-namespace UnityEngine::ProBuilder {
-class Vertex;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class PolygonPoint;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationPoint;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -58,8 +58,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12283))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12211))
 // CS Name: ::Triangulation::<>c__DisplayClass7_0*
 class CORDL_TYPE __Triangulation____c__DisplayClass7_0 : public ::System::Object {
 public:
@@ -75,13 +75,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bc3158 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a41404 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Triangulate>b__0 addr 0x2bc3168 size 0x88 virtual false final false
+  /// @brief Method <Triangulate>b__0 addr 0x2a41414 size 0x88 virtual false final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _Triangulate_b__0(::UnityEngine::Vector2 x);
 
-  /// @brief Method <Triangulate>b__1 addr 0x2bc31f0 size 0x88 virtual false final false
+  /// @brief Method <Triangulate>b__1 addr 0x2a4149c size 0x88 virtual false final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* _Triangulate_b__1(::UnityEngine::Vector2 x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Triangulation____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
@@ -106,13 +106,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__DisplayClass7_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__DisplayClass7_0, ___index) == 0x10, "Offset mismatch!");
+
 } // namespace UnityEngine::ProBuilder::MeshOperations
 // Type: ::<>c__DisplayClass8_0
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12284))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12212))
 // CS Name: ::Triangulation::<>c__DisplayClass8_0*
 class CORDL_TYPE __Triangulation____c__DisplayClass8_0 : public ::System::Object {
 public:
@@ -137,13 +139,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bc3160 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a4140c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Triangulate>b__0 addr 0x2bc3278 size 0x88 virtual false final false
+  /// @brief Method <Triangulate>b__0 addr 0x2a41524 size 0x88 virtual false final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* _Triangulate_b__0(::UnityEngine::Vector2 x);
 
-  /// @brief Method <Triangulate>b__1 addr 0x2bc3300 size 0x88 virtual false final false
+  /// @brief Method <Triangulate>b__1 addr 0x2a415ac size 0x88 virtual false final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* _Triangulate_b__1(::UnityEngine::Vector2 x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Triangulation____c__DisplayClass8_0", modifiers: "&&", def_value: None }]
@@ -171,13 +173,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__DisplayClass8_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__DisplayClass8_0, ___index) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__DisplayClass8_0, _____9__1) == 0x18, "Offset mismatch!");
+
 } // namespace UnityEngine::ProBuilder::MeshOperations
 // Type: UnityEngine.ProBuilder.MeshOperations::Triangulation
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12285))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12213))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::Triangulation*
 class CORDL_TYPE Triangulation : public ::System::Object {
 public:
@@ -193,29 +199,29 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* getStaticF_s_TriangulationContext();
 
-  /// @brief Method get_triangulationContext addr 0x2bc1024 size 0x94 virtual false final false
+  /// @brief Method get_triangulationContext addr 0x2a3f2d0 size 0x94 virtual false final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* get_triangulationContext();
 
-  /// @brief Method SortAndTriangulate addr 0x2bc10b8 size 0x314 virtual false final false
+  /// @brief Method SortAndTriangulate addr 0x2a3f364 size 0x314 virtual false final false
   static inline bool SortAndTriangulate(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points, ByRef<::System::Collections::Generic::List_1<int32_t>*> indexes, bool convex);
 
-  /// @brief Method TriangulateVertices addr 0x2bc1f60 size 0x20c virtual false final false
+  /// @brief Method TriangulateVertices addr 0x2a4020c size 0x20c virtual false final false
   static inline bool TriangulateVertices(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ByRef<::System::Collections::Generic::List_1<int32_t>*> triangles,
                                          bool unordered, bool convex);
 
-  /// @brief Method TriangulateVertices addr 0x2bc2390 size 0x1ac virtual false final false
+  /// @brief Method TriangulateVertices addr 0x2a4063c size 0x1ac virtual false final false
   static inline bool
   TriangulateVertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices, ByRef<::System::Collections::Generic::List_1<int32_t>*> triangles,
                       ::ArrayW<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, ::Array<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>*> holes);
 
-  /// @brief Method TriangulateVertices addr 0x2bc216c size 0x224 virtual false final false
+  /// @brief Method TriangulateVertices addr 0x2a40418 size 0x224 virtual false final false
   static inline bool TriangulateVertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices, ByRef<::System::Collections::Generic::List_1<int32_t>*> triangles, bool unordered,
                                          bool convex);
 
-  /// @brief Method Triangulate addr 0x2bc13cc size 0xb94 virtual false final false
+  /// @brief Method Triangulate addr 0x2a3f678 size 0xb94 virtual false final false
   static inline bool Triangulate(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points, ByRef<::System::Collections::Generic::List_1<int32_t>*> indexes, bool convex);
 
-  /// @brief Method Triangulate addr 0x2bc253c size 0xc1c virtual false final false
+  /// @brief Method Triangulate addr 0x2a407e8 size 0xc1c virtual false final false
   static inline bool Triangulate(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points,
                                  ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>* holes,
                                  ByRef<::System::Collections::Generic::List_1<int32_t>*> indexes);

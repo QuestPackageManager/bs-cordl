@@ -3,11 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IWebRequestCreate)
-namespace System::Net {
-class WebRequest;
-}
 namespace System {
 class Uri;
+}
+namespace System::Net {
+class WebRequest;
 }
 // Forward declare root types
 namespace System::Net {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Net::IWebRequestCreate);
 namespace System::Net {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9072))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7909))
 // CS Name: ::System.Net::IWebRequestCreate*
 class CORDL_TYPE IWebRequestCreate {
 public:

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentCommandLineArgsProvider);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5953))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6035))
 // CS Name: ::EnvironmentCommandLineArgsProvider*
 class CORDL_TYPE EnvironmentCommandLineArgsProvider : public ::System::Object {
 public:
@@ -28,12 +28,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICommandLineArgsProvider"
   constexpr operator ::GlobalNamespace::ICommandLineArgsProvider*() noexcept;
 
-  /// @brief Method GetCommandLineArgs addr 0x23050dc size 0x8 virtual true final true
+  /// @brief Method GetCommandLineArgs addr 0x21bab30 size 0x8 virtual true final true
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetCommandLineArgs();
 
   static inline ::GlobalNamespace::EnvironmentCommandLineArgsProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x2305164 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21baba0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentCommandLineArgsProvider", modifiers: "&&", def_value: None }]

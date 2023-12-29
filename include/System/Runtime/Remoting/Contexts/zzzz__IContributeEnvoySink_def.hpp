@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IContributeEnvoySink);
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3109))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3108))
 // CS Name: ::System.Runtime.Remoting.Contexts::IContributeEnvoySink*
 class CORDL_TYPE IContributeEnvoySink {
 public:

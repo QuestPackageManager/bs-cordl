@@ -11,25 +11,25 @@ namespace UnityEngine::Pool {
 template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
-class BaseVerticalCollectionView;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+class ReusableCollectionItem;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::UIElements {
-class ReusableCollectionItem;
+class BaseVerticalCollectionView;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class __VerticalVirtualizationController_1____c;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename TResult> class Func_1;
@@ -53,8 +53,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7369))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7455))
 // CS Name: ::VerticalVirtualizationController`1::<>c<T>*
 class CORDL_TYPE __VerticalVirtualizationController_1____c : public ::System::Object {
 public:
@@ -115,8 +115,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7371))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7370))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7457))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7456))
 // CS Name: ::UnityEngine.UIElements::VerticalVirtualizationController`1<T>*
 class CORDL_TYPE VerticalVirtualizationController_1 : public ::UnityEngine::UIElements::CollectionVirtualizationController {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TMP_SpriteInfo);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12321))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12249))
 // CS Name: ::TMPro::TMP_SpriteInfo
 struct CORDL_TYPE TMP_SpriteInfo {
 public:
@@ -45,6 +45,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_SpriteInfo, 0xc>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_SpriteInfo, spriteIndex) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_SpriteInfo, characterIndex) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_SpriteInfo, vertexIndex) == 0x8, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_SpriteInfo, "TMPro", "TMP_SpriteInfo");

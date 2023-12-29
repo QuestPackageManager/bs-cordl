@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UQueryExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6930), inst: 415 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6930)), TypeDefinitionIndex(TypeDefinitionIndex(6744))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6932)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7016), inst: 410 }), TypeDefinitionIndex(TypeDefinitionIndex(6830)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(7016))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7018)) CS Name:
 // ::UnityEngine.UIElements::UQueryExtensions*
 class CORDL_TYPE UQueryExtensions : public ::System::Object {
 public:
@@ -97,7 +97,7 @@ public:
   /// @brief Method Q addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline T Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
 
-  /// @brief Method Q addr 0x2e04a64 size 0x3e0 virtual false final false
+  /// @brief Method Q addr 0x2c9e6b4 size 0x3e0 virtual false final false
   static inline ::UnityEngine::UIElements::VisualElement* Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
 
   /// @brief Method Query addr 0x0 size 0xffffffffffffffff virtual false final false

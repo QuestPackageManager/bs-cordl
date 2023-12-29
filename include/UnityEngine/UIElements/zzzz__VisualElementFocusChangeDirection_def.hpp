@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementFocusChangeDirection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6881))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6793))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6967))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6879))
 // CS Name: ::UnityEngine.UIElements::VisualElementFocusChangeDirection*
 class CORDL_TYPE VisualElementFocusChangeDirection : public ::UnityEngine::UIElements::FocusChangeDirection {
 public:
@@ -38,15 +38,15 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeDirection* getStaticF_s_Right();
 
-  /// @brief Method get_left addr 0x2dbb1fc size 0x58 virtual false final false
+  /// @brief Method get_left addr 0x2c53e4c size 0x58 virtual false final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_left();
 
-  /// @brief Method get_right addr 0x2dbb254 size 0x58 virtual false final false
+  /// @brief Method get_right addr 0x2c53ea4 size 0x58 virtual false final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_right();
 
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeDirection* New_ctor(int32_t value);
 
-  /// @brief Method .ctor addr 0x2dbb2ac size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x2c53efc size 0x68 virtual false final false
   inline void _ctor(int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeDirection", modifiers: "&&", def_value: None }]

@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BufferedRumble)
-namespace UnityEngine::InputSystem::XR::Haptics {
-struct HapticCapabilities;
-}
 namespace UnityEngine::InputSystem {
 class InputDevice;
+}
+namespace UnityEngine::InputSystem::XR::Haptics {
+struct HapticCapabilities;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR::Haptics {
@@ -23,8 +23,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::BufferedRumble);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6345))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6342))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6431))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6428))
 // CS Name: ::UnityEngine.InputSystem.XR.Haptics::BufferedRumble
 struct CORDL_TYPE BufferedRumble {
 public:
@@ -33,22 +33,22 @@ public:
 
   __declspec(property(get = get_device, put = set_device))::UnityEngine::InputSystem::InputDevice* device;
 
-  /// @brief Method get_capabilities addr 0x2ac942c size 0x10 virtual false final false
+  /// @brief Method get_capabilities addr 0x294a6e4 size 0x10 virtual false final false
   inline ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities get_capabilities();
 
-  /// @brief Method set_capabilities addr 0x2ac943c size 0xc virtual false final false
+  /// @brief Method set_capabilities addr 0x294a6f4 size 0xc virtual false final false
   inline void set_capabilities(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities value);
 
-  /// @brief Method get_device addr 0x2ac9448 size 0x8 virtual false final false
+  /// @brief Method get_device addr 0x294a700 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
-  /// @brief Method set_device addr 0x2ac9450 size 0x8 virtual false final false
+  /// @brief Method set_device addr 0x294a708 size 0x8 virtual false final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
-  /// @brief Method .ctor addr 0x2ac9458 size 0xf8 virtual false final false
+  /// @brief Method .ctor addr 0x294a710 size 0xf8 virtual false final false
   inline void _ctor(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method EnqueueRumble addr 0x2ac95b8 size 0xa8 virtual false final false
+  /// @brief Method EnqueueRumble addr 0x294a870 size 0xa8 virtual false final false
   inline void EnqueueRumble(::ArrayW<uint8_t, ::Array<uint8_t>*> samples);
 
   // Ctor Parameters [CppParam { name: "_capabilities_k__BackingField", ty: "::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities", modifiers: "", def_value: None }, CppParam { name:
@@ -72,6 +72,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::Haptics::BufferedRumble, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::Haptics::BufferedRumble, _capabilities_k__BackingField) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::Haptics::BufferedRumble, _device_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::XR::Haptics
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XR::Haptics::BufferedRumble, "UnityEngine.InputSystem.XR.Haptics", "BufferedRumble");

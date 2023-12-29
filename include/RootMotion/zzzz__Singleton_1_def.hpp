@@ -16,8 +16,8 @@ namespace RootMotion {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12498))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12426))
 // CS Name: ::RootMotion::Singleton`1<T>*
 class CORDL_TYPE Singleton_1 : public ::UnityEngine::MonoBehaviour {
 public:

@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CADMethodReturnMessage)
 namespace System {
+class Type;
+}
+namespace System {
 class Object;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
-}
-namespace System {
-class Exception;
-}
-namespace System::Runtime::Remoting::Messaging {
-class CADArgHolder;
-}
-namespace System {
-class Type;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodReturnMessage;
 }
 namespace System::Collections {
 class ArrayList;
+}
+namespace System::Runtime::Remoting::Messaging {
+class CADArgHolder;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CADMethodReturnMessage);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3155))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3157))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3154))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3156))
 // CS Name: ::System.Runtime.Remoting.Messaging::CADMethodReturnMessage*
 class CORDL_TYPE CADMethodReturnMessage : public ::System::Runtime::Remoting::Messaging::CADMessageBase {
 public:
@@ -72,27 +72,27 @@ public:
 
   constexpr void __set__sig(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method Create addr 0x24aa504 size 0x90 virtual false final false
+  /// @brief Method Create addr 0x2351a10 size 0x90 virtual false final false
   static inline ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* Create(::System::Runtime::Remoting::Messaging::IMessage* callMsg);
 
   static inline ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* New_ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* retMsg);
 
-  /// @brief Method .ctor addr 0x24aa594 size 0x37c virtual false final false
+  /// @brief Method .ctor addr 0x2351aa0 size 0x37c virtual false final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* retMsg);
 
-  /// @brief Method GetArguments addr 0x24aa910 size 0x140 virtual false final false
+  /// @brief Method GetArguments addr 0x2351e1c size 0x140 virtual false final false
   inline ::System::Collections::ArrayList* GetArguments();
 
-  /// @brief Method GetArgs addr 0x24aaa50 size 0x10 virtual false final false
+  /// @brief Method GetArgs addr 0x2351f5c size 0x10 virtual false final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetArgs(::System::Collections::ArrayList* args);
 
-  /// @brief Method GetReturnValue addr 0x24aaa60 size 0x10 virtual false final false
+  /// @brief Method GetReturnValue addr 0x2351f6c size 0x10 virtual false final false
   inline ::System::Object* GetReturnValue(::System::Collections::ArrayList* args);
 
-  /// @brief Method GetException addr 0x24aaa70 size 0xa4 virtual false final false
+  /// @brief Method GetException addr 0x2351f7c size 0xa4 virtual false final false
   inline ::System::Exception* GetException(::System::Collections::ArrayList* args);
 
-  /// @brief Method get_PropertiesCount addr 0x24aab14 size 0x8 virtual false final false
+  /// @brief Method get_PropertiesCount addr 0x2352020 size 0x8 virtual false final false
   inline int32_t get_PropertiesCount();
 
   // Ctor Parameters [CppParam { name: "", ty: "CADMethodReturnMessage", modifiers: "&&", def_value: None }]
@@ -122,6 +122,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::CADMethodReturnMessage, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADMethodReturnMessage, ____returnValue) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADMethodReturnMessage, ____exception) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADMethodReturnMessage, ____sig) == 0x48, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CADMethodReturnMessage);

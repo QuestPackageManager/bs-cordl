@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__EventArgs_def.hpp"
 CORDL_MODULE_EXPORT(ValidationEventArgs)
 namespace System::Xml::Schema {
-class XmlSchemaException;
+struct XmlSeverityType;
 }
 namespace System::Xml::Schema {
-struct XmlSeverityType;
+class XmlSchemaException;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::ValidationEventArgs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(11745))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11709))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11673)), TypeDefinitionIndex(TypeDefinitionIndex(2376))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11637))
 // CS Name: ::System.Xml.Schema::ValidationEventArgs*
 class CORDL_TYPE ValidationEventArgs : public ::System::EventArgs {
 public:
@@ -49,10 +49,10 @@ public:
 
   constexpr void __set_severity(::System::Xml::Schema::XmlSeverityType value);
 
-  /// @brief Method get_Severity addr 0x28c5bf0 size 0x8 virtual false final false
+  /// @brief Method get_Severity addr 0x2747bcc size 0x8 virtual false final false
   inline ::System::Xml::Schema::XmlSeverityType get_Severity();
 
-  /// @brief Method get_Exception addr 0x28c5bf8 size 0x8 virtual false final false
+  /// @brief Method get_Exception addr 0x2747bd4 size 0x8 virtual false final false
   inline ::System::Xml::Schema::XmlSchemaException* get_Exception();
 
   // Ctor Parameters [CppParam { name: "", ty: "ValidationEventArgs", modifiers: "&&", def_value: None }]
@@ -79,6 +79,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::ValidationEventArgs, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::ValidationEventArgs, ___ex) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::ValidationEventArgs, ___severity) == 0x18, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::ValidationEventArgs);

@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Component)
 namespace System::ComponentModel {
-class IComponent;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-class Object;
+class ISite;
 }
 namespace System::ComponentModel {
 class EventHandlerList;
 }
 namespace System {
-class Type;
+class Object;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::ComponentModel {
-class ISite;
+class IComponent;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::System::ComponentModel::Component);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9469))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8306))
 // CS Name: ::System.ComponentModel::Component*
 class CORDL_TYPE Component : public ::System::MarshalByRefObject {
 public:
@@ -78,36 +78,36 @@ public:
 
   static inline ::System::Object* getStaticF_EventDisposed();
 
-  /// @brief Method Finalize addr 0x2919cf0 size 0xa0 virtual true final false
+  /// @brief Method Finalize addr 0x279bcc8 size 0xa0 virtual true final false
   inline void Finalize();
 
-  /// @brief Method get_CanRaiseEvents addr 0x2919d90 size 0x8 virtual true final false
+  /// @brief Method get_CanRaiseEvents addr 0x279bd68 size 0x8 virtual true final false
   inline bool get_CanRaiseEvents();
 
-  /// @brief Method get_CanRaiseEventsInternal addr 0x2919d98 size 0xc virtual false final false
+  /// @brief Method get_CanRaiseEventsInternal addr 0x279bd70 size 0xc virtual false final false
   inline bool get_CanRaiseEventsInternal();
 
-  /// @brief Method get_Site addr 0x2919da4 size 0x8 virtual true final false
+  /// @brief Method get_Site addr 0x279bd7c size 0x8 virtual true final false
   inline ::System::ComponentModel::ISite* get_Site();
 
-  /// @brief Method Dispose addr 0x2919dac size 0x6c virtual true final true
+  /// @brief Method Dispose addr 0x279bd84 size 0x6c virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x2919e18 size 0x304 virtual true final false
+  /// @brief Method Dispose addr 0x279bdf0 size 0x304 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetService addr 0x291a11c size 0xb4 virtual true final false
+  /// @brief Method GetService addr 0x279c0f4 size 0xb4 virtual true final false
   inline ::System::Object* GetService(::System::Type* service);
 
-  /// @brief Method get_DesignMode addr 0x291a1d0 size 0xb0 virtual false final false
+  /// @brief Method get_DesignMode addr 0x279c1a8 size 0xb0 virtual false final false
   inline bool get_DesignMode();
 
-  /// @brief Method ToString addr 0x291a280 size 0x130 virtual true final false
+  /// @brief Method ToString addr 0x279c258 size 0x130 virtual true final false
   inline ::StringW ToString();
 
   static inline ::System::ComponentModel::Component* New_ctor();
 
-  /// @brief Method .ctor addr 0x291a3b0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x279c388 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Component", modifiers: "&&", def_value: None }]
@@ -134,6 +134,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::Component, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::Component, ___site) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::Component, ___events) == 0x20, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::Component);

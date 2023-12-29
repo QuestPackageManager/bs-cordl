@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::System::Runtime::ConstrainedExecution::CriticalFinalizerObject)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::ConstrainedExecution {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3354))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3350))
 // CS Name: ::System.Runtime.ConstrainedExecution::CriticalFinalizerObject*
 class CORDL_TYPE CriticalFinalizerObject : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject* New_ctor();
 
-  /// @brief Method .ctor addr 0x24d76ac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x237e7c4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Finalize addr 0x24da714 size 0x8 virtual true final false
+  /// @brief Method Finalize addr 0x23810cc size 0x8 virtual true final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "CriticalFinalizerObject", modifiers: "&&", def_value: None }]

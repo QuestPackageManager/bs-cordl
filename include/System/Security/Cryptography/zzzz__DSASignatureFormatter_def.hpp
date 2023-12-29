@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::DSASignatureFormatter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2920))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2933))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2919))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2932))
 // CS Name: ::System.Security.Cryptography::DSASignatureFormatter*
 class CORDL_TYPE DSASignatureFormatter : public ::System::Security::Cryptography::AsymmetricSignatureFormatter {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Security::Cryptography::DSASignatureFormatter* New_ctor();
 
-  /// @brief Method .ctor addr 0x245e188 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x2304b10 size 0x80 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DSASignatureFormatter", modifiers: "&&", def_value: None }]
@@ -56,6 +56,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::DSASignatureFormatter, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DSASignatureFormatter, ____oid) == 0x10, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::DSASignatureFormatter);

@@ -10,10 +10,10 @@ namespace System::Buffers {
 struct MemoryHandle;
 }
 namespace System {
-template <typename T> struct Span_1;
+template <typename T> struct ArraySegment_1;
 }
 namespace System {
-template <typename T> struct ArraySegment_1;
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System::Buffers {
@@ -27,8 +27,8 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3885))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3873))
 // CS Name: ::System.Buffers::MemoryManager`1<T>*
 class CORDL_TYPE MemoryManager_1 : public ::System::Object {
 public:

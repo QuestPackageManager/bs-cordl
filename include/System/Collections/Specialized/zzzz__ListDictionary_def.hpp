@@ -12,31 +12,31 @@ namespace System {
 class Object;
 }
 namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IComparer;
+}
+namespace System::Collections::Specialized {
+class __ListDictionary__NodeEnumerator;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections {
 class IDictionaryEnumerator;
 }
 namespace System::Collections::Specialized {
 class __ListDictionary__NodeKeyValueCollection;
 }
-namespace System::Collections {
-class ICollection;
+namespace System::Collections::Specialized {
+class __ListDictionary__DictionaryNode;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections::Specialized {
-class __ListDictionary__NodeEnumerator;
-}
-namespace System::Collections {
-class IComparer;
-}
-namespace System::Collections::Specialized {
-class __ListDictionary__DictionaryNode;
 }
 namespace System::Collections {
 struct DictionaryEntry;
@@ -70,8 +70,8 @@ MARK_REF_PTR_T(::System::Collections::Specialized::__ListDictionary__NodeKeyValu
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9508))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8345))
 // CS Name: ::ListDictionary::NodeEnumerator*
 class CORDL_TYPE __ListDictionary__NodeEnumerator : public ::System::Object {
 public:
@@ -128,25 +128,25 @@ public:
 
   static inline ::System::Collections::Specialized::__ListDictionary__NodeEnumerator* New_ctor(::System::Collections::Specialized::ListDictionary* list);
 
-  /// @brief Method .ctor addr 0x293c1e4 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x27be1bc size 0x44 virtual false final false
   inline void _ctor(::System::Collections::Specialized::ListDictionary* list);
 
-  /// @brief Method get_Current addr 0x293c420 size 0x64 virtual true final true
+  /// @brief Method get_Current addr 0x27be3f8 size 0x64 virtual true final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_Entry addr 0x293c484 size 0x80 virtual true final true
+  /// @brief Method get_Entry addr 0x27be45c size 0x80 virtual true final true
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key addr 0x293c504 size 0x64 virtual true final true
+  /// @brief Method get_Key addr 0x27be4dc size 0x64 virtual true final true
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value addr 0x293c568 size 0x64 virtual true final true
+  /// @brief Method get_Value addr 0x27be540 size 0x64 virtual true final true
   inline ::System::Object* get_Value();
 
-  /// @brief Method MoveNext addr 0x293c5cc size 0xa0 virtual true final true
+  /// @brief Method MoveNext addr 0x27be5a4 size 0xa0 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x293c66c size 0x80 virtual true final true
+  /// @brief Method Reset addr 0x27be644 size 0x80 virtual true final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ListDictionary__NodeEnumerator", modifiers: "&&", def_value: None }]
@@ -180,13 +180,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::Specialized::__ListDictionary__NodeEnumerator, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::System::Collections::Specialized::__ListDictionary__NodeEnumerator, ____list) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::__ListDictionary__NodeEnumerator, ____current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::__ListDictionary__NodeEnumerator, ____version) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::__ListDictionary__NodeEnumerator, ____start) == 0x24, "Offset mismatch!");
+
 } // namespace System::Collections::Specialized
 // Type: ::NodeKeyValueEnumerator
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 38, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9509))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8346))
 // CS Name: ::ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator*
 class CORDL_TYPE __ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator : public ::System::Object {
 public:
@@ -243,16 +251,16 @@ public:
 
   static inline ::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator* New_ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys);
 
-  /// @brief Method .ctor addr 0x293c908 size 0x4c virtual false final false
+  /// @brief Method .ctor addr 0x27be8e0 size 0x4c virtual false final false
   inline void _ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys);
 
-  /// @brief Method get_Current addr 0x293c954 size 0x78 virtual true final true
+  /// @brief Method get_Current addr 0x27be92c size 0x78 virtual true final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method MoveNext addr 0x293c9cc size 0xa0 virtual true final true
+  /// @brief Method MoveNext addr 0x27be9a4 size 0xa0 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x293ca6c size 0x80 virtual true final true
+  /// @brief Method Reset addr 0x27bea44 size 0x80 virtual true final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator", modifiers: "&&", def_value: None }]
@@ -289,13 +297,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator, ____list) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator, ____current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator, ____version) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator, ____isKeys) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator, ____start) == 0x25, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::NodeKeyValueCollection
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9510))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8347))
 // CS Name: ::ListDictionary::NodeKeyValueCollection*
 class CORDL_TYPE __ListDictionary__NodeKeyValueCollection : public ::System::Object {
 public:
@@ -334,22 +352,22 @@ public:
 
   static inline ::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection* New_ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys);
 
-  /// @brief Method .ctor addr 0x293bb08 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x27bdae0 size 0x30 virtual false final false
   inline void _ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys);
 
-  /// @brief Method System.Collections.ICollection.CopyTo addr 0x293c6ec size 0x14c virtual true final true
+  /// @brief Method System.Collections.ICollection.CopyTo addr 0x27be6c4 size 0x14c virtual true final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.get_Count addr 0x293c838 size 0x38 virtual true final true
+  /// @brief Method System.Collections.ICollection.get_Count addr 0x27be810 size 0x38 virtual true final true
   inline int32_t System_Collections_ICollection_get_Count();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized addr 0x293c870 size 0x8 virtual true final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized addr 0x27be848 size 0x8 virtual true final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot addr 0x293c878 size 0x18 virtual true final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot addr 0x27be850 size 0x18 virtual true final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x293c890 size 0x78 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x27be868 size 0x78 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ListDictionary__NodeKeyValueCollection", modifiers: "&&", def_value: None }]
@@ -377,13 +395,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection, ____list) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection, ____isKeys) == 0x18, "Offset mismatch!");
+
 } // namespace System::Collections::Specialized
 // Type: ::DictionaryNode
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9511))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8348))
 // CS Name: ::ListDictionary::DictionaryNode*
 class CORDL_TYPE __ListDictionary__DictionaryNode : public ::System::Object {
 public:
@@ -417,7 +439,7 @@ public:
 
   static inline ::System::Collections::Specialized::__ListDictionary__DictionaryNode* New_ctor();
 
-  /// @brief Method .ctor addr 0x293ba8c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27bda64 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ListDictionary__DictionaryNode", modifiers: "&&", def_value: None }]
@@ -448,13 +470,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::Specialized::__ListDictionary__DictionaryNode, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::System::Collections::Specialized::__ListDictionary__DictionaryNode, ___key) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::__ListDictionary__DictionaryNode, ___value) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::__ListDictionary__DictionaryNode, ___next) == 0x20, "Offset mismatch!");
+
 } // namespace System::Collections::Specialized
 // Type: System.Collections.Specialized::ListDictionary
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9512))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8349))
 // CS Name: ::System.Collections.Specialized::ListDictionary*
 class CORDL_TYPE ListDictionary : public ::System::Object {
 public:
@@ -537,60 +565,60 @@ public:
 
   static inline ::System::Collections::Specialized::ListDictionary* New_ctor();
 
-  /// @brief Method .ctor addr 0x293b734 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27bd70c size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::System::Collections::Specialized::ListDictionary* New_ctor(::System::Collections::IComparer* comparer);
 
-  /// @brief Method .ctor addr 0x293b73c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x27bd714 size 0x28 virtual false final false
   inline void _ctor(::System::Collections::IComparer* comparer);
 
-  /// @brief Method get_Item addr 0x293b764 size 0x164 virtual true final true
+  /// @brief Method get_Item addr 0x27bd73c size 0x164 virtual true final true
   inline ::System::Object* get_Item(::System::Object* key);
 
-  /// @brief Method set_Item addr 0x293b8c8 size 0x1c4 virtual true final true
+  /// @brief Method set_Item addr 0x27bd8a0 size 0x1c4 virtual true final true
   inline void set_Item(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method get_Count addr 0x293ba94 size 0x8 virtual true final true
+  /// @brief Method get_Count addr 0x27bda6c size 0x8 virtual true final true
   inline int32_t get_Count();
 
-  /// @brief Method get_Keys addr 0x293ba9c size 0x6c virtual true final true
+  /// @brief Method get_Keys addr 0x27bda74 size 0x6c virtual true final true
   inline ::System::Collections::ICollection* get_Keys();
 
-  /// @brief Method get_IsReadOnly addr 0x293bb38 size 0x8 virtual true final true
+  /// @brief Method get_IsReadOnly addr 0x27bdb10 size 0x8 virtual true final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsFixedSize addr 0x293bb40 size 0x8 virtual true final true
+  /// @brief Method get_IsFixedSize addr 0x27bdb18 size 0x8 virtual true final true
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsSynchronized addr 0x293bb48 size 0x8 virtual true final true
+  /// @brief Method get_IsSynchronized addr 0x27bdb20 size 0x8 virtual true final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot addr 0x293bb50 size 0x7c virtual true final true
+  /// @brief Method get_SyncRoot addr 0x27bdb28 size 0x7c virtual true final true
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method get_Values addr 0x293bbcc size 0x68 virtual true final true
+  /// @brief Method get_Values addr 0x27bdba4 size 0x68 virtual true final true
   inline ::System::Collections::ICollection* get_Values();
 
-  /// @brief Method Add addr 0x293bc34 size 0x218 virtual true final true
+  /// @brief Method Add addr 0x27bdc0c size 0x218 virtual true final true
   inline void Add(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method Clear addr 0x293be4c size 0x14 virtual true final true
+  /// @brief Method Clear addr 0x27bde24 size 0x14 virtual true final true
   inline void Clear();
 
-  /// @brief Method Contains addr 0x293be60 size 0x154 virtual true final true
+  /// @brief Method Contains addr 0x27bde38 size 0x154 virtual true final true
   inline bool Contains(::System::Object* key);
 
-  /// @brief Method CopyTo addr 0x293bfb4 size 0x1d0 virtual true final true
+  /// @brief Method CopyTo addr 0x27bdf8c size 0x1d0 virtual true final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator addr 0x293c184 size 0x60 virtual true final true
+  /// @brief Method GetEnumerator addr 0x27be15c size 0x60 virtual true final true
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x293c228 size 0x60 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x27be200 size 0x60 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method Remove addr 0x293c288 size 0x198 virtual true final true
+  /// @brief Method Remove addr 0x27be260 size 0x198 virtual true final true
   inline void Remove(::System::Object* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "ListDictionary", modifiers: "&&", def_value: None }]
@@ -626,6 +654,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::Specialized::ListDictionary, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::ListDictionary, ___head) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::ListDictionary, ___version) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::ListDictionary, ___count) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::ListDictionary, ___comparer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::ListDictionary, ____syncRoot) == 0x28, "Offset mismatch!");
 
 } // namespace System::Collections::Specialized
 NEED_NO_BOX(::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator);

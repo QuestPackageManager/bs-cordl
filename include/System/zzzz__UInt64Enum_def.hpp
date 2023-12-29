@@ -16,7 +16,7 @@ MARK_VAL_T(::System::UInt64Enum);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2600))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2598))
 // CS Name: ::System::UInt64Enum
 struct CORDL_TYPE UInt64Enum {
 public:
@@ -48,6 +48,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::UInt64Enum, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::System::UInt64Enum, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::UInt64Enum, "System", "UInt64Enum");

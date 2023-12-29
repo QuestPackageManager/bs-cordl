@@ -25,7 +25,7 @@ MARK_VAL_T(::GlobalNamespace::LevelDataAssetDownloadUpdate);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4414))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4434))
 // CS Name: ::LevelDataAssetDownloadUpdate::AssetDownloadingState
 struct CORDL_TYPE __LevelDataAssetDownloadUpdate__AssetDownloadingState {
 public:
@@ -71,20 +71,22 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelDataAssetDownloadUpdate__AssetDownloadingState, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LevelDataAssetDownloadUpdate__AssetDownloadingState, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LevelDataAssetDownloadUpdate
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4414))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4415))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4434))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4435))
 // CS Name: ::LevelDataAssetDownloadUpdate
 struct CORDL_TYPE LevelDataAssetDownloadUpdate {
 public:
   // Declarations
   using AssetDownloadingState = ::GlobalNamespace::__LevelDataAssetDownloadUpdate__AssetDownloadingState;
 
-  /// @brief Method .ctor addr 0x234cdd8 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2200728 size 0x10 virtual false final false
   inline void _ctor(::StringW levelID, uint32_t bytesTotal, uint32_t bytesTransferred, ::GlobalNamespace::__LevelDataAssetDownloadUpdate__AssetDownloadingState assetDownloadingState);
 
   // Ctor Parameters [CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "bytesTotal", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
@@ -116,6 +118,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelDataAssetDownloadUpdate, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelDataAssetDownloadUpdate, levelID) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelDataAssetDownloadUpdate, bytesTotal) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelDataAssetDownloadUpdate, bytesTransferred) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelDataAssetDownloadUpdate, assetDownloadingState) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelDataAssetDownloadUpdate__AssetDownloadingState, "", "LevelDataAssetDownloadUpdate/AssetDownloadingState");

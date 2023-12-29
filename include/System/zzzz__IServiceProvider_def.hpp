@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::IServiceProvider);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2515))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2513))
 // CS Name: ::System::IServiceProvider*
 class CORDL_TYPE IServiceProvider {
 public:

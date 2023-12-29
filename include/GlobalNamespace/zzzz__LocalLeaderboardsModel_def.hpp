@@ -10,13 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalLeaderboardsModel)
 namespace GlobalNamespace {
-class ISaveData;
-}
-namespace GlobalNamespace {
 struct __LocalLeaderboardsModel__LeaderboardType;
 }
 namespace GlobalNamespace {
+class __LocalLeaderboardsModel__LeaderboardData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class __LocalLeaderboardsModel__ScoreData;
+}
+namespace GlobalNamespace {
 class __LocalLeaderboardsModel__SavedLeaderboardsData;
+}
+namespace GlobalNamespace {
+class ISaveData;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -25,16 +34,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class __LocalLeaderboardsModel__LeaderboardData;
-}
-namespace GlobalNamespace {
-class __LocalLeaderboardsModel__ScoreData;
-}
-namespace GlobalNamespace {
 class __LocalLeaderboardsModel____c;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -76,7 +76,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__LocalLeaderboardsModel____c);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4214))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4247))
 // CS Name: ::LocalLeaderboardsModel::LeaderboardType
 struct CORDL_TYPE __LocalLeaderboardsModel__LeaderboardType {
 public:
@@ -118,13 +118,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ScoreData
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4215))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4248))
 // CS Name: ::LocalLeaderboardsModel::ScoreData*
 class CORDL_TYPE __LocalLeaderboardsModel__ScoreData : public ::System::Object {
 public:
@@ -167,7 +169,7 @@ public:
 
   static inline ::GlobalNamespace::__LocalLeaderboardsModel__ScoreData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2329a54 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d8d60 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LocalLeaderboardsModel__ScoreData", modifiers: "&&", def_value: None }]
@@ -201,13 +203,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel__ScoreData, ____score) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel__ScoreData, ____playerName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel__ScoreData, ____fullCombo) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel__ScoreData, ____timestamp) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LeaderboardData
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4216))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4249))
 // CS Name: ::LocalLeaderboardsModel::LeaderboardData*
 class CORDL_TYPE __LocalLeaderboardsModel__LeaderboardData : public ::System::Object {
 public:
@@ -232,7 +242,7 @@ public:
 
   static inline ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2329a4c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d8d58 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LocalLeaderboardsModel__LeaderboardData", modifiers: "&&", def_value: None }]
@@ -260,13 +270,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData, ____leaderboardId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData, ____scores) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SavedLeaderboardsData
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4217))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4250))
 // CS Name: ::LocalLeaderboardsModel::SavedLeaderboardsData*
 class CORDL_TYPE __LocalLeaderboardsModel__SavedLeaderboardsData : public ::System::Object {
 public:
@@ -283,7 +297,7 @@ public:
 
   static inline ::GlobalNamespace::__LocalLeaderboardsModel__SavedLeaderboardsData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2328f28 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d8234 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LocalLeaderboardsModel__SavedLeaderboardsData", modifiers: "&&", def_value: None }]
@@ -308,13 +322,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalLeaderboardsModel__SavedLeaderboardsData, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel__SavedLeaderboardsData, ____leaderboardsData) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4218))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4251))
 // CS Name: ::LocalLeaderboardsModel::<>c*
 class CORDL_TYPE __LocalLeaderboardsModel____c : public ::System::Object {
 public:
@@ -349,16 +365,16 @@ public:
 
   static inline ::GlobalNamespace::__LocalLeaderboardsModel____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x232a348 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d9654 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <AppendLeaderboardScores>b__16_0 addr 0x232a350 size 0x24 virtual false final false
+  /// @brief Method <AppendLeaderboardScores>b__16_0 addr 0x21d965c size 0x24 virtual false final false
   inline int32_t _AppendLeaderboardScores_b__16_0(::GlobalNamespace::__LocalLeaderboardsModel__ScoreData* a, ::GlobalNamespace::__LocalLeaderboardsModel__ScoreData* b);
 
-  /// @brief Method <MigrateQuestLeaderboards>b__17_0 addr 0x232a374 size 0x58 virtual false final false
+  /// @brief Method <MigrateQuestLeaderboards>b__17_0 addr 0x21d9680 size 0x58 virtual false final false
   inline bool _MigrateQuestLeaderboards_b__17_0(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData* leaderboardData);
 
-  /// @brief Method <MigrateQuestLeaderboards>b__17_1 addr 0x232a3cc size 0xc virtual false final false
+  /// @brief Method <MigrateQuestLeaderboards>b__17_1 addr 0x21d96d8 size 0xc virtual false final false
   inline bool _MigrateQuestLeaderboards_b__17_1(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData* leaderboardData);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LocalLeaderboardsModel____c", modifiers: "&&", def_value: None }]
@@ -385,8 +401,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalLeaderbo
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4219))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4252))
 // CS Name: ::LocalLeaderboardsModel*
 class CORDL_TYPE LocalLeaderboardsModel : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -460,83 +476,83 @@ public:
 
   constexpr void __set__dailyLeaderboardsData(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* value);
 
-  /// @brief Method add_newScoreWasAddedToLeaderboardEvent addr 0x2328a50 size 0xb0 virtual false final false
+  /// @brief Method add_newScoreWasAddedToLeaderboardEvent addr 0x21d7d5c size 0xb0 virtual false final false
   inline void add_newScoreWasAddedToLeaderboardEvent(::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>* value);
 
-  /// @brief Method remove_newScoreWasAddedToLeaderboardEvent addr 0x2328b00 size 0xb0 virtual false final false
+  /// @brief Method remove_newScoreWasAddedToLeaderboardEvent addr 0x21d7e0c size 0xb0 virtual false final false
   inline void remove_newScoreWasAddedToLeaderboardEvent(::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>* value);
 
-  /// @brief Method LoadLeaderboardsData addr 0x2328bb0 size 0x240 virtual false final false
+  /// @brief Method LoadLeaderboardsData addr 0x21d7ebc size 0x240 virtual false final false
   inline void LoadLeaderboardsData(::GlobalNamespace::ISaveData* saveData, ::StringW filename,
                                    ByRef<::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*> leaderboardsData);
 
-  /// @brief Method SaveLeaderboardsData addr 0x2328df0 size 0x138 virtual false final false
+  /// @brief Method SaveLeaderboardsData addr 0x21d80fc size 0x138 virtual false final false
   inline void SaveLeaderboardsData(::GlobalNamespace::ISaveData* saveData, ::StringW filename,
                                    ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* leaderboardsData);
 
-  /// @brief Method AppendLeaderboardScores addr 0x2328f30 size 0x174 virtual false final false
+  /// @brief Method AppendLeaderboardScores addr 0x21d823c size 0x174 virtual false final false
   static inline void AppendLeaderboardScores(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* main,
                                              ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* tail, int32_t maxNumberOfScores);
 
-  /// @brief Method MigrateQuestLeaderboards addr 0x23290a4 size 0x360 virtual false final false
+  /// @brief Method MigrateQuestLeaderboards addr 0x21d83b0 size 0x360 virtual false final false
   static inline void MigrateQuestLeaderboards(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* leaderboardDataList, int32_t maxNumberOfScores);
 
-  /// @brief Method Save addr 0x2329404 size 0x7c virtual false final false
+  /// @brief Method Save addr 0x21d8710 size 0x7c virtual false final false
   inline void Save(::GlobalNamespace::ISaveData* saveData);
 
-  /// @brief Method GetLeaderboardsData addr 0x2329480 size 0x28 virtual false final false
+  /// @brief Method GetLeaderboardsData addr 0x21d878c size 0x28 virtual false final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*
   GetLeaderboardsData(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method GetLeaderboardData addr 0x23294a8 size 0xd4 virtual false final false
+  /// @brief Method GetLeaderboardData addr 0x21d87b4 size 0xd4 virtual false final false
   inline ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData* GetLeaderboardData(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method GetCurrentTimestamp addr 0x232957c size 0xcc virtual false final false
+  /// @brief Method GetCurrentTimestamp addr 0x21d8888 size 0xcc virtual false final false
   inline int64_t GetCurrentTimestamp();
 
-  /// @brief Method UpdateDailyLeaderboard addr 0x2329648 size 0xf0 virtual false final false
+  /// @brief Method UpdateDailyLeaderboard addr 0x21d8954 size 0xf0 virtual false final false
   inline void UpdateDailyLeaderboard(::StringW leaderboardId);
 
-  /// @brief Method AddScore addr 0x2329738 size 0x314 virtual false final false
+  /// @brief Method AddScore addr 0x21d8a44 size 0x314 virtual false final false
   inline void AddScore(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType, ::StringW playerName, int32_t score, bool fullCombo);
 
-  /// @brief Method WillScoreGoIntoLeaderboard addr 0x2329a5c size 0xc8 virtual false final false
+  /// @brief Method WillScoreGoIntoLeaderboard addr 0x21d8d68 size 0xc8 virtual false final false
   inline bool WillScoreGoIntoLeaderboard(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType, int32_t score);
 
-  /// @brief Method GetScores addr 0x2329b24 size 0x18 virtual false final false
+  /// @brief Method GetScores addr 0x21d8e30 size 0x18 virtual false final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* GetScores(::StringW leaderboardId,
                                                                                                                     ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method GetHighScore addr 0x2329b3c size 0xa4 virtual false final false
+  /// @brief Method GetHighScore addr 0x21d8e48 size 0xa4 virtual false final false
   inline int32_t GetHighScore(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method GetPositionInLeaderboard addr 0x2329be0 size 0xd4 virtual false final false
+  /// @brief Method GetPositionInLeaderboard addr 0x21d8eec size 0xd4 virtual false final false
   inline int32_t GetPositionInLeaderboard(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType, int32_t score);
 
-  /// @brief Method GetLastScorePosition addr 0x2329cb4 size 0x98 virtual false final false
+  /// @brief Method GetLastScorePosition addr 0x21d8fc0 size 0x98 virtual false final false
   inline int32_t GetLastScorePosition(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method ClearLastScorePosition addr 0x2329d4c size 0x58 virtual false final false
+  /// @brief Method ClearLastScorePosition addr 0x21d9058 size 0x58 virtual false final false
   inline void ClearLastScorePosition();
 
-  /// @brief Method AddScore addr 0x2329da4 size 0x5c virtual false final false
+  /// @brief Method AddScore addr 0x21d90b0 size 0x5c virtual false final false
   inline void AddScore(::StringW leaderboardId, ::StringW playerName, int32_t score, bool fullCombo);
 
-  /// @brief Method WillScoreGoIntoLeaderboard addr 0x2329e00 size 0x50 virtual false final false
+  /// @brief Method WillScoreGoIntoLeaderboard addr 0x21d910c size 0x50 virtual false final false
   inline bool WillScoreGoIntoLeaderboard(::StringW leaderboardId, int32_t score);
 
-  /// @brief Method ClearLeaderboard addr 0x2329e50 size 0x130 virtual false final false
+  /// @brief Method ClearLeaderboard addr 0x21d915c size 0x130 virtual false final false
   inline void ClearLeaderboard(::StringW leaderboardId);
 
-  /// @brief Method ClearAllLeaderboards addr 0x2329f80 size 0x1e4 virtual false final false
+  /// @brief Method ClearAllLeaderboards addr 0x21d928c size 0x1e4 virtual false final false
   inline void ClearAllLeaderboards(::GlobalNamespace::ISaveData* saveData, bool deleteLeaderboardFile);
 
-  /// @brief Method Load addr 0x232a164 size 0xfc virtual false final false
+  /// @brief Method Load addr 0x21d9470 size 0xfc virtual false final false
   inline void Load(::GlobalNamespace::ISaveData* saveData);
 
   static inline ::GlobalNamespace::LocalLeaderboardsModel* New_ctor();
 
-  /// @brief Method .ctor addr 0x232a260 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x21d956c size 0x84 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel", modifiers: "&&", def_value: None }]
@@ -581,6 +597,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LocalLeaderboardsModel, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LocalLeaderboardsModel, ____maxNumberOfScoresInLeaderboard) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LocalLeaderboardsModel, ___newScoreWasAddedToLeaderboardEvent) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LocalLeaderboardsModel, ____lastScorePositions) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LocalLeaderboardsModel, ____lastScoreLeaderboardId) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LocalLeaderboardsModel, ____leaderboardsData) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LocalLeaderboardsModel, ____dailyLeaderboardsData) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType, "", "LocalLeaderboardsModel/LeaderboardType");

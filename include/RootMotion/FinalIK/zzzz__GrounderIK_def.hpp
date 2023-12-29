@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GrounderIK)
+namespace UnityEngine {
+class Transform;
+}
 namespace RootMotion::FinalIK {
 class IK;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 namespace UnityEngine {
 class Rigidbody;
 }
 namespace UnityEngine {
-class Transform;
+struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::GrounderIK);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12518)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12522))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(12446))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12450))
 // CS Name: ::RootMotion.FinalIK::GrounderIK*
 class CORDL_TYPE GrounderIK : public ::RootMotion::FinalIK::Grounder {
 public:
@@ -162,42 +162,42 @@ public:
 
   constexpr void __set_characterRootRigidbody(::UnityEngine::Rigidbody* value);
 
-  /// @brief Method OpenUserManual addr 0x1247848 size 0x44 virtual true final false
+  /// @brief Method OpenUserManual addr 0x11d751c size 0x44 virtual true final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference addr 0x124788c size 0x44 virtual true final false
+  /// @brief Method OpenScriptReference addr 0x11d7560 size 0x44 virtual true final false
   inline void OpenScriptReference();
 
-  /// @brief Method ResetPosition addr 0x12478d0 size 0x18 virtual true final false
+  /// @brief Method ResetPosition addr 0x11d75a4 size 0x18 virtual true final false
   inline void ResetPosition();
 
-  /// @brief Method IsReadyToInitiate addr 0x12478e8 size 0x20c virtual false final false
+  /// @brief Method IsReadyToInitiate addr 0x11d75bc size 0x20c virtual false final false
   inline bool IsReadyToInitiate();
 
-  /// @brief Method OnDisable addr 0x1247af4 size 0xe0 virtual false final false
+  /// @brief Method OnDisable addr 0x11d77c8 size 0xe0 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method Update addr 0x1247bd4 size 0x56c virtual false final false
+  /// @brief Method Update addr 0x11d78a8 size 0x56c virtual false final false
   inline void Update();
 
-  /// @brief Method Initiate addr 0x12482b8 size 0x460 virtual false final false
+  /// @brief Method Initiate addr 0x11d7f8c size 0x460 virtual false final false
   inline void Initiate();
 
-  /// @brief Method OnSolverUpdate addr 0x1248718 size 0x1ac virtual false final false
+  /// @brief Method OnSolverUpdate addr 0x11d83ec size 0x1ac virtual false final false
   inline void OnSolverUpdate();
 
-  /// @brief Method SetLegIK addr 0x12488c4 size 0x388 virtual false final false
+  /// @brief Method SetLegIK addr 0x11d8598 size 0x388 virtual false final false
   inline void SetLegIK(int32_t index);
 
-  /// @brief Method OnPostSolverUpdate addr 0x1248c4c size 0x1d8 virtual false final false
+  /// @brief Method OnPostSolverUpdate addr 0x11d8920 size 0x1d8 virtual false final false
   inline void OnPostSolverUpdate();
 
-  /// @brief Method OnDestroy addr 0x1248e24 size 0x204 virtual false final false
+  /// @brief Method OnDestroy addr 0x11d8af8 size 0x204 virtual false final false
   inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::GrounderIK* New_ctor();
 
-  /// @brief Method .ctor addr 0x1249028 size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x11d8cfc size 0x90 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GrounderIK", modifiers: "&&", def_value: None }]
@@ -260,6 +260,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::GrounderIK, 0xa8>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderIK, ___legs) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderIK, ___pelvis) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderIK, ___characterRoot) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderIK, ___rootRotationWeight) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderIK, ___rootRotationSpeed) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderIK, ___maxRootRotationAngle) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderIK, ___feet) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderIK, ___footRotations) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderIK, ___animatedPelvisLocalPosition) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderIK, ___solvedPelvisLocalPosition) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderIK, ___solvedFeet) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderIK, ___solved) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderIK, ___lastWeight) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderIK, ___characterRootRigidbody) == 0xa0, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::GrounderIK);

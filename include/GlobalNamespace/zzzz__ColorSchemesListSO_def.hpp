@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemesListSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16205))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16044))
 // CS Name: ::ColorSchemesListSO*
 class CORDL_TYPE ColorSchemesListSO : public ::UnityEngine::ScriptableObject {
 public:
@@ -35,12 +35,12 @@ public:
 
   constexpr void __set__colorSchemes(::ArrayW<::GlobalNamespace::ColorSchemeSO*, ::Array<::GlobalNamespace::ColorSchemeSO*>*> value);
 
-  /// @brief Method get_colorSchemes addr 0x122d580 size 0x8 virtual false final false
+  /// @brief Method get_colorSchemes addr 0x11bd254 size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::ColorSchemeSO*, ::Array<::GlobalNamespace::ColorSchemeSO*>*> get_colorSchemes();
 
   static inline ::GlobalNamespace::ColorSchemesListSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x122d588 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x11bd25c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesListSO", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemesListSO, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemesListSO, ____colorSchemes) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorSchemesListSO);

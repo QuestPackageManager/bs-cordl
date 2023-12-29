@@ -16,12 +16,12 @@ MARK_VAL_T(::UnityEngine::TerrainUtils::TerrainTileCoord);
 namespace UnityEngine::TerrainUtils {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15477))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15461))
 // CS Name: ::UnityEngine.TerrainUtils::TerrainTileCoord
 struct CORDL_TYPE TerrainTileCoord {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2d1e87c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2bb74cc size 0x8 virtual false final false
   inline void _ctor(int32_t tileX, int32_t tileZ);
 
   // Ctor Parameters [CppParam { name: "tileX", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tileZ", ty: "int32_t", modifiers: "", def_value: None }]
@@ -44,6 +44,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TerrainUtils::TerrainTileCoord, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TerrainUtils::TerrainTileCoord, tileX) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TerrainUtils::TerrainTileCoord, tileZ) == 0x4, "Offset mismatch!");
 
 } // namespace UnityEngine::TerrainUtils
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TerrainUtils::TerrainTileCoord, "UnityEngine.TerrainUtils", "TerrainTileCoord");

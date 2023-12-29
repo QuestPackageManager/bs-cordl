@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebRequestQueue)
-namespace UnityEngine::ResourceManagement {
-class WebRequestQueueOperation;
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
 namespace UnityEngine {
 class AsyncOperation;
@@ -15,13 +15,13 @@ namespace UnityEngine::Networking {
 class UnityWebRequestAsyncOperation;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class Queue_1;
 }
-namespace UnityEngine::Networking {
-class UnityWebRequest;
+namespace UnityEngine::ResourceManagement {
+class WebRequestQueueOperation;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::WebRequestQueue);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13960))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14231))
 // CS Name: ::UnityEngine.ResourceManagement::WebRequestQueue*
 class CORDL_TYPE WebRequestQueue : public ::System::Object {
 public:
@@ -62,16 +62,16 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* getStaticF_s_ActiveRequests();
 
-  /// @brief Method SetMaxConcurrentRequests addr 0x2bcefa0 size 0xc4 virtual false final false
+  /// @brief Method SetMaxConcurrentRequests addr 0x2a4c24c size 0xc4 virtual false final false
   static inline void SetMaxConcurrentRequests(int32_t maxRequests);
 
-  /// @brief Method QueueRequest addr 0x2bcf064 size 0x344 virtual false final false
+  /// @brief Method QueueRequest addr 0x2a4c310 size 0x344 virtual false final false
   static inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* QueueRequest(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method WaitForRequestToBeActive addr 0x2bcf608 size 0x48c virtual false final false
+  /// @brief Method WaitForRequestToBeActive addr 0x2a4c8b4 size 0x48c virtual false final false
   static inline void WaitForRequestToBeActive(::UnityEngine::ResourceManagement::WebRequestQueueOperation* request, int32_t millisecondsTimeout);
 
-  /// @brief Method OnWebAsyncOpComplete addr 0x2bcf3a8 size 0x260 virtual false final false
+  /// @brief Method OnWebAsyncOpComplete addr 0x2a4c654 size 0x260 virtual false final false
   static inline void OnWebAsyncOpComplete(::UnityEngine::AsyncOperation* operation);
 
   // Ctor Parameters [CppParam { name: "", ty: "WebRequestQueue", modifiers: "&&", def_value: None }]

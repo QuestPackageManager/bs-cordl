@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(CertRepMessage)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class CertResponse;
-}
-namespace System {
-class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class CmpCertificate;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -56,26 +56,26 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertRepMessage* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe6503c size 0xf8 virtual false final false
+  /// @brief Method .ctor addr 0xdefe6c size 0xf8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe65134 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xdeff64 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertRepMessage* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertRepMessage* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> caPubs,
                                                                          ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertResponse*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CertResponse*>*> response);
 
-  /// @brief Method .ctor addr 0xe652bc size 0xf4 virtual false final false
+  /// @brief Method .ctor addr 0xdf00ec size 0xf4 virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> caPubs,
                     ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertResponse*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CertResponse*>*> response);
 
-  /// @brief Method GetCAPubs addr 0xe653b0 size 0xfc virtual true final false
+  /// @brief Method GetCAPubs addr 0xdf01e0 size 0xfc virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> GetCAPubs();
 
-  /// @brief Method GetResponse addr 0xe654ac size 0xf4 virtual true final false
+  /// @brief Method GetResponse addr 0xdf02dc size 0xf4 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertResponse*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CertResponse*>*> GetResponse();
 
-  /// @brief Method ToAsn1Object addr 0xe65728 size 0xb8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xdf0558 size 0xb8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertRepMessage", modifiers: "&&", def_value: None }]
@@ -102,6 +102,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::CertRepMessage, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::CertRepMessage, ___caPubs) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::CertRepMessage, ___response) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::CertRepMessage);

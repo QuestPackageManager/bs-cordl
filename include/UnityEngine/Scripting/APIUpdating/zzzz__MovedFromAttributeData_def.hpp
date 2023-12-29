@@ -16,12 +16,12 @@ MARK_VAL_T(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData);
 namespace UnityEngine::Scripting::APIUpdating {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10320))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10242))
 // CS Name: ::UnityEngine.Scripting.APIUpdating::MovedFromAttributeData
 struct CORDL_TYPE MovedFromAttributeData {
 public:
   // Declarations
-  /// @brief Method Set addr 0x2ce9d9c size 0x38 virtual false final false
+  /// @brief Method Set addr 0x2b82968 size 0x38 virtual false final false
   inline void Set(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
 
   // Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "nameSpace", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
@@ -62,6 +62,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, className) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, nameSpace) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, assembly) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, classHasChanged) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, nameSpaceHasChanged) == 0x19, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, assemblyHasChanged) == 0x1a, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, autoUdpateAPI) == 0x1b, "Offset mismatch!");
 
 } // namespace UnityEngine::Scripting::APIUpdating
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, "UnityEngine.Scripting.APIUpdating", "MovedFromAttributeData");

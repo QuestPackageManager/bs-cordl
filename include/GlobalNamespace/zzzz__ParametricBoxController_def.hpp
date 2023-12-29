@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParametricBoxController)
 namespace UnityEngine {
-class MaterialPropertyBlock;
+class MeshRenderer;
 }
 namespace UnityEngine {
-class MeshRenderer;
+class MaterialPropertyBlock;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ParametricBoxController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14486))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14704))
 // CS Name: ::ParametricBoxController*
 class CORDL_TYPE ParametricBoxController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -179,21 +179,21 @@ public:
 
   static inline int32_t getStaticF__widthEndID();
 
-  /// @brief Method Awake addr 0x2108f34 size 0x20 virtual false final false
+  /// @brief Method Awake addr 0x1fb3b58 size 0x20 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnEnable addr 0x2108f54 size 0x28 virtual false final false
+  /// @brief Method OnEnable addr 0x1fb3b78 size 0x28 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x21091d4 size 0x20 virtual false final false
+  /// @brief Method OnDisable addr 0x1fb3df8 size 0x20 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method Refresh addr 0x2108f7c size 0x258 virtual false final false
+  /// @brief Method Refresh addr 0x1fb3ba0 size 0x258 virtual false final false
   inline void Refresh();
 
   static inline ::GlobalNamespace::ParametricBoxController* New_ctor();
 
-  /// @brief Method .ctor addr 0x21091f4 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x1fb3e18 size 0x24 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParametricBoxController", modifiers: "&&", def_value: None }]
@@ -250,6 +250,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ParametricBoxController, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParametricBoxController, ___width) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParametricBoxController, ___height) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParametricBoxController, ___length) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParametricBoxController, ___heightCenter) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParametricBoxController, ___color) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParametricBoxController, ___alphaMultiplier) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParametricBoxController, ___minAlpha) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParametricBoxController, ___alphaStart) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParametricBoxController, ___alphaEnd) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParametricBoxController, ___widthStart) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParametricBoxController, ___widthEnd) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ParametricBoxController, ____meshRenderer) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ParametricBoxController);

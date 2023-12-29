@@ -8,59 +8,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConcurrentDictionary_2)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
-}
 namespace System::Collections {
-struct DictionaryEntry;
+class ICollection;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
+template <typename TKey, typename TValue> class IDictionary_2;
+}
+namespace System::Collections::Concurrent {
+template <typename TKey, typename TValue> class __ConcurrentDictionary_2__Node;
+}
+namespace System::Collections {
+struct DictionaryEntry;
 }
 namespace System::Collections::Concurrent {
 template <typename TKey, typename TValue> class __ConcurrentDictionary_2___GetEnumerator_d__35;
 }
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class __ConcurrentDictionary_2__DictionaryEnumerator;
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-class Array;
-}
 namespace System::Collections::ObjectModel {
 template <typename T> class ReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Collections {
 class IDictionaryEnumerator;
@@ -69,13 +51,31 @@ namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class __ConcurrentDictionary_2__Tables;
+template <typename TKey, typename TValue> class __ConcurrentDictionary_2__DictionaryEnumerator;
 }
 namespace System::Collections {
-class ICollection;
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class __ConcurrentDictionary_2__Node;
+template <typename TKey, typename TValue> class __ConcurrentDictionary_2__Tables;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
 }
 namespace System {
 class IDisposable;
@@ -108,8 +108,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3806))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3794))
 // CS Name: ::ConcurrentDictionary`2::Tables<TKey,TValue>*
 class CORDL_TYPE __ConcurrentDictionary_2__Tables : public ::System::Object {
 public:
@@ -188,8 +188,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3807))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3795))
 // CS Name: ::ConcurrentDictionary`2::Node<TKey,TValue>*
 class CORDL_TYPE __ConcurrentDictionary_2__Node : public ::System::Object {
 public:
@@ -272,8 +272,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3808))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3796))
 // CS Name: ::ConcurrentDictionary`2::DictionaryEnumerator<TKey,TValue>*
 class CORDL_TYPE __ConcurrentDictionary_2__DictionaryEnumerator : public ::System::Object {
 public:
@@ -352,8 +352,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1104 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3809)) CS Name: ::ConcurrentDictionary`2::<GetEnumerator>d__35<TKey,TValue>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3829)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3829), inst: 1082
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3797)) CS Name: ::ConcurrentDictionary`2::<GetEnumerator>d__35<TKey,TValue>*
 class CORDL_TYPE __ConcurrentDictionary_2___GetEnumerator_d__35 : public ::System::Object {
 public:
   // Declarations
@@ -493,8 +493,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3810))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3798))
 // CS Name: ::System.Collections.Concurrent::ConcurrentDictionary`2<TKey,TValue>*
 class CORDL_TYPE ConcurrentDictionary_2 : public ::System::Object {
 public:

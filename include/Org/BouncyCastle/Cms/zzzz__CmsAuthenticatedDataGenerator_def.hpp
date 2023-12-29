@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Cms/zzzz__CmsAuthenticatedGenerator_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CmsAuthenticatedDataGenerator)
-namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
+namespace Org::BouncyCastle::Crypto {
+class CipherKeyGenerator;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsAuthenticatedData;
+class CmsProcessable;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Crypto {
-class CipherKeyGenerator;
+namespace Org::BouncyCastle::Cms {
+class CmsAuthenticatedData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -35,18 +35,18 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x11d984c size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x11685fc size 0x4 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor addr 0x11d9850 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x1168600 size 0x4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method Generate addr 0x11d9854 size 0xb40 virtual false final false
+  /// @brief Method Generate addr 0x1168604 size 0xb40 virtual false final false
   inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW macOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator* keyGen);
 
-  /// @brief Method Generate addr 0x11da394 size 0x1b4 virtual false final false
+  /// @brief Method Generate addr 0x1169144 size 0x1b4 virtual false final false
   inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataGenerator", modifiers: "&&", def_value: None }]

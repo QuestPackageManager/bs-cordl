@@ -16,65 +16,65 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKSolverVR)
-namespace UnityEngine {
-struct Keyframe;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace RootMotion::FinalIK {
-class __IKSolverVR__VirtualBone;
-}
-namespace RootMotion::FinalIK {
-class __IKSolverVR__BodyPart;
-}
 namespace RootMotion::FinalIK {
 class __IKSolver__Point;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class __IKSolverVR__Footstep;
 }
 namespace RootMotion::FinalIK {
-class __IKSolverVR__Leg;
-}
-namespace RootMotion::FinalIK {
-class __IKSolverVR__Arm;
+class __IKSolverVR__Locomotion;
 }
 namespace RootMotion::FinalIK {
 struct __IKSolverVR__PositionOffset;
 }
 namespace UnityEngine {
+class Transform;
+}
+namespace RootMotion::FinalIK {
+class __IKSolverVR__Leg;
+}
+namespace UnityEngine {
 struct Quaternion;
 }
 namespace RootMotion::FinalIK {
-struct __IKSolverVR__RotationOffset;
+class __VRIK__References;
+}
+namespace RootMotion::FinalIK {
+class __IKSolverVR__BodyPart;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class __IKSolverVR__Spine;
 }
 namespace RootMotion::FinalIK {
-class __IKSolverVR__Locomotion;
+class __IKSolverVR__Arm;
+}
+namespace UnityEngine {
+struct Keyframe;
 }
 namespace RootMotion::FinalIK {
-class __VRIK__References;
+struct __IKSolverVR__RotationOffset;
+}
+namespace RootMotion::FinalIK {
+class __IKSolverVR__VirtualBone;
 }
 namespace GlobalNamespace {
 struct __IKSolverVR__Arm__ShoulderRotationMode;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
 class AnimationCurve;
 }
-namespace RootMotion {
-struct InterpolationMode;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::Events {
 class UnityEvent;
+}
+namespace RootMotion {
+struct InterpolationMode;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -127,7 +127,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__IKSolverVR__VirtualBone);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12583))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12511))
 // CS Name: ::IKSolverVR::Arm::ShoulderRotationMode
 struct CORDL_TYPE __IKSolverVR__Arm__ShoulderRotationMode {
 public:
@@ -169,13 +169,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BodyPart
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12585))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12513))
 // CS Name: ::IKSolverVR::BodyPart*
 class CORDL_TYPE __IKSolverVR__BodyPart : public ::System::Object {
 public:
@@ -273,49 +275,49 @@ public:
   /// @brief Method ResetOffsets addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void ResetOffsets();
 
-  /// @brief Method get_sqrMag addr 0x127a2cc size 0x8 virtual false final false
+  /// @brief Method get_sqrMag addr 0x1209fa0 size 0x8 virtual false final false
   inline float_t get_sqrMag();
 
-  /// @brief Method set_sqrMag addr 0x127a2d4 size 0x8 virtual false final false
+  /// @brief Method set_sqrMag addr 0x1209fa8 size 0x8 virtual false final false
   inline void set_sqrMag(float_t value);
 
-  /// @brief Method get_mag addr 0x127a2dc size 0x8 virtual false final false
+  /// @brief Method get_mag addr 0x1209fb0 size 0x8 virtual false final false
   inline float_t get_mag();
 
-  /// @brief Method set_mag addr 0x127a2e4 size 0x8 virtual false final false
+  /// @brief Method set_mag addr 0x1209fb8 size 0x8 virtual false final false
   inline void set_mag(float_t value);
 
-  /// @brief Method SetLOD addr 0x127a2ec size 0x8 virtual false final false
+  /// @brief Method SetLOD addr 0x1209fc0 size 0x8 virtual false final false
   inline void SetLOD(int32_t LOD);
 
-  /// @brief Method Read addr 0x126b6ec size 0xc0 virtual false final false
+  /// @brief Method Read addr 0x11fb3c0 size 0xc0 virtual false final false
   inline void Read(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
                    bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int32_t rootIndex, int32_t index);
 
-  /// @brief Method MovePosition addr 0x127a2f4 size 0x88 virtual false final false
+  /// @brief Method MovePosition addr 0x1209fc8 size 0x88 virtual false final false
   inline void MovePosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method MoveRotation addr 0x127a37c size 0x98 virtual false final false
+  /// @brief Method MoveRotation addr 0x120a050 size 0x98 virtual false final false
   inline void MoveRotation(::UnityEngine::Quaternion rotation);
 
-  /// @brief Method Translate addr 0x127a414 size 0x48 virtual false final false
+  /// @brief Method Translate addr 0x120a0e8 size 0x48 virtual false final false
   inline void Translate(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method TranslateRoot addr 0x12765bc size 0x128 virtual false final false
+  /// @brief Method TranslateRoot addr 0x1206290 size 0x128 virtual false final false
   inline void TranslateRoot(::UnityEngine::Vector3 newRootPos, ::UnityEngine::Quaternion newRootRot);
 
-  /// @brief Method RotateTo addr 0x1279d50 size 0x168 virtual false final false
+  /// @brief Method RotateTo addr 0x1209a24 size 0x168 virtual false final false
   inline void RotateTo(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* bone, ::UnityEngine::Quaternion rotation, float_t weight);
 
-  /// @brief Method Visualize addr 0x127a45c size 0x124 virtual false final false
+  /// @brief Method Visualize addr 0x120a130 size 0x124 virtual false final false
   inline void Visualize(::UnityEngine::Color color);
 
-  /// @brief Method Visualize addr 0x127a580 size 0x14 virtual false final false
+  /// @brief Method Visualize addr 0x120a254 size 0x14 virtual false final false
   inline void Visualize();
 
   static inline ::RootMotion::FinalIK::__IKSolverVR__BodyPart* New_ctor();
 
-  /// @brief Method .ctor addr 0x127a234 size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x1209f08 size 0x98 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolverVR__BodyPart", modifiers: "&&", def_value: None }]
@@ -361,13 +363,29 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__IKSolverVR__BodyPart, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__BodyPart, ____sqrMag_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__BodyPart, ____mag_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__BodyPart, ___bones) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__BodyPart, ___initiated) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__BodyPart, ___rootPosition) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__BodyPart, ___rootRotation) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__BodyPart, ___index) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__BodyPart, ___LOD) == 0x44, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::Arm
 // SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 328, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12583)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12585))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12584)) CS Name: ::IKSolverVR::Arm*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(12513)), TypeDefinitionIndex(TypeDefinitionIndex(10176)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12511))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12512)) CS Name: ::IKSolverVR::Arm*
 class CORDL_TYPE __IKSolverVR__Arm : public ::RootMotion::FinalIK::__IKSolverVR__BodyPart {
 public:
   // Declarations
@@ -628,66 +646,66 @@ public:
 
   constexpr void __set_upperArmBendAxis(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_position addr 0x1278864 size 0xc virtual false final false
+  /// @brief Method get_position addr 0x1208538 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method set_position addr 0x1278870 size 0xc virtual false final false
+  /// @brief Method set_position addr 0x1208544 size 0xc virtual false final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_rotation addr 0x127887c size 0xc virtual false final false
+  /// @brief Method get_rotation addr 0x1208550 size 0xc virtual false final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method set_rotation addr 0x1278888 size 0xc virtual false final false
+  /// @brief Method set_rotation addr 0x120855c size 0xc virtual false final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method get_shoulder addr 0x1278894 size 0x28 virtual false final false
+  /// @brief Method get_shoulder addr 0x1208568 size 0x28 virtual false final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_shoulder();
 
-  /// @brief Method get_upperArm addr 0x12788bc size 0x34 virtual false final false
+  /// @brief Method get_upperArm addr 0x1208590 size 0x34 virtual false final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_upperArm();
 
-  /// @brief Method get_forearm addr 0x12788f0 size 0x40 virtual false final false
+  /// @brief Method get_forearm addr 0x12085c4 size 0x40 virtual false final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_forearm();
 
-  /// @brief Method get_hand addr 0x1278930 size 0x40 virtual false final false
+  /// @brief Method get_hand addr 0x1208604 size 0x40 virtual false final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_hand();
 
-  /// @brief Method OnRead addr 0x1278970 size 0x844 virtual true final false
+  /// @brief Method OnRead addr 0x1208644 size 0x844 virtual true final false
   inline void OnRead(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
                      bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int32_t rootIndex, int32_t index);
 
-  /// @brief Method PreSolve addr 0x12791b4 size 0x2ac virtual true final false
+  /// @brief Method PreSolve addr 0x1208e88 size 0x2ac virtual true final false
   inline void PreSolve();
 
-  /// @brief Method ApplyOffsets addr 0x1279460 size 0x24 virtual true final false
+  /// @brief Method ApplyOffsets addr 0x1209134 size 0x24 virtual true final false
   inline void ApplyOffsets();
 
-  /// @brief Method Stretching addr 0x1279484 size 0x350 virtual false final false
+  /// @brief Method Stretching addr 0x1209158 size 0x350 virtual false final false
   inline void Stretching();
 
-  /// @brief Method Solve addr 0x12766e4 size 0x15e4 virtual false final false
+  /// @brief Method Solve addr 0x12063b8 size 0x15e4 virtual false final false
   inline void Solve(bool isLeft);
 
-  /// @brief Method ResetOffsets addr 0x1279eb8 size 0x58 virtual true final false
+  /// @brief Method ResetOffsets addr 0x1209b8c size 0x58 virtual true final false
   inline void ResetOffsets();
 
-  /// @brief Method Write addr 0x1279f10 size 0x20c virtual true final false
+  /// @brief Method Write addr 0x1209be4 size 0x20c virtual true final false
   inline void Write(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> solvedPositions,
                     ByRef<::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>> solvedRotations);
 
-  /// @brief Method DamperValue addr 0x12797d4 size 0x80 virtual false final false
+  /// @brief Method DamperValue addr 0x12094a8 size 0x80 virtual false final false
   inline float_t DamperValue(float_t value, float_t min, float_t max, float_t weight);
 
-  /// @brief Method GetBendNormal addr 0x1279854 size 0x4fc virtual false final false
+  /// @brief Method GetBendNormal addr 0x1209528 size 0x4fc virtual false final false
   inline ::UnityEngine::Vector3 GetBendNormal(::UnityEngine::Vector3 dir);
 
-  /// @brief Method Visualize addr 0x127a11c size 0x118 virtual false final false
+  /// @brief Method Visualize addr 0x1209df0 size 0x118 virtual false final false
   inline void Visualize(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* bone1, ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* bone2, ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* bone3,
                         ::UnityEngine::Color color);
 
   static inline ::RootMotion::FinalIK::__IKSolverVR__Arm* New_ctor();
 
-  /// @brief Method .ctor addr 0x12785ec size 0x18c virtual false final false
+  /// @brief Method .ctor addr 0x12082c0 size 0x18c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolverVR__Arm", modifiers: "&&", def_value: None }]
@@ -796,13 +814,67 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__IKSolverVR__Arm, 0x148>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___target) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___bendGoal) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___positionWeight) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___rotationWeight) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___shoulderRotationMode) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___shoulderRotationWeight) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___shoulderTwistWeight) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___bendGoalWeight) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___swivelOffset) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___wristToPalmAxis) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___palmToThumbAxis) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___armLengthMlp) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___stretchCurve) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___IKPosition) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___IKRotation) == 0xa4, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___bendDirection) == 0xb4, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___handPositionOffset) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ____position_k__BackingField) == 0xcc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ____rotation_k__BackingField) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___hasShoulder) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___chestForwardAxis) == 0xec, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___chestUpAxis) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___chestRotation) == 0x104, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___chestForward) == 0x114, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___chestUp) == 0x120, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___forearmRelToUpperArm) == 0x12c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___upperArmBendAxis) == 0x13c, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::Footstep
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 164, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12586))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12514))
 // CS Name: ::IKSolverVR::Footstep*
 class CORDL_TYPE __IKSolverVR__Footstep : public ::System::Object {
 public:
@@ -937,34 +1009,34 @@ public:
 
   constexpr void __set_supportLegWV(float_t value);
 
-  /// @brief Method get_isStepping addr 0x127a594 size 0x14 virtual false final false
+  /// @brief Method get_isStepping addr 0x120a268 size 0x14 virtual false final false
   inline bool get_isStepping();
 
-  /// @brief Method get_stepProgress addr 0x127a5a8 size 0x8 virtual false final false
+  /// @brief Method get_stepProgress addr 0x120a27c size 0x8 virtual false final false
   inline float_t get_stepProgress();
 
-  /// @brief Method set_stepProgress addr 0x127a5b0 size 0x8 virtual false final false
+  /// @brief Method set_stepProgress addr 0x120a284 size 0x8 virtual false final false
   inline void set_stepProgress(float_t value);
 
   static inline ::RootMotion::FinalIK::__IKSolverVR__Footstep* New_ctor(::UnityEngine::Quaternion rootRotation, ::UnityEngine::Vector3 footPosition, ::UnityEngine::Quaternion footRotation,
                                                                         ::UnityEngine::Vector3 characterSpaceOffset);
 
-  /// @brief Method .ctor addr 0x127a5b8 size 0x1c4 virtual false final false
+  /// @brief Method .ctor addr 0x120a28c size 0x1c4 virtual false final false
   inline void _ctor(::UnityEngine::Quaternion rootRotation, ::UnityEngine::Vector3 footPosition, ::UnityEngine::Quaternion footRotation, ::UnityEngine::Vector3 characterSpaceOffset);
 
-  /// @brief Method Reset addr 0x127a77c size 0x48 virtual false final false
+  /// @brief Method Reset addr 0x120a450 size 0x48 virtual false final false
   inline void Reset(::UnityEngine::Quaternion rootRotation, ::UnityEngine::Vector3 footPosition, ::UnityEngine::Quaternion footRotation);
 
-  /// @brief Method StepTo addr 0x127a7c4 size 0x224 virtual false final false
+  /// @brief Method StepTo addr 0x120a498 size 0x224 virtual false final false
   inline void StepTo(::UnityEngine::Vector3 p, ::UnityEngine::Quaternion rootRotation, float_t stepThreshold);
 
-  /// @brief Method UpdateStepping addr 0x127a9e8 size 0x208 virtual false final false
+  /// @brief Method UpdateStepping addr 0x120a6bc size 0x208 virtual false final false
   inline void UpdateStepping(::UnityEngine::Vector3 p, ::UnityEngine::Quaternion rootRotation, float_t speed);
 
-  /// @brief Method UpdateStanding addr 0x127abf0 size 0x1e4 virtual false final false
+  /// @brief Method UpdateStanding addr 0x120a8c4 size 0x1e4 virtual false final false
   inline void UpdateStanding(::UnityEngine::Quaternion rootRotation, float_t minAngle, float_t speed);
 
-  /// @brief Method Update addr 0x127add4 size 0x174 virtual false final false
+  /// @brief Method Update addr 0x120aaa8 size 0x174 virtual false final false
   inline void Update(::RootMotion::InterpolationMode interpolation, ::UnityEngine::Events::UnityEvent* onStep);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolverVR__Footstep", modifiers: "&&", def_value: None }]
@@ -1028,13 +1100,41 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__IKSolverVR__Footstep, 0xa8>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Footstep, ___stepSpeed) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Footstep, ___characterSpaceOffset) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Footstep, ___position) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Footstep, ___rotation) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Footstep, ___stepToRootRot) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Footstep, ___isSupportLeg) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Footstep, ____stepProgress_k__BackingField) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Footstep, ___stepFrom) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Footstep, ___stepTo) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Footstep, ___stepFromRot) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Footstep, ___stepToRot) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Footstep, ___footRelativeToRoot) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Footstep, ___supportLegW) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Footstep, ___supportLegWV) == 0xa0, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::Leg
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12585)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12587))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12513)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12515))
 // CS Name: ::IKSolverVR::Leg*
 class CORDL_TYPE __IKSolverVR__Leg : public ::RootMotion::FinalIK::__IKSolverVR__BodyPart {
 public:
@@ -1300,80 +1400,80 @@ public:
 
   constexpr void __set_bendNormalRelToTarget(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_position addr 0x127af48 size 0xc virtual false final false
+  /// @brief Method get_position addr 0x120ac1c size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method set_position addr 0x127af54 size 0xc virtual false final false
+  /// @brief Method set_position addr 0x120ac28 size 0xc virtual false final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_rotation addr 0x127af60 size 0xc virtual false final false
+  /// @brief Method get_rotation addr 0x120ac34 size 0xc virtual false final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method set_rotation addr 0x127af6c size 0xc virtual false final false
+  /// @brief Method set_rotation addr 0x120ac40 size 0xc virtual false final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method get_hasToes addr 0x127af78 size 0x8 virtual false final false
+  /// @brief Method get_hasToes addr 0x120ac4c size 0x8 virtual false final false
   inline bool get_hasToes();
 
-  /// @brief Method set_hasToes addr 0x127af80 size 0xc virtual false final false
+  /// @brief Method set_hasToes addr 0x120ac54 size 0xc virtual false final false
   inline void set_hasToes(bool value);
 
-  /// @brief Method get_thigh addr 0x127af8c size 0x28 virtual false final false
+  /// @brief Method get_thigh addr 0x120ac60 size 0x28 virtual false final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_thigh();
 
-  /// @brief Method get_calf addr 0x127afb4 size 0x2c virtual false final false
+  /// @brief Method get_calf addr 0x120ac88 size 0x2c virtual false final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_calf();
 
-  /// @brief Method get_foot addr 0x127afe0 size 0x2c virtual false final false
+  /// @brief Method get_foot addr 0x120acb4 size 0x2c virtual false final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_foot();
 
-  /// @brief Method get_toes addr 0x127b00c size 0x2c virtual false final false
+  /// @brief Method get_toes addr 0x120ace0 size 0x2c virtual false final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_toes();
 
-  /// @brief Method get_lastBone addr 0x1276588 size 0x34 virtual false final false
+  /// @brief Method get_lastBone addr 0x120625c size 0x34 virtual false final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_lastBone();
 
-  /// @brief Method get_thighRelativeToPelvis addr 0x127b038 size 0xc virtual false final false
+  /// @brief Method get_thighRelativeToPelvis addr 0x120ad0c size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_thighRelativeToPelvis();
 
-  /// @brief Method set_thighRelativeToPelvis addr 0x127b044 size 0xc virtual false final false
+  /// @brief Method set_thighRelativeToPelvis addr 0x120ad18 size 0xc virtual false final false
   inline void set_thighRelativeToPelvis(::UnityEngine::Vector3 value);
 
-  /// @brief Method OnRead addr 0x127b050 size 0x568 virtual true final false
+  /// @brief Method OnRead addr 0x120ad24 size 0x568 virtual true final false
   inline void OnRead(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
                      bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int32_t rootIndex, int32_t index);
 
-  /// @brief Method PreSolve addr 0x127b5b8 size 0x4d4 virtual true final false
+  /// @brief Method PreSolve addr 0x120b28c size 0x4d4 virtual true final false
   inline void PreSolve();
 
-  /// @brief Method ApplyOffsets addr 0x127bd28 size 0x4dc virtual true final false
+  /// @brief Method ApplyOffsets addr 0x120b9fc size 0x4dc virtual true final false
   inline void ApplyOffsets();
 
-  /// @brief Method ApplyPositionOffset addr 0x127bcd8 size 0x50 virtual false final false
+  /// @brief Method ApplyPositionOffset addr 0x120b9ac size 0x50 virtual false final false
   inline void ApplyPositionOffset(::UnityEngine::Vector3 offset, float_t weight);
 
-  /// @brief Method ApplyRotationOffset addr 0x127ba8c size 0x24c virtual false final false
+  /// @brief Method ApplyRotationOffset addr 0x120b760 size 0x24c virtual false final false
   inline void ApplyRotationOffset(::UnityEngine::Quaternion offset, float_t weight);
 
-  /// @brief Method Solve addr 0x126b544 size 0x1a8 virtual false final false
+  /// @brief Method Solve addr 0x11fb218 size 0x1a8 virtual false final false
   inline void Solve(bool stretch);
 
-  /// @brief Method FixTwistRotations addr 0x127c5e0 size 0x458 virtual false final false
+  /// @brief Method FixTwistRotations addr 0x120c2b4 size 0x458 virtual false final false
   inline void FixTwistRotations();
 
-  /// @brief Method Stretching addr 0x127c204 size 0x3dc virtual false final false
+  /// @brief Method Stretching addr 0x120bed8 size 0x3dc virtual false final false
   inline void Stretching();
 
-  /// @brief Method Write addr 0x127ca38 size 0x208 virtual true final false
+  /// @brief Method Write addr 0x120c70c size 0x208 virtual true final false
   inline void Write(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> solvedPositions,
                     ByRef<::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>> solvedRotations);
 
-  /// @brief Method ResetOffsets addr 0x127cc40 size 0xe0 virtual true final false
+  /// @brief Method ResetOffsets addr 0x120c914 size 0xe0 virtual true final false
   inline void ResetOffsets();
 
   static inline ::RootMotion::FinalIK::__IKSolverVR__Leg* New_ctor();
 
-  /// @brief Method .ctor addr 0x126b940 size 0xdc virtual false final false
+  /// @brief Method .ctor addr 0x11fb614 size 0xdc virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolverVR__Leg", modifiers: "&&", def_value: None }]
@@ -1476,13 +1576,67 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__IKSolverVR__Leg, 0x150>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___target) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___bendGoal) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___positionWeight) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___rotationWeight) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___bendGoalWeight) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___swivelOffset) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___bendToTargetWeight) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___legLengthMlp) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___stretchCurve) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___IKPosition) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___IKRotation) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___footPositionOffset) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___heelPositionOffset) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___footRotationOffset) == 0xac, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___currentMag) == 0xbc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___useAnimatedBendNormal) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ____position_k__BackingField) == 0xc4, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ____rotation_k__BackingField) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ____hasToes_k__BackingField) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ____thighRelativeToPelvis_k__BackingField) == 0xe4, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___footPosition) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___footRotation) == 0xfc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___bendNormal) == 0x10c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___calfRelToThigh) == 0x118, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___thighRelToFoot) == 0x128, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___bendNormalRelToPelvis) == 0x138, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___bendNormalRelToTarget) == 0x144, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::Locomotion
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12493)), TypeDefinitionIndex(TypeDefinitionIndex(10204)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12588)) CS Name: ::IKSolverVR::Locomotion*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10132)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12421))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12516)) CS Name: ::IKSolverVR::Locomotion*
 class CORDL_TYPE __IKSolverVR__Locomotion : public ::System::Object {
 public:
   // Declarations
@@ -1748,54 +1902,54 @@ public:
 
   constexpr void __set_rightFootIndex(int32_t value);
 
-  /// @brief Method get_centerOfMass addr 0x127cd20 size 0xc virtual false final false
+  /// @brief Method get_centerOfMass addr 0x120c9f4 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_centerOfMass();
 
-  /// @brief Method set_centerOfMass addr 0x127cd2c size 0xc virtual false final false
+  /// @brief Method set_centerOfMass addr 0x120ca00 size 0xc virtual false final false
   inline void set_centerOfMass(::UnityEngine::Vector3 value);
 
-  /// @brief Method Initiate addr 0x1274ec4 size 0x2f4 virtual false final false
+  /// @brief Method Initiate addr 0x1204b98 size 0x2f4 virtual false final false
   inline void Initiate(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasToes);
 
-  /// @brief Method Reset addr 0x12729c4 size 0x1e4 virtual false final false
+  /// @brief Method Reset addr 0x1202698 size 0x1e4 virtual false final false
   inline void Reset(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations);
 
-  /// @brief Method AddDeltaRotation addr 0x1271e90 size 0x3c8 virtual false final false
+  /// @brief Method AddDeltaRotation addr 0x1201b64 size 0x3c8 virtual false final false
   inline void AddDeltaRotation(::UnityEngine::Quaternion delta, ::UnityEngine::Vector3 pivot);
 
-  /// @brief Method AddDeltaPosition addr 0x1271dd8 size 0xb8 virtual false final false
+  /// @brief Method AddDeltaPosition addr 0x1201aac size 0xb8 virtual false final false
   inline void AddDeltaPosition(::UnityEngine::Vector3 delta);
 
-  /// @brief Method Solve addr 0x12751b8 size 0x13d0 virtual false final false
+  /// @brief Method Solve addr 0x1204e8c size 0x13d0 virtual false final false
   inline void Solve(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* rootBone, ::RootMotion::FinalIK::__IKSolverVR__Spine* spine, ::RootMotion::FinalIK::__IKSolverVR__Leg* leftLeg,
                     ::RootMotion::FinalIK::__IKSolverVR__Leg* rightLeg, ::RootMotion::FinalIK::__IKSolverVR__Arm* leftArm, ::RootMotion::FinalIK::__IKSolverVR__Arm* rightArm, int32_t supportLegIndex,
                     ByRef<::UnityEngine::Vector3> leftFootPosition, ByRef<::UnityEngine::Vector3> rightFootPosition, ByRef<::UnityEngine::Quaternion> leftFootRotation,
                     ByRef<::UnityEngine::Quaternion> rightFootRotation, ByRef<float_t> leftFootOffset, ByRef<float_t> rightFootOffset, ByRef<float_t> leftHeelOffset, ByRef<float_t> rightHeelOffset);
 
-  /// @brief Method get_leftFootstepPosition addr 0x127d108 size 0x34 virtual false final false
+  /// @brief Method get_leftFootstepPosition addr 0x120cddc size 0x34 virtual false final false
   inline ::UnityEngine::Vector3 get_leftFootstepPosition();
 
-  /// @brief Method get_rightFootstepPosition addr 0x127d13c size 0x38 virtual false final false
+  /// @brief Method get_rightFootstepPosition addr 0x120ce10 size 0x38 virtual false final false
   inline ::UnityEngine::Vector3 get_rightFootstepPosition();
 
-  /// @brief Method get_leftFootstepRotation addr 0x127d174 size 0x34 virtual false final false
+  /// @brief Method get_leftFootstepRotation addr 0x120ce48 size 0x34 virtual false final false
   inline ::UnityEngine::Quaternion get_leftFootstepRotation();
 
-  /// @brief Method get_rightFootstepRotation addr 0x127d1a8 size 0x1038 virtual false final false
+  /// @brief Method get_rightFootstepRotation addr 0x120ce7c size 0x38 virtual false final false
   inline ::UnityEngine::Quaternion get_rightFootstepRotation();
 
-  /// @brief Method StepBlocked addr 0x127cd38 size 0x1b4 virtual false final false
+  /// @brief Method StepBlocked addr 0x120ca0c size 0x1b4 virtual false final false
   inline bool StepBlocked(::UnityEngine::Vector3 fromPosition, ::UnityEngine::Vector3 toPosition, ::UnityEngine::Vector3 rootPosition);
 
-  /// @brief Method CanStep addr 0x127ceec size 0x6c virtual false final false
+  /// @brief Method CanStep addr 0x120cbc0 size 0x6c virtual false final false
   inline bool CanStep();
 
-  /// @brief Method GetLineSphereCollision addr 0x127cf58 size 0x1b0 virtual false final false
+  /// @brief Method GetLineSphereCollision addr 0x120cc2c size 0x1b0 virtual false final false
   static inline bool GetLineSphereCollision(::UnityEngine::Vector3 lineStart, ::UnityEngine::Vector3 lineEnd, ::UnityEngine::Vector3 sphereCenter, float_t sphereRadius);
 
   static inline ::RootMotion::FinalIK::__IKSolverVR__Locomotion* New_ctor();
 
-  /// @brief Method .ctor addr 0x1278778 size 0xec virtual false final false
+  /// @brief Method .ctor addr 0x120844c size 0xec virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolverVR__Locomotion", modifiers: "&&", def_value: None }]
@@ -1901,13 +2055,69 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__IKSolverVR__Locomotion, 0xb8>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___weight) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___footDistance) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___stepThreshold) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___angleThreshold) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___comAngleMlp) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___maxVelocity) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___velocityFactor) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___maxLegStretch) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___rootSpeed) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___stepSpeed) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___stepHeight) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___heelHeight) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___relaxLegTwistMinAngle) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___relaxLegTwistSpeed) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___stepInterpolation) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___offset) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___blockingEnabled) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___blockingLayers) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___raycastRadius) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___raycastHeight) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___onLeftFootstep) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___onRightFootstep) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ____centerOfMass_k__BackingField) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___footsteps) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___lastComPosition) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___comVelocity) == 0xa4, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___leftFootIndex) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___rightFootIndex) == 0xb4, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::Spine
 // SizeInfo { instance_size: 552, native_size: -1, calculated_instance_size: 552, calculated_native_size: 552, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12585))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12589))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(12513)), TypeDefinitionIndex(TypeDefinitionIndex(10179))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12517))
 // CS Name: ::IKSolverVR::Spine*
 class CORDL_TYPE __IKSolverVR__Spine : public ::RootMotion::FinalIK::__IKSolverVR__BodyPart {
 public:
@@ -2421,90 +2631,90 @@ public:
 
   constexpr void __set_chestForward(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_pelvis addr 0x127e1e0 size 0x34 virtual false final false
+  /// @brief Method get_pelvis addr 0x120ceb4 size 0x34 virtual false final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_pelvis();
 
-  /// @brief Method get_firstSpineBone addr 0x127e214 size 0x34 virtual false final false
+  /// @brief Method get_firstSpineBone addr 0x120cee8 size 0x34 virtual false final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_firstSpineBone();
 
-  /// @brief Method get_chest addr 0x127e248 size 0x48 virtual false final false
+  /// @brief Method get_chest addr 0x120cf1c size 0x48 virtual false final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_chest();
 
-  /// @brief Method get_neck addr 0x127e290 size 0x34 virtual false final false
+  /// @brief Method get_neck addr 0x120cf64 size 0x34 virtual false final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_neck();
 
-  /// @brief Method get_head addr 0x127e2c4 size 0x34 virtual false final false
+  /// @brief Method get_head addr 0x120cf98 size 0x34 virtual false final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_head();
 
-  /// @brief Method get_anchorRotation addr 0x127e2f8 size 0x14 virtual false final false
+  /// @brief Method get_anchorRotation addr 0x120cfcc size 0x14 virtual false final false
   inline ::UnityEngine::Quaternion get_anchorRotation();
 
-  /// @brief Method set_anchorRotation addr 0x127e30c size 0x14 virtual false final false
+  /// @brief Method set_anchorRotation addr 0x120cfe0 size 0x14 virtual false final false
   inline void set_anchorRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method get_anchorRelativeToHead addr 0x127e320 size 0x14 virtual false final false
+  /// @brief Method get_anchorRelativeToHead addr 0x120cff4 size 0x14 virtual false final false
   inline ::UnityEngine::Quaternion get_anchorRelativeToHead();
 
-  /// @brief Method set_anchorRelativeToHead addr 0x127e334 size 0x14 virtual false final false
+  /// @brief Method set_anchorRelativeToHead addr 0x120d008 size 0x14 virtual false final false
   inline void set_anchorRelativeToHead(::UnityEngine::Quaternion value);
 
-  /// @brief Method OnRead addr 0x127e348 size 0xc60 virtual true final false
+  /// @brief Method OnRead addr 0x120d01c size 0xc60 virtual true final false
   inline void OnRead(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
                      bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int32_t rootIndex, int32_t index);
 
-  /// @brief Method PreSolve addr 0x127f038 size 0x1e8 virtual true final false
+  /// @brief Method PreSolve addr 0x120dd0c size 0x1e8 virtual true final false
   inline void PreSolve();
 
-  /// @brief Method ApplyOffsets addr 0x127f220 size 0x794 virtual true final false
+  /// @brief Method ApplyOffsets addr 0x120def4 size 0x794 virtual true final false
   inline void ApplyOffsets();
 
-  /// @brief Method CalculateChestTargetRotation addr 0x127f9b4 size 0x244 virtual false final false
+  /// @brief Method CalculateChestTargetRotation addr 0x120e688 size 0x244 virtual false final false
   inline void CalculateChestTargetRotation(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* rootBone,
                                            ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> arms);
 
-  /// @brief Method Solve addr 0x127fff0 size 0x53c virtual false final false
+  /// @brief Method Solve addr 0x120ecc4 size 0x53c virtual false final false
   inline void Solve(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* rootBone, ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs,
                     ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> arms);
 
-  /// @brief Method FABRIKPass addr 0x128093c size 0x260 virtual false final false
+  /// @brief Method FABRIKPass addr 0x120f610 size 0x260 virtual false final false
   inline void FABRIKPass(::UnityEngine::Vector3 animatedPelvisPos, ::UnityEngine::Vector3 rootUp, float_t weight);
 
-  /// @brief Method SolvePelvis addr 0x12810e4 size 0x290 virtual false final false
+  /// @brief Method SolvePelvis addr 0x120fdb8 size 0x290 virtual false final false
   inline void SolvePelvis();
 
-  /// @brief Method Write addr 0x1281b24 size 0x1d0 virtual true final false
+  /// @brief Method Write addr 0x12107f8 size 0x1d0 virtual true final false
   inline void Write(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> solvedPositions,
                     ByRef<::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>> solvedRotations);
 
-  /// @brief Method ResetOffsets addr 0x1281cf4 size 0xd4 virtual true final false
+  /// @brief Method ResetOffsets addr 0x12109c8 size 0xd4 virtual true final false
   inline void ResetOffsets();
 
-  /// @brief Method AdjustChestByHands addr 0x127fbf8 size 0x3f8 virtual false final false
+  /// @brief Method AdjustChestByHands addr 0x120e8cc size 0x3f8 virtual false final false
   inline void AdjustChestByHands(ByRef<::UnityEngine::Quaternion> chestTargetRotation, ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> arms);
 
-  /// @brief Method InverseTranslateToHead addr 0x1280e0c size 0xdc virtual false final false
+  /// @brief Method InverseTranslateToHead addr 0x120fae0 size 0xdc virtual false final false
   inline void InverseTranslateToHead(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs, bool limited, bool useCurrentLegMag,
                                      ::UnityEngine::Vector3 offset, float_t w);
 
-  /// @brief Method TranslatePelvis addr 0x128052c size 0x410 virtual false final false
+  /// @brief Method TranslatePelvis addr 0x120f200 size 0x410 virtual false final false
   inline void TranslatePelvis(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs, ::UnityEngine::Vector3 deltaPosition,
                               ::UnityEngine::Quaternion deltaRotation);
 
-  /// @brief Method LimitPelvisPosition addr 0x1281dc8 size 0x2a8 virtual false final false
+  /// @brief Method LimitPelvisPosition addr 0x1210a9c size 0x2a8 virtual false final false
   inline ::UnityEngine::Vector3 LimitPelvisPosition(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs,
                                                     ::UnityEngine::Vector3 pelvisPosition, bool useCurrentLegMag, int32_t it);
 
-  /// @brief Method Bend addr 0x1280ee8 size 0x1fc virtual false final false
+  /// @brief Method Bend addr 0x120fbbc size 0x1fc virtual false final false
   inline void Bend(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t firstIndex, int32_t lastIndex,
                    ::UnityEngine::Quaternion targetRotation, float_t clampWeight, bool uniformWeight, float_t w);
 
-  /// @brief Method Bend addr 0x1280b9c size 0x270 virtual false final false
+  /// @brief Method Bend addr 0x120f870 size 0x270 virtual false final false
   inline void Bend(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t firstIndex, int32_t lastIndex,
                    ::UnityEngine::Quaternion targetRotation, ::UnityEngine::Quaternion rotationOffset, float_t clampWeight, bool uniformWeight, float_t w);
 
   static inline ::RootMotion::FinalIK::__IKSolverVR__Spine* New_ctor();
 
-  /// @brief Method .ctor addr 0x12821e0 size 0x11c virtual false final false
+  /// @brief Method .ctor addr 0x1210eb4 size 0x11c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolverVR__Spine", modifiers: "&&", def_value: None }]
@@ -2691,13 +2901,123 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__IKSolverVR__Spine, 0x228>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___headTarget) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___pelvisTarget) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___positionWeight) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___rotationWeight) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___pelvisPositionWeight) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___pelvisRotationWeight) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___chestGoal) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___chestGoalWeight) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___minHeadHeight) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___bodyPosStiffness) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___bodyRotStiffness) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___neckStiffness) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___rotateChestByHands) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___chestClampWeight) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___headClampWeight) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___moveBodyBackWhenCrouching) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___maintainPelvisPosition) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___maxRootAngle) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___rootHeadingOffset) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___IKPositionHead) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___IKRotationHead) == 0xac, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___IKPositionPelvis) == 0xbc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___IKRotationPelvis) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___goalPositionChest) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___pelvisPositionOffset) == 0xe4, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___chestPositionOffset) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___headPositionOffset) == 0xfc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___pelvisRotationOffset) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___chestRotationOffset) == 0x118, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___headRotationOffset) == 0x128, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___faceDirection) == 0x138, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___locomotionHeadPositionOffset) == 0x144, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___headPosition) == 0x150, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ____anchorRotation_k__BackingField) == 0x15c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ____anchorRelativeToHead_k__BackingField) == 0x16c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___headRotation) == 0x17c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___pelvisRotation) == 0x18c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___anchorRelativeToPelvis) == 0x19c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___pelvisRelativeRotation) == 0x1ac, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___chestRelativeRotation) == 0x1bc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___headDeltaPosition) == 0x1cc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___pelvisDeltaRotation) == 0x1d8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___chestTargetRotation) == 0x1e8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___pelvisIndex) == 0x1f8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___spineIndex) == 0x1fc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___chestIndex) == 0x200, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___neckIndex) == 0x204, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___headIndex) == 0x208, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___length) == 0x20c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___hasChest) == 0x210, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___hasNeck) == 0x211, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___hasLegs) == 0x212, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___headHeight) == 0x214, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___sizeMlp) == 0x218, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___chestForward) == 0x21c, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::PositionOffset
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12590))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12518))
 // CS Name: ::IKSolverVR::PositionOffset
 struct CORDL_TYPE __IKSolverVR__PositionOffset {
 public:
@@ -2767,13 +3087,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__IKSolverVR__PositionOffset, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__PositionOffset, value__) == 0x0, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::RotationOffset
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12591))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12519))
 // CS Name: ::IKSolverVR::RotationOffset
 struct CORDL_TYPE __IKSolverVR__RotationOffset {
 public:
@@ -2819,13 +3141,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__IKSolverVR__RotationOffset, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__RotationOffset, value__) == 0x0, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::VirtualBone
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12592))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12520))
 // CS Name: ::IKSolverVR::VirtualBone*
 class CORDL_TYPE __IKSolverVR__VirtualBone : public ::System::Object {
 public:
@@ -2895,49 +3219,49 @@ public:
 
   static inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* New_ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method .ctor addr 0x127efa8 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x120dc7c size 0x70 virtual false final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method Read addr 0x127f018 size 0x20 virtual false final false
+  /// @brief Method Read addr 0x120dcec size 0x20 virtual false final false
   inline void Read(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SwingRotation addr 0x12822fc size 0x200 virtual false final false
+  /// @brief Method SwingRotation addr 0x1210fd0 size 0x200 virtual false final false
   static inline void SwingRotation(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t index,
                                    ::UnityEngine::Vector3 swingTarget, float_t weight);
 
-  /// @brief Method PreSolve addr 0x12824fc size 0x160 virtual false final false
+  /// @brief Method PreSolve addr 0x12111d0 size 0x160 virtual false final false
   static inline float_t PreSolve(ByRef<::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*>> bones);
 
-  /// @brief Method RotateAroundPoint addr 0x1282070 size 0x170 virtual false final false
+  /// @brief Method RotateAroundPoint addr 0x1210d44 size 0x170 virtual false final false
   static inline void RotateAroundPoint(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t index,
                                        ::UnityEngine::Vector3 point, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method RotateBy addr 0x128265c size 0x1a8 virtual false final false
+  /// @brief Method RotateBy addr 0x1211330 size 0x1a8 virtual false final false
   static inline void RotateBy(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t index,
                               ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method RotateBy addr 0x1282804 size 0x188 virtual false final false
+  /// @brief Method RotateBy addr 0x12114d8 size 0x188 virtual false final false
   static inline void RotateBy(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method RotateTo addr 0x128298c size 0xa4 virtual false final false
+  /// @brief Method RotateTo addr 0x1211660 size 0xa4 virtual false final false
   static inline void RotateTo(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t index,
                               ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SolveTrigonometric addr 0x1281740 size 0x3e4 virtual false final false
+  /// @brief Method SolveTrigonometric addr 0x1210414 size 0x3e4 virtual false final false
   static inline void SolveTrigonometric(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t first, int32_t second,
                                         int32_t third, ::UnityEngine::Vector3 targetPosition, ::UnityEngine::Vector3 bendNormal, float_t weight);
 
-  /// @brief Method GetDirectionToBendPoint addr 0x1282a30 size 0x158 virtual false final false
+  /// @brief Method GetDirectionToBendPoint addr 0x1211704 size 0x158 virtual false final false
   static inline ::UnityEngine::Vector3 GetDirectionToBendPoint(::UnityEngine::Vector3 direction, float_t directionMag, ::UnityEngine::Vector3 bendDirection, float_t sqrMag1, float_t sqrMag2);
 
-  /// @brief Method SolveFABRIK addr 0x1281374 size 0x3cc virtual false final false
+  /// @brief Method SolveFABRIK addr 0x1210048 size 0x3cc virtual false final false
   static inline void SolveFABRIK(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, ::UnityEngine::Vector3 startPosition,
                                  ::UnityEngine::Vector3 targetPosition, float_t weight, float_t minNormalizedTargetDistance, int32_t iterations, float_t length, ::UnityEngine::Vector3 startOffset);
 
-  /// @brief Method SolveFABRIKJoint addr 0x1282b88 size 0x114 virtual false final false
+  /// @brief Method SolveFABRIKJoint addr 0x121185c size 0x114 virtual false final false
   static inline ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float_t length);
 
-  /// @brief Method SolveCCD addr 0x1282c9c size 0x1b4 virtual false final false
+  /// @brief Method SolveCCD addr 0x1211970 size 0x1b4 virtual false final false
   static inline void SolveCCD(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, ::UnityEngine::Vector3 targetPosition,
                               float_t weight, int32_t iterations);
 
@@ -2981,13 +3305,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__IKSolverVR__VirtualBone, 0x60>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__VirtualBone, ___readPosition) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__VirtualBone, ___readRotation) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__VirtualBone, ___solverPosition) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__VirtualBone, ___solverRotation) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__VirtualBone, ___length) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__VirtualBone, ___sqrMag) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__VirtualBone, ___axis) == 0x50, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: RootMotion.FinalIK::IKSolverVR
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12564)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12593))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12492)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12521))
 // CS Name: ::RootMotion.FinalIK::IKSolverVR*
 class CORDL_TYPE IKSolverVR : public ::RootMotion::FinalIK::IKSolver {
 public:
@@ -3336,97 +3674,97 @@ public:
 
   constexpr void __set_debugPos4(::UnityEngine::Vector3 value);
 
-  /// @brief Method SetToReferences addr 0x1270e0c size 0x2d4 virtual false final false
+  /// @brief Method SetToReferences addr 0x1200ae0 size 0x2d4 virtual false final false
   inline void SetToReferences(::RootMotion::FinalIK::__VRIK__References* references);
 
-  /// @brief Method GuessHandOrientations addr 0x127122c size 0x2f0 virtual false final false
+  /// @brief Method GuessHandOrientations addr 0x1200f00 size 0x2f0 virtual false final false
   inline void GuessHandOrientations(::RootMotion::FinalIK::__VRIK__References* references, bool onlyIfZero);
 
-  /// @brief Method DefaultAnimationCurves addr 0x12710e0 size 0x14c virtual false final false
+  /// @brief Method DefaultAnimationCurves addr 0x1200db4 size 0x14c virtual false final false
   inline void DefaultAnimationCurves();
 
-  /// @brief Method AddPositionOffset addr 0x1271a5c size 0x144 virtual false final false
+  /// @brief Method AddPositionOffset addr 0x1201730 size 0x144 virtual false final false
   inline void AddPositionOffset(::RootMotion::FinalIK::__IKSolverVR__PositionOffset positionOffset, ::UnityEngine::Vector3 value);
 
-  /// @brief Method AddRotationOffset addr 0x1271ba0 size 0x40 virtual false final false
+  /// @brief Method AddRotationOffset addr 0x1201874 size 0x40 virtual false final false
   inline void AddRotationOffset(::RootMotion::FinalIK::__IKSolverVR__RotationOffset rotationOffset, ::UnityEngine::Vector3 value);
 
-  /// @brief Method AddRotationOffset addr 0x1271be0 size 0x124 virtual false final false
+  /// @brief Method AddRotationOffset addr 0x12018b4 size 0x124 virtual false final false
   inline void AddRotationOffset(::RootMotion::FinalIK::__IKSolverVR__RotationOffset rotationOffset, ::UnityEngine::Quaternion value);
 
-  /// @brief Method AddPlatformMotion addr 0x1271d04 size 0xd4 virtual false final false
+  /// @brief Method AddPlatformMotion addr 0x12019d8 size 0xd4 virtual false final false
   inline void AddPlatformMotion(::UnityEngine::Vector3 deltaPosition, ::UnityEngine::Quaternion deltaRotation, ::UnityEngine::Vector3 platformPivot);
 
-  /// @brief Method Reset addr 0x1272258 size 0x110 virtual false final false
+  /// @brief Method Reset addr 0x1201f2c size 0x110 virtual false final false
   inline void Reset();
 
-  /// @brief Method StoreDefaultLocalState addr 0x1272ba8 size 0x154 virtual true final false
+  /// @brief Method StoreDefaultLocalState addr 0x120287c size 0x154 virtual true final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method FixTransforms addr 0x1272cfc size 0x1ec virtual true final false
+  /// @brief Method FixTransforms addr 0x12029d0 size 0x1ec virtual true final false
   inline void FixTransforms();
 
-  /// @brief Method GetPoints addr 0x1272ee8 size 0x70 virtual true final false
+  /// @brief Method GetPoints addr 0x1202bbc size 0x70 virtual true final false
   inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
 
-  /// @brief Method GetPoint addr 0x1272f58 size 0x70 virtual true final false
+  /// @brief Method GetPoint addr 0x1202c2c size 0x70 virtual true final false
   inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
 
-  /// @brief Method IsValid addr 0x1272fc8 size 0x1fc virtual true final false
+  /// @brief Method IsValid addr 0x1202c9c size 0x1fc virtual true final false
   inline bool IsValid(ByRef<::StringW> message);
 
-  /// @brief Method GetNormal addr 0x12731c4 size 0x270 virtual false final false
+  /// @brief Method GetNormal addr 0x1202e98 size 0x270 virtual false final false
   inline ::UnityEngine::Vector3 GetNormal(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms);
 
-  /// @brief Method GuessWristToPalmAxis addr 0x127151c size 0xe4 virtual false final false
+  /// @brief Method GuessWristToPalmAxis addr 0x12011f0 size 0xe4 virtual false final false
   inline ::UnityEngine::Vector3 GuessWristToPalmAxis(::UnityEngine::Transform* hand, ::UnityEngine::Transform* forearm);
 
-  /// @brief Method GuessPalmToThumbAxis addr 0x1271600 size 0x348 virtual false final false
+  /// @brief Method GuessPalmToThumbAxis addr 0x12012d4 size 0x348 virtual false final false
   inline ::UnityEngine::Vector3 GuessPalmToThumbAxis(::UnityEngine::Transform* hand, ::UnityEngine::Transform* forearm);
 
-  /// @brief Method GetSineKeyframes addr 0x1271948 size 0x114 virtual false final false
+  /// @brief Method GetSineKeyframes addr 0x120161c size 0x114 virtual false final false
   static inline ::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> GetSineKeyframes(float_t mag);
 
-  /// @brief Method UpdateSolverTransforms addr 0x1272368 size 0x150 virtual false final false
+  /// @brief Method UpdateSolverTransforms addr 0x120203c size 0x150 virtual false final false
   inline void UpdateSolverTransforms();
 
-  /// @brief Method OnInitiate addr 0x1273434 size 0x3c virtual true final false
+  /// @brief Method OnInitiate addr 0x1203108 size 0x3c virtual true final false
   inline void OnInitiate();
 
-  /// @brief Method OnUpdate addr 0x1273470 size 0x408 virtual true final false
+  /// @brief Method OnUpdate addr 0x1203144 size 0x408 virtual true final false
   inline void OnUpdate();
 
-  /// @brief Method WriteTransforms addr 0x12749fc size 0x454 virtual false final false
+  /// @brief Method WriteTransforms addr 0x12046d0 size 0x454 virtual false final false
   inline void WriteTransforms();
 
-  /// @brief Method Read addr 0x12724b8 size 0x50c virtual false final false
+  /// @brief Method Read addr 0x120218c size 0x50c virtual false final false
   inline void Read(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
                    bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs);
 
-  /// @brief Method Solve addr 0x1273878 size 0x1048 virtual false final false
+  /// @brief Method Solve addr 0x120354c size 0x1048 virtual false final false
   inline void Solve();
 
-  /// @brief Method GetPosition addr 0x1274e50 size 0x3c virtual false final false
+  /// @brief Method GetPosition addr 0x1204b24 size 0x3c virtual false final false
   inline ::UnityEngine::Vector3 GetPosition(int32_t index);
 
-  /// @brief Method GetRotation addr 0x1274e8c size 0x38 virtual false final false
+  /// @brief Method GetRotation addr 0x1204b60 size 0x38 virtual false final false
   inline ::UnityEngine::Quaternion GetRotation(int32_t index);
 
-  /// @brief Method get_rootBone addr 0x12783b4 size 0x8 virtual false final false
+  /// @brief Method get_rootBone addr 0x1208088 size 0x8 virtual false final false
   inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_rootBone();
 
-  /// @brief Method set_rootBone addr 0x12783bc size 0x8 virtual false final false
+  /// @brief Method set_rootBone addr 0x1208090 size 0x8 virtual false final false
   inline void set_rootBone(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* value);
 
-  /// @brief Method Write addr 0x12748c0 size 0x13c virtual false final false
+  /// @brief Method Write addr 0x1204594 size 0x13c virtual false final false
   inline void Write();
 
-  /// @brief Method GetPelvisOffset addr 0x1277cc8 size 0x6ec virtual false final false
+  /// @brief Method GetPelvisOffset addr 0x120799c size 0x6ec virtual false final false
   inline ::UnityEngine::Vector3 GetPelvisOffset();
 
   static inline ::RootMotion::FinalIK::IKSolverVR* New_ctor();
 
-  /// @brief Method .ctor addr 0x12783c4 size 0x228 virtual false final false
+  /// @brief Method .ctor addr 0x1208098 size 0x228 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverVR", modifiers: "&&", def_value: None }]
@@ -3555,6 +3893,78 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::IKSolverVR, 0x178>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___solverTransforms) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___hasChest) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___hasNeck) == 0x61, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___hasShoulders) == 0x62, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___hasToes) == 0x63, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___hasLegs) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___readPositions) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___readRotations) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___solvedPositions) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___solvedRotations) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___defaultLocalRotations) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___defaultLocalPositions) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___rootV) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___rootVelocity) == 0xa4, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___bodyOffset) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___supportLegIndex) == 0xbc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___lastLOD) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___LOD) == 0xc4, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___plantFeet) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ____rootBone_k__BackingField) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___spine) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___leftArm) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___rightArm) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___leftLeg) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___rightLeg) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___locomotion) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___legs) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___arms) == 0x110, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___headPosition) == 0x118, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___headDeltaPosition) == 0x124, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___raycastOriginPelvis) == 0x130, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___lastOffset) == 0x13c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___debugPos1) == 0x148, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___debugPos2) == 0x154, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___debugPos3) == 0x160, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverVR, ___debugPos4) == 0x16c, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode, "RootMotion.FinalIK", "IKSolverVR/Arm/ShoulderRotationMode");

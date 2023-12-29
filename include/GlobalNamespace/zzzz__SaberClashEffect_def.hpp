@@ -5,12 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 CORDL_MODULE_EXPORT(SaberClashEffect)
-namespace GlobalNamespace {
-class ColorManager;
-}
-namespace GlobalNamespace {
-class SaberClashChecker;
-}
 namespace UnityEngine {
 class ParticleSystem;
 }
@@ -18,7 +12,13 @@ namespace Libraries::HM::HMLib::VR {
 class HapticPresetSO;
 }
 namespace GlobalNamespace {
-class HapticFeedbackManager;
+class SaberClashChecker;
+}
+namespace GlobalNamespace {
+class HapticFeedbackController;
+}
+namespace GlobalNamespace {
+class ColorManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberClashEffect);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15883))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4969))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15775)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5074))
 // CS Name: ::SaberClashEffect*
 class CORDL_TYPE SaberClashEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -49,7 +49,7 @@ public:
   __declspec(property(get = __get__saberClashChecker, put = __set__saberClashChecker))::GlobalNamespace::SaberClashChecker* _saberClashChecker;
 
   /// @brief Field _hapticFeedbackController, offset 0x38, size 0x8
-  __declspec(property(get = __get__hapticFeedbackController, put = __set__hapticFeedbackController))::GlobalNamespace::HapticFeedbackManager* _hapticFeedbackController;
+  __declspec(property(get = __get__hapticFeedbackController, put = __set__hapticFeedbackController))::GlobalNamespace::HapticFeedbackController* _hapticFeedbackController;
 
   /// @brief Field _colorManager, offset 0x40, size 0x8
   __declspec(property(get = __get__colorManager, put = __set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
@@ -88,11 +88,11 @@ public:
 
   constexpr void __set__saberClashChecker(::GlobalNamespace::SaberClashChecker* value);
 
-  constexpr ::GlobalNamespace::HapticFeedbackManager*& __get__hapticFeedbackController();
+  constexpr ::GlobalNamespace::HapticFeedbackController*& __get__hapticFeedbackController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HapticFeedbackManager*> const& __get__hapticFeedbackController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HapticFeedbackController*> const& __get__hapticFeedbackController() const;
 
-  constexpr void __set__hapticFeedbackController(::GlobalNamespace::HapticFeedbackManager* value);
+  constexpr void __set__hapticFeedbackController(::GlobalNamespace::HapticFeedbackController* value);
 
   constexpr ::GlobalNamespace::ColorManager*& __get__colorManager();
 
@@ -118,18 +118,18 @@ public:
 
   constexpr void __set__sabersAreClashing(bool value);
 
-  /// @brief Method Start addr 0x23b2168 size 0x1b0 virtual false final false
+  /// @brief Method Start addr 0x2279350 size 0x1b0 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDisable addr 0x23b2318 size 0x10 virtual false final false
+  /// @brief Method OnDisable addr 0x2279500 size 0x10 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method LateUpdate addr 0x23b2328 size 0xfc virtual false final false
+  /// @brief Method LateUpdate addr 0x2279510 size 0xfc virtual false final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberClashEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x23b2424 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x227960c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberClashEffect", modifiers: "&&", def_value: None }]
@@ -159,7 +159,7 @@ public:
   ::GlobalNamespace::SaberClashChecker* ____saberClashChecker;
 
   /// @brief Field _hapticFeedbackController, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::HapticFeedbackManager* ____hapticFeedbackController;
+  ::GlobalNamespace::HapticFeedbackController* ____hapticFeedbackController;
 
   /// @brief Field _colorManager, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
@@ -177,6 +177,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberClashEffect, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberClashEffect, ____sparkleParticleSystem) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberClashEffect, ____glowParticleSystem) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberClashEffect, ____rumblePreset) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberClashEffect, ____saberClashChecker) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberClashEffect, ____hapticFeedbackController) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberClashEffect, ____colorManager) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberClashEffect, ____sparkleParticleSystemEmmisionModule) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberClashEffect, ____glowParticleSystemEmmisionModule) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberClashEffect, ____sabersAreClashing) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberClashEffect);

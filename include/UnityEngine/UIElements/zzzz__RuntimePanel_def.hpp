@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
 CORDL_MODULE_EXPORT(RuntimePanel)
-namespace UnityEngine::UIElements {
-class PanelSettings;
+namespace UnityEngine {
+class ScriptableObject;
 }
 namespace UnityEngine::UIElements {
 class EventDispatcher;
 }
-namespace UnityEngine {
-class ScriptableObject;
+namespace UnityEngine::UIElements {
+class PanelSettings;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::RuntimePanel);
 // SizeInfo { instance_size: 480, native_size: -1, calculated_instance_size: 480, calculated_native_size: 480, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6877))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7018))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6963))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7104))
 // CS Name: ::UnityEngine.UIElements::RuntimePanel*
 class CORDL_TYPE RuntimePanel : public ::UnityEngine::UIElements::BaseRuntimePanel {
 public:
@@ -47,18 +47,18 @@ public:
 
   static inline ::UnityEngine::UIElements::EventDispatcher* getStaticF_s_EventDispatcher();
 
-  /// @brief Method get_panelSettings addr 0x2e165c4 size 0x8 virtual true final true
+  /// @brief Method get_panelSettings addr 0x2cb0214 size 0x8 virtual true final true
   inline ::UnityEngine::UIElements::PanelSettings* get_panelSettings();
 
-  /// @brief Method Create addr 0x2e165cc size 0x60 virtual false final false
+  /// @brief Method Create addr 0x2cb021c size 0x60 virtual false final false
   static inline ::UnityEngine::UIElements::RuntimePanel* Create(::UnityEngine::ScriptableObject* ownerObject);
 
   static inline ::UnityEngine::UIElements::RuntimePanel* New_ctor(::UnityEngine::ScriptableObject* ownerObject);
 
-  /// @brief Method .ctor addr 0x2e1662c size 0x1f8 virtual false final false
+  /// @brief Method .ctor addr 0x2cb027c size 0x1f8 virtual false final false
   inline void _ctor(::UnityEngine::ScriptableObject* ownerObject);
 
-  /// @brief Method Update addr 0x2e168a8 size 0x80 virtual true final false
+  /// @brief Method Update addr 0x2cb04f8 size 0x80 virtual true final false
   inline void Update();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimePanel", modifiers: "&&", def_value: None }]
@@ -82,6 +82,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RuntimePanel, 0x1e0>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::RuntimePanel, ___m_PanelSettings) == 0x1d8, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::RuntimePanel);

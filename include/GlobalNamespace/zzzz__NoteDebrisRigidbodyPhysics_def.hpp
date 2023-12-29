@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__NoteDebrisPhysics_def.hpp"
 CORDL_MODULE_EXPORT(NoteDebrisRigidbodyPhysics)
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class Rigidbody;
 }
 namespace GlobalNamespace {
 class NoteDebrisSimplePhysics;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteDebrisRigidbodyPhysics);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4774))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4775))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4895))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4896))
 // CS Name: ::NoteDebrisRigidbodyPhysics*
 class CORDL_TYPE NoteDebrisRigidbodyPhysics : public ::GlobalNamespace::NoteDebrisPhysics {
 public:
@@ -58,21 +58,21 @@ public:
 
   constexpr void __set__firstUpdate(bool value);
 
-  /// @brief Method get_position addr 0x23883f8 size 0x1c virtual true final false
+  /// @brief Method get_position addr 0x22548ec size 0x1c virtual true final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method FixedUpdate addr 0x2388414 size 0x48 virtual false final false
+  /// @brief Method FixedUpdate addr 0x2254908 size 0x48 virtual false final false
   inline void FixedUpdate();
 
-  /// @brief Method Init addr 0x238845c size 0xc4 virtual true final false
+  /// @brief Method Init addr 0x2254950 size 0xc4 virtual true final false
   inline void Init(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 torque);
 
-  /// @brief Method AddVelocity addr 0x2388520 size 0x60 virtual true final false
+  /// @brief Method AddVelocity addr 0x2254a14 size 0x60 virtual true final false
   inline void AddVelocity(::UnityEngine::Vector3 force);
 
   static inline ::GlobalNamespace::NoteDebrisRigidbodyPhysics* New_ctor();
 
-  /// @brief Method .ctor addr 0x2388580 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2254a74 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisRigidbodyPhysics", modifiers: "&&", def_value: None }]
@@ -102,6 +102,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteDebrisRigidbodyPhysics, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebrisRigidbodyPhysics, ____rigidbody) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebrisRigidbodyPhysics, ____simplePhysics) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebrisRigidbodyPhysics, ____firstUpdate) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteDebrisRigidbodyPhysics);

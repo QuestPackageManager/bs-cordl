@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::RuntimeInitializeLoadType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10194))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10122))
 // CS Name: ::UnityEngine::RuntimeInitializeLoadType
 struct CORDL_TYPE RuntimeInitializeLoadType {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::RuntimeInitializeLoadType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::RuntimeInitializeLoadType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RuntimeInitializeLoadType, "UnityEngine", "RuntimeInitializeLoadType");

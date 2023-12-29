@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(ViaHeaderValue)
 namespace System {
 class ICloneable;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
 class Object;
 }
 namespace System::Net::Http::Headers {
-class Lexer;
-}
-namespace System::Net::Http::Headers {
 struct Token;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System::Net::Http::Headers {
+class Lexer;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::ViaHeaderValue);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14710))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14927))
 // CS Name: ::System.Net.Http.Headers::ViaHeaderValue*
 class CORDL_TYPE ViaHeaderValue : public ::System::Object {
 public:
@@ -87,49 +87,49 @@ public:
 
   static inline ::System::Net::Http::Headers::ViaHeaderValue* New_ctor();
 
-  /// @brief Method .ctor addr 0x28425e4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26c75d0 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_Comment addr 0x28425ec size 0x8 virtual false final false
+  /// @brief Method get_Comment addr 0x26c75d8 size 0x8 virtual false final false
   inline ::StringW get_Comment();
 
-  /// @brief Method set_Comment addr 0x28425f4 size 0x8 virtual false final false
+  /// @brief Method set_Comment addr 0x26c75e0 size 0x8 virtual false final false
   inline void set_Comment(::StringW value);
 
-  /// @brief Method get_ProtocolName addr 0x28425fc size 0x8 virtual false final false
+  /// @brief Method get_ProtocolName addr 0x26c75e8 size 0x8 virtual false final false
   inline ::StringW get_ProtocolName();
 
-  /// @brief Method set_ProtocolName addr 0x2842604 size 0x8 virtual false final false
+  /// @brief Method set_ProtocolName addr 0x26c75f0 size 0x8 virtual false final false
   inline void set_ProtocolName(::StringW value);
 
-  /// @brief Method get_ProtocolVersion addr 0x284260c size 0x8 virtual false final false
+  /// @brief Method get_ProtocolVersion addr 0x26c75f8 size 0x8 virtual false final false
   inline ::StringW get_ProtocolVersion();
 
-  /// @brief Method set_ProtocolVersion addr 0x2842614 size 0x8 virtual false final false
+  /// @brief Method set_ProtocolVersion addr 0x26c7600 size 0x8 virtual false final false
   inline void set_ProtocolVersion(::StringW value);
 
-  /// @brief Method get_ReceivedBy addr 0x284261c size 0x8 virtual false final false
+  /// @brief Method get_ReceivedBy addr 0x26c7608 size 0x8 virtual false final false
   inline ::StringW get_ReceivedBy();
 
-  /// @brief Method set_ReceivedBy addr 0x2842624 size 0x8 virtual false final false
+  /// @brief Method set_ReceivedBy addr 0x26c7610 size 0x8 virtual false final false
   inline void set_ReceivedBy(::StringW value);
 
-  /// @brief Method System.ICloneable.Clone addr 0x284262c size 0x8 virtual true final true
+  /// @brief Method System.ICloneable.Clone addr 0x26c7618 size 0x8 virtual true final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals addr 0x2842634 size 0xe8 virtual true final false
+  /// @brief Method Equals addr 0x26c7620 size 0xe8 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x284271c size 0xcc virtual true final false
+  /// @brief Method GetHashCode addr 0x26c7708 size 0xcc virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method TryParse addr 0x28427e8 size 0xb0 virtual false final false
+  /// @brief Method TryParse addr 0x26c77d4 size 0xb0 virtual false final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ViaHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement addr 0x2842898 size 0x254 virtual false final false
+  /// @brief Method TryParseElement addr 0x26c7884 size 0x254 virtual false final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::ViaHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method ToString addr 0x2842aec size 0x1b8 virtual true final false
+  /// @brief Method ToString addr 0x26c7ad8 size 0x1b8 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ViaHeaderValue", modifiers: "&&", def_value: None }]
@@ -162,6 +162,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::ViaHeaderValue, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::ViaHeaderValue, ____Comment_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::ViaHeaderValue, ____ProtocolName_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::ViaHeaderValue, ____ProtocolVersion_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::ViaHeaderValue, ____ReceivedBy_k__BackingField) == 0x28, "Offset mismatch!");
 
 } // namespace System::Net::Http::Headers
 NEED_NO_BOX(::System::Net::Http::Headers::ViaHeaderValue);

@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(UxmlTraits)
 namespace UnityEngine::UIElements {
+class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlTraits);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6995))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7081))
 // CS Name: ::UnityEngine.UIElements::UxmlTraits*
 class CORDL_TYPE UxmlTraits : public ::System::Object {
 public:
@@ -42,13 +42,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e0feec size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x2ca9b3c size 0x20 virtual false final false
   inline void _ctor();
 
-  /// @brief Method set_canHaveAnyAttribute addr 0x2e0ff0c size 0xc virtual false final false
+  /// @brief Method set_canHaveAnyAttribute addr 0x2ca9b5c size 0xc virtual false final false
   inline void set_canHaveAnyAttribute(bool value);
 
-  /// @brief Method Init addr 0x2e0ff18 size 0x4 virtual true final false
+  /// @brief Method Init addr 0x2ca9b68 size 0x4 virtual true final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlTraits", modifiers: "&&", def_value: None }]
@@ -72,6 +72,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlTraits, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UxmlTraits, ____canHaveAnyAttribute_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UxmlTraits);

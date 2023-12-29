@@ -9,13 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonTextWriter)
 namespace System {
-template <typename T> struct Nullable_1;
+struct DateTimeOffset;
 }
-namespace System {
-struct TimeSpan;
-}
-namespace System {
-class Uri;
+namespace System::IO {
+class TextWriter;
 }
 namespace System {
 struct Guid;
@@ -23,26 +20,29 @@ struct Guid;
 namespace Newtonsoft::Json {
 template <typename T> class IArrayPool_1;
 }
-namespace System::IO {
-class TextWriter;
+namespace System {
+class Object;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System {
+class Uri;
 }
 namespace Newtonsoft::Json::Utilities {
 class Base64Encoder;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace Newtonsoft::Json {
+struct JsonToken;
 }
 namespace System {
 struct Decimal;
 }
 namespace System {
 struct DateTime;
-}
-namespace Newtonsoft::Json {
-struct JsonToken;
-}
-namespace System {
-class Object;
-}
-namespace System {
-struct DateTimeOffset;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -54,8 +54,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonTextWriter);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11843))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11827))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11771))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11755))
 // CS Name: ::Newtonsoft.Json::JsonTextWriter*
 class CORDL_TYPE JsonTextWriter : public ::Newtonsoft::Json::JsonWriter {
 public:
@@ -162,180 +162,180 @@ public:
 
   constexpr void __set__indentChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method get_Base64Encoder addr 0x26482dc size 0x74 virtual false final false
+  /// @brief Method get_Base64Encoder addr 0x24e5b98 size 0x74 virtual false final false
   inline ::Newtonsoft::Json::Utilities::Base64Encoder* get_Base64Encoder();
 
-  /// @brief Method get_ArrayPool addr 0x2648350 size 0x8 virtual false final false
+  /// @brief Method get_ArrayPool addr 0x24e5c0c size 0x8 virtual false final false
   inline ::Newtonsoft::Json::IArrayPool_1<char16_t>* get_ArrayPool();
 
-  /// @brief Method set_ArrayPool addr 0x2648358 size 0x60 virtual false final false
+  /// @brief Method set_ArrayPool addr 0x24e5c14 size 0x60 virtual false final false
   inline void set_ArrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
 
-  /// @brief Method get_Indentation addr 0x26483b8 size 0x8 virtual false final false
+  /// @brief Method get_Indentation addr 0x24e5c74 size 0x8 virtual false final false
   inline int32_t get_Indentation();
 
-  /// @brief Method set_Indentation addr 0x26483c0 size 0x60 virtual false final false
+  /// @brief Method set_Indentation addr 0x24e5c7c size 0x60 virtual false final false
   inline void set_Indentation(int32_t value);
 
-  /// @brief Method get_QuoteChar addr 0x2648420 size 0x8 virtual false final false
+  /// @brief Method get_QuoteChar addr 0x24e5cdc size 0x8 virtual false final false
   inline char16_t get_QuoteChar();
 
-  /// @brief Method set_QuoteChar addr 0x2648428 size 0x70 virtual false final false
+  /// @brief Method set_QuoteChar addr 0x24e5ce4 size 0x70 virtual false final false
   inline void set_QuoteChar(char16_t value);
 
-  /// @brief Method get_IndentChar addr 0x2648504 size 0x8 virtual false final false
+  /// @brief Method get_IndentChar addr 0x24e5dc0 size 0x8 virtual false final false
   inline char16_t get_IndentChar();
 
-  /// @brief Method set_IndentChar addr 0x264850c size 0x18 virtual false final false
+  /// @brief Method set_IndentChar addr 0x24e5dc8 size 0x18 virtual false final false
   inline void set_IndentChar(char16_t value);
 
-  /// @brief Method get_QuoteName addr 0x2648524 size 0x8 virtual false final false
+  /// @brief Method get_QuoteName addr 0x24e5de0 size 0x8 virtual false final false
   inline bool get_QuoteName();
 
-  /// @brief Method set_QuoteName addr 0x264852c size 0xc virtual false final false
+  /// @brief Method set_QuoteName addr 0x24e5de8 size 0xc virtual false final false
   inline void set_QuoteName(bool value);
 
   static inline ::Newtonsoft::Json::JsonTextWriter* New_ctor(::System::IO::TextWriter* textWriter);
 
-  /// @brief Method .ctor addr 0x2648538 size 0xe0 virtual false final false
+  /// @brief Method .ctor addr 0x24e5df4 size 0xe0 virtual false final false
   inline void _ctor(::System::IO::TextWriter* textWriter);
 
-  /// @brief Method Flush addr 0x2648618 size 0x20 virtual true final false
+  /// @brief Method Flush addr 0x24e5ed4 size 0x20 virtual true final false
   inline void Flush();
 
-  /// @brief Method Close addr 0x2648638 size 0x50 virtual true final false
+  /// @brief Method Close addr 0x24e5ef4 size 0x50 virtual true final false
   inline void Close();
 
-  /// @brief Method WriteStartObject addr 0x2648688 size 0x3c virtual true final false
+  /// @brief Method WriteStartObject addr 0x24e5f44 size 0x3c virtual true final false
   inline void WriteStartObject();
 
-  /// @brief Method WriteStartArray addr 0x26486c4 size 0x3c virtual true final false
+  /// @brief Method WriteStartArray addr 0x24e5f80 size 0x3c virtual true final false
   inline void WriteStartArray();
 
-  /// @brief Method WriteStartConstructor addr 0x2648700 size 0xac virtual true final false
+  /// @brief Method WriteStartConstructor addr 0x24e5fbc size 0xac virtual true final false
   inline void WriteStartConstructor(::StringW name);
 
-  /// @brief Method WriteEnd addr 0x26487ac size 0xd8 virtual true final false
+  /// @brief Method WriteEnd addr 0x24e6068 size 0xd8 virtual true final false
   inline void WriteEnd(::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method WritePropertyName addr 0x26488b8 size 0x50 virtual true final false
+  /// @brief Method WritePropertyName addr 0x24e6174 size 0x50 virtual true final false
   inline void WritePropertyName(::StringW name);
 
-  /// @brief Method WritePropertyName addr 0x26489dc size 0xc4 virtual true final false
+  /// @brief Method WritePropertyName addr 0x24e6298 size 0xc4 virtual true final false
   inline void WritePropertyName(::StringW name, bool escape);
 
-  /// @brief Method OnStringEscapeHandlingChanged addr 0x2648aa0 size 0x4 virtual true final false
+  /// @brief Method OnStringEscapeHandlingChanged addr 0x24e635c size 0x4 virtual true final false
   inline void OnStringEscapeHandlingChanged();
 
-  /// @brief Method UpdateCharEscapeFlags addr 0x2648498 size 0x6c virtual false final false
+  /// @brief Method UpdateCharEscapeFlags addr 0x24e5d54 size 0x6c virtual false final false
   inline void UpdateCharEscapeFlags();
 
-  /// @brief Method WriteIndent addr 0x2648aa4 size 0x104 virtual true final false
+  /// @brief Method WriteIndent addr 0x24e6360 size 0x104 virtual true final false
   inline void WriteIndent();
 
-  /// @brief Method WriteValueDelimiter addr 0x2648ba8 size 0x28 virtual true final false
+  /// @brief Method WriteValueDelimiter addr 0x24e6464 size 0x28 virtual true final false
   inline void WriteValueDelimiter();
 
-  /// @brief Method WriteIndentSpace addr 0x2648bd0 size 0x28 virtual true final false
+  /// @brief Method WriteIndentSpace addr 0x24e648c size 0x28 virtual true final false
   inline void WriteIndentSpace();
 
-  /// @brief Method WriteValueInternal addr 0x2648bf8 size 0x24 virtual false final false
+  /// @brief Method WriteValueInternal addr 0x24e64b4 size 0x24 virtual false final false
   inline void WriteValueInternal(::StringW value, ::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method WriteValue addr 0x2648c1c size 0x8 virtual true final false
+  /// @brief Method WriteValue addr 0x24e64d8 size 0x8 virtual true final false
   inline void WriteValue(::System::Object* value);
 
-  /// @brief Method WriteNull addr 0x2648c24 size 0x84 virtual true final false
+  /// @brief Method WriteNull addr 0x24e64e0 size 0x84 virtual true final false
   inline void WriteNull();
 
-  /// @brief Method WriteUndefined addr 0x2648ca8 size 0x84 virtual true final false
+  /// @brief Method WriteUndefined addr 0x24e6564 size 0x84 virtual true final false
   inline void WriteUndefined();
 
-  /// @brief Method WriteRaw addr 0x2648d2c size 0x40 virtual true final false
+  /// @brief Method WriteRaw addr 0x24e65e8 size 0x40 virtual true final false
   inline void WriteRaw(::StringW json);
 
-  /// @brief Method WriteValue addr 0x2648d6c size 0xa4 virtual true final false
+  /// @brief Method WriteValue addr 0x24e6628 size 0xa4 virtual true final false
   inline void WriteValue(::StringW value);
 
-  /// @brief Method WriteEscapedString addr 0x2648908 size 0xd4 virtual false final false
+  /// @brief Method WriteEscapedString addr 0x24e61c4 size 0xd4 virtual false final false
   inline void WriteEscapedString(::StringW value, bool quote);
 
-  /// @brief Method WriteValue addr 0x2648e3c size 0x30 virtual true final false
+  /// @brief Method WriteValue addr 0x24e66f8 size 0x30 virtual true final false
   inline void WriteValue(int32_t value);
 
-  /// @brief Method WriteValue addr 0x2648ee4 size 0x30 virtual true final false
+  /// @brief Method WriteValue addr 0x24e67a0 size 0x30 virtual true final false
   inline void WriteValue(uint32_t value);
 
-  /// @brief Method WriteValue addr 0x2648f14 size 0x30 virtual true final false
+  /// @brief Method WriteValue addr 0x24e67d0 size 0x30 virtual true final false
   inline void WriteValue(int64_t value);
 
-  /// @brief Method WriteValue addr 0x2648f44 size 0x30 virtual true final false
+  /// @brief Method WriteValue addr 0x24e6800 size 0x30 virtual true final false
   inline void WriteValue(uint64_t value);
 
-  /// @brief Method WriteValue addr 0x264905c size 0xa8 virtual true final false
+  /// @brief Method WriteValue addr 0x24e6918 size 0xa8 virtual true final false
   inline void WriteValue(float_t value);
 
-  /// @brief Method WriteValue addr 0x26491f4 size 0xf0 virtual true final false
+  /// @brief Method WriteValue addr 0x24e6ab0 size 0xf0 virtual true final false
   inline void WriteValue(::System::Nullable_1<float_t> value);
 
-  /// @brief Method WriteValue addr 0x26492e4 size 0xa8 virtual true final false
+  /// @brief Method WriteValue addr 0x24e6ba0 size 0xa8 virtual true final false
   inline void WriteValue(double_t value);
 
-  /// @brief Method WriteValue addr 0x2649478 size 0xfc virtual true final false
+  /// @brief Method WriteValue addr 0x24e6d34 size 0xfc virtual true final false
   inline void WriteValue(::System::Nullable_1<double_t> value);
 
-  /// @brief Method WriteValue addr 0x2649574 size 0x94 virtual true final false
+  /// @brief Method WriteValue addr 0x24e6e30 size 0x94 virtual true final false
   inline void WriteValue(bool value);
 
-  /// @brief Method WriteValue addr 0x2649674 size 0x30 virtual true final false
+  /// @brief Method WriteValue addr 0x24e6f30 size 0x30 virtual true final false
   inline void WriteValue(int16_t value);
 
-  /// @brief Method WriteValue addr 0x26496a4 size 0x30 virtual true final false
+  /// @brief Method WriteValue addr 0x24e6f60 size 0x30 virtual true final false
   inline void WriteValue(uint16_t value);
 
-  /// @brief Method WriteValue addr 0x26496d4 size 0x94 virtual true final false
+  /// @brief Method WriteValue addr 0x24e6f90 size 0x94 virtual true final false
   inline void WriteValue(char16_t value);
 
-  /// @brief Method WriteValue addr 0x26497f4 size 0x30 virtual true final false
+  /// @brief Method WriteValue addr 0x24e70b0 size 0x30 virtual true final false
   inline void WriteValue(uint8_t value);
 
-  /// @brief Method WriteValue addr 0x2649824 size 0x30 virtual true final false
+  /// @brief Method WriteValue addr 0x24e70e0 size 0x30 virtual true final false
   inline void WriteValue(int8_t value);
 
-  /// @brief Method WriteValue addr 0x2649854 size 0x9c virtual true final false
+  /// @brief Method WriteValue addr 0x24e7110 size 0x9c virtual true final false
   inline void WriteValue(::System::Decimal value);
 
-  /// @brief Method WriteValue addr 0x26499b8 size 0x1f0 virtual true final false
+  /// @brief Method WriteValue addr 0x24e7274 size 0x1f0 virtual true final false
   inline void WriteValue(::System::DateTime value);
 
-  /// @brief Method WriteValue addr 0x2649ba8 size 0xb8 virtual true final false
+  /// @brief Method WriteValue addr 0x24e7464 size 0xb8 virtual true final false
   inline void WriteValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method WriteValue addr 0x2649c60 size 0x1fc virtual true final false
+  /// @brief Method WriteValue addr 0x24e751c size 0x1fc virtual true final false
   inline void WriteValue(::System::DateTimeOffset value);
 
-  /// @brief Method WriteValue addr 0x2649e5c size 0xfc virtual true final false
+  /// @brief Method WriteValue addr 0x24e7718 size 0xfc virtual true final false
   inline void WriteValue(::System::Guid value);
 
-  /// @brief Method WriteValue addr 0x2649f58 size 0x94 virtual true final false
+  /// @brief Method WriteValue addr 0x24e7814 size 0x94 virtual true final false
   inline void WriteValue(::System::TimeSpan value);
 
-  /// @brief Method WriteValue addr 0x2649fec size 0xc0 virtual true final false
+  /// @brief Method WriteValue addr 0x24e78a8 size 0xc0 virtual true final false
   inline void WriteValue(::System::Uri* value);
 
-  /// @brief Method WriteComment addr 0x264a0ac size 0xb8 virtual true final false
+  /// @brief Method WriteComment addr 0x24e7968 size 0xb8 virtual true final false
   inline void WriteComment(::StringW text);
 
-  /// @brief Method WriteWhitespace addr 0x264a164 size 0x40 virtual true final false
+  /// @brief Method WriteWhitespace addr 0x24e7a20 size 0x40 virtual true final false
   inline void WriteWhitespace(::StringW ws);
 
-  /// @brief Method EnsureWriteBuffer addr 0x2648e10 size 0x2c virtual false final false
+  /// @brief Method EnsureWriteBuffer addr 0x24e66cc size 0x2c virtual false final false
   inline void EnsureWriteBuffer();
 
-  /// @brief Method WriteIntegerValue addr 0x2648e6c size 0x78 virtual false final false
+  /// @brief Method WriteIntegerValue addr 0x24e6728 size 0x78 virtual false final false
   inline void WriteIntegerValue(int64_t value);
 
-  /// @brief Method WriteIntegerValue addr 0x2648f74 size 0xe8 virtual false final false
+  /// @brief Method WriteIntegerValue addr 0x24e6830 size 0xe8 virtual false final false
   inline void WriteIntegerValue(uint64_t uvalue);
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonTextWriter", modifiers: "&&", def_value: None }]
@@ -386,6 +386,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextWriter, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonTextWriter, ____writer) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonTextWriter, ____base64Encoder) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonTextWriter, ____indentChar) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonTextWriter, ____indentation) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonTextWriter, ____quoteChar) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonTextWriter, ____quoteName) == 0x7a, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonTextWriter, ____charEscapeFlags) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonTextWriter, ____writeBuffer) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonTextWriter, ____arrayPool) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonTextWriter, ____indentChars) == 0x98, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json
 NEED_NO_BOX(::Newtonsoft::Json::JsonTextWriter);

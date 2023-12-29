@@ -35,25 +35,25 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::RC2Parameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor addr 0xf393ac size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0xec31c0 size 0x40 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::RC2Parameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method .ctor addr 0xf39414 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0xec3228 size 0x34 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::RC2Parameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t bits);
 
-  /// @brief Method .ctor addr 0xf393ec size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xec3200 size 0x28 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t bits);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::RC2Parameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen, int32_t bits);
 
-  /// @brief Method .ctor addr 0xf39448 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xec325c size 0x28 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen, int32_t bits);
 
-  /// @brief Method get_EffectiveKeyBits addr 0xf39470 size 0x8 virtual false final false
+  /// @brief Method get_EffectiveKeyBits addr 0xec3284 size 0x8 virtual false final false
   inline int32_t get_EffectiveKeyBits();
 
   // Ctor Parameters [CppParam { name: "", ty: "RC2Parameters", modifiers: "&&", def_value: None }]
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::RC2Parameters, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::RC2Parameters, ___bits) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::RC2Parameters);

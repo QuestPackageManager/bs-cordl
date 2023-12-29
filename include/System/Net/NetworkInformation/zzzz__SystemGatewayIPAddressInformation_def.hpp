@@ -8,10 +8,10 @@ namespace System::Net {
 class IPAddress;
 }
 namespace System::Net::NetworkInformation {
-class IPAddressCollection;
+class GatewayIPAddressInformationCollection;
 }
 namespace System::Net::NetworkInformation {
-class GatewayIPAddressInformationCollection;
+class IPAddressCollection;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::SystemGatewayIPAddressInformat
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9245))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9255))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8082))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8092))
 // CS Name: ::System.Net.NetworkInformation::SystemGatewayIPAddressInformation*
 class CORDL_TYPE SystemGatewayIPAddressInformation : public ::System::Net::NetworkInformation::GatewayIPAddressInformation {
 public:
@@ -40,10 +40,10 @@ public:
 
   static inline ::System::Net::NetworkInformation::SystemGatewayIPAddressInformation* New_ctor(::System::Net::IPAddress* address);
 
-  /// @brief Method .ctor addr 0x29eb9d8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x286f154 size 0x28 virtual false final false
   inline void _ctor(::System::Net::IPAddress* address);
 
-  /// @brief Method ToGatewayIpAddressInformationCollection addr 0x29eba00 size 0x2f0 virtual false final false
+  /// @brief Method ToGatewayIpAddressInformationCollection addr 0x286f17c size 0x2f0 virtual false final false
   static inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* ToGatewayIpAddressInformationCollection(::System::Net::NetworkInformation::IPAddressCollection* addresses);
 
   // Ctor Parameters [CppParam { name: "", ty: "SystemGatewayIPAddressInformation", modifiers: "&&", def_value: None }]
@@ -67,6 +67,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::SystemGatewayIPAddressInformation, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::SystemGatewayIPAddressInformation, ___address) == 0x10, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation
 NEED_NO_BOX(::System::Net::NetworkInformation::SystemGatewayIPAddressInformation);

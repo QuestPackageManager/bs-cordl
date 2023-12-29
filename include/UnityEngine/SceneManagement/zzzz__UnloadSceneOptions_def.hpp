@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SceneManagement::UnloadSceneOptions);
 namespace UnityEngine::SceneManagement {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10378))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10300))
 // CS Name: ::UnityEngine.SceneManagement::UnloadSceneOptions
 struct CORDL_TYPE UnloadSceneOptions {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SceneManagement::UnloadSceneOptions, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::SceneManagement::UnloadSceneOptions, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::SceneManagement
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SceneManagement::UnloadSceneOptions, "UnityEngine.SceneManagement", "UnloadSceneOptions");

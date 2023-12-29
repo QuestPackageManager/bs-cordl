@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::JetBrains::Annotations::ItemCanBeNullAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15739))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15689))
 // CS Name: ::JetBrains.Annotations::ItemCanBeNullAttribute*
 class CORDL_TYPE ItemCanBeNullAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::ItemCanBeNullAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2eb9f68 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d521e8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ItemCanBeNullAttribute", modifiers: "&&", def_value: None }]

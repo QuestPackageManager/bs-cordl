@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputUpdateDelegate)
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
+struct InputEventBuffer;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventBuffer;
+struct InputUpdateType;
 }
 namespace System {
 class AsyncCallback;
-}
-namespace System {
-class IAsyncResult;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -31,25 +31,25 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6548))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6634))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputUpdateDelegate*
 class CORDL_TYPE InputUpdateDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2af0a28 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x2970cd4 size 0xc4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2af0aec size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2970d98 size 0x14 virtual true final false
   inline void Invoke(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType, ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer);
 
-  /// @brief Method BeginInvoke addr 0x2af0b00 size 0xb8 virtual true final false
+  /// @brief Method BeginInvoke addr 0x2970dac size 0xb8 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType, ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2af0bb8 size 0x1c virtual true final false
+  /// @brief Method EndInvoke addr 0x2970e64 size 0x1c virtual true final false
   inline void EndInvoke(ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "InputUpdateDelegate", modifiers: "&&", def_value: None }]

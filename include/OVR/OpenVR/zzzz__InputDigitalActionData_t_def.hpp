@@ -17,7 +17,7 @@ MARK_VAL_T(::OVR::OpenVR::InputDigitalActionData_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8721))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9490))
 // CS Name: ::OVR.OpenVR::InputDigitalActionData_t
 struct CORDL_TYPE InputDigitalActionData_t {
 public:
@@ -53,6 +53,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::InputDigitalActionData_t, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputDigitalActionData_t, bActive) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputDigitalActionData_t, activeOrigin) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputDigitalActionData_t, bState) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputDigitalActionData_t, bChanged) == 0x11, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputDigitalActionData_t, fUpdateTime) == 0x14, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::InputDigitalActionData_t, "OVR.OpenVR", "InputDigitalActionData_t");

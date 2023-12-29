@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::Zenject::AnimatorInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11132), inst: 3907 }), TypeDefinitionIndex(TypeDefinitionIndex(14882)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11132))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11301)) CS Name: ::Zenject::AnimatorInstaller*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11060)), TypeDefinitionIndex(TypeDefinitionIndex(15109)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11060), inst:
+// 3816 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11229)) CS Name: ::Zenject::AnimatorInstaller*
 class CORDL_TYPE AnimatorInstaller : public ::Zenject::Installer_2<::UnityEngine::Animator*, ::Zenject::AnimatorInstaller*> {
 public:
   // Declarations
@@ -41,16 +41,16 @@ public:
 
   static inline ::Zenject::AnimatorInstaller* New_ctor(::UnityEngine::Animator* animator);
 
-  /// @brief Method .ctor addr 0x2f0e650 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x2da6880 size 0x5c virtual false final false
   inline void _ctor(::UnityEngine::Animator* animator);
 
-  /// @brief Method InstallBindings addr 0x2f0e6ac size 0xb8 virtual true final false
+  /// @brief Method InstallBindings addr 0x2da68dc size 0xb8 virtual true final false
   inline void InstallBindings();
 
-  /// @brief Method __zenCreate addr 0x2f0e764 size 0xc4 virtual false final false
+  /// @brief Method __zenCreate addr 0x2da6994 size 0xc4 virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f0e828 size 0x274 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2da6a58 size 0x274 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimatorInstaller", modifiers: "&&", def_value: None }]
@@ -74,6 +74,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::AnimatorInstaller, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::AnimatorInstaller, ____animator) == 0x18, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::AnimatorInstaller);

@@ -6,14 +6,14 @@ CORDL_MODULE_EXPORT(IOrderedEnumerable_1)
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Linq {
@@ -28,7 +28,7 @@ namespace System::Linq {
 template <typename TElement>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14281))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14619))
 // CS Name: ::System.Linq::IOrderedEnumerable`1<TElement>*
 class CORDL_TYPE IOrderedEnumerable_1 {
 public:

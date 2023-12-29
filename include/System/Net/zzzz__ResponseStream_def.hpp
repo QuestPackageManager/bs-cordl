@@ -7,8 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResponseStream)
+namespace System {
+class AsyncCallback;
+}
+namespace System::Net {
+class HttpListenerResponse;
+}
 namespace System::IO {
 class Stream;
+}
+namespace System::IO {
+class MemoryStream;
 }
 namespace System {
 class Object;
@@ -18,15 +27,6 @@ class IAsyncResult;
 }
 namespace System::IO {
 struct SeekOrigin;
-}
-namespace System::IO {
-class MemoryStream;
-}
-namespace System::Net {
-class HttpListenerResponse;
-}
-namespace System {
-class AsyncCallback;
 }
 // Forward declare root types
 namespace System::Net {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::System::Net::ResponseStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9199))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3607))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8036))
 // CS Name: ::System.Net::ResponseStream*
 class CORDL_TYPE ResponseStream : public ::System::IO::Stream {
 public:
@@ -108,64 +108,64 @@ public:
 
   static inline ::System::Net::ResponseStream* New_ctor(::System::IO::Stream* stream, ::System::Net::HttpListenerResponse* response, bool ignore_errors);
 
-  /// @brief Method .ctor addr 0x29d6240 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x28599cc size 0x84 virtual false final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Net::HttpListenerResponse* response, bool ignore_errors);
 
-  /// @brief Method get_CanRead addr 0x29d62c4 size 0x8 virtual true final false
+  /// @brief Method get_CanRead addr 0x2859a50 size 0x8 virtual true final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek addr 0x29d62cc size 0x8 virtual true final false
+  /// @brief Method get_CanSeek addr 0x2859a58 size 0x8 virtual true final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite addr 0x29d62d4 size 0x8 virtual true final false
+  /// @brief Method get_CanWrite addr 0x2859a60 size 0x8 virtual true final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length addr 0x29d62dc size 0x40 virtual true final false
+  /// @brief Method get_Length addr 0x2859a68 size 0x40 virtual true final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position addr 0x29d631c size 0x40 virtual true final false
+  /// @brief Method get_Position addr 0x2859aa8 size 0x40 virtual true final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position addr 0x29d635c size 0x40 virtual true final false
+  /// @brief Method set_Position addr 0x2859ae8 size 0x40 virtual true final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method Close addr 0x29d639c size 0x264 virtual true final false
+  /// @brief Method Close addr 0x2859b28 size 0x260 virtual true final false
   inline void Close();
 
-  /// @brief Method GetHeaders addr 0x29d6600 size 0x15c virtual false final false
+  /// @brief Method GetHeaders addr 0x2859d88 size 0x15c virtual false final false
   inline ::System::IO::MemoryStream* GetHeaders(bool closing);
 
-  /// @brief Method Flush addr 0x29d6908 size 0x4 virtual true final false
+  /// @brief Method Flush addr 0x285a090 size 0x4 virtual true final false
   inline void Flush();
 
-  /// @brief Method GetChunkSizeBytes addr 0x29d675c size 0xf0 virtual false final false
+  /// @brief Method GetChunkSizeBytes addr 0x2859ee4 size 0xf0 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetChunkSizeBytes(int32_t size, bool final);
 
-  /// @brief Method InternalWrite addr 0x29d684c size 0xbc virtual false final false
+  /// @brief Method InternalWrite addr 0x2859fd4 size 0xbc virtual false final false
   inline void InternalWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Write addr 0x29d690c size 0x308 virtual true final false
+  /// @brief Method Write addr 0x285a094 size 0x300 virtual true final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method BeginWrite addr 0x29d6c14 size 0x244 virtual true final false
+  /// @brief Method BeginWrite addr 0x285a394 size 0x23c virtual true final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* cback, ::System::Object* state);
 
-  /// @brief Method EndWrite addr 0x29d6e58 size 0x22c virtual true final false
+  /// @brief Method EndWrite addr 0x285a5d0 size 0x22c virtual true final false
   inline void EndWrite(::System::IAsyncResult* ares);
 
-  /// @brief Method Read addr 0x29d7084 size 0x40 virtual true final false
+  /// @brief Method Read addr 0x285a7fc size 0x40 virtual true final false
   inline int32_t Read(ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method BeginRead addr 0x29d70c4 size 0x40 virtual true final false
+  /// @brief Method BeginRead addr 0x285a83c size 0x40 virtual true final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* cback, ::System::Object* state);
 
-  /// @brief Method EndRead addr 0x29d7104 size 0x40 virtual true final false
+  /// @brief Method EndRead addr 0x285a87c size 0x40 virtual true final false
   inline int32_t EndRead(::System::IAsyncResult* ares);
 
-  /// @brief Method Seek addr 0x29d7144 size 0x40 virtual true final false
+  /// @brief Method Seek addr 0x285a8bc size 0x40 virtual true final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength addr 0x29d7184 size 0x40 virtual true final false
+  /// @brief Method SetLength addr 0x285a8fc size 0x40 virtual true final false
   inline void SetLength(int64_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ResponseStream", modifiers: "&&", def_value: None }]
@@ -201,6 +201,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::ResponseStream, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::ResponseStream, ___response) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ResponseStream, ___ignore_errors) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ResponseStream, ___disposed) == 0x31, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ResponseStream, ___trailer_sent) == 0x32, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ResponseStream, ___stream) == 0x38, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::ResponseStream);

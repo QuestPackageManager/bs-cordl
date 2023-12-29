@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Asn1Null* New_ctor();
 
-  /// @brief Method .ctor addr 0x11b7524 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x11462d4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method ToString addr 0x11b752c size 0x40 virtual true final false
+  /// @brief Method ToString addr 0x11462dc size 0x40 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1Null", modifiers: "&&", def_value: None }]

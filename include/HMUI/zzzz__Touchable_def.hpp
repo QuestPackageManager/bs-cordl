@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::HMUI::Touchable);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13042))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13566))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13047))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13685))
 // CS Name: ::HMUI::Touchable*
 class CORDL_TYPE Touchable : public ::UnityEngine::UI::Graphic {
 public:
@@ -35,15 +35,15 @@ public:
 
   constexpr void __set__skew(float_t value);
 
-  /// @brief Method get_skew addr 0x21253bc size 0x8 virtual false final false
+  /// @brief Method get_skew addr 0x1fcf160 size 0x8 virtual false final false
   inline float_t get_skew();
 
-  /// @brief Method OnPopulateMesh addr 0x21253c4 size 0x18 virtual true final false
+  /// @brief Method OnPopulateMesh addr 0x1fcf168 size 0x18 virtual true final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
 
   static inline ::HMUI::Touchable* New_ctor();
 
-  /// @brief Method .ctor addr 0x2124bc0 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x1fce964 size 0x58 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Touchable", modifiers: "&&", def_value: None }]
@@ -67,6 +67,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::Touchable, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::Touchable, ____skew) == 0x9c, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::Touchable);

@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MonoSslAuthenticationOptions)
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
 namespace System::Net::Security {
 struct EncryptionPolicy;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct X509RevocationMode;
+class X509CertificateCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
+struct X509RevocationMode;
 }
 namespace System::Net::Security {
 class ServerCertSelectionCallback;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
 }
 namespace System::Security::Authentication {
 struct SslProtocols;
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::Mono::Net::Security::MonoSslAuthenticationOptions);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8839))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7676))
 // CS Name: ::Mono.Net.Security::MonoSslAuthenticationOptions*
 class CORDL_TYPE MonoSslAuthenticationOptions : public ::System::Object {
 public:
@@ -106,12 +106,12 @@ public:
   /// @brief Method set_ClientCertificateRequired addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void set_ClientCertificateRequired(bool value);
 
-  /// @brief Method get_ServerCertSelectionDelegate addr 0x2823f84 size 0x8 virtual false final false
+  /// @brief Method get_ServerCertSelectionDelegate addr 0x26a8f74 size 0x8 virtual false final false
   inline ::System::Net::Security::ServerCertSelectionCallback* get_ServerCertSelectionDelegate();
 
   static inline ::Mono::Net::Security::MonoSslAuthenticationOptions* New_ctor();
 
-  /// @brief Method .ctor addr 0x2823f8c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26a8f7c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoSslAuthenticationOptions", modifiers: "&&", def_value: None }]
@@ -135,6 +135,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::MonoSslAuthenticationOptions, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Net::Security::MonoSslAuthenticationOptions, ____ServerCertSelectionDelegate_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace Mono::Net::Security
 NEED_NO_BOX(::Mono::Net::Security::MonoSslAuthenticationOptions);

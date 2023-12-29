@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Match)
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
 namespace System::Text::RegularExpressions {
 class GroupCollection;
 }
 namespace System::Text::RegularExpressions {
 class Regex;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::Match);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8903))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8906))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7740))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7743))
 // CS Name: ::System.Text.RegularExpressions::Match*
 class CORDL_TYPE Match : public ::System::Text::RegularExpressions::Group {
 public:
@@ -124,51 +124,51 @@ public:
 
   static inline ::System::Text::RegularExpressions::Match* New_ctor(::System::Text::RegularExpressions::Regex* regex, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos);
 
-  /// @brief Method .ctor addr 0x294f918 size 0x170 virtual false final false
+  /// @brief Method .ctor addr 0x27d27f8 size 0x170 virtual false final false
   inline void _ctor(::System::Text::RegularExpressions::Regex* regex, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos);
 
-  /// @brief Method get_Empty addr 0x294fa88 size 0x58 virtual false final false
+  /// @brief Method get_Empty addr 0x27d2968 size 0x58 virtual false final false
   static inline ::System::Text::RegularExpressions::Match* get_Empty();
 
-  /// @brief Method Reset addr 0x294fae0 size 0x64 virtual true final false
+  /// @brief Method Reset addr 0x27d29c0 size 0x64 virtual true final false
   inline void Reset(::System::Text::RegularExpressions::Regex* regex, ::StringW text, int32_t textbeg, int32_t textend, int32_t textstart);
 
-  /// @brief Method get_Groups addr 0x294fb44 size 0x70 virtual true final false
+  /// @brief Method get_Groups addr 0x27d2a24 size 0x70 virtual true final false
   inline ::System::Text::RegularExpressions::GroupCollection* get_Groups();
 
-  /// @brief Method NextMatch addr 0x294fbb4 size 0x30 virtual false final false
+  /// @brief Method NextMatch addr 0x27d2a94 size 0x30 virtual false final false
   inline ::System::Text::RegularExpressions::Match* NextMatch();
 
-  /// @brief Method GroupToStringImpl addr 0x294fe74 size 0x198 virtual true final false
+  /// @brief Method GroupToStringImpl addr 0x27d2d54 size 0x198 virtual true final false
   inline ::System::ReadOnlySpan_1<char16_t> GroupToStringImpl(int32_t groupnum);
 
-  /// @brief Method LastGroupToStringImpl addr 0x295000c size 0x28 virtual false final false
+  /// @brief Method LastGroupToStringImpl addr 0x27d2eec size 0x28 virtual false final false
   inline ::System::ReadOnlySpan_1<char16_t> LastGroupToStringImpl();
 
-  /// @brief Method AddMatch addr 0x2950034 size 0x224 virtual true final false
+  /// @brief Method AddMatch addr 0x27d2f14 size 0x224 virtual true final false
   inline void AddMatch(int32_t cap, int32_t start, int32_t len);
 
-  /// @brief Method BalanceMatch addr 0x2950258 size 0xd8 virtual true final false
+  /// @brief Method BalanceMatch addr 0x27d3138 size 0xd8 virtual true final false
   inline void BalanceMatch(int32_t cap);
 
-  /// @brief Method RemoveMatch addr 0x2950330 size 0x38 virtual true final false
+  /// @brief Method RemoveMatch addr 0x27d3210 size 0x38 virtual true final false
   inline void RemoveMatch(int32_t cap);
 
-  /// @brief Method IsMatched addr 0x2950368 size 0x90 virtual true final false
+  /// @brief Method IsMatched addr 0x27d3248 size 0x90 virtual true final false
   inline bool IsMatched(int32_t cap);
 
-  /// @brief Method MatchIndex addr 0x29503f8 size 0x8c virtual true final false
+  /// @brief Method MatchIndex addr 0x27d32d8 size 0x8c virtual true final false
   inline int32_t MatchIndex(int32_t cap);
 
-  /// @brief Method MatchLength addr 0x2950484 size 0x8c virtual true final false
+  /// @brief Method MatchLength addr 0x27d3364 size 0x8c virtual true final false
   inline int32_t MatchLength(int32_t cap);
 
-  /// @brief Method Tidy addr 0x2950510 size 0x164 virtual true final false
+  /// @brief Method Tidy addr 0x27d33f0 size 0x164 virtual true final false
   inline void Tidy(int32_t textpos);
 
   static inline ::System::Text::RegularExpressions::Match* New_ctor();
 
-  /// @brief Method .ctor addr 0x295070c size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x27d35ec size 0x38 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Match", modifiers: "&&", def_value: None }]
@@ -216,6 +216,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::Match, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::Match, ____groupcoll) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::Match, ____regex) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::Match, ____textbeg) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::Match, ____textpos) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::Match, ____textend) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::Match, ____textstart) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::Match, ____matches) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::Match, ____matchcount) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::Match, ____balancing) == 0x70, "Offset mismatch!");
 
 } // namespace System::Text::RegularExpressions
 NEED_NO_BOX(::System::Text::RegularExpressions::Match);

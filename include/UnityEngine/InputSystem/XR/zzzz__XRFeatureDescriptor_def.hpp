@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRFeatureDescriptor)
 namespace UnityEngine::InputSystem::XR {
-struct UsageHint;
+struct FeatureType;
 }
 namespace UnityEngine::InputSystem::XR {
-struct FeatureType;
+struct UsageHint;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::XRFeatureDescriptor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6333))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6335))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6419))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6421))
 // CS Name: ::UnityEngine.InputSystem.XR::XRFeatureDescriptor
 struct CORDL_TYPE XRFeatureDescriptor {
 public:
@@ -61,6 +61,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::XRFeatureDescriptor, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::XRFeatureDescriptor, name) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::XRFeatureDescriptor, usageHints) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::XRFeatureDescriptor, featureType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::XRFeatureDescriptor, customSize) == 0x14, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XR::XRFeatureDescriptor, "UnityEngine.InputSystem.XR", "XRFeatureDescriptor");

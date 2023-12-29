@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithI
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14543)), TypeDefinitionIndex(TypeDefinitionIndex(14532))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14534))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14748)), TypeDefinitionIndex(TypeDefinitionIndex(14761))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14750))
 // CS Name: ::LightmapLightsWithIds::LightIntensitiesWithId*
 class CORDL_TYPE __LightmapLightsWithIds__LightIntensitiesWithId : public ::GlobalNamespace::__LightWithIds__LightWithId {
 public:
@@ -103,27 +103,27 @@ public:
 
   constexpr void __set__initializedPropertyIds(bool value);
 
-  /// @brief Method get_bakeId addr 0x210fa60 size 0x8 virtual false final false
+  /// @brief Method get_bakeId addr 0x1fba05c size 0x8 virtual false final false
   inline ::GlobalNamespace::__LightConstants__BakeId get_bakeId();
 
-  /// @brief Method get_intensity addr 0x210fa68 size 0x8 virtual false final false
+  /// @brief Method get_intensity addr 0x1fba064 size 0x8 virtual false final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity addr 0x210fa70 size 0x8 virtual false final false
+  /// @brief Method set_intensity addr 0x1fba06c size 0x8 virtual false final false
   inline void set_intensity(float_t value);
 
-  /// @brief Method get_weight addr 0x210fa78 size 0x8 virtual false final false
+  /// @brief Method get_weight addr 0x1fba074 size 0x8 virtual false final false
   inline float_t get_weight();
 
-  /// @brief Method set_weight addr 0x210fa80 size 0x8 virtual false final false
+  /// @brief Method set_weight addr 0x1fba07c size 0x8 virtual false final false
   inline void set_weight(float_t value);
 
-  /// @brief Method SetDataToShaders addr 0x210f8e8 size 0x160 virtual false final false
+  /// @brief Method SetDataToShaders addr 0x1fb9ee4 size 0x160 virtual false final false
   inline void SetDataToShaders(::UnityEngine::Color lightmapColor, ::UnityEngine::Color probeColor);
 
   static inline ::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId* New_ctor();
 
-  /// @brief Method .ctor addr 0x210fa88 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fba084 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LightmapLightsWithIds__LightIntensitiesWithId", modifiers: "&&", def_value: None }]
@@ -163,13 +163,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId, ____bakeId) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId, ____intensity) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId, ____weight) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId, ____lightmapLightIdColorPropertyId) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId, ____lightProbeLightIdColorPropertyId) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId, ____initializedPropertyIds) == 0x44, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LightmapLightsWithIds
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14544))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14535))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14762))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14751))
 // CS Name: ::LightmapLightsWithIds*
 class CORDL_TYPE LightmapLightsWithIds : public ::GlobalNamespace::LightWithIds {
 public:
@@ -199,21 +211,21 @@ public:
   constexpr void
   __set__lightIntensityData(::ArrayW<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*>*> value);
 
-  /// @brief Method get_maxTotalIntensity addr 0x210f6e0 size 0x8 virtual false final false
+  /// @brief Method get_maxTotalIntensity addr 0x1fb9cdc size 0x8 virtual false final false
   inline float_t get_maxTotalIntensity();
 
-  /// @brief Method set_maxTotalIntensity addr 0x210f6e8 size 0x8 virtual false final false
+  /// @brief Method set_maxTotalIntensity addr 0x1fb9ce4 size 0x8 virtual false final false
   inline void set_maxTotalIntensity(float_t value);
 
-  /// @brief Method ProcessNewColorData addr 0x210f6f0 size 0x1f8 virtual true final false
+  /// @brief Method ProcessNewColorData addr 0x1fb9cec size 0x1f8 virtual true final false
   inline void ProcessNewColorData();
 
-  /// @brief Method GetLightWithIds addr 0x210fa48 size 0x8 virtual true final false
+  /// @brief Method GetLightWithIds addr 0x1fba044 size 0x8 virtual true final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* GetLightWithIds();
 
   static inline ::GlobalNamespace::LightmapLightsWithIds* New_ctor();
 
-  /// @brief Method .ctor addr 0x210fa50 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x1fba04c size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightmapLightsWithIds", modifiers: "&&", def_value: None }]
@@ -240,6 +252,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightmapLightsWithIds, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightmapLightsWithIds, ____maxTotalIntensity) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightmapLightsWithIds, ____lightIntensityData) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightmapLightsWithIds);

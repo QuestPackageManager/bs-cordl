@@ -41,13 +41,13 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                                   ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
-  /// @brief Method .ctor addr 0xf355dc size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0xec03f0 size 0x3c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
-  /// @brief Method get_Parameters addr 0xf3564c size 0x8 virtual false final false
+  /// @brief Method get_Parameters addr 0xec0460 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* get_Parameters();
 
-  /// @brief Method GetStrength addr 0xf35618 size 0x34 virtual false final false
+  /// @brief Method GetStrength addr 0xec042c size 0x34 virtual false final false
   static inline int32_t GetStrength(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalKeyGenerationParameters", modifiers: "&&", def_value: None }]
@@ -71,6 +71,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters, ___parameters) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters);

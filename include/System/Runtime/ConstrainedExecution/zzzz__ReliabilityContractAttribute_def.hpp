@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
 CORDL_MODULE_EXPORT(ReliabilityContractAttribute)
 namespace System::Runtime::ConstrainedExecution {
-struct Cer;
+struct Consistency;
 }
 namespace System::Runtime::ConstrainedExecution {
-struct Consistency;
+struct Cer;
 }
 // Forward declare root types
 namespace System::Runtime::ConstrainedExecution {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Runtime::ConstrainedExecution::ReliabilityContractAttri
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::ConstrainedExecution {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3351)), TypeDefinitionIndex(TypeDefinitionIndex(3350))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3352))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3346)), TypeDefinitionIndex(TypeDefinitionIndex(3347)), TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3348))
 // CS Name: ::System.Runtime.ConstrainedExecution::ReliabilityContractAttribute*
 class CORDL_TYPE ReliabilityContractAttribute : public ::System::Attribute {
 public:
@@ -50,7 +50,7 @@ public:
   static inline ::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute* New_ctor(::System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee,
                                                                                                 ::System::Runtime::ConstrainedExecution::Cer cer);
 
-  /// @brief Method .ctor addr 0x24da6e0 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2381098 size 0x2c virtual false final false
   inline void _ctor(::System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee, ::System::Runtime::ConstrainedExecution::Cer cer);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReliabilityContractAttribute", modifiers: "&&", def_value: None }]
@@ -77,6 +77,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute, ____ConsistencyGuarantee_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute, ____Cer_k__BackingField) == 0x14, "Offset mismatch!");
 
 } // namespace System::Runtime::ConstrainedExecution
 NEED_NO_BOX(::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute);

@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::Signal);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14395))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13947))
 // CS Name: ::Signal*
 class CORDL_TYPE Signal : public ::UnityEngine::ScriptableObject {
 public:
@@ -32,24 +32,24 @@ public:
 
   constexpr void __set__event(::System::Action* value);
 
-  /// @brief Method add__event addr 0x20f5644 size 0x9c virtual false final false
+  /// @brief Method add__event addr 0x1fa1b6c size 0x9c virtual false final false
   inline void add__event(::System::Action* value);
 
-  /// @brief Method remove__event addr 0x20f56e0 size 0x9c virtual false final false
+  /// @brief Method remove__event addr 0x1fa1c08 size 0x9c virtual false final false
   inline void remove__event(::System::Action* value);
 
-  /// @brief Method Raise addr 0x20f577c size 0x1c virtual true final false
+  /// @brief Method Raise addr 0x1fa1ca4 size 0x1c virtual true final false
   inline void Raise();
 
-  /// @brief Method Subscribe addr 0x20f5798 size 0x28 virtual false final false
+  /// @brief Method Subscribe addr 0x1fa1cc0 size 0x28 virtual false final false
   inline void Subscribe(::System::Action* foo);
 
-  /// @brief Method Unsubscribe addr 0x20f57c0 size 0x4 virtual false final false
+  /// @brief Method Unsubscribe addr 0x1fa1ce8 size 0x4 virtual false final false
   inline void Unsubscribe(::System::Action* foo);
 
   static inline ::GlobalNamespace::Signal* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f57c4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fa1cec size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Signal", modifiers: "&&", def_value: None }]
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Signal, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::Signal, ____event) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Signal);

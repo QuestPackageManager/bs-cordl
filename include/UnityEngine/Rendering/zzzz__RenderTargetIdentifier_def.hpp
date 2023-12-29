@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderTargetIdentifier)
-namespace UnityEngine {
-struct CubemapFace;
-}
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::Rendering {
+struct BuiltinRenderTextureType;
+}
+namespace UnityEngine {
+class Texture;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine::Rendering {
-struct BuiltinRenderTextureType;
+struct CubemapFace;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -34,8 +34,8 @@ MARK_VAL_T(::UnityEngine::Rendering::RenderTargetIdentifier);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10339)), TypeDefinitionIndex(TypeDefinitionIndex(10116))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10346))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(10044)), TypeDefinitionIndex(TypeDefinitionIndex(10261))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10268))
 // CS Name: ::UnityEngine.Rendering::RenderTargetIdentifier
 struct CORDL_TYPE RenderTargetIdentifier {
 public:
@@ -43,34 +43,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*();
 
-  /// @brief Method .ctor addr 0x2cec308 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x2b84ed4 size 0x74 virtual false final false
   inline void _ctor(::UnityEngine::Rendering::BuiltinRenderTextureType type);
 
-  /// @brief Method .ctor addr 0x2cec37c size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x2b84f48 size 0x74 virtual false final false
   inline void _ctor(int32_t nameID);
 
-  /// @brief Method .ctor addr 0x2cec3f0 size 0x144 virtual false final false
+  /// @brief Method .ctor addr 0x2b84fbc size 0x144 virtual false final false
   inline void _ctor(::UnityEngine::Texture* tex);
 
-  /// @brief Method op_Implicit addr 0x2cec534 size 0x78 virtual false final false
+  /// @brief Method op_Implicit addr 0x2b85100 size 0x78 virtual false final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(::UnityEngine::Rendering::BuiltinRenderTextureType type);
 
-  /// @brief Method op_Implicit addr 0x2cec5ac size 0x70 virtual false final false
+  /// @brief Method op_Implicit addr 0x2b85178 size 0x70 virtual false final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(int32_t nameID);
 
-  /// @brief Method op_Implicit addr 0x2cec61c size 0x50 virtual false final false
+  /// @brief Method op_Implicit addr 0x2b851e8 size 0x50 virtual false final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(::UnityEngine::Texture* tex);
 
-  /// @brief Method ToString addr 0x2cec66c size 0x2a8 virtual true final false
+  /// @brief Method ToString addr 0x2b85238 size 0x2a8 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method GetHashCode addr 0x2cec914 size 0x4c virtual true final false
+  /// @brief Method GetHashCode addr 0x2b854e0 size 0x4c virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x2cec960 size 0x98 virtual true final true
+  /// @brief Method Equals addr 0x2b8552c size 0x98 virtual true final true
   inline bool Equals(::UnityEngine::Rendering::RenderTargetIdentifier rhs);
 
-  /// @brief Method Equals addr 0x2cec9f8 size 0x90 virtual true final false
+  /// @brief Method Equals addr 0x2b855c4 size 0x90 virtual true final false
   inline bool Equals(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::Rendering::BuiltinRenderTextureType", modifiers: "", def_value: None }, CppParam { name: "m_NameID", ty: "int32_t", modifiers: "",
@@ -112,6 +112,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderTargetIdentifier, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::RenderTargetIdentifier, m_Type) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::RenderTargetIdentifier, m_NameID) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::RenderTargetIdentifier, m_InstanceID) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::RenderTargetIdentifier, m_BufferPointer) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::RenderTargetIdentifier, m_MipLevel) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::RenderTargetIdentifier, m_CubeFace) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::RenderTargetIdentifier, m_DepthSlice) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderTargetIdentifier, "UnityEngine.Rendering", "RenderTargetIdentifier");

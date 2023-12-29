@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IUxmlAttributes);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6999))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7085))
 // CS Name: ::UnityEngine.UIElements::IUxmlAttributes*
 class CORDL_TYPE IUxmlAttributes {
 public:

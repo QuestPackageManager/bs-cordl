@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::CursorMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10059))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9987))
 // CS Name: ::UnityEngine::CursorMode
 struct CORDL_TYPE CursorMode {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::CursorMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::CursorMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CursorMode, "UnityEngine", "CursorMode");

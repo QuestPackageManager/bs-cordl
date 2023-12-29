@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::WellKnownClientTypeEntry);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3079))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3081))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3078))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3080))
 // CS Name: ::System.Runtime.Remoting::WellKnownClientTypeEntry*
 class CORDL_TYPE WellKnownClientTypeEntry : public ::System::Runtime::Remoting::TypeEntry {
 public:
@@ -59,19 +59,19 @@ public:
 
   static inline ::System::Runtime::Remoting::WellKnownClientTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl);
 
-  /// @brief Method .ctor addr 0x24958c8 size 0x134 virtual false final false
+  /// @brief Method .ctor addr 0x233cdd4 size 0x134 virtual false final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl);
 
-  /// @brief Method get_ApplicationUrl addr 0x24959fc size 0x8 virtual false final false
+  /// @brief Method get_ApplicationUrl addr 0x233cf08 size 0x8 virtual false final false
   inline ::StringW get_ApplicationUrl();
 
-  /// @brief Method get_ObjectType addr 0x2495a04 size 0x8 virtual false final false
+  /// @brief Method get_ObjectType addr 0x233cf10 size 0x8 virtual false final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method get_ObjectUrl addr 0x2495a0c size 0x8 virtual false final false
+  /// @brief Method get_ObjectUrl addr 0x233cf18 size 0x8 virtual false final false
   inline ::StringW get_ObjectUrl();
 
-  /// @brief Method ToString addr 0x2495a14 size 0x1c virtual true final false
+  /// @brief Method ToString addr 0x233cf20 size 0x1c virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "WellKnownClientTypeEntry", modifiers: "&&", def_value: None }]
@@ -101,6 +101,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::WellKnownClientTypeEntry, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::WellKnownClientTypeEntry, ___obj_type) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::WellKnownClientTypeEntry, ___obj_url) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::WellKnownClientTypeEntry, ___app_url) == 0x30, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting
 NEED_NO_BOX(::System::Runtime::Remoting::WellKnownClientTypeEntry);

@@ -15,15 +15,15 @@ MARK_REF_PTR_T(::GlobalNamespace::XPlatformAccessTokenFetchException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15979))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4695))
 // CS Name: ::XPlatformAccessTokenFetchException*
 class CORDL_TYPE XPlatformAccessTokenFetchException : public ::System::Exception {
 public:
   // Declarations
   static inline ::GlobalNamespace::XPlatformAccessTokenFetchException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x27fdd68 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x2230844 size 0x68 virtual false final false
   inline void _ctor(::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "XPlatformAccessTokenFetchException", modifiers: "&&", def_value: None }]

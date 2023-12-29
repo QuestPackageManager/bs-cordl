@@ -8,23 +8,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TraceJsonWriter)
-namespace Newtonsoft::Json {
-class JsonTextWriter;
-}
 namespace System {
 class Object;
 }
-namespace Newtonsoft::Json {
-class JsonWriter;
+namespace System {
+struct Decimal;
+}
+namespace System {
+struct TimeSpan;
 }
 namespace System {
 class Uri;
 }
-namespace System {
-struct DateTimeOffset;
-}
-namespace System {
-struct TimeSpan;
+namespace Newtonsoft::Json {
+class JsonTextWriter;
 }
 namespace System {
 struct DateTime;
@@ -33,13 +30,16 @@ namespace System::IO {
 class StringWriter;
 }
 namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System {
 struct Guid;
 }
 namespace System {
-struct Decimal;
+template <typename T> struct Nullable_1;
+}
+namespace System {
+struct DateTimeOffset;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::TraceJsonWriter);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11843))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11911))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11771))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11839))
 // CS Name: ::Newtonsoft.Json.Serialization::TraceJsonWriter*
 class CORDL_TYPE TraceJsonWriter : public ::Newtonsoft::Json::JsonWriter {
 public:
@@ -86,124 +86,124 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::TraceJsonWriter* New_ctor(::Newtonsoft::Json::JsonWriter* innerWriter);
 
-  /// @brief Method .ctor addr 0x266b808 size 0x1c0 virtual false final false
+  /// @brief Method .ctor addr 0x25080c4 size 0x1c0 virtual false final false
   inline void _ctor(::Newtonsoft::Json::JsonWriter* innerWriter);
 
-  /// @brief Method GetSerializedJsonMessage addr 0x266b9c8 size 0x20 virtual false final false
+  /// @brief Method GetSerializedJsonMessage addr 0x2508284 size 0x20 virtual false final false
   inline ::StringW GetSerializedJsonMessage();
 
-  /// @brief Method WriteValue addr 0x266b9e8 size 0x78 virtual true final false
+  /// @brief Method WriteValue addr 0x25082a4 size 0x78 virtual true final false
   inline void WriteValue(::System::Decimal value);
 
-  /// @brief Method WriteValue addr 0x266ba60 size 0x74 virtual true final false
+  /// @brief Method WriteValue addr 0x250831c size 0x74 virtual true final false
   inline void WriteValue(bool value);
 
-  /// @brief Method WriteValue addr 0x266bad4 size 0x70 virtual true final false
+  /// @brief Method WriteValue addr 0x2508390 size 0x70 virtual true final false
   inline void WriteValue(uint8_t value);
 
-  /// @brief Method WriteValue addr 0x266bb44 size 0x60 virtual true final false
+  /// @brief Method WriteValue addr 0x2508400 size 0x60 virtual true final false
   inline void WriteValue(::System::Nullable_1<uint8_t> value);
 
-  /// @brief Method WriteValue addr 0x266bba4 size 0x70 virtual true final false
+  /// @brief Method WriteValue addr 0x2508460 size 0x70 virtual true final false
   inline void WriteValue(char16_t value);
 
-  /// @brief Method WriteValue addr 0x266bc14 size 0x5c virtual true final false
+  /// @brief Method WriteValue addr 0x25084d0 size 0x5c virtual true final false
   inline void WriteValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method WriteValue addr 0x266bc70 size 0x70 virtual true final false
+  /// @brief Method WriteValue addr 0x250852c size 0x70 virtual true final false
   inline void WriteValue(::System::DateTime value);
 
-  /// @brief Method WriteValue addr 0x266bce0 size 0x78 virtual true final false
+  /// @brief Method WriteValue addr 0x250859c size 0x78 virtual true final false
   inline void WriteValue(::System::DateTimeOffset value);
 
-  /// @brief Method WriteValue addr 0x266bd58 size 0x70 virtual true final false
+  /// @brief Method WriteValue addr 0x2508614 size 0x70 virtual true final false
   inline void WriteValue(double_t value);
 
-  /// @brief Method WriteUndefined addr 0x266bdc8 size 0x60 virtual true final false
+  /// @brief Method WriteUndefined addr 0x2508684 size 0x60 virtual true final false
   inline void WriteUndefined();
 
-  /// @brief Method WriteNull addr 0x266be28 size 0x60 virtual true final false
+  /// @brief Method WriteNull addr 0x25086e4 size 0x60 virtual true final false
   inline void WriteNull();
 
-  /// @brief Method WriteValue addr 0x266be88 size 0x70 virtual true final false
+  /// @brief Method WriteValue addr 0x2508744 size 0x70 virtual true final false
   inline void WriteValue(float_t value);
 
-  /// @brief Method WriteValue addr 0x266bef8 size 0x78 virtual true final false
+  /// @brief Method WriteValue addr 0x25087b4 size 0x78 virtual true final false
   inline void WriteValue(::System::Guid value);
 
-  /// @brief Method WriteValue addr 0x266bf70 size 0x70 virtual true final false
+  /// @brief Method WriteValue addr 0x250882c size 0x70 virtual true final false
   inline void WriteValue(int32_t value);
 
-  /// @brief Method WriteValue addr 0x266bfe0 size 0x70 virtual true final false
+  /// @brief Method WriteValue addr 0x250889c size 0x70 virtual true final false
   inline void WriteValue(int64_t value);
 
-  /// @brief Method WriteValue addr 0x266c050 size 0x5c virtual true final false
+  /// @brief Method WriteValue addr 0x250890c size 0x5c virtual true final false
   inline void WriteValue(::System::Object* value);
 
-  /// @brief Method WriteValue addr 0x266c0ac size 0x70 virtual true final false
+  /// @brief Method WriteValue addr 0x2508968 size 0x70 virtual true final false
   inline void WriteValue(int8_t value);
 
-  /// @brief Method WriteValue addr 0x266c11c size 0x70 virtual true final false
+  /// @brief Method WriteValue addr 0x25089d8 size 0x70 virtual true final false
   inline void WriteValue(int16_t value);
 
-  /// @brief Method WriteValue addr 0x266c18c size 0x70 virtual true final false
+  /// @brief Method WriteValue addr 0x2508a48 size 0x70 virtual true final false
   inline void WriteValue(::StringW value);
 
-  /// @brief Method WriteValue addr 0x266c1fc size 0x70 virtual true final false
+  /// @brief Method WriteValue addr 0x2508ab8 size 0x70 virtual true final false
   inline void WriteValue(::System::TimeSpan value);
 
-  /// @brief Method WriteValue addr 0x266c26c size 0x70 virtual true final false
+  /// @brief Method WriteValue addr 0x2508b28 size 0x70 virtual true final false
   inline void WriteValue(uint32_t value);
 
-  /// @brief Method WriteValue addr 0x266c2dc size 0x70 virtual true final false
+  /// @brief Method WriteValue addr 0x2508b98 size 0x70 virtual true final false
   inline void WriteValue(uint64_t value);
 
-  /// @brief Method WriteValue addr 0x266c34c size 0x5c virtual true final false
+  /// @brief Method WriteValue addr 0x2508c08 size 0x5c virtual true final false
   inline void WriteValue(::System::Uri* value);
 
-  /// @brief Method WriteValue addr 0x266c3a8 size 0x70 virtual true final false
+  /// @brief Method WriteValue addr 0x2508c64 size 0x70 virtual true final false
   inline void WriteValue(uint16_t value);
 
-  /// @brief Method WriteWhitespace addr 0x266c418 size 0x5c virtual true final false
+  /// @brief Method WriteWhitespace addr 0x2508cd4 size 0x5c virtual true final false
   inline void WriteWhitespace(::StringW ws);
 
-  /// @brief Method WriteComment addr 0x266c474 size 0x5c virtual true final false
+  /// @brief Method WriteComment addr 0x2508d30 size 0x5c virtual true final false
   inline void WriteComment(::StringW text);
 
-  /// @brief Method WriteStartArray addr 0x266c4d0 size 0x48 virtual true final false
+  /// @brief Method WriteStartArray addr 0x2508d8c size 0x48 virtual true final false
   inline void WriteStartArray();
 
-  /// @brief Method WriteEndArray addr 0x266c518 size 0x44 virtual true final false
+  /// @brief Method WriteEndArray addr 0x2508dd4 size 0x44 virtual true final false
   inline void WriteEndArray();
 
-  /// @brief Method WriteStartConstructor addr 0x266c55c size 0x58 virtual true final false
+  /// @brief Method WriteStartConstructor addr 0x2508e18 size 0x58 virtual true final false
   inline void WriteStartConstructor(::StringW name);
 
-  /// @brief Method WriteEndConstructor addr 0x266c5b4 size 0x4c virtual true final false
+  /// @brief Method WriteEndConstructor addr 0x2508e70 size 0x4c virtual true final false
   inline void WriteEndConstructor();
 
-  /// @brief Method WritePropertyName addr 0x266c600 size 0x60 virtual true final false
+  /// @brief Method WritePropertyName addr 0x2508ebc size 0x60 virtual true final false
   inline void WritePropertyName(::StringW name);
 
-  /// @brief Method WritePropertyName addr 0x266c660 size 0x6c virtual true final false
+  /// @brief Method WritePropertyName addr 0x2508f1c size 0x6c virtual true final false
   inline void WritePropertyName(::StringW name, bool escape);
 
-  /// @brief Method WriteStartObject addr 0x266c6cc size 0x48 virtual true final false
+  /// @brief Method WriteStartObject addr 0x2508f88 size 0x48 virtual true final false
   inline void WriteStartObject();
 
-  /// @brief Method WriteEndObject addr 0x266c714 size 0x44 virtual true final false
+  /// @brief Method WriteEndObject addr 0x2508fd0 size 0x44 virtual true final false
   inline void WriteEndObject();
 
-  /// @brief Method WriteRawValue addr 0x266c758 size 0x70 virtual true final false
+  /// @brief Method WriteRawValue addr 0x2509014 size 0x70 virtual true final false
   inline void WriteRawValue(::StringW json);
 
-  /// @brief Method WriteRaw addr 0x266c7c8 size 0x50 virtual true final false
+  /// @brief Method WriteRaw addr 0x2509084 size 0x50 virtual true final false
   inline void WriteRaw(::StringW json);
 
-  /// @brief Method Close addr 0x266c818 size 0x40 virtual true final false
+  /// @brief Method Close addr 0x25090d4 size 0x40 virtual true final false
   inline void Close();
 
-  /// @brief Method Flush addr 0x266c858 size 0x1038 virtual true final false
+  /// @brief Method Flush addr 0x2509114 size 0x1038 virtual true final false
   inline void Flush();
 
   // Ctor Parameters [CppParam { name: "", ty: "TraceJsonWriter", modifiers: "&&", def_value: None }]
@@ -233,6 +233,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::TraceJsonWriter, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Serialization::TraceJsonWriter, ____innerWriter) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Serialization::TraceJsonWriter, ____textWriter) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Serialization::TraceJsonWriter, ____sw) == 0x70, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::TraceJsonWriter);

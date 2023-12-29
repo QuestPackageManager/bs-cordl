@@ -11,7 +11,7 @@ namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
-class __IKSolverVR__Leg;
+class __VRIKCalibrator__Settings;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -20,7 +20,7 @@ namespace RootMotion::FinalIK {
 class __VRIKCalibrator__CalibrationData;
 }
 namespace RootMotion::FinalIK {
-class __VRIKCalibrator__Settings;
+class __IKSolverVR__Leg;
 }
 namespace RootMotion::FinalIK {
 class VRIK;
@@ -50,8 +50,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__VRIKCalibrator__Settings);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12669))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12597))
 // CS Name: ::VRIKCalibrator::Settings*
 class CORDL_TYPE __VRIKCalibrator__Settings : public ::System::Object {
 public:
@@ -202,7 +202,7 @@ public:
 
   static inline ::RootMotion::FinalIK::__VRIKCalibrator__Settings* New_ctor();
 
-  /// @brief Method .ctor addr 0x129d3f8 size 0x204 virtual false final false
+  /// @brief Method .ctor addr 0x122c0cc size 0x204 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__VRIKCalibrator__Settings", modifiers: "&&", def_value: None }]
@@ -272,13 +272,45 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__VRIKCalibrator__Settings, 0xa0>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___scaleMlp) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___headTrackerForward) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___headTrackerUp) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___bodyTrackerForward) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___bodyTrackerUp) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___handTrackerForward) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___handTrackerUp) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___footTrackerForward) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___footTrackerUp) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___headOffset) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___handOffset) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___footForwardOffset) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___footInwardOffset) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___footHeadingOffset) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___pelvisPositionWeight) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___pelvisRotationWeight) == 0x9c, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::Target
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12670))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10179))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12598))
 // CS Name: ::VRIKCalibrator::CalibrationData::Target*
 class CORDL_TYPE __VRIKCalibrator__CalibrationData__Target : public ::System::Object {
 public:
@@ -312,10 +344,10 @@ public:
 
   static inline ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* New_ctor(::UnityEngine::Transform* t);
 
-  /// @brief Method .ctor addr 0x129c650 size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0x122b324 size 0xb4 virtual false final false
   inline void _ctor(::UnityEngine::Transform* t);
 
-  /// @brief Method SetTo addr 0x129cff8 size 0x5c virtual false final false
+  /// @brief Method SetTo addr 0x122bccc size 0x5c virtual false final false
   inline void SetTo(::UnityEngine::Transform* t);
 
   // Ctor Parameters [CppParam { name: "", ty: "__VRIKCalibrator__CalibrationData__Target", modifiers: "&&", def_value: None }]
@@ -346,13 +378,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target, ___used) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target, ___localPosition) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target, ___localRotation) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::CalibrationData
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12671))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12599))
 // CS Name: ::VRIKCalibrator::CalibrationData*
 class CORDL_TYPE __VRIKCalibrator__CalibrationData : public ::System::Object {
 public:
@@ -469,7 +507,7 @@ public:
 
   static inline ::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* New_ctor();
 
-  /// @brief Method .ctor addr 0x129bdd0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x122aaa4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__VRIKCalibrator__CalibrationData", modifiers: "&&", def_value: None }]
@@ -527,13 +565,37 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData, 0x70>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData, ___scale) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData, ___head) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData, ___leftHand) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData, ___rightHand) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData, ___pelvis) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData, ___leftFoot) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData, ___rightFoot) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData, ___leftLegGoal) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData, ___rightLegGoal) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData, ___pelvisTargetRight) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData, ___pelvisPositionWeight) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData, ___pelvisRotationWeight) == 0x68, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: RootMotion.FinalIK::VRIKCalibrator
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12672))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12600))
 // CS Name: ::RootMotion.FinalIK::VRIKCalibrator*
 class CORDL_TYPE VRIKCalibrator : public ::System::Object {
 public:
@@ -542,25 +604,25 @@ public:
 
   using Settings = ::RootMotion::FinalIK::__VRIKCalibrator__Settings;
 
-  /// @brief Method RecalibrateScale addr 0x129aaa0 size 0xf4 virtual false final false
+  /// @brief Method RecalibrateScale addr 0x1229774 size 0xf4 virtual false final false
   static inline void RecalibrateScale(::RootMotion::FinalIK::VRIK* ik, ::RootMotion::FinalIK::__VRIKCalibrator__Settings* settings);
 
-  /// @brief Method Calibrate addr 0x129ab94 size 0x123c virtual false final false
+  /// @brief Method Calibrate addr 0x1229868 size 0x123c virtual false final false
   static inline ::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* Calibrate(::RootMotion::FinalIK::VRIK* ik, ::RootMotion::FinalIK::__VRIKCalibrator__Settings* settings,
                                                                                     ::UnityEngine::Transform* headTracker, ::UnityEngine::Transform* bodyTracker,
                                                                                     ::UnityEngine::Transform* leftHandTracker, ::UnityEngine::Transform* rightHandTracker,
                                                                                     ::UnityEngine::Transform* leftFootTracker, ::UnityEngine::Transform* rightFootTracker);
 
-  /// @brief Method CalibrateLeg addr 0x129bdd8 size 0x6b8 virtual false final false
+  /// @brief Method CalibrateLeg addr 0x122aaac size 0x6b8 virtual false final false
   static inline void CalibrateLeg(::RootMotion::FinalIK::__VRIKCalibrator__Settings* settings, ::UnityEngine::Transform* tracker, ::RootMotion::FinalIK::__IKSolverVR__Leg* leg,
                                   ::UnityEngine::Transform* lastBone, ::UnityEngine::Vector3 rootForward, bool isLeft);
 
-  /// @brief Method Calibrate addr 0x129c704 size 0x8f4 virtual false final false
+  /// @brief Method Calibrate addr 0x122b3d8 size 0x8f4 virtual false final false
   static inline void Calibrate(::RootMotion::FinalIK::VRIK* ik, ::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* data, ::UnityEngine::Transform* headTracker,
                                ::UnityEngine::Transform* bodyTracker, ::UnityEngine::Transform* leftHandTracker, ::UnityEngine::Transform* rightHandTracker, ::UnityEngine::Transform* leftFootTracker,
                                ::UnityEngine::Transform* rightFootTracker);
 
-  /// @brief Method CalibrateLeg addr 0x129d054 size 0x24c virtual false final false
+  /// @brief Method CalibrateLeg addr 0x122bd28 size 0x24c virtual false final false
   static inline void CalibrateLeg(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* data, ::UnityEngine::Transform* tracker, ::RootMotion::FinalIK::__IKSolverVR__Leg* leg,
                                   ::UnityEngine::Transform* lastBone, ::UnityEngine::Vector3 rootForward, bool isLeft);
 

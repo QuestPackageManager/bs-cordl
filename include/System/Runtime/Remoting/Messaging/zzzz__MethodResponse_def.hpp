@@ -8,13 +8,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MethodResponse)
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class CADMethodReturnMessage;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System {
 class Exception;
 }
+namespace System::Runtime::Remoting::Messaging {
+class LogicalCallContext;
+}
 namespace System {
 class Object;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodReturnMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodCallMessage;
+}
+namespace System::Runtime::Remoting {
+class Identity;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Reflection {
+class MethodBase;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
@@ -22,38 +43,17 @@ class IMethodMessage;
 namespace System::Runtime::Remoting::Messaging {
 class IInternalMessage;
 }
-namespace System::Runtime::Remoting::Messaging {
-class ArgInfo;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodReturnMessage;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System {
 class Type;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
+class IMessage;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Runtime::Remoting::Messaging {
-class CADMethodReturnMessage;
-}
-namespace System::Runtime::Remoting {
-class Identity;
-}
-namespace System::Reflection {
-class MethodBase;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
+class ArgInfo;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
@@ -68,8 +68,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::MethodResponse);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3178))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3177))
 // CS Name: ::System.Runtime.Remoting.Messaging::MethodResponse*
 class CORDL_TYPE MethodResponse : public ::System::Object {
 public:
@@ -257,86 +257,86 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::MethodResponse* New_ctor(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
-  /// @brief Method .ctor addr 0x24a2328 size 0x114 virtual false final false
+  /// @brief Method .ctor addr 0x2349834 size 0x114 virtual false final false
   inline void _ctor(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
   static inline ::System::Runtime::Remoting::Messaging::MethodResponse* New_ctor(::System::Object* returnValue, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> outArgs,
                                                                                  ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx,
                                                                                  ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
-  /// @brief Method .ctor addr 0x2499bfc size 0xd4 virtual false final false
+  /// @brief Method .ctor addr 0x2341108 size 0xd4 virtual false final false
   inline void _ctor(::System::Object* returnValue, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> outArgs, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx,
                     ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
   static inline ::System::Runtime::Remoting::Messaging::MethodResponse* New_ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg,
                                                                                  ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* retmsg);
 
-  /// @brief Method .ctor addr 0x24a39f0 size 0x244 virtual false final false
+  /// @brief Method .ctor addr 0x234aefc size 0x244 virtual false final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg, ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* retmsg);
 
   static inline ::System::Runtime::Remoting::Messaging::MethodResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x24ad2d8 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x23547e4 size 0x78 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method InitMethodProperty addr 0x24afe54 size 0x4a8 virtual false final false
+  /// @brief Method InitMethodProperty addr 0x2357360 size 0x4a8 virtual false final false
   inline void InitMethodProperty(::StringW key, ::System::Object* value);
 
-  /// @brief Method get_ArgCount addr 0x24b02fc size 0x18 virtual true final true
+  /// @brief Method get_ArgCount addr 0x2357808 size 0x18 virtual true final true
   inline int32_t get_ArgCount();
 
-  /// @brief Method get_Args addr 0x24b0314 size 0x8 virtual true final true
+  /// @brief Method get_Args addr 0x2357820 size 0x8 virtual true final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_Args();
 
-  /// @brief Method get_Exception addr 0x24b031c size 0x8 virtual true final true
+  /// @brief Method get_Exception addr 0x2357828 size 0x8 virtual true final true
   inline ::System::Exception* get_Exception();
 
-  /// @brief Method get_LogicalCallContext addr 0x24b0324 size 0x6c virtual true final true
+  /// @brief Method get_LogicalCallContext addr 0x2357830 size 0x6c virtual true final true
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
 
-  /// @brief Method get_MethodBase addr 0x24b0390 size 0x10c virtual true final true
+  /// @brief Method get_MethodBase addr 0x235789c size 0x10c virtual true final true
   inline ::System::Reflection::MethodBase* get_MethodBase();
 
-  /// @brief Method get_MethodName addr 0x24b049c size 0xb8 virtual true final true
+  /// @brief Method get_MethodName addr 0x23579a8 size 0xb8 virtual true final true
   inline ::StringW get_MethodName();
 
-  /// @brief Method get_MethodSignature addr 0x24b060c size 0x114 virtual true final true
+  /// @brief Method get_MethodSignature addr 0x2357b18 size 0x114 virtual true final true
   inline ::System::Object* get_MethodSignature();
 
-  /// @brief Method get_OutArgs addr 0x24b0720 size 0xa4 virtual true final true
+  /// @brief Method get_OutArgs addr 0x2357c2c size 0xa4 virtual true final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_OutArgs();
 
-  /// @brief Method get_Properties addr 0x24ad354 size 0x94 virtual true final false
+  /// @brief Method get_Properties addr 0x2354860 size 0x94 virtual true final false
   inline ::System::Collections::IDictionary* get_Properties();
 
-  /// @brief Method get_ReturnValue addr 0x24b08c0 size 0x8 virtual true final true
+  /// @brief Method get_ReturnValue addr 0x2357dcc size 0x8 virtual true final true
   inline ::System::Object* get_ReturnValue();
 
-  /// @brief Method get_TypeName addr 0x24b0554 size 0xb8 virtual true final true
+  /// @brief Method get_TypeName addr 0x2357a60 size 0xb8 virtual true final true
   inline ::StringW get_TypeName();
 
-  /// @brief Method get_Uri addr 0x24b08c8 size 0xb8 virtual true final true
+  /// @brief Method get_Uri addr 0x2357dd4 size 0xb8 virtual true final true
   inline ::StringW get_Uri();
 
-  /// @brief Method set_Uri addr 0x24b0980 size 0x8 virtual false final false
+  /// @brief Method set_Uri addr 0x2357e8c size 0x8 virtual false final false
   inline void set_Uri(::StringW value);
 
-  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.get_Uri addr 0x24b0988 size 0x4 virtual true final true
+  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.get_Uri addr 0x2357e94 size 0x4 virtual true final true
   inline ::StringW System_Runtime_Remoting_Messaging_IInternalMessage_get_Uri();
 
-  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri addr 0x24b098c size 0x8 virtual true final true
+  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri addr 0x2357e98 size 0x8 virtual true final true
   inline void System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri(::StringW value);
 
-  /// @brief Method GetArg addr 0x24b0994 size 0x34 virtual true final true
+  /// @brief Method GetArg addr 0x2357ea0 size 0x34 virtual true final true
   inline ::System::Object* GetArg(int32_t argNum);
 
-  /// @brief Method GetObjectData addr 0x24b09c8 size 0x4b0 virtual true final false
+  /// @brief Method GetObjectData addr 0x2357ed4 size 0x4b0 virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity addr 0x24b0e78 size 0x8 virtual true final true
+  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity addr 0x2358384 size 0x8 virtual true final true
   inline ::System::Runtime::Remoting::Identity* System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity();
 
-  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity addr 0x24b0e80 size 0x8 virtual true final true
+  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity addr 0x235838c size 0x8 virtual true final true
   inline void System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity(::System::Runtime::Remoting::Identity* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "MethodResponse", modifiers: "&&", def_value: None }]
@@ -402,6 +402,36 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::MethodResponse, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MethodResponse, ____methodName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MethodResponse, ____uri) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MethodResponse, ____typeName) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MethodResponse, ____methodBase) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MethodResponse, ____returnValue) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MethodResponse, ____exception) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MethodResponse, ____methodSignature) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MethodResponse, ____inArgInfo) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MethodResponse, ____args) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MethodResponse, ____outArgs) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MethodResponse, ____callMsg) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MethodResponse, ____callContext) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MethodResponse, ____targetIdentity) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MethodResponse, ___ExternalProperties) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::MethodResponse, ___InternalProperties) == 0x80, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::MethodResponse);

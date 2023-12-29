@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::InteropServices::VarEnum);
 namespace System::Runtime::InteropServices {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3320))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3317))
 // CS Name: ::System.Runtime.InteropServices::VarEnum
 struct CORDL_TYPE VarEnum {
 public:
@@ -225,6 +225,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::VarEnum, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::VarEnum, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Runtime::InteropServices
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::VarEnum, "System.Runtime.InteropServices", "VarEnum");

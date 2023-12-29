@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::BoolSignal);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14394), inst: 105 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14390))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13946), inst: 112 }), TypeDefinitionIndex(TypeDefinitionIndex(13946))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13941))
 // CS Name: ::BoolSignal*
 class CORDL_TYPE BoolSignal : public ::GlobalNamespace::GenericSignal_1<bool> {
 public:
   // Declarations
   static inline ::GlobalNamespace::BoolSignal* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f5524 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x1fa18a4 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BoolSignal", modifiers: "&&", def_value: None }]

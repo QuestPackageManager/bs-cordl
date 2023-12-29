@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(EnvironmentAudioEffectsPlayer)
 namespace UnityEngine {
-class AudioClip;
+class AudioSource;
 }
 namespace UnityEngine {
-class AudioSource;
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentAudioEffectsPlayer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4062))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4050))
 // CS Name: ::EnvironmentAudioEffectsPlayer*
 class CORDL_TYPE EnvironmentAudioEffectsPlayer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -38,15 +38,15 @@ public:
 
   constexpr void __set__audioSource(::UnityEngine::AudioSource* value);
 
-  /// @brief Method get_audioSource addr 0x222d348 size 0x8 virtual false final false
+  /// @brief Method get_audioSource addr 0x20cd85c size 0x8 virtual false final false
   inline ::UnityEngine::AudioSource* get_audioSource();
 
-  /// @brief Method PlayEffect addr 0x222d350 size 0x64 virtual false final false
+  /// @brief Method PlayEffect addr 0x20cd864 size 0x64 virtual false final false
   inline void PlayEffect(::UnityEngine::AudioClip* clip, float_t volume);
 
   static inline ::GlobalNamespace::EnvironmentAudioEffectsPlayer* New_ctor();
 
-  /// @brief Method .ctor addr 0x222d3b4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20cd8c8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentAudioEffectsPlayer", modifiers: "&&", def_value: None }]
@@ -70,6 +70,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentAudioEffectsPlayer, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentAudioEffectsPlayer, ____audioSource) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentAudioEffectsPlayer);

@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::Field::FiniteFields);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::Field {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1580))
 // CS Name: ::Org.BouncyCastle.Math.Field::FiniteFields*
 class CORDL_TYPE FiniteFields : public ::System::Object {
@@ -45,15 +45,15 @@ public:
 
   static inline ::Org::BouncyCastle::Math::Field::IFiniteField* getStaticF_GF_3();
 
-  /// @brief Method GetBinaryExtensionField addr 0x105b0c4 size 0x194 virtual false final false
+  /// @brief Method GetBinaryExtensionField addr 0xfe9e78 size 0x194 virtual false final false
   static inline ::Org::BouncyCastle::Math::Field::IPolynomialExtensionField* GetBinaryExtensionField(::ArrayW<int32_t, ::Array<int32_t>*> exponents);
 
-  /// @brief Method GetPrimeField addr 0x105b2fc size 0x180 virtual false final false
+  /// @brief Method GetPrimeField addr 0xfea0b0 size 0x180 virtual false final false
   static inline ::Org::BouncyCastle::Math::Field::IFiniteField* GetPrimeField(::Org::BouncyCastle::Math::BigInteger* characteristic);
 
   static inline ::Org::BouncyCastle::Math::Field::FiniteFields* New_ctor();
 
-  /// @brief Method .ctor addr 0x105b59c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xfea350 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FiniteFields", modifiers: "&&", def_value: None }]

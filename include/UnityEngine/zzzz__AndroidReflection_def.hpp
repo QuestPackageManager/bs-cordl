@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AndroidReflection)
 namespace System {
-class Exception;
-}
-namespace System {
 class Type;
 }
 namespace UnityEngine {
 class GlobalJavaObjectRef;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::AndroidReflection);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14915))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15060))
 // CS Name: ::UnityEngine::AndroidReflection*
 class CORDL_TYPE AndroidReflection : public ::System::Object {
 public:
@@ -89,37 +89,37 @@ public:
 
   static inline void* getStaticF_s_FieldGetDeclaringClass();
 
-  /// @brief Method IsPrimitive addr 0x2c878e4 size 0x14 virtual false final false
+  /// @brief Method IsPrimitive addr 0x2b229bc size 0x14 virtual false final false
   static inline bool IsPrimitive(::System::Type* t);
 
-  /// @brief Method IsAssignableFrom addr 0x2c878f8 size 0x20 virtual false final false
+  /// @brief Method IsAssignableFrom addr 0x2b229d0 size 0x20 virtual false final false
   static inline bool IsAssignableFrom(::System::Type* t, ::System::Type* from);
 
-  /// @brief Method GetStaticMethodID addr 0x2c87918 size 0x9c virtual false final false
+  /// @brief Method GetStaticMethodID addr 0x2b229f0 size 0x9c virtual false final false
   static inline void* GetStaticMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
 
-  /// @brief Method GetMethodID addr 0x2c879b4 size 0x9c virtual false final false
+  /// @brief Method GetMethodID addr 0x2b22a8c size 0x9c virtual false final false
   static inline void* GetMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
 
-  /// @brief Method GetConstructorMember addr 0x2c87a50 size 0x18c virtual false final false
+  /// @brief Method GetConstructorMember addr 0x2b22b28 size 0x18c virtual false final false
   static inline void* GetConstructorMember(void* jclass, ::StringW signature);
 
-  /// @brief Method GetMethodMember addr 0x2c87bdc size 0x200 virtual false final false
+  /// @brief Method GetMethodMember addr 0x2b22cb4 size 0x200 virtual false final false
   static inline void* GetMethodMember(void* jclass, ::StringW methodName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetFieldMember addr 0x2c87ddc size 0x200 virtual false final false
+  /// @brief Method GetFieldMember addr 0x2b22eb4 size 0x200 virtual false final false
   static inline void* GetFieldMember(void* jclass, ::StringW fieldName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetFieldClass addr 0x2c87fdc size 0x64 virtual false final false
+  /// @brief Method GetFieldClass addr 0x2b230b4 size 0x64 virtual false final false
   static inline void* GetFieldClass(void* field);
 
-  /// @brief Method GetFieldSignature addr 0x2c88040 size 0xa8 virtual false final false
+  /// @brief Method GetFieldSignature addr 0x2b23118 size 0xa8 virtual false final false
   static inline ::StringW GetFieldSignature(void* field);
 
-  /// @brief Method NewProxyInstance addr 0x2c880e8 size 0xd0 virtual false final false
+  /// @brief Method NewProxyInstance addr 0x2b231c0 size 0xd0 virtual false final false
   static inline void* NewProxyInstance(void* delegateHandle, void* interfaze);
 
-  /// @brief Method SetNativeExceptionOnProxy addr 0x2c854c4 size 0x10c virtual false final false
+  /// @brief Method SetNativeExceptionOnProxy addr 0x2b2059c size 0x10c virtual false final false
   static inline void SetNativeExceptionOnProxy(void* proxy, ::System::Exception* e, bool methodNotFound);
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidReflection", modifiers: "&&", def_value: None }]

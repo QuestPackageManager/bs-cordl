@@ -7,8 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_VolumeScatterTrees)
-namespace UnityEngine {
-struct Vector3;
+namespace HoudiniEngineUnity {
+class HEU_TreePrototypeInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 struct Color32;
@@ -16,11 +19,8 @@ struct Color32;
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
 }
-namespace HoudiniEngineUnity {
-class HEU_TreePrototypeInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VolumeScatterTrees);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9953))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9880))
 // CS Name: ::HoudiniEngineUnity::HEU_VolumeScatterTrees*
 class CORDL_TYPE HEU_VolumeScatterTrees : public ::System::Object {
 public:
@@ -122,12 +122,12 @@ public:
 
   constexpr void __set__terrainTiles(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method IsEquivalentTo addr 0x21ea13c size 0x374 virtual true final true
+  /// @brief Method IsEquivalentTo addr 0x20917a0 size 0x374 virtual true final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeScatterTrees* other);
 
   static inline ::HoudiniEngineUnity::HEU_VolumeScatterTrees* New_ctor();
 
-  /// @brief Method .ctor addr 0x21ea4b0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2091b14 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_VolumeScatterTrees", modifiers: "&&", def_value: None }]
@@ -175,6 +175,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_VolumeScatterTrees, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeScatterTrees, ____treePrototypInfos) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeScatterTrees, ____colors) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeScatterTrees, ____heightScales) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeScatterTrees, ____lightmapColors) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeScatterTrees, ____positions) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeScatterTrees, ____prototypeIndices) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeScatterTrees, ____rotations) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeScatterTrees, ____widthScales) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeScatterTrees, ____terrainTiles) == 0x50, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_VolumeScatterTrees);

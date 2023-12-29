@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType);
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7493))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7579))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::ExpressionType
 struct CORDL_TYPE ExpressionType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets::Syntax
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType, "UnityEngine.UIElements.StyleSheets.Syntax", "ExpressionType");

@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(RemotingSurrogateSelector)
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
-}
-namespace System {
-class Type;
-}
 namespace System::Runtime::Remoting::Messaging {
 class ObjRefSurrogate;
-}
-namespace System::Runtime::Serialization {
-class ISerializationSurrogate;
 }
 namespace System::Runtime::Remoting::Messaging {
 class RemotingSurrogate;
 }
+namespace System {
+class Type;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class ISerializationSurrogate;
+}
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3185))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3184))
 // CS Name: ::System.Runtime.Remoting.Messaging::RemotingSurrogateSelector*
 class CORDL_TYPE RemotingSurrogateSelector : public ::System::Object {
 public:
@@ -74,10 +74,10 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector* New_ctor();
 
-  /// @brief Method .ctor addr 0x24a3fb4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x234b4c0 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method GetSurrogate addr 0x24b1ce4 size 0x194 virtual true final false
+  /// @brief Method GetSurrogate addr 0x23591f0 size 0x194 virtual true final false
   inline ::System::Runtime::Serialization::ISerializationSurrogate* GetSurrogate(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context,
                                                                                  ByRef<::System::Runtime::Serialization::ISurrogateSelector*> ssout);
 
@@ -102,6 +102,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector, ____next) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector);

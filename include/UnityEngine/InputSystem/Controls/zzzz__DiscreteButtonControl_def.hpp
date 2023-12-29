@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::DiscreteButtonControl);
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6631))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6717))
 // CS Name: ::DiscreteButtonControl::WriteMode
 struct CORDL_TYPE __DiscreteButtonControl__WriteMode {
 public:
@@ -68,13 +68,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::Controls
 // Type: UnityEngine.InputSystem.Controls::DiscreteButtonControl
 // SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 304, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6629)), TypeDefinitionIndex(TypeDefinitionIndex(6631))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6632))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6715)), TypeDefinitionIndex(TypeDefinitionIndex(6717))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6718))
 // CS Name: ::UnityEngine.InputSystem.Controls::DiscreteButtonControl*
 class CORDL_TYPE DiscreteButtonControl : public ::UnityEngine::InputSystem::Controls::ButtonControl {
 public:
@@ -126,18 +128,18 @@ public:
 
   constexpr void __set_writeMode(::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode value);
 
-  /// @brief Method FinishSetup addr 0x2b0a588 size 0xac virtual true final false
+  /// @brief Method FinishSetup addr 0x2989834 size 0xac virtual true final false
   inline void FinishSetup();
 
-  /// @brief Method ReadUnprocessedValueFromState addr 0x2b0a634 size 0x9c virtual true final false
+  /// @brief Method ReadUnprocessedValueFromState addr 0x29898e0 size 0x9c virtual true final false
   inline float_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState addr 0x2b0a6d4 size 0xe8 virtual true final false
+  /// @brief Method WriteValueIntoState addr 0x2989980 size 0xe8 virtual true final false
   inline void WriteValueIntoState(float_t value, ::cordl_internals::Ptr<void> statePtr);
 
   static inline ::UnityEngine::InputSystem::Controls::DiscreteButtonControl* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b0a7c0 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x2989a6c size 0x4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DiscreteButtonControl", modifiers: "&&", def_value: None }]
@@ -173,6 +175,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::DiscreteButtonControl, 0x130>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___minValue) == 0x11c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___maxValue) == 0x120, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___wrapAtValue) == 0x124, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___nullValue) == 0x128, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___writeMode) == 0x12c, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Controls
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode, "UnityEngine.InputSystem.Controls", "DiscreteButtonControl/WriteMode");

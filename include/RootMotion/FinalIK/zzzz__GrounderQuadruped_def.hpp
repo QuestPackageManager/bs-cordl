@@ -12,19 +12,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GrounderQuadruped)
 namespace RootMotion::FinalIK {
-class Grounding;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class Rigidbody;
-}
-namespace RootMotion::FinalIK {
 struct __GrounderQuadruped__Foot;
 }
 namespace RootMotion::FinalIK {
 class IK;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace RootMotion::FinalIK {
+class Grounding;
+}
+namespace UnityEngine {
+class Rigidbody;
 }
 namespace RootMotion::FinalIK {
 class IKSolver;
@@ -49,13 +49,13 @@ MARK_VAL_T(::RootMotion::FinalIK::__GrounderQuadruped__Foot);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12523))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12451))
 // CS Name: ::GrounderQuadruped::Foot
 struct CORDL_TYPE __GrounderQuadruped__Foot {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x1249b74 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x11d9848 size 0x34 virtual false final false
   inline void _ctor(::RootMotion::FinalIK::IKSolver* solver, ::UnityEngine::Transform* transform);
 
   // Ctor Parameters [CppParam { name: "solver", ty: "::RootMotion::FinalIK::IKSolver*", modifiers: "", def_value: None }, CppParam { name: "transform", ty: "::UnityEngine::Transform*", modifiers: "",
@@ -88,13 +88,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__GrounderQuadruped__Foot, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__GrounderQuadruped__Foot, solver) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__GrounderQuadruped__Foot, transform) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__GrounderQuadruped__Foot, rotation) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__GrounderQuadruped__Foot, leg) == 0x20, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: RootMotion.FinalIK::GrounderQuadruped
 // SizeInfo { instance_size: 320, native_size: -1, calculated_instance_size: 320, calculated_native_size: 320, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12518)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12524))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(12446)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12452))
 // CS Name: ::RootMotion.FinalIK::GrounderQuadruped*
 class CORDL_TYPE GrounderQuadruped : public ::RootMotion::FinalIK::Grounder {
 public:
@@ -362,62 +370,62 @@ public:
 
   constexpr void __set_characterRootRigidbody(::UnityEngine::Rigidbody* value);
 
-  /// @brief Method OpenUserManual addr 0x12490b8 size 0x44 virtual true final false
+  /// @brief Method OpenUserManual addr 0x11d8d8c size 0x44 virtual true final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference addr 0x12490fc size 0x44 virtual true final false
+  /// @brief Method OpenScriptReference addr 0x11d8dd0 size 0x44 virtual true final false
   inline void OpenScriptReference();
 
-  /// @brief Method ResetPosition addr 0x1249140 size 0x28 virtual true final false
+  /// @brief Method ResetPosition addr 0x11d8e14 size 0x28 virtual true final false
   inline void ResetPosition();
 
-  /// @brief Method IsReadyToInitiate addr 0x1249168 size 0x104 virtual false final false
+  /// @brief Method IsReadyToInitiate addr 0x11d8e3c size 0x104 virtual false final false
   inline bool IsReadyToInitiate();
 
-  /// @brief Method IsReadyToInitiateLegs addr 0x124926c size 0x1e4 virtual false final false
+  /// @brief Method IsReadyToInitiateLegs addr 0x11d8f40 size 0x1e4 virtual false final false
   inline bool IsReadyToInitiateLegs(::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> ikComponents);
 
-  /// @brief Method OnDisable addr 0x1249450 size 0x64 virtual false final false
+  /// @brief Method OnDisable addr 0x11d9124 size 0x64 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method Update addr 0x12494b4 size 0x58 virtual false final false
+  /// @brief Method Update addr 0x11d9188 size 0x58 virtual false final false
   inline void Update();
 
-  /// @brief Method Initiate addr 0x124950c size 0x314 virtual false final false
+  /// @brief Method Initiate addr 0x11d91e0 size 0x314 virtual false final false
   inline void Initiate();
 
-  /// @brief Method InitiateFeet addr 0x1249820 size 0x354 virtual false final false
+  /// @brief Method InitiateFeet addr 0x11d94f4 size 0x354 virtual false final false
   inline ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>
   InitiateFeet(::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> ikComponents,
                ByRef<::ArrayW<::RootMotion::FinalIK::__GrounderQuadruped__Foot, ::Array<::RootMotion::FinalIK::__GrounderQuadruped__Foot>*>> f, int32_t indexOffset);
 
-  /// @brief Method LateUpdate addr 0x1249ba8 size 0x90 virtual false final false
+  /// @brief Method LateUpdate addr 0x11d987c size 0x90 virtual false final false
   inline void LateUpdate();
 
-  /// @brief Method RootRotation addr 0x1249c38 size 0x450 virtual false final false
+  /// @brief Method RootRotation addr 0x11d990c size 0x450 virtual false final false
   inline void RootRotation();
 
-  /// @brief Method OnSolverUpdate addr 0x124a088 size 0x6c0 virtual false final false
+  /// @brief Method OnSolverUpdate addr 0x11d9d5c size 0x6c0 virtual false final false
   inline void OnSolverUpdate();
 
-  /// @brief Method UpdateForefeetRoot addr 0x124a748 size 0x2b8 virtual false final false
+  /// @brief Method UpdateForefeetRoot addr 0x11da41c size 0x2b8 virtual false final false
   inline void UpdateForefeetRoot();
 
-  /// @brief Method SetFootIK addr 0x124aa00 size 0x134 virtual false final false
+  /// @brief Method SetFootIK addr 0x11da6d4 size 0x134 virtual false final false
   inline void SetFootIK(::RootMotion::FinalIK::__GrounderQuadruped__Foot foot, float_t maxOffset);
 
-  /// @brief Method OnPostSolverUpdate addr 0x124ab34 size 0x2c8 virtual false final false
+  /// @brief Method OnPostSolverUpdate addr 0x11da808 size 0x2c8 virtual false final false
   inline void OnPostSolverUpdate();
 
-  /// @brief Method OnDestroy addr 0x124adfc size 0x30 virtual false final false
+  /// @brief Method OnDestroy addr 0x11daad0 size 0x30 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method DestroyLegs addr 0x124ae2c size 0x1fc virtual false final false
+  /// @brief Method DestroyLegs addr 0x11dab00 size 0x1fc virtual false final false
   inline void DestroyLegs(::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> ikComponents);
 
   static inline ::RootMotion::FinalIK::GrounderQuadruped* New_ctor();
 
-  /// @brief Method .ctor addr 0x124b028 size 0x134 virtual false final false
+  /// @brief Method .ctor addr 0x11dacfc size 0x134 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GrounderQuadruped", modifiers: "&&", def_value: None }]
@@ -525,6 +533,64 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::GrounderQuadruped, 0x140>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___forelegSolver) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___rootRotationWeight) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___minRootRotation) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___maxRootRotation) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___rootRotationSpeed) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___maxLegOffset) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___maxForeLegOffset) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___maintainHeadRotationWeight) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___characterRoot) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___pelvis) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___lastSpineBone) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___head) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___legs) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___forelegs) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___gravity) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___feet) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___animatedPelvisLocalPosition) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___animatedPelvisLocalRotation) == 0xbc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___animatedHeadLocalRotation) == 0xcc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___solvedPelvisLocalPosition) == 0xdc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___solvedPelvisLocalRotation) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___solvedHeadLocalRotation) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___solvedFeet) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___solved) == 0x10c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___angle) == 0x110, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___forefeetRoot) == 0x118, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___headRotation) == 0x120, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___lastWeight) == 0x130, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderQuadruped, ___characterRootRigidbody) == 0x138, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::GrounderQuadruped);

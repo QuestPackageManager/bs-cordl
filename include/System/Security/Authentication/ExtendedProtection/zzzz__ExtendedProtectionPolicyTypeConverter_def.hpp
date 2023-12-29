@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 CORDL_MODULE_EXPORT(ExtendedProtectionPolicyTypeConverter)
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
-}
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
+namespace System {
+class Object;
+}
 namespace System::Globalization {
 class CultureInfo;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Security::Authentication::ExtendedProtection {
@@ -26,22 +26,22 @@ MARK_REF_PTR_T(::System::Security::Authentication::ExtendedProtection::ExtendedP
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Authentication::ExtendedProtection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9480))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8967))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8317))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7804))
 // CS Name: ::System.Security.Authentication.ExtendedProtection::ExtendedProtectionPolicyTypeConverter*
 class CORDL_TYPE ExtendedProtectionPolicyTypeConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertTo addr 0x297437c size 0x40 virtual true final false
+  /// @brief Method CanConvertTo addr 0x27f6604 size 0x40 virtual true final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertTo addr 0x29743bc size 0x40 virtual true final false
+  /// @brief Method ConvertTo addr 0x27f6644 size 0x40 virtual true final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter* New_ctor();
 
-  /// @brief Method .ctor addr 0x29743fc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27f6684 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExtendedProtectionPolicyTypeConverter", modifiers: "&&", def_value: None }]

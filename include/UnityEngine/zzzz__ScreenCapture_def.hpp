@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::ScreenCapture);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16186))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16019))
 // CS Name: ::ScreenCapture::StereoScreenCaptureMode
 struct CORDL_TYPE __ScreenCapture__StereoScreenCaptureMode {
 public:
@@ -71,26 +71,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::__ScreenCapture__StereoScreenCaptureMode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::__ScreenCapture__StereoScreenCaptureMode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine
 // Type: UnityEngine::ScreenCapture
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16187))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16020))
 // CS Name: ::UnityEngine::ScreenCapture*
 class CORDL_TYPE ScreenCapture : public ::System::Object {
 public:
   // Declarations
   using StereoScreenCaptureMode = ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode;
 
-  /// @brief Method CaptureScreenshot addr 0x2d17f3c size 0x44 virtual false final false
+  /// @brief Method CaptureScreenshot addr 0x2bb0bd4 size 0x44 virtual false final false
   static inline void CaptureScreenshot(::StringW filename);
 
-  /// @brief Method CaptureScreenshot addr 0x2d17fd4 size 0x48 virtual false final false
-  static inline void CaptureScreenshot(::StringW filename, ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode stereoCaptureMode);
-
-  /// @brief Method CaptureScreenshot addr 0x2d17f80 size 0x54 virtual false final false
+  /// @brief Method CaptureScreenshot addr 0x2bb0c18 size 0x54 virtual false final false
   static inline void CaptureScreenshot(::StringW filename, int32_t superSize, ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode CaptureMode);
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenCapture", modifiers: "&&", def_value: None }]

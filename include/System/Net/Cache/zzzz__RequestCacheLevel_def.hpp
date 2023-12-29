@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Cache::RequestCacheLevel);
 namespace System::Net::Cache {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9321))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8158))
 // CS Name: ::System.Net.Cache::RequestCacheLevel
 struct CORDL_TYPE RequestCacheLevel {
 public:
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Cache::RequestCacheLevel, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Cache::RequestCacheLevel, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net::Cache
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Cache::RequestCacheLevel, "System.Net.Cache", "RequestCacheLevel");

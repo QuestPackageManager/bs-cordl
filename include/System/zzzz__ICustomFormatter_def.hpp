@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::ICustomFormatter);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2414))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2412))
 // CS Name: ::System::ICustomFormatter*
 class CORDL_TYPE ICustomFormatter {
 public:

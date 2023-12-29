@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 CORDL_MODULE_EXPORT(UriConverter)
-namespace System {
-class Object;
-}
 namespace Newtonsoft::Json {
 class JsonSerializer;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
 }
 namespace Newtonsoft::Json {
-class JsonReader;
+class JsonWriter;
 }
 namespace Newtonsoft::Json {
-class JsonWriter;
+class JsonReader;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -29,24 +29,24 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::UriConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11830))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12043))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11758))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11971))
 // CS Name: ::Newtonsoft.Json.Converters::UriConverter*
 class CORDL_TYPE UriConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert addr 0x26b7730 size 0x84 virtual true final false
+  /// @brief Method CanConvert addr 0x2552fec size 0x84 virtual true final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method ReadJson addr 0x26b77b4 size 0x128 virtual true final false
+  /// @brief Method ReadJson addr 0x2553070 size 0x128 virtual true final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson addr 0x26b78dc size 0x134 virtual true final false
+  /// @brief Method WriteJson addr 0x2553198 size 0x134 virtual true final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   static inline ::Newtonsoft::Json::Converters::UriConverter* New_ctor();
 
-  /// @brief Method .ctor addr 0x26b7a10 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x25532cc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UriConverter", modifiers: "&&", def_value: None }]

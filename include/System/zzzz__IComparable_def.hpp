@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::IComparable);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2411))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2409))
 // CS Name: ::System::IComparable*
 class CORDL_TYPE IComparable {
 public:

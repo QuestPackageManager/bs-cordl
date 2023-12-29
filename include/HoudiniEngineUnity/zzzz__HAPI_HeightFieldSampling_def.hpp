@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_HeightFieldSampling);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9721))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9648))
 // CS Name: ::HoudiniEngineUnity::HAPI_HeightFieldSampling
 struct CORDL_TYPE HAPI_HeightFieldSampling {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_HeightFieldSampling, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_HeightFieldSampling, value__) == 0x0, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_HeightFieldSampling, "HoudiniEngineUnity", "HAPI_HeightFieldSampling");

@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SongController);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5334))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5429))
 // CS Name: ::SongController*
 class CORDL_TYPE SongController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -32,13 +32,13 @@ public:
 
   constexpr void __set_songDidFinishEvent(::System::Action* value);
 
-  /// @brief Method add_songDidFinishEvent addr 0x22689b0 size 0x9c virtual false final false
+  /// @brief Method add_songDidFinishEvent addr 0x2124874 size 0x9c virtual false final false
   inline void add_songDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_songDidFinishEvent addr 0x2268a4c size 0x9c virtual false final false
+  /// @brief Method remove_songDidFinishEvent addr 0x2124910 size 0x9c virtual false final false
   inline void remove_songDidFinishEvent(::System::Action* value);
 
-  /// @brief Method SendSongDidFinishEvent addr 0x2268780 size 0x1c virtual false final false
+  /// @brief Method SendSongDidFinishEvent addr 0x2124644 size 0x1c virtual false final false
   inline void SendSongDidFinishEvent();
 
   /// @brief Method StopSong addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -52,7 +52,7 @@ public:
 
   static inline ::GlobalNamespace::SongController* New_ctor();
 
-  /// @brief Method .ctor addr 0x226898c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2124850 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SongController", modifiers: "&&", def_value: None }]
@@ -76,6 +76,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongController, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongController, ___songDidFinishEvent) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongController);

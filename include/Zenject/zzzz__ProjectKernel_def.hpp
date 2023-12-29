@@ -11,28 +11,28 @@ namespace Zenject {
 class ZenjectSettings;
 }
 namespace Zenject {
-class SceneContextRegistry;
+class InjectTypeInfo;
 }
 namespace Zenject {
 class __ProjectKernel____c__DisplayClass4_0;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class SceneContextRegistry;
 }
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::SceneManagement {
 struct Scene;
 }
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
 namespace Zenject {
 class SceneContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::Zenject::__ProjectKernel____c__DisplayClass4_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11324))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11252))
 // CS Name: ::ProjectKernel::<>c__DisplayClass4_0*
 class CORDL_TYPE __ProjectKernel____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -74,16 +74,16 @@ public:
 
   static inline ::Zenject::__ProjectKernel____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2f16414 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2dae644 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <ForceUnloadAllScenes>b__0 addr 0x2f16a78 size 0x78 virtual false final false
+  /// @brief Method <ForceUnloadAllScenes>b__0 addr 0x2daeca8 size 0x78 virtual false final false
   inline int32_t _ForceUnloadAllScenes_b__0(::Zenject::SceneContext* x);
 
-  /// @brief Method __zenCreate addr 0x2f16af0 size 0x5c virtual false final false
+  /// @brief Method __zenCreate addr 0x2daed20 size 0x5c virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f16b4c size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2daed7c size 0x1c0 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ProjectKernel____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
@@ -111,13 +111,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__ProjectKernel____c__DisplayClass4_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__ProjectKernel____c__DisplayClass4_0, ___sceneOrder) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__ProjectKernel____c__DisplayClass4_0, _____9__0) == 0x18, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: Zenject::ProjectKernel
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11323))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11325))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11253))
 // CS Name: ::Zenject::ProjectKernel*
 class CORDL_TYPE ProjectKernel : public ::Zenject::MonoKernel {
 public:
@@ -142,27 +146,27 @@ public:
 
   constexpr void __set__contextRegistry(::Zenject::SceneContextRegistry* value);
 
-  /// @brief Method OnApplicationQuit addr 0x2f15f6c size 0x28 virtual false final false
+  /// @brief Method OnApplicationQuit addr 0x2dae19c size 0x28 virtual false final false
   inline void OnApplicationQuit();
 
-  /// @brief Method DestroyEverythingInOrder addr 0x2f15f94 size 0x98 virtual false final false
+  /// @brief Method DestroyEverythingInOrder addr 0x2dae1c4 size 0x98 virtual false final false
   inline void DestroyEverythingInOrder();
 
-  /// @brief Method ForceUnloadAllScenes addr 0x2f1602c size 0x3e8 virtual false final false
+  /// @brief Method ForceUnloadAllScenes addr 0x2dae25c size 0x3e8 virtual false final false
   inline void ForceUnloadAllScenes(bool immediate);
 
   static inline ::Zenject::ProjectKernel* New_ctor();
 
-  /// @brief Method .ctor addr 0x2f1646c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2dae69c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method __zenFieldSetter0 addr 0x2f16474 size 0x134 virtual false final false
+  /// @brief Method __zenFieldSetter0 addr 0x2dae6a4 size 0x134 virtual false final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter1 addr 0x2f165a8 size 0x134 virtual false final false
+  /// @brief Method __zenFieldSetter1 addr 0x2dae7d8 size 0x134 virtual false final false
   static inline void __zenFieldSetter1(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f166dc size 0x39c virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2dae90c size 0x39c virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProjectKernel", modifiers: "&&", def_value: None }]
@@ -189,6 +193,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::ProjectKernel, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::ProjectKernel, ____settings) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::ProjectKernel, ____contextRegistry) == 0x40, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::ProjectKernel);

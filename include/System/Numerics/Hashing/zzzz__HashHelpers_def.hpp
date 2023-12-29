@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Numerics::Hashing::HashHelpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Numerics::Hashing {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3555))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3550))
 // CS Name: ::System.Numerics.Hashing::HashHelpers*
 class CORDL_TYPE HashHelpers : public ::System::Object {
 public:
@@ -28,7 +28,7 @@ public:
 
   static inline int32_t getStaticF_RandomSeed();
 
-  /// @brief Method Combine addr 0x24fbef8 size 0x10 virtual false final false
+  /// @brief Method Combine addr 0x23a237c size 0x10 virtual false final false
   static inline int32_t Combine(int32_t h1, int32_t h2);
 
   // Ctor Parameters [CppParam { name: "", ty: "HashHelpers", modifiers: "&&", def_value: None }]

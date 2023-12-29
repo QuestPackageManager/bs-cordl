@@ -11,10 +11,10 @@ namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct CreationContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlAttributeOverridesFactory);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5284 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6977)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6976)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5168 }), TypeDefinitionIndex(TypeDefinitionIndex(7083)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6830)), TypeDefinitionIndex(TypeDefinitionIndex(7063))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7062)) CS Name:
 // ::UnityEngine.UIElements::UxmlAttributeOverridesFactory*
 class CORDL_TYPE UxmlAttributeOverridesFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::UxmlAttributeOverridesTraits*> {
 public:
@@ -36,18 +36,18 @@ public:
 
   __declspec(property(get = get_uxmlQualifiedName))::StringW uxmlQualifiedName;
 
-  /// @brief Method get_uxmlName addr 0x2e0e4fc size 0x40 virtual true final false
+  /// @brief Method get_uxmlName addr 0x2ca814c size 0x40 virtual true final false
   inline ::StringW get_uxmlName();
 
-  /// @brief Method get_uxmlQualifiedName addr 0x2e0e53c size 0x74 virtual true final false
+  /// @brief Method get_uxmlQualifiedName addr 0x2ca818c size 0x74 virtual true final false
   inline ::StringW get_uxmlQualifiedName();
 
-  /// @brief Method Create addr 0x2e0e5b0 size 0x8 virtual true final false
+  /// @brief Method Create addr 0x2ca8200 size 0x8 virtual true final false
   inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlAttributeOverridesFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e0e5b8 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2ca8208 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlAttributeOverridesFactory", modifiers: "&&", def_value: None }]

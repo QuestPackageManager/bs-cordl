@@ -6,17 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertStatus)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
 }
 namespace System {
 class Object;
@@ -26,6 +20,12 @@ class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiStatusInfo;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -78,33 +78,33 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertStatus* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe65d2c size 0xa4 virtual false final false
+  /// @brief Method .ctor addr 0xdf0b5c size 0xa4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertStatus* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Math::BigInteger* certReqId);
 
-  /// @brief Method .ctor addr 0xe65dd0 size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0xdf0c00 size 0xb4 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Math::BigInteger* certReqId);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertStatus* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Math::BigInteger* certReqId,
                                                                      ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* statusInfo);
 
-  /// @brief Method .ctor addr 0xe65e84 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0xdf0cb4 size 0xc0 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Math::BigInteger* certReqId, ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* statusInfo);
 
-  /// @brief Method GetInstance addr 0xe64640 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xdef470 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertStatus* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_CertHash addr 0xe65f44 size 0x8 virtual true final false
+  /// @brief Method get_CertHash addr 0xdf0d74 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_CertHash();
 
-  /// @brief Method get_CertReqID addr 0xe65f4c size 0x8 virtual true final false
+  /// @brief Method get_CertReqID addr 0xdf0d7c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CertReqID();
 
-  /// @brief Method get_StatusInfo addr 0xe65f54 size 0x8 virtual true final false
+  /// @brief Method get_StatusInfo addr 0xdf0d84 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_StatusInfo();
 
-  /// @brief Method ToAsn1Object addr 0xe65f5c size 0x174 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xdf0d8c size 0x174 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertStatus", modifiers: "&&", def_value: None }]
@@ -134,6 +134,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::CertStatus, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::CertStatus, ___certHash) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::CertStatus, ___certReqId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::CertStatus, ___statusInfo) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::CertStatus);

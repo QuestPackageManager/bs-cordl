@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ISaveData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14386))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13918))
 // CS Name: ::ISaveData*
 class CORDL_TYPE ISaveData {
 public:

@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FireEffect)
 namespace GlobalNamespace {
-class ColorSO;
-}
-namespace GlobalNamespace {
 class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class BloomPrePassBackgroundNonLightRenderer;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 class LightColorBeatmapEventData;
+}
+namespace GlobalNamespace {
+class BloomPrePassBackgroundNonLightRenderer;
+}
+namespace GlobalNamespace {
+class ColorSO;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
 }
 namespace GlobalNamespace {
 class LightWithIdManager;
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FireEffect);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4007))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3990))
 // CS Name: ::FireEffect*
 class CORDL_TYPE FireEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -172,24 +172,24 @@ public:
 
   constexpr void __set__lightColorBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start addr 0x2221168 size 0x120 virtual true final false
+  /// @brief Method Start addr 0x20bfa7c size 0x120 virtual true final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x22213d4 size 0x1c virtual true final false
+  /// @brief Method OnDestroy addr 0x20bfce8 size 0x1c virtual true final false
   inline void OnDestroy();
 
   /// @brief Method HandleColorChangeBeatmapEvent addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);
 
-  /// @brief Method SetRenderersEnabled addr 0x2221624 size 0x8c virtual false final false
+  /// @brief Method SetRenderersEnabled addr 0x20bff38 size 0x8c virtual false final false
   inline void SetRenderersEnabled(bool enabled);
 
-  /// @brief Method NotifyAlphaWasChanged addr 0x2221844 size 0x70 virtual false final false
+  /// @brief Method NotifyAlphaWasChanged addr 0x20c0158 size 0x70 virtual false final false
   inline void NotifyAlphaWasChanged(float_t currentAlpha);
 
   static inline ::GlobalNamespace::FireEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x2221938 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x20c024c size 0x24 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FireEffect", modifiers: "&&", def_value: None }]
@@ -252,6 +252,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FireEffect, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____groupId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____elementId) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____lightId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____flipBookPropertyBlockController) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____bloomPropertyBlockController) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____privatePointLightPropertyBlockController) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____bloomPrePassRenderer) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____bloomIntensityMultiplier) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____pointLightColor) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____contributeCustomLightColor) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____customLightColorContribution) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____beatmapCallbacksController) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____lightWithIdManager) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FireEffect, ____lightColorBeatmapEventCallbackWrapper) == 0x78, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FireEffect);

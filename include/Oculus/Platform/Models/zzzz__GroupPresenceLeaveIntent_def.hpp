@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::GroupPresenceLeaveIntent);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13435))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13481))
 // CS Name: ::Oculus.Platform.Models::GroupPresenceLeaveIntent*
 class CORDL_TYPE GroupPresenceLeaveIntent : public ::System::Object {
 public:
@@ -51,7 +51,7 @@ public:
 
   static inline ::Oculus::Platform::Models::GroupPresenceLeaveIntent* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x2705ea4 size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x25b34f8 size 0x98 virtual false final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "GroupPresenceLeaveIntent", modifiers: "&&", def_value: None }]
@@ -81,6 +81,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::GroupPresenceLeaveIntent, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::GroupPresenceLeaveIntent, ___DestinationApiName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::GroupPresenceLeaveIntent, ___LobbySessionId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::GroupPresenceLeaveIntent, ___MatchSessionId) == 0x20, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::GroupPresenceLeaveIntent);

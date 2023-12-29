@@ -6,8 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayerHeightDetector)
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class PlayerTransforms;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
@@ -16,16 +22,10 @@ namespace GlobalNamespace {
 class ObstacleData;
 }
 namespace GlobalNamespace {
-class __PlayerHeightDetector__InitData;
-}
-namespace GlobalNamespace {
-class PlayerTransforms;
-}
-namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-class IAudioTimeSource;
+class __PlayerHeightDetector__InitData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__PlayerHeightDetector__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5279))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5374))
 // CS Name: ::PlayerHeightDetector::InitData*
 class CORDL_TYPE __PlayerHeightDetector__InitData : public ::System::Object {
 public:
@@ -67,7 +67,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerHeightDetector__InitData* New_ctor(float_t headPosToPlayerHeightOffset, float_t startPlayerHeight);
 
-  /// @brief Method .ctor addr 0x22615fc size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x211d42c size 0x2c virtual false final false
   inline void _ctor(float_t headPosToPlayerHeightOffset, float_t startPlayerHeight);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerHeightDetector__InitData", modifiers: "&&", def_value: None }]
@@ -95,13 +95,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerHeightDetector__InitData, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerHeightDetector__InitData, ___headPosToPlayerHeightOffset) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerHeightDetector__InitData, ___startPlayerHeight) == 0x14, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::PlayerHeightDetector
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5280))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5375))
 // CS Name: ::PlayerHeightDetector*
 class CORDL_TYPE PlayerHeightDetector : public ::UnityEngine::MonoBehaviour {
 public:
@@ -200,30 +204,30 @@ public:
 
   constexpr void __set__lastReportedHeight(float_t value);
 
-  /// @brief Method add_playerHeightDidChangeEvent addr 0x226117c size 0xb0 virtual false final false
+  /// @brief Method add_playerHeightDidChangeEvent addr 0x211cfac size 0xb0 virtual false final false
   inline void add_playerHeightDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_playerHeightDidChangeEvent addr 0x226122c size 0xb0 virtual false final false
+  /// @brief Method remove_playerHeightDidChangeEvent addr 0x211d05c size 0xb0 virtual false final false
   inline void remove_playerHeightDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_playerHeight addr 0x22612dc size 0x8 virtual false final false
+  /// @brief Method get_playerHeight addr 0x211d10c size 0x8 virtual false final false
   inline float_t get_playerHeight();
 
-  /// @brief Method Start addr 0x22612e4 size 0xe4 virtual false final false
+  /// @brief Method Start addr 0x211d114 size 0xe4 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x22613c8 size 0x1c virtual false final false
+  /// @brief Method OnDestroy addr 0x211d1f8 size 0x1c virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method LateUpdate addr 0x22613e4 size 0x1cc virtual false final false
+  /// @brief Method LateUpdate addr 0x211d214 size 0x1cc virtual false final false
   inline void LateUpdate();
 
-  /// @brief Method BeatmapObjectSpawnCallback addr 0x22615b0 size 0x44 virtual false final false
+  /// @brief Method BeatmapObjectSpawnCallback addr 0x211d3e0 size 0x44 virtual false final false
   inline void BeatmapObjectSpawnCallback(::GlobalNamespace::ObstacleData* obstacleData);
 
   static inline ::GlobalNamespace::PlayerHeightDetector* New_ctor();
 
-  /// @brief Method .ctor addr 0x22615f4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x211d424 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightDetector", modifiers: "&&", def_value: None }]
@@ -274,6 +278,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerHeightDetector, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerHeightDetector, ____playerTransforms) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerHeightDetector, ____beatmapCallbacksController) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerHeightDetector, ____audioTimeSyncController) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerHeightDetector, ____initData) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerHeightDetector, ___playerHeightDidChangeEvent) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerHeightDetector, ____beatmapObjectCallbackWrapper) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerHeightDetector, ____noTopObstaclesStartTime) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerHeightDetector, ____computedPlayerHeight) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerHeightDetector, ____changeWeight) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerHeightDetector, ____lastReportedHeight) == 0x54, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerHeightDetector);

@@ -12,13 +12,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextElementInfo)
 namespace UnityEngine::TextCore::Text {
-class TextElement;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextElementType;
+struct FontStyles;
 }
 namespace UnityEngine::TextCore::Text {
 class FontAsset;
@@ -26,11 +20,17 @@ class FontAsset;
 namespace UnityEngine {
 class Material;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::TextCore::Text {
+struct TextElementType;
 }
 namespace UnityEngine::TextCore::Text {
-struct FontStyles;
+class TextElement;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::TextCore::Text {
 class SpriteAsset;
@@ -48,8 +48,8 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::TextElementInfo);
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 353, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13698)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(13719)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(13705))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13699)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10177)), TypeDefinitionIndex(TypeDefinitionIndex(13584)), TypeDefinitionIndex(TypeDefinitionIndex(13577)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13598)), TypeDefinitionIndex(TypeDefinitionIndex(10176))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13578)) CS Name:
 // ::UnityEngine.TextCore.Text::TextElementInfo
 struct CORDL_TYPE TextElementInfo {
 public:
@@ -197,6 +197,76 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextElementInfo, 0x158>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, character) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, index) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, elementType) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, textElement) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, fontAsset) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, spriteAsset) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, spriteIndex) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, material) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, materialReferenceIndex) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, isUsingAlternateTypeface) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, pointSize) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, lineNumber) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, pageNumber) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, vertexIndex) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, vertexTopLeft) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, vertexBottomLeft) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, vertexTopRight) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, vertexBottomRight) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, topLeft) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, bottomLeft) == 0xfc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, topRight) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, bottomRight) == 0x114, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, origin) == 0x120, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, ascender) == 0x124, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, baseLine) == 0x128, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, descender) == 0x12c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, xAdvance) == 0x130, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, aspectRatio) == 0x134, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, scale) == 0x138, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, color) == 0x13c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, underlineColor) == 0x140, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, strikethroughColor) == 0x144, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, highlightColor) == 0x148, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, style) == 0x14c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, isVisible) == 0x150, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextElementInfo, "UnityEngine.TextCore.Text", "TextElementInfo");

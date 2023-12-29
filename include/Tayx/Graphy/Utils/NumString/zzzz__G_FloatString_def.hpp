@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Utils::NumString::G_FloatString);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Utils::NumString {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15072))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15250))
 // CS Name: ::Tayx.Graphy.Utils.NumString::G_FloatString*
 class CORDL_TYPE G_FloatString : public ::System::Object {
 public:
@@ -45,34 +45,34 @@ public:
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_positiveBuffer();
 
-  /// @brief Method get_MinValue addr 0x2a0699c size 0x70 virtual false final false
+  /// @brief Method get_MinValue addr 0x28891b8 size 0x70 virtual false final false
   static inline float_t get_MinValue();
 
-  /// @brief Method get_MaxValue addr 0x2a06a70 size 0x68 virtual false final false
+  /// @brief Method get_MaxValue addr 0x288928c size 0x68 virtual false final false
   static inline float_t get_MaxValue();
 
-  /// @brief Method Init addr 0x2a06ad8 size 0x298 virtual false final false
+  /// @brief Method Init addr 0x28892f4 size 0x298 virtual false final false
   static inline void Init(float_t minNegativeValue, float_t maxPositiveValue);
 
-  /// @brief Method Dispose addr 0x2a02de4 size 0x98 virtual false final false
+  /// @brief Method Dispose addr 0x2887504 size 0x98 virtual false final false
   static inline void Dispose();
 
-  /// @brief Method ToStringNonAlloc addr 0x2a06e30 size 0x140 virtual false final false
+  /// @brief Method ToStringNonAlloc addr 0x288964c size 0x140 virtual false final false
   static inline ::StringW ToStringNonAlloc(float_t value);
 
-  /// @brief Method ToStringNonAlloc addr 0x2a06f70 size 0x140 virtual false final false
+  /// @brief Method ToStringNonAlloc addr 0x288978c size 0x140 virtual false final false
   static inline ::StringW ToStringNonAlloc(float_t value, ::StringW format);
 
-  /// @brief Method ToInt addr 0x2a070b0 size 0x1c virtual false final false
+  /// @brief Method ToInt addr 0x28898cc size 0x1c virtual false final false
   static inline int32_t ToInt(float_t f);
 
-  /// @brief Method ToFloat addr 0x2a070cc size 0x8 virtual false final false
+  /// @brief Method ToFloat addr 0x28898e8 size 0x8 virtual false final false
   static inline float_t ToFloat(int32_t i);
 
-  /// @brief Method ToIndex addr 0x2a06d70 size 0xc0 virtual false final false
+  /// @brief Method ToIndex addr 0x288958c size 0xc0 virtual false final false
   static inline int32_t ToIndex(float_t f);
 
-  /// @brief Method FromIndex addr 0x2a06a0c size 0x64 virtual false final false
+  /// @brief Method FromIndex addr 0x2889228 size 0x64 virtual false final false
   static inline float_t FromIndex(int32_t i);
 
   // Ctor Parameters [CppParam { name: "", ty: "G_FloatString", modifiers: "&&", def_value: None }]

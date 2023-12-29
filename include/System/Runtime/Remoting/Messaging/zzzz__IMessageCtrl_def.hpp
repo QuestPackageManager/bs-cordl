@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IMessageCtrl);
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3169))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3168))
 // CS Name: ::System.Runtime.Remoting.Messaging::IMessageCtrl*
 class CORDL_TYPE IMessageCtrl {
 public:

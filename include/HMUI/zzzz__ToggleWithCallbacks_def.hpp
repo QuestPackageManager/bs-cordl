@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ToggleWithCallbacks)
+namespace System {
+template <typename T> class Action_1;
+}
 namespace HMUI {
 struct __ToggleWithCallbacks__SelectionState;
 }
 namespace UnityEngine::UI {
 struct __Selectable__SelectionState;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace HMUI {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::HMUI::ToggleWithCallbacks);
 namespace HMUI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13671))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13788))
 // CS Name: ::ToggleWithCallbacks::SelectionState
 struct CORDL_TYPE __ToggleWithCallbacks__SelectionState {
 public:
@@ -84,13 +84,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__ToggleWithCallbacks__SelectionState, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__ToggleWithCallbacks__SelectionState, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: HMUI::ToggleWithCallbacks
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13131))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13672))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13136))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13789))
 // CS Name: ::HMUI::ToggleWithCallbacks*
 class CORDL_TYPE ToggleWithCallbacks : public ::UnityEngine::UI::Toggle {
 public:
@@ -108,21 +110,21 @@ public:
 
   constexpr void __set_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
 
-  /// @brief Method add_stateDidChangeEvent addr 0x2146be0 size 0xb4 virtual false final false
+  /// @brief Method add_stateDidChangeEvent addr 0x1fef244 size 0xb4 virtual false final false
   inline void add_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
 
-  /// @brief Method remove_stateDidChangeEvent addr 0x2146ec4 size 0xb4 virtual false final false
+  /// @brief Method remove_stateDidChangeEvent addr 0x1fef528 size 0xb4 virtual false final false
   inline void remove_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
 
-  /// @brief Method get_selectionState addr 0x2146f80 size 0x54 virtual false final false
+  /// @brief Method get_selectionState addr 0x1fef5e4 size 0x54 virtual false final false
   inline ::HMUI::__ToggleWithCallbacks__SelectionState get_selectionState();
 
-  /// @brief Method DoStateTransition addr 0x214aac4 size 0x4c virtual true final false
+  /// @brief Method DoStateTransition addr 0x1ff3128 size 0x4c virtual true final false
   inline void DoStateTransition(::UnityEngine::UI::__Selectable__SelectionState state, bool instant);
 
   static inline ::HMUI::ToggleWithCallbacks* New_ctor();
 
-  /// @brief Method .ctor addr 0x214ab10 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1ff3174 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ToggleWithCallbacks", modifiers: "&&", def_value: None }]
@@ -146,6 +148,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::ToggleWithCallbacks, 0x128>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::ToggleWithCallbacks, ___stateDidChangeEvent) == 0x120, "Offset mismatch!");
 
 } // namespace HMUI
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::__ToggleWithCallbacks__SelectionState, "HMUI", "ToggleWithCallbacks/SelectionState");

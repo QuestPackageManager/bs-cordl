@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::Rendering::LocalKeyword);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10373))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10369))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10295))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10291))
 // CS Name: ::UnityEngine.Rendering::LocalKeyword
 struct CORDL_TYPE LocalKeyword {
 public:
@@ -35,16 +35,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>*();
 
-  /// @brief Method ToString addr 0x2cef09c size 0x8 virtual true final false
+  /// @brief Method ToString addr 0x2b87c68 size 0x8 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method Equals addr 0x2cef0a4 size 0x8c virtual true final false
+  /// @brief Method Equals addr 0x2b87c70 size 0x8c virtual true final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals addr 0x2cef130 size 0x48 virtual true final true
+  /// @brief Method Equals addr 0x2b87cfc size 0x48 virtual true final true
   inline bool Equals(::UnityEngine::Rendering::LocalKeyword rhs);
 
-  /// @brief Method GetHashCode addr 0x2cef180 size 0x50 virtual true final false
+  /// @brief Method GetHashCode addr 0x2b87d4c size 0x50 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_SpaceInfo", ty: "::UnityEngine::Rendering::LocalKeywordSpace", modifiers: "", def_value: None }, CppParam { name: "m_Name", ty: "::StringW", modifiers: "",
@@ -71,6 +71,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::LocalKeyword, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::LocalKeyword, m_SpaceInfo) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::LocalKeyword, m_Name) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::LocalKeyword, m_Index) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::LocalKeyword, "UnityEngine.Rendering", "LocalKeyword");

@@ -11,13 +11,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRDeserialize)
 namespace GlobalNamespace {
+struct __OVRDeserialize__SpaceEraseCompleteData;
+}
+namespace GlobalNamespace {
+struct __OVRDeserialize__SpaceShareResultData;
+}
+namespace GlobalNamespace {
+struct __OVRDeserialize__SpaceSaveCompleteData;
+}
+namespace GlobalNamespace {
 struct __OVRDeserialize__SpaceListSaveResultData;
-}
-namespace GlobalNamespace {
-struct __OVRDeserialize__SceneCaptureCompleteData;
-}
-namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceQueryCompleteData;
 }
 namespace GlobalNamespace {
 struct __OVRDeserialize__SpaceQueryResultsData;
@@ -26,25 +29,22 @@ namespace GlobalNamespace {
 struct __OVRDeserialize__DisplayRefreshRateChangedData;
 }
 namespace GlobalNamespace {
+struct __OVRDeserialize__SpaceQueryCompleteData;
+}
+namespace GlobalNamespace {
 struct __OVRDeserialize__SpaceSetComponentStatusCompleteData;
 }
 namespace GlobalNamespace {
 struct __OVRDeserialize__SpatialAnchorCreateCompleteData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceSaveCompleteData;
-}
-namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceEraseCompleteData;
-}
-namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceShareResultData;
-}
-namespace System {
-struct Guid;
+struct __OVRDeserialize__SceneCaptureCompleteData;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__SpaceStorageLocation;
+}
+namespace System {
+struct Guid;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__SpaceComponentType;
@@ -100,7 +100,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateCompleteData)
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8093))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8878))
 // CS Name: ::OVRDeserialize::DisplayRefreshRateChangedData
 struct CORDL_TYPE __OVRDeserialize__DisplayRefreshRateChangedData {
 public:
@@ -126,13 +126,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__DisplayRefreshRateChangedData, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__DisplayRefreshRateChangedData, FromRefreshRate) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__DisplayRefreshRateChangedData, ToRefreshRate) == 0x4, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SpaceQueryResultsData
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8094))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8879))
 // CS Name: ::OVRDeserialize::SpaceQueryResultsData
 struct CORDL_TYPE __OVRDeserialize__SpaceQueryResultsData {
 public:
@@ -155,13 +159,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SpaceQueryResultsData, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceQueryResultsData, RequestId) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SpaceQueryCompleteData
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8095))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8880))
 // CS Name: ::OVRDeserialize::SpaceQueryCompleteData
 struct CORDL_TYPE __OVRDeserialize__SpaceQueryCompleteData {
 public:
@@ -187,13 +193,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SpaceQueryCompleteData, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceQueryCompleteData, RequestId) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceQueryCompleteData, Result) == 0x8, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SceneCaptureCompleteData
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8096))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8881))
 // CS Name: ::OVRDeserialize::SceneCaptureCompleteData
 struct CORDL_TYPE __OVRDeserialize__SceneCaptureCompleteData {
 public:
@@ -219,13 +229,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SceneCaptureCompleteData, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SceneCaptureCompleteData, RequestId) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SceneCaptureCompleteData, Result) == 0x8, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SpatialAnchorCreateCompleteData
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8097))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8882))
 // CS Name: ::OVRDeserialize::SpatialAnchorCreateCompleteData
 struct CORDL_TYPE __OVRDeserialize__SpatialAnchorCreateCompleteData {
 public:
@@ -258,13 +272,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateCompleteData, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateCompleteData, RequestId) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateCompleteData, Result) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateCompleteData, Space) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateCompleteData, Uuid) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SpaceSetComponentStatusCompleteData
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7835)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8098))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(8691))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8883))
 // CS Name: ::OVRDeserialize::SpaceSetComponentStatusCompleteData
 struct CORDL_TYPE __OVRDeserialize__SpaceSetComponentStatusCompleteData {
 public:
@@ -305,13 +327,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteData, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteData, RequestId) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteData, Result) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteData, Space) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteData, Uuid) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteData, ComponentType) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteData, Enabled) == 0x2c, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SpaceSaveCompleteData
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8099))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8884))
 // CS Name: ::OVRDeserialize::SpaceSaveCompleteData
 struct CORDL_TYPE __OVRDeserialize__SpaceSaveCompleteData {
 public:
@@ -344,13 +378,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SpaceSaveCompleteData, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSaveCompleteData, RequestId) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSaveCompleteData, Space) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSaveCompleteData, Result) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSaveCompleteData, Uuid) == 0x14, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SpaceEraseCompleteData
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(7836))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8100))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8692)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8885))
 // CS Name: ::OVRDeserialize::SpaceEraseCompleteData
 struct CORDL_TYPE __OVRDeserialize__SpaceEraseCompleteData {
 public:
@@ -383,13 +425,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SpaceEraseCompleteData, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceEraseCompleteData, RequestId) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceEraseCompleteData, Result) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceEraseCompleteData, Uuid) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceEraseCompleteData, Location) == 0x1c, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SpaceShareResultData
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8101))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8886))
 // CS Name: ::OVRDeserialize::SpaceShareResultData
 struct CORDL_TYPE __OVRDeserialize__SpaceShareResultData {
 public:
@@ -415,13 +465,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SpaceShareResultData, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceShareResultData, RequestId) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceShareResultData, Result) == 0x8, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SpaceListSaveResultData
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8102))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8887))
 // CS Name: ::OVRDeserialize::SpaceListSaveResultData
 struct CORDL_TYPE __OVRDeserialize__SpaceListSaveResultData {
 public:
@@ -447,13 +501,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SpaceListSaveResultData, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceListSaveResultData, RequestId) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceListSaveResultData, Result) == 0x8, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OVRDeserialize
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8103))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8888))
 // CS Name: ::OVRDeserialize*
 class CORDL_TYPE OVRDeserialize : public ::System::Object {
 public:

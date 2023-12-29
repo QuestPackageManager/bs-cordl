@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/Security/Permissions/zzzz__ReflectionPermissionFlag_def.hpp"
 #include "System/Security/zzzz__CodeAccessPermission_def.hpp"
 CORDL_MODULE_EXPORT(ReflectionPermission)
-namespace System::Security::Permissions {
-struct ReflectionPermissionFlag;
+namespace System::Security {
+class IPermission;
 }
 namespace System::Security {
 class SecurityElement;
 }
-namespace System::Security {
-class IPermission;
+namespace System::Security::Permissions {
+struct ReflectionPermissionFlag;
 }
 // Forward declare root types
 namespace System::Security::Permissions {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Security::Permissions::ReflectionPermission);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Permissions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2903)), TypeDefinitionIndex(TypeDefinitionIndex(2882))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2904))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2878)), TypeDefinitionIndex(TypeDefinitionIndex(2899))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2900))
 // CS Name: ::System.Security.Permissions::ReflectionPermission*
 class CORDL_TYPE ReflectionPermission : public ::System::Security::CodeAccessPermission {
 public:
@@ -43,25 +43,25 @@ public:
 
   static inline ::System::Security::Permissions::ReflectionPermission* New_ctor(::System::Security::Permissions::ReflectionPermissionFlag flag);
 
-  /// @brief Method .ctor addr 0x2456ab4 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x22fcf98 size 0x2c virtual false final false
   inline void _ctor(::System::Security::Permissions::ReflectionPermissionFlag flag);
 
-  /// @brief Method get_Flags addr 0x2456b98 size 0x8 virtual false final false
+  /// @brief Method get_Flags addr 0x22fd07c size 0x8 virtual false final false
   inline ::System::Security::Permissions::ReflectionPermissionFlag get_Flags();
 
-  /// @brief Method set_Flags addr 0x2456ae0 size 0xb8 virtual false final false
+  /// @brief Method set_Flags addr 0x22fcfc4 size 0xb8 virtual false final false
   inline void set_Flags(::System::Security::Permissions::ReflectionPermissionFlag value);
 
-  /// @brief Method IsSubsetOf addr 0x2456ba0 size 0x50 virtual true final false
+  /// @brief Method IsSubsetOf addr 0x22fd084 size 0x50 virtual true final false
   inline bool IsSubsetOf(::System::Security::IPermission* target);
 
-  /// @brief Method IsUnrestricted addr 0x2456c94 size 0x10 virtual true final true
+  /// @brief Method IsUnrestricted addr 0x22fd178 size 0x10 virtual true final true
   inline bool IsUnrestricted();
 
-  /// @brief Method ToXml addr 0x2456ca4 size 0x1e8 virtual true final false
+  /// @brief Method ToXml addr 0x22fd188 size 0x1e8 virtual true final false
   inline ::System::Security::SecurityElement* ToXml();
 
-  /// @brief Method Cast addr 0x2456bf0 size 0xa4 virtual false final false
+  /// @brief Method Cast addr 0x22fd0d4 size 0xa4 virtual false final false
   inline ::System::Security::Permissions::ReflectionPermission* Cast(::System::Security::IPermission* target);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionPermission", modifiers: "&&", def_value: None }]
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Permissions::ReflectionPermission, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Permissions::ReflectionPermission, ___flags) == 0x10, "Offset mismatch!");
 
 } // namespace System::Security::Permissions
 NEED_NO_BOX(::System::Security::Permissions::ReflectionPermission);

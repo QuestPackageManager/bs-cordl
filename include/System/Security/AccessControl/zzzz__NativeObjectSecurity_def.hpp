@@ -11,16 +11,16 @@ namespace System::Security::AccessControl {
 class __NativeObjectSecurity__ExceptionFromErrorCode;
 }
 namespace System {
-class Object;
-}
-namespace System::Runtime::InteropServices {
-class SafeHandle;
+class Exception;
 }
 namespace System::Security::AccessControl {
 struct AccessControlSections;
 }
+namespace System::Runtime::InteropServices {
+class SafeHandle;
+}
 namespace System {
-class Exception;
+class Object;
 }
 namespace System::Security::AccessControl {
 struct ResourceType;
@@ -39,18 +39,18 @@ MARK_REF_PTR_T(::System::Security::AccessControl::__NativeObjectSecurity__Except
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3040))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3039))
 // CS Name: ::NativeObjectSecurity::ExceptionFromErrorCode*
 class CORDL_TYPE __NativeObjectSecurity__ExceptionFromErrorCode : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x24842ac size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x232c7b8 size 0xc4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x24843b0 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x232c8bc size 0x14 virtual true final false
   inline ::System::Exception* Invoke(int32_t errorCode, ::StringW name, ::System::Runtime::InteropServices::SafeHandle* handle, ::System::Object* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NativeObjectSecurity__ExceptionFromErrorCode", modifiers: "&&", def_value: None }]
@@ -77,8 +77,8 @@ static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl:
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3026))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3041))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3025))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3040))
 // CS Name: ::System.Security.AccessControl::NativeObjectSecurity*
 class CORDL_TYPE NativeObjectSecurity : public ::System::Security::AccessControl::CommonObjectSecurity {
 public:
@@ -99,14 +99,14 @@ public:
                                                                                   ::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode* exceptionFromErrorCode,
                                                                                   ::System::Object* exceptionContext);
 
-  /// @brief Method .ctor addr 0x2483ef8 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x232c404 size 0x2c virtual false final false
   inline void _ctor(bool isContainer, ::System::Security::AccessControl::ResourceType resourceType,
                     ::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode* exceptionFromErrorCode, ::System::Object* exceptionContext);
 
   static inline ::System::Security::AccessControl::NativeObjectSecurity* New_ctor(bool isContainer, ::System::Security::AccessControl::ResourceType resourceType, ::StringW name,
                                                                                   ::System::Security::AccessControl::AccessControlSections includeSections);
 
-  /// @brief Method .ctor addr 0x24835bc size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x232bac8 size 0x10 virtual false final false
   inline void _ctor(bool isContainer, ::System::Security::AccessControl::ResourceType resourceType, ::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
 
   static inline ::System::Security::AccessControl::NativeObjectSecurity* New_ctor(bool isContainer, ::System::Security::AccessControl::ResourceType resourceType, ::StringW name,
@@ -114,20 +114,20 @@ public:
                                                                                   ::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode* exceptionFromErrorCode,
                                                                                   ::System::Object* exceptionContext);
 
-  /// @brief Method .ctor addr 0x2483f24 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x232c430 size 0x74 virtual false final false
   inline void _ctor(bool isContainer, ::System::Security::AccessControl::ResourceType resourceType, ::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections,
                     ::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode* exceptionFromErrorCode, ::System::Object* exceptionContext);
 
-  /// @brief Method ClearAccessControlSectionsModified addr 0x248403c size 0xa4 virtual false final false
+  /// @brief Method ClearAccessControlSectionsModified addr 0x232c548 size 0xa4 virtual false final false
   inline void ClearAccessControlSectionsModified();
 
-  /// @brief Method DefaultExceptionFromErrorCode addr 0x2484124 size 0x188 virtual false final false
+  /// @brief Method DefaultExceptionFromErrorCode addr 0x232c630 size 0x188 virtual false final false
   static inline ::System::Exception* DefaultExceptionFromErrorCode(int32_t errorCode, ::StringW name, ::System::Runtime::InteropServices::SafeHandle* handle, ::System::Object* context);
 
-  /// @brief Method RaiseExceptionOnFailure addr 0x2483f98 size 0xa4 virtual false final false
+  /// @brief Method RaiseExceptionOnFailure addr 0x232c4a4 size 0xa4 virtual false final false
   inline void RaiseExceptionOnFailure(int32_t errorCode, ::StringW name, ::System::Runtime::InteropServices::SafeHandle* handle, ::System::Object* context);
 
-  /// @brief Method InternalGet addr 0x2484370 size 0x40 virtual true final false
+  /// @brief Method InternalGet addr 0x232c87c size 0x40 virtual true final false
   inline int32_t InternalGet(::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeObjectSecurity", modifiers: "&&", def_value: None }]
@@ -151,6 +151,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::NativeObjectSecurity, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::NativeObjectSecurity, ___exception_from_error_code) == 0x28, "Offset mismatch!");
 
 } // namespace System::Security::AccessControl
 NEED_NO_BOX(::System::Security::AccessControl::NativeObjectSecurity);

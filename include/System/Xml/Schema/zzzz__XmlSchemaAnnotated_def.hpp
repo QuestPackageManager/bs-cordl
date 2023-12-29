@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaAnnotated);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11730))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11714))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11658))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11642))
 // CS Name: ::System.Xml.Schema::XmlSchemaAnnotated*
 class CORDL_TYPE XmlSchemaAnnotated : public ::System::Xml::Schema::XmlSchemaObject {
 public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaAnnotated* New_ctor();
 
-  /// @brief Method .ctor addr 0x28c70c4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27490a0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAnnotated", modifiers: "&&", def_value: None }]

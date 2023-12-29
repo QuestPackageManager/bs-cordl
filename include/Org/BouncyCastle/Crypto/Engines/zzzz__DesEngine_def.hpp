@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::DesEngine);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(839))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::DesEngine*
 class CORDL_TYPE DesEngine : public ::System::Object {
@@ -136,36 +136,36 @@ public:
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_SP8();
 
-  /// @brief Method GetWorkingKey addr 0xec9504 size 0x8 virtual true final false
+  /// @brief Method GetWorkingKey addr 0xe55330 size 0x8 virtual true final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetWorkingKey();
 
-  /// @brief Method Init addr 0xec950c size 0x144 virtual true final false
+  /// @brief Method Init addr 0xe55338 size 0x144 virtual true final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName addr 0xec9bbc size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xe559e8 size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay addr 0xec9bfc size 0x8 virtual true final false
+  /// @brief Method get_IsPartialBlockOkay addr 0xe55a28 size 0x8 virtual true final false
   inline bool get_IsPartialBlockOkay();
 
-  /// @brief Method GetBlockSize addr 0xec9c04 size 0x8 virtual true final false
+  /// @brief Method GetBlockSize addr 0xe55a30 size 0x8 virtual true final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method ProcessBlock addr 0xec9c0c size 0x13c virtual true final false
+  /// @brief Method ProcessBlock addr 0xe55a38 size 0x13c virtual true final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xeca17c size 0x4 virtual true final false
+  /// @brief Method Reset addr 0xe55fa8 size 0x4 virtual true final false
   inline void Reset();
 
-  /// @brief Method GenerateWorkingKey addr 0xec9650 size 0x56c virtual false final false
+  /// @brief Method GenerateWorkingKey addr 0xe5547c size 0x56c virtual false final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> GenerateWorkingKey(bool encrypting, ::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method DesFunc addr 0xec9d48 size 0x434 virtual false final false
+  /// @brief Method DesFunc addr 0xe55b74 size 0x434 virtual false final false
   static inline void DesFunc(::ArrayW<int32_t, ::Array<int32_t>*> wKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::DesEngine* New_ctor();
 
-  /// @brief Method .ctor addr 0xeca538 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xe56364 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DesEngine", modifiers: "&&", def_value: None }]
@@ -192,6 +192,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::DesEngine, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::DesEngine, ___workingKey) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::DesEngine);

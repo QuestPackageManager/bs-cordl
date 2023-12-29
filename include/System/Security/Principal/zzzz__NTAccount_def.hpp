@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(NTAccount)
 namespace System {
 class Object;
 }
-namespace System {
-class Type;
-}
 namespace System::Security::Principal {
 class IdentityReference;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Security::Principal {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::Security::Principal::NTAccount);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3000))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3001))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2999))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3000))
 // CS Name: ::System.Security.Principal::NTAccount*
 class CORDL_TYPE NTAccount : public ::System::Security::Principal::IdentityReference {
 public:
@@ -44,25 +44,25 @@ public:
 
   static inline ::System::Security::Principal::NTAccount* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x2476e94 size 0xe8 virtual false final false
+  /// @brief Method .ctor addr 0x231f3a0 size 0xe8 virtual false final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Value addr 0x2476f7c size 0x8 virtual true final false
+  /// @brief Method get_Value addr 0x231f488 size 0x8 virtual true final false
   inline ::StringW get_Value();
 
-  /// @brief Method Equals addr 0x2476f84 size 0x98 virtual true final false
+  /// @brief Method Equals addr 0x231f490 size 0x98 virtual true final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode addr 0x2477084 size 0x28 virtual true final false
+  /// @brief Method GetHashCode addr 0x231f590 size 0x28 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x24770ac size 0xc virtual true final false
+  /// @brief Method ToString addr 0x231f5b8 size 0xc virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method Translate addr 0x24770b8 size 0x22c virtual true final false
+  /// @brief Method Translate addr 0x231f5c4 size 0x22c virtual true final false
   inline ::System::Security::Principal::IdentityReference* Translate(::System::Type* targetType);
 
-  /// @brief Method op_Equality addr 0x247701c size 0x68 virtual false final false
+  /// @brief Method op_Equality addr 0x231f528 size 0x68 virtual false final false
   static inline bool op_Equality(::System::Security::Principal::NTAccount* left, ::System::Security::Principal::NTAccount* right);
 
   // Ctor Parameters [CppParam { name: "", ty: "NTAccount", modifiers: "&&", def_value: None }]
@@ -86,6 +86,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Principal::NTAccount, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Principal::NTAccount, ____value) == 0x10, "Offset mismatch!");
 
 } // namespace System::Security::Principal
 NEED_NO_BOX(::System::Security::Principal::NTAccount);

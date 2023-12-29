@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ServerPasswordEntryViewController)
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class INetworkPlayer;
+namespace HMUI {
+class InputFieldView;
 }
 namespace HMUI {
 class UIKeyboard;
 }
-namespace HMUI {
-class InputFieldView;
+namespace GlobalNamespace {
+class INetworkPlayer;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ServerPasswordEntryViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5723))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5822))
 // CS Name: ::ServerPasswordEntryViewController*
 class CORDL_TYPE ServerPasswordEntryViewController : public ::HMUI::ViewController {
 public:
@@ -69,30 +69,30 @@ public:
 
   constexpr void __set__selectedNetworkPlayer(::GlobalNamespace::INetworkPlayer* value);
 
-  /// @brief Method add_didFinishEvent addr 0x22d06ac size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent addr 0x218d988 size 0xb0 virtual false final false
   inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x22d075c size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent addr 0x218da38 size 0xb0 virtual false final false
   inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
 
-  /// @brief Method Setup addr 0x22d080c size 0x8 virtual false final false
+  /// @brief Method Setup addr 0x218dae8 size 0x8 virtual false final false
   inline void Setup(::GlobalNamespace::INetworkPlayer* selectedPlayer);
 
-  /// @brief Method DidActivate addr 0x22d0814 size 0xc4 virtual true final false
+  /// @brief Method DidActivate addr 0x218daf0 size 0xc4 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x22d08d8 size 0xb4 virtual true final false
+  /// @brief Method DidDeactivate addr 0x218dbb4 size 0xb4 virtual true final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleJoinClicked addr 0x22d098c size 0x3c virtual false final false
+  /// @brief Method HandleJoinClicked addr 0x218dc68 size 0x3c virtual false final false
   inline void HandleJoinClicked();
 
-  /// @brief Method HandleUIKeyboardOkButtonWasPressed addr 0x22d09c8 size 0x3c virtual false final false
+  /// @brief Method HandleUIKeyboardOkButtonWasPressed addr 0x218dca4 size 0x3c virtual false final false
   inline void HandleUIKeyboardOkButtonWasPressed();
 
   static inline ::GlobalNamespace::ServerPasswordEntryViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22d0a04 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x218dce0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ServerPasswordEntryViewController", modifiers: "&&", def_value: None }]
@@ -125,6 +125,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ServerPasswordEntryViewController, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ServerPasswordEntryViewController, ____passwordInput) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ServerPasswordEntryViewController, ____uiKeyboard) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ServerPasswordEntryViewController, ___didFinishEvent) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ServerPasswordEntryViewController, ____selectedNetworkPlayer) == 0x88, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ServerPasswordEntryViewController);

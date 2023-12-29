@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SpatialTracking::PoseDataFlags);
 namespace UnityEngine::SpatialTracking {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16191))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16024))
 // CS Name: ::UnityEngine.SpatialTracking::PoseDataFlags
 struct CORDL_TYPE PoseDataFlags {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SpatialTracking::PoseDataFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::SpatialTracking::PoseDataFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::SpatialTracking
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SpatialTracking::PoseDataFlags, "UnityEngine.SpatialTracking", "PoseDataFlags");

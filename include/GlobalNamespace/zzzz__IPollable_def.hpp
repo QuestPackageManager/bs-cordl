@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IPollable);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12805))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12723))
 // CS Name: ::IPollable*
 class CORDL_TYPE IPollable {
 public:

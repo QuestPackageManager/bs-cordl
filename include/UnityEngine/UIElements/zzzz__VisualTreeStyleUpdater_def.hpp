@@ -7,8 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualTreeStyleUpdater)
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
 namespace UnityEngine::UIElements {
-class VisualElement;
+class VisualTreeStyleUpdaterTraversal;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
@@ -16,11 +19,8 @@ struct ProfilerMarker;
 namespace UnityEngine::UIElements {
 struct VersionChangeType;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
 namespace UnityEngine::UIElements {
-class VisualTreeStyleUpdaterTraversal;
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualTreeStyleUpdater);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(6754))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6816))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6840)), TypeDefinitionIndex(TypeDefinitionIndex(9894))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6902))
 // CS Name: ::UnityEngine.UIElements::VisualTreeStyleUpdater*
 class CORDL_TYPE VisualTreeStyleUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
@@ -111,21 +111,21 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_profilerMarker addr 0x2dc0f3c size 0x58 virtual true final false
+  /// @brief Method get_profilerMarker addr 0x2c59b8c size 0x58 virtual true final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method OnVersionChanged addr 0x2dc0f94 size 0xc8 virtual true final false
+  /// @brief Method OnVersionChanged addr 0x2c59be4 size 0xc8 virtual true final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update addr 0x2dc10dc size 0x30c virtual true final false
+  /// @brief Method Update addr 0x2c59d2c size 0x30c virtual true final false
   inline void Update();
 
-  /// @brief Method ApplyStyles addr 0x2dc13e8 size 0xe0 virtual false final false
+  /// @brief Method ApplyStyles addr 0x2c5a038 size 0xe0 virtual false final false
   inline void ApplyStyles();
 
   static inline ::UnityEngine::UIElements::VisualTreeStyleUpdater* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc184c size 0xd4 virtual false final false
+  /// @brief Method .ctor addr 0x2c5a49c size 0xd4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualTreeStyleUpdater", modifiers: "&&", def_value: None }]
@@ -164,6 +164,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualTreeStyleUpdater, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdater, ___m_ApplyStyleUpdateList) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdater, ___m_TransitionPropertyUpdateList) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdater, ___m_IsApplyingStyles) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdater, ___m_Version) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdater, ___m_LastVersion) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdater, ___m_StyleContextHierarchyTraversal) == 0x40, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VisualTreeStyleUpdater);

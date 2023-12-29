@@ -4,6 +4,9 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(NameConstraints)
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
@@ -14,13 +17,10 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace System::Collections {
-class ArrayList;
-}
-namespace System {
-class Object;
+class IList;
 }
 namespace System::Collections {
-class IList;
+class ArrayList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -60,34 +60,34 @@ public:
 
   constexpr void __set_excluded(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0x1192600 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0x11223b8 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::NameConstraints* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::NameConstraints* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1192788 size 0x338 virtual false final false
+  /// @brief Method .ctor addr 0x1122540 size 0x338 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::NameConstraints* New_ctor(::System::Collections::ArrayList* permitted, ::System::Collections::ArrayList* excluded);
 
-  /// @brief Method .ctor addr 0x1192ac0 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x1122878 size 0x4 virtual false final false
   inline void _ctor(::System::Collections::ArrayList* permitted, ::System::Collections::ArrayList* excluded);
 
   static inline ::Org::BouncyCastle::Asn1::X509::NameConstraints* New_ctor(::System::Collections::IList* permitted, ::System::Collections::IList* excluded);
 
-  /// @brief Method .ctor addr 0x1192ac4 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x112287c size 0x48 virtual false final false
   inline void _ctor(::System::Collections::IList* permitted, ::System::Collections::IList* excluded);
 
-  /// @brief Method CreateSequence addr 0x1192b0c size 0x2b0 virtual false final false
+  /// @brief Method CreateSequence addr 0x11228c4 size 0x2b0 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerSequence* CreateSequence(::System::Collections::IList* subtrees);
 
-  /// @brief Method get_PermittedSubtrees addr 0x1192dbc size 0x8 virtual false final false
+  /// @brief Method get_PermittedSubtrees addr 0x1122b74 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_PermittedSubtrees();
 
-  /// @brief Method get_ExcludedSubtrees addr 0x1192dc4 size 0x8 virtual false final false
+  /// @brief Method get_ExcludedSubtrees addr 0x1122b7c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_ExcludedSubtrees();
 
-  /// @brief Method ToAsn1Object addr 0x1192dcc size 0xc0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1122b84 size 0xc0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "NameConstraints", modifiers: "&&", def_value: None }]
@@ -114,6 +114,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::NameConstraints, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::NameConstraints, ___permitted) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::NameConstraints, ___excluded) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::NameConstraints);

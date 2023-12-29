@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RsaBlindedEngine)
 namespace Org::BouncyCastle::Crypto {
-class IRsa;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto {
 class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IRsa;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(862))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RsaBlindedEngine*
 class CORDL_TYPE RsaBlindedEngine : public ::System::Object {
@@ -72,27 +72,27 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine* New_ctor();
 
-  /// @brief Method .ctor addr 0xedf960 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0xe6a78c size 0x6c virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine* New_ctor(::Org::BouncyCastle::Crypto::IRsa* rsa);
 
-  /// @brief Method .ctor addr 0xedf9d4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xe6a800 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IRsa* rsa);
 
-  /// @brief Method get_AlgorithmName addr 0xedf9fc size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xe6a828 size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0xedfa3c size 0x25c virtual true final false
+  /// @brief Method Init addr 0xe6a868 size 0x25c virtual true final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* param);
 
-  /// @brief Method GetInputBlockSize addr 0xedfc98 size 0xa4 virtual true final false
+  /// @brief Method GetInputBlockSize addr 0xe6aac4 size 0xa4 virtual true final false
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize addr 0xedfd3c size 0xa4 virtual true final false
+  /// @brief Method GetOutputBlockSize addr 0xe6ab68 size 0xa4 virtual true final false
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method ProcessBlock addr 0xedfde0 size 0x41c virtual true final false
+  /// @brief Method ProcessBlock addr 0xe6ac0c size 0x41c virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen);
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaBlindedEngine", modifiers: "&&", def_value: None }]
@@ -122,6 +122,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine, ___core) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine, ___key) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine, ___random) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine);

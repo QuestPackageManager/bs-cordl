@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ComputedTransitionProperty_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 // Ctor Parameters [CppParam { name: "id", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: Some("{}") }, CppParam { name: "durationMs", ty: "int32_t",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "delayMs", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "easingCurve", ty: "::System::Func_2<float_t,float_t>*",
 // modifiers: "", def_value: Some("nullptr") }]

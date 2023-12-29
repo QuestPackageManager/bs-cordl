@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VectorImage)
-namespace UnityEngine::UIElements {
-struct VectorImageVertex;
-}
 namespace UnityEngine {
 class Texture2D;
 }
 namespace UnityEngine::UIElements {
 struct GradientSettings;
+}
+namespace UnityEngine::UIElements {
+struct VectorImageVertex;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VectorImage);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10210))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6806))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6892))
 // CS Name: ::UnityEngine.UIElements::VectorImage*
 class CORDL_TYPE VectorImage : public ::UnityEngine::ScriptableObject {
 public:
@@ -79,7 +79,7 @@ public:
 
   static inline ::UnityEngine::UIElements::VectorImage* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dbcf58 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x2c55ba8 size 0x64 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VectorImage", modifiers: "&&", def_value: None }]
@@ -115,6 +115,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VectorImage, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VectorImage, ___atlas) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VectorImage, ___vertices) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VectorImage, ___indices) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VectorImage, ___settings) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VectorImage, ___size) == 0x38, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VectorImage);

@@ -26,12 +26,12 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 class CORDL_TYPE ReferenceMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
   // Declarations
-  /// @brief Method MultiplyPositive addr 0x1037670 size 0x10 virtual true final false
+  /// @brief Method MultiplyPositive addr 0xfc5424 size 0x10 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::ReferenceMultiplier* New_ctor();
 
-  /// @brief Method .ctor addr 0x1037680 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xfc5434 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReferenceMultiplier", modifiers: "&&", def_value: None }]

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::EnvoyInfo);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3056))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3055))
 // CS Name: ::System.Runtime.Remoting::EnvoyInfo*
 class CORDL_TYPE EnvoyInfo : public ::System::Object {
 public:
@@ -42,10 +42,10 @@ public:
 
   static inline ::System::Runtime::Remoting::EnvoyInfo* New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* sinks);
 
-  /// @brief Method .ctor addr 0x2485038 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x232d544 size 0x28 virtual false final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* sinks);
 
-  /// @brief Method get_EnvoySinks addr 0x2485060 size 0x8 virtual true final true
+  /// @brief Method get_EnvoySinks addr 0x232d56c size 0x8 virtual true final true
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvoyInfo", modifiers: "&&", def_value: None }]
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::EnvoyInfo, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::EnvoyInfo, ___envoySinks) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting
 NEED_NO_BOX(::System::Runtime::Remoting::EnvoyInfo);

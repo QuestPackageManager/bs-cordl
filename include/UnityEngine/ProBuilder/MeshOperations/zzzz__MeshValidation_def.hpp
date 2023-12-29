@@ -9,44 +9,44 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshValidation)
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace UnityEngine::ProBuilder {
-struct Edge;
+namespace UnityEngine {
+struct Vector4;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __MeshValidation____c__DisplayClass5_0;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 struct __MeshValidation__AttributeValidationStrategy;
 }
-namespace UnityEngine {
-struct Vector4;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine::ProBuilder {
 struct Triangle;
 }
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __MeshValidation____c__DisplayClass10_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::ProBuilder {
+struct Edge;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __MeshValidation____c;
@@ -81,7 +81,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__MeshValidation____c_
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12274))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12202))
 // CS Name: ::MeshValidation::AttributeValidationStrategy
 struct CORDL_TYPE __MeshValidation__AttributeValidationStrategy {
 public:
@@ -123,13 +123,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__MeshValidation__AttributeValidationStrategy, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__MeshValidation__AttributeValidationStrategy, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::ProBuilder::MeshOperations
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12275))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12203))
 // CS Name: ::MeshValidation::<>c*
 class CORDL_TYPE __MeshValidation____c : public ::System::Object {
 public:
@@ -167,16 +169,16 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MeshValidation____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bbe758 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a3ca04 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <EnsureFacesAreComposedOfContiguousTriangles>b__4_0 addr 0x2bbe760 size 0x28 virtual false final false
+  /// @brief Method <EnsureFacesAreComposedOfContiguousTriangles>b__4_0 addr 0x2a3ca0c size 0x28 virtual false final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _EnsureFacesAreComposedOfContiguousTriangles_b__4_0(::UnityEngine::ProBuilder::Triangle x);
 
-  /// @brief Method <EnsureFacesAreComposedOfContiguousTriangles>b__4_1 addr 0x2bbe788 size 0x28 virtual false final false
+  /// @brief Method <EnsureFacesAreComposedOfContiguousTriangles>b__4_1 addr 0x2a3ca34 size 0x28 virtual false final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _EnsureFacesAreComposedOfContiguousTriangles_b__4_1(::UnityEngine::ProBuilder::Triangle x);
 
-  /// @brief Method <RemoveUnusedVertices>b__7_0 addr 0x2bbe7b0 size 0x18 virtual false final false
+  /// @brief Method <RemoveUnusedVertices>b__7_0 addr 0x2a3ca5c size 0x18 virtual false final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _RemoveUnusedVertices_b__7_0(::UnityEngine::ProBuilder::Face* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MeshValidation____c", modifiers: "&&", def_value: None }]
@@ -203,8 +205,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12209)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12276))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12137))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12204))
 // CS Name: ::MeshValidation::<>c__DisplayClass5_0*
 class CORDL_TYPE __MeshValidation____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -229,10 +231,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MeshValidation____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bbca4c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a3acf8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <CollectFaceGroups>b__0 addr 0x2bbe7c8 size 0x34 virtual false final false
+  /// @brief Method <CollectFaceGroups>b__0 addr 0x2a3ca74 size 0x34 virtual false final false
   inline bool _CollectFaceGroups_b__0(::UnityEngine::ProBuilder::Triangle x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MeshValidation____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
@@ -260,13 +262,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__MeshValidation____c__DisplayClass5_0, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__MeshValidation____c__DisplayClass5_0, ___triangle) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__MeshValidation____c__DisplayClass5_0, _____9__0) == 0x20, "Offset mismatch!");
+
 } // namespace UnityEngine::ProBuilder::MeshOperations
 // Type: ::<>c__DisplayClass10_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12277))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12205))
 // CS Name: ::MeshValidation::<>c__DisplayClass10_0*
 class CORDL_TYPE __MeshValidation____c__DisplayClass10_0 : public ::System::Object {
 public:
@@ -282,10 +288,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MeshValidation____c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bbde38 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a3c0e4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <RebuildSelectionIndexes>b__0 addr 0x2bbe7fc size 0x5c virtual false final false
+  /// @brief Method <RebuildSelectionIndexes>b__0 addr 0x2a3caa8 size 0x5c virtual false final false
   inline bool _RebuildSelectionIndexes_b__0(::UnityEngine::ProBuilder::Face* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MeshValidation____c__DisplayClass10_0", modifiers: "&&", def_value: None }]
@@ -310,13 +316,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__MeshValidation____c__DisplayClass10_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__MeshValidation____c__DisplayClass10_0, ___mesh) == 0x10, "Offset mismatch!");
+
 } // namespace UnityEngine::ProBuilder::MeshOperations
 // Type: UnityEngine.ProBuilder.MeshOperations::MeshValidation
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12278))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12206))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::MeshValidation*
 class CORDL_TYPE MeshValidation : public ::System::Object {
 public:
@@ -329,55 +337,55 @@ public:
 
   using AttributeValidationStrategy = ::UnityEngine::ProBuilder::MeshOperations::__MeshValidation__AttributeValidationStrategy;
 
-  /// @brief Method ContainsDegenerateTriangles addr 0x2bbb894 size 0x18 virtual false final false
+  /// @brief Method ContainsDegenerateTriangles addr 0x2a39b40 size 0x18 virtual false final false
   static inline bool ContainsDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method ContainsDegenerateTriangles addr 0x2bbb8ac size 0x458 virtual false final false
+  /// @brief Method ContainsDegenerateTriangles addr 0x2a39b58 size 0x458 virtual false final false
   static inline bool ContainsDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method ContainsDegenerateTriangles addr 0x2bbbd04 size 0x154 virtual false final false
+  /// @brief Method ContainsDegenerateTriangles addr 0x2a39fb0 size 0x154 virtual false final false
   static inline bool ContainsDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method ContainsNonContiguousTriangles addr 0x2bbbe58 size 0x138 virtual false final false
+  /// @brief Method ContainsNonContiguousTriangles addr 0x2a3a104 size 0x138 virtual false final false
   static inline bool ContainsNonContiguousTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method EnsureFacesAreComposedOfContiguousTriangles addr 0x2bbbf90 size 0x6f0 virtual false final false
+  /// @brief Method EnsureFacesAreComposedOfContiguousTriangles addr 0x2a3a23c size 0x6f0 virtual false final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*
   EnsureFacesAreComposedOfContiguousTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method CollectFaceGroups addr 0x2bbc680 size 0x3cc virtual false final false
+  /// @brief Method CollectFaceGroups addr 0x2a3a92c size 0x3cc virtual false final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Triangle>*>* CollectFaceGroups(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                                                                         ::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method RemoveDegenerateTriangles addr 0x2bbca54 size 0x954 virtual false final false
+  /// @brief Method RemoveDegenerateTriangles addr 0x2a3ad00 size 0x954 virtual false final false
   static inline bool RemoveDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<int32_t>* removed);
 
-  /// @brief Method RemoveUnusedVertices addr 0x2bb9724 size 0x32c virtual false final false
+  /// @brief Method RemoveUnusedVertices addr 0x2a379d0 size 0x32c virtual false final false
   static inline bool RemoveUnusedVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<int32_t>* removed);
 
-  /// @brief Method RebuildIndexes addr 0x2bbd3a8 size 0x41c virtual false final false
+  /// @brief Method RebuildIndexes addr 0x2a3b654 size 0x41c virtual false final false
   static inline ::System::Collections::Generic::List_1<int32_t>* RebuildIndexes(::System::Collections::Generic::IEnumerable_1<int32_t>* indices,
                                                                                 ::System::Collections::Generic::List_1<int32_t>* removed);
 
-  /// @brief Method RebuildEdges addr 0x2bbd7c4 size 0x494 virtual false final false
+  /// @brief Method RebuildEdges addr 0x2a3ba70 size 0x494 virtual false final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* RebuildEdges(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges,
                                                                                                       ::System::Collections::Generic::List_1<int32_t>* removed);
 
-  /// @brief Method RebuildSelectionIndexes addr 0x2bbdc58 size 0x1e0 virtual false final false
+  /// @brief Method RebuildSelectionIndexes addr 0x2a3bf04 size 0x1e0 virtual false final false
   static inline void RebuildSelectionIndexes(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ByRef<::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>> faces,
                                              ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>> edges, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> indices,
                                              ::System::Collections::Generic::IEnumerable_1<int32_t>* removed);
 
-  /// @brief Method EnsureMeshIsValid addr 0x2bbde40 size 0x140 virtual false final false
+  /// @brief Method EnsureMeshIsValid addr 0x2a3c0ec size 0x140 virtual false final false
   static inline bool EnsureMeshIsValid(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ByRef<int32_t> removedVertices);
 
-  /// @brief Method EnsureRealNumbers addr 0x2bbe198 size 0x1c0 virtual false final false
+  /// @brief Method EnsureRealNumbers addr 0x2a3c444 size 0x1c0 virtual false final false
   static inline void EnsureRealNumbers(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* attribute);
 
-  /// @brief Method EnsureRealNumbers addr 0x2bbe358 size 0x1cc virtual false final false
+  /// @brief Method EnsureRealNumbers addr 0x2a3c604 size 0x1cc virtual false final false
   static inline void EnsureRealNumbers(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* attribute);
 
-  /// @brief Method EnsureRealNumbers addr 0x2bbe524 size 0x1d0 virtual false final false
+  /// @brief Method EnsureRealNumbers addr 0x2a3c7d0 size 0x1d0 virtual false final false
   static inline void EnsureRealNumbers(::System::Collections::Generic::IList_1<::UnityEngine::Vector4>* attribute);
 
   /// @brief Method EnsureArraySize addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -390,7 +398,7 @@ public:
   static inline void EnsureListSize(ByRef<::System::Collections::Generic::List_1<T>*> attribute, int32_t expectedVertexCount,
                                     ::UnityEngine::ProBuilder::MeshOperations::__MeshValidation__AttributeValidationStrategy strategy, T fill);
 
-  /// @brief Method EnsureValidAttributes addr 0x2bbdf80 size 0x218 virtual false final false
+  /// @brief Method EnsureValidAttributes addr 0x2a3c22c size 0x218 virtual false final false
   static inline void EnsureValidAttributes(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshValidation", modifiers: "&&", def_value: None }]

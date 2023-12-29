@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssetReference)
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::AddressableAssets {
-class IKeyEvaluator;
-}
-namespace System {
-class Object;
-}
 namespace System {
 class Type;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine::AddressableAssets {
+class IKeyEvaluator;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct SceneInstance;
 }
 namespace UnityEngine {
-struct Quaternion;
+class GameObject;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 class Object;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine::SceneManagement {
 struct LoadSceneMode;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -53,8 +53,8 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReference);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14034))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14089))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14305))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14360))
 // CS Name: ::UnityEngine.AddressableAssets::AssetReference*
 class CORDL_TYPE AssetReference : public ::System::Object {
 public:
@@ -112,52 +112,52 @@ public:
 
   constexpr void __set_m_Operation(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle value);
 
-  /// @brief Method get_OperationHandle addr 0x2a23d5c size 0x14 virtual false final false
+  /// @brief Method get_OperationHandle addr 0x28a6014 size 0x14 virtual false final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle get_OperationHandle();
 
-  /// @brief Method set_OperationHandle addr 0x2a23d70 size 0x14 virtual false final false
+  /// @brief Method set_OperationHandle addr 0x28a6028 size 0x14 virtual false final false
   inline void set_OperationHandle(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle value);
 
-  /// @brief Method get_RuntimeKey addr 0x2a23d84 size 0x9c virtual true final false
+  /// @brief Method get_RuntimeKey addr 0x28a603c size 0x9c virtual true final false
   inline ::System::Object* get_RuntimeKey();
 
-  /// @brief Method get_AssetGUID addr 0x2a23e20 size 0x8 virtual true final false
+  /// @brief Method get_AssetGUID addr 0x28a60d8 size 0x8 virtual true final false
   inline ::StringW get_AssetGUID();
 
-  /// @brief Method get_SubObjectName addr 0x2a23e28 size 0x8 virtual true final false
+  /// @brief Method get_SubObjectName addr 0x28a60e0 size 0x8 virtual true final false
   inline ::StringW get_SubObjectName();
 
-  /// @brief Method set_SubObjectName addr 0x2a23e30 size 0x8 virtual true final false
+  /// @brief Method set_SubObjectName addr 0x28a60e8 size 0x8 virtual true final false
   inline void set_SubObjectName(::StringW value);
 
-  /// @brief Method get_SubOjbectType addr 0x2a23e38 size 0xac virtual true final false
+  /// @brief Method get_SubOjbectType addr 0x28a60f0 size 0xac virtual true final false
   inline ::System::Type* get_SubOjbectType();
 
-  /// @brief Method IsValid addr 0x2a23ee4 size 0xc virtual false final false
+  /// @brief Method IsValid addr 0x28a619c size 0xc virtual false final false
   inline bool IsValid();
 
-  /// @brief Method get_IsDone addr 0x2a23ef0 size 0xc virtual false final false
+  /// @brief Method get_IsDone addr 0x28a61a8 size 0xc virtual false final false
   inline bool get_IsDone();
 
   static inline ::UnityEngine::AddressableAssets::AssetReference* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a23efc size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x28a61b4 size 0x50 virtual false final false
   inline void _ctor();
 
   static inline ::UnityEngine::AddressableAssets::AssetReference* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor addr 0x2a23f4c size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x28a6204 size 0x64 virtual false final false
   inline void _ctor(::StringW guid);
 
   static inline ::UnityEngine::AddressableAssets::AssetReference* New_ctor(::StringW guid, ::System::Type* type);
 
-  /// @brief Method .ctor addr 0x2a23fb0 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x28a6268 size 0x64 virtual false final false
   inline void _ctor(::StringW guid, ::System::Type* type);
 
-  /// @brief Method get_Asset addr 0x2a24014 size 0xa0 virtual true final false
+  /// @brief Method get_Asset addr 0x28a62cc size 0xa0 virtual true final false
   inline ::UnityEngine::Object* get_Asset();
 
-  /// @brief Method ToString addr 0x2a240b4 size 0x6c virtual true final false
+  /// @brief Method ToString addr 0x28a636c size 0x6c virtual true final false
   inline ::StringW ToString();
 
   /// @brief Method CreateFailedOperation addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -166,46 +166,46 @@ public:
   /// @brief Method LoadAsset addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename TObject> inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAsset();
 
-  /// @brief Method LoadScene addr 0x2a24120 size 0x40 virtual false final false
+  /// @brief Method LoadScene addr 0x28a63d8 size 0x40 virtual false final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> LoadScene();
 
-  /// @brief Method Instantiate addr 0x2a24160 size 0x34 virtual false final false
+  /// @brief Method Instantiate addr 0x28a6418 size 0x34 virtual false final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> Instantiate(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                                                                                             ::UnityEngine::Transform* parent);
 
-  /// @brief Method Instantiate addr 0x2a24194 size 0x38 virtual false final false
+  /// @brief Method Instantiate addr 0x28a644c size 0x38 virtual false final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> Instantiate(::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
 
   /// @brief Method LoadAssetAsync addr 0x0 size 0xffffffffffffffff virtual true final false
   template <typename TObject> inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAssetAsync();
 
-  /// @brief Method LoadSceneAsync addr 0x2a241cc size 0x160 virtual true final false
+  /// @brief Method LoadSceneAsync addr 0x28a6484 size 0x160 virtual true final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   LoadSceneAsync(::UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int32_t priority);
 
-  /// @brief Method UnLoadScene addr 0x2a2432c size 0x9c virtual true final false
+  /// @brief Method UnLoadScene addr 0x28a65e4 size 0x9c virtual true final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> UnLoadScene();
 
-  /// @brief Method InstantiateAsync addr 0x2a243c8 size 0xf4 virtual true final false
+  /// @brief Method InstantiateAsync addr 0x28a6680 size 0xf4 virtual true final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> InstantiateAsync(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                                                                                                  ::UnityEngine::Transform* parent);
 
-  /// @brief Method InstantiateAsync addr 0x2a244bc size 0xac virtual true final false
+  /// @brief Method InstantiateAsync addr 0x28a6774 size 0xac virtual true final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> InstantiateAsync(::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
 
-  /// @brief Method RuntimeKeyIsValid addr 0x2a24568 size 0xb8 virtual true final false
+  /// @brief Method RuntimeKeyIsValid addr 0x28a6820 size 0xb8 virtual true final false
   inline bool RuntimeKeyIsValid();
 
-  /// @brief Method ReleaseAsset addr 0x2a24620 size 0xec virtual true final false
+  /// @brief Method ReleaseAsset addr 0x28a68d8 size 0xec virtual true final false
   inline void ReleaseAsset();
 
-  /// @brief Method ReleaseInstance addr 0x2a2470c size 0x54 virtual true final false
+  /// @brief Method ReleaseInstance addr 0x28a69c4 size 0x54 virtual true final false
   inline void ReleaseInstance(::UnityEngine::GameObject* obj);
 
-  /// @brief Method ValidateAsset addr 0x2a24760 size 0x8 virtual true final false
+  /// @brief Method ValidateAsset addr 0x28a6a18 size 0x8 virtual true final false
   inline bool ValidateAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method ValidateAsset addr 0x2a24768 size 0x8 virtual true final false
+  /// @brief Method ValidateAsset addr 0x28a6a20 size 0x8 virtual true final false
   inline bool ValidateAsset(::StringW path);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetReference", modifiers: "&&", def_value: None }]
@@ -238,6 +238,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::AssetReference, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::AssetReference, ___m_AssetGUID) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::AssetReference, ___m_SubObjectName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::AssetReference, ___m_SubObjectType) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::AssetReference, ___m_Operation) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 NEED_NO_BOX(::UnityEngine::AddressableAssets::AssetReference);

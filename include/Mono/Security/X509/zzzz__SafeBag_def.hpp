@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::Mono::Security::X509::SafeBag);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13745))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14016))
 // CS Name: ::Mono.Security.X509::SafeBag*
 class CORDL_TYPE SafeBag : public ::System::Object {
 public:
@@ -48,13 +48,13 @@ public:
 
   static inline ::Mono::Security::X509::SafeBag* New_ctor(::StringW bagOID, ::Mono::Security::ASN1* asn1);
 
-  /// @brief Method .ctor addr 0x23f0550 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2295064 size 0x2c virtual false final false
   inline void _ctor(::StringW bagOID, ::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_BagOID addr 0x23f057c size 0x8 virtual false final false
+  /// @brief Method get_BagOID addr 0x2295090 size 0x8 virtual false final false
   inline ::StringW get_BagOID();
 
-  /// @brief Method get_ASN1 addr 0x23f0584 size 0x8 virtual false final false
+  /// @brief Method get_ASN1 addr 0x2295098 size 0x8 virtual false final false
   inline ::Mono::Security::ASN1* get_ASN1();
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeBag", modifiers: "&&", def_value: None }]
@@ -81,6 +81,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::SafeBag, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::SafeBag, ____bagOID) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::SafeBag, ____asn1) == 0x18, "Offset mismatch!");
 
 } // namespace Mono::Security::X509
 NEED_NO_BOX(::Mono::Security::X509::SafeBag);

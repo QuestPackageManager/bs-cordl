@@ -5,20 +5,17 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(EnvironmentInfoSO)
-namespace GlobalNamespace {
-class EnvironmentIntensityReductionOptions;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace BeatmapSaveDataVersion3 {
-class BeatmapLightshowSaveData;
-}
 namespace GlobalNamespace {
 class EnvironmentSizeData;
+}
+namespace GlobalNamespace {
+class EnvironmentIntensityReductionOptions;
+}
+namespace GlobalNamespace {
+class EnvironmentLightGroups;
 }
 namespace GlobalNamespace {
 class SceneInfo;
@@ -29,11 +26,11 @@ class ColorSchemeSO;
 namespace GlobalNamespace {
 class EnvironmentTypeSO;
 }
-namespace GlobalNamespace {
-class DefaultEnvironmentEvents;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class EnvironmentLightGroups;
+class DefaultEnvironmentEvents;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,11 +39,11 @@ class EnvironmentInfoSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EnvironmentInfoSO);
 // Type: ::EnvironmentInfoSO
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4170))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4202))
 // CS Name: ::EnvironmentInfoSO*
 class CORDL_TYPE EnvironmentInfoSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -85,9 +82,6 @@ public:
   /// @brief Field _defaultEnvironmentEvents, offset 0x68, size 0x8
   __declspec(property(get = __get__defaultEnvironmentEvents, put = __set__defaultEnvironmentEvents))::GlobalNamespace::DefaultEnvironmentEvents* _defaultEnvironmentEvents;
 
-  /// @brief Field _defaultLightshowSaveData, offset 0x70, size 0x8
-  __declspec(property(get = __get__defaultLightshowSaveData, put = __set__defaultLightshowSaveData))::BeatmapSaveDataVersion3::BeatmapLightshowSaveData* _defaultLightshowSaveData;
-
   __declspec(property(get = get_sceneInfo))::GlobalNamespace::SceneInfo* sceneInfo;
 
   __declspec(property(get = get_environmentName))::StringW environmentName;
@@ -109,8 +103,6 @@ public:
   __declspec(property(get = get_lightGroups))::GlobalNamespace::EnvironmentLightGroups* lightGroups;
 
   __declspec(property(get = get_defaultEnvironmentEvents))::GlobalNamespace::DefaultEnvironmentEvents* defaultEnvironmentEvents;
-
-  __declspec(property(get = get_defaultLightshowSaveData))::BeatmapSaveDataVersion3::BeatmapLightshowSaveData* defaultLightshowSaveData;
 
   constexpr ::StringW& __get__environmentName();
 
@@ -178,51 +170,42 @@ public:
 
   constexpr void __set__defaultEnvironmentEvents(::GlobalNamespace::DefaultEnvironmentEvents* value);
 
-  constexpr ::BeatmapSaveDataVersion3::BeatmapLightshowSaveData*& __get__defaultLightshowSaveData();
-
-  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::BeatmapLightshowSaveData*> const& __get__defaultLightshowSaveData() const;
-
-  constexpr void __set__defaultLightshowSaveData(::BeatmapSaveDataVersion3::BeatmapLightshowSaveData* value);
-
-  /// @brief Method get_sceneInfo addr 0x22402dc size 0x8 virtual false final false
+  /// @brief Method get_sceneInfo addr 0x21d1444 size 0x8 virtual false final false
   inline ::GlobalNamespace::SceneInfo* get_sceneInfo();
 
-  /// @brief Method get_environmentName addr 0x22402e4 size 0x8 virtual false final false
+  /// @brief Method get_environmentName addr 0x21d144c size 0x8 virtual false final false
   inline ::StringW get_environmentName();
 
-  /// @brief Method get_colorScheme addr 0x22402ec size 0x8 virtual false final false
+  /// @brief Method get_colorScheme addr 0x21d1454 size 0x8 virtual false final false
   inline ::GlobalNamespace::ColorSchemeSO* get_colorScheme();
 
-  /// @brief Method get_serializedName addr 0x22402f4 size 0x8 virtual false final false
+  /// @brief Method get_serializedName addr 0x21d145c size 0x8 virtual false final false
   inline ::StringW get_serializedName();
 
-  /// @brief Method get_environmentAssetDirectory addr 0x22402fc size 0x8 virtual false final false
+  /// @brief Method get_environmentAssetDirectory addr 0x21d1464 size 0x8 virtual false final false
   inline ::StringW get_environmentAssetDirectory();
 
-  /// @brief Method get_environmentType addr 0x2240304 size 0x8 virtual false final false
+  /// @brief Method get_environmentType addr 0x21d146c size 0x8 virtual false final false
   inline ::GlobalNamespace::EnvironmentTypeSO* get_environmentType();
 
-  /// @brief Method get_environmentSizeData addr 0x224030c size 0x8 virtual false final false
+  /// @brief Method get_environmentSizeData addr 0x21d1474 size 0x8 virtual false final false
   inline ::GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
 
-  /// @brief Method get_environmentIntensityReductionOptions addr 0x2240314 size 0x8 virtual false final false
+  /// @brief Method get_environmentIntensityReductionOptions addr 0x21d147c size 0x8 virtual false final false
   inline ::GlobalNamespace::EnvironmentIntensityReductionOptions* get_environmentIntensityReductionOptions();
 
-  /// @brief Method get_environmentKeywords addr 0x224031c size 0x8 virtual false final false
+  /// @brief Method get_environmentKeywords addr 0x21d1484 size 0x8 virtual false final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
 
-  /// @brief Method get_lightGroups addr 0x2240324 size 0x8 virtual false final false
+  /// @brief Method get_lightGroups addr 0x21d148c size 0x8 virtual false final false
   inline ::GlobalNamespace::EnvironmentLightGroups* get_lightGroups();
 
-  /// @brief Method get_defaultEnvironmentEvents addr 0x224032c size 0x8 virtual false final false
+  /// @brief Method get_defaultEnvironmentEvents addr 0x21d1494 size 0x8 virtual false final false
   inline ::GlobalNamespace::DefaultEnvironmentEvents* get_defaultEnvironmentEvents();
-
-  /// @brief Method get_defaultLightshowSaveData addr 0x2240334 size 0x8 virtual false final false
-  inline ::BeatmapSaveDataVersion3::BeatmapLightshowSaveData* get_defaultLightshowSaveData();
 
   static inline ::GlobalNamespace::EnvironmentInfoSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x224033c size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x21d149c size 0x50 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentInfoSO", modifiers: "&&", def_value: None }]
@@ -272,16 +255,35 @@ public:
   /// @brief Field _defaultEnvironmentEvents, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::DefaultEnvironmentEvents* ____defaultEnvironmentEvents;
 
-  /// @brief Field _defaultLightshowSaveData, offset: 0x70, size: 0x8, def value: None
-  ::BeatmapSaveDataVersion3::BeatmapLightshowSaveData* ____defaultLightshowSaveData;
-
   /// @brief Field kLightGroupSubDir offset 0xffffffff size 0x8
   static constexpr ::ConstString kLightGroupSubDir{ u"LightGroups" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentInfoSO, 0x78>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentInfoSO, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____environmentName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____colorScheme) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____sceneInfo) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____serializedName) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____environmentAssetDirectory) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____environmentType) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____environmentSizeData) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____environmentIntensityReductionOptions) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____environmentKeywords) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____lightGroups) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____defaultEnvironmentEvents) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentInfoSO);

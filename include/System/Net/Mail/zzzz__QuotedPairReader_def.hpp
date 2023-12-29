@@ -16,16 +16,16 @@ MARK_REF_PTR_T(::System::Net::Mail::QuotedPairReader);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Mail {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9379))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8216))
 // CS Name: ::System.Net.Mail::QuotedPairReader*
 class CORDL_TYPE QuotedPairReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CountQuotedChars addr 0x2901bac size 0x194 virtual false final false
+  /// @brief Method CountQuotedChars addr 0x2783b84 size 0x194 virtual false final false
   static inline int32_t CountQuotedChars(::StringW data, int32_t index, bool permitUnicodeEscaping);
 
-  /// @brief Method CountBackslashes addr 0x2903114 size 0xa4 virtual false final false
+  /// @brief Method CountBackslashes addr 0x27850ec size 0xa4 virtual false final false
   static inline int32_t CountBackslashes(::StringW data, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "QuotedPairReader", modifiers: "&&", def_value: None }]

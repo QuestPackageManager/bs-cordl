@@ -6,6 +6,12 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayableOutputExtensions)
+namespace System {
+class Object;
+}
+namespace UnityEngine::Playables {
+class INotification;
+}
 namespace UnityEngine::Playables {
 class INotificationReceiver;
 }
@@ -14,12 +20,6 @@ struct Playable;
 }
 namespace UnityEngine {
 class Object;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::Playables {
-class INotification;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::UnityEngine::Playables::PlayableOutputExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10426))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10348))
 // CS Name: ::UnityEngine.Playables::PlayableOutputExtensions*
 class CORDL_TYPE PlayableOutputExtensions : public ::System::Object {
 public:

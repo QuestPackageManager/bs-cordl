@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::ConnectRequestResult);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14174))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14512))
 // CS Name: ::LiteNetLib::ConnectRequestResult
 struct CORDL_TYPE ConnectRequestResult {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::ConnectRequestResult, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ConnectRequestResult, value__) == 0x0, "Offset mismatch!");
 
 } // namespace LiteNetLib
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::ConnectRequestResult, "LiteNetLib", "ConnectRequestResult");

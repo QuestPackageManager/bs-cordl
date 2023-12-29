@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(AixNetworkInterfaceAPI)
 namespace System::Net::NetworkInformation {
 class NetworkInterface;
 }
-namespace System::Net::NetworkInformation {
-struct AixIoctlRequest;
-}
 namespace System::Net::NetworkInformation::AixStructs {
 struct ifreq_flags;
 }
 namespace System::Net::NetworkInformation::AixStructs {
 struct ifreq_mtu;
+}
+namespace System::Net::NetworkInformation {
+struct AixIoctlRequest;
 }
 namespace System::Net::NetworkInformation::AixStructs {
 struct ifconf;
@@ -35,39 +35,39 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::AixNetworkInterfaceAPI);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9291))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9260))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8128))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8097))
 // CS Name: ::System.Net.NetworkInformation::AixNetworkInterfaceAPI*
 class CORDL_TYPE AixNetworkInterfaceAPI : public ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI {
 public:
   // Declarations
-  /// @brief Method socket addr 0x29ec3a8 size 0xa0 virtual false final false
+  /// @brief Method socket addr 0x286fb24 size 0xa0 virtual false final false
   static inline int32_t socket(::System::Net::NetworkInformation::AixAddressFamily family, int32_t type, int32_t protocol);
 
-  /// @brief Method close addr 0x29ec448 size 0x78 virtual false final false
+  /// @brief Method close addr 0x286fbc4 size 0x78 virtual false final false
   static inline int32_t close(int32_t fd);
 
-  /// @brief Method ioctl addr 0x29ec4c0 size 0xa0 virtual false final false
+  /// @brief Method ioctl addr 0x286fc3c size 0xa0 virtual false final false
   static inline int32_t ioctl(int32_t fd, ::System::Net::NetworkInformation::AixIoctlRequest request, ByRef<int32_t> arg);
 
-  /// @brief Method ioctl addr 0x29ec560 size 0xa0 virtual false final false
+  /// @brief Method ioctl addr 0x286fcdc size 0xa0 virtual false final false
   static inline int32_t ioctl(int32_t fd, ::System::Net::NetworkInformation::AixIoctlRequest request, ByRef<::System::Net::NetworkInformation::AixStructs::ifconf> arg);
 
-  /// @brief Method ioctl addr 0x29ec600 size 0xa0 virtual false final false
+  /// @brief Method ioctl addr 0x286fd7c size 0xa0 virtual false final false
   static inline int32_t ioctl(int32_t fd, ::System::Net::NetworkInformation::AixIoctlRequest request, ByRef<::System::Net::NetworkInformation::AixStructs::ifreq_flags> arg);
 
-  /// @brief Method ioctl addr 0x29ec6a0 size 0xa0 virtual false final false
+  /// @brief Method ioctl addr 0x286fe1c size 0xa0 virtual false final false
   static inline int32_t ioctl(int32_t fd, ::System::Net::NetworkInformation::AixIoctlRequest request, ByRef<::System::Net::NetworkInformation::AixStructs::ifreq_mtu> arg);
 
-  /// @brief Method ByteArrayCopy addr 0x29ec740 size 0x1c virtual false final false
+  /// @brief Method ByteArrayCopy addr 0x286febc size 0x1c virtual false final false
   static inline void ByteArrayCopy(::cordl_internals::Ptr<uint8_t> dst, ::cordl_internals::Ptr<uint8_t> src, int32_t elements);
 
-  /// @brief Method GetAllNetworkInterfaces addr 0x29ec75c size 0xe8c virtual true final false
+  /// @brief Method GetAllNetworkInterfaces addr 0x286fed8 size 0xe8c virtual true final false
   inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetAllNetworkInterfaces();
 
   static inline ::System::Net::NetworkInformation::AixNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor addr 0x29ed854 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2870fd0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AixNetworkInterfaceAPI", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SendMessageOptions);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10031))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9959))
 // CS Name: ::UnityEngine::SendMessageOptions
 struct CORDL_TYPE SendMessageOptions {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SendMessageOptions, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::SendMessageOptions, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SendMessageOptions, "UnityEngine", "SendMessageOptions");

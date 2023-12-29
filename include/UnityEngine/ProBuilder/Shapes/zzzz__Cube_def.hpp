@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Cube)
+namespace UnityEngine {
+struct Bounds;
+}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
-struct Bounds;
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Cube);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12233))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12226))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12161))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12154))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Cube*
 class CORDL_TYPE Cube : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
@@ -51,15 +51,15 @@ public:
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_k_CubeTriangles();
 
-  /// @brief Method CopyShape addr 0x2b88948 size 0x4 virtual true final false
+  /// @brief Method CopyShape addr 0x2a07bf4 size 0x4 virtual true final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method RebuildMesh addr 0x2b8894c size 0x20c virtual true final false
+  /// @brief Method RebuildMesh addr 0x2a07bf8 size 0x20c virtual true final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Cube* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b88b58 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a07e04 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Cube", modifiers: "&&", def_value: None }]

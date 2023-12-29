@@ -5,18 +5,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NtlmClient)
-namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2;
-}
-namespace System::Net {
-class WebRequest;
-}
-namespace System::Net {
-class IAuthenticationModule;
-}
-namespace System::Net {
-class HttpWebRequest;
-}
 namespace System::Net {
 class ICredentials;
 }
@@ -26,8 +14,20 @@ class NtlmSession;
 namespace System::Net {
 class Authorization;
 }
+namespace System::Net {
+class HttpWebRequest;
+}
 namespace Mono::Http {
 class __NtlmClient____c;
+}
+namespace System::Net {
+class WebRequest;
+}
+namespace System::Net {
+class IAuthenticationModule;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TKey, typename TValue> class ConditionalWeakTable_2;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class __ConditionalWeakTable_2__CreateValueCallback;
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::Mono::Http::__NtlmClient____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8851))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7688))
 // CS Name: ::NtlmClient::<>c*
 class CORDL_TYPE __NtlmClient____c : public ::System::Object {
 public:
@@ -70,10 +70,10 @@ public:
 
   static inline ::Mono::Http::__NtlmClient____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x282682c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26ab81c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Authenticate>b__1_0 addr 0x2826834 size 0x5c virtual false final false
+  /// @brief Method <Authenticate>b__1_0 addr 0x26ab824 size 0x5c virtual false final false
   inline ::Mono::Http::NtlmSession* _Authenticate_b__1_0(::System::Net::HttpWebRequest* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NtlmClient____c", modifiers: "&&", def_value: None }]
@@ -100,8 +100,8 @@ static_assert(::cordl_internals::size_check_v<::Mono::Http::__NtlmClient____c, 0
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8852))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7689))
 // CS Name: ::Mono.Http::NtlmClient*
 class CORDL_TYPE NtlmClient : public ::System::Object {
 public:
@@ -121,18 +121,18 @@ public:
 
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>* getStaticF_cache();
 
-  /// @brief Method Authenticate addr 0x2826368 size 0x384 virtual true final true
+  /// @brief Method Authenticate addr 0x26ab358 size 0x384 virtual true final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method PreAuthenticate addr 0x28266ec size 0x8 virtual true final true
+  /// @brief Method PreAuthenticate addr 0x26ab6dc size 0x8 virtual true final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method get_AuthenticationType addr 0x28266f4 size 0x40 virtual true final true
+  /// @brief Method get_AuthenticationType addr 0x26ab6e4 size 0x40 virtual true final true
   inline ::StringW get_AuthenticationType();
 
   static inline ::Mono::Http::NtlmClient* New_ctor();
 
-  /// @brief Method .ctor addr 0x2826734 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26ab724 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NtlmClient", modifiers: "&&", def_value: None }]

@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerMissionStatsData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4633))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4747))
 // CS Name: ::PlayerMissionStatsData*
 class CORDL_TYPE PlayerMissionStatsData : public ::System::Object {
 public:
@@ -43,18 +43,18 @@ public:
 
   constexpr void __set__cleared(bool value);
 
-  /// @brief Method get_missionId addr 0x23727ac size 0x8 virtual false final false
+  /// @brief Method get_missionId addr 0x223c1cc size 0x8 virtual false final false
   inline ::StringW get_missionId();
 
-  /// @brief Method get_cleared addr 0x23727b4 size 0x8 virtual false final false
+  /// @brief Method get_cleared addr 0x223c1d4 size 0x8 virtual false final false
   inline bool get_cleared();
 
-  /// @brief Method set_cleared addr 0x23727bc size 0xc virtual false final false
+  /// @brief Method set_cleared addr 0x223c1dc size 0xc virtual false final false
   inline void set_cleared(bool value);
 
   static inline ::GlobalNamespace::PlayerMissionStatsData* New_ctor(::StringW missionId, bool cleared);
 
-  /// @brief Method .ctor addr 0x23727c8 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x223b1b4 size 0x30 virtual false final false
   inline void _ctor(::StringW missionId, bool cleared);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerMissionStatsData", modifiers: "&&", def_value: None }]
@@ -81,6 +81,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerMissionStatsData, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerMissionStatsData, ____missionId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerMissionStatsData, ____cleared) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerMissionStatsData);

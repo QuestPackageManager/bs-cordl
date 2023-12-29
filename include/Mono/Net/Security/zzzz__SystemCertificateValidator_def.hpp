@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::Mono::Net::Security::SystemCertificateValidator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8984))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8846))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7821)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7683))
 // CS Name: ::Mono.Net.Security::SystemCertificateValidator*
 class CORDL_TYPE SystemCertificateValidator : public ::System::Object {
 public:
@@ -38,7 +38,7 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags getStaticF_s_flags();
 
-  /// @brief Method NeedsChain addr 0x2820cb8 size 0x8 virtual false final false
+  /// @brief Method NeedsChain addr 0x26a5cac size 0x8 virtual false final false
   static inline bool NeedsChain(::Mono::Security::Interface::MonoTlsSettings* settings);
 
   // Ctor Parameters [CppParam { name: "", ty: "SystemCertificateValidator", modifiers: "&&", def_value: None }]

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerCaptureEventBase_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPointerCaptureEventInternal_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
 /// @brief Convert operator to "::UnityEngine::UIElements::IPointerCaptureEventInternal"
 template <typename T> constexpr UnityEngine::UIElements::PointerCaptureEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerCaptureEventInternal*() noexcept {
   return static_cast<::UnityEngine::UIElements::IPointerCaptureEventInternal*>(static_cast<void*>(this));

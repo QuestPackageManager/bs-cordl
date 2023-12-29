@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9838))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9765))
 // CS Name: ::HoudiniEngineUnity::HEU_InputData*
 class CORDL_TYPE HEU_InputData : public ::System::Object {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_InputData* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c5274 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x206e8d8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputData", modifiers: "&&", def_value: None }]
@@ -58,6 +58,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputData, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputData, ____inputObject) == 0x10, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputData);

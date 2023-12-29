@@ -17,15 +17,15 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKPriority);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15113))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15217))
 // CS Name: ::LIV.SDK.Unity::SDKPriority
 struct CORDL_TYPE SDKPriority {
 public:
   // Declarations
-  /// @brief Method get_empty addr 0x2214d78 size 0xc virtual false final false
+  /// @brief Method get_empty addr 0x20b3e40 size 0xc virtual false final false
   static inline ::LIV::SDK::Unity::SDKPriority get_empty();
 
-  /// @brief Method ToString addr 0x2214d84 size 0x26c virtual true final false
+  /// @brief Method ToString addr 0x20b3e4c size 0x26c virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "pose", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "clipPlane", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "stage",
@@ -69,6 +69,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::SDKPriority, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKPriority, pose) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKPriority, clipPlane) == 0x1, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKPriority, stage) == 0x2, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKPriority, resolution) == 0x3, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKPriority, feature) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKPriority, nearFarAdjustment) == 0x5, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKPriority, groundPlane) == 0x6, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKPriority, reserved2) == 0x7, "Offset mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKPriority, "LIV.SDK.Unity", "SDKPriority");

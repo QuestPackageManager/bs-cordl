@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1063))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::KdfFeedbackParameters*
 class CORDL_TYPE KdfFeedbackParameters : public ::System::Object {
@@ -93,30 +93,30 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv,
                                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData, int32_t r, bool useCounter);
 
-  /// @brief Method .ctor addr 0xf373a0 size 0x170 virtual false final false
+  /// @brief Method .ctor addr 0xec21b4 size 0x170 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv, ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData, int32_t r, bool useCounter);
 
-  /// @brief Method CreateWithCounter addr 0xf37510 size 0xe0 virtual false final false
+  /// @brief Method CreateWithCounter addr 0xec2324 size 0xe0 virtual false final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters* CreateWithCounter(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv,
                                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData, int32_t r);
 
-  /// @brief Method CreateWithoutCounter addr 0xf375f0 size 0x98 virtual false final false
+  /// @brief Method CreateWithoutCounter addr 0xec2404 size 0x98 virtual false final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters* CreateWithoutCounter(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv,
                                                                                                      ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData);
 
-  /// @brief Method get_Ki addr 0xf37688 size 0x5c virtual false final false
+  /// @brief Method get_Ki addr 0xec249c size 0x5c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Ki();
 
-  /// @brief Method get_Iv addr 0xf376e4 size 0x5c virtual false final false
+  /// @brief Method get_Iv addr 0xec24f8 size 0x5c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Iv();
 
-  /// @brief Method get_UseCounter addr 0xf37740 size 0x8 virtual false final false
+  /// @brief Method get_UseCounter addr 0xec2554 size 0x8 virtual false final false
   inline bool get_UseCounter();
 
-  /// @brief Method get_R addr 0xf37748 size 0x8 virtual false final false
+  /// @brief Method get_R addr 0xec255c size 0x8 virtual false final false
   inline int32_t get_R();
 
-  /// @brief Method get_FixedInputData addr 0xf37750 size 0x5c virtual false final false
+  /// @brief Method get_FixedInputData addr 0xec2564 size 0x5c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_FixedInputData();
 
   // Ctor Parameters [CppParam { name: "", ty: "KdfFeedbackParameters", modifiers: "&&", def_value: None }]
@@ -152,6 +152,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters, ___ki) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters, ___iv) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters, ___useCounter) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters, ___r) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters, ___fixedInputData) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters);

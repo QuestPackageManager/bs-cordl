@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(IPlayableAsset)
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::Playables {
 struct Playable;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::Playables::IPlayableAsset);
 namespace UnityEngine::Playables {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10421))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10343))
 // CS Name: ::UnityEngine.Playables::IPlayableAsset*
 class CORDL_TYPE IPlayableAsset {
 public:

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::IntListSettingsController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16149))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5596))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5691))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5690))
 // CS Name: ::IntListSettingsController*
 class CORDL_TYPE IntListSettingsController : public ::GlobalNamespace::ListSettingsController {
 public:
@@ -53,27 +53,27 @@ public:
 
   constexpr void __set_valueChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_valueChangedEvent addr 0x22aac88 size 0xb0 virtual false final false
+  /// @brief Method add_valueChangedEvent addr 0x2165ba4 size 0xb0 virtual false final false
   inline void add_valueChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_valueChangedEvent addr 0x22aad38 size 0xb0 virtual false final false
+  /// @brief Method remove_valueChangedEvent addr 0x2165c54 size 0xb0 virtual false final false
   inline void remove_valueChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method InitValues addr 0x22aade8 size 0x20 virtual false final false
+  /// @brief Method InitValues addr 0x2165d04 size 0x48 virtual false final false
   inline void InitValues(int32_t numberOfElements, int32_t index);
 
-  /// @brief Method GetInitValues addr 0x22aae08 size 0x18 virtual true final false
+  /// @brief Method GetInitValues addr 0x2165d4c size 0x18 virtual true final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method ApplyValue addr 0x22aae20 size 0x20 virtual true final false
+  /// @brief Method ApplyValue addr 0x2165d64 size 0x20 virtual true final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method TextForValue addr 0x22aae40 size 0x1c virtual true final false
+  /// @brief Method TextForValue addr 0x2165d84 size 0x1c virtual true final false
   inline ::StringW TextForValue(int32_t idx);
 
   static inline ::GlobalNamespace::IntListSettingsController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22aae5c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2165da0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IntListSettingsController", modifiers: "&&", def_value: None }]
@@ -103,6 +103,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IntListSettingsController, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::IntListSettingsController, ____customNumberOfElements) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::IntListSettingsController, ____customIndex) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::IntListSettingsController, ___valueChangedEvent) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::IntListSettingsController);

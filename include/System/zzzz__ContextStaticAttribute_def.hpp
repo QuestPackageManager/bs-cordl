@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::ContextStaticAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2550))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2548))
 // CS Name: ::System::ContextStaticAttribute*
 class CORDL_TYPE ContextStaticAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::ContextStaticAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x25dc594 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x248066c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextStaticAttribute", modifiers: "&&", def_value: None }]

@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IJumpOffsetYProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4799))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4919))
 // CS Name: ::IJumpOffsetYProvider*
 class CORDL_TYPE IJumpOffsetYProvider {
 public:

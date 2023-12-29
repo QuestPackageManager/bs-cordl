@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleDataRef_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleDataRef_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 template <typename T> constexpr int32_t& UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>::__get_m_RefCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RefCount;

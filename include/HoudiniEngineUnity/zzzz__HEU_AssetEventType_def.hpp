@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HEU_AssetEventType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9594))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9521))
 // CS Name: ::HoudiniEngineUnity::HEU_AssetEventType
 struct CORDL_TYPE HEU_AssetEventType {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_AssetEventType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetEventType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_AssetEventType, "HoudiniEngineUnity", "HEU_AssetEventType");

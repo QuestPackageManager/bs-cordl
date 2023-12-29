@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(Evidence)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class TimeStampTokenEvidence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Object;
 }
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -63,24 +63,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Evidence* New_ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* tstEvidence);
 
-  /// @brief Method .ctor addr 0xe78118 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xe02f44 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* tstEvidence);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Evidence* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method .ctor addr 0xe78140 size 0xc8 virtual false final false
+  /// @brief Method .ctor addr 0xe02f6c size 0xc8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method GetInstance addr 0xe78208 size 0x168 virtual false final false
+  /// @brief Method GetInstance addr 0xe03034 size 0x168 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Evidence* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance addr 0xe78370 size 0x1c virtual false final false
+  /// @brief Method GetInstance addr 0xe0319c size 0x1c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Evidence* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method get_TstEvidence addr 0xe7838c size 0x8 virtual true final false
+  /// @brief Method get_TstEvidence addr 0xe031b8 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* get_TstEvidence();
 
-  /// @brief Method ToAsn1Object addr 0xe78394 size 0x94 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe031c0 size 0x94 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Evidence", modifiers: "&&", def_value: None }]
@@ -107,6 +107,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::Evidence, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::Evidence, ___tstEvidence) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::Evidence, ___otherEvidence) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::Evidence);

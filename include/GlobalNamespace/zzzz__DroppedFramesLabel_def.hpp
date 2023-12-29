@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DroppedFramesLabel);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14343))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13823))
 // CS Name: ::DroppedFramesLabel*
 class CORDL_TYPE DroppedFramesLabel : public ::UnityEngine::MonoBehaviour {
 public:
@@ -97,18 +97,18 @@ public:
 
   constexpr void __set__frameCountInInterval(int32_t value);
 
-  /// @brief Method Start addr 0x20f04bc size 0x74 virtual false final false
+  /// @brief Method Start addr 0x1f92e38 size 0x74 virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x20f0530 size 0x90 virtual false final false
+  /// @brief Method Update addr 0x1f92eac size 0x90 virtual false final false
   inline void Update();
 
-  /// @brief Method RefreshText addr 0x20f05c0 size 0x168 virtual false final false
+  /// @brief Method RefreshText addr 0x1f92f3c size 0x168 virtual false final false
   inline void RefreshText();
 
   static inline ::GlobalNamespace::DroppedFramesLabel* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f0728 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x1f930a4 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DroppedFramesLabel", modifiers: "&&", def_value: None }]
@@ -153,6 +153,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DroppedFramesLabel, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroppedFramesLabel, ____text) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroppedFramesLabel, ____expectedFrameRate) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroppedFramesLabel, ____resetInterval) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroppedFramesLabel, ____totalNumberOfDroppedFrames) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroppedFramesLabel, ____syncedFrameTime) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroppedFramesLabel, ____intervalTime) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroppedFramesLabel, ____maxFrameTimeInInterval) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroppedFramesLabel, ____frameCountInInterval) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DroppedFramesLabel);

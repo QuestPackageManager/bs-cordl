@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OptionsViewController)
 namespace GlobalNamespace {
-struct __OptionsViewController__OptionsButton;
-}
-namespace GlobalNamespace {
 class AppStaticSettingsSO;
 }
 namespace UnityEngine::UI {
 class Button;
+}
+namespace GlobalNamespace {
+struct __OptionsViewController__OptionsButton;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OptionsViewController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5754))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5825))
 // CS Name: ::OptionsViewController::OptionsButton
 struct CORDL_TYPE __OptionsViewController__OptionsButton {
 public:
@@ -79,13 +79,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OptionsViewController__OptionsButton, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OptionsViewController__OptionsButton, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OptionsViewController
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5755))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5826))
 // CS Name: ::OptionsViewController*
 class CORDL_TYPE OptionsViewController : public ::HMUI::ViewController {
 public:
@@ -137,27 +139,27 @@ public:
 
   constexpr void __set_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
 
-  /// @brief Method add_didFinishEvent addr 0x22da2f8 size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent addr 0x218fe98 size 0xb0 virtual false final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x22da3a8 size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent addr 0x218ff48 size 0xb0 virtual false final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
 
-  /// @brief Method DidActivate addr 0x22da458 size 0x190 virtual true final false
+  /// @brief Method DidActivate addr 0x218fff8 size 0x190 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::OptionsViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22da5e8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2190188 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__8_0 addr 0x22da5f0 size 0x20 virtual false final false
+  /// @brief Method <DidActivate>b__8_0 addr 0x2190190 size 0x20 virtual false final false
   inline void _DidActivate_b__8_0();
 
-  /// @brief Method <DidActivate>b__8_1 addr 0x22da610 size 0x20 virtual false final false
+  /// @brief Method <DidActivate>b__8_1 addr 0x21901b0 size 0x20 virtual false final false
   inline void _DidActivate_b__8_1();
 
-  /// @brief Method <DidActivate>b__8_2 addr 0x22da630 size 0x20 virtual false final false
+  /// @brief Method <DidActivate>b__8_2 addr 0x21901d0 size 0x20 virtual false final false
   inline void _DidActivate_b__8_2();
 
   // Ctor Parameters [CppParam { name: "", ty: "OptionsViewController", modifiers: "&&", def_value: None }]
@@ -193,6 +195,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OptionsViewController, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OptionsViewController, ____editAvatarButton) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OptionsViewController, ____playerOptionsButton) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OptionsViewController, ____settingsButton) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OptionsViewController, ____appStaticSettings) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OptionsViewController, ___didFinishEvent) == 0x90, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OptionsViewController__OptionsButton, "", "OptionsViewController/OptionsButton");

@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SonyVersion);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4604))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4693))
 // CS Name: ::SonyVersion::VersionFormat
 struct CORDL_TYPE __SonyVersion__VersionFormat {
 public:
@@ -75,13 +75,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyVersion__VersionFormat, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SonyVersion__VersionFormat, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SonyVersion
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4605))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4694))
 // CS Name: ::SonyVersion*
 class CORDL_TYPE SonyVersion : public ::System::Object {
 public:
@@ -110,24 +112,24 @@ public:
 
   constexpr void __set__minorVersion(uint32_t value);
 
-  /// @brief Method get_majorVersion addr 0x2369f5c size 0x8 virtual false final false
+  /// @brief Method get_majorVersion addr 0x2230028 size 0x8 virtual false final false
   inline uint32_t get_majorVersion();
 
-  /// @brief Method get_minorVersion addr 0x2369f64 size 0x8 virtual false final false
+  /// @brief Method get_minorVersion addr 0x2230030 size 0x8 virtual false final false
   inline uint32_t get_minorVersion();
 
   static inline ::GlobalNamespace::SonyVersion* New_ctor(uint32_t majorVersion, uint32_t minorVersion);
 
-  /// @brief Method .ctor addr 0x2369f6c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2230038 size 0x2c virtual false final false
   inline void _ctor(uint32_t majorVersion, uint32_t minorVersion);
 
-  /// @brief Method GetFromString addr 0x2369f98 size 0x550 virtual false final false
+  /// @brief Method GetFromString addr 0x2230064 size 0x550 virtual false final false
   static inline ::GlobalNamespace::SonyVersion* GetFromString(::StringW versionString);
 
-  /// @brief Method IsVersionFormatValid addr 0x236a4e8 size 0x90 virtual false final false
+  /// @brief Method IsVersionFormatValid addr 0x22305b4 size 0x90 virtual false final false
   static inline bool IsVersionFormatValid(::StringW versionString);
 
-  /// @brief Method Get addr 0x236a578 size 0x200 virtual false final false
+  /// @brief Method Get addr 0x2230644 size 0x200 virtual false final false
   inline ::StringW Get(::GlobalNamespace::__SonyVersion__VersionFormat format);
 
   // Ctor Parameters [CppParam { name: "", ty: "SonyVersion", modifiers: "&&", def_value: None }]
@@ -154,6 +156,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyVersion, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SonyVersion, ____majorVersion) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SonyVersion, ____minorVersion) == 0x14, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SonyVersion__VersionFormat, "", "SonyVersion/VersionFormat");

@@ -4,6 +4,9 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(SmimeCapability)
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
@@ -11,13 +14,10 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace System {
-class Object;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Smime {
@@ -101,24 +101,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapability* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x10746ec size 0x11c virtual false final false
+  /// @brief Method .ctor addr 0x10034a0 size 0x11c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapability* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capabilityID, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method .ctor addr 0x1074808 size 0x94 virtual false final false
+  /// @brief Method .ctor addr 0x10035bc size 0x94 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capabilityID, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method GetInstance addr 0x1073cf4 size 0x148 virtual false final false
+  /// @brief Method GetInstance addr 0x1002aa8 size 0x148 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapability* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_CapabilityID addr 0x107489c size 0x8 virtual false final false
+  /// @brief Method get_CapabilityID addr 0x1003650 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_CapabilityID();
 
-  /// @brief Method get_Parameters addr 0x10748a4 size 0x8 virtual false final false
+  /// @brief Method get_Parameters addr 0x1003658 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_Parameters();
 
-  /// @brief Method ToAsn1Object addr 0x10748ac size 0x148 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1003660 size 0x148 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SmimeCapability", modifiers: "&&", def_value: None }]
@@ -145,6 +145,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Smime::SmimeCapability, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Smime::SmimeCapability, ___capabilityID) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Smime::SmimeCapability, ___parameters) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Smime
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Smime::SmimeCapability);

@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6562))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6648))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IInputStateChangeMonitor*
 class CORDL_TYPE IInputStateChangeMonitor {
 public:

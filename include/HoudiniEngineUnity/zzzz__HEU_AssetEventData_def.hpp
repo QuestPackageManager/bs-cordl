@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "HoudiniEngineUnity/zzzz__HEU_AssetEventType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(HEU_AssetEventData)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetEventData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9594)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9595))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(9521))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9522))
 // CS Name: ::HoudiniEngineUnity::HEU_AssetEventData*
 class CORDL_TYPE HEU_AssetEventData : public ::System::Object {
 public:
@@ -69,7 +69,7 @@ public:
   static inline ::HoudiniEngineUnity::HEU_AssetEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful,
                                                                    ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
 
-  /// @brief Method .ctor addr 0x214e24c size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x1ff68b0 size 0x40 virtual false final false
   inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_AssetEventData", modifiers: "&&", def_value: None }]
@@ -102,6 +102,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_AssetEventData, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetEventData, ___Asset) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetEventData, ___CookSuccess) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetEventData, ___OutputObjects) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetEventData, ___EventType) == 0x28, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_AssetEventData);

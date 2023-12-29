@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::UnityEngine::Coroutine);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10191)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10233))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10119)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10160))
 // CS Name: ::UnityEngine::Coroutine*
 class CORDL_TYPE Coroutine : public ::UnityEngine::YieldInstruction {
 public:
@@ -33,13 +33,13 @@ public:
 
   static inline ::UnityEngine::Coroutine* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cd3678 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2b6cef8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Finalize addr 0x2cd3680 size 0xbc virtual true final false
+  /// @brief Method Finalize addr 0x2b6cf00 size 0xbc virtual true final false
   inline void Finalize();
 
-  /// @brief Method ReleaseCoroutine addr 0x2cd373c size 0x3c virtual false final false
+  /// @brief Method ReleaseCoroutine addr 0x2b6cfbc size 0x3c virtual false final false
   static inline void ReleaseCoroutine(void* ptr);
 
   // Ctor Parameters [CppParam { name: "", ty: "Coroutine", modifiers: "&&", def_value: None }]
@@ -63,6 +63,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Coroutine, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Coroutine, ___m_Ptr) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::Coroutine);

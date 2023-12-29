@@ -28,8 +28,8 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_VolumeInfo);
 // SizeInfo { instance_size: 104, native_size: 112, calculated_instance_size: 104, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9726)), TypeDefinitionIndex(TypeDefinitionIndex(9705)), TypeDefinitionIndex(TypeDefinitionIndex(9707))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9746))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9634)), TypeDefinitionIndex(TypeDefinitionIndex(9632)), TypeDefinitionIndex(TypeDefinitionIndex(9653))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9673))
 // CS Name: ::HoudiniEngineUnity::HAPI_VolumeInfo
 struct CORDL_TYPE HAPI_VolumeInfo {
 public:
@@ -100,6 +100,36 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_VolumeInfo, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, nameSH) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, type) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, xLength) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, yLength) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, zLength) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, minX) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, minY) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, minZ) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, tupleSize) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, storage) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, tileSize) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, transform) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, hasTaper) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, xTaper) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, yTaper) == 0x60, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_VolumeInfo, "HoudiniEngineUnity", "HAPI_VolumeInfo");

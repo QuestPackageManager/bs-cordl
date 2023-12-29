@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::OperationalStatus);
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9254))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8091))
 // CS Name: ::System.Net.NetworkInformation::OperationalStatus
 struct CORDL_TYPE OperationalStatus {
 public:
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::OperationalStatus, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::OperationalStatus, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::OperationalStatus, "System.Net.NetworkInformation", "OperationalStatus");

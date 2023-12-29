@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Text::EncoderExceptionFallbackBuffer);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2845))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2842))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2841))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2838))
 // CS Name: ::System.Text::EncoderExceptionFallbackBuffer*
 class CORDL_TYPE EncoderExceptionFallbackBuffer : public ::System::Text::EncoderFallbackBuffer {
 public:
@@ -25,22 +25,22 @@ public:
 
   static inline ::System::Text::EncoderExceptionFallbackBuffer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2633ad0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24d99c4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Fallback addr 0x2633b44 size 0xb4 virtual true final false
+  /// @brief Method Fallback addr 0x24d9a38 size 0xb4 virtual true final false
   inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  /// @brief Method Fallback addr 0x2633c28 size 0x260 virtual true final false
+  /// @brief Method Fallback addr 0x24d9b1c size 0x260 virtual true final false
   inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method GetNextChar addr 0x2634080 size 0x8 virtual true final false
+  /// @brief Method GetNextChar addr 0x24d9f74 size 0x8 virtual true final false
   inline char16_t GetNextChar();
 
-  /// @brief Method MovePrevious addr 0x2634088 size 0x8 virtual true final false
+  /// @brief Method MovePrevious addr 0x24d9f7c size 0x8 virtual true final false
   inline bool MovePrevious();
 
-  /// @brief Method get_Remaining addr 0x2634090 size 0x8 virtual true final false
+  /// @brief Method get_Remaining addr 0x24d9f84 size 0x8 virtual true final false
   inline int32_t get_Remaining();
 
   // Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallbackBuffer", modifiers: "&&", def_value: None }]

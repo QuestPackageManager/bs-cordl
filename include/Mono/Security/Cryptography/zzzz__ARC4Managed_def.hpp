@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ARC4Managed)
-namespace System {
-class IDisposable;
-}
 namespace System::Security::Cryptography {
 class ICryptoTransform;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace Mono::Security::Cryptography {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::ARC4Managed);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 91, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13798))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13787))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14069))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14058))
 // CS Name: ::Mono.Security.Cryptography::ARC4Managed*
 class CORDL_TYPE ARC4Managed : public ::Mono::Security::Cryptography::RC4 {
 public:
@@ -89,56 +89,56 @@ public:
 
   static inline ::Mono::Security::Cryptography::ARC4Managed* New_ctor();
 
-  /// @brief Method .ctor addr 0x24032b0 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x22a8fa0 size 0x80 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Finalize addr 0x24033ac size 0xa0 virtual true final false
+  /// @brief Method Finalize addr 0x22a909c size 0xa0 virtual true final false
   inline void Finalize();
 
-  /// @brief Method Dispose addr 0x240344c size 0xac virtual true final false
+  /// @brief Method Dispose addr 0x22a913c size 0xac virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method get_Key addr 0x24034f8 size 0x94 virtual true final false
+  /// @brief Method get_Key addr 0x22a91e8 size 0x94 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Key();
 
-  /// @brief Method set_Key addr 0x240358c size 0xd8 virtual true final false
+  /// @brief Method set_Key addr 0x22a927c size 0xd8 virtual true final false
   inline void set_Key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method CreateEncryptor addr 0x2403744 size 0x20 virtual true final false
+  /// @brief Method CreateEncryptor addr 0x22a9434 size 0x20 virtual true final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgvIV);
 
-  /// @brief Method CreateDecryptor addr 0x2403764 size 0x2c virtual true final false
+  /// @brief Method CreateDecryptor addr 0x22a9454 size 0x2c virtual true final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgvIV);
 
-  /// @brief Method GenerateIV addr 0x2403790 size 0x5c virtual true final false
+  /// @brief Method GenerateIV addr 0x22a9480 size 0x5c virtual true final false
   inline void GenerateIV();
 
-  /// @brief Method GenerateKey addr 0x24037ec size 0x20 virtual true final false
+  /// @brief Method GenerateKey addr 0x22a94dc size 0x20 virtual true final false
   inline void GenerateKey();
 
-  /// @brief Method get_CanTransformMultipleBlocks addr 0x240387c size 0x8 virtual true final true
+  /// @brief Method get_CanTransformMultipleBlocks addr 0x22a956c size 0x8 virtual true final true
   inline bool get_CanTransformMultipleBlocks();
 
-  /// @brief Method get_InputBlockSize addr 0x2403884 size 0x8 virtual true final true
+  /// @brief Method get_InputBlockSize addr 0x22a9574 size 0x8 virtual true final true
   inline int32_t get_InputBlockSize();
 
-  /// @brief Method get_OutputBlockSize addr 0x240388c size 0x8 virtual true final true
+  /// @brief Method get_OutputBlockSize addr 0x22a957c size 0x8 virtual true final true
   inline int32_t get_OutputBlockSize();
 
-  /// @brief Method KeySetup addr 0x2403664 size 0xe0 virtual false final false
+  /// @brief Method KeySetup addr 0x22a9354 size 0xe0 virtual false final false
   inline void KeySetup(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method CheckInput addr 0x2403894 size 0x154 virtual false final false
+  /// @brief Method CheckInput addr 0x22a9584 size 0x154 virtual false final false
   inline void CheckInput(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
-  /// @brief Method TransformBlock addr 0x24039e8 size 0x170 virtual true final true
+  /// @brief Method TransformBlock addr 0x22a96d8 size 0x170 virtual true final true
   inline int32_t TransformBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> outputBuffer, int32_t outputOffset);
 
-  /// @brief Method InternalTransformBlock addr 0x2403b58 size 0x130 virtual false final false
+  /// @brief Method InternalTransformBlock addr 0x22a9848 size 0x130 virtual false final false
   inline int32_t InternalTransformBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> outputBuffer,
                                         int32_t outputOffset);
 
-  /// @brief Method TransformFinalBlock addr 0x2403c88 size 0x9c virtual true final true
+  /// @brief Method TransformFinalBlock addr 0x22a9978 size 0x9c virtual true final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> TransformFinalBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
   // Ctor Parameters [CppParam { name: "", ty: "ARC4Managed", modifiers: "&&", def_value: None }]
@@ -174,6 +174,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Cryptography::ARC4Managed, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::ARC4Managed, ___key) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::ARC4Managed, ___state) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::ARC4Managed, ___x) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::ARC4Managed, ___y) == 0x59, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::ARC4Managed, ___m_disposed) == 0x5a, "Offset mismatch!");
 
 } // namespace Mono::Security::Cryptography
 NEED_NO_BOX(::Mono::Security::Cryptography::ARC4Managed);

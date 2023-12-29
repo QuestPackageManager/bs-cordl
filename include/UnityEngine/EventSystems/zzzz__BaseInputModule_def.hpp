@@ -7,31 +7,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseInputModule)
 namespace UnityEngine::EventSystems {
-struct MoveDirection;
-}
-namespace UnityEngine::EventSystems {
-class BaseInput;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::EventSystems {
 class EventSystem;
 }
 namespace UnityEngine::EventSystems {
-class AxisEventData;
+class BaseInput;
 }
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
 }
 namespace UnityEngine::EventSystems {
 class BaseEventData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::EventSystems {
+class AxisEventData;
+}
+namespace UnityEngine::EventSystems {
+struct MoveDirection;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::BaseInputModule);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13199))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13219))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13204))
 // CS Name: ::UnityEngine.EventSystems::BaseInputModule*
 class CORDL_TYPE BaseInputModule : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
@@ -120,78 +120,78 @@ public:
 
   constexpr void __set_m_DefaultInput(::UnityEngine::EventSystems::BaseInput* value);
 
-  /// @brief Method get_sendPointerHoverToParent addr 0x2d9a85c size 0x8 virtual false final false
+  /// @brief Method get_sendPointerHoverToParent addr 0x2c324ac size 0x8 virtual false final false
   inline bool get_sendPointerHoverToParent();
 
-  /// @brief Method set_sendPointerHoverToParent addr 0x2d9a864 size 0xc virtual false final false
+  /// @brief Method set_sendPointerHoverToParent addr 0x2c324b4 size 0xc virtual false final false
   inline void set_sendPointerHoverToParent(bool value);
 
-  /// @brief Method get_input addr 0x2d9a870 size 0x218 virtual false final false
+  /// @brief Method get_input addr 0x2c324c0 size 0x218 virtual false final false
   inline ::UnityEngine::EventSystems::BaseInput* get_input();
 
-  /// @brief Method get_inputOverride addr 0x2d9aa88 size 0x8 virtual false final false
+  /// @brief Method get_inputOverride addr 0x2c326d8 size 0x8 virtual false final false
   inline ::UnityEngine::EventSystems::BaseInput* get_inputOverride();
 
-  /// @brief Method set_inputOverride addr 0x2d9aa90 size 0x8 virtual false final false
+  /// @brief Method set_inputOverride addr 0x2c326e0 size 0x8 virtual false final false
   inline void set_inputOverride(::UnityEngine::EventSystems::BaseInput* value);
 
-  /// @brief Method get_eventSystem addr 0x2d9aa98 size 0x8 virtual false final false
+  /// @brief Method get_eventSystem addr 0x2c326e8 size 0x8 virtual false final false
   inline ::UnityEngine::EventSystems::EventSystem* get_eventSystem();
 
-  /// @brief Method OnEnable addr 0x2d9aaa0 size 0x58 virtual true final false
+  /// @brief Method OnEnable addr 0x2c326f0 size 0x58 virtual true final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2d9aaf8 size 0x18 virtual true final false
+  /// @brief Method OnDisable addr 0x2c32748 size 0x18 virtual true final false
   inline void OnDisable();
 
   /// @brief Method Process addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void Process();
 
-  /// @brief Method FindFirstRaycast addr 0x2d9ab10 size 0x114 virtual false final false
+  /// @brief Method FindFirstRaycast addr 0x2c32760 size 0x114 virtual false final false
   static inline ::UnityEngine::EventSystems::RaycastResult FindFirstRaycast(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* candidates);
 
-  /// @brief Method DetermineMoveDirection addr 0x2d9ac24 size 0x54 virtual false final false
+  /// @brief Method DetermineMoveDirection addr 0x2c32874 size 0x54 virtual false final false
   static inline ::UnityEngine::EventSystems::MoveDirection DetermineMoveDirection(float_t x, float_t y);
 
-  /// @brief Method DetermineMoveDirection addr 0x2d9ac78 size 0x50 virtual false final false
+  /// @brief Method DetermineMoveDirection addr 0x2c328c8 size 0x50 virtual false final false
   static inline ::UnityEngine::EventSystems::MoveDirection DetermineMoveDirection(float_t x, float_t y, float_t deadZone);
 
-  /// @brief Method FindCommonRoot addr 0x2d9acc8 size 0x174 virtual false final false
+  /// @brief Method FindCommonRoot addr 0x2c32918 size 0x174 virtual false final false
   static inline ::UnityEngine::GameObject* FindCommonRoot(::UnityEngine::GameObject* g1, ::UnityEngine::GameObject* g2);
 
-  /// @brief Method HandlePointerExitAndEnter addr 0x2d9ae3c size 0xa48 virtual false final false
+  /// @brief Method HandlePointerExitAndEnter addr 0x2c32a8c size 0xa48 virtual false final false
   inline void HandlePointerExitAndEnter(::UnityEngine::EventSystems::PointerEventData* currentPointerData, ::UnityEngine::GameObject* newEnterTarget);
 
-  /// @brief Method GetAxisEventData addr 0x2d9b884 size 0x100 virtual true final false
+  /// @brief Method GetAxisEventData addr 0x2c334d4 size 0x100 virtual true final false
   inline ::UnityEngine::EventSystems::AxisEventData* GetAxisEventData(float_t x, float_t y, float_t moveDeadZone);
 
-  /// @brief Method GetBaseEventData addr 0x2d9b984 size 0x84 virtual true final false
+  /// @brief Method GetBaseEventData addr 0x2c335d4 size 0x84 virtual true final false
   inline ::UnityEngine::EventSystems::BaseEventData* GetBaseEventData();
 
-  /// @brief Method IsPointerOverGameObject addr 0x2d9ba08 size 0x8 virtual true final false
+  /// @brief Method IsPointerOverGameObject addr 0x2c33658 size 0x8 virtual true final false
   inline bool IsPointerOverGameObject(int32_t pointerId);
 
-  /// @brief Method ShouldActivateModule addr 0x2d9ba10 size 0x40 virtual true final false
+  /// @brief Method ShouldActivateModule addr 0x2c33660 size 0x40 virtual true final false
   inline bool ShouldActivateModule();
 
-  /// @brief Method DeactivateModule addr 0x2d9ba50 size 0x4 virtual true final false
+  /// @brief Method DeactivateModule addr 0x2c336a0 size 0x4 virtual true final false
   inline void DeactivateModule();
 
-  /// @brief Method ActivateModule addr 0x2d9ba54 size 0x4 virtual true final false
+  /// @brief Method ActivateModule addr 0x2c336a4 size 0x4 virtual true final false
   inline void ActivateModule();
 
-  /// @brief Method UpdateModule addr 0x2d9ba58 size 0x4 virtual true final false
+  /// @brief Method UpdateModule addr 0x2c336a8 size 0x4 virtual true final false
   inline void UpdateModule();
 
-  /// @brief Method IsModuleSupported addr 0x2d9ba5c size 0x8 virtual true final false
+  /// @brief Method IsModuleSupported addr 0x2c336ac size 0x8 virtual true final false
   inline bool IsModuleSupported();
 
-  /// @brief Method ConvertUIToolkitPointerId addr 0x2d9ba64 size 0x7c virtual true final false
+  /// @brief Method ConvertUIToolkitPointerId addr 0x2c336b4 size 0x7c virtual true final false
   inline int32_t ConvertUIToolkitPointerId(::UnityEngine::EventSystems::PointerEventData* sourcePointerData);
 
   static inline ::UnityEngine::EventSystems::BaseInputModule* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d9bae0 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x2c33730 size 0x84 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseInputModule", modifiers: "&&", def_value: None }]
@@ -233,6 +233,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::BaseInputModule, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::BaseInputModule, ___m_RaycastResultCache) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::BaseInputModule, ___m_SendPointerHoverToParent) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::BaseInputModule, ___m_AxisEventData) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::BaseInputModule, ___m_EventSystem) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::BaseInputModule, ___m_BaseEventData) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::BaseInputModule, ___m_InputOverride) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::BaseInputModule, ___m_DefaultInput) == 0x48, "Offset mismatch!");
 
 } // namespace UnityEngine::EventSystems
 NEED_NO_BOX(::UnityEngine::EventSystems::BaseInputModule);

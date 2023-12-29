@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleDataRef_1)
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class __StyleDataRef_1__RefCounted;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -32,8 +32,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7314))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7400))
 // CS Name: ::StyleDataRef`1::RefCounted<T>*
 class CORDL_TYPE __StyleDataRef_1__RefCounted : public ::System::Object {
 public:
@@ -125,7 +125,7 @@ namespace UnityEngine::UIElements {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7315))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7401))
 // CS Name: ::UnityEngine.UIElements::StyleDataRef`1<T>
 struct CORDL_TYPE StyleDataRef_1 {
 public:

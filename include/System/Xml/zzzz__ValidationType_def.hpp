@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::ValidationType);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11445))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11373))
 // CS Name: ::System.Xml::ValidationType
 struct CORDL_TYPE ValidationType {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::ValidationType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::ValidationType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::ValidationType, "System.Xml", "ValidationType");

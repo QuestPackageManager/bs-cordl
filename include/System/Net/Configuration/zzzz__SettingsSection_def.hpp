@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Net::Configuration::SettingsSection);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16258))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9575))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16081))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8411))
 // CS Name: ::System.Net.Configuration::SettingsSection*
 class CORDL_TYPE SettingsSection : public ::System::Configuration::ConfigurationSection {
 public:
@@ -27,10 +27,10 @@ public:
 
   static inline ::System::Net::Configuration::SettingsSection* New_ctor();
 
-  /// @brief Method .ctor addr 0x2944f84 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x27c6e64 size 0x38 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_Properties addr 0x2944fbc size 0x38 virtual true final false
+  /// @brief Method get_Properties addr 0x27c6e9c size 0x38 virtual true final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
   // Ctor Parameters [CppParam { name: "", ty: "SettingsSection", modifiers: "&&", def_value: None }]

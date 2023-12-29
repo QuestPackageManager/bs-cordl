@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ComponentModel::ListChangedType);
 namespace System::ComponentModel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9441))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8278))
 // CS Name: ::System.ComponentModel::ListChangedType
 struct CORDL_TYPE ListChangedType {
 public:
@@ -81,6 +81,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::ListChangedType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::ListChangedType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ListChangedType, "System.ComponentModel", "ListChangedType");

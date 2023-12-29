@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TrackLaneRingsRotationEffect)
 namespace GlobalNamespace {
-class __TrackLaneRingsRotationEffect__RingRotationEffect;
+class TrackLaneRingsManager;
 }
 namespace GlobalNamespace {
-class TrackLaneRingsManager;
+class __TrackLaneRingsRotationEffect__RingRotationEffect;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEf
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5006))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5111))
 // CS Name: ::TrackLaneRingsRotationEffect::RingRotationEffect*
 class CORDL_TYPE __TrackLaneRingsRotationEffect__RingRotationEffect : public ::System::Object {
 public:
@@ -83,7 +83,7 @@ public:
 
   static inline ::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x23b8300 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x227f494 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TrackLaneRingsRotationEffect__RingRotationEffect", modifiers: "&&", def_value: None }]
@@ -120,13 +120,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect, ___rotationAngle) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect, ___rotationStep) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect, ___rotationFlexySpeed) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect, ___rotationPropagationSpeed) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect, ___progressPos) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::TrackLaneRingsRotationEffect
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5007))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5112))
 // CS Name: ::TrackLaneRingsRotationEffect*
 class CORDL_TYPE TrackLaneRingsRotationEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -210,33 +220,33 @@ public:
 
   constexpr void __set_ringRotationEffectsToDelete(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method Awake addr 0x23b8180 size 0x180 virtual false final false
+  /// @brief Method Awake addr 0x227f314 size 0x180 virtual false final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x23b8308 size 0x10 virtual false final false
+  /// @brief Method Start addr 0x227f49c size 0x10 virtual false final false
   inline void Start();
 
-  /// @brief Method FixedUpdate addr 0x23b83fc size 0x164 virtual false final false
+  /// @brief Method FixedUpdate addr 0x227f590 size 0x164 virtual false final false
   inline void FixedUpdate();
 
-  /// @brief Method AddRingRotationEffect addr 0x23b8318 size 0xe4 virtual false final false
+  /// @brief Method AddRingRotationEffect addr 0x227f4ac size 0xe4 virtual false final false
   inline void AddRingRotationEffect(float_t angle, float_t step, int32_t propagationSpeed, float_t flexySpeed);
 
-  /// @brief Method GetFirstRingRotationAngle addr 0x23b86dc size 0x38 virtual false final false
+  /// @brief Method GetFirstRingRotationAngle addr 0x227f870 size 0x38 virtual false final false
   inline float_t GetFirstRingRotationAngle();
 
-  /// @brief Method GetFirstRingDestinationRotationAngle addr 0x23b8714 size 0x38 virtual false final false
+  /// @brief Method GetFirstRingDestinationRotationAngle addr 0x227f8a8 size 0x38 virtual false final false
   inline float_t GetFirstRingDestinationRotationAngle();
 
-  /// @brief Method SpawnRingRotationEffect addr 0x23b8608 size 0xd4 virtual false final false
+  /// @brief Method SpawnRingRotationEffect addr 0x227f79c size 0xd4 virtual false final false
   inline ::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect* SpawnRingRotationEffect();
 
-  /// @brief Method RecycleRingRotationEffect addr 0x23b8560 size 0xa8 virtual false final false
+  /// @brief Method RecycleRingRotationEffect addr 0x227f6f4 size 0xa8 virtual false final false
   inline void RecycleRingRotationEffect(::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect* ringRotationEffect);
 
   static inline ::GlobalNamespace::TrackLaneRingsRotationEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x23b874c size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x227f8e0 size 0x90 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsRotationEffect", modifiers: "&&", def_value: None }]
@@ -281,6 +291,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TrackLaneRingsRotationEffect, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffect, ____trackLaneRingsManager) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffect, ____startupRotationAngle) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffect, ____startupRotationStep) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffect, ____startupRotationPropagationSpeed) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffect, ____startupRotationFlexySpeed) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffect, ____activeRingRotationEffects) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffect, ____ringRotationEffectsPool) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffect, ___ringRotationEffectsToDelete) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TrackLaneRingsRotationEffect);

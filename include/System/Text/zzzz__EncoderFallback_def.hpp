@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Text::EncoderFallback);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2844))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2840))
 // CS Name: ::System.Text::EncoderFallback*
 class CORDL_TYPE EncoderFallback : public ::System::Object {
 public:
@@ -40,10 +40,10 @@ public:
 
   static inline ::System::Text::EncoderFallback* getStaticF_s_exceptionFallback();
 
-  /// @brief Method get_ReplacementFallback addr 0x262df10 size 0x9c virtual false final false
+  /// @brief Method get_ReplacementFallback addr 0x24d3e04 size 0x9c virtual false final false
   static inline ::System::Text::EncoderFallback* get_ReplacementFallback();
 
-  /// @brief Method get_ExceptionFallback addr 0x26340fc size 0xa0 virtual false final false
+  /// @brief Method get_ExceptionFallback addr 0x24d9ff0 size 0xa0 virtual false final false
   static inline ::System::Text::EncoderFallback* get_ExceptionFallback();
 
   /// @brief Method CreateFallbackBuffer addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -54,7 +54,7 @@ public:
 
   static inline ::System::Text::EncoderFallback* New_ctor();
 
-  /// @brief Method .ctor addr 0x26333d8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24d92cc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EncoderFallback", modifiers: "&&", def_value: None }]

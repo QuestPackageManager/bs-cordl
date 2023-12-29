@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ObjectMapIn
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3280))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3279))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ObjectMapInfo*
 class CORDL_TYPE ObjectMapInfo : public ::System::Object {
 public:
@@ -65,10 +65,10 @@ public:
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo* New_ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
                                                                                               ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
-  /// @brief Method .ctor addr 0x24c71dc size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x236e6e0 size 0x40 virtual false final false
   inline void _ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
-  /// @brief Method isCompatible addr 0x24c70a0 size 0x13c virtual false final false
+  /// @brief Method isCompatible addr 0x236e5a4 size 0x13c virtual false final false
   inline bool isCompatible(int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectMapInfo", modifiers: "&&", def_value: None }]
@@ -101,6 +101,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo, ___objectId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo, ___numMembers) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo, ___memberNames) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo, ___memberTypes) == 0x20, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo);

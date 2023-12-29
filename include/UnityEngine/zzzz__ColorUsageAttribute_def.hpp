@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::ColorUsageAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10180))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10098))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10108))
 // CS Name: ::UnityEngine::ColorUsageAttribute*
 class CORDL_TYPE ColorUsageAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -77,12 +77,12 @@ public:
 
   static inline ::UnityEngine::ColorUsageAttribute* New_ctor(bool showAlpha);
 
-  /// @brief Method .ctor addr 0x2ccc278 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x2b65d74 size 0x3c virtual false final false
   inline void _ctor(bool showAlpha);
 
   static inline ::UnityEngine::ColorUsageAttribute* New_ctor(bool showAlpha, bool hdr);
 
-  /// @brief Method .ctor addr 0x2ccc2b4 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x2b65db0 size 0x44 virtual false final false
   inline void _ctor(bool showAlpha, bool hdr);
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorUsageAttribute", modifiers: "&&", def_value: None }]
@@ -121,6 +121,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ColorUsageAttribute, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___showAlpha) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___hdr) == 0x11, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___minBrightness) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___maxBrightness) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___minExposureValue) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___maxExposureValue) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::ColorUsageAttribute);

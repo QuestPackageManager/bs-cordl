@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::CryptoStreamMode);
 namespace System::Security::Cryptography {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2914))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2910))
 // CS Name: ::System.Security.Cryptography::CryptoStreamMode
 struct CORDL_TYPE CryptoStreamMode {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::CryptoStreamMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::CryptoStreamMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::CryptoStreamMode, "System.Security.Cryptography", "CryptoStreamMode");

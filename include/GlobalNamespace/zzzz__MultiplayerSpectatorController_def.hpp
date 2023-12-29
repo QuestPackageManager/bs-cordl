@@ -7,28 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerSpectatorController)
 namespace GlobalNamespace {
-class MultiplayerLocalInactivePlayerSongSyncController;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
 class MultiplayerController;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace GlobalNamespace {
-class MultiplayerSpectatingSpotManager;
-}
-namespace GlobalNamespace {
-struct __MultiplayerController__State;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class IMultiplayerSpectatingSpot;
+class __MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18;
 }
 namespace GlobalNamespace {
 class __MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17;
@@ -37,16 +19,34 @@ namespace GlobalNamespace {
 class FadeInOutController;
 }
 namespace GlobalNamespace {
-class __MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18;
+class MultiplayerSpectatingSpotManager;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+struct __MultiplayerController__State;
+}
+namespace GlobalNamespace {
+class IMultiplayerSpectatingSpot;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalInactivePlayerSongSyncController;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -66,8 +66,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDef
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5263))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5358))
 // CS Name: ::MultiplayerSpectatorController::<SwitchToDefaultSpotWithFadeCoroutine>d__17*
 class CORDL_TYPE __MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17 : public ::System::Object {
 public:
@@ -123,22 +123,22 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x225ed44 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x211abac size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x225edc8 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x211ac30 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x225edcc size 0xf0 virtual true final true
+  /// @brief Method MoveNext addr 0x211ac34 size 0xf0 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x225eebc size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x211ad24 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x225eec4 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x211ad2c size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x225ef04 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x211ad6c size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17", modifiers: "&&", def_value: None }]
@@ -172,13 +172,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17, ____defaultSpot_5__2) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<SwitchToDefaultSpotCoroutine>d__18
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5264))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5359))
 // CS Name: ::MultiplayerSpectatorController::<SwitchToDefaultSpotCoroutine>d__18*
 class CORDL_TYPE __MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18 : public ::System::Object {
 public:
@@ -225,22 +233,22 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x225ed6c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x211abd4 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x225ef0c size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x211ad74 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x225ef10 size 0x60 virtual true final true
+  /// @brief Method MoveNext addr 0x211ad78 size 0x60 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x225ef70 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x211add8 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x225ef78 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x211ade0 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x225efb8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x211ae20 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18", modifiers: "&&", def_value: None }]
@@ -271,13 +279,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18, _____4__this) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MultiplayerSpectatorController
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5265))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5360))
 // CS Name: ::MultiplayerSpectatorController*
 class CORDL_TYPE MultiplayerSpectatorController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -352,48 +366,48 @@ public:
 
   constexpr void __set__currentSpot(::GlobalNamespace::IMultiplayerSpectatingSpot* value);
 
-  /// @brief Method add_spectatingSpotDidChangeEvent addr 0x225e6b4 size 0xb0 virtual false final false
+  /// @brief Method add_spectatingSpotDidChangeEvent addr 0x211a51c size 0xb0 virtual false final false
   inline void add_spectatingSpotDidChangeEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
-  /// @brief Method remove_spectatingSpotDidChangeEvent addr 0x225e764 size 0xb0 virtual false final false
+  /// @brief Method remove_spectatingSpotDidChangeEvent addr 0x211a5cc size 0xb0 virtual false final false
   inline void remove_spectatingSpotDidChangeEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
-  /// @brief Method get_currentSpot addr 0x225e814 size 0x8 virtual false final false
+  /// @brief Method get_currentSpot addr 0x211a67c size 0x8 virtual false final false
   inline ::GlobalNamespace::IMultiplayerSpectatingSpot* get_currentSpot();
 
-  /// @brief Method Awake addr 0x225e81c size 0x1c virtual false final false
+  /// @brief Method Awake addr 0x211a684 size 0x1c virtual false final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x225e838 size 0x8c virtual false final false
+  /// @brief Method Start addr 0x211a6a0 size 0x8c virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x225e8c4 size 0xd4 virtual false final false
+  /// @brief Method OnDestroy addr 0x211a72c size 0xd4 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method SwitchToDefaultSpot addr 0x225e998 size 0x20 virtual false final false
+  /// @brief Method SwitchToDefaultSpot addr 0x211a800 size 0x20 virtual false final false
   inline void SwitchToDefaultSpot();
 
-  /// @brief Method SwitchToPrev addr 0x225ea20 size 0x3c virtual false final false
+  /// @brief Method SwitchToPrev addr 0x211a888 size 0x3c virtual false final false
   inline void SwitchToPrev();
 
-  /// @brief Method SwitchToNext addr 0x225eca0 size 0x3c virtual false final false
+  /// @brief Method SwitchToNext addr 0x211ab08 size 0x3c virtual false final false
   inline void SwitchToNext();
 
-  /// @brief Method SwitchToDefaultSpotWithFadeCoroutine addr 0x225ecdc size 0x68 virtual false final false
+  /// @brief Method SwitchToDefaultSpotWithFadeCoroutine addr 0x211ab44 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* SwitchToDefaultSpotWithFadeCoroutine();
 
-  /// @brief Method SwitchToDefaultSpotCoroutine addr 0x225e9b8 size 0x68 virtual false final false
+  /// @brief Method SwitchToDefaultSpotCoroutine addr 0x211a820 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* SwitchToDefaultSpotCoroutine();
 
-  /// @brief Method SwitchToSpectatingSpot addr 0x225ea5c size 0x244 virtual false final false
+  /// @brief Method SwitchToSpectatingSpot addr 0x211a8c4 size 0x244 virtual false final false
   inline void SwitchToSpectatingSpot(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
 
-  /// @brief Method HandleStateChanged addr 0x225ed94 size 0x2c virtual false final false
+  /// @brief Method HandleStateChanged addr 0x211abfc size 0x2c virtual false final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
   static inline ::GlobalNamespace::MultiplayerSpectatorController* New_ctor();
 
-  /// @brief Method .ctor addr 0x225edc0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x211ac28 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatorController", modifiers: "&&", def_value: None }]
@@ -435,6 +449,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerSpectatorController, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSpectatorController, ____spotManager) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSpectatorController, ____songController) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSpectatorController, ____multiplayerController) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSpectatorController, ____fadeInOutController) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSpectatorController, ___spectatingSpotDidChangeEvent) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSpectatorController, ____transform) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSpectatorController, ____currentSpot) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerSpectatorController);

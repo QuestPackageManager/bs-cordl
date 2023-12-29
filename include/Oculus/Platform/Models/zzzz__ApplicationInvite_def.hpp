@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::ApplicationInvite);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13414))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13451))
 // CS Name: ::Oculus.Platform.Models::ApplicationInvite*
 class CORDL_TYPE ApplicationInvite : public ::System::Object {
 public:
@@ -102,7 +102,7 @@ public:
 
   static inline ::Oculus::Platform::Models::ApplicationInvite* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x2703ef8 size 0x1bc virtual false final false
+  /// @brief Method .ctor addr 0x25b0c14 size 0x1bc virtual false final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "ApplicationInvite", modifiers: "&&", def_value: None }]
@@ -147,6 +147,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::ApplicationInvite, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::ApplicationInvite, ___DestinationOptional) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::ApplicationInvite, ___Destination) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::ApplicationInvite, ____cordl_ID) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::ApplicationInvite, ___IsActive) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::ApplicationInvite, ___LobbySessionId) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::ApplicationInvite, ___MatchSessionId) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::ApplicationInvite, ___RecipientOptional) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::ApplicationInvite, ___Recipient) == 0x48, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::ApplicationInvite);

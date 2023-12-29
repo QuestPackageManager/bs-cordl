@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::ExceptionType);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11546))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11474))
 // CS Name: ::System.Xml::ExceptionType
 struct CORDL_TYPE ExceptionType {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::ExceptionType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::ExceptionType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::ExceptionType, "System.Xml", "ExceptionType");

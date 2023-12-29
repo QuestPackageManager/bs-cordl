@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RC532Engine)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RC532Engine);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(857))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RC532Engine*
 class CORDL_TYPE RC532Engine : public ::System::Object {
@@ -79,46 +79,46 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RC532Engine* New_ctor();
 
-  /// @brief Method .ctor addr 0xedac2c size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0xe65a58 size 0x20 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName addr 0xedac4c size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xe65a78 size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay addr 0xedac8c size 0x8 virtual true final false
+  /// @brief Method get_IsPartialBlockOkay addr 0xe65ab8 size 0x8 virtual true final false
   inline bool get_IsPartialBlockOkay();
 
-  /// @brief Method GetBlockSize addr 0xedac94 size 0x8 virtual true final false
+  /// @brief Method GetBlockSize addr 0xe65ac0 size 0x8 virtual true final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method Init addr 0xedac9c size 0x234 virtual true final false
+  /// @brief Method Init addr 0xe65ac8 size 0x234 virtual true final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method ProcessBlock addr 0xedb120 size 0x24 virtual true final false
+  /// @brief Method ProcessBlock addr 0xe65f4c size 0x24 virtual true final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xedb360 size 0x4 virtual true final false
+  /// @brief Method Reset addr 0xe6618c size 0x4 virtual true final false
   inline void Reset();
 
-  /// @brief Method SetKey addr 0xedaed0 size 0x250 virtual false final false
+  /// @brief Method SetKey addr 0xe65cfc size 0x250 virtual false final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method EncryptBlock addr 0xedb250 size 0x110 virtual false final false
+  /// @brief Method EncryptBlock addr 0xe6607c size 0x110 virtual false final false
   inline int32_t EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method DecryptBlock addr 0xedb144 size 0x10c virtual false final false
+  /// @brief Method DecryptBlock addr 0xe65f70 size 0x10c virtual false final false
   inline int32_t DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method RotateLeft addr 0xedb364 size 0xc virtual false final false
+  /// @brief Method RotateLeft addr 0xe66190 size 0xc virtual false final false
   inline int32_t RotateLeft(int32_t x, int32_t y);
 
-  /// @brief Method RotateRight addr 0xedb460 size 0x8 virtual false final false
+  /// @brief Method RotateRight addr 0xe6628c size 0x8 virtual false final false
   inline int32_t RotateRight(int32_t x, int32_t y);
 
-  /// @brief Method BytesToWord addr 0xedb370 size 0x70 virtual false final false
+  /// @brief Method BytesToWord addr 0xe6619c size 0x70 virtual false final false
   inline int32_t BytesToWord(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t srcOff);
 
-  /// @brief Method WordToBytes addr 0xedb3e0 size 0x80 virtual false final false
+  /// @brief Method WordToBytes addr 0xe6620c size 0x80 virtual false final false
   inline void WordToBytes(int32_t word, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t dstOff);
 
   // Ctor Parameters [CppParam { name: "", ty: "RC532Engine", modifiers: "&&", def_value: None }]
@@ -148,6 +148,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::RC532Engine, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RC532Engine, ____noRounds) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RC532Engine, ____S) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RC532Engine, ___forEncryption) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::RC532Engine);

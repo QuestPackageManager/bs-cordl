@@ -17,43 +17,43 @@ MARK_REF_PTR_T(::System::DomainNameHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8888))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7725))
 // CS Name: ::System::DomainNameHelper*
 class CORDL_TYPE DomainNameHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ParseCanonicalName addr 0x294c158 size 0x1a0 virtual false final false
+  /// @brief Method ParseCanonicalName addr 0x27cf038 size 0x1a0 virtual false final false
   static inline ::StringW ParseCanonicalName(::StringW str, int32_t start, int32_t end, ByRef<bool> loopback);
 
-  /// @brief Method IsValid addr 0x294c2f8 size 0x17c virtual false final false
+  /// @brief Method IsValid addr 0x27cf1d8 size 0x17c virtual false final false
   static inline bool IsValid(::cordl_internals::Ptr<char16_t> name, uint16_t pos, ByRef<int32_t> returnedEnd, ByRef<bool> notCanonical, bool notImplicitFile);
 
-  /// @brief Method IsValidByIri addr 0x294c524 size 0x1e8 virtual false final false
+  /// @brief Method IsValidByIri addr 0x27cf404 size 0x1e8 virtual false final false
   static inline bool IsValidByIri(::cordl_internals::Ptr<char16_t> name, uint16_t pos, ByRef<int32_t> returnedEnd, ByRef<bool> notCanonical, bool notImplicitFile);
 
-  /// @brief Method IdnEquivalent addr 0x294c70c size 0x27c virtual false final false
+  /// @brief Method IdnEquivalent addr 0x27cf5ec size 0x27c virtual false final false
   static inline ::StringW IdnEquivalent(::cordl_internals::Ptr<char16_t> hostname, int32_t start, int32_t end, ByRef<bool> allAscii, ByRef<bool> atLeastOneValidIdn);
 
-  /// @brief Method IdnEquivalent addr 0x294c988 size 0x1f4 virtual false final false
+  /// @brief Method IdnEquivalent addr 0x27cf868 size 0x1f4 virtual false final false
   static inline ::StringW IdnEquivalent(::cordl_internals::Ptr<char16_t> hostname, int32_t start, int32_t end, ByRef<bool> allAscii, ByRef<::StringW> bidiStrippedHost);
 
-  /// @brief Method IsIdnAce addr 0x294cbc8 size 0x98 virtual false final false
+  /// @brief Method IsIdnAce addr 0x27cfaa8 size 0x98 virtual false final false
   static inline bool IsIdnAce(::StringW input, int32_t index);
 
-  /// @brief Method IsIdnAce addr 0x294cb7c size 0x4c virtual false final false
+  /// @brief Method IsIdnAce addr 0x27cfa5c size 0x4c virtual false final false
   static inline bool IsIdnAce(::cordl_internals::Ptr<char16_t> input, int32_t index);
 
-  /// @brief Method UnicodeEquivalent addr 0x294cc60 size 0x11c virtual false final false
+  /// @brief Method UnicodeEquivalent addr 0x27cfb40 size 0x11c virtual false final false
   static inline ::StringW UnicodeEquivalent(::StringW idnHost, ::cordl_internals::Ptr<char16_t> hostname, int32_t start, int32_t end);
 
-  /// @brief Method UnicodeEquivalent addr 0x294cd7c size 0x458 virtual false final false
+  /// @brief Method UnicodeEquivalent addr 0x27cfc5c size 0x458 virtual false final false
   static inline ::StringW UnicodeEquivalent(::cordl_internals::Ptr<char16_t> hostname, int32_t start, int32_t end, ByRef<bool> allAscii, ByRef<bool> atLeastOneValidIdn);
 
-  /// @brief Method IsASCIILetterOrDigit addr 0x294c474 size 0x4c virtual false final false
+  /// @brief Method IsASCIILetterOrDigit addr 0x27cf354 size 0x4c virtual false final false
   static inline bool IsASCIILetterOrDigit(char16_t character, ByRef<bool> notCanonical);
 
-  /// @brief Method IsValidDomainLabelCharacter addr 0x294c4c0 size 0x64 virtual false final false
+  /// @brief Method IsValidDomainLabelCharacter addr 0x27cf3a0 size 0x64 virtual false final false
   static inline bool IsValidDomainLabelCharacter(char16_t character, ByRef<bool> notCanonical);
 
   // Ctor Parameters [CppParam { name: "", ty: "DomainNameHelper", modifiers: "&&", def_value: None }]

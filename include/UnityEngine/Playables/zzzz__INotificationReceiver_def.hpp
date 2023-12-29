@@ -3,14 +3,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(INotificationReceiver)
+namespace System {
+class Object;
+}
 namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
 class INotification;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::Playables::INotificationReceiver);
 namespace UnityEngine::Playables {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10437))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10359))
 // CS Name: ::UnityEngine.Playables::INotificationReceiver*
 class CORDL_TYPE INotificationReceiver {
 public:

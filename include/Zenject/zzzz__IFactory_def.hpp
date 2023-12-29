@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Zenject::IFactory);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10982))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10910))
 // CS Name: ::Zenject::IFactory*
 class CORDL_TYPE IFactory {
 public:

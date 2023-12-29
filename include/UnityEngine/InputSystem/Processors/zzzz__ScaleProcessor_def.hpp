@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::ScaleProcessor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(6236))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6590))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6322)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6322), inst: 387 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6676))
 // CS Name: ::UnityEngine.InputSystem.Processors::ScaleProcessor*
 class CORDL_TYPE ScaleProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
@@ -34,15 +34,15 @@ public:
 
   constexpr void __set_factor(float_t value);
 
-  /// @brief Method Process addr 0x2af9b0c size 0xc virtual true final false
+  /// @brief Method Process addr 0x2978db8 size 0xc virtual true final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString addr 0x2af9b18 size 0x84 virtual true final false
+  /// @brief Method ToString addr 0x2978dc4 size 0x84 virtual true final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::InputSystem::Processors::ScaleProcessor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2af9b9c size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x2978e48 size 0x50 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScaleProcessor", modifiers: "&&", def_value: None }]
@@ -66,6 +66,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Processors::ScaleProcessor, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Processors::ScaleProcessor, ___factor) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Processors
 NEED_NO_BOX(::UnityEngine::InputSystem::Processors::ScaleProcessor);

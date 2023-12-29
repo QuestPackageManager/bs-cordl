@@ -21,18 +21,18 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetPr
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14019))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14008))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14290))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14279))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::JsonAssetProvider*
 class CORDL_TYPE JsonAssetProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider {
 public:
   // Declarations
-  /// @brief Method Convert addr 0x2bd7734 size 0xc virtual true final false
+  /// @brief Method Convert addr 0x2a549e0 size 0xc virtual true final false
   inline ::System::Object* Convert(::System::Type* type, ::StringW text);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bd7740 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a549ec size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonAssetProvider", modifiers: "&&", def_value: None }]

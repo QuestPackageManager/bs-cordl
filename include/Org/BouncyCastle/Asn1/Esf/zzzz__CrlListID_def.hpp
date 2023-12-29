@@ -11,14 +11,14 @@ class Asn1Object;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1::Esf {
+class CrlValidatedID;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace Org::BouncyCastle::Asn1::Esf {
-class CrlValidatedID;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -45,28 +45,28 @@ public:
 
   constexpr void __set_crls(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0xe91a00 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xe1c82c size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlListID* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlListID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe91b88 size 0x480 virtual false final false
+  /// @brief Method .ctor addr 0xe1c9b4 size 0x480 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlListID* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*, ::Array<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*>*> crls);
 
-  /// @brief Method .ctor addr 0xe92190 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0xe1cfbc size 0xc4 virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*, ::Array<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*>*> crls);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlListID* New_ctor(::System::Collections::IEnumerable* crls);
 
-  /// @brief Method .ctor addr 0xe92254 size 0x1a4 virtual false final false
+  /// @brief Method .ctor addr 0xe1d080 size 0x1a4 virtual false final false
   inline void _ctor(::System::Collections::IEnumerable* crls);
 
-  /// @brief Method GetCrls addr 0xe923f8 size 0x120 virtual false final false
+  /// @brief Method GetCrls addr 0xe1d224 size 0x120 virtual false final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*, ::Array<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*>*> GetCrls();
 
-  /// @brief Method ToAsn1Object addr 0xe92518 size 0x68 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe1d344 size 0x68 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrlListID", modifiers: "&&", def_value: None }]
@@ -90,6 +90,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Esf::CrlListID, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Esf::CrlListID, ___crls) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Esf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Esf::CrlListID);

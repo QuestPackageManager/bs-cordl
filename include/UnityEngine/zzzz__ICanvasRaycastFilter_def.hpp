@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::ICanvasRaycastFilter);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15665))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15771))
 // CS Name: ::UnityEngine::ICanvasRaycastFilter*
 class CORDL_TYPE ICanvasRaycastFilter {
 public:

@@ -13,19 +13,19 @@ namespace GlobalNamespace {
 class __ScoreModel__MaxScoreCounterElement;
 }
 namespace GlobalNamespace {
-struct __NoteData__ScoringType;
+class ScoreMultiplierCounter;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+struct __NoteData__ScoringType;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
-namespace GlobalNamespace {
-class ScoreMultiplierCounter;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 template <typename T> class IComparable_1;
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__ScoreModel__NoteScoreDefinition);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4680))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4801))
 // CS Name: ::ScoreModel::NoteScoreDefinition*
 class CORDL_TYPE __ScoreModel__NoteScoreDefinition : public ::System::Object {
 public:
@@ -112,16 +112,16 @@ public:
 
   constexpr void __set_fixedCutScore(int32_t value);
 
-  /// @brief Method get_maxCutScore addr 0x2375d98 size 0x1c virtual false final false
+  /// @brief Method get_maxCutScore addr 0x2241690 size 0x1c virtual false final false
   inline int32_t get_maxCutScore();
 
-  /// @brief Method get_executionOrder addr 0x237618c size 0x1c virtual false final false
+  /// @brief Method get_executionOrder addr 0x2241a84 size 0x1c virtual false final false
   inline int32_t get_executionOrder();
 
   static inline ::GlobalNamespace::__ScoreModel__NoteScoreDefinition* New_ctor(int32_t maxCenterDistanceCutScore, int32_t minBeforeCutScore, int32_t maxBeforeCutScore, int32_t minAfterCutScore,
                                                                                int32_t maxAfterCutScore, int32_t fixedCutScore);
 
-  /// @brief Method .ctor addr 0x2376138 size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x2241a30 size 0x54 virtual false final false
   inline void _ctor(int32_t maxCenterDistanceCutScore, int32_t minBeforeCutScore, int32_t maxBeforeCutScore, int32_t minAfterCutScore, int32_t maxAfterCutScore, int32_t fixedCutScore);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScoreModel__NoteScoreDefinition", modifiers: "&&", def_value: None }]
@@ -161,13 +161,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ScoreModel__NoteScoreDefinition, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ScoreModel__NoteScoreDefinition, ___maxCenterDistanceCutScore) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScoreModel__NoteScoreDefinition, ___minBeforeCutScore) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScoreModel__NoteScoreDefinition, ___maxBeforeCutScore) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScoreModel__NoteScoreDefinition, ___minAfterCutScore) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScoreModel__NoteScoreDefinition, ___maxAfterCutScore) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScoreModel__NoteScoreDefinition, ___fixedCutScore) == 0x24, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MaxScoreCounterElement
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4681))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4802))
 // CS Name: ::ScoreModel::MaxScoreCounterElement*
 class CORDL_TYPE __ScoreModel__MaxScoreCounterElement : public ::System::Object {
 public:
@@ -195,10 +207,10 @@ public:
 
   static inline ::GlobalNamespace::__ScoreModel__MaxScoreCounterElement* New_ctor(::GlobalNamespace::__NoteData__ScoringType scoringType, float_t time);
 
-  /// @brief Method .ctor addr 0x2375d14 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x224160c size 0x84 virtual false final false
   inline void _ctor(::GlobalNamespace::__NoteData__ScoringType scoringType, float_t time);
 
-  /// @brief Method CompareTo addr 0x23761a8 size 0x90 virtual true final true
+  /// @brief Method CompareTo addr 0x2241aa0 size 0x90 virtual true final true
   inline int32_t CompareTo(::GlobalNamespace::__ScoreModel__MaxScoreCounterElement* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScoreModel__MaxScoreCounterElement", modifiers: "&&", def_value: None }]
@@ -226,13 +238,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ScoreModel__MaxScoreCounterElement, ___noteScoreDefinition) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScoreModel__MaxScoreCounterElement, ___time) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ScoreModel
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4682))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4803))
 // CS Name: ::ScoreModel*
 class CORDL_TYPE ScoreModel : public ::System::Object {
 public:
@@ -266,18 +282,18 @@ public:
 
   static inline ::GlobalNamespace::ScoreMultiplierCounter* getStaticF__scoreMultiplierCounter();
 
-  /// @brief Method GetNoteScoreDefinition addr 0x237522c size 0x80 virtual false final false
+  /// @brief Method GetNoteScoreDefinition addr 0x2240b24 size 0x80 virtual false final false
   static inline ::GlobalNamespace::__ScoreModel__NoteScoreDefinition* GetNoteScoreDefinition(::GlobalNamespace::__NoteData__ScoringType scoringType);
 
-  /// @brief Method ComputeMaxMultipliedScoreForBeatmap addr 0x23752ac size 0xa68 virtual false final false
+  /// @brief Method ComputeMaxMultipliedScoreForBeatmap addr 0x2240ba4 size 0xa68 virtual false final false
   static inline int32_t ComputeMaxMultipliedScoreForBeatmap(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method GetModifiedScoreForGameplayModifiersScoreMultiplier addr 0x2375db4 size 0x74 virtual false final false
+  /// @brief Method GetModifiedScoreForGameplayModifiersScoreMultiplier addr 0x22416ac size 0x74 virtual false final false
   static inline int32_t GetModifiedScoreForGameplayModifiersScoreMultiplier(int32_t multipliedScore, float_t gameplayModifiersScoreMultiplier);
 
   static inline ::GlobalNamespace::ScoreModel* New_ctor();
 
-  /// @brief Method .ctor addr 0x2375e28 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2241720 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScoreModel", modifiers: "&&", def_value: None }]

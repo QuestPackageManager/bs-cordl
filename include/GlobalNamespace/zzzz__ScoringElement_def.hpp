@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoringElement)
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-struct __ScoreMultiplierCounter__MultiplierEventType;
-}
 namespace System {
 template <typename T> class IComparable_1;
 }
 namespace GlobalNamespace {
 template <typename T> class __ScoringElement__Pool_1;
+}
+namespace GlobalNamespace {
+struct __ScoreMultiplierCounter__MultiplierEventType;
+}
+namespace GlobalNamespace {
+class NoteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,8 +35,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11038)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11038), inst: 2757 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5322))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10966)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10966), inst: 2697 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5417))
 // CS Name: ::ScoringElement::Pool`1<T>*
 class CORDL_TYPE __ScoringElement__Pool_1 : public ::Zenject::MemoryPool_1<T> {
 public:
@@ -71,8 +71,8 @@ public:
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5323))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5418))
 // CS Name: ::ScoringElement*
 class CORDL_TYPE ScoringElement : public ::System::Object {
 public:
@@ -138,28 +138,28 @@ public:
 
   constexpr void __set__isFinished_k__BackingField(bool value);
 
-  /// @brief Method get_noteData addr 0x2267ddc size 0x8 virtual false final false
+  /// @brief Method get_noteData addr 0x2123ca0 size 0x8 virtual false final false
   inline ::GlobalNamespace::NoteData* get_noteData();
 
-  /// @brief Method set_noteData addr 0x2267de4 size 0x8 virtual false final false
+  /// @brief Method set_noteData addr 0x2123ca8 size 0x8 virtual false final false
   inline void set_noteData(::GlobalNamespace::NoteData* value);
 
-  /// @brief Method get_maxPossibleCutScore addr 0x2267584 size 0x74 virtual false final false
+  /// @brief Method get_maxPossibleCutScore addr 0x21233b4 size 0x74 virtual false final false
   inline int32_t get_maxPossibleCutScore();
 
-  /// @brief Method get_time addr 0x22674b0 size 0x1c virtual false final false
+  /// @brief Method get_time addr 0x21232e0 size 0x1c virtual false final false
   inline float_t get_time();
 
-  /// @brief Method get_multiplier addr 0x2267dec size 0x8 virtual false final false
+  /// @brief Method get_multiplier addr 0x2123cb0 size 0x8 virtual false final false
   inline int32_t get_multiplier();
 
-  /// @brief Method set_multiplier addr 0x2267df4 size 0x8 virtual false final false
+  /// @brief Method set_multiplier addr 0x2123cb8 size 0x8 virtual false final false
   inline void set_multiplier(int32_t value);
 
-  /// @brief Method get_maxMultiplier addr 0x2267dfc size 0x8 virtual false final false
+  /// @brief Method get_maxMultiplier addr 0x2123cc0 size 0x8 virtual false final false
   inline int32_t get_maxMultiplier();
 
-  /// @brief Method set_maxMultiplier addr 0x2267e04 size 0x8 virtual false final false
+  /// @brief Method set_maxMultiplier addr 0x2123cc8 size 0x8 virtual false final false
   inline void set_maxMultiplier(int32_t value);
 
   /// @brief Method get_cutScore addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -171,27 +171,27 @@ public:
   /// @brief Method get_multiplierEventType addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_multiplierEventType();
 
-  /// @brief Method get_isFinished addr 0x2267e0c size 0x8 virtual false final false
+  /// @brief Method get_isFinished addr 0x2123cd0 size 0x8 virtual false final false
   inline bool get_isFinished();
 
-  /// @brief Method set_isFinished addr 0x2267e14 size 0xc virtual false final false
+  /// @brief Method set_isFinished addr 0x2123cd8 size 0xc virtual false final false
   inline void set_isFinished(bool value);
 
   /// @brief Method get_executionOrder addr 0x0 size 0xffffffffffffffff virtual true final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method CompareTo addr 0x2267e20 size 0x88 virtual true final true
+  /// @brief Method CompareTo addr 0x2123ce4 size 0x88 virtual true final true
   inline int32_t CompareTo(::GlobalNamespace::ScoringElement* other);
 
-  /// @brief Method SetMultipliers addr 0x2267568 size 0x8 virtual false final false
+  /// @brief Method SetMultipliers addr 0x2123398 size 0x8 virtual false final false
   inline void SetMultipliers(int32_t multiplier, int32_t maxMultiplier);
 
-  /// @brief Method Reinitialize addr 0x2267ea8 size 0x4 virtual true final false
+  /// @brief Method Reinitialize addr 0x2123d6c size 0x4 virtual true final false
   inline void Reinitialize();
 
   static inline ::GlobalNamespace::ScoringElement* New_ctor();
 
-  /// @brief Method .ctor addr 0x2267eac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2123d70 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScoringElement", modifiers: "&&", def_value: None }]
@@ -224,6 +224,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScoringElement, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScoringElement, ____noteData_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScoringElement, ____multiplier_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScoringElement, ____maxMultiplier_k__BackingField) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScoringElement, ____isFinished_k__BackingField) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ScoringElement);

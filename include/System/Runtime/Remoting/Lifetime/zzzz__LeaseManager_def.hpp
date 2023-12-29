@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LeaseManager)
 namespace System {
+class Object;
+}
+namespace System {
 struct TimeSpan;
 }
-namespace System::Collections {
-class ArrayList;
+namespace System::Threading {
+class Timer;
 }
 namespace System::Runtime::Remoting {
 class ServerIdentity;
 }
-namespace System {
-class Object;
-}
-namespace System::Threading {
-class Timer;
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Lifetime {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Lifetime::LeaseManager);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3094))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3093))
 // CS Name: ::System.Runtime.Remoting.Lifetime::LeaseManager*
 class CORDL_TYPE LeaseManager : public ::System::Object {
 public:
@@ -53,24 +53,24 @@ public:
 
   constexpr void __set__timer(::System::Threading::Timer* value);
 
-  /// @brief Method SetPollTime addr 0x249b658 size 0xf8 virtual false final false
+  /// @brief Method SetPollTime addr 0x2342b64 size 0xf8 virtual false final false
   inline void SetPollTime(::System::TimeSpan timeSpan);
 
-  /// @brief Method TrackLifetime addr 0x249b750 size 0x134 virtual false final false
+  /// @brief Method TrackLifetime addr 0x2342c5c size 0x134 virtual false final false
   inline void TrackLifetime(::System::Runtime::Remoting::ServerIdentity* identity);
 
-  /// @brief Method StartManager addr 0x249b884 size 0x160 virtual false final false
+  /// @brief Method StartManager addr 0x2342d90 size 0x160 virtual false final false
   inline void StartManager();
 
-  /// @brief Method StopManager addr 0x249b9e4 size 0x1c virtual false final false
+  /// @brief Method StopManager addr 0x2342ef0 size 0x1c virtual false final false
   inline void StopManager();
 
-  /// @brief Method ManageLeases addr 0x249ba00 size 0x264 virtual false final false
+  /// @brief Method ManageLeases addr 0x2342f0c size 0x264 virtual false final false
   inline void ManageLeases(::System::Object* state);
 
   static inline ::System::Runtime::Remoting::Lifetime::LeaseManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x249bc64 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x2343170 size 0x68 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaseManager", modifiers: "&&", def_value: None }]
@@ -97,6 +97,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Lifetime::LeaseManager, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Lifetime::LeaseManager, ____objects) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Lifetime::LeaseManager, ____timer) == 0x18, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Lifetime
 NEED_NO_BOX(::System::Runtime::Remoting::Lifetime::LeaseManager);

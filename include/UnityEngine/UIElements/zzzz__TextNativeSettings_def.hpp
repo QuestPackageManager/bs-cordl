@@ -11,16 +11,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextNativeSettings)
 namespace UnityEngine {
-struct FontStyle;
-}
-namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine {
 struct TextAnchor;
 }
 namespace UnityEngine {
+struct FontStyle;
+}
+namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+class Font;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -32,8 +32,8 @@ MARK_VAL_T(::UnityEngine::UIElements::TextNativeSettings);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15901))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15376))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15788)), TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(15793))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15406))
 // CS Name: ::UnityEngine.UIElements::TextNativeSettings
 struct CORDL_TYPE TextNativeSettings {
 public:
@@ -87,6 +87,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TextNativeSettings, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TextNativeSettings, text) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TextNativeSettings, font) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TextNativeSettings, size) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TextNativeSettings, scaling) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TextNativeSettings, style) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TextNativeSettings, color) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TextNativeSettings, anchor) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TextNativeSettings, wordWrap) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TextNativeSettings, wordWrapWidth) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TextNativeSettings, richText) == 0x38, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TextNativeSettings, "UnityEngine.UIElements", "TextNativeSettings");

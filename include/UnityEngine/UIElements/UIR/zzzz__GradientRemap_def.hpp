@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::GradientRemap);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7399)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 313 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7339)), TypeDefinitionIndex(TypeDefinitionIndex(10162))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7422)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7485)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7485), inst: 314 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10090)), TypeDefinitionIndex(TypeDefinitionIndex(7425))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7508)) CS Name:
 // ::UnityEngine.UIElements.UIR::GradientRemap*
 class CORDL_TYPE GradientRemap : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::GradientRemap*> {
 public:
@@ -68,12 +68,12 @@ public:
 
   constexpr void __set_atlas(::UnityEngine::UIElements::TextureId value);
 
-  /// @brief Method Reset addr 0x2dcd160 size 0x68 virtual false final false
+  /// @brief Method Reset addr 0x2c66db0 size 0x68 virtual false final false
   inline void Reset();
 
   static inline ::UnityEngine::UIElements::UIR::GradientRemap* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dcd104 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2c66d54 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GradientRemap", modifiers: "&&", def_value: None }]
@@ -109,6 +109,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::GradientRemap, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientRemap, ___origIndex) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientRemap, ___destIndex) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientRemap, ___location) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientRemap, ___next) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientRemap, ___atlas) == 0x38, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::GradientRemap);

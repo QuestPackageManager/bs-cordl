@@ -127,60 +127,60 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha224Digest* New_ctor();
 
-  /// @brief Method .ctor addr 0xea2c90 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0xe2eabc size 0x6c virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha224Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Sha224Digest* t);
 
-  /// @brief Method .ctor addr 0xea2cfc size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0xe2eb28 size 0x74 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Sha224Digest* t);
 
-  /// @brief Method CopyIn addr 0xea2d70 size 0x64 virtual false final false
+  /// @brief Method CopyIn addr 0xe2eb9c size 0x64 virtual false final false
   inline void CopyIn(::Org::BouncyCastle::Crypto::Digests::Sha224Digest* t);
 
-  /// @brief Method get_AlgorithmName addr 0xea2dd4 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xe2ec00 size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetDigestSize addr 0xea2e14 size 0x8 virtual true final false
+  /// @brief Method GetDigestSize addr 0xe2ec40 size 0x8 virtual true final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method ProcessWord addr 0xea2e1c size 0x80 virtual true final false
+  /// @brief Method ProcessWord addr 0xe2ec48 size 0x80 virtual true final false
   inline void ProcessWord(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method ProcessLength addr 0xea2e9c size 0x6c virtual true final false
+  /// @brief Method ProcessLength addr 0xe2ecc8 size 0x6c virtual true final false
   inline void ProcessLength(int64_t bitLength);
 
-  /// @brief Method DoFinal addr 0xea2f08 size 0xcc virtual true final false
+  /// @brief Method DoFinal addr 0xe2ed34 size 0xcc virtual true final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xea2fd4 size 0x4c virtual true final false
+  /// @brief Method Reset addr 0xe2ee00 size 0x4c virtual true final false
   inline void Reset();
 
-  /// @brief Method ProcessBlock addr 0xea3020 size 0x56c virtual true final false
+  /// @brief Method ProcessBlock addr 0xe2ee4c size 0x56c virtual true final false
   inline void ProcessBlock();
 
-  /// @brief Method Ch addr 0xea35bc size 0x10 virtual false final false
+  /// @brief Method Ch addr 0xe2f3e8 size 0x10 virtual false final false
   static inline uint32_t Ch(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method Maj addr 0xea35dc size 0x14 virtual false final false
+  /// @brief Method Maj addr 0xe2f408 size 0x14 virtual false final false
   static inline uint32_t Maj(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method Sum0 addr 0xea35cc size 0x10 virtual false final false
+  /// @brief Method Sum0 addr 0xe2f3f8 size 0x10 virtual false final false
   static inline uint32_t Sum0(uint32_t x);
 
-  /// @brief Method Sum1 addr 0xea35ac size 0x10 virtual false final false
+  /// @brief Method Sum1 addr 0xe2f3d8 size 0x10 virtual false final false
   static inline uint32_t Sum1(uint32_t x);
 
-  /// @brief Method Theta0 addr 0xea359c size 0x10 virtual false final false
+  /// @brief Method Theta0 addr 0xe2f3c8 size 0x10 virtual false final false
   static inline uint32_t Theta0(uint32_t x);
 
-  /// @brief Method Theta1 addr 0xea358c size 0x10 virtual false final false
+  /// @brief Method Theta1 addr 0xe2f3b8 size 0x10 virtual false final false
   static inline uint32_t Theta1(uint32_t x);
 
-  /// @brief Method Copy addr 0xea35f0 size 0x60 virtual true final false
+  /// @brief Method Copy addr 0xe2f41c size 0x60 virtual true final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method Reset addr 0xea3650 size 0x84 virtual true final false
+  /// @brief Method Reset addr 0xe2f47c size 0x84 virtual true final false
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Sha224Digest", modifiers: "&&", def_value: None }]
@@ -234,6 +234,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::Sha224Digest, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Sha224Digest, ___H1) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Sha224Digest, ___H2) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Sha224Digest, ___H3) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Sha224Digest, ___H4) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Sha224Digest, ___H5) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Sha224Digest, ___H6) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Sha224Digest, ___H7) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Sha224Digest, ___H8) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Sha224Digest, ___X) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Sha224Digest, ___xOff) == 0x50, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Digests
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::Sha224Digest);

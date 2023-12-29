@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::GraphicsBuffer);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10126))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10054))
 // CS Name: ::GraphicsBuffer::Target
 struct CORDL_TYPE __GraphicsBuffer__Target {
 public:
@@ -99,13 +99,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::__GraphicsBuffer__Target, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::__GraphicsBuffer__Target, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine
 // Type: UnityEngine::GraphicsBuffer
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10127))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10055))
 // CS Name: ::UnityEngine::GraphicsBuffer*
 class CORDL_TYPE GraphicsBuffer : public ::System::Object {
 public:
@@ -142,6 +144,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::GraphicsBuffer, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::GraphicsBuffer, ___m_Ptr) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::__GraphicsBuffer__Target, "UnityEngine", "GraphicsBuffer/Target");

@@ -19,8 +19,8 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_CurveInfo);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 41, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9704))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9749))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9631))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9676))
 // CS Name: ::HoudiniEngineUnity::HAPI_CurveInfo
 struct CORDL_TYPE HAPI_CurveInfo {
 public:
@@ -67,6 +67,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_CurveInfo, 0x1c>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CurveInfo, curveType) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CurveInfo, curveCount) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CurveInfo, vertexCount) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CurveInfo, knotCount) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CurveInfo, isPeriodic) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CurveInfo, isRational) == 0x11, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CurveInfo, order) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CurveInfo, hasKnots) == 0x18, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_CurveInfo, "HoudiniEngineUnity", "HAPI_CurveInfo");

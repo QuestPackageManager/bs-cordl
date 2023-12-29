@@ -8,47 +8,47 @@ CORDL_MODULE_EXPORT(MultiplayerLocalInactivePlayerInGameMenuViewController)
 namespace UnityEngine {
 class GameObject;
 }
-namespace Polyglot {
-class LocalizedTextMeshProUGUI;
+namespace GlobalNamespace {
+class LevelBar;
+}
+namespace Tweening {
+class TimeTweeningManager;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+class DisconnectPromptView;
+}
+namespace UnityEngine {
+class CanvasGroup;
 }
 namespace Tweening {
 class Tween;
 }
 namespace GlobalNamespace {
-struct __MultiplayerController__State;
-}
-namespace HMUI {
-class ButtonBinder;
+class LocalPlayerInGameMenuInitData;
 }
 namespace GlobalNamespace {
 class MultiplayerLocalPlayerDisconnectHelper;
 }
 namespace GlobalNamespace {
-class DisconnectPromptView;
+struct __MultiplayerController__State;
 }
 namespace HMUI {
 class ToggleBinder;
 }
-namespace GlobalNamespace {
-class LocalPlayerInGameMenuInitData;
-}
-namespace GlobalNamespace {
-class LevelBar;
+namespace HMUI {
+class ButtonBinder;
 }
 namespace UnityEngine::UI {
 class Toggle;
 }
-namespace UnityEngine::UI {
-class Button;
-}
-namespace UnityEngine {
-class CanvasGroup;
+namespace Polyglot {
+class LocalizedTextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class MultiplayerController;
-}
-namespace Tweening {
-class TimeTweeningManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -60,8 +60,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewCo
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5059))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5164))
 // CS Name: ::MultiplayerLocalInactivePlayerInGameMenuViewController*
 class CORDL_TYPE MultiplayerLocalInactivePlayerInGameMenuViewController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -210,42 +210,42 @@ public:
 
   constexpr void __set__fadeOutTween(::Tweening::Tween* value);
 
-  /// @brief Method OnEnable addr 0x23c607c size 0x150 virtual false final false
+  /// @brief Method OnEnable addr 0x20e41fc size 0x150 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x23c61cc size 0xac virtual false final false
+  /// @brief Method OnDisable addr 0x20e434c size 0xac virtual false final false
   inline void OnDisable();
 
-  /// @brief Method Start addr 0x23c6278 size 0x14c virtual false final false
+  /// @brief Method Start addr 0x20e43f8 size 0x14c virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x23c63c4 size 0x12c virtual false final false
+  /// @brief Method OnDestroy addr 0x20e4544 size 0x12c virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method DisconnectButtonPressed addr 0x23c64f0 size 0x34 virtual false final false
+  /// @brief Method DisconnectButtonPressed addr 0x20e4670 size 0x34 virtual false final false
   inline void DisconnectButtonPressed();
 
-  /// @brief Method DetailsToggleValueChanged addr 0x23c6524 size 0x20 virtual false final false
+  /// @brief Method DetailsToggleValueChanged addr 0x20e46a4 size 0x20 virtual false final false
   inline void DetailsToggleValueChanged(bool isOn);
 
-  /// @brief Method HandleDisconnectPromptViewDidViewFinish addr 0x23c6544 size 0xc4 virtual false final false
+  /// @brief Method HandleDisconnectPromptViewDidViewFinish addr 0x20e46c4 size 0xc4 virtual false final false
   inline void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
 
-  /// @brief Method HandleStateChanged addr 0x23c6608 size 0x1c4 virtual false final false
+  /// @brief Method HandleStateChanged addr 0x20e4788 size 0x1c4 virtual false final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x23c67cc size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x20e494c size 0x98 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <HandleDisconnectPromptViewDidViewFinish>b__22_0 addr 0x23c6864 size 0x20 virtual false final false
+  /// @brief Method <HandleDisconnectPromptViewDidViewFinish>b__22_0 addr 0x20e49e4 size 0x20 virtual false final false
   inline void _HandleDisconnectPromptViewDidViewFinish_b__22_0();
 
-  /// @brief Method <HandleStateChanged>b__23_0 addr 0x23c6884 size 0x1c virtual false final false
+  /// @brief Method <HandleStateChanged>b__23_0 addr 0x20e4a04 size 0x1c virtual false final false
   inline void _HandleStateChanged_b__23_0(float_t val);
 
-  /// @brief Method <HandleStateChanged>b__23_1 addr 0x23c68a0 size 0x24 virtual false final false
+  /// @brief Method <HandleStateChanged>b__23_1 addr 0x20e4a20 size 0x24 virtual false final false
   inline void _HandleStateChanged_b__23_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerInGameMenuViewController", modifiers: "&&", def_value: None }]
@@ -314,6 +314,38 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, ____disconnectButton) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, ____disconnectButtonLocalizedText) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, ____detailsToggle) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, ____globalCanvasGroup) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, ____mainBar) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, ____disconnectPromptView) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, ____levelBar) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, ____dontOwnSongGameObject) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, ____detailsGameObject) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, ____localPlayerInGameMenuInitData) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, ____disconnectHelper) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, ____multiplayerController) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, ____tweeningManager) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, ____buttonBinder) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, ____toggleBinder) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController, ____fadeOutTween) == 0x90, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController);

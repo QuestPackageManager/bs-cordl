@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRGazePointer)
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
 class OVRProgressIndicator;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRGazePointer);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8086))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8108))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8873))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8890))
 // CS Name: ::OVRGazePointer*
 class CORDL_TYPE OVRGazePointer : public ::GlobalNamespace::OVRCursor {
 public:
@@ -190,60 +190,60 @@ public:
 
   static inline ::GlobalNamespace::OVRGazePointer* getStaticF__instance();
 
-  /// @brief Method get_hidden addr 0x27abb04 size 0x8 virtual false final false
+  /// @brief Method get_hidden addr 0x2636e50 size 0x8 virtual false final false
   inline bool get_hidden();
 
-  /// @brief Method set_hidden addr 0x27abb0c size 0xc virtual false final false
+  /// @brief Method set_hidden addr 0x2636e58 size 0xc virtual false final false
   inline void set_hidden(bool value);
 
-  /// @brief Method get_currentScale addr 0x27abb18 size 0x8 virtual false final false
+  /// @brief Method get_currentScale addr 0x2636e64 size 0x8 virtual false final false
   inline float_t get_currentScale();
 
-  /// @brief Method set_currentScale addr 0x27abb20 size 0x8 virtual false final false
+  /// @brief Method set_currentScale addr 0x2636e6c size 0x8 virtual false final false
   inline void set_currentScale(float_t value);
 
-  /// @brief Method get_instance addr 0x27abb28 size 0x214 virtual false final false
+  /// @brief Method get_instance addr 0x2636e74 size 0x214 virtual false final false
   static inline ::GlobalNamespace::OVRGazePointer* get_instance();
 
-  /// @brief Method get_visibilityStrength addr 0x27abd3c size 0x9c virtual false final false
+  /// @brief Method get_visibilityStrength addr 0x2637088 size 0x9c virtual false final false
   inline float_t get_visibilityStrength();
 
-  /// @brief Method get_SelectionProgress addr 0x27abdd8 size 0x78 virtual false final false
+  /// @brief Method get_SelectionProgress addr 0x2637124 size 0x78 virtual false final false
   inline float_t get_SelectionProgress();
 
-  /// @brief Method set_SelectionProgress addr 0x27abe50 size 0x80 virtual false final false
+  /// @brief Method set_SelectionProgress addr 0x263719c size 0x80 virtual false final false
   inline void set_SelectionProgress(float_t value);
 
-  /// @brief Method Awake addr 0x27abed0 size 0x170 virtual false final false
+  /// @brief Method Awake addr 0x263721c size 0x170 virtual false final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x27ac040 size 0x194 virtual false final false
+  /// @brief Method Update addr 0x263738c size 0x194 virtual false final false
   inline void Update();
 
-  /// @brief Method SetCursorStartDest addr 0x27ac408 size 0x1e0 virtual true final false
+  /// @brief Method SetCursorStartDest addr 0x2637754 size 0x1e0 virtual true final false
   inline void SetCursorStartDest(::UnityEngine::Vector3 _, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
 
-  /// @brief Method SetCursorRay addr 0x27ac608 size 0x4 virtual true final false
+  /// @brief Method SetCursorRay addr 0x2637954 size 0x4 virtual true final false
   inline void SetCursorRay(::UnityEngine::Transform* ray);
 
-  /// @brief Method LateUpdate addr 0x27ac60c size 0x178 virtual false final false
+  /// @brief Method LateUpdate addr 0x2637958 size 0x178 virtual false final false
   inline void LateUpdate();
 
-  /// @brief Method RequestHide addr 0x27ac784 size 0x2c virtual false final false
+  /// @brief Method RequestHide addr 0x2637ad0 size 0x2c virtual false final false
   inline void RequestHide();
 
-  /// @brief Method RequestShow addr 0x27ac5e8 size 0x20 virtual false final false
+  /// @brief Method RequestShow addr 0x2637934 size 0x20 virtual false final false
   inline void RequestShow();
 
-  /// @brief Method Hide addr 0x27ac1d4 size 0x11c virtual false final false
+  /// @brief Method Hide addr 0x2637520 size 0x11c virtual false final false
   inline void Hide();
 
-  /// @brief Method Show addr 0x27ac2f0 size 0x118 virtual false final false
+  /// @brief Method Show addr 0x263763c size 0x118 virtual false final false
   inline void Show();
 
   static inline ::GlobalNamespace::OVRGazePointer* New_ctor();
 
-  /// @brief Method .ctor addr 0x27ac7b0 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2637afc size 0x2c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRGazePointer", modifiers: "&&", def_value: None }]
@@ -312,6 +312,38 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGazePointer, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___gazeIcon) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___hideByDefault) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___showTimeoutPeriod) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___hideTimeoutPeriod) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___dimOnHideRequest) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___depthScaleMultiplier) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___matchNormalOnPhysicsColliders) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___rayTransform) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ____hidden_k__BackingField) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ____currentScale_k__BackingField) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___depth) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___hideUntilTime) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___positionSetsThisFrame) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___lastShowRequestTime) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___lastHideRequestTime) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___progressIndicator) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRGazePointer);

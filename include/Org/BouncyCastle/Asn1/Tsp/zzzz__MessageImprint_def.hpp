@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageImprint)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
@@ -54,26 +54,26 @@ public:
 
   constexpr void __set_hashedMessage(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method GetInstance addr 0x1078eec size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0x1007ca0 size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1078f90 size 0xf8 virtual false final false
+  /// @brief Method .ctor addr 0x1007d44 size 0xf8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashedMessage);
 
-  /// @brief Method .ctor addr 0x1079088 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x1007e3c size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashedMessage);
 
-  /// @brief Method get_HashAlgorithm addr 0x10790b4 size 0x8 virtual false final false
+  /// @brief Method get_HashAlgorithm addr 0x1007e68 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method GetHashedMessage addr 0x10790bc size 0x8 virtual false final false
+  /// @brief Method GetHashedMessage addr 0x1007e70 size 0x8 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetHashedMessage();
 
-  /// @brief Method ToAsn1Object addr 0x10790c4 size 0x11c virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1007e78 size 0x11c virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageImprint", modifiers: "&&", def_value: None }]
@@ -100,6 +100,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Tsp::MessageImprint, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Tsp::MessageImprint, ___hashAlgorithm) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Tsp::MessageImprint, ___hashedMessage) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Tsp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Tsp::MessageImprint);

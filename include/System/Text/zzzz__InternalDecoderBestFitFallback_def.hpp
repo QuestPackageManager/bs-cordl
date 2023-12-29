@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InternalDecoderBestFitFallback)
-namespace System::Text {
-class Encoding;
-}
 namespace System {
 class Object;
+}
+namespace System::Text {
+class Encoding;
 }
 namespace System::Text {
 class DecoderFallbackBuffer;
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::Text::InternalDecoderBestFitFallback);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2833))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2828))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2829))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2824))
 // CS Name: ::System.Text::InternalDecoderBestFitFallback*
 class CORDL_TYPE InternalDecoderBestFitFallback : public ::System::Text::DecoderFallback {
 public:
@@ -62,19 +62,19 @@ public:
 
   static inline ::System::Text::InternalDecoderBestFitFallback* New_ctor(::System::Text::Encoding* encoding);
 
-  /// @brief Method .ctor addr 0x2630b08 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x24d69fc size 0x30 virtual false final false
   inline void _ctor(::System::Text::Encoding* encoding);
 
-  /// @brief Method CreateFallbackBuffer addr 0x2630b40 size 0x60 virtual true final false
+  /// @brief Method CreateFallbackBuffer addr 0x24d6a34 size 0x60 virtual true final false
   inline ::System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
 
-  /// @brief Method get_MaxCharCount addr 0x2630cc8 size 0x8 virtual true final false
+  /// @brief Method get_MaxCharCount addr 0x24d6bbc size 0x8 virtual true final false
   inline int32_t get_MaxCharCount();
 
-  /// @brief Method Equals addr 0x2630cd0 size 0xa8 virtual true final false
+  /// @brief Method Equals addr 0x24d6bc4 size 0xa8 virtual true final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode addr 0x2630d78 size 0x24 virtual true final false
+  /// @brief Method GetHashCode addr 0x24d6c6c size 0x24 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalDecoderBestFitFallback", modifiers: "&&", def_value: None }]
@@ -104,6 +104,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::InternalDecoderBestFitFallback, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Text::InternalDecoderBestFitFallback, ____encoding) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::InternalDecoderBestFitFallback, ____arrayBestFit) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::InternalDecoderBestFitFallback, ____cReplacement) == 0x20, "Offset mismatch!");
 
 } // namespace System::Text
 NEED_NO_BOX(::System::Text::InternalDecoderBestFitFallback);

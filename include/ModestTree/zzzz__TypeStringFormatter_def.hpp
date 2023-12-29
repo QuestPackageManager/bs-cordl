@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::ModestTree::__TypeStringFormatter____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10622))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10550))
 // CS Name: ::TypeStringFormatter::<>c*
 class CORDL_TYPE __TypeStringFormatter____c : public ::System::Object {
 public:
@@ -53,10 +53,10 @@ public:
 
   static inline ::ModestTree::__TypeStringFormatter____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ebe52c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d567ac size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <PrettyNameInternal>b__2_0 addr 0x2ebe534 size 0x54 virtual false final false
+  /// @brief Method <PrettyNameInternal>b__2_0 addr 0x2d567b4 size 0x54 virtual false final false
   inline ::StringW _PrettyNameInternal_b__2_0(::System::Type* t);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TypeStringFormatter____c", modifiers: "&&", def_value: None }]
@@ -83,8 +83,8 @@ static_assert(::cordl_internals::size_check_v<::ModestTree::__TypeStringFormatte
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10623))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10551))
 // CS Name: ::ModestTree::TypeStringFormatter*
 class CORDL_TYPE TypeStringFormatter : public ::System::Object {
 public:
@@ -98,13 +98,13 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* getStaticF__prettyNameCache();
 
-  /// @brief Method PrettyName addr 0x2ebc404 size 0xec virtual false final false
+  /// @brief Method PrettyName addr 0x2d54684 size 0xec virtual false final false
   static inline ::StringW PrettyName(::System::Type* type);
 
-  /// @brief Method PrettyNameInternal addr 0x2ebdd0c size 0x438 virtual false final false
+  /// @brief Method PrettyNameInternal addr 0x2d55f8c size 0x438 virtual false final false
   static inline ::StringW PrettyNameInternal(::System::Type* type);
 
-  /// @brief Method GetCSharpTypeName addr 0x2ebe144 size 0x2f8 virtual false final false
+  /// @brief Method GetCSharpTypeName addr 0x2d563c4 size 0x2f8 virtual false final false
   static inline ::StringW GetCSharpTypeName(::StringW typeName);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeStringFormatter", modifiers: "&&", def_value: None }]

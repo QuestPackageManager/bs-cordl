@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ColorNoAlphaSerializable_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ColorSchemeNetSerializable)
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
 namespace UnityEngine {
 struct Color;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
-namespace GlobalNamespace {
-struct ColorNoAlphaSerializable;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace GlobalNamespace {
+struct ColorNoAlphaSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,8 +30,8 @@ MARK_VAL_T(::GlobalNamespace::ColorSchemeNetSerializable);
 // SizeInfo { instance_size: 112, native_size: 112, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15045))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12690))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15190))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12618))
 // CS Name: ::ColorSchemeNetSerializable
 struct CORDL_TYPE ColorSchemeNetSerializable {
 public:
@@ -39,14 +39,14 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-  /// @brief Method .ctor addr 0xe2a7b8 size 0x180 virtual false final false
+  /// @brief Method .ctor addr 0xda477c size 0x180 virtual false final false
   inline void _ctor(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0,
                     ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
-  /// @brief Method Serialize addr 0xe2a938 size 0x80 virtual true final true
+  /// @brief Method Serialize addr 0xda48fc size 0x80 virtual true final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize addr 0xe2a9b8 size 0x80 virtual true final true
+  /// @brief Method Deserialize addr 0xda497c size 0x80 virtual true final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   // Ctor Parameters [CppParam { name: "saberAColor", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "saberBColor", ty:
@@ -91,6 +91,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemeNetSerializable, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeNetSerializable, saberAColor) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeNetSerializable, saberBColor) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeNetSerializable, obstaclesColor) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeNetSerializable, environmentColor0) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeNetSerializable, environmentColor1) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeNetSerializable, environmentColor0Boost) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeNetSerializable, environmentColor1Boost) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorSchemeNetSerializable, "", "ColorSchemeNetSerializable");

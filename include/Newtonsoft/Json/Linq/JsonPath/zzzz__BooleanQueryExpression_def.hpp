@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(BooleanQueryExpression)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Newtonsoft::Json::Linq {
-class JToken;
+namespace Newtonsoft::Json::Linq::JsonPath {
+class PathFilter;
 }
 namespace Newtonsoft::Json::Linq {
 class JValue;
 }
-namespace Newtonsoft::Json::Linq::JsonPath {
-class PathFilter;
+namespace Newtonsoft::Json::Linq {
+class JToken;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12022))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12024))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11950))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11952))
 // CS Name: ::Newtonsoft.Json.Linq.JsonPath::BooleanQueryExpression*
 class CORDL_TYPE BooleanQueryExpression : public ::Newtonsoft::Json::Linq::JsonPath::QueryExpression {
 public:
@@ -55,27 +55,27 @@ public:
 
   constexpr void __set__Value_k__BackingField(::Newtonsoft::Json::Linq::JValue* value);
 
-  /// @brief Method get_Path addr 0x26b1510 size 0x8 virtual false final false
+  /// @brief Method get_Path addr 0x254cdcc size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* get_Path();
 
-  /// @brief Method set_Path addr 0x26b1518 size 0x8 virtual false final false
+  /// @brief Method set_Path addr 0x254cdd4 size 0x8 virtual false final false
   inline void set_Path(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* value);
 
-  /// @brief Method get_Value addr 0x26b1520 size 0x8 virtual false final false
+  /// @brief Method get_Value addr 0x254cddc size 0x8 virtual false final false
   inline ::Newtonsoft::Json::Linq::JValue* get_Value();
 
-  /// @brief Method set_Value addr 0x26b1528 size 0x8 virtual false final false
+  /// @brief Method set_Value addr 0x254cde4 size 0x8 virtual false final false
   inline void set_Value(::Newtonsoft::Json::Linq::JValue* value);
 
-  /// @brief Method IsMatch addr 0x26b1530 size 0x470 virtual true final false
+  /// @brief Method IsMatch addr 0x254cdec size 0x470 virtual true final false
   inline bool IsMatch(::Newtonsoft::Json::Linq::JToken* t);
 
-  /// @brief Method EqualsWithStringCoercion addr 0x26b19a0 size 0x4d4 virtual false final false
+  /// @brief Method EqualsWithStringCoercion addr 0x254d25c size 0x4d4 virtual false final false
   inline bool EqualsWithStringCoercion(::Newtonsoft::Json::Linq::JValue* value, ::Newtonsoft::Json::Linq::JValue* queryValue);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression* New_ctor();
 
-  /// @brief Method .ctor addr 0x26b0d20 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x254c5dc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BooleanQueryExpression", modifiers: "&&", def_value: None }]
@@ -102,6 +102,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression, ____Path_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression, ____Value_k__BackingField) == 0x20, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Linq::JsonPath
 NEED_NO_BOX(::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression);

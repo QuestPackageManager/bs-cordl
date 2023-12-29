@@ -19,7 +19,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::Util::SerializedType);
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13983))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14254))
 // CS Name: ::UnityEngine.ResourceManagement.Util::SerializedType
 struct CORDL_TYPE SerializedType {
 public:
@@ -32,25 +32,25 @@ public:
 
   __declspec(property(get = get_ValueChanged, put = set_ValueChanged)) bool ValueChanged;
 
-  /// @brief Method get_AssemblyName addr 0x2bd2458 size 0x8 virtual false final false
+  /// @brief Method get_AssemblyName addr 0x2a4f704 size 0x8 virtual false final false
   inline ::StringW get_AssemblyName();
 
-  /// @brief Method get_ClassName addr 0x2bd2460 size 0x8 virtual false final false
+  /// @brief Method get_ClassName addr 0x2a4f70c size 0x8 virtual false final false
   inline ::StringW get_ClassName();
 
-  /// @brief Method ToString addr 0x2bd2468 size 0xb0 virtual true final false
+  /// @brief Method ToString addr 0x2a4f714 size 0xb0 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method get_Value addr 0x2bd2518 size 0x1f4 virtual false final false
+  /// @brief Method get_Value addr 0x2a4f7c4 size 0x1f4 virtual false final false
   inline ::System::Type* get_Value();
 
-  /// @brief Method set_Value addr 0x2bd270c size 0xc0 virtual false final false
+  /// @brief Method set_Value addr 0x2a4f9b8 size 0xc0 virtual false final false
   inline void set_Value(::System::Type* value);
 
-  /// @brief Method get_ValueChanged addr 0x2bd27cc size 0x8 virtual false final false
+  /// @brief Method get_ValueChanged addr 0x2a4fa78 size 0x8 virtual false final false
   inline bool get_ValueChanged();
 
-  /// @brief Method set_ValueChanged addr 0x2bd27d4 size 0xc virtual false final false
+  /// @brief Method set_ValueChanged addr 0x2a4fa80 size 0xc virtual false final false
   inline void set_ValueChanged(bool value);
 
   // Ctor Parameters [CppParam { name: "m_AssemblyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_ClassName", ty: "::StringW", modifiers: "", def_value: None }, CppParam
@@ -80,6 +80,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Util::SerializedType, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::SerializedType, m_AssemblyName) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::SerializedType, m_ClassName) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::SerializedType, m_CachedType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::SerializedType, _ValueChanged_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::Util
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::SerializedType, "UnityEngine.ResourceManagement.Util", "SerializedType");

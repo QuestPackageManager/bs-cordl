@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CreateServerFormController)
 namespace GlobalNamespace {
-class FormattedFloatListSettingsController;
+struct CreateServerFormData;
 }
 namespace GlobalNamespace {
-struct CreateServerFormData;
+class FormattedFloatListSettingsController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CreateServerFormController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5564))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5657))
 // CS Name: ::CreateServerFormController*
 class CORDL_TYPE CreateServerFormController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -47,15 +47,15 @@ public:
 
   constexpr void __set__netDiscoverable(bool value);
 
-  /// @brief Method get_formData addr 0x22a3a9c size 0xf0 virtual false final false
+  /// @brief Method get_formData addr 0x215eb04 size 0xb0 virtual false final false
   inline ::GlobalNamespace::CreateServerFormData get_formData();
 
-  /// @brief Method Setup addr 0x22a3b8c size 0x48 virtual false final false
+  /// @brief Method Setup addr 0x215ebb4 size 0x60 virtual false final false
   inline void Setup(int32_t selectedNumberOfPlayers, bool netDiscoverable);
 
   static inline ::GlobalNamespace::CreateServerFormController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22a3bec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x215ec28 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CreateServerFormController", modifiers: "&&", def_value: None }]
@@ -88,6 +88,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CreateServerFormController, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CreateServerFormController, ____maxPlayersList) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CreateServerFormController, ____netDiscoverable) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CreateServerFormController);

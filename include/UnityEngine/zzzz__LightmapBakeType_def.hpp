@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::LightmapBakeType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10105))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10033))
 // CS Name: ::UnityEngine::LightmapBakeType
 struct CORDL_TYPE LightmapBakeType {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::LightmapBakeType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::LightmapBakeType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LightmapBakeType, "UnityEngine", "LightmapBakeType");

@@ -11,13 +11,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DynamicBoneColliderBase)
 namespace GlobalNamespace {
+struct __DynamicBoneColliderBase__Direction;
+}
+namespace GlobalNamespace {
 struct __DynamicBoneColliderBase__Bound;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-struct __DynamicBoneColliderBase__Direction;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::DynamicBoneColliderBase);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16047))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15911))
 // CS Name: ::DynamicBoneColliderBase::Direction
 struct CORDL_TYPE __DynamicBoneColliderBase__Direction {
 public:
@@ -84,13 +84,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DynamicBoneColliderBase__Direction, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__DynamicBoneColliderBase__Direction, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Bound
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16048))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15912))
 // CS Name: ::DynamicBoneColliderBase::Bound
 struct CORDL_TYPE __DynamicBoneColliderBase__Bound {
 public:
@@ -132,13 +134,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DynamicBoneColliderBase__Bound, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__DynamicBoneColliderBase__Bound, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::DynamicBoneColliderBase
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16048)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16047))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16049)) CS Name: ::DynamicBoneColliderBase*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(15911)), TypeDefinitionIndex(TypeDefinitionIndex(10176)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15912))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15913)) CS Name: ::DynamicBoneColliderBase*
 class CORDL_TYPE DynamicBoneColliderBase : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -173,12 +177,12 @@ public:
 
   constexpr void __set_m_Bound(::GlobalNamespace::__DynamicBoneColliderBase__Bound value);
 
-  /// @brief Method Collide addr 0x12308e4 size 0x4 virtual true final false
+  /// @brief Method Collide addr 0x11c05b8 size 0x4 virtual true final false
   inline void Collide(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius);
 
   static inline ::GlobalNamespace::DynamicBoneColliderBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x1230880 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x11c0554 size 0x64 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicBoneColliderBase", modifiers: "&&", def_value: None }]
@@ -208,6 +212,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DynamicBoneColliderBase, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBoneColliderBase, ___m_Direction) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBoneColliderBase, ___m_Center) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBoneColliderBase, ___m_Bound) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__DynamicBoneColliderBase__Bound, "", "DynamicBoneColliderBase/Bound");

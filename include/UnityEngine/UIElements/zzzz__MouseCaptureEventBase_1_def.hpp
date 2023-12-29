@@ -16,8 +16,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7150), inst: 4634 }), TypeDefinitionIndex(TypeDefinitionIndex(7150))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7153))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7236), inst: 4540 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7239))
 // CS Name: ::UnityEngine.UIElements::MouseCaptureEventBase`1<T>*
 class CORDL_TYPE MouseCaptureEventBase_1 : public ::UnityEngine::UIElements::PointerCaptureEventBase_1<T> {
 public:

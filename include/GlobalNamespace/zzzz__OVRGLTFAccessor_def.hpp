@@ -11,32 +11,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRGLTFAccessor)
-namespace OVRSimpleJSON {
-class JSONNode;
+namespace GlobalNamespace {
+struct OVRGLTFType;
 }
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Matrix4x4;
+namespace GlobalNamespace {
+struct OVRBinaryChunk;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-struct OVRBinaryChunk;
+struct OVRGLTFComponentType;
 }
-namespace GlobalNamespace {
-struct OVRGLTFType;
+namespace UnityEngine {
+struct Vector2;
+}
+namespace OVRSimpleJSON {
+class JSONNode;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine {
 struct Vector4;
 }
-namespace GlobalNamespace {
-struct OVRGLTFComponentType;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRGLTFAccessor);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7551)), TypeDefinitionIndex(TypeDefinitionIndex(7552))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7553))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(8455)), TypeDefinitionIndex(TypeDefinitionIndex(8454))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8456))
 // CS Name: ::OVRGLTFAccessor*
 class CORDL_TYPE OVRGLTFAccessor : public ::System::Object {
 public:
@@ -137,55 +137,55 @@ public:
 
   static inline ::GlobalNamespace::OVRGLTFAccessor* New_ctor(::OVRSimpleJSON::JSONNode* node, ::OVRSimpleJSON::JSONNode* root, bool bufferViewOnly);
 
-  /// @brief Method .ctor addr 0x271d820 size 0x340 virtual false final false
+  /// @brief Method .ctor addr 0x25c517c size 0x340 virtual false final false
   inline void _ctor(::OVRSimpleJSON::JSONNode* node, ::OVRSimpleJSON::JSONNode* root, bool bufferViewOnly);
 
-  /// @brief Method GetDataCount addr 0x271dcc4 size 0x8 virtual false final false
+  /// @brief Method GetDataCount addr 0x25c5620 size 0x8 virtual false final false
   inline int32_t GetDataCount();
 
-  /// @brief Method ToOVRType addr 0x271db60 size 0x164 virtual false final false
+  /// @brief Method ToOVRType addr 0x25c54bc size 0x164 virtual false final false
   static inline ::GlobalNamespace::OVRGLTFType ToOVRType(::StringW type);
 
-  /// @brief Method ReadAsInt addr 0x271dccc size 0x214 virtual false final false
+  /// @brief Method ReadAsInt addr 0x25c5628 size 0x214 virtual false final false
   inline void ReadAsInt(::GlobalNamespace::OVRBinaryChunk chunk, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> data, int32_t offset);
 
-  /// @brief Method ReadAsFloat addr 0x271e0f8 size 0x210 virtual false final false
+  /// @brief Method ReadAsFloat addr 0x25c5a54 size 0x210 virtual false final false
   inline void ReadAsFloat(::GlobalNamespace::OVRBinaryChunk chunk, ByRef<::ArrayW<float_t, ::Array<float_t>*>> data, int32_t offset);
 
-  /// @brief Method ReadAsVector2 addr 0x271e370 size 0x25c virtual false final false
+  /// @brief Method ReadAsVector2 addr 0x25c5ccc size 0x25c virtual false final false
   inline void ReadAsVector2(::GlobalNamespace::OVRBinaryChunk chunk, ByRef<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>> data, int32_t offset);
 
-  /// @brief Method ReadAsVector3 addr 0x271e5cc size 0x398 virtual false final false
+  /// @brief Method ReadAsVector3 addr 0x25c5f28 size 0x398 virtual false final false
   inline void ReadAsVector3(::GlobalNamespace::OVRBinaryChunk chunk, ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> data, int32_t offset,
                             ::UnityEngine::Vector3 conversionScale);
 
-  /// @brief Method ReadAsVector4 addr 0x271e964 size 0x3f4 virtual false final false
+  /// @brief Method ReadAsVector4 addr 0x25c62c0 size 0x3f4 virtual false final false
   inline void ReadAsVector4(::GlobalNamespace::OVRBinaryChunk chunk, ByRef<::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>> data, int32_t offset,
                             ::UnityEngine::Vector4 conversionScale);
 
-  /// @brief Method ReadAsColor addr 0x271ed58 size 0x488 virtual false final false
+  /// @brief Method ReadAsColor addr 0x25c66b4 size 0x488 virtual false final false
   inline void ReadAsColor(::GlobalNamespace::OVRBinaryChunk chunk, ByRef<::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>> data, int32_t offset);
 
-  /// @brief Method ReadAsMatrix4x4 addr 0x271f208 size 0x36c virtual false final false
+  /// @brief Method ReadAsMatrix4x4 addr 0x25c6b64 size 0x36c virtual false final false
   inline void ReadAsMatrix4x4(::GlobalNamespace::OVRBinaryChunk chunk, ByRef<::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>> data, int32_t offset,
                               ::UnityEngine::Vector3 conversionScale);
 
-  /// @brief Method ReadAsTexture addr 0x271f574 size 0x110 virtual false final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsTexture(::GlobalNamespace::OVRBinaryChunk chunk);
+  /// @brief Method ReadAsKtxTexture addr 0x25c6ed0 size 0x110 virtual false final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsKtxTexture(::GlobalNamespace::OVRBinaryChunk chunk);
 
-  /// @brief Method ReadAsBoneWeights addr 0x271f684 size 0x398 virtual false final false
+  /// @brief Method ReadAsBoneWeights addr 0x25c6fe0 size 0x398 virtual false final false
   inline void ReadAsBoneWeights(::GlobalNamespace::OVRBinaryChunk chunk, ByRef<::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>> data, int32_t offset);
 
-  /// @brief Method GetStrideForType addr 0x271dee0 size 0x28 virtual false final false
+  /// @brief Method GetStrideForType addr 0x25c583c size 0x28 virtual false final false
   inline int32_t GetStrideForType(::GlobalNamespace::OVRGLTFComponentType type);
 
-  /// @brief Method GetMaxValueForType addr 0x271f1e0 size 0x28 virtual false final false
+  /// @brief Method GetMaxValueForType addr 0x25c6b3c size 0x28 virtual false final false
   inline float_t GetMaxValueForType(::GlobalNamespace::OVRGLTFComponentType type);
 
-  /// @brief Method ReadElementAsUint addr 0x271df08 size 0x1f0 virtual false final false
+  /// @brief Method ReadElementAsUint addr 0x25c5864 size 0x1f0 virtual false final false
   inline uint32_t ReadElementAsUint(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t index, ::GlobalNamespace::OVRGLTFComponentType type);
 
-  /// @brief Method ReadElementAsFloat addr 0x271e308 size 0x68 virtual false final false
+  /// @brief Method ReadElementAsFloat addr 0x25c5c64 size 0x68 virtual false final false
   inline float_t ReadElementAsFloat(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFAccessor", modifiers: "&&", def_value: None }]
@@ -233,6 +233,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGLTFAccessor, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___byteOffset) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___byteLength) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___byteStride) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___bufferId) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___bufferLength) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___additionalOffset) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___dataType) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___componentType) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___dataCount) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRGLTFAccessor);

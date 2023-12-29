@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LODParameters)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace System {
 class Object;
@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::Rendering::LODParameters);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10355))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10277))
 // CS Name: ::UnityEngine.Rendering::LODParameters
 struct CORDL_TYPE LODParameters {
 public:
@@ -35,13 +35,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>*();
 
-  /// @brief Method Equals addr 0x2cedac8 size 0x9c virtual true final true
+  /// @brief Method Equals addr 0x2b86694 size 0x9c virtual true final true
   inline bool Equals(::UnityEngine::Rendering::LODParameters other);
 
-  /// @brief Method Equals addr 0x2cedb64 size 0x90 virtual true final false
+  /// @brief Method Equals addr 0x2b86730 size 0x90 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2cedbf4 size 0x94 virtual true final false
+  /// @brief Method GetHashCode addr 0x2b867c0 size 0x94 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_IsOrthographic", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CameraPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
@@ -75,6 +75,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::LODParameters, 0x1c>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::LODParameters, m_IsOrthographic) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::LODParameters, m_CameraPosition) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::LODParameters, m_FieldOfView) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::LODParameters, m_OrthoSize) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::LODParameters, m_CameraPixelHeight) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::LODParameters, "UnityEngine.Rendering", "LODParameters");

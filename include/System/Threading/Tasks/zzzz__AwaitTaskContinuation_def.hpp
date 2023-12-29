@@ -9,13 +9,7 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace System::Threading {
-class ThreadAbortException;
-}
-namespace System::Threading {
-class ExecutionContext;
-}
-namespace System::Threading {
-class IThreadPoolWorkItem;
+class ContextCallback;
 }
 namespace System {
 class Object;
@@ -23,17 +17,23 @@ class Object;
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System {
-class Exception;
-}
-namespace System {
-class Action;
-}
 namespace System::Threading::Tasks {
 class TaskScheduler;
 }
 namespace System::Threading {
-class ContextCallback;
+class IThreadPoolWorkItem;
+}
+namespace System::Threading {
+class ExecutionContext;
+}
+namespace System {
+class Action;
+}
+namespace System::Threading {
+class ThreadAbortException;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::System::Threading::Tasks::AwaitTaskContinuation);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2801))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2807))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2797))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2803))
 // CS Name: ::System.Threading.Tasks::AwaitTaskContinuation*
 class CORDL_TYPE AwaitTaskContinuation : public ::System::Threading::Tasks::TaskContinuation {
 public:
@@ -81,40 +81,40 @@ public:
 
   static inline ::System::Threading::Tasks::AwaitTaskContinuation* New_ctor(::System::Action* action, bool flowExecutionContext);
 
-  /// @brief Method .ctor addr 0x262b7a4 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x24d1698 size 0x80 virtual false final false
   inline void _ctor(::System::Action* action, bool flowExecutionContext);
 
-  /// @brief Method CreateTask addr 0x262c1e4 size 0x90 virtual false final false
+  /// @brief Method CreateTask addr 0x24d20d8 size 0x90 virtual false final false
   inline ::System::Threading::Tasks::Task* CreateTask(::System::Action_1<::System::Object*>* action, ::System::Object* state, ::System::Threading::Tasks::TaskScheduler* scheduler);
 
-  /// @brief Method Run addr 0x262c0c8 size 0x11c virtual true final false
+  /// @brief Method Run addr 0x24d1fbc size 0x11c virtual true final false
   inline void Run(::System::Threading::Tasks::Task* ignored, bool canInlineContinuationTask);
 
-  /// @brief Method get_IsValidLocationForInlining addr 0x262c428 size 0x134 virtual false final false
+  /// @brief Method get_IsValidLocationForInlining addr 0x24d231c size 0x134 virtual false final false
   static inline bool get_IsValidLocationForInlining();
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem addr 0x262c55c size 0x128 virtual true final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem addr 0x24d2450 size 0x128 virtual true final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
-  /// @brief Method InvokeAction addr 0x262c684 size 0x6c virtual false final false
+  /// @brief Method InvokeAction addr 0x24d2578 size 0x6c virtual false final false
   static inline void InvokeAction(::System::Object* state);
 
-  /// @brief Method GetInvokeActionCallback addr 0x262c6f0 size 0xa8 virtual false final false
+  /// @brief Method GetInvokeActionCallback addr 0x24d25e4 size 0xa8 virtual false final false
   static inline ::System::Threading::ContextCallback* GetInvokeActionCallback();
 
-  /// @brief Method RunCallback addr 0x262ba10 size 0x17c virtual false final false
+  /// @brief Method RunCallback addr 0x24d1904 size 0x17c virtual false final false
   inline void RunCallback(::System::Threading::ContextCallback* callback, ::System::Object* state, ByRef<::System::Threading::Tasks::Task*> currentTask);
 
-  /// @brief Method RunOrScheduleAction addr 0x2627a9c size 0x158 virtual false final false
+  /// @brief Method RunOrScheduleAction addr 0x24cd990 size 0x158 virtual false final false
   static inline void RunOrScheduleAction(::System::Action* action, bool allowInlining, ByRef<::System::Threading::Tasks::Task*> currentTask);
 
-  /// @brief Method UnsafeScheduleAction addr 0x2626a30 size 0x8c virtual false final false
+  /// @brief Method UnsafeScheduleAction addr 0x24cc924 size 0x8c virtual false final false
   static inline void UnsafeScheduleAction(::System::Action* action);
 
-  /// @brief Method ThrowAsyncIfNecessary addr 0x262c3d0 size 0x58 virtual false final false
+  /// @brief Method ThrowAsyncIfNecessary addr 0x24d22c4 size 0x58 virtual false final false
   static inline void ThrowAsyncIfNecessary(::System::Exception* exc);
 
-  /// @brief Method MarkAborted addr 0x262c798 size 0x4 virtual true final true
+  /// @brief Method MarkAborted addr 0x24d268c size 0x4 virtual true final true
   inline void MarkAborted(::System::Threading::ThreadAbortException* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "AwaitTaskContinuation", modifiers: "&&", def_value: None }]
@@ -141,6 +141,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::AwaitTaskContinuation, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::AwaitTaskContinuation, ___m_capturedContext) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::AwaitTaskContinuation, ___m_action) == 0x18, "Offset mismatch!");
 
 } // namespace System::Threading::Tasks
 NEED_NO_BOX(::System::Threading::Tasks::AwaitTaskContinuation);

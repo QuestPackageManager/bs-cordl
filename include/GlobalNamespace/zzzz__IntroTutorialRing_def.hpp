@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(IntroTutorialRing)
+namespace GlobalNamespace {
+struct SaberType;
+}
 namespace UnityEngine {
 class Collider;
 }
-namespace GlobalNamespace {
-class ColorManager;
-}
 namespace UnityEngine {
 class ParticleSystem;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace UnityEngine {
+class CanvasGroup;
 }
 namespace UnityEngine::UI {
 class Image;
 }
 namespace GlobalNamespace {
-struct SaberType;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+class ColorManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::GlobalNamespace::IntroTutorialRing);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15036))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5337))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15181)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5432))
 // CS Name: ::IntroTutorialRing*
 class CORDL_TYPE IntroTutorialRing : public ::UnityEngine::MonoBehaviour {
 public:
@@ -158,42 +158,42 @@ public:
 
   constexpr void __set__sabersInsideAfterOnEnable(bool value);
 
-  /// @brief Method set_alpha addr 0x2269230 size 0x1c virtual false final false
+  /// @brief Method set_alpha addr 0x21250f4 size 0x1c virtual false final false
   inline void set_alpha(float_t value);
 
-  /// @brief Method get_fullyActivated addr 0x2268fec size 0x24 virtual false final false
+  /// @brief Method get_fullyActivated addr 0x2124eb0 size 0x24 virtual false final false
   inline bool get_fullyActivated();
 
-  /// @brief Method get_saberType addr 0x22693dc size 0x8 virtual false final false
+  /// @brief Method get_saberType addr 0x21252a0 size 0x8 virtual false final false
   inline ::GlobalNamespace::SaberType get_saberType();
 
-  /// @brief Method set_saberType addr 0x22693e4 size 0x8 virtual false final false
+  /// @brief Method set_saberType addr 0x21252a8 size 0x8 virtual false final false
   inline void set_saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method Start addr 0x22693ec size 0x8c virtual false final false
+  /// @brief Method Start addr 0x21252b0 size 0x8c virtual false final false
   inline void Start();
 
-  /// @brief Method OnEnable addr 0x2269478 size 0x50 virtual false final false
+  /// @brief Method OnEnable addr 0x212533c size 0x50 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method Update addr 0x22694c8 size 0x11c virtual false final false
+  /// @brief Method Update addr 0x212538c size 0x11c virtual false final false
   inline void Update();
 
-  /// @brief Method SetProgressImagesfillAmount addr 0x22695e4 size 0x70 virtual false final false
+  /// @brief Method SetProgressImagesfillAmount addr 0x21254a8 size 0x70 virtual false final false
   inline void SetProgressImagesfillAmount(float_t fillAmount);
 
-  /// @brief Method OnTriggerEnter addr 0x2269654 size 0x108 virtual false final false
+  /// @brief Method OnTriggerEnter addr 0x2125518 size 0x108 virtual false final false
   inline void OnTriggerEnter(::UnityEngine::Collider* other);
 
-  /// @brief Method OnTriggerExit addr 0x226975c size 0x108 virtual false final false
+  /// @brief Method OnTriggerExit addr 0x2125620 size 0x108 virtual false final false
   inline void OnTriggerExit(::UnityEngine::Collider* other);
 
-  /// @brief Method OnTriggerStay addr 0x2269864 size 0x108 virtual false final false
+  /// @brief Method OnTriggerStay addr 0x2125728 size 0x108 virtual false final false
   inline void OnTriggerStay(::UnityEngine::Collider* other);
 
   static inline ::GlobalNamespace::IntroTutorialRing* New_ctor();
 
-  /// @brief Method .ctor addr 0x226996c size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x2125830 size 0x88 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IntroTutorialRing", modifiers: "&&", def_value: None }]
@@ -250,6 +250,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IntroTutorialRing, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::IntroTutorialRing, ____progressImages) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::IntroTutorialRing, ____saberType) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::IntroTutorialRing, ____particleSystem) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::IntroTutorialRing, ____canvasGroup) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::IntroTutorialRing, ____activationDuration) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::IntroTutorialRing, ____ringGLowImages) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::IntroTutorialRing, ____colorManager) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::IntroTutorialRing, ____highlighted) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::IntroTutorialRing, ____emitNextParticleTimer) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::IntroTutorialRing, ____activationProgress) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::IntroTutorialRing, ____sabersInside) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::IntroTutorialRing, ____sabersInsideAfterOnEnable) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::IntroTutorialRing);

@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefabDynamicContext_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewPrefabMethod_5)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5> class __SubContainerCreatorByNewPrefabMethod_5____c__DisplayClass2_0;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace Zenject {
 class IPrefabProvider;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Action_6;
@@ -28,7 +28,7 @@ namespace Zenject {
 class GameObjectContext;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5> class __SubContainerCreatorByNewPrefabMethod_5____c__DisplayClass2_0;
+class GameObjectCreationParameters;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -52,8 +52,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11286))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11214))
 // CS Name: ::SubContainerCreatorByNewPrefabMethod`5::<>c__DisplayClass2_0<TParam1,TParam2,TParam3,TParam4,TParam5>*
 class CORDL_TYPE __SubContainerCreatorByNewPrefabMethod_5____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -120,8 +120,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11274))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11287))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11202))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11215))
 // CS Name: ::Zenject::SubContainerCreatorByNewPrefabMethod`5<TParam1,TParam2,TParam3,TParam4,TParam5>*
 class CORDL_TYPE SubContainerCreatorByNewPrefabMethod_5 : public ::Zenject::SubContainerCreatorByNewPrefabDynamicContext {
 public:

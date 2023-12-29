@@ -20,24 +20,24 @@ MARK_REF_PTR_T(::Zenject::NoTransitionInstaller);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11176))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11104))
 // CS Name: ::Zenject::NoTransitionInstaller*
 class CORDL_TYPE NoTransitionInstaller : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method InstallBindings addr 0x2f04cb0 size 0x4 virtual true final false
+  /// @brief Method InstallBindings addr 0x2d9cee0 size 0x4 virtual true final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
-  /// @brief Method PostInstall addr 0x2f04cb4 size 0x4 virtual true final false
+  /// @brief Method PostInstall addr 0x2d9cee4 size 0x4 virtual true final false
   inline void PostInstall(::Zenject::DiContainer* container);
 
   static inline ::Zenject::NoTransitionInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x2f04cb8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d9cee8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f04cc0 size 0x178 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d9cef0 size 0x178 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoTransitionInstaller", modifiers: "&&", def_value: None }]

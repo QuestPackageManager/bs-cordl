@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::WordInfo);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13712))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13591))
 // CS Name: ::UnityEngine.TextCore.Text::WordInfo
 struct CORDL_TYPE WordInfo {
 public:
@@ -45,6 +45,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::WordInfo, 0xc>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordInfo, firstCharacterIndex) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordInfo, lastCharacterIndex) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordInfo, characterCount) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::WordInfo, "UnityEngine.TextCore.Text", "WordInfo");

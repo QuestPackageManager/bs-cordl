@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::DateTimeStyles);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3670))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3658))
 // CS Name: ::System.Globalization::DateTimeStyles
 struct CORDL_TYPE DateTimeStyles {
 public:
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::DateTimeStyles, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::DateTimeStyles, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::DateTimeStyles, "System.Globalization", "DateTimeStyles");

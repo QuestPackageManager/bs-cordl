@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NetworkConstants);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12889))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12811))
 // CS Name: ::NetworkConstants*
 class CORDL_TYPE NetworkConstants : public ::System::Object {
 public:
@@ -36,7 +36,7 @@ protected:
 
 public:
   /// @brief Field kProtocolVersion offset 0xffffffff size 0x4
-  static constexpr uint32_t kProtocolVersion{ static_cast<uint32_t>(0x5abef009u) };
+  static constexpr uint32_t kProtocolVersion{ static_cast<uint32_t>(0x5abef008u) };
 
   /// @brief Field kHandshakeMessageType offset 0xffffffff size 0x4
   static constexpr uint32_t kHandshakeMessageType{ static_cast<uint32_t>(0x475abef0u) };

@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScriptableRenderContext)
+namespace System {
+class Type;
+}
 namespace UnityEngine {
 class Camera;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class Type;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -33,8 +33,8 @@ MARK_VAL_T(::UnityEngine::Rendering::ScriptableRenderContext);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10356))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10360))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10282))
 // CS Name: ::UnityEngine.Rendering::ScriptableRenderContext
 struct CORDL_TYPE ScriptableRenderContext {
 public:
@@ -49,25 +49,25 @@ public:
 
   static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_kRenderTypeTag();
 
-  /// @brief Method .ctor addr 0x2ced50c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2b860d8 size 0x8 virtual false final false
   inline void _ctor(void* ptr);
 
-  /// @brief Method GetCameras addr 0x2ced514 size 0x8c virtual false final false
+  /// @brief Method GetCameras addr 0x2b860e0 size 0x8c virtual false final false
   inline void GetCameras(::System::Collections::Generic::List_1<::UnityEngine::Camera*>* results);
 
-  /// @brief Method Equals addr 0x2cee308 size 0x70 virtual true final true
+  /// @brief Method Equals addr 0x2b86ed4 size 0x70 virtual true final true
   inline bool Equals(::UnityEngine::Rendering::ScriptableRenderContext other);
 
-  /// @brief Method Equals addr 0x2cee378 size 0x78 virtual true final false
+  /// @brief Method Equals addr 0x2b86f44 size 0x78 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2cee3f0 size 0x8 virtual true final false
+  /// @brief Method GetHashCode addr 0x2b86fbc size 0x8 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetCameras_Internal addr 0x2cee27c size 0x8c virtual false final false
+  /// @brief Method GetCameras_Internal addr 0x2b86e48 size 0x8c virtual false final false
   inline void GetCameras_Internal(::System::Type* listType, ::System::Object* resultList);
 
-  /// @brief Method GetCameras_Internal_Injected addr 0x2cee3f8 size 0x54 virtual false final false
+  /// @brief Method GetCameras_Internal_Injected addr 0x2b86fc4 size 0x54 virtual false final false
   static inline void GetCameras_Internal_Injected(ByRef<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::Type* listType, ::System::Object* resultList);
 
   // Ctor Parameters [CppParam { name: "m_Ptr", ty: "void*", modifiers: "", def_value: None }]
@@ -87,6 +87,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ScriptableRenderContext, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::ScriptableRenderContext, m_Ptr) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ScriptableRenderContext, "UnityEngine.Rendering", "ScriptableRenderContext");

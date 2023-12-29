@@ -11,10 +11,10 @@ namespace System::Threading {
 struct __Volatile__VolatileInt32;
 }
 namespace System::Threading {
-struct __Volatile__VolatileBoolean;
+struct __Volatile__VolatileObject;
 }
 namespace System::Threading {
-struct __Volatile__VolatileObject;
+struct __Volatile__VolatileBoolean;
 }
 namespace System {
 class Object;
@@ -42,7 +42,7 @@ MARK_VAL_T(::System::Threading::__Volatile__VolatileObject);
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2752))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2750))
 // CS Name: ::Volatile::VolatileBoolean
 struct CORDL_TYPE __Volatile__VolatileBoolean {
 public:
@@ -65,13 +65,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::__Volatile__VolatileBoolean, 0x1>, "Size mismatch!");
 
+static_assert(offsetof(::System::Threading::__Volatile__VolatileBoolean, Value) == 0x0, "Offset mismatch!");
+
 } // namespace System::Threading
 // Type: ::VolatileInt32
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2753))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2751))
 // CS Name: ::Volatile::VolatileInt32
 struct CORDL_TYPE __Volatile__VolatileInt32 {
 public:
@@ -94,13 +96,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::__Volatile__VolatileInt32, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::System::Threading::__Volatile__VolatileInt32, Value) == 0x0, "Offset mismatch!");
+
 } // namespace System::Threading
 // Type: ::VolatileObject
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2754))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2752))
 // CS Name: ::Volatile::VolatileObject
 struct CORDL_TYPE __Volatile__VolatileObject {
 public:
@@ -123,13 +127,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::__Volatile__VolatileObject, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::System::Threading::__Volatile__VolatileObject, Value) == 0x0, "Offset mismatch!");
+
 } // namespace System::Threading
 // Type: System.Threading::Volatile
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2755))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2753))
 // CS Name: ::System.Threading::Volatile*
 class CORDL_TYPE Volatile : public ::System::Object {
 public:
@@ -140,16 +146,16 @@ public:
 
   using VolatileBoolean = ::System::Threading::__Volatile__VolatileBoolean;
 
-  /// @brief Method Read addr 0x2620b84 size 0x18 virtual false final false
+  /// @brief Method Read addr 0x24c6ad0 size 0x18 virtual false final false
   static inline bool Read(ByRef<bool> location);
 
-  /// @brief Method Write addr 0x2620b9c size 0x24 virtual false final false
+  /// @brief Method Write addr 0x24c6ae8 size 0x24 virtual false final false
   static inline void Write(ByRef<bool> location, bool value);
 
-  /// @brief Method Read addr 0x2620bc0 size 0x18 virtual false final false
+  /// @brief Method Read addr 0x24c6b0c size 0x18 virtual false final false
   static inline int32_t Read(ByRef<int32_t> location);
 
-  /// @brief Method Write addr 0x2620bd8 size 0x24 virtual false final false
+  /// @brief Method Write addr 0x24c6b24 size 0x24 virtual false final false
   static inline void Write(ByRef<int32_t> location, int32_t value);
 
   /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual false final false

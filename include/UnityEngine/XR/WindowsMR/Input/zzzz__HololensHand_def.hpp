@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/XR/zzzz__XRController_def.hpp"
 CORDL_MODULE_EXPORT(HololensHand)
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
+class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
+class AxisControl;
 }
 // Forward declare root types
 namespace UnityEngine::XR::WindowsMR::Input {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::XR::WindowsMR::Input::HololensHand);
 // SizeInfo { instance_size: 408, native_size: -1, calculated_instance_size: 408, calculated_native_size: 408, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::WindowsMR::Input {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6325))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6125))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6411))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6211))
 // CS Name: ::UnityEngine.XR.WindowsMR.Input::HololensHand*
 class CORDL_TYPE HololensHand : public ::UnityEngine::InputSystem::XR::XRController {
 public:
@@ -74,36 +74,36 @@ public:
 
   constexpr void __set__sourceLossMitigationDirection_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_deviceVelocity addr 0x2a34ed8 size 0x8 virtual false final false
+  /// @brief Method get_deviceVelocity addr 0x28b6190 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
 
-  /// @brief Method set_deviceVelocity addr 0x2a34ee0 size 0x8 virtual false final false
+  /// @brief Method set_deviceVelocity addr 0x28b6198 size 0x8 virtual false final false
   inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_airTap addr 0x2a34ee8 size 0x8 virtual false final false
+  /// @brief Method get_airTap addr 0x28b61a0 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_airTap();
 
-  /// @brief Method set_airTap addr 0x2a34ef0 size 0x8 virtual false final false
+  /// @brief Method set_airTap addr 0x28b61a8 size 0x8 virtual false final false
   inline void set_airTap(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_sourceLossRisk addr 0x2a34ef8 size 0x8 virtual false final false
+  /// @brief Method get_sourceLossRisk addr 0x28b61b0 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_sourceLossRisk();
 
-  /// @brief Method set_sourceLossRisk addr 0x2a34f00 size 0x8 virtual false final false
+  /// @brief Method set_sourceLossRisk addr 0x28b61b8 size 0x8 virtual false final false
   inline void set_sourceLossRisk(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_sourceLossMitigationDirection addr 0x2a34f08 size 0x8 virtual false final false
+  /// @brief Method get_sourceLossMitigationDirection addr 0x28b61c0 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_sourceLossMitigationDirection();
 
-  /// @brief Method set_sourceLossMitigationDirection addr 0x2a34f10 size 0x8 virtual false final false
+  /// @brief Method set_sourceLossMitigationDirection addr 0x28b61c8 size 0x8 virtual false final false
   inline void set_sourceLossMitigationDirection(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method FinishSetup addr 0x2a34f18 size 0x12c virtual true final false
+  /// @brief Method FinishSetup addr 0x28b61d0 size 0x12c virtual true final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::WindowsMR::Input::HololensHand* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a35044 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x28b62fc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HololensHand", modifiers: "&&", def_value: None }]
@@ -136,6 +136,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::WindowsMR::Input::HololensHand, 0x198>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::WindowsMR::Input::HololensHand, ____deviceVelocity_k__BackingField) == 0x178, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::WindowsMR::Input::HololensHand, ____airTap_k__BackingField) == 0x180, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::WindowsMR::Input::HololensHand, ____sourceLossRisk_k__BackingField) == 0x188, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::WindowsMR::Input::HololensHand, ____sourceLossMitigationDirection_k__BackingField) == 0x190, "Offset mismatch!");
 
 } // namespace UnityEngine::XR::WindowsMR::Input
 NEED_NO_BOX(::UnityEngine::XR::WindowsMR::Input::HololensHand);

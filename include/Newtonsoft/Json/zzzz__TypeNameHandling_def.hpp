@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::TypeNameHandling);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11840))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11768))
 // CS Name: ::Newtonsoft.Json::TypeNameHandling
 struct CORDL_TYPE TypeNameHandling {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::TypeNameHandling, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::TypeNameHandling, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::TypeNameHandling, "Newtonsoft.Json", "TypeNameHandling");

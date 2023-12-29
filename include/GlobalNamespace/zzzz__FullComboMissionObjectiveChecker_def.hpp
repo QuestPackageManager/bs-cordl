@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FullComboMissionObjectiveChecker);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5093))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5089))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5198))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5194))
 // CS Name: ::FullComboMissionObjectiveChecker*
 class CORDL_TYPE FullComboMissionObjectiveChecker : public ::GlobalNamespace::MissionObjectiveChecker {
 public:
@@ -32,18 +32,18 @@ public:
 
   constexpr void __set__comboController(::GlobalNamespace::ComboController* value);
 
-  /// @brief Method Init addr 0x23cba24 size 0x104 virtual true final false
+  /// @brief Method Init addr 0x20e9f14 size 0x104 virtual true final false
   inline void Init();
 
-  /// @brief Method OnDestroy addr 0x23cbb28 size 0xd4 virtual false final false
+  /// @brief Method OnDestroy addr 0x20ea018 size 0xd4 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleComboBreakingEventHappened addr 0x23cbbfc size 0x3c virtual false final false
+  /// @brief Method HandleComboBreakingEventHappened addr 0x20ea0ec size 0x3c virtual false final false
   inline void HandleComboBreakingEventHappened();
 
   static inline ::GlobalNamespace::FullComboMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x23cbc38 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20ea128 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FullComboMissionObjectiveChecker", modifiers: "&&", def_value: None }]
@@ -67,6 +67,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FullComboMissionObjectiveChecker, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FullComboMissionObjectiveChecker, ____comboController) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FullComboMissionObjectiveChecker);

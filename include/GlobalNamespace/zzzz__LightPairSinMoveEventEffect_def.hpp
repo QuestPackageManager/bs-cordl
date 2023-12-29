@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightPairSinMoveEventEffect)
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
 class __LightPairSinMoveEventEffect__MovementData;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BasicBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4951))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5056))
 // CS Name: ::LightPairSinMoveEventEffect::MovementData*
 class CORDL_TYPE __LightPairSinMoveEventEffect__MovementData : public ::System::Object {
 public:
@@ -112,7 +112,7 @@ public:
 
   static inline ::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData* New_ctor();
 
-  /// @brief Method .ctor addr 0x23ad0ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x227555c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LightPairSinMoveEventEffect__MovementData", modifiers: "&&", def_value: None }]
@@ -155,13 +155,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData, ___enabled) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData, ___speed) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData, ___startPosition) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData, ___transform) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData, ___startMovementValue) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData, ___movementValue) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData, ___side) == 0x38, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LightPairSinMoveEventEffect
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4952))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14941)), TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5057))
 // CS Name: ::LightPairSinMoveEventEffect*
 class CORDL_TYPE LightPairSinMoveEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -312,24 +326,24 @@ public:
 
   constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start addr 0x23acddc size 0x310 virtual false final false
+  /// @brief Method Start addr 0x2274d9c size 0x310 virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x23ad0f4 size 0x1d8 virtual false final false
+  /// @brief Method Update addr 0x22750ac size 0x1d8 virtual false final false
   inline void Update();
 
-  /// @brief Method OnDestroy addr 0x23ad2cc size 0x1c virtual false final false
+  /// @brief Method OnDestroy addr 0x2275284 size 0x1c virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeatmapEvent addr 0x23ad2e8 size 0x15c virtual false final false
+  /// @brief Method HandleBeatmapEvent addr 0x22752a0 size 0x15c virtual false final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method UpdateMovementData addr 0x23ad444 size 0x138 virtual false final false
+  /// @brief Method UpdateMovementData addr 0x22753fc size 0x138 virtual false final false
   inline void UpdateMovementData(int32_t beatmapEventDataValue, ::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData* movementData, float_t movementValueOffset);
 
   static inline ::GlobalNamespace::LightPairSinMoveEventEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x23ad57c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2275534 size 0x28 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightPairSinMoveEventEffect", modifiers: "&&", def_value: None }]
@@ -401,6 +415,38 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightPairSinMoveEventEffect, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____eventL) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____eventR) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____switchOverrideRandomValuesEvent) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____overrideRandomValues) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____startValueOffset) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____startPositionOffset) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____endPositionOffset) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____transformL) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____transformR) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____beatmapCallbacksController) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____audioTimeSource) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____movementDataL) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____movementDataR) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____randomGenerationFrameNum) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____randomStartOffset) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____beatmapDataCallbackWrapper) == 0x80, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightPairSinMoveEventEffect);

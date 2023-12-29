@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::AnimatorClipInfo);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14878))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15105))
 // CS Name: ::UnityEngine::AnimatorClipInfo
 struct CORDL_TYPE AnimatorClipInfo {
 public:
@@ -42,6 +42,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimatorClipInfo, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorClipInfo, m_ClipInstanceID) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorClipInfo, m_Weight) == 0x4, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimatorClipInfo, "UnityEngine", "AnimatorClipInfo");

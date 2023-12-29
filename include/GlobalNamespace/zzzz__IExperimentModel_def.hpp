@@ -3,11 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IExperimentModel)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace GlobalNamespace {
 class IExperimentData;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IExperimentModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4185))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4216))
 // CS Name: ::IExperimentModel*
 class CORDL_TYPE IExperimentModel {
 public:

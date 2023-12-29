@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ThreadPriority);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10038))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9966))
 // CS Name: ::UnityEngine::ThreadPriority
 struct CORDL_TYPE ThreadPriority {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ThreadPriority, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ThreadPriority, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ThreadPriority, "UnityEngine", "ThreadPriority");

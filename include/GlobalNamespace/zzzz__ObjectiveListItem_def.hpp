@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ObjectiveListItem);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5800))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5896))
 // CS Name: ::ObjectiveListItem*
 class CORDL_TYPE ObjectiveListItem : public ::UnityEngine::MonoBehaviour {
 public:
@@ -48,18 +48,18 @@ public:
 
   constexpr void __set__conditionText(::TMPro::TextMeshProUGUI* value);
 
-  /// @brief Method set_title addr 0x22e78d8 size 0x24 virtual false final false
+  /// @brief Method set_title addr 0x21a3780 size 0x24 virtual false final false
   inline void set_title(::StringW value);
 
-  /// @brief Method set_conditionText addr 0x22e78fc size 0x24 virtual false final false
+  /// @brief Method set_conditionText addr 0x21a37a4 size 0x24 virtual false final false
   inline void set_conditionText(::StringW value);
 
-  /// @brief Method set_hideCondition addr 0x22e7920 size 0x34 virtual false final false
+  /// @brief Method set_hideCondition addr 0x21a37c8 size 0x34 virtual false final false
   inline void set_hideCondition(bool value);
 
   static inline ::GlobalNamespace::ObjectiveListItem* New_ctor();
 
-  /// @brief Method .ctor addr 0x22e7954 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21a37fc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectiveListItem", modifiers: "&&", def_value: None }]
@@ -86,6 +86,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObjectiveListItem, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectiveListItem, ____titleText) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectiveListItem, ____conditionText) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ObjectiveListItem);

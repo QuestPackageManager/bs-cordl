@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12970))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12891))
 // CS Name: ::ISyncStateDeltaSerializable`1<T>*
 class CORDL_TYPE ISyncStateDeltaSerializable_1 {
 public:

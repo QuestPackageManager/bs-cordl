@@ -7,23 +7,23 @@ CORDL_MODULE_EXPORT(AuthEnvelopedDataParser)
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
+namespace Org::BouncyCastle::Asn1::Cms {
+class EncryptedContentInfoParser;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1SetParser;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class OriginatorInfo;
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Convertible;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1SequenceParser;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
-class EncryptedContentInfoParser;
+class OriginatorInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(61))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::AuthEnvelopedDataParser*
 class CORDL_TYPE AuthEnvelopedDataParser : public ::System::Object {
@@ -81,28 +81,28 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method .ctor addr 0xe74778 size 0x124 virtual false final false
+  /// @brief Method .ctor addr 0xdff5a4 size 0x124 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_Version addr 0xe7489c size 0x8 virtual false final false
+  /// @brief Method get_Version addr 0xdff6c8 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method GetOriginatorInfo addr 0xe748a4 size 0x2e0 virtual false final false
+  /// @brief Method GetOriginatorInfo addr 0xdff6d0 size 0x2e0 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* GetOriginatorInfo();
 
-  /// @brief Method GetRecipientInfos addr 0xe74b84 size 0x100 virtual false final false
+  /// @brief Method GetRecipientInfos addr 0xdff9b0 size 0x100 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetRecipientInfos();
 
-  /// @brief Method GetAuthEncryptedContentInfo addr 0xe74c84 size 0x120 virtual false final false
+  /// @brief Method GetAuthEncryptedContentInfo addr 0xdffab0 size 0x120 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* GetAuthEncryptedContentInfo();
 
-  /// @brief Method GetAuthAttrs addr 0xe7505c size 0x1b8 virtual false final false
+  /// @brief Method GetAuthAttrs addr 0xdffe88 size 0x1b8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetAuthAttrs();
 
-  /// @brief Method GetMac addr 0xe75214 size 0x130 virtual false final false
+  /// @brief Method GetMac addr 0xe00040 size 0x130 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetMac();
 
-  /// @brief Method GetUnauthAttrs addr 0xe75344 size 0x1ac virtual false final false
+  /// @brief Method GetUnauthAttrs addr 0xe00170 size 0x1ac virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetUnauthAttrs();
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthEnvelopedDataParser", modifiers: "&&", def_value: None }]
@@ -135,6 +135,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser, ___seq) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser, ___version) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser, ___nextObject) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser, ___originatorInfoCalled) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser);

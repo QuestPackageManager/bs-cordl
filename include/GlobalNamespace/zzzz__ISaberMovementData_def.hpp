@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ISaberMovementData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15012))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15159))
 // CS Name: ::ISaberMovementData*
 class CORDL_TYPE ISaberMovementData {
 public:

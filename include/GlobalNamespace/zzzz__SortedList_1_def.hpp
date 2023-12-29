@@ -19,8 +19,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TBase>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14780)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14780), inst: 4984 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14779))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14992), inst: 4878 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14991))
 // CS Name: ::SortedList`1<TBase>*
 class CORDL_TYPE SortedList_1 : public ::GlobalNamespace::SortedList_2<TBase, TBase> {
 public:

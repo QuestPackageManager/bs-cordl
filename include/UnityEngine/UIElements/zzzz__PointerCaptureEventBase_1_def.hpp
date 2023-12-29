@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointerCaptureEventBase_1)
 namespace UnityEngine::UIElements {
-class IEventHandler;
+class IPointerCaptureEventInternal;
 }
 namespace UnityEngine::UIElements {
-class IPointerCaptureEventInternal;
+class IEventHandler;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -23,8 +23,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1717 }), TypeDefinitionIndex(TypeDefinitionIndex(7180))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7150))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7266), inst: 1650 }), TypeDefinitionIndex(TypeDefinitionIndex(7266))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7236))
 // CS Name: ::UnityEngine.UIElements::PointerCaptureEventBase`1<T>*
 class CORDL_TYPE PointerCaptureEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:

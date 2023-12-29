@@ -12,10 +12,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
+struct BinaryHeaderEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryHeaderEnum;
+class __BinaryParser;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryObjec
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3268))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3242))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3267))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryObjectWithMap*
 class CORDL_TYPE BinaryObjectWithMap : public ::System::Object {
 public:
@@ -89,24 +89,24 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* New_ctor();
 
-  /// @brief Method .ctor addr 0x24c251c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2369a28 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* New_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method .ctor addr 0x24c2524 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2369a30 size 0x28 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method Set addr 0x24c254c size 0x24 virtual false final false
+  /// @brief Method Set addr 0x2369a58 size 0x24 virtual false final false
   inline void Set(int32_t objectId, ::StringW name, int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, int32_t assemId);
 
-  /// @brief Method Write addr 0x24c2570 size 0x114 virtual true final true
+  /// @brief Method Write addr 0x2369a7c size 0x114 virtual true final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method Read addr 0x24c2684 size 0x13c virtual true final true
+  /// @brief Method Read addr 0x2369b90 size 0x13c virtual true final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Dump addr 0x24c27c0 size 0x4 virtual false final false
+  /// @brief Method Dump addr 0x2369ccc size 0x4 virtual false final false
   inline void Dump();
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryObjectWithMap", modifiers: "&&", def_value: None }]
@@ -145,6 +145,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap, ___binaryHeaderEnum) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap, ___objectId) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap, ___name) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap, ___numMembers) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap, ___memberNames) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap, ___assemId) == 0x30, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap);

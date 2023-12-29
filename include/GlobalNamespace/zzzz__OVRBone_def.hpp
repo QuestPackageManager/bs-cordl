@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRBone);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8169)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8171))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8944)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8946))
 // CS Name: ::OVRBone*
 class CORDL_TYPE OVRBone : public ::System::Object {
 public:
@@ -61,32 +61,32 @@ public:
 
   constexpr void __set__Transform_k__BackingField(::UnityEngine::Transform* value);
 
-  /// @brief Method get_Id addr 0x27c000c size 0x8 virtual false final false
+  /// @brief Method get_Id addr 0x2649f98 size 0x8 virtual false final false
   inline ::GlobalNamespace::__OVRSkeleton__BoneId get_Id();
 
-  /// @brief Method set_Id addr 0x27c0014 size 0x8 virtual false final false
+  /// @brief Method set_Id addr 0x2649fa0 size 0x8 virtual false final false
   inline void set_Id(::GlobalNamespace::__OVRSkeleton__BoneId value);
 
-  /// @brief Method get_ParentBoneIndex addr 0x27c001c size 0x8 virtual false final false
+  /// @brief Method get_ParentBoneIndex addr 0x2649fa8 size 0x8 virtual false final false
   inline int16_t get_ParentBoneIndex();
 
-  /// @brief Method set_ParentBoneIndex addr 0x27c0024 size 0x8 virtual false final false
+  /// @brief Method set_ParentBoneIndex addr 0x2649fb0 size 0x8 virtual false final false
   inline void set_ParentBoneIndex(int16_t value);
 
-  /// @brief Method get_Transform addr 0x27c002c size 0x8 virtual false final false
+  /// @brief Method get_Transform addr 0x2649fb8 size 0x8 virtual false final false
   inline ::UnityEngine::Transform* get_Transform();
 
-  /// @brief Method set_Transform addr 0x27c0034 size 0x8 virtual false final false
+  /// @brief Method set_Transform addr 0x2649fc0 size 0x8 virtual false final false
   inline void set_Transform(::UnityEngine::Transform* value);
 
   static inline ::GlobalNamespace::OVRBone* New_ctor();
 
-  /// @brief Method .ctor addr 0x27bf2c0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2649254 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRBone* New_ctor(::GlobalNamespace::__OVRSkeleton__BoneId id, int16_t parentBoneIndex, ::UnityEngine::Transform* trans);
 
-  /// @brief Method .ctor addr 0x27c003c size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x2649fc8 size 0x40 virtual false final false
   inline void _ctor(::GlobalNamespace::__OVRSkeleton__BoneId id, int16_t parentBoneIndex, ::UnityEngine::Transform* trans);
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRBone", modifiers: "&&", def_value: None }]
@@ -116,6 +116,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRBone, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRBone, ____Id_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRBone, ____ParentBoneIndex_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRBone, ____Transform_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRBone);

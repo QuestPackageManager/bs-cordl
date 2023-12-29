@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataSortedListForTypeAndIds_1)
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-template <typename TBase> class __BeatmapDataSortedListForTypeAndIds_1____c;
-}
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace System {
 class Type;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
+}
+namespace GlobalNamespace {
+template <typename T> class ISortedListItemProcessor_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace GlobalNamespace {
 template <typename T> class ISortedList_1;
 }
 namespace GlobalNamespace {
-template <typename T> class ISortedListItemProcessor_1;
+template <typename TBase> class __BeatmapDataSortedListForTypeAndIds_1____c;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -49,8 +49,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TBase>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4256))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4288))
 // CS Name: ::BeatmapDataSortedListForTypeAndIds`1::<>c<TBase>*
 class CORDL_TYPE __BeatmapDataSortedListForTypeAndIds_1____c : public ::System::Object {
 public:
@@ -112,8 +112,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TBase>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4257))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4289))
 // CS Name: ::BeatmapDataSortedListForTypeAndIds`1<TBase>*
 class CORDL_TYPE BeatmapDataSortedListForTypeAndIds_1 : public ::System::Object {
 public:

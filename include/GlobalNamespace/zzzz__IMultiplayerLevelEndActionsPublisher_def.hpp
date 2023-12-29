@@ -3,11 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMultiplayerLevelEndActionsPublisher)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerLevelEndActionsPublisher);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5158))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5263))
 // CS Name: ::IMultiplayerLevelEndActionsPublisher*
 class CORDL_TYPE IMultiplayerLevelEndActionsPublisher {
 public:

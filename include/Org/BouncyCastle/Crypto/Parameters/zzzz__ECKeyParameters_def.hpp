@@ -7,8 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECKeyParameters)
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECKeyGenerationParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
 }
 namespace System {
 class Object;
@@ -16,11 +19,8 @@ class Object;
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECKeyGenerationParameters;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -80,39 +80,39 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* New_ctor(::StringW algorithm, bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
-  /// @brief Method .ctor addr 0xf331d4 size 0xfc virtual false final false
+  /// @brief Method .ctor addr 0xebdfe8 size 0xfc virtual false final false
   inline void _ctor(::StringW algorithm, bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* New_ctor(::StringW algorithm, bool isPrivate, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method .ctor addr 0xf333f4 size 0x108 virtual false final false
+  /// @brief Method .ctor addr 0xebe208 size 0x108 virtual false final false
   inline void _ctor(::StringW algorithm, bool isPrivate, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method get_AlgorithmName addr 0xf334fc size 0x8 virtual false final false
+  /// @brief Method get_AlgorithmName addr 0xebe310 size 0x8 virtual false final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_Parameters addr 0xf33504 size 0x8 virtual false final false
+  /// @brief Method get_Parameters addr 0xebe318 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* get_Parameters();
 
-  /// @brief Method get_PublicKeyParamSet addr 0xf3350c size 0x8 virtual false final false
+  /// @brief Method get_PublicKeyParamSet addr 0xebe320 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
 
-  /// @brief Method Equals addr 0xf33514 size 0xa4 virtual true final false
+  /// @brief Method Equals addr 0xebe328 size 0xa4 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xf335b8 size 0x58 virtual false final false
+  /// @brief Method Equals addr 0xebe3cc size 0x58 virtual false final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* other);
 
-  /// @brief Method GetHashCode addr 0xf33610 size 0x4c virtual true final false
+  /// @brief Method GetHashCode addr 0xebe424 size 0x4c virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method CreateKeyGenerationParameters addr 0xf3365c size 0x94 virtual false final false
+  /// @brief Method CreateKeyGenerationParameters addr 0xebe470 size 0x94 virtual false final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters* CreateKeyGenerationParameters(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method VerifyAlgorithmName addr 0xf332d0 size 0x124 virtual false final false
+  /// @brief Method VerifyAlgorithmName addr 0xebe0e4 size 0x124 virtual false final false
   static inline ::StringW VerifyAlgorithmName(::StringW algorithm);
 
-  /// @brief Method LookupParameters addr 0xf330b4 size 0x110 virtual false final false
+  /// @brief Method LookupParameters addr 0xebdec8 size 0x110 virtual false final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* LookupParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
   // Ctor Parameters [CppParam { name: "", ty: "ECKeyParameters", modifiers: "&&", def_value: None }]
@@ -142,6 +142,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters, ___algorithm) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters, ___parameters) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters, ___publicKeyParamSet) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters);

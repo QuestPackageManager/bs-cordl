@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UxmlLongAttributeDescription)
 namespace UnityEngine::UIElements {
-struct CreationContext;
-}
-namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 class __UxmlLongAttributeDescription____c;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__UxmlLongAttributeDescription____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6989))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7075))
 // CS Name: ::UxmlLongAttributeDescription::<>c*
 class CORDL_TYPE __UxmlLongAttributeDescription____c : public ::System::Object {
 public:
@@ -55,10 +55,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__UxmlLongAttributeDescription____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e0fa14 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2ca9664 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0 addr 0x2e0fa1c size 0x40 virtual false final false
+  /// @brief Method <GetValueFromBag>b__3_0 addr 0x2ca966c size 0x40 virtual false final false
   inline int64_t _GetValueFromBag_b__3_0(::StringW s, int64_t l);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UxmlLongAttributeDescription____c", modifiers: "&&", def_value: None }]
@@ -85,8 +85,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UxmlL
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 333 }), TypeDefinitionIndex(TypeDefinitionIndex(6982))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6990))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7068), inst: 844 }), TypeDefinitionIndex(TypeDefinitionIndex(7068))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7076))
 // CS Name: ::UnityEngine.UIElements::UxmlLongAttributeDescription*
 class CORDL_TYPE UxmlLongAttributeDescription : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<int64_t> {
 public:
@@ -95,13 +95,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlLongAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e0f774 size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0x2ca93c4 size 0x9c virtual false final false
   inline void _ctor();
 
-  /// @brief Method GetValueFromBag addr 0x2e0f810 size 0x164 virtual true final false
+  /// @brief Method GetValueFromBag addr 0x2ca9460 size 0x164 virtual true final false
   inline int64_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
-  /// @brief Method ConvertValueToLong addr 0x2e0f974 size 0x3c virtual false final false
+  /// @brief Method ConvertValueToLong addr 0x2ca95c4 size 0x3c virtual false final false
   static inline int64_t ConvertValueToLong(::StringW v, int64_t defaultValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlLongAttributeDescription", modifiers: "&&", def_value: None }]

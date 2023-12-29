@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::PacketProperty);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14168))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14506))
 // CS Name: ::LiteNetLib::PacketProperty
 struct CORDL_TYPE PacketProperty {
 public:
@@ -121,6 +121,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::PacketProperty, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::PacketProperty, value__) == 0x0, "Offset mismatch!");
 
 } // namespace LiteNetLib
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::PacketProperty, "LiteNetLib", "PacketProperty");

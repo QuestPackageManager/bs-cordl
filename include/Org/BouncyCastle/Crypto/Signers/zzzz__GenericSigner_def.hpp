@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericSigner)
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
-namespace Org::BouncyCastle::Crypto {
 class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
@@ -18,6 +15,9 @@ class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::GenericSigner);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1139))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::GenericSigner*
 class CORDL_TYPE GenericSigner : public ::System::Object {
@@ -69,28 +69,28 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Signers::GenericSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0xf4c380 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xed6170 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_AlgorithmName addr 0xf4c3ac size 0x274 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xed619c size 0x274 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0xf4c620 size 0x228 virtual true final false
+  /// @brief Method Init addr 0xed6410 size 0x228 virtual true final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method Update addr 0xf4c848 size 0xac virtual true final false
+  /// @brief Method Update addr 0xed6638 size 0xac virtual true final false
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate addr 0xf4c8f4 size 0xc4 virtual true final false
+  /// @brief Method BlockUpdate addr 0xed66e4 size 0xc4 virtual true final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method GenerateSignature addr 0xf4c9b8 size 0x220 virtual true final false
+  /// @brief Method GenerateSignature addr 0xed67a8 size 0x220 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method VerifySignature addr 0xf4cbd8 size 0x360 virtual true final false
+  /// @brief Method VerifySignature addr 0xed69c8 size 0x360 virtual true final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method Reset addr 0xf4cf38 size 0xa4 virtual true final false
+  /// @brief Method Reset addr 0xed6d28 size 0xa4 virtual true final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericSigner", modifiers: "&&", def_value: None }]
@@ -120,6 +120,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Signers::GenericSigner, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::GenericSigner, ___engine) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::GenericSigner, ___digest) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::GenericSigner, ___forSigning) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Signers
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::GenericSigner);

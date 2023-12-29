@@ -11,44 +11,44 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InitializationOperation)
-namespace UnityEngine::AddressableAssets::Utility {
-class ResourceManagerDiagnostics;
-}
-namespace UnityEngine::AddressableAssets::Initialization {
-class __InitializationOperation____c__DisplayClass18_0;
-}
-namespace UnityEngine::AddressableAssets::Initialization {
-class __InitializationOperation____c__DisplayClass16_0;
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl;
 }
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 class IResourceLocator;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::ResourceManagement::Util {
 struct ObjectInitializationData;
 }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
-class ContentCatalogData;
+class ResourceLocationMap;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+namespace UnityEngine::AddressableAssets::Utility {
+class ResourceManagerDiagnostics;
 }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
-class ResourceLocationMap;
+class ContentCatalogData;
+}
+namespace UnityEngine::AddressableAssets::Initialization {
+class __InitializationOperation____c;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 class InitalizationObjectsOperation;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace UnityEngine::AddressableAssets::Initialization {
+class __InitializationOperation____c__DisplayClass16_0;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::AddressableAssets::Initialization {
-class __InitializationOperation____c;
+class __InitializationOperation____c__DisplayClass18_0;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -78,8 +78,8 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Initialization::__Initializatio
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14121))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14392))
 // CS Name: ::InitializationOperation::<>c*
 class CORDL_TYPE __InitializationOperation____c : public ::System::Object {
 public:
@@ -100,10 +100,10 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a33a18 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x28b4cd0 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Execute>b__13_0 addr 0x2a33a20 size 0x9c virtual false final false
+  /// @brief Method <Execute>b__13_0 addr 0x28b4cd8 size 0x9c virtual false final false
   inline bool _Execute_b__13_0(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InitializationOperation____c", modifiers: "&&", def_value: None }]
@@ -130,8 +130,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14122))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14393))
 // CS Name: ::InitializationOperation::<>c__DisplayClass16_0*
 class CORDL_TYPE __InitializationOperation____c__DisplayClass16_0 : public ::System::Object {
 public:
@@ -165,10 +165,10 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass16_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a33abc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x28b4d74 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <LoadContentCatalog>b__0 addr 0x2a33ac4 size 0x44 virtual false final false
+  /// @brief Method <LoadContentCatalog>b__0 addr 0x28b4d7c size 0x44 virtual false final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
   _LoadContentCatalog_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> res);
 
@@ -200,13 +200,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass16_0, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass16_0, ___addressables) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass16_0, ___providerSuffix) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass16_0, ___remoteHashLocation) == 0x20, "Offset mismatch!");
+
 } // namespace UnityEngine::AddressableAssets::Initialization
 // Type: ::<>c__DisplayClass18_0
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14123))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14394))
 // CS Name: ::InitializationOperation::<>c__DisplayClass18_0*
 class CORDL_TYPE __InitializationOperation____c__DisplayClass18_0 : public ::System::Object {
 public:
@@ -258,10 +264,10 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a33b08 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x28b4dc0 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <LoadContentCatalogInternal>b__0 addr 0x2a33b10 size 0x4c virtual false final false
+  /// @brief Method <LoadContentCatalogInternal>b__0 addr 0x28b4dc8 size 0x4c virtual false final false
   inline void _LoadContentCatalogInternal_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> op);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InitializationOperation____c__DisplayClass18_0", modifiers: "&&", def_value: None }]
@@ -298,14 +304,24 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass18_0, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass18_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass18_0, ___catalogs) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass18_0, ___locMap) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass18_0, ___index) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass18_0, ___remoteHashLocation) == 0x30, "Offset mismatch!");
+
 } // namespace UnityEngine::AddressableAssets::Initialization
 // Type: UnityEngine.AddressableAssets.Initialization::InitializationOperation
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 796 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14125)), TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(14112)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14033), inst: 858 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 796 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14124)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14304), inst: 845 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14304), inst: 785 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14303), inst: 785 }), TypeDefinitionIndex(TypeDefinitionIndex(14383)), TypeDefinitionIndex(TypeDefinitionIndex(14304)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14303)), TypeDefinitionIndex(TypeDefinitionIndex(14396))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14395)) CS Name:
 // ::UnityEngine.AddressableAssets.Initialization::InitializationOperation*
 class CORDL_TYPE InitializationOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> {
 public:
@@ -380,52 +396,52 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::Initialization::InitializationOperation* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
 
-  /// @brief Method .ctor addr 0x2a309c4 size 0xa4 virtual false final false
+  /// @brief Method .ctor addr 0x28b2c7c size 0xa4 virtual false final false
   inline void _ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
 
-  /// @brief Method get_Progress addr 0x2a30a68 size 0x80 virtual true final false
+  /// @brief Method get_Progress addr 0x28b2d20 size 0x80 virtual true final false
   inline float_t get_Progress();
 
-  /// @brief Method get_DebugName addr 0x2a30ae8 size 0x40 virtual true final false
+  /// @brief Method get_DebugName addr 0x28b2da0 size 0x40 virtual true final false
   inline ::StringW get_DebugName();
 
-  /// @brief Method CreateInitializationOperation addr 0x2a1d434 size 0x588 virtual false final false
+  /// @brief Method CreateInitializationOperation addr 0x289f6ec size 0x588 virtual false final false
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
   CreateInitializationOperation(::UnityEngine::AddressableAssets::AddressablesImpl* aa, ::StringW playerSettingsLocation, ::StringW providerSuffix);
 
-  /// @brief Method InvokeWaitForCompletion addr 0x2a30b28 size 0x1c4 virtual true final false
+  /// @brief Method InvokeWaitForCompletion addr 0x28b2de0 size 0x1c4 virtual true final false
   inline bool InvokeWaitForCompletion();
 
-  /// @brief Method Execute addr 0x2a30cec size 0xd10 virtual true final false
+  /// @brief Method Execute addr 0x28b2fa4 size 0xd10 virtual true final false
   inline void Execute();
 
-  /// @brief Method LoadProvider addr 0x2a31bf0 size 0x490 virtual false final false
+  /// @brief Method LoadProvider addr 0x28b3ea8 size 0x490 virtual false final false
   static inline void LoadProvider(::UnityEngine::AddressableAssets::AddressablesImpl* addressables, ::UnityEngine::ResourceManagement::Util::ObjectInitializationData providerData,
                                   ::StringW providerSuffix);
 
-  /// @brief Method OnCatalogDataLoaded addr 0x2a32080 size 0x5a0 virtual false final false
+  /// @brief Method OnCatalogDataLoaded addr 0x28b4338 size 0x5a0 virtual false final false
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
   OnCatalogDataLoaded(::UnityEngine::AddressableAssets::AddressablesImpl* addressables,
                       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> op, ::StringW providerSuffix,
                       ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation);
 
-  /// @brief Method LoadContentCatalog addr 0x2a1df08 size 0x6a4 virtual false final false
+  /// @brief Method LoadContentCatalog addr 0x28a01c0 size 0x6a4 virtual false final false
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
   LoadContentCatalog(::UnityEngine::AddressableAssets::AddressablesImpl* addressables, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc, ::StringW providerSuffix,
                      ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation);
 
-  /// @brief Method LoadContentCatalog addr 0x2a32620 size 0x2c virtual false final false
+  /// @brief Method LoadContentCatalog addr 0x28b48d8 size 0x2c virtual false final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
   LoadContentCatalog(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc, ::StringW providerSuffix,
                      ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation);
 
-  /// @brief Method LoadContentCatalogInternal addr 0x2a319fc size 0x1f4 virtual false final false
+  /// @brief Method LoadContentCatalogInternal addr 0x28b3cb4 size 0x1f4 virtual false final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
   LoadContentCatalogInternal(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* catalogs, int32_t index,
                              ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locMap,
                              ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation);
 
-  /// @brief Method LoadOpComplete addr 0x2a3264c size 0x1368 virtual false final false
+  /// @brief Method LoadOpComplete addr 0x28b4904 size 0x368 virtual false final false
   inline void LoadOpComplete(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> op,
                              ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* catalogs,
                              ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locMap, int32_t index,
@@ -467,6 +483,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::Initialization::InitializationOperation, 0xe8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_rtdOp) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_loadCatalogOp) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_ProviderSuffix) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_Addressables) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_Diagnostics) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_InitGroupOps) == 0xe0, "Offset mismatch!");
 
 } // namespace UnityEngine::AddressableAssets::Initialization
 NEED_NO_BOX(::UnityEngine::AddressableAssets::Initialization::InitializationOperation);

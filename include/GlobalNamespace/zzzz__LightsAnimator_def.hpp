@@ -9,37 +9,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightsAnimator)
 namespace GlobalNamespace {
-class DirectionalLight;
+class __LightsAnimator___DisableDirectionalLightsCoroutine_d__11;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class DirectionalLight;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
 }
 namespace Tweening {
 class ColorTween;
 }
 namespace GlobalNamespace {
-class TubeBloomPrePassLight;
-}
-namespace GlobalNamespace {
-class __LightsAnimator___DisableDirectionalLightsCoroutine_d__11;
+struct EaseType;
 }
 namespace Tweening {
 class TimeTweeningManager;
 }
-namespace GlobalNamespace {
-struct EaseType;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,8 +55,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCor
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5144))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5249))
 // CS Name: ::LightsAnimator::<DisableDirectionalLightsCoroutine>d__11*
 class CORDL_TYPE __LightsAnimator___DisableDirectionalLightsCoroutine_d__11 : public ::System::Object {
 public:
@@ -112,22 +112,22 @@ public:
 
   static inline ::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x23d81c4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x20f664c size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x23d81f4 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x20f667c size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x23d81f8 size 0x108 virtual true final true
+  /// @brief Method MoveNext addr 0x20f6680 size 0x108 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x23d8300 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x20f6788 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x23d8308 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x20f6790 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x23d8348 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x20f67d0 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LightsAnimator___DisableDirectionalLightsCoroutine_d__11", modifiers: "&&", def_value: None }]
@@ -161,13 +161,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11, ___delay) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11, _____4__this) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LightsAnimator
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5145))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5250))
 // CS Name: ::LightsAnimator*
 class CORDL_TYPE LightsAnimator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -210,33 +218,33 @@ public:
 
   constexpr void __set__tween(::Tweening::ColorTween* value);
 
-  /// @brief Method Awake addr 0x23d7e6c size 0xe0 virtual false final false
+  /// @brief Method Awake addr 0x20f62f4 size 0xe0 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x23d7f4c size 0x88 virtual false final false
+  /// @brief Method OnDestroy addr 0x20f63d4 size 0x88 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method AnimateToColor addr 0x23d532c size 0xfc virtual false final false
+  /// @brief Method AnimateToColor addr 0x20f37ec size 0xfc virtual false final false
   inline void AnimateToColor(::UnityEngine::Color color, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method SetColor addr 0x23d7fd4 size 0x58 virtual false final false
+  /// @brief Method SetColor addr 0x20f645c size 0x58 virtual false final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method SetLightsColor addr 0x23d802c size 0xe8 virtual false final false
+  /// @brief Method SetLightsColor addr 0x20f64b4 size 0xe8 virtual false final false
   inline void SetLightsColor(::UnityEngine::Color color);
 
-  /// @brief Method SetLightsWidth addr 0x23d579c size 0x70 virtual false final false
+  /// @brief Method SetLightsWidth addr 0x20f3c5c size 0x70 virtual false final false
   inline void SetLightsWidth(float_t width);
 
-  /// @brief Method DisableDirectionalLights addr 0x23d8114 size 0x38 virtual false final false
+  /// @brief Method DisableDirectionalLights addr 0x20f659c size 0x38 virtual false final false
   inline void DisableDirectionalLights(float_t delay);
 
-  /// @brief Method DisableDirectionalLightsCoroutine addr 0x23d814c size 0x78 virtual false final false
+  /// @brief Method DisableDirectionalLightsCoroutine addr 0x20f65d4 size 0x78 virtual false final false
   inline ::System::Collections::IEnumerator* DisableDirectionalLightsCoroutine(float_t delay);
 
   static inline ::GlobalNamespace::LightsAnimator* New_ctor();
 
-  /// @brief Method .ctor addr 0x23d81ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20f6674 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightsAnimator", modifiers: "&&", def_value: None }]
@@ -269,6 +277,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightsAnimator, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightsAnimator, ____lights) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightsAnimator, ____directionalLights) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightsAnimator, ____tweeningManager) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightsAnimator, ____tween) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightsAnimator);

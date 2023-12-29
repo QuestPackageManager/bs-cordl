@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::AndroidJavaException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14909))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15054))
 // CS Name: ::UnityEngine::AndroidJavaException*
 class CORDL_TYPE AndroidJavaException : public ::System::Exception {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::AndroidJavaException* New_ctor(::StringW message, ::StringW javaStackTrace);
 
-  /// @brief Method .ctor addr 0x2c7e190 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x2b19268 size 0x74 virtual false final false
   inline void _ctor(::StringW message, ::StringW javaStackTrace);
 
-  /// @brief Method get_StackTrace addr 0x2c83e74 size 0x24 virtual true final false
+  /// @brief Method get_StackTrace addr 0x2b1ef4c size 0x24 virtual true final false
   inline ::StringW get_StackTrace();
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaException", modifiers: "&&", def_value: None }]
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AndroidJavaException, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AndroidJavaException, ___mJavaStackTrace) == 0x90, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::AndroidJavaException);

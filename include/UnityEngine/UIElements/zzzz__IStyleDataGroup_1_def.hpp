@@ -17,7 +17,7 @@ namespace UnityEngine::UIElements {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7355))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7441))
 // CS Name: ::UnityEngine.UIElements::IStyleDataGroup`1<T>*
 class CORDL_TYPE IStyleDataGroup_1 {
 public:

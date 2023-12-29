@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderMeshConstructorCrossedStrips);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4821))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4822))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4941))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4942))
 // CS Name: ::SliderMeshConstructorCrossedStrips*
 class CORDL_TYPE SliderMeshConstructorCrossedStrips : public ::GlobalNamespace::SliderMeshConstructor {
 public:
@@ -34,18 +34,18 @@ public:
 
   constexpr void __set__triangleMap(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method CreateSliderMeshInternal addr 0x2394750 size 0x3bc virtual true final false
+  /// @brief Method CreateSliderMeshInternal addr 0x225fd78 size 0x3bc virtual true final false
   inline void CreateSliderMeshInternal(::GlobalNamespace::VertexPath* path);
 
-  /// @brief Method GetVertexCount addr 0x2394b0c size 0x1c virtual true final false
+  /// @brief Method GetVertexCount addr 0x2260134 size 0x1c virtual true final false
   inline int32_t GetVertexCount(::GlobalNamespace::VertexPath* path);
 
-  /// @brief Method GetTrianglesCount addr 0x2394b28 size 0x24 virtual true final false
+  /// @brief Method GetTrianglesCount addr 0x2260150 size 0x24 virtual true final false
   inline int32_t GetTrianglesCount(::GlobalNamespace::VertexPath* path);
 
   static inline ::GlobalNamespace::SliderMeshConstructorCrossedStrips* New_ctor();
 
-  /// @brief Method .ctor addr 0x2394b4c size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x2260174 size 0x84 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderMeshConstructorCrossedStrips", modifiers: "&&", def_value: None }]
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderMeshConstructorCrossedStrips, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMeshConstructorCrossedStrips, ____triangleMap) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SliderMeshConstructorCrossedStrips);

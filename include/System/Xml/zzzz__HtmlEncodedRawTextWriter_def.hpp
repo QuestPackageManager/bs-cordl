@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HtmlEncodedRawTextWriter)
+namespace System::IO {
+class TextWriter;
+}
 namespace System::Xml {
 class TernaryTreeReadOnly;
 }
 namespace System::Xml {
 class ByteStack;
-}
-namespace System::Xml {
-class XmlWriterSettings;
 }
 namespace System::IO {
 class Stream;
@@ -24,8 +24,8 @@ class Stream;
 namespace System::Xml {
 struct XmlStandalone;
 }
-namespace System::IO {
-class TextWriter;
+namespace System::Xml {
+class XmlWriterSettings;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::System::Xml::HtmlEncodedRawTextWriter);
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 225, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11437)), TypeDefinitionIndex(TypeDefinitionIndex(11449)), TypeDefinitionIndex(TypeDefinitionIndex(11438))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11416))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11377)), TypeDefinitionIndex(TypeDefinitionIndex(11365)), TypeDefinitionIndex(TypeDefinitionIndex(11366))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11344))
 // CS Name: ::System.Xml::HtmlEncodedRawTextWriter*
 class CORDL_TYPE HtmlEncodedRawTextWriter : public ::System::Xml::XmlEncodedRawTextWriter {
 public:
@@ -122,78 +122,78 @@ public:
 
   static inline ::System::Xml::HtmlEncodedRawTextWriter* New_ctor(::System::IO::TextWriter* writer, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method .ctor addr 0x284f060 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x26d304c size 0x28 virtual false final false
   inline void _ctor(::System::IO::TextWriter* writer, ::System::Xml::XmlWriterSettings* settings);
 
   static inline ::System::Xml::HtmlEncodedRawTextWriter* New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method .ctor addr 0x284f2d8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x26d32c0 size 0x28 virtual false final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method WriteXmlDeclaration addr 0x284f588 size 0x4 virtual true final false
+  /// @brief Method WriteXmlDeclaration addr 0x26d356c size 0x4 virtual true final false
   inline void WriteXmlDeclaration(::System::Xml::XmlStandalone standalone);
 
-  /// @brief Method WriteXmlDeclaration addr 0x284f58c size 0x4 virtual true final false
+  /// @brief Method WriteXmlDeclaration addr 0x26d3570 size 0x4 virtual true final false
   inline void WriteXmlDeclaration(::StringW xmldecl);
 
-  /// @brief Method WriteDocType addr 0x284f590 size 0x228 virtual true final false
+  /// @brief Method WriteDocType addr 0x26d3574 size 0x228 virtual true final false
   inline void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset);
 
-  /// @brief Method WriteStartElement addr 0x284f868 size 0x118 virtual true final false
+  /// @brief Method WriteStartElement addr 0x26d384c size 0x118 virtual true final false
   inline void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method StartElementContent addr 0x284fb74 size 0x54 virtual true final false
+  /// @brief Method StartElementContent addr 0x26d3b58 size 0x54 virtual true final false
   inline void StartElementContent();
 
-  /// @brief Method WriteEndElement addr 0x284fcc4 size 0xf8 virtual true final false
+  /// @brief Method WriteEndElement addr 0x26d3ca8 size 0xf8 virtual true final false
   inline void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteFullEndElement addr 0x284ff2c size 0xf8 virtual true final false
+  /// @brief Method WriteFullEndElement addr 0x26d3f10 size 0xf8 virtual true final false
   inline void WriteFullEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteStartAttribute addr 0x285012c size 0x170 virtual true final false
+  /// @brief Method WriteStartAttribute addr 0x26d4110 size 0x170 virtual true final false
   inline void WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteEndAttribute addr 0x28503bc size 0x90 virtual true final false
+  /// @brief Method WriteEndAttribute addr 0x26d43a0 size 0x90 virtual true final false
   inline void WriteEndAttribute();
 
-  /// @brief Method WriteProcessingInstruction addr 0x28504e0 size 0x128 virtual true final false
+  /// @brief Method WriteProcessingInstruction addr 0x26d44c4 size 0x128 virtual true final false
   inline void WriteProcessingInstruction(::StringW target, ::StringW text);
 
-  /// @brief Method WriteString addr 0x285091c size 0x6c virtual true final false
+  /// @brief Method WriteString addr 0x26d4900 size 0x6c virtual true final false
   inline void WriteString(::StringW text);
 
-  /// @brief Method WriteEntityRef addr 0x28509d8 size 0x60 virtual true final false
+  /// @brief Method WriteEntityRef addr 0x26d49bc size 0x60 virtual true final false
   inline void WriteEntityRef(::StringW name);
 
-  /// @brief Method WriteCharEntity addr 0x2850a38 size 0x60 virtual true final false
+  /// @brief Method WriteCharEntity addr 0x26d4a1c size 0x60 virtual true final false
   inline void WriteCharEntity(char16_t ch);
 
-  /// @brief Method WriteSurrogateCharEntity addr 0x2850a98 size 0x60 virtual true final false
+  /// @brief Method WriteSurrogateCharEntity addr 0x26d4a7c size 0x60 virtual true final false
   inline void WriteSurrogateCharEntity(char16_t lowChar, char16_t highChar);
 
-  /// @brief Method WriteChars addr 0x2850af8 size 0x88 virtual true final false
+  /// @brief Method WriteChars addr 0x26d4adc size 0x88 virtual true final false
   inline void WriteChars(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Init addr 0x284f164 size 0x174 virtual false final false
+  /// @brief Method Init addr 0x26d314c size 0x174 virtual false final false
   inline void Init(::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method WriteMetaElement addr 0x284fbc8 size 0xfc virtual false final false
+  /// @brief Method WriteMetaElement addr 0x26d3bac size 0xfc virtual false final false
   inline void WriteMetaElement();
 
-  /// @brief Method WriteHtmlElementTextBlock addr 0x28509c8 size 0x10 virtual false final false
+  /// @brief Method WriteHtmlElementTextBlock addr 0x26d49ac size 0x10 virtual false final false
   inline void WriteHtmlElementTextBlock(::cordl_internals::Ptr<char16_t> pSrc, ::cordl_internals::Ptr<char16_t> pSrcEnd);
 
-  /// @brief Method WriteHtmlAttributeTextBlock addr 0x2850988 size 0x40 virtual false final false
+  /// @brief Method WriteHtmlAttributeTextBlock addr 0x26d496c size 0x40 virtual false final false
   inline void WriteHtmlAttributeTextBlock(::cordl_internals::Ptr<char16_t> pSrc, ::cordl_internals::Ptr<char16_t> pSrcEnd);
 
-  /// @brief Method WriteHtmlAttributeText addr 0x2851638 size 0x2d8 virtual false final false
+  /// @brief Method WriteHtmlAttributeText addr 0x26d561c size 0x2d8 virtual false final false
   inline void WriteHtmlAttributeText(::cordl_internals::Ptr<char16_t> pSrc, ::cordl_internals::Ptr<char16_t> pSrcEnd);
 
-  /// @brief Method WriteUriAttributeText addr 0x28512c0 size 0x378 virtual false final false
+  /// @brief Method WriteUriAttributeText addr 0x26d52a4 size 0x378 virtual false final false
   inline void WriteUriAttributeText(::cordl_internals::Ptr<char16_t> pSrc, ::cordl_internals::Ptr<char16_t> pSrcEnd);
 
-  /// @brief Method OutputRestAmps addr 0x285044c size 0x94 virtual false final false
+  /// @brief Method OutputRestAmps addr 0x26d4430 size 0x94 virtual false final false
   inline void OutputRestAmps();
 
   // Ctor Parameters [CppParam { name: "", ty: "HtmlEncodedRawTextWriter", modifiers: "&&", def_value: None }]
@@ -235,6 +235,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::HtmlEncodedRawTextWriter, 0xe8>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::HtmlEncodedRawTextWriter, ___elementScope) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::HtmlEncodedRawTextWriter, ___currentElementProperties) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::HtmlEncodedRawTextWriter, ___currentAttributeProperties) == 0xc4, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::HtmlEncodedRawTextWriter, ___endsWithAmpersand) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::HtmlEncodedRawTextWriter, ___uriEscapingBuffer) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::HtmlEncodedRawTextWriter, ___mediaType) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::HtmlEncodedRawTextWriter, ___doNotEscapeUriAttributes) == 0xe0, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::HtmlEncodedRawTextWriter);

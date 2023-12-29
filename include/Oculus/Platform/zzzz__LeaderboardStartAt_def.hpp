@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::LeaderboardStartAt);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13254))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13258))
 // CS Name: ::Oculus.Platform::LeaderboardStartAt
 struct CORDL_TYPE LeaderboardStartAt {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::LeaderboardStartAt, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::LeaderboardStartAt, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::LeaderboardStartAt, "Oculus.Platform", "LeaderboardStartAt");

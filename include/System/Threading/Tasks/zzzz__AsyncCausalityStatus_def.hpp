@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::Tasks::AsyncCausalityStatus);
 namespace System::Threading::Tasks {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2817))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2813))
 // CS Name: ::System.Threading.Tasks::AsyncCausalityStatus
 struct CORDL_TYPE AsyncCausalityStatus {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::AsyncCausalityStatus, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::AsyncCausalityStatus, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Threading::Tasks
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::AsyncCausalityStatus, "System.Threading.Tasks", "AsyncCausalityStatus");

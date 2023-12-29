@@ -16,26 +16,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextGenerationSettings)
-namespace System {
-class Object;
-}
-namespace UnityEngine::TextCore::Text {
-class SpriteAsset;
-}
-namespace UnityEngine::TextCore::Text {
-class TextSettings;
-}
 namespace UnityEngine::TextCore::Text {
 class TextStyleSheet;
 }
 namespace UnityEngine::TextCore::Text {
 class TextColorGradient;
 }
+namespace UnityEngine {
+class Material;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::TextCore::Text {
+class TextSettings;
+}
 namespace UnityEngine::TextCore::Text {
 class FontAsset;
 }
-namespace UnityEngine {
-class Material;
+namespace UnityEngine::TextCore::Text {
+class SpriteAsset;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -47,10 +47,10 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextGenerationSettings);
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 252, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(13718)), TypeDefinitionIndex(TypeDefinitionIndex(13677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13688)), TypeDefinitionIndex(TypeDefinitionIndex(13687)), TypeDefinitionIndex(TypeDefinitionIndex(13729)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13719))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(13689)) CS Name: ::UnityEngine.TextCore.Text::TextGenerationSettings*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10093)), TypeDefinitionIndex(TypeDefinitionIndex(13566)), TypeDefinitionIndex(TypeDefinitionIndex(10178)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13608)), TypeDefinitionIndex(TypeDefinitionIndex(13597)), TypeDefinitionIndex(TypeDefinitionIndex(13567)), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13598)), TypeDefinitionIndex(TypeDefinitionIndex(13556)), TypeDefinitionIndex(TypeDefinitionIndex(10173))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(13568)) CS Name: ::UnityEngine.TextCore.Text::TextGenerationSettings*
 class CORDL_TYPE TextGenerationSettings : public ::System::Object {
 public:
   // Declarations
@@ -459,18 +459,18 @@ public:
 
   constexpr void __set_charWidthMaxAdj(float_t value);
 
-  /// @brief Method Equals addr 0x2d40874 size 0x3b4 virtual false final false
+  /// @brief Method Equals addr 0x2bd84c4 size 0x3b4 virtual false final false
   inline bool Equals(::UnityEngine::TextCore::Text::TextGenerationSettings* other);
 
-  /// @brief Method Equals addr 0x2d40c28 size 0xc8 virtual true final false
+  /// @brief Method Equals addr 0x2bd8878 size 0xc8 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2d40cf0 size 0x56c virtual true final false
+  /// @brief Method GetHashCode addr 0x2bd8940 size 0x56c virtual true final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TextCore::Text::TextGenerationSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d4125c size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x2bd8eac size 0x5c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextGenerationSettings", modifiers: "&&", def_value: None }]
@@ -626,6 +626,96 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextGenerationSettings, 0x100>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___text) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___screenRect) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___margins) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___scale) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___fontAsset) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___material) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___spriteAsset) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___styleSheet) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___fontStyle) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___textSettings) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___textAlignment) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___overflowMode) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___wordWrap) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___wordWrappingRatio) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___color) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___fontColorGradient) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___tintSprites) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___overrideRichTextColors) == 0x99, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___fontSize) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___autoSize) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___fontSizeMin) == 0xa4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___fontSizeMax) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___enableKerning) == 0xac, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___richText) == 0xad, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___isRightToLeft) == 0xae, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___extraPadding) == 0xaf, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___parseControlCharacters) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___characterSpacing) == 0xb4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___wordSpacing) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___lineSpacing) == 0xbc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___paragraphSpacing) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___lineSpacingMax) == 0xc4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___maxVisibleCharacters) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___maxVisibleWords) == 0xcc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___maxVisibleLines) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___firstVisibleCharacter) == 0xd4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___useMaxVisibleDescender) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___fontWeight) == 0xdc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___pageToDisplay) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___horizontalMapping) == 0xe4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___verticalMapping) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___uvLineOffset) == 0xec, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___geometrySortingOrder) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___inverseYAxis) == 0xf4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___charWidthMaxAdj) == 0xf8, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::TextGenerationSettings);

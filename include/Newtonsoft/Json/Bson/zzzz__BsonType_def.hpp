@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Bson::BsonType);
 namespace Newtonsoft::Json::Bson {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12082))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12010))
 // CS Name: ::Newtonsoft.Json.Bson::BsonType
 struct CORDL_TYPE BsonType {
 public:
@@ -129,6 +129,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Bson::BsonType, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Bson::BsonType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Bson
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Bson::BsonType, "Newtonsoft.Json.Bson", "BsonType");

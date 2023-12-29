@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsCompressedDataGenerator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(629))
 // CS Name: ::Org.BouncyCastle.Cms::CmsCompressedDataGenerator*
 class CORDL_TYPE CmsCompressedDataGenerator : public ::System::Object {
@@ -29,10 +29,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Cms::CmsCompressedDataGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x11dcb44 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x116b8f4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Generate addr 0x11dcb4c size 0x3ec virtual false final false
+  /// @brief Method Generate addr 0x116b8fc size 0x3ec virtual false final false
   inline ::Org::BouncyCastle::Cms::CmsCompressedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW compressionOid);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataGenerator", modifiers: "&&", def_value: None }]

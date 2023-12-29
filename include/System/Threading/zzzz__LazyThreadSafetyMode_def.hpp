@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::LazyThreadSafetyMode);
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2663))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2661))
 // CS Name: ::System.Threading::LazyThreadSafetyMode
 struct CORDL_TYPE LazyThreadSafetyMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::LazyThreadSafetyMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::LazyThreadSafetyMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Threading
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::LazyThreadSafetyMode, "System.Threading", "LazyThreadSafetyMode");

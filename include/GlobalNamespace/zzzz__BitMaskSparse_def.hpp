@@ -7,16 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BitMaskSparse)
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class INetSerializable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class SortedSet_1;
-}
-namespace GlobalNamespace {
-template <typename T> class IBitMask_1;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
 }
 namespace GlobalNamespace {
 class __BitMaskSparse____c;
@@ -24,8 +21,11 @@ class __BitMaskSparse____c;
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace GlobalNamespace {
+template <typename T> class IBitMask_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BitMaskSparse____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14992))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15140))
 // CS Name: ::BitMaskSparse::<>c*
 class CORDL_TYPE __BitMaskSparse____c : public ::System::Object {
 public:
@@ -66,10 +66,10 @@ public:
 
   static inline ::GlobalNamespace::__BitMaskSparse____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x12a2080 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x122fd58 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <ToString>b__8_0 addr 0x12a2088 size 0x1c virtual false final false
+  /// @brief Method <ToString>b__8_0 addr 0x122fd60 size 0x1c virtual false final false
   inline ::StringW _ToString_b__8_0(uint32_t i);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BitMaskSparse____c", modifiers: "&&", def_value: None }]
@@ -96,8 +96,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BitMaskSparse
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14993))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15141))
 // CS Name: ::BitMaskSparse*
 class CORDL_TYPE BitMaskSparse : public ::System::Object {
 public:
@@ -133,30 +133,30 @@ public:
 
   constexpr void __set__sparseSet(::System::Collections::Generic::SortedSet_1<uint32_t>* value);
 
-  /// @brief Method get_bitCount addr 0x12a1d5c size 0x8 virtual true final true
+  /// @brief Method get_bitCount addr 0x122fa34 size 0x8 virtual true final true
   inline int32_t get_bitCount();
 
   static inline ::GlobalNamespace::BitMaskSparse* New_ctor(int32_t bitCount);
 
-  /// @brief Method .ctor addr 0x12a0478 size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x122e150 size 0x90 virtual false final false
   inline void _ctor(int32_t bitCount);
 
-  /// @brief Method Equals addr 0x12a1d64 size 0x6c virtual true final true
+  /// @brief Method Equals addr 0x122fa3c size 0x6c virtual true final true
   inline bool Equals(::GlobalNamespace::BitMaskSparse* other);
 
-  /// @brief Method SetBits addr 0x12a1dd0 size 0x90 virtual true final true
+  /// @brief Method SetBits addr 0x122faa8 size 0x90 virtual true final true
   inline ::GlobalNamespace::BitMaskSparse* SetBits(int32_t offset, uint64_t bits);
 
-  /// @brief Method GetBits addr 0x12a1e60 size 0x98 virtual true final true
+  /// @brief Method GetBits addr 0x122fb38 size 0x98 virtual true final true
   inline uint64_t GetBits(int32_t offset, int32_t count);
 
-  /// @brief Method ToString addr 0x12a1ef8 size 0x124 virtual true final false
+  /// @brief Method ToString addr 0x122fbd0 size 0x124 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method Serialize addr 0x12a0818 size 0x194 virtual true final true
+  /// @brief Method Serialize addr 0x122e4f0 size 0x194 virtual true final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize addr 0x12a09c4 size 0x94 virtual true final true
+  /// @brief Method Deserialize addr 0x122e69c size 0x94 virtual true final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   // Ctor Parameters [CppParam { name: "", ty: "BitMaskSparse", modifiers: "&&", def_value: None }]
@@ -183,6 +183,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BitMaskSparse, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BitMaskSparse, ____bitCount_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BitMaskSparse, ____sparseSet) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BitMaskSparse);

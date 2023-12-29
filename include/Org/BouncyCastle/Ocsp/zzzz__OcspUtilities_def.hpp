@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OcspUtilities)
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::OcspUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1620))
 // CS Name: ::Org.BouncyCastle.Ocsp::OcspUtilities*
 class CORDL_TYPE OcspUtilities : public ::System::Object {
@@ -57,21 +57,21 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* getStaticF_noParams();
 
-  /// @brief Method GetAlgorithmOid addr 0x10a1a60 size 0x20c virtual false final false
+  /// @brief Method GetAlgorithmOid addr 0x1030810 size 0x20c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetAlgorithmOid(::StringW algorithmName);
 
-  /// @brief Method GetAlgorithmName addr 0x109c14c size 0x198 virtual false final false
+  /// @brief Method GetAlgorithmName addr 0x102aefc size 0x198 virtual false final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetSigAlgID addr 0x109e6bc size 0x16c virtual false final false
+  /// @brief Method GetSigAlgID addr 0x102d46c size 0x16c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetSigAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOid);
 
-  /// @brief Method get_AlgNames addr 0x109e9c0 size 0x10c virtual false final false
+  /// @brief Method get_AlgNames addr 0x102d770 size 0x10c virtual false final false
   static inline ::System::Collections::IEnumerable* get_AlgNames();
 
   static inline ::Org::BouncyCastle::Ocsp::OcspUtilities* New_ctor();
 
-  /// @brief Method .ctor addr 0x10a4a90 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1033840 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OcspUtilities", modifiers: "&&", def_value: None }]

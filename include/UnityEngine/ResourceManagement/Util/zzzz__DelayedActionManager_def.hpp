@@ -14,22 +14,22 @@ namespace UnityEngine::ResourceManagement::Util {
 struct __DelayedActionManager__DelegateInfo;
 }
 namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class Delegate;
-}
 namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
+namespace System {
+class Delegate;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -46,7 +46,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::Util::__DelayedActionManager__Dele
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13967))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14238))
 // CS Name: ::DelayedActionManager::DelegateInfo
 struct CORDL_TYPE __DelayedActionManager__DelegateInfo {
 public:
@@ -60,19 +60,19 @@ public:
 
   static inline int32_t getStaticF_s_Id();
 
-  /// @brief Method .ctor addr 0x2bd07e8 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x2a4da94 size 0x80 virtual false final false
   inline void _ctor(::System::Delegate* d, float_t invocationTime, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> p);
 
-  /// @brief Method get_InvocationTime addr 0x2bd11d8 size 0x8 virtual false final false
+  /// @brief Method get_InvocationTime addr 0x2a4e484 size 0x8 virtual false final false
   inline float_t get_InvocationTime();
 
-  /// @brief Method set_InvocationTime addr 0x2bd11e0 size 0x8 virtual false final false
+  /// @brief Method set_InvocationTime addr 0x2a4e48c size 0x8 virtual false final false
   inline void set_InvocationTime(float_t value);
 
-  /// @brief Method ToString addr 0x2bd11e8 size 0x430 virtual true final false
+  /// @brief Method ToString addr 0x2a4e494 size 0x430 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method Invoke addr 0x2bd0dec size 0x17c virtual false final false
+  /// @brief Method Invoke addr 0x2a4e098 size 0x17c virtual false final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Delegate", ty: "::System::Delegate*", modifiers: "", def_value: None }, CppParam {
@@ -105,13 +105,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo, m_Id) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo, m_Delegate) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo, m_Target) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo, _InvocationTime_k__BackingField) == 0x18, "Offset mismatch!");
+
 } // namespace UnityEngine::ResourceManagement::Util
 // Type: UnityEngine.ResourceManagement.Util::DelayedActionManager
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst: 1060 }), TypeDefinitionIndex(TypeDefinitionIndex(13966))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13968))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14237)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14237), inst: 1038 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14239))
 // CS Name: ::UnityEngine.ResourceManagement.Util::DelayedActionManager*
 class CORDL_TYPE DelayedActionManager : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::UnityEngine::ResourceManagement::Util::DelayedActionManager*> {
 public:
@@ -178,40 +186,40 @@ public:
 
   constexpr void __set_m_DestroyOnCompletion(bool value);
 
-  /// @brief Method GetNode addr 0x2bd0374 size 0xfc virtual false final false
+  /// @brief Method GetNode addr 0x2a4d620 size 0xfc virtual false final false
   inline ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*
   GetNode(ByRef<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo> del);
 
-  /// @brief Method Clear addr 0x2bd0470 size 0x74 virtual false final false
+  /// @brief Method Clear addr 0x2a4d71c size 0x74 virtual false final false
   static inline void Clear();
 
-  /// @brief Method DestroyWhenComplete addr 0x2bd04e4 size 0xc virtual false final false
+  /// @brief Method DestroyWhenComplete addr 0x2a4d790 size 0xc virtual false final false
   inline void DestroyWhenComplete();
 
-  /// @brief Method AddAction addr 0x2bd04f0 size 0x74 virtual false final false
+  /// @brief Method AddAction addr 0x2a4d79c size 0x74 virtual false final false
   static inline void AddAction(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
 
-  /// @brief Method AddActionInternal addr 0x2bd0564 size 0x284 virtual false final false
+  /// @brief Method AddActionInternal addr 0x2a4d810 size 0x284 virtual false final false
   inline void AddActionInternal(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
 
-  /// @brief Method get_IsActive addr 0x2bd0868 size 0x114 virtual false final false
+  /// @brief Method get_IsActive addr 0x2a4db14 size 0x114 virtual false final false
   static inline bool get_IsActive();
 
-  /// @brief Method Wait addr 0x2bd097c size 0x130 virtual false final false
+  /// @brief Method Wait addr 0x2a4dc28 size 0x130 virtual false final false
   static inline bool Wait(float_t timeout, float_t timeAdvanceAmount);
 
-  /// @brief Method LateUpdate addr 0x2bd0dd0 size 0x1c virtual false final false
+  /// @brief Method LateUpdate addr 0x2a4e07c size 0x1c virtual false final false
   inline void LateUpdate();
 
-  /// @brief Method InternalLateUpdate addr 0x2bd0aac size 0x324 virtual false final false
+  /// @brief Method InternalLateUpdate addr 0x2a4dd58 size 0x324 virtual false final false
   inline void InternalLateUpdate(float_t t);
 
-  /// @brief Method OnApplicationQuit addr 0x2bd0f68 size 0xb4 virtual false final false
+  /// @brief Method OnApplicationQuit addr 0x2a4e214 size 0xb4 virtual false final false
   inline void OnApplicationQuit();
 
   static inline ::UnityEngine::ResourceManagement::Util::DelayedActionManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bd101c size 0x1bc virtual false final false
+  /// @brief Method .ctor addr 0x2a4e2c8 size 0x1bc virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DelayedActionManager", modifiers: "&&", def_value: None }]
@@ -249,6 +257,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Util::DelayedActionManager, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::DelayedActionManager, ___m_Actions) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::DelayedActionManager, ___m_DelayedActions) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::DelayedActionManager, ___m_NodeCache) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::DelayedActionManager, ___m_CollectionIndex) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::DelayedActionManager, ___m_DestroyOnCompletion) == 0x34, "Offset mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::Util
 NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::DelayedActionManager);

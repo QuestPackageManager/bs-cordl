@@ -20,7 +20,7 @@ namespace System {
 // cpp template
 template <typename TEventArgs>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2378))
 // CS Name: ::System::EventHandler`1<TEventArgs>*
 class CORDL_TYPE EventHandler_1 : public ::System::MulticastDelegate {

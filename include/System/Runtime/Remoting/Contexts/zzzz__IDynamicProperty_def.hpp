@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IDynamicProperty);
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3113))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3112))
 // CS Name: ::System.Runtime.Remoting.Contexts::IDynamicProperty*
 class CORDL_TYPE IDynamicProperty {
 public:

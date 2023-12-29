@@ -22,15 +22,15 @@ MARK_VAL_T(::System::Net::Sockets::IPPacketInformation);
 namespace System::Net::Sockets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9339))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8176))
 // CS Name: ::System.Net.Sockets::IPPacketInformation
 struct CORDL_TYPE IPPacketInformation {
 public:
   // Declarations
-  /// @brief Method Equals addr 0x28fc550 size 0x9c virtual true final false
+  /// @brief Method Equals addr 0x277e52c size 0x9c virtual true final false
   inline bool Equals(::System::Object* comparand);
 
-  /// @brief Method GetHashCode addr 0x28fc5ec size 0x44 virtual true final false
+  /// @brief Method GetHashCode addr 0x277e5c8 size 0x44 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "address", ty: "::System::Net::IPAddress*", modifiers: "", def_value: None }, CppParam { name: "networkInterface", ty: "int32_t", modifiers: "", def_value: None
@@ -54,6 +54,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::IPPacketInformation, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::IPPacketInformation, address) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::IPPacketInformation, networkInterface) == 0x8, "Offset mismatch!");
 
 } // namespace System::Net::Sockets
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::IPPacketInformation, "System.Net.Sockets", "IPPacketInformation");

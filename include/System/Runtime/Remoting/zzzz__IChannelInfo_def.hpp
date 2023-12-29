@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::IChannelInfo);
 namespace System::Runtime::Remoting {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3057))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3056))
 // CS Name: ::System.Runtime.Remoting::IChannelInfo*
 class CORDL_TYPE IChannelInfo {
 public:

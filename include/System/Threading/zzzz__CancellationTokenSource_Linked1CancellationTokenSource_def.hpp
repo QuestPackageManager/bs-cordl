@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Threading::__CancellationTokenSource__Linked1Cancellati
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2683)), TypeDefinitionIndex(TypeDefinitionIndex(2688))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2684))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2686)), TypeDefinitionIndex(TypeDefinitionIndex(2681))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2682))
 // CS Name: ::CancellationTokenSource::Linked1CancellationTokenSource*
 class CORDL_TYPE __CancellationTokenSource__Linked1CancellationTokenSource : public ::System::Threading::CancellationTokenSource {
 public:
@@ -35,10 +35,10 @@ public:
 
   static inline ::System::Threading::__CancellationTokenSource__Linked1CancellationTokenSource* New_ctor(::System::Threading::CancellationToken token1);
 
-  /// @brief Method .ctor addr 0x2613880 size 0xd8 virtual false final false
+  /// @brief Method .ctor addr 0x24b8864 size 0xd8 virtual false final false
   inline void _ctor(::System::Threading::CancellationToken token1);
 
-  /// @brief Method Dispose addr 0x2613c94 size 0x34 virtual true final false
+  /// @brief Method Dispose addr 0x24b8c78 size 0x34 virtual true final false
   inline void Dispose(bool disposing);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CancellationTokenSource__Linked1CancellationTokenSource", modifiers: "&&", def_value: None }]
@@ -62,6 +62,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::__CancellationTokenSource__Linked1CancellationTokenSource, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::__CancellationTokenSource__Linked1CancellationTokenSource, ____reg1) == 0x40, "Offset mismatch!");
 
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::__CancellationTokenSource__Linked1CancellationTokenSource);

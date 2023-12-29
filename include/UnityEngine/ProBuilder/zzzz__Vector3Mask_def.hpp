@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector3Mask)
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 struct Vector3;
 }
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace UnityEngine {
-struct Quaternion;
+class Object;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -30,7 +30,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::Vector3Mask);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12217))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12145))
 // CS Name: ::UnityEngine.ProBuilder::Vector3Mask
 struct CORDL_TYPE Vector3Mask {
 public:
@@ -55,70 +55,70 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Vector3Mask getStaticF_XYZ();
 
-  /// @brief Method get_x addr 0x2b80750 size 0x18 virtual false final false
+  /// @brief Method get_x addr 0x29ff9fc size 0x18 virtual false final false
   inline float_t get_x();
 
-  /// @brief Method get_y addr 0x2b80768 size 0x18 virtual false final false
+  /// @brief Method get_y addr 0x29ffa14 size 0x18 virtual false final false
   inline float_t get_y();
 
-  /// @brief Method get_z addr 0x2b80780 size 0x18 virtual false final false
+  /// @brief Method get_z addr 0x29ffa2c size 0x18 virtual false final false
   inline float_t get_z();
 
-  /// @brief Method .ctor addr 0x2b80798 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x29ffa44 size 0x34 virtual false final false
   inline void _ctor(::UnityEngine::Vector3 v, float_t epsilon);
 
-  /// @brief Method .ctor addr 0x2b807cc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x29ffa78 size 0x8 virtual false final false
   inline void _ctor(uint8_t mask);
 
-  /// @brief Method ToString addr 0x2b807d4 size 0xec virtual true final false
+  /// @brief Method ToString addr 0x29ffa80 size 0xec virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method get_active addr 0x2b808c0 size 0x1c virtual false final false
+  /// @brief Method get_active addr 0x29ffb6c size 0x1c virtual false final false
   inline int32_t get_active();
 
-  /// @brief Method op_Implicit addr 0x2b808dc size 0x24 virtual false final false
+  /// @brief Method op_Implicit addr 0x29ffb88 size 0x24 virtual false final false
   static inline ::UnityEngine::Vector3 op_Implicit___UnityEngine__Vector3(::UnityEngine::ProBuilder::Vector3Mask mask);
 
-  /// @brief Method op_Explicit addr 0x2b80900 size 0x38 virtual false final false
+  /// @brief Method op_Explicit addr 0x29ffbac size 0x38 virtual false final false
   static inline ::UnityEngine::ProBuilder::Vector3Mask op_Explicit___UnityEngine__ProBuilder__Vector3Mask(::UnityEngine::Vector3 v);
 
-  /// @brief Method op_BitwiseOr addr 0x2b80938 size 0xc virtual false final false
+  /// @brief Method op_BitwiseOr addr 0x29ffbe4 size 0xc virtual false final false
   static inline ::UnityEngine::ProBuilder::Vector3Mask op_BitwiseOr(::UnityEngine::ProBuilder::Vector3Mask left, ::UnityEngine::ProBuilder::Vector3Mask right);
 
-  /// @brief Method op_BitwiseAnd addr 0x2b80944 size 0xc virtual false final false
+  /// @brief Method op_BitwiseAnd addr 0x29ffbf0 size 0xc virtual false final false
   static inline ::UnityEngine::ProBuilder::Vector3Mask op_BitwiseAnd(::UnityEngine::ProBuilder::Vector3Mask left, ::UnityEngine::ProBuilder::Vector3Mask right);
 
-  /// @brief Method op_ExclusiveOr addr 0x2b80950 size 0xc virtual false final false
+  /// @brief Method op_ExclusiveOr addr 0x29ffbfc size 0xc virtual false final false
   static inline ::UnityEngine::ProBuilder::Vector3Mask op_ExclusiveOr(::UnityEngine::ProBuilder::Vector3Mask left, ::UnityEngine::ProBuilder::Vector3Mask right);
 
-  /// @brief Method op_Multiply addr 0x2b8095c size 0x34 virtual false final false
+  /// @brief Method op_Multiply addr 0x29ffc08 size 0x34 virtual false final false
   static inline ::UnityEngine::Vector3 op_Multiply(::UnityEngine::ProBuilder::Vector3Mask mask, float_t value);
 
-  /// @brief Method op_Multiply addr 0x2b80990 size 0x30 virtual false final false
+  /// @brief Method op_Multiply addr 0x29ffc3c size 0x30 virtual false final false
   static inline ::UnityEngine::Vector3 op_Multiply(::UnityEngine::ProBuilder::Vector3Mask mask, ::UnityEngine::Vector3 value);
 
-  /// @brief Method op_Multiply addr 0x2b809c0 size 0x13c virtual false final false
+  /// @brief Method op_Multiply addr 0x29ffc6c size 0x13c virtual false final false
   static inline ::UnityEngine::Vector3 op_Multiply(::UnityEngine::Quaternion rotation, ::UnityEngine::ProBuilder::Vector3Mask mask);
 
-  /// @brief Method op_Equality addr 0x2b80afc size 0x10 virtual false final false
+  /// @brief Method op_Equality addr 0x29ffda8 size 0x10 virtual false final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::Vector3Mask left, ::UnityEngine::ProBuilder::Vector3Mask right);
 
-  /// @brief Method op_Inequality addr 0x2b80b0c size 0x68 virtual false final false
+  /// @brief Method op_Inequality addr 0x29ffdb8 size 0x68 virtual false final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::Vector3Mask left, ::UnityEngine::ProBuilder::Vector3Mask right);
 
-  /// @brief Method get_Item addr 0x2b80b74 size 0x60 virtual false final false
+  /// @brief Method get_Item addr 0x29ffe20 size 0x60 virtual false final false
   inline float_t get_Item(int32_t i);
 
-  /// @brief Method set_Item addr 0x2b80bd4 size 0x74 virtual false final false
+  /// @brief Method set_Item addr 0x29ffe80 size 0x74 virtual false final false
   inline void set_Item(int32_t i, float_t value);
 
-  /// @brief Method Equals addr 0x2b80c48 size 0x10 virtual true final true
+  /// @brief Method Equals addr 0x29ffef4 size 0x10 virtual true final true
   inline bool Equals(::UnityEngine::ProBuilder::Vector3Mask other);
 
-  /// @brief Method Equals addr 0x2b80c58 size 0x78 virtual true final false
+  /// @brief Method Equals addr 0x29fff04 size 0x78 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2b80cd0 size 0x8 virtual true final false
+  /// @brief Method GetHashCode addr 0x29fff7c size 0x8 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_Mask", ty: "uint8_t", modifiers: "", def_value: None }]
@@ -147,6 +147,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Vector3Mask, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Vector3Mask, m_Mask) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Vector3Mask, "UnityEngine.ProBuilder", "Vector3Mask");

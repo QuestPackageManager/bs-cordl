@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::LiteNetLib::IDeliveryEventListener);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14134))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14472))
 // CS Name: ::LiteNetLib::IDeliveryEventListener*
 class CORDL_TYPE IDeliveryEventListener {
 public:

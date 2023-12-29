@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::UserCapability);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13487))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13550))
 // CS Name: ::Oculus.Platform.Models::UserCapability*
 class CORDL_TYPE UserCapability : public ::System::Object {
 public:
@@ -60,7 +60,7 @@ public:
 
   static inline ::Oculus::Platform::Models::UserCapability* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x2709038 size 0xac virtual false final false
+  /// @brief Method .ctor addr 0x25b81dc size 0xac virtual false final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "UserCapability", modifiers: "&&", def_value: None }]
@@ -93,6 +93,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::UserCapability, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::UserCapability, ___Description) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::UserCapability, ___IsEnabled) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::UserCapability, ___Name) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::UserCapability, ___ReasonCode) == 0x28, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::UserCapability);

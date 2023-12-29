@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IJobExtensions)
-namespace System {
-class Object;
-}
 namespace Unity::Jobs::LowLevel::Unsafe {
 struct JobRanges;
+}
+namespace System {
+class Object;
 }
 namespace Unity::Jobs {
 template <typename T> struct __IJobExtensions__JobStruct_1;
@@ -44,8 +44,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9974))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9902))
 // CS Name: ::IJobExtensions::JobStruct`1::ExecuteJobFunction<T>*
 class CORDL_TYPE __IJobExtensions__JobStruct_1__ExecuteJobFunction : public ::System::MulticastDelegate {
 public:
@@ -82,8 +82,8 @@ namespace Unity::Jobs {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9975))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9903))
 // CS Name: ::IJobExtensions::JobStruct`1<T>
 #pragma pack(push, 0)
 struct CORDL_TYPE __IJobExtensions__JobStruct_1 {
@@ -120,8 +120,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::Jobs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9976))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9904))
 // CS Name: ::Unity.Jobs::IJobExtensions*
 class CORDL_TYPE IJobExtensions : public ::System::Object {
 public:

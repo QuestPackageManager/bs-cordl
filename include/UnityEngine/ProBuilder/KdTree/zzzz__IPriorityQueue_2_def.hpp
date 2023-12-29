@@ -17,7 +17,7 @@ namespace UnityEngine::ProBuilder::KdTree {
 template <typename TItem, typename TPriority>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15913))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15805))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::IPriorityQueue`2<TItem,TPriority>*
 class CORDL_TYPE IPriorityQueue_2 {
 public:

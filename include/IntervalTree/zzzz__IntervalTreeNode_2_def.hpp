@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntervalTreeNode_2)
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace IntervalTree {
 template <typename TKey, typename TValue> struct RangeValuePair_2;
 }
@@ -13,16 +16,13 @@ namespace IntervalTree {
 template <typename TKey, typename TValue> class __IntervalTreeNode_2____c;
 }
 namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -43,8 +43,8 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16133))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15987))
 // CS Name: ::IntervalTreeNode`2::<>c<TKey,TValue>*
 class CORDL_TYPE __IntervalTreeNode_2____c : public ::System::Object {
 public:
@@ -105,8 +105,8 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16134))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15988))
 // CS Name: ::IntervalTree::IntervalTreeNode`2<TKey,TValue>*
 class CORDL_TYPE IntervalTreeNode_2 : public ::System::Object {
 public:

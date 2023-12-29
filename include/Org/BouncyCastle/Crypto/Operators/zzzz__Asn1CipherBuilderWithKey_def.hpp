@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1CipherBuilderWithKey)
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Crypto {
-class ICipher;
+class ICipherBuilderWithKey;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherBuilder;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipher;
 }
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherBuilderWithKey;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherBuilder;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(980))
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::Asn1CipherBuilderWithKey*
 class CORDL_TYPE Asn1CipherBuilderWithKey : public ::System::Object {
@@ -82,19 +82,19 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize,
                                                                                            ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor addr 0xf281e0 size 0x120 virtual false final false
+  /// @brief Method .ctor addr 0xeb2ff4 size 0x120 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_AlgorithmDetails addr 0xf28400 size 0x8 virtual true final true
+  /// @brief Method get_AlgorithmDetails addr 0xeb3214 size 0x8 virtual true final true
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method GetMaxOutputSize addr 0xf28408 size 0x40 virtual true final true
+  /// @brief Method GetMaxOutputSize addr 0xeb321c size 0x40 virtual true final true
   inline int32_t GetMaxOutputSize(int32_t inputLen);
 
-  /// @brief Method BuildCipher addr 0xf28448 size 0x198 virtual true final true
+  /// @brief Method BuildCipher addr 0xeb325c size 0x198 virtual true final true
   inline ::Org::BouncyCastle::Crypto::ICipher* BuildCipher(::System::IO::Stream* stream);
 
-  /// @brief Method get_Key addr 0xf2866c size 0x8 virtual true final true
+  /// @brief Method get_Key addr 0xeb3480 size 0x8 virtual true final true
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Key();
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1CipherBuilderWithKey", modifiers: "&&", def_value: None }]
@@ -121,6 +121,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey, ___encKey) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey, ___algorithmIdentifier) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Operators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey);

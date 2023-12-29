@@ -196,57 +196,57 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::MD5Digest* New_ctor();
 
-  /// @brief Method .ctor addr 0x1228794 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x11b8544 size 0x6c virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::MD5Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::MD5Digest* t);
 
-  /// @brief Method .ctor addr 0x1228800 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x11b85b0 size 0x74 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::MD5Digest* t);
 
-  /// @brief Method CopyIn addr 0x1228874 size 0x5c virtual false final false
+  /// @brief Method CopyIn addr 0x11b8624 size 0x5c virtual false final false
   inline void CopyIn(::Org::BouncyCastle::Crypto::Digests::MD5Digest* t);
 
-  /// @brief Method get_AlgorithmName addr 0x12288d0 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0x11b8680 size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetDigestSize addr 0x1228910 size 0x8 virtual true final false
+  /// @brief Method GetDigestSize addr 0x11b86c0 size 0x8 virtual true final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method ProcessWord addr 0x1228918 size 0x80 virtual true final false
+  /// @brief Method ProcessWord addr 0x11b86c8 size 0x80 virtual true final false
   inline void ProcessWord(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method ProcessLength addr 0x1228998 size 0xb8 virtual true final false
+  /// @brief Method ProcessLength addr 0x11b8748 size 0xb8 virtual true final false
   inline void ProcessLength(int64_t bitLength);
 
-  /// @brief Method DoFinal addr 0x1228a50 size 0x90 virtual true final false
+  /// @brief Method DoFinal addr 0x11b8800 size 0x90 virtual true final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0x1228ae0 size 0x60 virtual true final false
+  /// @brief Method Reset addr 0x11b8890 size 0x60 virtual true final false
   inline void Reset();
 
-  /// @brief Method RotateLeft addr 0x1228b40 size 0xc virtual false final false
+  /// @brief Method RotateLeft addr 0x11b88f0 size 0xc virtual false final false
   static inline uint32_t RotateLeft(uint32_t x, int32_t n);
 
-  /// @brief Method F addr 0x1228b4c size 0x10 virtual false final false
+  /// @brief Method F addr 0x11b88fc size 0x10 virtual false final false
   static inline uint32_t F(uint32_t u, uint32_t v, uint32_t w);
 
-  /// @brief Method G addr 0x1228b5c size 0x10 virtual false final false
+  /// @brief Method G addr 0x11b890c size 0x10 virtual false final false
   static inline uint32_t G(uint32_t u, uint32_t v, uint32_t w);
 
-  /// @brief Method H addr 0x1228b6c size 0xc virtual false final false
+  /// @brief Method H addr 0x11b891c size 0xc virtual false final false
   static inline uint32_t H(uint32_t u, uint32_t v, uint32_t w);
 
-  /// @brief Method K addr 0x1228b78 size 0xc virtual false final false
+  /// @brief Method K addr 0x11b8928 size 0xc virtual false final false
   static inline uint32_t K(uint32_t u, uint32_t v, uint32_t w);
 
-  /// @brief Method ProcessBlock addr 0x1228b84 size 0xb68 virtual true final false
+  /// @brief Method ProcessBlock addr 0x11b8934 size 0xb68 virtual true final false
   inline void ProcessBlock();
 
-  /// @brief Method Copy addr 0x12296ec size 0x60 virtual true final false
+  /// @brief Method Copy addr 0x11b949c size 0x60 virtual true final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method Reset addr 0x122974c size 0x84 virtual true final false
+  /// @brief Method Reset addr 0x11b94fc size 0x84 virtual true final false
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "MD5Digest", modifiers: "&&", def_value: None }]
@@ -288,6 +288,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::MD5Digest, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::MD5Digest, ___H1) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::MD5Digest, ___H2) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::MD5Digest, ___H3) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::MD5Digest, ___H4) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::MD5Digest, ___X) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::MD5Digest, ___xOff) == 0x40, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Digests
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::MD5Digest);

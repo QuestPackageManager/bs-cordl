@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UIKeyboardKey)
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine {
 struct KeyCode;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace HMUI {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::HMUI::UIKeyboardKey);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10058))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13540))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9986)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13659))
 // CS Name: ::HMUI::UIKeyboardKey*
 class CORDL_TYPE UIKeyboardKey : public ::UnityEngine::MonoBehaviour {
 public:
@@ -68,21 +68,21 @@ public:
 
   constexpr void __set__canBeUppercase(bool value);
 
-  /// @brief Method get_keyCode addr 0x211e540 size 0x8 virtual false final false
+  /// @brief Method get_keyCode addr 0x1fc82e4 size 0x8 virtual false final false
   inline ::UnityEngine::KeyCode get_keyCode();
 
-  /// @brief Method get_canBeUppercase addr 0x211e548 size 0x8 virtual false final false
+  /// @brief Method get_canBeUppercase addr 0x1fc82ec size 0x8 virtual false final false
   inline bool get_canBeUppercase();
 
-  /// @brief Method Awake addr 0x211e550 size 0xa4 virtual false final false
+  /// @brief Method Awake addr 0x1fc82f4 size 0xa4 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnValidate addr 0x211e5f4 size 0xe0 virtual false final false
+  /// @brief Method OnValidate addr 0x1fc8398 size 0xe0 virtual false final false
   inline void OnValidate();
 
   static inline ::HMUI::UIKeyboardKey* New_ctor();
 
-  /// @brief Method .ctor addr 0x211e6d4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fc8478 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardKey", modifiers: "&&", def_value: None }]
@@ -115,6 +115,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::UIKeyboardKey, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::UIKeyboardKey, ____keyCode) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::UIKeyboardKey, ____text) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::UIKeyboardKey, ____overrideText) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::UIKeyboardKey, ____canBeUppercase) == 0x30, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::UIKeyboardKey);

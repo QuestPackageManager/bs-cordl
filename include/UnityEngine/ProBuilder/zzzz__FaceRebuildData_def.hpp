@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FaceRebuildData)
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace UnityEngine::ProBuilder {
 class Vertex;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::FaceRebuildData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12125))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12053))
 // CS Name: ::UnityEngine.ProBuilder::FaceRebuildData*
 class CORDL_TYPE FaceRebuildData : public ::System::Object {
 public:
@@ -85,24 +85,24 @@ public:
 
   constexpr void __set__appliedOffset(int32_t value);
 
-  /// @brief Method Offset addr 0x2b41c60 size 0x8 virtual false final false
+  /// @brief Method Offset addr 0x29bff0c size 0x8 virtual false final false
   inline int32_t Offset();
 
-  /// @brief Method ToString addr 0x2b41c68 size 0xc8 virtual true final false
+  /// @brief Method ToString addr 0x29bff14 size 0xc8 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method Apply addr 0x2b41d30 size 0x184 virtual false final false
+  /// @brief Method Apply addr 0x29bffdc size 0x184 virtual false final false
   static inline void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                            ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method Apply addr 0x2b41eb4 size 0x590 virtual false final false
+  /// @brief Method Apply addr 0x29c0160 size 0x590 virtual false final false
   static inline void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces,
                            ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces,
                            ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedVertexLookup, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedTextureLookup);
 
   static inline ::UnityEngine::ProBuilder::FaceRebuildData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b42444 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x29c06f0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FaceRebuildData", modifiers: "&&", def_value: None }]
@@ -138,6 +138,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::FaceRebuildData, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::FaceRebuildData, ___face) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::FaceRebuildData, ___vertices) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::FaceRebuildData, ___sharedIndexes) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::FaceRebuildData, ___sharedIndexesUV) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::FaceRebuildData, ____appliedOffset) == 0x30, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::FaceRebuildData);

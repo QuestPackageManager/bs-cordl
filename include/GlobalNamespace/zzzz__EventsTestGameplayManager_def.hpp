@@ -10,40 +10,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventsTestGameplayManager)
 namespace GlobalNamespace {
-class __EventsTestGameplayManager____c__DisplayClass18_0;
-}
-namespace GlobalNamespace {
-class BeatmapData;
-}
-namespace GlobalNamespace {
 class __EventsTestGameplayManager__MockBeatToTimeConvertor;
 }
 namespace GlobalNamespace {
-struct BasicBeatmapEventType;
-}
-namespace GlobalNamespace {
-class BeatmapEventDataBoxGroupList;
-}
-namespace GlobalNamespace {
-class __EventsTestGameplayManager____c__DisplayClass19_0;
+class BeatmapData;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class IAudioTimeSource;
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+struct BasicBeatmapEventType;
+}
+namespace GlobalNamespace {
+class __EventsTestGameplayManager____c__DisplayClass19_0;
+}
+namespace GlobalNamespace {
+class __EventsTestGameplayManager____c__DisplayClass18_0;
 }
 namespace UnityEngine {
 struct KeyCode;
 }
 namespace GlobalNamespace {
-struct EnvironmentColorType;
-}
-namespace GlobalNamespace {
 class __EventsTestGameplayManager____c__DisplayClass20_0;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class BeatmapEventDataBoxGroupList;
+}
+namespace GlobalNamespace {
+struct EnvironmentColorType;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class IBeatToTimeConvertor;
@@ -77,8 +77,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5010))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5115))
 // CS Name: ::EventsTestGameplayManager::MockBeatToTimeConvertor*
 class CORDL_TYPE __EventsTestGameplayManager__MockBeatToTimeConvertor : public ::System::Object {
 public:
@@ -97,10 +97,10 @@ public:
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor* New_ctor(float_t bpm);
 
-  /// @brief Method .ctor addr 0x23b8b24 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x227fcb8 size 0x28 virtual false final false
   inline void _ctor(float_t bpm);
 
-  /// @brief Method ConvertBeatToTime addr 0x23bb80c size 0x18 virtual true final true
+  /// @brief Method ConvertBeatToTime addr 0x2282950 size 0x18 virtual true final true
   inline float_t ConvertBeatToTime(float_t beat);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EventsTestGameplayManager__MockBeatToTimeConvertor", modifiers: "&&", def_value: None }]
@@ -125,13 +125,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor, ____bpm) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass18_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5011))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5116))
 // CS Name: ::EventsTestGameplayManager::<>c__DisplayClass18_0*
 class CORDL_TYPE __EventsTestGameplayManager____c__DisplayClass18_0 : public ::System::Object {
 public:
@@ -147,10 +149,10 @@ public:
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x23bb198 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22822dc size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <AddEventsForLightGroup>b__0 addr 0x23bb824 size 0x30 virtual false final false
+  /// @brief Method <AddEventsForLightGroup>b__0 addr 0x2282968 size 0x30 virtual false final false
   inline bool _AddEventsForLightGroup_b__0(::GlobalNamespace::LightGroup* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EventsTestGameplayManager____c__DisplayClass18_0", modifiers: "&&", def_value: None }]
@@ -175,13 +177,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass18_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass18_0, ___lightGroupId) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass19_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5012))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5117))
 // CS Name: ::EventsTestGameplayManager::<>c__DisplayClass19_0*
 class CORDL_TYPE __EventsTestGameplayManager____c__DisplayClass19_0 : public ::System::Object {
 public:
@@ -197,10 +201,10 @@ public:
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass19_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x23bb1a0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22822e4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <AddInstantToggleEventsForLightGroup>b__0 addr 0x23bb854 size 0x30 virtual false final false
+  /// @brief Method <AddInstantToggleEventsForLightGroup>b__0 addr 0x2282998 size 0x30 virtual false final false
   inline bool _AddInstantToggleEventsForLightGroup_b__0(::GlobalNamespace::LightGroup* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EventsTestGameplayManager____c__DisplayClass19_0", modifiers: "&&", def_value: None }]
@@ -225,13 +229,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass19_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass19_0, ___lightGroupId) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass20_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5013))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5118))
 // CS Name: ::EventsTestGameplayManager::<>c__DisplayClass20_0*
 class CORDL_TYPE __EventsTestGameplayManager____c__DisplayClass20_0 : public ::System::Object {
 public:
@@ -247,10 +253,10 @@ public:
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass20_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x23bb1a8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22822ec size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <AddToggleEventsForLightGroup>b__0 addr 0x23bb884 size 0x30 virtual false final false
+  /// @brief Method <AddToggleEventsForLightGroup>b__0 addr 0x22829c8 size 0x30 virtual false final false
   inline bool _AddToggleEventsForLightGroup_b__0(::GlobalNamespace::LightGroup* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EventsTestGameplayManager____c__DisplayClass20_0", modifiers: "&&", def_value: None }]
@@ -275,13 +281,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass20_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass20_0, ___lightGroupId) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::EventsTestGameplayManager
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5014))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(14941))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5119))
 // CS Name: ::EventsTestGameplayManager*
 class CORDL_TYPE EventsTestGameplayManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -424,27 +432,27 @@ public:
 
   constexpr void __set__rotatingLasers(bool value);
 
-  /// @brief Method Start addr 0x23b8a0c size 0x118 virtual false final false
+  /// @brief Method Start addr 0x227fba0 size 0x118 virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x23b8b4c size 0x87c virtual false final false
+  /// @brief Method Update addr 0x227fce0 size 0x87c virtual false final false
   inline void Update();
 
-  /// @brief Method AddEventsForLightGroup addr 0x23b93c8 size 0x950 virtual false final false
+  /// @brief Method AddEventsForLightGroup addr 0x228055c size 0x930 virtual false final false
   inline void AddEventsForLightGroup(int32_t lightGroupId);
 
-  /// @brief Method AddInstantToggleEventsForLightGroup addr 0x23ba2cc size 0x478 virtual false final false
+  /// @brief Method AddInstantToggleEventsForLightGroup addr 0x2281428 size 0x470 virtual false final false
   inline void AddInstantToggleEventsForLightGroup(int32_t lightGroupId);
 
-  /// @brief Method AddToggleEventsForLightGroup addr 0x23b9d18 size 0x5b4 virtual false final false
+  /// @brief Method AddToggleEventsForLightGroup addr 0x2280e8c size 0x59c virtual false final false
   inline void AddToggleEventsForLightGroup(int32_t lightGroupId, ::GlobalNamespace::EnvironmentColorType color);
 
-  /// @brief Method AddTestBox addr 0x23ba744 size 0xa54 virtual false final false
+  /// @brief Method AddTestBox addr 0x2281898 size 0xa44 virtual false final false
   inline void AddTestBox();
 
   static inline ::GlobalNamespace::EventsTestGameplayManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x23bb1b0 size 0x65c virtual false final false
+  /// @brief Method .ctor addr 0x22822f4 size 0x65c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventsTestGameplayManager", modifiers: "&&", def_value: None }]
@@ -510,6 +518,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EventsTestGameplayManager, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventsTestGameplayManager, ____moveTime) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventsTestGameplayManager, ____spawnTestBox) == 0x19, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventsTestGameplayManager, ____beatmapCallbacksController) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventsTestGameplayManager, ____beatmapData) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventsTestGameplayManager, ____audioTimeSource) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventsTestGameplayManager, ____basicBeatmapEventType) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventsTestGameplayManager, ____floatValue) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventsTestGameplayManager, ____beatmapEventDataBoxGroupLists) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventsTestGameplayManager, ___groupState) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventsTestGameplayManager, ____beatmapEventTypeBindings) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventsTestGameplayManager, ____intBindings) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventsTestGameplayManager, ____beatmapValuesBindings) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventsTestGameplayManager, ____floatValuesBindings) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventsTestGameplayManager, ____rotatingLasers) == 0x70, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EventsTestGameplayManager);

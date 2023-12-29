@@ -7,10 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(KdfCounterBytesGenerator)
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
+class IMacDerivationFunction;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -19,7 +16,10 @@ namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMacDerivationFunction;
+class IDigest;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(910))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::KdfCounterBytesGenerator*
 class CORDL_TYPE KdfCounterBytesGenerator : public ::System::Object {
@@ -136,22 +136,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IMac* prf);
 
-  /// @brief Method .ctor addr 0xefd344 size 0xe0 virtual false final false
+  /// @brief Method .ctor addr 0xe88170 size 0xe0 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* prf);
 
-  /// @brief Method Init addr 0xefd424 size 0x2a4 virtual true final true
+  /// @brief Method Init addr 0xe88250 size 0x2a4 virtual true final true
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* param);
 
-  /// @brief Method GetMac addr 0xefd6c8 size 0x8 virtual true final true
+  /// @brief Method GetMac addr 0xe884f4 size 0x8 virtual true final true
   inline ::Org::BouncyCastle::Crypto::IMac* GetMac();
 
-  /// @brief Method get_Digest addr 0xefd6d0 size 0x88 virtual true final true
+  /// @brief Method get_Digest addr 0xe884fc size 0x88 virtual true final true
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
-  /// @brief Method GenerateBytes addr 0xefd758 size 0x208 virtual true final true
+  /// @brief Method GenerateBytes addr 0xe88584 size 0x208 virtual true final true
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t length);
 
-  /// @brief Method generateNext addr 0xefd960 size 0x338 virtual false final false
+  /// @brief Method generateNext addr 0xe8878c size 0x338 virtual false final false
   inline void generateNext();
 
   // Ctor Parameters [CppParam { name: "", ty: "KdfCounterBytesGenerator", modifiers: "&&", def_value: None }]
@@ -196,6 +196,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator, ___prf) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator, ___h) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator, ___fixedInputDataCtrPrefix) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator, ___fixedInputData_afterCtr) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator, ___maxSizeExcl) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator, ___ios) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator, ___generatedBytes) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator, ___k) == 0x48, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator);

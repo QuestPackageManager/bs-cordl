@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Security::X509::X509ChainStatusFlags);
 namespace Mono::Security::X509 {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13755))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14026))
 // CS Name: ::Mono.Security.X509::X509ChainStatusFlags
 struct CORDL_TYPE X509ChainStatusFlags {
 public:
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509ChainStatusFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::X509ChainStatusFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Mono::Security::X509
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::X509ChainStatusFlags, "Mono.Security.X509", "X509ChainStatusFlags");

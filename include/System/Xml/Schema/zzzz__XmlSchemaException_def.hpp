@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlSchemaException)
-namespace System {
-class Exception;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Xml::Schema {
 class XmlSchemaObject;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaException);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11726))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11654))
 // CS Name: ::System.Xml.Schema::XmlSchemaException*
 class CORDL_TYPE XmlSchemaException : public ::System::SystemException {
 public:
@@ -102,53 +102,53 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x28c8240 size 0x3b8 virtual false final false
+  /// @brief Method .ctor addr 0x274a21c size 0x3b8 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData addr 0x28c86bc size 0x170 virtual true final false
+  /// @brief Method GetObjectData addr 0x274a698 size 0x170 virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor();
 
-  /// @brief Method .ctor addr 0x28c882c size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x274a808 size 0x14 virtual false final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x28c8840 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x274a81c size 0x10 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor addr 0x28bec50 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2740c2c size 0xc virtual false final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor(::StringW message, ::System::Exception* innerException, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor addr 0x28c8850 size 0x124 virtual false final false
+  /// @brief Method .ctor addr 0x274a82c size 0x124 virtual false final false
   inline void _ctor(::StringW message, ::System::Exception* innerException, int32_t lineNumber, int32_t linePosition);
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor(::StringW res, ::StringW arg);
 
-  /// @brief Method .ctor addr 0x28b90e0 size 0xd4 virtual false final false
+  /// @brief Method .ctor addr 0x273b0bc size 0xd4 virtual false final false
   inline void _ctor(::StringW res, ::StringW arg);
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor(::StringW res, ::StringW arg, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor addr 0x28c89fc size 0xf4 virtual false final false
+  /// @brief Method .ctor addr 0x274a9d8 size 0xf4 virtual false final false
   inline void _ctor(::StringW res, ::StringW arg, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Exception* innerException, ::StringW sourceUri,
                                                                     int32_t lineNumber, int32_t linePosition, ::System::Xml::Schema::XmlSchemaObject* source);
 
-  /// @brief Method .ctor addr 0x28c8974 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x274a950 size 0x88 virtual false final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Exception* innerException, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition,
                     ::System::Xml::Schema::XmlSchemaObject* source);
 
-  /// @brief Method CreateMessage addr 0x28c85f8 size 0xc4 virtual false final false
+  /// @brief Method CreateMessage addr 0x274a5d4 size 0xc4 virtual false final false
   static inline ::StringW CreateMessage(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args);
 
-  /// @brief Method get_Message addr 0x28c8af0 size 0x18 virtual true final false
+  /// @brief Method get_Message addr 0x274aacc size 0x18 virtual true final false
   inline ::StringW get_Message();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaException", modifiers: "&&", def_value: None }]
@@ -190,6 +190,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaException, 0xc0>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaException, ___res) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaException, ___args) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaException, ___sourceUri) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaException, ___lineNumber) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaException, ___linePosition) == 0xac, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaException, ___sourceSchemaObject) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaException, ___message) == 0xb8, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaException);

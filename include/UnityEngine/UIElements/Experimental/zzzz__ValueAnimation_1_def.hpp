@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueAnimation_1)
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
 namespace UnityEngine::UIElements::Experimental {
 class IValueAnimationUpdate;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class ObjectPool_1;
@@ -39,8 +39,8 @@ namespace UnityEngine::UIElements::Experimental {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7458))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7544))
 // CS Name: ::UnityEngine.UIElements.Experimental::ValueAnimation`1<T>*
 class CORDL_TYPE ValueAnimation_1 : public ::System::Object {
 public:

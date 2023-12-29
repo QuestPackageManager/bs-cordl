@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::NativeConditionalAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16013))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15877))
 // CS Name: ::UnityEngine.Bindings::NativeConditionalAttribute*
 class CORDL_TYPE NativeConditionalAttribute : public ::System::Attribute {
 public:
@@ -43,15 +43,15 @@ public:
 
   constexpr void __set__Enabled_k__BackingField(bool value);
 
-  /// @brief Method set_Condition addr 0x2d1822c size 0x8 virtual false final false
+  /// @brief Method set_Condition addr 0x2bb0e7c size 0x8 virtual false final false
   inline void set_Condition(::StringW value);
 
-  /// @brief Method set_Enabled addr 0x2d18234 size 0xc virtual false final false
+  /// @brief Method set_Enabled addr 0x2bb0e84 size 0xc virtual false final false
   inline void set_Enabled(bool value);
 
   static inline ::UnityEngine::Bindings::NativeConditionalAttribute* New_ctor(::StringW condition);
 
-  /// @brief Method .ctor addr 0x2d18240 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x2bb0e90 size 0x30 virtual false final false
   inline void _ctor(::StringW condition);
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeConditionalAttribute", modifiers: "&&", def_value: None }]
@@ -78,6 +78,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::NativeConditionalAttribute, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Bindings::NativeConditionalAttribute, ____Condition_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Bindings::NativeConditionalAttribute, ____Enabled_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::Bindings
 NEED_NO_BOX(::UnityEngine::Bindings::NativeConditionalAttribute);

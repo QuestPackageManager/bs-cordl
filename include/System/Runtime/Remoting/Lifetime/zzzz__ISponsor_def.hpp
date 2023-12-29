@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Lifetime::ISponsor);
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3091))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3090))
 // CS Name: ::System.Runtime.Remoting.Lifetime::ISponsor*
 class CORDL_TYPE ISponsor {
 public:

@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArraySegment_1)
-namespace System {
-template <typename T> struct __ArraySegment_1__Enumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace System {
+template <typename T> struct __ArraySegment_1__Enumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
@@ -125,7 +125,7 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2349), inst: 772 }), TypeDefinitionIndex(TypeDefinitionIndex(2349))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2349), inst: 760 }), TypeDefinitionIndex(TypeDefinitionIndex(2349))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2349))
 // CS Name: ::System::ArraySegment`1<T>
 struct CORDL_TYPE ArraySegment_1 {

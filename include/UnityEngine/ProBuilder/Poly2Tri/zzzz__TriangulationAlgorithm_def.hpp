@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm);
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15339))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15369))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::TriangulationAlgorithm
 struct CORDL_TYPE TriangulationAlgorithm {
 public:
@@ -53,6 +53,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Poly2Tri
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationAlgorithm");

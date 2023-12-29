@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::InputSkeletalActionData_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8723))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9492))
 // CS Name: ::OVR.OpenVR::InputSkeletalActionData_t
 struct CORDL_TYPE InputSkeletalActionData_t {
 public:
@@ -45,6 +45,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::InputSkeletalActionData_t, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputSkeletalActionData_t, bActive) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputSkeletalActionData_t, activeOrigin) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputSkeletalActionData_t, boneCount) == 0x10, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::InputSkeletalActionData_t, "OVR.OpenVR", "InputSkeletalActionData_t");

@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__NetworkPlayersViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FriendsViewController)
+namespace HMUI {
+class ToggleBinder;
+}
 namespace GlobalNamespace {
-class INetworkPlayerModel;
+class INetworkConfig;
+}
+namespace GlobalNamespace {
+class PlatformNetworkPlayerModel;
 }
 namespace UnityEngine::UI {
 class Toggle;
 }
 namespace GlobalNamespace {
-class PlatformNetworkPlayerModel;
-}
-namespace GlobalNamespace {
-class INetworkConfig;
-}
-namespace HMUI {
-class ToggleBinder;
+class INetworkPlayerModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FriendsViewController);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 177, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5725))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5634))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5824))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5733))
 // CS Name: ::FriendsViewController*
 class CORDL_TYPE FriendsViewController : public ::GlobalNamespace::NetworkPlayersViewController {
 public:
@@ -87,33 +87,33 @@ public:
 
   constexpr void __set__allowAnyoneToJoin(bool value);
 
-  /// @brief Method get_myPartyTitle addr 0x22b113c size 0x40 virtual true final false
+  /// @brief Method get_myPartyTitle addr 0x216eb40 size 0x40 virtual true final false
   inline ::StringW get_myPartyTitle();
 
-  /// @brief Method get_otherPlayersTitle addr 0x22b117c size 0x40 virtual true final false
+  /// @brief Method get_otherPlayersTitle addr 0x216eb80 size 0x40 virtual true final false
   inline ::StringW get_otherPlayersTitle();
 
-  /// @brief Method get_networkPlayerModel addr 0x22b11bc size 0x8 virtual true final false
+  /// @brief Method get_networkPlayerModel addr 0x216ebc0 size 0x8 virtual true final false
   inline ::GlobalNamespace::INetworkPlayerModel* get_networkPlayerModel();
 
-  /// @brief Method NetworkPlayersViewControllerDidActivate addr 0x22b11c4 size 0x10c virtual true final false
+  /// @brief Method NetworkPlayersViewControllerDidActivate addr 0x216ebc8 size 0x10c virtual true final false
   inline void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
 
-  /// @brief Method DidDeactivate addr 0x22b1450 size 0x44 virtual true final false
+  /// @brief Method DidDeactivate addr 0x216ee54 size 0x44 virtual true final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method OnDestroy addr 0x22b1494 size 0x28 virtual true final false
+  /// @brief Method OnDestroy addr 0x216ee98 size 0x28 virtual true final false
   inline void OnDestroy();
 
-  /// @brief Method HandleOpenPartyToggleChanged addr 0x22b14bc size 0x10 virtual false final false
+  /// @brief Method HandleOpenPartyToggleChanged addr 0x216eec0 size 0x10 virtual false final false
   inline void HandleOpenPartyToggleChanged(bool openParty);
 
-  /// @brief Method RefreshParty addr 0x22b12d0 size 0x180 virtual false final false
+  /// @brief Method RefreshParty addr 0x216ecd4 size 0x180 virtual false final false
   inline void RefreshParty(bool overrideHide);
 
   static inline ::GlobalNamespace::FriendsViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22b14cc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x216eed0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FriendsViewController", modifiers: "&&", def_value: None }]
@@ -149,6 +149,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FriendsViewController, 0xb8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FriendsViewController, ____enableOpenPartyToggle) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FriendsViewController, ____networkPlayerModel) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FriendsViewController, ____networkConfig) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FriendsViewController, ____toggleBinder) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FriendsViewController, ____allowAnyoneToJoin) == 0xb0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FriendsViewController);

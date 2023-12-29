@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::RuntimePlatform);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10034))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9962))
 // CS Name: ::UnityEngine::RuntimePlatform
 struct CORDL_TYPE RuntimePlatform {
 public:
@@ -237,6 +237,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::RuntimePlatform, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::RuntimePlatform, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RuntimePlatform, "UnityEngine", "RuntimePlatform");

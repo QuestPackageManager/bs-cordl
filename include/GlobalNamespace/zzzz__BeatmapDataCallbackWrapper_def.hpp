@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataCallbackWrapper)
-namespace System {
-class Type;
-}
 namespace GlobalNamespace {
 class BeatmapDataItem;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataCallbackWrapper);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4711))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4832))
 // CS Name: ::BeatmapDataCallbackWrapper*
 class CORDL_TYPE BeatmapDataCallbackWrapper : public ::System::Object {
 public:
@@ -58,7 +58,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapDataCallbackWrapper* New_ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType, ::ArrayW<int32_t, ::Array<int32_t>*> subtypeIdentifiers);
 
-  /// @brief Method .ctor addr 0x237bcdc size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x2247280 size 0x40 virtual false final false
   inline void _ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType, ::ArrayW<int32_t, ::Array<int32_t>*> subtypeIdentifiers);
 
   /// @brief Method CallCallback addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -91,6 +91,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDataCallbackWrapper, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDataCallbackWrapper, ___BasicBeatmapEventType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDataCallbackWrapper, ___aheadTime) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDataCallbackWrapper, ___subtypeIdentifiers) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapDataCallbackWrapper);

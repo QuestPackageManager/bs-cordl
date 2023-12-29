@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::RankModel);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15034))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15179))
 // CS Name: ::RankModel::Rank
 struct CORDL_TYPE __RankModel__Rank {
 public:
@@ -91,23 +91,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__RankModel__Rank, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__RankModel__Rank, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::RankModel
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15035))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15180))
 // CS Name: ::RankModel*
 class CORDL_TYPE RankModel : public ::System::Object {
 public:
   // Declarations
   using Rank = ::GlobalNamespace::__RankModel__Rank;
 
-  /// @brief Method GetRankName addr 0x12a6590 size 0xbc virtual false final false
+  /// @brief Method GetRankName addr 0x1234494 size 0xbc virtual false final false
   static inline ::StringW GetRankName(::GlobalNamespace::__RankModel__Rank rank);
 
-  /// @brief Method GetRankForScore addr 0x12a664c size 0xc8 virtual false final false
+  /// @brief Method GetRankForScore addr 0x1234550 size 0xc8 virtual false final false
   static inline ::GlobalNamespace::__RankModel__Rank GetRankForScore(int32_t multipliedScore, int32_t modifiedScore, int32_t maxMultipliedScore, int32_t maxModifiedScore);
 
   // Ctor Parameters [CppParam { name: "", ty: "RankModel", modifiers: "&&", def_value: None }]

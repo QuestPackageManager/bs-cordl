@@ -16,7 +16,7 @@ MARK_VAL_T(::System::UriHostNameType);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8884))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7721))
 // CS Name: ::System::UriHostNameType
 struct CORDL_TYPE UriHostNameType {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::UriHostNameType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::UriHostNameType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::UriHostNameType, "System", "UriHostNameType");

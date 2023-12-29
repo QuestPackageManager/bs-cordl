@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InternalDecoderBestFitFallbackBuffer)
-namespace System::Text {
-class InternalDecoderBestFitFallback;
-}
 namespace System {
 class Object;
+}
+namespace System::Text {
+class InternalDecoderBestFitFallback;
 }
 // Forward declare root types
 namespace System::Text {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Text::InternalDecoderBestFitFallbackBuffer);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2834))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2829))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2830))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2825))
 // CS Name: ::System.Text::InternalDecoderBestFitFallbackBuffer*
 class CORDL_TYPE InternalDecoderBestFitFallbackBuffer : public ::System::Text::DecoderFallbackBuffer {
 public:
@@ -73,30 +73,30 @@ public:
 
   static inline ::System::Object* getStaticF_s_InternalSyncObject();
 
-  /// @brief Method get_InternalSyncObject addr 0x2630d9c size 0x9c virtual false final false
+  /// @brief Method get_InternalSyncObject addr 0x24d6c90 size 0x9c virtual false final false
   static inline ::System::Object* get_InternalSyncObject();
 
   static inline ::System::Text::InternalDecoderBestFitFallbackBuffer* New_ctor(::System::Text::InternalDecoderBestFitFallback* fallback);
 
-  /// @brief Method .ctor addr 0x2630ba0 size 0x128 virtual false final false
+  /// @brief Method .ctor addr 0x24d6a94 size 0x128 virtual false final false
   inline void _ctor(::System::Text::InternalDecoderBestFitFallback* fallback);
 
-  /// @brief Method Fallback addr 0x2630e40 size 0x40 virtual true final false
+  /// @brief Method Fallback addr 0x24d6d34 size 0x40 virtual true final false
   inline bool Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method GetNextChar addr 0x2630fc0 size 0x40 virtual true final false
+  /// @brief Method GetNextChar addr 0x24d6eb4 size 0x40 virtual true final false
   inline char16_t GetNextChar();
 
-  /// @brief Method get_Remaining addr 0x2631000 size 0xc virtual true final false
+  /// @brief Method get_Remaining addr 0x24d6ef4 size 0xc virtual true final false
   inline int32_t get_Remaining();
 
-  /// @brief Method Reset addr 0x263100c size 0x10 virtual true final false
+  /// @brief Method Reset addr 0x24d6f00 size 0x10 virtual true final false
   inline void Reset();
 
-  /// @brief Method InternalFallback addr 0x263101c size 0x8 virtual true final false
+  /// @brief Method InternalFallback addr 0x24d6f10 size 0x8 virtual true final false
   inline int32_t InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::cordl_internals::Ptr<uint8_t> pBytes);
 
-  /// @brief Method TryBestFit addr 0x2630e80 size 0x140 virtual false final false
+  /// @brief Method TryBestFit addr 0x24d6d74 size 0x140 virtual false final false
   inline char16_t TryBestFit(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesCheck);
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalDecoderBestFitFallbackBuffer", modifiers: "&&", def_value: None }]
@@ -129,6 +129,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::InternalDecoderBestFitFallbackBuffer, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Text::InternalDecoderBestFitFallbackBuffer, ____cBestFit) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::InternalDecoderBestFitFallbackBuffer, ____iCount) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::InternalDecoderBestFitFallbackBuffer, ____iSize) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::InternalDecoderBestFitFallbackBuffer, ____oFallback) == 0x30, "Offset mismatch!");
 
 } // namespace System::Text
 NEED_NO_BOX(::System::Text::InternalDecoderBestFitFallbackBuffer);

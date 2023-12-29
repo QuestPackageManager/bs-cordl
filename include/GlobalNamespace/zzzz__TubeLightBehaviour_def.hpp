@@ -10,25 +10,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TubeLightBehaviour)
 namespace GlobalNamespace {
-class DirectionalLight;
+class ColorSO;
 }
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine::Playables {
+struct FrameData;
+}
+namespace System {
+class Object;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
 namespace GlobalNamespace {
-class ColorSO;
-}
-namespace GlobalNamespace {
 struct __TubeLightBehaviour__ParameterType;
 }
-namespace System {
-class Object;
-}
-namespace UnityEngine::Playables {
-struct FrameData;
+namespace GlobalNamespace {
+class DirectionalLight;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::GlobalNamespace::TubeLightBehaviour);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6021))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6076))
 // CS Name: ::TubeLightBehaviour::ParameterType
 struct CORDL_TYPE __TubeLightBehaviour__ParameterType {
 public:
@@ -87,13 +87,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TubeLightBehaviour__ParameterType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__TubeLightBehaviour__ParameterType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::TubeLightBehaviour
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6022))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10347)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6077))
 // CS Name: ::TubeLightBehaviour*
 class CORDL_TYPE TubeLightBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -190,15 +192,15 @@ public:
 
   constexpr void __set__firstFrameColor(::UnityEngine::Color value);
 
-  /// @brief Method ProcessFrame addr 0x2317dc0 size 0x408 virtual true final false
+  /// @brief Method ProcessFrame addr 0x21c4f9c size 0x408 virtual true final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method OnPlayableDestroy addr 0x23181c8 size 0xcc virtual true final false
+  /// @brief Method OnPlayableDestroy addr 0x21c53a4 size 0xcc virtual true final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
   static inline ::GlobalNamespace::TubeLightBehaviour* New_ctor();
 
-  /// @brief Method .ctor addr 0x2318294 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21c5470 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TubeLightBehaviour", modifiers: "&&", def_value: None }]
@@ -249,6 +251,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TubeLightBehaviour, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightBehaviour, ____noPredefinedStartValue) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightBehaviour, ___startColor) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightBehaviour, ___endColor) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightBehaviour, ___blend) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightBehaviour, ____initialized) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightBehaviour, ____originalColor) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightBehaviour, ____tubeLights) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightBehaviour, ____directionalLights) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightBehaviour, ___started) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightBehaviour, ____firstFrameColor) == 0x54, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__TubeLightBehaviour__ParameterType, "", "TubeLightBehaviour/ParameterType");

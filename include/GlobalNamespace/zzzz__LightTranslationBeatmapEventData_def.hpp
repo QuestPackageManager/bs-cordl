@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightTranslationBeatmapEventData)
 namespace GlobalNamespace {
-struct LightAxis;
+class BeatmapDataItem;
 }
 namespace GlobalNamespace {
-class BeatmapEventData;
+struct LightAxis;
 }
 namespace GlobalNamespace {
 struct EaseType;
 }
+namespace GlobalNamespace {
+class BeatmapEventData;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightTranslationBeatmapEventData);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14727)), TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(14733))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14737))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14944)), TypeDefinitionIndex(TypeDefinitionIndex(15944)), TypeDefinitionIndex(TypeDefinitionIndex(14948))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14952))
 // CS Name: ::LightTranslationBeatmapEventData*
 class CORDL_TYPE LightTranslationBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
 public:
@@ -114,35 +114,35 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightTranslationBeatmapEventData*>* getStaticF__defaults();
 
-  /// @brief Method get_translation addr 0xdfee98 size 0x8 virtual false final false
+  /// @brief Method get_translation addr 0xd994f0 size 0x8 virtual false final false
   inline float_t get_translation();
 
-  /// @brief Method set_translation addr 0xdfeea0 size 0x8 virtual false final false
+  /// @brief Method set_translation addr 0xd994f8 size 0x8 virtual false final false
   inline void set_translation(float_t value);
 
-  /// @brief Method get_distribution addr 0xdfeea8 size 0x8 virtual false final false
+  /// @brief Method get_distribution addr 0xd99500 size 0x8 virtual false final false
   inline float_t get_distribution();
 
-  /// @brief Method set_distribution addr 0xdfeeb0 size 0x8 virtual false final false
+  /// @brief Method set_distribution addr 0xd99508 size 0x8 virtual false final false
   inline void set_distribution(float_t value);
 
   static inline ::GlobalNamespace::LightTranslationBeatmapEventData* New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, ::GlobalNamespace::EaseType easeType,
                                                                               ::GlobalNamespace::LightAxis axis, float_t translation, float_t distribution);
 
-  /// @brief Method .ctor addr 0xdfeeb8 size 0xdc virtual false final false
+  /// @brief Method .ctor addr 0xd99510 size 0xdc virtual false final false
   inline void _ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, ::GlobalNamespace::EaseType easeType, ::GlobalNamespace::LightAxis axis, float_t translation,
                     float_t distribution);
 
-  /// @brief Method ChangeTranslation addr 0xdfefac size 0x8 virtual false final false
+  /// @brief Method ChangeTranslation addr 0xd99604 size 0x8 virtual false final false
   inline void ChangeTranslation(float_t translation, float_t distribution);
 
-  /// @brief Method GetCopy addr 0xdfefb4 size 0xb4 virtual true final false
+  /// @brief Method GetCopy addr 0xd9960c size 0xb4 virtual true final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method SubtypeIdentifier addr 0xdfef94 size 0x18 virtual false final false
+  /// @brief Method SubtypeIdentifier addr 0xd995ec size 0x18 virtual false final false
   static inline int32_t SubtypeIdentifier(int32_t groupId, int32_t elementId, ::GlobalNamespace::LightAxis axis);
 
-  /// @brief Method GetDefault addr 0xdff068 size 0x160 virtual true final false
+  /// @brief Method GetDefault addr 0xd996c0 size 0x160 virtual true final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBeatmapEventData", modifiers: "&&", def_value: None }]
@@ -184,6 +184,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightTranslationBeatmapEventData, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightTranslationBeatmapEventData, ___groupId) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightTranslationBeatmapEventData, ___elementId) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightTranslationBeatmapEventData, ___usePreviousEventValue) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightTranslationBeatmapEventData, ___easeType) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightTranslationBeatmapEventData, ___axis) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightTranslationBeatmapEventData, ____translation_k__BackingField) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightTranslationBeatmapEventData, ____distribution_k__BackingField) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightTranslationBeatmapEventData);

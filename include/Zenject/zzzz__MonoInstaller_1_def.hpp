@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MonoInstaller_1)
-namespace Zenject {
-class DiContainer;
-}
 namespace System {
 class Object;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -27,8 +27,8 @@ namespace Zenject {
 // cpp template
 template <typename TDerived>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11139))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11067))
 // CS Name: ::Zenject::MonoInstaller`1<TDerived>*
 class CORDL_TYPE MonoInstaller_1 : public ::Zenject::MonoInstaller {
 public:

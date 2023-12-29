@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BTSCharacter)
 namespace UnityEngine {
-class AnimationClip;
-}
-namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
@@ -16,6 +13,9 @@ class Animator;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 namespace GlobalNamespace {
 class BTSCharacterMaterialSwitcher;
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BTSCharacter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3962))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3948))
 // CS Name: ::BTSCharacter*
 class CORDL_TYPE BTSCharacter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -89,24 +89,24 @@ public:
 
   constexpr void __set__headTransform(::UnityEngine::Transform* value);
 
-  /// @brief Method get_characterName addr 0x221963c size 0x8 virtual false final false
+  /// @brief Method get_characterName addr 0x20b8654 size 0x8 virtual false final false
   inline ::StringW get_characterName();
 
-  /// @brief Method get_materialPropertyBlockController addr 0x2219644 size 0x8 virtual false final false
+  /// @brief Method get_materialPropertyBlockController addr 0x20b865c size 0x8 virtual false final false
   inline ::GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
 
-  /// @brief Method get_animator addr 0x221964c size 0x8 virtual false final false
+  /// @brief Method get_animator addr 0x20b8664 size 0x8 virtual false final false
   inline ::UnityEngine::Animator* get_animator();
 
-  /// @brief Method get_headTransform addr 0x2219654 size 0x8 virtual false final false
+  /// @brief Method get_headTransform addr 0x20b866c size 0x8 virtual false final false
   inline ::UnityEngine::Transform* get_headTransform();
 
-  /// @brief Method SetAlternativeAnimationAndMaterial addr 0x221965c size 0x1f4 virtual false final false
+  /// @brief Method SetAlternativeAnimationAndMaterial addr 0x20b8674 size 0x1f4 virtual false final false
   inline void SetAlternativeAnimationAndMaterial(::UnityEngine::AnimationClip* animation, bool alternativeMaterialOn);
 
   static inline ::GlobalNamespace::BTSCharacter* New_ctor();
 
-  /// @brief Method .ctor addr 0x2219aa4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20b8abc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacter", modifiers: "&&", def_value: None }]
@@ -142,6 +142,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BTSCharacter, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BTSCharacter, ____characterName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BTSCharacter, ____animator) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BTSCharacter, ____btsCharacterMaterialSwitcher) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BTSCharacter, ____materialPropertyBlockController) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BTSCharacter, ____headTransform) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BTSCharacter);

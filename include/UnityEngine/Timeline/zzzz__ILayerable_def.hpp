@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ILayerable)
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ILayerable);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13899))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14170))
 // CS Name: ::UnityEngine.Timeline::ILayerable*
 class CORDL_TYPE ILayerable {
 public:

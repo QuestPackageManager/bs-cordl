@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::ButtonControl);
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6628))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6629))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6714))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6715))
 // CS Name: ::UnityEngine.InputSystem.Controls::ButtonControl*
 class CORDL_TYPE ButtonControl : public ::UnityEngine::InputSystem::Controls::AxisControl {
 public:
@@ -52,24 +52,24 @@ public:
 
   static inline float_t getStaticF_s_GlobalDefaultButtonReleaseThreshold();
 
-  /// @brief Method get_pressPointOrDefault addr 0x2b09f6c size 0x58 virtual false final false
+  /// @brief Method get_pressPointOrDefault addr 0x2989218 size 0x58 virtual false final false
   inline float_t get_pressPointOrDefault();
 
   static inline ::UnityEngine::InputSystem::Controls::ButtonControl* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b09a04 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x2988cb0 size 0x88 virtual false final false
   inline void _ctor();
 
-  /// @brief Method IsValueConsideredPressed addr 0x2b09fd8 size 0x6c virtual false final false
+  /// @brief Method IsValueConsideredPressed addr 0x2989284 size 0x6c virtual false final false
   inline bool IsValueConsideredPressed(float_t value);
 
-  /// @brief Method get_isPressed addr 0x2b0a044 size 0xa0 virtual false final false
+  /// @brief Method get_isPressed addr 0x29892f0 size 0xa0 virtual false final false
   inline bool get_isPressed();
 
-  /// @brief Method get_wasPressedThisFrame addr 0x2b0a0e4 size 0x120 virtual false final false
+  /// @brief Method get_wasPressedThisFrame addr 0x2989390 size 0x120 virtual false final false
   inline bool get_wasPressedThisFrame();
 
-  /// @brief Method get_wasReleasedThisFrame addr 0x2b0a204 size 0x120 virtual false final false
+  /// @brief Method get_wasReleasedThisFrame addr 0x29894b0 size 0x120 virtual false final false
   inline bool get_wasReleasedThisFrame();
 
   // Ctor Parameters [CppParam { name: "", ty: "ButtonControl", modifiers: "&&", def_value: None }]
@@ -96,6 +96,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::ButtonControl, 0x120>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::ButtonControl, ___pressPoint) == 0x118, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Controls
 NEED_NO_BOX(::UnityEngine::InputSystem::Controls::ButtonControl);

@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::HttpTransferUpdate);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13436))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13482))
 // CS Name: ::Oculus.Platform.Models::HttpTransferUpdate*
 class CORDL_TYPE HttpTransferUpdate : public ::System::Object {
 public:
@@ -51,7 +51,7 @@ public:
 
   static inline ::Oculus::Platform::Models::HttpTransferUpdate* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x2705f3c size 0x158 virtual false final false
+  /// @brief Method .ctor addr 0x25b3590 size 0x158 virtual false final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpTransferUpdate", modifiers: "&&", def_value: None }]
@@ -81,6 +81,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::HttpTransferUpdate, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::HttpTransferUpdate, ____cordl_ID) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::HttpTransferUpdate, ___Payload) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::HttpTransferUpdate, ___IsCompleted) == 0x20, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::HttpTransferUpdate);

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_Compatibility)
 namespace TMPro {
-struct TextAlignmentOptions;
+struct __TMP_Compatibility__AnchorPositions;
 }
 namespace TMPro {
-struct __TMP_Compatibility__AnchorPositions;
+struct TextAlignmentOptions;
 }
 // Forward declare root types
 namespace TMPro {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::TMPro::TMP_Compatibility);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12335))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12263))
 // CS Name: ::TMP_Compatibility::AnchorPositions
 struct CORDL_TYPE __TMP_Compatibility__AnchorPositions {
 public:
@@ -105,20 +105,22 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_Compatibility__AnchorPositions, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::TMPro::__TMP_Compatibility__AnchorPositions, value__) == 0x0, "Offset mismatch!");
+
 } // namespace TMPro
 // Type: TMPro::TMP_Compatibility
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12336))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12264))
 // CS Name: ::TMPro::TMP_Compatibility*
 class CORDL_TYPE TMP_Compatibility : public ::System::Object {
 public:
   // Declarations
   using AnchorPositions = ::TMPro::__TMP_Compatibility__AnchorPositions;
 
-  /// @brief Method ConvertTextAlignmentEnumValues addr 0x2c020b0 size 0x24 virtual false final false
+  /// @brief Method ConvertTextAlignmentEnumValues addr 0x2a7d35c size 0x24 virtual false final false
   static inline ::TMPro::TextAlignmentOptions ConvertTextAlignmentEnumValues(::TMPro::TextAlignmentOptions oldValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_Compatibility", modifiers: "&&", def_value: None }]

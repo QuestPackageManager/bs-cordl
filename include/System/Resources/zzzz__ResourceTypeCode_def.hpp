@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Resources::ResourceTypeCode);
 namespace System::Resources {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3428))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3423))
 // CS Name: ::System.Resources::ResourceTypeCode
 struct CORDL_TYPE ResourceTypeCode {
 public:
@@ -133,6 +133,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Resources::ResourceTypeCode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceTypeCode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Resources
 DEFINE_IL2CPP_ARG_TYPE(::System::Resources::ResourceTypeCode, "System.Resources", "ResourceTypeCode");

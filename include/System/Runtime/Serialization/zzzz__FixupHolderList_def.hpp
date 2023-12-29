@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::FixupHolderList);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3220))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3219))
 // CS Name: ::System.Runtime.Serialization::FixupHolderList*
 class CORDL_TYPE FixupHolderList : public ::System::Object {
 public:
@@ -45,18 +45,18 @@ public:
 
   static inline ::System::Runtime::Serialization::FixupHolderList* New_ctor();
 
-  /// @brief Method .ctor addr 0x24bc7cc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2363cd8 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::FixupHolderList* New_ctor(int32_t startingSize);
 
-  /// @brief Method .ctor addr 0x24bc8d8 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x2363de4 size 0x6c virtual false final false
   inline void _ctor(int32_t startingSize);
 
-  /// @brief Method Add addr 0x24bc944 size 0xa8 virtual true final false
+  /// @brief Method Add addr 0x2363e50 size 0xa8 virtual true final false
   inline void Add(::System::Runtime::Serialization::FixupHolder* fixup);
 
-  /// @brief Method EnlargeArray addr 0x24bc9ec size 0x88 virtual false final false
+  /// @brief Method EnlargeArray addr 0x2363ef8 size 0x88 virtual false final false
   inline void EnlargeArray();
 
   // Ctor Parameters [CppParam { name: "", ty: "FixupHolderList", modifiers: "&&", def_value: None }]
@@ -83,6 +83,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::FixupHolderList, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::FixupHolderList, ___m_values) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::FixupHolderList, ___m_count) == 0x18, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::FixupHolderList);

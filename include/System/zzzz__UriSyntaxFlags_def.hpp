@@ -16,7 +16,7 @@ MARK_VAL_T(::System::UriSyntaxFlags);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8890))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7727))
 // CS Name: ::System::UriSyntaxFlags
 struct CORDL_TYPE UriSyntaxFlags {
 public:
@@ -165,6 +165,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::UriSyntaxFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::UriSyntaxFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::UriSyntaxFlags, "System", "UriSyntaxFlags");

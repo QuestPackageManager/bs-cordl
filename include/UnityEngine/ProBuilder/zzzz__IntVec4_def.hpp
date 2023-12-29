@@ -27,8 +27,8 @@ MARK_VAL_T(::UnityEngine::ProBuilder::IntVec4);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12134))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10173))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12062))
 // CS Name: ::UnityEngine.ProBuilder::IntVec4
 struct CORDL_TYPE IntVec4 {
 public:
@@ -44,49 +44,49 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec4>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec4>*();
 
-  /// @brief Method get_x addr 0x2b46e20 size 0x8 virtual false final false
+  /// @brief Method get_x addr 0x29c50cc size 0x8 virtual false final false
   inline float_t get_x();
 
-  /// @brief Method get_y addr 0x2b46e28 size 0x8 virtual false final false
+  /// @brief Method get_y addr 0x29c50d4 size 0x8 virtual false final false
   inline float_t get_y();
 
-  /// @brief Method get_z addr 0x2b46e30 size 0x8 virtual false final false
+  /// @brief Method get_z addr 0x29c50dc size 0x8 virtual false final false
   inline float_t get_z();
 
-  /// @brief Method get_w addr 0x2b46e38 size 0x8 virtual false final false
+  /// @brief Method get_w addr 0x29c50e4 size 0x8 virtual false final false
   inline float_t get_w();
 
-  /// @brief Method .ctor addr 0x2b46e40 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x29c50ec size 0xc virtual false final false
   inline void _ctor(::UnityEngine::Vector4 vector);
 
-  /// @brief Method ToString addr 0x2b46e4c size 0x1ac virtual true final false
+  /// @brief Method ToString addr 0x29c50f8 size 0x1ac virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method op_Equality addr 0x2b46ff8 size 0x38 virtual false final false
+  /// @brief Method op_Equality addr 0x29c52a4 size 0x38 virtual false final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::IntVec4 a, ::UnityEngine::ProBuilder::IntVec4 b);
 
-  /// @brief Method op_Inequality addr 0x2b470e4 size 0x3c virtual false final false
+  /// @brief Method op_Inequality addr 0x29c5390 size 0x3c virtual false final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::IntVec4 a, ::UnityEngine::ProBuilder::IntVec4 b);
 
-  /// @brief Method Equals addr 0x2b47030 size 0xb4 virtual true final true
+  /// @brief Method Equals addr 0x29c52dc size 0xb4 virtual true final true
   inline bool Equals(::UnityEngine::ProBuilder::IntVec4 p);
 
-  /// @brief Method Equals addr 0x2b47188 size 0xb4 virtual false final false
+  /// @brief Method Equals addr 0x29c5434 size 0xb4 virtual false final false
   inline bool Equals(::UnityEngine::Vector4 p);
 
-  /// @brief Method Equals addr 0x2b4723c size 0xc4 virtual true final false
+  /// @brief Method Equals addr 0x29c54e8 size 0xc4 virtual true final false
   inline bool Equals(::System::Object* b);
 
-  /// @brief Method GetHashCode addr 0x2b47300 size 0x10 virtual true final false
+  /// @brief Method GetHashCode addr 0x29c55ac size 0x10 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method round addr 0x2b47120 size 0x68 virtual false final false
+  /// @brief Method round addr 0x29c53cc size 0x68 virtual false final false
   static inline int32_t round(float_t v);
 
-  /// @brief Method op_Implicit addr 0x2b47310 size 0x4 virtual false final false
+  /// @brief Method op_Implicit addr 0x29c55bc size 0x4 virtual false final false
   static inline ::UnityEngine::Vector4 op_Implicit___UnityEngine__Vector4(::UnityEngine::ProBuilder::IntVec4 p);
 
-  /// @brief Method op_Implicit addr 0x2b47314 size 0x4 virtual false final false
+  /// @brief Method op_Implicit addr 0x29c55c0 size 0x4 virtual false final false
   static inline ::UnityEngine::ProBuilder::IntVec4 op_Implicit___UnityEngine__ProBuilder__IntVec4(::UnityEngine::Vector4 p);
 
   // Ctor Parameters [CppParam { name: "value", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
@@ -106,6 +106,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::IntVec4, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::IntVec4, value) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::IntVec4, "UnityEngine.ProBuilder", "IntVec4");

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__TakeNObservable_1_def.hpp"
-#include "System/zzzz__IObservable_1_def.hpp"
-#include "System/zzzz__IObserver_1_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__TakeNObservable_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__IObservable_1_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__TakeNObservable_1_def.hpp"
+#include "System/zzzz__IObserver_1_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 /// @brief Convert operator to "::System::IObserver_1<TValue>"
 template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::__TakeNObservable_1__Take<TValue>::operator ::System::IObserver_1<TValue>*() noexcept {

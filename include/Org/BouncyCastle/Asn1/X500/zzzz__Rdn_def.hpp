@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Rdn)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1::X500 {
 class AttributeTypeAndValue;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X500 {
@@ -55,41 +55,41 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X500::Rdn* New_ctor(::Org::BouncyCastle::Asn1::Asn1Set* values);
 
-  /// @brief Method .ctor addr 0x107fd3c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x100eaec size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set* values);
 
-  /// @brief Method GetInstance addr 0x107fd64 size 0xa8 virtual false final false
+  /// @brief Method GetInstance addr 0x100eb14 size 0xa8 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X500::Rdn* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X500::Rdn* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor addr 0x107fe0c size 0x134 virtual false final false
+  /// @brief Method .ctor addr 0x100ebbc size 0x134 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
   static inline ::Org::BouncyCastle::Asn1::X500::Rdn* New_ctor(::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* attrTAndV);
 
-  /// @brief Method .ctor addr 0x107ff40 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x100ecf0 size 0x7c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* attrTAndV);
 
   static inline ::Org::BouncyCastle::Asn1::X500::Rdn*
   New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue*>*> aAndVs);
 
-  /// @brief Method .ctor addr 0x107ffbc size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x100ed6c size 0x7c virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue*>*> aAndVs);
 
-  /// @brief Method get_IsMultiValued addr 0x1080038 size 0x2c virtual true final false
+  /// @brief Method get_IsMultiValued addr 0x100ede8 size 0x2c virtual true final false
   inline bool get_IsMultiValued();
 
-  /// @brief Method get_Count addr 0x1080064 size 0x20 virtual true final false
+  /// @brief Method get_Count addr 0x100ee14 size 0x20 virtual true final false
   inline int32_t get_Count();
 
-  /// @brief Method GetFirst addr 0x1080084 size 0x50 virtual true final false
+  /// @brief Method GetFirst addr 0x100ee34 size 0x50 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* GetFirst();
 
-  /// @brief Method GetTypesAndValues addr 0x10800d4 size 0xf4 virtual true final false
+  /// @brief Method GetTypesAndValues addr 0x100ee84 size 0xf4 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue*>*> GetTypesAndValues();
 
-  /// @brief Method ToAsn1Object addr 0x10801c8 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x100ef78 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Rdn", modifiers: "&&", def_value: None }]
@@ -113,6 +113,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X500::Rdn, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X500::Rdn, ___values) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X500
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X500::Rdn);

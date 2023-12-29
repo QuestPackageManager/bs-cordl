@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource);
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6450))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6536))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidInputSource
 struct CORDL_TYPE AndroidInputSource {
 public:
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Android::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource, "UnityEngine.InputSystem.Android.LowLevel", "AndroidInputSource");

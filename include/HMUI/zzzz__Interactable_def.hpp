@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::HMUI::Interactable);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13537))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13656))
 // CS Name: ::HMUI::Interactable*
 class CORDL_TYPE Interactable : public ::UnityEngine::MonoBehaviour {
 public:
@@ -43,21 +43,21 @@ public:
 
   constexpr void __set_interactableChangeEvent(::System::Action_2<::HMUI::Interactable*, bool>* value);
 
-  /// @brief Method add_interactableChangeEvent addr 0x211d9a8 size 0xb0 virtual false final false
+  /// @brief Method add_interactableChangeEvent addr 0x1fc774c size 0xb0 virtual false final false
   inline void add_interactableChangeEvent(::System::Action_2<::HMUI::Interactable*, bool>* value);
 
-  /// @brief Method remove_interactableChangeEvent addr 0x211da58 size 0xb0 virtual false final false
+  /// @brief Method remove_interactableChangeEvent addr 0x1fc77fc size 0xb0 virtual false final false
   inline void remove_interactableChangeEvent(::System::Action_2<::HMUI::Interactable*, bool>* value);
 
-  /// @brief Method get_interactable addr 0x211db08 size 0x8 virtual false final false
+  /// @brief Method get_interactable addr 0x1fc78ac size 0x8 virtual false final false
   inline bool get_interactable();
 
-  /// @brief Method set_interactable addr 0x211db10 size 0x3c virtual false final false
+  /// @brief Method set_interactable addr 0x1fc78b4 size 0x3c virtual false final false
   inline void set_interactable(bool value);
 
   static inline ::HMUI::Interactable* New_ctor();
 
-  /// @brief Method .ctor addr 0x2117b40 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x1fc1fb8 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Interactable", modifiers: "&&", def_value: None }]
@@ -84,6 +84,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::Interactable, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::Interactable, ____interactable) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::Interactable, ___interactableChangeEvent) == 0x20, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::Interactable);

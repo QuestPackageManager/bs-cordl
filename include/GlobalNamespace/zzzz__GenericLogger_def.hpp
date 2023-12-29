@@ -6,16 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(GenericLogger)
 namespace GlobalNamespace {
-class __GenericLogger__ScopedStopwatch;
-}
-namespace GlobalNamespace {
 class IVerboseLogger;
 }
-namespace System::Diagnostics {
-class Stopwatch;
+namespace GlobalNamespace {
+class __GenericLogger__ScopedStopwatch;
+}
+namespace UnityEngine {
+class Object;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Diagnostics {
+class Stopwatch;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__GenericLogger__ScopedStopwatch);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14336))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13807))
 // CS Name: ::GenericLogger::ScopedStopwatch*
 class CORDL_TYPE __GenericLogger__ScopedStopwatch : public ::System::Object {
 public:
@@ -60,10 +63,10 @@ public:
 
   static inline ::GlobalNamespace::__GenericLogger__ScopedStopwatch* New_ctor(::StringW processName);
 
-  /// @brief Method .ctor addr 0x20ef90c size 0xb8 virtual false final false
+  /// @brief Method .ctor addr 0x1f91144 size 0xb8 virtual false final false
   inline void _ctor(::StringW processName);
 
-  /// @brief Method Dispose addr 0x20ef9c4 size 0xc8 virtual true final true
+  /// @brief Method Dispose addr 0x1f911fc size 0xc8 virtual true final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GenericLogger__ScopedStopwatch", modifiers: "&&", def_value: None }]
@@ -91,29 +94,36 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GenericLogger__ScopedStopwatch, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__GenericLogger__ScopedStopwatch, ____processName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GenericLogger__ScopedStopwatch, ____stopwatch) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::GenericLogger
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14337))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13808))
 // CS Name: ::GenericLogger*
 class CORDL_TYPE GenericLogger : public ::System::Object {
 public:
   // Declarations
   using ScopedStopwatch = ::GlobalNamespace::__GenericLogger__ScopedStopwatch;
 
-  /// @brief Method Format addr 0x20ef664 size 0xec virtual false final false
+  /// @brief Method VerboseLog addr 0x1f90e34 size 0x68 virtual false final false
+  static inline void VerboseLog(::StringW message, ::UnityEngine::Object* context);
+
+  /// @brief Method Format addr 0x1f90e9c size 0xec virtual false final false
   static inline ::StringW Format(::GlobalNamespace::IVerboseLogger* logger, ::StringW message);
 
-  /// @brief Method Log addr 0x20ef750 size 0x78 virtual false final false
+  /// @brief Method Log addr 0x1f90f88 size 0x78 virtual false final false
   static inline void Log(::GlobalNamespace::IVerboseLogger* logger, ::StringW message);
 
   /// @brief Method Log addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline void Log(T logger, ::StringW message);
 
-  /// @brief Method LogWithTimestamp addr 0x20ef7c8 size 0x144 virtual false final false
+  /// @brief Method LogWithTimestamp addr 0x1f91000 size 0x144 virtual false final false
   static inline void LogWithTimestamp(::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericLogger", modifiers: "&&", def_value: None }]

@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Xml::Serialization::XmlSchemaProviderAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11590))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11518))
 // CS Name: ::System.Xml.Serialization::XmlSchemaProviderAttribute*
 class CORDL_TYPE XmlSchemaProviderAttribute : public ::System::Attribute {
 public:
@@ -43,10 +43,10 @@ public:
 
   static inline ::System::Xml::Serialization::XmlSchemaProviderAttribute* New_ctor(::StringW methodName);
 
-  /// @brief Method .ctor addr 0x28abf5c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x272ef38 size 0x28 virtual false final false
   inline void _ctor(::StringW methodName);
 
-  /// @brief Method set_IsAny addr 0x28abf84 size 0xc virtual false final false
+  /// @brief Method set_IsAny addr 0x272ef60 size 0xc virtual false final false
   inline void set_IsAny(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaProviderAttribute", modifiers: "&&", def_value: None }]
@@ -73,6 +73,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlSchemaProviderAttribute, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Serialization::XmlSchemaProviderAttribute, ____methodName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Serialization::XmlSchemaProviderAttribute, ____isAny) == 0x18, "Offset mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlSchemaProviderAttribute);

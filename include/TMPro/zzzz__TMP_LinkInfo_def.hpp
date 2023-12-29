@@ -21,18 +21,18 @@ MARK_VAL_T(::TMPro::TMP_LinkInfo);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12319))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12247))
 // CS Name: ::TMPro::TMP_LinkInfo
 struct CORDL_TYPE TMP_LinkInfo {
 public:
   // Declarations
-  /// @brief Method SetLinkID addr 0x2c00d7c size 0xd4 virtual false final false
+  /// @brief Method SetLinkID addr 0x2a7c028 size 0xd4 virtual false final false
   inline void SetLinkID(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
 
-  /// @brief Method GetLinkText addr 0x2c00e50 size 0xdc virtual false final false
+  /// @brief Method GetLinkText addr 0x2a7c0fc size 0xdc virtual false final false
   inline ::StringW GetLinkText();
 
-  /// @brief Method GetLinkID addr 0x2c00f2c size 0xa8 virtual false final false
+  /// @brief Method GetLinkID addr 0x2a7c1d8 size 0xa8 virtual false final false
   inline ::StringW GetLinkID();
 
   // Ctor Parameters [CppParam { name: "textComponent", ty: "::TMPro::TMP_Text*", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None },
@@ -74,6 +74,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_LinkInfo, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LinkInfo, textComponent) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LinkInfo, hashCode) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LinkInfo, linkIdFirstCharacterIndex) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LinkInfo, linkIdLength) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LinkInfo, linkTextfirstCharacterIndex) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LinkInfo, linkTextLength) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LinkInfo, linkID) == 0x20, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_LinkInfo, "TMPro", "TMP_LinkInfo");

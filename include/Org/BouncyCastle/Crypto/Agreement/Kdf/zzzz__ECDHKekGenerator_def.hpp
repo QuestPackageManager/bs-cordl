@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECDHKekGenerator)
 namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
+namespace Org::BouncyCastle::Crypto {
 class IDerivationFunction;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::Kdf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(726))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.Kdf::ECDHKekGenerator*
 class CORDL_TYPE ECDHKekGenerator : public ::System::Object {
@@ -77,16 +77,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0x1217574 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x11a6324 size 0x7c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init addr 0x12175f0 size 0x98 virtual true final false
+  /// @brief Method Init addr 0x11a63a0 size 0x98 virtual true final false
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* param);
 
-  /// @brief Method get_Digest addr 0x1217688 size 0xa4 virtual true final false
+  /// @brief Method get_Digest addr 0x11a6438 size 0xa4 virtual true final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
-  /// @brief Method GenerateBytes addr 0x121772c size 0x318 virtual true final false
+  /// @brief Method GenerateBytes addr 0x11a64dc size 0x318 virtual true final false
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "ECDHKekGenerator", modifiers: "&&", def_value: None }]
@@ -119,6 +119,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator, ___kdf) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator, ___algorithm) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator, ___keySize) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator, ___z) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Agreement::Kdf
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator);

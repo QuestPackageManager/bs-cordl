@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::LinuxArpHardware);
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9276))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8113))
 // CS Name: ::System.Net.NetworkInformation::LinuxArpHardware
 struct CORDL_TYPE LinuxArpHardware {
 public:
@@ -117,6 +117,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::LinuxArpHardware, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::LinuxArpHardware, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::LinuxArpHardware, "System.Net.NetworkInformation", "LinuxArpHardware");

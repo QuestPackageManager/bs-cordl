@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngineInternal::Input::NativeInputUpdateType);
 namespace UnityEngineInternal::Input {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16111))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15965))
 // CS Name: ::UnityEngineInternal.Input::NativeInputUpdateType
 struct CORDL_TYPE NativeInputUpdateType {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngineInternal::Input::NativeInputUpdateType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngineInternal::Input::NativeInputUpdateType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngineInternal::Input
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngineInternal::Input::NativeInputUpdateType, "UnityEngineInternal.Input", "NativeInputUpdateType");

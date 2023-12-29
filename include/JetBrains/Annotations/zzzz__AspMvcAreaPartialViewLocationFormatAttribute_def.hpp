@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttr
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15761))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15711))
 // CS Name: ::JetBrains.Annotations::AspMvcAreaPartialViewLocationFormatAttribute*
 class CORDL_TYPE AspMvcAreaPartialViewLocationFormatAttribute : public ::System::Attribute {
 public:
@@ -34,13 +34,13 @@ public:
 
   static inline ::JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute* New_ctor(::StringW format);
 
-  /// @brief Method .ctor addr 0x2eba42c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d526ac size 0x28 virtual false final false
   inline void _ctor(::StringW format);
 
-  /// @brief Method get_Format addr 0x2eba454 size 0x8 virtual false final false
+  /// @brief Method get_Format addr 0x2d526d4 size 0x8 virtual false final false
   inline ::StringW get_Format();
 
-  /// @brief Method set_Format addr 0x2eba45c size 0x8 virtual false final false
+  /// @brief Method set_Format addr 0x2d526dc size 0x8 virtual false final false
   inline void set_Format(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "AspMvcAreaPartialViewLocationFormatAttribute", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute, ____Format_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute);

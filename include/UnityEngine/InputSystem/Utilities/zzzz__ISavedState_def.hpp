@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::ISavedState);
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6703))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6789))
 // CS Name: ::UnityEngine.InputSystem.Utilities::ISavedState*
 class CORDL_TYPE ISavedState {
 public:

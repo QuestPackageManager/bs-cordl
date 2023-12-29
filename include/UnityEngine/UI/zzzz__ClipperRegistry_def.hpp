@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::UI::ClipperRegistry);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13024))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13029))
 // CS Name: ::UnityEngine.UI::ClipperRegistry*
 class CORDL_TYPE ClipperRegistry : public ::System::Object {
 public:
@@ -44,22 +44,22 @@ public:
 
   static inline ::UnityEngine::UI::ClipperRegistry* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d531b4 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x2beae04 size 0x7c virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_instance addr 0x2d51fd8 size 0x7c virtual false final false
+  /// @brief Method get_instance addr 0x2be9c28 size 0x7c virtual false final false
   static inline ::UnityEngine::UI::ClipperRegistry* get_instance();
 
-  /// @brief Method Cull addr 0x2d52054 size 0x10c virtual false final false
+  /// @brief Method Cull addr 0x2be9ca4 size 0x10c virtual false final false
   inline void Cull();
 
-  /// @brief Method Register addr 0x2d53230 size 0x70 virtual false final false
+  /// @brief Method Register addr 0x2beae80 size 0x70 virtual false final false
   static inline void Register(::UnityEngine::UI::IClipper* c);
 
-  /// @brief Method Unregister addr 0x2d532a0 size 0x5c virtual false final false
+  /// @brief Method Unregister addr 0x2beaef0 size 0x5c virtual false final false
   static inline void Unregister(::UnityEngine::UI::IClipper* c);
 
-  /// @brief Method Disable addr 0x2d532fc size 0x5c virtual false final false
+  /// @brief Method Disable addr 0x2beaf4c size 0x5c virtual false final false
   static inline void Disable(::UnityEngine::UI::IClipper* c);
 
   // Ctor Parameters [CppParam { name: "", ty: "ClipperRegistry", modifiers: "&&", def_value: None }]
@@ -83,6 +83,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::ClipperRegistry, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::ClipperRegistry, ___m_Clippers) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::UI
 NEED_NO_BOX(::UnityEngine::UI::ClipperRegistry);

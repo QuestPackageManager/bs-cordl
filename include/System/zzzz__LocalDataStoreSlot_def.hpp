@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::LocalDataStoreSlot);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2544))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2542))
 // CS Name: ::System::LocalDataStoreSlot*
 class CORDL_TYPE LocalDataStoreSlot : public ::System::Object {
 public:
@@ -59,19 +59,19 @@ public:
 
   static inline ::System::LocalDataStoreSlot* New_ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie);
 
-  /// @brief Method .ctor addr 0x25d8300 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x247c3d8 size 0x40 virtual false final false
   inline void _ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie);
 
-  /// @brief Method get_Manager addr 0x25d8340 size 0x8 virtual false final false
+  /// @brief Method get_Manager addr 0x247c418 size 0x8 virtual false final false
   inline ::System::LocalDataStoreMgr* get_Manager();
 
-  /// @brief Method get_Slot addr 0x25d8348 size 0x8 virtual false final false
+  /// @brief Method get_Slot addr 0x247c420 size 0x8 virtual false final false
   inline int32_t get_Slot();
 
-  /// @brief Method get_Cookie addr 0x25d8350 size 0x8 virtual false final false
+  /// @brief Method get_Cookie addr 0x247c428 size 0x8 virtual false final false
   inline int64_t get_Cookie();
 
-  /// @brief Method Finalize addr 0x25d8358 size 0xac virtual true final false
+  /// @brief Method Finalize addr 0x247c430 size 0xac virtual true final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalDataStoreSlot", modifiers: "&&", def_value: None }]
@@ -101,6 +101,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::LocalDataStoreSlot, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::LocalDataStoreSlot, ___m_mgr) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::LocalDataStoreSlot, ___m_slot) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::LocalDataStoreSlot, ___m_cookie) == 0x20, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::LocalDataStoreSlot);

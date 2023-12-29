@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyProductAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3455))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3450))
 // CS Name: ::System.Reflection::AssemblyProductAttribute*
 class CORDL_TYPE AssemblyProductAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Reflection::AssemblyProductAttribute* New_ctor(::StringW product);
 
-  /// @brief Method .ctor addr 0x24e6038 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x238c580 size 0x28 virtual false final false
   inline void _ctor(::StringW product);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyProductAttribute", modifiers: "&&", def_value: None }]
@@ -56,6 +56,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::AssemblyProductAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyProductAttribute, ____Product_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace System::Reflection
 NEED_NO_BOX(::System::Reflection::AssemblyProductAttribute);

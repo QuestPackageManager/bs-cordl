@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RIPEMD160);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2916))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2953))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2912))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2952))
 // CS Name: ::System.Security.Cryptography::RIPEMD160*
 class CORDL_TYPE RIPEMD160 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
   static inline ::System::Security::Cryptography::RIPEMD160* New_ctor();
 
-  /// @brief Method .ctor addr 0x2463ad4 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x230a45c size 0x20 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Create addr 0x2463af4 size 0x58 virtual false final false
+  /// @brief Method Create addr 0x230a47c size 0x58 virtual false final false
   static inline ::System::Security::Cryptography::RIPEMD160* Create();
 
   // Ctor Parameters [CppParam { name: "", ty: "RIPEMD160", modifiers: "&&", def_value: None }]

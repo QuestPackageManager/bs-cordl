@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Math::Prime::ConfidenceFactor);
 namespace Mono::Math::Prime {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13808))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2291))
 // CS Name: ::Mono.Math.Prime::ConfidenceFactor
 struct CORDL_TYPE ConfidenceFactor {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Math::Prime::ConfidenceFactor, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Math::Prime::ConfidenceFactor, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Mono::Math::Prime
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Math::Prime::ConfidenceFactor, "Mono.Math.Prime", "ConfidenceFactor");

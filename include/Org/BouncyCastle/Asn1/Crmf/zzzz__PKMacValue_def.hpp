@@ -4,8 +4,11 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(PKMacValue)
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PbmParameter;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace System {
 class Object;
@@ -13,17 +16,14 @@ class Object;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PbmParameter;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -65,32 +65,32 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe87580 size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0xe123ac size 0xb4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe87634 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xe12460 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance addr 0xe877bc size 0x18 virtual false final false
+  /// @brief Method GetInstance addr 0xe125e8 size 0x18 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PbmParameter* pbmParams, ::Org::BouncyCastle::Asn1::DerBitString* macValue);
 
-  /// @brief Method .ctor addr 0xe877d4 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0xe12600 size 0xbc virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PbmParameter* pbmParams, ::Org::BouncyCastle::Asn1::DerBitString* macValue);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::Org::BouncyCastle::Asn1::DerBitString* macValue);
 
-  /// @brief Method .ctor addr 0xe87890 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xe126bc size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::Org::BouncyCastle::Asn1::DerBitString* macValue);
 
-  /// @brief Method get_AlgID addr 0xe878bc size 0x8 virtual true final false
+  /// @brief Method get_AlgID addr 0xe126e8 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgID();
 
-  /// @brief Method get_MacValue addr 0xe878c4 size 0x8 virtual true final false
+  /// @brief Method get_MacValue addr 0xe126f0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_MacValue();
 
-  /// @brief Method ToAsn1Object addr 0xe878cc size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe126f8 size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PKMacValue", modifiers: "&&", def_value: None }]
@@ -117,6 +117,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Crmf::PKMacValue, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::PKMacValue, ___algID) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::PKMacValue, ___macValue) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Crmf::PKMacValue);

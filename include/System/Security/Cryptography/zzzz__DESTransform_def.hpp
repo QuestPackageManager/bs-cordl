@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::DESTransform);
 namespace System::Security::Cryptography {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2284))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2978))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2977))
 // CS Name: ::System.Security.Cryptography::DESTransform*
 class CORDL_TYPE DESTransform : public ::Mono::Security::Cryptography::SymmetricTransform {
 public:
@@ -125,28 +125,28 @@ public:
   static inline ::System::Security::Cryptography::DESTransform* New_ctor(::System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor addr 0x246f300 size 0x228 virtual false final false
+  /// @brief Method .ctor addr 0x231658c size 0x228 virtual false final false
   inline void _ctor(::System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method CipherFunct addr 0x246f98c size 0x230 virtual false final false
+  /// @brief Method CipherFunct addr 0x2316c18 size 0x230 virtual false final false
   inline uint32_t CipherFunct(uint32_t r, int32_t n);
 
-  /// @brief Method Permutation addr 0x246fbbc size 0x324 virtual false final false
+  /// @brief Method Permutation addr 0x2316e48 size 0x324 virtual false final false
   static inline void Permutation(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint32_t, ::Array<uint32_t>*> permTab, bool preSwap);
 
-  /// @brief Method BSwap addr 0x246fee0 size 0x78 virtual false final false
+  /// @brief Method BSwap addr 0x231716c size 0x78 virtual false final false
   static inline void BSwap(::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuff);
 
-  /// @brief Method SetKey addr 0x246f600 size 0x38c virtual false final false
+  /// @brief Method SetKey addr 0x231688c size 0x38c virtual false final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method ProcessBlock addr 0x246ff58 size 0x388 virtual false final false
+  /// @brief Method ProcessBlock addr 0x23171e4 size 0x388 virtual false final false
   inline void ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method ECB addr 0x24702e0 size 0xa4 virtual true final false
+  /// @brief Method ECB addr 0x231756c size 0xa4 virtual true final false
   inline void ECB(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method GetStrongKey addr 0x246f528 size 0xd8 virtual false final false
+  /// @brief Method GetStrongKey addr 0x23167b4 size 0xd8 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetStrongKey();
 
   // Ctor Parameters [CppParam { name: "", ty: "DESTransform", modifiers: "&&", def_value: None }]
@@ -176,6 +176,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::DESTransform, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DESTransform, ___keySchedule) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DESTransform, ___byteBuff) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DESTransform, ___dwordBuff) == 0x68, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::DESTransform);

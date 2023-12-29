@@ -8,10 +8,10 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class IReadOnlyCollection_1;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -26,7 +26,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3838))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3826))
 // CS Name: ::System.Collections.Generic::IReadOnlyList`1<T>*
 class CORDL_TYPE IReadOnlyList_1 {
 public:

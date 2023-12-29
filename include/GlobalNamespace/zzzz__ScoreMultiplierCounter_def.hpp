@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ScoreMultiplierCounter);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5320))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5415))
 // CS Name: ::ScoreMultiplierCounter::MultiplierEventType
 struct CORDL_TYPE __ScoreMultiplierCounter__MultiplierEventType {
 public:
@@ -71,13 +71,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ScoreMultiplierCounter
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5321))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5416))
 // CS Name: ::ScoreMultiplierCounter*
 class CORDL_TYPE ScoreMultiplierCounter : public ::System::Object {
 public:
@@ -115,21 +117,21 @@ public:
 
   constexpr void __set__multiplierIncreaseMaxProgress(int32_t value);
 
-  /// @brief Method get_multiplier addr 0x2267dbc size 0x8 virtual false final false
+  /// @brief Method get_multiplier addr 0x2123c80 size 0x8 virtual false final false
   inline int32_t get_multiplier();
 
-  /// @brief Method get_normalizedProgress addr 0x2267570 size 0x14 virtual false final false
+  /// @brief Method get_normalizedProgress addr 0x21233a0 size 0x14 virtual false final false
   inline float_t get_normalizedProgress();
 
-  /// @brief Method Reset addr 0x2267dc4 size 0x18 virtual false final false
+  /// @brief Method Reset addr 0x2123c88 size 0x18 virtual false final false
   inline void Reset();
 
-  /// @brief Method ProcessMultiplierEvent addr 0x22674cc size 0x9c virtual false final false
+  /// @brief Method ProcessMultiplierEvent addr 0x21232fc size 0x9c virtual false final false
   inline bool ProcessMultiplierEvent(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType multiplierEventType);
 
   static inline ::GlobalNamespace::ScoreMultiplierCounter* New_ctor();
 
-  /// @brief Method .ctor addr 0x2267da4 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x2123c68 size 0x18 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScoreMultiplierCounter", modifiers: "&&", def_value: None }]
@@ -159,6 +161,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScoreMultiplierCounter, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScoreMultiplierCounter, ____multiplier) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScoreMultiplierCounter, ____multiplierIncreaseProgress) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScoreMultiplierCounter, ____multiplierIncreaseMaxProgress) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType, "", "ScoreMultiplierCounter/MultiplierEventType");

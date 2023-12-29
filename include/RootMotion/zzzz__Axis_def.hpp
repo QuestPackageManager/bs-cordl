@@ -16,7 +16,7 @@ MARK_VAL_T(::RootMotion::Axis);
 namespace RootMotion {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12480))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12408))
 // CS Name: ::RootMotion::Axis
 struct CORDL_TYPE Axis {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::Axis, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::Axis, value__) == 0x0, "Offset mismatch!");
 
 } // namespace RootMotion
 DEFINE_IL2CPP_ARG_TYPE(::RootMotion::Axis, "RootMotion", "Axis");

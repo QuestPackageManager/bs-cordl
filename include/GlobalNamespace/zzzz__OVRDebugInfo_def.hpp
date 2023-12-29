@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRDebugInfo);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 205, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8092))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8877))
 // CS Name: ::OVRDebugInfo*
 class CORDL_TYPE OVRDebugInfo : public ::UnityEngine::MonoBehaviour {
 public:
@@ -278,60 +278,60 @@ public:
 
   constexpr void __set_showVRVars(bool value);
 
-  /// @brief Method Awake addr 0x27aa268 size 0x1e4 virtual false final false
+  /// @brief Method Awake addr 0x26357e0 size 0x1e4 virtual false final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x27aa44c size 0xb8 virtual false final false
+  /// @brief Method Update addr 0x26359c4 size 0xb8 virtual false final false
   inline void Update();
 
-  /// @brief Method OnDestroy addr 0x27aab54 size 0x8 virtual false final false
+  /// @brief Method OnDestroy addr 0x26360cc size 0x8 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method InitUIComponents addr 0x27aa504 size 0x3b4 virtual false final false
+  /// @brief Method InitUIComponents addr 0x2635a7c size 0x3b4 virtual false final false
   inline void InitUIComponents();
 
-  /// @brief Method UpdateVariable addr 0x27aa8ec size 0x38 virtual false final false
+  /// @brief Method UpdateVariable addr 0x2635e64 size 0x38 virtual false final false
   inline void UpdateVariable();
 
-  /// @brief Method UpdateStrings addr 0x27aa924 size 0x230 virtual false final false
+  /// @brief Method UpdateStrings addr 0x2635e9c size 0x230 virtual false final false
   inline void UpdateStrings();
 
-  /// @brief Method RiftPresentGUI addr 0x27ab304 size 0x184 virtual false final false
+  /// @brief Method RiftPresentGUI addr 0x263687c size 0x184 virtual false final false
   inline void RiftPresentGUI(::UnityEngine::GameObject* guiMainOBj);
 
-  /// @brief Method UpdateDeviceDetection addr 0x27aa8b8 size 0x34 virtual false final false
+  /// @brief Method UpdateDeviceDetection addr 0x2635e30 size 0x34 virtual false final false
   inline void UpdateDeviceDetection();
 
-  /// @brief Method VariableObjectManager addr 0x27aab5c size 0x1ac virtual false final false
+  /// @brief Method VariableObjectManager addr 0x26360d4 size 0x1ac virtual false final false
   inline ::UnityEngine::GameObject* VariableObjectManager(::UnityEngine::GameObject* gameObject, ::StringW name, float_t posY, ::StringW str, int32_t fontSize);
 
-  /// @brief Method ComponentComposition addr 0x27ab488 size 0x338 virtual false final false
+  /// @brief Method ComponentComposition addr 0x2636a00 size 0x338 virtual false final false
   inline ::UnityEngine::GameObject* ComponentComposition(::UnityEngine::GameObject* GO);
 
-  /// @brief Method UpdateIPD addr 0x27aad08 size 0xcc virtual false final false
+  /// @brief Method UpdateIPD addr 0x2636280 size 0xcc virtual false final false
   inline void UpdateIPD();
 
-  /// @brief Method UpdateEyeHeightOffset addr 0x27aadd4 size 0xc0 virtual false final false
+  /// @brief Method UpdateEyeHeightOffset addr 0x263634c size 0xc0 virtual false final false
   inline void UpdateEyeHeightOffset();
 
-  /// @brief Method UpdateEyeDepthOffset addr 0x27aae94 size 0xc0 virtual false final false
+  /// @brief Method UpdateEyeDepthOffset addr 0x263640c size 0xc0 virtual false final false
   inline void UpdateEyeDepthOffset();
 
-  /// @brief Method UpdateFOV addr 0x27aaf54 size 0x100 virtual false final false
+  /// @brief Method UpdateFOV addr 0x26364cc size 0x100 virtual false final false
   inline void UpdateFOV();
 
-  /// @brief Method UpdateResolutionEyeTexture addr 0x27ab054 size 0x1cc virtual false final false
+  /// @brief Method UpdateResolutionEyeTexture addr 0x26365cc size 0x1cc virtual false final false
   inline void UpdateResolutionEyeTexture();
 
-  /// @brief Method UpdateLatencyValues addr 0x27ab220 size 0x4 virtual false final false
+  /// @brief Method UpdateLatencyValues addr 0x2636798 size 0x4 virtual false final false
   inline void UpdateLatencyValues();
 
-  /// @brief Method UpdateFPS addr 0x27ab224 size 0xe0 virtual false final false
+  /// @brief Method UpdateFPS addr 0x263679c size 0xe0 virtual false final false
   inline void UpdateFPS();
 
   static inline ::GlobalNamespace::OVRDebugInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x27ab7c0 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x2636d38 size 0x18 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRDebugInfo", modifiers: "&&", def_value: None }]
@@ -436,6 +436,62 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRDebugInfo, 0xd0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___debugUIManager) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___debugUIObject) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___riftPresent) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___fps) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___ipd) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___fov) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___height) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___depth) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___resolutionEyeTexture) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___latencies) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___texts) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___strRiftPresent) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___strFPS) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___strIPD) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___strFOV) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___strHeight) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___strDepth) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___strResolutionEyeTexture) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___strLatencies) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___updateInterval) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___accum) == 0xb4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___frames) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___timeLeft) == 0xbc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___initUIComponent) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___isInited) == 0xc1, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___offsetY) == 0xc4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___riftPresentTimeout) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugInfo, ___showVRVars) == 0xcc, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRDebugInfo);

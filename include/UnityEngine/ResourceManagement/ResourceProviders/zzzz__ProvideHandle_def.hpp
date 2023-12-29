@@ -6,8 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProvideHandle)
-namespace System {
-template <typename TResult> class Func_1;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 class IGenericProviderOperation;
@@ -18,20 +21,17 @@ class ResourceManager;
 namespace System {
 class Type;
 }
-namespace System {
-class Exception;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace System {
+class Exception;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
 class Object;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -44,7 +44,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle);
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14002))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14273))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::ProvideHandle
 struct CORDL_TYPE ProvideHandle {
 public:
@@ -59,37 +59,37 @@ public:
 
   __declspec(property(get = get_DependencyCount)) int32_t DependencyCount;
 
-  /// @brief Method .ctor addr 0x2bd7194 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x2a54440 size 0xbc virtual false final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* op);
 
-  /// @brief Method get_InternalOp addr 0x2bd7250 size 0x104 virtual false final false
+  /// @brief Method get_InternalOp addr 0x2a544fc size 0x104 virtual false final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* get_InternalOp();
 
-  /// @brief Method get_ResourceManager addr 0x2bd7354 size 0x8 virtual false final false
+  /// @brief Method get_ResourceManager addr 0x2a54600 size 0x8 virtual false final false
   inline ::UnityEngine::ResourceManagement::ResourceManager* get_ResourceManager();
 
-  /// @brief Method get_Type addr 0x2bd66fc size 0xac virtual false final false
+  /// @brief Method get_Type addr 0x2a539a8 size 0xac virtual false final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method get_Location addr 0x2bd3b90 size 0xac virtual false final false
+  /// @brief Method get_Location addr 0x2a50e3c size 0xac virtual false final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
-  /// @brief Method get_DependencyCount addr 0x2bd735c size 0xac virtual false final false
+  /// @brief Method get_DependencyCount addr 0x2a54608 size 0xac virtual false final false
   inline int32_t get_DependencyCount();
 
   /// @brief Method GetDependency addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename TDepObject> inline TDepObject GetDependency(int32_t index);
 
-  /// @brief Method GetDependencies addr 0x2bd62e0 size 0xb4 virtual false final false
+  /// @brief Method GetDependencies addr 0x2a5358c size 0xb4 virtual false final false
   inline void GetDependencies(::System::Collections::Generic::IList_1<::System::Object*>* list);
 
-  /// @brief Method SetProgressCallback addr 0x2bd43dc size 0xb4 virtual false final false
+  /// @brief Method SetProgressCallback addr 0x2a51688 size 0xb4 virtual false final false
   inline void SetProgressCallback(::System::Func_1<float_t>* callback);
 
-  /// @brief Method SetDownloadProgressCallbacks addr 0x2bd4490 size 0xb4 virtual false final false
+  /// @brief Method SetDownloadProgressCallbacks addr 0x2a5173c size 0xb4 virtual false final false
   inline void SetDownloadProgressCallbacks(::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* callback);
 
-  /// @brief Method SetWaitForCompletionCallback addr 0x2bd4544 size 0xb4 virtual false final false
+  /// @brief Method SetWaitForCompletionCallback addr 0x2a517f0 size 0xb4 virtual false final false
   inline void SetWaitForCompletionCallback(::System::Func_1<bool>* callback);
 
   /// @brief Method Complete addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -121,6 +121,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, m_Version) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, m_InternalOp) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, m_ResourceManager) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, "UnityEngine.ResourceManagement.ResourceProviders", "ProvideHandle");

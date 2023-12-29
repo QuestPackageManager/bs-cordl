@@ -13,17 +13,17 @@ CORDL_MODULE_EXPORT(PenetrationAvoidance)
 namespace RootMotion::FinalIK {
 class __PenetrationAvoidance__Avoider;
 }
-namespace GlobalNamespace {
-class __PenetrationAvoidance__Avoider__EffectorLink;
-}
-namespace RootMotion::FinalIK {
-class IKSolverFullBodyBiped;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace RootMotion::FinalIK {
+class IKSolverFullBodyBiped;
+}
+namespace GlobalNamespace {
+class __PenetrationAvoidance__Avoider__EffectorLink;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__PenetrationAvoidance__Avoider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12661))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12499)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12589))
 // CS Name: ::PenetrationAvoidance::Avoider::EffectorLink*
 class CORDL_TYPE __PenetrationAvoidance__Avoider__EffectorLink : public ::System::Object {
 public:
@@ -69,7 +69,7 @@ public:
 
   static inline ::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink* New_ctor();
 
-  /// @brief Method .ctor addr 0x1299020 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1227cf4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PenetrationAvoidance__Avoider__EffectorLink", modifiers: "&&", def_value: None }]
@@ -97,13 +97,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink, ___effector) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink, ___weight) == 0x14, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Avoider
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12662))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10132))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12590))
 // CS Name: ::PenetrationAvoidance::Avoider*
 class CORDL_TYPE __PenetrationAvoidance__Avoider : public ::System::Object {
 public:
@@ -202,18 +206,18 @@ public:
 
   constexpr void __set_offsetV(::UnityEngine::Vector3 value);
 
-  /// @brief Method Solve addr 0x1298a44 size 0x190 virtual false final false
+  /// @brief Method Solve addr 0x1227718 size 0x190 virtual false final false
   inline void Solve(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
 
-  /// @brief Method GetOffsetTarget addr 0x1298be4 size 0x108 virtual false final false
+  /// @brief Method GetOffsetTarget addr 0x12278b8 size 0x108 virtual false final false
   inline ::UnityEngine::Vector3 GetOffsetTarget(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver);
 
-  /// @brief Method Raycast addr 0x1298cec size 0x320 virtual false final false
+  /// @brief Method Raycast addr 0x12279c0 size 0x320 virtual false final false
   inline ::UnityEngine::Vector3 Raycast(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to);
 
   static inline ::RootMotion::FinalIK::__PenetrationAvoidance__Avoider* New_ctor();
 
-  /// @brief Method .ctor addr 0x129900c size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x1227ce0 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PenetrationAvoidance__Avoider", modifiers: "&&", def_value: None }]
@@ -265,13 +269,33 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider, 0x60>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__PenetrationAvoidance__Avoider, ___raycastFrom) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__PenetrationAvoidance__Avoider, ___raycastTo) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__PenetrationAvoidance__Avoider, ___raycastRadius) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__PenetrationAvoidance__Avoider, ___effectors) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__PenetrationAvoidance__Avoider, ___smoothTimeIn) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__PenetrationAvoidance__Avoider, ___smoothTimeOut) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__PenetrationAvoidance__Avoider, ___layers) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__PenetrationAvoidance__Avoider, ___offset) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__PenetrationAvoidance__Avoider, ___offsetTarget) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__PenetrationAvoidance__Avoider, ___offsetV) == 0x54, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: RootMotion.FinalIK::PenetrationAvoidance
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12656))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12663))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12584))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12591))
 // CS Name: ::RootMotion.FinalIK::PenetrationAvoidance*
 class CORDL_TYPE PenetrationAvoidance : public ::RootMotion::FinalIK::OffsetModifier {
 public:
@@ -288,12 +312,12 @@ public:
 
   constexpr void __set_avoiders(::ArrayW<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*, ::Array<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*>*> value);
 
-  /// @brief Method OnModifyOffset addr 0x12989d4 size 0x70 virtual true final false
+  /// @brief Method OnModifyOffset addr 0x12276a8 size 0x70 virtual true final false
   inline void OnModifyOffset();
 
   static inline ::RootMotion::FinalIK::PenetrationAvoidance* New_ctor();
 
-  /// @brief Method .ctor addr 0x1298bd4 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x12278a8 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PenetrationAvoidance", modifiers: "&&", def_value: None }]
@@ -317,6 +341,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::PenetrationAvoidance, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::PenetrationAvoidance, ___avoiders) == 0x30, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink);

@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::System::FormattableString);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2383))
 // CS Name: ::System::FormattableString*
 class CORDL_TYPE FormattableString : public ::System::Object {
@@ -54,15 +54,15 @@ public:
   /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::StringW ToString(::System::IFormatProvider* formatProvider);
 
-  /// @brief Method System.IFormattable.ToString addr 0x25972e4 size 0x14 virtual true final true
+  /// @brief Method System.IFormattable.ToString addr 0x243bca4 size 0x14 virtual true final true
   inline ::StringW System_IFormattable_ToString(::StringW ignored, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method ToString addr 0x25972f8 size 0x68 virtual true final false
+  /// @brief Method ToString addr 0x243bcb8 size 0x68 virtual true final false
   inline ::StringW ToString();
 
   static inline ::System::FormattableString* New_ctor();
 
-  /// @brief Method .ctor addr 0x2597360 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x243bd20 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FormattableString", modifiers: "&&", def_value: None }]

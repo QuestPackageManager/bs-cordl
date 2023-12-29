@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(JsonLoadSettings)
 namespace Newtonsoft::Json::Linq {
-struct LineInfoHandling;
+struct CommentHandling;
 }
 namespace Newtonsoft::Json::Linq {
-struct CommentHandling;
+struct LineInfoHandling;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonLoadSettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11967)), TypeDefinitionIndex(TypeDefinitionIndex(11966))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11970))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11895)), TypeDefinitionIndex(TypeDefinitionIndex(11894)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11898))
 // CS Name: ::Newtonsoft.Json.Linq::JsonLoadSettings*
 class CORDL_TYPE JsonLoadSettings : public ::System::Object {
 public:
@@ -50,21 +50,21 @@ public:
 
   constexpr void __set__lineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value);
 
-  /// @brief Method get_CommentHandling addr 0x2690e60 size 0x8 virtual false final false
+  /// @brief Method get_CommentHandling addr 0x252d71c size 0x8 virtual false final false
   inline ::Newtonsoft::Json::Linq::CommentHandling get_CommentHandling();
 
-  /// @brief Method set_CommentHandling addr 0x2690e68 size 0x64 virtual false final false
+  /// @brief Method set_CommentHandling addr 0x252d724 size 0x64 virtual false final false
   inline void set_CommentHandling(::Newtonsoft::Json::Linq::CommentHandling value);
 
-  /// @brief Method get_LineInfoHandling addr 0x2690ecc size 0x8 virtual false final false
+  /// @brief Method get_LineInfoHandling addr 0x252d788 size 0x8 virtual false final false
   inline ::Newtonsoft::Json::Linq::LineInfoHandling get_LineInfoHandling();
 
-  /// @brief Method set_LineInfoHandling addr 0x2690ed4 size 0x64 virtual false final false
+  /// @brief Method set_LineInfoHandling addr 0x252d790 size 0x64 virtual false final false
   inline void set_LineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value);
 
   static inline ::Newtonsoft::Json::Linq::JsonLoadSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x2690f38 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x252d7f4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonLoadSettings", modifiers: "&&", def_value: None }]
@@ -91,6 +91,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JsonLoadSettings, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonLoadSettings, ____commentHandling) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonLoadSettings, ____lineInfoHandling) == 0x14, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Linq
 NEED_NO_BOX(::Newtonsoft::Json::Linq::JsonLoadSettings);

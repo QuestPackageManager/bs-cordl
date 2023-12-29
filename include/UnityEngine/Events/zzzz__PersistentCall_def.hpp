@@ -13,12 +13,6 @@ class ArgumentCache;
 namespace UnityEngine::Events {
 class UnityEventBase;
 }
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace UnityEngine::Events {
-class BaseInvokableCall;
-}
 namespace UnityEngine::Events {
 struct PersistentListenerMode;
 }
@@ -27,6 +21,12 @@ class Object;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
+}
+namespace UnityEngine::Events {
+class BaseInvokableCall;
+}
+namespace System::Reflection {
+class MethodInfo;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::UnityEngine::Events::PersistentCall);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10447)), TypeDefinitionIndex(TypeDefinitionIndex(10457))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10458))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10369)), TypeDefinitionIndex(TypeDefinitionIndex(10379))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10380))
 // CS Name: ::UnityEngine.Events::PersistentCall*
 class CORDL_TYPE PersistentCall : public ::System::Object {
 public:
@@ -111,39 +111,39 @@ public:
 
   constexpr void __set_m_CallState(::UnityEngine::Events::UnityEventCallState value);
 
-  /// @brief Method get_target addr 0x2cf88c8 size 0x8 virtual false final false
+  /// @brief Method get_target addr 0x2b90588 size 0x8 virtual false final false
   inline ::UnityEngine::Object* get_target();
 
-  /// @brief Method get_targetAssemblyTypeName addr 0x2cf88d0 size 0xac virtual false final false
+  /// @brief Method get_targetAssemblyTypeName addr 0x2b90590 size 0xac virtual false final false
   inline ::StringW get_targetAssemblyTypeName();
 
-  /// @brief Method get_methodName addr 0x2cf897c size 0x8 virtual false final false
+  /// @brief Method get_methodName addr 0x2b9063c size 0x8 virtual false final false
   inline ::StringW get_methodName();
 
-  /// @brief Method get_mode addr 0x2cf8984 size 0x8 virtual false final false
+  /// @brief Method get_mode addr 0x2b90644 size 0x8 virtual false final false
   inline ::UnityEngine::Events::PersistentListenerMode get_mode();
 
-  /// @brief Method get_arguments addr 0x2cf898c size 0x8 virtual false final false
+  /// @brief Method get_arguments addr 0x2b9064c size 0x8 virtual false final false
   inline ::UnityEngine::Events::ArgumentCache* get_arguments();
 
-  /// @brief Method IsValid addr 0x2cf8994 size 0x3c virtual false final false
+  /// @brief Method IsValid addr 0x2b90654 size 0x3c virtual false final false
   inline bool IsValid();
 
-  /// @brief Method GetRuntimeCall addr 0x2cf89d0 size 0x2e8 virtual false final false
+  /// @brief Method GetRuntimeCall addr 0x2b90690 size 0x2e8 virtual false final false
   inline ::UnityEngine::Events::BaseInvokableCall* GetRuntimeCall(::UnityEngine::Events::UnityEventBase* theEvent);
 
-  /// @brief Method GetObjectCall addr 0x2cf8e80 size 0x430 virtual false final false
+  /// @brief Method GetObjectCall addr 0x2b90b40 size 0x430 virtual false final false
   static inline ::UnityEngine::Events::BaseInvokableCall* GetObjectCall(::UnityEngine::Object* target, ::System::Reflection::MethodInfo* method, ::UnityEngine::Events::ArgumentCache* arguments);
 
-  /// @brief Method OnBeforeSerialize addr 0x2cf92b0 size 0x1c virtual true final true
+  /// @brief Method OnBeforeSerialize addr 0x2b90f70 size 0x1c virtual true final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method OnAfterDeserialize addr 0x2cf92cc size 0x1c virtual true final true
+  /// @brief Method OnAfterDeserialize addr 0x2b90f8c size 0x1c virtual true final true
   inline void OnAfterDeserialize();
 
   static inline ::UnityEngine::Events::PersistentCall* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cf92e8 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x2b90fa8 size 0x74 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PersistentCall", modifiers: "&&", def_value: None }]
@@ -182,6 +182,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Events::PersistentCall, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Events::PersistentCall, ___m_Target) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Events::PersistentCall, ___m_TargetAssemblyTypeName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Events::PersistentCall, ___m_MethodName) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Events::PersistentCall, ___m_Mode) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Events::PersistentCall, ___m_Arguments) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Events::PersistentCall, ___m_CallState) == 0x38, "Offset mismatch!");
 
 } // namespace UnityEngine::Events
 NEED_NO_BOX(::UnityEngine::Events::PersistentCall);

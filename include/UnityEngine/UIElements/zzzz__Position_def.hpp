@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Position);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6886))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6972))
 // CS Name: ::UnityEngine.UIElements::Position
 struct CORDL_TYPE Position {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Position, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Position, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Position, "UnityEngine.UIElements", "Position");

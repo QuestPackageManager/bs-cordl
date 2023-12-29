@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Haptics::IDualMotorRumble);
 namespace UnityEngine::InputSystem::Haptics {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6461))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6547))
 // CS Name: ::UnityEngine.InputSystem.Haptics::IDualMotorRumble*
 class CORDL_TYPE IDualMotorRumble {
 public:

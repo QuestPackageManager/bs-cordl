@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConcurrentBag_1)
-namespace System::Threading {
-template <typename T> class ThreadLocal_1;
-}
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Concurrent {
 template <typename T> class IProducerConsumerCollection_1;
 }
+namespace System::Collections::Concurrent {
+template <typename T> class __ConcurrentBag_1__WorkStealingQueue;
+}
+namespace System::Threading {
+template <typename T> class ThreadLocal_1;
+}
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Concurrent {
-template <typename T> class __ConcurrentBag_1__Enumerator;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class Array;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class ICollection;
+}
 namespace System::Collections::Concurrent {
-template <typename T> class __ConcurrentBag_1__WorkStealingQueue;
+template <typename T> class __ConcurrentBag_1__Enumerator;
+}
+namespace System {
+class Array;
 }
 namespace System {
 class IDisposable;
@@ -66,8 +66,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9527))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8364))
 // CS Name: ::ConcurrentBag`1::WorkStealingQueue<T>*
 class CORDL_TYPE __ConcurrentBag_1__WorkStealingQueue : public ::System::Object {
 public:
@@ -247,8 +247,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9528))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8365))
 // CS Name: ::ConcurrentBag`1::Enumerator<T>*
 class CORDL_TYPE __ConcurrentBag_1__Enumerator : public ::System::Object {
 public:
@@ -346,8 +346,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9529))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8366))
 // CS Name: ::System.Collections.Concurrent::ConcurrentBag`1<T>*
 class CORDL_TYPE ConcurrentBag_1 : public ::System::Object {
 public:

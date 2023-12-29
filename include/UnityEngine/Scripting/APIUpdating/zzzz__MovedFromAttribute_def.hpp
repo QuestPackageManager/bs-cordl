@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::UnityEngine::Scripting::APIUpdating::MovedFromAttribute);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Scripting::APIUpdating {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10320)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10321))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545)), TypeDefinitionIndex(TypeDefinitionIndex(10242))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10243))
 // CS Name: ::UnityEngine.Scripting.APIUpdating::MovedFromAttribute*
 class CORDL_TYPE MovedFromAttribute : public ::System::Attribute {
 public:
@@ -33,12 +33,12 @@ public:
 
   static inline ::UnityEngine::Scripting::APIUpdating::MovedFromAttribute* New_ctor(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
 
-  /// @brief Method .ctor addr 0x2ce9dd4 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x2b829a0 size 0x6c virtual false final false
   inline void _ctor(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
 
   static inline ::UnityEngine::Scripting::APIUpdating::MovedFromAttribute* New_ctor(::StringW sourceNamespace);
 
-  /// @brief Method .ctor addr 0x2ce9e40 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x2b82a0c size 0x44 virtual false final false
   inline void _ctor(::StringW sourceNamespace);
 
   // Ctor Parameters [CppParam { name: "", ty: "MovedFromAttribute", modifiers: "&&", def_value: None }]
@@ -62,6 +62,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Scripting::APIUpdating::MovedFromAttribute, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Scripting::APIUpdating::MovedFromAttribute, ___data) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::Scripting::APIUpdating
 NEED_NO_BOX(::UnityEngine::Scripting::APIUpdating::MovedFromAttribute);

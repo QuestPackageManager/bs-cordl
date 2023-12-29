@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::SpriteCharacter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13706))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13725))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13585))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13604))
 // CS Name: ::UnityEngine.TextCore.Text::SpriteCharacter*
 class CORDL_TYPE SpriteCharacter : public ::UnityEngine::TextCore::Text::TextElement {
 public:
@@ -42,12 +42,12 @@ public:
 
   constexpr void __set_m_HashCode(int32_t value);
 
-  /// @brief Method get_name addr 0x2d4a7f8 size 0x8 virtual false final false
+  /// @brief Method get_name addr 0x2be2448 size 0x8 virtual false final false
   inline ::StringW get_name();
 
   static inline ::UnityEngine::TextCore::Text::SpriteCharacter* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d4a800 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x2be2450 size 0x20 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SpriteCharacter", modifiers: "&&", def_value: None }]
@@ -74,6 +74,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::SpriteCharacter, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::SpriteCharacter, ___m_Name) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::SpriteCharacter, ___m_HashCode) == 0x38, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::SpriteCharacter);

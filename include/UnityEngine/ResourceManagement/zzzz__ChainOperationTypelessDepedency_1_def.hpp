@@ -9,11 +9,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ChainOperationTypelessDepedency_1)
+namespace System {
+class Object;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
@@ -24,14 +30,8 @@ struct AsyncOperationHandle;
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-class Object;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement {
@@ -45,9 +45,9 @@ namespace UnityEngine::ResourceManagement {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 788 }), GenericInstantiation(GenericInstantiation
-// { tdi: TypeDefinitionIndex(14033), inst: 788 }), TypeDefinitionIndex(TypeDefinitionIndex(14036)), TypeDefinitionIndex(TypeDefinitionIndex(14034)), TypeDefinitionIndex(TypeDefinitionIndex(14033))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13950))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14303)), TypeDefinitionIndex(TypeDefinitionIndex(14304)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14304), inst:
+// 777 }), TypeDefinitionIndex(TypeDefinitionIndex(14305)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14303), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(14307))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14221))
 // CS Name: ::UnityEngine.ResourceManagement::ChainOperationTypelessDepedency`1<TObject>*
 class CORDL_TYPE ChainOperationTypelessDepedency_1 : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject> {
 public:

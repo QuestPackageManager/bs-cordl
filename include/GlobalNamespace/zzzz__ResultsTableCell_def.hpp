@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__TableCellWithSeparator_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResultsTableCell)
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
-}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ResultsTableCell);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13502))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5806))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13622))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5902))
 // CS Name: ::ResultsTableCell*
 class CORDL_TYPE ResultsTableCell : public ::GlobalNamespace::TableCellWithSeparator {
 public:
@@ -78,12 +78,12 @@ public:
 
   constexpr void __set__rankText(::TMPro::TextMeshProUGUI* value);
 
-  /// @brief Method SetData addr 0x22e8148 size 0x38c virtual false final false
+  /// @brief Method SetData addr 0x21a3ff0 size 0x38c virtual false final false
   inline void SetData(int32_t order, ::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::ResultsTableCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x22e84d4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21a437c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResultsTableCell", modifiers: "&&", def_value: None }]
@@ -119,6 +119,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResultsTableCell, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____border) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____orderText) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____nameText) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____scoreText) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ResultsTableCell, ____rankText) == 0x80, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ResultsTableCell);

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRDriverManager);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8521)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8575))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(9290))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9344))
 // CS Name: ::OVR.OpenVR::CVRDriverManager*
 class CORDL_TYPE CVRDriverManager : public ::System::Object {
 public:
@@ -37,16 +37,16 @@ public:
 
   static inline ::OVR::OpenVR::CVRDriverManager* New_ctor(void* pInterface);
 
-  /// @brief Method .ctor addr 0x27f58f0 size 0x114 virtual false final false
+  /// @brief Method .ctor addr 0x267e96c size 0x114 virtual false final false
   inline void _ctor(void* pInterface);
 
-  /// @brief Method GetDriverCount addr 0x27f5a04 size 0x24 virtual false final false
+  /// @brief Method GetDriverCount addr 0x267ea80 size 0x24 virtual false final false
   inline uint32_t GetDriverCount();
 
-  /// @brief Method GetDriverName addr 0x27f5a28 size 0x24 virtual false final false
+  /// @brief Method GetDriverName addr 0x267eaa4 size 0x24 virtual false final false
   inline uint32_t GetDriverName(uint32_t nDriver, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize);
 
-  /// @brief Method GetDriverHandle addr 0x27f5a4c size 0x24 virtual false final false
+  /// @brief Method GetDriverHandle addr 0x267eac8 size 0x24 virtual false final false
   inline uint64_t GetDriverHandle(::StringW pchDriverName);
 
   // Ctor Parameters [CppParam { name: "", ty: "CVRDriverManager", modifiers: "&&", def_value: None }]
@@ -70,6 +70,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::CVRDriverManager, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::CVRDriverManager, ___FnTable) == 0x10, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 NEED_NO_BOX(::OVR::OpenVR::CVRDriverManager);

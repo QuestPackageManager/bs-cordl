@@ -12,22 +12,22 @@ namespace UnityEngine::UIElements {
 class __RadioButton__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
 class __RadioButton__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
 class IGroupBoxOption;
 }
 namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__RadioButton__UxmlTraits);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7131)), TypeDefinitionIndex(TypeDefinitionIndex(6992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7131), inst: 914
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7077)) CS Name: ::RadioButton::UxmlTraits*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7217)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7217), inst: 897 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7078))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7163)) CS Name: ::RadioButton::UxmlTraits*
 class CORDL_TYPE __RadioButton__UxmlTraits : public ::UnityEngine::UIElements::BaseFieldTraits_2<bool, ::UnityEngine::UIElements::UxmlBoolAttributeDescription*> {
 public:
   // Declarations
@@ -61,12 +61,12 @@ public:
 
   constexpr void __set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method Init addr 0x2e31424 size 0x118 virtual true final false
+  /// @brief Method Init addr 0x2cca074 size 0x118 virtual true final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__RadioButton__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e3153c size 0xa0 virtual false final false
+  /// @brief Method .ctor addr 0x2cca18c size 0xa0 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__RadioButton__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -91,13 +91,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__RadioButton__UxmlTraits, 0x90>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__RadioButton__UxmlTraits, ___m_Text) == 0x88, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::RadioButton
 // SizeInfo { instance_size: 1072, native_size: -1, calculated_instance_size: 1072, calculated_native_size: 1072, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7067))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7078))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7153))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7164))
 // CS Name: ::UnityEngine.UIElements::RadioButton*
 class CORDL_TYPE RadioButton : public ::UnityEngine::UIElements::BaseBoolField {
 public:
@@ -162,38 +164,38 @@ public:
 
   static inline ::StringW getStaticF_textUssClassName();
 
-  /// @brief Method get_value addr 0x2e30ce8 size 0x48 virtual true final false
+  /// @brief Method get_value addr 0x2cc9938 size 0x48 virtual true final false
   inline bool get_value();
 
-  /// @brief Method set_value addr 0x2e30d30 size 0xe0 virtual true final false
+  /// @brief Method set_value addr 0x2cc9980 size 0xe0 virtual true final false
   inline void set_value(bool value);
 
   static inline ::UnityEngine::UIElements::RadioButton* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e30f04 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2cc9b54 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::RadioButton* New_ctor(::StringW label);
 
-  /// @brief Method .ctor addr 0x2e30f0c size 0x1d8 virtual false final false
+  /// @brief Method .ctor addr 0x2cc9b5c size 0x1d8 virtual false final false
   inline void _ctor(::StringW label);
 
-  /// @brief Method InitLabel addr 0x2e310e4 size 0x78 virtual true final false
+  /// @brief Method InitLabel addr 0x2cc9d34 size 0x78 virtual true final false
   inline void InitLabel();
 
-  /// @brief Method ToggleValue addr 0x2e3115c size 0x40 virtual true final false
+  /// @brief Method ToggleValue addr 0x2cc9dac size 0x40 virtual true final false
   inline void ToggleValue();
 
-  /// @brief Method SetSelected addr 0x2e3119c size 0x14 virtual true final true
+  /// @brief Method SetSelected addr 0x2cc9dec size 0x14 virtual true final true
   inline void SetSelected(bool selected);
 
-  /// @brief Method SetValueWithoutNotify addr 0x2e311b0 size 0x1c virtual true final false
+  /// @brief Method SetValueWithoutNotify addr 0x2cc9e00 size 0x1c virtual true final false
   inline void SetValueWithoutNotify(bool newValue);
 
-  /// @brief Method UpdateCheckmark addr 0x2e30e10 size 0xf4 virtual false final false
+  /// @brief Method UpdateCheckmark addr 0x2cc9a60 size 0xf4 virtual false final false
   inline void UpdateCheckmark();
 
-  /// @brief Method UpdateMixedValueContent addr 0x2e311cc size 0xa0 virtual true final false
+  /// @brief Method UpdateMixedValueContent addr 0x2cc9e1c size 0xa0 virtual true final false
   inline void UpdateMixedValueContent();
 
   // Ctor Parameters [CppParam { name: "", ty: "RadioButton", modifiers: "&&", def_value: None }]
@@ -218,19 +220,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RadioButton, 0x430>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::RadioButton, ___m_CheckmarkBackground) == 0x428, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::UxmlFactory
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7078)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7077)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5271 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7076)) CS Name: ::RadioButton::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7164)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5155 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7083)), TypeDefinitionIndex(TypeDefinitionIndex(7163))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7162)) CS Name: ::RadioButton::UxmlFactory*
 class CORDL_TYPE __RadioButton__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::RadioButton*, ::UnityEngine::UIElements::__RadioButton__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__RadioButton__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e313dc size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2cca02c size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__RadioButton__UxmlFactory", modifiers: "&&", def_value: None }]

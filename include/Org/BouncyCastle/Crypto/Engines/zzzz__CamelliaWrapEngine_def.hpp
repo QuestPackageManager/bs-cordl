@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Engines::CamelliaWrapEngine* New_ctor();
 
-  /// @brief Method .ctor addr 0xec1c8c size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0xe4dab8 size 0x64 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CamelliaWrapEngine", modifiers: "&&", def_value: None }]

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::ComponentModel::DefaultValueAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9383))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8220))
 // CS Name: ::System.ComponentModel::DefaultValueAttribute*
 class CORDL_TYPE DefaultValueAttribute : public ::System::Attribute {
 public:
@@ -38,26 +38,26 @@ public:
 
   static inline ::System::ComponentModel::DefaultValueAttribute* New_ctor(bool value);
 
-  /// @brief Method .ctor addr 0x290373c size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x2785714 size 0x6c virtual false final false
   inline void _ctor(bool value);
 
   static inline ::System::ComponentModel::DefaultValueAttribute* New_ctor(::StringW value);
 
-  /// @brief Method .ctor addr 0x29037a8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2785780 size 0x28 virtual false final false
   inline void _ctor(::StringW value);
 
   static inline ::System::ComponentModel::DefaultValueAttribute* New_ctor(::System::Object* value);
 
-  /// @brief Method .ctor addr 0x29037d0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x27857a8 size 0x28 virtual false final false
   inline void _ctor(::System::Object* value);
 
-  /// @brief Method get_Value addr 0x29037f8 size 0x8 virtual true final false
+  /// @brief Method get_Value addr 0x27857d0 size 0x8 virtual true final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method Equals addr 0x2903800 size 0x10c virtual true final false
+  /// @brief Method Equals addr 0x27857d8 size 0x10c virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x290390c size 0x8 virtual true final false
+  /// @brief Method GetHashCode addr 0x27858e4 size 0x8 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultValueAttribute", modifiers: "&&", def_value: None }]
@@ -81,6 +81,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::DefaultValueAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::DefaultValueAttribute, ____value) == 0x10, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::DefaultValueAttribute);

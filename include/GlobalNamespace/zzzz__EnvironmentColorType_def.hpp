@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::EnvironmentColorType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14754))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14967))
 // CS Name: ::EnvironmentColorType
 struct CORDL_TYPE EnvironmentColorType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentColorType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentColorType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentColorType, "", "EnvironmentColorType");

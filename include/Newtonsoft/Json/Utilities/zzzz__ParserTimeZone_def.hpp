@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Utilities::ParserTimeZone);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11845))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11773))
 // CS Name: ::Newtonsoft.Json.Utilities::ParserTimeZone
 struct CORDL_TYPE ParserTimeZone {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::ParserTimeZone, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::ParserTimeZone, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ParserTimeZone, "Newtonsoft.Json.Utilities", "ParserTimeZone");

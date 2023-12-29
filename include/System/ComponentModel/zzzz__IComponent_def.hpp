@@ -3,11 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IComponent)
-namespace System::ComponentModel {
-class ISite;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::ComponentModel {
+class ISite;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::ComponentModel::IComponent);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9473))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8310))
 // CS Name: ::System.ComponentModel::IComponent*
 class CORDL_TYPE IComponent {
 public:

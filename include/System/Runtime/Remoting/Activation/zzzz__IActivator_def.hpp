@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IActivator)
 namespace System::Runtime::Remoting::Activation {
-class IConstructionCallMessage;
+class IConstructionReturnMessage;
 }
 namespace System::Runtime::Remoting::Activation {
-class IConstructionReturnMessage;
+class IConstructionCallMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::IActivator);
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3133))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3132))
 // CS Name: ::System.Runtime.Remoting.Activation::IActivator*
 class CORDL_TYPE IActivator {
 public:

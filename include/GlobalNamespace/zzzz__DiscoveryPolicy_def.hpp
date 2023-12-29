@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::DiscoveryPolicy);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12721))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12649))
 // CS Name: ::DiscoveryPolicy
 struct CORDL_TYPE DiscoveryPolicy {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DiscoveryPolicy, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DiscoveryPolicy, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DiscoveryPolicy, "", "DiscoveryPolicy");

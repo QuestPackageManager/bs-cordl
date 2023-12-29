@@ -17,10 +17,10 @@ namespace System {
 class AsyncCallback;
 }
 namespace GlobalNamespace {
-class __NetworkStatisticsState__NetworkStatisticsUpdateDelegate;
+struct NetworkStatisticsDelta;
 }
 namespace GlobalNamespace {
-struct NetworkStatisticsDelta;
+class __NetworkStatisticsState__NetworkStatisticsUpdateDelegate;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,24 +36,24 @@ MARK_VAL_T(::GlobalNamespace::NetworkStatisticsState);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12899))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12821))
 // CS Name: ::NetworkStatisticsState::NetworkStatisticsUpdateDelegate*
 class CORDL_TYPE __NetworkStatisticsState__NetworkStatisticsUpdateDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0xe4d0c4 size 0xd4 virtual false final false
+  /// @brief Method .ctor addr 0xdc80e4 size 0xd4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0xe4d198 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0xdc81b8 size 0x14 virtual true final false
   inline void Invoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState);
 
-  /// @brief Method BeginInvoke addr 0xe4d1ac size 0x8c virtual true final false
+  /// @brief Method BeginInvoke addr 0xdc81cc size 0x8c virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0xe4d238 size 0xc virtual true final false
+  /// @brief Method EndInvoke addr 0xdc8258 size 0xc virtual true final false
   inline void EndInvoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkStatisticsState__NetworkStatisticsUpdateDelegate", modifiers: "&&", def_value: None }]
@@ -81,19 +81,19 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NetworkStatis
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12900))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12822))
 // CS Name: ::NetworkStatisticsState
 struct CORDL_TYPE NetworkStatisticsState {
 public:
   // Declarations
   using NetworkStatisticsUpdateDelegate = ::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate;
 
-  /// @brief Method .ctor addr 0xe4d024 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xdc8044 size 0x28 virtual false final false
   inline void _ctor(int64_t packetsSent, int64_t packetsReceived, int64_t bytesSent, int64_t bytesReceived, int64_t packetsLost, int64_t packetsSentEncrypted, int64_t packetsSentPlaintext,
                     int64_t packetsSentRejected, int64_t packetsReceivedEncrypted, int64_t packetsReceivedPlaintext, int64_t packetsReceivedRejected, int64_t encryptionProcessingTime,
                     int64_t decryptionProcessingTime);
 
-  /// @brief Method op_Subtraction addr 0xe4d04c size 0x50 virtual false final false
+  /// @brief Method op_Subtraction addr 0xdc806c size 0x50 virtual false final false
   static inline ::GlobalNamespace::NetworkStatisticsDelta op_Subtraction(ByRef<::GlobalNamespace::NetworkStatisticsState> a, ByRef<::GlobalNamespace::NetworkStatisticsState> b);
 
   // Ctor Parameters [CppParam { name: "packetsSent", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsReceived", ty: "int64_t", modifiers: "", def_value: None }, CppParam {
@@ -157,6 +157,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkStatisticsState, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsState, packetsSent) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsState, packetsReceived) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsState, bytesSent) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsState, bytesReceived) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsState, packetsLost) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsState, packetsSentEncrypted) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsState, packetsSentPlaintext) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsState, packetsSentRejected) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsState, packetsReceivedEncrypted) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsState, packetsReceivedPlaintext) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsState, packetsReceivedRejected) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsState, encryptionProcessingTime) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkStatisticsState, decryptionProcessingTime) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate);

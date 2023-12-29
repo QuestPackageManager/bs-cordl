@@ -14,19 +14,19 @@ namespace UnityEngine {
 class Texture2D;
 }
 namespace UnityEngine::UIElements::UIR {
-struct __GradientSettingsAtlas__RawTexture;
-}
-namespace UnityEngine::UIElements::UIR {
-struct Alloc;
+class BestFitAllocator;
 }
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine::UIElements::UIR {
+struct Alloc;
 }
 namespace UnityEngine::UIElements {
 struct GradientSettings;
 }
 namespace UnityEngine::UIElements::UIR {
-class BestFitAllocator;
+struct __GradientSettingsAtlas__RawTexture;
 }
 namespace UnityEngine::UIElements::UIR {
 class GradientRemap;
@@ -49,15 +49,15 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7378))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7464))
 // CS Name: ::GradientSettingsAtlas::RawTexture
 struct CORDL_TYPE __GradientSettingsAtlas__RawTexture {
 public:
   // Declarations
-  /// @brief Method WriteRawInt2Packed addr 0x2e8af7c size 0x88 virtual false final false
+  /// @brief Method WriteRawInt2Packed addr 0x2d22bcc size 0x88 virtual false final false
   inline void WriteRawInt2Packed(int32_t v0, int32_t v1, int32_t destX, int32_t destY);
 
-  /// @brief Method WriteRawFloat4Packed addr 0x2e8aed4 size 0xa8 virtual false final false
+  /// @brief Method WriteRawFloat4Packed addr 0x2d22b24 size 0xa8 virtual false final false
   inline void WriteRawFloat4Packed(float_t f0, float_t f1, float_t f2, float_t f3, int32_t destX, int32_t destY);
 
   // Ctor Parameters [CppParam { name: "rgba", ty: "::ArrayW<::UnityEngine::Color32,::Array<::UnityEngine::Color32>*>", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t",
@@ -85,13 +85,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture, rgba) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture, width) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture, height) == 0xc, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements::UIR
 // Type: UnityEngine.UIElements.UIR::GradientSettingsAtlas
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7378)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7379))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(7464)), TypeDefinitionIndex(TypeDefinitionIndex(9894))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7465))
 // CS Name: ::UnityEngine.UIElements.UIR::GradientSettingsAtlas*
 class CORDL_TYPE GradientSettingsAtlas : public ::System::Object {
 public:
@@ -193,49 +199,49 @@ public:
 
   static inline int32_t getStaticF_s_TextureCounter();
 
-  /// @brief Method get_length addr 0x2e8a744 size 0x8 virtual false final false
+  /// @brief Method get_length addr 0x2d22394 size 0x8 virtual false final false
   inline int32_t get_length();
 
-  /// @brief Method get_disposed addr 0x2e8a74c size 0x8 virtual false final false
+  /// @brief Method get_disposed addr 0x2d2239c size 0x8 virtual false final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed addr 0x2e8a754 size 0xc virtual false final false
+  /// @brief Method set_disposed addr 0x2d223a4 size 0xc virtual false final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose addr 0x2e8a760 size 0x6c virtual true final true
+  /// @brief Method Dispose addr 0x2d223b0 size 0x6c virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x2e8a7cc size 0x78 virtual true final false
+  /// @brief Method Dispose addr 0x2d2241c size 0x78 virtual true final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::GradientSettingsAtlas* New_ctor(int32_t length);
 
-  /// @brief Method .ctor addr 0x2e8a844 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x2d22494 size 0x30 virtual false final false
   inline void _ctor(int32_t length);
 
-  /// @brief Method Reset addr 0x2e8a874 size 0xcc virtual false final false
+  /// @brief Method Reset addr 0x2d224c4 size 0xcc virtual false final false
   inline void Reset();
 
-  /// @brief Method get_atlas addr 0x2e8a940 size 0x8 virtual false final false
+  /// @brief Method get_atlas addr 0x2d22590 size 0x8 virtual false final false
   inline ::UnityEngine::Texture2D* get_atlas();
 
-  /// @brief Method Add addr 0x2e8a948 size 0xec virtual false final false
+  /// @brief Method Add addr 0x2d22598 size 0xec virtual false final false
   inline ::UnityEngine::UIElements::UIR::Alloc Add(int32_t count);
 
-  /// @brief Method Write addr 0x2e8aa34 size 0x4a0 virtual false final false
+  /// @brief Method Write addr 0x2d22684 size 0x4a0 virtual false final false
   inline void Write(::UnityEngine::UIElements::UIR::Alloc alloc, ::ArrayW<::UnityEngine::UIElements::GradientSettings, ::Array<::UnityEngine::UIElements::GradientSettings>*> settings,
                     ::UnityEngine::UIElements::UIR::GradientRemap* remap);
 
-  /// @brief Method get_MustCommit addr 0x2e8b004 size 0x8 virtual false final false
+  /// @brief Method get_MustCommit addr 0x2d22c54 size 0x8 virtual false final false
   inline bool get_MustCommit();
 
-  /// @brief Method set_MustCommit addr 0x2e8b00c size 0xc virtual false final false
+  /// @brief Method set_MustCommit addr 0x2d22c5c size 0xc virtual false final false
   inline void set_MustCommit(bool value);
 
-  /// @brief Method Commit addr 0x2e8b018 size 0x64 virtual false final false
+  /// @brief Method Commit addr 0x2d22c68 size 0x64 virtual false final false
   inline void Commit();
 
-  /// @brief Method PrepareAtlas addr 0x2e8b07c size 0x168 virtual false final false
+  /// @brief Method PrepareAtlas addr 0x2d22ccc size 0x168 virtual false final false
   inline void PrepareAtlas();
 
   // Ctor Parameters [CppParam { name: "", ty: "GradientSettingsAtlas", modifiers: "&&", def_value: None }]
@@ -277,6 +283,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::GradientSettingsAtlas, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientSettingsAtlas, ___m_Length) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientSettingsAtlas, ___m_ElemWidth) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientSettingsAtlas, ___m_Allocator) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientSettingsAtlas, ___m_Atlas) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientSettingsAtlas, ___m_RawAtlas) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientSettingsAtlas, ____disposed_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientSettingsAtlas, ____MustCommit_k__BackingField) == 0x39, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::GradientSettingsAtlas);

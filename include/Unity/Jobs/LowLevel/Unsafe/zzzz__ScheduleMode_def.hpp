@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::Jobs::LowLevel::Unsafe::ScheduleMode);
 namespace Unity::Jobs::LowLevel::Unsafe {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9980))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9908))
 // CS Name: ::Unity.Jobs.LowLevel.Unsafe::ScheduleMode
 struct CORDL_TYPE ScheduleMode {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Jobs::LowLevel::Unsafe::ScheduleMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Unity::Jobs::LowLevel::Unsafe::ScheduleMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Unity::Jobs::LowLevel::Unsafe
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Jobs::LowLevel::Unsafe::ScheduleMode, "Unity.Jobs.LowLevel.Unsafe", "ScheduleMode");

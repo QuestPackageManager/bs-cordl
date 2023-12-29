@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EIOBufferMode);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8641))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9410))
 // CS Name: ::OVR.OpenVR::EIOBufferMode
 struct CORDL_TYPE EIOBufferMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EIOBufferMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::EIOBufferMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EIOBufferMode, "OVR.OpenVR", "EIOBufferMode");

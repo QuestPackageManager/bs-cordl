@@ -10,13 +10,13 @@ namespace GlobalNamespace {
 class __VRsenalScoreLogger___Start_d__3;
 }
 namespace GlobalNamespace {
-class ILevelEndActions;
+class IScoreController;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class IScoreController;
+class ILevelEndActions;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -24,14 +24,14 @@ class IEnumerator;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace UnityEngine {
-class YieldInstruction;
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+class YieldInstruction;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__VRsenalScoreLogger___Start_d__3);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4015))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3998))
 // CS Name: ::VRsenalScoreLogger::<Start>d__3*
 class CORDL_TYPE __VRsenalScoreLogger___Start_d__3 : public ::System::Object {
 public:
@@ -104,22 +104,22 @@ public:
 
   static inline ::GlobalNamespace::__VRsenalScoreLogger___Start_d__3* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2222fdc size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x20c18f0 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x222324c size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x20c1b60 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2223250 size 0x6bc virtual true final true
+  /// @brief Method MoveNext addr 0x20c1b64 size 0x6bc virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x222390c size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x20c2220 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2223914 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x20c2228 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2223954 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x20c2268 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__VRsenalScoreLogger___Start_d__3", modifiers: "&&", def_value: None }]
@@ -153,13 +153,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__VRsenalScoreLogger___Start_d__3, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__VRsenalScoreLogger___Start_d__3, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__VRsenalScoreLogger___Start_d__3, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__VRsenalScoreLogger___Start_d__3, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__VRsenalScoreLogger___Start_d__3, ____yieldInstruction_5__2) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::VRsenalScoreLogger
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4016))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3999))
 // CS Name: ::VRsenalScoreLogger*
 class CORDL_TYPE VRsenalScoreLogger : public ::UnityEngine::MonoBehaviour {
 public:
@@ -193,21 +201,21 @@ public:
 
   constexpr void __set__levelEndActions(::GlobalNamespace::ILevelEndActions* value);
 
-  /// @brief Method Start addr 0x2222f74 size 0x68 virtual false final false
+  /// @brief Method Start addr 0x20c1888 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* Start();
 
-  /// @brief Method OnDestroy addr 0x2223004 size 0x108 virtual false final false
+  /// @brief Method OnDestroy addr 0x20c1918 size 0x108 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleLevelFinishedEvent addr 0x222310c size 0x4 virtual false final false
+  /// @brief Method HandleLevelFinishedEvent addr 0x20c1a20 size 0x4 virtual false final false
   inline void HandleLevelFinishedEvent();
 
-  /// @brief Method LogScore addr 0x2223110 size 0x134 virtual false final false
+  /// @brief Method LogScore addr 0x20c1a24 size 0x134 virtual false final false
   inline void LogScore();
 
   static inline ::GlobalNamespace::VRsenalScoreLogger* New_ctor();
 
-  /// @brief Method .ctor addr 0x2223244 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20c1b58 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VRsenalScoreLogger", modifiers: "&&", def_value: None }]
@@ -237,6 +245,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VRsenalScoreLogger, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRsenalScoreLogger, ____scoreController) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRsenalScoreLogger, ____difficultyBeatmap) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRsenalScoreLogger, ____levelEndActions) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::VRsenalScoreLogger);

@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UxmlStyleFactory)
 namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlStyleFactory);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5286 }), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6973)), TypeDefinitionIndex(TypeDefinitionIndex(6744))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6972)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7083)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5170 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6830)), TypeDefinitionIndex(TypeDefinitionIndex(7059))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7058)) CS Name:
 // ::UnityEngine.UIElements::UxmlStyleFactory*
 class CORDL_TYPE UxmlStyleFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::UxmlStyleTraits*> {
 public:
@@ -36,18 +36,18 @@ public:
 
   __declspec(property(get = get_uxmlQualifiedName))::StringW uxmlQualifiedName;
 
-  /// @brief Method get_uxmlName addr 0x2e0e10c size 0x40 virtual true final false
+  /// @brief Method get_uxmlName addr 0x2ca7d5c size 0x40 virtual true final false
   inline ::StringW get_uxmlName();
 
-  /// @brief Method get_uxmlQualifiedName addr 0x2e0e14c size 0x74 virtual true final false
+  /// @brief Method get_uxmlQualifiedName addr 0x2ca7d9c size 0x74 virtual true final false
   inline ::StringW get_uxmlQualifiedName();
 
-  /// @brief Method Create addr 0x2e0e1c0 size 0x8 virtual true final false
+  /// @brief Method Create addr 0x2ca7e10 size 0x8 virtual true final false
   inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlStyleFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e0e1c8 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2ca7e18 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlStyleFactory", modifiers: "&&", def_value: None }]

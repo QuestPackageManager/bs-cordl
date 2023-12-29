@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArmoredInputStream)
+namespace System::IO {
+class Stream;
+}
 namespace Org::BouncyCastle::Bcpg {
 class Crc24;
 }
 namespace System::Collections {
 class IList;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -165,56 +165,56 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_decodingTable();
 
-  /// @brief Method Decode addr 0x11c948c size 0x208 virtual false final false
+  /// @brief Method Decode addr 0x115823c size 0x208 virtual false final false
   inline int32_t Decode(int32_t in0, int32_t in1, int32_t in2, int32_t in3, ::ArrayW<int32_t, ::Array<int32_t>*> result);
 
   static inline ::Org::BouncyCastle::Bcpg::ArmoredInputStream* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor addr 0x11c9694 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1158444 size 0x8 virtual false final false
   inline void _ctor(::System::IO::Stream* input);
 
   static inline ::Org::BouncyCastle::Bcpg::ArmoredInputStream* New_ctor(::System::IO::Stream* input, bool hasHeaders);
 
-  /// @brief Method .ctor addr 0x11c969c size 0x124 virtual false final false
+  /// @brief Method .ctor addr 0x115844c size 0x124 virtual false final false
   inline void _ctor(::System::IO::Stream* input, bool hasHeaders);
 
-  /// @brief Method ParseHeaders addr 0x11c97d4 size 0x434 virtual false final false
+  /// @brief Method ParseHeaders addr 0x1158584 size 0x434 virtual false final false
   inline bool ParseHeaders();
 
-  /// @brief Method IsClearText addr 0x11c9c08 size 0x8 virtual false final false
+  /// @brief Method IsClearText addr 0x11589b8 size 0x8 virtual false final false
   inline bool IsClearText();
 
-  /// @brief Method IsEndOfStream addr 0x11c9c10 size 0x8 virtual false final false
+  /// @brief Method IsEndOfStream addr 0x11589c0 size 0x8 virtual false final false
   inline bool IsEndOfStream();
 
-  /// @brief Method GetArmorHeaderLine addr 0x11c9c18 size 0x8 virtual false final false
+  /// @brief Method GetArmorHeaderLine addr 0x11589c8 size 0x8 virtual false final false
   inline ::StringW GetArmorHeaderLine();
 
-  /// @brief Method GetArmorHeaders addr 0x11c9c20 size 0x26c virtual false final false
+  /// @brief Method GetArmorHeaders addr 0x11589d0 size 0x26c virtual false final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetArmorHeaders();
 
-  /// @brief Method ReadIgnoreSpace addr 0x11c9e8c size 0x44 virtual false final false
+  /// @brief Method ReadIgnoreSpace addr 0x1158c3c size 0x44 virtual false final false
   inline int32_t ReadIgnoreSpace();
 
-  /// @brief Method ReadIgnoreWhitespace addr 0x11c9ed0 size 0x60 virtual false final false
+  /// @brief Method ReadIgnoreWhitespace addr 0x1158c80 size 0x60 virtual false final false
   inline int32_t ReadIgnoreWhitespace();
 
-  /// @brief Method ReadByteClearText addr 0x11c9f30 size 0xd8 virtual false final false
+  /// @brief Method ReadByteClearText addr 0x1158ce0 size 0xd8 virtual false final false
   inline int32_t ReadByteClearText();
 
-  /// @brief Method ReadClearText addr 0x11ca008 size 0x148 virtual false final false
+  /// @brief Method ReadClearText addr 0x1158db8 size 0x148 virtual false final false
   inline int32_t ReadClearText(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method DoReadByte addr 0x11ca150 size 0x298 virtual false final false
+  /// @brief Method DoReadByte addr 0x1158f00 size 0x298 virtual false final false
   inline int32_t DoReadByte();
 
-  /// @brief Method ReadByte addr 0x11ca3e8 size 0x9c virtual true final false
+  /// @brief Method ReadByte addr 0x1159198 size 0x9c virtual true final false
   inline int32_t ReadByte();
 
-  /// @brief Method Read addr 0x11ca4cc size 0x1cc virtual true final false
+  /// @brief Method Read addr 0x115927c size 0x1cc virtual true final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Close addr 0x11ca698 size 0x68 virtual true final false
+  /// @brief Method Close addr 0x1159448 size 0x68 virtual true final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "ArmoredInputStream", modifiers: "&&", def_value: None }]
@@ -277,6 +277,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::ArmoredInputStream, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredInputStream, ___input) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredInputStream, ___start) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredInputStream, ___outBuf) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredInputStream, ___bufPtr) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredInputStream, ___crc) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredInputStream, ___crcFound) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredInputStream, ___hasHeaders) == 0x59, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredInputStream, ___header) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredInputStream, ___newLineFound) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredInputStream, ___clearText) == 0x69, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredInputStream, ___restart) == 0x6a, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredInputStream, ___headerList) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredInputStream, ___lastC) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredInputStream, ___isEndOfStream) == 0x7c, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::ArmoredInputStream);

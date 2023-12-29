@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Memory_1)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 template <typename T> struct ReadOnlyMemory_1;
 }
 namespace System {
-template <typename T> struct Span_1;
+class Object;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 namespace System::Buffers {
 struct MemoryHandle;
@@ -35,7 +35,7 @@ namespace System {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2437))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2435))
 // CS Name: ::System::Memory`1<T>
 struct CORDL_TYPE Memory_1 {
 public:

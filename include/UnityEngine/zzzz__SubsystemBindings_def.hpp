@@ -15,13 +15,13 @@ MARK_REF_PTR_T(::UnityEngine::SubsystemBindings);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15966))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15858))
 // CS Name: ::UnityEngine::SubsystemBindings*
 class CORDL_TYPE SubsystemBindings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DestroySubsystem addr 0x2d1a5ac size 0x3c virtual false final false
+  /// @brief Method DestroySubsystem addr 0x2bb31fc size 0x3c virtual false final false
   static inline void DestroySubsystem(void* nativePtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubsystemBindings", modifiers: "&&", def_value: None }]

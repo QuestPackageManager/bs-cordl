@@ -10,10 +10,10 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct VersionChangeType;
+class BaseVisualElementPanel;
 }
 namespace UnityEngine::UIElements {
-class BaseVisualElementPanel;
+struct VersionChangeType;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IVisualTreeUpdater);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6753))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6839))
 // CS Name: ::UnityEngine.UIElements::IVisualTreeUpdater*
 class CORDL_TYPE IVisualTreeUpdater {
 public:

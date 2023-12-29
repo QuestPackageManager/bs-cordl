@@ -20,21 +20,21 @@ MARK_REF_PTR_T(::UnityEngine::Audio::AudioMixer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Audio {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15604))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10128))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15624))
 // CS Name: ::UnityEngine.Audio::AudioMixer*
 class CORDL_TYPE AudioMixer : public ::UnityEngine::Object {
 public:
   // Declarations
   __declspec(property(put = set_updateMode))::UnityEngine::Audio::AudioMixerUpdateMode updateMode;
 
-  /// @brief Method set_updateMode addr 0x2c9c5b0 size 0x44 virtual false final false
+  /// @brief Method set_updateMode addr 0x2b37888 size 0x44 virtual false final false
   inline void set_updateMode(::UnityEngine::Audio::AudioMixerUpdateMode value);
 
-  /// @brief Method SetFloat addr 0x2c9c5f4 size 0x54 virtual false final false
+  /// @brief Method SetFloat addr 0x2b378cc size 0x54 virtual false final false
   inline bool SetFloat(::StringW name, float_t value);
 
-  /// @brief Method GetFloat addr 0x2c9c648 size 0x54 virtual false final false
+  /// @brief Method GetFloat addr 0x2b37920 size 0x54 virtual false final false
   inline bool GetFloat(::StringW name, ByRef<float_t> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioMixer", modifiers: "&&", def_value: None }]

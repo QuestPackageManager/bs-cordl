@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(JsonMergeSettings)
 namespace Newtonsoft::Json::Linq {
-struct MergeArrayHandling;
+struct MergeNullValueHandling;
 }
 namespace Newtonsoft::Json::Linq {
-struct MergeNullValueHandling;
+struct MergeArrayHandling;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonMergeSettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11973)), TypeDefinitionIndex(TypeDefinitionIndex(11972))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11971))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11901)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(11900))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11899))
 // CS Name: ::Newtonsoft.Json.Linq::JsonMergeSettings*
 class CORDL_TYPE JsonMergeSettings : public ::System::Object {
 public:
@@ -50,21 +50,21 @@ public:
 
   constexpr void __set__mergeNullValueHandling(::Newtonsoft::Json::Linq::MergeNullValueHandling value);
 
-  /// @brief Method get_MergeArrayHandling addr 0x2690f40 size 0x8 virtual false final false
+  /// @brief Method get_MergeArrayHandling addr 0x252d7fc size 0x8 virtual false final false
   inline ::Newtonsoft::Json::Linq::MergeArrayHandling get_MergeArrayHandling();
 
-  /// @brief Method set_MergeArrayHandling addr 0x2690f48 size 0x64 virtual false final false
+  /// @brief Method set_MergeArrayHandling addr 0x252d804 size 0x64 virtual false final false
   inline void set_MergeArrayHandling(::Newtonsoft::Json::Linq::MergeArrayHandling value);
 
-  /// @brief Method get_MergeNullValueHandling addr 0x2690fac size 0x8 virtual false final false
+  /// @brief Method get_MergeNullValueHandling addr 0x252d868 size 0x8 virtual false final false
   inline ::Newtonsoft::Json::Linq::MergeNullValueHandling get_MergeNullValueHandling();
 
-  /// @brief Method set_MergeNullValueHandling addr 0x2690fb4 size 0x64 virtual false final false
+  /// @brief Method set_MergeNullValueHandling addr 0x252d870 size 0x64 virtual false final false
   inline void set_MergeNullValueHandling(::Newtonsoft::Json::Linq::MergeNullValueHandling value);
 
   static inline ::Newtonsoft::Json::Linq::JsonMergeSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x2691018 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x252d8d4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonMergeSettings", modifiers: "&&", def_value: None }]
@@ -91,6 +91,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JsonMergeSettings, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonMergeSettings, ____mergeArrayHandling) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonMergeSettings, ____mergeNullValueHandling) == 0x14, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Linq
 NEED_NO_BOX(::Newtonsoft::Json::Linq::JsonMergeSettings);

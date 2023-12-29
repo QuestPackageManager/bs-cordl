@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(ButtonStaticAnimations)
 namespace HMUI {
 struct __NoTransitionsButton__SelectionState;
 }
-namespace UnityEngine {
-class AnimationClip;
-}
 namespace HMUI {
 class NoTransitionsButton;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 // Forward declare root types
 namespace HMUI {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::HMUI::ButtonStaticAnimations);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13621))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13738))
 // CS Name: ::HMUI::ButtonStaticAnimations*
 class CORDL_TYPE ButtonStaticAnimations : public ::UnityEngine::MonoBehaviour {
 public:
@@ -83,24 +83,24 @@ public:
 
   constexpr void __set__didStart(bool value);
 
-  /// @brief Method Awake addr 0x2130848 size 0x88 virtual false final false
+  /// @brief Method Awake addr 0x1fd8eac size 0x88 virtual false final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x21308d0 size 0x24 virtual false final false
+  /// @brief Method Start addr 0x1fd8f34 size 0x24 virtual false final false
   inline void Start();
 
-  /// @brief Method OnEnable addr 0x21309ec size 0x1c virtual false final false
+  /// @brief Method OnEnable addr 0x1fd9050 size 0x1c virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDestroy addr 0x2130a08 size 0xd0 virtual false final false
+  /// @brief Method OnDestroy addr 0x1fd906c size 0xd0 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleButtonSelectionStateDidChange addr 0x21308f4 size 0xf8 virtual false final false
+  /// @brief Method HandleButtonSelectionStateDidChange addr 0x1fd8f58 size 0xf8 virtual false final false
   inline void HandleButtonSelectionStateDidChange(::HMUI::__NoTransitionsButton__SelectionState state);
 
   static inline ::HMUI::ButtonStaticAnimations* New_ctor();
 
-  /// @brief Method .ctor addr 0x2130ad8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fd913c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ButtonStaticAnimations", modifiers: "&&", def_value: None }]
@@ -139,6 +139,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::ButtonStaticAnimations, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::ButtonStaticAnimations, ____button) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ButtonStaticAnimations, ____normalClip) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ButtonStaticAnimations, ____highlightedClip) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ButtonStaticAnimations, ____pressedClip) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ButtonStaticAnimations, ____disabledClip) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ButtonStaticAnimations, ____didStart) == 0x40, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::ButtonStaticAnimations);

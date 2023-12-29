@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MacOsNetworkInterface)
 namespace System::Net::NetworkInformation {
-struct OperationalStatus;
+class IPInterfaceProperties;
 }
 namespace System::Net::NetworkInformation {
-class IPInterfaceProperties;
+struct OperationalStatus;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::MacOsNetworkInterface);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9292))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9280))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8129))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8117))
 // CS Name: ::System.Net.NetworkInformation::MacOsNetworkInterface*
 class CORDL_TYPE MacOsNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface {
 public:
@@ -41,13 +41,13 @@ public:
 
   static inline ::System::Net::NetworkInformation::MacOsNetworkInterface* New_ctor(::StringW name, uint32_t ifa_flags);
 
-  /// @brief Method .ctor addr 0x29f0198 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2873914 size 0x24 virtual false final false
   inline void _ctor(::StringW name, uint32_t ifa_flags);
 
-  /// @brief Method GetIPProperties addr 0x29f01bc size 0x74 virtual true final false
+  /// @brief Method GetIPProperties addr 0x2873938 size 0x74 virtual true final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
-  /// @brief Method get_OperationalStatus addr 0x29f0230 size 0x14 virtual true final false
+  /// @brief Method get_OperationalStatus addr 0x28739ac size 0x14 virtual true final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
   // Ctor Parameters [CppParam { name: "", ty: "MacOsNetworkInterface", modifiers: "&&", def_value: None }]
@@ -71,6 +71,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::MacOsNetworkInterface, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsNetworkInterface, ____ifa_flags) == 0x34, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation
 NEED_NO_BOX(::System::Net::NetworkInformation::MacOsNetworkInterface);

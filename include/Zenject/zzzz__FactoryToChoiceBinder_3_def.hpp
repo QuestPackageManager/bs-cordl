@@ -11,10 +11,10 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class FactoryBindInfo;
+class BindInfo;
 }
 namespace Zenject {
-class BindInfo;
+class FactoryBindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -28,8 +28,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TContract>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10738), inst: 1811 }), TypeDefinitionIndex(TypeDefinitionIndex(10738))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10851))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10666), inst: 1747 }), TypeDefinitionIndex(TypeDefinitionIndex(10666))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10779))
 // CS Name: ::Zenject::FactoryToChoiceBinder`3<TParam1,TParam2,TContract>*
 class CORDL_TYPE FactoryToChoiceBinder_3 : public ::Zenject::FactoryFromBinder_3<TParam1, TParam2, TContract> {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::LightShadows);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10104))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10032))
 // CS Name: ::UnityEngine::LightShadows
 struct CORDL_TYPE LightShadows {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::LightShadows, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::LightShadows, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LightShadows, "UnityEngine", "LightShadows");

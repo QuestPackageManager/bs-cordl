@@ -1,8 +1,8 @@
 #pragma once
 #include "Priority_Queue/zzzz__SimplePriorityQueue_2_impl.hpp"
 #include "Priority_Queue/zzzz__SimplePriorityQueue_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 template <typename TItem> inline ::Priority_Queue::SimplePriorityQueue_1<TItem>* Priority_Queue::SimplePriorityQueue_1<TItem>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::New<::Priority_Queue::SimplePriorityQueue_1<TItem>*>());
 }

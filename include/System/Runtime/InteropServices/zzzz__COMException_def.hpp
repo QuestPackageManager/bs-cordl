@@ -21,23 +21,23 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::COMException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3302))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3310))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3301))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3307))
 // CS Name: ::System.Runtime.InteropServices::COMException*
 class CORDL_TYPE COMException : public ::System::Runtime::InteropServices::ExternalException {
 public:
   // Declarations
   static inline ::System::Runtime::InteropServices::COMException* New_ctor();
 
-  /// @brief Method .ctor addr 0x24d6fe0 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x237e0f8 size 0x4 virtual false final false
   inline void _ctor();
 
   static inline ::System::Runtime::InteropServices::COMException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x24d6fe4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x237e0fc size 0x8 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString addr 0x24d6fec size 0x1e4 virtual true final false
+  /// @brief Method ToString addr 0x237e104 size 0x1e4 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "COMException", modifiers: "&&", def_value: None }]

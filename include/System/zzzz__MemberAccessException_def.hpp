@@ -21,25 +21,25 @@ MARK_REF_PTR_T(::System::MemberAccessException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2436))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2434))
 // CS Name: ::System::MemberAccessException*
 class CORDL_TYPE MemberAccessException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::MemberAccessException* New_ctor();
 
-  /// @brief Method .ctor addr 0x25af0a0 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x2453154 size 0x5c virtual false final false
   inline void _ctor();
 
   static inline ::System::MemberAccessException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x25af0fc size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x24531b0 size 0x24 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::MemberAccessException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x25af120 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24531d4 size 0x8 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemberAccessException", modifiers: "&&", def_value: None }]

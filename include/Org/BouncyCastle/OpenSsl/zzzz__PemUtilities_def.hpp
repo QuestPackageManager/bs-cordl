@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PemUtilities)
 namespace Org::BouncyCastle::OpenSsl {
+struct __PemUtilities__PemMode;
+}
+namespace Org::BouncyCastle::OpenSsl {
 struct __PemUtilities__PemBaseAlg;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::OpenSsl {
-struct __PemUtilities__PemMode;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::OpenSsl {
@@ -111,6 +111,8 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::OpenSsl::__PemUtilities__PemBaseAlg, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::OpenSsl::__PemUtilities__PemBaseAlg, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::OpenSsl
 // Type: ::PemMode
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
@@ -167,12 +169,14 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::OpenSsl::__PemUtilities__PemMode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::OpenSsl::__PemUtilities__PemMode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::OpenSsl
 // Type: Org.BouncyCastle.OpenSsl::PemUtilities
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::OpenSsl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1689))
 // CS Name: ::Org.BouncyCastle.OpenSsl::PemUtilities*
 class CORDL_TYPE PemUtilities : public ::System::Object {
@@ -182,20 +186,20 @@ public:
 
   using PemBaseAlg = ::Org::BouncyCastle::OpenSsl::__PemUtilities__PemBaseAlg;
 
-  /// @brief Method ParseDekAlgName addr 0x10d3be8 size 0x358 virtual false final false
+  /// @brief Method ParseDekAlgName addr 0x1062994 size 0x358 virtual false final false
   static inline void ParseDekAlgName(::StringW dekAlgName, ByRef<::Org::BouncyCastle::OpenSsl::__PemUtilities__PemBaseAlg> baseAlg, ByRef<::Org::BouncyCastle::OpenSsl::__PemUtilities__PemMode> mode);
 
-  /// @brief Method Crypt addr 0x10d0f94 size 0x4fc virtual false final false
+  /// @brief Method Crypt addr 0x105fd40 size 0x4fc virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Crypt(bool encrypt, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::StringW dekAlgName,
                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method GetCipherParameters addr 0x10d3f40 size 0x140 virtual false final false
+  /// @brief Method GetCipherParameters addr 0x1062cec size 0x140 virtual false final false
   static inline ::Org::BouncyCastle::Crypto::ICipherParameters* GetCipherParameters(::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::OpenSsl::__PemUtilities__PemBaseAlg baseAlg,
                                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
   static inline ::Org::BouncyCastle::OpenSsl::PemUtilities* New_ctor();
 
-  /// @brief Method .ctor addr 0x10d4080 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1062e2c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PemUtilities", modifiers: "&&", def_value: None }]

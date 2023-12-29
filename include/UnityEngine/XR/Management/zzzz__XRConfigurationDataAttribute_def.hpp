@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::XR::Management::XRConfigurationDataAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16033))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15897))
 // CS Name: ::UnityEngine.XR.Management::XRConfigurationDataAttribute*
 class CORDL_TYPE XRConfigurationDataAttribute : public ::System::Attribute {
 public:
@@ -43,26 +43,26 @@ public:
 
   constexpr void __set__buildSettingsKey_k__BackingField(::StringW value);
 
-  /// @brief Method get_displayName addr 0x2c755fc size 0x8 virtual false final false
+  /// @brief Method get_displayName addr 0x2af18a8 size 0x8 virtual false final false
   inline ::StringW get_displayName();
 
-  /// @brief Method set_displayName addr 0x2c75604 size 0x8 virtual false final false
+  /// @brief Method set_displayName addr 0x2af18b0 size 0x8 virtual false final false
   inline void set_displayName(::StringW value);
 
-  /// @brief Method get_buildSettingsKey addr 0x2c7560c size 0x8 virtual false final false
+  /// @brief Method get_buildSettingsKey addr 0x2af18b8 size 0x8 virtual false final false
   inline ::StringW get_buildSettingsKey();
 
-  /// @brief Method set_buildSettingsKey addr 0x2c75614 size 0x8 virtual false final false
+  /// @brief Method set_buildSettingsKey addr 0x2af18c0 size 0x8 virtual false final false
   inline void set_buildSettingsKey(::StringW value);
 
   static inline ::UnityEngine::XR::Management::XRConfigurationDataAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c7561c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2af18c8 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::UnityEngine::XR::Management::XRConfigurationDataAttribute* New_ctor(::StringW displayName, ::StringW buildSettingsKey);
 
-  /// @brief Method .ctor addr 0x2c75624 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2af18d0 size 0x2c virtual false final false
   inline void _ctor(::StringW displayName, ::StringW buildSettingsKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "XRConfigurationDataAttribute", modifiers: "&&", def_value: None }]
@@ -89,6 +89,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::Management::XRConfigurationDataAttribute, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Management::XRConfigurationDataAttribute, ____displayName_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Management::XRConfigurationDataAttribute, ____buildSettingsKey_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::XR::Management
 NEED_NO_BOX(::UnityEngine::XR::Management::XRConfigurationDataAttribute);

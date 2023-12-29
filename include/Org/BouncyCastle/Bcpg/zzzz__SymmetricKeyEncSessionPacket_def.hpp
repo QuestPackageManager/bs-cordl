@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SymmetricKeyEncSessionPacket)
 namespace Org::BouncyCastle::Bcpg {
+class BcpgOutputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
 struct SymmetricKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class S2k;
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(594)), TypeDefinitionIndex(TypeDefinitionIndex(560))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(594))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(595))
 // CS Name: ::Org.BouncyCastle.Bcpg::SymmetricKeyEncSessionPacket*
 class CORDL_TYPE SymmetricKeyEncSessionPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
@@ -79,28 +79,28 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x11ce3c8 size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0x115d178 size 0xb4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* New_ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Bcpg::S2k* s2k,
                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> secKeyData);
 
-  /// @brief Method .ctor addr 0x11d4c08 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x11639b8 size 0x40 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Bcpg::S2k* s2k, ::ArrayW<uint8_t, ::Array<uint8_t>*> secKeyData);
 
-  /// @brief Method get_EncAlgorithm addr 0x11d4c48 size 0x8 virtual false final false
+  /// @brief Method get_EncAlgorithm addr 0x11639f8 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag get_EncAlgorithm();
 
-  /// @brief Method get_S2k addr 0x11d4c50 size 0x8 virtual false final false
+  /// @brief Method get_S2k addr 0x1163a00 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Bcpg::S2k* get_S2k();
 
-  /// @brief Method GetSecKeyData addr 0x11d4c58 size 0x8 virtual false final false
+  /// @brief Method GetSecKeyData addr 0x1163a08 size 0x8 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSecKeyData();
 
-  /// @brief Method get_Version addr 0x11d4c60 size 0x8 virtual false final false
+  /// @brief Method get_Version addr 0x1163a10 size 0x8 virtual false final false
   inline int32_t get_Version();
 
-  /// @brief Method Encode addr 0x11d4c68 size 0x15c virtual true final false
+  /// @brief Method Encode addr 0x1163a18 size 0x15c virtual true final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "SymmetricKeyEncSessionPacket", modifiers: "&&", def_value: None }]
@@ -133,6 +133,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket, ___version) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket, ___encAlgorithm) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket, ___s2k) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket, ___secKeyData) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket);

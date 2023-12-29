@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayModifierParamsSO);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4197))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4230))
 // CS Name: ::GameplayModifierParamsSO*
 class CORDL_TYPE GameplayModifierParamsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -126,36 +126,36 @@ public:
 
   constexpr void __set__isInBeta(bool value);
 
-  /// @brief Method get_modifierNameLocalizationKey addr 0x2325b00 size 0x8 virtual false final false
+  /// @brief Method get_modifierNameLocalizationKey addr 0x21d4e0c size 0x8 virtual false final false
   inline ::StringW get_modifierNameLocalizationKey();
 
-  /// @brief Method get_descriptionLocalizationKey addr 0x2325b08 size 0x8 virtual false final false
+  /// @brief Method get_descriptionLocalizationKey addr 0x21d4e14 size 0x8 virtual false final false
   inline ::StringW get_descriptionLocalizationKey();
 
-  /// @brief Method get_multiplier addr 0x2325b10 size 0x8 virtual false final false
+  /// @brief Method get_multiplier addr 0x21d4e1c size 0x8 virtual false final false
   inline float_t get_multiplier();
 
-  /// @brief Method get_multiplierConditionallyValid addr 0x2325b18 size 0x8 virtual false final false
+  /// @brief Method get_multiplierConditionallyValid addr 0x21d4e24 size 0x8 virtual false final false
   inline bool get_multiplierConditionallyValid();
 
-  /// @brief Method get_icon addr 0x2325b20 size 0x8 virtual false final false
+  /// @brief Method get_icon addr 0x21d4e2c size 0x8 virtual false final false
   inline ::UnityEngine::Sprite* get_icon();
 
-  /// @brief Method get_mutuallyExclusives addr 0x2325b28 size 0x8 virtual false final false
+  /// @brief Method get_mutuallyExclusives addr 0x21d4e34 size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> get_mutuallyExclusives();
 
-  /// @brief Method get_requires addr 0x2325b30 size 0x8 virtual false final false
+  /// @brief Method get_requires addr 0x21d4e3c size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> get_requires();
 
-  /// @brief Method get_requiredBy addr 0x2325b38 size 0x8 virtual false final false
+  /// @brief Method get_requiredBy addr 0x21d4e44 size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> get_requiredBy();
 
-  /// @brief Method get_isInBeta addr 0x2325b40 size 0x8 virtual false final false
+  /// @brief Method get_isInBeta addr 0x21d4e4c size 0x8 virtual false final false
   inline bool get_isInBeta();
 
   static inline ::GlobalNamespace::GameplayModifierParamsSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x2325b48 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d4e54 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierParamsSO", modifiers: "&&", def_value: None }]
@@ -203,6 +203,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayModifierParamsSO, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifierParamsSO, ____modifierNameLocalizationKey) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifierParamsSO, ____descriptionLocalizationKey) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifierParamsSO, ____multiplier) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifierParamsSO, ____multiplierConditionallyValid) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifierParamsSO, ____icon) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifierParamsSO, ____mutuallyExclusives) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifierParamsSO, ____requires) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifierParamsSO, ____requiredBy) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifierParamsSO, ____isInBeta) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameplayModifierParamsSO);

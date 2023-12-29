@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GeneralPkiMessage)
 namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiBody;
+class PkiMessage;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiMessage;
+class PkiBody;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiHeader;
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cmp::GeneralPkiMessage);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(605))
 // CS Name: ::Org.BouncyCastle.Cmp::GeneralPkiMessage*
 class CORDL_TYPE GeneralPkiMessage : public ::System::Object {
@@ -46,29 +46,29 @@ public:
 
   constexpr void __set_pkiMessage(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* value);
 
-  /// @brief Method ParseBytes addr 0x11d6018 size 0x18 virtual false final false
+  /// @brief Method ParseBytes addr 0x1164dc8 size 0x18 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* ParseBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
   static inline ::Org::BouncyCastle::Cmp::GeneralPkiMessage* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage);
 
-  /// @brief Method .ctor addr 0x11d6030 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1164de0 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage);
 
   static inline ::Org::BouncyCastle::Cmp::GeneralPkiMessage* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method .ctor addr 0x11d6058 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x1164e08 size 0x40 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method get_Header addr 0x11d6098 size 0x20 virtual false final false
+  /// @brief Method get_Header addr 0x1164e48 size 0x20 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* get_Header();
 
-  /// @brief Method get_Body addr 0x11d60b8 size 0x20 virtual false final false
+  /// @brief Method get_Body addr 0x1164e68 size 0x20 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* get_Body();
 
-  /// @brief Method get_HasProtection addr 0x11d60d8 size 0x2c virtual false final false
+  /// @brief Method get_HasProtection addr 0x1164e88 size 0x2c virtual false final false
   inline bool get_HasProtection();
 
-  /// @brief Method ToAsn1Structure addr 0x11d6104 size 0x8 virtual false final false
+  /// @brief Method ToAsn1Structure addr 0x1164eb4 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* ToAsn1Structure();
 
   // Ctor Parameters [CppParam { name: "", ty: "GeneralPkiMessage", modifiers: "&&", def_value: None }]
@@ -92,6 +92,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cmp::GeneralPkiMessage, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cmp::GeneralPkiMessage, ___pkiMessage) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Cmp::GeneralPkiMessage);

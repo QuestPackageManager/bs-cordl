@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerSettingsPanelController)
-namespace HMUI {
-class ToggleBinder;
+namespace GlobalNamespace {
+class ServerCodeView;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -20,8 +20,8 @@ class Toggle;
 namespace GlobalNamespace {
 class IRefreshable;
 }
-namespace GlobalNamespace {
-class ServerCodeView;
+namespace HMUI {
+class ToggleBinder;
 }
 namespace UnityEngine {
 class GameObject;
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerSettingsPanelController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5639))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5738))
 // CS Name: ::MultiplayerSettingsPanelController*
 class CORDL_TYPE MultiplayerSettingsPanelController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -117,42 +117,42 @@ public:
 
   constexpr void __set_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method add_playerActiveStateChangedEvent addr 0x22b3170 size 0xb0 virtual false final false
+  /// @brief Method add_playerActiveStateChangedEvent addr 0x2170b54 size 0xb0 virtual false final false
   inline void add_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_playerActiveStateChangedEvent addr 0x22b3220 size 0xb0 virtual false final false
+  /// @brief Method remove_playerActiveStateChangedEvent addr 0x2170c04 size 0xb0 virtual false final false
   inline void remove_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method SetLobbyPlayerDataModel addr 0x22b32d0 size 0xc virtual false final false
+  /// @brief Method SetLobbyPlayerDataModel addr 0x2170cb4 size 0xc virtual false final false
   inline void SetLobbyPlayerDataModel(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
 
-  /// @brief Method HideConnectionSettings addr 0x22b33e8 size 0x24 virtual false final false
+  /// @brief Method HideConnectionSettings addr 0x2170dcc size 0x24 virtual false final false
   inline void HideConnectionSettings(bool hide);
 
-  /// @brief Method HideSpectateSettings addr 0x22b340c size 0x24 virtual false final false
+  /// @brief Method HideSpectateSettings addr 0x2170df0 size 0x24 virtual false final false
   inline void HideSpectateSettings(bool hide);
 
-  /// @brief Method SetLobbyCode addr 0x22b3430 size 0x1c virtual false final false
+  /// @brief Method SetLobbyCode addr 0x2170e14 size 0x1c virtual false final false
   inline void SetLobbyCode(::StringW code);
 
-  /// @brief Method Awake addr 0x22b344c size 0xc4 virtual false final false
+  /// @brief Method Awake addr 0x2170e30 size 0xc4 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x22b3510 size 0x14 virtual false final false
+  /// @brief Method OnDestroy addr 0x2170ef4 size 0x14 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateLocalPlayerIsActiveState addr 0x22b3524 size 0x24 virtual false final false
+  /// @brief Method UpdateLocalPlayerIsActiveState addr 0x2170f08 size 0x24 virtual false final false
   inline void UpdateLocalPlayerIsActiveState(bool isActive);
 
-  /// @brief Method Refresh addr 0x22b32dc size 0x10c virtual true final true
+  /// @brief Method Refresh addr 0x2170cc0 size 0x10c virtual true final true
   inline void Refresh();
 
   static inline ::GlobalNamespace::MultiplayerSettingsPanelController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22b3548 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2170f2c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__14_0 addr 0x22b3550 size 0x24 virtual false final false
+  /// @brief Method <Awake>b__14_0 addr 0x2170f34 size 0x24 virtual false final false
   inline void _Awake_b__14_0(bool on);
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSettingsPanelController", modifiers: "&&", def_value: None }]
@@ -197,6 +197,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerSettingsPanelController, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSettingsPanelController, ____serverCodeView) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSettingsPanelController, ____spectateToggle) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSettingsPanelController, ____connectionSettingsWrapper) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSettingsPanelController, ____spectateSettingsWrapper) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSettingsPanelController, ____toggleBinder) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSettingsPanelController, ____lobbyPlayerData) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSettingsPanelController, ____refreshed) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSettingsPanelController, ___playerActiveStateChangedEvent) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerSettingsPanelController);

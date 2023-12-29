@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Timeline/zzzz__RuntimeClipBase_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ScheduleRuntimeClip)
+namespace UnityEngine::Playables {
+struct Playable;
+}
 namespace UnityEngine::Timeline {
 class TimelineClip;
 }
 namespace UnityEngine::Playables {
 struct FrameData;
-}
-namespace UnityEngine::Playables {
-struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ScheduleRuntimeClip);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13883)), TypeDefinitionIndex(TypeDefinitionIndex(10428))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13885))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14154)), TypeDefinitionIndex(TypeDefinitionIndex(10350))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14156))
 // CS Name: ::UnityEngine.Timeline::ScheduleRuntimeClip*
 class CORDL_TYPE ScheduleRuntimeClip : public ::UnityEngine::Timeline::RuntimeClipBase {
 public:
@@ -97,42 +97,42 @@ public:
 
   constexpr void __set_m_Started(bool value);
 
-  /// @brief Method get_start addr 0x2c680b4 size 0x78 virtual true final false
+  /// @brief Method get_start addr 0x2ae4360 size 0x78 virtual true final false
   inline double_t get_start();
 
-  /// @brief Method get_duration addr 0x2c6812c size 0x4c virtual true final false
+  /// @brief Method get_duration addr 0x2ae43d8 size 0x4c virtual true final false
   inline double_t get_duration();
 
-  /// @brief Method SetTime addr 0x2c68178 size 0x58 virtual false final false
+  /// @brief Method SetTime addr 0x2ae4424 size 0x58 virtual false final false
   inline void SetTime(double_t time);
 
-  /// @brief Method get_clip addr 0x2c681d0 size 0x8 virtual false final false
+  /// @brief Method get_clip addr 0x2ae447c size 0x8 virtual false final false
   inline ::UnityEngine::Timeline::TimelineClip* get_clip();
 
-  /// @brief Method get_mixer addr 0x2c681d8 size 0xc virtual false final false
+  /// @brief Method get_mixer addr 0x2ae4484 size 0xc virtual false final false
   inline ::UnityEngine::Playables::Playable get_mixer();
 
-  /// @brief Method get_playable addr 0x2c681e4 size 0xc virtual false final false
+  /// @brief Method get_playable addr 0x2ae4490 size 0xc virtual false final false
   inline ::UnityEngine::Playables::Playable get_playable();
 
   static inline ::UnityEngine::Timeline::ScheduleRuntimeClip* New_ctor(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable,
                                                                        ::UnityEngine::Playables::Playable parentMixer, double_t startDelay, double_t finishTail);
 
-  /// @brief Method .ctor addr 0x2c629b0 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x2adec5c size 0x74 virtual false final false
   inline void _ctor(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable, ::UnityEngine::Playables::Playable parentMixer, double_t startDelay,
                     double_t finishTail);
 
-  /// @brief Method Create addr 0x2c681f0 size 0x98 virtual false final false
+  /// @brief Method Create addr 0x2ae449c size 0x98 virtual false final false
   inline void Create(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable, ::UnityEngine::Playables::Playable parentMixer, double_t startDelay,
                      double_t finishTail);
 
-  /// @brief Method set_enable addr 0x2c68288 size 0x104 virtual true final false
+  /// @brief Method set_enable addr 0x2ae4534 size 0x104 virtual true final false
   inline void set_enable(bool value);
 
-  /// @brief Method EvaluateAt addr 0x2c6838c size 0x268 virtual true final false
+  /// @brief Method EvaluateAt addr 0x2ae4638 size 0x268 virtual true final false
   inline void EvaluateAt(double_t localTime, ::UnityEngine::Playables::FrameData frameData);
 
-  /// @brief Method DisableAt addr 0x2c685f4 size 0x10 virtual true final false
+  /// @brief Method DisableAt addr 0x2ae48a0 size 0x10 virtual true final false
   inline void DisableAt(double_t localTime, double_t rootDuration, ::UnityEngine::Playables::FrameData frameData);
 
   // Ctor Parameters [CppParam { name: "", ty: "ScheduleRuntimeClip", modifiers: "&&", def_value: None }]
@@ -171,6 +171,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::ScheduleRuntimeClip, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::ScheduleRuntimeClip, ___m_Clip) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::ScheduleRuntimeClip, ___m_Playable) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::ScheduleRuntimeClip, ___m_ParentMixer) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::ScheduleRuntimeClip, ___m_StartDelay) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::ScheduleRuntimeClip, ___m_FinishTail) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::ScheduleRuntimeClip, ___m_Started) == 0x50, "Offset mismatch!");
 
 } // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::ScheduleRuntimeClip);

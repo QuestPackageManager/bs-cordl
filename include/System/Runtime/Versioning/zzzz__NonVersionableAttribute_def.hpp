@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Runtime::Versioning::NonVersionableAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Versioning {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3191))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3190))
 // CS Name: ::System.Runtime.Versioning::NonVersionableAttribute*
 class CORDL_TYPE NonVersionableAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::Versioning::NonVersionableAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x24b4388 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x235b894 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NonVersionableAttribute", modifiers: "&&", def_value: None }]

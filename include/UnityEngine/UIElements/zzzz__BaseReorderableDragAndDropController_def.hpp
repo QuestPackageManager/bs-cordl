@@ -12,13 +12,7 @@ namespace UnityEngine::UIElements {
 class IReorderable;
 }
 namespace UnityEngine::UIElements {
-class BaseVerticalCollectionView;
-}
-namespace UnityEngine::UIElements {
-template <typename TArgs> class IDragAndDropController_1;
-}
-namespace UnityEngine::UIElements {
-class IListDragAndDropArgs;
+class StartDragArgs;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -27,7 +21,13 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::UIElements {
-class StartDragArgs;
+class IListDragAndDropArgs;
+}
+namespace UnityEngine::UIElements {
+class BaseVerticalCollectionView;
+}
+namespace UnityEngine::UIElements {
+template <typename TArgs> class IDragAndDropController_1;
 }
 namespace UnityEngine::UIElements {
 struct DragVisualMode;
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::BaseReorderableDragAndDropController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6951))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7037))
 // CS Name: ::UnityEngine.UIElements::BaseReorderableDragAndDropController*
 class CORDL_TYPE BaseReorderableDragAndDropController : public ::System::Object {
 public:
@@ -88,19 +88,19 @@ public:
 
   static inline ::UnityEngine::UIElements::BaseReorderableDragAndDropController* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* view);
 
-  /// @brief Method .ctor addr 0x2e08b40 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x2ca2790 size 0x30 virtual false final false
   inline void _ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* view);
 
-  /// @brief Method get_enableReordering addr 0x2e08f94 size 0x8 virtual true final true
+  /// @brief Method get_enableReordering addr 0x2ca2be4 size 0x8 virtual true final true
   inline bool get_enableReordering();
 
-  /// @brief Method set_enableReordering addr 0x2e08f9c size 0xc virtual true final true
+  /// @brief Method set_enableReordering addr 0x2ca2bec size 0xc virtual true final true
   inline void set_enableReordering(bool value);
 
-  /// @brief Method CanStartDrag addr 0x2e08fa8 size 0x8 virtual true final false
+  /// @brief Method CanStartDrag addr 0x2ca2bf8 size 0x8 virtual true final false
   inline bool CanStartDrag(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIndices);
 
-  /// @brief Method SetupDragAndDrop addr 0x2e08fb0 size 0x5d4 virtual true final false
+  /// @brief Method SetupDragAndDrop addr 0x2ca2c00 size 0x5d4 virtual true final false
   inline ::UnityEngine::UIElements::StartDragArgs* SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIndices, bool skipText);
 
   /// @brief Method HandleDragAndDrop addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -136,6 +136,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BaseReorderableDragAndDropController, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::BaseReorderableDragAndDropController, ___m_View) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::BaseReorderableDragAndDropController, ___m_SelectedIndices) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::BaseReorderableDragAndDropController, ____enableReordering_k__BackingField) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::BaseReorderableDragAndDropController);

@@ -3,7 +3,7 @@ module;
 #endif
 
 #pragma once
-#include "UnityEngine\Experimental\XR\Interaction\BasePoseProvider.hpp"
+#include "UnityEngine/Experimental/XR/Interaction/BasePoseProvider.hpp"
 #ifdef __cpp_modules
 export module Interaction;
 #endif

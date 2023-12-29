@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GlyphValueRecord)
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {
@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphValueRecord);
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15540))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15524))
 // CS Name: ::UnityEngine.TextCore.LowLevel::GlyphValueRecord
 struct CORDL_TYPE GlyphValueRecord {
 public:
@@ -39,28 +39,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>*();
 
-  /// @brief Method get_xPlacement addr 0x2d228c8 size 0x8 virtual false final false
+  /// @brief Method get_xPlacement addr 0x2bbb518 size 0x8 virtual false final false
   inline float_t get_xPlacement();
 
-  /// @brief Method get_yPlacement addr 0x2d228d0 size 0x8 virtual false final false
+  /// @brief Method get_yPlacement addr 0x2bbb520 size 0x8 virtual false final false
   inline float_t get_yPlacement();
 
-  /// @brief Method get_xAdvance addr 0x2d228d8 size 0x8 virtual false final false
+  /// @brief Method get_xAdvance addr 0x2bbb528 size 0x8 virtual false final false
   inline float_t get_xAdvance();
 
-  /// @brief Method get_yAdvance addr 0x2d228e0 size 0x8 virtual false final false
+  /// @brief Method get_yAdvance addr 0x2bbb530 size 0x8 virtual false final false
   inline float_t get_yAdvance();
 
-  /// @brief Method op_Addition addr 0x2d228e8 size 0x14 virtual false final false
+  /// @brief Method op_Addition addr 0x2bbb538 size 0x14 virtual false final false
   static inline ::UnityEngine::TextCore::LowLevel::GlyphValueRecord op_Addition(::UnityEngine::TextCore::LowLevel::GlyphValueRecord a, ::UnityEngine::TextCore::LowLevel::GlyphValueRecord b);
 
-  /// @brief Method GetHashCode addr 0x2d228fc size 0x64 virtual true final false
+  /// @brief Method GetHashCode addr 0x2bbb54c size 0x64 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x2d22960 size 0x78 virtual true final false
+  /// @brief Method Equals addr 0x2bbb5b0 size 0x78 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x2d229d8 size 0xa8 virtual true final true
+  /// @brief Method Equals addr 0x2bbb628 size 0xa8 virtual true final true
   inline bool Equals(::UnityEngine::TextCore::LowLevel::GlyphValueRecord other);
 
   // Ctor Parameters [CppParam { name: "m_XPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_YPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam {
@@ -90,6 +90,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::LowLevel::GlyphValueRecord, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphValueRecord, m_XPlacement) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphValueRecord, m_YPlacement) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphValueRecord, m_XAdvance) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphValueRecord, m_YAdvance) == 0xc, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::GlyphValueRecord, "UnityEngine.TextCore.LowLevel", "GlyphValueRecord");

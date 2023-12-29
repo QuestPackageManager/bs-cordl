@@ -10,17 +10,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CursorPositionStylePainterParameters)
-namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine {
-struct FontStyle;
-}
 namespace UnityEngine::UIElements {
 struct TextNativeSettings;
 }
 namespace UnityEngine {
+class Font;
+}
+namespace UnityEngine {
 struct Rect;
+}
+namespace UnityEngine {
+struct FontStyle;
 }
 namespace UnityEngine {
 struct TextAnchor;
@@ -38,16 +38,16 @@ MARK_VAL_T(::UnityEngine::UIElements::CursorPositionStylePainterParameters);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(15901)), TypeDefinitionIndex(TypeDefinitionIndex(10165))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6770))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15788)), TypeDefinitionIndex(TypeDefinitionIndex(15793)), TypeDefinitionIndex(TypeDefinitionIndex(10093))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6856))
 // CS Name: ::UnityEngine.UIElements::CursorPositionStylePainterParameters
 struct CORDL_TYPE CursorPositionStylePainterParameters {
 public:
   // Declarations
-  /// @brief Method GetDefault addr 0x2db6de0 size 0x148 virtual false final false
+  /// @brief Method GetDefault addr 0x2c4fa30 size 0x148 virtual false final false
   static inline ::UnityEngine::UIElements::CursorPositionStylePainterParameters GetDefault(::UnityEngine::UIElements::VisualElement* ve, ::StringW text);
 
-  /// @brief Method GetTextNativeSettings addr 0x2db6f28 size 0x50 virtual false final false
+  /// @brief Method GetTextNativeSettings addr 0x2c4fb78 size 0x50 virtual false final false
   inline ::UnityEngine::UIElements::TextNativeSettings GetTextNativeSettings(float_t scaling);
 
   // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
@@ -96,6 +96,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::CursorPositionStylePainterParameters, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::CursorPositionStylePainterParameters, rect) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::CursorPositionStylePainterParameters, text) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::CursorPositionStylePainterParameters, font) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::CursorPositionStylePainterParameters, fontSize) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::CursorPositionStylePainterParameters, fontStyle) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::CursorPositionStylePainterParameters, anchor) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::CursorPositionStylePainterParameters, wordWrapWidth) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::CursorPositionStylePainterParameters, richText) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::CursorPositionStylePainterParameters, cursorIndex) == 0x34, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::CursorPositionStylePainterParameters, "UnityEngine.UIElements", "CursorPositionStylePainterParameters");

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EventBinder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14365))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13859))
 // CS Name: ::EventBinder*
 class CORDL_TYPE EventBinder : public ::System::Object {
 public:
@@ -35,15 +35,15 @@ public:
 
   constexpr void __set__unsubscribes(::System::Collections::Generic::List_1<::System::Action*>* value);
 
-  /// @brief Method Bind addr 0x20f2584 size 0xcc virtual false final false
+  /// @brief Method Bind addr 0x1f95e50 size 0xcc virtual false final false
   inline void Bind(::System::Action* subscribe, ::System::Action* unsubscribe);
 
-  /// @brief Method ClearAllBindings addr 0x20f2650 size 0x18c virtual false final false
+  /// @brief Method ClearAllBindings addr 0x1f95f1c size 0x18c virtual false final false
   inline void ClearAllBindings();
 
   static inline ::GlobalNamespace::EventBinder* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f27dc size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x1f960a8 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBinder", modifiers: "&&", def_value: None }]
@@ -67,6 +67,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EventBinder, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EventBinder, ____unsubscribes) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EventBinder);

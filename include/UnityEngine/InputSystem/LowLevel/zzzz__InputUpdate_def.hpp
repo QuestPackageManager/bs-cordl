@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputUpdate)
 namespace UnityEngine::InputSystem::LowLevel {
-struct __InputUpdate__UpdateStepCount;
-}
-namespace UnityEngine::InputSystem::LowLevel {
 struct InputUpdateType;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __InputUpdate__SerializedState;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct __InputUpdate__UpdateStepCount;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -36,23 +36,23 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount)
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6554))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6640))
 // CS Name: ::InputUpdate::UpdateStepCount
 struct CORDL_TYPE __InputUpdate__UpdateStepCount {
 public:
   // Declarations
   __declspec(property(get = get_value, put = set_value)) uint32_t value;
 
-  /// @brief Method get_value addr 0x2af0f24 size 0x8 virtual false final false
+  /// @brief Method get_value addr 0x29711d0 size 0x8 virtual false final false
   inline uint32_t get_value();
 
-  /// @brief Method set_value addr 0x2af0f2c size 0x8 virtual false final false
+  /// @brief Method set_value addr 0x29711d8 size 0x8 virtual false final false
   inline void set_value(uint32_t value);
 
-  /// @brief Method OnBeforeUpdate addr 0x2af0d44 size 0x18 virtual false final false
+  /// @brief Method OnBeforeUpdate addr 0x2970ff0 size 0x18 virtual false final false
   inline void OnBeforeUpdate();
 
-  /// @brief Method OnUpdate addr 0x2af0de4 size 0x1c virtual false final false
+  /// @brief Method OnUpdate addr 0x2971090 size 0x1c virtual false final false
   inline void OnUpdate();
 
   // Ctor Parameters [CppParam { name: "m_WasUpdated", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_value_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }]
@@ -76,13 +76,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount, m_WasUpdated) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount, _value_k__BackingField) == 0x4, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: ::SerializedState
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6553)), TypeDefinitionIndex(TypeDefinitionIndex(6554))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6555))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6640)), TypeDefinitionIndex(TypeDefinitionIndex(6639))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6641))
 // CS Name: ::InputUpdate::SerializedState
 struct CORDL_TYPE __InputUpdate__SerializedState {
 public:
@@ -110,13 +114,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState, 0xc>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState, lastUpdateType) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState, playerUpdateStepCount) == 0x4, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: UnityEngine.InputSystem.LowLevel::InputUpdate
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6553)), TypeDefinitionIndex(TypeDefinitionIndex(6554)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6556))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6639)), TypeDefinitionIndex(TypeDefinitionIndex(6640)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6642))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputUpdate*
 class CORDL_TYPE InputUpdate : public ::System::Object {
 public:
@@ -147,22 +155,22 @@ public:
 
   static inline ::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount getStaticF_s_PlayerUpdateStepCount();
 
-  /// @brief Method OnBeforeUpdate addr 0x2af0cc4 size 0x80 virtual false final false
+  /// @brief Method OnBeforeUpdate addr 0x2970f70 size 0x80 virtual false final false
   static inline void OnBeforeUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType type);
 
-  /// @brief Method OnUpdate addr 0x2af0d5c size 0x88 virtual false final false
+  /// @brief Method OnUpdate addr 0x2971008 size 0x88 virtual false final false
   static inline void OnUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType type);
 
-  /// @brief Method Save addr 0x2af0e00 size 0x64 virtual false final false
+  /// @brief Method Save addr 0x29710ac size 0x64 virtual false final false
   static inline ::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState Save();
 
-  /// @brief Method Restore addr 0x2af0e64 size 0x94 virtual false final false
+  /// @brief Method Restore addr 0x2971110 size 0x94 virtual false final false
   static inline void Restore(::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState state);
 
-  /// @brief Method GetUpdateTypeForPlayer addr 0x2af0ef8 size 0x20 virtual false final false
+  /// @brief Method GetUpdateTypeForPlayer addr 0x29711a4 size 0x20 virtual false final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType GetUpdateTypeForPlayer(::UnityEngine::InputSystem::LowLevel::InputUpdateType mask);
 
-  /// @brief Method IsPlayerUpdate addr 0x2af0f18 size 0xc virtual false final false
+  /// @brief Method IsPlayerUpdate addr 0x29711c4 size 0xc virtual false final false
   static inline bool IsPlayerUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
   // Ctor Parameters [CppParam { name: "", ty: "InputUpdate", modifiers: "&&", def_value: None }]

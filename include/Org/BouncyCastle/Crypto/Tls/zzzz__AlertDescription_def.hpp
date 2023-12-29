@@ -16,21 +16,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::AlertDescription);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1178))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::AlertDescription*
 class CORDL_TYPE AlertDescription : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetName addr 0xf5ca30 size 0x3f4 virtual false final false
+  /// @brief Method GetName addr 0xee6820 size 0x3f4 virtual false final false
   static inline ::StringW GetName(uint8_t alertDescription);
 
-  /// @brief Method GetText addr 0xf5ce24 size 0x17c virtual false final false
+  /// @brief Method GetText addr 0xee6c14 size 0x17c virtual false final false
   static inline ::StringW GetText(uint8_t alertDescription);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AlertDescription* New_ctor();
 
-  /// @brief Method .ctor addr 0xf5cfa0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xee6d90 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AlertDescription", modifiers: "&&", def_value: None }]

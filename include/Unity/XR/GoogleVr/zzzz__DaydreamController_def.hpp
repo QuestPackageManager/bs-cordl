@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::Unity::XR::GoogleVr::DaydreamController);
 // SizeInfo { instance_size: 464, native_size: -1, calculated_instance_size: 464, calculated_native_size: 464, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::GoogleVr {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6325))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6123))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6411))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6209))
 // CS Name: ::Unity.XR.GoogleVr::DaydreamController*
 class CORDL_TYPE DaydreamController : public ::UnityEngine::InputSystem::XR::XRController {
 public:
@@ -151,78 +151,78 @@ public:
 
   constexpr void __set__deviceAcceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_touchpad addr 0x2a34b40 size 0x8 virtual false final false
+  /// @brief Method get_touchpad addr 0x28b5df8 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_touchpad();
 
-  /// @brief Method set_touchpad addr 0x2a34b48 size 0x8 virtual false final false
+  /// @brief Method set_touchpad addr 0x28b5e00 size 0x8 virtual false final false
   inline void set_touchpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method get_volumeUp addr 0x2a34b50 size 0x8 virtual false final false
+  /// @brief Method get_volumeUp addr 0x28b5e08 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_volumeUp();
 
-  /// @brief Method set_volumeUp addr 0x2a34b58 size 0x8 virtual false final false
+  /// @brief Method set_volumeUp addr 0x28b5e10 size 0x8 virtual false final false
   inline void set_volumeUp(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_recentered addr 0x2a34b60 size 0x8 virtual false final false
+  /// @brief Method get_recentered addr 0x28b5e18 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_recentered();
 
-  /// @brief Method set_recentered addr 0x2a34b68 size 0x8 virtual false final false
+  /// @brief Method set_recentered addr 0x28b5e20 size 0x8 virtual false final false
   inline void set_recentered(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_volumeDown addr 0x2a34b70 size 0x8 virtual false final false
+  /// @brief Method get_volumeDown addr 0x28b5e28 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_volumeDown();
 
-  /// @brief Method set_volumeDown addr 0x2a34b78 size 0x8 virtual false final false
+  /// @brief Method set_volumeDown addr 0x28b5e30 size 0x8 virtual false final false
   inline void set_volumeDown(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_recentering addr 0x2a34b80 size 0x8 virtual false final false
+  /// @brief Method get_recentering addr 0x28b5e38 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_recentering();
 
-  /// @brief Method set_recentering addr 0x2a34b88 size 0x8 virtual false final false
+  /// @brief Method set_recentering addr 0x28b5e40 size 0x8 virtual false final false
   inline void set_recentering(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_app addr 0x2a34b90 size 0x8 virtual false final false
+  /// @brief Method get_app addr 0x28b5e48 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_app();
 
-  /// @brief Method set_app addr 0x2a34b98 size 0x8 virtual false final false
+  /// @brief Method set_app addr 0x28b5e50 size 0x8 virtual false final false
   inline void set_app(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_home addr 0x2a34ba0 size 0x8 virtual false final false
+  /// @brief Method get_home addr 0x28b5e58 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_home();
 
-  /// @brief Method set_home addr 0x2a34ba8 size 0x8 virtual false final false
+  /// @brief Method set_home addr 0x28b5e60 size 0x8 virtual false final false
   inline void set_home(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_touchpadClicked addr 0x2a34bb0 size 0x8 virtual false final false
+  /// @brief Method get_touchpadClicked addr 0x28b5e68 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_touchpadClicked();
 
-  /// @brief Method set_touchpadClicked addr 0x2a34bb8 size 0x8 virtual false final false
+  /// @brief Method set_touchpadClicked addr 0x28b5e70 size 0x8 virtual false final false
   inline void set_touchpadClicked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_touchpadTouched addr 0x2a34bc0 size 0x8 virtual false final false
+  /// @brief Method get_touchpadTouched addr 0x28b5e78 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_touchpadTouched();
 
-  /// @brief Method set_touchpadTouched addr 0x2a34bc8 size 0x8 virtual false final false
+  /// @brief Method set_touchpadTouched addr 0x28b5e80 size 0x8 virtual false final false
   inline void set_touchpadTouched(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_deviceVelocity addr 0x2a34bd0 size 0x8 virtual false final false
+  /// @brief Method get_deviceVelocity addr 0x28b5e88 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
 
-  /// @brief Method set_deviceVelocity addr 0x2a34bd8 size 0x8 virtual false final false
+  /// @brief Method set_deviceVelocity addr 0x28b5e90 size 0x8 virtual false final false
   inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_deviceAcceleration addr 0x2a34be0 size 0x8 virtual false final false
+  /// @brief Method get_deviceAcceleration addr 0x28b5e98 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAcceleration();
 
-  /// @brief Method set_deviceAcceleration addr 0x2a34be8 size 0x8 virtual false final false
+  /// @brief Method set_deviceAcceleration addr 0x28b5ea0 size 0x8 virtual false final false
   inline void set_deviceAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method FinishSetup addr 0x2a34bf0 size 0x24c virtual true final false
+  /// @brief Method FinishSetup addr 0x28b5ea8 size 0x24c virtual true final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::GoogleVr::DaydreamController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a34e3c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x28b60f4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DaydreamController", modifiers: "&&", def_value: None }]
@@ -276,6 +276,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::XR::GoogleVr::DaydreamController, 0x1d0>, "Size mismatch!");
+
+static_assert(offsetof(::Unity::XR::GoogleVr::DaydreamController, ____touchpad_k__BackingField) == 0x178, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::GoogleVr::DaydreamController, ____volumeUp_k__BackingField) == 0x180, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::GoogleVr::DaydreamController, ____recentered_k__BackingField) == 0x188, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::GoogleVr::DaydreamController, ____volumeDown_k__BackingField) == 0x190, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::GoogleVr::DaydreamController, ____recentering_k__BackingField) == 0x198, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::GoogleVr::DaydreamController, ____app_k__BackingField) == 0x1a0, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::GoogleVr::DaydreamController, ____home_k__BackingField) == 0x1a8, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::GoogleVr::DaydreamController, ____touchpadClicked_k__BackingField) == 0x1b0, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::GoogleVr::DaydreamController, ____touchpadTouched_k__BackingField) == 0x1b8, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::GoogleVr::DaydreamController, ____deviceVelocity_k__BackingField) == 0x1c0, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::GoogleVr::DaydreamController, ____deviceAcceleration_k__BackingField) == 0x1c8, "Offset mismatch!");
 
 } // namespace Unity::XR::GoogleVr
 NEED_NO_BOX(::Unity::XR::GoogleVr::DaydreamController);

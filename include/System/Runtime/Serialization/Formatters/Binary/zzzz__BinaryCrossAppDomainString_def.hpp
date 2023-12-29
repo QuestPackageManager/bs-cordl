@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryCross
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3265))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3264))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryCrossAppDomainString*
 class CORDL_TYPE BinaryCrossAppDomainString : public ::System::Object {
 public:
@@ -44,13 +44,13 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString* New_ctor();
 
-  /// @brief Method .ctor addr 0x24c23d8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x23698e4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Read addr 0x24c23e0 size 0x44 virtual true final true
+  /// @brief Method Read addr 0x23698ec size 0x44 virtual true final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Dump addr 0x24c2424 size 0x4 virtual false final false
+  /// @brief Method Dump addr 0x2369930 size 0x4 virtual false final false
   inline void Dump();
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryCrossAppDomainString", modifiers: "&&", def_value: None }]
@@ -77,6 +77,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString, ___objectId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString, ___value) == 0x14, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString);

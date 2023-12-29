@@ -9,8 +9,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContentCatalogData)
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class __ContentCatalogData__CompactLocation;
 }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 class ResourceLocationMap;
@@ -18,23 +18,23 @@ class ResourceLocationMap;
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 struct __ContentCatalogData__Bucket;
 }
-namespace UnityEngine::ResourceManagement::Util {
-struct SerializedType;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::ResourceManagement::Util {
 struct ObjectInitializationData;
 }
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class __ContentCatalogData__CompactLocation;
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
-namespace System {
-class Type;
+namespace UnityEngine::ResourceManagement::Util {
+struct SerializedType;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
+}
+namespace System {
+class Type;
 }
 namespace System {
 class Object;
@@ -58,7 +58,7 @@ MARK_VAL_T(::UnityEngine::AddressableAssets::ResourceLocators::__ContentCatalogD
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14109))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14380))
 // CS Name: ::ContentCatalogData::Bucket
 struct CORDL_TYPE __ContentCatalogData__Bucket {
 public:
@@ -85,13 +85,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::ResourceLocators::__ContentCatalogData__Bucket, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::__ContentCatalogData__Bucket, dataOffset) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::__ContentCatalogData__Bucket, entries) == 0x8, "Offset mismatch!");
+
 } // namespace UnityEngine::AddressableAssets::ResourceLocators
 // Type: ::CompactLocation
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14110))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14381))
 // CS Name: ::ContentCatalogData::CompactLocation*
 class CORDL_TYPE __ContentCatalogData__CompactLocation : public ::System::Object {
 public:
@@ -196,37 +200,37 @@ public:
 
   constexpr void __set_m_Type(::System::Type* value);
 
-  /// @brief Method get_InternalId addr 0x2a2dcd0 size 0x8 virtual true final true
+  /// @brief Method get_InternalId addr 0x28aff88 size 0x8 virtual true final true
   inline ::StringW get_InternalId();
 
-  /// @brief Method get_ProviderId addr 0x2a2dcd8 size 0x8 virtual true final true
+  /// @brief Method get_ProviderId addr 0x28aff90 size 0x8 virtual true final true
   inline ::StringW get_ProviderId();
 
-  /// @brief Method get_Dependencies addr 0x2a2dce0 size 0xb4 virtual true final true
+  /// @brief Method get_Dependencies addr 0x28aff98 size 0xb4 virtual true final true
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_Dependencies();
 
-  /// @brief Method get_HasDependencies addr 0x2a2e600 size 0x10 virtual true final true
+  /// @brief Method get_HasDependencies addr 0x28b08b8 size 0x10 virtual true final true
   inline bool get_HasDependencies();
 
-  /// @brief Method get_DependencyHashCode addr 0x2a2e610 size 0x8 virtual true final true
+  /// @brief Method get_DependencyHashCode addr 0x28b08c8 size 0x8 virtual true final true
   inline int32_t get_DependencyHashCode();
 
-  /// @brief Method get_Data addr 0x2a2e618 size 0x8 virtual true final true
+  /// @brief Method get_Data addr 0x28b08d0 size 0x8 virtual true final true
   inline ::System::Object* get_Data();
 
-  /// @brief Method get_PrimaryKey addr 0x2a2e620 size 0x8 virtual true final true
+  /// @brief Method get_PrimaryKey addr 0x28b08d8 size 0x8 virtual true final true
   inline ::StringW get_PrimaryKey();
 
-  /// @brief Method set_PrimaryKey addr 0x2a2e628 size 0x8 virtual false final false
+  /// @brief Method set_PrimaryKey addr 0x28b08e0 size 0x8 virtual false final false
   inline void set_PrimaryKey(::StringW value);
 
-  /// @brief Method get_ResourceType addr 0x2a2e630 size 0x8 virtual true final true
+  /// @brief Method get_ResourceType addr 0x28b08e8 size 0x8 virtual true final true
   inline ::System::Type* get_ResourceType();
 
-  /// @brief Method ToString addr 0x2a2e638 size 0x8 virtual true final false
+  /// @brief Method ToString addr 0x28b08f0 size 0x8 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method Hash addr 0x2a2e640 size 0x54 virtual true final true
+  /// @brief Method Hash addr 0x28b08f8 size 0x54 virtual true final true
   inline int32_t Hash(::System::Type* t);
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::__ContentCatalogData__CompactLocation* New_ctor(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locator,
@@ -234,7 +238,7 @@ public:
                                                                                                                     ::System::Object* data, int32_t depHash, ::StringW primaryKey,
                                                                                                                     ::System::Type* type);
 
-  /// @brief Method .ctor addr 0x2a2dab8 size 0x134 virtual false final false
+  /// @brief Method .ctor addr 0x28afd70 size 0x134 virtual false final false
   inline void _ctor(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locator, ::StringW internalId, ::StringW providerId, ::System::Object* dependencyKey,
                     ::System::Object* data, int32_t depHash, ::StringW primaryKey, ::System::Type* type);
 
@@ -284,13 +288,31 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::ResourceLocators::__ContentCatalogData__CompactLocation, 0x50>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::__ContentCatalogData__CompactLocation, ___m_Locator) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::__ContentCatalogData__CompactLocation, ___m_InternalId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::__ContentCatalogData__CompactLocation, ___m_ProviderId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::__ContentCatalogData__CompactLocation, ___m_Dependency) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::__ContentCatalogData__CompactLocation, ___m_Data) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::__ContentCatalogData__CompactLocation, ___m_HashCode) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::__ContentCatalogData__CompactLocation, ___m_DependencyHashCode) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::__ContentCatalogData__CompactLocation, ___m_PrimaryKey) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::__ContentCatalogData__CompactLocation, ___m_Type) == 0x48, "Offset mismatch!");
+
 } // namespace UnityEngine::AddressableAssets::ResourceLocators
 // Type: UnityEngine.AddressableAssets.ResourceLocators::ContentCatalogData
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13984))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14111))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14255))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14382))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::ContentCatalogData*
 class CORDL_TYPE ContentCatalogData : public ::System::Object {
 public:
@@ -440,51 +462,51 @@ public:
 
   constexpr void __set_m_InternalIdPrefixes(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method get_ProviderId addr 0x2a2d148 size 0x8 virtual false final false
+  /// @brief Method get_ProviderId addr 0x28af400 size 0x8 virtual false final false
   inline ::StringW get_ProviderId();
 
-  /// @brief Method set_ProviderId addr 0x2a2d150 size 0x8 virtual false final false
+  /// @brief Method set_ProviderId addr 0x28af408 size 0x8 virtual false final false
   inline void set_ProviderId(::StringW value);
 
-  /// @brief Method get_InstanceProviderData addr 0x2a2d158 size 0x18 virtual false final false
+  /// @brief Method get_InstanceProviderData addr 0x28af410 size 0x18 virtual false final false
   inline ::UnityEngine::ResourceManagement::Util::ObjectInitializationData get_InstanceProviderData();
 
-  /// @brief Method set_InstanceProviderData addr 0x2a2d170 size 0x18 virtual false final false
+  /// @brief Method set_InstanceProviderData addr 0x28af428 size 0x18 virtual false final false
   inline void set_InstanceProviderData(::UnityEngine::ResourceManagement::Util::ObjectInitializationData value);
 
-  /// @brief Method get_SceneProviderData addr 0x2a2d188 size 0x18 virtual false final false
+  /// @brief Method get_SceneProviderData addr 0x28af440 size 0x18 virtual false final false
   inline ::UnityEngine::ResourceManagement::Util::ObjectInitializationData get_SceneProviderData();
 
-  /// @brief Method set_SceneProviderData addr 0x2a2d1a0 size 0x18 virtual false final false
+  /// @brief Method set_SceneProviderData addr 0x28af458 size 0x18 virtual false final false
   inline void set_SceneProviderData(::UnityEngine::ResourceManagement::Util::ObjectInitializationData value);
 
-  /// @brief Method get_ResourceProviderData addr 0x2a2d1b8 size 0x8 virtual false final false
+  /// @brief Method get_ResourceProviderData addr 0x28af470 size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* get_ResourceProviderData();
 
-  /// @brief Method set_ResourceProviderData addr 0x2a2d1c0 size 0x8 virtual false final false
+  /// @brief Method set_ResourceProviderData addr 0x28af478 size 0x8 virtual false final false
   inline void set_ResourceProviderData(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* value);
 
-  /// @brief Method get_ProviderIds addr 0x2a2d1c8 size 0x8 virtual false final false
+  /// @brief Method get_ProviderIds addr 0x28af480 size 0x8 virtual false final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_ProviderIds();
 
-  /// @brief Method get_InternalIds addr 0x2a2d1d0 size 0x8 virtual false final false
+  /// @brief Method get_InternalIds addr 0x28af488 size 0x8 virtual false final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_InternalIds();
 
-  /// @brief Method CleanData addr 0x2a2ba0c size 0x58 virtual false final false
+  /// @brief Method CleanData addr 0x28adcc4 size 0x58 virtual false final false
   inline void CleanData();
 
-  /// @brief Method CreateCustomLocator addr 0x2a26644 size 0xc virtual false final false
+  /// @brief Method CreateCustomLocator addr 0x28a88fc size 0xc virtual false final false
   inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* CreateCustomLocator(::StringW overrideId, ::StringW providerSuffix);
 
-  /// @brief Method CreateLocator addr 0x2a2d1d8 size 0x780 virtual false final false
+  /// @brief Method CreateLocator addr 0x28af490 size 0x780 virtual false final false
   inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* CreateLocator(::StringW providerSuffix);
 
-  /// @brief Method ExpandInternalId addr 0x2a2d9f8 size 0xc0 virtual false final false
+  /// @brief Method ExpandInternalId addr 0x28afcb0 size 0xc0 virtual false final false
   static inline ::StringW ExpandInternalId(::ArrayW<::StringW, ::Array<::StringW>*> internalIdPrefixes, ::StringW v);
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a2dc54 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x28aff0c size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogData", modifiers: "&&", def_value: None }]
@@ -553,6 +575,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData, 0xd0>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData, ___localHash) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData, ___location) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData, ___m_LocatorId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData, ___m_InstanceProviderData) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData, ___m_SceneProviderData) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData, ___m_ResourceProviderData) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData, ___m_ProviderIds) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData, ___m_InternalIds) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData, ___m_KeyDataString) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData, ___m_BucketDataString) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData, ___m_EntryDataString) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData, ___m_ExtraDataString) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData, ___m_resourceTypes) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData, ___m_InternalIdPrefixes) == 0xc8, "Offset mismatch!");
 
 } // namespace UnityEngine::AddressableAssets::ResourceLocators
 NEED_NO_BOX(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData);

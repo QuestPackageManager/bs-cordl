@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(FlyingObjectEffect)
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 class AnimationCurve;
 }
 namespace GlobalNamespace {
 template <typename T> class LazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
-class IFlyingObjectEffectDidFinishEvent;
+template <typename T> class ILazyCopyHashSet_1;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
+class IFlyingObjectEffectDidFinishEvent;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FlyingObjectEffect);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4852))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4972))
 // CS Name: ::FlyingObjectEffect*
 class CORDL_TYPE FlyingObjectEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -160,13 +160,13 @@ public:
 
   constexpr void __set__didFinishEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* value);
 
-  /// @brief Method get_didFinishEvent addr 0x239821c size 0x8 virtual false final false
+  /// @brief Method get_didFinishEvent addr 0x2263818 size 0x8 virtual false final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* get_didFinishEvent();
 
-  /// @brief Method InitAndPresent addr 0x2398224 size 0xe8 virtual false final false
+  /// @brief Method InitAndPresent addr 0x2263820 size 0xe8 virtual false final false
   inline void InitAndPresent(float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, bool shake);
 
-  /// @brief Method Update addr 0x239830c size 0x3b8 virtual false final false
+  /// @brief Method Update addr 0x2263908 size 0x3b8 virtual false final false
   inline void Update();
 
   /// @brief Method ManualUpdate addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -174,7 +174,7 @@ public:
 
   static inline ::GlobalNamespace::FlyingObjectEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x23986c4 size 0xcc virtual false final false
+  /// @brief Method .ctor addr 0x2263cc0 size 0xcc virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingObjectEffect", modifiers: "&&", def_value: None }]
@@ -234,6 +234,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingObjectEffect, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____moveAnimationCurve) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____shakeFrequency) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____shakeStrength) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____shakeStrengthAnimationCurve) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____initialized) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____shakeRotation) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____rotation) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____elapsedTime) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____startPos) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____targetPos) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____duration) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____shake) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____didFinishEvent) == 0x78, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FlyingObjectEffect);

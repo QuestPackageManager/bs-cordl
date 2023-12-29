@@ -15,23 +15,23 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Sensor);
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 344, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6239))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6274))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6325))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6360))
 // CS Name: ::UnityEngine.InputSystem::Sensor*
 class CORDL_TYPE Sensor : public ::UnityEngine::InputSystem::InputDevice {
 public:
   // Declarations
   __declspec(property(get = get_samplingFrequency, put = set_samplingFrequency)) float_t samplingFrequency;
 
-  /// @brief Method get_samplingFrequency addr 0x2aa7a38 size 0xf4 virtual false final false
+  /// @brief Method get_samplingFrequency addr 0x2928cf0 size 0xf4 virtual false final false
   inline float_t get_samplingFrequency();
 
-  /// @brief Method set_samplingFrequency addr 0x2aa7b2c size 0xa0 virtual false final false
+  /// @brief Method set_samplingFrequency addr 0x2928de4 size 0xa0 virtual false final false
   inline void set_samplingFrequency(float_t value);
 
   static inline ::UnityEngine::InputSystem::Sensor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2aa7bcc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2928e84 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Sensor", modifiers: "&&", def_value: None }]

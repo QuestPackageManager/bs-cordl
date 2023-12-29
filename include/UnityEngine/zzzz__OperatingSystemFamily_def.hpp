@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::OperatingSystemFamily);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10137))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10065))
 // CS Name: ::UnityEngine::OperatingSystemFamily
 struct CORDL_TYPE OperatingSystemFamily {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::OperatingSystemFamily, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::OperatingSystemFamily, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::OperatingSystemFamily, "UnityEngine", "OperatingSystemFamily");

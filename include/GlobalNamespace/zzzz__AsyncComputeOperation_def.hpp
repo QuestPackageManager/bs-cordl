@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AsyncComputeOperation);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12679))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12607))
 // CS Name: ::AsyncComputeOperation*
 class CORDL_TYPE AsyncComputeOperation : public ::System::Object {
 public:
@@ -47,15 +47,15 @@ public:
 
   constexpr void __set__stopwatch(::System::Diagnostics::Stopwatch* value);
 
-  /// @brief Method get_elapsedTime addr 0xe292b8 size 0x84 virtual false final false
+  /// @brief Method get_elapsedTime addr 0xda3620 size 0x84 virtual false final false
   inline double_t get_elapsedTime();
 
-  /// @brief Method get_hasTimedOut addr 0xe2933c size 0x30 virtual false final false
+  /// @brief Method get_hasTimedOut addr 0xda36a4 size 0x30 virtual false final false
   inline bool get_hasTimedOut();
 
   static inline ::GlobalNamespace::AsyncComputeOperation* New_ctor(int32_t timeoutMs);
 
-  /// @brief Method .ctor addr 0xe2936c size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0xda36d4 size 0x88 virtual false final false
   inline void _ctor(int32_t timeoutMs);
 
   /// @brief Method Execute addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -85,6 +85,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AsyncComputeOperation, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AsyncComputeOperation, ____timeoutMs) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AsyncComputeOperation, ____stopwatch) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AsyncComputeOperation);

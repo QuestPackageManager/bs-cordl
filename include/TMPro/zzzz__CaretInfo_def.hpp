@@ -19,13 +19,13 @@ MARK_VAL_T(::TMPro::CaretInfo);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12454))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12455))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12382))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12383))
 // CS Name: ::TMPro::CaretInfo
 struct CORDL_TYPE CaretInfo {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2c49080 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2ac532c size 0x8 virtual false final false
   inline void _ctor(int32_t index, ::TMPro::CaretPosition position);
 
   // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::TMPro::CaretPosition", modifiers: "", def_value: None }]
@@ -48,6 +48,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::CaretInfo, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::CaretInfo, index) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::CaretInfo, position) == 0x4, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::CaretInfo, "TMPro", "CaretInfo");

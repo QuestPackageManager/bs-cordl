@@ -1,8 +1,8 @@
 #pragma once
 #include "Tweening/zzzz__Tween_impl.hpp"
 #include "Tweening/zzzz__Tween_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 template <typename T> constexpr T& Tweening::Tween_1<T>::__get_fromValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fromValue;

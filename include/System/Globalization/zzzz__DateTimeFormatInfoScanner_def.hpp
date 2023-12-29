@@ -11,19 +11,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DateTimeFormatInfoScanner)
 namespace System::Globalization {
-class DateTimeFormatInfo;
+struct __DateTimeFormatInfoScanner__FoundDatePattern;
 }
 namespace System::Globalization {
-struct __DateTimeFormatInfoScanner__FoundDatePattern;
+class DateTimeFormatInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Globalization {
 struct FORMATFLAGS;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::System::Globalization::DateTimeFormatInfoScanner);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3668))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3656))
 // CS Name: ::DateTimeFormatInfoScanner::FoundDatePattern
 struct CORDL_TYPE __DateTimeFormatInfoScanner__FoundDatePattern {
 public:
@@ -94,13 +94,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::__DateTimeFormatInfoScanner__FoundDatePattern, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::System::Globalization::__DateTimeFormatInfoScanner__FoundDatePattern, value__) == 0x0, "Offset mismatch!");
+
 } // namespace System::Globalization
 // Type: System.Globalization::DateTimeFormatInfoScanner
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3668))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3669))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3656)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3657))
 // CS Name: ::System.Globalization::DateTimeFormatInfoScanner*
 class CORDL_TYPE DateTimeFormatInfoScanner : public ::System::Object {
 public:
@@ -132,58 +134,58 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_knownWords();
 
-  /// @brief Method get_KnownWords addr 0x2553a64 size 0x400 virtual false final false
+  /// @brief Method get_KnownWords addr 0x23f7874 size 0x400 virtual false final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* get_KnownWords();
 
-  /// @brief Method SkipWhiteSpacesAndNonLetter addr 0x2553e64 size 0xfc virtual false final false
+  /// @brief Method SkipWhiteSpacesAndNonLetter addr 0x23f7c74 size 0xfc virtual false final false
   static inline int32_t SkipWhiteSpacesAndNonLetter(::StringW pattern, int32_t currentIndex);
 
-  /// @brief Method AddDateWordOrPostfix addr 0x2553f60 size 0x2b0 virtual false final false
+  /// @brief Method AddDateWordOrPostfix addr 0x23f7d70 size 0x2b0 virtual false final false
   inline void AddDateWordOrPostfix(::StringW formatPostfix, ::StringW str);
 
-  /// @brief Method AddDateWords addr 0x255435c size 0x1d8 virtual false final false
+  /// @brief Method AddDateWords addr 0x23f816c size 0x1d8 virtual false final false
   inline int32_t AddDateWords(::StringW pattern, int32_t index, ::StringW formatPostfix);
 
-  /// @brief Method ScanRepeatChar addr 0x2554534 size 0x84 virtual false final false
+  /// @brief Method ScanRepeatChar addr 0x23f8344 size 0x84 virtual false final false
   static inline int32_t ScanRepeatChar(::StringW pattern, char16_t ch, int32_t index, ByRef<int32_t> count);
 
-  /// @brief Method AddIgnorableSymbols addr 0x2554210 size 0x14c virtual false final false
+  /// @brief Method AddIgnorableSymbols addr 0x23f8020 size 0x14c virtual false final false
   inline void AddIgnorableSymbols(::StringW text);
 
-  /// @brief Method ScanDateWord addr 0x25545b8 size 0x23c virtual false final false
+  /// @brief Method ScanDateWord addr 0x23f83c8 size 0x23c virtual false final false
   inline void ScanDateWord(::StringW pattern);
 
-  /// @brief Method GetDateWordsOfDTFI addr 0x2552860 size 0x2c0 virtual false final false
+  /// @brief Method GetDateWordsOfDTFI addr 0x23f666c size 0x2c0 virtual false final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetDateWordsOfDTFI(::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method GetFormatFlagGenitiveMonth addr 0x2550c94 size 0x40 virtual false final false
+  /// @brief Method GetFormatFlagGenitiveMonth addr 0x23f4aa0 size 0x40 virtual false final false
   static inline ::System::Globalization::FORMATFLAGS GetFormatFlagGenitiveMonth(::ArrayW<::StringW, ::Array<::StringW>*> monthNames, ::ArrayW<::StringW, ::Array<::StringW>*> genitveMonthNames,
                                                                                 ::ArrayW<::StringW, ::Array<::StringW>*> abbrevMonthNames,
                                                                                 ::ArrayW<::StringW, ::Array<::StringW>*> genetiveAbbrevMonthNames);
 
-  /// @brief Method GetFormatFlagUseSpaceInMonthNames addr 0x2550cd4 size 0xa4 virtual false final false
+  /// @brief Method GetFormatFlagUseSpaceInMonthNames addr 0x23f4ae0 size 0xa4 virtual false final false
   static inline ::System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> monthNames, ::ArrayW<::StringW, ::Array<::StringW>*> genitveMonthNames,
                                                                                        ::ArrayW<::StringW, ::Array<::StringW>*> abbrevMonthNames,
                                                                                        ::ArrayW<::StringW, ::Array<::StringW>*> genetiveAbbrevMonthNames);
 
-  /// @brief Method GetFormatFlagUseSpaceInDayNames addr 0x2550d78 size 0x30 virtual false final false
+  /// @brief Method GetFormatFlagUseSpaceInDayNames addr 0x23f4b84 size 0x30 virtual false final false
   static inline ::System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInDayNames(::ArrayW<::StringW, ::Array<::StringW>*> dayNames, ::ArrayW<::StringW, ::Array<::StringW>*> abbrevDayNames);
 
-  /// @brief Method GetFormatFlagUseHebrewCalendar addr 0x2550da8 size 0x10 virtual false final false
+  /// @brief Method GetFormatFlagUseHebrewCalendar addr 0x23f4bb4 size 0x10 virtual false final false
   static inline ::System::Globalization::FORMATFLAGS GetFormatFlagUseHebrewCalendar(int32_t calID);
 
-  /// @brief Method EqualStringArrays addr 0x25547f4 size 0xa8 virtual false final false
+  /// @brief Method EqualStringArrays addr 0x23f8604 size 0xa8 virtual false final false
   static inline bool EqualStringArrays(::ArrayW<::StringW, ::Array<::StringW>*> array1, ::ArrayW<::StringW, ::Array<::StringW>*> array2);
 
-  /// @brief Method ArrayElementsHaveSpace addr 0x2554af8 size 0xf4 virtual false final false
+  /// @brief Method ArrayElementsHaveSpace addr 0x23f8908 size 0xf4 virtual false final false
   static inline bool ArrayElementsHaveSpace(::ArrayW<::StringW, ::Array<::StringW>*> array);
 
-  /// @brief Method ArrayElementsBeginWithDigit addr 0x255489c size 0x25c virtual false final false
+  /// @brief Method ArrayElementsBeginWithDigit addr 0x23f86ac size 0x25c virtual false final false
   static inline bool ArrayElementsBeginWithDigit(::ArrayW<::StringW, ::Array<::StringW>*> array);
 
   static inline ::System::Globalization::DateTimeFormatInfoScanner* New_ctor();
 
-  /// @brief Method .ctor addr 0x25527e4 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x23f65f0 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DateTimeFormatInfoScanner", modifiers: "&&", def_value: None }]
@@ -210,6 +212,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::DateTimeFormatInfoScanner, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::DateTimeFormatInfoScanner, ___m_dateWords) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::DateTimeFormatInfoScanner, ____ymdFlags) == 0x18, "Offset mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::__DateTimeFormatInfoScanner__FoundDatePattern, "System.Globalization", "DateTimeFormatInfoScanner/FoundDatePattern");

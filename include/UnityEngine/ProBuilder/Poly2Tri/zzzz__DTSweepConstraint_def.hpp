@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15340))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15329))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15370))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15359))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DTSweepConstraint*
 class CORDL_TYPE DTSweepConstraint : public ::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint {
 public:
@@ -26,7 +26,7 @@ public:
   static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1,
                                                                                  ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2);
 
-  /// @brief Method .ctor addr 0x2b338f8 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x29b1ba4 size 0x70 virtual false final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2);
 
   // Ctor Parameters [CppParam { name: "", ty: "DTSweepConstraint", modifiers: "&&", def_value: None }]

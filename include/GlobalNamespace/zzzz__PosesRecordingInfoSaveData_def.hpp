@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5939))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6030))
 // CS Name: ::PosesRecordingInfoSaveData::ExternalCameraCalibrationSaveData*
 class CORDL_TYPE __PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData : public ::System::Object {
 public:
@@ -85,25 +85,25 @@ public:
 
   constexpr void __set__nearOffset(float_t value);
 
-  /// @brief Method get_fieldOfVision addr 0x2302230 size 0x8 virtual false final false
+  /// @brief Method get_fieldOfVision addr 0x21b8ca8 size 0x8 virtual false final false
   inline float_t get_fieldOfVision();
 
-  /// @brief Method get_nearClip addr 0x2302238 size 0x8 virtual false final false
+  /// @brief Method get_nearClip addr 0x21b8cb0 size 0x8 virtual false final false
   inline float_t get_nearClip();
 
-  /// @brief Method get_farClip addr 0x2302240 size 0x8 virtual false final false
+  /// @brief Method get_farClip addr 0x21b8cb8 size 0x8 virtual false final false
   inline float_t get_farClip();
 
-  /// @brief Method get_hmdOffset addr 0x2302248 size 0x8 virtual false final false
+  /// @brief Method get_hmdOffset addr 0x21b8cc0 size 0x8 virtual false final false
   inline float_t get_hmdOffset();
 
-  /// @brief Method get_nearOffset addr 0x2302250 size 0x8 virtual false final false
+  /// @brief Method get_nearOffset addr 0x21b8cc8 size 0x8 virtual false final false
   inline float_t get_nearOffset();
 
   static inline ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* New_ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset,
                                                                                                              float_t nearOffset);
 
-  /// @brief Method .ctor addr 0x2302258 size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x21b8cd0 size 0x50 virtual false final false
   inline void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData", modifiers: "&&", def_value: None }]
@@ -140,13 +140,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData, ____fieldOfVision) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData, ____nearClip) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData, ____farClip) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData, ____hmdOffset) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData, ____nearOffset) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::PosesRecordingInfoSaveData
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5940))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6031))
 // CS Name: ::PosesRecordingInfoSaveData*
 class CORDL_TYPE PosesRecordingInfoSaveData : public ::System::Object {
 public:
@@ -198,22 +208,22 @@ public:
 
   constexpr void __set__dataFileName(::StringW value);
 
-  /// @brief Method get_version addr 0x230219c size 0x8 virtual false final false
+  /// @brief Method get_version addr 0x21b8c14 size 0x8 virtual false final false
   inline ::StringW get_version();
 
-  /// @brief Method get_objectIds addr 0x23021a4 size 0x8 virtual false final false
+  /// @brief Method get_objectIds addr 0x21b8c1c size 0x8 virtual false final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_objectIds();
 
-  /// @brief Method get_externalCameraCalibration addr 0x23021ac size 0x8 virtual false final false
+  /// @brief Method get_externalCameraCalibration addr 0x21b8c24 size 0x8 virtual false final false
   inline ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* get_externalCameraCalibration();
 
-  /// @brief Method get_dataFileName addr 0x23021b4 size 0x8 virtual false final false
+  /// @brief Method get_dataFileName addr 0x21b8c2c size 0x8 virtual false final false
   inline ::StringW get_dataFileName();
 
   static inline ::GlobalNamespace::PosesRecordingInfoSaveData*
   New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds, ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* externalCameraCalibration, ::StringW dataFileName);
 
-  /// @brief Method .ctor addr 0x23021bc size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x21b8c34 size 0x74 virtual false final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds, ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* externalCameraCalibration,
                     ::StringW dataFileName);
 
@@ -250,6 +260,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PosesRecordingInfoSaveData, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PosesRecordingInfoSaveData, ____version) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PosesRecordingInfoSaveData, ____objectIds) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PosesRecordingInfoSaveData, ____externalCameraCalibration) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PosesRecordingInfoSaveData, ____dataFileName) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PosesRecordingInfoSaveData);

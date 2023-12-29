@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapEventDataProcessor_1)
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
 namespace GlobalNamespace {
 class BeatmapDataItem;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
 }
 namespace GlobalNamespace {
 template <typename T> class ISortedListItemProcessor_1;
@@ -25,8 +25,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14741))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14956))
 // CS Name: ::BeatmapEventDataProcessor`1<T>*
 class CORDL_TYPE BeatmapEventDataProcessor_1 : public ::System::Object {
 public:

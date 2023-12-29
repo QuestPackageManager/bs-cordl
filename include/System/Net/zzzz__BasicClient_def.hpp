@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BasicClient)
 namespace System::Net {
-class IAuthenticationModule;
-}
-namespace System::Net {
-class ICredentials;
-}
-namespace System::Net {
 class WebRequest;
 }
 namespace System::Net {
 class Authorization;
+}
+namespace System::Net {
+class IAuthenticationModule;
+}
+namespace System::Net {
+class ICredentials;
 }
 // Forward declare root types
 namespace System::Net {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Net::BasicClient);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9149))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7986))
 // CS Name: ::System.Net::BasicClient*
 class CORDL_TYPE BasicClient : public ::System::Object {
 public:
@@ -40,24 +40,24 @@ public:
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
 
-  /// @brief Method Authenticate addr 0x29bb96c size 0xac virtual true final true
+  /// @brief Method Authenticate addr 0x283e0f4 size 0xac virtual true final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method GetBytes addr 0x29bbdc4 size 0xa8 virtual false final false
+  /// @brief Method GetBytes addr 0x283e54c size 0xa8 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(::StringW str);
 
-  /// @brief Method InternalAuthenticate addr 0x29bba18 size 0x3ac virtual false final false
+  /// @brief Method InternalAuthenticate addr 0x283e1a0 size 0x3ac virtual false final false
   static inline ::System::Net::Authorization* InternalAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method PreAuthenticate addr 0x29bbe6c size 0xc virtual true final true
+  /// @brief Method PreAuthenticate addr 0x283e5f4 size 0xc virtual true final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method get_AuthenticationType addr 0x29bbe78 size 0x40 virtual true final true
+  /// @brief Method get_AuthenticationType addr 0x283e600 size 0x40 virtual true final true
   inline ::StringW get_AuthenticationType();
 
   static inline ::System::Net::BasicClient* New_ctor();
 
-  /// @brief Method .ctor addr 0x29badc0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x283d548 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicClient", modifiers: "&&", def_value: None }]

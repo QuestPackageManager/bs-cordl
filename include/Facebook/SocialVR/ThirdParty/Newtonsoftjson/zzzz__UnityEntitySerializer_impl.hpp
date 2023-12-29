@@ -1,20 +1,20 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Facebook/SocialVR/ThirdParty/Newtonsoftjson/zzzz__UnityEntitySerializer_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer.CanConvert
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer::*)(::System::Type*)>(
     &::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer::CanConvert)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2321e48;
+  constexpr static std::size_t addrs = 0x21e8898;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer*>::get(),
@@ -29,9 +29,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
     &::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer::ReadJson)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2321ef4;
+  constexpr static std::size_t addrs = 0x21e8944;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer*>::get(),
@@ -45,9 +45,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer::WriteJson)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2321f78;
+  constexpr static std::size_t addrs = 0x21e89c8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer*>::get(),
@@ -61,9 +61,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer::*)()>(
     &::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2322074;
+  constexpr static std::size_t addrs = 0x21e8ac4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));

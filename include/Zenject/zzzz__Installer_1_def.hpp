@@ -22,8 +22,8 @@ namespace Zenject {
 // cpp template
 template <typename TDerived>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11131))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11065))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11059))
 // CS Name: ::Zenject::Installer`1<TDerived>*
 class CORDL_TYPE Installer_1 : public ::Zenject::InstallerBase {
 public:

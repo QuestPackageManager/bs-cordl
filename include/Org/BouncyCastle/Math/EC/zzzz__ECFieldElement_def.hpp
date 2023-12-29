@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::ECFieldElement);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1368))
 // CS Name: ::Org.BouncyCastle.Math.EC::ECFieldElement*
 class CORDL_TYPE ECFieldElement : public ::System::Object {
@@ -75,53 +75,53 @@ public:
   /// @brief Method Sqrt addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Sqrt();
 
-  /// @brief Method get_BitLength addr 0xfce470 size 0x24 virtual true final false
+  /// @brief Method get_BitLength addr 0xf59224 size 0x24 virtual true final false
   inline int32_t get_BitLength();
 
-  /// @brief Method get_IsOne addr 0xfce494 size 0x24 virtual true final false
+  /// @brief Method get_IsOne addr 0xf59248 size 0x24 virtual true final false
   inline bool get_IsOne();
 
-  /// @brief Method get_IsZero addr 0xfce4b8 size 0x2c virtual true final false
+  /// @brief Method get_IsZero addr 0xf5926c size 0x2c virtual true final false
   inline bool get_IsZero();
 
-  /// @brief Method MultiplyMinusProduct addr 0xfce4e4 size 0x5c virtual true final false
+  /// @brief Method MultiplyMinusProduct addr 0xf59298 size 0x5c virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* MultiplyMinusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement* b, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                              ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method MultiplyPlusProduct addr 0xfce540 size 0x5c virtual true final false
+  /// @brief Method MultiplyPlusProduct addr 0xf592f4 size 0x5c virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* MultiplyPlusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement* b, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                             ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method SquareMinusProduct addr 0xfce59c size 0x64 virtual true final false
+  /// @brief Method SquareMinusProduct addr 0xf59350 size 0x64 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* SquareMinusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method SquarePlusProduct addr 0xfce600 size 0x64 virtual true final false
+  /// @brief Method SquarePlusProduct addr 0xf593b4 size 0x64 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* SquarePlusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method SquarePow addr 0xfce664 size 0x38 virtual true final false
+  /// @brief Method SquarePow addr 0xf59418 size 0x38 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* SquarePow(int32_t pow);
 
-  /// @brief Method TestBitZero addr 0xfce69c size 0x28 virtual true final false
+  /// @brief Method TestBitZero addr 0xf59450 size 0x28 virtual true final false
   inline bool TestBitZero();
 
-  /// @brief Method Equals addr 0xfce6c4 size 0x8c virtual true final false
+  /// @brief Method Equals addr 0xf59478 size 0x8c virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xfce750 size 0x74 virtual true final false
+  /// @brief Method Equals addr 0xf59504 size 0x74 virtual true final false
   inline bool Equals(::Org::BouncyCastle::Math::EC::ECFieldElement* other);
 
-  /// @brief Method GetHashCode addr 0xfce7c4 size 0x28 virtual true final false
+  /// @brief Method GetHashCode addr 0xf59578 size 0x28 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0xfce7ec size 0x28 virtual true final false
+  /// @brief Method ToString addr 0xf595a0 size 0x28 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method GetEncoded addr 0xfce814 size 0x58 virtual true final false
+  /// @brief Method GetEncoded addr 0xf595c8 size 0x58 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Math::EC::ECFieldElement* New_ctor();
 
-  /// @brief Method .ctor addr 0xfce86c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xf59620 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ECFieldElement", modifiers: "&&", def_value: None }]

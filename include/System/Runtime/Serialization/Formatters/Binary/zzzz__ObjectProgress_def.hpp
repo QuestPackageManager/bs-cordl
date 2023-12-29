@@ -12,14 +12,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectProgress)
+namespace System {
+class Type;
+}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ParseRecord;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class Type;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryTypeEnum;
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ObjectProgr
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3248)), TypeDefinitionIndex(TypeDefinitionIndex(3244)), TypeDefinitionIndex(TypeDefinitionIndex(3251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3276)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3247)), TypeDefinitionIndex(TypeDefinitionIndex(3250)), TypeDefinitionIndex(TypeDefinitionIndex(3251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3243)), TypeDefinitionIndex(TypeDefinitionIndex(2611))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3275)) CS Name:
 // ::System.Runtime.Serialization.Formatters.Binary::ObjectProgress*
 class CORDL_TYPE ObjectProgress : public ::System::Object {
 public:
@@ -223,16 +223,16 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectProgress* New_ctor();
 
-  /// @brief Method .ctor addr 0x24c4138 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x236b644 size 0x70 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0x24c41a8 size 0x50 virtual false final false
+  /// @brief Method Init addr 0x236b6b4 size 0x50 virtual false final false
   inline void Init();
 
-  /// @brief Method ArrayCountIncrement addr 0x24c41f8 size 0x10 virtual false final false
+  /// @brief Method ArrayCountIncrement addr 0x236b704 size 0x10 virtual false final false
   inline void ArrayCountIncrement(int32_t value);
 
-  /// @brief Method GetNext addr 0x24c4208 size 0x114 virtual false final false
+  /// @brief Method GetNext addr 0x236b714 size 0x114 virtual false final false
   inline bool GetNext(ByRef<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> outBinaryTypeEnum, ByRef<::System::Object*> outTypeInformation);
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectProgress", modifiers: "&&", def_value: None }]
@@ -310,6 +310,44 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___isInitial) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___count) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___expectedType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___expectedTypeInformation) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___name) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___objectTypeEnum) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___memberTypeEnum) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___memberValueEnum) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___dtType) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___numItems) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___binaryTypeEnum) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___typeInformation) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___nullCount) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___memberLength) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___binaryTypeEnumA) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___typeInformationA) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___memberNames) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___memberTypes) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___pr) == 0x80, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress);

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::ICloneable);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2410))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2408))
 // CS Name: ::System::ICloneable*
 class CORDL_TYPE ICloneable {
 public:

@@ -6,16 +6,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SegmentedControl)
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace HMUI {
-class SelectableCell;
-}
-namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System {
-class Object;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -26,11 +17,11 @@ class SegmentedControlCell;
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-class GameObject;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace HMUI {
-struct __SelectableCell__TransitionType;
+class SelectableCell;
 }
 namespace HMUI {
 class __SegmentedControl__IDataSource;
@@ -38,8 +29,17 @@ class __SegmentedControl__IDataSource;
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
+namespace UnityEngine {
+class GameObject;
+}
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class IReadOnlyList_1;
+}
+namespace HMUI {
+struct __SelectableCell__TransitionType;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace HMUI {
@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::HMUI::__SegmentedControl__IDataSource);
 namespace HMUI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13549))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13668))
 // CS Name: ::SegmentedControl::IDataSource*
 class CORDL_TYPE __SegmentedControl__IDataSource {
 public:
@@ -83,8 +83,8 @@ public:
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13550))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13669))
 // CS Name: ::HMUI::SegmentedControl*
 class CORDL_TYPE SegmentedControl : public ::UnityEngine::MonoBehaviour {
 public:
@@ -169,42 +169,42 @@ public:
 
   constexpr void __set__callbacks(::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action_1<int32_t>*>* value);
 
-  /// @brief Method add_didSelectCellEvent addr 0x211f9c8 size 0xb0 virtual false final false
+  /// @brief Method add_didSelectCellEvent addr 0x1fc976c size 0xb0 virtual false final false
   inline void add_didSelectCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int32_t>* value);
 
-  /// @brief Method remove_didSelectCellEvent addr 0x211fa78 size 0xb0 virtual false final false
+  /// @brief Method remove_didSelectCellEvent addr 0x1fc981c size 0xb0 virtual false final false
   inline void remove_didSelectCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int32_t>* value);
 
-  /// @brief Method get_dataSource addr 0x211fb28 size 0x8 virtual false final false
+  /// @brief Method get_dataSource addr 0x1fc98cc size 0x8 virtual false final false
   inline ::HMUI::__SegmentedControl__IDataSource* get_dataSource();
 
-  /// @brief Method set_dataSource addr 0x211efbc size 0x8 virtual false final false
+  /// @brief Method set_dataSource addr 0x1fc8d60 size 0x8 virtual false final false
   inline void set_dataSource(::HMUI::__SegmentedControl__IDataSource* value);
 
-  /// @brief Method get_selectedCellNumber addr 0x211fb30 size 0x8 virtual false final false
+  /// @brief Method get_selectedCellNumber addr 0x1fc98d4 size 0x8 virtual false final false
   inline int32_t get_selectedCellNumber();
 
-  /// @brief Method get_cells addr 0x211fb38 size 0x8 virtual false final false
+  /// @brief Method get_cells addr 0x1fc98dc size 0x8 virtual false final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::HMUI::SegmentedControlCell*>* get_cells();
 
-  /// @brief Method CreateCells addr 0x211fb40 size 0x4bc virtual false final false
+  /// @brief Method CreateCells addr 0x1fc98e4 size 0x4bc virtual false final false
   inline void CreateCells();
 
-  /// @brief Method HandleCellSelectionDidChange addr 0x2120008 size 0x150 virtual false final false
+  /// @brief Method HandleCellSelectionDidChange addr 0x1fc9dac size 0x150 virtual false final false
   inline void HandleCellSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transitionType, ::System::Object* changeOwner);
 
-  /// @brief Method SetCallbackForCell addr 0x2120158 size 0x68 virtual false final false
+  /// @brief Method SetCallbackForCell addr 0x1fc9efc size 0x68 virtual false final false
   inline void SetCallbackForCell(int32_t cellNumber, ::System::Action_1<int32_t>* callback);
 
-  /// @brief Method ReloadData addr 0x211f004 size 0x408 virtual false final false
+  /// @brief Method ReloadData addr 0x1fc8da8 size 0x408 virtual false final false
   inline void ReloadData();
 
-  /// @brief Method SelectCellWithNumber addr 0x21201c0 size 0xa8 virtual false final false
+  /// @brief Method SelectCellWithNumber addr 0x1fc9f64 size 0xa8 virtual false final false
   inline void SelectCellWithNumber(int32_t selectCellNumber);
 
   static inline ::HMUI::SegmentedControl* New_ctor();
 
-  /// @brief Method .ctor addr 0x211f844 size 0x10c virtual false final false
+  /// @brief Method .ctor addr 0x1fc95e8 size 0x10c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SegmentedControl", modifiers: "&&", def_value: None }]
@@ -249,6 +249,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::SegmentedControl, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::SegmentedControl, ____separatorPrefab) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::SegmentedControl, ___didSelectCellEvent) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::SegmentedControl, ____numberOfCells) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::SegmentedControl, ____cells) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::SegmentedControl, ____separators) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::SegmentedControl, ____dataSource) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::SegmentedControl, ____selectedCellNumber) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::SegmentedControl, ____callbacks) == 0x50, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::SegmentedControl);

@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::NameInfo);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3253)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3250))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3298))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3249)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3252))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3297))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::NameInfo*
 class CORDL_TYPE NameInfo : public ::System::Object {
 public:
@@ -150,19 +150,19 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::NameInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x24d1e48 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2379344 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0x24d1e18 size 0x20 virtual false final false
+  /// @brief Method Init addr 0x2379314 size 0x20 virtual false final false
   inline void Init();
 
-  /// @brief Method get_IsSealed addr 0x24d1b74 size 0x4c virtual false final false
+  /// @brief Method get_IsSealed addr 0x2379070 size 0x4c virtual false final false
   inline bool get_IsSealed();
 
-  /// @brief Method get_NIname addr 0x24d6188 size 0x38 virtual false final false
+  /// @brief Method get_NIname addr 0x237d684 size 0x38 virtual false final false
   inline ::StringW get_NIname();
 
-  /// @brief Method set_NIname addr 0x24d61c0 size 0x8 virtual false final false
+  /// @brief Method set_NIname addr 0x237d6bc size 0x8 virtual false final false
   inline void set_NIname(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "NameInfo", modifiers: "&&", def_value: None }]
@@ -222,6 +222,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::NameInfo, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameInfo, ___NIFullName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameInfo, ___NIobjectId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameInfo, ___NIassemId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameInfo, ___NIprimitiveTypeEnum) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameInfo, ___NItype) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameInfo, ___NIisSealed) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameInfo, ___NIisArray) == 0x39, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameInfo, ___NIisArrayItem) == 0x3a, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameInfo, ___NItransmitTypeOnObject) == 0x3b, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameInfo, ___NItransmitTypeOnMember) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameInfo, ___NIisParentTypeOnObject) == 0x3d, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameInfo, ___NIarrayEnum) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameInfo, ___NIsealedStatusChecked) == 0x44, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::NameInfo);

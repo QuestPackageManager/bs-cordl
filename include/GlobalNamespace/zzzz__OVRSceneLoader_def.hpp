@@ -10,23 +10,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSceneLoader)
-namespace UnityEngine::UI {
-class Text;
+namespace UnityEngine {
+class Canvas;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class Canvas;
-}
-namespace GlobalNamespace {
-class __OVRSceneLoader___onCheckSceneCoroutine_d__25;
+namespace UnityEngine::UI {
+class Text;
 }
 namespace UnityEngine {
 class AssetBundle;
+}
+namespace GlobalNamespace {
+struct __OVRSceneLoader__SceneInfo;
 }
 namespace GlobalNamespace {
 class __OVRSceneLoader___DelayCanvasPosUpdate_d__24;
@@ -34,17 +31,20 @@ class __OVRSceneLoader___DelayCanvasPosUpdate_d__24;
 namespace UnityEngine {
 class AsyncOperation;
 }
-namespace GlobalNamespace {
-struct __OVRSceneLoader__SceneInfo;
+namespace System::Collections {
+class IEnumerator;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class __OVRSceneLoader___onCheckSceneCoroutine_d__25;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -69,12 +69,12 @@ MARK_VAL_T(::GlobalNamespace::__OVRSceneLoader__SceneInfo);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7957))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8801))
 // CS Name: ::OVRSceneLoader::SceneInfo
 struct CORDL_TYPE __OVRSceneLoader__SceneInfo {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x27818b4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x261a308 size 0x8 virtual false final false
   inline void _ctor(::System::Collections::Generic::List_1<::StringW>* sceneList, int64_t currentSceneEpochVersion);
 
   // Ctor Parameters [CppParam { name: "scenes", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: None }, CppParam { name: "version", ty: "int64_t", modifiers: "",
@@ -99,13 +99,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSceneLoader__SceneInfo, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader__SceneInfo, scenes) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader__SceneInfo, version) == 0x8, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<DelayCanvasPosUpdate>d__24
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7958))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8802))
 // CS Name: ::OVRSceneLoader::<DelayCanvasPosUpdate>d__24*
 class CORDL_TYPE __OVRSceneLoader___DelayCanvasPosUpdate_d__24 : public ::System::Object {
 public:
@@ -152,22 +156,22 @@ public:
 
   static inline ::GlobalNamespace::__OVRSceneLoader___DelayCanvasPosUpdate_d__24* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x27816a8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x261a0fc size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x27818bc size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x261a310 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x27818c0 size 0xa4 virtual true final true
+  /// @brief Method MoveNext addr 0x261a314 size 0xa4 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2781964 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x261a3b8 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x278196c size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x261a3c0 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x27819ac size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x261a400 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRSceneLoader___DelayCanvasPosUpdate_d__24", modifiers: "&&", def_value: None }]
@@ -198,13 +202,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSceneLoader___DelayCanvasPosUpdate_d__24, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader___DelayCanvasPosUpdate_d__24, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader___DelayCanvasPosUpdate_d__24, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader___DelayCanvasPosUpdate_d__24, _____4__this) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<onCheckSceneCoroutine>d__25
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7959))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8803))
 // CS Name: ::OVRSceneLoader::<onCheckSceneCoroutine>d__25*
 class CORDL_TYPE __OVRSceneLoader___onCheckSceneCoroutine_d__25 : public ::System::Object {
 public:
@@ -251,22 +261,22 @@ public:
 
   static inline ::GlobalNamespace::__OVRSceneLoader___onCheckSceneCoroutine_d__25* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x27816d0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x261a124 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x27819b4 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x261a408 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x27819b8 size 0x34c virtual true final true
+  /// @brief Method MoveNext addr 0x261a40c size 0x34c virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2781d04 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x261a758 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2781d0c size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x261a760 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2781d4c size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x261a7a0 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRSceneLoader___onCheckSceneCoroutine_d__25", modifiers: "&&", def_value: None }]
@@ -297,13 +307,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSceneLoader___onCheckSceneCoroutine_d__25, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader___onCheckSceneCoroutine_d__25, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader___onCheckSceneCoroutine_d__25, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader___onCheckSceneCoroutine_d__25, _____4__this) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OVRSceneLoader
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7957)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7960))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8801)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8804))
 // CS Name: ::OVRSceneLoader*
 class CORDL_TYPE OVRSceneLoader : public ::UnityEngine::MonoBehaviour {
 public:
@@ -431,39 +447,39 @@ public:
 
   constexpr void __set_currentSceneInfo(::GlobalNamespace::__OVRSceneLoader__SceneInfo value);
 
-  /// @brief Method Awake addr 0x2780398 size 0x6c virtual false final false
+  /// @brief Method Awake addr 0x2618dec size 0x6c virtual false final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x2780404 size 0x14c virtual false final false
+  /// @brief Method Start addr 0x2618e58 size 0x14c virtual false final false
   inline void Start();
 
-  /// @brief Method LoadScene addr 0x2780844 size 0x8ac virtual false final false
+  /// @brief Method LoadScene addr 0x2619298 size 0x8ac virtual false final false
   inline void LoadScene(::GlobalNamespace::__OVRSceneLoader__SceneInfo sceneInfo);
 
-  /// @brief Method LoadSceneOperation_completed addr 0x27810f0 size 0xdc virtual false final false
+  /// @brief Method LoadSceneOperation_completed addr 0x2619b44 size 0xdc virtual false final false
   inline void LoadSceneOperation_completed(::UnityEngine::AsyncOperation* obj);
 
-  /// @brief Method Update addr 0x2781234 size 0x274 virtual false final false
+  /// @brief Method Update addr 0x2619c88 size 0x274 virtual false final false
   inline void Update();
 
-  /// @brief Method UpdateCanvasPosition addr 0x27814a8 size 0x200 virtual false final false
+  /// @brief Method UpdateCanvasPosition addr 0x2619efc size 0x200 virtual false final false
   inline void UpdateCanvasPosition();
 
-  /// @brief Method GetSceneInfo addr 0x27805b8 size 0x28c virtual false final false
+  /// @brief Method GetSceneInfo addr 0x261900c size 0x28c virtual false final false
   inline ::GlobalNamespace::__OVRSceneLoader__SceneInfo GetSceneInfo();
 
-  /// @brief Method DelayCanvasPosUpdate addr 0x2780550 size 0x68 virtual false final false
+  /// @brief Method DelayCanvasPosUpdate addr 0x2618fa4 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* DelayCanvasPosUpdate();
 
-  /// @brief Method onCheckSceneCoroutine addr 0x27811cc size 0x68 virtual false final false
+  /// @brief Method onCheckSceneCoroutine addr 0x2619c20 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* onCheckSceneCoroutine();
 
-  /// @brief Method DestroyAllGameObjects addr 0x27816f8 size 0x110 virtual false final false
+  /// @brief Method DestroyAllGameObjects addr 0x261a14c size 0x110 virtual false final false
   inline void DestroyAllGameObjects();
 
   static inline ::GlobalNamespace::OVRSceneLoader* New_ctor();
 
-  /// @brief Method .ctor addr 0x2781808 size 0xac virtual false final false
+  /// @brief Method .ctor addr 0x261a25c size 0xac virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSceneLoader", modifiers: "&&", def_value: None }]
@@ -532,6 +548,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSceneLoader, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___sceneCheckIntervalSeconds) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___logCloseTime) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___mainCanvas) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___logTextBox) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___loadSceneOperation) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___formattedLogText) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___closeLogTimer) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___closeLogDialogue) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___canvasPosUpdated) == 0x45, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___scenePath) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___sceneLoadDataPath) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___loadedAssetBundles) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___currentSceneInfo) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRSceneLoader);

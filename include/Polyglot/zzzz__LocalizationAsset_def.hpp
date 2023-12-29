@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Polyglot::LocalizationAsset);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15552)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15559))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15536))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15543))
 // CS Name: ::Polyglot::LocalizationAsset*
 class CORDL_TYPE LocalizationAsset : public ::System::Object {
 public:
@@ -49,21 +49,21 @@ public:
 
   constexpr void __set_format(::Polyglot::GoogleDriveDownloadFormat value);
 
-  /// @brief Method get_TextAsset addr 0x2804138 size 0x8 virtual false final false
+  /// @brief Method get_TextAsset addr 0x26894b0 size 0x8 virtual false final false
   inline ::UnityEngine::TextAsset* get_TextAsset();
 
-  /// @brief Method set_TextAsset addr 0x2804140 size 0x8 virtual false final false
+  /// @brief Method set_TextAsset addr 0x26894b8 size 0x8 virtual false final false
   inline void set_TextAsset(::UnityEngine::TextAsset* value);
 
-  /// @brief Method get_Format addr 0x2804148 size 0x8 virtual false final false
+  /// @brief Method get_Format addr 0x26894c0 size 0x8 virtual false final false
   inline ::Polyglot::GoogleDriveDownloadFormat get_Format();
 
-  /// @brief Method set_Format addr 0x2804150 size 0x8 virtual false final false
+  /// @brief Method set_Format addr 0x26894c8 size 0x8 virtual false final false
   inline void set_Format(::Polyglot::GoogleDriveDownloadFormat value);
 
   static inline ::Polyglot::LocalizationAsset* New_ctor();
 
-  /// @brief Method .ctor addr 0x2804158 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26894d0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizationAsset", modifiers: "&&", def_value: None }]
@@ -90,6 +90,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Polyglot::LocalizationAsset, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Polyglot::LocalizationAsset, ___textAsset) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Polyglot::LocalizationAsset, ___format) == 0x18, "Offset mismatch!");
 
 } // namespace Polyglot
 NEED_NO_BOX(::Polyglot::LocalizationAsset);

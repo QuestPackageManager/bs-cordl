@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightWithIdManager)
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 class ILightWithId;
-}
-namespace System {
-template <typename T> struct Nullable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace System {
+class Action;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightWithIdManager);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14541))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14759))
 // CS Name: ::LightWithIdManager*
 class CORDL_TYPE LightWithIdManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -85,30 +85,30 @@ public:
 
   constexpr void __set__didChangeSomeColorsThisFrame(bool value);
 
-  /// @brief Method add_didChangeSomeColorsThisFrameEvent addr 0x2110214 size 0x9c virtual false final false
+  /// @brief Method add_didChangeSomeColorsThisFrameEvent addr 0x1fba7f0 size 0x9c virtual false final false
   inline void add_didChangeSomeColorsThisFrameEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangeSomeColorsThisFrameEvent addr 0x21102b0 size 0x9c virtual false final false
+  /// @brief Method remove_didChangeSomeColorsThisFrameEvent addr 0x1fba88c size 0x9c virtual false final false
   inline void remove_didChangeSomeColorsThisFrameEvent(::System::Action* value);
 
-  /// @brief Method LateUpdate addr 0x211034c size 0x290 virtual false final false
+  /// @brief Method LateUpdate addr 0x1fba928 size 0x290 virtual false final false
   inline void LateUpdate();
 
-  /// @brief Method RegisterLight addr 0x21105dc size 0x430 virtual false final false
+  /// @brief Method RegisterLight addr 0x1fbabb8 size 0x430 virtual false final false
   inline void RegisterLight(::GlobalNamespace::ILightWithId* lightWithId);
 
-  /// @brief Method UnregisterLight addr 0x2110a0c size 0x204 virtual false final false
+  /// @brief Method UnregisterLight addr 0x1fbafe8 size 0x204 virtual false final false
   inline void UnregisterLight(::GlobalNamespace::ILightWithId* lightWithId);
 
-  /// @brief Method SetColorForId addr 0x2110c10 size 0x23c virtual false final false
+  /// @brief Method SetColorForId addr 0x1fbb1ec size 0x23c virtual false final false
   inline void SetColorForId(int32_t lightId, ::UnityEngine::Color color);
 
-  /// @brief Method GetColorForId addr 0x2110e4c size 0xe4 virtual false final false
+  /// @brief Method GetColorForId addr 0x1fbb428 size 0xe4 virtual false final false
   inline ::UnityEngine::Color GetColorForId(int32_t lightId, bool initializeIfNull);
 
   static inline ::GlobalNamespace::LightWithIdManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2110f30 size 0xd0 virtual false final false
+  /// @brief Method .ctor addr 0x1fbb50c size 0xd0 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightWithIdManager", modifiers: "&&", def_value: None }]
@@ -147,6 +147,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightWithIdManager, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightWithIdManager, ___didChangeSomeColorsThisFrameEvent) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightWithIdManager, ____lights) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightWithIdManager, ____colors) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightWithIdManager, ____lightsToUnregister) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightWithIdManager, ____didChangeSomeColorsThisFrame) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightWithIdManager);

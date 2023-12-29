@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::HtmlElementAttributesAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15780))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15730))
 // CS Name: ::JetBrains.Annotations::HtmlElementAttributesAttribute*
 class CORDL_TYPE HtmlElementAttributesAttribute : public ::System::Attribute {
 public:
@@ -34,18 +34,18 @@ public:
 
   static inline ::JetBrains::Annotations::HtmlElementAttributesAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2eba65c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d528dc size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::JetBrains::Annotations::HtmlElementAttributesAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x2eba664 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d528e4 size 0x28 virtual false final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name addr 0x2eba68c size 0x8 virtual false final false
+  /// @brief Method get_Name addr 0x2d5290c size 0x8 virtual false final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name addr 0x2eba694 size 0x8 virtual false final false
+  /// @brief Method set_Name addr 0x2d52914 size 0x8 virtual false final false
   inline void set_Name(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "HtmlElementAttributesAttribute", modifiers: "&&", def_value: None }]
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::HtmlElementAttributesAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::HtmlElementAttributesAttribute, ____Name_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::HtmlElementAttributesAttribute);

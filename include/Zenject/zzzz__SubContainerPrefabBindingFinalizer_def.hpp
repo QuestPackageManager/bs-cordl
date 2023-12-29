@@ -6,6 +6,27 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ProviderBindingFinalizer_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SubContainerPrefabBindingFinalizer)
+namespace Zenject {
+class __SubContainerPrefabBindingFinalizer____c__DisplayClass5_0;
+}
+namespace Zenject {
+class __SubContainerPrefabBindingFinalizer____c__DisplayClass6_1;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class __SubContainerPrefabBindingFinalizer____c__DisplayClass6_0;
+}
+namespace Zenject {
+class ISubContainerCreator;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace Zenject {
+class __SubContainerPrefabBindingFinalizer____c__DisplayClass5_1;
+}
 namespace System {
 class Type;
 }
@@ -15,35 +36,14 @@ template <typename T> class List_1;
 namespace Zenject {
 class BindInfo;
 }
-namespace Zenject {
-class __SubContainerPrefabBindingFinalizer____c__DisplayClass5_0;
-}
-namespace Zenject {
-class __SubContainerPrefabBindingFinalizer____c__DisplayClass6_0;
-}
-namespace Zenject {
-class ISubContainerCreator;
-}
-namespace Zenject {
-class __SubContainerPrefabBindingFinalizer____c__DisplayClass5_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace Zenject {
-class __SubContainerPrefabBindingFinalizer____c__DisplayClass6_1;
-}
-namespace Zenject {
-class DiContainer;
-}
 namespace System {
 class Object;
 }
 namespace Zenject {
-class IProvider;
+class InjectTypeInfo;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class IProvider;
 }
 namespace Zenject {
 class SubContainerCreatorCached;
@@ -74,8 +74,8 @@ MARK_REF_PTR_T(::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClas
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10976))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10904))
 // CS Name: ::SubContainerPrefabBindingFinalizer::<>c__DisplayClass5_0*
 class CORDL_TYPE __SubContainerPrefabBindingFinalizer____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -100,16 +100,16 @@ public:
 
   static inline ::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ee7bec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d7fe6c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <FinalizeBindingConcrete>b__0 addr 0x2ee7c0c size 0xb8 virtual false final false
+  /// @brief Method <FinalizeBindingConcrete>b__0 addr 0x2d7fe8c size 0xb8 virtual false final false
   inline ::Zenject::IProvider* _FinalizeBindingConcrete_b__0(::Zenject::DiContainer* _, ::System::Type* concreteType);
 
-  /// @brief Method __zenCreate addr 0x2ee7cc4 size 0x5c virtual false final false
+  /// @brief Method __zenCreate addr 0x2d7ff44 size 0x5c virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2ee7d20 size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d7ffa0 size 0x1c0 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
@@ -137,13 +137,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0, ___container) == 0x18, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: ::<>c__DisplayClass5_1
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10977))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10905))
 // CS Name: ::SubContainerPrefabBindingFinalizer::<>c__DisplayClass5_1*
 class CORDL_TYPE __SubContainerPrefabBindingFinalizer____c__DisplayClass5_1 : public ::System::Object {
 public:
@@ -168,16 +172,16 @@ public:
 
   static inline ::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_1* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ee7bf4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d7fe74 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <FinalizeBindingConcrete>b__1 addr 0x2ee7ee0 size 0x9c virtual false final false
+  /// @brief Method <FinalizeBindingConcrete>b__1 addr 0x2d80160 size 0x9c virtual false final false
   inline ::Zenject::IProvider* _FinalizeBindingConcrete_b__1(::Zenject::DiContainer* _, ::System::Type* concreteType);
 
-  /// @brief Method __zenCreate addr 0x2ee7f7c size 0x5c virtual false final false
+  /// @brief Method __zenCreate addr 0x2d801fc size 0x5c virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2ee7fd8 size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d80258 size 0x1c0 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SubContainerPrefabBindingFinalizer____c__DisplayClass5_1", modifiers: "&&", def_value: None }]
@@ -205,13 +209,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_1, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_1, ___containerCreator) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass5_1, ___CS$__8__locals1) == 0x18, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: ::<>c__DisplayClass6_0
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10978))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10906))
 // CS Name: ::SubContainerPrefabBindingFinalizer::<>c__DisplayClass6_0*
 class CORDL_TYPE __SubContainerPrefabBindingFinalizer____c__DisplayClass6_0 : public ::System::Object {
 public:
@@ -236,16 +244,16 @@ public:
 
   static inline ::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ee7bfc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d7fe7c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <FinalizeBindingSelf>b__0 addr 0x2ee8198 size 0xb8 virtual false final false
+  /// @brief Method <FinalizeBindingSelf>b__0 addr 0x2d80418 size 0xb8 virtual false final false
   inline ::Zenject::IProvider* _FinalizeBindingSelf_b__0(::Zenject::DiContainer* _, ::System::Type* contractType);
 
-  /// @brief Method __zenCreate addr 0x2ee8250 size 0x5c virtual false final false
+  /// @brief Method __zenCreate addr 0x2d804d0 size 0x5c virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2ee82ac size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d8052c size 0x1c0 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0", modifiers: "&&", def_value: None }]
@@ -273,13 +281,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0, ___container) == 0x18, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: ::<>c__DisplayClass6_1
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10979))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10907))
 // CS Name: ::SubContainerPrefabBindingFinalizer::<>c__DisplayClass6_1*
 class CORDL_TYPE __SubContainerPrefabBindingFinalizer____c__DisplayClass6_1 : public ::System::Object {
 public:
@@ -304,16 +316,16 @@ public:
 
   static inline ::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_1* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ee7c04 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d7fe84 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <FinalizeBindingSelf>b__1 addr 0x2ee846c size 0x9c virtual false final false
+  /// @brief Method <FinalizeBindingSelf>b__1 addr 0x2d806ec size 0x9c virtual false final false
   inline ::Zenject::IProvider* _FinalizeBindingSelf_b__1(::Zenject::DiContainer* _, ::System::Type* contractType);
 
-  /// @brief Method __zenCreate addr 0x2ee8508 size 0x5c virtual false final false
+  /// @brief Method __zenCreate addr 0x2d80788 size 0x5c virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2ee8564 size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d807e4 size 0x1c0 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SubContainerPrefabBindingFinalizer____c__DisplayClass6_1", modifiers: "&&", def_value: None }]
@@ -341,13 +353,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_1, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_1, ___containerCreator) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__SubContainerPrefabBindingFinalizer____c__DisplayClass6_1, ___CS$__8__locals1) == 0x18, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: Zenject::SubContainerPrefabBindingFinalizer
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10966))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10980))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10894))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10908))
 // CS Name: ::Zenject::SubContainerPrefabBindingFinalizer*
 class CORDL_TYPE SubContainerPrefabBindingFinalizer : public ::Zenject::ProviderBindingFinalizer {
 public:
@@ -391,17 +407,17 @@ public:
   static inline ::Zenject::SubContainerPrefabBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::System::Object* subIdentifier, bool resolveAll,
                                                                         ::System::Func_2<::Zenject::DiContainer*, ::Zenject::ISubContainerCreator*>* subContainerCreatorFactory);
 
-  /// @brief Method .ctor addr 0x2edbb30 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x2d73db0 size 0x44 virtual false final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::System::Object* subIdentifier, bool resolveAll,
                     ::System::Func_2<::Zenject::DiContainer*, ::Zenject::ISubContainerCreator*>* subContainerCreatorFactory);
 
-  /// @brief Method OnFinalizeBinding addr 0x2ee77b0 size 0x84 virtual true final false
+  /// @brief Method OnFinalizeBinding addr 0x2d7fa30 size 0x84 virtual true final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
-  /// @brief Method FinalizeBindingConcrete addr 0x2ee7a08 size 0x1e4 virtual false final false
+  /// @brief Method FinalizeBindingConcrete addr 0x2d7fc88 size 0x1e4 virtual false final false
   inline void FinalizeBindingConcrete(::Zenject::DiContainer* container, ::System::Collections::Generic::List_1<::System::Type*>* concreteTypes);
 
-  /// @brief Method FinalizeBindingSelf addr 0x2ee7834 size 0x1d4 virtual false final false
+  /// @brief Method FinalizeBindingSelf addr 0x2d7fab4 size 0x1d4 virtual false final false
   inline void FinalizeBindingSelf(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerPrefabBindingFinalizer", modifiers: "&&", def_value: None }]
@@ -431,6 +447,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::SubContainerPrefabBindingFinalizer, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::SubContainerPrefabBindingFinalizer, ____subIdentifier) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::SubContainerPrefabBindingFinalizer, ____resolveAll) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::SubContainerPrefabBindingFinalizer, ____subContainerCreatorFactory) == 0x28, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::SubContainerPrefabBindingFinalizer);

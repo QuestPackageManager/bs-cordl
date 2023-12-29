@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OVRSemanticClassification)
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class IOVRSceneComponent;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRSemanticClassification);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7989))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8823))
 // CS Name: ::OVRSemanticClassification*
 class CORDL_TYPE OVRSemanticClassification : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,24 +44,21 @@ public:
 
   constexpr void __set__labels(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method get_Labels addr 0x278c038 size 0x8 virtual false final false
+  /// @brief Method get_Labels addr 0x2622084 size 0x8 virtual false final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_Labels();
 
-  /// @brief Method Contains addr 0x278c040 size 0x160 virtual false final false
+  /// @brief Method Contains addr 0x262208c size 0x160 virtual false final false
   inline bool Contains(::StringW label);
 
-  /// @brief Method Awake addr 0x278c1a0 size 0xd0 virtual false final false
+  /// @brief Method Awake addr 0x26221ec size 0xd0 virtual false final false
   inline void Awake();
 
-  /// @brief Method IOVRSceneComponent.Initialize addr 0x278c270 size 0x120 virtual true final true
+  /// @brief Method IOVRSceneComponent.Initialize addr 0x26222bc size 0x11c virtual true final true
   inline void IOVRSceneComponent_Initialize();
-
-  /// @brief Method ValidateAndUpgradeLabels addr 0x278c390 size 0x478 virtual false final false
-  static inline ::StringW ValidateAndUpgradeLabels(::StringW labels);
 
   static inline ::GlobalNamespace::OVRSemanticClassification* New_ctor();
 
-  /// @brief Method .ctor addr 0x278c808 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x26223d8 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSemanticClassification", modifiers: "&&", def_value: None }]
@@ -81,13 +78,12 @@ public:
   /// @brief Field _labels, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____labels;
 
-  /// @brief Field LabelSeparator offset 0xffffffff size 0x2
-  static constexpr char16_t LabelSeparator{ u',' };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSemanticClassification, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRSemanticClassification, ____labels) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRSemanticClassification);

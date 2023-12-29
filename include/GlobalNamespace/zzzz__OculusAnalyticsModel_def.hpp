@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OculusAnalyticsModel)
-namespace GlobalNamespace {
-class IAnalyticsModel;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class IAnalyticsModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OculusAnalyticsModel);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16223))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4007))
 // CS Name: ::OculusAnalyticsModel*
 class CORDL_TYPE OculusAnalyticsModel : public ::System::Object {
 public:
@@ -32,30 +32,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAnalyticsModel"
   constexpr operator ::GlobalNamespace::IAnalyticsModel*() noexcept;
 
-  /// @brief Method get_supportsOpenDataPrivacyPage addr 0xdfcb6c size 0x8 virtual true final true
+  /// @brief Method get_supportsOpenDataPrivacyPage addr 0x20c470c size 0x8 virtual true final true
   inline bool get_supportsOpenDataPrivacyPage();
 
-  /// @brief Method OpenDataPrivacyPage addr 0xdfcb74 size 0x4 virtual true final true
+  /// @brief Method OpenDataPrivacyPage addr 0x20c4714 size 0x4 virtual true final true
   inline void OpenDataPrivacyPage();
 
-  /// @brief Method LogEvent addr 0xdfcb78 size 0xf8 virtual true final true
+  /// @brief Method LogEvent addr 0x20c4718 size 0xf8 virtual true final true
   inline void LogEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogEditAvatarEvent addr 0xdfcc70 size 0xf8 virtual true final true
+  /// @brief Method LogEditAvatarEvent addr 0x20c4810 size 0xf8 virtual true final true
   inline void LogEditAvatarEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogClick addr 0xdfcd68 size 0x90 virtual true final true
+  /// @brief Method LogClick addr 0x20c4908 size 0x90 virtual true final true
   inline void LogClick(::StringW clickType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
 
-  /// @brief Method LogImpression addr 0xdfcdf8 size 0x90 virtual true final true
+  /// @brief Method LogImpression addr 0x20c4998 size 0x90 virtual true final true
   inline void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* impressionData);
 
-  /// @brief Method LogExposure addr 0xdfce88 size 0x90 virtual true final true
+  /// @brief Method LogExposure addr 0x20c4a28 size 0x90 virtual true final true
   inline void LogExposure(::StringW exposureType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* exposureData);
 
   static inline ::GlobalNamespace::OculusAnalyticsModel* New_ctor();
 
-  /// @brief Method .ctor addr 0xdfcf18 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20c4ab8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusAnalyticsModel", modifiers: "&&", def_value: None }]

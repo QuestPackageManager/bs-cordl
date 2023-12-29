@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::Schema::RestrictionFlags);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11617))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11545))
 // CS Name: ::System.Xml.Schema::RestrictionFlags
 struct CORDL_TYPE RestrictionFlags {
 public:
@@ -97,6 +97,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::RestrictionFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RestrictionFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::RestrictionFlags, "System.Xml.Schema", "RestrictionFlags");

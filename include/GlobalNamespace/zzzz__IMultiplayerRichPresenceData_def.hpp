@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerRichPresenceData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4668))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4789))
 // CS Name: ::IMultiplayerRichPresenceData*
 class CORDL_TYPE IMultiplayerRichPresenceData {
 public:

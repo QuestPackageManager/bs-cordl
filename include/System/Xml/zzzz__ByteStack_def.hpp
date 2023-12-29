@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Xml::ByteStack);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11410))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11338))
 // CS Name: ::System.Xml::ByteStack*
 class CORDL_TYPE ByteStack : public ::System::Object {
 public:
@@ -60,13 +60,13 @@ public:
 
   static inline ::System::Xml::ByteStack* New_ctor(int32_t growthRate);
 
-  /// @brief Method .ctor addr 0x284e830 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x26d281c size 0x70 virtual false final false
   inline void _ctor(int32_t growthRate);
 
-  /// @brief Method Push addr 0x284e8a0 size 0xd0 virtual false final false
+  /// @brief Method Push addr 0x26d288c size 0xd0 virtual false final false
   inline void Push(uint8_t data);
 
-  /// @brief Method Pop addr 0x284e970 size 0x4c virtual false final false
+  /// @brief Method Pop addr 0x26d295c size 0x4c virtual false final false
   inline uint8_t Pop();
 
   // Ctor Parameters [CppParam { name: "", ty: "ByteStack", modifiers: "&&", def_value: None }]
@@ -99,6 +99,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::ByteStack, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::ByteStack, ___stack) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::ByteStack, ___growthRate) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::ByteStack, ___top) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::ByteStack, ___size) == 0x20, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::ByteStack);

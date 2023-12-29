@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerStatusData)
 namespace GlobalNamespace {
-class __MultiplayerStatusData__UserMessage;
+struct __MultiplayerStatusData__AvailabilityStatus;
 }
 namespace GlobalNamespace {
-struct __MultiplayerStatusData__AvailabilityStatus;
+class __MultiplayerStatusData__UserMessage;
 }
 namespace GlobalNamespace {
 class __MultiplayerStatusData__UserMessage__LocalizedMessage;
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerStatusData__UserMessage__Localize
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4469))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4480))
 // CS Name: ::MultiplayerStatusData::AvailabilityStatus
 struct CORDL_TYPE __MultiplayerStatusData__AvailabilityStatus {
 public:
@@ -87,13 +87,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LocalizedMessage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4470))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4481))
 // CS Name: ::MultiplayerStatusData::UserMessage::LocalizedMessage*
 class CORDL_TYPE __MultiplayerStatusData__UserMessage__LocalizedMessage : public ::System::Object {
 public:
@@ -118,7 +120,7 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage* New_ctor();
 
-  /// @brief Method .ctor addr 0x2352fa4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2204f68 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerStatusData__UserMessage__LocalizedMessage", modifiers: "&&", def_value: None }]
@@ -146,13 +148,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage, ___language) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage, ___message) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::UserMessage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4471))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4482))
 // CS Name: ::MultiplayerStatusData::UserMessage*
 class CORDL_TYPE __MultiplayerStatusData__UserMessage : public ::System::Object {
 public:
@@ -174,7 +180,7 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerStatusData__UserMessage* New_ctor();
 
-  /// @brief Method .ctor addr 0x2352f9c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2204f60 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerStatusData__UserMessage", modifiers: "&&", def_value: None }]
@@ -199,13 +205,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerStatusData__UserMessage, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MultiplayerStatusData__UserMessage, ___localizations) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MultiplayerStatusData
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4469)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4472))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4480)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4483))
 // CS Name: ::MultiplayerStatusData*
 class CORDL_TYPE MultiplayerStatusData : public ::System::Object {
 public:
@@ -214,44 +222,42 @@ public:
 
   using AvailabilityStatus = ::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus;
 
-  /// @brief Field minimum_app_version, offset 0x10, size 0x8
-  __declspec(property(get = __get_minimum_app_version, put = __set_minimum_app_version))::StringW minimum_app_version;
+  /// @brief Field minimumAppVersion, offset 0x10, size 0x8
+  __declspec(property(get = __get_minimumAppVersion, put = __set_minimumAppVersion))::StringW minimumAppVersion;
 
   /// @brief Field status, offset 0x18, size 0x4
   __declspec(property(get = __get_status, put = __set_status))::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus status;
 
-  /// @brief Field maintenance_start_time, offset 0x20, size 0x8
-  __declspec(property(get = __get_maintenance_start_time, put = __set_maintenance_start_time)) int64_t maintenance_start_time;
+  /// @brief Field maintenanceStartTime, offset 0x20, size 0x8
+  __declspec(property(get = __get_maintenanceStartTime, put = __set_maintenanceStartTime)) int64_t maintenanceStartTime;
 
-  /// @brief Field maintenance_end_time, offset 0x28, size 0x8
-  __declspec(property(get = __get_maintenance_end_time, put = __set_maintenance_end_time)) int64_t maintenance_end_time;
+  /// @brief Field maintenanceEndTime, offset 0x28, size 0x8
+  __declspec(property(get = __get_maintenanceEndTime, put = __set_maintenanceEndTime)) int64_t maintenanceEndTime;
 
-  /// @brief Field user_message, offset 0x30, size 0x8
-  __declspec(property(get = __get_user_message, put = __set_user_message))::GlobalNamespace::__MultiplayerStatusData__UserMessage* user_message;
+  /// @brief Field userMessage, offset 0x30, size 0x8
+  __declspec(property(get = __get_userMessage, put = __set_userMessage))::GlobalNamespace::__MultiplayerStatusData__UserMessage* userMessage;
 
-  /// @brief Field use_gamelift, offset 0x38, size 0x1
-  __declspec(property(get = __get_use_gamelift, put = __set_use_gamelift)) bool use_gamelift;
+  /// @brief Field useGamelift, offset 0x38, size 0x1
+  __declspec(property(get = __get_useGamelift, put = __set_useGamelift)) bool useGamelift;
 
-  /// @brief Field use_xplatform_auth, offset 0x39, size 0x1
-  __declspec(property(get = __get_use_xplatform_auth, put = __set_use_xplatform_auth)) bool use_xplatform_auth;
+  /// @brief Field useXPlatformAuth, offset 0x39, size 0x1
+  __declspec(property(get = __get_useXPlatformAuth, put = __set_useXPlatformAuth)) bool useXPlatformAuth;
 
-  __declspec(property(get = get_minimumAppVersion, put = set_minimumAppVersion))::StringW minimumAppVersion;
+  __declspec(property(get = get__minimumAppVersion, put = set__minimumAppVersion))::StringW _minimumAppVersion;
 
-  __declspec(property(get = get_maintenanceStartTime, put = set_maintenanceStartTime)) int64_t maintenanceStartTime;
+  __declspec(property(get = get__maintenanceStartTime, put = set__maintenanceStartTime)) int64_t _maintenanceStartTime;
 
-  __declspec(property(get = get_maintenanceEndTime, put = set_maintenanceEndTime)) int64_t maintenanceEndTime;
+  __declspec(property(get = get__userMessage, put = set__userMessage))::GlobalNamespace::__MultiplayerStatusData__UserMessage* _userMessage;
 
-  __declspec(property(get = get_userMessage, put = set_userMessage))::GlobalNamespace::__MultiplayerStatusData__UserMessage* userMessage;
+  __declspec(property(get = get__useGamelift, put = set__useGamelift)) bool _useGamelift;
 
-  __declspec(property(get = get_useGamelift, put = set_useGamelift)) bool useGamelift;
+  __declspec(property(get = get__useXPlatformAuth, put = set__useXPlatformAuth)) bool _useXPlatformAuth;
 
-  __declspec(property(get = get_useXPlatformAuth, put = set_useXPlatformAuth)) bool useXPlatformAuth;
+  constexpr ::StringW& __get_minimumAppVersion();
 
-  constexpr ::StringW& __get_minimum_app_version();
+  constexpr ::StringW const& __get_minimumAppVersion() const;
 
-  constexpr ::StringW const& __get_minimum_app_version() const;
-
-  constexpr void __set_minimum_app_version(::StringW value);
+  constexpr void __set_minimumAppVersion(::StringW value);
 
   constexpr ::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus& __get_status();
 
@@ -259,75 +265,69 @@ public:
 
   constexpr void __set_status(::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus value);
 
-  constexpr int64_t& __get_maintenance_start_time();
+  constexpr int64_t& __get_maintenanceStartTime();
 
-  constexpr int64_t const& __get_maintenance_start_time() const;
+  constexpr int64_t const& __get_maintenanceStartTime() const;
 
-  constexpr void __set_maintenance_start_time(int64_t value);
+  constexpr void __set_maintenanceStartTime(int64_t value);
 
-  constexpr int64_t& __get_maintenance_end_time();
+  constexpr int64_t& __get_maintenanceEndTime();
 
-  constexpr int64_t const& __get_maintenance_end_time() const;
+  constexpr int64_t const& __get_maintenanceEndTime() const;
 
-  constexpr void __set_maintenance_end_time(int64_t value);
+  constexpr void __set_maintenanceEndTime(int64_t value);
 
-  constexpr ::GlobalNamespace::__MultiplayerStatusData__UserMessage*& __get_user_message();
+  constexpr ::GlobalNamespace::__MultiplayerStatusData__UserMessage*& __get_userMessage();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerStatusData__UserMessage*> const& __get_user_message() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerStatusData__UserMessage*> const& __get_userMessage() const;
 
-  constexpr void __set_user_message(::GlobalNamespace::__MultiplayerStatusData__UserMessage* value);
+  constexpr void __set_userMessage(::GlobalNamespace::__MultiplayerStatusData__UserMessage* value);
 
-  constexpr bool& __get_use_gamelift();
+  constexpr bool& __get_useGamelift();
 
-  constexpr bool const& __get_use_gamelift() const;
+  constexpr bool const& __get_useGamelift() const;
 
-  constexpr void __set_use_gamelift(bool value);
+  constexpr void __set_useGamelift(bool value);
 
-  constexpr bool& __get_use_xplatform_auth();
+  constexpr bool& __get_useXPlatformAuth();
 
-  constexpr bool const& __get_use_xplatform_auth() const;
+  constexpr bool const& __get_useXPlatformAuth() const;
 
-  constexpr void __set_use_xplatform_auth(bool value);
+  constexpr void __set_useXPlatformAuth(bool value);
 
-  /// @brief Method get_minimumAppVersion addr 0x2352f2c size 0x8 virtual false final false
-  inline ::StringW get_minimumAppVersion();
+  /// @brief Method get__minimumAppVersion addr 0x2204f00 size 0x8 virtual false final false
+  inline ::StringW get__minimumAppVersion();
 
-  /// @brief Method set_minimumAppVersion addr 0x2352f34 size 0x8 virtual false final false
-  inline void set_minimumAppVersion(::StringW value);
+  /// @brief Method set__minimumAppVersion addr 0x2204f08 size 0x8 virtual false final false
+  inline void set__minimumAppVersion(::StringW value);
 
-  /// @brief Method get_maintenanceStartTime addr 0x2352f3c size 0x8 virtual false final false
-  inline int64_t get_maintenanceStartTime();
+  /// @brief Method get__maintenanceStartTime addr 0x2204f10 size 0x8 virtual false final false
+  inline int64_t get__maintenanceStartTime();
 
-  /// @brief Method set_maintenanceStartTime addr 0x2352f44 size 0x8 virtual false final false
-  inline void set_maintenanceStartTime(int64_t value);
+  /// @brief Method set__maintenanceStartTime addr 0x2204f18 size 0x8 virtual false final false
+  inline void set__maintenanceStartTime(int64_t value);
 
-  /// @brief Method get_maintenanceEndTime addr 0x2352f4c size 0x8 virtual false final false
-  inline int64_t get_maintenanceEndTime();
+  /// @brief Method get__userMessage addr 0x2204f20 size 0x8 virtual false final false
+  inline ::GlobalNamespace::__MultiplayerStatusData__UserMessage* get__userMessage();
 
-  /// @brief Method set_maintenanceEndTime addr 0x2352f54 size 0x8 virtual false final false
-  inline void set_maintenanceEndTime(int64_t value);
+  /// @brief Method set__userMessage addr 0x2204f28 size 0x8 virtual false final false
+  inline void set__userMessage(::GlobalNamespace::__MultiplayerStatusData__UserMessage* value);
 
-  /// @brief Method get_userMessage addr 0x2352f5c size 0x8 virtual false final false
-  inline ::GlobalNamespace::__MultiplayerStatusData__UserMessage* get_userMessage();
+  /// @brief Method get__useGamelift addr 0x2204f30 size 0x8 virtual false final false
+  inline bool get__useGamelift();
 
-  /// @brief Method set_userMessage addr 0x2352f64 size 0x8 virtual false final false
-  inline void set_userMessage(::GlobalNamespace::__MultiplayerStatusData__UserMessage* value);
+  /// @brief Method set__useGamelift addr 0x2204f38 size 0xc virtual false final false
+  inline void set__useGamelift(bool value);
 
-  /// @brief Method get_useGamelift addr 0x2352f6c size 0x8 virtual false final false
-  inline bool get_useGamelift();
+  /// @brief Method get__useXPlatformAuth addr 0x2204f44 size 0x8 virtual false final false
+  inline bool get__useXPlatformAuth();
 
-  /// @brief Method set_useGamelift addr 0x2352f74 size 0xc virtual false final false
-  inline void set_useGamelift(bool value);
-
-  /// @brief Method get_useXPlatformAuth addr 0x2352f80 size 0x8 virtual false final false
-  inline bool get_useXPlatformAuth();
-
-  /// @brief Method set_useXPlatformAuth addr 0x2352f88 size 0xc virtual false final false
-  inline void set_useXPlatformAuth(bool value);
+  /// @brief Method set__useXPlatformAuth addr 0x2204f4c size 0xc virtual false final false
+  inline void set__useXPlatformAuth(bool value);
 
   static inline ::GlobalNamespace::MultiplayerStatusData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2352f94 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2204f58 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusData", modifiers: "&&", def_value: None }]
@@ -344,31 +344,45 @@ protected:
   constexpr MultiplayerStatusData();
 
 public:
-  /// @brief Field minimum_app_version, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___minimum_app_version;
+  /// @brief Field minimumAppVersion, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___minimumAppVersion;
 
   /// @brief Field status, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus ___status;
 
-  /// @brief Field maintenance_start_time, offset: 0x20, size: 0x8, def value: None
-  int64_t ___maintenance_start_time;
+  /// @brief Field maintenanceStartTime, offset: 0x20, size: 0x8, def value: None
+  int64_t ___maintenanceStartTime;
 
-  /// @brief Field maintenance_end_time, offset: 0x28, size: 0x8, def value: None
-  int64_t ___maintenance_end_time;
+  /// @brief Field maintenanceEndTime, offset: 0x28, size: 0x8, def value: None
+  int64_t ___maintenanceEndTime;
 
-  /// @brief Field user_message, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::__MultiplayerStatusData__UserMessage* ___user_message;
+  /// @brief Field userMessage, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::__MultiplayerStatusData__UserMessage* ___userMessage;
 
-  /// @brief Field use_gamelift, offset: 0x38, size: 0x1, def value: None
-  bool ___use_gamelift;
+  /// @brief Field useGamelift, offset: 0x38, size: 0x1, def value: None
+  bool ___useGamelift;
 
-  /// @brief Field use_xplatform_auth, offset: 0x39, size: 0x1, def value: None
-  bool ___use_xplatform_auth;
+  /// @brief Field useXPlatformAuth, offset: 0x39, size: 0x1, def value: None
+  bool ___useXPlatformAuth;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerStatusData, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerStatusData, ___minimumAppVersion) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerStatusData, ___status) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerStatusData, ___maintenanceStartTime) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerStatusData, ___maintenanceEndTime) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerStatusData, ___userMessage) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerStatusData, ___useGamelift) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerStatusData, ___useXPlatformAuth) == 0x39, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus, "", "MultiplayerStatusData/AvailabilityStatus");

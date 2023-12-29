@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::GameplayServerMode);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12768))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12697))
 // CS Name: ::GameplayServerMode
 struct CORDL_TYPE GameplayServerMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayServerMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayServerMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayServerMode, "", "GameplayServerMode");

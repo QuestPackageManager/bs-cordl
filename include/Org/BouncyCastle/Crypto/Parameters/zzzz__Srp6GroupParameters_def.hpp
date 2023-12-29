@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1086))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::Srp6GroupParameters*
 class CORDL_TYPE Srp6GroupParameters : public ::System::Object {
@@ -47,13 +47,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method .ctor addr 0xf3b83c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xec5650 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method get_G addr 0xf3b868 size 0x8 virtual false final false
+  /// @brief Method get_G addr 0xec567c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_N addr 0xf3b870 size 0x8 virtual false final false
+  /// @brief Method get_N addr 0xec5684 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_N();
 
   // Ctor Parameters [CppParam { name: "", ty: "Srp6GroupParameters", modifiers: "&&", def_value: None }]
@@ -80,6 +80,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters, ___n) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters, ___g) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters);

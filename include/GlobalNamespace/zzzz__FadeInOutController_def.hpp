@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FadeInOutController)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace UnityEngine {
 class AnimationCurve;
-}
-namespace GlobalNamespace {
-class __FadeInOutController___Fade_d__15;
-}
-namespace GlobalNamespace {
-class FloatSO;
 }
 namespace System {
 class Action;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class FloatSO;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
+class __FadeInOutController___Fade_d__15;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__FadeInOutController___Fade_d__15);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14366))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13860))
 // CS Name: ::FadeInOutController::<Fade>d__15*
 class CORDL_TYPE __FadeInOutController___Fade_d__15 : public ::System::Object {
 public:
@@ -156,22 +156,22 @@ public:
 
   static inline ::GlobalNamespace::__FadeInOutController___Fade_d__15* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x20f2ac4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1f96390 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x20f2b08 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x1f963d4 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x20f2b0c size 0x190 virtual true final true
+  /// @brief Method MoveNext addr 0x1f963d8 size 0x190 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x20f2c9c size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1f96568 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x20f2ca4 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1f96570 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x20f2ce4 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1f965b0 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FadeInOutController___Fade_d__15", modifiers: "&&", def_value: None }]
@@ -223,13 +223,33 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FadeInOutController___Fade_d__15, 0x58>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__FadeInOutController___Fade_d__15, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FadeInOutController___Fade_d__15, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FadeInOutController___Fade_d__15, ___startDelay) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FadeInOutController___Fade_d__15, _____4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FadeInOutController___Fade_d__15, ___fromValue) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FadeInOutController___Fade_d__15, ___toValue) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FadeInOutController___Fade_d__15, ___curve) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FadeInOutController___Fade_d__15, ___duration) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FadeInOutController___Fade_d__15, ___fadeFinishedCallback) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FadeInOutController___Fade_d__15, ____elapsedTime_5__2) == 0x50, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::FadeInOutController
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14367))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13861))
 // CS Name: ::FadeInOutController*
 class CORDL_TYPE FadeInOutController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -290,40 +310,40 @@ public:
 
   constexpr void __set__defaultFadeInDuration(float_t value);
 
-  /// @brief Method FadeOutInstant addr 0x20f2858 size 0xc virtual false final false
+  /// @brief Method FadeOutInstant addr 0x1f96124 size 0xc virtual false final false
   inline void FadeOutInstant();
 
-  /// @brief Method FadeIn addr 0x20f2924 size 0xc virtual false final false
+  /// @brief Method FadeIn addr 0x1f961f0 size 0xc virtual false final false
   inline void FadeIn();
 
-  /// @brief Method FadeOut addr 0x20f29ec size 0xc virtual false final false
+  /// @brief Method FadeOut addr 0x1f962b8 size 0xc virtual false final false
   inline void FadeOut();
 
-  /// @brief Method FadeIn addr 0x20f29f8 size 0x8 virtual false final false
+  /// @brief Method FadeIn addr 0x1f962c4 size 0x8 virtual false final false
   inline void FadeIn(float_t duration);
 
-  /// @brief Method FadeOut addr 0x20f2a00 size 0x8 virtual false final false
+  /// @brief Method FadeOut addr 0x1f962cc size 0x8 virtual false final false
   inline void FadeOut(float_t duration);
 
-  /// @brief Method FadeIn addr 0x20f2a08 size 0x8 virtual false final false
+  /// @brief Method FadeIn addr 0x1f962d4 size 0x8 virtual false final false
   inline void FadeIn(::System::Action* fadeInCallback);
 
-  /// @brief Method FadeOut addr 0x20f2a10 size 0x8 virtual false final false
+  /// @brief Method FadeOut addr 0x1f962dc size 0x8 virtual false final false
   inline void FadeOut(::System::Action* fadeOutCallback);
 
-  /// @brief Method FadeIn addr 0x20f2930 size 0xbc virtual false final false
+  /// @brief Method FadeIn addr 0x1f961fc size 0xbc virtual false final false
   inline void FadeIn(float_t duration, ::System::Action* fadeInFinishedCallback);
 
-  /// @brief Method FadeOut addr 0x20f2864 size 0xc0 virtual false final false
+  /// @brief Method FadeOut addr 0x1f96130 size 0xc0 virtual false final false
   inline void FadeOut(float_t duration, ::System::Action* fadeOutFinishedCallback);
 
-  /// @brief Method Fade addr 0x20f2a18 size 0xac virtual false final false
+  /// @brief Method Fade addr 0x1f962e4 size 0xac virtual false final false
   inline ::System::Collections::IEnumerator* Fade(float_t fromValue, float_t toValue, float_t duration, float_t startDelay, ::UnityEngine::AnimationCurve* curve,
                                                   ::System::Action* fadeFinishedCallback);
 
   static inline ::GlobalNamespace::FadeInOutController* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f2aec size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x1f963b8 size 0x1c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FadeInOutController", modifiers: "&&", def_value: None }]
@@ -362,6 +382,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FadeInOutController, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FadeInOutController, ____easeValue) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FadeInOutController, ____fadeInCurve) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FadeInOutController, ____fadeOutCurve) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FadeInOutController, ____fadeInStartDelay) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FadeInOutController, ____defaultFadeOutDuration) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FadeInOutController, ____defaultFadeInDuration) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FadeInOutController);

@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NodePoseSyncStateDeltaNetSerializable)
 namespace GlobalNamespace {
-struct NodePoseSyncState;
-}
-namespace GlobalNamespace {
-class IPoolablePacket;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace GlobalNamespace {
 struct SyncStateId;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace GlobalNamespace {
-template <typename T> class IPacketPool_1;
+class IPoolablePacket;
 }
 namespace GlobalNamespace {
 template <typename T> class ISyncStateDeltaSerializable_1;
 }
+namespace GlobalNamespace {
+template <typename T> class IPacketPool_1;
+}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
+namespace GlobalNamespace {
+struct NodePoseSyncState;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12973)), TypeDefinitionIndex(TypeDefinitionIndex(12988))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12974))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12909)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12894))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12895))
 // CS Name: ::NodePoseSyncStateDeltaNetSerializable*
 class CORDL_TYPE NodePoseSyncStateDeltaNetSerializable : public ::System::Object {
 public:
@@ -89,39 +89,39 @@ public:
 
   constexpr void __set__timeOffsetMs_k__BackingField(int32_t value);
 
-  /// @brief Method get_pool addr 0xe59b90 size 0x40 virtual false final false
+  /// @brief Method get_pool addr 0xdd4b0c size 0x40 virtual false final false
   static inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* get_pool();
 
-  /// @brief Method get_baseId addr 0xe59bd0 size 0x8 virtual true final true
+  /// @brief Method get_baseId addr 0xdd4b4c size 0x8 virtual true final true
   inline ::GlobalNamespace::SyncStateId get_baseId();
 
-  /// @brief Method set_baseId addr 0xe59bd8 size 0x8 virtual true final true
+  /// @brief Method set_baseId addr 0xdd4b54 size 0x8 virtual true final true
   inline void set_baseId(::GlobalNamespace::SyncStateId value);
 
-  /// @brief Method get_timeOffsetMs addr 0xe59be0 size 0x8 virtual true final true
+  /// @brief Method get_timeOffsetMs addr 0xdd4b5c size 0x8 virtual true final true
   inline int32_t get_timeOffsetMs();
 
-  /// @brief Method set_timeOffsetMs addr 0xe59be8 size 0x8 virtual true final true
+  /// @brief Method set_timeOffsetMs addr 0xdd4b64 size 0x8 virtual true final true
   inline void set_timeOffsetMs(int32_t value);
 
-  /// @brief Method get_delta addr 0xe59bf0 size 0x10 virtual true final true
+  /// @brief Method get_delta addr 0xdd4b6c size 0x10 virtual true final true
   inline ::GlobalNamespace::NodePoseSyncState get_delta();
 
-  /// @brief Method set_delta addr 0xe59c00 size 0x18 virtual true final true
+  /// @brief Method set_delta addr 0xdd4b7c size 0x18 virtual true final true
   inline void set_delta(::GlobalNamespace::NodePoseSyncState value);
 
-  /// @brief Method Serialize addr 0xe59c18 size 0x98 virtual true final true
+  /// @brief Method Serialize addr 0xdd4b94 size 0x98 virtual true final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize addr 0xe59ce4 size 0x68 virtual true final true
+  /// @brief Method Deserialize addr 0xdd4c60 size 0x68 virtual true final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Release addr 0xe59d78 size 0xac virtual true final true
+  /// @brief Method Release addr 0xdd4cf4 size 0xac virtual true final true
   inline void Release();
 
   static inline ::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable* New_ctor();
 
-  /// @brief Method .ctor addr 0xe59e24 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdd4da0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NodePoseSyncStateDeltaNetSerializable", modifiers: "&&", def_value: None }]
@@ -151,6 +151,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable, ____delta) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable, ____baseId_k__BackingField) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable, ____timeOffsetMs_k__BackingField) == 0x5c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable);

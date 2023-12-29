@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatmapDataBasicInfo);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4258))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4290))
 // CS Name: ::IBeatmapDataBasicInfo*
 class CORDL_TYPE IBeatmapDataBasicInfo {
 public:

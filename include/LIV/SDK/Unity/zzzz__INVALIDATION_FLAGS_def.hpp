@@ -16,7 +16,7 @@ MARK_VAL_T(::LIV::SDK::Unity::INVALIDATION_FLAGS);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15092))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15196))
 // CS Name: ::LIV.SDK.Unity::INVALIDATION_FLAGS
 struct CORDL_TYPE INVALIDATION_FLAGS {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::INVALIDATION_FLAGS, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::INVALIDATION_FLAGS, value__) == 0x0, "Offset mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::INVALIDATION_FLAGS, "LIV.SDK.Unity", "INVALIDATION_FLAGS");

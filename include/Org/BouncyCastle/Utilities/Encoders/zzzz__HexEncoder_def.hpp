@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Encoders::HexEncoder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Encoders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1799))
 // CS Name: ::Org.BouncyCastle.Utilities.Encoders::HexEncoder*
 class CORDL_TYPE HexEncoder : public ::System::Object {
@@ -50,30 +50,30 @@ public:
 
   constexpr void __set_decodingTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method InitialiseDecodingTable addr 0x115e888 size 0x164 virtual false final false
+  /// @brief Method InitialiseDecodingTable addr 0x10ed640 size 0x164 virtual false final false
   inline void InitialiseDecodingTable();
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::HexEncoder* New_ctor();
 
-  /// @brief Method .ctor addr 0x115e7ec size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0x10ed5a4 size 0x9c virtual false final false
   inline void _ctor();
 
-  /// @brief Method Encode addr 0x115e9ec size 0xd0 virtual false final false
+  /// @brief Method Encode addr 0x10ed7a4 size 0xd0 virtual false final false
   inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBuf, int32_t outOff);
 
-  /// @brief Method Encode addr 0x115da20 size 0x110 virtual true final true
+  /// @brief Method Encode addr 0x10ec7d8 size 0x110 virtual true final true
   inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, ::System::IO::Stream* outStream);
 
-  /// @brief Method Ignore addr 0x115eabc size 0x38 virtual false final false
+  /// @brief Method Ignore addr 0x10ed874 size 0x38 virtual false final false
   static inline bool Ignore(char16_t c);
 
-  /// @brief Method Decode addr 0x115dd14 size 0x2e4 virtual true final true
+  /// @brief Method Decode addr 0x10ecacc size 0x2e4 virtual true final true
   inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length, ::System::IO::Stream* outStream);
 
-  /// @brief Method DecodeString addr 0x115e0c8 size 0x2fc virtual true final true
+  /// @brief Method DecodeString addr 0x10ece80 size 0x2fc virtual true final true
   inline int32_t DecodeString(::StringW data, ::System::IO::Stream* outStream);
 
-  /// @brief Method DecodeStrict addr 0x115e4b0 size 0x248 virtual false final false
+  /// @brief Method DecodeStrict addr 0x10ed268 size 0x248 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeStrict(::StringW str, int32_t off, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "HexEncoder", modifiers: "&&", def_value: None }]
@@ -100,6 +100,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Encoders::HexEncoder, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Encoders::HexEncoder, ___encodingTable) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Encoders::HexEncoder, ___decodingTable) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::Encoders
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Encoders::HexEncoder);

@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::SerObjectIn
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3283))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3282))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::SerObjectInfoInit*
 class CORDL_TYPE SerObjectInfoInit : public ::System::Object {
 public:
@@ -56,7 +56,7 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* New_ctor();
 
-  /// @brief Method .ctor addr 0x24cb1e0 size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0x23726dc size 0xb4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SerObjectInfoInit", modifiers: "&&", def_value: None }]
@@ -86,6 +86,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit, ___seenBeforeTable) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit, ___objectInfoIdCount) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit, ___oiPool) == 0x20, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit);

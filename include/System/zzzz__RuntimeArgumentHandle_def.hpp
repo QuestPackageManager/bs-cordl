@@ -16,8 +16,8 @@ MARK_VAL_T(::System::RuntimeArgumentHandle);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2615))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2613))
 // CS Name: ::System::RuntimeArgumentHandle
 struct CORDL_TYPE RuntimeArgumentHandle {
 public:
@@ -39,6 +39,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::RuntimeArgumentHandle, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::System::RuntimeArgumentHandle, args) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::RuntimeArgumentHandle, "System", "RuntimeArgumentHandle");

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ProfileBlock)
-namespace System {
-class IDisposable;
+namespace System::Text::RegularExpressions {
+class Regex;
 }
 namespace System {
 class Object;
 }
-namespace System::Text::RegularExpressions {
-class Regex;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace Zenject {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::Zenject::ProfileBlock);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11352))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11280))
 // CS Name: ::Zenject::ProfileBlock*
 class CORDL_TYPE ProfileBlock : public ::System::Object {
 public:
@@ -43,33 +43,33 @@ public:
 
   static inline ::Zenject::ProfileBlock* New_ctor(::StringW sampleName, bool rootBlock);
 
-  /// @brief Method .ctor addr 0x2f1e5a8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2db67d8 size 0x8 virtual false final false
   inline void _ctor(::StringW sampleName, bool rootBlock);
 
   static inline ::Zenject::ProfileBlock* New_ctor(::StringW sampleName);
 
-  /// @brief Method .ctor addr 0x2f1e5b0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2db67e0 size 0x8 virtual false final false
   inline void _ctor(::StringW sampleName);
 
-  /// @brief Method get_ProfilePattern addr 0x2f1e5b8 size 0x48 virtual false final false
+  /// @brief Method get_ProfilePattern addr 0x2db67e8 size 0x48 virtual false final false
   static inline ::System::Text::RegularExpressions::Regex* get_ProfilePattern();
 
-  /// @brief Method set_ProfilePattern addr 0x2f1e600 size 0x4c virtual false final false
+  /// @brief Method set_ProfilePattern addr 0x2db6830 size 0x4c virtual false final false
   static inline void set_ProfilePattern(::System::Text::RegularExpressions::Regex* value);
 
-  /// @brief Method Start addr 0x2f1e64c size 0x8 virtual false final false
+  /// @brief Method Start addr 0x2db687c size 0x8 virtual false final false
   static inline ::Zenject::ProfileBlock* Start();
 
-  /// @brief Method Start addr 0x2f1e654 size 0x8 virtual false final false
+  /// @brief Method Start addr 0x2db6884 size 0x8 virtual false final false
   static inline ::Zenject::ProfileBlock* Start(::StringW sampleNameFormat, ::System::Object* obj1, ::System::Object* obj2);
 
-  /// @brief Method Start addr 0x2f1e65c size 0x8 virtual false final false
+  /// @brief Method Start addr 0x2db688c size 0x8 virtual false final false
   static inline ::Zenject::ProfileBlock* Start(::StringW sampleNameFormat, ::System::Object* obj);
 
-  /// @brief Method Start addr 0x2f1e664 size 0x8 virtual false final false
+  /// @brief Method Start addr 0x2db6894 size 0x8 virtual false final false
   static inline ::Zenject::ProfileBlock* Start(::StringW sampleName);
 
-  /// @brief Method Dispose addr 0x2f1e66c size 0x4 virtual true final true
+  /// @brief Method Dispose addr 0x2db689c size 0x4 virtual true final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProfileBlock", modifiers: "&&", def_value: None }]

@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(Mirror)
 namespace UnityEngine {
 class MeshRenderer;
 }
+namespace GlobalNamespace {
+class MirrorRendererSO;
+}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine {
 class Material;
-}
-namespace GlobalNamespace {
-class MirrorRendererSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::Mirror);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15296))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15325))
 // CS Name: ::Mirror*
 class CORDL_TYPE Mirror : public ::UnityEngine::MonoBehaviour {
 public:
@@ -100,36 +100,36 @@ public:
 
   static inline int32_t getStaticF__texturePropertyID();
 
-  /// @brief Method get_mirrorMaterial addr 0x2809140 size 0x8 virtual false final false
+  /// @brief Method get_mirrorMaterial addr 0x268e550 size 0x8 virtual false final false
   inline ::UnityEngine::Material* get_mirrorMaterial();
 
-  /// @brief Method get_noMirrorMaterial addr 0x2809148 size 0x8 virtual false final false
+  /// @brief Method get_noMirrorMaterial addr 0x268e558 size 0x8 virtual false final false
   inline ::UnityEngine::Material* get_noMirrorMaterial();
 
-  /// @brief Method get_isEnabled addr 0x2809150 size 0x8 virtual false final false
+  /// @brief Method get_isEnabled addr 0x268e560 size 0x8 virtual false final false
   inline bool get_isEnabled();
 
-  /// @brief Method set_isEnabled addr 0x2809158 size 0xc virtual false final false
+  /// @brief Method set_isEnabled addr 0x268e568 size 0xc virtual false final false
   inline void set_isEnabled(bool value);
 
-  /// @brief Method add_mirrorDidChangeEnabledStateEvent addr 0x2809164 size 0xb0 virtual false final false
+  /// @brief Method add_mirrorDidChangeEnabledStateEvent addr 0x268e574 size 0xb0 virtual false final false
   inline void add_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_mirrorDidChangeEnabledStateEvent addr 0x2809214 size 0xb0 virtual false final false
+  /// @brief Method remove_mirrorDidChangeEnabledStateEvent addr 0x268e624 size 0xb0 virtual false final false
   inline void remove_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method Update addr 0x28092c4 size 0x18 virtual false final false
+  /// @brief Method Update addr 0x268e6d4 size 0x18 virtual false final false
   inline void Update();
 
-  /// @brief Method OnWillRenderObject addr 0x2809468 size 0x25c virtual false final false
+  /// @brief Method OnWillRenderObject addr 0x268e878 size 0x25c virtual false final false
   inline void OnWillRenderObject();
 
-  /// @brief Method ChangeMirrorEnabledState addr 0x28096c4 size 0x38 virtual false final false
+  /// @brief Method ChangeMirrorEnabledState addr 0x268ead4 size 0x38 virtual false final false
   inline void ChangeMirrorEnabledState(bool newIsEnabled);
 
   static inline ::GlobalNamespace::Mirror* New_ctor();
 
-  /// @brief Method .ctor addr 0x2809f04 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x268f2fc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Mirror", modifiers: "&&", def_value: None }]
@@ -168,6 +168,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Mirror, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::Mirror, ____mirrorRenderer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::Mirror, ____renderer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::Mirror, ____mirrorMaterial) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::Mirror, ____noMirrorMaterial) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::Mirror, ____isEnabled_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::Mirror, ___mirrorDidChangeEnabledStateEvent) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Mirror);

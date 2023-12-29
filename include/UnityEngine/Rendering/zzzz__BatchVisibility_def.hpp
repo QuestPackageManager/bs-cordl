@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::BatchVisibility);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10364))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10286))
 // CS Name: ::UnityEngine.Rendering::BatchVisibility
 struct CORDL_TYPE BatchVisibility {
 public:
@@ -45,6 +45,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BatchVisibility, 0xc>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchVisibility, offset) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchVisibility, instancesCount) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchVisibility, visibleCount) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::BatchVisibility, "UnityEngine.Rendering", "BatchVisibility");

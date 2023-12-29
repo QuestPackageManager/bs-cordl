@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MemberPrimitiveTyped)
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
+class __BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
+class __BinaryParser;
 }
 namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
+struct InternalPrimitiveTypeE;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::MemberPrimi
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3253))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3267))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3252))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3266))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::MemberPrimitiveTyped*
 class CORDL_TYPE MemberPrimitiveTyped : public ::System::Object {
 public:
@@ -53,19 +53,19 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* New_ctor();
 
-  /// @brief Method .ctor addr 0x24c245c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2369968 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Set addr 0x24c2464 size 0xc virtual false final false
+  /// @brief Method Set addr 0x2369970 size 0xc virtual false final false
   inline void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE primitiveTypeEnum, ::System::Object* value);
 
-  /// @brief Method Write addr 0x24c2470 size 0x60 virtual true final true
+  /// @brief Method Write addr 0x236997c size 0x60 virtual true final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method Read addr 0x24c24d0 size 0x48 virtual true final true
+  /// @brief Method Read addr 0x23699dc size 0x48 virtual true final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Dump addr 0x24c2518 size 0x4 virtual false final false
+  /// @brief Method Dump addr 0x2369a24 size 0x4 virtual false final false
   inline void Dump();
 
   // Ctor Parameters [CppParam { name: "", ty: "MemberPrimitiveTyped", modifiers: "&&", def_value: None }]
@@ -92,6 +92,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped, ___primitiveTypeEnum) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped, ___value) == 0x18, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped);

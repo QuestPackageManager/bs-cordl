@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(PopoDecKeyRespContent)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -44,16 +44,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyRespContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe6e074 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xdf8ea0 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe695a0 size 0x18c virtual false final false
+  /// @brief Method GetInstance addr 0xdf43d0 size 0x18c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyRespContent* GetInstance(::System::Object* obj);
 
-  /// @brief Method ToDerIntegerArray addr 0xe6e09c size 0xf8 virtual true final false
+  /// @brief Method ToDerIntegerArray addr 0xdf8ec8 size 0xf8 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*, ::Array<::Org::BouncyCastle::Asn1::DerInteger*>*> ToDerIntegerArray();
 
-  /// @brief Method ToAsn1Object addr 0xe6e194 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xdf8fc0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PopoDecKeyRespContent", modifiers: "&&", def_value: None }]
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyRespContent, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyRespContent, ___content) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyRespContent);

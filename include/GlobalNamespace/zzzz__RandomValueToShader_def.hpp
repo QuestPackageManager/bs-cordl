@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RandomValueToShader);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14495))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14713))
 // CS Name: ::RandomValueToShader*
 class CORDL_TYPE RandomValueToShader : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -37,12 +37,12 @@ public:
 
   static inline int32_t getStaticF__randomValueID();
 
-  /// @brief Method SetRandomValueToShaders addr 0x210b188 size 0x8c virtual false final false
+  /// @brief Method SetRandomValueToShaders addr 0x1fb5ca4 size 0x8c virtual false final false
   inline void SetRandomValueToShaders();
 
   static inline ::GlobalNamespace::RandomValueToShader* New_ctor();
 
-  /// @brief Method .ctor addr 0x210b21c size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x1fb5d38 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RandomValueToShader", modifiers: "&&", def_value: None }]
@@ -66,6 +66,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RandomValueToShader, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RandomValueToShader, ____lastFrameNum) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RandomValueToShader);

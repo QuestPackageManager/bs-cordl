@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::SaberType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15036))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15181))
 // CS Name: ::SaberType
 struct CORDL_TYPE SaberType {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SaberType, "", "SaberType");

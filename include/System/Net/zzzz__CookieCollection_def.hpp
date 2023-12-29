@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CookieCollection)
-namespace System {
-class Array;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Net {
 struct __CookieCollection__Stamp;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Net {
-class Cookie;
-}
-namespace System {
-struct DateTime;
-}
-namespace System::Collections {
-class ArrayList;
 }
 namespace System::Net {
 class __CookieCollection__CookieCollectionEnumerator;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System {
+struct DateTime;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Net {
+class Cookie;
 }
 // Forward declare root types
 namespace System::Net {
@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::System::Net::__CookieCollection__CookieCollectionEnumerator);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9126))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7963))
 // CS Name: ::CookieCollection::Stamp
 struct CORDL_TYPE __CookieCollection__Stamp {
 public:
@@ -106,13 +106,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__CookieCollection__Stamp, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__CookieCollection__Stamp, value__) == 0x0, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: ::CookieCollectionEnumerator
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9127))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7964))
 // CS Name: ::CookieCollection::CookieCollectionEnumerator*
 class CORDL_TYPE __CookieCollection__CookieCollectionEnumerator : public ::System::Object {
 public:
@@ -160,16 +162,16 @@ public:
 
   static inline ::System::Net::__CookieCollection__CookieCollectionEnumerator* New_ctor(::System::Net::CookieCollection* cookies);
 
-  /// @brief Method .ctor addr 0x29aec68 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x28313f0 size 0x5c virtual false final false
   inline void _ctor(::System::Net::CookieCollection* cookies);
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x29aecc4 size 0xac virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x283144c size 0xac virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext addr 0x29aed70 size 0xa4 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext addr 0x28314f8 size 0xa4 virtual true final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x29aee14 size 0xc virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x283159c size 0xc virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CookieCollection__CookieCollectionEnumerator", modifiers: "&&", def_value: None }]
@@ -203,13 +205,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__CookieCollection__CookieCollectionEnumerator, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__CookieCollection__CookieCollectionEnumerator, ___m_cookies) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__CookieCollection__CookieCollectionEnumerator, ___m_count) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__CookieCollection__CookieCollectionEnumerator, ___m_index) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__CookieCollection__CookieCollectionEnumerator, ___m_version) == 0x20, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: System.Net::CookieCollection
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9128))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7965))
 // CS Name: ::System.Net::CookieCollection*
 class CORDL_TYPE CookieCollection : public ::System::Object {
 public:
@@ -281,46 +291,46 @@ public:
 
   static inline ::System::Net::CookieCollection* New_ctor();
 
-  /// @brief Method .ctor addr 0x29adcf4 size 0xa8 virtual false final false
+  /// @brief Method .ctor addr 0x283047c size 0xa8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_Item addr 0x29add9c size 0xec virtual false final false
+  /// @brief Method get_Item addr 0x2830524 size 0xec virtual false final false
   inline ::System::Net::Cookie* get_Item(int32_t index);
 
-  /// @brief Method Add addr 0x29ade88 size 0xc4 virtual false final false
+  /// @brief Method Add addr 0x2830610 size 0xc4 virtual false final false
   inline void Add(::System::Net::Cookie* cookie);
 
-  /// @brief Method Add addr 0x29ae310 size 0x300 virtual false final false
+  /// @brief Method Add addr 0x2830a98 size 0x300 virtual false final false
   inline void Add(::System::Net::CookieCollection* cookies);
 
-  /// @brief Method get_Count addr 0x29ae670 size 0x24 virtual true final true
+  /// @brief Method get_Count addr 0x2830df8 size 0x24 virtual true final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized addr 0x29ae694 size 0x8 virtual true final true
+  /// @brief Method get_IsSynchronized addr 0x2830e1c size 0x8 virtual true final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot addr 0x29ae69c size 0x4 virtual true final true
+  /// @brief Method get_SyncRoot addr 0x2830e24 size 0x4 virtual true final true
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method CopyTo addr 0x29ae6a0 size 0x24 virtual true final true
+  /// @brief Method CopyTo addr 0x2830e28 size 0x24 virtual true final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method TimeStamp addr 0x29ae6c4 size 0xc0 virtual false final false
+  /// @brief Method TimeStamp addr 0x2830e4c size 0xc0 virtual false final false
   inline ::System::DateTime TimeStamp(::System::Net::__CookieCollection__Stamp how);
 
-  /// @brief Method get_IsOtherVersionSeen addr 0x29ae784 size 0x8 virtual false final false
+  /// @brief Method get_IsOtherVersionSeen addr 0x2830f0c size 0x8 virtual false final false
   inline bool get_IsOtherVersionSeen();
 
-  /// @brief Method InternalAdd addr 0x29ae78c size 0x4b8 virtual false final false
+  /// @brief Method InternalAdd addr 0x2830f14 size 0x4b8 virtual false final false
   inline int32_t InternalAdd(::System::Net::Cookie* cookie, bool isStrict);
 
-  /// @brief Method IndexOf addr 0x29adf4c size 0x3c4 virtual false final false
+  /// @brief Method IndexOf addr 0x28306d4 size 0x3c4 virtual false final false
   inline int32_t IndexOf(::System::Net::Cookie* cookie);
 
-  /// @brief Method RemoveAt addr 0x29aec44 size 0x24 virtual false final false
+  /// @brief Method RemoveAt addr 0x28313cc size 0x24 virtual false final false
   inline void RemoveAt(int32_t idx);
 
-  /// @brief Method GetEnumerator addr 0x29ae610 size 0x60 virtual true final true
+  /// @brief Method GetEnumerator addr 0x2830d98 size 0x60 virtual true final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "CookieCollection", modifiers: "&&", def_value: None }]
@@ -356,6 +366,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::CookieCollection, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::CookieCollection, ___m_version) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::CookieCollection, ___m_list) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::CookieCollection, ___m_TimeStamp) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::CookieCollection, ___m_has_other_versions) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::CookieCollection, ___m_IsReadOnly) == 0x29, "Offset mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::__CookieCollection__Stamp, "System.Net", "CookieCollection/Stamp");

@@ -6,43 +6,43 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OculusPlatformAchievementHandler)
 namespace GlobalNamespace {
-class __IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
-}
-namespace GlobalNamespace {
 class __IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
-}
-namespace GlobalNamespace {
-class __OculusPlatformAchievementHandler____c__DisplayClass3_1;
-}
-namespace GlobalNamespace {
-class HMAsyncRequest;
-}
-namespace GlobalNamespace {
-class AchievementIdsModelSO;
 }
 namespace GlobalNamespace {
 class __OculusPlatformAchievementHandler____c__DisplayClass3_0;
 }
 namespace GlobalNamespace {
-class IPlatformAchievementsHandler;
+class AchievementIdsModelSO;
 }
 namespace GlobalNamespace {
 class __OculusPlatformAchievementHandler____c__DisplayClass2_0;
 }
-namespace Oculus::Platform::Models {
-class AchievementUpdate;
+namespace GlobalNamespace {
+class IPlatformAchievementsHandler;
+}
+namespace GlobalNamespace {
+class HMAsyncRequest;
+}
+namespace GlobalNamespace {
+class __OculusPlatformAchievementHandler____c__DisplayClass3_1;
+}
+namespace GlobalNamespace {
+class __IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
 }
 namespace Oculus::Platform {
 template <typename T> class Message_1;
 }
 namespace Oculus::Platform::Models {
-class AchievementProgressList;
+class AchievementUpdate;
 }
 namespace Oculus::Platform::Models {
-class AchievementProgress;
+class AchievementProgressList;
 }
 namespace GlobalNamespace {
 class AchievementSO;
+}
+namespace Oculus::Platform::Models {
+class AchievementProgress;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -66,8 +66,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__OculusPlatformAchievementHandler____c__Displ
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4542))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4630))
 // CS Name: ::OculusPlatformAchievementHandler::<>c__DisplayClass2_0*
 class CORDL_TYPE __OculusPlatformAchievementHandler____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -83,10 +83,10 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x23679a4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x222d294 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <UnlockAchievement>b__0 addr 0x2367aac size 0x40 virtual false final false
+  /// @brief Method <UnlockAchievement>b__0 addr 0x222d39c size 0x40 virtual false final false
   inline void _UnlockAchievement_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementUpdate*>* message);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformAchievementHandler____c__DisplayClass2_0", modifiers: "&&", def_value: None }]
@@ -111,13 +111,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass2_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass2_0, ___completionHandler) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass3_0
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4543))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4631))
 // CS Name: ::OculusPlatformAchievementHandler::<>c__DisplayClass3_0*
 class CORDL_TYPE __OculusPlatformAchievementHandler____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -142,10 +144,10 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2367a9c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x222d38c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <GetUnlockedAchievements>b__0 addr 0x2367aec size 0x528 virtual false final false
+  /// @brief Method <GetUnlockedAchievements>b__0 addr 0x222d3dc size 0x528 virtual false final false
   inline void _GetUnlockedAchievements_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>* message);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformAchievementHandler____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
@@ -173,13 +175,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_0, ___completionHandler) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_0, _____4__this) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass3_1
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4544))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4632))
 // CS Name: ::OculusPlatformAchievementHandler::<>c__DisplayClass3_1*
 class CORDL_TYPE __OculusPlatformAchievementHandler____c__DisplayClass3_1 : public ::System::Object {
 public:
@@ -195,10 +201,10 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_1* New_ctor();
 
-  /// @brief Method .ctor addr 0x2368014 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x222d904 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <GetUnlockedAchievements>b__1 addr 0x236801c size 0x28 virtual false final false
+  /// @brief Method <GetUnlockedAchievements>b__1 addr 0x222d90c size 0x28 virtual false final false
   inline bool _GetUnlockedAchievements_b__1(::GlobalNamespace::AchievementSO* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformAchievementHandler____c__DisplayClass3_1", modifiers: "&&", def_value: None }]
@@ -223,13 +229,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_1, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_1, ___achievement) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OculusPlatformAchievementHandler
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4545))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4633))
 // CS Name: ::OculusPlatformAchievementHandler*
 class CORDL_TYPE OculusPlatformAchievementHandler : public ::System::Object {
 public:
@@ -252,18 +260,18 @@ public:
 
   constexpr void __set__achievementIdsModel(::GlobalNamespace::AchievementIdsModelSO* value);
 
-  /// @brief Method Initialize addr 0x23678ac size 0x4 virtual true final true
+  /// @brief Method Initialize addr 0x222d19c size 0x4 virtual true final true
   inline void Initialize();
 
-  /// @brief Method UnlockAchievement addr 0x23678b0 size 0xf4 virtual true final true
+  /// @brief Method UnlockAchievement addr 0x222d1a0 size 0xf4 virtual true final true
   inline ::GlobalNamespace::HMAsyncRequest* UnlockAchievement(::StringW achievementId, ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler* completionHandler);
 
-  /// @brief Method GetUnlockedAchievements addr 0x23679ac size 0xf0 virtual true final true
+  /// @brief Method GetUnlockedAchievements addr 0x222d29c size 0xf0 virtual true final true
   inline ::GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler* completionHandler);
 
   static inline ::GlobalNamespace::OculusPlatformAchievementHandler* New_ctor();
 
-  /// @brief Method .ctor addr 0x2367aa4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x222d394 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformAchievementHandler", modifiers: "&&", def_value: None }]
@@ -287,6 +295,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusPlatformAchievementHandler, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAchievementHandler, ____achievementIdsModel) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OculusPlatformAchievementHandler);

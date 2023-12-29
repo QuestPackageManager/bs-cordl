@@ -13,11 +13,11 @@ class Object;
 namespace System {
 class Type;
 }
-namespace System {
-struct DateTime;
-}
 namespace System::Xml::Schema {
 class XmlSchemaType;
+}
+namespace System {
+struct DateTime;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Xml::XPath::XPathItem);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::XPath {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11580))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11508))
 // CS Name: ::System.Xml.XPath::XPathItem*
 class CORDL_TYPE XPathItem : public ::System::Object {
 public:
@@ -83,7 +83,7 @@ public:
   /// @brief Method get_ValueAsLong addr 0x0 size 0xffffffffffffffff virtual true final false
   inline int64_t get_ValueAsLong();
 
-  /// @brief Method ValueAs addr 0x28a9e64 size 0x14 virtual true final false
+  /// @brief Method ValueAs addr 0x272ce40 size 0x14 virtual true final false
   inline ::System::Object* ValueAs(::System::Type* returnType);
 
   /// @brief Method ValueAs addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -91,7 +91,7 @@ public:
 
   static inline ::System::Xml::XPath::XPathItem* New_ctor();
 
-  /// @brief Method .ctor addr 0x28a9e78 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x272ce54 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XPathItem", modifiers: "&&", def_value: None }]

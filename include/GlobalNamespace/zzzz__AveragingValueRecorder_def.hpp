@@ -28,7 +28,7 @@ MARK_VAL_T(::GlobalNamespace::__AveragingValueRecorder__AverageValueData);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5838))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5929))
 // CS Name: ::AveragingValueRecorder::AverageValueData
 struct CORDL_TYPE __AveragingValueRecorder__AverageValueData {
 public:
@@ -37,19 +37,19 @@ public:
 
   __declspec(property(get = get_time, put = set_time)) float_t time;
 
-  /// @brief Method get_value addr 0x22eecf8 size 0x8 virtual false final false
+  /// @brief Method get_value addr 0x21a8d70 size 0x8 virtual false final false
   inline float_t get_value();
 
-  /// @brief Method set_value addr 0x22eed00 size 0x8 virtual false final false
+  /// @brief Method set_value addr 0x21a8d78 size 0x8 virtual false final false
   inline void set_value(float_t value);
 
-  /// @brief Method get_time addr 0x22eed08 size 0x8 virtual false final false
+  /// @brief Method get_time addr 0x21a8d80 size 0x8 virtual false final false
   inline float_t get_time();
 
-  /// @brief Method set_time addr 0x22eed10 size 0x8 virtual false final false
+  /// @brief Method set_time addr 0x21a8d88 size 0x8 virtual false final false
   inline void set_time(float_t value);
 
-  /// @brief Method .ctor addr 0x22eecd8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21a8d50 size 0x8 virtual false final false
   inline void _ctor(float_t value, float_t time);
 
   // Ctor Parameters [CppParam { name: "_value_k__BackingField", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_time_k__BackingField", ty: "float_t", modifiers: "", def_value:
@@ -74,13 +74,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AveragingValueRecorder__AverageValueData, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__AveragingValueRecorder__AverageValueData, _value_k__BackingField) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__AveragingValueRecorder__AverageValueData, _time_k__BackingField) == 0x4, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::AveragingValueRecorder
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5839))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5930))
 // CS Name: ::AveragingValueRecorder*
 class CORDL_TYPE AveragingValueRecorder : public ::System::Object {
 public:
@@ -180,19 +184,19 @@ public:
 
   static inline ::GlobalNamespace::AveragingValueRecorder* New_ctor(float_t averageWindowDuration, float_t historyWindowDuration, float_t historyValuesPerSecond);
 
-  /// @brief Method .ctor addr 0x22ee8c4 size 0x154 virtual false final false
+  /// @brief Method .ctor addr 0x21a893c size 0x154 virtual false final false
   inline void _ctor(float_t averageWindowDuration, float_t historyWindowDuration, float_t historyValuesPerSecond);
 
-  /// @brief Method Update addr 0x22eea18 size 0x2c0 virtual false final false
+  /// @brief Method Update addr 0x21a8a90 size 0x2c0 virtual false final false
   inline void Update(float_t value, float_t deltaTime);
 
-  /// @brief Method GetAverageValue addr 0x22eece0 size 0x8 virtual false final false
+  /// @brief Method GetAverageValue addr 0x21a8d58 size 0x8 virtual false final false
   inline float_t GetAverageValue();
 
-  /// @brief Method GetLastValue addr 0x22eece8 size 0x8 virtual false final false
+  /// @brief Method GetLastValue addr 0x21a8d60 size 0x8 virtual false final false
   inline float_t GetLastValue();
 
-  /// @brief Method GetHistoryValues addr 0x22eecf0 size 0x8 virtual false final false
+  /// @brief Method GetHistoryValues addr 0x21a8d68 size 0x8 virtual false final false
   inline ::System::Collections::Generic::Queue_1<float_t>* GetHistoryValues();
 
   // Ctor Parameters [CppParam { name: "", ty: "AveragingValueRecorder", modifiers: "&&", def_value: None }]
@@ -243,6 +247,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AveragingValueRecorder, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AveragingValueRecorder, ____averageWindowDuration) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AveragingValueRecorder, ____historyValuesPerSecond) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AveragingValueRecorder, ____historyValuesCount) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AveragingValueRecorder, ____averageWindowValues) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AveragingValueRecorder, ____historyValues) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AveragingValueRecorder, ____time) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AveragingValueRecorder, ____historyTime) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AveragingValueRecorder, ____averageValue) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AveragingValueRecorder, ____averageWindowValuesDuration) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AveragingValueRecorder, ____lastValue) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AveragingValueRecorder);

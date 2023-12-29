@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X9ECPoint)
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+class ECCurve;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {
@@ -67,34 +67,34 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
-  /// @brief Method .ctor addr 0x11b16b0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1140468 size 0x8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* p, bool compressed);
 
-  /// @brief Method .ctor addr 0x11b1e98 size 0xb8 virtual false final false
+  /// @brief Method .ctor addr 0x1140c50 size 0xb8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECPoint* p, bool compressed);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* c, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method .ctor addr 0x11ab034 size 0xb8 virtual false final false
+  /// @brief Method .ctor addr 0x1139dec size 0xb8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* c, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* c, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
-  /// @brief Method .ctor addr 0x11b15b8 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x1140370 size 0x40 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* c, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
-  /// @brief Method GetPointEncoding addr 0x11b1f54 size 0x78 virtual false final false
+  /// @brief Method GetPointEncoding addr 0x1140d0c size 0x78 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPointEncoding();
 
-  /// @brief Method get_Point addr 0x11ab0ec size 0x70 virtual false final false
+  /// @brief Method get_Point addr 0x1139ea4 size 0x70 virtual false final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Point();
 
-  /// @brief Method get_IsPointCompressed addr 0x11b1fcc size 0x4c virtual false final false
+  /// @brief Method get_IsPointCompressed addr 0x1140d84 size 0x4c virtual false final false
   inline bool get_IsPointCompressed();
 
-  /// @brief Method ToAsn1Object addr 0x11b2018 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1140dd0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "X9ECPoint", modifiers: "&&", def_value: None }]
@@ -124,6 +124,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X9::X9ECPoint, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X9::X9ECPoint, ___encoding) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X9::X9ECPoint, ___c) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X9::X9ECPoint, ___p) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X9
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X9::X9ECPoint);

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
 CORDL_MODULE_EXPORT(ColorTransitionSO)
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class ColorSO;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorTransitionSO);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5443))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5448))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5549))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5554))
 // CS Name: ::ColorTransitionSO*
 class CORDL_TYPE ColorTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
 public:
@@ -92,27 +92,27 @@ public:
 
   constexpr void __set__selectedAndHighlightedColor(::GlobalNamespace::ColorSO* value);
 
-  /// @brief Method get_normalColor addr 0x227d2f0 size 0xc virtual false final false
+  /// @brief Method get_normalColor addr 0x213ac00 size 0xc virtual false final false
   inline ::UnityEngine::Color get_normalColor();
 
-  /// @brief Method get_highlightedColor addr 0x227d560 size 0xc virtual false final false
+  /// @brief Method get_highlightedColor addr 0x213ae70 size 0xc virtual false final false
   inline ::UnityEngine::Color get_highlightedColor();
 
-  /// @brief Method get_pressedColor addr 0x227d598 size 0xc virtual false final false
+  /// @brief Method get_pressedColor addr 0x213aea8 size 0xc virtual false final false
   inline ::UnityEngine::Color get_pressedColor();
 
-  /// @brief Method get_disabledColor addr 0x227d5d0 size 0xc virtual false final false
+  /// @brief Method get_disabledColor addr 0x213aee0 size 0xc virtual false final false
   inline ::UnityEngine::Color get_disabledColor();
 
-  /// @brief Method get_selectedColor addr 0x227d608 size 0xc virtual false final false
+  /// @brief Method get_selectedColor addr 0x213af18 size 0xc virtual false final false
   inline ::UnityEngine::Color get_selectedColor();
 
-  /// @brief Method get_selectedAndHighlightedColor addr 0x227d640 size 0xc virtual false final false
+  /// @brief Method get_selectedAndHighlightedColor addr 0x213af50 size 0xc virtual false final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor();
 
   static inline ::GlobalNamespace::ColorTransitionSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x227de4c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x213b75c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorTransitionSO", modifiers: "&&", def_value: None }]
@@ -151,6 +151,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorTransitionSO, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorTransitionSO, ____normalColor) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorTransitionSO, ____highlightedColor) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorTransitionSO, ____pressedColor) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorTransitionSO, ____disabledColor) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorTransitionSO, ____selectedColor) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorTransitionSO, ____selectedAndHighlightedColor) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorTransitionSO);

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::CubemapFace);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10116))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10044))
 // CS Name: ::UnityEngine::CubemapFace
 struct CORDL_TYPE CubemapFace {
 public:
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::CubemapFace, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::CubemapFace, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CubemapFace, "UnityEngine", "CubemapFace");

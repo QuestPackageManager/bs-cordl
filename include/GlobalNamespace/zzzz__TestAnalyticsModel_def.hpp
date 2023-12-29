@@ -14,11 +14,11 @@ class IAnalyticsModel;
 namespace GlobalNamespace {
 class __TestAnalyticsModel____c;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__TestAnalyticsModel____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16224))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4009))
 // CS Name: ::TestAnalyticsModel::<>c*
 class CORDL_TYPE __TestAnalyticsModel____c : public ::System::Object {
 public:
@@ -56,10 +56,10 @@ public:
 
   static inline ::GlobalNamespace::__TestAnalyticsModel____c* New_ctor();
 
-  /// @brief Method .ctor addr 0xdfd4a4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20c57a8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <LogEvent>b__3_0 addr 0xdfd4ac size 0x8c virtual false final false
+  /// @brief Method <LogEvent>b__3_0 addr 0x20c57b0 size 0x8c virtual false final false
   inline ::StringW _LogEvent_b__3_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> kvp);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TestAnalyticsModel____c", modifiers: "&&", def_value: None }]
@@ -86,8 +86,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TestAnalytics
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16225))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4010))
 // CS Name: ::TestAnalyticsModel*
 class CORDL_TYPE TestAnalyticsModel : public ::System::Object {
 public:
@@ -99,30 +99,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAnalyticsModel"
   constexpr operator ::GlobalNamespace::IAnalyticsModel*() noexcept;
 
-  /// @brief Method get_supportsOpenDataPrivacyPage addr 0xdfcf20 size 0x8 virtual true final true
+  /// @brief Method get_supportsOpenDataPrivacyPage addr 0x20c5224 size 0x8 virtual true final true
   inline bool get_supportsOpenDataPrivacyPage();
 
-  /// @brief Method OpenDataPrivacyPage addr 0xdfcf28 size 0x4 virtual true final true
+  /// @brief Method OpenDataPrivacyPage addr 0x20c522c size 0x4 virtual true final true
   inline void OpenDataPrivacyPage();
 
-  /// @brief Method LogEvent addr 0xdfcf2c size 0x18c virtual true final true
+  /// @brief Method LogEvent addr 0x20c5230 size 0x18c virtual true final true
   inline void LogEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogEditAvatarEvent addr 0xdfd0b8 size 0xe0 virtual true final true
+  /// @brief Method LogEditAvatarEvent addr 0x20c53bc size 0xe0 virtual true final true
   inline void LogEditAvatarEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* avatarEventData);
 
-  /// @brief Method LogClick addr 0xdfd198 size 0xe0 virtual true final true
+  /// @brief Method LogClick addr 0x20c549c size 0xe0 virtual true final true
   inline void LogClick(::StringW clickType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
 
-  /// @brief Method LogImpression addr 0xdfd278 size 0xe0 virtual true final true
+  /// @brief Method LogImpression addr 0x20c557c size 0xe0 virtual true final true
   inline void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* impressionData);
 
-  /// @brief Method LogExposure addr 0xdfd358 size 0xe0 virtual true final true
+  /// @brief Method LogExposure addr 0x20c565c size 0xe0 virtual true final true
   inline void LogExposure(::StringW exposureType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* exposureData);
 
   static inline ::GlobalNamespace::TestAnalyticsModel* New_ctor();
 
-  /// @brief Method .ctor addr 0xdfd438 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20c573c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TestAnalyticsModel", modifiers: "&&", def_value: None }]

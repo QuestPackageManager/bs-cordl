@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Bone)
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::XR {
@@ -22,7 +22,7 @@ MARK_VAL_T(::UnityEngine::XR::Bone);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15624))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15581))
 // CS Name: ::UnityEngine.XR::Bone
 struct CORDL_TYPE Bone {
 public:
@@ -34,19 +34,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::Bone>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::Bone>*();
 
-  /// @brief Method get_deviceId addr 0x2eb27c0 size 0x8 virtual false final false
+  /// @brief Method get_deviceId addr 0x2d499d4 size 0x8 virtual false final false
   inline uint64_t get_deviceId();
 
-  /// @brief Method get_featureIndex addr 0x2eb27c8 size 0x8 virtual false final false
+  /// @brief Method get_featureIndex addr 0x2d499dc size 0x8 virtual false final false
   inline uint32_t get_featureIndex();
 
-  /// @brief Method Equals addr 0x2eb27d0 size 0x88 virtual true final false
+  /// @brief Method Equals addr 0x2d499e4 size 0x88 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x2eb2858 size 0x24 virtual true final true
+  /// @brief Method Equals addr 0x2d49a6c size 0x24 virtual true final true
   inline bool Equals(::UnityEngine::XR::Bone other);
 
-  /// @brief Method GetHashCode addr 0x2eb287c size 0x4c virtual true final false
+  /// @brief Method GetHashCode addr 0x2d49a90 size 0x4c virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_FeatureIndex", ty: "uint32_t", modifiers: "", def_value: None }]
@@ -69,6 +69,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::Bone, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Bone, m_DeviceId) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Bone, m_FeatureIndex) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::Bone, "UnityEngine.XR", "Bone");

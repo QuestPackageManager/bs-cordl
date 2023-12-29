@@ -5,7 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapObjectExecutionRatingsRecorder)
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class BeatmapObjectExecutionRating;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class IScoreController;
@@ -13,23 +19,17 @@ class IScoreController;
 namespace GlobalNamespace {
 class ObstacleController;
 }
-namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
-}
-namespace GlobalNamespace {
-class BeatmapObjectExecutionRating;
-}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace GlobalNamespace {
 class ScoringElement;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
+class PlayerHeadAndObstacleInteraction;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4714))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4835))
 // CS Name: ::BeatmapObjectExecutionRatingsRecorder*
 class CORDL_TYPE BeatmapObjectExecutionRatingsRecorder : public ::UnityEngine::MonoBehaviour {
 public:
@@ -105,27 +105,27 @@ public:
 
   constexpr void __set__hitObstacles(::System::Collections::Generic::HashSet_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method get_beatmapObjectExecutionRatings addr 0x237c3c4 size 0x8 virtual false final false
+  /// @brief Method get_beatmapObjectExecutionRatings addr 0x2247968 size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>* get_beatmapObjectExecutionRatings();
 
-  /// @brief Method Start addr 0x237c3cc size 0x1a0 virtual false final false
+  /// @brief Method Start addr 0x2247970 size 0x1a0 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x237c61c size 0x1ec virtual false final false
+  /// @brief Method OnDestroy addr 0x2247bc0 size 0x1ec virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleScoringForNoteDidFinish addr 0x237c8b8 size 0x474 virtual false final false
+  /// @brief Method HandleScoringForNoteDidFinish addr 0x2247e5c size 0x474 virtual false final false
   inline void HandleScoringForNoteDidFinish(::GlobalNamespace::ScoringElement* scoringElement);
 
-  /// @brief Method HandlePlayerHeadDidEnterObstacle addr 0x237cd2c size 0x120 virtual false final false
+  /// @brief Method HandlePlayerHeadDidEnterObstacle addr 0x22482d0 size 0x120 virtual false final false
   inline void HandlePlayerHeadDidEnterObstacle(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method HandleObstacleDidPassAvoidedMark addr 0x237ce4c size 0x15c virtual false final false
+  /// @brief Method HandleObstacleDidPassAvoidedMark addr 0x22483f0 size 0x15c virtual false final false
   inline void HandleObstacleDidPassAvoidedMark(::GlobalNamespace::ObstacleController* obstacleController);
 
   static inline ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* New_ctor();
 
-  /// @brief Method .ctor addr 0x237cfa8 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x224854c size 0xc4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectExecutionRatingsRecorder", modifiers: "&&", def_value: None }]
@@ -164,6 +164,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder, ____scoreController) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder, ____beatmapObjectManager) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder, ____playerHeadAndObstacleInteraction) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder, ____audioTimeSyncController) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder, ____beatmapObjectExecutionRatings) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder, ____hitObstacles) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder);

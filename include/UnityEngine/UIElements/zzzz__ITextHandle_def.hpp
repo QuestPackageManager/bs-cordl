@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(ITextHandle)
 namespace UnityEngine::UIElements {
 struct __MeshGenerationContextUtils__TextParams;
 }
+namespace UnityEngine::UIElements {
+struct CursorPositionStylePainterParameters;
+}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::TextCore::Text {
 class TextInfo;
-}
-namespace UnityEngine::UIElements {
-struct CursorPositionStylePainterParameters;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ITextHandle);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7144))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7230))
 // CS Name: ::UnityEngine.UIElements::ITextHandle*
 class CORDL_TYPE ITextHandle {
 public:

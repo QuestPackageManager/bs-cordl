@@ -17,16 +17,16 @@ MARK_REF_PTR_T(::GlobalNamespace::BaseResultsEnvironmentController);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4687))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4808))
 // CS Name: ::BaseResultsEnvironmentController*
 class CORDL_TYPE BaseResultsEnvironmentController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Activate addr 0x23762f0 size 0x24 virtual true final false
+  /// @brief Method Activate addr 0x2241be8 size 0x24 virtual true final false
   inline void Activate(bool immediately);
 
-  /// @brief Method Deactivate addr 0x2376314 size 0x24 virtual true final false
+  /// @brief Method Deactivate addr 0x2241c0c size 0x24 virtual true final false
   inline void Deactivate(bool immediately);
 
   /// @brief Method Setup addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::BaseResultsEnvironmentController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2376338 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2241c30 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseResultsEnvironmentController", modifiers: "&&", def_value: None }]

@@ -28,34 +28,34 @@ public:
   // Declarations
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
-  /// @brief Method CheckBitLength addr 0xea4568 size 0xc4 virtual false final false
+  /// @brief Method CheckBitLength addr 0xe30394 size 0xc4 virtual false final false
   static inline int32_t CheckBitLength(int32_t bitLength);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha3Digest* New_ctor();
 
-  /// @brief Method .ctor addr 0xea462c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xe30458 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha3Digest* New_ctor(int32_t bitLength);
 
-  /// @brief Method .ctor addr 0xea4634 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0xe30460 size 0x78 virtual false final false
   inline void _ctor(int32_t bitLength);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha3Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Sha3Digest* source);
 
-  /// @brief Method .ctor addr 0xea46ac size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0xe304d8 size 0x68 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Sha3Digest* source);
 
-  /// @brief Method get_AlgorithmName addr 0xea4714 size 0x84 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xe30540 size 0x84 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method DoFinal addr 0xea4798 size 0x40 virtual true final false
+  /// @brief Method DoFinal addr 0xe305c4 size 0x40 virtual true final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method DoFinal addr 0xea47d8 size 0xe4 virtual true final false
+  /// @brief Method DoFinal addr 0xe30604 size 0xe4 virtual true final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, uint8_t partialByte, int32_t partialBits);
 
-  /// @brief Method Copy addr 0xea48bc size 0x60 virtual true final false
+  /// @brief Method Copy addr 0xe306e8 size 0x60 virtual true final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
   // Ctor Parameters [CppParam { name: "", ty: "Sha3Digest", modifiers: "&&", def_value: None }]

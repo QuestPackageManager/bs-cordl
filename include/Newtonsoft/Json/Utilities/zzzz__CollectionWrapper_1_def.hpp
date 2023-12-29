@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CollectionWrapper_1)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class Array;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace Newtonsoft::Json::Utilities {
+class IWrappedCollection;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IList;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Newtonsoft::Json::Utilities {
-class IWrappedCollection;
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -48,8 +48,8 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11878))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11806))
 // CS Name: ::Newtonsoft.Json.Utilities::CollectionWrapper`1<T>*
 class CORDL_TYPE CollectionWrapper_1 : public ::System::Object {
 public:

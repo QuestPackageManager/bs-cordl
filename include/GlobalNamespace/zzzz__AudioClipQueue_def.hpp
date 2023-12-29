@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(AudioClipQueue)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine {
 class AudioSource;
 }
 namespace UnityEngine {
 class AudioClip;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioClipQueue);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4044))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4032))
 // CS Name: ::AudioClipQueue*
 class CORDL_TYPE AudioClipQueue : public ::UnityEngine::MonoBehaviour {
 public:
@@ -57,18 +57,18 @@ public:
 
   constexpr void __set__delay(float_t value);
 
-  /// @brief Method Awake addr 0x222abb8 size 0x20 virtual false final false
+  /// @brief Method Awake addr 0x20ca0cc size 0x20 virtual false final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x222abd8 size 0x140 virtual false final false
+  /// @brief Method Update addr 0x20ca0ec size 0x140 virtual false final false
   inline void Update();
 
-  /// @brief Method PlayAudioClipWithDelay addr 0x222ad18 size 0xcc virtual false final false
+  /// @brief Method PlayAudioClipWithDelay addr 0x20ca22c size 0xcc virtual false final false
   inline void PlayAudioClipWithDelay(::UnityEngine::AudioClip* audioClip, float_t delay);
 
   static inline ::GlobalNamespace::AudioClipQueue* New_ctor();
 
-  /// @brief Method .ctor addr 0x222ade4 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x20ca2f8 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue", modifiers: "&&", def_value: None }]
@@ -98,6 +98,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioClipQueue, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioClipQueue, ____audioSource) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioClipQueue, ____queue) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioClipQueue, ____delay) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AudioClipQueue);

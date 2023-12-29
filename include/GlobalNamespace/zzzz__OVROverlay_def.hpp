@@ -18,14 +18,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVROverlay)
-namespace GlobalNamespace {
-struct __OVROverlay__OverlayType;
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__Sizei;
-}
-namespace GlobalNamespace {
-struct __OVROverlay__OverlayShape;
+struct __OVRPlugin__EyeTextureFormat;
 }
 namespace GlobalNamespace {
 struct __OVROverlay__LayerTexture;
@@ -34,52 +34,52 @@ namespace GlobalNamespace {
 struct OVRPose;
 }
 namespace UnityEngine {
-class Renderer;
+struct Vector4;
 }
 namespace UnityEngine {
 class Texture;
 }
+namespace GlobalNamespace {
+struct __OVRPlugin__Sizei;
+}
+namespace GlobalNamespace {
+struct __OVROverlay__OverlayType;
+}
 namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-struct Rect;
+class Renderer;
 }
 namespace GlobalNamespace {
-class __OVROverlay__ExternalSurfaceObjectCreated;
-}
-namespace UnityEngine::XR {
-struct XRNode;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__LayerLayout;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__EyeTextureFormat;
+struct __OVRPlugin__OverlayShape;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__LayerDesc;
 }
-namespace UnityEngine {
-class RenderTexture;
+namespace GlobalNamespace {
+struct __OVRPlugin__LayerLayout;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct Vector4;
+class RenderTexture;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__OverlayShape;
+class __OVROverlay__ExternalSurfaceObjectCreated;
+}
+namespace GlobalNamespace {
+struct __OVROverlay__OverlayShape;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class IAsyncResult;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -108,7 +108,7 @@ MARK_VAL_T(::GlobalNamespace::__OVROverlay__LayerTexture);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7654))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8543))
 // CS Name: ::OVROverlay::OverlayShape
 struct CORDL_TYPE __OVROverlay__OverlayShape {
 public:
@@ -182,13 +182,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVROverlay__OverlayShape, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVROverlay__OverlayShape, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OverlayType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7655))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8544))
 // CS Name: ::OVROverlay::OverlayType
 struct CORDL_TYPE __OVROverlay__OverlayType {
 public:
@@ -234,29 +236,31 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVROverlay__OverlayType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVROverlay__OverlayType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ExternalSurfaceObjectCreated
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7656))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8545))
 // CS Name: ::OVROverlay::ExternalSurfaceObjectCreated*
 class CORDL_TYPE __OVROverlay__ExternalSurfaceObjectCreated : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x274a5a8 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x25eadd4 size 0xbc virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x274a664 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x25eae90 size 0x14 virtual true final false
   inline void Invoke();
 
-  /// @brief Method BeginInvoke addr 0x274a678 size 0x20 virtual true final false
+  /// @brief Method BeginInvoke addr 0x25eaea4 size 0x20 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x274a698 size 0xc virtual true final false
+  /// @brief Method EndInvoke addr 0x25eaec4 size 0xc virtual true final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVROverlay__ExternalSurfaceObjectCreated", modifiers: "&&", def_value: None }]
@@ -283,8 +287,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVROverlay__E
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7657))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8546))
 // CS Name: ::OVROverlay::LayerTexture
 struct CORDL_TYPE __OVROverlay__LayerTexture {
 public:
@@ -319,15 +323,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVROverlay__LayerTexture, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVROverlay__LayerTexture, appTexture) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVROverlay__LayerTexture, appTexturePtr) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVROverlay__LayerTexture, swapChain) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVROverlay__LayerTexture, swapChainPtr) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OVROverlay
 // SizeInfo { instance_size: 456, native_size: -1, calculated_instance_size: 456, calculated_native_size: 453, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7654)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7702)), TypeDefinitionIndex(TypeDefinitionIndex(7635)), TypeDefinitionIndex(TypeDefinitionIndex(7727)), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(7655)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(7761)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7658)) CS Name: ::OVROverlay*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8527)), TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(8581)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10173)), TypeDefinitionIndex(TypeDefinitionIndex(8604)), TypeDefinitionIndex(TypeDefinitionIndex(3332)), TypeDefinitionIndex(TypeDefinitionIndex(10093)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8637)), TypeDefinitionIndex(TypeDefinitionIndex(8543)), TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(10152)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8544))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8547)) CS Name: ::OVROverlay*
 class CORDL_TYPE OVROverlay : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -432,10 +444,7 @@ public:
   /// @brief Field useEfficientSharpen, offset 0xfc, size 0x1
   __declspec(property(get = __get_useEfficientSharpen, put = __set_useEfficientSharpen)) bool useEfficientSharpen;
 
-  /// @brief Field useAutomaticFiltering, offset 0xfd, size 0x1
-  __declspec(property(get = __get_useAutomaticFiltering, put = __set_useAutomaticFiltering)) bool useAutomaticFiltering;
-
-  /// @brief Field _previewInEditor, offset 0xfe, size 0x1
+  /// @brief Field _previewInEditor, offset 0xfd, size 0x1
   __declspec(property(get = __get__previewInEditor, put = __set__previewInEditor)) bool _previewInEditor;
 
   /// @brief Field texturePtrs, offset 0x100, size 0x8
@@ -699,12 +708,6 @@ public:
 
   constexpr void __set_useEfficientSharpen(bool value);
 
-  constexpr bool& __get_useAutomaticFiltering();
-
-  constexpr bool const& __get_useAutomaticFiltering() const;
-
-  constexpr void __set_useAutomaticFiltering(bool value);
-
   constexpr bool& __get__previewInEditor();
 
   constexpr bool const& __get__previewInEditor() const;
@@ -837,109 +840,109 @@ public:
 
   static inline ::UnityEngine::Material* getStaticF_cubeMaterial();
 
-  /// @brief Method get_previewInEditor addr 0x27460cc size 0x8 virtual false final false
+  /// @brief Method get_previewInEditor addr 0x25e5b44 size 0x8 virtual false final false
   inline bool get_previewInEditor();
 
-  /// @brief Method set_previewInEditor addr 0x27460d4 size 0x18 virtual false final false
+  /// @brief Method set_previewInEditor addr 0x25e5b4c size 0x18 virtual false final false
   inline void set_previewInEditor(bool value);
 
-  /// @brief Method OverrideOverlayTextureInfo addr 0x27460f0 size 0xbc virtual false final false
+  /// @brief Method OverrideOverlayTextureInfo addr 0x25e5b68 size 0xbc virtual false final false
   inline void OverrideOverlayTextureInfo(::UnityEngine::Texture* srcTexture, void* nativePtr, ::UnityEngine::XR::XRNode node);
 
-  /// @brief Method get_layerId addr 0x27461ac size 0x8 virtual false final false
+  /// @brief Method get_layerId addr 0x25e5c24 size 0x8 virtual false final false
   inline int32_t get_layerId();
 
-  /// @brief Method set_layerId addr 0x27461b4 size 0x8 virtual false final false
+  /// @brief Method set_layerId addr 0x25e5c2c size 0x8 virtual false final false
   inline void set_layerId(int32_t value);
 
-  /// @brief Method get_layout addr 0x27461bc size 0xcc virtual false final false
+  /// @brief Method get_layout addr 0x25e5c34 size 0xcc virtual false final false
   inline ::GlobalNamespace::__OVRPlugin__LayerLayout get_layout();
 
-  /// @brief Method get_texturesPerStage addr 0x2746288 size 0x1c virtual false final false
+  /// @brief Method get_texturesPerStage addr 0x25e5d00 size 0x1c virtual false final false
   inline int32_t get_texturesPerStage();
 
-  /// @brief Method NeedsTexturesForShape addr 0x27462a4 size 0x60 virtual false final false
+  /// @brief Method NeedsTexturesForShape addr 0x25e5d1c size 0x60 virtual false final false
   static inline bool NeedsTexturesForShape(::GlobalNamespace::__OVROverlay__OverlayShape shape);
 
-  /// @brief Method CreateLayer addr 0x274635c size 0x410 virtual false final false
+  /// @brief Method CreateLayer addr 0x25e5df4 size 0x3f8 virtual false final false
   inline bool CreateLayer(int32_t mipLevels, int32_t sampleCount, ::GlobalNamespace::__OVRPlugin__EyeTextureFormat etFormat, int32_t flags, ::GlobalNamespace::__OVRPlugin__Sizei size,
                           ::GlobalNamespace::__OVRPlugin__OverlayShape shape);
 
-  /// @brief Method CreateLayerTextures addr 0x274676c size 0x548 virtual false final false
+  /// @brief Method CreateLayerTextures addr 0x25e6688 size 0x540 virtual false final false
   inline bool CreateLayerTextures(bool useMipmaps, ::GlobalNamespace::__OVRPlugin__Sizei size, bool isHdr);
 
-  /// @brief Method DestroyLayerTextures addr 0x2746cb4 size 0x124 virtual false final false
+  /// @brief Method DestroyLayerTextures addr 0x25e6df8 size 0x124 virtual false final false
   inline void DestroyLayerTextures();
 
-  /// @brief Method DestroyLayer addr 0x2746dd8 size 0x2cc virtual false final false
+  /// @brief Method DestroyLayer addr 0x25e6f1c size 0x2c0 virtual false final false
   inline void DestroyLayer();
 
-  /// @brief Method SetSrcDestRects addr 0x27470a4 size 0x1c virtual false final false
+  /// @brief Method SetSrcDestRects addr 0x25e7814 size 0x1c virtual false final false
   inline void SetSrcDestRects(::UnityEngine::Rect srcLeft, ::UnityEngine::Rect srcRight, ::UnityEngine::Rect destLeft, ::UnityEngine::Rect destRight);
 
-  /// @brief Method UpdateTextureRectMatrix addr 0x27470c0 size 0x414 virtual false final false
+  /// @brief Method UpdateTextureRectMatrix addr 0x25e7830 size 0x414 virtual false final false
   inline void UpdateTextureRectMatrix();
 
-  /// @brief Method SetPerLayerColorScaleAndOffset addr 0x27474d4 size 0x14 virtual false final false
+  /// @brief Method SetPerLayerColorScaleAndOffset addr 0x25e7c44 size 0x14 virtual false final false
   inline void SetPerLayerColorScaleAndOffset(::UnityEngine::Vector4 scale, ::UnityEngine::Vector4 offset);
 
-  /// @brief Method LatchLayerTextures addr 0x27474e8 size 0x46c virtual false final false
+  /// @brief Method LatchLayerTextures addr 0x25e7c58 size 0x46c virtual false final false
   inline bool LatchLayerTextures();
 
-  /// @brief Method GetCurrentLayerDesc addr 0x2747954 size 0x4f8 virtual false final false
+  /// @brief Method GetCurrentLayerDesc addr 0x25e80c4 size 0x4f8 virtual false final false
   inline ::GlobalNamespace::__OVRPlugin__LayerDesc GetCurrentLayerDesc();
 
-  /// @brief Method GetBlitRect addr 0x2747e4c size 0x16c virtual false final false
+  /// @brief Method GetBlitRect addr 0x25e85bc size 0x16c virtual false final false
   inline ::UnityEngine::Rect GetBlitRect(int32_t eyeId);
 
-  /// @brief Method BlitSubImage addr 0x2747fb8 size 0x404 virtual false final false
+  /// @brief Method BlitSubImage addr 0x25e8728 size 0x404 virtual false final false
   inline void BlitSubImage(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dst, ::UnityEngine::Material* mat, ::UnityEngine::Rect rect);
 
-  /// @brief Method PopulateLayer addr 0x27483bc size 0x698 virtual false final false
+  /// @brief Method PopulateLayer addr 0x25e8b2c size 0x648 virtual false final false
   inline bool PopulateLayer(int32_t mipLevels, bool isHdr, ::GlobalNamespace::__OVRPlugin__Sizei size, int32_t sampleCount, int32_t stage);
 
-  /// @brief Method SubmitLayer addr 0x2748a54 size 0x468 virtual false final false
+  /// @brief Method SubmitLayer addr 0x25e9310 size 0x388 virtual false final false
   inline bool SubmitLayer(bool overlay, bool headLocked, bool noDepthBufferTesting, ::GlobalNamespace::OVRPose pose, ::UnityEngine::Vector3 scale, int32_t frameIndex);
 
-  /// @brief Method SetupEditorPreview addr 0x27460ec size 0x4 virtual false final false
+  /// @brief Method SetupEditorPreview addr 0x25e5b64 size 0x4 virtual false final false
   inline void SetupEditorPreview();
 
-  /// @brief Method IsPassthroughShape addr 0x2746304 size 0x58 virtual false final false
+  /// @brief Method IsPassthroughShape addr 0x25e5d7c size 0x78 virtual false final false
   static inline bool IsPassthroughShape(::GlobalNamespace::__OVROverlay__OverlayShape shape);
 
-  /// @brief Method Awake addr 0x2748ebc size 0x2f0 virtual false final false
+  /// @brief Method Awake addr 0x25e96c8 size 0x2f0 virtual false final false
   inline void Awake();
 
-  /// @brief Method get_OpenVROverlayKey addr 0x27491ac size 0x7c virtual false final false
+  /// @brief Method get_OpenVROverlayKey addr 0x25e99b8 size 0x7c virtual false final false
   static inline ::StringW get_OpenVROverlayKey();
 
-  /// @brief Method OnEnable addr 0x2749228 size 0x70 virtual false final false
+  /// @brief Method OnEnable addr 0x25e9a34 size 0x70 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method InitOVROverlay addr 0x2749298 size 0x16c virtual false final false
+  /// @brief Method InitOVROverlay addr 0x25e9aa4 size 0x194 virtual false final false
   inline void InitOVROverlay();
 
-  /// @brief Method OnDisable addr 0x2749404 size 0x124 virtual false final false
+  /// @brief Method OnDisable addr 0x25e9c38 size 0x124 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method OnDestroy addr 0x2749528 size 0x18 virtual false final false
+  /// @brief Method OnDestroy addr 0x25e9d5c size 0x18 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method ComputePoseAndScale addr 0x2749540 size 0x388 virtual false final false
+  /// @brief Method ComputePoseAndScale addr 0x25e9d74 size 0x388 virtual false final false
   inline void ComputePoseAndScale(ByRef<::GlobalNamespace::OVRPose> pose, ByRef<::UnityEngine::Vector3> scale, ByRef<bool> overlay, ByRef<bool> headLocked);
 
-  /// @brief Method ComputeSubmit addr 0x27498c8 size 0x2a0 virtual false final false
+  /// @brief Method ComputeSubmit addr 0x25ea0fc size 0x298 virtual false final false
   inline bool ComputeSubmit(ByRef<::GlobalNamespace::OVRPose> pose, ByRef<::UnityEngine::Vector3> scale, ByRef<bool> overlay, ByRef<bool> headLocked);
 
-  /// @brief Method OpenVROverlayUpdate addr 0x2749b68 size 0x300 virtual false final false
+  /// @brief Method OpenVROverlayUpdate addr 0x25ea394 size 0x300 virtual false final false
   inline void OpenVROverlayUpdate(::UnityEngine::Vector3 scale, ::GlobalNamespace::OVRPose pose);
 
-  /// @brief Method LateUpdate addr 0x2749e68 size 0x524 virtual false final false
+  /// @brief Method LateUpdate addr 0x25ea694 size 0x524 virtual false final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::OVROverlay* New_ctor();
 
-  /// @brief Method .ctor addr 0x274a38c size 0x1b4 virtual false final false
+  /// @brief Method .ctor addr 0x25eabb8 size 0x1b4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVROverlay", modifiers: "&&", def_value: None }]
@@ -1049,10 +1052,7 @@ public:
   /// @brief Field useEfficientSharpen, offset: 0xfc, size: 0x1, def value: None
   bool ___useEfficientSharpen;
 
-  /// @brief Field useAutomaticFiltering, offset: 0xfd, size: 0x1, def value: None
-  bool ___useAutomaticFiltering;
-
-  /// @brief Field _previewInEditor, offset: 0xfe, size: 0x1, def value: None
+  /// @brief Field _previewInEditor, offset: 0xfd, size: 0x1, def value: None
   bool ____previewInEditor;
 
   /// @brief Field texturePtrs, offset: 0x100, size: 0x8, def value: None
@@ -1119,6 +1119,108 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVROverlay, 0x1c8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___currentOverlayType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___isDynamic) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___isProtectedContent) == 0x1d, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___srcRectLeft) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___srcRectRight) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___destRectLeft) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___destRectRight) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___invertTextureRects) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___textureRectMatrix) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___overrideTextureRectMatrix) == 0xa4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___overridePerLayerColorScaleAndOffset) == 0xa5, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___colorScale) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___colorOffset) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___useExpensiveSuperSample) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___useExpensiveSharpen) == 0xc9, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___hidden) == 0xca, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___isExternalSurface) == 0xcb, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___externalSurfaceWidth) == 0xcc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___externalSurfaceHeight) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___compositionDepth) == 0xd4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___layerCompositionDepth) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___noDepthBufferTesting) == 0xdc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___layerTextureFormat) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___currentOverlayShape) == 0xe4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___prevOverlayShape) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___textures) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___isAlphaPremultiplied) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___useBicubicFiltering) == 0xf9, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___useLegacyCubemapRotation) == 0xfa, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___useEfficientSupersample) == 0xfb, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___useEfficientSharpen) == 0xfc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ____previewInEditor) == 0xfd, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___texturePtrs) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___externalSurfaceObject) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___externalSurfaceObjectCreated) == 0x110, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___isOverridePending) == 0x118, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ____layerId_k__BackingField) == 0x11c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___layerTextures) == 0x120, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___layerDesc) == 0x128, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___stageCount) == 0x178, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___layerIndex) == 0x17c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___layerIdHandle) == 0x180, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___layerIdPtr) == 0x188, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___frameIndex) == 0x190, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___prevFrameIndex) == 0x194, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___rend) == 0x198, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___OpenVROverlayHandle) == 0x1a0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___OpenVRUVOffsetAndScale) == 0x1a8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___OpenVRMouseScale) == 0x1b8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___constructedOverlayXRDevice) == 0x1c0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVROverlay, ___xrDeviceConstructed) == 0x1c4, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVROverlay__OverlayShape, "", "OVROverlay/OverlayShape");

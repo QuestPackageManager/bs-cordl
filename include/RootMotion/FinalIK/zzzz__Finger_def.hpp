@@ -13,19 +13,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Finger)
 namespace RootMotion::FinalIK {
-class IKSolverLimb;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace RootMotion::FinalIK {
 struct __Finger__DOF;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace RootMotion::FinalIK {
+class IKSolverLimb;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::Finger);
 namespace RootMotion::FinalIK {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12514))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12442))
 // CS Name: ::Finger::DOF
 struct CORDL_TYPE __Finger__DOF {
 public:
@@ -84,13 +84,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__Finger__DOF, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__Finger__DOF, value__) == 0x0, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: RootMotion.FinalIK::Finger
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12514)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12515)) CS Name: ::RootMotion.FinalIK::Finger*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12442)), TypeDefinitionIndex(TypeDefinitionIndex(10176)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10179))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12443)) CS Name: ::RootMotion.FinalIK::Finger*
 class CORDL_TYPE Finger : public ::System::Object {
 public:
   // Declarations
@@ -255,42 +257,42 @@ public:
 
   constexpr void __set_bone1TwistAxis(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_initiated addr 0x1242be4 size 0x8 virtual false final false
+  /// @brief Method get_initiated addr 0x11d28b8 size 0x8 virtual false final false
   inline bool get_initiated();
 
-  /// @brief Method set_initiated addr 0x1242bec size 0xc virtual false final false
+  /// @brief Method set_initiated addr 0x11d28c0 size 0xc virtual false final false
   inline void set_initiated(bool value);
 
-  /// @brief Method get_IKPosition addr 0x1242bf8 size 0x20 virtual false final false
+  /// @brief Method get_IKPosition addr 0x11d28cc size 0x20 virtual false final false
   inline ::UnityEngine::Vector3 get_IKPosition();
 
-  /// @brief Method set_IKPosition addr 0x1242c18 size 0x20 virtual false final false
+  /// @brief Method set_IKPosition addr 0x11d28ec size 0x20 virtual false final false
   inline void set_IKPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_IKRotation addr 0x1242c38 size 0x20 virtual false final false
+  /// @brief Method get_IKRotation addr 0x11d290c size 0x20 virtual false final false
   inline ::UnityEngine::Quaternion get_IKRotation();
 
-  /// @brief Method set_IKRotation addr 0x1242c58 size 0x20 virtual false final false
+  /// @brief Method set_IKRotation addr 0x11d292c size 0x20 virtual false final false
   inline void set_IKRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method IsValid addr 0x1242c78 size 0xec virtual false final false
+  /// @brief Method IsValid addr 0x11d294c size 0xec virtual false final false
   inline bool IsValid(ByRef<::StringW> errorMessage);
 
-  /// @brief Method Initiate addr 0x1242d64 size 0x4e0 virtual false final false
+  /// @brief Method Initiate addr 0x11d2a38 size 0x4e0 virtual false final false
   inline void Initiate(::UnityEngine::Transform* hand, int32_t index);
 
-  /// @brief Method FixTransforms addr 0x1243244 size 0xcc virtual false final false
+  /// @brief Method FixTransforms addr 0x11d2f18 size 0xcc virtual false final false
   inline void FixTransforms();
 
-  /// @brief Method StoreDefaultLocalState addr 0x1243310 size 0xb8 virtual false final false
+  /// @brief Method StoreDefaultLocalState addr 0x11d2fe4 size 0xb8 virtual false final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method Update addr 0x12433c8 size 0x660 virtual false final false
+  /// @brief Method Update addr 0x11d309c size 0x660 virtual false final false
   inline void Update(float_t masterWeight);
 
   static inline ::RootMotion::FinalIK::Finger* New_ctor();
 
-  /// @brief Method .ctor addr 0x1243a28 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x11d36fc size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Finger", modifiers: "&&", def_value: None }]
@@ -362,6 +364,40 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::Finger, 0xa8>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Finger, ___weight) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Finger, ___rotationWeight) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Finger, ___rotationDOF) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Finger, ___fixBone1Twist) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Finger, ___bone1) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Finger, ___bone2) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Finger, ___bone3) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Finger, ___tip) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Finger, ___target) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Finger, ____initiated_k__BackingField) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Finger, ___solver) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Finger, ___bone3RelativeToTarget) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Finger, ___bone3DefaultLocalPosition) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Finger, ___bone3DefaultLocalRotation) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Finger, ___bone1Axis) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Finger, ___tipAxis) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Finger, ___bone1TwistAxis) == 0x9c, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::__Finger__DOF, "RootMotion.FinalIK", "Finger/DOF");

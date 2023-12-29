@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsymmetricAlgorithm)
-namespace System {
-class IDisposable;
-}
 namespace System::Security::Cryptography {
 class KeySizes;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::AsymmetricAlgorithm);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2918))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2917))
 // CS Name: ::System.Security.Cryptography::AsymmetricAlgorithm*
 class CORDL_TYPE AsymmetricAlgorithm : public ::System::Object {
 public:
@@ -55,28 +55,28 @@ public:
 
   static inline ::System::Security::Cryptography::AsymmetricAlgorithm* New_ctor();
 
-  /// @brief Method .ctor addr 0x245bde8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x230270c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Dispose addr 0x245bdf0 size 0x4 virtual true final true
+  /// @brief Method Dispose addr 0x2302714 size 0x4 virtual true final true
   inline void Dispose();
 
-  /// @brief Method Clear addr 0x245bdf4 size 0x6c virtual false final false
+  /// @brief Method Clear addr 0x2302718 size 0x6c virtual false final false
   inline void Clear();
 
-  /// @brief Method Dispose addr 0x245be60 size 0x4 virtual true final false
+  /// @brief Method Dispose addr 0x2302784 size 0x4 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method get_KeySize addr 0x245be64 size 0x8 virtual true final false
+  /// @brief Method get_KeySize addr 0x2302788 size 0x8 virtual true final false
   inline int32_t get_KeySize();
 
-  /// @brief Method set_KeySize addr 0x245be6c size 0xdc virtual true final false
+  /// @brief Method set_KeySize addr 0x2302790 size 0xdc virtual true final false
   inline void set_KeySize(int32_t value);
 
-  /// @brief Method FromXmlString addr 0x245bf70 size 0x40 virtual true final false
+  /// @brief Method FromXmlString addr 0x2302894 size 0x40 virtual true final false
   inline void FromXmlString(::StringW xmlString);
 
-  /// @brief Method ToXmlString addr 0x245bfb0 size 0x40 virtual true final false
+  /// @brief Method ToXmlString addr 0x23028d4 size 0x40 virtual true final false
   inline ::StringW ToXmlString(bool includePrivateParameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsymmetricAlgorithm", modifiers: "&&", def_value: None }]
@@ -103,6 +103,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::AsymmetricAlgorithm, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::AsymmetricAlgorithm, ___KeySizeValue) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::AsymmetricAlgorithm, ___LegalKeySizesValue) == 0x18, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::AsymmetricAlgorithm);

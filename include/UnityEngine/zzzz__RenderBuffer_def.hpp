@@ -16,8 +16,8 @@ MARK_VAL_T(::UnityEngine::RenderBuffer);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10084))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10012))
 // CS Name: ::UnityEngine::RenderBuffer
 struct CORDL_TYPE RenderBuffer {
 public:
@@ -42,6 +42,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::RenderBuffer, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::RenderBuffer, m_RenderTextureInstanceID) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::RenderBuffer, m_BufferPtr) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RenderBuffer, "UnityEngine", "RenderBuffer");

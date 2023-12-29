@@ -8,52 +8,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLocalActiveClient)
 namespace GlobalNamespace {
+class IGameplayRpcManager;
+}
+namespace GlobalNamespace {
 class NoteData;
-}
-namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace GlobalNamespace {
-class ComboController;
 }
 namespace GlobalNamespace {
 class SliderData;
 }
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
+class INodePoseSyncStateManager;
 }
 namespace GlobalNamespace {
-class IScoreController;
+class ComboController;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class IScoreSyncStateManager;
-}
-namespace GlobalNamespace {
-class PlayerTransforms;
+struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
 }
 namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-class IGameplayRpcManager;
+struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
 }
 namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
-class INodePoseSyncStateManager;
+class NoteController;
+}
+namespace GlobalNamespace {
+class PlayerTransforms;
+}
+namespace GlobalNamespace {
+class IScoreSyncStateManager;
+}
+namespace GlobalNamespace {
+class IScoreController;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class ObstacleData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -65,8 +65,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalActiveClient);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5147))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5252))
 // CS Name: ::MultiplayerLocalActiveClient*
 class CORDL_TYPE MultiplayerLocalActiveClient : public ::UnityEngine::MonoBehaviour {
 public:
@@ -143,42 +143,42 @@ public:
 
   constexpr void __set__comboController(::GlobalNamespace::ComboController* value);
 
-  /// @brief Method Start addr 0x23d8948 size 0x6e0 virtual false final false
+  /// @brief Method Start addr 0x20f6dd0 size 0x6e0 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x23d9028 size 0x434 virtual false final false
+  /// @brief Method OnDestroy addr 0x20f74b0 size 0x434 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method LateUpdate addr 0x23d945c size 0x348 virtual false final false
+  /// @brief Method LateUpdate addr 0x20f78e4 size 0x348 virtual false final false
   inline void LateUpdate();
 
-  /// @brief Method HandleNoteWasAdded addr 0x23d97a4 size 0x160 virtual false final false
+  /// @brief Method HandleNoteWasAdded addr 0x20f7c2c size 0x160 virtual false final false
   inline void HandleNoteWasAdded(::GlobalNamespace::NoteData* noteData, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData, float_t rotation);
 
-  /// @brief Method HandleObstacleWasAdded addr 0x23d9904 size 0x140 virtual false final false
+  /// @brief Method HandleObstacleWasAdded addr 0x20f7d8c size 0x140 virtual false final false
   inline void HandleObstacleWasAdded(::GlobalNamespace::ObstacleData* obstacleData, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData obstacleSpawnData, float_t rotation);
 
-  /// @brief Method HandleSliderWasAdded addr 0x23d9a44 size 0x1d4 virtual false final false
+  /// @brief Method HandleSliderWasAdded addr 0x20f7ecc size 0x1d4 virtual false final false
   inline void HandleSliderWasAdded(::GlobalNamespace::SliderData* sliderData, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData sliderSpawnData, float_t rotation);
 
-  /// @brief Method HandleNoteWasMissed addr 0x23d9c18 size 0xfc virtual false final false
+  /// @brief Method HandleNoteWasMissed addr 0x20f80a0 size 0xfc virtual false final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleNoteWasCut addr 0x23d9d14 size 0x1c4 virtual false final false
+  /// @brief Method HandleNoteWasCut addr 0x20f819c size 0x1c4 virtual false final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleComboDidChange addr 0x23d9ed8 size 0xcc virtual false final false
+  /// @brief Method HandleComboDidChange addr 0x20f8360 size 0xcc virtual false final false
   inline void HandleComboDidChange(int32_t combo);
 
-  /// @brief Method HandleMultiplierDidChange addr 0x23d9fa4 size 0xcc virtual false final false
+  /// @brief Method HandleMultiplierDidChange addr 0x20f842c size 0xcc virtual false final false
   inline void HandleMultiplierDidChange(int32_t multiplier, float_t multiplierProgress);
 
-  /// @brief Method HandleScoreDidChange addr 0x23da070 size 0x254 virtual false final false
+  /// @brief Method HandleScoreDidChange addr 0x20f84f8 size 0x254 virtual false final false
   inline void HandleScoreDidChange(int32_t multipliedScore, int32_t modifiedScore);
 
   static inline ::GlobalNamespace::MultiplayerLocalActiveClient* New_ctor();
 
-  /// @brief Method .ctor addr 0x23da2c4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20f874c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveClient", modifiers: "&&", def_value: None }]
@@ -223,6 +223,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalActiveClient, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveClient, ____playerTransforms) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveClient, ____audioTimeSyncController) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveClient, ____scoreSyncStateManager) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveClient, ____nodePoseSyncStateManager) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveClient, ____rpcManager) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveClient, ____beatmapObjectManager) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveClient, ____scoreController) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActiveClient, ____comboController) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalActiveClient);

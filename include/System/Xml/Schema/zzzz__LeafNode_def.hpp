@@ -10,13 +10,13 @@ namespace System::Xml::Schema {
 class Positions;
 }
 namespace System::Xml::Schema {
-class SymbolsDictionary;
+class BitSet;
 }
 namespace System::Xml::Schema {
 class InteriorNode;
 }
 namespace System::Xml::Schema {
-class BitSet;
+class SymbolsDictionary;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::LeafNode);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11599))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11600))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11527))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11528))
 // CS Name: ::System.Xml.Schema::LeafNode*
 class CORDL_TYPE LeafNode : public ::System::Xml::Schema::SyntaxTreeNode {
 public:
@@ -49,23 +49,23 @@ public:
 
   static inline ::System::Xml::Schema::LeafNode* New_ctor(int32_t pos);
 
-  /// @brief Method .ctor addr 0x28adbdc size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2730bb8 size 0x28 virtual false final false
   inline void _ctor(int32_t pos);
 
-  /// @brief Method get_Pos addr 0x28adc04 size 0x8 virtual false final false
+  /// @brief Method get_Pos addr 0x2730be0 size 0x8 virtual false final false
   inline int32_t get_Pos();
 
-  /// @brief Method set_Pos addr 0x28adc0c size 0x8 virtual false final false
+  /// @brief Method set_Pos addr 0x2730be8 size 0x8 virtual false final false
   inline void set_Pos(int32_t value);
 
-  /// @brief Method ExpandTree addr 0x28adc14 size 0x4 virtual true final false
+  /// @brief Method ExpandTree addr 0x2730bf0 size 0x4 virtual true final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
-  /// @brief Method ConstructPos addr 0x28adc18 size 0x40 virtual true final false
+  /// @brief Method ConstructPos addr 0x2730bf4 size 0x40 virtual true final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method get_IsNullable addr 0x28adc58 size 0x8 virtual true final false
+  /// @brief Method get_IsNullable addr 0x2730c34 size 0x8 virtual true final false
   inline bool get_IsNullable();
 
   // Ctor Parameters [CppParam { name: "", ty: "LeafNode", modifiers: "&&", def_value: None }]
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::LeafNode, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::LeafNode, ___pos) == 0x10, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::LeafNode);

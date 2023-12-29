@@ -14,46 +14,67 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScrollView)
 namespace UnityEngine::UIElements {
-class PointerCaptureOutEvent;
+class DetachFromPanelEvent;
 }
 namespace UnityEngine::UIElements {
-class CustomStyleResolvedEvent;
-}
-namespace UnityEngine::UIElements {
-class Scroller;
-}
-namespace UnityEngine::UIElements {
-struct ScrollerVisibility;
-}
-namespace UnityEngine::UIElements {
-struct __ScrollView__TouchScrollBehavior;
-}
-namespace UnityEngine::UIElements {
-class PointerUpEvent;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class IVisualElementScheduledItem;
-}
-namespace UnityEngine {
-struct Vector2;
+class AttachToPanelEvent;
 }
 namespace UnityEngine::UIElements {
 struct __ScrollView__TouchScrollingResult;
 }
 namespace UnityEngine::UIElements {
+class __ScrollView__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+struct __ScrollView__TouchScrollBehavior;
+}
+namespace UnityEngine::UIElements {
+class Scroller;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class PointerDownEvent;
+}
+namespace UnityEngine::UIElements {
+struct __ScrollView__NestedInteractionKind;
+}
+namespace UnityEngine::UIElements {
 class PointerMoveEvent;
+}
+namespace UnityEngine::UIElements {
+class WheelEvent;
+}
+namespace UnityEngine::UIElements {
+struct ScrollViewMode;
+}
+namespace UnityEngine::UIElements {
+template <typename TEventType> class EventCallback_1;
+}
+namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerCaptureOutEvent;
 }
 namespace UnityEngine::UIElements {
 class __ScrollView__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-class DetachFromPanelEvent;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
+class PointerUpEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerCaptureEvent;
+}
+namespace UnityEngine::UIElements {
+class IVisualElementScheduledItem;
+}
+namespace UnityEngine::UIElements {
+struct ScrollerVisibility;
 }
 namespace UnityEngine::UIElements {
 class PointerCancelEvent;
@@ -62,43 +83,22 @@ namespace UnityEngine::UIElements {
 class IEventHandler;
 }
 namespace UnityEngine::UIElements {
-class WheelEvent;
-}
-namespace UnityEngine::UIElements {
-struct __ScrollView__NestedInteractionKind;
-}
-namespace UnityEngine::UIElements {
-class PointerDownEvent;
-}
-namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
-}
-namespace UnityEngine::UIElements {
-template <typename TEventType> class EventCallback_1;
-}
-namespace UnityEngine::UIElements {
-class __ScrollView__UxmlFactory;
-}
-namespace UnityEngine::UIElements {
-class PointerCaptureEvent;
-}
-namespace UnityEngine::UIElements {
-struct ScrollViewMode;
-}
-namespace UnityEngine::UIElements {
-struct CreationContext;
-}
-namespace UnityEngine::UIElements {
-class UxmlFloatAttributeDescription;
-}
-namespace UnityEngine::UIElements {
-class UxmlBoolAttributeDescription;
+class CustomStyleResolvedEvent;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
+class UxmlFloatAttributeDescription;
+}
+namespace UnityEngine::UIElements {
 class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class UxmlBoolAttributeDescription;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -130,8 +130,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__ScrollView__UxmlTraits);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6737))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7045))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6823))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7131))
 // CS Name: ::ScrollView::UxmlTraits*
 class CORDL_TYPE __ScrollView__UxmlTraits : public ::UnityEngine::UIElements::__VisualElement__UxmlTraits {
 public:
@@ -246,12 +246,12 @@ public:
 
   constexpr void __set_m_Elasticity(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  /// @brief Method Init addr 0x2e26a68 size 0x390 virtual true final false
+  /// @brief Method Init addr 0x2cbf6b8 size 0x390 virtual true final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__ScrollView__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e26df8 size 0x408 virtual false final false
+  /// @brief Method .ctor addr 0x2cbfa48 size 0x408 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScrollView__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -306,13 +306,35 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__ScrollView__UxmlTraits, 0xc8>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__UxmlTraits, ___m_ScrollViewMode) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__UxmlTraits, ___m_NestedInteractionKind) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__UxmlTraits, ___m_ShowHorizontal) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__UxmlTraits, ___m_ShowVertical) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__UxmlTraits, ___m_HorizontalScrollerVisibility) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__UxmlTraits, ___m_VerticalScrollerVisibility) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__UxmlTraits, ___m_HorizontalPageSize) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__UxmlTraits, ___m_VerticalPageSize) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__UxmlTraits, ___m_TouchScrollBehavior) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__UxmlTraits, ___m_ScrollDecelerationRate) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__UxmlTraits, ___m_Elasticity) == 0xc0, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::TouchScrollBehavior
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7046))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7132))
 // CS Name: ::ScrollView::TouchScrollBehavior
 struct CORDL_TYPE __ScrollView__TouchScrollBehavior {
 public:
@@ -358,13 +380,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::NestedInteractionKind
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7047))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7133))
 // CS Name: ::ScrollView::NestedInteractionKind
 struct CORDL_TYPE __ScrollView__NestedInteractionKind {
 public:
@@ -410,13 +434,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__ScrollView__NestedInteractionKind, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__NestedInteractionKind, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::ScrollView
 // SizeInfo { instance_size: 1128, native_size: -1, calculated_instance_size: 1128, calculated_native_size: 1128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7043)), TypeDefinitionIndex(TypeDefinitionIndex(7042)), TypeDefinitionIndex(TypeDefinitionIndex(7046)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(7047))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7049))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7132)), TypeDefinitionIndex(TypeDefinitionIndex(6830)), TypeDefinitionIndex(TypeDefinitionIndex(7133)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(7129)), TypeDefinitionIndex(TypeDefinitionIndex(7128))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7135))
 // CS Name: ::UnityEngine.UIElements::ScrollView*
 class CORDL_TYPE ScrollView : public ::UnityEngine::UIElements::VisualElement {
 public:
@@ -833,224 +859,224 @@ public:
 
   static inline ::StringW getStaticF_scrollVariantUssClassName();
 
-  /// @brief Method get_horizontalScrollerVisibility addr 0x2e20880 size 0x8 virtual false final false
+  /// @brief Method get_horizontalScrollerVisibility addr 0x2cba4d0 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::ScrollerVisibility get_horizontalScrollerVisibility();
 
-  /// @brief Method set_horizontalScrollerVisibility addr 0x2e20888 size 0x8c virtual false final false
+  /// @brief Method set_horizontalScrollerVisibility addr 0x2cba4d8 size 0x8c virtual false final false
   inline void set_horizontalScrollerVisibility(::UnityEngine::UIElements::ScrollerVisibility value);
 
-  /// @brief Method get_verticalScrollerVisibility addr 0x2e20eac size 0x8 virtual false final false
+  /// @brief Method get_verticalScrollerVisibility addr 0x2cbaafc size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::ScrollerVisibility get_verticalScrollerVisibility();
 
-  /// @brief Method set_verticalScrollerVisibility addr 0x2e20eb4 size 0x90 virtual false final false
+  /// @brief Method set_verticalScrollerVisibility addr 0x2cbab04 size 0x90 virtual false final false
   inline void set_verticalScrollerVisibility(::UnityEngine::UIElements::ScrollerVisibility value);
 
-  /// @brief Method set_showHorizontal addr 0x2e20f44 size 0x1c virtual false final false
+  /// @brief Method set_showHorizontal addr 0x2cbab94 size 0x1c virtual false final false
   inline void set_showHorizontal(bool value);
 
-  /// @brief Method set_showVertical addr 0x2e20f60 size 0x1c virtual false final false
+  /// @brief Method set_showVertical addr 0x2cbabb0 size 0x1c virtual false final false
   inline void set_showVertical(bool value);
 
-  /// @brief Method get_needsHorizontal addr 0x2e20914 size 0x40 virtual false final false
+  /// @brief Method get_needsHorizontal addr 0x2cba564 size 0x40 virtual false final false
   inline bool get_needsHorizontal();
 
-  /// @brief Method get_needsVertical addr 0x2e20954 size 0x40 virtual false final false
+  /// @brief Method get_needsVertical addr 0x2cba5a4 size 0x40 virtual false final false
   inline bool get_needsVertical();
 
-  /// @brief Method get_isVerticalScrollDisplayed addr 0x2e21084 size 0xc0 virtual false final false
+  /// @brief Method get_isVerticalScrollDisplayed addr 0x2cbacd4 size 0xc0 virtual false final false
   inline bool get_isVerticalScrollDisplayed();
 
-  /// @brief Method get_isHorizontalScrollDisplayed addr 0x2e21144 size 0xc0 virtual false final false
+  /// @brief Method get_isHorizontalScrollDisplayed addr 0x2cbad94 size 0xc0 virtual false final false
   inline bool get_isHorizontalScrollDisplayed();
 
-  /// @brief Method get_scrollOffset addr 0x2e21204 size 0x48 virtual false final false
+  /// @brief Method get_scrollOffset addr 0x2cbae54 size 0x48 virtual false final false
   inline ::UnityEngine::Vector2 get_scrollOffset();
 
-  /// @brief Method set_scrollOffset addr 0x2e2124c size 0x84 virtual false final false
+  /// @brief Method set_scrollOffset addr 0x2cbae9c size 0x84 virtual false final false
   inline void set_scrollOffset(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_horizontalPageSize addr 0x2e21538 size 0x8 virtual false final false
+  /// @brief Method set_horizontalPageSize addr 0x2cbb188 size 0x8 virtual false final false
   inline void set_horizontalPageSize(float_t value);
 
-  /// @brief Method set_verticalPageSize addr 0x2e2174c size 0x8 virtual false final false
+  /// @brief Method set_verticalPageSize addr 0x2cbb39c size 0x8 virtual false final false
   inline void set_verticalPageSize(float_t value);
 
-  /// @brief Method get_scrollableWidth addr 0x2e20f7c size 0x84 virtual false final false
+  /// @brief Method get_scrollableWidth addr 0x2cbabcc size 0x84 virtual false final false
   inline float_t get_scrollableWidth();
 
-  /// @brief Method get_scrollableHeight addr 0x2e21000 size 0x84 virtual false final false
+  /// @brief Method get_scrollableHeight addr 0x2cbac50 size 0x84 virtual false final false
   inline float_t get_scrollableHeight();
 
-  /// @brief Method get_hasInertia addr 0x2e21960 size 0x10 virtual false final false
+  /// @brief Method get_hasInertia addr 0x2cbb5b0 size 0x10 virtual false final false
   inline bool get_hasInertia();
 
-  /// @brief Method get_scrollDecelerationRate addr 0x2e21970 size 0x8 virtual false final false
+  /// @brief Method get_scrollDecelerationRate addr 0x2cbb5c0 size 0x8 virtual false final false
   inline float_t get_scrollDecelerationRate();
 
-  /// @brief Method set_scrollDecelerationRate addr 0x2e21978 size 0x10 virtual false final false
+  /// @brief Method set_scrollDecelerationRate addr 0x2cbb5c8 size 0x10 virtual false final false
   inline void set_scrollDecelerationRate(float_t value);
 
-  /// @brief Method get_elasticity addr 0x2e21988 size 0x8 virtual false final false
+  /// @brief Method get_elasticity addr 0x2cbb5d8 size 0x8 virtual false final false
   inline float_t get_elasticity();
 
-  /// @brief Method set_elasticity addr 0x2e21990 size 0x10 virtual false final false
+  /// @brief Method set_elasticity addr 0x2cbb5e0 size 0x10 virtual false final false
   inline void set_elasticity(float_t value);
 
-  /// @brief Method get_touchScrollBehavior addr 0x2e219a0 size 0x8 virtual false final false
+  /// @brief Method get_touchScrollBehavior addr 0x2cbb5f0 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior get_touchScrollBehavior();
 
-  /// @brief Method set_touchScrollBehavior addr 0x2e219a8 size 0x98 virtual false final false
+  /// @brief Method set_touchScrollBehavior addr 0x2cbb5f8 size 0x98 virtual false final false
   inline void set_touchScrollBehavior(::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior value);
 
-  /// @brief Method get_nestedInteractionKind addr 0x2e21a40 size 0x8 virtual false final false
+  /// @brief Method get_nestedInteractionKind addr 0x2cbb690 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::__ScrollView__NestedInteractionKind get_nestedInteractionKind();
 
-  /// @brief Method set_nestedInteractionKind addr 0x2e21a48 size 0x8 virtual false final false
+  /// @brief Method set_nestedInteractionKind addr 0x2cbb698 size 0x8 virtual false final false
   inline void set_nestedInteractionKind(::UnityEngine::UIElements::__ScrollView__NestedInteractionKind value);
 
-  /// @brief Method OnHorizontalScrollDragElementChanged addr 0x2e21a50 size 0x94 virtual false final false
+  /// @brief Method OnHorizontalScrollDragElementChanged addr 0x2cbb6a0 size 0x94 virtual false final false
   inline void OnHorizontalScrollDragElementChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnVerticalScrollDragElementChanged addr 0x2e21ae4 size 0x94 virtual false final false
+  /// @brief Method OnVerticalScrollDragElementChanged addr 0x2cbb734 size 0x94 virtual false final false
   inline void OnVerticalScrollDragElementChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method UpdateHorizontalSliderPageSize addr 0x2e21540 size 0x20c virtual false final false
+  /// @brief Method UpdateHorizontalSliderPageSize addr 0x2cbb190 size 0x20c virtual false final false
   inline void UpdateHorizontalSliderPageSize();
 
-  /// @brief Method UpdateVerticalSliderPageSize addr 0x2e21754 size 0x20c virtual false final false
+  /// @brief Method UpdateVerticalSliderPageSize addr 0x2cbb3a4 size 0x20c virtual false final false
   inline void UpdateVerticalSliderPageSize();
 
-  /// @brief Method UpdateContentViewTransform addr 0x2e212d0 size 0x268 virtual false final false
+  /// @brief Method UpdateContentViewTransform addr 0x2cbaf20 size 0x268 virtual false final false
   inline void UpdateContentViewTransform();
 
-  /// @brief Method ScrollTo addr 0x2e21b78 size 0x188 virtual false final false
+  /// @brief Method ScrollTo addr 0x2cbb7c8 size 0x188 virtual false final false
   inline void ScrollTo(::UnityEngine::UIElements::VisualElement* child);
 
-  /// @brief Method GetXDeltaOffset addr 0x2e21f78 size 0x278 virtual false final false
+  /// @brief Method GetXDeltaOffset addr 0x2cbbbc8 size 0x278 virtual false final false
   inline float_t GetXDeltaOffset(::UnityEngine::UIElements::VisualElement* child);
 
-  /// @brief Method GetYDeltaOffset addr 0x2e21d00 size 0x278 virtual false final false
+  /// @brief Method GetYDeltaOffset addr 0x2cbb950 size 0x278 virtual false final false
   inline float_t GetYDeltaOffset(::UnityEngine::UIElements::VisualElement* child);
 
-  /// @brief Method GetDeltaDistance addr 0x2e221f0 size 0x50 virtual false final false
+  /// @brief Method GetDeltaDistance addr 0x2cbbe40 size 0x50 virtual false final false
   inline float_t GetDeltaDistance(float_t viewMin, float_t viewMax, float_t childBoundaryMin, float_t childBoundaryMax);
 
-  /// @brief Method get_contentViewport addr 0x2e22240 size 0x8 virtual false final false
+  /// @brief Method get_contentViewport addr 0x2cbbe90 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentViewport();
 
-  /// @brief Method set_contentViewport addr 0x2e22248 size 0x8 virtual false final false
+  /// @brief Method set_contentViewport addr 0x2cbbe98 size 0x8 virtual false final false
   inline void set_contentViewport(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method get_horizontalScroller addr 0x2e22250 size 0x8 virtual false final false
+  /// @brief Method get_horizontalScroller addr 0x2cbbea0 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::Scroller* get_horizontalScroller();
 
-  /// @brief Method set_horizontalScroller addr 0x2e22258 size 0x8 virtual false final false
+  /// @brief Method set_horizontalScroller addr 0x2cbbea8 size 0x8 virtual false final false
   inline void set_horizontalScroller(::UnityEngine::UIElements::Scroller* value);
 
-  /// @brief Method get_verticalScroller addr 0x2e22260 size 0x8 virtual false final false
+  /// @brief Method get_verticalScroller addr 0x2cbbeb0 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::Scroller* get_verticalScroller();
 
-  /// @brief Method set_verticalScroller addr 0x2e22268 size 0x8 virtual false final false
+  /// @brief Method set_verticalScroller addr 0x2cbbeb8 size 0x8 virtual false final false
   inline void set_verticalScroller(::UnityEngine::UIElements::Scroller* value);
 
-  /// @brief Method get_contentContainer addr 0x2e22270 size 0x8 virtual true final false
+  /// @brief Method get_contentContainer addr 0x2cbbec0 size 0x8 virtual true final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
   static inline ::UnityEngine::UIElements::ScrollView* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e22278 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2cbbec8 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ScrollView* New_ctor(::UnityEngine::UIElements::ScrollViewMode scrollViewMode);
 
-  /// @brief Method .ctor addr 0x2e22280 size 0xa00 virtual false final false
+  /// @brief Method .ctor addr 0x2cbbed0 size 0xa00 virtual false final false
   inline void _ctor(::UnityEngine::UIElements::ScrollViewMode scrollViewMode);
 
-  /// @brief Method get_mode addr 0x2e22de8 size 0x8 virtual false final false
+  /// @brief Method get_mode addr 0x2cbca38 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::ScrollViewMode get_mode();
 
-  /// @brief Method set_mode addr 0x2e22df0 size 0x14 virtual false final false
+  /// @brief Method set_mode addr 0x2cbca40 size 0x14 virtual false final false
   inline void set_mode(::UnityEngine::UIElements::ScrollViewMode value);
 
-  /// @brief Method SetScrollViewMode addr 0x2e22c80 size 0x168 virtual false final false
+  /// @brief Method SetScrollViewMode addr 0x2cbc8d0 size 0x168 virtual false final false
   inline void SetScrollViewMode(::UnityEngine::UIElements::ScrollViewMode mode);
 
-  /// @brief Method OnAttachToPanel addr 0x2e22e04 size 0x46c virtual false final false
+  /// @brief Method OnAttachToPanel addr 0x2cbca54 size 0x46c virtual false final false
   inline void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnDetachFromPanel addr 0x2e2337c size 0x460 virtual false final false
+  /// @brief Method OnDetachFromPanel addr 0x2cbcfcc size 0x460 virtual false final false
   inline void OnDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method OnPointerCapture addr 0x2e237dc size 0xfc virtual false final false
+  /// @brief Method OnPointerCapture addr 0x2cbd42c size 0xfc virtual false final false
   inline void OnPointerCapture(::UnityEngine::UIElements::PointerCaptureEvent* evt);
 
-  /// @brief Method OnPointerCaptureOut addr 0x2e238d8 size 0xc0 virtual false final false
+  /// @brief Method OnPointerCaptureOut addr 0x2cbd528 size 0xc0 virtual false final false
   inline void OnPointerCaptureOut(::UnityEngine::UIElements::PointerCaptureOutEvent* evt);
 
-  /// @brief Method OnGeometryChanged addr 0x2e23c64 size 0x154 virtual false final false
+  /// @brief Method OnGeometryChanged addr 0x2cbd8b4 size 0x154 virtual false final false
   inline void OnGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method ComputeElasticOffset addr 0x2e23db8 size 0xec virtual false final false
+  /// @brief Method ComputeElasticOffset addr 0x2cbda08 size 0xec virtual false final false
   static inline float_t ComputeElasticOffset(float_t deltaPointer, float_t initialScrollOffset, float_t lowLimit, float_t hardLowLimit, float_t highLimit, float_t hardHighLimit);
 
-  /// @brief Method ComputeInitialSpringBackVelocity addr 0x2e23ea4 size 0xfc virtual false final false
+  /// @brief Method ComputeInitialSpringBackVelocity addr 0x2cbdaf4 size 0xfc virtual false final false
   inline void ComputeInitialSpringBackVelocity();
 
-  /// @brief Method SpringBack addr 0x2e23fa0 size 0x18c virtual false final false
+  /// @brief Method SpringBack addr 0x2cbdbf0 size 0x18c virtual false final false
   inline void SpringBack();
 
-  /// @brief Method ApplyScrollInertia addr 0x2e2412c size 0x1b8 virtual false final false
+  /// @brief Method ApplyScrollInertia addr 0x2cbdd7c size 0x1b8 virtual false final false
   inline void ApplyScrollInertia();
 
-  /// @brief Method PostPointerUpAnimation addr 0x2e242e4 size 0x150 virtual false final false
+  /// @brief Method PostPointerUpAnimation addr 0x2cbdf34 size 0x150 virtual false final false
   inline void PostPointerUpAnimation();
 
-  /// @brief Method OnPointerDown addr 0x2e24434 size 0x238 virtual false final false
+  /// @brief Method OnPointerDown addr 0x2cbe084 size 0x238 virtual false final false
   inline void OnPointerDown(::UnityEngine::UIElements::PointerDownEvent* evt);
 
-  /// @brief Method OnPointerMove addr 0x2e247a8 size 0x1fc virtual false final false
+  /// @brief Method OnPointerMove addr 0x2cbe3f8 size 0x1fc virtual false final false
   inline void OnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
-  /// @brief Method OnPointerCancel addr 0x2e24d90 size 0x60 virtual false final false
+  /// @brief Method OnPointerCancel addr 0x2cbe9e0 size 0x60 virtual false final false
   inline void OnPointerCancel(::UnityEngine::UIElements::PointerCancelEvent* evt);
 
-  /// @brief Method OnPointerUp addr 0x2e24df0 size 0xa8 virtual false final false
+  /// @brief Method OnPointerUp addr 0x2cbea40 size 0xa8 virtual false final false
   inline void OnPointerUp(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method InitTouchScrolling addr 0x2e2466c size 0x13c virtual false final false
+  /// @brief Method InitTouchScrolling addr 0x2cbe2bc size 0x13c virtual false final false
   inline void InitTouchScrolling(::UnityEngine::Vector2 position);
 
-  /// @brief Method ComputeTouchScrolling addr 0x2e249a4 size 0x3ec virtual false final false
+  /// @brief Method ComputeTouchScrolling addr 0x2cbe5f4 size 0x3ec virtual false final false
   inline ::UnityEngine::UIElements::__ScrollView__TouchScrollingResult ComputeTouchScrolling(::UnityEngine::Vector2 position);
 
-  /// @brief Method ApplyTouchScrolling addr 0x2e24e98 size 0x214 virtual false final false
+  /// @brief Method ApplyTouchScrolling addr 0x2cbeae8 size 0x214 virtual false final false
   inline bool ApplyTouchScrolling(::UnityEngine::Vector2 newScrollOffset);
 
-  /// @brief Method ReleaseScrolling addr 0x2e23998 size 0x2cc virtual false final false
+  /// @brief Method ReleaseScrolling addr 0x2cbd5e8 size 0x2cc virtual false final false
   inline bool ReleaseScrolling(int32_t pointerId, ::UnityEngine::UIElements::IEventHandler* target);
 
-  /// @brief Method AdjustScrollers addr 0x2e250ac size 0x19c virtual false final false
+  /// @brief Method AdjustScrollers addr 0x2cbecfc size 0x19c virtual false final false
   inline void AdjustScrollers();
 
-  /// @brief Method UpdateScrollers addr 0x2e20994 size 0x518 virtual false final false
+  /// @brief Method UpdateScrollers addr 0x2cba5e4 size 0x518 virtual false final false
   inline void UpdateScrollers(bool displayHorizontal, bool displayVertical);
 
-  /// @brief Method OnScrollersGeometryChanged addr 0x2e25248 size 0x1b0 virtual false final false
+  /// @brief Method OnScrollersGeometryChanged addr 0x2cbee98 size 0x1b0 virtual false final false
   inline void OnScrollersGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnScrollWheel addr 0x2e253f8 size 0x38c virtual false final false
+  /// @brief Method OnScrollWheel addr 0x2cbf048 size 0x38c virtual false final false
   inline void OnScrollWheel(::UnityEngine::UIElements::WheelEvent* evt);
 
-  /// @brief Method OnRootCustomStyleResolved addr 0x2e25784 size 0x4 virtual false final false
+  /// @brief Method OnRootCustomStyleResolved addr 0x2cbf3d4 size 0x4 virtual false final false
   inline void OnRootCustomStyleResolved(::UnityEngine::UIElements::CustomStyleResolvedEvent* evt);
 
-  /// @brief Method ReadSingleLineHeight addr 0x2e23270 size 0x10c virtual false final false
+  /// @brief Method ReadSingleLineHeight addr 0x2cbcec0 size 0x10c virtual false final false
   inline void ReadSingleLineHeight();
 
-  /// @brief Method <.ctor>b__103_0 addr 0x2e259c0 size 0x30 virtual false final false
+  /// @brief Method <.ctor>b__103_0 addr 0x2cbf610 size 0x30 virtual false final false
   inline void __ctor_b__103_0(float_t value);
 
-  /// @brief Method <.ctor>b__103_1 addr 0x2e259f0 size 0x1030 virtual false final false
+  /// @brief Method <.ctor>b__103_1 addr 0x2cbf640 size 0x30 virtual false final false
   inline void __ctor_b__103_1(float_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ScrollView", modifiers: "&&", def_value: None }]
@@ -1162,19 +1188,79 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ScrollView, 0x468>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_HorizontalScrollerVisibility) == 0x3b0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_VerticalScrollerVisibility) == 0x3b4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_AttachedRootVisualContainer) == 0x3b8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_SingleLineHeight) == 0x3c0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_HorizontalPageSize) == 0x3c4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_VerticalPageSize) == 0x3c8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_ScrollDecelerationRate) == 0x3cc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_Elasticity) == 0x3d0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_TouchScrollBehavior) == 0x3d4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_NestedInteractionKind) == 0x3d8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ____contentViewport_k__BackingField) == 0x3e0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ____horizontalScroller_k__BackingField) == 0x3e8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ____verticalScroller_k__BackingField) == 0x3f0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_ContentContainer) == 0x3f8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_ContentAndVerticalScrollContainer) == 0x400, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_Mode) == 0x408, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_ScrollingPointerId) == 0x40c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_StartPosition) == 0x410, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_PointerStartPosition) == 0x418, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_Velocity) == 0x420, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_SpringBackVelocity) == 0x428, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_LowBounds) == 0x430, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_HighBounds) == 0x438, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_LastVelocityLerpTime) == 0x440, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_StartedMoving) == 0x444, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_TouchStoppedVelocity) == 0x445, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_CapturedTarget) == 0x448, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_CapturedTargetPointerMoveCallback) == 0x450, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_CapturedTargetPointerUpCallback) == 0x458, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_PostPointerUpAnimation) == 0x460, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::UxmlFactory
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7045)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7049)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5274 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7044)) CS Name: ::ScrollView::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7135)), TypeDefinitionIndex(TypeDefinitionIndex(7083)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5158
+// }), TypeDefinitionIndex(TypeDefinitionIndex(7131))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7130)) CS Name: ::ScrollView::UxmlFactory*
 class CORDL_TYPE __ScrollView__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ScrollView*, ::UnityEngine::UIElements::__ScrollView__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__ScrollView__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e26a20 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2cbf670 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScrollView__UxmlFactory", modifiers: "&&", def_value: None }]
@@ -1202,7 +1288,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Scrol
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7048))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7134))
 // CS Name: ::ScrollView::TouchScrollingResult
 struct CORDL_TYPE __ScrollView__TouchScrollingResult {
 public:
@@ -1247,6 +1333,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__ScrollView__TouchScrollingResult, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__TouchScrollingResult, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__ScrollView__NestedInteractionKind, "UnityEngine.UIElements", "ScrollView/NestedInteractionKind");

@@ -19,8 +19,8 @@ MARK_VAL_T(::UnityEngine::AudioConfiguration);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15585))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15587))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15607))
 // CS Name: ::UnityEngine::AudioConfiguration
 struct CORDL_TYPE AudioConfiguration {
 public:
@@ -56,6 +56,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AudioConfiguration, 0x14>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AudioConfiguration, speakerMode) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AudioConfiguration, dspBufferSize) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AudioConfiguration, sampleRate) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AudioConfiguration, numRealVoices) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AudioConfiguration, numVirtualVoices) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioConfiguration, "UnityEngine", "AudioConfiguration");

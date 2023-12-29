@@ -12,22 +12,22 @@ namespace GlobalNamespace {
 class FlyingObjectEffect;
 }
 namespace GlobalNamespace {
+class IReadonlyCutScoreBuffer;
+}
+namespace GlobalNamespace {
 class IFlyingObjectEffectDidFinishEvent;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
+class __FlyingScoreSpawner__InitData;
+}
+namespace GlobalNamespace {
 struct __FlyingScoreSpawner__SpawnPosition;
 }
 namespace GlobalNamespace {
 class __FlyingScoreEffect__Pool;
-}
-namespace GlobalNamespace {
-class IReadonlyCutScoreBuffer;
-}
-namespace GlobalNamespace {
-class __FlyingScoreSpawner__InitData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__FlyingScoreSpawner__InitData);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4887))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5005))
 // CS Name: ::FlyingScoreSpawner::SpawnPosition
 struct CORDL_TYPE __FlyingScoreSpawner__SpawnPosition {
 public:
@@ -90,13 +90,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::InitData
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4887))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4888))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(5005))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5006))
 // CS Name: ::FlyingScoreSpawner::InitData*
 class CORDL_TYPE __FlyingScoreSpawner__InitData : public ::System::Object {
 public:
@@ -112,7 +114,7 @@ public:
 
   static inline ::GlobalNamespace::__FlyingScoreSpawner__InitData* New_ctor(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition spawnPosition);
 
-  /// @brief Method .ctor addr 0x23a1dc8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x226be54 size 0x28 virtual false final false
   inline void _ctor(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition spawnPosition);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FlyingScoreSpawner__InitData", modifiers: "&&", def_value: None }]
@@ -137,13 +139,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FlyingScoreSpawner__InitData, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__FlyingScoreSpawner__InitData, ___spawnPosition) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::FlyingScoreSpawner
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4889))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5007))
 // CS Name: ::FlyingScoreSpawner*
 class CORDL_TYPE FlyingScoreSpawner : public ::UnityEngine::MonoBehaviour {
 public:
@@ -173,15 +177,15 @@ public:
 
   constexpr void __set__initData(::GlobalNamespace::__FlyingScoreSpawner__InitData* value);
 
-  /// @brief Method SpawnFlyingScore addr 0x23a1a20 size 0x284 virtual false final false
+  /// @brief Method SpawnFlyingScore addr 0x226bab0 size 0x280 virtual false final false
   inline void SpawnFlyingScore(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, ::UnityEngine::Color color);
 
-  /// @brief Method HandleFlyingObjectEffectDidFinish addr 0x23a1ca4 size 0x11c virtual true final true
+  /// @brief Method HandleFlyingObjectEffectDidFinish addr 0x226bd30 size 0x11c virtual true final true
   inline void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
 
   static inline ::GlobalNamespace::FlyingScoreSpawner* New_ctor();
 
-  /// @brief Method .ctor addr 0x23a1dc0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x226be4c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreSpawner", modifiers: "&&", def_value: None }]
@@ -208,6 +212,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingScoreSpawner, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingScoreSpawner, ____flyingScoreEffectPool) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingScoreSpawner, ____initData) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition, "", "FlyingScoreSpawner/SpawnPosition");

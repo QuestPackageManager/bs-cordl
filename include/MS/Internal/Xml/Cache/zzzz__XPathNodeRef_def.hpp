@@ -20,7 +20,7 @@ MARK_VAL_T(::MS::Internal::Xml::Cache::XPathNodeRef);
 namespace MS::Internal::Xml::Cache {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11769))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11697))
 // CS Name: ::MS.Internal.Xml.Cache::XPathNodeRef
 struct CORDL_TYPE XPathNodeRef {
 public:
@@ -29,16 +29,16 @@ public:
 
   __declspec(property(get = get_Index)) int32_t Index;
 
-  /// @brief Method .ctor addr 0x28eb7a4 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x276d780 size 0xc virtual false final false
   inline void _ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> page, int32_t idx);
 
-  /// @brief Method get_Page addr 0x28eb7b0 size 0x8 virtual false final false
+  /// @brief Method get_Page addr 0x276d78c size 0x8 virtual false final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_Page();
 
-  /// @brief Method get_Index addr 0x28eb7b8 size 0x8 virtual false final false
+  /// @brief Method get_Index addr 0x276d794 size 0x8 virtual false final false
   inline int32_t get_Index();
 
-  /// @brief Method GetHashCode addr 0x28eb7c0 size 0x10 virtual true final false
+  /// @brief Method GetHashCode addr 0x276d79c size 0x10 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "_page", ty: "::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>", modifiers: "", def_value: None }, CppParam {
@@ -62,6 +62,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::Cache::XPathNodeRef, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNodeRef, _page) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNodeRef, _idx) == 0x8, "Offset mismatch!");
 
 } // namespace MS::Internal::Xml::Cache
 DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::Cache::XPathNodeRef, "MS.Internal.Xml.Cache", "XPathNodeRef");

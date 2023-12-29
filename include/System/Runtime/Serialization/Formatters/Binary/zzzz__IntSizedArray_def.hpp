@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntSizedArray)
 namespace System {
-class ICloneable;
+class Object;
 }
 namespace System {
-class Object;
+class ICloneable;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::IntSizedArr
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3294))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3293))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::IntSizedArray*
 class CORDL_TYPE IntSizedArray : public ::System::Object {
 public:
@@ -53,24 +53,24 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::IntSizedArray* New_ctor();
 
-  /// @brief Method .ctor addr 0x24cebbc size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x23760b8 size 0x68 virtual false final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::IntSizedArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::IntSizedArray* sizedArray);
 
-  /// @brief Method .ctor addr 0x24d5d98 size 0xdc virtual false final false
+  /// @brief Method .ctor addr 0x237d294 size 0xdc virtual false final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::IntSizedArray* sizedArray);
 
-  /// @brief Method Clone addr 0x24d5e74 size 0x60 virtual true final true
+  /// @brief Method Clone addr 0x237d370 size 0x60 virtual true final true
   inline ::System::Object* Clone();
 
-  /// @brief Method get_Item addr 0x24cec24 size 0x78 virtual false final false
+  /// @brief Method get_Item addr 0x2376120 size 0x78 virtual false final false
   inline int32_t get_Item(int32_t index);
 
-  /// @brief Method set_Item addr 0x24cec9c size 0xb4 virtual false final false
+  /// @brief Method set_Item addr 0x2376198 size 0xb4 virtual false final false
   inline void set_Item(int32_t index, int32_t value);
 
-  /// @brief Method IncreaseCapacity addr 0x24d5ed4 size 0x220 virtual false final false
+  /// @brief Method IncreaseCapacity addr 0x237d3d0 size 0x220 virtual false final false
   inline void IncreaseCapacity(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "IntSizedArray", modifiers: "&&", def_value: None }]
@@ -97,6 +97,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::IntSizedArray, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::IntSizedArray, ___objects) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::IntSizedArray, ___negObjects) == 0x18, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::IntSizedArray);

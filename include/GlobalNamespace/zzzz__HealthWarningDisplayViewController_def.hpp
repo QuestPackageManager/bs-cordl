@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::HealthWarningDisplayViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5643))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5742))
 // CS Name: ::HealthWarningDisplayViewController*
 class CORDL_TYPE HealthWarningDisplayViewController : public ::HMUI::ViewController {
 public:
@@ -60,12 +60,12 @@ public:
 
   constexpr void __set__showShortHealthAndSafety(bool value);
 
-  /// @brief Method DidActivate addr 0x22b4f20 size 0x3c virtual true final false
+  /// @brief Method DidActivate addr 0x21727fc size 0x3c virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::HealthWarningDisplayViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22b4f5c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2172838 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HealthWarningDisplayViewController", modifiers: "&&", def_value: None }]
@@ -98,6 +98,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HealthWarningDisplayViewController, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HealthWarningDisplayViewController, ____healthAndSafetyTextMesh) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HealthWarningDisplayViewController, ____healthAndSafetyFullLocalizationKey) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HealthWarningDisplayViewController, ____healthAndSafetyPSLocalizationKey) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HealthWarningDisplayViewController, ____showShortHealthAndSafety) == 0x88, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HealthWarningDisplayViewController);

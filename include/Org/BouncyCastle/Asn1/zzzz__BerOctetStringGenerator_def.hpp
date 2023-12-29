@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BerOctetStringGenerator)
-namespace Org::BouncyCastle::Asn1 {
-class __BerOctetStringGenerator__BufferedBerOctetStream;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class __BerOctetStringGenerator__BufferedBerOctetStream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
@@ -75,16 +75,16 @@ public:
   static inline ::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream* New_ctor(::Org::BouncyCastle::Asn1::BerOctetStringGenerator* gen,
                                                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
-  /// @brief Method .ctor addr 0x11bd270 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0x114c020 size 0x8c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::BerOctetStringGenerator* gen, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
-  /// @brief Method WriteByte addr 0x11bd354 size 0x68 virtual true final false
+  /// @brief Method WriteByte addr 0x114c104 size 0x68 virtual true final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method Write addr 0x11bd3bc size 0x120 virtual true final false
+  /// @brief Method Write addr 0x114c16c size 0x120 virtual true final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t offset, int32_t len);
 
-  /// @brief Method Close addr 0x11bd4dc size 0x48 virtual true final false
+  /// @brief Method Close addr 0x114c28c size 0x48 virtual true final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BerOctetStringGenerator__BufferedBerOctetStream", modifiers: "&&", def_value: None }]
@@ -118,6 +118,14 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream, 0x50>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream, ____buf) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream, ____off) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream, ____gen) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream, ____derOut) == 0x48, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Asn1
 // Type: Org.BouncyCastle.Asn1::BerOctetStringGenerator
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
@@ -133,21 +141,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetStringGenerator* New_ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor addr 0x11bd0b4 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x114be64 size 0x34 virtual false final false
   inline void _ctor(::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetStringGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method .ctor addr 0x11bd0e8 size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x114be98 size 0x54 virtual false final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method GetOctetOutputStream addr 0x11bd13c size 0x54 virtual false final false
+  /// @brief Method GetOctetOutputStream addr 0x114beec size 0x54 virtual false final false
   inline ::System::IO::Stream* GetOctetOutputStream();
 
-  /// @brief Method GetOctetOutputStream addr 0x11bd200 size 0x70 virtual false final false
+  /// @brief Method GetOctetOutputStream addr 0x114bfb0 size 0x70 virtual false final false
   inline ::System::IO::Stream* GetOctetOutputStream(int32_t bufSize);
 
-  /// @brief Method GetOctetOutputStream addr 0x11bd190 size 0x70 virtual false final false
+  /// @brief Method GetOctetOutputStream addr 0x114bf40 size 0x70 virtual false final false
   inline ::System::IO::Stream* GetOctetOutputStream(::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
   // Ctor Parameters [CppParam { name: "", ty: "BerOctetStringGenerator", modifiers: "&&", def_value: None }]

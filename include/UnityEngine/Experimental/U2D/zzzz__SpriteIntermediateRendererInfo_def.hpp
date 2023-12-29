@@ -28,8 +28,8 @@ MARK_VAL_T(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo);
 // SizeInfo { instance_size: 168, native_size: 168, calculated_instance_size: 168, calculated_native_size: 180, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::U2D {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(2603)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10384)) CS Name: ::UnityEngine.Experimental.U2D::SpriteIntermediateRendererInfo
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(10172)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10092))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10306)) CS Name: ::UnityEngine.Experimental.U2D::SpriteIntermediateRendererInfo
 struct CORDL_TYPE SpriteIntermediateRendererInfo {
 public:
   // Declarations
@@ -100,6 +100,36 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, 0xa8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, SpriteID) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, TextureID) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, MaterialID) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, Color) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, Transform) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, Bounds) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, Layer) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, SortingLayer) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, SortingOrder) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, SceneCullingMask) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, IndexData) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, VertexData) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, IndexCount) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, VertexCount) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, ShaderChannelMask) == 0xa0, "Offset mismatch!");
 
 } // namespace UnityEngine::Experimental::U2D
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, "UnityEngine.Experimental.U2D", "SpriteIntermediateRendererInfo");

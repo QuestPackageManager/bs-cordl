@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(TbsRequest)
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
 namespace System {
 class Object;
 }
@@ -14,16 +11,19 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ocsp {
@@ -101,37 +101,37 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_V1();
 
-  /// @brief Method GetInstance addr 0xf84a30 size 0x78 virtual false final false
+  /// @brief Method GetInstance addr 0xf0e80c size 0x78 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0xf80dec size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xf0abc8 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* requestorName, ::Org::BouncyCastle::Asn1::Asn1Sequence* requestList,
                                                                       ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions);
 
-  /// @brief Method .ctor addr 0xf84d7c size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0xf0eb58 size 0x8c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* requestorName, ::Org::BouncyCastle::Asn1::Asn1Sequence* requestList,
                     ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf84aa8 size 0x2d4 virtual false final false
+  /// @brief Method .ctor addr 0xf0e884 size 0x2d4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Version addr 0xf84e08 size 0x8 virtual false final false
+  /// @brief Method get_Version addr 0xf0ebe4 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_RequestorName addr 0xf84e10 size 0x8 virtual false final false
+  /// @brief Method get_RequestorName addr 0xf0ebec size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_RequestorName();
 
-  /// @brief Method get_RequestList addr 0xf84e18 size 0x8 virtual false final false
+  /// @brief Method get_RequestList addr 0xf0ebf4 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_RequestList();
 
-  /// @brief Method get_RequestExtensions addr 0xf84e20 size 0x8 virtual false final false
+  /// @brief Method get_RequestExtensions addr 0xf0ebfc size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_RequestExtensions();
 
-  /// @brief Method ToAsn1Object addr 0xf84e28 size 0x174 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf0ec04 size 0x174 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "TbsRequest", modifiers: "&&", def_value: None }]
@@ -167,6 +167,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ocsp::TbsRequest, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::TbsRequest, ___version) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::TbsRequest, ___requestorName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::TbsRequest, ___requestList) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::TbsRequest, ___requestExtensions) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::TbsRequest, ___versionSet) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Ocsp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ocsp::TbsRequest);

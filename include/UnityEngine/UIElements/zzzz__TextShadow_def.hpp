@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextShadow)
-namespace UnityEngine {
-struct Color;
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace System {
-class Object;
-}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -31,8 +31,8 @@ MARK_VAL_T(::UnityEngine::UIElements::TextShadow);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6790))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6876))
 // CS Name: ::UnityEngine.UIElements::TextShadow
 struct CORDL_TYPE TextShadow {
 public:
@@ -40,25 +40,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TextShadow>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TextShadow>*();
 
-  /// @brief Method Equals addr 0x2dba92c size 0x90 virtual true final false
+  /// @brief Method Equals addr 0x2c5357c size 0x90 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x2dba9bc size 0x80 virtual true final true
+  /// @brief Method Equals addr 0x2c5360c size 0x80 virtual true final true
   inline bool Equals(::UnityEngine::UIElements::TextShadow other);
 
-  /// @brief Method GetHashCode addr 0x2dbaa3c size 0xd8 virtual true final false
+  /// @brief Method GetHashCode addr 0x2c5368c size 0xd8 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality addr 0x2dbab14 size 0x30 virtual false final false
+  /// @brief Method op_Equality addr 0x2c53764 size 0x30 virtual false final false
   static inline bool op_Equality(::UnityEngine::UIElements::TextShadow style1, ::UnityEngine::UIElements::TextShadow style2);
 
-  /// @brief Method op_Inequality addr 0x2dbab44 size 0x48 virtual false final false
+  /// @brief Method op_Inequality addr 0x2c53794 size 0x48 virtual false final false
   static inline bool op_Inequality(::UnityEngine::UIElements::TextShadow style1, ::UnityEngine::UIElements::TextShadow style2);
 
-  /// @brief Method ToString addr 0x2dbab8c size 0xf4 virtual true final false
+  /// @brief Method ToString addr 0x2c537dc size 0xf4 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method LerpUnclamped addr 0x2dbac80 size 0x58 virtual false final false
+  /// @brief Method LerpUnclamped addr 0x2c538d0 size 0x58 virtual false final false
   static inline ::UnityEngine::UIElements::TextShadow LerpUnclamped(::UnityEngine::UIElements::TextShadow a, ::UnityEngine::UIElements::TextShadow b, float_t t);
 
   // Ctor Parameters [CppParam { name: "offset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "blurRadius", ty: "float_t", modifiers: "", def_value: None },
@@ -85,6 +85,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TextShadow, 0x1c>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TextShadow, offset) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TextShadow, blurRadius) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TextShadow, color) == 0xc, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TextShadow, "UnityEngine.UIElements", "TextShadow");

@@ -6,23 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericPriorityQueue_2)
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class __GenericPriorityQueue_2___GetEnumerator_d__25;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class __GenericPriorityQueue_2___GetEnumerator_d__25;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace Priority_Queue {
+template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
+}
+namespace Priority_Queue {
 template <typename TItem, typename TPriority> class IPriorityQueue_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -30,14 +33,11 @@ class IEnumerator;
 namespace System {
 template <typename T> class Comparison_1;
 }
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Priority_Queue {
@@ -55,8 +55,8 @@ namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6094))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6165))
 // CS Name: ::GenericPriorityQueue`2::<GetEnumerator>d__25<TItem,TPriority>*
 class CORDL_TYPE __GenericPriorityQueue_2___GetEnumerator_d__25 : public ::System::Object {
 public:
@@ -166,8 +166,8 @@ namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6095))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6166))
 // CS Name: ::Priority_Queue::GenericPriorityQueue`2<TItem,TPriority>*
 class CORDL_TYPE GenericPriorityQueue_2 : public ::System::Object {
 public:

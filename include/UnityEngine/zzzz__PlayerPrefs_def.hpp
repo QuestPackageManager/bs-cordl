@@ -16,43 +16,46 @@ MARK_REF_PTR_T(::UnityEngine::PlayerPrefs);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10040))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9968))
 // CS Name: ::UnityEngine::PlayerPrefs*
 class CORDL_TYPE PlayerPrefs : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TrySetInt addr 0x2c9e6f0 size 0x44 virtual false final false
+  /// @brief Method TrySetInt addr 0x2b399c8 size 0x44 virtual false final false
   static inline bool TrySetInt(::StringW key, int32_t value);
 
-  /// @brief Method TrySetSetString addr 0x2c9e734 size 0x44 virtual false final false
+  /// @brief Method TrySetSetString addr 0x2b39a0c size 0x44 virtual false final false
   static inline bool TrySetSetString(::StringW key, ::StringW value);
 
-  /// @brief Method SetInt addr 0x2c9e778 size 0x94 virtual false final false
+  /// @brief Method SetInt addr 0x2b39a50 size 0x94 virtual false final false
   static inline void SetInt(::StringW key, int32_t value);
 
-  /// @brief Method GetInt addr 0x2c9e80c size 0x44 virtual false final false
+  /// @brief Method GetInt addr 0x2b39ae4 size 0x44 virtual false final false
   static inline int32_t GetInt(::StringW key, int32_t defaultValue);
 
-  /// @brief Method GetInt addr 0x2c9e850 size 0x40 virtual false final false
+  /// @brief Method GetInt addr 0x2b39b28 size 0x40 virtual false final false
   static inline int32_t GetInt(::StringW key);
 
-  /// @brief Method SetString addr 0x2c9e890 size 0x94 virtual false final false
+  /// @brief Method SetString addr 0x2b39b68 size 0x94 virtual false final false
   static inline void SetString(::StringW key, ::StringW value);
 
-  /// @brief Method GetString addr 0x2c9e924 size 0x44 virtual false final false
+  /// @brief Method GetString addr 0x2b39bfc size 0x44 virtual false final false
   static inline ::StringW GetString(::StringW key, ::StringW defaultValue);
 
-  /// @brief Method GetString addr 0x2c9e968 size 0x6c virtual false final false
+  /// @brief Method GetString addr 0x2b39c40 size 0x6c virtual false final false
   static inline ::StringW GetString(::StringW key);
 
-  /// @brief Method HasKey addr 0x2c9e9d4 size 0x3c virtual false final false
+  /// @brief Method HasKey addr 0x2b39cac size 0x3c virtual false final false
   static inline bool HasKey(::StringW key);
 
-  /// @brief Method DeleteKey addr 0x2c9ea10 size 0x3c virtual false final false
+  /// @brief Method DeleteKey addr 0x2b39ce8 size 0x3c virtual false final false
   static inline void DeleteKey(::StringW key);
 
-  /// @brief Method Save addr 0x2c9ea4c size 0x28 virtual false final false
+  /// @brief Method DeleteAll addr 0x2b39d24 size 0x28 virtual false final false
+  static inline void DeleteAll();
+
+  /// @brief Method Save addr 0x2b39d4c size 0x28 virtual false final false
   static inline void Save();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerPrefs", modifiers: "&&", def_value: None }]

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AeadParameters)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::AeadParameters);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1013))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::AeadParameters*
 class CORDL_TYPE AeadParameters : public ::System::Object {
@@ -74,25 +74,25 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::AeadParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize,
                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method .ctor addr 0xf2f5bc size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0xeba3d0 size 0x40 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::AeadParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize,
                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, ::ArrayW<uint8_t, ::Array<uint8_t>*> associatedText);
 
-  /// @brief Method .ctor addr 0xf2f5fc size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0xeba410 size 0x44 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, ::ArrayW<uint8_t, ::Array<uint8_t>*> associatedText);
 
-  /// @brief Method get_Key addr 0xf2f640 size 0x8 virtual true final false
+  /// @brief Method get_Key addr 0xeba454 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
 
-  /// @brief Method get_MacSize addr 0xf2f648 size 0x8 virtual true final false
+  /// @brief Method get_MacSize addr 0xeba45c size 0x8 virtual true final false
   inline int32_t get_MacSize();
 
-  /// @brief Method GetAssociatedText addr 0xf2f650 size 0x8 virtual true final false
+  /// @brief Method GetAssociatedText addr 0xeba464 size 0x8 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetAssociatedText();
 
-  /// @brief Method GetNonce addr 0xf2f658 size 0x8 virtual true final false
+  /// @brief Method GetNonce addr 0xeba46c size 0x8 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetNonce();
 
   // Ctor Parameters [CppParam { name: "", ty: "AeadParameters", modifiers: "&&", def_value: None }]
@@ -125,6 +125,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::AeadParameters, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::AeadParameters, ___associatedText) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::AeadParameters, ___nonce) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::AeadParameters, ___key) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::AeadParameters, ___macSize) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::AeadParameters);

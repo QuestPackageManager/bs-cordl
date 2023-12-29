@@ -11,43 +11,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleSheet)
 namespace UnityEngine::UIElements {
-struct StyleValueHandle;
-}
-namespace UnityEngine::UIElements {
-struct StyleValueFunction;
-}
-namespace UnityEngine {
-class Object;
+class StyleRule;
 }
 namespace UnityEngine::UIElements {
 class StyleComplexSelector;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-struct ScalableImage;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace UnityEngine::UIElements {
-struct StyleValueType;
-}
-namespace UnityEngine::UIElements {
-struct __StyleSheet__ImportStruct;
-}
-namespace UnityEngine::UIElements {
-class StyleRule;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct Dimension;
-}
-namespace UnityEngine {
-struct Color;
+struct StyleValueFunction;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
+struct StyleValueType;
+}
+namespace UnityEngine::UIElements {
 struct StyleValueKeyword;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct ScalableImage;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct Dimension;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::UIElements {
+struct StyleValueHandle;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::UIElements {
+struct __StyleSheet__ImportStruct;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -64,7 +64,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__StyleSheet__ImportStruct);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7278))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7364))
 // CS Name: ::StyleSheet::ImportStruct
 struct CORDL_TYPE __StyleSheet__ImportStruct {
 public:
@@ -91,13 +91,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__StyleSheet__ImportStruct, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__StyleSheet__ImportStruct, styleSheet) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__StyleSheet__ImportStruct, mediaQueries) == 0x8, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::StyleSheet
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7279))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7365))
 // CS Name: ::UnityEngine.UIElements::StyleSheet*
 class CORDL_TYPE StyleSheet : public ::UnityEngine::ScriptableObject {
 public:
@@ -287,43 +291,43 @@ public:
 
   static inline ::StringW getStaticF_kCustomPropertyMarker();
 
-  /// @brief Method get_importedWithErrors addr 0x2e6b544 size 0x8 virtual false final false
+  /// @brief Method get_importedWithErrors addr 0x2d02194 size 0x8 virtual false final false
   inline bool get_importedWithErrors();
 
-  /// @brief Method set_importedWithErrors addr 0x2e6b54c size 0xc virtual false final false
+  /// @brief Method set_importedWithErrors addr 0x2d0219c size 0xc virtual false final false
   inline void set_importedWithErrors(bool value);
 
-  /// @brief Method get_importedWithWarnings addr 0x2e6b558 size 0x8 virtual false final false
+  /// @brief Method get_importedWithWarnings addr 0x2d021a8 size 0x8 virtual false final false
   inline bool get_importedWithWarnings();
 
-  /// @brief Method set_importedWithWarnings addr 0x2e6b560 size 0xc virtual false final false
+  /// @brief Method set_importedWithWarnings addr 0x2d021b0 size 0xc virtual false final false
   inline void set_importedWithWarnings(bool value);
 
-  /// @brief Method get_rules addr 0x2e6b56c size 0x8 virtual false final false
+  /// @brief Method get_rules addr 0x2d021bc size 0x8 virtual false final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> get_rules();
 
-  /// @brief Method set_rules addr 0x2e6b574 size 0x8 virtual false final false
+  /// @brief Method set_rules addr 0x2d021c4 size 0x8 virtual false final false
   inline void set_rules(::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> value);
 
-  /// @brief Method get_complexSelectors addr 0x2e6bad8 size 0x8 virtual false final false
+  /// @brief Method get_complexSelectors addr 0x2d02728 size 0x8 virtual false final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> get_complexSelectors();
 
-  /// @brief Method set_complexSelectors addr 0x2e6bae0 size 0x8 virtual false final false
+  /// @brief Method set_complexSelectors addr 0x2d02730 size 0x8 virtual false final false
   inline void set_complexSelectors(::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> value);
 
-  /// @brief Method get_flattenedRecursiveImports addr 0x2e6bae8 size 0x8 virtual false final false
+  /// @brief Method get_flattenedRecursiveImports addr 0x2d02738 size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* get_flattenedRecursiveImports();
 
-  /// @brief Method get_contentHash addr 0x2e6baf0 size 0x8 virtual false final false
+  /// @brief Method get_contentHash addr 0x2d02740 size 0x8 virtual false final false
   inline int32_t get_contentHash();
 
-  /// @brief Method set_contentHash addr 0x2e6baf8 size 0x8 virtual false final false
+  /// @brief Method set_contentHash addr 0x2d02748 size 0x8 virtual false final false
   inline void set_contentHash(int32_t value);
 
-  /// @brief Method get_isDefaultStyleSheet addr 0x2e6bb00 size 0x8 virtual false final false
+  /// @brief Method get_isDefaultStyleSheet addr 0x2d02750 size 0x8 virtual false final false
   inline bool get_isDefaultStyleSheet();
 
-  /// @brief Method set_isDefaultStyleSheet addr 0x2e6b274 size 0x160 virtual false final false
+  /// @brief Method set_isDefaultStyleSheet addr 0x2d01ec4 size 0x160 virtual false final false
   inline void set_isDefaultStyleSheet(bool value);
 
   /// @brief Method TryCheckAccess addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -333,87 +337,87 @@ public:
   /// @brief Method CheckAccess addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline T CheckAccess(::ArrayW<T, ::Array<T>*> list, ::UnityEngine::UIElements::StyleValueType type, ::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method OnEnable addr 0x2e6b3d4 size 0x4 virtual true final false
+  /// @brief Method OnEnable addr 0x2d02024 size 0x4 virtual true final false
   inline void OnEnable();
 
-  /// @brief Method FlattenImportedStyleSheetsRecursive addr 0x2e6bb08 size 0x7c virtual false final false
+  /// @brief Method FlattenImportedStyleSheetsRecursive addr 0x2d02758 size 0x7c virtual false final false
   inline void FlattenImportedStyleSheetsRecursive();
 
-  /// @brief Method FlattenImportedStyleSheetsRecursive addr 0x2e6bb84 size 0x148 virtual false final false
+  /// @brief Method FlattenImportedStyleSheetsRecursive addr 0x2d027d4 size 0x148 virtual false final false
   inline void FlattenImportedStyleSheetsRecursive(::UnityEngine::UIElements::StyleSheet* sheet);
 
-  /// @brief Method SetupReferences addr 0x2e6b57c size 0x55c virtual false final false
+  /// @brief Method SetupReferences addr 0x2d021cc size 0x55c virtual false final false
   inline void SetupReferences();
 
-  /// @brief Method ReadKeyword addr 0x2e6bd90 size 0x8 virtual false final false
+  /// @brief Method ReadKeyword addr 0x2d029e0 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::StyleValueKeyword ReadKeyword(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadFloat addr 0x2e6ad70 size 0xd4 virtual false final false
+  /// @brief Method ReadFloat addr 0x2d019c0 size 0xd4 virtual false final false
   inline float_t ReadFloat(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method TryReadFloat addr 0x2e6bd98 size 0xf4 virtual false final false
+  /// @brief Method TryReadFloat addr 0x2d029e8 size 0xf4 virtual false final false
   inline bool TryReadFloat(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<float_t> value);
 
-  /// @brief Method ReadDimension addr 0x2e6be8c size 0xf0 virtual false final false
+  /// @brief Method ReadDimension addr 0x2d02adc size 0xf0 virtual false final false
   inline ::UnityEngine::UIElements::StyleSheets::Dimension ReadDimension(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method TryReadDimension addr 0x2e6bf7c size 0x11c virtual false final false
+  /// @brief Method TryReadDimension addr 0x2d02bcc size 0x11c virtual false final false
   inline bool TryReadDimension(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::UnityEngine::UIElements::StyleSheets::Dimension> value);
 
-  /// @brief Method ReadColor addr 0x2e6c098 size 0x84 virtual false final false
+  /// @brief Method ReadColor addr 0x2d02ce8 size 0x84 virtual false final false
   inline ::UnityEngine::Color ReadColor(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method TryReadColor addr 0x2e6c11c size 0x8c virtual false final false
+  /// @brief Method TryReadColor addr 0x2d02d6c size 0x8c virtual false final false
   inline bool TryReadColor(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method ReadString addr 0x2e6c1a8 size 0x84 virtual false final false
+  /// @brief Method ReadString addr 0x2d02df8 size 0x84 virtual false final false
   inline ::StringW ReadString(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method TryReadString addr 0x2e6c22c size 0x8c virtual false final false
+  /// @brief Method TryReadString addr 0x2d02e7c size 0x8c virtual false final false
   inline bool TryReadString(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::StringW> value);
 
-  /// @brief Method ReadEnum addr 0x2e6c2b8 size 0x84 virtual false final false
+  /// @brief Method ReadEnum addr 0x2d02f08 size 0x84 virtual false final false
   inline ::StringW ReadEnum(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method TryReadEnum addr 0x2e6c33c size 0x8c virtual false final false
+  /// @brief Method TryReadEnum addr 0x2d02f8c size 0x8c virtual false final false
   inline bool TryReadEnum(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::StringW> value);
 
-  /// @brief Method ReadVariable addr 0x2e6ae44 size 0x84 virtual false final false
+  /// @brief Method ReadVariable addr 0x2d01a94 size 0x84 virtual false final false
   inline ::StringW ReadVariable(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method TryReadVariable addr 0x2e6c3c8 size 0x8c virtual false final false
+  /// @brief Method TryReadVariable addr 0x2d03018 size 0x8c virtual false final false
   inline bool TryReadVariable(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::StringW> value);
 
-  /// @brief Method ReadResourcePath addr 0x2e6c454 size 0x84 virtual false final false
+  /// @brief Method ReadResourcePath addr 0x2d030a4 size 0x84 virtual false final false
   inline ::StringW ReadResourcePath(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method TryReadResourcePath addr 0x2e6c4d8 size 0x8c virtual false final false
+  /// @brief Method TryReadResourcePath addr 0x2d03128 size 0x8c virtual false final false
   inline bool TryReadResourcePath(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::StringW> value);
 
-  /// @brief Method ReadAssetReference addr 0x2e6c564 size 0x84 virtual false final false
+  /// @brief Method ReadAssetReference addr 0x2d031b4 size 0x84 virtual false final false
   inline ::UnityEngine::Object* ReadAssetReference(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadMissingAssetReferenceUrl addr 0x2e6c5e8 size 0x84 virtual false final false
+  /// @brief Method ReadMissingAssetReferenceUrl addr 0x2d03238 size 0x84 virtual false final false
   inline ::StringW ReadMissingAssetReferenceUrl(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method TryReadAssetReference addr 0x2e6c66c size 0x8c virtual false final false
+  /// @brief Method TryReadAssetReference addr 0x2d032bc size 0x8c virtual false final false
   inline bool TryReadAssetReference(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::UnityEngine::Object*> value);
 
-  /// @brief Method ReadFunction addr 0x2e6c6f8 size 0x8 virtual false final false
+  /// @brief Method ReadFunction addr 0x2d03348 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::StyleValueFunction ReadFunction(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadFunctionName addr 0x2e6c700 size 0x154 virtual false final false
+  /// @brief Method ReadFunctionName addr 0x2d03350 size 0x154 virtual false final false
   inline ::StringW ReadFunctionName(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadScalableImage addr 0x2e6c854 size 0x84 virtual false final false
+  /// @brief Method ReadScalableImage addr 0x2d034a4 size 0x84 virtual false final false
   inline ::UnityEngine::UIElements::StyleSheets::ScalableImage ReadScalableImage(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method CustomStartsWith addr 0x2e6bccc size 0xc4 virtual false final false
+  /// @brief Method CustomStartsWith addr 0x2d0291c size 0xc4 virtual false final false
   static inline bool CustomStartsWith(::StringW originalString, ::StringW pattern);
 
   static inline ::UnityEngine::UIElements::StyleSheet* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e6b430 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d02080 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleSheet", modifiers: "&&", def_value: None }]
@@ -485,6 +489,40 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheet, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___m_ImportedWithErrors) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___m_ImportedWithWarnings) == 0x19, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___m_Rules) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___m_ComplexSelectors) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___floats) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___dimensions) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___colors) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___strings) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___assets) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___imports) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___m_FlattenedImportedStyleSheets) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___m_ContentHash) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___scalableImages) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___orderedNameSelectors) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___orderedTypeSelectors) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___orderedClassSelectors) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___m_IsDefaultStyleSheet) == 0x90, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::StyleSheet);

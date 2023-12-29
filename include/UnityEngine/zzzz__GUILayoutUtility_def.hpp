@@ -10,16 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUILayoutUtility)
 namespace UnityEngine {
-class GUIStyle;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine {
-class GUILayoutGroup;
-}
-namespace UnityEngine {
-class __GUILayoutUtility__LayoutCache;
+class GUILayoutOption;
 }
 namespace UnityEngine {
 class GUIContent;
@@ -28,7 +19,16 @@ namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-class GUILayoutOption;
+class __GUILayoutUtility__LayoutCache;
+}
+namespace UnityEngine {
+class GUIStyle;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine {
+class GUILayoutGroup;
 }
 namespace UnityEngineInternal {
 class GenericStack;
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::UnityEngine::__GUILayoutUtility__LayoutCache);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14606))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14823))
 // CS Name: ::GUILayoutUtility::LayoutCache*
 class CORDL_TYPE __GUILayoutUtility__LayoutCache : public ::System::Object {
 public:
@@ -91,15 +91,15 @@ public:
 
   constexpr void __set_windows(::UnityEngine::GUILayoutGroup* value);
 
-  /// @brief Method set_id addr 0x2d03288 size 0x8 virtual false final false
+  /// @brief Method set_id addr 0x2b9ae78 size 0x8 virtual false final false
   inline void set_id(int32_t value);
 
   static inline ::UnityEngine::__GUILayoutUtility__LayoutCache* New_ctor(int32_t instanceID);
 
-  /// @brief Method .ctor addr 0x2d01d54 size 0xd8 virtual false final false
+  /// @brief Method .ctor addr 0x2b99944 size 0xd8 virtual false final false
   inline void _ctor(int32_t instanceID);
 
-  /// @brief Method ResetCursor addr 0x2d03290 size 0x2e0 virtual false final false
+  /// @brief Method ResetCursor addr 0x2b9ae80 size 0x2e0 virtual false final false
   inline void ResetCursor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GUILayoutUtility__LayoutCache", modifiers: "&&", def_value: None }]
@@ -133,13 +133,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::__GUILayoutUtility__LayoutCache, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::__GUILayoutUtility__LayoutCache, ____id_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__GUILayoutUtility__LayoutCache, ___topLevel) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__GUILayoutUtility__LayoutCache, ___layoutGroups) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__GUILayoutUtility__LayoutCache, ___windows) == 0x28, "Offset mismatch!");
+
 } // namespace UnityEngine
 // Type: UnityEngine::GUILayoutUtility
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14607))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10093))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14824))
 // CS Name: ::UnityEngine::GUILayoutUtility*
 class CORDL_TYPE GUILayoutUtility : public ::System::Object {
 public:
@@ -176,51 +184,51 @@ public:
 
   static inline ::UnityEngine::Rect getStaticF_kDummyRect();
 
-  /// @brief Method Internal_GetWindowRect addr 0x2d01bb0 size 0x90 virtual false final false
+  /// @brief Method Internal_GetWindowRect addr 0x2b997a0 size 0x90 virtual false final false
   static inline ::UnityEngine::Rect Internal_GetWindowRect(int32_t windowID);
 
-  /// @brief Method Internal_MoveWindow addr 0x2d01c84 size 0x8c virtual false final false
+  /// @brief Method Internal_MoveWindow addr 0x2b99874 size 0x8c virtual false final false
   static inline void Internal_MoveWindow(int32_t windowID, ::UnityEngine::Rect r);
 
-  /// @brief Method SelectIDList addr 0x2cfd54c size 0x148 virtual false final false
+  /// @brief Method SelectIDList addr 0x2b9513c size 0x148 virtual false final false
   static inline ::UnityEngine::__GUILayoutUtility__LayoutCache* SelectIDList(int32_t instanceID, bool isWindow);
 
-  /// @brief Method Begin addr 0x2d01e2c size 0x1cc virtual false final false
+  /// @brief Method Begin addr 0x2b99a1c size 0x1cc virtual false final false
   static inline void Begin(int32_t instanceID);
 
-  /// @brief Method BeginContainer addr 0x2d02110 size 0x15c virtual false final false
+  /// @brief Method BeginContainer addr 0x2b99d00 size 0x15c virtual false final false
   static inline void BeginContainer(::UnityEngine::__GUILayoutUtility__LayoutCache* cache);
 
-  /// @brief Method BeginWindow addr 0x2cfd7cc size 0x278 virtual false final false
+  /// @brief Method BeginWindow addr 0x2b953bc size 0x278 virtual false final false
   static inline void BeginWindow(int32_t windowID, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method Layout addr 0x2cfda44 size 0x1f8 virtual false final false
+  /// @brief Method Layout addr 0x2b95634 size 0x1f8 virtual false final false
   static inline void Layout();
 
-  /// @brief Method LayoutFromEditorWindow addr 0x2d02620 size 0x1ec virtual false final false
+  /// @brief Method LayoutFromEditorWindow addr 0x2b9a210 size 0x1ec virtual false final false
   static inline void LayoutFromEditorWindow();
 
-  /// @brief Method LayoutFromContainer addr 0x2d0280c size 0x188 virtual false final false
+  /// @brief Method LayoutFromContainer addr 0x2b9a3fc size 0x188 virtual false final false
   static inline void LayoutFromContainer(float_t w, float_t h);
 
-  /// @brief Method LayoutFreeGroup addr 0x2d02294 size 0x1bc virtual false final false
+  /// @brief Method LayoutFreeGroup addr 0x2b99e84 size 0x1bc virtual false final false
   static inline void LayoutFreeGroup(::UnityEngine::GUILayoutGroup* toplevel);
 
-  /// @brief Method LayoutSingleGroup addr 0x2d02450 size 0x1d0 virtual false final false
+  /// @brief Method LayoutSingleGroup addr 0x2b9a040 size 0x1d0 virtual false final false
   static inline void LayoutSingleGroup(::UnityEngine::GUILayoutGroup* i);
 
-  /// @brief Method GetRect addr 0x2d0299c size 0x6c virtual false final false
+  /// @brief Method GetRect addr 0x2b9a58c size 0x6c virtual false final false
   static inline ::UnityEngine::Rect GetRect(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style,
                                             ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method DoGetRect addr 0x2d02a08 size 0x338 virtual false final false
+  /// @brief Method DoGetRect addr 0x2b9a5f8 size 0x338 virtual false final false
   static inline ::UnityEngine::Rect DoGetRect(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style,
                                               ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method Internal_GetWindowRect_Injected addr 0x2d01c40 size 0x44 virtual false final false
+  /// @brief Method Internal_GetWindowRect_Injected addr 0x2b99830 size 0x44 virtual false final false
   static inline void Internal_GetWindowRect_Injected(int32_t windowID, ByRef<::UnityEngine::Rect> ret);
 
-  /// @brief Method Internal_MoveWindow_Injected addr 0x2d01d10 size 0x44 virtual false final false
+  /// @brief Method Internal_MoveWindow_Injected addr 0x2b99900 size 0x44 virtual false final false
   static inline void Internal_MoveWindow_Injected(int32_t windowID, ByRef<::UnityEngine::Rect> r);
 
   // Ctor Parameters [CppParam { name: "", ty: "GUILayoutUtility", modifiers: "&&", def_value: None }]

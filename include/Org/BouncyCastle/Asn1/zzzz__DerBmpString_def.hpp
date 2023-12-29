@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DerBmpString)
-namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
-}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerOutputStream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -44,34 +44,34 @@ public:
 
   constexpr void __set_str(::StringW value);
 
-  /// @brief Method GetInstance addr 0x11c0628 size 0xf0 virtual false final false
+  /// @brief Method GetInstance addr 0x114f3d8 size 0xf0 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerBmpString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance addr 0x11c0718 size 0xd8 virtual false final false
+  /// @brief Method GetInstance addr 0x114f4c8 size 0xd8 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerBmpString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::DerBmpString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor addr 0x11c07f0 size 0x198 virtual false final false
+  /// @brief Method .ctor addr 0x114f5a0 size 0x198 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
   static inline ::Org::BouncyCastle::Asn1::DerBmpString* New_ctor(::ArrayW<char16_t, ::Array<char16_t>*> str);
 
-  /// @brief Method .ctor addr 0x11b709c size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x1145e4c size 0x88 virtual false final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> str);
 
   static inline ::Org::BouncyCastle::Asn1::DerBmpString* New_ctor(::StringW str);
 
-  /// @brief Method .ctor addr 0x11c0988 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x114f738 size 0x78 virtual false final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method GetString addr 0x11c0a00 size 0x8 virtual true final false
+  /// @brief Method GetString addr 0x114f7b0 size 0x8 virtual true final false
   inline ::StringW GetString();
 
-  /// @brief Method Asn1Equals addr 0x11c0a08 size 0xa0 virtual true final false
+  /// @brief Method Asn1Equals addr 0x114f7b8 size 0xa0 virtual true final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Encode addr 0x11c0aa8 size 0xfc virtual true final false
+  /// @brief Method Encode addr 0x114f858 size 0xfc virtual true final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "DerBmpString", modifiers: "&&", def_value: None }]
@@ -95,6 +95,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::DerBmpString, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::DerBmpString, ___str) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerBmpString);

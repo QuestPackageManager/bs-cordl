@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::_ParameterInfo);
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3346))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3342))
 // CS Name: ::System.Runtime.InteropServices::_ParameterInfo*
 class CORDL_TYPE _ParameterInfo {
 public:

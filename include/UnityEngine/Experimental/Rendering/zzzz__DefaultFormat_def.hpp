@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Experimental::Rendering::DefaultFormat);
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10405))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10327))
 // CS Name: ::UnityEngine.Experimental.Rendering::DefaultFormat
 struct CORDL_TYPE DefaultFormat {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Rendering::DefaultFormat, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::Rendering::DefaultFormat, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Experimental::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Rendering::DefaultFormat, "UnityEngine.Experimental.Rendering", "DefaultFormat");

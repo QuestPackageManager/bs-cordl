@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelMissionParser)
-namespace GlobalNamespace {
-class __LevelMissionParser__ParserFunction;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
+namespace GlobalNamespace {
+class __LevelMissionParser__ParserFunction;
+}
 namespace System {
-class Object;
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
-class AsyncCallback;
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,24 +38,24 @@ MARK_REF_PTR_T(::GlobalNamespace::__LevelMissionParser__ParserFunction);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4237))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4270))
 // CS Name: ::LevelMissionParser::ParserFunction*
 class CORDL_TYPE __LevelMissionParser__ParserFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__LevelMissionParser__ParserFunction* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x232ca9c size 0xd8 virtual false final false
+  /// @brief Method .ctor addr 0x21dbd68 size 0xd8 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x232cb74 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x21dbe40 size 0x14 virtual true final false
   inline bool Invoke(::ArrayW<float_t, ::Array<float_t>*> functionParams, int32_t paramCount);
 
-  /// @brief Method BeginInvoke addr 0x232cb88 size 0x94 virtual true final false
+  /// @brief Method BeginInvoke addr 0x21dbe54 size 0x94 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::ArrayW<float_t, ::Array<float_t>*> functionParams, int32_t paramCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x232cc1c size 0x28 virtual true final false
+  /// @brief Method EndInvoke addr 0x21dbee8 size 0x28 virtual true final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LevelMissionParser__ParserFunction", modifiers: "&&", def_value: None }]
@@ -82,8 +82,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelMissionP
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4238))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4271))
 // CS Name: ::LevelMissionParser*
 class CORDL_TYPE LevelMissionParser : public ::System::Object {
 public:
@@ -101,19 +101,19 @@ public:
 
   static inline ::GlobalNamespace::LevelMissionParser* New_ctor();
 
-  /// @brief Method .ctor addr 0x232c3d8 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x21db6a4 size 0x84 virtual false final false
   inline void _ctor();
 
-  /// @brief Method AddFunction addr 0x232c45c size 0x68 virtual false final false
+  /// @brief Method AddFunction addr 0x21db728 size 0x68 virtual false final false
   inline void AddFunction(::StringW name, ::GlobalNamespace::__LevelMissionParser__ParserFunction* function);
 
-  /// @brief Method Parse addr 0x232c4c4 size 0x1c virtual false final false
+  /// @brief Method Parse addr 0x21db790 size 0x1c virtual false final false
   inline bool Parse(::StringW s);
 
-  /// @brief Method Parse addr 0x232c4e0 size 0x2c8 virtual false final false
+  /// @brief Method Parse addr 0x21db7ac size 0x2c8 virtual false final false
   inline bool Parse(::StringW s, int32_t start, int32_t length);
 
-  /// @brief Method ParseFunction addr 0x232c7a8 size 0x2f4 virtual false final false
+  /// @brief Method ParseFunction addr 0x21dba74 size 0x2f4 virtual false final false
   inline bool ParseFunction(::StringW s, int32_t start, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelMissionParser", modifiers: "&&", def_value: None }]
@@ -137,6 +137,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelMissionParser, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelMissionParser, ____functions) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelMissionParser);

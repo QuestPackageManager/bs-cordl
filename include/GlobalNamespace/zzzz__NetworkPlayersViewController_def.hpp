@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NetworkPlayersViewController)
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class INetworkPlayer;
-}
 namespace GlobalNamespace {
 class INetworkPlayerModel;
 }
 namespace GlobalNamespace {
 class NetworkPlayersTableView;
+}
+namespace GlobalNamespace {
+class INetworkPlayer;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NetworkPlayersViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5725))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5824))
 // CS Name: ::NetworkPlayersViewController*
 class CORDL_TYPE NetworkPlayersViewController : public ::HMUI::ViewController {
 public:
@@ -84,48 +84,48 @@ public:
   /// @brief Method get_networkPlayerModel addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::GlobalNamespace::INetworkPlayerModel* get_networkPlayerModel();
 
-  /// @brief Method add_onJoinRequestEvent addr 0x22d2178 size 0xb0 virtual false final false
+  /// @brief Method add_onJoinRequestEvent addr 0x218f454 size 0xb0 virtual false final false
   inline void add_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method remove_onJoinRequestEvent addr 0x22d2228 size 0xb0 virtual false final false
+  /// @brief Method remove_onJoinRequestEvent addr 0x218f504 size 0xb0 virtual false final false
   inline void remove_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method add_onInviteRequestEvent addr 0x22d22d8 size 0xb0 virtual false final false
+  /// @brief Method add_onInviteRequestEvent addr 0x218f5b4 size 0xb0 virtual false final false
   inline void add_onInviteRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method remove_onInviteRequestEvent addr 0x22d2388 size 0xb0 virtual false final false
+  /// @brief Method remove_onInviteRequestEvent addr 0x218f664 size 0xb0 virtual false final false
   inline void remove_onInviteRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method DidActivate addr 0x22d2438 size 0x2e8 virtual true final false
+  /// @brief Method DidActivate addr 0x218f714 size 0x2e8 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method NetworkPlayersViewControllerDidActivate addr 0x22d28b0 size 0x4 virtual true final false
+  /// @brief Method NetworkPlayersViewControllerDidActivate addr 0x218fb8c size 0x4 virtual true final false
   inline void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
 
-  /// @brief Method DidDeactivate addr 0x22d28b4 size 0x2b4 virtual true final false
+  /// @brief Method DidDeactivate addr 0x218fb90 size 0x2b4 virtual true final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method NetworkPlayersViewControllerDidDeactivate addr 0x22d2b68 size 0x4 virtual true final false
+  /// @brief Method NetworkPlayersViewControllerDidDeactivate addr 0x218fe44 size 0x4 virtual true final false
   inline void NetworkPlayersViewControllerDidDeactivate(bool removedFromHierarchy);
 
-  /// @brief Method OnDestroy addr 0x22d2b6c size 0x8 virtual true final false
+  /// @brief Method OnDestroy addr 0x2186088 size 0x8 virtual true final false
   inline void OnDestroy();
 
-  /// @brief Method HandlePartyChanged addr 0x22d2b74 size 0x18 virtual false final false
+  /// @brief Method HandlePartyChanged addr 0x218fe48 size 0x18 virtual false final false
   inline void HandlePartyChanged(::GlobalNamespace::INetworkPlayerModel* playerModel);
 
-  /// @brief Method HandleJoinRequest addr 0x22d2b8c size 0x1c virtual false final false
+  /// @brief Method HandleJoinRequest addr 0x218fe60 size 0x1c virtual false final false
   inline void HandleJoinRequest(::GlobalNamespace::INetworkPlayer* player);
 
-  /// @brief Method HandleInviteRequest addr 0x22d2ba8 size 0x1c virtual false final false
+  /// @brief Method HandleInviteRequest addr 0x218fe7c size 0x1c virtual false final false
   inline void HandleInviteRequest(::GlobalNamespace::INetworkPlayer* player);
 
-  /// @brief Method Refresh addr 0x22d2720 size 0x190 virtual false final false
+  /// @brief Method Refresh addr 0x218f9fc size 0x190 virtual false final false
   inline void Refresh();
 
   static inline ::GlobalNamespace::NetworkPlayersViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22d2bc4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21860b8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersViewController", modifiers: "&&", def_value: None }]
@@ -158,6 +158,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkPlayersViewController, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayersViewController, ____networkPlayersTableView) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayersViewController, ____refreshIsNeeded) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayersViewController, ___onJoinRequestEvent) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayersViewController, ___onInviteRequestEvent) == 0x88, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NetworkPlayersViewController);

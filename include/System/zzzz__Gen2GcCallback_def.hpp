@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
 CORDL_MODULE_EXPORT(Gen2GcCallback)
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class Object;
 }
 namespace System {
-class Object;
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace System {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Gen2GcCallback);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(3354))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3350)), TypeDefinitionIndex(TypeDefinitionIndex(3332))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2384))
 // CS Name: ::System::Gen2GcCallback*
 class CORDL_TYPE Gen2GcCallback : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
@@ -47,16 +47,16 @@ public:
 
   static inline ::System::Gen2GcCallback* New_ctor();
 
-  /// @brief Method .ctor addr 0x2597368 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x243bd28 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Register addr 0x2597370 size 0x80 virtual false final false
+  /// @brief Method Register addr 0x243bd30 size 0x80 virtual false final false
   static inline void Register(::System::Func_2<::System::Object*, bool>* callback, ::System::Object* targetObj);
 
-  /// @brief Method Setup addr 0x25973f0 size 0x28 virtual false final false
+  /// @brief Method Setup addr 0x243bdb0 size 0x28 virtual false final false
   inline void Setup(::System::Func_2<::System::Object*, bool>* callback, ::System::Object* targetObj);
 
-  /// @brief Method Finalize addr 0x2597418 size 0x1ac virtual true final false
+  /// @brief Method Finalize addr 0x243bdd8 size 0x1ac virtual true final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "Gen2GcCallback", modifiers: "&&", def_value: None }]
@@ -83,6 +83,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Gen2GcCallback, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Gen2GcCallback, ____callback) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Gen2GcCallback, ____weakTargetObj) == 0x18, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::Gen2GcCallback);

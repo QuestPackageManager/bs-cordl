@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerBigAvatarInstaller)
 namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
 class PlayersSpecificSettingsAtGameStartModel;
 }
 namespace GlobalNamespace {
 class __SaberManager__InitData;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBigAvatarInstaller);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5192))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5296))
 // CS Name: ::MultiplayerBigAvatarInstaller*
 class CORDL_TYPE MultiplayerBigAvatarInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -56,12 +56,12 @@ public:
 
   constexpr void __set__playerSpecificSettings(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
 
-  /// @brief Method InstallBindings addr 0x2245108 size 0x414 virtual true final false
+  /// @brief Method InstallBindings addr 0x21041d4 size 0x224 virtual true final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerBigAvatarInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x224551c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21043f8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBigAvatarInstaller", modifiers: "&&", def_value: None }]
@@ -91,6 +91,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerBigAvatarInstaller, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerBigAvatarInstaller, ____connectedPlayer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerBigAvatarInstaller, ____saberManagerInitData) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerBigAvatarInstaller, ____playerSpecificSettings) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerBigAvatarInstaller);

@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IList)
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System {
 class Object;
 }
 namespace System::Collections {
 class ICollection;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Collections::IList);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3762))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3750))
 // CS Name: ::System.Collections::IList*
 class CORDL_TYPE IList {
 public:

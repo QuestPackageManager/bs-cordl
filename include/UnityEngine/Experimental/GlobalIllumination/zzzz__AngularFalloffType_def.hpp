@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType);
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10389))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10311))
 // CS Name: ::UnityEngine.Experimental.GlobalIllumination::AngularFalloffType
 struct CORDL_TYPE AngularFalloffType {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Experimental::GlobalIllumination
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType, "UnityEngine.Experimental.GlobalIllumination", "AngularFalloffType");

@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::ComponentModel::PropertyChangedEventArgs);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9466))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8303))
 // CS Name: ::System.ComponentModel::PropertyChangedEventArgs*
 class CORDL_TYPE PropertyChangedEventArgs : public ::System::EventArgs {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::ComponentModel::PropertyChangedEventArgs* New_ctor(::StringW propertyName);
 
-  /// @brief Method .ctor addr 0x29199b0 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x279b988 size 0x6c virtual false final false
   inline void _ctor(::StringW propertyName);
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyChangedEventArgs", modifiers: "&&", def_value: None }]
@@ -56,6 +56,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::PropertyChangedEventArgs, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::PropertyChangedEventArgs, ____propertyName) == 0x10, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::PropertyChangedEventArgs);

@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(784))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::WhirlpoolDigest*
 class CORDL_TYPE WhirlpoolDigest : public ::System::Object {
@@ -190,66 +190,66 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest* New_ctor();
 
-  /// @brief Method .ctor addr 0xeaab58 size 0x2b0 virtual false final false
+  /// @brief Method .ctor addr 0xe36984 size 0x2b0 virtual false final false
   inline void _ctor();
 
-  /// @brief Method packIntoLong addr 0xeaab24 size 0x34 virtual false final false
+  /// @brief Method packIntoLong addr 0xe36950 size 0x34 virtual false final false
   static inline int64_t packIntoLong(int32_t b7, int32_t b6, int32_t b5, int32_t b4, int32_t b3, int32_t b2, int32_t b1, int32_t b0);
 
-  /// @brief Method maskWithReductionPolynomial addr 0xeaab10 size 0x14 virtual false final false
+  /// @brief Method maskWithReductionPolynomial addr 0xe3693c size 0x14 virtual false final false
   static inline int32_t maskWithReductionPolynomial(int32_t input);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest* originalDigest);
 
-  /// @brief Method .ctor addr 0xeaae08 size 0x110 virtual false final false
+  /// @brief Method .ctor addr 0xe36c34 size 0x110 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest* originalDigest);
 
-  /// @brief Method get_AlgorithmName addr 0xeab080 size 0x40 virtual true final true
+  /// @brief Method get_AlgorithmName addr 0xe36eac size 0x40 virtual true final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetDigestSize addr 0xeab0c0 size 0x8 virtual true final true
+  /// @brief Method GetDigestSize addr 0xe36eec size 0x8 virtual true final true
   inline int32_t GetDigestSize();
 
-  /// @brief Method DoFinal addr 0xeab0c8 size 0xc4 virtual true final true
+  /// @brief Method DoFinal addr 0xe36ef4 size 0xc4 virtual true final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xeab2b8 size 0xbc virtual true final true
+  /// @brief Method Reset addr 0xe370e4 size 0xbc virtual true final true
   inline void Reset();
 
-  /// @brief Method processFilledBuffer addr 0xeab374 size 0xe0 virtual false final false
+  /// @brief Method processFilledBuffer addr 0xe371a0 size 0xe0 virtual false final false
   inline void processFilledBuffer();
 
-  /// @brief Method bytesToLongFromBuffer addr 0xeab454 size 0xd4 virtual false final false
+  /// @brief Method bytesToLongFromBuffer addr 0xe37280 size 0xd4 virtual false final false
   static inline int64_t bytesToLongFromBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t startPos);
 
-  /// @brief Method convertLongToByteArray addr 0xeab260 size 0x58 virtual false final false
+  /// @brief Method convertLongToByteArray addr 0xe3708c size 0x58 virtual false final false
   static inline void convertLongToByteArray(int64_t inputLong, ::ArrayW<uint8_t, ::Array<uint8_t>*> outputArray, int32_t offSet);
 
-  /// @brief Method processBlock addr 0xeab528 size 0x6b0 virtual false final false
+  /// @brief Method processBlock addr 0xe37354 size 0x6b0 virtual false final false
   inline void processBlock();
 
-  /// @brief Method Update addr 0xeabbd8 size 0x64 virtual true final true
+  /// @brief Method Update addr 0xe37a04 size 0x64 virtual true final true
   inline void Update(uint8_t input);
 
-  /// @brief Method increment addr 0xeabc3c size 0xf4 virtual false final false
+  /// @brief Method increment addr 0xe37a68 size 0xf4 virtual false final false
   inline void increment();
 
-  /// @brief Method BlockUpdate addr 0xeabd30 size 0x6c virtual true final true
+  /// @brief Method BlockUpdate addr 0xe37b5c size 0x6c virtual true final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method finish addr 0xeab18c size 0xd4 virtual false final false
+  /// @brief Method finish addr 0xe36fb8 size 0xd4 virtual false final false
   inline void finish();
 
-  /// @brief Method copyBitLength addr 0xeabd9c size 0xa8 virtual false final false
+  /// @brief Method copyBitLength addr 0xe37bc8 size 0xa8 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> copyBitLength();
 
-  /// @brief Method GetByteLength addr 0xeabe44 size 0x8 virtual true final true
+  /// @brief Method GetByteLength addr 0xe37c70 size 0x8 virtual true final true
   inline int32_t GetByteLength();
 
-  /// @brief Method Copy addr 0xeabe4c size 0x60 virtual true final true
+  /// @brief Method Copy addr 0xe37c78 size 0x60 virtual true final true
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method Reset addr 0xeaaf18 size 0x168 virtual true final true
+  /// @brief Method Reset addr 0xe36d44 size 0x168 virtual true final true
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "WhirlpoolDigest", modifiers: "&&", def_value: None }]
@@ -312,6 +312,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, ____rc) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, ____buffer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, ____bufferPos) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, ____bitCount) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, ____hash) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, ____K) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, ____L) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, ____block) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest, ____state) == 0x50, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Digests
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest);

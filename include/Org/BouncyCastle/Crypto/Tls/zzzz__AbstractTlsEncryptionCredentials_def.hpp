@@ -39,7 +39,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials* New_ctor();
 
-  /// @brief Method .ctor addr 0xf5b55c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xee534c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsEncryptionCredentials", modifiers: "&&", def_value: None }]

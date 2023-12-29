@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SerObjectInfoCache)
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 class MemberInfo;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::SerObjectIn
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3284))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3283))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::SerObjectInfoCache*
 class CORDL_TYPE SerObjectInfoCache : public ::System::Object {
 public:
@@ -84,12 +84,12 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* New_ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom);
 
-  /// @brief Method .ctor addr 0x24cb308 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x2372804 size 0x3c virtual false final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor addr 0x24cb344 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0x2372840 size 0x8c virtual false final false
   inline void _ctor(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "SerObjectInfoCache", modifiers: "&&", def_value: None }]
@@ -128,6 +128,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache, ___fullTypeName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache, ___assemblyString) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache, ___hasTypeForwardedFrom) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache, ___memberInfos) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache, ___memberNames) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache, ___memberTypes) == 0x38, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache);

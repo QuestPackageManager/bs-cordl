@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::DtdProcessing);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11414))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11342))
 // CS Name: ::System.Xml::DtdProcessing
 struct CORDL_TYPE DtdProcessing {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::DtdProcessing, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::DtdProcessing, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::DtdProcessing, "System.Xml", "DtdProcessing");

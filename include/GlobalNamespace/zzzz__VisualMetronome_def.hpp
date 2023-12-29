@@ -10,13 +10,13 @@ namespace UnityEngine::UI {
 class Image;
 }
 namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
 class RectTransform;
 }
 namespace UnityEngine {
 class AudioSource;
-}
-namespace UnityEngine {
-struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::VisualMetronome);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 117, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5407))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5497))
 // CS Name: ::VisualMetronome*
 class CORDL_TYPE VisualMetronome : public ::UnityEngine::MonoBehaviour {
 public:
@@ -184,36 +184,36 @@ public:
 
   constexpr void __set__dontTickThisFrame(bool value);
 
-  /// @brief Method set_tickerColor addr 0x2274738 size 0x24 virtual false final false
+  /// @brief Method set_tickerColor addr 0x212efa8 size 0x24 virtual false final false
   inline void set_tickerColor(::UnityEngine::Color value);
 
-  /// @brief Method set_movingTickerColor addr 0x227475c size 0x24 virtual false final false
+  /// @brief Method set_movingTickerColor addr 0x212efcc size 0x24 virtual false final false
   inline void set_movingTickerColor(::UnityEngine::Color value);
 
-  /// @brief Method set_zeroOffset addr 0x2274780 size 0x10 virtual false final false
+  /// @brief Method set_zeroOffset addr 0x212eff0 size 0x10 virtual false final false
   inline void set_zeroOffset(float_t value);
 
-  /// @brief Method get_zeroOffset addr 0x2274790 size 0x8 virtual false final false
+  /// @brief Method get_zeroOffset addr 0x212f000 size 0x8 virtual false final false
   inline float_t get_zeroOffset();
 
-  /// @brief Method Awake addr 0x2274798 size 0x98 virtual false final false
+  /// @brief Method Awake addr 0x212f008 size 0x98 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnEnable addr 0x2274830 size 0x48 virtual false final false
+  /// @brief Method OnEnable addr 0x212f0a0 size 0x48 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2274878 size 0x48 virtual false final false
+  /// @brief Method OnDisable addr 0x212f0e8 size 0x48 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method Update addr 0x22748c0 size 0x150 virtual false final false
+  /// @brief Method Update addr 0x212f130 size 0x150 virtual false final false
   inline void Update();
 
-  /// @brief Method SetMovingTickerNormalizedPosition addr 0x2274a10 size 0xc8 virtual false final false
+  /// @brief Method SetMovingTickerNormalizedPosition addr 0x212f280 size 0xc8 virtual false final false
   inline void SetMovingTickerNormalizedPosition(float_t t);
 
   static inline ::GlobalNamespace::VisualMetronome* New_ctor();
 
-  /// @brief Method .ctor addr 0x2274ad8 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x212f348 size 0x3c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualMetronome", modifiers: "&&", def_value: None }]
@@ -282,6 +282,38 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VisualMetronome, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____audioSource) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____leftPadding) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____rightPadding) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____ticker) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____movingTicker) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____tickerImage) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____movingTickerImage) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____metronomeInterval) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____normalTickerSize) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____tickTickerSize0) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____tickTickerSize1) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____smooth) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____prevAudioTime) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____zeroOffset) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____direction) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VisualMetronome, ____dontTickThisFrame) == 0x74, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::VisualMetronome);

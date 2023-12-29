@@ -13,7 +13,7 @@ namespace RootMotion::FinalIK {
 class __Amplifier__Body;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace GlobalNamespace {
 class __Amplifier__Body__EffectorLink;
@@ -22,7 +22,7 @@ namespace RootMotion::FinalIK {
 class IKSolverFullBodyBiped;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__Amplifier__Body);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12571)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12633))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12499))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12561))
 // CS Name: ::Amplifier::Body::EffectorLink*
 class CORDL_TYPE __Amplifier__Body__EffectorLink : public ::System::Object {
 public:
@@ -68,7 +68,7 @@ public:
 
   static inline ::GlobalNamespace::__Amplifier__Body__EffectorLink* New_ctor();
 
-  /// @brief Method .ctor addr 0x1294a24 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x12236f8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Amplifier__Body__EffectorLink", modifiers: "&&", def_value: None }]
@@ -96,13 +96,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Amplifier__Body__EffectorLink, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__Amplifier__Body__EffectorLink, ___effector) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__Amplifier__Body__EffectorLink, ___weight) == 0x14, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Body
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 77, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12634))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12562))
 // CS Name: ::Amplifier::Body*
 class CORDL_TYPE __Amplifier__Body : public ::System::Object {
 public:
@@ -191,15 +195,15 @@ public:
 
   constexpr void __set_firstUpdate(bool value);
 
-  /// @brief Method Update addr 0x12946cc size 0x310 virtual false final false
+  /// @brief Method Update addr 0x12233a0 size 0x310 virtual false final false
   inline void Update(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t w, float_t deltaTime);
 
-  /// @brief Method Multiply addr 0x12949fc size 0x10 virtual false final false
+  /// @brief Method Multiply addr 0x12236d0 size 0x10 virtual false final false
   static inline ::UnityEngine::Vector3 Multiply(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2);
 
   static inline ::RootMotion::FinalIK::__Amplifier__Body* New_ctor();
 
-  /// @brief Method .ctor addr 0x1294a0c size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x12236e0 size 0x18 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Amplifier__Body", modifiers: "&&", def_value: None }]
@@ -248,13 +252,31 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__Amplifier__Body, 0x50>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__Amplifier__Body, ___transform) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Amplifier__Body, ___relativeTo) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Amplifier__Body, ___effectorLinks) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Amplifier__Body, ___verticalWeight) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Amplifier__Body, ___horizontalWeight) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Amplifier__Body, ___speed) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Amplifier__Body, ___lastRelativePos) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Amplifier__Body, ___smoothDelta) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Amplifier__Body, ___firstUpdate) == 0x4c, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: RootMotion.FinalIK::Amplifier
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12656))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12635))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12584))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12563))
 // CS Name: ::RootMotion.FinalIK::Amplifier*
 class CORDL_TYPE Amplifier : public ::RootMotion::FinalIK::OffsetModifier {
 public:
@@ -270,12 +292,12 @@ public:
 
   constexpr void __set_bodies(::ArrayW<::RootMotion::FinalIK::__Amplifier__Body*, ::Array<::RootMotion::FinalIK::__Amplifier__Body*>*> value);
 
-  /// @brief Method OnModifyOffset addr 0x129457c size 0x130 virtual true final false
+  /// @brief Method OnModifyOffset addr 0x1223250 size 0x130 virtual true final false
   inline void OnModifyOffset();
 
   static inline ::RootMotion::FinalIK::Amplifier* New_ctor();
 
-  /// @brief Method .ctor addr 0x12949dc size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x12236b0 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Amplifier", modifiers: "&&", def_value: None }]
@@ -299,6 +321,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::Amplifier, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Amplifier, ___bodies) == 0x30, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::GlobalNamespace::__Amplifier__Body__EffectorLink);

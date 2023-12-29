@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SetSaberBladeParams)
 namespace GlobalNamespace {
-class ColorManager;
+class __SetSaberBladeParams__PropertyTintColorPair;
+}
+namespace UnityEngine {
+class MeshRenderer;
 }
 namespace GlobalNamespace {
 class SaberTypeObject;
 }
 namespace GlobalNamespace {
-class __SetSaberBladeParams__PropertyTintColorPair;
-}
-namespace UnityEngine {
-class MeshRenderer;
+class ColorManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5304))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5399))
 // CS Name: ::SetSaberBladeParams::PropertyTintColorPair*
 class CORDL_TYPE __SetSaberBladeParams__PropertyTintColorPair : public ::System::Object {
 public:
@@ -60,7 +60,7 @@ public:
 
   static inline ::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair* New_ctor();
 
-  /// @brief Method .ctor addr 0x2264988 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21207b8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SetSaberBladeParams__PropertyTintColorPair", modifiers: "&&", def_value: None }]
@@ -88,13 +88,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair, ___tintColor) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair, ___property) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SetSaberBladeParams
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5305))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5400))
 // CS Name: ::SetSaberBladeParams*
 class CORDL_TYPE SetSaberBladeParams : public ::UnityEngine::MonoBehaviour {
 public:
@@ -141,12 +145,12 @@ public:
 
   constexpr void __set__colorManager(::GlobalNamespace::ColorManager* value);
 
-  /// @brief Method Start addr 0x226487c size 0x104 virtual false final false
+  /// @brief Method Start addr 0x21206ac size 0x104 virtual false final false
   inline void Start();
 
   static inline ::GlobalNamespace::SetSaberBladeParams* New_ctor();
 
-  /// @brief Method .ctor addr 0x2264980 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21207b0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SetSaberBladeParams", modifiers: "&&", def_value: None }]
@@ -179,6 +183,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SetSaberBladeParams, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SetSaberBladeParams, ____saber) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SetSaberBladeParams, ____meshRenderer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SetSaberBladeParams, ____propertyTintColorPairs) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SetSaberBladeParams, ____colorManager) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SetSaberBladeParams);

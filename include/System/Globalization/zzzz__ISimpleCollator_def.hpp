@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISimpleCollator)
 namespace System::Globalization {
-class SortKey;
+struct CompareOptions;
 }
 namespace System::Globalization {
-struct CompareOptions;
+class SortKey;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Globalization::ISimpleCollator);
 namespace System::Globalization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3711))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3699))
 // CS Name: ::System.Globalization::ISimpleCollator*
 class CORDL_TYPE ISimpleCollator {
 public:

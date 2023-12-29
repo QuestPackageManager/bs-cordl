@@ -10,14 +10,14 @@ class DerObjectIdentifier;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X500 {
@@ -59,24 +59,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x107f660 size 0xe0 virtual false final false
+  /// @brief Method .ctor addr 0x100e410 size 0xe0 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0x107f740 size 0xf0 virtual false final false
+  /// @brief Method GetInstance addr 0x100e4f0 size 0xf0 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* type, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor addr 0x107f830 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x100e5e0 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* type, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method get_Type addr 0x107f85c size 0x8 virtual true final false
+  /// @brief Method get_Type addr 0x100e60c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
 
-  /// @brief Method get_Value addr 0x107f864 size 0x8 virtual true final false
+  /// @brief Method get_Value addr 0x100e614 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
-  /// @brief Method ToAsn1Object addr 0x107f86c size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x100e61c size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "AttributeTypeAndValue", modifiers: "&&", def_value: None }]
@@ -103,6 +103,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue, ___type) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue, ___value) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X500
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue);

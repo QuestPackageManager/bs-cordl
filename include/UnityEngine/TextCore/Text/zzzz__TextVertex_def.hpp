@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(TextVertex)
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
 namespace UnityEngine {
 struct Color32;
@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::TextVertex);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13698))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10177)), TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13577))
 // CS Name: ::UnityEngine.TextCore.Text::TextVertex
 struct CORDL_TYPE TextVertex {
 public:
@@ -63,6 +63,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextVertex, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextVertex, position) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextVertex, uv) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextVertex, uv2) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextVertex, uv4) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextVertex, color) == 0x24, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextVertex, "UnityEngine.TextCore.Text", "TextVertex");

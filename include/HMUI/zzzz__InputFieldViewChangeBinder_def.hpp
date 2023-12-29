@@ -8,16 +8,16 @@ namespace UnityEngine::Events {
 template <typename T0> class UnityAction_1;
 }
 namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
 template <typename T1, typename T2> class Tuple_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace HMUI {
 class InputFieldView;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace HMUI {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::HMUI::InputFieldViewChangeBinder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13515))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13635))
 // CS Name: ::HMUI::InputFieldViewChangeBinder*
 class CORDL_TYPE InputFieldViewChangeBinder : public ::System::Object {
 public:
@@ -59,25 +59,25 @@ public:
 
   static inline ::HMUI::InputFieldViewChangeBinder* New_ctor();
 
-  /// @brief Method .ctor addr 0x2118c18 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x1fc3090 size 0x24 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0x2118c3c size 0x74 virtual false final false
+  /// @brief Method Init addr 0x1fc30b4 size 0x74 virtual false final false
   inline void Init();
 
-  /// @brief Method AddBindings addr 0x2118cb0 size 0x164 virtual false final false
+  /// @brief Method AddBindings addr 0x1fc3128 size 0x164 virtual false final false
   inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::InputFieldView*, ::System::Action_1<::HMUI::InputFieldView*>*>*>* bindings);
 
-  /// @brief Method AddBinding addr 0x2118e14 size 0xd8 virtual false final false
+  /// @brief Method AddBinding addr 0x1fc328c size 0xd8 virtual false final false
   inline void AddBinding(::HMUI::InputFieldView* inputField, ::System::Action_1<::HMUI::InputFieldView*>* action);
 
-  /// @brief Method ClearBindings addr 0x2118eec size 0x234 virtual false final false
+  /// @brief Method ClearBindings addr 0x1fc3364 size 0x234 virtual false final false
   inline void ClearBindings();
 
-  /// @brief Method Disable addr 0x2119120 size 0x204 virtual false final false
+  /// @brief Method Disable addr 0x1fc3598 size 0x204 virtual false final false
   inline void Disable();
 
-  /// @brief Method Enable addr 0x2119324 size 0x208 virtual false final false
+  /// @brief Method Enable addr 0x1fc379c size 0x208 virtual false final false
   inline void Enable();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputFieldViewChangeBinder", modifiers: "&&", def_value: None }]
@@ -104,6 +104,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::InputFieldViewChangeBinder, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::InputFieldViewChangeBinder, ____bindings) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::InputFieldViewChangeBinder, ____enabled) == 0x18, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::InputFieldViewChangeBinder);

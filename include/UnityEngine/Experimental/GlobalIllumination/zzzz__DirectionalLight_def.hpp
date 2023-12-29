@@ -32,8 +32,8 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight);
 // SizeInfo { instance_size: 84, native_size: 88, calculated_instance_size: 84, calculated_native_size: 100, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10390)), TypeDefinitionIndex(TypeDefinitionIndex(10387)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10391)) CS Name: ::UnityEngine.Experimental.GlobalIllumination::DirectionalLight
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10309)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10312))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10313)) CS Name: ::UnityEngine.Experimental.GlobalIllumination::DirectionalLight
 struct CORDL_TYPE DirectionalLight {
 public:
   // Declarations
@@ -84,6 +84,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, 0x54>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, instanceID) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, shadow) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, mode) == 0x5, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, position) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, orientation) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, color) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, indirectColor) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, penumbraWidthRadian) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, direction) == 0x48, "Offset mismatch!");
 
 } // namespace UnityEngine::Experimental::GlobalIllumination
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, "UnityEngine.Experimental.GlobalIllumination", "DirectionalLight");

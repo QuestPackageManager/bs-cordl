@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Visibility);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6896))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6982))
 // CS Name: ::UnityEngine.UIElements::Visibility
 struct CORDL_TYPE Visibility {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Visibility, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Visibility, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Visibility, "UnityEngine.UIElements", "Visibility");

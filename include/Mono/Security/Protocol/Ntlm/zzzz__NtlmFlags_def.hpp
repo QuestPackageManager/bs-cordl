@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Security::Protocol::Ntlm::NtlmFlags);
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13767))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14038))
 // CS Name: ::Mono.Security.Protocol.Ntlm::NtlmFlags
 struct CORDL_TYPE NtlmFlags {
 public:
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Protocol::Ntlm::NtlmFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::Protocol::Ntlm::NtlmFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Mono::Security::Protocol::Ntlm
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Protocol::Ntlm::NtlmFlags, "Mono.Security.Protocol.Ntlm", "NtlmFlags");

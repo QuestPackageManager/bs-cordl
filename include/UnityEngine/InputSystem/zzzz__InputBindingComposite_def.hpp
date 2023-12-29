@@ -10,35 +10,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputBindingComposite)
-namespace UnityEngine::InputSystem {
-struct InputBindingCompositeContext;
-}
 namespace System {
 class Object;
-}
-namespace System {
-class Type;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::InputSystem {
+struct InputBindingCompositeContext;
+}
+namespace UnityEngine::InputSystem {
 class __InputBindingComposite___GetPartNames_d__12;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System {
-class IDisposable;
+class Type;
 }
-namespace System::Reflection {
-class FieldInfo;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System::Reflection {
+class FieldInfo;
+}
+namespace System {
+class IDisposable;
+}
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -54,8 +54,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::__InputBindingComposite___GetPartName
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6188))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6274))
 // CS Name: ::InputBindingComposite::<GetPartNames>d__12*
 class CORDL_TYPE __InputBindingComposite___GetPartNames_d__12 : public ::System::Object {
 public:
@@ -144,28 +144,28 @@ public:
 
   static inline ::UnityEngine::InputSystem::__InputBindingComposite___GetPartNames_d__12* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2a56114 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x28d63cc size 0x34 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2a56270 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x28d6528 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2a56274 size 0x1d0 virtual true final true
+  /// @brief Method MoveNext addr 0x28d652c size 0x1d0 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current addr 0x2a56444 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current addr 0x28d66fc size 0x8 virtual true final true
   inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2a5644c size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x28d6704 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2a5648c size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x28d6744 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator addr 0x2a56494 size 0xa4 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator addr 0x28d674c size 0xa4 virtual true final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System_Collections_Generic_IEnumerable_System_String__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2a56538 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x28d67f0 size 0x4 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputBindingComposite___GetPartNames_d__12", modifiers: "&&", def_value: None }]
@@ -208,13 +208,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputBindingComposite___GetPartNames_d__12, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingComposite___GetPartNames_d__12, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingComposite___GetPartNames_d__12, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingComposite___GetPartNames_d__12, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingComposite___GetPartNames_d__12, ___composite) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingComposite___GetPartNames_d__12, _____3__composite) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingComposite___GetPartNames_d__12, _____7__wrap1) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingComposite___GetPartNames_d__12, _____7__wrap2) == 0x40, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: UnityEngine.InputSystem::InputBindingComposite
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6712)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6189))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(6798))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6275))
 // CS Name: ::UnityEngine.InputSystem::InputBindingComposite*
 class CORDL_TYPE InputBindingComposite : public ::System::Object {
 public:
@@ -244,30 +258,30 @@ public:
   /// @brief Method ReadValueAsObject addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Object* ReadValueAsObject(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method EvaluateMagnitude addr 0x2a55db0 size 0x8 virtual true final false
+  /// @brief Method EvaluateMagnitude addr 0x28d6068 size 0x8 virtual true final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method FinishSetup addr 0x2a55db8 size 0x4 virtual true final false
+  /// @brief Method FinishSetup addr 0x28d6070 size 0x4 virtual true final false
   inline void FinishSetup(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method CallFinishSetup addr 0x2a4e40c size 0xc virtual false final false
+  /// @brief Method CallFinishSetup addr 0x28ce6c4 size 0xc virtual false final false
   inline void CallFinishSetup(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method GetValueType addr 0x2a55dbc size 0x144 virtual false final false
+  /// @brief Method GetValueType addr 0x28d6074 size 0x144 virtual false final false
   static inline ::System::Type* GetValueType(::StringW composite);
 
-  /// @brief Method GetExpectedControlLayoutName addr 0x2a55f00 size 0x19c virtual false final false
+  /// @brief Method GetExpectedControlLayoutName addr 0x28d61b8 size 0x19c virtual false final false
   static inline ::StringW GetExpectedControlLayoutName(::StringW composite, ::StringW part);
 
-  /// @brief Method GetPartNames addr 0x2a5609c size 0x78 virtual false final false
+  /// @brief Method GetPartNames addr 0x28d6354 size 0x78 virtual false final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetPartNames(::StringW composite);
 
-  /// @brief Method GetDisplayFormatString addr 0x2a56148 size 0x120 virtual false final false
+  /// @brief Method GetDisplayFormatString addr 0x28d6400 size 0x120 virtual false final false
   static inline ::StringW GetDisplayFormatString(::StringW composite);
 
   static inline ::UnityEngine::InputSystem::InputBindingComposite* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a56268 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x28d6520 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite", modifiers: "&&", def_value: None }]

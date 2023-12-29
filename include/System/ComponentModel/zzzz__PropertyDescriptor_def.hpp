@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PropertyDescriptor)
-namespace System {
-class Type;
-}
-namespace System::ComponentModel {
-class MemberDescriptor;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class Attribute;
+namespace System::Collections {
+class IList;
 }
 namespace System::Collections {
 class Hashtable;
 }
-namespace System::ComponentModel {
-class TypeConverter;
-}
-namespace System::Collections {
-class IList;
-}
 namespace System {
 class EventArgs;
+}
+namespace System {
+class Type;
+}
+namespace System {
+class Attribute;
+}
+namespace System {
+class Object;
+}
+namespace System::ComponentModel {
+class MemberDescriptor;
+}
+namespace System::ComponentModel {
+class TypeConverter;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::System::ComponentModel::PropertyDescriptor);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9474))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9444))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8311))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8281))
 // CS Name: ::System.ComponentModel::PropertyDescriptor*
 class CORDL_TYPE PropertyDescriptor : public ::System::ComponentModel::MemberDescriptor {
 public:
@@ -100,12 +100,12 @@ public:
 
   static inline ::System::ComponentModel::PropertyDescriptor* New_ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method .ctor addr 0x2912154 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x279412c size 0x8 virtual false final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
   static inline ::System::ComponentModel::PropertyDescriptor* New_ctor(::System::ComponentModel::MemberDescriptor* descr, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method .ctor addr 0x29102cc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27922a4 size 0x8 virtual false final false
   inline void _ctor(::System::ComponentModel::MemberDescriptor* descr, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
   /// @brief Method get_ComponentType addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -120,22 +120,22 @@ public:
   /// @brief Method CanResetValue addr 0x0 size 0xffffffffffffffff virtual true final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method Equals addr 0x291215c size 0x200 virtual true final false
+  /// @brief Method Equals addr 0x2794134 size 0x200 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method FillAttributes addr 0x291235c size 0x14 virtual true final false
+  /// @brief Method FillAttributes addr 0x2794334 size 0x14 virtual true final false
   inline void FillAttributes(::System::Collections::IList* attributeList);
 
-  /// @brief Method GetHashCode addr 0x2912370 size 0x54 virtual true final false
+  /// @brief Method GetHashCode addr 0x2794348 size 0x54 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetInvocationTarget addr 0x29123c4 size 0xe8 virtual true final false
+  /// @brief Method GetInvocationTarget addr 0x279439c size 0xe8 virtual true final false
   inline ::System::Object* GetInvocationTarget(::System::Type* type, ::System::Object* instance);
 
   /// @brief Method GetValue addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Object* GetValue(::System::Object* component);
 
-  /// @brief Method OnValueChanged addr 0x29124ac size 0xb0 virtual true final false
+  /// @brief Method OnValueChanged addr 0x2794484 size 0xb0 virtual true final false
   inline void OnValueChanged(::System::Object* component, ::System::EventArgs* e);
 
   /// @brief Method ResetValue addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -180,6 +180,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::PropertyDescriptor, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::PropertyDescriptor, ____converter) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::PropertyDescriptor, ____valueChangedHandlers) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::PropertyDescriptor, ____editors) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::PropertyDescriptor, ____editorTypes) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::PropertyDescriptor, ____editorCount) == 0x80, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::PropertyDescriptor);

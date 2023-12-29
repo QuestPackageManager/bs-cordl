@@ -12,22 +12,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlReaderSettings)
 namespace System::Xml {
-class XmlNameTable;
-}
-namespace System::Xml {
-struct ConformanceLevel;
-}
-namespace System::Xml::Schema {
-class XmlSchemaSet;
+struct DtdProcessing;
 }
 namespace System::Xml {
 struct ValidationType;
 }
 namespace System::Xml {
-struct DtdProcessing;
+class XmlNameTable;
 }
 namespace System::Xml {
 class XmlResolver;
+}
+namespace System::Xml::Schema {
+class XmlSchemaSet;
+}
+namespace System::Xml {
+struct ConformanceLevel;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -39,9 +39,9 @@ MARK_REF_PTR_T(::System::Xml::XmlReaderSettings);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 99, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(11414)), TypeDefinitionIndex(TypeDefinitionIndex(11743)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11413)), TypeDefinitionIndex(TypeDefinitionIndex(11445)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11457)) CS Name: ::System.Xml::XmlReaderSettings*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(11341)), TypeDefinitionIndex(TypeDefinitionIndex(11373)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2446)), TypeDefinitionIndex(TypeDefinitionIndex(11342)), TypeDefinitionIndex(TypeDefinitionIndex(11671)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2446), inst: 112 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11385)) CS Name: ::System.Xml::XmlReaderSettings*
 class CORDL_TYPE XmlReaderSettings : public ::System::Object {
 public:
   // Declarations
@@ -257,73 +257,73 @@ public:
 
   static inline ::System::Xml::XmlReaderSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x285a0a4 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x26de088 size 0x20 virtual false final false
   inline void _ctor();
 
-  /// @brief Method set_NameTable addr 0x285a0cc size 0x5c virtual false final false
+  /// @brief Method set_NameTable addr 0x26de0b0 size 0x5c virtual false final false
   inline void set_NameTable(::System::Xml::XmlNameTable* value);
 
-  /// @brief Method set_IsXmlResolverSet addr 0x285a1e0 size 0xc virtual false final false
+  /// @brief Method set_IsXmlResolverSet addr 0x26de1c4 size 0xc virtual false final false
   inline void set_IsXmlResolverSet(bool value);
 
-  /// @brief Method set_XmlResolver addr 0x285a1ec size 0x64 virtual false final false
+  /// @brief Method set_XmlResolver addr 0x26de1d0 size 0x64 virtual false final false
   inline void set_XmlResolver(::System::Xml::XmlResolver* value);
 
-  /// @brief Method GetXmlResolver addr 0x285a250 size 0x8 virtual false final false
+  /// @brief Method GetXmlResolver addr 0x26de234 size 0x8 virtual false final false
   inline ::System::Xml::XmlResolver* GetXmlResolver();
 
-  /// @brief Method set_LineNumberOffset addr 0x285a258 size 0x5c virtual false final false
+  /// @brief Method set_LineNumberOffset addr 0x26de23c size 0x5c virtual false final false
   inline void set_LineNumberOffset(int32_t value);
 
-  /// @brief Method set_LinePositionOffset addr 0x285a2b4 size 0x5c virtual false final false
+  /// @brief Method set_LinePositionOffset addr 0x26de298 size 0x5c virtual false final false
   inline void set_LinePositionOffset(int32_t value);
 
-  /// @brief Method set_ConformanceLevel addr 0x285a310 size 0xb0 virtual false final false
+  /// @brief Method set_ConformanceLevel addr 0x26de2f4 size 0xb0 virtual false final false
   inline void set_ConformanceLevel(::System::Xml::ConformanceLevel value);
 
-  /// @brief Method set_CheckCharacters addr 0x285a3c0 size 0x5c virtual false final false
+  /// @brief Method set_CheckCharacters addr 0x26de3a4 size 0x5c virtual false final false
   inline void set_CheckCharacters(bool value);
 
-  /// @brief Method set_MaxCharactersInDocument addr 0x285a41c size 0xac virtual false final false
+  /// @brief Method set_MaxCharactersInDocument addr 0x26de400 size 0xac virtual false final false
   inline void set_MaxCharactersInDocument(int64_t value);
 
-  /// @brief Method set_MaxCharactersFromEntities addr 0x285a4c8 size 0xac virtual false final false
+  /// @brief Method set_MaxCharactersFromEntities addr 0x26de4ac size 0xac virtual false final false
   inline void set_MaxCharactersFromEntities(int64_t value);
 
-  /// @brief Method set_IgnoreWhitespace addr 0x285a574 size 0x5c virtual false final false
+  /// @brief Method set_IgnoreWhitespace addr 0x26de558 size 0x5c virtual false final false
   inline void set_IgnoreWhitespace(bool value);
 
-  /// @brief Method set_IgnoreProcessingInstructions addr 0x285a5d0 size 0x5c virtual false final false
+  /// @brief Method set_IgnoreProcessingInstructions addr 0x26de5b4 size 0x5c virtual false final false
   inline void set_IgnoreProcessingInstructions(bool value);
 
-  /// @brief Method set_IgnoreComments addr 0x285a62c size 0x5c virtual false final false
+  /// @brief Method set_IgnoreComments addr 0x26de610 size 0x5c virtual false final false
   inline void set_IgnoreComments(bool value);
 
-  /// @brief Method set_DtdProcessing addr 0x285a688 size 0xb0 virtual false final false
+  /// @brief Method set_DtdProcessing addr 0x26de66c size 0xb0 virtual false final false
   inline void set_DtdProcessing(::System::Xml::DtdProcessing value);
 
-  /// @brief Method get_ValidationType addr 0x285a738 size 0x8 virtual false final false
+  /// @brief Method get_ValidationType addr 0x26de71c size 0x8 virtual false final false
   inline ::System::Xml::ValidationType get_ValidationType();
 
-  /// @brief Method get_Schemas addr 0x285a740 size 0x6c virtual false final false
+  /// @brief Method get_Schemas addr 0x26de724 size 0x6c virtual false final false
   inline ::System::Xml::Schema::XmlSchemaSet* get_Schemas();
 
-  /// @brief Method set_ReadOnly addr 0x285a7ac size 0xc virtual false final false
+  /// @brief Method set_ReadOnly addr 0x26de790 size 0xc virtual false final false
   inline void set_ReadOnly(bool value);
 
-  /// @brief Method CheckReadOnly addr 0x285a128 size 0xb8 virtual false final false
+  /// @brief Method CheckReadOnly addr 0x26de10c size 0xb8 virtual false final false
   inline void CheckReadOnly(::StringW propertyName);
 
-  /// @brief Method Initialize addr 0x285a0c4 size 0x8 virtual false final false
+  /// @brief Method Initialize addr 0x26de0a8 size 0x8 virtual false final false
   inline void Initialize();
 
-  /// @brief Method Initialize addr 0x285a7b8 size 0x64 virtual false final false
+  /// @brief Method Initialize addr 0x26de79c size 0x64 virtual false final false
   inline void Initialize(::System::Xml::XmlResolver* resolver);
 
-  /// @brief Method CreateDefaultResolver addr 0x285a81c size 0x5c virtual false final false
+  /// @brief Method CreateDefaultResolver addr 0x26de800 size 0x5c virtual false final false
   static inline ::System::Xml::XmlResolver* CreateDefaultResolver();
 
-  /// @brief Method EnableLegacyXmlSettings addr 0x285a878 size 0x100 virtual false final false
+  /// @brief Method EnableLegacyXmlSettings addr 0x26de85c size 0x100 virtual false final false
   static inline bool EnableLegacyXmlSettings();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlReaderSettings", modifiers: "&&", def_value: None }]
@@ -401,6 +401,44 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlReaderSettings, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___useAsync) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___nameTable) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___xmlResolver) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___lineNumberOffset) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___linePositionOffset) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___conformanceLevel) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___checkCharacters) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___maxCharactersInDocument) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___maxCharactersFromEntities) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___ignoreWhitespace) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___ignorePIs) == 0x49, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___ignoreComments) == 0x4a, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___dtdProcessing) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___validationType) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___validationFlags) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___schemas) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___closeInput) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ___isReadOnly) == 0x61, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlReaderSettings, ____IsXmlResolverSet_k__BackingField) == 0x62, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlReaderSettings);

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::XR::XRNode);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15614))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15571))
 // CS Name: ::UnityEngine.XR::XRNode
 struct CORDL_TYPE XRNode {
 public:
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::XRNode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::XRNode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRNode, "UnityEngine.XR", "XRNode");

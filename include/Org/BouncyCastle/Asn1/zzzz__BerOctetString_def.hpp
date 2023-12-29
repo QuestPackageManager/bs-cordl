@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BerOctetString)
 namespace System::Collections {
+class IEnumerator;
+}
+namespace Org::BouncyCastle::Asn1 {
+class __BerOctetString__ChunkEnumerator;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerOutputStream;
+}
+namespace System::Collections {
 class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class __BerOctetString__ChunkEnumerator;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
+class DerOctetString;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerOctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(480))
 // CS Name: ::BerOctetString::ChunkEnumerator*
 class CORDL_TYPE __BerOctetString__ChunkEnumerator : public ::System::Object {
@@ -94,16 +94,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> octets, int32_t chunkSize);
 
-  /// @brief Method .ctor addr 0x11bcac0 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x114b870 size 0x38 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> octets, int32_t chunkSize);
 
-  /// @brief Method get_Current addr 0x11bcf2c size 0x50 virtual true final true
+  /// @brief Method get_Current addr 0x114bcdc size 0x50 virtual true final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method MoveNext addr 0x11bcf7c size 0x12c virtual true final true
+  /// @brief Method MoveNext addr 0x114bd2c size 0x12c virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x11bd0a8 size 0xc virtual true final true
+  /// @brief Method Reset addr 0x114be58 size 0xc virtual true final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BerOctetString__ChunkEnumerator", modifiers: "&&", def_value: None }]
@@ -136,6 +136,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator, ___octets) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator, ___chunkSize) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator, ___currentChunk) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator, ___nextChunkPos) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 // Type: Org.BouncyCastle.Asn1::BerOctetString
@@ -178,54 +186,54 @@ public:
 
   static inline int32_t getStaticF_DefaultChunkSize();
 
-  /// @brief Method FromSequence addr 0x11b7640 size 0x12c virtual false final false
+  /// @brief Method FromSequence addr 0x11463f0 size 0x12c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::BerOctetString* FromSequence(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToBytes addr 0x11bc5b4 size 0xd8 virtual false final false
+  /// @brief Method ToBytes addr 0x114b364 size 0xd8 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToBytes(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs);
 
-  /// @brief Method ToOctetStringArray addr 0x11bc68c size 0x1ec virtual false final false
+  /// @brief Method ToOctetStringArray addr 0x114b43c size 0x1ec virtual false final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> ToOctetStringArray(::System::Collections::IEnumerable* e);
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetString* New_ctor(::System::Collections::IEnumerable* e);
 
-  /// @brief Method .ctor addr 0x11bc878 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x114b628 size 0x6c virtual false final false
   inline void _ctor(::System::Collections::IEnumerable* e);
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor addr 0x11bc8e4 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x114b694 size 0x7c virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetString* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs);
 
-  /// @brief Method .ctor addr 0x11b4e3c size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x1143bec size 0x70 virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs);
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str, int32_t chunkSize);
 
-  /// @brief Method .ctor addr 0x11bc960 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x114b710 size 0x28 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str, int32_t chunkSize);
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetString* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs,
                                                                     int32_t chunkSize);
 
-  /// @brief Method .ctor addr 0x11bc988 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x114b738 size 0x7c virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs, int32_t chunkSize);
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetString*
   New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str, ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs, int32_t chunkSize);
 
-  /// @brief Method .ctor addr 0x11bca04 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x114b7b4 size 0x2c virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str, ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs, int32_t chunkSize);
 
-  /// @brief Method GetEnumerator addr 0x11bca30 size 0x90 virtual true final true
+  /// @brief Method GetEnumerator addr 0x114b7e0 size 0x90 virtual true final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method GetObjects addr 0x11bcaf8 size 0x4 virtual false final false
+  /// @brief Method GetObjects addr 0x114b8a8 size 0x4 virtual false final false
   inline ::System::Collections::IEnumerator* GetObjects();
 
-  /// @brief Method Encode addr 0x11bcafc size 0x3e4 virtual true final false
+  /// @brief Method Encode addr 0x114b8ac size 0x3e4 virtual true final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "BerOctetString", modifiers: "&&", def_value: None }]
@@ -252,6 +260,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::BerOctetString, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::BerOctetString, ___chunkSize) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::BerOctetString, ___octs) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::BerOctetString);

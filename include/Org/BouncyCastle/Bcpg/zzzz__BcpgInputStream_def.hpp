@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BcpgInputStream)
-namespace Org::BouncyCastle::Bcpg {
-class __BcpgInputStream__PartialInputStream;
-}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class Packet;
+class __BcpgInputStream__PartialInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct PacketTag;
+}
+namespace Org::BouncyCastle::Bcpg {
+class Packet;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -67,16 +67,16 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn, bool partial, int32_t dataLength);
 
-  /// @brief Method .ctor addr 0x11cd280 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x115c030 size 0x40 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn, bool partial, int32_t dataLength);
 
-  /// @brief Method ReadByte addr 0x11cf344 size 0xac virtual true final false
+  /// @brief Method ReadByte addr 0x115e0f4 size 0xac virtual true final false
   inline int32_t ReadByte();
 
-  /// @brief Method Read addr 0x11cf520 size 0xe0 virtual true final false
+  /// @brief Method Read addr 0x115e2d0 size 0xe0 virtual true final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadPartialDataLength addr 0x11cf3f0 size 0x130 virtual false final false
+  /// @brief Method ReadPartialDataLength addr 0x115e1a0 size 0x130 virtual false final false
   inline int32_t ReadPartialDataLength();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BcpgInputStream__PartialInputStream", modifiers: "&&", def_value: None }]
@@ -106,6 +106,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream, ___m_in) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream, ___partial) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream, ___dataLength) == 0x3c, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 // Type: Org.BouncyCastle.Bcpg::BcpgInputStream
@@ -147,36 +153,36 @@ public:
 
   constexpr void __set_nextB(int32_t value);
 
-  /// @brief Method Wrap addr 0x11cc880 size 0x98 virtual false final false
+  /// @brief Method Wrap addr 0x115b630 size 0x98 virtual false final false
   static inline ::Org::BouncyCastle::Bcpg::BcpgInputStream* Wrap(::System::IO::Stream* inStr);
 
   static inline ::Org::BouncyCastle::Bcpg::BcpgInputStream* New_ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method .ctor addr 0x11cc918 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x115b6c8 size 0x2c virtual false final false
   inline void _ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method ReadByte addr 0x11cc944 size 0x40 virtual true final false
+  /// @brief Method ReadByte addr 0x115b6f4 size 0x40 virtual true final false
   inline int32_t ReadByte();
 
-  /// @brief Method Read addr 0x11cc984 size 0xb4 virtual true final false
+  /// @brief Method Read addr 0x115b734 size 0xb4 virtual true final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadAll addr 0x11cca38 size 0x8 virtual false final false
+  /// @brief Method ReadAll addr 0x115b7e8 size 0x8 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAll();
 
-  /// @brief Method ReadFully addr 0x11cca40 size 0x5c virtual false final false
+  /// @brief Method ReadFully addr 0x115b7f0 size 0x5c virtual false final false
   inline void ReadFully(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t off, int32_t len);
 
-  /// @brief Method ReadFully addr 0x11cca9c size 0x1c virtual false final false
+  /// @brief Method ReadFully addr 0x115b84c size 0x1c virtual false final false
   inline void ReadFully(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method NextPacketTag addr 0x11ccab8 size 0xe0 virtual false final false
+  /// @brief Method NextPacketTag addr 0x115b868 size 0xe0 virtual false final false
   inline ::Org::BouncyCastle::Bcpg::PacketTag NextPacketTag();
 
-  /// @brief Method ReadPacket addr 0x11ccb98 size 0x6e8 virtual false final false
+  /// @brief Method ReadPacket addr 0x115b948 size 0x6e8 virtual false final false
   inline ::Org::BouncyCastle::Bcpg::Packet* ReadPacket();
 
-  /// @brief Method Close addr 0x11cf2dc size 0x68 virtual true final false
+  /// @brief Method Close addr 0x115e08c size 0x68 virtual true final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "BcpgInputStream", modifiers: "&&", def_value: None }]
@@ -206,6 +212,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::BcpgInputStream, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::BcpgInputStream, ___m_in) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::BcpgInputStream, ___next) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::BcpgInputStream, ___nextB) == 0x3c, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::BcpgInputStream);

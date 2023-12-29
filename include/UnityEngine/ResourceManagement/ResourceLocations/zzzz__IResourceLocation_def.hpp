@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(IResourceLocation)
 namespace System {
 class Object;
 }
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceLocations {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLo
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14021))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14292))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceLocations::IResourceLocation*
 class CORDL_TYPE IResourceLocation {
 public:

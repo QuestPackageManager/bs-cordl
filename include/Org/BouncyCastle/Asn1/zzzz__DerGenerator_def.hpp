@@ -54,24 +54,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerGenerator* New_ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor addr 0x11c2b18 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x11518c8 size 0x2c virtual false final false
   inline void _ctor(::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Asn1::DerGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method .ctor addr 0x11c2b44 size 0x4c virtual false final false
+  /// @brief Method .ctor addr 0x11518f4 size 0x4c virtual false final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method WriteLength addr 0x11c2b90 size 0xac virtual false final false
+  /// @brief Method WriteLength addr 0x1151940 size 0xac virtual false final false
   static inline void WriteLength(::System::IO::Stream* outStr, int32_t length);
 
-  /// @brief Method WriteDerEncoded addr 0x11c2c3c size 0x60 virtual false final false
+  /// @brief Method WriteDerEncoded addr 0x11519ec size 0x60 virtual false final false
   static inline void WriteDerEncoded(::System::IO::Stream* outStream, int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method WriteDerEncoded addr 0x11c2c9c size 0xe0 virtual false final false
+  /// @brief Method WriteDerEncoded addr 0x1151a4c size 0xe0 virtual false final false
   inline void WriteDerEncoded(int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method WriteDerEncoded addr 0x11c2d7c size 0x34 virtual false final false
+  /// @brief Method WriteDerEncoded addr 0x1151b2c size 0x34 virtual false final false
   static inline void WriteDerEncoded(::System::IO::Stream* outStr, int32_t tag, ::System::IO::Stream* inStr);
 
   // Ctor Parameters [CppParam { name: "", ty: "DerGenerator", modifiers: "&&", def_value: None }]
@@ -101,6 +101,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::DerGenerator, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::DerGenerator, ____tagged) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::DerGenerator, ____isExplicit) == 0x19, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::DerGenerator, ____tagNo) == 0x1c, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerGenerator);

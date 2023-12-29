@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Diagnostics::DefaultTraceListener);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8943))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8958))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7780))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7795))
 // CS Name: ::System.Diagnostics::DefaultTraceListener*
 class CORDL_TYPE DefaultTraceListener : public ::System::Diagnostics::TraceListener {
 public:
@@ -53,39 +53,39 @@ public:
 
   static inline ::StringW getStaticF_MonoTraceFile();
 
-  /// @brief Method GetPrefix addr 0x29736d0 size 0x7c virtual false final false
+  /// @brief Method GetPrefix addr 0x27f5958 size 0x7c virtual false final false
   static inline ::StringW GetPrefix(::StringW var, ::StringW target);
 
   static inline ::System::Diagnostics::DefaultTraceListener* New_ctor();
 
-  /// @brief Method .ctor addr 0x296d128 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x27ef82c size 0x64 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_LogFileName addr 0x297374c size 0x8 virtual false final false
+  /// @brief Method get_LogFileName addr 0x27f59d4 size 0x8 virtual false final false
   inline ::StringW get_LogFileName();
 
-  /// @brief Method WriteWindowsDebugString addr 0x2973754 size 0x4 virtual false final false
+  /// @brief Method WriteWindowsDebugString addr 0x27f59dc size 0x4 virtual false final false
   static inline void WriteWindowsDebugString(::cordl_internals::Ptr<char16_t> message);
 
-  /// @brief Method WriteDebugString addr 0x2973758 size 0xb0 virtual false final false
+  /// @brief Method WriteDebugString addr 0x27f59e0 size 0xb0 virtual false final false
   inline void WriteDebugString(::StringW message);
 
-  /// @brief Method WriteMonoTrace addr 0x2973808 size 0x1ac virtual false final false
+  /// @brief Method WriteMonoTrace addr 0x27f5a90 size 0x1ac virtual false final false
   inline void WriteMonoTrace(::StringW message);
 
-  /// @brief Method WritePrefix addr 0x2973c30 size 0x88 virtual false final false
+  /// @brief Method WritePrefix addr 0x27f5eb8 size 0x88 virtual false final false
   inline void WritePrefix();
 
-  /// @brief Method WriteImpl addr 0x2973cb8 size 0xbc virtual false final false
+  /// @brief Method WriteImpl addr 0x27f5f40 size 0xbc virtual false final false
   inline void WriteImpl(::StringW message);
 
-  /// @brief Method WriteLogFile addr 0x29739b4 size 0x27c virtual false final false
+  /// @brief Method WriteLogFile addr 0x27f5c3c size 0x27c virtual false final false
   inline void WriteLogFile(::StringW message, ::StringW logFile);
 
-  /// @brief Method Write addr 0x2973d74 size 0x4 virtual true final false
+  /// @brief Method Write addr 0x27f5ffc size 0x4 virtual true final false
   inline void Write(::StringW message);
 
-  /// @brief Method WriteLine addr 0x2973d78 size 0x48 virtual true final false
+  /// @brief Method WriteLine addr 0x27f6000 size 0x48 virtual true final false
   inline void WriteLine(::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultTraceListener", modifiers: "&&", def_value: None }]
@@ -109,6 +109,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::DefaultTraceListener, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::DefaultTraceListener, ___logFileName) == 0x38, "Offset mismatch!");
 
 } // namespace System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::DefaultTraceListener);

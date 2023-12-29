@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Date::DateTimeObject);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Date {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1791))
 // CS Name: ::Org.BouncyCastle.Utilities.Date::DateTimeObject*
 class CORDL_TYPE DateTimeObject : public ::System::Object {
@@ -38,13 +38,13 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* New_ctor(::System::DateTime dt);
 
-  /// @brief Method .ctor addr 0x11514f8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x10e02b0 size 0x28 virtual false final false
   inline void _ctor(::System::DateTime dt);
 
-  /// @brief Method get_Value addr 0x115b714 size 0x8 virtual false final false
+  /// @brief Method get_Value addr 0x10ea4cc size 0x8 virtual false final false
   inline ::System::DateTime get_Value();
 
-  /// @brief Method ToString addr 0x115b71c size 0x20 virtual true final false
+  /// @brief Method ToString addr 0x10ea4d4 size 0x20 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "DateTimeObject", modifiers: "&&", def_value: None }]
@@ -68,6 +68,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Date::DateTimeObject, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Date::DateTimeObject, ___dt) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::Date
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Date::DateTimeObject);

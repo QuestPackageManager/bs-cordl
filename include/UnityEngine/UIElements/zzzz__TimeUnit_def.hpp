@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::TimeUnit);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7321))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7407))
 // CS Name: ::UnityEngine.UIElements::TimeUnit
 struct CORDL_TYPE TimeUnit {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TimeUnit, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TimeUnit, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TimeUnit, "UnityEngine.UIElements", "TimeUnit");

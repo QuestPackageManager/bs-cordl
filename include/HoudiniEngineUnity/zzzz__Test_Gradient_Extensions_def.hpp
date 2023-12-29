@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(Test_Gradient_Extensions)
 namespace HoudiniEngineUnity {
 class __Test_Gradient_Extensions____c;
 }
-namespace UnityEngine {
-class Gradient;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
 class Test_Gradient;
+}
+namespace UnityEngine {
+class Gradient;
 }
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_Gradient_Extensions____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9928))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9855))
 // CS Name: ::Test_Gradient_Extensions::<>c*
 class CORDL_TYPE __Test_Gradient_Extensions____c : public ::System::Object {
 public:
@@ -63,13 +63,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_Gradient_Extensions____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x21e6ebc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x208e520 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <ToTestObject>b__1_0 addr 0x21e6ec4 size 0x64 virtual false final false
+  /// @brief Method <ToTestObject>b__1_0 addr 0x208e528 size 0x64 virtual false final false
   inline ::HoudiniEngineUnity::Test_Gradient* _ToTestObject_b__1_0(::UnityEngine::Gradient* lod);
 
-  /// @brief Method <ToTestObject>b__2_0 addr 0x21e6f28 size 0x64 virtual false final false
+  /// @brief Method <ToTestObject>b__2_0 addr 0x208e58c size 0x64 virtual false final false
   inline ::HoudiniEngineUnity::Test_Gradient* _ToTestObject_b__2_0(::UnityEngine::Gradient* lod);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Test_Gradient_Extensions____c", modifiers: "&&", def_value: None }]
@@ -96,22 +96,22 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_Gradi
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9929))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9856))
 // CS Name: ::HoudiniEngineUnity::Test_Gradient_Extensions*
 class CORDL_TYPE Test_Gradient_Extensions : public ::System::Object {
 public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_Gradient_Extensions____c;
 
-  /// @brief Method ToTestObject addr 0x21e6c00 size 0x64 virtual false final false
+  /// @brief Method ToTestObject addr 0x208e264 size 0x64 virtual false final false
   static inline ::HoudiniEngineUnity::Test_Gradient* ToTestObject(::UnityEngine::Gradient* self);
 
-  /// @brief Method ToTestObject addr 0x21e6c64 size 0xf8 virtual false final false
+  /// @brief Method ToTestObject addr 0x208e2c8 size 0xf8 virtual false final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Gradient*, ::Array<::HoudiniEngineUnity::Test_Gradient*>*>
   ToTestObject(::ArrayW<::UnityEngine::Gradient*, ::Array<::UnityEngine::Gradient*>*> self);
 
-  /// @brief Method ToTestObject addr 0x21e6d5c size 0xfc virtual false final false
+  /// @brief Method ToTestObject addr 0x208e3c0 size 0xfc virtual false final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Gradient*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::Gradient*>* self);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Gradient_Extensions", modifiers: "&&", def_value: None }]

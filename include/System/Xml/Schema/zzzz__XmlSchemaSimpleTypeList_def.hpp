@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSimpleTypeList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11738))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11739))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11666))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11667))
 // CS Name: ::System.Xml.Schema::XmlSchemaSimpleTypeList*
 class CORDL_TYPE XmlSchemaSimpleTypeList : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent {
 public:
@@ -57,18 +57,18 @@ public:
 
   constexpr void __set_baseItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method set_ItemType addr 0x28c90fc size 0x8 virtual false final false
+  /// @brief Method set_ItemType addr 0x274b0d8 size 0x8 virtual false final false
   inline void set_ItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method get_BaseItemType addr 0x28c9104 size 0x8 virtual false final false
+  /// @brief Method get_BaseItemType addr 0x274b0e0 size 0x8 virtual false final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_BaseItemType();
 
-  /// @brief Method set_BaseItemType addr 0x28c910c size 0x8 virtual false final false
+  /// @brief Method set_BaseItemType addr 0x274b0e8 size 0x8 virtual false final false
   inline void set_BaseItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleTypeList* New_ctor();
 
-  /// @brief Method .ctor addr 0x28c9114 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x274b0f0 size 0x68 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleTypeList", modifiers: "&&", def_value: None }]
@@ -98,6 +98,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaSimpleTypeList, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaSimpleTypeList, ___itemTypeName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaSimpleTypeList, ___itemType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaSimpleTypeList, ___baseItemType) == 0x20, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaSimpleTypeList);

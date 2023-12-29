@@ -9,9 +9,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::System::Net::AutoWebProxyScriptEngine::*)(::System::Uri*, ByRef<::System::Collections::Generic::IList_1<::StringW>*>)>(&::System::Net::AutoWebProxyScriptEngine::GetProxies)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x29b9280;
+  constexpr static std::size_t addrs = 0x283ba08;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AutoWebProxyScriptEngine*>::get(), "GetProxies", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get(),
@@ -25,9 +25,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::AutoWebProxyScriptEngine::*)(
     ::System::Uri*, ByRef<::System::Collections::Generic::IList_1<::StringW>*>, ByRef<int32_t>)>(&::System::Net::AutoWebProxyScriptEngine::GetProxies)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x29b928c;
+  constexpr static std::size_t addrs = 0x283ba14;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AutoWebProxyScriptEngine*>::get(), "GetProxies", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get(),

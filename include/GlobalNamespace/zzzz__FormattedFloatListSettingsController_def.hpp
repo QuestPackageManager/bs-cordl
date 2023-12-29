@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::FormattedFloatListSettingsController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5591))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5684))
 // CS Name: ::FormattedFloatListSettingsController::ValueType
 struct CORDL_TYPE __FormattedFloatListSettingsController__ValueType {
 public:
@@ -78,13 +78,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FormattedFloatListSettingsController__ValueType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__FormattedFloatListSettingsController__ValueType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::FormattedFloatListSettingsController
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 85, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5591)), TypeDefinitionIndex(TypeDefinitionIndex(16149))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5592))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5691)), TypeDefinitionIndex(TypeDefinitionIndex(5684))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5685))
 // CS Name: ::FormattedFloatListSettingsController*
 class CORDL_TYPE FormattedFloatListSettingsController : public ::GlobalNamespace::ListSettingsController {
 public:
@@ -167,36 +169,36 @@ public:
 
   constexpr void __set__hasValue(bool value);
 
-  /// @brief Method add_valueDidChangeEvent addr 0x22aa3b4 size 0xb0 virtual false final false
+  /// @brief Method add_valueDidChangeEvent addr 0x2165014 size 0xb0 virtual false final false
   inline void add_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>* value);
 
-  /// @brief Method remove_valueDidChangeEvent addr 0x22aa464 size 0xb0 virtual false final false
+  /// @brief Method remove_valueDidChangeEvent addr 0x21650c4 size 0xb0 virtual false final false
   inline void remove_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>* value);
 
-  /// @brief Method get_value addr 0x22aa514 size 0x8 virtual false final false
+  /// @brief Method get_value addr 0x2165174 size 0x8 virtual false final false
   inline float_t get_value();
 
-  /// @brief Method get_values addr 0x22aa51c size 0x8 virtual false final false
+  /// @brief Method get_values addr 0x216517c size 0x8 virtual false final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_values();
 
-  /// @brief Method set_values addr 0x22aa524 size 0x10 virtual false final false
+  /// @brief Method set_values addr 0x2165184 size 0x38 virtual false final false
   inline void set_values(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method SetValue addr 0x22a3bd4 size 0x18 virtual false final false
+  /// @brief Method SetValue addr 0x215ec14 size 0x14 virtual false final false
   inline void SetValue(float_t value, bool callCallback);
 
-  /// @brief Method GetInitValues addr 0x22aa534 size 0x150 virtual true final false
+  /// @brief Method GetInitValues addr 0x2165218 size 0x150 virtual true final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method ApplyValue addr 0x22aa684 size 0x58 virtual true final false
+  /// @brief Method ApplyValue addr 0x2165368 size 0x58 virtual true final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method TextForValue addr 0x22aa6dc size 0xdc virtual true final false
+  /// @brief Method TextForValue addr 0x21653c0 size 0xdc virtual true final false
   inline ::StringW TextForValue(int32_t idx);
 
   static inline ::GlobalNamespace::FormattedFloatListSettingsController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22aa7b8 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x216549c size 0x5c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FormattedFloatListSettingsController", modifiers: "&&", def_value: None }]
@@ -241,6 +243,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FormattedFloatListSettingsController, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FormattedFloatListSettingsController, ____values) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FormattedFloatListSettingsController, ____formattingString) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FormattedFloatListSettingsController, ___valueType) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FormattedFloatListSettingsController, ___valueDidChangeEvent) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FormattedFloatListSettingsController, ____value) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FormattedFloatListSettingsController, ____min) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FormattedFloatListSettingsController, ____max) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FormattedFloatListSettingsController, ____hasValue) == 0x54, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__FormattedFloatListSettingsController__ValueType, "", "FormattedFloatListSettingsController/ValueType");

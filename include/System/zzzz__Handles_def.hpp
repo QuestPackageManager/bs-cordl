@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Handles);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2648))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2646))
 // CS Name: ::System::Handles
 struct CORDL_TYPE Handles {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Handles, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Handles, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::Handles, "System", "Handles");

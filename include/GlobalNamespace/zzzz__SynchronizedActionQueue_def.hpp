@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(SynchronizedActionQueue)
-namespace GlobalNamespace {
-struct __SynchronizedActionQueue__SynchronizedAction;
+namespace System {
+class Action;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+struct __SynchronizedActionQueue__SynchronizedAction;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,12 +30,12 @@ MARK_VAL_T(::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12968))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12889))
 // CS Name: ::SynchronizedActionQueue::SynchronizedAction
 struct CORDL_TYPE __SynchronizedActionQueue__SynchronizedAction {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0xe59548 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0xdd44c4 size 0xc virtual false final false
   inline void _ctor(float_t time, ::System::Action* action);
 
   // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "action", ty: "::System::Action*", modifiers: "", def_value: None }]
@@ -59,13 +59,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction, time) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction, action) == 0x8, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SynchronizedActionQueue
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12969))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12890))
 // CS Name: ::SynchronizedActionQueue*
 class CORDL_TYPE SynchronizedActionQueue : public ::System::Object {
 public:
@@ -83,18 +87,18 @@ public:
 
   constexpr void __set__synchronizedActionQueue(::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>* value);
 
-  /// @brief Method Clear addr 0xe5941c size 0x70 virtual false final false
+  /// @brief Method Clear addr 0xdd4398 size 0x70 virtual false final false
   inline void Clear();
 
-  /// @brief Method EnqueueAction addr 0xe5948c size 0xbc virtual false final false
+  /// @brief Method EnqueueAction addr 0xdd4408 size 0xbc virtual false final false
   inline void EnqueueAction(float_t time, ::System::Action* action);
 
-  /// @brief Method Update addr 0xe59554 size 0x114 virtual false final false
+  /// @brief Method Update addr 0xdd44d0 size 0x114 virtual false final false
   inline void Update(float_t time);
 
   static inline ::GlobalNamespace::SynchronizedActionQueue* New_ctor();
 
-  /// @brief Method .ctor addr 0xe59668 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0xdd45e4 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SynchronizedActionQueue", modifiers: "&&", def_value: None }]
@@ -118,6 +122,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SynchronizedActionQueue, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SynchronizedActionQueue, ____synchronizedActionQueue) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SynchronizedActionQueue);

@@ -16,20 +16,20 @@ MARK_REF_PTR_T(::System::Security::Cryptography::HMACMD5);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2934))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2935))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2933))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2934))
 // CS Name: ::System.Security.Cryptography::HMACMD5*
 class CORDL_TYPE HMACMD5 : public ::System::Security::Cryptography::HMAC {
 public:
   // Declarations
   static inline ::System::Security::Cryptography::HMACMD5* New_ctor();
 
-  /// @brief Method .ctor addr 0x245e990 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2305318 size 0x24 virtual false final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::HMACMD5* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor addr 0x245e9b4 size 0xc8 virtual false final false
+  /// @brief Method .ctor addr 0x230533c size 0xc8 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   // Ctor Parameters [CppParam { name: "", ty: "HMACMD5", modifiers: "&&", def_value: None }]

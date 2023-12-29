@@ -7,23 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextWriter_SyncTextWriter)
+namespace System {
+class IFormatProvider;
+}
 namespace System::IO {
 class TextWriter;
 }
-namespace System {
-class IFormatProvider;
+namespace System::Text {
+class Encoding;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Text {
-class Encoding;
-}
-namespace System::Threading::Tasks {
-class Task;
 }
 // Forward declare root types
 namespace System::IO {
@@ -35,8 +32,8 @@ MARK_REF_PTR_T(::System::IO::__TextWriter__SyncTextWriter);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3586))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3584))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3575))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3574))
 // CS Name: ::TextWriter::SyncTextWriter*
 class CORDL_TYPE __TextWriter__SyncTextWriter : public ::System::IO::TextWriter {
 public:
@@ -61,56 +58,53 @@ public:
 
   static inline ::System::IO::__TextWriter__SyncTextWriter* New_ctor(::System::IO::TextWriter* t);
 
-  /// @brief Method .ctor addr 0x25078bc size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x23ab6e0 size 0x7c virtual false final false
   inline void _ctor(::System::IO::TextWriter* t);
 
-  /// @brief Method get_Encoding addr 0x2507a74 size 0x24 virtual true final false
+  /// @brief Method get_Encoding addr 0x23ab898 size 0x20 virtual true final false
   inline ::System::Text::Encoding* get_Encoding();
 
-  /// @brief Method get_FormatProvider addr 0x2507a98 size 0x20 virtual true final false
+  /// @brief Method get_FormatProvider addr 0x23ab8b8 size 0x20 virtual true final false
   inline ::System::IFormatProvider* get_FormatProvider();
 
-  /// @brief Method get_NewLine addr 0x2507ab8 size 0x24 virtual true final false
+  /// @brief Method get_NewLine addr 0x23ab8d8 size 0x20 virtual true final false
   inline ::StringW get_NewLine();
 
-  /// @brief Method Close addr 0x2507adc size 0x20 virtual true final false
+  /// @brief Method Close addr 0x23ab8f8 size 0x20 virtual true final false
   inline void Close();
 
-  /// @brief Method Dispose addr 0x2507afc size 0xb4 virtual true final false
+  /// @brief Method Dispose addr 0x23ab918 size 0xb4 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Flush addr 0x2507bb0 size 0x20 virtual true final false
+  /// @brief Method Flush addr 0x23ab9cc size 0x20 virtual true final false
   inline void Flush();
 
-  /// @brief Method Write addr 0x2507bd0 size 0x24 virtual true final false
+  /// @brief Method Write addr 0x23ab9ec size 0x24 virtual true final false
   inline void Write(char16_t value);
 
-  /// @brief Method Write addr 0x2507bf4 size 0x24 virtual true final false
+  /// @brief Method Write addr 0x23aba10 size 0x24 virtual true final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
-  /// @brief Method Write addr 0x2507c18 size 0x24 virtual true final false
+  /// @brief Method Write addr 0x23aba34 size 0x24 virtual true final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write addr 0x2507c3c size 0x24 virtual true final false
+  /// @brief Method Write addr 0x23aba58 size 0x24 virtual true final false
   inline void Write(::StringW value);
 
-  /// @brief Method Write addr 0x2507c60 size 0x24 virtual true final false
+  /// @brief Method Write addr 0x23aba7c size 0x24 virtual true final false
   inline void Write(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method WriteLine addr 0x2507c84 size 0x24 virtual true final false
+  /// @brief Method WriteLine addr 0x23abaa0 size 0x24 virtual true final false
   inline void WriteLine();
 
-  /// @brief Method WriteLine addr 0x2507ca8 size 0x24 virtual true final false
+  /// @brief Method WriteLine addr 0x23abac4 size 0x24 virtual true final false
   inline void WriteLine(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteLine addr 0x2507ccc size 0x24 virtual true final false
+  /// @brief Method WriteLine addr 0x23abae8 size 0x24 virtual true final false
   inline void WriteLine(::StringW value);
 
-  /// @brief Method WriteLine addr 0x2507cf0 size 0x24 virtual true final false
+  /// @brief Method WriteLine addr 0x23abb0c size 0x24 virtual true final false
   inline void WriteLine(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
-
-  /// @brief Method FlushAsync addr 0x2507d14 size 0x9c virtual true final false
-  inline ::System::Threading::Tasks::Task* FlushAsync();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TextWriter__SyncTextWriter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -133,6 +127,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::__TextWriter__SyncTextWriter, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::IO::__TextWriter__SyncTextWriter, ____out) == 0x30, "Offset mismatch!");
 
 } // namespace System::IO
 NEED_NO_BOX(::System::IO::__TextWriter__SyncTextWriter);

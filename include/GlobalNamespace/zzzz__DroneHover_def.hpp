@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(DroneHover)
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class __DroneHover__SineLayer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace GlobalNamespace {
-class __DroneHover__SineLayer;
-}
 namespace UnityEngine {
 class Cloth;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__DroneHover__SineLayer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4012))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3995))
 // CS Name: ::DroneHover::SineLayer*
 class CORDL_TYPE __DroneHover__SineLayer : public ::System::Object {
 public:
@@ -62,7 +62,7 @@ public:
 
   static inline ::GlobalNamespace::__DroneHover__SineLayer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2222b7c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20c1490 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DroneHover__SineLayer", modifiers: "&&", def_value: None }]
@@ -90,13 +90,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DroneHover__SineLayer, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__DroneHover__SineLayer, ___multiplier) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DroneHover__SineLayer, ___offset) == 0x14, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::DroneHover
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4013))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3996))
 // CS Name: ::DroneHover*
 class CORDL_TYPE DroneHover : public ::UnityEngine::MonoBehaviour {
 public:
@@ -193,24 +197,24 @@ public:
 
   constexpr void __set__cloth(::UnityEngine::Cloth* value);
 
-  /// @brief Method Start addr 0x22225e0 size 0x30 virtual false final false
+  /// @brief Method Start addr 0x20c0ef4 size 0x30 virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x2222610 size 0x120 virtual false final false
+  /// @brief Method Update addr 0x20c0f24 size 0x120 virtual false final false
   inline void Update();
 
-  /// @brief Method GetNoiseVec3 addr 0x2222730 size 0x7c virtual false final false
+  /// @brief Method GetNoiseVec3 addr 0x20c1044 size 0x7c virtual false final false
   inline ::UnityEngine::Vector3 GetNoiseVec3(float_t time);
 
-  /// @brief Method GetNoise addr 0x2222a6c size 0xf4 virtual false final false
+  /// @brief Method GetNoise addr 0x20c1380 size 0xf4 virtual false final false
   inline float_t GetNoise(float_t time, float_t offset);
 
-  /// @brief Method UpdateTiltTransform addr 0x22227ac size 0x2c0 virtual false final false
+  /// @brief Method UpdateTiltTransform addr 0x20c10c0 size 0x2c0 virtual false final false
   inline void UpdateTiltTransform();
 
   static inline ::GlobalNamespace::DroneHover* New_ctor();
 
-  /// @brief Method .ctor addr 0x2222b60 size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x20c1474 size 0x1c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DroneHover", modifiers: "&&", def_value: None }]
@@ -261,6 +265,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DroneHover, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroneHover, ____hoverAreaPerAxis) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroneHover, ____speed) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroneHover, ____compoundSins) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroneHover, ____tiltTransforms) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroneHover, ____maxTiltAmount) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroneHover, ____tiltSpeed) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroneHover, ____tiltAheadOfTime) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroneHover, ____tiltToTarget) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroneHover, ____startPos) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DroneHover, ____cloth) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DroneHover);

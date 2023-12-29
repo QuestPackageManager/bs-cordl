@@ -17,7 +17,7 @@ MARK_VAL_T(::System::Security::Cryptography::RSAParameters);
 namespace System::Security::Cryptography {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2955))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2954))
 // CS Name: ::System.Security.Cryptography::RSAParameters
 struct CORDL_TYPE RSAParameters {
 public:
@@ -66,6 +66,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::RSAParameters, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RSAParameters, Exponent) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RSAParameters, Modulus) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RSAParameters, P) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RSAParameters, Q) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RSAParameters, DP) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RSAParameters, DQ) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RSAParameters, InverseQ) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RSAParameters, D) == 0x38, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::RSAParameters, "System.Security.Cryptography", "RSAParameters");

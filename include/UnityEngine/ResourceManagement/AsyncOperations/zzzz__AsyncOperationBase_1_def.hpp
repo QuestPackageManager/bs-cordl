@@ -8,56 +8,56 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncOperationBase_1)
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationStatus;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
+namespace System {
+class Exception;
 }
 namespace System {
 class Type;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass57_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System {
-class Exception;
 }
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass58_0;
+template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass57_0;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 class IAsyncOperation;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System {
-class Object;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationStatus;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass58_0;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template <typename TResult> class TaskCompletionSource_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
 namespace GlobalNamespace {
 template <typename T> class DelegateList_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {
@@ -79,8 +79,8 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14030))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14301))
 // CS Name: ::AsyncOperationBase`1::<>c__DisplayClass57_0<TObject>*
 class CORDL_TYPE __AsyncOperationBase_1____c__DisplayClass57_0 : public ::System::Object {
 public:
@@ -129,8 +129,8 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14031))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14302))
 // CS Name: ::AsyncOperationBase`1::<>c__DisplayClass58_0<TObject>*
 class CORDL_TYPE __AsyncOperationBase_1____c__DisplayClass58_0 : public ::System::Object {
 public:
@@ -179,8 +179,8 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14035)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14032))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14306))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14303))
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::AsyncOperationBase`1<TObject>*
 class CORDL_TYPE AsyncOperationBase_1 : public ::System::Object {
 public:

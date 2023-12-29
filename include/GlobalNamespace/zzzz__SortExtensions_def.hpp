@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortExtensions)
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace GlobalNamespace {
 template <typename T> class __SortExtensions____c__DisplayClass1_0_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -30,8 +30,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12961))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12882))
 // CS Name: ::SortExtensions::<>c__DisplayClass1_0`1<T>*
 class CORDL_TYPE __SortExtensions____c__DisplayClass1_0_1 : public ::System::Object {
 public:
@@ -78,8 +78,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12962))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12883))
 // CS Name: ::SortExtensions*
 class CORDL_TYPE SortExtensions : public ::System::Object {
 public:

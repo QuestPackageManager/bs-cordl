@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(Ray2D)
 namespace System {
+class IFormatProvider;
+}
+namespace System {
 class IFormattable;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace System {
-class IFormatProvider;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::Ray2D);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10166))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10094))
 // CS Name: ::UnityEngine::Ray2D
 struct CORDL_TYPE Ray2D {
 public:
@@ -39,22 +39,22 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method .ctor addr 0x2ccae54 size 0xc8 virtual false final false
+  /// @brief Method .ctor addr 0x2b64950 size 0xc8 virtual false final false
   inline void _ctor(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction);
 
-  /// @brief Method get_origin addr 0x2ccaf1c size 0x8 virtual false final false
+  /// @brief Method get_origin addr 0x2b64a18 size 0x8 virtual false final false
   inline ::UnityEngine::Vector2 get_origin();
 
-  /// @brief Method get_direction addr 0x2ccaf24 size 0x8 virtual false final false
+  /// @brief Method get_direction addr 0x2b64a20 size 0x8 virtual false final false
   inline ::UnityEngine::Vector2 get_direction();
 
-  /// @brief Method GetPoint addr 0x2ccaf2c size 0x14 virtual false final false
+  /// @brief Method GetPoint addr 0x2b64a28 size 0x14 virtual false final false
   inline ::UnityEngine::Vector2 GetPoint(float_t distance);
 
-  /// @brief Method ToString addr 0x2ccaf40 size 0xc virtual true final false
+  /// @brief Method ToString addr 0x2b64a3c size 0xc virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString addr 0x2ccaf4c size 0x180 virtual true final true
+  /// @brief Method ToString addr 0x2b64a48 size 0x180 virtual true final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
   // Ctor Parameters [CppParam { name: "m_Origin", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Direction", ty: "::UnityEngine::Vector2", modifiers: "",
@@ -78,6 +78,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Ray2D, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Ray2D, m_Origin) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Ray2D, m_Direction) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Ray2D, "UnityEngine", "Ray2D");

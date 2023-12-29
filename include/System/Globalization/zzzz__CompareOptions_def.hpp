@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::CompareOptions);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3659))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3647))
 // CS Name: ::System.Globalization::CompareOptions
 struct CORDL_TYPE CompareOptions {
 public:
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::CompareOptions, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::CompareOptions, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CompareOptions, "System.Globalization", "CompareOptions");

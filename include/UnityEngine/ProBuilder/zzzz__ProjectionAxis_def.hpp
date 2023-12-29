@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::ProjectionAxis);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12158))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12086))
 // CS Name: ::UnityEngine.ProBuilder::ProjectionAxis
 struct CORDL_TYPE ProjectionAxis {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::ProjectionAxis, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::ProjectionAxis, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ProjectionAxis, "UnityEngine.ProBuilder", "ProjectionAxis");

@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ThriftServerOptions);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9729))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9656))
 // CS Name: ::HoudiniEngineUnity::HAPI_ThriftServerOptions
 struct CORDL_TYPE HAPI_ThriftServerOptions {
 public:
@@ -41,6 +41,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_ThriftServerOptions, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ThriftServerOptions, autoClose) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ThriftServerOptions, timeoutMs) == 0x4, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_ThriftServerOptions, "HoudiniEngineUnity", "HAPI_ThriftServerOptions");

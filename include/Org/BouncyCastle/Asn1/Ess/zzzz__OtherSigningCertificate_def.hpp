@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(OtherSigningCertificate)
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class PolicyInformation;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Ess {
 class OtherCertID;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ess {
@@ -54,26 +54,26 @@ public:
 
   constexpr void __set_policies(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0xe9b284 size 0x190 virtual false final false
+  /// @brief Method GetInstance addr 0xe260b0 size 0x190 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Ess::OtherSigningCertificate* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::OtherSigningCertificate* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe9b414 size 0x154 virtual false final false
+  /// @brief Method .ctor addr 0xe26240 size 0x154 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::OtherSigningCertificate* New_ctor(::Org::BouncyCastle::Asn1::Ess::OtherCertID* otherCertID);
 
-  /// @brief Method .ctor addr 0xe9b568 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0xe26394 size 0x7c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ess::OtherCertID* otherCertID);
 
-  /// @brief Method GetCerts addr 0xe9b5e4 size 0x110 virtual false final false
+  /// @brief Method GetCerts addr 0xe26410 size 0x110 virtual false final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Ess::OtherCertID*, ::Array<::Org::BouncyCastle::Asn1::Ess::OtherCertID*>*> GetCerts();
 
-  /// @brief Method GetPolicies addr 0xe9b6f4 size 0x118 virtual false final false
+  /// @brief Method GetPolicies addr 0xe26520 size 0x118 virtual false final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> GetPolicies();
 
-  /// @brief Method ToAsn1Object addr 0xe9b80c size 0x148 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe26638 size 0x148 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OtherSigningCertificate", modifiers: "&&", def_value: None }]
@@ -100,6 +100,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ess::OtherSigningCertificate, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ess::OtherSigningCertificate, ___certs) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ess::OtherSigningCertificate, ___policies) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Ess
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ess::OtherSigningCertificate);

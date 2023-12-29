@@ -1,12 +1,12 @@
 #pragma once
 #include "Zenject/zzzz__FactoryFromBinder_1_impl.hpp"
 #include "Zenject/zzzz__FactoryToChoiceBinder_1_def.hpp"
-#include "Zenject/zzzz__FactoryFromBinderUntyped_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
-#include "Zenject/zzzz__FactoryBindInfo_def.hpp"
 #include "Zenject/zzzz__FactoryFromBinder_1_def.hpp"
+#include "Zenject/zzzz__FactoryFromBinderUntyped_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__FactoryBindInfo_def.hpp"
 template <typename TContract>
 inline ::Zenject::FactoryToChoiceBinder_1<TContract>* Zenject::FactoryToChoiceBinder_1<TContract>::New_ctor(::Zenject::DiContainer* container, ::Zenject::BindInfo* bindInfo,
                                                                                                             ::Zenject::FactoryBindInfo* factoryBindInfo) {

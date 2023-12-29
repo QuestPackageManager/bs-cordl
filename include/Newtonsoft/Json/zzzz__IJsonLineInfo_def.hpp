@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::IJsonLineInfo);
 namespace Newtonsoft::Json {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11813))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11741))
 // CS Name: ::Newtonsoft.Json::IJsonLineInfo*
 class CORDL_TYPE IJsonLineInfo {
 public:

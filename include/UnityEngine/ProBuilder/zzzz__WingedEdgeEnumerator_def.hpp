@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(WingedEdgeEnumerator)
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::ProBuilder {
 class WingedEdge;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Object;
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::WingedEdgeEnumerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12223))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12151))
 // CS Name: ::UnityEngine.ProBuilder::WingedEdgeEnumerator*
 class CORDL_TYPE WingedEdgeEnumerator : public ::System::Object {
 public:
@@ -68,22 +68,22 @@ public:
 
   static inline ::UnityEngine::ProBuilder::WingedEdgeEnumerator* New_ctor(::UnityEngine::ProBuilder::WingedEdge* start);
 
-  /// @brief Method .ctor addr 0x2b86ce4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2a05f90 size 0x28 virtual false final false
   inline void _ctor(::UnityEngine::ProBuilder::WingedEdge* start);
 
-  /// @brief Method MoveNext addr 0x2b86d0c size 0x3c virtual true final true
+  /// @brief Method MoveNext addr 0x2a05fb8 size 0x3c virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x2b86d48 size 0x8 virtual true final true
+  /// @brief Method Reset addr 0x2a05ff4 size 0x8 virtual true final true
   inline void Reset();
 
-  /// @brief Method get_Current addr 0x2b86d50 size 0x8 virtual true final true
+  /// @brief Method get_Current addr 0x2a05ffc size 0x8 virtual true final true
   inline ::UnityEngine::ProBuilder::WingedEdge* get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2b86d58 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2a06004 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method Dispose addr 0x2b86d60 size 0x4 virtual true final true
+  /// @brief Method Dispose addr 0x2a0600c size 0x4 virtual true final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "WingedEdgeEnumerator", modifiers: "&&", def_value: None }]
@@ -110,6 +110,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::WingedEdgeEnumerator, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::WingedEdgeEnumerator, ___m_Start) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::WingedEdgeEnumerator, ___m_Current) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::WingedEdgeEnumerator);

@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleAudioPlayer);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4050))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4077))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4038))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4065))
 // CS Name: ::SimpleAudioPlayer*
 class CORDL_TYPE SimpleAudioPlayer : public ::GlobalNamespace::AudioPlayerBase {
 public:
@@ -83,30 +83,30 @@ public:
 
   constexpr void __set__fadingIn(bool value);
 
-  /// @brief Method get_activeAudioClip addr 0x2230134 size 0x8 virtual true final false
+  /// @brief Method get_activeAudioClip addr 0x20d0648 size 0x8 virtual true final false
   inline ::UnityEngine::AudioClip* get_activeAudioClip();
 
-  /// @brief Method Start addr 0x223013c size 0x80 virtual false final false
+  /// @brief Method Start addr 0x20d0650 size 0x80 virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x22301f8 size 0x100 virtual false final false
+  /// @brief Method Update addr 0x20d070c size 0x100 virtual false final false
   inline void Update();
 
-  /// @brief Method FadeIn addr 0x22301bc size 0x3c virtual false final false
+  /// @brief Method FadeIn addr 0x20d06d0 size 0x3c virtual false final false
   inline void FadeIn(float_t duration);
 
-  /// @brief Method FadeOut addr 0x22302f8 size 0x38 virtual true final false
+  /// @brief Method FadeOut addr 0x20d080c size 0x38 virtual true final false
   inline void FadeOut(float_t duration);
 
-  /// @brief Method PauseCurrentChannel addr 0x2230330 size 0x1c virtual true final false
+  /// @brief Method PauseCurrentChannel addr 0x20d0844 size 0x1c virtual true final false
   inline void PauseCurrentChannel();
 
-  /// @brief Method UnPauseCurrentChannel addr 0x223034c size 0x1c virtual true final false
+  /// @brief Method UnPauseCurrentChannel addr 0x20d0860 size 0x1c virtual true final false
   inline void UnPauseCurrentChannel();
 
   static inline ::GlobalNamespace::SimpleAudioPlayer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2230368 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x20d087c size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleAudioPlayer", modifiers: "&&", def_value: None }]
@@ -145,6 +145,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleAudioPlayer, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleAudioPlayer, ____audioClip) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleAudioPlayer, ____audioSource) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleAudioPlayer, ____targetVolume) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleAudioPlayer, ____loop) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleAudioPlayer, ____fadeSpeed) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleAudioPlayer, ____fadingIn) == 0x34, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SimpleAudioPlayer);

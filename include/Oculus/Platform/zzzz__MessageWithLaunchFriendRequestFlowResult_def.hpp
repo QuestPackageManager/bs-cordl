@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithLaunchFriendRequestFlowResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4589 }), TypeDefinitionIndex(TypeDefinitionIndex(13262)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13443))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13294)) CS Name: ::Oculus.Platform::MessageWithLaunchFriendRequestFlowResult*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst: 4490 }), TypeDefinitionIndex(TypeDefinitionIndex(13489)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13269))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13307)) CS Name: ::Oculus.Platform::MessageWithLaunchFriendRequestFlowResult*
 class CORDL_TYPE MessageWithLaunchFriendRequestFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchFriendRequestFlowResult*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithLaunchFriendRequestFlowResult* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x26ef190 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x25930e4 size 0x58 virtual false final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetLaunchFriendRequestFlowResult addr 0x26f1e50 size 0x3c virtual true final false
+  /// @brief Method GetLaunchFriendRequestFlowResult addr 0x2596054 size 0x3c virtual true final false
   inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetLaunchFriendRequestFlowResult();
 
-  /// @brief Method GetDataFromMessage addr 0x26f1e8c size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage addr 0x2596090 size 0x9c virtual true final false
   inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithLaunchFriendRequestFlowResult", modifiers: "&&", def_value: None }]

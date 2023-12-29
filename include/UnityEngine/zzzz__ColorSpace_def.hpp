@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ColorSpace);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10111))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10039))
 // CS Name: ::UnityEngine::ColorSpace
 struct CORDL_TYPE ColorSpace {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ColorSpace, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ColorSpace, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ColorSpace, "UnityEngine", "ColorSpace");

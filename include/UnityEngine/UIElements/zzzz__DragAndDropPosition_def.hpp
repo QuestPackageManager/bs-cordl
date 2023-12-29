@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::DragAndDropPosition);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6954))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7040))
 // CS Name: ::UnityEngine.UIElements::DragAndDropPosition
 struct CORDL_TYPE DragAndDropPosition {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DragAndDropPosition, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DragAndDropPosition, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DragAndDropPosition, "UnityEngine.UIElements", "DragAndDropPosition");

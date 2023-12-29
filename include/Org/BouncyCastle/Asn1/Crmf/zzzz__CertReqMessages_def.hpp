@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(CertReqMessages)
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1::Crmf {
 class CertReqMsg;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -44,21 +44,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMessages* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe83cc8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xe0eaf4 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe83cf0 size 0x18c virtual false final false
+  /// @brief Method GetInstance addr 0xe0eb1c size 0x18c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMessages* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMessages* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*, ::Array<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*>*> msgs);
 
-  /// @brief Method .ctor addr 0xe83e7c size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0xe0eca8 size 0x7c virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*, ::Array<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*>*> msgs);
 
-  /// @brief Method ToCertReqMsgArray addr 0xe83ef8 size 0xf4 virtual true final false
+  /// @brief Method ToCertReqMsgArray addr 0xe0ed24 size 0xf4 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*, ::Array<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*>*> ToCertReqMsgArray();
 
-  /// @brief Method ToAsn1Object addr 0xe84090 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe0eebc size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertReqMessages", modifiers: "&&", def_value: None }]
@@ -82,6 +82,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Crmf::CertReqMessages, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertReqMessages, ___content) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Crmf::CertReqMessages);

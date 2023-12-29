@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleInt)
 namespace UnityEngine::UIElements {
-struct StyleKeyword;
-}
-namespace UnityEngine::UIElements {
 template <typename T> class IStyleValue_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
+}
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -29,8 +29,8 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleInt);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7300))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7323))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7386))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7409))
 // CS Name: ::UnityEngine.UIElements::StyleInt
 struct CORDL_TYPE StyleInt {
 public:
@@ -45,34 +45,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleInt>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleInt>*();
 
-  /// @brief Method get_value addr 0x2e746a4 size 0x18 virtual true final true
+  /// @brief Method get_value addr 0x2d0b2f4 size 0x18 virtual true final true
   inline int32_t get_value();
 
-  /// @brief Method get_keyword addr 0x2e746bc size 0x8 virtual true final true
+  /// @brief Method get_keyword addr 0x2d0b30c size 0x8 virtual true final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method .ctor addr 0x2e76424 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d0d074 size 0x8 virtual false final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor addr 0x2e71e14 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d08a64 size 0x8 virtual false final false
   inline void _ctor(int32_t v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method op_Equality addr 0x2e7642c size 0x20 virtual false final false
+  /// @brief Method op_Equality addr 0x2d0d07c size 0x20 virtual false final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleInt lhs, ::UnityEngine::UIElements::StyleInt rhs);
 
-  /// @brief Method op_Implicit addr 0x2e71e1c size 0x8 virtual false final false
+  /// @brief Method op_Implicit addr 0x2d08a6c size 0x8 virtual false final false
   static inline ::UnityEngine::UIElements::StyleInt op_Implicit___UnityEngine__UIElements__StyleInt(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method Equals addr 0x2e7644c size 0x20 virtual true final true
+  /// @brief Method Equals addr 0x2d0d09c size 0x20 virtual true final true
   inline bool Equals(::UnityEngine::UIElements::StyleInt other);
 
-  /// @brief Method Equals addr 0x2e7646c size 0x84 virtual true final false
+  /// @brief Method Equals addr 0x2d0d0bc size 0x84 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2e764f0 size 0x14 virtual true final false
+  /// @brief Method GetHashCode addr 0x2d0d140 size 0x14 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x2e76504 size 0x78 virtual true final false
+  /// @brief Method ToString addr 0x2d0d154 size 0x78 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "m_Value", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "",
@@ -96,6 +96,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleInt, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleInt, m_Value) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleInt, m_Keyword) == 0x4, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleInt, "UnityEngine.UIElements", "StyleInt");

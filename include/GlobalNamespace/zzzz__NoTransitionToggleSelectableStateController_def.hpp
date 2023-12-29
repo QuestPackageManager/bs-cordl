@@ -18,26 +18,26 @@ MARK_REF_PTR_T(::GlobalNamespace::NoTransitionToggleSelectableStateController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5457)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5457), inst: 4966 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13637))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5459)) CS Name: ::NoTransitionToggleSelectableStateController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5563)), TypeDefinitionIndex(TypeDefinitionIndex(13754)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5563), inst:
+// 4859 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5565)) CS Name: ::NoTransitionToggleSelectableStateController*
 class CORDL_TYPE NoTransitionToggleSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::NoTransitionsToggle*> {
 public:
   // Declarations
-  /// @brief Method OnEnable addr 0x227f844 size 0xa4 virtual false final false
+  /// @brief Method OnEnable addr 0x213e2bc size 0xa4 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x227f9d4 size 0x8c virtual false final false
+  /// @brief Method OnDisable addr 0x213e44c size 0x8c virtual false final false
   inline void OnDisable();
 
-  /// @brief Method HandleNoTransitionToggleSelectionStateDidChange addr 0x227fa60 size 0x8 virtual false final false
+  /// @brief Method HandleNoTransitionToggleSelectionStateDidChange addr 0x213e4d8 size 0x8 virtual false final false
   inline void HandleNoTransitionToggleSelectionStateDidChange(::HMUI::UISelectionState state);
 
-  /// @brief Method ResolveSelectionState addr 0x227f8e8 size 0xec virtual false final false
+  /// @brief Method ResolveSelectionState addr 0x213e360 size 0xec virtual false final false
   inline void ResolveSelectionState(::HMUI::UISelectionState state, bool animated);
 
   static inline ::GlobalNamespace::NoTransitionToggleSelectableStateController* New_ctor();
 
-  /// @brief Method .ctor addr 0x227fa68 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x213e4e0 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoTransitionToggleSelectableStateController", modifiers: "&&", def_value: None }]

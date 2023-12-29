@@ -18,21 +18,21 @@ MARK_REF_PTR_T(::UnityEngine::AssetReferenceUIRestriction);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14045))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14316))
 // CS Name: ::UnityEngine::AssetReferenceUIRestriction*
 class CORDL_TYPE AssetReferenceUIRestriction : public ::System::Attribute {
 public:
   // Declarations
-  /// @brief Method ValidateAsset addr 0x2a0f004 size 0x8 virtual true final false
+  /// @brief Method ValidateAsset addr 0x28912bc size 0x8 virtual true final false
   inline bool ValidateAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method ValidateAsset addr 0x2a0f00c size 0x8 virtual true final false
+  /// @brief Method ValidateAsset addr 0x28912c4 size 0x8 virtual true final false
   inline bool ValidateAsset(::StringW path);
 
   static inline ::UnityEngine::AssetReferenceUIRestriction* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a0f014 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x28912cc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceUIRestriction", modifiers: "&&", def_value: None }]

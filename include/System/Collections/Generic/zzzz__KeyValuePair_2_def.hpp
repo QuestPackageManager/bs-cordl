@@ -2,7 +2,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(KeyValuePair_2)
@@ -19,7 +18,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3841))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3829))
 // CS Name: ::System.Collections.Generic::KeyValuePair`2<TKey,TValue>
 struct CORDL_TYPE KeyValuePair_2 {
 public:
@@ -39,9 +38,6 @@ public:
 
   /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::StringW ToString();
-
-  /// @brief Method Deconstruct addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void Deconstruct(ByRef<TKey> key, ByRef<TValue> value);
 
   // Ctor Parameters [CppParam { name: "key", ty: "TKey", modifiers: "", def_value: None }, CppParam { name: "value", ty: "TValue", modifiers: "", def_value: None }]
   constexpr KeyValuePair_2(TKey key, TValue value) noexcept;

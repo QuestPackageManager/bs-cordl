@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::EventType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14601))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14818))
 // CS Name: ::UnityEngine::EventType
 struct CORDL_TYPE EventType {
 public:
@@ -201,6 +201,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventType, "UnityEngine", "EventType");

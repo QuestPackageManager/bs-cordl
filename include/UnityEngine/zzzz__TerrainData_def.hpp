@@ -10,10 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TerrainData)
 namespace UnityEngine {
-struct TreeInstance;
-}
-namespace UnityEngine {
-class TerrainLayer;
+class TreePrototype;
 }
 namespace UnityEngine {
 struct __TerrainData__BoundaryValueType;
@@ -22,13 +19,16 @@ namespace UnityEngine {
 class DetailPrototype;
 }
 namespace UnityEngine {
-class TreePrototype;
+class TerrainLayer;
+}
+namespace UnityEngine {
+class Terrain;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-class Terrain;
+struct TreeInstance;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::UnityEngine::TerrainData);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15471))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15455))
 // CS Name: ::TerrainData::BoundaryValueType
 struct CORDL_TYPE __TerrainData__BoundaryValueType {
 public:
@@ -115,13 +115,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::__TerrainData__BoundaryValueType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::__TerrainData__BoundaryValueType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine
 // Type: UnityEngine::TerrainData
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15472))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10128))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15456))
 // CS Name: ::UnityEngine::TerrainData*
 class CORDL_TYPE TerrainData : public ::UnityEngine::Object {
 public:
@@ -219,132 +221,132 @@ public:
 
   static inline int32_t getStaticF_k_MaximumBaseMapResolution();
 
-  /// @brief Method GetBoundaryValue addr 0x2d1c838 size 0x3c virtual false final false
+  /// @brief Method GetBoundaryValue addr 0x2bb5488 size 0x3c virtual false final false
   static inline int32_t GetBoundaryValue(::UnityEngine::__TerrainData__BoundaryValueType type);
 
   static inline ::UnityEngine::TerrainData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d1c874 size 0xa4 virtual false final false
+  /// @brief Method .ctor addr 0x2bb54c4 size 0xa4 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Internal_Create addr 0x2d1c918 size 0x3c virtual false final false
+  /// @brief Method Internal_Create addr 0x2bb5568 size 0x3c virtual false final false
   static inline void Internal_Create(::UnityEngine::TerrainData* terrainData);
 
-  /// @brief Method get_heightmapResolution addr 0x2d1c954 size 0x3c virtual false final false
+  /// @brief Method get_heightmapResolution addr 0x2bb55a4 size 0x3c virtual false final false
   inline int32_t get_heightmapResolution();
 
-  /// @brief Method set_heightmapResolution addr 0x2d1c9cc size 0x1a8 virtual false final false
+  /// @brief Method set_heightmapResolution addr 0x2bb561c size 0x1a8 virtual false final false
   inline void set_heightmapResolution(int32_t value);
 
-  /// @brief Method get_internalHeightmapResolution addr 0x2d1c990 size 0x3c virtual false final false
+  /// @brief Method get_internalHeightmapResolution addr 0x2bb55e0 size 0x3c virtual false final false
   inline int32_t get_internalHeightmapResolution();
 
-  /// @brief Method set_internalHeightmapResolution addr 0x2d1cb74 size 0x44 virtual false final false
+  /// @brief Method set_internalHeightmapResolution addr 0x2bb57c4 size 0x44 virtual false final false
   inline void set_internalHeightmapResolution(int32_t value);
 
-  /// @brief Method get_size addr 0x2d1cbb8 size 0x5c virtual false final false
+  /// @brief Method get_size addr 0x2bb5808 size 0x5c virtual false final false
   inline ::UnityEngine::Vector3 get_size();
 
-  /// @brief Method set_size addr 0x2d1cc58 size 0x54 virtual false final false
+  /// @brief Method set_size addr 0x2bb58a8 size 0x54 virtual false final false
   inline void set_size(::UnityEngine::Vector3 value);
 
-  /// @brief Method GetHeights addr 0x2d1ccf0 size 0x134 virtual false final false
+  /// @brief Method GetHeights addr 0x2bb5940 size 0x134 virtual false final false
   inline Il2CppObject* GetHeights(int32_t xBase, int32_t yBase, int32_t width, int32_t height);
 
-  /// @brief Method Internal_GetHeights addr 0x2d1ce24 size 0x6c virtual false final false
+  /// @brief Method Internal_GetHeights addr 0x2bb5a74 size 0x6c virtual false final false
   inline Il2CppObject* Internal_GetHeights(int32_t xBase, int32_t yBase, int32_t width, int32_t height);
 
-  /// @brief Method SetHeights addr 0x2d1ce90 size 0x310 virtual false final false
+  /// @brief Method SetHeights addr 0x2bb5ae0 size 0x310 virtual false final false
   inline void SetHeights(int32_t xBase, int32_t yBase, Il2CppObject* heights);
 
-  /// @brief Method Internal_SetHeights addr 0x2d1d1a0 size 0x74 virtual false final false
+  /// @brief Method Internal_SetHeights addr 0x2bb5df0 size 0x74 virtual false final false
   inline void Internal_SetHeights(int32_t xBase, int32_t yBase, int32_t width, int32_t height, Il2CppObject* heights);
 
-  /// @brief Method SetDetailResolution addr 0x2d1d214 size 0x438 virtual false final false
+  /// @brief Method SetDetailResolution addr 0x2bb5e64 size 0x438 virtual false final false
   inline void SetDetailResolution(int32_t detailResolution, int32_t resolutionPerPatch);
 
-  /// @brief Method Internal_SetDetailResolution addr 0x2d1d64c size 0x54 virtual false final false
+  /// @brief Method Internal_SetDetailResolution addr 0x2bb629c size 0x54 virtual false final false
   inline void Internal_SetDetailResolution(int32_t patchCount, int32_t resolutionPerPatch);
 
-  /// @brief Method get_detailResolutionPerPatch addr 0x2d1d6a0 size 0x3c virtual false final false
+  /// @brief Method get_detailResolutionPerPatch addr 0x2bb62f0 size 0x3c virtual false final false
   inline int32_t get_detailResolutionPerPatch();
 
-  /// @brief Method RefreshPrototypes addr 0x2d1d6dc size 0x3c virtual false final false
+  /// @brief Method RefreshPrototypes addr 0x2bb632c size 0x3c virtual false final false
   inline void RefreshPrototypes();
 
-  /// @brief Method set_detailPrototypes addr 0x2d1d718 size 0x44 virtual false final false
+  /// @brief Method set_detailPrototypes addr 0x2bb6368 size 0x44 virtual false final false
   inline void set_detailPrototypes(::ArrayW<::UnityEngine::DetailPrototype*, ::Array<::UnityEngine::DetailPrototype*>*> value);
 
-  /// @brief Method SetDetailLayer addr 0x2d1d75c size 0xac virtual false final false
+  /// @brief Method SetDetailLayer addr 0x2bb63ac size 0xac virtual false final false
   inline void SetDetailLayer(int32_t xBase, int32_t yBase, int32_t layer, Il2CppObject* details);
 
-  /// @brief Method Internal_SetDetailLayer addr 0x2d1d808 size 0x84 virtual false final false
+  /// @brief Method Internal_SetDetailLayer addr 0x2bb6458 size 0x84 virtual false final false
   inline void Internal_SetDetailLayer(int32_t xBase, int32_t yBase, int32_t totalWidth, int32_t totalHeight, int32_t detailIndex, Il2CppObject* data);
 
-  /// @brief Method get_treeInstances addr 0x2d1d88c size 0x3c virtual false final false
+  /// @brief Method get_treeInstances addr 0x2bb64dc size 0x3c virtual false final false
   inline ::ArrayW<::UnityEngine::TreeInstance, ::Array<::UnityEngine::TreeInstance>*> get_treeInstances();
 
-  /// @brief Method Internal_GetTreeInstances addr 0x2d1d8c8 size 0x3c virtual false final false
+  /// @brief Method Internal_GetTreeInstances addr 0x2bb6518 size 0x3c virtual false final false
   inline ::ArrayW<::UnityEngine::TreeInstance, ::Array<::UnityEngine::TreeInstance>*> Internal_GetTreeInstances();
 
-  /// @brief Method SetTreeInstances addr 0x2d1d904 size 0x54 virtual false final false
+  /// @brief Method SetTreeInstances addr 0x2bb6554 size 0x54 virtual false final false
   inline void SetTreeInstances(::ArrayW<::UnityEngine::TreeInstance, ::Array<::UnityEngine::TreeInstance>*> instances, bool snapToHeightmap);
 
-  /// @brief Method get_treePrototypes addr 0x2d1d958 size 0x3c virtual false final false
+  /// @brief Method get_treePrototypes addr 0x2bb65a8 size 0x3c virtual false final false
   inline ::ArrayW<::UnityEngine::TreePrototype*, ::Array<::UnityEngine::TreePrototype*>*> get_treePrototypes();
 
-  /// @brief Method set_treePrototypes addr 0x2d1d994 size 0x44 virtual false final false
+  /// @brief Method set_treePrototypes addr 0x2bb65e4 size 0x44 virtual false final false
   inline void set_treePrototypes(::ArrayW<::UnityEngine::TreePrototype*, ::Array<::UnityEngine::TreePrototype*>*> value);
 
-  /// @brief Method get_alphamapLayers addr 0x2d1d9d8 size 0x3c virtual false final false
+  /// @brief Method get_alphamapLayers addr 0x2bb6628 size 0x3c virtual false final false
   inline int32_t get_alphamapLayers();
 
-  /// @brief Method GetAlphamaps addr 0x2d1da14 size 0xc8 virtual false final false
+  /// @brief Method GetAlphamaps addr 0x2bb6664 size 0xc8 virtual false final false
   inline Il2CppObject* GetAlphamaps(int32_t x, int32_t y, int32_t width, int32_t height);
 
-  /// @brief Method Internal_GetAlphamaps addr 0x2d1dadc size 0x6c virtual false final false
+  /// @brief Method Internal_GetAlphamaps addr 0x2bb672c size 0x6c virtual false final false
   inline Il2CppObject* Internal_GetAlphamaps(int32_t x, int32_t y, int32_t width, int32_t height);
 
-  /// @brief Method get_alphamapResolution addr 0x2d1db48 size 0x3c virtual false final false
+  /// @brief Method get_alphamapResolution addr 0x2bb6798 size 0x3c virtual false final false
   inline int32_t get_alphamapResolution();
 
-  /// @brief Method set_alphamapResolution addr 0x2d1dbc0 size 0x2f8 virtual false final false
+  /// @brief Method set_alphamapResolution addr 0x2bb6810 size 0x2f8 virtual false final false
   inline void set_alphamapResolution(int32_t value);
 
-  /// @brief Method GetAlphamapResolutionInternal addr 0x2d1defc size 0x3c virtual false final false
+  /// @brief Method GetAlphamapResolutionInternal addr 0x2bb6b4c size 0x3c virtual false final false
   inline float_t GetAlphamapResolutionInternal();
 
-  /// @brief Method get_Internal_alphamapResolution addr 0x2d1db84 size 0x3c virtual false final false
+  /// @brief Method get_Internal_alphamapResolution addr 0x2bb67d4 size 0x3c virtual false final false
   inline int32_t get_Internal_alphamapResolution();
 
-  /// @brief Method set_Internal_alphamapResolution addr 0x2d1deb8 size 0x44 virtual false final false
+  /// @brief Method set_Internal_alphamapResolution addr 0x2bb6b08 size 0x44 virtual false final false
   inline void set_Internal_alphamapResolution(int32_t value);
 
-  /// @brief Method get_alphamapWidth addr 0x2d1df38 size 0x3c virtual false final false
+  /// @brief Method get_alphamapWidth addr 0x2bb6b88 size 0x3c virtual false final false
   inline int32_t get_alphamapWidth();
 
-  /// @brief Method get_alphamapHeight addr 0x2d1df74 size 0x3c virtual false final false
+  /// @brief Method get_alphamapHeight addr 0x2bb6bc4 size 0x3c virtual false final false
   inline int32_t get_alphamapHeight();
 
-  /// @brief Method SetAlphamaps addr 0x2d1dfb0 size 0x1a4 virtual false final false
+  /// @brief Method SetAlphamaps addr 0x2bb6c00 size 0x1a4 virtual false final false
   inline void SetAlphamaps(int32_t x, int32_t y, Il2CppObject* map);
 
-  /// @brief Method Internal_SetAlphamaps addr 0x2d1e154 size 0x74 virtual false final false
+  /// @brief Method Internal_SetAlphamaps addr 0x2bb6da4 size 0x74 virtual false final false
   inline void Internal_SetAlphamaps(int32_t x, int32_t y, int32_t width, int32_t height, Il2CppObject* map);
 
-  /// @brief Method get_terrainLayers addr 0x2d1e1c8 size 0x3c virtual false final false
+  /// @brief Method get_terrainLayers addr 0x2bb6e18 size 0x3c virtual false final false
   inline ::ArrayW<::UnityEngine::TerrainLayer*, ::Array<::UnityEngine::TerrainLayer*>*> get_terrainLayers();
 
-  /// @brief Method set_terrainLayers addr 0x2d1e204 size 0x44 virtual false final false
+  /// @brief Method set_terrainLayers addr 0x2bb6e54 size 0x44 virtual false final false
   inline void set_terrainLayers(::ArrayW<::UnityEngine::TerrainLayer*, ::Array<::UnityEngine::TerrainLayer*>*> value);
 
-  /// @brief Method get_users addr 0x2d1e248 size 0x3c virtual false final false
+  /// @brief Method get_users addr 0x2bb6e98 size 0x3c virtual false final false
   inline ::ArrayW<::UnityEngine::Terrain*, ::Array<::UnityEngine::Terrain*>*> get_users();
 
-  /// @brief Method get_size_Injected addr 0x2d1cc14 size 0x44 virtual false final false
+  /// @brief Method get_size_Injected addr 0x2bb5864 size 0x44 virtual false final false
   inline void get_size_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method set_size_Injected addr 0x2d1ccac size 0x44 virtual false final false
+  /// @brief Method set_size_Injected addr 0x2bb58fc size 0x44 virtual false final false
   inline void set_size_Injected(ByRef<::UnityEngine::Vector3> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "TerrainData", modifiers: "&&", def_value: None }]

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ControllerColliderHit)
 namespace UnityEngine {
-class Collider;
+class CharacterController;
 }
 namespace UnityEngine {
-class CharacterController;
+class Collider;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::ControllerColliderHit);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15501))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15485))
 // CS Name: ::UnityEngine::ControllerColliderHit*
 class CORDL_TYPE ControllerColliderHit : public ::System::Object {
 public:
@@ -131,6 +131,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ControllerColliderHit, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ControllerColliderHit, ___m_Controller) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ControllerColliderHit, ___m_Collider) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ControllerColliderHit, ___m_Point) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ControllerColliderHit, ___m_Normal) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ControllerColliderHit, ___m_MoveDirection) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ControllerColliderHit, ___m_MoveLength) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ControllerColliderHit, ___m_Push) == 0x48, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::ControllerColliderHit);

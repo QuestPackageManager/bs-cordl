@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_GeometryUtility)
 namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
+}
+namespace UnityEngine {
+class Mesh;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -30,26 +30,26 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_GeometryUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9837))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9764))
 // CS Name: ::HoudiniEngineUnity::HEU_GeometryUtility*
 class CORDL_TYPE HEU_GeometryUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GeneratePerTriangle addr 0x21bef14 size 0x4c virtual false final false
+  /// @brief Method GeneratePerTriangle addr 0x2068578 size 0x4c virtual false final false
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> GeneratePerTriangle(::UnityEngine::Mesh* meshSrc);
 
-  /// @brief Method GenerateSecondaryUVSet addr 0x21c4674 size 0x44 virtual false final false
+  /// @brief Method GenerateSecondaryUVSet addr 0x206dcd8 size 0x44 virtual false final false
   static inline void GenerateSecondaryUVSet(::UnityEngine::Mesh* meshsrc);
 
-  /// @brief Method CalculateMeshTangents addr 0x21bdeb8 size 0x4d8 virtual false final false
+  /// @brief Method CalculateMeshTangents addr 0x206751c size 0x4d8 virtual false final false
   static inline void CalculateMeshTangents(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method GenerateCubeMeshFromPoints addr 0x21c46b8 size 0xb00 virtual false final false
+  /// @brief Method GenerateCubeMeshFromPoints addr 0x206dd1c size 0xb00 virtual false final false
   static inline ::UnityEngine::Mesh* GenerateCubeMeshFromPoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> points,
                                                                 ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> pointsColor, float_t size);
 
-  /// @brief Method GetInstanceOutputName addr 0x21c51b8 size 0xbc virtual false final false
+  /// @brief Method GetInstanceOutputName addr 0x206e81c size 0xbc virtual false final false
   static inline ::StringW GetInstanceOutputName(::StringW partName, ::ArrayW<::StringW, ::Array<::StringW>*> userPrefix, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_GeometryUtility", modifiers: "&&", def_value: None }]

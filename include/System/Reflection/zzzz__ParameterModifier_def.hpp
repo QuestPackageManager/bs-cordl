@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::ParameterModifier);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3484))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3479))
 // CS Name: ::System.Reflection::ParameterModifier
 struct CORDL_TYPE ParameterModifier {
 public:
@@ -38,6 +38,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::ParameterModifier, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::ParameterModifier, _byRef) == 0x0, "Offset mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::ParameterModifier, "System.Reflection", "ParameterModifier");

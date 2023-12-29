@@ -7,11 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CertificateImpl)
-namespace System {
-class Object;
+namespace System::Security::Cryptography::X509Certificates {
+struct X509ContentType;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace Microsoft::Win32::SafeHandles {
+class SafePasswordHandle;
 }
 namespace System {
 struct DateTime;
@@ -32,8 +38,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certifica
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2992))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2991))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509CertificateImpl*
 class CORDL_TYPE X509CertificateImpl : public ::System::Object {
 public:
@@ -68,7 +74,7 @@ public:
   /// @brief Method get_IsValid addr 0x0 size 0xffffffffffffffff virtual true final false
   inline bool get_IsValid();
 
-  /// @brief Method ThrowIfContextInvalid addr 0x2475e00 size 0x3c virtual false final false
+  /// @brief Method ThrowIfContextInvalid addr 0x231e30c size 0x3c virtual false final false
   inline void ThrowIfContextInvalid();
 
   /// @brief Method Clone addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -92,7 +98,7 @@ public:
   /// @brief Method get_Thumbprint addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Thumbprint();
 
-  /// @brief Method GetHashCode addr 0x2475ec4 size 0x90 virtual true final true
+  /// @brief Method GetHashCode addr 0x231e3d0 size 0x90 virtual true final true
   inline int32_t GetHashCode();
 
   /// @brief Method get_KeyAlgorithm addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -116,24 +122,27 @@ public:
   /// @brief Method GetDSAPrivateKey addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Security::Cryptography::DSA* GetDSAPrivateKey();
 
+  /// @brief Method Export addr 0x0 size 0xffffffffffffffff virtual true final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Export(::System::Security::Cryptography::X509Certificates::X509ContentType contentType, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password);
+
   /// @brief Method CopyWithPrivateKey addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* CopyWithPrivateKey(::System::Security::Cryptography::RSA* privateKey);
 
-  /// @brief Method Equals addr 0x2475f54 size 0x180 virtual true final true
+  /// @brief Method Equals addr 0x231e460 size 0x180 virtual true final true
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Dispose addr 0x24760d4 size 0x70 virtual true final true
+  /// @brief Method Dispose addr 0x231e5e0 size 0x70 virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x2476144 size 0x4 virtual true final false
+  /// @brief Method Dispose addr 0x231e650 size 0x4 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize addr 0x2476148 size 0xa4 virtual true final false
+  /// @brief Method Finalize addr 0x231e654 size 0xa4 virtual true final false
   inline void Finalize();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* New_ctor();
 
-  /// @brief Method .ctor addr 0x24761ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x231e6f8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CertificateImpl", modifiers: "&&", def_value: None }]

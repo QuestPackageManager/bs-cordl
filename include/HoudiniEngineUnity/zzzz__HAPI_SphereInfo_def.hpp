@@ -17,12 +17,12 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_SphereInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9751))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9678))
 // CS Name: ::HoudiniEngineUnity::HAPI_SphereInfo
 struct CORDL_TYPE HAPI_SphereInfo {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2191f20 size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x203b584 size 0x54 virtual false final false
   inline void _ctor(bool initialize_fields);
 
   // Ctor Parameters [CppParam { name: "center", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: None
@@ -46,6 +46,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_SphereInfo, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_SphereInfo, center) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_SphereInfo, radius) == 0x8, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_SphereInfo, "HoudiniEngineUnity", "HAPI_SphereInfo");

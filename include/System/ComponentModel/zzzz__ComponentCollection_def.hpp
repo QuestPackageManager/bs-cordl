@@ -18,15 +18,15 @@ MARK_REF_PTR_T(::System::ComponentModel::ComponentCollection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3777))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9387))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3765))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8224))
 // CS Name: ::System.ComponentModel::ComponentCollection*
 class CORDL_TYPE ComponentCollection : public ::System::Collections::ReadOnlyCollectionBase {
 public:
   // Declarations
   __declspec(property(get = get_Item))::System::ComponentModel::IComponent* Item[];
 
-  /// @brief Method get_Item addr 0x2903c04 size 0x588 virtual true final false
+  /// @brief Method get_Item addr 0x2785bdc size 0x588 virtual true final false
   inline ::System::ComponentModel::IComponent* get_Item(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "ComponentCollection", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::EnvironmentVariableTarget);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2601))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2599))
 // CS Name: ::System::EnvironmentVariableTarget
 struct CORDL_TYPE EnvironmentVariableTarget {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::EnvironmentVariableTarget, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::EnvironmentVariableTarget, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::EnvironmentVariableTarget, "System", "EnvironmentVariableTarget");

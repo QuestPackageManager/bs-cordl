@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalDataStoreMgr)
 namespace System {
-class LocalDataStore;
+class LocalDataStoreSlot;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
-class LocalDataStoreSlot;
+class LocalDataStore;
 }
 namespace System {
 class LocalDataStoreHolder;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace System {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::LocalDataStoreMgr);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2545))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2543))
 // CS Name: ::System::LocalDataStoreMgr*
 class CORDL_TYPE LocalDataStoreMgr : public ::System::Object {
 public:
@@ -83,36 +83,36 @@ public:
 
   constexpr void __set_m_CookieGenerator(int64_t value);
 
-  /// @brief Method CreateLocalDataStore addr 0x25d859c size 0x1c0 virtual false final false
+  /// @brief Method CreateLocalDataStore addr 0x247c674 size 0x1c0 virtual false final false
   inline ::System::LocalDataStoreHolder* CreateLocalDataStore();
 
-  /// @brief Method DeleteLocalDataStore addr 0x25d7cb4 size 0x104 virtual false final false
+  /// @brief Method DeleteLocalDataStore addr 0x247bd8c size 0x104 virtual false final false
   inline void DeleteLocalDataStore(::System::LocalDataStore* store);
 
-  /// @brief Method AllocateDataSlot addr 0x25d875c size 0x250 virtual false final false
+  /// @brief Method AllocateDataSlot addr 0x247c834 size 0x250 virtual false final false
   inline ::System::LocalDataStoreSlot* AllocateDataSlot();
 
-  /// @brief Method AllocateNamedDataSlot addr 0x25d89ac size 0x11c virtual false final false
+  /// @brief Method AllocateNamedDataSlot addr 0x247ca84 size 0x11c virtual false final false
   inline ::System::LocalDataStoreSlot* AllocateNamedDataSlot(::StringW name);
 
-  /// @brief Method GetNamedDataSlot addr 0x25d8ac8 size 0x11c virtual false final false
+  /// @brief Method GetNamedDataSlot addr 0x247cba0 size 0x11c virtual false final false
   inline ::System::LocalDataStoreSlot* GetNamedDataSlot(::StringW name);
 
-  /// @brief Method FreeNamedDataSlot addr 0x25d8be4 size 0x104 virtual false final false
+  /// @brief Method FreeNamedDataSlot addr 0x247ccbc size 0x104 virtual false final false
   inline void FreeNamedDataSlot(::StringW name);
 
-  /// @brief Method FreeDataSlot addr 0x25d8404 size 0x198 virtual false final false
+  /// @brief Method FreeDataSlot addr 0x247c4dc size 0x198 virtual false final false
   inline void FreeDataSlot(int32_t slot, int64_t cookie);
 
-  /// @brief Method ValidateSlot addr 0x25d7e90 size 0x7c virtual false final false
+  /// @brief Method ValidateSlot addr 0x247bf68 size 0x7c virtual false final false
   inline void ValidateSlot(::System::LocalDataStoreSlot* slot);
 
-  /// @brief Method GetSlotTableLength addr 0x25d82e4 size 0x1c virtual false final false
+  /// @brief Method GetSlotTableLength addr 0x247c3bc size 0x1c virtual false final false
   inline int32_t GetSlotTableLength();
 
   static inline ::System::LocalDataStoreMgr* New_ctor();
 
-  /// @brief Method .ctor addr 0x25d8ce8 size 0xec virtual false final false
+  /// @brief Method .ctor addr 0x247cdc0 size 0xec virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalDataStoreMgr", modifiers: "&&", def_value: None }]
@@ -157,6 +157,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::LocalDataStoreMgr, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::LocalDataStoreMgr, ___m_SlotInfoTable) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::LocalDataStoreMgr, ___m_FirstAvailableSlot) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::LocalDataStoreMgr, ___m_ManagedLocalDataStores) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::LocalDataStoreMgr, ___m_KeyToSlotMap) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::LocalDataStoreMgr, ___m_CookieGenerator) == 0x30, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::LocalDataStoreMgr);

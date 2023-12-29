@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ShelfToolData);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9856))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9783))
 // CS Name: ::HEU_ShelfToolData::ToolType
 struct CORDL_TYPE __HEU_ShelfToolData__ToolType {
 public:
@@ -77,13 +77,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_ShelfToolData
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9856))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9857))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(9783))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9784))
 // CS Name: ::HoudiniEngineUnity::HEU_ShelfToolData*
 class CORDL_TYPE HEU_ShelfToolData : public ::System::Object {
 public:
@@ -164,7 +166,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_ShelfToolData* New_ctor();
 
-  /// @brief Method .ctor addr 0x21d069c size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x2078d00 size 0x5c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ShelfToolData", modifiers: "&&", def_value: None }]
@@ -209,6 +211,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_ShelfToolData, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ShelfToolData, ____name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ShelfToolData, ____toolType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ShelfToolData, ____toolTip) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ShelfToolData, ____iconPath) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ShelfToolData, ____assetPath) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ShelfToolData, ____helpURL) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ShelfToolData, ____targets) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ShelfToolData, ____jsonPath) == 0x48, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType, "HoudiniEngineUnity", "HEU_ShelfToolData/ToolType");

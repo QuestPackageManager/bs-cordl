@@ -8,10 +8,10 @@ namespace GlobalNamespace {
 class MissionNode;
 }
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
+class CampaignProgressModel;
 }
 namespace GlobalNamespace {
-class CampaignProgressModel;
+class GameplayModifiersModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionNodeGizmos);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5545))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5638))
 // CS Name: ::MissionNodeGizmos*
 class CORDL_TYPE MissionNodeGizmos : public ::UnityEngine::MonoBehaviour {
 public:
@@ -58,7 +58,7 @@ public:
 
   static inline ::GlobalNamespace::MissionNodeGizmos* New_ctor();
 
-  /// @brief Method .ctor addr 0x22a0884 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x215b900 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionNodeGizmos", modifiers: "&&", def_value: None }]
@@ -88,6 +88,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionNodeGizmos, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeGizmos, ____missionNode) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeGizmos, ____gameplayModifiersModel) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeGizmos, ____missionProgressModel) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionNodeGizmos);

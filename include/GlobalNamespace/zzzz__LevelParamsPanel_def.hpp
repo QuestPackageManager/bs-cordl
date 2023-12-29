@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelParamsPanel);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5794))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5884))
 // CS Name: ::LevelParamsPanel*
 class CORDL_TYPE LevelParamsPanel : public ::UnityEngine::MonoBehaviour {
 public:
@@ -69,21 +69,21 @@ public:
 
   constexpr void __set__bombsCountText(::TMPro::TextMeshProUGUI* value);
 
-  /// @brief Method set_notesPerSecond addr 0x22e6ddc size 0x80 virtual false final false
+  /// @brief Method set_notesPerSecond addr 0x21a1154 size 0x80 virtual false final false
   inline void set_notesPerSecond(float_t value);
 
-  /// @brief Method set_notesCount addr 0x22e6e5c size 0x48 virtual false final false
+  /// @brief Method set_notesCount addr 0x21a11d4 size 0x48 virtual false final false
   inline void set_notesCount(int32_t value);
 
-  /// @brief Method set_obstaclesCount addr 0x22e6ea4 size 0x48 virtual false final false
+  /// @brief Method set_obstaclesCount addr 0x21a121c size 0x48 virtual false final false
   inline void set_obstaclesCount(int32_t value);
 
-  /// @brief Method set_bombsCount addr 0x22e6eec size 0x48 virtual false final false
+  /// @brief Method set_bombsCount addr 0x21a1264 size 0x48 virtual false final false
   inline void set_bombsCount(int32_t value);
 
   static inline ::GlobalNamespace::LevelParamsPanel* New_ctor();
 
-  /// @brief Method .ctor addr 0x22e6f34 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21a12ac size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelParamsPanel", modifiers: "&&", def_value: None }]
@@ -116,6 +116,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelParamsPanel, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelParamsPanel, ____notesPerSecondText) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelParamsPanel, ____notesCountText) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelParamsPanel, ____obstaclesCountText) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelParamsPanel, ____bombsCountText) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelParamsPanel);

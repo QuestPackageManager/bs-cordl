@@ -17,40 +17,40 @@ MARK_REF_PTR_T(::UnityEngine::XR::XRSettings);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16122))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15976))
 // CS Name: ::UnityEngine.XR::XRSettings*
 class CORDL_TYPE XRSettings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_showDeviceView addr 0x2eb1ce4 size 0x28 virtual false final false
+  /// @brief Method get_showDeviceView addr 0x2d48ef8 size 0x28 virtual false final false
   static inline bool get_showDeviceView();
 
-  /// @brief Method set_showDeviceView addr 0x2eb1d0c size 0x3c virtual false final false
+  /// @brief Method set_showDeviceView addr 0x2d48f20 size 0x3c virtual false final false
   static inline void set_showDeviceView(bool value);
 
-  /// @brief Method set_eyeTextureResolutionScale addr 0x2eb1d48 size 0x38 virtual false final false
+  /// @brief Method set_eyeTextureResolutionScale addr 0x2d48f5c size 0x38 virtual false final false
   static inline void set_eyeTextureResolutionScale(float_t value);
 
-  /// @brief Method get_eyeTextureWidth addr 0x2eb1d80 size 0x28 virtual false final false
+  /// @brief Method get_eyeTextureWidth addr 0x2d48f94 size 0x28 virtual false final false
   static inline int32_t get_eyeTextureWidth();
 
-  /// @brief Method get_eyeTextureHeight addr 0x2eb1da8 size 0x28 virtual false final false
+  /// @brief Method get_eyeTextureHeight addr 0x2d48fbc size 0x28 virtual false final false
   static inline int32_t get_eyeTextureHeight();
 
-  /// @brief Method get_renderViewportScale addr 0x2eb1dd0 size 0x28 virtual false final false
+  /// @brief Method get_renderViewportScale addr 0x2d48fe4 size 0x28 virtual false final false
   static inline float_t get_renderViewportScale();
 
-  /// @brief Method set_renderViewportScale addr 0x2eb1e20 size 0xb4 virtual false final false
+  /// @brief Method set_renderViewportScale addr 0x2d49034 size 0xb4 virtual false final false
   static inline void set_renderViewportScale(float_t value);
 
-  /// @brief Method get_renderViewportScaleInternal addr 0x2eb1df8 size 0x28 virtual false final false
+  /// @brief Method get_renderViewportScaleInternal addr 0x2d4900c size 0x28 virtual false final false
   static inline float_t get_renderViewportScaleInternal();
 
-  /// @brief Method set_renderViewportScaleInternal addr 0x2eb1ed4 size 0x38 virtual false final false
+  /// @brief Method set_renderViewportScaleInternal addr 0x2d490e8 size 0x38 virtual false final false
   static inline void set_renderViewportScaleInternal(float_t value);
 
-  /// @brief Method get_loadedDeviceName addr 0x2eb1f0c size 0x28 virtual false final false
+  /// @brief Method get_loadedDeviceName addr 0x2d49120 size 0x28 virtual false final false
   static inline ::StringW get_loadedDeviceName();
 
   // Ctor Parameters [CppParam { name: "", ty: "XRSettings", modifiers: "&&", def_value: None }]

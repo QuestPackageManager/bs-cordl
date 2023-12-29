@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Lexer)
 namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System::Net::Http::Headers {
-struct Token;
+struct DateTimeOffset;
 }
 namespace System {
 struct TimeSpan;
 }
 namespace System {
-struct DateTimeOffset;
+template <typename T> struct Nullable_1;
+}
+namespace System::Net::Http::Headers {
+struct Token;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::Lexer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14683))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14900))
 // CS Name: ::System.Net.Http.Headers::Lexer*
 class CORDL_TYPE Lexer : public ::System::Object {
 public:
@@ -80,64 +80,64 @@ public:
 
   static inline ::System::Net::Http::Headers::Lexer* New_ctor(::StringW stream);
 
-  /// @brief Method .ctor addr 0x2834b60 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x26b9b4c size 0x28 virtual false final false
   inline void _ctor(::StringW stream);
 
-  /// @brief Method get_Position addr 0x283c870 size 0x8 virtual false final false
+  /// @brief Method get_Position addr 0x26c185c size 0x8 virtual false final false
   inline int32_t get_Position();
 
-  /// @brief Method set_Position addr 0x283c878 size 0x8 virtual false final false
+  /// @brief Method set_Position addr 0x26c1864 size 0x8 virtual false final false
   inline void set_Position(int32_t value);
 
-  /// @brief Method GetStringValue addr 0x2835060 size 0x24 virtual false final false
+  /// @brief Method GetStringValue addr 0x26ba04c size 0x24 virtual false final false
   inline ::StringW GetStringValue(::System::Net::Http::Headers::Token token);
 
-  /// @brief Method GetStringValue addr 0x283c880 size 0x24 virtual false final false
+  /// @brief Method GetStringValue addr 0x26c186c size 0x24 virtual false final false
   inline ::StringW GetStringValue(::System::Net::Http::Headers::Token start, ::System::Net::Http::Headers::Token end);
 
-  /// @brief Method GetQuotedStringValue addr 0x2836930 size 0x2c virtual false final false
+  /// @brief Method GetQuotedStringValue addr 0x26bb91c size 0x2c virtual false final false
   inline ::StringW GetQuotedStringValue(::System::Net::Http::Headers::Token start);
 
-  /// @brief Method GetRemainingStringValue addr 0x2835084 size 0x34 virtual false final false
+  /// @brief Method GetRemainingStringValue addr 0x26ba070 size 0x34 virtual false final false
   inline ::StringW GetRemainingStringValue(int32_t position);
 
-  /// @brief Method IsStarStringValue addr 0x28385a0 size 0x44 virtual false final false
+  /// @brief Method IsStarStringValue addr 0x26bd58c size 0x44 virtual false final false
   inline bool IsStarStringValue(::System::Net::Http::Headers::Token token);
 
-  /// @brief Method TryGetNumericValue addr 0x283c8a4 size 0xa0 virtual false final false
+  /// @brief Method TryGetNumericValue addr 0x26c1890 size 0xa0 virtual false final false
   inline bool TryGetNumericValue(::System::Net::Http::Headers::Token token, ByRef<int32_t> value);
 
-  /// @brief Method TryGetNumericValue addr 0x28385e4 size 0xa0 virtual false final false
+  /// @brief Method TryGetNumericValue addr 0x26bd5d0 size 0xa0 virtual false final false
   inline bool TryGetNumericValue(::System::Net::Http::Headers::Token token, ByRef<int64_t> value);
 
-  /// @brief Method TryGetTimeSpanValue addr 0x2836868 size 0xc8 virtual false final false
+  /// @brief Method TryGetTimeSpanValue addr 0x26bb854 size 0xc8 virtual false final false
   inline ::System::Nullable_1<::System::TimeSpan> TryGetTimeSpanValue(::System::Net::Http::Headers::Token token);
 
-  /// @brief Method TryGetDateValue addr 0x283c944 size 0xdc virtual false final false
+  /// @brief Method TryGetDateValue addr 0x26c1930 size 0xdc virtual false final false
   inline bool TryGetDateValue(::System::Net::Http::Headers::Token token, ByRef<::System::DateTimeOffset> value);
 
-  /// @brief Method TryGetDateValue addr 0x283ca20 size 0xdc virtual false final false
+  /// @brief Method TryGetDateValue addr 0x26c1a0c size 0xdc virtual false final false
   static inline bool TryGetDateValue(::StringW text, ByRef<::System::DateTimeOffset> value);
 
-  /// @brief Method TryGetDoubleValue addr 0x283cafc size 0xa0 virtual false final false
+  /// @brief Method TryGetDoubleValue addr 0x26c1ae8 size 0xa0 virtual false final false
   inline bool TryGetDoubleValue(::System::Net::Http::Headers::Token token, ByRef<double_t> value);
 
-  /// @brief Method IsValidToken addr 0x283cb9c size 0xb0 virtual false final false
+  /// @brief Method IsValidToken addr 0x26c1b88 size 0xb0 virtual false final false
   static inline bool IsValidToken(::StringW input);
 
-  /// @brief Method IsValidCharacter addr 0x283cc4c size 0xb0 virtual false final false
+  /// @brief Method IsValidCharacter addr 0x26c1c38 size 0xb0 virtual false final false
   static inline bool IsValidCharacter(char16_t input);
 
-  /// @brief Method EatChar addr 0x2838d34 size 0x10 virtual false final false
+  /// @brief Method EatChar addr 0x26bdd20 size 0x10 virtual false final false
   inline void EatChar();
 
-  /// @brief Method PeekChar addr 0x2838cf4 size 0x40 virtual false final false
+  /// @brief Method PeekChar addr 0x26bdce0 size 0x40 virtual false final false
   inline int32_t PeekChar();
 
-  /// @brief Method ScanCommentOptional addr 0x283ccfc size 0x150 virtual false final false
+  /// @brief Method ScanCommentOptional addr 0x26c1ce8 size 0x150 virtual false final false
   inline bool ScanCommentOptional(ByRef<::StringW> value, ByRef<::System::Net::Http::Headers::Token> readToken);
 
-  /// @brief Method Scan addr 0x2834d6c size 0x2f4 virtual false final false
+  /// @brief Method Scan addr 0x26b9d58 size 0x2f4 virtual false final false
   inline ::System::Net::Http::Headers::Token Scan(bool recognizeDash);
 
   // Ctor Parameters [CppParam { name: "", ty: "Lexer", modifiers: "&&", def_value: None }]
@@ -164,6 +164,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::Lexer, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::Lexer, ___s) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::Lexer, ___pos) == 0x18, "Offset mismatch!");
 
 } // namespace System::Net::Http::Headers
 NEED_NO_BOX(::System::Net::Http::Headers::Lexer);

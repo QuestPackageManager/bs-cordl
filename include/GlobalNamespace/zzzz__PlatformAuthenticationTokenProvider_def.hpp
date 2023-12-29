@@ -15,40 +15,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlatformAuthenticationTokenProvider)
 namespace GlobalNamespace {
-struct AuthenticationToken;
-}
-namespace GlobalNamespace {
-class IPlatformUserModel;
-}
-namespace GlobalNamespace {
 struct __PlatformAuthenticationTokenProvider___RequestXPlatformAccessToken_d__19;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-struct __AuthenticationToken__Platform;
-}
-namespace GlobalNamespace {
-class XPlatformAccessTokenData;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-class IAuthenticationTokenProvider;
 }
 namespace GlobalNamespace {
 struct PlatformEnvironment;
 }
 namespace GlobalNamespace {
-struct __PlatformAuthenticationTokenProvider___GetAuthenticationToken_d__16;
+class IAuthenticationTokenProvider;
 }
 namespace GlobalNamespace {
 struct __PlatformAuthenticationTokenProvider___GetXPlatformAccessToken_d__18;
 }
 namespace GlobalNamespace {
+struct __PlatformAuthenticationTokenProvider___GetAuthenticationToken_d__16;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
+class IPlatformUserModel;
+}
+namespace GlobalNamespace {
+class XPlatformAccessTokenData;
+}
+namespace GlobalNamespace {
 class UserInfo;
+}
+namespace GlobalNamespace {
+struct AuthenticationToken;
+}
+namespace GlobalNamespace {
+struct __AuthenticationToken__Platform;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace GlobalNamespace {
 class PlatformUserAuthTokenData;
@@ -58,9 +61,6 @@ template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -84,19 +84,19 @@ MARK_VAL_T(::GlobalNamespace::__PlatformAuthenticationTokenProvider___RequestXPl
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5067 }), TypeDefinitionIndex(TypeDefinitionIndex(15982)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12682)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 876 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14968)) CS Name: ::PlatformAuthenticationTokenProvider::<GetAuthenticationToken>d__16
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 860
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 876 }), TypeDefinitionIndex(TypeDefinitionIndex(4696)), TypeDefinitionIndex(TypeDefinitionIndex(12610))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4594)) CS Name: ::PlatformAuthenticationTokenProvider::<GetAuthenticationToken>d__16
 struct CORDL_TYPE __PlatformAuthenticationTokenProvider___GetAuthenticationToken_d__16 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x26381c0 size 0x3ac virtual true final true
+  /// @brief Method MoveNext addr 0x22248c4 size 0x3ac virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x263856c size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0x2224c70 size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -132,33 +132,40 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlatformAuthenticationTokenProvider___GetAuthenticationToken_d__16, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider___GetAuthenticationToken_d__16, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider___GetAuthenticationToken_d__16, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider___GetAuthenticationToken_d__16, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider___GetAuthenticationToken_d__16, __u__1) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<GetXPlatformAccessToken>d__18
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(12925)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 902
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 902 }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(14969)) CS Name: ::PlatformAuthenticationTokenProvider::<GetXPlatformAccessToken>d__18
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 882 }), TypeDefinitionIndex(TypeDefinitionIndex(3389)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 882 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(12846))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4595)) CS Name: ::PlatformAuthenticationTokenProvider::<GetXPlatformAccessToken>d__18
 struct CORDL_TYPE __PlatformAuthenticationTokenProvider___GetXPlatformAccessToken_d__18 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x26385c4 size 0x330 virtual true final true
+  /// @brief Method MoveNext addr 0x2224cc8 size 0x248 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x26388f4 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0x2224f24 size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData*>", modifiers: "", def_value: None }, CppParam { name: "skipCache", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::PlatformAuthenticationTokenProvider*", modifiers: "", def_value: None }, CppParam { name:
-  // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData*>", modifiers: "", def_value: None }]
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::PlatformAuthenticationTokenProvider*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData*>", modifiers: "", def_value: None }]
   constexpr __PlatformAuthenticationTokenProvider___GetXPlatformAccessToken_d__18(
-      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData*> __t__builder, bool skipCache,
+      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData*> __t__builder,
       ::GlobalNamespace::PlatformAuthenticationTokenProvider* __4__this, ::System::Threading::CancellationToken cancellationToken,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData*> __u__1) noexcept;
 
@@ -172,44 +179,51 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData*> __t__builder;
 
-  /// @brief Field skipCache, offset: 0x20, size: 0x1, def value: None
-  bool skipCache;
-
-  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::PlatformAuthenticationTokenProvider* __4__this;
 
-  /// @brief Field cancellationToken, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
-  /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData*> __u__1;
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlatformAuthenticationTokenProvider___GetXPlatformAccessToken_d__18, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlatformAuthenticationTokenProvider___GetXPlatformAccessToken_d__18, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider___GetXPlatformAccessToken_d__18, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider___GetXPlatformAccessToken_d__18, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider___GetXPlatformAccessToken_d__18, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider___GetXPlatformAccessToken_d__18, cancellationToken) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider___GetXPlatformAccessToken_d__18, __u__1) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::<RequestXPlatformAccessToken>d__19
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 902 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 902 }), TypeDefinitionIndex(TypeDefinitionIndex(12925)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(14970)) CS Name: ::PlatformAuthenticationTokenProvider::<RequestXPlatformAccessToken>d__19
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 882
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2675)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 882 }), TypeDefinitionIndex(TypeDefinitionIndex(12846))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4596)) CS Name: ::PlatformAuthenticationTokenProvider::<RequestXPlatformAccessToken>d__19
 struct CORDL_TYPE __PlatformAuthenticationTokenProvider___RequestXPlatformAccessToken_d__19 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x263894c size 0x324 virtual true final true
+  /// @brief Method MoveNext addr 0x2224f7c size 0x324 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x2638c70 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0x22252a0 size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -248,13 +262,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlatformAuthenticationTokenProvider___RequestXPlatformAccessToken_d__19, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider___RequestXPlatformAccessToken_d__19, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider___RequestXPlatformAccessToken_d__19, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider___RequestXPlatformAccessToken_d__19, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider___RequestXPlatformAccessToken_d__19, cancellationToken) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider___RequestXPlatformAccessToken_d__19, __u__1) == 0x30, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::PlatformAuthenticationTokenProvider
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12681))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14971))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12609)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4597))
 // CS Name: ::PlatformAuthenticationTokenProvider*
 class CORDL_TYPE PlatformAuthenticationTokenProvider : public ::System::Object {
 public:
@@ -347,30 +371,30 @@ public:
 
   constexpr void __set__xPlatformTokenRetryDelayExpiration(float_t value);
 
-  /// @brief Method get_hashedUserId addr 0x2637d8c size 0x8 virtual true final true
+  /// @brief Method get_hashedUserId addr 0x22244b0 size 0x8 virtual true final true
   inline ::StringW get_hashedUserId();
 
-  /// @brief Method get_userName addr 0x2637d94 size 0x8 virtual true final true
+  /// @brief Method get_userName addr 0x22244b8 size 0x8 virtual true final true
   inline ::StringW get_userName();
 
-  /// @brief Method get_platform addr 0x2637d9c size 0x8 virtual true final true
+  /// @brief Method get_platform addr 0x22244c0 size 0x8 virtual true final true
   inline ::GlobalNamespace::__AuthenticationToken__Platform get_platform();
 
   static inline ::GlobalNamespace::PlatformAuthenticationTokenProvider* New_ctor(::GlobalNamespace::IPlatformUserModel* platformUserModel, ::GlobalNamespace::UserInfo* userInfo);
 
-  /// @brief Method .ctor addr 0x2637da4 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x22244c8 size 0xac virtual false final false
   inline void _ctor(::GlobalNamespace::IPlatformUserModel* platformUserModel, ::GlobalNamespace::UserInfo* userInfo);
 
-  /// @brief Method GetAuthenticationToken addr 0x2637e64 size 0xf8 virtual true final true
+  /// @brief Method GetAuthenticationToken addr 0x2224574 size 0xf8 virtual true final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
 
-  /// @brief Method GetTokenPlatform addr 0x2637f5c size 0x60 virtual true final true
+  /// @brief Method GetTokenPlatform addr 0x222466c size 0x60 virtual true final true
   inline ::GlobalNamespace::__AuthenticationToken__Platform GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
 
-  /// @brief Method GetXPlatformAccessToken addr 0x2637fbc size 0x108 virtual true final true
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache);
+  /// @brief Method GetXPlatformAccessToken addr 0x22246cc size 0xfc virtual true final true
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method RequestXPlatformAccessToken addr 0x26380c4 size 0xfc virtual false final false
+  /// @brief Method RequestXPlatformAccessToken addr 0x22247c8 size 0xfc virtual false final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformAuthenticationTokenProvider", modifiers: "&&", def_value: None }]
@@ -418,6 +442,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlatformAuthenticationTokenProvider, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlatformAuthenticationTokenProvider, ____platformUserModel) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlatformAuthenticationTokenProvider, ____userId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlatformAuthenticationTokenProvider, ____userName) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlatformAuthenticationTokenProvider, ____hashedUserId) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlatformAuthenticationTokenProvider, ____platform) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlatformAuthenticationTokenProvider, ____cachedXPlatformAccessToken) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlatformAuthenticationTokenProvider, ____xPlatformAccessTokenTask) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlatformAuthenticationTokenProvider, ____xPlatformTokenRetryDelayExpiration) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlatformAuthenticationTokenProvider);

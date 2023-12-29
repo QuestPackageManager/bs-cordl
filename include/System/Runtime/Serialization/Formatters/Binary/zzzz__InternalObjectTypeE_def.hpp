@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Serialization::Formatters::Binary::InternalObjectT
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3248))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3247))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::InternalObjectTypeE
 struct CORDL_TYPE InternalObjectTypeE {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE, "System.Runtime.Serialization.Formatters.Binary", "InternalObjectTypeE");

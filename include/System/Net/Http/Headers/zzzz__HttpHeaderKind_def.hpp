@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Http::Headers::HttpHeaderKind);
 namespace System::Net::Http::Headers {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14673))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14890))
 // CS Name: ::System.Net.Http.Headers::HttpHeaderKind
 struct CORDL_TYPE HttpHeaderKind {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::HttpHeaderKind, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::HttpHeaderKind, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net::Http::Headers
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::HttpHeaderKind, "System.Net.Http.Headers", "HttpHeaderKind");

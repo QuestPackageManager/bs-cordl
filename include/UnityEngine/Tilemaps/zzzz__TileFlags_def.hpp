@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Tilemaps::TileFlags);
 namespace UnityEngine::Tilemaps {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15938))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15830))
 // CS Name: ::UnityEngine.Tilemaps::TileFlags
 struct CORDL_TYPE TileFlags {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Tilemaps::TileFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::TileFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Tilemaps
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Tilemaps::TileFlags, "UnityEngine.Tilemaps", "TileFlags");

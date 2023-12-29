@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Math::EC::AbstractFpFieldElement* New_ctor();
 
-  /// @brief Method .ctor addr 0xfce874 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xf59628 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AbstractFpFieldElement", modifiers: "&&", def_value: None }]

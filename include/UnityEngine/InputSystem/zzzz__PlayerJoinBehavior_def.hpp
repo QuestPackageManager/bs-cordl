@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::PlayerJoinBehavior);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6319))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6405))
 // CS Name: ::UnityEngine.InputSystem::PlayerJoinBehavior
 struct CORDL_TYPE PlayerJoinBehavior {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::PlayerJoinBehavior, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::PlayerJoinBehavior, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::PlayerJoinBehavior, "UnityEngine.InputSystem", "PlayerJoinBehavior");

@@ -19,7 +19,7 @@ namespace System {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2420))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2418))
 // CS Name: ::System::IObserver`1<T>*
 class CORDL_TYPE IObserver_1 {
 public:

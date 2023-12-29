@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(Angle)
 namespace UnityEngine::UIElements {
 struct __Angle__Unit;
 }
-namespace System {
-class Object;
+namespace UnityEngine::UIElements {
+struct AngleUnit;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine::UIElements {
-struct AngleUnit;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -35,7 +35,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Angle);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7304))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7390))
 // CS Name: ::Angle::Unit
 struct CORDL_TYPE __Angle__Unit {
 public:
@@ -89,13 +89,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Angle__Unit, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__Angle__Unit, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::Angle
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7304))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7305))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7390))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7391))
 // CS Name: ::UnityEngine.UIElements::Angle
 struct CORDL_TYPE Angle {
 public:
@@ -107,37 +109,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Angle>*();
 
-  /// @brief Method None addr 0x2e71a38 size 0x8 virtual false final false
+  /// @brief Method None addr 0x2d08688 size 0x8 virtual false final false
   static inline ::UnityEngine::UIElements::Angle None();
 
-  /// @brief Method get_value addr 0x2e71a4c size 0x8 virtual false final false
+  /// @brief Method get_value addr 0x2d0869c size 0x8 virtual false final false
   inline float_t get_value();
 
-  /// @brief Method .ctor addr 0x2e71a54 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2d086a4 size 0xc virtual false final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::AngleUnit unit);
 
-  /// @brief Method .ctor addr 0x2e71a40 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2d08690 size 0xc virtual false final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::__Angle__Unit unit);
 
-  /// @brief Method ToDegrees addr 0x2e70910 size 0x84 virtual false final false
+  /// @brief Method ToDegrees addr 0x2d07560 size 0x84 virtual false final false
   inline float_t ToDegrees();
 
-  /// @brief Method op_Implicit addr 0x2e70390 size 0x8 virtual false final false
+  /// @brief Method op_Implicit addr 0x2d06fe0 size 0x8 virtual false final false
   static inline ::UnityEngine::UIElements::Angle op_Implicit___UnityEngine__UIElements__Angle(float_t value);
 
-  /// @brief Method op_Equality addr 0x2e7049c size 0x28 virtual false final false
+  /// @brief Method op_Equality addr 0x2d070ec size 0x28 virtual false final false
   static inline bool op_Equality(::UnityEngine::UIElements::Angle lhs, ::UnityEngine::UIElements::Angle rhs);
 
-  /// @brief Method Equals addr 0x2e71a60 size 0x28 virtual true final true
+  /// @brief Method Equals addr 0x2d086b0 size 0x28 virtual true final true
   inline bool Equals(::UnityEngine::UIElements::Angle other);
 
-  /// @brief Method Equals addr 0x2e71a88 size 0x8c virtual true final false
+  /// @brief Method Equals addr 0x2d086d8 size 0x8c virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2e70688 size 0x28 virtual true final false
+  /// @brief Method GetHashCode addr 0x2d072d8 size 0x28 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x2e70718 size 0x1d8 virtual true final false
+  /// @brief Method ToString addr 0x2d07368 size 0x1d8 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Unit", ty: "::UnityEngine::UIElements::__Angle__Unit", modifiers: "", def_value:
@@ -161,6 +163,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Angle, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Angle, m_Value) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Angle, m_Unit) == 0x4, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__Angle__Unit, "UnityEngine.UIElements", "Angle/Unit");

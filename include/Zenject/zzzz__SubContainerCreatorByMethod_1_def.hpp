@@ -8,19 +8,19 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
+class InjectContext;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace Zenject {
 class SubContainerCreatorBindInfo;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
 namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
 class DiContainer;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace Zenject {
@@ -34,8 +34,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11246))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11248))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11174))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11176))
 // CS Name: ::Zenject::SubContainerCreatorByMethod`1<TParam1>*
 class CORDL_TYPE SubContainerCreatorByMethod_1 : public ::Zenject::SubContainerCreatorByMethodBase {
 public:

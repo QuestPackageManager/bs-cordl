@@ -16,8 +16,8 @@ MARK_VAL_T(::OVR::OpenVR::NotificationBitmap_t);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8718))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9487))
 // CS Name: ::OVR.OpenVR::NotificationBitmap_t
 struct CORDL_TYPE NotificationBitmap_t {
 public:
@@ -49,6 +49,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::NotificationBitmap_t, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::NotificationBitmap_t, m_pImageData) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::NotificationBitmap_t, m_nWidth) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::NotificationBitmap_t, m_nHeight) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::NotificationBitmap_t, m_nBytesPerPixel) == 0x10, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::NotificationBitmap_t, "OVR.OpenVR", "NotificationBitmap_t");

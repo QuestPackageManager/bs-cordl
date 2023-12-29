@@ -32,18 +32,18 @@ MARK_VAL_T(::UnityEngine::LowLevel::PlayerLoopSystem);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10473))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10395))
 // CS Name: ::PlayerLoopSystem::UpdateFunction*
 class CORDL_TYPE __PlayerLoopSystem__UpdateFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2cfa698 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x2b92288 size 0xbc virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2cfa754 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2b92344 size 0x14 virtual true final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerLoopSystem__UpdateFunction", modifiers: "&&", def_value: None }]
@@ -70,15 +70,15 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::LowLevel::__PlayerL
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10474))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10396))
 // CS Name: ::UnityEngine.LowLevel::PlayerLoopSystem
 struct CORDL_TYPE PlayerLoopSystem {
 public:
   // Declarations
   using UpdateFunction = ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction;
 
-  /// @brief Method ToString addr 0x2cfa678 size 0x20 virtual true final false
+  /// @brief Method ToString addr 0x2b92268 size 0x20 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "subSystemList", ty:
@@ -114,6 +114,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::LowLevel::PlayerLoopSystem, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::LowLevel::PlayerLoopSystem, type) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::LowLevel::PlayerLoopSystem, subSystemList) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::LowLevel::PlayerLoopSystem, updateDelegate) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::LowLevel::PlayerLoopSystem, updateFunction) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::LowLevel::PlayerLoopSystem, loopConditionFunction) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::LowLevel
 NEED_NO_BOX(::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction);

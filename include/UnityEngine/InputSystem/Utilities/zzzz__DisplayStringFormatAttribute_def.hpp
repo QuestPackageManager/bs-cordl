@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribu
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6665))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6751))
 // CS Name: ::UnityEngine.InputSystem.Utilities::DisplayStringFormatAttribute*
 class CORDL_TYPE DisplayStringFormatAttribute : public ::System::Attribute {
 public:
@@ -32,15 +32,15 @@ public:
 
   constexpr void __set__formatString_k__BackingField(::StringW value);
 
-  /// @brief Method get_formatString addr 0x2b0f9cc size 0x8 virtual false final false
+  /// @brief Method get_formatString addr 0x298ec78 size 0x8 virtual false final false
   inline ::StringW get_formatString();
 
-  /// @brief Method set_formatString addr 0x2b0f9d4 size 0x8 virtual false final false
+  /// @brief Method set_formatString addr 0x298ec80 size 0x8 virtual false final false
   inline void set_formatString(::StringW value);
 
   static inline ::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute* New_ctor(::StringW formatString);
 
-  /// @brief Method .ctor addr 0x2b0f9dc size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x298ec88 size 0x28 virtual false final false
   inline void _ctor(::StringW formatString);
 
   // Ctor Parameters [CppParam { name: "", ty: "DisplayStringFormatAttribute", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute, ____formatString_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Utilities
 NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute);

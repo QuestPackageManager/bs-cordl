@@ -16,12 +16,12 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_Keyframe);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9745))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9672))
 // CS Name: ::HoudiniEngineUnity::HAPI_Keyframe
 struct CORDL_TYPE HAPI_Keyframe {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2191ea4 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x203b508 size 0xc virtual false final false
   inline void _ctor(float_t t, float_t v, float_t in_tangent, float_t out_tangent);
 
   // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "inTangent",
@@ -51,6 +51,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_Keyframe, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_Keyframe, time) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_Keyframe, value) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_Keyframe, inTangent) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_Keyframe, outTangent) == 0xc, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_Keyframe, "HoudiniEngineUnity", "HAPI_Keyframe");

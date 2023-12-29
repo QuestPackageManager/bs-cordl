@@ -20,8 +20,8 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_t);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8642))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8692))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9411))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9461))
 // CS Name: ::OVR.OpenVR::VREvent_t
 struct CORDL_TYPE VREvent_t {
 public:
@@ -53,6 +53,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VREvent_t, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_t, eventType) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_t, trackedDeviceIndex) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_t, eventAgeSeconds) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_t, data) == 0x10, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VREvent_t, "OVR.OpenVR", "VREvent_t");

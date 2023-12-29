@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::KeySizes);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2923))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2922))
 // CS Name: ::System.Security.Cryptography::KeySizes*
 class CORDL_TYPE KeySizes : public ::System::Object {
 public:
@@ -55,24 +55,24 @@ public:
 
   constexpr void __set_m_skipSize(int32_t value);
 
-  /// @brief Method get_MinSize addr 0x245c000 size 0x8 virtual false final false
+  /// @brief Method get_MinSize addr 0x2302924 size 0x8 virtual false final false
   inline int32_t get_MinSize();
 
-  /// @brief Method get_MaxSize addr 0x245c008 size 0x8 virtual false final false
+  /// @brief Method get_MaxSize addr 0x230292c size 0x8 virtual false final false
   inline int32_t get_MaxSize();
 
-  /// @brief Method get_SkipSize addr 0x245c010 size 0x8 virtual false final false
+  /// @brief Method get_SkipSize addr 0x2302934 size 0x8 virtual false final false
   inline int32_t get_SkipSize();
 
   static inline ::System::Security::Cryptography::KeySizes* New_ctor(int32_t minSize, int32_t maxSize, int32_t skipSize);
 
-  /// @brief Method .ctor addr 0x245bdac size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x23026d0 size 0x3c virtual false final false
   inline void _ctor(int32_t minSize, int32_t maxSize, int32_t skipSize);
 
-  /// @brief Method IsLegal addr 0x245c018 size 0x4c virtual false final false
+  /// @brief Method IsLegal addr 0x230293c size 0x4c virtual false final false
   inline bool IsLegal(int32_t keySize);
 
-  /// @brief Method IsLegalKeySize addr 0x245c064 size 0x80 virtual false final false
+  /// @brief Method IsLegalKeySize addr 0x2302988 size 0x80 virtual false final false
   static inline bool IsLegalKeySize(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> legalKeys, int32_t size);
 
   // Ctor Parameters [CppParam { name: "", ty: "KeySizes", modifiers: "&&", def_value: None }]
@@ -102,6 +102,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::KeySizes, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::KeySizes, ___m_minSize) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::KeySizes, ___m_maxSize) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::KeySizes, ___m_skipSize) == 0x18, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::KeySizes);

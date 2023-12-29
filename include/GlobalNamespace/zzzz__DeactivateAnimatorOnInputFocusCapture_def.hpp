@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14331))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13800))
 // CS Name: ::DeactivateAnimatorOnInputFocusCapture*
 class CORDL_TYPE DeactivateAnimatorOnInputFocusCapture : public ::UnityEngine::MonoBehaviour {
 public:
@@ -53,21 +53,21 @@ public:
 
   constexpr void __set__wasEnabled(bool value);
 
-  /// @brief Method Start addr 0x20ee7e0 size 0x210 virtual false final false
+  /// @brief Method Start addr 0x1f8f20c size 0x210 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x20eea30 size 0x1a4 virtual false final false
+  /// @brief Method OnDestroy addr 0x1f8f45c size 0x1a4 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleInputFocusCaptured addr 0x20ee9f0 size 0x40 virtual false final false
+  /// @brief Method HandleInputFocusCaptured addr 0x1f8f41c size 0x40 virtual false final false
   inline void HandleInputFocusCaptured();
 
-  /// @brief Method HandleInputFocusReleased addr 0x20eebd4 size 0x24 virtual false final false
+  /// @brief Method HandleInputFocusReleased addr 0x1f8f600 size 0x24 virtual false final false
   inline void HandleInputFocusReleased();
 
   static inline ::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture* New_ctor();
 
-  /// @brief Method .ctor addr 0x20eebf8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1f8f624 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DeactivateAnimatorOnInputFocusCapture", modifiers: "&&", def_value: None }]
@@ -97,6 +97,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, ____animator) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, ____vrPlatformHelper) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, ____wasEnabled) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture);

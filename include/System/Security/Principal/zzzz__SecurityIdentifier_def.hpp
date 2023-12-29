@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SecurityIdentifier)
+namespace System {
+class Object;
+}
 namespace System::Security::Principal {
 class IdentityReference;
 }
@@ -16,9 +19,6 @@ class Type;
 }
 namespace System {
 template <typename T> class IComparable_1;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::Security::Principal {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::System::Security::Principal::SecurityIdentifier);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3000))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3002))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2999))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3001))
 // CS Name: ::System.Security.Principal::SecurityIdentifier*
 class CORDL_TYPE SecurityIdentifier : public ::System::Security::Principal::IdentityReference {
 public:
@@ -68,63 +68,63 @@ public:
 
   static inline ::System::Security::Principal::SecurityIdentifier* New_ctor(::StringW sddlForm);
 
-  /// @brief Method .ctor addr 0x24773a4 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x231f8b0 size 0xbc virtual false final false
   inline void _ctor(::StringW sddlForm);
 
   static inline ::System::Security::Principal::SecurityIdentifier* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method .ctor addr 0x24778c0 size 0xec virtual false final false
+  /// @brief Method .ctor addr 0x231fdcc size 0xec virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method CreateFromBinaryForm addr 0x24779ac size 0x168 virtual false final false
+  /// @brief Method CreateFromBinaryForm addr 0x231feb8 size 0x168 virtual false final false
   inline void CreateFromBinaryForm(void* binaryForm, int32_t length);
 
-  /// @brief Method get_BinaryLength addr 0x2477b14 size 0x1c virtual false final false
+  /// @brief Method get_BinaryLength addr 0x2320020 size 0x1c virtual false final false
   inline int32_t get_BinaryLength();
 
-  /// @brief Method get_Value addr 0x2477b30 size 0x1bc virtual true final false
+  /// @brief Method get_Value addr 0x232003c size 0x1bc virtual true final false
   inline ::StringW get_Value();
 
-  /// @brief Method GetSidAuthority addr 0x2477cec size 0x80 virtual false final false
+  /// @brief Method GetSidAuthority addr 0x23201f8 size 0x80 virtual false final false
   inline uint64_t GetSidAuthority();
 
-  /// @brief Method GetSidSubAuthorityCount addr 0x2477de8 size 0x2c virtual false final false
+  /// @brief Method GetSidSubAuthorityCount addr 0x23202f4 size 0x2c virtual false final false
   inline uint8_t GetSidSubAuthorityCount();
 
-  /// @brief Method GetSidSubAuthority addr 0x2477d6c size 0x7c virtual false final false
+  /// @brief Method GetSidSubAuthority addr 0x2320278 size 0x7c virtual false final false
   inline uint32_t GetSidSubAuthority(uint8_t index);
 
-  /// @brief Method CompareTo addr 0x2477e14 size 0x170 virtual true final true
+  /// @brief Method CompareTo addr 0x2320320 size 0x170 virtual true final true
   inline int32_t CompareTo(::System::Security::Principal::SecurityIdentifier* sid);
 
-  /// @brief Method Equals addr 0x2477fec size 0x64 virtual true final false
+  /// @brief Method Equals addr 0x23204f8 size 0x64 virtual true final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals addr 0x2478050 size 0xa8 virtual false final false
+  /// @brief Method Equals addr 0x232055c size 0xa8 virtual false final false
   inline bool Equals(::System::Security::Principal::SecurityIdentifier* sid);
 
-  /// @brief Method GetBinaryForm addr 0x24780f8 size 0xc8 virtual false final false
+  /// @brief Method GetBinaryForm addr 0x2320604 size 0xc8 virtual false final false
   inline void GetBinaryForm(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method GetHashCode addr 0x24781c0 size 0x28 virtual true final false
+  /// @brief Method GetHashCode addr 0x23206cc size 0x28 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x24781e8 size 0xc virtual true final false
+  /// @brief Method ToString addr 0x23206f4 size 0xc virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method Translate addr 0x24781f4 size 0x22c virtual true final false
+  /// @brief Method Translate addr 0x2320700 size 0x22c virtual true final false
   inline ::System::Security::Principal::IdentityReference* Translate(::System::Type* targetType);
 
-  /// @brief Method op_Equality addr 0x2477f84 size 0x68 virtual false final false
+  /// @brief Method op_Equality addr 0x2320490 size 0x68 virtual false final false
   static inline bool op_Equality(::System::Security::Principal::SecurityIdentifier* left, ::System::Security::Principal::SecurityIdentifier* right);
 
-  /// @brief Method ParseSddlForm addr 0x2477460 size 0x460 virtual false final false
+  /// @brief Method ParseSddlForm addr 0x231f96c size 0x460 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ParseSddlForm(::StringW sddlForm);
 
-  /// @brief Method TryParseAuthority addr 0x24785a0 size 0xd8 virtual false final false
+  /// @brief Method TryParseAuthority addr 0x2320aac size 0xd8 virtual false final false
   static inline bool TryParseAuthority(::StringW s, ByRef<uint64_t> result);
 
-  /// @brief Method TryParseSubAuthority addr 0x2478678 size 0xd8 virtual false final false
+  /// @brief Method TryParseSubAuthority addr 0x2320b84 size 0xd8 virtual false final false
   static inline bool TryParseSubAuthority(::StringW s, ByRef<uint32_t> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "SecurityIdentifier", modifiers: "&&", def_value: None }]
@@ -148,6 +148,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Principal::SecurityIdentifier, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Principal::SecurityIdentifier, ___buffer) == 0x10, "Offset mismatch!");
 
 } // namespace System::Security::Principal
 NEED_NO_BOX(::System::Security::Principal::SecurityIdentifier);

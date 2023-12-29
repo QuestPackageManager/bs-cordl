@@ -16,7 +16,7 @@ MARK_VAL_T(::System::StringSplitOptions);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2480))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2478))
 // CS Name: ::System::StringSplitOptions
 struct CORDL_TYPE StringSplitOptions {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::StringSplitOptions, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::StringSplitOptions, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::StringSplitOptions, "System", "StringSplitOptions");

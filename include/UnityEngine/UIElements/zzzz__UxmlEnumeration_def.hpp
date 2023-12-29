@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(UxmlEnumeration)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine::UIElements {
 class UxmlTypeRestriction;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlEnumeration);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6978))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6979))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7064))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7065))
 // CS Name: ::UnityEngine.UIElements::UxmlEnumeration*
 class CORDL_TYPE UxmlEnumeration : public ::UnityEngine::UIElements::UxmlTypeRestriction {
 public:
@@ -41,18 +41,18 @@ public:
 
   constexpr void __set_m_Values(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method get_values addr 0x2e0e69c size 0x8 virtual false final false
+  /// @brief Method get_values addr 0x2ca82ec size 0x8 virtual false final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_values();
 
-  /// @brief Method set_values addr 0x2e0e6a4 size 0x5c virtual false final false
+  /// @brief Method set_values addr 0x2ca82f4 size 0x5c virtual false final false
   inline void set_values(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
-  /// @brief Method Equals addr 0x2e0e700 size 0x14c virtual true final false
+  /// @brief Method Equals addr 0x2ca8350 size 0x14c virtual true final false
   inline bool Equals(::UnityEngine::UIElements::UxmlTypeRestriction* other);
 
   static inline ::UnityEngine::UIElements::UxmlEnumeration* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e0e84c size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x2ca849c size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlEnumeration", modifiers: "&&", def_value: None }]
@@ -76,6 +76,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlEnumeration, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UxmlEnumeration, ___m_Values) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UxmlEnumeration);

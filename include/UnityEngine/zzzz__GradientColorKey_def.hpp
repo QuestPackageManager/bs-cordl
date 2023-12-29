@@ -19,13 +19,13 @@ MARK_VAL_T(::UnityEngine::GradientColorKey);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10254))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10181))
 // CS Name: ::UnityEngine::GradientColorKey
 struct CORDL_TYPE GradientColorKey {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2cdd60c size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2b77db4 size 0x10 virtual false final false
   inline void _ctor(::UnityEngine::Color col, float_t time);
 
   // Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
@@ -48,6 +48,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::GradientColorKey, 0x14>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::GradientColorKey, color) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GradientColorKey, time) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GradientColorKey, "UnityEngine", "GradientColorKey");

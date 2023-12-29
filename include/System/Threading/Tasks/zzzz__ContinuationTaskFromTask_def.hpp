@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 CORDL_MODULE_EXPORT(ContinuationTaskFromTask)
 namespace System::Threading::Tasks {
-struct TaskCreationOptions;
+class Task;
 }
 namespace System {
 class Delegate;
+}
+namespace System {
+class Object;
 }
 namespace System::Threading::Tasks {
 struct InternalTaskOptions;
 }
 namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
-class Object;
+struct TaskCreationOptions;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Threading::Tasks::ContinuationTaskFromTask);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2787))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2798))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2783))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2794))
 // CS Name: ::System.Threading.Tasks::ContinuationTaskFromTask*
 class CORDL_TYPE ContinuationTaskFromTask : public ::System::Threading::Tasks::Task {
 public:
@@ -48,11 +48,11 @@ public:
                                                                                ::System::Threading::Tasks::TaskCreationOptions creationOptions,
                                                                                ::System::Threading::Tasks::InternalTaskOptions internalOptions);
 
-  /// @brief Method .ctor addr 0x2628018 size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0x24cdf0c size 0xb4 virtual false final false
   inline void _ctor(::System::Threading::Tasks::Task* antecedent, ::System::Delegate* action, ::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
                     ::System::Threading::Tasks::InternalTaskOptions internalOptions);
 
-  /// @brief Method InnerInvoke addr 0x262b3f0 size 0xd0 virtual true final false
+  /// @brief Method InnerInvoke addr 0x24d12e4 size 0xd0 virtual true final false
   inline void InnerInvoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContinuationTaskFromTask", modifiers: "&&", def_value: None }]
@@ -76,6 +76,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::ContinuationTaskFromTask, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::ContinuationTaskFromTask, ___m_antecedent) == 0x50, "Offset mismatch!");
 
 } // namespace System::Threading::Tasks
 NEED_NO_BOX(::System::Threading::Tasks::ContinuationTaskFromTask);

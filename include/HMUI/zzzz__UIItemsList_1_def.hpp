@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIItemsList_1)
+namespace HMUI {
+template <typename T> class __UIItemsList_1__DataCallback;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace Zenject {
 class DiContainer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace HMUI {
-template <typename T> class __UIItemsList_1__DataCallback;
+namespace System {
+class Object;
 }
 namespace System {
 class AsyncCallback;
-}
-namespace System {
-class Object;
 }
 namespace System {
 class IAsyncResult;
@@ -46,8 +46,8 @@ namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13673))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13790))
 // CS Name: ::UIItemsList`1::DataCallback<T>*
 class CORDL_TYPE __UIItemsList_1__DataCallback : public ::System::MulticastDelegate {
 public:
@@ -90,8 +90,8 @@ namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13674))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13791))
 // CS Name: ::HMUI::UIItemsList`1<T>*
 class CORDL_TYPE UIItemsList_1 : public ::UnityEngine::MonoBehaviour {
 public:

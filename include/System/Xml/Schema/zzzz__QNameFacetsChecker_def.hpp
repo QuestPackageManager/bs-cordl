@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 CORDL_MODULE_EXPORT(QNameFacetsChecker)
-namespace System {
-class Exception;
-}
-namespace System::Xml::Schema {
-class XmlSchemaDatatype;
-}
 namespace System::Xml {
 class XmlQualifiedName;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class ArrayList;
 }
 namespace System {
-class Object;
+class Exception;
+}
+namespace System::Xml::Schema {
+class XmlSchemaDatatype;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -29,27 +29,27 @@ MARK_REF_PTR_T(::System::Xml::Schema::QNameFacetsChecker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11686))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11692))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11614))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11620))
 // CS Name: ::System.Xml.Schema::QNameFacetsChecker*
 class CORDL_TYPE QNameFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets addr 0x28c2d24 size 0x12c virtual true final false
+  /// @brief Method CheckValueFacets addr 0x2744d00 size 0x12c virtual true final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets addr 0x28c2e50 size 0x1c4 virtual true final false
+  /// @brief Method CheckValueFacets addr 0x2744e2c size 0x1c4 virtual true final false
   inline ::System::Exception* CheckValueFacets(::System::Xml::XmlQualifiedName* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration addr 0x28c3124 size 0x114 virtual true final false
+  /// @brief Method MatchEnumeration addr 0x2745100 size 0x114 virtual true final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration addr 0x28c3014 size 0x110 virtual false final false
+  /// @brief Method MatchEnumeration addr 0x2744ff0 size 0x110 virtual false final false
   inline bool MatchEnumeration(::System::Xml::XmlQualifiedName* value, ::System::Collections::ArrayList* enumeration);
 
   static inline ::System::Xml::Schema::QNameFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x28c3238 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2745214 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "QNameFacetsChecker", modifiers: "&&", def_value: None }]

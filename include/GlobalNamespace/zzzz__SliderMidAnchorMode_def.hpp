@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::SliderMidAnchorMode);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14766))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14979))
 // CS Name: ::SliderMidAnchorMode
 struct CORDL_TYPE SliderMidAnchorMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderMidAnchorMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMidAnchorMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SliderMidAnchorMode, "", "SliderMidAnchorMode");

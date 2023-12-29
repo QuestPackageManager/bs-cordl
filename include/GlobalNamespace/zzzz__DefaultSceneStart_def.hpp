@@ -9,9 +9,6 @@ CORDL_MODULE_EXPORT(DefaultSceneStart)
 namespace GlobalNamespace {
 class GameScenesManager;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace HMUI {
 class FlowCoordinator;
 }
@@ -21,14 +18,17 @@ class __DefaultSceneStart___Start_d__3;
 namespace HMUI {
 class HierarchyManager;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__DefaultSceneStart___Start_d__3);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6027))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6082))
 // CS Name: ::DefaultSceneStart::<Start>d__3*
 class CORDL_TYPE __DefaultSceneStart___Start_d__3 : public ::System::Object {
 public:
@@ -92,22 +92,22 @@ public:
 
   static inline ::GlobalNamespace::__DefaultSceneStart___Start_d__3* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2318984 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x21c5b60 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x23189b4 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x21c5b90 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x23189b8 size 0x78 virtual true final true
+  /// @brief Method MoveNext addr 0x21c5b94 size 0x78 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2318a30 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x21c5c0c size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2318a38 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x21c5c14 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2318a78 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x21c5c54 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DefaultSceneStart___Start_d__3", modifiers: "&&", def_value: None }]
@@ -138,13 +138,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DefaultSceneStart___Start_d__3, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__DefaultSceneStart___Start_d__3, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultSceneStart___Start_d__3, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultSceneStart___Start_d__3, _____4__this) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::DefaultSceneStart
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6028))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6083))
 // CS Name: ::DefaultSceneStart*
 class CORDL_TYPE DefaultSceneStart : public ::UnityEngine::MonoBehaviour {
 public:
@@ -178,12 +184,12 @@ public:
 
   constexpr void __set__hierarchyManager(::HMUI::HierarchyManager* value);
 
-  /// @brief Method Start addr 0x231891c size 0x68 virtual false final false
+  /// @brief Method Start addr 0x21c5af8 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* Start();
 
   static inline ::GlobalNamespace::DefaultSceneStart* New_ctor();
 
-  /// @brief Method .ctor addr 0x23189ac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21c5b88 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultSceneStart", modifiers: "&&", def_value: None }]
@@ -213,6 +219,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DefaultSceneStart, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DefaultSceneStart, ____flowCoordinator) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DefaultSceneStart, ____gameScenesManager) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DefaultSceneStart, ____hierarchyManager) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DefaultSceneStart);

@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::RuntimeElement);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13884))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14155))
 // CS Name: ::UnityEngine.Timeline::RuntimeElement*
 class CORDL_TYPE RuntimeElement : public ::System::Object {
 public:
@@ -54,10 +54,10 @@ public:
   /// @brief Method get_intervalEnd addr 0x0 size 0xffffffffffffffff virtual true final false
   inline int64_t get_intervalEnd();
 
-  /// @brief Method get_intervalBit addr 0x2c680a4 size 0x8 virtual false final false
+  /// @brief Method get_intervalBit addr 0x2ae4350 size 0x8 virtual false final false
   inline int32_t get_intervalBit();
 
-  /// @brief Method set_intervalBit addr 0x2c680ac size 0x8 virtual false final false
+  /// @brief Method set_intervalBit addr 0x2ae4358 size 0x8 virtual false final false
   inline void set_intervalBit(int32_t value);
 
   /// @brief Method set_enable addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -71,7 +71,7 @@ public:
 
   static inline ::UnityEngine::Timeline::RuntimeElement* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c6773c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2ae39e8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeElement", modifiers: "&&", def_value: None }]
@@ -95,6 +95,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::RuntimeElement, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::RuntimeElement, ____intervalBit_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::RuntimeElement);

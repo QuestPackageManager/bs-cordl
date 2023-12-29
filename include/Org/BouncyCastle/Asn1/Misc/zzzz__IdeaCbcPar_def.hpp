@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IdeaCbcPar)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -15,8 +15,8 @@ class Asn1Sequence;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Misc {
@@ -43,23 +43,23 @@ public:
 
   constexpr void __set_iv(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method GetInstance addr 0xf7c260 size 0x148 virtual false final false
+  /// @brief Method GetInstance addr 0xf0603c size 0x148 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor addr 0xf7c48c size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0xf06268 size 0x7c virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
   static inline ::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf7c3a8 size 0xe4 virtual false final false
+  /// @brief Method .ctor addr 0xf06184 size 0xe4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetIV addr 0xf7c508 size 0x18 virtual false final false
+  /// @brief Method GetIV addr 0xf062e4 size 0x18 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIV();
 
-  /// @brief Method ToAsn1Object addr 0xf7c520 size 0x108 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf062fc size 0x108 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "IdeaCbcPar", modifiers: "&&", def_value: None }]
@@ -83,6 +83,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar, ___iv) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Misc
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar);

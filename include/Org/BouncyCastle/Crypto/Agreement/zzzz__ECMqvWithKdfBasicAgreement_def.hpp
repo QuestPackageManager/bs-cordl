@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECMqvWithKdfBasicAgreement)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -52,13 +52,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf);
 
-  /// @brief Method .ctor addr 0x121b434 size 0xa4 virtual false final false
+  /// @brief Method .ctor addr 0x11aa1e4 size 0xa4 virtual false final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf);
 
-  /// @brief Method CalculateAgreement addr 0x121b4d8 size 0x26c virtual true final false
+  /// @brief Method CalculateAgreement addr 0x11aa288 size 0x26c virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
 
-  /// @brief Method BigIntToBytes addr 0x121b744 size 0x4c virtual false final false
+  /// @brief Method BigIntToBytes addr 0x11aa4f4 size 0x4c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> BigIntToBytes(::Org::BouncyCastle::Math::BigInteger* r);
 
   // Ctor Parameters [CppParam { name: "", ty: "ECMqvWithKdfBasicAgreement", modifiers: "&&", def_value: None }]
@@ -85,6 +85,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement, ___algorithm) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement, ___kdf) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Agreement
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement);

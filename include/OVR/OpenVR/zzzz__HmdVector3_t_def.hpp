@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::HmdVector3_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8647))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9416))
 // CS Name: ::OVR.OpenVR::HmdVector3_t
 struct CORDL_TYPE HmdVector3_t {
 public:
@@ -45,6 +45,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::HmdVector3_t, 0xc>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdVector3_t, v0) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdVector3_t, v1) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdVector3_t, v2) == 0x8, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::HmdVector3_t, "OVR.OpenVR", "HmdVector3_t");

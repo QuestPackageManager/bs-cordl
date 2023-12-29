@@ -16,13 +16,13 @@ MARK_REF_PTR_T(::GlobalNamespace::StringExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15832))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13902))
 // CS Name: ::StringExtensions*
 class CORDL_TYPE StringExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Truncate addr 0xe25c70 size 0xc8 virtual false final false
+  /// @brief Method Truncate addr 0x1f9a524 size 0xc8 virtual false final false
   static inline ::StringW Truncate(::StringW s, int32_t length, bool appendEllipsis);
 
   // Ctor Parameters [CppParam { name: "", ty: "StringExtensions", modifiers: "&&", def_value: None }]

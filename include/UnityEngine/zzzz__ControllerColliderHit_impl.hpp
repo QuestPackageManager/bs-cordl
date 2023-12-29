@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__ControllerColliderHit_def.hpp"
-#include "UnityEngine/zzzz__Collider_def.hpp"
 #include "UnityEngine/zzzz__CharacterController_def.hpp"
+#include "UnityEngine/zzzz__Collider_def.hpp"
 constexpr ::UnityEngine::CharacterController*& UnityEngine::ControllerColliderHit::__get_m_Controller() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Controller;

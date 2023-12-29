@@ -15,23 +15,23 @@ class Type;
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProvideHandle;
 }
+namespace System {
+class Object;
+}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class __TextDataProvider__InternalOp;
 }
 namespace System {
-class Object;
+class Exception;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequestAsyncOperation;
 }
-namespace System {
-class Exception;
+namespace UnityEngine::ResourceManagement {
+class WebRequestQueueOperation;
 }
 namespace UnityEngine {
 class AsyncOperation;
-}
-namespace UnityEngine::ResourceManagement {
-class WebRequestQueueOperation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__TextDataP
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14002)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14018))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14273))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14289))
 // CS Name: ::TextDataProvider::InternalOp*
 class CORDL_TYPE __TextDataProvider__InternalOp : public ::System::Object {
 public:
@@ -116,33 +116,33 @@ public:
 
   constexpr void __set_m_Timeout(int32_t value);
 
-  /// @brief Method GetPercentComplete addr 0x2bda3d4 size 0x18 virtual false final false
+  /// @brief Method GetPercentComplete addr 0x2a57680 size 0x18 virtual false final false
   inline float_t GetPercentComplete();
 
-  /// @brief Method Start addr 0x2bd9ff0 size 0x3e4 virtual false final false
+  /// @brief Method Start addr 0x2a5729c size 0x3e4 virtual false final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle, ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* rawProvider);
 
-  /// @brief Method WaitForCompletionHandler addr 0x2bda4e4 size 0x74 virtual false final false
+  /// @brief Method WaitForCompletionHandler addr 0x2a57790 size 0x74 virtual false final false
   inline bool WaitForCompletionHandler();
 
-  /// @brief Method RequestOperation_completed addr 0x2bda558 size 0x1ac virtual false final false
+  /// @brief Method RequestOperation_completed addr 0x2a57804 size 0x1ac virtual false final false
   inline void RequestOperation_completed(::UnityEngine::AsyncOperation* op);
 
-  /// @brief Method CompleteOperation addr 0x2bda704 size 0xac virtual false final false
+  /// @brief Method CompleteOperation addr 0x2a579b0 size 0xac virtual false final false
   inline void CompleteOperation(::StringW text, ::System::Exception* exception);
 
-  /// @brief Method ConvertText addr 0x2bda3ec size 0xf8 virtual false final false
+  /// @brief Method ConvertText addr 0x2a57698 size 0xf8 virtual false final false
   inline ::System::Object* ConvertText(::StringW text);
 
-  /// @brief Method SendWebRequest addr 0x2bda7b0 size 0x284 virtual true final false
+  /// @brief Method SendWebRequest addr 0x2a57a5c size 0x284 virtual true final false
   inline void SendWebRequest(::StringW path);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bd9fe8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a57294 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <SendWebRequest>b__13_0 addr 0x2bdaa34 size 0x98 virtual false final false
+  /// @brief Method <SendWebRequest>b__13_0 addr 0x2a57ce0 size 0x98 virtual false final false
   inline void _SendWebRequest_b__13_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOperation);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TextDataProvider__InternalOp", modifiers: "&&", def_value: None }]
@@ -185,13 +185,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp, ___m_Provider) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp, ___m_RequestOperation) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp, ___m_RequestQueueOperation) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp, ___m_PI) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp, ___m_IgnoreFailures) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp, ___m_Complete) == 0x41, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp, ___m_Timeout) == 0x44, "Offset mismatch!");
+
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
 // Type: UnityEngine.ResourceManagement.ResourceProviders::TextDataProvider
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14013))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14019))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14284))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14290))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::TextDataProvider*
 class CORDL_TYPE TextDataProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {
 public:
@@ -209,21 +223,21 @@ public:
 
   constexpr void __set__IgnoreFailures_k__BackingField(bool value);
 
-  /// @brief Method get_IgnoreFailures addr 0x2bd9f3c size 0x8 virtual false final false
+  /// @brief Method get_IgnoreFailures addr 0x2a571e8 size 0x8 virtual false final false
   inline bool get_IgnoreFailures();
 
-  /// @brief Method set_IgnoreFailures addr 0x2bd9f44 size 0xc virtual false final false
+  /// @brief Method set_IgnoreFailures addr 0x2a571f0 size 0xc virtual false final false
   inline void set_IgnoreFailures(bool value);
 
-  /// @brief Method Convert addr 0x2bd9f50 size 0x8 virtual true final false
+  /// @brief Method Convert addr 0x2a571fc size 0x8 virtual true final false
   inline ::System::Object* Convert(::System::Type* type, ::StringW text);
 
-  /// @brief Method Provide addr 0x2bd9f58 size 0x90 virtual true final false
+  /// @brief Method Provide addr 0x2a57204 size 0x90 virtual true final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bd7748 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a549f4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextDataProvider", modifiers: "&&", def_value: None }]
@@ -247,6 +261,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider, ____IgnoreFailures_k__BackingField) == 0x1c, "Offset mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
 NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider);

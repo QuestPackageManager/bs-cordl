@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemberInfo)
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 class ICustomAttributeProvider;
 }
@@ -18,6 +15,9 @@ class Object;
 }
 namespace System::Reflection {
 struct MemberTypes;
+}
+namespace System {
+class Type;
 }
 namespace System::Reflection {
 class Module;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Reflection::MemberInfo);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3474))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3469))
 // CS Name: ::System.Reflection::MemberInfo*
 class CORDL_TYPE MemberInfo : public ::System::Object {
 public:
@@ -55,7 +55,7 @@ public:
 
   static inline ::System::Reflection::MemberInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x24e6348 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x238c890 size 0x8 virtual false final false
   inline void _ctor();
 
   /// @brief Method get_MemberType addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -70,7 +70,7 @@ public:
   /// @brief Method get_ReflectedType addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Type* get_ReflectedType();
 
-  /// @brief Method get_Module addr 0x24e795c size 0xd4 virtual true final false
+  /// @brief Method get_Module addr 0x238dea4 size 0xd4 virtual true final false
   inline ::System::Reflection::Module* get_Module();
 
   /// @brief Method IsDefined addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -82,19 +82,19 @@ public:
   /// @brief Method GetCustomAttributes addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method get_MetadataToken addr 0x24e7a30 size 0x40 virtual true final false
+  /// @brief Method get_MetadataToken addr 0x238df78 size 0x40 virtual true final false
   inline int32_t get_MetadataToken();
 
-  /// @brief Method Equals addr 0x24e64b0 size 0x8 virtual true final false
+  /// @brief Method Equals addr 0x238c9f8 size 0x8 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x24e64c0 size 0x8 virtual true final false
+  /// @brief Method GetHashCode addr 0x238ca08 size 0x8 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality addr 0x24e7a70 size 0x35c virtual false final false
+  /// @brief Method op_Equality addr 0x238dfb8 size 0x35c virtual false final false
   static inline bool op_Equality(::System::Reflection::MemberInfo* left, ::System::Reflection::MemberInfo* right);
 
-  /// @brief Method op_Inequality addr 0x24e8000 size 0x18 virtual false final false
+  /// @brief Method op_Inequality addr 0x238e548 size 0x18 virtual false final false
   static inline bool op_Inequality(::System::Reflection::MemberInfo* left, ::System::Reflection::MemberInfo* right);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemberInfo", modifiers: "&&", def_value: None }]

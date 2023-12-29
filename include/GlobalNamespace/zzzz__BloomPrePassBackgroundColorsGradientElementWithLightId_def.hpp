@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundColorsGradientElementWithLightId)
 namespace GlobalNamespace {
+class __BloomPrePassBackgroundColorsGradientElementWithLightId__Elements;
+}
+namespace GlobalNamespace {
 class BloomPrePassBackgroundColorsGradient;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace GlobalNamespace {
-class __BloomPrePassBackgroundColorsGradientElementWithLightId__Elements;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementW
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14514))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14730))
 // CS Name: ::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*
 class CORDL_TYPE __BloomPrePassBackgroundColorsGradientElementWithLightId__Elements : public ::System::Object {
 public:
@@ -66,7 +66,7 @@ public:
 
   static inline ::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements* New_ctor();
 
-  /// @brief Method .ctor addr 0x210e8a8 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x1fb93c4 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements", modifiers: "&&", def_value: None }]
@@ -97,13 +97,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements, ___elementNumber) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements, ___intensity) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements, ___minIntensity) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BloomPrePassBackgroundColorsGradientElementWithLightId
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14515))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14731))
 // CS Name: ::BloomPrePassBackgroundColorsGradientElementWithLightId*
 class CORDL_TYPE BloomPrePassBackgroundColorsGradientElementWithLightId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -136,12 +142,12 @@ public:
       ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements*, ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements*>*>
           value);
 
-  /// @brief Method ColorWasSet addr 0x210e7dc size 0xac virtual true final false
+  /// @brief Method ColorWasSet addr 0x1fb92f8 size 0xac virtual true final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId* New_ctor();
 
-  /// @brief Method .ctor addr 0x210e888 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x1fb93a4 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientElementWithLightId", modifiers: "&&", def_value: None }]
@@ -169,6 +175,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId, ____bloomPrePassBackgroundColorsGradient) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId, ____elements) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId);

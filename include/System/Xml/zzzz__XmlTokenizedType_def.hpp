@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::XmlTokenizedType);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11542))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11470))
 // CS Name: ::System.Xml::XmlTokenizedType
 struct CORDL_TYPE XmlTokenizedType {
 public:
@@ -101,6 +101,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlTokenizedType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlTokenizedType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlTokenizedType, "System.Xml", "XmlTokenizedType");

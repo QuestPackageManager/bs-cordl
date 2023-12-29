@@ -7,44 +7,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(List_1)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System {
-template <typename TInput, typename TOutput> class Converter_2;
-}
-namespace System {
-template <typename T> class Predicate_1;
-}
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System::Collections {
-class ICollection;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections::ObjectModel {
 template <typename T> class ReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename T> struct __List_1__Enumerator;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace System {
+template <typename TInput, typename TOutput> class Converter_2;
 }
 namespace System::Collections {
-class IList;
+class IEnumerable;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System {
+template <typename T> class Comparison_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -52,17 +49,20 @@ template <typename T> class IEnumerable_1;
 namespace System {
 class Array;
 }
-namespace System {
-template <typename T> class Comparison_1;
-}
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __List_1__Enumerator;
+template <typename T> class IList_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
+namespace System::Collections {
+class IList;
+}
+namespace System {
+template <typename T> class Predicate_1;
+}
+namespace System::Collections {
+class ICollection;
 }
 namespace System {
 class IDisposable;
@@ -84,7 +84,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3842))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3830))
 // CS Name: ::List`1::Enumerator<T>
 struct CORDL_TYPE __List_1__Enumerator {
 public:
@@ -156,8 +156,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3843))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3831))
 // CS Name: ::System.Collections.Generic::List`1<T>*
 class CORDL_TYPE List_1 : public ::System::Object {
 public:

@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(CrlEntry)
-namespace Org::BouncyCastle::Asn1::X509 {
-class Time;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Asn1::X509 {
+class Time;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -79,19 +79,19 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlEntry* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1199098 size 0x138 virtual false final false
+  /// @brief Method .ctor addr 0x1128e50 size 0x138 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_UserCertificate addr 0x11991d0 size 0x8 virtual false final false
+  /// @brief Method get_UserCertificate addr 0x1128f88 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_UserCertificate();
 
-  /// @brief Method get_RevocationDate addr 0x11991d8 size 0x8 virtual false final false
+  /// @brief Method get_RevocationDate addr 0x1128f90 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_RevocationDate();
 
-  /// @brief Method get_Extensions addr 0x11991e0 size 0xb0 virtual false final false
+  /// @brief Method get_Extensions addr 0x1128f98 size 0xb0 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method ToAsn1Object addr 0x1199290 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1129048 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrlEntry", modifiers: "&&", def_value: None }]
@@ -124,6 +124,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::CrlEntry, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::CrlEntry, ___seq) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::CrlEntry, ___userCertificate) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::CrlEntry, ___revocationDate) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::CrlEntry, ___crlEntryExtensions) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::CrlEntry);

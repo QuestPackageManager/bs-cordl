@@ -13,58 +13,58 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TutorialSongController)
 namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-class __TutorialSongController__TutorialObjectSpawnData;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-class __TutorialSongController__TutorialJumpingNoteSpawnData;
-}
-namespace GlobalNamespace {
-class BeatmapData;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
+class __TutorialSongController__TutorialBombNoteSpawnData;
 }
 namespace GlobalNamespace {
 class Signal;
 }
 namespace GlobalNamespace {
+class __TutorialSongController__TutorialJumpingNoteSpawnData;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
+class BeatmapData;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
 class __TutorialSongController__InitData;
-}
-namespace GlobalNamespace {
-class __TutorialSongController__TutorialBasicNoteSpawnData;
-}
-namespace GlobalNamespace {
-class __TutorialSongController__TutorialBombNoteSpawnData;
-}
-namespace GlobalNamespace {
-class ObstacleController;
 }
 namespace GlobalNamespace {
 class ObstacleData;
 }
 namespace GlobalNamespace {
+class ObstacleController;
+}
+namespace GlobalNamespace {
 class __TutorialSongController__TutorialObstacleSpawnData;
+}
+namespace GlobalNamespace {
+class NoteController;
+}
+namespace GlobalNamespace {
+class __TutorialSongController__TutorialBasicNoteSpawnData;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class __TutorialSongController__TutorialObjectSpawnData;
+}
+namespace GlobalNamespace {
+struct NoteLineLayer;
 }
 namespace GlobalNamespace {
 struct NoteCutDirection;
 }
 namespace GlobalNamespace {
 struct ColorType;
-}
-namespace GlobalNamespace {
-struct NoteLineLayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -100,8 +100,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__TutorialSongController__TutorialObstacleSpaw
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5344))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5439))
 // CS Name: ::TutorialSongController::InitData*
 class CORDL_TYPE __TutorialSongController__InitData : public ::System::Object {
 public:
@@ -126,7 +126,7 @@ public:
 
   static inline ::GlobalNamespace::__TutorialSongController__InitData* New_ctor(float_t songBpm, ::GlobalNamespace::BeatmapData* beatmapData);
 
-  /// @brief Method .ctor addr 0x226bd58 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x2127c1c size 0x38 virtual false final false
   inline void _ctor(float_t songBpm, ::GlobalNamespace::BeatmapData* beatmapData);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TutorialSongController__InitData", modifiers: "&&", def_value: None }]
@@ -154,13 +154,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TutorialSongController__InitData, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__TutorialSongController__InitData, ___songBpm) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__TutorialSongController__InitData, ___beatmapData) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::TutorialObjectSpawnData
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5345))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5440))
 // CS Name: ::TutorialSongController::TutorialObjectSpawnData*
 class CORDL_TYPE __TutorialSongController__TutorialObjectSpawnData : public ::System::Object {
 public:
@@ -203,7 +207,7 @@ public:
 
   static inline ::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData* New_ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex);
 
-  /// @brief Method .ctor addr 0x226bd90 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x2127c54 size 0x44 virtual false final false
   inline void _ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TutorialSongController__TutorialObjectSpawnData", modifiers: "&&", def_value: None }]
@@ -237,13 +241,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData, ___signal) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData, ___beatOffset) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData, ___firstTimeBeatOffset) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData, ___lineIndex) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::TutorialJumpingNoteSpawnData
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(5345))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5346))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5440)), TypeDefinitionIndex(TypeDefinitionIndex(14973))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5441))
 // CS Name: ::TutorialSongController::TutorialJumpingNoteSpawnData*
 class CORDL_TYPE __TutorialSongController__TutorialJumpingNoteSpawnData : public ::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData {
 public:
@@ -260,7 +272,7 @@ public:
   static inline ::GlobalNamespace::__TutorialSongController__TutorialJumpingNoteSpawnData* New_ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset,
                                                                                                     int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method .ctor addr 0x226bdd4 size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x2127c98 size 0x50 virtual false final false
   inline void _ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TutorialSongController__TutorialJumpingNoteSpawnData", modifiers: "&&", def_value: None }]
@@ -285,13 +297,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TutorialSongController__TutorialJumpingNoteSpawnData, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__TutorialSongController__TutorialJumpingNoteSpawnData, ___noteLineLayer) == 0x24, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::TutorialBasicNoteSpawnData
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(5346))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5347))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14968)), TypeDefinitionIndex(TypeDefinitionIndex(5441)), TypeDefinitionIndex(TypeDefinitionIndex(14965))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5442))
 // CS Name: ::TutorialSongController::TutorialBasicNoteSpawnData*
 class CORDL_TYPE __TutorialSongController__TutorialBasicNoteSpawnData : public ::GlobalNamespace::__TutorialSongController__TutorialJumpingNoteSpawnData {
 public:
@@ -318,7 +332,7 @@ public:
                                                                                                   ::GlobalNamespace::NoteLineLayer noteLineLayer, ::GlobalNamespace::NoteCutDirection cutDirection,
                                                                                                   ::GlobalNamespace::ColorType colorType);
 
-  /// @brief Method .ctor addr 0x226b3cc size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x2127290 size 0x64 virtual false final false
   inline void _ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer,
                     ::GlobalNamespace::NoteCutDirection cutDirection, ::GlobalNamespace::ColorType colorType);
 
@@ -347,13 +361,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TutorialSongController__TutorialBasicNoteSpawnData, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__TutorialSongController__TutorialBasicNoteSpawnData, ___cutDirection) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__TutorialSongController__TutorialBasicNoteSpawnData, ___colorType) == 0x2c, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::TutorialBombNoteSpawnData
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5346))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5348))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5441))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5443))
 // CS Name: ::TutorialSongController::TutorialBombNoteSpawnData*
 class CORDL_TYPE __TutorialSongController__TutorialBombNoteSpawnData : public ::GlobalNamespace::__TutorialSongController__TutorialJumpingNoteSpawnData {
 public:
@@ -361,7 +379,7 @@ public:
   static inline ::GlobalNamespace::__TutorialSongController__TutorialBombNoteSpawnData* New_ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex,
                                                                                                  ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method .ctor addr 0x226b430 size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x21272f4 size 0x50 virtual false final false
   inline void _ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TutorialSongController__TutorialBombNoteSpawnData", modifiers: "&&", def_value: None }]
@@ -388,8 +406,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TutorialSongC
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5345)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5349))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5440)), TypeDefinitionIndex(TypeDefinitionIndex(14973))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5444))
 // CS Name: ::TutorialSongController::TutorialObstacleSpawnData*
 class CORDL_TYPE __TutorialSongController__TutorialObstacleSpawnData : public ::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData {
 public:
@@ -424,7 +442,7 @@ public:
   static inline ::GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData* New_ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex,
                                                                                                  int32_t width, int32_t height, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method .ctor addr 0x226b480 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x2127344 size 0x64 virtual false final false
   inline void _ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, int32_t width, int32_t height,
                     ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
@@ -456,13 +474,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData, ___noteLineLayer) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData, ___width) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData, ___height) == 0x2c, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::TutorialSongController
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5334))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5350))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5429))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5445))
 // CS Name: ::TutorialSongController*
 class CORDL_TYPE TutorialSongController : public ::GlobalNamespace::SongController {
 public:
@@ -691,54 +715,54 @@ public:
   constexpr void __set__normalModeTutorialObjectsSpawnData(
       ::ArrayW<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*, ::Array<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*>*> value);
 
-  /// @brief Method Awake addr 0x226aec0 size 0x50c virtual false final false
+  /// @brief Method Awake addr 0x2126d84 size 0x50c virtual false final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x226b4e4 size 0x16c virtual false final false
+  /// @brief Method Start addr 0x21273a8 size 0x16c virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x226b650 size 0x154 virtual false final false
+  /// @brief Method OnDestroy addr 0x2127514 size 0x154 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method StartSong addr 0x226a38c size 0x5c virtual false final false
+  /// @brief Method StartSong addr 0x2126250 size 0x5c virtual false final false
   inline void StartSong(float_t startTimeOffset);
 
-  /// @brief Method StopSong addr 0x226b9dc size 0x28 virtual true final false
+  /// @brief Method StopSong addr 0x21278a0 size 0x28 virtual true final false
   inline void StopSong();
 
-  /// @brief Method PauseSong addr 0x226ba04 size 0x28 virtual true final false
+  /// @brief Method PauseSong addr 0x21278c8 size 0x28 virtual true final false
   inline void PauseSong();
 
-  /// @brief Method ResumeSong addr 0x226ba2c size 0x1c virtual true final false
+  /// @brief Method ResumeSong addr 0x21278f0 size 0x1c virtual true final false
   inline void ResumeSong();
 
-  /// @brief Method HandleNoteWasCut addr 0x226ba48 size 0xe8 virtual false final false
+  /// @brief Method HandleNoteWasCut addr 0x212790c size 0xe8 virtual false final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleNoteWasMissed addr 0x226bb30 size 0x6c virtual false final false
+  /// @brief Method HandleNoteWasMissed addr 0x21279f4 size 0x6c virtual false final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleObstacleDidPassThreeQuartersOfMove2 addr 0x226bb9c size 0x14 virtual false final false
+  /// @brief Method HandleObstacleDidPassThreeQuartersOfMove2 addr 0x2127a60 size 0x14 virtual false final false
   inline void HandleObstacleDidPassThreeQuartersOfMove2(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method UpdateBeatmapData addr 0x226b7a4 size 0x238 virtual false final false
+  /// @brief Method UpdateBeatmapData addr 0x2127668 size 0x238 virtual false final false
   inline void UpdateBeatmapData(float_t noteTime);
 
-  /// @brief Method GetNextBeatmapObjectTime addr 0x226bbb0 size 0x78 virtual false final false
+  /// @brief Method GetNextBeatmapObjectTime addr 0x2127a74 size 0x78 virtual false final false
   inline float_t GetNextBeatmapObjectTime(int32_t beatOffset);
 
-  /// @brief Method CreateObstacleData addr 0x226bc6c size 0xcc virtual false final false
+  /// @brief Method CreateObstacleData addr 0x2127b30 size 0xcc virtual false final false
   inline ::GlobalNamespace::ObstacleData* CreateObstacleData(float_t time, ::GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData* tutorialObstacleSpawnData);
 
-  /// @brief Method CreateBasicNoteData addr 0x226bc28 size 0x24 virtual false final false
+  /// @brief Method CreateBasicNoteData addr 0x2127aec size 0x24 virtual false final false
   inline ::GlobalNamespace::NoteData* CreateBasicNoteData(float_t time, ::GlobalNamespace::__TutorialSongController__TutorialBasicNoteSpawnData* tutorialBasicNoteSpawnData);
 
-  /// @brief Method CreateBombNoteData addr 0x226bc4c size 0x20 virtual false final false
+  /// @brief Method CreateBombNoteData addr 0x2127b10 size 0x20 virtual false final false
   inline ::GlobalNamespace::NoteData* CreateBombNoteData(float_t time, ::GlobalNamespace::__TutorialSongController__TutorialBombNoteSpawnData* tutorialBombNoteSpawnData);
 
   static inline ::GlobalNamespace::TutorialSongController* New_ctor();
 
-  /// @brief Method .ctor addr 0x226bd38 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x2127bfc size 0x20 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController", modifiers: "&&", def_value: None }]
@@ -829,6 +853,52 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialSongController, 0xc8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____audioTimeSyncController) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____startWaitTimeInBeats) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____numberOfBeatsToSnap) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____obstacleDurationInBeats) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____noteCuttingTutorialPartDidStartSignal) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____noteCuttingInAnyDirectionDidStartSignal) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____bombCuttingTutorialPartDidStartSignal) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____leftObstacleTutorialPartDidStartSignal) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____rightObstacleTutorialPartDidStartSignal) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____topObstacleTutorialPartDidStartSignal) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____noteWasCutOKSignal) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____noteWasCutTooSoonSignal) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____noteWasCutWithWrongColorSignal) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____noteWasCutFromDifferentDirectionSignal) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____noteWasCutWithSlowSpeedSignal) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____bombWasCutSignal) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____initData) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____beatmapObjectManager) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____tutorialBeatmapObjectIndex) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____prevSpawnedBeatmapObjectIndex) == 0xac, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____songBpm) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____beatmapData) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialSongController, ____normalModeTutorialObjectsSpawnData) == 0xc0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TutorialSongController);

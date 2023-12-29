@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKMappingSpine)
-namespace RootMotion::FinalIK {
-class IKSolverFullBody;
+namespace UnityEngine {
+class Transform;
 }
 namespace RootMotion::FinalIK {
-class __IKMapping__BoneMap;
+class IKSolverFullBody;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -21,8 +21,8 @@ struct Vector3;
 namespace RootMotion::FinalIK {
 class IKSolver;
 }
-namespace UnityEngine {
-class Transform;
+namespace RootMotion::FinalIK {
+class __IKMapping__BoneMap;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKMappingSpine);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12554))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12558))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12482))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12486))
 // CS Name: ::RootMotion.FinalIK::IKMappingSpine*
 class CORDL_TYPE IKMappingSpine : public ::RootMotion::FinalIK::IKMapping {
 public:
@@ -166,50 +166,50 @@ public:
 
   constexpr void __set_useFABRIK(bool value);
 
-  /// @brief Method IsValid addr 0x125cf78 size 0x320 virtual true final false
+  /// @brief Method IsValid addr 0x11ecc4c size 0x320 virtual true final false
   inline bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::IKMappingSpine* New_ctor();
 
-  /// @brief Method .ctor addr 0x125d298 size 0x13c virtual false final false
+  /// @brief Method .ctor addr 0x11ecf6c size 0x13c virtual false final false
   inline void _ctor();
 
   static inline ::RootMotion::FinalIK::IKMappingSpine* New_ctor(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> spineBones, ::UnityEngine::Transform* leftUpperArmBone,
                                                                 ::UnityEngine::Transform* rightUpperArmBone, ::UnityEngine::Transform* leftThighBone, ::UnityEngine::Transform* rightThighBone);
 
-  /// @brief Method .ctor addr 0x125d3d4 size 0x170 virtual false final false
+  /// @brief Method .ctor addr 0x11ed0a8 size 0x170 virtual false final false
   inline void _ctor(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> spineBones, ::UnityEngine::Transform* leftUpperArmBone, ::UnityEngine::Transform* rightUpperArmBone,
                     ::UnityEngine::Transform* leftThighBone, ::UnityEngine::Transform* rightThighBone);
 
-  /// @brief Method SetBones addr 0x125d544 size 0x10 virtual false final false
+  /// @brief Method SetBones addr 0x11ed218 size 0x10 virtual false final false
   inline void SetBones(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> spineBones, ::UnityEngine::Transform* leftUpperArmBone, ::UnityEngine::Transform* rightUpperArmBone,
                        ::UnityEngine::Transform* leftThighBone, ::UnityEngine::Transform* rightThighBone);
 
-  /// @brief Method StoreDefaultLocalState addr 0x125d554 size 0x5c virtual false final false
+  /// @brief Method StoreDefaultLocalState addr 0x11ed228 size 0x5c virtual false final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method FixTransforms addr 0x125d5b0 size 0x78 virtual false final false
+  /// @brief Method FixTransforms addr 0x11ed284 size 0x78 virtual false final false
   inline void FixTransforms();
 
-  /// @brief Method Initiate addr 0x125d628 size 0x614 virtual true final false
+  /// @brief Method Initiate addr 0x11ed2fc size 0x614 virtual true final false
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method UseFABRIK addr 0x125dc3c size 0x38 virtual false final false
+  /// @brief Method UseFABRIK addr 0x11ed910 size 0x38 virtual false final false
   inline bool UseFABRIK();
 
-  /// @brief Method ReadPose addr 0x125dc74 size 0x264 virtual false final false
+  /// @brief Method ReadPose addr 0x11ed948 size 0x264 virtual false final false
   inline void ReadPose();
 
-  /// @brief Method WritePose addr 0x125ded8 size 0x320 virtual false final false
+  /// @brief Method WritePose addr 0x11edbac size 0x320 virtual false final false
   inline void WritePose(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method ForwardReach addr 0x125e1f8 size 0xe0 virtual false final false
+  /// @brief Method ForwardReach addr 0x11edecc size 0xe0 virtual false final false
   inline void ForwardReach(::UnityEngine::Vector3 position);
 
-  /// @brief Method BackwardReach addr 0x125e2d8 size 0xb4 virtual false final false
+  /// @brief Method BackwardReach addr 0x11edfac size 0xb4 virtual false final false
   inline void BackwardReach(::UnityEngine::Vector3 position);
 
-  /// @brief Method MapToSolverPositions addr 0x125e38c size 0x23c virtual false final false
+  /// @brief Method MapToSolverPositions addr 0x11ee060 size 0x23c virtual false final false
   inline void MapToSolverPositions(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
   // Ctor Parameters [CppParam { name: "", ty: "IKMappingSpine", modifiers: "&&", def_value: None }]
@@ -272,6 +272,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::IKMappingSpine, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKMappingSpine, ___spineBones) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKMappingSpine, ___leftUpperArmBone) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKMappingSpine, ___rightUpperArmBone) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKMappingSpine, ___leftThighBone) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKMappingSpine, ___rightThighBone) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKMappingSpine, ___iterations) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKMappingSpine, ___twistWeight) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKMappingSpine, ___rootNodeIndex) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKMappingSpine, ___spine) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKMappingSpine, ___leftUpperArm) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKMappingSpine, ___rightUpperArm) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKMappingSpine, ___leftThigh) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKMappingSpine, ___rightThigh) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKMappingSpine, ___useFABRIK) == 0x70, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::IKMappingSpine);

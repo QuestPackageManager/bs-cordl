@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AchievementSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4089))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4114))
 // CS Name: ::AchievementSO*
 class CORDL_TYPE AchievementSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __set__achievementId(::StringW value);
 
-  /// @brief Method get_achievementId addr 0x2233204 size 0x8 virtual false final false
+  /// @brief Method get_achievementId addr 0x20d9b6c size 0x8 virtual false final false
   inline ::StringW get_achievementId();
 
   static inline ::GlobalNamespace::AchievementSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x223320c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20d9b74 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AchievementSO", modifiers: "&&", def_value: None }]
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AchievementSO, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AchievementSO, ____achievementId) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AchievementSO);

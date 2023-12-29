@@ -9,10 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AppInitScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
-struct __AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType;
+class __AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData;
 }
 namespace GlobalNamespace {
-class __AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData;
+class MockPlayersModel;
+}
+namespace GlobalNamespace {
+struct __AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitS
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15409))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6116))
 // CS Name: ::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType
 struct CORDL_TYPE __AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType {
 public:
@@ -83,13 +86,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::AppInitSceneSetupData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15409)), TypeDefinitionIndex(TypeDefinitionIndex(15408))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15410))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13934)), TypeDefinitionIndex(TypeDefinitionIndex(6116))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6117))
 // CS Name: ::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*
 class CORDL_TYPE __AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
@@ -99,8 +104,14 @@ public:
                       put = __set__appInitOverrideStartType_k__BackingField))::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType
       _appInitOverrideStartType_k__BackingField;
 
+  /// @brief Field <overrideMockPlayersModel>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __get__overrideMockPlayersModel_k__BackingField,
+                      put = __set__overrideMockPlayersModel_k__BackingField))::GlobalNamespace::MockPlayersModel* _overrideMockPlayersModel_k__BackingField;
+
   __declspec(property(get = get_appInitOverrideStartType,
                       put = set_appInitOverrideStartType))::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType;
+
+  __declspec(property(get = get_overrideMockPlayersModel, put = set_overrideMockPlayersModel))::GlobalNamespace::MockPlayersModel* overrideMockPlayersModel;
 
   constexpr ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType& __get__appInitOverrideStartType_k__BackingField();
 
@@ -108,17 +119,29 @@ public:
 
   constexpr void __set__appInitOverrideStartType_k__BackingField(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType value);
 
-  /// @brief Method get_appInitOverrideStartType addr 0xe23674 size 0x8 virtual false final false
+  constexpr ::GlobalNamespace::MockPlayersModel*& __get__overrideMockPlayersModel_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlayersModel*> const& __get__overrideMockPlayersModel_k__BackingField() const;
+
+  constexpr void __set__overrideMockPlayersModel_k__BackingField(::GlobalNamespace::MockPlayersModel* value);
+
+  /// @brief Method get_appInitOverrideStartType addr 0x21c93cc size 0x8 virtual false final false
   inline ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType get_appInitOverrideStartType();
 
-  /// @brief Method set_appInitOverrideStartType addr 0xe2367c size 0x8 virtual false final false
+  /// @brief Method set_appInitOverrideStartType addr 0x21c93d4 size 0x8 virtual false final false
   inline void set_appInitOverrideStartType(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType value);
 
-  static inline ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData*
-  New_ctor(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType);
+  /// @brief Method get_overrideMockPlayersModel addr 0x21c93dc size 0x8 virtual false final false
+  inline ::GlobalNamespace::MockPlayersModel* get_overrideMockPlayersModel();
 
-  /// @brief Method .ctor addr 0xe1dcb0 size 0x28 virtual false final false
-  inline void _ctor(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType);
+  /// @brief Method set_overrideMockPlayersModel addr 0x21c93e4 size 0x8 virtual false final false
+  inline void set_overrideMockPlayersModel(::GlobalNamespace::MockPlayersModel* value);
+
+  static inline ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData*
+  New_ctor(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType, ::GlobalNamespace::MockPlayersModel* overrideMockPlayersModel);
+
+  /// @brief Method .ctor addr 0x21c92a0 size 0x30 virtual false final false
+  inline void _ctor(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType, ::GlobalNamespace::MockPlayersModel* overrideMockPlayersModel);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -137,18 +160,25 @@ public:
   /// @brief Field <appInitOverrideStartType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType ____appInitOverrideStartType_k__BackingField;
 
+  /// @brief Field <overrideMockPlayersModel>k__BackingField, offset: 0x18, size: 0x8, def value: None
+  ::GlobalNamespace::MockPlayersModel* ____overrideMockPlayersModel_k__BackingField;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData, ____appInitOverrideStartType_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData, ____overrideMockPlayersModel_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::AppInitScenesTransitionSetupDataSO
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15418))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15411))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13940))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6118))
 // CS Name: ::AppInitScenesTransitionSetupDataSO*
 class CORDL_TYPE AppInitScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
@@ -157,18 +187,18 @@ public:
 
   using AppInitOverrideStartType = ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType;
 
-  /// @brief Method Init addr 0xe23428 size 0x6c virtual false final false
+  /// @brief Method Init addr 0x21c922c size 0x74 virtual false final false
   inline void Init();
 
-  /// @brief Method InitAsAppStart addr 0xe23584 size 0x6c virtual false final false
+  /// @brief Method InitAsAppStart addr 0x21c92d0 size 0x74 virtual false final false
   inline void InitAsAppStart();
 
-  /// @brief Method __Init addr 0xe235f0 size 0x74 virtual false final false
-  inline void __Init(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType);
+  /// @brief Method __Init addr 0x21c9344 size 0x80 virtual false final false
+  inline void __Init(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType, ::GlobalNamespace::MockPlayersModel* mockPlayersModel);
 
   static inline ::GlobalNamespace::AppInitScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0xe23664 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21c93c4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AppInitScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]

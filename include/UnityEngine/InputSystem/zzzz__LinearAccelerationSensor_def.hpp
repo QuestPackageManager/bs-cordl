@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LinearAccelerationSensor);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6274))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6279))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6360))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6365))
 // CS Name: ::UnityEngine.InputSystem::LinearAccelerationSensor*
 class CORDL_TYPE LinearAccelerationSensor : public ::UnityEngine::InputSystem::Sensor {
 public:
@@ -41,30 +41,30 @@ public:
 
   static inline ::UnityEngine::InputSystem::LinearAccelerationSensor* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_acceleration addr 0x2aa83c4 size 0x8 virtual false final false
+  /// @brief Method get_acceleration addr 0x292967c size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_acceleration();
 
-  /// @brief Method set_acceleration addr 0x2aa83cc size 0x8 virtual false final false
+  /// @brief Method set_acceleration addr 0x2929684 size 0x8 virtual false final false
   inline void set_acceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_current addr 0x2aa83d4 size 0x48 virtual false final false
+  /// @brief Method get_current addr 0x292968c size 0x48 virtual false final false
   static inline ::UnityEngine::InputSystem::LinearAccelerationSensor* get_current();
 
-  /// @brief Method set_current addr 0x2aa841c size 0x4c virtual false final false
+  /// @brief Method set_current addr 0x29296d4 size 0x4c virtual false final false
   static inline void set_current(::UnityEngine::InputSystem::LinearAccelerationSensor* value);
 
-  /// @brief Method MakeCurrent addr 0x2aa8468 size 0x54 virtual true final false
+  /// @brief Method MakeCurrent addr 0x2929720 size 0x54 virtual true final false
   inline void MakeCurrent();
 
-  /// @brief Method OnRemoved addr 0x2aa84bc size 0x84 virtual true final false
+  /// @brief Method OnRemoved addr 0x2929774 size 0x84 virtual true final false
   inline void OnRemoved();
 
-  /// @brief Method FinishSetup addr 0x2aa8540 size 0x78 virtual true final false
+  /// @brief Method FinishSetup addr 0x29297f8 size 0x78 virtual true final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::LinearAccelerationSensor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2aa85b8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2929870 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LinearAccelerationSensor", modifiers: "&&", def_value: None }]
@@ -88,6 +88,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LinearAccelerationSensor, 0x160>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LinearAccelerationSensor, ____acceleration_k__BackingField) == 0x158, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 NEED_NO_BOX(::UnityEngine::InputSystem::LinearAccelerationSensor);

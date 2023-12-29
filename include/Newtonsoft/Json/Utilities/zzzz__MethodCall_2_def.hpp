@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MethodCall_2)
 namespace System {
-class Object;
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
-class IAsyncResult;
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -27,8 +27,8 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T, typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11860))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11788))
 // CS Name: ::Newtonsoft.Json.Utilities::MethodCall`2<T,TResult>*
 class CORDL_TYPE MethodCall_2 : public ::System::MulticastDelegate {
 public:

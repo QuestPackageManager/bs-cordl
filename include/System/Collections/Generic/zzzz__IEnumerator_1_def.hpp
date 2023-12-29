@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IEnumerator_1)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -22,7 +22,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3833))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3821))
 // CS Name: ::System.Collections.Generic::IEnumerator`1<T>*
 class CORDL_TYPE IEnumerator_1 {
 public:

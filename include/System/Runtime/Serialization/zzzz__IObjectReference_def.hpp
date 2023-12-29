@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::IObjectReference);
 namespace System::Runtime::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3195))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3194))
 // CS Name: ::System.Runtime.Serialization::IObjectReference*
 class CORDL_TYPE IObjectReference {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::RootResolveMethods);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11170))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11098))
 // CS Name: ::Zenject::RootResolveMethods
 struct CORDL_TYPE RootResolveMethods {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::RootResolveMethods, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::RootResolveMethods, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Zenject
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::RootResolveMethods, "Zenject", "RootResolveMethods");

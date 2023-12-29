@@ -3,11 +3,11 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(PemObjectParser)
-namespace Org::BouncyCastle::Utilities::IO::Pem {
-class PemObject;
-}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Utilities::IO::Pem {
+class PemObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::IO::Pem {

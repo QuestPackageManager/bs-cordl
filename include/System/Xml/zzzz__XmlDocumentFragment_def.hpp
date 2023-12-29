@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlDocumentFragment)
 namespace System::Xml {
-class XmlLinkedNode;
+class XmlDocument;
+}
+namespace System::Xml {
+struct XmlNodeType;
 }
 namespace System::Xml {
 class XmlNode;
 }
 namespace System::Xml {
-class XmlDocument;
-}
-namespace System::Xml {
-struct XmlNodeType;
+class XmlLinkedNode;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Xml::XmlDocumentFragment);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11520))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11506))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11448))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11434))
 // CS Name: ::System.Xml::XmlDocumentFragment*
 class CORDL_TYPE XmlDocumentFragment : public ::System::Xml::XmlNode {
 public:
@@ -60,43 +60,43 @@ public:
 
   static inline ::System::Xml::XmlDocumentFragment* New_ctor(::System::Xml::XmlDocument* ownerDocument);
 
-  /// @brief Method .ctor addr 0x28879d0 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x270a9b0 size 0x84 virtual false final false
   inline void _ctor(::System::Xml::XmlDocument* ownerDocument);
 
-  /// @brief Method get_Name addr 0x2887a5c size 0x28 virtual true final false
+  /// @brief Method get_Name addr 0x270aa3c size 0x28 virtual true final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_LocalName addr 0x2887a84 size 0x28 virtual true final false
+  /// @brief Method get_LocalName addr 0x270aa64 size 0x28 virtual true final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NodeType addr 0x2887aac size 0x8 virtual true final false
+  /// @brief Method get_NodeType addr 0x270aa8c size 0x8 virtual true final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_ParentNode addr 0x2887ab4 size 0x8 virtual true final false
+  /// @brief Method get_ParentNode addr 0x270aa94 size 0x8 virtual true final false
   inline ::System::Xml::XmlNode* get_ParentNode();
 
-  /// @brief Method get_OwnerDocument addr 0x2887abc size 0x78 virtual true final false
+  /// @brief Method get_OwnerDocument addr 0x270aa9c size 0x78 virtual true final false
   inline ::System::Xml::XmlDocument* get_OwnerDocument();
 
-  /// @brief Method set_InnerXml addr 0x2887b34 size 0x8c virtual true final false
+  /// @brief Method set_InnerXml addr 0x270ab14 size 0x8c virtual true final false
   inline void set_InnerXml(::StringW value);
 
-  /// @brief Method CloneNode addr 0x2887dcc size 0x84 virtual true final false
+  /// @brief Method CloneNode addr 0x270adac size 0x84 virtual true final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
-  /// @brief Method get_IsContainer addr 0x2887e50 size 0x8 virtual true final false
+  /// @brief Method get_IsContainer addr 0x270ae30 size 0x8 virtual true final false
   inline bool get_IsContainer();
 
-  /// @brief Method get_LastNode addr 0x2887e58 size 0x8 virtual true final false
+  /// @brief Method get_LastNode addr 0x270ae38 size 0x8 virtual true final false
   inline ::System::Xml::XmlLinkedNode* get_LastNode();
 
-  /// @brief Method set_LastNode addr 0x2887e60 size 0x8 virtual true final false
+  /// @brief Method set_LastNode addr 0x270ae40 size 0x8 virtual true final false
   inline void set_LastNode(::System::Xml::XmlLinkedNode* value);
 
-  /// @brief Method IsValidChildType addr 0x2887e68 size 0x6c virtual true final false
+  /// @brief Method IsValidChildType addr 0x270ae48 size 0x6c virtual true final false
   inline bool IsValidChildType(::System::Xml::XmlNodeType type);
 
-  /// @brief Method CanInsertAfter addr 0x2887ed4 size 0x70 virtual true final false
+  /// @brief Method CanInsertAfter addr 0x270aeb4 size 0x70 virtual true final false
   inline bool CanInsertAfter(::System::Xml::XmlNode* newChild, ::System::Xml::XmlNode* refChild);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlDocumentFragment", modifiers: "&&", def_value: None }]
@@ -120,6 +120,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlDocumentFragment, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlDocumentFragment, ___lastChild) == 0x18, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlDocumentFragment);

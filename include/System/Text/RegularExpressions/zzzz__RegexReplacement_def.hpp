@@ -6,8 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegexReplacement)
-namespace System::Collections {
-class Hashtable;
+namespace System::Text::RegularExpressions {
+class RegexNode;
+}
+namespace System::Text::RegularExpressions {
+struct RegexOptions;
 }
 namespace System::Text {
 class StringBuilder;
@@ -15,11 +18,8 @@ class StringBuilder;
 namespace System::Text::RegularExpressions {
 class Regex;
 }
-namespace System {
-template <typename T> class WeakReference_1;
-}
-namespace System::Text::RegularExpressions {
-class RegexNode;
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Text::RegularExpressions {
 class Match;
@@ -27,8 +27,8 @@ class Match;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Text::RegularExpressions {
-struct RegexOptions;
+namespace System {
+template <typename T> class WeakReference_1;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexReplacement);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8928))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7765))
 // CS Name: ::System.Text.RegularExpressions::RegexReplacement*
 class CORDL_TYPE RegexReplacement : public ::System::Object {
 public:
@@ -77,24 +77,24 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexReplacement* New_ctor(::StringW rep, ::System::Text::RegularExpressions::RegexNode* concat, ::System::Collections::Hashtable* _caps);
 
-  /// @brief Method .ctor addr 0x29648ac size 0x4e8 virtual false final false
+  /// @brief Method .ctor addr 0x27e6fb0 size 0x4e8 virtual false final false
   inline void _ctor(::StringW rep, ::System::Text::RegularExpressions::RegexNode* concat, ::System::Collections::Hashtable* _caps);
 
-  /// @brief Method GetOrCreate addr 0x2969340 size 0x114 virtual false final false
+  /// @brief Method GetOrCreate addr 0x27eba44 size 0x114 virtual false final false
   static inline ::System::Text::RegularExpressions::RegexReplacement* GetOrCreate(::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* replRef, ::StringW replacement,
                                                                                   ::System::Collections::Hashtable* caps, int32_t capsize, ::System::Collections::Hashtable* capnames,
                                                                                   ::System::Text::RegularExpressions::RegexOptions roptions);
 
-  /// @brief Method get_Pattern addr 0x2969454 size 0x8 virtual false final false
+  /// @brief Method get_Pattern addr 0x27ebb58 size 0x8 virtual false final false
   inline ::StringW get_Pattern();
 
-  /// @brief Method ReplacementImpl addr 0x296945c size 0x1a4 virtual false final false
+  /// @brief Method ReplacementImpl addr 0x27ebb60 size 0x1a4 virtual false final false
   inline void ReplacementImpl(::System::Text::StringBuilder* sb, ::System::Text::RegularExpressions::Match* match);
 
-  /// @brief Method ReplacementImplRTL addr 0x2969600 size 0x230 virtual false final false
+  /// @brief Method ReplacementImplRTL addr 0x27ebd04 size 0x230 virtual false final false
   inline void ReplacementImplRTL(::System::Collections::Generic::List_1<::StringW>* al, ::System::Text::RegularExpressions::Match* match);
 
-  /// @brief Method Replace addr 0x2969830 size 0x3a0 virtual false final false
+  /// @brief Method Replace addr 0x27ebf34 size 0x3a0 virtual false final false
   inline ::StringW Replace(::System::Text::RegularExpressions::Regex* regex, ::StringW input, int32_t count, int32_t startat);
 
   // Ctor Parameters [CppParam { name: "", ty: "RegexReplacement", modifiers: "&&", def_value: None }]
@@ -139,6 +139,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexReplacement, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexReplacement, ____strings) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexReplacement, ____rules) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexReplacement, ____Pattern_k__BackingField) == 0x20, "Offset mismatch!");
 
 } // namespace System::Text::RegularExpressions
 NEED_NO_BOX(::System::Text::RegularExpressions::RegexReplacement);

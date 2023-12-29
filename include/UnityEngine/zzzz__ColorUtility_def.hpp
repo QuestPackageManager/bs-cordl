@@ -18,13 +18,13 @@ MARK_REF_PTR_T(::UnityEngine::ColorUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10248))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10175))
 // CS Name: ::UnityEngine::ColorUtility*
 class CORDL_TYPE ColorUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToHtmlStringRGB addr 0x2cd8614 size 0x3f0 virtual false final false
+  /// @brief Method ToHtmlStringRGB addr 0x2b72e94 size 0x3f0 virtual false final false
   static inline ::StringW ToHtmlStringRGB(::UnityEngine::Color color);
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorUtility", modifiers: "&&", def_value: None }]

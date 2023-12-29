@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__RuntimeLightWithLightGroupIds_def.hpp"
 CORDL_MODULE_EXPORT(DirectionalLightWithLightGroupIds)
-namespace GlobalNamespace {
-class DirectionalLight;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class DirectionalLight;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DirectionalLightWithLightGroupIds);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14554))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14528))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14772))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14744))
 // CS Name: ::DirectionalLightWithLightGroupIds*
 class CORDL_TYPE DirectionalLightWithLightGroupIds : public ::GlobalNamespace::RuntimeLightWithLightGroupIds {
 public:
@@ -35,12 +35,12 @@ public:
 
   constexpr void __set__directionalLight(::GlobalNamespace::DirectionalLight* value);
 
-  /// @brief Method ColorWasSet addr 0x210f1f4 size 0x20 virtual true final false
+  /// @brief Method ColorWasSet addr 0x1fb9b90 size 0x20 virtual true final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::DirectionalLightWithLightGroupIds* New_ctor();
 
-  /// @brief Method .ctor addr 0x210f214 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fb9bb0 size 0x18 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithLightGroupIds", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DirectionalLightWithLightGroupIds, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DirectionalLightWithLightGroupIds, ____directionalLight) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DirectionalLightWithLightGroupIds);

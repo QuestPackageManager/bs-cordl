@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IServerSongPackProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12815))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12733))
 // CS Name: ::IServerSongPackProvider*
 class CORDL_TYPE IServerSongPackProvider {
 public:

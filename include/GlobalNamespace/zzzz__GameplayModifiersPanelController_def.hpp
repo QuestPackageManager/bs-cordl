@@ -7,23 +7,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(GameplayModifiersPanelController)
-namespace HMUI {
-class ToggleBinder;
-}
 namespace GlobalNamespace {
-class GameplayModifierParamsSO;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class IRefreshable;
+class GameplayModifierToggle;
 }
 namespace GlobalNamespace {
 class GameplayModifiersModelSO;
@@ -31,14 +16,29 @@ class GameplayModifiersModelSO;
 namespace TMPro {
 class TextMeshProUGUI;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace HMUI {
+class ToggleBinder;
+}
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class __GameplayModifiersPanelController____c__DisplayClass16_0;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class GameplayModifierToggle;
+class GameplayModifierParamsSO;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace GlobalNamespace {
+class IRefreshable;
+}
+namespace GlobalNamespace {
+class __GameplayModifiersPanelController____c__DisplayClass16_0;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -54,8 +54,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameplayModifiersPanelController____c__Displ
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5635))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5734))
 // CS Name: ::GameplayModifiersPanelController::<>c__DisplayClass16_0*
 class CORDL_TYPE __GameplayModifiersPanelController____c__DisplayClass16_0 : public ::System::Object {
 public:
@@ -80,10 +80,10 @@ public:
 
   static inline ::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x22b17a0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x216f1a4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__0 addr 0x22b1c28 size 0x208 virtual false final false
+  /// @brief Method <Awake>b__0 addr 0x216f62c size 0x208 virtual false final false
   inline void _Awake_b__0(bool on);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersPanelController____c__DisplayClass16_0", modifiers: "&&", def_value: None }]
@@ -111,13 +111,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0, ___gameplayModifierToggle) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0, _____4__this) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::GameplayModifiersPanelController
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5636))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5735))
 // CS Name: ::GameplayModifiersPanelController*
 class CORDL_TYPE GameplayModifiersPanelController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -232,39 +236,39 @@ public:
 
   constexpr void __set__toggleForGameplayModifierParam(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::GameplayModifierParamsSO*, ::UnityEngine::UI::Toggle*>* value);
 
-  /// @brief Method add_didChangeGameplayModifiersEvent addr 0x22b14d4 size 0x9c virtual false final false
+  /// @brief Method add_didChangeGameplayModifiersEvent addr 0x216eed8 size 0x9c virtual false final false
   inline void add_didChangeGameplayModifiersEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangeGameplayModifiersEvent addr 0x22b1570 size 0x9c virtual false final false
+  /// @brief Method remove_didChangeGameplayModifiersEvent addr 0x216ef74 size 0x9c virtual false final false
   inline void remove_didChangeGameplayModifiersEvent(::System::Action* value);
 
-  /// @brief Method get_gameplayModifiers addr 0x22b160c size 0x8 virtual false final false
+  /// @brief Method get_gameplayModifiers addr 0x216f010 size 0x8 virtual false final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method SetData addr 0x22b1614 size 0x8 virtual false final false
+  /// @brief Method SetData addr 0x216f018 size 0x8 virtual false final false
   inline void SetData(::GlobalNamespace::GameplayModifiers* newGameplayModifiers);
 
-  /// @brief Method Awake addr 0x22b161c size 0x184 virtual false final false
+  /// @brief Method Awake addr 0x216f020 size 0x184 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x22b17a8 size 0x14 virtual false final false
+  /// @brief Method OnDestroy addr 0x216f1ac size 0x14 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method SetToggleValueWithGameplayModifierParams addr 0x22b17bc size 0x88 virtual false final false
+  /// @brief Method SetToggleValueWithGameplayModifierParams addr 0x216f1c0 size 0x88 virtual false final false
   inline void SetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams, bool value);
 
-  /// @brief Method GetToggleValueWithGameplayModifierParams addr 0x22b1844 size 0x8c virtual false final false
+  /// @brief Method GetToggleValueWithGameplayModifierParams addr 0x216f248 size 0x8c virtual false final false
   inline bool GetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
 
-  /// @brief Method RefreshTotalMultiplierAndRankUI addr 0x22b18d0 size 0x1d4 virtual false final false
+  /// @brief Method RefreshTotalMultiplierAndRankUI addr 0x216f2d4 size 0x1d4 virtual false final false
   inline void RefreshTotalMultiplierAndRankUI();
 
-  /// @brief Method IRefreshable.Refresh addr 0x22b1aa4 size 0x104 virtual true final true
+  /// @brief Method IRefreshable.Refresh addr 0x216f4a8 size 0x104 virtual true final true
   inline void IRefreshable_Refresh();
 
   static inline ::GlobalNamespace::GameplayModifiersPanelController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22b1ba8 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x216f5ac size 0x80 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController", modifiers: "&&", def_value: None }]
@@ -318,6 +322,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayModifiersPanelController, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController, ____gameplayModifiersModel) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController, ____totalMultiplierValueText) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController, ____maxRankValueText) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController, ____positiveColor) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController, ____negativeColor) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController, ___didChangeGameplayModifiersEvent) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController, ____gameplayModifiers) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController, ____toggleBinder) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController, ____gameplayModifierToggles) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController, ____changingGameplayModifierToggles) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController, ____toggleForGameplayModifierParam) == 0x78, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameplayModifiersPanelController);

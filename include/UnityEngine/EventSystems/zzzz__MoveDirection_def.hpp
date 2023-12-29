@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::EventSystems::MoveDirection);
 namespace UnityEngine::EventSystems {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13207))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13212))
 // CS Name: ::UnityEngine.EventSystems::MoveDirection
 struct CORDL_TYPE MoveDirection {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::MoveDirection, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::MoveDirection, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::EventSystems
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::MoveDirection, "UnityEngine.EventSystems", "MoveDirection");

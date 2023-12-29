@@ -16,7 +16,7 @@ MARK_VAL_T(::JetBrains::Annotations::AssertionConditionType);
 namespace JetBrains::Annotations {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15787))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15737))
 // CS Name: ::JetBrains.Annotations::AssertionConditionType
 struct CORDL_TYPE AssertionConditionType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::AssertionConditionType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::AssertionConditionType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::AssertionConditionType, "JetBrains.Annotations", "AssertionConditionType");

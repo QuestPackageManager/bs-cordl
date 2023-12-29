@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RelativeScoreAndImmediateRankCounter)
-namespace GlobalNamespace {
-struct __RankModel__Rank;
-}
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
 class IScoreController;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+struct __RankModel__Rank;
 }
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
+class GameplayModifiers;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RelativeScoreAndImmediateRankCounter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15034)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5042))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(15179))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5147))
 // CS Name: ::RelativeScoreAndImmediateRankCounter*
 class CORDL_TYPE RelativeScoreAndImmediateRankCounter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -96,39 +96,39 @@ public:
 
   constexpr void __set__immediateRank_k__BackingField(::GlobalNamespace::__RankModel__Rank value);
 
-  /// @brief Method add_relativeScoreOrImmediateRankDidChangeEvent addr 0x23c0f80 size 0x9c virtual false final false
+  /// @brief Method add_relativeScoreOrImmediateRankDidChangeEvent addr 0x2287c14 size 0x9c virtual false final false
   inline void add_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
 
-  /// @brief Method remove_relativeScoreOrImmediateRankDidChangeEvent addr 0x23c235c size 0x9c virtual false final false
+  /// @brief Method remove_relativeScoreOrImmediateRankDidChangeEvent addr 0x2288ff0 size 0x9c virtual false final false
   inline void remove_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
 
-  /// @brief Method get_relativeScore addr 0x23c23f8 size 0x8 virtual false final false
+  /// @brief Method get_relativeScore addr 0x228908c size 0x8 virtual false final false
   inline float_t get_relativeScore();
 
-  /// @brief Method set_relativeScore addr 0x23c2400 size 0x8 virtual false final false
+  /// @brief Method set_relativeScore addr 0x2289094 size 0x8 virtual false final false
   inline void set_relativeScore(float_t value);
 
-  /// @brief Method get_immediateRank addr 0x23c2408 size 0x8 virtual false final false
+  /// @brief Method get_immediateRank addr 0x228909c size 0x8 virtual false final false
   inline ::GlobalNamespace::__RankModel__Rank get_immediateRank();
 
-  /// @brief Method set_immediateRank addr 0x23c2410 size 0x8 virtual false final false
+  /// @brief Method set_immediateRank addr 0x22890a4 size 0x8 virtual false final false
   inline void set_immediateRank(::GlobalNamespace::__RankModel__Rank value);
 
-  /// @brief Method Start addr 0x23c2418 size 0x138 virtual false final false
+  /// @brief Method Start addr 0x22890ac size 0x138 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x23c2550 size 0x108 virtual false final false
+  /// @brief Method OnDestroy addr 0x22891e4 size 0x108 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleScoreDidChange addr 0x23c2658 size 0x13c virtual false final false
+  /// @brief Method HandleScoreDidChange addr 0x22892ec size 0x13c virtual false final false
   inline void HandleScoreDidChange(int32_t scoreWithoutModifiers, int32_t scoreWithModifiers);
 
-  /// @brief Method UpdateRelativeScoreAndImmediateRank addr 0x23c2794 size 0x88 virtual false final false
+  /// @brief Method UpdateRelativeScoreAndImmediateRank addr 0x2289428 size 0x88 virtual false final false
   inline void UpdateRelativeScoreAndImmediateRank(int32_t score, int32_t modifiedScore, int32_t maxPossibleScore, int32_t maxPossibleModifiedScore);
 
   static inline ::GlobalNamespace::RelativeScoreAndImmediateRankCounter* New_ctor();
 
-  /// @brief Method .ctor addr 0x23c281c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22894b0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RelativeScoreAndImmediateRankCounter", modifiers: "&&", def_value: None }]
@@ -167,6 +167,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RelativeScoreAndImmediateRankCounter, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, ____gameplayModifiersModel) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, ____scoreController) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, ____gameplayModifiers) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, ___relativeScoreOrImmediateRankDidChangeEvent) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, ____relativeScore_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, ____immediateRank_k__BackingField) == 0x3c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RelativeScoreAndImmediateRankCounter);

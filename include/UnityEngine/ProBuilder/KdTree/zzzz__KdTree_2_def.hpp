@@ -10,52 +10,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(KdTree_2)
 namespace UnityEngine::ProBuilder::KdTree {
+template <typename TKey, typename TValue> class __KdTree_2____c__DisplayClass33_0;
+}
+namespace UnityEngine::ProBuilder::KdTree {
 template <typename TKey, typename TValue> class KdTreeNode_2;
 }
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename T> struct HyperRect_1;
-}
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class IKdTree_2;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace System::Text {
+class StringBuilder;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Text {
-class StringBuilder;
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename T> class ITypeMath_1;
 }
 namespace UnityEngine::ProBuilder::KdTree {
 struct AddDuplicateBehavior;
 }
 namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class __KdTree_2____c__DisplayClass33_0;
+template <typename T> struct HyperRect_1;
 }
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TItem, typename TDistance> class NearestNeighbourList_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename T> class ITypeMath_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename TKey, typename TValue> class __KdTree_2___GetEnumerator_d__33;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TItem, typename TDistance> class NearestNeighbourList_2;
+}
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TKey, typename TValue> class IKdTree_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -83,8 +83,8 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15916))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15808))
 // CS Name: ::KdTree`2::<>c__DisplayClass33_0<TKey,TValue>*
 class CORDL_TYPE __KdTree_2____c__DisplayClass33_0 : public ::System::Object {
 public:
@@ -148,8 +148,8 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15917))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15809))
 // CS Name: ::KdTree`2::<GetEnumerator>d__33<TKey,TValue>*
 class CORDL_TYPE __KdTree_2___GetEnumerator_d__33 : public ::System::Object {
 public:
@@ -284,8 +284,8 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15914)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15918))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15806))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15810))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::KdTree`2<TKey,TValue>*
 class CORDL_TYPE KdTree_2 : public ::System::Object {
 public:

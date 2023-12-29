@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ObservableVariable_1)
+namespace System {
+class Action;
+}
 namespace GlobalNamespace {
 template <typename T> class IValue_1;
 }
 namespace GlobalNamespace {
 class IObservableChange;
-}
-namespace System {
-class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15868))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13973))
 // CS Name: ::ObservableVariable`1<T>*
 class CORDL_TYPE ObservableVariable_1 : public ::System::Object {
 public:

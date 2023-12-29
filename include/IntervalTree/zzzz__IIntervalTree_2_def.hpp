@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IIntervalTree_2)
-namespace System::Collections {
-class IEnumerable;
-}
 namespace IntervalTree {
 template <typename TKey, typename TValue> struct RangeValuePair_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace IntervalTree {
@@ -29,7 +29,7 @@ namespace IntervalTree {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16126))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15980))
 // CS Name: ::IntervalTree::IIntervalTree`2<TKey,TValue>*
 class CORDL_TYPE IIntervalTree_2 {
 public:

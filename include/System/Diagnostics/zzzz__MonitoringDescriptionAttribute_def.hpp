@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Diagnostics::MonitoringDescriptionAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9388))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8959))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7796))
 // CS Name: ::System.Diagnostics::MonitoringDescriptionAttribute*
 class CORDL_TYPE MonitoringDescriptionAttribute : public ::System::ComponentModel::DescriptionAttribute {
 public:
@@ -25,10 +25,10 @@ public:
 
   static inline ::System::Diagnostics::MonitoringDescriptionAttribute* New_ctor(::StringW description);
 
-  /// @brief Method .ctor addr 0x2973dc0 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x27f6048 size 0x68 virtual false final false
   inline void _ctor(::StringW description);
 
-  /// @brief Method get_Description addr 0x2973e28 size 0x8 virtual true final false
+  /// @brief Method get_Description addr 0x27f60b0 size 0x8 virtual true final false
   inline ::StringW get_Description();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonitoringDescriptionAttribute", modifiers: "&&", def_value: None }]

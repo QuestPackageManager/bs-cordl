@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Observer_1)
 namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-class Action;
+class Exception;
 }
 namespace System {
 template <typename T> class IObserver_1;
 }
 namespace System {
-class Exception;
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -28,8 +28,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6689))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6775))
 // CS Name: ::UnityEngine.InputSystem.Utilities::Observer`1<TValue>*
 class CORDL_TYPE Observer_1 : public ::System::Object {
 public:

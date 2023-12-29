@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 CORDL_MODULE_EXPORT(CancellationTokenSource_LinkedNCancellationTokenSource)
 namespace System {
+class Object;
+}
+namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class __CancellationTokenSource__LinkedNCancellationTokenSource____c;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Threading::__CancellationTokenSource__LinkedNCancellati
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2688))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2687))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2686))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2685))
 // CS Name: ::CancellationTokenSource::LinkedNCancellationTokenSource*
 class CORDL_TYPE __CancellationTokenSource__LinkedNCancellationTokenSource : public ::System::Threading::CancellationTokenSource {
 public:

@@ -8,49 +8,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeInputRuntime)
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
+struct InputUpdateType;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class __NativeInputRuntime____c__DisplayClass7_0;
+class InputUpdateDelegate;
+}
+namespace UnityEngine {
+struct ScreenOrientation;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputRuntime;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 class Action;
 }
 namespace UnityEngine::InputSystem::LowLevel {
+class __NativeInputRuntime____c__DisplayClass13_0;
+}
+namespace UnityEngine::InputSystem::LowLevel {
 class __NativeInputRuntime____c__DisplayClass10_0;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
+struct InputEvent;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace UnityEngine::InputSystem::LowLevel {
+class __NativeInputRuntime____c__DisplayClass7_0;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class InputUpdateDelegate;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputRuntime;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class __NativeInputRuntime____c__DisplayClass13_0;
-}
-namespace UnityEngine {
-struct ScreenOrientation;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngineInternal::Input {
 struct NativeInputUpdateType;
@@ -80,8 +80,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::__NativeInputRuntime____c__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6557))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6643))
 // CS Name: ::NativeInputRuntime::<>c__DisplayClass7_0*
 class CORDL_TYPE __NativeInputRuntime____c__DisplayClass7_0 : public ::System::Object {
 public:
@@ -97,10 +97,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::LowLevel::__NativeInputRuntime____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2af122c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x29714d8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <set_onUpdate>b__0 addr 0x2af1968 size 0x1e8 virtual false final false
+  /// @brief Method <set_onUpdate>b__0 addr 0x2971c14 size 0x1e8 virtual false final false
   inline void _set_onUpdate_b__0(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ::cordl_internals::Ptr<::UnityEngineInternal::Input::NativeInputEventBuffer> eventBufferPtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NativeInputRuntime____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
@@ -125,13 +125,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::__NativeInputRuntime____c__DisplayClass7_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__NativeInputRuntime____c__DisplayClass7_0, ___value) == 0x10, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: ::<>c__DisplayClass10_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6558))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6644))
 // CS Name: ::NativeInputRuntime::<>c__DisplayClass10_0*
 class CORDL_TYPE __NativeInputRuntime____c__DisplayClass10_0 : public ::System::Object {
 public:
@@ -147,10 +149,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::LowLevel::__NativeInputRuntime____c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2af134c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x29715f8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <set_onBeforeUpdate>b__0 addr 0x2af1b50 size 0x24 virtual false final false
+  /// @brief Method <set_onBeforeUpdate>b__0 addr 0x2971dfc size 0x24 virtual false final false
   inline void _set_onBeforeUpdate_b__0(::UnityEngineInternal::Input::NativeInputUpdateType updateType);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NativeInputRuntime____c__DisplayClass10_0", modifiers: "&&", def_value: None }]
@@ -175,13 +177,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::__NativeInputRuntime____c__DisplayClass10_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__NativeInputRuntime____c__DisplayClass10_0, ___value) == 0x10, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: ::<>c__DisplayClass13_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6559))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6645))
 // CS Name: ::NativeInputRuntime::<>c__DisplayClass13_0*
 class CORDL_TYPE __NativeInputRuntime____c__DisplayClass13_0 : public ::System::Object {
 public:
@@ -197,10 +201,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::LowLevel::__NativeInputRuntime____c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2af146c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2971718 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <set_onShouldRunUpdate>b__0 addr 0x2af1b74 size 0x24 virtual false final false
+  /// @brief Method <set_onShouldRunUpdate>b__0 addr 0x2971e20 size 0x24 virtual false final false
   inline bool _set_onShouldRunUpdate_b__0(::UnityEngineInternal::Input::NativeInputUpdateType updateType);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NativeInputRuntime____c__DisplayClass13_0", modifiers: "&&", def_value: None }]
@@ -225,13 +229,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::__NativeInputRuntime____c__DisplayClass13_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__NativeInputRuntime____c__DisplayClass13_0, ___value) == 0x10, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: UnityEngine.InputSystem.LowLevel::NativeInputRuntime
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6560))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6646))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::NativeInputRuntime*
 class CORDL_TYPE NativeInputRuntime : public ::System::Object {
 public:
@@ -347,105 +353,105 @@ public:
 
   static inline ::UnityEngine::InputSystem::LowLevel::NativeInputRuntime* getStaticF_instance();
 
-  /// @brief Method AllocateDeviceId addr 0x2af0f34 size 0x50 virtual true final true
+  /// @brief Method AllocateDeviceId addr 0x29711e0 size 0x50 virtual true final true
   inline int32_t AllocateDeviceId();
 
-  /// @brief Method Update addr 0x2af0f84 size 0x58 virtual true final true
+  /// @brief Method Update addr 0x2971230 size 0x58 virtual true final true
   inline void Update(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
-  /// @brief Method QueueEvent addr 0x2af0fdc size 0x6c virtual true final true
+  /// @brief Method QueueEvent addr 0x2971288 size 0x6c virtual true final true
   inline void QueueEvent(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> ptr);
 
-  /// @brief Method DeviceCommand addr 0x2af1048 size 0xcc virtual true final true
+  /// @brief Method DeviceCommand addr 0x29712f4 size 0xcc virtual true final true
   inline int64_t DeviceCommand(int32_t deviceId, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> commandPtr);
 
-  /// @brief Method get_onUpdate addr 0x2af1114 size 0x8 virtual true final true
+  /// @brief Method get_onUpdate addr 0x29713c0 size 0x8 virtual true final true
   inline ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* get_onUpdate();
 
-  /// @brief Method set_onUpdate addr 0x2af111c size 0x110 virtual true final true
+  /// @brief Method set_onUpdate addr 0x29713c8 size 0x110 virtual true final true
   inline void set_onUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* value);
 
-  /// @brief Method get_onBeforeUpdate addr 0x2af1234 size 0x8 virtual true final true
+  /// @brief Method get_onBeforeUpdate addr 0x29714e0 size 0x8 virtual true final true
   inline ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* get_onBeforeUpdate();
 
-  /// @brief Method set_onBeforeUpdate addr 0x2af123c size 0x110 virtual true final true
+  /// @brief Method set_onBeforeUpdate addr 0x29714e8 size 0x110 virtual true final true
   inline void set_onBeforeUpdate(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* value);
 
-  /// @brief Method get_onShouldRunUpdate addr 0x2af1354 size 0x8 virtual true final true
+  /// @brief Method get_onShouldRunUpdate addr 0x2971600 size 0x8 virtual true final true
   inline ::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* get_onShouldRunUpdate();
 
-  /// @brief Method set_onShouldRunUpdate addr 0x2af135c size 0x110 virtual true final true
+  /// @brief Method set_onShouldRunUpdate addr 0x2971608 size 0x110 virtual true final true
   inline void set_onShouldRunUpdate(::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* value);
 
-  /// @brief Method get_onDeviceDiscovered addr 0x2af1474 size 0x50 virtual true final true
+  /// @brief Method get_onDeviceDiscovered addr 0x2971720 size 0x50 virtual true final true
   inline ::System::Action_2<int32_t, ::StringW>* get_onDeviceDiscovered();
 
-  /// @brief Method set_onDeviceDiscovered addr 0x2af14c4 size 0x58 virtual true final true
+  /// @brief Method set_onDeviceDiscovered addr 0x2971770 size 0x58 virtual true final true
   inline void set_onDeviceDiscovered(::System::Action_2<int32_t, ::StringW>* value);
 
-  /// @brief Method get_onShutdown addr 0x2af151c size 0x8 virtual true final true
+  /// @brief Method get_onShutdown addr 0x29717c8 size 0x8 virtual true final true
   inline ::System::Action* get_onShutdown();
 
-  /// @brief Method set_onShutdown addr 0x2af1524 size 0xd0 virtual true final true
+  /// @brief Method set_onShutdown addr 0x29717d0 size 0xd0 virtual true final true
   inline void set_onShutdown(::System::Action* value);
 
-  /// @brief Method get_onPlayerFocusChanged addr 0x2af15f4 size 0x8 virtual true final true
+  /// @brief Method get_onPlayerFocusChanged addr 0x29718a0 size 0x8 virtual true final true
   inline ::System::Action_1<bool>* get_onPlayerFocusChanged();
 
-  /// @brief Method set_onPlayerFocusChanged addr 0x2af15fc size 0xd0 virtual true final true
+  /// @brief Method set_onPlayerFocusChanged addr 0x29718a8 size 0xd0 virtual true final true
   inline void set_onPlayerFocusChanged(::System::Action_1<bool>* value);
 
-  /// @brief Method get_isPlayerFocused addr 0x2af16cc size 0x8 virtual true final true
+  /// @brief Method get_isPlayerFocused addr 0x2971978 size 0x8 virtual true final true
   inline bool get_isPlayerFocused();
 
-  /// @brief Method get_pollingFrequency addr 0x2af16d4 size 0x8 virtual true final true
+  /// @brief Method get_pollingFrequency addr 0x2971980 size 0x8 virtual true final true
   inline float_t get_pollingFrequency();
 
-  /// @brief Method set_pollingFrequency addr 0x2af16dc size 0x68 virtual true final true
+  /// @brief Method set_pollingFrequency addr 0x2971988 size 0x68 virtual true final true
   inline void set_pollingFrequency(float_t value);
 
-  /// @brief Method get_currentTime addr 0x2af1744 size 0x50 virtual true final true
+  /// @brief Method get_currentTime addr 0x29719f0 size 0x50 virtual true final true
   inline double_t get_currentTime();
 
-  /// @brief Method get_currentTimeForFixedUpdate addr 0x2af1794 size 0x2c virtual true final true
+  /// @brief Method get_currentTimeForFixedUpdate addr 0x2971a40 size 0x2c virtual true final true
   inline double_t get_currentTimeForFixedUpdate();
 
-  /// @brief Method get_currentTimeOffsetToRealtimeSinceStartup addr 0x2af17c0 size 0x50 virtual true final true
+  /// @brief Method get_currentTimeOffsetToRealtimeSinceStartup addr 0x2971a6c size 0x50 virtual true final true
   inline double_t get_currentTimeOffsetToRealtimeSinceStartup();
 
-  /// @brief Method get_unscaledGameTime addr 0x2af1810 size 0x8 virtual true final true
+  /// @brief Method get_unscaledGameTime addr 0x2971abc size 0x8 virtual true final true
   inline float_t get_unscaledGameTime();
 
-  /// @brief Method get_runInBackground addr 0x2af1818 size 0x8 virtual true final true
+  /// @brief Method get_runInBackground addr 0x2971ac4 size 0x8 virtual true final true
   inline bool get_runInBackground();
 
-  /// @brief Method OnShutdown addr 0x2af1820 size 0x24 virtual false final false
+  /// @brief Method OnShutdown addr 0x2971acc size 0x24 virtual false final false
   inline void OnShutdown();
 
-  /// @brief Method OnWantsToShutdown addr 0x2af1844 size 0x40 virtual false final false
+  /// @brief Method OnWantsToShutdown addr 0x2971af0 size 0x40 virtual false final false
   inline bool OnWantsToShutdown();
 
-  /// @brief Method OnFocusChanged addr 0x2af1884 size 0x28 virtual false final false
+  /// @brief Method OnFocusChanged addr 0x2971b30 size 0x28 virtual false final false
   inline void OnFocusChanged(bool focus);
 
-  /// @brief Method get_screenSize addr 0x2af18ac size 0x28 virtual true final true
+  /// @brief Method get_screenSize addr 0x2971b58 size 0x28 virtual true final true
   inline ::UnityEngine::Vector2 get_screenSize();
 
-  /// @brief Method get_screenOrientation addr 0x2af18d4 size 0x8 virtual true final true
+  /// @brief Method get_screenOrientation addr 0x2971b80 size 0x8 virtual true final true
   inline ::UnityEngine::ScreenOrientation get_screenOrientation();
 
-  /// @brief Method get_isInBatchMode addr 0x2af18dc size 0x8 virtual true final true
+  /// @brief Method get_isInBatchMode addr 0x2971b88 size 0x8 virtual true final true
   inline bool get_isInBatchMode();
 
-  /// @brief Method RegisterAnalyticsEvent addr 0x2af18e4 size 0x4 virtual false final false
+  /// @brief Method RegisterAnalyticsEvent addr 0x2971b90 size 0x4 virtual false final false
   inline void RegisterAnalyticsEvent(::StringW name, int32_t maxPerHour, int32_t maxPropertiesPerEvent);
 
-  /// @brief Method SendAnalyticsEvent addr 0x2af18e8 size 0x4 virtual false final false
+  /// @brief Method SendAnalyticsEvent addr 0x2971b94 size 0x4 virtual false final false
   inline void SendAnalyticsEvent(::StringW name, ::System::Object* data);
 
   static inline ::UnityEngine::InputSystem::LowLevel::NativeInputRuntime* New_ctor();
 
-  /// @brief Method .ctor addr 0x2af18ec size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2971b98 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime", modifiers: "&&", def_value: None }]
@@ -487,6 +493,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::NativeInputRuntime, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime, ___m_ShutdownMethod) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime, ___m_OnUpdate) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime, ___m_OnBeforeUpdate) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime, ___m_OnShouldRunUpdate) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime, ___m_PollingFrequency) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime, ___m_DidCallOnShutdown) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime, ___m_FocusChangedMethod) == 0x38, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
 NEED_NO_BOX(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime);

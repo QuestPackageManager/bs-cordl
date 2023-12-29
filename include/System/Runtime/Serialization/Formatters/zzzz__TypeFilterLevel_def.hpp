@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Serialization::Formatters::TypeFilterLevel);
 namespace System::Runtime::Serialization::Formatters {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3242))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3241))
 // CS Name: ::System.Runtime.Serialization.Formatters::TypeFilterLevel
 struct CORDL_TYPE TypeFilterLevel {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::TypeFilterLevel, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::TypeFilterLevel, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::TypeFilterLevel, "System.Runtime.Serialization.Formatters", "TypeFilterLevel");

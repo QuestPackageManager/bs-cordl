@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionObjectiveChecker)
 namespace GlobalNamespace {
-struct __MissionObjectiveChecker__Status;
-}
-namespace GlobalNamespace {
 class MissionObjectiveTypeSO;
 }
 namespace GlobalNamespace {
 class MissionObjective;
+}
+namespace GlobalNamespace {
+struct __MissionObjectiveChecker__Status;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionObjectiveChecker);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5092))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5197))
 // CS Name: ::MissionObjectiveChecker::Status
 struct CORDL_TYPE __MissionObjectiveChecker__Status {
 public:
@@ -88,13 +88,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionObjectiveChecker__Status, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MissionObjectiveChecker__Status, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MissionObjectiveChecker
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5092))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5093))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(5197))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5198))
 // CS Name: ::MissionObjectiveChecker*
 class CORDL_TYPE MissionObjectiveChecker : public ::UnityEngine::MonoBehaviour {
 public:
@@ -174,43 +176,43 @@ public:
 
   constexpr void __set__disableChecking(bool value);
 
-  /// @brief Method add_statusDidChangeEvent addr 0x23cc0fc size 0xb0 virtual false final false
+  /// @brief Method add_statusDidChangeEvent addr 0x20ea5ec size 0xb0 virtual false final false
   inline void add_statusDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value);
 
-  /// @brief Method remove_statusDidChangeEvent addr 0x23cc1ac size 0xb0 virtual false final false
+  /// @brief Method remove_statusDidChangeEvent addr 0x20ea69c size 0xb0 virtual false final false
   inline void remove_statusDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value);
 
-  /// @brief Method add_checkedValueDidChangeEvent addr 0x23cc25c size 0xb0 virtual false final false
+  /// @brief Method add_checkedValueDidChangeEvent addr 0x20ea74c size 0xb0 virtual false final false
   inline void add_checkedValueDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value);
 
-  /// @brief Method remove_checkedValueDidChangeEvent addr 0x23cc30c size 0xb0 virtual false final false
+  /// @brief Method remove_checkedValueDidChangeEvent addr 0x20ea7fc size 0xb0 virtual false final false
   inline void remove_checkedValueDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value);
 
-  /// @brief Method get_missionObjectiveType addr 0x23cc3bc size 0x8 virtual false final false
+  /// @brief Method get_missionObjectiveType addr 0x20ea8ac size 0x8 virtual false final false
   inline ::GlobalNamespace::MissionObjectiveTypeSO* get_missionObjectiveType();
 
-  /// @brief Method get_missionObjective addr 0x23cc3c4 size 0x8 virtual false final false
+  /// @brief Method get_missionObjective addr 0x20ea8b4 size 0x8 virtual false final false
   inline ::GlobalNamespace::MissionObjective* get_missionObjective();
 
-  /// @brief Method get_disableChecking addr 0x23cc3cc size 0x8 virtual false final false
+  /// @brief Method get_disableChecking addr 0x20ea8bc size 0x8 virtual false final false
   inline bool get_disableChecking();
 
-  /// @brief Method set_disableChecking addr 0x23cc3d4 size 0xc virtual false final false
+  /// @brief Method set_disableChecking addr 0x20ea8c4 size 0xc virtual false final false
   inline void set_disableChecking(bool value);
 
-  /// @brief Method get_status addr 0x23cc3e0 size 0x8 virtual false final false
+  /// @brief Method get_status addr 0x20ea8d0 size 0x8 virtual false final false
   inline ::GlobalNamespace::__MissionObjectiveChecker__Status get_status();
 
-  /// @brief Method set_status addr 0x23cb1b4 size 0x3c virtual false final false
+  /// @brief Method set_status addr 0x20e96a4 size 0x3c virtual false final false
   inline void set_status(::GlobalNamespace::__MissionObjectiveChecker__Status value);
 
-  /// @brief Method get_checkedValue addr 0x23cc3e8 size 0x8 virtual false final false
+  /// @brief Method get_checkedValue addr 0x20ea8d8 size 0x8 virtual false final false
   inline int32_t get_checkedValue();
 
-  /// @brief Method set_checkedValue addr 0x23cb314 size 0x3c virtual false final false
+  /// @brief Method set_checkedValue addr 0x20e9804 size 0x3c virtual false final false
   inline void set_checkedValue(int32_t value);
 
-  /// @brief Method SetCheckedMissionObjective addr 0x23cc3f0 size 0x10 virtual false final false
+  /// @brief Method SetCheckedMissionObjective addr 0x20ea8e0 size 0x10 virtual false final false
   inline void SetCheckedMissionObjective(::GlobalNamespace::MissionObjective* missionObjective);
 
   /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -218,7 +220,7 @@ public:
 
   static inline ::GlobalNamespace::MissionObjectiveChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x23cba1c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20e9f0c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveChecker", modifiers: "&&", def_value: None }]
@@ -260,6 +262,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionObjectiveChecker, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveChecker, ____missionObjectiveType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveChecker, ___statusDidChangeEvent) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveChecker, ___checkedValueDidChangeEvent) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveChecker, ____status) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveChecker, ____checkedValue) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveChecker, ____missionObjective) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveChecker, ____disableChecking) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MissionObjectiveChecker__Status, "", "MissionObjectiveChecker/Status");

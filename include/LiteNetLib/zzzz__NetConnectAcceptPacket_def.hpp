@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::LiteNetLib::NetConnectAcceptPacket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14171))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14509))
 // CS Name: ::LiteNetLib::NetConnectAcceptPacket*
 class CORDL_TYPE NetConnectAcceptPacket : public ::System::Object {
 public:
@@ -53,13 +53,13 @@ public:
 
   static inline ::LiteNetLib::NetConnectAcceptPacket* New_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer);
 
-  /// @brief Method .ctor addr 0x22031e8 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x20a1394 size 0x40 virtual false final false
   inline void _ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer);
 
-  /// @brief Method FromData addr 0x21fff70 size 0x108 virtual false final false
+  /// @brief Method FromData addr 0x209e11c size 0x108 virtual false final false
   static inline ::LiteNetLib::NetConnectAcceptPacket* FromData(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method Make addr 0x2203228 size 0xbc virtual false final false
+  /// @brief Method Make addr 0x20a13d4 size 0xbc virtual false final false
   static inline ::LiteNetLib::NetPacket* Make(int64_t connectId, uint8_t connectNum, bool reusedPeer);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetConnectAcceptPacket", modifiers: "&&", def_value: None }]
@@ -92,6 +92,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::NetConnectAcceptPacket, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetConnectAcceptPacket, ___ConnectionId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetConnectAcceptPacket, ___ConnectionNumber) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetConnectAcceptPacket, ___IsReusedPeer) == 0x19, "Offset mismatch!");
 
 } // namespace LiteNetLib
 NEED_NO_BOX(::LiteNetLib::NetConnectAcceptPacket);

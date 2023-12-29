@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ColorHueSlider)
-namespace GlobalNamespace {
-struct ColorChangeUIEventType;
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
 }
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
+class IEventSystemHandler;
 }
-namespace HMUI {
-class CircleSlider;
+namespace GlobalNamespace {
+struct ColorChangeUIEventType;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+namespace HMUI {
+class CircleSlider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorHueSlider);
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13554)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16174))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13673)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5498))
 // CS Name: ::ColorHueSlider*
 class CORDL_TYPE ColorHueSlider : public ::HMUI::CircleSlider {
 public:
@@ -75,30 +75,30 @@ public:
 
   constexpr void __set_colorHueDidChangeEvent(::System::Action_3<::GlobalNamespace::ColorHueSlider*, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method add_colorHueDidChangeEvent addr 0x23e294c size 0xb4 virtual false final false
+  /// @brief Method add_colorHueDidChangeEvent addr 0x212f384 size 0xb4 virtual false final false
   inline void add_colorHueDidChangeEvent(::System::Action_3<::GlobalNamespace::ColorHueSlider*, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method remove_colorHueDidChangeEvent addr 0x23e2a00 size 0xb4 virtual false final false
+  /// @brief Method remove_colorHueDidChangeEvent addr 0x212f438 size 0xb4 virtual false final false
   inline void remove_colorHueDidChangeEvent(::System::Action_3<::GlobalNamespace::ColorHueSlider*, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method Awake addr 0x23e2ab4 size 0x90 virtual true final false
+  /// @brief Method Awake addr 0x212f4ec size 0x90 virtual true final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x23e2b44 size 0x90 virtual true final false
+  /// @brief Method OnDestroy addr 0x212f57c size 0x90 virtual true final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateVisuals addr 0x23e2bd4 size 0xa8 virtual true final false
+  /// @brief Method UpdateVisuals addr 0x212f60c size 0xa8 virtual true final false
   inline void UpdateVisuals();
 
-  /// @brief Method HandleNormalizedValueDidChange addr 0x23e2c7c size 0x24 virtual false final false
+  /// @brief Method HandleNormalizedValueDidChange addr 0x212f6b4 size 0x24 virtual false final false
   inline void HandleNormalizedValueDidChange(::HMUI::CircleSlider* slider, float_t normalizedValue);
 
-  /// @brief Method OnPointerUp addr 0x23e2ca0 size 0x40 virtual true final false
+  /// @brief Method OnPointerUp addr 0x212f6d8 size 0x40 virtual true final false
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   static inline ::GlobalNamespace::ColorHueSlider* New_ctor();
 
-  /// @brief Method .ctor addr 0x23e2ce0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x212f718 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorHueSlider", modifiers: "&&", def_value: None }]
@@ -128,6 +128,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorHueSlider, 0x150>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorHueSlider, ____darkColor) == 0x124, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorHueSlider, ____lightColor) == 0x134, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorHueSlider, ___colorHueDidChangeEvent) == 0x148, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorHueSlider);

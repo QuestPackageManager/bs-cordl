@@ -41,13 +41,13 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                              ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
-  /// @brief Method .ctor addr 0xf30320 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0xebb134 size 0x3c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
-  /// @brief Method get_Parameters addr 0xf30390 size 0x8 virtual false final false
+  /// @brief Method get_Parameters addr 0xebb1a4 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* get_Parameters();
 
-  /// @brief Method GetStrength addr 0xf3035c size 0x34 virtual false final false
+  /// @brief Method GetStrength addr 0xebb170 size 0x34 virtual false final false
   static inline int32_t GetStrength(::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "DHKeyGenerationParameters", modifiers: "&&", def_value: None }]
@@ -71,6 +71,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters, ___parameters) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters);

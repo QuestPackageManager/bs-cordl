@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_SessionSyncData);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9789))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9716))
 // CS Name: ::HEU_SessionSyncData::Status
 struct CORDL_TYPE __HEU_SessionSyncData__Status {
 public:
@@ -82,13 +82,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_SessionSyncData__Status, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_SessionSyncData__Status, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_SessionSyncData
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 99, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9755)), TypeDefinitionIndex(TypeDefinitionIndex(9756)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9790))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9682)), TypeDefinitionIndex(TypeDefinitionIndex(9683)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9717))
 // CS Name: ::HoudiniEngineUnity::HEU_SessionSyncData*
 class CORDL_TYPE HEU_SessionSyncData : public ::System::Object {
 public:
@@ -187,15 +189,15 @@ public:
 
   constexpr void __set__syncInfo(::HoudiniEngineUnity::HAPI_SessionSyncInfo value);
 
-  /// @brief Method get_SyncStatus addr 0x21a53d0 size 0x14 virtual false final false
+  /// @brief Method get_SyncStatus addr 0x204ea34 size 0x14 virtual false final false
   inline ::HoudiniEngineUnity::__HEU_SessionSyncData__Status get_SyncStatus();
 
-  /// @brief Method set_SyncStatus addr 0x21a53e4 size 0xc virtual false final false
+  /// @brief Method set_SyncStatus addr 0x204ea48 size 0xc virtual false final false
   inline void set_SyncStatus(::HoudiniEngineUnity::__HEU_SessionSyncData__Status value);
 
   static inline ::HoudiniEngineUnity::HEU_SessionSyncData* New_ctor();
 
-  /// @brief Method .ctor addr 0x21a2764 size 0xac virtual false final false
+  /// @brief Method .ctor addr 0x204bdc8 size 0xac virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_SessionSyncData", modifiers: "&&", def_value: None }]
@@ -246,6 +248,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_SessionSyncData, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionSyncData, ____status) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionSyncData, ____timeLastUpdate) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionSyncData, ____timeStartConnection) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionSyncData, ____newNodeName) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionSyncData, ____nodeTypeIndex) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionSyncData, ____validForConnection) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionSyncData, ____viewportHAPI) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionSyncData, ____viewportLocal) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionSyncData, ____viewportJustUpdated) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionSyncData, ____syncInfo) == 0x61, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_SessionSyncData__Status, "HoudiniEngineUnity", "HEU_SessionSyncData/Status");

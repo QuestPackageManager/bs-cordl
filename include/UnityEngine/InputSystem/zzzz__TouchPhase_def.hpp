@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::TouchPhase);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6287))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6373))
 // CS Name: ::UnityEngine.InputSystem::TouchPhase
 struct CORDL_TYPE TouchPhase {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::TouchPhase, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::TouchPhase, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::TouchPhase, "UnityEngine.InputSystem", "TouchPhase");

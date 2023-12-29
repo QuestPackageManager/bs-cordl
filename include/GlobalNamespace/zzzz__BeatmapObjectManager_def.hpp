@@ -9,82 +9,82 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapObjectManager)
 namespace GlobalNamespace {
-class IBeatmapObjectSpawner;
-}
-namespace GlobalNamespace {
-class __BeatmapObjectManager__NoteWasCutDelegate;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace GlobalNamespace {
 class INoteControllerNoteDidDissolveEvent;
-}
-namespace GlobalNamespace {
-class ISliderDidFinishJumpEvent;
 }
 namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteWasCutEvent;
-}
-namespace GlobalNamespace {
-class ObstacleController;
-}
-namespace GlobalNamespace {
-class SliderData;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidFinishJumpEvent;
-}
-namespace GlobalNamespace {
-class ISliderDidDissolveEvent;
+class SliderController;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteDidStartJumpEvent;
 }
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
+class INoteControllerNoteWasCutEvent;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
 }
 namespace GlobalNamespace {
-class IBeatmapObjectController;
+class INoteControllerNoteDidFinishJumpEvent;
+}
+namespace GlobalNamespace {
+class IBeatmapObjectSpawner;
+}
+namespace GlobalNamespace {
+class SliderData;
+}
+namespace GlobalNamespace {
+class ObstacleData;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteWasMissedEvent;
 }
 namespace GlobalNamespace {
-class SliderController;
+class ISliderDidDissolveEvent;
 }
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
-}
-namespace System {
-template <typename T> class Action_1;
+class __BeatmapObjectManager__NoteWasCutDelegate;
 }
 namespace GlobalNamespace {
 class NoteData;
 }
+namespace GlobalNamespace {
+class ObstacleController;
+}
+namespace GlobalNamespace {
+class ISliderDidFinishJumpEvent;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class IBeatmapObjectController;
+}
 namespace System {
-class Object;
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
-class IAsyncResult;
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -100,25 +100,25 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapObjectManager__NoteWasCutDelegate);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4715))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4836))
 // CS Name: ::BeatmapObjectManager::NoteWasCutDelegate*
 class CORDL_TYPE __BeatmapObjectManager__NoteWasCutDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__BeatmapObjectManager__NoteWasCutDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x237f4b0 size 0x130 virtual false final false
+  /// @brief Method .ctor addr 0x224aa3c size 0x130 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x237f5e0 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x224ab6c size 0x14 virtual true final false
   inline void Invoke(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method BeginInvoke addr 0x237f5f4 size 0x94 virtual true final false
+  /// @brief Method BeginInvoke addr 0x224ab80 size 0x94 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x237f688 size 0xc virtual true final false
+  /// @brief Method EndInvoke addr 0x224ac14 size 0xc virtual true final false
   inline void EndInvoke(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapObjectManager__NoteWasCutDelegate", modifiers: "&&", def_value: None }]
@@ -145,8 +145,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapObject
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4716))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4837))
 // CS Name: ::BeatmapObjectManager*
 class CORDL_TYPE BeatmapObjectManager : public ::System::Object {
 public:
@@ -344,94 +344,94 @@ public:
 
   constexpr void __set__spawnHidden_k__BackingField(bool value);
 
-  /// @brief Method add_noteWasAddedEvent addr 0x237d06c size 0xb0 virtual false final false
+  /// @brief Method add_noteWasAddedEvent addr 0x2248610 size 0xb0 virtual false final false
   inline void add_noteWasAddedEvent(::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, float_t>* value);
 
-  /// @brief Method remove_noteWasAddedEvent addr 0x237d11c size 0xb0 virtual false final false
+  /// @brief Method remove_noteWasAddedEvent addr 0x22486c0 size 0xb0 virtual false final false
   inline void remove_noteWasAddedEvent(::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, float_t>* value);
 
-  /// @brief Method add_noteWasSpawnedEvent addr 0x2376f48 size 0xb0 virtual false final false
+  /// @brief Method add_noteWasSpawnedEvent addr 0x2242840 size 0xb0 virtual false final false
   inline void add_noteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
 
-  /// @brief Method remove_noteWasSpawnedEvent addr 0x2377080 size 0xb0 virtual false final false
+  /// @brief Method remove_noteWasSpawnedEvent addr 0x2242978 size 0xb0 virtual false final false
   inline void remove_noteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
 
-  /// @brief Method add_noteWasDespawnedEvent addr 0x237d1cc size 0xb0 virtual false final false
+  /// @brief Method add_noteWasDespawnedEvent addr 0x2248770 size 0xb0 virtual false final false
   inline void add_noteWasDespawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
 
-  /// @brief Method remove_noteWasDespawnedEvent addr 0x237d27c size 0xb0 virtual false final false
+  /// @brief Method remove_noteWasDespawnedEvent addr 0x2248820 size 0xb0 virtual false final false
   inline void remove_noteWasDespawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
 
-  /// @brief Method add_noteWasMissedEvent addr 0x237d32c size 0xb0 virtual false final false
+  /// @brief Method add_noteWasMissedEvent addr 0x22488d0 size 0xb0 virtual false final false
   inline void add_noteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
 
-  /// @brief Method remove_noteWasMissedEvent addr 0x237d3dc size 0xb0 virtual false final false
+  /// @brief Method remove_noteWasMissedEvent addr 0x2248980 size 0xb0 virtual false final false
   inline void remove_noteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
 
-  /// @brief Method add_noteWasCutEvent addr 0x237d48c size 0x9c virtual false final false
+  /// @brief Method add_noteWasCutEvent addr 0x2248a30 size 0x9c virtual false final false
   inline void add_noteWasCutEvent(::GlobalNamespace::__BeatmapObjectManager__NoteWasCutDelegate* value);
 
-  /// @brief Method remove_noteWasCutEvent addr 0x237d528 size 0x9c virtual false final false
+  /// @brief Method remove_noteWasCutEvent addr 0x2248acc size 0x9c virtual false final false
   inline void remove_noteWasCutEvent(::GlobalNamespace::__BeatmapObjectManager__NoteWasCutDelegate* value);
 
-  /// @brief Method add_noteDidStartJumpEvent addr 0x237d5c4 size 0xb0 virtual false final false
+  /// @brief Method add_noteDidStartJumpEvent addr 0x2248b68 size 0xb0 virtual false final false
   inline void add_noteDidStartJumpEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
 
-  /// @brief Method remove_noteDidStartJumpEvent addr 0x237d674 size 0xb0 virtual false final false
+  /// @brief Method remove_noteDidStartJumpEvent addr 0x2248c18 size 0xb0 virtual false final false
   inline void remove_noteDidStartJumpEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
 
-  /// @brief Method add_obstacleWasAddedEvent addr 0x237d724 size 0xb0 virtual false final false
+  /// @brief Method add_obstacleWasAddedEvent addr 0x2248cc8 size 0xb0 virtual false final false
   inline void add_obstacleWasAddedEvent(::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, float_t>* value);
 
-  /// @brief Method remove_obstacleWasAddedEvent addr 0x237d7d4 size 0xb0 virtual false final false
+  /// @brief Method remove_obstacleWasAddedEvent addr 0x2248d78 size 0xb0 virtual false final false
   inline void remove_obstacleWasAddedEvent(::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, float_t>* value);
 
-  /// @brief Method add_obstacleWasSpawnedEvent addr 0x237d884 size 0xb0 virtual false final false
+  /// @brief Method add_obstacleWasSpawnedEvent addr 0x2248e28 size 0xb0 virtual false final false
   inline void add_obstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method remove_obstacleWasSpawnedEvent addr 0x237d934 size 0xb0 virtual false final false
+  /// @brief Method remove_obstacleWasSpawnedEvent addr 0x2248ed8 size 0xb0 virtual false final false
   inline void remove_obstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method add_obstacleWasDespawnedEvent addr 0x237d9e4 size 0xb0 virtual false final false
+  /// @brief Method add_obstacleWasDespawnedEvent addr 0x2248f88 size 0xb0 virtual false final false
   inline void add_obstacleWasDespawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method remove_obstacleWasDespawnedEvent addr 0x237da94 size 0xb0 virtual false final false
+  /// @brief Method remove_obstacleWasDespawnedEvent addr 0x2249038 size 0xb0 virtual false final false
   inline void remove_obstacleWasDespawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method add_obstacleDidPassThreeQuartersOfMove2Event addr 0x237db44 size 0xb0 virtual false final false
+  /// @brief Method add_obstacleDidPassThreeQuartersOfMove2Event addr 0x22490e8 size 0xb0 virtual false final false
   inline void add_obstacleDidPassThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method remove_obstacleDidPassThreeQuartersOfMove2Event addr 0x237dbf4 size 0xb0 virtual false final false
+  /// @brief Method remove_obstacleDidPassThreeQuartersOfMove2Event addr 0x2249198 size 0xb0 virtual false final false
   inline void remove_obstacleDidPassThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method add_obstacleDidPassAvoidedMarkEvent addr 0x237c56c size 0xb0 virtual false final false
+  /// @brief Method add_obstacleDidPassAvoidedMarkEvent addr 0x2247b10 size 0xb0 virtual false final false
   inline void add_obstacleDidPassAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method remove_obstacleDidPassAvoidedMarkEvent addr 0x237c808 size 0xb0 virtual false final false
+  /// @brief Method remove_obstacleDidPassAvoidedMarkEvent addr 0x2247dac size 0xb0 virtual false final false
   inline void remove_obstacleDidPassAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method add_sliderWasAddedEvent addr 0x237dca4 size 0xb0 virtual false final false
+  /// @brief Method add_sliderWasAddedEvent addr 0x2249248 size 0xb0 virtual false final false
   inline void add_sliderWasAddedEvent(::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, float_t>* value);
 
-  /// @brief Method remove_sliderWasAddedEvent addr 0x237dd54 size 0xb0 virtual false final false
+  /// @brief Method remove_sliderWasAddedEvent addr 0x22492f8 size 0xb0 virtual false final false
   inline void remove_sliderWasAddedEvent(::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, float_t>* value);
 
-  /// @brief Method add_sliderWasSpawnedEvent addr 0x237de04 size 0xb0 virtual false final false
+  /// @brief Method add_sliderWasSpawnedEvent addr 0x22493a8 size 0xb0 virtual false final false
   inline void add_sliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
 
-  /// @brief Method remove_sliderWasSpawnedEvent addr 0x237deb4 size 0xb0 virtual false final false
+  /// @brief Method remove_sliderWasSpawnedEvent addr 0x2249458 size 0xb0 virtual false final false
   inline void remove_sliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
 
-  /// @brief Method add_sliderWasDespawnedEvent addr 0x237df64 size 0xb0 virtual false final false
+  /// @brief Method add_sliderWasDespawnedEvent addr 0x2249508 size 0xb0 virtual false final false
   inline void add_sliderWasDespawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
 
-  /// @brief Method remove_sliderWasDespawnedEvent addr 0x237e014 size 0xb0 virtual false final false
+  /// @brief Method remove_sliderWasDespawnedEvent addr 0x22495b8 size 0xb0 virtual false final false
   inline void remove_sliderWasDespawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
 
-  /// @brief Method add_didHideAllBeatmapObjectsEvent addr 0x237e0c4 size 0xb0 virtual false final false
+  /// @brief Method add_didHideAllBeatmapObjectsEvent addr 0x2249668 size 0xb0 virtual false final false
   inline void add_didHideAllBeatmapObjectsEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_didHideAllBeatmapObjectsEvent addr 0x237e174 size 0xb0 virtual false final false
+  /// @brief Method remove_didHideAllBeatmapObjectsEvent addr 0x2249718 size 0xb0 virtual false final false
   inline void remove_didHideAllBeatmapObjectsEvent(::System::Action_1<bool>* value);
 
   /// @brief Method get_activeObstacleControllers addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -456,97 +456,97 @@ public:
   /// @brief Method DespawnInternal addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);
 
-  /// @brief Method get_spawnHidden addr 0x237e224 size 0x8 virtual false final false
+  /// @brief Method get_spawnHidden addr 0x22497c8 size 0x8 virtual false final false
   inline bool get_spawnHidden();
 
-  /// @brief Method set_spawnHidden addr 0x237e22c size 0xc virtual false final false
+  /// @brief Method set_spawnHidden addr 0x22497d0 size 0xc virtual false final false
   inline void set_spawnHidden(bool value);
 
-  /// @brief Method AddSpawnedObstacleController addr 0x2378068 size 0x198 virtual false final false
+  /// @brief Method AddSpawnedObstacleController addr 0x22438c0 size 0x198 virtual false final false
   inline void AddSpawnedObstacleController(::GlobalNamespace::ObstacleController* obstacleController, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData obstacleSpawnData,
                                            float_t rotation);
 
-  /// @brief Method AddSpawnedNoteController addr 0x2378900 size 0x1b8 virtual false final false
+  /// @brief Method AddSpawnedNoteController addr 0x2243ea8 size 0x1ac virtual false final false
   inline void AddSpawnedNoteController(::GlobalNamespace::NoteController* noteController, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData, float_t rotation);
 
-  /// @brief Method AddSpawnedSliderController addr 0x237978c size 0x1a0 virtual false final false
+  /// @brief Method AddSpawnedSliderController addr 0x2244d30 size 0x1a0 virtual false final false
   inline void AddSpawnedSliderController(::GlobalNamespace::SliderController* sliderController, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData sliderSpawnData, float_t rotation);
 
-  /// @brief Method SetNoteControllerEventCallbacks addr 0x237e398 size 0x28c virtual false final false
+  /// @brief Method SetNoteControllerEventCallbacks addr 0x224993c size 0x28c virtual false final false
   inline void SetNoteControllerEventCallbacks(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method RemoveNoteControllerEventCallbacks addr 0x237e760 size 0x2a0 virtual false final false
+  /// @brief Method RemoveNoteControllerEventCallbacks addr 0x2249cec size 0x2a0 virtual false final false
   inline void RemoveNoteControllerEventCallbacks(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method SetSliderNoteControllerEventCallbacks addr 0x237e63c size 0x124 virtual false final false
+  /// @brief Method SetSliderNoteControllerEventCallbacks addr 0x2249bc8 size 0x124 virtual false final false
   inline void SetSliderNoteControllerEventCallbacks(::GlobalNamespace::SliderController* sliderNoteController);
 
-  /// @brief Method RemoveSliderNoteControllerEventCallbacks addr 0x237ea00 size 0x12c virtual false final false
+  /// @brief Method RemoveSliderNoteControllerEventCallbacks addr 0x2249f8c size 0x12c virtual false final false
   inline void RemoveSliderNoteControllerEventCallbacks(::GlobalNamespace::SliderController* sliderNoteController);
 
-  /// @brief Method SetObstacleEventCallbacks addr 0x237e238 size 0x160 virtual false final false
+  /// @brief Method SetObstacleEventCallbacks addr 0x22497dc size 0x160 virtual false final false
   inline void SetObstacleEventCallbacks(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method RemoveObstacleEventCallbacks addr 0x237eb2c size 0x160 virtual false final false
+  /// @brief Method RemoveObstacleEventCallbacks addr 0x224a0b8 size 0x160 virtual false final false
   inline void RemoveObstacleEventCallbacks(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method Despawn addr 0x237ec8c size 0xa4 virtual false final false
+  /// @brief Method Despawn addr 0x224a218 size 0xa4 virtual false final false
   inline void Despawn(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method Despawn addr 0x237ed30 size 0xa4 virtual false final false
+  /// @brief Method Despawn addr 0x224a2bc size 0xa4 virtual false final false
   inline void Despawn(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method Despawn addr 0x237edd4 size 0xa4 virtual false final false
+  /// @brief Method Despawn addr 0x224a360 size 0xa4 virtual false final false
   inline void Despawn(::GlobalNamespace::SliderController* sliderNoteController);
 
-  /// @brief Method HandleNoteControllerNoteDidStartJump addr 0x237ee78 size 0x1c virtual true final true
+  /// @brief Method HandleNoteControllerNoteDidStartJump addr 0x224a404 size 0x1c virtual true final true
   inline void HandleNoteControllerNoteDidStartJump(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleNoteControllerNoteWasMissed addr 0x237ee94 size 0x1c virtual true final true
+  /// @brief Method HandleNoteControllerNoteWasMissed addr 0x224a420 size 0x1c virtual true final true
   inline void HandleNoteControllerNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleNoteControllerNoteDidFinishJump addr 0x237eeb0 size 0x4 virtual true final true
+  /// @brief Method HandleNoteControllerNoteDidFinishJump addr 0x224a43c size 0x4 virtual true final true
   inline void HandleNoteControllerNoteDidFinishJump(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleNoteControllerNoteDidDissolve addr 0x237eeb4 size 0x4 virtual true final true
+  /// @brief Method HandleNoteControllerNoteDidDissolve addr 0x224a440 size 0x4 virtual true final true
   inline void HandleNoteControllerNoteDidDissolve(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleNoteControllerNoteWasCut addr 0x237eeb8 size 0x40 virtual false final false
+  /// @brief Method HandleNoteControllerNoteWasCut addr 0x224a444 size 0x40 virtual false final false
   inline void HandleNoteControllerNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleObstaclePassedThreeQuartersOfMove2 addr 0x237eef8 size 0x1c virtual false final false
+  /// @brief Method HandleObstaclePassedThreeQuartersOfMove2 addr 0x224a484 size 0x1c virtual false final false
   inline void HandleObstaclePassedThreeQuartersOfMove2(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method HandleObstaclePassedAvoidedMark addr 0x237ef14 size 0x1c virtual false final false
+  /// @brief Method HandleObstaclePassedAvoidedMark addr 0x224a4a0 size 0x1c virtual false final false
   inline void HandleObstaclePassedAvoidedMark(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method HandleObstacleFinishedMovement addr 0x237ef30 size 0x4 virtual false final false
+  /// @brief Method HandleObstacleFinishedMovement addr 0x224a4bc size 0x4 virtual false final false
   inline void HandleObstacleFinishedMovement(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method HandleObstacleDidDissolve addr 0x237ef34 size 0x4 virtual false final false
+  /// @brief Method HandleObstacleDidDissolve addr 0x224a4c0 size 0x4 virtual false final false
   inline void HandleObstacleDidDissolve(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method HandleSliderDidFinishJump addr 0x237ef38 size 0x4 virtual true final true
+  /// @brief Method HandleSliderDidFinishJump addr 0x224a4c4 size 0x4 virtual true final true
   inline void HandleSliderDidFinishJump(::GlobalNamespace::SliderController* sliderController);
 
-  /// @brief Method HandleSliderDidDissolve addr 0x237ef3c size 0x4 virtual true final true
+  /// @brief Method HandleSliderDidDissolve addr 0x224a4c8 size 0x4 virtual true final true
   inline void HandleSliderDidDissolve(::GlobalNamespace::SliderController* sliderController);
 
-  /// @brief Method DissolveAllObjects addr 0x237ef40 size 0x1c4 virtual false final false
+  /// @brief Method DissolveAllObjects addr 0x224a4cc size 0x1c4 virtual false final false
   inline void DissolveAllObjects();
 
-  /// @brief Method HideAllBeatmapObjects addr 0x237f104 size 0x1f0 virtual false final false
+  /// @brief Method HideAllBeatmapObjects addr 0x224a690 size 0x1f0 virtual false final false
   inline void HideAllBeatmapObjects(bool hide);
 
-  /// @brief Method PauseAllBeatmapObjects addr 0x237f2f4 size 0x1b8 virtual false final false
+  /// @brief Method PauseAllBeatmapObjects addr 0x224a880 size 0x1b8 virtual false final false
   inline void PauseAllBeatmapObjects(bool pause);
 
   static inline ::GlobalNamespace::BeatmapObjectManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x23799cc size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x2244f70 size 0x7c virtual false final false
   inline void _ctor();
 
-  /// @brief Method INoteControllerNoteWasCutEvent.HandleNoteControllerNoteWasCut addr 0x237f4ac size 0x4 virtual true final true
+  /// @brief Method INoteControllerNoteWasCutEvent.HandleNoteControllerNoteWasCut addr 0x224aa38 size 0x4 virtual true final true
   inline void INoteControllerNoteWasCutEvent_HandleNoteControllerNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectManager", modifiers: "&&", def_value: None }]
@@ -618,6 +618,40 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapObjectManager, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectManager, ___noteWasAddedEvent) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectManager, ___noteWasSpawnedEvent) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectManager, ___noteWasDespawnedEvent) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectManager, ___noteWasMissedEvent) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectManager, ___noteWasCutEvent) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectManager, ___noteDidStartJumpEvent) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectManager, ___obstacleWasAddedEvent) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectManager, ___obstacleWasSpawnedEvent) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectManager, ___obstacleWasDespawnedEvent) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectManager, ___obstacleDidPassThreeQuartersOfMove2Event) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectManager, ___obstacleDidPassAvoidedMarkEvent) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectManager, ___sliderWasAddedEvent) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectManager, ___sliderWasSpawnedEvent) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectManager, ___sliderWasDespawnedEvent) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectManager, ___didHideAllBeatmapObjectsEvent) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectManager, ____allBeatmapObjects) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectManager, ____spawnHidden_k__BackingField) == 0x90, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapObjectManager);

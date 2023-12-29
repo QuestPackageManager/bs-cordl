@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SerializationInfo)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace System {
 class Type;
 }
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization {
 class IFormatterConverter;
+}
+namespace System {
+class Object;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfoEnumerator;
 }
 namespace System {
 struct DateTime;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationInfo);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 91, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3234))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3233))
 // CS Name: ::System.Runtime.Serialization::SerializationInfo*
 class CORDL_TYPE SerializationInfo : public ::System::Object {
 public:
@@ -165,115 +165,115 @@ public:
 
   static inline ::System::Runtime::Serialization::SerializationInfo* New_ctor(::System::Type* type, ::System::Runtime::Serialization::IFormatterConverter* converter);
 
-  /// @brief Method .ctor addr 0x24be0ac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x23655b8 size 0x8 virtual false final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::IFormatterConverter* converter);
 
   static inline ::System::Runtime::Serialization::SerializationInfo* New_ctor(::System::Type* type, ::System::Runtime::Serialization::IFormatterConverter* converter,
                                                                               bool requireSameTokenInPartialTrust);
 
-  /// @brief Method .ctor addr 0x24be0b4 size 0x1e0 virtual false final false
+  /// @brief Method .ctor addr 0x23655c0 size 0x1e0 virtual false final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::IFormatterConverter* converter, bool requireSameTokenInPartialTrust);
 
-  /// @brief Method get_FullTypeName addr 0x24be294 size 0x8 virtual false final false
+  /// @brief Method get_FullTypeName addr 0x23657a0 size 0x8 virtual false final false
   inline ::StringW get_FullTypeName();
 
-  /// @brief Method get_AssemblyName addr 0x24be29c size 0x8 virtual false final false
+  /// @brief Method get_AssemblyName addr 0x23657a8 size 0x8 virtual false final false
   inline ::StringW get_AssemblyName();
 
-  /// @brief Method SetType addr 0x24bd564 size 0x138 virtual false final false
+  /// @brief Method SetType addr 0x2364a70 size 0x138 virtual false final false
   inline void SetType(::System::Type* type);
 
-  /// @brief Method Compare addr 0x24be2a8 size 0x88 virtual false final false
+  /// @brief Method Compare addr 0x23657b4 size 0x88 virtual false final false
   static inline bool Compare(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-  /// @brief Method DemandForUnsafeAssemblyNameAssignments addr 0x24be2a4 size 0x4 virtual false final false
+  /// @brief Method DemandForUnsafeAssemblyNameAssignments addr 0x23657b0 size 0x4 virtual false final false
   static inline void DemandForUnsafeAssemblyNameAssignments(::StringW originalAssemblyName, ::StringW newAssemblyName);
 
-  /// @brief Method IsAssemblyNameAssignmentSafe addr 0x24be330 size 0x134 virtual false final false
+  /// @brief Method IsAssemblyNameAssignmentSafe addr 0x236583c size 0x134 virtual false final false
   static inline bool IsAssemblyNameAssignmentSafe(::StringW originalAssemblyName, ::StringW newAssemblyName);
 
-  /// @brief Method get_MemberCount addr 0x24be464 size 0x8 virtual false final false
+  /// @brief Method get_MemberCount addr 0x2365970 size 0x8 virtual false final false
   inline int32_t get_MemberCount();
 
-  /// @brief Method get_ObjectType addr 0x24be46c size 0x8 virtual false final false
+  /// @brief Method get_ObjectType addr 0x2365978 size 0x8 virtual false final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method get_IsFullTypeNameSetExplicit addr 0x24be474 size 0x8 virtual false final false
+  /// @brief Method get_IsFullTypeNameSetExplicit addr 0x2365980 size 0x8 virtual false final false
   inline bool get_IsFullTypeNameSetExplicit();
 
-  /// @brief Method get_IsAssemblyNameSetExplicit addr 0x24be47c size 0x8 virtual false final false
+  /// @brief Method get_IsAssemblyNameSetExplicit addr 0x2365988 size 0x8 virtual false final false
   inline bool get_IsAssemblyNameSetExplicit();
 
-  /// @brief Method GetEnumerator addr 0x24be484 size 0x94 virtual false final false
+  /// @brief Method GetEnumerator addr 0x2365990 size 0x94 virtual false final false
   inline ::System::Runtime::Serialization::SerializationInfoEnumerator* GetEnumerator();
 
-  /// @brief Method ExpandArrays addr 0x24be518 size 0x10c virtual false final false
+  /// @brief Method ExpandArrays addr 0x2365a24 size 0x10c virtual false final false
   inline void ExpandArrays();
 
-  /// @brief Method AddValue addr 0x24bd4e0 size 0x84 virtual false final false
+  /// @brief Method AddValue addr 0x23649ec size 0x84 virtual false final false
   inline void AddValue(::StringW name, ::System::Object* value, ::System::Type* type);
 
-  /// @brief Method AddValue addr 0x24be800 size 0xb8 virtual false final false
+  /// @brief Method AddValue addr 0x2365d0c size 0xb8 virtual false final false
   inline void AddValue(::StringW name, ::System::Object* value);
 
-  /// @brief Method AddValue addr 0x24be8b8 size 0xd4 virtual false final false
+  /// @brief Method AddValue addr 0x2365dc4 size 0xd4 virtual false final false
   inline void AddValue(::StringW name, bool value);
 
-  /// @brief Method AddValue addr 0x24be98c size 0xd4 virtual false final false
+  /// @brief Method AddValue addr 0x2365e98 size 0xd4 virtual false final false
   inline void AddValue(::StringW name, uint8_t value);
 
-  /// @brief Method AddValue addr 0x24bea60 size 0xd4 virtual false final false
+  /// @brief Method AddValue addr 0x2365f6c size 0xd4 virtual false final false
   inline void AddValue(::StringW name, int16_t value);
 
-  /// @brief Method AddValue addr 0x24beb34 size 0xd4 virtual false final false
+  /// @brief Method AddValue addr 0x2366040 size 0xd4 virtual false final false
   inline void AddValue(::StringW name, int32_t value);
 
-  /// @brief Method AddValue addr 0x24bec08 size 0xd4 virtual false final false
+  /// @brief Method AddValue addr 0x2366114 size 0xd4 virtual false final false
   inline void AddValue(::StringW name, int64_t value);
 
-  /// @brief Method AddValue addr 0x24becdc size 0xd4 virtual false final false
+  /// @brief Method AddValue addr 0x23661e8 size 0xd4 virtual false final false
   inline void AddValue(::StringW name, uint64_t value);
 
-  /// @brief Method AddValue addr 0x24bedb0 size 0xdc virtual false final false
+  /// @brief Method AddValue addr 0x23662bc size 0xdc virtual false final false
   inline void AddValue(::StringW name, float_t value);
 
-  /// @brief Method AddValue addr 0x24bee8c size 0xd4 virtual false final false
+  /// @brief Method AddValue addr 0x2366398 size 0xd4 virtual false final false
   inline void AddValue(::StringW name, ::System::DateTime value);
 
-  /// @brief Method AddValueInternal addr 0x24be624 size 0x1dc virtual false final false
+  /// @brief Method AddValueInternal addr 0x2365b30 size 0x1dc virtual false final false
   inline void AddValueInternal(::StringW name, ::System::Object* value, ::System::Type* type);
 
-  /// @brief Method UpdateValue addr 0x24ba924 size 0xe4 virtual false final false
+  /// @brief Method UpdateValue addr 0x2361e30 size 0xe4 virtual false final false
   inline void UpdateValue(::StringW name, ::System::Object* value, ::System::Type* type);
 
-  /// @brief Method FindElement addr 0x24bef60 size 0xc8 virtual false final false
+  /// @brief Method FindElement addr 0x236646c size 0xc8 virtual false final false
   inline int32_t FindElement(::StringW name);
 
-  /// @brief Method GetElement addr 0x24bf028 size 0x104 virtual false final false
+  /// @brief Method GetElement addr 0x2366534 size 0x104 virtual false final false
   inline ::System::Object* GetElement(::StringW name, ByRef<::System::Type*> foundType);
 
-  /// @brief Method GetElementNoThrow addr 0x24bf12c size 0x7c virtual false final false
+  /// @brief Method GetElementNoThrow addr 0x2366638 size 0x7c virtual false final false
   inline ::System::Object* GetElementNoThrow(::StringW name, ByRef<::System::Type*> foundType);
 
-  /// @brief Method GetValue addr 0x24bd148 size 0x214 virtual false final false
+  /// @brief Method GetValue addr 0x2364654 size 0x214 virtual false final false
   inline ::System::Object* GetValue(::StringW name, ::System::Type* type);
 
-  /// @brief Method GetValueNoThrow addr 0x24bd040 size 0x108 virtual false final false
+  /// @brief Method GetValueNoThrow addr 0x236454c size 0x108 virtual false final false
   inline ::System::Object* GetValueNoThrow(::StringW name, ::System::Type* type);
 
-  /// @brief Method GetBoolean addr 0x24bf1a8 size 0x180 virtual false final false
+  /// @brief Method GetBoolean addr 0x23666b4 size 0x180 virtual false final false
   inline bool GetBoolean(::StringW name);
 
-  /// @brief Method GetInt32 addr 0x24bf328 size 0x174 virtual false final false
+  /// @brief Method GetInt32 addr 0x2366834 size 0x174 virtual false final false
   inline int32_t GetInt32(::StringW name);
 
-  /// @brief Method GetInt64 addr 0x24bf49c size 0x174 virtual false final false
+  /// @brief Method GetInt64 addr 0x23669a8 size 0x174 virtual false final false
   inline int64_t GetInt64(::StringW name);
 
-  /// @brief Method GetSingle addr 0x24bf610 size 0x174 virtual false final false
+  /// @brief Method GetSingle addr 0x2366b1c size 0x174 virtual false final false
   inline float_t GetSingle(::StringW name);
 
-  /// @brief Method GetString addr 0x24bf784 size 0x16c virtual false final false
+  /// @brief Method GetString addr 0x2366c90 size 0x16c virtual false final false
   inline ::StringW GetString(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializationInfo", modifiers: "&&", def_value: None }]
@@ -339,6 +339,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::SerializationInfo, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfo, ___m_members) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfo, ___m_data) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfo, ___m_types) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfo, ___m_nameToIndex) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfo, ___m_currMember) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfo, ___m_converter) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfo, ___m_fullTypeName) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfo, ___m_assemName) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfo, ___objectType) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfo, ___isFullTypeNameSetExplicit) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfo, ___isAssemblyNameSetExplicit) == 0x59, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfo, ___requireSameTokenInPartialTrust) == 0x5a, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::SerializationInfo);

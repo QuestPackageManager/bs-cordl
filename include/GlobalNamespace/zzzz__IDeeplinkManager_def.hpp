@@ -3,11 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDeeplinkManager)
-namespace GlobalNamespace {
-class Deeplink;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class Deeplink;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IDeeplinkManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4147))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4181))
 // CS Name: ::IDeeplinkManager*
 class CORDL_TYPE IDeeplinkManager {
 public:

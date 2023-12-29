@@ -14,27 +14,27 @@ MARK_REF_PTR_T(::UnityEngine::UI::HorizontalLayoutGroup);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 99, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13083))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13082))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13088))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13087))
 // CS Name: ::UnityEngine.UI::HorizontalLayoutGroup*
 class CORDL_TYPE HorizontalLayoutGroup : public ::UnityEngine::UI::HorizontalOrVerticalLayoutGroup {
 public:
   // Declarations
   static inline ::UnityEngine::UI::HorizontalLayoutGroup* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d75fc0 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2c0dc10 size 0xc virtual false final false
   inline void _ctor();
 
-  /// @brief Method CalculateLayoutInputHorizontal addr 0x2d75fd8 size 0x20 virtual true final false
+  /// @brief Method CalculateLayoutInputHorizontal addr 0x2c0dc28 size 0x20 virtual true final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical addr 0x2d7629c size 0xc virtual true final false
+  /// @brief Method CalculateLayoutInputVertical addr 0x2c0deec size 0xc virtual true final false
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method SetLayoutHorizontal addr 0x2d762a8 size 0xc virtual true final false
+  /// @brief Method SetLayoutHorizontal addr 0x2c0def8 size 0xc virtual true final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical addr 0x2d76920 size 0xc virtual true final false
+  /// @brief Method SetLayoutVertical addr 0x2c0e570 size 0xc virtual true final false
   inline void SetLayoutVertical();
 
   // Ctor Parameters [CppParam { name: "", ty: "HorizontalLayoutGroup", modifiers: "&&", def_value: None }]

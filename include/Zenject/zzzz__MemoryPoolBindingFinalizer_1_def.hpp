@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ProviderBindingFinalizer_def.hpp"
 CORDL_MODULE_EXPORT(MemoryPoolBindingFinalizer_1)
 namespace Zenject {
-class DiContainer;
+class BindInfo;
 }
 namespace Zenject {
 class MemoryPoolBindInfo;
 }
 namespace Zenject {
-class BindInfo;
+class DiContainer;
 }
 namespace Zenject {
 class FactoryBindInfo;
@@ -28,8 +28,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10966))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10865))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10894))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10793))
 // CS Name: ::Zenject::MemoryPoolBindingFinalizer`1<TContract>*
 class CORDL_TYPE MemoryPoolBindingFinalizer_1 : public ::Zenject::ProviderBindingFinalizer {
 public:

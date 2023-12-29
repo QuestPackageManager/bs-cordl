@@ -16,7 +16,7 @@ MARK_VAL_T(::System::InputRecord);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2644))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2642))
 // CS Name: ::System::InputRecord
 struct CORDL_TYPE InputRecord {
 public:
@@ -66,6 +66,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::InputRecord, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::InputRecord, EventType) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::InputRecord, KeyDown) == 0x2, "Offset mismatch!");
+
+static_assert(offsetof(::System::InputRecord, RepeatCount) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::System::InputRecord, VirtualKeyCode) == 0x6, "Offset mismatch!");
+
+static_assert(offsetof(::System::InputRecord, VirtualScanCode) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::InputRecord, Character) == 0xa, "Offset mismatch!");
+
+static_assert(offsetof(::System::InputRecord, ControlKeyState) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::System::InputRecord, pad1) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::InputRecord, pad2) == 0x14, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::InputRecord, "System", "InputRecord");

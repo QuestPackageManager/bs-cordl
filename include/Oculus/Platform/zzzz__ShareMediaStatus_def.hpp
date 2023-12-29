@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::ShareMediaStatus);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13387))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13426))
 // CS Name: ::Oculus.Platform::ShareMediaStatus
 struct CORDL_TYPE ShareMediaStatus {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::ShareMediaStatus, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::ShareMediaStatus, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::ShareMediaStatus, "Oculus.Platform", "ShareMediaStatus");

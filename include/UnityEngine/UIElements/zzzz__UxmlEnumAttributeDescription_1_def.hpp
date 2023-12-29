@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UxmlEnumAttributeDescription_1)
 namespace UnityEngine::UIElements {
+class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class __UxmlEnumAttributeDescription_1____c;
-}
-namespace UnityEngine::UIElements {
-class IUxmlAttributes;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
@@ -35,8 +35,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6993))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7079))
 // CS Name: ::UxmlEnumAttributeDescription`1::<>c<T>*
 class CORDL_TYPE __UxmlEnumAttributeDescription_1____c : public ::System::Object {
 public:
@@ -97,8 +97,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 5215 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6994))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7068)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7068), inst: 5099 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7080))
 // CS Name: ::UnityEngine.UIElements::UxmlEnumAttributeDescription`1<T>*
 class CORDL_TYPE UxmlEnumAttributeDescription_1 : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T> {
 public:

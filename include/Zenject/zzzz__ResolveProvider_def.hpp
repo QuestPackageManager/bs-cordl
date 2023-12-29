@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__InjectSources_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(ResolveProvider)
+namespace System {
+class Action;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
 namespace Zenject {
 class DiContainer;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+struct InjectSources;
 }
 namespace Zenject {
 class InjectContext;
 }
-namespace Zenject {
-class IProvider;
-}
-namespace System {
-class Action;
-}
-namespace Zenject {
-struct InjectSources;
-}
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::Zenject::ResolveProvider);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15712))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11235))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15662)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11163))
 // CS Name: ::Zenject::ResolveProvider*
 class CORDL_TYPE ResolveProvider : public ::System::Object {
 public:
@@ -113,23 +113,23 @@ public:
   static inline ::Zenject::ResolveProvider* New_ctor(::System::Type* contractType, ::Zenject::DiContainer* container, ::System::Object* identifier, bool isOptional, ::Zenject::InjectSources source,
                                                      bool matchAll);
 
-  /// @brief Method .ctor addr 0x2f09df4 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x2da2024 size 0x5c virtual false final false
   inline void _ctor(::System::Type* contractType, ::Zenject::DiContainer* container, ::System::Object* identifier, bool isOptional, ::Zenject::InjectSources source, bool matchAll);
 
-  /// @brief Method get_IsCached addr 0x2f09e50 size 0x8 virtual true final true
+  /// @brief Method get_IsCached addr 0x2da2080 size 0x8 virtual true final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType addr 0x2f09e58 size 0x8 virtual true final true
+  /// @brief Method get_TypeVariesBasedOnMemberType addr 0x2da2088 size 0x8 virtual true final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType addr 0x2f09e60 size 0x8 virtual true final true
+  /// @brief Method GetInstanceType addr 0x2da2090 size 0x8 virtual true final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method GetAllInstancesWithInjectSplit addr 0x2f09e68 size 0x1a0 virtual true final true
+  /// @brief Method GetAllInstancesWithInjectSplit addr 0x2da2098 size 0x1a0 virtual true final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetSubContext addr 0x2f0a008 size 0x44 virtual false final false
+  /// @brief Method GetSubContext addr 0x2da2238 size 0x44 virtual false final false
   inline ::Zenject::InjectContext* GetSubContext(::Zenject::InjectContext* parent);
 
   // Ctor Parameters [CppParam { name: "", ty: "ResolveProvider", modifiers: "&&", def_value: None }]
@@ -168,6 +168,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::ResolveProvider, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::ResolveProvider, ____identifier) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::ResolveProvider, ____container) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::ResolveProvider, ____contractType) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::ResolveProvider, ____isOptional) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::ResolveProvider, ____source) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::ResolveProvider, ____matchAll) == 0x30, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::ResolveProvider);

@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ServerObjectTerminatorSin
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3188))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3187))
 // CS Name: ::System.Runtime.Remoting.Messaging::ServerObjectTerminatorSink*
 class CORDL_TYPE ServerObjectTerminatorSink : public ::System::Object {
 public:
@@ -43,13 +43,13 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink* New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
 
-  /// @brief Method .ctor addr 0x24b358c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x235aa98 size 0x28 virtual false final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
 
-  /// @brief Method SyncProcessMessage addr 0x24b35b4 size 0x174 virtual true final true
+  /// @brief Method SyncProcessMessage addr 0x235aac0 size 0x174 virtual true final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method AsyncProcessMessage addr 0x24b3728 size 0x1cc virtual true final true
+  /// @brief Method AsyncProcessMessage addr 0x235ac34 size 0x1cc virtual true final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
@@ -74,6 +74,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink, ____nextSink) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink);

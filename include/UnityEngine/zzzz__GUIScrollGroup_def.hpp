@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::GUIScrollGroup);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14622))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14623))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14839))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14840))
 // CS Name: ::UnityEngine::GUIScrollGroup*
 class CORDL_TYPE GUIScrollGroup : public ::UnityEngine::GUILayoutGroup {
 public:
@@ -134,19 +134,19 @@ public:
 
   static inline ::UnityEngine::GUIScrollGroup* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d0c040 size 0x60 virtual false final false
+  /// @brief Method .ctor addr 0x2ba4c30 size 0x60 virtual false final false
   inline void _ctor();
 
-  /// @brief Method CalcWidth addr 0x2d0c0a0 size 0x80 virtual true final false
+  /// @brief Method CalcWidth addr 0x2ba4c90 size 0x80 virtual true final false
   inline void CalcWidth();
 
-  /// @brief Method SetHorizontal addr 0x2d0c120 size 0x12c virtual true final false
+  /// @brief Method SetHorizontal addr 0x2ba4d10 size 0x12c virtual true final false
   inline void SetHorizontal(float_t x, float_t width);
 
-  /// @brief Method CalcHeight addr 0x2d0c330 size 0x100 virtual true final false
+  /// @brief Method CalcHeight addr 0x2ba4f20 size 0x100 virtual true final false
   inline void CalcHeight();
 
-  /// @brief Method SetVertical addr 0x2d0c46c size 0x218 virtual true final false
+  /// @brief Method SetVertical addr 0x2ba505c size 0x218 virtual true final false
   inline void SetVertical(float_t y, float_t height);
 
   // Ctor Parameters [CppParam { name: "", ty: "GUIScrollGroup", modifiers: "&&", def_value: None }]
@@ -203,6 +203,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::GUIScrollGroup, 0xc0>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUIScrollGroup, ___calcMinWidth) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUIScrollGroup, ___calcMaxWidth) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUIScrollGroup, ___calcMinHeight) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUIScrollGroup, ___calcMaxHeight) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUIScrollGroup, ___clientWidth) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUIScrollGroup, ___clientHeight) == 0xa4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUIScrollGroup, ___allowHorizontalScroll) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUIScrollGroup, ___allowVerticalScroll) == 0xa9, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUIScrollGroup, ___needsHorizontalScrollbar) == 0xaa, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUIScrollGroup, ___needsVerticalScrollbar) == 0xab, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUIScrollGroup, ___horizontalScrollbar) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUIScrollGroup, ___verticalScrollbar) == 0xb8, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::GUIScrollGroup);

@@ -22,8 +22,8 @@ MARK_VAL_T(::OVR::OpenVR::VROverlayIntersectionParams_t);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8647)), TypeDefinitionIndex(TypeDefinitionIndex(8586))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8706))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9416)), TypeDefinitionIndex(TypeDefinitionIndex(9355))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9475))
 // CS Name: ::OVR.OpenVR::VROverlayIntersectionParams_t
 struct CORDL_TYPE VROverlayIntersectionParams_t {
 public:
@@ -52,6 +52,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VROverlayIntersectionParams_t, 0x1c>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VROverlayIntersectionParams_t, vSource) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VROverlayIntersectionParams_t, vDirection) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VROverlayIntersectionParams_t, eOrigin) == 0x18, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VROverlayIntersectionParams_t, "OVR.OpenVR", "VROverlayIntersectionParams_t");

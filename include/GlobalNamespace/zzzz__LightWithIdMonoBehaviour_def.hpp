@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(LightWithIdMonoBehaviour)
 namespace GlobalNamespace {
 class ILightWithId;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class LightWithIdManager;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightWithIdMonoBehaviour);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14542))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14760))
 // CS Name: ::LightWithIdMonoBehaviour*
 class CORDL_TYPE LightWithIdMonoBehaviour : public ::UnityEngine::MonoBehaviour {
 public:
@@ -64,39 +64,39 @@ public:
 
   constexpr void __set__isRegistered(bool value);
 
-  /// @brief Method get_lightId addr 0x2111000 size 0x8 virtual true final true
+  /// @brief Method get_lightId addr 0x1fbb5dc size 0x8 virtual true final true
   inline int32_t get_lightId();
 
-  /// @brief Method get_isRegistered addr 0x2111008 size 0x8 virtual true final true
+  /// @brief Method get_isRegistered addr 0x1fbb5e4 size 0x8 virtual true final true
   inline bool get_isRegistered();
 
-  /// @brief Method __SetIsRegistered addr 0x2111010 size 0xc virtual true final true
+  /// @brief Method __SetIsRegistered addr 0x1fbb5ec size 0xc virtual true final true
   inline void __SetIsRegistered();
 
-  /// @brief Method __SetIsUnRegistered addr 0x211101c size 0x8 virtual true final true
+  /// @brief Method __SetIsUnRegistered addr 0x1fbb5f8 size 0x8 virtual true final true
   inline void __SetIsUnRegistered();
 
   /// @brief Method ColorWasSet addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method OnEnable addr 0x2111024 size 0x4 virtual true final false
+  /// @brief Method OnEnable addr 0x1fbb600 size 0x4 virtual true final false
   inline void OnEnable();
 
-  /// @brief Method Start addr 0x21110ac size 0x4 virtual true final false
+  /// @brief Method Start addr 0x1fbb688 size 0x4 virtual true final false
   inline void Start();
 
-  /// @brief Method OnDisable addr 0x21110b0 size 0x84 virtual true final false
+  /// @brief Method OnDisable addr 0x1fbb68c size 0x84 virtual true final false
   inline void OnDisable();
 
-  /// @brief Method RegisterLight addr 0x2111028 size 0x84 virtual false final false
+  /// @brief Method RegisterLight addr 0x1fbb604 size 0x84 virtual false final false
   inline void RegisterLight();
 
-  /// @brief Method SetLightId addr 0x2111134 size 0xa8 virtual false final false
+  /// @brief Method SetLightId addr 0x1fbb710 size 0xa8 virtual false final false
   inline void SetLightId(int32_t newLightId);
 
   static inline ::GlobalNamespace::LightWithIdMonoBehaviour* New_ctor();
 
-  /// @brief Method .ctor addr 0x210e898 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x1fb93b4 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightWithIdMonoBehaviour", modifiers: "&&", def_value: None }]
@@ -126,6 +126,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightWithIdMonoBehaviour, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightWithIdMonoBehaviour, ____ID) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightWithIdMonoBehaviour, ____lightManager) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightWithIdMonoBehaviour, ____isRegistered) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightWithIdMonoBehaviour);

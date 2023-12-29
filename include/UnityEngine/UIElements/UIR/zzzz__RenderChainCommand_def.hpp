@@ -16,23 +16,23 @@ struct RectInt;
 namespace UnityEngine::UIElements::UIR {
 class MeshHandle;
 }
-namespace System {
-class Action;
-}
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
 struct Rect;
 }
-namespace System {
-class Exception;
+namespace UnityEngine::UIElements::UIR {
+class DrawParams;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
-namespace UnityEngine::UIElements::UIR {
-class DrawParams;
+namespace System {
+class Action;
+}
+namespace System {
+class Exception;
 }
 namespace UnityEngine {
 class Texture;
@@ -47,9 +47,9 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::RenderChainCommand);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7399)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(7442)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7441)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 383 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7444)) CS
-// Name: ::UnityEngine.UIElements.UIR::RenderChainCommand*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7485), inst: 379 }), TypeDefinitionIndex(TypeDefinitionIndex(7528)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7527)), TypeDefinitionIndex(TypeDefinitionIndex(9894)), TypeDefinitionIndex(TypeDefinitionIndex(7485))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7530))
+// CS Name: ::UnityEngine.UIElements.UIR::RenderChainCommand*
 class CORDL_TYPE RenderChainCommand : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::RenderChainCommand*> {
 public:
   // Declarations
@@ -157,24 +157,24 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ImmediateOverheadMarker();
 
-  /// @brief Method Reset addr 0x2dd54f8 size 0x24 virtual false final false
+  /// @brief Method Reset addr 0x2c6f148 size 0x24 virtual false final false
   inline void Reset();
 
-  /// @brief Method ExecuteNonDrawMesh addr 0x2dd3c84 size 0xbbc virtual false final false
+  /// @brief Method ExecuteNonDrawMesh addr 0x2c6d8d4 size 0xbbc virtual false final false
   inline void ExecuteNonDrawMesh(::UnityEngine::UIElements::UIR::DrawParams* drawParams, float_t pixelsPerPoint, ByRef<::System::Exception*> immediateException);
 
-  /// @brief Method Blit addr 0x2dd5ad8 size 0x170 virtual false final false
+  /// @brief Method Blit addr 0x2c6f728 size 0x170 virtual false final false
   inline void Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* destination, float_t depth);
 
-  /// @brief Method CombineScissorRects addr 0x2dd5920 size 0x1b8 virtual false final false
+  /// @brief Method CombineScissorRects addr 0x2c6f570 size 0x1b8 virtual false final false
   static inline ::UnityEngine::Rect CombineScissorRects(::UnityEngine::Rect r0, ::UnityEngine::Rect r1);
 
-  /// @brief Method RectPointsToPixelsAndFlipYAxis addr 0x2dd551c size 0x404 virtual false final false
+  /// @brief Method RectPointsToPixelsAndFlipYAxis addr 0x2c6f16c size 0x404 virtual false final false
   static inline ::UnityEngine::RectInt RectPointsToPixelsAndFlipYAxis(::UnityEngine::Rect rect, float_t pixelsPerPoint);
 
   static inline ::UnityEngine::UIElements::UIR::RenderChainCommand* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dd5c48 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2c6f898 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderChainCommand", modifiers: "&&", def_value: None }]
@@ -225,6 +225,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::RenderChainCommand, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___owner) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___prev) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___next) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___closing) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___type) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___state) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___mesh) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___indexOffset) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___indexCount) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___callback) == 0x68, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::RenderChainCommand);

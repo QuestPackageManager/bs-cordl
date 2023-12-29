@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::XmlStandalone);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11494))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11422))
 // CS Name: ::System.Xml::XmlStandalone
 struct CORDL_TYPE XmlStandalone {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlStandalone, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlStandalone, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlStandalone, "System.Xml", "XmlStandalone");

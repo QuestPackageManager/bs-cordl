@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SliderMeshConstructor)
-namespace UnityEngine {
-class MeshFilter;
-}
-namespace UnityEngine {
-class Mesh;
-}
 namespace GlobalNamespace {
 class VertexPath;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+class MeshFilter;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderMeshConstructor);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4821))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4941))
 // CS Name: ::SliderMeshConstructor*
 class CORDL_TYPE SliderMeshConstructor : public ::UnityEngine::MonoBehaviour {
 public:
@@ -93,13 +93,13 @@ public:
 
   constexpr void __set__mesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method get_mesh addr 0x23944f8 size 0x8 virtual false final false
+  /// @brief Method get_mesh addr 0x225fb20 size 0x8 virtual false final false
   inline ::UnityEngine::Mesh* get_mesh();
 
-  /// @brief Method CreateMeshIfNonExisting addr 0x2394500 size 0xb8 virtual false final false
+  /// @brief Method CreateMeshIfNonExisting addr 0x225fb28 size 0xb8 virtual false final false
   inline void CreateMeshIfNonExisting();
 
-  /// @brief Method CreateSliderMesh addr 0x23945b8 size 0x190 virtual false final false
+  /// @brief Method CreateSliderMesh addr 0x225fbe0 size 0x190 virtual false final false
   inline void CreateSliderMesh(::GlobalNamespace::VertexPath* path);
 
   /// @brief Method CreateSliderMeshInternal addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -113,7 +113,7 @@ public:
 
   static inline ::GlobalNamespace::SliderMeshConstructor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2394748 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x225fd70 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderMeshConstructor", modifiers: "&&", def_value: None }]
@@ -152,6 +152,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderMeshConstructor, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ____meshFilter) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ___reusableVerts) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ___reusableUvs) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ___reusableNormals) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ___reusableTriangles) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ____mesh) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SliderMeshConstructor);

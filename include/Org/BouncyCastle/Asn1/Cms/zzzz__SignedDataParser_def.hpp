@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SignedDataParser)
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfoParser;
-}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1SequenceParser;
+class Asn1SetParser;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1SetParser;
+class Asn1SequenceParser;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfoParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::SignedDataParser);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(94))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::SignedDataParser*
 class CORDL_TYPE SignedDataParser : public ::System::Object {
@@ -82,30 +82,30 @@ public:
 
   constexpr void __set__crlsCalled(bool value);
 
-  /// @brief Method GetInstance addr 0xe7ed10 size 0x19c virtual false final false
+  /// @brief Method GetInstance addr 0xe09b3c size 0x19c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cms::SignedDataParser* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::SignedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method .ctor addr 0xe7eeac size 0x124 virtual false final false
+  /// @brief Method .ctor addr 0xe09cd8 size 0x124 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_Version addr 0xe7efd0 size 0x8 virtual false final false
+  /// @brief Method get_Version addr 0xe09dfc size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method GetDigestAlgorithms addr 0xe7efd8 size 0xdc virtual false final false
+  /// @brief Method GetDigestAlgorithms addr 0xe09e04 size 0xdc virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetDigestAlgorithms();
 
-  /// @brief Method GetEncapContentInfo addr 0xe7f0b4 size 0x108 virtual false final false
+  /// @brief Method GetEncapContentInfo addr 0xe09ee0 size 0x108 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* GetEncapContentInfo();
 
-  /// @brief Method GetCertificates addr 0xe7f1bc size 0x258 virtual false final false
+  /// @brief Method GetCertificates addr 0xe09fe8 size 0x258 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetCertificates();
 
-  /// @brief Method GetCrls addr 0xe7f414 size 0x2b8 virtual false final false
+  /// @brief Method GetCrls addr 0xe0a240 size 0x2b8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetCrls();
 
-  /// @brief Method GetSignerInfos addr 0xe7f6cc size 0x1148 virtual false final false
+  /// @brief Method GetSignerInfos addr 0xe0a4f8 size 0x1148 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetSignerInfos();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignedDataParser", modifiers: "&&", def_value: None }]
@@ -141,6 +141,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::SignedDataParser, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::SignedDataParser, ____seq) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::SignedDataParser, ____version) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::SignedDataParser, ____nextObject) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::SignedDataParser, ____certsCalled) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::SignedDataParser, ____crlsCalled) == 0x29, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::SignedDataParser);

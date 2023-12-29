@@ -5,11 +5,11 @@
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__Plane_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchCullingContext_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/zzzz__Plane_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "UnityEngine/Rendering/zzzz__BatchVisibility_def.hpp"
 #include "UnityEngine/Rendering/zzzz__LODParameters_def.hpp"
+#include "UnityEngine/zzzz__Plane_def.hpp"
+#include "UnityEngine/Rendering/zzzz__BatchVisibility_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::BatchCullingContext._ctor
 template <>
 
@@ -17,9 +17,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Unity::Collections::NativeArray_1<::UnityEngine::Plane>, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchVisibility>, ::Unity::Collections::NativeArray_1<int32_t>,
     ::Unity::Collections::NativeArray_1<int32_t>, ::UnityEngine::Rendering::LODParameters, ::UnityEngine::Matrix4x4, float_t)>(&::UnityEngine::Rendering::BatchCullingContext::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2ceec9c;
+  constexpr static std::size_t addrs = 0x2b87868;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::BatchCullingContext>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<::UnityEngine::Plane>>::get(),

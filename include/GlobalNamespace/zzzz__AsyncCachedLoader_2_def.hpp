@@ -12,40 +12,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncCachedLoader_2)
 namespace GlobalNamespace {
-template <typename K, typename V> class HMCache_2;
-}
-namespace GlobalNamespace {
 template <typename TKey, typename TValue> struct __AsyncCachedLoader_2___LoadAsync_d__7;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
-template <typename TKey, typename TValue> struct __AsyncCachedLoader_2__ScheduledTask;
+template <typename K, typename V> class HMCache_2;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace GlobalNamespace {
+template <typename TKey, typename TValue> struct __AsyncCachedLoader_2__ScheduledTask;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
 template <typename TKey, typename TValue> struct __AsyncCachedLoader_2___LoadAllAsync_d__8;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -74,8 +74,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5906))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2675))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5997))
 // CS Name: ::AsyncCachedLoader`2::ScheduledTask<TKey,TValue>
 struct CORDL_TYPE __AsyncCachedLoader_2__ScheduledTask {
 public:
@@ -115,8 +115,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 864
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 864 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5907)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(2675)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 850
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 850 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5998)) CS
 // Name: ::AsyncCachedLoader`2::<LoadAsync>d__7<TKey,TValue>
 struct CORDL_TYPE __AsyncCachedLoader_2___LoadAsync_d__7 {
 public:
@@ -173,9 +173,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(5906)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5056
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5906), inst: 84 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5908)) CS
-// Name: ::AsyncCachedLoader`2::<LoadAllAsync>d__8<TKey,TValue>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5997)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5997), inst: 90 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 4949 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(5999)) CS Name: ::AsyncCachedLoader`2::<LoadAllAsync>d__8<TKey,TValue>
 struct CORDL_TYPE __AsyncCachedLoader_2___LoadAllAsync_d__8 {
 public:
   // Declarations
@@ -229,8 +229,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5909))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6000))
 // CS Name: ::AsyncCachedLoader`2<TKey,TValue>*
 class CORDL_TYPE AsyncCachedLoader_2 : public ::System::Object {
 public:

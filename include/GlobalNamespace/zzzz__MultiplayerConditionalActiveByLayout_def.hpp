@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerConditionalActiveByLayout)
 namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
-}
-namespace GlobalNamespace {
 struct MultiplayerPlayerLayout;
 }
 namespace GlobalNamespace {
 struct __MultiplayerConditionalActiveByLayout__Condition;
+}
+namespace GlobalNamespace {
+class MultiplayerLayoutProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConditionalActiveByLayout);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5195))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5299))
 // CS Name: ::MultiplayerConditionalActiveByLayout::Condition
 struct CORDL_TYPE __MultiplayerConditionalActiveByLayout__Condition {
 public:
@@ -74,13 +74,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MultiplayerConditionalActiveByLayout
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5195)), TypeDefinitionIndex(TypeDefinitionIndex(5233))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5196))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5299)), TypeDefinitionIndex(TypeDefinitionIndex(5327)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5300))
 // CS Name: ::MultiplayerConditionalActiveByLayout*
 class CORDL_TYPE MultiplayerConditionalActiveByLayout : public ::UnityEngine::MonoBehaviour {
 public:
@@ -114,15 +116,15 @@ public:
 
   constexpr void __set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
 
-  /// @brief Method Start addr 0x22462a4 size 0xa0 virtual false final false
+  /// @brief Method Start addr 0x2105180 size 0xa0 virtual false final false
   inline void Start();
 
-  /// @brief Method HandlePlayersLayoutWasCalculated addr 0x2246344 size 0x58 virtual false final false
+  /// @brief Method HandlePlayersLayoutWasCalculated addr 0x2105220 size 0x58 virtual false final false
   inline void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int32_t playersCount);
 
   static inline ::GlobalNamespace::MultiplayerConditionalActiveByLayout* New_ctor();
 
-  /// @brief Method .ctor addr 0x224639c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2105278 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConditionalActiveByLayout", modifiers: "&&", def_value: None }]
@@ -152,6 +154,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConditionalActiveByLayout, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerConditionalActiveByLayout, ____condition) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerConditionalActiveByLayout, ____layout) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerConditionalActiveByLayout, ____layoutProvider) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition, "", "MultiplayerConditionalActiveByLayout/Condition");

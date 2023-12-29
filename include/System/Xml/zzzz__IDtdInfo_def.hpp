@@ -8,10 +8,10 @@ namespace System::Xml {
 class IDtdAttributeListInfo;
 }
 namespace System::Xml {
-class IDtdEntityInfo;
+class XmlQualifiedName;
 }
 namespace System::Xml {
-class XmlQualifiedName;
+class IDtdEntityInfo;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Xml::IDtdInfo);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11421))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11349))
 // CS Name: ::System.Xml::IDtdInfo*
 class CORDL_TYPE IDtdInfo {
 public:

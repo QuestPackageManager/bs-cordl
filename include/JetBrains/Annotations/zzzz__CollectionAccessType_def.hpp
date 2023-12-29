@@ -16,7 +16,7 @@ MARK_VAL_T(::JetBrains::Annotations::CollectionAccessType);
 namespace JetBrains::Annotations {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15784))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15734))
 // CS Name: ::JetBrains.Annotations::CollectionAccessType
 struct CORDL_TYPE CollectionAccessType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::CollectionAccessType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::CollectionAccessType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::CollectionAccessType, "JetBrains.Annotations", "CollectionAccessType");

@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(PopoSigningKey)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class PopoSigningKeyInput;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -76,31 +76,31 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe87d7c size 0x208 virtual false final false
+  /// @brief Method .ctor addr 0xe12ba8 size 0x208 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe8810c size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xe12f38 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance addr 0xe88294 size 0x18 virtual false final false
+  /// @brief Method GetInstance addr 0xe130c0 size 0x18 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* New_ctor(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* poposkIn, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* aid,
                                                                           ::Org::BouncyCastle::Asn1::DerBitString* signature);
 
-  /// @brief Method .ctor addr 0xe882ac size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0xe130d8 size 0x3c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* poposkIn, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* aid, ::Org::BouncyCastle::Asn1::DerBitString* signature);
 
-  /// @brief Method get_PoposkInput addr 0xe882e8 size 0x8 virtual true final false
+  /// @brief Method get_PoposkInput addr 0xe13114 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* get_PoposkInput();
 
-  /// @brief Method get_AlgorithmIdentifier addr 0xe882f0 size 0x8 virtual true final false
+  /// @brief Method get_AlgorithmIdentifier addr 0xe1311c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmIdentifier();
 
-  /// @brief Method get_Signature addr 0xe882f8 size 0x8 virtual true final false
+  /// @brief Method get_Signature addr 0xe13124 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_Signature();
 
-  /// @brief Method ToAsn1Object addr 0xe88300 size 0xc8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe1312c size 0xc8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PopoSigningKey", modifiers: "&&", def_value: None }]
@@ -130,6 +130,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey, ___poposkInput) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey, ___algorithmIdentifier) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey, ___signature) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey);

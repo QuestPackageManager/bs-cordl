@@ -13,11 +13,11 @@ class OVRMixedRealityCaptureConfiguration;
 namespace GlobalNamespace {
 struct __OVRManager__TrackingOrigin;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace GlobalNamespace {
 class OVRComposition;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 class Camera;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRMixedReality);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7651))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8541))
 // CS Name: ::OVRMixedReality*
 class CORDL_TYPE OVRMixedReality : public ::System::Object {
 public:
@@ -87,14 +87,14 @@ public:
 
   static inline ::GlobalNamespace::OVRComposition* getStaticF_currentComposition();
 
-  /// @brief Method Update addr 0x2744d3c size 0x4e0 virtual false final false
+  /// @brief Method Update addr 0x25e4f10 size 0x4e0 virtual false final false
   static inline void Update(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration,
-                            ::GlobalNamespace::__OVRManager__TrackingOrigin trackingOrigin);
+                            ::GlobalNamespace::__OVRManager__TrackingOrigin trackingOrigin, float_t displayFrequency);
 
-  /// @brief Method Cleanup addr 0x274521c size 0xe8 virtual false final false
+  /// @brief Method Cleanup addr 0x25e56c8 size 0xe0 virtual false final false
   static inline void Cleanup();
 
-  /// @brief Method RecenterPose addr 0x2745c04 size 0x94 virtual false final false
+  /// @brief Method RecenterPose addr 0x25e587c size 0x94 virtual false final false
   static inline void RecenterPose();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRMixedReality", modifiers: "&&", def_value: None }]

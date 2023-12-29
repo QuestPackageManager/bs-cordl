@@ -15,38 +15,86 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputActionMap)
-namespace UnityEngine::InputSystem {
-struct __InputAction__CallbackContext;
-}
-namespace UnityEngine::InputSystem {
-class InputActionState;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine::InputSystem {
-class InputActionAsset;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
+namespace System {
+struct Guid;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionMap__WriteMapJson;
+struct __InputActionMap__WriteFileJson;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__BindingJson;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionRebindingExtensions__ParameterOverride;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__ReadMapJson;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__WriteActionJson;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::InputSystem {
+class IInputActionCollection2;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__BindingOverrideJson;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine::InputSystem {
+class IInputActionCollection;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace UnityEngine::InputSystem {
+class InputActionState;
+}
+namespace UnityEngine::InputSystem {
+class InputActionAsset;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
+}
+namespace UnityEngine::InputSystem {
+struct __InputAction__CallbackContext;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__Flags;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__ReadFileJson;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__BindingOverrideListJson;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
 namespace UnityEngine::InputSystem {
-struct __InputActionMap__WriteFileJson;
+class InputDevice;
 }
 namespace System {
-struct Guid;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__WriteActionJson;
+class Object;
 }
 namespace UnityEngine::InputSystem {
 struct InputControlScheme;
@@ -55,70 +103,22 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionMap__BindingOverrideJson;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionRebindingExtensions__ParameterOverride;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__ReadFileJson;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__Flags;
-}
-namespace UnityEngine::InputSystem {
-class IInputActionCollection2;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__ReadMapJson;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__BindingJson;
-}
-namespace UnityEngine::InputSystem {
-class IInputActionCollection;
+struct __InputActionMap__ReadActionJson;
 }
 namespace UnityEngine::InputSystem {
 struct __InputActionMap__DeviceArray;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionMap__ReadActionJson;
-}
-namespace UnityEngine::InputSystem {
-struct InputBinding;
-}
-namespace UnityEngine::InputSystem {
 class InputAction;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class Object;
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 namespace System {
 class ICloneable;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionMap__BindingOverrideListJson;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
+struct __InputActionMap__WriteMapJson;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -178,7 +178,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::__InputActionMap__WriteMapJson);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6141))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6227))
 // CS Name: ::InputActionMap::Flags
 struct CORDL_TYPE __InputActionMap__Flags {
 public:
@@ -228,27 +228,29 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionMap__Flags, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__Flags, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: ::DeviceArray
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6142))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6228))
 // CS Name: ::InputActionMap::DeviceArray
 struct CORDL_TYPE __InputActionMap__DeviceArray {
 public:
   // Declarations
-  /// @brief Method IndexOf addr 0x2a3db38 size 0x5c virtual false final false
+  /// @brief Method IndexOf addr 0x28bedf0 size 0x5c virtual false final false
   inline int32_t IndexOf(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Remove addr 0x2a3db94 size 0x74 virtual false final false
+  /// @brief Method Remove addr 0x28bee4c size 0x74 virtual false final false
   inline bool Remove(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Get addr 0x2a380d4 size 0xa8 virtual false final false
+  /// @brief Method Get addr 0x28b938c size 0xa8 virtual false final false
   inline ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>> Get();
 
-  /// @brief Method Set addr 0x2a381c0 size 0x17c virtual false final false
+  /// @brief Method Set addr 0x28b9478 size 0x17c virtual false final false
   inline bool Set(::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>> devices);
 
   // Ctor Parameters [CppParam { name: "m_HaveValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_DeviceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
@@ -277,13 +279,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionMap__DeviceArray, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__DeviceArray, m_HaveValue) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__DeviceArray, m_DeviceCount) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__DeviceArray, m_DeviceArray) == 0x8, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: ::BindingOverrideListJson
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6143))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6229))
 // CS Name: ::InputActionMap::BindingOverrideListJson
 struct CORDL_TYPE __InputActionMap__BindingOverrideListJson {
 public:
@@ -306,18 +314,20 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionMap__BindingOverrideListJson, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__BindingOverrideListJson, bindings) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: ::BindingOverrideJson
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6144))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6230))
 // CS Name: ::InputActionMap::BindingOverrideJson
 struct CORDL_TYPE __InputActionMap__BindingOverrideJson {
 public:
   // Declarations
-  /// @brief Method FromBinding addr 0x2a3dc08 size 0x20 virtual false final false
+  /// @brief Method FromBinding addr 0x28beec0 size 0x20 virtual false final false
   static inline ::UnityEngine::InputSystem::__InputActionMap__BindingOverrideJson FromBinding(::UnityEngine::InputSystem::InputBinding binding);
 
   // Ctor Parameters [CppParam { name: "action", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "path",
@@ -352,21 +362,31 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionMap__BindingOverrideJson, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__BindingOverrideJson, action) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__BindingOverrideJson, id) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__BindingOverrideJson, path) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__BindingOverrideJson, interactions) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__BindingOverrideJson, processors) == 0x20, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: ::BindingJson
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 74, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6145))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6231))
 // CS Name: ::InputActionMap::BindingJson
 struct CORDL_TYPE __InputActionMap__BindingJson {
 public:
   // Declarations
-  /// @brief Method ToBinding addr 0x2a3dc28 size 0x118 virtual false final false
+  /// @brief Method ToBinding addr 0x28beee0 size 0x118 virtual false final false
   inline ::UnityEngine::InputSystem::InputBinding ToBinding();
 
-  /// @brief Method FromBinding addr 0x2a3dd40 size 0x90 virtual false final false
+  /// @brief Method FromBinding addr 0x28beff8 size 0x90 virtual false final false
   static inline ::UnityEngine::InputSystem::__InputActionMap__BindingJson FromBinding(ByRef<::UnityEngine::InputSystem::InputBinding> binding);
 
   // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "path", ty:
@@ -415,18 +435,36 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionMap__BindingJson, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__BindingJson, name) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__BindingJson, id) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__BindingJson, path) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__BindingJson, interactions) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__BindingJson, processors) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__BindingJson, groups) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__BindingJson, action) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__BindingJson, isComposite) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__BindingJson, isPartOfComposite) == 0x39, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: ::ReadActionJson
 // SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6146))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6232))
 // CS Name: ::InputActionMap::ReadActionJson
 struct CORDL_TYPE __InputActionMap__ReadActionJson {
 public:
   // Declarations
-  /// @brief Method ToAction addr 0x2a3ddd0 size 0x25c virtual false final false
+  /// @brief Method ToAction addr 0x28bf088 size 0x25c virtual false final false
   inline ::UnityEngine::InputSystem::InputAction* ToAction(::StringW actionName);
 
   // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "id", ty:
@@ -480,18 +518,38 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionMap__ReadActionJson, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__ReadActionJson, name) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__ReadActionJson, type) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__ReadActionJson, id) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__ReadActionJson, expectedControlType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__ReadActionJson, expectedControlLayout) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__ReadActionJson, processors) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__ReadActionJson, interactions) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__ReadActionJson, passThrough) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__ReadActionJson, initialStateCheck) == 0x39, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__ReadActionJson, bindings) == 0x40, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: ::WriteActionJson
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6147))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6233))
 // CS Name: ::InputActionMap::WriteActionJson
 struct CORDL_TYPE __InputActionMap__WriteActionJson {
 public:
   // Declarations
-  /// @brief Method FromAction addr 0x2a3e02c size 0xbc virtual false final false
+  /// @brief Method FromAction addr 0x28bf2e4 size 0xbc virtual false final false
   static inline ::UnityEngine::InputSystem::__InputActionMap__WriteActionJson FromAction(::UnityEngine::InputSystem::InputAction* action);
 
   // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "id", ty:
@@ -534,13 +592,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionMap__WriteActionJson, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__WriteActionJson, name) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__WriteActionJson, type) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__WriteActionJson, id) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__WriteActionJson, expectedControlType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__WriteActionJson, processors) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__WriteActionJson, interactions) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__WriteActionJson, initialStateCheck) == 0x30, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: ::ReadMapJson
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6148))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6234))
 // CS Name: ::InputActionMap::ReadMapJson
 struct CORDL_TYPE __InputActionMap__ReadMapJson {
 public:
@@ -576,18 +648,26 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionMap__ReadMapJson, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__ReadMapJson, name) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__ReadMapJson, id) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__ReadMapJson, actions) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__ReadMapJson, bindings) == 0x18, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: ::WriteMapJson
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6149))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6235))
 // CS Name: ::InputActionMap::WriteMapJson
 struct CORDL_TYPE __InputActionMap__WriteMapJson {
 public:
   // Declarations
-  /// @brief Method FromMap addr 0x2a3e0e8 size 0x1f0 virtual false final false
+  /// @brief Method FromMap addr 0x28bf3a0 size 0x1f0 virtual false final false
   static inline ::UnityEngine::InputSystem::__InputActionMap__WriteMapJson FromMap(::UnityEngine::InputSystem::InputActionMap* map);
 
   // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "actions",
@@ -621,21 +701,29 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionMap__WriteMapJson, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__WriteMapJson, name) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__WriteMapJson, id) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__WriteMapJson, actions) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__WriteMapJson, bindings) == 0x18, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: ::WriteFileJson
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6150))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6236))
 // CS Name: ::InputActionMap::WriteFileJson
 struct CORDL_TYPE __InputActionMap__WriteFileJson {
 public:
   // Declarations
-  /// @brief Method FromMap addr 0x2a3da44 size 0x8c virtual false final false
+  /// @brief Method FromMap addr 0x28becfc size 0x8c virtual false final false
   static inline ::UnityEngine::InputSystem::__InputActionMap__WriteFileJson FromMap(::UnityEngine::InputSystem::InputActionMap* map);
 
-  /// @brief Method FromMaps addr 0x2a38790 size 0x388 virtual false final false
+  /// @brief Method FromMaps addr 0x28b9a48 size 0x388 virtual false final false
   static inline ::UnityEngine::InputSystem::__InputActionMap__WriteFileJson FromMaps(::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputActionMap*>* maps);
 
   // Ctor Parameters [CppParam { name: "maps", ty: "::ArrayW<::UnityEngine::InputSystem::__InputActionMap__WriteMapJson,::Array<::UnityEngine::InputSystem::__InputActionMap__WriteMapJson>*>",
@@ -657,18 +745,20 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionMap__WriteFileJson, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__WriteFileJson, maps) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: ::ReadFileJson
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6151))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6237))
 // CS Name: ::InputActionMap::ReadFileJson
 struct CORDL_TYPE __InputActionMap__ReadFileJson {
 public:
   // Declarations
-  /// @brief Method ToMaps addr 0x2a3a2e4 size 0xfb0 virtual false final false
+  /// @brief Method ToMaps addr 0x28bb59c size 0xfb0 virtual false final false
   inline ::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*> ToMaps();
 
   // Ctor Parameters [CppParam { name: "actions", ty: "::ArrayW<::UnityEngine::InputSystem::__InputActionMap__ReadActionJson,::Array<::UnityEngine::InputSystem::__InputActionMap__ReadActionJson>*>",
@@ -695,15 +785,20 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputActionMap__ReadFileJson, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__ReadFileJson, actions) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputActionMap__ReadFileJson, maps) == 0x8, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: UnityEngine.InputSystem::InputActionMap
 // SizeInfo { instance_size: 320, native_size: -1, calculated_instance_size: 320, calculated_native_size: 320, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6187)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 989 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(2323), inst: 424 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6142)), TypeDefinitionIndex(TypeDefinitionIndex(2323)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(6133)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 3105 }), TypeDefinitionIndex(TypeDefinitionIndex(6141))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6152)) CS Name: ::UnityEngine.InputSystem::InputActionMap*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2323)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 3041 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6228)), TypeDefinitionIndex(TypeDefinitionIndex(6273)), TypeDefinitionIndex(TypeDefinitionIndex(6227)), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6746), inst: 975 }), TypeDefinitionIndex(TypeDefinitionIndex(6219)), TypeDefinitionIndex(TypeDefinitionIndex(6746)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2446)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 421 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6238)) CS
+// Name: ::UnityEngine.InputSystem::InputActionMap*
 class CORDL_TYPE InputActionMap : public ::System::Object {
 public:
   // Declarations
@@ -961,188 +1056,188 @@ public:
 
   static inline int32_t getStaticF_s_DeferBindingResolution();
 
-  /// @brief Method get_name addr 0x2a3b710 size 0x8 virtual false final false
+  /// @brief Method get_name addr 0x28bc9c8 size 0x8 virtual false final false
   inline ::StringW get_name();
 
-  /// @brief Method get_asset addr 0x2a3b718 size 0x8 virtual false final false
+  /// @brief Method get_asset addr 0x28bc9d0 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::InputActionAsset* get_asset();
 
-  /// @brief Method get_id addr 0x2a3b720 size 0x64 virtual false final false
+  /// @brief Method get_id addr 0x28bc9d8 size 0x64 virtual false final false
   inline ::System::Guid get_id();
 
-  /// @brief Method get_idDontGenerate addr 0x2a39208 size 0x48 virtual false final false
+  /// @brief Method get_idDontGenerate addr 0x28ba4c0 size 0x48 virtual false final false
   inline ::System::Guid get_idDontGenerate();
 
-  /// @brief Method get_enabled addr 0x2a37df8 size 0x10 virtual false final false
+  /// @brief Method get_enabled addr 0x28b90b0 size 0x10 virtual false final false
   inline bool get_enabled();
 
-  /// @brief Method get_actions addr 0x2a3b660 size 0x60 virtual false final false
+  /// @brief Method get_actions addr 0x28bc918 size 0x60 virtual false final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputAction*> get_actions();
 
-  /// @brief Method get_bindings addr 0x2a3b7b8 size 0x60 virtual false final false
+  /// @brief Method get_bindings addr 0x28bca70 size 0x60 virtual false final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputBinding> get_bindings();
 
-  /// @brief Method UnityEngine.InputSystem.IInputActionCollection2.get_bindings addr 0x2a3b818 size 0x64 virtual true final true
+  /// @brief Method UnityEngine.InputSystem.IInputActionCollection2.get_bindings addr 0x28bcad0 size 0x64 virtual true final true
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>* UnityEngine_InputSystem_IInputActionCollection2_get_bindings();
 
-  /// @brief Method get_controlSchemes addr 0x2a3b87c size 0x84 virtual true final true
+  /// @brief Method get_controlSchemes addr 0x28bcb34 size 0x84 virtual true final true
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControlScheme> get_controlSchemes();
 
-  /// @brief Method get_bindingMask addr 0x2a3b900 size 0x10 virtual true final true
+  /// @brief Method get_bindingMask addr 0x28bcbb8 size 0x10 virtual true final true
   inline ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> get_bindingMask();
 
-  /// @brief Method set_bindingMask addr 0x2a3b910 size 0x13c virtual true final true
+  /// @brief Method set_bindingMask addr 0x28bcbc8 size 0x13c virtual true final true
   inline void set_bindingMask(::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> value);
 
-  /// @brief Method get_devices addr 0x2a36f44 size 0xe0 virtual true final true
+  /// @brief Method get_devices addr 0x28b81fc size 0xe0 virtual true final true
   inline ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>> get_devices();
 
-  /// @brief Method set_devices addr 0x2a3ba4c size 0x44 virtual true final true
+  /// @brief Method set_devices addr 0x28bcd04 size 0x44 virtual true final true
   inline void set_devices(::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>> value);
 
-  /// @brief Method get_Item addr 0x2a3ba90 size 0xe8 virtual false final false
+  /// @brief Method get_Item addr 0x28bcd48 size 0xe8 virtual false final false
   inline ::UnityEngine::InputSystem::InputAction* get_Item(::StringW actionNameOrId);
 
-  /// @brief Method add_actionTriggered addr 0x2a3bb78 size 0x58 virtual false final false
+  /// @brief Method add_actionTriggered addr 0x28bce30 size 0x58 virtual false final false
   inline void add_actionTriggered(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
 
-  /// @brief Method remove_actionTriggered addr 0x2a3bbd0 size 0x58 virtual false final false
+  /// @brief Method remove_actionTriggered addr 0x28bce88 size 0x58 virtual false final false
   inline void remove_actionTriggered(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
 
   static inline ::UnityEngine::InputSystem::InputActionMap* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a36e00 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x28b80b8 size 0x10 virtual false final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::InputActionMap* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x2a3bc28 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x28bcee0 size 0x30 virtual false final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method Dispose addr 0x2a3bc58 size 0x14 virtual true final true
+  /// @brief Method Dispose addr 0x28bcf10 size 0x14 virtual true final true
   inline void Dispose();
 
-  /// @brief Method FindActionIndex addr 0x2a3bc6c size 0x204 virtual false final false
+  /// @brief Method FindActionIndex addr 0x28bcf24 size 0x204 virtual false final false
   inline int32_t FindActionIndex(::StringW nameOrId);
 
-  /// @brief Method SetUpActionLookupTable addr 0x2a3be70 size 0x120 virtual false final false
+  /// @brief Method SetUpActionLookupTable addr 0x28bd128 size 0x120 virtual false final false
   inline void SetUpActionLookupTable();
 
-  /// @brief Method ClearActionLookupTable addr 0x2a3bf90 size 0x58 virtual false final false
+  /// @brief Method ClearActionLookupTable addr 0x28bd248 size 0x58 virtual false final false
   inline void ClearActionLookupTable();
 
-  /// @brief Method FindActionIndex addr 0x2a3bfe8 size 0x94 virtual false final false
+  /// @brief Method FindActionIndex addr 0x28bd2a0 size 0x94 virtual false final false
   inline int32_t FindActionIndex(::System::Guid id);
 
-  /// @brief Method FindAction addr 0x2a38d54 size 0x11c virtual true final true
+  /// @brief Method FindAction addr 0x28ba00c size 0x11c virtual true final true
   inline ::UnityEngine::InputSystem::InputAction* FindAction(::StringW actionNameOrId, bool throwIfNotFound);
 
-  /// @brief Method FindAction addr 0x2a39358 size 0x48 virtual false final false
+  /// @brief Method FindAction addr 0x28ba610 size 0x48 virtual false final false
   inline ::UnityEngine::InputSystem::InputAction* FindAction(::System::Guid id);
 
-  /// @brief Method IsUsableWithDevice addr 0x2a39720 size 0x118 virtual false final false
+  /// @brief Method IsUsableWithDevice addr 0x28ba9d8 size 0x118 virtual false final false
   inline bool IsUsableWithDevice(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Enable addr 0x2a39998 size 0x4c virtual true final true
+  /// @brief Method Enable addr 0x28bac50 size 0x4c virtual true final true
   inline void Enable();
 
-  /// @brief Method Disable addr 0x2a39b44 size 0x34 virtual true final true
+  /// @brief Method Disable addr 0x28badfc size 0x34 virtual true final true
   inline void Disable();
 
-  /// @brief Method Clone addr 0x2a3c07c size 0x21c virtual false final false
+  /// @brief Method Clone addr 0x28bd334 size 0x21c virtual false final false
   inline ::UnityEngine::InputSystem::InputActionMap* Clone();
 
-  /// @brief Method System.ICloneable.Clone addr 0x2a3c298 size 0x4 virtual true final true
+  /// @brief Method System.ICloneable.Clone addr 0x28bd550 size 0x4 virtual true final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Contains addr 0x2a3c29c size 0x2c virtual true final true
+  /// @brief Method Contains addr 0x28bd554 size 0x2c virtual true final true
   inline bool Contains(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method ToString addr 0x2a3c2c8 size 0xc8 virtual true final false
+  /// @brief Method ToString addr 0x28bd580 size 0xc8 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method GetEnumerator addr 0x2a3c390 size 0xa0 virtual true final true
+  /// @brief Method GetEnumerator addr 0x28bd648 size 0xa0 virtual true final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2a3c430 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x28bd6e8 size 0x4 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method get_needToResolveBindings addr 0x2a3c434 size 0xc virtual false final false
+  /// @brief Method get_needToResolveBindings addr 0x28bd6ec size 0xc virtual false final false
   inline bool get_needToResolveBindings();
 
-  /// @brief Method set_needToResolveBindings addr 0x2a3c440 size 0x1c virtual false final false
+  /// @brief Method set_needToResolveBindings addr 0x28bd6f8 size 0x1c virtual false final false
   inline void set_needToResolveBindings(bool value);
 
-  /// @brief Method get_bindingResolutionNeedsFullReResolve addr 0x2a3c45c size 0xc virtual false final false
+  /// @brief Method get_bindingResolutionNeedsFullReResolve addr 0x28bd714 size 0xc virtual false final false
   inline bool get_bindingResolutionNeedsFullReResolve();
 
-  /// @brief Method set_bindingResolutionNeedsFullReResolve addr 0x2a3c468 size 0x1c virtual false final false
+  /// @brief Method set_bindingResolutionNeedsFullReResolve addr 0x28bd720 size 0x1c virtual false final false
   inline void set_bindingResolutionNeedsFullReResolve(bool value);
 
-  /// @brief Method get_controlsForEachActionInitialized addr 0x2a3c484 size 0xc virtual false final false
+  /// @brief Method get_controlsForEachActionInitialized addr 0x28bd73c size 0xc virtual false final false
   inline bool get_controlsForEachActionInitialized();
 
-  /// @brief Method set_controlsForEachActionInitialized addr 0x2a3c490 size 0x1c virtual false final false
+  /// @brief Method set_controlsForEachActionInitialized addr 0x28bd748 size 0x1c virtual false final false
   inline void set_controlsForEachActionInitialized(bool value);
 
-  /// @brief Method get_bindingsForEachActionInitialized addr 0x2a3c4ac size 0xc virtual false final false
+  /// @brief Method get_bindingsForEachActionInitialized addr 0x28bd764 size 0xc virtual false final false
   inline bool get_bindingsForEachActionInitialized();
 
-  /// @brief Method set_bindingsForEachActionInitialized addr 0x2a3c4b8 size 0x1c virtual false final false
+  /// @brief Method set_bindingsForEachActionInitialized addr 0x28bd770 size 0x1c virtual false final false
   inline void set_bindingsForEachActionInitialized(bool value);
 
-  /// @brief Method GetBindingsForSingleAction addr 0x2a35c8c size 0x80 virtual false final false
+  /// @brief Method GetBindingsForSingleAction addr 0x28b6f44 size 0x80 virtual false final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputBinding> GetBindingsForSingleAction(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method GetControlsForSingleAction addr 0x2a35d84 size 0x80 virtual false final false
+  /// @brief Method GetControlsForSingleAction addr 0x28b703c size 0x80 virtual false final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControl*> GetControlsForSingleAction(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method SetUpPerActionControlAndBindingArrays addr 0x2a3c4d4 size 0x5f0 virtual false final false
+  /// @brief Method SetUpPerActionControlAndBindingArrays addr 0x28bd78c size 0x5f0 virtual false final false
   inline void SetUpPerActionControlAndBindingArrays();
 
-  /// @brief Method OnWantToChangeSetup addr 0x2a39d1c size 0x29c virtual false final false
+  /// @brief Method OnWantToChangeSetup addr 0x28bafd4 size 0x29c virtual false final false
   inline void OnWantToChangeSetup();
 
-  /// @brief Method OnSetupChanged addr 0x2a3a03c size 0x1d8 virtual false final false
+  /// @brief Method OnSetupChanged addr 0x28bb2f4 size 0x1d8 virtual false final false
   inline void OnSetupChanged();
 
-  /// @brief Method OnBindingModified addr 0x2a3caec size 0x1c virtual false final false
+  /// @brief Method OnBindingModified addr 0x28bdda4 size 0x1c virtual false final false
   inline void OnBindingModified();
 
-  /// @brief Method ClearCachedActionData addr 0x2a3cac4 size 0x28 virtual false final false
+  /// @brief Method ClearCachedActionData addr 0x28bdd7c size 0x28 virtual false final false
   inline void ClearCachedActionData(bool onlyControls);
 
-  /// @brief Method GenerateId addr 0x2a3b784 size 0x34 virtual false final false
+  /// @brief Method GenerateId addr 0x28bca3c size 0x34 virtual false final false
   inline void GenerateId();
 
-  /// @brief Method LazyResolveBindings addr 0x2a35bb8 size 0xa4 virtual false final false
+  /// @brief Method LazyResolveBindings addr 0x28b6e70 size 0xa4 virtual false final false
   inline bool LazyResolveBindings(bool fullResolve);
 
-  /// @brief Method ResolveBindingsIfNecessary addr 0x2a35d50 size 0x34 virtual false final false
+  /// @brief Method ResolveBindingsIfNecessary addr 0x28b7008 size 0x34 virtual false final false
   inline bool ResolveBindingsIfNecessary();
 
-  /// @brief Method ResolveBindings addr 0x2a3cb08 size 0xbc8 virtual false final false
+  /// @brief Method ResolveBindings addr 0x28bddc0 size 0xbc8 virtual false final false
   inline void ResolveBindings();
 
-  /// @brief Method FindBinding addr 0x2a38f5c size 0xe0 virtual true final true
+  /// @brief Method FindBinding addr 0x28ba214 size 0xe0 virtual true final true
   inline int32_t FindBinding(::UnityEngine::InputSystem::InputBinding mask, ByRef<::UnityEngine::InputSystem::InputAction*> action);
 
-  /// @brief Method FindBindingRelativeToMap addr 0x2a3d7b0 size 0xb8 virtual false final false
+  /// @brief Method FindBindingRelativeToMap addr 0x28bea68 size 0xb8 virtual false final false
   inline int32_t FindBindingRelativeToMap(::UnityEngine::InputSystem::InputBinding mask);
 
-  /// @brief Method FromJson addr 0x2a3d868 size 0xb4 virtual false final false
+  /// @brief Method FromJson addr 0x28beb20 size 0xb4 virtual false final false
   static inline ::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*> FromJson(::StringW json);
 
-  /// @brief Method ToJson addr 0x2a3d91c size 0xb8 virtual false final false
+  /// @brief Method ToJson addr 0x28bebd4 size 0xb8 virtual false final false
   static inline ::StringW ToJson(::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputActionMap*>* maps);
 
-  /// @brief Method ToJson addr 0x2a3d9d4 size 0x70 virtual false final false
+  /// @brief Method ToJson addr 0x28bec8c size 0x70 virtual false final false
   inline ::StringW ToJson();
 
-  /// @brief Method OnBeforeSerialize addr 0x2a3dad0 size 0x4 virtual true final true
+  /// @brief Method OnBeforeSerialize addr 0x28bed88 size 0x4 virtual true final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method OnAfterDeserialize addr 0x2a3dad4 size 0x64 virtual true final true
+  /// @brief Method OnAfterDeserialize addr 0x28bed8c size 0x64 virtual true final true
   inline void OnAfterDeserialize();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputActionMap", modifiers: "&&", def_value: None }]
@@ -1218,6 +1313,42 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputActionMap, 0x140>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_Name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_Id) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_Asset) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_Actions) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_Bindings) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_BindingsForEachAction) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_ControlsForEachAction) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_EnabledActionsCount) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_SingletonAction) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_MapIndexInState) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_State) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_BindingMask) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_Flags) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_ParameterOverridesCount) == 0xcc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_ParameterOverrides) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_Devices) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_ActionCallbacks) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap, ___m_ActionIndexByNameOrId) == 0x138, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::__InputActionMap__Flags, "UnityEngine.InputSystem", "InputActionMap/Flags");

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Users::InputUserPairingOptions);
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6367))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6453))
 // CS Name: ::UnityEngine.InputSystem.Users::InputUserPairingOptions
 struct CORDL_TYPE InputUserPairingOptions {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Users::InputUserPairingOptions, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::InputUserPairingOptions, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Users
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Users::InputUserPairingOptions, "UnityEngine.InputSystem.Users", "InputUserPairingOptions");

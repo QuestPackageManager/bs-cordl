@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IHealthCheckService);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12797))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12714))
 // CS Name: ::IHealthCheckService*
 class CORDL_TYPE IHealthCheckService {
 public:

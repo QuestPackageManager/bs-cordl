@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::HttpStatusCode);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9027))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7864))
 // CS Name: ::System.Net::HttpStatusCode
 struct CORDL_TYPE HttpStatusCode {
 public:
@@ -313,6 +313,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::HttpStatusCode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::HttpStatusCode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpStatusCode, "System.Net", "HttpStatusCode");

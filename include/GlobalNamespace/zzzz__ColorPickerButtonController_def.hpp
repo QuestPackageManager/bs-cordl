@@ -8,10 +8,10 @@ namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine::UI {
-class Image;
+class Button;
 }
 namespace UnityEngine::UI {
-class Button;
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorPickerButtonController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16144))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5514))
 // CS Name: ::ColorPickerButtonController*
 class CORDL_TYPE ColorPickerButtonController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -49,15 +49,15 @@ public:
 
   constexpr void __set__colorImage(::UnityEngine::UI::Image* value);
 
-  /// @brief Method get_button addr 0x23e4268 size 0x8 virtual false final false
+  /// @brief Method get_button addr 0x2135084 size 0x8 virtual false final false
   inline ::UnityEngine::UI::Button* get_button();
 
-  /// @brief Method SetColor addr 0x23e4270 size 0x28 virtual false final false
+  /// @brief Method SetColor addr 0x213508c size 0x28 virtual false final false
   inline void SetColor(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::ColorPickerButtonController* New_ctor();
 
-  /// @brief Method .ctor addr 0x23e4298 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21350b4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorPickerButtonController", modifiers: "&&", def_value: None }]
@@ -84,6 +84,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorPickerButtonController, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorPickerButtonController, ____button) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorPickerButtonController, ____colorImage) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorPickerButtonController);

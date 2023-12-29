@@ -18,7 +18,7 @@ MARK_VAL_T(::UnityEngine::TextCore::FaceInfo);
 namespace UnityEngine::TextCore {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15526))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15510))
 // CS Name: ::UnityEngine.TextCore::FaceInfo
 struct CORDL_TYPE FaceInfo {
 public:
@@ -63,118 +63,118 @@ public:
 
   __declspec(property(get = get_tabWidth, put = set_tabWidth)) float_t tabWidth;
 
-  /// @brief Method get_faceIndex addr 0x2d20488 size 0x8 virtual false final false
+  /// @brief Method get_faceIndex addr 0x2bb90d8 size 0x8 virtual false final false
   inline int32_t get_faceIndex();
 
-  /// @brief Method get_familyName addr 0x2d20490 size 0x8 virtual false final false
+  /// @brief Method get_familyName addr 0x2bb90e0 size 0x8 virtual false final false
   inline ::StringW get_familyName();
 
-  /// @brief Method set_familyName addr 0x2d20498 size 0x8 virtual false final false
+  /// @brief Method set_familyName addr 0x2bb90e8 size 0x8 virtual false final false
   inline void set_familyName(::StringW value);
 
-  /// @brief Method get_styleName addr 0x2d204a0 size 0x8 virtual false final false
+  /// @brief Method get_styleName addr 0x2bb90f0 size 0x8 virtual false final false
   inline ::StringW get_styleName();
 
-  /// @brief Method set_styleName addr 0x2d204a8 size 0x8 virtual false final false
+  /// @brief Method set_styleName addr 0x2bb90f8 size 0x8 virtual false final false
   inline void set_styleName(::StringW value);
 
-  /// @brief Method get_pointSize addr 0x2d204b0 size 0x8 virtual false final false
+  /// @brief Method get_pointSize addr 0x2bb9100 size 0x8 virtual false final false
   inline int32_t get_pointSize();
 
-  /// @brief Method set_pointSize addr 0x2d204b8 size 0x8 virtual false final false
+  /// @brief Method set_pointSize addr 0x2bb9108 size 0x8 virtual false final false
   inline void set_pointSize(int32_t value);
 
-  /// @brief Method get_scale addr 0x2d204c0 size 0x8 virtual false final false
+  /// @brief Method get_scale addr 0x2bb9110 size 0x8 virtual false final false
   inline float_t get_scale();
 
-  /// @brief Method set_scale addr 0x2d204c8 size 0x8 virtual false final false
+  /// @brief Method set_scale addr 0x2bb9118 size 0x8 virtual false final false
   inline void set_scale(float_t value);
 
-  /// @brief Method get_lineHeight addr 0x2d204d0 size 0x8 virtual false final false
+  /// @brief Method get_lineHeight addr 0x2bb9120 size 0x8 virtual false final false
   inline float_t get_lineHeight();
 
-  /// @brief Method set_lineHeight addr 0x2d204d8 size 0x8 virtual false final false
+  /// @brief Method set_lineHeight addr 0x2bb9128 size 0x8 virtual false final false
   inline void set_lineHeight(float_t value);
 
-  /// @brief Method get_ascentLine addr 0x2d204e0 size 0x8 virtual false final false
+  /// @brief Method get_ascentLine addr 0x2bb9130 size 0x8 virtual false final false
   inline float_t get_ascentLine();
 
-  /// @brief Method set_ascentLine addr 0x2d204e8 size 0x8 virtual false final false
+  /// @brief Method set_ascentLine addr 0x2bb9138 size 0x8 virtual false final false
   inline void set_ascentLine(float_t value);
 
-  /// @brief Method get_capLine addr 0x2d204f0 size 0x8 virtual false final false
+  /// @brief Method get_capLine addr 0x2bb9140 size 0x8 virtual false final false
   inline float_t get_capLine();
 
-  /// @brief Method set_capLine addr 0x2d204f8 size 0x8 virtual false final false
+  /// @brief Method set_capLine addr 0x2bb9148 size 0x8 virtual false final false
   inline void set_capLine(float_t value);
 
-  /// @brief Method get_meanLine addr 0x2d20500 size 0x8 virtual false final false
+  /// @brief Method get_meanLine addr 0x2bb9150 size 0x8 virtual false final false
   inline float_t get_meanLine();
 
-  /// @brief Method set_meanLine addr 0x2d20508 size 0x8 virtual false final false
+  /// @brief Method set_meanLine addr 0x2bb9158 size 0x8 virtual false final false
   inline void set_meanLine(float_t value);
 
-  /// @brief Method get_baseline addr 0x2d20510 size 0x8 virtual false final false
+  /// @brief Method get_baseline addr 0x2bb9160 size 0x8 virtual false final false
   inline float_t get_baseline();
 
-  /// @brief Method set_baseline addr 0x2d20518 size 0x8 virtual false final false
+  /// @brief Method set_baseline addr 0x2bb9168 size 0x8 virtual false final false
   inline void set_baseline(float_t value);
 
-  /// @brief Method get_descentLine addr 0x2d20520 size 0x8 virtual false final false
+  /// @brief Method get_descentLine addr 0x2bb9170 size 0x8 virtual false final false
   inline float_t get_descentLine();
 
-  /// @brief Method set_descentLine addr 0x2d20528 size 0x8 virtual false final false
+  /// @brief Method set_descentLine addr 0x2bb9178 size 0x8 virtual false final false
   inline void set_descentLine(float_t value);
 
-  /// @brief Method get_superscriptOffset addr 0x2d20530 size 0x8 virtual false final false
+  /// @brief Method get_superscriptOffset addr 0x2bb9180 size 0x8 virtual false final false
   inline float_t get_superscriptOffset();
 
-  /// @brief Method set_superscriptOffset addr 0x2d20538 size 0x8 virtual false final false
+  /// @brief Method set_superscriptOffset addr 0x2bb9188 size 0x8 virtual false final false
   inline void set_superscriptOffset(float_t value);
 
-  /// @brief Method get_superscriptSize addr 0x2d20540 size 0x8 virtual false final false
+  /// @brief Method get_superscriptSize addr 0x2bb9190 size 0x8 virtual false final false
   inline float_t get_superscriptSize();
 
-  /// @brief Method set_superscriptSize addr 0x2d20548 size 0x8 virtual false final false
+  /// @brief Method set_superscriptSize addr 0x2bb9198 size 0x8 virtual false final false
   inline void set_superscriptSize(float_t value);
 
-  /// @brief Method get_subscriptOffset addr 0x2d20550 size 0x8 virtual false final false
+  /// @brief Method get_subscriptOffset addr 0x2bb91a0 size 0x8 virtual false final false
   inline float_t get_subscriptOffset();
 
-  /// @brief Method set_subscriptOffset addr 0x2d20558 size 0x8 virtual false final false
+  /// @brief Method set_subscriptOffset addr 0x2bb91a8 size 0x8 virtual false final false
   inline void set_subscriptOffset(float_t value);
 
-  /// @brief Method get_subscriptSize addr 0x2d20560 size 0x8 virtual false final false
+  /// @brief Method get_subscriptSize addr 0x2bb91b0 size 0x8 virtual false final false
   inline float_t get_subscriptSize();
 
-  /// @brief Method set_subscriptSize addr 0x2d20568 size 0x8 virtual false final false
+  /// @brief Method set_subscriptSize addr 0x2bb91b8 size 0x8 virtual false final false
   inline void set_subscriptSize(float_t value);
 
-  /// @brief Method get_underlineOffset addr 0x2d20570 size 0x8 virtual false final false
+  /// @brief Method get_underlineOffset addr 0x2bb91c0 size 0x8 virtual false final false
   inline float_t get_underlineOffset();
 
-  /// @brief Method set_underlineOffset addr 0x2d20578 size 0x8 virtual false final false
+  /// @brief Method set_underlineOffset addr 0x2bb91c8 size 0x8 virtual false final false
   inline void set_underlineOffset(float_t value);
 
-  /// @brief Method get_underlineThickness addr 0x2d20580 size 0x8 virtual false final false
+  /// @brief Method get_underlineThickness addr 0x2bb91d0 size 0x8 virtual false final false
   inline float_t get_underlineThickness();
 
-  /// @brief Method set_underlineThickness addr 0x2d20588 size 0x8 virtual false final false
+  /// @brief Method set_underlineThickness addr 0x2bb91d8 size 0x8 virtual false final false
   inline void set_underlineThickness(float_t value);
 
-  /// @brief Method get_strikethroughOffset addr 0x2d20590 size 0x8 virtual false final false
+  /// @brief Method get_strikethroughOffset addr 0x2bb91e0 size 0x8 virtual false final false
   inline float_t get_strikethroughOffset();
 
-  /// @brief Method set_strikethroughOffset addr 0x2d20598 size 0x8 virtual false final false
+  /// @brief Method set_strikethroughOffset addr 0x2bb91e8 size 0x8 virtual false final false
   inline void set_strikethroughOffset(float_t value);
 
-  /// @brief Method set_strikethroughThickness addr 0x2d205a0 size 0x8 virtual false final false
+  /// @brief Method set_strikethroughThickness addr 0x2bb91f0 size 0x8 virtual false final false
   inline void set_strikethroughThickness(float_t value);
 
-  /// @brief Method get_tabWidth addr 0x2d205a8 size 0x8 virtual false final false
+  /// @brief Method get_tabWidth addr 0x2bb91f8 size 0x8 virtual false final false
   inline float_t get_tabWidth();
 
-  /// @brief Method set_tabWidth addr 0x2d205b0 size 0x8 virtual false final false
+  /// @brief Method set_tabWidth addr 0x2bb9200 size 0x8 virtual false final false
   inline void set_tabWidth(float_t value);
 
   // Ctor Parameters [CppParam { name: "m_FaceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_FamilyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
@@ -265,6 +265,48 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::FaceInfo, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_FaceIndex) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_FamilyName) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_StyleName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_PointSize) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_Scale) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_UnitsPerEM) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_LineHeight) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_AscentLine) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_CapLine) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_MeanLine) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_Baseline) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_DescentLine) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_SuperscriptOffset) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_SuperscriptSize) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_SubscriptOffset) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_SubscriptSize) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_UnderlineOffset) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_UnderlineThickness) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_StrikethroughOffset) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_StrikethroughThickness) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::FaceInfo, m_TabWidth) == 0x5c, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::FaceInfo, "UnityEngine.TextCore", "FaceInfo");

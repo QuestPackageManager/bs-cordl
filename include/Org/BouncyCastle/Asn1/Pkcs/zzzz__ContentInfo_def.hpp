@@ -5,12 +5,6 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(ContentInfo)
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
@@ -18,6 +12,12 @@ class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -57,26 +57,26 @@ public:
 
   constexpr void __set_content(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method GetInstance addr 0xf85c18 size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0xf0f9f4 size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf86dd8 size 0x14c virtual false final false
+  /// @brief Method .ctor addr 0xf10bb4 size 0x14c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method .ctor addr 0xf86f24 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xf10d00 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method get_ContentType addr 0xf86f50 size 0x8 virtual false final false
+  /// @brief Method get_ContentType addr 0xf10d2c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
-  /// @brief Method get_Content addr 0xf86f58 size 0x8 virtual false final false
+  /// @brief Method get_Content addr 0xf10d34 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Content();
 
-  /// @brief Method ToAsn1Object addr 0xf86f60 size 0x140 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf10d3c size 0x140 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentInfo", modifiers: "&&", def_value: None }]
@@ -103,6 +103,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::ContentInfo, ___contentType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::ContentInfo, ___content) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Pkcs::ContentInfo);

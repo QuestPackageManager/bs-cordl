@@ -45,27 +45,27 @@ public:
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList*
   New_ctor(::ArrayW<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature*, ::Array<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature*>*> sigs);
 
-  /// @brief Method .ctor addr 0x10cb178 size 0xb8 virtual false final false
+  /// @brief Method .ctor addr 0x1059f28 size 0xb8 virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature*, ::Array<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature*>*> sigs);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList* New_ctor(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* sig);
 
-  /// @brief Method .ctor addr 0x10cb230 size 0xa8 virtual false final false
+  /// @brief Method .ctor addr 0x1059fe0 size 0xa8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* sig);
 
-  /// @brief Method get_Item addr 0x10cb2d8 size 0x30 virtual false final false
+  /// @brief Method get_Item addr 0x105a088 size 0x30 virtual false final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* get_Item(int32_t index);
 
-  /// @brief Method Get addr 0x10cb308 size 0x4 virtual false final false
+  /// @brief Method Get addr 0x105a0b8 size 0x4 virtual false final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* Get(int32_t index);
 
-  /// @brief Method get_Size addr 0x10cb30c size 0x1c virtual false final false
+  /// @brief Method get_Size addr 0x105a0bc size 0x1c virtual false final false
   inline int32_t get_Size();
 
-  /// @brief Method get_Count addr 0x10cb328 size 0x1c virtual false final false
+  /// @brief Method get_Count addr 0x105a0d8 size 0x1c virtual false final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsEmpty addr 0x10cb344 size 0x24 virtual false final false
+  /// @brief Method get_IsEmpty addr 0x105a0f4 size 0x24 virtual false final false
   inline bool get_IsEmpty();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpSignatureList", modifiers: "&&", def_value: None }]
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList, ___sigs) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg::OpenPgp
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList);

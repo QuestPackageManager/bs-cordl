@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleTextTableCell);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13500))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13781))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13620))
 // CS Name: ::SimpleTextTableCell*
 class CORDL_TYPE SimpleTextTableCell : public ::HMUI::TableCell {
 public:
@@ -35,15 +35,15 @@ public:
 
   constexpr void __set__text(::TMPro::TextMeshProUGUI* value);
 
-  /// @brief Method set_text addr 0x21161c4 size 0x24 virtual false final false
+  /// @brief Method set_text addr 0x1fc063c size 0x24 virtual false final false
   inline void set_text(::StringW value);
 
-  /// @brief Method get_text addr 0x21161e8 size 0x24 virtual false final false
+  /// @brief Method get_text addr 0x1fc0660 size 0x24 virtual false final false
   inline ::StringW get_text();
 
   static inline ::GlobalNamespace::SimpleTextTableCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x211620c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fc0684 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleTextTableCell", modifiers: "&&", def_value: None }]
@@ -67,6 +67,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleTextTableCell, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleTextTableCell, ____text) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SimpleTextTableCell);

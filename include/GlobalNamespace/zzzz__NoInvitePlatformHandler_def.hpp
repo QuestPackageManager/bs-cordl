@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoInvitePlatformHandler);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4495))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4506))
 // CS Name: ::NoInvitePlatformHandler*
 class CORDL_TYPE NoInvitePlatformHandler : public ::System::Object {
 public:
@@ -28,15 +28,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IInvitePlatformHandler"
   constexpr operator ::GlobalNamespace::IInvitePlatformHandler*() noexcept;
 
-  /// @brief Method get_isSupported addr 0x2355bfc size 0x8 virtual true final true
+  /// @brief Method get_isSupported addr 0x2206c00 size 0x8 virtual true final true
   inline bool get_isSupported();
 
-  /// @brief Method OpenInvitePanel addr 0x2355c04 size 0x40 virtual true final true
+  /// @brief Method OpenInvitePanel addr 0x2206c08 size 0x40 virtual true final true
   inline void OpenInvitePanel();
 
   static inline ::GlobalNamespace::NoInvitePlatformHandler* New_ctor();
 
-  /// @brief Method .ctor addr 0x2355c44 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2206c48 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoInvitePlatformHandler", modifiers: "&&", def_value: None }]

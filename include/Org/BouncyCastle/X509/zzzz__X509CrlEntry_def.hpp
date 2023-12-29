@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CrlEntry)
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class CrlEntry;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace System {
 struct DateTime;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -103,42 +103,42 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509CrlEntry* New_ctor(::Org::BouncyCastle::Asn1::X509::CrlEntry* c);
 
-  /// @brief Method .ctor addr 0x117d838 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x110d5f0 size 0x34 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::CrlEntry* c);
 
   static inline ::Org::BouncyCastle::X509::X509CrlEntry* New_ctor(::Org::BouncyCastle::Asn1::X509::CrlEntry* c, bool isIndirect, ::Org::BouncyCastle::Asn1::X509::X509Name* previousCertificateIssuer);
 
-  /// @brief Method .ctor addr 0x117bdc4 size 0x4c virtual false final false
+  /// @brief Method .ctor addr 0x110bb7c size 0x4c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::CrlEntry* c, bool isIndirect, ::Org::BouncyCastle::Asn1::X509::X509Name* previousCertificateIssuer);
 
-  /// @brief Method loadCertificateIssuer addr 0x117d86c size 0x1a4 virtual false final false
+  /// @brief Method loadCertificateIssuer addr 0x110d624 size 0x1a4 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* loadCertificateIssuer();
 
-  /// @brief Method GetCertificateIssuer addr 0x117da10 size 0x8 virtual false final false
+  /// @brief Method GetCertificateIssuer addr 0x110d7c8 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetCertificateIssuer();
 
-  /// @brief Method GetX509Extensions addr 0x117da18 size 0x1c virtual true final false
+  /// @brief Method GetX509Extensions addr 0x110d7d0 size 0x1c virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
-  /// @brief Method GetEncoded addr 0x117da34 size 0xf8 virtual false final false
+  /// @brief Method GetEncoded addr 0x110d7ec size 0xf8 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method get_SerialNumber addr 0x117db2c size 0x24 virtual false final false
+  /// @brief Method get_SerialNumber addr 0x110d8e4 size 0x24 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
-  /// @brief Method get_RevocationDate addr 0x117db50 size 0x24 virtual false final false
+  /// @brief Method get_RevocationDate addr 0x110d908 size 0x24 virtual false final false
   inline ::System::DateTime get_RevocationDate();
 
-  /// @brief Method get_HasExtensions addr 0x117db74 size 0x28 virtual false final false
+  /// @brief Method get_HasExtensions addr 0x110d92c size 0x28 virtual false final false
   inline bool get_HasExtensions();
 
-  /// @brief Method Equals addr 0x117db9c size 0xf4 virtual true final false
+  /// @brief Method Equals addr 0x110d954 size 0xf4 virtual true final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode addr 0x117dc90 size 0x5c virtual true final false
+  /// @brief Method GetHashCode addr 0x110da48 size 0x5c virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x117dcec size 0x7f8 virtual true final false
+  /// @brief Method ToString addr 0x110daa4 size 0x7f8 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CrlEntry", modifiers: "&&", def_value: None }]
@@ -177,6 +177,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::X509CrlEntry, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509CrlEntry, ___c) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509CrlEntry, ___isIndirect) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509CrlEntry, ___previousCertificateIssuer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509CrlEntry, ___certificateIssuer) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509CrlEntry, ___hashValueSet) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509CrlEntry, ___hashValue) == 0x34, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::X509
 NEED_NO_BOX(::Org::BouncyCastle::X509::X509CrlEntry);

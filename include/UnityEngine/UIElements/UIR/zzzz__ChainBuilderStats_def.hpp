@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::ChainBuilderStats);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7388))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7474))
 // CS Name: ::UnityEngine.UIElements.UIR::ChainBuilderStats
 struct CORDL_TYPE ChainBuilderStats {
 public:
@@ -122,6 +122,54 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::ChainBuilderStats, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, elementsAdded) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, elementsRemoved) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, recursiveClipUpdates) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, recursiveClipUpdatesExpanded) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, nonRecursiveClipUpdates) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, recursiveTransformUpdates) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, recursiveTransformUpdatesExpanded) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, recursiveOpacityUpdates) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, recursiveOpacityUpdatesExpanded) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, colorUpdates) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, colorUpdatesExpanded) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, recursiveVisualUpdates) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, recursiveVisualUpdatesExpanded) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, nonRecursiveVisualUpdates) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, dirtyProcessed) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, nudgeTransformed) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, boneTransformed) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, skipTransformed) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, visualUpdateTransformed) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, updatedMeshAllocations) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, newMeshAllocations) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, groupTransformElementsChanged) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, immedateRenderersActive) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::ChainBuilderStats, textUpdates) == 0x5c, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::ChainBuilderStats, "UnityEngine.UIElements.UIR", "ChainBuilderStats");

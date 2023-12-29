@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::PInfo);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3528))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3523))
 // CS Name: ::System.Reflection::PInfo
 struct CORDL_TYPE PInfo {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::PInfo, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::PInfo, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::PInfo, "System.Reflection", "PInfo");

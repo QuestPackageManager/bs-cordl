@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::Tweening::SongTimeTweeningManager);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16100))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6087))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15954))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6150))
 // CS Name: ::Tweening::SongTimeTweeningManager*
 class CORDL_TYPE SongTimeTweeningManager : public ::Tweening::TweeningManager {
 public:
@@ -33,12 +33,12 @@ public:
 
   constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  /// @brief Method GetTime addr 0x2321258 size 0xa0 virtual true final false
+  /// @brief Method GetTime addr 0x21e6d90 size 0xa0 virtual true final false
   inline float_t GetTime();
 
   static inline ::Tweening::SongTimeTweeningManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x23212f8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21e6e30 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SongTimeTweeningManager", modifiers: "&&", def_value: None }]
@@ -62,6 +62,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Tweening::SongTimeTweeningManager, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Tweening::SongTimeTweeningManager, ____audioTimeSource) == 0x40, "Offset mismatch!");
 
 } // namespace Tweening
 NEED_NO_BOX(::Tweening::SongTimeTweeningManager);

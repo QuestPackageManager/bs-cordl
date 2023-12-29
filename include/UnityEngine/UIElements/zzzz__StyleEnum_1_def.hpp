@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleEnum_1)
 namespace UnityEngine::UIElements {
-struct StyleKeyword;
+template <typename T> class IStyleValue_1;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
+struct StyleKeyword;
 }
 namespace System {
 class Object;
@@ -31,8 +31,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7300))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7294))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7386))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7380))
 // CS Name: ::UnityEngine.UIElements::StyleEnum`1<T>
 struct CORDL_TYPE StyleEnum_1 {
 public:

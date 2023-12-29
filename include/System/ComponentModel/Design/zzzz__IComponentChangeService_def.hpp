@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IComponentChangeService)
-namespace System::ComponentModel {
-class MemberDescriptor;
-}
 namespace System {
 class Object;
+}
+namespace System::ComponentModel {
+class MemberDescriptor;
 }
 // Forward declare root types
 namespace System::ComponentModel::Design {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::IComponentChangeService);
 namespace System::ComponentModel::Design {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9497))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8334))
 // CS Name: ::System.ComponentModel.Design::IComponentChangeService*
 class CORDL_TYPE IComponentChangeService {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::VoipMuteState);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13400))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13439))
 // CS Name: ::Oculus.Platform::VoipMuteState
 struct CORDL_TYPE VoipMuteState {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::VoipMuteState, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::VoipMuteState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::VoipMuteState, "Oculus.Platform", "VoipMuteState");

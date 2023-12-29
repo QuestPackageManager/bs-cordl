@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IconSegmentedControl)
 namespace HMUI {
-class IconSegmentedControlCell;
-}
-namespace HMUI {
-class SegmentedControlCell;
+class __SegmentedControl__IDataSource;
 }
 namespace UnityEngine {
 class Object;
-}
-namespace HMUI {
-class __SegmentedControl__IDataSource;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace HMUI {
+class SegmentedControlCell;
+}
+namespace HMUI {
 class __IconSegmentedControl__DataItem;
+}
+namespace HMUI {
+class IconSegmentedControlCell;
 }
 namespace UnityEngine {
 class Sprite;
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::HMUI::__IconSegmentedControl__DataItem);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13546))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13665))
 // CS Name: ::IconSegmentedControl::DataItem*
 class CORDL_TYPE __IconSegmentedControl__DataItem : public ::System::Object {
 public:
@@ -72,21 +72,21 @@ public:
 
   constexpr void __set__hintText_k__BackingField(::StringW value);
 
-  /// @brief Method get_icon addr 0x211f950 size 0x8 virtual false final false
+  /// @brief Method get_icon addr 0x1fc96f4 size 0x8 virtual false final false
   inline ::UnityEngine::Sprite* get_icon();
 
-  /// @brief Method set_icon addr 0x211f958 size 0x8 virtual false final false
+  /// @brief Method set_icon addr 0x1fc96fc size 0x8 virtual false final false
   inline void set_icon(::UnityEngine::Sprite* value);
 
-  /// @brief Method get_hintText addr 0x211f960 size 0x8 virtual false final false
+  /// @brief Method get_hintText addr 0x1fc9704 size 0x8 virtual false final false
   inline ::StringW get_hintText();
 
-  /// @brief Method set_hintText addr 0x211f968 size 0x8 virtual false final false
+  /// @brief Method set_hintText addr 0x1fc970c size 0x8 virtual false final false
   inline void set_hintText(::StringW value);
 
   static inline ::HMUI::__IconSegmentedControl__DataItem* New_ctor(::UnityEngine::Sprite* icon, ::StringW hintText);
 
-  /// @brief Method .ctor addr 0x211f970 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x1fc9714 size 0x2c virtual false final false
   inline void _ctor(::UnityEngine::Sprite* icon, ::StringW hintText);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IconSegmentedControl__DataItem", modifiers: "&&", def_value: None }]
@@ -114,13 +114,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__IconSegmentedControl__DataItem, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__IconSegmentedControl__DataItem, ____icon_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__IconSegmentedControl__DataItem, ____hintText_k__BackingField) == 0x18, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: HMUI::IconSegmentedControl
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13550))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13547))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13669))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13666))
 // CS Name: ::HMUI::IconSegmentedControl*
 class CORDL_TYPE IconSegmentedControl : public ::HMUI::SegmentedControl {
 public:
@@ -229,24 +233,24 @@ public:
 
   constexpr void __set__isInitialized(bool value);
 
-  /// @brief Method Init addr 0x211efa0 size 0x1c virtual false final false
+  /// @brief Method Init addr 0x1fc8d44 size 0x1c virtual false final false
   inline void Init();
 
-  /// @brief Method SetData addr 0x211efc4 size 0x40 virtual false final false
+  /// @brief Method SetData addr 0x1fc8d68 size 0x40 virtual false final false
   inline void SetData(::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> dataItems);
 
-  /// @brief Method NumberOfCells addr 0x211f40c size 0x18 virtual true final true
+  /// @brief Method NumberOfCells addr 0x1fc91b0 size 0x18 virtual true final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method CellForCellNumber addr 0x211f424 size 0x180 virtual true final true
+  /// @brief Method CellForCellNumber addr 0x1fc91c8 size 0x180 virtual true final true
   inline ::HMUI::SegmentedControlCell* CellForCellNumber(int32_t cellNumber);
 
-  /// @brief Method InstantiateCell addr 0x211f5a4 size 0x180 virtual false final false
+  /// @brief Method InstantiateCell addr 0x1fc9348 size 0x180 virtual false final false
   inline ::HMUI::IconSegmentedControlCell* InstantiateCell(::UnityEngine::Object* prefab);
 
   static inline ::HMUI::IconSegmentedControl* New_ctor();
 
-  /// @brief Method .ctor addr 0x211f834 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x1fc95d8 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IconSegmentedControl", modifiers: "&&", def_value: None }]
@@ -300,6 +304,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::IconSegmentedControl, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____iconSize) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____overrideCellSize) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____padding) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____hideCellBackground) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____firstCellPrefab) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____lastCellPrefab) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____middleCellPrefab) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____singleCellPrefab) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____container) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____dataItems) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::IconSegmentedControl, ____isInitialized) == 0x98, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::IconSegmentedControl);

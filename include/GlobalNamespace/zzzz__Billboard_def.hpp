@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Billboard)
-namespace GlobalNamespace {
-struct __Billboard__RotationMode;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+struct __Billboard__RotationMode;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::Billboard);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14352))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13840))
 // CS Name: ::Billboard::RotationMode
 struct CORDL_TYPE __Billboard__RotationMode {
 public:
@@ -78,13 +78,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Billboard__RotationMode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__Billboard__RotationMode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Billboard
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14352)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14353))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13840)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13841))
 // CS Name: ::Billboard*
 class CORDL_TYPE Billboard : public ::UnityEngine::MonoBehaviour {
 public:
@@ -118,15 +120,15 @@ public:
 
   constexpr void __set__transform(::UnityEngine::Transform* value);
 
-  /// @brief Method Awake addr 0x20f1110 size 0x1c virtual false final false
+  /// @brief Method Awake addr 0x1f93fa0 size 0x1c virtual false final false
   inline void Awake();
 
-  /// @brief Method OnWillRenderObject addr 0x20f112c size 0xd0 virtual false final false
+  /// @brief Method OnWillRenderObject addr 0x1f93fbc size 0xd0 virtual false final false
   inline void OnWillRenderObject();
 
   static inline ::GlobalNamespace::Billboard* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f11fc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1f9408c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Billboard", modifiers: "&&", def_value: None }]
@@ -156,6 +158,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Billboard, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::Billboard, ____rotationMode) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::Billboard, ____flipDirection) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::Billboard, ____transform) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__Billboard__RotationMode, "", "Billboard/RotationMode");

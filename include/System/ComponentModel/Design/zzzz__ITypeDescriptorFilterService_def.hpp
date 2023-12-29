@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::ITypeDescriptorFilterService);
 namespace System::ComponentModel::Design {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9503))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8340))
 // CS Name: ::System.ComponentModel.Design::ITypeDescriptorFilterService*
 class CORDL_TYPE ITypeDescriptorFilterService {
 public:

@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AnssiNamedCurves)
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::Anssi {
+class __AnssiNamedCurves__Frp256v1Holder;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
+}
 namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParameters;
 }
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECPoint;
-}
 namespace System::Collections {
 class IEnumerable;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECPoint;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParametersHolder;
-}
-namespace Org::BouncyCastle::Asn1::Anssi {
-class __AnssiNamedCurves__Frp256v1Holder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Anssi {
@@ -62,10 +62,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder* New_ctor();
 
-  /// @brief Method .ctor addr 0xe62824 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xded654 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters addr 0xe62834 size 0x1d4 virtual true final false
+  /// @brief Method CreateParameters addr 0xded664 size 0x1d4 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__AnssiNamedCurves__Frp256v1Holder", modifiers: "&&", def_value: None }]
@@ -92,7 +92,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Anssi::
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Anssi {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2))
 // CS Name: ::Org.BouncyCastle.Asn1.Anssi::AnssiNamedCurves*
 class CORDL_TYPE AnssiNamedCurves : public ::System::Object {
@@ -121,36 +121,36 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_names();
 
-  /// @brief Method ConfigureBasepoint addr 0xe61d9c size 0xf0 virtual false final false
+  /// @brief Method ConfigureBasepoint addr 0xdecbcc size 0xf0 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::StringW encoding);
 
-  /// @brief Method ConfigureCurve addr 0xe61e8c size 0x4 virtual false final false
+  /// @brief Method ConfigureCurve addr 0xdeccbc size 0x4 virtual false final false
   static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* curve);
 
-  /// @brief Method FromHex addr 0xe61e90 size 0xa0 virtual false final false
+  /// @brief Method FromHex addr 0xdeccc0 size 0xa0 virtual false final false
   static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
 
-  /// @brief Method DefineCurve addr 0xe61f30 size 0x210 virtual false final false
+  /// @brief Method DefineCurve addr 0xdecd60 size 0x210 virtual false final false
   static inline void DefineCurve(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
 
-  /// @brief Method GetByName addr 0xe6225c size 0x80 virtual false final false
+  /// @brief Method GetByName addr 0xded08c size 0x80 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
 
-  /// @brief Method GetByOid addr 0xe62430 size 0x128 virtual false final false
+  /// @brief Method GetByOid addr 0xded260 size 0x128 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetOid addr 0xe622dc size 0x154 virtual false final false
+  /// @brief Method GetOid addr 0xded10c size 0x154 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
-  /// @brief Method GetName addr 0xe62610 size 0x100 virtual false final false
+  /// @brief Method GetName addr 0xded440 size 0x100 virtual false final false
   static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method get_Names addr 0xe62710 size 0x10c virtual false final false
+  /// @brief Method get_Names addr 0xded540 size 0x10c virtual false final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
   static inline ::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves* New_ctor();
 
-  /// @brief Method .ctor addr 0xe6281c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xded64c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AnssiNamedCurves", modifiers: "&&", def_value: None }]

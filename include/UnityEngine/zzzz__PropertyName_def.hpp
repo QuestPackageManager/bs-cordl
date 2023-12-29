@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::PropertyName);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10159))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10087))
 // CS Name: ::UnityEngine::PropertyName
 struct CORDL_TYPE PropertyName {
 public:
@@ -31,31 +31,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::PropertyName>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::PropertyName>*();
 
-  /// @brief Method .ctor addr 0x2cc8668 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x2b62250 size 0x5c virtual false final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x2cc8710 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2b622f8 size 0x8 virtual false final false
   inline void _ctor(::UnityEngine::PropertyName other);
 
-  /// @brief Method IsNullOrEmpty addr 0x2cc8718 size 0xc virtual false final false
+  /// @brief Method IsNullOrEmpty addr 0x2b62300 size 0xc virtual false final false
   static inline bool IsNullOrEmpty(::UnityEngine::PropertyName prop);
 
-  /// @brief Method op_Equality addr 0x2cc8724 size 0xc virtual false final false
+  /// @brief Method op_Equality addr 0x2b6230c size 0xc virtual false final false
   static inline bool op_Equality(::UnityEngine::PropertyName lhs, ::UnityEngine::PropertyName rhs);
 
-  /// @brief Method GetHashCode addr 0x2cc8730 size 0x8 virtual true final false
+  /// @brief Method GetHashCode addr 0x2b62318 size 0x8 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x2cc8738 size 0x78 virtual true final false
+  /// @brief Method Equals addr 0x2b62320 size 0x78 virtual true final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals addr 0x2cc87b0 size 0x10 virtual true final true
+  /// @brief Method Equals addr 0x2b62398 size 0x10 virtual true final true
   inline bool Equals(::UnityEngine::PropertyName other);
 
-  /// @brief Method op_Implicit addr 0x2cc87c0 size 0x4c virtual false final false
+  /// @brief Method op_Implicit addr 0x2b623a8 size 0x4c virtual false final false
   static inline ::UnityEngine::PropertyName op_Implicit___UnityEngine__PropertyName(::StringW name);
 
-  /// @brief Method ToString addr 0x2cc880c size 0x84 virtual true final false
+  /// @brief Method ToString addr 0x2b623f4 size 0x84 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }]
@@ -75,6 +75,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PropertyName, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::PropertyName, id) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PropertyName, "UnityEngine", "PropertyName");

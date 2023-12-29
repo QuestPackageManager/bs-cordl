@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParsingInfo)
-namespace System::Globalization {
-class Calendar;
-}
 namespace System {
 struct __DateTimeParse__TM;
+}
+namespace System::Globalization {
+class Calendar;
 }
 namespace System {
 class __DateTimeParse__MatchNumberDelegate;
@@ -31,7 +31,7 @@ namespace System {
 struct CORDL_TYPE ParsingInfo {
 public:
   // Declarations
-  /// @brief Method Init addr 0x25a5a54 size 0xc virtual false final false
+  /// @brief Method Init addr 0x244a414 size 0xc virtual false final false
   inline void Init();
 
   // Ctor Parameters [CppParam { name: "calendar", ty: "::System::Globalization::Calendar*", modifiers: "", def_value: None }, CppParam { name: "dayOfWeek", ty: "int32_t", modifiers: "", def_value:
@@ -80,6 +80,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ParsingInfo, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::ParsingInfo, calendar) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::ParsingInfo, dayOfWeek) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::ParsingInfo, timeMark) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::System::ParsingInfo, fUseHour12) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::ParsingInfo, fUseTwoDigitYear) == 0x11, "Offset mismatch!");
+
+static_assert(offsetof(::System::ParsingInfo, fAllowInnerWhite) == 0x12, "Offset mismatch!");
+
+static_assert(offsetof(::System::ParsingInfo, fAllowTrailingWhite) == 0x13, "Offset mismatch!");
+
+static_assert(offsetof(::System::ParsingInfo, fCustomNumberParser) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::ParsingInfo, parseNumberDelegate) == 0x18, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::ParsingInfo, "System", "ParsingInfo");

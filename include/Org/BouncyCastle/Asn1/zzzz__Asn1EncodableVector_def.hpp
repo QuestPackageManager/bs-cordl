@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1EncodableVector);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(449))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1EncodableVector*
 class CORDL_TYPE Asn1EncodableVector : public ::System::Object {
@@ -73,58 +73,58 @@ public:
 
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> getStaticF_EmptyElements();
 
-  /// @brief Method FromEnumerable addr 0x11b329c size 0x35c virtual false final false
+  /// @brief Method FromEnumerable addr 0x1142054 size 0x35c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* FromEnumerable(::System::Collections::IEnumerable* e);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* New_ctor();
 
-  /// @brief Method .ctor addr 0x11b0cd4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x113fa8c size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* New_ctor(int32_t initialCapacity);
 
-  /// @brief Method .ctor addr 0x11b35f8 size 0x10c virtual false final false
+  /// @brief Method .ctor addr 0x11423b0 size 0x10c virtual false final false
   inline void _ctor(int32_t initialCapacity);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> v);
 
-  /// @brief Method .ctor addr 0x11aad48 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x1139b00 size 0x2c virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> v);
 
-  /// @brief Method Add addr 0x11aae4c size 0xf4 virtual false final false
+  /// @brief Method Add addr 0x1139c04 size 0xf4 virtual false final false
   inline void Add(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
 
-  /// @brief Method Add addr 0x11b23b8 size 0x6c virtual false final false
+  /// @brief Method Add addr 0x1141170 size 0x6c virtual false final false
   inline void Add(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> objs);
 
-  /// @brief Method AddOptional addr 0x11b37d0 size 0x6c virtual false final false
+  /// @brief Method AddOptional addr 0x1142588 size 0x6c virtual false final false
   inline void AddOptional(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> objs);
 
-  /// @brief Method AddOptionalTagged addr 0x11aad74 size 0x94 virtual false final false
+  /// @brief Method AddOptionalTagged addr 0x1139b2c size 0x94 virtual false final false
   inline void AddOptionalTagged(bool isExplicit, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method AddAll addr 0x11b3844 size 0x16c virtual false final false
+  /// @brief Method AddAll addr 0x11425fc size 0x16c virtual false final false
   inline void AddAll(::Org::BouncyCastle::Asn1::Asn1EncodableVector* other);
 
-  /// @brief Method get_Item addr 0x11b39b0 size 0xf0 virtual false final false
+  /// @brief Method get_Item addr 0x1142768 size 0xf0 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(int32_t index);
 
-  /// @brief Method get_Count addr 0x11b3aa0 size 0x8 virtual false final false
+  /// @brief Method get_Count addr 0x1142858 size 0x8 virtual false final false
   inline int32_t get_Count();
 
-  /// @brief Method GetEnumerator addr 0x11b3aa8 size 0x1c virtual true final true
+  /// @brief Method GetEnumerator addr 0x1142860 size 0x1c virtual true final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method CopyElements addr 0x11b3ac4 size 0xac virtual false final false
+  /// @brief Method CopyElements addr 0x114287c size 0xac virtual false final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> CopyElements();
 
-  /// @brief Method TakeElements addr 0x11b3b70 size 0xd0 virtual false final false
+  /// @brief Method TakeElements addr 0x1142928 size 0xd0 virtual false final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> TakeElements();
 
-  /// @brief Method Reallocate addr 0x11b3704 size 0xcc virtual false final false
+  /// @brief Method Reallocate addr 0x11424bc size 0xcc virtual false final false
   inline void Reallocate(int32_t minCapacity);
 
-  /// @brief Method CloneElements addr 0x11b3c40 size 0xb4 virtual false final false
+  /// @brief Method CloneElements addr 0x11429f8 size 0xb4 virtual false final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*>
   CloneElements(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements);
 
@@ -158,6 +158,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Asn1EncodableVector, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Asn1EncodableVector, ___elements) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Asn1EncodableVector, ___elementCount) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Asn1EncodableVector, ___copyOnWrite) == 0x1c, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Asn1EncodableVector);

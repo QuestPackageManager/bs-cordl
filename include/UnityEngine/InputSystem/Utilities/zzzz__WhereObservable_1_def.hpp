@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(WhereObservable_1)
 namespace System {
-template <typename T> class IObserver_1;
-}
-namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T> class IObservable_1;
+class IDisposable;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> class __WhereObservable_1__Where;
 }
 namespace System {
-class IDisposable;
+template <typename T> class IObserver_1;
+}
+namespace System {
+template <typename T> class IObservable_1;
 }
 namespace System {
 class Exception;
@@ -38,8 +38,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6694))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6780))
 // CS Name: ::WhereObservable`1::Where<TValue>*
 class CORDL_TYPE __WhereObservable_1__Where : public ::System::Object {
 public:
@@ -110,8 +110,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6695))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6781))
 // CS Name: ::UnityEngine.InputSystem.Utilities::WhereObservable`1<TValue>*
 class CORDL_TYPE WhereObservable_1 : public ::System::Object {
 public:

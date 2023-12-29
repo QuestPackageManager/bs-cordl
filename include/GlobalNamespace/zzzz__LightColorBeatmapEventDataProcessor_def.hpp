@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::GlobalNamespace::LightColorBeatmapEventDataProcessor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14734)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14741), inst: 951 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14741))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14745)) CS Name: ::LightColorBeatmapEventDataProcessor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14949)), TypeDefinitionIndex(TypeDefinitionIndex(14956)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14956), inst:
+// 933 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14958)) CS Name: ::LightColorBeatmapEventDataProcessor*
 class CORDL_TYPE LightColorBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::LightColorBeatmapEventData*> {
 public:
   // Declarations
-  /// @brief Method ProcessInsertedEventDataInternal addr 0xdff99c size 0x128 virtual true final false
+  /// @brief Method ProcessInsertedEventDataInternal addr 0xd99f8c size 0x128 virtual true final false
   inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal addr 0xdffac4 size 0x108 virtual true final false
+  /// @brief Method ProcessBeforeDeleteEventDataInternal addr 0xd9a0b4 size 0x108 virtual true final false
   inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
 
   static inline ::GlobalNamespace::LightColorBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method .ctor addr 0xdffbcc size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xd9a1bc size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightColorBeatmapEventDataProcessor", modifiers: "&&", def_value: None }]

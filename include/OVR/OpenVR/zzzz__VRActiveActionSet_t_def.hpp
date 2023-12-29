@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VRActiveActionSet_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8725))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9494))
 // CS Name: ::OVR.OpenVR::VRActiveActionSet_t
 struct CORDL_TYPE VRActiveActionSet_t {
 public:
@@ -52,6 +52,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VRActiveActionSet_t, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRActiveActionSet_t, ulActionSet) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRActiveActionSet_t, ulRestrictedToDevice) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRActiveActionSet_t, ulSecondaryActionSet) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRActiveActionSet_t, unPadding) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRActiveActionSet_t, nPriority) == 0x1c, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VRActiveActionSet_t, "OVR.OpenVR", "VRActiveActionSet_t");

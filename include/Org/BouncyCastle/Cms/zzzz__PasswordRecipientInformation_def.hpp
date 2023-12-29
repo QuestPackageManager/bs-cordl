@@ -4,12 +4,6 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_def.hpp"
 CORDL_MODULE_EXPORT(PasswordRecipientInformation)
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class PasswordRecipientInfo;
-}
 namespace Org::BouncyCastle::Cms {
 class CmsTypedStream;
 }
@@ -18,6 +12,12 @@ class CmsSecureReadable;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class PasswordRecipientInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -49,13 +49,13 @@ public:
   static inline ::Org::BouncyCastle::Cms::PasswordRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info,
                                                                                  ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method .ctor addr 0x11e3f4c size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x1172cfc size 0x90 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method get_KeyDerivationAlgorithm addr 0x1207ae0 size 0x1c virtual true final false
+  /// @brief Method get_KeyDerivationAlgorithm addr 0x1196890 size 0x1c virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyDerivationAlgorithm();
 
-  /// @brief Method GetContentStream addr 0x1207afc size 0x574 virtual true final false
+  /// @brief Method GetContentStream addr 0x11968ac size 0x574 virtual true final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "PasswordRecipientInformation", modifiers: "&&", def_value: None }]
@@ -79,6 +79,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::PasswordRecipientInformation, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::PasswordRecipientInformation, ___info) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::PasswordRecipientInformation);

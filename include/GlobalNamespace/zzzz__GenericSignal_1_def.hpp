@@ -19,8 +19,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14395))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14394))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13947))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13946))
 // CS Name: ::GenericSignal`1<T>*
 class CORDL_TYPE GenericSignal_1 : public ::GlobalNamespace::Signal {
 public:

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::CrossAppDomainData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3115))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3114))
 // CS Name: ::System.Runtime.Remoting.Channels::CrossAppDomainData*
 class CORDL_TYPE CrossAppDomainData : public ::System::Object {
 public:
@@ -58,13 +58,13 @@ public:
 
   static inline ::System::Runtime::Remoting::Channels::CrossAppDomainData* New_ctor(int32_t domainId);
 
-  /// @brief Method .ctor addr 0x24a2af0 size 0xa8 virtual false final false
+  /// @brief Method .ctor addr 0x2349ffc size 0xa8 virtual false final false
   inline void _ctor(int32_t domainId);
 
-  /// @brief Method get_DomainID addr 0x24a2b98 size 0x8 virtual false final false
+  /// @brief Method get_DomainID addr 0x234a0a4 size 0x8 virtual false final false
   inline int32_t get_DomainID();
 
-  /// @brief Method get_ProcessID addr 0x24a2ba0 size 0x8 virtual false final false
+  /// @brief Method get_ProcessID addr 0x234a0ac size 0x8 virtual false final false
   inline ::StringW get_ProcessID();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrossAppDomainData", modifiers: "&&", def_value: None }]
@@ -94,6 +94,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Channels::CrossAppDomainData, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Channels::CrossAppDomainData, ____ContextID) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Channels::CrossAppDomainData, ____DomainID) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Channels::CrossAppDomainData, ____processGuid) == 0x20, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Channels
 NEED_NO_BOX(::System::Runtime::Remoting::Channels::CrossAppDomainData);

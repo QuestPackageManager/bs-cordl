@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Numerics::BigIntegerCalculator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Numerics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15649))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15634))
 // CS Name: ::System.Numerics::BigIntegerCalculator*
 class CORDL_TYPE BigIntegerCalculator : public ::System::Object {
 public:
@@ -50,27 +50,27 @@ public:
 
   static inline int32_t getStaticF_MultiplyThreshold();
 
-  /// @brief Method Add addr 0x2845b3c size 0xd8 virtual false final false
+  /// @brief Method Add addr 0x26c9b28 size 0xd8 virtual false final false
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Add(::ArrayW<uint32_t, ::Array<uint32_t>*> left, uint32_t right);
 
-  /// @brief Method Add addr 0x2845c14 size 0xf8 virtual false final false
+  /// @brief Method Add addr 0x26c9c00 size 0xf8 virtual false final false
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Add(::ArrayW<uint32_t, ::Array<uint32_t>*> left, ::ArrayW<uint32_t, ::Array<uint32_t>*> right);
 
-  /// @brief Method Add addr 0x28469ec size 0x88 virtual false final false
+  /// @brief Method Add addr 0x26ca9d8 size 0x88 virtual false final false
   static inline void Add(::cordl_internals::Ptr<uint32_t> left, int32_t leftLength, ::cordl_internals::Ptr<uint32_t> right, int32_t rightLength, ::cordl_internals::Ptr<uint32_t> bits,
                          int32_t bitsLength);
 
-  /// @brief Method Subtract addr 0x2845e8c size 0xb8 virtual false final false
+  /// @brief Method Subtract addr 0x26c9e78 size 0xb8 virtual false final false
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Subtract(::ArrayW<uint32_t, ::Array<uint32_t>*> left, uint32_t right);
 
-  /// @brief Method Subtract addr 0x2845fc4 size 0x100 virtual false final false
+  /// @brief Method Subtract addr 0x26c9fb0 size 0x100 virtual false final false
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Subtract(::ArrayW<uint32_t, ::Array<uint32_t>*> left, ::ArrayW<uint32_t, ::Array<uint32_t>*> right);
 
-  /// @brief Method Subtract addr 0x2846a74 size 0x78 virtual false final false
+  /// @brief Method Subtract addr 0x26caa60 size 0x78 virtual false final false
   static inline void Subtract(::cordl_internals::Ptr<uint32_t> left, int32_t leftLength, ::cordl_internals::Ptr<uint32_t> right, int32_t rightLength, ::cordl_internals::Ptr<uint32_t> bits,
                               int32_t bitsLength);
 
-  /// @brief Method Compare addr 0x2845f44 size 0x80 virtual false final false
+  /// @brief Method Compare addr 0x26c9f30 size 0x80 virtual false final false
   static inline int32_t Compare(::ArrayW<uint32_t, ::Array<uint32_t>*> left, ::ArrayW<uint32_t, ::Array<uint32_t>*> right);
 
   // Ctor Parameters [CppParam { name: "", ty: "BigIntegerCalculator", modifiers: "&&", def_value: None }]

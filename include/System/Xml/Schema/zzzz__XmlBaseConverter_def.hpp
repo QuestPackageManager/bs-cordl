@@ -9,6 +9,30 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlBaseConverter)
+namespace System::Xml {
+class XmlQualifiedName;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
+}
+namespace System {
+struct DateTime;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
+}
+namespace System {
+struct DateTimeOffset;
+}
+namespace System {
+struct Decimal;
+}
+namespace System {
+class Exception;
+}
 namespace System {
 class Type;
 }
@@ -16,31 +40,7 @@ namespace System {
 class Object;
 }
 namespace System {
-struct Decimal;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
-namespace System::Xml {
-class XmlQualifiedName;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System {
 struct TimeSpan;
-}
-namespace System {
-struct DateTimeOffset;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-class Exception;
 }
 namespace System {
 class Uri;
@@ -55,8 +55,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlBaseConverter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11746)), TypeDefinitionIndex(TypeDefinitionIndex(11747))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11748))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11675)), TypeDefinitionIndex(TypeDefinitionIndex(11674))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11676))
 // CS Name: ::System.Xml.Schema::XmlBaseConverter*
 class CORDL_TYPE XmlBaseConverter : public ::System::Xml::Schema::XmlValueConverter {
 public:
@@ -301,385 +301,385 @@ public:
 
   static inline ::System::Xml::Schema::XmlBaseConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method .ctor addr 0x28c935c size 0xdc virtual false final false
+  /// @brief Method .ctor addr 0x274b338 size 0xdc virtual false final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::XmlBaseConverter* New_ctor(::System::Xml::Schema::XmlTypeCode typeCode);
 
-  /// @brief Method .ctor addr 0x28c9438 size 0xc8 virtual false final false
+  /// @brief Method .ctor addr 0x274b414 size 0xc8 virtual false final false
   inline void _ctor(::System::Xml::Schema::XmlTypeCode typeCode);
 
   static inline ::System::Xml::Schema::XmlBaseConverter* New_ctor(::System::Xml::Schema::XmlBaseConverter* converterAtomic);
 
-  /// @brief Method .ctor addr 0x28c9500 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x274b4dc size 0x5c virtual false final false
   inline void _ctor(::System::Xml::Schema::XmlBaseConverter* converterAtomic);
 
   static inline ::System::Xml::Schema::XmlBaseConverter* New_ctor(::System::Xml::Schema::XmlBaseConverter* converterAtomic, ::System::Type* clrTypeDefault);
 
-  /// @brief Method .ctor addr 0x28c955c size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x274b538 size 0x44 virtual false final false
   inline void _ctor(::System::Xml::Schema::XmlBaseConverter* converterAtomic, ::System::Type* clrTypeDefault);
 
-  /// @brief Method ToBoolean addr 0x28c95a0 size 0xf8 virtual true final false
+  /// @brief Method ToBoolean addr 0x274b57c size 0xf8 virtual true final false
   inline bool ToBoolean(::System::DateTime value);
 
-  /// @brief Method ToBoolean addr 0x28c9698 size 0x100 virtual true final false
+  /// @brief Method ToBoolean addr 0x274b674 size 0x100 virtual true final false
   inline bool ToBoolean(double_t value);
 
-  /// @brief Method ToBoolean addr 0x28c9798 size 0xf8 virtual true final false
+  /// @brief Method ToBoolean addr 0x274b774 size 0xf8 virtual true final false
   inline bool ToBoolean(int32_t value);
 
-  /// @brief Method ToBoolean addr 0x28c9890 size 0xf8 virtual true final false
+  /// @brief Method ToBoolean addr 0x274b86c size 0xf8 virtual true final false
   inline bool ToBoolean(int64_t value);
 
-  /// @brief Method ToBoolean addr 0x28c9988 size 0xc4 virtual true final false
+  /// @brief Method ToBoolean addr 0x274b964 size 0xc4 virtual true final false
   inline bool ToBoolean(::StringW value);
 
-  /// @brief Method ToBoolean addr 0x28c9a4c size 0xc4 virtual true final false
+  /// @brief Method ToBoolean addr 0x274ba28 size 0xc4 virtual true final false
   inline bool ToBoolean(::System::Object* value);
 
-  /// @brief Method ToDateTime addr 0x28c9b10 size 0xf8 virtual true final false
+  /// @brief Method ToDateTime addr 0x274baec size 0xf8 virtual true final false
   inline ::System::DateTime ToDateTime(bool value);
 
-  /// @brief Method ToDateTime addr 0x28c9c08 size 0x104 virtual true final false
+  /// @brief Method ToDateTime addr 0x274bbe4 size 0x104 virtual true final false
   inline ::System::DateTime ToDateTime(::System::DateTimeOffset value);
 
-  /// @brief Method ToDateTime addr 0x28c9d0c size 0x100 virtual true final false
+  /// @brief Method ToDateTime addr 0x274bce8 size 0x100 virtual true final false
   inline ::System::DateTime ToDateTime(double_t value);
 
-  /// @brief Method ToDateTime addr 0x28c9e0c size 0xf8 virtual true final false
+  /// @brief Method ToDateTime addr 0x274bde8 size 0xf8 virtual true final false
   inline ::System::DateTime ToDateTime(int32_t value);
 
-  /// @brief Method ToDateTime addr 0x28c9f04 size 0xf8 virtual true final false
+  /// @brief Method ToDateTime addr 0x274bee0 size 0xf8 virtual true final false
   inline ::System::DateTime ToDateTime(int64_t value);
 
-  /// @brief Method ToDateTime addr 0x28c9ffc size 0xc4 virtual true final false
+  /// @brief Method ToDateTime addr 0x274bfd8 size 0xc4 virtual true final false
   inline ::System::DateTime ToDateTime(::StringW value);
 
-  /// @brief Method ToDateTime addr 0x28ca0c0 size 0xc4 virtual true final false
+  /// @brief Method ToDateTime addr 0x274c09c size 0xc4 virtual true final false
   inline ::System::DateTime ToDateTime(::System::Object* value);
 
-  /// @brief Method ToDateTimeOffset addr 0x28ca184 size 0xfc virtual true final false
+  /// @brief Method ToDateTimeOffset addr 0x274c160 size 0xfc virtual true final false
   inline ::System::DateTimeOffset ToDateTimeOffset(::System::DateTime value);
 
-  /// @brief Method ToDateTimeOffset addr 0x28ca280 size 0xc8 virtual true final false
+  /// @brief Method ToDateTimeOffset addr 0x274c25c size 0xc8 virtual true final false
   inline ::System::DateTimeOffset ToDateTimeOffset(::StringW value);
 
-  /// @brief Method ToDateTimeOffset addr 0x28ca348 size 0xc8 virtual true final false
+  /// @brief Method ToDateTimeOffset addr 0x274c324 size 0xc8 virtual true final false
   inline ::System::DateTimeOffset ToDateTimeOffset(::System::Object* value);
 
-  /// @brief Method ToDecimal addr 0x28ca410 size 0xc8 virtual true final false
+  /// @brief Method ToDecimal addr 0x274c3ec size 0xc8 virtual true final false
   inline ::System::Decimal ToDecimal(::StringW value);
 
-  /// @brief Method ToDecimal addr 0x28ca4d8 size 0xc8 virtual true final false
+  /// @brief Method ToDecimal addr 0x274c4b4 size 0xc8 virtual true final false
   inline ::System::Decimal ToDecimal(::System::Object* value);
 
-  /// @brief Method ToDouble addr 0x28ca5a0 size 0xf8 virtual true final false
+  /// @brief Method ToDouble addr 0x274c57c size 0xf8 virtual true final false
   inline double_t ToDouble(bool value);
 
-  /// @brief Method ToDouble addr 0x28ca698 size 0xf8 virtual true final false
+  /// @brief Method ToDouble addr 0x274c674 size 0xf8 virtual true final false
   inline double_t ToDouble(::System::DateTime value);
 
-  /// @brief Method ToDouble addr 0x28ca790 size 0xf8 virtual true final false
+  /// @brief Method ToDouble addr 0x274c76c size 0xf8 virtual true final false
   inline double_t ToDouble(int32_t value);
 
-  /// @brief Method ToDouble addr 0x28ca888 size 0xf8 virtual true final false
+  /// @brief Method ToDouble addr 0x274c864 size 0xf8 virtual true final false
   inline double_t ToDouble(int64_t value);
 
-  /// @brief Method ToDouble addr 0x28ca980 size 0xc4 virtual true final false
+  /// @brief Method ToDouble addr 0x274c95c size 0xc4 virtual true final false
   inline double_t ToDouble(::StringW value);
 
-  /// @brief Method ToDouble addr 0x28caa44 size 0xc4 virtual true final false
+  /// @brief Method ToDouble addr 0x274ca20 size 0xc4 virtual true final false
   inline double_t ToDouble(::System::Object* value);
 
-  /// @brief Method ToInt32 addr 0x28cab08 size 0xf8 virtual true final false
+  /// @brief Method ToInt32 addr 0x274cae4 size 0xf8 virtual true final false
   inline int32_t ToInt32(bool value);
 
-  /// @brief Method ToInt32 addr 0x28cac00 size 0xf8 virtual true final false
+  /// @brief Method ToInt32 addr 0x274cbdc size 0xf8 virtual true final false
   inline int32_t ToInt32(::System::DateTime value);
 
-  /// @brief Method ToInt32 addr 0x28cacf8 size 0x100 virtual true final false
+  /// @brief Method ToInt32 addr 0x274ccd4 size 0x100 virtual true final false
   inline int32_t ToInt32(double_t value);
 
-  /// @brief Method ToInt32 addr 0x28cadf8 size 0xf8 virtual true final false
+  /// @brief Method ToInt32 addr 0x274cdd4 size 0xf8 virtual true final false
   inline int32_t ToInt32(int64_t value);
 
-  /// @brief Method ToInt32 addr 0x28caef0 size 0xc4 virtual true final false
+  /// @brief Method ToInt32 addr 0x274cecc size 0xc4 virtual true final false
   inline int32_t ToInt32(::StringW value);
 
-  /// @brief Method ToInt32 addr 0x28cafb4 size 0xc4 virtual true final false
+  /// @brief Method ToInt32 addr 0x274cf90 size 0xc4 virtual true final false
   inline int32_t ToInt32(::System::Object* value);
 
-  /// @brief Method ToInt64 addr 0x28cb078 size 0xf8 virtual true final false
+  /// @brief Method ToInt64 addr 0x274d054 size 0xf8 virtual true final false
   inline int64_t ToInt64(bool value);
 
-  /// @brief Method ToInt64 addr 0x28cb170 size 0xf8 virtual true final false
+  /// @brief Method ToInt64 addr 0x274d14c size 0xf8 virtual true final false
   inline int64_t ToInt64(::System::DateTime value);
 
-  /// @brief Method ToInt64 addr 0x28cb268 size 0x100 virtual true final false
+  /// @brief Method ToInt64 addr 0x274d244 size 0x100 virtual true final false
   inline int64_t ToInt64(double_t value);
 
-  /// @brief Method ToInt64 addr 0x28cb368 size 0xf8 virtual true final false
+  /// @brief Method ToInt64 addr 0x274d344 size 0xf8 virtual true final false
   inline int64_t ToInt64(int32_t value);
 
-  /// @brief Method ToInt64 addr 0x28cb460 size 0xc4 virtual true final false
+  /// @brief Method ToInt64 addr 0x274d43c size 0xc4 virtual true final false
   inline int64_t ToInt64(::StringW value);
 
-  /// @brief Method ToInt64 addr 0x28cb524 size 0xc4 virtual true final false
+  /// @brief Method ToInt64 addr 0x274d500 size 0xc4 virtual true final false
   inline int64_t ToInt64(::System::Object* value);
 
-  /// @brief Method ToSingle addr 0x28cb5e8 size 0x100 virtual true final false
+  /// @brief Method ToSingle addr 0x274d5c4 size 0x100 virtual true final false
   inline float_t ToSingle(double_t value);
 
-  /// @brief Method ToSingle addr 0x28cb6e8 size 0xc4 virtual true final false
+  /// @brief Method ToSingle addr 0x274d6c4 size 0xc4 virtual true final false
   inline float_t ToSingle(::StringW value);
 
-  /// @brief Method ToSingle addr 0x28cb7ac size 0xc4 virtual true final false
+  /// @brief Method ToSingle addr 0x274d788 size 0xc4 virtual true final false
   inline float_t ToSingle(::System::Object* value);
 
-  /// @brief Method ToString addr 0x28cb870 size 0xe4 virtual true final false
+  /// @brief Method ToString addr 0x274d84c size 0xe4 virtual true final false
   inline ::StringW ToString(bool value);
 
-  /// @brief Method ToString addr 0x28cb954 size 0xe4 virtual true final false
+  /// @brief Method ToString addr 0x274d930 size 0xe4 virtual true final false
   inline ::StringW ToString(::System::DateTime value);
 
-  /// @brief Method ToString addr 0x28cba38 size 0xf0 virtual true final false
+  /// @brief Method ToString addr 0x274da14 size 0xf0 virtual true final false
   inline ::StringW ToString(::System::DateTimeOffset value);
 
-  /// @brief Method ToString addr 0x28cbb28 size 0x110 virtual true final false
+  /// @brief Method ToString addr 0x274db04 size 0x110 virtual true final false
   inline ::StringW ToString(::System::Decimal value);
 
-  /// @brief Method ToString addr 0x28cbc38 size 0xec virtual true final false
+  /// @brief Method ToString addr 0x274dc14 size 0xec virtual true final false
   inline ::StringW ToString(double_t value);
 
-  /// @brief Method ToString addr 0x28cbd24 size 0xe4 virtual true final false
+  /// @brief Method ToString addr 0x274dd00 size 0xe4 virtual true final false
   inline ::StringW ToString(int32_t value);
 
-  /// @brief Method ToString addr 0x28cbe08 size 0xe4 virtual true final false
+  /// @brief Method ToString addr 0x274dde4 size 0xe4 virtual true final false
   inline ::StringW ToString(int64_t value);
 
-  /// @brief Method ToString addr 0x28cbeec size 0xec virtual true final false
+  /// @brief Method ToString addr 0x274dec8 size 0xec virtual true final false
   inline ::StringW ToString(float_t value);
 
-  /// @brief Method ToString addr 0x28cbfd8 size 0xb4 virtual true final false
+  /// @brief Method ToString addr 0x274dfb4 size 0xb4 virtual true final false
   inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ToString addr 0x28cc08c size 0x14 virtual true final false
+  /// @brief Method ToString addr 0x274e068 size 0x14 virtual true final false
   inline ::StringW ToString(::System::Object* value);
 
-  /// @brief Method ChangeType addr 0x28cc0a0 size 0x88 virtual true final false
+  /// @brief Method ChangeType addr 0x274e07c size 0x88 virtual true final false
   inline ::System::Object* ChangeType(bool value, ::System::Type* destinationType);
 
-  /// @brief Method ChangeType addr 0x28cc128 size 0x88 virtual true final false
+  /// @brief Method ChangeType addr 0x274e104 size 0x88 virtual true final false
   inline ::System::Object* ChangeType(::System::DateTime value, ::System::Type* destinationType);
 
-  /// @brief Method ChangeType addr 0x28cc1b0 size 0xb4 virtual true final false
+  /// @brief Method ChangeType addr 0x274e18c size 0xb4 virtual true final false
   inline ::System::Object* ChangeType(::System::Decimal value, ::System::Type* destinationType);
 
-  /// @brief Method ChangeType addr 0x28cc264 size 0x90 virtual true final false
+  /// @brief Method ChangeType addr 0x274e240 size 0x90 virtual true final false
   inline ::System::Object* ChangeType(double_t value, ::System::Type* destinationType);
 
-  /// @brief Method ChangeType addr 0x28cc2f4 size 0x88 virtual true final false
+  /// @brief Method ChangeType addr 0x274e2d0 size 0x88 virtual true final false
   inline ::System::Object* ChangeType(int32_t value, ::System::Type* destinationType);
 
-  /// @brief Method ChangeType addr 0x28cc37c size 0x88 virtual true final false
+  /// @brief Method ChangeType addr 0x274e358 size 0x88 virtual true final false
   inline ::System::Object* ChangeType(int64_t value, ::System::Type* destinationType);
 
-  /// @brief Method ChangeType addr 0x28cc404 size 0x10 virtual true final false
+  /// @brief Method ChangeType addr 0x274e3e0 size 0x10 virtual true final false
   inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType addr 0x28cc414 size 0x14 virtual true final false
+  /// @brief Method ChangeType addr 0x274e3f0 size 0x14 virtual true final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType);
 
-  /// @brief Method get_SchemaType addr 0x28cc428 size 0x8 virtual false final false
+  /// @brief Method get_SchemaType addr 0x274e404 size 0x8 virtual false final false
   inline ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
 
-  /// @brief Method get_TypeCode addr 0x28cc430 size 0x8 virtual false final false
+  /// @brief Method get_TypeCode addr 0x274e40c size 0x8 virtual false final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_XmlTypeName addr 0x28cc438 size 0xf4 virtual false final false
+  /// @brief Method get_XmlTypeName addr 0x274e414 size 0xf4 virtual false final false
   inline ::StringW get_XmlTypeName();
 
-  /// @brief Method get_DefaultClrType addr 0x28cc648 size 0x8 virtual false final false
+  /// @brief Method get_DefaultClrType addr 0x274e624 size 0x8 virtual false final false
   inline ::System::Type* get_DefaultClrType();
 
-  /// @brief Method IsDerivedFrom addr 0x28cc650 size 0xc4 virtual false final false
+  /// @brief Method IsDerivedFrom addr 0x274e62c size 0xc4 virtual false final false
   static inline bool IsDerivedFrom(::System::Type* derivedType, ::System::Type* baseType);
 
-  /// @brief Method CreateInvalidClrMappingException addr 0x28cc714 size 0x264 virtual false final false
+  /// @brief Method CreateInvalidClrMappingException addr 0x274e6f0 size 0x264 virtual false final false
   inline ::System::Exception* CreateInvalidClrMappingException(::System::Type* sourceType, ::System::Type* destinationType);
 
-  /// @brief Method QNameToString addr 0x28cc52c size 0x11c virtual false final false
+  /// @brief Method QNameToString addr 0x274e508 size 0x11c virtual false final false
   static inline ::StringW QNameToString(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method ChangeListType addr 0x28cc978 size 0x54 virtual true final false
+  /// @brief Method ChangeListType addr 0x274e954 size 0x54 virtual true final false
   inline ::System::Object* ChangeListType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method StringToBase64Binary addr 0x28cc9cc size 0x90 virtual false final false
+  /// @brief Method StringToBase64Binary addr 0x274e9a8 size 0x90 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> StringToBase64Binary(::StringW value);
 
-  /// @brief Method StringToDate addr 0x28cca5c size 0x7c virtual false final false
+  /// @brief Method StringToDate addr 0x274ea38 size 0x7c virtual false final false
   static inline ::System::DateTime StringToDate(::StringW value);
 
-  /// @brief Method StringToDateTime addr 0x28ccad8 size 0x7c virtual false final false
+  /// @brief Method StringToDateTime addr 0x274eab4 size 0x7c virtual false final false
   static inline ::System::DateTime StringToDateTime(::StringW value);
 
-  /// @brief Method StringToDayTimeDuration addr 0x28ccb54 size 0x60 virtual false final false
+  /// @brief Method StringToDayTimeDuration addr 0x274eb30 size 0x60 virtual false final false
   static inline ::System::TimeSpan StringToDayTimeDuration(::StringW value);
 
-  /// @brief Method StringToDuration addr 0x28ccbb4 size 0x60 virtual false final false
+  /// @brief Method StringToDuration addr 0x274eb90 size 0x60 virtual false final false
   static inline ::System::TimeSpan StringToDuration(::StringW value);
 
-  /// @brief Method StringToGDay addr 0x28ccc14 size 0x7c virtual false final false
+  /// @brief Method StringToGDay addr 0x274ebf0 size 0x7c virtual false final false
   static inline ::System::DateTime StringToGDay(::StringW value);
 
-  /// @brief Method StringToGMonth addr 0x28ccc90 size 0x7c virtual false final false
+  /// @brief Method StringToGMonth addr 0x274ec6c size 0x7c virtual false final false
   static inline ::System::DateTime StringToGMonth(::StringW value);
 
-  /// @brief Method StringToGMonthDay addr 0x28ccd0c size 0x7c virtual false final false
+  /// @brief Method StringToGMonthDay addr 0x274ece8 size 0x7c virtual false final false
   static inline ::System::DateTime StringToGMonthDay(::StringW value);
 
-  /// @brief Method StringToGYear addr 0x28ccd88 size 0x7c virtual false final false
+  /// @brief Method StringToGYear addr 0x274ed64 size 0x7c virtual false final false
   static inline ::System::DateTime StringToGYear(::StringW value);
 
-  /// @brief Method StringToGYearMonth addr 0x28cce04 size 0x7c virtual false final false
+  /// @brief Method StringToGYearMonth addr 0x274ede0 size 0x7c virtual false final false
   static inline ::System::DateTime StringToGYearMonth(::StringW value);
 
-  /// @brief Method StringToDateOffset addr 0x28cce80 size 0x7c virtual false final false
+  /// @brief Method StringToDateOffset addr 0x274ee5c size 0x7c virtual false final false
   static inline ::System::DateTimeOffset StringToDateOffset(::StringW value);
 
-  /// @brief Method StringToDateTimeOffset addr 0x28ccefc size 0x7c virtual false final false
+  /// @brief Method StringToDateTimeOffset addr 0x274eed8 size 0x7c virtual false final false
   static inline ::System::DateTimeOffset StringToDateTimeOffset(::StringW value);
 
-  /// @brief Method StringToGDayOffset addr 0x28ccf78 size 0x7c virtual false final false
+  /// @brief Method StringToGDayOffset addr 0x274ef54 size 0x7c virtual false final false
   static inline ::System::DateTimeOffset StringToGDayOffset(::StringW value);
 
-  /// @brief Method StringToGMonthOffset addr 0x28ccff4 size 0x7c virtual false final false
+  /// @brief Method StringToGMonthOffset addr 0x274efd0 size 0x7c virtual false final false
   static inline ::System::DateTimeOffset StringToGMonthOffset(::StringW value);
 
-  /// @brief Method StringToGMonthDayOffset addr 0x28cd070 size 0x7c virtual false final false
+  /// @brief Method StringToGMonthDayOffset addr 0x274f04c size 0x7c virtual false final false
   static inline ::System::DateTimeOffset StringToGMonthDayOffset(::StringW value);
 
-  /// @brief Method StringToGYearOffset addr 0x28cd0ec size 0x7c virtual false final false
+  /// @brief Method StringToGYearOffset addr 0x274f0c8 size 0x7c virtual false final false
   static inline ::System::DateTimeOffset StringToGYearOffset(::StringW value);
 
-  /// @brief Method StringToGYearMonthOffset addr 0x28cd168 size 0x7c virtual false final false
+  /// @brief Method StringToGYearMonthOffset addr 0x274f144 size 0x7c virtual false final false
   static inline ::System::DateTimeOffset StringToGYearMonthOffset(::StringW value);
 
-  /// @brief Method StringToHexBinary addr 0x28cd1e4 size 0x13c virtual false final false
+  /// @brief Method StringToHexBinary addr 0x274f1c0 size 0x13c virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> StringToHexBinary(::StringW value);
 
-  /// @brief Method StringToQName addr 0x28cd320 size 0x2c0 virtual false final false
+  /// @brief Method StringToQName addr 0x274f2fc size 0x2c0 virtual false final false
   static inline ::System::Xml::XmlQualifiedName* StringToQName(::StringW value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method StringToTime addr 0x28cd5e0 size 0x7c virtual false final false
+  /// @brief Method StringToTime addr 0x274f5bc size 0x7c virtual false final false
   static inline ::System::DateTime StringToTime(::StringW value);
 
-  /// @brief Method StringToTimeOffset addr 0x28cd65c size 0x7c virtual false final false
+  /// @brief Method StringToTimeOffset addr 0x274f638 size 0x7c virtual false final false
   static inline ::System::DateTimeOffset StringToTimeOffset(::StringW value);
 
-  /// @brief Method StringToYearMonthDuration addr 0x28cd6d8 size 0x60 virtual false final false
+  /// @brief Method StringToYearMonthDuration addr 0x274f6b4 size 0x60 virtual false final false
   static inline ::System::TimeSpan StringToYearMonthDuration(::StringW value);
 
-  /// @brief Method AnyUriToString addr 0x28cd738 size 0x14 virtual false final false
+  /// @brief Method AnyUriToString addr 0x274f714 size 0x14 virtual false final false
   static inline ::StringW AnyUriToString(::System::Uri* value);
 
-  /// @brief Method Base64BinaryToString addr 0x28cd74c size 0x58 virtual false final false
+  /// @brief Method Base64BinaryToString addr 0x274f728 size 0x58 virtual false final false
   static inline ::StringW Base64BinaryToString(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method DateToString addr 0x28cd7a4 size 0x44 virtual false final false
+  /// @brief Method DateToString addr 0x274f780 size 0x44 virtual false final false
   static inline ::StringW DateToString(::System::DateTime value);
 
-  /// @brief Method DateTimeToString addr 0x28cd7e8 size 0x44 virtual false final false
+  /// @brief Method DateTimeToString addr 0x274f7c4 size 0x44 virtual false final false
   static inline ::StringW DateTimeToString(::System::DateTime value);
 
-  /// @brief Method DayTimeDurationToString addr 0x28cd82c size 0x60 virtual false final false
+  /// @brief Method DayTimeDurationToString addr 0x274f808 size 0x60 virtual false final false
   static inline ::StringW DayTimeDurationToString(::System::TimeSpan value);
 
-  /// @brief Method DurationToString addr 0x28cd88c size 0x60 virtual false final false
+  /// @brief Method DurationToString addr 0x274f868 size 0x60 virtual false final false
   static inline ::StringW DurationToString(::System::TimeSpan value);
 
-  /// @brief Method GDayToString addr 0x28cd8ec size 0x44 virtual false final false
+  /// @brief Method GDayToString addr 0x274f8c8 size 0x44 virtual false final false
   static inline ::StringW GDayToString(::System::DateTime value);
 
-  /// @brief Method GMonthToString addr 0x28cd930 size 0x44 virtual false final false
+  /// @brief Method GMonthToString addr 0x274f90c size 0x44 virtual false final false
   static inline ::StringW GMonthToString(::System::DateTime value);
 
-  /// @brief Method GMonthDayToString addr 0x28cd974 size 0x44 virtual false final false
+  /// @brief Method GMonthDayToString addr 0x274f950 size 0x44 virtual false final false
   static inline ::StringW GMonthDayToString(::System::DateTime value);
 
-  /// @brief Method GYearToString addr 0x28cd9b8 size 0x44 virtual false final false
+  /// @brief Method GYearToString addr 0x274f994 size 0x44 virtual false final false
   static inline ::StringW GYearToString(::System::DateTime value);
 
-  /// @brief Method GYearMonthToString addr 0x28cd9fc size 0x44 virtual false final false
+  /// @brief Method GYearMonthToString addr 0x274f9d8 size 0x44 virtual false final false
   static inline ::StringW GYearMonthToString(::System::DateTime value);
 
-  /// @brief Method DateOffsetToString addr 0x28cda40 size 0x48 virtual false final false
+  /// @brief Method DateOffsetToString addr 0x274fa1c size 0x48 virtual false final false
   static inline ::StringW DateOffsetToString(::System::DateTimeOffset value);
 
-  /// @brief Method DateTimeOffsetToString addr 0x28cda88 size 0x48 virtual false final false
+  /// @brief Method DateTimeOffsetToString addr 0x274fa64 size 0x48 virtual false final false
   static inline ::StringW DateTimeOffsetToString(::System::DateTimeOffset value);
 
-  /// @brief Method GDayOffsetToString addr 0x28cdad0 size 0x48 virtual false final false
+  /// @brief Method GDayOffsetToString addr 0x274faac size 0x48 virtual false final false
   static inline ::StringW GDayOffsetToString(::System::DateTimeOffset value);
 
-  /// @brief Method GMonthOffsetToString addr 0x28cdb18 size 0x48 virtual false final false
+  /// @brief Method GMonthOffsetToString addr 0x274faf4 size 0x48 virtual false final false
   static inline ::StringW GMonthOffsetToString(::System::DateTimeOffset value);
 
-  /// @brief Method GMonthDayOffsetToString addr 0x28cdb60 size 0x48 virtual false final false
+  /// @brief Method GMonthDayOffsetToString addr 0x274fb3c size 0x48 virtual false final false
   static inline ::StringW GMonthDayOffsetToString(::System::DateTimeOffset value);
 
-  /// @brief Method GYearOffsetToString addr 0x28cdba8 size 0x48 virtual false final false
+  /// @brief Method GYearOffsetToString addr 0x274fb84 size 0x48 virtual false final false
   static inline ::StringW GYearOffsetToString(::System::DateTimeOffset value);
 
-  /// @brief Method GYearMonthOffsetToString addr 0x28cdbf0 size 0x48 virtual false final false
+  /// @brief Method GYearMonthOffsetToString addr 0x274fbcc size 0x48 virtual false final false
   static inline ::StringW GYearMonthOffsetToString(::System::DateTimeOffset value);
 
-  /// @brief Method QNameToString addr 0x28cdc38 size 0x21c virtual false final false
+  /// @brief Method QNameToString addr 0x274fc14 size 0x21c virtual false final false
   static inline ::StringW QNameToString(::System::Xml::XmlQualifiedName* qname, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method TimeToString addr 0x28cde54 size 0x44 virtual false final false
+  /// @brief Method TimeToString addr 0x274fe30 size 0x44 virtual false final false
   static inline ::StringW TimeToString(::System::DateTime value);
 
-  /// @brief Method TimeOffsetToString addr 0x28cde98 size 0x48 virtual false final false
+  /// @brief Method TimeOffsetToString addr 0x274fe74 size 0x48 virtual false final false
   static inline ::StringW TimeOffsetToString(::System::DateTimeOffset value);
 
-  /// @brief Method YearMonthDurationToString addr 0x28cdee0 size 0x60 virtual false final false
+  /// @brief Method YearMonthDurationToString addr 0x274febc size 0x60 virtual false final false
   static inline ::StringW YearMonthDurationToString(::System::TimeSpan value);
 
-  /// @brief Method DateTimeOffsetToDateTime addr 0x28cdf40 size 0x24 virtual false final false
+  /// @brief Method DateTimeOffsetToDateTime addr 0x274ff1c size 0x24 virtual false final false
   static inline ::System::DateTime DateTimeOffsetToDateTime(::System::DateTimeOffset value);
 
-  /// @brief Method DecimalToInt32 addr 0x28cdf64 size 0x204 virtual false final false
+  /// @brief Method DecimalToInt32 addr 0x274ff40 size 0x204 virtual false final false
   static inline int32_t DecimalToInt32(::System::Decimal value);
 
-  /// @brief Method DecimalToInt64 addr 0x28ce168 size 0x204 virtual false final false
+  /// @brief Method DecimalToInt64 addr 0x2750144 size 0x204 virtual false final false
   static inline int64_t DecimalToInt64(::System::Decimal value);
 
-  /// @brief Method DecimalToUInt64 addr 0x28ce36c size 0x1f8 virtual false final false
+  /// @brief Method DecimalToUInt64 addr 0x2750348 size 0x1f8 virtual false final false
   static inline uint64_t DecimalToUInt64(::System::Decimal value);
 
-  /// @brief Method Int32ToByte addr 0x28ce564 size 0x110 virtual false final false
+  /// @brief Method Int32ToByte addr 0x2750540 size 0x110 virtual false final false
   static inline uint8_t Int32ToByte(int32_t value);
 
-  /// @brief Method Int32ToInt16 addr 0x28ce674 size 0x110 virtual false final false
+  /// @brief Method Int32ToInt16 addr 0x2750650 size 0x110 virtual false final false
   static inline int16_t Int32ToInt16(int32_t value);
 
-  /// @brief Method Int32ToSByte addr 0x28ce784 size 0x110 virtual false final false
+  /// @brief Method Int32ToSByte addr 0x2750760 size 0x110 virtual false final false
   static inline int8_t Int32ToSByte(int32_t value);
 
-  /// @brief Method Int32ToUInt16 addr 0x28ce894 size 0x110 virtual false final false
+  /// @brief Method Int32ToUInt16 addr 0x2750870 size 0x110 virtual false final false
   static inline uint16_t Int32ToUInt16(int32_t value);
 
-  /// @brief Method Int64ToInt32 addr 0x28ce9a4 size 0x110 virtual false final false
+  /// @brief Method Int64ToInt32 addr 0x2750980 size 0x110 virtual false final false
   static inline int32_t Int64ToInt32(int64_t value);
 
-  /// @brief Method Int64ToUInt32 addr 0x28ceab4 size 0x110 virtual false final false
+  /// @brief Method Int64ToUInt32 addr 0x2750a90 size 0x110 virtual false final false
   static inline uint32_t Int64ToUInt32(int64_t value);
 
-  /// @brief Method UntypedAtomicToDateTime addr 0x28cebc4 size 0x7c virtual false final false
+  /// @brief Method UntypedAtomicToDateTime addr 0x2750ba0 size 0x7c virtual false final false
   static inline ::System::DateTime UntypedAtomicToDateTime(::StringW value);
 
-  /// @brief Method UntypedAtomicToDateTimeOffset addr 0x28cec40 size 0x7c virtual false final false
+  /// @brief Method UntypedAtomicToDateTimeOffset addr 0x2750c1c size 0x7c virtual false final false
   static inline ::System::DateTimeOffset UntypedAtomicToDateTimeOffset(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseConverter", modifiers: "&&", def_value: None }]
@@ -709,6 +709,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlBaseConverter, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlBaseConverter, ___schemaType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlBaseConverter, ___typeCode) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlBaseConverter, ___clrTypeDefault) == 0x20, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlBaseConverter);

@@ -15,21 +15,21 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithLeaderboardDidUpdate);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(13262))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13333))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13269)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst: 112 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13358))
 // CS Name: ::Oculus.Platform::MessageWithLeaderboardDidUpdate*
 class CORDL_TYPE MessageWithLeaderboardDidUpdate : public ::Oculus::Platform::Message_1<bool> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithLeaderboardDidUpdate* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x26ef348 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x259329c size 0x58 virtual false final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetLeaderboardDidUpdate addr 0x26f42b8 size 0x3c virtual true final false
+  /// @brief Method GetLeaderboardDidUpdate addr 0x2598f68 size 0x3c virtual true final false
   inline bool GetLeaderboardDidUpdate();
 
-  /// @brief Method GetDataFromMessage addr 0x26f42f4 size 0x5c virtual true final false
+  /// @brief Method GetDataFromMessage addr 0x2598fa4 size 0x5c virtual true final false
   inline bool GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithLeaderboardDidUpdate", modifiers: "&&", def_value: None }]

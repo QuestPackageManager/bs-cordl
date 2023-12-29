@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlatformLeaderboardsHandler)
 namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__ScoresScope;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class __LeaderboardScoreUploader__ScoreData;
 }
 namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
+struct __PlatformLeaderboardsModel__ScoresScope;
 }
 namespace GlobalNamespace {
 class __PlatformLeaderboardsModel__GetScoresCompletionHandler;
@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class HMAsyncRequest;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlatformLeaderboardsHandler);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4225))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4258))
 // CS Name: ::PlatformLeaderboardsHandler*
 class CORDL_TYPE PlatformLeaderboardsHandler : public ::System::Object {
 public:
@@ -51,7 +51,7 @@ public:
 
   static inline ::GlobalNamespace::PlatformLeaderboardsHandler* New_ctor();
 
-  /// @brief Method .ctor addr 0x232a4f8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d9804 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsHandler", modifiers: "&&", def_value: None }]

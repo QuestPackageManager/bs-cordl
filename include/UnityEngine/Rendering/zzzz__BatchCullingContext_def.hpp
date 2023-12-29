@@ -11,20 +11,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BatchCullingContext)
-namespace UnityEngine {
-struct Matrix4x4;
+namespace UnityEngine::Rendering {
+struct LODParameters;
 }
 namespace UnityEngine {
 struct Plane;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
-}
 namespace UnityEngine::Rendering {
 struct BatchVisibility;
 }
-namespace UnityEngine::Rendering {
-struct LODParameters;
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -36,14 +36,14 @@ MARK_VAL_T(::UnityEngine::Rendering::BatchCullingContext);
 // SizeInfo { instance_size: 160, native_size: 160, calculated_instance_size: 160, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10364)), TypeDefinitionIndex(TypeDefinitionIndex(10355)), TypeDefinitionIndex(TypeDefinitionIndex(10163)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 748 }), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10245)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 738 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(10365)) CS Name: ::UnityEngine.Rendering::BatchCullingContext
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10172)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 737 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(9927)), TypeDefinitionIndex(TypeDefinitionIndex(10277)), TypeDefinitionIndex(TypeDefinitionIndex(10091)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(9927), inst: 727 }), TypeDefinitionIndex(TypeDefinitionIndex(10286)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 101 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(10287)) CS Name: ::UnityEngine.Rendering::BatchCullingContext
 struct CORDL_TYPE BatchCullingContext {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2ceec9c size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x2b87868 size 0x54 virtual false final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> inCullingPlanes, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchVisibility> inOutBatchVisibility,
                     ::Unity::Collections::NativeArray_1<int32_t> outVisibleIndices, ::Unity::Collections::NativeArray_1<int32_t> outVisibleIndicesY,
                     ::UnityEngine::Rendering::LODParameters inLodParameters, ::UnityEngine::Matrix4x4 inCullingMatrix, float_t inNearPlane);
@@ -89,6 +89,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BatchCullingContext, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchCullingContext, cullingPlanes) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchCullingContext, batchVisibility) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchCullingContext, visibleIndices) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchCullingContext, visibleIndicesY) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchCullingContext, lodParameters) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchCullingContext, cullingMatrix) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchCullingContext, nearPlane) == 0x9c, "Offset mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::BatchCullingContext, "UnityEngine.Rendering", "BatchCullingContext");

@@ -10,19 +10,19 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class Label;
+class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class INotifyValueChanged_1;
+class Label;
 }
 namespace UnityEngine::UIElements {
 class __AbstractProgressBar__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
+template <typename T> class INotifyValueChanged_1;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -31,7 +31,7 @@ namespace UnityEngine::UIElements {
 class UxmlFloatAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class UxmlStringAttributeDescription;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__AbstractProgressBar__UxmlTraits);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6800))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7116))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6886))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7202))
 // CS Name: ::AbstractProgressBar::UxmlTraits*
 class CORDL_TYPE __AbstractProgressBar__UxmlTraits : public ::UnityEngine::UIElements::__BindableElement__UxmlTraits {
 public:
@@ -89,12 +89,12 @@ public:
 
   constexpr void __set_m_Title(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method Init addr 0x2e38460 size 0x1e4 virtual true final false
+  /// @brief Method Init addr 0x2cd10b0 size 0x1e4 virtual true final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__AbstractProgressBar__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e38644 size 0x164 virtual false final false
+  /// @brief Method .ctor addr 0x2cd1294 size 0x164 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__AbstractProgressBar__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -128,13 +128,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__AbstractProgressBar__UxmlTraits, 0x98>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__AbstractProgressBar__UxmlTraits, ___m_LowValue) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__AbstractProgressBar__UxmlTraits, ___m_HighValue) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__AbstractProgressBar__UxmlTraits, ___m_Value) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__AbstractProgressBar__UxmlTraits, ___m_Title) == 0x90, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::AbstractProgressBar
 // SizeInfo { instance_size: 1000, native_size: -1, calculated_instance_size: 1000, calculated_native_size: 996, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6801))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7117))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6887))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7203))
 // CS Name: ::UnityEngine.UIElements::AbstractProgressBar*
 class CORDL_TYPE AbstractProgressBar : public ::UnityEngine::UIElements::BindableElement {
 public:
@@ -248,42 +256,42 @@ public:
 
   static inline ::StringW getStaticF_backgroundUssClassName();
 
-  /// @brief Method set_title addr 0x2e37b24 size 0x24 virtual false final false
+  /// @brief Method set_title addr 0x2cd0774 size 0x24 virtual false final false
   inline void set_title(::StringW value);
 
-  /// @brief Method get_lowValue addr 0x2e37b48 size 0x8 virtual false final false
+  /// @brief Method get_lowValue addr 0x2cd0798 size 0x8 virtual false final false
   inline float_t get_lowValue();
 
-  /// @brief Method set_lowValue addr 0x2e37b50 size 0x10 virtual false final false
+  /// @brief Method set_lowValue addr 0x2cd07a0 size 0x10 virtual false final false
   inline void set_lowValue(float_t value);
 
-  /// @brief Method get_highValue addr 0x2e37c84 size 0x8 virtual false final false
+  /// @brief Method get_highValue addr 0x2cd08d4 size 0x8 virtual false final false
   inline float_t get_highValue();
 
-  /// @brief Method set_highValue addr 0x2e37c8c size 0x10 virtual false final false
+  /// @brief Method set_highValue addr 0x2cd08dc size 0x10 virtual false final false
   inline void set_highValue(float_t value);
 
   static inline ::UnityEngine::UIElements::AbstractProgressBar* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e37c9c size 0x2a0 virtual false final false
+  /// @brief Method .ctor addr 0x2cd08ec size 0x2a0 virtual false final false
   inline void _ctor();
 
-  /// @brief Method OnGeometryChanged addr 0x2e37f3c size 0x24 virtual false final false
+  /// @brief Method OnGeometryChanged addr 0x2cd0b8c size 0x24 virtual false final false
   inline void OnGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* e);
 
-  /// @brief Method get_value addr 0x2e37f60 size 0x8 virtual true final false
+  /// @brief Method get_value addr 0x2cd0bb0 size 0x8 virtual true final false
   inline float_t get_value();
 
-  /// @brief Method set_value addr 0x2e37f68 size 0x25c virtual true final false
+  /// @brief Method set_value addr 0x2cd0bb8 size 0x25c virtual true final false
   inline void set_value(float_t value);
 
-  /// @brief Method SetValueWithoutNotify addr 0x2e381c4 size 0x28 virtual true final true
+  /// @brief Method SetValueWithoutNotify addr 0x2cd0e14 size 0x28 virtual true final true
   inline void SetValueWithoutNotify(float_t newValue);
 
-  /// @brief Method SetProgress addr 0x2e37b60 size 0x124 virtual false final false
+  /// @brief Method SetProgress addr 0x2cd07b0 size 0x124 virtual false final false
   inline void SetProgress(float_t p);
 
-  /// @brief Method CalculateProgressWidth addr 0x2e381ec size 0x104 virtual false final false
+  /// @brief Method CalculateProgressWidth addr 0x2cd0e3c size 0x104 virtual false final false
   inline float_t CalculateProgressWidth(float_t width);
 
   // Ctor Parameters [CppParam { name: "", ty: "AbstractProgressBar", modifiers: "&&", def_value: None }]
@@ -322,6 +330,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::AbstractProgressBar, 0x3e8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_Background) == 0x3c0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_Progress) == 0x3c8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_Title) == 0x3d0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_LowValue) == 0x3d8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_HighValue) == 0x3dc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_Value) == 0x3e0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::AbstractProgressBar);

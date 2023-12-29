@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(ColorUtility)
 namespace UnityEngine::ProBuilder {
+class XYZColor;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::ProBuilder {
 class CIELabColor;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::ProBuilder {
-class XYZColor;
-}
 namespace UnityEngine::ProBuilder {
 class HSVColor;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ColorUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12116))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12044))
 // CS Name: ::UnityEngine.ProBuilder::ColorUtility*
 class CORDL_TYPE ColorUtility : public ::System::Object {
 public:
@@ -48,37 +48,37 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::ProBuilder::CIELabColor*>* getStaticF_ColorNameLookup();
 
-  /// @brief Method approx addr 0x2b3dd90 size 0x64 virtual false final false
+  /// @brief Method approx addr 0x29bc03c size 0x64 virtual false final false
   static inline bool approx(float_t lhs, float_t rhs);
 
-  /// @brief Method GetColor addr 0x2b3ddf4 size 0xe0 virtual false final false
+  /// @brief Method GetColor addr 0x29bc0a0 size 0xe0 virtual false final false
   static inline ::UnityEngine::Color GetColor(::UnityEngine::Vector3 vec);
 
-  /// @brief Method RGBToXYZ addr 0x2b3d704 size 0x74 virtual false final false
+  /// @brief Method RGBToXYZ addr 0x29bb9b0 size 0x74 virtual false final false
   static inline ::UnityEngine::ProBuilder::XYZColor* RGBToXYZ(::UnityEngine::Color col);
 
-  /// @brief Method RGBToXYZ addr 0x2b3d7ec size 0x19c virtual false final false
+  /// @brief Method RGBToXYZ addr 0x29bba98 size 0x19c virtual false final false
   static inline ::UnityEngine::ProBuilder::XYZColor* RGBToXYZ(float_t r, float_t g, float_t b);
 
-  /// @brief Method XYZToCIE_Lab addr 0x2b3dadc size 0x164 virtual false final false
+  /// @brief Method XYZToCIE_Lab addr 0x29bbd88 size 0x164 virtual false final false
   static inline ::UnityEngine::ProBuilder::CIELabColor* XYZToCIE_Lab(::UnityEngine::ProBuilder::XYZColor* xyz);
 
-  /// @brief Method DeltaE addr 0x2b3ded4 size 0x48 virtual false final false
+  /// @brief Method DeltaE addr 0x29bc180 size 0x48 virtual false final false
   static inline float_t DeltaE(::UnityEngine::ProBuilder::CIELabColor* lhs, ::UnityEngine::ProBuilder::CIELabColor* rhs);
 
-  /// @brief Method HSVtoRGB addr 0x2b3df1c size 0x7c virtual false final false
+  /// @brief Method HSVtoRGB addr 0x29bc1c8 size 0x7c virtual false final false
   static inline ::UnityEngine::Color HSVtoRGB(::UnityEngine::ProBuilder::HSVColor* hsv);
 
-  /// @brief Method HSVtoRGB addr 0x2b3df98 size 0xe4 virtual false final false
+  /// @brief Method HSVtoRGB addr 0x29bc244 size 0xe4 virtual false final false
   static inline ::UnityEngine::Color HSVtoRGB(float_t h, float_t s, float_t v);
 
-  /// @brief Method RGBtoHSV addr 0x2b3d320 size 0x220 virtual false final false
+  /// @brief Method RGBtoHSV addr 0x29bb5cc size 0x220 virtual false final false
   static inline ::UnityEngine::ProBuilder::HSVColor* RGBtoHSV(::UnityEngine::Color color);
 
-  /// @brief Method GetColorName addr 0x2b3e07c size 0x210 virtual false final false
+  /// @brief Method GetColorName addr 0x29bc328 size 0x210 virtual false final false
   static inline ::StringW GetColorName(::UnityEngine::Color InColor);
 
-  /// @brief Method CIELabFromRGB addr 0x2b3e28c size 0x24 virtual false final false
+  /// @brief Method CIELabFromRGB addr 0x29bc538 size 0x24 virtual false final false
   static inline ::UnityEngine::ProBuilder::CIELabColor* CIELabFromRGB(float_t R, float_t G, float_t B, float_t Scale);
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorUtility", modifiers: "&&", def_value: None }]

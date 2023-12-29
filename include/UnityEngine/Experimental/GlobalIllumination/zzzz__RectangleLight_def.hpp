@@ -12,19 +12,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RectangleLight)
 namespace UnityEngine::Experimental::GlobalIllumination {
+struct FalloffType;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
 struct LightMode;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct FalloffType;
-}
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct LinearColor;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {
@@ -36,8 +36,8 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::RectangleLight);
 // SizeInfo { instance_size: 84, native_size: 88, calculated_instance_size: 84, calculated_native_size: 97, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10390)), TypeDefinitionIndex(TypeDefinitionIndex(10388)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10387))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10394)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10312)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10309)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10310)), TypeDefinitionIndex(TypeDefinitionIndex(10179))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10316)) CS Name:
 // ::UnityEngine.Experimental.GlobalIllumination::RectangleLight
 struct CORDL_TYPE RectangleLight {
 public:
@@ -96,6 +96,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::RectangleLight, 0x54>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, instanceID) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, shadow) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, mode) == 0x5, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, position) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, orientation) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, color) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, indirectColor) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, range) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, width) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, height) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, falloff) == 0x50, "Offset mismatch!");
 
 } // namespace UnityEngine::Experimental::GlobalIllumination
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, "UnityEngine.Experimental.GlobalIllumination", "RectangleLight");

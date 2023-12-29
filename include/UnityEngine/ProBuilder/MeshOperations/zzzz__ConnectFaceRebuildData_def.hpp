@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12250))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12178))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::ConnectFaceRebuildData*
 class CORDL_TYPE ConnectFaceRebuildData : public ::System::Object {
 public:
@@ -48,7 +48,7 @@ public:
   static inline ::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* New_ctor(::UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData,
                                                                                             ::System::Collections::Generic::List_1<int32_t>* newVertexIndexes);
 
-  /// @brief Method .ctor addr 0x2ba43e0 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2a2268c size 0x2c virtual false final false
   inline void _ctor(::UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData, ::System::Collections::Generic::List_1<int32_t>* newVertexIndexes);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectFaceRebuildData", modifiers: "&&", def_value: None }]
@@ -75,6 +75,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData, ___faceRebuildData) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData, ___newVertexIndexes) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
 NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData);

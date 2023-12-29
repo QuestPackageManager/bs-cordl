@@ -10,16 +10,16 @@ namespace Org::BouncyCastle::Math::EC {
 class FpPoint;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
-}
-namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {
@@ -72,20 +72,20 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::FpCurve* New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 
-  /// @brief Method .ctor addr 0x104cd34 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0xfdbae8 size 0xc virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 
   static inline ::Org::BouncyCastle::Math::EC::FpCurve* New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b,
                                                                  ::Org::BouncyCastle::Math::BigInteger* order, ::Org::BouncyCastle::Math::BigInteger* cofactor);
 
-  /// @brief Method .ctor addr 0x104cd40 size 0xf8 virtual false final false
+  /// @brief Method .ctor addr 0xfdbaf4 size 0xf8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b, ::Org::BouncyCastle::Math::BigInteger* order,
                     ::Org::BouncyCastle::Math::BigInteger* cofactor);
 
   static inline ::Org::BouncyCastle::Math::EC::FpCurve* New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::EC::ECFieldElement* a,
                                                                  ::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method .ctor addr 0x104cfe8 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0xfdbd9c size 0xc virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::EC::ECFieldElement* a,
                     ::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
@@ -93,37 +93,37 @@ public:
                                                                  ::Org::BouncyCastle::Math::EC::ECFieldElement* b, ::Org::BouncyCastle::Math::BigInteger* order,
                                                                  ::Org::BouncyCastle::Math::BigInteger* cofactor);
 
-  /// @brief Method .ctor addr 0x104cff4 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0xfdbda8 size 0xc4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::EC::ECFieldElement* a,
                     ::Org::BouncyCastle::Math::EC::ECFieldElement* b, ::Org::BouncyCastle::Math::BigInteger* order, ::Org::BouncyCastle::Math::BigInteger* cofactor);
 
-  /// @brief Method CloneCurve addr 0x104d0b8 size 0x90 virtual true final false
+  /// @brief Method CloneCurve addr 0xfdbe6c size 0x90 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* CloneCurve();
 
-  /// @brief Method SupportsCoordinateSystem addr 0x104d148 size 0x20 virtual true final false
+  /// @brief Method SupportsCoordinateSystem addr 0xfdbefc size 0x20 virtual true final false
   inline bool SupportsCoordinateSystem(int32_t coord);
 
-  /// @brief Method get_Q addr 0x104d168 size 0x8 virtual true final false
+  /// @brief Method get_Q addr 0xfdbf1c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_Infinity addr 0x104d170 size 0x8 virtual true final false
+  /// @brief Method get_Infinity addr 0xfdbf24 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Infinity();
 
-  /// @brief Method get_FieldSize addr 0x104d178 size 0x1c virtual true final false
+  /// @brief Method get_FieldSize addr 0xfdbf2c size 0x1c virtual true final false
   inline int32_t get_FieldSize();
 
-  /// @brief Method FromBigInteger addr 0x104d194 size 0x78 virtual true final false
+  /// @brief Method FromBigInteger addr 0xfdbf48 size 0x78 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method CreateRawPoint addr 0x104d2c8 size 0x88 virtual true final false
+  /// @brief Method CreateRawPoint addr 0xfdc07c size 0x88 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method CreateRawPoint addr 0x104d350 size 0x94 virtual true final false
+  /// @brief Method CreateRawPoint addr 0xfdc104 size 0x94 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                                                                 ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
                                                                 bool withCompression);
 
-  /// @brief Method ImportPoint addr 0x104d3f0 size 0x224 virtual true final false
+  /// @brief Method ImportPoint addr 0xfdc1a4 size 0x224 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ImportPoint(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
   // Ctor Parameters [CppParam { name: "", ty: "FpCurve", modifiers: "&&", def_value: None }]
@@ -156,6 +156,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::FpCurve, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::FpCurve, ___m_q) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::FpCurve, ___m_r) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::FpCurve, ___m_infinity) == 0x60, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::FpCurve);

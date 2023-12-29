@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(BaseShaderInfoStorage)
 namespace UnityEngine {
 class Texture2D;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine {
 struct RectInt;
 }
-namespace UnityEngine {
-struct Color;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::BaseShaderInfoStorage);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7380))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9894)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7466))
 // CS Name: ::UnityEngine.UIElements.UIR::BaseShaderInfoStorage*
 class CORDL_TYPE BaseShaderInfoStorage : public ::System::Object {
 public:
@@ -91,21 +91,21 @@ public:
   /// @brief Method UpdateTexture addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void UpdateTexture();
 
-  /// @brief Method get_disposed addr 0x2e8b298 size 0x8 virtual false final false
+  /// @brief Method get_disposed addr 0x2d22ee8 size 0x8 virtual false final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed addr 0x2e8b2a0 size 0xc virtual false final false
+  /// @brief Method set_disposed addr 0x2d22ef0 size 0xc virtual false final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose addr 0x2e89b3c size 0x6c virtual true final true
+  /// @brief Method Dispose addr 0x2d2178c size 0x6c virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x2e8b2ac size 0x18 virtual true final false
+  /// @brief Method Dispose addr 0x2d22efc size 0x18 virtual true final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e8b2c4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d22f14 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseShaderInfoStorage", modifiers: "&&", def_value: None }]
@@ -129,6 +129,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::BaseShaderInfoStorage, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::BaseShaderInfoStorage, ____disposed_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::BaseShaderInfoStorage);

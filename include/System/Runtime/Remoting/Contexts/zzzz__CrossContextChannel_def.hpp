@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CrossContextChannel)
+namespace System::Runtime::Remoting::Contexts {
+class __CrossContextChannel__ContextRestoreSink;
+}
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
-}
-namespace System::Runtime::Remoting::Contexts {
-class __CrossContextChannel__ContextRestoreSink;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::__CrossContextChannel__Con
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3102))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3101))
 // CS Name: ::CrossContextChannel::ContextRestoreSink*
 class CORDL_TYPE __CrossContextChannel__ContextRestoreSink : public ::System::Object {
 public:
@@ -72,13 +72,13 @@ public:
   static inline ::System::Runtime::Remoting::Contexts::__CrossContextChannel__ContextRestoreSink*
   New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* next, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Runtime::Remoting::Messaging::IMessage* call);
 
-  /// @brief Method .ctor addr 0x249f73c size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x2346c48 size 0x3c virtual false final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* next, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Runtime::Remoting::Messaging::IMessage* call);
 
-  /// @brief Method SyncProcessMessage addr 0x249f780 size 0x2c0 virtual true final true
+  /// @brief Method SyncProcessMessage addr 0x2346c8c size 0x2c0 virtual true final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method AsyncProcessMessage addr 0x249fa40 size 0x40 virtual true final true
+  /// @brief Method AsyncProcessMessage addr 0x2346f4c size 0x40 virtual true final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
@@ -110,13 +110,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Contexts::__CrossContextChannel__ContextRestoreSink, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::System::Runtime::Remoting::Contexts::__CrossContextChannel__ContextRestoreSink, ____next) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Contexts::__CrossContextChannel__ContextRestoreSink, ____context) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Contexts::__CrossContextChannel__ContextRestoreSink, ____call) == 0x20, "Offset mismatch!");
+
 } // namespace System::Runtime::Remoting::Contexts
 // Type: System.Runtime.Remoting.Contexts::CrossContextChannel
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3103))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3102))
 // CS Name: ::System.Runtime.Remoting.Contexts::CrossContextChannel*
 class CORDL_TYPE CrossContextChannel : public ::System::Object {
 public:
@@ -126,16 +132,16 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method SyncProcessMessage addr 0x249ef04 size 0x3ec virtual true final true
+  /// @brief Method SyncProcessMessage addr 0x2346410 size 0x3ec virtual true final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method AsyncProcessMessage addr 0x249f2f0 size 0x44c virtual true final true
+  /// @brief Method AsyncProcessMessage addr 0x23467fc size 0x44c virtual true final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Contexts::CrossContextChannel* New_ctor();
 
-  /// @brief Method .ctor addr 0x249f778 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2346c84 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrossContextChannel", modifiers: "&&", def_value: None }]

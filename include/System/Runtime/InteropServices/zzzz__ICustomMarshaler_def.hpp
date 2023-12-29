@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::ICustomMarshaler);
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3312))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3309))
 // CS Name: ::System.Runtime.InteropServices::ICustomMarshaler*
 class CORDL_TYPE ICustomMarshaler {
 public:

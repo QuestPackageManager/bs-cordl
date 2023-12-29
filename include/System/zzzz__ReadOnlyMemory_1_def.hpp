@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReadOnlyMemory_1)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace System {
@@ -30,7 +30,7 @@ namespace System {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2463))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2461))
 // CS Name: ::System::ReadOnlyMemory`1<T>
 struct CORDL_TYPE ReadOnlyMemory_1 {
 public:
@@ -41,9 +41,6 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>"
   constexpr operator ::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>*();
-
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(::ArrayW<T, ::Array<T>*> array);
 
   /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
   inline void _ctor(::ArrayW<T, ::Array<T>*> array, int32_t start, int32_t length);

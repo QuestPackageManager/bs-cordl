@@ -12,22 +12,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Tile)
 namespace UnityEngine {
-struct Vector3Int;
-}
-namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
 class GameObject;
-}
-namespace UnityEngine::Tilemaps {
-struct TileFlags;
 }
 namespace UnityEngine::Tilemaps {
 struct TileData;
@@ -37,6 +25,18 @@ class ITilemap;
 }
 namespace UnityEngine::Tilemaps {
 struct __Tile__ColliderType;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Vector3Int;
+}
+namespace UnityEngine::Tilemaps {
+struct TileFlags;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace UnityEngine::Tilemaps {
@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::UnityEngine::Tilemaps::Tile);
 namespace UnityEngine::Tilemaps {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15945))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15837))
 // CS Name: ::Tile::ColliderType
 struct CORDL_TYPE __Tile__ColliderType {
 public:
@@ -99,13 +99,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Tilemaps::__Tile__ColliderType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::Tilemaps::__Tile__ColliderType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::Tilemaps
 // Type: UnityEngine.Tilemaps::Tile
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15938)), TypeDefinitionIndex(TypeDefinitionIndex(15945)), TypeDefinitionIndex(TypeDefinitionIndex(10245)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15947))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15946)) CS Name: ::UnityEngine.Tilemaps::Tile*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(15839)), TypeDefinitionIndex(TypeDefinitionIndex(15837)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10172)), TypeDefinitionIndex(TypeDefinitionIndex(15830))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15838)) CS Name: ::UnityEngine.Tilemaps::Tile*
 class CORDL_TYPE Tile : public ::UnityEngine::Tilemaps::TileBase {
 public:
   // Declarations
@@ -177,48 +179,48 @@ public:
 
   constexpr void __set_m_ColliderType(::UnityEngine::Tilemaps::__Tile__ColliderType value);
 
-  /// @brief Method get_sprite addr 0x2d50500 size 0x8 virtual false final false
+  /// @brief Method get_sprite addr 0x2be8150 size 0x8 virtual false final false
   inline ::UnityEngine::Sprite* get_sprite();
 
-  /// @brief Method set_sprite addr 0x2d50508 size 0x8 virtual false final false
+  /// @brief Method set_sprite addr 0x2be8158 size 0x8 virtual false final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method get_color addr 0x2d50510 size 0xc virtual false final false
+  /// @brief Method get_color addr 0x2be8160 size 0xc virtual false final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method set_color addr 0x2d5051c size 0xc virtual false final false
+  /// @brief Method set_color addr 0x2be816c size 0xc virtual false final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method get_transform addr 0x2d50528 size 0x14 virtual false final false
+  /// @brief Method get_transform addr 0x2be8178 size 0x14 virtual false final false
   inline ::UnityEngine::Matrix4x4 get_transform();
 
-  /// @brief Method set_transform addr 0x2d5053c size 0x14 virtual false final false
+  /// @brief Method set_transform addr 0x2be818c size 0x14 virtual false final false
   inline void set_transform(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method get_gameObject addr 0x2d50550 size 0x8 virtual false final false
+  /// @brief Method get_gameObject addr 0x2be81a0 size 0x8 virtual false final false
   inline ::UnityEngine::GameObject* get_gameObject();
 
-  /// @brief Method set_gameObject addr 0x2d50558 size 0x8 virtual false final false
+  /// @brief Method set_gameObject addr 0x2be81a8 size 0x8 virtual false final false
   inline void set_gameObject(::UnityEngine::GameObject* value);
 
-  /// @brief Method get_flags addr 0x2d50560 size 0x8 virtual false final false
+  /// @brief Method get_flags addr 0x2be81b0 size 0x8 virtual false final false
   inline ::UnityEngine::Tilemaps::TileFlags get_flags();
 
-  /// @brief Method set_flags addr 0x2d50568 size 0x8 virtual false final false
+  /// @brief Method set_flags addr 0x2be81b8 size 0x8 virtual false final false
   inline void set_flags(::UnityEngine::Tilemaps::TileFlags value);
 
-  /// @brief Method get_colliderType addr 0x2d50570 size 0x8 virtual false final false
+  /// @brief Method get_colliderType addr 0x2be81c0 size 0x8 virtual false final false
   inline ::UnityEngine::Tilemaps::__Tile__ColliderType get_colliderType();
 
-  /// @brief Method set_colliderType addr 0x2d50578 size 0x8 virtual false final false
+  /// @brief Method set_colliderType addr 0x2be81c8 size 0x8 virtual false final false
   inline void set_colliderType(::UnityEngine::Tilemaps::__Tile__ColliderType value);
 
-  /// @brief Method GetTileData addr 0x2d50580 size 0x5c virtual true final false
+  /// @brief Method GetTileData addr 0x2be81d0 size 0x5c virtual true final false
   inline void GetTileData(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ByRef<::UnityEngine::Tilemaps::TileData> tileData);
 
   static inline ::UnityEngine::Tilemaps::Tile* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d505dc size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x2be822c size 0x70 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Tile", modifiers: "&&", def_value: None }]
@@ -257,6 +259,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Tilemaps::Tile, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::Tile, ___m_Sprite) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::Tile, ___m_Color) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::Tile, ___m_Transform) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::Tile, ___m_InstancedGameObject) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::Tile, ___m_Flags) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::Tile, ___m_ColliderType) == 0x7c, "Offset mismatch!");
 
 } // namespace UnityEngine::Tilemaps
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Tilemaps::__Tile__ColliderType, "UnityEngine.Tilemaps", "Tile/ColliderType");

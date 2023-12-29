@@ -5,41 +5,41 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LinqExtensions)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace ModestTree {
-template <typename T> class __LinqExtensions___Yield_d__0_1;
+template <typename T> class __LinqExtensions____c__8_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace ModestTree {
-template <typename T> class __LinqExtensions____c__8_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace ModestTree {
 template <typename T> class __LinqExtensions____c__DisplayClass10_0_1;
 }
+namespace ModestTree {
+template <typename T> class __LinqExtensions___Yield_d__0_1;
+}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerator;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System::Linq {
 template <typename TKey, typename TElement> class IGrouping_2;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace ModestTree {
@@ -65,8 +65,8 @@ namespace ModestTree {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10610))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10538))
 // CS Name: ::LinqExtensions::<Yield>d__0`1<T>*
 class CORDL_TYPE __LinqExtensions___Yield_d__0_1 : public ::System::Object {
 public:
@@ -200,8 +200,8 @@ namespace ModestTree {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10611))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10539))
 // CS Name: ::LinqExtensions::<>c__8`1<T>*
 class CORDL_TYPE __LinqExtensions____c__8_1 : public ::System::Object {
 public:
@@ -272,8 +272,8 @@ namespace ModestTree {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10612))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10540))
 // CS Name: ::LinqExtensions::<>c__DisplayClass10_0`1<T>*
 class CORDL_TYPE __LinqExtensions____c__DisplayClass10_0_1 : public ::System::Object {
 public:
@@ -320,8 +320,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10613))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10541))
 // CS Name: ::ModestTree::LinqExtensions*
 class CORDL_TYPE LinqExtensions : public ::System::Object {
 public:

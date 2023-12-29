@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelBuyInfoView);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5812))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5905))
 // CS Name: ::StandardLevelBuyInfoView*
 class CORDL_TYPE StandardLevelBuyInfoView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -69,21 +69,21 @@ public:
 
   constexpr void __set__buyPackButton(::UnityEngine::UI::Button* value);
 
-  /// @brief Method get_buyLevelButton addr 0x22e9a10 size 0x8 virtual false final false
+  /// @brief Method get_buyLevelButton addr 0x21a4814 size 0x8 virtual false final false
   inline ::UnityEngine::UI::Button* get_buyLevelButton();
 
-  /// @brief Method get_openPackButton addr 0x22e9a18 size 0x8 virtual false final false
+  /// @brief Method get_openPackButton addr 0x21a481c size 0x8 virtual false final false
   inline ::UnityEngine::UI::Button* get_openPackButton();
 
-  /// @brief Method get_buyPackButton addr 0x22e9a20 size 0x8 virtual false final false
+  /// @brief Method get_buyPackButton addr 0x21a4824 size 0x8 virtual false final false
   inline ::UnityEngine::UI::Button* get_buyPackButton();
 
-  /// @brief Method RefreshView addr 0x22e9a28 size 0x78 virtual false final false
+  /// @brief Method RefreshView addr 0x21a482c size 0x78 virtual false final false
   inline void RefreshView(::StringW infoText, bool canBuyPack);
 
   static inline ::GlobalNamespace::StandardLevelBuyInfoView* New_ctor();
 
-  /// @brief Method .ctor addr 0x22e9aa0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21a48a4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelBuyInfoView", modifiers: "&&", def_value: None }]
@@ -116,6 +116,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelBuyInfoView, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelBuyInfoView, ____text) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelBuyInfoView, ____buyLevelButton) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelBuyInfoView, ____openPackButton) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelBuyInfoView, ____buyPackButton) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandardLevelBuyInfoView);

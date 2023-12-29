@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(ConstructedOctetStream)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetStringParser;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1StreamParser;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1StreamParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -60,16 +60,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::ConstructedOctetStream* New_ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method .ctor addr 0x11bd878 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x114c628 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method Read addr 0x11bfcbc size 0x1c4 virtual true final false
+  /// @brief Method Read addr 0x114ea6c size 0x1c4 virtual true final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte addr 0x11bff88 size 0x134 virtual true final false
+  /// @brief Method ReadByte addr 0x114ed38 size 0x134 virtual true final false
   inline int32_t ReadByte();
 
-  /// @brief Method GetNextParser addr 0x11bfe80 size 0x108 virtual false final false
+  /// @brief Method GetNextParser addr 0x114ec30 size 0x108 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* GetNextParser();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConstructedOctetStream", modifiers: "&&", def_value: None }]
@@ -99,6 +99,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::ConstructedOctetStream, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::ConstructedOctetStream, ____parser) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::ConstructedOctetStream, ____first) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::ConstructedOctetStream, ____currentStream) == 0x40, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::ConstructedOctetStream);

@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECDomainParameters)
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParameters;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1033))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::ECDomainParameters*
 class CORDL_TYPE ECDomainParameters : public ::System::Object {
@@ -103,63 +103,63 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::X9::X9ECParameters* x9);
 
-  /// @brief Method .ctor addr 0xf32624 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xebd438 size 0x48 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X9::X9ECParameters* x9);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g,
                                                                                       ::Org::BouncyCastle::Math::BigInteger* n);
 
-  /// @brief Method .ctor addr 0xf327b4 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0xebd5c8 size 0x8c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g, ::Org::BouncyCastle::Math::BigInteger* n);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g,
                                                                                       ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h);
 
-  /// @brief Method .ctor addr 0xf32840 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xebd654 size 0x8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g, ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g,
                                                                                       ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h,
                                                                                       ::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method .ctor addr 0xf3266c size 0x148 virtual false final false
+  /// @brief Method .ctor addr 0xebd480 size 0x148 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g, ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method get_Curve addr 0xf32978 size 0x8 virtual false final false
+  /// @brief Method get_Curve addr 0xebd78c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* get_Curve();
 
-  /// @brief Method get_G addr 0xf32980 size 0x8 virtual false final false
+  /// @brief Method get_G addr 0xebd794 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_G();
 
-  /// @brief Method get_N addr 0xf32988 size 0x8 virtual false final false
+  /// @brief Method get_N addr 0xebd79c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_N();
 
-  /// @brief Method get_H addr 0xf32990 size 0x8 virtual false final false
+  /// @brief Method get_H addr 0xebd7a4 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_H();
 
-  /// @brief Method get_HInv addr 0xf32998 size 0xc4 virtual false final false
+  /// @brief Method get_HInv addr 0xebd7ac size 0xc4 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_HInv();
 
-  /// @brief Method GetSeed addr 0xf32a5c size 0x5c virtual false final false
+  /// @brief Method GetSeed addr 0xebd870 size 0x5c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed();
 
-  /// @brief Method Equals addr 0xf32ab8 size 0xa4 virtual true final false
+  /// @brief Method Equals addr 0xebd8cc size 0xa4 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xf32b5c size 0x88 virtual true final false
+  /// @brief Method Equals addr 0xebd970 size 0x88 virtual true final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* other);
 
-  /// @brief Method GetHashCode addr 0xf32be4 size 0x7c virtual true final false
+  /// @brief Method GetHashCode addr 0xebd9f8 size 0x7c virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ValidatePrivateScalar addr 0xf32c60 size 0x138 virtual false final false
+  /// @brief Method ValidatePrivateScalar addr 0xebda74 size 0x138 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* ValidatePrivateScalar(::Org::BouncyCastle::Math::BigInteger* d);
 
-  /// @brief Method ValidatePublicPoint addr 0xf32d98 size 0x8 virtual false final false
+  /// @brief Method ValidatePublicPoint addr 0xebdbac size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ValidatePublicPoint(::Org::BouncyCastle::Math::EC::ECPoint* q);
 
-  /// @brief Method ValidatePublicPoint addr 0xf32848 size 0x130 virtual false final false
+  /// @brief Method ValidatePublicPoint addr 0xebd65c size 0x130 virtual false final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* ValidatePublicPoint(::Org::BouncyCastle::Math::EC::ECCurve* c, ::Org::BouncyCastle::Math::EC::ECPoint* q);
 
   // Ctor Parameters [CppParam { name: "", ty: "ECDomainParameters", modifiers: "&&", def_value: None }]
@@ -198,6 +198,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters, ___curve) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters, ___seed) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters, ___g) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters, ___n) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters, ___h) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters, ___hInv) == 0x38, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters);

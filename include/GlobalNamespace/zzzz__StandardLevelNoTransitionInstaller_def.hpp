@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelNoTransitionInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6042))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11104))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6097))
 // CS Name: ::StandardLevelNoTransitionInstaller*
 class CORDL_TYPE StandardLevelNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
@@ -50,15 +50,15 @@ public:
 
   constexpr void __set__standardLevelNoTransitionInstallerData(::GlobalNamespace::StandardLevelNoTransitionInstallerData* value);
 
-  /// @brief Method get_standardLevelNoTransitionInstallerData addr 0x231b74c size 0x8 virtual false final false
+  /// @brief Method get_standardLevelNoTransitionInstallerData addr 0x21c83e4 size 0x8 virtual false final false
   inline ::GlobalNamespace::StandardLevelNoTransitionInstallerData* get_standardLevelNoTransitionInstallerData();
 
-  /// @brief Method InstallBindings addr 0x231b754 size 0x150 virtual true final false
+  /// @brief Method InstallBindings addr 0x21c83ec size 0x144 virtual true final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::StandardLevelNoTransitionInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x231bf10 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21c8530 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelNoTransitionInstaller", modifiers: "&&", def_value: None }]
@@ -85,6 +85,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelNoTransitionInstaller, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelNoTransitionInstaller, ____scenesTransitionSetupData) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelNoTransitionInstaller, ____standardLevelNoTransitionInstallerData) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandardLevelNoTransitionInstaller);

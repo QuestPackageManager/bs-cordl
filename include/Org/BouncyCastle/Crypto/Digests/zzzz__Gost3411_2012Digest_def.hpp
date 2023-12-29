@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Gost3411_2012Digest)
-namespace Org::BouncyCastle::Utilities {
-class IMemoable;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Utilities {
+class IMemoable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(752))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::Gost3411_2012Digest*
 class CORDL_TYPE Gost3411_2012Digest : public ::System::Object {
@@ -141,7 +141,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> IV);
 
-  /// @brief Method .ctor addr 0x12231b8 size 0x104 virtual false final false
+  /// @brief Method .ctor addr 0x11b2f68 size 0x104 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> IV);
 
   /// @brief Method get_AlgorithmName addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -150,46 +150,46 @@ public:
   /// @brief Method Copy addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method DoFinal addr 0x12232bc size 0x178 virtual true final false
+  /// @brief Method DoFinal addr 0x11b306c size 0x178 virtual true final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetByteLength addr 0x12236a8 size 0x8 virtual true final true
+  /// @brief Method GetByteLength addr 0x11b3458 size 0x8 virtual true final true
   inline int32_t GetByteLength();
 
   /// @brief Method GetDigestSize addr 0x0 size 0xffffffffffffffff virtual true final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method Reset addr 0x1223604 size 0xa4 virtual true final true
+  /// @brief Method Reset addr 0x11b33b4 size 0xa4 virtual true final true
   inline void Reset();
 
-  /// @brief Method Reset addr 0x12236b0 size 0x14c virtual true final true
+  /// @brief Method Reset addr 0x11b3460 size 0x14c virtual true final true
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
-  /// @brief Method Update addr 0x12237fc size 0x7c virtual true final true
+  /// @brief Method Update addr 0x11b35ac size 0x7c virtual true final true
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate addr 0x1223878 size 0x140 virtual true final true
+  /// @brief Method BlockUpdate addr 0x11b3628 size 0x140 virtual true final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method F addr 0x12239b8 size 0xb54 virtual false final false
+  /// @brief Method F addr 0x11b3768 size 0xb54 virtual false final false
   inline void F(::ArrayW<uint8_t, ::Array<uint8_t>*> V);
 
-  /// @brief Method xor512 addr 0x122450c size 0x5c virtual false final false
+  /// @brief Method xor512 addr 0x11b42bc size 0x5c virtual false final false
   inline void xor512(::ArrayW<uint8_t, ::Array<uint8_t>*> A, ::ArrayW<uint8_t, ::Array<uint8_t>*> B);
 
-  /// @brief Method E addr 0x1224568 size 0x11c virtual false final false
+  /// @brief Method E addr 0x11b4318 size 0x11c virtual false final false
   inline void E(::ArrayW<uint8_t, ::Array<uint8_t>*> K, ::ArrayW<uint8_t, ::Array<uint8_t>*> m);
 
-  /// @brief Method g_N addr 0x1223434 size 0x80 virtual false final false
+  /// @brief Method g_N addr 0x11b31e4 size 0x80 virtual false final false
   inline void g_N(::ArrayW<uint8_t, ::Array<uint8_t>*> h, ::ArrayW<uint8_t, ::Array<uint8_t>*> N, ::ArrayW<uint8_t, ::Array<uint8_t>*> m);
 
-  /// @brief Method addMod512 addr 0x12234b4 size 0x80 virtual false final false
+  /// @brief Method addMod512 addr 0x11b3264 size 0x80 virtual false final false
   inline void addMod512(::ArrayW<uint8_t, ::Array<uint8_t>*> A, int32_t num);
 
-  /// @brief Method addMod512 addr 0x1223534 size 0x60 virtual false final false
+  /// @brief Method addMod512 addr 0x11b32e4 size 0x60 virtual false final false
   inline void addMod512(::ArrayW<uint8_t, ::Array<uint8_t>*> A, ::ArrayW<uint8_t, ::Array<uint8_t>*> B);
 
-  /// @brief Method reverse addr 0x1223594 size 0x70 virtual false final false
+  /// @brief Method reverse addr 0x11b3344 size 0x70 virtual false final false
   inline void reverse(::ArrayW<uint8_t, ::Array<uint8_t>*> src, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst);
 
   // Ctor Parameters [CppParam { name: "", ty: "Gost3411_2012Digest", modifiers: "&&", def_value: None }]
@@ -237,6 +237,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest, ___IV) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest, ___N) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest, ___Sigma) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest, ___Ki) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest, ___m) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest, ___h) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest, ___tmp) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest, ___block) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest, ___bOff) == 0x50, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Digests
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest);

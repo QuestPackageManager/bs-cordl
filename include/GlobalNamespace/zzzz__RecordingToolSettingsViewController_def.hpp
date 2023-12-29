@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(RecordingToolSettingsViewController)
 namespace System {
 class Action;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace GlobalNamespace {
+class RecordingToolManager;
 }
 namespace HMUI {
 class TextPageScrollView;
 }
-namespace GlobalNamespace {
-class RecordingToolManager;
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingToolSettingsViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5740))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5840))
 // CS Name: ::RecordingToolSettingsViewController*
 class CORDL_TYPE RecordingToolSettingsViewController : public ::HMUI::ViewController {
 public:
@@ -68,21 +68,21 @@ public:
 
   constexpr void __set_didFinishEvent(::System::Action* value);
 
-  /// @brief Method add_didFinishEvent addr 0x22d5fd0 size 0x9c virtual false final false
+  /// @brief Method add_didFinishEvent addr 0x21931f4 size 0x9c virtual false final false
   inline void add_didFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x22d606c size 0x9c virtual false final false
+  /// @brief Method remove_didFinishEvent addr 0x2193290 size 0x9c virtual false final false
   inline void remove_didFinishEvent(::System::Action* value);
 
-  /// @brief Method DidActivate addr 0x22d6108 size 0x120 virtual true final false
+  /// @brief Method DidActivate addr 0x219332c size 0x120 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::RecordingToolSettingsViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22d6228 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x219344c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__6_0 addr 0x22d6230 size 0x1c virtual false final false
+  /// @brief Method <DidActivate>b__6_0 addr 0x2193454 size 0x1c virtual false final false
   inline void _DidActivate_b__6_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettingsViewController", modifiers: "&&", def_value: None }]
@@ -115,6 +115,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RecordingToolSettingsViewController, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsViewController, ____continueButton) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsViewController, ____textPageScrollView) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsViewController, ____recordingToolManager) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsViewController, ___didFinishEvent) == 0x88, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RecordingToolSettingsViewController);

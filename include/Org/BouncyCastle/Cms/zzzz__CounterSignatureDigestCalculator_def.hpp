@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(665))
 // CS Name: ::Org.BouncyCastle.Cms::CounterSignatureDigestCalculator*
 class CORDL_TYPE CounterSignatureDigestCalculator : public ::System::Object {
@@ -49,10 +49,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator* New_ctor(::StringW alg, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0x12001c4 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x118ef74 size 0x2c virtual false final false
   inline void _ctor(::StringW alg, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method GetDigest addr 0x12001f0 size 0xa8 virtual true final true
+  /// @brief Method GetDigest addr 0x118efa0 size 0xa8 virtual true final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
 
   // Ctor Parameters [CppParam { name: "", ty: "CounterSignatureDigestCalculator", modifiers: "&&", def_value: None }]
@@ -79,6 +79,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator, ___alg) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator, ___data) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator);

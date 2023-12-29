@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightBakingOutput)
 namespace UnityEngine {
-struct MixedLightingMode;
+struct LightmapBakeType;
 }
 namespace UnityEngine {
-struct LightmapBakeType;
+struct MixedLightingMode;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -23,8 +23,8 @@ MARK_VAL_T(::UnityEngine::LightBakingOutput);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 33, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10105)), TypeDefinitionIndex(TypeDefinitionIndex(10106))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10080))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10033)), TypeDefinitionIndex(TypeDefinitionIndex(10034))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10008))
 // CS Name: ::UnityEngine::LightBakingOutput
 struct CORDL_TYPE LightBakingOutput {
 public:
@@ -61,6 +61,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::LightBakingOutput, 0x14>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::LightBakingOutput, probeOcclusionLightIndex) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::LightBakingOutput, occlusionMaskChannel) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::LightBakingOutput, lightmapBakeType) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::LightBakingOutput, mixedLightingMode) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::LightBakingOutput, isBaked) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LightBakingOutput, "UnityEngine", "LightBakingOutput");

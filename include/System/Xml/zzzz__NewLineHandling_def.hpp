@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::NewLineHandling);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11435))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11363))
 // CS Name: ::System.Xml::NewLineHandling
 struct CORDL_TYPE NewLineHandling {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::NewLineHandling, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::NewLineHandling, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::NewLineHandling, "System.Xml", "NewLineHandling");

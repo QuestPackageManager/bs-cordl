@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(INoteControllerNoteWasCutEvent)
 namespace GlobalNamespace {
-struct NoteCutInfo;
+class NoteController;
 }
 namespace GlobalNamespace {
-class NoteController;
+struct NoteCutInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteControllerNoteWasCutEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4766))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4887))
 // CS Name: ::INoteControllerNoteWasCutEvent*
 class CORDL_TYPE INoteControllerNoteWasCutEvent {
 public:

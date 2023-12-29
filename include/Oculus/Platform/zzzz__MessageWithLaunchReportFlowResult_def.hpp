@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithLaunchReportFlowResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4590 }), TypeDefinitionIndex(TypeDefinitionIndex(13445)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13262))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13296)) CS Name: ::Oculus.Platform::MessageWithLaunchReportFlowResult*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst: 4491 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13269))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13309)) CS Name: ::Oculus.Platform::MessageWithLaunchReportFlowResult*
 class CORDL_TYPE MessageWithLaunchReportFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchReportFlowResult*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithLaunchReportFlowResult* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x26f2000 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x2596204 size 0x58 virtual false final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetLaunchReportFlowResult addr 0x26f2058 size 0x3c virtual true final false
+  /// @brief Method GetLaunchReportFlowResult addr 0x259625c size 0x3c virtual true final false
   inline ::Oculus::Platform::Models::LaunchReportFlowResult* GetLaunchReportFlowResult();
 
-  /// @brief Method GetDataFromMessage addr 0x26f2094 size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage addr 0x2596298 size 0x9c virtual true final false
   inline ::Oculus::Platform::Models::LaunchReportFlowResult* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithLaunchReportFlowResult", modifiers: "&&", def_value: None }]

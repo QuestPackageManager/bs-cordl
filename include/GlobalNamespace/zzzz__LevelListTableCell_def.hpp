@@ -2,7 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__EntitlementStatus_def.hpp"
+#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
@@ -14,47 +14,47 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelListTableCell)
-namespace UnityEngine {
-class GameObject;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace GlobalNamespace {
-class IAdditionalContentModel;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
 namespace GlobalNamespace {
 struct __LevelListTableCell___RefreshAvailabilityAsync_d__24;
 }
 namespace UnityEngine::UI {
 class Image;
 }
-namespace HMUI {
-struct __SelectableCell__TransitionType;
+namespace GlobalNamespace {
+struct __LevelListTableCell___SetDataFromLevelAsync_d__19;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
+namespace HMUI {
+struct __SelectableCell__TransitionType;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace GlobalNamespace {
-struct __LevelListTableCell___SetDataFromLevelAsync_d__19;
+namespace UnityEngine {
+class GameObject;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+class AdditionalContentModel;
+}
+namespace GlobalNamespace {
+struct __AdditionalContentModel__EntitlementStatus;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
-namespace GlobalNamespace {
-struct EntitlementStatus;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -80,19 +80,19 @@ MARK_VAL_T(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5428))
-// CS Name: ::LevelListTableCell::<SetDataFromLevelAsync>d__19
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(10213)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 765 }), TypeDefinitionIndex(TypeDefinitionIndex(3389))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5528)) CS
+// Name: ::LevelListTableCell::<SetDataFromLevelAsync>d__19
 struct CORDL_TYPE __LevelListTableCell___SetDataFromLevelAsync_d__19 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x227aee4 size 0xa50 virtual true final true
+  /// @brief Method MoveNext addr 0x2137e28 size 0xa50 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x227b934 size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0x2138878 size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -145,13 +145,31 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19, 0x50>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19, level) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19, isFavorite) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19, isPromoted) == 0x39, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19, isUpdated) == 0x3a, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19, _cancellationToken_5__2) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19, __u__1) == 0x48, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<RefreshAvailabilityAsync>d__24
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5429)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(4122)), TypeDefinitionIndex(TypeDefinitionIndex(3389)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(2675))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5529)) CS
 // Name: ::LevelListTableCell::<RefreshAvailabilityAsync>d__24
 struct CORDL_TYPE __LevelListTableCell___RefreshAvailabilityAsync_d__24 {
 public:
@@ -159,21 +177,21 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x227b940 size 0x46c virtual true final true
+  /// @brief Method MoveNext addr 0x2138884 size 0x3f8 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x227bdac size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0x2138c7c size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LevelListTableCell*", modifiers: "",
-  // def_value: None }, CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "contentModel", ty: "::GlobalNamespace::IAdditionalContentModel*", modifiers:
-  // "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
+  // def_value: None }, CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "contentModel", ty: "::GlobalNamespace::AdditionalContentModel*", modifiers: "",
+  // def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__EntitlementStatus>", modifiers: "", def_value: None }]
   constexpr __LevelListTableCell___RefreshAvailabilityAsync_d__24(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                  ::GlobalNamespace::LevelListTableCell* __4__this, ::StringW levelID, ::GlobalNamespace::IAdditionalContentModel* contentModel,
+                                                                  ::GlobalNamespace::LevelListTableCell* __4__this, ::StringW levelID, ::GlobalNamespace::AdditionalContentModel* contentModel,
                                                                   ::System::Threading::CancellationToken _cancellationToken_5__2,
-                                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
+                                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__EntitlementStatus> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -192,13 +210,13 @@ public:
   ::StringW levelID;
 
   /// @brief Field contentModel, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::IAdditionalContentModel* contentModel;
+  ::GlobalNamespace::AdditionalContentModel* contentModel;
 
   /// @brief Field <cancellationToken>5__2, offset: 0x40, size: 0x8, def value: None
   ::System::Threading::CancellationToken _cancellationToken_5__2;
 
   /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__EntitlementStatus> __u__1;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -208,13 +226,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24, 0x50>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24, levelID) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24, contentModel) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24, _cancellationToken_5__2) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24, __u__1) == 0x48, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LevelListTableCell
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5430))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(13781))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5530))
 // CS Name: ::LevelListTableCell*
 class CORDL_TYPE LevelListTableCell : public ::HMUI::TableCell {
 public:
@@ -396,30 +428,30 @@ public:
 
   constexpr void __set__settingDataFromLevelId(::StringW value);
 
-  /// @brief Method SetDataFromLevelAsync addr 0x227ac64 size 0xc0 virtual false final false
+  /// @brief Method SetDataFromLevelAsync addr 0x2137ba8 size 0xc0 virtual false final false
   inline void SetDataFromLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* level, bool isFavorite, bool isPromoted, bool isUpdated);
 
-  /// @brief Method SelectionDidChange addr 0x227ad24 size 0x4 virtual true final false
+  /// @brief Method SelectionDidChange addr 0x2137c68 size 0x4 virtual true final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method HighlightDidChange addr 0x227adec size 0x4 virtual true final false
+  /// @brief Method HighlightDidChange addr 0x2137d30 size 0x4 virtual true final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method RefreshVisuals addr 0x227ad28 size 0xc4 virtual false final false
+  /// @brief Method RefreshVisuals addr 0x2137c6c size 0xc4 virtual false final false
   inline void RefreshVisuals();
 
-  /// @brief Method WasPreparedForReuse addr 0x227adf0 size 0x4 virtual true final false
+  /// @brief Method WasPreparedForReuse addr 0x2137d34 size 0x4 virtual true final false
   inline void WasPreparedForReuse();
 
-  /// @brief Method RefreshAvailabilityAsync addr 0x227ae2c size 0xa8 virtual false final false
-  inline void RefreshAvailabilityAsync(::GlobalNamespace::IAdditionalContentModel* contentModel, ::StringW levelID);
+  /// @brief Method RefreshAvailabilityAsync addr 0x2137d70 size 0xa8 virtual false final false
+  inline void RefreshAvailabilityAsync(::GlobalNamespace::AdditionalContentModel* contentModel, ::StringW levelID);
 
-  /// @brief Method CancelAsyncOperations addr 0x227adf4 size 0x38 virtual false final false
+  /// @brief Method CancelAsyncOperations addr 0x2137d38 size 0x38 virtual false final false
   inline void CancelAsyncOperations();
 
   static inline ::GlobalNamespace::LevelListTableCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x227aed4 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2137e18 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelListTableCell", modifiers: "&&", def_value: None }]
@@ -497,6 +529,44 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelListTableCell, 0x108>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____backgroundImage) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____canvasGroup) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____coverImage) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____songNameText) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____songAuthorText) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____favoritesBadgeImage) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____songDurationText) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____songBpmText) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____highlightBackgroundColor) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____selectedBackgroundColor) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____selectedAndHighlightedBackgroundColor) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____notOwnedAlpha) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____promoBadgeGo) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____updatedBadgeGo) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____refreshingAvailabilityCancellationTokenSource) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____settingDataCancellationTokenSource) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____notOwned) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____refreshingAvailabilityLevelID) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____settingDataFromLevelId) == 0x100, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelListTableCell);

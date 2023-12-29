@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SmoothStepPositionEventEffect)
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
 namespace Tweening {
 class SongTimeTweeningManager;
 }
-namespace Tweening {
-class Vector3Tween;
-}
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class BeatmapDataCallbackWrapper;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace Tweening {
+class Vector3Tween;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SmoothStepPositionEventEffect);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4970))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(14941))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5075))
 // CS Name: ::SmoothStepPositionEventEffect*
 class CORDL_TYPE SmoothStepPositionEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -153,27 +153,27 @@ public:
 
   constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Awake addr 0x23b242c size 0x110 virtual false final false
+  /// @brief Method Awake addr 0x2279614 size 0x110 virtual false final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x23b253c size 0x124 virtual false final false
+  /// @brief Method Start addr 0x2279724 size 0x124 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x23b2660 size 0x9c virtual false final false
+  /// @brief Method OnDestroy addr 0x2279848 size 0x9c virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeatmapEvent addr 0x23b26fc size 0xdc virtual false final false
+  /// @brief Method HandleBeatmapEvent addr 0x22798e4 size 0xdc virtual false final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method GetPositionForValue addr 0x23b27d8 size 0x60 virtual false final false
+  /// @brief Method GetPositionForValue addr 0x22799c0 size 0x60 virtual false final false
   inline ::UnityEngine::Vector3 GetPositionForValue(int32_t value);
 
-  /// @brief Method SetPosition addr 0x23b2838 size 0x48 virtual false final false
+  /// @brief Method SetPosition addr 0x2279a20 size 0x48 virtual false final false
   inline void SetPosition(::UnityEngine::Vector3 position);
 
   static inline ::GlobalNamespace::SmoothStepPositionEventEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x23b2880 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x2279a68 size 0x70 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SmoothStepPositionEventEffect", modifiers: "&&", def_value: None }]
@@ -230,6 +230,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SmoothStepPositionEventEffect, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SmoothStepPositionEventEffect, ____event) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SmoothStepPositionEventEffect, ____clampValue) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SmoothStepPositionEventEffect, ____eventValueMin) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SmoothStepPositionEventEffect, ____eventValueMax) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SmoothStepPositionEventEffect, ____movementVector) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SmoothStepPositionEventEffect, ____stepSize) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SmoothStepPositionEventEffect, ____beatmapCallbacksController) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SmoothStepPositionEventEffect, ____tweeningManager) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SmoothStepPositionEventEffect, ____positionTween) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SmoothStepPositionEventEffect, ____transform) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SmoothStepPositionEventEffect, ____startPos) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SmoothStepPositionEventEffect, ____beatmapDataCallbackWrapper) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SmoothStepPositionEventEffect);

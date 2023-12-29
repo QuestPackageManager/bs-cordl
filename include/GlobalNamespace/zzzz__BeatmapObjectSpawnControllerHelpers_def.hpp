@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatmapObjectSpawnControllerHelpers)
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+struct __BeatmapObjectSpawnMovementData__NoteJumpValueType;
 }
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__NoteJumpValueType;
+class PlayerSpecificSettings;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,13 +22,13 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectSpawnControllerHelpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4721))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4842))
 // CS Name: ::BeatmapObjectSpawnControllerHelpers*
 class CORDL_TYPE BeatmapObjectSpawnControllerHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetNoteJumpValues addr 0x2380a2c size 0x38 virtual false final false
+  /// @brief Method GetNoteJumpValues addr 0x224bfb8 size 0x38 virtual false final false
   static inline void GetNoteJumpValues(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, float_t defaultNoteJumpStartBeatOffset,
                                        ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteJumpValueType> noteJumpValueType, ByRef<float_t> noteJumpValue);
 

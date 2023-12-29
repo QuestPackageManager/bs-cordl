@@ -11,11 +11,11 @@ class Asn1Sequence;
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Asn1::Crmf {
-class AttributeTypeAndValue;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class AttributeTypeAndValue;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -44,22 +44,22 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::Controls* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe8577c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xe105a8 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe848c8 size 0x18c virtual false final false
+  /// @brief Method GetInstance addr 0xe0f6f4 size 0x18c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::Controls* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::Controls*
   New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*>*> atvs);
 
-  /// @brief Method .ctor addr 0xe857a4 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0xe105d0 size 0x7c virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*>*> atvs);
 
-  /// @brief Method ToAttributeTypeAndValueArray addr 0xe85820 size 0xf4 virtual true final false
+  /// @brief Method ToAttributeTypeAndValueArray addr 0xe1064c size 0xf4 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*>*> ToAttributeTypeAndValueArray();
 
-  /// @brief Method ToAsn1Object addr 0xe85914 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe10740 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Controls", modifiers: "&&", def_value: None }]
@@ -83,6 +83,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Crmf::Controls, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::Controls, ___content) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Crmf::Controls);

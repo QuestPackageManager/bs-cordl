@@ -11,10 +11,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HIDParser)
 namespace UnityEngine::InputSystem::HID {
-struct __HIDParser__HIDItemStateLocal;
+struct __HID__HIDDeviceDescriptor;
 }
 namespace UnityEngine::InputSystem::HID {
-struct __HID__HIDDeviceDescriptor;
+struct __HIDParser__HIDItemTypeAndTag;
 }
 namespace UnityEngine::InputSystem::HID {
 struct __HIDParser__HIDItemStateGlobal;
@@ -23,13 +23,13 @@ namespace UnityEngine::InputSystem::HID {
 struct __HIDParser__HIDReportData;
 }
 namespace UnityEngine::InputSystem::HID {
-struct __HIDParser__HIDItemTypeAndTag;
-}
-namespace System {
-template <typename T> struct Nullable_1;
+struct __HIDParser__HIDItemStateLocal;
 }
 namespace UnityEngine::InputSystem::HID {
 struct __HID__UsagePage;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -63,13 +63,13 @@ MARK_VAL_T(::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6393))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6406))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6479))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6492))
 // CS Name: ::HIDParser::HIDReportData
 struct CORDL_TYPE __HIDParser__HIDReportData {
 public:
   // Declarations
-  /// @brief Method FindOrAddReport addr 0x2adfb04 size 0x18c virtual false final false
+  /// @brief Method FindOrAddReport addr 0x295fdbc size 0x18c virtual false final false
   static inline int32_t FindOrAddReport(::System::Nullable_1<int32_t> reportId, ::UnityEngine::InputSystem::HID::__HID__HIDReportType reportType,
                                         ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData>* reports);
 
@@ -98,13 +98,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData, 0xc>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData, reportId) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData, reportType) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData, currentBitOffset) == 0x8, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::HIDItemTypeAndTag
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6407))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6493))
 // CS Name: ::HIDParser::HIDItemTypeAndTag
 struct CORDL_TYPE __HIDParser__HIDItemTypeAndTag {
 public:
@@ -246,24 +252,26 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::HIDItemStateLocal
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6408))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 101 }), TypeDefinitionIndex(TypeDefinitionIndex(2446))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6494))
 // CS Name: ::HIDParser::HIDItemStateLocal
 struct CORDL_TYPE __HIDParser__HIDItemStateLocal {
 public:
   // Declarations
-  /// @brief Method Reset addr 0x2adfaa4 size 0x60 virtual false final false
+  /// @brief Method Reset addr 0x295fd5c size 0x60 virtual false final false
   static inline void Reset(ByRef<::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal> state);
 
-  /// @brief Method SetUsage addr 0x2adf7a8 size 0x158 virtual false final false
+  /// @brief Method SetUsage addr 0x295fa60 size 0x158 virtual false final false
   inline void SetUsage(int32_t value);
 
-  /// @brief Method GetUsage addr 0x2adf98c size 0x118 virtual false final false
+  /// @brief Method GetUsage addr 0x295fc44 size 0x118 virtual false final false
   inline int32_t GetUsage(int32_t index);
 
   // Ctor Parameters [CppParam { name: "usage", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "usageMinimum", ty: "::System::Nullable_1<int32_t>", modifiers:
@@ -319,24 +327,44 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal, 0x50>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal, usage) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal, usageMinimum) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal, usageMaximum) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal, designatorIndex) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal, designatorMinimum) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal, designatorMaximum) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal, stringIndex) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal, stringMinimum) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal, stringMaximum) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal, usageList) == 0x48, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::HIDItemStateGlobal
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2448))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6409))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2446)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 101 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6495))
 // CS Name: ::HIDParser::HIDItemStateGlobal
 struct CORDL_TYPE __HIDParser__HIDItemStateGlobal {
 public:
   // Declarations
-  /// @brief Method GetUsagePage addr 0x2adf900 size 0x8c virtual false final false
+  /// @brief Method GetUsagePage addr 0x295fbb8 size 0x8c virtual false final false
   inline ::UnityEngine::InputSystem::HID::__HID__UsagePage GetUsagePage(int32_t index, ByRef<::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal> localItemState);
 
-  /// @brief Method GetPhysicalMin addr 0x2adfc90 size 0xc4 virtual false final false
+  /// @brief Method GetPhysicalMin addr 0x295ff48 size 0xc4 virtual false final false
   inline int32_t GetPhysicalMin();
 
-  /// @brief Method GetPhysicalMax addr 0x2adfd54 size 0xb4 virtual false final false
+  /// @brief Method GetPhysicalMax addr 0x296000c size 0xb4 virtual false final false
   inline int32_t GetPhysicalMax();
 
   // Ctor Parameters [CppParam { name: "usagePage", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "logicalMinimum", ty: "::System::Nullable_1<int32_t>",
@@ -392,13 +420,33 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal, 0x50>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal, usagePage) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal, logicalMinimum) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal, logicalMaximum) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal, physicalMinimum) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal, physicalMaximum) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal, unitExponent) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal, unit) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal, reportSize) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal, reportCount) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal, reportId) == 0x48, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::HID
 // Type: UnityEngine.InputSystem.HID::HIDParser
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6410))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6496))
 // CS Name: ::UnityEngine.InputSystem.HID::HIDParser*
 class CORDL_TYPE HIDParser : public ::System::Object {
 public:
@@ -411,13 +459,13 @@ public:
 
   using HIDReportData = ::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData;
 
-  /// @brief Method ParseReportDescriptor addr 0x2adf6c0 size 0x70 virtual false final false
+  /// @brief Method ParseReportDescriptor addr 0x295f978 size 0x70 virtual false final false
   static inline bool ParseReportDescriptor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor> deviceDescriptor);
 
-  /// @brief Method ParseReportDescriptor addr 0x2adbffc size 0xc44 virtual false final false
+  /// @brief Method ParseReportDescriptor addr 0x295c2b4 size 0xc44 virtual false final false
   static inline bool ParseReportDescriptor(::cordl_internals::Ptr<uint8_t> bufferPtr, int32_t bufferLength, ByRef<::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor> deviceDescriptor);
 
-  /// @brief Method ReadData addr 0x2adf730 size 0x78 virtual false final false
+  /// @brief Method ReadData addr 0x295f9e8 size 0x78 virtual false final false
   static inline int32_t ReadData(int32_t itemSize, ::cordl_internals::Ptr<uint8_t> currentPtr, ::cordl_internals::Ptr<uint8_t> endPtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "HIDParser", modifiers: "&&", def_value: None }]

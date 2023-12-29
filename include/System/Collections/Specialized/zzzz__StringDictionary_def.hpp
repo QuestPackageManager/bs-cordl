@@ -9,10 +9,10 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
-class IEnumerable;
+class Hashtable;
 }
 namespace System::Collections {
-class Hashtable;
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Collections::Specialized {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Collections::Specialized::StringDictionary);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9518))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8355))
 // CS Name: ::System.Collections.Specialized::StringDictionary*
 class CORDL_TYPE StringDictionary : public ::System::Object {
 public:
@@ -44,13 +44,13 @@ public:
 
   static inline ::System::Collections::Specialized::StringDictionary* New_ctor();
 
-  /// @brief Method .ctor addr 0x293fc3c size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x27c1c14 size 0x68 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Add addr 0x293fca4 size 0x98 virtual true final false
+  /// @brief Method Add addr 0x27c1c7c size 0x98 virtual true final false
   inline void Add(::StringW key, ::StringW value);
 
-  /// @brief Method GetEnumerator addr 0x293fd3c size 0x24 virtual true final false
+  /// @brief Method GetEnumerator addr 0x27c1d14 size 0x24 virtual true final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "StringDictionary", modifiers: "&&", def_value: None }]
@@ -74,6 +74,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::Specialized::StringDictionary, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::StringDictionary, ___contents) == 0x10, "Offset mismatch!");
 
 } // namespace System::Collections::Specialized
 NEED_NO_BOX(::System::Collections::Specialized::StringDictionary);

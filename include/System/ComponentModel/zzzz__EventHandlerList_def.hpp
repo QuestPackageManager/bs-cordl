@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EventHandlerList)
-namespace System {
-class Delegate;
-}
-namespace System {
-class Object;
-}
 namespace System::ComponentModel {
 class __EventHandlerList__ListEntry;
 }
+namespace System {
+class Delegate;
+}
 namespace System::ComponentModel {
 class Component;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::System::ComponentModel::__EventHandlerList__ListEntry);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9394))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8231))
 // CS Name: ::EventHandlerList::ListEntry*
 class CORDL_TYPE __EventHandlerList__ListEntry : public ::System::Object {
 public:
@@ -91,13 +91,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::__EventHandlerList__ListEntry, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::System::ComponentModel::__EventHandlerList__ListEntry, ____next) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::__EventHandlerList__ListEntry, ____key) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::__EventHandlerList__ListEntry, ____handler) == 0x20, "Offset mismatch!");
+
 } // namespace System::ComponentModel
 // Type: System.ComponentModel::EventHandlerList
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9395))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8232))
 // CS Name: ::System.ComponentModel::EventHandlerList*
 class CORDL_TYPE EventHandlerList : public ::System::Object {
 public:
@@ -124,10 +130,10 @@ public:
 
   constexpr void __set__parent(::System::ComponentModel::Component* value);
 
-  /// @brief Method get_Item addr 0x2904dbc size 0x60 virtual false final false
+  /// @brief Method get_Item addr 0x2786d94 size 0x60 virtual false final false
   inline ::System::Delegate* get_Item(::System::Object* key);
 
-  /// @brief Method Find addr 0x2904e1c size 0x18 virtual false final false
+  /// @brief Method Find addr 0x2786df4 size 0x18 virtual false final false
   inline ::System::ComponentModel::__EventHandlerList__ListEntry* Find(::System::Object* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "EventHandlerList", modifiers: "&&", def_value: None }]
@@ -154,6 +160,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::EventHandlerList, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::EventHandlerList, ____head) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::EventHandlerList, ____parent) == 0x18, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::EventHandlerList);

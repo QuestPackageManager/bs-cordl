@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::FontStyle);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15896))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15788))
 // CS Name: ::UnityEngine::FontStyle
 struct CORDL_TYPE FontStyle {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::FontStyle, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::FontStyle, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::FontStyle, "UnityEngine", "FontStyle");

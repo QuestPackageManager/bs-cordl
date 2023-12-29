@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncConnection);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13339)), TypeDefinitionIndex(TypeDefinitionIndex(13338))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13458))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13366)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(13365))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13513))
 // CS Name: ::Oculus.Platform.Models::NetSyncConnection*
 class CORDL_TYPE NetSyncConnection : public ::System::Object {
 public:
@@ -71,7 +71,7 @@ public:
 
   static inline ::Oculus::Platform::Models::NetSyncConnection* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x27074e0 size 0xb8 virtual false final false
+  /// @brief Method .ctor addr 0x25b5c64 size 0xb8 virtual false final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSyncConnection", modifiers: "&&", def_value: None }]
@@ -107,6 +107,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::NetSyncConnection, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::NetSyncConnection, ___ConnectionId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::NetSyncConnection, ___DisconnectReason) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::NetSyncConnection, ___SessionId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::NetSyncConnection, ___Status) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::NetSyncConnection, ___ZoneId) == 0x30, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::NetSyncConnection);

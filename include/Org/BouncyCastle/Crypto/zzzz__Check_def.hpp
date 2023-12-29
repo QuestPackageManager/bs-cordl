@@ -17,24 +17,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Check);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1346))
 // CS Name: ::Org.BouncyCastle.Crypto::Check*
 class CORDL_TYPE Check : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DataLength addr 0xfc5724 size 0x50 virtual false final false
+  /// @brief Method DataLength addr 0xf504d8 size 0x50 virtual false final false
   static inline void DataLength(bool condition, ::StringW msg);
 
-  /// @brief Method DataLength addr 0xfc5774 size 0x6c virtual false final false
+  /// @brief Method DataLength addr 0xf50528 size 0x6c virtual false final false
   static inline void DataLength(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, ::StringW msg);
 
-  /// @brief Method OutputLength addr 0xfc57e0 size 0x6c virtual false final false
+  /// @brief Method OutputLength addr 0xf50594 size 0x6c virtual false final false
   static inline void OutputLength(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, ::StringW msg);
 
   static inline ::Org::BouncyCastle::Crypto::Check* New_ctor();
 
-  /// @brief Method .ctor addr 0xfc5850 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xf50604 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Check", modifiers: "&&", def_value: None }]

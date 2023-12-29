@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayerSpecificSettingsNetSerializable)
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
 namespace UnityEngine {
 struct Color;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSpecificSettingsNetSerializable);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12690)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12927))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12618)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12848))
 // CS Name: ::PlayerSpecificSettingsNetSerializable*
 class CORDL_TYPE PlayerSpecificSettingsNetSerializable : public ::System::Object {
 public:
@@ -103,7 +103,7 @@ public:
 
   static inline ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* New_ctor();
 
-  /// @brief Method .ctor addr 0xe52590 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdcd5b0 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* New_ctor(::StringW userId, ::StringW userName, bool leftHanded, bool automaticPlayerHeight, float_t playerHeight,
@@ -111,15 +111,15 @@ public:
                                                                                    ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1,
                                                                                    ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
-  /// @brief Method .ctor addr 0xe52630 size 0x140 virtual false final false
+  /// @brief Method .ctor addr 0xdcd650 size 0x140 virtual false final false
   inline void _ctor(::StringW userId, ::StringW userName, bool leftHanded, bool automaticPlayerHeight, float_t playerHeight, float_t headPosToPlayerHeightOffset, ::UnityEngine::Color saberAColor,
                     ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1,
                     ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
-  /// @brief Method Serialize addr 0xe523a8 size 0x90 virtual true final true
+  /// @brief Method Serialize addr 0xdcd3c8 size 0x90 virtual true final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize addr 0xe52598 size 0x98 virtual true final true
+  /// @brief Method Deserialize addr 0xdcd5b8 size 0x98 virtual true final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerSpecificSettingsNetSerializable", modifiers: "&&", def_value: None }]
@@ -161,6 +161,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerSpecificSettingsNetSerializable, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerSpecificSettingsNetSerializable, ___userId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerSpecificSettingsNetSerializable, ___userName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerSpecificSettingsNetSerializable, ___leftHanded) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerSpecificSettingsNetSerializable, ___automaticPlayerHeight) == 0x21, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerSpecificSettingsNetSerializable, ___playerHeight) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerSpecificSettingsNetSerializable, ___headPosToPlayerHeightOffset) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerSpecificSettingsNetSerializable, ___colorScheme) == 0x2c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerSpecificSettingsNetSerializable);

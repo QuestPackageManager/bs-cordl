@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::EventModifiers);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14602))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14819))
 // CS Name: ::UnityEngine::EventModifiers
 struct CORDL_TYPE EventModifiers {
 public:
@@ -81,6 +81,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventModifiers, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventModifiers, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventModifiers, "UnityEngine", "EventModifiers");

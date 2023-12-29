@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Touch)
 namespace UnityEngine {
-struct TouchType;
-}
-namespace UnityEngine {
 struct TouchPhase;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+struct TouchType;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -28,8 +28,8 @@ MARK_VAL_T(::UnityEngine::Touch);
 // SizeInfo { instance_size: 68, native_size: 68, calculated_instance_size: 68, calculated_native_size: 84, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15950)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(15952))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15953))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15844)), TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(15842))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15845))
 // CS Name: ::UnityEngine::Touch
 struct CORDL_TYPE Touch {
 public:
@@ -62,55 +62,55 @@ public:
 
   __declspec(property(get = get_radiusVariance)) float_t radiusVariance;
 
-  /// @brief Method get_fingerId addr 0x2d0e1d0 size 0x8 virtual false final false
+  /// @brief Method get_fingerId addr 0x2ba6dc0 size 0x8 virtual false final false
   inline int32_t get_fingerId();
 
-  /// @brief Method get_position addr 0x2d0e1d8 size 0x8 virtual false final false
+  /// @brief Method get_position addr 0x2ba6dc8 size 0x8 virtual false final false
   inline ::UnityEngine::Vector2 get_position();
 
-  /// @brief Method set_position addr 0x2d0e1e0 size 0x8 virtual false final false
+  /// @brief Method set_position addr 0x2ba6dd0 size 0x8 virtual false final false
   inline void set_position(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_rawPosition addr 0x2d0e1e8 size 0x8 virtual false final false
+  /// @brief Method get_rawPosition addr 0x2ba6dd8 size 0x8 virtual false final false
   inline ::UnityEngine::Vector2 get_rawPosition();
 
-  /// @brief Method set_rawPosition addr 0x2d0e1f0 size 0x8 virtual false final false
+  /// @brief Method set_rawPosition addr 0x2ba6de0 size 0x8 virtual false final false
   inline void set_rawPosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_deltaPosition addr 0x2d0e1f8 size 0x8 virtual false final false
+  /// @brief Method get_deltaPosition addr 0x2ba6de8 size 0x8 virtual false final false
   inline ::UnityEngine::Vector2 get_deltaPosition();
 
-  /// @brief Method set_deltaPosition addr 0x2d0e200 size 0x8 virtual false final false
+  /// @brief Method set_deltaPosition addr 0x2ba6df0 size 0x8 virtual false final false
   inline void set_deltaPosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_deltaTime addr 0x2d0e208 size 0x8 virtual false final false
+  /// @brief Method get_deltaTime addr 0x2ba6df8 size 0x8 virtual false final false
   inline float_t get_deltaTime();
 
-  /// @brief Method get_tapCount addr 0x2d0e210 size 0x8 virtual false final false
+  /// @brief Method get_tapCount addr 0x2ba6e00 size 0x8 virtual false final false
   inline int32_t get_tapCount();
 
-  /// @brief Method get_phase addr 0x2d0e218 size 0x8 virtual false final false
+  /// @brief Method get_phase addr 0x2ba6e08 size 0x8 virtual false final false
   inline ::UnityEngine::TouchPhase get_phase();
 
-  /// @brief Method get_pressure addr 0x2d0e220 size 0x8 virtual false final false
+  /// @brief Method get_pressure addr 0x2ba6e10 size 0x8 virtual false final false
   inline float_t get_pressure();
 
-  /// @brief Method get_maximumPossiblePressure addr 0x2d0e228 size 0x8 virtual false final false
+  /// @brief Method get_maximumPossiblePressure addr 0x2ba6e18 size 0x8 virtual false final false
   inline float_t get_maximumPossiblePressure();
 
-  /// @brief Method get_type addr 0x2d0e230 size 0x8 virtual false final false
+  /// @brief Method get_type addr 0x2ba6e20 size 0x8 virtual false final false
   inline ::UnityEngine::TouchType get_type();
 
-  /// @brief Method get_altitudeAngle addr 0x2d0e238 size 0x8 virtual false final false
+  /// @brief Method get_altitudeAngle addr 0x2ba6e28 size 0x8 virtual false final false
   inline float_t get_altitudeAngle();
 
-  /// @brief Method get_azimuthAngle addr 0x2d0e240 size 0x8 virtual false final false
+  /// @brief Method get_azimuthAngle addr 0x2ba6e30 size 0x8 virtual false final false
   inline float_t get_azimuthAngle();
 
-  /// @brief Method get_radius addr 0x2d0e248 size 0x8 virtual false final false
+  /// @brief Method get_radius addr 0x2ba6e38 size 0x8 virtual false final false
   inline float_t get_radius();
 
-  /// @brief Method get_radiusVariance addr 0x2d0e250 size 0x8 virtual false final false
+  /// @brief Method get_radiusVariance addr 0x2ba6e40 size 0x8 virtual false final false
   inline float_t get_radiusVariance();
 
   // Ctor Parameters [CppParam { name: "m_FingerId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None },
@@ -177,6 +177,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Touch, 0x44>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Touch, m_FingerId) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Touch, m_Position) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Touch, m_RawPosition) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Touch, m_PositionDelta) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Touch, m_TimeDelta) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Touch, m_TapCount) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Touch, m_Phase) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Touch, m_Type) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Touch, m_Pressure) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Touch, m_maximumPossiblePressure) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Touch, m_Radius) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Touch, m_RadiusVariance) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Touch, m_AltitudeAngle) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Touch, m_AzimuthAngle) == 0x40, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Touch, "UnityEngine", "Touch");

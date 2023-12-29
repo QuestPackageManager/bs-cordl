@@ -21,28 +21,28 @@ MARK_REF_PTR_T(::UnityEngine::AudioListener);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15595))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15596))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15615))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15616))
 // CS Name: ::UnityEngine::AudioListener*
 class CORDL_TYPE AudioListener : public ::UnityEngine::AudioBehaviour {
 public:
   // Declarations
-  /// @brief Method GetOutputDataHelper addr 0x2c9b368 size 0x44 virtual false final false
+  /// @brief Method GetOutputDataHelper addr 0x2b3668c size 0x44 virtual false final false
   static inline void GetOutputDataHelper(ByRef<::ArrayW<float_t, ::Array<float_t>*>> samples, int32_t channel);
 
-  /// @brief Method GetSpectrumDataHelper addr 0x2c9b3ac size 0x54 virtual false final false
+  /// @brief Method GetSpectrumDataHelper addr 0x2b366d0 size 0x54 virtual false final false
   static inline void GetSpectrumDataHelper(ByRef<::ArrayW<float_t, ::Array<float_t>*>> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
-  /// @brief Method get_pause addr 0x2c9b400 size 0x28 virtual false final false
+  /// @brief Method get_pause addr 0x2b36724 size 0x28 virtual false final false
   static inline bool get_pause();
 
-  /// @brief Method set_pause addr 0x2c9b428 size 0x3c virtual false final false
+  /// @brief Method set_pause addr 0x2b3674c size 0x3c virtual false final false
   static inline void set_pause(bool value);
 
-  /// @brief Method GetOutputData addr 0x2c9b464 size 0x44 virtual false final false
+  /// @brief Method GetOutputData addr 0x2b36788 size 0x44 virtual false final false
   static inline void GetOutputData(::ArrayW<float_t, ::Array<float_t>*> samples, int32_t channel);
 
-  /// @brief Method GetSpectrumData addr 0x2c9b4a8 size 0x54 virtual false final false
+  /// @brief Method GetSpectrumData addr 0x2b367cc size 0x54 virtual false final false
   static inline void GetSpectrumData(::ArrayW<float_t, ::Array<float_t>*> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioListener", modifiers: "&&", def_value: None }]

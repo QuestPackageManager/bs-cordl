@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GlyphMarshallingStruct)
 namespace UnityEngine::TextCore {
-struct GlyphMetrics;
-}
-namespace UnityEngine::TextCore {
 struct GlyphClassDefinitionType;
 }
 namespace UnityEngine::TextCore {
 struct GlyphRect;
+}
+namespace UnityEngine::TextCore {
+struct GlyphMetrics;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {
@@ -28,8 +28,8 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct);
 // SizeInfo { instance_size: 52, native_size: 52, calculated_instance_size: 52, calculated_native_size: 68, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15528)), TypeDefinitionIndex(TypeDefinitionIndex(15527)), TypeDefinitionIndex(TypeDefinitionIndex(15529))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15531))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15513)), TypeDefinitionIndex(TypeDefinitionIndex(15511)), TypeDefinitionIndex(TypeDefinitionIndex(15512))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15515))
 // CS Name: ::UnityEngine.TextCore.LowLevel::GlyphMarshallingStruct
 struct CORDL_TYPE GlyphMarshallingStruct {
 public:
@@ -70,6 +70,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, 0x34>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, index) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, metrics) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, glyphRect) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, scale) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, atlasIndex) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, classDefinitionType) == 0x30, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, "UnityEngine.TextCore.LowLevel", "GlyphMarshallingStruct");

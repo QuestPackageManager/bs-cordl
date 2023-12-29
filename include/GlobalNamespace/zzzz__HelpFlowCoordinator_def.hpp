@@ -7,37 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HelpFlowCoordinator)
 namespace GlobalNamespace {
-class PlayerStatisticsViewController;
-}
-namespace GlobalNamespace {
-class PrivacyPolicyDisplayViewController;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-struct __HowToPlayViewController__HowToPlayOptions;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class EulaDisplayViewController;
-}
-namespace GlobalNamespace {
-class LicensesDisplayViewController;
-}
-namespace GlobalNamespace {
-class HelpNavigationController;
-}
-namespace GlobalNamespace {
 class HelpMenuViewController;
 }
 namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class HowToPlayViewController;
@@ -45,11 +18,35 @@ class HowToPlayViewController;
 namespace GlobalNamespace {
 class MenuTransitionsHelper;
 }
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
 namespace HMUI {
 class ViewController;
 }
 namespace GlobalNamespace {
+struct __HowToPlayViewController__HowToPlayOptions;
+}
+namespace GlobalNamespace {
+class HelpNavigationController;
+}
+namespace GlobalNamespace {
 class HealthWarningDisplayViewController;
+}
+namespace GlobalNamespace {
+class EulaDisplayViewController;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class PlayerStatisticsViewController;
+}
+namespace GlobalNamespace {
+class PrivacyPolicyDisplayViewController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,11 +55,11 @@ class HelpFlowCoordinator;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HelpFlowCoordinator);
 // Type: ::HelpFlowCoordinator
-// SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 256, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13582))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5499))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13699))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5597))
 // CS Name: ::HelpFlowCoordinator*
 class CORDL_TYPE HelpFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
@@ -87,22 +84,19 @@ public:
   /// @brief Field _eulaDisplayViewController, offset 0xd0, size 0x8
   __declspec(property(get = __get__eulaDisplayViewController, put = __set__eulaDisplayViewController))::GlobalNamespace::EulaDisplayViewController* _eulaDisplayViewController;
 
-  /// @brief Field _licensesDisplayViewController, offset 0xd8, size 0x8
-  __declspec(property(get = __get__licensesDisplayViewController, put = __set__licensesDisplayViewController))::GlobalNamespace::LicensesDisplayViewController* _licensesDisplayViewController;
-
-  /// @brief Field _playerStatisticsViewController, offset 0xe0, size 0x8
+  /// @brief Field _playerStatisticsViewController, offset 0xd8, size 0x8
   __declspec(property(get = __get__playerStatisticsViewController, put = __set__playerStatisticsViewController))::GlobalNamespace::PlayerStatisticsViewController* _playerStatisticsViewController;
 
-  /// @brief Field _playerDataModel, offset 0xe8, size 0x8
+  /// @brief Field _playerDataModel, offset 0xe0, size 0x8
   __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
 
-  /// @brief Field _menuTransitionsHelper, offset 0xf0, size 0x8
+  /// @brief Field _menuTransitionsHelper, offset 0xe8, size 0x8
   __declspec(property(get = __get__menuTransitionsHelper, put = __set__menuTransitionsHelper))::GlobalNamespace::MenuTransitionsHelper* _menuTransitionsHelper;
 
-  /// @brief Field didFinishEvent, offset 0xf8, size 0x8
+  /// @brief Field didFinishEvent, offset 0xf0, size 0x8
   __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>* didFinishEvent;
 
-  /// @brief Field _viewControllers, offset 0x100, size 0x8
+  /// @brief Field _viewControllers, offset 0xf8, size 0x8
   __declspec(property(get = __get__viewControllers, put = __set__viewControllers))::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController*, ::StringW>>* _viewControllers;
 
   constexpr ::GlobalNamespace::HelpMenuViewController*& __get__helpMenuViewController();
@@ -141,12 +135,6 @@ public:
 
   constexpr void __set__eulaDisplayViewController(::GlobalNamespace::EulaDisplayViewController* value);
 
-  constexpr ::GlobalNamespace::LicensesDisplayViewController*& __get__licensesDisplayViewController();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LicensesDisplayViewController*> const& __get__licensesDisplayViewController() const;
-
-  constexpr void __set__licensesDisplayViewController(::GlobalNamespace::LicensesDisplayViewController* value);
-
   constexpr ::GlobalNamespace::PlayerStatisticsViewController*& __get__playerStatisticsViewController();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerStatisticsViewController*> const& __get__playerStatisticsViewController() const;
@@ -177,33 +165,33 @@ public:
 
   constexpr void __set__viewControllers(::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController*, ::StringW>>* value);
 
-  /// @brief Method add_didFinishEvent addr 0x2289ca8 size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent addr 0x2145c28 size 0xb0 virtual false final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x2289d58 size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent addr 0x2145cd8 size 0xb0 virtual false final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>* value);
 
-  /// @brief Method DidActivate addr 0x2289e08 size 0x50c virtual true final false
+  /// @brief Method DidActivate addr 0x2145d88 size 0x488 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x228a314 size 0x10c virtual true final false
+  /// @brief Method DidDeactivate addr 0x2146210 size 0x10c virtual true final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleDidSelectHelpSubMenu addr 0x228a420 size 0x64 virtual false final false
+  /// @brief Method HandleDidSelectHelpSubMenu addr 0x214631c size 0x64 virtual false final false
   inline void HandleDidSelectHelpSubMenu(int32_t idx);
 
-  /// @brief Method ReplaceViewController addr 0x228a484 size 0x104 virtual false final false
+  /// @brief Method ReplaceViewController addr 0x2146380 size 0x104 virtual false final false
   inline void ReplaceViewController(::HMUI::ViewController* viewController);
 
-  /// @brief Method HandleHowToPlayViewControllerDidFinish addr 0x228a588 size 0x78 virtual false final false
+  /// @brief Method HandleHowToPlayViewControllerDidFinish addr 0x2146484 size 0x78 virtual false final false
   inline void HandleHowToPlayViewControllerDidFinish(::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions howToPlayOptions);
 
-  /// @brief Method BackButtonWasPressed addr 0x228a600 size 0x20 virtual true final false
+  /// @brief Method BackButtonWasPressed addr 0x21464fc size 0x20 virtual true final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
   static inline ::GlobalNamespace::HelpFlowCoordinator* New_ctor();
 
-  /// @brief Method .ctor addr 0x228a620 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x214651c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HelpFlowCoordinator", modifiers: "&&", def_value: None }]
@@ -238,22 +226,19 @@ public:
   /// @brief Field _eulaDisplayViewController, offset: 0xd0, size: 0x8, def value: None
   ::GlobalNamespace::EulaDisplayViewController* ____eulaDisplayViewController;
 
-  /// @brief Field _licensesDisplayViewController, offset: 0xd8, size: 0x8, def value: None
-  ::GlobalNamespace::LicensesDisplayViewController* ____licensesDisplayViewController;
-
-  /// @brief Field _playerStatisticsViewController, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field _playerStatisticsViewController, offset: 0xd8, size: 0x8, def value: None
   ::GlobalNamespace::PlayerStatisticsViewController* ____playerStatisticsViewController;
 
-  /// @brief Field _playerDataModel, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field _playerDataModel, offset: 0xe0, size: 0x8, def value: None
   ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
 
-  /// @brief Field _menuTransitionsHelper, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field _menuTransitionsHelper, offset: 0xe8, size: 0x8, def value: None
   ::GlobalNamespace::MenuTransitionsHelper* ____menuTransitionsHelper;
 
-  /// @brief Field didFinishEvent, offset: 0xf8, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0xf0, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>* ___didFinishEvent;
 
-  /// @brief Field _viewControllers, offset: 0x100, size: 0x8, def value: None
+  /// @brief Field _viewControllers, offset: 0xf8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController*, ::StringW>>* ____viewControllers;
 
   /// @brief Field kHowToPlayMenu offset 0xffffffff size 0x8
@@ -265,16 +250,35 @@ public:
   /// @brief Field kEulaMenu offset 0xffffffff size 0x8
   static constexpr ::ConstString kEulaMenu{ u"EULA_MENU" };
 
-  /// @brief Field kLicensesMenu offset 0xffffffff size 0x8
-  static constexpr ::ConstString kLicensesMenu{ u"SOFTWARE_LICENSES" };
-
   /// @brief Field kHealthWarningMenu offset 0xffffffff size 0x8
   static constexpr ::ConstString kHealthWarningMenu{ u"HEALTH_AND_SAFETY_MENU" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HelpFlowCoordinator, 0x108>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HelpFlowCoordinator, 0x100>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____helpMenuViewController) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____helpNavigationController) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____howToPlayViewController) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____healthWarningDisplayViewController) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____privacyPolicyDisplayViewController) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____eulaDisplayViewController) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____playerStatisticsViewController) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____playerDataModel) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____menuTransitionsHelper) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ___didFinishEvent) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____viewControllers) == 0xf8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HelpFlowCoordinator);

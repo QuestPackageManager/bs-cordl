@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::XR::WindowsMR::Input::WMRHMD);
 // SizeInfo { instance_size: 432, native_size: -1, calculated_instance_size: 432, calculated_native_size: 432, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::WindowsMR::Input {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6324))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6124))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6410))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6210))
 // CS Name: ::UnityEngine.XR.WindowsMR.Input::WMRHMD*
 class CORDL_TYPE WMRHMD : public ::UnityEngine::InputSystem::XR::XRHMD {
 public:
@@ -34,18 +34,18 @@ public:
 
   constexpr void __set__userPresence_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_userPresence addr 0x2a34e44 size 0x8 virtual false final false
+  /// @brief Method get_userPresence addr 0x28b60fc size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_userPresence();
 
-  /// @brief Method set_userPresence addr 0x2a34e4c size 0x8 virtual false final false
+  /// @brief Method set_userPresence addr 0x28b6104 size 0x8 virtual false final false
   inline void set_userPresence(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method FinishSetup addr 0x2a34e54 size 0x7c virtual true final false
+  /// @brief Method FinishSetup addr 0x28b610c size 0x7c virtual true final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::WindowsMR::Input::WMRHMD* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a34ed0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x28b6188 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "WMRHMD", modifiers: "&&", def_value: None }]
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::WindowsMR::Input::WMRHMD, 0x1b0>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::WindowsMR::Input::WMRHMD, ____userPresence_k__BackingField) == 0x1a8, "Offset mismatch!");
 
 } // namespace UnityEngine::XR::WindowsMR::Input
 NEED_NO_BOX(::UnityEngine::XR::WindowsMR::Input::WMRHMD);

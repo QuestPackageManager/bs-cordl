@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DrawIfAttribute)
-namespace System {
-class Object;
-}
 namespace GlobalNamespace {
 struct __DrawIfAttribute__DisablingType;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::DrawIfAttribute);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16249))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16094))
 // CS Name: ::DrawIfAttribute::DisablingType
 struct CORDL_TYPE __DrawIfAttribute__DisablingType {
 public:
@@ -71,13 +71,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DrawIfAttribute__DisablingType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__DrawIfAttribute__DisablingType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::DrawIfAttribute
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(16249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16250))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10098)), TypeDefinitionIndex(TypeDefinitionIndex(16094))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16095))
 // CS Name: ::DrawIfAttribute*
 class CORDL_TYPE DrawIfAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -122,13 +124,13 @@ public:
 
   static inline ::GlobalNamespace::DrawIfAttribute* New_ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
-  /// @brief Method .ctor addr 0x2101038 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x1fac250 size 0x3c virtual false final false
   inline void _ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
   static inline ::GlobalNamespace::DrawIfAttribute* New_ctor(::StringW propertyName, ::System::Object* value, ::System::Object* orValue,
                                                              ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
-  /// @brief Method .ctor addr 0x2101074 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x1fac28c size 0x44 virtual false final false
   inline void _ctor(::StringW propertyName, ::System::Object* value, ::System::Object* orValue, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawIfAttribute", modifiers: "&&", def_value: None }]
@@ -161,6 +163,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DrawIfAttribute, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DrawIfAttribute, ___propertyName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DrawIfAttribute, ___value) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DrawIfAttribute, ___orValue) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DrawIfAttribute, ___disablingType) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__DrawIfAttribute__DisablingType, "", "DrawIfAttribute/DisablingType");

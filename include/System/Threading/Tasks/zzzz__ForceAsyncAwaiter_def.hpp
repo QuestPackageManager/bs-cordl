@@ -4,17 +4,14 @@
 CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(ForceAsyncAwaiter)
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System {
 class Action;
 }
 namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
-}
-namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -27,7 +24,7 @@ MARK_VAL_T(::System::Threading::Tasks::ForceAsyncAwaiter);
 namespace System::Threading::Tasks {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2769))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2767))
 // CS Name: ::System.Threading.Tasks::ForceAsyncAwaiter
 struct CORDL_TYPE ForceAsyncAwaiter {
 public:
@@ -37,25 +34,19 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*();
 
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
-  constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
-
-  /// @brief Method .ctor addr 0x26221b4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24c8100 size 0x8 virtual false final false
   inline void _ctor(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method GetAwaiter addr 0x26221bc size 0x8 virtual false final false
+  /// @brief Method GetAwaiter addr 0x24c8108 size 0x8 virtual false final false
   inline ::System::Threading::Tasks::ForceAsyncAwaiter GetAwaiter();
 
-  /// @brief Method get_IsCompleted addr 0x26221c4 size 0x8 virtual false final false
+  /// @brief Method get_IsCompleted addr 0x24c8110 size 0x8 virtual false final false
   inline bool get_IsCompleted();
 
-  /// @brief Method GetResult addr 0x26221cc size 0x2c virtual false final false
+  /// @brief Method GetResult addr 0x24c8118 size 0x2c virtual false final false
   inline void GetResult();
 
-  /// @brief Method OnCompleted addr 0x26221f8 size 0x58 virtual true final true
-  inline void OnCompleted(::System::Action* action);
-
-  /// @brief Method UnsafeOnCompleted addr 0x2622250 size 0x58 virtual true final true
+  /// @brief Method UnsafeOnCompleted addr 0x24c8144 size 0x58 virtual true final true
   inline void UnsafeOnCompleted(::System::Action* action);
 
   // Ctor Parameters [CppParam { name: "_task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None }]
@@ -75,6 +66,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::ForceAsyncAwaiter, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::ForceAsyncAwaiter, _task) == 0x0, "Offset mismatch!");
 
 } // namespace System::Threading::Tasks
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::ForceAsyncAwaiter, "System.Threading.Tasks", "ForceAsyncAwaiter");

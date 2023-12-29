@@ -17,23 +17,23 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::CommonUnixIPGlobalProperties);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9285))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8086))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8122))
 // CS Name: ::System.Net.NetworkInformation::CommonUnixIPGlobalProperties*
 class CORDL_TYPE CommonUnixIPGlobalProperties : public ::System::Net::NetworkInformation::IPGlobalProperties {
 public:
   // Declarations
   __declspec(property(get = get_DomainName))::StringW DomainName;
 
-  /// @brief Method getdomainname addr 0x29f03e0 size 0x8c virtual false final false
+  /// @brief Method getdomainname addr 0x2873b5c size 0x8c virtual false final false
   static inline int32_t getdomainname(::ArrayW<uint8_t, ::Array<uint8_t>*> name, int32_t len);
 
-  /// @brief Method get_DomainName addr 0x29f046c size 0x17c virtual true final false
+  /// @brief Method get_DomainName addr 0x2873be8 size 0x17c virtual true final false
   inline ::StringW get_DomainName();
 
   static inline ::System::Net::NetworkInformation::CommonUnixIPGlobalProperties* New_ctor();
 
-  /// @brief Method .ctor addr 0x29f05e8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2873d64 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CommonUnixIPGlobalProperties", modifiers: "&&", def_value: None }]

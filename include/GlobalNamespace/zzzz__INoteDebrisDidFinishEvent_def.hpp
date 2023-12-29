@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteDebrisDidFinishEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4771))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4892))
 // CS Name: ::INoteDebrisDidFinishEvent*
 class CORDL_TYPE INoteDebrisDidFinishEvent {
 public:

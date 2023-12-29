@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ObjectInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9738))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9665))
 // CS Name: ::HoudiniEngineUnity::HAPI_ObjectInfo
 struct CORDL_TYPE HAPI_ObjectInfo {
 public:
@@ -70,6 +70,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_ObjectInfo, 0x1c>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ObjectInfo, nameSH) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ObjectInfo, objectInstancePathSH) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ObjectInfo, hasTransformChanged) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ObjectInfo, haveGeosChanged) == 0x9, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ObjectInfo, isVisible) == 0xa, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ObjectInfo, isInstancer) == 0xb, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ObjectInfo, isInstanced) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ObjectInfo, geoCount) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ObjectInfo, nodeId) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ObjectInfo, objectToInstanceId) == 0x18, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_ObjectInfo, "HoudiniEngineUnity", "HAPI_ObjectInfo");

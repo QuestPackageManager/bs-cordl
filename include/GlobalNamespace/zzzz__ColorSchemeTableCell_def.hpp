@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ColorSchemeTableCell)
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace UnityEngine::UI {
-class Image;
+namespace GlobalNamespace {
+class ColorSchemeView;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace GlobalNamespace {
-class ColorSchemeView;
+namespace UnityEngine::UI {
+class Image;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeTableCell);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5411))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13781))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5503))
 // CS Name: ::ColorSchemeTableCell*
 class CORDL_TYPE ColorSchemeTableCell : public ::HMUI::TableCell {
 public:
@@ -64,22 +64,22 @@ public:
 
   constexpr void __set__editIcon(::UnityEngine::UI::Image* value);
 
-  /// @brief Method set_text addr 0x2275b64 size 0x24 virtual false final false
+  /// @brief Method set_text addr 0x2130ba0 size 0x24 virtual false final false
   inline void set_text(::StringW value);
 
-  /// @brief Method get_text addr 0x2275e58 size 0x24 virtual false final false
+  /// @brief Method get_text addr 0x2131048 size 0x24 virtual false final false
   inline ::StringW get_text();
 
-  /// @brief Method set_showEditIcon addr 0x2275b44 size 0x20 virtual false final false
+  /// @brief Method set_showEditIcon addr 0x2130b80 size 0x20 virtual false final false
   inline void set_showEditIcon(bool value);
 
-  /// @brief Method SetColors addr 0x2275b88 size 0x7c virtual false final false
+  /// @brief Method SetColors addr 0x2130bc4 size 0x78 virtual false final false
   inline void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color,
                         ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor);
 
   static inline ::GlobalNamespace::ColorSchemeTableCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x2275e7c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x213106c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeTableCell", modifiers: "&&", def_value: None }]
@@ -109,6 +109,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemeTableCell, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeTableCell, ____text) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeTableCell, ____colorSchemeView) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeTableCell, ____editIcon) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorSchemeTableCell);

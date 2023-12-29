@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EqualityComparer_1)
-namespace System::Collections {
-class IEqualityComparer;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
+}
+namespace System::Collections {
+class IEqualityComparer;
 }
 namespace System {
 class Object;
@@ -27,8 +27,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3869))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3857))
 // CS Name: ::System.Collections.Generic::EqualityComparer`1<T>*
 class CORDL_TYPE EqualityComparer_1 : public ::System::Object {
 public:

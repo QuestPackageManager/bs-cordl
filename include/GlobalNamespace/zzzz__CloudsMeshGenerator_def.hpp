@@ -15,25 +15,25 @@ namespace GlobalNamespace {
 struct __CloudsMeshGenerator__RadiusChunk;
 }
 namespace UnityEngine {
-class MeshFilter;
-}
-namespace UnityEngine {
 class Gradient;
 }
-namespace GlobalNamespace {
-struct __CloudsMeshGenerator__ProhibitedRadius;
+namespace UnityEngine {
+class Mesh;
 }
 namespace GlobalNamespace {
 struct __CloudsMeshGenerator__Ring;
+}
+namespace UnityEngine {
+class MeshFilter;
 }
 namespace GlobalNamespace {
 struct __CloudsMeshGenerator__Cloud;
 }
 namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
 class AnimationCurve;
+}
+namespace GlobalNamespace {
+struct __CloudsMeshGenerator__ProhibitedRadius;
 }
 namespace UnityEngine {
 class Transform;
@@ -65,7 +65,7 @@ MARK_VAL_T(::GlobalNamespace::__CloudsMeshGenerator__Ring);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3987))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3973))
 // CS Name: ::CloudsMeshGenerator::Cloud
 struct CORDL_TYPE __CloudsMeshGenerator__Cloud {
 public:
@@ -113,13 +113,29 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CloudsMeshGenerator__Cloud, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__Cloud, precisionOpaqueMesh) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__Cloud, lowPolyMesh) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__Cloud, sizeModifier) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__Cloud, bottomThreshold) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__Cloud, weight) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__Cloud, precisionVertexCount) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__Cloud, lowPolyVertexCount) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__Cloud, generatedCount) == 0x24, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Ring
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3988))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3974))
 // CS Name: ::CloudsMeshGenerator::Ring
 struct CORDL_TYPE __CloudsMeshGenerator__Ring {
 public:
@@ -156,13 +172,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CloudsMeshGenerator__Ring, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__Ring, radius) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__Ring, normalizedRadius) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__Ring, meshCount) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__Ring, cloudIDs) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__Ring, sizeMultiplier) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ProhibitedRadius
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3989))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3975))
 // CS Name: ::CloudsMeshGenerator::ProhibitedRadius
 struct CORDL_TYPE __CloudsMeshGenerator__ProhibitedRadius {
 public:
@@ -192,13 +218,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius, transform) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius, distance) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius, radius) == 0xc, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::RadiusChunk
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3990))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3976))
 // CS Name: ::CloudsMeshGenerator::RadiusChunk
 struct CORDL_TYPE __CloudsMeshGenerator__RadiusChunk {
 public:
@@ -231,13 +263,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CloudsMeshGenerator__RadiusChunk, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__RadiusChunk, normalizedStart) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__RadiusChunk, normalizedEnd) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__RadiusChunk, absoluteStart) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__RadiusChunk, absoluteEnd) == 0xc, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::CloudsMeshGenerator
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10164))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3991))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10092)), TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3977))
 // CS Name: ::CloudsMeshGenerator*
 class CORDL_TYPE CloudsMeshGenerator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -553,7 +593,7 @@ public:
 
   static inline ::GlobalNamespace::CloudsMeshGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x221dd28 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x20bcd40 size 0xbc virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CloudsMeshGenerator", modifiers: "&&", def_value: None }]
@@ -673,6 +713,72 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CloudsMeshGenerator, 0xe8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshFilter) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshName) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____pauseGenerator) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____bottomPushEnabled) == 0x29, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____bottomPushDistance) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____bottomScaleTopBottom) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____bottomHorizontalScale) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____drawRingGizmos) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____prohibitedRadii) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshSize) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____sizeRandomness) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____ratioRandomness) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____perMeshRadiusOffset) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____possibleColors) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____randomSeed) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____heightRandomness) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____ringRotationRandomness) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____ringCount) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshesPerRadius) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____radiusCloseFar) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____sizeCloseFar) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____heightCloseFar) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____lowPolyThreshold) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____flipNormals) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____curveMesh) == 0x9d, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____clouds) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshCount) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____vertexCount) == 0xac, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____generatedMesh) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshBounds) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____radiusChunks) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____rings) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____sortedProhibitedRadii) == 0xe0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CloudsMeshGenerator);

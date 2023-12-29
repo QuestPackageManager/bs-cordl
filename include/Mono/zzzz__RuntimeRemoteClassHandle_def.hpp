@@ -28,7 +28,7 @@ public:
   // Declarations
   __declspec(property(get = get_ProxyClass))::Mono::RuntimeClassHandle ProxyClass;
 
-  /// @brief Method get_ProxyClass addr 0x241265c size 0x1c virtual false final false
+  /// @brief Method get_ProxyClass addr 0x22b8bdc size 0x1c virtual false final false
   inline ::Mono::RuntimeClassHandle get_ProxyClass();
 
   // Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__RemoteClass>", modifiers: "", def_value: None }]
@@ -48,6 +48,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::RuntimeRemoteClassHandle, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::RuntimeRemoteClassHandle, value) == 0x0, "Offset mismatch!");
 
 } // namespace Mono
 DEFINE_IL2CPP_ARG_TYPE(::Mono::RuntimeRemoteClassHandle, "Mono", "RuntimeRemoteClassHandle");

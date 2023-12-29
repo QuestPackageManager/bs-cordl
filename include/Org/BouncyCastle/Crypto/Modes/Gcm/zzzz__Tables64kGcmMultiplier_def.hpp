@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::Gcm::Tables64kGcmMultiplier);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(955))
 // CS Name: ::Org.BouncyCastle.Crypto.Modes.Gcm::Tables64kGcmMultiplier*
 class CORDL_TYPE Tables64kGcmMultiplier : public ::System::Object {
@@ -53,15 +53,15 @@ public:
                                   ::Array<::ArrayW<::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Array<::ArrayW<uint32_t, ::Array<uint32_t>*>>*>>*>
                              value);
 
-  /// @brief Method Init addr 0xf13b58 size 0x614 virtual true final true
+  /// @brief Method Init addr 0xe9e978 size 0x614 virtual true final true
   inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> H);
 
-  /// @brief Method MultiplyH addr 0xf1416c size 0x150 virtual true final true
+  /// @brief Method MultiplyH addr 0xe9ef8c size 0x150 virtual true final true
   inline void MultiplyH(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::Gcm::Tables64kGcmMultiplier* New_ctor();
 
-  /// @brief Method .ctor addr 0xf142bc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xe9f0dc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Tables64kGcmMultiplier", modifiers: "&&", def_value: None }]
@@ -90,6 +90,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Modes::Gcm::Tables64kGcmMultiplier, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::Gcm::Tables64kGcmMultiplier, ___H) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::Gcm::Tables64kGcmMultiplier, ___M) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Modes::Gcm
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Modes::Gcm::Tables64kGcmMultiplier);

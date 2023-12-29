@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryProviderWrapper_1)
 namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
 class IProvider;
 }
-namespace System {
-class Object;
+namespace Zenject {
+template <typename TValue> class IFactory_1;
 }
 namespace Zenject {
 class IFactory;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class InjectContext;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
-template <typename TValue> class IFactory_1;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -35,8 +35,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10981))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10909))
 // CS Name: ::Zenject::FactoryProviderWrapper`1<TContract>*
 class CORDL_TYPE FactoryProviderWrapper_1 : public ::System::Object {
 public:

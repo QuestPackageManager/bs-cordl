@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidStepCounter);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6286))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6443))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6372))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6529))
 // CS Name: ::UnityEngine.InputSystem.Android::AndroidStepCounter*
 class CORDL_TYPE AndroidStepCounter : public ::UnityEngine::InputSystem::StepCounter {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidStepCounter* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ae5a20 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2965cd8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidStepCounter", modifiers: "&&", def_value: None }]

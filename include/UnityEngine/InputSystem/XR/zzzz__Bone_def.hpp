@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Bone)
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -23,8 +23,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::Bone);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6337))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6423))
 // CS Name: ::UnityEngine.InputSystem.XR::Bone
 struct CORDL_TYPE Bone {
 public:
@@ -35,22 +35,22 @@ public:
 
   __declspec(property(get = get_rotation, put = set_rotation))::UnityEngine::Quaternion rotation;
 
-  /// @brief Method get_parentBoneIndex addr 0x2ac8338 size 0x8 virtual false final false
+  /// @brief Method get_parentBoneIndex addr 0x29495f0 size 0x8 virtual false final false
   inline uint32_t get_parentBoneIndex();
 
-  /// @brief Method set_parentBoneIndex addr 0x2ac8340 size 0x8 virtual false final false
+  /// @brief Method set_parentBoneIndex addr 0x29495f8 size 0x8 virtual false final false
   inline void set_parentBoneIndex(uint32_t value);
 
-  /// @brief Method get_position addr 0x2ac8348 size 0xc virtual false final false
+  /// @brief Method get_position addr 0x2949600 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method set_position addr 0x2ac8354 size 0xc virtual false final false
+  /// @brief Method set_position addr 0x294960c size 0xc virtual false final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_rotation addr 0x2ac8360 size 0xc virtual false final false
+  /// @brief Method get_rotation addr 0x2949618 size 0xc virtual false final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method set_rotation addr 0x2ac836c size 0xc virtual false final false
+  /// @brief Method set_rotation addr 0x2949624 size 0xc virtual false final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
   // Ctor Parameters [CppParam { name: "_parentBoneIndex_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_position_k__BackingField", ty: "::UnityEngine::Vector3",
@@ -77,6 +77,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::Bone, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::Bone, _parentBoneIndex_k__BackingField) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::Bone, _position_k__BackingField) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::Bone, _rotation_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XR::Bone, "UnityEngine.InputSystem.XR", "Bone");

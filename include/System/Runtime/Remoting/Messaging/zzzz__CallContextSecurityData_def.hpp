@@ -8,10 +8,10 @@ namespace System::Security::Principal {
 class IPrincipal;
 }
 namespace System {
-class Object;
+class ICloneable;
 }
 namespace System {
-class ICloneable;
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CallContextSecurityData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3147))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3146))
 // CS Name: ::System.Runtime.Remoting.Messaging::CallContextSecurityData*
 class CORDL_TYPE CallContextSecurityData : public ::System::Object {
 public:
@@ -43,15 +43,15 @@ public:
 
   constexpr void __set__principal(::System::Security::Principal::IPrincipal* value);
 
-  /// @brief Method get_HasInfo addr 0x24a7418 size 0x10 virtual false final false
+  /// @brief Method get_HasInfo addr 0x234e924 size 0x10 virtual false final false
   inline bool get_HasInfo();
 
-  /// @brief Method Clone addr 0x24a73a0 size 0x68 virtual true final true
+  /// @brief Method Clone addr 0x234e8ac size 0x68 virtual true final true
   inline ::System::Object* Clone();
 
   static inline ::System::Runtime::Remoting::Messaging::CallContextSecurityData* New_ctor();
 
-  /// @brief Method .ctor addr 0x24a7574 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x234ea80 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CallContextSecurityData", modifiers: "&&", def_value: None }]
@@ -75,6 +75,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::CallContextSecurityData, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::CallContextSecurityData, ____principal) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CallContextSecurityData);

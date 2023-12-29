@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Security::Certificates::CertificateNotYetValidException* New_ctor();
 
-  /// @brief Method .ctor addr 0x111d9dc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x10ac788 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Security::Certificates::CertificateNotYetValidException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x111d9e4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x10ac790 size 0x8 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Security::Certificates::CertificateNotYetValidException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor addr 0x111d9ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x10ac798 size 0x8 virtual false final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateNotYetValidException", modifiers: "&&", def_value: None }]

@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(NoteControllerBase)
 namespace GlobalNamespace {
+class INoteControllerNoteDidStartDissolvingEvent;
+}
+namespace GlobalNamespace {
 class INoteControllerNoteDidPassJumpThreeQuartersEvent;
 }
 namespace GlobalNamespace {
 template <typename T> class ILazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
-}
-namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
+}
+namespace GlobalNamespace {
+class NoteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteControllerBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4770))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4891))
 // CS Name: ::NoteControllerBase*
 class CORDL_TYPE NoteControllerBase : public ::UnityEngine::MonoBehaviour {
 public:
@@ -58,7 +58,7 @@ public:
 
   static inline ::GlobalNamespace::NoteControllerBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x2387538 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2253a2c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteControllerBase", modifiers: "&&", def_value: None }]

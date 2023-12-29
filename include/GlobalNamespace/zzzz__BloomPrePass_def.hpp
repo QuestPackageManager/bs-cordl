@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePass)
 namespace GlobalNamespace {
+class BloomPrePassRendererSO;
+}
+namespace GlobalNamespace {
 struct __BloomPrePass__Mode;
+}
+namespace GlobalNamespace {
+class __BloomPrePassRenderDataSO__Data;
 }
 namespace GlobalNamespace {
 class BloomPrePassRenderDataSO;
 }
 namespace GlobalNamespace {
 class BloomPrePassEffectContainerSO;
-}
-namespace GlobalNamespace {
-class BloomPrePassRendererSO;
-}
-namespace GlobalNamespace {
-class __BloomPrePassRenderDataSO__Data;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePass);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14454))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14673))
 // CS Name: ::BloomPrePass::Mode
 struct CORDL_TYPE __BloomPrePass__Mode {
 public:
@@ -79,13 +79,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePass__Mode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BloomPrePass__Mode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BloomPrePass
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14454))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14455))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(14673))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14674))
 // CS Name: ::BloomPrePass*
 class CORDL_TYPE BloomPrePass : public ::UnityEngine::MonoBehaviour {
 public:
@@ -137,27 +139,27 @@ public:
 
   constexpr void __set__renderData(::GlobalNamespace::__BloomPrePassRenderDataSO__Data* value);
 
-  /// @brief Method Awake addr 0x2102840 size 0x4 virtual false final false
+  /// @brief Method Awake addr 0x1fad804 size 0x4 virtual false final false
   inline void Awake();
 
-  /// @brief Method LazyInit addr 0x2102844 size 0xc8 virtual false final false
+  /// @brief Method LazyInit addr 0x1fad808 size 0xc8 virtual false final false
   inline void LazyInit();
 
-  /// @brief Method OnDestroy addr 0x2102a58 size 0xac virtual false final false
+  /// @brief Method OnDestroy addr 0x1fada1c size 0xac virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method OnPreRender addr 0x2102b04 size 0x24c virtual false final false
+  /// @brief Method OnPreRender addr 0x1fadac8 size 0x24c virtual false final false
   inline void OnPreRender();
 
-  /// @brief Method OnPostRender addr 0x2103d04 size 0x94 virtual false final false
+  /// @brief Method OnPostRender addr 0x1faec10 size 0x94 virtual false final false
   inline void OnPostRender();
 
-  /// @brief Method SetMode addr 0x2103db4 size 0x8 virtual false final false
+  /// @brief Method SetMode addr 0x1faecc0 size 0x8 virtual false final false
   inline void SetMode(::GlobalNamespace::__BloomPrePass__Mode mode);
 
   static inline ::GlobalNamespace::BloomPrePass* New_ctor();
 
-  /// @brief Method .ctor addr 0x2103dbc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1faecc8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePass", modifiers: "&&", def_value: None }]
@@ -193,6 +195,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePass, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePass, ____bloomPrepassRenderer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePass, ____bloomPrePassEffectContainer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePass, ____bloomPrePassRenderData) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePass, ____mode) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePass, ____renderData) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BloomPrePass__Mode, "", "BloomPrePass/Mode");

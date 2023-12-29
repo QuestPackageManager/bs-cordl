@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::Compositor_CumulativeStats);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8705))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9474))
 // CS Name: ::OVR.OpenVR::Compositor_CumulativeStats
 struct CORDL_TYPE Compositor_CumulativeStats {
 public:
@@ -90,6 +90,36 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::Compositor_CumulativeStats, 0x3c>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nPid) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumFramePresents) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumDroppedFrames) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumReprojectedFrames) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumFramePresentsOnStartup) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumDroppedFramesOnStartup) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumReprojectedFramesOnStartup) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumLoading) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumFramePresentsLoading) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumDroppedFramesLoading) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumReprojectedFramesLoading) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumTimedOut) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumFramePresentsTimedOut) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumDroppedFramesTimedOut) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_CumulativeStats, m_nNumReprojectedFramesTimedOut) == 0x38, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::Compositor_CumulativeStats, "OVR.OpenVR", "Compositor_CumulativeStats");

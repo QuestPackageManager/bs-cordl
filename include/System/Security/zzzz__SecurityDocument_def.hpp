@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Security::SecurityDocument);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2881))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2877))
 // CS Name: ::System.Security::SecurityDocument*
 class CORDL_TYPE SecurityDocument : public ::System::Object {
 public:
@@ -38,34 +38,34 @@ public:
 
   static inline ::System::Security::SecurityDocument* New_ctor(int32_t numData);
 
-  /// @brief Method .ctor addr 0x2450378 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x22f685c size 0x68 virtual false final false
   inline void _ctor(int32_t numData);
 
-  /// @brief Method GuaranteeSize addr 0x24503e0 size 0xa4 virtual false final false
+  /// @brief Method GuaranteeSize addr 0x22f68c4 size 0xa4 virtual false final false
   inline void GuaranteeSize(int32_t size);
 
-  /// @brief Method AddString addr 0x2450484 size 0x14c virtual false final false
+  /// @brief Method AddString addr 0x22f6968 size 0x14c virtual false final false
   inline void AddString(::StringW str, ByRef<int32_t> position);
 
-  /// @brief Method AppendString addr 0x24505d0 size 0x98 virtual false final false
+  /// @brief Method AppendString addr 0x22f6ab4 size 0x98 virtual false final false
   inline void AppendString(::StringW str, ByRef<int32_t> position);
 
-  /// @brief Method EncodedStringSize addr 0x2450668 size 0x20 virtual false final false
+  /// @brief Method EncodedStringSize addr 0x22f6b4c size 0x20 virtual false final false
   static inline int32_t EncodedStringSize(::StringW str);
 
-  /// @brief Method GetString addr 0x2450688 size 0x310 virtual false final false
+  /// @brief Method GetString addr 0x22f6b6c size 0x310 virtual false final false
   inline ::StringW GetString(ByRef<int32_t> position, bool bCreate);
 
-  /// @brief Method AddToken addr 0x2450c04 size 0x5c virtual false final false
+  /// @brief Method AddToken addr 0x22f70e8 size 0x5c virtual false final false
   inline void AddToken(uint8_t b, ByRef<int32_t> position);
 
-  /// @brief Method GetRootElement addr 0x2450c60 size 0x1c virtual false final false
+  /// @brief Method GetRootElement addr 0x22f7144 size 0x1c virtual false final false
   inline ::System::Security::SecurityElement* GetRootElement();
 
-  /// @brief Method GetElement addr 0x2450c7c size 0x1c virtual false final false
+  /// @brief Method GetElement addr 0x22f7160 size 0x1c virtual false final false
   inline ::System::Security::SecurityElement* GetElement(int32_t position, bool bCreate);
 
-  /// @brief Method InternalGetElement addr 0x2450c98 size 0x208 virtual false final false
+  /// @brief Method InternalGetElement addr 0x22f717c size 0x208 virtual false final false
   inline ::System::Security::SecurityElement* InternalGetElement(ByRef<int32_t> position, bool bCreate);
 
   // Ctor Parameters [CppParam { name: "", ty: "SecurityDocument", modifiers: "&&", def_value: None }]
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::SecurityDocument, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::SecurityDocument, ___m_data) == 0x10, "Offset mismatch!");
 
 } // namespace System::Security
 NEED_NO_BOX(::System::Security::SecurityDocument);

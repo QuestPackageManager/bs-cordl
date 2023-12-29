@@ -11,19 +11,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LIV)
 namespace UnityEngine {
-class Transform;
+struct Matrix4x4;
 }
-namespace UnityEngine {
-struct LayerMask;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 class Action;
 }
 namespace UnityEngine {
-class Coroutine;
+class Camera;
 }
 namespace UnityEngine {
-struct Matrix4x4;
+class Transform;
+}
+namespace UnityEngine {
+class Coroutine;
 }
 namespace LIV::SDK::Unity {
 class __LIV___WaitForUnityEndOfFrame_d__68;
@@ -31,11 +34,8 @@ class __LIV___WaitForUnityEndOfFrame_d__68;
 namespace LIV::SDK::Unity {
 class SDKRender;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace UnityEngine {
-class Camera;
+struct LayerMask;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -44,10 +44,10 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -63,8 +63,8 @@ MARK_REF_PTR_T(::LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15093))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15197))
 // CS Name: ::LIV::<WaitForUnityEndOfFrame>d__68*
 class CORDL_TYPE __LIV___WaitForUnityEndOfFrame_d__68 : public ::System::Object {
 public:
@@ -111,22 +111,22 @@ public:
 
   static inline ::LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x220df54 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x20ad01c size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x220e934 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x20ad9fc size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x220e938 size 0xd0 virtual true final true
+  /// @brief Method MoveNext addr 0x20ada00 size 0xd0 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x220eacc size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x20adb94 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x220ead4 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x20adb9c size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x220eb14 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x20adbdc size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LIV___WaitForUnityEndOfFrame_d__68", modifiers: "&&", def_value: None }]
@@ -157,13 +157,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68, _____4__this) == 0x20, "Offset mismatch!");
+
 } // namespace LIV::SDK::Unity
 // Type: LIV.SDK.Unity::LIV
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15092)), TypeDefinitionIndex(TypeDefinitionIndex(10204))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15094))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10132)), TypeDefinitionIndex(TypeDefinitionIndex(15196))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15198))
 // CS Name: ::LIV.SDK.Unity::LIV*
 class CORDL_TYPE LIV : public ::UnityEngine::MonoBehaviour {
 public:
@@ -434,126 +440,126 @@ public:
 
   constexpr void __set__waitForEndOfFrameCoroutine(::UnityEngine::Coroutine* value);
 
-  /// @brief Method get_stage addr 0x220d6d8 size 0x90 virtual false final false
+  /// @brief Method get_stage addr 0x20ac7a0 size 0x90 virtual false final false
   inline ::UnityEngine::Transform* get_stage();
 
-  /// @brief Method set_stage addr 0x220d768 size 0x90 virtual false final false
+  /// @brief Method set_stage addr 0x20ac830 size 0x90 virtual false final false
   inline void set_stage(::UnityEngine::Transform* value);
 
-  /// @brief Method get_trackedSpaceOrigin addr 0x220d80c size 0x4 virtual false final false
+  /// @brief Method get_trackedSpaceOrigin addr 0x20ac8d4 size 0x4 virtual false final false
   inline ::UnityEngine::Transform* get_trackedSpaceOrigin();
 
-  /// @brief Method set_trackedSpaceOrigin addr 0x220d810 size 0x4 virtual false final false
+  /// @brief Method set_trackedSpaceOrigin addr 0x20ac8d8 size 0x4 virtual false final false
   inline void set_trackedSpaceOrigin(::UnityEngine::Transform* value);
 
-  /// @brief Method get_stageLocalToWorldMatrix addr 0x220d814 size 0xf8 virtual false final false
+  /// @brief Method get_stageLocalToWorldMatrix addr 0x20ac8dc size 0xf8 virtual false final false
   inline ::UnityEngine::Matrix4x4 get_stageLocalToWorldMatrix();
 
-  /// @brief Method get_stageWorldToLocalMatrix addr 0x220d90c size 0xf8 virtual false final false
+  /// @brief Method get_stageWorldToLocalMatrix addr 0x20ac9d4 size 0xf8 virtual false final false
   inline ::UnityEngine::Matrix4x4 get_stageWorldToLocalMatrix();
 
-  /// @brief Method get_stageTransform addr 0x220da04 size 0x8 virtual false final false
+  /// @brief Method get_stageTransform addr 0x20acacc size 0x8 virtual false final false
   inline ::UnityEngine::Transform* get_stageTransform();
 
-  /// @brief Method set_stageTransform addr 0x220da0c size 0x8 virtual false final false
+  /// @brief Method set_stageTransform addr 0x20acad4 size 0x8 virtual false final false
   inline void set_stageTransform(::UnityEngine::Transform* value);
 
-  /// @brief Method get_HMDCamera addr 0x220da14 size 0x8 virtual false final false
+  /// @brief Method get_HMDCamera addr 0x20acadc size 0x8 virtual false final false
   inline ::UnityEngine::Camera* get_HMDCamera();
 
-  /// @brief Method set_HMDCamera addr 0x220da1c size 0xec virtual false final false
+  /// @brief Method set_HMDCamera addr 0x20acae4 size 0xec virtual false final false
   inline void set_HMDCamera(::UnityEngine::Camera* value);
 
-  /// @brief Method get_MRCameraPrefab addr 0x220db08 size 0x8 virtual false final false
+  /// @brief Method get_MRCameraPrefab addr 0x20acbd0 size 0x8 virtual false final false
   inline ::UnityEngine::Camera* get_MRCameraPrefab();
 
-  /// @brief Method set_MRCameraPrefab addr 0x220db10 size 0x84 virtual false final false
+  /// @brief Method set_MRCameraPrefab addr 0x20acbd8 size 0x84 virtual false final false
   inline void set_MRCameraPrefab(::UnityEngine::Camera* value);
 
-  /// @brief Method get_disableStandardAssets addr 0x220db94 size 0x8 virtual false final false
+  /// @brief Method get_disableStandardAssets addr 0x20acc5c size 0x8 virtual false final false
   inline bool get_disableStandardAssets();
 
-  /// @brief Method set_disableStandardAssets addr 0x220db9c size 0xc virtual false final false
+  /// @brief Method set_disableStandardAssets addr 0x20acc64 size 0xc virtual false final false
   inline void set_disableStandardAssets(bool value);
 
-  /// @brief Method get_spectatorLayerMask addr 0x220dba8 size 0x8 virtual false final false
+  /// @brief Method get_spectatorLayerMask addr 0x20acc70 size 0x8 virtual false final false
   inline ::UnityEngine::LayerMask get_spectatorLayerMask();
 
-  /// @brief Method set_spectatorLayerMask addr 0x220dbb0 size 0x8 virtual false final false
+  /// @brief Method set_spectatorLayerMask addr 0x20acc78 size 0x8 virtual false final false
   inline void set_spectatorLayerMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method get_excludeBehaviours addr 0x220dbb8 size 0x8 virtual false final false
+  /// @brief Method get_excludeBehaviours addr 0x20acc80 size 0x8 virtual false final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_excludeBehaviours();
 
-  /// @brief Method set_excludeBehaviours addr 0x220dbc0 size 0x20 virtual false final false
+  /// @brief Method set_excludeBehaviours addr 0x20acc88 size 0x20 virtual false final false
   inline void set_excludeBehaviours(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method get_fixPostEffectsAlpha addr 0x220dbe0 size 0x8 virtual false final false
+  /// @brief Method get_fixPostEffectsAlpha addr 0x20acca8 size 0x8 virtual false final false
   inline bool get_fixPostEffectsAlpha();
 
-  /// @brief Method set_fixPostEffectsAlpha addr 0x220dbe8 size 0xc virtual false final false
+  /// @brief Method set_fixPostEffectsAlpha addr 0x20accb0 size 0xc virtual false final false
   inline void set_fixPostEffectsAlpha(bool value);
 
-  /// @brief Method get_isValid addr 0x220dbf4 size 0xf4 virtual false final false
+  /// @brief Method get_isValid addr 0x20accbc size 0xf4 virtual false final false
   inline bool get_isValid();
 
-  /// @brief Method get_isActive addr 0x220dce8 size 0x8 virtual false final false
+  /// @brief Method get_isActive addr 0x20acdb0 size 0x8 virtual false final false
   inline bool get_isActive();
 
-  /// @brief Method get__isReady addr 0x220dcf0 size 0x74 virtual false final false
+  /// @brief Method get__isReady addr 0x20acdb8 size 0x74 virtual false final false
   inline bool get__isReady();
 
-  /// @brief Method get_render addr 0x220ddfc size 0x8 virtual false final false
+  /// @brief Method get_render addr 0x20acec4 size 0x8 virtual false final false
   inline ::LIV::SDK::Unity::SDKRender* get_render();
 
-  /// @brief Method OnEnable addr 0x220de04 size 0xc virtual false final false
+  /// @brief Method OnEnable addr 0x20acecc size 0xc virtual false final false
   inline void OnEnable();
 
-  /// @brief Method Update addr 0x220de54 size 0x18 virtual false final false
+  /// @brief Method Update addr 0x20acf1c size 0x18 virtual false final false
   inline void Update();
 
-  /// @brief Method OnDisable addr 0x220dee4 size 0x8 virtual false final false
+  /// @brief Method OnDisable addr 0x20acfac size 0x8 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method WaitForUnityEndOfFrame addr 0x220deec size 0x68 virtual false final false
+  /// @brief Method WaitForUnityEndOfFrame addr 0x20acfb4 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* WaitForUnityEndOfFrame();
 
-  /// @brief Method Activate addr 0x220df7c size 0x18 virtual false final false
+  /// @brief Method Activate addr 0x20ad044 size 0x18 virtual false final false
   inline void Activate();
 
-  /// @brief Method UpdateSDKReady addr 0x220de10 size 0x44 virtual false final false
+  /// @brief Method UpdateSDKReady addr 0x20aced8 size 0x44 virtual false final false
   inline void UpdateSDKReady();
 
-  /// @brief Method OnSDKReadyChanged addr 0x220df94 size 0xc virtual false final false
+  /// @brief Method OnSDKReadyChanged addr 0x20ad05c size 0xc virtual false final false
   inline void OnSDKReadyChanged(bool value);
 
-  /// @brief Method OnSDKActivate addr 0x220dfa0 size 0xac virtual false final false
+  /// @brief Method OnSDKActivate addr 0x20ad068 size 0xac virtual false final false
   inline void OnSDKActivate();
 
-  /// @brief Method OnSDKDeactivate addr 0x220e04c size 0xb4 virtual false final false
+  /// @brief Method OnSDKDeactivate addr 0x20ad114 size 0xb4 virtual false final false
   inline void OnSDKDeactivate();
 
-  /// @brief Method CreateAssets addr 0x220e24c size 0x70 virtual false final false
+  /// @brief Method CreateAssets addr 0x20ad314 size 0x70 virtual false final false
   inline void CreateAssets();
 
-  /// @brief Method DestroyAssets addr 0x220e324 size 0x20 virtual false final false
+  /// @brief Method DestroyAssets addr 0x20ad3ec size 0x20 virtual false final false
   inline void DestroyAssets();
 
-  /// @brief Method StartRenderCoroutine addr 0x220e2bc size 0x44 virtual false final false
+  /// @brief Method StartRenderCoroutine addr 0x20ad384 size 0x44 virtual false final false
   inline void StartRenderCoroutine();
 
-  /// @brief Method StopRenderCoroutine addr 0x220e300 size 0x24 virtual false final false
+  /// @brief Method StopRenderCoroutine addr 0x20ad3c8 size 0x24 virtual false final false
   inline void StopRenderCoroutine();
 
-  /// @brief Method SubmitSDKOutput addr 0x220e100 size 0x14c virtual false final false
+  /// @brief Method SubmitSDKOutput addr 0x20ad1c8 size 0x14c virtual false final false
   inline void SubmitSDKOutput();
 
-  /// @brief Method Invalidate addr 0x220de6c size 0x78 virtual false final false
+  /// @brief Method Invalidate addr 0x20acf34 size 0x78 virtual false final false
   inline void Invalidate();
 
   static inline ::LIV::SDK::Unity::LIV* New_ctor();
 
-  /// @brief Method .ctor addr 0x220e774 size 0x1c0 virtual false final false
+  /// @brief Method .ctor addr 0x20ad83c size 0x1c0 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LIV", modifiers: "&&", def_value: None }]
@@ -652,6 +658,58 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::LIV, 0xd0>, "Size mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onActivate) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPreRender) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPreRenderBackground) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPostRenderBackground) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPreRenderForeground) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPostRenderForeground) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPostRender) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onDeactivate) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____stage) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____stageTransform) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____HMDCamera) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____MRCameraPrefab) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____disableStandardAssets) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____spectatorLayerMask) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____excludeBehaviours) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____fixPostEffectsAlpha) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____isActive) == 0x89, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____render) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____wasReady) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____invalidate) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____stageCandidate) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____HMDCameraCandidate) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____MRCameraPrefabCandidate) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____excludeBehavioursCandidate) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____enabled) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____waitForEndOfFrameCoroutine) == 0xc8, "Offset mismatch!");
 
 } // namespace LIV::SDK::Unity
 NEED_NO_BOX(::LIV::SDK::Unity::LIV);

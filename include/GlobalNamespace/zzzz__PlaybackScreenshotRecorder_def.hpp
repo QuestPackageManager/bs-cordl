@@ -10,10 +10,10 @@ namespace GlobalNamespace {
 class PlaybackRenderer;
 }
 namespace UnityEngine {
-class Texture2D;
+class RenderTexture;
 }
 namespace UnityEngine {
-class RenderTexture;
+class Texture2D;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlaybackScreenshotRecorder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5926))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6017))
 // CS Name: ::PlaybackScreenshotRecorder*
 class CORDL_TYPE PlaybackScreenshotRecorder : public ::UnityEngine::MonoBehaviour {
 public:
@@ -60,30 +60,30 @@ public:
 
   constexpr void __set__frameNumber(int32_t value);
 
-  /// @brief Method get_directory addr 0x2301358 size 0x8 virtual false final false
+  /// @brief Method get_directory addr 0x21b7da8 size 0x8 virtual false final false
   inline ::StringW get_directory();
 
-  /// @brief Method OnEnable addr 0x2301360 size 0x88 virtual false final false
+  /// @brief Method OnEnable addr 0x21b7db0 size 0x88 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x23013e8 size 0x88 virtual false final false
+  /// @brief Method OnDisable addr 0x21b7e38 size 0x88 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method Init addr 0x22ffc90 size 0xf4 virtual false final false
+  /// @brief Method Init addr 0x21b66e0 size 0xf4 virtual false final false
   inline void Init(::StringW directory, int32_t framerate, ::GlobalNamespace::PlaybackRenderer* playbackRenderer);
 
-  /// @brief Method HandleTexturesReady addr 0x2301470 size 0x7c virtual false final false
+  /// @brief Method HandleTexturesReady addr 0x21b7ec0 size 0x7c virtual false final false
   inline void HandleTexturesReady();
 
-  /// @brief Method SaveScreenshot addr 0x23014ec size 0x134 virtual false final false
+  /// @brief Method SaveScreenshot addr 0x21b7f3c size 0x134 virtual false final false
   inline void SaveScreenshot(::UnityEngine::RenderTexture* renderTexture, ::StringW directory);
 
-  /// @brief Method ConvertRenderTexture addr 0x2301620 size 0x11c virtual false final false
+  /// @brief Method ConvertRenderTexture addr 0x21b8070 size 0x11c virtual false final false
   static inline ::UnityEngine::Texture2D* ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
 
   static inline ::GlobalNamespace::PlaybackScreenshotRecorder* New_ctor();
 
-  /// @brief Method .ctor addr 0x230173c size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x21b818c size 0x50 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlaybackScreenshotRecorder", modifiers: "&&", def_value: None }]
@@ -113,6 +113,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlaybackScreenshotRecorder, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlaybackScreenshotRecorder, ____directory) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlaybackScreenshotRecorder, ____playbackRenderer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlaybackScreenshotRecorder, ____frameNumber) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlaybackScreenshotRecorder);

@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_PDG_WorkitemInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9753))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9680))
 // CS Name: ::HoudiniEngineUnity::HAPI_PDG_WorkitemInfo
 struct CORDL_TYPE HAPI_PDG_WorkitemInfo {
 public:
@@ -45,6 +45,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_PDG_WorkitemInfo, 0xc>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_PDG_WorkitemInfo, index) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_PDG_WorkitemInfo, numResults) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_PDG_WorkitemInfo, nameSH) == 0x8, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_PDG_WorkitemInfo, "HoudiniEngineUnity", "HAPI_PDG_WorkitemInfo");

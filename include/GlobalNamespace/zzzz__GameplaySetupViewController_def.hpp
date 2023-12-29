@@ -7,11 +7,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameplaySetupViewController)
+namespace HMUI {
+class TextSegmentedControl;
+}
+namespace GlobalNamespace {
+class GameplayModifiersPanelController;
+}
+namespace GlobalNamespace {
+class EnvironmentOverrideSettingsPanelController;
+}
+namespace GlobalNamespace {
+class ColorSchemesSettings;
+}
+namespace GlobalNamespace {
+struct __PlayerSettingsPanelController__PlayerSettingsPanelLayout;
+}
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace HMUI {
+class SegmentedControl;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
 class ColorsOverrideSettingsPanelController;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class MultiplayerSettingsPanelController;
@@ -20,40 +50,10 @@ namespace GlobalNamespace {
 class OverrideEnvironmentSettings;
 }
 namespace GlobalNamespace {
-class PlayerSettingsPanelController;
-}
-namespace GlobalNamespace {
-class ColorSchemesSettings;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
 class __GameplaySetupViewController__Panel;
 }
 namespace GlobalNamespace {
-class EnvironmentOverrideSettingsPanelController;
-}
-namespace GlobalNamespace {
-class GameplayModifiersPanelController;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-struct __PlayerSettingsPanelController__PlayerSettingsPanelLayout;
-}
-namespace HMUI {
-class SegmentedControl;
-}
-namespace HMUI {
-class TextSegmentedControl;
+class PlayerSettingsPanelController;
 }
 namespace GlobalNamespace {
 class IRefreshable;
@@ -75,8 +75,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameplaySetupViewController__Panel);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5637))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5736))
 // CS Name: ::GameplaySetupViewController::Panel*
 class CORDL_TYPE __GameplaySetupViewController__Panel : public ::System::Object {
 public:
@@ -110,7 +110,7 @@ public:
 
   static inline ::GlobalNamespace::__GameplaySetupViewController__Panel* New_ctor(::StringW title, ::GlobalNamespace::IRefreshable* refreshable, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method .ctor addr 0x22b312c size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x2170b10 size 0x3c virtual false final false
   inline void _ctor(::StringW title, ::GlobalNamespace::IRefreshable* refreshable, ::UnityEngine::GameObject* gameObject);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplaySetupViewController__Panel", modifiers: "&&", def_value: None }]
@@ -141,13 +141,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplaySetupViewController__Panel, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__GameplaySetupViewController__Panel, ___title) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameplaySetupViewController__Panel, ___refreshable) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__GameplaySetupViewController__Panel, ___gameObject) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::GameplaySetupViewController
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 194, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5638))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5737))
 // CS Name: ::GameplaySetupViewController*
 class CORDL_TYPE GameplaySetupViewController : public ::HMUI::ViewController {
 public:
@@ -310,58 +316,58 @@ public:
 
   constexpr void __set__isInitialized(bool value);
 
-  /// @brief Method add_didChangeGameplayModifiersEvent addr 0x22b1e30 size 0x9c virtual false final false
+  /// @brief Method add_didChangeGameplayModifiersEvent addr 0x216f834 size 0x9c virtual false final false
   inline void add_didChangeGameplayModifiersEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangeGameplayModifiersEvent addr 0x22b1ecc size 0x9c virtual false final false
+  /// @brief Method remove_didChangeGameplayModifiersEvent addr 0x216f8d0 size 0x9c virtual false final false
   inline void remove_didChangeGameplayModifiersEvent(::System::Action* value);
 
-  /// @brief Method get_playerSettings addr 0x22b1f68 size 0x18 virtual false final false
+  /// @brief Method get_playerSettings addr 0x216f96c size 0x18 virtual false final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSettings();
 
-  /// @brief Method get_gameplayModifiers addr 0x22b2338 size 0x1c virtual false final false
+  /// @brief Method get_gameplayModifiers addr 0x216fd24 size 0x1c virtual false final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method get_environmentOverrideSettings addr 0x22b2354 size 0x24 virtual false final false
+  /// @brief Method get_environmentOverrideSettings addr 0x216fd40 size 0x24 virtual false final false
   inline ::GlobalNamespace::OverrideEnvironmentSettings* get_environmentOverrideSettings();
 
-  /// @brief Method get_colorSchemesSettings addr 0x22b2378 size 0x24 virtual false final false
+  /// @brief Method get_colorSchemesSettings addr 0x216fd64 size 0x24 virtual false final false
   inline ::GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
 
-  /// @brief Method Setup addr 0x22b239c size 0x8c virtual false final false
+  /// @brief Method Setup addr 0x216fd88 size 0x8c virtual false final false
   inline void Setup(bool showModifiers, bool showEnvironmentOverrideSettings, bool showColorSchemesSettings, bool showMultiplayer,
                     ::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout playerSettingsPanelLayout);
 
-  /// @brief Method Init addr 0x22b2428 size 0x90 virtual false final false
+  /// @brief Method Init addr 0x216fe14 size 0xa0 virtual false final false
   inline void Init();
 
-  /// @brief Method DidActivate addr 0x22b2c2c size 0x174 virtual true final false
+  /// @brief Method DidActivate addr 0x2170610 size 0x174 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method OnDisable addr 0x22b2e3c size 0xd4 virtual false final false
+  /// @brief Method OnDisable addr 0x2170820 size 0xd4 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method HandleSelectionSegmentedControlDidSelectCell addr 0x22b2f10 size 0x8 virtual false final false
+  /// @brief Method HandleSelectionSegmentedControlDidSelectCell addr 0x21708f4 size 0x8 virtual false final false
   inline void HandleSelectionSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
-  /// @brief Method HandlePlayerSettingsPanelControllerDidChangePlayerSettings addr 0x22b2fc8 size 0x38 virtual false final false
+  /// @brief Method HandlePlayerSettingsPanelControllerDidChangePlayerSettings addr 0x21709ac size 0x38 virtual false final false
   inline void HandlePlayerSettingsPanelControllerDidChangePlayerSettings();
 
-  /// @brief Method HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers addr 0x22b3000 size 0x54 virtual false final false
+  /// @brief Method HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers addr 0x21709e4 size 0x54 virtual false final false
   inline void HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers();
 
-  /// @brief Method SetActivePanel addr 0x22b2f18 size 0xb0 virtual false final false
+  /// @brief Method SetActivePanel addr 0x21708fc size 0xb0 virtual false final false
   inline void SetActivePanel(int32_t panelIdx);
 
-  /// @brief Method RefreshContent addr 0x22b24dc size 0x72c virtual false final false
+  /// @brief Method RefreshContent addr 0x216fed8 size 0x72c virtual false final false
   inline void RefreshContent();
 
-  /// @brief Method RefreshActivePanel addr 0x22b3054 size 0xd8 virtual false final false
+  /// @brief Method RefreshActivePanel addr 0x2170a38 size 0xd8 virtual false final false
   inline void RefreshActivePanel();
 
   static inline ::GlobalNamespace::GameplaySetupViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22b3168 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2170b4c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplaySetupViewController", modifiers: "&&", def_value: None }]
@@ -430,6 +436,38 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplaySetupViewController, 0xc8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____selectionSegmentedControl) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____playerSettingsPanelController) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____gameplayModifiersPanelController) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____environmentOverrideSettingsPanelController) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____colorsOverrideSettingsPanelController) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____multiplayerSettingsPanelController) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____playerDataModel) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ___didChangeGameplayModifiersEvent) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____panels) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____activePanelIdx) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____showModifiers) == 0xbc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____showEnvironmentOverrideSettings) == 0xbd, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____showColorSchemesSettings) == 0xbe, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____showMultiplayer) == 0xbf, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____shouldRefreshContent) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____isInitialized) == 0xc1, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameplaySetupViewController);

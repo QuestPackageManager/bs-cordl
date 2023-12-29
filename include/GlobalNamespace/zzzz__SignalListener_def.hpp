@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SignalListener)
-namespace UnityEngine::Events {
-class UnityEvent;
-}
 namespace GlobalNamespace {
 class Signal;
+}
+namespace UnityEngine::Events {
+class UnityEvent;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SignalListener);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14396))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13948))
 // CS Name: ::SignalListener*
 class CORDL_TYPE SignalListener : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,18 +44,18 @@ public:
 
   constexpr void __set__unityEvent(::UnityEngine::Events::UnityEvent* value);
 
-  /// @brief Method OnEnable addr 0x20f57cc size 0x94 virtual false final false
+  /// @brief Method OnEnable addr 0x1fa1cf4 size 0x94 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x20f5860 size 0x88 virtual false final false
+  /// @brief Method OnDisable addr 0x1fa1d88 size 0x88 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method HandleEvent addr 0x20f58e8 size 0x1c virtual false final false
+  /// @brief Method HandleEvent addr 0x1fa1e10 size 0x1c virtual false final false
   inline void HandleEvent();
 
   static inline ::GlobalNamespace::SignalListener* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f5904 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fa1e2c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalListener", modifiers: "&&", def_value: None }]
@@ -82,6 +82,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SignalListener, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SignalListener, ____signal) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SignalListener, ____unityEvent) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SignalListener);

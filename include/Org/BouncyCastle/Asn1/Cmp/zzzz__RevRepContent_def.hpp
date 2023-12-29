@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(RevRepContent)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiStatusInfo;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace Org::BouncyCastle::Asn1::Crmf {
 class CertId;
 }
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiStatusInfo;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class CertificateList;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -68,22 +68,22 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe6ec54 size 0xe0 virtual false final false
+  /// @brief Method .ctor addr 0xdf9a80 size 0xe0 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe698b8 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xdf46e8 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContent* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetStatus addr 0xe6ed34 size 0xf4 virtual true final false
+  /// @brief Method GetStatus addr 0xdf9b60 size 0xf4 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*, ::Array<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*>*> GetStatus();
 
-  /// @brief Method GetRevCerts addr 0xe6ee28 size 0x100 virtual true final false
+  /// @brief Method GetRevCerts addr 0xdf9c54 size 0x100 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::CertId*, ::Array<::Org::BouncyCastle::Asn1::Crmf::CertId*>*> GetRevCerts();
 
-  /// @brief Method GetCrls addr 0xe6ef28 size 0x100 virtual true final false
+  /// @brief Method GetCrls addr 0xdf9d54 size 0x100 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*, ::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> GetCrls();
 
-  /// @brief Method ToAsn1Object addr 0xe6f028 size 0x12c virtual true final false
+  /// @brief Method ToAsn1Object addr 0xdf9e54 size 0x12c virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "RevRepContent", modifiers: "&&", def_value: None }]
@@ -113,6 +113,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::RevRepContent, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::RevRepContent, ___status) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::RevRepContent, ___revCerts) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::RevRepContent, ___crls) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::RevRepContent);

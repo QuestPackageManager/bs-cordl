@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKSolverAim)
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class __IKSolver__Bone;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace RootMotion::FinalIK {
 class RotationLimit;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace RootMotion::FinalIK {
 class __IKSolver__IterationDelegate;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverAim);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12574)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12565))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12502)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12493))
 // CS Name: ::RootMotion.FinalIK::IKSolverAim*
 class CORDL_TYPE IKSolverAim : public ::RootMotion::FinalIK::IKSolverHeuristic {
 public:
@@ -163,39 +163,39 @@ public:
 
   constexpr void __set_lastTransform(::UnityEngine::Transform* value);
 
-  /// @brief Method GetAngle addr 0x125fb80 size 0x138 virtual false final false
+  /// @brief Method GetAngle addr 0x11ef854 size 0x138 virtual false final false
   inline float_t GetAngle();
 
-  /// @brief Method get_transformAxis addr 0x125fcb8 size 0x30 virtual false final false
+  /// @brief Method get_transformAxis addr 0x11ef98c size 0x30 virtual false final false
   inline ::UnityEngine::Vector3 get_transformAxis();
 
-  /// @brief Method get_transformPoleAxis addr 0x125fce8 size 0x30 virtual false final false
+  /// @brief Method get_transformPoleAxis addr 0x11ef9bc size 0x30 virtual false final false
   inline ::UnityEngine::Vector3 get_transformPoleAxis();
 
-  /// @brief Method OnInitiate addr 0x125fd18 size 0x28c virtual true final false
+  /// @brief Method OnInitiate addr 0x11ef9ec size 0x28c virtual true final false
   inline void OnInitiate();
 
-  /// @brief Method OnUpdate addr 0x125ffa4 size 0x56c virtual true final false
+  /// @brief Method OnUpdate addr 0x11efc78 size 0x56c virtual true final false
   inline void OnUpdate();
 
-  /// @brief Method get_minBones addr 0x126091c size 0x8 virtual true final false
+  /// @brief Method get_minBones addr 0x11f05f0 size 0x8 virtual true final false
   inline int32_t get_minBones();
 
-  /// @brief Method Solve addr 0x1260874 size 0xa8 virtual false final false
+  /// @brief Method Solve addr 0x11f0548 size 0xa8 virtual false final false
   inline void Solve();
 
-  /// @brief Method GetClampedIKPosition addr 0x1260510 size 0x364 virtual false final false
+  /// @brief Method GetClampedIKPosition addr 0x11f01e4 size 0x364 virtual false final false
   inline ::UnityEngine::Vector3 GetClampedIKPosition();
 
-  /// @brief Method RotateToTarget addr 0x1260924 size 0x538 virtual false final false
+  /// @brief Method RotateToTarget addr 0x11f05f8 size 0x538 virtual false final false
   inline void RotateToTarget(::UnityEngine::Vector3 targetPosition, ::RootMotion::FinalIK::__IKSolver__Bone* bone, float_t weight);
 
-  /// @brief Method get_localDirection addr 0x1260e5c size 0x60 virtual true final false
+  /// @brief Method get_localDirection addr 0x11f0b30 size 0x60 virtual true final false
   inline ::UnityEngine::Vector3 get_localDirection();
 
   static inline ::RootMotion::FinalIK::IKSolverAim* New_ctor();
 
-  /// @brief Method .ctor addr 0x1260ebc size 0xa0 virtual false final false
+  /// @brief Method .ctor addr 0x11f0b90 size 0xa0 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverAim", modifiers: "&&", def_value: None }]
@@ -255,6 +255,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::IKSolverAim, 0xf0>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverAim, ___transform) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverAim, ___axis) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverAim, ___poleAxis) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverAim, ___polePosition) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverAim, ___poleWeight) == 0xb4, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverAim, ___poleTarget) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverAim, ___clampWeight) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverAim, ___clampSmoothing) == 0xc4, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverAim, ___OnPreIteration) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverAim, ___step) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverAim, ___clampedIKPosition) == 0xd4, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverAim, ___transformLimit) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverAim, ___lastTransform) == 0xe8, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::IKSolverAim);

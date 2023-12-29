@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_MessageOverlay_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8684))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9453))
 // CS Name: ::OVR.OpenVR::VREvent_MessageOverlay_t
 struct CORDL_TYPE VREvent_MessageOverlay_t {
 public:
@@ -38,6 +38,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VREvent_MessageOverlay_t, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_MessageOverlay_t, unVRMessageOverlayResponse) == 0x0, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VREvent_MessageOverlay_t, "OVR.OpenVR", "VREvent_MessageOverlay_t");

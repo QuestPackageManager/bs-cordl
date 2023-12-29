@@ -12,14 +12,14 @@ CORDL_MODULE_EXPORT(RaycastResult)
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine::EventSystems {
-class BaseRaycaster;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::EventSystems {
+class BaseRaycaster;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -31,8 +31,8 @@ MARK_VAL_T(::UnityEngine::EventSystems::RaycastResult);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13213))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13218))
 // CS Name: ::UnityEngine.EventSystems::RaycastResult
 struct CORDL_TYPE RaycastResult {
 public:
@@ -41,19 +41,19 @@ public:
 
   __declspec(property(get = get_isValid)) bool isValid;
 
-  /// @brief Method get_gameObject addr 0x2da13fc size 0x8 virtual false final false
+  /// @brief Method get_gameObject addr 0x2c3904c size 0x8 virtual false final false
   inline ::UnityEngine::GameObject* get_gameObject();
 
-  /// @brief Method set_gameObject addr 0x2da1404 size 0x8 virtual false final false
+  /// @brief Method set_gameObject addr 0x2c39054 size 0x8 virtual false final false
   inline void set_gameObject(::UnityEngine::GameObject* value);
 
-  /// @brief Method get_isValid addr 0x2da140c size 0x98 virtual false final false
+  /// @brief Method get_isValid addr 0x2c3905c size 0x98 virtual false final false
   inline bool get_isValid();
 
-  /// @brief Method Clear addr 0x2da14a4 size 0xa4 virtual false final false
+  /// @brief Method Clear addr 0x2c390f4 size 0xa4 virtual false final false
   inline void Clear();
 
-  /// @brief Method ToString addr 0x2d96204 size 0x6d8 virtual true final false
+  /// @brief Method ToString addr 0x2c2de54 size 0x6d8 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "m_GameObject", ty: "::UnityEngine::GameObject*", modifiers: "", def_value: None }, CppParam { name: "module", ty: "::UnityEngine::EventSystems::BaseRaycaster*",
@@ -109,6 +109,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::RaycastResult, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, m_GameObject) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, module) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, distance) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, index) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, depth) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, sortingLayer) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, sortingOrder) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, worldPosition) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, worldNormal) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, screenPosition) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, displayIndex) == 0x44, "Offset mismatch!");
 
 } // namespace UnityEngine::EventSystems
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::RaycastResult, "UnityEngine.EventSystems", "RaycastResult");

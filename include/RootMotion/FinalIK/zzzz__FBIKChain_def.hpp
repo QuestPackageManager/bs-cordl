@@ -14,14 +14,8 @@ CORDL_MODULE_EXPORT(FBIKChain)
 namespace RootMotion::FinalIK {
 class IKConstraintBend;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion::FinalIK {
-struct __FBIKChain__Smoothing;
-}
-namespace RootMotion::FinalIK {
-class __IKSolver__Node;
+class __FBIKChain__ChildConstraint;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -30,7 +24,13 @@ namespace RootMotion::FinalIK {
 class __IKSolver__Point;
 }
 namespace RootMotion::FinalIK {
-class __FBIKChain__ChildConstraint;
+struct __FBIKChain__Smoothing;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace RootMotion::FinalIK {
+class __IKSolver__Node;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFullBody;
@@ -53,8 +53,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__FBIKChain__ChildConstraint);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12548))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12476))
 // CS Name: ::FBIKChain::ChildConstraint*
 class CORDL_TYPE __FBIKChain__ChildConstraint : public ::System::Object {
 public:
@@ -153,30 +153,30 @@ public:
 
   constexpr void __set_chain2Index(int32_t value);
 
-  /// @brief Method get_nominalDistance addr 0x1257a58 size 0x8 virtual false final false
+  /// @brief Method get_nominalDistance addr 0x11e772c size 0x8 virtual false final false
   inline float_t get_nominalDistance();
 
-  /// @brief Method set_nominalDistance addr 0x1257a60 size 0x8 virtual false final false
+  /// @brief Method set_nominalDistance addr 0x11e7734 size 0x8 virtual false final false
   inline void set_nominalDistance(float_t value);
 
-  /// @brief Method get_isRigid addr 0x1257a68 size 0x8 virtual false final false
+  /// @brief Method get_isRigid addr 0x11e773c size 0x8 virtual false final false
   inline bool get_isRigid();
 
-  /// @brief Method set_isRigid addr 0x1257a70 size 0xc virtual false final false
+  /// @brief Method set_isRigid addr 0x11e7744 size 0xc virtual false final false
   inline void set_isRigid(bool value);
 
   static inline ::RootMotion::FinalIK::__FBIKChain__ChildConstraint* New_ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, float_t pushElasticity, float_t pullElasticity);
 
-  /// @brief Method .ctor addr 0x1257a7c size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x11e7750 size 0x40 virtual false final false
   inline void _ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, float_t pushElasticity, float_t pullElasticity);
 
-  /// @brief Method Initiate addr 0x1255764 size 0x54 virtual false final false
+  /// @brief Method Initiate addr 0x11e5438 size 0x54 virtual false final false
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method OnPreSolve addr 0x1255e10 size 0x1e4 virtual false final false
+  /// @brief Method OnPreSolve addr 0x11e5ae4 size 0x1e4 virtual false final false
   inline void OnPreSolve(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method Solve addr 0x125781c size 0x23c virtual false final false
+  /// @brief Method Solve addr 0x11e74f0 size 0x23c virtual false final false
   inline void Solve(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FBIKChain__ChildConstraint", modifiers: "&&", def_value: None }]
@@ -228,13 +228,33 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__FBIKChain__ChildConstraint, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__FBIKChain__ChildConstraint, ___pushElasticity) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__FBIKChain__ChildConstraint, ___pullElasticity) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__FBIKChain__ChildConstraint, ___bone1) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__FBIKChain__ChildConstraint, ___bone2) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__FBIKChain__ChildConstraint, ____nominalDistance_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__FBIKChain__ChildConstraint, ____isRigid_k__BackingField) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__FBIKChain__ChildConstraint, ___crossFade) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__FBIKChain__ChildConstraint, ___inverseCrossFade) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__FBIKChain__ChildConstraint, ___chain1Index) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__FBIKChain__ChildConstraint, ___chain2Index) == 0x3c, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::Smoothing
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12549))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12477))
 // CS Name: ::FBIKChain::Smoothing
 struct CORDL_TYPE __FBIKChain__Smoothing {
 public:
@@ -280,13 +300,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__FBIKChain__Smoothing, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__FBIKChain__Smoothing, value__) == 0x0, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: RootMotion.FinalIK::FBIKChain
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12549))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12550))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12477)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12478))
 // CS Name: ::RootMotion.FinalIK::FBIKChain*
 class CORDL_TYPE FBIKChain : public ::System::Object {
 public:
@@ -496,66 +518,66 @@ public:
 
   static inline ::RootMotion::FinalIK::FBIKChain* New_ctor();
 
-  /// @brief Method .ctor addr 0x1254b20 size 0xfc virtual false final false
+  /// @brief Method .ctor addr 0x11e47f4 size 0xfc virtual false final false
   inline void _ctor();
 
   static inline ::RootMotion::FinalIK::FBIKChain* New_ctor(float_t pin, float_t pull, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> nodeTransforms);
 
-  /// @brief Method .ctor addr 0x1254c88 size 0x134 virtual false final false
+  /// @brief Method .ctor addr 0x11e495c size 0x134 virtual false final false
   inline void _ctor(float_t pin, float_t pull, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> nodeTransforms);
 
-  /// @brief Method SetNodes addr 0x1254dbc size 0x118 virtual false final false
+  /// @brief Method SetNodes addr 0x11e4a90 size 0x118 virtual false final false
   inline void SetNodes(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> boneTransforms);
 
-  /// @brief Method GetNodeIndex addr 0x1254ed4 size 0xbc virtual false final false
+  /// @brief Method GetNodeIndex addr 0x11e4ba8 size 0xbc virtual false final false
   inline int32_t GetNodeIndex(::UnityEngine::Transform* boneTransform);
 
-  /// @brief Method IsValid addr 0x1254f90 size 0x10c virtual false final false
+  /// @brief Method IsValid addr 0x11e4c64 size 0x10c virtual false final false
   inline bool IsValid(ByRef<::StringW> message);
 
-  /// @brief Method Initiate addr 0x125509c size 0x16c virtual false final false
+  /// @brief Method Initiate addr 0x11e4d70 size 0x16c virtual false final false
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method ReadPose addr 0x1255a2c size 0x3e4 virtual false final false
+  /// @brief Method ReadPose addr 0x11e5700 size 0x3e4 virtual false final false
   inline void ReadPose(::RootMotion::FinalIK::IKSolverFullBody* solver, bool fullBody);
 
-  /// @brief Method CalculateBoneLengths addr 0x1255208 size 0x55c virtual false final false
+  /// @brief Method CalculateBoneLengths addr 0x11e4edc size 0x55c virtual false final false
   inline void CalculateBoneLengths(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method Reach addr 0x1255ff4 size 0x294 virtual false final false
+  /// @brief Method Reach addr 0x11e5cc8 size 0x294 virtual false final false
   inline void Reach(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method Push addr 0x1256288 size 0x2d0 virtual false final false
+  /// @brief Method Push addr 0x11e5f5c size 0x2d0 virtual false final false
   inline ::UnityEngine::Vector3 Push(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method SolveTrigonometric addr 0x1256558 size 0x238 virtual false final false
+  /// @brief Method SolveTrigonometric addr 0x11e622c size 0x238 virtual false final false
   inline void SolveTrigonometric(::RootMotion::FinalIK::IKSolverFullBody* solver, bool calculateBendDirection);
 
-  /// @brief Method Stage1 addr 0x1256f20 size 0x2ac virtual false final false
+  /// @brief Method Stage1 addr 0x11e6bf4 size 0x2ac virtual false final false
   inline void Stage1(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method Stage2 addr 0x1257418 size 0x104 virtual false final false
+  /// @brief Method Stage2 addr 0x11e70ec size 0x104 virtual false final false
   inline void Stage2(::RootMotion::FinalIK::IKSolverFullBody* solver, ::UnityEngine::Vector3 position);
 
-  /// @brief Method SolveConstraintSystems addr 0x1257618 size 0xdc virtual false final false
+  /// @brief Method SolveConstraintSystems addr 0x11e72ec size 0xdc virtual false final false
   inline void SolveConstraintSystems(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method SolveFABRIKJoint addr 0x1257304 size 0x114 virtual false final false
+  /// @brief Method SolveFABRIKJoint addr 0x11e6fd8 size 0x114 virtual false final false
   inline ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float_t length);
 
-  /// @brief Method GetDirToBendPoint addr 0x1256dc0 size 0x160 virtual false final false
+  /// @brief Method GetDirToBendPoint addr 0x11e6a94 size 0x160 virtual false final false
   inline ::UnityEngine::Vector3 GetDirToBendPoint(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 bendDirection, float_t directionMagnitude);
 
-  /// @brief Method SolveChildConstraints addr 0x12572a0 size 0x64 virtual false final false
+  /// @brief Method SolveChildConstraints addr 0x11e6f74 size 0x64 virtual false final false
   inline void SolveChildConstraints(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method SolveLinearConstraint addr 0x12576f4 size 0x128 virtual false final false
+  /// @brief Method SolveLinearConstraint addr 0x11e73c8 size 0x128 virtual false final false
   inline void SolveLinearConstraint(::RootMotion::FinalIK::__IKSolver__Node* node1, ::RootMotion::FinalIK::__IKSolver__Node* node2, float_t crossFade, float_t distance);
 
-  /// @brief Method ForwardReach addr 0x12571cc size 0xd4 virtual false final false
+  /// @brief Method ForwardReach addr 0x11e6ea0 size 0xd4 virtual false final false
   inline void ForwardReach(::UnityEngine::Vector3 position);
 
-  /// @brief Method BackwardReach addr 0x125751c size 0xfc virtual false final false
+  /// @brief Method BackwardReach addr 0x11e71f0 size 0xfc virtual false final false
   inline void BackwardReach(::UnityEngine::Vector3 position);
 
   // Ctor Parameters [CppParam { name: "", ty: "FBIKChain", modifiers: "&&", def_value: None }]
@@ -645,6 +667,50 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::FBIKChain, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___pin) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___pull) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___push) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___pushParent) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___reach) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___reachSmoothing) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___pushSmoothing) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___nodes) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___children) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___childConstraints) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___bendConstraint) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___rootLength) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___initiated) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___length) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___distance) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___p) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___reachForce) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___pullParentSum) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___crossFades) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___sqrMag1) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___sqrMag2) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBIKChain, ___sqrMagDif) == 0x80, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::__FBIKChain__Smoothing, "RootMotion.FinalIK", "FBIKChain/Smoothing");

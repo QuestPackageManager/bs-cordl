@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::Assertions::_cordl_Assert);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Assertions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10314))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10236))
 // CS Name: ::UnityEngine.Assertions::Assert*
 class CORDL_TYPE _cordl_Assert : public ::System::Object {
 public:
@@ -35,13 +35,13 @@ public:
 
   static inline bool getStaticF_raiseExceptions();
 
-  /// @brief Method IsTrue addr 0x2ce8ee4 size 0x6c virtual false final false
+  /// @brief Method IsTrue addr 0x2b81ab0 size 0x6c virtual false final false
   static inline void IsTrue(bool condition);
 
-  /// @brief Method IsTrue addr 0x2ce8f50 size 0x80 virtual false final false
+  /// @brief Method IsTrue addr 0x2b81b1c size 0x80 virtual false final false
   static inline void IsTrue(bool condition, ::StringW message);
 
-  /// @brief Method IsFalse addr 0x2ce9188 size 0x80 virtual false final false
+  /// @brief Method IsFalse addr 0x2b81d54 size 0x80 virtual false final false
   static inline void IsFalse(bool condition, ::StringW message);
 
   /// @brief Method IsNull addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -50,7 +50,7 @@ public:
   /// @brief Method IsNull addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline void IsNull(T value, ::StringW message);
 
-  /// @brief Method IsNull addr 0x2ce9208 size 0xbc virtual false final false
+  /// @brief Method IsNull addr 0x2b81dd4 size 0xbc virtual false final false
   static inline void IsNull(::UnityEngine::Object* value, ::StringW message);
 
   /// @brief Method IsNotNull addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -59,10 +59,10 @@ public:
   /// @brief Method IsNotNull addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline void IsNotNull(T value, ::StringW message);
 
-  /// @brief Method IsNotNull addr 0x2ce942c size 0xbc virtual false final false
+  /// @brief Method IsNotNull addr 0x2b81ff8 size 0xbc virtual false final false
   static inline void IsNotNull(::UnityEngine::Object* value, ::StringW message);
 
-  /// @brief Method Fail addr 0x2ce9060 size 0x128 virtual false final false
+  /// @brief Method Fail addr 0x2b81c2c size 0x128 virtual false final false
   static inline void Fail(::StringW message, ::StringW userMessage);
 
   /// @brief Method AreEqual addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -74,7 +74,7 @@ public:
   /// @brief Method AreEqual addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline void AreEqual(T expected, T actual, ::StringW message, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer);
 
-  /// @brief Method AreEqual addr 0x2ce955c size 0xc8 virtual false final false
+  /// @brief Method AreEqual addr 0x2b82128 size 0xc8 virtual false final false
   static inline void AreEqual(::UnityEngine::Object* expected, ::UnityEngine::Object* actual, ::StringW message);
 
   /// @brief Method AreNotEqual addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -86,10 +86,10 @@ public:
   /// @brief Method AreNotEqual addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline void AreNotEqual(T expected, T actual, ::StringW message, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer);
 
-  /// @brief Method AreNotEqual addr 0x2ce9818 size 0xc8 virtual false final false
+  /// @brief Method AreNotEqual addr 0x2b823e4 size 0xc8 virtual false final false
   static inline void AreNotEqual(::UnityEngine::Object* expected, ::UnityEngine::Object* actual, ::StringW message);
 
-  /// @brief Method AreEqual addr 0x2ce98e0 size 0x8c virtual false final false
+  /// @brief Method AreEqual addr 0x2b824ac size 0x8c virtual false final false
   static inline void AreEqual(int32_t expected, int32_t actual);
 
   // Ctor Parameters [CppParam { name: "", ty: "_cordl_Assert", modifiers: "&&", def_value: None }]

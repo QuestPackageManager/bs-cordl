@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsOverPerCoreLockedStacksArrayPool_1)
 namespace System::Buffers {
-template <typename T> class __TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks;
-}
-namespace System::Buffers {
 template <typename T> class __TlsOverPerCoreLockedStacksArrayPool_1__LockedStack;
-}
-namespace System {
-class Object;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class ConditionalWeakTable_2;
 }
 namespace System::Buffers {
+template <typename T> class __TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks;
+}
+namespace System::Buffers {
 template <typename T> struct __TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Buffers {
@@ -47,8 +47,8 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3886)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3886), inst: 4564 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3886))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3874)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3874), inst: 4460 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3874))
 // CS Name: ::TlsOverPerCoreLockedStacksArrayPool`1::MemoryPressure<T>
 struct CORDL_TYPE __TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure {
 public:
@@ -99,8 +99,8 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3887))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3875))
 // CS Name: ::TlsOverPerCoreLockedStacksArrayPool`1::PerCoreLockedStacks<T>*
 class CORDL_TYPE __TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks : public ::System::Object {
 public:
@@ -159,8 +159,8 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3888))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3876))
 // CS Name: ::TlsOverPerCoreLockedStacksArrayPool`1::LockedStack<T>*
 class CORDL_TYPE __TlsOverPerCoreLockedStacksArrayPool_1__LockedStack : public ::System::Object {
 public:
@@ -239,8 +239,8 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3880)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3880), inst: 769 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3889))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3868), inst: 757 }), TypeDefinitionIndex(TypeDefinitionIndex(3868))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3877))
 // CS Name: ::System.Buffers::TlsOverPerCoreLockedStacksArrayPool`1<T>*
 class CORDL_TYPE TlsOverPerCoreLockedStacksArrayPool_1 : public ::System::Buffers::ArrayPool_1<T> {
 public:

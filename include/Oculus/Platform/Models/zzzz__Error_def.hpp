@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Error);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13433))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13479))
 // CS Name: ::Oculus.Platform.Models::Error*
 class CORDL_TYPE Error : public ::System::Object {
 public:
@@ -51,7 +51,7 @@ public:
 
   static inline ::Oculus::Platform::Models::Error* New_ctor(int32_t code, ::StringW message, int32_t httpCode);
 
-  /// @brief Method .ctor addr 0x2705dc0 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x25b3414 size 0x3c virtual false final false
   inline void _ctor(int32_t code, ::StringW message, int32_t httpCode);
 
   // Ctor Parameters [CppParam { name: "", ty: "Error", modifiers: "&&", def_value: None }]
@@ -81,6 +81,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::Error, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Error, ___Code) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Error, ___HttpCode) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Error, ___Message) == 0x18, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::Error);

@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(OptionalValidity)
-namespace Org::BouncyCastle::Asn1::X509 {
-class Time;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class Time;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -56,24 +56,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::OptionalValidity* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe8667c size 0x30c virtual false final false
+  /// @brief Method .ctor addr 0xe114a8 size 0x30c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe85338 size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0xe10164 size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::OptionalValidity* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::OptionalValidity* New_ctor(::Org::BouncyCastle::Asn1::X509::Time* notBefore, ::Org::BouncyCastle::Asn1::X509::Time* notAfter);
 
-  /// @brief Method .ctor addr 0xe86988 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xe117b4 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::Time* notBefore, ::Org::BouncyCastle::Asn1::X509::Time* notAfter);
 
-  /// @brief Method get_NotBefore addr 0xe869b4 size 0x8 virtual true final false
+  /// @brief Method get_NotBefore addr 0xe117e0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_NotBefore();
 
-  /// @brief Method get_NotAfter addr 0xe869bc size 0x8 virtual true final false
+  /// @brief Method get_NotAfter addr 0xe117e8 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_NotAfter();
 
-  /// @brief Method ToAsn1Object addr 0xe869c4 size 0xc0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe117f0 size 0xc0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OptionalValidity", modifiers: "&&", def_value: None }]
@@ -100,6 +100,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Crmf::OptionalValidity, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::OptionalValidity, ___notBefore) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::OptionalValidity, ___notAfter) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Crmf::OptionalValidity);

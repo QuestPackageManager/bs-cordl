@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::HMAutoincrementedRequestId);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14371))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13869))
 // CS Name: ::HMAutoincrementedRequestId*
 class CORDL_TYPE HMAutoincrementedRequestId : public ::System::Object {
 public:
@@ -48,21 +48,21 @@ public:
 
   static inline uint64_t getStaticF__nextRequestId();
 
-  /// @brief Method get_RequestId addr 0x20f30bc size 0x8 virtual false final false
+  /// @brief Method get_RequestId addr 0x1f9701c size 0x8 virtual false final false
   inline uint64_t get_RequestId();
 
   static inline ::GlobalNamespace::HMAutoincrementedRequestId* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f2eec size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x1f96e4c size 0x64 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Equals addr 0x20f30c4 size 0x20 virtual true final true
+  /// @brief Method Equals addr 0x1f97024 size 0x20 virtual true final true
   inline bool Equals(::GlobalNamespace::HMAutoincrementedRequestId* obj);
 
-  /// @brief Method Equals addr 0x20f30e4 size 0xb8 virtual true final false
+  /// @brief Method Equals addr 0x1f97044 size 0xb8 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x20f319c size 0x28 virtual true final false
+  /// @brief Method GetHashCode addr 0x1f970fc size 0x28 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "HMAutoincrementedRequestId", modifiers: "&&", def_value: None }]
@@ -86,6 +86,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HMAutoincrementedRequestId, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HMAutoincrementedRequestId, ____requestId) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HMAutoincrementedRequestId);

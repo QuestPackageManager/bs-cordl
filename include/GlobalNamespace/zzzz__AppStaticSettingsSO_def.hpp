@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AppStaticSettingsSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4122))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4156))
 // CS Name: ::AppStaticSettingsSO*
 class CORDL_TYPE AppStaticSettingsSO : public ::UnityEngine::ScriptableObject {
 public:
@@ -58,7 +58,7 @@ public:
 
   static inline ::GlobalNamespace::AppStaticSettingsSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x2239bd0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21cb660 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AppStaticSettingsSO", modifiers: "&&", def_value: None }]
@@ -91,6 +91,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AppStaticSettingsSO, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AppStaticSettingsSO, ___requirePrivacyPolicy) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AppStaticSettingsSO, ___enable360DegreeLevels) == 0x19, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AppStaticSettingsSO, ___enableCustomLevels) == 0x1a, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AppStaticSettingsSO, ___disableMultiplayer) == 0x1b, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AppStaticSettingsSO);

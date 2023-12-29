@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRDebugHeadController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7538))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8442))
 // CS Name: ::OVRDebugHeadController*
 class CORDL_TYPE OVRDebugHeadController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -105,18 +105,18 @@ public:
 
   constexpr void __set_CameraRig(::GlobalNamespace::OVRCameraRig* value);
 
-  /// @brief Method Awake addr 0x271af78 size 0xf0 virtual false final false
+  /// @brief Method Awake addr 0x25c2888 size 0xf0 virtual false final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x271b068 size 0x4 virtual false final false
+  /// @brief Method Start addr 0x25c2978 size 0x4 virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x271b06c size 0x524 virtual false final false
+  /// @brief Method Update addr 0x25c297c size 0x524 virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::OVRDebugHeadController* New_ctor();
 
-  /// @brief Method .ctor addr 0x271b590 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x25c2ea0 size 0x24 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRDebugHeadController", modifiers: "&&", def_value: None }]
@@ -164,6 +164,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRDebugHeadController, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugHeadController, ___AllowPitchLook) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugHeadController, ___AllowYawLook) == 0x19, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugHeadController, ___InvertPitch) == 0x1a, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugHeadController, ___GamePad_PitchDegreesPerSec) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugHeadController, ___GamePad_YawDegreesPerSec) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugHeadController, ___AllowMovement) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugHeadController, ___ForwardSpeed) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugHeadController, ___StrafeSpeed) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDebugHeadController, ___CameraRig) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRDebugHeadController);

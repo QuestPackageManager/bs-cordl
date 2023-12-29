@@ -16,12 +16,12 @@ MARK_VAL_T(::TMPro::KerningPairKey);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12361))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12289))
 // CS Name: ::TMPro::KerningPairKey
 struct CORDL_TYPE KerningPairKey {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2c102e8 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2a8b594 size 0x10 virtual false final false
   inline void _ctor(uint32_t ascii_left, uint32_t ascii_right);
 
   // Ctor Parameters [CppParam { name: "ascii_Left", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ascii_Right", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
@@ -48,6 +48,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::KerningPairKey, 0xc>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::KerningPairKey, ascii_Left) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::KerningPairKey, ascii_Right) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::KerningPairKey, key) == 0x8, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::KerningPairKey, "TMPro", "KerningPairKey");

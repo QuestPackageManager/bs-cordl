@@ -16,7 +16,7 @@ MARK_VAL_T(::HMUI::UISelectionState);
 namespace HMUI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13567))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13686))
 // CS Name: ::HMUI::UISelectionState
 struct CORDL_TYPE UISelectionState {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::UISelectionState, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::UISelectionState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace HMUI
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::UISelectionState, "HMUI", "UISelectionState");

@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(CommandBufferGOCore)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
-}
 namespace UnityEngine {
 class Camera;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine::Rendering {
+class CommandBuffer;
 }
 namespace GlobalNamespace {
 class CommandBufferOwners;
 }
 namespace UnityEngine::Rendering {
 struct CameraEvent;
-}
-namespace UnityEngine {
-class Mesh;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CommandBufferGOCore);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15278))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15307))
 // CS Name: ::CommandBufferGOCore*
 class CORDL_TYPE CommandBufferGOCore : public ::UnityEngine::MonoBehaviour {
 public:
@@ -66,13 +66,13 @@ public:
 
   static inline ::UnityEngine::Material* getStaticF__material();
 
-  /// @brief Method OnEnable addr 0x280691c size 0x414 virtual false final false
+  /// @brief Method OnEnable addr 0x268bc94 size 0x414 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2806d30 size 0x404 virtual false final false
+  /// @brief Method OnDisable addr 0x268c0a8 size 0x404 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method OnWillRenderObject addr 0x28071dc size 0x1b4 virtual true final false
+  /// @brief Method OnWillRenderObject addr 0x268c554 size 0x1b4 virtual true final false
   inline void OnWillRenderObject();
 
   /// @brief Method CommandBufferCameraEvent addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -86,7 +86,7 @@ public:
 
   static inline ::GlobalNamespace::CommandBufferGOCore* New_ctor();
 
-  /// @brief Method .ctor addr 0x2806558 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x268b8d0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CommandBufferGOCore", modifiers: "&&", def_value: None }]
@@ -113,6 +113,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CommandBufferGOCore, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CommandBufferGOCore, ____cameras) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CommandBufferGOCore, ____mesh) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CommandBufferGOCore);

@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::InjectSources);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15712))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15662))
 // CS Name: ::Zenject::InjectSources
 struct CORDL_TYPE InjectSources {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::InjectSources, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::InjectSources, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Zenject
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::InjectSources, "Zenject", "InjectSources");

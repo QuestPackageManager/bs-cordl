@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RegexFC)
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System::Text::RegularExpressions {
 class RegexCharClass;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexFC);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8921))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7758))
 // CS Name: ::System.Text.RegularExpressions::RegexFC*
 class CORDL_TYPE RegexFC : public ::System::Object {
 public:
@@ -58,29 +58,29 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexFC* New_ctor(bool nullable);
 
-  /// @brief Method .ctor addr 0x295fd64 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x27e2468 size 0x80 virtual false final false
   inline void _ctor(bool nullable);
 
   static inline ::System::Text::RegularExpressions::RegexFC* New_ctor(char16_t ch, bool _cordl_not, bool nullable, bool caseInsensitive);
 
-  /// @brief Method .ctor addr 0x295fe90 size 0xf4 virtual false final false
+  /// @brief Method .ctor addr 0x27e2594 size 0xf4 virtual false final false
   inline void _ctor(char16_t ch, bool _cordl_not, bool nullable, bool caseInsensitive);
 
   static inline ::System::Text::RegularExpressions::RegexFC* New_ctor(::StringW charClass, bool nullable, bool caseInsensitive);
 
-  /// @brief Method .ctor addr 0x295ff84 size 0x94 virtual false final false
+  /// @brief Method .ctor addr 0x27e2688 size 0x94 virtual false final false
   inline void _ctor(::StringW charClass, bool nullable, bool caseInsensitive);
 
-  /// @brief Method AddFC addr 0x295fde4 size 0xac virtual false final false
+  /// @brief Method AddFC addr 0x27e24e8 size 0xac virtual false final false
   inline bool AddFC(::System::Text::RegularExpressions::RegexFC* fc, bool concatenate);
 
-  /// @brief Method get_CaseInsensitive addr 0x2960018 size 0x8 virtual false final false
+  /// @brief Method get_CaseInsensitive addr 0x27e271c size 0x8 virtual false final false
   inline bool get_CaseInsensitive();
 
-  /// @brief Method set_CaseInsensitive addr 0x2960020 size 0xc virtual false final false
+  /// @brief Method set_CaseInsensitive addr 0x27e2724 size 0xc virtual false final false
   inline void set_CaseInsensitive(bool value);
 
-  /// @brief Method GetFirstChars addr 0x295f19c size 0x38 virtual false final false
+  /// @brief Method GetFirstChars addr 0x27e18a0 size 0x38 virtual false final false
   inline ::StringW GetFirstChars(::System::Globalization::CultureInfo* culture);
 
   // Ctor Parameters [CppParam { name: "", ty: "RegexFC", modifiers: "&&", def_value: None }]
@@ -110,6 +110,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexFC, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexFC, ____cc) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexFC, ____nullable) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexFC, ____CaseInsensitive_k__BackingField) == 0x19, "Offset mismatch!");
 
 } // namespace System::Text::RegularExpressions
 NEED_NO_BOX(::System::Text::RegularExpressions::RegexFC);

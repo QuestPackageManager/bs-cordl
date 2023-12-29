@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1181))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::BasicTlsPskIdentity*
 class CORDL_TYPE BasicTlsPskIdentity : public ::System::Object {
@@ -49,24 +49,24 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
 
-  /// @brief Method .ctor addr 0xf5d1d4 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0xee6fc4 size 0x8c virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity* New_ctor(::StringW identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
 
-  /// @brief Method .ctor addr 0xf5d260 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0xee7050 size 0x8c virtual false final false
   inline void _ctor(::StringW identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
 
-  /// @brief Method SkipIdentityHint addr 0xf5d2ec size 0x4 virtual true final false
+  /// @brief Method SkipIdentityHint addr 0xee70dc size 0x4 virtual true final false
   inline void SkipIdentityHint();
 
-  /// @brief Method NotifyIdentityHint addr 0xf5d2f0 size 0x4 virtual true final false
+  /// @brief Method NotifyIdentityHint addr 0xee70e0 size 0x4 virtual true final false
   inline void NotifyIdentityHint(::ArrayW<uint8_t, ::Array<uint8_t>*> psk_identity_hint);
 
-  /// @brief Method GetPskIdentity addr 0xf5d2f4 size 0x8 virtual true final false
+  /// @brief Method GetPskIdentity addr 0xee70e4 size 0x8 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPskIdentity();
 
-  /// @brief Method GetPsk addr 0xf5d2fc size 0x5c virtual true final false
+  /// @brief Method GetPsk addr 0xee70ec size 0x5c virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPsk();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicTlsPskIdentity", modifiers: "&&", def_value: None }]
@@ -93,6 +93,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity, ___mIdentity) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity, ___mPsk) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity);

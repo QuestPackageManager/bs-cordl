@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RC2);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2973))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2947))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2972))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2946))
 // CS Name: ::System.Security.Cryptography::RC2*
 class CORDL_TYPE RC2 : public ::System::Security::Cryptography::SymmetricAlgorithm {
 public:
@@ -56,16 +56,16 @@ public:
 
   static inline ::System::Security::Cryptography::RC2* New_ctor();
 
-  /// @brief Method .ctor addr 0x2460030 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x23069b8 size 0x7c virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_EffectiveKeySize addr 0x24600ac size 0x1c virtual true final false
+  /// @brief Method get_EffectiveKeySize addr 0x2306a34 size 0x1c virtual true final false
   inline int32_t get_EffectiveKeySize();
 
-  /// @brief Method get_KeySize addr 0x24600c8 size 0x8 virtual true final false
+  /// @brief Method get_KeySize addr 0x2306a50 size 0x8 virtual true final false
   inline int32_t get_KeySize();
 
-  /// @brief Method set_KeySize addr 0x24600d0 size 0x7c virtual true final false
+  /// @brief Method set_KeySize addr 0x2306a58 size 0x7c virtual true final false
   inline void set_KeySize(int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "RC2", modifiers: "&&", def_value: None }]
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::RC2, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RC2, ___EffectiveKeySizeValue) == 0x44, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::RC2);

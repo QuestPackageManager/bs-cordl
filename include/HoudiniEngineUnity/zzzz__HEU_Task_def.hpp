@@ -9,26 +9,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_Task)
-namespace System {
-struct Guid;
-}
-namespace HoudiniEngineUnity {
-class __HEU_Task__TaskCallback;
-}
 namespace HoudiniEngineUnity {
 struct __HEU_Task__TaskStatus;
 }
 namespace HoudiniEngineUnity {
 struct __HEU_Task__TaskResult;
 }
+namespace HoudiniEngineUnity {
+class __HEU_Task__TaskCallback;
+}
 namespace System {
-class AsyncCallback;
+struct Guid;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
-class Object;
+class AsyncCallback;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_Task__TaskCallback);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9797))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9724))
 // CS Name: ::HEU_Task::TaskStatus
 struct CORDL_TYPE __HEU_Task__TaskStatus {
 public:
@@ -115,13 +115,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_Task__TaskStatus, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_Task__TaskStatus, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HoudiniEngineUnity
 // Type: ::TaskResult
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9798))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9725))
 // CS Name: ::HEU_Task::TaskResult
 struct CORDL_TYPE __HEU_Task__TaskResult {
 public:
@@ -171,29 +173,31 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_Task__TaskResult, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_Task__TaskResult, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HoudiniEngineUnity
 // Type: ::TaskCallback
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9799))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9726))
 // CS Name: ::HEU_Task::TaskCallback*
 class CORDL_TYPE __HEU_Task__TaskCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::__HEU_Task__TaskCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x21aa6dc size 0x12c virtual false final false
+  /// @brief Method .ctor addr 0x2053d40 size 0x12c virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x21aa808 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2053e6c size 0x14 virtual true final false
   inline void Invoke(::HoudiniEngineUnity::HEU_Task* task);
 
-  /// @brief Method BeginInvoke addr 0x21aa81c size 0x20 virtual true final false
+  /// @brief Method BeginInvoke addr 0x2053e80 size 0x20 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_Task* task, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x21aa83c size 0xc virtual true final false
+  /// @brief Method EndInvoke addr 0x2053ea0 size 0xc virtual true final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__HEU_Task__TaskCallback", modifiers: "&&", def_value: None }]
@@ -220,8 +224,8 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_Task__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9798)), TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9797))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9800)) CS Name: ::HoudiniEngineUnity::HEU_Task*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9724)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2406)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9725))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9727)) CS Name: ::HoudiniEngineUnity::HEU_Task*
 class CORDL_TYPE HEU_Task : public ::System::Object {
 public:
   // Declarations
@@ -269,18 +273,18 @@ public:
 
   constexpr void __set__taskCompletedDelegate(::HoudiniEngineUnity::__HEU_Task__TaskCallback* value);
 
-  /// @brief Method get_TaskGuid addr 0x21aa6a8 size 0xc virtual false final false
+  /// @brief Method get_TaskGuid addr 0x2053d0c size 0xc virtual false final false
   inline ::System::Guid get_TaskGuid();
 
   static inline ::HoudiniEngineUnity::HEU_Task* New_ctor();
 
-  /// @brief Method .ctor addr 0x21aa6b4 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2053d18 size 0x24 virtual false final false
   inline void _ctor();
 
   /// @brief Method DoTask addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void DoTask();
 
-  /// @brief Method UpdateTask addr 0x21aa6d8 size 0x4 virtual true final false
+  /// @brief Method UpdateTask addr 0x2053d3c size 0x4 virtual true final false
   inline void UpdateTask();
 
   /// @brief Method KillTask addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -319,6 +323,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_Task, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_Task, ____status) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_Task, ____result) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_Task, ____guid) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_Task, ____taskCompletedDelegate) == 0x28, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_Task__TaskResult, "HoudiniEngineUnity", "HEU_Task/TaskResult");

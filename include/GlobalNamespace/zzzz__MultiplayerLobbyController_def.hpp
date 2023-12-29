@@ -9,16 +9,10 @@ namespace GlobalNamespace {
 class MultiplayerLobbyAvatarManager;
 }
 namespace GlobalNamespace {
-class MultiplayerLobbyCenterStageManager;
-}
-namespace GlobalNamespace {
 class MultiplayerLobbyAvatarPlaceManager;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace BeatSaber::AvatarCore {
-class OptionalAvatarDataSender;
+class MultiplayerLobbyCenterStageManager;
 }
 namespace GlobalNamespace {
 class MenuEnvironmentManager;
@@ -30,11 +24,11 @@ class MultiplayerLobbyController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyController);
 // Type: ::MultiplayerLobbyController
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5582))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5674))
 // CS Name: ::MultiplayerLobbyController*
 class CORDL_TYPE MultiplayerLobbyController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -59,13 +53,7 @@ public:
   /// @brief Field _menuEnvironmentManager, offset 0x38, size 0x8
   __declspec(property(get = __get__menuEnvironmentManager, put = __set__menuEnvironmentManager))::GlobalNamespace::MenuEnvironmentManager* _menuEnvironmentManager;
 
-  /// @brief Field _playerDataModel, offset 0x40, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
-
-  /// @brief Field _optionalAvatarDataSender, offset 0x48, size 0x8
-  __declspec(property(get = __get__optionalAvatarDataSender, put = __set__optionalAvatarDataSender))::BeatSaber::AvatarCore::OptionalAvatarDataSender* _optionalAvatarDataSender;
-
-  /// @brief Field <lobbyActivated>k__BackingField, offset 0x50, size 0x1
+  /// @brief Field <lobbyActivated>k__BackingField, offset 0x40, size 0x1
   __declspec(property(get = __get__lobbyActivated_k__BackingField, put = __set__lobbyActivated_k__BackingField)) bool _lobbyActivated_k__BackingField;
 
   __declspec(property(get = get_lobbyActivated, put = set_lobbyActivated)) bool lobbyActivated;
@@ -106,39 +94,27 @@ public:
 
   constexpr void __set__menuEnvironmentManager(::GlobalNamespace::MenuEnvironmentManager* value);
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
-
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
-
-  constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSender*& __get__optionalAvatarDataSender();
-
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::OptionalAvatarDataSender*> const& __get__optionalAvatarDataSender() const;
-
-  constexpr void __set__optionalAvatarDataSender(::BeatSaber::AvatarCore::OptionalAvatarDataSender* value);
-
   constexpr bool& __get__lobbyActivated_k__BackingField();
 
   constexpr bool const& __get__lobbyActivated_k__BackingField() const;
 
   constexpr void __set__lobbyActivated_k__BackingField(bool value);
 
-  /// @brief Method get_lobbyActivated addr 0x22a736c size 0x8 virtual false final false
+  /// @brief Method get_lobbyActivated addr 0x2161f68 size 0x8 virtual false final false
   inline bool get_lobbyActivated();
 
-  /// @brief Method set_lobbyActivated addr 0x22a7374 size 0xc virtual false final false
+  /// @brief Method set_lobbyActivated addr 0x2161f70 size 0xc virtual false final false
   inline void set_lobbyActivated(bool value);
 
-  /// @brief Method ActivateMultiplayerLobby addr 0x22a7380 size 0xcc virtual false final false
+  /// @brief Method ActivateMultiplayerLobby addr 0x2161f7c size 0x94 virtual false final false
   inline void ActivateMultiplayerLobby();
 
-  /// @brief Method DeactivateMultiplayerLobby addr 0x22a744c size 0x84 virtual false final false
+  /// @brief Method DeactivateMultiplayerLobby addr 0x2162010 size 0x70 virtual false final false
   inline void DeactivateMultiplayerLobby();
 
   static inline ::GlobalNamespace::MultiplayerLobbyController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22a74d0 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x2162080 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyController", modifiers: "&&", def_value: None }]
@@ -173,19 +149,27 @@ public:
   /// @brief Field _menuEnvironmentManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::MenuEnvironmentManager* ____menuEnvironmentManager;
 
-  /// @brief Field _playerDataModel, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
-
-  /// @brief Field _optionalAvatarDataSender, offset: 0x48, size: 0x8, def value: None
-  ::BeatSaber::AvatarCore::OptionalAvatarDataSender* ____optionalAvatarDataSender;
-
-  /// @brief Field <lobbyActivated>k__BackingField, offset: 0x50, size: 0x1, def value: None
+  /// @brief Field <lobbyActivated>k__BackingField, offset: 0x40, size: 0x1, def value: None
   bool ____lobbyActivated_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyController, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyController, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____innerCircleRadius) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____minOuterCircleRadius) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____multiplayerLobbyAvatarManager) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____multiplayerLobbyCenterStageManager) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____multiplayerLobbyAvatarPlaceManager) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____menuEnvironmentManager) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____lobbyActivated_k__BackingField) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLobbyController);

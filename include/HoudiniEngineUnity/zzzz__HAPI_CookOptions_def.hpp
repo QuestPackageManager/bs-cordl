@@ -20,8 +20,8 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_CookOptions);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9693))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9732))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9620))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9659))
 // CS Name: ::HoudiniEngineUnity::HAPI_CookOptions
 struct CORDL_TYPE HAPI_CookOptions {
 public:
@@ -94,6 +94,36 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_CookOptions, 0x24>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, splitGeosByGroup) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, splitGeosByAttribute) == 0x1, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, splitAttrSH) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, maxVerticesPerPrimitive) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, refineCurveToLinear) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, curveRefineLOD) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, clearErrorsAndWarnings) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, cookTemplatedGeos) == 0x15, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, splitPointsByVertexAttributes) == 0x16, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, packedPrimInstancingMode) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, handleBoxPartTypes) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, handleSpherePartTypes) == 0x1d, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, checkPartChanges) == 0x1e, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, cacheMeshTopology) == 0x1f, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, extraFlags) == 0x20, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_CookOptions, "HoudiniEngineUnity", "HAPI_CookOptions");

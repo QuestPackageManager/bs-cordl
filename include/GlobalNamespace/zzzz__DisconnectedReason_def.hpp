@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::DisconnectedReason);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12720))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12648))
 // CS Name: ::DisconnectedReason
 struct CORDL_TYPE DisconnectedReason {
 public:
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DisconnectedReason, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DisconnectedReason, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DisconnectedReason, "", "DisconnectedReason");

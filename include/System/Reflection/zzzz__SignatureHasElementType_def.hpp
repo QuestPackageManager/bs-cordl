@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignatureHasElementType)
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 class SignatureType;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Reflection::SignatureHasElementType);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3495))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3493))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3490))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3488))
 // CS Name: ::System.Reflection::SignatureHasElementType*
 class CORDL_TYPE SignatureHasElementType : public ::System::Reflection::SignatureType {
 public:
@@ -66,13 +66,13 @@ public:
 
   static inline ::System::Reflection::SignatureHasElementType* New_ctor(::System::Reflection::SignatureType* elementType);
 
-  /// @brief Method .ctor addr 0x24e9ec0 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2390408 size 0x24 virtual false final false
   inline void _ctor(::System::Reflection::SignatureType* elementType);
 
-  /// @brief Method get_IsGenericTypeDefinition addr 0x24ea624 size 0x8 virtual true final true
+  /// @brief Method get_IsGenericTypeDefinition addr 0x2390b6c size 0x8 virtual true final true
   inline bool get_IsGenericTypeDefinition();
 
-  /// @brief Method HasElementTypeImpl addr 0x24ea62c size 0x8 virtual true final true
+  /// @brief Method HasElementTypeImpl addr 0x2390b74 size 0x8 virtual true final true
   inline bool HasElementTypeImpl();
 
   /// @brief Method IsArrayImpl addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -90,43 +90,43 @@ public:
   /// @brief Method get_IsVariableBoundArray addr 0x0 size 0xffffffffffffffff virtual true final false
   inline bool get_IsVariableBoundArray();
 
-  /// @brief Method get_IsConstructedGenericType addr 0x24ea634 size 0x8 virtual true final true
+  /// @brief Method get_IsConstructedGenericType addr 0x2390b7c size 0x8 virtual true final true
   inline bool get_IsConstructedGenericType();
 
-  /// @brief Method get_IsGenericParameter addr 0x24ea63c size 0x8 virtual true final true
+  /// @brief Method get_IsGenericParameter addr 0x2390b84 size 0x8 virtual true final true
   inline bool get_IsGenericParameter();
 
-  /// @brief Method get_IsGenericMethodParameter addr 0x24ea644 size 0x8 virtual true final true
+  /// @brief Method get_IsGenericMethodParameter addr 0x2390b8c size 0x8 virtual true final true
   inline bool get_IsGenericMethodParameter();
 
-  /// @brief Method get_ContainsGenericParameters addr 0x24ea64c size 0x24 virtual true final true
+  /// @brief Method get_ContainsGenericParameters addr 0x2390b94 size 0x24 virtual true final true
   inline bool get_ContainsGenericParameters();
 
-  /// @brief Method get_ElementType addr 0x24ea670 size 0x8 virtual true final true
+  /// @brief Method get_ElementType addr 0x2390bb8 size 0x8 virtual true final true
   inline ::System::Reflection::SignatureType* get_ElementType();
 
   /// @brief Method GetArrayRank addr 0x0 size 0xffffffffffffffff virtual true final false
   inline int32_t GetArrayRank();
 
-  /// @brief Method GetGenericTypeDefinition addr 0x24ea678 size 0x50 virtual true final true
+  /// @brief Method GetGenericTypeDefinition addr 0x2390bc0 size 0x50 virtual true final true
   inline ::System::Type* GetGenericTypeDefinition();
 
-  /// @brief Method GetGenericArguments addr 0x24ea6c8 size 0x7c virtual true final true
+  /// @brief Method GetGenericArguments addr 0x2390c10 size 0x7c virtual true final true
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetGenericArguments();
 
-  /// @brief Method get_GenericTypeArguments addr 0x24ea744 size 0x7c virtual true final true
+  /// @brief Method get_GenericTypeArguments addr 0x2390c8c size 0x7c virtual true final true
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> get_GenericTypeArguments();
 
-  /// @brief Method get_GenericParameterPosition addr 0x24ea7c0 size 0x50 virtual true final true
+  /// @brief Method get_GenericParameterPosition addr 0x2390d08 size 0x50 virtual true final true
   inline int32_t get_GenericParameterPosition();
 
-  /// @brief Method get_Name addr 0x24ea810 size 0x54 virtual true final true
+  /// @brief Method get_Name addr 0x2390d58 size 0x54 virtual true final true
   inline ::StringW get_Name();
 
-  /// @brief Method get_Namespace addr 0x24ea864 size 0x24 virtual true final true
+  /// @brief Method get_Namespace addr 0x2390dac size 0x24 virtual true final true
   inline ::StringW get_Namespace();
 
-  /// @brief Method ToString addr 0x24ea888 size 0x54 virtual true final true
+  /// @brief Method ToString addr 0x2390dd0 size 0x54 virtual true final true
   inline ::StringW ToString();
 
   /// @brief Method get_Suffix addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -153,6 +153,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::SignatureHasElementType, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::SignatureHasElementType, ____elementType) == 0x18, "Offset mismatch!");
 
 } // namespace System::Reflection
 NEED_NO_BOX(::System::Reflection::SignatureHasElementType);

@@ -12,34 +12,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GroupOperation)
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct __GroupOperation__GroupOperationSettings;
+struct DownloadStatus;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IOperationCacheKey;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 class ICachable;
 }
-namespace UnityEngine::ResourceManagement::Util {
-class IOperationCacheKey;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct __GroupOperation__GroupOperationSettings;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace System {
-class Object;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace System {
 template <typename T> class Action_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {
@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperatio
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14037))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14308))
 // CS Name: ::GroupOperation::GroupOperationSettings
 struct CORDL_TYPE __GroupOperation__GroupOperationSettings {
 public:
@@ -102,14 +102,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::ResourceManagement::AsyncOperations
 // Type: UnityEngine.ResourceManagement.AsyncOperations::GroupOperation
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14037)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14032), inst: 792 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14038)) CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::GroupOperation*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3823)), TypeDefinitionIndex(TypeDefinitionIndex(14303)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14303), inst:
+// 781 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3823), inst: 279 }), TypeDefinitionIndex(TypeDefinitionIndex(14305)), TypeDefinitionIndex(TypeDefinitionIndex(14308))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14309))
+// CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::GroupOperation*
 class CORDL_TYPE GroupOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<
                                       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> {
 public:
@@ -187,57 +190,57 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bdd6f0 size 0x138 virtual false final false
+  /// @brief Method .ctor addr 0x2a5a99c size 0x138 virtual false final false
   inline void _ctor();
 
-  /// @brief Method InvokeWaitForCompletion addr 0x2bdd828 size 0x3d8 virtual true final false
+  /// @brief Method InvokeWaitForCompletion addr 0x2a5aad4 size 0x3d8 virtual true final false
   inline bool InvokeWaitForCompletion();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Key addr 0x2bddc00 size 0x8 virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Key addr 0x2a5aeac size 0x8 virtual true final true
   inline ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Key();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Key addr 0x2bddc08 size 0x8 virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Key addr 0x2a5aeb4 size 0x8 virtual true final true
   inline void UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Key(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* value);
 
-  /// @brief Method GetDependentOps addr 0x2bcd240 size 0x3c virtual false final false
+  /// @brief Method GetDependentOps addr 0x2a4a4ec size 0x3c virtual false final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* GetDependentOps();
 
-  /// @brief Method GetDependencies addr 0x2bddc10 size 0x64 virtual true final false
+  /// @brief Method GetDependencies addr 0x2a5aebc size 0x64 virtual true final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
 
-  /// @brief Method ReleaseDependencies addr 0x2bddc74 size 0x254 virtual true final false
+  /// @brief Method ReleaseDependencies addr 0x2a5af20 size 0x254 virtual true final false
   inline void ReleaseDependencies();
 
-  /// @brief Method GetDownloadStatus addr 0x2bddec8 size 0x260 virtual true final false
+  /// @brief Method GetDownloadStatus addr 0x2a5b174 size 0x260 virtual true final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited);
 
-  /// @brief Method DependenciesAreUnchanged addr 0x2bde128 size 0x1cc virtual false final false
+  /// @brief Method DependenciesAreUnchanged addr 0x2a5b3d4 size 0x1cc virtual false final false
   inline bool DependenciesAreUnchanged(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
 
-  /// @brief Method get_DebugName addr 0x2bde2f4 size 0x2d4 virtual true final false
+  /// @brief Method get_DebugName addr 0x2a5b5a0 size 0x2d4 virtual true final false
   inline ::StringW get_DebugName();
 
-  /// @brief Method Execute addr 0x2bde5c8 size 0x218 virtual true final false
+  /// @brief Method Execute addr 0x2a5b874 size 0x218 virtual true final false
   inline void Execute();
 
-  /// @brief Method CompleteIfDependenciesComplete addr 0x2bde7e0 size 0x308 virtual false final false
+  /// @brief Method CompleteIfDependenciesComplete addr 0x2a5ba8c size 0x308 virtual false final false
   inline void CompleteIfDependenciesComplete();
 
-  /// @brief Method Destroy addr 0x2bdeae8 size 0x10 virtual true final false
+  /// @brief Method Destroy addr 0x2a5bd94 size 0x10 virtual true final false
   inline void Destroy();
 
-  /// @brief Method get_Progress addr 0x2bdeaf8 size 0x1f8 virtual true final false
+  /// @brief Method get_Progress addr 0x2a5bda4 size 0x1f8 virtual true final false
   inline float_t get_Progress();
 
-  /// @brief Method Init addr 0x2bcd154 size 0xbc virtual false final false
+  /// @brief Method Init addr 0x2a4a400 size 0xbc virtual false final false
   inline void Init(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations, bool releaseDependenciesOnFailure,
                    bool allowFailedDependencies);
 
-  /// @brief Method Init addr 0x2bdecf0 size 0x98 virtual false final false
+  /// @brief Method Init addr 0x2a5bf9c size 0x98 virtual false final false
   inline void Init(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations,
                    ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings settings);
 
-  /// @brief Method OnOperationCompleted addr 0x2bded88 size 0x1010 virtual false final false
+  /// @brief Method OnOperationCompleted addr 0x2a5c034 size 0x10 virtual false final false
   inline void OnOperationCompleted(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
   // Ctor Parameters [CppParam { name: "", ty: "GroupOperation", modifiers: "&&", def_value: None }]
@@ -279,6 +282,19 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation, 0xb0>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation, ___m_InternalOnComplete) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation, ___m_LoadedCount) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation, ___m_Settings) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation, ___debugName) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation, ____UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField) == 0xa0,
+              "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation, ___m_CachedDependencyLocations) == 0xa8, "Offset mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::AsyncOperations
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings, "UnityEngine.ResourceManagement.AsyncOperations",

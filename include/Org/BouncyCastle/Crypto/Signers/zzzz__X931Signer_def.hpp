@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X931Signer)
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaKeyParameters;
 }
@@ -22,6 +19,9 @@ class ISigner;
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
 class X931Signer;
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::X931Signer);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1155))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::X931Signer*
 class CORDL_TYPE X931Signer : public ::System::Object {
@@ -99,39 +99,39 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Signers::X931Signer* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, bool isImplicit);
 
-  /// @brief Method .ctor addr 0xf59684 size 0x110 virtual false final false
+  /// @brief Method .ctor addr 0xee3474 size 0x110 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, bool isImplicit);
 
-  /// @brief Method get_AlgorithmName addr 0xf59794 size 0x160 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xee3584 size 0x160 virtual true final false
   inline ::StringW get_AlgorithmName();
 
   static inline ::Org::BouncyCastle::Crypto::Signers::X931Signer* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0xf598f4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xee36e4 size 0x8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init addr 0xf598fc size 0x1a0 virtual true final false
+  /// @brief Method Init addr 0xee36ec size 0x1a0 virtual true final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method ClearBlock addr 0xf59a9c size 0x24 virtual false final false
+  /// @brief Method ClearBlock addr 0xee388c size 0x24 virtual false final false
   inline void ClearBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> block);
 
-  /// @brief Method Update addr 0xf59ac0 size 0xac virtual true final false
+  /// @brief Method Update addr 0xee38b0 size 0xac virtual true final false
   inline void Update(uint8_t b);
 
-  /// @brief Method BlockUpdate addr 0xf59b6c size 0xc4 virtual true final false
+  /// @brief Method BlockUpdate addr 0xee395c size 0xc4 virtual true final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t off, int32_t len);
 
-  /// @brief Method Reset addr 0xf59c30 size 0xa4 virtual true final false
+  /// @brief Method Reset addr 0xee3a20 size 0xa4 virtual true final false
   inline void Reset();
 
-  /// @brief Method GenerateSignature addr 0xf59cd4 size 0x160 virtual true final false
+  /// @brief Method GenerateSignature addr 0xee3ac4 size 0x160 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method CreateSignatureBlock addr 0xf59e34 size 0x280 virtual false final false
+  /// @brief Method CreateSignatureBlock addr 0xee3c24 size 0x280 virtual false final false
   inline void CreateSignatureBlock();
 
-  /// @brief Method VerifySignature addr 0xf5a0b4 size 0x24c virtual true final false
+  /// @brief Method VerifySignature addr 0xee3ea4 size 0x24c virtual true final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   // Ctor Parameters [CppParam { name: "", ty: "X931Signer", modifiers: "&&", def_value: None }]
@@ -197,6 +197,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Signers::X931Signer, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::X931Signer, ___digest) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::X931Signer, ___cipher) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::X931Signer, ___kParam) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::X931Signer, ___trailer) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::X931Signer, ___keyBits) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::X931Signer, ___block) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Signers
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::X931Signer);

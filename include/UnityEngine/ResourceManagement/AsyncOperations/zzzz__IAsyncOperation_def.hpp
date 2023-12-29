@@ -6,29 +6,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IAsyncOperation)
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 class Exception;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
+struct AsyncOperationStatus;
 }
-namespace GlobalNamespace {
-template <typename T> class DelegateList_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationStatus;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -36,8 +27,17 @@ template <typename TResult> class Task_1;
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
+}
 namespace System {
-template <typename T> class Action_1;
+class Type;
+}
+namespace GlobalNamespace {
+template <typename T> class DelegateList_1;
 }
 namespace System {
 class Object;
@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperati
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14029))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14300))
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::IAsyncOperation*
 class CORDL_TYPE IAsyncOperation {
 public:

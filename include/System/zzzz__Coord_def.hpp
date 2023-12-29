@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Coord);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2645))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2643))
 // CS Name: ::System::Coord
 struct CORDL_TYPE Coord {
 public:
@@ -41,6 +41,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Coord, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Coord, X) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Coord, Y) == 0x2, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::Coord, "System", "Coord");

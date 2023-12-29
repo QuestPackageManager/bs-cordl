@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::UsageHint);
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6334))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6420))
 // CS Name: ::UnityEngine.InputSystem.XR::UsageHint
 struct CORDL_TYPE UsageHint {
 public:
@@ -38,6 +38,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::UsageHint, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::UsageHint, content) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XR::UsageHint, "UnityEngine.InputSystem.XR", "UsageHint");

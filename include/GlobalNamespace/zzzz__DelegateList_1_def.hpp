@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DelegateList_1)
-namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System::Collections::Generic {
+template <typename T> class LinkedList_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +29,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13946))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14217))
 // CS Name: ::DelegateList`1<T>*
 class CORDL_TYPE DelegateList_1 : public ::System::Object {
 public:

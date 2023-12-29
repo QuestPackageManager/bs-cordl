@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::RuntimeCompatibilityAttribut
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3381))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3376))
 // CS Name: ::System.Runtime.CompilerServices::RuntimeCompatibilityAttribute*
 class CORDL_TYPE RuntimeCompatibilityAttribute : public ::System::Attribute {
 public:
@@ -33,10 +33,10 @@ public:
 
   static inline ::System::Runtime::CompilerServices::RuntimeCompatibilityAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x24db240 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2381850 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method set_WrapNonExceptionThrows addr 0x24db248 size 0xc virtual false final false
+  /// @brief Method set_WrapNonExceptionThrows addr 0x2381858 size 0xc virtual false final false
   inline void set_WrapNonExceptionThrows(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeCompatibilityAttribute", modifiers: "&&", def_value: None }]
@@ -60,6 +60,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::RuntimeCompatibilityAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::CompilerServices::RuntimeCompatibilityAttribute, ____WrapNonExceptionThrows_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::RuntimeCompatibilityAttribute);

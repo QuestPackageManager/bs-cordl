@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BakerTransform)
 namespace UnityEngine {
-struct Quaternion;
+class AnimationCurve;
 }
 namespace UnityEngine {
-class AnimationCurve;
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-class Transform;
+class AnimationClip;
 }
 namespace UnityEngine {
-class AnimationClip;
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::RootMotion::BakerTransform);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12478))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12406))
 // CS Name: ::RootMotion::BakerTransform*
 class CORDL_TYPE BakerTransform : public ::System::Object {
 public:
@@ -159,28 +159,28 @@ public:
 
   static inline ::RootMotion::BakerTransform* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::Transform* root, bool recordPosition, bool isRootNode);
 
-  /// @brief Method .ctor addr 0x12311a8 size 0x94 virtual false final false
+  /// @brief Method .ctor addr 0x11c0e7c size 0x94 virtual false final false
   inline void _ctor(::UnityEngine::Transform* transform, ::UnityEngine::Transform* root, bool recordPosition, bool isRootNode);
 
-  /// @brief Method SetRelativeSpace addr 0x123141c size 0x14 virtual false final false
+  /// @brief Method SetRelativeSpace addr 0x11c10f0 size 0x14 virtual false final false
   inline void SetRelativeSpace(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SetCurves addr 0x12316f8 size 0x2b4 virtual false final false
+  /// @brief Method SetCurves addr 0x11c13cc size 0x2b4 virtual false final false
   inline void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
 
-  /// @brief Method AddRootMotionCurves addr 0x1234610 size 0x288 virtual false final false
+  /// @brief Method AddRootMotionCurves addr 0x11c42e4 size 0x288 virtual false final false
   inline void AddRootMotionCurves(ByRef<::UnityEngine::AnimationClip*> clip);
 
-  /// @brief Method Reset addr 0x1231314 size 0x108 virtual false final false
+  /// @brief Method Reset addr 0x11c0fe8 size 0x108 virtual false final false
   inline void Reset();
 
-  /// @brief Method ReduceKeyframes addr 0x1234898 size 0x68 virtual false final false
+  /// @brief Method ReduceKeyframes addr 0x11c456c size 0x68 virtual false final false
   inline void ReduceKeyframes(float_t maxError);
 
-  /// @brief Method SetKeyframes addr 0x1231a18 size 0x1f4 virtual false final false
+  /// @brief Method SetKeyframes addr 0x11c16ec size 0x1f4 virtual false final false
   inline void SetKeyframes(float_t time);
 
-  /// @brief Method AddLoopFrame addr 0x123149c size 0x1f8 virtual false final false
+  /// @brief Method AddLoopFrame addr 0x11c1170 size 0x1f8 virtual false final false
   inline void AddLoopFrame(float_t time);
 
   // Ctor Parameters [CppParam { name: "", ty: "BakerTransform", modifiers: "&&", def_value: None }]
@@ -240,6 +240,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::BakerTransform, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::BakerTransform, ___transform) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::BakerTransform, ___posX) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::BakerTransform, ___posY) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::BakerTransform, ___posZ) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::BakerTransform, ___rotX) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::BakerTransform, ___rotY) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::BakerTransform, ___rotZ) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::BakerTransform, ___rotW) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::BakerTransform, ___relativePath) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::BakerTransform, ___recordPosition) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::BakerTransform, ___relativePosition) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::BakerTransform, ___isRootNode) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::BakerTransform, ___relativeRotation) == 0x6c, "Offset mismatch!");
 
 } // namespace RootMotion
 NEED_NO_BOX(::RootMotion::BakerTransform);

@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::DestinationList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13430)), TypeDefinitionIndex(TypeDefinitionIndex(13431)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst:
-// 1173 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13432)) CS Name: ::Oculus.Platform.Models::DestinationList*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13476), inst: 1149 }), TypeDefinitionIndex(TypeDefinitionIndex(13477)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13476))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13478)) CS Name: ::Oculus.Platform.Models::DestinationList*
 class CORDL_TYPE DestinationList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Destination*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::Models::DestinationList* New_ctor(void* a);
 
-  /// @brief Method .ctor addr 0x2705b64 size 0x25c virtual false final false
+  /// @brief Method .ctor addr 0x25b31b8 size 0x25c virtual false final false
   inline void _ctor(void* a);
 
   // Ctor Parameters [CppParam { name: "", ty: "DestinationList", modifiers: "&&", def_value: None }]

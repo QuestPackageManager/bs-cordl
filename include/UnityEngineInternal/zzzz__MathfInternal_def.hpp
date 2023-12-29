@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngineInternal::MathfInternal);
 namespace UnityEngineInternal {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9964))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9892))
 // CS Name: ::UnityEngineInternal::MathfInternal
 #pragma pack(push, 0)
 struct CORDL_TYPE MathfInternal {

@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::SignalDefaultSyncModes);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11171))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11099))
 // CS Name: ::Zenject::SignalDefaultSyncModes
 struct CORDL_TYPE SignalDefaultSyncModes {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::SignalDefaultSyncModes, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::SignalDefaultSyncModes, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Zenject
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::SignalDefaultSyncModes, "Zenject", "SignalDefaultSyncModes");

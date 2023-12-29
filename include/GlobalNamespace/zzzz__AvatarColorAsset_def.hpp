@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
 CORDL_MODULE_EXPORT(AvatarColorAsset)
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::Timeline {
+struct ClipCaps;
+}
+namespace GlobalNamespace {
+class AvatarColorBehaviour;
+}
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct Playable;
 }
-namespace GlobalNamespace {
-class AvatarColorBehaviour;
-}
 namespace UnityEngine::Timeline {
 class ITimelineClipAsset;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::Timeline {
-struct ClipCaps;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AvatarColorAsset);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10422))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6003))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10344))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6058))
 // CS Name: ::AvatarColorAsset*
 class CORDL_TYPE AvatarColorAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:
@@ -52,15 +52,15 @@ public:
 
   constexpr void __set__template(::GlobalNamespace::AvatarColorBehaviour* value);
 
-  /// @brief Method get_clipCaps addr 0x2315198 size 0x8 virtual true final true
+  /// @brief Method get_clipCaps addr 0x21c3374 size 0x8 virtual true final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
-  /// @brief Method CreatePlayable addr 0x23151a0 size 0xa8 virtual true final false
+  /// @brief Method CreatePlayable addr 0x21c337c size 0xa8 virtual true final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::AvatarColorAsset* New_ctor();
 
-  /// @brief Method .ctor addr 0x2315248 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21c3424 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarColorAsset", modifiers: "&&", def_value: None }]
@@ -84,6 +84,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AvatarColorAsset, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AvatarColorAsset, ____template) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AvatarColorAsset);

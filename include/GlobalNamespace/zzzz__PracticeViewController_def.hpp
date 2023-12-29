@@ -6,23 +6,20 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PracticeViewController)
-namespace HMUI {
-class TimeSlider;
-}
-namespace HMUI {
-class PercentSlider;
-}
 namespace GlobalNamespace {
 class IBeatmapLevel;
-}
-namespace HMUI {
-class RangeValuesTextSlider;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
-class SongPreviewPlayer;
+class PerceivedLoudnessPerLevelModel;
+}
+namespace HMUI {
+class TimeSlider;
+}
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class PracticeSettings;
@@ -30,20 +27,23 @@ class PracticeSettings;
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
-namespace UnityEngine::UI {
-class Button;
-}
-namespace GlobalNamespace {
-class LevelBar;
-}
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelModel;
+class LevelBar;
+}
+namespace GlobalNamespace {
+class SongPreviewPlayer;
+}
+namespace HMUI {
+class RangeValuesTextSlider;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace HMUI {
+class PercentSlider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,8 +55,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PracticeViewController);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 212, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5731))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722)), TypeDefinitionIndex(TypeDefinitionIndex(14934))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5831))
 // CS Name: ::PracticeViewController*
 class CORDL_TYPE PracticeViewController : public ::HMUI::ViewController {
 public:
@@ -189,42 +189,42 @@ public:
 
   constexpr void __set__beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  /// @brief Method add_didPressPlayButtonEvent addr 0x22d4e94 size 0x9c virtual false final false
+  /// @brief Method add_didPressPlayButtonEvent addr 0x21920ac size 0x9c virtual false final false
   inline void add_didPressPlayButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressPlayButtonEvent addr 0x22d4f30 size 0x9c virtual false final false
+  /// @brief Method remove_didPressPlayButtonEvent addr 0x2192148 size 0x9c virtual false final false
   inline void remove_didPressPlayButtonEvent(::System::Action* value);
 
-  /// @brief Method get_practiceSettings addr 0x22d4fcc size 0x8 virtual false final false
+  /// @brief Method get_practiceSettings addr 0x21921e4 size 0x8 virtual false final false
   inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
 
-  /// @brief Method Init addr 0x22d4fd4 size 0x1c4 virtual false final false
+  /// @brief Method Init addr 0x21921ec size 0x1c4 virtual false final false
   inline void Init(::GlobalNamespace::IBeatmapLevel* level, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
-  /// @brief Method DidActivate addr 0x22d5198 size 0x184 virtual true final false
+  /// @brief Method DidActivate addr 0x21923b0 size 0x188 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x22d5364 size 0xf8 virtual true final false
+  /// @brief Method DidDeactivate addr 0x2192580 size 0xf8 virtual true final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method PlayPreview addr 0x22d545c size 0x1f0 virtual false final false
+  /// @brief Method PlayPreview addr 0x2192678 size 0x1f0 virtual false final false
   inline void PlayPreview();
 
-  /// @brief Method RefreshUI addr 0x22d531c size 0x48 virtual false final false
+  /// @brief Method RefreshUI addr 0x2192538 size 0x48 virtual false final false
   inline void RefreshUI();
 
-  /// @brief Method HandleSpeedSliderValueDidChange addr 0x22d564c size 0x1c virtual false final false
+  /// @brief Method HandleSpeedSliderValueDidChange addr 0x2192868 size 0x1c virtual false final false
   inline void HandleSpeedSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-  /// @brief Method HandleSongStartSliderValueDidChange addr 0x22d5668 size 0x38 virtual false final false
+  /// @brief Method HandleSongStartSliderValueDidChange addr 0x2192884 size 0x38 virtual false final false
   inline void HandleSongStartSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-  /// @brief Method PlayButtonPressed addr 0x22d56a0 size 0x48 virtual false final false
+  /// @brief Method PlayButtonPressed addr 0x21928bc size 0x48 virtual false final false
   inline void PlayButtonPressed();
 
   static inline ::GlobalNamespace::PracticeViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22d56e8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2192904 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PracticeViewController", modifiers: "&&", def_value: None }]
@@ -293,6 +293,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PracticeViewController, 0xd8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____songStartSlider) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____speedSlider) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____levelBar) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____playButton) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____playerDataModel) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____songPreviewPlayer) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____perceivedLoudnessPerLevelModel) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PracticeViewController, ___didPressPlayButtonEvent) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____practiceSettings) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____currentPlayingStartTime) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____maxStartSongTime) == 0xbc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____level) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____beatmapCharacteristic) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____beatmapDifficulty) == 0xd0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PracticeViewController);

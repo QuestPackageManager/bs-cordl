@@ -13,31 +13,31 @@ namespace UnityEngine::EventSystems {
 class __EventSystem____c__DisplayClass52_0;
 }
 namespace UnityEngine::EventSystems {
-class BaseEventData;
+class BaseInputModule;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
+struct __EventSystem__UIToolkitOverrideConfig;
+}
+namespace System {
+template <typename T> class Comparison_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::EventSystems {
-class BaseInputModule;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-template <typename T> class Comparison_1;
-}
-namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
-}
-namespace UnityEngine::EventSystems {
-struct __EventSystem__UIToolkitOverrideConfig;
-}
-namespace UnityEngine::EventSystems {
 struct RaycastResult;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class BaseEventData;
+}
+namespace UnityEngine::UIElements {
+class BaseRuntimePanel;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -58,7 +58,7 @@ MARK_VAL_T(::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig);
 namespace UnityEngine::EventSystems {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13189))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13194))
 // CS Name: ::EventSystem::UIToolkitOverrideConfig
 struct CORDL_TYPE __EventSystem__UIToolkitOverrideConfig {
 public:
@@ -88,13 +88,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig, activeEventSystem) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig, sendEvents) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig, createPanelGameObjectsOnStart) == 0x9, "Offset mismatch!");
+
 } // namespace UnityEngine::EventSystems
 // Type: ::<>c__DisplayClass52_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13190))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13195))
 // CS Name: ::EventSystem::<>c__DisplayClass52_0*
 class CORDL_TYPE __EventSystem____c__DisplayClass52_0 : public ::System::Object {
 public:
@@ -110,10 +116,10 @@ public:
 
   static inline ::UnityEngine::EventSystems::__EventSystem____c__DisplayClass52_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d97a98 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2c2f6e8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <CreateUIToolkitPanelGameObject>b__0 addr 0x2d98654 size 0x5c virtual false final false
+  /// @brief Method <CreateUIToolkitPanelGameObject>b__0 addr 0x2c302a4 size 0x5c virtual false final false
   inline void _CreateUIToolkitPanelGameObject_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__EventSystem____c__DisplayClass52_0", modifiers: "&&", def_value: None }]
@@ -138,13 +144,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::__EventSystem____c__DisplayClass52_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::EventSystems::__EventSystem____c__DisplayClass52_0, ___go) == 0x10, "Offset mismatch!");
+
 } // namespace UnityEngine::EventSystems
 // Type: UnityEngine.EventSystems::EventSystem
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(13189))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13191))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13219)), TypeDefinitionIndex(TypeDefinitionIndex(13194))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13196))
 // CS Name: ::UnityEngine.EventSystems::EventSystem*
 class CORDL_TYPE EventSystem : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
@@ -279,114 +287,114 @@ public:
 
   static inline ::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig getStaticF_s_UIToolkitOverride();
 
-  /// @brief Method get_current addr 0x2d968dc size 0xc4 virtual false final false
+  /// @brief Method get_current addr 0x2c2e52c size 0xc4 virtual false final false
   static inline ::UnityEngine::EventSystems::EventSystem* get_current();
 
-  /// @brief Method set_current addr 0x2d969a0 size 0x194 virtual false final false
+  /// @brief Method set_current addr 0x2c2e5f0 size 0x194 virtual false final false
   static inline void set_current(::UnityEngine::EventSystems::EventSystem* value);
 
-  /// @brief Method get_sendNavigationEvents addr 0x2d96b34 size 0x8 virtual false final false
+  /// @brief Method get_sendNavigationEvents addr 0x2c2e784 size 0x8 virtual false final false
   inline bool get_sendNavigationEvents();
 
-  /// @brief Method set_sendNavigationEvents addr 0x2d96b3c size 0xc virtual false final false
+  /// @brief Method set_sendNavigationEvents addr 0x2c2e78c size 0xc virtual false final false
   inline void set_sendNavigationEvents(bool value);
 
-  /// @brief Method get_pixelDragThreshold addr 0x2d96b48 size 0x8 virtual false final false
+  /// @brief Method get_pixelDragThreshold addr 0x2c2e798 size 0x8 virtual false final false
   inline int32_t get_pixelDragThreshold();
 
-  /// @brief Method set_pixelDragThreshold addr 0x2d96b50 size 0x8 virtual false final false
+  /// @brief Method set_pixelDragThreshold addr 0x2c2e7a0 size 0x8 virtual false final false
   inline void set_pixelDragThreshold(int32_t value);
 
-  /// @brief Method get_currentInputModule addr 0x2d96b58 size 0x8 virtual false final false
+  /// @brief Method get_currentInputModule addr 0x2c2e7a8 size 0x8 virtual false final false
   inline ::UnityEngine::EventSystems::BaseInputModule* get_currentInputModule();
 
-  /// @brief Method get_firstSelectedGameObject addr 0x2d96b60 size 0x8 virtual false final false
+  /// @brief Method get_firstSelectedGameObject addr 0x2c2e7b0 size 0x8 virtual false final false
   inline ::UnityEngine::GameObject* get_firstSelectedGameObject();
 
-  /// @brief Method set_firstSelectedGameObject addr 0x2d96b68 size 0x8 virtual false final false
+  /// @brief Method set_firstSelectedGameObject addr 0x2c2e7b8 size 0x8 virtual false final false
   inline void set_firstSelectedGameObject(::UnityEngine::GameObject* value);
 
-  /// @brief Method get_currentSelectedGameObject addr 0x2d96b70 size 0x8 virtual false final false
+  /// @brief Method get_currentSelectedGameObject addr 0x2c2e7c0 size 0x8 virtual false final false
   inline ::UnityEngine::GameObject* get_currentSelectedGameObject();
 
-  /// @brief Method get_lastSelectedGameObject addr 0x2d96b78 size 0x8 virtual false final false
+  /// @brief Method get_lastSelectedGameObject addr 0x2c2e7c8 size 0x8 virtual false final false
   inline ::UnityEngine::GameObject* get_lastSelectedGameObject();
 
-  /// @brief Method get_isFocused addr 0x2d96b80 size 0x8 virtual false final false
+  /// @brief Method get_isFocused addr 0x2c2e7d0 size 0x8 virtual false final false
   inline bool get_isFocused();
 
   static inline ::UnityEngine::EventSystems::EventSystem* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d96b88 size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x2c2e7d8 size 0x90 virtual false final false
   inline void _ctor();
 
-  /// @brief Method UpdateModules addr 0x2d96c18 size 0x140 virtual false final false
+  /// @brief Method UpdateModules addr 0x2c2e868 size 0x140 virtual false final false
   inline void UpdateModules();
 
-  /// @brief Method get_alreadySelecting addr 0x2d96d58 size 0x8 virtual false final false
+  /// @brief Method get_alreadySelecting addr 0x2c2e9a8 size 0x8 virtual false final false
   inline bool get_alreadySelecting();
 
-  /// @brief Method SetSelectedGameObject addr 0x2d954a0 size 0x224 virtual false final false
+  /// @brief Method SetSelectedGameObject addr 0x2c2d0f0 size 0x224 virtual false final false
   inline void SetSelectedGameObject(::UnityEngine::GameObject* selected, ::UnityEngine::EventSystems::BaseEventData* pointer);
 
-  /// @brief Method get_baseEventDataCache addr 0x2d96d60 size 0x70 virtual false final false
+  /// @brief Method get_baseEventDataCache addr 0x2c2e9b0 size 0x70 virtual false final false
   inline ::UnityEngine::EventSystems::BaseEventData* get_baseEventDataCache();
 
-  /// @brief Method SetSelectedGameObject addr 0x2d929f4 size 0x2c virtual false final false
+  /// @brief Method SetSelectedGameObject addr 0x2c2a644 size 0x2c virtual false final false
   inline void SetSelectedGameObject(::UnityEngine::GameObject* selected);
 
-  /// @brief Method RaycastComparer addr 0x2d96dd0 size 0x364 virtual false final false
+  /// @brief Method RaycastComparer addr 0x2c2ea20 size 0x364 virtual false final false
   static inline int32_t RaycastComparer(::UnityEngine::EventSystems::RaycastResult lhs, ::UnityEngine::EventSystems::RaycastResult rhs);
 
-  /// @brief Method RaycastAll addr 0x2d971ec size 0x1f0 virtual false final false
+  /// @brief Method RaycastAll addr 0x2c2ee3c size 0x1f0 virtual false final false
   inline void RaycastAll(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* raycastResults);
 
-  /// @brief Method IsPointerOverGameObject addr 0x2d973dc size 0x8 virtual false final false
+  /// @brief Method IsPointerOverGameObject addr 0x2c2f02c size 0x8 virtual false final false
   inline bool IsPointerOverGameObject();
 
-  /// @brief Method IsPointerOverGameObject addr 0x2d973e4 size 0xa4 virtual false final false
+  /// @brief Method IsPointerOverGameObject addr 0x2c2f034 size 0xa4 virtual false final false
   inline bool IsPointerOverGameObject(int32_t pointerId);
 
-  /// @brief Method get_isUIToolkitActiveEventSystem addr 0x2d97488 size 0xf0 virtual false final false
+  /// @brief Method get_isUIToolkitActiveEventSystem addr 0x2c2f0d8 size 0xf0 virtual false final false
   inline bool get_isUIToolkitActiveEventSystem();
 
-  /// @brief Method get_sendUIToolkitEvents addr 0x2d97578 size 0x74 virtual false final false
+  /// @brief Method get_sendUIToolkitEvents addr 0x2c2f1c8 size 0x74 virtual false final false
   inline bool get_sendUIToolkitEvents();
 
-  /// @brief Method get_createUIToolkitPanelGameObjectsOnStart addr 0x2d975ec size 0x74 virtual false final false
+  /// @brief Method get_createUIToolkitPanelGameObjectsOnStart addr 0x2c2f23c size 0x74 virtual false final false
   inline bool get_createUIToolkitPanelGameObjectsOnStart();
 
-  /// @brief Method SetUITookitEventSystemOverride addr 0x2d97660 size 0x19c virtual false final false
+  /// @brief Method SetUITookitEventSystemOverride addr 0x2c2f2b0 size 0x19c virtual false final false
   static inline void SetUITookitEventSystemOverride(::UnityEngine::EventSystems::EventSystem* activeEventSystem, bool sendEvents, bool createPanelGameObjectsOnStart);
 
-  /// @brief Method CreateUIToolkitPanelGameObject addr 0x2d977fc size 0x29c virtual false final false
+  /// @brief Method CreateUIToolkitPanelGameObject addr 0x2c2f44c size 0x29c virtual false final false
   inline void CreateUIToolkitPanelGameObject(::UnityEngine::UIElements::BaseRuntimePanel* panel);
 
-  /// @brief Method Start addr 0x2d97aa0 size 0x23c virtual true final false
+  /// @brief Method Start addr 0x2c2f6f0 size 0x23c virtual true final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x2d97ce0 size 0xa4 virtual true final false
+  /// @brief Method OnDestroy addr 0x2c2f930 size 0xa4 virtual true final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable addr 0x2d97d88 size 0x110 virtual true final false
+  /// @brief Method OnEnable addr 0x2c2f9d8 size 0x110 virtual true final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2d97e98 size 0x108 virtual true final false
+  /// @brief Method OnDisable addr 0x2c2fae8 size 0x108 virtual true final false
   inline void OnDisable();
 
-  /// @brief Method TickModules addr 0x2d97fa0 size 0x100 virtual false final false
+  /// @brief Method TickModules addr 0x2c2fbf0 size 0x100 virtual false final false
   inline void TickModules();
 
-  /// @brief Method OnApplicationFocus addr 0x2d980a0 size 0x14 virtual true final false
+  /// @brief Method OnApplicationFocus addr 0x2c2fcf0 size 0x14 virtual true final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method Update addr 0x2d980b4 size 0x260 virtual true final false
+  /// @brief Method Update addr 0x2c2fd04 size 0x260 virtual true final false
   inline void Update();
 
-  /// @brief Method ChangeEventModule addr 0x2d98314 size 0xf8 virtual false final false
+  /// @brief Method ChangeEventModule addr 0x2c2ff64 size 0xf8 virtual false final false
   inline void ChangeEventModule(::UnityEngine::EventSystems::BaseInputModule* module);
 
-  /// @brief Method ToString addr 0x2d9840c size 0x158 virtual true final false
+  /// @brief Method ToString addr 0x2c3005c size 0x158 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventSystem", modifiers: "&&", def_value: None }]
@@ -434,6 +442,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::EventSystem, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::EventSystem, ___m_SystemInputModules) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::EventSystem, ___m_CurrentInputModule) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::EventSystem, ___m_FirstSelected) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::EventSystem, ___m_sendNavigationEvents) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::EventSystem, ___m_DragThreshold) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::EventSystem, ___m_CurrentSelected) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::EventSystem, ___m_HasFocus) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::EventSystem, ___m_SelectionGuard) == 0x41, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::EventSystem, ___m_DummyData) == 0x48, "Offset mismatch!");
 
 } // namespace UnityEngine::EventSystems
 NEED_NO_BOX(::UnityEngine::EventSystems::EventSystem);

@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::MinAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10177))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10098))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10105))
 // CS Name: ::UnityEngine::MinAttribute*
 class CORDL_TYPE MinAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::MinAttribute* New_ctor(float_t min);
 
-  /// @brief Method .ctor addr 0x2ccc1e4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2b65ce0 size 0x28 virtual false final false
   inline void _ctor(float_t min);
 
   // Ctor Parameters [CppParam { name: "", ty: "MinAttribute", modifiers: "&&", def_value: None }]
@@ -56,6 +56,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::MinAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::MinAttribute, ___min) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::MinAttribute);

@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Queue)
 namespace System::Collections {
-class IEnumerable;
+class __Queue__QueueEnumerator;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class ICloneable;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class __Queue__QueueDebugView;
 }
 namespace System {
 class Array;
-}
-namespace System::Collections {
-class __Queue__QueueEnumerator;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -49,8 +49,8 @@ MARK_REF_PTR_T(::System::Collections::__Queue__QueueEnumerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3774))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3762))
 // CS Name: ::Queue::QueueEnumerator*
 class CORDL_TYPE __Queue__QueueEnumerator : public ::System::Object {
 public:
@@ -101,19 +101,19 @@ public:
 
   static inline ::System::Collections::__Queue__QueueEnumerator* New_ctor(::System::Collections::Queue* q);
 
-  /// @brief Method .ctor addr 0x257f724 size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x24242bc size 0x50 virtual false final false
   inline void _ctor(::System::Collections::Queue* q);
 
-  /// @brief Method Clone addr 0x257f914 size 0x8 virtual true final true
+  /// @brief Method Clone addr 0x24244ac size 0x8 virtual true final true
   inline ::System::Object* Clone();
 
-  /// @brief Method MoveNext addr 0x257f91c size 0xc8 virtual true final false
+  /// @brief Method MoveNext addr 0x24244b4 size 0xc8 virtual true final false
   inline bool MoveNext();
 
-  /// @brief Method get_Current addr 0x257f9e4 size 0x94 virtual true final false
+  /// @brief Method get_Current addr 0x242457c size 0x94 virtual true final false
   inline ::System::Object* get_Current();
 
-  /// @brief Method Reset addr 0x257fa78 size 0x8c virtual true final false
+  /// @brief Method Reset addr 0x2424610 size 0x8c virtual true final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Queue__QueueEnumerator", modifiers: "&&", def_value: None }]
@@ -147,13 +147,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::__Queue__QueueEnumerator, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::System::Collections::__Queue__QueueEnumerator, ____q) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::__Queue__QueueEnumerator, ____index) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::__Queue__QueueEnumerator, ____version) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::__Queue__QueueEnumerator, ____currentElement) == 0x20, "Offset mismatch!");
+
 } // namespace System::Collections
 // Type: ::QueueDebugView
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3775))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3763))
 // CS Name: ::Queue::QueueDebugView*
 class CORDL_TYPE __Queue__QueueDebugView : public ::System::Object {
 public:
@@ -182,8 +190,8 @@ static_assert(::cordl_internals::size_check_v<::System::Collections::__Queue__Qu
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3776))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3764))
 // CS Name: ::System.Collections::Queue*
 class CORDL_TYPE Queue : public ::System::Object {
 public:
@@ -272,55 +280,55 @@ public:
 
   static inline ::System::Collections::Queue* New_ctor();
 
-  /// @brief Method .ctor addr 0x257ed38 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x24238d0 size 0xc virtual false final false
   inline void _ctor();
 
   static inline ::System::Collections::Queue* New_ctor(int32_t capacity);
 
-  /// @brief Method .ctor addr 0x257ef04 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2423a9c size 0x8 virtual false final false
   inline void _ctor(int32_t capacity);
 
   static inline ::System::Collections::Queue* New_ctor(int32_t capacity, float_t growFactor);
 
-  /// @brief Method .ctor addr 0x257ed44 size 0x1c0 virtual false final false
+  /// @brief Method .ctor addr 0x24238dc size 0x1c0 virtual false final false
   inline void _ctor(int32_t capacity, float_t growFactor);
 
   static inline ::System::Collections::Queue* New_ctor(::System::Collections::ICollection* col);
 
-  /// @brief Method .ctor addr 0x257ef0c size 0x26c virtual false final false
+  /// @brief Method .ctor addr 0x2423aa4 size 0x26c virtual false final false
   inline void _ctor(::System::Collections::ICollection* col);
 
-  /// @brief Method get_Count addr 0x257f178 size 0x8 virtual true final false
+  /// @brief Method get_Count addr 0x2423d10 size 0x8 virtual true final false
   inline int32_t get_Count();
 
-  /// @brief Method Clone addr 0x257f180 size 0xe4 virtual true final false
+  /// @brief Method Clone addr 0x2423d18 size 0xe4 virtual true final false
   inline ::System::Object* Clone();
 
-  /// @brief Method get_IsSynchronized addr 0x257f264 size 0x8 virtual true final false
+  /// @brief Method get_IsSynchronized addr 0x2423dfc size 0x8 virtual true final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot addr 0x257f26c size 0x7c virtual true final false
+  /// @brief Method get_SyncRoot addr 0x2423e04 size 0x7c virtual true final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method CopyTo addr 0x257f2e8 size 0x1f4 virtual true final false
+  /// @brief Method CopyTo addr 0x2423e80 size 0x1f4 virtual true final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method Enqueue addr 0x257f4dc size 0xfc virtual true final false
+  /// @brief Method Enqueue addr 0x2424074 size 0xfc virtual true final false
   inline void Enqueue(::System::Object* obj);
 
-  /// @brief Method GetEnumerator addr 0x257f6c4 size 0x60 virtual true final false
+  /// @brief Method GetEnumerator addr 0x242425c size 0x60 virtual true final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method Dequeue addr 0x257f774 size 0xcc virtual true final false
+  /// @brief Method Dequeue addr 0x242430c size 0xcc virtual true final false
   inline ::System::Object* Dequeue();
 
-  /// @brief Method Peek addr 0x257f840 size 0x94 virtual true final false
+  /// @brief Method Peek addr 0x24243d8 size 0x94 virtual true final false
   inline ::System::Object* Peek();
 
-  /// @brief Method GetElement addr 0x257f8d4 size 0x40 virtual false final false
+  /// @brief Method GetElement addr 0x242446c size 0x40 virtual false final false
   inline ::System::Object* GetElement(int32_t i);
 
-  /// @brief Method SetCapacity addr 0x257f5d8 size 0xec virtual false final false
+  /// @brief Method SetCapacity addr 0x2424170 size 0xec virtual false final false
   inline void SetCapacity(int32_t capacity);
 
   // Ctor Parameters [CppParam { name: "", ty: "Queue", modifiers: "&&", def_value: None }]
@@ -362,6 +370,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::Queue, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Collections::Queue, ____array) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Queue, ____head) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Queue, ____tail) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Queue, ____size) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Queue, ____growFactor) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Queue, ____version) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Queue, ____syncRoot) == 0x30, "Offset mismatch!");
 
 } // namespace System::Collections
 NEED_NO_BOX(::System::Collections::Queue);

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectHolderListEnumerator)
 namespace System::Runtime::Serialization {
-class ObjectHolder;
+class ObjectHolderList;
 }
 namespace System::Runtime::Serialization {
-class ObjectHolderList;
+class ObjectHolder;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ObjectHolderListEnumerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3223))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3222))
 // CS Name: ::System.Runtime.Serialization::ObjectHolderListEnumerator*
 class CORDL_TYPE ObjectHolderListEnumerator : public ::System::Object {
 public:
@@ -67,13 +67,13 @@ public:
 
   static inline ::System::Runtime::Serialization::ObjectHolderListEnumerator* New_ctor(::System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator);
 
-  /// @brief Method .ctor addr 0x24bcd0c size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2364218 size 0x48 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator);
 
-  /// @brief Method MoveNext addr 0x24bbbf0 size 0xbc virtual false final false
+  /// @brief Method MoveNext addr 0x23630fc size 0xbc virtual false final false
   inline bool MoveNext();
 
-  /// @brief Method get_Current addr 0x24bbb98 size 0x3c virtual false final false
+  /// @brief Method get_Current addr 0x23630a4 size 0x3c virtual false final false
   inline ::System::Runtime::Serialization::ObjectHolder* get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectHolderListEnumerator", modifiers: "&&", def_value: None }]
@@ -106,6 +106,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::ObjectHolderListEnumerator, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::ObjectHolderListEnumerator, ___m_isFixupEnumerator) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::ObjectHolderListEnumerator, ___m_list) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::ObjectHolderListEnumerator, ___m_startingVersion) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::ObjectHolderListEnumerator, ___m_currPos) == 0x24, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::ObjectHolderListEnumerator);

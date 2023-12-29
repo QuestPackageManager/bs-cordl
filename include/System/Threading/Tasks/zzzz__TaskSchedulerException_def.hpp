@@ -23,25 +23,25 @@ MARK_REF_PTR_T(::System::Threading::Tasks::TaskSchedulerException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2758))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2756))
 // CS Name: ::System.Threading.Tasks::TaskSchedulerException*
 class CORDL_TYPE TaskSchedulerException : public ::System::Exception {
 public:
   // Declarations
   static inline ::System::Threading::Tasks::TaskSchedulerException* New_ctor();
 
-  /// @brief Method .ctor addr 0x2620cfc size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x24c6c48 size 0x70 virtual false final false
   inline void _ctor();
 
   static inline ::System::Threading::Tasks::TaskSchedulerException* New_ctor(::System::Exception* innerException);
 
-  /// @brief Method .ctor addr 0x2620d6c size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x24c6cb8 size 0x80 virtual false final false
   inline void _ctor(::System::Exception* innerException);
 
   static inline ::System::Threading::Tasks::TaskSchedulerException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x2620dec size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x24c6d38 size 0x80 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskSchedulerException", modifiers: "&&", def_value: None }]

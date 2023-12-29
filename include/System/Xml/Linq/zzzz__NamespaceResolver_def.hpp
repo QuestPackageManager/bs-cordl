@@ -27,8 +27,8 @@ MARK_VAL_T(::System::Xml::Linq::NamespaceResolver);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15447))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15431))
 // CS Name: ::NamespaceResolver::NamespaceDeclaration*
 class CORDL_TYPE __NamespaceResolver__NamespaceDeclaration : public ::System::Object {
 public:
@@ -71,7 +71,7 @@ public:
 
   static inline ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration* New_ctor();
 
-  /// @brief Method .ctor addr 0x286003c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26e4020 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NamespaceResolver__NamespaceDeclaration", modifiers: "&&", def_value: None }]
@@ -105,32 +105,40 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration, ___prefix) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration, ___ns) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration, ___scope) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration, ___prev) == 0x28, "Offset mismatch!");
+
 } // namespace System::Xml::Linq
 // Type: System.Xml.Linq::NamespaceResolver
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15448))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15432))
 // CS Name: ::System.Xml.Linq::NamespaceResolver
 struct CORDL_TYPE NamespaceResolver {
 public:
   // Declarations
   using NamespaceDeclaration = ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration;
 
-  /// @brief Method PushScope addr 0x285ff18 size 0x10 virtual false final false
+  /// @brief Method PushScope addr 0x26e3efc size 0x10 virtual false final false
   inline void PushScope();
 
-  /// @brief Method PopScope addr 0x285ffc4 size 0x78 virtual false final false
+  /// @brief Method PopScope addr 0x26e3fa8 size 0x78 virtual false final false
   inline void PopScope();
 
-  /// @brief Method Add addr 0x285ff28 size 0x9c virtual false final false
+  /// @brief Method Add addr 0x26e3f0c size 0x9c virtual false final false
   inline void Add(::StringW prefix, ::System::Xml::Linq::XNamespace* ns);
 
-  /// @brief Method AddFirst addr 0x285fdac size 0x98 virtual false final false
+  /// @brief Method AddFirst addr 0x26e3d90 size 0x98 virtual false final false
   inline void AddFirst(::StringW prefix, ::System::Xml::Linq::XNamespace* ns);
 
-  /// @brief Method GetPrefixOfNamespace addr 0x285fc6c size 0xdc virtual false final false
+  /// @brief Method GetPrefixOfNamespace addr 0x26e3c50 size 0xdc virtual false final false
   inline ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns, bool allowDefaultNamespace);
 
   // Ctor Parameters [CppParam { name: "_scope", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_declaration", ty:
@@ -159,6 +167,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::NamespaceResolver, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::NamespaceResolver, _scope) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::NamespaceResolver, _declaration) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::NamespaceResolver, _rover) == 0x10, "Offset mismatch!");
 
 } // namespace System::Xml::Linq
 NEED_NO_BOX(::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration);

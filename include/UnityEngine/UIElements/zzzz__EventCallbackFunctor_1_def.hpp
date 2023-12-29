@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventCallbackFunctor_1)
 namespace UnityEngine::UIElements {
-template <typename TEventType> class EventCallback_1;
-}
-namespace UnityEngine::UIElements {
 struct InvokePolicy;
 }
 namespace UnityEngine::UIElements {
@@ -19,6 +16,9 @@ class Delegate;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
+}
+namespace UnityEngine::UIElements {
+template <typename TEventType> class EventCallback_1;
 }
 namespace UnityEngine::UIElements {
 struct CallbackPhase;
@@ -35,8 +35,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TEventType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7183))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7184))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7269))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7270))
 // CS Name: ::UnityEngine.UIElements::EventCallbackFunctor`1<TEventType>*
 class CORDL_TYPE EventCallbackFunctor_1 : public ::UnityEngine::UIElements::EventCallbackFunctorBase {
 public:

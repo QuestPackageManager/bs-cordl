@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::SecurityElementType);
 namespace System::Security {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2886))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2882))
 // CS Name: ::System.Security::SecurityElementType
 struct CORDL_TYPE SecurityElementType {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::SecurityElementType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::SecurityElementType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Security
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::SecurityElementType, "System.Security", "SecurityElementType");

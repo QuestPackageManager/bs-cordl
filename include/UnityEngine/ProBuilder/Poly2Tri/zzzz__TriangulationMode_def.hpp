@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode);
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15343))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15373))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::TriangulationMode
 struct CORDL_TYPE TriangulationMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Poly2Tri
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationMode");

@@ -13,25 +13,25 @@ namespace GlobalNamespace {
 template <typename T> struct __TaskExtensions___WaitForTask_d__1_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
+template <typename TResult> class Task_1;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskCompletionSource_1;
 }
 namespace GlobalNamespace {
 template <typename T> class __TaskExtensions____c__DisplayClass0_0_1;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct AsyncVoidMethodBuilder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -53,8 +53,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12989))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2675))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12910))
 // CS Name: ::TaskExtensions::<>c__DisplayClass0_0`1<T>*
 class CORDL_TYPE __TaskExtensions____c__DisplayClass0_0_1 : public ::System::Object {
 public:
@@ -115,8 +115,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 104 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12990)) CS Name: ::TaskExtensions::<WaitForTask>d__1`1<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 111
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12911)) CS Name: ::TaskExtensions::<WaitForTask>d__1`1<T>
 struct CORDL_TYPE __TaskExtensions___WaitForTask_d__1_1 {
 public:
   // Declarations
@@ -171,8 +171,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12991))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12912))
 // CS Name: ::TaskExtensions*
 class CORDL_TYPE TaskExtensions : public ::System::Object {
 public:

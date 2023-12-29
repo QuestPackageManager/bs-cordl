@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(IFixedSizePriorityQueue_2)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
-}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
 }
 // Forward declare root types
 namespace Priority_Queue {
@@ -26,7 +26,7 @@ namespace Priority_Queue {
 template <typename TItem, typename TPriority>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6097))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6168))
 // CS Name: ::Priority_Queue::IFixedSizePriorityQueue`2<TItem,TPriority>*
 class CORDL_TYPE IFixedSizePriorityQueue_2 {
 public:

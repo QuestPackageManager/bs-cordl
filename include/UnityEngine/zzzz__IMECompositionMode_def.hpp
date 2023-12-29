@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::IMECompositionMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15951))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15843))
 // CS Name: ::UnityEngine::IMECompositionMode
 struct CORDL_TYPE IMECompositionMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::IMECompositionMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::IMECompositionMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::IMECompositionMode, "UnityEngine", "IMECompositionMode");

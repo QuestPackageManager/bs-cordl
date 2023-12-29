@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DataConvertor_1)
-namespace System {
-class Type;
+namespace GlobalNamespace {
+template <typename TOut> class DataItemConvertor_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -13,8 +13,8 @@ template <typename TKey, typename TValue> class Dictionary_2;
 namespace System {
 class Object;
 }
-namespace GlobalNamespace {
-template <typename TOut> class DataItemConvertor_1;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,8 +28,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4290))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4317))
 // CS Name: ::DataConvertor`1<T>*
 class CORDL_TYPE DataConvertor_1 : public ::System::Object {
 public:

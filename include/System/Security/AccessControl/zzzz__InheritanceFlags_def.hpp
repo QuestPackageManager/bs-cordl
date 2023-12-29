@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::AccessControl::InheritanceFlags);
 namespace System::Security::AccessControl {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3038))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3037))
 // CS Name: ::System.Security.AccessControl::InheritanceFlags
 struct CORDL_TYPE InheritanceFlags {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::InheritanceFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::InheritanceFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Security::AccessControl
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::InheritanceFlags, "System.Security.AccessControl", "InheritanceFlags");

@@ -10,37 +10,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectReader)
 namespace System::Runtime::Serialization::Formatters::Binary {
-class NameCache;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ParseRecord;
-}
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
-}
-namespace System::Runtime::Remoting::Messaging {
-class HeaderHandler;
+class BinaryAssemblyInfo;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class SerStack;
 }
-namespace System::Reflection {
-class AssemblyName;
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
 }
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryAssemblyInfo;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __ObjectReader__TopLevelAssemblyTypeResolver;
-}
-namespace System::Reflection {
-class Assembly;
+namespace System {
+class Object;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System {
-class Type;
+namespace System::Runtime::Serialization::Formatters::Binary {
+class IntSizedArray;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class NameCache;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class InternalFE;
+}
+namespace System::Runtime::Remoting::Messaging {
+class Header;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __ObjectReader__TypeNAssembly;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SerObjectInfoInit;
+}
+namespace System::Runtime::Serialization {
+class ObjectManager;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryParser;
@@ -48,35 +51,32 @@ class __BinaryParser;
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ReadObjectInfo;
 }
+namespace System::Runtime::Serialization {
+class SerializationBinder;
+}
+namespace System::Runtime::Remoting::Messaging {
+class HeaderHandler;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ParseRecord;
+}
+namespace System::Reflection {
+class AssemblyName;
+}
+namespace System::Reflection {
+class Assembly;
+}
 namespace System::IO {
 class Stream;
 }
 namespace System::Runtime::Serialization {
-class SerializationBinder;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __ObjectReader__TypeNAssembly;
-}
-namespace System::Runtime::Serialization {
-class ObjectManager;
-}
-namespace System::Runtime::Remoting::Messaging {
-class Header;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class IntSizedArray;
+class IFormatterConverter;
 }
 namespace System {
-class Object;
+class Type;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class SerObjectInfoInit;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class InternalFE;
-}
-namespace System::Runtime::Serialization {
-class IFormatterConverter;
+class __ObjectReader__TopLevelAssemblyTypeResolver;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -96,8 +96,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::__ObjectRea
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3286))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3285))
 // CS Name: ::ObjectReader::TypeNAssembly*
 class CORDL_TYPE __ObjectReader__TypeNAssembly : public ::System::Object {
 public:
@@ -122,7 +122,7 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::__ObjectReader__TypeNAssembly* New_ctor();
 
-  /// @brief Method .ctor addr 0x24cf538 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2376a34 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ObjectReader__TypeNAssembly", modifiers: "&&", def_value: None }]
@@ -150,13 +150,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::__ObjectReader__TypeNAssembly, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::__ObjectReader__TypeNAssembly, ___type) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::__ObjectReader__TypeNAssembly, ___assemblyName) == 0x18, "Offset mismatch!");
+
 } // namespace System::Runtime::Serialization::Formatters::Binary
 // Type: ::TopLevelAssemblyTypeResolver
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3287))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3286))
 // CS Name: ::ObjectReader::TopLevelAssemblyTypeResolver*
 class CORDL_TYPE __ObjectReader__TopLevelAssemblyTypeResolver : public ::System::Object {
 public:
@@ -172,10 +176,10 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::__ObjectReader__TopLevelAssemblyTypeResolver* New_ctor(::System::Reflection::Assembly* topLevelAssembly);
 
-  /// @brief Method .ctor addr 0x24cf5d0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2376acc size 0x28 virtual false final false
   inline void _ctor(::System::Reflection::Assembly* topLevelAssembly);
 
-  /// @brief Method ResolveType addr 0x24cf7ac size 0x68 virtual false final false
+  /// @brief Method ResolveType addr 0x2376ca8 size 0x68 virtual false final false
   inline ::System::Type* ResolveType(::System::Reflection::Assembly* assembly, ::StringW simpleTypeName, bool ignoreCase);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ObjectReader__TopLevelAssemblyTypeResolver", modifiers: "&&", def_value: None }]
@@ -200,13 +204,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::__ObjectReader__TopLevelAssemblyTypeResolver, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::__ObjectReader__TopLevelAssemblyTypeResolver, ___m_topLevelAssembly) == 0x10, "Offset mismatch!");
+
 } // namespace System::Runtime::Serialization::Formatters::Binary
 // Type: System.Runtime.Serialization.Formatters.Binary::ObjectReader
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3235)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3288))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3234))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3287))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ObjectReader*
 class CORDL_TYPE ObjectReader : public ::System::Object {
 public:
@@ -435,13 +441,13 @@ public:
 
   constexpr void __set_previousType(::System::Type* value);
 
-  /// @brief Method get_ValueFixupStack addr 0x24cb424 size 0x80 virtual false final false
+  /// @brief Method get_ValueFixupStack addr 0x2372920 size 0x80 virtual false final false
   inline ::System::Runtime::Serialization::Formatters::Binary::SerStack* get_ValueFixupStack();
 
-  /// @brief Method get_TopObject addr 0x24cb4a4 size 0x8 virtual false final false
+  /// @brief Method get_TopObject addr 0x23729a0 size 0x8 virtual false final false
   inline ::System::Object* get_TopObject();
 
-  /// @brief Method set_TopObject addr 0x24cb4ac size 0x14 virtual false final false
+  /// @brief Method set_TopObject addr 0x23729a8 size 0x14 virtual false final false
   inline void set_TopObject(::System::Object* value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* New_ctor(::System::IO::Stream* stream, ::System::Runtime::Serialization::ISurrogateSelector* selector,
@@ -449,97 +455,97 @@ public:
                                                                                              ::System::Runtime::Serialization::Formatters::Binary::InternalFE* formatterEnums,
                                                                                              ::System::Runtime::Serialization::SerializationBinder* binder);
 
-  /// @brief Method .ctor addr 0x24cb4c0 size 0x114 virtual false final false
+  /// @brief Method .ctor addr 0x23729bc size 0x114 virtual false final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Runtime::Serialization::ISurrogateSelector* selector, ::System::Runtime::Serialization::StreamingContext context,
                     ::System::Runtime::Serialization::Formatters::Binary::InternalFE* formatterEnums, ::System::Runtime::Serialization::SerializationBinder* binder);
 
-  /// @brief Method Deserialize addr 0x24cb5dc size 0x310 virtual false final false
+  /// @brief Method Deserialize addr 0x2372ad8 size 0x310 virtual false final false
   inline ::System::Object* Deserialize(::System::Runtime::Remoting::Messaging::HeaderHandler* handler, ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* serParser, bool fCheck);
 
-  /// @brief Method HasSurrogate addr 0x24cbec0 size 0xd4 virtual false final false
+  /// @brief Method HasSurrogate addr 0x23733bc size 0xd4 virtual false final false
   inline bool HasSurrogate(::System::Type* t);
 
-  /// @brief Method CheckSerializable addr 0x24cbf94 size 0x138 virtual false final false
+  /// @brief Method CheckSerializable addr 0x2373490 size 0x138 virtual false final false
   inline void CheckSerializable(::System::Type* t);
 
-  /// @brief Method InitFullDeserialization addr 0x24cc0cc size 0x110 virtual false final false
+  /// @brief Method InitFullDeserialization addr 0x23735c8 size 0x110 virtual false final false
   inline void InitFullDeserialization();
 
-  /// @brief Method CrossAppDomainArray addr 0x24cc1dc size 0x30 virtual false final false
+  /// @brief Method CrossAppDomainArray addr 0x23736d8 size 0x30 virtual false final false
   inline ::System::Object* CrossAppDomainArray(int32_t index);
 
-  /// @brief Method CreateReadObjectInfo addr 0x24cc20c size 0x34 virtual false final false
+  /// @brief Method CreateReadObjectInfo addr 0x2373708 size 0x34 virtual false final false
   inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateReadObjectInfo(::System::Type* objectType);
 
-  /// @brief Method CreateReadObjectInfo addr 0x24cc240 size 0x44 virtual false final false
+  /// @brief Method CreateReadObjectInfo addr 0x237373c size 0x44 virtual false final false
   inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateReadObjectInfo(::System::Type* objectType, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
                                                                                                     ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
-  /// @brief Method Parse addr 0x24cc284 size 0x144 virtual false final false
+  /// @brief Method Parse addr 0x2373780 size 0x144 virtual false final false
   inline void Parse(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseError addr 0x24cced0 size 0x2d8 virtual false final false
+  /// @brief Method ParseError addr 0x23743cc size 0x2d8 virtual false final false
   inline void ParseError(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* processing, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* onStack);
 
-  /// @brief Method ParseSerializedStreamHeader addr 0x24cc3c8 size 0x18 virtual false final false
+  /// @brief Method ParseSerializedStreamHeader addr 0x23738c4 size 0x18 virtual false final false
   inline void ParseSerializedStreamHeader(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseSerializedStreamHeaderEnd addr 0x24cc3e0 size 0x18 virtual false final false
+  /// @brief Method ParseSerializedStreamHeaderEnd addr 0x23738dc size 0x18 virtual false final false
   inline void ParseSerializedStreamHeaderEnd(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseObject addr 0x24cc3f8 size 0x314 virtual false final false
+  /// @brief Method ParseObject addr 0x23738f4 size 0x314 virtual false final false
   inline void ParseObject(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseObjectEnd addr 0x24cc70c size 0x230 virtual false final false
+  /// @brief Method ParseObjectEnd addr 0x2373c08 size 0x230 virtual false final false
   inline void ParseObjectEnd(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseArray addr 0x24cd2a4 size 0x68c virtual false final false
+  /// @brief Method ParseArray addr 0x23747a0 size 0x68c virtual false final false
   inline void ParseArray(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method NextRectangleMap addr 0x24cdcc0 size 0xc4 virtual false final false
+  /// @brief Method NextRectangleMap addr 0x23751bc size 0xc4 virtual false final false
   inline void NextRectangleMap(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseArrayMember addr 0x24cdd84 size 0x79c virtual false final false
+  /// @brief Method ParseArrayMember addr 0x2375280 size 0x79c virtual false final false
   inline void ParseArrayMember(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseArrayMemberEnd addr 0x24ce950 size 0x28 virtual false final false
+  /// @brief Method ParseArrayMemberEnd addr 0x2375e4c size 0x28 virtual false final false
   inline void ParseArrayMemberEnd(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseMember addr 0x24cc93c size 0x4d8 virtual false final false
+  /// @brief Method ParseMember addr 0x2373e38 size 0x4d8 virtual false final false
   inline void ParseMember(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseMemberEnd addr 0x24cce14 size 0xbc virtual false final false
+  /// @brief Method ParseMemberEnd addr 0x2374310 size 0xbc virtual false final false
   inline void ParseMemberEnd(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ParseString addr 0x24ce554 size 0x40 virtual false final false
+  /// @brief Method ParseString addr 0x2375a50 size 0x40 virtual false final false
   inline void ParseString(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* parentPr);
 
-  /// @brief Method RegisterObject addr 0x24cd970 size 0x8 virtual false final false
+  /// @brief Method RegisterObject addr 0x2374e6c size 0x8 virtual false final false
   inline void RegisterObject(::System::Object* obj, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* objectPr);
 
-  /// @brief Method RegisterObject addr 0x24ce9bc size 0x124 virtual false final false
+  /// @brief Method RegisterObject addr 0x2375eb8 size 0x124 virtual false final false
   inline void RegisterObject(::System::Object* obj, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* objectPr,
                              bool bIsString);
 
-  /// @brief Method GetId addr 0x24ceae0 size 0xdc virtual false final false
+  /// @brief Method GetId addr 0x2375fdc size 0xdc virtual false final false
   inline int64_t GetId(int64_t objectId);
 
-  /// @brief Method Bind addr 0x24ced50 size 0x58 virtual false final false
+  /// @brief Method Bind addr 0x237624c size 0x58 virtual false final false
   inline ::System::Type* Bind(::StringW assemblyString, ::StringW typeString);
 
-  /// @brief Method FastBindToType addr 0x24ceda8 size 0x2f0 virtual false final false
+  /// @brief Method FastBindToType addr 0x23762a4 size 0x2f0 virtual false final false
   inline ::System::Type* FastBindToType(::StringW assemblyName, ::StringW typeName);
 
-  /// @brief Method ResolveSimpleAssemblyName addr 0x24cf140 size 0x60 virtual false final false
+  /// @brief Method ResolveSimpleAssemblyName addr 0x237663c size 0x60 virtual false final false
   static inline ::System::Reflection::Assembly* ResolveSimpleAssemblyName(::System::Reflection::AssemblyName* assemblyName);
 
-  /// @brief Method GetSimplyNamedTypeFromAssembly addr 0x24cf1a0 size 0x254 virtual false final false
+  /// @brief Method GetSimplyNamedTypeFromAssembly addr 0x237669c size 0x254 virtual false final false
   static inline void GetSimplyNamedTypeFromAssembly(::System::Reflection::Assembly* assm, ::StringW typeName, ByRef<::System::Type*> type);
 
-  /// @brief Method GetType addr 0x24cf5f8 size 0x1b4 virtual false final false
+  /// @brief Method GetType addr 0x2376af4 size 0x1b4 virtual false final false
   inline ::System::Type* GetType(::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, ::StringW name);
 
-  /// @brief Method CheckTypeForwardedTo addr 0x24cf3f4 size 0x144 virtual false final false
+  /// @brief Method CheckTypeForwardedTo addr 0x23768f0 size 0x144 virtual false final false
   static inline void CheckTypeForwardedTo(::System::Reflection::Assembly* sourceAssembly, ::System::Reflection::Assembly* destAssembly, ::System::Type* resolvedType);
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectReader", modifiers: "&&", def_value: None }]
@@ -632,6 +638,54 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::ObjectReader, 0xd0>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___m_stream) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___m_surrogates) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___m_context) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___m_objectManager) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___formatterEnums) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___m_binder) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___topId) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___bSimpleAssembly) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___handlerObject) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___m_topObject) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___headers) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___handler) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___serObjectInfoInit) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___m_formatterConverter) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___stack) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___valueFixupStack) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___crossAppDomainArray) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___bFullDeserialization) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___bOldFormatDetected) == 0xa1, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___valTypeObjectIdTable) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___typeCache) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___previousAssemblyString) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___previousName) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectReader, ___previousType) == 0xc8, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::ObjectReader);

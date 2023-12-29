@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CryptoApiRandomGenerator)
-namespace System::Security::Cryptography {
-class RandomNumberGenerator;
-}
 namespace Org::BouncyCastle::Crypto::Prng {
 class IRandomGenerator;
+}
+namespace System::Security::Cryptography {
+class RandomNumberGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1106))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::CryptoApiRandomGenerator*
 class CORDL_TYPE CryptoApiRandomGenerator : public ::System::Object {
@@ -42,24 +42,24 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0xf41e40 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0xecbc54 size 0x34 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator* New_ctor(::System::Security::Cryptography::RandomNumberGenerator* rng);
 
-  /// @brief Method .ctor addr 0xf41e74 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xecbc88 size 0x28 virtual false final false
   inline void _ctor(::System::Security::Cryptography::RandomNumberGenerator* rng);
 
-  /// @brief Method AddSeedMaterial addr 0xf41e9c size 0x4 virtual true final false
+  /// @brief Method AddSeedMaterial addr 0xecbcb0 size 0x4 virtual true final false
   inline void AddSeedMaterial(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method AddSeedMaterial addr 0xf41ea0 size 0x4 virtual true final false
+  /// @brief Method AddSeedMaterial addr 0xecbcb4 size 0x4 virtual true final false
   inline void AddSeedMaterial(int64_t seed);
 
-  /// @brief Method NextBytes addr 0xf41ea4 size 0x20 virtual true final false
+  /// @brief Method NextBytes addr 0xecbcb8 size 0x20 virtual true final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method NextBytes addr 0xf41ec4 size 0x170 virtual true final false
+  /// @brief Method NextBytes addr 0xecbcd8 size 0x170 virtual true final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "CryptoApiRandomGenerator", modifiers: "&&", def_value: None }]
@@ -83,6 +83,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator, ___rndProv) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Prng
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator);

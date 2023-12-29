@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TlsException)
 namespace Mono::Security::Interface {
-class Alert;
+struct AlertDescription;
 }
 namespace Mono::Security::Interface {
-struct AlertDescription;
+class Alert;
 }
 // Forward declare root types
 namespace Mono::Security::Interface {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Mono::Security::Interface::TlsException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13785))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14056))
 // CS Name: ::Mono.Security.Interface::TlsException*
 class CORDL_TYPE TlsException : public ::System::Exception {
 public:
@@ -38,12 +38,12 @@ public:
 
   static inline ::Mono::Security::Interface::TlsException* New_ctor(::Mono::Security::Interface::Alert* alert, ::StringW message);
 
-  /// @brief Method .ctor addr 0x24031c0 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x22a8eb4 size 0x74 virtual false final false
   inline void _ctor(::Mono::Security::Interface::Alert* alert, ::StringW message);
 
   static inline ::Mono::Security::Interface::TlsException* New_ctor(::Mono::Security::Interface::AlertDescription description, ::StringW message);
 
-  /// @brief Method .ctor addr 0x2403234 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x22a8f28 size 0x78 virtual false final false
   inline void _ctor(::Mono::Security::Interface::AlertDescription description, ::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsException", modifiers: "&&", def_value: None }]
@@ -67,6 +67,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::TlsException, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::Interface::TlsException, ___alert) == 0x90, "Offset mismatch!");
 
 } // namespace Mono::Security::Interface
 NEED_NO_BOX(::Mono::Security::Interface::TlsException);

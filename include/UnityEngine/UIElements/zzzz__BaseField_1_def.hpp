@@ -9,41 +9,41 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseField_1)
-namespace UnityEngine::UIElements {
-class CustomStyleResolvedEvent;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace UnityEngine {
 struct Rect;
-}
-namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
-}
-namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
-}
-namespace UnityEngine::UIElements {
-class Label;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class INotifyValueChanged_1;
 }
 namespace UnityEngine::UIElements {
 template <typename TValueType> class __BaseField_1__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+template <typename T> class INotifyValueChanged_1;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class GeometryChangedEvent;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class Label;
+}
+namespace UnityEngine::UIElements {
+class AttachToPanelEvent;
+}
+namespace UnityEngine::UIElements {
+class CustomStyleResolvedEvent;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements {
+class UxmlStringAttributeDescription;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -61,8 +61,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6800))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7129))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6886))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7215))
 // CS Name: ::BaseField`1::UxmlTraits<TValueType>*
 class CORDL_TYPE __BaseField_1__UxmlTraits : public ::UnityEngine::UIElements::__BindableElement__UxmlTraits {
 public:
@@ -114,8 +114,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(6801)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10159)), TypeDefinitionIndex(TypeDefinitionIndex(7306))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7130)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6887)), TypeDefinitionIndex(TypeDefinitionIndex(7392)), TypeDefinitionIndex(TypeDefinitionIndex(10087)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7392), inst: 387 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7216)) CS Name:
 // ::UnityEngine.UIElements::BaseField`1<TValueType>*
 class CORDL_TYPE BaseField_1 : public ::UnityEngine::UIElements::BindableElement {
 public:

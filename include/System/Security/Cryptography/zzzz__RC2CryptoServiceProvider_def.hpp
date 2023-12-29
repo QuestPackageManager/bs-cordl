@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RC2CryptoServiceProvider);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2947))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2948))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2946))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2947))
 // CS Name: ::System.Security.Cryptography::RC2CryptoServiceProvider*
 class CORDL_TYPE RC2CryptoServiceProvider : public ::System::Security::Cryptography::RC2 {
 public:
@@ -49,22 +49,22 @@ public:
 
   static inline ::System::Security::Cryptography::RC2CryptoServiceProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x246029c size 0x174 virtual false final false
+  /// @brief Method .ctor addr 0x2306c24 size 0x174 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_EffectiveKeySize addr 0x2460410 size 0x8 virtual true final false
+  /// @brief Method get_EffectiveKeySize addr 0x2306d98 size 0x8 virtual true final false
   inline int32_t get_EffectiveKeySize();
 
-  /// @brief Method CreateEncryptor addr 0x2460418 size 0xd4 virtual true final false
+  /// @brief Method CreateEncryptor addr 0x2306da0 size 0xd4 virtual true final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method CreateDecryptor addr 0x24604ec size 0xd4 virtual true final false
+  /// @brief Method CreateDecryptor addr 0x2306e74 size 0xd4 virtual true final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method GenerateKey addr 0x24605c0 size 0x7c virtual true final false
+  /// @brief Method GenerateKey addr 0x2306f48 size 0x7c virtual true final false
   inline void GenerateKey();
 
-  /// @brief Method GenerateIV addr 0x246063c size 0x6c virtual true final false
+  /// @brief Method GenerateIV addr 0x2306fc4 size 0x6c virtual true final false
   inline void GenerateIV();
 
   // Ctor Parameters [CppParam { name: "", ty: "RC2CryptoServiceProvider", modifiers: "&&", def_value: None }]
@@ -88,6 +88,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::RC2CryptoServiceProvider, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RC2CryptoServiceProvider, ___m_use40bitSalt) == 0x48, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::RC2CryptoServiceProvider);

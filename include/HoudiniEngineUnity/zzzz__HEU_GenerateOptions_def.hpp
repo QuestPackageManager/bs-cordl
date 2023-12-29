@@ -15,7 +15,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HEU_GenerateOptions);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9794))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9721))
 // CS Name: ::HoudiniEngineUnity::HEU_GenerateOptions
 struct CORDL_TYPE HEU_GenerateOptions {
 public:
@@ -51,6 +51,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_GenerateOptions, 0x5>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateOptions, _generateUVs) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateOptions, _generateTangents) == 0x1, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateOptions, _generateNormals) == 0x2, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateOptions, _useLODGroups) == 0x3, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateOptions, _splitPoints) == 0x4, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_GenerateOptions, "HoudiniEngineUnity", "HEU_GenerateOptions");

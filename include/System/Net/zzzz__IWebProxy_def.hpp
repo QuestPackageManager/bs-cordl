@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Net::IWebProxy);
 namespace System::Net {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9138))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7975))
 // CS Name: ::System.Net::IWebProxy*
 class CORDL_TYPE IWebProxy {
 public:

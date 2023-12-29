@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnmodifiableSet)
+namespace System {
+class Array;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
 namespace System {
 class Object;
 }
-namespace System {
-class Array;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1789))
 // CS Name: ::Org.BouncyCastle.Utilities.Collections::UnmodifiableSet*
 class CORDL_TYPE UnmodifiableSet : public ::System::Object {
@@ -62,16 +62,16 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet* New_ctor();
 
-  /// @brief Method .ctor addr 0x115b08c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x10e9e44 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Add addr 0x115b094 size 0x40 virtual true final false
+  /// @brief Method Add addr 0x10e9e4c size 0x40 virtual true final false
   inline void Add(::System::Object* o);
 
-  /// @brief Method AddAll addr 0x115b0d4 size 0x40 virtual true final false
+  /// @brief Method AddAll addr 0x10e9e8c size 0x40 virtual true final false
   inline void AddAll(::System::Collections::IEnumerable* e);
 
-  /// @brief Method Clear addr 0x115b114 size 0x40 virtual true final false
+  /// @brief Method Clear addr 0x10e9ecc size 0x40 virtual true final false
   inline void Clear();
 
   /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -92,7 +92,7 @@ public:
   /// @brief Method get_IsFixedSize addr 0x0 size 0xffffffffffffffff virtual true final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly addr 0x115b154 size 0x8 virtual true final false
+  /// @brief Method get_IsReadOnly addr 0x10e9f0c size 0x8 virtual true final false
   inline bool get_IsReadOnly();
 
   /// @brief Method get_IsSynchronized addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -101,10 +101,10 @@ public:
   /// @brief Method get_SyncRoot addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method Remove addr 0x115b15c size 0x40 virtual true final false
+  /// @brief Method Remove addr 0x10e9f14 size 0x40 virtual true final false
   inline void Remove(::System::Object* o);
 
-  /// @brief Method RemoveAll addr 0x115b19c size 0x40 virtual true final false
+  /// @brief Method RemoveAll addr 0x10e9f54 size 0x40 virtual true final false
   inline void RemoveAll(::System::Collections::IEnumerable* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnmodifiableSet", modifiers: "&&", def_value: None }]

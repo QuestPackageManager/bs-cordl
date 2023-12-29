@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataBasicInfo)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace GlobalNamespace {
 class IBeatmapDataBasicInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataBasicInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4246))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4278))
 // CS Name: ::BeatmapDataBasicInfo*
 class CORDL_TYPE BeatmapDataBasicInfo : public ::System::Object {
 public:
@@ -87,25 +87,25 @@ public:
 
   constexpr void __set__specialBasicBeatmapEventKeywords_k__BackingField(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
-  /// @brief Method get_numberOfLines addr 0x232ec30 size 0x8 virtual true final true
+  /// @brief Method get_numberOfLines addr 0x21dd62c size 0x8 virtual true final true
   inline int32_t get_numberOfLines();
 
-  /// @brief Method get_cuttableNotesCount addr 0x232ec38 size 0x8 virtual true final true
+  /// @brief Method get_cuttableNotesCount addr 0x21dd634 size 0x8 virtual true final true
   inline int32_t get_cuttableNotesCount();
 
-  /// @brief Method get_obstaclesCount addr 0x232ec40 size 0x8 virtual true final true
+  /// @brief Method get_obstaclesCount addr 0x21dd63c size 0x8 virtual true final true
   inline int32_t get_obstaclesCount();
 
-  /// @brief Method get_bombsCount addr 0x232ec48 size 0x8 virtual true final true
+  /// @brief Method get_bombsCount addr 0x21dd644 size 0x8 virtual true final true
   inline int32_t get_bombsCount();
 
-  /// @brief Method get_specialBasicBeatmapEventKeywords addr 0x232ec50 size 0x8 virtual true final true
+  /// @brief Method get_specialBasicBeatmapEventKeywords addr 0x21dd64c size 0x8 virtual true final true
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_specialBasicBeatmapEventKeywords();
 
   static inline ::GlobalNamespace::BeatmapDataBasicInfo* New_ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t obstaclesCount, int32_t bombsCount,
                                                                   ::System::Collections::Generic::IEnumerable_1<::StringW>* specialBasicBeatmapEventKeywords);
 
-  /// @brief Method .ctor addr 0x232ec58 size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x21dd654 size 0x50 virtual false final false
   inline void _ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t obstaclesCount, int32_t bombsCount,
                     ::System::Collections::Generic::IEnumerable_1<::StringW>* specialBasicBeatmapEventKeywords);
 
@@ -142,6 +142,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDataBasicInfo, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDataBasicInfo, ____numberOfLines_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDataBasicInfo, ____cuttableNotesCount_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDataBasicInfo, ____obstaclesCount_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDataBasicInfo, ____bombsCount_k__BackingField) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDataBasicInfo, ____specialBasicBeatmapEventKeywords_k__BackingField) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapDataBasicInfo);

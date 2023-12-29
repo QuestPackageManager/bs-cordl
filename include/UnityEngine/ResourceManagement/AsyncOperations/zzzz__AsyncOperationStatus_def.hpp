@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationSta
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14035))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14306))
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::AsyncOperationStatus
 struct CORDL_TYPE AsyncOperationStatus {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::AsyncOperations
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationStatus");

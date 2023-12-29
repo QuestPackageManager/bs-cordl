@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HeaderInfoTable)
-namespace System::Net {
-class HeaderInfo;
-}
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::Net {
 class HeaderParser;
+}
+namespace System::Net {
+class HeaderInfo;
 }
 // Forward declare root types
 namespace System::Net {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::Net::HeaderInfoTable);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9103))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7940))
 // CS Name: ::System.Net::HeaderInfoTable*
 class CORDL_TYPE HeaderInfoTable : public ::System::Object {
 public:
@@ -61,18 +61,18 @@ public:
 
   static inline ::System::Net::HeaderParser* getStaticF_MultiParser();
 
-  /// @brief Method ParseSingleValue addr 0x29a5f58 size 0x90 virtual false final false
+  /// @brief Method ParseSingleValue addr 0x28286e0 size 0x90 virtual false final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> ParseSingleValue(::StringW value);
 
-  /// @brief Method ParseMultiValue addr 0x29a5fe8 size 0x1f8 virtual false final false
+  /// @brief Method ParseMultiValue addr 0x2828770 size 0x1f8 virtual false final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> ParseMultiValue(::StringW value);
 
-  /// @brief Method get_Item addr 0x299ff84 size 0xdc virtual false final false
+  /// @brief Method get_Item addr 0x282270c size 0xdc virtual false final false
   inline ::System::Net::HeaderInfo* get_Item(::StringW name);
 
   static inline ::System::Net::HeaderInfoTable* New_ctor();
 
-  /// @brief Method .ctor addr 0x29a26e4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2824e6c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HeaderInfoTable", modifiers: "&&", def_value: None }]

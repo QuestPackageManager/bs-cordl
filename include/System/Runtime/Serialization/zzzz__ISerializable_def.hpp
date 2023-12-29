@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ISerializable);
 namespace System::Runtime::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3196))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3195))
 // CS Name: ::System.Runtime.Serialization::ISerializable*
 class CORDL_TYPE ISerializable {
 public:

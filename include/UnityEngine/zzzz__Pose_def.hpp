@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pose)
-namespace System {
-class Object;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -30,8 +30,8 @@ MARK_VAL_T(::UnityEngine::Pose);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10057))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9985))
 // CS Name: ::UnityEngine::Pose
 struct CORDL_TYPE Pose {
 public:
@@ -48,28 +48,28 @@ public:
 
   static inline ::UnityEngine::Pose getStaticF_k_Identity();
 
-  /// @brief Method .ctor addr 0x2ca1c7c size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x2b3cf7c size 0x14 virtual false final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method ToString addr 0x2ca1c90 size 0xf4 virtual true final false
+  /// @brief Method ToString addr 0x2b3cf90 size 0xf4 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method GetTransformedBy addr 0x2ca1d84 size 0xe4 virtual false final false
+  /// @brief Method GetTransformedBy addr 0x2b3d084 size 0xe4 virtual false final false
   inline ::UnityEngine::Pose GetTransformedBy(::UnityEngine::Pose lhs);
 
-  /// @brief Method get_forward addr 0x2ca1e68 size 0x70 virtual false final false
+  /// @brief Method get_forward addr 0x2b3d168 size 0x70 virtual false final false
   inline ::UnityEngine::Vector3 get_forward();
 
-  /// @brief Method get_identity addr 0x2ca1ed8 size 0x68 virtual false final false
+  /// @brief Method get_identity addr 0x2b3d1d8 size 0x68 virtual false final false
   static inline ::UnityEngine::Pose get_identity();
 
-  /// @brief Method Equals addr 0x2ca1f40 size 0x90 virtual true final false
+  /// @brief Method Equals addr 0x2b3d240 size 0x90 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x2ca1fd0 size 0x84 virtual true final true
+  /// @brief Method Equals addr 0x2b3d2d0 size 0x84 virtual true final true
   inline bool Equals(::UnityEngine::Pose other);
 
-  /// @brief Method GetHashCode addr 0x2ca2054 size 0xac virtual true final false
+  /// @brief Method GetHashCode addr 0x2b3d354 size 0xac virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "",
@@ -93,6 +93,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Pose, 0x1c>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Pose, position) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Pose, rotation) == 0xc, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Pose, "UnityEngine", "Pose");

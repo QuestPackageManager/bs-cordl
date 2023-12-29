@@ -15,10 +15,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_Handle)
 namespace HoudiniEngineUnity {
-struct HAPI_HandleInfo;
+template <typename T> class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_HandleParamBinding;
+struct HAPI_HandleInfo;
 }
 namespace HoudiniEngineUnity {
 class HEU_Parameters;
@@ -30,13 +30,13 @@ namespace HoudiniEngineUnity {
 struct HAPI_TransformEuler;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_Handle__HEU_HandleType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_XYZOrder;
-}
-namespace HoudiniEngineUnity {
 class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+class HEU_HandleParamBinding;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_RSTOrder;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -45,10 +45,10 @@ namespace UnityEngine {
 struct Quaternion;
 }
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+struct HAPI_XYZOrder;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_RSTOrder;
+struct __HEU_Handle__HEU_HandleType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -65,7 +65,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_Handle);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9681))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9608))
 // CS Name: ::HEU_Handle::HEU_HandleType
 struct CORDL_TYPE __HEU_Handle__HEU_HandleType {
 public:
@@ -107,14 +107,16 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_Handle
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(9727)), TypeDefinitionIndex(TypeDefinitionIndex(9715)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(9681)), TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(9714))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9682))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9654)), TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(9641)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9642)), TypeDefinitionIndex(TypeDefinitionIndex(10137)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(9608))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9609))
 // CS Name: ::HoudiniEngineUnity::HEU_Handle*
 class CORDL_TYPE HEU_Handle : public ::UnityEngine::ScriptableObject {
 public:
@@ -248,82 +250,82 @@ public:
 
   constexpr void __set__convertedTransformEuler(::HoudiniEngineUnity::HAPI_TransformEuler value);
 
-  /// @brief Method get_HandleName addr 0x218fe80 size 0x8 virtual false final false
+  /// @brief Method get_HandleName addr 0x20394e4 size 0x8 virtual false final false
   inline ::StringW get_HandleName();
 
-  /// @brief Method get_HandleType addr 0x218fe88 size 0x8 virtual false final false
+  /// @brief Method get_HandleType addr 0x20394ec size 0x8 virtual false final false
   inline ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType get_HandleType();
 
-  /// @brief Method get_RSTOrder addr 0x218fe90 size 0x8 virtual false final false
+  /// @brief Method get_RSTOrder addr 0x20394f4 size 0x8 virtual false final false
   inline ::HoudiniEngineUnity::HAPI_RSTOrder get_RSTOrder();
 
-  /// @brief Method get_XYZOrder addr 0x218fe98 size 0x8 virtual false final false
+  /// @brief Method get_XYZOrder addr 0x20394fc size 0x8 virtual false final false
   inline ::HoudiniEngineUnity::HAPI_XYZOrder get_XYZOrder();
 
-  /// @brief Method get_ConvertedTransformEuler addr 0x218fea0 size 0x14 virtual false final false
+  /// @brief Method get_ConvertedTransformEuler addr 0x2039504 size 0x14 virtual false final false
   inline ::HoudiniEngineUnity::HAPI_TransformEuler get_ConvertedTransformEuler();
 
-  /// @brief Method HasTranslateHandle addr 0x218feb4 size 0x10 virtual false final false
+  /// @brief Method HasTranslateHandle addr 0x2039518 size 0x10 virtual false final false
   inline bool HasTranslateHandle();
 
-  /// @brief Method HasRotateHandle addr 0x218fec4 size 0x10 virtual false final false
+  /// @brief Method HasRotateHandle addr 0x2039528 size 0x10 virtual false final false
   inline bool HasRotateHandle();
 
-  /// @brief Method HasScaleHandle addr 0x218fed4 size 0x10 virtual false final false
+  /// @brief Method HasScaleHandle addr 0x2039538 size 0x10 virtual false final false
   inline bool HasScaleHandle();
 
-  /// @brief Method IsTranslateHandleDisabled addr 0x218fee4 size 0x20 virtual false final false
+  /// @brief Method IsTranslateHandleDisabled addr 0x2039548 size 0x20 virtual false final false
   inline bool IsTranslateHandleDisabled();
 
-  /// @brief Method IsRotateHandleDisabled addr 0x218ff04 size 0x20 virtual false final false
+  /// @brief Method IsRotateHandleDisabled addr 0x2039568 size 0x20 virtual false final false
   inline bool IsRotateHandleDisabled();
 
-  /// @brief Method IsScaleHandleDisabled addr 0x218ff24 size 0x20 virtual false final false
+  /// @brief Method IsScaleHandleDisabled addr 0x2039588 size 0x20 virtual false final false
   inline bool IsScaleHandleDisabled();
 
-  /// @brief Method GetTranslateBinding addr 0x218ff44 size 0x8 virtual false final false
+  /// @brief Method GetTranslateBinding addr 0x20395a8 size 0x8 virtual false final false
   inline ::HoudiniEngineUnity::HEU_HandleParamBinding* GetTranslateBinding();
 
-  /// @brief Method GetRotateBinding addr 0x218ff4c size 0x8 virtual false final false
+  /// @brief Method GetRotateBinding addr 0x20395b0 size 0x8 virtual false final false
   inline ::HoudiniEngineUnity::HEU_HandleParamBinding* GetRotateBinding();
 
-  /// @brief Method GetScaleBinding addr 0x218ff54 size 0x8 virtual false final false
+  /// @brief Method GetScaleBinding addr 0x20395b8 size 0x8 virtual false final false
   inline ::HoudiniEngineUnity::HEU_HandleParamBinding* GetScaleBinding();
 
-  /// @brief Method get_HandlePosition addr 0x218ff5c size 0xc virtual false final false
+  /// @brief Method get_HandlePosition addr 0x20395c0 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_HandlePosition();
 
-  /// @brief Method get_HandleRotation addr 0x218ff68 size 0xc virtual false final false
+  /// @brief Method get_HandleRotation addr 0x20395cc size 0xc virtual false final false
   inline ::UnityEngine::Quaternion get_HandleRotation();
 
-  /// @brief Method get_HandleScale addr 0x218ff74 size 0xc virtual false final false
+  /// @brief Method get_HandleScale addr 0x20395d8 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_HandleScale();
 
-  /// @brief Method SetupHandle addr 0x218ff80 size 0x7cc virtual false final false
+  /// @brief Method SetupHandle addr 0x20395e4 size 0x7cc virtual false final false
   inline bool SetupHandle(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t assetID, int32_t handleIndex, ::StringW handleName, ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType handleType,
                           ByRef<::HoudiniEngineUnity::HAPI_HandleInfo> handleInfo, ::HoudiniEngineUnity::HEU_Parameters* parameters);
 
-  /// @brief Method CleanUp addr 0x2190e80 size 0xc virtual false final false
+  /// @brief Method CleanUp addr 0x203a4e4 size 0xc virtual false final false
   inline void CleanUp();
 
-  /// @brief Method GenerateTransform addr 0x2190994 size 0x4ec virtual false final false
+  /// @brief Method GenerateTransform addr 0x2039ff8 size 0x4ec virtual false final false
   inline void GenerateTransform(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_Parameters* parameters);
 
-  /// @brief Method GetUpdatedPosition addr 0x2190ea4 size 0x160 virtual false final false
+  /// @brief Method GetUpdatedPosition addr 0x203a508 size 0x160 virtual false final false
   inline bool GetUpdatedPosition(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ByRef<::UnityEngine::Vector3> inPosition);
 
-  /// @brief Method GetUpdatedRotation addr 0x2191004 size 0x1fc virtual false final false
+  /// @brief Method GetUpdatedRotation addr 0x203a668 size 0x1fc virtual false final false
   inline bool GetUpdatedRotation(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ByRef<::UnityEngine::Quaternion> inRotation);
 
-  /// @brief Method IsSpecialRSTOrder addr 0x2190e8c size 0x18 virtual false final false
+  /// @brief Method IsSpecialRSTOrder addr 0x203a4f0 size 0x18 virtual false final false
   static inline bool IsSpecialRSTOrder(::HoudiniEngineUnity::HAPI_RSTOrder rstOrder);
 
-  /// @brief Method IsEquivalentTo addr 0x2191200 size 0x4fc virtual true final true
+  /// @brief Method IsEquivalentTo addr 0x203a864 size 0x4fc virtual true final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_Handle* other);
 
   static inline ::HoudiniEngineUnity::HEU_Handle* New_ctor();
 
-  /// @brief Method .ctor addr 0x21916fc size 0xd4 virtual false final false
+  /// @brief Method .ctor addr 0x203ad60 size 0xd4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_Handle", modifiers: "&&", def_value: None }]
@@ -380,6 +382,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_Handle, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_Handle, ____handleName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_Handle, ____handleType) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_Handle, ____handleIndex) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_Handle, ____handleParamTranslateBinding) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_Handle, ____handleParamRotateBinding) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_Handle, ____handleParamScaleBinding) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_Handle, ____handlePosition) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_Handle, ____handleRotation) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_Handle, ____handleScale) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_Handle, ____rstOrder) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_Handle, ____xyzOrder) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_Handle, ____convertedTransformEuler) == 0x70, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType, "HoudiniEngineUnity", "HEU_Handle/HEU_HandleType");

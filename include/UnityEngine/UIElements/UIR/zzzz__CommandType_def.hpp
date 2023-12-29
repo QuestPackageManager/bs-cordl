@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::CommandType);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7442))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7528))
 // CS Name: ::UnityEngine.UIElements.UIR::CommandType
 struct CORDL_TYPE CommandType {
 public:
@@ -97,6 +97,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::CommandType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::CommandType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::CommandType, "UnityEngine.UIElements.UIR", "CommandType");

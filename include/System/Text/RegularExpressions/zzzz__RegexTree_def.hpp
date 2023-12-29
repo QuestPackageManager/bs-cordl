@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegexTree)
 namespace System::Text::RegularExpressions {
+struct RegexOptions;
+}
+namespace System::Text::RegularExpressions {
 class RegexNode;
 }
 namespace System::Collections {
 class Hashtable;
-}
-namespace System::Text::RegularExpressions {
-struct RegexOptions;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexTree);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8925))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8931))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(7762))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7768))
 // CS Name: ::System.Text.RegularExpressions::RegexTree*
 class CORDL_TYPE RegexTree : public ::System::Object {
 public:
@@ -100,7 +100,7 @@ public:
                                                                         ::ArrayW<int32_t, ::Array<int32_t>*> capNumList, int32_t capTop, ::System::Collections::Hashtable* capNames,
                                                                         ::ArrayW<::StringW, ::Array<::StringW>*> capsList, ::System::Text::RegularExpressions::RegexOptions options);
 
-  /// @brief Method .ctor addr 0x29645c4 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x27e6cc8 size 0x68 virtual false final false
   inline void _ctor(::System::Text::RegularExpressions::RegexNode* root, ::System::Collections::Hashtable* caps, ::ArrayW<int32_t, ::Array<int32_t>*> capNumList, int32_t capTop,
                     ::System::Collections::Hashtable* capNames, ::ArrayW<::StringW, ::Array<::StringW>*> capsList, ::System::Text::RegularExpressions::RegexOptions options);
 
@@ -143,6 +143,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexTree, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexTree, ___Root) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexTree, ___Caps) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexTree, ___CapNumList) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexTree, ___CapTop) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexTree, ___CapNames) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexTree, ___CapsList) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexTree, ___Options) == 0x40, "Offset mismatch!");
 
 } // namespace System::Text::RegularExpressions
 NEED_NO_BOX(::System::Text::RegularExpressions::RegexTree);

@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultSignatureAlgorithmIdentifierFinder)
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class RsassaPssParameters;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
 }
 namespace System::Collections {
 class IDictionary;
 }
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFind
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(658))
 // CS Name: ::Org.BouncyCastle.Cms::DefaultSignatureAlgorithmIdentifierFinder*
 class CORDL_TYPE DefaultSignatureAlgorithmIdentifierFinder : public ::System::Object {
@@ -137,18 +137,18 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_ENCRYPTION_ECGOST3410_2012_512();
 
-  /// @brief Method Generate addr 0x11fae30 size 0x6c0 virtual false final false
+  /// @brief Method Generate addr 0x1189be0 size 0x6c0 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Generate(::StringW signatureAlgorithm);
 
-  /// @brief Method CreatePssParams addr 0x11fad04 size 0x12c virtual false final false
+  /// @brief Method CreatePssParams addr 0x1189ab4 size 0x12c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* CreatePssParams(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgId, int32_t saltSize);
 
-  /// @brief Method Find addr 0x11fb4f0 size 0x54 virtual false final false
+  /// @brief Method Find addr 0x118a2a0 size 0x54 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Find(::StringW sigAlgName);
 
   static inline ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* New_ctor();
 
-  /// @brief Method .ctor addr 0x11fb544 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x118a2f4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultSignatureAlgorithmIdentifierFinder", modifiers: "&&", def_value: None }]

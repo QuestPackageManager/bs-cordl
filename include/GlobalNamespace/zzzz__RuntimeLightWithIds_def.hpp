@@ -2,28 +2,32 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__ColorMixAndWeightingApproach_def.hpp"
 #include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
+#include "GlobalNamespace/zzzz__RuntimeLightWithIds_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
+#include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeLightWithIds)
-namespace GlobalNamespace {
-class __LightWithIds__LightWithId;
+namespace UnityEngine {
+struct Color;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace GlobalNamespace {
-class __RuntimeLightWithIds__LightIntensitiesWithId;
-}
-namespace UnityEngine {
-struct Color;
+class __LightWithIds__LightWithId;
 }
 namespace GlobalNamespace {
-struct ColorMixAndWeightingApproach;
+struct __RuntimeLightWithIds__MixType;
+}
+namespace GlobalNamespace {
+class __RuntimeLightWithIds__LightIntensitiesWithId;
 }
 // Forward declare root types
+namespace GlobalNamespace {
+struct __RuntimeLightWithIds__MixType;
+}
 namespace GlobalNamespace {
 class RuntimeLightWithIds;
 }
@@ -31,14 +35,65 @@ namespace GlobalNamespace {
 class __RuntimeLightWithIds__LightIntensitiesWithId;
 }
 // Write type traits
+MARK_VAL_T(::GlobalNamespace::__RuntimeLightWithIds__MixType);
 MARK_REF_PTR_T(::GlobalNamespace::RuntimeLightWithIds);
 MARK_REF_PTR_T(::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId);
+// Type: ::MixType
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// Dependencies: {}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14768))
+// CS Name: ::RuntimeLightWithIds::MixType
+struct CORDL_TYPE __RuntimeLightWithIds__MixType {
+public:
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
+  /// @brief Nested struct ____RuntimeLightWithIds__MixType_Unwrapped
+  enum struct ____RuntimeLightWithIds__MixType_Unwrapped : int32_t {
+    __E_Maximum = static_cast<int32_t>(0x0),
+    __E_Sum = static_cast<int32_t>(0x1),
+  };
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator ____RuntimeLightWithIds__MixType_Unwrapped() const noexcept {
+    return static_cast<____RuntimeLightWithIds__MixType_Unwrapped>(this->value__);
+  }
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __RuntimeLightWithIds__MixType(int32_t value__) noexcept;
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __RuntimeLightWithIds__MixType();
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
+  /// @brief Field Maximum value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__RuntimeLightWithIds__MixType const Maximum;
+
+  /// @brief Field Sum value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__RuntimeLightWithIds__MixType const Sum;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__RuntimeLightWithIds__MixType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__RuntimeLightWithIds__MixType, value__) == 0x0, "Offset mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::LightIntensitiesWithId
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14543))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14551))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14761))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14769))
 // CS Name: ::RuntimeLightWithIds::LightIntensitiesWithId*
 class CORDL_TYPE __RuntimeLightWithIds__LightIntensitiesWithId : public ::GlobalNamespace::__LightWithIds__LightWithId {
 public:
@@ -54,15 +109,15 @@ public:
 
   constexpr void __set__intensity(float_t value);
 
-  /// @brief Method get_intensity addr 0x2113b00 size 0x8 virtual false final false
+  /// @brief Method get_intensity addr 0x1fbd084 size 0x8 virtual false final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity addr 0x2113b08 size 0x8 virtual false final false
+  /// @brief Method set_intensity addr 0x1fbd08c size 0x8 virtual false final false
   inline void set_intensity(float_t value);
 
   static inline ::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId* New_ctor(int32_t lightId, float_t lightIntensity);
 
-  /// @brief Method .ctor addr 0x2113b10 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1fbd094 size 0x38 virtual false final false
   inline void _ctor(int32_t lightId, float_t lightIntensity);
 
   // Ctor Parameters [CppParam { name: "", ty: "__RuntimeLightWithIds__LightIntensitiesWithId", modifiers: "&&", def_value: None }]
@@ -87,18 +142,22 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId, ____intensity) == 0x30, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::RuntimeLightWithIds
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14522)), TypeDefinitionIndex(TypeDefinitionIndex(14544))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14552))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14768)), TypeDefinitionIndex(TypeDefinitionIndex(14762))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14770))
 // CS Name: ::RuntimeLightWithIds*
 class CORDL_TYPE RuntimeLightWithIds : public ::GlobalNamespace::LightWithIds {
 public:
   // Declarations
   using LightIntensitiesWithId = ::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId;
+
+  using MixType = ::GlobalNamespace::__RuntimeLightWithIds__MixType;
 
   /// @brief Field _lightIntensityData, offset 0x30, size 0x8
   __declspec(property(get = __get__lightIntensityData, put = __set__lightIntensityData))::ArrayW<::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId*,
@@ -114,9 +173,7 @@ public:
   __declspec(property(get = __get__multiplyColorByAlpha, put = __set__multiplyColorByAlpha)) bool _multiplyColorByAlpha;
 
   /// @brief Field _mixType, offset 0x44, size 0x4
-  __declspec(property(get = __get__mixType, put = __set__mixType))::GlobalNamespace::ColorMixAndWeightingApproach _mixType;
-
-  __declspec(property(get = get_mixType))::GlobalNamespace::ColorMixAndWeightingApproach mixType;
+  __declspec(property(get = __get__mixType, put = __set__mixType))::GlobalNamespace::__RuntimeLightWithIds__MixType _mixType;
 
   constexpr ::ArrayW<::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId*>*>& __get__lightIntensityData();
 
@@ -144,30 +201,27 @@ public:
 
   constexpr void __set__multiplyColorByAlpha(bool value);
 
-  constexpr ::GlobalNamespace::ColorMixAndWeightingApproach& __get__mixType();
+  constexpr ::GlobalNamespace::__RuntimeLightWithIds__MixType& __get__mixType();
 
-  constexpr ::GlobalNamespace::ColorMixAndWeightingApproach const& __get__mixType() const;
+  constexpr ::GlobalNamespace::__RuntimeLightWithIds__MixType const& __get__mixType() const;
 
-  constexpr void __set__mixType(::GlobalNamespace::ColorMixAndWeightingApproach value);
-
-  /// @brief Method get_mixType addr 0x2112948 size 0x4 virtual false final false
-  inline ::GlobalNamespace::ColorMixAndWeightingApproach get_mixType();
+  constexpr void __set__mixType(::GlobalNamespace::__RuntimeLightWithIds__MixType value);
 
   /// @brief Method ColorWasSet addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method ProcessNewColorData addr 0x211294c size 0x174 virtual true final false
+  /// @brief Method ProcessNewColorData addr 0x1fbced0 size 0x174 virtual true final false
   inline void ProcessNewColorData();
 
-  /// @brief Method GetLightWithIds addr 0x2112af8 size 0x1008 virtual true final false
+  /// @brief Method GetLightWithIds addr 0x1fbd07c size 0x8 virtual true final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* GetLightWithIds();
 
-  /// @brief Method ProcessColor addr 0x2112ac0 size 0x38 virtual false final false
+  /// @brief Method ProcessColor addr 0x1fbd044 size 0x38 virtual false final false
   inline ::UnityEngine::Color ProcessColor(::UnityEngine::Color color, float_t intensity);
 
   static inline ::GlobalNamespace::RuntimeLightWithIds* New_ctor();
 
-  /// @brief Method .ctor addr 0x210e940 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x1fb945c size 0x18 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithIds", modifiers: "&&", def_value: None }]
@@ -197,14 +251,25 @@ public:
   bool ____multiplyColorByAlpha;
 
   /// @brief Field _mixType, offset: 0x44, size: 0x4, def value: None
-  ::GlobalNamespace::ColorMixAndWeightingApproach ____mixType;
+  ::GlobalNamespace::__RuntimeLightWithIds__MixType ____mixType;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RuntimeLightWithIds, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::RuntimeLightWithIds, ____lightIntensityData) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RuntimeLightWithIds, ____intensity) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RuntimeLightWithIds, ____maxIntensity) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RuntimeLightWithIds, ____multiplyColorByAlpha) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RuntimeLightWithIds, ____mixType) == 0x44, "Offset mismatch!");
+
 } // namespace GlobalNamespace
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__RuntimeLightWithIds__MixType, "", "RuntimeLightWithIds/MixType");
 NEED_NO_BOX(::GlobalNamespace::RuntimeLightWithIds);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RuntimeLightWithIds*, "", "RuntimeLightWithIds");
 NEED_NO_BOX(::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId);

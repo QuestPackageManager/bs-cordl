@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Void);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2513))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2511))
 // CS Name: ::System::Void
 #pragma pack(push, 0)
 struct CORDL_TYPE Void {

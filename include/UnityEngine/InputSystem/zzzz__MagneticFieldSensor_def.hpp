@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::MagneticFieldSensor);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6274))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6280))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6360))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6366))
 // CS Name: ::UnityEngine.InputSystem::MagneticFieldSensor*
 class CORDL_TYPE MagneticFieldSensor : public ::UnityEngine::InputSystem::Sensor {
 public:
@@ -41,30 +41,30 @@ public:
 
   static inline ::UnityEngine::InputSystem::MagneticFieldSensor* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_magneticField addr 0x2aa85c0 size 0x8 virtual false final false
+  /// @brief Method get_magneticField addr 0x2929878 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_magneticField();
 
-  /// @brief Method set_magneticField addr 0x2aa85c8 size 0x8 virtual false final false
+  /// @brief Method set_magneticField addr 0x2929880 size 0x8 virtual false final false
   inline void set_magneticField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_current addr 0x2aa85d0 size 0x48 virtual false final false
+  /// @brief Method get_current addr 0x2929888 size 0x48 virtual false final false
   static inline ::UnityEngine::InputSystem::MagneticFieldSensor* get_current();
 
-  /// @brief Method set_current addr 0x2aa8618 size 0x4c virtual false final false
+  /// @brief Method set_current addr 0x29298d0 size 0x4c virtual false final false
   static inline void set_current(::UnityEngine::InputSystem::MagneticFieldSensor* value);
 
-  /// @brief Method MakeCurrent addr 0x2aa8664 size 0x54 virtual true final false
+  /// @brief Method MakeCurrent addr 0x292991c size 0x54 virtual true final false
   inline void MakeCurrent();
 
-  /// @brief Method OnRemoved addr 0x2aa86b8 size 0x84 virtual true final false
+  /// @brief Method OnRemoved addr 0x2929970 size 0x84 virtual true final false
   inline void OnRemoved();
 
-  /// @brief Method FinishSetup addr 0x2aa873c size 0x78 virtual true final false
+  /// @brief Method FinishSetup addr 0x29299f4 size 0x78 virtual true final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::MagneticFieldSensor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2aa87b4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2929a6c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MagneticFieldSensor", modifiers: "&&", def_value: None }]
@@ -88,6 +88,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::MagneticFieldSensor, 0x160>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::MagneticFieldSensor, ____magneticField_k__BackingField) == 0x158, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 NEED_NO_BOX(::UnityEngine::InputSystem::MagneticFieldSensor);

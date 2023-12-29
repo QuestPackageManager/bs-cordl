@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::TripleDES);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2973))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2974))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2972))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2973))
 // CS Name: ::System.Security.Cryptography::TripleDES*
 class CORDL_TYPE TripleDES : public ::System::Security::Cryptography::SymmetricAlgorithm {
 public:
@@ -45,25 +45,25 @@ public:
 
   static inline ::System::Security::Cryptography::TripleDES* New_ctor();
 
-  /// @brief Method .ctor addr 0x246adfc size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x2312088 size 0x88 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_Key addr 0x246ae84 size 0xc8 virtual true final false
+  /// @brief Method get_Key addr 0x2312110 size 0xc8 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Key();
 
-  /// @brief Method set_Key addr 0x246b088 size 0x1e4 virtual true final false
+  /// @brief Method set_Key addr 0x2312314 size 0x1e4 virtual true final false
   inline void set_Key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method Create addr 0x246b26c size 0x58 virtual false final false
+  /// @brief Method Create addr 0x23124f8 size 0x58 virtual false final false
   static inline ::System::Security::Cryptography::TripleDES* Create();
 
-  /// @brief Method IsWeakKey addr 0x246af4c size 0x13c virtual false final false
+  /// @brief Method IsWeakKey addr 0x23121d8 size 0x13c virtual false final false
   static inline bool IsWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey);
 
-  /// @brief Method EqualBytes addr 0x246b410 size 0x1a0 virtual false final false
+  /// @brief Method EqualBytes addr 0x231269c size 0x1a0 virtual false final false
   static inline bool EqualBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, int32_t start1, int32_t start2, int32_t count);
 
-  /// @brief Method IsLegalKeySize addr 0x246b324 size 0x24 virtual false final false
+  /// @brief Method IsLegalKeySize addr 0x23125b0 size 0x24 virtual false final false
   static inline bool IsLegalKeySize(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "TripleDES", modifiers: "&&", def_value: None }]

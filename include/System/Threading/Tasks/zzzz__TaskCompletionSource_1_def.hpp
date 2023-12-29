@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TaskCompletionSource_1)
 namespace System::Threading::Tasks {
-struct TaskCreationOptions;
-}
-namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System {
-class Exception;
+class Object;
+}
+namespace System::Threading::Tasks {
+struct TaskCreationOptions;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace System {
-class Object;
+class Exception;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -31,8 +31,8 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2757))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2755))
 // CS Name: ::System.Threading.Tasks::TaskCompletionSource`1<TResult>*
 class CORDL_TYPE TaskCompletionSource_1 : public ::System::Object {
 public:

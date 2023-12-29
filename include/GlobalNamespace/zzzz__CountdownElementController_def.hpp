@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CountdownElementController)
-namespace UnityEngine {
-class Animation;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine {
+class Animation;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CountdownElementController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5559))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5652))
 // CS Name: ::CountdownElementController*
 class CORDL_TYPE CountdownElementController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -45,15 +45,15 @@ public:
 
   constexpr void __set__animation(::UnityEngine::Animation* value);
 
-  /// @brief Method SetTextAndRunAnimation addr 0x22a3148 size 0x64 virtual false final false
+  /// @brief Method SetTextAndRunAnimation addr 0x215e1b0 size 0x64 virtual false final false
   inline void SetTextAndRunAnimation(::StringW text);
 
-  /// @brief Method StopAndHide addr 0x22a32a0 size 0x24 virtual false final false
+  /// @brief Method StopAndHide addr 0x215e308 size 0x24 virtual false final false
   inline void StopAndHide();
 
   static inline ::GlobalNamespace::CountdownElementController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22a3428 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x215e490 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CountdownElementController", modifiers: "&&", def_value: None }]
@@ -80,6 +80,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CountdownElementController, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CountdownElementController, ____text) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CountdownElementController, ____animation) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CountdownElementController);

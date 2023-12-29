@@ -14,20 +14,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParseRecord)
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ReadObjectInfo;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class PrimitiveArray;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -39,9 +39,9 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ParseRecord
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3248)), TypeDefinitionIndex(TypeDefinitionIndex(3250)), TypeDefinitionIndex(TypeDefinitionIndex(3247)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3253)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3252)), TypeDefinitionIndex(TypeDefinitionIndex(3249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3291)) CS Name: ::System.Runtime.Serialization.Formatters.Binary::ParseRecord*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3246)), TypeDefinitionIndex(TypeDefinitionIndex(3247)), TypeDefinitionIndex(TypeDefinitionIndex(3252)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3249)), TypeDefinitionIndex(TypeDefinitionIndex(3250)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3248)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3290)) CS Name: ::System.Runtime.Serialization.Formatters.Binary::ParseRecord*
 class CORDL_TYPE ParseRecord : public ::System::Object {
 public:
   // Declarations
@@ -414,10 +414,10 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* New_ctor();
 
-  /// @brief Method .ctor addr 0x24d222c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2379728 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0x24d4264 size 0x58 virtual false final false
+  /// @brief Method Init addr 0x237b760 size 0x58 virtual false final false
   inline void Init();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParseRecord", modifiers: "&&", def_value: None }]
@@ -558,6 +558,86 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::ParseRecord, 0x120>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRparseTypeEnum) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRobjectTypeEnum) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRarrayTypeEnum) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRmemberTypeEnum) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRmemberValueEnum) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRobjectPositionEnum) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRname) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRvalue) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRvarValue) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRkeyDt) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRdtType) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRdtTypeCode) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRisEnum) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRobjectId) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRidRef) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRarrayElementTypeString) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRarrayElementType) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRisArrayVariant) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRarrayElementTypeCode) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRrank) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRlengthA) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRpositionA) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRlowerBoundA) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRupperBoundA) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRindexMap) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRmemberIndex) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRlinearlength) == 0xb4, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRrectangularMap) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRisLowerBound) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRtopId) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRheaderId) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRobjectInfo) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRisValueTypeFixup) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRnewObj) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRobjectA) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRprimitiveArray) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRisRegistered) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRmemberData) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRsi) == 0x110, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord, ___PRnullCount) == 0x118, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::ParseRecord);

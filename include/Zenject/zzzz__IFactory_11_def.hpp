@@ -22,7 +22,7 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
           typename TValue>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10993))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10921))
 // CS Name: ::Zenject::IFactory`11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TValue>*
 class CORDL_TYPE IFactory_11 {
 public:

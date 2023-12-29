@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::SelectMode);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12153))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12081))
 // CS Name: ::UnityEngine.ProBuilder::SelectMode
 struct CORDL_TYPE SelectMode {
 public:
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::SelectMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::SelectMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::SelectMode, "UnityEngine.ProBuilder", "SelectMode");

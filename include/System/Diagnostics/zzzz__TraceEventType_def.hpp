@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Diagnostics::TraceEventType);
 namespace System::Diagnostics {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8939))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7776))
 // CS Name: ::System.Diagnostics::TraceEventType
 struct CORDL_TYPE TraceEventType {
 public:
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::TraceEventType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::TraceEventType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Diagnostics
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::TraceEventType, "System.Diagnostics", "TraceEventType");

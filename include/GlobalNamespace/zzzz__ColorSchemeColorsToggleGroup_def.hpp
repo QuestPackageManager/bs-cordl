@@ -13,11 +13,11 @@ class ColorScheme;
 namespace UnityEngine {
 struct Color;
 }
-namespace GlobalNamespace {
-class ColorSchemeColorToggleController;
-}
 namespace HMUI {
 class ToggleBinder;
+}
+namespace GlobalNamespace {
+class ColorSchemeColorToggleController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeColorsToggleGroup);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5408))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5500))
 // CS Name: ::ColorSchemeColorsToggleGroup*
 class CORDL_TYPE ColorSchemeColorsToggleGroup : public ::UnityEngine::MonoBehaviour {
 public:
@@ -140,57 +140,57 @@ public:
 
   constexpr void __set__colorScheme(::GlobalNamespace::ColorScheme* value);
 
-  /// @brief Method add_selectedColorDidChangeEvent addr 0x2274b14 size 0xb0 virtual false final false
+  /// @brief Method add_selectedColorDidChangeEvent addr 0x212fb64 size 0xb0 virtual false final false
   inline void add_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method remove_selectedColorDidChangeEvent addr 0x2274bc4 size 0xb0 virtual false final false
+  /// @brief Method remove_selectedColorDidChangeEvent addr 0x212fc14 size 0xb0 virtual false final false
   inline void remove_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method get_color addr 0x2274c74 size 0x18 virtual false final false
+  /// @brief Method get_color addr 0x212fcc4 size 0x18 virtual false final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method set_color addr 0x2274cc4 size 0x18 virtual false final false
+  /// @brief Method set_color addr 0x212fd14 size 0x18 virtual false final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method SetColorScheme addr 0x2274d74 size 0xe0 virtual false final false
+  /// @brief Method SetColorScheme addr 0x212fdc4 size 0xe0 virtual false final false
   inline void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
-  /// @brief Method Awake addr 0x2274e54 size 0x314 virtual false final false
+  /// @brief Method Awake addr 0x212fea4 size 0x314 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x2275168 size 0x1c virtual false final false
+  /// @brief Method OnDestroy addr 0x21301b8 size 0x1c virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleToggleWasSelected addr 0x2275184 size 0x40 virtual false final false
+  /// @brief Method HandleToggleWasSelected addr 0x21301d4 size 0x40 virtual false final false
   inline void HandleToggleWasSelected(::GlobalNamespace::ColorSchemeColorToggleController* toggleController, bool isOn);
 
-  /// @brief Method CreateColorSchemeFromEditedColors addr 0x22751c4 size 0x1dc virtual false final false
+  /// @brief Method CreateColorSchemeFromEditedColors addr 0x2130214 size 0x1d0 virtual false final false
   inline ::GlobalNamespace::ColorScheme* CreateColorSchemeFromEditedColors();
 
   static inline ::GlobalNamespace::ColorSchemeColorsToggleGroup* New_ctor();
 
-  /// @brief Method .ctor addr 0x22753a0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21303e4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__17_0 addr 0x22753a8 size 0x10 virtual false final false
+  /// @brief Method <Awake>b__17_0 addr 0x21303ec size 0x10 virtual false final false
   inline void _Awake_b__17_0(bool isOn);
 
-  /// @brief Method <Awake>b__17_1 addr 0x22753b8 size 0x10 virtual false final false
+  /// @brief Method <Awake>b__17_1 addr 0x21303fc size 0x10 virtual false final false
   inline void _Awake_b__17_1(bool isOn);
 
-  /// @brief Method <Awake>b__17_2 addr 0x22753c8 size 0x10 virtual false final false
+  /// @brief Method <Awake>b__17_2 addr 0x213040c size 0x10 virtual false final false
   inline void _Awake_b__17_2(bool isOn);
 
-  /// @brief Method <Awake>b__17_3 addr 0x22753d8 size 0x10 virtual false final false
+  /// @brief Method <Awake>b__17_3 addr 0x213041c size 0x10 virtual false final false
   inline void _Awake_b__17_3(bool isOn);
 
-  /// @brief Method <Awake>b__17_4 addr 0x22753e8 size 0x10 virtual false final false
+  /// @brief Method <Awake>b__17_4 addr 0x213042c size 0x10 virtual false final false
   inline void _Awake_b__17_4(bool isOn);
 
-  /// @brief Method <Awake>b__17_5 addr 0x22753f8 size 0x10 virtual false final false
+  /// @brief Method <Awake>b__17_5 addr 0x213043c size 0x10 virtual false final false
   inline void _Awake_b__17_5(bool isOn);
 
-  /// @brief Method <Awake>b__17_6 addr 0x2275408 size 0x10 virtual false final false
+  /// @brief Method <Awake>b__17_6 addr 0x213044c size 0x10 virtual false final false
   inline void _Awake_b__17_6(bool isOn);
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeColorsToggleGroup", modifiers: "&&", def_value: None }]
@@ -244,6 +244,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemeColorsToggleGroup, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeColorsToggleGroup, ____saberAColorToggleController) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeColorsToggleGroup, ____saberBColorToggleController) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeColorsToggleGroup, ____environmentColor0ToggleController) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeColorsToggleGroup, ____environmentColor1ToggleController) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeColorsToggleGroup, ____obstaclesColorToggleController) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeColorsToggleGroup, ____environmentColor0BoostToggleController) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeColorsToggleGroup, ____environmentColor1BoostToggleController) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeColorsToggleGroup, ___selectedColorDidChangeEvent) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeColorsToggleGroup, ____toggleBinder) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeColorsToggleGroup, ____selectedColorToggleController) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeColorsToggleGroup, ____colorScheme) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorSchemeColorsToggleGroup);

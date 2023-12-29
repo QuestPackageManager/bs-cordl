@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IEventPreProcessor);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6497))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6583))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IEventPreProcessor*
 class CORDL_TYPE IEventPreProcessor {
 public:

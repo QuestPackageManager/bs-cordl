@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NoticeReference)
+namespace System::Collections {
+class IList;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class DisplayText;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace System::Collections {
-class IList;
+class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
+class DerInteger;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -63,39 +63,39 @@ public:
 
   constexpr void __set_noticeNumbers(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method ConvertVector addr 0x1192e8c size 0x47c virtual false final false
+  /// @brief Method ConvertVector addr 0x1122c44 size 0x47c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* ConvertVector(::System::Collections::IList* numbers);
 
   static inline ::Org::BouncyCastle::Asn1::X509::NoticeReference* New_ctor(::StringW organization, ::System::Collections::IList* numbers);
 
-  /// @brief Method .ctor addr 0x1193308 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x11230c0 size 0x30 virtual false final false
   inline void _ctor(::StringW organization, ::System::Collections::IList* numbers);
 
   static inline ::Org::BouncyCastle::Asn1::X509::NoticeReference* New_ctor(::StringW organization, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* noticeNumbers);
 
-  /// @brief Method .ctor addr 0x1193338 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x11230f0 size 0x78 virtual false final false
   inline void _ctor(::StringW organization, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* noticeNumbers);
 
   static inline ::Org::BouncyCastle::Asn1::X509::NoticeReference* New_ctor(::Org::BouncyCastle::Asn1::X509::DisplayText* organization, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* noticeNumbers);
 
-  /// @brief Method .ctor addr 0x11933b0 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x1123168 size 0x84 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::DisplayText* organization, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* noticeNumbers);
 
   static inline ::Org::BouncyCastle::Asn1::X509::NoticeReference* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1193434 size 0x11c virtual false final false
+  /// @brief Method .ctor addr 0x11231ec size 0x11c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0x1193550 size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0x1123308 size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::NoticeReference* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Organization addr 0x11935f4 size 0x8 virtual true final false
+  /// @brief Method get_Organization addr 0x11233ac size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::DisplayText* get_Organization();
 
-  /// @brief Method GetNoticeNumbers addr 0x11935fc size 0x114 virtual true final false
+  /// @brief Method GetNoticeNumbers addr 0x11233b4 size 0x114 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*, ::Array<::Org::BouncyCastle::Asn1::DerInteger*>*> GetNoticeNumbers();
 
-  /// @brief Method ToAsn1Object addr 0x1193710 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x11234c8 size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoticeReference", modifiers: "&&", def_value: None }]
@@ -122,6 +122,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::NoticeReference, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::NoticeReference, ___organization) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::NoticeReference, ___noticeNumbers) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::NoticeReference);

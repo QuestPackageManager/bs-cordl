@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMemoryPool_1)
 namespace Zenject {
-class IMemoryPool;
+template <typename TValue> class IDespawnableMemoryPool_1;
 }
 namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
+class IMemoryPool;
 }
 // Forward declare root types
 namespace Zenject {
@@ -22,7 +22,7 @@ namespace Zenject {
 template <typename TValue>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11029))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10957))
 // CS Name: ::Zenject::IMemoryPool`1<TValue>*
 class CORDL_TYPE IMemoryPool_1 {
 public:

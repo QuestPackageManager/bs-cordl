@@ -16,16 +16,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InheritedData)
 namespace UnityEngine::UIElements {
-struct TextShadow;
-}
-namespace UnityEngine::UIElements {
 struct FontDefinition;
 }
 namespace UnityEngine::UIElements {
-struct WhiteSpace;
+struct Visibility;
+}
+namespace UnityEngine::UIElements {
+struct Length;
+}
+namespace UnityEngine::UIElements {
+struct TextShadow;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleDataGroup_1;
+}
+namespace UnityEngine {
+class Font;
 }
 namespace UnityEngine {
 struct FontStyle;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine {
 struct TextAnchor;
@@ -33,23 +45,11 @@ struct TextAnchor;
 namespace System {
 class Object;
 }
-namespace UnityEngine::UIElements {
-struct Visibility;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleDataGroup_1;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace UnityEngine::UIElements {
-struct Length;
-}
-namespace UnityEngine {
-class Font;
+struct WhiteSpace;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -61,9 +61,9 @@ MARK_VAL_T(::UnityEngine::UIElements::InheritedData);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(6896)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7284)), TypeDefinitionIndex(TypeDefinitionIndex(15901)), TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(6897)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6790))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7356)) CS Name: ::UnityEngine.UIElements::InheritedData
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7399)), TypeDefinitionIndex(TypeDefinitionIndex(6983)), TypeDefinitionIndex(TypeDefinitionIndex(10178)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6876)), TypeDefinitionIndex(TypeDefinitionIndex(7370)), TypeDefinitionIndex(TypeDefinitionIndex(15793)), TypeDefinitionIndex(TypeDefinitionIndex(15788)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6982))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7442)) CS Name: ::UnityEngine.UIElements::InheritedData
 struct CORDL_TYPE InheritedData {
 public:
   // Declarations
@@ -73,22 +73,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>*();
 
-  /// @brief Method Copy addr 0x2e83514 size 0x1c virtual true final true
+  /// @brief Method Copy addr 0x2d1b164 size 0x1c virtual true final true
   inline ::UnityEngine::UIElements::InheritedData Copy();
 
-  /// @brief Method CopyFrom addr 0x2e83530 size 0x14 virtual true final true
+  /// @brief Method CopyFrom addr 0x2d1b180 size 0x14 virtual true final true
   inline void CopyFrom(ByRef<::UnityEngine::UIElements::InheritedData> other);
 
-  /// @brief Method op_Equality addr 0x2e83544 size 0x200 virtual false final false
+  /// @brief Method op_Equality addr 0x2d1b194 size 0x200 virtual false final false
   static inline bool op_Equality(::UnityEngine::UIElements::InheritedData lhs, ::UnityEngine::UIElements::InheritedData rhs);
 
-  /// @brief Method Equals addr 0x2e83744 size 0x4c virtual true final true
+  /// @brief Method Equals addr 0x2d1b394 size 0x4c virtual true final true
   inline bool Equals(::UnityEngine::UIElements::InheritedData other);
 
-  /// @brief Method Equals addr 0x2e83790 size 0xa8 virtual true final false
+  /// @brief Method Equals addr 0x2d1b3e0 size 0xa8 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2e83838 size 0x24c virtual true final false
+  /// @brief Method GetHashCode addr 0x2d1b488 size 0x24c virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "fontSize", ty: "::UnityEngine::UIElements::Length", modifiers: "",
@@ -158,6 +158,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InheritedData, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InheritedData, color) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InheritedData, fontSize) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InheritedData, letterSpacing) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InheritedData, textShadow) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InheritedData, unityFont) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InheritedData, unityFontDefinition) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InheritedData, unityFontStyleAndWeight) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InheritedData, unityParagraphSpacing) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InheritedData, unityTextAlign) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InheritedData, unityTextOutlineColor) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InheritedData, unityTextOutlineWidth) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InheritedData, visibility) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InheritedData, whiteSpace) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InheritedData, wordSpacing) == 0x84, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InheritedData, "UnityEngine.UIElements", "InheritedData");

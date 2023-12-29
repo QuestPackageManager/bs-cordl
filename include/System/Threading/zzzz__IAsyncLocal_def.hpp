@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Threading::IAsyncLocal);
 namespace System::Threading {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2658))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2656))
 // CS Name: ::System.Threading::IAsyncLocal*
 class CORDL_TYPE IAsyncLocal {
 public:

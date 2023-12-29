@@ -9,11 +9,11 @@ class GameObject;
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct InstantiationParameters;
-}
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct InstantiationParameters;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::IInstancePr
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13999))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14270))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::IInstanceProvider*
 class CORDL_TYPE IInstanceProvider {
 public:

@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExtensionDataGetter)
+namespace System {
+class AsyncCallback;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class IAsyncResult;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -30,24 +30,24 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ExtensionDataGetter);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11940))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11868))
 // CS Name: ::Newtonsoft.Json.Serialization::ExtensionDataGetter*
 class CORDL_TYPE ExtensionDataGetter : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::Serialization::ExtensionDataGetter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x26714c4 size 0x12c virtual false final false
+  /// @brief Method .ctor addr 0x250dd80 size 0x12c virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x26784cc size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2514d88 size 0x14 virtual true final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>* Invoke(::System::Object* o);
 
-  /// @brief Method BeginInvoke addr 0x26784e0 size 0x20 virtual true final false
+  /// @brief Method BeginInvoke addr 0x2514d9c size 0x20 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* o, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2678500 size 0xc virtual true final false
+  /// @brief Method EndInvoke addr 0x2514dbc size 0xc virtual true final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>* EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "ExtensionDataGetter", modifiers: "&&", def_value: None }]

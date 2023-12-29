@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IAudioTimeSource);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4065))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4053))
 // CS Name: ::IAudioTimeSource*
 class CORDL_TYPE IAudioTimeSource {
 public:

@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_GeoInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9739))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9896))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(9666))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9823))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_GeoInfo*
 class CORDL_TYPE Test_HAPI_GeoInfo : public ::System::Object {
 public:
@@ -41,10 +41,10 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_HAPI_GeoInfo* New_ctor(::HoudiniEngineUnity::HAPI_GeoInfo self);
 
-  /// @brief Method .ctor addr 0x21e3170 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x208a7d4 size 0x34 virtual false final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_GeoInfo self);
 
-  /// @brief Method IsEquivalentTo addr 0x21e31a4 size 0x300 virtual true final true
+  /// @brief Method IsEquivalentTo addr 0x208a808 size 0x300 virtual true final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_GeoInfo* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_HAPI_GeoInfo", modifiers: "&&", def_value: None }]
@@ -68,6 +68,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::Test_HAPI_GeoInfo, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::Test_HAPI_GeoInfo, ___self) == 0x10, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::Test_HAPI_GeoInfo);

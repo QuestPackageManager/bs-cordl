@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Achievements)
 namespace Oculus::Platform::Models {
-class AchievementDefinitionList;
+class AchievementUpdate;
 }
 namespace Oculus::Platform::Models {
-class AchievementUpdate;
+class AchievementDefinitionList;
 }
 namespace Oculus::Platform::Models {
 class AchievementProgressList;
@@ -29,38 +29,38 @@ MARK_REF_PTR_T(::Oculus::Platform::Achievements);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13355))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13388))
 // CS Name: ::Oculus.Platform::Achievements*
 class CORDL_TYPE Achievements : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddCount addr 0x26fa038 size 0x170 virtual false final false
+  /// @brief Method AddCount addr 0x25a409c size 0x170 virtual false final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* AddCount(::StringW name, uint64_t count);
 
-  /// @brief Method AddFields addr 0x26fa1a8 size 0x170 virtual false final false
+  /// @brief Method AddFields addr 0x25a420c size 0x170 virtual false final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* AddFields(::StringW name, ::StringW fields);
 
-  /// @brief Method GetAllDefinitions addr 0x26fa318 size 0x158 virtual false final false
+  /// @brief Method GetAllDefinitions addr 0x25a437c size 0x158 virtual false final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>* GetAllDefinitions();
 
-  /// @brief Method GetAllProgress addr 0x26fa470 size 0x158 virtual false final false
+  /// @brief Method GetAllProgress addr 0x25a44d4 size 0x158 virtual false final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* GetAllProgress();
 
-  /// @brief Method GetDefinitionsByName addr 0x26fa5c8 size 0x174 virtual false final false
+  /// @brief Method GetDefinitionsByName addr 0x25a462c size 0x174 virtual false final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>* GetDefinitionsByName(::ArrayW<::StringW, ::Array<::StringW>*> names);
 
-  /// @brief Method GetProgressByName addr 0x26fa73c size 0x174 virtual false final false
+  /// @brief Method GetProgressByName addr 0x25a47a0 size 0x174 virtual false final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* GetProgressByName(::ArrayW<::StringW, ::Array<::StringW>*> names);
 
-  /// @brief Method Unlock addr 0x26fa8b0 size 0x160 virtual false final false
+  /// @brief Method Unlock addr 0x25a4914 size 0x160 virtual false final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* Unlock(::StringW name);
 
-  /// @brief Method GetNextAchievementDefinitionListPage addr 0x26faa10 size 0x1dc virtual false final false
+  /// @brief Method GetNextAchievementDefinitionListPage addr 0x25a4a74 size 0x1dc virtual false final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>*
   GetNextAchievementDefinitionListPage(::Oculus::Platform::Models::AchievementDefinitionList* list);
 
-  /// @brief Method GetNextAchievementProgressListPage addr 0x26fabec size 0x1dc virtual false final false
+  /// @brief Method GetNextAchievementProgressListPage addr 0x25a4c50 size 0x1dc virtual false final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* GetNextAchievementProgressListPage(::Oculus::Platform::Models::AchievementProgressList* list);
 
   // Ctor Parameters [CppParam { name: "", ty: "Achievements", modifiers: "&&", def_value: None }]

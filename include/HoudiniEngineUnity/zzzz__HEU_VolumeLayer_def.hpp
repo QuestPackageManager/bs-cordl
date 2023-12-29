@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_VolumeLayer)
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+namespace UnityEngine {
+class TerrainLayer;
 }
 namespace HoudiniEngineUnity {
 class HEU_PartData;
 }
-namespace UnityEngine {
-class TerrainLayer;
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
 class HEU_DetailPrototype;
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VolumeLayer);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9951))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9952))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9878)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9879))
 // CS Name: ::HoudiniEngineUnity::HEU_VolumeLayer*
 class CORDL_TYPE HEU_VolumeLayer : public ::System::Object {
 public:
@@ -138,12 +138,12 @@ public:
 
   constexpr void __set__detailPrototype(::HoudiniEngineUnity::HEU_DetailPrototype* value);
 
-  /// @brief Method IsEquivalentTo addr 0x21e9dbc size 0x370 virtual true final true
+  /// @brief Method IsEquivalentTo addr 0x2091420 size 0x370 virtual true final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeLayer* other);
 
   static inline ::HoudiniEngineUnity::HEU_VolumeLayer* New_ctor();
 
-  /// @brief Method .ctor addr 0x21ea12c size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2091790 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_VolumeLayer", modifiers: "&&", def_value: None }]
@@ -197,6 +197,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_VolumeLayer, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeLayer, ____layerName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeLayer, ____part) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeLayer, ____strength) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeLayer, ____uiExpanded) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeLayer, ____tile) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeLayer, ____xLength) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeLayer, ____yLength) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeLayer, ____hasLayerAttributes) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeLayer, ____terrainLayer) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeLayer, ____layerType) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeLayer, ____detailPrototype) == 0x48, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_VolumeLayer);

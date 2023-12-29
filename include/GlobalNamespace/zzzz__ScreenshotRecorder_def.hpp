@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScreenshotRecorder)
-namespace GlobalNamespace {
-struct __ScreenshotRecorder__RecordingType;
-}
-namespace UnityEngine {
-class Texture2D;
-}
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
 class Camera;
+}
+namespace GlobalNamespace {
+struct __ScreenshotRecorder__RecordingType;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ScreenshotRecorder);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14379))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13890))
 // CS Name: ::ScreenshotRecorder::RecordingType
 struct CORDL_TYPE __ScreenshotRecorder__RecordingType {
 public:
@@ -94,13 +94,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ScreenshotRecorder__RecordingType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ScreenshotRecorder__RecordingType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ScreenshotRecorder
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14379)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14380))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13890)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13891))
 // CS Name: ::ScreenshotRecorder*
 class CORDL_TYPE ScreenshotRecorder : public ::UnityEngine::MonoBehaviour {
 public:
@@ -271,36 +273,36 @@ public:
 
   constexpr void __set__cameraRenderTexture(::UnityEngine::RenderTexture* value);
 
-  /// @brief Method get_directory addr 0x20f3f28 size 0x8 virtual false final false
+  /// @brief Method get_directory addr 0x1f98d84 size 0x8 virtual false final false
   inline ::StringW get_directory();
 
-  /// @brief Method set_directory addr 0x20f3f30 size 0x8 virtual false final false
+  /// @brief Method set_directory addr 0x1f98d8c size 0x8 virtual false final false
   inline void set_directory(::StringW value);
 
-  /// @brief Method OnEnable addr 0x20f3f38 size 0x178 virtual false final false
+  /// @brief Method OnEnable addr 0x1f98d94 size 0x178 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x20f40b0 size 0xc4 virtual false final false
+  /// @brief Method OnDisable addr 0x1f98f0c size 0xc4 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method LateUpdate addr 0x20f4174 size 0xc0 virtual false final false
+  /// @brief Method LateUpdate addr 0x1f98fd0 size 0xc0 virtual false final false
   inline void LateUpdate();
 
-  /// @brief Method OnApplicationFocus addr 0x20f42b8 size 0x18 virtual false final false
+  /// @brief Method OnApplicationFocus addr 0x1f99114 size 0x18 virtual false final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method SaveCameraScreenshot addr 0x20f4234 size 0x84 virtual false final false
+  /// @brief Method SaveCameraScreenshot addr 0x1f99090 size 0x84 virtual false final false
   inline void SaveCameraScreenshot();
 
-  /// @brief Method SaveTextureScreenshot addr 0x20f43ec size 0x140 virtual false final false
+  /// @brief Method SaveTextureScreenshot addr 0x1f99248 size 0x140 virtual false final false
   inline void SaveTextureScreenshot(::UnityEngine::Texture2D* tex);
 
-  /// @brief Method ConvertRenderTexture addr 0x20f42d0 size 0x11c virtual false final false
+  /// @brief Method ConvertRenderTexture addr 0x1f9912c size 0x11c virtual false final false
   inline ::UnityEngine::Texture2D* ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
 
   static inline ::GlobalNamespace::ScreenshotRecorder* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f452c size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x1f99388 size 0x80 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenshotRecorder", modifiers: "&&", def_value: None }]
@@ -375,6 +377,42 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScreenshotRecorder, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____directory) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____camera) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____frameRate) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____forceFixedFramerate) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____interval) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____recordingType) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____pauseWithPButton) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____antiAlias) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____screenshotWidth) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____screenshotHeight) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____counter) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____originalTimeScale) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____paused) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____frameNum) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____cubemapLeftEye) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____cubemapRighEye) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____equirectTexture) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____cameraRenderTexture) == 0x70, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ScreenshotRecorder__RecordingType, "", "ScreenshotRecorder/RecordingType");

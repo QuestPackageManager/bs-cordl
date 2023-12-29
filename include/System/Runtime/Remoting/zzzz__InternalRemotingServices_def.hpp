@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(InternalRemotingServices)
-namespace System {
-class Object;
-}
 namespace System::Runtime::Remoting::Metadata {
 class SoapAttribute;
 }
 namespace System::Collections {
 class Hashtable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::InternalRemotingServices);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3062))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3061))
 // CS Name: ::System.Runtime.Remoting::InternalRemotingServices*
 class CORDL_TYPE InternalRemotingServices : public ::System::Object {
 public:
@@ -36,7 +36,7 @@ public:
 
   static inline ::System::Collections::Hashtable* getStaticF__soapAttributes();
 
-  /// @brief Method GetCachedSoapAttribute addr 0x248546c size 0x550 virtual false final false
+  /// @brief Method GetCachedSoapAttribute addr 0x232d978 size 0x550 virtual false final false
   static inline ::System::Runtime::Remoting::Metadata::SoapAttribute* GetCachedSoapAttribute(::System::Object* reflectionObject);
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalRemotingServices", modifiers: "&&", def_value: None }]

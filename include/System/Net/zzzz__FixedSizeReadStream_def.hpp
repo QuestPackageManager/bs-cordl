@@ -10,26 +10,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FixedSizeReadStream)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace System::Net {
-struct __FixedSizeReadStream___ProcessReadAsync_d__5;
+class WebOperation;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::Net {
-class WebOperation;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::IO {
 class Stream;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+namespace System::Net {
+struct __FixedSizeReadStream___ProcessReadAsync_d__5;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
@@ -48,19 +48,19 @@ MARK_VAL_T(::System::Net::__FixedSizeReadStream___ProcessReadAsync_d__5);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(9166)) CS Name: ::FixedSizeReadStream::<ProcessReadAsync>d__5
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 101 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3392)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 101 }), TypeDefinitionIndex(TypeDefinitionIndex(2675))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(8003)) CS Name: ::FixedSizeReadStream::<ProcessReadAsync>d__5
 struct CORDL_TYPE __FixedSizeReadStream___ProcessReadAsync_d__5 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x29c4ad4 size 0x2b0 virtual true final true
+  /// @brief Method MoveNext addr 0x284725c size 0x2b0 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x29c4d84 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0x284750c size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -109,13 +109,29 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__FixedSizeReadStream___ProcessReadAsync_d__5, 0x58>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__FixedSizeReadStream___ProcessReadAsync_d__5, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__FixedSizeReadStream___ProcessReadAsync_d__5, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__FixedSizeReadStream___ProcessReadAsync_d__5, cancellationToken) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__FixedSizeReadStream___ProcessReadAsync_d__5, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__FixedSizeReadStream___ProcessReadAsync_d__5, size) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__FixedSizeReadStream___ProcessReadAsync_d__5, buffer) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__FixedSizeReadStream___ProcessReadAsync_d__5, offset) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__FixedSizeReadStream___ProcessReadAsync_d__5, __u__1) == 0x48, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: System.Net::FixedSizeReadStream
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9229))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9167))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8066))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8004))
 // CS Name: ::System.Net::FixedSizeReadStream*
 class CORDL_TYPE FixedSizeReadStream : public ::System::Net::WebReadStream {
 public:
@@ -142,15 +158,15 @@ public:
 
   constexpr void __set_position(int64_t value);
 
-  /// @brief Method get_ContentLength addr 0x29c497c size 0x8 virtual false final false
+  /// @brief Method get_ContentLength addr 0x2847104 size 0x8 virtual false final false
   inline int64_t get_ContentLength();
 
   static inline ::System::Net::FixedSizeReadStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, int64_t contentLength);
 
-  /// @brief Method .ctor addr 0x29c4984 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x284710c size 0x28 virtual false final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, int64_t contentLength);
 
-  /// @brief Method ProcessReadAsync addr 0x29c49ac size 0x128 virtual true final false
+  /// @brief Method ProcessReadAsync addr 0x2847134 size 0x128 virtual true final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
@@ -178,6 +194,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::FixedSizeReadStream, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::FixedSizeReadStream, ____ContentLength_k__BackingField) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FixedSizeReadStream, ___position) == 0x48, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::FixedSizeReadStream);

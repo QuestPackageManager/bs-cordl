@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ILobbyPlayerData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4491))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4502))
 // CS Name: ::ILobbyPlayerData*
 class CORDL_TYPE ILobbyPlayerData {
 public:

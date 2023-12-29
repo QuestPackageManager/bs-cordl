@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ShaderUtilities)
 namespace UnityEngine {
-class Material;
+struct Vector4;
 }
 namespace UnityEngine {
-struct Vector4;
+class Material;
 }
 namespace UnityEngine {
 class Shader;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::TMPro::ShaderUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12416))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12344))
 // CS Name: ::TMPro::ShaderUtilities*
 class CORDL_TYPE ShaderUtilities : public ::System::Object {
 public:
@@ -509,28 +509,28 @@ public:
 
   static inline ::UnityEngine::Shader* getStaticF_k_ShaderRef_MobileBitmap();
 
-  /// @brief Method get_ShaderRef_MobileSDF addr 0x2c40648 size 0xfc virtual false final false
+  /// @brief Method get_ShaderRef_MobileSDF addr 0x2abc8f4 size 0xfc virtual false final false
   static inline ::UnityEngine::Shader* get_ShaderRef_MobileSDF();
 
-  /// @brief Method get_ShaderRef_MobileBitmap addr 0x2c40744 size 0xfc virtual false final false
+  /// @brief Method get_ShaderRef_MobileBitmap addr 0x2abc9f0 size 0xfc virtual false final false
   static inline ::UnityEngine::Shader* get_ShaderRef_MobileBitmap();
 
-  /// @brief Method GetShaderPropertyIDs addr 0x2c39ed0 size 0xaec virtual false final false
+  /// @brief Method GetShaderPropertyIDs addr 0x2ab617c size 0xaec virtual false final false
   static inline void GetShaderPropertyIDs();
 
-  /// @brief Method UpdateShaderRatios addr 0x2c409d0 size 0x45c virtual false final false
+  /// @brief Method UpdateShaderRatios addr 0x2abcc7c size 0x45c virtual false final false
   static inline void UpdateShaderRatios(::UnityEngine::Material* mat);
 
-  /// @brief Method GetFontExtent addr 0x2c40e2c size 0x44 virtual false final false
+  /// @brief Method GetFontExtent addr 0x2abd0d8 size 0x44 virtual false final false
   static inline ::UnityEngine::Vector4 GetFontExtent(::UnityEngine::Material* material);
 
-  /// @brief Method IsMaskingEnabled addr 0x2c40e70 size 0x19c virtual false final false
+  /// @brief Method IsMaskingEnabled addr 0x2abd11c size 0x19c virtual false final false
   static inline bool IsMaskingEnabled(::UnityEngine::Material* material);
 
-  /// @brief Method GetPadding addr 0x2c4100c size 0x6a8 virtual false final false
+  /// @brief Method GetPadding addr 0x2abd2b8 size 0x6a8 virtual false final false
   static inline float_t GetPadding(::UnityEngine::Material* material, bool enableExtraPadding, bool isBold);
 
-  /// @brief Method GetPadding addr 0x2c416b4 size 0x880 virtual false final false
+  /// @brief Method GetPadding addr 0x2abd960 size 0x880 virtual false final false
   static inline float_t GetPadding(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> materials, bool enableExtraPadding, bool isBold);
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderUtilities", modifiers: "&&", def_value: None }]

@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Encodings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(819))
 // CS Name: ::Org.BouncyCastle.Crypto.Encodings::ISO9796d1Encoding*
 class CORDL_TYPE ISO9796d1Encoding : public ::System::Object {
@@ -112,37 +112,37 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
 
-  /// @brief Method .ctor addr 0xeb2014 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xe3de40 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
 
-  /// @brief Method get_AlgorithmName addr 0xeb2040 size 0xc0 virtual true final true
+  /// @brief Method get_AlgorithmName addr 0xe3de6c size 0xc0 virtual true final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetUnderlyingCipher addr 0xeb2100 size 0x8 virtual false final false
+  /// @brief Method GetUnderlyingCipher addr 0xe3df2c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* GetUnderlyingCipher();
 
-  /// @brief Method Init addr 0xeb2108 size 0x1ac virtual true final true
+  /// @brief Method Init addr 0xe3df34 size 0x1ac virtual true final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetInputBlockSize addr 0xeb22b4 size 0xc4 virtual true final true
+  /// @brief Method GetInputBlockSize addr 0xe3e0e0 size 0xc4 virtual true final true
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize addr 0xeb2378 size 0xc4 virtual true final true
+  /// @brief Method GetOutputBlockSize addr 0xe3e1a4 size 0xc4 virtual true final true
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method SetPadBits addr 0xeb243c size 0x64 virtual false final false
+  /// @brief Method SetPadBits addr 0xe3e268 size 0x64 virtual false final false
   inline void SetPadBits(int32_t padBits);
 
-  /// @brief Method GetPadBits addr 0xeb24a0 size 0x8 virtual false final false
+  /// @brief Method GetPadBits addr 0xe3e2cc size 0x8 virtual false final false
   inline int32_t GetPadBits();
 
-  /// @brief Method ProcessBlock addr 0xeb24a8 size 0x10 virtual true final true
+  /// @brief Method ProcessBlock addr 0xe3e2d4 size 0x10 virtual true final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method EncodeBlock addr 0xeb24b8 size 0x34c virtual false final false
+  /// @brief Method EncodeBlock addr 0xe3e2e4 size 0x34c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method DecodeBlock addr 0xeb2804 size 0x4e0 virtual false final false
+  /// @brief Method DecodeBlock addr 0xe3e630 size 0x4e0 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISO9796d1Encoding", modifiers: "&&", def_value: None }]
@@ -178,6 +178,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding, ___engine) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding, ___forEncryption) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding, ___bitSize) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding, ___padBits) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding, ___modulus) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Encodings
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding);

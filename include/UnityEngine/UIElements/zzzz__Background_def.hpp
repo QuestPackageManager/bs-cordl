@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Background)
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine::UIElements {
 class VectorImage;
 }
-namespace UnityEngine {
-class Sprite;
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
 class Texture2D;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -35,7 +35,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Background);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7293))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7379))
 // CS Name: ::UnityEngine.UIElements::Background
 struct CORDL_TYPE Background {
 public:
@@ -51,61 +51,61 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Background>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Background>*();
 
-  /// @brief Method get_texture addr 0x2e6f998 size 0x8 virtual false final false
+  /// @brief Method get_texture addr 0x2d065e8 size 0x8 virtual false final false
   inline ::UnityEngine::Texture2D* get_texture();
 
-  /// @brief Method set_texture addr 0x2e6f9a0 size 0x7c virtual false final false
+  /// @brief Method set_texture addr 0x2d065f0 size 0x7c virtual false final false
   inline void set_texture(::UnityEngine::Texture2D* value);
 
-  /// @brief Method get_sprite addr 0x2e6fa1c size 0x8 virtual false final false
+  /// @brief Method get_sprite addr 0x2d0666c size 0x8 virtual false final false
   inline ::UnityEngine::Sprite* get_sprite();
 
-  /// @brief Method set_sprite addr 0x2e6fa24 size 0x7c virtual false final false
+  /// @brief Method set_sprite addr 0x2d06674 size 0x7c virtual false final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method get_renderTexture addr 0x2e6faa0 size 0x8 virtual false final false
+  /// @brief Method get_renderTexture addr 0x2d066f0 size 0x8 virtual false final false
   inline ::UnityEngine::RenderTexture* get_renderTexture();
 
-  /// @brief Method set_renderTexture addr 0x2e6faa8 size 0x7c virtual false final false
+  /// @brief Method set_renderTexture addr 0x2d066f8 size 0x7c virtual false final false
   inline void set_renderTexture(::UnityEngine::RenderTexture* value);
 
-  /// @brief Method get_vectorImage addr 0x2e6fb24 size 0x8 virtual false final false
+  /// @brief Method get_vectorImage addr 0x2d06774 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::VectorImage* get_vectorImage();
 
-  /// @brief Method set_vectorImage addr 0x2e6fb2c size 0x7c virtual false final false
+  /// @brief Method set_vectorImage addr 0x2d0677c size 0x7c virtual false final false
   inline void set_vectorImage(::UnityEngine::UIElements::VectorImage* value);
 
-  /// @brief Method FromTexture2D addr 0x2e6fba8 size 0x34 virtual false final false
+  /// @brief Method FromTexture2D addr 0x2d067f8 size 0x34 virtual false final false
   static inline ::UnityEngine::UIElements::Background FromTexture2D(::UnityEngine::Texture2D* t);
 
-  /// @brief Method FromRenderTexture addr 0x2e6fbdc size 0x34 virtual false final false
+  /// @brief Method FromRenderTexture addr 0x2d0682c size 0x34 virtual false final false
   static inline ::UnityEngine::UIElements::Background FromRenderTexture(::UnityEngine::RenderTexture* rt);
 
-  /// @brief Method FromSprite addr 0x2e6fc10 size 0x34 virtual false final false
+  /// @brief Method FromSprite addr 0x2d06860 size 0x34 virtual false final false
   static inline ::UnityEngine::UIElements::Background FromSprite(::UnityEngine::Sprite* s);
 
-  /// @brief Method FromVectorImage addr 0x2e6fc44 size 0x34 virtual false final false
+  /// @brief Method FromVectorImage addr 0x2d06894 size 0x34 virtual false final false
   static inline ::UnityEngine::UIElements::Background FromVectorImage(::UnityEngine::UIElements::VectorImage* vi);
 
-  /// @brief Method FromObject addr 0x2e6fc78 size 0x258 virtual false final false
+  /// @brief Method FromObject addr 0x2d068c8 size 0x258 virtual false final false
   static inline ::UnityEngine::UIElements::Background FromObject(::System::Object* obj);
 
-  /// @brief Method op_Equality addr 0x2e6fed0 size 0x108 virtual false final false
+  /// @brief Method op_Equality addr 0x2d06b20 size 0x108 virtual false final false
   static inline bool op_Equality(::UnityEngine::UIElements::Background lhs, ::UnityEngine::UIElements::Background rhs);
 
-  /// @brief Method op_Inequality addr 0x2e6ffd8 size 0x38 virtual false final false
+  /// @brief Method op_Inequality addr 0x2d06c28 size 0x38 virtual false final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Background lhs, ::UnityEngine::UIElements::Background rhs);
 
-  /// @brief Method Equals addr 0x2e70010 size 0x34 virtual true final true
+  /// @brief Method Equals addr 0x2d06c60 size 0x34 virtual true final true
   inline bool Equals(::UnityEngine::UIElements::Background other);
 
-  /// @brief Method Equals addr 0x2e70044 size 0x90 virtual true final false
+  /// @brief Method Equals addr 0x2d06c94 size 0x90 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2e700d4 size 0x98 virtual true final false
+  /// @brief Method GetHashCode addr 0x2d06d24 size 0x98 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x2e7016c size 0x138 virtual true final false
+  /// @brief Method ToString addr 0x2d06dbc size 0x138 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "m_Texture", ty: "::UnityEngine::Texture2D*", modifiers: "", def_value: None }, CppParam { name: "m_Sprite", ty: "::UnityEngine::Sprite*", modifiers: "",
@@ -137,6 +137,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Background, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Background, m_Texture) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Background, m_Sprite) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Background, m_RenderTexture) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Background, m_VectorImage) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Background, "UnityEngine.UIElements", "Background");

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackBindingFlags_def.hpp"
 CORDL_MODULE_EXPORT(TrackBindingTypeAttribute)
-namespace System {
-class Type;
-}
 namespace UnityEngine::Timeline {
 struct TrackBindingFlags;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TrackBindingTypeAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13917)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13918))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545)), TypeDefinitionIndex(TypeDefinitionIndex(14188))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14189))
 // CS Name: ::UnityEngine.Timeline::TrackBindingTypeAttribute*
 class CORDL_TYPE TrackBindingTypeAttribute : public ::System::Attribute {
 public:
@@ -47,12 +47,12 @@ public:
 
   static inline ::UnityEngine::Timeline::TrackBindingTypeAttribute* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor addr 0x2c6e6c8 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x2aea974 size 0x30 virtual false final false
   inline void _ctor(::System::Type* type);
 
   static inline ::UnityEngine::Timeline::TrackBindingTypeAttribute* New_ctor(::System::Type* type, ::UnityEngine::Timeline::TrackBindingFlags flags);
 
-  /// @brief Method .ctor addr 0x2c6e6f8 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x2aea9a4 size 0x30 virtual false final false
   inline void _ctor(::System::Type* type, ::UnityEngine::Timeline::TrackBindingFlags flags);
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackBindingTypeAttribute", modifiers: "&&", def_value: None }]
@@ -79,6 +79,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::TrackBindingTypeAttribute, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::TrackBindingTypeAttribute, ___type) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::TrackBindingTypeAttribute, ___flags) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::TrackBindingTypeAttribute);

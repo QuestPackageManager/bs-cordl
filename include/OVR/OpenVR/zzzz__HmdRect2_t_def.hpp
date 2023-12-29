@@ -18,8 +18,8 @@ MARK_VAL_T(::OVR::OpenVR::HmdRect2_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8650))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8655))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9419))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9424))
 // CS Name: ::OVR.OpenVR::HmdRect2_t
 struct CORDL_TYPE HmdRect2_t {
 public:
@@ -45,6 +45,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::HmdRect2_t, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdRect2_t, vTopLeft) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdRect2_t, vBottomRight) == 0x8, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::HmdRect2_t, "OVR.OpenVR", "HmdRect2_t");

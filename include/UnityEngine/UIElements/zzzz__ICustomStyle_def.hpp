@@ -7,6 +7,12 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ICustomStyle)
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine {
+struct Color;
+}
 namespace UnityEngine::UIElements {
 class VectorImage;
 }
@@ -14,13 +20,7 @@ namespace UnityEngine::UIElements {
 template <typename T> struct CustomStyleProperty_1;
 }
 namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine {
 class Sprite;
-}
-namespace UnityEngine {
-struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ICustomStyle);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7307))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7393))
 // CS Name: ::UnityEngine.UIElements::ICustomStyle*
 class CORDL_TYPE ICustomStyle {
 public:

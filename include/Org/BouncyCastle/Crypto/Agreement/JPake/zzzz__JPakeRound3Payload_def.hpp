@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(719))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.JPake::JPakeRound3Payload*
 class CORDL_TYPE JPakeRound3Payload : public ::System::Object {
@@ -48,13 +48,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload* New_ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* magTag);
 
-  /// @brief Method .ctor addr 0x121508c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x11a3e3c size 0x2c virtual false final false
   inline void _ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* magTag);
 
-  /// @brief Method get_ParticipantId addr 0x1215c18 size 0x8 virtual true final false
+  /// @brief Method get_ParticipantId addr 0x11a49c8 size 0x8 virtual true final false
   inline ::StringW get_ParticipantId();
 
-  /// @brief Method get_MacTag addr 0x1215c20 size 0x8 virtual true final false
+  /// @brief Method get_MacTag addr 0x11a49d0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_MacTag();
 
   // Ctor Parameters [CppParam { name: "", ty: "JPakeRound3Payload", modifiers: "&&", def_value: None }]
@@ -81,6 +81,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload, ___participantId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload, ___macTag) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Agreement::JPake
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload);

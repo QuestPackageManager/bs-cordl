@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::RijndaelManagedTransformMode);
 namespace System::Security::Cryptography {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2951))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2950))
 // CS Name: ::System.Security.Cryptography::RijndaelManagedTransformMode
 struct CORDL_TYPE RijndaelManagedTransformMode {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::RijndaelManagedTransformMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransformMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::RijndaelManagedTransformMode, "System.Security.Cryptography", "RijndaelManagedTransformMode");

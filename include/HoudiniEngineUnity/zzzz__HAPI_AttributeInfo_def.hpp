@@ -28,13 +28,13 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_AttributeInfo);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9703)), TypeDefinitionIndex(TypeDefinitionIndex(9707)), TypeDefinitionIndex(TypeDefinitionIndex(9708))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9741))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9634)), TypeDefinitionIndex(TypeDefinitionIndex(9635)), TypeDefinitionIndex(TypeDefinitionIndex(9630))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9668))
 // CS Name: ::HoudiniEngineUnity::HAPI_AttributeInfo
 struct CORDL_TYPE HAPI_AttributeInfo {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2191e84 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x203b4e8 size 0x20 virtual false final false
   inline void _ctor(::StringW ignored);
 
   // Ctor Parameters [CppParam { name: "exists", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "owner", ty: "::HoudiniEngineUnity::HAPI_AttributeOwner", modifiers: "", def_value: None
@@ -80,6 +80,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_AttributeInfo, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AttributeInfo, exists) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AttributeInfo, owner) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AttributeInfo, storage) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AttributeInfo, originalOwner) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AttributeInfo, count) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AttributeInfo, tupleSize) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AttributeInfo, totalArrayElements) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AttributeInfo, typeInfo) == 0x20, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_AttributeInfo, "HoudiniEngineUnity", "HAPI_AttributeInfo");

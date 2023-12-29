@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRIKLODController)
-namespace UnityEngine {
-class Renderer;
-}
 namespace RootMotion::FinalIK {
 class VRIK;
+}
+namespace UnityEngine {
+class Renderer;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::VRIKLODController);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12673))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12601))
 // CS Name: ::RootMotion.FinalIK::VRIKLODController*
 class CORDL_TYPE VRIKLODController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -64,18 +64,18 @@ public:
 
   constexpr void __set_ik(::RootMotion::FinalIK::VRIK* value);
 
-  /// @brief Method Start addr 0x129d5fc size 0x50 virtual false final false
+  /// @brief Method Start addr 0x122c2d0 size 0x50 virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x129d64c size 0x28 virtual false final false
+  /// @brief Method Update addr 0x122c320 size 0x28 virtual false final false
   inline void Update();
 
-  /// @brief Method GetLODLevel addr 0x129d674 size 0x120 virtual false final false
+  /// @brief Method GetLODLevel addr 0x122c348 size 0x120 virtual false final false
   inline int32_t GetLODLevel();
 
   static inline ::RootMotion::FinalIK::VRIKLODController* New_ctor();
 
-  /// @brief Method .ctor addr 0x129d794 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x122c468 size 0x18 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VRIKLODController", modifiers: "&&", def_value: None }]
@@ -108,6 +108,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::VRIKLODController, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::VRIKLODController, ___LODRenderer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::VRIKLODController, ___LODDistance) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::VRIKLODController, ___allowCulled) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::VRIKLODController, ___ik) == 0x28, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::VRIKLODController);

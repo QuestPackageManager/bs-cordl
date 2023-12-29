@@ -6,8 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkiHeader)
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiFreeText;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerGeneralizedTime;
@@ -15,26 +24,17 @@ class DerGeneralizedTime;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1::Cmp {
-class InfoTypeAndValue;
-}
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiFreeText;
+class Asn1OctetString;
 }
 namespace System {
 class Object;
 }
+namespace Org::BouncyCastle::Asn1::Cmp {
+class InfoTypeAndValue;
+}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -205,60 +205,60 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe6b8bc size 0x2bc virtual false final false
+  /// @brief Method .ctor addr 0xdf66e8 size 0x2bc virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe6bb78 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xdf69a4 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* New_ctor(int32_t pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
-  /// @brief Method .ctor addr 0xe6bd00 size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0xdf6b2c size 0x90 virtual false final false
   inline void _ctor(int32_t pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender,
                                                                     ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
-  /// @brief Method .ctor addr 0xe6bd90 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0xdf6bbc size 0x3c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
-  /// @brief Method get_Pvno addr 0xe6bdcc size 0x8 virtual true final false
+  /// @brief Method get_Pvno addr 0xdf6bf8 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Pvno();
 
-  /// @brief Method get_Sender addr 0xe6bdd4 size 0x8 virtual true final false
+  /// @brief Method get_Sender addr 0xdf6c00 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Sender();
 
-  /// @brief Method get_Recipient addr 0xe6bddc size 0x8 virtual true final false
+  /// @brief Method get_Recipient addr 0xdf6c08 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Recipient();
 
-  /// @brief Method get_MessageTime addr 0xe6bde4 size 0x8 virtual true final false
+  /// @brief Method get_MessageTime addr 0xdf6c10 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_MessageTime();
 
-  /// @brief Method get_ProtectionAlg addr 0xe6bdec size 0x8 virtual true final false
+  /// @brief Method get_ProtectionAlg addr 0xdf6c18 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_ProtectionAlg();
 
-  /// @brief Method get_SenderKID addr 0xe6bdf4 size 0x8 virtual true final false
+  /// @brief Method get_SenderKID addr 0xdf6c20 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_SenderKID();
 
-  /// @brief Method get_RecipKID addr 0xe6bdfc size 0x8 virtual true final false
+  /// @brief Method get_RecipKID addr 0xdf6c28 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_RecipKID();
 
-  /// @brief Method get_TransactionID addr 0xe6be04 size 0x8 virtual true final false
+  /// @brief Method get_TransactionID addr 0xdf6c30 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_TransactionID();
 
-  /// @brief Method get_SenderNonce addr 0xe6be0c size 0x8 virtual true final false
+  /// @brief Method get_SenderNonce addr 0xdf6c38 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_SenderNonce();
 
-  /// @brief Method get_RecipNonce addr 0xe6be14 size 0x8 virtual true final false
+  /// @brief Method get_RecipNonce addr 0xdf6c40 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_RecipNonce();
 
-  /// @brief Method get_FreeText addr 0xe6be1c size 0x8 virtual true final false
+  /// @brief Method get_FreeText addr 0xdf6c48 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* get_FreeText();
 
-  /// @brief Method GetGeneralInfo addr 0xe6be24 size 0x100 virtual true final false
+  /// @brief Method GetGeneralInfo addr 0xdf6c50 size 0x100 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> GetGeneralInfo();
 
-  /// @brief Method ToAsn1Object addr 0xe6bf24 size 0x22c virtual true final false
+  /// @brief Method ToAsn1Object addr 0xdf6d50 size 0x22c virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkiHeader", modifiers: "&&", def_value: None }]
@@ -315,6 +315,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::PkiHeader, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiHeader, ___pvno) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiHeader, ___sender) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiHeader, ___recipient) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiHeader, ___messageTime) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiHeader, ___protectionAlg) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiHeader, ___senderKID) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiHeader, ___recipKID) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiHeader, ___transactionID) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiHeader, ___senderNonce) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiHeader, ___recipNonce) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiHeader, ___freeText) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiHeader, ___generalInfo) == 0x68, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::PkiHeader);

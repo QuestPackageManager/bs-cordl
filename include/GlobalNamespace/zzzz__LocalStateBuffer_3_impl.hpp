@@ -19,27 +19,27 @@ constexpr void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____current = value;
 }
-template <typename TStateTable, typename TType, typename TState> constexpr int64_t& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__fullStateUpdateFrequency() {
+template <typename TStateTable, typename TType, typename TState> constexpr float_t& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__fullStateUpdateFrequency() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullStateUpdateFrequency;
 }
-template <typename TStateTable, typename TType, typename TState> constexpr int64_t const& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__fullStateUpdateFrequency() const {
+template <typename TStateTable, typename TType, typename TState> constexpr float_t const& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__fullStateUpdateFrequency() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullStateUpdateFrequency;
 }
-template <typename TStateTable, typename TType, typename TState> constexpr void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__set__fullStateUpdateFrequency(int64_t value) {
+template <typename TStateTable, typename TType, typename TState> constexpr void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__set__fullStateUpdateFrequency(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fullStateUpdateFrequency = value;
 }
-template <typename TStateTable, typename TType, typename TState> constexpr int64_t& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__deltaUpdateFrequency() {
+template <typename TStateTable, typename TType, typename TState> constexpr float_t& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__deltaUpdateFrequency() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deltaUpdateFrequency;
 }
-template <typename TStateTable, typename TType, typename TState> constexpr int64_t const& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__deltaUpdateFrequency() const {
+template <typename TStateTable, typename TType, typename TState> constexpr float_t const& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__deltaUpdateFrequency() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deltaUpdateFrequency;
 }
-template <typename TStateTable, typename TType, typename TState> constexpr void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__set__deltaUpdateFrequency(int64_t value) {
+template <typename TStateTable, typename TType, typename TState> constexpr void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__set__deltaUpdateFrequency(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____deltaUpdateFrequency = value;
 }
@@ -127,19 +127,19 @@ constexpr void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::
 /// @param smoother: ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable,TType,TState>* (default: nullptr)
 template <typename TStateTable, typename TType, typename TState>
 inline ::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>*
-GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::New_ctor(int64_t fullStateUpdateFrequency, int64_t deltaUpdateFrequency, int32_t size,
+GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::New_ctor(float_t fullStateUpdateFrequency, float_t deltaUpdateFrequency, int32_t size,
                                                                           ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
                                                                           ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother) {
   return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>*>(fullStateUpdateFrequency, deltaUpdateFrequency, size, interpolator, smoother));
 }
 /// @param smoother: ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable,TType,TState>* (default: nullptr)
 template <typename TStateTable, typename TType, typename TState>
-inline void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::_ctor(int64_t fullStateUpdateFrequency, int64_t deltaUpdateFrequency, int32_t size,
+inline void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::_ctor(float_t fullStateUpdateFrequency, float_t deltaUpdateFrequency, int32_t size,
                                                                                    ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
                                                                                    ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(),
+      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>*>::get(),
                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>*>::get() })));
@@ -158,26 +158,26 @@ template <typename TStateTable, typename TType, typename TState> inline void Glo
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TStateTable, typename TType, typename TState>
-inline bool GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::TryGetSerializedState(ByRef<TStateTable> state, ByRef<int64_t> time, ByRef<::GlobalNamespace::SyncStateId> id) {
+inline bool GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::TryGetSerializedState(ByRef<TStateTable> state, ByRef<float_t> time, ByRef<::GlobalNamespace::SyncStateId> id) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>*>::get(), "TryGetSerializedState", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TStateTable>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int64_t>>::get(),
+      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TStateTable>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get(),
                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::SyncStateId>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, state, time, id);
 }
 template <typename TStateTable, typename TType, typename TState>
-inline bool GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::TryGetSerializedStateDelta(ByRef<TStateTable> delta, ByRef<int32_t> timeOffset,
+inline bool GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::TryGetSerializedStateDelta(ByRef<TStateTable> delta, ByRef<float_t> timeOffset,
                                                                                                         ByRef<::GlobalNamespace::SyncStateId> baseId) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>*>::get(), "TryGetSerializedStateDelta", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TStateTable>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(),
+      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TStateTable>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get(),
                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::SyncStateId>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, delta, timeOffset, baseId);
 }
-template <typename TStateTable, typename TType, typename TState> inline void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::SetTime(int64_t time) {
+template <typename TStateTable, typename TType, typename TState> inline void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::SetTime(float_t time) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>*>::get(), "SetTime",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, time);
 }
 template <typename TStateTable, typename TType, typename TState> inline void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::SetState(TType type, TState state) {

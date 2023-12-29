@@ -5,29 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(KeyedFactoryBase_2)
-namespace Zenject {
-class IValidatable;
-}
-namespace System {
-class Type;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace System {
 class Object;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-template <typename TBase, typename TKey> class __KeyedFactoryBase_2____c;
-}
-namespace ModestTree::Util {
-template <typename T1, typename T2> class ValuePair_2;
 }
 namespace Zenject {
 class DiContainer;
@@ -38,8 +20,26 @@ template <typename T> class IEnumerable_1;
 namespace Zenject {
 class ConditionCopyNonLazyBinder;
 }
+namespace Zenject {
+template <typename TBase, typename TKey> class __KeyedFactoryBase_2____c;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class IValidatable;
+}
+namespace ModestTree::Util {
+template <typename T1, typename T2> class ValuePair_2;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Type;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -60,8 +60,8 @@ namespace Zenject {
 // cpp template
 template <typename TBase, typename TKey>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10994))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10922))
 // CS Name: ::KeyedFactoryBase`2::<>c<TBase,TKey>*
 class CORDL_TYPE __KeyedFactoryBase_2____c : public ::System::Object {
 public:
@@ -128,8 +128,8 @@ namespace Zenject {
 // cpp template
 template <typename TBase, typename TKey>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10995))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10923))
 // CS Name: ::Zenject::KeyedFactoryBase`2<TBase,TKey>*
 class CORDL_TYPE KeyedFactoryBase_2 : public ::System::Object {
 public:

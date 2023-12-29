@@ -4,32 +4,32 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DecoratorProvider_1)
-namespace Zenject::Internal {
-class IDecoratorProvider;
-}
-namespace System {
-struct Guid;
-}
 namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
 template <typename TParam1, typename TValue> class IFactory_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Object;
+namespace Zenject {
+class InjectContext;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace Zenject {
 class DiContainer;
+}
+namespace System {
+struct Guid;
+}
+namespace Zenject::Internal {
+class IDecoratorProvider;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject::Internal {
@@ -43,8 +43,8 @@ namespace Zenject::Internal {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11370))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11298))
 // CS Name: ::Zenject.Internal::DecoratorProvider`1<TContract>*
 class CORDL_TYPE DecoratorProvider_1 : public ::System::Object {
 public:

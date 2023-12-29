@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::PreserveReferencesHandling);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11812))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11740))
 // CS Name: ::Newtonsoft.Json::PreserveReferencesHandling
 struct CORDL_TYPE PreserveReferencesHandling {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::PreserveReferencesHandling, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::PreserveReferencesHandling, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::PreserveReferencesHandling, "Newtonsoft.Json", "PreserveReferencesHandling");

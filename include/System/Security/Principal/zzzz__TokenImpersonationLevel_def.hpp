@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Principal::TokenImpersonationLevel);
 namespace System::Security::Principal {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2997))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2996))
 // CS Name: ::System.Security.Principal::TokenImpersonationLevel
 struct CORDL_TYPE TokenImpersonationLevel {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Principal::TokenImpersonationLevel, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Principal::TokenImpersonationLevel, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Security::Principal
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Principal::TokenImpersonationLevel, "System.Security.Principal", "TokenImpersonationLevel");

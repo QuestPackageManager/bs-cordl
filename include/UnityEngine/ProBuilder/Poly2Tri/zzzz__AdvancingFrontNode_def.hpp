@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15325))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15355))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::AdvancingFrontNode*
 class CORDL_TYPE AdvancingFrontNode : public ::System::Object {
 public:
@@ -78,13 +78,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method .ctor addr 0x2b30cf4 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x29aefa0 size 0x38 virtual false final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method get_HasNext addr 0x2b30d2c size 0x10 virtual false final false
+  /// @brief Method get_HasNext addr 0x29aefd8 size 0x10 virtual false final false
   inline bool get_HasNext();
 
-  /// @brief Method get_HasPrev addr 0x2b30d3c size 0x10 virtual false final false
+  /// @brief Method get_HasPrev addr 0x29aefe8 size 0x10 virtual false final false
   inline bool get_HasPrev();
 
   // Ctor Parameters [CppParam { name: "", ty: "AdvancingFrontNode", modifiers: "&&", def_value: None }]
@@ -120,6 +120,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode, ___Next) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode, ___Prev) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode, ___Value) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode, ___Point) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode, ___Triangle) == 0x30, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Poly2Tri
 NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode);

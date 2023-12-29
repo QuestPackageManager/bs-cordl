@@ -14,46 +14,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRMeshJobs)
 namespace GlobalNamespace {
-struct __OVRMeshJobs__TransformTrianglesJob;
+struct __OVRMeshJobs__TransformToUnitySpaceJob;
 }
 namespace GlobalNamespace {
 template <typename T> struct __OVRMeshJobs__NativeArrayHelper_1;
 }
 namespace GlobalNamespace {
-struct __OVRMeshJobs__TransformToUnitySpaceJob;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+struct __OVRMeshJobs__TransformTrianglesJob;
 }
 namespace System::Runtime::InteropServices {
 struct GCHandle;
 }
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
 namespace System {
 class IDisposable;
 }
+namespace UnityEngine {
+struct BoneWeight;
+}
 namespace GlobalNamespace {
-struct __OVRPlugin__Vector4s;
+struct __OVRPlugin__Vector3f;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct BoneWeight;
+namespace GlobalNamespace {
+struct __OVRPlugin__Vector2f;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Vector4s;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Vector4f;
 }
 namespace Unity::Jobs {
 class IJobParallelFor;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Vector2f;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Vector4f;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Vector3f;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,12 +77,12 @@ MARK_VAL_T(::GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob);
 // SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 761 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 759 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7723)), TypeDefinitionIndex(TypeDefinitionIndex(7724)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7722)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 739 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(9999), inst: 762 }), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10134)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(9999), inst: 412 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 760 }), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(7721))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8124)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 751 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(9927), inst: 750 }), TypeDefinitionIndex(TypeDefinitionIndex(8600)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 749 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(8601)), TypeDefinitionIndex(TypeDefinitionIndex(9927)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 748 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 407 }), TypeDefinitionIndex(TypeDefinitionIndex(10062)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(9927), inst: 728 }), TypeDefinitionIndex(TypeDefinitionIndex(8598)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 406 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(8599))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8906)) CS Name:
 // ::OVRMeshJobs::TransformToUnitySpaceJob
 struct CORDL_TYPE __OVRMeshJobs__TransformToUnitySpaceJob {
 public:
@@ -90,7 +90,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute addr 0x27b13d0 size 0x180 virtual true final true
+  /// @brief Method Execute addr 0x263c670 size 0x180 virtual true final true
   inline void Execute(int32_t index);
 
   // Ctor Parameters [CppParam { name: "Vertices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "Normals", ty:
@@ -148,20 +148,38 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob, 0x90>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob, Vertices) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob, Normals) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob, UV) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob, BoneWeights) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob, MeshVerticesPosition) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob, MeshNormals) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob, MeshUV) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob, MeshBoneWeights) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob, MeshBoneIndices) == 0x80, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::TransformTrianglesJob
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 745 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 753 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8125)) CS Name: ::OVRMeshJobs::TransformTrianglesJob
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 734 }), TypeDefinitionIndex(TypeDefinitionIndex(9927)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(9927), inst: 742 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8907)) CS Name: ::OVRMeshJobs::TransformTrianglesJob
 struct CORDL_TYPE __OVRMeshJobs__TransformTrianglesJob {
 public:
   // Declarations
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute addr 0x27b1550 size 0x20 virtual true final true
+  /// @brief Method Execute addr 0x263c7f0 size 0x20 virtual true final true
   inline void Execute(int32_t index);
 
   // Ctor Parameters [CppParam { name: "Triangles", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: None }, CppParam { name: "MeshIndices", ty:
@@ -189,6 +207,12 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob, Triangles) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob, MeshIndices) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob, NumIndices) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::NativeArrayHelper`1
 // SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
@@ -196,8 +220,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 4693 }), TypeDefinitionIndex(TypeDefinitionIndex(3336)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8126)) CS Name: ::OVRMeshJobs::NativeArrayHelper`1<T>
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 4594 }), TypeDefinitionIndex(TypeDefinitionIndex(3332)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9927))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8908)) CS Name: ::OVRMeshJobs::NativeArrayHelper`1<T>
 struct CORDL_TYPE __OVRMeshJobs__NativeArrayHelper_1 {
 public:
   // Declarations
@@ -235,8 +259,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8127))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8909))
 // CS Name: ::OVRMeshJobs*
 class CORDL_TYPE OVRMeshJobs : public ::System::Object {
 public:
@@ -249,7 +273,7 @@ public:
 
   static inline ::GlobalNamespace::OVRMeshJobs* New_ctor();
 
-  /// @brief Method .ctor addr 0x27b13c8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x263c668 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRMeshJobs", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::Shapes::StepGenerationType);
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12237))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12165))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::StepGenerationType
 struct CORDL_TYPE StepGenerationType {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::StepGenerationType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::StepGenerationType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Shapes
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Shapes::StepGenerationType, "UnityEngine.ProBuilder.Shapes", "StepGenerationType");

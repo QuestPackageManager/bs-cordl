@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::ComponentModel::AttributeProviderAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9406))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8243))
 // CS Name: ::System.ComponentModel::AttributeProviderAttribute*
 class CORDL_TYPE AttributeProviderAttribute : public ::System::Attribute {
 public:
@@ -43,10 +43,10 @@ public:
 
   constexpr void __set__PropertyName_k__BackingField(::StringW value);
 
-  /// @brief Method get_TypeName addr 0x29065b4 size 0x8 virtual false final false
+  /// @brief Method get_TypeName addr 0x278858c size 0x8 virtual false final false
   inline ::StringW get_TypeName();
 
-  /// @brief Method get_PropertyName addr 0x29065bc size 0x8 virtual false final false
+  /// @brief Method get_PropertyName addr 0x2788594 size 0x8 virtual false final false
   inline ::StringW get_PropertyName();
 
   // Ctor Parameters [CppParam { name: "", ty: "AttributeProviderAttribute", modifiers: "&&", def_value: None }]
@@ -73,6 +73,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::AttributeProviderAttribute, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::AttributeProviderAttribute, ____TypeName_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::AttributeProviderAttribute, ____PropertyName_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::AttributeProviderAttribute);

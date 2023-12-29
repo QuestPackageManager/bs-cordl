@@ -11,10 +11,10 @@ namespace UnityEngine::UIElements {
 class ContextualMenuManager;
 }
 namespace UnityEngine::UIElements {
-class DropdownMenu;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class DropdownMenu;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ContextualMenuPopulateEvent);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst: 4640 }), TypeDefinitionIndex(TypeDefinitionIndex(7215))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7227))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7301)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7301), inst: 4546 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7313))
 // CS Name: ::UnityEngine.UIElements::ContextualMenuPopulateEvent*
 class CORDL_TYPE ContextualMenuPopulateEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*> {
 public:
@@ -63,30 +63,30 @@ public:
 
   constexpr void __set_m_ContextualMenuManager(::UnityEngine::UIElements::ContextualMenuManager* value);
 
-  /// @brief Method get_menu addr 0x2e51d18 size 0x8 virtual false final false
+  /// @brief Method get_menu addr 0x2ce9968 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::DropdownMenu* get_menu();
 
-  /// @brief Method set_menu addr 0x2e51d20 size 0x8 virtual false final false
+  /// @brief Method set_menu addr 0x2ce9970 size 0x8 virtual false final false
   inline void set_menu(::UnityEngine::UIElements::DropdownMenu* value);
 
-  /// @brief Method get_triggerEvent addr 0x2e51d28 size 0x8 virtual false final false
+  /// @brief Method get_triggerEvent addr 0x2ce9978 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::EventBase* get_triggerEvent();
 
-  /// @brief Method set_triggerEvent addr 0x2e51d30 size 0x8 virtual false final false
+  /// @brief Method set_triggerEvent addr 0x2ce9980 size 0x8 virtual false final false
   inline void set_triggerEvent(::UnityEngine::UIElements::EventBase* value);
 
-  /// @brief Method Init addr 0x2e51d38 size 0x70 virtual true final false
+  /// @brief Method Init addr 0x2ce9988 size 0x70 virtual true final false
   inline void Init();
 
-  /// @brief Method LocalInit addr 0x2e51da8 size 0x34 virtual false final false
+  /// @brief Method LocalInit addr 0x2ce99f8 size 0x34 virtual false final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::ContextualMenuPopulateEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e51ddc size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x2ce9a2c size 0x70 virtual false final false
   inline void _ctor();
 
-  /// @brief Method PostDispatch addr 0x2e51e4c size 0x90 virtual true final false
+  /// @brief Method PostDispatch addr 0x2ce9a9c size 0x90 virtual true final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextualMenuPopulateEvent", modifiers: "&&", def_value: None }]
@@ -116,6 +116,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ContextualMenuPopulateEvent, 0xc8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ContextualMenuPopulateEvent, ____menu_k__BackingField) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ContextualMenuPopulateEvent, ____triggerEvent_k__BackingField) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ContextualMenuPopulateEvent, ___m_ContextualMenuManager) == 0xc0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ContextualMenuPopulateEvent);

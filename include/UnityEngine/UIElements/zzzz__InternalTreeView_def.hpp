@@ -10,20 +10,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InternalTreeView)
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace UnityEngine::UIElements {
+class __InternalTreeView__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+struct AlternatingRowBackground;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::UIElements {
-class __InternalTreeView___GetAllItems_d__64;
+class ListView;
 }
 namespace UnityEngine::UIElements {
-struct AlternatingRowBackground;
+class ScrollView;
 }
 namespace System {
 class Object;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class ITreeViewItem;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -31,68 +49,50 @@ template <typename T> class List_1;
 namespace UnityEngine::UIElements {
 class MouseUpEvent;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::UIElements {
+class __InternalTreeView__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
 struct SelectionType;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine::UIElements {
-class KeyDownEvent;
-}
-namespace UnityEngine::UIElements {
-struct __InternalTreeView__TreeViewItemWrapper;
-}
-namespace UnityEngine::UIElements {
-class ITreeViewItem;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
 class CustomStyleResolvedEvent;
 }
 namespace UnityEngine::UIElements {
-class ScrollView;
+class KeyDownEvent;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace UnityEngine::UIElements {
-class __InternalTreeView__UxmlFactory;
-}
-namespace System {
-template <typename TResult> class Func_1;
+class __InternalTreeView___GetAllItems_d__64;
 }
 namespace UnityEngine::UIElements {
-class ListView;
+struct __InternalTreeView__TreeViewItemWrapper;
 }
 namespace UnityEngine::UIElements {
-class __InternalTreeView__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class UxmlBoolAttributeDescription;
-}
-namespace UnityEngine::UIElements {
-class UxmlIntAttributeDescription;
+template <typename T> class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+template <typename T> class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
+class UxmlIntAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class UxmlBoolAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
@@ -100,8 +100,8 @@ template <typename T> class Stack_1;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -129,8 +129,8 @@ MARK_VAL_T(::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6737))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7347))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6823))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7433))
 // CS Name: ::InternalTreeView::UxmlTraits*
 class CORDL_TYPE __InternalTreeView__UxmlTraits : public ::UnityEngine::UIElements::__VisualElement__UxmlTraits {
 public:
@@ -174,12 +174,12 @@ public:
 
   constexpr void __set_m_ShowAlternatingRowBackgrounds(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::AlternatingRowBackground>* value);
 
-  /// @brief Method Init addr 0x2e82b9c size 0x260 virtual true final false
+  /// @brief Method Init addr 0x2d1a7ec size 0x260 virtual true final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__InternalTreeView__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e82dfc size 0x20c virtual false final false
+  /// @brief Method .ctor addr 0x2d1aa4c size 0x20c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InternalTreeView__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -213,13 +213,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__InternalTreeView__UxmlTraits, 0x90>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__InternalTreeView__UxmlTraits, ___m_ItemHeight) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__InternalTreeView__UxmlTraits, ___m_ShowBorder) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__InternalTreeView__UxmlTraits, ___m_SelectionType) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__InternalTreeView__UxmlTraits, ___m_ShowAlternatingRowBackgrounds) == 0x88, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::InternalTreeView
 // SizeInfo { instance_size: 1032, native_size: -1, calculated_instance_size: 1032, calculated_native_size: 1032, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7350))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6830))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7436))
 // CS Name: ::UnityEngine.UIElements::InternalTreeView*
 class CORDL_TYPE InternalTreeView : public ::UnityEngine::UIElements::VisualElement {
 public:
@@ -388,89 +396,89 @@ public:
 
   static inline ::StringW getStaticF_s_ItemContentContainerName();
 
-  /// @brief Method get_unbindItem addr 0x2e7f8f0 size 0x8 virtual false final false
+  /// @brief Method get_unbindItem addr 0x2d17540 size 0x8 virtual false final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* get_unbindItem();
 
-  /// @brief Method set_itemHeight addr 0x2e7f8f8 size 0x20 virtual false final false
+  /// @brief Method set_itemHeight addr 0x2d17548 size 0x20 virtual false final false
   inline void set_itemHeight(int32_t value);
 
-  /// @brief Method set_showBorder addr 0x2e7f918 size 0x20 virtual false final false
+  /// @brief Method set_showBorder addr 0x2d17568 size 0x20 virtual false final false
   inline void set_showBorder(bool value);
 
-  /// @brief Method set_selectionType addr 0x2e7f938 size 0x1c virtual false final false
+  /// @brief Method set_selectionType addr 0x2d17588 size 0x1c virtual false final false
   inline void set_selectionType(::UnityEngine::UIElements::SelectionType value);
 
-  /// @brief Method set_showAlternatingRowBackgrounds addr 0x2e7f954 size 0x1c virtual false final false
+  /// @brief Method set_showAlternatingRowBackgrounds addr 0x2d175a4 size 0x1c virtual false final false
   inline void set_showAlternatingRowBackgrounds(::UnityEngine::UIElements::AlternatingRowBackground value);
 
   static inline ::UnityEngine::UIElements::InternalTreeView* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e7f970 size 0x554 virtual false final false
+  /// @brief Method .ctor addr 0x2d175c0 size 0x554 virtual false final false
   inline void _ctor();
 
-  /// @brief Method RefreshItems addr 0x2e7fec4 size 0x24 virtual false final false
+  /// @brief Method RefreshItems addr 0x2d17b14 size 0x24 virtual false final false
   inline void RefreshItems();
 
-  /// @brief Method Rebuild addr 0x2e7ff8c size 0x24 virtual false final false
+  /// @brief Method Rebuild addr 0x2d17bdc size 0x24 virtual false final false
   inline void Rebuild();
 
-  /// @brief Method OnViewDataReady addr 0x2e7ffb0 size 0x3c virtual true final false
+  /// @brief Method OnViewDataReady addr 0x2d17c00 size 0x3c virtual true final false
   inline void OnViewDataReady();
 
-  /// @brief Method GetAllItems addr 0x2e7ffec size 0x64 virtual false final false
+  /// @brief Method GetAllItems addr 0x2d17c3c size 0x64 virtual false final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*
   GetAllItems(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* rootItems);
 
-  /// @brief Method OnKeyDown addr 0x2e80094 size 0xbc virtual false final false
+  /// @brief Method OnKeyDown addr 0x2d17ce4 size 0xbc virtual false final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
-  /// @brief Method ListViewRefresh addr 0x2e7ff70 size 0x1c virtual false final false
+  /// @brief Method ListViewRefresh addr 0x2d17bc0 size 0x1c virtual false final false
   inline void ListViewRefresh();
 
-  /// @brief Method OnItemsChosen addr 0x2e80740 size 0x420 virtual false final false
+  /// @brief Method OnItemsChosen addr 0x2d18390 size 0x420 virtual false final false
   inline void OnItemsChosen(::System::Collections::Generic::IEnumerable_1<::System::Object*>* chosenItems);
 
-  /// @brief Method OnSelectionChange addr 0x2e80b60 size 0x454 virtual false final false
+  /// @brief Method OnSelectionChange addr 0x2d187b0 size 0x454 virtual false final false
   inline void OnSelectionChange(::System::Collections::Generic::IEnumerable_1<::System::Object*>* selectedListItems);
 
-  /// @brief Method OnTreeViewMouseUp addr 0x2e80fb4 size 0x38 virtual false final false
+  /// @brief Method OnTreeViewMouseUp addr 0x2d18c04 size 0x38 virtual false final false
   inline void OnTreeViewMouseUp(::UnityEngine::UIElements::MouseUpEvent* evt);
 
-  /// @brief Method OnItemMouseUp addr 0x2e80fec size 0x7fc virtual false final false
+  /// @brief Method OnItemMouseUp addr 0x2d18c3c size 0x7fc virtual false final false
   inline void OnItemMouseUp(::UnityEngine::UIElements::MouseUpEvent* evt);
 
-  /// @brief Method MakeTreeItem addr 0x2e817e8 size 0x4e0 virtual false final false
+  /// @brief Method MakeTreeItem addr 0x2d19438 size 0x4e0 virtual false final false
   inline ::UnityEngine::UIElements::VisualElement* MakeTreeItem();
 
-  /// @brief Method UnbindTreeItem addr 0x2e81cc8 size 0x11c virtual false final false
+  /// @brief Method UnbindTreeItem addr 0x2d19918 size 0x11c virtual false final false
   inline void UnbindTreeItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method BindTreeItem addr 0x2e81de4 size 0x35c virtual false final false
+  /// @brief Method BindTreeItem addr 0x2d19a34 size 0x35c virtual false final false
   inline void BindTreeItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method GetItemId addr 0x2e82140 size 0x74 virtual false final false
+  /// @brief Method GetItemId addr 0x2d19d90 size 0x74 virtual false final false
   inline int32_t GetItemId(int32_t index);
 
-  /// @brief Method IsExpandedByIndex addr 0x2e80150 size 0x9c virtual false final false
+  /// @brief Method IsExpandedByIndex addr 0x2d17da0 size 0x9c virtual false final false
   inline bool IsExpandedByIndex(int32_t index);
 
-  /// @brief Method CollapseItemByIndex addr 0x2e804f4 size 0x24c virtual false final false
+  /// @brief Method CollapseItemByIndex addr 0x2d18144 size 0x24c virtual false final false
   inline void CollapseItemByIndex(int32_t index);
 
-  /// @brief Method ExpandItemByIndex addr 0x2e801ec size 0x308 virtual false final false
+  /// @brief Method ExpandItemByIndex addr 0x2d17e3c size 0x308 virtual false final false
   inline void ExpandItemByIndex(int32_t index);
 
-  /// @brief Method ToggleExpandedState addr 0x2e82774 size 0x184 virtual false final false
+  /// @brief Method ToggleExpandedState addr 0x2d1a3c4 size 0x184 virtual false final false
   inline void ToggleExpandedState(::UnityEngine::UIElements::ChangeEvent_1<bool>* evt);
 
-  /// @brief Method CreateWrappers addr 0x2e82254 size 0x520 virtual false final false
+  /// @brief Method CreateWrappers addr 0x2d19ea4 size 0x520 virtual false final false
   inline void CreateWrappers(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* treeViewItems, int32_t depth,
                              ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper>*> wrappers);
 
-  /// @brief Method RegenerateWrappers addr 0x2e7fee8 size 0x88 virtual false final false
+  /// @brief Method RegenerateWrappers addr 0x2d17b38 size 0x88 virtual false final false
   inline void RegenerateWrappers();
 
-  /// @brief Method OnCustomStyleResolved addr 0x2e828f8 size 0x150 virtual false final false
+  /// @brief Method OnCustomStyleResolved addr 0x2d1a548 size 0x150 virtual false final false
   inline void OnCustomStyleResolved(::UnityEngine::UIElements::CustomStyleResolvedEvent* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalTreeView", modifiers: "&&", def_value: None }]
@@ -525,20 +533,42 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InternalTreeView, 0x408>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::InternalTreeView, ___m_MakeItem) == 0x3b0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InternalTreeView, ___onItemsChosen) == 0x3b8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InternalTreeView, ___onSelectionChange) == 0x3c0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InternalTreeView, ___m_SelectedItems) == 0x3c8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InternalTreeView, ___m_BindItem) == 0x3d0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InternalTreeView, ____unbindItem_k__BackingField) == 0x3d8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InternalTreeView, ___m_RootItems) == 0x3e0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InternalTreeView, ___m_ExpandedItemIds) == 0x3e8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InternalTreeView, ___m_ItemWrappers) == 0x3f0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InternalTreeView, ___m_ListView) == 0x3f8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::InternalTreeView, ___m_ScrollView) == 0x400, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::UxmlFactory
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7350)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7347)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5265 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7346)) CS Name: ::InternalTreeView::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7433)), TypeDefinitionIndex(TypeDefinitionIndex(7083)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5149
+// }), TypeDefinitionIndex(TypeDefinitionIndex(7436))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7432)) CS Name: ::InternalTreeView::UxmlFactory*
 class CORDL_TYPE __InternalTreeView__UxmlFactory
     : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::InternalTreeView*, ::UnityEngine::UIElements::__InternalTreeView__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__InternalTreeView__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e82b54 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2d1a7a4 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InternalTreeView__UxmlFactory", modifiers: "&&", def_value: None }]
@@ -566,14 +596,14 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Inter
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7348))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7434))
 // CS Name: ::InternalTreeView::TreeViewItemWrapper
 struct CORDL_TYPE __InternalTreeView__TreeViewItemWrapper {
 public:
   // Declarations
   __declspec(property(get = get_id)) int32_t id;
 
-  /// @brief Method get_id addr 0x2e821b4 size 0xa0 virtual false final false
+  /// @brief Method get_id addr 0x2d19e04 size 0xa0 virtual false final false
   inline int32_t get_id();
 
   // Ctor Parameters [CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "item", ty: "::UnityEngine::UIElements::ITreeViewItem*", modifiers: "", def_value:
@@ -598,13 +628,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper, depth) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__InternalTreeView__TreeViewItemWrapper, item) == 0x8, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::<GetAllItems>d__64
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7349))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7435))
 // CS Name: ::InternalTreeView::<GetAllItems>d__64*
 class CORDL_TYPE __InternalTreeView___GetAllItems_d__64 : public ::System::Object {
 public:
@@ -716,28 +750,28 @@ public:
 
   static inline ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2e80050 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x2d17ca0 size 0x44 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2e83008 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2d1ac58 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2e8300c size 0x3f8 virtual true final true
+  /// @brief Method MoveNext addr 0x2d1ac5c size 0x3f8 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.UIElements.ITreeViewItem>.get_Current addr 0x2e83404 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.UIElements.ITreeViewItem>.get_Current addr 0x2d1b054 size 0x8 virtual true final true
   inline ::UnityEngine::UIElements::ITreeViewItem* System_Collections_Generic_IEnumerator_UnityEngine_UIElements_ITreeViewItem__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2e8340c size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2d1b05c size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2e8344c size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2d1b09c size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.ITreeViewItem>.GetEnumerator addr 0x2e83454 size 0xa0 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.ITreeViewItem>.GetEnumerator addr 0x2d1b0a4 size 0xa0 virtual true final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>* System_Collections_Generic_IEnumerable_UnityEngine_UIElements_ITreeViewItem__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2e834f4 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2d1b144 size 0x4 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InternalTreeView___GetAllItems_d__64", modifiers: "&&", def_value: None }]
@@ -785,6 +819,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64, ___rootItems) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64, _____3__rootItems) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64, ____iteratorStack_5__1) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64, ____currentIterator_5__2) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64, ____hasNext_5__3) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64, ____currentItem_5__4) == 0x50, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::InternalTreeView);

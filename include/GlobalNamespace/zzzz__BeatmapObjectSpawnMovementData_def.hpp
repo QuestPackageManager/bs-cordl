@@ -9,28 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapObjectSpawnMovementData)
 namespace GlobalNamespace {
-class IJumpOffsetYProvider;
+struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
+}
+namespace GlobalNamespace {
+class NoteData;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace UnityEngine {
-struct Vector3;
+struct NoteLineLayer;
 }
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
+class IJumpOffsetYProvider;
+}
+namespace GlobalNamespace {
+class ObstacleData;
 }
 namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__NoteJumpValueType;
-}
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
-}
-namespace GlobalNamespace {
-class NoteData;
 }
 namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
@@ -39,7 +36,10 @@ namespace GlobalNamespace {
 class SliderData;
 }
 namespace GlobalNamespace {
-struct NoteLineLayer;
+struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -67,13 +67,13 @@ MARK_VAL_T(::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData)
 // SizeInfo { instance_size: 52, native_size: 52, calculated_instance_size: 52, calculated_native_size: 68, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4722))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4843))
 // CS Name: ::BeatmapObjectSpawnMovementData::ObstacleSpawnData
 struct CORDL_TYPE __BeatmapObjectSpawnMovementData__ObstacleSpawnData {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2380b28 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x224c0b4 size 0x38 virtual false final false
   inline void _ctor(::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float_t obstacleHeight, float_t moveDuration, float_t jumpDuration,
                     float_t noteLinesDistance);
 
@@ -117,18 +117,32 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, 0x34>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, moveStartPos) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, moveEndPos) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, jumpEndPos) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, obstacleHeight) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, moveDuration) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, jumpDuration) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, noteLinesDistance) == 0x30, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::NoteSpawnData
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4723))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4844))
 // CS Name: ::BeatmapObjectSpawnMovementData::NoteSpawnData
 struct CORDL_TYPE __BeatmapObjectSpawnMovementData__NoteSpawnData {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2380c24 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x224c1b0 size 0x30 virtual false final false
   inline void _ctor(::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float_t jumpGravity, float_t moveDuration, float_t jumpDuration);
 
   // Ctor Parameters [CppParam { name: "moveStartPos", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "moveEndPos", ty: "::UnityEngine::Vector3", modifiers: "",
@@ -167,18 +181,30 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, moveStartPos) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, moveEndPos) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, jumpEndPos) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, jumpGravity) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, moveDuration) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, jumpDuration) == 0x2c, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SliderSpawnData
 // SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4724))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4845))
 // CS Name: ::BeatmapObjectSpawnMovementData::SliderSpawnData
 struct CORDL_TYPE __BeatmapObjectSpawnMovementData__SliderSpawnData {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2380c54 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x224c1e0 size 0x64 virtual false final false
   inline void _ctor(::UnityEngine::Vector3 headMoveStartPos, ::UnityEngine::Vector3 headJumpStartPos, ::UnityEngine::Vector3 headJumpEndPos, float_t headJumpGravity,
                     ::UnityEngine::Vector3 tailMoveStartPos, ::UnityEngine::Vector3 tailJumpStartPos, ::UnityEngine::Vector3 tailJumpEndPos, float_t tailJumpGravity, float_t moveDuration,
                     float_t jumpDuration);
@@ -234,13 +260,33 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, 0x58>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, headMoveStartPos) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, headJumpStartPos) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, headJumpEndPos) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, headJumpGravity) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, tailMoveStartPos) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, tailJumpStartPos) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, tailJumpEndPos) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, tailJumpGravity) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, moveDuration) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, jumpDuration) == 0x54, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::NoteJumpValueType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4725))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4846))
 // CS Name: ::BeatmapObjectSpawnMovementData::NoteJumpValueType
 struct CORDL_TYPE __BeatmapObjectSpawnMovementData__NoteJumpValueType {
 public:
@@ -282,13 +328,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteJumpValueType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteJumpValueType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BeatmapObjectSpawnMovementData
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4726))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4847))
 // CS Name: ::BeatmapObjectSpawnMovementData*
 class CORDL_TYPE BeatmapObjectSpawnMovementData : public ::System::Object {
 public:
@@ -528,76 +576,76 @@ public:
 
   constexpr void __set__forwardVec(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_spawnAheadTime addr 0x2380a64 size 0x8 virtual false final false
+  /// @brief Method get_spawnAheadTime addr 0x224bff0 size 0x8 virtual false final false
   inline float_t get_spawnAheadTime();
 
-  /// @brief Method get_moveDuration addr 0x2380a6c size 0x8 virtual false final false
+  /// @brief Method get_moveDuration addr 0x224bff8 size 0x8 virtual false final false
   inline float_t get_moveDuration();
 
-  /// @brief Method get_jumpDuration addr 0x2380a74 size 0x8 virtual false final false
+  /// @brief Method get_jumpDuration addr 0x224c000 size 0x8 virtual false final false
   inline float_t get_jumpDuration();
 
-  /// @brief Method get_noteLinesDistance addr 0x237fa8c size 0xc virtual false final false
+  /// @brief Method get_noteLinesDistance addr 0x224b018 size 0xc virtual false final false
   inline float_t get_noteLinesDistance();
 
-  /// @brief Method get_verticalLayersDistance addr 0x237fa44 size 0xc virtual false final false
+  /// @brief Method get_verticalLayersDistance addr 0x224afd0 size 0xc virtual false final false
   inline float_t get_verticalLayersDistance();
 
-  /// @brief Method get_jumpDistance addr 0x2380a7c size 0x8 virtual false final false
+  /// @brief Method get_jumpDistance addr 0x224c008 size 0x8 virtual false final false
   inline float_t get_jumpDistance();
 
-  /// @brief Method get_noteJumpMovementSpeed addr 0x2380a84 size 0x8 virtual false final false
+  /// @brief Method get_noteJumpMovementSpeed addr 0x224c010 size 0x8 virtual false final false
   inline float_t get_noteJumpMovementSpeed();
 
-  /// @brief Method get_noteLinesCount addr 0x2380a8c size 0x8 virtual false final false
+  /// @brief Method get_noteLinesCount addr 0x224c018 size 0x8 virtual false final false
   inline int32_t get_noteLinesCount();
 
-  /// @brief Method get_centerPos addr 0x2380a94 size 0xc virtual false final false
+  /// @brief Method get_centerPos addr 0x224c020 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_centerPos();
 
-  /// @brief Method get_jumpOffsetY addr 0x237f930 size 0xa0 virtual false final false
+  /// @brief Method get_jumpOffsetY addr 0x224aebc size 0xa0 virtual false final false
   inline float_t get_jumpOffsetY();
 
-  /// @brief Method Init addr 0x237ff64 size 0x150 virtual false final false
+  /// @brief Method Init addr 0x224b4f0 size 0x150 virtual false final false
   inline void Init(int32_t noteLinesCount, float_t startNoteJumpMovementSpeed, float_t startBpm, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteJumpValueType noteJumpValueType,
                    float_t noteJumpValue, ::GlobalNamespace::IJumpOffsetYProvider* jumpOffsetYProvider, ::UnityEngine::Vector3 rightVec, ::UnityEngine::Vector3 forwardVec);
 
-  /// @brief Method GetObstacleSpawnData addr 0x238021c size 0x170 virtual false final false
+  /// @brief Method GetObstacleSpawnData addr 0x224b7a8 size 0x170 virtual false final false
   inline ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData GetObstacleSpawnData(::GlobalNamespace::ObstacleData* obstacleData);
 
-  /// @brief Method GetJumpingNoteSpawnData addr 0x2380494 size 0xf8 virtual false final false
+  /// @brief Method GetJumpingNoteSpawnData addr 0x224ba20 size 0xf8 virtual false final false
   inline ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData GetJumpingNoteSpawnData(::GlobalNamespace::NoteData* noteData);
 
-  /// @brief Method GetSliderSpawnData addr 0x23806a4 size 0x188 virtual false final false
+  /// @brief Method GetSliderSpawnData addr 0x224bc30 size 0x188 virtual false final false
   inline ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData GetSliderSpawnData(::GlobalNamespace::SliderData* sliderData);
 
-  /// @brief Method GetNoteOffset addr 0x2380b60 size 0x78 virtual false final false
+  /// @brief Method GetNoteOffset addr 0x224c0ec size 0x78 virtual false final false
   inline ::UnityEngine::Vector3 GetNoteOffset(int32_t noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method GetObstacleOffset addr 0x2380aa0 size 0x88 virtual false final false
+  /// @brief Method GetObstacleOffset addr 0x224c02c size 0x88 virtual false final false
   inline ::UnityEngine::Vector3 GetObstacleOffset(int32_t noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method Get2DNoteOffset addr 0x2380878 size 0x14 virtual false final false
+  /// @brief Method Get2DNoteOffset addr 0x224be04 size 0x14 virtual false final false
   inline ::UnityEngine::Vector2 Get2DNoteOffset(int32_t noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset addr 0x23808a4 size 0x70 virtual false final false
+  /// @brief Method JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset addr 0x224be30 size 0x70 virtual false final false
   inline float_t JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, float_t distanceFromPlayer);
 
-  /// @brief Method HighestJumpPosYForLineLayer addr 0x2380d1c size 0x144 virtual false final false
+  /// @brief Method HighestJumpPosYForLineLayer addr 0x224c2a8 size 0x144 virtual false final false
   inline float_t HighestJumpPosYForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
 
-  /// @brief Method HighestJumpPosYForLineLayerWithoutJumpOffset addr 0x2380e60 size 0x28 virtual false final false
+  /// @brief Method HighestJumpPosYForLineLayerWithoutJumpOffset addr 0x224c3ec size 0x28 virtual false final false
   inline float_t HighestJumpPosYForLineLayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer);
 
-  /// @brief Method NoteJumpGravityForLineLayer addr 0x2380bd8 size 0x4c virtual false final false
+  /// @brief Method NoteJumpGravityForLineLayer addr 0x224c164 size 0x4c virtual false final false
   inline float_t NoteJumpGravityForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
 
-  /// @brief Method NoteJumpGravityForLineLayerWithoutJumpOffset addr 0x2380cb8 size 0x64 virtual false final false
+  /// @brief Method NoteJumpGravityForLineLayerWithoutJumpOffset addr 0x224c244 size 0x64 virtual false final false
   inline float_t NoteJumpGravityForLineLayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
 
   static inline ::GlobalNamespace::BeatmapObjectSpawnMovementData* New_ctor();
 
-  /// @brief Method .ctor addr 0x23809a4 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x224bf30 size 0x30 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnMovementData", modifiers: "&&", def_value: None }]
@@ -693,6 +741,52 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapObjectSpawnMovementData, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____centerPos) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____maxHalfJumpDistance) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____startHalfJumpDurationInBeats) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____baseLinesHighestJumpPosY) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____upperLinesHighestJumpPosY) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____topLinesHighestJumpPosY) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____moveSpeed) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____moveDuration) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____verticalObstaclePosY) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____obstacleTopPosY) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____spawnAheadTime) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____jumpDuration) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____noteJumpStartBeatOffset) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____noteJumpMovementSpeed) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____jumpDistance) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____moveDistance) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____moveStartPos) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____moveEndPos) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____jumpEndPos) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____noteLinesCount) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____jumpOffsetYProvider) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____rightVec) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnMovementData, ____forwardVec) == 0x94, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteJumpValueType, "", "BeatmapObjectSpawnMovementData/NoteJumpValueType");

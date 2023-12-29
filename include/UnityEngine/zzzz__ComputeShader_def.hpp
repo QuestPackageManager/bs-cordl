@@ -16,13 +16,13 @@ MARK_REF_PTR_T(::UnityEngine::ComputeShader);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10259))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10128))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10186))
 // CS Name: ::UnityEngine::ComputeShader*
 class CORDL_TYPE ComputeShader : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method FindKernel addr 0x2cddbbc size 0x44 virtual false final false
+  /// @brief Method FindKernel addr 0x2b78364 size 0x44 virtual false final false
   inline int32_t FindKernel(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "ComputeShader", modifiers: "&&", def_value: None }]

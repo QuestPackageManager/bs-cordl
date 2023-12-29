@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnmodifiableListProxy)
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
 class IList;
 }
 namespace System {
@@ -16,6 +13,9 @@ class Object;
 }
 namespace System {
 class Array;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -52,34 +52,34 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy* New_ctor(::System::Collections::IList* l);
 
-  /// @brief Method .ctor addr 0x1157554 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x10e630c size 0x28 virtual false final false
   inline void _ctor(::System::Collections::IList* l);
 
-  /// @brief Method Contains addr 0x115aaa4 size 0xac virtual true final false
+  /// @brief Method Contains addr 0x10e985c size 0xac virtual true final false
   inline bool Contains(::System::Object* o);
 
-  /// @brief Method CopyTo addr 0x115ab50 size 0xb8 virtual true final false
+  /// @brief Method CopyTo addr 0x10e9908 size 0xb8 virtual true final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method get_Count addr 0x115ac08 size 0xa4 virtual true final false
+  /// @brief Method get_Count addr 0x10e99c0 size 0xa4 virtual true final false
   inline int32_t get_Count();
 
-  /// @brief Method GetEnumerator addr 0x115acac size 0xa0 virtual true final false
+  /// @brief Method GetEnumerator addr 0x10e9a64 size 0xa0 virtual true final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method IndexOf addr 0x115ad4c size 0xac virtual true final false
+  /// @brief Method IndexOf addr 0x10e9b04 size 0xac virtual true final false
   inline int32_t IndexOf(::System::Object* o);
 
-  /// @brief Method get_IsFixedSize addr 0x115adf8 size 0xa4 virtual true final false
+  /// @brief Method get_IsFixedSize addr 0x10e9bb0 size 0xa4 virtual true final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsSynchronized addr 0x115ae9c size 0xa4 virtual true final false
+  /// @brief Method get_IsSynchronized addr 0x10e9c54 size 0xa4 virtual true final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot addr 0x115af40 size 0xa4 virtual true final false
+  /// @brief Method get_SyncRoot addr 0x10e9cf8 size 0xa4 virtual true final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method GetValue addr 0x115afe4 size 0xa8 virtual true final false
+  /// @brief Method GetValue addr 0x10e9d9c size 0xa8 virtual true final false
   inline ::System::Object* GetValue(int32_t i);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnmodifiableListProxy", modifiers: "&&", def_value: None }]
@@ -103,6 +103,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy, ___l) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::Collections
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy);

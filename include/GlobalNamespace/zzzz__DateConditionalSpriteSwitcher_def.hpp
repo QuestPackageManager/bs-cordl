@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DateConditionalSpriteSwitcher);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5357))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5452))
 // CS Name: ::DateConditionalSpriteSwitcher*
 class CORDL_TYPE DateConditionalSpriteSwitcher : public ::UnityEngine::MonoBehaviour {
 public:
@@ -72,12 +72,12 @@ public:
 
   constexpr void __set__conditionalSpriteSwitcher(::GlobalNamespace::ConditionalSpriteSwitcher* value);
 
-  /// @brief Method Awake addr 0x226c250 size 0xb8 virtual false final false
+  /// @brief Method Awake addr 0x2128114 size 0xb8 virtual false final false
   inline void Awake();
 
   static inline ::GlobalNamespace::DateConditionalSpriteSwitcher* New_ctor();
 
-  /// @brief Method .ctor addr 0x226c308 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21281cc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DateConditionalSpriteSwitcher", modifiers: "&&", def_value: None }]
@@ -113,6 +113,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DateConditionalSpriteSwitcher, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DateConditionalSpriteSwitcher, ____day) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DateConditionalSpriteSwitcher, ____month) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DateConditionalSpriteSwitcher, ____falseSprite) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DateConditionalSpriteSwitcher, ____trueSprite) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DateConditionalSpriteSwitcher, ____conditionalSpriteSwitcher) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DateConditionalSpriteSwitcher);

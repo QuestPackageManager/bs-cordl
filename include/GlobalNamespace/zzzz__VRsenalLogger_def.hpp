@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(VRsenalLogger)
 namespace GlobalNamespace {
-class VRsenalScoreLogger;
-}
-namespace GlobalNamespace {
-class StringSignal;
+class GameScenesManager;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
+class StringSignal;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace GlobalNamespace {
+class VRsenalScoreLogger;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::VRsenalLogger);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4014))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3997))
 // CS Name: ::VRsenalLogger*
 class CORDL_TYPE VRsenalLogger : public ::UnityEngine::MonoBehaviour {
 public:
@@ -83,21 +83,21 @@ public:
 
   constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
 
-  /// @brief Method Awake addr 0x2222b84 size 0x108 virtual false final false
+  /// @brief Method Awake addr 0x20c1498 size 0x108 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x2222c8c size 0x108 virtual false final false
+  /// @brief Method OnDestroy addr 0x20c15a0 size 0x108 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleGameScenesManagerInstallEarlyBindings addr 0x2222d94 size 0x14c virtual false final false
+  /// @brief Method HandleGameScenesManagerInstallEarlyBindings addr 0x20c16a8 size 0x14c virtual false final false
   inline void HandleGameScenesManagerInstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
 
-  /// @brief Method HandlePlayerNameWasEntered addr 0x2222ee0 size 0x8c virtual false final false
+  /// @brief Method HandlePlayerNameWasEntered addr 0x20c17f4 size 0x8c virtual false final false
   inline void HandlePlayerNameWasEntered(::StringW playerName);
 
   static inline ::GlobalNamespace::VRsenalLogger* New_ctor();
 
-  /// @brief Method .ctor addr 0x2222f6c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20c1880 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VRsenalLogger", modifiers: "&&", def_value: None }]
@@ -133,6 +133,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VRsenalLogger, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRsenalLogger, ____standardLevelScenesTransitionSetupData) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRsenalLogger, ____tutorialScenesTransitionSetupData) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRsenalLogger, ____playerNameWasEnteredSignal) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRsenalLogger, ____vRsenalScoreLoggerPrefab) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRsenalLogger, ____gameScenesManager) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::VRsenalLogger);

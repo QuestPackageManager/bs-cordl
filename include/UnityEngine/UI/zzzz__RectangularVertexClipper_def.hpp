@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(RectangularVertexClipper)
 namespace UnityEngine {
-struct Vector3;
+class Canvas;
 }
 namespace UnityEngine {
-class RectTransform;
+struct Vector3;
 }
 namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-class Canvas;
+class RectTransform;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::UnityEngine::UI::RectangularVertexClipper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13028))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13033))
 // CS Name: ::UnityEngine.UI::RectangularVertexClipper*
 class CORDL_TYPE RectangularVertexClipper : public ::System::Object {
 public:
@@ -51,12 +51,12 @@ public:
 
   constexpr void __set_m_CanvasCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method GetCanvasRect addr 0x2d535b8 size 0x170 virtual false final false
+  /// @brief Method GetCanvasRect addr 0x2beb208 size 0x170 virtual false final false
   inline ::UnityEngine::Rect GetCanvasRect(::UnityEngine::RectTransform* t, ::UnityEngine::Canvas* c);
 
   static inline ::UnityEngine::UI::RectangularVertexClipper* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d53728 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x2beb378 size 0x68 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RectangularVertexClipper", modifiers: "&&", def_value: None }]
@@ -83,6 +83,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::RectangularVertexClipper, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::RectangularVertexClipper, ___m_WorldCorners) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::RectangularVertexClipper, ___m_CanvasCorners) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::UI
 NEED_NO_BOX(::UnityEngine::UI::RectangularVertexClipper);

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Oculus::Platform::NetSyncOptions);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13340))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13367))
 // CS Name: ::Oculus.Platform::NetSyncOptions*
 class CORDL_TYPE NetSyncOptions : public ::System::Object {
 public:
@@ -37,22 +37,22 @@ public:
 
   static inline ::Oculus::Platform::NetSyncOptions* New_ctor();
 
-  /// @brief Method .ctor addr 0x26f46f8 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x25995ac size 0x64 virtual false final false
   inline void _ctor();
 
-  /// @brief Method SetVoipGroup addr 0x26f475c size 0x68 virtual false final false
+  /// @brief Method SetVoipGroup addr 0x2599610 size 0x68 virtual false final false
   inline void SetVoipGroup(::StringW value);
 
-  /// @brief Method SetVoipStreamDefault addr 0x26f47c4 size 0x68 virtual false final false
+  /// @brief Method SetVoipStreamDefault addr 0x2599678 size 0x68 virtual false final false
   inline void SetVoipStreamDefault(::Oculus::Platform::NetSyncVoipStreamMode value);
 
-  /// @brief Method SetZoneId addr 0x26f482c size 0x68 virtual false final false
+  /// @brief Method SetZoneId addr 0x25996e0 size 0x68 virtual false final false
   inline void SetZoneId(::StringW value);
 
-  /// @brief Method op_Explicit addr 0x26f4894 size 0x58 virtual false final false
+  /// @brief Method op_Explicit addr 0x2599748 size 0x58 virtual false final false
   static inline void* op_Explicit_void_(::Oculus::Platform::NetSyncOptions* options);
 
-  /// @brief Method Finalize addr 0x26f48ec size 0xd4 virtual true final false
+  /// @brief Method Finalize addr 0x25997a0 size 0xd4 virtual true final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSyncOptions", modifiers: "&&", def_value: None }]
@@ -76,6 +76,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::NetSyncOptions, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::NetSyncOptions, ___Handle) == 0x10, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::NetSyncOptions);

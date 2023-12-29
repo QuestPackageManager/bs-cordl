@@ -21,16 +21,16 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKClipPlane);
 // SizeInfo { instance_size: 76, native_size: 76, calculated_instance_size: 76, calculated_native_size: 92, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15111))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15120))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15215))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15224))
 // CS Name: ::LIV.SDK.Unity::SDKClipPlane
 struct CORDL_TYPE SDKClipPlane {
 public:
   // Declarations
-  /// @brief Method get_empty addr 0x2215234 size 0x34 virtual false final false
+  /// @brief Method get_empty addr 0x20b42fc size 0x34 virtual false final false
   static inline ::LIV::SDK::Unity::SDKClipPlane get_empty();
 
-  /// @brief Method ToString addr 0x2215da8 size 0x1dc virtual true final false
+  /// @brief Method ToString addr 0x20b4e70 size 0x1dc virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "transform", ty: "::LIV::SDK::Unity::SDKMatrix4x4", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None },
@@ -60,6 +60,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::SDKClipPlane, 0x4c>, "Size mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKClipPlane, transform) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKClipPlane, width) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKClipPlane, height) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKClipPlane, tesselation) == 0x48, "Offset mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKClipPlane, "LIV.SDK.Unity", "SDKClipPlane");

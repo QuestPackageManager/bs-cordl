@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DomNameTable)
-namespace System::Xml {
-class XmlName;
-}
 namespace System::Xml::Schema {
 class IXmlSchemaInfo;
 }
@@ -18,6 +15,9 @@ class XmlDocument;
 }
 namespace System::Xml {
 class XmlNameTable;
+}
+namespace System::Xml {
+class XmlName;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Xml::DomNameTable);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11496))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11424))
 // CS Name: ::System.Xml::DomNameTable*
 class CORDL_TYPE DomNameTable : public ::System::Object {
 public:
@@ -82,16 +82,16 @@ public:
 
   static inline ::System::Xml::DomNameTable* New_ctor(::System::Xml::XmlDocument* document);
 
-  /// @brief Method .ctor addr 0x2881420 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x2704400 size 0x84 virtual false final false
   inline void _ctor(::System::Xml::XmlDocument* document);
 
-  /// @brief Method GetName addr 0x28814c0 size 0x15c virtual false final false
+  /// @brief Method GetName addr 0x27044a0 size 0x15c virtual false final false
   inline ::System::Xml::XmlName* GetName(::StringW prefix, ::StringW localName, ::StringW ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
 
-  /// @brief Method AddName addr 0x288161c size 0x264 virtual false final false
+  /// @brief Method AddName addr 0x27045fc size 0x264 virtual false final false
   inline ::System::Xml::XmlName* AddName(::StringW prefix, ::StringW localName, ::StringW ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
 
-  /// @brief Method Grow addr 0x2881880 size 0x124 virtual false final false
+  /// @brief Method Grow addr 0x2704860 size 0x124 virtual false final false
   inline void Grow();
 
   // Ctor Parameters [CppParam { name: "", ty: "DomNameTable", modifiers: "&&", def_value: None }]
@@ -127,6 +127,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::DomNameTable, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::DomNameTable, ___entries) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::DomNameTable, ___count) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::DomNameTable, ___mask) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::DomNameTable, ___ownerDocument) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::DomNameTable, ___nameTable) == 0x28, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::DomNameTable);

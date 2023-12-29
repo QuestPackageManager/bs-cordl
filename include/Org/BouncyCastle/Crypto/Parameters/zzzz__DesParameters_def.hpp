@@ -31,27 +31,27 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DesParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor addr 0xf2f7f4 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0xeba608 size 0xc0 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DesParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method .ctor addr 0xf2f90c size 0xdc virtual false final false
+  /// @brief Method .ctor addr 0xeba720 size 0xdc virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method IsWeakKey addr 0xf2f9e8 size 0x154 virtual false final false
+  /// @brief Method IsWeakKey addr 0xeba7fc size 0x154 virtual false final false
   static inline bool IsWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t offset);
 
-  /// @brief Method IsWeakKey addr 0xf2f8b4 size 0x58 virtual false final false
+  /// @brief Method IsWeakKey addr 0xeba6c8 size 0x58 virtual false final false
   static inline bool IsWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method SetOddParity addr 0xf2fb3c size 0x20 virtual false final false
+  /// @brief Method SetOddParity addr 0xeba950 size 0x20 virtual false final false
   static inline uint8_t SetOddParity(uint8_t b);
 
-  /// @brief Method SetOddParity addr 0xf2fb5c size 0xbc virtual false final false
+  /// @brief Method SetOddParity addr 0xeba970 size 0xbc virtual false final false
   static inline void SetOddParity(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method SetOddParity addr 0xf2fc18 size 0xe0 virtual false final false
+  /// @brief Method SetOddParity addr 0xebaa2c size 0xe0 virtual false final false
   static inline void SetOddParity(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "DesParameters", modifiers: "&&", def_value: None }]

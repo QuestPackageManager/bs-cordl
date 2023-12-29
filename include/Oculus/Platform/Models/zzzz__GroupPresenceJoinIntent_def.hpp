@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::GroupPresenceJoinIntent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13434))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13480))
 // CS Name: ::Oculus.Platform.Models::GroupPresenceJoinIntent*
 class CORDL_TYPE GroupPresenceJoinIntent : public ::System::Object {
 public:
@@ -60,7 +60,7 @@ public:
 
   static inline ::Oculus::Platform::Models::GroupPresenceJoinIntent* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x2705dfc size 0xa8 virtual false final false
+  /// @brief Method .ctor addr 0x25b3450 size 0xa8 virtual false final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "GroupPresenceJoinIntent", modifiers: "&&", def_value: None }]
@@ -93,6 +93,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::GroupPresenceJoinIntent, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::GroupPresenceJoinIntent, ___DeeplinkMessage) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::GroupPresenceJoinIntent, ___DestinationApiName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::GroupPresenceJoinIntent, ___LobbySessionId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::GroupPresenceJoinIntent, ___MatchSessionId) == 0x28, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::GroupPresenceJoinIntent);

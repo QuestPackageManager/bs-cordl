@@ -22,7 +22,7 @@ MARK_VAL_T(::UnityEngine::XR::Eyes);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15623))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15580))
 // CS Name: ::UnityEngine.XR::Eyes
 struct CORDL_TYPE Eyes {
 public:
@@ -34,19 +34,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::Eyes>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::Eyes>*();
 
-  /// @brief Method get_deviceId addr 0x2eb26b8 size 0x8 virtual false final false
+  /// @brief Method get_deviceId addr 0x2d498cc size 0x8 virtual false final false
   inline uint64_t get_deviceId();
 
-  /// @brief Method get_featureIndex addr 0x2eb26c0 size 0x8 virtual false final false
+  /// @brief Method get_featureIndex addr 0x2d498d4 size 0x8 virtual false final false
   inline uint32_t get_featureIndex();
 
-  /// @brief Method Equals addr 0x2eb26c8 size 0x88 virtual true final false
+  /// @brief Method Equals addr 0x2d498dc size 0x88 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x2eb2750 size 0x24 virtual true final true
+  /// @brief Method Equals addr 0x2d49964 size 0x24 virtual true final true
   inline bool Equals(::UnityEngine::XR::Eyes other);
 
-  /// @brief Method GetHashCode addr 0x2eb2774 size 0x4c virtual true final false
+  /// @brief Method GetHashCode addr 0x2d49988 size 0x4c virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_FeatureIndex", ty: "uint32_t", modifiers: "", def_value: None }]
@@ -69,6 +69,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::Eyes, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Eyes, m_DeviceId) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Eyes, m_FeatureIndex) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::Eyes, "UnityEngine.XR", "Eyes");

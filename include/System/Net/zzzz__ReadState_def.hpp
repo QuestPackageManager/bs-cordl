@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::ReadState);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9214))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8051))
 // CS Name: ::System.Net::ReadState
 struct CORDL_TYPE ReadState {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::ReadState, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::ReadState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::ReadState, "System.Net", "ReadState");

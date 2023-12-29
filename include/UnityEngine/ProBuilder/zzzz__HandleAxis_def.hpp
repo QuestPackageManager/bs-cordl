@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::HandleAxis);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12159))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12087))
 // CS Name: ::UnityEngine.ProBuilder::HandleAxis
 struct CORDL_TYPE HandleAxis {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::HandleAxis, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::HandleAxis, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::HandleAxis, "UnityEngine.ProBuilder", "HandleAxis");

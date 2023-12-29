@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Mono::Globalization::Unicode::TailoringInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2259))
 // CS Name: ::Mono.Globalization.Unicode::TailoringInfo*
 class CORDL_TYPE TailoringInfo : public ::System::Object {
@@ -59,7 +59,7 @@ public:
 
   static inline ::Mono::Globalization::Unicode::TailoringInfo* New_ctor(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort);
 
-  /// @brief Method .ctor addr 0x241553c size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x22bbabc size 0x44 virtual false final false
   inline void _ctor(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort);
 
   // Ctor Parameters [CppParam { name: "", ty: "TailoringInfo", modifiers: "&&", def_value: None }]
@@ -92,6 +92,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Globalization::Unicode::TailoringInfo, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::TailoringInfo, ___LCID) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::TailoringInfo, ___TailoringIndex) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::TailoringInfo, ___TailoringCount) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::TailoringInfo, ___FrenchSort) == 0x1c, "Offset mismatch!");
 
 } // namespace Mono::Globalization::Unicode
 NEED_NO_BOX(::Mono::Globalization::Unicode::TailoringInfo);

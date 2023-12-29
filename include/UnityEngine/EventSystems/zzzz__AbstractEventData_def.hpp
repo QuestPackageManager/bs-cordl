@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::AbstractEventData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13164))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13169))
 // CS Name: ::UnityEngine.EventSystems::AbstractEventData*
 class CORDL_TYPE AbstractEventData : public ::System::Object {
 public:
@@ -31,18 +31,18 @@ public:
 
   constexpr void __set_m_Used(bool value);
 
-  /// @brief Method Reset addr 0x2d95428 size 0x8 virtual true final false
+  /// @brief Method Reset addr 0x2c2d078 size 0x8 virtual true final false
   inline void Reset();
 
-  /// @brief Method Use addr 0x2d95430 size 0xc virtual true final false
+  /// @brief Method Use addr 0x2c2d080 size 0xc virtual true final false
   inline void Use();
 
-  /// @brief Method get_used addr 0x2d9543c size 0x8 virtual true final false
+  /// @brief Method get_used addr 0x2c2d08c size 0x8 virtual true final false
   inline bool get_used();
 
   static inline ::UnityEngine::EventSystems::AbstractEventData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d95444 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2c2d094 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AbstractEventData", modifiers: "&&", def_value: None }]
@@ -66,6 +66,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::AbstractEventData, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::AbstractEventData, ___m_Used) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::EventSystems
 NEED_NO_BOX(::UnityEngine::EventSystems::AbstractEventData);

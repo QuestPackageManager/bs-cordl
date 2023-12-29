@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsECDheKeyExchange)
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSigner;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSignerCredentials;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSigner;
+}
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class SignatureAndHashAlgorithm;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class SecurityParameters;
 }
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
+namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateRequest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -62,26 +62,26 @@ public:
                                                                                 ::ArrayW<int32_t, ::Array<int32_t>*> namedCurves, ::ArrayW<uint8_t, ::Array<uint8_t>*> clientECPointFormats,
                                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> serverECPointFormats);
 
-  /// @brief Method .ctor addr 0xfaaf30 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xf34ce8 size 0x8 virtual false final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::ArrayW<int32_t, ::Array<int32_t>*> namedCurves,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> clientECPointFormats, ::ArrayW<uint8_t, ::Array<uint8_t>*> serverECPointFormats);
 
-  /// @brief Method ProcessServerCredentials addr 0xfaaf38 size 0x168 virtual true final false
+  /// @brief Method ProcessServerCredentials addr 0xf34cf0 size 0x168 virtual true final false
   inline void ProcessServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* serverCredentials);
 
-  /// @brief Method GenerateServerKeyExchange addr 0xfab0a0 size 0x404 virtual true final false
+  /// @brief Method GenerateServerKeyExchange addr 0xf34e58 size 0x404 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateServerKeyExchange();
 
-  /// @brief Method ProcessServerKeyExchange addr 0xfab67c size 0x304 virtual true final false
+  /// @brief Method ProcessServerKeyExchange addr 0xf35434 size 0x304 virtual true final false
   inline void ProcessServerKeyExchange(::System::IO::Stream* input);
 
-  /// @brief Method ValidateCertificateRequest addr 0xfab980 size 0x9c virtual true final false
+  /// @brief Method ValidateCertificateRequest addr 0xf35738 size 0x9c virtual true final false
   inline void ValidateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
 
-  /// @brief Method ProcessClientCredentials addr 0xfaba1c size 0x8c virtual true final false
+  /// @brief Method ProcessClientCredentials addr 0xf357d4 size 0x8c virtual true final false
   inline void ProcessClientCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* clientCredentials);
 
-  /// @brief Method InitVerifyer addr 0xfabaa8 size 0x1d0 virtual true final false
+  /// @brief Method InitVerifyer addr 0xf35860 size 0x1d0 virtual true final false
   inline ::Org::BouncyCastle::Crypto::ISigner* InitVerifyer(::Org::BouncyCastle::Crypto::Tls::TlsSigner* tlsSigner, ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm,
                                                             ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
@@ -106,6 +106,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsECDheKeyExchange, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsECDheKeyExchange, ___mServerCredentials) == 0x68, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsECDheKeyExchange);

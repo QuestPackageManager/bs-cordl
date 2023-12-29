@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BeatmapLevelDataExtensions)
 namespace GlobalNamespace {
-class IBeatmapLevelData;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelData;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,25 +33,25 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelDataExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4393))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4415))
 // CS Name: ::BeatmapLevelDataExtensions*
 class CORDL_TYPE BeatmapLevelDataExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetDifficultyBeatmap addr 0x2348590 size 0x418 virtual false final false
+  /// @brief Method GetDifficultyBeatmap addr 0x21fdebc size 0x418 virtual false final false
   static inline ::GlobalNamespace::IDifficultyBeatmap* GetDifficultyBeatmap(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
                                                                             ::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method GetDifficultyBeatmapSet addr 0x23489a8 size 0x4a0 virtual false final false
+  /// @brief Method GetDifficultyBeatmapSet addr 0x21fe2d4 size 0x4a0 virtual false final false
   static inline ::GlobalNamespace::IDifficultyBeatmapSet* GetDifficultyBeatmapSet(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData,
                                                                                   ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
-  /// @brief Method GetDifficultyBeatmap addr 0x2348e48 size 0x20 virtual false final false
+  /// @brief Method GetDifficultyBeatmap addr 0x21fe774 size 0x20 virtual false final false
   static inline ::GlobalNamespace::IDifficultyBeatmap* GetDifficultyBeatmap(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData,
                                                                             ::GlobalNamespace::PreviewDifficultyBeatmap* previewDifficultyBeatmap);
 
-  /// @brief Method GetDifficultyBeatmapSet addr 0x2348e68 size 0x478 virtual false final false
+  /// @brief Method GetDifficultyBeatmapSet addr 0x21fe794 size 0x478 virtual false final false
   static inline ::GlobalNamespace::IDifficultyBeatmapSet* GetDifficultyBeatmapSet(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::StringW beatmapCharacteristicName);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataExtensions", modifiers: "&&", def_value: None }]

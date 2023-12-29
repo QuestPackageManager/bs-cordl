@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::LocalizationRequiredAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15745))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15695))
 // CS Name: ::JetBrains.Annotations::LocalizationRequiredAttribute*
 class CORDL_TYPE LocalizationRequiredAttribute : public ::System::Attribute {
 public:
@@ -33,18 +33,18 @@ public:
 
   static inline ::JetBrains::Annotations::LocalizationRequiredAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2eba0ac size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x2d5232c size 0x20 virtual false final false
   inline void _ctor();
 
   static inline ::JetBrains::Annotations::LocalizationRequiredAttribute* New_ctor(bool required);
 
-  /// @brief Method .ctor addr 0x2eba0cc size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2d5234c size 0x2c virtual false final false
   inline void _ctor(bool required);
 
-  /// @brief Method get_Required addr 0x2eba0f8 size 0x8 virtual false final false
+  /// @brief Method get_Required addr 0x2d52378 size 0x8 virtual false final false
   inline bool get_Required();
 
-  /// @brief Method set_Required addr 0x2eba100 size 0xc virtual false final false
+  /// @brief Method set_Required addr 0x2d52380 size 0xc virtual false final false
   inline void set_Required(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizationRequiredAttribute", modifiers: "&&", def_value: None }]
@@ -68,6 +68,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::LocalizationRequiredAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::LocalizationRequiredAttribute, ____Required_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::LocalizationRequiredAttribute);

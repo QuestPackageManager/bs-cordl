@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDeviceCommandDelegate)
+namespace System {
+class Object;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
 }
@@ -12,16 +15,13 @@ namespace System {
 class AsyncCallback;
 }
 namespace System {
-class IAsyncResult;
+template <typename T> struct Nullable_1;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
 }
 namespace System {
-class Object;
-}
-namespace System {
-template <typename T> struct Nullable_1;
+class IAsyncResult;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -33,25 +33,25 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate)
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6469))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6555))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputDeviceCommandDelegate*
 class CORDL_TYPE InputDeviceCommandDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2ae76c4 size 0x130 virtual false final false
+  /// @brief Method .ctor addr 0x296797c size 0x130 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2ae77f4 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2967aac size 0x14 virtual true final false
   inline ::System::Nullable_1<int64_t> Invoke(::UnityEngine::InputSystem::InputDevice* device, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command);
 
-  /// @brief Method BeginInvoke addr 0x2ae7808 size 0x28 virtual true final false
+  /// @brief Method BeginInvoke addr 0x2967ac0 size 0x28 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::InputSystem::InputDevice* device, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2ae7830 size 0x2c virtual true final false
+  /// @brief Method EndInvoke addr 0x2967ae8 size 0x2c virtual true final false
   inline ::System::Nullable_1<int64_t> EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "InputDeviceCommandDelegate", modifiers: "&&", def_value: None }]

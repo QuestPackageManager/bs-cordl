@@ -10,35 +10,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SaberBurnMarkArea)
-namespace UnityEngine {
-class Shader;
+namespace GlobalNamespace {
+class Saber;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-class SaberManager;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-class LineRenderer;
-}
-namespace GlobalNamespace {
-class ColorManager;
-}
-namespace UnityEngine {
-class Material;
 }
 namespace UnityEngine {
 class Renderer;
 }
 namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace UnityEngine {
 class Camera;
 }
+namespace UnityEngine {
+class RenderTexture;
+}
 namespace GlobalNamespace {
-class Saber;
+class ColorManager;
+}
+namespace UnityEngine {
+class LineRenderer;
+}
+namespace GlobalNamespace {
+class SaberManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,8 +50,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberBurnMarkArea);
 // SizeInfo { instance_size: 312, native_size: -1, calculated_instance_size: 312, calculated_native_size: 312, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10163)), TypeDefinitionIndex(TypeDefinitionIndex(15889))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4874))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(15781)), TypeDefinitionIndex(TypeDefinitionIndex(10091))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4992))
 // CS Name: ::SaberBurnMarkArea*
 class CORDL_TYPE SaberBurnMarkArea : public ::UnityEngine::MonoBehaviour {
 public:
@@ -236,30 +236,30 @@ public:
 
   constexpr void __set__fadeOutMaterial(::UnityEngine::Material* value);
 
-  /// @brief Method Start addr 0x239b0f0 size 0x8b8 virtual false final false
+  /// @brief Method Start addr 0x2266184 size 0x8b8 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x239b9a8 size 0x224 virtual false final false
+  /// @brief Method OnDestroy addr 0x2266a3c size 0x224 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable addr 0x239bbcc size 0x120 virtual false final false
+  /// @brief Method OnEnable addr 0x2266c60 size 0x120 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x239bcec size 0x120 virtual false final false
+  /// @brief Method OnDisable addr 0x2266d80 size 0x120 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method GetBurnMarkPos addr 0x239be0c size 0x244 virtual false final false
+  /// @brief Method GetBurnMarkPos addr 0x2266ea0 size 0x244 virtual false final false
   inline bool GetBurnMarkPos(::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ByRef<::UnityEngine::Vector3> burnMarkPos);
 
-  /// @brief Method WorldToCameraBurnMarkPos addr 0x239c050 size 0x100 virtual false final false
+  /// @brief Method WorldToCameraBurnMarkPos addr 0x22670e4 size 0x100 virtual false final false
   inline ::UnityEngine::Vector3 WorldToCameraBurnMarkPos(::UnityEngine::Vector3 pos);
 
-  /// @brief Method LateUpdate addr 0x239c150 size 0x6c0 virtual false final false
+  /// @brief Method LateUpdate addr 0x22671e4 size 0x6c0 virtual false final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberBurnMarkArea* New_ctor();
 
-  /// @brief Method .ctor addr 0x239c810 size 0x107c virtual false final false
+  /// @brief Method .ctor addr 0x22678a4 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberBurnMarkArea", modifiers: "&&", def_value: None }]
@@ -340,6 +340,46 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberBurnMarkArea, 0x138>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____saberBurnMarkLinePrefab) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____blackMarkLineRandomOffset) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____textureWidth) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____textureHeight) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____burnMarksFadeOutStrength) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____fadeOutShader) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____colorManager) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____saberManager) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____renderer) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____fadeOutStrengthShaderPropertyID) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____sabers) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____plane) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____prevBurnMarkPos) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____prevBurnMarkPosValid) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____lineRenderers) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____camera) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____linePoints) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____renderTextures) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____emitParams) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____fadeOutMaterial) == 0x130, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberBurnMarkArea);

@@ -10,14 +10,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WaypointsTestMenuViewController)
-namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace GlobalNamespace {
-class __WaypointsTestMenuViewController___CheckBeatmaps_d__14;
-}
 namespace UnityEngine::UI {
 class Button;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class BeatmapLevelSO;
+}
+namespace HMUI {
+class ButtonBinder;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
 }
 namespace Zenject {
 class DiContainer;
@@ -25,38 +34,26 @@ class DiContainer;
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class BeatmapLevelSO;
+class __WaypointsTestMenuViewController___CheckBeatmaps_d__13;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace HMUI {
-class ButtonBinder;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class ICoroutineStarter;
-}
-namespace System {
-class Object;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
@@ -69,20 +66,20 @@ namespace GlobalNamespace {
 class WaypointsTestMenuViewController;
 }
 namespace GlobalNamespace {
-class __WaypointsTestMenuViewController___CheckBeatmaps_d__14;
+class __WaypointsTestMenuViewController___CheckBeatmaps_d__13;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::WaypointsTestMenuViewController);
-MARK_REF_PTR_T(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__14);
-// Type: ::<CheckBeatmaps>d__14
+MARK_REF_PTR_T(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13);
+// Type: ::<CheckBeatmaps>d__13
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4241)), TypeDefinitionIndex(TypeDefinitionIndex(14717)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst:
-// 1689 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 284 }), TypeDefinitionIndex(TypeDefinitionIndex(4375)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3842), inst: 1688 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3998)) CS
-// Name: ::WaypointsTestMenuViewController::<CheckBeatmaps>d__14*
-class CORDL_TYPE __WaypointsTestMenuViewController___CheckBeatmaps_d__14 : public ::System::Object {
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3830), inst: 1622 }), TypeDefinitionIndex(TypeDefinitionIndex(2611)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3830), inst: 285 }), TypeDefinitionIndex(TypeDefinitionIndex(14934)), TypeDefinitionIndex(TypeDefinitionIndex(3830)), TypeDefinitionIndex(TypeDefinitionIndex(4397)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3830), inst: 1621 }), TypeDefinitionIndex(TypeDefinitionIndex(4273))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3984)) CS
+// Name: ::WaypointsTestMenuViewController::<CheckBeatmaps>d__13*
+class CORDL_TYPE __WaypointsTestMenuViewController___CheckBeatmaps_d__13 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
@@ -207,47 +204,47 @@ public:
 
   constexpr void __set__difficulty_5__9(::GlobalNamespace::BeatmapDifficulty value);
 
-  static inline ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__14* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x221f408 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x20be420 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x221f5d4 size 0x154 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x20be5c8 size 0x154 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x221f728 size 0xa70 virtual true final true
+  /// @brief Method MoveNext addr 0x20be71c size 0xa64 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1 addr 0x2220238 size 0x50 virtual false final false
+  /// @brief Method <>m__Finally1 addr 0x20bf220 size 0x50 virtual false final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2 addr 0x22201e8 size 0x50 virtual false final false
+  /// @brief Method <>m__Finally2 addr 0x20bf1d0 size 0x50 virtual false final false
   inline void __m__Finally2();
 
-  /// @brief Method <>m__Finally3 addr 0x2220198 size 0x50 virtual false final false
+  /// @brief Method <>m__Finally3 addr 0x20bf180 size 0x50 virtual false final false
   inline void __m__Finally3();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2220288 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x20bf270 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2220290 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x20bf278 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x22202d0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x20bf2b8 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__WaypointsTestMenuViewController___CheckBeatmaps_d__14", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__WaypointsTestMenuViewController___CheckBeatmaps_d__13", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __WaypointsTestMenuViewController___CheckBeatmaps_d__14(__WaypointsTestMenuViewController___CheckBeatmaps_d__14&&) = delete;
+  __WaypointsTestMenuViewController___CheckBeatmaps_d__13(__WaypointsTestMenuViewController___CheckBeatmaps_d__13&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__WaypointsTestMenuViewController___CheckBeatmaps_d__14", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__WaypointsTestMenuViewController___CheckBeatmaps_d__13", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __WaypointsTestMenuViewController___CheckBeatmaps_d__14(__WaypointsTestMenuViewController___CheckBeatmaps_d__14 const&) = delete;
+  __WaypointsTestMenuViewController___CheckBeatmaps_d__13(__WaypointsTestMenuViewController___CheckBeatmaps_d__13 const&) = delete;
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __WaypointsTestMenuViewController___CheckBeatmaps_d__14();
+  constexpr __WaypointsTestMenuViewController___CheckBeatmaps_d__13();
 
 public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
@@ -289,20 +286,44 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__14, 0xa0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13, ___levels) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13, ____count_5__2) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13, ____difficultiesToCheck_5__3) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13, _____7__wrap3) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13, ____level_5__5) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13, _____7__wrap5) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13, ____characteristic_5__7) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13, _____7__wrap7) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13, ____difficulty_5__9) == 0x98, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::WaypointsTestMenuViewController
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 106, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 98, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3999))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3985))
 // CS Name: ::WaypointsTestMenuViewController*
 class CORDL_TYPE WaypointsTestMenuViewController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _CheckBeatmaps_d__14 = ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__14;
+  using _CheckBeatmaps_d__13 = ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13;
 
   /// @brief Field _btsButton, offset 0x18, size 0x8
   __declspec(property(get = __get__btsButton, put = __set__btsButton))::UnityEngine::UI::Button* _btsButton;
@@ -329,16 +350,13 @@ public:
   /// @brief Field _playerDataModel, offset 0x50, size 0x8
   __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
 
-  /// @brief Field _coroutineStarter, offset 0x58, size 0x8
-  __declspec(property(get = __get__coroutineStarter, put = __set__coroutineStarter))::GlobalNamespace::ICoroutineStarter* _coroutineStarter;
-
-  /// @brief Field _buttonBinder, offset 0x60, size 0x8
+  /// @brief Field _buttonBinder, offset 0x58, size 0x8
   __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
-  /// @brief Field _isCancelled, offset 0x68, size 0x1
+  /// @brief Field _isCancelled, offset 0x60, size 0x1
   __declspec(property(get = __get__isCancelled, put = __set__isCancelled)) bool _isCancelled;
 
-  /// @brief Field _waitingForLevelFinish, offset 0x69, size 0x1
+  /// @brief Field _waitingForLevelFinish, offset 0x61, size 0x1
   __declspec(property(get = __get__waitingForLevelFinish, put = __set__waitingForLevelFinish)) bool _waitingForLevelFinish;
 
   constexpr ::UnityEngine::UI::Button*& __get__btsButton();
@@ -389,12 +407,6 @@ public:
 
   constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
 
-  constexpr ::GlobalNamespace::ICoroutineStarter*& __get__coroutineStarter();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& __get__coroutineStarter() const;
-
-  constexpr void __set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
-
   constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
@@ -413,31 +425,31 @@ public:
 
   constexpr void __set__waitingForLevelFinish(bool value);
 
-  /// @brief Method Start addr 0x221f158 size 0x158 virtual false final false
+  /// @brief Method Start addr 0x20be170 size 0x158 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x221f2b0 size 0xe4 virtual false final false
+  /// @brief Method OnDestroy addr 0x20be2c8 size 0xe4 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method CheckBeatmaps addr 0x221f394 size 0x74 virtual false final false
+  /// @brief Method CheckBeatmaps addr 0x20be3ac size 0x74 virtual false final false
   inline ::System::Collections::IEnumerator* CheckBeatmaps(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO*>* levels);
 
-  /// @brief Method HandleMainGameSceneDidFinish addr 0x221f430 size 0x94 virtual false final false
+  /// @brief Method HandleMainGameSceneDidFinish addr 0x20be448 size 0x94 virtual false final false
   inline void HandleMainGameSceneDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* data, ::GlobalNamespace::LevelCompletionResults* results);
 
   static inline ::GlobalNamespace::WaypointsTestMenuViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x221f4c4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20be4dc size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Start>b__12_0 addr 0x221f4cc size 0xb4 virtual false final false
-  inline void _Start_b__12_0();
+  /// @brief Method <Start>b__11_0 addr 0x20be4e4 size 0x90 virtual false final false
+  inline void _Start_b__11_0();
 
-  /// @brief Method <Start>b__12_1 addr 0x221f580 size 0x4c virtual false final false
-  inline void _Start_b__12_1();
+  /// @brief Method <Start>b__11_1 addr 0x20be574 size 0x4c virtual false final false
+  inline void _Start_b__11_1();
 
-  /// @brief Method <HandleMainGameSceneDidFinish>b__15_0 addr 0x221f5cc size 0x8 virtual false final false
-  inline void _HandleMainGameSceneDidFinish_b__15_0(::Zenject::DiContainer* container);
+  /// @brief Method <HandleMainGameSceneDidFinish>b__14_0 addr 0x20be5c0 size 0x8 virtual false final false
+  inline void _HandleMainGameSceneDidFinish_b__14_0(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "WaypointsTestMenuViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -477,25 +489,44 @@ public:
   /// @brief Field _playerDataModel, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
 
-  /// @brief Field _coroutineStarter, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;
-
-  /// @brief Field _buttonBinder, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _buttonBinder, offset: 0x58, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
 
-  /// @brief Field _isCancelled, offset: 0x68, size: 0x1, def value: None
+  /// @brief Field _isCancelled, offset: 0x60, size: 0x1, def value: None
   bool ____isCancelled;
 
-  /// @brief Field _waitingForLevelFinish, offset: 0x69, size: 0x1, def value: None
+  /// @brief Field _waitingForLevelFinish, offset: 0x61, size: 0x1, def value: None
   bool ____waitingForLevelFinish;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::WaypointsTestMenuViewController, 0x70>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::WaypointsTestMenuViewController, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController, ____btsButton) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController, ____cancelButton) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController, ____progressText) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController, ____waypointsTestScenesTransitionSetupData) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController, ____levels) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController, ____characteristics) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController, ____gameScenesManager) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController, ____playerDataModel) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController, ____buttonBinder) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController, ____isCancelled) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::WaypointsTestMenuViewController, ____waitingForLevelFinish) == 0x61, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::WaypointsTestMenuViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::WaypointsTestMenuViewController*, "", "WaypointsTestMenuViewController");
-NEED_NO_BOX(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__14);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__14*, "", "WaypointsTestMenuViewController/<CheckBeatmaps>d__14");
+NEED_NO_BOX(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__13*, "", "WaypointsTestMenuViewController/<CheckBeatmaps>d__13");

@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatmapObjectAvoidancePathEvaluator)
 namespace GlobalNamespace {
-class IAudioTimeSource;
+class BezierSplineEvaluator;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-class BezierSplineEvaluator;
+class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class PlayerTransforms;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3957))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3943))
 // CS Name: ::BeatmapObjectAvoidancePathEvaluator*
 class CORDL_TYPE BeatmapObjectAvoidancePathEvaluator : public ::System::Object {
 public:
@@ -118,11 +118,11 @@ public:
                                                                                  ::GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator, float_t jumpStartZ, float_t jumpEndZ,
                                                                                  float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam);
 
-  /// @brief Method .ctor addr 0x2217174 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x20b618c size 0x78 virtual false final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::PlayerTransforms* playerTransforms, ::GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator,
                     float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam);
 
-  /// @brief Method GetCurrentPathPosition addr 0x22171ec size 0x104 virtual false final false
+  /// @brief Method GetCurrentPathPosition addr 0x20b6204 size 0x104 virtual false final false
   inline ::UnityEngine::Vector3 GetCurrentPathPosition();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectAvoidancePathEvaluator", modifiers: "&&", def_value: None }]
@@ -170,6 +170,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator, ____jumpStartZ) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator, ____jumpEndZ) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator, ____zOffset) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator, ____yOffset) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator, ____noteJumpSpeed) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator, ____moveToPlayerHeadTParam) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator, ____pathBezierCurveEvaluator) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator, ____audioTimeSource) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator, ____playerTransforms) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator);

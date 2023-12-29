@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(PrivacyPolicyViewController)
 namespace GlobalNamespace {
 class LocalizedTextAsset;
 }
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+struct __PrivacyPolicyViewController__ButtonType;
+}
 namespace HMUI {
 class TextPageScrollView;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-struct __PrivacyPolicyViewController__ButtonType;
-}
-namespace UnityEngine::UI {
-class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PrivacyPolicyViewController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5733))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5833))
 // CS Name: ::PrivacyPolicyViewController::ButtonType
 struct CORDL_TYPE __PrivacyPolicyViewController__ButtonType {
 public:
@@ -75,13 +75,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PrivacyPolicyViewController__ButtonType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::PrivacyPolicyViewController
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 162, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 170, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5734))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5834))
 // CS Name: ::PrivacyPolicyViewController*
 class CORDL_TYPE PrivacyPolicyViewController : public ::HMUI::ViewController {
 public:
@@ -100,16 +102,19 @@ public:
   /// @brief Field _privacyPolicyLocalizedTextAsset, offset 0x88, size 0x8
   __declspec(property(get = __get__privacyPolicyLocalizedTextAsset, put = __set__privacyPolicyLocalizedTextAsset))::GlobalNamespace::LocalizedTextAsset* _privacyPolicyLocalizedTextAsset;
 
-  /// @brief Field _updateNoticeLocalizationKey, offset 0x90, size 0x8
+  /// @brief Field _defaultPrivacyPolicyHeaderLocalizationKey, offset 0x90, size 0x8
+  __declspec(property(get = __get__defaultPrivacyPolicyHeaderLocalizationKey, put = __set__defaultPrivacyPolicyHeaderLocalizationKey))::StringW _defaultPrivacyPolicyHeaderLocalizationKey;
+
+  /// @brief Field _updateNoticeLocalizationKey, offset 0x98, size 0x8
   __declspec(property(get = __get__updateNoticeLocalizationKey, put = __set__updateNoticeLocalizationKey))::StringW _updateNoticeLocalizationKey;
 
-  /// @brief Field didFinishEvent, offset 0x98, size 0x8
+  /// @brief Field didFinishEvent, offset 0xa0, size 0x8
   __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>* didFinishEvent;
 
-  /// @brief Field _showUpdate, offset 0xa0, size 0x1
+  /// @brief Field _showUpdate, offset 0xa8, size 0x1
   __declspec(property(get = __get__showUpdate, put = __set__showUpdate)) bool _showUpdate;
 
-  /// @brief Field _showIAcceptPrompt, offset 0xa1, size 0x1
+  /// @brief Field _showIAcceptPrompt, offset 0xa9, size 0x1
   __declspec(property(get = __get__showIAcceptPrompt, put = __set__showIAcceptPrompt)) bool _showIAcceptPrompt;
 
   constexpr ::UnityEngine::UI::Button*& __get__okButton();
@@ -136,6 +141,12 @@ public:
 
   constexpr void __set__privacyPolicyLocalizedTextAsset(::GlobalNamespace::LocalizedTextAsset* value);
 
+  constexpr ::StringW& __get__defaultPrivacyPolicyHeaderLocalizationKey();
+
+  constexpr ::StringW const& __get__defaultPrivacyPolicyHeaderLocalizationKey() const;
+
+  constexpr void __set__defaultPrivacyPolicyHeaderLocalizationKey(::StringW value);
+
   constexpr ::StringW& __get__updateNoticeLocalizationKey();
 
   constexpr ::StringW const& __get__updateNoticeLocalizationKey() const;
@@ -160,28 +171,28 @@ public:
 
   constexpr void __set__showIAcceptPrompt(bool value);
 
-  /// @brief Method add_didFinishEvent addr 0x22d573c size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent addr 0x2192958 size 0xb0 virtual false final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x22d57ec size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent addr 0x2192a08 size 0xb0 virtual false final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>* value);
 
-  /// @brief Method DidActivate addr 0x22d589c size 0x1dc virtual true final false
+  /// @brief Method DidActivate addr 0x2192ab8 size 0x1dc virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method Init addr 0x22d5a78 size 0x14 virtual false final false
+  /// @brief Method Init addr 0x2192c94 size 0x14 virtual false final false
   inline void Init(bool showUpdate, bool showIAcceptPrompt);
 
   static inline ::GlobalNamespace::PrivacyPolicyViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22d5a8c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2192ca8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__11_0 addr 0x22d5a94 size 0x20 virtual false final false
-  inline void _DidActivate_b__11_0();
+  /// @brief Method <DidActivate>b__12_0 addr 0x2192cb0 size 0x20 virtual false final false
+  inline void _DidActivate_b__12_0();
 
-  /// @brief Method <DidActivate>b__11_1 addr 0x22d5ab4 size 0x20 virtual false final false
-  inline void _DidActivate_b__11_1();
+  /// @brief Method <DidActivate>b__12_1 addr 0x2192cd0 size 0x20 virtual false final false
+  inline void _DidActivate_b__12_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "PrivacyPolicyViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -209,22 +220,43 @@ public:
   /// @brief Field _privacyPolicyLocalizedTextAsset, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::LocalizedTextAsset* ____privacyPolicyLocalizedTextAsset;
 
-  /// @brief Field _updateNoticeLocalizationKey, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _defaultPrivacyPolicyHeaderLocalizationKey, offset: 0x90, size: 0x8, def value: None
+  ::StringW ____defaultPrivacyPolicyHeaderLocalizationKey;
+
+  /// @brief Field _updateNoticeLocalizationKey, offset: 0x98, size: 0x8, def value: None
   ::StringW ____updateNoticeLocalizationKey;
 
-  /// @brief Field didFinishEvent, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0xa0, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>* ___didFinishEvent;
 
-  /// @brief Field _showUpdate, offset: 0xa0, size: 0x1, def value: None
+  /// @brief Field _showUpdate, offset: 0xa8, size: 0x1, def value: None
   bool ____showUpdate;
 
-  /// @brief Field _showIAcceptPrompt, offset: 0xa1, size: 0x1, def value: None
+  /// @brief Field _showIAcceptPrompt, offset: 0xa9, size: 0x1, def value: None
   bool ____showIAcceptPrompt;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PrivacyPolicyViewController, 0xa8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PrivacyPolicyViewController, 0xb0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrivacyPolicyViewController, ____okButton) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrivacyPolicyViewController, ____iAcceptButton) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrivacyPolicyViewController, ____textPageScrollView) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrivacyPolicyViewController, ____privacyPolicyLocalizedTextAsset) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrivacyPolicyViewController, ____defaultPrivacyPolicyHeaderLocalizationKey) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrivacyPolicyViewController, ____updateNoticeLocalizationKey) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrivacyPolicyViewController, ___didFinishEvent) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrivacyPolicyViewController, ____showUpdate) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrivacyPolicyViewController, ____showIAcceptPrompt) == 0xa9, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PrivacyPolicyViewController__ButtonType, "", "PrivacyPolicyViewController/ButtonType");

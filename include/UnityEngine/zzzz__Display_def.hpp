@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Display)
 namespace UnityEngine {
-class __Display__DisplaysUpdatedDelegate;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+class __Display__DisplaysUpdatedDelegate;
 }
 namespace System {
 class Object;
@@ -32,18 +32,18 @@ MARK_REF_PTR_T(::UnityEngine::__Display__DisplaysUpdatedDelegate);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10128))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10056))
 // CS Name: ::Display::DisplaysUpdatedDelegate*
 class CORDL_TYPE __Display__DisplaysUpdatedDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::__Display__DisplaysUpdatedDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2cc38e4 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x2b5d4cc size 0xbc virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2cc39a0 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2b5d588 size 0x14 virtual true final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Display__DisplaysUpdatedDelegate", modifiers: "&&", def_value: None }]
@@ -70,8 +70,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__Display__Displays
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10129))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10057))
 // CS Name: ::UnityEngine::Display*
 class CORDL_TYPE Display : public ::System::Object {
 public:
@@ -125,45 +125,45 @@ public:
 
   static inline ::UnityEngine::Display* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cc3114 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x2b5ccfc size 0x3c virtual false final false
   inline void _ctor();
 
   static inline ::UnityEngine::Display* New_ctor(void* nativeDisplay);
 
-  /// @brief Method .ctor addr 0x2cc3150 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2b5cd38 size 0x28 virtual false final false
   inline void _ctor(void* nativeDisplay);
 
-  /// @brief Method get_renderingWidth addr 0x2cc3178 size 0x94 virtual false final false
+  /// @brief Method get_renderingWidth addr 0x2b5cd60 size 0x94 virtual false final false
   inline int32_t get_renderingWidth();
 
-  /// @brief Method get_renderingHeight addr 0x2cc3260 size 0x94 virtual false final false
+  /// @brief Method get_renderingHeight addr 0x2b5ce48 size 0x94 virtual false final false
   inline int32_t get_renderingHeight();
 
-  /// @brief Method get_systemWidth addr 0x2cc32f4 size 0x94 virtual false final false
+  /// @brief Method get_systemWidth addr 0x2b5cedc size 0x94 virtual false final false
   inline int32_t get_systemWidth();
 
-  /// @brief Method get_systemHeight addr 0x2cc33dc size 0x94 virtual false final false
+  /// @brief Method get_systemHeight addr 0x2b5cfc4 size 0x94 virtual false final false
   inline int32_t get_systemHeight();
 
-  /// @brief Method RelativeMouseAt addr 0x2cc3470 size 0xd0 virtual false final false
+  /// @brief Method RelativeMouseAt addr 0x2b5d058 size 0xd0 virtual false final false
   static inline ::UnityEngine::Vector3 RelativeMouseAt(::UnityEngine::Vector3 inputMouseCoordinates);
 
-  /// @brief Method get_main addr 0x2cc359c size 0x58 virtual false final false
+  /// @brief Method get_main addr 0x2b5d184 size 0x58 virtual false final false
   static inline ::UnityEngine::Display* get_main();
 
-  /// @brief Method RecreateDisplayList addr 0x2cc35f4 size 0x14c virtual false final false
+  /// @brief Method RecreateDisplayList addr 0x2b5d1dc size 0x14c virtual false final false
   static inline void RecreateDisplayList(::ArrayW<void*, ::Array<void*>*> nativeDisplay);
 
-  /// @brief Method FireDisplaysUpdated addr 0x2cc3740 size 0x94 virtual false final false
+  /// @brief Method FireDisplaysUpdated addr 0x2b5d328 size 0x94 virtual false final false
   static inline void FireDisplaysUpdated();
 
-  /// @brief Method GetSystemExtImpl addr 0x2cc3388 size 0x54 virtual false final false
+  /// @brief Method GetSystemExtImpl addr 0x2b5cf70 size 0x54 virtual false final false
   static inline void GetSystemExtImpl(void* nativeDisplay, ByRef<int32_t> w, ByRef<int32_t> h);
 
-  /// @brief Method GetRenderingExtImpl addr 0x2cc320c size 0x54 virtual false final false
+  /// @brief Method GetRenderingExtImpl addr 0x2b5cdf4 size 0x54 virtual false final false
   static inline void GetRenderingExtImpl(void* nativeDisplay, ByRef<int32_t> w, ByRef<int32_t> h);
 
-  /// @brief Method RelativeMouseAtImpl addr 0x2cc3540 size 0x5c virtual false final false
+  /// @brief Method RelativeMouseAtImpl addr 0x2b5d128 size 0x5c virtual false final false
   static inline int32_t RelativeMouseAtImpl(int32_t x, int32_t y, ByRef<int32_t> rx, ByRef<int32_t> ry);
 
   // Ctor Parameters [CppParam { name: "", ty: "Display", modifiers: "&&", def_value: None }]
@@ -187,6 +187,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Display, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Display, ___nativeDisplay) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::Display);

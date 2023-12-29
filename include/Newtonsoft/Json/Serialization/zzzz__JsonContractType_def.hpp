@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Serialization::JsonContractType);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11936))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11864))
 // CS Name: ::Newtonsoft.Json.Serialization::JsonContractType
 struct CORDL_TYPE JsonContractType {
 public:
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::JsonContractType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonContractType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::JsonContractType, "Newtonsoft.Json.Serialization", "JsonContractType");

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::Compression::CompressionMode);
 namespace System::IO::Compression {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9546))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8382))
 // CS Name: ::System.IO.Compression::CompressionMode
 struct CORDL_TYPE CompressionMode {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::Compression::CompressionMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::IO::Compression::CompressionMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::IO::Compression
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::Compression::CompressionMode, "System.IO.Compression", "CompressionMode");

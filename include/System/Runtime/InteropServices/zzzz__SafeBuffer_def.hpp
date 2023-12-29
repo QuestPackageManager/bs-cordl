@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::SafeBuffer);
 // SizeInfo { instance_size: 40, native_size: 8, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2301)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3309))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2301)), TypeDefinitionIndex(TypeDefinitionIndex(2636))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3306))
 // CS Name: ::System.Runtime.InteropServices::SafeBuffer*
 class CORDL_TYPE SafeBuffer : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 public:
@@ -42,13 +42,13 @@ public:
 
   static inline void* getStaticF_Uninitialized();
 
-  /// @brief Method AcquirePointer addr 0x24d6c00 size 0x108 virtual false final false
+  /// @brief Method AcquirePointer addr 0x237dd18 size 0x108 virtual false final false
   inline void AcquirePointer(ByRef<::cordl_internals::Ptr<uint8_t>> pointer);
 
-  /// @brief Method ReleasePointer addr 0x24d6e4c size 0xdc virtual false final false
+  /// @brief Method ReleasePointer addr 0x237df64 size 0xdc virtual false final false
   inline void ReleasePointer();
 
-  /// @brief Method NotInitialized addr 0x24d6d08 size 0x74 virtual false final false
+  /// @brief Method NotInitialized addr 0x237de20 size 0x74 virtual false final false
   static inline ::System::InvalidOperationException* NotInitialized();
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeBuffer", modifiers: "&&", def_value: None }]
@@ -72,6 +72,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::SafeBuffer, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::SafeBuffer, ____numBytes) == 0x20, "Offset mismatch!");
 
 } // namespace System::Runtime::InteropServices
 NEED_NO_BOX(::System::Runtime::InteropServices::SafeBuffer);

@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithProductList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13474)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 4606 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13317)) CS Name: ::Oculus.Platform::MessageWithProductList*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13269)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst: 4512 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13530))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13334)) CS Name: ::Oculus.Platform::MessageWithProductList*
 class CORDL_TYPE MessageWithProductList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ProductList*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithProductList* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x26ef660 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x259376c size 0x58 virtual false final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetProductList addr 0x26f3528 size 0x3c virtual true final false
+  /// @brief Method GetProductList addr 0x2597a8c size 0x3c virtual true final false
   inline ::Oculus::Platform::Models::ProductList* GetProductList();
 
-  /// @brief Method GetDataFromMessage addr 0x26f3564 size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage addr 0x2597ac8 size 0x9c virtual true final false
   inline ::Oculus::Platform::Models::ProductList* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithProductList", modifiers: "&&", def_value: None }]

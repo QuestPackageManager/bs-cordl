@@ -10,32 +10,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileSystemEnumerator_1)
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace System {
-class Object;
+namespace System::IO {
+class EnumerationOptions;
 }
 namespace System::IO::Enumeration {
 struct FileSystemEntry;
 }
-namespace GlobalNamespace {
-struct __Interop__ErrorInfo;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::IO {
-class EnumerationOptions;
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
+namespace GlobalNamespace {
+struct __Interop__ErrorInfo;
 }
 // Forward declare root types
 namespace System::IO::Enumeration {
@@ -49,8 +49,8 @@ namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3354)), TypeDefinitionIndex(TypeDefinitionIndex(2214)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3655))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3350)), TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(2214))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3643))
 // CS Name: ::System.IO.Enumeration::FileSystemEnumerator`1<TResult>*
 class CORDL_TYPE FileSystemEnumerator_1 : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:

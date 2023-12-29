@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ISynchronizeInvoke)
 namespace System {
-class Delegate;
-}
-namespace System {
 class Object;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class Delegate;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::ComponentModel::ISynchronizeInvoke);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9398))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8235))
 // CS Name: ::System.ComponentModel::ISynchronizeInvoke*
 class CORDL_TYPE ISynchronizeInvoke {
 public:

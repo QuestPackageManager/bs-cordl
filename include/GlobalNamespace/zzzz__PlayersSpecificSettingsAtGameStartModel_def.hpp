@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PlayersSpecificSettingsAtGameStartModel)
-namespace GlobalNamespace {
-class __PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettingsAtStartNetSerializable;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class __PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__PlayersSpecificSettingsAtGameStartModel____c
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12928))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12849))
 // CS Name: ::PlayersSpecificSettingsAtGameStartModel::<>c__DisplayClass13_0*
 class CORDL_TYPE __PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0 : public ::System::Object {
 public:
@@ -54,10 +54,10 @@ public:
 
   static inline ::GlobalNamespace::__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method .ctor addr 0xe52fc0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdcdfe0 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <SaveFromNetSerializable>b__0 addr 0xe52fc8 size 0x11c virtual false final false
+  /// @brief Method <SaveFromNetSerializable>b__0 addr 0xdcdfe8 size 0x11c virtual false final false
   inline bool _SaveFromNetSerializable_b__0(::GlobalNamespace::IConnectedPlayer* p);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0", modifiers: "&&", def_value: None }]
@@ -82,13 +82,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0, ___player) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::PlayersSpecificSettingsAtGameStartModel
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12929))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12850))
 // CS Name: ::PlayersSpecificSettingsAtGameStartModel*
 class CORDL_TYPE PlayersSpecificSettingsAtGameStartModel : public ::System::Object {
 public:
@@ -132,31 +134,31 @@ public:
 
   constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method get_playersAtGameStart addr 0xe52770 size 0x18 virtual false final false
+  /// @brief Method get_playersAtGameStart addr 0xdcd790 size 0x18 virtual false final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* get_playersAtGameStart();
 
-  /// @brief Method get_localPlayerSpecificSettings addr 0xe52788 size 0x8 virtual false final false
+  /// @brief Method get_localPlayerSpecificSettings addr 0xdcd7a8 size 0x8 virtual false final false
   inline ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* get_localPlayerSpecificSettings();
 
-  /// @brief Method set_localPlayerSpecificSettings addr 0xe52790 size 0x8 virtual false final false
+  /// @brief Method set_localPlayerSpecificSettings addr 0xdcd7b0 size 0x8 virtual false final false
   inline void set_localPlayerSpecificSettings(::GlobalNamespace::PlayerSpecificSettingsNetSerializable* value);
 
-  /// @brief Method get_playersAtGameStartNetSerializable addr 0xe52798 size 0x8 virtual false final false
+  /// @brief Method get_playersAtGameStartNetSerializable addr 0xdcd7b8 size 0x8 virtual false final false
   inline ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* get_playersAtGameStartNetSerializable();
 
-  /// @brief Method set_playersAtGameStartNetSerializable addr 0xe527a0 size 0x8 virtual false final false
+  /// @brief Method set_playersAtGameStartNetSerializable addr 0xdcd7c0 size 0x8 virtual false final false
   inline void set_playersAtGameStartNetSerializable(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* value);
 
   static inline ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                                      ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* localPlayerSpecificSettings);
 
-  /// @brief Method .ctor addr 0xe527a8 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0xdcd7c8 size 0x84 virtual false final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* localPlayerSpecificSettings);
 
-  /// @brief Method GetPlayerSpecificSettingsForUserId addr 0xe5282c size 0x3a8 virtual false final false
+  /// @brief Method GetPlayerSpecificSettingsForUserId addr 0xdcd84c size 0x3a8 virtual false final false
   inline ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* GetPlayerSpecificSettingsForUserId(::StringW userId);
 
-  /// @brief Method SaveFromNetSerializable addr 0xe52bd4 size 0x3ec virtual false final false
+  /// @brief Method SaveFromNetSerializable addr 0xdcdbf4 size 0x3ec virtual false final false
   inline void SaveFromNetSerializable(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayersSpecificSettingsAtGameStartModel", modifiers: "&&", def_value: None }]
@@ -186,6 +188,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel, ____localPlayerSpecificSettings_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel, ____playersAtGameStartNetSerializable_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel, ____multiplayerSessionManager) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel);

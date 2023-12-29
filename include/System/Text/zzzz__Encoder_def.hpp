@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Text::Encoder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2838))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2834))
 // CS Name: ::System.Text::Encoder*
 class CORDL_TYPE Encoder : public ::System::Object {
 public:
@@ -55,38 +55,38 @@ public:
 
   static inline ::System::Text::Encoder* New_ctor();
 
-  /// @brief Method .ctor addr 0x2632a14 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24d8908 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_Fallback addr 0x2632a1c size 0x8 virtual false final false
+  /// @brief Method get_Fallback addr 0x24d8910 size 0x8 virtual false final false
   inline ::System::Text::EncoderFallback* get_Fallback();
 
-  /// @brief Method get_FallbackBuffer addr 0x262f3b8 size 0x3c virtual false final false
+  /// @brief Method get_FallbackBuffer addr 0x24d52ac size 0x3c virtual false final false
   inline ::System::Text::EncoderFallbackBuffer* get_FallbackBuffer();
 
-  /// @brief Method get_InternalHasFallbackBuffer addr 0x262f3a8 size 0x10 virtual false final false
+  /// @brief Method get_InternalHasFallbackBuffer addr 0x24d529c size 0x10 virtual false final false
   inline bool get_InternalHasFallbackBuffer();
 
-  /// @brief Method Reset addr 0x2632a24 size 0xe4 virtual true final false
+  /// @brief Method Reset addr 0x24d8918 size 0xe4 virtual true final false
   inline void Reset();
 
   /// @brief Method GetByteCount addr 0x0 size 0xffffffffffffffff virtual true final false
   inline int32_t GetByteCount(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count, bool flush);
 
-  /// @brief Method GetByteCount addr 0x2632b08 size 0x16c virtual true final false
+  /// @brief Method GetByteCount addr 0x24d89fc size 0x16c virtual true final false
   inline int32_t GetByteCount(::cordl_internals::Ptr<char16_t> chars, int32_t count, bool flush);
 
   /// @brief Method GetBytes addr 0x0 size 0xffffffffffffffff virtual true final false
   inline int32_t GetBytes(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, bool flush);
 
-  /// @brief Method GetBytes addr 0x2632c74 size 0x218 virtual true final false
+  /// @brief Method GetBytes addr 0x24d8b68 size 0x218 virtual true final false
   inline int32_t GetBytes(::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, bool flush);
 
-  /// @brief Method Convert addr 0x2632e8c size 0x2f8 virtual true final false
+  /// @brief Method Convert addr 0x24d8d80 size 0x2f8 virtual true final false
   inline void Convert(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, bool flush,
                       ByRef<int32_t> charsUsed, ByRef<int32_t> bytesUsed, ByRef<bool> completed);
 
-  /// @brief Method Convert addr 0x2633184 size 0x22c virtual true final false
+  /// @brief Method Convert addr 0x24d9078 size 0x22c virtual true final false
   inline void Convert(::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, bool flush, ByRef<int32_t> charsUsed,
                       ByRef<int32_t> bytesUsed, ByRef<bool> completed);
 
@@ -114,6 +114,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::Encoder, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Text::Encoder, ____fallback) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::Encoder, ____fallbackBuffer) == 0x18, "Offset mismatch!");
 
 } // namespace System::Text
 NEED_NO_BOX(::System::Text::Encoder);

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::Collision2D);
 // SizeInfo { instance_size: 64, native_size: 48, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15932))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15824))
 // CS Name: ::UnityEngine::Collision2D*
 class CORDL_TYPE Collision2D : public ::System::Object {
 public:
@@ -152,6 +152,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Collision2D, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Collision2D, ___m_Collider) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Collision2D, ___m_OtherCollider) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Collision2D, ___m_Rigidbody) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Collision2D, ___m_OtherRigidbody) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Collision2D, ___m_RelativeVelocity) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Collision2D, ___m_Enabled) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Collision2D, ___m_ContactCount) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Collision2D, ___m_ReusedContacts) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Collision2D, ___m_LegacyContacts) == 0x38, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::Collision2D);

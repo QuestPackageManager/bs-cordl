@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::PermissionType);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13347))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13375))
 // CS Name: ::Oculus.Platform::PermissionType
 struct CORDL_TYPE PermissionType {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::PermissionType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::PermissionType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::PermissionType, "Oculus.Platform", "PermissionType");

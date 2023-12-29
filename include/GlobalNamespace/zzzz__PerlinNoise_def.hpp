@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PerlinNoise);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14375))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13878))
 // CS Name: ::PerlinNoise*
 class CORDL_TYPE PerlinNoise : public ::System::Object {
 public:
@@ -37,27 +37,27 @@ public:
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_p();
 
-  /// @brief Method OctavePerlin3D addr 0x20f32c0 size 0xdc virtual false final false
+  /// @brief Method OctavePerlin3D addr 0x1f97900 size 0xdc virtual false final false
   static inline float_t OctavePerlin3D(float_t x, float_t y, float_t z, int32_t octaves, float_t persistence, int32_t repeat);
 
-  /// @brief Method Perlin3D addr 0x20f339c size 0x538 virtual false final false
+  /// @brief Method Perlin3D addr 0x1f979dc size 0x538 virtual false final false
   static inline float_t Perlin3D(float_t x, float_t y, float_t z, int32_t repeat);
 
-  /// @brief Method Inc addr 0x20f3900 size 0x18 virtual false final false
+  /// @brief Method Inc addr 0x1f97f40 size 0x18 virtual false final false
   static inline int32_t Inc(int32_t num, int32_t repeat);
 
-  /// @brief Method Grad3D addr 0x20f3918 size 0x74 virtual false final false
+  /// @brief Method Grad3D addr 0x1f97f58 size 0x74 virtual false final false
   static inline float_t Grad3D(int32_t hash, float_t x, float_t y, float_t z);
 
-  /// @brief Method Fade addr 0x20f38d4 size 0x2c virtual false final false
+  /// @brief Method Fade addr 0x1f97f14 size 0x2c virtual false final false
   static inline float_t Fade(float_t t);
 
-  /// @brief Method Lerp addr 0x20f398c size 0x10 virtual false final false
+  /// @brief Method Lerp addr 0x1f97fcc size 0x10 virtual false final false
   static inline float_t Lerp(float_t a, float_t b, float_t x);
 
   static inline ::GlobalNamespace::PerlinNoise* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f399c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1f97fdc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PerlinNoise", modifiers: "&&", def_value: None }]

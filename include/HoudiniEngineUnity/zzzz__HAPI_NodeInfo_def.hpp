@@ -19,8 +19,8 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_NodeInfo);
 // SizeInfo { instance_size: 68, native_size: 68, calculated_instance_size: 68, calculated_native_size: 82, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9700))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9733))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9627))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9660))
 // CS Name: ::HoudiniEngineUnity::HAPI_NodeInfo
 struct CORDL_TYPE HAPI_NodeInfo {
 public:
@@ -102,6 +102,42 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_NodeInfo, 0x44>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, id) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, parentId) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, nameSH) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, type) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, isValid) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, totalCookCount) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, uniqueHoudiniNodeId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, internalNodePathSH) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, parmCount) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, parmIntValueCount) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, parmFloatValueCount) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, parmStringValueCount) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, parmChoiceCount) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, childNodeCount) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, inputCount) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, outputCount) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, createdPostAssetLoad) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, isTimeDependent) == 0x41, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_NodeInfo, "HoudiniEngineUnity", "HAPI_NodeInfo");

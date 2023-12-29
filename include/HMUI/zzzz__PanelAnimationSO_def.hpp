@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PanelAnimationSO)
-namespace System {
-class Action;
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace UnityEngine {
 class CanvasGroup;
 }
 namespace UnityEngine {
-class AnimationCurve;
-}
-namespace UnityEngine {
 class GameObject;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace HMUI {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::HMUI::PanelAnimationSO);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13510))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13630))
 // CS Name: ::HMUI::PanelAnimationSO*
 class CORDL_TYPE PanelAnimationSO : public ::UnityEngine::ScriptableObject {
 public:
@@ -78,21 +78,21 @@ public:
 
   constexpr void __set__parentAlphaAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method ExecuteAnimation addr 0x2118200 size 0x10 virtual false final false
+  /// @brief Method ExecuteAnimation addr 0x1fc2678 size 0x10 virtual false final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go);
 
-  /// @brief Method ExecuteAnimation addr 0x21182dc size 0x10 virtual false final false
+  /// @brief Method ExecuteAnimation addr 0x1fc2754 size 0x10 virtual false final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::System::Action* finishedCallback);
 
-  /// @brief Method ExecuteAnimation addr 0x21182ec size 0xc virtual false final false
+  /// @brief Method ExecuteAnimation addr 0x1fc2764 size 0xc virtual false final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, ::System::Action* finishedCallback);
 
-  /// @brief Method ExecuteAnimation addr 0x2118210 size 0xcc virtual false final false
+  /// @brief Method ExecuteAnimation addr 0x1fc2688 size 0xcc virtual false final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, bool instant, ::System::Action* finishedCallback);
 
   static inline ::HMUI::PanelAnimationSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x21182f8 size 0x94 virtual false final false
+  /// @brief Method .ctor addr 0x1fc2770 size 0x94 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PanelAnimationSO", modifiers: "&&", def_value: None }]
@@ -128,6 +128,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::PanelAnimationSO, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::PanelAnimationSO, ____duration) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::PanelAnimationSO, ____scaleXAnimationCurve) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::PanelAnimationSO, ____scaleYAnimationCurve) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::PanelAnimationSO, ____alphaAnimationCurve) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::PanelAnimationSO, ____parentAlphaAnimationCurve) == 0x38, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::PanelAnimationSO);

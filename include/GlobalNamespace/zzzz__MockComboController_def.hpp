@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockComboController)
 namespace System {
-class Action;
+template <typename T> class Action_1;
 }
 namespace System {
-template <typename T> class Action_1;
+class Action;
 }
 namespace GlobalNamespace {
 class IComboController;
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockComboController);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5317))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5412))
 // CS Name: ::MockComboController*
 class CORDL_TYPE MockComboController : public ::System::Object {
 public:
@@ -51,21 +51,21 @@ public:
 
   constexpr void __set_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method add_comboDidChangeEvent addr 0x2266084 size 0xb0 virtual true final true
+  /// @brief Method add_comboDidChangeEvent addr 0x2121eb4 size 0xb0 virtual true final true
   inline void add_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_comboDidChangeEvent addr 0x2266134 size 0xb0 virtual true final true
+  /// @brief Method remove_comboDidChangeEvent addr 0x2121f64 size 0xb0 virtual true final true
   inline void remove_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_comboBreakingEventHappenedEvent addr 0x22661e4 size 0x9c virtual true final true
+  /// @brief Method add_comboBreakingEventHappenedEvent addr 0x2122014 size 0x9c virtual true final true
   inline void add_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method remove_comboBreakingEventHappenedEvent addr 0x2266280 size 0x9c virtual true final true
+  /// @brief Method remove_comboBreakingEventHappenedEvent addr 0x21220b0 size 0x9c virtual true final true
   inline void remove_comboBreakingEventHappenedEvent(::System::Action* value);
 
   static inline ::GlobalNamespace::MockComboController* New_ctor();
 
-  /// @brief Method .ctor addr 0x226631c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x212214c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockComboController", modifiers: "&&", def_value: None }]
@@ -92,6 +92,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockComboController, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockComboController, ___comboDidChangeEvent) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockComboController, ___comboBreakingEventHappenedEvent) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockComboController);

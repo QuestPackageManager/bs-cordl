@@ -10,20 +10,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRDisplay)
-namespace System {
-class Action;
-}
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine::XR {
-struct XRNode;
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+struct __OVRDisplay__EyeFov;
 }
 namespace GlobalNamespace {
 struct __OVRDisplay__EyeRenderDesc;
 }
-namespace GlobalNamespace {
-struct __OVRDisplay__EyeFov;
+namespace UnityEngine::XR {
+struct XRNode;
 }
 namespace GlobalNamespace {
 struct __OVRDisplay__LatencyData;
@@ -54,7 +54,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRDisplay__LatencyData);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7539))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8443))
 // CS Name: ::OVRDisplay::EyeFov
 struct CORDL_TYPE __OVRDisplay__EyeFov {
 public:
@@ -87,13 +87,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDisplay__EyeFov, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRDisplay__EyeFov, UpFov) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDisplay__EyeFov, DownFov) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDisplay__EyeFov, LeftFov) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDisplay__EyeFov, RightFov) == 0xc, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::EyeRenderDesc
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7539))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7540))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8443)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8444))
 // CS Name: ::OVRDisplay::EyeRenderDesc
 struct CORDL_TYPE __OVRDisplay__EyeRenderDesc {
 public:
@@ -123,13 +131,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRDisplay__EyeRenderDesc, resolution) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDisplay__EyeRenderDesc, fov) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDisplay__EyeRenderDesc, fullFov) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LatencyData
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7541))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8445))
 // CS Name: ::OVRDisplay::LatencyData
 struct CORDL_TYPE __OVRDisplay__LatencyData {
 public:
@@ -166,13 +180,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDisplay__LatencyData, 0x14>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRDisplay__LatencyData, render) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDisplay__LatencyData, timeWarp) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDisplay__LatencyData, postPresent) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDisplay__LatencyData, renderError) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRDisplay__LatencyData, timeWarpError) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OVRDisplay
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7542))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8446))
 // CS Name: ::OVRDisplay*
 class CORDL_TYPE OVRDisplay : public ::System::Object {
 public:
@@ -257,58 +281,58 @@ public:
 
   static inline ::GlobalNamespace::OVRDisplay* New_ctor();
 
-  /// @brief Method .ctor addr 0x271b5b4 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x25c2ec4 size 0x78 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Update addr 0x271b64c size 0x184 virtual false final false
+  /// @brief Method Update addr 0x25c2f5c size 0x184 virtual false final false
   inline void Update();
 
-  /// @brief Method add_RecenteredPose addr 0x271b7d0 size 0x9c virtual false final false
+  /// @brief Method add_RecenteredPose addr 0x25c30e0 size 0x9c virtual false final false
   inline void add_RecenteredPose(::System::Action* value);
 
-  /// @brief Method remove_RecenteredPose addr 0x271b86c size 0x9c virtual false final false
+  /// @brief Method remove_RecenteredPose addr 0x25c317c size 0x9c virtual false final false
   inline void remove_RecenteredPose(::System::Action* value);
 
-  /// @brief Method RecenterPose addr 0x271b908 size 0x78 virtual false final false
+  /// @brief Method RecenterPose addr 0x25c3218 size 0x78 virtual false final false
   inline void RecenterPose();
 
-  /// @brief Method get_acceleration addr 0x271b980 size 0x124 virtual false final false
+  /// @brief Method get_acceleration addr 0x25c3290 size 0x124 virtual false final false
   inline ::UnityEngine::Vector3 get_acceleration();
 
-  /// @brief Method get_angularAcceleration addr 0x271baa4 size 0x124 virtual false final false
+  /// @brief Method get_angularAcceleration addr 0x25c33b4 size 0x124 virtual false final false
   inline ::UnityEngine::Vector3 get_angularAcceleration();
 
-  /// @brief Method get_velocity addr 0x271bbc8 size 0x124 virtual false final false
+  /// @brief Method get_velocity addr 0x25c34d8 size 0x124 virtual false final false
   inline ::UnityEngine::Vector3 get_velocity();
 
-  /// @brief Method get_angularVelocity addr 0x271bcec size 0x124 virtual false final false
+  /// @brief Method get_angularVelocity addr 0x25c35fc size 0x124 virtual false final false
   inline ::UnityEngine::Vector3 get_angularVelocity();
 
-  /// @brief Method GetEyeRenderDesc addr 0x271be10 size 0x38 virtual false final false
+  /// @brief Method GetEyeRenderDesc addr 0x25c3720 size 0x38 virtual false final false
   inline ::GlobalNamespace::__OVRDisplay__EyeRenderDesc GetEyeRenderDesc(::UnityEngine::XR::XRNode eye);
 
-  /// @brief Method get_latency addr 0x271be48 size 0x1d0 virtual false final false
+  /// @brief Method get_latency addr 0x25c3758 size 0x1d0 virtual false final false
   inline ::GlobalNamespace::__OVRDisplay__LatencyData get_latency();
 
-  /// @brief Method get_appFramerate addr 0x271c018 size 0x90 virtual false final false
+  /// @brief Method get_appFramerate addr 0x25c3928 size 0x90 virtual false final false
   inline float_t get_appFramerate();
 
-  /// @brief Method get_recommendedMSAALevel addr 0x271c0a8 size 0x5c virtual false final false
+  /// @brief Method get_recommendedMSAALevel addr 0x25c39b8 size 0x5c virtual false final false
   inline int32_t get_recommendedMSAALevel();
 
-  /// @brief Method get_displayFrequenciesAvailable addr 0x271c104 size 0x50 virtual false final false
+  /// @brief Method get_displayFrequenciesAvailable addr 0x25c3a14 size 0x50 virtual false final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_displayFrequenciesAvailable();
 
-  /// @brief Method get_displayFrequency addr 0x270e4b8 size 0x50 virtual false final false
+  /// @brief Method get_displayFrequency addr 0x25c3a64 size 0x50 virtual false final false
   inline float_t get_displayFrequency();
 
-  /// @brief Method set_displayFrequency addr 0x271c154 size 0x60 virtual false final false
+  /// @brief Method set_displayFrequency addr 0x25c3ab4 size 0x60 virtual false final false
   inline void set_displayFrequency(float_t value);
 
-  /// @brief Method UpdateTextures addr 0x271b62c size 0x20 virtual false final false
+  /// @brief Method UpdateTextures addr 0x25c2f3c size 0x20 virtual false final false
   inline void UpdateTextures();
 
-  /// @brief Method ConfigureEyeDesc addr 0x271c1b4 size 0x254 virtual false final false
+  /// @brief Method ConfigureEyeDesc addr 0x25c3b14 size 0x254 virtual false final false
   inline void ConfigureEyeDesc(::UnityEngine::XR::XRNode eye);
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRDisplay", modifiers: "&&", def_value: None }]
@@ -347,6 +371,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRDisplay, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDisplay, ___needsConfigureTexture) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDisplay, ___eyeDescs) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDisplay, ___recenterRequested) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDisplay, ___recenterRequestedFrameCount) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDisplay, ___localTrackingSpaceRecenterCount) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRDisplay, ___RecenteredPose) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRDisplay);

@@ -10,14 +10,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NavigationController)
+namespace UnityEngine {
+struct Vector3;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HMUI {
 class __NavigationController____c__DisplayClass10_0;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace System {
 class Action;
@@ -29,13 +29,13 @@ namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace HMUI {
+struct __NavigationController__Alignment;
+}
+namespace HMUI {
 class __NavigationController____c__DisplayClass8_0;
 }
 namespace HMUI {
 struct __NavigationController__Orientation;
-}
-namespace HMUI {
-struct __NavigationController__Alignment;
 }
 // Forward declare root types
 namespace HMUI {
@@ -64,7 +64,7 @@ MARK_REF_PTR_T(::HMUI::__NavigationController____c__DisplayClass8_0);
 namespace HMUI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13584))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13701))
 // CS Name: ::NavigationController::Orientation
 struct CORDL_TYPE __NavigationController__Orientation {
 public:
@@ -106,13 +106,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__NavigationController__Orientation, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__NavigationController__Orientation, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: ::Alignment
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13585))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13702))
 // CS Name: ::NavigationController::Alignment
 struct CORDL_TYPE __NavigationController__Alignment {
 public:
@@ -158,13 +160,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__NavigationController__Alignment, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__NavigationController__Alignment, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: ::<>c__DisplayClass8_0
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13586))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13703))
 // CS Name: ::NavigationController::<>c__DisplayClass8_0*
 class CORDL_TYPE __NavigationController____c__DisplayClass8_0 : public ::System::Object {
 public:
@@ -207,10 +211,10 @@ public:
 
   static inline ::HMUI::__NavigationController____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x212b32c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fd3b90 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <PushViewController>g__AnimationLayouter|0 addr 0x212b5dc size 0x2a8 virtual false final false
+  /// @brief Method <PushViewController>g__AnimationLayouter|0 addr 0x1fd3b98 size 0x2b0 virtual false final false
   inline void _PushViewController_g__AnimationLayouter_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NavigationController____c__DisplayClass8_0", modifiers: "&&", def_value: None }]
@@ -244,13 +248,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__NavigationController____c__DisplayClass8_0, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass8_0, ___startPositions) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass8_0, _____4__this) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass8_0, ___viewController) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass8_0, ___endPositions) == 0x28, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: ::<>c__DisplayClass10_0
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13587))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13704))
 // CS Name: ::NavigationController::<>c__DisplayClass10_0*
 class CORDL_TYPE __NavigationController____c__DisplayClass10_0 : public ::System::Object {
 public:
@@ -293,10 +305,10 @@ public:
 
   static inline ::HMUI::__NavigationController____c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x212b530 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fd3e48 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <PopViewControllers>g__AnimationLayouter|0 addr 0x212b884 size 0x274 virtual false final false
+  /// @brief Method <PopViewControllers>g__AnimationLayouter|0 addr 0x1fd3e50 size 0x278 virtual false final false
   inline void _PopViewControllers_g__AnimationLayouter_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers,
                                                          ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* removingViewControllers);
 
@@ -331,13 +343,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__NavigationController____c__DisplayClass10_0, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass10_0, ___startPositions) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass10_0, _____4__this) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass10_0, ___endPositions) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass10_0, ___moveOffset) == 0x28, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: HMUI::NavigationController
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13570)), TypeDefinitionIndex(TypeDefinitionIndex(13584)), TypeDefinitionIndex(TypeDefinitionIndex(13585))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13588))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13689)), TypeDefinitionIndex(TypeDefinitionIndex(13702)), TypeDefinitionIndex(TypeDefinitionIndex(13701))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13705))
 // CS Name: ::HMUI::NavigationController*
 class CORDL_TYPE NavigationController : public ::HMUI::ContainerViewController {
 public:
@@ -395,31 +415,31 @@ public:
 
   constexpr void __set__viewControllersSeparator(float_t value);
 
-  /// @brief Method LayoutViewControllers addr 0x212abf4 size 0x118 virtual true final false
+  /// @brief Method LayoutViewControllers addr 0x1fd3528 size 0x118 virtual true final false
   inline void LayoutViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers);
 
-  /// @brief Method PushViewController addr 0x212b24c size 0xe0 virtual false final false
+  /// @brief Method PushViewController addr 0x1fd2104 size 0xdc virtual false final false
   inline void PushViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PopViewController addr 0x212b334 size 0x14 virtual false final false
+  /// @brief Method PopViewController addr 0x1fd2340 size 0x14 virtual false final false
   inline void PopViewController(::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PopViewControllers addr 0x212b348 size 0x1e8 virtual false final false
+  /// @brief Method PopViewControllers addr 0x1fd2488 size 0x1e4 virtual false final false
   inline void PopViewControllers(int32_t numberOfViewControllersToPop, ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PositionVector addr 0x212b22c size 0x20 virtual false final false
+  /// @brief Method PositionVector addr 0x1fd3b64 size 0x20 virtual false final false
   inline ::UnityEngine::Vector3 PositionVector(float_t pos);
 
-  /// @brief Method SetupViewControllerRect addr 0x212b200 size 0x2c virtual false final false
+  /// @brief Method SetupViewControllerRect addr 0x1fd3b34 size 0x30 virtual false final false
   inline void SetupViewControllerRect(::HMUI::ViewController* viewController);
 
-  /// @brief Method GetNewPositionsForViewControllers addr 0x212ad0c size 0x4f4 virtual false final false
+  /// @brief Method GetNewPositionsForViewControllers addr 0x1fd3640 size 0x4f4 virtual false final false
   inline ::ArrayW<float_t, ::Array<float_t>*> GetNewPositionsForViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers,
                                                                                 ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* fixedViewControllers, float_t fixedEndPos);
 
   static inline ::HMUI::NavigationController* New_ctor();
 
-  /// @brief Method .ctor addr 0x212b5cc size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x1fd3b84 size 0xc virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NavigationController", modifiers: "&&", def_value: None }]
@@ -455,6 +475,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::NavigationController, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::NavigationController, ____orientation) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::NavigationController, ____reversedStacking) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::NavigationController, ____alignment) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::NavigationController, ____edgeSize) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::NavigationController, ____viewControllersSeparator) == 0x90, "Offset mismatch!");
 
 } // namespace HMUI
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::__NavigationController__Alignment, "HMUI", "NavigationController/Alignment");

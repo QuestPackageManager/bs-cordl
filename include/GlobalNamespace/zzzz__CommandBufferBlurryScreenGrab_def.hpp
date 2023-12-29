@@ -8,13 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CommandBufferBlurryScreenGrab)
 namespace UnityEngine::Rendering {
-class CommandBuffer;
-}
-namespace UnityEngine::Rendering {
 struct CameraEvent;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class KawaseBlurRendererSO;
@@ -22,8 +16,14 @@ class KawaseBlurRendererSO;
 namespace UnityEngine {
 class Camera;
 }
+namespace UnityEngine::Rendering {
+class CommandBuffer;
+}
 namespace GlobalNamespace {
 class CommandBufferOwners;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CommandBufferBlurryScreenGrab);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10337)), TypeDefinitionIndex(TypeDefinitionIndex(14503)), TypeDefinitionIndex(TypeDefinitionIndex(15278))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15276))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10259)), TypeDefinitionIndex(TypeDefinitionIndex(15307)), TypeDefinitionIndex(TypeDefinitionIndex(14721))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15305))
 // CS Name: ::CommandBufferBlurryScreenGrab*
 class CORDL_TYPE CommandBufferBlurryScreenGrab : public ::GlobalNamespace::CommandBufferGOCore {
 public:
@@ -85,18 +85,18 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::GlobalNamespace::CommandBufferOwners*>* getStaticF__cameras();
 
-  /// @brief Method CreateCommandBuffer addr 0x28063e8 size 0xfc virtual true final false
+  /// @brief Method CreateCommandBuffer addr 0x268b760 size 0xfc virtual true final false
   inline ::UnityEngine::Rendering::CommandBuffer* CreateCommandBuffer(::UnityEngine::Camera* camera);
 
-  /// @brief Method CamerasDict addr 0x28064e4 size 0x58 virtual true final false
+  /// @brief Method CamerasDict addr 0x268b85c size 0x58 virtual true final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::GlobalNamespace::CommandBufferOwners*>* CamerasDict();
 
-  /// @brief Method CommandBufferCameraEvent addr 0x280653c size 0x8 virtual true final false
+  /// @brief Method CommandBufferCameraEvent addr 0x268b8b4 size 0x8 virtual true final false
   inline ::UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent();
 
   static inline ::GlobalNamespace::CommandBufferBlurryScreenGrab* New_ctor();
 
-  /// @brief Method .ctor addr 0x2806544 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x268b8bc size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CommandBufferBlurryScreenGrab", modifiers: "&&", def_value: None }]
@@ -129,6 +129,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CommandBufferBlurryScreenGrab, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CommandBufferBlurryScreenGrab, ____kawaseBlurRenderer) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CommandBufferBlurryScreenGrab, ____kernelSize) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CommandBufferBlurryScreenGrab, ____cameraEvent) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CommandBufferBlurryScreenGrab, ____downsample) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CommandBufferBlurryScreenGrab);

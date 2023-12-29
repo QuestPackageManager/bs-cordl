@@ -10,13 +10,13 @@ namespace System::Collections {
 class IList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class __CertificateUrl__ListBuffer16;
 }
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__CertificateUrl__ListBuffer16)
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3561))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1192))
 // CS Name: ::CertificateUrl::ListBuffer16*
 class CORDL_TYPE __CertificateUrl__ListBuffer16 : public ::System::IO::MemoryStream {
@@ -40,10 +40,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::__CertificateUrl__ListBuffer16* New_ctor();
 
-  /// @brief Method .ctor addr 0xf60ab0 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0xeea894 size 0x68 virtual false final false
   inline void _ctor();
 
-  /// @brief Method EncodeTo addr 0xf60b18 size 0xe4 virtual false final false
+  /// @brief Method EncodeTo addr 0xeea8fc size 0xe4 virtual false final false
   inline void EncodeTo(::System::IO::Stream* output);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CertificateUrl__ListBuffer16", modifiers: "&&", def_value: None }]
@@ -70,7 +70,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1193))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::CertificateUrl*
 class CORDL_TYPE CertificateUrl : public ::System::Object {
@@ -102,19 +102,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateUrl* New_ctor(uint8_t type, ::System::Collections::IList* urlAndHashList);
 
-  /// @brief Method .ctor addr 0xf60590 size 0x16c virtual false final false
+  /// @brief Method .ctor addr 0xeea374 size 0x16c virtual false final false
   inline void _ctor(uint8_t type, ::System::Collections::IList* urlAndHashList);
 
-  /// @brief Method get_Type addr 0xf606fc size 0x8 virtual true final false
+  /// @brief Method get_Type addr 0xeea4e0 size 0x8 virtual true final false
   inline uint8_t get_Type();
 
-  /// @brief Method get_UrlAndHashList addr 0xf60704 size 0x8 virtual true final false
+  /// @brief Method get_UrlAndHashList addr 0xeea4e8 size 0x8 virtual true final false
   inline ::System::Collections::IList* get_UrlAndHashList();
 
-  /// @brief Method Encode addr 0xf6070c size 0x3a4 virtual true final false
+  /// @brief Method Encode addr 0xeea4f0 size 0x3a4 virtual true final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method parse addr 0xf60bfc size 0x298 virtual false final false
+  /// @brief Method parse addr 0xeea9e0 size 0x290 virtual false final false
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateUrl* parse(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* input);
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateUrl", modifiers: "&&", def_value: None }]
@@ -141,6 +141,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::CertificateUrl, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::CertificateUrl, ___mType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::CertificateUrl, ___mUrlAndHashList) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::CertificateUrl);

@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_PartInfo)
 namespace HoudiniEngineUnity {
-struct HAPI_PartType;
-}
-namespace HoudiniEngineUnity {
 struct HAPI_AttributeOwner;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_GroupType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PartType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -26,8 +26,8 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_PartInfo);
 // SizeInfo { instance_size: 48, native_size: 56, calculated_instance_size: 48, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9710))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9740))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9637))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9667))
 // CS Name: ::HoudiniEngineUnity::HAPI_PartInfo
 struct CORDL_TYPE HAPI_PartInfo {
 public:
@@ -40,37 +40,37 @@ public:
 
   __declspec(property(get = get_detailAttributeCount, put = set_detailAttributeCount)) int32_t detailAttributeCount;
 
-  /// @brief Method getElementCountByAttributeOwner addr 0x2191c48 size 0x4c virtual false final false
+  /// @brief Method getElementCountByAttributeOwner addr 0x203b2ac size 0x4c virtual false final false
   inline int32_t getElementCountByAttributeOwner(::HoudiniEngineUnity::HAPI_AttributeOwner owner);
 
-  /// @brief Method getElementCountByGroupType addr 0x2191c94 size 0x28 virtual false final false
+  /// @brief Method getElementCountByGroupType addr 0x203b2f8 size 0x28 virtual false final false
   inline int32_t getElementCountByGroupType(::HoudiniEngineUnity::HAPI_GroupType type);
 
-  /// @brief Method init addr 0x2186e68 size 0x58 virtual false final false
+  /// @brief Method init addr 0x20304cc size 0x58 virtual false final false
   inline void init();
 
-  /// @brief Method get_pointAttributeCount addr 0x2191cbc size 0x34 virtual false final false
+  /// @brief Method get_pointAttributeCount addr 0x203b320 size 0x34 virtual false final false
   inline int32_t get_pointAttributeCount();
 
-  /// @brief Method set_pointAttributeCount addr 0x2191cf0 size 0x40 virtual false final false
+  /// @brief Method set_pointAttributeCount addr 0x203b354 size 0x40 virtual false final false
   inline void set_pointAttributeCount(int32_t value);
 
-  /// @brief Method get_primitiveAttributeCount addr 0x2191d30 size 0x34 virtual false final false
+  /// @brief Method get_primitiveAttributeCount addr 0x203b394 size 0x34 virtual false final false
   inline int32_t get_primitiveAttributeCount();
 
-  /// @brief Method set_primitiveAttributeCount addr 0x2191d64 size 0x40 virtual false final false
+  /// @brief Method set_primitiveAttributeCount addr 0x203b3c8 size 0x40 virtual false final false
   inline void set_primitiveAttributeCount(int32_t value);
 
-  /// @brief Method get_vertexAttributeCount addr 0x2191da4 size 0x30 virtual false final false
+  /// @brief Method get_vertexAttributeCount addr 0x203b408 size 0x30 virtual false final false
   inline int32_t get_vertexAttributeCount();
 
-  /// @brief Method set_vertexAttributeCount addr 0x2191dd4 size 0x3c virtual false final false
+  /// @brief Method set_vertexAttributeCount addr 0x203b438 size 0x3c virtual false final false
   inline void set_vertexAttributeCount(int32_t value);
 
-  /// @brief Method get_detailAttributeCount addr 0x2191e10 size 0x34 virtual false final false
+  /// @brief Method get_detailAttributeCount addr 0x203b474 size 0x34 virtual false final false
   inline int32_t get_detailAttributeCount();
 
-  /// @brief Method set_detailAttributeCount addr 0x2191e44 size 0x40 virtual false final false
+  /// @brief Method set_detailAttributeCount addr 0x203b4a8 size 0x40 virtual false final false
   inline void set_detailAttributeCount(int32_t value);
 
   // Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty:
@@ -126,6 +126,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_PartInfo, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_PartInfo, id) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_PartInfo, nameSH) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_PartInfo, type) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_PartInfo, faceCount) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_PartInfo, vertexCount) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_PartInfo, pointCount) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_PartInfo, attributeCounts) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_PartInfo, isInstanced) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_PartInfo, instancedPartCount) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_PartInfo, instanceCount) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_PartInfo, hasChanged) == 0x2c, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_PartInfo, "HoudiniEngineUnity", "HAPI_PartInfo");

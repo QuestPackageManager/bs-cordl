@@ -10,19 +10,19 @@ namespace System {
 struct DateTime;
 }
 namespace System {
-class Type;
-}
-namespace System {
 class IFormatProvider;
-}
-namespace System {
-struct TypeCode;
 }
 namespace System {
 struct Decimal;
 }
 namespace System {
+class Type;
+}
+namespace System {
 class Object;
+}
+namespace System {
+struct TypeCode;
 }
 // Forward declare root types
 namespace System {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::System::IConvertible);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2413))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2411))
 // CS Name: ::System::IConvertible*
 class CORDL_TYPE IConvertible {
 public:

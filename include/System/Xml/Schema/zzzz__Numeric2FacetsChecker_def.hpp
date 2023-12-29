@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Numeric2FacetsChecker)
-namespace System::Xml::Schema {
-class XmlSchemaDatatype;
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Xml::Schema {
 class XmlValueConverter;
 }
 namespace System {
-class Object;
-}
-namespace System {
 class Exception;
 }
-namespace System::Collections {
-class ArrayList;
+namespace System::Xml::Schema {
+class XmlSchemaDatatype;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -30,30 +30,30 @@ MARK_REF_PTR_T(::System::Xml::Schema::Numeric2FacetsChecker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11686))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11688))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11614))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11616))
 // CS Name: ::System.Xml.Schema::Numeric2FacetsChecker*
 class CORDL_TYPE Numeric2FacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets addr 0x28c1828 size 0x60 virtual true final false
+  /// @brief Method CheckValueFacets addr 0x2743804 size 0x60 virtual true final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets addr 0x28c1888 size 0x280 virtual true final false
+  /// @brief Method CheckValueFacets addr 0x2743864 size 0x280 virtual true final false
   inline ::System::Exception* CheckValueFacets(double_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets addr 0x28c1bc0 size 0x10 virtual true final false
+  /// @brief Method CheckValueFacets addr 0x2743b9c size 0x10 virtual true final false
   inline ::System::Exception* CheckValueFacets(float_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration addr 0x28c1bd0 size 0x78 virtual true final false
+  /// @brief Method MatchEnumeration addr 0x2743bac size 0x78 virtual true final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration addr 0x28c1b08 size 0xb8 virtual false final false
+  /// @brief Method MatchEnumeration addr 0x2743ae4 size 0xb8 virtual false final false
   inline bool MatchEnumeration(double_t value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlValueConverter* valueConverter);
 
   static inline ::System::Xml::Schema::Numeric2FacetsChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x28c1c48 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2743c24 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Numeric2FacetsChecker", modifiers: "&&", def_value: None }]

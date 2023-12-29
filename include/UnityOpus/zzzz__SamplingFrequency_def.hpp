@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityOpus::SamplingFrequency);
 namespace UnityOpus {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16214))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6156))
 // CS Name: ::UnityOpus::SamplingFrequency
 struct CORDL_TYPE SamplingFrequency {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityOpus::SamplingFrequency, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityOpus::SamplingFrequency, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityOpus
 DEFINE_IL2CPP_ARG_TYPE(::UnityOpus::SamplingFrequency, "UnityOpus", "SamplingFrequency");

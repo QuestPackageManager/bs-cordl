@@ -10,7 +10,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Slider)
 namespace UnityEngine::UIElements {
-template <typename TValueType> struct __BaseSlider_1__SliderKey;
+class __Slider__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
 class __Slider__UxmlFactory;
@@ -19,25 +19,25 @@ namespace UnityEngine::UIElements {
 struct SliderDirection;
 }
 namespace UnityEngine::UIElements {
-class __Slider__UxmlTraits;
+template <typename TValueType> struct __BaseSlider_1__SliderKey;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class UxmlFloatAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
-}
-namespace UnityEngine::UIElements {
-class UxmlFloatAttributeDescription;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -57,8 +57,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__Slider__UxmlTraits);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7131), inst: 916 }), TypeDefinitionIndex(TypeDefinitionIndex(7131)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6986))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7039)) CS Name: ::Slider::UxmlTraits*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7217)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7217), inst: 899 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7072))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7125)) CS Name: ::Slider::UxmlTraits*
 class CORDL_TYPE __Slider__UxmlTraits : public ::UnityEngine::UIElements::BaseFieldTraits_2<float_t, ::UnityEngine::UIElements::UxmlFloatAttributeDescription*> {
 public:
   // Declarations
@@ -116,12 +116,12 @@ public:
 
   constexpr void __set_m_Inverted(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method Init addr 0x2e1e0cc size 0x2b4 virtual true final false
+  /// @brief Method Init addr 0x2cb7d1c size 0x2b4 virtual true final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__Slider__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e1e380 size 0x228 virtual false final false
+  /// @brief Method .ctor addr 0x2cb7fd0 size 0x228 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Slider__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -161,13 +161,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Slider__UxmlTraits, 0xb8>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__Slider__UxmlTraits, ___m_LowValue) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__Slider__UxmlTraits, ___m_HighValue) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__Slider__UxmlTraits, ___m_PageSize) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__Slider__UxmlTraits, ___m_ShowInputField) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__Slider__UxmlTraits, ___m_Direction) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__Slider__UxmlTraits, ___m_Inverted) == 0xb0, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::Slider
 // SizeInfo { instance_size: 1112, native_size: -1, calculated_instance_size: 1112, calculated_native_size: 1109, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7101)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7101), inst: 391 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7040))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7187), inst: 387 }), TypeDefinitionIndex(TypeDefinitionIndex(7187))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7126))
 // CS Name: ::UnityEngine.UIElements::Slider*
 class CORDL_TYPE Slider : public ::UnityEngine::UIElements::BaseSlider_1<float_t> {
 public:
@@ -199,29 +211,29 @@ public:
 
   static inline ::UnityEngine::UIElements::Slider* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e1d900 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x2cb7550 size 0x18 virtual false final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Slider* New_ctor(float_t start, float_t end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
-  /// @brief Method .ctor addr 0x2e1da64 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2cb76b4 size 0xc virtual false final false
   inline void _ctor(float_t start, float_t end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
   static inline ::UnityEngine::UIElements::Slider* New_ctor(::StringW label, float_t start, float_t end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
-  /// @brief Method .ctor addr 0x2e1d918 size 0x14c virtual false final false
+  /// @brief Method .ctor addr 0x2cb7568 size 0x14c virtual false final false
   inline void _ctor(::StringW label, float_t start, float_t end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
-  /// @brief Method SliderLerpUnclamped addr 0x2e1da70 size 0x2b0 virtual true final false
+  /// @brief Method SliderLerpUnclamped addr 0x2cb76c0 size 0x2b0 virtual true final false
   inline float_t SliderLerpUnclamped(float_t a, float_t b, float_t interpolant);
 
-  /// @brief Method SliderNormalizeValue addr 0x2e1dd20 size 0x10 virtual true final false
+  /// @brief Method SliderNormalizeValue addr 0x2cb7970 size 0x10 virtual true final false
   inline float_t SliderNormalizeValue(float_t currentValue, float_t lowerValue, float_t higherValue);
 
-  /// @brief Method ParseStringToValue addr 0x2e1dd30 size 0xd0 virtual true final false
+  /// @brief Method ParseStringToValue addr 0x2cb7980 size 0xd0 virtual true final false
   inline float_t ParseStringToValue(::StringW stringValue);
 
-  /// @brief Method ComputeValueFromKey addr 0x2e1de00 size 0x1fc virtual true final false
+  /// @brief Method ComputeValueFromKey addr 0x2cb7a50 size 0x1fc virtual true final false
   inline void ComputeValueFromKey(::UnityEngine::UIElements::__BaseSlider_1__SliderKey<float_t> sliderKey, bool isShift);
 
   // Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "&&", def_value: None }]
@@ -248,14 +260,14 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Slider,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7039)), TypeDefinitionIndex(TypeDefinitionIndex(7040)), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5276 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7038)) CS Name: ::Slider::UxmlFactory*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5160 }), TypeDefinitionIndex(TypeDefinitionIndex(7126)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7125)), TypeDefinitionIndex(TypeDefinitionIndex(7083))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7124)) CS Name: ::Slider::UxmlFactory*
 class CORDL_TYPE __Slider__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Slider*, ::UnityEngine::UIElements::__Slider__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Slider__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e11368 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2caafb8 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Slider__UxmlFactory", modifiers: "&&", def_value: None }]

@@ -5,14 +5,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRMixedRealityCaptureConfiguration)
+namespace GlobalNamespace {
+struct __OVRManager__MrcActivationMode;
+}
 namespace UnityEngine {
 struct LayerMask;
-}
-namespace GlobalNamespace {
-struct __OVRManager__CompositionMethod;
-}
-namespace UnityEngine {
-struct Color;
 }
 namespace GlobalNamespace {
 struct __OVRManager__CameraDevice;
@@ -20,14 +17,17 @@ struct __OVRManager__CameraDevice;
 namespace GlobalNamespace {
 struct __OVRManager__DepthQuality;
 }
+namespace UnityEngine {
+struct Color;
+}
 namespace GlobalNamespace {
 class __OVRManager__InstantiateMrcCameraDelegate;
 }
 namespace GlobalNamespace {
-struct __OVRManager__VirtualGreenScreenType;
+struct __OVRManager__CompositionMethod;
 }
 namespace GlobalNamespace {
-struct __OVRManager__MrcActivationMode;
+struct __OVRManager__VirtualGreenScreenType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRMixedRealityCaptureConfiguration);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8133))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8915))
 // CS Name: ::OVRMixedRealityCaptureConfiguration*
 class CORDL_TYPE OVRMixedRealityCaptureConfiguration {
 public:

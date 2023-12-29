@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Security::AuthenticationLevel);
 namespace System::Net::Security {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9365))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8202))
 // CS Name: ::System.Net.Security::AuthenticationLevel
 struct CORDL_TYPE AuthenticationLevel {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Security::AuthenticationLevel, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Security::AuthenticationLevel, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net::Security
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Security::AuthenticationLevel, "System.Net.Security", "AuthenticationLevel");

@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(Srp6Server)
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Srp6GroupParameters;
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Srp6GroupParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement::Srp {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::Srp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(728))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.Srp::Srp6Server*
 class CORDL_TYPE Srp6Server : public ::System::Object {
@@ -151,36 +151,36 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server* New_ctor();
 
-  /// @brief Method .ctor addr 0x12185e8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x11a7398 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0x12185f0 size 0x10 virtual true final false
+  /// @brief Method Init addr 0x11a73a0 size 0x10 virtual true final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* v, ::Org::BouncyCastle::Crypto::IDigest* digest,
                    ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Init addr 0x1218600 size 0x30 virtual true final false
+  /// @brief Method Init addr 0x11a73b0 size 0x30 virtual true final false
   inline void Init(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Math::BigInteger* v, ::Org::BouncyCastle::Crypto::IDigest* digest,
                    ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method GenerateServerCredentials addr 0x1218630 size 0xb0 virtual true final false
+  /// @brief Method GenerateServerCredentials addr 0x11a73e0 size 0xb0 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* GenerateServerCredentials();
 
-  /// @brief Method CalculateSecret addr 0x12186e0 size 0x44 virtual true final false
+  /// @brief Method CalculateSecret addr 0x11a7490 size 0x44 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateSecret(::Org::BouncyCastle::Math::BigInteger* clientA);
 
-  /// @brief Method SelectPrivateValue addr 0x1218780 size 0xc virtual true final false
+  /// @brief Method SelectPrivateValue addr 0x11a7530 size 0xc virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* SelectPrivateValue();
 
-  /// @brief Method CalculateS addr 0x1218724 size 0x5c virtual false final false
+  /// @brief Method CalculateS addr 0x11a74d4 size 0x5c virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateS();
 
-  /// @brief Method VerifyClientEvidenceMessage addr 0x121878c size 0xb8 virtual true final false
+  /// @brief Method VerifyClientEvidenceMessage addr 0x11a753c size 0xb8 virtual true final false
   inline bool VerifyClientEvidenceMessage(::Org::BouncyCastle::Math::BigInteger* clientM1);
 
-  /// @brief Method CalculateServerEvidenceMessage addr 0x1218844 size 0x84 virtual true final false
+  /// @brief Method CalculateServerEvidenceMessage addr 0x11a75f4 size 0x84 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateServerEvidenceMessage();
 
-  /// @brief Method CalculateSessionKey addr 0x12188c8 size 0x84 virtual true final false
+  /// @brief Method CalculateSessionKey addr 0x11a7678 size 0x84 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateSessionKey();
 
   // Ctor Parameters [CppParam { name: "", ty: "Srp6Server", modifiers: "&&", def_value: None }]
@@ -240,6 +240,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server, ___N) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server, ___g) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server, ___v) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server, ___random) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server, ___digest) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server, ___A) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server, ___privB) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server, ___pubB) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server, ___u) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server, ___S) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server, ___M1) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server, ___M2) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server, ___Key) == 0x70, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Agreement::Srp
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server);

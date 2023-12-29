@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRHaptics)
 namespace GlobalNamespace {
-class __OVRHaptics__OVRHapticsChannel;
-}
-namespace GlobalNamespace {
 class __OVRHaptics__OVRHapticsOutput;
 }
 namespace GlobalNamespace {
 class __OVRHaptics__Config;
 }
 namespace GlobalNamespace {
-class OVRHapticsClip;
+class __OVRHaptics__OVRHapticsChannel;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class OVRHapticsClip;
 }
 namespace GlobalNamespace {
 class __OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class OVRNativeBuffer;
@@ -54,8 +54,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTr
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7572))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8473))
 // CS Name: ::OVRHaptics::Config*
 class CORDL_TYPE __OVRHaptics__Config : public ::System::Object {
 public:
@@ -105,43 +105,43 @@ public:
 
   static inline int32_t getStaticF__MaximumBufferSamplesCount_k__BackingField();
 
-  /// @brief Method get_SampleRateHz addr 0x2728938 size 0x58 virtual false final false
+  /// @brief Method get_SampleRateHz addr 0x25cf488 size 0x58 virtual false final false
   static inline int32_t get_SampleRateHz();
 
-  /// @brief Method set_SampleRateHz addr 0x2728990 size 0x5c virtual false final false
+  /// @brief Method set_SampleRateHz addr 0x25cf4e0 size 0x5c virtual false final false
   static inline void set_SampleRateHz(int32_t value);
 
-  /// @brief Method get_SampleSizeInBytes addr 0x27289ec size 0x58 virtual false final false
+  /// @brief Method get_SampleSizeInBytes addr 0x25cf53c size 0x58 virtual false final false
   static inline int32_t get_SampleSizeInBytes();
 
-  /// @brief Method set_SampleSizeInBytes addr 0x2728a44 size 0x5c virtual false final false
+  /// @brief Method set_SampleSizeInBytes addr 0x25cf594 size 0x5c virtual false final false
   static inline void set_SampleSizeInBytes(int32_t value);
 
-  /// @brief Method get_MinimumSafeSamplesQueued addr 0x2728aa0 size 0x58 virtual false final false
+  /// @brief Method get_MinimumSafeSamplesQueued addr 0x25cf5f0 size 0x58 virtual false final false
   static inline int32_t get_MinimumSafeSamplesQueued();
 
-  /// @brief Method set_MinimumSafeSamplesQueued addr 0x2728af8 size 0x5c virtual false final false
+  /// @brief Method set_MinimumSafeSamplesQueued addr 0x25cf648 size 0x5c virtual false final false
   static inline void set_MinimumSafeSamplesQueued(int32_t value);
 
-  /// @brief Method get_MinimumBufferSamplesCount addr 0x2728b54 size 0x58 virtual false final false
+  /// @brief Method get_MinimumBufferSamplesCount addr 0x25cf6a4 size 0x58 virtual false final false
   static inline int32_t get_MinimumBufferSamplesCount();
 
-  /// @brief Method set_MinimumBufferSamplesCount addr 0x2728bac size 0x5c virtual false final false
+  /// @brief Method set_MinimumBufferSamplesCount addr 0x25cf6fc size 0x5c virtual false final false
   static inline void set_MinimumBufferSamplesCount(int32_t value);
 
-  /// @brief Method get_OptimalBufferSamplesCount addr 0x2728c08 size 0x58 virtual false final false
+  /// @brief Method get_OptimalBufferSamplesCount addr 0x25cf758 size 0x58 virtual false final false
   static inline int32_t get_OptimalBufferSamplesCount();
 
-  /// @brief Method set_OptimalBufferSamplesCount addr 0x2728c60 size 0x5c virtual false final false
+  /// @brief Method set_OptimalBufferSamplesCount addr 0x25cf7b0 size 0x5c virtual false final false
   static inline void set_OptimalBufferSamplesCount(int32_t value);
 
-  /// @brief Method get_MaximumBufferSamplesCount addr 0x2728cbc size 0x58 virtual false final false
+  /// @brief Method get_MaximumBufferSamplesCount addr 0x25cf80c size 0x58 virtual false final false
   static inline int32_t get_MaximumBufferSamplesCount();
 
-  /// @brief Method set_MaximumBufferSamplesCount addr 0x2728d14 size 0x5c virtual false final false
+  /// @brief Method set_MaximumBufferSamplesCount addr 0x25cf864 size 0x5c virtual false final false
   static inline void set_MaximumBufferSamplesCount(int32_t value);
 
-  /// @brief Method Load addr 0x27279b4 size 0x200 virtual false final false
+  /// @brief Method Load addr 0x25ce504 size 0x200 virtual false final false
   static inline void Load();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRHaptics__Config", modifiers: "&&", def_value: None }]
@@ -168,8 +168,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRHaptics__C
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7573))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8474))
 // CS Name: ::OVRHaptics::OVRHapticsChannel*
 class CORDL_TYPE __OVRHaptics__OVRHapticsChannel : public ::System::Object {
 public:
@@ -185,19 +185,19 @@ public:
 
   static inline ::GlobalNamespace::__OVRHaptics__OVRHapticsChannel* New_ctor(uint32_t outputIndex);
 
-  /// @brief Method .ctor addr 0x2727d58 size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x25ce8a8 size 0x98 virtual false final false
   inline void _ctor(uint32_t outputIndex);
 
-  /// @brief Method Preempt addr 0x2728d74 size 0x18 virtual false final false
+  /// @brief Method Preempt addr 0x25cf8c4 size 0x18 virtual false final false
   inline void Preempt(::GlobalNamespace::OVRHapticsClip* clip);
 
-  /// @brief Method Queue addr 0x2728eac size 0x18 virtual false final false
+  /// @brief Method Queue addr 0x25cf9fc size 0x18 virtual false final false
   inline void Queue(::GlobalNamespace::OVRHapticsClip* clip);
 
-  /// @brief Method Mix addr 0x2728fac size 0x18 virtual false final false
+  /// @brief Method Mix addr 0x25cfafc size 0x18 virtual false final false
   inline void Mix(::GlobalNamespace::OVRHapticsClip* clip);
 
-  /// @brief Method Clear addr 0x272947c size 0x18 virtual false final false
+  /// @brief Method Clear addr 0x25cffcc size 0x18 virtual false final false
   inline void Clear();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRHaptics__OVRHapticsChannel", modifiers: "&&", def_value: None }]
@@ -222,13 +222,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRHaptics__OVRHapticsChannel, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsChannel, ___m_output) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ClipPlaybackTracker
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7574))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8475))
 // CS Name: ::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*
 class CORDL_TYPE __OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker : public ::System::Object {
 public:
@@ -255,21 +257,21 @@ public:
 
   constexpr void __set__Clip_k__BackingField(::GlobalNamespace::OVRHapticsClip* value);
 
-  /// @brief Method get_ReadCount addr 0x2729834 size 0x8 virtual false final false
+  /// @brief Method get_ReadCount addr 0x25d0384 size 0x8 virtual false final false
   inline int32_t get_ReadCount();
 
-  /// @brief Method set_ReadCount addr 0x272983c size 0x8 virtual false final false
+  /// @brief Method set_ReadCount addr 0x25d038c size 0x8 virtual false final false
   inline void set_ReadCount(int32_t value);
 
-  /// @brief Method get_Clip addr 0x2729844 size 0x8 virtual false final false
+  /// @brief Method get_Clip addr 0x25d0394 size 0x8 virtual false final false
   inline ::GlobalNamespace::OVRHapticsClip* get_Clip();
 
-  /// @brief Method set_Clip addr 0x272984c size 0x8 virtual false final false
+  /// @brief Method set_Clip addr 0x25d039c size 0x8 virtual false final false
   inline void set_Clip(::GlobalNamespace::OVRHapticsClip* value);
 
   static inline ::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker* New_ctor(::GlobalNamespace::OVRHapticsClip* clip);
 
-  /// @brief Method .ctor addr 0x2729604 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x25d0154 size 0x28 virtual false final false
   inline void _ctor(::GlobalNamespace::OVRHapticsClip* clip);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker", modifiers: "&&", def_value: None }]
@@ -297,13 +299,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker, ____ReadCount_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker, ____Clip_k__BackingField) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OVRHapticsOutput
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7575))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8476))
 // CS Name: ::OVRHaptics::OVRHapticsOutput*
 class CORDL_TYPE __OVRHaptics__OVRHapticsOutput : public ::System::Object {
 public:
@@ -421,22 +427,22 @@ public:
 
   static inline ::GlobalNamespace::__OVRHaptics__OVRHapticsOutput* New_ctor(uint32_t controller);
 
-  /// @brief Method .ctor addr 0x2727bb4 size 0x1a4 virtual false final false
+  /// @brief Method .ctor addr 0x25ce704 size 0x1a4 virtual false final false
   inline void _ctor(uint32_t controller);
 
-  /// @brief Method Process addr 0x2727ecc size 0xa6c virtual false final false
+  /// @brief Method Process addr 0x25cea1c size 0xa6c virtual false final false
   inline void Process();
 
-  /// @brief Method Preempt addr 0x2728d8c size 0x120 virtual false final false
+  /// @brief Method Preempt addr 0x25cf8dc size 0x120 virtual false final false
   inline void Preempt(::GlobalNamespace::OVRHapticsClip* clip);
 
-  /// @brief Method Queue addr 0x2728ec4 size 0xe8 virtual false final false
+  /// @brief Method Queue addr 0x25cfa14 size 0xe8 virtual false final false
   inline void Queue(::GlobalNamespace::OVRHapticsClip* clip);
 
-  /// @brief Method Mix addr 0x2728fc4 size 0x4b8 virtual false final false
+  /// @brief Method Mix addr 0x25cfb14 size 0x4b8 virtual false final false
   inline void Mix(::GlobalNamespace::OVRHapticsClip* clip);
 
-  /// @brief Method Clear addr 0x2729494 size 0x70 virtual false final false
+  /// @brief Method Clear addr 0x25cffe4 size 0x70 virtual false final false
   inline void Clear();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRHaptics__OVRHapticsOutput", modifiers: "&&", def_value: None }]
@@ -494,13 +500,37 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput, 0x50>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput, ___m_lowLatencyMode) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput, ___m_paddingEnabled) == 0x11, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput, ___m_prevSamplesQueued) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput, ___m_prevSamplesQueuedTime) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput, ___m_numPredictionHits) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput, ___m_numPredictionMisses) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput, ___m_numUnderruns) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput, ___m_pendingClips) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput, ___m_controller) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput, ___m_nativeBuffer) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput, ___m_paddingClip) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput, ___PrevSampleRateHz) == 0x48, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OVRHaptics
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7576))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8477))
 // CS Name: ::OVRHaptics*
 class CORDL_TYPE OVRHaptics : public ::System::Object {
 public:
@@ -541,7 +571,7 @@ public:
 
   static inline ::ArrayW<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput*, ::Array<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput*>*> getStaticF_m_outputs();
 
-  /// @brief Method Process addr 0x2727df0 size 0xdc virtual false final false
+  /// @brief Method Process addr 0x25ce940 size 0xdc virtual false final false
   static inline void Process();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics", modifiers: "&&", def_value: None }]

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoTransitionsButton)
+namespace UnityEngine::UI {
+struct __Selectable__SelectionState;
+}
 namespace HMUI {
 struct __NoTransitionsButton__SelectionState;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace UnityEngine::UI {
-struct __Selectable__SelectionState;
 }
 // Forward declare root types
 namespace HMUI {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::HMUI::NoTransitionsButton);
 namespace HMUI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13622))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13739))
 // CS Name: ::NoTransitionsButton::SelectionState
 struct CORDL_TYPE __NoTransitionsButton__SelectionState {
 public:
@@ -81,13 +81,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__NoTransitionsButton__SelectionState, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__NoTransitionsButton__SelectionState, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: HMUI::NoTransitionsButton
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 268, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13622)), TypeDefinitionIndex(TypeDefinitionIndex(13019))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13623))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13024)), TypeDefinitionIndex(TypeDefinitionIndex(13739))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13740))
 // CS Name: ::HMUI::NoTransitionsButton*
 class CORDL_TYPE NoTransitionsButton : public ::UnityEngine::UI::Button {
 public:
@@ -115,21 +117,21 @@ public:
 
   constexpr void __set__selectionState(::HMUI::__NoTransitionsButton__SelectionState value);
 
-  /// @brief Method get_selectionState addr 0x2130ae0 size 0x8 virtual false final false
+  /// @brief Method get_selectionState addr 0x1fd9144 size 0x8 virtual false final false
   inline ::HMUI::__NoTransitionsButton__SelectionState get_selectionState();
 
-  /// @brief Method add_selectionStateDidChangeEvent addr 0x2130304 size 0xb4 virtual false final false
+  /// @brief Method add_selectionStateDidChangeEvent addr 0x1fd8968 size 0xb4 virtual false final false
   inline void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::__NoTransitionsButton__SelectionState>* value);
 
-  /// @brief Method remove_selectionStateDidChangeEvent addr 0x21304ec size 0xb4 virtual false final false
+  /// @brief Method remove_selectionStateDidChangeEvent addr 0x1fd8b50 size 0xb4 virtual false final false
   inline void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::__NoTransitionsButton__SelectionState>* value);
 
-  /// @brief Method DoStateTransition addr 0x2130ae8 size 0x40 virtual true final false
+  /// @brief Method DoStateTransition addr 0x1fd914c size 0x40 virtual true final false
   inline void DoStateTransition(::UnityEngine::UI::__Selectable__SelectionState state, bool instant);
 
   static inline ::HMUI::NoTransitionsButton* New_ctor();
 
-  /// @brief Method .ctor addr 0x2130b28 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fd918c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoTransitionsButton", modifiers: "&&", def_value: None }]
@@ -156,6 +158,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::NoTransitionsButton, 0x110>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::NoTransitionsButton, ___selectionStateDidChangeEvent) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::NoTransitionsButton, ____selectionState) == 0x108, "Offset mismatch!");
 
 } // namespace HMUI
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::__NoTransitionsButton__SelectionState, "HMUI", "NoTransitionsButton/SelectionState");

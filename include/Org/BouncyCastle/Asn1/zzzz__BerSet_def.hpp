@@ -36,33 +36,33 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerSet* getStaticF_Empty();
 
-  /// @brief Method FromVector addr 0x11be8bc size 0x8c virtual false final false
+  /// @brief Method FromVector addr 0x114d66c size 0x8c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::BerSet* FromVector(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
-  /// @brief Method FromVector addr 0x11be9ac size 0x94 virtual false final false
+  /// @brief Method FromVector addr 0x114d75c size 0x94 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::BerSet* FromVector(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector, bool needsSorting);
 
   static inline ::Org::BouncyCastle::Asn1::BerSet* New_ctor();
 
-  /// @brief Method .ctor addr 0x11beac4 size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x114d874 size 0x54 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::BerSet* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
 
-  /// @brief Method .ctor addr 0x11beb18 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x114d8c8 size 0x64 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
 
   static inline ::Org::BouncyCastle::Asn1::BerSet* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
-  /// @brief Method .ctor addr 0x11be948 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x114d6f8 size 0x64 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
   static inline ::Org::BouncyCastle::Asn1::BerSet* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector, bool needsSorting);
 
-  /// @brief Method .ctor addr 0x11bea40 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x114d7f0 size 0x84 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector, bool needsSorting);
 
-  /// @brief Method Encode addr 0x11beb7c size 0x3ec virtual true final false
+  /// @brief Method Encode addr 0x114d92c size 0x3ec virtual true final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "BerSet", modifiers: "&&", def_value: None }]

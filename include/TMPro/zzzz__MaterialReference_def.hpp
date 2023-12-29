@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaterialReference)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace TMPro {
 class TMP_FontAsset;
 }
@@ -16,9 +19,6 @@ class TMP_SpriteAsset;
 }
 namespace UnityEngine {
 class Material;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace TMPro {
@@ -31,23 +31,23 @@ MARK_VAL_T(::TMPro::MaterialReference);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12304))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12232))
 // CS Name: ::TMPro::MaterialReference
 struct CORDL_TYPE MaterialReference {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2befcdc size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x2a6bf88 size 0x7c virtual false final false
   inline void _ctor(int32_t index, ::TMPro::TMP_FontAsset* fontAsset, ::TMPro::TMP_SpriteAsset* spriteAsset, ::UnityEngine::Material* material, float_t padding);
 
-  /// @brief Method Contains addr 0x2befd58 size 0xfc virtual false final false
+  /// @brief Method Contains addr 0x2a6c004 size 0xfc virtual false final false
   static inline bool Contains(::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*> materialReferences, ::TMPro::TMP_FontAsset* fontAsset);
 
-  /// @brief Method AddMaterialReference addr 0x2befe54 size 0x20c virtual false final false
+  /// @brief Method AddMaterialReference addr 0x2a6c100 size 0x20c virtual false final false
   static inline int32_t AddMaterialReference(::UnityEngine::Material* material, ::TMPro::TMP_FontAsset* fontAsset,
                                              ByRef<::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*>> materialReferences,
                                              ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* materialReferenceIndexLookup);
 
-  /// @brief Method AddMaterialReference addr 0x2bf0060 size 0x1d8 virtual false final false
+  /// @brief Method AddMaterialReference addr 0x2a6c30c size 0x1d8 virtual false final false
   static inline int32_t AddMaterialReference(::UnityEngine::Material* material, ::TMPro::TMP_SpriteAsset* spriteAsset,
                                              ByRef<::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*>> materialReferences,
                                              ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* materialReferenceIndexLookup);
@@ -98,6 +98,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::MaterialReference, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::MaterialReference, index) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::MaterialReference, fontAsset) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::MaterialReference, spriteAsset) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::MaterialReference, material) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::MaterialReference, isDefaultMaterial) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::MaterialReference, isFallbackMaterial) == 0x21, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::MaterialReference, fallbackMaterial) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::MaterialReference, padding) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::MaterialReference, referenceCount) == 0x34, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::MaterialReference, "TMPro", "MaterialReference");

@@ -39,6 +39,18 @@ template <typename TX, typename TY, typename TZ> constexpr void GlobalNamespace:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mirrorZ = value;
 }
+template <typename TX, typename TY, typename TZ> constexpr bool& GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__get__disableAutomaticTransformGathering() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____disableAutomaticTransformGathering;
+}
+template <typename TX, typename TY, typename TZ> constexpr bool const& GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__get__disableAutomaticTransformGathering() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____disableAutomaticTransformGathering;
+}
+template <typename TX, typename TY, typename TZ> constexpr void GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__set__disableAutomaticTransformGathering(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____disableAutomaticTransformGathering = value;
+}
 template <typename TX, typename TY, typename TZ>
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*& GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__get__xTransforms() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

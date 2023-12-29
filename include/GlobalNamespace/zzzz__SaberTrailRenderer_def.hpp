@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SaberTrailRenderer)
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-class MeshRenderer;
-}
 namespace GlobalNamespace {
 class TrailElementCollection;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct Vector2;
+class MeshRenderer;
 }
 namespace UnityEngine {
 class MeshFilter;
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberTrailRenderer);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4877))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10092))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4995))
 // CS Name: ::SaberTrailRenderer*
 class CORDL_TYPE SaberTrailRenderer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -167,36 +167,36 @@ public:
 
   static inline int32_t getStaticF__saberTravelledDistanceId();
 
-  /// @brief Method Init addr 0x239fa90 size 0x174 virtual true final false
+  /// @brief Method Init addr 0x2269b24 size 0x174 virtual true final false
   inline void Init(float_t trailWidth, float_t trailDuration, int32_t granularity, float_t whiteSectionMaxDuration);
 
-  /// @brief Method OnDestroy addr 0x239fd5c size 0xc virtual false final false
+  /// @brief Method OnDestroy addr 0x2269df0 size 0xc virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method OnValidate addr 0x239fd68 size 0xd8 virtual false final false
+  /// @brief Method OnValidate addr 0x2269dfc size 0xd8 virtual false final false
   inline void OnValidate();
 
-  /// @brief Method OnEnable addr 0x239fe40 size 0x84 virtual false final false
+  /// @brief Method OnEnable addr 0x2269ed4 size 0x84 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x239fec4 size 0x84 virtual false final false
+  /// @brief Method OnDisable addr 0x2269f58 size 0x84 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method SetTrailWidth addr 0x239ff48 size 0x8 virtual false final false
+  /// @brief Method SetTrailWidth addr 0x2269fdc size 0x8 virtual false final false
   inline void SetTrailWidth(float_t width);
 
-  /// @brief Method UpdateMesh addr 0x239f578 size 0x134 virtual false final false
+  /// @brief Method UpdateMesh addr 0x226960c size 0x134 virtual false final false
   inline void UpdateMesh(::GlobalNamespace::TrailElementCollection* trailElementCollection, ::UnityEngine::Color color);
 
-  /// @brief Method UpdateVertices addr 0x239ff50 size 0x470 virtual true final false
+  /// @brief Method UpdateVertices addr 0x2269fe4 size 0x470 virtual true final false
   inline void UpdateVertices(::GlobalNamespace::TrailElementCollection* trailElementCollection, ::UnityEngine::Color color);
 
-  /// @brief Method UpdateIndices addr 0x239fc04 size 0x158 virtual false final false
+  /// @brief Method UpdateIndices addr 0x2269c98 size 0x158 virtual false final false
   inline void UpdateIndices();
 
   static inline ::GlobalNamespace::SaberTrailRenderer* New_ctor();
 
-  /// @brief Method .ctor addr 0x23a0654 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x226a6e8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberTrailRenderer", modifiers: "&&", def_value: None }]
@@ -259,6 +259,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberTrailRenderer, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____meshRenderer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____meshFilter) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____mesh) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____vertices) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____indices) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____uvs) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____colors) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____trailWidth) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____trailDuration) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____segmentDuration) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____granularity) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____whiteSectionMaxDuration) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberTrailRenderer);

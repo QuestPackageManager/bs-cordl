@@ -11,20 +11,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DiscLight)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct LinearColor;
+struct FalloffType;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct LightMode;
+struct LinearColor;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct FalloffType;
+struct LightMode;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {
@@ -36,8 +36,8 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::DiscLight);
 // SizeInfo { instance_size: 80, native_size: 84, calculated_instance_size: 80, calculated_native_size: 93, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10388)), TypeDefinitionIndex(TypeDefinitionIndex(10390)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10387)), TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10395)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10310)), TypeDefinitionIndex(TypeDefinitionIndex(10309)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10312))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10317)) CS Name:
 // ::UnityEngine.Experimental.GlobalIllumination::DiscLight
 struct CORDL_TYPE DiscLight {
 public:
@@ -93,6 +93,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::DiscLight, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DiscLight, instanceID) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DiscLight, shadow) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DiscLight, mode) == 0x5, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DiscLight, position) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DiscLight, orientation) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DiscLight, color) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DiscLight, indirectColor) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DiscLight, range) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DiscLight, radius) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DiscLight, falloff) == 0x4c, "Offset mismatch!");
 
 } // namespace UnityEngine::Experimental::GlobalIllumination
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::DiscLight, "UnityEngine.Experimental.GlobalIllumination", "DiscLight");

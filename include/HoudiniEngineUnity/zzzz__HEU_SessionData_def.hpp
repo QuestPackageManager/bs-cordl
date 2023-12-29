@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_SessionData)
 namespace HoudiniEngineUnity {
-struct HAPI_SessionType;
-}
-namespace HoudiniEngineUnity {
-struct SessionConnectionState;
-}
-namespace System {
-class Type;
+class HEU_SessionSyncData;
 }
 namespace HoudiniEngineUnity {
 struct SessionMode;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionSyncData;
+struct SessionConnectionState;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_SessionType;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_SessionData);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9783)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9728)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9782))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9784)) CS Name: ::HoudiniEngineUnity::HEU_SessionData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(9655)), TypeDefinitionIndex(TypeDefinitionIndex(9709)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9710))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9711)) CS Name: ::HoudiniEngineUnity::HEU_SessionData*
 class CORDL_TYPE HEU_SessionData : public ::System::Object {
 public:
   // Declarations
@@ -160,84 +160,84 @@ public:
 
   static inline int64_t getStaticF_INVALID_SESSION_ID();
 
-  /// @brief Method GetOrCreateSessionSync addr 0x21a26fc size 0x68 virtual false final false
+  /// @brief Method GetOrCreateSessionSync addr 0x204bd60 size 0x68 virtual false final false
   inline ::HoudiniEngineUnity::HEU_SessionSyncData* GetOrCreateSessionSync();
 
-  /// @brief Method GetSessionSync addr 0x21a2810 size 0x8 virtual false final false
+  /// @brief Method GetSessionSync addr 0x204be74 size 0x8 virtual false final false
   inline ::HoudiniEngineUnity::HEU_SessionSyncData* GetSessionSync();
 
-  /// @brief Method SetSessionSync addr 0x21a2818 size 0x8 virtual false final false
+  /// @brief Method SetSessionSync addr 0x204be7c size 0x8 virtual false final false
   inline void SetSessionSync(::HoudiniEngineUnity::HEU_SessionSyncData* syncData);
 
-  /// @brief Method get_SessionID addr 0x21a2820 size 0x58 virtual false final false
+  /// @brief Method get_SessionID addr 0x204be84 size 0x58 virtual false final false
   inline int64_t get_SessionID();
 
-  /// @brief Method set_SessionID addr 0x21a1f04 size 0x8 virtual false final false
+  /// @brief Method set_SessionID addr 0x204b568 size 0x8 virtual false final false
   inline void set_SessionID(int64_t value);
 
-  /// @brief Method get_ProcessID addr 0x21a2878 size 0x8 virtual false final false
+  /// @brief Method get_ProcessID addr 0x204bedc size 0x8 virtual false final false
   inline int32_t get_ProcessID();
 
-  /// @brief Method set_ProcessID addr 0x21a2880 size 0x8 virtual false final false
+  /// @brief Method set_ProcessID addr 0x204bee4 size 0x8 virtual false final false
   inline void set_ProcessID(int32_t value);
 
-  /// @brief Method get_SessionType addr 0x21a2888 size 0x8 virtual false final false
+  /// @brief Method get_SessionType addr 0x204beec size 0x8 virtual false final false
   inline ::HoudiniEngineUnity::HAPI_SessionType get_SessionType();
 
-  /// @brief Method set_SessionType addr 0x21a2890 size 0x8 virtual false final false
+  /// @brief Method set_SessionType addr 0x204bef4 size 0x8 virtual false final false
   inline void set_SessionType(::HoudiniEngineUnity::HAPI_SessionType value);
 
-  /// @brief Method get_IsInitialized addr 0x21a2898 size 0x8 virtual false final false
+  /// @brief Method get_IsInitialized addr 0x204befc size 0x8 virtual false final false
   inline bool get_IsInitialized();
 
-  /// @brief Method set_IsInitialized addr 0x21a28a0 size 0xc virtual false final false
+  /// @brief Method set_IsInitialized addr 0x204bf04 size 0xc virtual false final false
   inline void set_IsInitialized(bool value);
 
-  /// @brief Method get_IsValidSessionID addr 0x21a28ac size 0x8 virtual false final false
+  /// @brief Method get_IsValidSessionID addr 0x204bf10 size 0x8 virtual false final false
   inline bool get_IsValidSessionID();
 
-  /// @brief Method get_PipeName addr 0x21a28b4 size 0x40 virtual false final false
+  /// @brief Method get_PipeName addr 0x204bf18 size 0x40 virtual false final false
   inline ::StringW get_PipeName();
 
-  /// @brief Method set_PipeName addr 0x21a28f4 size 0x8 virtual false final false
+  /// @brief Method set_PipeName addr 0x204bf58 size 0x8 virtual false final false
   inline void set_PipeName(::StringW value);
 
-  /// @brief Method get_Port addr 0x21a28fc size 0x8 virtual false final false
+  /// @brief Method get_Port addr 0x204bf60 size 0x8 virtual false final false
   inline int32_t get_Port();
 
-  /// @brief Method set_Port addr 0x21a2904 size 0x8 virtual false final false
+  /// @brief Method set_Port addr 0x204bf68 size 0x8 virtual false final false
   inline void set_Port(int32_t value);
 
-  /// @brief Method get_SessionClassType addr 0x21a290c size 0xa8 virtual false final false
+  /// @brief Method get_SessionClassType addr 0x204bf70 size 0xa8 virtual false final false
   inline ::System::Type* get_SessionClassType();
 
-  /// @brief Method set_SessionClassType addr 0x21a29b4 size 0x30 virtual false final false
+  /// @brief Method set_SessionClassType addr 0x204c018 size 0x30 virtual false final false
   inline void set_SessionClassType(::System::Type* value);
 
-  /// @brief Method get_IsDefaultSession addr 0x21a29e4 size 0x8 virtual false final false
+  /// @brief Method get_IsDefaultSession addr 0x204c048 size 0x8 virtual false final false
   inline bool get_IsDefaultSession();
 
-  /// @brief Method set_IsDefaultSession addr 0x21a29ec size 0xc virtual false final false
+  /// @brief Method set_IsDefaultSession addr 0x204c050 size 0xc virtual false final false
   inline void set_IsDefaultSession(bool value);
 
-  /// @brief Method get_IsSessionSync addr 0x21a1ac4 size 0x10 virtual false final false
+  /// @brief Method get_IsSessionSync addr 0x204b128 size 0x10 virtual false final false
   inline bool get_IsSessionSync();
 
-  /// @brief Method get_ThisConnectionMode addr 0x21a29f8 size 0x8 virtual false final false
+  /// @brief Method get_ThisConnectionMode addr 0x204c05c size 0x8 virtual false final false
   inline ::HoudiniEngineUnity::SessionConnectionState get_ThisConnectionMode();
 
-  /// @brief Method set_ThisConnectionMode addr 0x21a2a00 size 0x8 virtual false final false
+  /// @brief Method set_ThisConnectionMode addr 0x204c064 size 0x8 virtual false final false
   inline void set_ThisConnectionMode(::HoudiniEngineUnity::SessionConnectionState value);
 
-  /// @brief Method get_ThisSessionMode addr 0x21a2a08 size 0x8 virtual false final false
+  /// @brief Method get_ThisSessionMode addr 0x204c06c size 0x8 virtual false final false
   inline ::HoudiniEngineUnity::SessionMode get_ThisSessionMode();
 
-  /// @brief Method set_ThisSessionMode addr 0x21a2a10 size 0x8 virtual false final false
+  /// @brief Method set_ThisSessionMode addr 0x204c074 size 0x8 virtual false final false
   inline void set_ThisSessionMode(::HoudiniEngineUnity::SessionMode value);
 
   static inline ::HoudiniEngineUnity::HEU_SessionData* New_ctor();
 
-  /// @brief Method .ctor addr 0x21a2a18 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x204c07c size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_SessionData", modifiers: "&&", def_value: None }]
@@ -288,6 +288,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_SessionData, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionData, ____HAPISession) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionData, ____serverProcessID) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionData, ____initialized) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionData, ____pipeName) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionData, ____port) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionData, ____sessionClassType) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionData, ____isDefaultSession) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionData, ____sessionSync) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionData, ____connectionState) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionData, ____sessionMode) == 0x54, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_SessionData);

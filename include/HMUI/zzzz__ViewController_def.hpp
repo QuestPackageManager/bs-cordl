@@ -15,13 +15,13 @@ namespace UnityEngine {
 class CanvasGroup;
 }
 namespace HMUI {
-class Screen;
+struct __ViewController__AnimationDirection;
 }
 namespace UnityEngine {
 class RectTransform;
 }
 namespace HMUI {
-class __ViewController___PresentViewControllerCoroutine_d__58;
+class __ViewController___DismissViewControllerCoroutine_d__62;
 }
 namespace HMUI {
 class ContainerViewController;
@@ -30,22 +30,10 @@ namespace HMUI {
 class __ViewController__DidActivateDelegate;
 }
 namespace HMUI {
-class __ViewController___DismissViewControllerCoroutine_d__62;
+class __ViewController___PresentViewControllerCoroutine_d__58;
 }
 namespace HMUI {
-struct __ViewController__AnimationType;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace HMUI {
-class __ViewController__DidDeactivateDelegate;
-}
-namespace System {
-class Action;
-}
-namespace HMUI {
-struct __ViewController__AnimationDirection;
+class Screen;
 }
 namespace UnityEngine::EventSystems {
 class BaseRaycaster;
@@ -54,22 +42,34 @@ namespace HMUI {
 class ButtonBinder;
 }
 namespace HMUI {
+class __ViewController__DidDeactivateDelegate;
+}
+namespace HMUI {
 class __ViewController___ReplaceViewControllerCoroutine_d__60;
 }
 namespace System {
-class AsyncCallback;
+class Action;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace HMUI {
+struct __ViewController__AnimationType;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
-class IDisposable;
+class IAsyncResult;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace HMUI {
@@ -109,24 +109,24 @@ MARK_REF_PTR_T(::HMUI::__ViewController___ReplaceViewControllerCoroutine_d__60);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13598))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13715))
 // CS Name: ::ViewController::DidActivateDelegate*
 class CORDL_TYPE __ViewController__DidActivateDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::HMUI::__ViewController__DidActivateDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x212dad4 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x1fd6138 size 0xc4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x212db98 size 0x20 virtual true final false
+  /// @brief Method Invoke addr 0x1fd61fc size 0x20 virtual true final false
   inline void Invoke(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method BeginInvoke addr 0x212dbb8 size 0xc0 virtual true final false
+  /// @brief Method BeginInvoke addr 0x1fd621c size 0xc0 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x212dc78 size 0xc virtual true final false
+  /// @brief Method EndInvoke addr 0x1fd62dc size 0xc virtual true final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ViewController__DidActivateDelegate", modifiers: "&&", def_value: None }]
@@ -153,24 +153,24 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__ViewController__DidActiv
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13599))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13716))
 // CS Name: ::ViewController::DidDeactivateDelegate*
 class CORDL_TYPE __ViewController__DidDeactivateDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::HMUI::__ViewController__DidDeactivateDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x212dc84 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x1fd62e8 size 0xc4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x212dd48 size 0x1c virtual true final false
+  /// @brief Method Invoke addr 0x1fd63ac size 0x1c virtual true final false
   inline void Invoke(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method BeginInvoke addr 0x212dd64 size 0xa4 virtual true final false
+  /// @brief Method BeginInvoke addr 0x1fd63c8 size 0xa4 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(bool removedFromHierarchy, bool screenSystemDisabling, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x212de08 size 0xc virtual true final false
+  /// @brief Method EndInvoke addr 0x1fd646c size 0xc virtual true final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ViewController__DidDeactivateDelegate", modifiers: "&&", def_value: None }]
@@ -198,7 +198,7 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__ViewController__DidDeact
 namespace HMUI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13600))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13717))
 // CS Name: ::ViewController::AnimationType
 struct CORDL_TYPE __ViewController__AnimationType {
 public:
@@ -244,13 +244,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__ViewController__AnimationType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__ViewController__AnimationType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: ::AnimationDirection
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13601))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13718))
 // CS Name: ::ViewController::AnimationDirection
 struct CORDL_TYPE __ViewController__AnimationDirection {
 public:
@@ -292,13 +294,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__ViewController__AnimationDirection, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__ViewController__AnimationDirection, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: ::<PresentViewControllerCoroutine>d__58
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13602))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13718)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13719))
 // CS Name: ::ViewController::<PresentViewControllerCoroutine>d__58*
 class CORDL_TYPE __ViewController___PresentViewControllerCoroutine_d__58 : public ::System::Object {
 public:
@@ -381,22 +385,22 @@ public:
 
   static inline ::HMUI::__ViewController___PresentViewControllerCoroutine_d__58* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x212d548 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1fd5bac size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x212de14 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x1fd6478 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x212de18 size 0x210 virtual true final true
+  /// @brief Method MoveNext addr 0x1fd647c size 0x210 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x212e1b0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1fd6814 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x212e1b8 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1fd681c size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x212e1f8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1fd685c size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ViewController___PresentViewControllerCoroutine_d__58", modifiers: "&&", def_value: None }]
@@ -439,13 +443,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__ViewController___PresentViewControllerCoroutine_d__58, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__ViewController___PresentViewControllerCoroutine_d__58, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___PresentViewControllerCoroutine_d__58, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___PresentViewControllerCoroutine_d__58, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___PresentViewControllerCoroutine_d__58, ___newViewController) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___PresentViewControllerCoroutine_d__58, ___immediately) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___PresentViewControllerCoroutine_d__58, ___animationDirection) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___PresentViewControllerCoroutine_d__58, ___finishedCallback) == 0x38, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: ::<ReplaceViewControllerCoroutine>d__60
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(13600))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13603))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13717)), TypeDefinitionIndex(TypeDefinitionIndex(13718)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13720))
 // CS Name: ::ViewController::<ReplaceViewControllerCoroutine>d__60*
 class CORDL_TYPE __ViewController___ReplaceViewControllerCoroutine_d__60 : public ::System::Object {
 public:
@@ -528,22 +546,22 @@ public:
 
   static inline ::HMUI::__ViewController___ReplaceViewControllerCoroutine_d__60* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x212d620 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1fd5c84 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x212e200 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x1fd6864 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x212e204 size 0x25c virtual true final true
+  /// @brief Method MoveNext addr 0x1fd6868 size 0x25c virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x212e460 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1fd6ac4 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x212e468 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1fd6acc size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x212e4a8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1fd6b0c size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ViewController___ReplaceViewControllerCoroutine_d__60", modifiers: "&&", def_value: None }]
@@ -586,13 +604,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__ViewController___ReplaceViewControllerCoroutine_d__60, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__ViewController___ReplaceViewControllerCoroutine_d__60, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___ReplaceViewControllerCoroutine_d__60, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___ReplaceViewControllerCoroutine_d__60, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___ReplaceViewControllerCoroutine_d__60, ___newViewController) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___ReplaceViewControllerCoroutine_d__60, ___animationType) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___ReplaceViewControllerCoroutine_d__60, ___animationDirection) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___ReplaceViewControllerCoroutine_d__60, ___finishedCallback) == 0x38, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: ::<DismissViewControllerCoroutine>d__62
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13604))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(13718))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13721))
 // CS Name: ::ViewController::<DismissViewControllerCoroutine>d__62*
 class CORDL_TYPE __ViewController___DismissViewControllerCoroutine_d__62 : public ::System::Object {
 public:
@@ -675,22 +707,22 @@ public:
 
   static inline ::HMUI::__ViewController___DismissViewControllerCoroutine_d__62* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x212d700 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1fd5d64 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x212e4b0 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x1fd6b14 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x212e4b4 size 0x1a0 virtual true final true
+  /// @brief Method MoveNext addr 0x1fd6b18 size 0x1a0 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x212e6e0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1fd6d44 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x212e6e8 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1fd6d4c size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x212e728 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1fd6d8c size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ViewController___DismissViewControllerCoroutine_d__62", modifiers: "&&", def_value: None }]
@@ -733,13 +765,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__ViewController___DismissViewControllerCoroutine_d__62, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__ViewController___DismissViewControllerCoroutine_d__62, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___DismissViewControllerCoroutine_d__62, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___DismissViewControllerCoroutine_d__62, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___DismissViewControllerCoroutine_d__62, ___immediately) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___DismissViewControllerCoroutine_d__62, ___animationDirection) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___DismissViewControllerCoroutine_d__62, ___finishedCallback) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ViewController___DismissViewControllerCoroutine_d__62, ____movingInViewController_5__2) == 0x38, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: HMUI::ViewController
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13605))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13722))
 // CS Name: ::HMUI::ViewController*
 class CORDL_TYPE ViewController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -901,120 +947,120 @@ public:
 
   constexpr void __set__graphicRaycaster(::UnityEngine::EventSystems::BaseRaycaster* value);
 
-  /// @brief Method get_containerViewController addr 0x212ce90 size 0x8 virtual false final false
+  /// @brief Method get_containerViewController addr 0x1fd54f4 size 0x8 virtual false final false
   inline ::HMUI::ContainerViewController* get_containerViewController();
 
-  /// @brief Method get_screen addr 0x212ce98 size 0x8 virtual false final false
+  /// @brief Method get_screen addr 0x1fd54fc size 0x8 virtual false final false
   inline ::HMUI::Screen* get_screen();
 
-  /// @brief Method get_parentViewController addr 0x212cea0 size 0x8 virtual false final false
+  /// @brief Method get_parentViewController addr 0x1fd5504 size 0x8 virtual false final false
   inline ::HMUI::ViewController* get_parentViewController();
 
-  /// @brief Method get_childViewController addr 0x212cea8 size 0x8 virtual false final false
+  /// @brief Method get_childViewController addr 0x1fd550c size 0x8 virtual false final false
   inline ::HMUI::ViewController* get_childViewController();
 
-  /// @brief Method get_isInViewControllerHierarchy addr 0x212ceb0 size 0x60 virtual false final false
+  /// @brief Method get_isInViewControllerHierarchy addr 0x1fd5514 size 0x60 virtual false final false
   inline bool get_isInViewControllerHierarchy();
 
-  /// @brief Method get_isActivated addr 0x212cf10 size 0x8 virtual false final false
+  /// @brief Method get_isActivated addr 0x1fd5574 size 0x8 virtual false final false
   inline bool get_isActivated();
 
-  /// @brief Method get_wasActivatedBefore addr 0x212cf18 size 0x8 virtual false final false
+  /// @brief Method get_wasActivatedBefore addr 0x1fd557c size 0x8 virtual false final false
   inline bool get_wasActivatedBefore();
 
-  /// @brief Method get_isInTransition addr 0x212cf20 size 0x8 virtual false final false
+  /// @brief Method get_isInTransition addr 0x1fd5584 size 0x8 virtual false final false
   inline bool get_isInTransition();
 
-  /// @brief Method set_isInTransition addr 0x212cf28 size 0xc virtual false final false
+  /// @brief Method set_isInTransition addr 0x1fd558c size 0xc virtual false final false
   inline void set_isInTransition(bool value);
 
-  /// @brief Method get_enableUserInteractions addr 0x212cf34 size 0x1c virtual false final false
+  /// @brief Method get_enableUserInteractions addr 0x1fd5598 size 0x1c virtual false final false
   inline bool get_enableUserInteractions();
 
-  /// @brief Method set_enableUserInteractions addr 0x212caa8 size 0x24 virtual false final false
+  /// @brief Method set_enableUserInteractions addr 0x1fd5078 size 0x24 virtual false final false
   inline void set_enableUserInteractions(bool value);
 
-  /// @brief Method add_didActivateEvent addr 0x212cfe4 size 0x9c virtual false final false
+  /// @brief Method add_didActivateEvent addr 0x1fd5648 size 0x9c virtual false final false
   inline void add_didActivateEvent(::HMUI::__ViewController__DidActivateDelegate* value);
 
-  /// @brief Method remove_didActivateEvent addr 0x212d080 size 0x9c virtual false final false
+  /// @brief Method remove_didActivateEvent addr 0x1fd56e4 size 0x9c virtual false final false
   inline void remove_didActivateEvent(::HMUI::__ViewController__DidActivateDelegate* value);
 
-  /// @brief Method add_didDeactivateEvent addr 0x212d11c size 0x9c virtual false final false
+  /// @brief Method add_didDeactivateEvent addr 0x1fd5780 size 0x9c virtual false final false
   inline void add_didDeactivateEvent(::HMUI::__ViewController__DidDeactivateDelegate* value);
 
-  /// @brief Method remove_didDeactivateEvent addr 0x212d1b8 size 0x9c virtual false final false
+  /// @brief Method remove_didDeactivateEvent addr 0x1fd581c size 0x9c virtual false final false
   inline void remove_didDeactivateEvent(::HMUI::__ViewController__DidDeactivateDelegate* value);
 
-  /// @brief Method get_buttonBinder addr 0x212d254 size 0x8 virtual false final false
+  /// @brief Method get_buttonBinder addr 0x1fd58b8 size 0x8 virtual false final false
   inline ::HMUI::ButtonBinder* get_buttonBinder();
 
-  /// @brief Method set_buttonBinder addr 0x212d25c size 0x8 virtual false final false
+  /// @brief Method set_buttonBinder addr 0x1fd58c0 size 0x8 virtual false final false
   inline void set_buttonBinder(::HMUI::ButtonBinder* value);
 
-  /// @brief Method get_rectTransform addr 0x212b538 size 0x94 virtual false final false
+  /// @brief Method get_rectTransform addr 0x1fd5318 size 0x94 virtual false final false
   inline ::UnityEngine::RectTransform* get_rectTransform();
 
-  /// @brief Method get_canvasGroup addr 0x212c190 size 0x94 virtual false final false
+  /// @brief Method get_canvasGroup addr 0x1fd4760 size 0x94 virtual false final false
   inline ::UnityEngine::CanvasGroup* get_canvasGroup();
 
-  /// @brief Method get_graphicRaycaster addr 0x212cf50 size 0x94 virtual false final false
+  /// @brief Method get_graphicRaycaster addr 0x1fd55b4 size 0x94 virtual false final false
   inline ::UnityEngine::EventSystems::BaseRaycaster* get_graphicRaycaster();
 
-  /// @brief Method OnDestroy addr 0x212d264 size 0x48 virtual true final false
+  /// @brief Method OnDestroy addr 0x1fd58c8 size 0x48 virtual true final false
   inline void OnDestroy();
 
-  /// @brief Method DidActivate addr 0x212d2ac size 0x4 virtual true final false
+  /// @brief Method DidActivate addr 0x1fd5910 size 0x4 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x212d2b0 size 0x4 virtual true final false
+  /// @brief Method DidDeactivate addr 0x1fd5914 size 0x4 virtual true final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method __Init addr 0x212d2b4 size 0x118 virtual true final false
+  /// @brief Method __Init addr 0x1fd5918 size 0x118 virtual true final false
   inline void __Init(::HMUI::Screen* screen, ::HMUI::ViewController* parentViewController, ::HMUI::ContainerViewController* containerViewController);
 
-  /// @brief Method __ResetViewController addr 0x212d3cc size 0xc0 virtual true final false
+  /// @brief Method __ResetViewController addr 0x1fd5a30 size 0xc0 virtual true final false
   inline void __ResetViewController();
 
-  /// @brief Method __PresentViewController addr 0x212d48c size 0x24 virtual false final false
+  /// @brief Method __PresentViewController addr 0x1fd5af0 size 0x24 virtual false final false
   inline void __PresentViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, ::HMUI::__ViewController__AnimationDirection animationDirection, bool immediately);
 
-  /// @brief Method PresentViewControllerCoroutine addr 0x212d4b0 size 0x98 virtual false final false
+  /// @brief Method PresentViewControllerCoroutine addr 0x1fd5b14 size 0x98 virtual false final false
   inline ::System::Collections::IEnumerator* PresentViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback,
                                                                             ::HMUI::__ViewController__AnimationDirection animationDirection, bool immediately);
 
-  /// @brief Method __ReplaceViewController addr 0x212d570 size 0x20 virtual false final false
+  /// @brief Method __ReplaceViewController addr 0x1fd5bd4 size 0x20 virtual false final false
   inline void __ReplaceViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, ::HMUI::__ViewController__AnimationType animationType,
                                       ::HMUI::__ViewController__AnimationDirection animationDirection);
 
-  /// @brief Method ReplaceViewControllerCoroutine addr 0x212d590 size 0x90 virtual false final false
+  /// @brief Method ReplaceViewControllerCoroutine addr 0x1fd5bf4 size 0x90 virtual false final false
   inline ::System::Collections::IEnumerator* ReplaceViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback,
                                                                             ::HMUI::__ViewController__AnimationType animationType, ::HMUI::__ViewController__AnimationDirection animationDirection);
 
-  /// @brief Method __DismissViewController addr 0x212d648 size 0x24 virtual false final false
+  /// @brief Method __DismissViewController addr 0x1fd5cac size 0x24 virtual false final false
   inline void __DismissViewController(::System::Action* finishedCallback, ::HMUI::__ViewController__AnimationDirection animationDirection, bool immediately);
 
-  /// @brief Method DismissViewControllerCoroutine addr 0x212d66c size 0x94 virtual false final false
+  /// @brief Method DismissViewControllerCoroutine addr 0x1fd5cd0 size 0x94 virtual false final false
   inline ::System::Collections::IEnumerator* DismissViewControllerCoroutine(::System::Action* finishedCallback, ::HMUI::__ViewController__AnimationDirection animationDirection, bool immediately);
 
-  /// @brief Method __Activate addr 0x212d728 size 0xd0 virtual true final false
+  /// @brief Method __Activate addr 0x1fd5d8c size 0xd0 virtual true final false
   inline void __Activate(bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method __Deactivate addr 0x212d7f8 size 0xb8 virtual true final false
+  /// @brief Method __Deactivate addr 0x1fd5e5c size 0xb8 virtual true final false
   inline void __Deactivate(bool removedFromHierarchy, bool deactivateGameObject, bool screenSystemDisabling);
 
-  /// @brief Method DeactivateGameObject addr 0x212d8b0 size 0x4c virtual true final false
+  /// @brief Method DeactivateGameObject addr 0x1fd5f14 size 0x4c virtual true final false
   inline void DeactivateGameObject();
 
-  /// @brief Method IsViewControllerInHierarchy addr 0x212d8fc size 0x180 virtual false final false
+  /// @brief Method IsViewControllerInHierarchy addr 0x1fd5f60 size 0x180 virtual false final false
   inline bool IsViewControllerInHierarchy(::HMUI::ViewController* viewController);
 
-  /// @brief Method Log addr 0x212da7c size 0x58 virtual false final false
+  /// @brief Method Log addr 0x1fd60e0 size 0x58 virtual false final false
   static inline void Log(::StringW message);
 
   static inline ::HMUI::ViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x212ce88 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fd54ec size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ViewController", modifiers: "&&", def_value: None }]
@@ -1080,6 +1126,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::ViewController, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::ViewController, ___didActivateEvent) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ViewController, ___didDeactivateEvent) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ViewController, ____buttonBinder_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ViewController, ____containerViewController) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ViewController, ____parentViewController) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ViewController, ____childViewController) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ViewController, ____screen) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ViewController, ____rectTransform) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ViewController, ____canvasGroup) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ViewController, ____wasActivatedBefore) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ViewController, ____isActivated) == 0x61, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ViewController, ____isInTransition) == 0x62, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ViewController, ____graphicRaycaster) == 0x68, "Offset mismatch!");
 
 } // namespace HMUI
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::__ViewController__AnimationDirection, "HMUI", "ViewController/AnimationDirection");

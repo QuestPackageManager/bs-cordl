@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::MacOsStructs::sockaddr_in);
 namespace System::Net::NetworkInformation::MacOsStructs {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9296))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8133))
 // CS Name: ::System.Net.NetworkInformation.MacOsStructs::sockaddr_in
 struct CORDL_TYPE sockaddr_in {
 public:
@@ -48,6 +48,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::MacOsStructs::sockaddr_in, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_in, sin_len) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_in, sin_family) == 0x1, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_in, sin_port) == 0x2, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_in, sin_addr) == 0x4, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation::MacOsStructs
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::MacOsStructs::sockaddr_in, "System.Net.NetworkInformation.MacOsStructs", "sockaddr_in");

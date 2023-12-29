@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::InAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3325))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3322))
 // CS Name: ::System.Runtime.InteropServices::InAttribute*
 class CORDL_TYPE InAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::InteropServices::InAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x24d72d0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x237e3e8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InAttribute", modifiers: "&&", def_value: None }]

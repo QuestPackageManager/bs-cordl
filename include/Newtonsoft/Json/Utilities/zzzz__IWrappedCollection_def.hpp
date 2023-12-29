@@ -4,16 +4,16 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IWrappedCollection)
 namespace System::Collections {
-class IList;
+class ICollection;
 }
 namespace System::Collections {
-class IEnumerable;
+class IList;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections {
-class ICollection;
+class IEnumerable;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::IWrappedCollection);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11877))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11805))
 // CS Name: ::Newtonsoft.Json.Utilities::IWrappedCollection*
 class CORDL_TYPE IWrappedCollection {
 public:

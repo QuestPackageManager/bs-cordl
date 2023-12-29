@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__NoTransitionInstaller_def.hpp"
 CORDL_MODULE_EXPORT(TutorialNoTransitionInstaller)
-namespace Zenject {
-class DiContainer;
+namespace GlobalNamespace {
+class TutorialScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettings;
 }
-namespace GlobalNamespace {
-class TutorialScenesTransitionSetupDataSO;
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialNoTransitionInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6044))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11104))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6099))
 // CS Name: ::TutorialNoTransitionInstaller*
 class CORDL_TYPE TutorialNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
@@ -47,12 +47,12 @@ public:
 
   constexpr void __set__playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  /// @brief Method InstallBindings addr 0x231bfc4 size 0x40 virtual true final false
+  /// @brief Method InstallBindings addr 0x21c85e4 size 0x44 virtual true final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::TutorialNoTransitionInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x231c280 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21c8628 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialNoTransitionInstaller", modifiers: "&&", def_value: None }]
@@ -79,6 +79,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialNoTransitionInstaller, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialNoTransitionInstaller, ____scenesTransitionSetupData) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TutorialNoTransitionInstaller, ____playerSpecificSettings) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TutorialNoTransitionInstaller);

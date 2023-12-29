@@ -5,56 +5,56 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RichPresenceManager)
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
-struct MultiplayerGameState;
-}
-namespace GlobalNamespace {
-class PlayingTutorialPresenceData;
-}
-namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class BrowsingMenusRichPresenceData;
-}
-namespace GlobalNamespace {
-class IRichPresencePlatformHandler;
-}
-namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
-}
-namespace GlobalNamespace {
-class IRichPresenceData;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class LobbyGameStateModel;
+class MenuScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
+class IRichPresenceData;
+}
+namespace GlobalNamespace {
 class MissionLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class IUnifiedNetworkPlayerModel;
+class PlayingTutorialPresenceData;
 }
 namespace GlobalNamespace {
 class InMultiplayerRichPresenceData;
 }
 namespace GlobalNamespace {
-class PlayingCampaignRichPresenceData;
+class StandardLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class LobbyGameStateModel;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class MenuScenesTransitionSetupDataSO;
+class MultiplayerLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class LobbyPlayerPermissionsModel;
+}
+namespace GlobalNamespace {
+class BrowsingMenusRichPresenceData;
+}
+namespace GlobalNamespace {
+class IUnifiedNetworkPlayerModel;
+}
+namespace GlobalNamespace {
+class PlayingCampaignRichPresenceData;
+}
+namespace GlobalNamespace {
+struct MultiplayerGameState;
+}
+namespace GlobalNamespace {
+class IRichPresencePlatformHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -66,8 +66,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RichPresenceManager);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4678))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4799))
 // CS Name: ::RichPresenceManager*
 class CORDL_TYPE RichPresenceManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -229,36 +229,36 @@ public:
 
   constexpr void __set__currentPresenceData(::GlobalNamespace::IRichPresenceData* value);
 
-  /// @brief Method Awake addr 0x2374340 size 0x29c virtual false final false
+  /// @brief Method Awake addr 0x223fc38 size 0x29c virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x23745dc size 0x264 virtual false final false
+  /// @brief Method OnDestroy addr 0x223fed4 size 0x264 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleLobbyGameStateModelDidChange addr 0x2374840 size 0x1c virtual false final false
+  /// @brief Method HandleLobbyGameStateModelDidChange addr 0x2240138 size 0x1c virtual false final false
   inline void HandleLobbyGameStateModelDidChange(::GlobalNamespace::MultiplayerGameState newGameState);
 
-  /// @brief Method SetMenuPresence addr 0x237485c size 0x22c virtual false final false
+  /// @brief Method SetMenuPresence addr 0x2240154 size 0x22c virtual false final false
   inline void SetMenuPresence();
 
-  /// @brief Method HandleGameScenesManagerTransitionDidFinish addr 0x2374b34 size 0x324 virtual false final false
+  /// @brief Method HandleGameScenesManagerTransitionDidFinish addr 0x224042c size 0x324 virtual false final false
   inline void HandleGameScenesManagerTransitionDidFinish(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* diContainer);
 
-  /// @brief Method HandleMultiplayerPartySizeChanged addr 0x2374f00 size 0x1d0 virtual false final false
+  /// @brief Method HandleMultiplayerPartySizeChanged addr 0x22407f8 size 0x1d0 virtual false final false
   inline void HandleMultiplayerPartySizeChanged(int32_t currentPartySize);
 
-  /// @brief Method HandleLobbyPlayerPermissionChanged addr 0x23750d0 size 0x154 virtual false final false
+  /// @brief Method HandleLobbyPlayerPermissionChanged addr 0x22409c8 size 0x154 virtual false final false
   inline void HandleLobbyPlayerPermissionChanged();
 
-  /// @brief Method SetPresence addr 0x2374a88 size 0xac virtual false final false
+  /// @brief Method SetPresence addr 0x2240380 size 0xac virtual false final false
   inline void SetPresence(::GlobalNamespace::IRichPresenceData* presenceData);
 
-  /// @brief Method Clear addr 0x2374e58 size 0xa8 virtual false final false
+  /// @brief Method Clear addr 0x2240750 size 0xa8 virtual false final false
   inline void Clear();
 
   static inline ::GlobalNamespace::RichPresenceManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2375224 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2240b1c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RichPresenceManager", modifiers: "&&", def_value: None }]
@@ -330,6 +330,40 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RichPresenceManager, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____standardLevelScenesTransitionSetupData) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____tutorialScenesTransitionSetupData) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____missionLevelScenesTransitionSetupData) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____multiplayerLevelScenesTransitionSetupData) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____menuScenesTransitionSetupData) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____richPresencePlatformHandler) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____gameScenesManager) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____lobbyGameStateModel) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____unifiedNetworkPlayerModel) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____lobbyPlayerPermissionsModel) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____menuWasLoaded) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____isInMultiplayerLobby) == 0x69, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____browsingMenusRichPresenceData) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____inMultiplayerRichPresenceData) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____playingCampaignRichPresenceData) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____playingTutorialPresenceData) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____currentPresenceData) == 0x90, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RichPresenceManager);

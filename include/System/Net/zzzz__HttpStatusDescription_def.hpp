@@ -19,16 +19,16 @@ MARK_REF_PTR_T(::System::Net::HttpStatusDescription);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9021))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7858))
 // CS Name: ::System.Net::HttpStatusDescription*
 class CORDL_TYPE HttpStatusDescription : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get addr 0x2988644 size 0x4 virtual false final false
+  /// @brief Method Get addr 0x280add4 size 0x4 virtual false final false
   static inline ::StringW Get(::System::Net::HttpStatusCode code);
 
-  /// @brief Method Get addr 0x2988648 size 0x698 virtual false final false
+  /// @brief Method Get addr 0x280add8 size 0x698 virtual false final false
   static inline ::StringW Get(int32_t code);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpStatusDescription", modifiers: "&&", def_value: None }]

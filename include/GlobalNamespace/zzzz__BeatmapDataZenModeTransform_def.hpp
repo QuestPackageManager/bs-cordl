@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapDataZenModeTransform)
 namespace GlobalNamespace {
-class BeatmapDataItem;
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,16 +20,16 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataZenModeTransform);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4134))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4168))
 // CS Name: ::BeatmapDataZenModeTransform*
 class CORDL_TYPE BeatmapDataZenModeTransform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateTransformedData addr 0x223bb70 size 0xec virtual false final false
+  /// @brief Method CreateTransformedData addr 0x21cd724 size 0xec virtual false final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0_0 addr 0x223bedc size 0xb0 virtual false final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0_0 addr 0x21cda7c size 0xb0 virtual false final false
   static inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataZenModeTransform", modifiers: "&&", def_value: None }]

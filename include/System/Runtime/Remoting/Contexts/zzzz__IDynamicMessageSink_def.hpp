@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IDynamicMessageSink);
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3112))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3111))
 // CS Name: ::System.Runtime.Remoting.Contexts::IDynamicMessageSink*
 class CORDL_TYPE IDynamicMessageSink {
 public:

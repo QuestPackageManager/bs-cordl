@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::LockRecursionPolicy);
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14317))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14655))
 // CS Name: ::System.Threading::LockRecursionPolicy
 struct CORDL_TYPE LockRecursionPolicy {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::LockRecursionPolicy, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::LockRecursionPolicy, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Threading
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::LockRecursionPolicy, "System.Threading", "LockRecursionPolicy");

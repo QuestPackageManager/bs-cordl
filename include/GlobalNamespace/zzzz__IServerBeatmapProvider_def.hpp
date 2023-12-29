@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IServerBeatmapProvider)
-namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 struct SongPackMask;
+}
+namespace GlobalNamespace {
+class BeatmapIdentifierNetSerializable;
 }
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IServerBeatmapProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12813))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12731))
 // CS Name: ::IServerBeatmapProvider*
 class CORDL_TYPE IServerBeatmapProvider {
 public:

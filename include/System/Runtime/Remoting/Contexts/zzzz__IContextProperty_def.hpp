@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IContextProperty);
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3106))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3105))
 // CS Name: ::System.Runtime.Remoting.Contexts::IContextProperty*
 class CORDL_TYPE IContextProperty {
 public:

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TransitionTimingSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5463))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15944)), TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5569))
 // CS Name: ::TransitionTimingSO*
 class CORDL_TYPE TransitionTimingSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -47,15 +47,15 @@ public:
 
   constexpr void __set__easeDuration(float_t value);
 
-  /// @brief Method get_easeType addr 0x228007c size 0x8 virtual false final false
+  /// @brief Method get_easeType addr 0x213eaf4 size 0x8 virtual false final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
-  /// @brief Method get_easeDuration addr 0x2280084 size 0x8 virtual false final false
+  /// @brief Method get_easeDuration addr 0x213eafc size 0x8 virtual false final false
   inline float_t get_easeDuration();
 
   static inline ::GlobalNamespace::TransitionTimingSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x228008c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x213eb04 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TransitionTimingSO", modifiers: "&&", def_value: None }]
@@ -82,6 +82,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TransitionTimingSO, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TransitionTimingSO, ____easeType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TransitionTimingSO, ____easeDuration) == 0x1c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TransitionTimingSO);

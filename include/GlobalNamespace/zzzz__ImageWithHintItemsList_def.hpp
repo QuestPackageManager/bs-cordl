@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::ImageWithHintItemsList);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13674)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13674), inst: 5218 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13628))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5426)) CS Name: ::ImageWithHintItemsList*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13791)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13791), inst: 5102 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13745))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5525)) CS Name: ::ImageWithHintItemsList*
 class CORDL_TYPE ImageWithHintItemsList : public ::HMUI::UIItemsList_1<::HMUI::ImageWithHint*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::ImageWithHintItemsList* New_ctor();
 
-  /// @brief Method .ctor addr 0x227a9d0 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x21376d4 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ImageWithHintItemsList", modifiers: "&&", def_value: None }]

@@ -12,31 +12,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VirtualMouseInput)
 namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::InputSystem {
-struct __InputAction__CallbackContext;
-}
-namespace UnityEngine::InputSystem {
-struct InputActionProperty;
+class Action;
 }
 namespace UnityEngine::InputSystem {
 class Mouse;
 }
-namespace UnityEngine::UI {
-class Graphic;
+namespace UnityEngine {
+class Canvas;
 }
 namespace System {
-class Action;
+template <typename T> class Action_1;
 }
 namespace UnityEngine::InputSystem::UI {
 struct __VirtualMouseInput__CursorMode;
 }
+namespace UnityEngine::InputSystem {
+struct InputActionProperty;
+}
 namespace UnityEngine {
-class Canvas;
+class RectTransform;
+}
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine::InputSystem {
+struct __InputAction__CallbackContext;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::UI {
@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::UI::VirtualMouseInput);
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6384))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6470))
 // CS Name: ::VirtualMouseInput::CursorMode
 struct CORDL_TYPE __VirtualMouseInput__CursorMode {
 public:
@@ -95,13 +95,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::UI::__VirtualMouseInput__CursorMode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::UI::__VirtualMouseInput__CursorMode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::UI
 // Type: UnityEngine.InputSystem.UI::VirtualMouseInput
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(6164)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6384))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6385)) CS Name: ::UnityEngine.InputSystem.UI::VirtualMouseInput*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(6470)), TypeDefinitionIndex(TypeDefinitionIndex(10152)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6250))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6471)) CS Name: ::UnityEngine.InputSystem.UI::VirtualMouseInput*
 class CORDL_TYPE VirtualMouseInput : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -305,111 +307,111 @@ public:
 
   constexpr void __set_m_LastStickValue(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_cursorTransform addr 0x2ad75b4 size 0x8 virtual false final false
+  /// @brief Method get_cursorTransform addr 0x295786c size 0x8 virtual false final false
   inline ::UnityEngine::RectTransform* get_cursorTransform();
 
-  /// @brief Method set_cursorTransform addr 0x2ad75bc size 0x8 virtual false final false
+  /// @brief Method set_cursorTransform addr 0x2957874 size 0x8 virtual false final false
   inline void set_cursorTransform(::UnityEngine::RectTransform* value);
 
-  /// @brief Method get_cursorSpeed addr 0x2ad75c4 size 0x8 virtual false final false
+  /// @brief Method get_cursorSpeed addr 0x295787c size 0x8 virtual false final false
   inline float_t get_cursorSpeed();
 
-  /// @brief Method set_cursorSpeed addr 0x2ad75cc size 0x8 virtual false final false
+  /// @brief Method set_cursorSpeed addr 0x2957884 size 0x8 virtual false final false
   inline void set_cursorSpeed(float_t value);
 
-  /// @brief Method get_cursorMode addr 0x2ad75d4 size 0x8 virtual false final false
+  /// @brief Method get_cursorMode addr 0x295788c size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::UI::__VirtualMouseInput__CursorMode get_cursorMode();
 
-  /// @brief Method set_cursorMode addr 0x2ad75dc size 0xf8 virtual false final false
+  /// @brief Method set_cursorMode addr 0x2957894 size 0xf8 virtual false final false
   inline void set_cursorMode(::UnityEngine::InputSystem::UI::__VirtualMouseInput__CursorMode value);
 
-  /// @brief Method get_cursorGraphic addr 0x2ad78ec size 0x8 virtual false final false
+  /// @brief Method get_cursorGraphic addr 0x2957ba4 size 0x8 virtual false final false
   inline ::UnityEngine::UI::Graphic* get_cursorGraphic();
 
-  /// @brief Method set_cursorGraphic addr 0x2ad78f4 size 0x8 virtual false final false
+  /// @brief Method set_cursorGraphic addr 0x2957bac size 0x8 virtual false final false
   inline void set_cursorGraphic(::UnityEngine::UI::Graphic* value);
 
-  /// @brief Method get_scrollSpeed addr 0x2ad7950 size 0x8 virtual false final false
+  /// @brief Method get_scrollSpeed addr 0x2957c08 size 0x8 virtual false final false
   inline float_t get_scrollSpeed();
 
-  /// @brief Method set_scrollSpeed addr 0x2ad7958 size 0x8 virtual false final false
+  /// @brief Method set_scrollSpeed addr 0x2957c10 size 0x8 virtual false final false
   inline void set_scrollSpeed(float_t value);
 
-  /// @brief Method get_virtualMouse addr 0x2ad7960 size 0x8 virtual false final false
+  /// @brief Method get_virtualMouse addr 0x2957c18 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Mouse* get_virtualMouse();
 
-  /// @brief Method get_stickAction addr 0x2ad7968 size 0x14 virtual false final false
+  /// @brief Method get_stickAction addr 0x2957c20 size 0x14 virtual false final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_stickAction();
 
-  /// @brief Method set_stickAction addr 0x2ad797c size 0x30 virtual false final false
+  /// @brief Method set_stickAction addr 0x2957c34 size 0x30 virtual false final false
   inline void set_stickAction(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method get_leftButtonAction addr 0x2ad7ad4 size 0x14 virtual false final false
+  /// @brief Method get_leftButtonAction addr 0x2957d8c size 0x14 virtual false final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_leftButtonAction();
 
-  /// @brief Method set_leftButtonAction addr 0x2ad7ae8 size 0x90 virtual false final false
+  /// @brief Method set_leftButtonAction addr 0x2957da0 size 0x90 virtual false final false
   inline void set_leftButtonAction(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method get_rightButtonAction addr 0x2ad7be8 size 0x14 virtual false final false
+  /// @brief Method get_rightButtonAction addr 0x2957ea0 size 0x14 virtual false final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_rightButtonAction();
 
-  /// @brief Method set_rightButtonAction addr 0x2ad7bfc size 0x90 virtual false final false
+  /// @brief Method set_rightButtonAction addr 0x2957eb4 size 0x90 virtual false final false
   inline void set_rightButtonAction(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method get_middleButtonAction addr 0x2ad7c8c size 0x14 virtual false final false
+  /// @brief Method get_middleButtonAction addr 0x2957f44 size 0x14 virtual false final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_middleButtonAction();
 
-  /// @brief Method set_middleButtonAction addr 0x2ad7ca0 size 0x90 virtual false final false
+  /// @brief Method set_middleButtonAction addr 0x2957f58 size 0x90 virtual false final false
   inline void set_middleButtonAction(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method get_forwardButtonAction addr 0x2ad7d30 size 0x14 virtual false final false
+  /// @brief Method get_forwardButtonAction addr 0x2957fe8 size 0x14 virtual false final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_forwardButtonAction();
 
-  /// @brief Method set_forwardButtonAction addr 0x2ad7d44 size 0x90 virtual false final false
+  /// @brief Method set_forwardButtonAction addr 0x2957ffc size 0x90 virtual false final false
   inline void set_forwardButtonAction(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method get_backButtonAction addr 0x2ad7dd4 size 0x14 virtual false final false
+  /// @brief Method get_backButtonAction addr 0x295808c size 0x14 virtual false final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_backButtonAction();
 
-  /// @brief Method set_backButtonAction addr 0x2ad7de8 size 0x90 virtual false final false
+  /// @brief Method set_backButtonAction addr 0x29580a0 size 0x90 virtual false final false
   inline void set_backButtonAction(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method get_scrollWheelAction addr 0x2ad7e78 size 0x14 virtual false final false
+  /// @brief Method get_scrollWheelAction addr 0x2958130 size 0x14 virtual false final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_scrollWheelAction();
 
-  /// @brief Method set_scrollWheelAction addr 0x2ad7e8c size 0x30 virtual false final false
+  /// @brief Method set_scrollWheelAction addr 0x2958144 size 0x30 virtual false final false
   inline void set_scrollWheelAction(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method OnEnable addr 0x2ad7ebc size 0x40c virtual false final false
+  /// @brief Method OnEnable addr 0x2958174 size 0x40c virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2ad82c8 size 0x23c virtual false final false
+  /// @brief Method OnDisable addr 0x2958580 size 0x23c virtual false final false
   inline void OnDisable();
 
-  /// @brief Method TryFindCanvas addr 0x2ad78fc size 0x54 virtual false final false
+  /// @brief Method TryFindCanvas addr 0x2957bb4 size 0x54 virtual false final false
   inline void TryFindCanvas();
 
-  /// @brief Method TryEnableHardwareCursor addr 0x2ad76d4 size 0x218 virtual false final false
+  /// @brief Method TryEnableHardwareCursor addr 0x295798c size 0x218 virtual false final false
   inline void TryEnableHardwareCursor();
 
-  /// @brief Method UpdateMotion addr 0x2ad8504 size 0x3b8 virtual false final false
+  /// @brief Method UpdateMotion addr 0x29587bc size 0x3b8 virtual false final false
   inline void UpdateMotion();
 
-  /// @brief Method OnButtonActionTriggered addr 0x2ad88bc size 0x1f4 virtual false final false
+  /// @brief Method OnButtonActionTriggered addr 0x2958b74 size 0x1f4 virtual false final false
   inline void OnButtonActionTriggered(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
 
-  /// @brief Method SetActionCallback addr 0x2ad7b78 size 0x70 virtual false final false
+  /// @brief Method SetActionCallback addr 0x2957e30 size 0x70 virtual false final false
   static inline void SetActionCallback(::UnityEngine::InputSystem::InputActionProperty field, ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* callback, bool install);
 
-  /// @brief Method SetAction addr 0x2ad79ac size 0x128 virtual false final false
+  /// @brief Method SetAction addr 0x2957c64 size 0x128 virtual false final false
   static inline void SetAction(ByRef<::UnityEngine::InputSystem::InputActionProperty> field, ::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method OnAfterInputUpdate addr 0x2ad8ab0 size 0x4 virtual false final false
+  /// @brief Method OnAfterInputUpdate addr 0x2958d68 size 0x4 virtual false final false
   inline void OnAfterInputUpdate();
 
   static inline ::UnityEngine::InputSystem::UI::VirtualMouseInput* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ad8ab4 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x2958d6c size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VirtualMouseInput", modifiers: "&&", def_value: None }]
@@ -487,6 +489,44 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::UI::VirtualMouseInput, 0x118>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_CursorMode) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_CursorGraphic) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_CursorTransform) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_CursorSpeed) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_ScrollSpeed) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_StickAction) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_LeftButtonAction) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_MiddleButtonAction) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_RightButtonAction) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_ForwardButtonAction) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_BackButtonAction) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_ScrollWheelAction) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_Canvas) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_VirtualMouse) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_SystemMouse) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_AfterInputUpdateDelegate) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_ButtonActionTriggeredDelegate) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_LastTime) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput, ___m_LastStickValue) == 0x110, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::UI
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::UI::__VirtualMouseInput__CursorMode, "UnityEngine.InputSystem.UI", "VirtualMouseInput/CursorMode");

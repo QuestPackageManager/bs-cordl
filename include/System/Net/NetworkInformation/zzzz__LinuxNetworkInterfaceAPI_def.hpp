@@ -20,24 +20,24 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::LinuxNetworkInterfaceAPI);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9291))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9268))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8128))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8105))
 // CS Name: ::System.Net.NetworkInformation::LinuxNetworkInterfaceAPI*
 class CORDL_TYPE LinuxNetworkInterfaceAPI : public ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI {
 public:
   // Declarations
-  /// @brief Method FreeInterfaceAddresses addr 0x29edfb4 size 0x4 virtual false final false
+  /// @brief Method FreeInterfaceAddresses addr 0x2871730 size 0x4 virtual false final false
   static inline void FreeInterfaceAddresses(void* ifap);
 
-  /// @brief Method GetInterfaceAddresses addr 0x29ee034 size 0x4 virtual false final false
+  /// @brief Method GetInterfaceAddresses addr 0x28717b0 size 0x4 virtual false final false
   static inline int32_t GetInterfaceAddresses(ByRef<void*> ifap);
 
-  /// @brief Method GetAllNetworkInterfaces addr 0x29ee0b4 size 0xaf4 virtual true final false
+  /// @brief Method GetAllNetworkInterfaces addr 0x2871830 size 0xaf4 virtual true final false
   inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetAllNetworkInterfaces();
 
   static inline ::System::Net::NetworkInformation::LinuxNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor addr 0x29eec80 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x28723fc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LinuxNetworkInterfaceAPI", modifiers: "&&", def_value: None }]

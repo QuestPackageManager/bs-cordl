@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::IndexFormat);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12167))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12095))
 // CS Name: ::UnityEngine.ProBuilder::IndexFormat
 struct CORDL_TYPE IndexFormat {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::IndexFormat, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::IndexFormat, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::IndexFormat, "UnityEngine.ProBuilder", "IndexFormat");

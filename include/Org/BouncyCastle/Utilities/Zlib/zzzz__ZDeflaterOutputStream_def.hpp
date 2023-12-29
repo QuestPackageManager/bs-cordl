@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZDeflaterOutputStream)
-namespace System::IO {
-struct SeekOrigin;
+namespace Org::BouncyCastle::Utilities::Zlib {
+class ZStream;
 }
 namespace System::IO {
 class Stream;
 }
-namespace Org::BouncyCastle::Utilities::Zlib {
-class ZStream;
+namespace System::IO {
+struct SeekOrigin;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3607))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1827))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::ZDeflaterOutputStream*
 class CORDL_TYPE ZDeflaterOutputStream : public ::System::IO::Stream {
@@ -88,62 +88,62 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream* New_ctor(::System::IO::Stream* outp);
 
-  /// @brief Method .ctor addr 0x11696c8 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x10f9480 size 0xc virtual false final false
   inline void _ctor(::System::IO::Stream* outp);
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream* New_ctor(::System::IO::Stream* outp, int32_t level);
 
-  /// @brief Method .ctor addr 0x11697cc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x10f9584 size 0x8 virtual false final false
   inline void _ctor(::System::IO::Stream* outp, int32_t level);
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream* New_ctor(::System::IO::Stream* outp, int32_t level, bool nowrap);
 
-  /// @brief Method .ctor addr 0x11696d4 size 0xf8 virtual false final false
+  /// @brief Method .ctor addr 0x10f948c size 0xf8 virtual false final false
   inline void _ctor(::System::IO::Stream* outp, int32_t level, bool nowrap);
 
-  /// @brief Method get_CanRead addr 0x1169848 size 0x8 virtual true final false
+  /// @brief Method get_CanRead addr 0x10f9600 size 0x8 virtual true final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek addr 0x1169850 size 0x8 virtual true final false
+  /// @brief Method get_CanSeek addr 0x10f9608 size 0x8 virtual true final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite addr 0x1169858 size 0x8 virtual true final false
+  /// @brief Method get_CanWrite addr 0x10f9610 size 0x8 virtual true final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length addr 0x1169860 size 0x8 virtual true final false
+  /// @brief Method get_Length addr 0x10f9618 size 0x8 virtual true final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position addr 0x1169868 size 0x8 virtual true final false
+  /// @brief Method get_Position addr 0x10f9620 size 0x8 virtual true final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position addr 0x1169870 size 0x4 virtual true final false
+  /// @brief Method set_Position addr 0x10f9628 size 0x4 virtual true final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method Write addr 0x1169874 size 0x138 virtual true final false
+  /// @brief Method Write addr 0x10f962c size 0x138 virtual true final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t off, int32_t len);
 
-  /// @brief Method Seek addr 0x11699d0 size 0x8 virtual true final false
+  /// @brief Method Seek addr 0x10f9788 size 0x8 virtual true final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength addr 0x11699d8 size 0x4 virtual true final false
+  /// @brief Method SetLength addr 0x10f9790 size 0x4 virtual true final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Read addr 0x11699dc size 0x8 virtual true final false
+  /// @brief Method Read addr 0x10f9794 size 0x8 virtual true final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Flush addr 0x11699e4 size 0x24 virtual true final false
+  /// @brief Method Flush addr 0x10f979c size 0x24 virtual true final false
   inline void Flush();
 
-  /// @brief Method WriteByte addr 0x1169a08 size 0x40 virtual true final false
+  /// @brief Method WriteByte addr 0x10f97c0 size 0x40 virtual true final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method Finish addr 0x1169a48 size 0x138 virtual false final false
+  /// @brief Method Finish addr 0x10f9800 size 0x138 virtual false final false
   inline void Finish();
 
-  /// @brief Method End addr 0x1169b80 size 0x54 virtual false final false
+  /// @brief Method End addr 0x10f9938 size 0x54 virtual false final false
   inline void End();
 
-  /// @brief Method Close addr 0x1169c18 size 0x19c virtual true final false
+  /// @brief Method Close addr 0x10f99d0 size 0x19c virtual true final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "ZDeflaterOutputStream", modifiers: "&&", def_value: None }]
@@ -182,6 +182,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream, ___z) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream, ___flushLevel) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream, ___buf) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream, ___buf1) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream, ___outp) == 0x48, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::Zlib
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream);

@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Linq::JsonPath::QueryOperator);
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12021))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11949))
 // CS Name: ::Newtonsoft.Json.Linq.JsonPath::QueryOperator
 struct CORDL_TYPE QueryOperator {
 public:
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JsonPath::QueryOperator, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::QueryOperator, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Linq::JsonPath
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::JsonPath::QueryOperator, "Newtonsoft.Json.Linq.JsonPath", "QueryOperator");

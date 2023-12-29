@@ -10,13 +10,13 @@ namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Bcpg {
+class UserAttributeSubpacket;
+}
+namespace Org::BouncyCastle::Bcpg {
 struct UserAttributeSubpacketTag;
 }
 namespace Org::BouncyCastle::Bcpg::Attr {
 class ImageAttrib;
-}
-namespace Org::BouncyCastle::Bcpg {
-class UserAttributeSubpacket;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVect
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1671))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpUserAttributeSubpacketVector*
 class CORDL_TYPE PgpUserAttributeSubpacketVector : public ::System::Object {
@@ -46,22 +46,22 @@ public:
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector*
   New_ctor(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> packets);
 
-  /// @brief Method .ctor addr 0x10cd480 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x105c230 size 0x28 virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> packets);
 
-  /// @brief Method GetSubpacket addr 0x10cd4a8 size 0xa0 virtual false final false
+  /// @brief Method GetSubpacket addr 0x105c258 size 0xa0 virtual false final false
   inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* GetSubpacket(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type);
 
-  /// @brief Method GetImageAttribute addr 0x10cd548 size 0x80 virtual false final false
+  /// @brief Method GetImageAttribute addr 0x105c2f8 size 0x80 virtual false final false
   inline ::Org::BouncyCastle::Bcpg::Attr::ImageAttrib* GetImageAttribute();
 
-  /// @brief Method ToSubpacketArray addr 0x10cd5c8 size 0x8 virtual false final false
+  /// @brief Method ToSubpacketArray addr 0x105c378 size 0x8 virtual false final false
   inline ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> ToSubpacketArray();
 
-  /// @brief Method Equals addr 0x10cd5d0 size 0x124 virtual true final false
+  /// @brief Method Equals addr 0x105c380 size 0x124 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x10cd6f4 size 0x78 virtual true final false
+  /// @brief Method GetHashCode addr 0x105c4a4 size 0x78 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpUserAttributeSubpacketVector", modifiers: "&&", def_value: None }]
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector, ___packets) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg::OpenPgp
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector);

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(VRPointer)
 namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
 class EventSystem;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::VRUIControls::VRPointer);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15678))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15652))
 // CS Name: ::VRUIControls::VRPointer*
 class CORDL_TYPE VRPointer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -226,69 +226,69 @@ public:
 
   constexpr void __set__pointerData(::UnityEngine::EventSystems::PointerEventData* value);
 
-  /// @brief Method get_lastSelectedVrController addr 0x2eb8a44 size 0x8 virtual false final false
+  /// @brief Method get_lastSelectedVrController addr 0x2d4fcac size 0x8 virtual false final false
   inline ::GlobalNamespace::VRController* get_lastSelectedVrController();
 
-  /// @brief Method get_cursorPosition addr 0x2eb8a4c size 0xf0 virtual false final false
+  /// @brief Method get_cursorPosition addr 0x2d4fcb4 size 0xf0 virtual false final false
   inline ::UnityEngine::Vector3 get_cursorPosition();
 
-  /// @brief Method Awake addr 0x2eb8b3c size 0xb4 virtual false final false
+  /// @brief Method Awake addr 0x2d4fda4 size 0xb4 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDisable addr 0x2eb8e4c size 0x18 virtual false final false
+  /// @brief Method OnDisable addr 0x2d500cc size 0x18 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method LateUpdate addr 0x2eb8e7c size 0x14c virtual false final false
+  /// @brief Method LateUpdate addr 0x2d500fc size 0x14c virtual false final false
   inline void LateUpdate();
 
-  /// @brief Method IsLeftControllerDown addr 0x2eb8fc8 size 0x50 virtual false final false
+  /// @brief Method IsLeftControllerDown addr 0x2d50248 size 0x50 virtual false final false
   inline bool IsLeftControllerDown();
 
-  /// @brief Method IsRightControllerDown addr 0x2eb9018 size 0x50 virtual false final false
+  /// @brief Method IsRightControllerDown addr 0x2d50298 size 0x50 virtual false final false
   inline bool IsRightControllerDown();
 
-  /// @brief Method SelectRightController addr 0x2eb8e28 size 0x14 virtual false final false
+  /// @brief Method SelectRightController addr 0x2d500a8 size 0x14 virtual false final false
   inline void SelectRightController();
 
-  /// @brief Method SelectLeftController addr 0x2eb8e3c size 0x10 virtual false final false
+  /// @brief Method SelectLeftController addr 0x2d500bc size 0x10 virtual false final false
   inline void SelectLeftController();
 
-  /// @brief Method EnabledLastSelectedPointer addr 0x2eb9068 size 0x54 virtual false final false
+  /// @brief Method EnabledLastSelectedPointer addr 0x2d502e8 size 0x54 virtual false final false
   inline void EnabledLastSelectedPointer();
 
-  /// @brief Method CreateLaserPointers addr 0x2eb8bf0 size 0x104 virtual false final false
+  /// @brief Method CreateLaserPointers addr 0x2d4fe58 size 0x11c virtual false final false
   inline bool CreateLaserPointers();
 
-  /// @brief Method SetupLaserPointer addr 0x2eb90bc size 0x74 virtual false final false
+  /// @brief Method SetupLaserPointer addr 0x2d5033c size 0x74 virtual false final false
   inline void SetupLaserPointer(::VRUIControls::VRLaserPointer* laserPointer);
 
-  /// @brief Method CreateCursors addr 0x2eb8cf4 size 0x134 virtual false final false
+  /// @brief Method CreateCursors addr 0x2d4ff74 size 0x134 virtual false final false
   inline bool CreateCursors();
 
-  /// @brief Method RefreshLaserPointerAndLaserHit addr 0x2eb9130 size 0x238 virtual false final false
+  /// @brief Method RefreshLaserPointerAndLaserHit addr 0x2d503b0 size 0x238 virtual false final false
   inline void RefreshLaserPointerAndLaserHit(::UnityEngine::EventSystems::PointerEventData* pointerData);
 
-  /// @brief Method OnApplicationFocus addr 0x2eb9368 size 0xc virtual false final false
+  /// @brief Method OnApplicationFocus addr 0x2d505e8 size 0xc virtual false final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method HideLaserPointersAndCursors addr 0x2eb8e64 size 0x18 virtual false final false
+  /// @brief Method HideLaserPointersAndCursors addr 0x2d500e4 size 0x18 virtual false final false
   inline void HideLaserPointersAndCursors();
 
-  /// @brief Method HideLaserPointers addr 0x2eb93d4 size 0x60 virtual false final false
+  /// @brief Method HideLaserPointers addr 0x2d50654 size 0x60 virtual false final false
   inline void HideLaserPointers();
 
-  /// @brief Method HideCursors addr 0x2eb9374 size 0x60 virtual false final false
+  /// @brief Method HideCursors addr 0x2d505f4 size 0x60 virtual false final false
   inline void HideCursors();
 
-  /// @brief Method get_state addr 0x2eb9434 size 0x2f4 virtual false final false
+  /// @brief Method get_state addr 0x2d506b4 size 0x2f4 virtual false final false
   inline ::StringW get_state();
 
-  /// @brief Method Process addr 0x2eb8130 size 0x68 virtual false final false
+  /// @brief Method Process addr 0x2d4f398 size 0x68 virtual false final false
   inline void Process(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
   static inline ::VRUIControls::VRPointer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2eb9728 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2d509a8 size 0x1024 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VRPointer", modifiers: "&&", def_value: None }]
@@ -375,6 +375,46 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::VRUIControls::VRPointer, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____leftVRController) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____rightVRController) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____laserPointerPrefab) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____cursorPrefab) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____defaultLaserPointerLength) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____laserPointerWidth) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____laserPointer) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____cursorTransform) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____leftLaserPointer) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____rightLaserPointer) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____leftCursorTransform) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____rightCursorTransform) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____eventSystem) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____lastSelectedVrController) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____lastSelectedControllerWasRight) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____rightControllerWasReleased) == 0x81, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____leftControllerWasReleased) == 0x82, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____hasLaserPointers) == 0x83, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____hasCursors) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::VRPointer, ____pointerData) == 0x88, "Offset mismatch!");
 
 } // namespace VRUIControls
 NEED_NO_BOX(::VRUIControls::VRPointer);

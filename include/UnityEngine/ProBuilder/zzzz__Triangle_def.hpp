@@ -28,7 +28,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::Triangle);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12209))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12137))
 // CS Name: ::UnityEngine.ProBuilder::Triangle
 struct CORDL_TYPE Triangle {
 public:
@@ -44,34 +44,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>*();
 
-  /// @brief Method get_a addr 0x2b7c9a8 size 0x8 virtual false final false
+  /// @brief Method get_a addr 0x29fbc54 size 0x8 virtual false final false
   inline int32_t get_a();
 
-  /// @brief Method get_b addr 0x2b7c9b0 size 0x8 virtual false final false
+  /// @brief Method get_b addr 0x29fbc5c size 0x8 virtual false final false
   inline int32_t get_b();
 
-  /// @brief Method get_c addr 0x2b7c9b8 size 0x8 virtual false final false
+  /// @brief Method get_c addr 0x29fbc64 size 0x8 virtual false final false
   inline int32_t get_c();
 
-  /// @brief Method get_indices addr 0x2b7c9c0 size 0x88 virtual false final false
+  /// @brief Method get_indices addr 0x29fbc6c size 0x88 virtual false final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* get_indices();
 
-  /// @brief Method .ctor addr 0x2b7ca48 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x29fbcf4 size 0xc virtual false final false
   inline void _ctor(int32_t a, int32_t b, int32_t c);
 
-  /// @brief Method Equals addr 0x2b7ca54 size 0x34 virtual true final true
+  /// @brief Method Equals addr 0x29fbd00 size 0x34 virtual true final true
   inline bool Equals(::UnityEngine::ProBuilder::Triangle other);
 
-  /// @brief Method Equals addr 0x2b7ca88 size 0x98 virtual true final false
+  /// @brief Method Equals addr 0x29fbd34 size 0x98 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2b7cb20 size 0x20 virtual true final false
+  /// @brief Method GetHashCode addr 0x29fbdcc size 0x20 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsAdjacent addr 0x2b7cb40 size 0x94 virtual false final false
+  /// @brief Method IsAdjacent addr 0x29fbdec size 0x94 virtual false final false
   inline bool IsAdjacent(::UnityEngine::ProBuilder::Triangle other);
 
-  /// @brief Method ContainsEdge addr 0x2b7cbd4 size 0x100 virtual false final false
+  /// @brief Method ContainsEdge addr 0x29fbe80 size 0x100 virtual false final false
   inline bool ContainsEdge(::UnityEngine::ProBuilder::Edge edge);
 
   // Ctor Parameters [CppParam { name: "m_A", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_B", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_C", ty:
@@ -98,6 +98,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Triangle, 0xc>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Triangle, m_A) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Triangle, m_B) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Triangle, m_C) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Triangle, "UnityEngine.ProBuilder", "Triangle");

@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::NonMemoableDigest);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(760))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::NonMemoableDigest*
 class CORDL_TYPE NonMemoableDigest : public ::System::Object {
@@ -42,28 +42,28 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::NonMemoableDigest* New_ctor(::Org::BouncyCastle::Crypto::IDigest* baseDigest);
 
-  /// @brief Method .ctor addr 0x122983c size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x11b95ec size 0x78 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* baseDigest);
 
-  /// @brief Method get_AlgorithmName addr 0x12298b4 size 0xa0 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0x11b9664 size 0xa0 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetDigestSize addr 0x1229954 size 0xa4 virtual true final false
+  /// @brief Method GetDigestSize addr 0x11b9704 size 0xa4 virtual true final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method Update addr 0x12299f8 size 0xac virtual true final false
+  /// @brief Method Update addr 0x11b97a8 size 0xac virtual true final false
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate addr 0x1229aa4 size 0xc4 virtual true final false
+  /// @brief Method BlockUpdate addr 0x11b9854 size 0xc4 virtual true final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal addr 0x1229b68 size 0xbc virtual true final false
+  /// @brief Method DoFinal addr 0x11b9918 size 0xbc virtual true final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0x1229c24 size 0xa4 virtual true final false
+  /// @brief Method Reset addr 0x11b99d4 size 0xa4 virtual true final false
   inline void Reset();
 
-  /// @brief Method GetByteLength addr 0x1229cc8 size 0xa4 virtual true final false
+  /// @brief Method GetByteLength addr 0x11b9a78 size 0xa4 virtual true final false
   inline int32_t GetByteLength();
 
   // Ctor Parameters [CppParam { name: "", ty: "NonMemoableDigest", modifiers: "&&", def_value: None }]
@@ -87,6 +87,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::NonMemoableDigest, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::NonMemoableDigest, ___mBaseDigest) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Digests
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::NonMemoableDigest);

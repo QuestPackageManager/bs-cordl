@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BipedIKSolvers)
 namespace RootMotion::FinalIK {
-class IKSolver;
-}
-namespace RootMotion {
-class BipedReferences;
-}
-namespace RootMotion::FinalIK {
 class IKSolverLookAt;
 }
 namespace RootMotion::FinalIK {
 class IKSolverLimb;
 }
-namespace RootMotion::FinalIK {
-class IKSolverAim;
+namespace RootMotion {
+class BipedReferences;
 }
 namespace RootMotion::FinalIK {
 class Constraints;
+}
+namespace RootMotion::FinalIK {
+class IKSolver;
+}
+namespace RootMotion::FinalIK {
+class IKSolverAim;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFABRIK;
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::BipedIKSolvers);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12507))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12435))
 // CS Name: ::RootMotion.FinalIK::BipedIKSolvers*
 class CORDL_TYPE BipedIKSolvers : public ::System::Object {
 public:
@@ -136,18 +136,18 @@ public:
 
   constexpr void __set__ikSolvers(::ArrayW<::RootMotion::FinalIK::IKSolver*, ::Array<::RootMotion::FinalIK::IKSolver*>*> value);
 
-  /// @brief Method get_limbs addr 0x1241930 size 0x130 virtual false final false
+  /// @brief Method get_limbs addr 0x11d1604 size 0x130 virtual false final false
   inline ::ArrayW<::RootMotion::FinalIK::IKSolverLimb*, ::Array<::RootMotion::FinalIK::IKSolverLimb*>*> get_limbs();
 
-  /// @brief Method get_ikSolvers addr 0x12424d0 size 0x1b4 virtual false final false
+  /// @brief Method get_ikSolvers addr 0x11d21a4 size 0x1b4 virtual false final false
   inline ::ArrayW<::RootMotion::FinalIK::IKSolver*, ::Array<::RootMotion::FinalIK::IKSolver*>*> get_ikSolvers();
 
-  /// @brief Method AssignReferences addr 0x1241cac size 0x120 virtual false final false
+  /// @brief Method AssignReferences addr 0x11d1980 size 0x120 virtual false final false
   inline void AssignReferences(::RootMotion::BipedReferences* references);
 
   static inline ::RootMotion::FinalIK::BipedIKSolvers* New_ctor();
 
-  /// @brief Method .ctor addr 0x1242344 size 0x18c virtual false final false
+  /// @brief Method .ctor addr 0x11d2018 size 0x18c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BipedIKSolvers", modifiers: "&&", def_value: None }]
@@ -198,6 +198,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::BipedIKSolvers, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::BipedIKSolvers, ___leftFoot) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::BipedIKSolvers, ___rightFoot) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::BipedIKSolvers, ___leftHand) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::BipedIKSolvers, ___rightHand) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::BipedIKSolvers, ___spine) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::BipedIKSolvers, ___lookAt) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::BipedIKSolvers, ___aim) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::BipedIKSolvers, ___pelvis) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::BipedIKSolvers, ____limbs) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::BipedIKSolvers, ____ikSolvers) == 0x58, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::BipedIKSolvers);

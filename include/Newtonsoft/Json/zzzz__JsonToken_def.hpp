@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::JsonToken);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11841))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11769))
 // CS Name: ::Newtonsoft.Json::JsonToken
 struct CORDL_TYPE JsonToken {
 public:
@@ -121,6 +121,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonToken, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonToken, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonToken, "Newtonsoft.Json", "JsonToken");

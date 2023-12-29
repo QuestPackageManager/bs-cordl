@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IReadOnlyCollection_1)
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -23,7 +23,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3836))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3824))
 // CS Name: ::System.Collections.Generic::IReadOnlyCollection`1<T>*
 class CORDL_TYPE IReadOnlyCollection_1 {
 public:

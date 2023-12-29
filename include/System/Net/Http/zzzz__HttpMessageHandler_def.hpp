@@ -4,6 +4,9 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(HttpMessageHandler)
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace System::Net::Http {
 class HttpRequestMessage;
 }
@@ -12,9 +15,6 @@ class HttpResponseMessage;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 namespace System {
 class IDisposable;
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Net::Http::HttpMessageHandler);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14650))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14867))
 // CS Name: ::System.Net.Http::HttpMessageHandler*
 class CORDL_TYPE HttpMessageHandler : public ::System::Object {
 public:
@@ -38,10 +38,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose addr 0x2833428 size 0x10 virtual true final true
+  /// @brief Method Dispose addr 0x26b8418 size 0x10 virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x282cbfc size 0x4 virtual true final false
+  /// @brief Method Dispose addr 0x26b1bec size 0x4 virtual true final false
   inline void Dispose(bool disposing);
 
   /// @brief Method SendAsync addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -50,7 +50,7 @@ public:
 
   static inline ::System::Net::Http::HttpMessageHandler* New_ctor();
 
-  /// @brief Method .ctor addr 0x282c8c0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26b18b0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpMessageHandler", modifiers: "&&", def_value: None }]

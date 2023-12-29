@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeView);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16176))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5504))
 // CS Name: ::ColorSchemeView*
 class CORDL_TYPE ColorSchemeView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -89,13 +89,13 @@ public:
 
   constexpr void __set__obstacleColorImage(::UnityEngine::UI::Image* value);
 
-  /// @brief Method SetColors addr 0x23e312c size 0x1b8 virtual false final false
+  /// @brief Method SetColors addr 0x2130e38 size 0x1b8 virtual false final false
   inline void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color,
                         ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor);
 
   static inline ::GlobalNamespace::ColorSchemeView* New_ctor();
 
-  /// @brief Method .ctor addr 0x23e32e4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2131074 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeView", modifiers: "&&", def_value: None }]
@@ -137,6 +137,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemeView, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeView, ____saberAColorImage) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeView, ____saberBColorImage) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeView, ____environment0ColorImage) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeView, ____environment1ColorImage) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeView, ____environmentColor0BoostImage) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeView, ____environmentColor1BoostImage) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemeView, ____obstacleColorImage) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorSchemeView);

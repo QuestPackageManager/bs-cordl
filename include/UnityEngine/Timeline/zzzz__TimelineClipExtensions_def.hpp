@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(TimelineClipExtensions)
 namespace UnityEngine::Timeline {
 class TrackAsset;
 }
-namespace UnityEngine {
-class Object;
-}
 namespace UnityEngine::Timeline {
 class TimelineClip;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TimelineClipExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13936))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14207))
 // CS Name: ::UnityEngine.Timeline::TimelineClipExtensions*
 class CORDL_TYPE TimelineClipExtensions : public ::System::Object {
 public:
@@ -37,13 +37,13 @@ public:
 
   static inline ::StringW getStaticF_k_UndoSetParentTrackText();
 
-  /// @brief Method MoveToTrack addr 0x2c7161c size 0x3c0 virtual false final false
+  /// @brief Method MoveToTrack addr 0x2aed8c8 size 0x3c0 virtual false final false
   static inline void MoveToTrack(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack);
 
-  /// @brief Method TryMoveToTrack addr 0x2c71afc size 0x1a4 virtual false final false
+  /// @brief Method TryMoveToTrack addr 0x2aedda8 size 0x1a4 virtual false final false
   static inline bool TryMoveToTrack(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack);
 
-  /// @brief Method MoveToTrack_Impl addr 0x2c719dc size 0x120 virtual false final false
+  /// @brief Method MoveToTrack_Impl addr 0x2aedc88 size 0x120 virtual false final false
   static inline void MoveToTrack_Impl(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack, ::UnityEngine::Object* asset,
                                       ::UnityEngine::Timeline::TrackAsset* parentTrack);
 

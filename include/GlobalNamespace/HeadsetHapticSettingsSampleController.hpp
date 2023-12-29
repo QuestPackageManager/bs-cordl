@@ -1,3 +1,0 @@
-#pragma once
-#include "GlobalNamespace/zzzz__HeadsetHapticSettingsSampleController_def.hpp"
-#include "GlobalNamespace/zzzz__HeadsetHapticSettingsSampleController_impl.hpp"

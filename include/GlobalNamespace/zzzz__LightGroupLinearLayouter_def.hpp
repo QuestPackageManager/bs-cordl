@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupLinearLayouter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(4935))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4931))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5040)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5036))
 // CS Name: ::LightGroupLinearLayouter*
 class CORDL_TYPE LightGroupLinearLayouter : public ::GlobalNamespace::LightGroupSubsystem {
 public:
@@ -56,7 +56,7 @@ public:
 
   static inline ::GlobalNamespace::LightGroupLinearLayouter* New_ctor();
 
-  /// @brief Method .ctor addr 0x23a9920 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x22718c4 size 0x70 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupLinearLayouter", modifiers: "&&", def_value: None }]
@@ -86,6 +86,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroupLinearLayouter, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupLinearLayouter, ____movementStep) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupLinearLayouter, ____defaultRotation) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupLinearLayouter, ____startFromCenter) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightGroupLinearLayouter);

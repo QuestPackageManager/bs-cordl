@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__FireEffect_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ContinuousFireEffect)
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace GlobalNamespace {
 class LightColorBeatmapEventData;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ContinuousFireEffect);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4007))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4006))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3990))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3989))
 // CS Name: ::ContinuousFireEffect*
 class CORDL_TYPE ContinuousFireEffect : public ::GlobalNamespace::FireEffect {
 public:
@@ -138,33 +138,33 @@ public:
 
   constexpr void __set__lastFadeOutProgress(float_t value);
 
-  /// @brief Method Start addr 0x222195c size 0x28 virtual true final false
+  /// @brief Method Start addr 0x20c0270 size 0x28 virtual true final false
   inline void Start();
 
-  /// @brief Method Update addr 0x2221a2c size 0x4 virtual false final false
+  /// @brief Method Update addr 0x20c0340 size 0x4 virtual false final false
   inline void Update();
 
-  /// @brief Method HandleColorChangeBeatmapEvent addr 0x2221bd8 size 0x13c virtual true final false
+  /// @brief Method HandleColorChangeBeatmapEvent addr 0x20c04ec size 0x13c virtual true final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);
 
-  /// @brief Method SetInitialValues addr 0x2221984 size 0xa8 virtual false final false
+  /// @brief Method SetInitialValues addr 0x20c0298 size 0xa8 virtual false final false
   inline void SetInitialValues();
 
-  /// @brief Method StartEffect addr 0x2221d38 size 0xe0 virtual false final false
+  /// @brief Method StartEffect addr 0x20c064c size 0xe0 virtual false final false
   inline void StartEffect(float_t startTime, float_t endTime);
 
-  /// @brief Method EndEffect addr 0x2221d14 size 0x24 virtual false final false
+  /// @brief Method EndEffect addr 0x20c0628 size 0x24 virtual false final false
   inline void EndEffect();
 
-  /// @brief Method UpdateEffect addr 0x2221a30 size 0x1a8 virtual false final false
+  /// @brief Method UpdateEffect addr 0x20c0344 size 0x1a8 virtual false final false
   inline void UpdateEffect();
 
-  /// @brief Method UpdateRenderers addr 0x2221e18 size 0x15c virtual false final false
+  /// @brief Method UpdateRenderers addr 0x20c072c size 0x15c virtual false final false
   inline void UpdateRenderers(float_t flipBookAlpha, float_t bloomAlpha);
 
   static inline ::GlobalNamespace::ContinuousFireEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x2221f74 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0x20c0888 size 0x8c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContinuousFireEffect", modifiers: "&&", def_value: None }]
@@ -221,6 +221,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ContinuousFireEffect, 0xc0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ContinuousFireEffect, ____fadeInDuration) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ContinuousFireEffect, ____fadeOutDuration) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ContinuousFireEffect, ____sustainDuration) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ContinuousFireEffect, ____flipbookSustainCurve) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ContinuousFireEffect, ____bloomSustainCurve) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ContinuousFireEffect, ____audioTimeSource) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ContinuousFireEffect, ____fadeInEndTime) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ContinuousFireEffect, ____fadeOutStartTime) == 0xac, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ContinuousFireEffect, ____effectStartTime) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ContinuousFireEffect, ____effectEndTime) == 0xb4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ContinuousFireEffect, ____lastSustainProgress) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ContinuousFireEffect, ____lastFadeOutProgress) == 0xbc, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ContinuousFireEffect);

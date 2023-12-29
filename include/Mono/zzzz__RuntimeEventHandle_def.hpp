@@ -19,7 +19,7 @@ MARK_VAL_T(::Mono::RuntimeEventHandle);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2231))
 // CS Name: ::Mono::RuntimeEventHandle
 struct CORDL_TYPE RuntimeEventHandle {
@@ -27,16 +27,16 @@ public:
   // Declarations
   __declspec(property(get = get_Value)) void* Value;
 
-  /// @brief Method .ctor addr 0x2412824 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22b8da4 size 0x8 virtual false final false
   inline void _ctor(void* v);
 
-  /// @brief Method get_Value addr 0x241282c size 0x8 virtual false final false
+  /// @brief Method get_Value addr 0x22b8dac size 0x8 virtual false final false
   inline void* get_Value();
 
-  /// @brief Method Equals addr 0x2412834 size 0x10c virtual true final false
+  /// @brief Method Equals addr 0x22b8db4 size 0x10c virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2412940 size 0x8 virtual true final false
+  /// @brief Method GetHashCode addr 0x22b8ec0 size 0x8 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "value", ty: "void*", modifiers: "", def_value: None }]
@@ -56,6 +56,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::RuntimeEventHandle, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::RuntimeEventHandle, value) == 0x0, "Offset mismatch!");
 
 } // namespace Mono
 DEFINE_IL2CPP_ARG_TYPE(::Mono::RuntimeEventHandle, "Mono", "RuntimeEventHandle");

@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(SystemException)
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System {
-class Exception;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System {
@@ -24,30 +24,30 @@ MARK_REF_PTR_T(::System::SystemException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2481))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2479))
 // CS Name: ::System::SystemException*
 class CORDL_TYPE SystemException : public ::System::Exception {
 public:
   // Declarations
   static inline ::System::SystemException* New_ctor();
 
-  /// @brief Method .ctor addr 0x25c5e64 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x2468f3c size 0x80 virtual false final false
   inline void _ctor();
 
   static inline ::System::SystemException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x25bdf8c size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x2461064 size 0x78 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::SystemException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor addr 0x25c5ee4 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x2468fbc size 0x80 virtual false final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::System::SystemException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x25be058 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x2461130 size 0x80 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "SystemException", modifiers: "&&", def_value: None }]

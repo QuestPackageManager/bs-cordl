@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DHKeyParameters)
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace System {
 class Object;
@@ -54,28 +54,28 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
-  /// @brief Method .ctor addr 0xf304a4 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0xebb2b8 size 0x84 virtual false final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters,
                                                                                    ::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid);
 
-  /// @brief Method .ctor addr 0xf30528 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0xebb33c size 0x3c virtual false final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid);
 
-  /// @brief Method get_Parameters addr 0xf30564 size 0x8 virtual false final false
+  /// @brief Method get_Parameters addr 0xebb378 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* get_Parameters();
 
-  /// @brief Method get_AlgorithmOid addr 0xf3056c size 0x8 virtual false final false
+  /// @brief Method get_AlgorithmOid addr 0xebb380 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_AlgorithmOid();
 
-  /// @brief Method Equals addr 0xf30574 size 0x9c virtual true final false
+  /// @brief Method Equals addr 0xebb388 size 0x9c virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xf30610 size 0x50 virtual false final false
+  /// @brief Method Equals addr 0xebb424 size 0x50 virtual false final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* other);
 
-  /// @brief Method GetHashCode addr 0xf30660 size 0x50 virtual true final false
+  /// @brief Method GetHashCode addr 0xebb474 size 0x50 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHKeyParameters", modifiers: "&&", def_value: None }]
@@ -102,6 +102,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters, ___parameters) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters, ___algorithmOid) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters);

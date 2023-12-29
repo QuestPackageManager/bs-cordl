@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(InstancedMaterialLightWithId)
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class MaterialPropertyBlockColorSetter;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::InstancedMaterialLightWithId);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14531))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14747))
 // CS Name: ::InstancedMaterialLightWithId*
 class CORDL_TYPE InstancedMaterialLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -92,15 +92,12 @@ public:
 
   constexpr void __set__startColorWasSet(bool value);
 
-  /// @brief Method ColorWasSet addr 0x210f27c size 0x80 virtual true final false
+  /// @brief Method ColorWasSet addr 0x1fb9c40 size 0x84 virtual true final false
   inline void ColorWasSet(::UnityEngine::Color newColor);
-
-  /// @brief Method AddNecessaryComponents addr 0x210f2fc size 0x104 virtual false final false
-  inline void AddNecessaryComponents();
 
   static inline ::GlobalNamespace::InstancedMaterialLightWithId* New_ctor();
 
-  /// @brief Method .ctor addr 0x210f400 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x1fb9cc4 size 0x18 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InstancedMaterialLightWithId", modifiers: "&&", def_value: None }]
@@ -142,6 +139,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::InstancedMaterialLightWithId, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::InstancedMaterialLightWithId, ____materialPropertyBlockColorSetter) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::InstancedMaterialLightWithId, ____setColorOnly) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::InstancedMaterialLightWithId, ____intensity) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::InstancedMaterialLightWithId, ____minAlpha) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::InstancedMaterialLightWithId, ____hdr) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::InstancedMaterialLightWithId, ____color) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::InstancedMaterialLightWithId, ____startColorWasSet) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::InstancedMaterialLightWithId);

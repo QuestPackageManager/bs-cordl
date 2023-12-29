@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DiagnosticInfo)
-namespace UnityEngine::ResourceManagement {
-struct __ResourceManager__DiagnosticEventType;
-}
 namespace UnityEngine::ResourceManagement::Diagnostics {
 struct DiagnosticEvent;
+}
+namespace UnityEngine::ResourceManagement {
+struct __ResourceManager__DiagnosticEventType;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::Utility {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Utility::DiagnosticInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Utility {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14100))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14371))
 // CS Name: ::UnityEngine.AddressableAssets.Utility::DiagnosticInfo*
 class CORDL_TYPE DiagnosticInfo : public ::System::Object {
 public:
@@ -56,13 +56,13 @@ public:
 
   constexpr void __set_Dependencies(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method CreateEvent addr 0x2a28770 size 0x44 virtual false final false
+  /// @brief Method CreateEvent addr 0x28aaa28 size 0x44 virtual false final false
   inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::StringW category, ::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventType eventType,
                                                                                      int32_t frame, int32_t val);
 
   static inline ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a287b4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x28aaa6c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DiagnosticInfo", modifiers: "&&", def_value: None }]
@@ -92,6 +92,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::Utility::DiagnosticInfo, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Utility::DiagnosticInfo, ___DisplayName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Utility::DiagnosticInfo, ___ObjectId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::Utility::DiagnosticInfo, ___Dependencies) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::AddressableAssets::Utility
 NEED_NO_BOX(::UnityEngine::AddressableAssets::Utility::DiagnosticInfo);

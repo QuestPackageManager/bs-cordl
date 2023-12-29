@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TagValueType);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12409))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12337))
 // CS Name: ::TMPro::TagValueType
 struct CORDL_TYPE TagValueType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TagValueType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TagValueType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TagValueType, "TMPro", "TagValueType");

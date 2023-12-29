@@ -21,8 +21,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TDelegate>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3861 }), TypeDefinitionIndex(TypeDefinitionIndex(6669))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6660))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6755)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6755), inst: 3768 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6746))
 // CS Name: ::UnityEngine.InputSystem.Utilities::CallbackArray`1<TDelegate>
 struct CORDL_TYPE CallbackArray_1 {
 public:

@@ -9,19 +9,19 @@ namespace Org::BouncyCastle::Asn1 {
 class DerStringBase;
 }
 namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
 class IAsn1String;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X500 {
@@ -54,26 +54,26 @@ public:
 
   constexpr void __set_str(::Org::BouncyCastle::Asn1::DerStringBase* value);
 
-  /// @brief Method GetInstance addr 0x107f95c size 0x290 virtual false final false
+  /// @brief Method GetInstance addr 0x100e70c size 0x290 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance addr 0x107fc14 size 0x6c virtual false final false
+  /// @brief Method GetInstance addr 0x100e9c4 size 0x6c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* New_ctor(::Org::BouncyCastle::Asn1::DerStringBase* str);
 
-  /// @brief Method .ctor addr 0x107fbec size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x100e99c size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerStringBase* str);
 
   static inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* New_ctor(::StringW str);
 
-  /// @brief Method .ctor addr 0x107fc80 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x100ea30 size 0x7c virtual false final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method GetString addr 0x107fcfc size 0x20 virtual true final true
+  /// @brief Method GetString addr 0x100eaac size 0x20 virtual true final true
   inline ::StringW GetString();
 
-  /// @brief Method ToAsn1Object addr 0x107fd1c size 0x20 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x100eacc size 0x20 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "DirectoryString", modifiers: "&&", def_value: None }]
@@ -97,6 +97,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X500::DirectoryString, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X500::DirectoryString, ___str) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X500
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X500::DirectoryString);

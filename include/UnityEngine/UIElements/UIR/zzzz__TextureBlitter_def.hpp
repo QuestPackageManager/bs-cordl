@@ -11,26 +11,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextureBlitter)
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-struct Vector2Int;
-}
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine {
+struct Vector2Int;
+}
+namespace UnityEngine {
 class MaterialPropertyBlock;
 }
-namespace UnityEngine::UIElements::UIR {
-struct __TextureBlitter__BlitInfo;
+namespace UnityEngine {
+struct Color;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -38,8 +29,17 @@ template <typename T> class List_1;
 namespace UnityEngine {
 class Texture;
 }
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+class Material;
+}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
+}
+namespace UnityEngine::UIElements::UIR {
+struct __TextureBlitter__BlitInfo;
 }
 namespace UnityEngine {
 struct RectInt;
@@ -58,8 +58,8 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10244))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7386))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(10171)), TypeDefinitionIndex(TypeDefinitionIndex(10090))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7472))
 // CS Name: ::TextureBlitter::BlitInfo
 struct CORDL_TYPE __TextureBlitter__BlitInfo {
 public:
@@ -96,13 +96,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo, src) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo, srcRect) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo, dstPos) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo, border) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo, tint) == 0x24, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements::UIR
 // Type: UnityEngine.UIElements.UIR::TextureBlitter
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7387))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9894)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10090))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7473))
 // CS Name: ::UnityEngine.UIElements.UIR::TextureBlitter*
 class CORDL_TYPE TextureBlitter : public ::System::Object {
 public:
@@ -192,39 +202,39 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_CommitSampler();
 
-  /// @brief Method get_disposed addr 0x2e8b8e0 size 0x8 virtual false final false
+  /// @brief Method get_disposed addr 0x2d23530 size 0x8 virtual false final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed addr 0x2e8b8e8 size 0xc virtual false final false
+  /// @brief Method set_disposed addr 0x2d23538 size 0xc virtual false final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose addr 0x2e7d444 size 0x6c virtual true final true
+  /// @brief Method Dispose addr 0x2d15094 size 0x6c virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x2e8b8f4 size 0x7c virtual true final false
+  /// @brief Method Dispose addr 0x2d23544 size 0x7c virtual true final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::TextureBlitter* New_ctor(int32_t capacity);
 
-  /// @brief Method .ctor addr 0x2e7d13c size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0x2d14d8c size 0xb4 virtual false final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method QueueBlit addr 0x2e7d830 size 0x1a4 virtual false final false
+  /// @brief Method QueueBlit addr 0x2d15480 size 0x1a4 virtual false final false
   inline void QueueBlit(::UnityEngine::Texture* src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, bool addBorder, ::UnityEngine::Color tint);
 
-  /// @brief Method BlitOneNow addr 0x2e7e0b4 size 0xe4 virtual false final false
+  /// @brief Method BlitOneNow addr 0x2d15d04 size 0xe4 virtual false final false
   inline void BlitOneNow(::UnityEngine::RenderTexture* dst, ::UnityEngine::Texture* src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, bool addBorder, ::UnityEngine::Color tint);
 
-  /// @brief Method Commit addr 0x2e7de90 size 0xec virtual false final false
+  /// @brief Method Commit addr 0x2d15ae0 size 0xec virtual false final false
   inline void Commit(::UnityEngine::RenderTexture* dst);
 
-  /// @brief Method BeginBlit addr 0x2e8ba9c size 0x1fc virtual false final false
+  /// @brief Method BeginBlit addr 0x2d236ec size 0x1fc virtual false final false
   inline void BeginBlit(::UnityEngine::RenderTexture* dst);
 
-  /// @brief Method DoBlit addr 0x2e8bc98 size 0x51c virtual false final false
+  /// @brief Method DoBlit addr 0x2d238e8 size 0x51c virtual false final false
   inline void DoBlit(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>* blitInfos, int32_t startIndex);
 
-  /// @brief Method EndBlit addr 0x2e8c1b4 size 0xe0 virtual false final false
+  /// @brief Method EndBlit addr 0x2d23e04 size 0xe0 virtual false final false
   inline void EndBlit();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextureBlitter", modifiers: "&&", def_value: None }]
@@ -266,6 +276,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::TextureBlitter, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureBlitter, ___m_SingleBlit) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureBlitter, ___m_BlitMaterial) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureBlitter, ___m_Properties) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureBlitter, ___m_Viewport) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureBlitter, ___m_PrevRT) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureBlitter, ___m_PendingBlits) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureBlitter, ____disposed_k__BackingField) == 0x48, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::TextureBlitter);

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::TriState);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11493))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11421))
 // CS Name: ::System.Xml::TriState
 struct CORDL_TYPE TriState {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::TriState, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::TriState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::TriState, "System.Xml", "TriState");

@@ -14,26 +14,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Image)
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine::UIElements {
-struct __VisualElement__MeasureMode;
-}
-namespace UnityEngine::UIElements {
-class MeshGenerationContext;
-}
 namespace UnityEngine::UIElements {
 class __Image__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
-class CustomStyleResolvedEvent;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine {
-class Sprite;
 }
 namespace UnityEngine::UIElements {
 class __Image__UxmlFactory;
@@ -41,14 +23,32 @@ class __Image__UxmlFactory;
 namespace UnityEngine {
 struct Vector2;
 }
+namespace UnityEngine {
+class Texture;
+}
 namespace UnityEngine::UIElements {
 class VectorImage;
 }
 namespace UnityEngine {
-struct Color;
+struct ScaleMode;
 }
 namespace UnityEngine {
-struct ScaleMode;
+struct Color;
+}
+namespace UnityEngine::UIElements {
+class MeshGenerationContext;
+}
+namespace UnityEngine::UIElements {
+struct __VisualElement__MeasureMode;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine::UIElements {
+class CustomStyleResolvedEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -68,15 +68,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__Image__UxmlTraits);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6737))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7080))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6823))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7166))
 // CS Name: ::Image::UxmlTraits*
 class CORDL_TYPE __Image__UxmlTraits : public ::UnityEngine::UIElements::__VisualElement__UxmlTraits {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Image__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e32988 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2ccb5d8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Image__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -103,12 +103,11 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Image
 // SizeInfo { instance_size: 1016, native_size: -1, calculated_instance_size: 1016, calculated_native_size: 1011, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(10073)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14596)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(7306), inst: 403 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 1146 }), TypeDefinitionIndex(TypeDefinitionIndex(6806)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10291)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(7306)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 293 }), TypeDefinitionIndex(TypeDefinitionIndex(6744))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7081)) CS
-// Name: ::UnityEngine.UIElements::Image*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6830)), TypeDefinitionIndex(TypeDefinitionIndex(10178)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7392), inst: 765
+// }), TypeDefinitionIndex(TypeDefinitionIndex(10093)), TypeDefinitionIndex(TypeDefinitionIndex(7392)), TypeDefinitionIndex(TypeDefinitionIndex(10213)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(7392), inst: 1124 }), TypeDefinitionIndex(TypeDefinitionIndex(10001)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7392), inst: 398 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14813)), TypeDefinitionIndex(TypeDefinitionIndex(6892)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7392), inst: 393 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7392), inst: 294 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7167)) CS Name: ::UnityEngine.UIElements::Image*
 class CORDL_TYPE Image : public ::UnityEngine::UIElements::VisualElement {
 public:
   // Declarations
@@ -254,52 +253,52 @@ public:
 
   static inline ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Color> getStaticF_s_TintColorProperty();
 
-  /// @brief Method get_image addr 0x2e315dc size 0x8 virtual false final false
+  /// @brief Method get_image addr 0x2cca22c size 0x8 virtual false final false
   inline ::UnityEngine::Texture* get_image();
 
-  /// @brief Method get_sprite addr 0x2e315e4 size 0x8 virtual false final false
+  /// @brief Method get_sprite addr 0x2cca234 size 0x8 virtual false final false
   inline ::UnityEngine::Sprite* get_sprite();
 
-  /// @brief Method get_vectorImage addr 0x2e315ec size 0x8 virtual false final false
+  /// @brief Method get_vectorImage addr 0x2cca23c size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::VectorImage* get_vectorImage();
 
-  /// @brief Method get_sourceRect addr 0x2e315f4 size 0x4 virtual false final false
+  /// @brief Method get_sourceRect addr 0x2cca244 size 0x4 virtual false final false
   inline ::UnityEngine::Rect get_sourceRect();
 
-  /// @brief Method get_uv addr 0x2e3183c size 0x14 virtual false final false
+  /// @brief Method get_uv addr 0x2cca48c size 0x14 virtual false final false
   inline ::UnityEngine::Rect get_uv();
 
-  /// @brief Method get_scaleMode addr 0x2e31850 size 0x8 virtual false final false
+  /// @brief Method get_scaleMode addr 0x2cca4a0 size 0x8 virtual false final false
   inline ::UnityEngine::ScaleMode get_scaleMode();
 
-  /// @brief Method get_tintColor addr 0x2e31858 size 0x14 virtual false final false
+  /// @brief Method get_tintColor addr 0x2cca4a8 size 0x14 virtual false final false
   inline ::UnityEngine::Color get_tintColor();
 
   static inline ::UnityEngine::UIElements::Image* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e3186c size 0x1e8 virtual false final false
+  /// @brief Method .ctor addr 0x2cca4bc size 0x1e8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method GetTextureDisplaySize addr 0x2e31a54 size 0xdc virtual false final false
+  /// @brief Method GetTextureDisplaySize addr 0x2cca6a4 size 0xdc virtual false final false
   inline ::UnityEngine::Vector2 GetTextureDisplaySize(::UnityEngine::Texture* texture);
 
-  /// @brief Method GetTextureDisplaySize addr 0x2e31b30 size 0x108 virtual false final false
+  /// @brief Method GetTextureDisplaySize addr 0x2cca780 size 0x108 virtual false final false
   inline ::UnityEngine::Vector2 GetTextureDisplaySize(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method DoMeasure addr 0x2e31c38 size 0x244 virtual true final false
+  /// @brief Method DoMeasure addr 0x2cca888 size 0x244 virtual true final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
-  /// @brief Method OnGenerateVisualContent addr 0x2e31e7c size 0x4cc virtual false final false
+  /// @brief Method OnGenerateVisualContent addr 0x2ccaacc size 0x4cc virtual false final false
   inline void OnGenerateVisualContent(::UnityEngine::UIElements::MeshGenerationContext* mgc);
 
-  /// @brief Method OnCustomStyleResolved addr 0x2e32348 size 0x3f8 virtual false final false
+  /// @brief Method OnCustomStyleResolved addr 0x2ccaf98 size 0x3f8 virtual false final false
   inline void OnCustomStyleResolved(::UnityEngine::UIElements::CustomStyleResolvedEvent* e);
 
-  /// @brief Method SetScaleMode addr 0x2e32740 size 0x24 virtual false final false
+  /// @brief Method SetScaleMode addr 0x2ccb390 size 0x24 virtual false final false
   inline void SetScaleMode(::UnityEngine::ScaleMode mode);
 
-  /// @brief Method GetSourceRect addr 0x2e315f8 size 0x244 virtual false final false
+  /// @brief Method GetSourceRect addr 0x2cca248 size 0x244 virtual false final false
   inline ::UnityEngine::Rect GetSourceRect();
 
   // Ctor Parameters [CppParam { name: "", ty: "Image", modifiers: "&&", def_value: None }]
@@ -348,19 +347,37 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Image, 0x3f8>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::Image, ___m_ScaleMode) == 0x3b0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Image, ___m_Image) == 0x3b8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Image, ___m_Sprite) == 0x3c0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Image, ___m_VectorImage) == 0x3c8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Image, ___m_UV) == 0x3d0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Image, ___m_TintColor) == 0x3e0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Image, ___m_ImageIsInline) == 0x3f0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Image, ___m_ScaleModeIsInline) == 0x3f1, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Image, ___m_TintColorIsInline) == 0x3f2, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::UxmlFactory
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7080)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5264 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7081)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7079)) CS Name: ::Image::UxmlFactory*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5148 }), TypeDefinitionIndex(TypeDefinitionIndex(7083)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7167)), TypeDefinitionIndex(TypeDefinitionIndex(7166))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7165)) CS Name: ::Image::UxmlFactory*
 class CORDL_TYPE __Image__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Image*, ::UnityEngine::UIElements::__Image__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Image__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e32940 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2ccb590 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Image__UxmlFactory", modifiers: "&&", def_value: None }]

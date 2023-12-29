@@ -10,13 +10,13 @@ namespace UnityEngine {
 class Event;
 }
 namespace UnityEngine {
+struct KeyCode;
+}
+namespace UnityEngine {
 struct EventModifiers;
 }
 namespace UnityEngine::UIElements {
 class IKeyboardEvent;
-}
-namespace UnityEngine {
-struct KeyCode;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -30,8 +30,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10058)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1713 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14602)), TypeDefinitionIndex(TypeDefinitionIndex(7180))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7240)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9986)), TypeDefinitionIndex(TypeDefinitionIndex(14819)), TypeDefinitionIndex(TypeDefinitionIndex(7266)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7266), inst: 1646 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7326)) CS Name:
 // ::UnityEngine.UIElements::KeyboardEventBase`1<T>*
 class CORDL_TYPE KeyboardEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:

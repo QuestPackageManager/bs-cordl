@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::ISelectHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13184))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13189))
 // CS Name: ::UnityEngine.EventSystems::ISelectHandler*
 class CORDL_TYPE ISelectHandler {
 public:

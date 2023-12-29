@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__Datatype_float_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Datatype_floatXdr)
-namespace System {
-class Object;
-}
 namespace System::Xml {
 class XmlNameTable;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -24,18 +24,18 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_floatXdr);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11629))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11678))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11557))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11606))
 // CS Name: ::System.Xml.Schema::Datatype_floatXdr*
 class CORDL_TYPE Datatype_floatXdr : public ::System::Xml::Schema::Datatype_float {
 public:
   // Declarations
-  /// @brief Method ParseValue addr 0x28becb0 size 0x27c virtual true final false
+  /// @brief Method ParseValue addr 0x2740c8c size 0x27c virtual true final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
   static inline ::System::Xml::Schema::Datatype_floatXdr* New_ctor();
 
-  /// @brief Method .ctor addr 0x28bef2c size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x2740f08 size 0x54 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_floatXdr", modifiers: "&&", def_value: None }]

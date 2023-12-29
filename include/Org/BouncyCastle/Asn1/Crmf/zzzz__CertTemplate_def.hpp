@@ -5,8 +5,17 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertTemplate)
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class SubjectPublicKeyInfo;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class OptionalValidity;
+}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
@@ -15,25 +24,16 @@ namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class OptionalValidity;
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -172,43 +172,43 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe84ca8 size 0x56c virtual false final false
+  /// @brief Method .ctor addr 0xe0fad4 size 0x56c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe84824 size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0xe0f650 size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Version addr 0xe853dc size 0x18 virtual true final false
+  /// @brief Method get_Version addr 0xe10208 size 0x18 virtual true final false
   inline int32_t get_Version();
 
-  /// @brief Method get_SerialNumber addr 0xe85474 size 0x8 virtual true final false
+  /// @brief Method get_SerialNumber addr 0xe102a0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_SerialNumber();
 
-  /// @brief Method get_SigningAlg addr 0xe8547c size 0x8 virtual true final false
+  /// @brief Method get_SigningAlg addr 0xe102a8 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SigningAlg();
 
-  /// @brief Method get_Issuer addr 0xe85484 size 0x8 virtual true final false
+  /// @brief Method get_Issuer addr 0xe102b0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_Validity addr 0xe8548c size 0x8 virtual true final false
+  /// @brief Method get_Validity addr 0xe102b8 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Crmf::OptionalValidity* get_Validity();
 
-  /// @brief Method get_Subject addr 0xe85494 size 0x8 virtual true final false
+  /// @brief Method get_Subject addr 0xe102c0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
 
-  /// @brief Method get_PublicKey addr 0xe8549c size 0x8 virtual true final false
+  /// @brief Method get_PublicKey addr 0xe102c8 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_PublicKey();
 
-  /// @brief Method get_IssuerUID addr 0xe854a4 size 0x8 virtual true final false
+  /// @brief Method get_IssuerUID addr 0xe102d0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_IssuerUID();
 
-  /// @brief Method get_SubjectUID addr 0xe854ac size 0x8 virtual true final false
+  /// @brief Method get_SubjectUID addr 0xe102d8 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_SubjectUID();
 
-  /// @brief Method get_Extensions addr 0xe854b4 size 0x8 virtual true final false
+  /// @brief Method get_Extensions addr 0xe102e0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method ToAsn1Object addr 0xe854bc size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe102e8 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertTemplate", modifiers: "&&", def_value: None }]
@@ -262,6 +262,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Crmf::CertTemplate, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertTemplate, ___seq) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertTemplate, ___version) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertTemplate, ___serialNumber) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertTemplate, ___signingAlg) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertTemplate, ___issuer) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertTemplate, ___validity) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertTemplate, ___subject) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertTemplate, ___publicKey) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertTemplate, ___issuerUID) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertTemplate, ___subjectUID) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertTemplate, ___extensions) == 0x60, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Crmf::CertTemplate);

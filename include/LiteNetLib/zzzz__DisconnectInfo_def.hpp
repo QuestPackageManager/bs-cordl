@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "System/Net/Sockets/zzzz__SocketError_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(DisconnectInfo)
-namespace LiteNetLib {
-struct DisconnectReason;
-}
 namespace System::Net::Sockets {
 struct SocketError;
+}
+namespace LiteNetLib {
+struct DisconnectReason;
 }
 namespace LiteNetLib {
 class NetPacketReader;
@@ -25,8 +25,8 @@ MARK_VAL_T(::LiteNetLib::DisconnectInfo);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9347)), TypeDefinitionIndex(TypeDefinitionIndex(14131))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14132))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14469)), TypeDefinitionIndex(TypeDefinitionIndex(8184))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14470))
 // CS Name: ::LiteNetLib::DisconnectInfo
 struct CORDL_TYPE DisconnectInfo {
 public:
@@ -55,6 +55,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::DisconnectInfo, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::DisconnectInfo, Reason) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::DisconnectInfo, SocketErrorCode) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::DisconnectInfo, AdditionalData) == 0x8, "Offset mismatch!");
 
 } // namespace LiteNetLib
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::DisconnectInfo, "LiteNetLib", "DisconnectInfo");

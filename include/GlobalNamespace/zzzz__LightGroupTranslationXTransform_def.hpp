@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupTranslationXTransform);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4936))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5041))
 // CS Name: ::LightGroupTranslationXTransform*
 class CORDL_TYPE LightGroupTranslationXTransform : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   static inline ::GlobalNamespace::LightGroupTranslationXTransform* New_ctor();
 
-  /// @brief Method .ctor addr 0x23a9a10 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22719d0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupTranslationXTransform", modifiers: "&&", def_value: None }]

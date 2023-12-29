@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspMvcViewLocationFormatAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15765))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15715))
 // CS Name: ::JetBrains.Annotations::AspMvcViewLocationFormatAttribute*
 class CORDL_TYPE AspMvcViewLocationFormatAttribute : public ::System::Attribute {
 public:
@@ -34,13 +34,13 @@ public:
 
   static inline ::JetBrains::Annotations::AspMvcViewLocationFormatAttribute* New_ctor(::StringW format);
 
-  /// @brief Method .ctor addr 0x2eba50c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d5278c size 0x28 virtual false final false
   inline void _ctor(::StringW format);
 
-  /// @brief Method get_Format addr 0x2eba534 size 0x8 virtual false final false
+  /// @brief Method get_Format addr 0x2d527b4 size 0x8 virtual false final false
   inline ::StringW get_Format();
 
-  /// @brief Method set_Format addr 0x2eba53c size 0x8 virtual false final false
+  /// @brief Method set_Format addr 0x2d527bc size 0x8 virtual false final false
   inline void set_Format(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "AspMvcViewLocationFormatAttribute", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::AspMvcViewLocationFormatAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::AspMvcViewLocationFormatAttribute, ____Format_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::AspMvcViewLocationFormatAttribute);

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::MS::Internal::Xml::Cache::XPathNodePageInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::Cache {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11771))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11699))
 // CS Name: ::MS.Internal.Xml.Cache::XPathNodePageInfo*
 class CORDL_TYPE XPathNodePageInfo : public ::System::Object {
 public:
@@ -58,13 +58,13 @@ public:
 
   constexpr void __set__pageNext(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value);
 
-  /// @brief Method get_PageNumber addr 0x28eb808 size 0x8 virtual false final false
+  /// @brief Method get_PageNumber addr 0x276d7e4 size 0x8 virtual false final false
   inline int32_t get_PageNumber();
 
-  /// @brief Method get_NodeCount addr 0x28eb810 size 0x8 virtual false final false
+  /// @brief Method get_NodeCount addr 0x276d7ec size 0x8 virtual false final false
   inline int32_t get_NodeCount();
 
-  /// @brief Method get_NextPage addr 0x28eb818 size 0x8 virtual false final false
+  /// @brief Method get_NextPage addr 0x276d7f4 size 0x8 virtual false final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_NextPage();
 
   // Ctor Parameters [CppParam { name: "", ty: "XPathNodePageInfo", modifiers: "&&", def_value: None }]
@@ -94,6 +94,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::Cache::XPathNodePageInfo, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNodePageInfo, ____pageNum) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNodePageInfo, ____nodeCount) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNodePageInfo, ____pageNext) == 0x18, "Offset mismatch!");
 
 } // namespace MS::Internal::Xml::Cache
 NEED_NO_BOX(::MS::Internal::Xml::Cache::XPathNodePageInfo);

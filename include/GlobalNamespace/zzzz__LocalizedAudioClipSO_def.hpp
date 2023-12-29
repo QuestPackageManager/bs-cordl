@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(LocalizedAudioClipSO)
 namespace GlobalNamespace {
-class __LocalizedAudioClipSO____c__DisplayClass4_0;
+class __LocalizedAudioClipSO__LocalizedAudioClipInfo;
 }
 namespace GlobalNamespace {
-class __LocalizedAudioClipSO__LocalizedAudioClipInfo;
+class __LocalizedAudioClipSO____c__DisplayClass4_0;
 }
 namespace UnityEngine {
 class AudioClip;
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__LocalizedAudioClipSO____c__DisplayClass4_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5869))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15538)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5959))
 // CS Name: ::LocalizedAudioClipSO::LocalizedAudioClipInfo*
 class CORDL_TYPE __LocalizedAudioClipSO__LocalizedAudioClipInfo : public ::System::Object {
 public:
@@ -60,7 +60,7 @@ public:
 
   static inline ::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x22f85f4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21aff28 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LocalizedAudioClipSO__LocalizedAudioClipInfo", modifiers: "&&", def_value: None }]
@@ -88,13 +88,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo, ___language) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo, ___localizedAudioClip) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass4_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5870))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15538)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5960))
 // CS Name: ::LocalizedAudioClipSO::<>c__DisplayClass4_0*
 class CORDL_TYPE __LocalizedAudioClipSO____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -110,10 +114,10 @@ public:
 
   static inline ::GlobalNamespace::__LocalizedAudioClipSO____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x22f85e4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21aff18 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <get_localizedAudioClip>b__0 addr 0x22f85fc size 0x24 virtual false final false
+  /// @brief Method <get_localizedAudioClip>b__0 addr 0x21aff30 size 0x24 virtual false final false
   inline bool _get_localizedAudioClip_b__0(::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* t);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LocalizedAudioClipSO____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
@@ -138,13 +142,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalizedAudioClipSO____c__DisplayClass4_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LocalizedAudioClipSO____c__DisplayClass4_0, ___language) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LocalizedAudioClipSO
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5871))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5961))
 // CS Name: ::LocalizedAudioClipSO*
 class CORDL_TYPE LocalizedAudioClipSO : public ::UnityEngine::ScriptableObject {
 public:
@@ -177,12 +183,12 @@ public:
 
   constexpr void __set__lastLocalizedAudioClipInfo(::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* value);
 
-  /// @brief Method get_localizedAudioClip addr 0x22f84dc size 0x108 virtual false final false
+  /// @brief Method get_localizedAudioClip addr 0x21afe10 size 0x108 virtual false final false
   inline ::UnityEngine::AudioClip* get_localizedAudioClip();
 
   static inline ::GlobalNamespace::LocalizedAudioClipSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x22f85ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21aff20 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizedAudioClipSO", modifiers: "&&", def_value: None }]
@@ -209,6 +215,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LocalizedAudioClipSO, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LocalizedAudioClipSO, ____localizedAudioClipInfo) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LocalizedAudioClipSO, ____lastLocalizedAudioClipInfo) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LocalizedAudioClipSO);

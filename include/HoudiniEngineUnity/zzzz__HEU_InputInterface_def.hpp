@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_InputInterface)
-namespace UnityEngine {
-class GameObject;
-}
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputInterface);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9839))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9766))
 // CS Name: ::HoudiniEngineUnity::HEU_InputInterface*
 class CORDL_TYPE HEU_InputInterface : public ::System::Object {
 public:
@@ -39,15 +39,15 @@ public:
 
   constexpr void __set__priority(int32_t value);
 
-  /// @brief Method get_Priority addr 0x21c527c size 0x8 virtual false final false
+  /// @brief Method get_Priority addr 0x206e8e0 size 0x8 virtual false final false
   inline int32_t get_Priority();
 
   static inline ::HoudiniEngineUnity::HEU_InputInterface* New_ctor(int32_t priority);
 
-  /// @brief Method .ctor addr 0x21c5284 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x206e8e8 size 0x28 virtual false final false
   inline void _ctor(int32_t priority);
 
-  /// @brief Method RegisterInterface addr 0x21c52ac size 0x58 virtual false final false
+  /// @brief Method RegisterInterface addr 0x206e910 size 0x58 virtual false final false
   inline void RegisterInterface();
 
   /// @brief Method IsThisInputObjectSupported addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -80,6 +80,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputInterface, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputInterface, ____priority) == 0x10, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputInterface);

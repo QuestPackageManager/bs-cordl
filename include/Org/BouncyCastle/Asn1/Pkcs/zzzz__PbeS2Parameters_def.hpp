@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(PbeS2Parameters)
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class KeyDerivationFunc;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class EncryptionScheme;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -57,27 +57,27 @@ public:
 
   constexpr void __set_scheme(::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* value);
 
-  /// @brief Method GetInstance addr 0xf899bc size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0xf13798 size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* keyDevFunc,
                                                                            ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* encScheme);
 
-  /// @brief Method .ctor addr 0xf89cec size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xf13ac8 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* keyDevFunc, ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* encScheme);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf89a60 size 0x28c virtual false final false
+  /// @brief Method .ctor addr 0xf1383c size 0x28c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_KeyDerivationFunc addr 0xf89ea0 size 0x8 virtual false final false
+  /// @brief Method get_KeyDerivationFunc addr 0xf13c7c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* get_KeyDerivationFunc();
 
-  /// @brief Method get_EncryptionScheme addr 0xf89ea8 size 0x8 virtual false final false
+  /// @brief Method get_EncryptionScheme addr 0xf13c84 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* get_EncryptionScheme();
 
-  /// @brief Method ToAsn1Object addr 0xf89eb0 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf13c8c size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PbeS2Parameters", modifiers: "&&", def_value: None }]
@@ -104,6 +104,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters, ___func) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters, ___scheme) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters);

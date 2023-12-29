@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::CalendarId);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3667))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3655))
 // CS Name: ::System.Globalization::CalendarId
 struct CORDL_TYPE CalendarId {
 public:
@@ -149,6 +149,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::CalendarId, 0x2>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarId, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CalendarId, "System.Globalization", "CalendarId");

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteControllerDidInitEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4762))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4883))
 // CS Name: ::INoteControllerDidInitEvent*
 class CORDL_TYPE INoteControllerDidInitEvent {
 public:

@@ -18,8 +18,8 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::Transform3x4);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7424))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10173))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7510))
 // CS Name: ::UnityEngine.UIElements.UIR::Transform3x4
 struct CORDL_TYPE Transform3x4 {
 public:
@@ -48,6 +48,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::Transform3x4, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Transform3x4, v0) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Transform3x4, v1) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Transform3x4, v2) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::Transform3x4, "UnityEngine.UIElements.UIR", "Transform3x4");

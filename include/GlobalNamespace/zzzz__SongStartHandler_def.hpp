@@ -4,10 +4,16 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
+#include <cmath>
 CORDL_MODULE_EXPORT(SongStartHandler)
 namespace System {
 class IDisposable;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
@@ -15,14 +21,8 @@ template <typename T> class HashSet_1;
 namespace GlobalNamespace {
 class IGameplayRpcManager;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class PlayersSpecificSettingsAtGameStartModel;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,11 +31,11 @@ class SongStartHandler;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SongStartHandler);
 // Type: ::SongStartHandler
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12960))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12881))
 // CS Name: ::SongStartHandler*
 class CORDL_TYPE SongStartHandler : public ::System::Object {
 public:
@@ -55,13 +55,13 @@ public:
   /// @brief Field _started, offset 0x30, size 0x1
   __declspec(property(get = __get__started, put = __set__started)) bool _started;
 
-  /// @brief Field _startTime, offset 0x38, size 0x8
-  __declspec(property(get = __get__startTime, put = __set__startTime)) int64_t _startTime;
+  /// @brief Field _startTime, offset 0x34, size 0x4
+  __declspec(property(get = __get__startTime, put = __set__startTime)) float_t _startTime;
 
-  /// @brief Field setSongStartSyncTimeEvent, offset 0x40, size 0x8
-  __declspec(property(get = __get_setSongStartSyncTimeEvent, put = __set_setSongStartSyncTimeEvent))::System::Action_1<int64_t>* setSongStartSyncTimeEvent;
+  /// @brief Field setSongStartSyncTimeEvent, offset 0x38, size 0x8
+  __declspec(property(get = __get_setSongStartSyncTimeEvent, put = __set_setSongStartSyncTimeEvent))::System::Action_1<float_t>* setSongStartSyncTimeEvent;
 
-  __declspec(property(get = get_songStartSyncTime)) int64_t songStartSyncTime;
+  __declspec(property(get = get_songStartSyncTime)) float_t songStartSyncTime;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -96,56 +96,56 @@ public:
 
   constexpr void __set__started(bool value);
 
-  constexpr int64_t& __get__startTime();
+  constexpr float_t& __get__startTime();
 
-  constexpr int64_t const& __get__startTime() const;
+  constexpr float_t const& __get__startTime() const;
 
-  constexpr void __set__startTime(int64_t value);
+  constexpr void __set__startTime(float_t value);
 
-  constexpr ::System::Action_1<int64_t>*& __get_setSongStartSyncTimeEvent();
+  constexpr ::System::Action_1<float_t>*& __get_setSongStartSyncTimeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int64_t>*> const& __get_setSongStartSyncTimeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __get_setSongStartSyncTimeEvent() const;
 
-  constexpr void __set_setSongStartSyncTimeEvent(::System::Action_1<int64_t>* value);
+  constexpr void __set_setSongStartSyncTimeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_songStartSyncTime addr 0xe57244 size 0x8 virtual false final false
-  inline int64_t get_songStartSyncTime();
+  /// @brief Method get_songStartSyncTime addr 0xdd2198 size 0x8 virtual false final false
+  inline float_t get_songStartSyncTime();
 
-  /// @brief Method add_setSongStartSyncTimeEvent addr 0xe5724c size 0xb0 virtual false final false
-  inline void add_setSongStartSyncTimeEvent(::System::Action_1<int64_t>* value);
+  /// @brief Method add_setSongStartSyncTimeEvent addr 0xdd21a0 size 0xb0 virtual false final false
+  inline void add_setSongStartSyncTimeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_setSongStartSyncTimeEvent addr 0xe572fc size 0xb0 virtual false final false
-  inline void remove_setSongStartSyncTimeEvent(::System::Action_1<int64_t>* value);
+  /// @brief Method remove_setSongStartSyncTimeEvent addr 0xdd2250 size 0xb0 virtual false final false
+  inline void remove_setSongStartSyncTimeEvent(::System::Action_1<float_t>* value);
 
   static inline ::GlobalNamespace::SongStartHandler* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                                                               ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
-  /// @brief Method .ctor addr 0xe573ac size 0xa4 virtual false final false
+  /// @brief Method .ctor addr 0xdd2300 size 0xa4 virtual false final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                     ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
-  /// @brief Method GetLevelStartTimeOffset addr 0xe57450 size 0x4ec virtual false final false
+  /// @brief Method GetLevelStartTimeOffset addr 0xdd23a4 size 0x4f0 virtual false final false
   inline void GetLevelStartTimeOffset();
 
-  /// @brief Method Dispose addr 0xe5793c size 0x244 virtual true final true
+  /// @brief Method Dispose addr 0xdd2894 size 0x244 virtual true final true
   inline void Dispose();
 
-  /// @brief Method ForceStart addr 0xe57b80 size 0x6b0 virtual false final false
+  /// @brief Method ForceStart addr 0xdd2ad8 size 0x6c0 virtual false final false
   inline void ForceStart(::StringW sessionGameId);
 
-  /// @brief Method StartSong addr 0xe58230 size 0x298 virtual false final false
+  /// @brief Method StartSong addr 0xdd3198 size 0x2a8 virtual false final false
   inline void StartSong();
 
-  /// @brief Method HandleSetGameplaySongReady addr 0xe584c8 size 0x2b0 virtual false final false
+  /// @brief Method HandleSetGameplaySongReady addr 0xdd3440 size 0x2bc virtual false final false
   inline void HandleSetGameplaySongReady(::StringW user);
 
-  /// @brief Method HandleGetGameplaySongReady addr 0xe58778 size 0xa4 virtual false final false
+  /// @brief Method HandleGetGameplaySongReady addr 0xdd36fc size 0xa4 virtual false final false
   inline void HandleGetGameplaySongReady(::StringW user);
 
-  /// @brief Method HandleSetSongStartTime addr 0xe5881c size 0x30 virtual false final false
-  inline void HandleSetSongStartTime(::StringW user, int64_t time);
+  /// @brief Method HandleSetSongStartTime addr 0xdd37a0 size 0x28 virtual false final false
+  inline void HandleSetSongStartTime(::StringW user, float_t time);
 
-  /// @brief Method Log addr 0xe5884c size 0x58 virtual false final false
+  /// @brief Method Log addr 0xdd37c8 size 0x58 virtual false final false
   inline void Log(::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "SongStartHandler", modifiers: "&&", def_value: None }]
@@ -177,19 +177,33 @@ public:
   /// @brief Field _started, offset: 0x30, size: 0x1, def value: None
   bool ____started;
 
-  /// @brief Field _startTime, offset: 0x38, size: 0x8, def value: None
-  int64_t ____startTime;
+  /// @brief Field _startTime, offset: 0x34, size: 0x4, def value: None
+  float_t ____startTime;
 
-  /// @brief Field setSongStartSyncTimeEvent, offset: 0x40, size: 0x8, def value: None
-  ::System::Action_1<int64_t>* ___setSongStartSyncTimeEvent;
+  /// @brief Field setSongStartSyncTimeEvent, offset: 0x38, size: 0x8, def value: None
+  ::System::Action_1<float_t>* ___setSongStartSyncTimeEvent;
 
-  /// @brief Field kFixedStartDelayMs offset 0xffffffff size 0x8
-  static constexpr int64_t kFixedStartDelayMs{ static_cast<int64_t>(0xfa) };
+  /// @brief Field kFixedStartDelay offset 0xffffffff size 0x4
+  static constexpr float_t kFixedStartDelay{ 0.25 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongStartHandler, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongStartHandler, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongStartHandler, ____multiplayerSessionManager) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongStartHandler, ____gameplayRpcManager) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongStartHandler, ____playersAtGameStartModel) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongStartHandler, ____readyPlayers) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongStartHandler, ____started) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongStartHandler, ____startTime) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongStartHandler, ___setSongStartSyncTimeEvent) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongStartHandler);

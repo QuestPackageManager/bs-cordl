@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(SignedData)
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfo;
-}
-namespace System {
-class Object;
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -153,48 +153,48 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_Version5();
 
-  /// @brief Method GetInstance addr 0xe7d7f4 size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0xe08620 size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cms::SignedData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::SignedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Set* digestAlgorithms, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo,
                                                                      ::Org::BouncyCastle::Asn1::Asn1Set* certificates, ::Org::BouncyCastle::Asn1::Asn1Set* crls,
                                                                      ::Org::BouncyCastle::Asn1::Asn1Set* signerInfos);
 
-  /// @brief Method .ctor addr 0xe7df08 size 0x110 virtual false final false
+  /// @brief Method .ctor addr 0xe08d34 size 0x110 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set* digestAlgorithms, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo, ::Org::BouncyCastle::Asn1::Asn1Set* certificates,
                     ::Org::BouncyCastle::Asn1::Asn1Set* crls, ::Org::BouncyCastle::Asn1::Asn1Set* signerInfos);
 
-  /// @brief Method CalculateVersion addr 0xe7e018 size 0x694 virtual false final false
+  /// @brief Method CalculateVersion addr 0xe08e44 size 0x694 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* CalculateVersion(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentOid, ::Org::BouncyCastle::Asn1::Asn1Set* certs,
                                                                  ::Org::BouncyCastle::Asn1::Asn1Set* crls, ::Org::BouncyCastle::Asn1::Asn1Set* signerInfs);
 
-  /// @brief Method CheckForVersion3 addr 0xe7e6ac size 0x2d4 virtual false final false
+  /// @brief Method CheckForVersion3 addr 0xe094d8 size 0x2d4 virtual false final false
   inline bool CheckForVersion3(::Org::BouncyCastle::Asn1::Asn1Set* signerInfs);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::SignedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe7d898 size 0x670 virtual false final false
+  /// @brief Method .ctor addr 0xe086c4 size 0x670 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Version addr 0xe7e980 size 0x8 virtual false final false
+  /// @brief Method get_Version addr 0xe097ac size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_DigestAlgorithms addr 0xe7e988 size 0x8 virtual false final false
+  /// @brief Method get_DigestAlgorithms addr 0xe097b4 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_DigestAlgorithms();
 
-  /// @brief Method get_EncapContentInfo addr 0xe7e990 size 0x8 virtual false final false
+  /// @brief Method get_EncapContentInfo addr 0xe097bc size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_EncapContentInfo();
 
-  /// @brief Method get_Certificates addr 0xe7e998 size 0x8 virtual false final false
+  /// @brief Method get_Certificates addr 0xe097c4 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_Certificates();
 
-  /// @brief Method get_CRLs addr 0xe7e9a0 size 0x8 virtual false final false
+  /// @brief Method get_CRLs addr 0xe097cc size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_CRLs();
 
-  /// @brief Method get_SignerInfos addr 0xe7e9a8 size 0x8 virtual false final false
+  /// @brief Method get_SignerInfos addr 0xe097d4 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_SignerInfos();
 
-  /// @brief Method ToAsn1Object addr 0xe7e9b0 size 0x26c virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe097dc size 0x26c virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignedData", modifiers: "&&", def_value: None }]
@@ -239,6 +239,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::SignedData, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::SignedData, ___version) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::SignedData, ___digestAlgorithms) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::SignedData, ___contentInfo) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::SignedData, ___certificates) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::SignedData, ___crls) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::SignedData, ___signerInfos) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::SignedData, ___certsBer) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::SignedData, ___crlsBer) == 0x41, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::SignedData);

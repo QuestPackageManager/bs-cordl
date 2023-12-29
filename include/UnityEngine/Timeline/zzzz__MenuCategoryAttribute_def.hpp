@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::MenuCategoryAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13926))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14197))
 // CS Name: ::UnityEngine.Timeline::MenuCategoryAttribute*
 class CORDL_TYPE MenuCategoryAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::Timeline::MenuCategoryAttribute* New_ctor(::StringW category);
 
-  /// @brief Method .ctor addr 0x2c6e7c8 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x2aeaa74 size 0x6c virtual false final false
   inline void _ctor(::StringW category);
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuCategoryAttribute", modifiers: "&&", def_value: None }]
@@ -56,6 +56,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::MenuCategoryAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::MenuCategoryAttribute, ___category) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::MenuCategoryAttribute);

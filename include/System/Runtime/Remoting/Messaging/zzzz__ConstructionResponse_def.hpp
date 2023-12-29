@@ -5,22 +5,10 @@ CORDL_MODULE_INIT
 #include "System/Runtime/Remoting/Messaging/zzzz__MethodResponse_def.hpp"
 CORDL_MODULE_EXPORT(ConstructionResponse)
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
 class LogicalCallContext;
-}
-namespace System::Runtime::Remoting::Activation {
-class IConstructionReturnMessage;
 }
 namespace System {
 class Exception;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodReturnMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
@@ -29,13 +17,25 @@ namespace System {
 class Object;
 }
 namespace System::Runtime::Remoting::Messaging {
+class IMethodReturnMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
 class IMethodCallMessage;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Runtime::Remoting::Activation {
+class IConstructionReturnMessage;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ConstructionResponse);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3162))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3177))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3161))
 // CS Name: ::System.Runtime.Remoting.Messaging::ConstructionResponse*
 class CORDL_TYPE ConstructionResponse : public ::System::Runtime::Remoting::Messaging::MethodResponse {
 public:
@@ -70,21 +70,21 @@ public:
   static inline ::System::Runtime::Remoting::Messaging::ConstructionResponse* New_ctor(::System::Object* resultObject, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx,
                                                                                        ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
-  /// @brief Method .ctor addr 0x249a1c0 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x23416cc size 0xc virtual false final false
   inline void _ctor(::System::Object* resultObject, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
   static inline ::System::Runtime::Remoting::Messaging::ConstructionResponse* New_ctor(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
-  /// @brief Method .ctor addr 0x24a4f80 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x234c48c size 0x4 virtual false final false
   inline void _ctor(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
   static inline ::System::Runtime::Remoting::Messaging::ConstructionResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                        ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x24ad2d4 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x23547e0 size 0x4 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Properties addr 0x24ad350 size 0x4 virtual true final false
+  /// @brief Method get_Properties addr 0x235485c size 0x4 virtual true final false
   inline ::System::Collections::IDictionary* get_Properties();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConstructionResponse", modifiers: "&&", def_value: None }]

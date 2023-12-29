@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TransformSpectrogram);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14733)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5001))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(14948)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5106))
 // CS Name: ::TransformSpectrogram*
 class CORDL_TYPE TransformSpectrogram : public ::UnityEngine::MonoBehaviour {
 public:
@@ -114,15 +114,15 @@ public:
 
   constexpr void __set__defaultPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method Awake addr 0x23b72f0 size 0x188 virtual false final false
+  /// @brief Method Awake addr 0x227e484 size 0x188 virtual false final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x23b7478 size 0x268 virtual false final false
+  /// @brief Method Update addr 0x227e60c size 0x268 virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::TransformSpectrogram* New_ctor();
 
-  /// @brief Method .ctor addr 0x23b76e0 size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x227e874 size 0x1c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TransformSpectrogram", modifiers: "&&", def_value: None }]
@@ -170,6 +170,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TransformSpectrogram, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____transforms) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____axis) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____minPosition) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____maxPosition) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____scaleSamples) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____scale) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____spectrogramData) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____direction) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____defaultPositions) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TransformSpectrogram);

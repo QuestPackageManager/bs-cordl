@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TypeExtensions)
-namespace System::Reflection {
-class Assembly;
+namespace System {
+class Delegate;
 }
 namespace System::Reflection {
 struct MemberTypes;
+}
+namespace System::Reflection {
+class Assembly;
 }
 namespace System {
 class Type;
 }
 namespace System::Reflection {
-class MethodInfo;
-}
-namespace System {
-class Delegate;
+class MemberInfo;
 }
 namespace System::Reflection {
-class MemberInfo;
+class MethodInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -34,61 +34,61 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::TypeExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11901))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11829))
 // CS Name: ::Newtonsoft.Json.Utilities::TypeExtensions*
 class CORDL_TYPE TypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Method addr 0x2669e50 size 0x14 virtual false final false
+  /// @brief Method Method addr 0x250670c size 0x14 virtual false final false
   static inline ::System::Reflection::MethodInfo* Method(::System::Delegate* d);
 
-  /// @brief Method MemberType addr 0x265b3b4 size 0x1c virtual false final false
+  /// @brief Method MemberType addr 0x24f7c70 size 0x1c virtual false final false
   static inline ::System::Reflection::MemberTypes MemberType(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method ContainsGenericParameters addr 0x2669e64 size 0x20 virtual false final false
+  /// @brief Method ContainsGenericParameters addr 0x2506720 size 0x20 virtual false final false
   static inline bool ContainsGenericParameters(::System::Type* type);
 
-  /// @brief Method IsInterface addr 0x265d42c size 0x14 virtual false final false
+  /// @brief Method IsInterface addr 0x24f9ce8 size 0x14 virtual false final false
   static inline bool IsInterface(::System::Type* type);
 
-  /// @brief Method IsGenericType addr 0x26662bc size 0x20 virtual false final false
+  /// @brief Method IsGenericType addr 0x2502b78 size 0x20 virtual false final false
   static inline bool IsGenericType(::System::Type* type);
 
-  /// @brief Method IsGenericTypeDefinition addr 0x265d440 size 0x20 virtual false final false
+  /// @brief Method IsGenericTypeDefinition addr 0x24f9cfc size 0x20 virtual false final false
   static inline bool IsGenericTypeDefinition(::System::Type* type);
 
-  /// @brief Method BaseType addr 0x2666888 size 0x20 virtual false final false
+  /// @brief Method BaseType addr 0x2503144 size 0x20 virtual false final false
   static inline ::System::Type* BaseType(::System::Type* type);
 
-  /// @brief Method Assembly addr 0x2669e84 size 0x20 virtual false final false
+  /// @brief Method Assembly addr 0x2506740 size 0x20 virtual false final false
   static inline ::System::Reflection::Assembly* Assembly(::System::Type* type);
 
-  /// @brief Method IsEnum addr 0x265bf18 size 0x20 virtual false final false
+  /// @brief Method IsEnum addr 0x24f87d4 size 0x20 virtual false final false
   static inline bool IsEnum(::System::Type* type);
 
-  /// @brief Method IsClass addr 0x266678c size 0x14 virtual false final false
+  /// @brief Method IsClass addr 0x2503048 size 0x14 virtual false final false
   static inline bool IsClass(::System::Type* type);
 
-  /// @brief Method IsSealed addr 0x2669ea4 size 0x14 virtual false final false
+  /// @brief Method IsSealed addr 0x2506760 size 0x14 virtual false final false
   static inline bool IsSealed(::System::Type* type);
 
-  /// @brief Method IsAbstract addr 0x265d460 size 0x14 virtual false final false
+  /// @brief Method IsAbstract addr 0x24f9d1c size 0x14 virtual false final false
   static inline bool IsAbstract(::System::Type* type);
 
-  /// @brief Method IsVisible addr 0x2669eb8 size 0x14 virtual false final false
+  /// @brief Method IsVisible addr 0x2506774 size 0x14 virtual false final false
   static inline bool IsVisible(::System::Type* type);
 
-  /// @brief Method IsValueType addr 0x2666120 size 0x14 virtual false final false
+  /// @brief Method IsValueType addr 0x25029dc size 0x14 virtual false final false
   static inline bool IsValueType(::System::Type* type);
 
-  /// @brief Method AssignableToTypeName addr 0x2669ecc size 0x10c virtual false final false
+  /// @brief Method AssignableToTypeName addr 0x2506788 size 0x10c virtual false final false
   static inline bool AssignableToTypeName(::System::Type* type, ::StringW fullTypeName, ByRef<::System::Type*> match);
 
-  /// @brief Method AssignableToTypeName addr 0x2669fd8 size 0x1c virtual false final false
+  /// @brief Method AssignableToTypeName addr 0x2506894 size 0x1c virtual false final false
   static inline bool AssignableToTypeName(::System::Type* type, ::StringW fullTypeName);
 
-  /// @brief Method ImplementInterface addr 0x2669ff4 size 0x368 virtual false final false
+  /// @brief Method ImplementInterface addr 0x25068b0 size 0x368 virtual false final false
   static inline bool ImplementInterface(::System::Type* type, ::System::Type* interfaceType);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions", modifiers: "&&", def_value: None }]

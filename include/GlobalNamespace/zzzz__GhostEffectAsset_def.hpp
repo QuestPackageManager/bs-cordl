@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ExposedReference_1_def.hpp"
 CORDL_MODULE_EXPORT(GhostEffectAsset)
 namespace UnityEngine::Timeline {
+struct ClipCaps;
+}
+namespace GlobalNamespace {
+class GhostEffectBehaviour;
+}
+namespace UnityEngine::Timeline {
 class ITimelineClipAsset;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
-}
-namespace GlobalNamespace {
-class GhostEffectBehaviour;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::Playables {
 struct Playable;
-}
-namespace UnityEngine::Timeline {
-struct ClipCaps;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GhostEffectAsset);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10046)), TypeDefinitionIndex(TypeDefinitionIndex(6015)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10046), inst:
-// 1763 }), TypeDefinitionIndex(TypeDefinitionIndex(10422)), TypeDefinitionIndex(TypeDefinitionIndex(6019))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6013)) CS Name: ::GhostEffectAsset*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10344)), TypeDefinitionIndex(TypeDefinitionIndex(9974)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9974), inst:
+// 1699 }), TypeDefinitionIndex(TypeDefinitionIndex(6074)), TypeDefinitionIndex(TypeDefinitionIndex(6070))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6068)) CS Name: ::GhostEffectAsset*
 class CORDL_TYPE GhostEffectAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:
   // Declarations
@@ -72,15 +72,15 @@ public:
 
   constexpr void __set__cordl_template(::GlobalNamespace::GhostEffectBehaviour* value);
 
-  /// @brief Method get_clipCaps addr 0x2316234 size 0x8 virtual true final true
+  /// @brief Method get_clipCaps addr 0x21c4410 size 0x8 virtual true final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
-  /// @brief Method CreatePlayable addr 0x231623c size 0x13c virtual true final false
+  /// @brief Method CreatePlayable addr 0x21c4418 size 0x13c virtual true final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::GhostEffectAsset* New_ctor();
 
-  /// @brief Method .ctor addr 0x2316378 size 0x1008 virtual false final false
+  /// @brief Method .ctor addr 0x21c4554 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GhostEffectAsset", modifiers: "&&", def_value: None }]
@@ -110,6 +110,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GhostEffectAsset, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectAsset, ____ghostEffectType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectAsset, ___arrayReference) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectAsset, ____cordl_template) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GhostEffectAsset);

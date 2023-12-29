@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GamepadState)
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct GamepadButton;
 }
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -30,8 +30,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::GamepadState);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6492))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6578))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::GamepadState
 #pragma pack(push, 0)
 struct CORDL_TYPE GamepadState {
@@ -87,16 +87,16 @@ public:
 
   constexpr void __set_rightTrigger(float_t value);
 
-  /// @brief Method get_Format addr 0x2ae86a8 size 0x30 virtual false final false
+  /// @brief Method get_Format addr 0x2968960 size 0x30 virtual false final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_format addr 0x2ae86d8 size 0x30 virtual true final true
+  /// @brief Method get_format addr 0x2968990 size 0x30 virtual true final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method .ctor addr 0x2ae8708 size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0x29689c0 size 0xb4 virtual false final false
   inline void _ctor(::ArrayW<::UnityEngine::InputSystem::LowLevel::GamepadButton, ::Array<::UnityEngine::InputSystem::LowLevel::GamepadButton>*> buttons);
 
-  /// @brief Method WithButton addr 0x2ae87bc size 0x34 virtual false final false
+  /// @brief Method WithButton addr 0x2968a74 size 0x34 virtual false final false
   inline ::UnityEngine::InputSystem::LowLevel::GamepadState WithButton(::UnityEngine::InputSystem::LowLevel::GamepadButton button, bool value);
 
   // Ctor Parameters [CppParam { name: "buttons", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "leftStick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None },

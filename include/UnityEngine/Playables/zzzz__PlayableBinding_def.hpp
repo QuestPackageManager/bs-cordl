@@ -9,13 +9,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayableBinding)
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace System {
+class Object;
 }
 namespace UnityEngine::Playables {
 struct PlayableOutput;
 }
-namespace System {
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine {
 class Object;
 }
 namespace System {
@@ -23,9 +26,6 @@ class Type;
 }
 namespace UnityEngine::Playables {
 class __PlayableBinding__CreateOutputMethod;
-}
-namespace UnityEngine {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -41,18 +41,18 @@ MARK_VAL_T(::UnityEngine::Playables::PlayableBinding);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10430))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10352))
 // CS Name: ::PlayableBinding::CreateOutputMethod*
 class CORDL_TYPE __PlayableBinding__CreateOutputMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::Playables::__PlayableBinding__CreateOutputMethod* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2cf6068 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x2b8dd28 size 0xc4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2cf612c size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2b8ddec size 0x14 virtual true final false
   inline ::UnityEngine::Playables::PlayableOutput Invoke(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayableBinding__CreateOutputMethod", modifiers: "&&", def_value: None }]
@@ -80,7 +80,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Playables::__Playab
 namespace UnityEngine::Playables {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10431))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10353))
 // CS Name: ::UnityEngine.Playables::PlayableBinding
 struct CORDL_TYPE PlayableBinding {
 public:
@@ -105,16 +105,16 @@ public:
 
   static inline double_t getStaticF_DefaultDuration();
 
-  /// @brief Method get_streamName addr 0x2cf5eec size 0x8 virtual false final false
+  /// @brief Method get_streamName addr 0x2b8dbac size 0x8 virtual false final false
   inline ::StringW get_streamName();
 
-  /// @brief Method get_sourceObject addr 0x2cf5ef4 size 0x8 virtual false final false
+  /// @brief Method get_sourceObject addr 0x2b8dbb4 size 0x8 virtual false final false
   inline ::UnityEngine::Object* get_sourceObject();
 
-  /// @brief Method CreateOutput addr 0x2cf5efc size 0x90 virtual false final false
+  /// @brief Method CreateOutput addr 0x2b8dbbc size 0x90 virtual false final false
   inline ::UnityEngine::Playables::PlayableOutput CreateOutput(::UnityEngine::Playables::PlayableGraph graph);
 
-  /// @brief Method CreateInternal addr 0x2cf5fe4 size 0xc virtual false final false
+  /// @brief Method CreateInternal addr 0x2b8dca4 size 0xc virtual false final false
   static inline ::UnityEngine::Playables::PlayableBinding CreateInternal(::StringW name, ::UnityEngine::Object* sourceObject, ::System::Type* sourceType,
                                                                          ::UnityEngine::Playables::__PlayableBinding__CreateOutputMethod* createFunction);
 
@@ -147,6 +147,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Playables::PlayableBinding, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Playables::PlayableBinding, m_StreamName) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Playables::PlayableBinding, m_SourceObject) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Playables::PlayableBinding, m_SourceBindingType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Playables::PlayableBinding, m_CreateOutputMethod) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::Playables
 NEED_NO_BOX(::UnityEngine::Playables::__PlayableBinding__CreateOutputMethod);

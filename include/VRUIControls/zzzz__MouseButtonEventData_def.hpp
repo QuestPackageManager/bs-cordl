@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::VRUIControls::MouseButtonEventData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13167)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15669))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(13172))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15643))
 // CS Name: ::VRUIControls::MouseButtonEventData*
 class CORDL_TYPE MouseButtonEventData : public ::System::Object {
 public:
@@ -42,15 +42,15 @@ public:
 
   constexpr void __set_buttonData(::UnityEngine::EventSystems::PointerEventData* value);
 
-  /// @brief Method PressedThisFrame addr 0x2eb41a8 size 0x10 virtual false final false
+  /// @brief Method PressedThisFrame addr 0x2d4b400 size 0x10 virtual false final false
   inline bool PressedThisFrame();
 
-  /// @brief Method ReleasedThisFrame addr 0x2eb41b8 size 0x14 virtual false final false
+  /// @brief Method ReleasedThisFrame addr 0x2d4b410 size 0x14 virtual false final false
   inline bool ReleasedThisFrame();
 
   static inline ::VRUIControls::MouseButtonEventData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2eb41cc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d4b424 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseButtonEventData", modifiers: "&&", def_value: None }]
@@ -77,6 +77,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::VRUIControls::MouseButtonEventData, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::VRUIControls::MouseButtonEventData, ___buttonState) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::VRUIControls::MouseButtonEventData, ___buttonData) == 0x18, "Offset mismatch!");
 
 } // namespace VRUIControls
 NEED_NO_BOX(::VRUIControls::MouseButtonEventData);

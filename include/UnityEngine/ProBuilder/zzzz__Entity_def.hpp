@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Entity);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(12156))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12122))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(12084))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12050))
 // CS Name: ::UnityEngine.ProBuilder::Entity*
 class CORDL_TYPE Entity : public ::UnityEngine::MonoBehaviour {
 public:
@@ -35,18 +35,18 @@ public:
 
   constexpr void __set_m_EntityType(::UnityEngine::ProBuilder::EntityType value);
 
-  /// @brief Method get_entityType addr 0x2b3ffb8 size 0x8 virtual false final false
+  /// @brief Method get_entityType addr 0x29be264 size 0x8 virtual false final false
   inline ::UnityEngine::ProBuilder::EntityType get_entityType();
 
-  /// @brief Method Awake addr 0x2b3ffc0 size 0xc8 virtual false final false
+  /// @brief Method Awake addr 0x29be26c size 0xc8 virtual false final false
   inline void Awake();
 
-  /// @brief Method SetEntity addr 0x2b40088 size 0x8 virtual false final false
+  /// @brief Method SetEntity addr 0x29be334 size 0x8 virtual false final false
   inline void SetEntity(::UnityEngine::ProBuilder::EntityType t);
 
   static inline ::UnityEngine::ProBuilder::Entity* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b40090 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x29be33c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Entity", modifiers: "&&", def_value: None }]
@@ -70,6 +70,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Entity, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Entity, ___m_EntityType) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::Entity);

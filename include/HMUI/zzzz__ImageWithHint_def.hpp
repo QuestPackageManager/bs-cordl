@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ImageWithHint)
-namespace HMUI {
-class HoverHint;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace HMUI {
+class HoverHint;
 }
 namespace UnityEngine {
 class Sprite;
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::HMUI::ImageWithHint);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13628))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13745))
 // CS Name: ::HMUI::ImageWithHint*
 class CORDL_TYPE ImageWithHint : public ::UnityEngine::MonoBehaviour {
 public:
@@ -52,18 +52,18 @@ public:
 
   constexpr void __set__hoverHint(::HMUI::HoverHint* value);
 
-  /// @brief Method set_sprite addr 0x21408f8 size 0x1c virtual false final false
+  /// @brief Method set_sprite addr 0x1fe8f5c size 0x1c virtual false final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method get_sprite addr 0x2140914 size 0x1c virtual false final false
+  /// @brief Method get_sprite addr 0x1fe8f78 size 0x1c virtual false final false
   inline ::UnityEngine::Sprite* get_sprite();
 
-  /// @brief Method set_hintText addr 0x2140930 size 0x1c virtual false final false
+  /// @brief Method set_hintText addr 0x1fe8f94 size 0x1c virtual false final false
   inline void set_hintText(::StringW value);
 
   static inline ::HMUI::ImageWithHint* New_ctor();
 
-  /// @brief Method .ctor addr 0x214094c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fe8fb0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ImageWithHint", modifiers: "&&", def_value: None }]
@@ -90,6 +90,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::ImageWithHint, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::ImageWithHint, ____image) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ImageWithHint, ____hoverHint) == 0x20, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::ImageWithHint);

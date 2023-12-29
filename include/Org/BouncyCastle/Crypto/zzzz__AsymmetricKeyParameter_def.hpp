@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1020))
 // CS Name: ::Org.BouncyCastle.Crypto::AsymmetricKeyParameter*
 class CORDL_TYPE AsymmetricKeyParameter : public ::System::Object {
@@ -43,19 +43,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* New_ctor(bool privateKey);
 
-  /// @brief Method .ctor addr 0xf30398 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xebb1ac size 0x28 virtual false final false
   inline void _ctor(bool privateKey);
 
-  /// @brief Method get_IsPrivate addr 0xf303c0 size 0x8 virtual false final false
+  /// @brief Method get_IsPrivate addr 0xebb1d4 size 0x8 virtual false final false
   inline bool get_IsPrivate();
 
-  /// @brief Method Equals addr 0xf303c8 size 0x98 virtual true final false
+  /// @brief Method Equals addr 0xebb1dc size 0x98 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xf30460 size 0x24 virtual false final false
+  /// @brief Method Equals addr 0xebb274 size 0x24 virtual false final false
   inline bool Equals(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* other);
 
-  /// @brief Method GetHashCode addr 0xf30484 size 0x20 virtual true final false
+  /// @brief Method GetHashCode addr 0xebb298 size 0x20 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "AsymmetricKeyParameter", modifiers: "&&", def_value: None }]
@@ -79,6 +79,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter, ___privateKey) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter);

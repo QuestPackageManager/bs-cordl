@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UsageHints);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6864))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6950))
 // CS Name: ::UnityEngine.UIElements::UsageHints
 struct CORDL_TYPE UsageHints {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UsageHints, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UsageHints, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UsageHints, "UnityEngine.UIElements", "UsageHints");

@@ -6,16 +6,14 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__StandardScoreSyncStateDeltaNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__StandardScoreSyncStateNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__StandardScoreSyncState_def.hpp"
+#include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoreSyncStateManager)
 namespace GlobalNamespace {
-struct __StandardScoreSyncState__Score;
+struct StandardScoreSyncState;
 }
 namespace GlobalNamespace {
-class StandardScoreSyncStateDeltaNetSerializable;
-}
-namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class IScoreSyncStateManager_5;
+template <typename T> class IPacketPool_1;
 }
 namespace GlobalNamespace {
 class IScoreSyncStateManager;
@@ -24,13 +22,16 @@ namespace GlobalNamespace {
 class StandardScoreSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
-struct StandardScoreSyncState;
+struct __StandardScoreSyncState__Score;
 }
 namespace GlobalNamespace {
-template <typename T> class IPacketPool_1;
+class StandardScoreSyncStateDeltaNetSerializable;
 }
 namespace GlobalNamespace {
 struct __MultiplayerSessionManager__MessageType;
+}
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class IScoreSyncStateManager_5;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,18 +43,18 @@ MARK_REF_PTR_T(::GlobalNamespace::ScoreSyncStateManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14951), inst: 3827 }), TypeDefinitionIndex(TypeDefinitionIndex(12978)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14951)), TypeDefinitionIndex(TypeDefinitionIndex(12979)), TypeDefinitionIndex(TypeDefinitionIndex(12980)), TypeDefinitionIndex(TypeDefinitionIndex(12977))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14977))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12898)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4564), inst: 3735 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(12901)), TypeDefinitionIndex(TypeDefinitionIndex(12900)), TypeDefinitionIndex(TypeDefinitionIndex(4564)), TypeDefinitionIndex(TypeDefinitionIndex(12899))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4603))
 // CS Name: ::ScoreSyncStateManager*
 class CORDL_TYPE ScoreSyncStateManager
     : public ::GlobalNamespace::MultiplayerSyncStateManager_5<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t,
                                                               ::GlobalNamespace::StandardScoreSyncStateNetSerializable*, ::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*> {
 public:
   // Declarations
-  __declspec(property(get = get_deltaUpdateFrequencyMs)) int64_t deltaUpdateFrequencyMs;
+  __declspec(property(get = get_deltaUpdateFrequency)) float_t deltaUpdateFrequency;
 
-  __declspec(property(get = get_fullStateUpdateFrequencyMs)) int64_t fullStateUpdateFrequencyMs;
+  __declspec(property(get = get_fullStateUpdateFrequency)) float_t fullStateUpdateFrequency;
 
   __declspec(property(get = get_localBufferSize)) int32_t localBufferSize;
 
@@ -75,36 +76,36 @@ public:
   constexpr operator ::GlobalNamespace::IScoreSyncStateManager_5<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t,
                                                                  ::GlobalNamespace::StandardScoreSyncStateNetSerializable*, ::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>*() noexcept;
 
-  /// @brief Method get_deltaUpdateFrequencyMs addr 0x2639470 size 0x8 virtual true final false
-  inline int64_t get_deltaUpdateFrequencyMs();
+  /// @brief Method get_deltaUpdateFrequency addr 0x2225a88 size 0xc virtual true final false
+  inline float_t get_deltaUpdateFrequency();
 
-  /// @brief Method get_fullStateUpdateFrequencyMs addr 0x2639478 size 0x8 virtual true final false
-  inline int64_t get_fullStateUpdateFrequencyMs();
+  /// @brief Method get_fullStateUpdateFrequency addr 0x2225a94 size 0x8 virtual true final false
+  inline float_t get_fullStateUpdateFrequency();
 
-  /// @brief Method get_localBufferSize addr 0x2639480 size 0x8 virtual true final false
+  /// @brief Method get_localBufferSize addr 0x2225a9c size 0x8 virtual true final false
   inline int32_t get_localBufferSize();
 
-  /// @brief Method get_remoteBufferSize addr 0x2639488 size 0x8 virtual true final false
+  /// @brief Method get_remoteBufferSize addr 0x2225aa4 size 0x8 virtual true final false
   inline int32_t get_remoteBufferSize();
 
-  /// @brief Method get_serializablePool addr 0x2639490 size 0x8 virtual true final false
+  /// @brief Method get_serializablePool addr 0x2225aac size 0x8 virtual true final false
   inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::StandardScoreSyncStateNetSerializable*>* get_serializablePool();
 
-  /// @brief Method get_deltaSerializablePool addr 0x2639498 size 0x8 virtual true final false
+  /// @brief Method get_deltaSerializablePool addr 0x2225ab4 size 0x8 virtual true final false
   inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* get_deltaSerializablePool();
 
-  /// @brief Method get_messageType addr 0x26394a0 size 0x8 virtual true final false
+  /// @brief Method get_messageType addr 0x2225abc size 0x8 virtual true final false
   inline ::GlobalNamespace::__MultiplayerSessionManager__MessageType get_messageType();
 
-  /// @brief Method get_deltaMessageType addr 0x26394a8 size 0x8 virtual true final false
+  /// @brief Method get_deltaMessageType addr 0x2225ac4 size 0x8 virtual true final false
   inline ::GlobalNamespace::__MultiplayerSessionManager__MessageType get_deltaMessageType();
 
-  /// @brief Method Interpolate addr 0x26394b0 size 0xfc virtual true final false
-  inline int32_t Interpolate(int32_t prev, int64_t prevTime, int32_t curr, int64_t currTime, int64_t time);
+  /// @brief Method Interpolate addr 0x2225acc size 0xf8 virtual true final false
+  inline int32_t Interpolate(int32_t prev, float_t prevTime, int32_t curr, float_t currTime, float_t time);
 
   static inline ::GlobalNamespace::ScoreSyncStateManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x26395ac size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2225bc4 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScoreSyncStateManager", modifiers: "&&", def_value: None }]

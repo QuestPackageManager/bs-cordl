@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(LifetimeServices)
 namespace System {
 struct TimeSpan;
 }
-namespace System::Runtime::Remoting::Lifetime {
-class LeaseManager;
-}
 namespace System::Runtime::Remoting {
 class ServerIdentity;
+}
+namespace System::Runtime::Remoting::Lifetime {
+class LeaseManager;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Lifetime {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Lifetime::LifetimeServices);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2484))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3097))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2482)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3096))
 // CS Name: ::System.Runtime.Remoting.Lifetime::LifetimeServices*
 class CORDL_TYPE LifetimeServices : public ::System::Object {
 public:
@@ -65,31 +65,31 @@ public:
 
   static inline ::System::Runtime::Remoting::Lifetime::LeaseManager* getStaticF__leaseManager();
 
-  /// @brief Method get_LeaseManagerPollTime addr 0x249c1fc size 0x58 virtual false final false
+  /// @brief Method get_LeaseManagerPollTime addr 0x2343708 size 0x58 virtual false final false
   static inline ::System::TimeSpan get_LeaseManagerPollTime();
 
-  /// @brief Method set_LeaseManagerPollTime addr 0x249c254 size 0x74 virtual false final false
+  /// @brief Method set_LeaseManagerPollTime addr 0x2343760 size 0x74 virtual false final false
   static inline void set_LeaseManagerPollTime(::System::TimeSpan value);
 
-  /// @brief Method get_LeaseTime addr 0x249c2c8 size 0x58 virtual false final false
+  /// @brief Method get_LeaseTime addr 0x23437d4 size 0x58 virtual false final false
   static inline ::System::TimeSpan get_LeaseTime();
 
-  /// @brief Method set_LeaseTime addr 0x249c320 size 0x5c virtual false final false
+  /// @brief Method set_LeaseTime addr 0x234382c size 0x5c virtual false final false
   static inline void set_LeaseTime(::System::TimeSpan value);
 
-  /// @brief Method get_RenewOnCallTime addr 0x249c37c size 0x58 virtual false final false
+  /// @brief Method get_RenewOnCallTime addr 0x2343888 size 0x58 virtual false final false
   static inline ::System::TimeSpan get_RenewOnCallTime();
 
-  /// @brief Method set_RenewOnCallTime addr 0x249c3d4 size 0x5c virtual false final false
+  /// @brief Method set_RenewOnCallTime addr 0x23438e0 size 0x5c virtual false final false
   static inline void set_RenewOnCallTime(::System::TimeSpan value);
 
-  /// @brief Method get_SponsorshipTimeout addr 0x249c430 size 0x58 virtual false final false
+  /// @brief Method get_SponsorshipTimeout addr 0x234393c size 0x58 virtual false final false
   static inline ::System::TimeSpan get_SponsorshipTimeout();
 
-  /// @brief Method set_SponsorshipTimeout addr 0x249c488 size 0x5c virtual false final false
+  /// @brief Method set_SponsorshipTimeout addr 0x2343994 size 0x5c virtual false final false
   static inline void set_SponsorshipTimeout(::System::TimeSpan value);
 
-  /// @brief Method TrackLifetime addr 0x2492aa4 size 0x68 virtual false final false
+  /// @brief Method TrackLifetime addr 0x2339fb0 size 0x68 virtual false final false
   static inline void TrackLifetime(::System::Runtime::Remoting::ServerIdentity* identity);
 
   // Ctor Parameters [CppParam { name: "", ty: "LifetimeServices", modifiers: "&&", def_value: None }]

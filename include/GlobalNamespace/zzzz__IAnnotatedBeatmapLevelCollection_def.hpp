@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IAnnotatedBeatmapLevelCollection)
-namespace UnityEngine {
-class Sprite;
-}
 namespace GlobalNamespace {
 class IBeatmapLevelCollection;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IAnnotatedBeatmapLevelCollection);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4419))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4440))
 // CS Name: ::IAnnotatedBeatmapLevelCollection*
 class CORDL_TYPE IAnnotatedBeatmapLevelCollection {
 public:

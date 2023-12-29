@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FormatterConverter)
+namespace System {
+class Type;
+}
 namespace System::Runtime::Serialization {
 class IFormatterConverter;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::FormatterConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3202))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3201))
 // CS Name: ::System.Runtime.Serialization::FormatterConverter*
 class CORDL_TYPE FormatterConverter : public ::System::Object {
 public:
@@ -35,30 +35,30 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::IFormatterConverter"
   constexpr operator ::System::Runtime::Serialization::IFormatterConverter*() noexcept;
 
-  /// @brief Method Convert addr 0x24b4a90 size 0xa0 virtual true final true
+  /// @brief Method Convert addr 0x235bf9c size 0xa0 virtual true final true
   inline ::System::Object* Convert(::System::Object* value, ::System::Type* type);
 
-  /// @brief Method ToBoolean addr 0x24b4b80 size 0x98 virtual true final true
+  /// @brief Method ToBoolean addr 0x235c08c size 0x98 virtual true final true
   inline bool ToBoolean(::System::Object* value);
 
-  /// @brief Method ToInt32 addr 0x24b4c18 size 0x98 virtual true final true
+  /// @brief Method ToInt32 addr 0x235c124 size 0x98 virtual true final true
   inline int32_t ToInt32(::System::Object* value);
 
-  /// @brief Method ToInt64 addr 0x24b4cb0 size 0x98 virtual true final true
+  /// @brief Method ToInt64 addr 0x235c1bc size 0x98 virtual true final true
   inline int64_t ToInt64(::System::Object* value);
 
-  /// @brief Method ToSingle addr 0x24b4d48 size 0x98 virtual true final true
+  /// @brief Method ToSingle addr 0x235c254 size 0x98 virtual true final true
   inline float_t ToSingle(::System::Object* value);
 
-  /// @brief Method ToString addr 0x24b4de0 size 0x98 virtual true final true
+  /// @brief Method ToString addr 0x235c2ec size 0x98 virtual true final true
   inline ::StringW ToString(::System::Object* value);
 
-  /// @brief Method ThrowValueNullException addr 0x24b4b30 size 0x50 virtual false final false
+  /// @brief Method ThrowValueNullException addr 0x235c03c size 0x50 virtual false final false
   static inline void ThrowValueNullException();
 
   static inline ::System::Runtime::Serialization::FormatterConverter* New_ctor();
 
-  /// @brief Method .ctor addr 0x24b4e78 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x235c384 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FormatterConverter", modifiers: "&&", def_value: None }]

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlDeclarationWrapper)
-namespace System::Xml {
-class XmlDeclaration;
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
 }
 namespace Newtonsoft::Json::Converters {
 class IXmlDeclaration;
 }
-namespace Newtonsoft::Json::Converters {
-class IXmlNode;
+namespace System::Xml {
+class XmlDeclaration;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XmlDeclarationWrapper);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12052))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12050))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11980))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11978))
 // CS Name: ::Newtonsoft.Json.Converters::XmlDeclarationWrapper*
 class CORDL_TYPE XmlDeclarationWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper {
 public:
@@ -53,22 +53,22 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::XmlDeclarationWrapper* New_ctor(::System::Xml::XmlDeclaration* declaration);
 
-  /// @brief Method .ctor addr 0x26b9b84 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2555440 size 0x2c virtual false final false
   inline void _ctor(::System::Xml::XmlDeclaration* declaration);
 
-  /// @brief Method get_Version addr 0x26ba1ac size 0x1c virtual true final true
+  /// @brief Method get_Version addr 0x2555a68 size 0x1c virtual true final true
   inline ::StringW get_Version();
 
-  /// @brief Method get_Encoding addr 0x26ba1c8 size 0x1c virtual true final true
+  /// @brief Method get_Encoding addr 0x2555a84 size 0x1c virtual true final true
   inline ::StringW get_Encoding();
 
-  /// @brief Method set_Encoding addr 0x26ba1e4 size 0x1c virtual true final true
+  /// @brief Method set_Encoding addr 0x2555aa0 size 0x1c virtual true final true
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method get_Standalone addr 0x26ba200 size 0x1c virtual true final true
+  /// @brief Method get_Standalone addr 0x2555abc size 0x1c virtual true final true
   inline ::StringW get_Standalone();
 
-  /// @brief Method set_Standalone addr 0x26ba21c size 0x1c virtual true final true
+  /// @brief Method set_Standalone addr 0x2555ad8 size 0x1c virtual true final true
   inline void set_Standalone(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlDeclarationWrapper", modifiers: "&&", def_value: None }]
@@ -92,6 +92,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Converters::XmlDeclarationWrapper, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Converters::XmlDeclarationWrapper, ____declaration) == 0x28, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Converters
 NEED_NO_BOX(::Newtonsoft::Json::Converters::XmlDeclarationWrapper);

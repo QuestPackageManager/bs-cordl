@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::SimpleBlockResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1354))
 // CS Name: ::Org.BouncyCastle.Crypto::SimpleBlockResult*
 class CORDL_TYPE SimpleBlockResult : public ::System::Object {
@@ -41,16 +41,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::SimpleBlockResult* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> result);
 
-  /// @brief Method .ctor addr 0xfc5ffc size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xf50db0 size 0x28 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> result);
 
-  /// @brief Method get_Length addr 0xfc6024 size 0x1c virtual false final false
+  /// @brief Method get_Length addr 0xf50dd8 size 0x1c virtual false final false
   inline int32_t get_Length();
 
-  /// @brief Method Collect addr 0xfc6040 size 0x8 virtual true final true
+  /// @brief Method Collect addr 0xf50df4 size 0x8 virtual true final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Collect();
 
-  /// @brief Method Collect addr 0xfc6048 size 0x40 virtual true final true
+  /// @brief Method Collect addr 0xf50dfc size 0x40 virtual true final true
   inline int32_t Collect(::ArrayW<uint8_t, ::Array<uint8_t>*> destination, int32_t offset);
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleBlockResult", modifiers: "&&", def_value: None }]
@@ -74,6 +74,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::SimpleBlockResult, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::SimpleBlockResult, ___result) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::SimpleBlockResult);

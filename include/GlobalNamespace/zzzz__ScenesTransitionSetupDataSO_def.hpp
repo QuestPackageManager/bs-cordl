@@ -11,13 +11,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
-class SceneInfo;
-}
-namespace System::Threading::Tasks {
-class Task;
+struct __ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d;
 }
 namespace GlobalNamespace {
-struct __ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d;
+class SceneInfo;
+}
+namespace GlobalNamespace {
+struct __ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10;
 }
 namespace GlobalNamespace {
 class SceneSetupData;
@@ -25,17 +25,17 @@ class SceneSetupData;
 namespace Zenject {
 class DiContainer;
 }
-namespace GlobalNamespace {
-struct __ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10;
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -58,8 +58,8 @@ MARK_VAL_T(::GlobalNamespace::__ScenesTransitionSetupDataSO____BeforeScenesWillB
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15415))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3388)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13937))
 // CS Name: ::ScenesTransitionSetupDataSO::<BeforeScenesWillBeActivated>d__10
 struct CORDL_TYPE __ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10 {
 public:
@@ -67,10 +67,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0xe2383c size 0x250 virtual true final true
+  /// @brief Method MoveNext addr 0x1fa14b4 size 0x250 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0xe23a8c size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0x1fa1704 size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -108,13 +108,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10, runAsync) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10, __u__1) == 0x38, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<<BeforeScenesWillBeActivated>b__10_0>d
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15416))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(3388))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13938))
 // CS Name: ::ScenesTransitionSetupDataSO::<<BeforeScenesWillBeActivated>b__10_0>d
 struct CORDL_TYPE __ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d {
 public:
@@ -122,10 +132,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0xe23a98 size 0x180 virtual true final true
+  /// @brief Method MoveNext addr 0x1fa1710 size 0x180 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0xe23c18 size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0x1fa1890 size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -159,13 +169,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d, __u__1) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ScenesTransitionSetupDataSO
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15417))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13939))
 // CS Name: ::ScenesTransitionSetupDataSO*
 class CORDL_TYPE ScenesTransitionSetupDataSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -208,37 +226,37 @@ public:
 
   constexpr void __set__beforeScenesWillBeActivatedTaskIsComplete_k__BackingField(bool value);
 
-  /// @brief Method get_scenes addr 0xe236c8 size 0x8 virtual false final false
+  /// @brief Method get_scenes addr 0x1fa1340 size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> get_scenes();
 
-  /// @brief Method set_scenes addr 0xe236d0 size 0x8 virtual false final false
+  /// @brief Method set_scenes addr 0x1fa1348 size 0x8 virtual false final false
   inline void set_scenes(::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> value);
 
-  /// @brief Method get_beforeScenesWillBeActivatedTaskIsComplete addr 0xe236d8 size 0x8 virtual false final false
+  /// @brief Method get_beforeScenesWillBeActivatedTaskIsComplete addr 0x1fa1350 size 0x8 virtual false final false
   inline bool get_beforeScenesWillBeActivatedTaskIsComplete();
 
-  /// @brief Method set_beforeScenesWillBeActivatedTaskIsComplete addr 0xe236e0 size 0xc virtual false final false
+  /// @brief Method set_beforeScenesWillBeActivatedTaskIsComplete addr 0x1fa1358 size 0xc virtual false final false
   inline void set_beforeScenesWillBeActivatedTaskIsComplete(bool value);
 
-  /// @brief Method Init addr 0xe23694 size 0xc virtual false final false
+  /// @brief Method Init addr 0x1fa121c size 0xc virtual false final false
   inline void Init(::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> scenes,
                    ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> sceneSetupData);
 
-  /// @brief Method BeforeScenesWillBeActivated addr 0xe23270 size 0xa0 virtual false final false
+  /// @brief Method BeforeScenesWillBeActivated addr 0x1fa1000 size 0xa0 virtual false final false
   inline void BeforeScenesWillBeActivated(bool runAsync);
 
-  /// @brief Method BeforeScenesWillBeActivatedAsync addr 0xe236ec size 0x88 virtual true final false
+  /// @brief Method BeforeScenesWillBeActivatedAsync addr 0x1fa1364 size 0x88 virtual true final false
   inline ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();
 
-  /// @brief Method InstallBindings addr 0xe21a98 size 0x12c virtual false final false
+  /// @brief Method InstallBindings addr 0x1f9f828 size 0x12c virtual false final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::ScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0xe236a8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fa1230 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <BeforeScenesWillBeActivated>b__10_0 addr 0xe23774 size 0xc8 virtual false final false
+  /// @brief Method <BeforeScenesWillBeActivated>b__10_0 addr 0x1fa13ec size 0xc8 virtual false final false
   inline ::System::Threading::Tasks::Task* _BeforeScenesWillBeActivated_b__10_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
@@ -268,6 +286,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScenesTransitionSetupDataSO, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScenesTransitionSetupDataSO, ____scenes_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScenesTransitionSetupDataSO, ____sceneSetupDataArray) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScenesTransitionSetupDataSO, ____beforeScenesWillBeActivatedTaskIsComplete_k__BackingField) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ScenesTransitionSetupDataSO);

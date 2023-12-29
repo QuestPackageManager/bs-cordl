@@ -7,29 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpWebResponse)
+namespace System::Net {
+struct HttpStatusCode;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Net {
-class WebResponseStream;
-}
-namespace System {
-class Version;
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Net {
 class CookieCollection;
 }
-namespace System::Net {
-struct HttpStatusCode;
+namespace System {
+class IDisposable;
 }
 namespace System::Net {
 class WebHeaderCollection;
 }
+namespace System {
+class Version;
+}
+namespace System::IO {
+class Stream;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Net {
 class CookieContainer;
@@ -37,11 +40,8 @@ class CookieContainer;
 namespace System {
 class Uri;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::IO {
-class Stream;
+namespace System::Net {
+class WebResponseStream;
 }
 // Forward declare root types
 namespace System::Net {
@@ -53,8 +53,8 @@ MARK_REF_PTR_T(::System::Net::HttpWebResponse);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9097)), TypeDefinitionIndex(TypeDefinitionIndex(9027))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9187))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7864)), TypeDefinitionIndex(TypeDefinitionIndex(7934))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8024))
 // CS Name: ::System.Net::HttpWebResponse*
 class CORDL_TYPE HttpWebResponse : public ::System::Net::WebResponse {
 public:
@@ -183,59 +183,59 @@ public:
 
   static inline ::System::Net::HttpWebResponse* New_ctor();
 
-  /// @brief Method .ctor addr 0x29d1cd0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x285545c size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::System::Net::HttpWebResponse* New_ctor(::System::Uri* uri, ::StringW method, ::System::Net::HttpStatusCode status, ::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method .ctor addr 0x29d1cd8 size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0x2855464 size 0xb4 virtual false final false
   inline void _ctor(::System::Uri* uri, ::StringW method, ::System::Net::HttpStatusCode status, ::System::Net::WebHeaderCollection* headers);
 
   static inline ::System::Net::HttpWebResponse* New_ctor(::System::Uri* uri, ::StringW method, ::System::Net::WebResponseStream* stream, ::System::Net::CookieContainer* container);
 
-  /// @brief Method .ctor addr 0x29d1514 size 0x2ec virtual false final false
+  /// @brief Method .ctor addr 0x2854ca0 size 0x2ec virtual false final false
   inline void _ctor(::System::Uri* uri, ::StringW method, ::System::Net::WebResponseStream* stream, ::System::Net::CookieContainer* container);
 
   static inline ::System::Net::HttpWebResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor addr 0x29d1fa0 size 0x39c virtual false final false
+  /// @brief Method .ctor addr 0x285572c size 0x39c virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_Headers addr 0x29d233c size 0x8 virtual true final false
+  /// @brief Method get_Headers addr 0x2855ac8 size 0x8 virtual true final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_ResponseUri addr 0x29d2344 size 0x18 virtual true final false
+  /// @brief Method get_ResponseUri addr 0x2855ad0 size 0x18 virtual true final false
   inline ::System::Uri* get_ResponseUri();
 
-  /// @brief Method get_StatusCode addr 0x29d23e0 size 0x8 virtual true final false
+  /// @brief Method get_StatusCode addr 0x2855b6c size 0x8 virtual true final false
   inline ::System::Net::HttpStatusCode get_StatusCode();
 
-  /// @brief Method get_StatusDescription addr 0x29d23e8 size 0x18 virtual true final false
+  /// @brief Method get_StatusDescription addr 0x2855b74 size 0x18 virtual true final false
   inline ::StringW get_StatusDescription();
 
-  /// @brief Method GetResponseStream addr 0x29d2400 size 0x9c virtual true final false
+  /// @brief Method GetResponseStream addr 0x2855b8c size 0x9c virtual true final false
   inline ::System::IO::Stream* GetResponseStream();
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x29d249c size 0xc virtual true final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x2855c28 size 0xc virtual true final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method GetObjectData addr 0x29d24a8 size 0x1c0 virtual true final false
+  /// @brief Method GetObjectData addr 0x2855c34 size 0x1c0 virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method Close addr 0x29d2668 size 0x30 virtual true final false
+  /// @brief Method Close addr 0x2855df4 size 0x30 virtual true final false
   inline void Close();
 
-  /// @brief Method System.IDisposable.Dispose addr 0x29d2698 size 0x10 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2855e24 size 0x10 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method Dispose addr 0x29d26a8 size 0x14 virtual true final false
+  /// @brief Method Dispose addr 0x2855e34 size 0x14 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method CheckDisposed addr 0x29d235c size 0x84 virtual false final false
+  /// @brief Method CheckDisposed addr 0x2855ae8 size 0x84 virtual false final false
   inline void CheckDisposed();
 
-  /// @brief Method FillCookies addr 0x29d1d8c size 0x214 virtual false final false
+  /// @brief Method FillCookies addr 0x2855518 size 0x214 virtual false final false
   inline void FillCookies();
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpWebResponse", modifiers: "&&", def_value: None }]
@@ -292,6 +292,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::HttpWebResponse, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::HttpWebResponse, ___uri) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpWebResponse, ___webHeaders) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpWebResponse, ___cookieCollection) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpWebResponse, ___method) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpWebResponse, ___version) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpWebResponse, ___statusCode) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpWebResponse, ___statusDescription) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpWebResponse, ___contentLength) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpWebResponse, ___contentType) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpWebResponse, ___cookie_container) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpWebResponse, ___disposed) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpWebResponse, ___stream) == 0x78, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::HttpWebResponse);

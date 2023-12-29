@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::WindingOrder);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12161))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12089))
 // CS Name: ::UnityEngine.ProBuilder::WindingOrder
 struct CORDL_TYPE WindingOrder {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::WindingOrder, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::WindingOrder, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::WindingOrder, "UnityEngine.ProBuilder", "WindingOrder");

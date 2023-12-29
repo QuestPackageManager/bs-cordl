@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::CamelliaEngine);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(830))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::CamelliaEngine*
 class CORDL_TYPE CamelliaEngine : public ::System::Object {
@@ -125,66 +125,66 @@ public:
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_SBOX3_3033();
 
-  /// @brief Method rightRotate addr 0xebd5dc size 0x14 virtual false final false
+  /// @brief Method rightRotate addr 0xe49408 size 0x14 virtual false final false
   static inline uint32_t rightRotate(uint32_t x, int32_t s);
 
-  /// @brief Method leftRotate addr 0xebd5f0 size 0x14 virtual false final false
+  /// @brief Method leftRotate addr 0xe4941c size 0x14 virtual false final false
   static inline uint32_t leftRotate(uint32_t x, int32_t s);
 
-  /// @brief Method roldq addr 0xebd604 size 0x128 virtual false final false
+  /// @brief Method roldq addr 0xe49430 size 0x128 virtual false final false
   static inline void roldq(int32_t rot, ::ArrayW<uint32_t, ::Array<uint32_t>*> ki, int32_t ioff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ko, int32_t ooff);
 
-  /// @brief Method decroldq addr 0xebd72c size 0x128 virtual false final false
+  /// @brief Method decroldq addr 0xe49558 size 0x128 virtual false final false
   static inline void decroldq(int32_t rot, ::ArrayW<uint32_t, ::Array<uint32_t>*> ki, int32_t ioff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ko, int32_t ooff);
 
-  /// @brief Method roldqo32 addr 0xebd854 size 0x128 virtual false final false
+  /// @brief Method roldqo32 addr 0xe49680 size 0x128 virtual false final false
   static inline void roldqo32(int32_t rot, ::ArrayW<uint32_t, ::Array<uint32_t>*> ki, int32_t ioff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ko, int32_t ooff);
 
-  /// @brief Method decroldqo32 addr 0xebd97c size 0x128 virtual false final false
+  /// @brief Method decroldqo32 addr 0xe497a8 size 0x128 virtual false final false
   static inline void decroldqo32(int32_t rot, ::ArrayW<uint32_t, ::Array<uint32_t>*> ki, int32_t ioff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ko, int32_t ooff);
 
-  /// @brief Method bytes2uint addr 0xebdaa4 size 0x60 virtual false final false
+  /// @brief Method bytes2uint addr 0xe498d0 size 0x60 virtual false final false
   static inline uint32_t bytes2uint(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t offset);
 
-  /// @brief Method uint2bytes addr 0xebdb04 size 0x48 virtual false final false
+  /// @brief Method uint2bytes addr 0xe49930 size 0x48 virtual false final false
   static inline void uint2bytes(uint32_t word, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t offset);
 
-  /// @brief Method camelliaF2 addr 0xebdb4c size 0x2e8 virtual false final false
+  /// @brief Method camelliaF2 addr 0xe49978 size 0x2e8 virtual false final false
   static inline void camelliaF2(::ArrayW<uint32_t, ::Array<uint32_t>*> s, ::ArrayW<uint32_t, ::Array<uint32_t>*> skey, int32_t keyoff);
 
-  /// @brief Method camelliaFLs addr 0xebde34 size 0x134 virtual false final false
+  /// @brief Method camelliaFLs addr 0xe49c60 size 0x134 virtual false final false
   static inline void camelliaFLs(::ArrayW<uint32_t, ::Array<uint32_t>*> s, ::ArrayW<uint32_t, ::Array<uint32_t>*> fkey, int32_t keyoff);
 
-  /// @brief Method setKey addr 0xebdf68 size 0xf0c virtual false final false
+  /// @brief Method setKey addr 0xe49d94 size 0xf0c virtual false final false
   inline void setKey(bool forEncryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method processBlock128 addr 0xebee74 size 0x2b0 virtual false final false
+  /// @brief Method processBlock128 addr 0xe4aca0 size 0x2b0 virtual false final false
   inline int32_t processBlock128(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method processBlock192or256 addr 0xebf124 size 0x2ec virtual false final false
+  /// @brief Method processBlock192or256 addr 0xe4af50 size 0x2ec virtual false final false
   inline int32_t processBlock192or256(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::CamelliaEngine* New_ctor();
 
-  /// @brief Method .ctor addr 0xebf410 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0xe4b23c size 0x8c virtual false final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0xebf49c size 0xf0 virtual true final false
+  /// @brief Method Init addr 0xe4b2c8 size 0xf0 virtual true final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName addr 0xebf58c size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xe4b3b8 size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay addr 0xebf5cc size 0x8 virtual true final false
+  /// @brief Method get_IsPartialBlockOkay addr 0xe4b3f8 size 0x8 virtual true final false
   inline bool get_IsPartialBlockOkay();
 
-  /// @brief Method GetBlockSize addr 0xebf5d4 size 0x8 virtual true final false
+  /// @brief Method GetBlockSize addr 0xe4b400 size 0x8 virtual true final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method ProcessBlock addr 0xebf5dc size 0x138 virtual true final false
+  /// @brief Method ProcessBlock addr 0xe4b408 size 0x138 virtual true final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xebf714 size 0x4 virtual true final false
+  /// @brief Method Reset addr 0xe4b540 size 0x4 virtual true final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "CamelliaEngine", modifiers: "&&", def_value: None }]
@@ -226,6 +226,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::CamelliaEngine, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::CamelliaEngine, ___initialised) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::CamelliaEngine, ____keyIs128) == 0x11, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::CamelliaEngine, ___subkey) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::CamelliaEngine, ___kw) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::CamelliaEngine, ___ke) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::CamelliaEngine, ___state) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::CamelliaEngine);

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaterialManager)
-namespace UnityEngine::TextCore::Text {
-class FontAsset;
-}
 namespace UnityEngine {
 class Material;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::MaterialManager);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13696))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13575))
 // CS Name: ::UnityEngine.TextCore.Text::MaterialManager*
 class CORDL_TYPE MaterialManager : public ::System::Object {
 public:
@@ -38,10 +38,10 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityEngine::Material*>* getStaticF_s_FallbackMaterials();
 
-  /// @brief Method GetFallbackMaterial addr 0x2d42abc size 0x360 virtual false final false
+  /// @brief Method GetFallbackMaterial addr 0x2bda70c size 0x360 virtual false final false
   static inline ::UnityEngine::Material* GetFallbackMaterial(::UnityEngine::Material* sourceMaterial, ::UnityEngine::Material* targetMaterial);
 
-  /// @brief Method GetFallbackMaterial addr 0x2d42e1c size 0x1d0 virtual false final false
+  /// @brief Method GetFallbackMaterial addr 0x2bdaa6c size 0x1d0 virtual false final false
   static inline ::UnityEngine::Material* GetFallbackMaterial(::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::Material* sourceMaterial, int32_t atlasIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialManager", modifiers: "&&", def_value: None }]

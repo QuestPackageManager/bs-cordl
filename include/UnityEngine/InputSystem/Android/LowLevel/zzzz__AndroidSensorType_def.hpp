@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType);
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6454))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6540))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidSensorType
 struct CORDL_TYPE AndroidSensorType {
 public:
@@ -161,6 +161,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Android::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType, "UnityEngine.InputSystem.Android.LowLevel", "AndroidSensorType");

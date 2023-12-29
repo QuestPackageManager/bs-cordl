@@ -12,23 +12,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HitReactionVRIK)
+namespace UnityEngine {
+struct Vector3;
+}
 namespace RootMotion::FinalIK {
 class VRIK;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine {
-class AnimationCurve;
+namespace RootMotion::FinalIK {
+class __HitReactionVRIK__Offset;
 }
 namespace RootMotion::FinalIK {
 class __HitReactionVRIK__RotationOffset;
 }
-namespace RootMotion::FinalIK {
-class __HitReactionVRIK__Offset;
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace RootMotion::FinalIK {
 class __HitReactionVRIK__PositionOffset;
@@ -39,11 +39,11 @@ class Collider;
 namespace GlobalNamespace {
 class __HitReactionVRIK__PositionOffset__PositionOffsetLink;
 }
-namespace UnityEngine {
-class Rigidbody;
-}
 namespace GlobalNamespace {
 class __HitReactionVRIK__RotationOffset__RotationOffsetLink;
+}
+namespace UnityEngine {
+class Rigidbody;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,8 +75,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12644))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12572))
 // CS Name: ::HitReactionVRIK::Offset*
 class CORDL_TYPE __HitReactionVRIK__Offset : public ::System::Object {
 public:
@@ -179,34 +179,34 @@ public:
 
   constexpr void __set_lastTime(float_t value);
 
-  /// @brief Method get_crossFader addr 0x1296244 size 0x8 virtual false final false
+  /// @brief Method get_crossFader addr 0x1224f18 size 0x8 virtual false final false
   inline float_t get_crossFader();
 
-  /// @brief Method set_crossFader addr 0x129624c size 0x8 virtual false final false
+  /// @brief Method set_crossFader addr 0x1224f20 size 0x8 virtual false final false
   inline void set_crossFader(float_t value);
 
-  /// @brief Method get_timer addr 0x1296254 size 0x8 virtual false final false
+  /// @brief Method get_timer addr 0x1224f28 size 0x8 virtual false final false
   inline float_t get_timer();
 
-  /// @brief Method set_timer addr 0x129625c size 0x8 virtual false final false
+  /// @brief Method set_timer addr 0x1224f30 size 0x8 virtual false final false
   inline void set_timer(float_t value);
 
-  /// @brief Method get_force addr 0x1296264 size 0xc virtual false final false
+  /// @brief Method get_force addr 0x1224f38 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_force();
 
-  /// @brief Method set_force addr 0x1296270 size 0xc virtual false final false
+  /// @brief Method set_force addr 0x1224f44 size 0xc virtual false final false
   inline void set_force(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_point addr 0x129627c size 0xc virtual false final false
+  /// @brief Method get_point addr 0x1224f50 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_point();
 
-  /// @brief Method set_point addr 0x1296288 size 0xc virtual false final false
+  /// @brief Method set_point addr 0x1224f5c size 0xc virtual false final false
   inline void set_point(::UnityEngine::Vector3 value);
 
-  /// @brief Method Hit addr 0x12960f4 size 0x130 virtual false final false
+  /// @brief Method Hit addr 0x1224dc8 size 0x130 virtual false final false
   inline void Hit(::UnityEngine::Vector3 force, ::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves, ::UnityEngine::Vector3 point);
 
-  /// @brief Method Apply addr 0x1295df0 size 0xe0 virtual false final false
+  /// @brief Method Apply addr 0x1224ac4 size 0xe0 virtual false final false
   inline void Apply(::RootMotion::FinalIK::VRIK* ik, ::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves, float_t weight);
 
   /// @brief Method GetLength addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -220,7 +220,7 @@ public:
 
   static inline ::RootMotion::FinalIK::__HitReactionVRIK__Offset* New_ctor();
 
-  /// @brief Method .ctor addr 0x1296294 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x1224f68 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HitReactionVRIK__Offset", modifiers: "&&", def_value: None }]
@@ -272,13 +272,33 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__HitReactionVRIK__Offset, 0x50>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__Offset, ___name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__Offset, ___collider) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__Offset, ___crossFadeTime) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__Offset, ____crossFader_k__BackingField) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__Offset, ____timer_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__Offset, ____force_k__BackingField) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__Offset, ____point_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__Offset, ___length) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__Offset, ___crossFadeSpeed) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__Offset, ___lastTime) == 0x4c, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::PositionOffsetLink
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12590))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12645))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12518)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12573))
 // CS Name: ::HitReactionVRIK::PositionOffset::PositionOffsetLink*
 class CORDL_TYPE __HitReactionVRIK__PositionOffset__PositionOffsetLink : public ::System::Object {
 public:
@@ -319,15 +339,15 @@ public:
 
   constexpr void __set_current(::UnityEngine::Vector3 value);
 
-  /// @brief Method Apply addr 0x1296678 size 0x78 virtual false final false
+  /// @brief Method Apply addr 0x122534c size 0x78 virtual false final false
   inline void Apply(::RootMotion::FinalIK::VRIK* ik, ::UnityEngine::Vector3 offset, float_t crossFader);
 
-  /// @brief Method CrossFadeStart addr 0x129649c size 0x14 virtual false final false
+  /// @brief Method CrossFadeStart addr 0x1225170 size 0x14 virtual false final false
   inline void CrossFadeStart();
 
   static inline ::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink* New_ctor();
 
-  /// @brief Method .ctor addr 0x129670c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x12253e0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HitReactionVRIK__PositionOffset__PositionOffsetLink", modifiers: "&&", def_value: None }]
@@ -361,13 +381,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink, ___positionOffset) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink, ___weight) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink, ___lastValue) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink, ___current) == 0x24, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::PositionOffset
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12644))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12646))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12572))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12574))
 // CS Name: ::HitReactionVRIK::PositionOffset*
 class CORDL_TYPE __HitReactionVRIK__PositionOffset : public ::RootMotion::FinalIK::__HitReactionVRIK__Offset {
 public:
@@ -405,18 +433,18 @@ public:
   constexpr void
   __set_offsetLinks(::ArrayW<::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink*, ::Array<::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink*>*> value);
 
-  /// @brief Method GetLength addr 0x12962a8 size 0x194 virtual true final false
+  /// @brief Method GetLength addr 0x1224f7c size 0x194 virtual true final false
   inline float_t GetLength(::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves);
 
-  /// @brief Method CrossFadeStart addr 0x129643c size 0x60 virtual true final false
+  /// @brief Method CrossFadeStart addr 0x1225110 size 0x60 virtual true final false
   inline void CrossFadeStart();
 
-  /// @brief Method OnApply addr 0x12964b0 size 0x1c8 virtual true final false
+  /// @brief Method OnApply addr 0x1225184 size 0x1c8 virtual true final false
   inline void OnApply(::RootMotion::FinalIK::VRIK* ik, ::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves, float_t weight);
 
   static inline ::RootMotion::FinalIK::__HitReactionVRIK__PositionOffset* New_ctor();
 
-  /// @brief Method .ctor addr 0x12966f0 size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x12253c4 size 0x1c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HitReactionVRIK__PositionOffset", modifiers: "&&", def_value: None }]
@@ -447,13 +475,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__HitReactionVRIK__PositionOffset, 0x60>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__PositionOffset, ___forceDirCurveIndex) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__PositionOffset, ___upDirCurveIndex) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__PositionOffset, ___offsetLinks) == 0x58, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::RotationOffsetLink
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12591)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12647))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12519))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12575))
 // CS Name: ::HitReactionVRIK::RotationOffset::RotationOffsetLink*
 class CORDL_TYPE __HitReactionVRIK__RotationOffset__RotationOffsetLink : public ::System::Object {
 public:
@@ -494,15 +528,15 @@ public:
 
   constexpr void __set_current(::UnityEngine::Quaternion value);
 
-  /// @brief Method Apply addr 0x1296acc size 0x108 virtual false final false
+  /// @brief Method Apply addr 0x12257a0 size 0x108 virtual false final false
   inline void Apply(::RootMotion::FinalIK::VRIK* ik, ::UnityEngine::Quaternion offset, float_t crossFader);
 
-  /// @brief Method CrossFadeStart addr 0x1296844 size 0xc virtual false final false
+  /// @brief Method CrossFadeStart addr 0x1225518 size 0xc virtual false final false
   inline void CrossFadeStart();
 
   static inline ::GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink* New_ctor();
 
-  /// @brief Method .ctor addr 0x1296be8 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x12258bc size 0x64 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HitReactionVRIK__RotationOffset__RotationOffsetLink", modifiers: "&&", def_value: None }]
@@ -536,13 +570,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink, ___rotationOffset) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink, ___weight) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink, ___lastValue) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink, ___current) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::RotationOffset
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12644))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12648))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12572))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12576))
 // CS Name: ::HitReactionVRIK::RotationOffset*
 class CORDL_TYPE __HitReactionVRIK__RotationOffset : public ::RootMotion::FinalIK::__HitReactionVRIK__Offset {
 public:
@@ -580,18 +622,18 @@ public:
 
   constexpr void __set_rigidbody(::UnityEngine::Rigidbody* value);
 
-  /// @brief Method GetLength addr 0x1296714 size 0xd8 virtual true final false
+  /// @brief Method GetLength addr 0x12253e8 size 0xd8 virtual true final false
   inline float_t GetLength(::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves);
 
-  /// @brief Method CrossFadeStart addr 0x12967ec size 0x58 virtual true final false
+  /// @brief Method CrossFadeStart addr 0x12254c0 size 0x58 virtual true final false
   inline void CrossFadeStart();
 
-  /// @brief Method OnApply addr 0x1296850 size 0x27c virtual true final false
+  /// @brief Method OnApply addr 0x1225524 size 0x27c virtual true final false
   inline void OnApply(::RootMotion::FinalIK::VRIK* ik, ::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves, float_t weight);
 
   static inline ::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset* New_ctor();
 
-  /// @brief Method .ctor addr 0x1296bd4 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x12258a8 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HitReactionVRIK__RotationOffset", modifiers: "&&", def_value: None }]
@@ -622,13 +664,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset, 0x68>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset, ___curveIndex) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset, ___offsetLinks) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset, ___rigidbody) == 0x60, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: RootMotion.FinalIK::HitReactionVRIK
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12658))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12649))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12586))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12577))
 // CS Name: ::RootMotion.FinalIK::HitReactionVRIK*
 class CORDL_TYPE HitReactionVRIK : public ::RootMotion::FinalIK::OffsetModifierVRIK {
 public:
@@ -670,15 +718,15 @@ public:
 
   constexpr void __set_rotationOffsets(::ArrayW<::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset*, ::Array<::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset*>*> value);
 
-  /// @brief Method OnModifyOffset addr 0x1295d38 size 0xb8 virtual true final false
+  /// @brief Method OnModifyOffset addr 0x1224a0c size 0xb8 virtual true final false
   inline void OnModifyOffset();
 
-  /// @brief Method Hit addr 0x1295ed0 size 0x224 virtual false final false
+  /// @brief Method Hit addr 0x1224ba4 size 0x224 virtual false final false
   inline void Hit(::UnityEngine::Collider* collider, ::UnityEngine::Vector3 force, ::UnityEngine::Vector3 point);
 
   static inline ::RootMotion::FinalIK::HitReactionVRIK* New_ctor();
 
-  /// @brief Method .ctor addr 0x1296224 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x1224ef8 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HitReactionVRIK", modifiers: "&&", def_value: None }]
@@ -708,6 +756,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::HitReactionVRIK, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::HitReactionVRIK, ___offsetCurves) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::HitReactionVRIK, ___positionOffsets) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::HitReactionVRIK, ___rotationOffsets) == 0x40, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink);

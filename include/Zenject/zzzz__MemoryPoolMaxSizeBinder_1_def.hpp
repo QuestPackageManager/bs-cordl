@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryPoolMaxSizeBinder_1)
 namespace Zenject {
-class MemoryPoolBindInfo;
+class FactoryBindInfo;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace Zenject {
 template <typename TContract> class MemoryPoolExpandBinder_1;
 }
 namespace Zenject {
-class FactoryBindInfo;
-}
-namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-class DiContainer;
+class MemoryPoolBindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -32,8 +32,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10866), inst: 4466 }), TypeDefinitionIndex(TypeDefinitionIndex(10866))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10867))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10794)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10794), inst: 4362 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10795))
 // CS Name: ::Zenject::MemoryPoolMaxSizeBinder`1<TContract>*
 class CORDL_TYPE MemoryPoolMaxSizeBinder_1 : public ::Zenject::MemoryPoolExpandBinder_1<TContract> {
 public:

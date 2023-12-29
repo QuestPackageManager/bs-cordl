@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SslClientAuthenticationOptions)
+namespace System::Security::Cryptography::X509Certificates {
+struct X509RevocationMode;
+}
 namespace System::Net::Security {
 struct EncryptionPolicy;
 }
-namespace System::Security::Cryptography::X509Certificates {
-struct X509RevocationMode;
+namespace System::Net::Security {
+class LocalCertificateSelectionCallback;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
 namespace System::Security::Authentication {
 struct SslProtocols;
-}
-namespace System::Net::Security {
-class LocalCertificateSelectionCallback;
 }
 // Forward declare root types
 namespace System::Net::Security {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::System::Net::Security::SslClientAuthenticationOptions);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(8964)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9366))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9362)) CS Name: ::System.Net.Security::SslClientAuthenticationOptions*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7801)), TypeDefinitionIndex(TypeDefinitionIndex(7824)), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8203))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8199)) CS Name: ::System.Net.Security::SslClientAuthenticationOptions*
 class CORDL_TYPE SslClientAuthenticationOptions : public ::System::Object {
 public:
   // Declarations
@@ -116,36 +116,36 @@ public:
 
   constexpr void __set__ClientCertificates_k__BackingField(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  /// @brief Method set_LocalCertificateSelectionCallback addr 0x28ff454 size 0x8 virtual false final false
+  /// @brief Method set_LocalCertificateSelectionCallback addr 0x2781430 size 0x8 virtual false final false
   inline void set_LocalCertificateSelectionCallback(::System::Net::Security::LocalCertificateSelectionCallback* value);
 
-  /// @brief Method get_TargetHost addr 0x28ff45c size 0x8 virtual false final false
+  /// @brief Method get_TargetHost addr 0x2781438 size 0x8 virtual false final false
   inline ::StringW get_TargetHost();
 
-  /// @brief Method set_TargetHost addr 0x28ff464 size 0x8 virtual false final false
+  /// @brief Method set_TargetHost addr 0x2781440 size 0x8 virtual false final false
   inline void set_TargetHost(::StringW value);
 
-  /// @brief Method get_ClientCertificates addr 0x28ff46c size 0x8 virtual false final false
+  /// @brief Method get_ClientCertificates addr 0x2781448 size 0x8 virtual false final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
-  /// @brief Method set_ClientCertificates addr 0x28ff474 size 0x8 virtual false final false
+  /// @brief Method set_ClientCertificates addr 0x2781450 size 0x8 virtual false final false
   inline void set_ClientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  /// @brief Method set_CertificateRevocationCheckMode addr 0x28ff47c size 0xa0 virtual false final false
+  /// @brief Method set_CertificateRevocationCheckMode addr 0x2781458 size 0xa0 virtual false final false
   inline void set_CertificateRevocationCheckMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
 
-  /// @brief Method set_EncryptionPolicy addr 0x28ff51c size 0xa0 virtual false final false
+  /// @brief Method set_EncryptionPolicy addr 0x27814f8 size 0xa0 virtual false final false
   inline void set_EncryptionPolicy(::System::Net::Security::EncryptionPolicy value);
 
-  /// @brief Method get_EnabledSslProtocols addr 0x28ff5bc size 0x8 virtual false final false
+  /// @brief Method get_EnabledSslProtocols addr 0x2781598 size 0x8 virtual false final false
   inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
 
-  /// @brief Method set_EnabledSslProtocols addr 0x28ff5c4 size 0x8 virtual false final false
+  /// @brief Method set_EnabledSslProtocols addr 0x27815a0 size 0x8 virtual false final false
   inline void set_EnabledSslProtocols(::System::Security::Authentication::SslProtocols value);
 
   static inline ::System::Net::Security::SslClientAuthenticationOptions* New_ctor();
 
-  /// @brief Method .ctor addr 0x28ff5cc size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x27815a8 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SslClientAuthenticationOptions", modifiers: "&&", def_value: None }]
@@ -187,6 +187,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Security::SslClientAuthenticationOptions, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Security::SslClientAuthenticationOptions, ____encryptionPolicy) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Security::SslClientAuthenticationOptions, ____checkCertificateRevocation) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Security::SslClientAuthenticationOptions, ____enabledSslProtocols) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Security::SslClientAuthenticationOptions, ____allowRenegotiation) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Security::SslClientAuthenticationOptions, ____LocalCertificateSelectionCallback_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Security::SslClientAuthenticationOptions, ____TargetHost_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Security::SslClientAuthenticationOptions, ____ClientCertificates_k__BackingField) == 0x30, "Offset mismatch!");
 
 } // namespace System::Net::Security
 NEED_NO_BOX(::System::Net::Security::SslClientAuthenticationOptions);

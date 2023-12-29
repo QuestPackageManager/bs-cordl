@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::DefaultPKMacResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(710))
 // CS Name: ::Org.BouncyCastle.Crmf::DefaultPKMacResult*
 class CORDL_TYPE DefaultPKMacResult : public ::System::Object {
@@ -42,13 +42,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crmf::DefaultPKMacResult* New_ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method .ctor addr 0x1211fb4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x11a0d64 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method Collect addr 0x1212268 size 0x148 virtual true final true
+  /// @brief Method Collect addr 0x11a1018 size 0x148 virtual true final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Collect();
 
-  /// @brief Method Collect addr 0x12123b0 size 0x40 virtual true final true
+  /// @brief Method Collect addr 0x11a1160 size 0x40 virtual true final true
   inline int32_t Collect(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultPKMacResult", modifiers: "&&", def_value: None }]
@@ -72,6 +72,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crmf::DefaultPKMacResult, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crmf::DefaultPKMacResult, ___mac) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Crmf::DefaultPKMacResult);

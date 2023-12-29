@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_Defines);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9671))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9598))
 // CS Name: ::HoudiniEngineUnity::HEU_Defines*
 class CORDL_TYPE HEU_Defines : public ::System::Object {
 public:
@@ -67,7 +67,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_Defines* New_ctor();
 
-  /// @brief Method .ctor addr 0x21856d0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x202ed34 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_Defines", modifiers: "&&", def_value: None }]

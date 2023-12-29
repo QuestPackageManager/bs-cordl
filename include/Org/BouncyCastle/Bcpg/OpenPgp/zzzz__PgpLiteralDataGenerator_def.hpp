@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpLiteralDataGenerator)
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class IStreamGenerator;
-}
 namespace System::IO {
 class Stream;
-}
-namespace System::IO {
-class FileInfo;
 }
 namespace System {
 struct DateTime;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
+}
+namespace System::IO {
+class FileInfo;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class IStreamGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1651))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpLiteralDataGenerator*
 class CORDL_TYPE PgpLiteralDataGenerator : public ::System::Object {
@@ -61,27 +61,27 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x10b013c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x103eeec size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator* New_ctor(bool oldFormat);
 
-  /// @brief Method .ctor addr 0x10b0144 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x103eef4 size 0x28 virtual false final false
   inline void _ctor(bool oldFormat);
 
-  /// @brief Method WriteHeader addr 0x10b016c size 0x144 virtual false final false
+  /// @brief Method WriteHeader addr 0x103ef1c size 0x144 virtual false final false
   inline void WriteHeader(::Org::BouncyCastle::Bcpg::BcpgOutputStream* outStr, char16_t format, ::ArrayW<uint8_t, ::Array<uint8_t>*> encName, int64_t modificationTime);
 
-  /// @brief Method Open addr 0x10b02b0 size 0x1d4 virtual false final false
+  /// @brief Method Open addr 0x103f060 size 0x1d4 virtual false final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, char16_t format, ::StringW name, int64_t length, ::System::DateTime modificationTime);
 
-  /// @brief Method Open addr 0x10b0484 size 0x1c0 virtual false final false
+  /// @brief Method Open addr 0x103f234 size 0x1c0 virtual false final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, char16_t format, ::StringW name, ::System::DateTime modificationTime, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method Open addr 0x10b0644 size 0x84 virtual false final false
+  /// @brief Method Open addr 0x103f3f4 size 0x84 virtual false final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, char16_t format, ::System::IO::FileInfo* file);
 
-  /// @brief Method Close addr 0x10b06c8 size 0x40 virtual true final true
+  /// @brief Method Close addr 0x103f478 size 0x40 virtual true final true
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpLiteralDataGenerator", modifiers: "&&", def_value: None }]
@@ -120,6 +120,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator, ___pkOut) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator, ___oldFormat) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg::OpenPgp
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator);

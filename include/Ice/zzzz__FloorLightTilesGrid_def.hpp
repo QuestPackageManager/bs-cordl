@@ -17,11 +17,11 @@ class FloorLightTile;
 namespace UnityEngine {
 struct Vector3;
 }
-namespace Ice {
-class __FloorLightTile__Pool;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace Ice {
+class __FloorLightTile__Pool;
 }
 // Forward declare root types
 namespace Ice {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::Ice::FloorLightTilesGrid);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16170))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16010))
 // CS Name: ::Ice::FloorLightTilesGrid*
 class CORDL_TYPE FloorLightTilesGrid : public ::UnityEngine::MonoBehaviour {
 public:
@@ -107,27 +107,27 @@ public:
 
   constexpr void __set__ySize(int32_t value);
 
-  /// @brief Method get_ySize addr 0x129fd70 size 0x8 virtual false final false
+  /// @brief Method get_ySize addr 0x122da48 size 0x8 virtual false final false
   inline int32_t get_ySize();
 
-  /// @brief Method Init addr 0x129ee84 size 0x194 virtual false final false
+  /// @brief Method Init addr 0x122cb58 size 0x194 virtual false final false
   inline void Init(::UnityEngine::Vector3 anchorPoint, int32_t xSize, int32_t ySize, float_t tileWidth, float_t tileHeight);
 
-  /// @brief Method HighlightTile addr 0x129f420 size 0x1b8 virtual false final false
+  /// @brief Method HighlightTile addr 0x122d0f4 size 0x1b8 virtual false final false
   inline void HighlightTile(int32_t x, int32_t y, float_t fadeInDuration, float_t fadeOutDuration, ::UnityEngine::Color color);
 
-  /// @brief Method DespawnAllTiles addr 0x129fd78 size 0xc0 virtual false final false
+  /// @brief Method DespawnAllTiles addr 0x122da50 size 0xc0 virtual false final false
   inline void DespawnAllTiles();
 
-  /// @brief Method HandleFloorLightTileDidFinish addr 0x129fe98 size 0x4 virtual false final false
+  /// @brief Method HandleFloorLightTileDidFinish addr 0x122db70 size 0x4 virtual false final false
   inline void HandleFloorLightTileDidFinish(::Ice::FloorLightTile* floorLightTile);
 
-  /// @brief Method DespawnTile addr 0x129fe38 size 0x60 virtual false final false
+  /// @brief Method DespawnTile addr 0x122db10 size 0x60 virtual false final false
   inline void DespawnTile(::Ice::FloorLightTile* floorLightTile);
 
   static inline ::Ice::FloorLightTilesGrid* New_ctor();
 
-  /// @brief Method .ctor addr 0x129fe9c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x122db74 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FloorLightTilesGrid", modifiers: "&&", def_value: None }]
@@ -169,6 +169,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Ice::FloorLightTilesGrid, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Ice::FloorLightTilesGrid, ____floorLightTileMemoryPool) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Ice::FloorLightTilesGrid, ____floorLightTileMemoryPoolContainer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Ice::FloorLightTilesGrid, ____grid) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Ice::FloorLightTilesGrid, ____tileWidth) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Ice::FloorLightTilesGrid, ____tileHeight) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::Ice::FloorLightTilesGrid, ____anchorPoint) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Ice::FloorLightTilesGrid, ____ySize) == 0x44, "Offset mismatch!");
 
 } // namespace Ice
 NEED_NO_BOX(::Ice::FloorLightTilesGrid);

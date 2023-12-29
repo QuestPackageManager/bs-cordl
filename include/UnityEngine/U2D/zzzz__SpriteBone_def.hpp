@@ -11,10 +11,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpriteBone)
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace UnityEngine {
 struct Color32;
@@ -29,8 +29,8 @@ MARK_VAL_T(::UnityEngine::U2D::SpriteBone);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::U2D {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10250))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10294))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10177))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10216))
 // CS Name: ::UnityEngine.U2D::SpriteBone
 struct CORDL_TYPE SpriteBone {
 public:
@@ -74,6 +74,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::U2D::SpriteBone, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::U2D::SpriteBone, m_Name) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::U2D::SpriteBone, m_Guid) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::U2D::SpriteBone, m_Position) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::U2D::SpriteBone, m_Rotation) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::U2D::SpriteBone, m_Length) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::U2D::SpriteBone, m_ParentId) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::U2D::SpriteBone, m_Color) == 0x34, "Offset mismatch!");
 
 } // namespace UnityEngine::U2D
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::U2D::SpriteBone, "UnityEngine.U2D", "SpriteBone");

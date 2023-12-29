@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PersonalData)
+namespace Org::BouncyCastle::Asn1 {
+class DerGeneralizedTime;
+}
+namespace Org::BouncyCastle::Asn1::X509::SigI {
+class NameOrPseudonym;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace Org::BouncyCastle::Asn1::X500 {
 class DirectoryString;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1::X509::SigI {
-class NameOrPseudonym;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509::SigI {
@@ -108,12 +108,12 @@ public:
 
   constexpr void __set_postalAddress(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  /// @brief Method GetInstance addr 0x1082cd0 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0x1011a80 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::PersonalData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::PersonalData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1082e58 size 0x36c virtual false final false
+  /// @brief Method .ctor addr 0x1011c08 size 0x36c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::PersonalData* New_ctor(::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* nameOrPseudonym,
@@ -121,30 +121,30 @@ public:
                                                                               ::Org::BouncyCastle::Asn1::X500::DirectoryString* placeOfBirth, ::StringW gender,
                                                                               ::Org::BouncyCastle::Asn1::X500::DirectoryString* postalAddress);
 
-  /// @brief Method .ctor addr 0x10831c4 size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x1011f74 size 0x54 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* nameOrPseudonym, ::Org::BouncyCastle::Math::BigInteger* nameDistinguisher,
                     ::Org::BouncyCastle::Asn1::DerGeneralizedTime* dateOfBirth, ::Org::BouncyCastle::Asn1::X500::DirectoryString* placeOfBirth, ::StringW gender,
                     ::Org::BouncyCastle::Asn1::X500::DirectoryString* postalAddress);
 
-  /// @brief Method get_NameOrPseudonym addr 0x1083218 size 0x8 virtual false final false
+  /// @brief Method get_NameOrPseudonym addr 0x1011fc8 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* get_NameOrPseudonym();
 
-  /// @brief Method get_NameDistinguisher addr 0x1083220 size 0x8 virtual false final false
+  /// @brief Method get_NameDistinguisher addr 0x1011fd0 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_NameDistinguisher();
 
-  /// @brief Method get_DateOfBirth addr 0x1083228 size 0x8 virtual false final false
+  /// @brief Method get_DateOfBirth addr 0x1011fd8 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_DateOfBirth();
 
-  /// @brief Method get_PlaceOfBirth addr 0x1083230 size 0x8 virtual false final false
+  /// @brief Method get_PlaceOfBirth addr 0x1011fe0 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_PlaceOfBirth();
 
-  /// @brief Method get_Gender addr 0x1083238 size 0x8 virtual false final false
+  /// @brief Method get_Gender addr 0x1011fe8 size 0x8 virtual false final false
   inline ::StringW get_Gender();
 
-  /// @brief Method get_PostalAddress addr 0x1083240 size 0x8 virtual false final false
+  /// @brief Method get_PostalAddress addr 0x1011ff0 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_PostalAddress();
 
-  /// @brief Method ToAsn1Object addr 0x1083248 size 0x234 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1011ff8 size 0x234 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PersonalData", modifiers: "&&", def_value: None }]
@@ -183,6 +183,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::SigI::PersonalData, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::SigI::PersonalData, ___nameOrPseudonym) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::SigI::PersonalData, ___nameDistinguisher) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::SigI::PersonalData, ___dateOfBirth) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::SigI::PersonalData, ___placeOfBirth) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::SigI::PersonalData, ___gender) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::SigI::PersonalData, ___postalAddress) == 0x38, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509::SigI
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::SigI::PersonalData);

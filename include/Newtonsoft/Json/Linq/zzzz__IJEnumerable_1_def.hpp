@@ -3,17 +3,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IJEnumerable_1)
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace Newtonsoft::Json::Linq {
 class JToken;
 }
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -28,7 +28,7 @@ namespace Newtonsoft::Json::Linq {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11975))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11903))
 // CS Name: ::Newtonsoft.Json.Linq::IJEnumerable`1<T>*
 class CORDL_TYPE IJEnumerable_1 {
 public:

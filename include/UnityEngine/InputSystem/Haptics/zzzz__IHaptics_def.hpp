@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Haptics::IHaptics);
 namespace UnityEngine::InputSystem::Haptics {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6462))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6548))
 // CS Name: ::UnityEngine.InputSystem.Haptics::IHaptics*
 class CORDL_TYPE IHaptics {
 public:

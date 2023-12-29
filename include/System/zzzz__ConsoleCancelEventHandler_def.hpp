@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConsoleCancelEventHandler)
 namespace System {
-class ConsoleCancelEventArgs;
+class Object;
 }
 namespace System {
-class Object;
+class ConsoleCancelEventArgs;
 }
 // Forward declare root types
 namespace System {
@@ -21,18 +21,18 @@ MARK_REF_PTR_T(::System::ConsoleCancelEventHandler);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2516))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2514))
 // CS Name: ::System::ConsoleCancelEventHandler*
 class CORDL_TYPE ConsoleCancelEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::ConsoleCancelEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x25cfb30 size 0x130 virtual false final false
+  /// @brief Method .ctor addr 0x2472c08 size 0x130 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x25cfc60 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2472d38 size 0x14 virtual true final false
   inline void Invoke(::System::Object* sender, ::System::ConsoleCancelEventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConsoleCancelEventHandler", modifiers: "&&", def_value: None }]

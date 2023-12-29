@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::ComponentModel::INestedSite);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9433))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8270))
 // CS Name: ::System.ComponentModel::INestedSite*
 class CORDL_TYPE INestedSite {
 public:

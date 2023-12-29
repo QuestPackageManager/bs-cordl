@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::MotionVectorGenerationMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10125))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10053))
 // CS Name: ::UnityEngine::MotionVectorGenerationMode
 struct CORDL_TYPE MotionVectorGenerationMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::MotionVectorGenerationMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::MotionVectorGenerationMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::MotionVectorGenerationMode, "UnityEngine", "MotionVectorGenerationMode");

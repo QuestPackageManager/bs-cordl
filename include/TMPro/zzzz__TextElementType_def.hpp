@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TextElementType);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12447))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12375))
 // CS Name: ::TMPro::TextElementType
 struct CORDL_TYPE TextElementType {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TextElementType, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TextElementType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TextElementType, "TMPro", "TextElementType");

@@ -10,16 +10,16 @@ namespace Zenject {
 template <typename TParam1, typename TValue> class IFactory_2;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
 class IFactory;
 }
 namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
 class InjectTypeInfo;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -33,8 +33,8 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11105))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11033))
 // CS Name: ::Zenject::PrefabResourceFactory`1<T>*
 class CORDL_TYPE PrefabResourceFactory_1 : public ::System::Object {
 public:

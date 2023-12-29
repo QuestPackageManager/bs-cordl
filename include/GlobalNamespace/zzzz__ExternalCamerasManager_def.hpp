@@ -8,10 +8,10 @@ namespace GlobalNamespace {
 class OculusMRCManager;
 }
 namespace UnityEngine {
-class Camera;
+class GameObject;
 }
 namespace UnityEngine {
-class GameObject;
+class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ExternalCamerasManager);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15281))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15310))
 // CS Name: ::ExternalCamerasManager*
 class CORDL_TYPE ExternalCamerasManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -56,18 +56,18 @@ public:
 
   constexpr void __set__mrcForegroundCameraPrefab(::UnityEngine::Camera* value);
 
-  /// @brief Method OnEnable addr 0x2807498 size 0xcc virtual false final false
+  /// @brief Method OnEnable addr 0x268c810 size 0xcc virtual false final false
   inline void OnEnable();
 
-  /// @brief Method InstantiateMixedRealityBackgroundCameraGameObject addr 0x2807564 size 0x80 virtual false final false
+  /// @brief Method InstantiateMixedRealityBackgroundCameraGameObject addr 0x268c8dc size 0x80 virtual false final false
   inline ::UnityEngine::GameObject* InstantiateMixedRealityBackgroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
 
-  /// @brief Method InstantiateMixedRealityForegroundCameraGameObject addr 0x28075e4 size 0x80 virtual false final false
+  /// @brief Method InstantiateMixedRealityForegroundCameraGameObject addr 0x268c95c size 0x80 virtual false final false
   inline ::UnityEngine::GameObject* InstantiateMixedRealityForegroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
 
   static inline ::GlobalNamespace::ExternalCamerasManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2807664 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x268c9dc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExternalCamerasManager", modifiers: "&&", def_value: None }]
@@ -97,6 +97,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ExternalCamerasManager, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ExternalCamerasManager, ____oculusMRCManager) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ExternalCamerasManager, ____mrcBackgroundCameraPrefab) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ExternalCamerasManager, ____mrcForegroundCameraPrefab) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ExternalCamerasManager);

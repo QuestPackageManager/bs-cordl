@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BTSCharacterMaterialSwitcher)
 namespace GlobalNamespace {
-class __BTSCharacterMaterialSwitcher__MaterialPairs;
+class __BTSCharacterMaterialSwitcher__RendererMaterialsPairs;
 }
 namespace GlobalNamespace {
-class __BTSCharacterMaterialSwitcher__RendererMaterialsPairs;
+class __BTSCharacterMaterialSwitcher__MaterialPairs;
 }
 namespace UnityEngine {
 class Material;
 }
-namespace UnityEngine {
-class Renderer;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Renderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMateri
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3966))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3952))
 // CS Name: ::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*
 class CORDL_TYPE __BTSCharacterMaterialSwitcher__RendererMaterialsPairs : public ::System::Object {
 public:
@@ -68,15 +68,15 @@ public:
 
   constexpr void __set__materialPairs(::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* value);
 
-  /// @brief Method get_renderer addr 0x2219afc size 0x8 virtual false final false
+  /// @brief Method get_renderer addr 0x20b8b14 size 0x8 virtual false final false
   inline ::UnityEngine::Renderer* get_renderer();
 
-  /// @brief Method get_materialPairs addr 0x2219b04 size 0x8 virtual false final false
+  /// @brief Method get_materialPairs addr 0x20b8b1c size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* get_materialPairs();
 
   static inline ::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs* New_ctor(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method .ctor addr 0x2219b0c size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x20b8b24 size 0x90 virtual false final false
   inline void _ctor(::UnityEngine::Renderer* renderer);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BTSCharacterMaterialSwitcher__RendererMaterialsPairs", modifiers: "&&", def_value: None }]
@@ -104,13 +104,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs, ____renderer) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs, ____materialPairs) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MaterialPairs
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3967))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3953))
 // CS Name: ::BTSCharacterMaterialSwitcher::MaterialPairs*
 class CORDL_TYPE __BTSCharacterMaterialSwitcher__MaterialPairs : public ::System::Object {
 public:
@@ -144,7 +148,7 @@ public:
 
   static inline ::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs* New_ctor();
 
-  /// @brief Method .ctor addr 0x2219b9c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20b8bb4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BTSCharacterMaterialSwitcher__MaterialPairs", modifiers: "&&", def_value: None }]
@@ -175,13 +179,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs, ___materialIndex) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs, ___defaultMaterial) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs, ___alternativeMaterial) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BTSCharacterMaterialSwitcher
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3968))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3954))
 // CS Name: ::BTSCharacterMaterialSwitcher*
 class CORDL_TYPE BTSCharacterMaterialSwitcher : public ::UnityEngine::MonoBehaviour {
 public:
@@ -204,12 +214,12 @@ public:
   constexpr void __set__rendererMaterialsPairs(
       ::ArrayW<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*, ::Array<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*>*> value);
 
-  /// @brief Method SwapMaterials addr 0x2219850 size 0x254 virtual false final false
+  /// @brief Method SwapMaterials addr 0x20b8868 size 0x254 virtual false final false
   inline void SwapMaterials(bool alternative);
 
   static inline ::GlobalNamespace::BTSCharacterMaterialSwitcher* New_ctor();
 
-  /// @brief Method .ctor addr 0x2219af4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20b8b0c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterMaterialSwitcher", modifiers: "&&", def_value: None }]
@@ -233,6 +243,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BTSCharacterMaterialSwitcher, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BTSCharacterMaterialSwitcher, ____rendererMaterialsPairs) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BTSCharacterMaterialSwitcher);

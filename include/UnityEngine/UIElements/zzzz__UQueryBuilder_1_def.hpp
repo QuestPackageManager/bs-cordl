@@ -7,11 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UQueryBuilder_1)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine::UIElements {
+struct RuleMatcher;
+}
+namespace UnityEngine::UIElements {
+struct StyleSelectorRelationship;
 }
 namespace UnityEngine::UIElements {
 template <typename T> struct UQueryState_1;
@@ -19,17 +22,14 @@ template <typename T> struct UQueryState_1;
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-struct StyleSelectorRelationship;
-}
-namespace UnityEngine::UIElements {
-struct RuleMatcher;
-}
 namespace UnityEngine::UIElements {
 class StyleSelector;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
 struct StyleSelectorPart;
@@ -46,8 +46,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7270))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6931))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7356))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7017))
 // CS Name: ::UnityEngine.UIElements::UQueryBuilder`1<T>
 struct CORDL_TYPE UQueryBuilder_1 {
 public:

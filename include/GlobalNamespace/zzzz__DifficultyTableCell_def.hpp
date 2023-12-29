@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DifficultyTableCell)
-namespace UnityEngine::UI {
-class Image;
-}
-namespace GlobalNamespace {
-class FillIndicator;
-}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace HMUI {
 struct __SelectableCell__TransitionType;
+}
+namespace GlobalNamespace {
+class FillIndicator;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DifficultyTableCell);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5417))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13781))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5516))
 // CS Name: ::DifficultyTableCell*
 class CORDL_TYPE DifficultyTableCell : public ::HMUI::TableCell {
 public:
@@ -74,24 +74,24 @@ public:
 
   constexpr void __set__fillIndicator(::GlobalNamespace::FillIndicator* value);
 
-  /// @brief Method set_difficultyText addr 0x22788c8 size 0x24 virtual false final false
+  /// @brief Method set_difficultyText addr 0x21355d4 size 0x24 virtual false final false
   inline void set_difficultyText(::StringW value);
 
-  /// @brief Method get_difficultyText addr 0x22788ec size 0x24 virtual false final false
+  /// @brief Method get_difficultyText addr 0x21355f8 size 0x24 virtual false final false
   inline ::StringW get_difficultyText();
 
-  /// @brief Method set_difficultyValue addr 0x2278910 size 0x38 virtual false final false
+  /// @brief Method set_difficultyValue addr 0x213561c size 0x38 virtual false final false
   inline void set_difficultyValue(int32_t value);
 
-  /// @brief Method SelectionDidChange addr 0x227898c size 0xa4 virtual true final false
+  /// @brief Method SelectionDidChange addr 0x2135698 size 0xa4 virtual true final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method HighlightDidChange addr 0x2278a30 size 0x40 virtual true final false
+  /// @brief Method HighlightDidChange addr 0x213573c size 0x40 virtual true final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   static inline ::GlobalNamespace::DifficultyTableCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x2278a70 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x213577c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DifficultyTableCell", modifiers: "&&", def_value: None }]
@@ -124,6 +124,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DifficultyTableCell, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DifficultyTableCell, ____difficultyText) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DifficultyTableCell, ____bgImage) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DifficultyTableCell, ____highlightImage) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DifficultyTableCell, ____fillIndicator) == 0x70, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DifficultyTableCell);

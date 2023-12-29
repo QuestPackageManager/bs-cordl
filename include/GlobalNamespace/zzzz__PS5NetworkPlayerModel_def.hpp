@@ -11,18 +11,18 @@ class PS5NetworkPlayerModel;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PS5NetworkPlayerModel);
 // Type: ::PS5NetworkPlayerModel
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14973))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14975))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4599))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4601))
 // CS Name: ::PS5NetworkPlayerModel*
 class CORDL_TYPE PS5NetworkPlayerModel : public ::GlobalNamespace::PlatformNetworkPlayerModel {
 public:
   // Declarations
   static inline ::GlobalNamespace::PS5NetworkPlayerModel* New_ctor();
 
-  /// @brief Method .ctor addr 0x2638d00 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2225318 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PS5NetworkPlayerModel", modifiers: "&&", def_value: None }]
@@ -42,7 +42,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PS5NetworkPlayerModel, 0xa0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PS5NetworkPlayerModel, 0x90>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PS5NetworkPlayerModel);

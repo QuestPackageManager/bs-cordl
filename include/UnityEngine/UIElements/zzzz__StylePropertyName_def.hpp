@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StylePropertyName)
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
 namespace System {
 class Object;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::UIElements::StylePropertyName);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7487))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6791))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7573))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6877))
 // CS Name: ::UnityEngine.UIElements::StylePropertyName
 struct CORDL_TYPE StylePropertyName {
 public:
@@ -39,40 +39,40 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>*();
 
-  /// @brief Method get_id addr 0x2dbacd8 size 0x8 virtual false final false
+  /// @brief Method get_id addr 0x2c53928 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId get_id();
 
-  /// @brief Method get_name addr 0x2dbace0 size 0x8 virtual false final false
+  /// @brief Method get_name addr 0x2c53930 size 0x8 virtual false final false
   inline ::StringW get_name();
 
-  /// @brief Method StylePropertyIdFromString addr 0x2dbace8 size 0xa0 virtual false final false
+  /// @brief Method StylePropertyIdFromString addr 0x2c53938 size 0xa0 virtual false final false
   static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId StylePropertyIdFromString(::StringW name);
 
-  /// @brief Method .ctor addr 0x2dbad88 size 0xac virtual false final false
+  /// @brief Method .ctor addr 0x2c539d8 size 0xac virtual false final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::StylePropertyId stylePropertyId);
 
-  /// @brief Method .ctor addr 0x2dbae34 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x2c53a84 size 0x34 virtual false final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method op_Equality addr 0x2dbae68 size 0xc virtual false final false
+  /// @brief Method op_Equality addr 0x2c53ab8 size 0xc virtual false final false
   static inline bool op_Equality(::UnityEngine::UIElements::StylePropertyName lhs, ::UnityEngine::UIElements::StylePropertyName rhs);
 
-  /// @brief Method op_Inequality addr 0x2dbae74 size 0xc virtual false final false
+  /// @brief Method op_Inequality addr 0x2c53ac4 size 0xc virtual false final false
   static inline bool op_Inequality(::UnityEngine::UIElements::StylePropertyName lhs, ::UnityEngine::UIElements::StylePropertyName rhs);
 
-  /// @brief Method op_Implicit addr 0x2dbae80 size 0x20 virtual false final false
+  /// @brief Method op_Implicit addr 0x2c53ad0 size 0x20 virtual false final false
   static inline ::UnityEngine::UIElements::StylePropertyName op_Implicit___UnityEngine__UIElements__StylePropertyName(::StringW name);
 
-  /// @brief Method GetHashCode addr 0x2dbaea0 size 0x8 virtual true final false
+  /// @brief Method GetHashCode addr 0x2c53af0 size 0x8 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x2dbaea8 size 0x78 virtual true final false
+  /// @brief Method Equals addr 0x2c53af8 size 0x78 virtual true final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals addr 0x2dbaf20 size 0x10 virtual true final true
+  /// @brief Method Equals addr 0x2c53b70 size 0x10 virtual true final true
   inline bool Equals(::UnityEngine::UIElements::StylePropertyName other);
 
-  /// @brief Method ToString addr 0x2dbaf30 size 0x8 virtual true final false
+  /// @brief Method ToString addr 0x2c53b80 size 0x8 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "_id_k__BackingField", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: None }, CppParam { name: "_name_k__BackingField",
@@ -96,6 +96,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StylePropertyName, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StylePropertyName, _id_k__BackingField) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StylePropertyName, _name_k__BackingField) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StylePropertyName, "UnityEngine.UIElements", "StylePropertyName");

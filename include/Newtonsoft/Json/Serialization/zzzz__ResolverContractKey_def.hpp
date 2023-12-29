@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResolverContractKey)
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -22,21 +22,21 @@ MARK_VAL_T(::Newtonsoft::Json::Serialization::ResolverContractKey);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11919))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11847))
 // CS Name: ::Newtonsoft.Json.Serialization::ResolverContractKey
 struct CORDL_TYPE ResolverContractKey {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x266ecbc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x250b578 size 0x8 virtual false final false
   inline void _ctor(::System::Type* resolverType, ::System::Type* contractType);
 
-  /// @brief Method GetHashCode addr 0x266ecc4 size 0x48 virtual true final false
+  /// @brief Method GetHashCode addr 0x250b580 size 0x48 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x266ed0c size 0x88 virtual true final false
+  /// @brief Method Equals addr 0x250b5c8 size 0x88 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x266ed94 size 0x24 virtual false final false
+  /// @brief Method Equals addr 0x250b650 size 0x24 virtual false final false
   inline bool Equals(::Newtonsoft::Json::Serialization::ResolverContractKey other);
 
   // Ctor Parameters [CppParam { name: "_resolverType", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "_contractType", ty: "::System::Type*", modifiers: "", def_value: None
@@ -60,6 +60,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::ResolverContractKey, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Serialization::ResolverContractKey, _resolverType) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Serialization::ResolverContractKey, _contractType) == 0x8, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::ResolverContractKey, "Newtonsoft.Json.Serialization", "ResolverContractKey");

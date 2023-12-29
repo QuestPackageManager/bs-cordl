@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::ObjectDisposedException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2427))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2453))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2425))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2451))
 // CS Name: ::System::ObjectDisposedException*
 class CORDL_TYPE ObjectDisposedException : public ::System::InvalidOperationException {
 public:
@@ -42,31 +42,31 @@ public:
 
   static inline ::System::ObjectDisposedException* New_ctor();
 
-  /// @brief Method .ctor addr 0x25bda50 size 0x60 virtual false final false
+  /// @brief Method .ctor addr 0x2460b28 size 0x60 virtual false final false
   inline void _ctor();
 
   static inline ::System::ObjectDisposedException* New_ctor(::StringW objectName);
 
-  /// @brief Method .ctor addr 0x25bdae8 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x2460bc0 size 0x6c virtual false final false
   inline void _ctor(::StringW objectName);
 
   static inline ::System::ObjectDisposedException* New_ctor(::StringW objectName, ::StringW message);
 
-  /// @brief Method .ctor addr 0x25bdab0 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x2460b88 size 0x38 virtual false final false
   inline void _ctor(::StringW objectName, ::StringW message);
 
   static inline ::System::ObjectDisposedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x25bdb54 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x2460c2c size 0x88 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData addr 0x25bdbdc size 0x108 virtual true final false
+  /// @brief Method GetObjectData addr 0x2460cb4 size 0x108 virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Message addr 0x25bddcc size 0xd4 virtual true final false
+  /// @brief Method get_Message addr 0x2460ea4 size 0xd4 virtual true final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_ObjectName addr 0x25bdce4 size 0x54 virtual false final false
+  /// @brief Method get_ObjectName addr 0x2460dbc size 0x54 virtual false final false
   inline ::StringW get_ObjectName();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectDisposedException", modifiers: "&&", def_value: None }]
@@ -90,6 +90,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ObjectDisposedException, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::System::ObjectDisposedException, ____objectName) == 0x90, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::ObjectDisposedException);

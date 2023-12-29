@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IMoveHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13186))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13191))
 // CS Name: ::UnityEngine.EventSystems::IMoveHandler*
 class CORDL_TYPE IMoveHandler {
 public:

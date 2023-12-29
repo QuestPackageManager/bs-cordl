@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::Development);
 namespace Unity::XR::Oculus {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15129))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15274))
 // CS Name: ::Development::UserDeveloperModeSettingCache
 struct CORDL_TYPE __Development__UserDeveloperModeSettingCache {
 public:
@@ -71,13 +71,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Unity::XR::Oculus
 // Type: Unity.XR.Oculus::Development
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15129)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15130))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15274)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15275))
 // CS Name: ::Unity.XR.Oculus::Development*
 class CORDL_TYPE Development : public ::System::Object {
 public:
@@ -91,13 +93,13 @@ public:
 
   static inline ::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache getStaticF_s_CachedMode();
 
-  /// @brief Method TrySetDeveloperMode addr 0x2c77668 size 0x58 virtual false final false
+  /// @brief Method TrySetDeveloperMode addr 0x2af4954 size 0x58 virtual false final false
   static inline void TrySetDeveloperMode(bool active);
 
-  /// @brief Method OverrideDeveloperModeStart addr 0x2c776c0 size 0xcc virtual false final false
+  /// @brief Method OverrideDeveloperModeStart addr 0x2af49ac size 0xcc virtual false final false
   static inline void OverrideDeveloperModeStart();
 
-  /// @brief Method OverrideDeveloperModeStop addr 0x2c77794 size 0x74 virtual false final false
+  /// @brief Method OverrideDeveloperModeStop addr 0x2af4a80 size 0x74 virtual false final false
   static inline void OverrideDeveloperModeStop();
 
   // Ctor Parameters [CppParam { name: "", ty: "Development", modifiers: "&&", def_value: None }]

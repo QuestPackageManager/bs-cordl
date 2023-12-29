@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::System::Net::SystemNetworkCredential);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9081))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9060))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7918))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7897))
 // CS Name: ::System.Net::SystemNetworkCredential*
 class CORDL_TYPE SystemNetworkCredential : public ::System::Net::NetworkCredential {
 public:
@@ -29,7 +29,7 @@ public:
 
   static inline ::System::Net::SystemNetworkCredential* New_ctor();
 
-  /// @brief Method .ctor addr 0x299b618 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x281dda0 size 0x5c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SystemNetworkCredential", modifiers: "&&", def_value: None }]

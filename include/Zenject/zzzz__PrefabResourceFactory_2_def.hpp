@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PrefabResourceFactory_2)
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TValue> class IFactory_3;
-}
-namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class IFactory;
+class InjectTypeInfo;
 }
 namespace System {
 class Object;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class IFactory;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TValue> class IFactory_3;
 }
 // Forward declare root types
 namespace Zenject {
@@ -33,8 +33,8 @@ namespace Zenject {
 // cpp template
 template <typename P1, typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11106))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11034))
 // CS Name: ::Zenject::PrefabResourceFactory`2<P1,T>*
 class CORDL_TYPE PrefabResourceFactory_2 : public ::System::Object {
 public:

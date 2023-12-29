@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(SerializationEntry)
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -22,7 +22,7 @@ MARK_VAL_T(::System::Runtime::Serialization::SerializationEntry);
 namespace System::Runtime::Serialization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3198))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3197))
 // CS Name: ::System.Runtime.Serialization::SerializationEntry
 struct CORDL_TYPE SerializationEntry {
 public:
@@ -31,13 +31,13 @@ public:
 
   __declspec(property(get = get_Name))::StringW Name;
 
-  /// @brief Method .ctor addr 0x24b4500 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x235ba0c size 0xc virtual false final false
   inline void _ctor(::StringW entryName, ::System::Object* entryValue, ::System::Type* entryType);
 
-  /// @brief Method get_Value addr 0x24b450c size 0x8 virtual false final false
+  /// @brief Method get_Value addr 0x235ba18 size 0x8 virtual false final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method get_Name addr 0x24b4514 size 0x8 virtual false final false
+  /// @brief Method get_Name addr 0x235ba20 size 0x8 virtual false final false
   inline ::StringW get_Name();
 
   // Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam {
@@ -64,6 +64,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::SerializationEntry, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationEntry, _name) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationEntry, _value) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationEntry, _type) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::SerializationEntry, "System.Runtime.Serialization", "SerializationEntry");

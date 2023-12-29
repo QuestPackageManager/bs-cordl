@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::MemberTypes);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3475))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3470))
 // CS Name: ::System.Reflection::MemberTypes
 struct CORDL_TYPE MemberTypes {
 public:
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::MemberTypes, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::MemberTypes, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MemberTypes, "System.Reflection", "MemberTypes");

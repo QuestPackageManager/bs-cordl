@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Http::ClientCertificateOption);
 namespace System::Net::Http {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14641))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14858))
 // CS Name: ::System.Net.Http::ClientCertificateOption
 struct CORDL_TYPE ClientCertificateOption {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::ClientCertificateOption, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Http::ClientCertificateOption, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net::Http
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::ClientCertificateOption, "System.Net.Http", "ClientCertificateOption");

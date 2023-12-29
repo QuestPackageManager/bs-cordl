@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ServerCodeView)
+namespace HMUI {
+class ButtonBinder;
+}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine::UI {
 class Button;
-}
-namespace HMUI {
-class ButtonBinder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ServerCodeView);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5811))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5904))
 // CS Name: ::ServerCodeView*
 class CORDL_TYPE ServerCodeView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -75,24 +75,24 @@ public:
 
   constexpr void __set__codeIsShown(bool value);
 
-  /// @brief Method SetCode addr 0x22e9838 size 0xc virtual false final false
+  /// @brief Method SetCode addr 0x21a463c size 0xc virtual false final false
   inline void SetCode(::StringW serverCode);
 
-  /// @brief Method OnEnable addr 0x22e98e4 size 0x98 virtual false final false
+  /// @brief Method OnEnable addr 0x21a46e8 size 0x98 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x22e997c size 0x1c virtual false final false
+  /// @brief Method OnDisable addr 0x21a4780 size 0x1c virtual false final false
   inline void OnDisable();
 
-  /// @brief Method HandleShowServerCodeButtonPressed addr 0x22e9998 size 0x10 virtual false final false
+  /// @brief Method HandleShowServerCodeButtonPressed addr 0x21a479c size 0x10 virtual false final false
   inline void HandleShowServerCodeButtonPressed();
 
-  /// @brief Method RefreshText addr 0x22e9844 size 0xa0 virtual false final false
+  /// @brief Method RefreshText addr 0x21a4648 size 0xa0 virtual false final false
   inline void RefreshText(bool showCode);
 
   static inline ::GlobalNamespace::ServerCodeView* New_ctor();
 
-  /// @brief Method .ctor addr 0x22e99a8 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x21a47ac size 0x68 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ServerCodeView", modifiers: "&&", def_value: None }]
@@ -128,6 +128,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ServerCodeView, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ServerCodeView, ____serverCodeText) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ServerCodeView, ____button) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ServerCodeView, ____buttonBinder) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ServerCodeView, ____serverCode) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ServerCodeView, ____codeIsShown) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ServerCodeView);

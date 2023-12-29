@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InputMetrics);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6552))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6638))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputMetrics
 struct CORDL_TYPE InputMetrics {
 public:
@@ -50,79 +50,79 @@ public:
 
   __declspec(property(get = get_averageLagTimePerEvent)) double_t averageLagTimePerEvent;
 
-  /// @brief Method get_maxNumDevices addr 0x2af0bd4 size 0x8 virtual false final false
+  /// @brief Method get_maxNumDevices addr 0x2970e80 size 0x8 virtual false final false
   inline int32_t get_maxNumDevices();
 
-  /// @brief Method set_maxNumDevices addr 0x2af0bdc size 0x8 virtual false final false
+  /// @brief Method set_maxNumDevices addr 0x2970e88 size 0x8 virtual false final false
   inline void set_maxNumDevices(int32_t value);
 
-  /// @brief Method get_currentNumDevices addr 0x2af0be4 size 0x8 virtual false final false
+  /// @brief Method get_currentNumDevices addr 0x2970e90 size 0x8 virtual false final false
   inline int32_t get_currentNumDevices();
 
-  /// @brief Method set_currentNumDevices addr 0x2af0bec size 0x8 virtual false final false
+  /// @brief Method set_currentNumDevices addr 0x2970e98 size 0x8 virtual false final false
   inline void set_currentNumDevices(int32_t value);
 
-  /// @brief Method get_maxStateSizeInBytes addr 0x2af0bf4 size 0x8 virtual false final false
+  /// @brief Method get_maxStateSizeInBytes addr 0x2970ea0 size 0x8 virtual false final false
   inline int32_t get_maxStateSizeInBytes();
 
-  /// @brief Method set_maxStateSizeInBytes addr 0x2af0bfc size 0x8 virtual false final false
+  /// @brief Method set_maxStateSizeInBytes addr 0x2970ea8 size 0x8 virtual false final false
   inline void set_maxStateSizeInBytes(int32_t value);
 
-  /// @brief Method get_currentStateSizeInBytes addr 0x2af0c04 size 0x8 virtual false final false
+  /// @brief Method get_currentStateSizeInBytes addr 0x2970eb0 size 0x8 virtual false final false
   inline int32_t get_currentStateSizeInBytes();
 
-  /// @brief Method set_currentStateSizeInBytes addr 0x2af0c0c size 0x8 virtual false final false
+  /// @brief Method set_currentStateSizeInBytes addr 0x2970eb8 size 0x8 virtual false final false
   inline void set_currentStateSizeInBytes(int32_t value);
 
-  /// @brief Method get_currentControlCount addr 0x2af0c14 size 0x8 virtual false final false
+  /// @brief Method get_currentControlCount addr 0x2970ec0 size 0x8 virtual false final false
   inline int32_t get_currentControlCount();
 
-  /// @brief Method set_currentControlCount addr 0x2af0c1c size 0x8 virtual false final false
+  /// @brief Method set_currentControlCount addr 0x2970ec8 size 0x8 virtual false final false
   inline void set_currentControlCount(int32_t value);
 
-  /// @brief Method get_currentLayoutCount addr 0x2af0c24 size 0x8 virtual false final false
+  /// @brief Method get_currentLayoutCount addr 0x2970ed0 size 0x8 virtual false final false
   inline int32_t get_currentLayoutCount();
 
-  /// @brief Method set_currentLayoutCount addr 0x2af0c2c size 0x8 virtual false final false
+  /// @brief Method set_currentLayoutCount addr 0x2970ed8 size 0x8 virtual false final false
   inline void set_currentLayoutCount(int32_t value);
 
-  /// @brief Method get_totalEventBytes addr 0x2af0c34 size 0x8 virtual false final false
+  /// @brief Method get_totalEventBytes addr 0x2970ee0 size 0x8 virtual false final false
   inline int32_t get_totalEventBytes();
 
-  /// @brief Method set_totalEventBytes addr 0x2af0c3c size 0x8 virtual false final false
+  /// @brief Method set_totalEventBytes addr 0x2970ee8 size 0x8 virtual false final false
   inline void set_totalEventBytes(int32_t value);
 
-  /// @brief Method get_totalEventCount addr 0x2af0c44 size 0x8 virtual false final false
+  /// @brief Method get_totalEventCount addr 0x2970ef0 size 0x8 virtual false final false
   inline int32_t get_totalEventCount();
 
-  /// @brief Method set_totalEventCount addr 0x2af0c4c size 0x8 virtual false final false
+  /// @brief Method set_totalEventCount addr 0x2970ef8 size 0x8 virtual false final false
   inline void set_totalEventCount(int32_t value);
 
-  /// @brief Method get_totalUpdateCount addr 0x2af0c54 size 0x8 virtual false final false
+  /// @brief Method get_totalUpdateCount addr 0x2970f00 size 0x8 virtual false final false
   inline int32_t get_totalUpdateCount();
 
-  /// @brief Method set_totalUpdateCount addr 0x2af0c5c size 0x8 virtual false final false
+  /// @brief Method set_totalUpdateCount addr 0x2970f08 size 0x8 virtual false final false
   inline void set_totalUpdateCount(int32_t value);
 
-  /// @brief Method get_totalEventProcessingTime addr 0x2af0c64 size 0x8 virtual false final false
+  /// @brief Method get_totalEventProcessingTime addr 0x2970f10 size 0x8 virtual false final false
   inline double_t get_totalEventProcessingTime();
 
-  /// @brief Method set_totalEventProcessingTime addr 0x2af0c6c size 0x8 virtual false final false
+  /// @brief Method set_totalEventProcessingTime addr 0x2970f18 size 0x8 virtual false final false
   inline void set_totalEventProcessingTime(double_t value);
 
-  /// @brief Method get_totalEventLagTime addr 0x2af0c74 size 0x8 virtual false final false
+  /// @brief Method get_totalEventLagTime addr 0x2970f20 size 0x8 virtual false final false
   inline double_t get_totalEventLagTime();
 
-  /// @brief Method set_totalEventLagTime addr 0x2af0c7c size 0x8 virtual false final false
+  /// @brief Method set_totalEventLagTime addr 0x2970f28 size 0x8 virtual false final false
   inline void set_totalEventLagTime(double_t value);
 
-  /// @brief Method get_averageEventBytesPerFrame addr 0x2af0c84 size 0x18 virtual false final false
+  /// @brief Method get_averageEventBytesPerFrame addr 0x2970f30 size 0x18 virtual false final false
   inline float_t get_averageEventBytesPerFrame();
 
-  /// @brief Method get_averageProcessingTimePerEvent addr 0x2af0c9c size 0x14 virtual false final false
+  /// @brief Method get_averageProcessingTimePerEvent addr 0x2970f48 size 0x14 virtual false final false
   inline double_t get_averageProcessingTimePerEvent();
 
-  /// @brief Method get_averageLagTimePerEvent addr 0x2af0cb0 size 0x14 virtual false final false
+  /// @brief Method get_averageLagTimePerEvent addr 0x2970f5c size 0x14 virtual false final false
   inline double_t get_averageLagTimePerEvent();
 
   // Ctor Parameters [CppParam { name: "_maxNumDevices_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_currentNumDevices_k__BackingField", ty: "int32_t",
@@ -181,6 +181,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::InputMetrics, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputMetrics, _maxNumDevices_k__BackingField) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputMetrics, _currentNumDevices_k__BackingField) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputMetrics, _maxStateSizeInBytes_k__BackingField) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputMetrics, _currentStateSizeInBytes_k__BackingField) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputMetrics, _currentControlCount_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputMetrics, _currentLayoutCount_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputMetrics, _totalEventBytes_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputMetrics, _totalEventCount_k__BackingField) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputMetrics, _totalUpdateCount_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputMetrics, _totalEventProcessingTime_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputMetrics, _totalEventLagTime_k__BackingField) == 0x30, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::InputMetrics, "UnityEngine.InputSystem.LowLevel", "InputMetrics");

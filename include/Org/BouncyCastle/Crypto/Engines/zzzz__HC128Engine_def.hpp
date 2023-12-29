@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HC128Engine)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IStreamCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IStreamCipher;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::HC128Engine);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(846))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::HC128Engine*
 class CORDL_TYPE HC128Engine : public ::System::Object {
@@ -106,66 +106,66 @@ public:
 
   constexpr void __set_idx(int32_t value);
 
-  /// @brief Method F1 addr 0xed2098 size 0x10 virtual false final false
+  /// @brief Method F1 addr 0xe5cec4 size 0x10 virtual false final false
   static inline uint32_t F1(uint32_t x);
 
-  /// @brief Method F2 addr 0xed20b0 size 0x10 virtual false final false
+  /// @brief Method F2 addr 0xe5cedc size 0x10 virtual false final false
   static inline uint32_t F2(uint32_t x);
 
-  /// @brief Method G1 addr 0xed20c0 size 0x14 virtual false final false
+  /// @brief Method G1 addr 0xe5ceec size 0x14 virtual false final false
   inline uint32_t G1(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method G2 addr 0xed20d4 size 0x14 virtual false final false
+  /// @brief Method G2 addr 0xe5cf00 size 0x14 virtual false final false
   inline uint32_t G2(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method RotateLeft addr 0xed20e8 size 0xc virtual false final false
+  /// @brief Method RotateLeft addr 0xe5cf14 size 0xc virtual false final false
   static inline uint32_t RotateLeft(uint32_t x, int32_t bits);
 
-  /// @brief Method RotateRight addr 0xed20a8 size 0x8 virtual false final false
+  /// @brief Method RotateRight addr 0xe5ced4 size 0x8 virtual false final false
   static inline uint32_t RotateRight(uint32_t x, int32_t bits);
 
-  /// @brief Method H1 addr 0xed20f4 size 0x4c virtual false final false
+  /// @brief Method H1 addr 0xe5cf20 size 0x4c virtual false final false
   inline uint32_t H1(uint32_t x);
 
-  /// @brief Method H2 addr 0xed2140 size 0x4c virtual false final false
+  /// @brief Method H2 addr 0xe5cf6c size 0x4c virtual false final false
   inline uint32_t H2(uint32_t x);
 
-  /// @brief Method Mod1024 addr 0xed218c size 0x8 virtual false final false
+  /// @brief Method Mod1024 addr 0xe5cfb8 size 0x8 virtual false final false
   static inline uint32_t Mod1024(uint32_t x);
 
-  /// @brief Method Mod512 addr 0xed2194 size 0x8 virtual false final false
+  /// @brief Method Mod512 addr 0xe5cfc0 size 0x8 virtual false final false
   static inline uint32_t Mod512(uint32_t x);
 
-  /// @brief Method Dim addr 0xed219c size 0xc virtual false final false
+  /// @brief Method Dim addr 0xe5cfc8 size 0xc virtual false final false
   static inline uint32_t Dim(uint32_t x, uint32_t y);
 
-  /// @brief Method Step addr 0xed21a8 size 0x1a8 virtual false final false
+  /// @brief Method Step addr 0xe5cfd4 size 0x1a8 virtual false final false
   inline uint32_t Step();
 
-  /// @brief Method Init addr 0xed2350 size 0x300 virtual false final false
+  /// @brief Method Init addr 0xe5d17c size 0x300 virtual false final false
   inline void Init();
 
-  /// @brief Method get_AlgorithmName addr 0xed2650 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xe5d47c size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0xed2690 size 0x1d4 virtual true final false
+  /// @brief Method Init addr 0xe5d4bc size 0x1d4 virtual true final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetByte addr 0xed2864 size 0x60 virtual false final false
+  /// @brief Method GetByte addr 0xe5d690 size 0x60 virtual false final false
   inline uint8_t GetByte();
 
-  /// @brief Method ProcessBytes addr 0xed28c4 size 0x19c virtual true final false
+  /// @brief Method ProcessBytes addr 0xe5d6f0 size 0x19c virtual true final false
   inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xed2a60 size 0x4 virtual true final false
+  /// @brief Method Reset addr 0xe5d88c size 0x4 virtual true final false
   inline void Reset();
 
-  /// @brief Method ReturnByte addr 0xed2a64 size 0x18 virtual true final false
+  /// @brief Method ReturnByte addr 0xe5d890 size 0x18 virtual true final false
   inline uint8_t ReturnByte(uint8_t input);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::HC128Engine* New_ctor();
 
-  /// @brief Method .ctor addr 0xed2a7c size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0xe5d8a8 size 0x9c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HC128Engine", modifiers: "&&", def_value: None }]
@@ -210,6 +210,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::HC128Engine, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::HC128Engine, ___p) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::HC128Engine, ___q) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::HC128Engine, ___cnt) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::HC128Engine, ___key) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::HC128Engine, ___iv) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::HC128Engine, ___initialised) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::HC128Engine, ___buf) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::HC128Engine, ___idx) == 0x48, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::HC128Engine);

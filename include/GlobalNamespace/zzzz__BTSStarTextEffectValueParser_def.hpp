@@ -15,19 +15,19 @@ MARK_REF_PTR_T(::GlobalNamespace::BTSStarTextEffectValueParser);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3982))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3968))
 // CS Name: ::BTSStarTextEffectValueParser*
 class CORDL_TYPE BTSStarTextEffectValueParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTextId addr 0x221d7ac size 0x8 virtual false final false
+  /// @brief Method GetTextId addr 0x20bc7c4 size 0x8 virtual false final false
   static inline int32_t GetTextId(int32_t value);
 
-  /// @brief Method GetPositionId addr 0x221d7b4 size 0x8 virtual false final false
+  /// @brief Method GetPositionId addr 0x20bc7cc size 0x8 virtual false final false
   static inline int32_t GetPositionId(int32_t value);
 
-  /// @brief Method MergeValuesIntoOneInt addr 0x221d7bc size 0x8 virtual false final false
+  /// @brief Method MergeValuesIntoOneInt addr 0x20bc7d4 size 0x8 virtual false final false
   static inline int32_t MergeValuesIntoOneInt(int32_t textId, int32_t positionId);
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSStarTextEffectValueParser", modifiers: "&&", def_value: None }]

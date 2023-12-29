@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SByteEnumEqualityComparer_1)
 namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -26,8 +26,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3874)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3874), inst: 1672 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3875))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3862)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3862), inst: 1606 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3863))
 // CS Name: ::System.Collections.Generic::SByteEnumEqualityComparer`1<T>*
 class CORDL_TYPE SByteEnumEqualityComparer_1 : public ::System::Collections::Generic::EnumEqualityComparer_1<T> {
 public:

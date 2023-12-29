@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(SkeletonBone)
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -23,8 +23,8 @@ MARK_VAL_T(::UnityEngine::SkeletonBone);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14849))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15079))
 // CS Name: ::UnityEngine::SkeletonBone
 struct CORDL_TYPE SkeletonBone {
 public:
@@ -60,6 +60,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SkeletonBone, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::SkeletonBone, name) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::SkeletonBone, parentName) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::SkeletonBone, position) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::SkeletonBone, rotation) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::SkeletonBone, scale) == 0x2c, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SkeletonBone, "UnityEngine", "SkeletonBone");

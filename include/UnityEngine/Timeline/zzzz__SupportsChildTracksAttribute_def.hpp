@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::SupportsChildTracksAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13919))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14190))
 // CS Name: ::UnityEngine.Timeline::SupportsChildTracksAttribute*
 class CORDL_TYPE SupportsChildTracksAttribute : public ::System::Attribute {
 public:
@@ -44,7 +44,7 @@ public:
 
   static inline ::UnityEngine::Timeline::SupportsChildTracksAttribute* New_ctor(::System::Type* childType, int32_t levels);
 
-  /// @brief Method .ctor addr 0x2c6e728 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x2aea9d4 size 0x30 virtual false final false
   inline void _ctor(::System::Type* childType, int32_t levels);
 
   // Ctor Parameters [CppParam { name: "", ty: "SupportsChildTracksAttribute", modifiers: "&&", def_value: None }]
@@ -71,6 +71,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::SupportsChildTracksAttribute, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::SupportsChildTracksAttribute, ___childType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::SupportsChildTracksAttribute, ___levels) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::SupportsChildTracksAttribute);

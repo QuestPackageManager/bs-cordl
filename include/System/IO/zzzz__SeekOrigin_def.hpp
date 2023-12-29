@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::SeekOrigin);
 namespace System::IO {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3570))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3565))
 // CS Name: ::System.IO::SeekOrigin
 struct CORDL_TYPE SeekOrigin {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::SeekOrigin, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::IO::SeekOrigin, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::IO
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::SeekOrigin, "System.IO", "SeekOrigin");

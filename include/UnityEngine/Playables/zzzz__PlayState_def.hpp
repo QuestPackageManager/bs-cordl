@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Playables::PlayState);
 namespace UnityEngine::Playables {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10439))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10361))
 // CS Name: ::UnityEngine.Playables::PlayState
 struct CORDL_TYPE PlayState {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Playables::PlayState, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Playables::PlayState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Playables
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::PlayState, "UnityEngine.Playables", "PlayState");

@@ -16,8 +16,8 @@ template <typename T> class IEnumerable_1;
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
@@ -25,23 +25,23 @@ class IDisposable;
 namespace System {
 class Object;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace UnityEngine::InputSystem {
+class __InputBindingCompositeContext___get_controls_d__2;
+}
+namespace UnityEngine::InputSystem {
+struct __InputBindingCompositeContext__PartBinding;
+}
+namespace UnityEngine::InputSystem {
+template <typename TValue> struct __InputBindingCompositeContext__DefaultComparer_1;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
 namespace UnityEngine::InputSystem {
 class InputActionState;
-}
-namespace UnityEngine::InputSystem {
-template <typename TValue> struct __InputBindingCompositeContext__DefaultComparer_1;
-}
-namespace UnityEngine::InputSystem {
-struct __InputBindingCompositeContext__PartBinding;
-}
-namespace UnityEngine::InputSystem {
-class __InputBindingCompositeContext___get_controls_d__2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
@@ -69,7 +69,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBindi
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6191))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6277))
 // CS Name: ::InputBindingCompositeContext::PartBinding
 struct CORDL_TYPE __InputBindingCompositeContext__PartBinding {
 public:
@@ -78,16 +78,16 @@ public:
 
   __declspec(property(get = get_control, put = set_control))::UnityEngine::InputSystem::InputControl* control;
 
-  /// @brief Method get_part addr 0x2a56704 size 0x8 virtual false final false
+  /// @brief Method get_part addr 0x28d69bc size 0x8 virtual false final false
   inline int32_t get_part();
 
-  /// @brief Method set_part addr 0x2a5670c size 0x8 virtual false final false
+  /// @brief Method set_part addr 0x28d69c4 size 0x8 virtual false final false
   inline void set_part(int32_t value);
 
-  /// @brief Method get_control addr 0x2a56714 size 0x8 virtual false final false
+  /// @brief Method get_control addr 0x28d69cc size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::InputControl* get_control();
 
-  /// @brief Method set_control addr 0x2a5671c size 0x8 virtual false final false
+  /// @brief Method set_control addr 0x28d69d4 size 0x8 virtual false final false
   inline void set_control(::UnityEngine::InputSystem::InputControl* value);
 
   // Ctor Parameters [CppParam { name: "_part_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_control_k__BackingField", ty:
@@ -112,6 +112,10 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding, _part_k__BackingField) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding, _control_k__BackingField) == 0x8, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: ::DefaultComparer`1
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
@@ -120,7 +124,7 @@ namespace UnityEngine::InputSystem {
 template <typename TValue>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6192))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6278))
 // CS Name: ::InputBindingCompositeContext::DefaultComparer`1<TValue>
 #pragma pack(push, 0)
 struct CORDL_TYPE __InputBindingCompositeContext__DefaultComparer_1 {
@@ -149,7 +153,7 @@ public:
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6194))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6280))
 // CS Name: ::UnityEngine.InputSystem::InputBindingCompositeContext
 struct CORDL_TYPE InputBindingCompositeContext {
 public:
@@ -162,10 +166,10 @@ public:
 
   __declspec(property(get = get_controls))::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding>* controls;
 
-  /// @brief Method get_controls addr 0x2a5653c size 0x7c virtual false final false
+  /// @brief Method get_controls addr 0x28d67f4 size 0x7c virtual false final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding>* get_controls();
 
-  /// @brief Method EvaluateMagnitude addr 0x2a565ec size 0x24 virtual false final false
+  /// @brief Method EvaluateMagnitude addr 0x28d68a4 size 0x24 virtual false final false
   inline float_t EvaluateMagnitude(int32_t partNumber);
 
   /// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -180,16 +184,16 @@ public:
   /// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename TValue, typename TComparer> inline TValue ReadValue(int32_t partNumber, ByRef<::UnityEngine::InputSystem::InputControl*> sourceControl, TComparer comparer);
 
-  /// @brief Method ReadValueAsButton addr 0x2a56610 size 0x88 virtual false final false
+  /// @brief Method ReadValueAsButton addr 0x28d68c8 size 0x88 virtual false final false
   inline bool ReadValueAsButton(int32_t partNumber);
 
-  /// @brief Method ReadValue addr 0x2a56698 size 0x24 virtual false final false
+  /// @brief Method ReadValue addr 0x28d6950 size 0x24 virtual false final false
   inline void ReadValue(int32_t partNumber, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
 
-  /// @brief Method ReadValueAsObject addr 0x2a566bc size 0x24 virtual false final false
+  /// @brief Method ReadValueAsObject addr 0x28d6974 size 0x24 virtual false final false
   inline ::System::Object* ReadValueAsObject(int32_t partNumber);
 
-  /// @brief Method GetPressTime addr 0x2a566e0 size 0x24 virtual false final false
+  /// @brief Method GetPressTime addr 0x28d6998 size 0x24 virtual false final false
   inline double_t GetPressTime(int32_t partNumber);
 
   // Ctor Parameters [CppParam { name: "m_State", ty: "::UnityEngine::InputSystem::InputActionState*", modifiers: "", def_value: None }, CppParam { name: "m_BindingIndex", ty: "int32_t", modifiers:
@@ -214,13 +218,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputBindingCompositeContext, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::InputBindingCompositeContext, m_State) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputBindingCompositeContext, m_BindingIndex) == 0x8, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: ::<get_controls>d__2
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6194)), TypeDefinitionIndex(TypeDefinitionIndex(6191)), TypeDefinitionIndex(TypeDefinitionIndex(6174)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6193)) CS Name: ::InputBindingCompositeContext::<get_controls>d__2*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6277)), TypeDefinitionIndex(TypeDefinitionIndex(6260)), TypeDefinitionIndex(TypeDefinitionIndex(6280)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2611))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6279)) CS Name: ::InputBindingCompositeContext::<get_controls>d__2*
 class CORDL_TYPE __InputBindingCompositeContext___get_controls_d__2 : public ::System::Object {
 public:
   // Declarations
@@ -338,29 +346,29 @@ public:
 
   static inline ::UnityEngine::InputSystem::__InputBindingCompositeContext___get_controls_d__2* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2a565b8 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x28d6870 size 0x34 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2a56724 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x28d69dc size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2a56728 size 0x100 virtual true final true
+  /// @brief Method MoveNext addr 0x28d69e0 size 0x100 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputBindingCompositeContext.PartBinding>.get_Current addr 0x2a56828 size 0xc virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputBindingCompositeContext.PartBinding>.get_Current addr 0x28d6ae0 size 0xc virtual true final true
   inline ::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputBindingCompositeContext_PartBinding__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2a56834 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x28d6aec size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2a56874 size 0x5c virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x28d6b2c size 0x5c virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputBindingCompositeContext.PartBinding>.GetEnumerator addr 0x2a568d0 size 0xb0 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputBindingCompositeContext.PartBinding>.GetEnumerator addr 0x28d6b88 size 0xb0 virtual true final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::__InputBindingCompositeContext__PartBinding>*
   System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputBindingCompositeContext_PartBinding__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2a56980 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x28d6c38 size 0x4 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputBindingCompositeContext___get_controls_d__2", modifiers: "&&", def_value: None }]
@@ -411,6 +419,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputBindingCompositeContext___get_controls_d__2, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingCompositeContext___get_controls_d__2, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingCompositeContext___get_controls_d__2, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingCompositeContext___get_controls_d__2, _____l__initialThreadId) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingCompositeContext___get_controls_d__2, _____4__this) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingCompositeContext___get_controls_d__2, _____3____4__this) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingCompositeContext___get_controls_d__2, ____totalBindingCount_5__2) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingCompositeContext___get_controls_d__2, ____bindingIndex_5__3) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingCompositeContext___get_controls_d__2, ____bindingState_5__4) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingCompositeContext___get_controls_d__2, ____controlStartIndex_5__5) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingCompositeContext___get_controls_d__2, ____i_5__6) == 0x7c, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 NEED_NO_BOX(::UnityEngine::InputSystem::__InputBindingCompositeContext___get_controls_d__2);

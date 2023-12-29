@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Mgf1BytesGenerator)
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDerivationFunction;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(913))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::Mgf1BytesGenerator*
 class CORDL_TYPE Mgf1BytesGenerator : public ::System::Object {
@@ -65,19 +65,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0xeff338 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0xe8a164 size 0xbc virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init addr 0xeff3f4 size 0x148 virtual true final true
+  /// @brief Method Init addr 0xe8a220 size 0x148 virtual true final true
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
 
-  /// @brief Method get_Digest addr 0xeff53c size 0x8 virtual true final true
+  /// @brief Method get_Digest addr 0xe8a368 size 0x8 virtual true final true
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
-  /// @brief Method ItoOSP addr 0xeff544 size 0x54 virtual false final false
+  /// @brief Method ItoOSP addr 0xe8a370 size 0x54 virtual false final false
   inline void ItoOSP(int32_t i, ::ArrayW<uint8_t, ::Array<uint8_t>*> sp);
 
-  /// @brief Method GenerateBytes addr 0xeff598 size 0x4c0 virtual true final true
+  /// @brief Method GenerateBytes addr 0xe8a3c4 size 0x4c0 virtual true final true
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "Mgf1BytesGenerator", modifiers: "&&", def_value: None }]
@@ -107,6 +107,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator, ___digest) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator, ___seed) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator, ___hLen) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator);

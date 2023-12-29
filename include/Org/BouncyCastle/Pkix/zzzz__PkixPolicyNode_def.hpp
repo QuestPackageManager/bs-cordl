@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkixPolicyNode)
+namespace System::Collections {
+class IList;
+}
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections {
-class IList;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixPolicyNode);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1728))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixPolicyNode*
 class CORDL_TYPE PkixPolicyNode : public ::System::Object {
@@ -113,63 +113,63 @@ public:
 
   constexpr void __set_mCritical(bool value);
 
-  /// @brief Method get_Depth addr 0x11125e8 size 0x8 virtual true final false
+  /// @brief Method get_Depth addr 0x10a1394 size 0x8 virtual true final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_Children addr 0x11125f0 size 0x68 virtual true final false
+  /// @brief Method get_Children addr 0x10a139c size 0x68 virtual true final false
   inline ::System::Collections::IEnumerable* get_Children();
 
-  /// @brief Method get_IsCritical addr 0x1112658 size 0x8 virtual true final false
+  /// @brief Method get_IsCritical addr 0x10a1404 size 0x8 virtual true final false
   inline bool get_IsCritical();
 
-  /// @brief Method set_IsCritical addr 0x1112660 size 0xc virtual true final false
+  /// @brief Method set_IsCritical addr 0x10a140c size 0xc virtual true final false
   inline void set_IsCritical(bool value);
 
-  /// @brief Method get_PolicyQualifiers addr 0x111266c size 0x68 virtual true final false
+  /// @brief Method get_PolicyQualifiers addr 0x10a1418 size 0x68 virtual true final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* get_PolicyQualifiers();
 
-  /// @brief Method get_ValidPolicy addr 0x11126d4 size 0x8 virtual true final false
+  /// @brief Method get_ValidPolicy addr 0x10a1480 size 0x8 virtual true final false
   inline ::StringW get_ValidPolicy();
 
-  /// @brief Method get_HasChildren addr 0x11126dc size 0xb0 virtual true final false
+  /// @brief Method get_HasChildren addr 0x10a1488 size 0xb0 virtual true final false
   inline bool get_HasChildren();
 
-  /// @brief Method get_ExpectedPolicies addr 0x111278c size 0x68 virtual true final false
+  /// @brief Method get_ExpectedPolicies addr 0x10a1538 size 0x68 virtual true final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* get_ExpectedPolicies();
 
-  /// @brief Method set_ExpectedPolicies addr 0x11127f4 size 0x70 virtual true final false
+  /// @brief Method set_ExpectedPolicies addr 0x10a15a0 size 0x70 virtual true final false
   inline void set_ExpectedPolicies(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  /// @brief Method get_Parent addr 0x1112864 size 0x8 virtual true final false
+  /// @brief Method get_Parent addr 0x10a1610 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* get_Parent();
 
-  /// @brief Method set_Parent addr 0x111286c size 0x8 virtual true final false
+  /// @brief Method set_Parent addr 0x10a1618 size 0x8 virtual true final false
   inline void set_Parent(::Org::BouncyCastle::Pkix::PkixPolicyNode* value);
 
   static inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* New_ctor(::System::Collections::IList* children, int32_t depth, ::Org::BouncyCastle::Utilities::Collections::ISet* expectedPolicies,
                                                                     ::Org::BouncyCastle::Pkix::PkixPolicyNode* parent, ::Org::BouncyCastle::Utilities::Collections::ISet* policyQualifiers,
                                                                     ::StringW validPolicy, bool critical);
 
-  /// @brief Method .ctor addr 0x10f6b30 size 0xd0 virtual false final false
+  /// @brief Method .ctor addr 0x10858dc size 0xd0 virtual false final false
   inline void _ctor(::System::Collections::IList* children, int32_t depth, ::Org::BouncyCastle::Utilities::Collections::ISet* expectedPolicies, ::Org::BouncyCastle::Pkix::PkixPolicyNode* parent,
                     ::Org::BouncyCastle::Utilities::Collections::ISet* policyQualifiers, ::StringW validPolicy, bool critical);
 
-  /// @brief Method AddChild addr 0x1112874 size 0xc8 virtual true final false
+  /// @brief Method AddChild addr 0x10a1620 size 0xc8 virtual true final false
   inline void AddChild(::Org::BouncyCastle::Pkix::PkixPolicyNode* child);
 
-  /// @brief Method RemoveChild addr 0x111293c size 0xac virtual true final false
+  /// @brief Method RemoveChild addr 0x10a16e8 size 0xac virtual true final false
   inline void RemoveChild(::Org::BouncyCastle::Pkix::PkixPolicyNode* child);
 
-  /// @brief Method ToString addr 0x11129e8 size 0x54 virtual true final false
+  /// @brief Method ToString addr 0x10a1794 size 0x54 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString addr 0x1112a3c size 0x4a8 virtual true final false
+  /// @brief Method ToString addr 0x10a17e8 size 0x4a8 virtual true final false
   inline ::StringW ToString(::StringW indent);
 
-  /// @brief Method Clone addr 0x1112ee4 size 0x10 virtual true final false
+  /// @brief Method Clone addr 0x10a1c90 size 0x10 virtual true final false
   inline ::System::Object* Clone();
 
-  /// @brief Method Copy addr 0x1112ef4 size 0x45c virtual true final false
+  /// @brief Method Copy addr 0x10a1ca0 size 0x45c virtual true final false
   inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* Copy();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixPolicyNode", modifiers: "&&", def_value: None }]
@@ -211,6 +211,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkix::PkixPolicyNode, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixPolicyNode, ___mChildren) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixPolicyNode, ___mDepth) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixPolicyNode, ___mExpectedPolicies) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixPolicyNode, ___mParent) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixPolicyNode, ___mPolicyQualifiers) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixPolicyNode, ___mValidPolicy) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixPolicyNode, ___mCritical) == 0x40, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Pkix
 NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixPolicyNode);

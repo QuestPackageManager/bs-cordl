@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509ObjectIdentifiers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(410))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::X509ObjectIdentifiers*
 class CORDL_TYPE X509ObjectIdentifiers : public ::System::Object {
@@ -165,7 +165,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509ObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor addr 0x11a7cfc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1137ab4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509ObjectIdentifiers", modifiers: "&&", def_value: None }]

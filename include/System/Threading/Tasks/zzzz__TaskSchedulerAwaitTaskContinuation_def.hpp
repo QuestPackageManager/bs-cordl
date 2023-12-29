@@ -8,20 +8,20 @@ CORDL_MODULE_EXPORT(TaskSchedulerAwaitTaskContinuation)
 namespace System::Threading::Tasks {
 class __TaskSchedulerAwaitTaskContinuation____c;
 }
+namespace System::Threading::Tasks {
+class TaskScheduler;
+}
 namespace System {
 class Action;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System::Threading::Tasks {
-class TaskScheduler;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 class Object;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__TaskSchedulerAwaitTaskContinuation_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2805))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2801))
 // CS Name: ::TaskSchedulerAwaitTaskContinuation::<>c*
 class CORDL_TYPE __TaskSchedulerAwaitTaskContinuation____c : public ::System::Object {
 public:
@@ -59,10 +59,10 @@ public:
 
   static inline ::System::Threading::Tasks::__TaskSchedulerAwaitTaskContinuation____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x262c2d8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24d21cc size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Run>b__2_0 addr 0x262c2e0 size 0xf0 virtual false final false
+  /// @brief Method <Run>b__2_0 addr 0x24d21d4 size 0xf0 virtual false final false
   inline void _Run_b__2_0(::System::Object* state);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TaskSchedulerAwaitTaskContinuation____c", modifiers: "&&", def_value: None }]
@@ -89,8 +89,8 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__Task
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2807))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2806))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2803))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2802))
 // CS Name: ::System.Threading.Tasks::TaskSchedulerAwaitTaskContinuation*
 class CORDL_TYPE TaskSchedulerAwaitTaskContinuation : public ::System::Threading::Tasks::AwaitTaskContinuation {
 public:
@@ -108,10 +108,10 @@ public:
 
   static inline ::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation* New_ctor(::System::Threading::Tasks::TaskScheduler* scheduler, ::System::Action* action, bool flowExecutionContext);
 
-  /// @brief Method .ctor addr 0x262696c size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x24cc860 size 0x30 virtual false final false
   inline void _ctor(::System::Threading::Tasks::TaskScheduler* scheduler, ::System::Action* action, bool flowExecutionContext);
 
-  /// @brief Method Run addr 0x262be84 size 0x244 virtual true final true
+  /// @brief Method Run addr 0x24d1d78 size 0x244 virtual true final true
   inline void Run(::System::Threading::Tasks::Task* ignored, bool canInlineContinuationTask);
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskSchedulerAwaitTaskContinuation", modifiers: "&&", def_value: None }]
@@ -135,6 +135,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation, ___m_scheduler) == 0x20, "Offset mismatch!");
 
 } // namespace System::Threading::Tasks
 NEED_NO_BOX(::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation);

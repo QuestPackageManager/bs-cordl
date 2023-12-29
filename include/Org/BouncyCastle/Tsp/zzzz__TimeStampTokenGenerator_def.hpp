@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeStampTokenGenerator)
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Tsp {
+class TimeStampToken;
 }
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
 }
-namespace System {
-struct DateTime;
+namespace Org::BouncyCastle::Asn1::Cms {
+class AttributeTable;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Tsp {
 class TimeStampRequest;
 }
-namespace Org::BouncyCastle::Tsp {
-class TimeStampToken;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace System {
+struct DateTime;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {
@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1771))
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampTokenGenerator*
 class CORDL_TYPE TimeStampTokenGenerator : public ::System::Object {
@@ -169,39 +169,39 @@ public:
   static inline ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert,
                                                                             ::StringW digestOID, ::StringW tsaPolicyOID);
 
-  /// @brief Method .ctor addr 0x11538a4 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x10e265c size 0xc virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID, ::StringW tsaPolicyOID);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert,
                                                                             ::StringW digestOID, ::StringW tsaPolicyOID, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr,
                                                                             ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr);
 
-  /// @brief Method .ctor addr 0x11538b0 size 0x448 virtual false final false
+  /// @brief Method .ctor addr 0x10e2668 size 0x448 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID, ::StringW tsaPolicyOID,
                     ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr);
 
-  /// @brief Method SetCertificates addr 0x1153cf8 size 0x8 virtual false final false
+  /// @brief Method SetCertificates addr 0x10e2ab0 size 0x8 virtual false final false
   inline void SetCertificates(::Org::BouncyCastle::X509::Store::IX509Store* certificates);
 
-  /// @brief Method SetCrls addr 0x1153d00 size 0x8 virtual false final false
+  /// @brief Method SetCrls addr 0x10e2ab8 size 0x8 virtual false final false
   inline void SetCrls(::Org::BouncyCastle::X509::Store::IX509Store* crls);
 
-  /// @brief Method SetAccuracySeconds addr 0x1153d08 size 0x8 virtual false final false
+  /// @brief Method SetAccuracySeconds addr 0x10e2ac0 size 0x8 virtual false final false
   inline void SetAccuracySeconds(int32_t accuracySeconds);
 
-  /// @brief Method SetAccuracyMillis addr 0x1153d10 size 0x8 virtual false final false
+  /// @brief Method SetAccuracyMillis addr 0x10e2ac8 size 0x8 virtual false final false
   inline void SetAccuracyMillis(int32_t accuracyMillis);
 
-  /// @brief Method SetAccuracyMicros addr 0x1153d18 size 0x8 virtual false final false
+  /// @brief Method SetAccuracyMicros addr 0x10e2ad0 size 0x8 virtual false final false
   inline void SetAccuracyMicros(int32_t accuracyMicros);
 
-  /// @brief Method SetOrdering addr 0x1153d20 size 0xc virtual false final false
+  /// @brief Method SetOrdering addr 0x10e2ad8 size 0xc virtual false final false
   inline void SetOrdering(bool ordering);
 
-  /// @brief Method SetTsa addr 0x1153d2c size 0x8 virtual false final false
+  /// @brief Method SetTsa addr 0x10e2ae4 size 0x8 virtual false final false
   inline void SetTsa(::Org::BouncyCastle::Asn1::X509::GeneralName* tsa);
 
-  /// @brief Method Generate addr 0x1151950 size 0x6a8 virtual false final false
+  /// @brief Method Generate addr 0x10e0708 size 0x6a8 virtual false final false
   inline ::Org::BouncyCastle::Tsp::TimeStampToken* Generate(::Org::BouncyCastle::Tsp::TimeStampRequest* request, ::Org::BouncyCastle::Math::BigInteger* serialNumber, ::System::DateTime genTime);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampTokenGenerator", modifiers: "&&", def_value: None }]
@@ -261,6 +261,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Tsp::TimeStampTokenGenerator, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator, ___accuracySeconds) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator, ___accuracyMillis) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator, ___accuracyMicros) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator, ___ordering) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator, ___tsa) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator, ___tsaPolicyOID) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator, ___key) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator, ___cert) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator, ___digestOID) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator, ___signedAttr) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator, ___unsignedAttr) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator, ___x509Certs) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator, ___x509Crls) == 0x60, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Tsp
 NEED_NO_BOX(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator);

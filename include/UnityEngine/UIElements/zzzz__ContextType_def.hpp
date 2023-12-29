@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::ContextType);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6862))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6948))
 // CS Name: ::UnityEngine.UIElements::ContextType
 struct CORDL_TYPE ContextType {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ContextType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ContextType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ContextType, "UnityEngine.UIElements", "ContextType");

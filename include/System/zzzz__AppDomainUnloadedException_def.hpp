@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__SystemException_def.hpp"
 CORDL_MODULE_EXPORT(AppDomainUnloadedException)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System {
@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::System::AppDomainUnloadedException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2524))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2522))
 // CS Name: ::System::AppDomainUnloadedException*
 class CORDL_TYPE AppDomainUnloadedException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::AppDomainUnloadedException* New_ctor();
 
-  /// @brief Method .ctor addr 0x25d129c size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x2474374 size 0x58 virtual false final false
   inline void _ctor();
 
   static inline ::System::AppDomainUnloadedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x25d12f4 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x24743cc size 0x4 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "AppDomainUnloadedException", modifiers: "&&", def_value: None }]

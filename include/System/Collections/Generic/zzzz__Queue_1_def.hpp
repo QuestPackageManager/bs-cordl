@@ -8,32 +8,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Queue_1)
-namespace System::Collections {
-class ICollection;
-}
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections::Generic {
+template <typename T> struct __Queue_1__Enumerator;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __Queue_1__Enumerator;
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Array;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class IReadOnlyCollection_1;
 }
 namespace System {
 class IDisposable;
@@ -55,7 +55,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3852))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3840))
 // CS Name: ::Queue`1::Enumerator<T>
 struct CORDL_TYPE __Queue_1__Enumerator {
 public:
@@ -127,8 +127,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3853))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3841))
 // CS Name: ::System.Collections.Generic::Queue`1<T>*
 class CORDL_TYPE Queue_1 : public ::System::Object {
 public:

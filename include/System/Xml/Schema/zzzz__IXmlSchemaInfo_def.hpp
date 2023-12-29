@@ -4,19 +4,19 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IXmlSchemaInfo)
 namespace System::Xml::Schema {
-struct XmlSchemaValidity;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
-namespace System::Xml::Schema {
-class XmlSchemaAttribute;
+class XmlSchemaSimpleType;
 }
 namespace System::Xml::Schema {
 class XmlSchemaElement;
 }
 namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
+class XmlSchemaAttribute;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
+}
+namespace System::Xml::Schema {
+struct XmlSchemaValidity;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::IXmlSchemaInfo);
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11697))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11625))
 // CS Name: ::System.Xml.Schema::IXmlSchemaInfo*
 class CORDL_TYPE IXmlSchemaInfo {
 public:

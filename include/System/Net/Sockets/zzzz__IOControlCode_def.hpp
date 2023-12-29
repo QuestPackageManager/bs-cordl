@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Sockets::IOControlCode);
 namespace System::Net::Sockets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9338))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8175))
 // CS Name: ::System.Net.Sockets::IOControlCode
 struct CORDL_TYPE IOControlCode {
 public:
@@ -185,6 +185,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::IOControlCode, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::IOControlCode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net::Sockets
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::IOControlCode, "System.Net.Sockets", "IOControlCode");

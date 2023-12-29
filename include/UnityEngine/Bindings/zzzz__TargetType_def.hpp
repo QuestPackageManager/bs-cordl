@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Bindings::TargetType);
 namespace UnityEngine::Bindings {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16018))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15882))
 // CS Name: ::UnityEngine.Bindings::TargetType
 struct CORDL_TYPE TargetType {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::TargetType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Bindings::TargetType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Bindings
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::TargetType, "UnityEngine.Bindings", "TargetType");

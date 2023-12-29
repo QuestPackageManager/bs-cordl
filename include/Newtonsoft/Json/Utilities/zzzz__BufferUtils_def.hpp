@@ -19,19 +19,19 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::BufferUtils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11888))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11816))
 // CS Name: ::Newtonsoft.Json.Utilities::BufferUtils*
 class CORDL_TYPE BufferUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method RentBuffer addr 0x26628b4 size 0xc8 virtual false final false
+  /// @brief Method RentBuffer addr 0x24ff170 size 0xc8 virtual false final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> RentBuffer(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t minSize);
 
-  /// @brief Method ReturnBuffer addr 0x266297c size 0xb0 virtual false final false
+  /// @brief Method ReturnBuffer addr 0x24ff238 size 0xb0 virtual false final false
   static inline void ReturnBuffer(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, ::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
-  /// @brief Method EnsureBufferSize addr 0x2662a2c size 0x13c virtual false final false
+  /// @brief Method EnsureBufferSize addr 0x24ff2e8 size 0x13c virtual false final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> EnsureBufferSize(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t size, ::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferUtils", modifiers: "&&", def_value: None }]

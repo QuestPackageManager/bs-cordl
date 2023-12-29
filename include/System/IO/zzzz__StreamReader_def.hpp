@@ -3,203 +3,45 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/IO/zzzz__TextReader_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StreamReader)
 namespace System::Text {
-class Decoder;
+class Encoding;
 }
 namespace System::IO {
 class Stream;
 }
-namespace System::IO {
-struct __StreamReader___ReadBufferAsync_d__69;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace System::Text {
-class Encoding;
-}
-namespace System::Threading::Tasks {
-class Task;
+class Decoder;
 }
 namespace System {
 template <typename T> struct Span_1;
 }
+namespace System::Threading::Tasks {
+class Task;
+}
 namespace System::IO {
 class __StreamReader__NullStreamReader;
-}
-namespace System::IO {
-struct __StreamReader___ReadLineAsyncInternal_d__61;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
-}
-namespace System::Text {
-class StringBuilder;
 }
 // Forward declare root types
 namespace System::IO {
 class StreamReader;
 }
-namespace System::IO {
-struct __StreamReader___ReadBufferAsync_d__69;
-}
-namespace System::IO {
-struct __StreamReader___ReadLineAsyncInternal_d__61;
-}
 // Write type traits
 MARK_REF_PTR_T(::System::IO::StreamReader);
-MARK_VAL_T(::System::IO::__StreamReader___ReadBufferAsync_d__69);
-MARK_VAL_T(::System::IO::__StreamReader___ReadLineAsyncInternal_d__61);
-// Type: ::<ReadLineAsyncInternal>d__61
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace System::IO {
-// Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3573)) CS Name:
-// ::StreamReader::<ReadLineAsyncInternal>d__61
-struct CORDL_TYPE __StreamReader___ReadLineAsyncInternal_d__61 {
-public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
-
-  /// @brief Method MoveNext addr 0x2502e74 size 0x548 virtual true final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine addr 0x25033bc size 0x58 virtual true final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
-
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::IO::StreamReader*", modifiers: "",
-  // def_value: None }, CppParam { name: "_sb_5__2", ty: "::System::Text::StringBuilder*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_s_5__3", ty: "::StringW", modifiers: "",
-  // def_value: None }]
-  constexpr __StreamReader___ReadLineAsyncInternal_d__61(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder,
-                                                         ::System::IO::StreamReader* __4__this, ::System::Text::StringBuilder* _sb_5__2,
-                                                         ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1, ::StringW _s_5__3) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __StreamReader___ReadLineAsyncInternal_d__61();
-
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
-
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder;
-
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::System::IO::StreamReader* __4__this;
-
-  /// @brief Field <sb>5__2, offset: 0x28, size: 0x8, def value: None
-  ::System::Text::StringBuilder* _sb_5__2;
-
-  /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1;
-
-  /// @brief Field <s>5__3, offset: 0x40, size: 0x8, def value: None
-  ::StringW _s_5__3;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::IO::__StreamReader___ReadLineAsyncInternal_d__61, 0x48>, "Size mismatch!");
-
-} // namespace System::IO
-// Type: ::<ReadBufferAsync>d__69
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace System::IO {
-// Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3363)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3363), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3574)) CS
-// Name: ::StreamReader::<ReadBufferAsync>d__69
-struct CORDL_TYPE __StreamReader___ReadBufferAsync_d__69 {
-public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
-
-  /// @brief Method MoveNext addr 0x2503414 size 0x5f8 virtual true final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine addr 0x2503a0c size 0x58 virtual true final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
-
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::IO::StreamReader*", modifiers: "",
-  // def_value: None }, CppParam { name: "_tmpByteBuffer_5__2", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "_tmpStream_5__3", ty:
-  // "::System::IO::Stream*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
-  constexpr __StreamReader___ReadBufferAsync_d__69(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder, ::System::IO::StreamReader* __4__this,
-                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> _tmpByteBuffer_5__2, ::System::IO::Stream* _tmpStream_5__3,
-                                                   ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __StreamReader___ReadBufferAsync_d__69();
-
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
-
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder;
-
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::System::IO::StreamReader* __4__this;
-
-  /// @brief Field <tmpByteBuffer>5__2, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> _tmpByteBuffer_5__2;
-
-  /// @brief Field <tmpStream>5__3, offset: 0x30, size: 0x8, def value: None
-  ::System::IO::Stream* _tmpStream_5__3;
-
-  /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t> __u__1;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::IO::__StreamReader___ReadBufferAsync_d__69, 0x48>, "Size mismatch!");
-
-} // namespace System::IO
 // Type: System.IO::StreamReader
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3582))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3575))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3572))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3568))
 // CS Name: ::System.IO::StreamReader*
 class CORDL_TYPE StreamReader : public ::System::IO::TextReader {
 public:
   // Declarations
-  using _ReadBufferAsync_d__69 = ::System::IO::__StreamReader___ReadBufferAsync_d__69;
-
-  using _ReadLineAsyncInternal_d__61 = ::System::IO::__StreamReader___ReadLineAsyncInternal_d__61;
-
   using NullStreamReader = ::System::IO::__StreamReader__NullStreamReader;
 
   /// @brief Field _stream, offset 0x18, size 0x8
@@ -352,134 +194,125 @@ public:
 
   static inline ::System::IO::StreamReader* getStaticF_Null();
 
-  /// @brief Method CheckAsyncTaskInProgress addr 0x2500bec size 0x64 virtual false final false
+  /// @brief Method CheckAsyncTaskInProgress addr 0x23a6f20 size 0x64 virtual false final false
   inline void CheckAsyncTaskInProgress();
 
-  /// @brief Method ThrowAsyncIOInProgress addr 0x2500c50 size 0x50 virtual false final false
+  /// @brief Method ThrowAsyncIOInProgress addr 0x23a6f84 size 0x50 virtual false final false
   static inline void ThrowAsyncIOInProgress();
 
   static inline ::System::IO::StreamReader* New_ctor();
 
-  /// @brief Method .ctor addr 0x2500ca0 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x23a6fd4 size 0xbc virtual false final false
   inline void _ctor();
 
   static inline ::System::IO::StreamReader* New_ctor(::System::IO::Stream* stream);
 
-  /// @brief Method .ctor addr 0x2500d64 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x23a7098 size 0x3c virtual false final false
   inline void _ctor(::System::IO::Stream* stream);
 
   static inline ::System::IO::StreamReader* New_ctor(::System::IO::Stream* stream, bool detectEncodingFromByteOrderMarks);
 
-  /// @brief Method .ctor addr 0x2500da0 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x23a70d4 size 0x40 virtual false final false
   inline void _ctor(::System::IO::Stream* stream, bool detectEncodingFromByteOrderMarks);
 
   static inline ::System::IO::StreamReader* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
-  /// @brief Method .ctor addr 0x2501008 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x23a733c size 0x10 virtual false final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
   static inline ::System::IO::StreamReader* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks);
 
-  /// @brief Method .ctor addr 0x2501018 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x23a734c size 0x10 virtual false final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks);
 
   static inline ::System::IO::StreamReader* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize, bool leaveOpen);
 
-  /// @brief Method .ctor addr 0x2500de0 size 0x228 virtual false final false
+  /// @brief Method .ctor addr 0x23a7114 size 0x228 virtual false final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize, bool leaveOpen);
 
   static inline ::System::IO::StreamReader* New_ctor(::StringW path);
 
-  /// @brief Method .ctor addr 0x2501150 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x23a7484 size 0x38 virtual false final false
   inline void _ctor(::StringW path);
 
   static inline ::System::IO::StreamReader* New_ctor(::StringW path, bool detectEncodingFromByteOrderMarks);
 
-  /// @brief Method .ctor addr 0x2501188 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x23a74bc size 0x3c virtual false final false
   inline void _ctor(::StringW path, bool detectEncodingFromByteOrderMarks);
 
   static inline ::System::IO::StreamReader* New_ctor(::StringW path, ::System::Text::Encoding* encoding);
 
-  /// @brief Method .ctor addr 0x2501410 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x23a7744 size 0xc virtual false final false
   inline void _ctor(::StringW path, ::System::Text::Encoding* encoding);
 
   static inline ::System::IO::StreamReader* New_ctor(::StringW path, ::System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks);
 
-  /// @brief Method .ctor addr 0x250141c size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x23a7750 size 0xc virtual false final false
   inline void _ctor(::StringW path, ::System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks);
 
   static inline ::System::IO::StreamReader* New_ctor(::StringW path, ::System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize);
 
-  /// @brief Method .ctor addr 0x25011c4 size 0x24c virtual false final false
+  /// @brief Method .ctor addr 0x23a74f8 size 0x24c virtual false final false
   inline void _ctor(::StringW path, ::System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize);
 
-  /// @brief Method Init addr 0x2501028 size 0x128 virtual false final false
+  /// @brief Method Init addr 0x23a735c size 0x128 virtual false final false
   inline void Init(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize, bool leaveOpen);
 
-  /// @brief Method Init addr 0x2501428 size 0x10 virtual false final false
+  /// @brief Method Init addr 0x23a775c size 0x10 virtual false final false
   inline void Init(::System::IO::Stream* stream);
 
-  /// @brief Method Close addr 0x2501438 size 0x10 virtual true final false
+  /// @brief Method Close addr 0x23a776c size 0x10 virtual true final false
   inline void Close();
 
-  /// @brief Method Dispose addr 0x2501448 size 0xd0 virtual true final false
+  /// @brief Method Dispose addr 0x23a777c size 0xd0 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method get_CurrentEncoding addr 0x2501528 size 0x8 virtual true final false
+  /// @brief Method get_CurrentEncoding addr 0x23a785c size 0x8 virtual true final false
   inline ::System::Text::Encoding* get_CurrentEncoding();
 
-  /// @brief Method get_BaseStream addr 0x2501530 size 0x8 virtual true final false
+  /// @brief Method get_BaseStream addr 0x23a7864 size 0x8 virtual true final false
   inline ::System::IO::Stream* get_BaseStream();
 
-  /// @brief Method get_LeaveOpen addr 0x2501518 size 0x10 virtual false final false
+  /// @brief Method get_LeaveOpen addr 0x23a784c size 0x10 virtual false final false
   inline bool get_LeaveOpen();
 
-  /// @brief Method get_EndOfStream addr 0x2501538 size 0x9c virtual false final false
+  /// @brief Method get_EndOfStream addr 0x23a786c size 0x9c virtual false final false
   inline bool get_EndOfStream();
 
-  /// @brief Method Peek addr 0x25015d4 size 0xc8 virtual true final false
+  /// @brief Method Peek addr 0x23a7908 size 0xc8 virtual true final false
   inline int32_t Peek();
 
-  /// @brief Method Read addr 0x250169c size 0xc8 virtual true final false
+  /// @brief Method Read addr 0x23a79d0 size 0xc8 virtual true final false
   inline int32_t Read();
 
-  /// @brief Method Read addr 0x2501764 size 0x1c0 virtual true final false
+  /// @brief Method Read addr 0x23a7a98 size 0x1c0 virtual true final false
   inline int32_t Read(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadSpan addr 0x2501924 size 0x268 virtual false final false
+  /// @brief Method ReadSpan addr 0x23a7c58 size 0x268 virtual false final false
   inline int32_t ReadSpan(::System::Span_1<char16_t> buffer);
 
-  /// @brief Method ReadToEnd addr 0x2501e9c size 0x11c virtual true final false
+  /// @brief Method ReadToEnd addr 0x23a81d0 size 0x11c virtual true final false
   inline ::StringW ReadToEnd();
 
-  /// @brief Method CompressBuffer addr 0x2501fb8 size 0x44 virtual false final false
+  /// @brief Method CompressBuffer addr 0x23a82ec size 0x44 virtual false final false
   inline void CompressBuffer(int32_t n);
 
-  /// @brief Method DetectEncoding addr 0x2501ffc size 0x2b8 virtual false final false
+  /// @brief Method DetectEncoding addr 0x23a8330 size 0x2b8 virtual false final false
   inline void DetectEncoding();
 
-  /// @brief Method IsPreamble addr 0x25022b4 size 0x130 virtual false final false
+  /// @brief Method IsPreamble addr 0x23a85e8 size 0x130 virtual false final false
   inline bool IsPreamble();
 
-  /// @brief Method ReadBuffer addr 0x25023e4 size 0x16c virtual true final false
+  /// @brief Method ReadBuffer addr 0x23a8718 size 0x16c virtual true final false
   inline int32_t ReadBuffer();
 
-  /// @brief Method ReadBuffer addr 0x2501b8c size 0x310 virtual false final false
+  /// @brief Method ReadBuffer addr 0x23a7ec0 size 0x310 virtual false final false
   inline int32_t ReadBuffer(::System::Span_1<char16_t> userBuffer, ByRef<bool> readToUserBuffer);
 
-  /// @brief Method ReadLine addr 0x2502550 size 0x260 virtual true final false
+  /// @brief Method ReadLine addr 0x23a8884 size 0x260 virtual true final false
   inline ::StringW ReadLine();
 
-  /// @brief Method ReadLineAsync addr 0x25027b0 size 0x124 virtual true final false
-  inline ::System::Threading::Tasks::Task_1<::StringW>* ReadLineAsync();
-
-  /// @brief Method ReadLineAsyncInternal addr 0x2502aa0 size 0xf0 virtual false final false
-  inline ::System::Threading::Tasks::Task_1<::StringW>* ReadLineAsyncInternal();
-
-  /// @brief Method ReadBufferAsync addr 0x2502b90 size 0xf8 virtual false final false
-  inline ::System::Threading::Tasks::Task_1<int32_t>* ReadBufferAsync();
-
-  /// @brief Method DataAvailable addr 0x2502c88 size 0x10 virtual false final false
+  /// @brief Method DataAvailable addr 0x23a8ae4 size 0x10 virtual false final false
   inline bool DataAvailable();
 
   // Ctor Parameters [CppParam { name: "", ty: "StreamReader", modifiers: "&&", def_value: None }]
@@ -546,8 +379,36 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::StreamReader, 0x60>, "Size mismatch!");
 
+static_assert(offsetof(::System::IO::StreamReader, ____stream) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::StreamReader, ____encoding) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::StreamReader, ____decoder) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::StreamReader, ____byteBuffer) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::StreamReader, ____charBuffer) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::StreamReader, ____charPos) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::StreamReader, ____charLen) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::StreamReader, ____byteLen) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::StreamReader, ____bytePos) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::StreamReader, ____maxCharsPerBuffer) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::StreamReader, ____detectEncoding) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::StreamReader, ____checkPreamble) == 0x55, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::StreamReader, ____isBlocked) == 0x56, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::StreamReader, ____closable) == 0x57, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::StreamReader, ____asyncReadTask) == 0x58, "Offset mismatch!");
+
 } // namespace System::IO
 NEED_NO_BOX(::System::IO::StreamReader);
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::StreamReader*, "System.IO", "StreamReader");
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::__StreamReader___ReadBufferAsync_d__69, "System.IO", "StreamReader/<ReadBufferAsync>d__69");
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::__StreamReader___ReadLineAsyncInternal_d__61, "System.IO", "StreamReader/<ReadLineAsyncInternal>d__61");

@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GetMultiplayerInstanceResponse)
-namespace GlobalNamespace {
-struct MultiplayerPlacementErrorCode;
-}
 namespace BGNet::Core::GameLift {
 class PlayerSessionInfo;
+}
+namespace GlobalNamespace {
+struct MultiplayerPlacementErrorCode;
 }
 // Forward declare root types
 namespace BGNet::Core::GameLift {
@@ -23,13 +23,13 @@ MARK_VAL_T(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12738))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13011))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12667))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13016))
 // CS Name: ::BGNet.Core.GameLift::GetMultiplayerInstanceResponse
 struct CORDL_TYPE GetMultiplayerInstanceResponse {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0xe60ec4 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0xdeacf4 size 0x18 virtual false final false
   inline void _ctor(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo, int32_t pollIntervalMs, ::StringW ticketId,
                     ::StringW ticketStatus, ::StringW placementId, ::StringW placementStatus);
 
@@ -72,6 +72,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGNet::Core::GameLift::GetMultiplayerInstanceResponse, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse, errorCode) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse, playerSessionInfo) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse, pollIntervalMs) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse, ticketId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse, ticketStatus) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse, placementId) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse, placementStatus) == 0x30, "Offset mismatch!");
 
 } // namespace BGNet::Core::GameLift
 DEFINE_IL2CPP_ARG_TYPE(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse, "BGNet.Core.GameLift", "GetMultiplayerInstanceResponse");

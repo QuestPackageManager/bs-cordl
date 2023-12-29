@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CompensateDirectionProcessor)
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Processors {
@@ -22,20 +22,20 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::CompensateDirectionProces
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 412 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6582)) CS Name: ::UnityEngine.InputSystem.Processors::CompensateDirectionProcessor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6322)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6322), inst: 407
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6668)) CS Name: ::UnityEngine.InputSystem.Processors::CompensateDirectionProcessor*
 class CORDL_TYPE CompensateDirectionProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3> {
 public:
   // Declarations
-  /// @brief Method Process addr 0x2af8e44 size 0x1f0 virtual true final false
+  /// @brief Method Process addr 0x29780f0 size 0x1f0 virtual true final false
   inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString addr 0x2af9034 size 0x40 virtual true final false
+  /// @brief Method ToString addr 0x29782e0 size 0x40 virtual true final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2af9074 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2978320 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CompensateDirectionProcessor", modifiers: "&&", def_value: None }]

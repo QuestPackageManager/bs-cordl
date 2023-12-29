@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Ed448PrivateKeyParameters)
-namespace Org::BouncyCastle::Math::EC::Rfc8032 {
-struct __Ed448__Algorithm;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Ed448PublicKeyParameters;
@@ -15,8 +15,8 @@ class Ed448PublicKeyParameters;
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Math::EC::Rfc8032 {
+struct __Ed448__Algorithm;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -68,33 +68,33 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor addr 0xf34b0c size 0xd0 virtual false final false
+  /// @brief Method .ctor addr 0xebf920 size 0xd0 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method .ctor addr 0xf34bdc size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0xebf9f0 size 0xc0 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor addr 0xf34c9c size 0x10c virtual false final false
+  /// @brief Method .ctor addr 0xebfab0 size 0x10c virtual false final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method Encode addr 0xf34da8 size 0x84 virtual false final false
+  /// @brief Method Encode addr 0xebfbbc size 0x84 virtual false final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method GetEncoded addr 0xf34e2c size 0x5c virtual false final false
+  /// @brief Method GetEncoded addr 0xebfc40 size 0x5c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GeneratePublicKey addr 0xf34e88 size 0x174 virtual false final false
+  /// @brief Method GeneratePublicKey addr 0xebfc9c size 0x174 virtual false final false
   inline ::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* GeneratePublicKey();
 
-  /// @brief Method Sign addr 0xf350b8 size 0x20 virtual false final false
+  /// @brief Method Sign addr 0xebfecc size 0x20 virtual false final false
   inline void Sign(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__Algorithm algorithm, ::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* publicKey,
                    ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, ::ArrayW<uint8_t, ::Array<uint8_t>*> msg, int32_t msgOff, int32_t msgLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
-  /// @brief Method Sign addr 0xf350d8 size 0x22c virtual false final false
+  /// @brief Method Sign addr 0xebfeec size 0x22c virtual false final false
   inline void Sign(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__Algorithm algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, ::ArrayW<uint8_t, ::Array<uint8_t>*> msg, int32_t msgOff,
                    int32_t msgLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
@@ -122,6 +122,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters, ___data) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters, ___cachedPublicKey) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters);

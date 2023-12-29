@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(TemplateAsset)
-namespace UnityEngine::UIElements {
-struct __VisualTreeAsset__SlotUsageEntry;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
 struct __TemplateAsset__AttributeOverride;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UIElements {
+struct __VisualTreeAsset__SlotUsageEntry;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -30,7 +30,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__TemplateAsset__AttributeOverride);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7000))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7086))
 // CS Name: ::TemplateAsset::AttributeOverride
 struct CORDL_TYPE __TemplateAsset__AttributeOverride {
 public:
@@ -60,13 +60,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TemplateAsset__AttributeOverride, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__TemplateAsset__AttributeOverride, m_ElementName) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__TemplateAsset__AttributeOverride, m_AttributeName) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__TemplateAsset__AttributeOverride, m_Value) == 0x10, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::TemplateAsset
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7013))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7001))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7099))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7087))
 // CS Name: ::UnityEngine.UIElements::TemplateAsset*
 class CORDL_TYPE TemplateAsset : public ::UnityEngine::UIElements::VisualElementAsset {
 public:
@@ -105,10 +111,10 @@ public:
 
   constexpr void __set_m_SlotUsages(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotUsageEntry>* value);
 
-  /// @brief Method get_attributeOverrides addr 0x2e0ff1c size 0x80 virtual false final false
+  /// @brief Method get_attributeOverrides addr 0x2ca9b6c size 0x80 virtual false final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TemplateAsset__AttributeOverride>* get_attributeOverrides();
 
-  /// @brief Method get_slotUsages addr 0x2e0ff9c size 0x8 virtual false final false
+  /// @brief Method get_slotUsages addr 0x2ca9bec size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotUsageEntry>* get_slotUsages();
 
   // Ctor Parameters [CppParam { name: "", ty: "TemplateAsset", modifiers: "&&", def_value: None }]
@@ -138,6 +144,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TemplateAsset, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TemplateAsset, ___m_TemplateAlias) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TemplateAsset, ___m_AttributeOverrides) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TemplateAsset, ___m_SlotUsages) == 0x70, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::TemplateAsset);

@@ -3,17 +3,17 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IVisualElementScheduler)
-namespace UnityEngine::UIElements {
-class IVisualElementScheduledItem;
-}
-namespace UnityEngine::UIElements {
-struct TimerState;
-}
 namespace System {
 class Action;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace UnityEngine::UIElements {
+struct TimerState;
+}
+namespace UnityEngine::UIElements {
+class IVisualElementScheduledItem;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IVisualElementScheduler);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6747))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6833))
 // CS Name: ::UnityEngine.UIElements::IVisualElementScheduler*
 class CORDL_TYPE IVisualElementScheduler {
 public:

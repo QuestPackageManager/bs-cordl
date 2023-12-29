@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MemoryPoolContainer_1)
-namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
-}
 namespace Zenject {
 template <typename TValue> class IMemoryPool_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+template <typename T> class LazyCopyHashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14373))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10535))
 // CS Name: ::MemoryPoolContainer`1<T>*
 class CORDL_TYPE MemoryPoolContainer_1 : public ::System::Object {
 public:
@@ -64,9 +64,6 @@ public:
 
   /// @brief Method Despawn addr 0x0 size 0xffffffffffffffff virtual false final false
   inline void Despawn(T item);
-
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void Clear();
 
   // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolContainer_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

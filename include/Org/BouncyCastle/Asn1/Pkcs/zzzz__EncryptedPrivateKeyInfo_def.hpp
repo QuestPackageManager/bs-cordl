@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EncryptedPrivateKeyInfo)
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace System {
-class Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
@@ -59,24 +59,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf87e80 size 0xe4 virtual false final false
+  /// @brief Method .ctor addr 0xf11c5c size 0xe4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method .ctor addr 0xf87f64 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0xf11d40 size 0x84 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method GetInstance addr 0xf87fe8 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xf11dc4 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_EncryptionAlgorithm addr 0xf88170 size 0x8 virtual false final false
+  /// @brief Method get_EncryptionAlgorithm addr 0xf11f4c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithm();
 
-  /// @brief Method GetEncryptedData addr 0xf88178 size 0x20 virtual false final false
+  /// @brief Method GetEncryptedData addr 0xf11f54 size 0x20 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncryptedData();
 
-  /// @brief Method ToAsn1Object addr 0xf88198 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf11f74 size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "EncryptedPrivateKeyInfo", modifiers: "&&", def_value: None }]
@@ -103,6 +103,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo, ___algId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo, ___data) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo);

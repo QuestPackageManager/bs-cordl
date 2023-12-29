@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityOpus::NumChannels);
 namespace UnityOpus {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16215))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6157))
 // CS Name: ::UnityOpus::NumChannels
 struct CORDL_TYPE NumChannels {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityOpus::NumChannels, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityOpus::NumChannels, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityOpus
 DEFINE_IL2CPP_ARG_TYPE(::UnityOpus::NumChannels, "UnityOpus", "NumChannels");

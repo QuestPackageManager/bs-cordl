@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualTreeTransformClipUpdater)
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
-}
 namespace Unity::Profiling {
 struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualTreeTransformClipUpdater);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(6754))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6784))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6840)), TypeDefinitionIndex(TypeDefinitionIndex(9894))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6870))
 // CS Name: ::UnityEngine.UIElements::VisualTreeTransformClipUpdater*
 class CORDL_TYPE VisualTreeTransformClipUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
@@ -66,24 +66,24 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_profilerMarker addr 0x2dba078 size 0x58 virtual true final false
+  /// @brief Method get_profilerMarker addr 0x2c52cc8 size 0x58 virtual true final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method OnVersionChanged addr 0x2dba0d0 size 0xf4 virtual true final false
+  /// @brief Method OnVersionChanged addr 0x2c52d20 size 0xf4 virtual true final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method DirtyHierarchy addr 0x2dba1c4 size 0x154 virtual false final false
+  /// @brief Method DirtyHierarchy addr 0x2c52e14 size 0x154 virtual false final false
   static inline void DirtyHierarchy(::UnityEngine::UIElements::VisualElement* ve, bool mustDirtyWorldTransform, bool mustDirtyWorldClip);
 
-  /// @brief Method DirtyBoundingBoxHierarchy addr 0x2dba318 size 0xa8 virtual false final false
+  /// @brief Method DirtyBoundingBoxHierarchy addr 0x2c52f68 size 0xa8 virtual false final false
   static inline void DirtyBoundingBoxHierarchy(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method Update addr 0x2dba3c0 size 0x64 virtual true final false
+  /// @brief Method Update addr 0x2c53010 size 0x64 virtual true final false
   inline void Update();
 
   static inline ::UnityEngine::UIElements::VisualTreeTransformClipUpdater* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dba624 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2c53274 size 0xc virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualTreeTransformClipUpdater", modifiers: "&&", def_value: None }]
@@ -110,6 +110,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualTreeTransformClipUpdater, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeTransformClipUpdater, ___m_Version) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeTransformClipUpdater, ___m_LastVersion) == 0x24, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VisualTreeTransformClipUpdater);

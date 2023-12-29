@@ -5,25 +5,25 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GroupedEnumerable_3)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Linq {
-template <typename TKey, typename TElement> class IGrouping_2;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System::Linq {
+template <typename TKey, typename TElement> class IGrouping_2;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
 }
 // Forward declare root types
 namespace System::Linq {
@@ -37,8 +37,8 @@ namespace System::Linq {
 // cpp template
 template <typename TSource, typename TKey, typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14289))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14627))
 // CS Name: ::System.Linq::GroupedEnumerable`3<TSource,TKey,TElement>*
 class CORDL_TYPE GroupedEnumerable_3 : public ::System::Object {
 public:

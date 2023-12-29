@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScheduledItem)
-namespace UnityEngine::UIElements {
-struct TimerState;
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace UnityEngine::UIElements {
 class __ScheduledItem____c;
 }
-namespace System {
-template <typename TResult> class Func_1;
+namespace UnityEngine::UIElements {
+struct TimerState;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__ScheduledItem____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6941))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7027))
 // CS Name: ::ScheduledItem::<>c*
 class CORDL_TYPE __ScheduledItem____c : public ::System::Object {
 public:
@@ -43,13 +43,13 @@ public:
 
   static inline ::UnityEngine::UIElements::__ScheduledItem____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e07990 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2ca15e0 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__25_0 addr 0x2e07998 size 0x8 virtual false final false
+  /// @brief Method <.cctor>b__25_0 addr 0x2ca15e8 size 0x8 virtual false final false
   inline bool __cctor_b__25_0();
 
-  /// @brief Method <.cctor>b__25_1 addr 0x2e079a0 size 0x8 virtual false final false
+  /// @brief Method <.cctor>b__25_1 addr 0x2ca15f0 size 0x8 virtual false final false
   inline bool __cctor_b__25_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScheduledItem____c", modifiers: "&&", def_value: None }]
@@ -76,8 +76,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Sched
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6942))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7028))
 // CS Name: ::UnityEngine.UIElements::ScheduledItem*
 class CORDL_TYPE ScheduledItem : public ::System::Object {
 public:
@@ -151,42 +151,42 @@ public:
 
   static inline ::System::Func_1<bool>* getStaticF_ForeverCondition();
 
-  /// @brief Method get_startMs addr 0x2e076e8 size 0x8 virtual false final false
+  /// @brief Method get_startMs addr 0x2ca1338 size 0x8 virtual false final false
   inline int64_t get_startMs();
 
-  /// @brief Method set_startMs addr 0x2e076f0 size 0x8 virtual false final false
+  /// @brief Method set_startMs addr 0x2ca1340 size 0x8 virtual false final false
   inline void set_startMs(int64_t value);
 
-  /// @brief Method get_delayMs addr 0x2e076f8 size 0x8 virtual false final false
+  /// @brief Method get_delayMs addr 0x2ca1348 size 0x8 virtual false final false
   inline int64_t get_delayMs();
 
-  /// @brief Method set_delayMs addr 0x2e07700 size 0x8 virtual false final false
+  /// @brief Method set_delayMs addr 0x2ca1350 size 0x8 virtual false final false
   inline void set_delayMs(int64_t value);
 
-  /// @brief Method get_intervalMs addr 0x2e07708 size 0x8 virtual false final false
+  /// @brief Method get_intervalMs addr 0x2ca1358 size 0x8 virtual false final false
   inline int64_t get_intervalMs();
 
-  /// @brief Method set_intervalMs addr 0x2e07710 size 0x8 virtual false final false
+  /// @brief Method set_intervalMs addr 0x2ca1360 size 0x8 virtual false final false
   inline void set_intervalMs(int64_t value);
 
-  /// @brief Method get_endTimeMs addr 0x2e07718 size 0x8 virtual false final false
+  /// @brief Method get_endTimeMs addr 0x2ca1368 size 0x8 virtual false final false
   inline int64_t get_endTimeMs();
 
   static inline ::UnityEngine::UIElements::ScheduledItem* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e07720 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x2ca1370 size 0x74 virtual false final false
   inline void _ctor();
 
-  /// @brief Method ResetStartTime addr 0x2e07794 size 0x5c virtual false final false
+  /// @brief Method ResetStartTime addr 0x2ca13e4 size 0x5c virtual false final false
   inline void ResetStartTime();
 
   /// @brief Method PerformTimerUpdate addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void PerformTimerUpdate(::UnityEngine::UIElements::TimerState state);
 
-  /// @brief Method OnItemUnscheduled addr 0x2e077f0 size 0x4 virtual true final false
+  /// @brief Method OnItemUnscheduled addr 0x2ca1440 size 0x4 virtual true final false
   inline void OnItemUnscheduled();
 
-  /// @brief Method ShouldUnschedule addr 0x2e077f4 size 0x20 virtual true final false
+  /// @brief Method ShouldUnschedule addr 0x2ca1444 size 0x20 virtual true final false
   inline bool ShouldUnschedule();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScheduledItem", modifiers: "&&", def_value: None }]
@@ -222,6 +222,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ScheduledItem, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScheduledItem, ___timerUpdateStopCondition) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScheduledItem, ____startMs_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScheduledItem, ____delayMs_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScheduledItem, ____intervalMs_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScheduledItem, ____endTimeMs_k__BackingField) == 0x30, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ScheduledItem);

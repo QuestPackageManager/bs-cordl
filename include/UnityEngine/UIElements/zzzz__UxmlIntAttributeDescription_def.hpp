@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UxmlIntAttributeDescription)
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
-}
-namespace UnityEngine::UIElements {
 class __UxmlIntAttributeDescription____c;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__UxmlIntAttributeDescription____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6987))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7073))
 // CS Name: ::UxmlIntAttributeDescription::<>c*
 class CORDL_TYPE __UxmlIntAttributeDescription____c : public ::System::Object {
 public:
@@ -63,13 +63,13 @@ public:
 
   static inline ::UnityEngine::UIElements::__UxmlIntAttributeDescription____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e0f6ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2ca933c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0 addr 0x2e0f6f4 size 0x40 virtual false final false
+  /// @brief Method <GetValueFromBag>b__3_0 addr 0x2ca9344 size 0x40 virtual false final false
   inline int32_t _GetValueFromBag_b__3_0(::StringW s, int32_t i);
 
-  /// @brief Method <TryGetValueFromBag>b__4_0 addr 0x2e0f734 size 0x40 virtual false final false
+  /// @brief Method <TryGetValueFromBag>b__4_0 addr 0x2ca9384 size 0x40 virtual false final false
   inline int32_t _TryGetValueFromBag_b__4_0(::StringW s, int32_t i);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UxmlIntAttributeDescription____c", modifiers: "&&", def_value: None }]
@@ -96,8 +96,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UxmlI
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(6982))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6988))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7068), inst: 101 }), TypeDefinitionIndex(TypeDefinitionIndex(7068))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7074))
 // CS Name: ::UnityEngine.UIElements::UxmlIntAttributeDescription*
 class CORDL_TYPE UxmlIntAttributeDescription : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<int32_t> {
 public:
@@ -106,16 +106,16 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlIntAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e0f2d4 size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0x2ca8f24 size 0x9c virtual false final false
   inline void _ctor();
 
-  /// @brief Method GetValueFromBag addr 0x2e0f370 size 0x164 virtual true final false
+  /// @brief Method GetValueFromBag addr 0x2ca8fc0 size 0x164 virtual true final false
   inline int32_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
-  /// @brief Method TryGetValueFromBag addr 0x2e0f4d4 size 0x178 virtual false final false
+  /// @brief Method TryGetValueFromBag addr 0x2ca9124 size 0x178 virtual false final false
   inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ByRef<int32_t> value);
 
-  /// @brief Method ConvertValueToInt addr 0x2e0f64c size 0x3c virtual false final false
+  /// @brief Method ConvertValueToInt addr 0x2ca929c size 0x3c virtual false final false
   static inline int32_t ConvertValueToInt(::StringW v, int32_t defaultValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlIntAttributeDescription", modifiers: "&&", def_value: None }]

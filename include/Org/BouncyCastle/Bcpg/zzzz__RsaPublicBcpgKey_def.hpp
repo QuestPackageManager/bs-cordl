@@ -13,11 +13,11 @@ class IBcpgKey;
 namespace Org::BouncyCastle::Bcpg {
 class MPInteger;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
@@ -67,27 +67,27 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::RsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x11d2508 size 0x94 virtual false final false
+  /// @brief Method .ctor addr 0x11612b8 size 0x94 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::RsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* e);
 
-  /// @brief Method .ctor addr 0x11d28a0 size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x1161650 size 0x98 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* e);
 
-  /// @brief Method get_PublicExponent addr 0x11d2938 size 0x1c virtual false final false
+  /// @brief Method get_PublicExponent addr 0x11616e8 size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
 
-  /// @brief Method get_Modulus addr 0x11d2954 size 0x1c virtual false final false
+  /// @brief Method get_Modulus addr 0x1161704 size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
-  /// @brief Method get_Format addr 0x11d2970 size 0x40 virtual true final true
+  /// @brief Method get_Format addr 0x1161720 size 0x40 virtual true final true
   inline ::StringW get_Format();
 
-  /// @brief Method GetEncoded addr 0x11d29b0 size 0x84 virtual true final false
+  /// @brief Method GetEncoded addr 0x1161760 size 0x84 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method Encode addr 0x11d2a34 size 0xd4 virtual true final false
+  /// @brief Method Encode addr 0x11617e4 size 0xd4 virtual true final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaPublicBcpgKey", modifiers: "&&", def_value: None }]
@@ -114,6 +114,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::RsaPublicBcpgKey, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::RsaPublicBcpgKey, ___n) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::RsaPublicBcpgKey, ___e) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::RsaPublicBcpgKey);

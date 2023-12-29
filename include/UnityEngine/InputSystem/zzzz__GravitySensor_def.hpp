@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::GravitySensor);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6274))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6277))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6360))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6363))
 // CS Name: ::UnityEngine.InputSystem::GravitySensor*
 class CORDL_TYPE GravitySensor : public ::UnityEngine::InputSystem::Sensor {
 public:
@@ -41,30 +41,30 @@ public:
 
   static inline ::UnityEngine::InputSystem::GravitySensor* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_gravity addr 0x2aa7fcc size 0x8 virtual false final false
+  /// @brief Method get_gravity addr 0x2929284 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_gravity();
 
-  /// @brief Method set_gravity addr 0x2aa7fd4 size 0x8 virtual false final false
+  /// @brief Method set_gravity addr 0x292928c size 0x8 virtual false final false
   inline void set_gravity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_current addr 0x2aa7fdc size 0x48 virtual false final false
+  /// @brief Method get_current addr 0x2929294 size 0x48 virtual false final false
   static inline ::UnityEngine::InputSystem::GravitySensor* get_current();
 
-  /// @brief Method set_current addr 0x2aa8024 size 0x4c virtual false final false
+  /// @brief Method set_current addr 0x29292dc size 0x4c virtual false final false
   static inline void set_current(::UnityEngine::InputSystem::GravitySensor* value);
 
-  /// @brief Method FinishSetup addr 0x2aa8070 size 0x78 virtual true final false
+  /// @brief Method FinishSetup addr 0x2929328 size 0x78 virtual true final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent addr 0x2aa80e8 size 0x54 virtual true final false
+  /// @brief Method MakeCurrent addr 0x29293a0 size 0x54 virtual true final false
   inline void MakeCurrent();
 
-  /// @brief Method OnRemoved addr 0x2aa813c size 0x84 virtual true final false
+  /// @brief Method OnRemoved addr 0x29293f4 size 0x84 virtual true final false
   inline void OnRemoved();
 
   static inline ::UnityEngine::InputSystem::GravitySensor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2aa81c0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2929478 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GravitySensor", modifiers: "&&", def_value: None }]
@@ -88,6 +88,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::GravitySensor, 0x160>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::GravitySensor, ____gravity_k__BackingField) == 0x158, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 NEED_NO_BOX(::UnityEngine::InputSystem::GravitySensor);

@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::JsonContainerType);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11806))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11734))
 // CS Name: ::Newtonsoft.Json::JsonContainerType
 struct CORDL_TYPE JsonContainerType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonContainerType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonContainerType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonContainerType, "Newtonsoft.Json", "JsonContainerType");

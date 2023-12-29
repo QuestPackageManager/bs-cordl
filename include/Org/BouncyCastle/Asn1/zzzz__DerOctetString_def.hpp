@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DerOctetString)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class IAsn1Convertible;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
@@ -33,23 +33,23 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::DerOctetString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor addr 0x11b1f50 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x1140d08 size 0x4 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
   static inline ::Org::BouncyCastle::Asn1::DerOctetString* New_ctor(::Org::BouncyCastle::Asn1::IAsn1Convertible* obj);
 
-  /// @brief Method .ctor addr 0x11bc410 size 0xac virtual false final false
+  /// @brief Method .ctor addr 0x114b1c0 size 0xac virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::IAsn1Convertible* obj);
 
   static inline ::Org::BouncyCastle::Asn1::DerOctetString* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor addr 0x11bc4bc size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x114b26c size 0x64 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method Encode addr 0x11bc520 size 0x24 virtual true final false
+  /// @brief Method Encode addr 0x114b2d0 size 0x24 virtual true final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method Encode addr 0x11bc544 size 0x70 virtual false final false
+  /// @brief Method Encode addr 0x114b2f4 size 0x70 virtual false final false
   static inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "DerOctetString", modifiers: "&&", def_value: None }]

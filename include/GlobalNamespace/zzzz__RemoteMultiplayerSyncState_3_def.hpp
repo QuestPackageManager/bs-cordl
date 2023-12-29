@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RemoteMultiplayerSyncState_3)
 namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class StateBuffer_3;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class RemoteStateBuffer_3;
@@ -32,8 +32,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14947), inst: 3836 }), TypeDefinitionIndex(TypeDefinitionIndex(14947))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14949))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4560), inst: 3744 }), TypeDefinitionIndex(TypeDefinitionIndex(4560))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4562))
 // CS Name: ::RemoteMultiplayerSyncState`3<TStateTable,TType,TState>*
 class CORDL_TYPE RemoteMultiplayerSyncState_3 : public ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState> {
 public:

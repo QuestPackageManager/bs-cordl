@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(XRSubsystemHelper)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::XR {
+class XRInputSubsystem;
 }
 namespace UnityEngine::XR {
 class XRDisplaySubsystemDescriptor;
 }
-namespace UnityEngine::XR {
-class XRInputSubsystem;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::XRSubsystemHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14441))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14001))
 // CS Name: ::XRSubsystemHelper*
 class CORDL_TYPE XRSubsystemHelper : public ::System::Object {
 public:
@@ -51,13 +51,13 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRInputSubsystem*>* getStaticF_s_inputSubsystems();
 
-  /// @brief Method GetCurrentDisplaySubsystem addr 0x2100c20 size 0x140 virtual false final false
+  /// @brief Method GetCurrentDisplaySubsystem addr 0x1fabe50 size 0x140 virtual false final false
   static inline Il2CppObject* GetCurrentDisplaySubsystem();
 
-  /// @brief Method GetCurrentDisplaySubsystemDescriptor addr 0x2100d60 size 0x138 virtual false final false
+  /// @brief Method GetCurrentDisplaySubsystemDescriptor addr 0x1fabf90 size 0x138 virtual false final false
   static inline ::UnityEngine::XR::XRDisplaySubsystemDescriptor* GetCurrentDisplaySubsystemDescriptor();
 
-  /// @brief Method GetCurrentInputSubsystem addr 0x2100e98 size 0x138 virtual false final false
+  /// @brief Method GetCurrentInputSubsystem addr 0x1fac0c8 size 0x138 virtual false final false
   static inline ::UnityEngine::XR::XRInputSubsystem* GetCurrentInputSubsystem();
 
   // Ctor Parameters [CppParam { name: "", ty: "XRSubsystemHelper", modifiers: "&&", def_value: None }]

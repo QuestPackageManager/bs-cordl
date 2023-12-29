@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(G_AudioGraph)
 namespace UnityEngine::UI {
 class Image;
 }
-namespace UnityEngine {
-class Shader;
-}
-namespace Tayx::Graphy::Audio {
-class G_AudioMonitor;
-}
 namespace Tayx::Graphy {
 class GraphyManager;
 }
 namespace Tayx::Graphy {
 class G_GraphShader;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace Tayx::Graphy::Audio {
+class G_AudioMonitor;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Audio {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Audio::G_AudioGraph);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Audio {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15080))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15086))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15258))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15264))
 // CS Name: ::Tayx.Graphy.Audio::G_AudioGraph*
 class CORDL_TYPE G_AudioGraph : public ::Tayx::Graphy::Graph::G_Graph {
 public:
@@ -146,27 +146,27 @@ public:
 
   constexpr void __set_m_graphArrayHighestValue(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method OnEnable addr 0x2a094f0 size 0x50 virtual false final false
+  /// @brief Method OnEnable addr 0x288c5c8 size 0x50 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method Update addr 0x2a09540 size 0x38 virtual false final false
+  /// @brief Method Update addr 0x288c618 size 0x38 virtual false final false
   inline void Update();
 
-  /// @brief Method UpdateParameters addr 0x2a095d8 size 0x1ac virtual false final false
+  /// @brief Method UpdateParameters addr 0x288c6b0 size 0x1ac virtual false final false
   inline void UpdateParameters();
 
-  /// @brief Method Init addr 0x2a09784 size 0x134 virtual false final false
-  inline void Init();
-
-  /// @brief Method UpdateGraph addr 0x2a098b8 size 0x4d8 virtual true final false
+  /// @brief Method UpdateGraph addr 0x288c85c size 0x4d8 virtual true final false
   inline void UpdateGraph();
 
-  /// @brief Method CreatePoints addr 0x2a09dd4 size 0x214 virtual true final false
+  /// @brief Method CreatePoints addr 0x288ce6c size 0x214 virtual true final false
   inline void CreatePoints();
+
+  /// @brief Method Init addr 0x288cd34 size 0xf4 virtual false final false
+  inline void Init();
 
   static inline ::Tayx::Graphy::Audio::G_AudioGraph* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a09fe8 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x288d080 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_AudioGraph", modifiers: "&&", def_value: None }]
@@ -223,6 +223,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Audio::G_AudioGraph, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioGraph, ___m_imageGraph) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioGraph, ___m_imageGraphHighestValues) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioGraph, ___ShaderFull) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioGraph, ___ShaderLight) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioGraph, ___m_isInitialized) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioGraph, ___m_graphyManager) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioGraph, ___m_audioMonitor) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioGraph, ___m_resolution) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioGraph, ___m_shaderGraph) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioGraph, ___m_shaderGraphHighestValues) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioGraph, ___m_graphArray) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioGraph, ___m_graphArrayHighestValue) == 0x70, "Offset mismatch!");
 
 } // namespace Tayx::Graphy::Audio
 NEED_NO_BOX(::Tayx::Graphy::Audio::G_AudioGraph);

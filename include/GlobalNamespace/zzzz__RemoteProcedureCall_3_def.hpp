@@ -3,16 +3,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_def.hpp"
+#include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RemoteProcedureCall_3)
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace GlobalNamespace {
 class IRemoteProcedureCall;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace GlobalNamespace {
 template <typename T> class __RemoteProcedureCall__TypeWrapper_1;
@@ -29,8 +30,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T0, typename T1, typename T2>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12939))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12860))
 // CS Name: ::RemoteProcedureCall`3<T0,T1,T2>*
 class CORDL_TYPE RemoteProcedureCall_3 : public ::GlobalNamespace::RemoteProcedureCall {
 public:
@@ -84,7 +85,7 @@ public:
   inline void DeserializeData(::LiteNetLib::Utils::NetDataReader* reader, uint32_t protocolVersion);
 
   /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline ::GlobalNamespace::IRemoteProcedureCall* Init(int64_t syncTime, T0 value0, T1 value1, T2 value2);
+  inline ::GlobalNamespace::IRemoteProcedureCall* Init(float_t syncTime, T0 value0, T1 value1, T2 value2);
 
   /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void Release();

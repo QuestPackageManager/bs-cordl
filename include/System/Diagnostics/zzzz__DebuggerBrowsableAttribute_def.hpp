@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Diagnostics::DebuggerBrowsableAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3734)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3735))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3722)), TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3723))
 // CS Name: ::System.Diagnostics::DebuggerBrowsableAttribute*
 class CORDL_TYPE DebuggerBrowsableAttribute : public ::System::Attribute {
 public:
@@ -35,7 +35,7 @@ public:
 
   static inline ::System::Diagnostics::DebuggerBrowsableAttribute* New_ctor(::System::Diagnostics::DebuggerBrowsableState state);
 
-  /// @brief Method .ctor addr 0x2579c48 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x241e7d0 size 0x7c virtual false final false
   inline void _ctor(::System::Diagnostics::DebuggerBrowsableState state);
 
   // Ctor Parameters [CppParam { name: "", ty: "DebuggerBrowsableAttribute", modifiers: "&&", def_value: None }]
@@ -59,6 +59,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::DebuggerBrowsableAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::DebuggerBrowsableAttribute, ___state) == 0x10, "Offset mismatch!");
 
 } // namespace System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::DebuggerBrowsableAttribute);

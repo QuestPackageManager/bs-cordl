@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignalSubscriptionId)
-namespace System {
-template <typename T> class IEquatable_1;
+namespace Zenject {
+struct BindingId;
 }
 namespace System {
 class Object;
 }
-namespace Zenject {
-struct BindingId;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -25,8 +25,8 @@ MARK_VAL_T(::Zenject::SignalSubscriptionId);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11158))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10662))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11086))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10590))
 // CS Name: ::Zenject::SignalSubscriptionId
 struct CORDL_TYPE SignalSubscriptionId {
 public:
@@ -38,28 +38,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Zenject::SignalSubscriptionId>"
   constexpr operator ::System::IEquatable_1<::Zenject::SignalSubscriptionId>*();
 
-  /// @brief Method .ctor addr 0x2ec4290 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2d5c510 size 0xc virtual false final false
   inline void _ctor(::Zenject::BindingId signalId, ::System::Object* callback);
 
-  /// @brief Method get_SignalId addr 0x2ec429c size 0xc virtual false final false
+  /// @brief Method get_SignalId addr 0x2d5c51c size 0xc virtual false final false
   inline ::Zenject::BindingId get_SignalId();
 
-  /// @brief Method get_Callback addr 0x2ec42a8 size 0x8 virtual false final false
+  /// @brief Method get_Callback addr 0x2d5c528 size 0x8 virtual false final false
   inline ::System::Object* get_Callback();
 
-  /// @brief Method GetHashCode addr 0x2ec42b0 size 0x48 virtual true final false
+  /// @brief Method GetHashCode addr 0x2d5c530 size 0x48 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x2ec42f8 size 0x90 virtual true final false
+  /// @brief Method Equals addr 0x2d5c578 size 0x90 virtual true final false
   inline bool Equals(::System::Object* that);
 
-  /// @brief Method Equals addr 0x2ec4388 size 0xb0 virtual true final true
+  /// @brief Method Equals addr 0x2d5c608 size 0xb0 virtual true final true
   inline bool Equals(::Zenject::SignalSubscriptionId that);
 
-  /// @brief Method op_Equality addr 0x2ec4438 size 0x30 virtual false final false
+  /// @brief Method op_Equality addr 0x2d5c6b8 size 0x30 virtual false final false
   static inline bool op_Equality(::Zenject::SignalSubscriptionId left, ::Zenject::SignalSubscriptionId right);
 
-  /// @brief Method op_Inequality addr 0x2ec4468 size 0x34 virtual false final false
+  /// @brief Method op_Inequality addr 0x2d5c6e8 size 0x34 virtual false final false
   static inline bool op_Inequality(::Zenject::SignalSubscriptionId left, ::Zenject::SignalSubscriptionId right);
 
   // Ctor Parameters [CppParam { name: "_signalId", ty: "::Zenject::BindingId", modifiers: "", def_value: None }, CppParam { name: "_callback", ty: "::System::Object*", modifiers: "", def_value: None
@@ -83,6 +83,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::SignalSubscriptionId, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::SignalSubscriptionId, _signalId) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::SignalSubscriptionId, _callback) == 0x10, "Offset mismatch!");
 
 } // namespace Zenject
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::SignalSubscriptionId, "Zenject", "SignalSubscriptionId");

@@ -13,14 +13,14 @@ class Asn1Object;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -67,57 +67,57 @@ public:
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_table();
 
-  /// @brief Method GetInstance addr 0xe68790 size 0x20c virtual false final false
+  /// @brief Method GetInstance addr 0xdf35c0 size 0x20c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerBitString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance addr 0xe6a61c size 0x140 virtual false final false
+  /// @brief Method GetInstance addr 0xdf5448 size 0x140 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerBitString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::DerBitString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t padBits);
 
-  /// @brief Method .ctor addr 0xe6a8e4 size 0x168 virtual false final false
+  /// @brief Method .ctor addr 0xdf5710 size 0x168 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t padBits);
 
   static inline ::Org::BouncyCastle::Asn1::DerBitString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0xe6aa4c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdf5878 size 0x8 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Asn1::DerBitString* New_ctor(int32_t namedBits);
 
-  /// @brief Method .ctor addr 0xe6aa54 size 0x128 virtual false final false
+  /// @brief Method .ctor addr 0xdf5880 size 0x128 virtual false final false
   inline void _ctor(int32_t namedBits);
 
   static inline ::Org::BouncyCastle::Asn1::DerBitString* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor addr 0xe6ab7c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xdf59a8 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method GetOctets addr 0xe6aba8 size 0xb0 virtual true final false
+  /// @brief Method GetOctets addr 0xdf59d4 size 0xb0 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-  /// @brief Method GetBytes addr 0xe6ac58 size 0xa0 virtual true final false
+  /// @brief Method GetBytes addr 0xdf5a84 size 0xa0 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
-  /// @brief Method get_PadBits addr 0xe6acf8 size 0x8 virtual true final false
+  /// @brief Method get_PadBits addr 0xdf5b24 size 0x8 virtual true final false
   inline int32_t get_PadBits();
 
-  /// @brief Method get_IntValue addr 0xe6ad00 size 0x10c virtual true final false
+  /// @brief Method get_IntValue addr 0xdf5b2c size 0x10c virtual true final false
   inline int32_t get_IntValue();
 
-  /// @brief Method Encode addr 0xe6ae0c size 0x118 virtual true final false
+  /// @brief Method Encode addr 0xdf5c38 size 0x118 virtual true final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method Asn1GetHashCode addr 0xe6af24 size 0x88 virtual true final false
+  /// @brief Method Asn1GetHashCode addr 0xdf5d50 size 0x88 virtual true final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Asn1Equals addr 0xe6afac size 0xd8 virtual true final false
+  /// @brief Method Asn1Equals addr 0xdf5dd8 size 0xd8 virtual true final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method GetString addr 0xe6b084 size 0x168 virtual true final false
+  /// @brief Method GetString addr 0xdf5eb0 size 0x168 virtual true final false
   inline ::StringW GetString();
 
-  /// @brief Method FromAsn1Octets addr 0xe6a75c size 0x188 virtual false final false
+  /// @brief Method FromAsn1Octets addr 0xdf5588 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerBitString* FromAsn1Octets(::ArrayW<uint8_t, ::Array<uint8_t>*> octets);
 
   // Ctor Parameters [CppParam { name: "", ty: "DerBitString", modifiers: "&&", def_value: None }]
@@ -144,6 +144,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::DerBitString, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::DerBitString, ___mData) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::DerBitString, ___mPadBits) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerBitString);

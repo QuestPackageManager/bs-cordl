@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::FixupHolder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3219))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3218))
 // CS Name: ::System.Runtime.Serialization::FixupHolder*
 class CORDL_TYPE FixupHolder : public ::System::Object {
 public:
@@ -53,7 +53,7 @@ public:
 
   static inline ::System::Runtime::Serialization::FixupHolder* New_ctor(int64_t id, ::System::Object* fixupInfo, int32_t fixupType);
 
-  /// @brief Method .ctor addr 0x24bc15c size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x2363668 size 0x3c virtual false final false
   inline void _ctor(int64_t id, ::System::Object* fixupInfo, int32_t fixupType);
 
   // Ctor Parameters [CppParam { name: "", ty: "FixupHolder", modifiers: "&&", def_value: None }]
@@ -83,6 +83,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::FixupHolder, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::FixupHolder, ___m_id) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::FixupHolder, ___m_fixupInfo) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::FixupHolder, ___m_fixupType) == 0x20, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::FixupHolder);

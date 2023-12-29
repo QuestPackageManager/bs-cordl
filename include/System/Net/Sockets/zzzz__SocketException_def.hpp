@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(SocketException)
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Net::Sockets {
-struct SocketError;
-}
 namespace System::Net {
 class EndPoint;
+}
+namespace System::Net::Sockets {
+struct SocketError;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::System::Net::Sockets::SocketException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9492))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9336))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8329))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8173))
 // CS Name: ::System.Net.Sockets::SocketException*
 class CORDL_TYPE SocketException : public ::System::ComponentModel::Win32Exception {
 public:
@@ -49,42 +49,42 @@ public:
 
   constexpr void __set_m_EndPoint(::System::Net::EndPoint* value);
 
-  /// @brief Method WSAGetLastError_icall addr 0x28fc484 size 0x4 virtual false final false
+  /// @brief Method WSAGetLastError_icall addr 0x277e460 size 0x4 virtual false final false
   static inline int32_t WSAGetLastError_icall();
 
   static inline ::System::Net::Sockets::SocketException* New_ctor();
 
-  /// @brief Method .ctor addr 0x28fc488 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x277e464 size 0x20 virtual false final false
   inline void _ctor();
 
   static inline ::System::Net::Sockets::SocketException* New_ctor(int32_t error, ::StringW message);
 
-  /// @brief Method .ctor addr 0x28fc4a8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x277e484 size 0x8 virtual false final false
   inline void _ctor(int32_t error, ::StringW message);
 
   static inline ::System::Net::Sockets::SocketException* New_ctor(int32_t errorCode);
 
-  /// @brief Method .ctor addr 0x28fa6ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x277c6c8 size 0x8 virtual false final false
   inline void _ctor(int32_t errorCode);
 
   static inline ::System::Net::Sockets::SocketException* New_ctor(::System::Net::Sockets::SocketError socketError);
 
-  /// @brief Method .ctor addr 0x28fbc30 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x277dc0c size 0x8 virtual false final false
   inline void _ctor(::System::Net::Sockets::SocketError socketError);
 
   static inline ::System::Net::Sockets::SocketException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                   ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor addr 0x28fc4b0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x277e48c size 0x8 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_ErrorCode addr 0x28fc4b8 size 0x8 virtual true final false
+  /// @brief Method get_ErrorCode addr 0x277e494 size 0x8 virtual true final false
   inline int32_t get_ErrorCode();
 
-  /// @brief Method get_Message addr 0x28fc4c0 size 0x90 virtual true final false
+  /// @brief Method get_Message addr 0x277e49c size 0x90 virtual true final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_SocketErrorCode addr 0x28fa370 size 0x8 virtual false final false
+  /// @brief Method get_SocketErrorCode addr 0x277c34c size 0x8 virtual false final false
   inline ::System::Net::Sockets::SocketError get_SocketErrorCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "SocketException", modifiers: "&&", def_value: None }]
@@ -108,6 +108,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::SocketException, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketException, ___m_EndPoint) == 0x90, "Offset mismatch!");
 
 } // namespace System::Net::Sockets
 NEED_NO_BOX(::System::Net::Sockets::SocketException);

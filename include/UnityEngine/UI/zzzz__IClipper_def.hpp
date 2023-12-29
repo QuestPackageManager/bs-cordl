@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::IClipper);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13026))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13031))
 // CS Name: ::UnityEngine.UI::IClipper*
 class CORDL_TYPE IClipper {
 public:

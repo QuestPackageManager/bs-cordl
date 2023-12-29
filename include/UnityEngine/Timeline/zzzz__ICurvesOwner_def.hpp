@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ICurvesOwner)
-namespace UnityEngine::Timeline {
-class TrackAsset;
+namespace UnityEngine {
+class AnimationClip;
 }
 namespace UnityEngine {
 class Object;
 }
-namespace UnityEngine {
-class AnimationClip;
+namespace UnityEngine::Timeline {
+class TrackAsset;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ICurvesOwner);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13844))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14115))
 // CS Name: ::UnityEngine.Timeline::ICurvesOwner*
 class CORDL_TYPE ICurvesOwner {
 public:

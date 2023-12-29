@@ -1,8 +1,8 @@
 #pragma once
 #include "Priority_Queue/zzzz__IFixedSizePriorityQueue_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
 /// @brief Convert operator to "::Priority_Queue::IPriorityQueue_2<TItem,TPriority>"
 template <typename TItem, typename TPriority> constexpr Priority_Queue::IFixedSizePriorityQueue_2<TItem, TPriority>::operator ::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*() noexcept {
   return static_cast<::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*>(static_cast<void*>(this));

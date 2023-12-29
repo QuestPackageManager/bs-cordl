@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::FileAccess);
 namespace System::IO {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3559))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3554))
 // CS Name: ::System.IO::FileAccess
 struct CORDL_TYPE FileAccess {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::FileAccess, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::IO::FileAccess, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::IO
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::FileAccess, "System.IO", "FileAccess");

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::Schema::XmlSchemaValidity);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11744))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11672))
 // CS Name: ::System.Xml.Schema::XmlSchemaValidity
 struct CORDL_TYPE XmlSchemaValidity {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaValidity, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaValidity, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaValidity, "System.Xml.Schema", "XmlSchemaValidity");

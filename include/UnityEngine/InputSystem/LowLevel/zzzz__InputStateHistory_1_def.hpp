@@ -8,11 +8,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputStateHistory_1)
-namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue> struct __InputStateHistory_1__Enumerator;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 namespace UnityEngine::InputSystem {
 template <typename TValue> class InputControl_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+template <typename TValue> struct __InputStateHistory_1__Record;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+template <typename TValue> struct __InputStateHistory_1__Enumerator;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -21,22 +36,7 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue> struct __InputStateHistory_1__Record;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
 }
 namespace System {
 class Object;
@@ -71,7 +71,7 @@ namespace UnityEngine::InputSystem::LowLevel {
 template <typename TValue>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6575))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6661))
 // CS Name: ::InputStateHistory`1::Enumerator<TValue>
 struct CORDL_TYPE __InputStateHistory_1__Enumerator {
 public:
@@ -135,7 +135,7 @@ namespace UnityEngine::InputSystem::LowLevel {
 template <typename TValue>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6576))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6662))
 // CS Name: ::InputStateHistory`1::Record<TValue>
 struct CORDL_TYPE __InputStateHistory_1__Record {
 public:
@@ -258,8 +258,8 @@ namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6574))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6577))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6660))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6663))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputStateHistory`1<TValue>*
 class CORDL_TYPE InputStateHistory_1 : public ::UnityEngine::InputSystem::LowLevel::InputStateHistory {
 public:

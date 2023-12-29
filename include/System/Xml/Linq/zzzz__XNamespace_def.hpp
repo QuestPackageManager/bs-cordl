@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XNamespace)
-namespace System {
-class Object;
+namespace System::Xml::Linq {
+template <typename TValue> class XHashtable_1;
 }
 namespace System::Xml::Linq {
 class XName;
@@ -16,8 +16,8 @@ class XName;
 namespace System {
 class WeakReference;
 }
-namespace System::Xml::Linq {
-template <typename TValue> class XHashtable_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Linq {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Xml::Linq::XNamespace);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15452))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15436))
 // CS Name: ::System.Xml.Linq::XNamespace*
 class CORDL_TYPE XNamespace : public ::System::Object {
 public:
@@ -94,58 +94,58 @@ public:
 
   static inline ::System::Xml::Linq::XNamespace* New_ctor(::StringW namespaceName);
 
-  /// @brief Method .ctor addr 0x2860878 size 0xf0 virtual false final false
+  /// @brief Method .ctor addr 0x26e485c size 0xf0 virtual false final false
   inline void _ctor(::StringW namespaceName);
 
-  /// @brief Method get_NamespaceName addr 0x2860968 size 0x8 virtual false final false
+  /// @brief Method get_NamespaceName addr 0x26e494c size 0x8 virtual false final false
   inline ::StringW get_NamespaceName();
 
-  /// @brief Method GetName addr 0x286074c size 0x64 virtual false final false
+  /// @brief Method GetName addr 0x26e4730 size 0x64 virtual false final false
   inline ::System::Xml::Linq::XName* GetName(::StringW localName);
 
-  /// @brief Method ToString addr 0x2860970 size 0x8 virtual true final false
+  /// @brief Method ToString addr 0x26e4954 size 0x8 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method get_None addr 0x28606e4 size 0x68 virtual false final false
+  /// @brief Method get_None addr 0x26e46c8 size 0x68 virtual false final false
   static inline ::System::Xml::Linq::XNamespace* get_None();
 
-  /// @brief Method get_Xml addr 0x2860a64 size 0x60 virtual false final false
+  /// @brief Method get_Xml addr 0x26e4a48 size 0x60 virtual false final false
   static inline ::System::Xml::Linq::XNamespace* get_Xml();
 
-  /// @brief Method get_Xmlns addr 0x2860ac4 size 0x60 virtual false final false
+  /// @brief Method get_Xmlns addr 0x26e4aa8 size 0x60 virtual false final false
   static inline ::System::Xml::Linq::XNamespace* get_Xmlns();
 
-  /// @brief Method Get addr 0x285fd48 size 0x64 virtual false final false
+  /// @brief Method Get addr 0x26e3d2c size 0x64 virtual false final false
   static inline ::System::Xml::Linq::XNamespace* Get(::StringW namespaceName);
 
-  /// @brief Method op_Implicit addr 0x2860b24 size 0xc virtual false final false
+  /// @brief Method op_Implicit addr 0x26e4b08 size 0xc virtual false final false
   static inline ::System::Xml::Linq::XNamespace* op_Implicit___System__Xml__Linq__XNamespace_(::StringW namespaceName);
 
-  /// @brief Method Equals addr 0x2860b30 size 0xc virtual true final false
+  /// @brief Method Equals addr 0x26e4b14 size 0xc virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2860b3c size 0x8 virtual true final false
+  /// @brief Method GetHashCode addr 0x26e4b20 size 0x8 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality addr 0x285eea8 size 0xc virtual false final false
+  /// @brief Method op_Equality addr 0x26e2e8c size 0xc virtual false final false
   static inline bool op_Equality(::System::Xml::Linq::XNamespace* left, ::System::Xml::Linq::XNamespace* right);
 
-  /// @brief Method op_Inequality addr 0x2860b44 size 0xc virtual false final false
+  /// @brief Method op_Inequality addr 0x26e4b28 size 0xc virtual false final false
   static inline bool op_Inequality(::System::Xml::Linq::XNamespace* left, ::System::Xml::Linq::XNamespace* right);
 
-  /// @brief Method GetName addr 0x28605d8 size 0x10c virtual false final false
+  /// @brief Method GetName addr 0x26e45bc size 0x10c virtual false final false
   inline ::System::Xml::Linq::XName* GetName(::StringW localName, int32_t index, int32_t count);
 
-  /// @brief Method Get addr 0x28602f0 size 0x2e8 virtual false final false
+  /// @brief Method Get addr 0x26e42d4 size 0x2e8 virtual false final false
   static inline ::System::Xml::Linq::XNamespace* Get(::StringW namespaceName, int32_t index, int32_t count);
 
-  /// @brief Method ExtractLocalName addr 0x2860b50 size 0x18 virtual false final false
+  /// @brief Method ExtractLocalName addr 0x26e4b34 size 0x18 virtual false final false
   static inline ::StringW ExtractLocalName(::System::Xml::Linq::XName* n);
 
-  /// @brief Method ExtractNamespace addr 0x2860b68 size 0x78 virtual false final false
+  /// @brief Method ExtractNamespace addr 0x26e4b4c size 0x78 virtual false final false
   static inline ::StringW ExtractNamespace(::System::WeakReference* r);
 
-  /// @brief Method EnsureNamespace addr 0x2860978 size 0xec virtual false final false
+  /// @brief Method EnsureNamespace addr 0x26e495c size 0xec virtual false final false
   static inline ::System::Xml::Linq::XNamespace* EnsureNamespace(ByRef<::System::WeakReference*> refNmsp, ::StringW namespaceName);
 
   // Ctor Parameters [CppParam { name: "", ty: "XNamespace", modifiers: "&&", def_value: None }]
@@ -175,6 +175,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XNamespace, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XNamespace, ____namespaceName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XNamespace, ____hashCode) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XNamespace, ____names) == 0x20, "Offset mismatch!");
 
 } // namespace System::Xml::Linq
 NEED_NO_BOX(::System::Xml::Linq::XNamespace);

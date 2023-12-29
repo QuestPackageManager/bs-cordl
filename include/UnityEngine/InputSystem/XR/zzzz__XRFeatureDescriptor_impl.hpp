@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/InputSystem/XR/zzzz__FeatureType_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRFeatureDescriptor_def.hpp"
-#include "UnityEngine/InputSystem/XR/zzzz__UsageHint_def.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__FeatureType_def.hpp"
+#include "UnityEngine/InputSystem/XR/zzzz__UsageHint_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "usageHints", ty:
 // "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::UsageHint>*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "featureType", ty:

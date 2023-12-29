@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 CORDL_MODULE_EXPORT(EnumConverter)
+namespace System::ComponentModel {
+class __TypeConverter__StandardValuesCollection;
+}
 namespace System {
 class Type;
 }
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System {
 class Object;
 }
-namespace System::ComponentModel {
-class __TypeConverter__StandardValuesCollection;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Collections {
 class IComparer;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::ComponentModel::EnumConverter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9480))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9472))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8317))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8309))
 // CS Name: ::System.ComponentModel::EnumConverter*
 class CORDL_TYPE EnumConverter : public ::System::ComponentModel::TypeConverter {
 public:
@@ -60,35 +60,35 @@ public:
 
   static inline ::System::ComponentModel::EnumConverter* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor addr 0x291b508 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x279d4e0 size 0x28 virtual false final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method CanConvertFrom addr 0x291b530 size 0xf0 virtual true final false
+  /// @brief Method CanConvertFrom addr 0x279d508 size 0xf0 virtual true final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo addr 0x291b620 size 0xf0 virtual true final false
+  /// @brief Method CanConvertTo addr 0x279d5f8 size 0xf0 virtual true final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method get_Comparer addr 0x291b710 size 0x58 virtual true final false
+  /// @brief Method get_Comparer addr 0x279d6e8 size 0x58 virtual true final false
   inline ::System::Collections::IComparer* get_Comparer();
 
-  /// @brief Method ConvertFrom addr 0x291b768 size 0x4fc virtual true final false
+  /// @brief Method ConvertFrom addr 0x279d740 size 0x4fc virtual true final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo addr 0x291bc64 size 0xd90 virtual true final false
+  /// @brief Method ConvertTo addr 0x279dc3c size 0xd90 virtual true final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetStandardValues addr 0x291ca6c size 0x3f0 virtual true final false
+  /// @brief Method GetStandardValues addr 0x279ea44 size 0x3f0 virtual true final false
   inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesExclusive addr 0x291cf50 size 0xa8 virtual true final false
+  /// @brief Method GetStandardValuesExclusive addr 0x279ef28 size 0xa8 virtual true final false
   inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesSupported addr 0x291cff8 size 0x8 virtual true final false
+  /// @brief Method GetStandardValuesSupported addr 0x279efd0 size 0x8 virtual true final false
   inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method IsValid addr 0x291d000 size 0x6c virtual true final false
+  /// @brief Method IsValid addr 0x279efd8 size 0x6c virtual true final false
   inline bool IsValid(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumConverter", modifiers: "&&", def_value: None }]
@@ -115,6 +115,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::EnumConverter, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::EnumConverter, ___values) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::EnumConverter, ___type) == 0x18, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::EnumConverter);

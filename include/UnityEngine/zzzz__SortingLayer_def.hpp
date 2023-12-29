@@ -16,12 +16,12 @@ MARK_VAL_T(::UnityEngine::SortingLayer);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10266))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10193))
 // CS Name: ::UnityEngine::SortingLayer
 struct CORDL_TYPE SortingLayer {
 public:
   // Declarations
-  /// @brief Method GetLayerValueFromID addr 0x2cde834 size 0x3c virtual false final false
+  /// @brief Method GetLayerValueFromID addr 0x2b78fdc size 0x3c virtual false final false
   static inline int32_t GetLayerValueFromID(int32_t id);
 
   // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None }]
@@ -41,6 +41,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SortingLayer, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::SortingLayer, m_Id) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SortingLayer, "UnityEngine", "SortingLayer");

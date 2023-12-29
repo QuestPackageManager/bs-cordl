@@ -8,50 +8,50 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceReader)
-namespace System::IO {
-class BinaryReader;
-}
-namespace System {
-class RuntimeType;
-}
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System::Resources {
-class __ResourceReader__ResourceEnumerator;
-}
-namespace System::Resources {
-struct ResourceLocator;
 }
 namespace System {
 class Object;
 }
-namespace System::Resources {
-struct ResourceTypeCode;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::IO {
-class Stream;
+namespace System {
+class RuntimeType;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Resources {
+struct ResourceTypeCode;
+}
+namespace System::Resources {
+class __ResourceReader__ResourceEnumerator;
+}
+namespace System::Resources {
 class IResourceReader;
 }
-namespace System::IO {
-class UnmanagedMemoryStream;
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Resources {
+struct ResourceLocator;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryFormatter;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System::IO {
+class BinaryReader;
+}
+namespace System::IO {
+class UnmanagedMemoryStream;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 struct DictionaryEntry;
@@ -70,8 +70,8 @@ MARK_REF_PTR_T(::System::Resources::__ResourceReader__ResourceEnumerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3440))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3435))
 // CS Name: ::ResourceReader::ResourceEnumerator*
 class CORDL_TYPE __ResourceReader__ResourceEnumerator : public ::System::Object {
 public:
@@ -130,28 +130,28 @@ public:
 
   static inline ::System::Resources::__ResourceReader__ResourceEnumerator* New_ctor(::System::Resources::ResourceReader* reader);
 
-  /// @brief Method .ctor addr 0x24e2498 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x23880a8 size 0x34 virtual false final false
   inline void _ctor(::System::Resources::ResourceReader* reader);
 
-  /// @brief Method MoveNext addr 0x24e083c size 0x5c virtual true final true
+  /// @brief Method MoveNext addr 0x238b418 size 0x5c virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method get_Key addr 0x24e0784 size 0xb8 virtual true final true
+  /// @brief Method get_Key addr 0x238b474 size 0xb8 virtual true final true
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Current addr 0x24e50a0 size 0x64 virtual true final true
+  /// @brief Method get_Current addr 0x238b52c size 0x64 virtual true final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_DataPosition addr 0x24e5448 size 0x8 virtual false final false
+  /// @brief Method get_DataPosition addr 0x238b8d4 size 0x8 virtual false final false
   inline int32_t get_DataPosition();
 
-  /// @brief Method get_Entry addr 0x24e5104 size 0x344 virtual true final true
+  /// @brief Method get_Entry addr 0x238b590 size 0x344 virtual true final true
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Value addr 0x24e5450 size 0xb0 virtual true final true
+  /// @brief Method get_Value addr 0x238b8dc size 0xb0 virtual true final true
   inline ::System::Object* get_Value();
 
-  /// @brief Method Reset addr 0x24e5500 size 0x8c virtual true final true
+  /// @brief Method Reset addr 0x238b98c size 0x8c virtual true final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ResourceReader__ResourceEnumerator", modifiers: "&&", def_value: None }]
@@ -185,13 +185,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Resources::__ResourceReader__ResourceEnumerator, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::System::Resources::__ResourceReader__ResourceEnumerator, ____reader) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::__ResourceReader__ResourceEnumerator, ____currentIsValid) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::__ResourceReader__ResourceEnumerator, ____currentName) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::__ResourceReader__ResourceEnumerator, ____dataPosition) == 0x20, "Offset mismatch!");
+
 } // namespace System::Resources
 // Type: System.Resources::ResourceReader
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3441))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3436))
 // CS Name: ::System.Resources::ResourceReader*
 class CORDL_TYPE ResourceReader : public ::System::Object {
 public:
@@ -335,82 +343,82 @@ public:
 
   static inline ::System::Resources::ResourceReader* New_ctor(::System::IO::Stream* stream, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* resCache);
 
-  /// @brief Method .ctor addr 0x24df0b0 size 0xec virtual false final false
+  /// @brief Method .ctor addr 0x2387a98 size 0xec virtual false final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* resCache);
 
-  /// @brief Method Close addr 0x24df3d4 size 0x3c virtual true final true
+  /// @brief Method Close addr 0x2387cf8 size 0x3c virtual true final true
   inline void Close();
 
-  /// @brief Method Dispose addr 0x24e2164 size 0x3c virtual true final true
+  /// @brief Method Dispose addr 0x2387d74 size 0x3c virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x24e2124 size 0x40 virtual false final false
+  /// @brief Method Dispose addr 0x2387d34 size 0x40 virtual false final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method ReadUnalignedI4 addr 0x24e21a0 size 0x8 virtual false final false
+  /// @brief Method ReadUnalignedI4 addr 0x2387db0 size 0x8 virtual false final false
   static inline int32_t ReadUnalignedI4(::cordl_internals::Ptr<int32_t> p);
 
-  /// @brief Method SkipString addr 0x24e21a8 size 0xb8 virtual false final false
+  /// @brief Method SkipString addr 0x2387db8 size 0xb8 virtual false final false
   inline void SkipString();
 
-  /// @brief Method GetNameHash addr 0x24e2260 size 0x44 virtual false final false
+  /// @brief Method GetNameHash addr 0x2387e70 size 0x44 virtual false final false
   inline int32_t GetNameHash(int32_t index);
 
-  /// @brief Method GetNamePosition addr 0x24e22a4 size 0x120 virtual false final false
+  /// @brief Method GetNamePosition addr 0x2387eb4 size 0x120 virtual false final false
   inline int32_t GetNamePosition(int32_t index);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x24e23c4 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2387fd4 size 0x4 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method GetEnumerator addr 0x24e23c8 size 0xd0 virtual true final true
+  /// @brief Method GetEnumerator addr 0x2387fd8 size 0xd0 virtual true final true
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method GetEnumeratorInternal addr 0x24e0714 size 0x70 virtual false final false
+  /// @brief Method GetEnumeratorInternal addr 0x23880dc size 0x70 virtual false final false
   inline ::System::Resources::__ResourceReader__ResourceEnumerator* GetEnumeratorInternal();
 
-  /// @brief Method FindPosForResource addr 0x24dffe0 size 0x3d4 virtual false final false
+  /// @brief Method FindPosForResource addr 0x238814c size 0x3d4 virtual false final false
   inline int32_t FindPosForResource(::StringW name);
 
-  /// @brief Method CompareStringEqualsName addr 0x24e24cc size 0x210 virtual false final false
+  /// @brief Method CompareStringEqualsName addr 0x2388520 size 0x20c virtual false final false
   inline bool CompareStringEqualsName(::StringW name);
 
-  /// @brief Method AllocateStringForNameIndex addr 0x24e26dc size 0x8f4 virtual false final false
+  /// @brief Method AllocateStringForNameIndex addr 0x238872c size 0x8ec virtual false final false
   inline ::StringW AllocateStringForNameIndex(int32_t index, ByRef<int32_t> dataOffset);
 
-  /// @brief Method GetValueForNameIndex addr 0x24e2fd0 size 0x2a8 virtual false final false
+  /// @brief Method GetValueForNameIndex addr 0x2389018 size 0x2a8 virtual false final false
   inline ::System::Object* GetValueForNameIndex(int32_t index);
 
-  /// @brief Method LoadString addr 0x24e03b4 size 0x2b0 virtual false final false
+  /// @brief Method LoadString addr 0x23894c0 size 0x2b0 virtual false final false
   inline ::StringW LoadString(int32_t pos);
 
-  /// @brief Method LoadObject addr 0x24e3840 size 0x2c virtual false final false
+  /// @brief Method LoadObject addr 0x2389b34 size 0x2c virtual false final false
   inline ::System::Object* LoadObject(int32_t pos);
 
-  /// @brief Method LoadObject addr 0x24e0664 size 0x98 virtual false final false
+  /// @brief Method LoadObject addr 0x2389b60 size 0x98 virtual false final false
   inline ::System::Object* LoadObject(int32_t pos, ByRef<::System::Resources::ResourceTypeCode> typeCode);
 
-  /// @brief Method LoadObjectV1 addr 0x24e3278 size 0x100 virtual false final false
+  /// @brief Method LoadObjectV1 addr 0x23892c0 size 0x100 virtual false final false
   inline ::System::Object* LoadObjectV1(int32_t pos);
 
-  /// @brief Method _LoadObjectV1 addr 0x24e386c size 0x838 virtual false final false
+  /// @brief Method _LoadObjectV1 addr 0x2389bf8 size 0x838 virtual false final false
   inline ::System::Object* _LoadObjectV1(int32_t pos);
 
-  /// @brief Method LoadObjectV2 addr 0x24e3378 size 0x100 virtual false final false
+  /// @brief Method LoadObjectV2 addr 0x23893c0 size 0x100 virtual false final false
   inline ::System::Object* LoadObjectV2(int32_t pos, ByRef<::System::Resources::ResourceTypeCode> typeCode);
 
-  /// @brief Method _LoadObjectV2 addr 0x24e427c size 0x740 virtual false final false
+  /// @brief Method _LoadObjectV2 addr 0x238a608 size 0x738 virtual false final false
   inline ::System::Object* _LoadObjectV2(int32_t pos, ByRef<::System::Resources::ResourceTypeCode> typeCode);
 
-  /// @brief Method DeserializeObject addr 0x24e40a4 size 0x1d8 virtual false final false
+  /// @brief Method DeserializeObject addr 0x238a430 size 0x1d8 virtual false final false
   inline ::System::Object* DeserializeObject(int32_t typeIndex);
 
-  /// @brief Method ReadResources addr 0x24e1fb0 size 0x174 virtual false final false
+  /// @brief Method ReadResources addr 0x2387b84 size 0x174 virtual false final false
   inline void ReadResources();
 
-  /// @brief Method _ReadResources addr 0x24e49bc size 0x6e4 virtual false final false
+  /// @brief Method _ReadResources addr 0x238ad40 size 0x6d8 virtual false final false
   inline void _ReadResources();
 
-  /// @brief Method FindType addr 0x24e3478 size 0x3c8 virtual false final false
+  /// @brief Method FindType addr 0x2389770 size 0x3c4 virtual false final false
   inline ::System::RuntimeType* FindType(int32_t typeIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceReader", modifiers: "&&", def_value: None }]
@@ -473,6 +481,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Resources::ResourceReader, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceReader, ____store) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceReader, ____resCache) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceReader, ____nameSectionOffset) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceReader, ____dataSectionOffset) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceReader, ____nameHashes) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceReader, ____nameHashesPtr) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceReader, ____namePositions) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceReader, ____namePositionsPtr) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceReader, ____typeTable) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceReader, ____typeNamePositions) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceReader, ____objFormatter) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceReader, ____numResources) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceReader, ____ums) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceReader, ____version) == 0x78, "Offset mismatch!");
 
 } // namespace System::Resources
 NEED_NO_BOX(::System::Resources::ResourceReader);

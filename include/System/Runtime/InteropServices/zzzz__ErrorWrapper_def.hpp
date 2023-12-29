@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::ErrorWrapper);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3311))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3308))
 // CS Name: ::System.Runtime.InteropServices::ErrorWrapper*
 class CORDL_TYPE ErrorWrapper : public ::System::Object {
 public:
@@ -51,6 +51,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::ErrorWrapper, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::ErrorWrapper, ___m_ErrorCode) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::InteropServices
 NEED_NO_BOX(::System::Runtime::InteropServices::ErrorWrapper);

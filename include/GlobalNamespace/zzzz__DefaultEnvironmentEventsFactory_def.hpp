@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultEnvironmentEventsFactory)
 namespace GlobalNamespace {
-class BeatmapData;
+class DefaultEnvironmentEvents;
 }
 namespace GlobalNamespace {
-class IEnvironmentLightGroups;
+class EnvironmentLightGroups;
 }
 namespace GlobalNamespace {
 class BeatmapEventDataBoxGroupLists;
 }
 namespace GlobalNamespace {
-class DefaultEnvironmentEvents;
+class BeatmapData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,15 +26,15 @@ MARK_REF_PTR_T(::GlobalNamespace::DefaultEnvironmentEventsFactory);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4298))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4324))
 // CS Name: ::DefaultEnvironmentEventsFactory*
 class CORDL_TYPE DefaultEnvironmentEventsFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InsertDefaultEnvironmentEvents addr 0x2333894 size 0x348 virtual false final false
+  /// @brief Method InsertDefaultEnvironmentEvents addr 0x21ed2cc size 0x260 virtual false final false
   static inline void InsertDefaultEnvironmentEvents(::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::BeatmapEventDataBoxGroupLists* beatmapEventDataBoxGroupLists,
-                                                    ::GlobalNamespace::DefaultEnvironmentEvents* defaultEnvironmentEvents, ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups);
+                                                    ::GlobalNamespace::DefaultEnvironmentEvents* defaultEnvironmentEvents, ::GlobalNamespace::EnvironmentLightGroups* environmentLightGroups);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEventsFactory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

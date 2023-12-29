@@ -5,8 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MergeElements)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine::ProBuilder {
+template <typename T1, typename T2> struct SimpleTuple_2;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __MergeElements____c__DisplayClass0_0;
@@ -14,17 +17,14 @@ class __MergeElements____c__DisplayClass0_0;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __MergeElements____c;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace UnityEngine::ProBuilder {
-template <typename T1, typename T2> struct SimpleTuple_2;
+class ProBuilderMesh;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -50,8 +50,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12267))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12195))
 // CS Name: ::MergeElements::<>c__DisplayClass0_0*
 class CORDL_TYPE __MergeElements____c__DisplayClass0_0 : public ::System::Object {
 public:
@@ -67,10 +67,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bb8e8c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a37138 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <MergePairs>b__0 addr 0x2bb9a50 size 0x64 virtual false final false
+  /// @brief Method <MergePairs>b__0 addr 0x2a37cfc size 0x64 virtual false final false
   inline bool _MergePairs_b__0(::UnityEngine::ProBuilder::Face* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MergeElements____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
@@ -95,13 +95,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c__DisplayClass0_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c__DisplayClass0_0, ___remove) == 0x10, "Offset mismatch!");
+
 } // namespace UnityEngine::ProBuilder::MeshOperations
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12268))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12196))
 // CS Name: ::MergeElements::<>c*
 class CORDL_TYPE __MergeElements____c : public ::System::Object {
 public:
@@ -123,10 +125,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bb9b18 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a37dc4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Merge>b__1_0 addr 0x2bb9b20 size 0x18 virtual false final false
+  /// @brief Method <Merge>b__1_0 addr 0x2a37dcc size 0x18 virtual false final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _Merge_b__1_0(::UnityEngine::ProBuilder::Face* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MergeElements____c", modifiers: "&&", def_value: None }]
@@ -153,8 +155,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12269))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12197))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::MergeElements*
 class CORDL_TYPE MergeElements : public ::System::Object {
 public:
@@ -163,16 +165,16 @@ public:
 
   using __c__DisplayClass0_0 = ::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c__DisplayClass0_0;
 
-  /// @brief Method MergePairs addr 0x2bb87dc size 0x6b0 virtual false final false
+  /// @brief Method MergePairs addr 0x2a36a88 size 0x6b0 virtual false final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*
   MergePairs(::UnityEngine::ProBuilder::ProBuilderMesh* target,
              ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>>* pairs,
              bool collapseCoincidentVertices);
 
-  /// @brief Method Merge addr 0x2bb9354 size 0x3d0 virtual false final false
+  /// @brief Method Merge addr 0x2a37600 size 0x3d0 virtual false final false
   static inline ::UnityEngine::ProBuilder::Face* Merge(::UnityEngine::ProBuilder::ProBuilderMesh* target, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method CollapseCoincidentVertices addr 0x2bb8e94 size 0x4c0 virtual false final false
+  /// @brief Method CollapseCoincidentVertices addr 0x2a37140 size 0x4c0 virtual false final false
   static inline void CollapseCoincidentVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
   // Ctor Parameters [CppParam { name: "", ty: "MergeElements", modifiers: "&&", def_value: None }]

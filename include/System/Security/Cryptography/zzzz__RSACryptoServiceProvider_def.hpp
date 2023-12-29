@@ -8,23 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RSACryptoServiceProvider)
+namespace Mono::Security::Cryptography {
+class KeyPairPersistence;
+}
 namespace System::Security::Cryptography {
-struct RSAParameters;
+struct HashAlgorithmName;
+}
+namespace System {
+class Exception;
 }
 namespace Mono::Security::Cryptography {
 class RSAManaged;
 }
 namespace System {
-class EventArgs;
-}
-namespace System {
 class Object;
 }
-namespace Mono::Security::Cryptography {
-class KeyPairPersistence;
+namespace System::Security::Cryptography {
+class RSASignaturePadding;
+}
+namespace System::Security::Cryptography {
+class HashAlgorithm;
+}
+namespace System {
+class EventArgs;
 }
 namespace System::Security::Cryptography {
 class CspParameters;
+}
+namespace System::Security::Cryptography {
+struct RSAParameters;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -36,8 +48,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RSACryptoServiceProvider);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2956)), TypeDefinitionIndex(TypeDefinitionIndex(2926))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2957))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2925)), TypeDefinitionIndex(TypeDefinitionIndex(2955))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2956))
 // CS Name: ::System.Security.Cryptography::RSACryptoServiceProvider*
 class CORDL_TYPE RSACryptoServiceProvider : public ::System::Security::Cryptography::RSA {
 public:
@@ -107,63 +119,82 @@ public:
 
   static inline ::System::Security::Cryptography::CspProviderFlags getStaticF_s_UseMachineKeyStore();
 
-  /// @brief Method get_UseMachineKeyStore addr 0x246611c size 0x54 virtual false final false
+  /// @brief Method get_UseMachineKeyStore addr 0x230ce18 size 0x54 virtual false final false
   static inline bool get_UseMachineKeyStore();
+
+  /// @brief Method HashData addr 0x230ce6c size 0x44 virtual true final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t count, ::System::Security::Cryptography::HashAlgorithmName hashAlgorithm);
+
+  /// @brief Method GetAlgorithmId addr 0x230ceb0 size 0x1ac virtual false final false
+  static inline int32_t GetAlgorithmId(::System::Security::Cryptography::HashAlgorithmName hashAlgorithm);
+
+  /// @brief Method VerifyHash addr 0x230d05c size 0x1b8 virtual true final false
+  inline bool VerifyHash(::ArrayW<uint8_t, ::Array<uint8_t>*> hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature, ::System::Security::Cryptography::HashAlgorithmName hashAlgorithm,
+                         ::System::Security::Cryptography::RSASignaturePadding* padding);
+
+  /// @brief Method PaddingModeNotSupported addr 0x230d214 size 0x88 virtual false final false
+  static inline ::System::Exception* PaddingModeNotSupported();
 
   static inline ::System::Security::Cryptography::RSACryptoServiceProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x24656fc size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x230c084 size 0x2c virtual false final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::RSACryptoServiceProvider* New_ctor(::System::Security::Cryptography::CspParameters* parameters);
 
-  /// @brief Method .ctor addr 0x24661a8 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x230d364 size 0xc virtual false final false
   inline void _ctor(::System::Security::Cryptography::CspParameters* parameters);
 
   static inline ::System::Security::Cryptography::RSACryptoServiceProvider* New_ctor(int32_t dwKeySize);
 
-  /// @brief Method .ctor addr 0x2466170 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x230d32c size 0x38 virtual false final false
   inline void _ctor(int32_t dwKeySize);
 
   static inline ::System::Security::Cryptography::RSACryptoServiceProvider* New_ctor(int32_t dwKeySize, ::System::Security::Cryptography::CspParameters* parameters);
 
-  /// @brief Method .ctor addr 0x24661b4 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x230d370 size 0x5c virtual false final false
   inline void _ctor(int32_t dwKeySize, ::System::Security::Cryptography::CspParameters* parameters);
 
-  /// @brief Method Common addr 0x2466210 size 0x21c virtual false final false
+  /// @brief Method Common addr 0x230d3cc size 0x21c virtual false final false
   inline void Common(int32_t dwKeySize, bool parameters);
 
-  /// @brief Method Common addr 0x246642c size 0x120 virtual false final false
+  /// @brief Method Common addr 0x230d5e8 size 0x120 virtual false final false
   inline void Common(::System::Security::Cryptography::CspParameters* p);
 
-  /// @brief Method Finalize addr 0x246654c size 0xa0 virtual true final false
+  /// @brief Method Finalize addr 0x230d708 size 0xa0 virtual true final false
   inline void Finalize();
 
-  /// @brief Method get_KeySize addr 0x24665ec size 0x20 virtual true final false
+  /// @brief Method get_KeySize addr 0x230d7a8 size 0x20 virtual true final false
   inline int32_t get_KeySize();
 
-  /// @brief Method get_PublicOnly addr 0x246660c size 0x1c virtual false final false
+  /// @brief Method get_PublicOnly addr 0x230d7c8 size 0x1c virtual false final false
   inline bool get_PublicOnly();
 
-  /// @brief Method EncryptValue addr 0x2466628 size 0x20 virtual true final false
+  /// @brief Method EncryptValue addr 0x230d7e4 size 0x24 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptValue(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb);
 
-  /// @brief Method ExportParameters addr 0x2466648 size 0x140 virtual true final false
+  /// @brief Method ExportParameters addr 0x230d808 size 0x144 virtual true final false
   inline ::System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters);
 
-  /// @brief Method ImportParameters addr 0x2466788 size 0x54 virtual true final false
+  /// @brief Method ImportParameters addr 0x230d94c size 0x54 virtual true final false
   inline void ImportParameters(::System::Security::Cryptography::RSAParameters parameters);
 
-  /// @brief Method GetHashNameFromOID addr 0x24667dc size 0x1cc virtual false final false
+  /// @brief Method GetHashNameFromOID addr 0x230d9a0 size 0x1cc virtual false final false
   inline ::StringW GetHashNameFromOID(::StringW oid);
 
-  /// @brief Method VerifyHash addr 0x24669a8 size 0x128 virtual false final false
+  /// @brief Method InternalHashToHashAlgorithm addr 0x230db6c size 0xc8 virtual false final false
+  static inline ::System::Security::Cryptography::HashAlgorithm* InternalHashToHashAlgorithm(int32_t calgHash);
+
+  /// @brief Method VerifyHash addr 0x230dce8 size 0x128 virtual false final false
   inline bool VerifyHash(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::StringW str, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
 
-  /// @brief Method Dispose addr 0x2466ad0 size 0x54 virtual true final false
+  /// @brief Method VerifyHash addr 0x230d29c size 0x90 virtual false final false
+  inline bool VerifyHash(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, int32_t calgHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
+
+  /// @brief Method Dispose addr 0x230de10 size 0x54 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method OnKeyGenerated addr 0x2466b24 size 0x84 virtual false final false
+  /// @brief Method OnKeyGenerated addr 0x230de64 size 0x84 virtual false final false
   inline void OnKeyGenerated(::System::Object* sender, ::System::EventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "RSACryptoServiceProvider", modifiers: "&&", def_value: None }]
@@ -202,6 +233,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::RSACryptoServiceProvider, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RSACryptoServiceProvider, ___store) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RSACryptoServiceProvider, ___persistKey) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RSACryptoServiceProvider, ___persisted) == 0x29, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RSACryptoServiceProvider, ___privateKeyExportable) == 0x2a, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RSACryptoServiceProvider, ___m_disposed) == 0x2b, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RSACryptoServiceProvider, ___rsa) == 0x30, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::RSACryptoServiceProvider);

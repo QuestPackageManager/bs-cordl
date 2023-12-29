@@ -17,12 +17,12 @@ MARK_VAL_T(::SFB::ExtensionFilter);
 namespace SFB {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6089))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6152))
 // CS Name: ::SFB::ExtensionFilter
 struct CORDL_TYPE ExtensionFilter {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2321300 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21e6e38 size 0x8 virtual false final false
   inline void _ctor(::StringW filterName, ::ArrayW<::StringW, ::Array<::StringW>*> filterExtensions);
 
   // Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_extensions", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "",
@@ -46,6 +46,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::SFB::ExtensionFilter, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::SFB::ExtensionFilter, _name) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::SFB::ExtensionFilter, _extensions) == 0x8, "Offset mismatch!");
 
 } // namespace SFB
 DEFINE_IL2CPP_ARG_TYPE(::SFB::ExtensionFilter, "SFB", "ExtensionFilter");

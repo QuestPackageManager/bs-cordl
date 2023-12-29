@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Threading::InternalThread);
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(3354)), TypeDefinitionIndex(TypeDefinitionIndex(2603)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2672))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2747)) CS Name: ::System.Threading::InternalThread*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3350)), TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(2636)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2670))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2745)) CS Name: ::System.Threading::InternalThread*
 class CORDL_TYPE InternalThread : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
   // Declarations
@@ -387,15 +387,15 @@ public:
 
   constexpr void __set_last(void* value);
 
-  /// @brief Method Thread_free_internal addr 0x261f804 size 0x4 virtual false final false
+  /// @brief Method Thread_free_internal addr 0x24c57e4 size 0x4 virtual false final false
   inline void Thread_free_internal();
 
-  /// @brief Method Finalize addr 0x261f808 size 0x94 virtual true final false
+  /// @brief Method Finalize addr 0x24c57e8 size 0x94 virtual true final false
   inline void Finalize();
 
   static inline ::System::Threading::InternalThread* New_ctor();
 
-  /// @brief Method .ctor addr 0x261f89c size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x24c587c size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalThread", modifiers: "&&", def_value: None }]
@@ -536,6 +536,86 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::InternalThread, 0x128>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___lock_thread_id) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___handle) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___native_handle) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___name_chars) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___name_free) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___name_length) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___state) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___abort_exc) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___abort_state_handle) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___thread_id) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___debugger_thread) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___static_data) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___runtime_thread_info) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___current_appcontext) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___root_domain_thread) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ____serialized_principal) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ____serialized_principal_version) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___appdomain_refs) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___interruption_requested) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___longlived) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___threadpool_thread) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___thread_interrupt_requested) == 0xa9, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___stack_size) == 0xac, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___apartment_state) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___critical_region_level) == 0xb4, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___managed_id) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___small_id) == 0xbc, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___manage_callback) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___flags) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___thread_pinning_ref) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___abort_protected_block_count) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___priority) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___owned_mutex) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___suspended_event) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___self_suspended) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___thread_state) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___netcore0) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___netcore1) == 0x110, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___netcore2) == 0x118, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::InternalThread, ___last) == 0x120, "Offset mismatch!");
 
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::InternalThread);

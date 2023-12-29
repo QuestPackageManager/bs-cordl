@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRCompositorError);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8622))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9391))
 // CS Name: ::OVR.OpenVR::EVRCompositorError
 struct CORDL_TYPE EVRCompositorError {
 public:
@@ -97,6 +97,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRCompositorError, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::EVRCompositorError, value__) == 0x0, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRCompositorError, "OVR.OpenVR", "EVRCompositorError");

@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SonyContentVersion);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4569))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4659))
 // CS Name: ::SonyContentVersion::VersionFormat
 struct CORDL_TYPE __SonyContentVersion__VersionFormat {
 public:
@@ -67,13 +67,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyContentVersion__VersionFormat, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SonyContentVersion__VersionFormat, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SonyContentVersion
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4570))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4660))
 // CS Name: ::SonyContentVersion*
 class CORDL_TYPE SonyContentVersion : public ::System::Object {
 public:
@@ -113,27 +115,27 @@ public:
 
   constexpr void __set__revision(uint32_t value);
 
-  /// @brief Method get_majorVersion addr 0x23683a8 size 0x8 virtual false final false
+  /// @brief Method get_majorVersion addr 0x222e468 size 0x8 virtual false final false
   inline uint32_t get_majorVersion();
 
-  /// @brief Method get_minorVersion addr 0x23683b0 size 0x8 virtual false final false
+  /// @brief Method get_minorVersion addr 0x222e470 size 0x8 virtual false final false
   inline uint32_t get_minorVersion();
 
-  /// @brief Method get_revision addr 0x23683b8 size 0x8 virtual false final false
+  /// @brief Method get_revision addr 0x222e478 size 0x8 virtual false final false
   inline uint32_t get_revision();
 
   static inline ::GlobalNamespace::SonyContentVersion* New_ctor(uint32_t majorVersion, uint32_t minorVersion, uint32_t revision);
 
-  /// @brief Method .ctor addr 0x23683c0 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x222e480 size 0x3c virtual false final false
   inline void _ctor(uint32_t majorVersion, uint32_t minorVersion, uint32_t revision);
 
-  /// @brief Method GetFromString addr 0x23683fc size 0x33c virtual false final false
+  /// @brief Method GetFromString addr 0x222e4bc size 0x33c virtual false final false
   static inline ::GlobalNamespace::SonyContentVersion* GetFromString(::StringW versionString);
 
-  /// @brief Method IsVersionFormatValid addr 0x2368738 size 0x90 virtual false final false
+  /// @brief Method IsVersionFormatValid addr 0x222e7f8 size 0x90 virtual false final false
   static inline bool IsVersionFormatValid(::StringW versionString);
 
-  /// @brief Method Get addr 0x23687c8 size 0x178 virtual false final false
+  /// @brief Method Get addr 0x222e888 size 0x178 virtual false final false
   inline ::StringW Get(::GlobalNamespace::__SonyContentVersion__VersionFormat versionFormat);
 
   // Ctor Parameters [CppParam { name: "", ty: "SonyContentVersion", modifiers: "&&", def_value: None }]
@@ -163,6 +165,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyContentVersion, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SonyContentVersion, ____majorVersion) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SonyContentVersion, ____minorVersion) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SonyContentVersion, ____revision) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SonyContentVersion__VersionFormat, "", "SonyContentVersion/VersionFormat");

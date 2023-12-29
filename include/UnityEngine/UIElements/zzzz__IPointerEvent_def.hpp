@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IPointerEvent)
 namespace UnityEngine {
+struct EventModifiers;
+}
+namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine {
-struct EventModifiers;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IPointerEvent);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7196))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7282))
 // CS Name: ::UnityEngine.UIElements::IPointerEvent*
 class CORDL_TYPE IPointerEvent {
 public:

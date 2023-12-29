@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ProGridsConditionalSnapAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12178))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12106))
 // CS Name: ::UnityEngine.ProBuilder::ProGridsConditionalSnapAttribute*
 class CORDL_TYPE ProGridsConditionalSnapAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::ProBuilder::ProGridsConditionalSnapAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b60d98 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x29df044 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProGridsConditionalSnapAttribute", modifiers: "&&", def_value: None }]

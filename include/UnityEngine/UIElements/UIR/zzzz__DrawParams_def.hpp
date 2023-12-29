@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 CORDL_MODULE_EXPORT(DrawParams)
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
+namespace UnityEngine {
+struct Rect;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
 struct Matrix4x4;
 }
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-class Material;
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::DrawParams);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7443))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10093)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7529))
 // CS Name: ::UnityEngine.UIElements.UIR::DrawParams*
 class CORDL_TYPE DrawParams : public ::System::Object {
 public:
@@ -89,12 +89,12 @@ public:
 
   static inline ::UnityEngine::Rect getStaticF_k_FullNormalizedRect();
 
-  /// @brief Method Reset addr 0x2dd3870 size 0x1cc virtual false final false
+  /// @brief Method Reset addr 0x2c6d4c0 size 0x1cc virtual false final false
   inline void Reset();
 
   static inline ::UnityEngine::UIElements::UIR::DrawParams* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dce574 size 0x158 virtual false final false
+  /// @brief Method .ctor addr 0x2c681c4 size 0x158 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawParams", modifiers: "&&", def_value: None }]
@@ -127,6 +127,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::DrawParams, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::DrawParams, ___view) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::DrawParams, ___scissor) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::DrawParams, ___renderTexture) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::DrawParams, ___defaultMaterial) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::DrawParams);

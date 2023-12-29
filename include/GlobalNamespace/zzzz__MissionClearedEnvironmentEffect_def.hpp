@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MissionClearedEnvironmentEffect)
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class MissionObjectiveCheckersManager;
 }
 namespace GlobalNamespace {
-class MissionObjectiveCheckersManager;
+class BeatmapCallbacksController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionClearedEnvironmentEffect);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4956))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5061))
 // CS Name: ::MissionClearedEnvironmentEffect*
 class CORDL_TYPE MissionClearedEnvironmentEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,18 +44,18 @@ public:
 
   constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-  /// @brief Method Awake addr 0x23ae7c4 size 0x8c virtual false final false
+  /// @brief Method Awake addr 0x227677c size 0x8c virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x23ae850 size 0x8c virtual false final false
+  /// @brief Method OnDestroy addr 0x2276808 size 0x8c virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveWasCleared addr 0x23ae8dc size 0x7c virtual false final false
+  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveWasCleared addr 0x2276894 size 0x7c virtual false final false
   inline void HandleMissionObjectiveCheckersManagerObjectiveWasCleared();
 
   static inline ::GlobalNamespace::MissionClearedEnvironmentEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x23ae958 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2276910 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionClearedEnvironmentEffect", modifiers: "&&", def_value: None }]
@@ -82,6 +82,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionClearedEnvironmentEffect, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionClearedEnvironmentEffect, ____missionObjectiveCheckersManager) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionClearedEnvironmentEffect, ____beatmapCallbacksController) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionClearedEnvironmentEffect);

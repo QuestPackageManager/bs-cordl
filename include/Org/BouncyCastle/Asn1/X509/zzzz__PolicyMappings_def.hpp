@@ -11,10 +11,10 @@ namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -43,20 +43,20 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyMappings* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1194574 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x112432c size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyMappings* New_ctor(::System::Collections::Hashtable* mappings);
 
-  /// @brief Method .ctor addr 0x119459c size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x1124354 size 0x4 virtual false final false
   inline void _ctor(::System::Collections::Hashtable* mappings);
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyMappings* New_ctor(::System::Collections::IDictionary* mappings);
 
-  /// @brief Method .ctor addr 0x11945a0 size 0x5ec virtual false final false
+  /// @brief Method .ctor addr 0x1124358 size 0x5ec virtual false final false
   inline void _ctor(::System::Collections::IDictionary* mappings);
 
-  /// @brief Method ToAsn1Object addr 0x1194b8c size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1124944 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PolicyMappings", modifiers: "&&", def_value: None }]
@@ -80,6 +80,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::PolicyMappings, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::PolicyMappings, ___seq) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::PolicyMappings);

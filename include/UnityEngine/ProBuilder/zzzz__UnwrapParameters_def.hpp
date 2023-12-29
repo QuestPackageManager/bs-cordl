@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::UnwrapParameters);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12211))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12139))
 // CS Name: ::UnityEngine.ProBuilder::UnwrapParameters*
 class CORDL_TYPE UnwrapParameters : public ::System::Object {
 public:
@@ -66,44 +66,44 @@ public:
 
   constexpr void __set_m_AreaError(float_t value);
 
-  /// @brief Method get_hardAngle addr 0x2b7cfe8 size 0x8 virtual false final false
+  /// @brief Method get_hardAngle addr 0x29fc294 size 0x8 virtual false final false
   inline float_t get_hardAngle();
 
-  /// @brief Method set_hardAngle addr 0x2b7cff0 size 0x8 virtual false final false
+  /// @brief Method set_hardAngle addr 0x29fc29c size 0x8 virtual false final false
   inline void set_hardAngle(float_t value);
 
-  /// @brief Method get_packMargin addr 0x2b7cff8 size 0x8 virtual false final false
+  /// @brief Method get_packMargin addr 0x29fc2a4 size 0x8 virtual false final false
   inline float_t get_packMargin();
 
-  /// @brief Method set_packMargin addr 0x2b7d000 size 0x8 virtual false final false
+  /// @brief Method set_packMargin addr 0x29fc2ac size 0x8 virtual false final false
   inline void set_packMargin(float_t value);
 
-  /// @brief Method get_angleError addr 0x2b7d008 size 0x8 virtual false final false
+  /// @brief Method get_angleError addr 0x29fc2b4 size 0x8 virtual false final false
   inline float_t get_angleError();
 
-  /// @brief Method set_angleError addr 0x2b7d010 size 0x8 virtual false final false
+  /// @brief Method set_angleError addr 0x29fc2bc size 0x8 virtual false final false
   inline void set_angleError(float_t value);
 
-  /// @brief Method get_areaError addr 0x2b7d018 size 0x8 virtual false final false
+  /// @brief Method get_areaError addr 0x29fc2c4 size 0x8 virtual false final false
   inline float_t get_areaError();
 
-  /// @brief Method set_areaError addr 0x2b7d020 size 0x8 virtual false final false
+  /// @brief Method set_areaError addr 0x29fc2cc size 0x8 virtual false final false
   inline void set_areaError(float_t value);
 
   static inline ::UnityEngine::ProBuilder::UnwrapParameters* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b75734 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x29f49e0 size 0x38 virtual false final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::UnwrapParameters* New_ctor(::UnityEngine::ProBuilder::UnwrapParameters* other);
 
-  /// @brief Method .ctor addr 0x2b7d038 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x29fc2e4 size 0x88 virtual false final false
   inline void _ctor(::UnityEngine::ProBuilder::UnwrapParameters* other);
 
-  /// @brief Method Reset addr 0x2b7d028 size 0x10 virtual false final false
+  /// @brief Method Reset addr 0x29fc2d4 size 0x10 virtual false final false
   inline void Reset();
 
-  /// @brief Method ToString addr 0x2b7d0c0 size 0x1ac virtual true final false
+  /// @brief Method ToString addr 0x29fc36c size 0x1ac virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnwrapParameters", modifiers: "&&", def_value: None }]
@@ -148,6 +148,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::UnwrapParameters, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::UnwrapParameters, ___m_HardAngle) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::UnwrapParameters, ___m_PackMargin) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::UnwrapParameters, ___m_AngleError) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::UnwrapParameters, ___m_AreaError) == 0x1c, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::UnwrapParameters);

@@ -7,10 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResponderID)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
@@ -19,13 +16,16 @@ namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ocsp {
@@ -57,29 +57,29 @@ public:
 
   constexpr void __set_id(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method GetInstance addr 0xf82530 size 0x1ec virtual false final false
+  /// @brief Method GetInstance addr 0xf0c30c size 0x1ec virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
-  /// @brief Method .ctor addr 0xf8271c size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0xf0c4f8 size 0x78 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* id);
 
-  /// @brief Method .ctor addr 0xf82794 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0xf0c570 size 0x78 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* id);
 
-  /// @brief Method GetInstance addr 0xf8280c size 0x1c virtual false final false
+  /// @brief Method GetInstance addr 0xf0c5e8 size 0x1c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetKeyHash addr 0xf82828 size 0x88 virtual true final false
+  /// @brief Method GetKeyHash addr 0xf0c604 size 0x88 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetKeyHash();
 
-  /// @brief Method get_Name addr 0xf828b0 size 0xb0 virtual true final false
+  /// @brief Method get_Name addr 0xf0c68c size 0xb0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Name();
 
-  /// @brief Method ToAsn1Object addr 0xf82960 size 0xc0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf0c73c size 0xc0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResponderID", modifiers: "&&", def_value: None }]
@@ -103,6 +103,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ocsp::ResponderID, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::ResponderID, ___id) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Ocsp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ocsp::ResponderID);

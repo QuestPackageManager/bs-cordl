@@ -19,13 +19,13 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::Extents);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13694))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13573))
 // CS Name: ::UnityEngine.TextCore.Text::Extents
 struct CORDL_TYPE Extents {
 public:
   // Declarations
-  /// @brief Method ToString addr 0x2d42810 size 0x2ac virtual true final false
+  /// @brief Method ToString addr 0x2bda460 size 0x2ac virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "min", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "max", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
@@ -48,6 +48,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::Extents, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::Extents, min) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::Extents, max) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::Extents, "UnityEngine.TextCore.Text", "Extents");

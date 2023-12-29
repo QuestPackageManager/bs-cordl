@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SafeAreaRectChecker)
 namespace GlobalNamespace {
-class MainCamera;
-}
-namespace GlobalNamespace {
 class __SafeAreaRectChecker__InitData;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class MainCamera;
 }
 namespace UnityEngine {
 class RectTransform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 class GameObject;
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__SafeAreaRectChecker__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5434))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5539))
 // CS Name: ::SafeAreaRectChecker::InitData*
 class CORDL_TYPE __SafeAreaRectChecker__InitData : public ::System::Object {
 public:
@@ -53,7 +53,7 @@ public:
 
   static inline ::GlobalNamespace::__SafeAreaRectChecker__InitData* New_ctor(bool checkingEnabled);
 
-  /// @brief Method .ctor addr 0x227c68c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2139bdc size 0x28 virtual false final false
   inline void _ctor(bool checkingEnabled);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SafeAreaRectChecker__InitData", modifiers: "&&", def_value: None }]
@@ -78,13 +78,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SafeAreaRectChecker__InitData, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SafeAreaRectChecker__InitData, ___checkingEnabled) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SafeAreaRectChecker
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5435))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5540))
 // CS Name: ::SafeAreaRectChecker*
 class CORDL_TYPE SafeAreaRectChecker : public ::UnityEngine::MonoBehaviour {
 public:
@@ -181,15 +183,15 @@ public:
 
   constexpr void __set__initData(::GlobalNamespace::__SafeAreaRectChecker__InitData* value);
 
-  /// @brief Method Start addr 0x227c3d8 size 0x64 virtual false final false
+  /// @brief Method Start addr 0x2139928 size 0x64 virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x227c43c size 0x1ec virtual false final false
+  /// @brief Method Update addr 0x213998c size 0x1ec virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::SafeAreaRectChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x227c628 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x2139b78 size 0x64 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeAreaRectChecker", modifiers: "&&", def_value: None }]
@@ -240,6 +242,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SafeAreaRectChecker, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SafeAreaRectChecker, ____minAngleX) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SafeAreaRectChecker, ____maxAngleX) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SafeAreaRectChecker, ____minAngleY) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SafeAreaRectChecker, ____maxAngleY) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SafeAreaRectChecker, ____activeObjectWhenInsideSafeArea) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SafeAreaRectChecker, ____activeObjectWhenNotInsideSafeArea) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SafeAreaRectChecker, ____rectTransformToCheck) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SafeAreaRectChecker, ____corners) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SafeAreaRectChecker, ____mainCamera) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SafeAreaRectChecker, ____initData) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SafeAreaRectChecker);

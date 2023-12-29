@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(RoomAdjustSettingsViewController)
 namespace GlobalNamespace {
-class Vector3SO;
-}
-namespace GlobalNamespace {
 class StepValuePicker;
-}
-namespace UnityEngine::UI {
-class Button;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
+class Vector3SO;
+}
+namespace GlobalNamespace {
 class FloatSO;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RoomAdjustSettingsViewController);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5744))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5844))
 // CS Name: ::RoomAdjustSettingsViewController*
 class CORDL_TYPE RoomAdjustSettingsViewController : public ::HMUI::ViewController {
 public:
@@ -99,51 +99,51 @@ public:
 
   constexpr void __set__resetButton(::UnityEngine::UI::Button* value);
 
-  /// @brief Method DidActivate addr 0x22d7790 size 0x30c virtual true final false
+  /// @brief Method DidActivate addr 0x21948f0 size 0x30c virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method Move addr 0x22d7cb4 size 0x94 virtual false final false
+  /// @brief Method Move addr 0x2194e14 size 0x94 virtual false final false
   inline void Move(::UnityEngine::Vector3 move);
 
-  /// @brief Method Rotate addr 0x22d7d48 size 0x88 virtual false final false
+  /// @brief Method Rotate addr 0x2194ea8 size 0x88 virtual false final false
   inline void Rotate(float_t rotation);
 
-  /// @brief Method ResetRoom addr 0x22d7dd0 size 0x8c virtual false final false
+  /// @brief Method ResetRoom addr 0x2194f30 size 0x8c virtual false final false
   inline void ResetRoom();
 
-  /// @brief Method RefreshTexts addr 0x22d7a9c size 0x218 virtual false final false
+  /// @brief Method RefreshTexts addr 0x2194bfc size 0x218 virtual false final false
   inline void RefreshTexts();
 
   static inline ::GlobalNamespace::RoomAdjustSettingsViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22d7e5c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2194fbc size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__10_0 addr 0x22d7e64 size 0x14 virtual false final false
+  /// @brief Method <DidActivate>b__10_0 addr 0x2194fc4 size 0x14 virtual false final false
   inline void _DidActivate_b__10_0();
 
-  /// @brief Method <DidActivate>b__10_1 addr 0x22d7e78 size 0x14 virtual false final false
+  /// @brief Method <DidActivate>b__10_1 addr 0x2194fd8 size 0x14 virtual false final false
   inline void _DidActivate_b__10_1();
 
-  /// @brief Method <DidActivate>b__10_2 addr 0x22d7e8c size 0x14 virtual false final false
+  /// @brief Method <DidActivate>b__10_2 addr 0x2194fec size 0x14 virtual false final false
   inline void _DidActivate_b__10_2();
 
-  /// @brief Method <DidActivate>b__10_3 addr 0x22d7ea0 size 0x14 virtual false final false
+  /// @brief Method <DidActivate>b__10_3 addr 0x2195000 size 0x14 virtual false final false
   inline void _DidActivate_b__10_3();
 
-  /// @brief Method <DidActivate>b__10_4 addr 0x22d7eb4 size 0x14 virtual false final false
+  /// @brief Method <DidActivate>b__10_4 addr 0x2195014 size 0x14 virtual false final false
   inline void _DidActivate_b__10_4();
 
-  /// @brief Method <DidActivate>b__10_5 addr 0x22d7ec8 size 0x14 virtual false final false
+  /// @brief Method <DidActivate>b__10_5 addr 0x2195028 size 0x14 virtual false final false
   inline void _DidActivate_b__10_5();
 
-  /// @brief Method <DidActivate>b__10_6 addr 0x22d7edc size 0x8 virtual false final false
+  /// @brief Method <DidActivate>b__10_6 addr 0x219503c size 0x8 virtual false final false
   inline void _DidActivate_b__10_6();
 
-  /// @brief Method <DidActivate>b__10_7 addr 0x22d7ee4 size 0x8 virtual false final false
+  /// @brief Method <DidActivate>b__10_7 addr 0x2195044 size 0x8 virtual false final false
   inline void _DidActivate_b__10_7();
 
-  /// @brief Method <DidActivate>b__10_8 addr 0x22d7eec size 0x4 virtual false final false
+  /// @brief Method <DidActivate>b__10_8 addr 0x219504c size 0x4 virtual false final false
   inline void _DidActivate_b__10_8();
 
   // Ctor Parameters [CppParam { name: "", ty: "RoomAdjustSettingsViewController", modifiers: "&&", def_value: None }]
@@ -194,6 +194,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RoomAdjustSettingsViewController, 0xa8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____roomCenter) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____roomRotation) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____xStepValuePicker) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____yStepValuePicker) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____zStepValuePicker) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____rotStepValuePicker) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____resetButton) == 0xa0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RoomAdjustSettingsViewController);

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ToneMappingExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14491))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14709))
 // CS Name: ::ToneMappingExtensions*
 class CORDL_TYPE ToneMappingExtensions : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF__shaderKeywordMap();
 
-  /// @brief Method SetShaderKeyword addr 0x21081e4 size 0x94 virtual false final false
+  /// @brief Method SetShaderKeyword addr 0x1fb2e08 size 0x94 virtual false final false
   static inline void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping);
 
   // Ctor Parameters [CppParam { name: "", ty: "ToneMappingExtensions", modifiers: "&&", def_value: None }]

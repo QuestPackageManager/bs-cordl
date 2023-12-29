@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::System::Configuration::ConfigurationElementCollection);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Configuration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16257))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16261))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16080))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16084))
 // CS Name: ::System.Configuration::ConfigurationElementCollection*
 class CORDL_TYPE ConfigurationElementCollection : public ::System::Configuration::ConfigurationElement {
 public:

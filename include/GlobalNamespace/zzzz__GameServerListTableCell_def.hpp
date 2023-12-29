@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(GameServerListTableCell)
 namespace GlobalNamespace {
 class INetworkPlayer;
 }
-namespace HMUI {
-class CurvedTextMeshPro;
-}
 namespace GlobalNamespace {
 class SongPackMasksModel;
+}
+namespace HMUI {
+class CurvedTextMeshPro;
 }
 namespace UnityEngine {
 class GameObject;
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServerListTableCell);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5422))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13781))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5521))
 // CS Name: ::GameServerListTableCell*
 class CORDL_TYPE GameServerListTableCell : public ::HMUI::TableCell {
 public:
@@ -86,12 +86,12 @@ public:
 
   constexpr void __set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
 
-  /// @brief Method SetData addr 0x2278f74 size 0x390 virtual false final false
+  /// @brief Method SetData addr 0x2135c80 size 0x388 virtual false final false
   inline void SetData(::GlobalNamespace::INetworkPlayer* player);
 
   static inline ::GlobalNamespace::GameServerListTableCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x2279304 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2136008 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServerListTableCell", modifiers: "&&", def_value: None }]
@@ -130,6 +130,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerListTableCell, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____serverName) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____difficultiesText) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____musicPackText) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____playerCount) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____passwordProtected) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____songPackMasksModel) == 0x80, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameServerListTableCell);

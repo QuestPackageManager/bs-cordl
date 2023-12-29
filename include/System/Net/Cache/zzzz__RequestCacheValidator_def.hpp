@@ -17,13 +17,13 @@ MARK_REF_PTR_T(::System::Net::Cache::RequestCacheValidator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Cache {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9318))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8155))
 // CS Name: ::System.Net.Cache::RequestCacheValidator*
 class CORDL_TYPE RequestCacheValidator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateValidator addr 0x29f142c size 0x40 virtual false final false
+  /// @brief Method CreateValidator addr 0x2874ba8 size 0x40 virtual false final false
   inline ::System::Object* CreateValidator();
 
   // Ctor Parameters [CppParam { name: "", ty: "RequestCacheValidator", modifiers: "&&", def_value: None }]

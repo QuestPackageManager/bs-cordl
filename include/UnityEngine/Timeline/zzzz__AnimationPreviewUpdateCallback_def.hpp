@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Animations/zzzz__AnimationPlayableOutput_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 CORDL_MODULE_EXPORT(AnimationPreviewUpdateCallback)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::Animations {
+class IAnimationWindowPreview;
+}
 namespace UnityEngine::Timeline {
 class ITimelineEvaluateCallback;
 }
 namespace UnityEngine::Animations {
 struct AnimationPlayableOutput;
-}
-namespace UnityEngine::Animations {
-class IAnimationWindowPreview;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::AnimationPreviewUpdateCallback);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14901)), TypeDefinitionIndex(TypeDefinitionIndex(10435)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13836))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15128)), TypeDefinitionIndex(TypeDefinitionIndex(10357))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14107))
 // CS Name: ::UnityEngine.Timeline::AnimationPreviewUpdateCallback*
 class CORDL_TYPE AnimationPreviewUpdateCallback : public ::System::Object {
 public:
@@ -67,13 +67,13 @@ public:
 
   static inline ::UnityEngine::Timeline::AnimationPreviewUpdateCallback* New_ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
 
-  /// @brief Method .ctor addr 0x2c50918 size 0xc8 virtual false final false
+  /// @brief Method .ctor addr 0x2accbc4 size 0xc8 virtual false final false
   inline void _ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
 
-  /// @brief Method Evaluate addr 0x2c509e0 size 0x1d4 virtual true final true
+  /// @brief Method Evaluate addr 0x2accc8c size 0x1d4 virtual true final true
   inline void Evaluate();
 
-  /// @brief Method FetchPreviewComponents addr 0x2c50bb4 size 0x124 virtual false final false
+  /// @brief Method FetchPreviewComponents addr 0x2acce60 size 0x124 virtual false final false
   inline void FetchPreviewComponents();
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationPreviewUpdateCallback", modifiers: "&&", def_value: None }]
@@ -103,6 +103,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::AnimationPreviewUpdateCallback, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::AnimationPreviewUpdateCallback, ___m_Output) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::AnimationPreviewUpdateCallback, ___m_Graph) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::AnimationPreviewUpdateCallback, ___m_PreviewComponents) == 0x30, "Offset mismatch!");
 
 } // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::AnimationPreviewUpdateCallback);

@@ -8,32 +8,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextInfo)
-namespace System::Globalization {
-class CultureData;
-}
-namespace System {
-class ICloneable;
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System {
-class Object;
+namespace System::Globalization {
+class CultureData;
 }
-namespace System::Text {
-class StringBuilder;
+namespace System {
+template <typename T> struct Span_1;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
+namespace System {
+class Object;
 }
 namespace System::Globalization {
 struct UnicodeCategory;
 }
 namespace System {
-template <typename T> struct Span_1;
+class ICloneable;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::System::Globalization::TextInfo);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3706)) CS Name: ::System.Globalization::TextInfo*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 112 }), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2446))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3694)) CS Name: ::System.Globalization::TextInfo*
 class CORDL_TYPE TextInfo : public ::System::Object {
 public:
   // Declarations
@@ -157,107 +157,107 @@ public:
 
   static inline ::System::Globalization::TextInfo* getStaticF_s_Invariant();
 
-  /// @brief Method get_Invariant addr 0x2567a00 size 0x9c virtual false final false
+  /// @brief Method get_Invariant addr 0x240b564 size 0x9c virtual false final false
   static inline ::System::Globalization::TextInfo* get_Invariant();
 
   static inline ::System::Globalization::TextInfo* New_ctor(::System::Globalization::CultureData* cultureData);
 
-  /// @brief Method .ctor addr 0x2567e40 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x240b9a4 size 0x3c virtual false final false
   inline void _ctor(::System::Globalization::CultureData* cultureData);
 
-  /// @brief Method OnDeserializing addr 0x2567e7c size 0x8 virtual false final false
+  /// @brief Method OnDeserializing addr 0x240b9e0 size 0x8 virtual false final false
   inline void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnDeserialized addr 0x2567e84 size 0xe4 virtual false final false
+  /// @brief Method OnDeserialized addr 0x240b9e8 size 0xdc virtual false final false
   inline void OnDeserialized();
 
-  /// @brief Method OnDeserialized addr 0x2567f68 size 0x4 virtual false final false
+  /// @brief Method OnDeserialized addr 0x240bf34 size 0x4 virtual false final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnSerializing addr 0x2567f6c size 0x80 virtual false final false
+  /// @brief Method OnSerializing addr 0x240bf38 size 0x7c virtual false final false
   inline void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method get_CultureName addr 0x2567fec size 0x8 virtual false final false
+  /// @brief Method get_CultureName addr 0x240bfb4 size 0x8 virtual false final false
   inline ::StringW get_CultureName();
 
-  /// @brief Method Clone addr 0x2567ff4 size 0x88 virtual true final false
+  /// @brief Method Clone addr 0x240bfbc size 0x88 virtual true final false
   inline ::System::Object* Clone();
 
-  /// @brief Method SetReadOnlyState addr 0x256807c size 0xc virtual false final false
+  /// @brief Method SetReadOnlyState addr 0x240c044 size 0xc virtual false final false
   inline void SetReadOnlyState(bool readOnly);
 
-  /// @brief Method ToLower addr 0x2568088 size 0x64 virtual true final false
+  /// @brief Method ToLower addr 0x240c050 size 0x64 virtual true final false
   inline char16_t ToLower(char16_t c);
 
-  /// @brief Method ToLower addr 0x2568660 size 0x58 virtual true final false
+  /// @brief Method ToLower addr 0x240c628 size 0x58 virtual true final false
   inline ::StringW ToLower(::StringW str);
 
-  /// @brief Method ToLowerAsciiInvariant addr 0x2568200 size 0x1c virtual false final false
+  /// @brief Method ToLowerAsciiInvariant addr 0x240c1c8 size 0x1c virtual false final false
   static inline char16_t ToLowerAsciiInvariant(char16_t c);
 
-  /// @brief Method ToUpper addr 0x256879c size 0x64 virtual true final false
+  /// @brief Method ToUpper addr 0x240c764 size 0x64 virtual true final false
   inline char16_t ToUpper(char16_t c);
 
-  /// @brief Method ToUpper addr 0x2568c80 size 0x58 virtual true final false
+  /// @brief Method ToUpper addr 0x240cc48 size 0x58 virtual true final false
   inline ::StringW ToUpper(::StringW str);
 
-  /// @brief Method ToUpperAsciiInvariant addr 0x2568800 size 0x1c virtual false final false
+  /// @brief Method ToUpperAsciiInvariant addr 0x240c7c8 size 0x1c virtual false final false
   static inline char16_t ToUpperAsciiInvariant(char16_t c);
 
-  /// @brief Method IsAscii addr 0x25680ec size 0x10 virtual false final false
+  /// @brief Method IsAscii addr 0x240c0b4 size 0x10 virtual false final false
   static inline bool IsAscii(char16_t c);
 
-  /// @brief Method get_IsAsciiCasingSameAsInvariant addr 0x25680fc size 0x104 virtual false final false
+  /// @brief Method get_IsAsciiCasingSameAsInvariant addr 0x240c0c4 size 0x104 virtual false final false
   inline bool get_IsAsciiCasingSameAsInvariant();
 
-  /// @brief Method Equals addr 0x2568dbc size 0xa0 virtual true final false
+  /// @brief Method Equals addr 0x240cd84 size 0xa0 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2568e5c size 0x20 virtual true final false
+  /// @brief Method GetHashCode addr 0x240ce24 size 0x20 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x2568e7c size 0x58 virtual true final false
+  /// @brief Method ToString addr 0x240ce44 size 0x58 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method ToTitleCase addr 0x2568ed4 size 0x33c virtual false final false
+  /// @brief Method ToTitleCase addr 0x240ce9c size 0x33c virtual false final false
   inline ::StringW ToTitleCase(::StringW str);
 
-  /// @brief Method AddNonLetter addr 0x2569394 size 0x9c virtual false final false
+  /// @brief Method AddNonLetter addr 0x240d35c size 0x9c virtual false final false
   static inline int32_t AddNonLetter(ByRef<::System::Text::StringBuilder*> result, ByRef<::StringW> input, int32_t inputIndex, int32_t charLen);
 
-  /// @brief Method AddTitlecaseLetter addr 0x2569210 size 0x14c virtual false final false
+  /// @brief Method AddTitlecaseLetter addr 0x240d1d8 size 0x14c virtual false final false
   inline int32_t AddTitlecaseLetter(ByRef<::System::Text::StringBuilder*> result, ByRef<::StringW> input, int32_t inputIndex, int32_t charLen);
 
-  /// @brief Method IsWordSeparator addr 0x2569378 size 0x1c virtual false final false
+  /// @brief Method IsWordSeparator addr 0x240d340 size 0x1c virtual false final false
   static inline bool IsWordSeparator(::System::Globalization::UnicodeCategory category);
 
-  /// @brief Method IsLetterCategory addr 0x256935c size 0x1c virtual false final false
+  /// @brief Method IsLetterCategory addr 0x240d324 size 0x1c virtual false final false
   static inline bool IsLetterCategory(::System::Globalization::UnicodeCategory uc);
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization addr 0x2569430 size 0x4 virtual true final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization addr 0x240d3f8 size 0x4 virtual true final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method ToUpperInternal addr 0x2568cd8 size 0xe4 virtual false final false
+  /// @brief Method ToUpperInternal addr 0x240cca0 size 0xe4 virtual false final false
   inline ::StringW ToUpperInternal(::StringW str);
 
-  /// @brief Method ToLowerInternal addr 0x25686b8 size 0xe4 virtual false final false
+  /// @brief Method ToLowerInternal addr 0x240c680 size 0xe4 virtual false final false
   inline ::StringW ToLowerInternal(::StringW str);
 
-  /// @brief Method ToUpperInternal addr 0x256881c size 0x464 virtual false final false
+  /// @brief Method ToUpperInternal addr 0x240c7e4 size 0x464 virtual false final false
   inline char16_t ToUpperInternal(char16_t c);
 
-  /// @brief Method ToLowerInternal addr 0x256821c size 0x444 virtual false final false
+  /// @brief Method ToLowerInternal addr 0x240c1e4 size 0x444 virtual false final false
   inline char16_t ToLowerInternal(char16_t c);
 
-  /// @brief Method ToUpperAsciiInvariant addr 0x2569434 size 0x90 virtual false final false
+  /// @brief Method ToUpperAsciiInvariant addr 0x240d3fc size 0x90 virtual false final false
   inline void ToUpperAsciiInvariant(::System::ReadOnlySpan_1<char16_t> source, ::System::Span_1<char16_t> destination);
 
-  /// @brief Method ChangeCase addr 0x25694c4 size 0x140 virtual false final false
+  /// @brief Method ChangeCase addr 0x240d48c size 0x140 virtual false final false
   inline void ChangeCase(::System::ReadOnlySpan_1<char16_t> source, ::System::Span_1<char16_t> destination, bool toUpper);
 
   static inline ::System::Globalization::TextInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x2569604 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x240d5cc size 0x38 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextInfo", modifiers: "&&", def_value: None }]
@@ -311,6 +311,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::TextInfo, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::TextInfo, ___m_listSeparator) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::TextInfo, ___m_isReadOnly) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::TextInfo, ___m_cultureName) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::TextInfo, ___m_cultureData) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::TextInfo, ___m_textInfoName) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::TextInfo, ___m_IsAsciiCasingSameAsInvariant) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::TextInfo, ___customCultureName) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::TextInfo, ___m_nDataItem) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::TextInfo, ___m_useUserOverride) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::TextInfo, ___m_win32LangID) == 0x50, "Offset mismatch!");
 
 } // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::TextInfo);

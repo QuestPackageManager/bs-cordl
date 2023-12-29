@@ -18,13 +18,13 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::MatchResultInfo);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6821))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7468))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6907))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7554))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::MatchResultInfo
 struct CORDL_TYPE MatchResultInfo {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2de9874 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2c834c4 size 0x10 virtual false final false
   inline void _ctor(bool success, ::UnityEngine::UIElements::PseudoStates triggerPseudoMask, ::UnityEngine::UIElements::PseudoStates dependencyPseudoMask);
 
   // Ctor Parameters [CppParam { name: "success", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "triggerPseudoMask", ty: "::UnityEngine::UIElements::PseudoStates", modifiers: "",
@@ -51,6 +51,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::MatchResultInfo, 0xc>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::MatchResultInfo, success) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::MatchResultInfo, triggerPseudoMask) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::MatchResultInfo, dependencyPseudoMask) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::MatchResultInfo, "UnityEngine.UIElements.StyleSheets", "MatchResultInfo");

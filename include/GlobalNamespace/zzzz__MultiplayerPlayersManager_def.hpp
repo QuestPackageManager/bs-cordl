@@ -10,64 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerPlayersManager)
 namespace GlobalNamespace {
-class __MultiplayerLocalActivePlayerFacade__Factory;
-}
-namespace GlobalNamespace {
-class __MultiplayerConnectedPlayerFacade__Factory;
+class MultiplayerConnectedPlayerFacade;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System {
-class Action;
-}
 namespace UnityEngine {
 class Transform;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
-}
-namespace GlobalNamespace {
-struct MultiplayerPlayerStartState;
-}
-namespace GlobalNamespace {
-struct MultiplayerPlayerLayout;
-}
-namespace GlobalNamespace {
-class IStartSeekSongControllerProvider;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class __MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class __MultiplayerLocalInactivePlayerFacade__Factory;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace GlobalNamespace {
-class MultiplayerConnectedPlayerFacade;
-}
-namespace GlobalNamespace {
-class MultiplayerLocalInactivePlayerFacade;
-}
-namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsPublisher;
-}
-namespace GlobalNamespace {
-class MultiplayerLocalActivePlayerFacade;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
@@ -75,17 +24,68 @@ class IMultiplayerSessionManager;
 namespace GlobalNamespace {
 class MultiplayerLayoutProvider;
 }
+namespace Zenject {
+class DiContainer;
+}
 namespace GlobalNamespace {
 class BeatmapObjectSpawnCenter;
 }
 namespace GlobalNamespace {
-class FadeInOutController;
+class __MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51;
+}
+namespace GlobalNamespace {
+class __MultiplayerConnectedPlayerFacade__Factory;
+}
+namespace GlobalNamespace {
+struct MultiplayerPlayerLayout;
+}
+namespace GlobalNamespace {
+class __MultiplayerLocalInactivePlayerFacade__Factory;
 }
 namespace System {
-class IDisposable;
+class Action;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelCompletionResults;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class IMultiplayerLevelEndActionsPublisher;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalInactivePlayerFacade;
+}
+namespace GlobalNamespace {
+class FadeInOutController;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalActivePlayerFacade;
+}
+namespace GlobalNamespace {
+class IStartSeekSongControllerProvider;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+struct MultiplayerPlayerStartState;
+}
+namespace GlobalNamespace {
+class __MultiplayerLocalActivePlayerFacade__Factory;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -104,8 +104,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlaye
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5237))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5331))
 // CS Name: ::MultiplayerPlayersManager::<SwitchLocalPlayerToInactiveCoroutine>d__51*
 class CORDL_TYPE __MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51 : public ::System::Object {
 public:
@@ -152,22 +152,22 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2257220 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2113ebc size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2257340 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2113fdc size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2257344 size 0x3cc virtual true final true
+  /// @brief Method MoveNext addr 0x2113fe0 size 0x3cc virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2257710 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x21143ac size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2257718 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x21143b4 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2257758 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x21143f4 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51", modifiers: "&&", def_value: None }]
@@ -198,13 +198,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51, _____4__this) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MultiplayerPlayersManager
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5238))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5332))
 // CS Name: ::MultiplayerPlayersManager*
 class CORDL_TYPE MultiplayerPlayersManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -462,82 +468,82 @@ public:
 
   constexpr void __set__allActiveAtGameStartPlayers(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method get_playerSpawningFinished addr 0x2256c04 size 0x8 virtual false final false
+  /// @brief Method get_playerSpawningFinished addr 0x21138a0 size 0x8 virtual false final false
   inline bool get_playerSpawningFinished();
 
-  /// @brief Method set_playerSpawningFinished addr 0x2256c0c size 0xc virtual false final false
+  /// @brief Method set_playerSpawningFinished addr 0x21138a8 size 0xc virtual false final false
   inline void set_playerSpawningFinished(bool value);
 
-  /// @brief Method get_allActiveAtGameStartPlayers addr 0x2256c18 size 0x8 virtual false final false
+  /// @brief Method get_allActiveAtGameStartPlayers addr 0x21138b4 size 0x8 virtual false final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* get_allActiveAtGameStartPlayers();
 
-  /// @brief Method get_localPlayerStartSeekSongController addr 0x2256c20 size 0x8 virtual false final false
+  /// @brief Method get_localPlayerStartSeekSongController addr 0x21138bc size 0x8 virtual false final false
   inline ::GlobalNamespace::IStartSeekSongControllerProvider* get_localPlayerStartSeekSongController();
 
-  /// @brief Method get_activeLocalPlayerFacade addr 0x2256c28 size 0x8 virtual false final false
+  /// @brief Method get_activeLocalPlayerFacade addr 0x21138c4 size 0x8 virtual false final false
   inline ::GlobalNamespace::MultiplayerLocalActivePlayerFacade* get_activeLocalPlayerFacade();
 
-  /// @brief Method get_inactivePlayerFacade addr 0x2256c30 size 0x8 virtual false final false
+  /// @brief Method get_inactivePlayerFacade addr 0x21138cc size 0x8 virtual false final false
   inline ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade* get_inactivePlayerFacade();
 
-  /// @brief Method get_localPlayerTransform addr 0x2252da4 size 0x80 virtual false final false
+  /// @brief Method get_localPlayerTransform addr 0x210f29c size 0x80 virtual false final false
   inline ::UnityEngine::Transform* get_localPlayerTransform();
 
-  /// @brief Method add_playerSpawningDidFinishEvent addr 0x2253eb8 size 0x9c virtual false final false
+  /// @brief Method add_playerSpawningDidFinishEvent addr 0x2110390 size 0x9c virtual false final false
   inline void add_playerSpawningDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_playerSpawningDidFinishEvent addr 0x22547c8 size 0x9c virtual false final false
+  /// @brief Method remove_playerSpawningDidFinishEvent addr 0x2110ca0 size 0x9c virtual false final false
   inline void remove_playerSpawningDidFinishEvent(::System::Action* value);
 
-  /// @brief Method add_didSwitchPlayerToInactiveEvent addr 0x224b1b8 size 0x9c virtual false final false
+  /// @brief Method add_didSwitchPlayerToInactiveEvent addr 0x2109ecc size 0x9c virtual false final false
   inline void add_didSwitchPlayerToInactiveEvent(::System::Action* value);
 
-  /// @brief Method remove_didSwitchPlayerToInactiveEvent addr 0x224749c size 0x9c virtual false final false
+  /// @brief Method remove_didSwitchPlayerToInactiveEvent addr 0x21062a4 size 0x9c virtual false final false
   inline void remove_didSwitchPlayerToInactiveEvent(::System::Action* value);
 
-  /// @brief Method add_playerDidFinishEvent addr 0x2256c38 size 0xb0 virtual true final true
+  /// @brief Method add_playerDidFinishEvent addr 0x21138d4 size 0xb0 virtual true final true
   inline void add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method remove_playerDidFinishEvent addr 0x2256ce8 size 0xb0 virtual true final true
+  /// @brief Method remove_playerDidFinishEvent addr 0x2113984 size 0xb0 virtual true final true
   inline void remove_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method add_playerNetworkDidFailedEvent addr 0x2256d98 size 0xb0 virtual true final true
+  /// @brief Method add_playerNetworkDidFailedEvent addr 0x2113a34 size 0xb0 virtual true final true
   inline void add_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method remove_playerNetworkDidFailedEvent addr 0x2256e48 size 0xb0 virtual true final true
+  /// @brief Method remove_playerNetworkDidFailedEvent addr 0x2113ae4 size 0xb0 virtual true final true
   inline void remove_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method SpawnPlayers addr 0x224a870 size 0x948 virtual false final false
+  /// @brief Method SpawnPlayers addr 0x210955c size 0x970 virtual false final false
   inline void SpawnPlayers(::GlobalNamespace::MultiplayerPlayerStartState localPlayerStartState,
                            ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* allActiveAtGameStartPlayers);
 
-  /// @brief Method TryGetConnectedPlayerController addr 0x2249b4c size 0x68 virtual false final false
+  /// @brief Method TryGetConnectedPlayerController addr 0x21087e0 size 0x68 virtual false final false
   inline bool TryGetConnectedPlayerController(::StringW userId, ByRef<::GlobalNamespace::MultiplayerConnectedPlayerFacade*> connectedPlayerController);
 
-  /// @brief Method TryGetConnectedCenterFacingRotation addr 0x2257130 size 0x68 virtual false final false
+  /// @brief Method TryGetConnectedCenterFacingRotation addr 0x2113dcc size 0x68 virtual false final false
   inline bool TryGetConnectedCenterFacingRotation(::StringW userId, ByRef<float_t> centerFacingRotation);
 
-  /// @brief Method SwitchLocalPlayerToInactive addr 0x2257198 size 0x20 virtual false final false
+  /// @brief Method SwitchLocalPlayerToInactive addr 0x2113e34 size 0x20 virtual false final false
   inline void SwitchLocalPlayerToInactive();
 
-  /// @brief Method ReportLocalPlayerNetworkDidFailed addr 0x2248254 size 0x1c virtual false final false
+  /// @brief Method ReportLocalPlayerNetworkDidFailed addr 0x2106fdc size 0x1c virtual false final false
   inline void ReportLocalPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method SwitchLocalPlayerToInactiveCoroutine addr 0x22571b8 size 0x68 virtual false final false
+  /// @brief Method SwitchLocalPlayerToInactiveCoroutine addr 0x2113e54 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* SwitchLocalPlayerToInactiveCoroutine();
 
-  /// @brief Method BindPlayerFactories addr 0x2256ef8 size 0x238 virtual false final false
+  /// @brief Method BindPlayerFactories addr 0x2113b94 size 0x238 virtual false final false
   inline void BindPlayerFactories(::GlobalNamespace::MultiplayerPlayerLayout layout);
 
-  /// @brief Method HandlePlayerDidFinish addr 0x2257248 size 0x1c virtual false final false
+  /// @brief Method HandlePlayerDidFinish addr 0x2113ee4 size 0x1c virtual false final false
   inline void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method HandlePlayerNetworkDidFailed addr 0x2257264 size 0x1c virtual false final false
+  /// @brief Method HandlePlayerNetworkDidFailed addr 0x2113f00 size 0x1c virtual false final false
   inline void HandlePlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::MultiplayerPlayersManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2257280 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x2113f1c size 0xc0 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlayersManager", modifiers: "&&", def_value: None }]
@@ -633,6 +639,56 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerPlayersManager, 0xe0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____activeLocalPlayerControllerPrefab) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____activeLocalPlayerDuelControllerPrefab) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____inactiveLocalPlayerControllerPrefab) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____connectedPlayerControllerPrefab) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____connectedPlayerDuelControllerPrefab) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____multiplayerSessionManager) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____beatmapObjectSpawnCenter) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____layoutProvider) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____fadeInOutController) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____container) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____playerSpawningFinished_k__BackingField) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ___playerSpawningDidFinishEvent) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ___didSwitchPlayerToInactiveEvent) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ___playerDidFinishEvent) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ___playerNetworkDidFailedEvent) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____activeLocalPlayerFacade) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____inactiveLocalPlayerFacade) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____currentEventsPublisher) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____currentStartSeekSongControllerProvider) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____activeLocalPlayerFactory) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____inactiveLocalPlayerFactory) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____connectedPlayerFactory) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____connectedPlayerControllersMap) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____connectedPlayerCenterFacingRotationsMap) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____allActiveAtGameStartPlayers) == 0xd8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerPlayersManager);

@@ -21,25 +21,25 @@ MARK_REF_PTR_T(::System::Collections::Generic::KeyNotFoundException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3839))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3827))
 // CS Name: ::System.Collections.Generic::KeyNotFoundException*
 class CORDL_TYPE KeyNotFoundException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::Collections::Generic::KeyNotFoundException* New_ctor();
 
-  /// @brief Method .ctor addr 0x258bba0 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x24306a4 size 0x5c virtual false final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::KeyNotFoundException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x258bbfc size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2430700 size 0x24 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Collections::Generic::KeyNotFoundException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x258bc20 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2430724 size 0x8 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyNotFoundException", modifiers: "&&", def_value: None }]

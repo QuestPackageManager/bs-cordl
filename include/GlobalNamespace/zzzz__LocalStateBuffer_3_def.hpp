@@ -6,19 +6,20 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SyncStateId_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalStateBuffer_3)
-namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> struct __StateBuffer_3__TimestampedStateTable;
-}
-namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
-}
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
 }
 namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState> struct __StateBuffer_3__TimestampedStateTable;
+}
+namespace GlobalNamespace {
 struct SyncStateId;
+}
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,41 +28,41 @@ template <typename TStateTable, typename TType, typename TState> class LocalStat
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::LocalStateBuffer_3);
 // Type: ::LocalStateBuffer`3
-// SizeInfo { instance_size: 120, native_size: 113, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: 97, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12985)), TypeDefinitionIndex(TypeDefinitionIndex(12982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12985), inst:
-// 3833 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12982), inst: 3833 }), TypeDefinitionIndex(TypeDefinitionIndex(12988))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(12986)) CS Name: ::LocalStateBuffer`3<TStateTable,TType,TState>*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12906), inst: 3741 }), TypeDefinitionIndex(TypeDefinitionIndex(12906)), GenericInstantiation(GenericInstantiation
+// { tdi: TypeDefinitionIndex(12903), inst: 3741 }), TypeDefinitionIndex(TypeDefinitionIndex(12909)), TypeDefinitionIndex(TypeDefinitionIndex(12903))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(12907)) CS Name: ::LocalStateBuffer`3<TStateTable,TType,TState>*
 class CORDL_TYPE LocalStateBuffer_3 : public ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState> {
 public:
   // Declarations
-  /// @brief Field _current, offset 0x30, size 0x18
+  /// @brief Field _current, offset 0x30, size 0x10
   __declspec(property(get = __get__current, put = __set__current))::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState> _current;
 
-  /// @brief Field _fullStateUpdateFrequency, offset 0x48, size 0x8
-  __declspec(property(get = __get__fullStateUpdateFrequency, put = __set__fullStateUpdateFrequency)) int64_t _fullStateUpdateFrequency;
+  /// @brief Field _fullStateUpdateFrequency, offset 0x40, size 0x4
+  __declspec(property(get = __get__fullStateUpdateFrequency, put = __set__fullStateUpdateFrequency)) float_t _fullStateUpdateFrequency;
 
-  /// @brief Field _deltaUpdateFrequency, offset 0x50, size 0x8
-  __declspec(property(get = __get__deltaUpdateFrequency, put = __set__deltaUpdateFrequency)) int64_t _deltaUpdateFrequency;
+  /// @brief Field _deltaUpdateFrequency, offset 0x44, size 0x4
+  __declspec(property(get = __get__deltaUpdateFrequency, put = __set__deltaUpdateFrequency)) float_t _deltaUpdateFrequency;
 
-  /// @brief Field _sentStateIndex, offset 0x58, size 0x4
+  /// @brief Field _sentStateIndex, offset 0x48, size 0x4
   __declspec(property(get = __get__sentStateIndex, put = __set__sentStateIndex)) int32_t _sentStateIndex;
 
-  /// @brief Field _sentDeltaIndex, offset 0x5c, size 0x4
+  /// @brief Field _sentDeltaIndex, offset 0x4c, size 0x4
   __declspec(property(get = __get__sentDeltaIndex, put = __set__sentDeltaIndex)) int32_t _sentDeltaIndex;
 
-  /// @brief Field _sentStates, offset 0x60, size 0x8
+  /// @brief Field _sentStates, offset 0x50, size 0x8
   __declspec(property(get = __get__sentStates, put = __set__sentStates))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                                                                                  ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _sentStates;
 
-  /// @brief Field _sentDeltas, offset 0x68, size 0x8
+  /// @brief Field _sentDeltas, offset 0x58, size 0x8
   __declspec(property(get = __get__sentDeltas, put = __set__sentDeltas))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                                                                                  ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _sentDeltas;
 
-  /// @brief Field _lastSentSyncStateId, offset 0x70, size 0x1
+  /// @brief Field _lastSentSyncStateId, offset 0x60, size 0x1
   __declspec(property(get = __get__lastSentSyncStateId, put = __set__lastSentSyncStateId))::GlobalNamespace::SyncStateId _lastSentSyncStateId;
 
   constexpr ::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>& __get__current();
@@ -70,17 +71,17 @@ public:
 
   constexpr void __set__current(::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState> value);
 
-  constexpr int64_t& __get__fullStateUpdateFrequency();
+  constexpr float_t& __get__fullStateUpdateFrequency();
 
-  constexpr int64_t const& __get__fullStateUpdateFrequency() const;
+  constexpr float_t const& __get__fullStateUpdateFrequency() const;
 
-  constexpr void __set__fullStateUpdateFrequency(int64_t value);
+  constexpr void __set__fullStateUpdateFrequency(float_t value);
 
-  constexpr int64_t& __get__deltaUpdateFrequency();
+  constexpr float_t& __get__deltaUpdateFrequency();
 
-  constexpr int64_t const& __get__deltaUpdateFrequency() const;
+  constexpr float_t const& __get__deltaUpdateFrequency() const;
 
-  constexpr void __set__deltaUpdateFrequency(int64_t value);
+  constexpr void __set__deltaUpdateFrequency(float_t value);
 
   constexpr int32_t& __get__sentStateIndex();
 
@@ -124,12 +125,12 @@ public:
 
   constexpr void __set__lastSentSyncStateId(::GlobalNamespace::SyncStateId value);
 
-  static inline ::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>* New_ctor(int64_t fullStateUpdateFrequency, int64_t deltaUpdateFrequency, int32_t size,
+  static inline ::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>* New_ctor(float_t fullStateUpdateFrequency, float_t deltaUpdateFrequency, int32_t size,
                                                                                             ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
                                                                                             ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
 
   /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(int64_t fullStateUpdateFrequency, int64_t deltaUpdateFrequency, int32_t size, ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
+  inline void _ctor(float_t fullStateUpdateFrequency, float_t deltaUpdateFrequency, int32_t size, ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
                     ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
 
   /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -139,13 +140,13 @@ public:
   inline void MarkDirty();
 
   /// @brief Method TryGetSerializedState addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline bool TryGetSerializedState(ByRef<TStateTable> state, ByRef<int64_t> time, ByRef<::GlobalNamespace::SyncStateId> id);
+  inline bool TryGetSerializedState(ByRef<TStateTable> state, ByRef<float_t> time, ByRef<::GlobalNamespace::SyncStateId> id);
 
   /// @brief Method TryGetSerializedStateDelta addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline bool TryGetSerializedStateDelta(ByRef<TStateTable> delta, ByRef<int32_t> timeOffset, ByRef<::GlobalNamespace::SyncStateId> baseId);
+  inline bool TryGetSerializedStateDelta(ByRef<TStateTable> delta, ByRef<float_t> timeOffset, ByRef<::GlobalNamespace::SyncStateId> baseId);
 
   /// @brief Method SetTime addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void SetTime(int64_t time);
+  inline void SetTime(float_t time);
 
   /// @brief Method SetState addr 0x0 size 0xffffffffffffffff virtual false final false
   inline void SetState(TType type, TState state);
@@ -167,30 +168,30 @@ protected:
   constexpr LocalStateBuffer_3();
 
 public:
-  /// @brief Field _current, offset: 0x30, size: 0x18, def value: None
+  /// @brief Field _current, offset: 0x30, size: 0x10, def value: None
   ::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState> ____current;
 
-  /// @brief Field _fullStateUpdateFrequency, offset: 0x48, size: 0x8, def value: None
-  int64_t ____fullStateUpdateFrequency;
+  /// @brief Field _fullStateUpdateFrequency, offset: 0x40, size: 0x4, def value: None
+  float_t ____fullStateUpdateFrequency;
 
-  /// @brief Field _deltaUpdateFrequency, offset: 0x50, size: 0x8, def value: None
-  int64_t ____deltaUpdateFrequency;
+  /// @brief Field _deltaUpdateFrequency, offset: 0x44, size: 0x4, def value: None
+  float_t ____deltaUpdateFrequency;
 
-  /// @brief Field _sentStateIndex, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field _sentStateIndex, offset: 0x48, size: 0x4, def value: None
   int32_t ____sentStateIndex;
 
-  /// @brief Field _sentDeltaIndex, offset: 0x5c, size: 0x4, def value: None
+  /// @brief Field _sentDeltaIndex, offset: 0x4c, size: 0x4, def value: None
   int32_t ____sentDeltaIndex;
 
-  /// @brief Field _sentStates, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _sentStates, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
       ____sentStates;
 
-  /// @brief Field _sentDeltas, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _sentDeltas, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
       ____sentDeltas;
 
-  /// @brief Field _lastSentSyncStateId, offset: 0x70, size: 0x1, def value: None
+  /// @brief Field _lastSentSyncStateId, offset: 0x60, size: 0x1, def value: None
   ::GlobalNamespace::SyncStateId ____lastSentSyncStateId;
 
   /// @brief Field kMaxSentStates offset 0xffffffff size 0x4

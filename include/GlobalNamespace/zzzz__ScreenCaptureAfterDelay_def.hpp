@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScreenCaptureAfterDelay)
+namespace System::Collections {
+class IEnumerator;
+}
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace GlobalNamespace {
-class __ScreenCaptureAfterDelay___Start_d__6;
-}
-namespace GlobalNamespace {
 class ScreenCaptureCache;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace GlobalNamespace {
 class __ScreenCaptureAfterDelay__InitData;
-}
-namespace UnityEngine {
-class Texture2D;
 }
 namespace GlobalNamespace {
 class MainEffectController;
 }
 namespace GlobalNamespace {
+class __ScreenCaptureAfterDelay___Start_d__6;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace GlobalNamespace {
 struct __ScreenCaptureCache__ScreenshotType;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -59,8 +59,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15306))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15303))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15335))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15332))
 // CS Name: ::ScreenCaptureAfterDelay::InitData*
 class CORDL_TYPE __ScreenCaptureAfterDelay__InitData : public ::System::Object {
 public:
@@ -104,7 +104,7 @@ public:
   static inline ::GlobalNamespace::__ScreenCaptureAfterDelay__InitData* New_ctor(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType screenshotType, float_t screenCaptureTime, int32_t pixelsWidth,
                                                                                  int32_t pixelsHeight);
 
-  /// @brief Method .ctor addr 0x280b91c size 0x60 virtual false final false
+  /// @brief Method .ctor addr 0x2690cc8 size 0x60 virtual false final false
   inline void _ctor(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType screenshotType, float_t screenCaptureTime, int32_t pixelsWidth, int32_t pixelsHeight);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScreenCaptureAfterDelay__InitData", modifiers: "&&", def_value: None }]
@@ -138,13 +138,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ScreenCaptureAfterDelay__InitData, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ScreenCaptureAfterDelay__InitData, ___screenshotType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScreenCaptureAfterDelay__InitData, ___screenCaptureTime) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScreenCaptureAfterDelay__InitData, ___pixelsWidth) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScreenCaptureAfterDelay__InitData, ___pixelsHeight) == 0x1c, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<Start>d__6
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15304))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15333))
 // CS Name: ::ScreenCaptureAfterDelay::<Start>d__6*
 class CORDL_TYPE __ScreenCaptureAfterDelay___Start_d__6 : public ::System::Object {
 public:
@@ -191,22 +199,22 @@ public:
 
   static inline ::GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x280b550 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x26908fc size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x280b97c size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2690d28 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x280b980 size 0x1dc virtual true final true
+  /// @brief Method MoveNext addr 0x2690d2c size 0x1dc virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x280bb5c size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2690f08 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x280bb64 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2690f10 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x280bba4 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2690f50 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScreenCaptureAfterDelay___Start_d__6", modifiers: "&&", def_value: None }]
@@ -237,13 +245,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6, _____4__this) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ScreenCaptureAfterDelay
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15305))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15334))
 // CS Name: ::ScreenCaptureAfterDelay*
 class CORDL_TYPE ScreenCaptureAfterDelay : public ::UnityEngine::MonoBehaviour {
 public:
@@ -297,18 +311,18 @@ public:
 
   constexpr void __set__captureRenderTexture(::UnityEngine::RenderTexture* value);
 
-  /// @brief Method Start addr 0x280b4e8 size 0x68 virtual false final false
+  /// @brief Method Start addr 0x2690894 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* Start();
 
-  /// @brief Method OnDestroy addr 0x280b578 size 0xe0 virtual false final false
+  /// @brief Method OnDestroy addr 0x2690924 size 0xe0 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleMainEffectControllerAfterImageEffectEvent addr 0x280b658 size 0x210 virtual false final false
+  /// @brief Method HandleMainEffectControllerAfterImageEffectEvent addr 0x2690a04 size 0x210 virtual false final false
   inline void HandleMainEffectControllerAfterImageEffectEvent(::UnityEngine::RenderTexture* renderTexture);
 
   static inline ::GlobalNamespace::ScreenCaptureAfterDelay* New_ctor();
 
-  /// @brief Method .ctor addr 0x280b914 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2690cc0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureAfterDelay", modifiers: "&&", def_value: None }]
@@ -344,6 +358,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScreenCaptureAfterDelay, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenCaptureAfterDelay, ____mainEffectController) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenCaptureAfterDelay, ____screenCaptureCache) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenCaptureAfterDelay, ____initData) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenCaptureAfterDelay, ____captureTexture) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenCaptureAfterDelay, ____captureRenderTexture) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ScreenCaptureAfterDelay);

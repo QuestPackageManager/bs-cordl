@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithLivestreamingApplicationStatus);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4594 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13453))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13301)) CS Name: ::Oculus.Platform::MessageWithLivestreamingApplicationStatus*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13499)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst: 4495 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13269))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13314)) CS Name: ::Oculus.Platform::MessageWithLivestreamingApplicationStatus*
 class CORDL_TYPE MessageWithLivestreamingApplicationStatus : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LivestreamingApplicationStatus*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithLivestreamingApplicationStatus* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x26f24e8 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x25966ec size 0x58 virtual false final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetLivestreamingApplicationStatus addr 0x26f2540 size 0x3c virtual true final false
+  /// @brief Method GetLivestreamingApplicationStatus addr 0x2596744 size 0x3c virtual true final false
   inline ::Oculus::Platform::Models::LivestreamingApplicationStatus* GetLivestreamingApplicationStatus();
 
-  /// @brief Method GetDataFromMessage addr 0x26f257c size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage addr 0x2596780 size 0x9c virtual true final false
   inline ::Oculus::Platform::Models::LivestreamingApplicationStatus* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithLivestreamingApplicationStatus", modifiers: "&&", def_value: None }]

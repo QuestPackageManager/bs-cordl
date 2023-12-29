@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/Pool/zzzz__PooledObject_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/Pool/zzzz__IObjectPool_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr UnityEngine::Pool::PooledObject_1<T>::operator ::System::IDisposable*() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::cordl_internals::Box(this)));

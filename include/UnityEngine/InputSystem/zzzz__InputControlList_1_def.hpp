@@ -11,40 +11,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputControlList_1)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace Unity::Collections {
 struct Allocator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
 namespace UnityEngine::InputSystem {
 template <typename TControl> struct __InputControlList_1__Enumerator;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
 }
 namespace System {
 class Object;
@@ -66,7 +66,7 @@ namespace UnityEngine::InputSystem {
 template <typename TControl>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6225))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6311))
 // CS Name: ::InputControlList`1::Enumerator<TControl>
 struct CORDL_TYPE __InputControlList_1__Enumerator {
 public:
@@ -132,8 +132,8 @@ namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TControl>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10003)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 407
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6226)) CS Name: ::UnityEngine.InputSystem::InputControlList`1<TControl>
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 402 }), TypeDefinitionIndex(TypeDefinitionIndex(9927)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9931))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6312)) CS Name: ::UnityEngine.InputSystem::InputControlList`1<TControl>
 struct CORDL_TYPE InputControlList_1 {
 public:
   // Declarations

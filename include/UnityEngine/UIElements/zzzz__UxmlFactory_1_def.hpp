@@ -17,8 +17,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TCreatedType>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5255 }), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6737))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6998)) CS Name: ::UnityEngine.UIElements::UxmlFactory`1<TCreatedType>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6823)), TypeDefinitionIndex(TypeDefinitionIndex(7083)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5139
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7084)) CS Name: ::UnityEngine.UIElements::UxmlFactory`1<TCreatedType>*
 class CORDL_TYPE UxmlFactory_1 : public ::UnityEngine::UIElements::UxmlFactory_2<TCreatedType, ::UnityEngine::UIElements::__VisualElement__UxmlTraits*> {
 public:
   // Declarations

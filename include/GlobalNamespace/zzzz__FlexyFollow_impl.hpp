@@ -2,16 +2,16 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__FlexyFollow_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FlexyFollow.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlexyFollow::*)()>(&::GlobalNamespace::FlexyFollow::Start)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x20f2cec;
+  constexpr static std::size_t addrs = 0x1f965b8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlexyFollow*>::get(), "Start",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -21,10 +21,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlexyFollow::*)()>(&::GlobalNamespace::FlexyFollow::LateUpdate)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x20f2d70;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x1f9663c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlexyFollow*>::get(), "LateUpdate",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -35,9 +35,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlexyFollow::*)()>(&::GlobalNamespace::FlexyFollow::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x20f2e98;
+  constexpr static std::size_t addrs = 0x1f96778;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlexyFollow*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -126,18 +126,6 @@ constexpr bool const& GlobalNamespace::FlexyFollow::__get__useLocalPosition() co
 constexpr void GlobalNamespace::FlexyFollow::__set__useLocalPosition(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useLocalPosition = value;
-}
-constexpr bool& GlobalNamespace::FlexyFollow::__get__instant() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____instant;
-}
-constexpr bool const& GlobalNamespace::FlexyFollow::__get__instant() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____instant;
-}
-constexpr void GlobalNamespace::FlexyFollow::__set__instant(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____instant = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::FlexyFollow::__get__followTransform() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

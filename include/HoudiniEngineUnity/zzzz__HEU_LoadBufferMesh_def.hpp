@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferBase_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_LoadBufferMesh)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HoudiniEngineUnity {
 class HEU_GenerateGeoCache;
 }
 namespace HoudiniEngineUnity {
 class HEU_GeoGroup;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferMesh);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9804))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9805))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9731))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9732))
 // CS Name: ::HoudiniEngineUnity::HEU_LoadBufferMesh*
 class CORDL_TYPE HEU_LoadBufferMesh : public ::HoudiniEngineUnity::HEU_LoadBufferBase {
 public:
@@ -95,7 +95,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_LoadBufferMesh* New_ctor();
 
-  /// @brief Method .ctor addr 0x21abc0c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2055270 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_LoadBufferMesh", modifiers: "&&", def_value: None }]
@@ -137,6 +137,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_LoadBufferMesh, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferMesh, ____geoCache) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferMesh, ____LODGroupMeshes) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferMesh, ____defaultMaterialKey) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferMesh, ____bGenerateUVs) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferMesh, ____bGenerateTangents) == 0x45, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferMesh, ____bGenerateNormals) == 0x46, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferMesh, ____bPartInstanced) == 0x47, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_LoadBufferMesh);

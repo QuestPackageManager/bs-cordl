@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DpadControl)
 namespace UnityEngine::InputSystem::Controls {
+class __DpadControl__DpadAxisControl;
+}
+namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 struct __DpadControl__ButtonBits;
-}
-namespace UnityEngine::InputSystem::Controls {
-class __DpadControl__DpadAxisControl;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::__DpadControl__DpadAxisCont
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6628))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6634))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6714))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6720))
 // CS Name: ::DpadControl::DpadAxisControl*
 class CORDL_TYPE __DpadControl__DpadAxisControl : public ::UnityEngine::InputSystem::Controls::AxisControl {
 public:
@@ -55,21 +55,21 @@ public:
 
   constexpr void __set__component_k__BackingField(int32_t value);
 
-  /// @brief Method get_component addr 0x2b0ae58 size 0x8 virtual false final false
+  /// @brief Method get_component addr 0x298a104 size 0x8 virtual false final false
   inline int32_t get_component();
 
-  /// @brief Method set_component addr 0x2b0ae60 size 0x8 virtual false final false
+  /// @brief Method set_component addr 0x298a10c size 0x8 virtual false final false
   inline void set_component(int32_t value);
 
-  /// @brief Method FinishSetup addr 0x2b0ae68 size 0x84 virtual true final false
+  /// @brief Method FinishSetup addr 0x298a114 size 0x84 virtual true final false
   inline void FinishSetup();
 
-  /// @brief Method ReadUnprocessedValueFromState addr 0x2b0aeec size 0x118 virtual true final false
+  /// @brief Method ReadUnprocessedValueFromState addr 0x298a198 size 0x118 virtual true final false
   inline float_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
   static inline ::UnityEngine::InputSystem::Controls::__DpadControl__DpadAxisControl* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b0b004 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x298a2b0 size 0x4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DpadControl__DpadAxisControl", modifiers: "&&", def_value: None }]
@@ -94,13 +94,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::__DpadControl__DpadAxisControl, 0x120>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::__DpadControl__DpadAxisControl, ____component_k__BackingField) == 0x118, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::Controls
 // Type: ::ButtonBits
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6635))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6721))
 // CS Name: ::DpadControl::ButtonBits
 struct CORDL_TYPE __DpadControl__ButtonBits {
 public:
@@ -150,13 +152,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::__DpadControl__ButtonBits, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::__DpadControl__ButtonBits, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::Controls
 // Type: UnityEngine.InputSystem.Controls::DpadControl
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6644))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6636))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6730))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6722))
 // CS Name: ::UnityEngine.InputSystem.Controls::DpadControl*
 class CORDL_TYPE DpadControl : public ::UnityEngine::InputSystem::Controls::Vector2Control {
 public:
@@ -209,48 +213,48 @@ public:
 
   constexpr void __set__right_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_up addr 0x2b0a864 size 0x8 virtual false final false
+  /// @brief Method get_up addr 0x2989b10 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_up();
 
-  /// @brief Method set_up addr 0x2b0a86c size 0x8 virtual false final false
+  /// @brief Method set_up addr 0x2989b18 size 0x8 virtual false final false
   inline void set_up(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_down addr 0x2b0a874 size 0x8 virtual false final false
+  /// @brief Method get_down addr 0x2989b20 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_down();
 
-  /// @brief Method set_down addr 0x2b0a87c size 0x8 virtual false final false
+  /// @brief Method set_down addr 0x2989b28 size 0x8 virtual false final false
   inline void set_down(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_left addr 0x2b0a884 size 0x8 virtual false final false
+  /// @brief Method get_left addr 0x2989b30 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_left();
 
-  /// @brief Method set_left addr 0x2b0a88c size 0x8 virtual false final false
+  /// @brief Method set_left addr 0x2989b38 size 0x8 virtual false final false
   inline void set_left(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_right addr 0x2b0a894 size 0x8 virtual false final false
+  /// @brief Method get_right addr 0x2989b40 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_right();
 
-  /// @brief Method set_right addr 0x2b0a89c size 0x8 virtual false final false
+  /// @brief Method set_right addr 0x2989b48 size 0x8 virtual false final false
   inline void set_right(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   static inline ::UnityEngine::InputSystem::Controls::DpadControl* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b0a8a4 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x2989b50 size 0x70 virtual false final false
   inline void _ctor();
 
-  /// @brief Method FinishSetup addr 0x2b0a914 size 0xf4 virtual true final false
+  /// @brief Method FinishSetup addr 0x2989bc0 size 0xf4 virtual true final false
   inline void FinishSetup();
 
-  /// @brief Method ReadUnprocessedValueFromState addr 0x2b0aa08 size 0x238 virtual true final false
+  /// @brief Method ReadUnprocessedValueFromState addr 0x2989cb4 size 0x238 virtual true final false
   inline ::UnityEngine::Vector2 ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState addr 0x2b0ac9c size 0x1ac virtual true final false
+  /// @brief Method WriteValueIntoState addr 0x2989f48 size 0x1ac virtual true final false
   inline void WriteValueIntoState(::UnityEngine::Vector2 value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method MakeDpadVector addr 0x2b0ac40 size 0x5c virtual false final false
+  /// @brief Method MakeDpadVector addr 0x2989eec size 0x5c virtual false final false
   static inline ::UnityEngine::Vector2 MakeDpadVector(bool up, bool down, bool left, bool right, bool normalize);
 
-  /// @brief Method MakeDpadVector addr 0x2b0ae48 size 0x10 virtual false final false
+  /// @brief Method MakeDpadVector addr 0x298a0f4 size 0x10 virtual false final false
   static inline ::UnityEngine::Vector2 MakeDpadVector(float_t up, float_t down, float_t left, float_t right);
 
   // Ctor Parameters [CppParam { name: "", ty: "DpadControl", modifiers: "&&", def_value: None }]
@@ -283,6 +287,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::DpadControl, 0x120>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DpadControl, ____up_k__BackingField) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DpadControl, ____down_k__BackingField) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DpadControl, ____left_k__BackingField) == 0x110, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DpadControl, ____right_k__BackingField) == 0x118, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Controls
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::__DpadControl__ButtonBits, "UnityEngine.InputSystem.Controls", "DpadControl/ButtonBits");

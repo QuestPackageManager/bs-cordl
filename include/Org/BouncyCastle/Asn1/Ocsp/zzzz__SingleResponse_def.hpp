@@ -4,6 +4,18 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(SingleResponse)
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
@@ -12,18 +24,6 @@ class DerGeneralizedTime;
 }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class CertStatus;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class CertID;
@@ -103,37 +103,37 @@ public:
                                                                           ::Org::BouncyCastle::Asn1::DerGeneralizedTime* thisUpdate, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* nextUpdate,
                                                                           ::Org::BouncyCastle::Asn1::X509::X509Extensions* singleExtensions);
 
-  /// @brief Method .ctor addr 0xf843dc size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0xf0e1b8 size 0x50 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::CertID* certID, ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* certStatus, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* thisUpdate,
                     ::Org::BouncyCastle::Asn1::DerGeneralizedTime* nextUpdate, ::Org::BouncyCastle::Asn1::X509::X509Extensions* singleExtensions);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf8442c size 0x2b8 virtual false final false
+  /// @brief Method .ctor addr 0xf0e208 size 0x2b8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xf846e4 size 0x18 virtual false final false
+  /// @brief Method GetInstance addr 0xf0e4c0 size 0x18 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0xf846fc size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xf0e4d8 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_CertId addr 0xf84884 size 0x8 virtual false final false
+  /// @brief Method get_CertId addr 0xf0e660 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::CertID* get_CertId();
 
-  /// @brief Method get_CertStatus addr 0xf8488c size 0x8 virtual false final false
+  /// @brief Method get_CertStatus addr 0xf0e668 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* get_CertStatus();
 
-  /// @brief Method get_ThisUpdate addr 0xf84894 size 0x8 virtual false final false
+  /// @brief Method get_ThisUpdate addr 0xf0e670 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_ThisUpdate();
 
-  /// @brief Method get_NextUpdate addr 0xf8489c size 0x8 virtual false final false
+  /// @brief Method get_NextUpdate addr 0xf0e678 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NextUpdate();
 
-  /// @brief Method get_SingleExtensions addr 0xf848a4 size 0x8 virtual false final false
+  /// @brief Method get_SingleExtensions addr 0xf0e680 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_SingleExtensions();
 
-  /// @brief Method ToAsn1Object addr 0xf848ac size 0x184 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf0e688 size 0x184 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SingleResponse", modifiers: "&&", def_value: None }]
@@ -169,6 +169,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ocsp::SingleResponse, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse, ___certID) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse, ___certStatus) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse, ___thisUpdate) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse, ___nextUpdate) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse, ___singleExtensions) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Ocsp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse);

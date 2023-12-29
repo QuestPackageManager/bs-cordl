@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Globalization::DaylightTime);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3671))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2482))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3659))
 // CS Name: ::System.Globalization::DaylightTime*
 class CORDL_TYPE DaylightTime : public ::System::Object {
 public:
@@ -63,16 +63,16 @@ public:
 
   static inline ::System::Globalization::DaylightTime* New_ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta);
 
-  /// @brief Method .ctor addr 0x2554bec size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x23f89fc size 0x3c virtual false final false
   inline void _ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta);
 
-  /// @brief Method get_Start addr 0x2554c28 size 0x8 virtual false final false
+  /// @brief Method get_Start addr 0x23f8a38 size 0x8 virtual false final false
   inline ::System::DateTime get_Start();
 
-  /// @brief Method get_End addr 0x2554c30 size 0x8 virtual false final false
+  /// @brief Method get_End addr 0x23f8a40 size 0x8 virtual false final false
   inline ::System::DateTime get_End();
 
-  /// @brief Method get_Delta addr 0x2554c38 size 0x8 virtual false final false
+  /// @brief Method get_Delta addr 0x23f8a48 size 0x8 virtual false final false
   inline ::System::TimeSpan get_Delta();
 
   // Ctor Parameters [CppParam { name: "", ty: "DaylightTime", modifiers: "&&", def_value: None }]
@@ -102,6 +102,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::DaylightTime, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::DaylightTime, ____start) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::DaylightTime, ____end) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::DaylightTime, ____delta) == 0x20, "Offset mismatch!");
 
 } // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::DaylightTime);

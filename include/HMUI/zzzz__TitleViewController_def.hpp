@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::HMUI::TitleViewController);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13597))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13714))
 // CS Name: ::HMUI::TitleViewController*
 class CORDL_TYPE TitleViewController : public ::HMUI::ViewController {
 public:
@@ -33,12 +33,12 @@ public:
 
   constexpr void __set__text(::TMPro::TextMeshProUGUI* value);
 
-  /// @brief Method SetText addr 0x212ce5c size 0x24 virtual false final false
+  /// @brief Method SetText addr 0x1fd54c0 size 0x24 virtual false final false
   inline void SetText(::StringW text);
 
   static inline ::HMUI::TitleViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x212ce80 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fd54e4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TitleViewController", modifiers: "&&", def_value: None }]
@@ -62,6 +62,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::TitleViewController, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::TitleViewController, ____text) == 0x70, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::TitleViewController);

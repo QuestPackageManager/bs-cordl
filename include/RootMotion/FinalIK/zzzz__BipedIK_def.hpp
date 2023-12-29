@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(BipedIK)
 namespace RootMotion::FinalIK {
 class BipedIKSolvers;
 }
-namespace UnityEngine {
-struct AvatarIKGoal;
+namespace RootMotion {
+class BipedReferences;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace RootMotion {
-class BipedReferences;
-}
 namespace RootMotion::FinalIK {
 class IKSolverLimb;
+}
+namespace UnityEngine {
+struct AvatarIKGoal;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::BipedIK);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12499))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12506))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12427))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12434))
 // CS Name: ::RootMotion.FinalIK::BipedIK*
 class CORDL_TYPE BipedIK : public ::RootMotion::SolverManager {
 public:
@@ -58,81 +58,81 @@ public:
 
   constexpr void __set_solvers(::RootMotion::FinalIK::BipedIKSolvers* value);
 
-  /// @brief Method OpenUserManual addr 0x124146c size 0x44 virtual false final false
+  /// @brief Method OpenUserManual addr 0x11d1140 size 0x44 virtual false final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference addr 0x12414b0 size 0x44 virtual false final false
+  /// @brief Method OpenScriptReference addr 0x11d1184 size 0x44 virtual false final false
   inline void OpenScriptReference();
 
-  /// @brief Method SupportGroup addr 0x12414f4 size 0x44 virtual false final false
+  /// @brief Method SupportGroup addr 0x11d11c8 size 0x44 virtual false final false
   inline void SupportGroup();
 
-  /// @brief Method ASThread addr 0x1241538 size 0x44 virtual false final false
+  /// @brief Method ASThread addr 0x11d120c size 0x44 virtual false final false
   inline void ASThread();
 
-  /// @brief Method GetIKPositionWeight addr 0x124157c size 0x1c virtual false final false
+  /// @brief Method GetIKPositionWeight addr 0x11d1250 size 0x1c virtual false final false
   inline float_t GetIKPositionWeight(::UnityEngine::AvatarIKGoal goal);
 
-  /// @brief Method GetIKRotationWeight addr 0x1241614 size 0x1c virtual false final false
+  /// @brief Method GetIKRotationWeight addr 0x11d12e8 size 0x1c virtual false final false
   inline float_t GetIKRotationWeight(::UnityEngine::AvatarIKGoal goal);
 
-  /// @brief Method SetIKPositionWeight addr 0x1241630 size 0x2c virtual false final false
+  /// @brief Method SetIKPositionWeight addr 0x11d1304 size 0x2c virtual false final false
   inline void SetIKPositionWeight(::UnityEngine::AvatarIKGoal goal, float_t weight);
 
-  /// @brief Method SetIKRotationWeight addr 0x124165c size 0x2c virtual false final false
+  /// @brief Method SetIKRotationWeight addr 0x11d1330 size 0x2c virtual false final false
   inline void SetIKRotationWeight(::UnityEngine::AvatarIKGoal goal, float_t weight);
 
-  /// @brief Method SetIKPosition addr 0x1241688 size 0x3c virtual false final false
+  /// @brief Method SetIKPosition addr 0x11d135c size 0x3c virtual false final false
   inline void SetIKPosition(::UnityEngine::AvatarIKGoal goal, ::UnityEngine::Vector3 IKPosition);
 
-  /// @brief Method SetIKRotation addr 0x12416c4 size 0x40 virtual false final false
+  /// @brief Method SetIKRotation addr 0x11d1398 size 0x40 virtual false final false
   inline void SetIKRotation(::UnityEngine::AvatarIKGoal goal, ::UnityEngine::Quaternion IKRotation);
 
-  /// @brief Method GetIKPosition addr 0x1241704 size 0x20 virtual false final false
+  /// @brief Method GetIKPosition addr 0x11d13d8 size 0x20 virtual false final false
   inline ::UnityEngine::Vector3 GetIKPosition(::UnityEngine::AvatarIKGoal goal);
 
-  /// @brief Method GetIKRotation addr 0x1241724 size 0x20 virtual false final false
+  /// @brief Method GetIKRotation addr 0x11d13f8 size 0x20 virtual false final false
   inline ::UnityEngine::Quaternion GetIKRotation(::UnityEngine::AvatarIKGoal goal);
 
-  /// @brief Method SetLookAtWeight addr 0x1241744 size 0x24 virtual false final false
+  /// @brief Method SetLookAtWeight addr 0x11d1418 size 0x24 virtual false final false
   inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight, float_t clampWeight, float_t clampWeightHead, float_t clampWeightEyes);
 
-  /// @brief Method SetLookAtPosition addr 0x1241768 size 0x28 virtual false final false
+  /// @brief Method SetLookAtPosition addr 0x11d143c size 0x28 virtual false final false
   inline void SetLookAtPosition(::UnityEngine::Vector3 lookAtPosition);
 
-  /// @brief Method SetSpinePosition addr 0x1241790 size 0x28 virtual false final false
+  /// @brief Method SetSpinePosition addr 0x11d1464 size 0x28 virtual false final false
   inline void SetSpinePosition(::UnityEngine::Vector3 spinePosition);
 
-  /// @brief Method SetSpineWeight addr 0x12417b8 size 0x24 virtual false final false
+  /// @brief Method SetSpineWeight addr 0x11d148c size 0x24 virtual false final false
   inline void SetSpineWeight(float_t weight);
 
-  /// @brief Method GetGoalIK addr 0x1241598 size 0x7c virtual false final false
+  /// @brief Method GetGoalIK addr 0x11d126c size 0x7c virtual false final false
   inline ::RootMotion::FinalIK::IKSolverLimb* GetGoalIK(::UnityEngine::AvatarIKGoal goal);
 
-  /// @brief Method InitiateBipedIK addr 0x12417dc size 0xc virtual false final false
+  /// @brief Method InitiateBipedIK addr 0x11d14b0 size 0xc virtual false final false
   inline void InitiateBipedIK();
 
-  /// @brief Method UpdateBipedIK addr 0x12417e8 size 0xc virtual false final false
+  /// @brief Method UpdateBipedIK addr 0x11d14bc size 0xc virtual false final false
   inline void UpdateBipedIK();
 
-  /// @brief Method SetToDefaults addr 0x12417f4 size 0x13c virtual false final false
+  /// @brief Method SetToDefaults addr 0x11d14c8 size 0x13c virtual false final false
   inline void SetToDefaults();
 
-  /// @brief Method FixTransforms addr 0x1241a60 size 0x9c virtual true final false
+  /// @brief Method FixTransforms addr 0x11d1734 size 0x9c virtual true final false
   inline void FixTransforms();
 
-  /// @brief Method InitiateSolver addr 0x1241afc size 0x1b0 virtual true final false
+  /// @brief Method InitiateSolver addr 0x11d17d0 size 0x1b0 virtual true final false
   inline void InitiateSolver();
 
-  /// @brief Method UpdateSolver addr 0x1241e1c size 0x174 virtual true final false
+  /// @brief Method UpdateSolver addr 0x11d1af0 size 0x174 virtual true final false
   inline void UpdateSolver();
 
-  /// @brief Method LogWarning addr 0x1242288 size 0x24 virtual false final false
+  /// @brief Method LogWarning addr 0x11d1f5c size 0x24 virtual false final false
   inline void LogWarning(::StringW message);
 
   static inline ::RootMotion::FinalIK::BipedIK* New_ctor();
 
-  /// @brief Method .ctor addr 0x12422ac size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x11d1f80 size 0x98 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BipedIK", modifiers: "&&", def_value: None }]
@@ -159,6 +159,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::BipedIK, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::BipedIK, ___references) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::BipedIK, ___solvers) == 0x40, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::BipedIK);

@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::Mono::Security::Interface::Alert);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13772)), TypeDefinitionIndex(TypeDefinitionIndex(13773)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13774))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14043)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14044))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14045))
 // CS Name: ::Mono.Security.Interface::Alert*
 class CORDL_TYPE Alert : public ::System::Object {
 public:
@@ -51,21 +51,21 @@ public:
 
   constexpr void __set_description(::Mono::Security::Interface::AlertDescription value);
 
-  /// @brief Method get_Level addr 0x24028f0 size 0x8 virtual false final false
+  /// @brief Method get_Level addr 0x22a85e4 size 0x8 virtual false final false
   inline ::Mono::Security::Interface::AlertLevel get_Level();
 
-  /// @brief Method get_Description addr 0x24028f8 size 0x8 virtual false final false
+  /// @brief Method get_Description addr 0x22a85ec size 0x8 virtual false final false
   inline ::Mono::Security::Interface::AlertDescription get_Description();
 
   static inline ::Mono::Security::Interface::Alert* New_ctor(::Mono::Security::Interface::AlertDescription description);
 
-  /// @brief Method .ctor addr 0x2402900 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x22a85f4 size 0x6c virtual false final false
   inline void _ctor(::Mono::Security::Interface::AlertDescription description);
 
-  /// @brief Method inferAlertLevel addr 0x240296c size 0x40 virtual false final false
+  /// @brief Method inferAlertLevel addr 0x22a8660 size 0x40 virtual false final false
   inline void inferAlertLevel();
 
-  /// @brief Method ToString addr 0x24029ac size 0xbc virtual true final false
+  /// @brief Method ToString addr 0x22a86a0 size 0xbc virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "Alert", modifiers: "&&", def_value: None }]
@@ -92,6 +92,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::Alert, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::Interface::Alert, ___level) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Interface::Alert, ___description) == 0x11, "Offset mismatch!");
 
 } // namespace Mono::Security::Interface
 NEED_NO_BOX(::Mono::Security::Interface::Alert);

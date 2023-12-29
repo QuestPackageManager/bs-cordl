@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Claim)
 namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IDictionary_2;
-}
-namespace System {
-class Object;
-}
-namespace System::Security::Claims {
-class ClaimsIdentity;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System::Security::Claims {
+class ClaimsIdentity;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Security::Claims {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Security::Claims::Claim);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Claims {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3008))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3007))
 // CS Name: ::System.Security.Claims::Claim*
 class CORDL_TYPE Claim : public ::System::Object {
 public:
@@ -130,43 +130,43 @@ public:
   static inline ::System::Security::Claims::Claim* New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer,
                                                             ::System::Security::Claims::ClaimsIdentity* subject);
 
-  /// @brief Method .ctor addr 0x2476a20 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x231ef2c size 0x20 virtual false final false
   inline void _ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity* subject);
 
   static inline ::System::Security::Claims::Claim* New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer,
                                                             ::System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey, ::StringW propertyValue);
 
-  /// @brief Method .ctor addr 0x247b774 size 0x258 virtual false final false
+  /// @brief Method .ctor addr 0x2323c80 size 0x258 virtual false final false
   inline void _ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey,
                     ::StringW propertyValue);
 
   static inline ::System::Security::Claims::Claim* New_ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject);
 
-  /// @brief Method .ctor addr 0x247bb04 size 0x314 virtual false final false
+  /// @brief Method .ctor addr 0x2324010 size 0x314 virtual false final false
   inline void _ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject);
 
-  /// @brief Method OnDeserializedMethod addr 0x247be18 size 0x60 virtual false final false
+  /// @brief Method OnDeserializedMethod addr 0x2324324 size 0x60 virtual false final false
   inline void OnDeserializedMethod(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Properties addr 0x247b9cc size 0x138 virtual false final false
+  /// @brief Method get_Properties addr 0x2323ed8 size 0x138 virtual false final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* get_Properties();
 
-  /// @brief Method get_Subject addr 0x247be78 size 0x8 virtual false final false
+  /// @brief Method get_Subject addr 0x2324384 size 0x8 virtual false final false
   inline ::System::Security::Claims::ClaimsIdentity* get_Subject();
 
-  /// @brief Method set_Subject addr 0x247be80 size 0x8 virtual false final false
+  /// @brief Method set_Subject addr 0x232438c size 0x8 virtual false final false
   inline void set_Subject(::System::Security::Claims::ClaimsIdentity* value);
 
-  /// @brief Method get_Type addr 0x247be88 size 0x8 virtual false final false
+  /// @brief Method get_Type addr 0x2324394 size 0x8 virtual false final false
   inline ::StringW get_Type();
 
-  /// @brief Method get_Value addr 0x247be90 size 0x8 virtual false final false
+  /// @brief Method get_Value addr 0x232439c size 0x8 virtual false final false
   inline ::StringW get_Value();
 
-  /// @brief Method Clone addr 0x247be98 size 0x70 virtual true final false
+  /// @brief Method Clone addr 0x23243a4 size 0x70 virtual true final false
   inline ::System::Security::Claims::Claim* Clone(::System::Security::Claims::ClaimsIdentity* identity);
 
-  /// @brief Method ToString addr 0x247bf08 size 0x78 virtual true final false
+  /// @brief Method ToString addr 0x2324414 size 0x78 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "Claim", modifiers: "&&", def_value: None }]
@@ -214,6 +214,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Claims::Claim, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Claims::Claim, ___m_issuer) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Claims::Claim, ___m_originalIssuer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Claims::Claim, ___m_type) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Claims::Claim, ___m_value) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Claims::Claim, ___m_valueType) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Claims::Claim, ___m_userSerializationData) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Claims::Claim, ___m_properties) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Claims::Claim, ___m_propertyLock) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Claims::Claim, ___m_subject) == 0x50, "Offset mismatch!");
 
 } // namespace System::Security::Claims
 NEED_NO_BOX(::System::Security::Claims::Claim);

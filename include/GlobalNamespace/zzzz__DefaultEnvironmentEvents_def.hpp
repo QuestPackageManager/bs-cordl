@@ -15,13 +15,13 @@ namespace GlobalNamespace {
 class __DefaultEnvironmentEvents__BasicBeatmapEvent;
 }
 namespace GlobalNamespace {
+class __DefaultEnvironmentEvents__LightGroupEvent;
+}
+namespace GlobalNamespace {
 class __DefaultEnvironmentEvents__LightGroupFiltering;
 }
 namespace GlobalNamespace {
 class __DefaultEnvironmentEvents__LightGroupDistribution;
-}
-namespace GlobalNamespace {
-class __DefaultEnvironmentEvents__LightGroupEvent;
 }
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
@@ -30,10 +30,10 @@ namespace GlobalNamespace {
 struct __BeatmapEventDataBox__DistributionParamType;
 }
 namespace GlobalNamespace {
-class LightGroupSO;
+struct EnvironmentColorType;
 }
 namespace GlobalNamespace {
-struct EnvironmentColorType;
+class LightGroupSO;
 }
 namespace GlobalNamespace {
 struct __IndexFilter__IndexFilterRandomType;
@@ -67,8 +67,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFilterin
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4165))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14941)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4197))
 // CS Name: ::DefaultEnvironmentEvents::BasicBeatmapEvent*
 class CORDL_TYPE __DefaultEnvironmentEvents__BasicBeatmapEvent : public ::System::Object {
 public:
@@ -106,18 +106,18 @@ public:
 
   constexpr void __set__floatValue(float_t value);
 
-  /// @brief Method get_eventType addr 0x22401ac size 0x8 virtual false final false
+  /// @brief Method get_eventType addr 0x21d132c size 0x8 virtual false final false
   inline ::GlobalNamespace::BasicBeatmapEventType get_eventType();
 
-  /// @brief Method get_value addr 0x22401b4 size 0x8 virtual false final false
+  /// @brief Method get_value addr 0x21d1334 size 0x8 virtual false final false
   inline int32_t get_value();
 
-  /// @brief Method get_floatValue addr 0x22401bc size 0x8 virtual false final false
+  /// @brief Method get_floatValue addr 0x21d133c size 0x8 virtual false final false
   inline float_t get_floatValue();
 
   static inline ::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x22401c4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d1344 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DefaultEnvironmentEvents__BasicBeatmapEvent", modifiers: "&&", def_value: None }]
@@ -148,13 +148,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent, ____eventType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent, ____value) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent, ____floatValue) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LightGroupDistribution
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4300)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4166))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4326)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4198))
 // CS Name: ::DefaultEnvironmentEvents::LightGroupDistribution*
 class CORDL_TYPE __DefaultEnvironmentEvents__LightGroupDistribution : public ::System::Object {
 public:
@@ -192,18 +198,18 @@ public:
 
   constexpr void __set__distributionParamType(::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType value);
 
-  /// @brief Method get_useDistribution addr 0x22401cc size 0x8 virtual false final false
+  /// @brief Method get_useDistribution addr 0x21d134c size 0x8 virtual false final false
   inline bool get_useDistribution();
 
-  /// @brief Method get_distributionParam addr 0x22401d4 size 0x8 virtual false final false
+  /// @brief Method get_distributionParam addr 0x21d1354 size 0x8 virtual false final false
   inline float_t get_distributionParam();
 
-  /// @brief Method get_distributionParamType addr 0x22401dc size 0x8 virtual false final false
+  /// @brief Method get_distributionParamType addr 0x21d135c size 0x8 virtual false final false
   inline ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType get_distributionParamType();
 
   static inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* New_ctor();
 
-  /// @brief Method .ctor addr 0x22401e4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d1364 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DefaultEnvironmentEvents__LightGroupDistribution", modifiers: "&&", def_value: None }]
@@ -234,13 +240,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution, ____useDistribution) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution, ____distributionParam) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution, ____distributionParamType) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LightGroupFiltering
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4316)), TypeDefinitionIndex(TypeDefinitionIndex(4315)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4167))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4335)), TypeDefinitionIndex(TypeDefinitionIndex(4336)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4199))
 // CS Name: ::DefaultEnvironmentEvents::LightGroupFiltering*
 class CORDL_TYPE __DefaultEnvironmentEvents__LightGroupFiltering : public ::System::Object {
 public:
@@ -311,27 +323,27 @@ public:
 
   constexpr void __set__chunks(int32_t value);
 
-  /// @brief Method get_useFiltering addr 0x22401ec size 0x8 virtual false final false
+  /// @brief Method get_useFiltering addr 0x21d136c size 0x8 virtual false final false
   inline bool get_useFiltering();
 
-  /// @brief Method get_randomType addr 0x22401f4 size 0x8 virtual false final false
+  /// @brief Method get_randomType addr 0x21d1374 size 0x8 virtual false final false
   inline ::GlobalNamespace::__IndexFilter__IndexFilterRandomType get_randomType();
 
-  /// @brief Method get_limit addr 0x22401fc size 0x8 virtual false final false
+  /// @brief Method get_limit addr 0x21d137c size 0x8 virtual false final false
   inline float_t get_limit();
 
-  /// @brief Method get_alsoAffectType addr 0x2240204 size 0x8 virtual false final false
+  /// @brief Method get_alsoAffectType addr 0x21d1384 size 0x8 virtual false final false
   inline ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType get_alsoAffectType();
 
-  /// @brief Method get_seed addr 0x224020c size 0x8 virtual false final false
+  /// @brief Method get_seed addr 0x21d138c size 0x8 virtual false final false
   inline int32_t get_seed();
 
-  /// @brief Method get_chunks addr 0x2240214 size 0x8 virtual false final false
+  /// @brief Method get_chunks addr 0x21d1394 size 0x8 virtual false final false
   inline int32_t get_chunks();
 
   static inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* New_ctor();
 
-  /// @brief Method .ctor addr 0x224021c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d139c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DefaultEnvironmentEvents__LightGroupFiltering", modifiers: "&&", def_value: None }]
@@ -371,13 +383,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering, ____useFiltering) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering, ____randomType) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering, ____limit) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering, ____alsoAffectType) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering, ____seed) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering, ____chunks) == 0x24, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LightGroupEvent
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14754))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4168))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14967))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4200))
 // CS Name: ::DefaultEnvironmentEvents::LightGroupEvent*
 class CORDL_TYPE __DefaultEnvironmentEvents__LightGroupEvent : public ::System::Object {
 public:
@@ -439,15 +463,6 @@ public:
   /// @brief Field _translationFiltering, offset 0x88, size 0x8
   __declspec(property(get = __get__translationFiltering, put = __set__translationFiltering))::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* _translationFiltering;
 
-  /// @brief Field _floatFxValue, offset 0x90, size 0x4
-  __declspec(property(get = __get__floatFxValue, put = __set__floatFxValue)) float_t _floatFxValue;
-
-  /// @brief Field _floatFxDistribution, offset 0x98, size 0x8
-  __declspec(property(get = __get__floatFxDistribution, put = __set__floatFxDistribution))::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* _floatFxDistribution;
-
-  /// @brief Field _floatFxFiltering, offset 0xa0, size 0x8
-  __declspec(property(get = __get__floatFxFiltering, put = __set__floatFxFiltering))::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* _floatFxFiltering;
-
   __declspec(property(get = get_lightGroup))::GlobalNamespace::LightGroupSO* lightGroup;
 
   __declspec(property(get = get_environmentColorType))::GlobalNamespace::EnvironmentColorType environmentColorType;
@@ -485,12 +500,6 @@ public:
   __declspec(property(get = get_translationZDistribution))::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* translationZDistribution;
 
   __declspec(property(get = get_translationFiltering))::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* translationFiltering;
-
-  __declspec(property(get = get_floatFxValue)) float_t floatFxValue;
-
-  __declspec(property(get = get_floatFxDistribution))::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* floatFxDistribution;
-
-  __declspec(property(get = get_floatFxFiltering))::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* floatFxFiltering;
 
   constexpr ::GlobalNamespace::LightGroupSO*& __get__lightGroup();
 
@@ -606,93 +615,66 @@ public:
 
   constexpr void __set__translationFiltering(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* value);
 
-  constexpr float_t& __get__floatFxValue();
-
-  constexpr float_t const& __get__floatFxValue() const;
-
-  constexpr void __set__floatFxValue(float_t value);
-
-  constexpr ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*& __get__floatFxDistribution();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*> const& __get__floatFxDistribution() const;
-
-  constexpr void __set__floatFxDistribution(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* value);
-
-  constexpr ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering*& __get__floatFxFiltering();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering*> const& __get__floatFxFiltering() const;
-
-  constexpr void __set__floatFxFiltering(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* value);
-
-  /// @brief Method get_lightGroup addr 0x2240224 size 0x8 virtual false final false
+  /// @brief Method get_lightGroup addr 0x21d13a4 size 0x8 virtual false final false
   inline ::GlobalNamespace::LightGroupSO* get_lightGroup();
 
-  /// @brief Method get_environmentColorType addr 0x224022c size 0x8 virtual false final false
+  /// @brief Method get_environmentColorType addr 0x21d13ac size 0x8 virtual false final false
   inline ::GlobalNamespace::EnvironmentColorType get_environmentColorType();
 
-  /// @brief Method get_brightness addr 0x2240234 size 0x8 virtual false final false
+  /// @brief Method get_brightness addr 0x21d13b4 size 0x8 virtual false final false
   inline float_t get_brightness();
 
-  /// @brief Method get_brightnessDistribution addr 0x224023c size 0x8 virtual false final false
+  /// @brief Method get_brightnessDistribution addr 0x21d13bc size 0x8 virtual false final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* get_brightnessDistribution();
 
-  /// @brief Method get_brightnessFiltering addr 0x2240244 size 0x8 virtual false final false
+  /// @brief Method get_brightnessFiltering addr 0x21d13c4 size 0x8 virtual false final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* get_brightnessFiltering();
 
-  /// @brief Method get_rotationX addr 0x224024c size 0x8 virtual false final false
+  /// @brief Method get_rotationX addr 0x21d13cc size 0x8 virtual false final false
   inline float_t get_rotationX();
 
-  /// @brief Method get_rotationY addr 0x2240254 size 0x8 virtual false final false
+  /// @brief Method get_rotationY addr 0x21d13d4 size 0x8 virtual false final false
   inline float_t get_rotationY();
 
-  /// @brief Method get_rotationZ addr 0x224025c size 0x8 virtual false final false
+  /// @brief Method get_rotationZ addr 0x21d13dc size 0x8 virtual false final false
   inline float_t get_rotationZ();
 
-  /// @brief Method get_rotationXDistribution addr 0x2240264 size 0x8 virtual false final false
+  /// @brief Method get_rotationXDistribution addr 0x21d13e4 size 0x8 virtual false final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* get_rotationXDistribution();
 
-  /// @brief Method get_rotationYDistribution addr 0x224026c size 0x8 virtual false final false
+  /// @brief Method get_rotationYDistribution addr 0x21d13ec size 0x8 virtual false final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* get_rotationYDistribution();
 
-  /// @brief Method get_rotationZDistribution addr 0x2240274 size 0x8 virtual false final false
+  /// @brief Method get_rotationZDistribution addr 0x21d13f4 size 0x8 virtual false final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* get_rotationZDistribution();
 
-  /// @brief Method get_rotationFiltering addr 0x224027c size 0x8 virtual false final false
+  /// @brief Method get_rotationFiltering addr 0x21d13fc size 0x8 virtual false final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* get_rotationFiltering();
 
-  /// @brief Method get_translationX addr 0x2240284 size 0x8 virtual false final false
+  /// @brief Method get_translationX addr 0x21d1404 size 0x8 virtual false final false
   inline float_t get_translationX();
 
-  /// @brief Method get_translationY addr 0x224028c size 0x8 virtual false final false
+  /// @brief Method get_translationY addr 0x21d140c size 0x8 virtual false final false
   inline float_t get_translationY();
 
-  /// @brief Method get_translationZ addr 0x2240294 size 0x8 virtual false final false
+  /// @brief Method get_translationZ addr 0x21d1414 size 0x8 virtual false final false
   inline float_t get_translationZ();
 
-  /// @brief Method get_translationXDistribution addr 0x224029c size 0x8 virtual false final false
+  /// @brief Method get_translationXDistribution addr 0x21d141c size 0x8 virtual false final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* get_translationXDistribution();
 
-  /// @brief Method get_translationYDistribution addr 0x22402a4 size 0x8 virtual false final false
+  /// @brief Method get_translationYDistribution addr 0x21d1424 size 0x8 virtual false final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* get_translationYDistribution();
 
-  /// @brief Method get_translationZDistribution addr 0x22402ac size 0x8 virtual false final false
+  /// @brief Method get_translationZDistribution addr 0x21d142c size 0x8 virtual false final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* get_translationZDistribution();
 
-  /// @brief Method get_translationFiltering addr 0x22402b4 size 0x8 virtual false final false
+  /// @brief Method get_translationFiltering addr 0x21d1434 size 0x8 virtual false final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* get_translationFiltering();
-
-  /// @brief Method get_floatFxValue addr 0x22402bc size 0x8 virtual false final false
-  inline float_t get_floatFxValue();
-
-  /// @brief Method get_floatFxDistribution addr 0x22402c4 size 0x8 virtual false final false
-  inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* get_floatFxDistribution();
-
-  /// @brief Method get_floatFxFiltering addr 0x22402cc size 0x8 virtual false final false
-  inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* get_floatFxFiltering();
 
   static inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x22402d4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d143c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DefaultEnvironmentEvents__LightGroupEvent", modifiers: "&&", def_value: None }]
@@ -766,27 +748,56 @@ public:
   /// @brief Field _translationFiltering, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* ____translationFiltering;
 
-  /// @brief Field _floatFxValue, offset: 0x90, size: 0x4, def value: None
-  float_t ____floatFxValue;
-
-  /// @brief Field _floatFxDistribution, offset: 0x98, size: 0x8, def value: None
-  ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* ____floatFxDistribution;
-
-  /// @brief Field _floatFxFiltering, offset: 0xa0, size: 0x8, def value: None
-  ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* ____floatFxFiltering;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, 0xa8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____lightGroup) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____environmentColorType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____brightness) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____brightnessDistribution) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____brightnessFiltering) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____rotationX) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____rotationY) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____rotationZ) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____rotationXDistribution) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____rotationYDistribution) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____rotationZDistribution) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____rotationFiltering) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____translationX) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____translationY) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____translationZ) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____translationXDistribution) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____translationYDistribution) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____translationZDistribution) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent, ____translationFiltering) == 0x88, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::DefaultEnvironmentEvents
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4169))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4201))
 // CS Name: ::DefaultEnvironmentEvents*
 class CORDL_TYPE DefaultEnvironmentEvents : public ::System::Object {
 public:
@@ -829,18 +840,18 @@ public:
 
   constexpr void __set__lightGroupEvents(::ArrayW<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent*, ::Array<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent*>*> value);
 
-  /// @brief Method get_basicBeatmapEvents addr 0x224015c size 0x8 virtual false final false
+  /// @brief Method get_basicBeatmapEvents addr 0x21d12dc size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent*, ::Array<::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent*>*> get_basicBeatmapEvents();
 
-  /// @brief Method get_lightGroupEvents addr 0x2240164 size 0x8 virtual false final false
+  /// @brief Method get_lightGroupEvents addr 0x21d12e4 size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent*, ::Array<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent*>*> get_lightGroupEvents();
 
-  /// @brief Method get_isEmpty addr 0x224016c size 0x38 virtual false final false
+  /// @brief Method get_isEmpty addr 0x21d12ec size 0x38 virtual false final false
   inline bool get_isEmpty();
 
   static inline ::GlobalNamespace::DefaultEnvironmentEvents* New_ctor();
 
-  /// @brief Method .ctor addr 0x22401a4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d1324 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents", modifiers: "&&", def_value: None }]
@@ -867,6 +878,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DefaultEnvironmentEvents, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DefaultEnvironmentEvents, ____basicBeatmapEvents) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DefaultEnvironmentEvents, ____lightGroupEvents) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DefaultEnvironmentEvents);

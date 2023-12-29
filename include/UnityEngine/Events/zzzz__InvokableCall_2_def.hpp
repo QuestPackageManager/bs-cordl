@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(InvokableCall_2)
-namespace UnityEngine::Events {
-template <typename T0, typename T1> class UnityAction_2;
-}
 namespace System::Reflection {
 class MethodInfo;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::Events {
+template <typename T0, typename T1> class UnityAction_2;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -26,8 +26,8 @@ namespace UnityEngine::Events {
 // cpp template
 template <typename T1, typename T2>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10450))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10453))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10372))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10375))
 // CS Name: ::UnityEngine.Events::InvokableCall`2<T1,T2>*
 class CORDL_TYPE InvokableCall_2 : public ::UnityEngine::Events::BaseInvokableCall {
 public:

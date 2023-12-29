@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(FocusEventBase_1)
 namespace UnityEngine::UIElements {
+class FocusChangeDirection;
+}
+namespace UnityEngine::UIElements {
 class FocusController;
 }
 namespace UnityEngine::UIElements {
 class IEventHandler;
-}
-namespace UnityEngine::UIElements {
-class FocusChangeDirection;
 }
 namespace UnityEngine::UIElements {
 class Focusable;
@@ -28,8 +28,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1712 }), TypeDefinitionIndex(TypeDefinitionIndex(7180))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7232))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7266)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7266), inst: 1645 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7318))
 // CS Name: ::UnityEngine.UIElements::FocusEventBase`1<T>*
 class CORDL_TYPE FocusEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:

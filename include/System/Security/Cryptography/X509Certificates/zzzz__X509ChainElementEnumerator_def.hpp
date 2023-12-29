@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(X509ChainElementEnumerator)
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainElement;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509ChainElem
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9005))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7842))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ChainElementEnumerator*
 class CORDL_TYPE X509ChainElementEnumerator : public ::System::Object {
 public:
@@ -50,19 +50,19 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator* New_ctor(::System::Collections::IEnumerable* enumerable);
 
-  /// @brief Method .ctor addr 0x298033c size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0x2802acc size 0xb4 virtual false final false
   inline void _ctor(::System::Collections::IEnumerable* enumerable);
 
-  /// @brief Method get_Current addr 0x298060c size 0xf0 virtual false final false
+  /// @brief Method get_Current addr 0x2802d9c size 0xf0 virtual false final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainElement* get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x29806fc size 0xa4 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2802e8c size 0xa4 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method MoveNext addr 0x29807a0 size 0xa0 virtual true final true
+  /// @brief Method MoveNext addr 0x2802f30 size 0xa0 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x2980840 size 0xa4 virtual true final true
+  /// @brief Method Reset addr 0x2802fd0 size 0xa4 virtual true final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509ChainElementEnumerator", modifiers: "&&", def_value: None }]
@@ -86,6 +86,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator, ___enumerator) == 0x10, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator);

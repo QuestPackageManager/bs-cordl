@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeSlice_1)
-namespace Unity::Collections {
-template <typename T> struct __NativeSlice_1__Enumerator;
-}
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace Unity::Collections {
+template <typename T> struct __NativeSlice_1__Enumerator;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
@@ -52,7 +52,7 @@ namespace Unity::Collections {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9994))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9922))
 // CS Name: ::Unity.Collections::NativeSlice`1<T>
 struct CORDL_TYPE NativeSlice_1 {
 public:
@@ -155,8 +155,8 @@ namespace Unity::Collections {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 3161 }), TypeDefinitionIndex(TypeDefinitionIndex(9994))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9993))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9922)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9922), inst: 3096 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9921))
 // CS Name: ::NativeSlice`1::Enumerator<T>
 struct CORDL_TYPE __NativeSlice_1__Enumerator {
 public:

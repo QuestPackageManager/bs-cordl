@@ -8,10 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsRecordLayer)
 namespace Org::BouncyCastle::Crypto::Tls {
+class TlsPeer;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class ProtocolVersion;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class DatagramTransport;
+class DtlsEpoch;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCloseable;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsHandshakeRetransmit;
@@ -20,19 +29,10 @@ namespace System {
 class Exception;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPeer;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsEpoch;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCloseable;
+class DatagramTransport;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class ByteQueue;
@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1229))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsRecordLayer*
 class CORDL_TYPE DtlsRecordLayer : public ::System::Object {
@@ -221,86 +221,86 @@ public:
 
   constexpr void __set_mRetransmitTimeout(::Org::BouncyCastle::Crypto::Tls::Timeout* value);
 
-  /// @brief Method SendDatagram addr 0xf6dfdc size 0xc0 virtual false final false
+  /// @brief Method SendDatagram addr 0xef7db8 size 0xc0 virtual false final false
   static inline void SendDatagram(::Org::BouncyCastle::Crypto::Tls::DatagramTransport* sender, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* New_ctor(::Org::BouncyCastle::Crypto::Tls::DatagramTransport* transport, ::Org::BouncyCastle::Crypto::Tls::TlsContext* context,
                                                                             ::Org::BouncyCastle::Crypto::Tls::TlsPeer* peer, uint8_t contentType);
 
-  /// @brief Method .ctor addr 0xf695d0 size 0x13c virtual false final false
+  /// @brief Method .ctor addr 0xef33ac size 0x13c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::DatagramTransport* transport, ::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::TlsPeer* peer,
                     uint8_t contentType);
 
-  /// @brief Method get_IsClosed addr 0xf6e09c size 0x18 virtual false final false
+  /// @brief Method get_IsClosed addr 0xef7e78 size 0x18 virtual false final false
   inline bool get_IsClosed();
 
-  /// @brief Method SetPlaintextLimit addr 0xf6e0b4 size 0x24 virtual true final false
+  /// @brief Method SetPlaintextLimit addr 0xef7e90 size 0x24 virtual true final false
   inline void SetPlaintextLimit(int32_t plaintextLimit);
 
-  /// @brief Method get_ReadEpoch addr 0xf6e0d8 size 0x1c virtual true final false
+  /// @brief Method get_ReadEpoch addr 0xef7eb4 size 0x1c virtual true final false
   inline int32_t get_ReadEpoch();
 
-  /// @brief Method get_ReadVersion addr 0xf6e0f4 size 0x18 virtual true final false
+  /// @brief Method get_ReadVersion addr 0xef7ed0 size 0x18 virtual true final false
   inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* get_ReadVersion();
 
-  /// @brief Method set_ReadVersion addr 0xf6e10c size 0x24 virtual true final false
+  /// @brief Method set_ReadVersion addr 0xef7ee8 size 0x24 virtual true final false
   inline void set_ReadVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
 
-  /// @brief Method SetWriteVersion addr 0xf6e130 size 0x24 virtual true final false
+  /// @brief Method SetWriteVersion addr 0xef7f0c size 0x24 virtual true final false
   inline void SetWriteVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* writeVersion);
 
-  /// @brief Method InitPendingEpoch addr 0xf6e154 size 0xc0 virtual true final false
+  /// @brief Method InitPendingEpoch addr 0xef7f30 size 0xc0 virtual true final false
   inline void InitPendingEpoch(::Org::BouncyCastle::Crypto::Tls::TlsCipher* pendingCipher);
 
-  /// @brief Method HandshakeSuccessful addr 0xf6e214 size 0xdc virtual true final false
+  /// @brief Method HandshakeSuccessful addr 0xef7ff0 size 0xdc virtual true final false
   inline void HandshakeSuccessful(::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit* retransmit);
 
-  /// @brief Method ResetWriteEpoch addr 0xf6e2f0 size 0x14 virtual true final false
+  /// @brief Method ResetWriteEpoch addr 0xef80cc size 0x14 virtual true final false
   inline void ResetWriteEpoch();
 
-  /// @brief Method GetReceiveLimit addr 0xf6e304 size 0x170 virtual true final false
+  /// @brief Method GetReceiveLimit addr 0xef80e0 size 0x170 virtual true final false
   inline int32_t GetReceiveLimit();
 
-  /// @brief Method GetSendLimit addr 0xf6e474 size 0x174 virtual true final false
+  /// @brief Method GetSendLimit addr 0xef8250 size 0x174 virtual true final false
   inline int32_t GetSendLimit();
 
-  /// @brief Method Receive addr 0xf6e5e8 size 0x1c4 virtual true final false
+  /// @brief Method Receive addr 0xef83c4 size 0x1c4 virtual true final false
   inline int32_t Receive(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t waitMillis);
 
-  /// @brief Method Send addr 0xf6eedc size 0x178 virtual true final false
+  /// @brief Method Send addr 0xef8cb8 size 0x178 virtual true final false
   inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method Close addr 0xf6f2d4 size 0x84 virtual true final false
+  /// @brief Method Close addr 0xef90b0 size 0x84 virtual true final false
   inline void Close();
 
-  /// @brief Method Failed addr 0xf6f4b4 size 0x40 virtual true final false
+  /// @brief Method Failed addr 0xef9290 size 0x40 virtual true final false
   inline void Failed();
 
-  /// @brief Method Fail addr 0xf6f4f4 size 0xcc virtual true final false
+  /// @brief Method Fail addr 0xef92d0 size 0xcc virtual true final false
   inline void Fail(uint8_t alertDescription);
 
-  /// @brief Method Warn addr 0xf6f6ec size 0x14 virtual true final false
+  /// @brief Method Warn addr 0xef94c8 size 0x14 virtual true final false
   inline void Warn(uint8_t alertDescription, ::StringW message);
 
-  /// @brief Method CloseTransport addr 0xf6f358 size 0x15c virtual false final false
+  /// @brief Method CloseTransport addr 0xef9134 size 0x15c virtual false final false
   inline void CloseTransport();
 
-  /// @brief Method RaiseAlert addr 0xf6f5c0 size 0x12c virtual false final false
+  /// @brief Method RaiseAlert addr 0xef939c size 0x12c virtual false final false
   inline void RaiseAlert(uint8_t alertLevel, uint8_t alertDescription, ::StringW message, ::System::Exception* cause);
 
-  /// @brief Method ReceiveDatagram addr 0xf6f700 size 0x194 virtual false final false
+  /// @brief Method ReceiveDatagram addr 0xef94dc size 0x194 virtual false final false
   inline int32_t ReceiveDatagram(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t waitMillis);
 
-  /// @brief Method ProcessRecord addr 0xf6e97c size 0x560 virtual false final false
+  /// @brief Method ProcessRecord addr 0xef8758 size 0x560 virtual false final false
   inline int32_t ProcessRecord(int32_t received, ::ArrayW<uint8_t, ::Array<uint8_t>*> record, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method ReceiveRecord addr 0xf6e7ac size 0x1d0 virtual false final false
+  /// @brief Method ReceiveRecord addr 0xef8588 size 0x1d0 virtual false final false
   inline int32_t ReceiveRecord(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t waitMillis);
 
-  /// @brief Method SendRecord addr 0xf6f054 size 0x280 virtual false final false
+  /// @brief Method SendRecord addr 0xef8e30 size 0x280 virtual false final false
   inline void SendRecord(uint8_t contentType, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method GetMacSequenceNumber addr 0xf6f8d8 size 0x8 virtual false final false
+  /// @brief Method GetMacSequenceNumber addr 0xef96b4 size 0x8 virtual false final false
   static inline int64_t GetMacSequenceNumber(int32_t epoch, int64_t sequence_number);
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsRecordLayer", modifiers: "&&", def_value: None }]
@@ -384,6 +384,40 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, ___mTransport) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, ___mContext) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, ___mPeer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, ___mRecordQueue) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, ___mClosed) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, ___mFailed) == 0x31, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, ___mReadVersion) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, ___mWriteVersion) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, ___mInHandshake) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, ___mPlaintextLimit) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, ___mCurrentEpoch) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, ___mPendingEpoch) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, ___mReadEpoch) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, ___mWriteEpoch) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, ___mRetransmit) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, ___mRetransmitEpoch) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, ___mRetransmitTimeout) == 0x80, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer);

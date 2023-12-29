@@ -9,8 +9,8 @@ CORDL_MODULE_EXPORT(MissionObjectiveGameUIView)
 namespace UnityEngine::UI {
 class Image;
 }
-namespace GlobalNamespace {
-class MissionObjectiveChecker;
+namespace UnityEngine {
+class ParticleSystem;
 }
 namespace UnityEngine {
 class Sprite;
@@ -18,8 +18,8 @@ class Sprite;
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace UnityEngine {
-class ParticleSystem;
+namespace GlobalNamespace {
+class MissionObjectiveChecker;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionObjectiveGameUIView);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5035))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5140))
 // CS Name: ::MissionObjectiveGameUIView*
 class CORDL_TYPE MissionObjectiveGameUIView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -163,24 +163,24 @@ public:
 
   constexpr void __set__missionObjectiveChecker(::GlobalNamespace::MissionObjectiveChecker* value);
 
-  /// @brief Method SetMissionObjectiveChecker addr 0x23c1034 size 0x27c virtual false final false
+  /// @brief Method SetMissionObjectiveChecker addr 0x2287cc8 size 0x27c virtual false final false
   inline void SetMissionObjectiveChecker(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
-  /// @brief Method HandleMissionObjectiveStatusDidChange addr 0x23c140c size 0x4 virtual false final false
+  /// @brief Method HandleMissionObjectiveStatusDidChange addr 0x22880a0 size 0x4 virtual false final false
   inline void HandleMissionObjectiveStatusDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
-  /// @brief Method HandleMissionObjectiveCheckedValueDidChange addr 0x23c1410 size 0x4 virtual false final false
+  /// @brief Method HandleMissionObjectiveCheckedValueDidChange addr 0x22880a4 size 0x4 virtual false final false
   inline void HandleMissionObjectiveCheckedValueDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
-  /// @brief Method RefreshIcon addr 0x23c12b0 size 0x104 virtual false final false
+  /// @brief Method RefreshIcon addr 0x2287f44 size 0x104 virtual false final false
   inline void RefreshIcon();
 
-  /// @brief Method RefreshValue addr 0x23c13b4 size 0x58 virtual false final false
+  /// @brief Method RefreshValue addr 0x2288048 size 0x58 virtual false final false
   inline void RefreshValue();
 
   static inline ::GlobalNamespace::MissionObjectiveGameUIView* New_ctor();
 
-  /// @brief Method .ctor addr 0x23c1414 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x22880a8 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveGameUIView", modifiers: "&&", def_value: None }]
@@ -243,6 +243,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionObjectiveGameUIView, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____notFailedIcon) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____failedIcon) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____notClearedIcon) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____clearedIcon) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____resultIcon) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____finalClearIconColor) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____finalFailIconColor) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____nonFinalIconColor) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____clearedPS) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____numberOfParticles) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____nameText) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____valueText) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____conditionText) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____missionObjectiveChecker) == 0x98, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionObjectiveGameUIView);

@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(QuantizedMathf)
 namespace UnityEngine {
+struct Pose;
+}
+namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct Pose;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,28 +26,28 @@ MARK_REF_PTR_T(::GlobalNamespace::QuantizedMathf);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15038))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15183))
 // CS Name: ::QuantizedMathf*
 class CORDL_TYPE QuantizedMathf : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Approximately addr 0x12a67b8 size 0xd4 virtual false final false
+  /// @brief Method Approximately addr 0x12346bc size 0xd4 virtual false final false
   static inline bool Approximately(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b);
 
-  /// @brief Method Approximately addr 0x12a688c size 0x10 virtual false final false
+  /// @brief Method Approximately addr 0x1234790 size 0x10 virtual false final false
   static inline bool Approximately(float_t a, float_t b, float_t epsilon);
 
-  /// @brief Method Approximately addr 0x12a689c size 0x74 virtual false final false
+  /// @brief Method Approximately addr 0x12347a0 size 0x74 virtual false final false
   static inline bool Approximately(int32_t a, int32_t b, int32_t epsilon);
 
-  /// @brief Method Approximately addr 0x12a6910 size 0x38 virtual false final false
+  /// @brief Method Approximately addr 0x1234814 size 0x38 virtual false final false
   static inline bool Approximately(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b);
 
-  /// @brief Method Approximately addr 0x12a6948 size 0x60 virtual false final false
+  /// @brief Method Approximately addr 0x123484c size 0x60 virtual false final false
   static inline bool Approximately(::UnityEngine::Pose a, ::UnityEngine::Pose b);
 
-  /// @brief Method QuantizedVectorComponentToString addr 0x12a69a8 size 0x100 virtual false final false
+  /// @brief Method QuantizedVectorComponentToString addr 0x12348ac size 0x100 virtual false final false
   static inline ::StringW QuantizedVectorComponentToString(int32_t v);
 
   // Ctor Parameters [CppParam { name: "", ty: "QuantizedMathf", modifiers: "&&", def_value: None }]

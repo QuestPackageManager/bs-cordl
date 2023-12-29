@@ -19,27 +19,27 @@ MARK_REF_PTR_T(::System::Security::Cryptography::DESCryptoServiceProvider);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2928))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2929))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2927))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2928))
 // CS Name: ::System.Security.Cryptography::DESCryptoServiceProvider*
 class CORDL_TYPE DESCryptoServiceProvider : public ::System::Security::Cryptography::DES {
 public:
   // Declarations
   static inline ::System::Security::Cryptography::DESCryptoServiceProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x245cd38 size 0xd0 virtual false final false
+  /// @brief Method .ctor addr 0x23036c0 size 0xd0 virtual false final false
   inline void _ctor();
 
-  /// @brief Method CreateEncryptor addr 0x245ce08 size 0x148 virtual true final false
+  /// @brief Method CreateEncryptor addr 0x2303790 size 0x148 virtual true final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method CreateDecryptor addr 0x245cf50 size 0x148 virtual true final false
+  /// @brief Method CreateDecryptor addr 0x23038d8 size 0x148 virtual true final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method GenerateKey addr 0x245d098 size 0xe8 virtual true final false
+  /// @brief Method GenerateKey addr 0x2303a20 size 0xe8 virtual true final false
   inline void GenerateKey();
 
-  /// @brief Method GenerateIV addr 0x245d180 size 0x6c virtual true final false
+  /// @brief Method GenerateIV addr 0x2303b08 size 0x6c virtual true final false
   inline void GenerateIV();
 
   // Ctor Parameters [CppParam { name: "", ty: "DESCryptoServiceProvider", modifiers: "&&", def_value: None }]

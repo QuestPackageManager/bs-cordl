@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleKeyword);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7300))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7386))
 // CS Name: ::UnityEngine.UIElements::StyleKeyword
 struct CORDL_TYPE StyleKeyword {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleKeyword, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleKeyword, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleKeyword, "UnityEngine.UIElements", "StyleKeyword");

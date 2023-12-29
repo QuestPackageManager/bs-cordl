@@ -17,15 +17,15 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_Viewport);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9755))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9682))
 // CS Name: ::HoudiniEngineUnity::HAPI_Viewport
 struct CORDL_TYPE HAPI_Viewport {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2191f74 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x203b5d8 size 0x88 virtual false final false
   inline void _ctor(bool initializeFields);
 
-  /// @brief Method Init addr 0x2191ffc size 0x70 virtual false final false
+  /// @brief Method Init addr 0x203b660 size 0x70 virtual false final false
   inline void Init();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "rotationQuaternion", ty:
@@ -52,6 +52,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_Viewport, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_Viewport, position) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_Viewport, rotationQuaternion) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_Viewport, offset) == 0x10, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_Viewport, "HoudiniEngineUnity", "HAPI_Viewport");

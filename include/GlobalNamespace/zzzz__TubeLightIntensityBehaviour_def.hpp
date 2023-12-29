@@ -13,13 +13,13 @@ namespace System {
 class Object;
 }
 namespace GlobalNamespace {
+class TubeBloomPrePassLight;
+}
+namespace GlobalNamespace {
 class DirectionalLight;
 }
 namespace UnityEngine::Playables {
 struct Playable;
-}
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TubeLightIntensityBehaviour);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6024))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10347))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6079))
 // CS Name: ::TubeLightIntensityBehaviour*
 class CORDL_TYPE TubeLightIntensityBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -181,18 +181,18 @@ public:
 
   constexpr void __set__firstFrameLaserIntensity(float_t value);
 
-  /// @brief Method ProcessFrame addr 0x2318354 size 0x370 virtual true final false
+  /// @brief Method ProcessFrame addr 0x21c5530 size 0x370 virtual true final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method EnableObjects addr 0x23186c4 size 0xd4 virtual false final false
+  /// @brief Method EnableObjects addr 0x21c58a0 size 0xd4 virtual false final false
   inline void EnableObjects(bool on);
 
-  /// @brief Method OnPlayableDestroy addr 0x2318798 size 0xcc virtual true final false
+  /// @brief Method OnPlayableDestroy addr 0x21c5974 size 0xcc virtual true final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
   static inline ::GlobalNamespace::TubeLightIntensityBehaviour* New_ctor();
 
-  /// @brief Method .ctor addr 0x2318864 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21c5a40 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TubeLightIntensityBehaviour", modifiers: "&&", def_value: None }]
@@ -261,6 +261,38 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TubeLightIntensityBehaviour, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____noPredefinedStartValue) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____startLightIntensity) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____startLaserIntensity) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____endLightIntensity) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____endLaserIntensity) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____disableWhenFinished) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____blend) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____initialized) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____originalLightIntensity) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____originalLaserIntensity) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____tubeLights) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____directionalLights) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____started) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____finished) == 0x49, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____firstFrameLightIntensity) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeLightIntensityBehaviour, ____firstFrameLaserIntensity) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TubeLightIntensityBehaviour);

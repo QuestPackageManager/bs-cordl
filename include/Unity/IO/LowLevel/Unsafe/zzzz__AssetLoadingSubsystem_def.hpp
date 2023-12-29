@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem);
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9986))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9914))
 // CS Name: ::Unity.IO.LowLevel.Unsafe::AssetLoadingSubsystem
 struct CORDL_TYPE AssetLoadingSubsystem {
 public:
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Unity::IO::LowLevel::Unsafe
 DEFINE_IL2CPP_ARG_TYPE(::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem, "Unity.IO.LowLevel.Unsafe", "AssetLoadingSubsystem");

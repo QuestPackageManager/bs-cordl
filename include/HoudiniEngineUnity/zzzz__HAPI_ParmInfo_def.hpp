@@ -14,25 +14,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_ParmInfo)
 namespace HoudiniEngineUnity {
-struct HAPI_NodeFlags;
+struct HAPI_ParmType;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_RampType;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_NodeType;
+struct HAPI_NodeFlags;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_ParmType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PrmScriptType;
+struct HAPI_ChoiceListType;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_Permissions;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_ChoiceListType;
+struct HAPI_PrmScriptType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_NodeType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -44,28 +44,28 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ParmInfo);
 // SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9698)), TypeDefinitionIndex(TypeDefinitionIndex(9700)), TypeDefinitionIndex(TypeDefinitionIndex(9697)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9696)), TypeDefinitionIndex(TypeDefinitionIndex(9694)), TypeDefinitionIndex(TypeDefinitionIndex(9701)), TypeDefinitionIndex(TypeDefinitionIndex(9695))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(9734)) CS Name: ::HoudiniEngineUnity::HAPI_ParmInfo
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9628)), TypeDefinitionIndex(TypeDefinitionIndex(9621)), TypeDefinitionIndex(TypeDefinitionIndex(9624)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9622)), TypeDefinitionIndex(TypeDefinitionIndex(9625)), TypeDefinitionIndex(TypeDefinitionIndex(9623)), TypeDefinitionIndex(TypeDefinitionIndex(9627))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(9661)) CS Name: ::HoudiniEngineUnity::HAPI_ParmInfo
 struct CORDL_TYPE HAPI_ParmInfo {
 public:
   // Declarations
-  /// @brief Method isInt addr 0x2191b78 size 0x20 virtual false final false
+  /// @brief Method isInt addr 0x203b1dc size 0x20 virtual false final false
   inline bool isInt();
 
-  /// @brief Method isFloat addr 0x2191b98 size 0x14 virtual false final false
+  /// @brief Method isFloat addr 0x203b1fc size 0x14 virtual false final false
   inline bool isFloat();
 
-  /// @brief Method isString addr 0x2191bac size 0x30 virtual false final false
+  /// @brief Method isString addr 0x203b210 size 0x30 virtual false final false
   inline bool isString();
 
-  /// @brief Method isPath addr 0x2191bdc size 0x20 virtual false final false
+  /// @brief Method isPath addr 0x203b240 size 0x20 virtual false final false
   inline bool isPath();
 
-  /// @brief Method isNode addr 0x2191bfc size 0x10 virtual false final false
+  /// @brief Method isNode addr 0x203b260 size 0x10 virtual false final false
   inline bool isNode();
 
-  /// @brief Method isNonValue addr 0x2191c0c size 0x14 virtual false final false
+  /// @brief Method isNonValue addr 0x203b270 size 0x14 virtual false final false
   inline bool isNonValue();
 
   // Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parentId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
@@ -232,6 +232,90 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_ParmInfo, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, id) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, parentId) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, childIndex) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, type) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, scriptType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, typeInfoSH) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, permissions) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, tagCount) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, size) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, choiceListType) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, choiceCount) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, nameSH) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, labelSH) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, templateNameSH) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, helpSH) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, hasMin) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, hasMax) == 0x3d, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, hasUIMin) == 0x3e, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, hasUIMax) == 0x3f, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, min) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, max) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, UIMin) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, UIMax) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, invisible) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, disabled) == 0x51, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, spare) == 0x52, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, joinNext) == 0x53, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, labelNone) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, intValuesIndex) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, floatValuesIndex) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, stringValuesIndex) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, choiceIndex) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, inputNodeType) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, inputNodeFlag) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, isChildOfMultiParm) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, instanceNum) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, instanceLength) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, instanceCount) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, instanceStartOffset) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, rampType) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, visibilityConditionSH) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, disabledConditionSH) == 0x8c, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_ParmInfo, "HoudiniEngineUnity", "HAPI_ParmInfo");

@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapLevelCollection)
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class IBeatmapLevelCollection;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelCollection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4345))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4364))
 // CS Name: ::BeatmapLevelCollection*
 class CORDL_TYPE BeatmapLevelCollection : public ::System::Object {
 public:
@@ -46,15 +46,15 @@ public:
 
   constexpr void __set__levels(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* value);
 
-  /// @brief Method get_beatmapLevels addr 0x2341804 size 0x8 virtual true final true
+  /// @brief Method get_beatmapLevels addr 0x21f5904 size 0x8 virtual true final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();
 
   static inline ::GlobalNamespace::BeatmapLevelCollection* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* levels);
 
-  /// @brief Method .ctor addr 0x234180c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x21f590c size 0x28 virtual false final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* levels);
 
-  /// @brief Method CreateBeatmapLevelCollectionByUsingBeatmapCharacteristicFiltering addr 0x2341834 size 0x7cc virtual false final false
+  /// @brief Method CreateBeatmapLevelCollectionByUsingBeatmapCharacteristicFiltering addr 0x21f5934 size 0x7cc virtual false final false
   static inline ::GlobalNamespace::BeatmapLevelCollection* CreateBeatmapLevelCollectionByUsingBeatmapCharacteristicFiltering(::GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection,
                                                                                                                              ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
@@ -79,6 +79,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelCollection, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapLevelCollection, ____levels) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapLevelCollection);

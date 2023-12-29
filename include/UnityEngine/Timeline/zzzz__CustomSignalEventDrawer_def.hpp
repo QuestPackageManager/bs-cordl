@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::CustomSignalEventDrawer);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13891))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10098))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14162))
 // CS Name: ::UnityEngine.Timeline::CustomSignalEventDrawer*
 class CORDL_TYPE CustomSignalEventDrawer : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   static inline ::UnityEngine::Timeline::CustomSignalEventDrawer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c68d7c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2ae5028 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomSignalEventDrawer", modifiers: "&&", def_value: None }]

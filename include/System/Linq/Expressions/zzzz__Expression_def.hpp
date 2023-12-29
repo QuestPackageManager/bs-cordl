@@ -6,31 +6,31 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Expression)
 namespace System::Linq::Expressions {
-class __Expression__ExtensionInfo;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2;
+class __Expression__UnaryExpressionProxy;
 }
 namespace System {
 class Type;
-}
-namespace System::Linq::Expressions {
-struct ExpressionType;
-}
-namespace System::Linq::Expressions {
-class __Expression__UnaryExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__LambdaExpressionProxy;
 }
 namespace System::Linq::Expressions {
 class __Expression__MemberExpressionProxy;
 }
 namespace System::Dynamic::Utils {
 template <typename TKey, typename TValue> class CacheDict_2;
+}
+namespace System::Linq::Expressions {
+struct ExpressionType;
+}
+namespace System::Linq::Expressions {
+class __Expression__ExtensionInfo;
+}
+namespace System::Linq::Expressions {
+class __Expression__LambdaExpressionProxy;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TKey, typename TValue> class ConditionalWeakTable_2;
+}
+namespace System::Reflection {
+class MethodInfo;
 }
 // Forward declare root types
 namespace System::Linq::Expressions {
@@ -58,8 +58,8 @@ MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__UnaryExpressionProxy);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14296))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14634))
 // CS Name: ::Expression::LambdaExpressionProxy*
 class CORDL_TYPE __Expression__LambdaExpressionProxy : public ::System::Object {
 public:
@@ -88,8 +88,8 @@ static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Exp
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14297))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14635))
 // CS Name: ::Expression::MemberExpressionProxy*
 class CORDL_TYPE __Expression__MemberExpressionProxy : public ::System::Object {
 public:
@@ -118,8 +118,8 @@ static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Exp
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14298))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14636))
 // CS Name: ::Expression::UnaryExpressionProxy*
 class CORDL_TYPE __Expression__UnaryExpressionProxy : public ::System::Object {
 public:
@@ -148,8 +148,8 @@ static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Exp
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14302))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14299))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14640)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14637))
 // CS Name: ::Expression::ExtensionInfo*
 class CORDL_TYPE __Expression__ExtensionInfo : public ::System::Object {
 public:
@@ -185,13 +185,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__ExtensionInfo, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::System::Linq::Expressions::__Expression__ExtensionInfo, ___NodeType) == 0x10, "Offset mismatch!");
+
 } // namespace System::Linq::Expressions
 // Type: System.Linq.Expressions::Expression
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14300))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14638))
 // CS Name: ::System.Linq.Expressions::Expression*
 class CORDL_TYPE Expression : public ::System::Object {
 public:
@@ -224,7 +226,7 @@ public:
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::__Expression__ExtensionInfo*>*
   getStaticF_s_legacyCtorSupportTable();
 
-  /// @brief Method get_NodeType addr 0x2813b1c size 0xf0 virtual true final false
+  /// @brief Method get_NodeType addr 0x2698b08 size 0xf0 virtual true final false
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression", modifiers: "&&", def_value: None }]

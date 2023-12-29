@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IMultiplayerSpectatingSpot)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class IMultiplayerObservable;
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerSpectatingSpot);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5258))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5353))
 // CS Name: ::IMultiplayerSpectatingSpot*
 class CORDL_TYPE IMultiplayerSpectatingSpot {
 public:

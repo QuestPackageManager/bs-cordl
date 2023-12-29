@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MarshalAsAttribute)
-namespace System {
-class Type;
-}
 namespace System::Runtime::InteropServices {
 struct UnmanagedType;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::InteropServices {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::MarshalAsAttribute);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 70, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3321)), TypeDefinitionIndex(TypeDefinitionIndex(3320))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3341))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3317)), TypeDefinitionIndex(TypeDefinitionIndex(3318)), TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3337))
 // CS Name: ::System.Runtime.InteropServices::MarshalAsAttribute*
 class CORDL_TYPE MarshalAsAttribute : public ::System::Attribute {
 public:
@@ -124,13 +124,13 @@ public:
 
   static inline ::System::Runtime::InteropServices::MarshalAsAttribute* New_ctor(::System::Runtime::InteropServices::UnmanagedType unmanagedType);
 
-  /// @brief Method .ctor addr 0x24da4f4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2380eac size 0x28 virtual false final false
   inline void _ctor(::System::Runtime::InteropServices::UnmanagedType unmanagedType);
 
-  /// @brief Method get_Value addr 0x24da51c size 0x8 virtual false final false
+  /// @brief Method get_Value addr 0x2380ed4 size 0x8 virtual false final false
   inline ::System::Runtime::InteropServices::UnmanagedType get_Value();
 
-  /// @brief Method Copy addr 0x24da524 size 0x64 virtual false final false
+  /// @brief Method Copy addr 0x2380edc size 0x64 virtual false final false
   inline ::System::Runtime::InteropServices::MarshalAsAttribute* Copy();
 
   // Ctor Parameters [CppParam { name: "", ty: "MarshalAsAttribute", modifiers: "&&", def_value: None }]
@@ -181,6 +181,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::MarshalAsAttribute, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::MarshalAsAttribute, ___MarshalCookie) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::MarshalAsAttribute, ___MarshalType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::MarshalAsAttribute, ___MarshalTypeRef) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::MarshalAsAttribute, ___SafeArrayUserDefinedSubType) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::MarshalAsAttribute, ___utype) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::MarshalAsAttribute, ___ArraySubType) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::MarshalAsAttribute, ___SafeArraySubType) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::MarshalAsAttribute, ___SizeConst) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::MarshalAsAttribute, ___IidParameterIndex) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::MarshalAsAttribute, ___SizeParamIndex) == 0x44, "Offset mismatch!");
 
 } // namespace System::Runtime::InteropServices
 NEED_NO_BOX(::System::Runtime::InteropServices::MarshalAsAttribute);

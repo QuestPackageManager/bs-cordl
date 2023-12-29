@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CancellationCallbackCoreWorkArguments)
 namespace System::Threading {
-template <typename T> class SparselyPopulatedArrayFragment_1;
+class CancellationCallbackInfo;
 }
 namespace System::Threading {
-class CancellationCallbackInfo;
+template <typename T> class SparselyPopulatedArrayFragment_1;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -22,12 +22,12 @@ MARK_VAL_T(::System::Threading::CancellationCallbackCoreWorkArguments);
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2689))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2687))
 // CS Name: ::System.Threading::CancellationCallbackCoreWorkArguments
 struct CORDL_TYPE CancellationCallbackCoreWorkArguments {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2613570 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x24b8554 size 0xc virtual false final false
   inline void _ctor(::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>* currArrayFragment, int32_t currArrayIndex);
 
   // Ctor Parameters [CppParam { name: "_currArrayFragment", ty: "::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>*", modifiers: "", def_value:
@@ -52,6 +52,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::CancellationCallbackCoreWorkArguments, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::CancellationCallbackCoreWorkArguments, _currArrayFragment) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::CancellationCallbackCoreWorkArguments, _currArrayIndex) == 0x8, "Offset mismatch!");
 
 } // namespace System::Threading
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::CancellationCallbackCoreWorkArguments, "System.Threading", "CancellationCallbackCoreWorkArguments");

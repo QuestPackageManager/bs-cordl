@@ -11,11 +11,11 @@ CORDL_MODULE_EXPORT(EncodingHelper)
 namespace System::Reflection {
 class Assembly;
 }
-namespace System {
-class Object;
-}
 namespace System::Text {
 class Encoding;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Text {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Text::EncodingHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2877))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2873))
 // CS Name: ::System.Text::EncodingHelper*
 class CORDL_TYPE EncodingHelper : public ::System::Object {
 public:
@@ -61,16 +61,16 @@ public:
 
   static inline bool getStaticF_i18nDisabled();
 
-  /// @brief Method get_UTF8Unmarked addr 0x24500ec size 0x1f0 virtual false final false
+  /// @brief Method get_UTF8Unmarked addr 0x22f65d0 size 0x1f0 virtual false final false
   static inline ::System::Text::Encoding* get_UTF8Unmarked();
 
-  /// @brief Method InternalCodePage addr 0x24502dc size 0x4 virtual false final false
+  /// @brief Method InternalCodePage addr 0x22f67c0 size 0x4 virtual false final false
   static inline ::StringW InternalCodePage(ByRef<int32_t> code_page);
 
-  /// @brief Method GetDefaultEncoding addr 0x244cf88 size 0x17c virtual false final false
+  /// @brief Method GetDefaultEncoding addr 0x22f346c size 0x17c virtual false final false
   static inline ::System::Text::Encoding* GetDefaultEncoding();
 
-  /// @brief Method InvokeI18N addr 0x244b3d8 size 0x70c virtual false final false
+  /// @brief Method InvokeI18N addr 0x22f18bc size 0x70c virtual false final false
   static inline ::System::Object* InvokeI18N(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   // Ctor Parameters [CppParam { name: "", ty: "EncodingHelper", modifiers: "&&", def_value: None }]

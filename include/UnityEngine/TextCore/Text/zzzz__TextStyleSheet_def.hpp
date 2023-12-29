@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(TextStyleSheet)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace UnityEngine::TextCore::Text {
 class TextStyle;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextStyleSheet);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13732))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13611))
 // CS Name: ::UnityEngine.TextCore.Text::TextStyleSheet*
 class CORDL_TYPE TextStyleSheet : public ::UnityEngine::ScriptableObject {
 public:
@@ -52,24 +52,24 @@ public:
 
   constexpr void __set_m_StyleLookupDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextStyle*>* value);
 
-  /// @brief Method get_styles addr 0x2d4c1c8 size 0x8 virtual false final false
+  /// @brief Method get_styles addr 0x2be3e18 size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* get_styles();
 
-  /// @brief Method GetStyle addr 0x2d4c1d0 size 0x88 virtual false final false
+  /// @brief Method GetStyle addr 0x2be3e20 size 0x88 virtual false final false
   inline ::UnityEngine::TextCore::Text::TextStyle* GetStyle(int32_t hashCode);
 
-  /// @brief Method GetStyle addr 0x2d4c41c size 0x98 virtual false final false
+  /// @brief Method GetStyle addr 0x2be406c size 0x98 virtual false final false
   inline ::UnityEngine::TextCore::Text::TextStyle* GetStyle(::StringW name);
 
-  /// @brief Method RefreshStyles addr 0x2d4c4b4 size 0x4 virtual false final false
+  /// @brief Method RefreshStyles addr 0x2be4104 size 0x4 virtual false final false
   inline void RefreshStyles();
 
-  /// @brief Method LoadStyleDictionaryInternal addr 0x2d4c258 size 0x1c4 virtual false final false
+  /// @brief Method LoadStyleDictionaryInternal addr 0x2be3ea8 size 0x1c4 virtual false final false
   inline void LoadStyleDictionaryInternal();
 
   static inline ::UnityEngine::TextCore::Text::TextStyleSheet* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d4c4b8 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x2be4108 size 0x80 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextStyleSheet", modifiers: "&&", def_value: None }]
@@ -96,6 +96,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextStyleSheet, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextStyleSheet, ___m_StyleList) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextStyleSheet, ___m_StyleLookupDictionary) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::TextStyleSheet);

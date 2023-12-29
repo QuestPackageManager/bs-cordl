@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Resources::NeutralResourcesLanguageAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3431)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3427))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545)), TypeDefinitionIndex(TypeDefinitionIndex(3426))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3422))
 // CS Name: ::System.Resources::NeutralResourcesLanguageAttribute*
 class CORDL_TYPE NeutralResourcesLanguageAttribute : public ::System::Attribute {
 public:
@@ -49,13 +49,13 @@ public:
 
   static inline ::System::Resources::NeutralResourcesLanguageAttribute* New_ctor(::StringW cultureName);
 
-  /// @brief Method .ctor addr 0x24deee4 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x2384450 size 0x7c virtual false final false
   inline void _ctor(::StringW cultureName);
 
-  /// @brief Method get_CultureName addr 0x24def60 size 0x8 virtual false final false
+  /// @brief Method get_CultureName addr 0x23844cc size 0x8 virtual false final false
   inline ::StringW get_CultureName();
 
-  /// @brief Method get_Location addr 0x24def68 size 0x8 virtual false final false
+  /// @brief Method get_Location addr 0x23844d4 size 0x8 virtual false final false
   inline ::System::Resources::UltimateResourceFallbackLocation get_Location();
 
   // Ctor Parameters [CppParam { name: "", ty: "NeutralResourcesLanguageAttribute", modifiers: "&&", def_value: None }]
@@ -82,6 +82,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Resources::NeutralResourcesLanguageAttribute, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Resources::NeutralResourcesLanguageAttribute, ____CultureName_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::NeutralResourcesLanguageAttribute, ____Location_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace System::Resources
 NEED_NO_BOX(::System::Resources::NeutralResourcesLanguageAttribute);

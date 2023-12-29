@@ -10,14 +10,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRScreenshots)
-namespace OVR::OpenVR {
-struct EVRScreenshotError;
-}
-namespace System {
-class IAsyncResult;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace OVR::OpenVR {
+struct EVRScreenshotPropertyFilenames;
 }
 namespace System {
 class AsyncCallback;
@@ -25,17 +22,20 @@ class AsyncCallback;
 namespace System {
 class Object;
 }
+namespace System {
+class IAsyncResult;
+}
 namespace OVR::OpenVR {
-struct EVRScreenshotPropertyFilenames;
+struct EVRScreenshotError;
 }
 namespace OVR::OpenVR {
 struct EVRScreenshotType;
 }
 namespace OVR::OpenVR {
-class __IVRScreenshots___RequestScreenshot;
+class __IVRScreenshots___SubmitScreenshot;
 }
 namespace OVR::OpenVR {
-class __IVRScreenshots___SubmitScreenshot;
+class __IVRScreenshots___RequestScreenshot;
 }
 namespace OVR::OpenVR {
 class __IVRScreenshots___GetScreenshotPropertyFilename;
@@ -44,13 +44,13 @@ namespace OVR::OpenVR {
 class __IVRScreenshots___GetScreenshotPropertyType;
 }
 namespace OVR::OpenVR {
+class __IVRScreenshots___TakeStereoScreenshot;
+}
+namespace OVR::OpenVR {
 class __IVRScreenshots___UpdateScreenshotProgress;
 }
 namespace OVR::OpenVR {
 class __IVRScreenshots___HookScreenshot;
-}
-namespace OVR::OpenVR {
-class __IVRScreenshots___TakeStereoScreenshot;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -90,25 +90,25 @@ MARK_VAL_T(::OVR::OpenVR::IVRScreenshots);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8507))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9276))
 // CS Name: ::IVRScreenshots::_RequestScreenshot*
 class CORDL_TYPE __IVRScreenshots___RequestScreenshot : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRScreenshots___RequestScreenshot* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x27ec268 size 0xd8 virtual false final false
+  /// @brief Method .ctor addr 0x26752e4 size 0xd8 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x27ec340 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x26753bc size 0x14 virtual true final false
   inline ::OVR::OpenVR::EVRScreenshotError Invoke(ByRef<uint32_t> pOutScreenshotHandle, ::OVR::OpenVR::EVRScreenshotType type, ::StringW pchPreviewFilename, ::StringW pchVRFilename);
 
-  /// @brief Method BeginInvoke addr 0x27ec354 size 0xcc virtual true final false
+  /// @brief Method BeginInvoke addr 0x26753d0 size 0xcc virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<uint32_t> pOutScreenshotHandle, ::OVR::OpenVR::EVRScreenshotType type, ::StringW pchPreviewFilename, ::StringW pchVRFilename,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x27ec420 size 0x2c virtual true final false
+  /// @brief Method EndInvoke addr 0x267549c size 0x2c virtual true final false
   inline ::OVR::OpenVR::EVRScreenshotError EndInvoke(ByRef<uint32_t> pOutScreenshotHandle, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRScreenshots___RequestScreenshot", modifiers: "&&", def_value: None }]
@@ -135,25 +135,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRScreenshots___
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8508))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9277))
 // CS Name: ::IVRScreenshots::_HookScreenshot*
 class CORDL_TYPE __IVRScreenshots___HookScreenshot : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRScreenshots___HookScreenshot* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x27ec44c size 0xd8 virtual false final false
+  /// @brief Method .ctor addr 0x26754c8 size 0xd8 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x27ec524 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x26755a0 size 0x14 virtual true final false
   inline ::OVR::OpenVR::EVRScreenshotError Invoke(ByRef<::ArrayW<::OVR::OpenVR::EVRScreenshotType, ::Array<::OVR::OpenVR::EVRScreenshotType>*>> pSupportedTypes, int32_t numTypes);
 
-  /// @brief Method BeginInvoke addr 0x27ec538 size 0x94 virtual true final false
+  /// @brief Method BeginInvoke addr 0x26755b4 size 0x94 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::ArrayW<::OVR::OpenVR::EVRScreenshotType, ::Array<::OVR::OpenVR::EVRScreenshotType>*>> pSupportedTypes, int32_t numTypes,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x27ec5cc size 0x28 virtual true final false
+  /// @brief Method EndInvoke addr 0x2675648 size 0x28 virtual true final false
   inline ::OVR::OpenVR::EVRScreenshotError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRScreenshots___HookScreenshot", modifiers: "&&", def_value: None }]
@@ -180,24 +180,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRScreenshots___
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8509))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9278))
 // CS Name: ::IVRScreenshots::_GetScreenshotPropertyType*
 class CORDL_TYPE __IVRScreenshots___GetScreenshotPropertyType : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRScreenshots___GetScreenshotPropertyType* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x27ec5f4 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x2675670 size 0xc4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x27ec6b8 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2675734 size 0x14 virtual true final false
   inline ::OVR::OpenVR::EVRScreenshotType Invoke(uint32_t screenshotHandle, ByRef<::OVR::OpenVR::EVRScreenshotError> pError);
 
-  /// @brief Method BeginInvoke addr 0x27ec6cc size 0xb8 virtual true final false
+  /// @brief Method BeginInvoke addr 0x2675748 size 0xb8 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t screenshotHandle, ByRef<::OVR::OpenVR::EVRScreenshotError> pError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x27ec784 size 0x2c virtual true final false
+  /// @brief Method EndInvoke addr 0x2675800 size 0x2c virtual true final false
   inline ::OVR::OpenVR::EVRScreenshotType EndInvoke(ByRef<::OVR::OpenVR::EVRScreenshotError> pError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRScreenshots___GetScreenshotPropertyType", modifiers: "&&", def_value: None }]
@@ -224,26 +224,26 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRScreenshots___
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8510))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9279))
 // CS Name: ::IVRScreenshots::_GetScreenshotPropertyFilename*
 class CORDL_TYPE __IVRScreenshots___GetScreenshotPropertyFilename : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRScreenshots___GetScreenshotPropertyFilename* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x27ec7b0 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x267582c size 0xc4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x27ec874 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x26758f0 size 0x14 virtual true final false
   inline uint32_t Invoke(uint32_t screenshotHandle, ::OVR::OpenVR::EVRScreenshotPropertyFilenames filenameType, ::System::Text::StringBuilder* pchFilename, uint32_t cchFilename,
                          ByRef<::OVR::OpenVR::EVRScreenshotError> pError);
 
-  /// @brief Method BeginInvoke addr 0x27ec888 size 0x104 virtual true final false
+  /// @brief Method BeginInvoke addr 0x2675904 size 0x104 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t screenshotHandle, ::OVR::OpenVR::EVRScreenshotPropertyFilenames filenameType, ::System::Text::StringBuilder* pchFilename, uint32_t cchFilename,
                                              ByRef<::OVR::OpenVR::EVRScreenshotError> pError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x27ec98c size 0x2c virtual true final false
+  /// @brief Method EndInvoke addr 0x2675a08 size 0x2c virtual true final false
   inline uint32_t EndInvoke(ByRef<::OVR::OpenVR::EVRScreenshotError> pError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRScreenshots___GetScreenshotPropertyFilename", modifiers: "&&", def_value: None }]
@@ -270,24 +270,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRScreenshots___
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8511))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9280))
 // CS Name: ::IVRScreenshots::_UpdateScreenshotProgress*
 class CORDL_TYPE __IVRScreenshots___UpdateScreenshotProgress : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRScreenshots___UpdateScreenshotProgress* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x27ec9b8 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x2675a34 size 0xc4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x27eca7c size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2675af8 size 0x14 virtual true final false
   inline ::OVR::OpenVR::EVRScreenshotError Invoke(uint32_t screenshotHandle, float_t flProgress);
 
-  /// @brief Method BeginInvoke addr 0x27eca90 size 0xb8 virtual true final false
+  /// @brief Method BeginInvoke addr 0x2675b0c size 0xb8 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t screenshotHandle, float_t flProgress, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x27ecb48 size 0x28 virtual true final false
+  /// @brief Method EndInvoke addr 0x2675bc4 size 0x28 virtual true final false
   inline ::OVR::OpenVR::EVRScreenshotError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRScreenshots___UpdateScreenshotProgress", modifiers: "&&", def_value: None }]
@@ -314,24 +314,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRScreenshots___
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8512))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9281))
 // CS Name: ::IVRScreenshots::_TakeStereoScreenshot*
 class CORDL_TYPE __IVRScreenshots___TakeStereoScreenshot : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRScreenshots___TakeStereoScreenshot* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x27ecb70 size 0xd8 virtual false final false
+  /// @brief Method .ctor addr 0x2675bec size 0xd8 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x27ecc48 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2675cc4 size 0x14 virtual true final false
   inline ::OVR::OpenVR::EVRScreenshotError Invoke(ByRef<uint32_t> pOutScreenshotHandle, ::StringW pchPreviewFilename, ::StringW pchVRFilename);
 
-  /// @brief Method BeginInvoke addr 0x27ecc5c size 0xa0 virtual true final false
+  /// @brief Method BeginInvoke addr 0x2675cd8 size 0xa0 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<uint32_t> pOutScreenshotHandle, ::StringW pchPreviewFilename, ::StringW pchVRFilename, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x27eccfc size 0x2c virtual true final false
+  /// @brief Method EndInvoke addr 0x2675d78 size 0x2c virtual true final false
   inline ::OVR::OpenVR::EVRScreenshotError EndInvoke(ByRef<uint32_t> pOutScreenshotHandle, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRScreenshots___TakeStereoScreenshot", modifiers: "&&", def_value: None }]
@@ -358,25 +358,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRScreenshots___
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8513))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9282))
 // CS Name: ::IVRScreenshots::_SubmitScreenshot*
 class CORDL_TYPE __IVRScreenshots___SubmitScreenshot : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRScreenshots___SubmitScreenshot* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x27ecd28 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x2675da4 size 0xc4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x27ecdec size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2675e68 size 0x14 virtual true final false
   inline ::OVR::OpenVR::EVRScreenshotError Invoke(uint32_t screenshotHandle, ::OVR::OpenVR::EVRScreenshotType type, ::StringW pchSourcePreviewFilename, ::StringW pchSourceVRFilename);
 
-  /// @brief Method BeginInvoke addr 0x27ece00 size 0xc8 virtual true final false
+  /// @brief Method BeginInvoke addr 0x2675e7c size 0xc8 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t screenshotHandle, ::OVR::OpenVR::EVRScreenshotType type, ::StringW pchSourcePreviewFilename, ::StringW pchSourceVRFilename,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x27ecec8 size 0x28 virtual true final false
+  /// @brief Method EndInvoke addr 0x2675f44 size 0x28 virtual true final false
   inline ::OVR::OpenVR::EVRScreenshotError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRScreenshots___SubmitScreenshot", modifiers: "&&", def_value: None }]
@@ -404,7 +404,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRScreenshots___
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8514))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9283))
 // CS Name: ::OVR.OpenVR::IVRScreenshots
 struct CORDL_TYPE IVRScreenshots {
 public:
@@ -468,6 +468,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRScreenshots, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::IVRScreenshots, RequestScreenshot) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::IVRScreenshots, HookScreenshot) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::IVRScreenshots, GetScreenshotPropertyType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::IVRScreenshots, GetScreenshotPropertyFilename) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::IVRScreenshots, UpdateScreenshotProgress) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::IVRScreenshots, TakeStereoScreenshot) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::IVRScreenshots, SubmitScreenshot) == 0x30, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 NEED_NO_BOX(::OVR::OpenVR::__IVRScreenshots___GetScreenshotPropertyFilename);

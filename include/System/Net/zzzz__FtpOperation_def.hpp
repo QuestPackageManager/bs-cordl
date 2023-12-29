@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::FtpOperation);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9044))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7881))
 // CS Name: ::System.Net::FtpOperation
 struct CORDL_TYPE FtpOperation {
 public:
@@ -105,6 +105,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::FtpOperation, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::FtpOperation, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::FtpOperation, "System.Net", "FtpOperation");

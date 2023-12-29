@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EnumerableProxy)
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::EnumerableProxy);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1780))
 // CS Name: ::Org.BouncyCastle.Utilities.Collections::EnumerableProxy*
 class CORDL_TYPE EnumerableProxy : public ::System::Object {
@@ -40,10 +40,10 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::EnumerableProxy* New_ctor(::System::Collections::IEnumerable* inner);
 
-  /// @brief Method .ctor addr 0x1157b7c size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x10e6934 size 0x78 virtual false final false
   inline void _ctor(::System::Collections::IEnumerable* inner);
 
-  /// @brief Method GetEnumerator addr 0x1157bf4 size 0xa0 virtual true final true
+  /// @brief Method GetEnumerator addr 0x10e69ac size 0xa0 virtual true final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumerableProxy", modifiers: "&&", def_value: None }]
@@ -67,6 +67,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Collections::EnumerableProxy, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Collections::EnumerableProxy, ___inner) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::Collections
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Collections::EnumerableProxy);

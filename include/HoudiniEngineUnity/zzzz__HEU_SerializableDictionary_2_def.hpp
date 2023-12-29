@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_SerializableDictionary_2)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IDictionary_2;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -46,8 +46,8 @@ namespace HoudiniEngineUnity {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9855))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9782))
 // CS Name: ::HoudiniEngineUnity::HEU_SerializableDictionary`2<TKey,TValue>*
 class CORDL_TYPE HEU_SerializableDictionary_2 : public ::System::Object {
 public:

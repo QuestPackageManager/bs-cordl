@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(OcspRequest)
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class TbsRequest;
 }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class Signature;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -60,29 +60,29 @@ public:
 
   constexpr void __set_optionalSignature(::Org::BouncyCastle::Asn1::Ocsp::Signature* value);
 
-  /// @brief Method GetInstance addr 0xf80ab4 size 0x18 virtual false final false
+  /// @brief Method GetInstance addr 0xf0a890 size 0x18 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0xf80acc size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xf0a8a8 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* tbsRequest, ::Org::BouncyCastle::Asn1::Ocsp::Signature* optionalSignature);
 
-  /// @brief Method .ctor addr 0xf80d70 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0xf0ab4c size 0x7c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* tbsRequest, ::Org::BouncyCastle::Asn1::Ocsp::Signature* optionalSignature);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf80c54 size 0x11c virtual false final false
+  /// @brief Method .ctor addr 0xf0aa30 size 0x11c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_TbsRequest addr 0xf80f8c size 0x8 virtual false final false
+  /// @brief Method get_TbsRequest addr 0xf0ad68 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* get_TbsRequest();
 
-  /// @brief Method get_OptionalSignature addr 0xf80f94 size 0x8 virtual false final false
+  /// @brief Method get_OptionalSignature addr 0xf0ad70 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::Signature* get_OptionalSignature();
 
-  /// @brief Method ToAsn1Object addr 0xf80f9c size 0x114 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf0ad78 size 0x114 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OcspRequest", modifiers: "&&", def_value: None }]
@@ -109,6 +109,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::OcspRequest, ___tbsRequest) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::OcspRequest, ___optionalSignature) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Ocsp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ocsp::OcspRequest);

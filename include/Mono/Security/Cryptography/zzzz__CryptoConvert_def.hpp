@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CryptoConvert)
 namespace System::Security::Cryptography {
-class RSA;
+struct RSAParameters;
 }
 namespace System::Security::Cryptography {
-struct RSAParameters;
+class RSA;
 }
 // Forward declare root types
 namespace Mono::Security::Cryptography {
@@ -23,31 +23,31 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::CryptoConvert);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13788))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14059))
 // CS Name: ::Mono.Security.Cryptography::CryptoConvert*
 class CORDL_TYPE CryptoConvert : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToInt32LE addr 0x2403d24 size 0x74 virtual false final false
+  /// @brief Method ToInt32LE addr 0x22a9a14 size 0x74 virtual false final false
   static inline int32_t ToInt32LE(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset);
 
-  /// @brief Method ToUInt32LE addr 0x2403d98 size 0x74 virtual false final false
+  /// @brief Method ToUInt32LE addr 0x22a9a88 size 0x74 virtual false final false
   static inline uint32_t ToUInt32LE(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset);
 
-  /// @brief Method Trim addr 0x2403e0c size 0xac virtual false final false
+  /// @brief Method Trim addr 0x22a9afc size 0xac virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Trim(::ArrayW<uint8_t, ::Array<uint8_t>*> array);
 
-  /// @brief Method FromCapiPrivateKeyBlob addr 0x2403eb8 size 0x8 virtual false final false
+  /// @brief Method FromCapiPrivateKeyBlob addr 0x22a9ba8 size 0x8 virtual false final false
   static inline ::System::Security::Cryptography::RSA* FromCapiPrivateKeyBlob(::ArrayW<uint8_t, ::Array<uint8_t>*> blob);
 
-  /// @brief Method FromCapiPrivateKeyBlob addr 0x2403ec0 size 0x224 virtual false final false
+  /// @brief Method FromCapiPrivateKeyBlob addr 0x22a9bb0 size 0x224 virtual false final false
   static inline ::System::Security::Cryptography::RSA* FromCapiPrivateKeyBlob(::ArrayW<uint8_t, ::Array<uint8_t>*> blob, int32_t offset);
 
-  /// @brief Method GetParametersFromCapiPrivateKeyBlob addr 0x24040e4 size 0x5a0 virtual false final false
+  /// @brief Method GetParametersFromCapiPrivateKeyBlob addr 0x22a9dd4 size 0x5a0 virtual false final false
   static inline ::System::Security::Cryptography::RSAParameters GetParametersFromCapiPrivateKeyBlob(::ArrayW<uint8_t, ::Array<uint8_t>*> blob, int32_t offset);
 
-  /// @brief Method ToHex addr 0x2404684 size 0x134 virtual false final false
+  /// @brief Method ToHex addr 0x22aa374 size 0x134 virtual false final false
   static inline ::StringW ToHex(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   // Ctor Parameters [CppParam { name: "", ty: "CryptoConvert", modifiers: "&&", def_value: None }]

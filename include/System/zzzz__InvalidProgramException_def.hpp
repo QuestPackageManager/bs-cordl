@@ -21,25 +21,25 @@ MARK_REF_PTR_T(::System::InvalidProgramException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2428))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2426))
 // CS Name: ::System::InvalidProgramException*
 class CORDL_TYPE InvalidProgramException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::InvalidProgramException* New_ctor();
 
-  /// @brief Method .ctor addr 0x25adb54 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x2451c64 size 0x5c virtual false final false
   inline void _ctor();
 
   static inline ::System::InvalidProgramException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x25adbb0 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2451cc0 size 0x24 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::InvalidProgramException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x25adbd4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2451ce4 size 0x8 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "InvalidProgramException", modifiers: "&&", def_value: None }]

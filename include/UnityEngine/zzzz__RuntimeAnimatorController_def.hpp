@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::RuntimeAnimatorController);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14858))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10128))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15088))
 // CS Name: ::UnityEngine::RuntimeAnimatorController*
 class CORDL_TYPE RuntimeAnimatorController : public ::UnityEngine::Object {
 public:
@@ -28,10 +28,10 @@ public:
 
   static inline ::UnityEngine::RuntimeAnimatorController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c8e160 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x2b29238 size 0x58 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_animationClips addr 0x2c8f194 size 0x3c virtual false final false
+  /// @brief Method get_animationClips addr 0x2b2a26c size 0x3c virtual false final false
   inline ::ArrayW<::UnityEngine::AnimationClip*, ::Array<::UnityEngine::AnimationClip*>*> get_animationClips();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeAnimatorController", modifiers: "&&", def_value: None }]

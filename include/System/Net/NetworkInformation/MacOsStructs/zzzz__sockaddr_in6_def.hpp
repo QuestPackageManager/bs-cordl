@@ -19,8 +19,8 @@ MARK_VAL_T(::System::Net::NetworkInformation::MacOsStructs::sockaddr_in6);
 // SizeInfo { instance_size: 24, native_size: 28, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation::MacOsStructs {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9297))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9298))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8134))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8135))
 // CS Name: ::System.Net.NetworkInformation.MacOsStructs::sockaddr_in6
 struct CORDL_TYPE sockaddr_in6 {
 public:
@@ -60,6 +60,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::MacOsStructs::sockaddr_in6, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_in6, sin6_len) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_in6, sin6_family) == 0x1, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_in6, sin6_port) == 0x2, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_in6, sin6_flowinfo) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_in6, sin6_addr) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_in6, sin6_scope_id) == 0x10, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation::MacOsStructs
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::MacOsStructs::sockaddr_in6, "System.Net.NetworkInformation.MacOsStructs", "sockaddr_in6");

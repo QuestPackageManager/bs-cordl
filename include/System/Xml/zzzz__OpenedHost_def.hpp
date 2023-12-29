@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Xml::OpenedHost);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11552))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11480))
 // CS Name: ::System.Xml::OpenedHost*
 class CORDL_TYPE OpenedHost : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Xml::OpenedHost* New_ctor();
 
-  /// @brief Method .ctor addr 0x28a4244 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2727224 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenedHost", modifiers: "&&", def_value: None }]
@@ -56,6 +56,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::OpenedHost, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::OpenedHost, ___nonCachedConnectionsCount) == 0x10, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::OpenedHost);

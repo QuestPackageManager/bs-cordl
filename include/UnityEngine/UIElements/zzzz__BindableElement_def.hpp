@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BindableElement)
 namespace UnityEngine::UIElements {
-class IBindable;
-}
-namespace UnityEngine::UIElements {
 class __BindableElement__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
-class __BindableElement__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
 class IBinding;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class __BindableElement__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class IBindable;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
+class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__BindableElement__UxmlTraits);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6737))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6800))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6823))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6886))
 // CS Name: ::BindableElement::UxmlTraits*
 class CORDL_TYPE __BindableElement__UxmlTraits : public ::UnityEngine::UIElements::__VisualElement__UxmlTraits {
 public:
@@ -65,10 +65,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__BindableElement__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2db972c size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x2c5237c size 0x88 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0x2db9570 size 0x134 virtual true final false
+  /// @brief Method Init addr 0x2c521c0 size 0x134 virtual true final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BindableElement__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -93,13 +93,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__BindableElement__UxmlTraits, 0x78>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__BindableElement__UxmlTraits, ___m_PropertyPath) == 0x70, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::BindableElement
 // SizeInfo { instance_size: 960, native_size: -1, calculated_instance_size: 960, calculated_native_size: 960, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6801))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6830))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6887))
 // CS Name: ::UnityEngine.UIElements::BindableElement*
 class CORDL_TYPE BindableElement : public ::UnityEngine::UIElements::VisualElement {
 public:
@@ -133,15 +135,15 @@ public:
 
   constexpr void __set__bindingPath_k__BackingField(::StringW value);
 
-  /// @brief Method get_binding addr 0x2dbcf00 size 0x8 virtual true final true
+  /// @brief Method get_binding addr 0x2c55b50 size 0x8 virtual true final true
   inline ::UnityEngine::UIElements::IBinding* get_binding();
 
-  /// @brief Method set_bindingPath addr 0x2dbcf08 size 0x8 virtual true final true
+  /// @brief Method set_bindingPath addr 0x2c55b58 size 0x8 virtual true final true
   inline void set_bindingPath(::StringW value);
 
   static inline ::UnityEngine::UIElements::BindableElement* New_ctor();
 
-  /// @brief Method .ctor addr 0x2db9070 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x2c51cc0 size 0x58 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BindableElement", modifiers: "&&", def_value: None }]
@@ -169,20 +171,24 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BindableElement, 0x3c0>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::BindableElement, ____binding_k__BackingField) == 0x3b0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::BindableElement, ____bindingPath_k__BackingField) == 0x3b8, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::UxmlFactory
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6800)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5256 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6801)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6799)) CS Name: ::BindableElement::UxmlFactory*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5140 }), TypeDefinitionIndex(TypeDefinitionIndex(7083)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6886)), TypeDefinitionIndex(TypeDefinitionIndex(6887))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6885)) CS Name: ::BindableElement::UxmlFactory*
 class CORDL_TYPE __BindableElement__UxmlFactory
     : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::BindableElement*, ::UnityEngine::UIElements::__BindableElement__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__BindableElement__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dbcf10 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2c55b60 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BindableElement__UxmlFactory", modifiers: "&&", def_value: None }]

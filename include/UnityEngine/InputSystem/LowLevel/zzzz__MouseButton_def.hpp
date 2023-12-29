@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::MouseButton);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6505))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6591))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::MouseButton
 struct CORDL_TYPE MouseButton {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::MouseButton, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::MouseButton, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::MouseButton, "UnityEngine.InputSystem.LowLevel", "MouseButton");

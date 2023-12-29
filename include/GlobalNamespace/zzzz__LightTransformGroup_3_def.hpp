@@ -23,8 +23,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TX, typename TY, typename TZ>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4935))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4943))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5040))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5048))
 // CS Name: ::LightTransformGroup`3<TX,TY,TZ>*
 class CORDL_TYPE LightTransformGroup_3 : public ::GlobalNamespace::LightGroupSubsystem {
 public:
@@ -37,6 +37,9 @@ public:
 
   /// @brief Field _mirrorZ, offset 0x22, size 0x1
   __declspec(property(get = __get__mirrorZ, put = __set__mirrorZ)) bool _mirrorZ;
+
+  /// @brief Field _disableAutomaticTransformGathering, offset 0x23, size 0x1
+  __declspec(property(get = __get__disableAutomaticTransformGathering, put = __set__disableAutomaticTransformGathering)) bool _disableAutomaticTransformGathering;
 
   /// @brief Field _xTransforms, offset 0x28, size 0x8
   __declspec(property(get = __get__xTransforms, put = __set__xTransforms))::System::Collections::Generic::List_1<::UnityEngine::Transform*>* _xTransforms;
@@ -78,6 +81,12 @@ public:
   constexpr bool const& __get__mirrorZ() const;
 
   constexpr void __set__mirrorZ(bool value);
+
+  constexpr bool& __get__disableAutomaticTransformGathering();
+
+  constexpr bool const& __get__disableAutomaticTransformGathering() const;
+
+  constexpr void __set__disableAutomaticTransformGathering(bool value);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*& __get__xTransforms();
 
@@ -145,6 +154,9 @@ public:
 
   /// @brief Field _mirrorZ, offset: 0x22, size: 0x1, def value: None
   bool ____mirrorZ;
+
+  /// @brief Field _disableAutomaticTransformGathering, offset: 0x23, size: 0x1, def value: None
+  bool ____disableAutomaticTransformGathering;
 
   /// @brief Field _xTransforms, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Transform*>* ____xTransforms;

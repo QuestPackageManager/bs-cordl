@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::AnimatorTransitionInfo);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14880))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15107))
 // CS Name: ::UnityEngine::AnimatorTransitionInfo
 struct CORDL_TYPE AnimatorTransitionInfo {
 public:
@@ -64,6 +64,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimatorTransitionInfo, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorTransitionInfo, m_FullPath) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorTransitionInfo, m_UserName) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorTransitionInfo, m_Name) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorTransitionInfo, m_HasFixedDuration) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorTransitionInfo, m_Duration) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorTransitionInfo, m_NormalizedTime) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorTransitionInfo, m_AnyState) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorTransitionInfo, m_TransitionType) == 0x1c, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimatorTransitionInfo, "UnityEngine", "AnimatorTransitionInfo");

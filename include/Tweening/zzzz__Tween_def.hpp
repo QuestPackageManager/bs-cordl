@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::Tweening::Tween);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16098))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15944))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15952))
 // CS Name: ::Tweening::Tween*
 class CORDL_TYPE Tween : public ::System::Object {
 public:
@@ -147,58 +147,58 @@ public:
 
   constexpr void __set__easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method get_isStarted addr 0x2a0e560 size 0x8 virtual false final false
+  /// @brief Method get_isStarted addr 0x2890818 size 0x8 virtual false final false
   inline bool get_isStarted();
 
-  /// @brief Method get_isActive addr 0x2a0e568 size 0x30 virtual false final false
+  /// @brief Method get_isActive addr 0x2890820 size 0x30 virtual false final false
   inline bool get_isActive();
 
-  /// @brief Method get_isComplete addr 0x2a0e598 size 0x14 virtual false final false
+  /// @brief Method get_isComplete addr 0x2890850 size 0x14 virtual false final false
   inline bool get_isComplete();
 
-  /// @brief Method get_isKilled addr 0x2a0e5ac size 0x8 virtual false final false
+  /// @brief Method get_isKilled addr 0x2890864 size 0x8 virtual false final false
   inline bool get_isKilled();
 
-  /// @brief Method get_progress addr 0x2a0e5b4 size 0x8 virtual false final false
+  /// @brief Method get_progress addr 0x289086c size 0x8 virtual false final false
   inline float_t get_progress();
 
-  /// @brief Method get_startTime addr 0x2a0e5bc size 0x8 virtual false final false
+  /// @brief Method get_startTime addr 0x2890874 size 0x8 virtual false final false
   inline float_t get_startTime();
 
-  /// @brief Method get_duration addr 0x2a0e5c4 size 0x8 virtual false final false
+  /// @brief Method get_duration addr 0x289087c size 0x8 virtual false final false
   inline float_t get_duration();
 
-  /// @brief Method set_duration addr 0x2a0e5cc size 0x8 virtual false final false
+  /// @brief Method set_duration addr 0x2890884 size 0x8 virtual false final false
   inline void set_duration(float_t value);
 
-  /// @brief Method get_loop addr 0x2a0e5d4 size 0x8 virtual false final false
+  /// @brief Method get_loop addr 0x289088c size 0x8 virtual false final false
   inline bool get_loop();
 
-  /// @brief Method set_loop addr 0x2a0e5dc size 0xc virtual false final false
+  /// @brief Method set_loop addr 0x2890894 size 0xc virtual false final false
   inline void set_loop(bool value);
 
-  /// @brief Method get_delay addr 0x2a0e5e8 size 0x8 virtual false final false
+  /// @brief Method get_delay addr 0x28908a0 size 0x8 virtual false final false
   inline float_t get_delay();
 
-  /// @brief Method set_delay addr 0x2a0e5f0 size 0x8 virtual false final false
+  /// @brief Method set_delay addr 0x28908a8 size 0x8 virtual false final false
   inline void set_delay(float_t value);
 
-  /// @brief Method get_easeType addr 0x2a0e5f8 size 0x8 virtual false final false
+  /// @brief Method get_easeType addr 0x28908b0 size 0x8 virtual false final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
-  /// @brief Method set_easeType addr 0x2a0e600 size 0x8 virtual false final false
+  /// @brief Method set_easeType addr 0x28908b8 size 0x8 virtual false final false
   inline void set_easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method Kill addr 0x2a0e608 size 0xc virtual false final false
+  /// @brief Method Kill addr 0x28908c0 size 0xc virtual false final false
   inline void Kill();
 
-  /// @brief Method Restart addr 0x2a0e614 size 0x10 virtual false final false
+  /// @brief Method Restart addr 0x28908cc size 0x10 virtual false final false
   inline void Restart(float_t startTime);
 
-  /// @brief Method Resume addr 0x2a0e624 size 0x8 virtual false final false
+  /// @brief Method Resume addr 0x28908dc size 0x8 virtual false final false
   inline void Resume();
 
-  /// @brief Method SetStartTimeAndEndTime addr 0x2a0e62c size 0xc virtual false final false
+  /// @brief Method SetStartTimeAndEndTime addr 0x28908e4 size 0xc virtual false final false
   inline void SetStartTimeAndEndTime(float_t startTime, float_t endTime);
 
   /// @brief Method Update addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -209,7 +209,7 @@ public:
 
   static inline ::Tweening::Tween* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a0e638 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x28908f0 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Tween", modifiers: "&&", def_value: None }]
@@ -266,6 +266,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Tweening::Tween, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Tweening::Tween, ___onStart) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Tweening::Tween, ___onCompleted) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Tweening::Tween, ___onKilled) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Tweening::Tween, ____progress) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Tweening::Tween, ____startTime) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::Tweening::Tween, ____duration) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Tweening::Tween, ____loop) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::Tweening::Tween, ____delay) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Tweening::Tween, ____isStarted) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::Tweening::Tween, ____isKilled) == 0x3d, "Offset mismatch!");
+
+static_assert(offsetof(::Tweening::Tween, ____easeType) == 0x40, "Offset mismatch!");
 
 } // namespace Tweening
 NEED_NO_BOX(::Tweening::Tween);

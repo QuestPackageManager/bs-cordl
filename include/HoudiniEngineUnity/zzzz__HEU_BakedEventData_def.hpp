@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "HoudiniEngineUnity/zzzz__HEU_AssetEventData_def.hpp"
 CORDL_MODULE_EXPORT(HEU_BakedEventData)
+namespace UnityEngine {
+class GameObject;
+}
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine {
-class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_BakedEventData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9595))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9598))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9522))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9525))
 // CS Name: ::HoudiniEngineUnity::HEU_BakedEventData*
 class CORDL_TYPE HEU_BakedEventData : public ::HoudiniEngineUnity::HEU_AssetEventData {
 public:
@@ -41,7 +41,7 @@ public:
   static inline ::HoudiniEngineUnity::HEU_BakedEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful,
                                                                    ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects, bool isNewBake);
 
-  /// @brief Method .ctor addr 0x214e31c size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x1ff6980 size 0x6c virtual false final false
   inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects, bool isNewBake);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_BakedEventData", modifiers: "&&", def_value: None }]
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_BakedEventData, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_BakedEventData, ___IsNewBake) == 0x2c, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_BakedEventData);

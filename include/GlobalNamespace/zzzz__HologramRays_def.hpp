@@ -10,32 +10,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HologramRays)
-namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-class MeshRenderer;
+namespace GlobalNamespace {
+class __HologramRays___FadingCoroutine_d__28;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
-namespace Tweening {
-class FloatTween;
-}
-namespace GlobalNamespace {
-struct EaseType;
+namespace UnityEngine {
+class MaterialPropertyBlock;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace Tweening {
+class FloatTween;
+}
 namespace UnityEngine {
-class Transform;
+class Mesh;
 }
 namespace GlobalNamespace {
-class __HologramRays___FadingCoroutine_d__28;
+struct EaseType;
+}
+namespace UnityEngine {
+class MeshRenderer;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace Tweening {
 class TimeTweeningManager;
@@ -63,8 +63,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__HologramRays___FadingCoroutine_d__28);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5114))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15944))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5219))
 // CS Name: ::HologramRays::<FadingCoroutine>d__28*
 class CORDL_TYPE __HologramRays___FadingCoroutine_d__28 : public ::System::Object {
 public:
@@ -138,22 +138,22 @@ public:
 
   static inline ::GlobalNamespace::__HologramRays___FadingCoroutine_d__28* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x23d1698 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x20efb88 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x23d1814 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x20efd04 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x23d1818 size 0x188 virtual true final true
+  /// @brief Method MoveNext addr 0x20efd08 size 0x188 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x23d19a0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x20efe90 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x23d19a8 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x20efe98 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x23d19e8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x20efed8 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HologramRays___FadingCoroutine_d__28", modifiers: "&&", def_value: None }]
@@ -193,13 +193,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HologramRays___FadingCoroutine_d__28, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__HologramRays___FadingCoroutine_d__28, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__HologramRays___FadingCoroutine_d__28, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__HologramRays___FadingCoroutine_d__28, ___turningOn) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__HologramRays___FadingCoroutine_d__28, _____4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__HologramRays___FadingCoroutine_d__28, ___easeType) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__HologramRays___FadingCoroutine_d__28, ___duration) == 0x34, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::HologramRays
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 157, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5115))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5220))
 // CS Name: ::HologramRays*
 class CORDL_TYPE HologramRays : public ::UnityEngine::MonoBehaviour {
 public:
@@ -387,39 +399,39 @@ public:
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
-  /// @brief Method RuntimeInit addr 0x23d0fb8 size 0x58 virtual false final false
+  /// @brief Method RuntimeInit addr 0x20ef4a8 size 0x58 virtual false final false
   static inline void RuntimeInit();
 
-  /// @brief Method Awake addr 0x23d1010 size 0x13c virtual false final false
+  /// @brief Method Awake addr 0x20ef500 size 0x13c virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDisable addr 0x23d114c size 0x20 virtual false final false
+  /// @brief Method OnDisable addr 0x20ef63c size 0x20 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method OnValidate addr 0x23d116c size 0x7c virtual false final false
+  /// @brief Method OnValidate addr 0x20ef65c size 0x7c virtual false final false
   inline void OnValidate();
 
-  /// @brief Method Update addr 0x23d145c size 0x4 virtual false final false
+  /// @brief Method Update addr 0x20ef94c size 0x4 virtual false final false
   inline void Update();
 
-  /// @brief Method Refresh addr 0x23d11e8 size 0x274 virtual false final false
+  /// @brief Method Refresh addr 0x20ef6d8 size 0x274 virtual false final false
   inline void Refresh();
 
-  /// @brief Method Animate addr 0x23d1460 size 0xc8 virtual false final false
+  /// @brief Method Animate addr 0x20ef950 size 0xc8 virtual false final false
   inline void Animate(bool turningOn, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method FadingCoroutine addr 0x23d1528 size 0x94 virtual false final false
+  /// @brief Method FadingCoroutine addr 0x20efa18 size 0x94 virtual false final false
   inline ::System::Collections::IEnumerator* FadingCoroutine(bool turningOn, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method UpdateBounds addr 0x23d15bc size 0xdc virtual false final false
+  /// @brief Method UpdateBounds addr 0x20efaac size 0xdc virtual false final false
   inline void UpdateBounds();
 
   static inline ::GlobalNamespace::HologramRays* New_ctor();
 
-  /// @brief Method .ctor addr 0x23d16c0 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x20efbb0 size 0x20 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__22_0 addr 0x23d17ac size 0x68 virtual false final false
+  /// @brief Method <Awake>b__22_0 addr 0x20efc9c size 0x68 virtual false final false
   inline void _Awake_b__22_0(float_t f);
 
   // Ctor Parameters [CppParam { name: "", ty: "HologramRays", modifiers: "&&", def_value: None }]
@@ -491,6 +503,40 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HologramRays, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HologramRays, ____bloomLight) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HologramRays, ____raysMeshRenderer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HologramRays, ____targetTransform) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HologramRays, ____laserHolderTransform) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HologramRays, ____hologramRaysTransform) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HologramRays, ____hologramRaysMesh) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HologramRays, ____topYPosition) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HologramRays, ____bottomYPosition) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HologramRays, ___cachedExtent) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HologramRays, ____tweeningManager) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HologramRays, ____transitionTween) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HologramRays, ____bloomColor) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HologramRays, ____bloomTransparentColor) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HologramRays, ____alpha) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HologramRays, ____raysDistance) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HologramRays, ____raysLocalScale) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HologramRays, ___boundsInitialized) == 0x9c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HologramRays);

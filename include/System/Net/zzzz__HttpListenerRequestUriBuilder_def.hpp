@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpListenerRequestUriBuilder)
-namespace System::Text {
-class StringBuilder;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System::Net {
 struct __HttpListenerRequestUriBuilder__EncodingType;
-}
-namespace System {
-class Object;
 }
 namespace System::Text {
 class Encoding;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System::Text {
+class StringBuilder;
 }
 namespace System::Net {
 struct __HttpListenerRequestUriBuilder__ParsingResult;
 }
 namespace System {
 class Uri;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace System::Net {
@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::System::Net::HttpListenerRequestUriBuilder);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9064))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7901))
 // CS Name: ::HttpListenerRequestUriBuilder::ParsingResult
 struct CORDL_TYPE __HttpListenerRequestUriBuilder__ParsingResult {
 public:
@@ -97,13 +97,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__HttpListenerRequestUriBuilder__ParsingResult, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__HttpListenerRequestUriBuilder__ParsingResult, value__) == 0x0, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: ::EncodingType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9065))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7902))
 // CS Name: ::HttpListenerRequestUriBuilder::EncodingType
 struct CORDL_TYPE __HttpListenerRequestUriBuilder__EncodingType {
 public:
@@ -145,13 +147,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__HttpListenerRequestUriBuilder__EncodingType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__HttpListenerRequestUriBuilder__EncodingType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: System.Net::HttpListenerRequestUriBuilder
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9066))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7903))
 // CS Name: ::System.Net::HttpListenerRequestUriBuilder*
 class CORDL_TYPE HttpListenerRequestUriBuilder : public ::System::Object {
 public:
@@ -264,52 +268,52 @@ public:
 
   static inline ::System::Net::HttpListenerRequestUriBuilder* New_ctor(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery);
 
-  /// @brief Method .ctor addr 0x299b934 size 0xcc virtual false final false
+  /// @brief Method .ctor addr 0x281e0bc size 0xcc virtual false final false
   inline void _ctor(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery);
 
-  /// @brief Method GetRequestUri addr 0x299ba7c size 0x90 virtual false final false
+  /// @brief Method GetRequestUri addr 0x281e204 size 0x90 virtual false final false
   static inline ::System::Uri* GetRequestUri(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery);
 
-  /// @brief Method Build addr 0x299bb0c size 0xe8 virtual false final false
+  /// @brief Method Build addr 0x281e294 size 0xe8 virtual false final false
   inline ::System::Uri* Build();
 
-  /// @brief Method BuildRequestUriUsingCookedPath addr 0x299bbf4 size 0x294 virtual false final false
+  /// @brief Method BuildRequestUriUsingCookedPath addr 0x281e37c size 0x294 virtual false final false
   inline void BuildRequestUriUsingCookedPath();
 
-  /// @brief Method BuildRequestUriUsingRawPath addr 0x299be88 size 0x384 virtual false final false
+  /// @brief Method BuildRequestUriUsingRawPath addr 0x281e610 size 0x384 virtual false final false
   inline void BuildRequestUriUsingRawPath();
 
-  /// @brief Method GetEncoding addr 0x299c384 size 0x6c virtual false final false
+  /// @brief Method GetEncoding addr 0x281eb0c size 0x6c virtual false final false
   static inline ::System::Text::Encoding* GetEncoding(::System::Net::__HttpListenerRequestUriBuilder__EncodingType type);
 
-  /// @brief Method BuildRequestUriUsingRawPath addr 0x299c3f0 size 0x250 virtual false final false
+  /// @brief Method BuildRequestUriUsingRawPath addr 0x281eb78 size 0x250 virtual false final false
   inline ::System::Net::__HttpListenerRequestUriBuilder__ParsingResult BuildRequestUriUsingRawPath(::System::Text::Encoding* encoding);
 
-  /// @brief Method ParseRawPath addr 0x299c640 size 0x150 virtual false final false
+  /// @brief Method ParseRawPath addr 0x281edc8 size 0x150 virtual false final false
   inline ::System::Net::__HttpListenerRequestUriBuilder__ParsingResult ParseRawPath(::System::Text::Encoding* encoding);
 
-  /// @brief Method AppendUnicodeCodePointValuePercentEncoded addr 0x299cb38 size 0x314 virtual false final false
+  /// @brief Method AppendUnicodeCodePointValuePercentEncoded addr 0x281f2c0 size 0x314 virtual false final false
   inline bool AppendUnicodeCodePointValuePercentEncoded(::StringW codePoint);
 
-  /// @brief Method AddPercentEncodedOctetToRawOctetsList addr 0x299ce4c size 0x154 virtual false final false
+  /// @brief Method AddPercentEncodedOctetToRawOctetsList addr 0x281f5d4 size 0x154 virtual false final false
   inline bool AddPercentEncodedOctetToRawOctetsList(::System::Text::Encoding* encoding, ::StringW escapedCharacter);
 
-  /// @brief Method EmptyDecodeAndAppendRawOctetsList addr 0x299c790 size 0x3a8 virtual false final false
+  /// @brief Method EmptyDecodeAndAppendRawOctetsList addr 0x281ef18 size 0x3a8 virtual false final false
   inline bool EmptyDecodeAndAppendRawOctetsList(::System::Text::Encoding* encoding);
 
-  /// @brief Method AppendOctetsPercentEncoded addr 0x299cfa0 size 0x36c virtual false final false
+  /// @brief Method AppendOctetsPercentEncoded addr 0x281f728 size 0x36c virtual false final false
   static inline void AppendOctetsPercentEncoded(::System::Text::StringBuilder* target, ::System::Collections::Generic::IEnumerable_1<uint8_t>* octets);
 
-  /// @brief Method GetOctetsAsString addr 0x299d30c size 0x3d8 virtual false final false
+  /// @brief Method GetOctetsAsString addr 0x281fa94 size 0x3d8 virtual false final false
   static inline ::StringW GetOctetsAsString(::System::Collections::Generic::IEnumerable_1<uint8_t>* octets);
 
-  /// @brief Method GetPath addr 0x299c214 size 0x170 virtual false final false
+  /// @brief Method GetPath addr 0x281e99c size 0x170 virtual false final false
   static inline ::StringW GetPath(::StringW uriString);
 
-  /// @brief Method AddSlashToAsteriskOnlyPath addr 0x299ba00 size 0x7c virtual false final false
+  /// @brief Method AddSlashToAsteriskOnlyPath addr 0x281e188 size 0x7c virtual false final false
   static inline ::StringW AddSlashToAsteriskOnlyPath(::StringW path);
 
-  /// @brief Method LogWarning addr 0x299c20c size 0x8 virtual false final false
+  /// @brief Method LogWarning addr 0x281e994 size 0x8 virtual false final false
   inline void LogWarning(::StringW methodName, ::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpListenerRequestUriBuilder", modifiers: "&&", def_value: None }]
@@ -357,6 +361,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::HttpListenerRequestUriBuilder, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::HttpListenerRequestUriBuilder, ___rawUri) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpListenerRequestUriBuilder, ___cookedUriScheme) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpListenerRequestUriBuilder, ___cookedUriHost) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpListenerRequestUriBuilder, ___cookedUriPath) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpListenerRequestUriBuilder, ___cookedUriQuery) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpListenerRequestUriBuilder, ___requestUriString) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpListenerRequestUriBuilder, ___rawOctets) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpListenerRequestUriBuilder, ___rawPath) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpListenerRequestUriBuilder, ___requestUri) == 0x50, "Offset mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::__HttpListenerRequestUriBuilder__EncodingType, "System.Net", "HttpListenerRequestUriBuilder/EncodingType");

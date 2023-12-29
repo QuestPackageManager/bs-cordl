@@ -5,29 +5,29 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(MethodProviderSimple_1)
-namespace Zenject {
-class InjectContext;
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+class InjectContext;
 }
-namespace System {
-template <typename TResult> class Func_1;
+namespace Zenject {
+class IProvider;
 }
 namespace System {
 class Action;
 }
 namespace System {
-class Object;
-}
-namespace System {
 class Type;
 }
-namespace Zenject {
-class IProvider;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -41,8 +41,8 @@ namespace Zenject {
 // cpp template
 template <typename TReturn>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11209))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11137))
 // CS Name: ::Zenject::MethodProviderSimple`1<TReturn>*
 class CORDL_TYPE MethodProviderSimple_1 : public ::System::Object {
 public:

@@ -9,13 +9,13 @@ namespace GlobalNamespace {
 struct __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState;
 }
 namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsListener;
+class LevelCompletionResults;
 }
 namespace GlobalNamespace {
 class LobbyPlayerPermissionsModel;
 }
 namespace GlobalNamespace {
-class LevelCompletionResults;
+class IMultiplayerLevelEndActionsListener;
 }
 namespace GlobalNamespace {
 class IGameplayRpcManager;
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5167))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5272))
 // CS Name: ::MultiplayerLocalPlayerDisconnectHelper*
 class CORDL_TYPE MultiplayerLocalPlayerDisconnectHelper : public ::System::Object {
 public:
@@ -63,15 +63,15 @@ public:
 
   constexpr void __set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel* value);
 
-  /// @brief Method Disconnect addr 0x23dbef4 size 0x210 virtual false final false
+  /// @brief Method Disconnect addr 0x20fb690 size 0x210 virtual false final false
   inline void Disconnect(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method ResolveDisconnectButtonString addr 0x23ddf38 size 0x70 virtual false final false
+  /// @brief Method ResolveDisconnectButtonString addr 0x20fd618 size 0x70 virtual false final false
   inline ::StringW ResolveDisconnectButtonString();
 
   static inline ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* New_ctor();
 
-  /// @brief Method .ctor addr 0x23ddfa8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20fd688 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalPlayerDisconnectHelper", modifiers: "&&", def_value: None }]
@@ -107,6 +107,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper, ____gameplayRpcManager) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper, ____multiplayerLevelEndActions) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper, ____lobbyPlayerPermissionsModel) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper);

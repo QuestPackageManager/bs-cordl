@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Salsa20Engine)
 namespace Org::BouncyCastle::Crypto {
-class IStreamCipher;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IStreamCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::Salsa20Engine);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(836))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::Salsa20Engine*
 class CORDL_TYPE Salsa20Engine : public ::System::Object {
@@ -145,59 +145,59 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_tau();
 
-  /// @brief Method PackTauOrSigma addr 0xec7424 size 0x134 virtual false final false
+  /// @brief Method PackTauOrSigma addr 0xe53250 size 0x134 virtual false final false
   inline void PackTauOrSigma(int32_t keyLength, ::ArrayW<uint32_t, ::Array<uint32_t>*> state, int32_t stateOffset);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine* New_ctor();
 
-  /// @brief Method .ctor addr 0xec7558 size 0x60 virtual false final false
+  /// @brief Method .ctor addr 0xe53384 size 0x60 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine* New_ctor(int32_t rounds);
 
-  /// @brief Method .ctor addr 0xec75b8 size 0x100 virtual false final false
+  /// @brief Method .ctor addr 0xe533e4 size 0x100 virtual false final false
   inline void _ctor(int32_t rounds);
 
-  /// @brief Method Init addr 0xec76b8 size 0x3bc virtual true final false
+  /// @brief Method Init addr 0xe534e4 size 0x3bc virtual true final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_NonceSize addr 0xec7a74 size 0x8 virtual true final false
+  /// @brief Method get_NonceSize addr 0xe538a0 size 0x8 virtual true final false
   inline int32_t get_NonceSize();
 
-  /// @brief Method get_AlgorithmName addr 0xec7a7c size 0xe0 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xe538a8 size 0xe0 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method ReturnByte addr 0xec7b5c size 0x104 virtual true final false
+  /// @brief Method ReturnByte addr 0xe53988 size 0x104 virtual true final false
   inline uint8_t ReturnByte(uint8_t input);
 
-  /// @brief Method AdvanceCounter addr 0xec7c9c size 0x4c virtual true final false
+  /// @brief Method AdvanceCounter addr 0xe53ac8 size 0x4c virtual true final false
   inline void AdvanceCounter();
 
-  /// @brief Method ProcessBytes addr 0xec7ce8 size 0x274 virtual true final false
+  /// @brief Method ProcessBytes addr 0xe53b14 size 0x274 virtual true final false
   inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method Reset addr 0xec7f98 size 0x1c virtual true final false
+  /// @brief Method Reset addr 0xe53dc4 size 0x1c virtual true final false
   inline void Reset();
 
-  /// @brief Method ResetCounter addr 0xec7fc0 size 0x2c virtual true final false
+  /// @brief Method ResetCounter addr 0xe53dec size 0x2c virtual true final false
   inline void ResetCounter();
 
-  /// @brief Method SetKey addr 0xec7fec size 0x204 virtual true final false
+  /// @brief Method SetKey addr 0xe53e18 size 0x204 virtual true final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> ivBytes);
 
-  /// @brief Method GenerateKeyStream addr 0xec81f0 size 0x84 virtual true final false
+  /// @brief Method GenerateKeyStream addr 0xe5401c size 0x84 virtual true final false
   inline void GenerateKeyStream(::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method SalsaCore addr 0xec8274 size 0x5f4 virtual false final false
+  /// @brief Method SalsaCore addr 0xe540a0 size 0x5f4 virtual false final false
   static inline void SalsaCore(int32_t rounds, ::ArrayW<uint32_t, ::Array<uint32_t>*> input, ::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-  /// @brief Method ResetLimitCounter addr 0xec7fb4 size 0xc virtual false final false
+  /// @brief Method ResetLimitCounter addr 0xe53de0 size 0xc virtual false final false
   inline void ResetLimitCounter();
 
-  /// @brief Method LimitExceeded addr 0xec7c60 size 0x3c virtual false final false
+  /// @brief Method LimitExceeded addr 0xe53a8c size 0x3c virtual false final false
   inline bool LimitExceeded();
 
-  /// @brief Method LimitExceeded addr 0xec7f5c size 0x3c virtual false final false
+  /// @brief Method LimitExceeded addr 0xe53d88 size 0x3c virtual false final false
   inline bool LimitExceeded(uint32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "Salsa20Engine", modifiers: "&&", def_value: None }]
@@ -248,6 +248,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::Salsa20Engine, ___rounds) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::Salsa20Engine, ___index) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::Salsa20Engine, ___engineState) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::Salsa20Engine, ___x) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::Salsa20Engine, ___keyStream) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::Salsa20Engine, ___initialised) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::Salsa20Engine, ___cW0) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::Salsa20Engine, ___cW1) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::Salsa20Engine, ___cW2) == 0x3c, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::Salsa20Engine);

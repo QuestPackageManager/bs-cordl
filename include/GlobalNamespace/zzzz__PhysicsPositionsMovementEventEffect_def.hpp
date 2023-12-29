@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(PhysicsPositionsMovementEventEffect)
 namespace GlobalNamespace {
-class SongTimeFixedUpdateController;
-}
-namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class SongTimeFixedUpdateController;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class BeatmapDataCallbackWrapper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PhysicsPositionsMovementEventEffect);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4968))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(14941))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5073))
 // CS Name: ::PhysicsPositionsMovementEventEffect*
 class CORDL_TYPE PhysicsPositionsMovementEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -209,24 +209,24 @@ public:
 
   constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start addr 0x23b0b88 size 0x248 virtual false final false
+  /// @brief Method Start addr 0x2278d70 size 0x248 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x23b0dd0 size 0x154 virtual false final false
+  /// @brief Method OnDestroy addr 0x2278fb8 size 0x154 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleSongTimeFixedUpdate addr 0x23b0f24 size 0xdc virtual false final false
+  /// @brief Method HandleSongTimeFixedUpdate addr 0x227910c size 0xdc virtual false final false
   inline void HandleSongTimeFixedUpdate(float_t fixedDeltaTime);
 
-  /// @brief Method HandleSongTimeUpdate addr 0x23b1000 size 0x70 virtual false final false
+  /// @brief Method HandleSongTimeUpdate addr 0x22791e8 size 0x70 virtual false final false
   inline void HandleSongTimeUpdate();
 
-  /// @brief Method HandleBeatmapEvent addr 0x23b1070 size 0x7c virtual false final false
+  /// @brief Method HandleBeatmapEvent addr 0x2279258 size 0x7c virtual false final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::PhysicsPositionsMovementEventEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x23b10ec size 0x107c virtual false final false
+  /// @brief Method .ctor addr 0x22792d4 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PhysicsPositionsMovementEventEffect", modifiers: "&&", def_value: None }]
@@ -304,6 +304,44 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PhysicsPositionsMovementEventEffect, 0xa8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____event) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____movementVector) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____stepSize) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____elasticity) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____friction) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____minMaxSpeed) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____maxMaxSpeed) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____maxAcceleration) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____beatmapCallbacksController) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____songTimeFixedUpdateController) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____transform) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____startPos) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____velocity) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____prevPosition) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____position) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____targetPosition) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____maxSpeed) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____sqrMaxSpeed) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____beatmapDataCallbackWrapper) == 0xa0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PhysicsPositionsMovementEventEffect);

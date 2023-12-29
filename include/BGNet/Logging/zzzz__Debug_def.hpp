@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Debug)
-namespace BGNet::Logging {
-class __Debug__LoggerLinkedList;
-}
 namespace System {
 class Exception;
+}
+namespace System {
+class Object;
 }
 namespace BGNet::Logging {
 class __Debug__ILogger;
 }
-namespace System {
-class Object;
+namespace BGNet::Logging {
+class __Debug__LoggerLinkedList;
 }
 // Forward declare root types
 namespace BGNet::Logging {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::BGNet::Logging::__Debug__LoggerLinkedList);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Logging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16234))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16060))
 // CS Name: ::Debug::LoggerLinkedList*
 class CORDL_TYPE __Debug__LoggerLinkedList : public ::System::Object {
 public:
@@ -61,7 +61,7 @@ public:
 
   static inline ::BGNet::Logging::__Debug__LoggerLinkedList* New_ctor(::BGNet::Logging::__Debug__ILogger* logger);
 
-  /// @brief Method .ctor addr 0xe61608 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xdec438 size 0x28 virtual false final false
   inline void _ctor(::BGNet::Logging::__Debug__ILogger* logger);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Debug__LoggerLinkedList", modifiers: "&&", def_value: None }]
@@ -89,13 +89,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGNet::Logging::__Debug__LoggerLinkedList, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::BGNet::Logging::__Debug__LoggerLinkedList, ___logger) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Logging::__Debug__LoggerLinkedList, ___next) == 0x18, "Offset mismatch!");
+
 } // namespace BGNet::Logging
 // Type: ::ILogger
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGNet::Logging {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16235))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16061))
 // CS Name: ::Debug::ILogger*
 class CORDL_TYPE __Debug__ILogger {
 public:
@@ -128,8 +132,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGNet::Logging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16236))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16062))
 // CS Name: ::BGNet.Logging::Debug*
 class CORDL_TYPE Debug : public ::System::Object {
 public:
@@ -152,25 +156,25 @@ public:
 
   static inline ::BGNet::Logging::__Debug__LoggerLinkedList* getStaticF__loggers();
 
-  /// @brief Method NoDomainReloadInit addr 0xe61380 size 0x90 virtual false final false
+  /// @brief Method NoDomainReloadInit addr 0xdec1b0 size 0x90 virtual false final false
   static inline void NoDomainReloadInit();
 
-  /// @brief Method AddLogger addr 0xe61418 size 0x178 virtual false final false
+  /// @brief Method AddLogger addr 0xdec248 size 0x178 virtual false final false
   static inline void AddLogger(::BGNet::Logging::__Debug__ILogger* logger);
 
-  /// @brief Method RemoveLogger addr 0xe61630 size 0x24c virtual false final false
+  /// @brief Method RemoveLogger addr 0xdec460 size 0x24c virtual false final false
   static inline void RemoveLogger(::BGNet::Logging::__Debug__ILogger* logger);
 
-  /// @brief Method Log addr 0xe6187c size 0xf4 virtual false final false
+  /// @brief Method Log addr 0xdec6ac size 0xf4 virtual false final false
   static inline void Log(::StringW message);
 
-  /// @brief Method LogError addr 0xe61970 size 0xf8 virtual false final false
+  /// @brief Method LogError addr 0xdec7a0 size 0xf8 virtual false final false
   static inline void LogError(::StringW message);
 
-  /// @brief Method LogException addr 0xe61a68 size 0x100 virtual false final false
+  /// @brief Method LogException addr 0xdec898 size 0x100 virtual false final false
   static inline void LogException(::System::Exception* exception, ::StringW message);
 
-  /// @brief Method LogWarning addr 0xe61b68 size 0xf8 virtual false final false
+  /// @brief Method LogWarning addr 0xdec998 size 0xf8 virtual false final false
   static inline void LogWarning(::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "Debug", modifiers: "&&", def_value: None }]

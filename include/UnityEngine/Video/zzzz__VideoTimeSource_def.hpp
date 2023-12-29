@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Video::VideoTimeSource);
 namespace UnityEngine::Video {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16079))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15920))
 // CS Name: ::UnityEngine.Video::VideoTimeSource
 struct CORDL_TYPE VideoTimeSource {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Video::VideoTimeSource, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Video::VideoTimeSource, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Video
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Video::VideoTimeSource, "UnityEngine.Video", "VideoTimeSource");

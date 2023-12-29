@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IStructuralEquatable)
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class IEqualityComparer;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Collections::IStructuralEquatable);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3764))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3752))
 // CS Name: ::System.Collections::IStructuralEquatable*
 class CORDL_TYPE IStructuralEquatable {
 public:

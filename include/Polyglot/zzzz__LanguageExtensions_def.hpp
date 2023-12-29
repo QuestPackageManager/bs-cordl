@@ -18,19 +18,19 @@ MARK_REF_PTR_T(::Polyglot::LanguageExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15555))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15539))
 // CS Name: ::Polyglot::LanguageExtensions*
 class CORDL_TYPE LanguageExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToSerializedName addr 0x2801d28 size 0x1b0 virtual false final false
+  /// @brief Method ToSerializedName addr 0x2687104 size 0x1b0 virtual false final false
   static inline ::StringW ToSerializedName(::Polyglot::Language lang);
 
-  /// @brief Method ToCultureInfoName addr 0x2801ed8 size 0xe8 virtual false final false
+  /// @brief Method ToCultureInfoName addr 0x26872b4 size 0xe8 virtual false final false
   static inline ::StringW ToCultureInfoName(::Polyglot::Language lang);
 
-  /// @brief Method ToLanguage addr 0x2801fc0 size 0x7e8 virtual false final false
+  /// @brief Method ToLanguage addr 0x268739c size 0x7e8 virtual false final false
   static inline ::Polyglot::Language ToLanguage(::StringW serializedName);
 
   // Ctor Parameters [CppParam { name: "", ty: "LanguageExtensions", modifiers: "&&", def_value: None }]

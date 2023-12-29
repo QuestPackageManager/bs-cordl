@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewGameObjectDynamicContext)
 namespace Zenject {
-class DiContainer;
+class GameObjectCreationParameters;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
+class DiContainer;
 }
 namespace UnityEngine {
 class GameObject;
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByNewGameObjectDynamicContext);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11295))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11255))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11223))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11183))
 // CS Name: ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext*
 class CORDL_TYPE SubContainerCreatorByNewGameObjectDynamicContext : public ::Zenject::SubContainerCreatorDynamicContext {
 public:
@@ -41,10 +41,10 @@ public:
 
   static inline ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
-  /// @brief Method .ctor addr 0x2f0b8a0 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2da3ad0 size 0x2c virtual false final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
-  /// @brief Method CreateGameObject addr 0x2f0b8f4 size 0x4c virtual true final false
+  /// @brief Method CreateGameObject addr 0x2da3b24 size 0x4c virtual true final false
   inline ::UnityEngine::GameObject* CreateGameObject(ByRef<bool> shouldMakeActive);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewGameObjectDynamicContext", modifiers: "&&", def_value: None }]
@@ -68,6 +68,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::SubContainerCreatorByNewGameObjectDynamicContext, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::SubContainerCreatorByNewGameObjectDynamicContext, ____gameObjectBindInfo) == 0x18, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::SubContainerCreatorByNewGameObjectDynamicContext);

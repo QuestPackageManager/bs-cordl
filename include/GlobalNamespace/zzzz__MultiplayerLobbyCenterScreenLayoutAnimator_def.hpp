@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLobbyCenterScreenLayoutAnimator)
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class RectTransform;
 }
 namespace Tweening {
 class TimeTweeningManager;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5560))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5653))
 // CS Name: ::MultiplayerLobbyCenterScreenLayoutAnimator*
 class CORDL_TYPE MultiplayerLobbyCenterScreenLayoutAnimator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -75,21 +75,21 @@ public:
 
   constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager* value);
 
-  /// @brief Method StartCountdown addr 0x22a3430 size 0x84 virtual false final false
+  /// @brief Method StartCountdown addr 0x215e498 size 0x84 virtual false final false
   inline void StartCountdown();
 
-  /// @brief Method StopCountdown addr 0x22a35f0 size 0xa0 virtual false final false
+  /// @brief Method StopCountdown addr 0x215e658 size 0xa0 virtual false final false
   inline void StopCountdown(bool instant);
 
-  /// @brief Method Move addr 0x22a34b4 size 0x13c virtual false final false
+  /// @brief Method Move addr 0x215e51c size 0x13c virtual false final false
   inline void Move(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, float_t duration);
 
   static inline ::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator* New_ctor();
 
-  /// @brief Method .ctor addr 0x22a3690 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x215e6f8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Move>b__7_0 addr 0x22a3698 size 0x1c virtual false final false
+  /// @brief Method <Move>b__7_0 addr 0x215e700 size 0x1c virtual false final false
   inline void _Move_b__7_0(::UnityEngine::Vector3 pos);
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyCenterScreenLayoutAnimator", modifiers: "&&", def_value: None }]
@@ -125,6 +125,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator, ____nextLevelTransform) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator, ____nextLevelBasePosition) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator, ____nextLevelCountdownPosition) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator, ____transitionDuration) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator, ____tweeningManager) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator);

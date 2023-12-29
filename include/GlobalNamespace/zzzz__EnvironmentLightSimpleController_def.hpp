@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentLightSimpleController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4866))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4984))
 // CS Name: ::EnvironmentLightSimpleController*
 class CORDL_TYPE EnvironmentLightSimpleController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -52,12 +52,12 @@ public:
 
   constexpr void __set__lightManager(::GlobalNamespace::LightWithIdManager* value);
 
-  /// @brief Method LateUpdate addr 0x239a28c size 0x2c virtual false final false
+  /// @brief Method LateUpdate addr 0x2265344 size 0x2c virtual false final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::EnvironmentLightSimpleController* New_ctor();
 
-  /// @brief Method .ctor addr 0x239a2b8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2265370 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightSimpleController", modifiers: "&&", def_value: None }]
@@ -87,6 +87,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentLightSimpleController, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentLightSimpleController, ____color) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentLightSimpleController, ____colorId) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentLightSimpleController, ____lightManager) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentLightSimpleController);

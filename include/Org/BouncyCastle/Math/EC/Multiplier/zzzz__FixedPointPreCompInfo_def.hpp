@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FixedPointPreCompInfo)
 namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+class ECLookupTable;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class PreCompInfo;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
+class ECPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo)
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1530))
 // CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::FixedPointPreCompInfo*
 class CORDL_TYPE FixedPointPreCompInfo : public ::System::Object {
@@ -66,27 +66,27 @@ public:
 
   constexpr void __set_m_width(int32_t value);
 
-  /// @brief Method get_LookupTable addr 0x1036270 size 0x8 virtual true final false
+  /// @brief Method get_LookupTable addr 0xfc4024 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECLookupTable* get_LookupTable();
 
-  /// @brief Method set_LookupTable addr 0x1036278 size 0x8 virtual true final false
+  /// @brief Method set_LookupTable addr 0xfc402c size 0x8 virtual true final false
   inline void set_LookupTable(::Org::BouncyCastle::Math::EC::ECLookupTable* value);
 
-  /// @brief Method get_Offset addr 0x1036280 size 0x8 virtual true final false
+  /// @brief Method get_Offset addr 0xfc4034 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Offset();
 
-  /// @brief Method set_Offset addr 0x1036288 size 0x8 virtual true final false
+  /// @brief Method set_Offset addr 0xfc403c size 0x8 virtual true final false
   inline void set_Offset(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method get_Width addr 0x1036290 size 0x8 virtual true final false
+  /// @brief Method get_Width addr 0xfc4044 size 0x8 virtual true final false
   inline int32_t get_Width();
 
-  /// @brief Method set_Width addr 0x1036298 size 0x8 virtual true final false
+  /// @brief Method set_Width addr 0xfc404c size 0x8 virtual true final false
   inline void set_Width(int32_t value);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x10362a0 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0xfc4054 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FixedPointPreCompInfo", modifiers: "&&", def_value: None }]
@@ -116,6 +116,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo, ___m_offset) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo, ___m_lookupTable) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo, ___m_width) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC::Multiplier
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo);

@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IEventDispatchingStrategy);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7257))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7343))
 // CS Name: ::UnityEngine.UIElements::IEventDispatchingStrategy*
 class CORDL_TYPE IEventDispatchingStrategy {
 public:

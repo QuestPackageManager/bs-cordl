@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultAllocationStrategy)
+namespace System {
+class Object;
+}
 namespace UnityEngine::ResourceManagement::Util {
 class IAllocationStrategy;
 }
 namespace System {
 class Type;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::DefaultAllocationStrateg
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13978))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14249))
 // CS Name: ::UnityEngine.ResourceManagement.Util::DefaultAllocationStrategy*
 class CORDL_TYPE DefaultAllocationStrategy : public ::System::Object {
 public:
@@ -33,15 +33,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*() noexcept;
 
-  /// @brief Method New addr 0x2bd2014 size 0xc virtual true final true
+  /// @brief Method New addr 0x2a4f2c0 size 0xc virtual true final true
   inline ::System::Object* New(::System::Type* type, int32_t typeHash);
 
-  /// @brief Method Release addr 0x2bd2020 size 0x4 virtual true final true
+  /// @brief Method Release addr 0x2a4f2cc size 0x4 virtual true final true
   inline void Release(int32_t typeHash, ::System::Object* obj);
 
   static inline ::UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bd2024 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a4f2d0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultAllocationStrategy", modifiers: "&&", def_value: None }]

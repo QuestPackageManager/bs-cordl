@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenFactoryMethod)
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
 class Object;
@@ -25,24 +25,24 @@ MARK_REF_PTR_T(::Zenject::ZenFactoryMethod);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15714))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15664))
 // CS Name: ::Zenject::ZenFactoryMethod*
 class CORDL_TYPE ZenFactoryMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Zenject::ZenFactoryMethod* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2eb99ac size 0x12c virtual false final false
+  /// @brief Method .ctor addr 0x2d51c2c size 0x12c virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2eb9ad8 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2d51d58 size 0x14 virtual true final false
   inline ::System::Object* Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method BeginInvoke addr 0x2eb9aec size 0x20 virtual true final false
+  /// @brief Method BeginInvoke addr 0x2d51d6c size 0x20 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2eb9b0c size 0xc virtual true final false
+  /// @brief Method EndInvoke addr 0x2d51d8c size 0xc virtual true final false
   inline ::System::Object* EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "ZenFactoryMethod", modifiers: "&&", def_value: None }]

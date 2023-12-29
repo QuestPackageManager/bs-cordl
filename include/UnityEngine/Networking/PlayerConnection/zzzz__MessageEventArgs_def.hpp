@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::UnityEngine::Networking::PlayerConnection::MessageEventArgs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10312))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10234))
 // CS Name: ::UnityEngine.Networking.PlayerConnection::MessageEventArgs*
 class CORDL_TYPE MessageEventArgs : public ::System::Object {
 public:
@@ -42,7 +42,7 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::MessageEventArgs* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ce75bc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2b80188 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageEventArgs", modifiers: "&&", def_value: None }]
@@ -69,6 +69,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::PlayerConnection::MessageEventArgs, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::MessageEventArgs, ___playerId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::MessageEventArgs, ___data) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::Networking::PlayerConnection
 NEED_NO_BOX(::UnityEngine::Networking::PlayerConnection::MessageEventArgs);

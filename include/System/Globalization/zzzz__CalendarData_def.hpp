@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Globalization::CalendarData);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3697))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3685))
 // CS Name: ::System.Globalization::CalendarData*
 class CORDL_TYPE CalendarData : public ::System::Object {
 public:
@@ -217,39 +217,39 @@ public:
 
   static inline ::System::Globalization::CalendarData* New_ctor();
 
-  /// @brief Method .ctor addr 0x255ea1c size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2402758 size 0x10 virtual false final false
   inline void _ctor();
 
   static inline ::System::Globalization::CalendarData* New_ctor(::StringW localeName, int32_t calendarId, bool bUseUserOverrides);
 
-  /// @brief Method .ctor addr 0x255ff58 size 0x518 virtual false final false
+  /// @brief Method .ctor addr 0x2403c94 size 0x564 virtual false final false
   inline void _ctor(::StringW localeName, int32_t calendarId, bool bUseUserOverrides);
 
-  /// @brief Method InitializeEraNames addr 0x2560534 size 0x3bc virtual false final false
+  /// @brief Method InitializeEraNames addr 0x24042b4 size 0x3bc virtual false final false
   inline void InitializeEraNames(::StringW localeName, int32_t calendarId);
 
-  /// @brief Method GetJapaneseEraNames addr 0x2560cd8 size 0xec virtual false final false
+  /// @brief Method GetJapaneseEraNames addr 0x2404a5c size 0xf0 virtual false final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetJapaneseEraNames();
 
-  /// @brief Method GetJapaneseEnglishEraNames addr 0x2560bec size 0xec virtual false final false
+  /// @brief Method GetJapaneseEnglishEraNames addr 0x240496c size 0xf0 virtual false final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetJapaneseEnglishEraNames();
 
-  /// @brief Method InitializeAbbreviatedEraNames addr 0x25608f0 size 0x2fc virtual false final false
+  /// @brief Method InitializeAbbreviatedEraNames addr 0x2404670 size 0x2fc virtual false final false
   inline void InitializeAbbreviatedEraNames(::StringW localeName, int32_t calendarId);
 
-  /// @brief Method GetCalendarData addr 0x255e320 size 0xa4 virtual false final false
+  /// @brief Method GetCalendarData addr 0x2402058 size 0xa8 virtual false final false
   static inline ::System::Globalization::CalendarData* GetCalendarData(int32_t calendarId);
 
-  /// @brief Method CalendarIdToCultureName addr 0x2560fec size 0xcc virtual false final false
+  /// @brief Method CalendarIdToCultureName addr 0x2404b4c size 0xcc virtual false final false
   static inline ::StringW CalendarIdToCultureName(int32_t calendarId);
 
-  /// @brief Method nativeGetTwoDigitYearMax addr 0x255ea14 size 0x8 virtual false final false
+  /// @brief Method nativeGetTwoDigitYearMax addr 0x2402750 size 0x8 virtual false final false
   static inline int32_t nativeGetTwoDigitYearMax(int32_t calID);
 
-  /// @brief Method nativeGetCalendarData addr 0x2560470 size 0xbc virtual false final false
+  /// @brief Method nativeGetCalendarData addr 0x24041f8 size 0xbc virtual false final false
   static inline bool nativeGetCalendarData(::System::Globalization::CalendarData* data, ::StringW localeName, int32_t calendarId);
 
-  /// @brief Method fill_calendar_data addr 0x25611d0 size 0x4 virtual false final false
+  /// @brief Method fill_calendar_data addr 0x2404c18 size 0x4 virtual false final false
   inline bool fill_calendar_data(::StringW localeName, int32_t datetimeIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "CalendarData", modifiers: "&&", def_value: None }]
@@ -330,6 +330,44 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::CalendarData, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___sNativeName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___saShortDates) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___saYearMonths) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___saLongDates) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___sMonthDay) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___saEraNames) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___saAbbrevEraNames) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___saAbbrevEnglishEraNames) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___saDayNames) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___saAbbrevDayNames) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___saSuperShortDayNames) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___saMonthNames) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___saAbbrevMonthNames) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___saMonthGenitiveNames) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___saAbbrevMonthGenitiveNames) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___saLeapYearMonthNames) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___iTwoDigitYearMax) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___iCurrentEra) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::CalendarData, ___bUseUserOverrides) == 0x98, "Offset mismatch!");
 
 } // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::CalendarData);

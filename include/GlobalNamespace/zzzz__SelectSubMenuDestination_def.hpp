@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectSubMenuDestination);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4153))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4188))
 // CS Name: ::SelectSubMenuDestination::Destination
 struct CORDL_TYPE __SelectSubMenuDestination__Destination {
 public:
@@ -87,13 +87,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SelectSubMenuDestination__Destination, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SelectSubMenuDestination__Destination, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SelectSubMenuDestination
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4153)), TypeDefinitionIndex(TypeDefinitionIndex(4152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4154))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4187)), TypeDefinitionIndex(TypeDefinitionIndex(4188))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4189))
 // CS Name: ::SelectSubMenuDestination*
 class CORDL_TYPE SelectSubMenuDestination : public ::GlobalNamespace::MenuDestination {
 public:
@@ -111,7 +113,7 @@ public:
 
   static inline ::GlobalNamespace::SelectSubMenuDestination* New_ctor(::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination);
 
-  /// @brief Method .ctor addr 0x223d0a8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x21ced04 size 0x28 virtual false final false
   inline void _ctor(::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination);
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectSubMenuDestination", modifiers: "&&", def_value: None }]
@@ -135,6 +137,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectSubMenuDestination, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SelectSubMenuDestination, ___menuDestination) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SelectSubMenuDestination__Destination, "", "SelectSubMenuDestination/Destination");

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HtmlEncodedRawTextWriterIndent)
-namespace System::Xml {
-class XmlWriterSettings;
-}
 namespace System::IO {
 class TextWriter;
+}
+namespace System::Xml {
+class XmlWriterSettings;
 }
 namespace System::IO {
 class Stream;
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::Xml::HtmlEncodedRawTextWriterIndent);
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 249, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11416))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11417))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11344))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11345))
 // CS Name: ::System.Xml::HtmlEncodedRawTextWriterIndent*
 class CORDL_TYPE HtmlEncodedRawTextWriterIndent : public ::System::Xml::HtmlEncodedRawTextWriter {
 public:
@@ -69,36 +69,36 @@ public:
 
   static inline ::System::Xml::HtmlEncodedRawTextWriterIndent* New_ctor(::System::IO::TextWriter* writer, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method .ctor addr 0x2851a58 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x26d5a3c size 0x48 virtual false final false
   inline void _ctor(::System::IO::TextWriter* writer, ::System::Xml::XmlWriterSettings* settings);
 
   static inline ::System::Xml::HtmlEncodedRawTextWriterIndent* New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method .ctor addr 0x2851ac8 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x26d5aac size 0x48 virtual false final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method WriteDocType addr 0x2851b10 size 0x1c virtual true final false
+  /// @brief Method WriteDocType addr 0x26d5af4 size 0x1c virtual true final false
   inline void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset);
 
-  /// @brief Method WriteStartElement addr 0x2851b2c size 0x1b4 virtual true final false
+  /// @brief Method WriteStartElement addr 0x26d5b10 size 0x1b4 virtual true final false
   inline void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method StartElementContent addr 0x2851d28 size 0x70 virtual true final false
+  /// @brief Method StartElementContent addr 0x26d5d0c size 0x70 virtual true final false
   inline void StartElementContent();
 
-  /// @brief Method WriteEndElement addr 0x2851d98 size 0xa0 virtual true final false
+  /// @brief Method WriteEndElement addr 0x26d5d7c size 0xa0 virtual true final false
   inline void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteStartAttribute addr 0x2851e38 size 0x70 virtual true final false
+  /// @brief Method WriteStartAttribute addr 0x26d5e1c size 0x70 virtual true final false
   inline void WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method FlushBuffer addr 0x2851ea8 size 0x28 virtual true final false
+  /// @brief Method FlushBuffer addr 0x26d5e8c size 0x28 virtual true final false
   inline void FlushBuffer();
 
-  /// @brief Method Init addr 0x2851aa0 size 0x28 virtual false final false
+  /// @brief Method Init addr 0x26d5a84 size 0x28 virtual false final false
   inline void Init(::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method WriteIndent addr 0x2851ce0 size 0x48 virtual false final false
+  /// @brief Method WriteIndent addr 0x26d5cc4 size 0x48 virtual false final false
   inline void WriteIndent();
 
   // Ctor Parameters [CppParam { name: "", ty: "HtmlEncodedRawTextWriterIndent", modifiers: "&&", def_value: None }]
@@ -131,6 +131,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::HtmlEncodedRawTextWriterIndent, 0x100>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::HtmlEncodedRawTextWriterIndent, ___indentLevel) == 0xe4, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::HtmlEncodedRawTextWriterIndent, ___endBlockPos) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::HtmlEncodedRawTextWriterIndent, ___indentChars) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::HtmlEncodedRawTextWriterIndent, ___newLineOnAttributes) == 0xf8, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::HtmlEncodedRawTextWriterIndent);

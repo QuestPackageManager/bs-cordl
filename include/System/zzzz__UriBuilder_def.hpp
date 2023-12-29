@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::UriBuilder);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8866))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7703))
 // CS Name: ::System::UriBuilder*
 class CORDL_TYPE UriBuilder : public ::System::Object {
 public:
@@ -141,50 +141,50 @@ public:
 
   static inline ::System::UriBuilder* New_ctor();
 
-  /// @brief Method .ctor addr 0x2946b7c size 0x10c virtual false final false
+  /// @brief Method .ctor addr 0x27c9a5c size 0x10c virtual false final false
   inline void _ctor();
 
   static inline ::System::UriBuilder* New_ctor(::StringW uri);
 
-  /// @brief Method .ctor addr 0x2946c88 size 0x1a8 virtual false final false
+  /// @brief Method .ctor addr 0x27c9b68 size 0x1a8 virtual false final false
   inline void _ctor(::StringW uri);
 
   static inline ::System::UriBuilder* New_ctor(::System::Uri* uri);
 
-  /// @brief Method .ctor addr 0x2946fa4 size 0x174 virtual false final false
+  /// @brief Method .ctor addr 0x27c9e84 size 0x174 virtual false final false
   inline void _ctor(::System::Uri* uri);
 
-  /// @brief Method Init addr 0x2946e30 size 0x174 virtual false final false
+  /// @brief Method Init addr 0x27c9d10 size 0x174 virtual false final false
   inline void Init(::System::Uri* uri);
 
-  /// @brief Method set_Host addr 0x294727c size 0xec virtual false final false
+  /// @brief Method set_Host addr 0x27ca15c size 0xec virtual false final false
   inline void set_Host(::StringW value);
 
-  /// @brief Method set_Path addr 0x2947368 size 0xb4 virtual false final false
+  /// @brief Method set_Path addr 0x27ca248 size 0xb4 virtual false final false
   inline void set_Path(::StringW value);
 
-  /// @brief Method set_Port addr 0x294741c size 0x70 virtual false final false
+  /// @brief Method set_Port addr 0x27ca2fc size 0x70 virtual false final false
   inline void set_Port(int32_t value);
 
-  /// @brief Method set_Query addr 0x294748c size 0xb8 virtual false final false
+  /// @brief Method set_Query addr 0x27ca36c size 0xb8 virtual false final false
   inline void set_Query(::StringW value);
 
-  /// @brief Method set_Scheme addr 0x2947544 size 0x148 virtual false final false
+  /// @brief Method set_Scheme addr 0x27ca424 size 0x148 virtual false final false
   inline void set_Scheme(::StringW value);
 
-  /// @brief Method get_Uri addr 0x294768c size 0x98 virtual false final false
+  /// @brief Method get_Uri addr 0x27ca56c size 0x98 virtual false final false
   inline ::System::Uri* get_Uri();
 
-  /// @brief Method Equals addr 0x2947724 size 0x5c virtual true final false
+  /// @brief Method Equals addr 0x27ca604 size 0x5c virtual true final false
   inline bool Equals(::System::Object* rparam);
 
-  /// @brief Method GetHashCode addr 0x2947780 size 0x20 virtual true final false
+  /// @brief Method GetHashCode addr 0x27ca660 size 0x20 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method SetFieldsFromUri addr 0x2947118 size 0x164 virtual false final false
+  /// @brief Method SetFieldsFromUri addr 0x27c9ff8 size 0x164 virtual false final false
   inline void SetFieldsFromUri(::System::Uri* uri);
 
-  /// @brief Method ToString addr 0x29477a0 size 0x4cc virtual true final false
+  /// @brief Method ToString addr 0x27ca680 size 0x4cc virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "UriBuilder", modifiers: "&&", def_value: None }]
@@ -238,6 +238,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::UriBuilder, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::System::UriBuilder, ____changed) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::UriBuilder, ____fragment) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::UriBuilder, ____host) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::UriBuilder, ____password) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::UriBuilder, ____path) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::UriBuilder, ____port) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::UriBuilder, ____query) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::UriBuilder, ____scheme) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::UriBuilder, ____schemeDelimiter) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::UriBuilder, ____uri) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::UriBuilder, ____username) == 0x60, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::UriBuilder);

@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::JetBrains::Annotations::XamlItemBindingOfItemsControlAttribute)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15794))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15744))
 // CS Name: ::JetBrains.Annotations::XamlItemBindingOfItemsControlAttribute*
 class CORDL_TYPE XamlItemBindingOfItemsControlAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::XamlItemBindingOfItemsControlAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2eba784 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d52a04 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XamlItemBindingOfItemsControlAttribute", modifiers: "&&", def_value: None }]

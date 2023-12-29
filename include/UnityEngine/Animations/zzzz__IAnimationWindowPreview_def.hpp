@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::Animations::IAnimationWindowPreview);
 namespace UnityEngine::Animations {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14902))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15129))
 // CS Name: ::UnityEngine.Animations::IAnimationWindowPreview*
 class CORDL_TYPE IAnimationWindowPreview {
 public:

@@ -12,19 +12,19 @@ namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
 namespace UnityEngine {
-class CanvasGroup;
-}
-namespace GlobalNamespace {
-class DirectionalLight;
+class Transform;
 }
 namespace TMPro {
 class TextMeshPro;
 }
 namespace GlobalNamespace {
+class DirectionalLight;
+}
+namespace GlobalNamespace {
 struct __TimelineArrayReference__ArrayTypes;
 }
 namespace UnityEngine {
-class Transform;
+class CanvasGroup;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::TimelineArrayReference);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6018))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6073))
 // CS Name: ::TimelineArrayReference::ArrayTypes
 struct CORDL_TYPE __TimelineArrayReference__ArrayTypes {
 public:
@@ -95,13 +95,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TimelineArrayReference__ArrayTypes, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__TimelineArrayReference__ArrayTypes, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::TimelineArrayReference
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6018))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6019))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6073)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6074))
 // CS Name: ::TimelineArrayReference*
 class CORDL_TYPE TimelineArrayReference : public ::UnityEngine::MonoBehaviour {
 public:
@@ -165,7 +167,7 @@ public:
 
   static inline ::GlobalNamespace::TimelineArrayReference* New_ctor();
 
-  /// @brief Method .ctor addr 0x2317d00 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21c4edc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelineArrayReference", modifiers: "&&", def_value: None }]
@@ -204,6 +206,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TimelineArrayReference, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TimelineArrayReference, ___arrayType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TimelineArrayReference, ____tubeLightArray) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TimelineArrayReference, ____canvasGroupArray) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TimelineArrayReference, ____tmproArray) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TimelineArrayReference, ____transformArray) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TimelineArrayReference, ____directionalLights) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__TimelineArrayReference__ArrayTypes, "", "TimelineArrayReference/ArrayTypes");

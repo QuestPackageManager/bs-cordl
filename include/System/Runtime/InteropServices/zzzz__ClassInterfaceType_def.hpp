@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::InteropServices::ClassInterfaceType);
 namespace System::Runtime::InteropServices {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3317))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3314))
 // CS Name: ::System.Runtime.InteropServices::ClassInterfaceType
 struct CORDL_TYPE ClassInterfaceType {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::ClassInterfaceType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::ClassInterfaceType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Runtime::InteropServices
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::ClassInterfaceType, "System.Runtime.InteropServices", "ClassInterfaceType");

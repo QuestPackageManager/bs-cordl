@@ -35,7 +35,7 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x11cf198 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x115df48 size 0x48 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   // Ctor Parameters [CppParam { name: "", ty: "SymmetricEncIntegrityPacket", modifiers: "&&", def_value: None }]
@@ -59,6 +59,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket, ___version) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket);

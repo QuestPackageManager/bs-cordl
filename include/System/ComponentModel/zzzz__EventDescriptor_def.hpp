@@ -19,15 +19,15 @@ MARK_REF_PTR_T(::System::ComponentModel::EventDescriptor);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9474))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9423))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8311))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8260))
 // CS Name: ::System.ComponentModel::EventDescriptor*
 class CORDL_TYPE EventDescriptor : public ::System::ComponentModel::MemberDescriptor {
 public:
   // Declarations
   static inline ::System::ComponentModel::EventDescriptor* New_ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method .ctor addr 0x290eebc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2790e94 size 0x8 virtual false final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
   // Ctor Parameters [CppParam { name: "", ty: "EventDescriptor", modifiers: "&&", def_value: None }]

@@ -18,8 +18,8 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2694))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2692))
 // CS Name: ::System.Threading::SparselyPopulatedArrayFragment`1<T>*
 class CORDL_TYPE SparselyPopulatedArrayFragment_1 : public ::System::Object {
 public:

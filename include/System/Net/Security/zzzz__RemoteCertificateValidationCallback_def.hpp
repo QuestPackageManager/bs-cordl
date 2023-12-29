@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RemoteCertificateValidationCallback)
+namespace System::Net::Security {
+struct SslPolicyErrors;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
+}
 namespace System {
 class Object;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
-}
-namespace System::Net::Security {
-struct SslPolicyErrors;
 }
 // Forward declare root types
 namespace System::Net::Security {
@@ -27,18 +27,18 @@ MARK_REF_PTR_T(::System::Net::Security::RemoteCertificateValidationCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9368))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8205))
 // CS Name: ::System.Net.Security::RemoteCertificateValidationCallback*
 class CORDL_TYPE RemoteCertificateValidationCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Net::Security::RemoteCertificateValidationCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x28ffb2c size 0x130 virtual false final false
+  /// @brief Method .ctor addr 0x2781b08 size 0x130 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x28ffc5c size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2781c38 size 0x14 virtual true final false
   inline bool Invoke(::System::Object* sender, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                      ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 

@@ -17,14 +17,14 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Keyboard_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8674))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9443))
 // CS Name: ::OVR.OpenVR::VREvent_Keyboard_t
 struct CORDL_TYPE VREvent_Keyboard_t {
 public:
   // Declarations
   __declspec(property(get = get_cNewInput))::StringW cNewInput;
 
-  /// @brief Method get_cNewInput addr 0x27f6660 size 0xec virtual false final false
+  /// @brief Method get_cNewInput addr 0x267f6dc size 0xec virtual false final false
   inline ::StringW get_cNewInput();
 
   // Ctor Parameters [CppParam { name: "cNewInput0", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "cNewInput1", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
@@ -72,6 +72,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VREvent_Keyboard_t, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_Keyboard_t, cNewInput0) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_Keyboard_t, cNewInput1) == 0x1, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_Keyboard_t, cNewInput2) == 0x2, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_Keyboard_t, cNewInput3) == 0x3, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_Keyboard_t, cNewInput4) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_Keyboard_t, cNewInput5) == 0x5, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_Keyboard_t, cNewInput6) == 0x6, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_Keyboard_t, cNewInput7) == 0x7, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_Keyboard_t, uUserValue) == 0x8, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VREvent_Keyboard_t, "OVR.OpenVR", "VREvent_Keyboard_t");

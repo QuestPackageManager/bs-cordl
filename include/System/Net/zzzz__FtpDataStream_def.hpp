@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FtpDataStream)
-namespace System {
-class IAsyncResult;
-}
 namespace System::Net {
 struct CloseExState;
-}
-namespace System::Net {
-class ICloseEx;
-}
-namespace System::Net::Sockets {
-class NetworkStream;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System::Net {
-class FtpWebRequest;
+class ICloseEx;
 }
 namespace System::Net {
 struct TriState;
 }
-namespace System::IO {
-struct SeekOrigin;
+namespace System {
+class IAsyncResult;
+}
+namespace System::Net {
+class FtpWebRequest;
 }
 namespace System {
 class Object;
+}
+namespace System::Net::Sockets {
+class NetworkStream;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 // Forward declare root types
 namespace System::Net {
@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::System::Net::FtpDataStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9043))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3607))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7880))
 // CS Name: ::System.Net::FtpDataStream*
 class CORDL_TYPE FtpDataStream : public ::System::IO::Stream {
 public:
@@ -124,82 +124,82 @@ public:
 
   static inline ::System::Net::FtpDataStream* New_ctor(::System::Net::Sockets::NetworkStream* networkStream, ::System::Net::FtpWebRequest* request, ::System::Net::TriState writeOnly);
 
-  /// @brief Method .ctor addr 0x298f9ac size 0xfc virtual false final false
+  /// @brief Method .ctor addr 0x281213c size 0xfc virtual false final false
   inline void _ctor(::System::Net::Sockets::NetworkStream* networkStream, ::System::Net::FtpWebRequest* request, ::System::Net::TriState writeOnly);
 
-  /// @brief Method Dispose addr 0x29935a0 size 0x188 virtual true final false
+  /// @brief Method Dispose addr 0x2815d30 size 0x188 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method System.Net.ICloseEx.CloseEx addr 0x2993728 size 0x3e4 virtual true final true
+  /// @brief Method System.Net.ICloseEx.CloseEx addr 0x2815eb8 size 0x3e4 virtual true final true
   inline void System_Net_ICloseEx_CloseEx(::System::Net::CloseExState closeState);
 
-  /// @brief Method CheckError addr 0x2993b0c size 0x44 virtual false final false
+  /// @brief Method CheckError addr 0x281629c size 0x44 virtual false final false
   inline void CheckError();
 
-  /// @brief Method get_CanRead addr 0x2993b50 size 0x8 virtual true final false
+  /// @brief Method get_CanRead addr 0x28162e0 size 0x8 virtual true final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek addr 0x2993b58 size 0x20 virtual true final false
+  /// @brief Method get_CanSeek addr 0x28162e8 size 0x20 virtual true final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite addr 0x2993b78 size 0x8 virtual true final false
+  /// @brief Method get_CanWrite addr 0x2816308 size 0x8 virtual true final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length addr 0x2993b80 size 0x20 virtual true final false
+  /// @brief Method get_Length addr 0x2816310 size 0x20 virtual true final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position addr 0x2993ba0 size 0x24 virtual true final false
+  /// @brief Method get_Position addr 0x2816330 size 0x20 virtual true final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position addr 0x2993bc4 size 0x24 virtual true final false
+  /// @brief Method set_Position addr 0x2816350 size 0x24 virtual true final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method Seek addr 0x2993be8 size 0xcc virtual true final false
+  /// @brief Method Seek addr 0x2816374 size 0xcc virtual true final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method Read addr 0x2993cb4 size 0x104 virtual true final false
+  /// @brief Method Read addr 0x2816440 size 0x104 virtual true final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method Write addr 0x2993db8 size 0xd8 virtual true final false
+  /// @brief Method Write addr 0x2816544 size 0xd8 virtual true final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method AsyncReadCallback addr 0x2993e90 size 0x2b0 virtual false final false
+  /// @brief Method AsyncReadCallback addr 0x281661c size 0x2b0 virtual false final false
   inline void AsyncReadCallback(::System::IAsyncResult* ar);
 
-  /// @brief Method BeginRead addr 0x2994140 size 0x1ac virtual true final false
+  /// @brief Method BeginRead addr 0x28168cc size 0x1ac virtual true final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method EndRead addr 0x29942ec size 0x1a0 virtual true final false
+  /// @brief Method EndRead addr 0x2816a78 size 0x1a0 virtual true final false
   inline int32_t EndRead(::System::IAsyncResult* ar);
 
-  /// @brief Method BeginWrite addr 0x299448c size 0xf4 virtual true final false
+  /// @brief Method BeginWrite addr 0x2816c18 size 0xf4 virtual true final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method EndWrite addr 0x2994580 size 0xa0 virtual true final false
+  /// @brief Method EndWrite addr 0x2816d0c size 0xa0 virtual true final false
   inline void EndWrite(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method Flush addr 0x2994620 size 0x24 virtual true final false
+  /// @brief Method Flush addr 0x2816dac size 0x24 virtual true final false
   inline void Flush();
 
-  /// @brief Method SetLength addr 0x2994644 size 0x24 virtual true final false
+  /// @brief Method SetLength addr 0x2816dd0 size 0x24 virtual true final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method get_CanTimeout addr 0x2994668 size 0x20 virtual true final false
+  /// @brief Method get_CanTimeout addr 0x2816df4 size 0x20 virtual true final false
   inline bool get_CanTimeout();
 
-  /// @brief Method get_ReadTimeout addr 0x2994688 size 0x24 virtual true final false
+  /// @brief Method get_ReadTimeout addr 0x2816e14 size 0x24 virtual true final false
   inline int32_t get_ReadTimeout();
 
-  /// @brief Method set_ReadTimeout addr 0x29946ac size 0x24 virtual true final false
+  /// @brief Method set_ReadTimeout addr 0x2816e38 size 0x24 virtual true final false
   inline void set_ReadTimeout(int32_t value);
 
-  /// @brief Method get_WriteTimeout addr 0x29946d0 size 0x24 virtual true final false
+  /// @brief Method get_WriteTimeout addr 0x2816e5c size 0x24 virtual true final false
   inline int32_t get_WriteTimeout();
 
-  /// @brief Method set_WriteTimeout addr 0x29946f4 size 0x24 virtual true final false
+  /// @brief Method set_WriteTimeout addr 0x2816e80 size 0x24 virtual true final false
   inline void set_WriteTimeout(int32_t value);
 
-  /// @brief Method SetSocketTimeoutOption addr 0x2994718 size 0x50 virtual false final false
+  /// @brief Method SetSocketTimeoutOption addr 0x2816ea4 size 0x50 virtual false final false
   inline void SetSocketTimeoutOption(int32_t timeout);
 
   // Ctor Parameters [CppParam { name: "", ty: "FtpDataStream", modifiers: "&&", def_value: None }]
@@ -238,6 +238,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::FtpDataStream, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::FtpDataStream, ____request) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpDataStream, ____networkStream) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpDataStream, ____writeable) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpDataStream, ____readable) == 0x39, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpDataStream, ____isFullyRead) == 0x3a, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpDataStream, ____closing) == 0x3b, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::FtpDataStream);

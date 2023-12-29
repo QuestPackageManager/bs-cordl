@@ -10,6 +10,12 @@ CORDL_MODULE_EXPORT(ECPoint)
 namespace System::Collections {
 class IDictionary;
 }
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -22,17 +28,11 @@ class __ECPoint__ValidityCallback;
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class PreCompInfo;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class IPreCompCallback;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class PreCompInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::__ECPoint__ValidityCallback);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1371))
 // CS Name: ::ECPoint::ValidityCallback*
 class CORDL_TYPE __ECPoint__ValidityCallback : public ::System::Object {
@@ -86,10 +86,10 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::__ECPoint__ValidityCallback* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* outer, bool decompressed, bool checkOrder);
 
-  /// @brief Method .ctor addr 0xfcffd8 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0xf5ad8c size 0x40 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECPoint* outer, bool decompressed, bool checkOrder);
 
-  /// @brief Method Precompute addr 0xfd09a8 size 0x120 virtual true final true
+  /// @brief Method Precompute addr 0xf5b75c size 0x120 virtual true final true
   inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ECPoint__ValidityCallback", modifiers: "&&", def_value: None }]
@@ -120,12 +120,18 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::__ECPoint__ValidityCallback, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::__ECPoint__ValidityCallback, ___m_outer) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::__ECPoint__ValidityCallback, ___m_decompressed) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::__ECPoint__ValidityCallback, ___m_checkOrder) == 0x19, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Math::EC
 // Type: Org.BouncyCastle.Math.EC::ECPoint
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1372))
 // CS Name: ::Org.BouncyCastle.Math.EC::ECPoint*
 class CORDL_TYPE ECPoint : public ::System::Object {
@@ -226,13 +232,13 @@ public:
 
   static inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> getStaticF_EMPTY_ZS();
 
-  /// @brief Method GetInitialZCoords addr 0xfcf598 size 0x2a8 virtual false final false
+  /// @brief Method GetInitialZCoords addr 0xf5a34c size 0x2a8 virtual false final false
   static inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> GetInitialZCoords(::Org::BouncyCastle::Math::EC::ECCurve* curve);
 
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                  ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor addr 0xfcf840 size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0xf5a5f4 size 0x9c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
@@ -240,110 +246,110 @@ public:
                                                                  ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
                                                                  bool withCompression);
 
-  /// @brief Method .ctor addr 0xfcf8dc size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0xf5a690 size 0x54 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 
   /// @brief Method SatisfiesCurveEquation addr 0x0 size 0xffffffffffffffff virtual true final false
   inline bool SatisfiesCurveEquation();
 
-  /// @brief Method SatisfiesOrder addr 0xfcf930 size 0x100 virtual true final false
+  /// @brief Method SatisfiesOrder addr 0xf5a6e4 size 0x100 virtual true final false
   inline bool SatisfiesOrder();
 
-  /// @brief Method GetDetachedPoint addr 0xfcfa30 size 0x2c virtual false final false
+  /// @brief Method GetDetachedPoint addr 0xf5a7e4 size 0x2c virtual false final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* GetDetachedPoint();
 
-  /// @brief Method get_Curve addr 0xfcfa5c size 0x8 virtual true final false
+  /// @brief Method get_Curve addr 0xf5a810 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* get_Curve();
 
   /// @brief Method Detach addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Detach();
 
-  /// @brief Method get_CurveCoordinateSystem addr 0xfcfa64 size 0x1c virtual true final false
+  /// @brief Method get_CurveCoordinateSystem addr 0xf5a818 size 0x1c virtual true final false
   inline int32_t get_CurveCoordinateSystem();
 
-  /// @brief Method get_AffineXCoord addr 0xfcfa80 size 0x2c virtual true final false
+  /// @brief Method get_AffineXCoord addr 0xf5a834 size 0x2c virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_AffineXCoord();
 
-  /// @brief Method get_AffineYCoord addr 0xfcfaac size 0x2c virtual true final false
+  /// @brief Method get_AffineYCoord addr 0xf5a860 size 0x2c virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_AffineYCoord();
 
-  /// @brief Method get_XCoord addr 0xfcfad8 size 0x8 virtual true final false
+  /// @brief Method get_XCoord addr 0xf5a88c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_XCoord();
 
-  /// @brief Method get_YCoord addr 0xfcfae0 size 0x8 virtual true final false
+  /// @brief Method get_YCoord addr 0xf5a894 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_YCoord();
 
-  /// @brief Method GetZCoord addr 0xfcfae8 size 0x40 virtual true final false
+  /// @brief Method GetZCoord addr 0xf5a89c size 0x40 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* GetZCoord(int32_t index);
 
-  /// @brief Method GetZCoords addr 0xfcfb28 size 0x88 virtual true final false
+  /// @brief Method GetZCoords addr 0xf5a8dc size 0x88 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> GetZCoords();
 
-  /// @brief Method get_RawXCoord addr 0xfcfbb0 size 0x8 virtual false final false
+  /// @brief Method get_RawXCoord addr 0xf5a964 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_RawXCoord();
 
-  /// @brief Method get_RawYCoord addr 0xfcfbb8 size 0x8 virtual false final false
+  /// @brief Method get_RawYCoord addr 0xf5a96c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_RawYCoord();
 
-  /// @brief Method get_RawZCoords addr 0xfcfbc0 size 0x8 virtual false final false
+  /// @brief Method get_RawZCoords addr 0xf5a974 size 0x8 virtual false final false
   inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> get_RawZCoords();
 
-  /// @brief Method CheckNormalized addr 0xfcfbc8 size 0x6c virtual true final false
+  /// @brief Method CheckNormalized addr 0xf5a97c size 0x6c virtual true final false
   inline void CheckNormalized();
 
-  /// @brief Method IsNormalized addr 0xfcfc34 size 0x70 virtual true final false
+  /// @brief Method IsNormalized addr 0xf5a9e8 size 0x70 virtual true final false
   inline bool IsNormalized();
 
-  /// @brief Method Normalize addr 0xfcfca4 size 0x190 virtual true final false
+  /// @brief Method Normalize addr 0xf5aa58 size 0x190 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Normalize();
 
-  /// @brief Method Normalize addr 0xfcfe34 size 0xf4 virtual true final false
+  /// @brief Method Normalize addr 0xf5abe8 size 0xf4 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Normalize(::Org::BouncyCastle::Math::EC::ECFieldElement* zInv);
 
-  /// @brief Method CreateScaledPoint addr 0xfcff28 size 0x9c virtual true final false
+  /// @brief Method CreateScaledPoint addr 0xf5acdc size 0x9c virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateScaledPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* sx, ::Org::BouncyCastle::Math::EC::ECFieldElement* sy);
 
-  /// @brief Method get_IsInfinity addr 0xfca718 size 0x20 virtual false final false
+  /// @brief Method get_IsInfinity addr 0xf554cc size 0x20 virtual false final false
   inline bool get_IsInfinity();
 
-  /// @brief Method get_IsCompressed addr 0xfcffc4 size 0x8 virtual false final false
+  /// @brief Method get_IsCompressed addr 0xf5ad78 size 0x8 virtual false final false
   inline bool get_IsCompressed();
 
-  /// @brief Method IsValid addr 0xfc9ec0 size 0xc virtual false final false
+  /// @brief Method IsValid addr 0xf54c74 size 0xc virtual false final false
   inline bool IsValid();
 
-  /// @brief Method IsValidPartial addr 0xfcffcc size 0xc virtual false final false
+  /// @brief Method IsValidPartial addr 0xf5ad80 size 0xc virtual false final false
   inline bool IsValidPartial();
 
-  /// @brief Method ImplIsValid addr 0xfcb68c size 0x140 virtual false final false
+  /// @brief Method ImplIsValid addr 0xf56440 size 0x140 virtual false final false
   inline bool ImplIsValid(bool decompressed, bool checkOrder);
 
-  /// @brief Method ScaleX addr 0xfd0018 size 0x90 virtual true final false
+  /// @brief Method ScaleX addr 0xf5adcc size 0x90 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleX(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method ScaleXNegateY addr 0xfd00a8 size 0xb0 virtual true final false
+  /// @brief Method ScaleXNegateY addr 0xf5ae5c size 0xb0 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleXNegateY(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method ScaleY addr 0xfd0158 size 0xa4 virtual true final false
+  /// @brief Method ScaleY addr 0xf5af0c size 0xa4 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleY(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method ScaleYNegateX addr 0xfd01fc size 0xbc virtual true final false
+  /// @brief Method ScaleYNegateX addr 0xf5afb0 size 0xbc virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleYNegateX(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method Equals addr 0xfd02b8 size 0x8c virtual true final false
+  /// @brief Method Equals addr 0xf5b06c size 0x8c virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xfd0344 size 0x2b0 virtual true final false
+  /// @brief Method Equals addr 0xf5b0f8 size 0x2b0 virtual true final false
   inline bool Equals(::Org::BouncyCastle::Math::EC::ECPoint* other);
 
-  /// @brief Method GetHashCode addr 0xfd05f4 size 0xc4 virtual true final false
+  /// @brief Method GetHashCode addr 0xf5b3a8 size 0xc4 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0xfd06b8 size 0x148 virtual true final false
+  /// @brief Method ToString addr 0xf5b46c size 0x148 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method GetEncoded addr 0xfd0800 size 0x14 virtual true final false
+  /// @brief Method GetEncoded addr 0xf5b5b4 size 0x14 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   /// @brief Method GetEncoded addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -361,7 +367,7 @@ public:
   /// @brief Method Negate addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Negate();
 
-  /// @brief Method TimesPow2 addr 0xfd0814 size 0xa0 virtual true final false
+  /// @brief Method TimesPow2 addr 0xf5b5c8 size 0xa0 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* TimesPow2(int32_t e);
 
   /// @brief Method Twice addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -370,10 +376,10 @@ public:
   /// @brief Method Multiply addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Multiply(::Org::BouncyCastle::Math::BigInteger* b);
 
-  /// @brief Method TwicePlus addr 0xfd08b4 size 0x3c virtual true final false
+  /// @brief Method TwicePlus addr 0xf5b668 size 0x3c virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* TwicePlus(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method ThreeTimes addr 0xfd08f0 size 0x14 virtual true final false
+  /// @brief Method ThreeTimes addr 0xf5b6a4 size 0x14 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ThreeTimes();
 
   // Ctor Parameters [CppParam { name: "", ty: "ECPoint", modifiers: "&&", def_value: None }]
@@ -412,6 +418,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::ECPoint, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::ECPoint, ___m_curve) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::ECPoint, ___m_x) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::ECPoint, ___m_y) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::ECPoint, ___m_zs) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::ECPoint, ___m_withCompression) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::ECPoint, ___m_preCompTable) == 0x38, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::ECPoint);

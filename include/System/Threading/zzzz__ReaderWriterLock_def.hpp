@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Threading::ReaderWriterLock);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3354))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2745))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3350))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2743))
 // CS Name: ::System.Threading::ReaderWriterLock*
 class CORDL_TYPE ReaderWriterLock : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
@@ -85,40 +85,40 @@ public:
 
   static inline ::System::Threading::ReaderWriterLock* New_ctor();
 
-  /// @brief Method .ctor addr 0x261e500 size 0xd4 virtual false final false
+  /// @brief Method .ctor addr 0x24c44e0 size 0xd4 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Finalize addr 0x261e5d4 size 0x8 virtual true final false
+  /// @brief Method Finalize addr 0x24c45b4 size 0x8 virtual true final false
   inline void Finalize();
 
-  /// @brief Method get_IsWriterLockHeld addr 0x261e5dc size 0xdc virtual false final false
+  /// @brief Method get_IsWriterLockHeld addr 0x24c45bc size 0xdc virtual false final false
   inline bool get_IsWriterLockHeld();
 
-  /// @brief Method AcquireReaderLock addr 0x261e6b8 size 0x8 virtual false final false
+  /// @brief Method AcquireReaderLock addr 0x24c4698 size 0x8 virtual false final false
   inline void AcquireReaderLock(int32_t millisecondsTimeout);
 
-  /// @brief Method AcquireReaderLock addr 0x261e6c0 size 0x39c virtual false final false
+  /// @brief Method AcquireReaderLock addr 0x24c46a0 size 0x39c virtual false final false
   inline void AcquireReaderLock(int32_t millisecondsTimeout, int32_t initialLockCount);
 
-  /// @brief Method AcquireWriterLock addr 0x261ec38 size 0x8 virtual false final false
+  /// @brief Method AcquireWriterLock addr 0x24c4c18 size 0x8 virtual false final false
   inline void AcquireWriterLock(int32_t millisecondsTimeout);
 
-  /// @brief Method AcquireWriterLock addr 0x261ea90 size 0x1a8 virtual false final false
+  /// @brief Method AcquireWriterLock addr 0x24c4a70 size 0x1a8 virtual false final false
   inline void AcquireWriterLock(int32_t millisecondsTimeout, int32_t initialLockCount);
 
-  /// @brief Method ReleaseReaderLock addr 0x261ec40 size 0x1ec virtual false final false
+  /// @brief Method ReleaseReaderLock addr 0x24c4c20 size 0x1ec virtual false final false
   inline void ReleaseReaderLock();
 
-  /// @brief Method ReleaseReaderLock addr 0x261ef5c size 0x120 virtual false final false
+  /// @brief Method ReleaseReaderLock addr 0x24c4f3c size 0x120 virtual false final false
   inline void ReleaseReaderLock(int32_t currentCount, int32_t releaseCount);
 
-  /// @brief Method ReleaseWriterLock addr 0x261ee2c size 0x130 virtual false final false
+  /// @brief Method ReleaseWriterLock addr 0x24c4e0c size 0x130 virtual false final false
   inline void ReleaseWriterLock();
 
-  /// @brief Method ReleaseWriterLock addr 0x261f07c size 0x60 virtual false final false
+  /// @brief Method ReleaseWriterLock addr 0x24c505c size 0x60 virtual false final false
   inline void ReleaseWriterLock(int32_t releaseCount);
 
-  /// @brief Method HasWriterLock addr 0x261ea5c size 0x34 virtual false final false
+  /// @brief Method HasWriterLock addr 0x24c4a3c size 0x34 virtual false final false
   inline bool HasWriterLock();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReaderWriterLock", modifiers: "&&", def_value: None }]
@@ -157,6 +157,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::ReaderWriterLock, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::ReaderWriterLock, ___seq_num) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::ReaderWriterLock, ___state) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::ReaderWriterLock, ___readers) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::ReaderWriterLock, ___writer_lock_owner) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::ReaderWriterLock, ___writer_queue) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::ReaderWriterLock, ___reader_locks) == 0x28, "Offset mismatch!");
 
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::ReaderWriterLock);

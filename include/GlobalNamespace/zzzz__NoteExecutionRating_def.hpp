@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteExecutionRating)
 namespace GlobalNamespace {
-struct __NoteData__ScoringType;
+struct __NoteExecutionRating__Rating;
 }
 namespace GlobalNamespace {
-struct __NoteExecutionRating__Rating;
+struct __NoteData__ScoringType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteExecutionRating);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4523))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4612))
 // CS Name: ::NoteExecutionRating::Rating
 struct CORDL_TYPE __NoteExecutionRating__Rating {
 public:
@@ -76,13 +76,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NoteExecutionRating__Rating, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__NoteExecutionRating__Rating, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::NoteExecutionRating
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14758)), TypeDefinitionIndex(TypeDefinitionIndex(4523)), TypeDefinitionIndex(TypeDefinitionIndex(4135))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4524))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14971)), TypeDefinitionIndex(TypeDefinitionIndex(4612)), TypeDefinitionIndex(TypeDefinitionIndex(4169))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4613))
 // CS Name: ::NoteExecutionRating*
 class CORDL_TYPE NoteExecutionRating : public ::GlobalNamespace::BeatmapObjectExecutionRating {
 public:
@@ -146,7 +148,7 @@ public:
   static inline ::GlobalNamespace::NoteExecutionRating* New_ctor(float_t time, ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::__NoteExecutionRating__Rating rating,
                                                                  int32_t cutScore, int32_t beforeCutScore, int32_t centerDistanceCutScore, int32_t afterCutScore);
 
-  /// @brief Method .ctor addr 0x2364644 size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x2229b34 size 0x54 virtual false final false
   inline void _ctor(float_t time, ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::__NoteExecutionRating__Rating rating, int32_t cutScore, int32_t beforeCutScore,
                     int32_t centerDistanceCutScore, int32_t afterCutScore);
 
@@ -186,6 +188,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteExecutionRating, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteExecutionRating, ___rating) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteExecutionRating, ___cutScore) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteExecutionRating, ___beforeCutScore) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteExecutionRating, ___centerDistanceCutScore) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteExecutionRating, ___afterCutScore) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteExecutionRating, ___scoringType) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__NoteExecutionRating__Rating, "", "NoteExecutionRating/Rating");

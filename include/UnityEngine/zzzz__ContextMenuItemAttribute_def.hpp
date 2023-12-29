@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::ContextMenuItemAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10171))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10098))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10099))
 // CS Name: ::UnityEngine::ContextMenuItemAttribute*
 class CORDL_TYPE ContextMenuItemAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -41,7 +41,7 @@ public:
 
   static inline ::UnityEngine::ContextMenuItemAttribute* New_ctor(::StringW name, ::StringW function);
 
-  /// @brief Method .ctor addr 0x2ccc0cc size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2b65bc8 size 0x2c virtual false final false
   inline void _ctor(::StringW name, ::StringW function);
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextMenuItemAttribute", modifiers: "&&", def_value: None }]
@@ -68,6 +68,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ContextMenuItemAttribute, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContextMenuItemAttribute, ___name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContextMenuItemAttribute, ___function) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::ContextMenuItemAttribute);

@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IRichPresenceData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4673))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4794))
 // CS Name: ::IRichPresenceData*
 class CORDL_TYPE IRichPresenceData {
 public:

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 CORDL_MODULE_EXPORT(TrackedDevice)
 namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
 class IntegerControl;
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::TrackedDevice);
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6239))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6289))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6325))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6375))
 // CS Name: ::UnityEngine.InputSystem::TrackedDevice*
 class CORDL_TYPE TrackedDevice : public ::UnityEngine::InputSystem::InputDevice {
 public:
@@ -77,36 +77,36 @@ public:
 
   constexpr void __set__deviceRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method get_trackingState addr 0x2aaab50 size 0x8 virtual false final false
+  /// @brief Method get_trackingState addr 0x292be08 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_trackingState();
 
-  /// @brief Method set_trackingState addr 0x2aaab58 size 0x8 virtual false final false
+  /// @brief Method set_trackingState addr 0x292be10 size 0x8 virtual false final false
   inline void set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method get_isTracked addr 0x2aaab60 size 0x8 virtual false final false
+  /// @brief Method get_isTracked addr 0x292be18 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked();
 
-  /// @brief Method set_isTracked addr 0x2aaab68 size 0x8 virtual false final false
+  /// @brief Method set_isTracked addr 0x292be20 size 0x8 virtual false final false
   inline void set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_devicePosition addr 0x2aaab70 size 0x8 virtual false final false
+  /// @brief Method get_devicePosition addr 0x292be28 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_devicePosition();
 
-  /// @brief Method set_devicePosition addr 0x2aaab78 size 0x8 virtual false final false
+  /// @brief Method set_devicePosition addr 0x292be30 size 0x8 virtual false final false
   inline void set_devicePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_deviceRotation addr 0x2aaab80 size 0x8 virtual false final false
+  /// @brief Method get_deviceRotation addr 0x292be38 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_deviceRotation();
 
-  /// @brief Method set_deviceRotation addr 0x2aaab88 size 0x8 virtual false final false
+  /// @brief Method set_deviceRotation addr 0x292be40 size 0x8 virtual false final false
   inline void set_deviceRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method FinishSetup addr 0x2aaab90 size 0x148 virtual true final false
+  /// @brief Method FinishSetup addr 0x292be48 size 0x148 virtual true final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::TrackedDevice* New_ctor();
 
-  /// @brief Method .ctor addr 0x2aaacd8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x292bf90 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackedDevice", modifiers: "&&", def_value: None }]
@@ -139,6 +139,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::TrackedDevice, 0x178>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::TrackedDevice, ____trackingState_k__BackingField) == 0x158, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::TrackedDevice, ____isTracked_k__BackingField) == 0x160, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::TrackedDevice, ____devicePosition_k__BackingField) == 0x168, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::TrackedDevice, ____deviceRotation_k__BackingField) == 0x170, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 NEED_NO_BOX(::UnityEngine::InputSystem::TrackedDevice);

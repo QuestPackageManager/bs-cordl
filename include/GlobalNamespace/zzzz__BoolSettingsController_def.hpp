@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BoolSettingsController);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16155))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16143))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5695))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5682))
 // CS Name: ::BoolSettingsController*
 class CORDL_TYPE BoolSettingsController : public ::GlobalNamespace::SwitchSettingsController {
 public:
@@ -32,15 +32,15 @@ public:
 
   constexpr void __set__settingsValue(::GlobalNamespace::BoolSO* value);
 
-  /// @brief Method GetInitValue addr 0x23e41b8 size 0x48 virtual true final false
+  /// @brief Method GetInitValue addr 0x2164abc size 0x48 virtual true final false
   inline bool GetInitValue();
 
-  /// @brief Method ApplyValue addr 0x23e4200 size 0x58 virtual true final false
+  /// @brief Method ApplyValue addr 0x2164b04 size 0x58 virtual true final false
   inline void ApplyValue(bool value);
 
   static inline ::GlobalNamespace::BoolSettingsController* New_ctor();
 
-  /// @brief Method .ctor addr 0x23e4258 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2164b5c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BoolSettingsController", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BoolSettingsController, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BoolSettingsController, ____settingsValue) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BoolSettingsController);

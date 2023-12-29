@@ -20,23 +20,23 @@ MARK_VAL_T(::System::Xml::Xsl::Runtime::StringConcat);
 namespace System::Xml::Xsl::Runtime {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11592))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11520))
 // CS Name: ::System.Xml.Xsl.Runtime::StringConcat
 struct CORDL_TYPE StringConcat {
 public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  /// @brief Method Clear addr 0x28abf98 size 0xc virtual false final false
+  /// @brief Method Clear addr 0x272ef74 size 0xc virtual false final false
   inline void Clear();
 
-  /// @brief Method get_Count addr 0x28abfa4 size 0x8 virtual false final false
+  /// @brief Method get_Count addr 0x272ef80 size 0x8 virtual false final false
   inline int32_t get_Count();
 
-  /// @brief Method GetResult addr 0x28abfac size 0xf4 virtual false final false
+  /// @brief Method GetResult addr 0x272ef88 size 0xf4 virtual false final false
   inline ::StringW GetResult();
 
-  /// @brief Method ConcatNoDelimiter addr 0x28ac0a0 size 0x2b8 virtual false final false
+  /// @brief Method ConcatNoDelimiter addr 0x272f07c size 0x2b8 virtual false final false
   inline void ConcatNoDelimiter(::StringW s);
 
   // Ctor Parameters [CppParam { name: "s1", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s2", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s3", ty:
@@ -77,6 +77,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Xsl::Runtime::StringConcat, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Xsl::Runtime::StringConcat, s1) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Xsl::Runtime::StringConcat, s2) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Xsl::Runtime::StringConcat, s3) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Xsl::Runtime::StringConcat, s4) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Xsl::Runtime::StringConcat, delimiter) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Xsl::Runtime::StringConcat, strList) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Xsl::Runtime::StringConcat, idxStr) == 0x30, "Offset mismatch!");
 
 } // namespace System::Xml::Xsl::Runtime
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Xsl::Runtime::StringConcat, "System.Xml.Xsl.Runtime", "StringConcat");

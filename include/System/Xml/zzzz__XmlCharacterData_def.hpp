@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Xml::XmlCharacterData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11513))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11500))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11441))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11428))
 // CS Name: ::System.Xml::XmlCharacterData*
 class CORDL_TYPE XmlCharacterData : public ::System::Xml::XmlLinkedNode {
 public:
@@ -41,28 +41,28 @@ public:
 
   static inline ::System::Xml::XmlCharacterData* New_ctor(::StringW data, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor addr 0x2883aa0 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2706a80 size 0x2c virtual false final false
   inline void _ctor(::StringW data, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Value addr 0x2883c0c size 0x10 virtual true final false
+  /// @brief Method get_Value addr 0x2706bec size 0x10 virtual true final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value addr 0x2883c1c size 0x10 virtual true final false
+  /// @brief Method set_Value addr 0x2706bfc size 0x10 virtual true final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method get_InnerText addr 0x2883c2c size 0xc virtual true final false
+  /// @brief Method get_InnerText addr 0x2706c0c size 0xc virtual true final false
   inline ::StringW get_InnerText();
 
-  /// @brief Method set_InnerText addr 0x2883c38 size 0xc virtual true final false
+  /// @brief Method set_InnerText addr 0x2706c18 size 0xc virtual true final false
   inline void set_InnerText(::StringW value);
 
-  /// @brief Method get_Data addr 0x2883c44 size 0x54 virtual true final false
+  /// @brief Method get_Data addr 0x2706c24 size 0x54 virtual true final false
   inline ::StringW get_Data();
 
-  /// @brief Method set_Data addr 0x2883c98 size 0xa0 virtual true final false
+  /// @brief Method set_Data addr 0x2706c78 size 0xa0 virtual true final false
   inline void set_Data(::StringW value);
 
-  /// @brief Method CheckOnData addr 0x2883d38 size 0x38 virtual false final false
+  /// @brief Method CheckOnData addr 0x2706d18 size 0x38 virtual false final false
   inline bool CheckOnData(::StringW data);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlCharacterData", modifiers: "&&", def_value: None }]
@@ -86,6 +86,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlCharacterData, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlCharacterData, ___data) == 0x20, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlCharacterData);

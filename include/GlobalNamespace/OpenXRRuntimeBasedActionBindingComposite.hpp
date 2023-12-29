@@ -1,3 +1,0 @@
-#pragma once
-#include "GlobalNamespace/zzzz__OpenXRRuntimeBasedActionBindingComposite_def.hpp"
-#include "GlobalNamespace/zzzz__OpenXRRuntimeBasedActionBindingComposite_impl.hpp"

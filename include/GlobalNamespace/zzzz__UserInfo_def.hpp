@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::UserInfo);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15995))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4716))
 // CS Name: ::UserInfo::Platform
 struct CORDL_TYPE __UserInfo__Platform {
 public:
@@ -80,13 +80,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UserInfo__Platform, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__UserInfo__Platform, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::UserInfo
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15995))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15996))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4716)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4717))
 // CS Name: ::UserInfo*
 class CORDL_TYPE UserInfo : public ::System::Object {
 public:
@@ -122,7 +124,7 @@ public:
 
   static inline ::GlobalNamespace::UserInfo* New_ctor(::GlobalNamespace::__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName);
 
-  /// @brief Method .ctor addr 0x27fe0dc size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x22312c8 size 0x3c virtual false final false
   inline void _ctor(::GlobalNamespace::__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName);
 
   // Ctor Parameters [CppParam { name: "", ty: "UserInfo", modifiers: "&&", def_value: None }]
@@ -152,6 +154,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UserInfo, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UserInfo, ___platform) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UserInfo, ___platformUserId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::UserInfo, ___userName) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__UserInfo__Platform, "", "UserInfo/Platform");

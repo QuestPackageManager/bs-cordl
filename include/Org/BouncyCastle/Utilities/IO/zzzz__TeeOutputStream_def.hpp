@@ -45,16 +45,16 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::TeeOutputStream* New_ctor(::System::IO::Stream* output, ::System::IO::Stream* tee);
 
-  /// @brief Method .ctor addr 0x1160410 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x10ef1c8 size 0x2c virtual false final false
   inline void _ctor(::System::IO::Stream* output, ::System::IO::Stream* tee);
 
-  /// @brief Method Close addr 0x116043c size 0x74 virtual true final false
+  /// @brief Method Close addr 0x10ef1f4 size 0x74 virtual true final false
   inline void Close();
 
-  /// @brief Method Write addr 0x11604b0 size 0x68 virtual true final false
+  /// @brief Method Write addr 0x10ef268 size 0x68 virtual true final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteByte addr 0x1160518 size 0x50 virtual true final false
+  /// @brief Method WriteByte addr 0x10ef2d0 size 0x50 virtual true final false
   inline void WriteByte(uint8_t b);
 
   // Ctor Parameters [CppParam { name: "", ty: "TeeOutputStream", modifiers: "&&", def_value: None }]
@@ -81,6 +81,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::IO::TeeOutputStream, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::IO::TeeOutputStream, ___output) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::IO::TeeOutputStream, ___tee) == 0x38, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::IO
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::IO::TeeOutputStream);

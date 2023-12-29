@@ -3,7 +3,7 @@ module;
 #endif
 
 #pragma once
-#include "UnityEngine\Serialization\FormerlySerializedAsAttribute.hpp"
+#include "UnityEngine/Serialization/FormerlySerializedAsAttribute.hpp"
 #ifdef __cpp_modules
 export module Serialization;
 #endif

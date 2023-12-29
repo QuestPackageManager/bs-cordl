@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnvironmentSizeData)
 namespace GlobalNamespace {
+struct __EnvironmentSizeData__FloorType;
+}
+namespace GlobalNamespace {
 struct __EnvironmentSizeData__TrackLaneType;
 }
 namespace GlobalNamespace {
 struct __EnvironmentSizeData__CeilingType;
-}
-namespace GlobalNamespace {
-struct __EnvironmentSizeData__FloorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentSizeData);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4177))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4209))
 // CS Name: ::EnvironmentSizeData::FloorType
 struct CORDL_TYPE __EnvironmentSizeData__FloorType {
 public:
@@ -81,13 +81,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EnvironmentSizeData__FloorType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__EnvironmentSizeData__FloorType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::CeilingType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4178))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4210))
 // CS Name: ::EnvironmentSizeData::CeilingType
 struct CORDL_TYPE __EnvironmentSizeData__CeilingType {
 public:
@@ -129,13 +131,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EnvironmentSizeData__CeilingType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__EnvironmentSizeData__CeilingType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::TrackLaneType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4179))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4211))
 // CS Name: ::EnvironmentSizeData::TrackLaneType
 struct CORDL_TYPE __EnvironmentSizeData__TrackLaneType {
 public:
@@ -177,13 +181,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EnvironmentSizeData__TrackLaneType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__EnvironmentSizeData__TrackLaneType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::EnvironmentSizeData
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4178)), TypeDefinitionIndex(TypeDefinitionIndex(4177)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4179))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4180)) CS Name: ::EnvironmentSizeData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(4209)), TypeDefinitionIndex(TypeDefinitionIndex(4211)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4210))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4212)) CS Name: ::EnvironmentSizeData*
 class CORDL_TYPE EnvironmentSizeData : public ::System::Object {
 public:
   // Declarations
@@ -226,18 +232,18 @@ public:
 
   constexpr void __set__trackLaneType(::GlobalNamespace::__EnvironmentSizeData__TrackLaneType value);
 
-  /// @brief Method get_floorType addr 0x2240908 size 0x8 virtual false final false
+  /// @brief Method get_floorType addr 0x21d1a68 size 0x8 virtual false final false
   inline ::GlobalNamespace::__EnvironmentSizeData__FloorType get_floorType();
 
-  /// @brief Method get_ceilingType addr 0x2240910 size 0x8 virtual false final false
+  /// @brief Method get_ceilingType addr 0x21d1a70 size 0x8 virtual false final false
   inline ::GlobalNamespace::__EnvironmentSizeData__CeilingType get_ceilingType();
 
-  /// @brief Method get_trackLaneType addr 0x2240918 size 0x8 virtual false final false
+  /// @brief Method get_trackLaneType addr 0x21d1a78 size 0x8 virtual false final false
   inline ::GlobalNamespace::__EnvironmentSizeData__TrackLaneType get_trackLaneType();
 
   static inline ::GlobalNamespace::EnvironmentSizeData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2240920 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d1a80 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentSizeData", modifiers: "&&", def_value: None }]
@@ -267,6 +273,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentSizeData, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentSizeData, ____floorType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentSizeData, ____ceilingType) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentSizeData, ____trackLaneType) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__EnvironmentSizeData__CeilingType, "", "EnvironmentSizeData/CeilingType");

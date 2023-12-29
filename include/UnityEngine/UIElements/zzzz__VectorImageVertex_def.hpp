@@ -12,10 +12,10 @@ namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -27,8 +27,8 @@ MARK_VAL_T(::UnityEngine::UIElements::VectorImageVertex);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6804))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10177)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6890))
 // CS Name: ::UnityEngine.UIElements::VectorImageVertex
 struct CORDL_TYPE VectorImageVertex {
 public:
@@ -60,6 +60,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VectorImageVertex, 0x1c>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VectorImageVertex, position) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VectorImageVertex, tint) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VectorImageVertex, uv) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VectorImageVertex, settingIndex) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VectorImageVertex, "UnityEngine.UIElements", "VectorImageVertex");

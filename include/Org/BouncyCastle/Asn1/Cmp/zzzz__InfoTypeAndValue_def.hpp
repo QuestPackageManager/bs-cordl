@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(InfoTypeAndValue)
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -59,29 +59,29 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe67d68 size 0xc8 virtual false final false
+  /// @brief Method .ctor addr 0xdf2b98 size 0xc8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe678ac size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xdf26dc size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* infoType);
 
-  /// @brief Method .ctor addr 0xe67e30 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xdf2c60 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* infoType);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* infoType, ::Org::BouncyCastle::Asn1::Asn1Encodable* optionalValue);
 
-  /// @brief Method .ctor addr 0xe67e58 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xdf2c88 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* infoType, ::Org::BouncyCastle::Asn1::Asn1Encodable* optionalValue);
 
-  /// @brief Method get_InfoType addr 0xe67e84 size 0x8 virtual true final false
+  /// @brief Method get_InfoType addr 0xdf2cb4 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_InfoType();
 
-  /// @brief Method get_InfoValue addr 0xe67e8c size 0x8 virtual true final false
+  /// @brief Method get_InfoValue addr 0xdf2cbc size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_InfoValue();
 
-  /// @brief Method ToAsn1Object addr 0xe67e94 size 0x148 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xdf2cc4 size 0x148 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "InfoTypeAndValue", modifiers: "&&", def_value: None }]
@@ -108,6 +108,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue, ___infoType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue, ___infoValue) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue);

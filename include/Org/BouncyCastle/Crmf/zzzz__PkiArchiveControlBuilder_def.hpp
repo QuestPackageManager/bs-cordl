@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PkiArchiveControlBuilder)
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class PrivateKeyInfo;
-}
-namespace Org::BouncyCastle::Cms {
-class RecipientInfoGenerator;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherBuilderWithKey;
-}
 namespace Org::BouncyCastle::Cms {
 class CmsEnvelopedDataGenerator;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsProcessableByteArray;
 }
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class PrivateKeyInfo;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
 namespace Org::BouncyCastle::Crmf {
 class PkiArchiveControl;
+}
+namespace Org::BouncyCastle::Cms {
+class RecipientInfoGenerator;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherBuilderWithKey;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(704))
 // CS Name: ::Org.BouncyCastle.Crmf::PkiArchiveControlBuilder*
 class CORDL_TYPE PkiArchiveControlBuilder : public ::System::Object {
@@ -62,13 +62,13 @@ public:
   static inline ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo,
                                                                               ::Org::BouncyCastle::Asn1::X509::GeneralName* generalName);
 
-  /// @brief Method .ctor addr 0x1211b8c size 0x1f8 virtual false final false
+  /// @brief Method .ctor addr 0x11a093c size 0x1f8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo, ::Org::BouncyCastle::Asn1::X509::GeneralName* generalName);
 
-  /// @brief Method AddRecipientGenerator addr 0x1211d84 size 0x28 virtual false final false
+  /// @brief Method AddRecipientGenerator addr 0x11a0b34 size 0x28 virtual false final false
   inline ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder* AddRecipientGenerator(::Org::BouncyCastle::Cms::RecipientInfoGenerator* recipientGen);
 
-  /// @brief Method Build addr 0x1211dac size 0x100 virtual false final false
+  /// @brief Method Build addr 0x11a0b5c size 0x100 virtual false final false
   inline ::Org::BouncyCastle::Crmf::PkiArchiveControl* Build(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* contentEncryptor);
 
   // Ctor Parameters [CppParam { name: "", ty: "PkiArchiveControlBuilder", modifiers: "&&", def_value: None }]
@@ -95,6 +95,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder, ___envGen) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder, ___keyContent) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder);

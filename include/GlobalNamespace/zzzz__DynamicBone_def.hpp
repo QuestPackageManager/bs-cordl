@@ -11,29 +11,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DynamicBone)
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace GlobalNamespace {
 class __DynamicBone__Particle;
 }
 namespace UnityEngine {
 struct Vector3;
 }
+namespace UnityEngine {
+class AnimationCurve;
+}
 namespace GlobalNamespace {
 struct __DynamicBone__UpdateMode;
-}
-namespace GlobalNamespace {
-struct __DynamicBone__FreezeAxis;
-}
-namespace GlobalNamespace {
-class DynamicBoneColliderBase;
 }
 namespace UnityEngine {
 class Transform;
 }
+namespace GlobalNamespace {
+class DynamicBoneColliderBase;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+struct __DynamicBone__FreezeAxis;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__DynamicBone__Particle);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16042))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15906))
 // CS Name: ::DynamicBone::UpdateMode
 struct CORDL_TYPE __DynamicBone__UpdateMode {
 public:
@@ -104,13 +104,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DynamicBone__UpdateMode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__DynamicBone__UpdateMode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::FreezeAxis
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16043))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15907))
 // CS Name: ::DynamicBone::FreezeAxis
 struct CORDL_TYPE __DynamicBone__FreezeAxis {
 public:
@@ -160,13 +162,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DynamicBone__FreezeAxis, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__DynamicBone__FreezeAxis, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Particle
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16044))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15908))
 // CS Name: ::DynamicBone::Particle*
 class CORDL_TYPE __DynamicBone__Particle : public ::System::Object {
 public:
@@ -290,7 +294,7 @@ public:
 
   static inline ::GlobalNamespace::__DynamicBone__Particle* New_ctor();
 
-  /// @brief Method .ctor addr 0x122fee4 size 0xdc virtual false final false
+  /// @brief Method .ctor addr 0x11bfbb8 size 0xdc virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DynamicBone__Particle", modifiers: "&&", def_value: None }]
@@ -351,13 +355,39 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DynamicBone__Particle, 0x78>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__DynamicBone__Particle, ___m_Transform) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DynamicBone__Particle, ___m_ParentIndex) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DynamicBone__Particle, ___m_Damping) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DynamicBone__Particle, ___m_Elasticity) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DynamicBone__Particle, ___m_Stiffness) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DynamicBone__Particle, ___m_Inert) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DynamicBone__Particle, ___m_Radius) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DynamicBone__Particle, ___m_BoneLength) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DynamicBone__Particle, ___m_Position) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DynamicBone__Particle, ___m_PrevPosition) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DynamicBone__Particle, ___m_EndOffset) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DynamicBone__Particle, ___m_InitLocalPosition) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DynamicBone__Particle, ___m_InitLocalRotation) == 0x64, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::DynamicBone
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16043)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16042))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16045)) CS Name: ::DynamicBone*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15906)), TypeDefinitionIndex(TypeDefinitionIndex(15907)), TypeDefinitionIndex(TypeDefinitionIndex(10152)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10176))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15909)) CS Name: ::DynamicBone*
 class CORDL_TYPE DynamicBone : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -655,78 +685,78 @@ public:
 
   constexpr void __set_m_Particles(::System::Collections::Generic::List_1<::GlobalNamespace::__DynamicBone__Particle*>* value);
 
-  /// @brief Method Start addr 0x122dc78 size 0x4 virtual false final false
+  /// @brief Method Start addr 0x11bd94c size 0x4 virtual false final false
   inline void Start();
 
-  /// @brief Method FixedUpdate addr 0x122dde8 size 0x30 virtual false final false
+  /// @brief Method FixedUpdate addr 0x11bdabc size 0x30 virtual false final false
   inline void FixedUpdate();
 
-  /// @brief Method Update addr 0x122de3c size 0x30 virtual false final false
+  /// @brief Method Update addr 0x11bdb10 size 0x30 virtual false final false
   inline void Update();
 
-  /// @brief Method LateUpdate addr 0x122de6c size 0x50 virtual false final false
+  /// @brief Method LateUpdate addr 0x11bdb40 size 0x50 virtual false final false
   inline void LateUpdate();
 
-  /// @brief Method PreUpdate addr 0x122de18 size 0x24 virtual false final false
+  /// @brief Method PreUpdate addr 0x11bdaec size 0x24 virtual false final false
   inline void PreUpdate();
 
-  /// @brief Method CheckDistance addr 0x122debc size 0x178 virtual false final false
+  /// @brief Method CheckDistance addr 0x11bdb90 size 0x178 virtual false final false
   inline void CheckDistance();
 
-  /// @brief Method OnEnable addr 0x122e444 size 0x4 virtual false final false
+  /// @brief Method OnEnable addr 0x11be118 size 0x4 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x122e448 size 0x4 virtual false final false
+  /// @brief Method OnDisable addr 0x11be11c size 0x4 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method OnValidate addr 0x122e44c size 0xac virtual false final false
+  /// @brief Method OnValidate addr 0x11be120 size 0xac virtual false final false
   inline void OnValidate();
 
-  /// @brief Method OnDrawGizmosSelected addr 0x122e4f8 size 0x190 virtual false final false
+  /// @brief Method OnDrawGizmosSelected addr 0x11be1cc size 0x190 virtual false final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method SetWeight addr 0x122e688 size 0x50 virtual false final false
+  /// @brief Method SetWeight addr 0x11be35c size 0x50 virtual false final false
   inline void SetWeight(float_t w);
 
-  /// @brief Method GetWeight addr 0x122e6d8 size 0x8 virtual false final false
+  /// @brief Method GetWeight addr 0x11be3ac size 0x8 virtual false final false
   inline float_t GetWeight();
 
-  /// @brief Method UpdateDynamicBones addr 0x122e034 size 0x1c4 virtual false final false
+  /// @brief Method UpdateDynamicBones addr 0x11bdd08 size 0x1c4 virtual false final false
   inline void UpdateDynamicBones(float_t t);
 
-  /// @brief Method SetupParticles addr 0x122dc7c size 0x16c virtual false final false
+  /// @brief Method SetupParticles addr 0x11bd950 size 0x16c virtual false final false
   inline void SetupParticles();
 
-  /// @brief Method AppendParticles addr 0x122f660 size 0x5c8 virtual false final false
+  /// @brief Method AppendParticles addr 0x11bf334 size 0x5c8 virtual false final false
   inline void AppendParticles(::UnityEngine::Transform* b, int32_t parentIndex, float_t boneLength);
 
-  /// @brief Method UpdateParameters addr 0x122fc28 size 0x2bc virtual false final false
+  /// @brief Method UpdateParameters addr 0x11bf8fc size 0x2bc virtual false final false
   inline void UpdateParameters();
 
-  /// @brief Method InitTransforms addr 0x122e1f8 size 0x104 virtual false final false
+  /// @brief Method InitTransforms addr 0x11bdecc size 0x104 virtual false final false
   inline void InitTransforms();
 
-  /// @brief Method ResetParticlesPosition addr 0x122e2fc size 0x148 virtual false final false
+  /// @brief Method ResetParticlesPosition addr 0x11bdfd0 size 0x148 virtual false final false
   inline void ResetParticlesPosition();
 
-  /// @brief Method UpdateParticles1 addr 0x122e6e0 size 0x264 virtual false final false
+  /// @brief Method UpdateParticles1 addr 0x11be3b4 size 0x264 virtual false final false
   inline void UpdateParticles1();
 
-  /// @brief Method UpdateParticles2 addr 0x122e944 size 0x61c virtual false final false
+  /// @brief Method UpdateParticles2 addr 0x11be618 size 0x61c virtual false final false
   inline void UpdateParticles2();
 
-  /// @brief Method SkipUpdateParticles addr 0x122ef60 size 0x4a4 virtual false final false
+  /// @brief Method SkipUpdateParticles addr 0x11bec34 size 0x4a4 virtual false final false
   inline void SkipUpdateParticles();
 
-  /// @brief Method MirrorVector addr 0x122ffc0 size 0x34 virtual false final false
+  /// @brief Method MirrorVector addr 0x11bfc94 size 0x34 virtual false final false
   static inline ::UnityEngine::Vector3 MirrorVector(::UnityEngine::Vector3 v, ::UnityEngine::Vector3 axis);
 
-  /// @brief Method ApplyParticlesToTransforms addr 0x122f404 size 0x25c virtual false final false
+  /// @brief Method ApplyParticlesToTransforms addr 0x11bf0d8 size 0x25c virtual false final false
   inline void ApplyParticlesToTransforms();
 
   static inline ::GlobalNamespace::DynamicBone* New_ctor();
 
-  /// @brief Method .ctor addr 0x122fff4 size 0x150 virtual false final false
+  /// @brief Method .ctor addr 0x11bfcc8 size 0x150 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicBone", modifiers: "&&", def_value: None }]
@@ -843,6 +873,70 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DynamicBone, 0x108>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_Root) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_UpdateRate) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_UpdateMode) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_Damping) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_DampingDistrib) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_Elasticity) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_ElasticityDistrib) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_Stiffness) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_StiffnessDistrib) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_Inert) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_InertDistrib) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_Radius) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_RadiusDistrib) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_EndLength) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_EndOffset) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_Gravity) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_Force) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_Colliders) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_Exclusions) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_FreezeAxis) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_DistantDisable) == 0xb4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_ReferenceObject) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_DistanceToObject) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_LocalGravity) == 0xc4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_ObjectMove) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_ObjectPrevPosition) == 0xdc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_BoneTotalLength) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_ObjectScale) == 0xec, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_Time) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_Weight) == 0xf4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_DistantDisabled) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBone, ___m_Particles) == 0x100, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__DynamicBone__FreezeAxis, "", "DynamicBone/FreezeAxis");

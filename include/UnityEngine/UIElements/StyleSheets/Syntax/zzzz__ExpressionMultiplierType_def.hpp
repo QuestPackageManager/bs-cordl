@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierT
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7496))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7582))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::ExpressionMultiplierType
 struct CORDL_TYPE ExpressionMultiplierType {
 public:
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets::Syntax
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType, "UnityEngine.UIElements.StyleSheets.Syntax", "ExpressionMultiplierType");

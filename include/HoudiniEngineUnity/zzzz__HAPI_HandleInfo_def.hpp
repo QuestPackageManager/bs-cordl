@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_HandleInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9736))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9663))
 // CS Name: ::HoudiniEngineUnity::HAPI_HandleInfo
 struct CORDL_TYPE HAPI_HandleInfo {
 public:
@@ -45,6 +45,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_HandleInfo, 0xc>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_HandleInfo, nameSH) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_HandleInfo, typeNameSH) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_HandleInfo, bindingsCount) == 0x8, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_HandleInfo, "HoudiniEngineUnity", "HAPI_HandleInfo");

@@ -16,7 +16,7 @@ MARK_VAL_T(::RootMotion::InterpolationMode);
 namespace RootMotion {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12493))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12421))
 // CS Name: ::RootMotion::InterpolationMode
 struct CORDL_TYPE InterpolationMode {
 public:
@@ -157,6 +157,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::InterpolationMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::InterpolationMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace RootMotion
 DEFINE_IL2CPP_ARG_TYPE(::RootMotion::InterpolationMode, "RootMotion", "InterpolationMode");

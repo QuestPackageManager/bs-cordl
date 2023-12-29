@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IAuthenticationTokenProvider)
 namespace GlobalNamespace {
-struct __AuthenticationToken__Platform;
-}
-namespace GlobalNamespace {
-struct AuthenticationToken;
+class XPlatformAccessTokenData;
 }
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace GlobalNamespace {
-struct PlatformEnvironment;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-class XPlatformAccessTokenData;
+struct AuthenticationToken;
+}
+namespace GlobalNamespace {
+struct __AuthenticationToken__Platform;
+}
+namespace GlobalNamespace {
+struct PlatformEnvironment;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IAuthenticationTokenProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12775))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12702))
 // CS Name: ::IAuthenticationTokenProvider*
 class CORDL_TYPE IAuthenticationTokenProvider {
 public:
@@ -51,7 +51,7 @@ public:
   inline ::GlobalNamespace::__AuthenticationToken__Platform GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
 
   /// @brief Method GetXPlatformAccessToken addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache);
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method get_hashedUserId addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::StringW get_hashedUserId();

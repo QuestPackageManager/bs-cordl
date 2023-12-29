@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Gost3410NamedParameters)
-namespace Org::BouncyCastle::Asn1::CryptoPro {
-class Gost3410ParamSetParameters;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
 class IDictionary;
+}
+namespace Org::BouncyCastle::Asn1::CryptoPro {
+class Gost3410ParamSetParameters;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::CryptoPro {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::CryptoPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(129))
 // CS Name: ::Org.BouncyCastle.Asn1.CryptoPro::Gost3410NamedParameters*
 class CORDL_TYPE Gost3410NamedParameters : public ::System::Object {
@@ -70,19 +70,19 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters* New_ctor();
 
-  /// @brief Method .ctor addr 0xe8cd10 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xe17b3c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method GetByOid addr 0xe8d46c size 0x11c virtual false final false
+  /// @brief Method GetByOid addr 0xe18298 size 0x11c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method get_Names addr 0xe8d588 size 0x10c virtual false final false
+  /// @brief Method get_Names addr 0xe183b4 size 0x10c virtual false final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
-  /// @brief Method GetByName addr 0xe8d694 size 0x1ec virtual false final false
+  /// @brief Method GetByName addr 0xe184c0 size 0x1ec virtual false final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetByName(::StringW name);
 
-  /// @brief Method GetOid addr 0xe8d880 size 0x11c virtual false final false
+  /// @brief Method GetOid addr 0xe186ac size 0x11c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "Gost3410NamedParameters", modifiers: "&&", def_value: None }]

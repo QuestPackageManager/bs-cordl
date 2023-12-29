@@ -11,10 +11,10 @@ namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+struct PublicKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
+class BcpgInputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -76,28 +76,28 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x11cd2e8 size 0x364 virtual false final false
+  /// @brief Method .ctor addr 0x115c098 size 0x364 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* New_ctor(int64_t keyId, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm,
                                                                                ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> data);
 
-  /// @brief Method .ctor addr 0x11d221c size 0x144 virtual false final false
+  /// @brief Method .ctor addr 0x1160fcc size 0x144 virtual false final false
   inline void _ctor(int64_t keyId, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> data);
 
-  /// @brief Method get_Version addr 0x11d2360 size 0x8 virtual false final false
+  /// @brief Method get_Version addr 0x1161110 size 0x8 virtual false final false
   inline int32_t get_Version();
 
-  /// @brief Method get_KeyId addr 0x11d2368 size 0x8 virtual false final false
+  /// @brief Method get_KeyId addr 0x1161118 size 0x8 virtual false final false
   inline int64_t get_KeyId();
 
-  /// @brief Method get_Algorithm addr 0x11d2370 size 0x8 virtual false final false
+  /// @brief Method get_Algorithm addr 0x1161120 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_Algorithm();
 
-  /// @brief Method GetEncSessionKey addr 0x11d2378 size 0x8 virtual false final false
+  /// @brief Method GetEncSessionKey addr 0x1161128 size 0x8 virtual false final false
   inline ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> GetEncSessionKey();
 
-  /// @brief Method Encode addr 0x11d2380 size 0x188 virtual true final false
+  /// @brief Method Encode addr 0x1161130 size 0x188 virtual true final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "PublicKeyEncSessionPacket", modifiers: "&&", def_value: None }]
@@ -130,6 +130,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket, ___version) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket, ___keyId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket, ___algorithm) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket, ___data) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket);

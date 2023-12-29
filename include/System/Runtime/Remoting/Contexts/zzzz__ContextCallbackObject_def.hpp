@@ -17,18 +17,18 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::ContextCallbackObject);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2549))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3101))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3100))
 // CS Name: ::System.Runtime.Remoting.Contexts::ContextCallbackObject*
 class CORDL_TYPE ContextCallbackObject : public ::System::ContextBoundObject {
 public:
   // Declarations
-  /// @brief Method DoCallBack addr 0x249e990 size 0x4 virtual false final false
+  /// @brief Method DoCallBack addr 0x2345e9c size 0x4 virtual false final false
   inline void DoCallBack(::System::Runtime::Remoting::Contexts::CrossContextDelegate* deleg);
 
   static inline ::System::Runtime::Remoting::Contexts::ContextCallbackObject* New_ctor();
 
-  /// @brief Method .ctor addr 0x249e988 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2345e94 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextCallbackObject", modifiers: "&&", def_value: None }]

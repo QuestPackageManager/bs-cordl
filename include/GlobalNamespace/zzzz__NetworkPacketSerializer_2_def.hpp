@@ -11,55 +11,55 @@ namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__6_1;
-}
-namespace GlobalNamespace {
-template <typename TType, typename TData> class __NetworkPacketSerializer_2____c__DisplayClass10_0;
+template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass5_0_1;
 }
 namespace System {
 template <typename TResult> class Func_1;
 }
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass4_0_1;
+template <typename TData> class INetworkPacketSerializer_1;
 }
 namespace System {
 class Type;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
 }
 namespace GlobalNamespace {
 template <typename TData> class INetworkPacketSubSerializer_1;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass8_0_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-template <typename TData> class INetworkPacketSerializer_1;
-}
-namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass7_0_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
+template <typename TType, typename TData> class __NetworkPacketSerializer_2____c__DisplayClass10_0;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass5_0_1;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace GlobalNamespace {
+template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__6_1;
+}
+namespace GlobalNamespace {
+template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass4_0_1;
+}
+namespace GlobalNamespace {
+template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass7_0_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace GlobalNamespace {
+template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass8_0_1;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
@@ -100,8 +100,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12892))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12814))
 // CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass4_0`1<TType,TData,TPacket>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass4_0_1 : public ::System::Object {
 public:
@@ -150,8 +150,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12893))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12815))
 // CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass5_0`1<TType,TData,TPacket>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass5_0_1 : public ::System::Object {
 public:
@@ -215,8 +215,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12894))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12816))
 // CS Name: ::NetworkPacketSerializer`2::<>c__6`1<TType,TData,TPacket>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__6_1 : public ::System::Object {
 public:
@@ -267,8 +267,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12895))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12817))
 // CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass7_0`1<TType,TData,TPacket>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass7_0_1 : public ::System::Object {
 public:
@@ -317,8 +317,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12896))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12818))
 // CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass8_0`1<TType,TData,TPacket>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass8_0_1 : public ::System::Object {
 public:
@@ -394,8 +394,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12897))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12819))
 // CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass10_0<TType,TData>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass10_0 : public ::System::Object {
 public:
@@ -444,8 +444,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12898))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12820))
 // CS Name: ::NetworkPacketSerializer`2<TType,TData>*
 class CORDL_TYPE NetworkPacketSerializer_2 : public ::System::Object {
 public:

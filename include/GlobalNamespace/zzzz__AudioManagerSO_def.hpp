@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioManagerSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4047))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4035))
 // CS Name: ::AudioManagerSO*
 class CORDL_TYPE AudioManagerSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -101,39 +101,39 @@ public:
 
   constexpr void __set__sfxEnabled(bool value);
 
-  /// @brief Method get_sfxLatency addr 0x222b034 size 0x60 virtual false final false
+  /// @brief Method get_sfxLatency addr 0x20ca548 size 0x60 virtual false final false
   inline float_t get_sfxLatency();
 
-  /// @brief Method Init addr 0x2226a84 size 0xa8 virtual false final false
+  /// @brief Method Init addr 0x20c6868 size 0xa8 virtual false final false
   inline void Init();
 
-  /// @brief Method set_mainVolume addr 0x2226b2c size 0x64 virtual false final false
+  /// @brief Method set_mainVolume addr 0x20c6910 size 0x64 virtual false final false
   inline void set_mainVolume(float_t value);
 
-  /// @brief Method set_musicVolume addr 0x222b094 size 0x68 virtual false final false
+  /// @brief Method set_musicVolume addr 0x20ca5a8 size 0x68 virtual false final false
   inline void set_musicVolume(float_t value);
 
-  /// @brief Method get_sfxVolume addr 0x222b0fc size 0x18 virtual false final false
+  /// @brief Method get_sfxVolume addr 0x20ca610 size 0x18 virtual false final false
   inline float_t get_sfxVolume();
 
-  /// @brief Method set_sfxVolume addr 0x222b114 size 0x84 virtual false final false
+  /// @brief Method set_sfxVolume addr 0x20ca628 size 0x84 virtual false final false
   inline void set_sfxVolume(float_t value);
 
-  /// @brief Method get_sfxEnabled addr 0x222b198 size 0x8 virtual false final false
+  /// @brief Method get_sfxEnabled addr 0x20ca6ac size 0x8 virtual false final false
   inline bool get_sfxEnabled();
 
-  /// @brief Method set_sfxEnabled addr 0x222b1a0 size 0x20 virtual false final false
+  /// @brief Method set_sfxEnabled addr 0x20ca6b4 size 0x20 virtual false final false
   inline void set_sfxEnabled(bool value);
 
-  /// @brief Method set_musicPitch addr 0x222b1c0 size 0x100 virtual false final false
+  /// @brief Method set_musicPitch addr 0x20ca6d4 size 0x100 virtual false final false
   inline void set_musicPitch(float_t value);
 
-  /// @brief Method set_musicSpeed addr 0x222b2c0 size 0x64 virtual false final false
+  /// @brief Method set_musicSpeed addr 0x20ca7d4 size 0x64 virtual false final false
   inline void set_musicSpeed(float_t value);
 
   static inline ::GlobalNamespace::AudioManagerSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x222b324 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x20ca838 size 0x24 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioManagerSO", modifiers: "&&", def_value: None }]
@@ -199,6 +199,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioManagerSO, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioManagerSO, ____audioMixer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioManagerSO, ____spatializerPluginLatency) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioManagerSO, ____spatializerSfxVolumeOffset) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioManagerSO, ____musicVolumeOffset) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioManagerSO, ____sfxVolumeOffset) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioManagerSO, ____sfxVolume) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioManagerSO, ____sfxEnabled) == 0x34, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AudioManagerSO);

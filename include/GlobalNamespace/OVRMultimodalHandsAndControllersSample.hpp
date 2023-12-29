@@ -1,3 +1,0 @@
-#pragma once
-#include "GlobalNamespace/zzzz__OVRMultimodalHandsAndControllersSample_def.hpp"
-#include "GlobalNamespace/zzzz__OVRMultimodalHandsAndControllersSample_impl.hpp"

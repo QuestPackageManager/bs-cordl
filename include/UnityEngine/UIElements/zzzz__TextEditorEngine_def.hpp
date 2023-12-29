@@ -36,18 +36,18 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunct
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7088))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7174))
 // CS Name: ::TextEditorEngine::OnDetectFocusChangeFunction*
 class CORDL_TYPE __TextEditorEngine__OnDetectFocusChangeFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2e33424 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x2ccc074 size 0xbc virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2e334e0 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2ccc130 size 0x14 virtual true final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TextEditorEngine__OnDetectFocusChangeFunction", modifiers: "&&", def_value: None }]
@@ -74,18 +74,18 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TextE
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7089))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7175))
 // CS Name: ::TextEditorEngine::OnIndexChangeFunction*
 class CORDL_TYPE __TextEditorEngine__OnIndexChangeFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2e334f4 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x2ccc144 size 0xbc virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2e335b0 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2ccc200 size 0x14 virtual true final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TextEditorEngine__OnIndexChangeFunction", modifiers: "&&", def_value: None }]
@@ -112,8 +112,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TextE
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14616))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7090))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14833))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7176))
 // CS Name: ::UnityEngine.UIElements::TextEditorEngine*
 class CORDL_TYPE TextEditorEngine : public ::UnityEngine::TextEditor {
 public:
@@ -146,20 +146,20 @@ public:
   static inline ::UnityEngine::UIElements::TextEditorEngine* New_ctor(::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction* detectFocusChange,
                                                                       ::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction* indexChangeFunction);
 
-  /// @brief Method .ctor addr 0x2e33304 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2ccbf54 size 0x2c virtual false final false
   inline void _ctor(::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction* detectFocusChange,
                     ::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction* indexChangeFunction);
 
-  /// @brief Method get_localPosition addr 0x2e33330 size 0x88 virtual true final false
+  /// @brief Method get_localPosition addr 0x2ccbf80 size 0x88 virtual true final false
   inline ::UnityEngine::Rect get_localPosition();
 
-  /// @brief Method OnDetectFocusChange addr 0x2e333b8 size 0x24 virtual true final false
+  /// @brief Method OnDetectFocusChange addr 0x2ccc008 size 0x24 virtual true final false
   inline void OnDetectFocusChange();
 
-  /// @brief Method OnCursorIndexChange addr 0x2e333dc size 0x24 virtual true final false
+  /// @brief Method OnCursorIndexChange addr 0x2ccc02c size 0x24 virtual true final false
   inline void OnCursorIndexChange();
 
-  /// @brief Method OnSelectIndexChange addr 0x2e33400 size 0x24 virtual true final false
+  /// @brief Method OnSelectIndexChange addr 0x2ccc050 size 0x24 virtual true final false
   inline void OnSelectIndexChange();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextEditorEngine", modifiers: "&&", def_value: None }]
@@ -186,6 +186,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TextEditorEngine, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TextEditorEngine, ___m_DetectFocusChangeFunction) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TextEditorEngine, ___m_IndexChangeFunction) == 0x98, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::TextEditorEngine);

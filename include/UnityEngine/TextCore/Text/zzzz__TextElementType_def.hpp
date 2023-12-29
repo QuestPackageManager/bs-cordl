@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::TextElementType);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13705))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13584))
 // CS Name: ::UnityEngine.TextCore.Text::TextElementType
 struct CORDL_TYPE TextElementType {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextElementType, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextElementType, "UnityEngine.TextCore.Text", "TextElementType");

@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlRegisteredNonCachedStream)
 namespace System::IO {
+class Stream;
+}
+namespace System::IO {
 struct SeekOrigin;
 }
 namespace System::Xml {
 class XmlDownloadManager;
 }
 namespace System {
+class AsyncCallback;
+}
+namespace System {
 class Object;
 }
 namespace System {
 class IAsyncResult;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::System::Xml::XmlRegisteredNonCachedStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11553))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3607))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11481))
 // CS Name: ::System.Xml::XmlRegisteredNonCachedStream*
 class CORDL_TYPE XmlRegisteredNonCachedStream : public ::System::IO::Stream {
 public:
@@ -80,64 +80,64 @@ public:
 
   static inline ::System::Xml::XmlRegisteredNonCachedStream* New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlDownloadManager* downloadManager, ::StringW host);
 
-  /// @brief Method .ctor addr 0x28a424c size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x272722c size 0x80 virtual false final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Xml::XmlDownloadManager* downloadManager, ::StringW host);
 
-  /// @brief Method Finalize addr 0x28a5094 size 0xa4 virtual true final false
+  /// @brief Method Finalize addr 0x2728074 size 0xa4 virtual true final false
   inline void Finalize();
 
-  /// @brief Method Dispose addr 0x28a5138 size 0x138 virtual true final false
+  /// @brief Method Dispose addr 0x2728118 size 0x138 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method BeginRead addr 0x28a5270 size 0x24 virtual true final false
+  /// @brief Method BeginRead addr 0x2728250 size 0x24 virtual true final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginWrite addr 0x28a5294 size 0x24 virtual true final false
+  /// @brief Method BeginWrite addr 0x2728274 size 0x24 virtual true final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method EndRead addr 0x28a52b8 size 0x24 virtual true final false
+  /// @brief Method EndRead addr 0x2728298 size 0x24 virtual true final false
   inline int32_t EndRead(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndWrite addr 0x28a52dc size 0x24 virtual true final false
+  /// @brief Method EndWrite addr 0x27282bc size 0x24 virtual true final false
   inline void EndWrite(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method Flush addr 0x28a5300 size 0x24 virtual true final false
+  /// @brief Method Flush addr 0x27282e0 size 0x24 virtual true final false
   inline void Flush();
 
-  /// @brief Method Read addr 0x28a5324 size 0x24 virtual true final false
+  /// @brief Method Read addr 0x2728304 size 0x24 virtual true final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte addr 0x28a5348 size 0x24 virtual true final false
+  /// @brief Method ReadByte addr 0x2728328 size 0x24 virtual true final false
   inline int32_t ReadByte();
 
-  /// @brief Method Seek addr 0x28a536c size 0x24 virtual true final false
+  /// @brief Method Seek addr 0x272834c size 0x24 virtual true final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength addr 0x28a5390 size 0x24 virtual true final false
+  /// @brief Method SetLength addr 0x2728370 size 0x24 virtual true final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write addr 0x28a53b4 size 0x24 virtual true final false
+  /// @brief Method Write addr 0x2728394 size 0x24 virtual true final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteByte addr 0x28a53d8 size 0x24 virtual true final false
+  /// @brief Method WriteByte addr 0x27283b8 size 0x24 virtual true final false
   inline void WriteByte(uint8_t value);
 
-  /// @brief Method get_CanRead addr 0x28a53fc size 0x20 virtual true final false
+  /// @brief Method get_CanRead addr 0x27283dc size 0x20 virtual true final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek addr 0x28a541c size 0x20 virtual true final false
+  /// @brief Method get_CanSeek addr 0x27283fc size 0x20 virtual true final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite addr 0x28a543c size 0x20 virtual true final false
+  /// @brief Method get_CanWrite addr 0x272841c size 0x20 virtual true final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length addr 0x28a545c size 0x20 virtual true final false
+  /// @brief Method get_Length addr 0x272843c size 0x20 virtual true final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position addr 0x28a547c size 0x24 virtual true final false
+  /// @brief Method get_Position addr 0x272845c size 0x20 virtual true final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position addr 0x28a54a0 size 0x24 virtual true final false
+  /// @brief Method set_Position addr 0x272847c size 0x24 virtual true final false
   inline void set_Position(int64_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlRegisteredNonCachedStream", modifiers: "&&", def_value: None }]
@@ -167,6 +167,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlRegisteredNonCachedStream, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlRegisteredNonCachedStream, ___stream) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlRegisteredNonCachedStream, ___downloadManager) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlRegisteredNonCachedStream, ___host) == 0x38, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlRegisteredNonCachedStream);

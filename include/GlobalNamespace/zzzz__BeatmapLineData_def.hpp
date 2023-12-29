@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapLineData)
-namespace GlobalNamespace {
-class BeatmapObjectData;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapLineData;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapLineData;
+}
+namespace GlobalNamespace {
+class BeatmapObjectData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLineData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14750))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14963))
 // CS Name: ::BeatmapLineData*
 class CORDL_TYPE BeatmapLineData : public ::System::Object {
 public:
@@ -47,20 +47,20 @@ public:
 
   constexpr void __set__beatmapObjectsData(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* value);
 
-  /// @brief Method get_beatmapObjectsData addr 0xe00534 size 0x8 virtual true final true
+  /// @brief Method get_beatmapObjectsData addr 0xd9ab24 size 0x8 virtual true final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
 
   static inline ::GlobalNamespace::BeatmapLineData* New_ctor(int32_t initialCapacity);
 
-  /// @brief Method .ctor addr 0xe0053c size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0xd9ab2c size 0x90 virtual false final false
   inline void _ctor(int32_t initialCapacity);
 
   static inline ::GlobalNamespace::BeatmapLineData* New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectData);
 
-  /// @brief Method .ctor addr 0xe005cc size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xd9abbc size 0x28 virtual false final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectData);
 
-  /// @brief Method AddBeatmapObjectData addr 0xe005f4 size 0xa8 virtual false final false
+  /// @brief Method AddBeatmapObjectData addr 0xd9abe4 size 0xa8 virtual false final false
   inline void AddBeatmapObjectData(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLineData", modifiers: "&&", def_value: None }]
@@ -84,6 +84,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLineData, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapLineData, ____beatmapObjectsData) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapLineData);

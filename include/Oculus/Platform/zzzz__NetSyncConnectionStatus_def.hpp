@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::NetSyncConnectionStatus);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13338))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13365))
 // CS Name: ::Oculus.Platform::NetSyncConnectionStatus
 struct CORDL_TYPE NetSyncConnectionStatus {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::NetSyncConnectionStatus, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::NetSyncConnectionStatus, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::NetSyncConnectionStatus, "Oculus.Platform", "NetSyncConnectionStatus");

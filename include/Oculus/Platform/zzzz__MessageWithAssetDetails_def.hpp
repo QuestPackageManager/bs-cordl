@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithAssetDetails);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 1169 }), TypeDefinitionIndex(TypeDefinitionIndex(13262)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13417))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13275)) CS Name: ::Oculus.Platform::MessageWithAssetDetails*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13269)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst: 1143 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13454))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13280)) CS Name: ::Oculus.Platform::MessageWithAssetDetails*
 class CORDL_TYPE MessageWithAssetDetails : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetails*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithAssetDetails* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x26eeb60 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x259284c size 0x58 virtual false final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetAssetDetails addr 0x26f0e70 size 0x3c virtual true final false
+  /// @brief Method GetAssetDetails addr 0x259495c size 0x3c virtual true final false
   inline ::Oculus::Platform::Models::AssetDetails* GetAssetDetails();
 
-  /// @brief Method GetDataFromMessage addr 0x26f0eac size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage addr 0x2594998 size 0x9c virtual true final false
   inline ::Oculus::Platform::Models::AssetDetails* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithAssetDetails", modifiers: "&&", def_value: None }]

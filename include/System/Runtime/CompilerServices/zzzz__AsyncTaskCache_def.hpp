@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::AsyncTaskCache);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3403))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3398))
 // CS Name: ::System.Runtime.CompilerServices::AsyncTaskCache*
 class CORDL_TYPE AsyncTaskCache : public ::System::Object {
 public:
@@ -47,7 +47,7 @@ public:
 
   static inline ::ArrayW<::System::Threading::Tasks::Task_1<int32_t>*, ::Array<::System::Threading::Tasks::Task_1<int32_t>*>*> getStaticF_Int32Tasks();
 
-  /// @brief Method CreateInt32Tasks addr 0x24dcac0 size 0x108 virtual false final false
+  /// @brief Method CreateInt32Tasks addr 0x23830b8 size 0x108 virtual false final false
   static inline ::ArrayW<::System::Threading::Tasks::Task_1<int32_t>*, ::Array<::System::Threading::Tasks::Task_1<int32_t>*>*> CreateInt32Tasks();
 
   /// @brief Method CreateCacheableTask addr 0x0 size 0xffffffffffffffff virtual false final false

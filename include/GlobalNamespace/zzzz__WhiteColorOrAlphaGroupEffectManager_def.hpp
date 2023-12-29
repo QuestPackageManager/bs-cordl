@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(WhiteColorOrAlphaGroupEffectManager)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 class WhiteColorOrAlphaGroupEffect;
 }
 namespace GlobalNamespace {
 class LightGroup;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
 class DiContainer;
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4927))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5031))
 // CS Name: ::WhiteColorOrAlphaGroupEffectManager*
 class CORDL_TYPE WhiteColorOrAlphaGroupEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -71,15 +71,15 @@ public:
 
   constexpr void __set__whiteColorOrAlphaEffects(::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>* value);
 
-  /// @brief Method Start addr 0x23a93ec size 0x280 virtual false final false
+  /// @brief Method Start addr 0x2271328 size 0x280 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x23a966c size 0x148 virtual false final false
+  /// @brief Method OnDestroy addr 0x22715a8 size 0x148 virtual false final false
   inline void OnDestroy();
 
   static inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x23a97b4 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x22716f0 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "WhiteColorOrAlphaGroupEffectManager", modifiers: "&&", def_value: None }]
@@ -112,6 +112,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager, ____lightGroup) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager, ____color) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager, ____container) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager, ____whiteColorOrAlphaEffects) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager);

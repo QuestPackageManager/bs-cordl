@@ -21,8 +21,8 @@ MARK_VAL_T(::Unity::Collections::NativeArrayDisposeJob);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10000))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10001))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9928))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9929))
 // CS Name: ::Unity.Collections::NativeArrayDisposeJob
 struct CORDL_TYPE NativeArrayDisposeJob {
 public:
@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute addr 0x2c9e068 size 0x44 virtual true final true
+  /// @brief Method Execute addr 0x2b39348 size 0x44 virtual true final true
   inline void Execute();
 
   // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeArrayDispose", modifiers: "", def_value: None }]
@@ -50,6 +50,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::NativeArrayDisposeJob, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::Unity::Collections::NativeArrayDisposeJob, Data) == 0x0, "Offset mismatch!");
 
 } // namespace Unity::Collections
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::NativeArrayDisposeJob, "Unity.Collections", "NativeArrayDisposeJob");

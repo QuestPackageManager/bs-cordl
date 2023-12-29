@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::IDesigner);
 namespace System::ComponentModel::Design {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9498))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8335))
 // CS Name: ::System.ComponentModel.Design::IDesigner*
 class CORDL_TYPE IDesigner {
 public:

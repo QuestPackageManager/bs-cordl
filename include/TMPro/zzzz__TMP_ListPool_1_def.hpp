@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TMP_ListPool_1)
 namespace TMPro {
-template <typename T> class TMP_ObjectPool_1;
+template <typename T> class __TMP_ListPool_1____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace TMPro {
-template <typename T> class __TMP_ListPool_1____c;
+template <typename T> class TMP_ObjectPool_1;
 }
 // Forward declare root types
 namespace TMPro {
@@ -29,8 +29,8 @@ namespace TMPro {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12395))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12323))
 // CS Name: ::TMP_ListPool`1::<>c<T>*
 class CORDL_TYPE __TMP_ListPool_1____c : public ::System::Object {
 public:
@@ -74,8 +74,8 @@ namespace TMPro {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12396))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12324))
 // CS Name: ::TMPro::TMP_ListPool`1<T>*
 class CORDL_TYPE TMP_ListPool_1 : public ::System::Object {
 public:

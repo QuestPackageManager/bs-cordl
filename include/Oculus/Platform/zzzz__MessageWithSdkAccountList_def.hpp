@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithSdkAccountList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4608 }), TypeDefinitionIndex(TypeDefinitionIndex(13262)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13479))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13321)) CS Name: ::Oculus.Platform::MessageWithSdkAccountList*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst: 4516 }), TypeDefinitionIndex(TypeDefinitionIndex(13539)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13269))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13344)) CS Name: ::Oculus.Platform::MessageWithSdkAccountList*
 class CORDL_TYPE MessageWithSdkAccountList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::SdkAccountList*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithSdkAccountList* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x26ef7c0 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x2593adc size 0x58 virtual false final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetSdkAccountList addr 0x26f3888 size 0x3c virtual true final false
+  /// @brief Method GetSdkAccountList addr 0x25982fc size 0x3c virtual true final false
   inline ::Oculus::Platform::Models::SdkAccountList* GetSdkAccountList();
 
-  /// @brief Method GetDataFromMessage addr 0x26f38c4 size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage addr 0x2598338 size 0x9c virtual true final false
   inline ::Oculus::Platform::Models::SdkAccountList* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithSdkAccountList", modifiers: "&&", def_value: None }]

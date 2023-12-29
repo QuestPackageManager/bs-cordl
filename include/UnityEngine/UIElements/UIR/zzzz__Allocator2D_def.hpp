@@ -12,26 +12,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Allocator2D)
-namespace UnityEngine {
-struct Vector2Int;
-}
-namespace UnityEngine::UIElements::UIR {
-class __Allocator2D__Area;
-}
-namespace UnityEngine::UIElements::UIR {
-class __Allocator2D__Row;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __Allocator2D__Alloc2D;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements::UIR {
-class BestFitAllocator;
+struct __Allocator2D__Alloc2D;
+}
+namespace UnityEngine::UIElements::UIR {
+class __Allocator2D__Area;
+}
+namespace UnityEngine {
+struct Vector2Int;
+}
+namespace UnityEngine::UIElements::UIR {
+class __Allocator2D__Row;
 }
 namespace UnityEngine {
 struct RectInt;
+}
+namespace UnityEngine::UIElements::UIR {
+class BestFitAllocator;
 }
 namespace UnityEngine::UIElements::UIR {
 template <typename T> class LinkedPool_1;
@@ -61,8 +61,8 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7411))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10090))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7497))
 // CS Name: ::Allocator2D::Area*
 class CORDL_TYPE __Allocator2D__Area : public ::System::Object {
 public:
@@ -87,7 +87,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::__Allocator2D__Area* New_ctor(::UnityEngine::RectInt rect);
 
-  /// @brief Method .ctor addr 0x2dcc4ac size 0x94 virtual false final false
+  /// @brief Method .ctor addr 0x2c660fc size 0x94 virtual false final false
   inline void _ctor(::UnityEngine::RectInt rect);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Allocator2D__Area", modifiers: "&&", def_value: None }]
@@ -115,13 +115,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__Allocator2D__Area, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__Allocator2D__Area, ___rect) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__Allocator2D__Area, ___allocator) == 0x20, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements::UIR
 // Type: ::Row
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10162)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 3979 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7433)), TypeDefinitionIndex(TypeDefinitionIndex(7399))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7412)) CS Name: ::Allocator2D::Row*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7485), inst: 3884 }), TypeDefinitionIndex(TypeDefinitionIndex(7485)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10090)), TypeDefinitionIndex(TypeDefinitionIndex(7519))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7498)) CS Name: ::Allocator2D::Row*
 class CORDL_TYPE __Allocator2D__Row : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::__Allocator2D__Row*> {
 public:
   // Declarations
@@ -177,15 +181,15 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>* getStaticF_pool();
 
-  /// @brief Method Create addr 0x2dcc540 size 0x58 virtual false final false
+  /// @brief Method Create addr 0x2c66190 size 0x58 virtual false final false
   static inline ::UnityEngine::UIElements::UIR::__Allocator2D__Row* Create();
 
-  /// @brief Method Reset addr 0x2dcc5e0 size 0x28 virtual false final false
+  /// @brief Method Reset addr 0x2c66230 size 0x28 virtual false final false
   static inline void Reset(::UnityEngine::UIElements::UIR::__Allocator2D__Row* row);
 
   static inline ::UnityEngine::UIElements::UIR::__Allocator2D__Row* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dcc598 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2c661e8 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Allocator2D__Row", modifiers: "&&", def_value: None }]
@@ -222,18 +226,28 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__Allocator2D__Row, 0x58>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__Allocator2D__Row, ___rect) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__Allocator2D__Row, ___area) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__Allocator2D__Row, ___allocator) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__Allocator2D__Row, ___alloc) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__Allocator2D__Row, ___next) == 0x50, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements::UIR
 // Type: ::Alloc2D
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7433)), TypeDefinitionIndex(TypeDefinitionIndex(10162))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7413))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10090)), TypeDefinitionIndex(TypeDefinitionIndex(7519))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7499))
 // CS Name: ::Allocator2D::Alloc2D
 struct CORDL_TYPE __Allocator2D__Alloc2D {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2dcbeec size 0xa4 virtual false final false
+  /// @brief Method .ctor addr 0x2c65b3c size 0xa4 virtual false final false
   inline void _ctor(::UnityEngine::UIElements::UIR::__Allocator2D__Row* row, ::UnityEngine::UIElements::UIR::Alloc alloc, int32_t width, int32_t height);
 
   // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::RectInt", modifiers: "", def_value: None }, CppParam { name: "row", ty: "::UnityEngine::UIElements::UIR::__Allocator2D__Row*",
@@ -261,13 +275,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D, rect) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D, row) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D, alloc) == 0x18, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements::UIR
 // Type: UnityEngine.UIElements.UIR::Allocator2D
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10244)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7414))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10171))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7500))
 // CS Name: ::UnityEngine.UIElements.UIR::Allocator2D*
 class CORDL_TYPE Allocator2D : public ::System::Object {
 public:
@@ -334,23 +354,23 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::Allocator2D* New_ctor(::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize, int32_t rowHeightBias);
 
-  /// @brief Method .ctor addr 0x2dcb294 size 0x218 virtual false final false
+  /// @brief Method .ctor addr 0x2c64ee4 size 0x218 virtual false final false
   inline void _ctor(::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize, int32_t rowHeightBias);
 
-  /// @brief Method TryAllocate addr 0x2dcb8c0 size 0x498 virtual false final false
+  /// @brief Method TryAllocate addr 0x2c65510 size 0x498 virtual false final false
   inline bool TryAllocate(int32_t width, int32_t height, ByRef<::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D> alloc2D);
 
-  /// @brief Method Free addr 0x2dcc038 size 0x210 virtual false final false
+  /// @brief Method Free addr 0x2c65c88 size 0x210 virtual false final false
   inline void Free(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D alloc2D);
 
-  /// @brief Method BuildAreas addr 0x2dcb4ac size 0x270 virtual false final false
+  /// @brief Method BuildAreas addr 0x2c650fc size 0x270 virtual false final false
   static inline void BuildAreas(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>* areas, ::UnityEngine::Vector2Int minSize,
                                 ::UnityEngine::Vector2Int maxSize);
 
-  /// @brief Method ComputeMaxAllocSize addr 0x2dcb71c size 0x11c virtual false final false
+  /// @brief Method ComputeMaxAllocSize addr 0x2c6536c size 0x11c virtual false final false
   static inline ::UnityEngine::Vector2Int ComputeMaxAllocSize(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>* areas, int32_t rowHeightBias);
 
-  /// @brief Method BuildRowArray addr 0x2dcb838 size 0x88 virtual false final false
+  /// @brief Method BuildRowArray addr 0x2c65488 size 0x88 virtual false final false
   static inline ::ArrayW<::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::Array<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*> BuildRowArray(int32_t maxRowHeight, int32_t rowHeightBias);
 
   // Ctor Parameters [CppParam { name: "", ty: "Allocator2D", modifiers: "&&", def_value: None }]
@@ -389,6 +409,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::Allocator2D, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Allocator2D, ___m_MinSize) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Allocator2D, ___m_MaxSize) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Allocator2D, ___m_MaxAllocSize) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Allocator2D, ___m_RowHeightBias) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Allocator2D, ___m_Rows) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Allocator2D, ___m_Areas) == 0x38, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::Allocator2D);

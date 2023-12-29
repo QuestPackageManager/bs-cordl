@@ -16,13 +16,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Grounding)
 namespace RootMotion::FinalIK {
-class __Grounding__Leg;
+class __Grounding__Pelvis;
 }
 namespace RootMotion::FinalIK {
 struct __Grounding__Quality;
 }
 namespace RootMotion::FinalIK {
-class __Grounding__Pelvis;
+class __Grounding__Leg;
 }
 namespace UnityEngine {
 class Transform;
@@ -59,7 +59,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__Grounding__Pelvis);
 namespace RootMotion::FinalIK {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12526))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12454))
 // CS Name: ::Grounding::Quality
 struct CORDL_TYPE __Grounding__Quality {
 public:
@@ -105,13 +105,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__Grounding__Quality, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Quality, value__) == 0x0, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::Leg
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 276, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15487))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12527)) CS Name: ::Grounding::Leg*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15471))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12455)) CS Name: ::Grounding::Leg*
 class CORDL_TYPE __Grounding__Leg : public ::System::Object {
 public:
   // Declarations
@@ -328,111 +330,111 @@ public:
 
   constexpr void __set_transformPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_isGrounded addr 0x124d1a0 size 0x8 virtual false final false
+  /// @brief Method get_isGrounded addr 0x11dce74 size 0x8 virtual false final false
   inline bool get_isGrounded();
 
-  /// @brief Method set_isGrounded addr 0x124d1a8 size 0xc virtual false final false
+  /// @brief Method set_isGrounded addr 0x11dce7c size 0xc virtual false final false
   inline void set_isGrounded(bool value);
 
-  /// @brief Method get_IKPosition addr 0x124d1b4 size 0xc virtual false final false
+  /// @brief Method get_IKPosition addr 0x11dce88 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_IKPosition();
 
-  /// @brief Method set_IKPosition addr 0x124d1c0 size 0xc virtual false final false
+  /// @brief Method set_IKPosition addr 0x11dce94 size 0xc virtual false final false
   inline void set_IKPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_initiated addr 0x124d1cc size 0x8 virtual false final false
+  /// @brief Method get_initiated addr 0x11dcea0 size 0x8 virtual false final false
   inline bool get_initiated();
 
-  /// @brief Method set_initiated addr 0x124d1d4 size 0xc virtual false final false
+  /// @brief Method set_initiated addr 0x11dcea8 size 0xc virtual false final false
   inline void set_initiated(bool value);
 
-  /// @brief Method get_heightFromGround addr 0x124d1e0 size 0x8 virtual false final false
+  /// @brief Method get_heightFromGround addr 0x11dceb4 size 0x8 virtual false final false
   inline float_t get_heightFromGround();
 
-  /// @brief Method set_heightFromGround addr 0x124d1e8 size 0x8 virtual false final false
+  /// @brief Method set_heightFromGround addr 0x11dcebc size 0x8 virtual false final false
   inline void set_heightFromGround(float_t value);
 
-  /// @brief Method get_velocity addr 0x124d1f0 size 0xc virtual false final false
+  /// @brief Method get_velocity addr 0x11dcec4 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_velocity();
 
-  /// @brief Method set_velocity addr 0x124d1fc size 0xc virtual false final false
+  /// @brief Method set_velocity addr 0x11dced0 size 0xc virtual false final false
   inline void set_velocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_transform addr 0x124d208 size 0x8 virtual false final false
+  /// @brief Method get_transform addr 0x11dcedc size 0x8 virtual false final false
   inline ::UnityEngine::Transform* get_transform();
 
-  /// @brief Method set_transform addr 0x124d210 size 0x8 virtual false final false
+  /// @brief Method set_transform addr 0x11dcee4 size 0x8 virtual false final false
   inline void set_transform(::UnityEngine::Transform* value);
 
-  /// @brief Method get_IKOffset addr 0x124d218 size 0x8 virtual false final false
+  /// @brief Method get_IKOffset addr 0x11dceec size 0x8 virtual false final false
   inline float_t get_IKOffset();
 
-  /// @brief Method set_IKOffset addr 0x124d220 size 0x8 virtual false final false
+  /// @brief Method set_IKOffset addr 0x11dcef4 size 0x8 virtual false final false
   inline void set_IKOffset(float_t value);
 
-  /// @brief Method get_heelHit addr 0x124d228 size 0x18 virtual false final false
+  /// @brief Method get_heelHit addr 0x11dcefc size 0x18 virtual false final false
   inline ::UnityEngine::RaycastHit get_heelHit();
 
-  /// @brief Method set_heelHit addr 0x124d240 size 0x20 virtual false final false
+  /// @brief Method set_heelHit addr 0x11dcf14 size 0x20 virtual false final false
   inline void set_heelHit(::UnityEngine::RaycastHit value);
 
-  /// @brief Method get_capsuleHit addr 0x124d260 size 0x18 virtual false final false
+  /// @brief Method get_capsuleHit addr 0x11dcf34 size 0x18 virtual false final false
   inline ::UnityEngine::RaycastHit get_capsuleHit();
 
-  /// @brief Method set_capsuleHit addr 0x124d278 size 0x20 virtual false final false
+  /// @brief Method set_capsuleHit addr 0x11dcf4c size 0x20 virtual false final false
   inline void set_capsuleHit(::UnityEngine::RaycastHit value);
 
-  /// @brief Method get_GetHitPoint addr 0x124d298 size 0x48 virtual false final false
+  /// @brief Method get_GetHitPoint addr 0x11dcf6c size 0x48 virtual false final false
   inline ::UnityEngine::RaycastHit get_GetHitPoint();
 
-  /// @brief Method SetFootPosition addr 0x124d2e0 size 0x14 virtual false final false
+  /// @brief Method SetFootPosition addr 0x11dcfb4 size 0x14 virtual false final false
   inline void SetFootPosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method Initiate addr 0x124c308 size 0xc8 virtual false final false
+  /// @brief Method Initiate addr 0x11dbfdc size 0xc8 virtual false final false
   inline void Initiate(::RootMotion::FinalIK::Grounding* grounding, ::UnityEngine::Transform* transform);
 
-  /// @brief Method OnEnable addr 0x124d2f4 size 0x40 virtual false final false
+  /// @brief Method OnEnable addr 0x11dcfc8 size 0x40 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method Reset addr 0x124ce10 size 0x94 virtual false final false
+  /// @brief Method Reset addr 0x11dcae4 size 0x94 virtual false final false
   inline void Reset();
 
-  /// @brief Method Process addr 0x124c3f8 size 0x798 virtual false final false
+  /// @brief Method Process addr 0x11dc0cc size 0x798 virtual false final false
   inline void Process();
 
-  /// @brief Method get_stepHeightFromGround addr 0x124db80 size 0x34 virtual false final false
+  /// @brief Method get_stepHeightFromGround addr 0x11dd854 size 0x34 virtual false final false
   inline float_t get_stepHeightFromGround();
 
-  /// @brief Method GetCapsuleHit addr 0x124d794 size 0x3ec virtual false final false
+  /// @brief Method GetCapsuleHit addr 0x11dd468 size 0x3ec virtual false final false
   inline ::UnityEngine::RaycastHit GetCapsuleHit(::UnityEngine::Vector3 offsetFromHeel);
 
-  /// @brief Method GetRaycastHit addr 0x124d334 size 0x2c8 virtual false final false
+  /// @brief Method GetRaycastHit addr 0x11dd008 size 0x2c8 virtual false final false
   inline ::UnityEngine::RaycastHit GetRaycastHit(::UnityEngine::Vector3 offsetFromHeel);
 
-  /// @brief Method RotateNormal addr 0x124dc14 size 0x6c virtual false final false
+  /// @brief Method RotateNormal addr 0x11dd8e8 size 0x6c virtual false final false
   inline ::UnityEngine::Vector3 RotateNormal(::UnityEngine::Vector3 normal);
 
-  /// @brief Method SetFootToPoint addr 0x124d5fc size 0x80 virtual false final false
+  /// @brief Method SetFootToPoint addr 0x11dd2d0 size 0x80 virtual false final false
   inline void SetFootToPoint(::UnityEngine::Vector3 normal, ::UnityEngine::Vector3 point);
 
-  /// @brief Method SetFootToPlane addr 0x124d67c size 0x118 virtual false final false
+  /// @brief Method SetFootToPlane addr 0x11dd350 size 0x118 virtual false final false
   inline void SetFootToPlane(::UnityEngine::Vector3 planeNormal, ::UnityEngine::Vector3 planePoint, ::UnityEngine::Vector3 heelHitPoint);
 
-  /// @brief Method GetHeightFromGround addr 0x124dc80 size 0x50 virtual false final false
+  /// @brief Method GetHeightFromGround addr 0x11dd954 size 0x50 virtual false final false
   inline float_t GetHeightFromGround(::UnityEngine::Vector3 hitPoint);
 
-  /// @brief Method RotateFoot addr 0x124dbb4 size 0x60 virtual false final false
+  /// @brief Method RotateFoot addr 0x11dd888 size 0x60 virtual false final false
   inline void RotateFoot();
 
-  /// @brief Method GetRotationOffsetTarget addr 0x124dd5c size 0x1b0 virtual false final false
+  /// @brief Method GetRotationOffsetTarget addr 0x11dda30 size 0x1b0 virtual false final false
   inline ::UnityEngine::Quaternion GetRotationOffsetTarget();
 
-  /// @brief Method get_rootYOffset addr 0x124dcd0 size 0x8c virtual false final false
+  /// @brief Method get_rootYOffset addr 0x11dd9a4 size 0x8c virtual false final false
   inline float_t get_rootYOffset();
 
   static inline ::RootMotion::FinalIK::__Grounding__Leg* New_ctor();
 
-  /// @brief Method .ctor addr 0x124c268 size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x11dbf3c size 0x98 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Grounding__Leg", modifiers: "&&", def_value: None }]
@@ -517,13 +519,55 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__Grounding__Leg, 0x118>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ____isGrounded_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ____IKPosition_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ___rotationOffset) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ____initiated_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ____heightFromGround_k__BackingField) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ____velocity_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ____transform_k__BackingField) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ____IKOffset_k__BackingField) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ___invertFootCenter) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ____heelHit_k__BackingField) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ____capsuleHit_k__BackingField) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ___grounding) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ___lastTime) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ___deltaTime) == 0xbc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ___lastPosition) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ___toHitNormal) == 0xcc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ___r) == 0xdc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ___up) == 0xec, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ___doOverrideFootPosition) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ___overrideFootPosition) == 0xfc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ___transformPosition) == 0x108, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::Pelvis
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12528))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12456))
 // CS Name: ::Grounding::Pelvis*
 class CORDL_TYPE __Grounding__Pelvis : public ::System::Object {
 public:
@@ -595,33 +639,33 @@ public:
 
   constexpr void __set_lastTime(float_t value);
 
-  /// @brief Method get_IKOffset addr 0x124df0c size 0xc virtual false final false
+  /// @brief Method get_IKOffset addr 0x11ddbe0 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_IKOffset();
 
-  /// @brief Method set_IKOffset addr 0x124df18 size 0xc virtual false final false
+  /// @brief Method set_IKOffset addr 0x11ddbec size 0xc virtual false final false
   inline void set_IKOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_heightOffset addr 0x124df24 size 0x8 virtual false final false
+  /// @brief Method get_heightOffset addr 0x11ddbf8 size 0x8 virtual false final false
   inline float_t get_heightOffset();
 
-  /// @brief Method set_heightOffset addr 0x124df2c size 0x8 virtual false final false
+  /// @brief Method set_heightOffset addr 0x11ddc00 size 0x8 virtual false final false
   inline void set_heightOffset(float_t value);
 
-  /// @brief Method Initiate addr 0x124c3d0 size 0x10 virtual false final false
+  /// @brief Method Initiate addr 0x11dc0a4 size 0x10 virtual false final false
   inline void Initiate(::RootMotion::FinalIK::Grounding* grounding);
 
-  /// @brief Method Reset addr 0x124cd7c size 0x94 virtual false final false
+  /// @brief Method Reset addr 0x11dca50 size 0x94 virtual false final false
   inline void Reset();
 
-  /// @brief Method OnEnable addr 0x124df34 size 0x54 virtual false final false
+  /// @brief Method OnEnable addr 0x11ddc08 size 0x54 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method Process addr 0x124cb90 size 0x1ec virtual false final false
+  /// @brief Method Process addr 0x11dc864 size 0x1ec virtual false final false
   inline void Process(float_t lowestOffset, float_t highestOffset, bool isGrounded);
 
   static inline ::RootMotion::FinalIK::__Grounding__Pelvis* New_ctor();
 
-  /// @brief Method .ctor addr 0x124c300 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x11dbfd4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Grounding__Pelvis", modifiers: "&&", def_value: None }]
@@ -664,13 +708,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__Grounding__Pelvis, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Pelvis, ____IKOffset_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Pelvis, ____heightOffset_k__BackingField) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Pelvis, ___grounding) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Pelvis, ___lastRootPosition) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Pelvis, ___damperF) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Pelvis, ___initiated) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Pelvis, ___lastTime) == 0x3c, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: RootMotion.FinalIK::Grounding
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 165, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12526)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10204)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15487))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12529)) CS Name: ::RootMotion.FinalIK::Grounding*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10132)), TypeDefinitionIndex(TypeDefinitionIndex(12454)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15471))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12457)) CS Name: ::RootMotion.FinalIK::Grounding*
 class CORDL_TYPE Grounding : public ::System::Object {
 public:
   // Declarations
@@ -913,78 +971,78 @@ public:
 
   constexpr void __set_initiated(bool value);
 
-  /// @brief Method get_legs addr 0x124bde0 size 0x8 virtual false final false
+  /// @brief Method get_legs addr 0x11dbab4 size 0x8 virtual false final false
   inline ::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*> get_legs();
 
-  /// @brief Method set_legs addr 0x124bde8 size 0x8 virtual false final false
+  /// @brief Method set_legs addr 0x11dbabc size 0x8 virtual false final false
   inline void set_legs(::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*> value);
 
-  /// @brief Method get_pelvis addr 0x124bdf0 size 0x8 virtual false final false
+  /// @brief Method get_pelvis addr 0x11dbac4 size 0x8 virtual false final false
   inline ::RootMotion::FinalIK::__Grounding__Pelvis* get_pelvis();
 
-  /// @brief Method set_pelvis addr 0x124bdf8 size 0x8 virtual false final false
+  /// @brief Method set_pelvis addr 0x11dbacc size 0x8 virtual false final false
   inline void set_pelvis(::RootMotion::FinalIK::__Grounding__Pelvis* value);
 
-  /// @brief Method get_isGrounded addr 0x124be00 size 0x8 virtual false final false
+  /// @brief Method get_isGrounded addr 0x11dbad4 size 0x8 virtual false final false
   inline bool get_isGrounded();
 
-  /// @brief Method set_isGrounded addr 0x124be08 size 0xc virtual false final false
+  /// @brief Method set_isGrounded addr 0x11dbadc size 0xc virtual false final false
   inline void set_isGrounded(bool value);
 
-  /// @brief Method get_root addr 0x124be14 size 0x8 virtual false final false
+  /// @brief Method get_root addr 0x11dbae8 size 0x8 virtual false final false
   inline ::UnityEngine::Transform* get_root();
 
-  /// @brief Method set_root addr 0x124be1c size 0x8 virtual false final false
+  /// @brief Method set_root addr 0x11dbaf0 size 0x8 virtual false final false
   inline void set_root(::UnityEngine::Transform* value);
 
-  /// @brief Method get_rootHit addr 0x124be24 size 0x18 virtual false final false
+  /// @brief Method get_rootHit addr 0x11dbaf8 size 0x18 virtual false final false
   inline ::UnityEngine::RaycastHit get_rootHit();
 
-  /// @brief Method set_rootHit addr 0x124be3c size 0x20 virtual false final false
+  /// @brief Method set_rootHit addr 0x11dbb10 size 0x20 virtual false final false
   inline void set_rootHit(::UnityEngine::RaycastHit value);
 
-  /// @brief Method get_rootGrounded addr 0x124be5c size 0x48 virtual false final false
+  /// @brief Method get_rootGrounded addr 0x11dbb30 size 0x48 virtual false final false
   inline bool get_rootGrounded();
 
-  /// @brief Method GetRootHit addr 0x124bea4 size 0x260 virtual false final false
+  /// @brief Method GetRootHit addr 0x11dbb78 size 0x260 virtual false final false
   inline ::UnityEngine::RaycastHit GetRootHit(float_t maxDistanceMlp);
 
-  /// @brief Method IsValid addr 0x124c16c size 0xfc virtual false final false
+  /// @brief Method IsValid addr 0x11dbe40 size 0xfc virtual false final false
   inline bool IsValid(ByRef<::StringW> errorMessage);
 
-  /// @brief Method Initiate addr 0x1246bbc size 0x274 virtual false final false
+  /// @brief Method Initiate addr 0x11d6890 size 0x274 virtual false final false
   inline void Initiate(::UnityEngine::Transform* root, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> feet);
 
-  /// @brief Method Update addr 0x12471a4 size 0x1f4 virtual false final false
+  /// @brief Method Update addr 0x11d6e78 size 0x1f4 virtual false final false
   inline void Update();
 
-  /// @brief Method GetLegsPlaneNormal addr 0x1248140 size 0x178 virtual false final false
+  /// @brief Method GetLegsPlaneNormal addr 0x11d7e14 size 0x178 virtual false final false
   inline ::UnityEngine::Vector3 GetLegsPlaneNormal();
 
-  /// @brief Method Reset addr 0x1246834 size 0x78 virtual false final false
+  /// @brief Method Reset addr 0x11d6508 size 0x78 virtual false final false
   inline void Reset();
 
-  /// @brief Method LogWarning addr 0x124c3e0 size 0x18 virtual false final false
+  /// @brief Method LogWarning addr 0x11dc0b4 size 0x18 virtual false final false
   inline void LogWarning(::StringW message);
 
-  /// @brief Method get_up addr 0x124c104 size 0x68 virtual false final false
+  /// @brief Method get_up addr 0x11dbdd8 size 0x68 virtual false final false
   inline ::UnityEngine::Vector3 get_up();
 
-  /// @brief Method GetVerticalOffset addr 0x124cf58 size 0x84 virtual false final false
+  /// @brief Method GetVerticalOffset addr 0x11dcc2c size 0x84 virtual false final false
   inline float_t GetVerticalOffset(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
 
-  /// @brief Method Flatten addr 0x124cfdc size 0x154 virtual false final false
+  /// @brief Method Flatten addr 0x11dccb0 size 0x154 virtual false final false
   inline ::UnityEngine::Vector3 Flatten(::UnityEngine::Vector3 v);
 
-  /// @brief Method get_useRootRotation addr 0x124cea4 size 0xb4 virtual false final false
+  /// @brief Method get_useRootRotation addr 0x11dcb78 size 0xb4 virtual false final false
   inline bool get_useRootRotation();
 
-  /// @brief Method GetFootCenterOffset addr 0x124d130 size 0x70 virtual false final false
+  /// @brief Method GetFootCenterOffset addr 0x11dce04 size 0x70 virtual false final false
   inline ::UnityEngine::Vector3 GetFootCenterOffset();
 
   static inline ::RootMotion::FinalIK::Grounding* New_ctor();
 
-  /// @brief Method .ctor addr 0x124b15c size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x11dae30 size 0x54 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Grounding", modifiers: "&&", def_value: None }]
@@ -1077,6 +1135,54 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::Grounding, 0xa8>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___layers) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___maxStep) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___heightOffset) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___footSpeed) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___footRadius) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___footCenterOffset) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___prediction) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___footRotationWeight) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___footRotationSpeed) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___maxFootRotationAngle) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___rotateSolver) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___pelvisSpeed) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___pelvisDamper) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___lowerPelvisWeight) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___liftPelvisWeight) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___rootSphereCastRadius) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___overstepFallsDown) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___quality) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ____legs_k__BackingField) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ____pelvis_k__BackingField) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ____isGrounded_k__BackingField) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ____root_k__BackingField) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ____rootHit_k__BackingField) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::Grounding, ___initiated) == 0xa4, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::__Grounding__Quality, "RootMotion.FinalIK", "Grounding/Quality");

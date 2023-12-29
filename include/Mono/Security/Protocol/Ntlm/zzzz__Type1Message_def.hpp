@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::Type1Message);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13765))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13769))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14036))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14040))
 // CS Name: ::Mono.Security.Protocol.Ntlm::Type1Message*
 class CORDL_TYPE Type1Message : public ::Mono::Security::Protocol::Ntlm::MessageBase {
 public:
@@ -47,19 +47,19 @@ public:
 
   static inline ::Mono::Security::Protocol::Ntlm::Type1Message* New_ctor();
 
-  /// @brief Method .ctor addr 0x2401418 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x22a710c size 0x84 virtual false final false
   inline void _ctor();
 
-  /// @brief Method set_Domain addr 0x240149c size 0x80 virtual false final false
+  /// @brief Method set_Domain addr 0x22a7190 size 0x80 virtual false final false
   inline void set_Domain(::StringW value);
 
-  /// @brief Method set_Host addr 0x240151c size 0x80 virtual false final false
+  /// @brief Method set_Host addr 0x22a7210 size 0x80 virtual false final false
   inline void set_Host(::StringW value);
 
-  /// @brief Method Decode addr 0x240159c size 0xf0 virtual true final false
+  /// @brief Method Decode addr 0x22a7290 size 0xf0 virtual true final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method GetBytes addr 0x240168c size 0x24c virtual true final false
+  /// @brief Method GetBytes addr 0x22a7380 size 0x24c virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
   // Ctor Parameters [CppParam { name: "", ty: "Type1Message", modifiers: "&&", def_value: None }]
@@ -86,6 +86,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Protocol::Ntlm::Type1Message, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::Protocol::Ntlm::Type1Message, ____host) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Protocol::Ntlm::Type1Message, ____domain) == 0x20, "Offset mismatch!");
 
 } // namespace Mono::Security::Protocol::Ntlm
 NEED_NO_BOX(::Mono::Security::Protocol::Ntlm::Type1Message);

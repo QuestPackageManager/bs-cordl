@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MulticolorAvatarPartPropertyBlockSetter_def.hpp"
+#include "GlobalNamespace/zzzz__MulticolorAvatarPartPropertyBlockSetter_impl.hpp"

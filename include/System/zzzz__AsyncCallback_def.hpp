@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::AsyncCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2353))
 // CS Name: ::System::AsyncCallback*
 class CORDL_TYPE AsyncCallback : public ::System::MulticastDelegate {
@@ -29,16 +29,16 @@ public:
   // Declarations
   static inline ::System::AsyncCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2521310 size 0x12c virtual false final false
+  /// @brief Method .ctor addr 0x23c8044 size 0x12c virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x252143c size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x23c8170 size 0x14 virtual true final false
   inline void Invoke(::System::IAsyncResult* ar);
 
-  /// @brief Method BeginInvoke addr 0x2521450 size 0x20 virtual true final false
+  /// @brief Method BeginInvoke addr 0x23c8184 size 0x20 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IAsyncResult* ar, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2521470 size 0xc virtual true final false
+  /// @brief Method EndInvoke addr 0x23c81a4 size 0xc virtual true final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncCallback", modifiers: "&&", def_value: None }]

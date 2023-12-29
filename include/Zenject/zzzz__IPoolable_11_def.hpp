@@ -19,7 +19,7 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
           typename TParam11>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15731))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15681))
 // CS Name: ::Zenject::IPoolable`11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TParam11>*
 class CORDL_TYPE IPoolable_11 {
 public:

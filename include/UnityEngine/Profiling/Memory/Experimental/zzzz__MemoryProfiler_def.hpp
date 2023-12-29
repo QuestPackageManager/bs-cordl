@@ -7,8 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryProfiler)
+namespace UnityEngine::Profiling::Experimental {
+struct DebugScreenCapture;
+}
 namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
+template <typename T> class Action_1;
+}
+namespace UnityEngine::Profiling::Memory::Experimental {
+class MetaData;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -17,13 +23,7 @@ namespace UnityEngine {
 struct TextureFormat;
 }
 namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::Profiling::Memory::Experimental {
-class MetaData;
-}
-namespace UnityEngine::Profiling::Experimental {
-struct DebugScreenCapture;
+template <typename T1, typename T2, typename T3> class Action_3;
 }
 // Forward declare root types
 namespace UnityEngine::Profiling::Memory::Experimental {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::UnityEngine::Profiling::Memory::Experimental::MemoryProfiler);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Profiling::Memory::Experimental {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10299))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10221))
 // CS Name: ::UnityEngine.Profiling.Memory.Experimental::MemoryProfiler*
 class CORDL_TYPE MemoryProfiler : public ::System::Object {
 public:
@@ -63,19 +63,19 @@ public:
 
   static inline ::System::Action_1<::UnityEngine::Profiling::Memory::Experimental::MetaData*>* getStaticF_createMetaData();
 
-  /// @brief Method PrepareMetadata addr 0x2ce6cd8 size 0x174 virtual false final false
+  /// @brief Method PrepareMetadata addr 0x2b7f8a4 size 0x174 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PrepareMetadata();
 
-  /// @brief Method WriteIntToByteArray addr 0x2ce6e4c size 0x8c virtual false final false
+  /// @brief Method WriteIntToByteArray addr 0x2b7fa18 size 0x8c virtual false final false
   static inline int32_t WriteIntToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t value);
 
-  /// @brief Method WriteStringToByteArray addr 0x2ce6ed8 size 0x98 virtual false final false
+  /// @brief Method WriteStringToByteArray addr 0x2b7faa4 size 0x98 virtual false final false
   static inline int32_t WriteStringToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, ::StringW value);
 
-  /// @brief Method FinalizeSnapshot addr 0x2ce6f70 size 0x84 virtual false final false
+  /// @brief Method FinalizeSnapshot addr 0x2b7fb3c size 0x84 virtual false final false
   static inline void FinalizeSnapshot(::StringW path, bool result);
 
-  /// @brief Method SaveScreenshotToDisk addr 0x2ce6ff4 size 0xfc virtual false final false
+  /// @brief Method SaveScreenshotToDisk addr 0x2b7fbc0 size 0xfc virtual false final false
   static inline void SaveScreenshotToDisk(::StringW path, bool result, void* pixelsPtr, int32_t pixelsCount, ::UnityEngine::TextureFormat format, int32_t width, int32_t height);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemoryProfiler", modifiers: "&&", def_value: None }]

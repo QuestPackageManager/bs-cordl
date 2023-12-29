@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__AvatarDataMultiplayerAvatarDataConverter_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarDataMultiplayerAvatarDataConverter_impl.hpp"

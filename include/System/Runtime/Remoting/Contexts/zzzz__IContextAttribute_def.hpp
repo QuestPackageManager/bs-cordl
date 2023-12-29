@@ -3,11 +3,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IContextAttribute)
-namespace System::Runtime::Remoting::Contexts {
-class Context;
-}
 namespace System::Runtime::Remoting::Activation {
 class IConstructionCallMessage;
+}
+namespace System::Runtime::Remoting::Contexts {
+class Context;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Contexts {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IContextAttribute);
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3105))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3104))
 // CS Name: ::System.Runtime.Remoting.Contexts::IContextAttribute*
 class CORDL_TYPE IContextAttribute {
 public:

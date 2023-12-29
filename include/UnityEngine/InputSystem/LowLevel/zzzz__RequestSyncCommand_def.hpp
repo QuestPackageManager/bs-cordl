@@ -25,8 +25,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::RequestSyncCommand);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6471))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6487))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6557))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6573))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::RequestSyncCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE RequestSyncCommand {
@@ -46,13 +46,13 @@ public:
 
   constexpr void __set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
 
-  /// @brief Method get_Type addr 0x2ae8348 size 0x30 virtual false final false
+  /// @brief Method get_Type addr 0x2968600 size 0x30 virtual false final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic addr 0x2ae8378 size 0x30 virtual true final true
+  /// @brief Method get_typeStatic addr 0x2968630 size 0x30 virtual true final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create addr 0x2ae83a8 size 0x34 virtual false final false
+  /// @brief Method Create addr 0x2968660 size 0x34 virtual false final false
   static inline ::UnityEngine::InputSystem::LowLevel::RequestSyncCommand Create();
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }]

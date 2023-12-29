@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UserNotice)
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class NoticeReference;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class DisplayText;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -60,29 +60,29 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText);
 
-  /// @brief Method .ctor addr 0x119a46c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x112a224 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText);
 
   static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::StringW str);
 
-  /// @brief Method .ctor addr 0x119a498 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x112a250 size 0x7c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::StringW str);
 
   static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x119a514 size 0x208 virtual false final false
+  /// @brief Method .ctor addr 0x112a2cc size 0x208 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0x119a71c size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0x112a4d4 size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_NoticeRef addr 0x119a7c0 size 0x8 virtual true final false
+  /// @brief Method get_NoticeRef addr 0x112a578 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::NoticeReference* get_NoticeRef();
 
-  /// @brief Method get_ExplicitText addr 0x119a7c8 size 0x8 virtual true final false
+  /// @brief Method get_ExplicitText addr 0x112a580 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::DisplayText* get_ExplicitText();
 
-  /// @brief Method ToAsn1Object addr 0x119a7d0 size 0x134 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x112a588 size 0x134 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "UserNotice", modifiers: "&&", def_value: None }]
@@ -109,6 +109,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::UserNotice, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::UserNotice, ___noticeRef) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::UserNotice, ___explicitText) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::UserNotice);

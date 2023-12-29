@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
 CORDL_MODULE_EXPORT(MarkerTrack)
-namespace UnityEngine::Playables {
-struct PlayableBinding;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::Playables {
+struct PlayableBinding;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::MarkerTrack);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13862))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13890))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14133))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14161))
 // CS Name: ::UnityEngine.Timeline::MarkerTrack*
 class CORDL_TYPE MarkerTrack : public ::UnityEngine::Timeline::TrackAsset {
 public:
   // Declarations
   __declspec(property(get = get_outputs))::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* outputs;
 
-  /// @brief Method get_outputs addr 0x2c68b44 size 0x1e4 virtual true final false
+  /// @brief Method get_outputs addr 0x2ae4df0 size 0x1e4 virtual true final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
   static inline ::UnityEngine::Timeline::MarkerTrack* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c68d28 size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x2ae4fd4 size 0x54 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MarkerTrack", modifiers: "&&", def_value: None }]

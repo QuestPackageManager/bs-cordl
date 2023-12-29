@@ -20,18 +20,18 @@ MARK_REF_PTR_T(::System::Security::AccessControl::CommonObjectSecurity);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3044))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3026))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3043))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3025))
 // CS Name: ::System.Security.AccessControl::CommonObjectSecurity*
 class CORDL_TYPE CommonObjectSecurity : public ::System::Security::AccessControl::ObjectSecurity {
 public:
   // Declarations
   static inline ::System::Security::AccessControl::CommonObjectSecurity* New_ctor(bool isContainer);
 
-  /// @brief Method .ctor addr 0x2482bd4 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x232b0e0 size 0xc virtual false final false
   inline void _ctor(bool isContainer);
 
-  /// @brief Method GetAccessRules addr 0x2482cdc size 0xc virtual false final false
+  /// @brief Method GetAccessRules addr 0x232b1e8 size 0xc virtual false final false
   inline ::System::Security::AccessControl::AuthorizationRuleCollection* GetAccessRules(bool includeExplicit, bool includeInherited, ::System::Type* targetType);
 
   // Ctor Parameters [CppParam { name: "", ty: "CommonObjectSecurity", modifiers: "&&", def_value: None }]

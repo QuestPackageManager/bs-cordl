@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKeyUnwrapper)
-namespace Org::BouncyCastle::Crypto {
-class IBlockResult;
-}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockResult;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {

@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HoudiniEngineError);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9673))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9600))
 // CS Name: ::HoudiniEngineUnity::HEU_HoudiniEngineError*
 class CORDL_TYPE HEU_HoudiniEngineError : public ::System::Exception {
 public:
@@ -32,15 +32,15 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_HoudiniEngineError* New_ctor();
 
-  /// @brief Method .ctor addr 0x21893a4 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x2032a08 size 0x7c virtual false final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::HEU_HoudiniEngineError* New_ctor(::StringW errorMsg);
 
-  /// @brief Method .ctor addr 0x2189420 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x2032a84 size 0x88 virtual false final false
   inline void _ctor(::StringW errorMsg);
 
-  /// @brief Method ToString addr 0x21894a8 size 0x8 virtual true final false
+  /// @brief Method ToString addr 0x2032b0c size 0x8 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_HoudiniEngineError", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_HoudiniEngineError, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_HoudiniEngineError, ____errorMsg) == 0x90, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_HoudiniEngineError);

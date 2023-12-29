@@ -23,8 +23,8 @@ MARK_VAL_T(::OVR::OpenVR::CameraVideoStreamFrameHeader_t);
 // SizeInfo { instance_size: 100, native_size: 100, calculated_instance_size: 100, calculated_native_size: 116, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8658)), TypeDefinitionIndex(TypeDefinitionIndex(8612))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8700))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9381)), TypeDefinitionIndex(TypeDefinitionIndex(9427))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9469))
 // CS Name: ::OVR.OpenVR::CameraVideoStreamFrameHeader_t
 struct CORDL_TYPE CameraVideoStreamFrameHeader_t {
 public:
@@ -64,6 +64,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::CameraVideoStreamFrameHeader_t, 0x64>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::CameraVideoStreamFrameHeader_t, eFrameType) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::CameraVideoStreamFrameHeader_t, nWidth) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::CameraVideoStreamFrameHeader_t, nHeight) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::CameraVideoStreamFrameHeader_t, nBytesPerPixel) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::CameraVideoStreamFrameHeader_t, nFrameSequence) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::CameraVideoStreamFrameHeader_t, standingTrackedDevicePose) == 0x14, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CameraVideoStreamFrameHeader_t, "OVR.OpenVR", "CameraVideoStreamFrameHeader_t");

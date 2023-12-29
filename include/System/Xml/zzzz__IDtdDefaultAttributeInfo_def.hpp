@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IDtdDefaultAttributeInfo)
-namespace System {
-class Object;
-}
 namespace System::Xml {
 class IDtdAttributeInfo;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Xml::IDtdDefaultAttributeInfo);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11424))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11352))
 // CS Name: ::System.Xml::IDtdDefaultAttributeInfo*
 class CORDL_TYPE IDtdDefaultAttributeInfo {
 public:

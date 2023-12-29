@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::VerticalWrapMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15903))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15795))
 // CS Name: ::UnityEngine::VerticalWrapMode
 struct CORDL_TYPE VerticalWrapMode {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::VerticalWrapMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::VerticalWrapMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::VerticalWrapMode, "UnityEngine", "VerticalWrapMode");

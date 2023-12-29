@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::Tasks::Sources::ValueTaskSourceStatus);
 namespace System::Threading::Tasks::Sources {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2822))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2818))
 // CS Name: ::System.Threading.Tasks.Sources::ValueTaskSourceStatus
 struct CORDL_TYPE ValueTaskSourceStatus {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::Sources::ValueTaskSourceStatus, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::Sources::ValueTaskSourceStatus, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Threading::Tasks::Sources
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::Sources::ValueTaskSourceStatus, "System.Threading.Tasks.Sources", "ValueTaskSourceStatus");

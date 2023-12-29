@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ICommandLineArgsProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5954))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6036))
 // CS Name: ::ICommandLineArgsProvider*
 class CORDL_TYPE ICommandLineArgsProvider {
 public:

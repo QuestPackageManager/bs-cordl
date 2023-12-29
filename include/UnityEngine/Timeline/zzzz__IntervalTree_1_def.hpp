@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntervalTree_1)
 namespace UnityEngine::Timeline {
-template <typename T> struct __IntervalTree_1__Entry;
+struct IntervalTreeNode;
 }
 namespace UnityEngine::Timeline {
-struct IntervalTreeNode;
+template <typename T> struct __IntervalTree_1__Entry;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -32,7 +32,7 @@ namespace UnityEngine::Timeline {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13880))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14151))
 // CS Name: ::IntervalTree`1::Entry<T>
 struct CORDL_TYPE __IntervalTree_1__Entry {
 public:
@@ -67,8 +67,8 @@ namespace UnityEngine::Timeline {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13881))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14152))
 // CS Name: ::UnityEngine.Timeline::IntervalTree`1<T>*
 class CORDL_TYPE IntervalTree_1 : public ::System::Object {
 public:

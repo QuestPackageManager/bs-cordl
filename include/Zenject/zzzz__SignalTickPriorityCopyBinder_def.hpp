@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignalTickPriorityCopyBinder)
 namespace Zenject {
-class SignalCopyBinder;
+class SignalDeclarationBindInfo;
 }
 namespace Zenject {
-class SignalDeclarationBindInfo;
+class SignalCopyBinder;
 }
 // Forward declare root types
 namespace Zenject {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Zenject::SignalTickPriorityCopyBinder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10655))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10657))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10583))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10585))
 // CS Name: ::Zenject::SignalTickPriorityCopyBinder*
 class CORDL_TYPE SignalTickPriorityCopyBinder : public ::Zenject::SignalCopyBinder {
 public:
@@ -40,16 +40,16 @@ public:
 
   static inline ::Zenject::SignalTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method .ctor addr 0x2ec22e4 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2d5a564 size 0x24 virtual false final false
   inline void _ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method get_SignalBindInfo addr 0x2ec2840 size 0x8 virtual false final false
+  /// @brief Method get_SignalBindInfo addr 0x2d5aac0 size 0x8 virtual false final false
   inline ::Zenject::SignalDeclarationBindInfo* get_SignalBindInfo();
 
-  /// @brief Method set_SignalBindInfo addr 0x2ec2848 size 0x8 virtual false final false
+  /// @brief Method set_SignalBindInfo addr 0x2d5aac8 size 0x8 virtual false final false
   inline void set_SignalBindInfo(::Zenject::SignalDeclarationBindInfo* value);
 
-  /// @brief Method WithTickPriority addr 0x2ec2850 size 0x24 virtual false final false
+  /// @brief Method WithTickPriority addr 0x2d5aad0 size 0x24 virtual false final false
   inline ::Zenject::SignalCopyBinder* WithTickPriority(int32_t priority);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalTickPriorityCopyBinder", modifiers: "&&", def_value: None }]
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::SignalTickPriorityCopyBinder, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::SignalTickPriorityCopyBinder, ____SignalBindInfo_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::SignalTickPriorityCopyBinder);

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CustomNetworkConfig)
 namespace GlobalNamespace {
-class INetworkConfig;
+struct ServiceEnvironment;
 }
 namespace GlobalNamespace {
-struct ServiceEnvironment;
+class INetworkConfig;
 }
 namespace GlobalNamespace {
 class DnsEndPoint;
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomNetworkConfig);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12740)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12710))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12669)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12638))
 // CS Name: ::CustomNetworkConfig*
 class CORDL_TYPE CustomNetworkConfig : public ::System::Object {
 public:
@@ -147,42 +147,42 @@ public:
 
   constexpr void __set__serviceEnvironment_k__BackingField(::GlobalNamespace::ServiceEnvironment value);
 
-  /// @brief Method get_maxPartySize addr 0xe324e4 size 0x8 virtual true final true
+  /// @brief Method get_maxPartySize addr 0xdac4cc size 0x8 virtual true final true
   inline int32_t get_maxPartySize();
 
-  /// @brief Method get_discoveryPort addr 0xe324ec size 0x8 virtual true final true
+  /// @brief Method get_discoveryPort addr 0xdac4d4 size 0x8 virtual true final true
   inline int32_t get_discoveryPort();
 
-  /// @brief Method get_partyPort addr 0xe324f4 size 0x8 virtual true final true
+  /// @brief Method get_partyPort addr 0xdac4dc size 0x8 virtual true final true
   inline int32_t get_partyPort();
 
-  /// @brief Method get_multiplayerPort addr 0xe324fc size 0x8 virtual true final true
+  /// @brief Method get_multiplayerPort addr 0xdac4e4 size 0x8 virtual true final true
   inline int32_t get_multiplayerPort();
 
-  /// @brief Method get_masterServerEndPoint addr 0xe32504 size 0x8 virtual true final true
+  /// @brief Method get_masterServerEndPoint addr 0xdac4ec size 0x8 virtual true final true
   inline ::GlobalNamespace::DnsEndPoint* get_masterServerEndPoint();
 
-  /// @brief Method get_multiplayerStatusUrl addr 0xe3250c size 0x8 virtual true final true
+  /// @brief Method get_multiplayerStatusUrl addr 0xdac4f4 size 0x8 virtual true final true
   inline ::StringW get_multiplayerStatusUrl();
 
-  /// @brief Method get_quickPlaySetupUrl addr 0xe32514 size 0x48 virtual true final true
+  /// @brief Method get_quickPlaySetupUrl addr 0xdac4fc size 0x48 virtual true final true
   inline ::StringW get_quickPlaySetupUrl();
 
-  /// @brief Method get_graphUrl addr 0xe3255c size 0x8 virtual true final true
+  /// @brief Method get_graphUrl addr 0xdac544 size 0x8 virtual true final true
   inline ::StringW get_graphUrl();
 
-  /// @brief Method get_graphAccessToken addr 0xe32564 size 0x8 virtual true final true
+  /// @brief Method get_graphAccessToken addr 0xdac54c size 0x8 virtual true final true
   inline ::StringW get_graphAccessToken();
 
-  /// @brief Method get_forceGameLift addr 0xe3256c size 0x8 virtual true final true
+  /// @brief Method get_forceGameLift addr 0xdac554 size 0x8 virtual true final true
   inline bool get_forceGameLift();
 
-  /// @brief Method get_serviceEnvironment addr 0xe32574 size 0x8 virtual true final true
+  /// @brief Method get_serviceEnvironment addr 0xdac55c size 0x8 virtual true final true
   inline ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
 
   static inline ::GlobalNamespace::CustomNetworkConfig* New_ctor(::GlobalNamespace::INetworkConfig* fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift);
 
-  /// @brief Method .ctor addr 0xe3257c size 0x4a0 virtual false final false
+  /// @brief Method .ctor addr 0xdac564 size 0x4a0 virtual false final false
   inline void _ctor(::GlobalNamespace::INetworkConfig* fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift);
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomNetworkConfig", modifiers: "&&", def_value: None }]
@@ -233,6 +233,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CustomNetworkConfig, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____maxPartySize_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____discoveryPort_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____partyPort_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____multiplayerPort_k__BackingField) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____masterServerEndPoint_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____multiplayerStatusUrl_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____graphUrl_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____graphAccessToken_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____forceGameLift_k__BackingField) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____serviceEnvironment_k__BackingField) == 0x44, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CustomNetworkConfig);

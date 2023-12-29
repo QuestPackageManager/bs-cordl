@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISortedList_1)
 namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
+template <typename T> class LinkedListNode_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
+template <typename T> class LinkedList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14778))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14990))
 // CS Name: ::ISortedList`1<T>*
 class CORDL_TYPE ISortedList_1 {
 public:
@@ -40,9 +40,6 @@ public:
 
   /// @brief Method Insert addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Collections::Generic::LinkedListNode_1<T>* Insert(T newItem);
-
-  /// @brief Method Insert addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void Insert(::System::Collections::Generic::LinkedListNode_1<T>* newNode);
 
   /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void Remove(::System::Collections::Generic::LinkedListNode_1<T>* node);

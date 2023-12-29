@@ -2,7 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include <cstdint>
+#include <cmath>
 CORDL_MODULE_EXPORT(ITimeProvider)
 // Forward declare root types
 namespace GlobalNamespace {
@@ -15,15 +15,15 @@ MARK_REF_PTR_T(::GlobalNamespace::ITimeProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5385))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5476))
 // CS Name: ::ITimeProvider*
 class CORDL_TYPE ITimeProvider {
 public:
   // Declarations
-  __declspec(property(get = get_time)) int64_t time;
+  __declspec(property(get = get_time)) float_t time;
 
   /// @brief Method get_time addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline int64_t get_time();
+  inline float_t get_time();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITimeProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

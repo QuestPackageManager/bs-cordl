@@ -9,43 +9,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DragEventsProcessor)
 namespace UnityEngine::UIElements {
-class DefaultDragAndDropClient;
-}
-namespace UnityEngine::UIElements {
-class StartDragArgs;
-}
-namespace UnityEngine::UIElements {
-class DetachFromPanelEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerDownEvent;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class PointerUpEvent;
-}
-namespace UnityEngine {
-struct Vector3;
+struct __DragEventsProcessor__DragState;
 }
 namespace UnityEngine::UIElements {
 class AttachToPanelEvent;
 }
 namespace UnityEngine::UIElements {
-struct __DragEventsProcessor__DragState;
+class PointerMoveEvent;
+}
+namespace UnityEngine::UIElements {
+class StartDragArgs;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::UIElements {
+class DefaultDragAndDropClient;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class DetachFromPanelEvent;
 }
 namespace UnityEngine::UIElements {
 struct DragVisualMode;
 }
 namespace UnityEngine::UIElements {
-class PointerLeaveEvent;
+class PointerUpEvent;
 }
 namespace UnityEngine::UIElements {
 class PointerCancelEvent;
 }
 namespace UnityEngine::UIElements {
-class PointerMoveEvent;
+class PointerDownEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerLeaveEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -62,7 +62,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DragEventsProcessor);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6968))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7054))
 // CS Name: ::DragEventsProcessor::DragState
 struct CORDL_TYPE __DragEventsProcessor__DragState {
 public:
@@ -108,13 +108,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__DragEventsProcessor__DragState, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__DragEventsProcessor__DragState, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::DragEventsProcessor
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(6968))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6969))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(7054)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7055))
 // CS Name: ::UnityEngine.UIElements::DragEventsProcessor*
 class CORDL_TYPE DragEventsProcessor : public ::System::Object {
 public:
@@ -172,30 +174,30 @@ public:
 
   constexpr void __set_dragAndDropClient(::UnityEngine::UIElements::DefaultDragAndDropClient* value);
 
-  /// @brief Method get_supportsDragEvents addr 0x2e0d2f8 size 0x8 virtual true final false
+  /// @brief Method get_supportsDragEvents addr 0x2ca6f48 size 0x8 virtual true final false
   inline bool get_supportsDragEvents();
 
-  /// @brief Method get_useDragEvents addr 0x2e0b5f8 size 0x30 virtual false final false
+  /// @brief Method get_useDragEvents addr 0x2ca5248 size 0x30 virtual false final false
   inline bool get_useDragEvents();
 
-  /// @brief Method get_isEditorContext addr 0x2e0d300 size 0x120 virtual false final false
+  /// @brief Method get_isEditorContext addr 0x2ca6f50 size 0x120 virtual false final false
   inline bool get_isEditorContext();
 
   static inline ::UnityEngine::UIElements::DragEventsProcessor* New_ctor(::UnityEngine::UIElements::VisualElement* target);
 
-  /// @brief Method .ctor addr 0x2e09a38 size 0x13c virtual false final false
+  /// @brief Method .ctor addr 0x2ca3688 size 0x13c virtual false final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* target);
 
-  /// @brief Method RegisterCallbacksFromTarget addr 0x2e0d6cc size 0x4 virtual false final false
+  /// @brief Method RegisterCallbacksFromTarget addr 0x2ca731c size 0x4 virtual false final false
   inline void RegisterCallbacksFromTarget(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method RegisterCallbacksFromTarget addr 0x2e0d420 size 0x2ac virtual false final false
+  /// @brief Method RegisterCallbacksFromTarget addr 0x2ca7070 size 0x2ac virtual false final false
   inline void RegisterCallbacksFromTarget();
 
-  /// @brief Method UnregisterCallbacksFromTarget addr 0x2e0d6d0 size 0x8 virtual false final false
+  /// @brief Method UnregisterCallbacksFromTarget addr 0x2ca7320 size 0x8 virtual false final false
   inline void UnregisterCallbacksFromTarget(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method UnregisterCallbacksFromTarget addr 0x2e0d6d8 size 0x398 virtual false final false
+  /// @brief Method UnregisterCallbacksFromTarget addr 0x2ca7328 size 0x398 virtual false final false
   inline void UnregisterCallbacksFromTarget(bool unregisterPanelEvents);
 
   /// @brief Method CanStartDrag addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -213,19 +215,19 @@ public:
   /// @brief Method ClearDragAndDropUI addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void ClearDragAndDropUI();
 
-  /// @brief Method OnPointerDownEvent addr 0x2e0da70 size 0x94 virtual false final false
+  /// @brief Method OnPointerDownEvent addr 0x2ca76c0 size 0x94 virtual false final false
   inline void OnPointerDownEvent(::UnityEngine::UIElements::PointerDownEvent* evt);
 
-  /// @brief Method OnPointerUpEvent addr 0x2e0db04 size 0xc4 virtual false final false
+  /// @brief Method OnPointerUpEvent addr 0x2ca7754 size 0xc4 virtual false final false
   inline void OnPointerUpEvent(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method OnPointerLeaveEvent addr 0x2e0dbc8 size 0x44 virtual false final false
+  /// @brief Method OnPointerLeaveEvent addr 0x2ca7818 size 0x44 virtual false final false
   inline void OnPointerLeaveEvent(::UnityEngine::UIElements::PointerLeaveEvent* evt);
 
-  /// @brief Method OnPointerCancelEvent addr 0x2e0dc0c size 0x40 virtual false final false
+  /// @brief Method OnPointerCancelEvent addr 0x2ca785c size 0x40 virtual false final false
   inline void OnPointerCancelEvent(::UnityEngine::UIElements::PointerCancelEvent* evt);
 
-  /// @brief Method OnPointerMoveEvent addr 0x2e0dc4c size 0x244 virtual false final false
+  /// @brief Method OnPointerMoveEvent addr 0x2ca789c size 0x244 virtual false final false
   inline void OnPointerMoveEvent(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
   // Ctor Parameters [CppParam { name: "", ty: "DragEventsProcessor", modifiers: "&&", def_value: None }]
@@ -261,6 +263,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DragEventsProcessor, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DragEventsProcessor, ___m_IsRegistered) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DragEventsProcessor, ___m_DragState) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DragEventsProcessor, ___m_Start) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DragEventsProcessor, ___m_Target) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DragEventsProcessor, ___dragAndDropClient) == 0x30, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__DragEventsProcessor__DragState, "UnityEngine.UIElements", "DragEventsProcessor/DragState");

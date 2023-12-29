@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::MacroAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15759))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15709))
 // CS Name: ::JetBrains.Annotations::MacroAttribute*
 class CORDL_TYPE MacroAttribute : public ::System::Attribute {
 public:
@@ -55,27 +55,27 @@ public:
 
   constexpr void __set__Target_k__BackingField(::StringW value);
 
-  /// @brief Method get_Expression addr 0x2eba3bc size 0x8 virtual false final false
+  /// @brief Method get_Expression addr 0x2d5263c size 0x8 virtual false final false
   inline ::StringW get_Expression();
 
-  /// @brief Method set_Expression addr 0x2eba3c4 size 0x8 virtual false final false
+  /// @brief Method set_Expression addr 0x2d52644 size 0x8 virtual false final false
   inline void set_Expression(::StringW value);
 
-  /// @brief Method get_Editable addr 0x2eba3cc size 0x8 virtual false final false
+  /// @brief Method get_Editable addr 0x2d5264c size 0x8 virtual false final false
   inline int32_t get_Editable();
 
-  /// @brief Method set_Editable addr 0x2eba3d4 size 0x8 virtual false final false
+  /// @brief Method set_Editable addr 0x2d52654 size 0x8 virtual false final false
   inline void set_Editable(int32_t value);
 
-  /// @brief Method get_Target addr 0x2eba3dc size 0x8 virtual false final false
+  /// @brief Method get_Target addr 0x2d5265c size 0x8 virtual false final false
   inline ::StringW get_Target();
 
-  /// @brief Method set_Target addr 0x2eba3e4 size 0x8 virtual false final false
+  /// @brief Method set_Target addr 0x2d52664 size 0x8 virtual false final false
   inline void set_Target(::StringW value);
 
   static inline ::JetBrains::Annotations::MacroAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2eba3ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d5266c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MacroAttribute", modifiers: "&&", def_value: None }]
@@ -105,6 +105,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::MacroAttribute, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::MacroAttribute, ____Expression_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::MacroAttribute, ____Editable_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::MacroAttribute, ____Target_k__BackingField) == 0x20, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::MacroAttribute);

@@ -11,28 +11,28 @@ namespace System {
 class IFormattable;
 }
 namespace System {
-class IFormatProvider;
-}
-namespace System {
 class Object;
 }
-namespace UnityEngine {
-struct Vector3Int;
-}
-namespace UnityEngine {
-struct __BoundsInt__PositionEnumerator;
+namespace System {
+class IFormatProvider;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
+namespace UnityEngine {
+struct __BoundsInt__PositionEnumerator;
+}
+namespace UnityEngine {
+struct Vector3Int;
+}
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -48,8 +48,8 @@ MARK_VAL_T(::UnityEngine::__BoundsInt__PositionEnumerator);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10247))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10167))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10174))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10095))
 // CS Name: ::BoundsInt::PositionEnumerator
 struct CORDL_TYPE __BoundsInt__PositionEnumerator {
 public:
@@ -67,25 +67,25 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method .ctor addr 0x2ccbbe8 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x2b656e4 size 0x20 virtual false final false
   inline void _ctor(::UnityEngine::Vector3Int min, ::UnityEngine::Vector3Int max);
 
-  /// @brief Method GetEnumerator addr 0x2ccbc24 size 0x14 virtual false final false
+  /// @brief Method GetEnumerator addr 0x2b65720 size 0x14 virtual false final false
   inline ::UnityEngine::__BoundsInt__PositionEnumerator GetEnumerator();
 
-  /// @brief Method MoveNext addr 0x2ccbc38 size 0x7c virtual true final true
+  /// @brief Method MoveNext addr 0x2b65734 size 0x7c virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x2ccbc08 size 0x1c virtual true final true
+  /// @brief Method Reset addr 0x2b65704 size 0x1c virtual true final true
   inline void Reset();
 
-  /// @brief Method get_Current addr 0x2ccbcb4 size 0x10 virtual true final true
+  /// @brief Method get_Current addr 0x2b657b0 size 0x10 virtual true final true
   inline ::UnityEngine::Vector3Int get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2ccbcc4 size 0x64 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2b657c0 size 0x64 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2ccbd28 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2b65824 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
   // Ctor Parameters [CppParam { name: "_min", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None }, CppParam { name: "_max", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value:
@@ -113,13 +113,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::__BoundsInt__PositionEnumerator, 0x24>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::__BoundsInt__PositionEnumerator, _min) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__BoundsInt__PositionEnumerator, _max) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__BoundsInt__PositionEnumerator, _current) == 0x18, "Offset mismatch!");
+
 } // namespace UnityEngine
 // Type: UnityEngine::BoundsInt
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10247))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10168))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10174))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10096))
 // CS Name: ::UnityEngine::BoundsInt
 struct CORDL_TYPE BoundsInt {
 public:
@@ -152,76 +158,76 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method get_min addr 0x2ccb254 size 0x44 virtual false final false
+  /// @brief Method get_min addr 0x2b64d50 size 0x44 virtual false final false
   inline ::UnityEngine::Vector3Int get_min();
 
-  /// @brief Method set_min addr 0x2ccb3c4 size 0x64 virtual false final false
+  /// @brief Method set_min addr 0x2b64ec0 size 0x64 virtual false final false
   inline void set_min(::UnityEngine::Vector3Int value);
 
-  /// @brief Method get_max addr 0x2ccb4ac size 0x44 virtual false final false
+  /// @brief Method get_max addr 0x2b64fa8 size 0x44 virtual false final false
   inline ::UnityEngine::Vector3Int get_max();
 
-  /// @brief Method set_max addr 0x2ccb61c size 0x24 virtual false final false
+  /// @brief Method set_max addr 0x2b65118 size 0x24 virtual false final false
   inline void set_max(::UnityEngine::Vector3Int value);
 
-  /// @brief Method get_xMin addr 0x2ccb298 size 0x64 virtual false final false
+  /// @brief Method get_xMin addr 0x2b64d94 size 0x64 virtual false final false
   inline int32_t get_xMin();
 
-  /// @brief Method set_xMin addr 0x2ccb428 size 0x2c virtual false final false
+  /// @brief Method set_xMin addr 0x2b64f24 size 0x2c virtual false final false
   inline void set_xMin(int32_t value);
 
-  /// @brief Method get_yMin addr 0x2ccb2fc size 0x64 virtual false final false
+  /// @brief Method get_yMin addr 0x2b64df8 size 0x64 virtual false final false
   inline int32_t get_yMin();
 
-  /// @brief Method set_yMin addr 0x2ccb454 size 0x2c virtual false final false
+  /// @brief Method set_yMin addr 0x2b64f50 size 0x2c virtual false final false
   inline void set_yMin(int32_t value);
 
-  /// @brief Method get_zMin addr 0x2ccb360 size 0x64 virtual false final false
+  /// @brief Method get_zMin addr 0x2b64e5c size 0x64 virtual false final false
   inline int32_t get_zMin();
 
-  /// @brief Method set_zMin addr 0x2ccb480 size 0x2c virtual false final false
+  /// @brief Method set_zMin addr 0x2b64f7c size 0x2c virtual false final false
   inline void set_zMin(int32_t value);
 
-  /// @brief Method get_xMax addr 0x2ccb4f0 size 0x64 virtual false final false
+  /// @brief Method get_xMax addr 0x2b64fec size 0x64 virtual false final false
   inline int32_t get_xMax();
 
-  /// @brief Method set_xMax addr 0x2ccb640 size 0x10 virtual false final false
+  /// @brief Method set_xMax addr 0x2b6513c size 0x10 virtual false final false
   inline void set_xMax(int32_t value);
 
-  /// @brief Method get_yMax addr 0x2ccb554 size 0x64 virtual false final false
+  /// @brief Method get_yMax addr 0x2b65050 size 0x64 virtual false final false
   inline int32_t get_yMax();
 
-  /// @brief Method set_yMax addr 0x2ccb650 size 0x10 virtual false final false
+  /// @brief Method set_yMax addr 0x2b6514c size 0x10 virtual false final false
   inline void set_yMax(int32_t value);
 
-  /// @brief Method get_zMax addr 0x2ccb5b8 size 0x64 virtual false final false
+  /// @brief Method get_zMax addr 0x2b650b4 size 0x64 virtual false final false
   inline int32_t get_zMax();
 
-  /// @brief Method set_zMax addr 0x2ccb660 size 0x10 virtual false final false
+  /// @brief Method set_zMax addr 0x2b6515c size 0x10 virtual false final false
   inline void set_zMax(int32_t value);
 
-  /// @brief Method get_size addr 0x2ccb670 size 0x10 virtual false final false
+  /// @brief Method get_size addr 0x2b6516c size 0x10 virtual false final false
   inline ::UnityEngine::Vector3Int get_size();
 
-  /// @brief Method .ctor addr 0x2ccb680 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x2b6517c size 0x14 virtual false final false
   inline void _ctor(::UnityEngine::Vector3Int position, ::UnityEngine::Vector3Int size);
 
-  /// @brief Method ToString addr 0x2ccb694 size 0xc virtual true final false
+  /// @brief Method ToString addr 0x2b65190 size 0xc virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString addr 0x2ccb6a0 size 0x154 virtual true final true
+  /// @brief Method ToString addr 0x2b6519c size 0x154 virtual true final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method Equals addr 0x2ccb9b8 size 0x90 virtual true final false
+  /// @brief Method Equals addr 0x2b654b4 size 0x90 virtual true final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals addr 0x2ccba48 size 0x78 virtual true final true
+  /// @brief Method Equals addr 0x2b65544 size 0x78 virtual true final true
   inline bool Equals(::UnityEngine::BoundsInt other);
 
-  /// @brief Method GetHashCode addr 0x2ccbac0 size 0xd4 virtual true final false
+  /// @brief Method GetHashCode addr 0x2b655bc size 0xd4 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_allPositionsWithin addr 0x2ccbb94 size 0x54 virtual false final false
+  /// @brief Method get_allPositionsWithin addr 0x2b65690 size 0x54 virtual false final false
   inline ::UnityEngine::__BoundsInt__PositionEnumerator get_allPositionsWithin();
 
   // Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None }, CppParam { name: "m_Size", ty: "::UnityEngine::Vector3Int", modifiers: "",
@@ -245,6 +251,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::BoundsInt, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::BoundsInt, m_Position) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::BoundsInt, m_Size) == 0xc, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::BoundsInt, "UnityEngine", "BoundsInt");

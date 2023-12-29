@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NamedPreset);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4440))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4461))
 // CS Name: ::NamedPreset*
 class CORDL_TYPE NamedPreset : public ::System::Object {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __set__presetNameLocalizationKey(::StringW value);
 
-  /// @brief Method get_presetNameLocalizationKey addr 0x23503e0 size 0x8 virtual false final false
+  /// @brief Method get_presetNameLocalizationKey addr 0x2204478 size 0x8 virtual false final false
   inline ::StringW get_presetNameLocalizationKey();
 
   static inline ::GlobalNamespace::NamedPreset* New_ctor();
 
-  /// @brief Method .ctor addr 0x234e704 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2204470 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NamedPreset", modifiers: "&&", def_value: None }]
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NamedPreset, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NamedPreset, ____presetNameLocalizationKey) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NamedPreset);

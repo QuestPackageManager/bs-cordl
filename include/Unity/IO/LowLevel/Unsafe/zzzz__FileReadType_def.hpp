@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::FileReadType);
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9989))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9917))
 // CS Name: ::Unity.IO.LowLevel.Unsafe::FileReadType
 struct CORDL_TYPE FileReadType {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::IO::LowLevel::Unsafe::FileReadType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::FileReadType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Unity::IO::LowLevel::Unsafe
 DEFINE_IL2CPP_ARG_TYPE(::Unity::IO::LowLevel::Unsafe::FileReadType, "Unity.IO.LowLevel.Unsafe", "FileReadType");

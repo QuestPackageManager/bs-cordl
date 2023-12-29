@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(CIELabColor)
-namespace UnityEngine::ProBuilder {
-class XYZColor;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine::ProBuilder {
+class XYZColor;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::CIELabColor);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12115))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12043))
 // CS Name: ::UnityEngine.ProBuilder::CIELabColor*
 class CORDL_TYPE CIELabColor : public ::System::Object {
 public:
@@ -57,16 +57,16 @@ public:
 
   static inline ::UnityEngine::ProBuilder::CIELabColor* New_ctor(float_t L, float_t a, float_t b);
 
-  /// @brief Method .ctor addr 0x2b3da4c size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x29bbcf8 size 0x3c virtual false final false
   inline void _ctor(float_t L, float_t a, float_t b);
 
-  /// @brief Method FromXYZ addr 0x2b3da88 size 0x54 virtual false final false
+  /// @brief Method FromXYZ addr 0x29bbd34 size 0x54 virtual false final false
   static inline ::UnityEngine::ProBuilder::CIELabColor* FromXYZ(::UnityEngine::ProBuilder::XYZColor* xyz);
 
-  /// @brief Method FromRGB addr 0x2b3dc40 size 0x8c virtual false final false
+  /// @brief Method FromRGB addr 0x29bbeec size 0x8c virtual false final false
   static inline ::UnityEngine::ProBuilder::CIELabColor* FromRGB(::UnityEngine::Color col);
 
-  /// @brief Method ToString addr 0x2b3dccc size 0xc4 virtual true final false
+  /// @brief Method ToString addr 0x29bbf78 size 0xc4 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "CIELabColor", modifiers: "&&", def_value: None }]
@@ -96,6 +96,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::CIELabColor, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::CIELabColor, ___L) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::CIELabColor, ___a) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::CIELabColor, ___b) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::CIELabColor);

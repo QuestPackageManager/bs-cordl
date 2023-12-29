@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SaberTypeExtensions)
 namespace GlobalNamespace {
+struct SaberType;
+}
+namespace GlobalNamespace {
 struct ColorType;
 }
 namespace UnityEngine::XR {
 struct XRNode;
-}
-namespace GlobalNamespace {
-struct SaberType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,22 +23,22 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberTypeExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15037))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15182))
 // CS Name: ::SaberTypeExtensions*
 class CORDL_TYPE SaberTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MatchesColorType addr 0x12a3f90 size 0x28 virtual false final false
+  /// @brief Method MatchesColorType addr 0x1231e94 size 0x28 virtual false final false
   static inline bool MatchesColorType(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::ColorType colorType);
 
-  /// @brief Method Node addr 0x12a6714 size 0x10 virtual false final false
+  /// @brief Method Node addr 0x1234618 size 0x10 virtual false final false
   static inline ::UnityEngine::XR::XRNode Node(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method MainSaber addr 0x12a6724 size 0xc virtual false final false
+  /// @brief Method MainSaber addr 0x1234628 size 0xc virtual false final false
   static inline ::GlobalNamespace::SaberType MainSaber(bool leftHanded);
 
-  /// @brief Method ToSaberType addr 0x12a6730 size 0x88 virtual false final false
+  /// @brief Method ToSaberType addr 0x1234634 size 0x88 virtual false final false
   static inline ::GlobalNamespace::SaberType ToSaberType(::GlobalNamespace::ColorType colorType);
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberTypeExtensions", modifiers: "&&", def_value: None }]

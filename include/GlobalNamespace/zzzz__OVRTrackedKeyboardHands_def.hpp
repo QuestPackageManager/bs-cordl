@@ -11,32 +11,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTrackedKeyboardHands)
-namespace UnityEngine {
-class Material;
-}
-namespace GlobalNamespace {
-struct __OVRTrackedKeyboardHands__HandBoneMapping;
-}
 namespace GlobalNamespace {
 class OVRTrackedKeyboard;
+}
+namespace GlobalNamespace {
+class OVRHand;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class OVRCameraRig;
-}
-namespace GlobalNamespace {
-class OVRHand;
-}
-namespace GlobalNamespace {
-struct __OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent;
-}
-namespace GlobalNamespace {
 class OVRSkeleton;
-}
-namespace GlobalNamespace {
-struct __OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent;
 }
 namespace UnityEngine {
 class Transform;
@@ -44,14 +29,29 @@ class Transform;
 namespace UnityEngine {
 class SkinnedMeshRenderer;
 }
+namespace UnityEngine {
+class Material;
+}
 namespace GlobalNamespace {
 class OVRMeshRenderer;
+}
+namespace GlobalNamespace {
+struct __OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent;
+}
+namespace GlobalNamespace {
+class OVRCameraRig;
+}
+namespace GlobalNamespace {
+class OVRSkeletonRenderer;
 }
 namespace GlobalNamespace {
 struct __OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent;
 }
 namespace GlobalNamespace {
-class OVRSkeletonRenderer;
+struct __OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent;
+}
+namespace GlobalNamespace {
+struct __OVRTrackedKeyboardHands__HandBoneMapping;
 }
 namespace GlobalNamespace {
 struct __OVRSkeleton__BoneId;
@@ -74,8 +74,8 @@ MARK_VAL_T(::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyboardHandsVis
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8169))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8039))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8944))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8855))
 // CS Name: ::OVRTrackedKeyboardHands::HandBoneMapping
 struct CORDL_TYPE __OVRTrackedKeyboardHands__HandBoneMapping {
 public:
@@ -122,13 +122,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, LeftHandTransform) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, LeftPresenceTransform) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, RightHandTransform) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, RightPresenceTransform) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, BoneName) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, HandPresenceLeftBoneName) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, HandPresenceRightBoneName) == 0x30, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::TrackedKeyboardHandsVisibilityChangedEvent
 // SizeInfo { instance_size: 2, native_size: 8, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8040))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8856))
 // CS Name: ::OVRTrackedKeyboardHands::TrackedKeyboardHandsVisibilityChangedEvent
 struct CORDL_TYPE __OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent {
 public:
@@ -154,13 +168,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent, 0x2>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent, leftVisible) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent, rightVisible) == 0x1, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OVRTrackedKeyboardHands
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 212, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4776 }), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(8040))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8041)) CS Name: ::OVRTrackedKeyboardHands*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(2446)), TypeDefinitionIndex(TypeDefinitionIndex(8856)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 4676 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8857)) CS Name: ::OVRTrackedKeyboardHands*
 class CORDL_TYPE OVRTrackedKeyboardHands : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -448,63 +466,63 @@ public:
 
   static inline float_t getStaticF_minimumModelHandsDistance_();
 
-  /// @brief Method get_RightHandOverKeyboard addr 0x2796e5c size 0x8 virtual false final false
+  /// @brief Method get_RightHandOverKeyboard addr 0x262c9dc size 0x8 virtual false final false
   inline bool get_RightHandOverKeyboard();
 
-  /// @brief Method set_RightHandOverKeyboard addr 0x2796e64 size 0xc virtual false final false
+  /// @brief Method set_RightHandOverKeyboard addr 0x262c9e4 size 0xc virtual false final false
   inline void set_RightHandOverKeyboard(bool value);
 
-  /// @brief Method get_LeftHandOverKeyboard addr 0x2796e70 size 0x8 virtual false final false
+  /// @brief Method get_LeftHandOverKeyboard addr 0x262c9f0 size 0x8 virtual false final false
   inline bool get_LeftHandOverKeyboard();
 
-  /// @brief Method set_LeftHandOverKeyboard addr 0x2796e78 size 0xc virtual false final false
+  /// @brief Method set_LeftHandOverKeyboard addr 0x262c9f8 size 0xc virtual false final false
   inline void set_LeftHandOverKeyboard(bool value);
 
-  /// @brief Method Awake addr 0x2796e84 size 0x1e4 virtual false final false
+  /// @brief Method Awake addr 0x262ca04 size 0x1e4 virtual false final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x2797068 size 0x304 virtual false final false
+  /// @brief Method Start addr 0x262cbe8 size 0x290 virtual false final false
   inline void Start();
 
-  /// @brief Method get_AreControllersActive addr 0x27974dc size 0x3c virtual false final false
+  /// @brief Method get_AreControllersActive addr 0x262cfe8 size 0x3c virtual false final false
   inline bool get_AreControllersActive();
 
-  /// @brief Method LateUpdate addr 0x2797518 size 0x7dc virtual false final false
+  /// @brief Method LateUpdate addr 0x262d024 size 0x7e0 virtual false final false
   inline void LateUpdate();
 
-  /// @brief Method ShouldEnablePassthrough addr 0x27980b0 size 0x6c virtual false final false
+  /// @brief Method ShouldEnablePassthrough addr 0x262dbcc size 0x6c virtual false final false
   inline bool ShouldEnablePassthrough(float_t distance);
 
-  /// @brief Method ShouldEnableModel addr 0x279811c size 0x6c virtual false final false
+  /// @brief Method ShouldEnableModel addr 0x262dc38 size 0x6c virtual false final false
   inline bool ShouldEnableModel(float_t distance);
 
-  /// @brief Method GetHandDistanceToKeyboard addr 0x2797de0 size 0x2d0 virtual false final false
+  /// @brief Method GetHandDistanceToKeyboard addr 0x262d8f0 size 0x2dc virtual false final false
   inline float_t GetHandDistanceToKeyboard(::GlobalNamespace::OVRSkeleton* handSkeleton);
 
-  /// @brief Method ComputeOpacity addr 0x2798390 size 0x24 virtual false final false
+  /// @brief Method ComputeOpacity addr 0x262deac size 0x24 virtual false final false
   inline float_t ComputeOpacity(float_t distance, float_t innerThreshold, float_t outerThreshold);
 
-  /// @brief Method SetHandModelsEnabled addr 0x2798188 size 0x208 virtual false final false
+  /// @brief Method SetHandModelsEnabled addr 0x262dca4 size 0x208 virtual false final false
   inline void SetHandModelsEnabled(bool enableLeftModel, bool enableRightModel);
 
-  /// @brief Method RetargetHandTrackingToHandPresence addr 0x279736c size 0x170 virtual false final false
+  /// @brief Method RetargetHandTrackingToHandPresence addr 0x262ce78 size 0x170 virtual false final false
   inline void RetargetHandTrackingToHandPresence();
 
-  /// @brief Method StopHandPresence addr 0x27983b4 size 0x30 virtual false final false
+  /// @brief Method StopHandPresence addr 0x262ded0 size 0x30 virtual false final false
   inline void StopHandPresence();
 
-  /// @brief Method DisableHandObjects addr 0x2797cf4 size 0xec virtual false final false
+  /// @brief Method DisableHandObjects addr 0x262d804 size 0xec virtual false final false
   inline void DisableHandObjects();
 
-  /// @brief Method TrackedKeyboardActiveUpdated addr 0x27983e4 size 0xc virtual false final false
+  /// @brief Method TrackedKeyboardActiveUpdated addr 0x262df00 size 0xc virtual false final false
   inline void TrackedKeyboardActiveUpdated(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent e);
 
-  /// @brief Method TrackedKeyboardVisibilityChanged addr 0x27983f0 size 0x1b0 virtual false final false
+  /// @brief Method TrackedKeyboardVisibilityChanged addr 0x262df0c size 0x1b0 virtual false final false
   inline void TrackedKeyboardVisibilityChanged(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent e);
 
   static inline ::GlobalNamespace::OVRTrackedKeyboardHands* New_ctor();
 
-  /// @brief Method .ctor addr 0x27985a0 size 0x750 virtual false final false
+  /// @brief Method .ctor addr 0x262e0bc size 0x750 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardHands", modifiers: "&&", def_value: None }]
@@ -615,6 +633,60 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRTrackedKeyboardHands, 0xd8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___LeftHandPresence) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___RightHandPresence) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___handPresenceInitialized_) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___leftHandRoot_) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___rightHandRoot_) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___KeyboardTracker) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___cameraRig_) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___leftHand_) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___leftHandSkeleton_) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___leftHandSkeletonRenderer_) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___leftHandSkeletonRendererGO_) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___leftHandSkinnedMeshRenderer_) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___leftHandMeshRenderer_) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___rightHand_) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___rightHandSkeleton_) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___rightHandSkeletonRenderer_) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___rightHandSkeletonRendererGO_) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___rightHandMeshRenderer_) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___rightHandSkinnedMeshRenderer_) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ____RightHandOverKeyboard_k__BackingField) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ____LeftHandOverKeyboard_k__BackingField) == 0xb1, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___lastVisibilityEvent_) == 0xb2, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___boneMappings_) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___HandsMaterial) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___keyboardPositionID_) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___keyboardRotationID_) == 0xcc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands, ___keyboardScaleID_) == 0xd0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRTrackedKeyboardHands);

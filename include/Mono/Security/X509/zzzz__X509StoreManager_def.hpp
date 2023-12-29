@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509StoreManager);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13759))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14030))
 // CS Name: ::Mono.Security.X509::X509StoreManager*
 class CORDL_TYPE X509StoreManager : public ::System::Object {
 public:
@@ -55,19 +55,19 @@ public:
 
   static inline ::Mono::Security::X509::X509Stores* getStaticF__machineStore();
 
-  /// @brief Method get_CurrentUserPath addr 0x23fddbc size 0x100 virtual false final false
+  /// @brief Method get_CurrentUserPath addr 0x22a3ab0 size 0x100 virtual false final false
   static inline ::StringW get_CurrentUserPath();
 
-  /// @brief Method get_LocalMachinePath addr 0x23fdebc size 0xe8 virtual false final false
+  /// @brief Method get_LocalMachinePath addr 0x22a3bb0 size 0xe8 virtual false final false
   static inline ::StringW get_LocalMachinePath();
 
-  /// @brief Method get_CurrentUser addr 0x23fdfa4 size 0xa0 virtual false final false
+  /// @brief Method get_CurrentUser addr 0x22a3c98 size 0xa0 virtual false final false
   static inline ::Mono::Security::X509::X509Stores* get_CurrentUser();
 
-  /// @brief Method get_LocalMachine addr 0x23fe074 size 0xa0 virtual false final false
+  /// @brief Method get_LocalMachine addr 0x22a3d68 size 0xa0 virtual false final false
   static inline ::Mono::Security::X509::X509Stores* get_LocalMachine();
 
-  /// @brief Method get_TrustedRootCertificates addr 0x23fbf74 size 0xcc virtual false final false
+  /// @brief Method get_TrustedRootCertificates addr 0x22a1c68 size 0xcc virtual false final false
   static inline ::Mono::Security::X509::X509CertificateCollection* get_TrustedRootCertificates();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509StoreManager", modifiers: "&&", def_value: None }]

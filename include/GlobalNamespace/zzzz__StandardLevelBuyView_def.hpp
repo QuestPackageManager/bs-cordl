@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(StandardLevelBuyView)
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class LevelBar;
 }
 namespace UnityEngine::UI {
 class Button;
 }
 namespace GlobalNamespace {
-class LevelBar;
+class IPreviewBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelBuyView);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5813))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5906))
 // CS Name: ::StandardLevelBuyView*
 class CORDL_TYPE StandardLevelBuyView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -49,15 +49,15 @@ public:
 
   constexpr void __set__buyButton(::UnityEngine::UI::Button* value);
 
-  /// @brief Method get_buyButton addr 0x22e9aa8 size 0x8 virtual false final false
+  /// @brief Method get_buyButton addr 0x21a48ac size 0x8 virtual false final false
   inline ::UnityEngine::UI::Button* get_buyButton();
 
-  /// @brief Method SetContent addr 0x22e9ab0 size 0x1c virtual false final false
+  /// @brief Method SetContent addr 0x21a48b4 size 0x20 virtual false final false
   inline void SetContent(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
 
   static inline ::GlobalNamespace::StandardLevelBuyView* New_ctor();
 
-  /// @brief Method .ctor addr 0x22e9acc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21a48d4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelBuyView", modifiers: "&&", def_value: None }]
@@ -84,6 +84,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelBuyView, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelBuyView, ____levelBar) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardLevelBuyView, ____buyButton) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandardLevelBuyView);

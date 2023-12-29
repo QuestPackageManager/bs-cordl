@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRScreenshotPropertyFilenames);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8609))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9378))
 // CS Name: ::OVR.OpenVR::EVRScreenshotPropertyFilenames
 struct CORDL_TYPE EVRScreenshotPropertyFilenames {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRScreenshotPropertyFilenames, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::EVRScreenshotPropertyFilenames, value__) == 0x0, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRScreenshotPropertyFilenames, "OVR.OpenVR", "EVRScreenshotPropertyFilenames");

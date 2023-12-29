@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CustomizableEnvironmentCommandLineArgsProviderSO)
 namespace GlobalNamespace {
-class EnvironmentCommandLineArgsProvider;
+class ICommandLineArgsProvider;
 }
 namespace GlobalNamespace {
-class ICommandLineArgsProvider;
+class EnvironmentCommandLineArgsProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,11 +19,11 @@ class CustomizableEnvironmentCommandLineArgsProviderSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO);
 // Type: ::CustomizableEnvironmentCommandLineArgsProviderSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5952))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6034))
 // CS Name: ::CustomizableEnvironmentCommandLineArgsProviderSO*
 class CORDL_TYPE CustomizableEnvironmentCommandLineArgsProviderSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -37,9 +37,9 @@ public:
   /// @brief Field _customCommandLineArgs, offset 0x20, size 0x8
   __declspec(property(get = __get__customCommandLineArgs, put = __set__customCommandLineArgs))::StringW _customCommandLineArgs;
 
-  /// @brief Field _environmentCommandLineArgsProvider, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__environmentCommandLineArgsProvider,
-                             put = setStaticF__environmentCommandLineArgsProvider))::GlobalNamespace::EnvironmentCommandLineArgsProvider* _environmentCommandLineArgsProvider;
+  /// @brief Field _environmentCommandLineArgsProvider, offset 0x28, size 0x8
+  __declspec(property(get = __get__environmentCommandLineArgsProvider,
+                      put = __set__environmentCommandLineArgsProvider))::GlobalNamespace::EnvironmentCommandLineArgsProvider* _environmentCommandLineArgsProvider;
 
   /// @brief Convert operator to "::GlobalNamespace::ICommandLineArgsProvider"
   constexpr operator ::GlobalNamespace::ICommandLineArgsProvider*() noexcept;
@@ -62,16 +62,18 @@ public:
 
   constexpr void __set__customCommandLineArgs(::StringW value);
 
-  static inline void setStaticF__environmentCommandLineArgsProvider(::GlobalNamespace::EnvironmentCommandLineArgsProvider* value);
+  constexpr ::GlobalNamespace::EnvironmentCommandLineArgsProvider*& __get__environmentCommandLineArgsProvider();
 
-  static inline ::GlobalNamespace::EnvironmentCommandLineArgsProvider* getStaticF__environmentCommandLineArgsProvider();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentCommandLineArgsProvider*> const& __get__environmentCommandLineArgsProvider() const;
 
-  /// @brief Method GetCommandLineArgs addr 0x2304f68 size 0x174 virtual true final true
+  constexpr void __set__environmentCommandLineArgsProvider(::GlobalNamespace::EnvironmentCommandLineArgsProvider* value);
+
+  /// @brief Method GetCommandLineArgs addr 0x21ba9e8 size 0x148 virtual true final true
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetCommandLineArgs();
 
   static inline ::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x23050e4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21bab38 size 0x68 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomizableEnvironmentCommandLineArgsProviderSO", modifiers: "&&", def_value: None }]
@@ -97,10 +99,21 @@ public:
   /// @brief Field _customCommandLineArgs, offset: 0x20, size: 0x8, def value: None
   ::StringW ____customCommandLineArgs;
 
+  /// @brief Field _environmentCommandLineArgsProvider, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::EnvironmentCommandLineArgsProvider* ____environmentCommandLineArgsProvider;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO, ____useCustomCommandLineArgs) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO, ____useEnvironmentCommandLineArgs) == 0x19, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO, ____customCommandLineArgs) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO, ____environmentCommandLineArgsProvider) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO);

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::ListViewReorderMode);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7068))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7154))
 // CS Name: ::UnityEngine.UIElements::ListViewReorderMode
 struct CORDL_TYPE ListViewReorderMode {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ListViewReorderMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ListViewReorderMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ListViewReorderMode, "UnityEngine.UIElements", "ListViewReorderMode");

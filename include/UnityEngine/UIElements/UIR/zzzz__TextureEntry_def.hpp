@@ -21,8 +21,8 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::TextureEntry);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7339))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7398))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7425))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7484))
 // CS Name: ::UnityEngine.UIElements.UIR::TextureEntry
 struct CORDL_TYPE TextureEntry {
 public:
@@ -51,6 +51,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::TextureEntry, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureEntry, source) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureEntry, actual) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::TextureEntry, replaced) == 0xc, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::TextureEntry, "UnityEngine.UIElements.UIR", "TextureEntry");

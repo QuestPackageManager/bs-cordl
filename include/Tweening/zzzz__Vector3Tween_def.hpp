@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::Tweening::Vector3Tween);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16099), inst: 412 }), TypeDefinitionIndex(TypeDefinitionIndex(16099)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16095)) CS Name: ::Tweening::Vector3Tween*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(15953)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15953), inst:
+// 407 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15949)) CS Name: ::Tweening::Vector3Tween*
 class CORDL_TYPE Vector3Tween : public ::Tweening::Tween_1<::UnityEngine::Vector3> {
 public:
   // Declarations
@@ -46,17 +46,17 @@ public:
 
   static inline ::Tweening::Vector3Tween* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a0deb8 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2890170 size 0x48 virtual false final false
   inline void _ctor();
 
   static inline ::Tweening::Vector3Tween* New_ctor(::UnityEngine::Vector3 fromValue, ::UnityEngine::Vector3 toValue, ::System::Action_1<::UnityEngine::Vector3>* onUpdate, float_t duration,
                                                    ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method .ctor addr 0x2a0df00 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x28901b8 size 0xc0 virtual false final false
   inline void _ctor(::UnityEngine::Vector3 fromValue, ::UnityEngine::Vector3 toValue, ::System::Action_1<::UnityEngine::Vector3>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType,
                     float_t delay);
 
-  /// @brief Method GetValue addr 0x2a0dfc0 size 0x50 virtual true final false
+  /// @brief Method GetValue addr 0x2890278 size 0x50 virtual true final false
   inline ::UnityEngine::Vector3 GetValue(float_t t);
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector3Tween", modifiers: "&&", def_value: None }]

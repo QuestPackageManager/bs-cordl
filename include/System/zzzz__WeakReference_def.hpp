@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(WeakReference)
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System {
 class Object;
 }
@@ -16,6 +13,9 @@ class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 // Forward declare root types
 namespace System {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::WeakReference);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2642))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3332)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2640))
 // CS Name: ::System::WeakReference*
 class CORDL_TYPE WeakReference : public ::System::Object {
 public:
@@ -60,45 +60,45 @@ public:
 
   constexpr void __set_gcHandle(::System::Runtime::InteropServices::GCHandle value);
 
-  /// @brief Method AllocateHandle addr 0x2609100 size 0x28 virtual false final false
+  /// @brief Method AllocateHandle addr 0x24ae178 size 0x28 virtual false final false
   inline void AllocateHandle(::System::Object* target);
 
   static inline ::System::WeakReference* New_ctor();
 
-  /// @brief Method .ctor addr 0x2609128 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24ae1a0 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::System::WeakReference* New_ctor(::System::Object* target);
 
-  /// @brief Method .ctor addr 0x2609130 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x24ae1a8 size 0x30 virtual false final false
   inline void _ctor(::System::Object* target);
 
   static inline ::System::WeakReference* New_ctor(::System::Object* target, bool trackResurrection);
 
-  /// @brief Method .ctor addr 0x2609160 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x24ae1d8 size 0x34 virtual false final false
   inline void _ctor(::System::Object* target, bool trackResurrection);
 
   static inline ::System::WeakReference* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x2609194 size 0x138 virtual false final false
+  /// @brief Method .ctor addr 0x24ae20c size 0x138 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_IsAlive addr 0x26092cc size 0x20 virtual true final false
+  /// @brief Method get_IsAlive addr 0x24ae344 size 0x20 virtual true final false
   inline bool get_IsAlive();
 
-  /// @brief Method get_Target addr 0x26092ec size 0x34 virtual true final false
+  /// @brief Method get_Target addr 0x24ae364 size 0x34 virtual true final false
   inline ::System::Object* get_Target();
 
-  /// @brief Method set_Target addr 0x2609320 size 0xc virtual true final false
+  /// @brief Method set_Target addr 0x24ae398 size 0xc virtual true final false
   inline void set_Target(::System::Object* value);
 
-  /// @brief Method get_TrackResurrection addr 0x260932c size 0x8 virtual true final false
+  /// @brief Method get_TrackResurrection addr 0x24ae3a4 size 0x8 virtual true final false
   inline bool get_TrackResurrection();
 
-  /// @brief Method Finalize addr 0x2609334 size 0x9c virtual true final false
+  /// @brief Method Finalize addr 0x24ae3ac size 0x9c virtual true final false
   inline void Finalize();
 
-  /// @brief Method GetObjectData addr 0x26093d0 size 0x184 virtual true final false
+  /// @brief Method GetObjectData addr 0x24ae448 size 0x184 virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "WeakReference", modifiers: "&&", def_value: None }]
@@ -125,6 +125,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::WeakReference, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::WeakReference, ___isLongReference) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::WeakReference, ___gcHandle) == 0x18, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::WeakReference);

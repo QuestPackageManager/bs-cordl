@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CrossAppDomainChannel)
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
+}
 namespace System {
 class Object;
 }
@@ -14,13 +17,10 @@ namespace System::Runtime::Remoting::Channels {
 class IChannelSender;
 }
 namespace System::Runtime::Remoting::Channels {
-class IChannelReceiver;
-}
-namespace System::Runtime::Remoting::Channels {
 class IChannel;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+namespace System::Runtime::Remoting::Channels {
+class IChannelReceiver;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::CrossAppDomainChannel);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3116))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3115))
 // CS Name: ::System.Runtime.Remoting.Channels::CrossAppDomainChannel*
 class CORDL_TYPE CrossAppDomainChannel : public ::System::Object {
 public:
@@ -60,27 +60,27 @@ public:
 
   static inline ::System::Object* getStaticF_s_lock();
 
-  /// @brief Method RegisterCrossAppDomainChannel addr 0x24a2ba8 size 0x144 virtual false final false
+  /// @brief Method RegisterCrossAppDomainChannel addr 0x234a0b4 size 0x144 virtual false final false
   static inline void RegisterCrossAppDomainChannel();
 
-  /// @brief Method get_ChannelName addr 0x24a2cf4 size 0x40 virtual true final false
+  /// @brief Method get_ChannelName addr 0x234a200 size 0x40 virtual true final false
   inline ::StringW get_ChannelName();
 
-  /// @brief Method get_ChannelPriority addr 0x24a2d34 size 0x8 virtual true final false
+  /// @brief Method get_ChannelPriority addr 0x234a240 size 0x8 virtual true final false
   inline int32_t get_ChannelPriority();
 
-  /// @brief Method get_ChannelData addr 0x24a2d3c size 0x6c virtual true final false
+  /// @brief Method get_ChannelData addr 0x234a248 size 0x6c virtual true final false
   inline ::System::Object* get_ChannelData();
 
-  /// @brief Method StartListening addr 0x24a2da8 size 0x4 virtual true final false
+  /// @brief Method StartListening addr 0x234a2b4 size 0x4 virtual true final false
   inline void StartListening(::System::Object* data);
 
-  /// @brief Method CreateMessageSink addr 0x24a2dac size 0x180 virtual true final false
+  /// @brief Method CreateMessageSink addr 0x234a2b8 size 0x180 virtual true final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::StringW url, ::System::Object* data, ByRef<::StringW> uri);
 
   static inline ::System::Runtime::Remoting::Channels::CrossAppDomainChannel* New_ctor();
 
-  /// @brief Method .ctor addr 0x24a2cec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x234a1f8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrossAppDomainChannel", modifiers: "&&", def_value: None }]

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
 CORDL_MODULE_EXPORT(GradientTransitionSO)
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class ColorSO;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GradientTransitionSO);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5443))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5452))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5549))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5558))
 // CS Name: ::GradientTransitionSO*
 class CORDL_TYPE GradientTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
 public:
@@ -158,45 +158,45 @@ public:
 
   constexpr void __set__selectedAndHighlightedColor2(::GlobalNamespace::ColorSO* value);
 
-  /// @brief Method get_normalColor1 addr 0x227e0ac size 0xc virtual false final false
+  /// @brief Method get_normalColor1 addr 0x213b9bc size 0xc virtual false final false
   inline ::UnityEngine::Color get_normalColor1();
 
-  /// @brief Method get_normalColor2 addr 0x227e0b8 size 0xc virtual false final false
+  /// @brief Method get_normalColor2 addr 0x213b9c8 size 0xc virtual false final false
   inline ::UnityEngine::Color get_normalColor2();
 
-  /// @brief Method get_highlightColor1 addr 0x227e350 size 0xc virtual false final false
+  /// @brief Method get_highlightColor1 addr 0x213bc60 size 0xc virtual false final false
   inline ::UnityEngine::Color get_highlightColor1();
 
-  /// @brief Method get_highlightColor2 addr 0x227e35c size 0xc virtual false final false
+  /// @brief Method get_highlightColor2 addr 0x213bc6c size 0xc virtual false final false
   inline ::UnityEngine::Color get_highlightColor2();
 
-  /// @brief Method get_pressedColor1 addr 0x227e3e8 size 0xc virtual false final false
+  /// @brief Method get_pressedColor1 addr 0x213bcf8 size 0xc virtual false final false
   inline ::UnityEngine::Color get_pressedColor1();
 
-  /// @brief Method get_pressedColor2 addr 0x227e3f4 size 0xc virtual false final false
+  /// @brief Method get_pressedColor2 addr 0x213bd04 size 0xc virtual false final false
   inline ::UnityEngine::Color get_pressedColor2();
 
-  /// @brief Method get_disabledColor1 addr 0x227e480 size 0xc virtual false final false
+  /// @brief Method get_disabledColor1 addr 0x213bd90 size 0xc virtual false final false
   inline ::UnityEngine::Color get_disabledColor1();
 
-  /// @brief Method get_disabledColor2 addr 0x227e48c size 0xc virtual false final false
+  /// @brief Method get_disabledColor2 addr 0x213bd9c size 0xc virtual false final false
   inline ::UnityEngine::Color get_disabledColor2();
 
-  /// @brief Method get_selectedColor1 addr 0x227e518 size 0xc virtual false final false
+  /// @brief Method get_selectedColor1 addr 0x213be28 size 0xc virtual false final false
   inline ::UnityEngine::Color get_selectedColor1();
 
-  /// @brief Method get_selectedColor2 addr 0x227e524 size 0xc virtual false final false
+  /// @brief Method get_selectedColor2 addr 0x213be34 size 0xc virtual false final false
   inline ::UnityEngine::Color get_selectedColor2();
 
-  /// @brief Method get_selectedAndHighlightedColor1 addr 0x227e5b0 size 0xc virtual false final false
+  /// @brief Method get_selectedAndHighlightedColor1 addr 0x213bec0 size 0xc virtual false final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor1();
 
-  /// @brief Method get_selectedAndHighlightedColor2 addr 0x227e5bc size 0xc virtual false final false
+  /// @brief Method get_selectedAndHighlightedColor2 addr 0x213becc size 0xc virtual false final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor2();
 
   static inline ::GlobalNamespace::GradientTransitionSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x227ec4c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x213c55c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GradientTransitionSO", modifiers: "&&", def_value: None }]
@@ -253,6 +253,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GradientTransitionSO, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GradientTransitionSO, ____normalColor1) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GradientTransitionSO, ____normalColor2) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GradientTransitionSO, ____highlightColor1) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GradientTransitionSO, ____highlightColor2) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GradientTransitionSO, ____pressedColor1) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GradientTransitionSO, ____pressedColor2) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GradientTransitionSO, ____disabledColor1) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GradientTransitionSO, ____disabledColor2) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GradientTransitionSO, ____selectedColor1) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GradientTransitionSO, ____selectedColor2) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GradientTransitionSO, ____selectedAndHighlightedColor1) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GradientTransitionSO, ____selectedAndHighlightedColor2) == 0x78, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GradientTransitionSO);

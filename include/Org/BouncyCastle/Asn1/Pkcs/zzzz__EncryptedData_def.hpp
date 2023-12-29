@@ -5,7 +5,13 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(EncryptedData)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1OctetString;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
@@ -13,17 +19,11 @@ class Asn1Encodable;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -56,31 +56,31 @@ public:
 
   constexpr void __set_data(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0xf876f0 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xf114cc size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf87878 size 0x1e0 virtual false final false
+  /// @brief Method .ctor addr 0xf11654 size 0x1e0 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedData* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType,
                                                                          ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encryptionAlgorithm, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method .ctor addr 0xf87a58 size 0x184 virtual false final false
+  /// @brief Method .ctor addr 0xf11834 size 0x184 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encryptionAlgorithm,
                     ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method get_ContentType addr 0xf87bdc size 0x90 virtual false final false
+  /// @brief Method get_ContentType addr 0xf119b8 size 0x90 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
-  /// @brief Method get_EncryptionAlgorithm addr 0xf87c6c size 0x28 virtual false final false
+  /// @brief Method get_EncryptionAlgorithm addr 0xf11a48 size 0x28 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithm();
 
-  /// @brief Method get_Content addr 0xf87c94 size 0xc8 virtual false final false
+  /// @brief Method get_Content addr 0xf11a70 size 0xc8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Content();
 
-  /// @brief Method ToAsn1Object addr 0xf87d5c size 0x124 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf11b38 size 0x124 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "EncryptedData", modifiers: "&&", def_value: None }]
@@ -104,6 +104,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::EncryptedData, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::EncryptedData, ___data) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Pkcs::EncryptedData);

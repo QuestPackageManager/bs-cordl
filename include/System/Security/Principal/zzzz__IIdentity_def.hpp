@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Security::Principal::IIdentity);
 namespace System::Security::Principal {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2995))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2994))
 // CS Name: ::System.Security.Principal::IIdentity*
 class CORDL_TYPE IIdentity {
 public:

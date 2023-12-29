@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::MemoryOutputStream);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3561))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1809))
 // CS Name: ::Org.BouncyCastle.Utilities.IO::MemoryOutputStream*
 class CORDL_TYPE MemoryOutputStream : public ::System::IO::MemoryStream {
@@ -22,12 +22,12 @@ public:
   // Declarations
   __declspec(property(get = get_CanRead)) bool CanRead;
 
-  /// @brief Method get_CanRead addr 0x115fb90 size 0x8 virtual true final true
+  /// @brief Method get_CanRead addr 0x10ee948 size 0x8 virtual true final true
   inline bool get_CanRead();
 
   static inline ::Org::BouncyCastle::Utilities::IO::MemoryOutputStream* New_ctor();
 
-  /// @brief Method .ctor addr 0x115fb98 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x10ee950 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MemoryOutputStream", modifiers: "&&", def_value: None }]

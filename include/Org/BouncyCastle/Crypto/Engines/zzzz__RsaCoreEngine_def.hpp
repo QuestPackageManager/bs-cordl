@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RsaCoreEngine)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto {
 class IRsa;
@@ -15,8 +15,8 @@ class IRsa;
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(865))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RsaCoreEngine*
 class CORDL_TYPE RsaCoreEngine : public ::System::Object {
@@ -64,30 +64,30 @@ public:
 
   constexpr void __set_bitSize(int32_t value);
 
-  /// @brief Method CheckInitialised addr 0xee07a0 size 0x60 virtual false final false
+  /// @brief Method CheckInitialised addr 0xe6b5cc size 0x60 virtual false final false
   inline void CheckInitialised();
 
-  /// @brief Method Init addr 0xee0800 size 0x160 virtual true final false
+  /// @brief Method Init addr 0xe6b62c size 0x160 virtual true final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetInputBlockSize addr 0xee0960 size 0x3c virtual true final false
+  /// @brief Method GetInputBlockSize addr 0xe6b78c size 0x3c virtual true final false
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize addr 0xee099c size 0x3c virtual true final false
+  /// @brief Method GetOutputBlockSize addr 0xe6b7c8 size 0x3c virtual true final false
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method ConvertInput addr 0xee09d8 size 0x110 virtual true final false
+  /// @brief Method ConvertInput addr 0xe6b804 size 0x110 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* ConvertInput(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen);
 
-  /// @brief Method ConvertOutput addr 0xee0ae8 size 0xc4 virtual true final false
+  /// @brief Method ConvertOutput addr 0xe6b914 size 0xc4 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConvertOutput(::Org::BouncyCastle::Math::BigInteger* result);
 
-  /// @brief Method ProcessBlock addr 0xee0bac size 0x168 virtual true final false
+  /// @brief Method ProcessBlock addr 0xe6b9d8 size 0x168 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* ProcessBlock(::Org::BouncyCastle::Math::BigInteger* input);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine* New_ctor();
 
-  /// @brief Method .ctor addr 0xedf9cc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xe6a7f8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaCoreEngine", modifiers: "&&", def_value: None }]
@@ -117,6 +117,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine, ___key) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine, ___forEncryption) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine, ___bitSize) == 0x1c, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine);

@@ -14,11 +14,8 @@ CORDL_MODULE_EXPORT(FBBIKHeadEffector)
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace RootMotion::FinalIK {
-class IKEffector;
+class __FBBIKHeadEffector__BendBone;
 }
 namespace RootMotion::FinalIK {
 class FullBodyBipedIK;
@@ -26,8 +23,11 @@ class FullBodyBipedIK;
 namespace UnityEngine {
 class Transform;
 }
+namespace UnityEngine {
+struct Vector3;
+}
 namespace RootMotion::FinalIK {
-class __FBBIKHeadEffector__BendBone;
+class IKEffector;
 }
 namespace RootMotion::FinalIK {
 class __IKSolver__UpdateDelegate;
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12546))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12474))
 // CS Name: ::FBBIKHeadEffector::BendBone*
 class CORDL_TYPE __FBBIKHeadEffector__BendBone : public ::System::Object {
 public:
@@ -81,18 +81,18 @@ public:
 
   static inline ::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone* New_ctor();
 
-  /// @brief Method .ctor addr 0x1254a44 size 0x60 virtual false final false
+  /// @brief Method .ctor addr 0x11e4718 size 0x60 virtual false final false
   inline void _ctor();
 
   static inline ::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone* New_ctor(::UnityEngine::Transform* transform, float_t weight);
 
-  /// @brief Method .ctor addr 0x1254aa4 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x11e4778 size 0x7c virtual false final false
   inline void _ctor(::UnityEngine::Transform* transform, float_t weight);
 
-  /// @brief Method StoreDefaultLocalState addr 0x12521a8 size 0x2c virtual false final false
+  /// @brief Method StoreDefaultLocalState addr 0x11e1e7c size 0x2c virtual false final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method FixTransforms addr 0x1252578 size 0x28 virtual false final false
+  /// @brief Method FixTransforms addr 0x11e224c size 0x28 virtual false final false
   inline void FixTransforms();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FBBIKHeadEffector__BendBone", modifiers: "&&", def_value: None }]
@@ -123,13 +123,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone, ___transform) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone, ___weight) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone, ___defaultLocalRotation) == 0x1c, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: RootMotion.FinalIK::FBBIKHeadEffector
 // SizeInfo { instance_size: 368, native_size: -1, calculated_instance_size: 368, calculated_native_size: 368, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12547))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12475))
 // CS Name: ::RootMotion.FinalIK::FBBIKHeadEffector*
 class CORDL_TYPE FBBIKHeadEffector : public ::UnityEngine::MonoBehaviour {
 public:
@@ -551,48 +557,48 @@ public:
 
   constexpr void __set_chestBonesCount(int32_t value);
 
-  /// @brief Method Start addr 0x1251948 size 0x3ec virtual false final false
+  /// @brief Method Start addr 0x11e161c size 0x3ec virtual false final false
   inline void Start();
 
-  /// @brief Method OnStoreDefaultLocalState addr 0x1251d34 size 0x474 virtual false final false
+  /// @brief Method OnStoreDefaultLocalState addr 0x11e1a08 size 0x474 virtual false final false
   inline void OnStoreDefaultLocalState();
 
-  /// @brief Method OnFixTransforms addr 0x12521d4 size 0x3a4 virtual false final false
+  /// @brief Method OnFixTransforms addr 0x11e1ea8 size 0x3a4 virtual false final false
   inline void OnFixTransforms();
 
-  /// @brief Method OnPreRead addr 0x12525a0 size 0x640 virtual false final false
+  /// @brief Method OnPreRead addr 0x11e2274 size 0x640 virtual false final false
   inline void OnPreRead();
 
-  /// @brief Method SpineBend addr 0x1252e9c size 0x3f8 virtual false final false
+  /// @brief Method SpineBend addr 0x11e2b70 size 0x3f8 virtual false final false
   inline void SpineBend();
 
-  /// @brief Method CCDPass addr 0x1253294 size 0x410 virtual false final false
+  /// @brief Method CCDPass addr 0x11e2f68 size 0x410 virtual false final false
   inline void CCDPass();
 
-  /// @brief Method Iterate addr 0x12536a4 size 0x798 virtual false final false
+  /// @brief Method Iterate addr 0x11e3378 size 0x798 virtual false final false
   inline void Iterate(int32_t iteration);
 
-  /// @brief Method OnPostUpdate addr 0x1254024 size 0x23c virtual false final false
+  /// @brief Method OnPostUpdate addr 0x11e3cf8 size 0x23c virtual false final false
   inline void OnPostUpdate();
 
-  /// @brief Method ChestDirection addr 0x1252be0 size 0x2bc virtual false final false
+  /// @brief Method ChestDirection addr 0x11e28b4 size 0x2bc virtual false final false
   inline void ChestDirection();
 
-  /// @brief Method PostStretching addr 0x1254260 size 0x304 virtual false final false
+  /// @brief Method PostStretching addr 0x11e3f34 size 0x304 virtual false final false
   inline void PostStretching();
 
-  /// @brief Method LerpSolverPosition addr 0x1253f3c size 0xe8 virtual false final false
+  /// @brief Method LerpSolverPosition addr 0x11e3c10 size 0xe8 virtual false final false
   inline void LerpSolverPosition(::RootMotion::FinalIK::IKEffector* effector, ::UnityEngine::Vector3 position, float_t weight, ::UnityEngine::Vector3 offset);
 
-  /// @brief Method Solve addr 0x1253e3c size 0x100 virtual false final false
+  /// @brief Method Solve addr 0x11e3b10 size 0x100 virtual false final false
   inline void Solve(ByRef<::UnityEngine::Vector3> pos1, ByRef<::UnityEngine::Vector3> pos2, float_t nominalDistance);
 
-  /// @brief Method OnDestroy addr 0x1254564 size 0x338 virtual false final false
+  /// @brief Method OnDestroy addr 0x11e4238 size 0x338 virtual false final false
   inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::FBBIKHeadEffector* New_ctor();
 
-  /// @brief Method .ctor addr 0x125489c size 0x1a8 virtual false final false
+  /// @brief Method .ctor addr 0x11e4570 size 0x1a8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FBBIKHeadEffector", modifiers: "&&", def_value: None }]
@@ -751,6 +757,98 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::FBBIKHeadEffector, 0x170>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___ik) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___positionWeight) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___bodyWeight) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___thighWeight) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___handsPullBody) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___rotationWeight) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___bodyClampWeight) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___headClampWeight) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___bendWeight) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___bendBones) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___CCDWeight) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___roll) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___damper) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___CCDBones) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___postStretchWeight) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___maxStretch) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___stretchDamper) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___fixHead) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___stretchBones) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___chestDirection) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___chestDirectionWeight) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___chestBones) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___OnPostHeadEffectorFK) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___offset) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___headToBody) == 0xa4, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___shoulderCenterToHead) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___headToLeftThigh) == 0xbc, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___headToRightThigh) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___leftShoulderPos) == 0xd4, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___rightShoulderPos) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___shoulderDist) == 0xec, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___leftShoulderDist) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___rightShoulderDist) == 0xf4, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___chestRotation) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___headRotationRelativeToRoot) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___ccdDefaultLocalRotations) == 0x118, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___headLocalPosition) == 0x120, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___headLocalRotation) == 0x12c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___stretchLocalPositions) == 0x140, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___stretchLocalRotations) == 0x148, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___chestLocalPositions) == 0x150, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___chestLocalRotations) == 0x158, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___bendBonesCount) == 0x160, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___ccdBonesCount) == 0x164, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___stretchBonesCount) == 0x168, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FBBIKHeadEffector, ___chestBonesCount) == 0x16c, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::FBBIKHeadEffector);

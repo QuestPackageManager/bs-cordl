@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectLevelPackDestination);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4155))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4187))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4190))
 // CS Name: ::SelectLevelPackDestination*
 class CORDL_TYPE SelectLevelPackDestination : public ::GlobalNamespace::MenuDestination {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::SelectLevelPackDestination* New_ctor(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack);
 
-  /// @brief Method .ctor addr 0x223cf80 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x21cebdc size 0x28 virtual false final false
   inline void _ctor(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack);
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectLevelPackDestination", modifiers: "&&", def_value: None }]
@@ -58,6 +58,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectLevelPackDestination, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SelectLevelPackDestination, ___beatmapLevelPack) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SelectLevelPackDestination);

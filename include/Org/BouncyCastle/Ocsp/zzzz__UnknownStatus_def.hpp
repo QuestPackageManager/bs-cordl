@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Ocsp::UnknownStatus* New_ctor();
 
-  /// @brief Method .ctor addr 0x10a5164 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x1033f14 size 0x58 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnknownStatus", modifiers: "&&", def_value: None }]

@@ -30,30 +30,30 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha384Digest* New_ctor();
 
-  /// @brief Method .ctor addr 0xea4278 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0xe300a4 size 0x58 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha384Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Sha384Digest* t);
 
-  /// @brief Method .ctor addr 0xea42d0 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0xe300fc size 0x68 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Sha384Digest* t);
 
-  /// @brief Method get_AlgorithmName addr 0xea4338 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xe30164 size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetDigestSize addr 0xea4378 size 0x8 virtual true final false
+  /// @brief Method GetDigestSize addr 0xe301a4 size 0x8 virtual true final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method DoFinal addr 0xea4380 size 0xb8 virtual true final false
+  /// @brief Method DoFinal addr 0xe301ac size 0xb8 virtual true final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xea4438 size 0x48 virtual true final false
+  /// @brief Method Reset addr 0xe30264 size 0x48 virtual true final false
   inline void Reset();
 
-  /// @brief Method Copy addr 0xea4480 size 0x60 virtual true final false
+  /// @brief Method Copy addr 0xe302ac size 0x60 virtual true final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method Reset addr 0xea44e0 size 0x88 virtual true final false
+  /// @brief Method Reset addr 0xe3030c size 0x88 virtual true final false
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Sha384Digest", modifiers: "&&", def_value: None }]

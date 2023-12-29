@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pkcs12PbeParams)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace System {
-class Object;
+class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -62,24 +62,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterations);
 
-  /// @brief Method .ctor addr 0xf8ab80 size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0xf1495c size 0xb4 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterations);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf8ac34 size 0xe8 virtual false final false
+  /// @brief Method .ctor addr 0xf14a10 size 0xe8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xf8ad1c size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xf14af8 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Iterations addr 0xf8aea4 size 0x1c virtual false final false
+  /// @brief Method get_Iterations addr 0xf14c80 size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Iterations();
 
-  /// @brief Method GetIV addr 0xf8aec0 size 0x20 virtual false final false
+  /// @brief Method GetIV addr 0xf14c9c size 0x20 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIV();
 
-  /// @brief Method ToAsn1Object addr 0xf8aee0 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf14cbc size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs12PbeParams", modifiers: "&&", def_value: None }]
@@ -106,6 +106,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams, ___iterations) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams, ___iv) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams);

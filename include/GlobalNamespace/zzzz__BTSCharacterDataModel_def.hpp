@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3963))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3949))
 // CS Name: ::BTSCharacterDataModel::PrefabWithId*
 class CORDL_TYPE __BTSCharacterDataModel__PrefabWithId : public ::System::Object {
 public:
@@ -62,15 +62,15 @@ public:
 
   constexpr void __set__prefabAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method get_id addr 0x2219ac4 size 0x8 virtual false final false
+  /// @brief Method get_id addr 0x20b8adc size 0x8 virtual false final false
   inline int32_t get_id();
 
-  /// @brief Method get_prefabAssetReference addr 0x2219acc size 0x8 virtual false final false
+  /// @brief Method get_prefabAssetReference addr 0x20b8ae4 size 0x8 virtual false final false
   inline ::UnityEngine::AddressableAssets::AssetReference* get_prefabAssetReference();
 
   static inline ::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId* New_ctor();
 
-  /// @brief Method .ctor addr 0x2219ad4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20b8aec size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BTSCharacterDataModel__PrefabWithId", modifiers: "&&", def_value: None }]
@@ -98,13 +98,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId, ____id) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId, ____prefabAssetReference) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::AnimationClipWithId
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3964))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3950))
 // CS Name: ::BTSCharacterDataModel::AnimationClipWithId*
 class CORDL_TYPE __BTSCharacterDataModel__AnimationClipWithId : public ::System::Object {
 public:
@@ -131,15 +135,15 @@ public:
 
   constexpr void __set__animationClipAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method get_id addr 0x2219adc size 0x8 virtual false final false
+  /// @brief Method get_id addr 0x20b8af4 size 0x8 virtual false final false
   inline int32_t get_id();
 
-  /// @brief Method get_animationClipAssetReference addr 0x2219ae4 size 0x8 virtual false final false
+  /// @brief Method get_animationClipAssetReference addr 0x20b8afc size 0x8 virtual false final false
   inline ::UnityEngine::AddressableAssets::AssetReference* get_animationClipAssetReference();
 
   static inline ::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId* New_ctor();
 
-  /// @brief Method .ctor addr 0x2219aec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20b8b04 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BTSCharacterDataModel__AnimationClipWithId", modifiers: "&&", def_value: None }]
@@ -167,13 +171,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId, ____id) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId, ____animationClipAssetReference) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BTSCharacterDataModel
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3965))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3951))
 // CS Name: ::BTSCharacterDataModel*
 class CORDL_TYPE BTSCharacterDataModel : public ::UnityEngine::MonoBehaviour {
 public:
@@ -211,15 +219,15 @@ public:
   constexpr void
   __set__animationClipsWithIds(::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*> value);
 
-  /// @brief Method get_prefabsWithIds addr 0x2219aac size 0x8 virtual false final false
+  /// @brief Method get_prefabsWithIds addr 0x20b8ac4 size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> get_prefabsWithIds();
 
-  /// @brief Method get_animationClipsWithIds addr 0x2219ab4 size 0x8 virtual false final false
+  /// @brief Method get_animationClipsWithIds addr 0x20b8acc size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*> get_animationClipsWithIds();
 
   static inline ::GlobalNamespace::BTSCharacterDataModel* New_ctor();
 
-  /// @brief Method .ctor addr 0x2219abc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20b8ad4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel", modifiers: "&&", def_value: None }]
@@ -246,6 +254,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BTSCharacterDataModel, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BTSCharacterDataModel, ____prefabsWithIds) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BTSCharacterDataModel, ____animationClipsWithIds) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BTSCharacterDataModel);

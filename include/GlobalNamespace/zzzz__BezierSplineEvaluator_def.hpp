@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BezierSplineEvaluator)
 namespace GlobalNamespace {
-struct BezierCurve;
+class BezierSpline;
 }
 namespace GlobalNamespace {
 struct __BezierSplineEvaluator__CubicSolveResult;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+struct BezierCurve;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace GlobalNamespace {
-class BezierSpline;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,18 +38,18 @@ MARK_VAL_T(::GlobalNamespace::__BezierSplineEvaluator__CubicSolveResult);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3996))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3982))
 // CS Name: ::BezierSplineEvaluator::CubicSolveResult
 struct CORDL_TYPE __BezierSplineEvaluator__CubicSolveResult {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x221f11c size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x20be134 size 0x14 virtual false final false
   inline void _ctor(float_t solution1);
 
-  /// @brief Method .ctor addr 0x221f130 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x20be148 size 0x14 virtual false final false
   inline void _ctor(float_t solution1, float_t solution2);
 
-  /// @brief Method .ctor addr 0x221f144 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x20be15c size 0x14 virtual false final false
   inline void _ctor(float_t solution1, float_t solution2, float_t solution3);
 
   // Ctor Parameters [CppParam { name: "numberOfSolutions", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "solution1", ty: "float_t", modifiers: "", def_value: None }, CppParam {
@@ -80,13 +80,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BezierSplineEvaluator__CubicSolveResult, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BezierSplineEvaluator__CubicSolveResult, numberOfSolutions) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BezierSplineEvaluator__CubicSolveResult, solution1) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BezierSplineEvaluator__CubicSolveResult, solution2) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BezierSplineEvaluator__CubicSolveResult, solution3) == 0xc, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BezierSplineEvaluator
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3997))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3983))
 // CS Name: ::BezierSplineEvaluator*
 class CORDL_TYPE BezierSplineEvaluator : public ::System::Object {
 public:
@@ -113,37 +121,37 @@ public:
 
   static inline ::GlobalNamespace::BezierSplineEvaluator* New_ctor(::GlobalNamespace::BezierSpline* spline);
 
-  /// @brief Method .ctor addr 0x22195f0 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x20b8608 size 0x34 virtual false final false
   inline void _ctor(::GlobalNamespace::BezierSpline* spline);
 
-  /// @brief Method EvaluatePosition addr 0x22172f0 size 0x18 virtual false final false
+  /// @brief Method EvaluatePosition addr 0x20b6308 size 0x18 virtual false final false
   inline ::UnityEngine::Vector3 EvaluatePosition(float_t time);
 
-  /// @brief Method Evaluate addr 0x221e6ac size 0x14c virtual false final false
+  /// @brief Method Evaluate addr 0x20bd6c4 size 0x14c virtual false final false
   inline ::UnityEngine::Vector3 Evaluate(float_t t);
 
-  /// @brief Method EvaluateFirstDerivation addr 0x221e7f8 size 0x15c virtual false final false
+  /// @brief Method EvaluateFirstDerivation addr 0x20bd810 size 0x15c virtual false final false
   inline ::UnityEngine::Vector3 EvaluateFirstDerivation(float_t t);
 
-  /// @brief Method EvaluateSecondDerivation addr 0x221e954 size 0x14c virtual false final false
+  /// @brief Method EvaluateSecondDerivation addr 0x20bd96c size 0x14c virtual false final false
   inline ::UnityEngine::Vector3 EvaluateSecondDerivation(float_t t);
 
-  /// @brief Method OffsetSegmentAndGetT addr 0x221e55c size 0x150 virtual false final false
+  /// @brief Method OffsetSegmentAndGetT addr 0x20bd574 size 0x150 virtual false final false
   inline float_t OffsetSegmentAndGetT(float_t time);
 
-  /// @brief Method GetTForSegment addr 0x221ebc0 size 0x14c virtual false final false
+  /// @brief Method GetTForSegment addr 0x20bdbd8 size 0x14c virtual false final false
   inline float_t GetTForSegment(int32_t segmentIndex, float_t time);
 
-  /// @brief Method GetTimeValuesForSegment addr 0x221f030 size 0xb8 virtual false final false
+  /// @brief Method GetTimeValuesForSegment addr 0x20be048 size 0xb8 virtual false final false
   inline void GetTimeValuesForSegment(int32_t segmentIndex, ByRef<float_t> t0Value, ByRef<float_t> t1Value);
 
-  /// @brief Method OffsetStartIndexToDistance addr 0x221eaa0 size 0x120 virtual false final false
+  /// @brief Method OffsetStartIndexToDistance addr 0x20bdab8 size 0x120 virtual false final false
   inline void OffsetStartIndexToDistance(float_t time);
 
-  /// @brief Method CubeRoot addr 0x221f0e8 size 0x34 virtual false final false
+  /// @brief Method CubeRoot addr 0x20be100 size 0x34 virtual false final false
   static inline float_t CubeRoot(float_t x);
 
-  /// @brief Method SolveCubic addr 0x221ed0c size 0x324 virtual false final false
+  /// @brief Method SolveCubic addr 0x20bdd24 size 0x324 virtual false final false
   static inline ::GlobalNamespace::__BezierSplineEvaluator__CubicSolveResult SolveCubic(float_t a, float_t b, float_t c, float_t d);
 
   // Ctor Parameters [CppParam { name: "", ty: "BezierSplineEvaluator", modifiers: "&&", def_value: None }]
@@ -176,6 +184,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BezierSplineEvaluator, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BezierSplineEvaluator, ____segments) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BezierSplineEvaluator, ____currentSegmentIndex) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BezierSplineEvaluator);

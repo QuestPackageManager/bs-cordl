@@ -27,6 +27,9 @@ template <typename T> class IEqualityComparer_1;
 namespace UnityEngine::UIElements {
 class EventBase;
 }
+namespace UnityEngine::Pool {
+template <typename T> class ObjectPool_1;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
@@ -39,20 +42,92 @@ template <typename T> class __StylePropertyAnimationSystem__Values_1__Transition
 namespace System::Collections::Generic {
 template <typename T> class Queue_1;
 }
-namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__ValuesLength;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class __StylePropertyAnimationSystem__Values_1;
+}
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__ValuesRotate;
+}
+namespace UnityEngine::UIElements {
+struct Rotate;
+}
+namespace UnityEngine::UIElements {
+struct __StylePropertyAnimationSystem__ElementPropertyPair;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine {
-class Font;
+struct Color;
+}
+namespace UnityEngine::UIElements {
+struct Scale;
+}
+namespace UnityEngine::UIElements {
+struct Background;
+}
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__ValuesFontDefinition;
+}
+namespace UnityEngine::UIElements {
+struct TransformOrigin;
+}
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__Values;
+}
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__ValuesFloat;
 }
 namespace UnityEngine::UIElements {
 struct __StylePropertyAnimationSystem__TransitionState;
 }
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::UIElements {
+struct FontDefinition;
+}
+namespace UnityEngine::UIElements {
+struct Translate;
+}
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__ValuesTransformOrigin;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
+}
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__ValuesInt;
+}
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__ValuesColor;
+}
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__ValuesScale;
+}
+namespace UnityEngine::UIElements {
+class IStylePropertyAnimationSystem;
+}
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__ValuesTextShadow;
+}
 namespace UnityEngine::UIElements {
 class __StylePropertyAnimationSystem__ValuesTranslate;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine::UIElements {
+struct TextShadow;
+}
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__ValuesBackground;
+}
+namespace UnityEngine::UIElements {
+struct Length;
 }
 namespace UnityEngine::UIElements {
 template <typename TTimingData, typename TStyleData> struct __StylePropertyAnimationSystem__AnimationDataSet_2;
@@ -60,98 +135,23 @@ template <typename TTimingData, typename TStyleData> struct __StylePropertyAnima
 namespace UnityEngine::UIElements {
 template <typename T> class __StylePropertyAnimationSystem__ValuesDiscrete_1;
 }
-namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesScale;
-}
-namespace UnityEngine::UIElements {
-struct Background;
-}
-namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesColor;
-}
-namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesFloat;
-}
-namespace UnityEngine::UIElements {
-class IStylePropertyAnimationSystem;
-}
-namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesFontDefinition;
-}
-namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesTextShadow;
-}
-namespace UnityEngine::UIElements {
-struct Rotate;
-}
-namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesTransformOrigin;
+namespace UnityEngine {
+class Font;
 }
 namespace UnityEngine::UIElements {
 class __StylePropertyAnimationSystem__ValuesFont;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-struct FontDefinition;
-}
-namespace UnityEngine::UIElements {
-struct Scale;
-}
-namespace UnityEngine::UIElements {
-struct __StylePropertyAnimationSystem__ElementPropertyPair;
-}
-namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesLength;
-}
-namespace UnityEngine::UIElements {
-struct Translate;
-}
-namespace UnityEngine::UIElements {
-struct TransformOrigin;
-}
-namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesBackground;
-}
-namespace UnityEngine::UIElements {
-struct TextShadow;
-}
-namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesRotate;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-struct Length;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class __StylePropertyAnimationSystem__Values_1;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__Values;
-}
-namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesInt;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace GlobalNamespace {
+template <typename T> struct __StylePropertyAnimationSystem__Values_1__StyleData;
 }
 namespace GlobalNamespace {
 template <typename T> class __StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState;
 }
 namespace GlobalNamespace {
 template <typename T> struct __StylePropertyAnimationSystem__Values_1__TimingData;
-}
-namespace GlobalNamespace {
-template <typename T> struct __StylePropertyAnimationSystem__Values_1__StyleData;
 }
 namespace GlobalNamespace {
 template <typename T> struct __StylePropertyAnimationSystem__Values_1__EmptyData;
@@ -266,7 +266,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPro
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6832))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6918))
 // CS Name: ::StylePropertyAnimationSystem::TransitionState
 struct CORDL_TYPE __StylePropertyAnimationSystem__TransitionState {
 public:
@@ -320,6 +320,8 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__StylePropertyAnimationSystem__TransitionState, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem__TransitionState, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::AnimationDataSet`2
 // SizeInfo { instance_size: 48, native_size: 64, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
@@ -328,7 +330,7 @@ namespace UnityEngine::UIElements {
 template <typename TTimingData, typename TStyleData>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6833))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6919))
 // CS Name: ::StylePropertyAnimationSystem::AnimationDataSet`2<TTimingData,TStyleData>
 struct CORDL_TYPE __StylePropertyAnimationSystem__AnimationDataSet_2 {
 public:
@@ -413,8 +415,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6834))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6920))
 // CS Name: ::StylePropertyAnimationSystem::ElementPropertyPair::EqualityComparer*
 class CORDL_TYPE __StylePropertyAnimationSystem__ElementPropertyPair__EqualityComparer : public ::System::Object {
 public:
@@ -422,15 +424,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair>*() noexcept;
 
-  /// @brief Method Equals addr 0x2dc57b4 size 0x18 virtual true final true
+  /// @brief Method Equals addr 0x2c5e404 size 0x18 virtual true final true
   inline bool Equals(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair x, ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair y);
 
-  /// @brief Method GetHashCode addr 0x2dc57cc size 0x34 virtual true final true
+  /// @brief Method GetHashCode addr 0x2c5e41c size 0x34 virtual true final true
   inline int32_t GetHashCode(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair obj);
 
   static inline ::GlobalNamespace::__StylePropertyAnimationSystem__ElementPropertyPair__EqualityComparer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc57ac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2c5e3fc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StylePropertyAnimationSystem__ElementPropertyPair__EqualityComparer", modifiers: "&&", def_value: None }]
@@ -457,8 +459,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__StyleProperty
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7487))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6835))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7573))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6921))
 // CS Name: ::StylePropertyAnimationSystem::ElementPropertyPair
 struct CORDL_TYPE __StylePropertyAnimationSystem__ElementPropertyPair {
 public:
@@ -473,7 +475,7 @@ public:
 
   static inline ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair>* getStaticF_Comparer();
 
-  /// @brief Method .ctor addr 0x2dc5728 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2c5e378 size 0xc virtual false final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleSheets::StylePropertyId property);
 
   // Ctor Parameters [CppParam { name: "element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "property", ty:
@@ -498,13 +500,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair, element) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair, property) == 0x8, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::Values
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6836))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6922))
 // CS Name: ::StylePropertyAnimationSystem::Values*
 class CORDL_TYPE __StylePropertyAnimationSystem__Values : public ::System::Object {
 public:
@@ -538,7 +544,7 @@ public:
 
   static inline ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc5800 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2c5e450 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StylePropertyAnimationSystem__Values", modifiers: "&&", def_value: None }]
@@ -567,8 +573,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6837))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6923))
 // CS Name: ::StylePropertyAnimationSystem::Values`1::TransitionEventsFrameState::<>c<T>*
 class CORDL_TYPE __StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState____c : public ::System::Object {
 public:
@@ -612,8 +618,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6838))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6924))
 // CS Name: ::StylePropertyAnimationSystem::Values`1::TransitionEventsFrameState<T>*
 class CORDL_TYPE __StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState : public ::System::Object {
 public:
@@ -735,7 +741,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6839))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6925))
 // CS Name: ::StylePropertyAnimationSystem::Values`1::TimingData<T>
 struct CORDL_TYPE __StylePropertyAnimationSystem__Values_1__TimingData {
 public:
@@ -786,7 +792,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6840))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6926))
 // CS Name: ::StylePropertyAnimationSystem::Values`1::StyleData<T>
 struct CORDL_TYPE __StylePropertyAnimationSystem__Values_1__StyleData {
 public:
@@ -824,8 +830,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6841), inst: 1567 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6841))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6927)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6927), inst: 1518 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6927))
 // CS Name: ::StylePropertyAnimationSystem::Values`1::EmptyData<T>
 #pragma pack(push, 0)
 struct CORDL_TYPE __StylePropertyAnimationSystem__Values_1__EmptyData {
@@ -859,10 +865,10 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6836)), TypeDefinitionIndex(TypeDefinitionIndex(6840)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6833), inst: 766
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6840), inst: 1566 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6841), inst: 1566 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6833), inst: 765 }), TypeDefinitionIndex(TypeDefinitionIndex(6833)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6839), inst: 1566 }), TypeDefinitionIndex(TypeDefinitionIndex(6841)), TypeDefinitionIndex(TypeDefinitionIndex(6839))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6842)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6927)), TypeDefinitionIndex(TypeDefinitionIndex(6925)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6926), inst: 1517
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6919), inst: 753 }), TypeDefinitionIndex(TypeDefinitionIndex(6926)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6919), inst: 754 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6925), inst: 1517 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6927), inst: 1517 }), TypeDefinitionIndex(TypeDefinitionIndex(6922)), TypeDefinitionIndex(TypeDefinitionIndex(6919))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6928)) CS
 // Name: ::StylePropertyAnimationSystem::Values`1<T>*
 class CORDL_TYPE __StylePropertyAnimationSystem__Values_1 : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values {
 public:
@@ -1049,8 +1055,8 @@ public:
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 391 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6843))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6928), inst: 387 }), TypeDefinitionIndex(TypeDefinitionIndex(6928))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6929))
 // CS Name: ::StylePropertyAnimationSystem::ValuesFloat*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesFloat : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<float_t> {
 public:
@@ -1066,27 +1072,27 @@ public:
 
   constexpr void __set__SameFunc_k__BackingField(::System::Func_3<float_t, float_t, bool>* value);
 
-  /// @brief Method get_SameFunc addr 0x2dc5808 size 0x8 virtual true final false
+  /// @brief Method get_SameFunc addr 0x2c5e458 size 0x8 virtual true final false
   inline ::System::Func_3<float_t, float_t, bool>* get_SameFunc();
 
-  /// @brief Method IsSame addr 0x2dc5810 size 0x88 virtual false final false
+  /// @brief Method IsSame addr 0x2c5e460 size 0x88 virtual false final false
   static inline bool IsSame(float_t a, float_t b);
 
-  /// @brief Method Lerp addr 0x2dc5898 size 0x10 virtual false final false
+  /// @brief Method Lerp addr 0x2c5e4e8 size 0x10 virtual false final false
   static inline float_t Lerp(float_t a, float_t b, float_t t);
 
-  /// @brief Method UpdateValues addr 0x2dc58a8 size 0x80 virtual true final true
+  /// @brief Method UpdateValues addr 0x2c5e4f8 size 0x80 virtual true final true
   inline void UpdateValues();
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc5928 size 0xcc virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5e578 size 0xcc virtual true final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc59f4 size 0xa8 virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5e644 size 0xa8 virtual true final true
   inline void UpdateComputedStyle(int32_t i);
 
   static inline ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc5a9c size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x2c5e6ec size 0x98 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StylePropertyAnimationSystem__ValuesFloat", modifiers: "&&", def_value: None }]
@@ -1111,13 +1117,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat, 0x90>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat, ____SameFunc_k__BackingField) == 0x88, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::ValuesInt
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(6842))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6844))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6928), inst: 101 }), TypeDefinitionIndex(TypeDefinitionIndex(6928))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6930))
 // CS Name: ::StylePropertyAnimationSystem::ValuesInt*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesInt : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<int32_t> {
 public:
@@ -1133,27 +1141,27 @@ public:
 
   constexpr void __set__SameFunc_k__BackingField(::System::Func_3<int32_t, int32_t, bool>* value);
 
-  /// @brief Method get_SameFunc addr 0x2dc5b34 size 0x8 virtual true final false
+  /// @brief Method get_SameFunc addr 0x2c5e784 size 0x8 virtual true final false
   inline ::System::Func_3<int32_t, int32_t, bool>* get_SameFunc();
 
-  /// @brief Method IsSame addr 0x2dc5b3c size 0xc virtual false final false
+  /// @brief Method IsSame addr 0x2c5e78c size 0xc virtual false final false
   static inline bool IsSame(int32_t a, int32_t b);
 
-  /// @brief Method Lerp addr 0x2dc5b48 size 0xec virtual false final false
+  /// @brief Method Lerp addr 0x2c5e798 size 0xec virtual false final false
   static inline int32_t Lerp(int32_t a, int32_t b, float_t t);
 
-  /// @brief Method UpdateValues addr 0x2dc5c34 size 0x98 virtual true final true
+  /// @brief Method UpdateValues addr 0x2c5e884 size 0x98 virtual true final true
   inline void UpdateValues();
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc5ccc size 0xcc virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5e91c size 0xcc virtual true final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc5d98 size 0xa8 virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5e9e8 size 0xa8 virtual true final true
   inline void UpdateComputedStyle(int32_t i);
 
   static inline ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc5e40 size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x2c5ea90 size 0x98 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StylePropertyAnimationSystem__ValuesInt", modifiers: "&&", def_value: None }]
@@ -1178,13 +1186,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt, 0x90>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt, ____SameFunc_k__BackingField) == 0x88, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::ValuesLength
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1570 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7313))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6845)) CS Name: ::StylePropertyAnimationSystem::ValuesLength*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6928), inst: 1521 }), TypeDefinitionIndex(TypeDefinitionIndex(6928)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7399))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6931)) CS Name: ::StylePropertyAnimationSystem::ValuesLength*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesLength : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::Length> {
 public:
   // Declarations
@@ -1200,27 +1210,27 @@ public:
 
   constexpr void __set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* value);
 
-  /// @brief Method get_SameFunc addr 0x2dc5ed8 size 0x8 virtual true final false
+  /// @brief Method get_SameFunc addr 0x2c5eb28 size 0x8 virtual true final false
   inline ::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* get_SameFunc();
 
-  /// @brief Method IsSame addr 0x2dc5ee0 size 0xa0 virtual false final false
+  /// @brief Method IsSame addr 0x2c5eb30 size 0xa0 virtual false final false
   static inline bool IsSame(::UnityEngine::UIElements::Length a, ::UnityEngine::UIElements::Length b);
 
-  /// @brief Method Lerp addr 0x2dc5f80 size 0x3c virtual false final false
+  /// @brief Method Lerp addr 0x2c5ebd0 size 0x3c virtual false final false
   static inline ::UnityEngine::UIElements::Length Lerp(::UnityEngine::UIElements::Length a, ::UnityEngine::UIElements::Length b, float_t t);
 
-  /// @brief Method UpdateValues addr 0x2dc5fbc size 0xbc virtual true final true
+  /// @brief Method UpdateValues addr 0x2c5ec0c size 0xbc virtual true final true
   inline void UpdateValues();
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc6078 size 0xcc virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5ecc8 size 0xcc virtual true final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc6144 size 0xa8 virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5ed94 size 0xa8 virtual true final true
   inline void UpdateComputedStyle(int32_t i);
 
   static inline ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc61ec size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x2c5ee3c size 0x98 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StylePropertyAnimationSystem__ValuesLength", modifiers: "&&", def_value: None }]
@@ -1245,13 +1255,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength, 0x90>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength, ____SameFunc_k__BackingField) == 0x88, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::ValuesColor
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 293
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6846)) CS Name: ::StylePropertyAnimationSystem::ValuesColor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6928)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6928), inst: 294 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10178))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6932)) CS Name: ::StylePropertyAnimationSystem::ValuesColor*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesColor : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::Color> {
 public:
   // Declarations
@@ -1266,27 +1278,27 @@ public:
 
   constexpr void __set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* value);
 
-  /// @brief Method get_SameFunc addr 0x2dc6284 size 0x8 virtual true final false
+  /// @brief Method get_SameFunc addr 0x2c5eed4 size 0x8 virtual true final false
   inline ::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* get_SameFunc();
 
-  /// @brief Method IsSame addr 0x2dc628c size 0x138 virtual false final false
+  /// @brief Method IsSame addr 0x2c5eedc size 0x138 virtual false final false
   static inline bool IsSame(::UnityEngine::Color c, ::UnityEngine::Color d);
 
-  /// @brief Method Lerp addr 0x2dc63c4 size 0x38 virtual false final false
+  /// @brief Method Lerp addr 0x2c5f014 size 0x38 virtual false final false
   static inline ::UnityEngine::Color Lerp(::UnityEngine::Color a, ::UnityEngine::Color b, float_t t);
 
-  /// @brief Method UpdateValues addr 0x2dc63fc size 0x84 virtual true final true
+  /// @brief Method UpdateValues addr 0x2c5f04c size 0x84 virtual true final true
   inline void UpdateValues();
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc6480 size 0xd0 virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5f0d0 size 0xd0 virtual true final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc6550 size 0xac virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5f1a0 size 0xac virtual true final true
   inline void UpdateComputedStyle(int32_t i);
 
   static inline ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc65fc size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x2c5f24c size 0x98 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StylePropertyAnimationSystem__ValuesColor", modifiers: "&&", def_value: None }]
@@ -1311,6 +1323,8 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor, 0x90>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor, ____SameFunc_k__BackingField) == 0x88, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::ValuesDiscrete`1
 // SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
@@ -1318,8 +1332,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 5344 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6847))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6928)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6928), inst: 5222 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6933))
 // CS Name: ::StylePropertyAnimationSystem::ValuesDiscrete`1<T>*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesDiscrete_1 : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T> {
 public:
@@ -1377,20 +1391,20 @@ public:
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6847), inst: 1568 }), TypeDefinitionIndex(TypeDefinitionIndex(6847)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7293))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6848)) CS Name: ::StylePropertyAnimationSystem::ValuesBackground*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7379)), TypeDefinitionIndex(TypeDefinitionIndex(6933)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6933), inst: 1519
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6934)) CS Name: ::StylePropertyAnimationSystem::ValuesBackground*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesBackground : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesDiscrete_1<::UnityEngine::UIElements::Background> {
 public:
   // Declarations
-  /// @brief Method UpdateComputedStyle addr 0x2dc6694 size 0xdc virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5f2e4 size 0xdc virtual true final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc6770 size 0xbc virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5f3c0 size 0xbc virtual true final true
   inline void UpdateComputedStyle(int32_t i);
 
   static inline ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesBackground* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc682c size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2c5f47c size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StylePropertyAnimationSystem__ValuesBackground", modifiers: "&&", def_value: None }]
@@ -1417,20 +1431,20 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Style
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6847)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6847), inst: 1569 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7284))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6849)) CS Name: ::StylePropertyAnimationSystem::ValuesFontDefinition*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7370)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6933), inst: 1520 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6933))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6935)) CS Name: ::StylePropertyAnimationSystem::ValuesFontDefinition*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesFontDefinition : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesDiscrete_1<::UnityEngine::UIElements::FontDefinition> {
 public:
   // Declarations
-  /// @brief Method UpdateComputedStyle addr 0x2dc6874 size 0xcc virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5f4c4 size 0xcc virtual true final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc6940 size 0xa8 virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5f590 size 0xa8 virtual true final true
   inline void UpdateComputedStyle(int32_t i);
 
   static inline ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFontDefinition* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc69e8 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2c5f638 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StylePropertyAnimationSystem__ValuesFontDefinition", modifiers: "&&", def_value: None }]
@@ -1457,20 +1471,20 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Style
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15909)), TypeDefinitionIndex(TypeDefinitionIndex(6847)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6847), inst: 309
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6850)) CS Name: ::StylePropertyAnimationSystem::ValuesFont*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6933), inst: 310 }), TypeDefinitionIndex(TypeDefinitionIndex(6933)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15801))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6936)) CS Name: ::StylePropertyAnimationSystem::ValuesFont*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesFont : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesDiscrete_1<::UnityEngine::Font*> {
 public:
   // Declarations
-  /// @brief Method UpdateComputedStyle addr 0x2dc6a30 size 0xcc virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5f680 size 0xcc virtual true final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc6afc size 0xa8 virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5f74c size 0xa8 virtual true final true
   inline void UpdateComputedStyle(int32_t i);
 
   static inline ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFont* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc6ba4 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2c5f7f4 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StylePropertyAnimationSystem__ValuesFont", modifiers: "&&", def_value: None }]
@@ -1497,8 +1511,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Style
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1573 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6790))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6851)) CS Name: ::StylePropertyAnimationSystem::ValuesTextShadow*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6876)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6928), inst: 1524 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6928))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6937)) CS Name: ::StylePropertyAnimationSystem::ValuesTextShadow*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesTextShadow : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::TextShadow> {
 public:
   // Declarations
@@ -1514,27 +1528,27 @@ public:
 
   constexpr void __set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* value);
 
-  /// @brief Method get_SameFunc addr 0x2dc6bec size 0x8 virtual true final false
+  /// @brief Method get_SameFunc addr 0x2c5f83c size 0x8 virtual true final false
   inline ::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* get_SameFunc();
 
-  /// @brief Method IsSame addr 0x2dc6bf4 size 0x44 virtual false final false
+  /// @brief Method IsSame addr 0x2c5f844 size 0x44 virtual false final false
   static inline bool IsSame(::UnityEngine::UIElements::TextShadow a, ::UnityEngine::UIElements::TextShadow b);
 
-  /// @brief Method Lerp addr 0x2dc6c38 size 0x58 virtual false final false
+  /// @brief Method Lerp addr 0x2c5f888 size 0x58 virtual false final false
   static inline ::UnityEngine::UIElements::TextShadow Lerp(::UnityEngine::UIElements::TextShadow a, ::UnityEngine::UIElements::TextShadow b, float_t t);
 
-  /// @brief Method UpdateValues addr 0x2dc6c90 size 0xcc virtual true final true
+  /// @brief Method UpdateValues addr 0x2c5f8e0 size 0xcc virtual true final true
   inline void UpdateValues();
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc6d5c size 0xf0 virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5f9ac size 0xf0 virtual true final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc6e4c size 0xd4 virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5fa9c size 0xd4 virtual true final true
   inline void UpdateComputedStyle(int32_t i);
 
   static inline ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc6f20 size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x2c5fb70 size 0x98 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StylePropertyAnimationSystem__ValuesTextShadow", modifiers: "&&", def_value: None }]
@@ -1559,13 +1573,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow, 0x90>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow, ____SameFunc_k__BackingField) == 0x88, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::ValuesScale
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), TypeDefinitionIndex(TypeDefinitionIndex(7318)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1572
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6852)) CS Name: ::StylePropertyAnimationSystem::ValuesScale*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7404)), TypeDefinitionIndex(TypeDefinitionIndex(6928)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6928), inst: 1523
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6938)) CS Name: ::StylePropertyAnimationSystem::ValuesScale*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesScale : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::Scale> {
 public:
   // Declarations
@@ -1581,27 +1597,27 @@ public:
 
   constexpr void __set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* value);
 
-  /// @brief Method get_SameFunc addr 0x2dc6fb8 size 0x8 virtual true final false
+  /// @brief Method get_SameFunc addr 0x2c5fc08 size 0x8 virtual true final false
   inline ::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* get_SameFunc();
 
-  /// @brief Method IsSame addr 0x2dc6fc0 size 0x8 virtual false final false
+  /// @brief Method IsSame addr 0x2c5fc10 size 0x8 virtual false final false
   static inline bool IsSame(::UnityEngine::UIElements::Scale a, ::UnityEngine::UIElements::Scale b);
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc6fc8 size 0xcc virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5fc18 size 0xcc virtual true final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc7094 size 0xa8 virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5fce4 size 0xa8 virtual true final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method Lerp addr 0x2dc713c size 0x70 virtual false final false
+  /// @brief Method Lerp addr 0x2c5fd8c size 0x70 virtual false final false
   static inline ::UnityEngine::UIElements::Scale Lerp(::UnityEngine::UIElements::Scale a, ::UnityEngine::UIElements::Scale b, float_t t);
 
-  /// @brief Method UpdateValues addr 0x2dc71ac size 0x9c virtual true final true
+  /// @brief Method UpdateValues addr 0x2c5fdfc size 0x9c virtual true final true
   inline void UpdateValues();
 
   static inline ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc7248 size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x2c5fe98 size 0x98 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StylePropertyAnimationSystem__ValuesScale", modifiers: "&&", def_value: None }]
@@ -1626,13 +1642,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale, 0x90>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale, ____SameFunc_k__BackingField) == 0x88, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::ValuesRotate
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7295)), TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1571
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6853)) CS Name: ::StylePropertyAnimationSystem::ValuesRotate*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7381)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6928), inst: 1522 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6928))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6939)) CS Name: ::StylePropertyAnimationSystem::ValuesRotate*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesRotate : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::Rotate> {
 public:
   // Declarations
@@ -1648,27 +1666,27 @@ public:
 
   constexpr void __set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* value);
 
-  /// @brief Method get_SameFunc addr 0x2dc72e0 size 0x8 virtual true final false
+  /// @brief Method get_SameFunc addr 0x2c5ff30 size 0x8 virtual true final false
   inline ::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* get_SameFunc();
 
-  /// @brief Method IsSame addr 0x2dc72e8 size 0x48 virtual false final false
+  /// @brief Method IsSame addr 0x2c5ff38 size 0x48 virtual false final false
   static inline bool IsSame(::UnityEngine::UIElements::Rotate a, ::UnityEngine::UIElements::Rotate b);
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc7330 size 0xe8 virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c5ff80 size 0xe8 virtual true final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc7418 size 0xcc virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c60068 size 0xcc virtual true final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method Lerp addr 0x2dc74e4 size 0x80 virtual false final false
+  /// @brief Method Lerp addr 0x2c60134 size 0x80 virtual false final false
   static inline ::UnityEngine::UIElements::Rotate Lerp(::UnityEngine::UIElements::Rotate a, ::UnityEngine::UIElements::Rotate b, float_t t);
 
-  /// @brief Method UpdateValues addr 0x2dc7564 size 0xdc virtual true final true
+  /// @brief Method UpdateValues addr 0x2c601b4 size 0xdc virtual true final true
   inline void UpdateValues();
 
   static inline ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc7640 size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x2c60290 size 0x98 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StylePropertyAnimationSystem__ValuesRotate", modifiers: "&&", def_value: None }]
@@ -1693,13 +1711,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate, 0x90>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate, ____SameFunc_k__BackingField) == 0x88, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::ValuesTranslate
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1575 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7302))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6854)) CS Name: ::StylePropertyAnimationSystem::ValuesTranslate*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7388)), TypeDefinitionIndex(TypeDefinitionIndex(6928)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6928), inst: 1526
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6940)) CS Name: ::StylePropertyAnimationSystem::ValuesTranslate*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesTranslate : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::Translate> {
 public:
   // Declarations
@@ -1715,27 +1735,27 @@ public:
 
   constexpr void __set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* value);
 
-  /// @brief Method get_SameFunc addr 0x2dc76d8 size 0x8 virtual true final false
+  /// @brief Method get_SameFunc addr 0x2c60328 size 0x8 virtual true final false
   inline ::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* get_SameFunc();
 
-  /// @brief Method IsSame addr 0x2dc76e0 size 0x48 virtual false final false
+  /// @brief Method IsSame addr 0x2c60330 size 0x48 virtual false final false
   static inline bool IsSame(::UnityEngine::UIElements::Translate a, ::UnityEngine::UIElements::Translate b);
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc7728 size 0xe8 virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c60378 size 0xe8 virtual true final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc7810 size 0xcc virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c60460 size 0xcc virtual true final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method Lerp addr 0x2dc78dc size 0xd4 virtual false final false
+  /// @brief Method Lerp addr 0x2c6052c size 0xd4 virtual false final false
   static inline ::UnityEngine::UIElements::Translate Lerp(::UnityEngine::UIElements::Translate a, ::UnityEngine::UIElements::Translate b, float_t t);
 
-  /// @brief Method UpdateValues addr 0x2dc79b0 size 0xdc virtual true final true
+  /// @brief Method UpdateValues addr 0x2c60600 size 0xdc virtual true final true
   inline void UpdateValues();
 
   static inline ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc7a8c size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x2c606dc size 0x98 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StylePropertyAnimationSystem__ValuesTranslate", modifiers: "&&", def_value: None }]
@@ -1760,13 +1780,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate, 0x90>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate, ____SameFunc_k__BackingField) == 0x88, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::ValuesTransformOrigin
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1574 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7317))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6855)) CS Name: ::StylePropertyAnimationSystem::ValuesTransformOrigin*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7403)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6928), inst: 1525 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6928))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6941)) CS Name: ::StylePropertyAnimationSystem::ValuesTransformOrigin*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesTransformOrigin : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::TransformOrigin> {
 public:
   // Declarations
@@ -1783,27 +1805,27 @@ public:
 
   constexpr void __set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* value);
 
-  /// @brief Method get_SameFunc addr 0x2dc7b24 size 0x8 virtual true final false
+  /// @brief Method get_SameFunc addr 0x2c60774 size 0x8 virtual true final false
   inline ::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* get_SameFunc();
 
-  /// @brief Method IsSame addr 0x2dc7b2c size 0x48 virtual false final false
+  /// @brief Method IsSame addr 0x2c6077c size 0x48 virtual false final false
   static inline bool IsSame(::UnityEngine::UIElements::TransformOrigin a, ::UnityEngine::UIElements::TransformOrigin b);
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc7b74 size 0xe8 virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c607c4 size 0xe8 virtual true final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle addr 0x2dc7c5c size 0xcc virtual true final true
+  /// @brief Method UpdateComputedStyle addr 0x2c608ac size 0xcc virtual true final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method Lerp addr 0x2dc7d28 size 0xd4 virtual false final false
+  /// @brief Method Lerp addr 0x2c60978 size 0xd4 virtual false final false
   static inline ::UnityEngine::UIElements::TransformOrigin Lerp(::UnityEngine::UIElements::TransformOrigin a, ::UnityEngine::UIElements::TransformOrigin b, float_t t);
 
-  /// @brief Method UpdateValues addr 0x2dc7dfc size 0xdc virtual true final true
+  /// @brief Method UpdateValues addr 0x2c60a4c size 0xdc virtual true final true
   inline void UpdateValues();
 
   static inline ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTransformOrigin* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc7ed8 size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x2c60b28 size 0x98 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StylePropertyAnimationSystem__ValuesTransformOrigin", modifiers: "&&", def_value: None }]
@@ -1828,13 +1850,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTransformOrigin, 0x90>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTransformOrigin, ____SameFunc_k__BackingField) == 0x88, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::StylePropertyAnimationSystem
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6856))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6942))
 // CS Name: ::UnityEngine.UIElements::StylePropertyAnimationSystem*
 class CORDL_TYPE StylePropertyAnimationSystem : public ::System::Object {
 public:
@@ -2021,7 +2045,7 @@ public:
 
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc4344 size 0xf4 virtual false final false
+  /// @brief Method .ctor addr 0x2c5cf94 size 0xf4 virtual false final false
   inline void _ctor();
 
   /// @brief Method GetOrCreate addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -2032,76 +2056,76 @@ public:
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, T startValue, T endValue, int32_t durationMs,
                               int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve, ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T>* values);
 
-  /// @brief Method StartTransition addr 0x2dc4438 size 0xc8 virtual true final true
+  /// @brief Method StartTransition addr 0x2c5d088 size 0xc8 virtual true final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, float_t startValue, float_t endValue, int32_t durationMs,
                               int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition addr 0x2dc4500 size 0xd8 virtual true final true
+  /// @brief Method StartTransition addr 0x2c5d150 size 0xd8 virtual true final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, int32_t startValue, int32_t endValue, int32_t durationMs,
                               int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition addr 0x2dc45d8 size 0xd8 virtual true final true
+  /// @brief Method StartTransition addr 0x2c5d228 size 0xd8 virtual true final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Length startValue,
                               ::UnityEngine::UIElements::Length endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition addr 0x2dc46b0 size 0x110 virtual true final true
+  /// @brief Method StartTransition addr 0x2c5d300 size 0x110 virtual true final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::Color startValue,
                               ::UnityEngine::Color endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition addr 0x2dc47c0 size 0xf8 virtual true final true
+  /// @brief Method StartTransition addr 0x2c5d410 size 0xf8 virtual true final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Background startValue,
                               ::UnityEngine::UIElements::Background endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition addr 0x2dc48b8 size 0xf0 virtual true final true
+  /// @brief Method StartTransition addr 0x2c5d508 size 0xf0 virtual true final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::FontDefinition startValue,
                               ::UnityEngine::UIElements::FontDefinition endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition addr 0x2dc49a8 size 0xd8 virtual true final true
+  /// @brief Method StartTransition addr 0x2c5d5f8 size 0xd8 virtual true final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::Font* startValue,
                               ::UnityEngine::Font* endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition addr 0x2dc4a80 size 0x118 virtual true final true
+  /// @brief Method StartTransition addr 0x2c5d6d0 size 0x118 virtual true final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::TextShadow startValue,
                               ::UnityEngine::UIElements::TextShadow endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition addr 0x2dc4b98 size 0xf0 virtual true final true
+  /// @brief Method StartTransition addr 0x2c5d7e8 size 0xf0 virtual true final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Scale startValue,
                               ::UnityEngine::UIElements::Scale endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition addr 0x2dc4c88 size 0x118 virtual true final true
+  /// @brief Method StartTransition addr 0x2c5d8d8 size 0x118 virtual true final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Rotate startValue,
                               ::UnityEngine::UIElements::Rotate endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition addr 0x2dc4da0 size 0x118 virtual true final true
+  /// @brief Method StartTransition addr 0x2c5d9f0 size 0x118 virtual true final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Translate startValue,
                               ::UnityEngine::UIElements::Translate endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition addr 0x2dc4eb8 size 0x118 virtual true final true
+  /// @brief Method StartTransition addr 0x2c5db08 size 0x118 virtual true final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::TransformOrigin startValue,
                               ::UnityEngine::UIElements::TransformOrigin endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method CancelAllAnimations addr 0x2dc4fd0 size 0x150 virtual true final true
+  /// @brief Method CancelAllAnimations addr 0x2c5dc20 size 0x150 virtual true final true
   inline void CancelAllAnimations();
 
-  /// @brief Method CancelAllAnimations addr 0x2dc5120 size 0x2b4 virtual true final true
+  /// @brief Method CancelAllAnimations addr 0x2c5dd70 size 0x2b4 virtual true final true
   inline void CancelAllAnimations(::UnityEngine::UIElements::VisualElement* owner);
 
-  /// @brief Method CancelAnimation addr 0x2dc53d4 size 0x90 virtual true final true
+  /// @brief Method CancelAnimation addr 0x2c5e024 size 0x90 virtual true final true
   inline void CancelAnimation(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method UpdateAnimation addr 0x2dc5464 size 0x90 virtual true final true
+  /// @brief Method UpdateAnimation addr 0x2c5e0b4 size 0x90 virtual true final true
   inline void UpdateAnimation(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetAllAnimations addr 0x2dc54f4 size 0x158 virtual true final true
+  /// @brief Method GetAllAnimations addr 0x2c5e144 size 0x158 virtual true final true
   inline void GetAllAnimations(::UnityEngine::UIElements::VisualElement* owner, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* propertyIds);
 
   /// @brief Method UpdateTracking addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> inline void UpdateTracking(::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T>* values);
 
-  /// @brief Method CurrentTimeMs addr 0x2dc564c size 0x8 virtual false final false
+  /// @brief Method CurrentTimeMs addr 0x2c5e29c size 0x8 virtual false final false
   inline int64_t CurrentTimeMs();
 
-  /// @brief Method Update addr 0x2dc5654 size 0xd4 virtual true final true
+  /// @brief Method Update addr 0x2c5e2a4 size 0xd4 virtual true final true
   inline void Update();
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem", modifiers: "&&", def_value: None }]
@@ -2167,6 +2191,36 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StylePropertyAnimationSystem, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StylePropertyAnimationSystem, ___m_CurrentTimeMs) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StylePropertyAnimationSystem, ___m_Floats) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StylePropertyAnimationSystem, ___m_Ints) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StylePropertyAnimationSystem, ___m_Lengths) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StylePropertyAnimationSystem, ___m_Colors) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StylePropertyAnimationSystem, ___m_Backgrounds) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StylePropertyAnimationSystem, ___m_FontDefinitions) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StylePropertyAnimationSystem, ___m_Fonts) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StylePropertyAnimationSystem, ___m_TextShadows) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StylePropertyAnimationSystem, ___m_Scale) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StylePropertyAnimationSystem, ___m_Rotate) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StylePropertyAnimationSystem, ___m_Translate) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StylePropertyAnimationSystem, ___m_TransformOrigin) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StylePropertyAnimationSystem, ___m_AllValues) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StylePropertyAnimationSystem, ___m_PropertyToValues) == 0x80, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__StylePropertyAnimationSystem__TransitionState, "UnityEngine.UIElements", "StylePropertyAnimationSystem/TransitionState");

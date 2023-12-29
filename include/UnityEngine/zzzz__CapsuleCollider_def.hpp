@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::CapsuleCollider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15492))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15494))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15476))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15478))
 // CS Name: ::UnityEngine::CapsuleCollider*
 class CORDL_TYPE CapsuleCollider : public ::UnityEngine::Collider {
 public:
@@ -34,31 +34,31 @@ public:
 
   __declspec(property(put = set_direction)) int32_t direction;
 
-  /// @brief Method get_center addr 0x2d16f38 size 0x5c virtual false final false
+  /// @brief Method get_center addr 0x2bafc78 size 0x5c virtual false final false
   inline ::UnityEngine::Vector3 get_center();
 
-  /// @brief Method set_center addr 0x2d16fd8 size 0x54 virtual false final false
+  /// @brief Method set_center addr 0x2bafd18 size 0x54 virtual false final false
   inline void set_center(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_radius addr 0x2d17070 size 0x3c virtual false final false
+  /// @brief Method get_radius addr 0x2bafdb0 size 0x3c virtual false final false
   inline float_t get_radius();
 
-  /// @brief Method set_radius addr 0x2d170ac size 0x4c virtual false final false
+  /// @brief Method set_radius addr 0x2bafdec size 0x4c virtual false final false
   inline void set_radius(float_t value);
 
-  /// @brief Method get_height addr 0x2d170f8 size 0x3c virtual false final false
+  /// @brief Method get_height addr 0x2bafe38 size 0x3c virtual false final false
   inline float_t get_height();
 
-  /// @brief Method set_height addr 0x2d17134 size 0x4c virtual false final false
+  /// @brief Method set_height addr 0x2bafe74 size 0x4c virtual false final false
   inline void set_height(float_t value);
 
-  /// @brief Method set_direction addr 0x2d17180 size 0x44 virtual false final false
+  /// @brief Method set_direction addr 0x2bafec0 size 0x44 virtual false final false
   inline void set_direction(int32_t value);
 
-  /// @brief Method get_center_Injected addr 0x2d16f94 size 0x44 virtual false final false
+  /// @brief Method get_center_Injected addr 0x2bafcd4 size 0x44 virtual false final false
   inline void get_center_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method set_center_Injected addr 0x2d1702c size 0x44 virtual false final false
+  /// @brief Method set_center_Injected addr 0x2bafd6c size 0x44 virtual false final false
   inline void set_center_Injected(ByRef<::UnityEngine::Vector3> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "CapsuleCollider", modifiers: "&&", def_value: None }]

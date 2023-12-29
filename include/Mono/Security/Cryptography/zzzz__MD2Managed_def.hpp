@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::MD2Managed);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2277))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2278))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14061))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14062))
 // CS Name: ::Mono.Security.Cryptography::MD2Managed*
 class CORDL_TYPE MD2Managed : public ::Mono::Security::Cryptography::MD2 {
 public:
@@ -74,24 +74,24 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_PI_SUBST();
 
-  /// @brief Method Padding addr 0x2420948 size 0x9c virtual false final false
+  /// @brief Method Padding addr 0x22aa62c size 0x9c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Padding(int32_t nLength);
 
   static inline ::Mono::Security::Cryptography::MD2Managed* New_ctor();
 
-  /// @brief Method .ctor addr 0x24208a4 size 0xa4 virtual false final false
+  /// @brief Method .ctor addr 0x22aa588 size 0xa4 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Initialize addr 0x24209e4 size 0x60 virtual true final false
+  /// @brief Method Initialize addr 0x22aa6c8 size 0x60 virtual true final false
   inline void Initialize();
 
-  /// @brief Method HashCore addr 0x2420a44 size 0xdc virtual true final false
+  /// @brief Method HashCore addr 0x22aa728 size 0xdc virtual true final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal addr 0x2420d78 size 0xf0 virtual true final false
+  /// @brief Method HashFinal addr 0x22aaa5c size 0xf0 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method MD2Transform addr 0x2420b20 size 0x258 virtual false final false
+  /// @brief Method MD2Transform addr 0x22aa804 size 0x258 virtual false final false
   inline void MD2Transform(::ArrayW<uint8_t, ::Array<uint8_t>*> state, ::ArrayW<uint8_t, ::Array<uint8_t>*> checksum, ::ArrayW<uint8_t, ::Array<uint8_t>*> block, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "MD2Managed", modifiers: "&&", def_value: None }]
@@ -127,6 +127,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Cryptography::MD2Managed, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::MD2Managed, ___state) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::MD2Managed, ___checksum) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::MD2Managed, ___buffer) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::MD2Managed, ___count) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Cryptography::MD2Managed, ___x) == 0x48, "Offset mismatch!");
 
 } // namespace Mono::Security::Cryptography
 NEED_NO_BOX(::Mono::Security::Cryptography::MD2Managed);

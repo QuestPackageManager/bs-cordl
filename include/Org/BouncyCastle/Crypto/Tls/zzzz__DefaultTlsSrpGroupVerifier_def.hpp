@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultTlsSrpGroupVerifier)
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Srp6GroupParameters;
+}
 namespace System::Collections {
 class IList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSrpGroupVerifier;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Srp6GroupParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1217))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DefaultTlsSrpGroupVerifier*
 class CORDL_TYPE DefaultTlsSrpGroupVerifier : public ::System::Object {
@@ -53,21 +53,21 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier* New_ctor();
 
-  /// @brief Method .ctor addr 0xf664d4 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0xef02b0 size 0x6c virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier* New_ctor(::System::Collections::IList* groups);
 
-  /// @brief Method .ctor addr 0xf66540 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xef031c size 0x28 virtual false final false
   inline void _ctor(::System::Collections::IList* groups);
 
-  /// @brief Method Accept addr 0xf66568 size 0x358 virtual true final false
+  /// @brief Method Accept addr 0xef0344 size 0x358 virtual true final false
   inline bool Accept(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group);
 
-  /// @brief Method AreGroupsEqual addr 0xf668c0 size 0x78 virtual true final false
+  /// @brief Method AreGroupsEqual addr 0xef069c size 0x78 virtual true final false
   inline bool AreGroupsEqual(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* a, ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* b);
 
-  /// @brief Method AreParametersEqual addr 0xf66938 size 0x3c virtual true final false
+  /// @brief Method AreParametersEqual addr 0xef0714 size 0x3c virtual true final false
   inline bool AreParametersEqual(::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultTlsSrpGroupVerifier", modifiers: "&&", def_value: None }]
@@ -91,6 +91,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier, ___mGroups) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier);

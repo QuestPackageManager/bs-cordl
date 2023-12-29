@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Utils)
-namespace UnityEngine {
-struct Vector4;
-}
 namespace Unity::XR::Oculus {
 struct SystemHeadset;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace Unity::XR::Oculus {
@@ -21,25 +21,25 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::Utils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15125))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15270))
 // CS Name: ::Unity.XR.Oculus::Utils*
 class CORDL_TYPE Utils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetColorScaleAndOffset addr 0x2c770b4 size 0x40 virtual false final false
+  /// @brief Method SetColorScaleAndOffset addr 0x2af43a0 size 0x40 virtual false final false
   static inline void SetColorScaleAndOffset(::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset);
 
-  /// @brief Method GetSystemHeadsetType addr 0x2c770fc size 0x4 virtual false final false
+  /// @brief Method GetSystemHeadsetType addr 0x2af43e8 size 0x4 virtual false final false
   static inline ::Unity::XR::Oculus::SystemHeadset GetSystemHeadsetType();
 
-  /// @brief Method SetFoveationLevel addr 0x2c77104 size 0x8c virtual false final false
+  /// @brief Method SetFoveationLevel addr 0x2af43f0 size 0x8c virtual false final false
   static inline bool SetFoveationLevel(int32_t level);
 
-  /// @brief Method EnableDynamicFFR addr 0x2c77198 size 0x8c virtual false final false
+  /// @brief Method EnableDynamicFFR addr 0x2af4484 size 0x8c virtual false final false
   static inline bool EnableDynamicFFR(bool enable);
 
-  /// @brief Method GetFoveationLevel addr 0x2c7722c size 0x78 virtual false final false
+  /// @brief Method GetFoveationLevel addr 0x2af4518 size 0x78 virtual false final false
   static inline int32_t GetFoveationLevel();
 
   // Ctor Parameters [CppParam { name: "", ty: "Utils", modifiers: "&&", def_value: None }]

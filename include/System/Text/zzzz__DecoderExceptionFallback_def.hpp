@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Text::DecoderExceptionFallback);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2833))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2830))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2829))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2826))
 // CS Name: ::System.Text::DecoderExceptionFallback*
 class CORDL_TYPE DecoderExceptionFallback : public ::System::Text::DecoderFallback {
 public:
@@ -31,19 +31,19 @@ public:
 
   static inline ::System::Text::DecoderExceptionFallback* New_ctor();
 
-  /// @brief Method .ctor addr 0x2631024 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24d6f18 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method CreateFallbackBuffer addr 0x263102c size 0x5c virtual true final false
+  /// @brief Method CreateFallbackBuffer addr 0x24d6f20 size 0x5c virtual true final false
   inline ::System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
 
-  /// @brief Method get_MaxCharCount addr 0x2631090 size 0x8 virtual true final false
+  /// @brief Method get_MaxCharCount addr 0x24d6f84 size 0x8 virtual true final false
   inline int32_t get_MaxCharCount();
 
-  /// @brief Method Equals addr 0x2631098 size 0x5c virtual true final false
+  /// @brief Method Equals addr 0x24d6f8c size 0x5c virtual true final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode addr 0x26310f4 size 0x8 virtual true final false
+  /// @brief Method GetHashCode addr 0x24d6fe8 size 0x8 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DecoderExceptionFallback", modifiers: "&&", def_value: None }]

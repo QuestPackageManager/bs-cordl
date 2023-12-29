@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Diagnostics::Stopwatch);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8961))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7798))
 // CS Name: ::System.Diagnostics::Stopwatch*
 class CORDL_TYPE Stopwatch : public ::System::Object {
 public:
@@ -73,36 +73,36 @@ public:
 
   static inline bool getStaticF_IsHighResolution();
 
-  /// @brief Method GetTimestamp addr 0x296cc10 size 0x4 virtual false final false
+  /// @brief Method GetTimestamp addr 0x27ef314 size 0x4 virtual false final false
   static inline int64_t GetTimestamp();
 
-  /// @brief Method StartNew addr 0x2973e30 size 0x64 virtual false final false
+  /// @brief Method StartNew addr 0x27f60b8 size 0x64 virtual false final false
   static inline ::System::Diagnostics::Stopwatch* StartNew();
 
   static inline ::System::Diagnostics::Stopwatch* New_ctor();
 
-  /// @brief Method .ctor addr 0x2973e94 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27f611c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_Elapsed addr 0x2973f04 size 0xf8 virtual false final false
+  /// @brief Method get_Elapsed addr 0x27f618c size 0xf8 virtual false final false
   inline ::System::TimeSpan get_Elapsed();
 
-  /// @brief Method get_ElapsedMilliseconds addr 0x297406c size 0x11c virtual false final false
+  /// @brief Method get_ElapsedMilliseconds addr 0x27f62f4 size 0x11c virtual false final false
   inline int64_t get_ElapsedMilliseconds();
 
-  /// @brief Method get_ElapsedTicks addr 0x2973ffc size 0x70 virtual false final false
+  /// @brief Method get_ElapsedTicks addr 0x27f6284 size 0x70 virtual false final false
   inline int64_t get_ElapsedTicks();
 
-  /// @brief Method get_IsRunning addr 0x2974188 size 0x8 virtual false final false
+  /// @brief Method get_IsRunning addr 0x27f6410 size 0x8 virtual false final false
   inline bool get_IsRunning();
 
-  /// @brief Method Reset addr 0x2974190 size 0xc virtual false final false
+  /// @brief Method Reset addr 0x27f6418 size 0xc virtual false final false
   inline void Reset();
 
-  /// @brief Method Start addr 0x2973e9c size 0x68 virtual false final false
+  /// @brief Method Start addr 0x27f6124 size 0x68 virtual false final false
   inline void Start();
 
-  /// @brief Method Stop addr 0x297419c size 0x78 virtual false final false
+  /// @brief Method Stop addr 0x27f6424 size 0x78 virtual false final false
   inline void Stop();
 
   // Ctor Parameters [CppParam { name: "", ty: "Stopwatch", modifiers: "&&", def_value: None }]
@@ -132,6 +132,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::Stopwatch, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Stopwatch, ___elapsed) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Stopwatch, ___started) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Stopwatch, ___is_running) == 0x20, "Offset mismatch!");
 
 } // namespace System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::Stopwatch);

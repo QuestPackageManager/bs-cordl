@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SceneManagement::LoadSceneMode);
 namespace UnityEngine::SceneManagement {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10375))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10297))
 // CS Name: ::UnityEngine.SceneManagement::LoadSceneMode
 struct CORDL_TYPE LoadSceneMode {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SceneManagement::LoadSceneMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::SceneManagement::LoadSceneMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::SceneManagement
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SceneManagement::LoadSceneMode, "UnityEngine.SceneManagement", "LoadSceneMode");

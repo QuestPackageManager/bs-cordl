@@ -9,38 +9,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeArray_1)
-namespace Unity::Jobs {
-struct JobHandle;
+namespace Unity::Collections {
+struct Allocator;
 }
 namespace System {
 class IDisposable;
 }
+namespace System::Collections {
+class IEnumerable;
+}
+namespace Unity::Jobs {
+struct JobHandle;
+}
 namespace System {
 class Object;
-}
-namespace Unity::Collections {
-struct NativeArrayOptions;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace Unity::Collections {
-template <typename T> struct __NativeArray_1__Enumerator;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace Unity::Collections {
-struct Allocator;
-}
-namespace System::Collections {
-class IEnumerator;
+struct NativeArrayOptions;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Unity::Collections {
+template <typename T> struct __NativeArray_1__Enumerator;
 }
 // Forward declare root types
 namespace Unity::Collections {
@@ -58,8 +58,8 @@ namespace Unity::Collections {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10003))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9999))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9931))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9927))
 // CS Name: ::Unity.Collections::NativeArray`1<T>
 struct CORDL_TYPE NativeArray_1 {
 public:
@@ -87,9 +87,6 @@ public:
   /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
   inline void _ctor(int32_t length, ::Unity::Collections::Allocator allocator, ::Unity::Collections::NativeArrayOptions options);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(::ArrayW<T, ::Array<T>*> array, ::Unity::Collections::Allocator allocator);
-
   /// @brief Method Allocate addr 0x0 size 0xffffffffffffffff virtual false final false
   static inline void Allocate(int32_t length, ::Unity::Collections::Allocator allocator, ByRef<::Unity::Collections::NativeArray_1<T>> array);
 
@@ -113,9 +110,6 @@ public:
 
   /// @brief Method CopyFrom addr 0x0 size 0xffffffffffffffff virtual false final false
   inline void CopyFrom(::Unity::Collections::NativeArray_1<T> array);
-
-  /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void CopyTo(::ArrayW<T, ::Array<T>*> array);
 
   /// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual false final false
   inline ::ArrayW<T, ::Array<T>*> ToArray();
@@ -142,12 +136,6 @@ public:
   static inline void Copy(::Unity::Collections::NativeArray_1<T> src, ::Unity::Collections::NativeArray_1<T> dst);
 
   /// @brief Method Copy addr 0x0 size 0xffffffffffffffff virtual false final false
-  static inline void Copy(::ArrayW<T, ::Array<T>*> src, ::Unity::Collections::NativeArray_1<T> dst);
-
-  /// @brief Method Copy addr 0x0 size 0xffffffffffffffff virtual false final false
-  static inline void Copy(::Unity::Collections::NativeArray_1<T> src, ::ArrayW<T, ::Array<T>*> dst);
-
-  /// @brief Method Copy addr 0x0 size 0xffffffffffffffff virtual false final false
   static inline void Copy(::Unity::Collections::NativeArray_1<T> src, ::Unity::Collections::NativeArray_1<T> dst, int32_t length);
 
   /// @brief Method Copy addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -157,16 +145,7 @@ public:
   static inline void Copy(::Unity::Collections::NativeArray_1<T> src, int32_t srcIndex, ::Unity::Collections::NativeArray_1<T> dst, int32_t dstIndex, int32_t length);
 
   /// @brief Method Copy addr 0x0 size 0xffffffffffffffff virtual false final false
-  static inline void Copy(::ArrayW<T, ::Array<T>*> src, int32_t srcIndex, ::Unity::Collections::NativeArray_1<T> dst, int32_t dstIndex, int32_t length);
-
-  /// @brief Method Copy addr 0x0 size 0xffffffffffffffff virtual false final false
   static inline void Copy(::Unity::Collections::NativeArray_1<T> src, int32_t srcIndex, ::ArrayW<T, ::Array<T>*> dst, int32_t dstIndex, int32_t length);
-
-  /// @brief Method InternalReinterpret addr 0x0 size 0xffffffffffffffff virtual false final false
-  template <typename U> inline ::Unity::Collections::NativeArray_1<U> InternalReinterpret(int32_t length);
-
-  /// @brief Method Reinterpret addr 0x0 size 0xffffffffffffffff virtual false final false
-  template <typename U> inline ::Unity::Collections::NativeArray_1<U> Reinterpret(int32_t expectedTypeSize);
 
   // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "m_AllocatorLabel", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None }]
@@ -198,8 +177,8 @@ namespace Unity::Collections {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 3160 }), TypeDefinitionIndex(TypeDefinitionIndex(9999))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9998))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9927)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 3095 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9926))
 // CS Name: ::NativeArray`1::Enumerator<T>
 struct CORDL_TYPE __NativeArray_1__Enumerator {
 public:

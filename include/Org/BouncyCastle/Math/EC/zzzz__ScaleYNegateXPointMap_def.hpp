@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1577))
 // CS Name: ::Org.BouncyCastle.Math.EC::ScaleYNegateXPointMap*
 class CORDL_TYPE ScaleYNegateXPointMap : public ::System::Object {
@@ -43,10 +43,10 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap* New_ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method .ctor addr 0x105ae4c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xfe9c00 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method Map addr 0x105ae74 size 0x2c virtual true final false
+  /// @brief Method Map addr 0xfe9c28 size 0x2c virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Map(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
   // Ctor Parameters [CppParam { name: "", ty: "ScaleYNegateXPointMap", modifiers: "&&", def_value: None }]
@@ -70,6 +70,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap, ___scale) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap);

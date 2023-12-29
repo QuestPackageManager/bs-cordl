@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(MultiplayerEnvironmentSpectatingSpot)
 namespace GlobalNamespace {
 class MultiplayerSpectatingSpotManager;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class MultiplayerActivePlayersTimeOffsetAverage;
 }
 namespace GlobalNamespace {
 class IMultiplayerObservable;
 }
-namespace GlobalNamespace {
-class IMultiplayerSpectatingSpot;
+namespace UnityEngine {
+class Transform;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class MultiplayerActivePlayersTimeOffsetAverage;
+class IMultiplayerSpectatingSpot;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5260))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5355))
 // CS Name: ::MultiplayerEnvironmentSpectatingSpot*
 class CORDL_TYPE MultiplayerEnvironmentSpectatingSpot : public ::UnityEngine::MonoBehaviour {
 public:
@@ -104,36 +104,36 @@ public:
 
   constexpr void __set_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
-  /// @brief Method add_hasBeenRemovedEvent addr 0x225dd40 size 0xb0 virtual true final true
+  /// @brief Method add_hasBeenRemovedEvent addr 0x2119ba8 size 0xb0 virtual true final true
   inline void add_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
-  /// @brief Method remove_hasBeenRemovedEvent addr 0x225ddf0 size 0xb0 virtual true final true
+  /// @brief Method remove_hasBeenRemovedEvent addr 0x2119c58 size 0xb0 virtual true final true
   inline void remove_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
-  /// @brief Method get_observable addr 0x225dea0 size 0x8 virtual true final true
+  /// @brief Method get_observable addr 0x2119d08 size 0x8 virtual true final true
   inline ::GlobalNamespace::IMultiplayerObservable* get_observable();
 
-  /// @brief Method get_spotName addr 0x225dea8 size 0xbc virtual true final true
+  /// @brief Method get_spotName addr 0x2119d10 size 0xbc virtual true final true
   inline ::StringW get_spotName();
 
-  /// @brief Method get_isMain addr 0x225df64 size 0x8 virtual true final true
+  /// @brief Method get_isMain addr 0x2119dcc size 0x8 virtual true final true
   inline bool get_isMain();
 
-  /// @brief Method Start addr 0x225df6c size 0x1c virtual false final false
+  /// @brief Method Start addr 0x2119dd4 size 0x1c virtual false final false
   inline void Start();
 
-  /// @brief Method OnDisable addr 0x225df88 size 0x20 virtual false final false
+  /// @brief Method OnDisable addr 0x2119df0 size 0x20 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method SetIsObserved addr 0x225dfa8 size 0x4 virtual true final true
+  /// @brief Method SetIsObserved addr 0x2119e10 size 0x4 virtual true final true
   inline void SetIsObserved(bool isObserved);
 
   static inline ::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot* New_ctor();
 
-  /// @brief Method .ctor addr 0x225dfac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2119e14 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method IMultiplayerSpectatingSpot.get_transform addr 0x225dfb4 size 0x8 virtual true final true
+  /// @brief Method IMultiplayerSpectatingSpot.get_transform addr 0x2119e1c size 0x8 virtual true final true
   inline ::UnityEngine::Transform* IMultiplayerSpectatingSpot_get_transform();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentSpectatingSpot", modifiers: "&&", def_value: None }]
@@ -172,6 +172,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot, ____preferredSpectatingSpot) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot, ____displaySpotNumber) == 0x19, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot, ____spotNumber) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot, ____spectatingSpotManager) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot, ____activePlayersTimeOffsetAverage) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot, ___hasBeenRemovedEvent) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot);

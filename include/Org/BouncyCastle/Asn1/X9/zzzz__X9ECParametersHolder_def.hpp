@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3))
 // CS Name: ::Org.BouncyCastle.Asn1.X9::X9ECParametersHolder*
 class CORDL_TYPE X9ECParametersHolder : public ::System::Object {
@@ -34,7 +34,7 @@ public:
 
   constexpr void __set_parameters(::Org::BouncyCastle::Asn1::X9::X9ECParameters* value);
 
-  /// @brief Method get_Parameters addr 0xe62558 size 0xb8 virtual false final false
+  /// @brief Method get_Parameters addr 0xded388 size 0xb8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* get_Parameters();
 
   /// @brief Method CreateParameters addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -42,7 +42,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* New_ctor();
 
-  /// @brief Method .ctor addr 0xe6282c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xded65c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X9ECParametersHolder", modifiers: "&&", def_value: None }]
@@ -66,6 +66,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, ___parameters) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X9
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder);

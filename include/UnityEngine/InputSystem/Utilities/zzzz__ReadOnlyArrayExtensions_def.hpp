@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReadOnlyArrayExtensions)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::ReadOnlyArrayExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6702))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6788))
 // CS Name: ::UnityEngine.InputSystem.Utilities::ReadOnlyArrayExtensions*
 class CORDL_TYPE ReadOnlyArrayExtensions : public ::System::Object {
 public:

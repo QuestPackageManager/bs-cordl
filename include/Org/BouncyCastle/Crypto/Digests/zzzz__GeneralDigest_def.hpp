@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::GeneralDigest);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(750))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::GeneralDigest*
 class CORDL_TYPE GeneralDigest : public ::System::Object {
@@ -66,30 +66,30 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::GeneralDigest* New_ctor();
 
-  /// @brief Method .ctor addr 0x1221530 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x11b02e0 size 0x5c virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::GeneralDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::GeneralDigest* t);
 
-  /// @brief Method .ctor addr 0x122158c size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x11b033c size 0x78 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::GeneralDigest* t);
 
-  /// @brief Method CopyIn addr 0x1221604 size 0x54 virtual false final false
+  /// @brief Method CopyIn addr 0x11b03b4 size 0x54 virtual false final false
   inline void CopyIn(::Org::BouncyCastle::Crypto::Digests::GeneralDigest* t);
 
-  /// @brief Method Update addr 0x1221658 size 0x80 virtual true final true
+  /// @brief Method Update addr 0x11b0408 size 0x80 virtual true final true
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate addr 0x12216d8 size 0x1c0 virtual true final true
+  /// @brief Method BlockUpdate addr 0x11b0488 size 0x1c0 virtual true final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Finish addr 0x1221898 size 0x64 virtual false final false
+  /// @brief Method Finish addr 0x11b0648 size 0x64 virtual false final false
   inline void Finish();
 
-  /// @brief Method Reset addr 0x12218fc size 0x30 virtual true final false
+  /// @brief Method Reset addr 0x11b06ac size 0x30 virtual true final false
   inline void Reset();
 
-  /// @brief Method GetByteLength addr 0x122192c size 0x8 virtual true final true
+  /// @brief Method GetByteLength addr 0x11b06dc size 0x8 virtual true final true
   inline int32_t GetByteLength();
 
   /// @brief Method ProcessWord addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -146,6 +146,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::GeneralDigest, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::GeneralDigest, ___xBuf) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::GeneralDigest, ___xBufOff) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::GeneralDigest, ___byteCount) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Digests
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::GeneralDigest);

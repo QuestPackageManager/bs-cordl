@@ -11,13 +11,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRScreenshots)
 namespace OVR::OpenVR {
-struct EVRScreenshotError;
-}
-namespace OVR::OpenVR {
 struct EVRScreenshotType;
 }
 namespace OVR::OpenVR {
 struct EVRScreenshotPropertyFilenames;
+}
+namespace OVR::OpenVR {
+struct EVRScreenshotError;
 }
 namespace System::Text {
 class StringBuilder;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRScreenshots);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8514)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8573))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(9283))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9342))
 // CS Name: ::OVR.OpenVR::CVRScreenshots*
 class CORDL_TYPE CVRScreenshots : public ::System::Object {
 public:
@@ -49,29 +49,29 @@ public:
 
   static inline ::OVR::OpenVR::CVRScreenshots* New_ctor(void* pInterface);
 
-  /// @brief Method .ctor addr 0x27f5574 size 0x11c virtual false final false
+  /// @brief Method .ctor addr 0x267e5f0 size 0x11c virtual false final false
   inline void _ctor(void* pInterface);
 
-  /// @brief Method RequestScreenshot addr 0x27f5690 size 0x28 virtual false final false
+  /// @brief Method RequestScreenshot addr 0x267e70c size 0x28 virtual false final false
   inline ::OVR::OpenVR::EVRScreenshotError RequestScreenshot(ByRef<uint32_t> pOutScreenshotHandle, ::OVR::OpenVR::EVRScreenshotType type, ::StringW pchPreviewFilename, ::StringW pchVRFilename);
 
-  /// @brief Method HookScreenshot addr 0x27f56b8 size 0x2c virtual false final false
+  /// @brief Method HookScreenshot addr 0x267e734 size 0x2c virtual false final false
   inline ::OVR::OpenVR::EVRScreenshotError HookScreenshot(::ArrayW<::OVR::OpenVR::EVRScreenshotType, ::Array<::OVR::OpenVR::EVRScreenshotType>*> pSupportedTypes);
 
-  /// @brief Method GetScreenshotPropertyType addr 0x27f56e4 size 0x24 virtual false final false
+  /// @brief Method GetScreenshotPropertyType addr 0x267e760 size 0x24 virtual false final false
   inline ::OVR::OpenVR::EVRScreenshotType GetScreenshotPropertyType(uint32_t screenshotHandle, ByRef<::OVR::OpenVR::EVRScreenshotError> pError);
 
-  /// @brief Method GetScreenshotPropertyFilename addr 0x27f5708 size 0x24 virtual false final false
+  /// @brief Method GetScreenshotPropertyFilename addr 0x267e784 size 0x24 virtual false final false
   inline uint32_t GetScreenshotPropertyFilename(uint32_t screenshotHandle, ::OVR::OpenVR::EVRScreenshotPropertyFilenames filenameType, ::System::Text::StringBuilder* pchFilename, uint32_t cchFilename,
                                                 ByRef<::OVR::OpenVR::EVRScreenshotError> pError);
 
-  /// @brief Method UpdateScreenshotProgress addr 0x27f572c size 0x24 virtual false final false
+  /// @brief Method UpdateScreenshotProgress addr 0x267e7a8 size 0x24 virtual false final false
   inline ::OVR::OpenVR::EVRScreenshotError UpdateScreenshotProgress(uint32_t screenshotHandle, float_t flProgress);
 
-  /// @brief Method TakeStereoScreenshot addr 0x27f5750 size 0x28 virtual false final false
+  /// @brief Method TakeStereoScreenshot addr 0x267e7cc size 0x28 virtual false final false
   inline ::OVR::OpenVR::EVRScreenshotError TakeStereoScreenshot(ByRef<uint32_t> pOutScreenshotHandle, ::StringW pchPreviewFilename, ::StringW pchVRFilename);
 
-  /// @brief Method SubmitScreenshot addr 0x27f5778 size 0x24 virtual false final false
+  /// @brief Method SubmitScreenshot addr 0x267e7f4 size 0x24 virtual false final false
   inline ::OVR::OpenVR::EVRScreenshotError SubmitScreenshot(uint32_t screenshotHandle, ::OVR::OpenVR::EVRScreenshotType type, ::StringW pchSourcePreviewFilename, ::StringW pchSourceVRFilename);
 
   // Ctor Parameters [CppParam { name: "", ty: "CVRScreenshots", modifiers: "&&", def_value: None }]
@@ -95,6 +95,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::CVRScreenshots, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::CVRScreenshots, ___FnTable) == 0x10, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 NEED_NO_BOX(::OVR::OpenVR::CVRScreenshots);

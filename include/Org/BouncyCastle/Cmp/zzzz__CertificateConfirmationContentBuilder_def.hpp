@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CertificateConfirmationContentBuilder)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Cmp {
-class CertificateConfirmationContent;
-}
 namespace Org::BouncyCastle::Cms {
 class DefaultDigestAlgorithmIdentifierFinder;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
+namespace System::Collections {
+class IList;
+}
 namespace Org::BouncyCastle::Cms {
 class DefaultSignatureAlgorithmIdentifierFinder;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Cmp {
+class CertificateConfirmationContent;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(602))
 // CS Name: ::Org.BouncyCastle.Cmp::CertificateConfirmationContentBuilder*
 class CORDL_TYPE CertificateConfirmationContentBuilder : public ::System::Object {
@@ -74,19 +74,19 @@ public:
 
   static inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder* New_ctor();
 
-  /// @brief Method .ctor addr 0x11d553c size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x11642ec size 0x64 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder* New_ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder);
 
-  /// @brief Method .ctor addr 0x11d55a0 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x1164350 size 0x84 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder);
 
-  /// @brief Method AddAcceptedCertificate addr 0x11d5624 size 0x128 virtual false final false
+  /// @brief Method AddAcceptedCertificate addr 0x11643d4 size 0x128 virtual false final false
   inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder* AddAcceptedCertificate(::Org::BouncyCastle::X509::X509Certificate* certHolder,
                                                                                                  ::Org::BouncyCastle::Math::BigInteger* certReqId);
 
-  /// @brief Method Build addr 0x11d574c size 0x470 virtual false final false
+  /// @brief Method Build addr 0x11644fc size 0x470 virtual false final false
   inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContent* Build();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateConfirmationContentBuilder", modifiers: "&&", def_value: None }]
@@ -116,6 +116,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder, ___digestAlgFinder) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder, ___acceptedCerts) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder, ___acceptedReqIds) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder);

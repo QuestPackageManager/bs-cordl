@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_TreePrototypeInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9954))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9881))
 // CS Name: ::HoudiniEngineUnity::HEU_TreePrototypeInfo*
 class CORDL_TYPE HEU_TreePrototypeInfo : public ::System::Object {
 public:
@@ -46,12 +46,12 @@ public:
 
   constexpr void __set__bendfactor(float_t value);
 
-  /// @brief Method IsEquivalentTo addr 0x21ea4b8 size 0x14c virtual true final true
+  /// @brief Method IsEquivalentTo addr 0x2091b1c size 0x14c virtual true final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_TreePrototypeInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_TreePrototypeInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x21ea604 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2091c68 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_TreePrototypeInfo", modifiers: "&&", def_value: None }]
@@ -78,6 +78,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_TreePrototypeInfo, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TreePrototypeInfo, ____prefabPath) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TreePrototypeInfo, ____bendfactor) == 0x18, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_TreePrototypeInfo);

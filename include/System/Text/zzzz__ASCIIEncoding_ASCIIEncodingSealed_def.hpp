@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Text::__ASCIIEncoding__ASCIIEncodingSealed);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2826))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2825))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2822))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2821))
 // CS Name: ::ASCIIEncoding::ASCIIEncodingSealed*
 class CORDL_TYPE __ASCIIEncoding__ASCIIEncodingSealed : public ::System::Text::ASCIIEncoding {
 public:
   // Declarations
   static inline ::System::Text::__ASCIIEncoding__ASCIIEncodingSealed* New_ctor();
 
-  /// @brief Method .ctor addr 0x2630024 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x24d5f18 size 0x5c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ASCIIEncoding__ASCIIEncodingSealed", modifiers: "&&", def_value: None }]

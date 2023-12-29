@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupCircularLayouter);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4928))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5032))
 // CS Name: ::LightGroupCircularLayouter::RotationDirection
 struct CORDL_TYPE __LightGroupCircularLayouter__RotationDirection {
 public:
@@ -69,13 +69,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LightGroupCircularLayouter
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(4928)), TypeDefinitionIndex(TypeDefinitionIndex(4935))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4929))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(5040)), TypeDefinitionIndex(TypeDefinitionIndex(5032))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5033))
 // CS Name: ::LightGroupCircularLayouter*
 class CORDL_TYPE LightGroupCircularLayouter : public ::GlobalNamespace::LightGroupSubsystem {
 public:
@@ -138,7 +140,7 @@ public:
 
   static inline ::GlobalNamespace::LightGroupCircularLayouter* New_ctor();
 
-  /// @brief Method .ctor addr 0x23a9830 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x227176c size 0x68 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupCircularLayouter", modifiers: "&&", def_value: None }]
@@ -177,6 +179,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroupCircularLayouter, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupCircularLayouter, ____radius) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupCircularLayouter, ____angle) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupCircularLayouter, ____startingAngle) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupCircularLayouter, ____rotationDirection) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupCircularLayouter, ____staticRotation) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupCircularLayouter, ____additionalAngle) == 0x34, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection, "", "LightGroupCircularLayouter/RotationDirection");

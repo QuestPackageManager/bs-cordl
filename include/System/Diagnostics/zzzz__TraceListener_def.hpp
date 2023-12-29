@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TraceListener)
 namespace System::Diagnostics {
-struct TraceEventType;
-}
-namespace System::Diagnostics {
-struct TraceOptions;
+class TraceFilter;
 }
 namespace System::Diagnostics {
 class TraceEventCache;
 }
 namespace System::Diagnostics {
-class TraceFilter;
+struct TraceEventType;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Diagnostics {
+struct TraceOptions;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Diagnostics::TraceListener);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(8945))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8943))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7782)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7780))
 // CS Name: ::System.Diagnostics::TraceListener*
 class CORDL_TYPE TraceListener : public ::System::MarshalByRefObject {
 public:
@@ -109,58 +109,58 @@ public:
 
   static inline ::System::Diagnostics::TraceListener* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x296d4cc size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x27efbd0 size 0x38 virtual false final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_IsThreadSafe addr 0x296d504 size 0x8 virtual true final false
+  /// @brief Method get_IsThreadSafe addr 0x27efc08 size 0x8 virtual true final false
   inline bool get_IsThreadSafe();
 
-  /// @brief Method Dispose addr 0x296d50c size 0x6c virtual true final true
+  /// @brief Method Dispose addr 0x27efc10 size 0x6c virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x296d578 size 0x4 virtual true final false
+  /// @brief Method Dispose addr 0x27efc7c size 0x4 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Flush addr 0x296d57c size 0x4 virtual true final false
+  /// @brief Method Flush addr 0x27efc80 size 0x4 virtual true final false
   inline void Flush();
 
-  /// @brief Method set_IndentLevel addr 0x296d18c size 0x1c virtual false final false
+  /// @brief Method set_IndentLevel addr 0x27ef890 size 0x1c virtual false final false
   inline void set_IndentLevel(int32_t value);
 
-  /// @brief Method set_IndentSize addr 0x296d1a8 size 0xac virtual false final false
+  /// @brief Method set_IndentSize addr 0x27ef8ac size 0xac virtual false final false
   inline void set_IndentSize(int32_t value);
 
-  /// @brief Method get_Filter addr 0x296d580 size 0x8 virtual false final false
+  /// @brief Method get_Filter addr 0x27efc84 size 0x8 virtual false final false
   inline ::System::Diagnostics::TraceFilter* get_Filter();
 
-  /// @brief Method get_NeedIndent addr 0x296d588 size 0x8 virtual false final false
+  /// @brief Method get_NeedIndent addr 0x27efc8c size 0x8 virtual false final false
   inline bool get_NeedIndent();
 
-  /// @brief Method set_NeedIndent addr 0x296d590 size 0xc virtual false final false
+  /// @brief Method set_NeedIndent addr 0x27efc94 size 0xc virtual false final false
   inline void set_NeedIndent(bool value);
 
-  /// @brief Method get_TraceOutputOptions addr 0x296d59c size 0x8 virtual false final false
+  /// @brief Method get_TraceOutputOptions addr 0x27efca0 size 0x8 virtual false final false
   inline ::System::Diagnostics::TraceOptions get_TraceOutputOptions();
 
   /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void Write(::StringW message);
 
-  /// @brief Method WriteIndent addr 0x296d5a4 size 0xd4 virtual true final false
+  /// @brief Method WriteIndent addr 0x27efca8 size 0xd4 virtual true final false
   inline void WriteIndent();
 
   /// @brief Method WriteLine addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void WriteLine(::StringW message);
 
-  /// @brief Method TraceEvent addr 0x296d678 size 0xc4 virtual true final false
+  /// @brief Method TraceEvent addr 0x27efd7c size 0xc4 virtual true final false
   inline void TraceEvent(::System::Diagnostics::TraceEventCache* eventCache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW message);
 
-  /// @brief Method WriteHeader addr 0x296d73c size 0x110 virtual false final false
+  /// @brief Method WriteHeader addr 0x27efe40 size 0x110 virtual false final false
   inline void WriteHeader(::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id);
 
-  /// @brief Method WriteFooter addr 0x296d84c size 0x5a0 virtual false final false
+  /// @brief Method WriteFooter addr 0x27eff50 size 0x5a0 virtual false final false
   inline void WriteFooter(::System::Diagnostics::TraceEventCache* eventCache);
 
-  /// @brief Method IsEnabled addr 0x296ddec size 0x10 virtual false final false
+  /// @brief Method IsEnabled addr 0x27f04f0 size 0x10 virtual false final false
   inline bool IsEnabled(::System::Diagnostics::TraceOptions opts);
 
   // Ctor Parameters [CppParam { name: "", ty: "TraceListener", modifiers: "&&", def_value: None }]
@@ -199,6 +199,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::TraceListener, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::TraceListener, ___indentLevel) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::TraceListener, ___indentSize) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::TraceListener, ___traceOptions) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::TraceListener, ___needIndent) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::TraceListener, ___listenerName) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::TraceListener, ___filter) == 0x30, "Offset mismatch!");
 
 } // namespace System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::TraceListener);

@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Unity::Jobs::IJob);
 namespace Unity::Jobs {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9973))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9901))
 // CS Name: ::Unity.Jobs::IJob*
 class CORDL_TYPE IJob {
 public:

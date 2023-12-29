@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TextButton);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5438))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5544))
 // CS Name: ::TextButton*
 class CORDL_TYPE TextButton : public ::UnityEngine::MonoBehaviour {
 public:
@@ -48,15 +48,15 @@ public:
 
   constexpr void __set__button(::UnityEngine::UI::Button* value);
 
-  /// @brief Method get_text addr 0x227c81c size 0x8 virtual false final false
+  /// @brief Method get_text addr 0x213a284 size 0x8 virtual false final false
   inline ::UnityEngine::UI::Text* get_text();
 
-  /// @brief Method get_button addr 0x227c824 size 0x8 virtual false final false
+  /// @brief Method get_button addr 0x213a28c size 0x8 virtual false final false
   inline ::UnityEngine::UI::Button* get_button();
 
   static inline ::GlobalNamespace::TextButton* New_ctor();
 
-  /// @brief Method .ctor addr 0x227c82c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x213a294 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextButton", modifiers: "&&", def_value: None }]
@@ -83,6 +83,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextButton, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TextButton, ____text) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TextButton, ____button) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TextButton);

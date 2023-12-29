@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(CBZip2InputStream)
 namespace System::IO {
 struct SeekOrigin;
 }
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Apache::Bzip2 {
 class CRC;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Apache::Bzip2 {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream);
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 250, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Apache::Bzip2 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3607))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1877))
 // CS Name: ::Org.BouncyCastle.Apache.Bzip2::CBZip2InputStream*
 class CORDL_TYPE CBZip2InputStream : public ::System::IO::Stream {
@@ -383,136 +383,136 @@ public:
 
   constexpr void __set_z(char16_t value);
 
-  /// @brief Method Cadvise addr 0x11876ac size 0x4 virtual false final false
+  /// @brief Method Cadvise addr 0x1117464 size 0x4 virtual false final false
   static inline void Cadvise();
 
-  /// @brief Method CompressedStreamEOF addr 0x11876b0 size 0x4 virtual false final false
+  /// @brief Method CompressedStreamEOF addr 0x1117468 size 0x4 virtual false final false
   static inline void CompressedStreamEOF();
 
-  /// @brief Method MakeMaps addr 0x11876b4 size 0x8c virtual false final false
+  /// @brief Method MakeMaps addr 0x111746c size 0x8c virtual false final false
   inline void MakeMaps();
 
   static inline ::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream* New_ctor(::System::IO::Stream* zStream);
 
-  /// @brief Method .ctor addr 0x1187740 size 0x1bc virtual false final false
+  /// @brief Method .ctor addr 0x11174f8 size 0x1bc virtual false final false
   inline void _ctor(::System::IO::Stream* zStream);
 
-  /// @brief Method InitIntArray addr 0x118791c size 0xec virtual false final false
+  /// @brief Method InitIntArray addr 0x11176d4 size 0xec virtual false final false
   static inline ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> InitIntArray(int32_t n1, int32_t n2);
 
-  /// @brief Method InitCharArray addr 0x1187e3c size 0xec virtual false final false
+  /// @brief Method InitCharArray addr 0x1117bf4 size 0xec virtual false final false
   static inline ::ArrayW<::ArrayW<char16_t, ::Array<char16_t>*>, ::Array<::ArrayW<char16_t, ::Array<char16_t>*>>*> InitCharArray(int32_t n1, int32_t n2);
 
-  /// @brief Method ReadByte addr 0x1187f28 size 0x64 virtual true final false
+  /// @brief Method ReadByte addr 0x1117ce0 size 0x64 virtual true final false
   inline int32_t ReadByte();
 
-  /// @brief Method Initialize addr 0x1187a14 size 0xec virtual false final false
+  /// @brief Method Initialize addr 0x11177cc size 0xec virtual false final false
   inline void Initialize();
 
-  /// @brief Method InitBlock addr 0x1187b00 size 0x170 virtual false final false
+  /// @brief Method InitBlock addr 0x11178b8 size 0x170 virtual false final false
   inline void InitBlock();
 
-  /// @brief Method EndBlock addr 0x1188e2c size 0x2c virtual false final false
+  /// @brief Method EndBlock addr 0x1118be4 size 0x2c virtual false final false
   inline void EndBlock();
 
-  /// @brief Method Complete addr 0x11883cc size 0x28 virtual false final false
+  /// @brief Method Complete addr 0x1118184 size 0x28 virtual false final false
   inline void Complete();
 
-  /// @brief Method BlockOverrun addr 0x1188e68 size 0x4 virtual false final false
+  /// @brief Method BlockOverrun addr 0x1118c20 size 0x4 virtual false final false
   static inline void BlockOverrun();
 
-  /// @brief Method BadBlockHeader addr 0x11883f4 size 0x4 virtual false final false
+  /// @brief Method BadBlockHeader addr 0x11181ac size 0x4 virtual false final false
   static inline void BadBlockHeader();
 
-  /// @brief Method CrcError addr 0x1188e64 size 0x4 virtual false final false
+  /// @brief Method CrcError addr 0x1118c1c size 0x4 virtual false final false
   static inline void CrcError();
 
-  /// @brief Method BsFinishedWithStream addr 0x1188264 size 0xdc virtual false final false
+  /// @brief Method BsFinishedWithStream addr 0x111801c size 0xdc virtual false final false
   inline void BsFinishedWithStream();
 
-  /// @brief Method BsSetStream addr 0x1187a08 size 0xc virtual false final false
+  /// @brief Method BsSetStream addr 0x11177c0 size 0xc virtual false final false
   inline void BsSetStream(::System::IO::Stream* f);
 
-  /// @brief Method BsR addr 0x11883fc size 0x108 virtual false final false
+  /// @brief Method BsR addr 0x11181b4 size 0x108 virtual false final false
   inline int32_t BsR(int32_t n);
 
-  /// @brief Method BsGetUChar addr 0x1188250 size 0x14 virtual false final false
+  /// @brief Method BsGetUChar addr 0x1118008 size 0x14 virtual false final false
   inline char16_t BsGetUChar();
 
-  /// @brief Method BsGetint addr 0x1188e6c size 0x54 virtual false final false
+  /// @brief Method BsGetint addr 0x1118c24 size 0x54 virtual false final false
   inline int32_t BsGetint();
 
-  /// @brief Method BsGetIntVS addr 0x1188ec0 size 0x4 virtual false final false
+  /// @brief Method BsGetIntVS addr 0x1118c78 size 0x4 virtual false final false
   inline int32_t BsGetIntVS(int32_t numBits);
 
-  /// @brief Method BsGetInt32 addr 0x11883f8 size 0x4 virtual false final false
+  /// @brief Method BsGetInt32 addr 0x11181b0 size 0x4 virtual false final false
   inline int32_t BsGetInt32();
 
-  /// @brief Method HbCreateDecodeTables addr 0x1188ec4 size 0x20c virtual false final false
+  /// @brief Method HbCreateDecodeTables addr 0x1118c7c size 0x20c virtual false final false
   inline void HbCreateDecodeTables(::ArrayW<int32_t, ::Array<int32_t>*> limit, ::ArrayW<int32_t, ::Array<int32_t>*> basev, ::ArrayW<int32_t, ::Array<int32_t>*> perm,
                                    ::ArrayW<char16_t, ::Array<char16_t>*> length, int32_t minLen, int32_t maxLen, int32_t alphaSize);
 
-  /// @brief Method RecvDecodingTables addr 0x11890d0 size 0x4e0 virtual false final false
+  /// @brief Method RecvDecodingTables addr 0x1118e88 size 0x4e0 virtual false final false
   inline void RecvDecodingTables();
 
-  /// @brief Method GetAndMoveToFrontDecode addr 0x1188504 size 0x91c virtual false final false
+  /// @brief Method GetAndMoveToFrontDecode addr 0x11182bc size 0x91c virtual false final false
   inline void GetAndMoveToFrontDecode();
 
-  /// @brief Method SetupBlock addr 0x1187c70 size 0x1cc virtual false final false
+  /// @brief Method SetupBlock addr 0x1117a28 size 0x1cc virtual false final false
   inline void SetupBlock();
 
-  /// @brief Method SetupRandPartA addr 0x11895b0 size 0x14c virtual false final false
+  /// @brief Method SetupRandPartA addr 0x1119368 size 0x14c virtual false final false
   inline void SetupRandPartA();
 
-  /// @brief Method SetupNoRandPartA addr 0x11896fc size 0xa8 virtual false final false
+  /// @brief Method SetupNoRandPartA addr 0x11194b4 size 0xa8 virtual false final false
   inline void SetupNoRandPartA();
 
-  /// @brief Method SetupRandPartB addr 0x1187f8c size 0x154 virtual false final false
+  /// @brief Method SetupRandPartB addr 0x1117d44 size 0x154 virtual false final false
   inline void SetupRandPartB();
 
-  /// @brief Method SetupRandPartC addr 0x11880e0 size 0x64 virtual false final false
+  /// @brief Method SetupRandPartC addr 0x1117e98 size 0x64 virtual false final false
   inline void SetupRandPartC();
 
-  /// @brief Method SetupNoRandPartB addr 0x1188144 size 0xa8 virtual false final false
+  /// @brief Method SetupNoRandPartB addr 0x1117efc size 0xa8 virtual false final false
   inline void SetupNoRandPartB();
 
-  /// @brief Method SetupNoRandPartC addr 0x11881ec size 0x64 virtual false final false
+  /// @brief Method SetupNoRandPartC addr 0x1117fa4 size 0x64 virtual false final false
   inline void SetupNoRandPartC();
 
-  /// @brief Method SetDecompressStructureSizes addr 0x1188340 size 0x8c virtual false final false
+  /// @brief Method SetDecompressStructureSizes addr 0x11180f8 size 0x8c virtual false final false
   inline void SetDecompressStructureSizes(int32_t newSize100k);
 
-  /// @brief Method Flush addr 0x1189848 size 0x4 virtual true final false
+  /// @brief Method Flush addr 0x1119600 size 0x4 virtual true final false
   inline void Flush();
 
-  /// @brief Method Read addr 0x118984c size 0xa4 virtual true final false
+  /// @brief Method Read addr 0x1119604 size 0xa4 virtual true final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Seek addr 0x11898f0 size 0x8 virtual true final false
+  /// @brief Method Seek addr 0x11196a8 size 0x8 virtual true final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength addr 0x11898f8 size 0x4 virtual true final false
+  /// @brief Method SetLength addr 0x11196b0 size 0x4 virtual true final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write addr 0x11898fc size 0x4 virtual true final false
+  /// @brief Method Write addr 0x11196b4 size 0x4 virtual true final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method get_CanRead addr 0x1189900 size 0x8 virtual true final false
+  /// @brief Method get_CanRead addr 0x11196b8 size 0x8 virtual true final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek addr 0x1189908 size 0x8 virtual true final false
+  /// @brief Method get_CanSeek addr 0x11196c0 size 0x8 virtual true final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite addr 0x1189910 size 0x8 virtual true final false
+  /// @brief Method get_CanWrite addr 0x11196c8 size 0x8 virtual true final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length addr 0x1189918 size 0x8 virtual true final false
+  /// @brief Method get_Length addr 0x11196d0 size 0x8 virtual true final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position addr 0x1189920 size 0x8 virtual true final false
+  /// @brief Method get_Position addr 0x11196d8 size 0x8 virtual true final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position addr 0x1189928 size 0x4 virtual true final false
+  /// @brief Method set_Position addr 0x11196e0 size 0x4 virtual true final false
   inline void set_Position(int64_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "CBZip2InputStream", modifiers: "&&", def_value: None }]
@@ -668,6 +668,82 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, 0x100>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___last) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___origPtr) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___blockSize100k) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___blockRandomised) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___bsBuff) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___bsLive) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___mCrc) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___inUse) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___nInUse) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___seqToUnseq) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___unseqToSeq) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___selector) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___selectorMtf) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___tt) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___ll8) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___unzftab) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___limit) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___basev) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___perm) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___minLens) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___bsStream) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___streamEnd) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___currentChar) == 0xbc, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___currentState) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___storedBlockCRC) == 0xc4, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___storedCombinedCRC) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___computedBlockCRC) == 0xcc, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___computedCombinedCRC) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___i2) == 0xd4, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___count) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___chPrev) == 0xdc, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___ch2) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___i) == 0xe4, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___tPos) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___rNToGo) == 0xec, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___rTPos) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___j2) == 0xf4, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, ___z) == 0xf8, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Apache::Bzip2
 NEED_NO_BOX(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream);

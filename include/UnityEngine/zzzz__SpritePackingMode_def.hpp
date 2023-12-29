@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SpritePackingMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10288))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10211))
 // CS Name: ::UnityEngine::SpritePackingMode
 struct CORDL_TYPE SpritePackingMode {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SpritePackingMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::SpritePackingMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SpritePackingMode, "UnityEngine", "SpritePackingMode");

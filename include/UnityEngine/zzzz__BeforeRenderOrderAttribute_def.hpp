@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::BeforeRenderOrderAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10098))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10026))
 // CS Name: ::UnityEngine::BeforeRenderOrderAttribute*
 class CORDL_TYPE BeforeRenderOrderAttribute : public ::System::Attribute {
 public:
@@ -32,15 +32,15 @@ public:
 
   constexpr void __set__order_k__BackingField(int32_t value);
 
-  /// @brief Method get_order addr 0x2cc1744 size 0x8 virtual false final false
+  /// @brief Method get_order addr 0x2b5c32c size 0x8 virtual false final false
   inline int32_t get_order();
 
-  /// @brief Method set_order addr 0x2cc174c size 0x8 virtual false final false
+  /// @brief Method set_order addr 0x2b5c334 size 0x8 virtual false final false
   inline void set_order(int32_t value);
 
   static inline ::UnityEngine::BeforeRenderOrderAttribute* New_ctor(int32_t order);
 
-  /// @brief Method .ctor addr 0x2cc1754 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2b5c33c size 0x28 virtual false final false
   inline void _ctor(int32_t order);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeforeRenderOrderAttribute", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::BeforeRenderOrderAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::BeforeRenderOrderAttribute, ____order_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::BeforeRenderOrderAttribute);

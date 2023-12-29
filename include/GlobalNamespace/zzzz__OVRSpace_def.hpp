@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSpace)
+namespace System {
+class Object;
+}
 namespace GlobalNamespace {
 struct __OVRSpace__StorageLocation;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 namespace System {
 struct Guid;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,7 +34,7 @@ MARK_VAL_T(::GlobalNamespace::OVRSpace);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7990))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8824))
 // CS Name: ::OVRSpace::StorageLocation
 struct CORDL_TYPE __OVRSpace__StorageLocation {
 public:
@@ -76,13 +76,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSpace__StorageLocation, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRSpace__StorageLocation, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OVRSpace
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7991))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8825))
 // CS Name: ::OVRSpace
 struct CORDL_TYPE OVRSpace {
 public:
@@ -96,40 +98,40 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRSpace>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRSpace>*();
 
-  /// @brief Method get_Handle addr 0x278c884 size 0x8 virtual false final false
+  /// @brief Method get_Handle addr 0x2622454 size 0x8 virtual false final false
   inline uint64_t get_Handle();
 
-  /// @brief Method TryGetUuid addr 0x278c88c size 0x6c virtual false final false
+  /// @brief Method TryGetUuid addr 0x262245c size 0x6c virtual false final false
   inline bool TryGetUuid(ByRef<::System::Guid> uuid);
 
-  /// @brief Method get_Valid addr 0x277fb64 size 0x10 virtual false final false
+  /// @brief Method get_Valid addr 0x261861c size 0x10 virtual false final false
   inline bool get_Valid();
 
-  /// @brief Method .ctor addr 0x278c8f8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26224c8 size 0x8 virtual false final false
   inline void _ctor(uint64_t handle);
 
-  /// @brief Method ToString addr 0x278c900 size 0x84 virtual true final false
+  /// @brief Method ToString addr 0x26224d0 size 0x84 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method Equals addr 0x278c984 size 0x10 virtual true final true
+  /// @brief Method Equals addr 0x2622554 size 0x10 virtual true final true
   inline bool Equals(::GlobalNamespace::OVRSpace other);
 
-  /// @brief Method Equals addr 0x278c994 size 0x78 virtual true final false
+  /// @brief Method Equals addr 0x2622564 size 0x78 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x278ca0c size 0x20 virtual true final false
+  /// @brief Method GetHashCode addr 0x26225dc size 0x20 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality addr 0x278ca2c size 0xc virtual false final false
+  /// @brief Method op_Equality addr 0x26225fc size 0xc virtual false final false
   static inline bool op_Equality(::GlobalNamespace::OVRSpace lhs, ::GlobalNamespace::OVRSpace rhs);
 
-  /// @brief Method op_Inequality addr 0x278ca38 size 0xc virtual false final false
+  /// @brief Method op_Inequality addr 0x2622608 size 0xc virtual false final false
   static inline bool op_Inequality(::GlobalNamespace::OVRSpace lhs, ::GlobalNamespace::OVRSpace rhs);
 
-  /// @brief Method op_Implicit addr 0x277fb60 size 0x4 virtual false final false
+  /// @brief Method op_Implicit addr 0x261e1bc size 0x4 virtual false final false
   static inline ::GlobalNamespace::OVRSpace op_Implicit___GlobalNamespace__OVRSpace(uint64_t handle);
 
-  /// @brief Method op_Implicit addr 0x277f7e0 size 0x4 virtual false final false
+  /// @brief Method op_Implicit addr 0x26182a0 size 0x4 virtual false final false
   static inline uint64_t op_Implicit_uint64_t(::GlobalNamespace::OVRSpace space);
 
   // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }]
@@ -149,6 +151,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSpace, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRSpace, _Handle_k__BackingField) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRSpace__StorageLocation, "", "OVRSpace/StorageLocation");

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifi
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Rosstandart {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(254))
 // CS Name: ::Org.BouncyCastle.Asn1.Rosstandart::RosstandartObjectIdentifiers*
 class CORDL_TYPE RosstandartObjectIdentifiers : public ::System::Object {
@@ -177,7 +177,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor addr 0x106abb4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xff9968 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RosstandartObjectIdentifiers", modifiers: "&&", def_value: None }]

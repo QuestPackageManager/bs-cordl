@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::RuntimeWrappedException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3383))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3378))
 // CS Name: ::System.Runtime.CompilerServices::RuntimeWrappedException*
 class CORDL_TYPE RuntimeWrappedException : public ::System::Exception {
 public:
@@ -40,21 +40,21 @@ public:
 
   static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor(::System::Object* thrownObject);
 
-  /// @brief Method .ctor addr 0x24db25c size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x238186c size 0x90 virtual false final false
   inline void _ctor(::System::Object* thrownObject);
 
   static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                        ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x24db2ec size 0x100 virtual false final false
+  /// @brief Method .ctor addr 0x23818fc size 0x100 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData addr 0x24db3ec size 0xdc virtual true final false
+  /// @brief Method GetObjectData addr 0x23819fc size 0xdc virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor();
 
-  /// @brief Method .ctor addr 0x24db4c8 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x2381ad8 size 0x38 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeWrappedException", modifiers: "&&", def_value: None }]
@@ -78,6 +78,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::RuntimeWrappedException, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::CompilerServices::RuntimeWrappedException, ____wrappedException) == 0x90, "Offset mismatch!");
 
 } // namespace System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::RuntimeWrappedException);

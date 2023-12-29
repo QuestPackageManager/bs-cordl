@@ -19,7 +19,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12808))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12726))
 // CS Name: ::IPacketPool`1<T>*
 class CORDL_TYPE IPacketPool_1 {
 public:

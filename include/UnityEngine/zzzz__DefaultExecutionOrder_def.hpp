@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::DefaultExecutionOrder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10222))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10149))
 // CS Name: ::UnityEngine::DefaultExecutionOrder*
 class CORDL_TYPE DefaultExecutionOrder : public ::System::Attribute {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::DefaultExecutionOrder* New_ctor(int32_t order);
 
-  /// @brief Method .ctor addr 0x2cd2968 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2b6c1e8 size 0x28 virtual false final false
   inline void _ctor(int32_t order);
 
-  /// @brief Method get_order addr 0x2ccdab8 size 0x8 virtual false final false
+  /// @brief Method get_order addr 0x2b675b4 size 0x8 virtual false final false
   inline int32_t get_order();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultExecutionOrder", modifiers: "&&", def_value: None }]
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::DefaultExecutionOrder, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::DefaultExecutionOrder, ___m_Order) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::DefaultExecutionOrder);

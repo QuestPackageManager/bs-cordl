@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder_def.hpp"
 CORDL_MODULE_EXPORT(DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder)
-namespace Zenject {
-class DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder;
+namespace System {
+class Object;
 }
 namespace Zenject {
 class SignalDeclarationBindInfo;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder;
 }
 // Forward declare root types
 namespace Zenject {
@@ -23,18 +23,18 @@ MARK_REF_PTR_T(::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBind
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10652))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10651))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10580))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10579))
 // CS Name: ::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder*
 class CORDL_TYPE DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder : public ::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder {
 public:
   // Declarations
   static inline ::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method .ctor addr 0x2ec2344 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2d5a5c4 size 0x24 virtual false final false
   inline void _ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method WithId addr 0x2ec238c size 0x1c virtual false final false
+  /// @brief Method WithId addr 0x2d5a60c size 0x1c virtual false final false
   inline ::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder* WithId(::System::Object* identifier);
 
   // Ctor Parameters [CppParam { name: "", ty: "DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder", modifiers: "&&", def_value: None }]

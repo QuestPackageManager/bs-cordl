@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Runtime::ExceptionServices::FirstChanceExceptionEventAr
 namespace System::Runtime::ExceptionServices {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3347))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3343))
 // CS Name: ::System.Runtime.ExceptionServices::FirstChanceExceptionEventArgs*
 class CORDL_TYPE FirstChanceExceptionEventArgs : public ::System::EventArgs {
 public:

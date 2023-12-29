@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::OVRTextureFormat);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7562))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8464))
 // CS Name: ::OVRTextureFormat
 struct CORDL_TYPE OVRTextureFormat {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRTextureFormat, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRTextureFormat, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRTextureFormat, "", "OVRTextureFormat");

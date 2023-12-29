@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(OriginatorInformation)
-namespace Org::BouncyCastle::Asn1::Cms {
-class OriginatorInfo;
-}
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class OriginatorInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::OriginatorInformation);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(681))
 // CS Name: ::Org.BouncyCastle.Cms::OriginatorInformation*
 class CORDL_TYPE OriginatorInformation : public ::System::Object {
@@ -37,16 +37,16 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo);
 
-  /// @brief Method .ctor addr 0x1206b44 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x11958f4 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo);
 
-  /// @brief Method GetCertificates addr 0x1206b6c size 0x50c virtual true final false
+  /// @brief Method GetCertificates addr 0x119591c size 0x50c virtual true final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCertificates();
 
-  /// @brief Method GetCrls addr 0x1207078 size 0x50c virtual true final false
+  /// @brief Method GetCrls addr 0x1195e28 size 0x50c virtual true final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCrls();
 
-  /// @brief Method ToAsn1Structure addr 0x1207584 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Structure addr 0x1196334 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* ToAsn1Structure();
 
   // Ctor Parameters [CppParam { name: "", ty: "OriginatorInformation", modifiers: "&&", def_value: None }]
@@ -70,6 +70,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::OriginatorInformation, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::OriginatorInformation, ___originatorInfo) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::OriginatorInformation);

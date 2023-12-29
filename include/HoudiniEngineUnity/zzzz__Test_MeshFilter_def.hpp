@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(Test_MeshFilter)
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
 }
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivableWrapperClass_1;
-}
 namespace UnityEngine {
 class MeshFilter;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivableWrapperClass_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_MeshFilter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9922))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9849))
 // CS Name: ::HoudiniEngineUnity::Test_MeshFilter*
 class CORDL_TYPE Test_MeshFilter : public ::System::Object {
 public:
@@ -46,13 +46,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_MeshFilter* New_ctor(::UnityEngine::MeshFilter* self);
 
-  /// @brief Method .ctor addr 0x21e6400 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x208da64 size 0x28 virtual false final false
   inline void _ctor(::UnityEngine::MeshFilter* self);
 
-  /// @brief Method IsNull addr 0x21e6428 size 0x60 virtual true final true
+  /// @brief Method IsNull addr 0x208da8c size 0x60 virtual true final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo addr 0x21e6488 size 0x1a0 virtual true final true
+  /// @brief Method IsEquivalentTo addr 0x208daec size 0x1a0 virtual true final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_MeshFilter* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_MeshFilter", modifiers: "&&", def_value: None }]
@@ -76,6 +76,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::Test_MeshFilter, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::Test_MeshFilter, ___self) == 0x10, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::Test_MeshFilter);

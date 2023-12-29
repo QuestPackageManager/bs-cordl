@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ILogger)
-namespace System {
-class Object;
-}
 namespace UnityEngine {
-class ILogHandler;
+class Object;
 }
 namespace UnityEngine {
 struct LogType;
 }
 namespace UnityEngine {
+class ILogHandler;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::ILogger);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10054))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9982))
 // CS Name: ::UnityEngine::ILogger*
 class CORDL_TYPE ILogger {
 public:

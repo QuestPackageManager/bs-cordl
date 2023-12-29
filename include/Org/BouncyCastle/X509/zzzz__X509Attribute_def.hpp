@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(X509Attribute)
+namespace Org::BouncyCastle::Asn1::X509 {
+class AttributeX509;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AttributeX509;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
@@ -47,26 +47,26 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509Attribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* at);
 
-  /// @brief Method .ctor addr 0x1176c7c size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x1106a34 size 0x34 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* at);
 
   static inline ::Org::BouncyCastle::X509::X509Attribute* New_ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor addr 0x1176cb0 size 0xe4 virtual false final false
+  /// @brief Method .ctor addr 0x1106a68 size 0xe4 virtual false final false
   inline void _ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
   static inline ::Org::BouncyCastle::X509::X509Attribute* New_ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  /// @brief Method .ctor addr 0x1176d94 size 0xe4 virtual false final false
+  /// @brief Method .ctor addr 0x1106b4c size 0xe4 virtual false final false
   inline void _ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  /// @brief Method get_Oid addr 0x1176e78 size 0x24 virtual false final false
+  /// @brief Method get_Oid addr 0x1106c30 size 0x24 virtual false final false
   inline ::StringW get_Oid();
 
-  /// @brief Method GetValues addr 0x1176e9c size 0x110 virtual false final false
+  /// @brief Method GetValues addr 0x1106c54 size 0x110 virtual false final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> GetValues();
 
-  /// @brief Method ToAsn1Object addr 0x1176fac size 0x20 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1106d64 size 0x20 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Attribute", modifiers: "&&", def_value: None }]
@@ -90,6 +90,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::X509Attribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509Attribute, ___attr) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::X509
 NEED_NO_BOX(::Org::BouncyCastle::X509::X509Attribute);

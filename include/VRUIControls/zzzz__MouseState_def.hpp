@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MouseState)
-namespace VRUIControls {
-class ButtonState;
-}
 namespace UnityEngine::EventSystems {
 struct __PointerEventData__FramePressState;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace VRUIControls {
+class ButtonState;
 }
 namespace UnityEngine::EventSystems {
 struct __PointerEventData__InputButton;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace VRUIControls {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::VRUIControls::MouseState);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15670))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15644))
 // CS Name: ::VRUIControls::MouseState*
 class CORDL_TYPE MouseState : public ::System::Object {
 public:
@@ -44,22 +44,22 @@ public:
 
   constexpr void __set__trackedButtons(::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* value);
 
-  /// @brief Method AnyPressesThisFrame addr 0x2eb41d4 size 0xa4 virtual false final false
+  /// @brief Method AnyPressesThisFrame addr 0x2d4b42c size 0xa4 virtual false final false
   inline bool AnyPressesThisFrame();
 
-  /// @brief Method AnyReleasesThisFrame addr 0x2eb4278 size 0xa8 virtual false final false
+  /// @brief Method AnyReleasesThisFrame addr 0x2d4b4d0 size 0xa8 virtual false final false
   inline bool AnyReleasesThisFrame();
 
-  /// @brief Method GetButtonState addr 0x2eb4320 size 0x19c virtual false final false
+  /// @brief Method GetButtonState addr 0x2d4b578 size 0x19c virtual false final false
   inline ::VRUIControls::ButtonState* GetButtonState(::UnityEngine::EventSystems::__PointerEventData__InputButton button);
 
-  /// @brief Method SetButtonState addr 0x2eb44bc size 0x38 virtual false final false
+  /// @brief Method SetButtonState addr 0x2d4b714 size 0x38 virtual false final false
   inline void SetButtonState(::UnityEngine::EventSystems::__PointerEventData__InputButton button, ::UnityEngine::EventSystems::__PointerEventData__FramePressState stateForMouseButton,
                              ::UnityEngine::EventSystems::PointerEventData* data);
 
   static inline ::VRUIControls::MouseState* New_ctor();
 
-  /// @brief Method .ctor addr 0x2eb44f4 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x2d4b74c size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseState", modifiers: "&&", def_value: None }]
@@ -83,6 +83,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::VRUIControls::MouseState, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::VRUIControls::MouseState, ____trackedButtons) == 0x10, "Offset mismatch!");
 
 } // namespace VRUIControls
 NEED_NO_BOX(::VRUIControls::MouseState);

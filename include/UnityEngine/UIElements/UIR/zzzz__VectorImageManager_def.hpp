@@ -5,32 +5,29 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 CORDL_MODULE_EXPORT(VectorImageManager)
-namespace UnityEngine::UIElements {
-class AtlasBase;
-}
 namespace System {
 class IDisposable;
-}
-namespace UnityEngine::UIElements::UIR {
-class VectorImageRenderInfoPool;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::UIElements::UIR {
 class GradientSettingsAtlas;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class AtlasBase;
 }
 namespace UnityEngine {
 class Texture2D;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements::UIR {
 class GradientRemap;
 }
 namespace UnityEngine::UIElements::UIR {
-class VectorImageRenderInfo;
+class GradientRemapPool;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -39,7 +36,10 @@ namespace UnityEngine::UIElements {
 class VectorImage;
 }
 namespace UnityEngine::UIElements::UIR {
-class GradientRemapPool;
+class VectorImageRenderInfoPool;
+}
+namespace UnityEngine::UIElements::UIR {
+class VectorImageRenderInfo;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::VectorImageManager);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7423))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9894)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7509))
 // CS Name: ::UnityEngine.UIElements.UIR::VectorImageManager*
 class CORDL_TYPE VectorImageManager : public ::System::Object {
 public:
@@ -151,33 +151,33 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerUnregister();
 
-  /// @brief Method get_atlas addr 0x2dcd1c8 size 0x14 virtual false final false
+  /// @brief Method get_atlas addr 0x2c66e18 size 0x14 virtual false final false
   inline ::UnityEngine::Texture2D* get_atlas();
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageManager* New_ctor(::UnityEngine::UIElements::AtlasBase* atlas);
 
-  /// @brief Method .ctor addr 0x2dcd1dc size 0x1bc virtual false final false
+  /// @brief Method .ctor addr 0x2c66e2c size 0x1bc virtual false final false
   inline void _ctor(::UnityEngine::UIElements::AtlasBase* atlas);
 
-  /// @brief Method get_disposed addr 0x2dcd398 size 0x8 virtual false final false
+  /// @brief Method get_disposed addr 0x2c66fe8 size 0x8 virtual false final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed addr 0x2dcd3a0 size 0xc virtual false final false
+  /// @brief Method set_disposed addr 0x2c66ff0 size 0xc virtual false final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose addr 0x2dcd3ac size 0x6c virtual true final true
+  /// @brief Method Dispose addr 0x2c66ffc size 0x6c virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x2dcd418 size 0x118 virtual true final false
+  /// @brief Method Dispose addr 0x2c67068 size 0x118 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Commit addr 0x2dcd530 size 0x30 virtual false final false
+  /// @brief Method Commit addr 0x2c67180 size 0x30 virtual false final false
   inline void Commit();
 
-  /// @brief Method AddUser addr 0x2dcd560 size 0x104 virtual false final false
+  /// @brief Method AddUser addr 0x2c671b0 size 0x104 virtual false final false
   inline ::UnityEngine::UIElements::UIR::GradientRemap* AddUser(::UnityEngine::UIElements::VectorImage* vi, ::UnityEngine::UIElements::VisualElement* context);
 
-  /// @brief Method Register addr 0x2dcd664 size 0x434 virtual false final false
+  /// @brief Method Register addr 0x2c672b4 size 0x434 virtual false final false
   inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* Register(::UnityEngine::UIElements::VectorImage* vi, ::UnityEngine::UIElements::VisualElement* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "VectorImageManager", modifiers: "&&", def_value: None }]
@@ -219,6 +219,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::VectorImageManager, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::VectorImageManager, ___m_Atlas) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::VectorImageManager, ___m_Registered) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::VectorImageManager, ___m_RenderInfoPool) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::VectorImageManager, ___m_GradientRemapPool) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::VectorImageManager, ___m_GradientSettingsAtlas) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::VectorImageManager, ___m_LoggedExhaustedSettingsAtlas) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::VectorImageManager, ____disposed_k__BackingField) == 0x39, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::VectorImageManager);

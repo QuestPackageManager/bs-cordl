@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::UnityEngine::GlobalJavaObjectRef);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14910))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15055))
 // CS Name: ::UnityEngine::GlobalJavaObjectRef*
 class CORDL_TYPE GlobalJavaObjectRef : public ::System::Object {
 public:
@@ -42,16 +42,16 @@ public:
 
   static inline ::UnityEngine::GlobalJavaObjectRef* New_ctor(void* jobject);
 
-  /// @brief Method .ctor addr 0x2c83e98 size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0x2b1ef70 size 0xb4 virtual false final false
   inline void _ctor(void* jobject);
 
-  /// @brief Method Finalize addr 0x2c83f88 size 0x94 virtual true final false
+  /// @brief Method Finalize addr 0x2b1f060 size 0x94 virtual true final false
   inline void Finalize();
 
-  /// @brief Method op_Implicit addr 0x2c84098 size 0x18 virtual false final false
+  /// @brief Method op_Implicit addr 0x2b1f170 size 0x18 virtual false final false
   static inline void* op_Implicit_void_(::UnityEngine::GlobalJavaObjectRef* obj);
 
-  /// @brief Method Dispose addr 0x2c8401c size 0x7c virtual false final false
+  /// @brief Method Dispose addr 0x2b1f0f4 size 0x7c virtual false final false
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "GlobalJavaObjectRef", modifiers: "&&", def_value: None }]
@@ -78,6 +78,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::GlobalJavaObjectRef, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::GlobalJavaObjectRef, ___m_disposed) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GlobalJavaObjectRef, ___m_jobject) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::GlobalJavaObjectRef);

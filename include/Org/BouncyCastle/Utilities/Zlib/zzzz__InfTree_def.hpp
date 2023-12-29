@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::InfTree);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1823))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::InfTree*
 class CORDL_TYPE InfTree : public ::System::Object {
@@ -121,31 +121,31 @@ public:
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_cpdext();
 
-  /// @brief Method huft_build addr 0x1167dbc size 0x750 virtual false final false
+  /// @brief Method huft_build addr 0x10f7b74 size 0x750 virtual false final false
   inline int32_t huft_build(::ArrayW<int32_t, ::Array<int32_t>*> b, int32_t bindex, int32_t n, int32_t s, ::ArrayW<int32_t, ::Array<int32_t>*> d, ::ArrayW<int32_t, ::Array<int32_t>*> e,
                             ::ArrayW<int32_t, ::Array<int32_t>*> t, ::ArrayW<int32_t, ::Array<int32_t>*> m, ::ArrayW<int32_t, ::Array<int32_t>*> hp, ::ArrayW<int32_t, ::Array<int32_t>*> hn,
                             ::ArrayW<int32_t, ::Array<int32_t>*> v);
 
-  /// @brief Method inflate_trees_bits addr 0x1165ab0 size 0x114 virtual false final false
+  /// @brief Method inflate_trees_bits addr 0x10f5868 size 0x114 virtual false final false
   inline int32_t inflate_trees_bits(::ArrayW<int32_t, ::Array<int32_t>*> c, ::ArrayW<int32_t, ::Array<int32_t>*> bb, ::ArrayW<int32_t, ::Array<int32_t>*> tb, ::ArrayW<int32_t, ::Array<int32_t>*> hp,
                                     ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method inflate_trees_dynamic addr 0x1165bc4 size 0x24c virtual false final false
+  /// @brief Method inflate_trees_dynamic addr 0x10f597c size 0x24c virtual false final false
   inline int32_t inflate_trees_dynamic(int32_t nl, int32_t nd, ::ArrayW<int32_t, ::Array<int32_t>*> c, ::ArrayW<int32_t, ::Array<int32_t>*> bl, ::ArrayW<int32_t, ::Array<int32_t>*> bd,
                                        ::ArrayW<int32_t, ::Array<int32_t>*> tl, ::ArrayW<int32_t, ::Array<int32_t>*> td, ::ArrayW<int32_t, ::Array<int32_t>*> hp,
                                        ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method inflate_trees_fixed addr 0x1165980 size 0x10c virtual false final false
+  /// @brief Method inflate_trees_fixed addr 0x10f5738 size 0x10c virtual false final false
   static inline int32_t inflate_trees_fixed(::ArrayW<int32_t, ::Array<int32_t>*> bl, ::ArrayW<int32_t, ::Array<int32_t>*> bd,
                                             ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> tl,
                                             ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> td, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method initWorkArea addr 0x116850c size 0x194 virtual false final false
+  /// @brief Method initWorkArea addr 0x10f82c4 size 0x194 virtual false final false
   inline void initWorkArea(int32_t vsize);
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::InfTree* New_ctor();
 
-  /// @brief Method .ctor addr 0x11646a8 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x10f4460 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InfTree", modifiers: "&&", def_value: None }]
@@ -223,6 +223,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Zlib::InfTree, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfTree, ___hn) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfTree, ___v) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfTree, ___c) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfTree, ___r) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfTree, ___u) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfTree, ___x) == 0x38, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::Zlib
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::InfTree);

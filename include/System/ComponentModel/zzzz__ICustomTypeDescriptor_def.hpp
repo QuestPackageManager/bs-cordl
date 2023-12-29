@@ -6,10 +6,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ICustomTypeDescriptor)
 namespace System::ComponentModel {
-class TypeConverter;
-}
-namespace System::ComponentModel {
-class EventDescriptor;
+class AttributeCollection;
 }
 namespace System {
 class Attribute;
@@ -18,10 +15,13 @@ namespace System::ComponentModel {
 class PropertyDescriptorCollection;
 }
 namespace System::ComponentModel {
-class AttributeCollection;
+class EventDescriptorCollection;
 }
 namespace System {
 class Object;
+}
+namespace System::ComponentModel {
+class TypeConverter;
 }
 namespace System::ComponentModel {
 class PropertyDescriptor;
@@ -30,7 +30,7 @@ namespace System {
 class Type;
 }
 namespace System::ComponentModel {
-class EventDescriptorCollection;
+class EventDescriptor;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::System::ComponentModel::ICustomTypeDescriptor);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9431))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8268))
 // CS Name: ::System.ComponentModel::ICustomTypeDescriptor*
 class CORDL_TYPE ICustomTypeDescriptor {
 public:

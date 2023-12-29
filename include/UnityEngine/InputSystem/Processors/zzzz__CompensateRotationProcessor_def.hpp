@@ -22,20 +22,20 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::CompensateRotationProcess
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 3342 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6583)) CS Name: ::UnityEngine.InputSystem.Processors::CompensateRotationProcessor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(6322)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6322), inst:
+// 3266 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6669)) CS Name: ::UnityEngine.InputSystem.Processors::CompensateRotationProcessor*
 class CORDL_TYPE CompensateRotationProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Quaternion> {
 public:
   // Declarations
-  /// @brief Method Process addr 0x2af90bc size 0x210 virtual true final false
+  /// @brief Method Process addr 0x2978368 size 0x210 virtual true final false
   inline ::UnityEngine::Quaternion Process(::UnityEngine::Quaternion value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString addr 0x2af92cc size 0x40 virtual true final false
+  /// @brief Method ToString addr 0x2978578 size 0x40 virtual true final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::InputSystem::Processors::CompensateRotationProcessor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2af930c size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x29785b8 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CompensateRotationProcessor", modifiers: "&&", def_value: None }]

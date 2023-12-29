@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RC2Transform);
 namespace System::Security::Cryptography {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2284))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2981))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2980))
 // CS Name: ::System.Security.Cryptography::RC2Transform*
 class CORDL_TYPE RC2Transform : public ::Mono::Security::Cryptography::SymmetricTransform {
 public:
@@ -89,10 +89,10 @@ public:
   static inline ::System::Security::Cryptography::RC2Transform* New_ctor(::System::Security::Cryptography::RC2* rc2Algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor addr 0x2471dc0 size 0x548 virtual false final false
+  /// @brief Method .ctor addr 0x231904c size 0x548 virtual false final false
   inline void _ctor(::System::Security::Cryptography::RC2* rc2Algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method ECB addr 0x2472308 size 0x930 virtual true final false
+  /// @brief Method ECB addr 0x2319594 size 0x930 virtual true final false
   inline void ECB(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
   // Ctor Parameters [CppParam { name: "", ty: "RC2Transform", modifiers: "&&", def_value: None }]
@@ -131,6 +131,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::RC2Transform, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RC2Transform, ___R0) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RC2Transform, ___R1) == 0x5a, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RC2Transform, ___R2) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RC2Transform, ___R3) == 0x5e, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RC2Transform, ___K) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RC2Transform, ___j) == 0x68, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::RC2Transform);

@@ -28,12 +28,12 @@ public:
   // Declarations
   static inline ::System::DivideByZeroException* New_ctor();
 
-  /// @brief Method .ctor addr 0x2595628 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x2439fe8 size 0x5c virtual false final false
   inline void _ctor();
 
   static inline ::System::DivideByZeroException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x2595684 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x243a044 size 0x8 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "DivideByZeroException", modifiers: "&&", def_value: None }]

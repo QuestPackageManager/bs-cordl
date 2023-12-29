@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseNumberConverter)
-namespace System::ComponentModel {
-class ITypeDescriptorContext;
-}
-namespace System::Globalization {
-class NumberFormatInfo;
+namespace System {
+class Type;
 }
 namespace System {
 class Object;
 }
 namespace System::Globalization {
-class CultureInfo;
+class NumberFormatInfo;
 }
-namespace System {
-class Type;
+namespace System::ComponentModel {
+class ITypeDescriptorContext;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::System::ComponentModel::BaseNumberConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9480))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9407))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8317))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8244))
 // CS Name: ::System.ComponentModel::BaseNumberConverter*
 class CORDL_TYPE BaseNumberConverter : public ::System::ComponentModel::TypeConverter {
 public:
@@ -43,10 +43,10 @@ public:
 
   static inline ::System::ComponentModel::BaseNumberConverter* New_ctor();
 
-  /// @brief Method .ctor addr 0x29065c4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x278859c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_AllowHex addr 0x29065cc size 0x8 virtual true final false
+  /// @brief Method get_AllowHex addr 0x27885a4 size 0x8 virtual true final false
   inline bool get_AllowHex();
 
   /// @brief Method get_TargetType addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -61,17 +61,17 @@ public:
   /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method CanConvertFrom addr 0x29065d4 size 0xc8 virtual true final false
+  /// @brief Method CanConvertFrom addr 0x27885ac size 0xc8 virtual true final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method ConvertFrom addr 0x290669c size 0x3fc virtual true final false
+  /// @brief Method ConvertFrom addr 0x2788674 size 0x3fc virtual true final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo addr 0x2906a98 size 0x2a4 virtual true final false
+  /// @brief Method ConvertTo addr 0x2788a70 size 0x2a4 virtual true final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method CanConvertTo addr 0x2906d3c size 0x38 virtual true final false
+  /// @brief Method CanConvertTo addr 0x2788d14 size 0x38 virtual true final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseNumberConverter", modifiers: "&&", def_value: None }]

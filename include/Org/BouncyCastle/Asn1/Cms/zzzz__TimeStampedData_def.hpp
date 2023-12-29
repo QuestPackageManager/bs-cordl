@@ -4,29 +4,29 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(TimeStampedData)
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class MetaData;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerIA5String;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerIA5String;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class Evidence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -100,31 +100,31 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedData* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String* dataUri, ::Org::BouncyCastle::Asn1::Cms::MetaData* metaData,
                                                                           ::Org::BouncyCastle::Asn1::Asn1OctetString* content, ::Org::BouncyCastle::Asn1::Cms::Evidence* temporalEvidence);
 
-  /// @brief Method .ctor addr 0xe822e8 size 0x94 virtual false final false
+  /// @brief Method .ctor addr 0xe0d114 size 0x94 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerIA5String* dataUri, ::Org::BouncyCastle::Asn1::Cms::MetaData* metaData, ::Org::BouncyCastle::Asn1::Asn1OctetString* content,
                     ::Org::BouncyCastle::Asn1::Cms::Evidence* temporalEvidence);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe8237c size 0x268 virtual false final false
+  /// @brief Method .ctor addr 0xe0d1a8 size 0x268 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe826d4 size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0xe0d500 size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedData* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_DataUri addr 0xe82778 size 0x8 virtual true final false
+  /// @brief Method get_DataUri addr 0xe0d5a4 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_DataUri();
 
-  /// @brief Method get_MetaData addr 0xe82780 size 0x8 virtual false final false
+  /// @brief Method get_MetaData addr 0xe0d5ac size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Cms::MetaData* get_MetaData();
 
-  /// @brief Method get_Content addr 0xe82788 size 0x8 virtual false final false
+  /// @brief Method get_Content addr 0xe0d5b4 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Content();
 
-  /// @brief Method get_TemporalEvidence addr 0xe82790 size 0x8 virtual false final false
+  /// @brief Method get_TemporalEvidence addr 0xe0d5bc size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Cms::Evidence* get_TemporalEvidence();
 
-  /// @brief Method ToAsn1Object addr 0xe82798 size 0x1b0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe0d5c4 size 0x1b0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampedData", modifiers: "&&", def_value: None }]
@@ -160,6 +160,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::TimeStampedData, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedData, ___version) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedData, ___dataUri) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedData, ___metaData) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedData, ___content) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedData, ___temporalEvidence) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::TimeStampedData);

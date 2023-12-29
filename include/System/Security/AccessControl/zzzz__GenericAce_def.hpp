@@ -11,17 +11,17 @@ CORDL_MODULE_EXPORT(GenericAce)
 namespace System::Security::AccessControl {
 struct AceType;
 }
+namespace System::Security::AccessControl {
+struct AceFlags;
+}
 namespace System {
 class Object;
 }
 namespace System::Security::AccessControl {
-struct AceFlags;
+struct InheritanceFlags;
 }
 namespace System::Security::AccessControl {
 struct AuditFlags;
-}
-namespace System::Security::AccessControl {
-struct InheritanceFlags;
 }
 namespace System::Security::AccessControl {
 struct PropagationFlags;
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::System::Security::AccessControl::GenericAce);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3019)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3017))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3035))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3018)), TypeDefinitionIndex(TypeDefinitionIndex(3016)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3034))
 // CS Name: ::System.Security.AccessControl::GenericAce*
 class CORDL_TYPE GenericAce : public ::System::Object {
 public:
@@ -76,66 +76,66 @@ public:
 
   static inline ::System::Security::AccessControl::GenericAce* New_ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags);
 
-  /// @brief Method .ctor addr 0x248366c size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x232bb78 size 0x90 virtual false final false
   inline void _ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags);
 
   static inline ::System::Security::AccessControl::GenericAce* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method .ctor addr 0x24836fc size 0x144 virtual false final false
+  /// @brief Method .ctor addr 0x232bc08 size 0x144 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method get_AceFlags addr 0x2483840 size 0x8 virtual false final false
+  /// @brief Method get_AceFlags addr 0x232bd4c size 0x8 virtual false final false
   inline ::System::Security::AccessControl::AceFlags get_AceFlags();
 
-  /// @brief Method get_AceType addr 0x2483848 size 0x8 virtual false final false
+  /// @brief Method get_AceType addr 0x232bd54 size 0x8 virtual false final false
   inline ::System::Security::AccessControl::AceType get_AceType();
 
-  /// @brief Method get_AuditFlags addr 0x2483578 size 0x1c virtual false final false
+  /// @brief Method get_AuditFlags addr 0x232ba84 size 0x1c virtual false final false
   inline ::System::Security::AccessControl::AuditFlags get_AuditFlags();
 
   /// @brief Method get_BinaryLength addr 0x0 size 0xffffffffffffffff virtual true final false
   inline int32_t get_BinaryLength();
 
-  /// @brief Method get_InheritanceFlags addr 0x2483850 size 0x10 virtual false final false
+  /// @brief Method get_InheritanceFlags addr 0x232bd5c size 0x10 virtual false final false
   inline ::System::Security::AccessControl::InheritanceFlags get_InheritanceFlags();
 
-  /// @brief Method get_IsInherited addr 0x2481ba8 size 0xc virtual false final false
+  /// @brief Method get_IsInherited addr 0x232a0b4 size 0xc virtual false final false
   inline bool get_IsInherited();
 
-  /// @brief Method get_PropagationFlags addr 0x2483860 size 0xc virtual false final false
+  /// @brief Method get_PropagationFlags addr 0x232bd6c size 0xc virtual false final false
   inline ::System::Security::AccessControl::PropagationFlags get_PropagationFlags();
 
-  /// @brief Method CreateFromBinaryForm addr 0x2482a0c size 0x1c8 virtual false final false
+  /// @brief Method CreateFromBinaryForm addr 0x232af18 size 0x1c8 virtual false final false
   static inline ::System::Security::AccessControl::GenericAce* CreateFromBinaryForm(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method Equals addr 0x2483b10 size 0x80 virtual true final true
+  /// @brief Method Equals addr 0x232c01c size 0x80 virtual true final true
   inline bool Equals(::System::Object* o);
 
   /// @brief Method GetBinaryForm addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void GetBinaryForm(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method GetHashCode addr 0x2483b90 size 0xcc virtual true final true
+  /// @brief Method GetHashCode addr 0x232c09c size 0xcc virtual true final true
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality addr 0x2481db4 size 0x148 virtual false final false
+  /// @brief Method op_Equality addr 0x232a2c0 size 0x148 virtual false final false
   static inline bool op_Equality(::System::Security::AccessControl::GenericAce* left, ::System::Security::AccessControl::GenericAce* right);
 
-  /// @brief Method op_Inequality addr 0x24819f4 size 0x148 virtual false final false
+  /// @brief Method op_Inequality addr 0x2329f00 size 0x148 virtual false final false
   static inline bool op_Inequality(::System::Security::AccessControl::GenericAce* left, ::System::Security::AccessControl::GenericAce* right);
 
-  /// @brief Method IsObjectType addr 0x248386c size 0x40 virtual false final false
+  /// @brief Method IsObjectType addr 0x232bd78 size 0x40 virtual false final false
   static inline bool IsObjectType(::System::Security::AccessControl::AceType type);
 
-  /// @brief Method ReadUShort addr 0x2480dbc size 0x40 virtual false final false
+  /// @brief Method ReadUShort addr 0x23292c8 size 0x40 virtual false final false
   static inline uint16_t ReadUShort(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-  /// @brief Method ReadInt addr 0x2480dfc size 0x74 virtual false final false
+  /// @brief Method ReadInt addr 0x2329308 size 0x74 virtual false final false
   static inline int32_t ReadInt(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-  /// @brief Method WriteInt addr 0x2481094 size 0x80 virtual false final false
+  /// @brief Method WriteInt addr 0x23295a0 size 0x80 virtual false final false
   static inline void WriteInt(int32_t val, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-  /// @brief Method WriteUShort addr 0x248104c size 0x48 virtual false final false
+  /// @brief Method WriteUShort addr 0x2329558 size 0x48 virtual false final false
   static inline void WriteUShort(uint16_t val, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericAce", modifiers: "&&", def_value: None }]
@@ -162,6 +162,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::GenericAce, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::GenericAce, ___ace_flags) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::GenericAce, ___ace_type) == 0x11, "Offset mismatch!");
 
 } // namespace System::Security::AccessControl
 NEED_NO_BOX(::System::Security::AccessControl::GenericAce);

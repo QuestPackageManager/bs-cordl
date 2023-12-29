@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::sockaddr);
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9307))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8144))
 // CS Name: ::System.Net.NetworkInformation.AixStructs::sockaddr
 struct CORDL_TYPE sockaddr {
 public:
@@ -41,6 +41,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::AixStructs::sockaddr, 0x2>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::AixStructs::sockaddr, sa_len) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::AixStructs::sockaddr, sa_family) == 0x1, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation::AixStructs
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::AixStructs::sockaddr, "System.Net.NetworkInformation.AixStructs", "sockaddr");

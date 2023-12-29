@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightRotationBaseData)
 namespace GlobalNamespace {
-struct EaseType;
+struct LightRotationDirection;
 }
 namespace GlobalNamespace {
-struct LightRotationDirection;
+struct EaseType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightRotationBaseData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14736)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4323))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15944)), TypeDefinitionIndex(TypeDefinitionIndex(14951)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4343))
 // CS Name: ::LightRotationBaseData*
 class CORDL_TYPE LightRotationBaseData : public ::System::Object {
 public:
@@ -87,7 +87,7 @@ public:
   static inline ::GlobalNamespace::LightRotationBaseData* New_ctor(float_t beat, bool usePreviousEventRotationValue, ::GlobalNamespace::EaseType easeType, float_t rotation, int32_t loopsCount,
                                                                    ::GlobalNamespace::LightRotationDirection rotationDirection);
 
-  /// @brief Method .ctor addr 0x233d558 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x21ec05c size 0x5c virtual false final false
   inline void _ctor(float_t beat, bool usePreviousEventRotationValue, ::GlobalNamespace::EaseType easeType, float_t rotation, int32_t loopsCount,
                     ::GlobalNamespace::LightRotationDirection rotationDirection);
 
@@ -127,6 +127,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightRotationBaseData, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightRotationBaseData, ___beat) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightRotationBaseData, ___usePreviousEventRotationValue) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightRotationBaseData, ___easeType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightRotationBaseData, ___rotation) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightRotationBaseData, ___loopsCount) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightRotationBaseData, ___rotationDirection) == 0x24, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightRotationBaseData);

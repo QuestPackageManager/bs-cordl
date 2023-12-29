@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CallContextRemotingData)
 namespace System {
-class ICloneable;
+class Object;
 }
 namespace System {
-class Object;
+class ICloneable;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CallContextRemotingData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3148))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3147))
 // CS Name: ::System.Runtime.Remoting.Messaging::CallContextRemotingData*
 class CORDL_TYPE CallContextRemotingData : public ::System::Object {
 public:
@@ -43,21 +43,21 @@ public:
 
   constexpr void __set__logicalCallID(::StringW value);
 
-  /// @brief Method get_LogicalCallID addr 0x24a757c size 0x8 virtual false final false
+  /// @brief Method get_LogicalCallID addr 0x234ea88 size 0x8 virtual false final false
   inline ::StringW get_LogicalCallID();
 
-  /// @brief Method set_LogicalCallID addr 0x24a7584 size 0x8 virtual false final false
+  /// @brief Method set_LogicalCallID addr 0x234ea90 size 0x8 virtual false final false
   inline void set_LogicalCallID(::StringW value);
 
-  /// @brief Method get_HasInfo addr 0x24a7408 size 0x10 virtual false final false
+  /// @brief Method get_HasInfo addr 0x234e914 size 0x10 virtual false final false
   inline bool get_HasInfo();
 
-  /// @brief Method Clone addr 0x24a7338 size 0x68 virtual true final true
+  /// @brief Method Clone addr 0x234e844 size 0x68 virtual true final true
   inline ::System::Object* Clone();
 
   static inline ::System::Runtime::Remoting::Messaging::CallContextRemotingData* New_ctor();
 
-  /// @brief Method .ctor addr 0x24a758c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x234ea98 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CallContextRemotingData", modifiers: "&&", def_value: None }]
@@ -81,6 +81,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::CallContextRemotingData, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::CallContextRemotingData, ____logicalCallID) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CallContextRemotingData);

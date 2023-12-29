@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CookieContainer)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Net {
+class PathList;
+}
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::Net {
 struct HeaderVariantInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System::Net {
 class CookieCollection;
-}
-namespace System::Net {
-class PathList;
 }
 namespace System {
 class Uri;
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::System::Net::CookieContainer);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9130))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7967))
 // CS Name: ::System.Net::CookieContainer*
 class CORDL_TYPE CookieContainer : public ::System::Object {
 public:
@@ -108,41 +108,41 @@ public:
 
   static inline ::System::Net::CookieContainer* New_ctor();
 
-  /// @brief Method .ctor addr 0x29aee3c size 0xf4 virtual false final false
+  /// @brief Method .ctor addr 0x28315c4 size 0xf4 virtual false final false
   inline void _ctor();
 
-  /// @brief Method AddRemoveDomain addr 0x29aef30 size 0x128 virtual false final false
+  /// @brief Method AddRemoveDomain addr 0x28316b8 size 0x128 virtual false final false
   inline void AddRemoveDomain(::StringW key, ::System::Net::PathList* value);
 
-  /// @brief Method Add addr 0x29af058 size 0x820 virtual false final false
+  /// @brief Method Add addr 0x28317e0 size 0x820 virtual false final false
   inline void Add(::System::Net::Cookie* cookie, bool throwOnError);
 
-  /// @brief Method AgeCookies addr 0x29afeac size 0x153c virtual false final false
+  /// @brief Method AgeCookies addr 0x2832634 size 0x153c virtual false final false
   inline bool AgeCookies(::StringW domain);
 
-  /// @brief Method ExpireCollection addr 0x29b1414 size 0x16c virtual false final false
+  /// @brief Method ExpireCollection addr 0x2833b9c size 0x16c virtual false final false
   inline int32_t ExpireCollection(::System::Net::CookieCollection* cc);
 
-  /// @brief Method IsLocalDomain addr 0x29b15a4 size 0x29c virtual false final false
+  /// @brief Method IsLocalDomain addr 0x2833d2c size 0x29c virtual false final false
   inline bool IsLocalDomain(::StringW host);
 
-  /// @brief Method CookieCutter addr 0x29b1840 size 0x6d4 virtual false final false
+  /// @brief Method CookieCutter addr 0x2833fc8 size 0x6d4 virtual false final false
   inline ::System::Net::CookieCollection* CookieCutter(::System::Uri* uri, ::StringW headerName, ::StringW setCookieHeader, bool isThrow);
 
-  /// @brief Method InternalGetCookies addr 0x29b1f14 size 0x4ac virtual false final false
+  /// @brief Method InternalGetCookies addr 0x283469c size 0x4ac virtual false final false
   inline ::System::Net::CookieCollection* InternalGetCookies(::System::Uri* uri);
 
-  /// @brief Method BuildCookieCollectionFromDomainMatches addr 0x29b23c0 size 0x804 virtual false final false
+  /// @brief Method BuildCookieCollectionFromDomainMatches addr 0x2834b48 size 0x804 virtual false final false
   inline void BuildCookieCollectionFromDomainMatches(::System::Uri* uri, bool isSecure, int32_t port, ::System::Net::CookieCollection* cookies,
                                                      ::System::Collections::Generic::List_1<::StringW>* domainAttribute, bool matchOnlyPlainCookie);
 
-  /// @brief Method MergeUpdateCollections addr 0x29b2be8 size 0x20c virtual false final false
+  /// @brief Method MergeUpdateCollections addr 0x2835370 size 0x20c virtual false final false
   inline void MergeUpdateCollections(::System::Net::CookieCollection* destination, ::System::Net::CookieCollection* source, int32_t port, bool isSecure, bool isPlainOnly);
 
-  /// @brief Method GetCookieHeader addr 0x29b2df4 size 0xd0 virtual false final false
+  /// @brief Method GetCookieHeader addr 0x283557c size 0xd0 virtual false final false
   inline ::StringW GetCookieHeader(::System::Uri* uri);
 
-  /// @brief Method GetCookieHeader addr 0x29b2ec4 size 0x398 virtual false final false
+  /// @brief Method GetCookieHeader addr 0x283564c size 0x398 virtual false final false
   inline ::StringW GetCookieHeader(::System::Uri* uri, ByRef<::StringW> optCookie2);
 
   // Ctor Parameters [CppParam { name: "", ty: "CookieContainer", modifiers: "&&", def_value: None }]
@@ -181,6 +181,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::CookieContainer, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::CookieContainer, ___m_domainTable) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::CookieContainer, ___m_maxCookieSize) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::CookieContainer, ___m_maxCookies) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::CookieContainer, ___m_maxCookiesPerDomain) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::CookieContainer, ___m_count) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::CookieContainer, ___m_fqdnMyDomain) == 0x28, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::CookieContainer);

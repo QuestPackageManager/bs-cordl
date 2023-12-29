@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::OffsetDirection);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14762))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14975))
 // CS Name: ::OffsetDirection
 struct CORDL_TYPE OffsetDirection {
 public:
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OffsetDirection, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OffsetDirection, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OffsetDirection, "", "OffsetDirection");

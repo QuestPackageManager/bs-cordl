@@ -37,7 +37,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyQualifierID* New_ctor(::StringW id);
 
-  /// @brief Method .ctor addr 0x1194b94 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x112494c size 0x68 virtual false final false
   inline void _ctor(::StringW id);
 
   // Ctor Parameters [CppParam { name: "", ty: "PolicyQualifierID", modifiers: "&&", def_value: None }]

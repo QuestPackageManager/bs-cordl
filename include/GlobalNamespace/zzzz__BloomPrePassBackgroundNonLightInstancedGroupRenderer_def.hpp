@@ -12,31 +12,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundNonLightInstancedGroupRenderer)
 namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace GlobalNamespace {
-struct __BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType;
-}
-namespace UnityEngine {
 struct Vector4;
 }
 namespace GlobalNamespace {
 class BloomPrePassBackgroundNonLightRenderer;
 }
-namespace GlobalNamespace {
-class __BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty;
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine::Rendering {
 class CommandBuffer;
 }
-namespace UnityEngine {
-class MaterialPropertyBlock;
+namespace GlobalNamespace {
+struct __BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace GlobalNamespace {
+class __BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroup
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14462))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14680))
 // CS Name: ::BloomPrePassBackgroundNonLightInstancedGroupRenderer::PropertyType
 struct CORDL_TYPE __BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType {
 public:
@@ -107,13 +107,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SupportedProperty
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14462))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14461))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14680))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14679))
 // CS Name: ::BloomPrePassBackgroundNonLightInstancedGroupRenderer::SupportedProperty*
 class CORDL_TYPE __BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty : public ::System::Object {
 public:
@@ -147,7 +149,7 @@ public:
 
   static inline ::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty* New_ctor();
 
-  /// @brief Method .ctor addr 0x210583c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fb068c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty", modifiers: "&&", def_value: None }]
@@ -178,13 +180,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty, ___propertyType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty, ___propertyName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty, ___propertyId) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BloomPrePassBackgroundNonLightInstancedGroupRenderer
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14478))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14463))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14696))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14681))
 // CS Name: ::BloomPrePassBackgroundNonLightInstancedGroupRenderer*
 class CORDL_TYPE BloomPrePassBackgroundNonLightInstancedGroupRenderer : public ::GlobalNamespace::BloomPrePassNonLightPass {
 public:
@@ -297,30 +305,30 @@ public:
 
   static inline int32_t getStaticF__worldSpaceCameraPosID();
 
-  /// @brief Method Awake addr 0x2104a78 size 0x4 virtual false final false
+  /// @brief Method Awake addr 0x1faf8c8 size 0x4 virtual false final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded addr 0x2104a7c size 0x258 virtual false final false
+  /// @brief Method InitIfNeeded addr 0x1faf8cc size 0x258 virtual false final false
   inline void InitIfNeeded();
 
-  /// @brief Method Render addr 0x2104d04 size 0x6c4 virtual true final false
+  /// @brief Method Render addr 0x1fafb54 size 0x6c4 virtual true final false
   inline void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
-  /// @brief Method GetCachedMatrixArray addr 0x21053c8 size 0xdc virtual false final false
+  /// @brief Method GetCachedMatrixArray addr 0x1fb0218 size 0xdc virtual false final false
   inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> GetCachedMatrixArray(::StringW propertyName);
 
-  /// @brief Method GetCachedFloatArray addr 0x2105580 size 0xdc virtual false final false
+  /// @brief Method GetCachedFloatArray addr 0x1fb03d0 size 0xdc virtual false final false
   inline ::ArrayW<float_t, ::Array<float_t>*> GetCachedFloatArray(::StringW propertyName);
 
-  /// @brief Method GetCachedVectorArray addr 0x21054a4 size 0xdc virtual false final false
+  /// @brief Method GetCachedVectorArray addr 0x1fb02f4 size 0xdc virtual false final false
   inline ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> GetCachedVectorArray(::StringW propertyName);
 
-  /// @brief Method AutoFillRenderers addr 0x210565c size 0x50 virtual false final false
+  /// @brief Method AutoFillRenderers addr 0x1fb04ac size 0x50 virtual false final false
   inline void AutoFillRenderers();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer* New_ctor();
 
-  /// @brief Method .ctor addr 0x21056ac size 0x128 virtual false final false
+  /// @brief Method .ctor addr 0x1fb04fc size 0x128 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundNonLightInstancedGroupRenderer", modifiers: "&&", def_value: None }]
@@ -373,6 +381,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____renderers) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____supportedProperties) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableFloatArrays) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableVectorArrays) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableMatrixArrays) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableArraysSize) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____commandBuffer) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableSetMaterialPropertyBlock) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableGetMaterialPropertyBlock) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType, "", "BloomPrePassBackgroundNonLightInstancedGroupRenderer/PropertyType");

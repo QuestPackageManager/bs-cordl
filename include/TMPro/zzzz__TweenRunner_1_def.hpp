@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TweenRunner_1)
-namespace TMPro {
-template <typename T> class __TweenRunner_1___Start_d__2;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace UnityEngine {
 class MonoBehaviour;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace TMPro {
+template <typename T> class __TweenRunner_1___Start_d__2;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace TMPro {
@@ -40,8 +40,8 @@ namespace TMPro {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12343))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12271))
 // CS Name: ::TweenRunner`1::<Start>d__2<T>*
 class CORDL_TYPE __TweenRunner_1___Start_d__2 : public ::System::Object {
 public:
@@ -151,8 +151,8 @@ namespace TMPro {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12344))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12272))
 // CS Name: ::TMPro::TweenRunner`1<T>*
 class CORDL_TYPE TweenRunner_1 : public ::System::Object {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::MonoFileType);
 namespace System::IO {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3629))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3617))
 // CS Name: ::System.IO::MonoFileType
 struct CORDL_TYPE MonoFileType {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::MonoFileType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::IO::MonoFileType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::IO
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::MonoFileType, "System.IO", "MonoFileType");

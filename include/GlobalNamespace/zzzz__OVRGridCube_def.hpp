@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRGridCube)
-namespace GlobalNamespace {
-class OVRCameraRig;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace GlobalNamespace {
+class OVRCameraRig;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRGridCube);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10058))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8112))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(9986))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8894))
 // CS Name: ::OVRGridCube*
 class CORDL_TYPE OVRGridCube : public ::UnityEngine::MonoBehaviour {
 public:
@@ -129,24 +129,24 @@ public:
 
   constexpr void __set_CameraController(::GlobalNamespace::OVRCameraRig* value);
 
-  /// @brief Method Update addr 0x27ae3c8 size 0x4 virtual false final false
+  /// @brief Method Update addr 0x2639714 size 0x4 virtual false final false
   inline void Update();
 
-  /// @brief Method SetOVRCameraController addr 0x27ae5e4 size 0xc virtual false final false
+  /// @brief Method SetOVRCameraController addr 0x263992c size 0xc virtual false final false
   inline void SetOVRCameraController(ByRef<::GlobalNamespace::OVRCameraRig*> cameraController);
 
-  /// @brief Method UpdateCubeGrid addr 0x27ae3cc size 0x218 virtual false final false
+  /// @brief Method UpdateCubeGrid addr 0x2639718 size 0x214 virtual false final false
   inline void UpdateCubeGrid();
 
-  /// @brief Method CreateCubeGrid addr 0x27ae5f0 size 0x3a8 virtual false final false
+  /// @brief Method CreateCubeGrid addr 0x2639938 size 0x3a8 virtual false final false
   inline void CreateCubeGrid();
 
-  /// @brief Method CubeGridSwitchColor addr 0x27ae998 size 0x188 virtual false final false
+  /// @brief Method CubeGridSwitchColor addr 0x2639ce0 size 0x188 virtual false final false
   inline void CubeGridSwitchColor(bool CubeSwitchColor);
 
   static inline ::GlobalNamespace::OVRGridCube* New_ctor();
 
-  /// @brief Method .ctor addr 0x27aeb20 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x2639e68 size 0x30 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRGridCube", modifiers: "&&", def_value: None }]
@@ -200,6 +200,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGridCube, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___GridKey) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___CubeGrid) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___CubeGridOn) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___CubeSwitchColorOld) == 0x29, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___CubeSwitchColor) == 0x2a, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___gridSizeX) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___gridSizeY) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___gridSizeZ) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___gridScale) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___cubeScale) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___CameraController) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRGridCube);

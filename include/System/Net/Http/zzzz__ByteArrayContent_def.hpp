@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Net::Http::ByteArrayContent);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14649))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14640))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14866))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14857))
 // CS Name: ::System.Net.Http::ByteArrayContent*
 class CORDL_TYPE ByteArrayContent : public ::System::Net::Http::HttpContent {
 public:
@@ -61,13 +61,13 @@ public:
 
   static inline ::System::Net::Http::ByteArrayContent* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
-  /// @brief Method .ctor addr 0x2830b1c size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x26b5b0c size 0x80 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
-  /// @brief Method SerializeToStreamAsync addr 0x2830ba4 size 0x28 virtual true final false
+  /// @brief Method SerializeToStreamAsync addr 0x26b5b94 size 0x28 virtual true final false
   inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method TryComputeLength addr 0x2830bcc size 0x10 virtual true final false
+  /// @brief Method TryComputeLength addr 0x26b5bbc size 0x10 virtual true final false
   inline bool TryComputeLength(ByRef<int64_t> length);
 
   // Ctor Parameters [CppParam { name: "", ty: "ByteArrayContent", modifiers: "&&", def_value: None }]
@@ -97,6 +97,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::ByteArrayContent, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Http::ByteArrayContent, ___content) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::ByteArrayContent, ___offset) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::ByteArrayContent, ___count) == 0x34, "Offset mismatch!");
 
 } // namespace System::Net::Http
 NEED_NO_BOX(::System::Net::Http::ByteArrayContent);

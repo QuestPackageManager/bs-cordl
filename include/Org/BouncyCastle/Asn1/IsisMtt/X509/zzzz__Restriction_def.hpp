@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Restriction)
-namespace Org::BouncyCastle::Asn1::X500 {
-class DirectoryString;
-}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1::X500 {
+class DirectoryString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -41,23 +41,23 @@ public:
 
   constexpr void __set_restriction(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  /// @brief Method GetInstance addr 0xf7b184 size 0x158 virtual false final false
+  /// @brief Method GetInstance addr 0xf04f60 size 0x158 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* restriction);
 
-  /// @brief Method .ctor addr 0xf7b2dc size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xf050b8 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* restriction);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction* New_ctor(::StringW restriction);
 
-  /// @brief Method .ctor addr 0xf7b304 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0xf050e0 size 0x7c virtual false final false
   inline void _ctor(::StringW restriction);
 
-  /// @brief Method get_RestrictionString addr 0xf7b380 size 0x8 virtual true final false
+  /// @brief Method get_RestrictionString addr 0xf0515c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_RestrictionString();
 
-  /// @brief Method ToAsn1Object addr 0xf7b388 size 0x20 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf05164 size 0x20 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Restriction", modifiers: "&&", def_value: None }]
@@ -81,6 +81,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction, ___restriction) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::IsisMtt::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction);

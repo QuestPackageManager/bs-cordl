@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::DragVisualMode);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6956))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7042))
 // CS Name: ::UnityEngine.UIElements::DragVisualMode
 struct CORDL_TYPE DragVisualMode {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DragVisualMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DragVisualMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DragVisualMode, "UnityEngine.UIElements", "DragVisualMode");

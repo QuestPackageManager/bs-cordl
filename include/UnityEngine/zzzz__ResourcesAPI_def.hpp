@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ResourcesAPI)
-namespace UnityEngine {
-class Object;
+namespace System {
+class Type;
 }
 namespace UnityEngine {
 class ResourceRequest;
 }
-namespace System {
-class Type;
+namespace UnityEngine {
+class Object;
 }
 namespace UnityEngine {
 class Shader;
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourcesAPI);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10264))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10191))
 // CS Name: ::UnityEngine::ResourcesAPI*
 class CORDL_TYPE ResourcesAPI : public ::System::Object {
 public:
@@ -48,33 +48,33 @@ public:
 
   static inline ::UnityEngine::ResourcesAPI* getStaticF__overrideAPI_k__BackingField();
 
-  /// @brief Method get_ActiveAPI addr 0x2cde204 size 0xa8 virtual false final false
+  /// @brief Method get_ActiveAPI addr 0x2b789ac size 0xa8 virtual false final false
   static inline ::UnityEngine::ResourcesAPI* get_ActiveAPI();
 
-  /// @brief Method get_overrideAPI addr 0x2cde2ac size 0x58 virtual false final false
+  /// @brief Method get_overrideAPI addr 0x2b78a54 size 0x58 virtual false final false
   static inline ::UnityEngine::ResourcesAPI* get_overrideAPI();
 
   static inline ::UnityEngine::ResourcesAPI* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cde304 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2b78aac size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method FindObjectsOfTypeAll addr 0x2cde30c size 0x3c virtual true final false
+  /// @brief Method FindObjectsOfTypeAll addr 0x2b78ab4 size 0x3c virtual true final false
   inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> FindObjectsOfTypeAll(::System::Type* systemTypeInstance);
 
-  /// @brief Method FindShaderByName addr 0x2cde348 size 0x3c virtual true final false
+  /// @brief Method FindShaderByName addr 0x2b78af0 size 0x3c virtual true final false
   inline ::UnityEngine::Shader* FindShaderByName(::StringW name);
 
-  /// @brief Method Load addr 0x2cde384 size 0x44 virtual true final false
+  /// @brief Method Load addr 0x2b78b2c size 0x44 virtual true final false
   inline ::UnityEngine::Object* Load(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAll addr 0x2cde3c8 size 0x44 virtual true final false
+  /// @brief Method LoadAll addr 0x2b78b70 size 0x44 virtual true final false
   inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAsync addr 0x2cde40c size 0x54 virtual true final false
+  /// @brief Method LoadAsync addr 0x2b78bb4 size 0x54 virtual true final false
   inline ::UnityEngine::ResourceRequest* LoadAsync(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method UnloadAsset addr 0x2cde460 size 0x3c virtual true final false
+  /// @brief Method UnloadAsset addr 0x2b78c08 size 0x3c virtual true final false
   inline void UnloadAsset(::UnityEngine::Object* assetToUnload);
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourcesAPI", modifiers: "&&", def_value: None }]

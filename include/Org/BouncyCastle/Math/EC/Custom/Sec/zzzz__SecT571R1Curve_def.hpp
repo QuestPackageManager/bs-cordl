@@ -11,16 +11,16 @@ namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
-}
-namespace Org::BouncyCastle::Math::EC::Custom::Sec {
-class __SecT571R1Curve__SecT571R1LookupTable;
+class ECCurve;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
+}
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
-class SecT571FieldElement;
+class __SecT571R1Curve__SecT571R1LookupTable;
 }
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 class SecT571R1Point;
@@ -28,8 +28,8 @@ class SecT571R1Point;
 namespace Org::BouncyCastle::Math::EC {
 class ECLookupTable;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+namespace Org::BouncyCastle::Math::EC::Custom::Sec {
+class SecT571FieldElement;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
@@ -83,19 +83,19 @@ public:
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT571R1Curve__SecT571R1LookupTable* New_ctor(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve* outer,
                                                                                                              ::ArrayW<uint64_t, ::Array<uint64_t>*> table, int32_t size);
 
-  /// @brief Method .ctor addr 0x10334a8 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0xfc125c size 0x3c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve* outer, ::ArrayW<uint64_t, ::Array<uint64_t>*> table, int32_t size);
 
-  /// @brief Method get_Size addr 0x1033708 size 0x8 virtual true final false
+  /// @brief Method get_Size addr 0xfc14bc size 0x8 virtual true final false
   inline int32_t get_Size();
 
-  /// @brief Method Lookup addr 0x1033710 size 0x108 virtual true final false
+  /// @brief Method Lookup addr 0xfc14c4 size 0x108 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 
-  /// @brief Method LookupVar addr 0x10338f8 size 0xcc virtual true final false
+  /// @brief Method LookupVar addr 0xfc16ac size 0xcc virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
-  /// @brief Method CreatePoint addr 0x1033818 size 0xe0 virtual false final false
+  /// @brief Method CreatePoint addr 0xfc15cc size 0xe0 virtual false final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> y);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SecT571R1Curve__SecT571R1LookupTable", modifiers: "&&", def_value: None }]
@@ -125,6 +125,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT571R1Curve__SecT571R1LookupTable, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT571R1Curve__SecT571R1LookupTable, ___m_outer) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT571R1Curve__SecT571R1LookupTable, ___m_table) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT571R1Curve__SecT571R1LookupTable, ___m_size) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC::Custom::Sec
 // Type: Org.BouncyCastle.Math.EC.Custom.Sec::SecT571R1Curve
@@ -189,51 +195,51 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve* New_ctor();
 
-  /// @brief Method .ctor addr 0x1032ea8 size 0x194 virtual false final false
+  /// @brief Method .ctor addr 0xfc0c5c size 0x194 virtual false final false
   inline void _ctor();
 
-  /// @brief Method CloneCurve addr 0x1033044 size 0x58 virtual true final false
+  /// @brief Method CloneCurve addr 0xfc0df8 size 0x58 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* CloneCurve();
 
-  /// @brief Method SupportsCoordinateSystem addr 0x103309c size 0xc virtual true final false
+  /// @brief Method SupportsCoordinateSystem addr 0xfc0e50 size 0xc virtual true final false
   inline bool SupportsCoordinateSystem(int32_t coord);
 
-  /// @brief Method get_Infinity addr 0x10330a8 size 0x8 virtual true final false
+  /// @brief Method get_Infinity addr 0xfc0e5c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Infinity();
 
-  /// @brief Method get_FieldSize addr 0x10330b0 size 0x8 virtual true final false
+  /// @brief Method get_FieldSize addr 0xfc0e64 size 0x8 virtual true final false
   inline int32_t get_FieldSize();
 
-  /// @brief Method FromBigInteger addr 0x10330b8 size 0x64 virtual true final false
+  /// @brief Method FromBigInteger addr 0xfc0e6c size 0x64 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method CreateRawPoint addr 0x103311c size 0x88 virtual true final false
+  /// @brief Method CreateRawPoint addr 0xfc0ed0 size 0x88 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method CreateRawPoint addr 0x1033230 size 0x94 virtual true final false
+  /// @brief Method CreateRawPoint addr 0xfc0fe4 size 0x94 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                                                                 ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
                                                                 bool withCompression);
 
-  /// @brief Method get_IsKoblitz addr 0x10332d0 size 0x8 virtual true final false
+  /// @brief Method get_IsKoblitz addr 0xfc1084 size 0x8 virtual true final false
   inline bool get_IsKoblitz();
 
-  /// @brief Method get_M addr 0x10332d8 size 0x8 virtual true final false
+  /// @brief Method get_M addr 0xfc108c size 0x8 virtual true final false
   inline int32_t get_M();
 
-  /// @brief Method get_IsTrinomial addr 0x10332e0 size 0x8 virtual true final false
+  /// @brief Method get_IsTrinomial addr 0xfc1094 size 0x8 virtual true final false
   inline bool get_IsTrinomial();
 
-  /// @brief Method get_K1 addr 0x10332e8 size 0x8 virtual true final false
+  /// @brief Method get_K1 addr 0xfc109c size 0x8 virtual true final false
   inline int32_t get_K1();
 
-  /// @brief Method get_K2 addr 0x10332f0 size 0x8 virtual true final false
+  /// @brief Method get_K2 addr 0xfc10a4 size 0x8 virtual true final false
   inline int32_t get_K2();
 
-  /// @brief Method get_K3 addr 0x10332f8 size 0x8 virtual true final false
+  /// @brief Method get_K3 addr 0xfc10ac size 0x8 virtual true final false
   inline int32_t get_K3();
 
-  /// @brief Method CreateCacheSafeLookupTable addr 0x1033300 size 0x1a8 virtual true final false
+  /// @brief Method CreateCacheSafeLookupTable addr 0xfc10b4 size 0x1a8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> points,
                                                                                   int32_t off, int32_t len);
 
@@ -264,6 +270,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve, ___m_infinity) == 0x58, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC::Custom::Sec
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve);

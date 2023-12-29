@@ -10,26 +10,26 @@ CORDL_MODULE_EXPORT(BombCutSoundEffectManager)
 namespace GlobalNamespace {
 struct NoteCutInfo;
 }
-namespace UnityEngine {
-class AudioClip;
-}
 namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class BombCutSoundEffect;
-}
-namespace GlobalNamespace {
 class __BombCutSoundEffect__Pool;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
-class SaberManager;
+template <typename T> class RandomObjectPicker_1;
 }
 namespace GlobalNamespace {
-template <typename T> class RandomObjectPicker_1;
+class BombCutSoundEffect;
+}
+namespace GlobalNamespace {
+class SaberManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BombCutSoundEffectManager);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4059))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4047))
 // CS Name: ::BombCutSoundEffectManager*
 class CORDL_TYPE BombCutSoundEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -101,21 +101,21 @@ public:
 
   constexpr void __set__randomSoundPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>* value);
 
-  /// @brief Method Start addr 0x222c8d8 size 0xe4 virtual false final false
+  /// @brief Method Start addr 0x20ccdec size 0xe4 virtual false final false
   inline void Start();
 
-  /// @brief Method HandleNoteWasCut addr 0x222c9bc size 0x220 virtual false final false
+  /// @brief Method HandleNoteWasCut addr 0x20cced0 size 0x220 virtual false final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method OnDestroy addr 0x222cbdc size 0x98 virtual false final false
+  /// @brief Method OnDestroy addr 0x20cd0f0 size 0x98 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBombCutSoundEffectDidFinish addr 0x222cc74 size 0xb8 virtual false final false
+  /// @brief Method HandleBombCutSoundEffectDidFinish addr 0x20cd188 size 0xb8 virtual false final false
   inline void HandleBombCutSoundEffectDidFinish(::GlobalNamespace::BombCutSoundEffect* bombCutSoundEffect);
 
   static inline ::GlobalNamespace::BombCutSoundEffectManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x222cd2c size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x20cd240 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BombCutSoundEffectManager", modifiers: "&&", def_value: None }]
@@ -154,6 +154,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BombCutSoundEffectManager, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ____volume) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ____bombExplosionAudioClips) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ____beatmapObjectManager) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ___saberManager) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ____bombCutSoundEffectPool) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ____randomSoundPicker) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BombCutSoundEffectManager);

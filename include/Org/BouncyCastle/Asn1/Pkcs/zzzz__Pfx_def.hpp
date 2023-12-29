@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(Pfx)
 namespace Org::BouncyCastle::Asn1::Pkcs {
+class MacData;
+}
+namespace Org::BouncyCastle::Asn1::Pkcs {
 class ContentInfo;
 }
 namespace System {
@@ -15,9 +18,6 @@ class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class MacData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -57,26 +57,26 @@ public:
 
   constexpr void __set_macData(::Org::BouncyCastle::Asn1::Pkcs::MacData* value);
 
-  /// @brief Method GetInstance addr 0xf8a804 size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0xf145e0 size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pfx* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pfx* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf8a8a8 size 0xfc virtual false final false
+  /// @brief Method .ctor addr 0xf14684 size 0xfc virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pfx* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* contentInfo, ::Org::BouncyCastle::Asn1::Pkcs::MacData* macData);
 
-  /// @brief Method .ctor addr 0xf8a9a4 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xf14780 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* contentInfo, ::Org::BouncyCastle::Asn1::Pkcs::MacData* macData);
 
-  /// @brief Method get_AuthSafe addr 0xf8a9d0 size 0x8 virtual false final false
+  /// @brief Method get_AuthSafe addr 0xf147ac size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* get_AuthSafe();
 
-  /// @brief Method get_MacData addr 0xf8a9d8 size 0x8 virtual false final false
+  /// @brief Method get_MacData addr 0xf147b4 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::MacData* get_MacData();
 
-  /// @brief Method ToAsn1Object addr 0xf8a9e0 size 0x1a0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf147bc size 0x1a0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Pfx", modifiers: "&&", def_value: None }]
@@ -103,6 +103,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::Pfx, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::Pfx, ___contentInfo) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::Pfx, ___macData) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Pkcs::Pfx);

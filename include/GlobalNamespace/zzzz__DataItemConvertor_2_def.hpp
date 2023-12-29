@@ -22,8 +22,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TOut, typename TParam>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4296))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4322))
 // CS Name: ::DataItemConvertor`2<TOut,TParam>*
 class CORDL_TYPE DataItemConvertor_2 : public ::System::Object {
 public:

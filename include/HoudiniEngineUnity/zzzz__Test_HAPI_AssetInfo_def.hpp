@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_AssetInfo);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9731))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9888))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(9658))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9815))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_AssetInfo*
 class CORDL_TYPE Test_HAPI_AssetInfo : public ::System::Object {
 public:
@@ -41,10 +41,10 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_HAPI_AssetInfo* New_ctor(::HoudiniEngineUnity::HAPI_AssetInfo self);
 
-  /// @brief Method .ctor addr 0x21e24c0 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x2089b24 size 0x34 virtual false final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_AssetInfo self);
 
-  /// @brief Method IsEquivalentTo addr 0x21e24f4 size 0x2c0 virtual true final true
+  /// @brief Method IsEquivalentTo addr 0x2089b58 size 0x2c0 virtual true final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_AssetInfo* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_HAPI_AssetInfo", modifiers: "&&", def_value: None }]
@@ -68,6 +68,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::Test_HAPI_AssetInfo, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::Test_HAPI_AssetInfo, ___self) == 0x10, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::Test_HAPI_AssetInfo);

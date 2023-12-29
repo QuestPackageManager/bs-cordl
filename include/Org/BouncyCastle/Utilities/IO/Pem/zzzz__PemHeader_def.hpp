@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::Pem::PemHeader);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1805))
 // CS Name: ::Org.BouncyCastle.Utilities.IO.Pem::PemHeader*
 class CORDL_TYPE PemHeader : public ::System::Object {
@@ -49,22 +49,22 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemHeader* New_ctor(::StringW name, ::StringW val);
 
-  /// @brief Method .ctor addr 0x115f8fc size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x10ee6b4 size 0x2c virtual false final false
   inline void _ctor(::StringW name, ::StringW val);
 
-  /// @brief Method get_Name addr 0x115f928 size 0x8 virtual true final false
+  /// @brief Method get_Name addr 0x10ee6e0 size 0x8 virtual true final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Value addr 0x115f930 size 0x8 virtual true final false
+  /// @brief Method get_Value addr 0x10ee6e8 size 0x8 virtual true final false
   inline ::StringW get_Value();
 
-  /// @brief Method GetHashCode addr 0x115f938 size 0x58 virtual true final false
+  /// @brief Method GetHashCode addr 0x10ee6f0 size 0x58 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x115f9a8 size 0xb4 virtual true final false
+  /// @brief Method Equals addr 0x10ee760 size 0xb4 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x115f990 size 0x18 virtual false final false
+  /// @brief Method GetHashCode addr 0x10ee748 size 0x18 virtual false final false
   inline int32_t GetHashCode(::StringW s);
 
   // Ctor Parameters [CppParam { name: "", ty: "PemHeader", modifiers: "&&", def_value: None }]
@@ -91,6 +91,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::IO::Pem::PemHeader, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::IO::Pem::PemHeader, ___name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::IO::Pem::PemHeader, ___val) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::IO::Pem
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::IO::Pem::PemHeader);

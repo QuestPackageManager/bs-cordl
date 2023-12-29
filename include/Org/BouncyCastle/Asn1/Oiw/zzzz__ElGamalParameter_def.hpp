@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(ElGamalParameter)
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -56,21 +56,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Oiw::ElGamalParameter* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method .ctor addr 0xf85018 size 0xa0 virtual false final false
+  /// @brief Method .ctor addr 0xf0edf4 size 0xa0 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g);
 
   static inline ::Org::BouncyCastle::Asn1::Oiw::ElGamalParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf850b8 size 0xe8 virtual false final false
+  /// @brief Method .ctor addr 0xf0ee94 size 0xe8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_P addr 0xf851a0 size 0x1c virtual false final false
+  /// @brief Method get_P addr 0xf0ef7c size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_G addr 0xf851bc size 0x1c virtual false final false
+  /// @brief Method get_G addr 0xf0ef98 size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method ToAsn1Object addr 0xf851d8 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf0efb4 size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalParameter", modifiers: "&&", def_value: None }]
@@ -97,6 +97,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Oiw::ElGamalParameter, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Oiw::ElGamalParameter, ___p) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Oiw::ElGamalParameter, ___g) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Oiw
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Oiw::ElGamalParameter);

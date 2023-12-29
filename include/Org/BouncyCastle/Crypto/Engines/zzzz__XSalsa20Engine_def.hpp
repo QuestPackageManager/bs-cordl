@@ -27,18 +27,18 @@ public:
 
   __declspec(property(get = get_NonceSize)) int32_t NonceSize;
 
-  /// @brief Method get_AlgorithmName addr 0xef4a94 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xe7f8c0 size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_NonceSize addr 0xef4ad4 size 0x8 virtual true final false
+  /// @brief Method get_NonceSize addr 0xe7f900 size 0x8 virtual true final false
   inline int32_t get_NonceSize();
 
-  /// @brief Method SetKey addr 0xef4adc size 0x264 virtual true final false
+  /// @brief Method SetKey addr 0xe7f908 size 0x264 virtual true final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> ivBytes);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::XSalsa20Engine* New_ctor();
 
-  /// @brief Method .ctor addr 0xef4d40 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0xe7fb6c size 0x58 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XSalsa20Engine", modifiers: "&&", def_value: None }]

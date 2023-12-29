@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::GlobalNamespace::BasicBeatmapEventDataProcessor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14741), inst: 949 }), TypeDefinitionIndex(TypeDefinitionIndex(14721)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14741))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14740)) CS Name: ::BasicBeatmapEventDataProcessor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14938)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14956), inst: 931 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14956))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14955)) CS Name: ::BasicBeatmapEventDataProcessor*
 class CORDL_TYPE BasicBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::BasicBeatmapEventData*> {
 public:
   // Declarations
-  /// @brief Method ProcessInsertedEventDataInternal addr 0xdff488 size 0x1e8 virtual true final false
+  /// @brief Method ProcessInsertedEventDataInternal addr 0xd99ae0 size 0x1e8 virtual true final false
   inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal addr 0xdff670 size 0x234 virtual true final false
+  /// @brief Method ProcessBeforeDeleteEventDataInternal addr 0xd99cc8 size 0x234 virtual true final false
   inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
 
   static inline ::GlobalNamespace::BasicBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method .ctor addr 0xdff8a4 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xd99efc size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapEventDataProcessor", modifiers: "&&", def_value: None }]

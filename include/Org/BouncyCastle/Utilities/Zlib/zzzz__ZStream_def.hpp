@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZStream)
 namespace Org::BouncyCastle::Utilities::Zlib {
-class Adler32;
+class Inflate;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
 class Deflate;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
-class Inflate;
+class Adler32;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::ZStream);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1830))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::ZStream*
 class CORDL_TYPE ZStream : public ::System::Object {
@@ -158,66 +158,66 @@ public:
 
   constexpr void __set__adler(::Org::BouncyCastle::Utilities::Zlib::Adler32* value);
 
-  /// @brief Method inflateInit addr 0x116a3c8 size 0xc virtual false final false
+  /// @brief Method inflateInit addr 0x10fa180 size 0xc virtual false final false
   inline int32_t inflateInit();
 
-  /// @brief Method inflateInit addr 0x1169ec4 size 0xc virtual false final false
+  /// @brief Method inflateInit addr 0x10f9c7c size 0xc virtual false final false
   inline int32_t inflateInit(bool nowrap);
 
-  /// @brief Method inflateInit addr 0x116a9b4 size 0x8 virtual false final false
+  /// @brief Method inflateInit addr 0x10fa76c size 0x8 virtual false final false
   inline int32_t inflateInit(int32_t w);
 
-  /// @brief Method inflateInit addr 0x116a9bc size 0x7c virtual false final false
+  /// @brief Method inflateInit addr 0x10fa774 size 0x7c virtual false final false
   inline int32_t inflateInit(int32_t w, bool nowrap);
 
-  /// @brief Method inflate addr 0x116a0a8 size 0x1c virtual false final false
+  /// @brief Method inflate addr 0x10f9e60 size 0x1c virtual false final false
   inline int32_t inflate(int32_t f);
 
-  /// @brief Method inflateEnd addr 0x116aa38 size 0x50 virtual false final false
+  /// @brief Method inflateEnd addr 0x10fa7f0 size 0x50 virtual false final false
   inline int32_t inflateEnd();
 
-  /// @brief Method inflateSync addr 0x116aa88 size 0x18 virtual false final false
+  /// @brief Method inflateSync addr 0x10fa840 size 0x18 virtual false final false
   inline int32_t inflateSync();
 
-  /// @brief Method inflateSetDictionary addr 0x116aaa0 size 0x20 virtual false final false
+  /// @brief Method inflateSetDictionary addr 0x10fa858 size 0x20 virtual false final false
   inline int32_t inflateSetDictionary(::ArrayW<uint8_t, ::Array<uint8_t>*> dictionary, int32_t dictLength);
 
-  /// @brief Method deflateInit addr 0x116aac0 size 0xc virtual false final false
+  /// @brief Method deflateInit addr 0x10fa878 size 0xc virtual false final false
   inline int32_t deflateInit(int32_t level);
 
-  /// @brief Method deflateInit addr 0x116983c size 0xc virtual false final false
+  /// @brief Method deflateInit addr 0x10f95f4 size 0xc virtual false final false
   inline int32_t deflateInit(int32_t level, bool nowrap);
 
-  /// @brief Method deflateInit addr 0x116aacc size 0x8 virtual false final false
+  /// @brief Method deflateInit addr 0x10fa884 size 0x8 virtual false final false
   inline int32_t deflateInit(int32_t level, int32_t bits);
 
-  /// @brief Method deflateInit addr 0x116aad4 size 0x94 virtual false final false
+  /// @brief Method deflateInit addr 0x10fa88c size 0x94 virtual false final false
   inline int32_t deflateInit(int32_t level, int32_t bits, bool nowrap);
 
-  /// @brief Method deflate addr 0x11699ac size 0x24 virtual false final false
+  /// @brief Method deflate addr 0x10f9764 size 0x24 virtual false final false
   inline int32_t deflate(int32_t flush);
 
-  /// @brief Method deflateEnd addr 0x1169bd4 size 0x30 virtual false final false
+  /// @brief Method deflateEnd addr 0x10f998c size 0x30 virtual false final false
   inline int32_t deflateEnd();
 
-  /// @brief Method deflateParams addr 0x116ab68 size 0x28 virtual false final false
+  /// @brief Method deflateParams addr 0x10fa920 size 0x28 virtual false final false
   inline int32_t deflateParams(int32_t level, int32_t strategy);
 
-  /// @brief Method deflateSetDictionary addr 0x116ab90 size 0x28 virtual false final false
+  /// @brief Method deflateSetDictionary addr 0x10fa948 size 0x28 virtual false final false
   inline int32_t deflateSetDictionary(::ArrayW<uint8_t, ::Array<uint8_t>*> dictionary, int32_t dictLength);
 
-  /// @brief Method flush_pending addr 0x116abb8 size 0xbc virtual false final false
+  /// @brief Method flush_pending addr 0x10fa970 size 0xbc virtual false final false
   inline void flush_pending();
 
-  /// @brief Method read_buf addr 0x116ac74 size 0xb0 virtual false final false
+  /// @brief Method read_buf addr 0x10faa2c size 0xb0 virtual false final false
   inline int32_t read_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t start, int32_t size);
 
-  /// @brief Method free addr 0x1169c04 size 0x14 virtual false final false
+  /// @brief Method free addr 0x10f99bc size 0x14 virtual false final false
   inline void free();
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::ZStream* New_ctor();
 
-  /// @brief Method .ctor addr 0x11697d4 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x10f958c size 0x68 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ZStream", modifiers: "&&", def_value: None }]
@@ -331,6 +331,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Zlib::ZStream, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZStream, ___next_in) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZStream, ___next_in_index) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZStream, ___avail_in) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZStream, ___total_in) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZStream, ___next_out) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZStream, ___next_out_index) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZStream, ___avail_out) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZStream, ___total_out) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZStream, ___msg) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZStream, ___dstate) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZStream, ___istate) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZStream, ___data_type) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZStream, ___adler) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZStream, ____adler) == 0x68, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::Zlib
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::ZStream);

@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DynamicResourceLocator)
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class IResourceLocator;
+}
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class IResourceLocator;
-}
-namespace System {
-class Type;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::DynamicResourceLocator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14097))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14368))
 // CS Name: ::UnityEngine.AddressableAssets::DynamicResourceLocator*
 class CORDL_TYPE DynamicResourceLocator : public ::System::Object {
 public:
@@ -70,24 +70,24 @@ public:
 
   constexpr void __set_m_AtlasSpriteProviderId(::StringW value);
 
-  /// @brief Method get_LocatorId addr 0x2a2726c size 0x40 virtual true final true
+  /// @brief Method get_LocatorId addr 0x28a9524 size 0x40 virtual true final true
   inline ::StringW get_LocatorId();
 
-  /// @brief Method get_Keys addr 0x2a272ac size 0x44 virtual true final false
+  /// @brief Method get_Keys addr 0x28a9564 size 0x44 virtual true final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
 
-  /// @brief Method get_AtlasSpriteProviderId addr 0x2a272f0 size 0x458 virtual false final false
+  /// @brief Method get_AtlasSpriteProviderId addr 0x28a95a8 size 0x458 virtual false final false
   inline ::StringW get_AtlasSpriteProviderId();
 
   static inline ::UnityEngine::AddressableAssets::DynamicResourceLocator* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* addr);
 
-  /// @brief Method .ctor addr 0x2a27748 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x28a9a00 size 0x28 virtual false final false
   inline void _ctor(::UnityEngine::AddressableAssets::AddressablesImpl* addr);
 
-  /// @brief Method Locate addr 0x2a27770 size 0x54c virtual true final true
+  /// @brief Method Locate addr 0x28a9a28 size 0x54c virtual true final true
   inline bool Locate(::System::Object* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
 
-  /// @brief Method CreateDynamicLocations addr 0x2a27cbc size 0x68c virtual false final false
+  /// @brief Method CreateDynamicLocations addr 0x28a9f74 size 0x68c virtual false final false
   inline void CreateDynamicLocations(::System::Type* type, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations,
                                      ::StringW locName, ::StringW subKey, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* mainLoc);
 
@@ -115,6 +115,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::DynamicResourceLocator, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::DynamicResourceLocator, ___m_Addressables) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::DynamicResourceLocator, ___m_AtlasSpriteProviderId) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 NEED_NO_BOX(::UnityEngine::AddressableAssets::DynamicResourceLocator);

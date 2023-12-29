@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Interactions::PressBehavior);
 namespace UnityEngine::InputSystem::Interactions {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6650))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6736))
 // CS Name: ::UnityEngine.InputSystem.Interactions::PressBehavior
 struct CORDL_TYPE PressBehavior {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Interactions::PressBehavior, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Interactions::PressBehavior, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Interactions
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Interactions::PressBehavior, "UnityEngine.InputSystem.Interactions", "PressBehavior");

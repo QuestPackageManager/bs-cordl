@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlName)
+namespace System::Xml::Schema {
+class XmlSchemaElement;
+}
 namespace System::Xml {
 class XmlDocument;
 }
@@ -13,16 +16,13 @@ namespace System::Xml::Schema {
 class XmlSchemaSimpleType;
 }
 namespace System::Xml::Schema {
-struct XmlSchemaValidity;
-}
-namespace System::Xml::Schema {
-class XmlSchemaElement;
+class XmlSchemaAttribute;
 }
 namespace System::Xml::Schema {
 class IXmlSchemaInfo;
 }
 namespace System::Xml::Schema {
-class XmlSchemaAttribute;
+struct XmlSchemaValidity;
 }
 namespace System::Xml::Schema {
 class XmlSchemaType;
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::System::Xml::XmlName);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11515))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11443))
 // CS Name: ::System.Xml::XmlName*
 class CORDL_TYPE XmlName : public ::System::Object {
 public:
@@ -135,58 +135,58 @@ public:
 
   constexpr void __set_next(::System::Xml::XmlName* value);
 
-  /// @brief Method Create addr 0x288e184 size 0xf4 virtual false final false
+  /// @brief Method Create addr 0x2711164 size 0xf4 virtual false final false
   static inline ::System::Xml::XmlName* Create(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, ::System::Xml::XmlDocument* ownerDoc, ::System::Xml::XmlName* next,
                                                ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
 
   static inline ::System::Xml::XmlName* New_ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, ::System::Xml::XmlDocument* ownerDoc, ::System::Xml::XmlName* next);
 
-  /// @brief Method .ctor addr 0x288e278 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x2711258 size 0x58 virtual false final false
   inline void _ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, ::System::Xml::XmlDocument* ownerDoc, ::System::Xml::XmlName* next);
 
-  /// @brief Method get_LocalName addr 0x288e69c size 0x8 virtual false final false
+  /// @brief Method get_LocalName addr 0x271167c size 0x8 virtual false final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceURI addr 0x288e6a4 size 0x8 virtual false final false
+  /// @brief Method get_NamespaceURI addr 0x2711684 size 0x8 virtual false final false
   inline ::StringW get_NamespaceURI();
 
-  /// @brief Method get_Prefix addr 0x288e6ac size 0x8 virtual false final false
+  /// @brief Method get_Prefix addr 0x271168c size 0x8 virtual false final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_HashCode addr 0x288e6b4 size 0x8 virtual false final false
+  /// @brief Method get_HashCode addr 0x2711694 size 0x8 virtual false final false
   inline int32_t get_HashCode();
 
-  /// @brief Method get_OwnerDocument addr 0x288e6bc size 0x8 virtual false final false
+  /// @brief Method get_OwnerDocument addr 0x271169c size 0x8 virtual false final false
   inline ::System::Xml::XmlDocument* get_OwnerDocument();
 
-  /// @brief Method get_Name addr 0x288897c size 0x1ac virtual false final false
+  /// @brief Method get_Name addr 0x270b95c size 0x1ac virtual false final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Validity addr 0x288e6c4 size 0x8 virtual true final false
+  /// @brief Method get_Validity addr 0x27116a4 size 0x8 virtual true final false
   inline ::System::Xml::Schema::XmlSchemaValidity get_Validity();
 
-  /// @brief Method get_IsDefault addr 0x288e6cc size 0x8 virtual true final false
+  /// @brief Method get_IsDefault addr 0x27116ac size 0x8 virtual true final false
   inline bool get_IsDefault();
 
-  /// @brief Method get_IsNil addr 0x288e6d4 size 0x8 virtual true final false
+  /// @brief Method get_IsNil addr 0x27116b4 size 0x8 virtual true final false
   inline bool get_IsNil();
 
-  /// @brief Method get_MemberType addr 0x288e6dc size 0x8 virtual true final false
+  /// @brief Method get_MemberType addr 0x27116bc size 0x8 virtual true final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_MemberType();
 
-  /// @brief Method get_SchemaType addr 0x288e6e4 size 0x8 virtual true final false
+  /// @brief Method get_SchemaType addr 0x27116c4 size 0x8 virtual true final false
   inline ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
 
-  /// @brief Method get_SchemaElement addr 0x288e6ec size 0x8 virtual true final false
+  /// @brief Method get_SchemaElement addr 0x27116cc size 0x8 virtual true final false
   inline ::System::Xml::Schema::XmlSchemaElement* get_SchemaElement();
 
-  /// @brief Method get_SchemaAttribute addr 0x288e6f4 size 0x8 virtual true final false
+  /// @brief Method get_SchemaAttribute addr 0x27116d4 size 0x8 virtual true final false
   inline ::System::Xml::Schema::XmlSchemaAttribute* get_SchemaAttribute();
 
-  /// @brief Method Equals addr 0x288e6fc size 0xc virtual true final false
+  /// @brief Method Equals addr 0x27116dc size 0xc virtual true final false
   inline bool Equals(::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
 
-  /// @brief Method GetHashCode addr 0x288e708 size 0x64 virtual false final false
+  /// @brief Method GetHashCode addr 0x27116e8 size 0x64 virtual false final false
   static inline int32_t GetHashCode(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlName", modifiers: "&&", def_value: None }]
@@ -228,6 +228,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlName, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlName, ___prefix) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlName, ___localName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlName, ___ns) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlName, ___name) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlName, ___hashCode) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlName, ___ownerDoc) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlName, ___next) == 0x40, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlName);

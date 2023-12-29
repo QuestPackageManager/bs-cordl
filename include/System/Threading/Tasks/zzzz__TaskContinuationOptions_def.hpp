@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::Tasks::TaskContinuationOptions);
 namespace System::Threading::Tasks {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2792))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2788))
 // CS Name: ::System.Threading.Tasks::TaskContinuationOptions
 struct CORDL_TYPE TaskContinuationOptions {
 public:
@@ -109,6 +109,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::TaskContinuationOptions, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::TaskContinuationOptions, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Threading::Tasks
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::TaskContinuationOptions, "System.Threading.Tasks", "TaskContinuationOptions");

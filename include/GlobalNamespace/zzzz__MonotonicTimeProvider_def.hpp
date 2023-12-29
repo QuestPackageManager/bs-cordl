@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonotonicTimeProvider)
-namespace BGNet::Core {
-class ITimeProvider;
-}
 namespace System::Diagnostics {
 class Stopwatch;
+}
+namespace BGNet::Core {
+class ITimeProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MonotonicTimeProvider);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12875))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12798))
 // CS Name: ::MonotonicTimeProvider*
 class CORDL_TYPE MonotonicTimeProvider : public ::System::Object {
 public:
@@ -67,13 +67,13 @@ public:
 
   static inline ::GlobalNamespace::MonotonicTimeProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0xe49884 size 0xe4 virtual false final false
+  /// @brief Method .ctor addr 0xdc490c size 0xe4 virtual false final false
   inline void _ctor();
 
-  /// @brief Method GetTimeMs addr 0xe49a1c size 0x2c virtual true final true
+  /// @brief Method GetTimeMs addr 0xdc4aa4 size 0x2c virtual true final true
   inline int64_t GetTimeMs();
 
-  /// @brief Method GetTicks addr 0xe49a48 size 0x58 virtual true final true
+  /// @brief Method GetTicks addr 0xdc4ad0 size 0x58 virtual true final true
   inline int64_t GetTicks();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonotonicTimeProvider", modifiers: "&&", def_value: None }]
@@ -103,6 +103,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MonotonicTimeProvider, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MonotonicTimeProvider, ____timeSpanTicksPerStopwatchTick) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MonotonicTimeProvider, ____startTicks) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MonotonicTimeProvider, ____stopwatch) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MonotonicTimeProvider);

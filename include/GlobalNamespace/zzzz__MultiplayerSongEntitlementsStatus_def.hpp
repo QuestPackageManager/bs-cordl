@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::MultiplayerSongEntitlementsStatus);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5255))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5350))
 // CS Name: ::MultiplayerSongEntitlementsStatus
 struct CORDL_TYPE MultiplayerSongEntitlementsStatus {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerSongEntitlementsStatus, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSongEntitlementsStatus, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerSongEntitlementsStatus, "", "MultiplayerSongEntitlementsStatus");

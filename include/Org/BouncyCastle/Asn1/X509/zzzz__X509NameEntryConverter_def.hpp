@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509NameEntryConverter)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -22,16 +22,16 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(403))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::X509NameEntryConverter*
 class CORDL_TYPE X509NameEntryConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertHexEncoded addr 0x119d830 size 0x78 virtual false final false
+  /// @brief Method ConvertHexEncoded addr 0x112d5e8 size 0x78 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ConvertHexEncoded(::StringW hexString, int32_t offset);
 
-  /// @brief Method CanBePrintable addr 0x119d8a8 size 0xc virtual false final false
+  /// @brief Method CanBePrintable addr 0x112d660 size 0xc virtual false final false
   inline bool CanBePrintable(::StringW str);
 
   /// @brief Method GetConvertedValue addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -39,7 +39,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* New_ctor();
 
-  /// @brief Method .ctor addr 0x119d8b4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x112d66c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509NameEntryConverter", modifiers: "&&", def_value: None }]

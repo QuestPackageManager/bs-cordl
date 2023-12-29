@@ -7,12 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NaccacheSternEngine)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class NaccacheSternKeyParameters;
-}
 namespace System::Collections {
 class IList;
 }
@@ -21,6 +15,12 @@ class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class NaccacheSternKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(851))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::NaccacheSternEngine*
 class CORDL_TYPE NaccacheSternEngine : public ::System::Object {
@@ -72,39 +72,39 @@ public:
 
   constexpr void __set_lookup(::ArrayW<::System::Collections::IList*, ::Array<::System::Collections::IList*>*> value);
 
-  /// @brief Method get_AlgorithmName addr 0xed6118 size 0x40 virtual true final true
+  /// @brief Method get_AlgorithmName addr 0xe60f44 size 0x40 virtual true final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0xed6158 size 0x58c virtual true final false
+  /// @brief Method Init addr 0xe60f84 size 0x58c virtual true final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method set_Debug addr 0xed66e4 size 0x4 virtual true final false
+  /// @brief Method set_Debug addr 0xe61510 size 0x4 virtual true final false
   inline void set_Debug(bool value);
 
-  /// @brief Method GetInputBlockSize addr 0xed66e8 size 0x54 virtual true final false
+  /// @brief Method GetInputBlockSize addr 0xe61514 size 0x54 virtual true final false
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize addr 0xed673c size 0x54 virtual true final false
+  /// @brief Method GetOutputBlockSize addr 0xe61568 size 0x54 virtual true final false
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method ProcessBlock addr 0xed6790 size 0x8fc virtual true final false
+  /// @brief Method ProcessBlock addr 0xe615bc size 0x8fc virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t length);
 
-  /// @brief Method Encrypt addr 0xed7470 size 0xd8 virtual true final false
+  /// @brief Method Encrypt addr 0xe6229c size 0xd8 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encrypt(::Org::BouncyCastle::Math::BigInteger* plain);
 
-  /// @brief Method AddCryptedBlocks addr 0xed7548 size 0x204 virtual true final false
+  /// @brief Method AddCryptedBlocks addr 0xe62374 size 0x204 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> AddCryptedBlocks(::ArrayW<uint8_t, ::Array<uint8_t>*> block1, ::ArrayW<uint8_t, ::Array<uint8_t>*> block2);
 
-  /// @brief Method ProcessData addr 0xed774c size 0x218 virtual true final false
+  /// @brief Method ProcessData addr 0xe62578 size 0x218 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method chineseRemainder addr 0xed708c size 0x3e4 virtual false final false
+  /// @brief Method chineseRemainder addr 0xe61eb8 size 0x3e4 virtual false final false
   static inline ::Org::BouncyCastle::Math::BigInteger* chineseRemainder(::System::Collections::IList* congruences, ::System::Collections::IList* primes);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine* New_ctor();
 
-  /// @brief Method .ctor addr 0xed7964 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0xe62790 size 0xc virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternEngine", modifiers: "&&", def_value: None }]
@@ -134,6 +134,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine, ___forEncryption) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine, ___key) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine, ___lookup) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine);

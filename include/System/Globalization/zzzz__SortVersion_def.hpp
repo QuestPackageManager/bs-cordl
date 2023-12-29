@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Globalization::SortVersion);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3680))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3668))
 // CS Name: ::System.Globalization::SortVersion*
 class CORDL_TYPE SortVersion : public ::System::Object {
 public:
@@ -64,6 +64,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::SortVersion, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::SortVersion, ___m_NlsVersion) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::SortVersion, ___m_SortId) == 0x14, "Offset mismatch!");
 
 } // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::SortVersion);

@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Zenject::IValidatable);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11365))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11293))
 // CS Name: ::Zenject::IValidatable*
 class CORDL_TYPE IValidatable {
 public:

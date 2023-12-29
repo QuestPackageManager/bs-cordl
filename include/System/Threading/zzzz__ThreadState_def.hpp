@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::ThreadState);
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2672))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2670))
 // CS Name: ::System.Threading::ThreadState
 struct CORDL_TYPE ThreadState {
 public:
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::ThreadState, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::ThreadState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Threading
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ThreadState, "System.Threading", "ThreadState");

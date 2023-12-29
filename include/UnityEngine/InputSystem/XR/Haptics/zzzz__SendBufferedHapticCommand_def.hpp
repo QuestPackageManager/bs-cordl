@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(SendBufferedHapticCommand)
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine::InputSystem::XR::Haptics {
 struct __SendBufferedHapticCommand___buffer_e__FixedBuffer;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputDeviceCommand;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR::Haptics {
@@ -35,7 +35,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHapticCommand_
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6347))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6433))
 // CS Name: ::SendBufferedHapticCommand::<buffer>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __SendBufferedHapticCommand___buffer_e__FixedBuffer {
@@ -63,14 +63,16 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHapticCommand___buffer_e__FixedBuffer, 0x400>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHapticCommand___buffer_e__FixedBuffer, FixedElementField) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::XR::Haptics
 // Type: UnityEngine.InputSystem.XR.Haptics::SendBufferedHapticCommand
 // SizeInfo { instance_size: 1040, native_size: 1040, calculated_instance_size: 1040, calculated_native_size: 1056, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing:
 // Some(0) }
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6471)), TypeDefinitionIndex(TypeDefinitionIndex(6347))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6348))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6433)), TypeDefinitionIndex(TypeDefinitionIndex(6557))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6434))
 // CS Name: ::UnityEngine.InputSystem.XR.Haptics::SendBufferedHapticCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE SendBufferedHapticCommand {
@@ -119,13 +121,13 @@ public:
 
   constexpr void __set_buffer(::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHapticCommand___buffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type addr 0x2ac9940 size 0x30 virtual false final false
+  /// @brief Method get_Type addr 0x294abf8 size 0x30 virtual false final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic addr 0x2ac9970 size 0x30 virtual true final true
+  /// @brief Method get_typeStatic addr 0x294ac28 size 0x30 virtual true final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create addr 0x2ac9660 size 0x164 virtual false final false
+  /// @brief Method Create addr 0x294a918 size 0x164 virtual false final false
   static inline ::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand Create(::ArrayW<uint8_t, ::Array<uint8_t>*> rumbleBuffer);
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "channel", ty: "int32_t",

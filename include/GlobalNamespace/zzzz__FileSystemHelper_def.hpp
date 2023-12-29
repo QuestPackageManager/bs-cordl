@@ -18,25 +18,25 @@ MARK_REF_PTR_T(::GlobalNamespace::FileSystemHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15824))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5925))
 // CS Name: ::FileSystemHelper*
 class CORDL_TYPE FileSystemHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindFirstExistedParentPath addr 0xe254b4 size 0x90 virtual false final false
+  /// @brief Method FindFirstExistedParentPath addr 0x21a76d0 size 0x90 virtual false final false
   static inline ::StringW FindFirstExistedParentPath(::StringW path);
 
-  /// @brief Method HasWritePermission addr 0xe25544 size 0x398 virtual false final false
+  /// @brief Method HasWritePermission addr 0x21a7760 size 0x398 virtual false final false
   static inline bool HasWritePermission(::System::Security::AccessControl::FileSystemSecurity* accessControlList);
 
-  /// @brief Method HasWritePermissionOnDirectory addr 0xe258dc size 0x14 virtual false final false
+  /// @brief Method HasWritePermissionOnDirectory addr 0x21a7af8 size 0x14 virtual false final false
   static inline bool HasWritePermissionOnDirectory(::StringW path);
 
-  /// @brief Method HasWritePermissionOnFile addr 0xe258f0 size 0x14 virtual false final false
+  /// @brief Method HasWritePermissionOnFile addr 0x21a7b0c size 0x14 virtual false final false
   static inline bool HasWritePermissionOnFile(::StringW path);
 
-  /// @brief Method IsFileWritable addr 0xe25904 size 0x74 virtual false final false
+  /// @brief Method IsFileWritable addr 0x21a7b20 size 0x74 virtual false final false
   static inline bool IsFileWritable(::StringW path);
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemHelper", modifiers: "&&", def_value: None }]

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleColorSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(16207))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16210))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16046)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16049))
 // CS Name: ::SimpleColorSO*
 class CORDL_TYPE SimpleColorSO : public ::GlobalNamespace::ColorSO {
 public:
@@ -35,15 +35,15 @@ public:
 
   constexpr void __set__color(::UnityEngine::Color value);
 
-  /// @brief Method get_color addr 0x122d9a0 size 0xc virtual true final false
+  /// @brief Method get_color addr 0x11bd674 size 0xc virtual true final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method SetColor addr 0x122d9ac size 0xc virtual false final false
+  /// @brief Method SetColor addr 0x11bd680 size 0xc virtual false final false
   inline void SetColor(::UnityEngine::Color c);
 
   static inline ::GlobalNamespace::SimpleColorSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x122d9b8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x11bd68c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleColorSO", modifiers: "&&", def_value: None }]
@@ -67,6 +67,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleColorSO, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleColorSO, ____color) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SimpleColorSO);

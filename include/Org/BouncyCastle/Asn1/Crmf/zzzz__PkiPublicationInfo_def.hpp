@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PkiPublicationInfo)
-namespace Org::BouncyCastle::Asn1::Crmf {
-class SinglePubInfo;
-}
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Sequence;
 }
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class SinglePubInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -58,19 +58,19 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe87014 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0xe11e40 size 0x68 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe8707c size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xe11ea8 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Action addr 0xe87204 size 0x8 virtual true final false
+  /// @brief Method get_Action addr 0xe12030 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Action();
 
-  /// @brief Method GetPubInfos addr 0xe8720c size 0xfc virtual true final false
+  /// @brief Method GetPubInfos addr 0xe12038 size 0xfc virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo*, ::Array<::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo*>*> GetPubInfos();
 
-  /// @brief Method ToAsn1Object addr 0xe87490 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe122bc size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkiPublicationInfo", modifiers: "&&", def_value: None }]
@@ -97,6 +97,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo, ___action) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo, ___pubInfos) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo);

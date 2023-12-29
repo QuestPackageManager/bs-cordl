@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Net::Security::AsyncOperationStatus);
 namespace Mono::Net::Security {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8817))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7654))
 // CS Name: ::Mono.Net.Security::AsyncOperationStatus
 struct CORDL_TYPE AsyncOperationStatus {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::AsyncOperationStatus, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Net::Security::AsyncOperationStatus, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Mono::Net::Security
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::AsyncOperationStatus, "Mono.Net.Security", "AsyncOperationStatus");

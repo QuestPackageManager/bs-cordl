@@ -16,22 +16,22 @@ MARK_REF_PTR_T(::GlobalNamespace::BitMaskUtil);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14776))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14988))
 // CS Name: ::BitMaskUtil*
 class CORDL_TYPE BitMaskUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NumberOfSetBits addr 0xe0515c size 0x64 virtual false final false
+  /// @brief Method NumberOfSetBits addr 0xd9f828 size 0x64 virtual false final false
   static inline uint32_t NumberOfSetBits(uint64_t i);
 
-  /// @brief Method NumberOfSetBits addr 0xdfda6c size 0x34 virtual false final false
+  /// @brief Method NumberOfSetBits addr 0xd984c4 size 0x34 virtual false final false
   static inline uint32_t NumberOfSetBits(uint32_t i);
 
-  /// @brief Method ShiftLeft addr 0xe051c0 size 0x48 virtual false final false
+  /// @brief Method ShiftLeft addr 0xd9f88c size 0x48 virtual false final false
   static inline uint64_t ShiftLeft(ByRef<uint64_t> value, ByRef<int32_t> shift);
 
-  /// @brief Method ShiftRight addr 0xe05208 size 0x60 virtual false final false
+  /// @brief Method ShiftRight addr 0xd9f8d4 size 0x60 virtual false final false
   static inline uint64_t ShiftRight(ByRef<uint64_t> value, ByRef<int32_t> shift);
 
   // Ctor Parameters [CppParam { name: "", ty: "BitMaskUtil", modifiers: "&&", def_value: None }]

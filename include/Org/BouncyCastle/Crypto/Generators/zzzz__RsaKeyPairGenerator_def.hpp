@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RsaKeyPairGenerator)
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricCipherKeyPairGenerator;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class KeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyGenerationParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricCipherKeyPairGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(923))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::RsaKeyPairGenerator*
 class CORDL_TYPE RsaKeyPairGenerator : public ::System::Object {
@@ -84,18 +84,18 @@ public:
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_DefaultPublicExponent();
 
-  /// @brief Method Init addr 0xf05b2c size 0x114 virtual true final false
+  /// @brief Method Init addr 0xe90958 size 0x114 virtual true final false
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKeyPair addr 0xf05c40 size 0x36c virtual true final false
+  /// @brief Method GenerateKeyPair addr 0xe90a6c size 0x36c virtual true final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method ChooseRandomPrime addr 0xf05fac size 0x230 virtual true final false
+  /// @brief Method ChooseRandomPrime addr 0xe90dd8 size 0x230 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* ChooseRandomPrime(int32_t bitlength, ::Org::BouncyCastle::Math::BigInteger* e);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0xf06314 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xe91140 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaKeyPairGenerator", modifiers: "&&", def_value: None }]
@@ -122,6 +122,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator, ___parameters) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator);

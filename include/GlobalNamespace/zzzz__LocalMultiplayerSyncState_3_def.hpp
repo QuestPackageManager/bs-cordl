@@ -4,25 +4,26 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MultiplayerSyncState_3_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalMultiplayerSyncState_3)
 namespace GlobalNamespace {
-class IConnectedPlayer;
+template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class StateBuffer_3;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
+template <typename TStateTable, typename TType, typename TState> class LocalStateBuffer_3;
 }
 namespace GlobalNamespace {
-template <typename T> class IPacketPool_1;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class LocalStateBuffer_3;
+template <typename T> class IPacketPool_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,8 +37,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14947)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14947), inst: 3832 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14948))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4560)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4560), inst: 3740 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4561))
 // CS Name: ::LocalMultiplayerSyncState`3<TStateTable,TType,TState>*
 class CORDL_TYPE LocalMultiplayerSyncState_3 : public ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState> {
 public:
@@ -73,12 +74,12 @@ public:
   inline ::GlobalNamespace::IConnectedPlayer* get_player();
 
   static inline ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>*
-  New_ctor(::GlobalNamespace::IConnectedPlayer* player, int64_t fullStateUpdateFrequency, int64_t deltaUpdateFrequency, int32_t size,
+  New_ctor(::GlobalNamespace::IConnectedPlayer* player, float_t fullStateUpdateFrequency, float_t deltaUpdateFrequency, int32_t size,
            ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
            ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
 
   /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(::GlobalNamespace::IConnectedPlayer* player, int64_t fullStateUpdateFrequency, int64_t deltaUpdateFrequency, int32_t size,
+  inline void _ctor(::GlobalNamespace::IConnectedPlayer* player, float_t fullStateUpdateFrequency, float_t deltaUpdateFrequency, int32_t size,
                     ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
                     ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
 
@@ -92,7 +93,7 @@ public:
   inline void SetDirty();
 
   /// @brief Method SetCurrentTime addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void SetCurrentTime(int64_t time);
+  inline void SetCurrentTime(float_t time);
 
   /// @brief Method SetState addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void SetState(TType type, TState state);

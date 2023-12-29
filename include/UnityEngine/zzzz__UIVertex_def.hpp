@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::UIVertex);
 // SizeInfo { instance_size: 108, native_size: 108, calculated_instance_size: 108, calculated_native_size: 124, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15907))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10177)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10173))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15799))
 // CS Name: ::UnityEngine::UIVertex
 struct CORDL_TYPE UIVertex {
 public:
@@ -95,6 +95,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIVertex, 0x6c>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIVertex, position) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIVertex, normal) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIVertex, tangent) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIVertex, color) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIVertex, uv0) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIVertex, uv1) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIVertex, uv2) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIVertex, uv3) == 0x5c, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIVertex, "UnityEngine", "UIVertex");

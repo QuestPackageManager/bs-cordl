@@ -3,13 +3,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include <cstdint>
+#include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerSyncState_3)
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class StateBuffer_3;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+template <typename TStateTable, typename TType, typename TState> class StateBuffer_3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14947))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4560))
 // CS Name: ::MultiplayerSyncState`3<TStateTable,TType,TState>*
 class CORDL_TYPE MultiplayerSyncState_3 : public ::System::Object {
 public:
@@ -40,13 +40,13 @@ public:
   inline ::GlobalNamespace::IConnectedPlayer* get_player();
 
   /// @brief Method GetLatestTime addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline int64_t GetLatestTime();
+  inline float_t GetLatestTime();
 
   /// @brief Method GetLatestState addr 0x0 size 0xffffffffffffffff virtual false final false
   inline TState GetLatestState(TType type);
 
   /// @brief Method GetState addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline TState GetState(TType type, int64_t time);
+  inline TState GetState(TType type, float_t time);
 
   /// @brief Method ClearBufferedStates addr 0x0 size 0xffffffffffffffff virtual false final false
   inline void ClearBufferedStates();

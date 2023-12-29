@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::XR::InputTrackingState);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15618))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15575))
 // CS Name: ::UnityEngine.XR::InputTrackingState
 struct CORDL_TYPE InputTrackingState {
 public:
@@ -81,6 +81,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::InputTrackingState, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::InputTrackingState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::InputTrackingState, "UnityEngine.XR", "InputTrackingState");

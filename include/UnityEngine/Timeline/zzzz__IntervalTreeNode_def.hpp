@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Timeline::IntervalTreeNode);
 namespace UnityEngine::Timeline {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13879))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14150))
 // CS Name: ::UnityEngine.Timeline::IntervalTreeNode
 struct CORDL_TYPE IntervalTreeNode {
 public:
@@ -52,6 +52,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::IntervalTreeNode, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::IntervalTreeNode, center) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::IntervalTreeNode, first) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::IntervalTreeNode, last) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::IntervalTreeNode, left) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::IntervalTreeNode, right) == 0x14, "Offset mismatch!");
 
 } // namespace UnityEngine::Timeline
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::IntervalTreeNode, "UnityEngine.Timeline", "IntervalTreeNode");

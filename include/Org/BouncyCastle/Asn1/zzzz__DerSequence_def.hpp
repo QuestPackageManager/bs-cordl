@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(DerSequence)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
@@ -37,30 +37,30 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerSequence* getStaticF_Empty();
 
-  /// @brief Method FromVector addr 0x11b5d4c size 0x8c virtual false final false
+  /// @brief Method FromVector addr 0x1144afc size 0x8c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerSequence* FromVector(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
   static inline ::Org::BouncyCastle::Asn1::DerSequence* New_ctor();
 
-  /// @brief Method .ctor addr 0x11bda00 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x114c7b0 size 0x4 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerSequence* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
 
-  /// @brief Method .ctor addr 0x11b842c size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x11471dc size 0x4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
 
   static inline ::Org::BouncyCastle::Asn1::DerSequence* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements);
 
-  /// @brief Method .ctor addr 0x11aa7c8 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x1139580 size 0x4 virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements);
 
   static inline ::Org::BouncyCastle::Asn1::DerSequence* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
-  /// @brief Method .ctor addr 0x11aaf40 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x1139cf8 size 0x4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
-  /// @brief Method Encode addr 0x11bda04 size 0x390 virtual true final false
+  /// @brief Method Encode addr 0x114c7b4 size 0x390 virtual true final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "DerSequence", modifiers: "&&", def_value: None }]

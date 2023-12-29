@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::QueryExpression);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12021)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12022))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(11949))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11950))
 // CS Name: ::Newtonsoft.Json.Linq.JsonPath::QueryExpression*
 class CORDL_TYPE QueryExpression : public ::System::Object {
 public:
@@ -38,10 +38,10 @@ public:
 
   constexpr void __set__Operator_k__BackingField(::Newtonsoft::Json::Linq::JsonPath::QueryOperator value);
 
-  /// @brief Method get_Operator addr 0x26b126c size 0x8 virtual false final false
+  /// @brief Method get_Operator addr 0x254cb28 size 0x8 virtual false final false
   inline ::Newtonsoft::Json::Linq::JsonPath::QueryOperator get_Operator();
 
-  /// @brief Method set_Operator addr 0x26b1274 size 0x8 virtual false final false
+  /// @brief Method set_Operator addr 0x254cb30 size 0x8 virtual false final false
   inline void set_Operator(::Newtonsoft::Json::Linq::JsonPath::QueryOperator value);
 
   /// @brief Method IsMatch addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -49,7 +49,7 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::QueryExpression* New_ctor();
 
-  /// @brief Method .ctor addr 0x26b127c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x254cb38 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "QueryExpression", modifiers: "&&", def_value: None }]
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JsonPath::QueryExpression, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::QueryExpression, ____Operator_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Linq::JsonPath
 NEED_NO_BOX(::Newtonsoft::Json::Linq::JsonPath::QueryExpression);

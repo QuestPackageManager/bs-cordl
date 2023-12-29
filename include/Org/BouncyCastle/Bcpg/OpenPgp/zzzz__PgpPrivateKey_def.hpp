@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpPrivateKey)
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
 namespace Org::BouncyCastle::Bcpg {
 class PublicKeyPacket;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1658))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpPrivateKey*
 class CORDL_TYPE PgpPrivateKey : public ::System::Object {
@@ -63,16 +63,16 @@ public:
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* New_ctor(int64_t keyID, ::Org::BouncyCastle::Bcpg::PublicKeyPacket* publicKeyPacket,
                                                                             ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method .ctor addr 0x10addf0 size 0xac virtual false final false
+  /// @brief Method .ctor addr 0x103cba0 size 0xac virtual false final false
   inline void _ctor(int64_t keyID, ::Org::BouncyCastle::Bcpg::PublicKeyPacket* publicKeyPacket, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method get_KeyId addr 0x10b2e20 size 0x8 virtual false final false
+  /// @brief Method get_KeyId addr 0x1041bd0 size 0x8 virtual false final false
   inline int64_t get_KeyId();
 
-  /// @brief Method get_PublicKeyPacket addr 0x10b2e28 size 0x8 virtual false final false
+  /// @brief Method get_PublicKeyPacket addr 0x1041bd8 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* get_PublicKeyPacket();
 
-  /// @brief Method get_Key addr 0x10b2e30 size 0x8 virtual false final false
+  /// @brief Method get_Key addr 0x1041be0 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Key();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpPrivateKey", modifiers: "&&", def_value: None }]
@@ -102,6 +102,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey, ___keyID) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey, ___publicKeyPacket) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey, ___privateKey) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg::OpenPgp
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey);

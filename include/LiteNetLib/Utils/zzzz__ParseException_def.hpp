@@ -15,15 +15,15 @@ MARK_REF_PTR_T(::LiteNetLib::Utils::ParseException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14208))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14546))
 // CS Name: ::LiteNetLib.Utils::ParseException*
 class CORDL_TYPE ParseException : public ::System::Exception {
 public:
   // Declarations
   static inline ::LiteNetLib::Utils::ParseException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x220b9f8 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x20aaac0 size 0x68 virtual false final false
   inline void _ctor(::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "ParseException", modifiers: "&&", def_value: None }]

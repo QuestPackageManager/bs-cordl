@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(OtherRecipientInfo)
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -62,27 +62,27 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oriType, ::Org::BouncyCastle::Asn1::Asn1Encodable* oriValue);
 
-  /// @brief Method .ctor addr 0xe7b964 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xe06790 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oriType, ::Org::BouncyCastle::Asn1::Asn1Encodable* oriValue);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe7b990 size 0xac virtual false final false
+  /// @brief Method .ctor addr 0xe067bc size 0xac virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe7ba3c size 0x18 virtual false final false
+  /// @brief Method GetInstance addr 0xe06868 size 0x18 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0xe7ba54 size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0xe06880 size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_OriType addr 0xe7baf8 size 0x8 virtual true final false
+  /// @brief Method get_OriType addr 0xe06924 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_OriType();
 
-  /// @brief Method get_OriValue addr 0xe7bb00 size 0x8 virtual true final false
+  /// @brief Method get_OriValue addr 0xe0692c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_OriValue();
 
-  /// @brief Method ToAsn1Object addr 0xe7bb08 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe06934 size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OtherRecipientInfo", modifiers: "&&", def_value: None }]
@@ -109,6 +109,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo, ___oriType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo, ___oriValue) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo);

@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StaticMemoryPoolBaseBase_1)
 namespace System {
-class IDisposable;
-}
-namespace Zenject {
-class IMemoryPool;
-}
-namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
-}
-namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
 class Type;
 }
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
+}
+namespace Zenject {
+class IMemoryPool;
+}
 namespace System {
 class Object;
+}
+namespace System {
+class IDisposable;
+}
+namespace Zenject {
+template <typename TValue> class IDespawnableMemoryPool_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -38,8 +38,8 @@ namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11084))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11012))
 // CS Name: ::Zenject::StaticMemoryPoolBaseBase`1<TValue>*
 class CORDL_TYPE StaticMemoryPoolBaseBase_1 : public ::System::Object {
 public:

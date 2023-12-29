@@ -23,8 +23,8 @@ namespace System::Buffers {
 // cpp template
 template <typename T, typename TArg>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3879))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3867))
 // CS Name: ::System.Buffers::SpanAction`2<T,TArg>*
 class CORDL_TYPE SpanAction_2 : public ::System::MulticastDelegate {
 public:

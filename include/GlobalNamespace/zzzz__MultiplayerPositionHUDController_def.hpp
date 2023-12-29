@@ -13,16 +13,16 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class MultiplayerScoreProvider;
-}
-namespace GlobalNamespace {
-class __CoreGameHUDController__InitData;
+class MultiplayerPlayersManager;
 }
 namespace UnityEngine {
 class CanvasGroup;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayersManager;
+class MultiplayerScoreProvider;
+}
+namespace GlobalNamespace {
+class __CoreGameHUDController__InitData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPositionHUDController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5039))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5144))
 // CS Name: ::MultiplayerPositionHUDController*
 class CORDL_TYPE MultiplayerPositionHUDController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -114,18 +114,18 @@ public:
 
   constexpr void __set__prevPosition(int32_t value);
 
-  /// @brief Method set_alpha addr 0x23c1f00 size 0x1c virtual false final false
+  /// @brief Method set_alpha addr 0x2288b94 size 0x1c virtual false final false
   inline void set_alpha(float_t value);
 
-  /// @brief Method Start addr 0x23c1f1c size 0x15c virtual false final false
+  /// @brief Method Start addr 0x2288bb0 size 0x15c virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x23c2078 size 0x1b0 virtual false final false
+  /// @brief Method Update addr 0x2288d0c size 0x1b0 virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::MultiplayerPositionHUDController* New_ctor();
 
-  /// @brief Method .ctor addr 0x23c2228 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2288ebc size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPositionHUDController", modifiers: "&&", def_value: None }]
@@ -170,6 +170,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerPositionHUDController, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionHUDController, ____playerCountText) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionHUDController, ____positionText) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionHUDController, ____canvasGroup) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionHUDController, ____firstPlayerAnimationGo) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionHUDController, ____scoreProvider) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionHUDController, ____playersManager) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionHUDController, ____initData) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionHUDController, ____prevPosition) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerPositionHUDController);

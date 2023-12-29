@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EGamepadTextInputLineMode);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8629))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9398))
 // CS Name: ::OVR.OpenVR::EGamepadTextInputLineMode
 struct CORDL_TYPE EGamepadTextInputLineMode {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EGamepadTextInputLineMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::EGamepadTextInputLineMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EGamepadTextInputLineMode, "OVR.OpenVR", "EGamepadTextInputLineMode");

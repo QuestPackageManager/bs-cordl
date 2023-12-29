@@ -10,25 +10,25 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
-class IEnumerator;
+class __Stack__StackDebugView;
 }
 namespace System {
-class ICloneable;
+class Array;
 }
 namespace System::Collections {
 class ICollection;
 }
 namespace System {
-class Array;
-}
-namespace System {
 class Object;
 }
-namespace System::Collections {
-class __Stack__StackDebugView;
+namespace System {
+class ICloneable;
 }
 namespace System::Collections {
 class __Stack__StackEnumerator;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::System::Collections::__Stack__StackEnumerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3784))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3772))
 // CS Name: ::Stack::StackEnumerator*
 class CORDL_TYPE __Stack__StackEnumerator : public ::System::Object {
 public:
@@ -100,19 +100,19 @@ public:
 
   static inline ::System::Collections::__Stack__StackEnumerator* New_ctor(::System::Collections::Stack* stack);
 
-  /// @brief Method .ctor addr 0x25834bc size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x242805c size 0x40 virtual false final false
   inline void _ctor(::System::Collections::Stack* stack);
 
-  /// @brief Method Clone addr 0x2583720 size 0x8 virtual true final true
+  /// @brief Method Clone addr 0x24282c0 size 0x8 virtual true final true
   inline ::System::Object* Clone();
 
-  /// @brief Method MoveNext addr 0x2583728 size 0xe4 virtual true final false
+  /// @brief Method MoveNext addr 0x24282c8 size 0xe4 virtual true final false
   inline bool MoveNext();
 
-  /// @brief Method get_Current addr 0x258380c size 0x94 virtual true final false
+  /// @brief Method get_Current addr 0x24283ac size 0x94 virtual true final false
   inline ::System::Object* get_Current();
 
-  /// @brief Method Reset addr 0x25838a0 size 0x80 virtual true final false
+  /// @brief Method Reset addr 0x2428440 size 0x80 virtual true final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Stack__StackEnumerator", modifiers: "&&", def_value: None }]
@@ -146,13 +146,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::__Stack__StackEnumerator, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::System::Collections::__Stack__StackEnumerator, ____stack) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::__Stack__StackEnumerator, ____index) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::__Stack__StackEnumerator, ____version) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::__Stack__StackEnumerator, ____currentElement) == 0x20, "Offset mismatch!");
+
 } // namespace System::Collections
 // Type: ::StackDebugView
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3785))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3773))
 // CS Name: ::Stack::StackDebugView*
 class CORDL_TYPE __Stack__StackDebugView : public ::System::Object {
 public:
@@ -181,8 +189,8 @@ static_assert(::cordl_internals::size_check_v<::System::Collections::__Stack__St
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3786))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3774))
 // CS Name: ::System.Collections::Stack*
 class CORDL_TYPE Stack : public ::System::Object {
 public:
@@ -244,42 +252,42 @@ public:
 
   static inline ::System::Collections::Stack* New_ctor();
 
-  /// @brief Method .ctor addr 0x2582f34 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x2427ad4 size 0x5c virtual false final false
   inline void _ctor();
 
   static inline ::System::Collections::Stack* New_ctor(int32_t initialCapacity);
 
-  /// @brief Method .ctor addr 0x2582f90 size 0xcc virtual false final false
+  /// @brief Method .ctor addr 0x2427b30 size 0xcc virtual false final false
   inline void _ctor(int32_t initialCapacity);
 
-  /// @brief Method get_Count addr 0x258305c size 0x8 virtual true final false
+  /// @brief Method get_Count addr 0x2427bfc size 0x8 virtual true final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized addr 0x2583064 size 0x8 virtual true final false
+  /// @brief Method get_IsSynchronized addr 0x2427c04 size 0x8 virtual true final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot addr 0x258306c size 0x78 virtual true final false
+  /// @brief Method get_SyncRoot addr 0x2427c0c size 0x78 virtual true final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method Clear addr 0x25830e4 size 0x30 virtual true final false
+  /// @brief Method Clear addr 0x2427c84 size 0x30 virtual true final false
   inline void Clear();
 
-  /// @brief Method Clone addr 0x2583114 size 0x90 virtual true final false
+  /// @brief Method Clone addr 0x2427cb4 size 0x90 virtual true final false
   inline ::System::Object* Clone();
 
-  /// @brief Method CopyTo addr 0x25831a4 size 0x2b8 virtual true final false
+  /// @brief Method CopyTo addr 0x2427d44 size 0x2b8 virtual true final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator addr 0x258345c size 0x60 virtual true final false
+  /// @brief Method GetEnumerator addr 0x2427ffc size 0x60 virtual true final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method Peek addr 0x25834fc size 0x88 virtual true final false
+  /// @brief Method Peek addr 0x242809c size 0x88 virtual true final false
   inline ::System::Object* Peek();
 
-  /// @brief Method Pop addr 0x2583584 size 0x98 virtual true final false
+  /// @brief Method Pop addr 0x2428124 size 0x98 virtual true final false
   inline ::System::Object* Pop();
 
-  /// @brief Method Push addr 0x258361c size 0x104 virtual true final false
+  /// @brief Method Push addr 0x24281bc size 0x104 virtual true final false
   inline void Push(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "Stack", modifiers: "&&", def_value: None }]
@@ -315,6 +323,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::Stack, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Collections::Stack, ____array) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Stack, ____size) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Stack, ____version) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Stack, ____syncRoot) == 0x20, "Offset mismatch!");
 
 } // namespace System::Collections
 NEED_NO_BOX(::System::Collections::Stack);

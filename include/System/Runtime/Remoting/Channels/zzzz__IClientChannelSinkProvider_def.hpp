@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::IClientChannelSinkProvider
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3125))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3124))
 // CS Name: ::System.Runtime.Remoting.Channels::IClientChannelSinkProvider*
 class CORDL_TYPE IClientChannelSinkProvider {
 public:

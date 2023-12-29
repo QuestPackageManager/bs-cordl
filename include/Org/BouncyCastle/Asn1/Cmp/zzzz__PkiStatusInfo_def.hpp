@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkiStatusInfo)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1 {
+class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiFailureInfo;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiFreeText;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -81,43 +81,43 @@ public:
 
   constexpr void __set_failInfo(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method GetInstance addr 0xe6d598 size 0x18 virtual false final false
+  /// @brief Method GetInstance addr 0xdf83c4 size 0x18 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance addr 0xe65928 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xdf0758 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe6d5b0 size 0x178 virtual false final false
+  /// @brief Method .ctor addr 0xdf83dc size 0x178 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* New_ctor(int32_t status);
 
-  /// @brief Method .ctor addr 0xe6d728 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0xdf8554 size 0x7c virtual false final false
   inline void _ctor(int32_t status);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* New_ctor(int32_t status, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* statusString);
 
-  /// @brief Method .ctor addr 0xe6d7a4 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0xdf85d0 size 0x80 virtual false final false
   inline void _ctor(int32_t status, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* statusString);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* New_ctor(int32_t status, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* statusString,
                                                                         ::Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo* failInfo);
 
-  /// @brief Method .ctor addr 0xe6d824 size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0xdf8650 size 0x90 virtual false final false
   inline void _ctor(int32_t status, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* statusString, ::Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo* failInfo);
 
-  /// @brief Method get_Status addr 0xe6d8b4 size 0x1c virtual false final false
+  /// @brief Method get_Status addr 0xdf86e0 size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Status();
 
-  /// @brief Method get_StatusString addr 0xe6d8d0 size 0x8 virtual false final false
+  /// @brief Method get_StatusString addr 0xdf86fc size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* get_StatusString();
 
-  /// @brief Method get_FailInfo addr 0xe6d8d8 size 0x8 virtual false final false
+  /// @brief Method get_FailInfo addr 0xdf8704 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_FailInfo();
 
-  /// @brief Method ToAsn1Object addr 0xe6d8e0 size 0x174 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xdf870c size 0x174 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkiStatusInfo", modifiers: "&&", def_value: None }]
@@ -147,6 +147,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo, ___status) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo, ___statusString) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo, ___failInfo) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo);

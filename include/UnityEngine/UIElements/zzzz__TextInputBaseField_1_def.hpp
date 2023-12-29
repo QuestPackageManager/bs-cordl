@@ -16,7 +16,7 @@ namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
+class CustomStyleResolvedEvent;
 }
 namespace UnityEngine::UIElements {
 template <typename TValueType> class __TextInputBaseField_1__TextInputBase;
@@ -31,10 +31,28 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::UIElements {
-class CustomStyleResolvedEvent;
+class AttachToPanelEvent;
+}
+namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine {
-struct Color;
+class GUIStyle;
+}
+namespace UnityEngine::UIElements {
+struct __VisualElement__MeasureMode;
+}
+namespace UnityEngine::UIElements {
+class TextEditorEventHandler;
+}
+namespace UnityEngine::UIElements {
+struct __DropdownMenuAction__Status;
+}
+namespace UnityEngine::UIElements {
+class TextEditorEngine;
 }
 namespace UnityEngine::UIElements {
 class ITextElement;
@@ -42,59 +60,41 @@ class ITextElement;
 namespace UnityEngine::UIElements {
 class IEventHandler;
 }
-namespace UnityEngine::UIElements {
-class ITextInputField;
-}
-namespace UnityEngine::UIElements {
-struct __DropdownMenuAction__Status;
-}
-namespace UnityEngine::UIElements {
-class TextEditorEventHandler;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::UIElements {
 class ContextualMenuPopulateEvent;
 }
-namespace UnityEngine {
-class GUIStyle;
+namespace UnityEngine::UIElements {
+class IVisualElementScheduledItem;
+}
+namespace UnityEngine::UIElements {
+class ITextInputField;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Color;
 }
 namespace UnityEngine {
 class RectOffset;
 }
 namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
-}
-namespace UnityEngine::UIElements {
-class TextEditorEngine;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
+class MeshGenerationContext;
 }
 namespace UnityEngine::UIElements {
 class DropdownMenuAction;
 }
 namespace UnityEngine::UIElements {
-class MeshGenerationContext;
+class UxmlIntAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-struct __VisualElement__MeasureMode;
-}
-namespace UnityEngine::UIElements {
-class IVisualElementScheduledItem;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
-}
-namespace UnityEngine::UIElements {
-struct CreationContext;
-}
-namespace UnityEngine::UIElements {
-class UxmlIntAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -119,8 +119,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7131), inst: 917 }), TypeDefinitionIndex(TypeDefinitionIndex(7131)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6984))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7096)) CS Name: ::TextInputBaseField`1::UxmlTraits<TValueType>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7217)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7217), inst: 900 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7070))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7182)) CS Name: ::TextInputBaseField`1::UxmlTraits<TValueType>*
 class CORDL_TYPE __TextInputBaseField_1__UxmlTraits : public ::UnityEngine::UIElements::BaseFieldTraits_2<::StringW, ::UnityEngine::UIElements::UxmlStringAttributeDescription*> {
 public:
   // Declarations
@@ -228,8 +228,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7097))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6830)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7183))
 // CS Name: ::TextInputBaseField`1::TextInputBase<TValueType>*
 class CORDL_TYPE __TextInputBaseField_1__TextInputBase : public ::UnityEngine::UIElements::VisualElement {
 public:
@@ -728,8 +728,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 919 }), TypeDefinitionIndex(TypeDefinitionIndex(7130)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(7306), inst: 293 }), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(7306))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7098))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7392), inst: 294 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7216), inst: 902 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(7392)), TypeDefinitionIndex(TypeDefinitionIndex(7216))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7184))
 // CS Name: ::UnityEngine.UIElements::TextInputBaseField`1<TValueType>*
 class CORDL_TYPE TextInputBaseField_1 : public ::UnityEngine::UIElements::BaseField_1<TValueType> {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Serialization::StreamingContextStates);
 namespace System::Runtime::Serialization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3236))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3235))
 // CS Name: ::System.Runtime.Serialization::StreamingContextStates
 struct CORDL_TYPE StreamingContextStates {
 public:
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::StreamingContextStates, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::StreamingContextStates, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::StreamingContextStates, "System.Runtime.Serialization", "StreamingContextStates");

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_IDREF);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11659))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11661))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11587))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11589))
 // CS Name: ::System.Xml.Schema::Datatype_IDREF*
 class CORDL_TYPE Datatype_IDREF : public ::System::Xml::Schema::Datatype_NCName {
 public:
@@ -30,15 +30,15 @@ public:
 
   __declspec(property(get = get_TokenizedType))::System::Xml::XmlTokenizedType TokenizedType;
 
-  /// @brief Method get_TypeCode addr 0x28bb7d8 size 0x8 virtual true final false
+  /// @brief Method get_TypeCode addr 0x273d7b4 size 0x8 virtual true final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_TokenizedType addr 0x28bb7e0 size 0x8 virtual true final false
+  /// @brief Method get_TokenizedType addr 0x273d7bc size 0x8 virtual true final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
   static inline ::System::Xml::Schema::Datatype_IDREF* New_ctor();
 
-  /// @brief Method .ctor addr 0x28bb7e8 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x273d7c4 size 0x4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_IDREF", modifiers: "&&", def_value: None }]

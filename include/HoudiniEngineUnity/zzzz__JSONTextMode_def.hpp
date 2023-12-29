@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::JSONTextMode);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9861))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9788))
 // CS Name: ::HoudiniEngineUnity::JSONTextMode
 struct CORDL_TYPE JSONTextMode {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::JSONTextMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::JSONTextMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::JSONTextMode, "HoudiniEngineUnity", "JSONTextMode");

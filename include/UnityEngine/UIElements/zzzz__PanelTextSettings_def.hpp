@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/TextCore/Text/zzzz__TextSettings_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PanelTextSettings)
-namespace UnityEngine {
-struct SystemLanguage;
-}
-namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine {
-class Object;
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine {
+struct SystemLanguage;
+}
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace UnityEngine::TextCore::Text {
-class FontAsset;
+namespace UnityEngine {
+class Font;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PanelTextSettings);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13684))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7148))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13563))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7234))
 // CS Name: ::UnityEngine.UIElements::PanelTextSettings*
 class CORDL_TYPE PanelTextSettings : public ::UnityEngine::TextCore::Text::TextSettings {
 public:
@@ -67,18 +67,18 @@ public:
 
   static inline ::StringW getStaticF_s_DefaultEditorPanelTextSettingPath();
 
-  /// @brief Method get_defaultPanelTextSettings addr 0x2e4740c size 0x134 virtual false final false
+  /// @brief Method get_defaultPanelTextSettings addr 0x2cdf05c size 0x134 virtual false final false
   static inline ::UnityEngine::UIElements::PanelTextSettings* get_defaultPanelTextSettings();
 
-  /// @brief Method UpdateLocalizationFontAsset addr 0x2e478f4 size 0x4c0 virtual false final false
+  /// @brief Method UpdateLocalizationFontAsset addr 0x2cdf544 size 0x4c0 virtual false final false
   static inline void UpdateLocalizationFontAsset();
 
-  /// @brief Method GetCachedFontAsset addr 0x2e46f04 size 0x8 virtual false final false
+  /// @brief Method GetCachedFontAsset addr 0x2cdeb54 size 0x8 virtual false final false
   inline ::UnityEngine::TextCore::Text::FontAsset* GetCachedFontAsset(::UnityEngine::Font* font);
 
   static inline ::UnityEngine::UIElements::PanelTextSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e47db4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2cdfa04 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PanelTextSettings", modifiers: "&&", def_value: None }]

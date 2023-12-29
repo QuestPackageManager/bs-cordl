@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::_Assembly);
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3343))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3339))
 // CS Name: ::System.Runtime.InteropServices::_Assembly*
 class CORDL_TYPE _Assembly {
 public:

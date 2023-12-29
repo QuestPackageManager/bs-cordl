@@ -19,12 +19,12 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::ScalableImage);
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7473))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7559))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::ScalableImage
 struct CORDL_TYPE ScalableImage {
 public:
   // Declarations
-  /// @brief Method ToString addr 0x2de5e24 size 0x164 virtual true final false
+  /// @brief Method ToString addr 0x2c7fa74 size 0x164 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "normalImage", ty: "::UnityEngine::Texture2D*", modifiers: "", def_value: None }, CppParam { name: "highResolutionImage", ty: "::UnityEngine::Texture2D*",
@@ -48,6 +48,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::ScalableImage, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::ScalableImage, normalImage) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::ScalableImage, highResolutionImage) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::ScalableImage, "UnityEngine.UIElements.StyleSheets", "ScalableImage");

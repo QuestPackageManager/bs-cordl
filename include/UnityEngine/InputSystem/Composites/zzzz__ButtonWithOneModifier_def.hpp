@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::ButtonWithOneModifier);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(6190))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6715))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6276), inst: 387 }), TypeDefinitionIndex(TypeDefinitionIndex(6276))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6801))
 // CS Name: ::UnityEngine.InputSystem.Composites::ButtonWithOneModifier*
 class CORDL_TYPE ButtonWithOneModifier : public ::UnityEngine::InputSystem::InputBindingComposite_1<float_t> {
 public:
@@ -53,21 +53,21 @@ public:
 
   constexpr void __set_overrideModifiersNeedToBePressedFirst(bool value);
 
-  /// @brief Method ReadValue addr 0x2a5ac90 size 0x70 virtual true final false
+  /// @brief Method ReadValue addr 0x28daf48 size 0x70 virtual true final false
   inline float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ModifierIsPressed addr 0x2a5ad00 size 0x80 virtual false final false
+  /// @brief Method ModifierIsPressed addr 0x28dafb8 size 0x80 virtual false final false
   inline bool ModifierIsPressed(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method EvaluateMagnitude addr 0x2a5ad80 size 0xc virtual true final false
+  /// @brief Method EvaluateMagnitude addr 0x28db038 size 0xc virtual true final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method FinishSetup addr 0x2a5ad8c size 0x90 virtual true final false
+  /// @brief Method FinishSetup addr 0x28db044 size 0x90 virtual true final false
   inline void FinishSetup(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::ButtonWithOneModifier* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a5ae1c size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x28db0d4 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ButtonWithOneModifier", modifiers: "&&", def_value: None }]
@@ -97,6 +97,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Composites::ButtonWithOneModifier, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Composites::ButtonWithOneModifier, ___modifier) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Composites::ButtonWithOneModifier, ___button) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Composites::ButtonWithOneModifier, ___overrideModifiersNeedToBePressedFirst) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Composites
 NEED_NO_BOX(::UnityEngine::InputSystem::Composites::ButtonWithOneModifier);

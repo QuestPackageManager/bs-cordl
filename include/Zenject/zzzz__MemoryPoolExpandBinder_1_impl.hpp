@@ -1,10 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_1_impl.hpp"
 #include "Zenject/zzzz__MemoryPoolExpandBinder_1_def.hpp"
-#include "Zenject/zzzz__MemoryPoolBindInfo_def.hpp"
-#include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_1_def.hpp"
-#include "Zenject/zzzz__BindInfo_def.hpp"
 #include "Zenject/zzzz__FactoryBindInfo_def.hpp"
+#include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_1_def.hpp"
+#include "Zenject/zzzz__MemoryPoolBindInfo_def.hpp"
+#include "Zenject/zzzz__BindInfo_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 template <typename TContract> constexpr ::Zenject::MemoryPoolBindInfo*& Zenject::MemoryPoolExpandBinder_1<TContract>::__get__MemoryPoolBindInfo_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

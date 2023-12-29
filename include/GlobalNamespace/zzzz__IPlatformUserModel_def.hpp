@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IPlatformUserModel)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace GlobalNamespace {
 class XPlatformAccessTokenData;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class UserInfo;
-}
-namespace GlobalNamespace {
-class PlatformUserAuthTokenData;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
 namespace System::Threading {
 struct CancellationToken;
+}
+namespace GlobalNamespace {
+class PlatformUserAuthTokenData;
+}
+namespace GlobalNamespace {
+class UserInfo;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,24 +36,19 @@ MARK_REF_PTR_T(::GlobalNamespace::IPlatformUserModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15983))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4697))
 // CS Name: ::IPlatformUserModel*
 class CORDL_TYPE IPlatformUserModel {
 public:
   // Declarations
-  __declspec(property(get = get_CanXPlatformAccessTokenBeCached)) bool CanXPlatformAccessTokenBeCached;
-
   /// @brief Method add_platformUserInfoDidChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void add_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
   /// @brief Method remove_platformUserInfoDidChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void remove_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
-  /// @brief Method get_CanXPlatformAccessTokenBeCached addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline bool get_CanXPlatformAccessTokenBeCached();
-
   /// @brief Method GetUserInfo addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* GetUserInfo(::System::Threading::CancellationToken ctx);
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* GetUserInfo();
 
   /// @brief Method GetUserFriendsUserIds addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserFriendsUserIds(bool cached);

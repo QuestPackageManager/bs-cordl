@@ -22,8 +22,8 @@ MARK_VAL_T(::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8643)), TypeDefinitionIndex(TypeDefinitionIndex(8631))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8710))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9400)), TypeDefinitionIndex(TypeDefinitionIndex(9412))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9479))
 // CS Name: ::OVR.OpenVR::VROverlayIntersectionMaskPrimitive_t
 struct CORDL_TYPE VROverlayIntersectionMaskPrimitive_t {
 public:
@@ -50,6 +50,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t, 0x14>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t, m_nPrimitiveType) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t, m_Primitive) == 0x4, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t, "OVR.OpenVR", "VROverlayIntersectionMaskPrimitive_t");

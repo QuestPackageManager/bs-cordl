@@ -8,9 +8,6 @@ CORDL_MODULE_EXPORT(JsonSerializationException)
 namespace System {
 class Exception;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace Newtonsoft::Json {
 class JsonReader;
 }
@@ -19,6 +16,9 @@ class IJsonLineInfo;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -30,39 +30,39 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonSerializationException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11804))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11835))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11732))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11763))
 // CS Name: ::Newtonsoft.Json::JsonSerializationException*
 class CORDL_TYPE JsonSerializationException : public ::Newtonsoft::Json::JsonException {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::JsonSerializationException* New_ctor();
 
-  /// @brief Method .ctor addr 0x264ff1c size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x24ed7d8 size 0x4 virtual false final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::JsonSerializationException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x264f650 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x24ecf0c size 0x4 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::Newtonsoft::Json::JsonSerializationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor addr 0x264ff20 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x24ed7dc size 0x4 virtual false final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::Newtonsoft::Json::JsonSerializationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x264ff24 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x24ed7e0 size 0x4 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Create addr 0x264ca18 size 0x8 virtual false final false
+  /// @brief Method Create addr 0x24ea2d4 size 0x8 virtual false final false
   static inline ::Newtonsoft::Json::JsonSerializationException* Create(::Newtonsoft::Json::JsonReader* reader, ::StringW message);
 
-  /// @brief Method Create addr 0x264ff28 size 0x84 virtual false final false
+  /// @brief Method Create addr 0x24ed7e4 size 0x84 virtual false final false
   static inline ::Newtonsoft::Json::JsonSerializationException* Create(::Newtonsoft::Json::JsonReader* reader, ::StringW message, ::System::Exception* ex);
 
-  /// @brief Method Create addr 0x264ffac size 0xbc virtual false final false
+  /// @brief Method Create addr 0x24ed868 size 0xbc virtual false final false
   static inline ::Newtonsoft::Json::JsonSerializationException* Create(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message, ::System::Exception* ex);
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonSerializationException", modifiers: "&&", def_value: None }]

@@ -11,25 +11,25 @@ namespace System {
 class Action;
 }
 namespace UnityEngine::UIElements {
-class __Button__UxmlFactory;
-}
-namespace UnityEngine::UIElements {
-class __Button__UxmlTraits;
+struct __VisualElement__MeasureMode;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
-struct __VisualElement__MeasureMode;
-}
-namespace UnityEngine::UIElements {
 class KeyDownEvent;
 }
 namespace UnityEngine::UIElements {
-class NavigationSubmitEvent;
+class __Button__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
 class Clickable;
+}
+namespace UnityEngine::UIElements {
+class __Button__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class NavigationSubmitEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -49,15 +49,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__Button__UxmlTraits);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6813))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7124))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6899))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7210))
 // CS Name: ::Button::UxmlTraits*
 class CORDL_TYPE __Button__UxmlTraits : public ::UnityEngine::UIElements::__TextElement__UxmlTraits {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Button__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e39bc8 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x2cd2818 size 0x58 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Button__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -84,8 +84,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Butto
 // SizeInfo { instance_size: 1152, native_size: -1, calculated_instance_size: 1152, calculated_native_size: 1152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6814))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7125))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6900))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7211))
 // CS Name: ::UnityEngine.UIElements::Button*
 class CORDL_TYPE Button : public ::UnityEngine::UIElements::TextElement {
 public:
@@ -119,29 +119,29 @@ public:
 
   static inline ::StringW getStaticF_NonEmptyString();
 
-  /// @brief Method get_clickable addr 0x2e39874 size 0x8 virtual false final false
+  /// @brief Method get_clickable addr 0x2cd24c4 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::Clickable* get_clickable();
 
-  /// @brief Method set_clickable addr 0x2e3987c size 0x64 virtual false final false
+  /// @brief Method set_clickable addr 0x2cd24cc size 0x64 virtual false final false
   inline void set_clickable(::UnityEngine::UIElements::Clickable* value);
 
   static inline ::UnityEngine::UIElements::Button* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e398e0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2cd2530 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Button* New_ctor(::System::Action* clickEvent);
 
-  /// @brief Method .ctor addr 0x2e2caf4 size 0x1c8 virtual false final false
+  /// @brief Method .ctor addr 0x2cc5744 size 0x1c8 virtual false final false
   inline void _ctor(::System::Action* clickEvent);
 
-  /// @brief Method OnNavigationSubmit addr 0x2e398e8 size 0x38 virtual false final false
+  /// @brief Method OnNavigationSubmit addr 0x2cd2538 size 0x38 virtual false final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
-  /// @brief Method OnKeyDown addr 0x2e39920 size 0x118 virtual false final false
+  /// @brief Method OnKeyDown addr 0x2cd2570 size 0x118 virtual false final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
-  /// @brief Method DoMeasure addr 0x2e39a38 size 0xbc virtual true final false
+  /// @brief Method DoMeasure addr 0x2cd2688 size 0xbc virtual true final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
@@ -167,19 +167,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Button, 0x480>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::Button, ___m_Clickable) == 0x478, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::UxmlFactory
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5257 }), TypeDefinitionIndex(TypeDefinitionIndex(7124)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7125)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7123)) CS Name: ::Button::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7210)), TypeDefinitionIndex(TypeDefinitionIndex(7083)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5141
+// }), TypeDefinitionIndex(TypeDefinitionIndex(7211))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7209)) CS Name: ::Button::UxmlFactory*
 class CORDL_TYPE __Button__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Button*, ::UnityEngine::UIElements::__Button__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Button__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e39b80 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2cd27d0 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Button__UxmlFactory", modifiers: "&&", def_value: None }]

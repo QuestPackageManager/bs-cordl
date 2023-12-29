@@ -16,8 +16,8 @@ MARK_VAL_T(::OVR::OpenVR::RenderModel_t);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8715))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9484))
 // CS Name: ::OVR.OpenVR::RenderModel_t
 struct CORDL_TYPE RenderModel_t {
 public:
@@ -53,6 +53,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::RenderModel_t, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::RenderModel_t, rVertexData) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::RenderModel_t, unVertexCount) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::RenderModel_t, rIndexData) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::RenderModel_t, unTriangleCount) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::RenderModel_t, diffuseTextureId) == 0x1c, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::RenderModel_t, "OVR.OpenVR", "RenderModel_t");

@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::AssemblyInfo);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1875))
 // CS Name: ::AssemblyInfo*
 class CORDL_TYPE AssemblyInfo : public ::System::Object {
@@ -28,12 +28,12 @@ public:
 
   static inline ::StringW getStaticF_version();
 
-  /// @brief Method get_Version addr 0x1187494 size 0x12c virtual false final false
+  /// @brief Method get_Version addr 0x111724c size 0x12c virtual false final false
   static inline ::StringW get_Version();
 
   static inline ::GlobalNamespace::AssemblyInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x1187608 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x11173c0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyInfo", modifiers: "&&", def_value: None }]

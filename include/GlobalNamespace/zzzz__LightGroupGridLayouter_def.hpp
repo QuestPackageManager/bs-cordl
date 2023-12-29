@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupGridLayouter);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(4935))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4930))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5040)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5035))
 // CS Name: ::LightGroupGridLayouter*
 class CORDL_TYPE LightGroupGridLayouter : public ::GlobalNamespace::LightGroupSubsystem {
 public:
@@ -96,7 +96,7 @@ public:
 
   static inline ::GlobalNamespace::LightGroupGridLayouter* New_ctor();
 
-  /// @brief Method .ctor addr 0x23a9898 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x227183c size 0x88 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupGridLayouter", modifiers: "&&", def_value: None }]
@@ -141,6 +141,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroupGridLayouter, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupGridLayouter, ____columns) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupGridLayouter, ____columnStep) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupGridLayouter, ____columnsFromCenter) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupGridLayouter, ____rowStep) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupGridLayouter, ____rowsFromCenter) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupGridLayouter, ____transposeOrder) == 0x41, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupGridLayouter, ____alternateOrder) == 0x42, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightGroupGridLayouter, ____defaultRotation) == 0x44, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightGroupGridLayouter);

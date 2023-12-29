@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Globalization::Bootstring);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3724))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3712))
 // CS Name: ::System.Globalization::Bootstring*
 class CORDL_TYPE Bootstring : public ::System::Object {
 public:
@@ -96,22 +96,22 @@ public:
 
   static inline ::System::Globalization::Bootstring* New_ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN);
 
-  /// @brief Method .ctor addr 0x2579314 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x241de90 size 0x6c virtual false final false
   inline void _ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN);
 
-  /// @brief Method Encode addr 0x25788b4 size 0x344 virtual false final false
+  /// @brief Method Encode addr 0x241d430 size 0x344 virtual false final false
   inline ::StringW Encode(::StringW s, int32_t offset);
 
-  /// @brief Method EncodeDigit addr 0x2579380 size 0x18 virtual false final false
+  /// @brief Method EncodeDigit addr 0x241defc size 0x18 virtual false final false
   inline char16_t EncodeDigit(int32_t d);
 
-  /// @brief Method DecodeDigit addr 0x2579410 size 0x38 virtual false final false
+  /// @brief Method DecodeDigit addr 0x241df8c size 0x38 virtual false final false
   inline int32_t DecodeDigit(char16_t c);
 
-  /// @brief Method Adapt addr 0x2579398 size 0x78 virtual false final false
+  /// @brief Method Adapt addr 0x241df14 size 0x78 virtual false final false
   inline int32_t Adapt(int32_t delta, int32_t numPoints, bool firstTime);
 
-  /// @brief Method Decode addr 0x257903c size 0x2d8 virtual false final false
+  /// @brief Method Decode addr 0x241dbb8 size 0x2d8 virtual false final false
   inline ::StringW Decode(::StringW s, int32_t offset);
 
   // Ctor Parameters [CppParam { name: "", ty: "Bootstring", modifiers: "&&", def_value: None }]
@@ -156,6 +156,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::Bootstring, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::Bootstring, ___delimiter) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::Bootstring, ___base_num) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::Bootstring, ___tmin) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::Bootstring, ___tmax) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::Bootstring, ___skew) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::Bootstring, ___damp) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::Bootstring, ___initial_bias) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::Bootstring, ___initial_n) == 0x2c, "Offset mismatch!");
 
 } // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::Bootstring);

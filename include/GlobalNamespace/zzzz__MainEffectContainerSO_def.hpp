@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 CORDL_MODULE_EXPORT(MainEffectContainerSO)
 namespace GlobalNamespace {
-class MainEffectSO;
+class BoolSO;
 }
 namespace GlobalNamespace {
-class BoolSO;
+class MainEffectSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MainEffectContainerSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15290))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15319))
 // CS Name: ::MainEffectContainerSO*
 class CORDL_TYPE MainEffectContainerSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -46,18 +46,18 @@ public:
 
   constexpr void __set__postProcessEnabled(::GlobalNamespace::BoolSO* value);
 
-  /// @brief Method get_mainEffect addr 0x28082a8 size 0x8 virtual false final false
+  /// @brief Method get_mainEffect addr 0x268d6b4 size 0x8 virtual false final false
   inline ::GlobalNamespace::MainEffectSO* get_mainEffect();
 
-  /// @brief Method OnEnable addr 0x28082b0 size 0x78 virtual true final false
+  /// @brief Method OnEnable addr 0x268d6bc size 0x78 virtual true final false
   inline void OnEnable();
 
-  /// @brief Method Init addr 0x2808328 size 0x74 virtual false final false
+  /// @brief Method Init addr 0x268d734 size 0x74 virtual false final false
   inline void Init(::GlobalNamespace::MainEffectSO* mainEffect);
 
   static inline ::GlobalNamespace::MainEffectContainerSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x280839c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x268d7a8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MainEffectContainerSO", modifiers: "&&", def_value: None }]
@@ -84,6 +84,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainEffectContainerSO, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MainEffectContainerSO, ____mainEffect) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MainEffectContainerSO, ____postProcessEnabled) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainEffectContainerSO);

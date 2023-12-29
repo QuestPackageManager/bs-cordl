@@ -11,41 +11,41 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlWriterSettings)
-namespace System::Xml {
-class XmlWriter;
-}
-namespace System::Xml {
-struct NewLineHandling;
-}
-namespace System::Xml {
-struct XmlStandalone;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Xml {
-struct NamespaceHandling;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Xml {
-struct ConformanceLevel;
+struct XmlStandalone;
+}
+namespace System::Xml {
+struct XmlOutputMethod;
+}
+namespace System::Xml {
+class XmlWriter;
+}
+namespace System::Xml {
+struct NamespaceHandling;
+}
+namespace System::Xml {
+struct TriState;
+}
+namespace System::Xml {
+struct NewLineHandling;
+}
+namespace System::Xml {
+class XmlQualifiedName;
+}
+namespace System::IO {
+class TextWriter;
 }
 namespace System::Text {
 class Encoding;
 }
 namespace System::Xml {
-class XmlQualifiedName;
-}
-namespace System::Xml {
-struct TriState;
-}
-namespace System::IO {
-class TextWriter;
-}
-namespace System::Xml {
-struct XmlOutputMethod;
+struct ConformanceLevel;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -57,9 +57,9 @@ MARK_REF_PTR_T(::System::Xml::XmlWriterSettings);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 134, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11435)), TypeDefinitionIndex(TypeDefinitionIndex(11492)), TypeDefinitionIndex(TypeDefinitionIndex(11493)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11434)), TypeDefinitionIndex(TypeDefinitionIndex(11494)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11413))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11495))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11420)), TypeDefinitionIndex(TypeDefinitionIndex(11363)), TypeDefinitionIndex(TypeDefinitionIndex(11421)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11422)), TypeDefinitionIndex(TypeDefinitionIndex(11341)), TypeDefinitionIndex(TypeDefinitionIndex(11362)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11423))
 // CS Name: ::System.Xml::XmlWriterSettings*
 class CORDL_TYPE XmlWriterSettings : public ::System::Object {
 public:
@@ -323,112 +323,112 @@ public:
 
   static inline ::System::Xml::XmlWriterSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x2880598 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x2703578 size 0x84 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_Async addr 0x2880f34 size 0x8 virtual false final false
+  /// @brief Method get_Async addr 0x2703f14 size 0x8 virtual false final false
   inline bool get_Async();
 
-  /// @brief Method get_Encoding addr 0x2880f3c size 0x8 virtual false final false
+  /// @brief Method get_Encoding addr 0x2703f1c size 0x8 virtual false final false
   inline ::System::Text::Encoding* get_Encoding();
 
-  /// @brief Method get_OmitXmlDeclaration addr 0x2880f44 size 0x8 virtual false final false
+  /// @brief Method get_OmitXmlDeclaration addr 0x2703f24 size 0x8 virtual false final false
   inline bool get_OmitXmlDeclaration();
 
-  /// @brief Method set_OmitXmlDeclaration addr 0x2880f4c size 0x5c virtual false final false
+  /// @brief Method set_OmitXmlDeclaration addr 0x2703f2c size 0x5c virtual false final false
   inline void set_OmitXmlDeclaration(bool value);
 
-  /// @brief Method get_NewLineHandling addr 0x2881060 size 0x8 virtual false final false
+  /// @brief Method get_NewLineHandling addr 0x2704040 size 0x8 virtual false final false
   inline ::System::Xml::NewLineHandling get_NewLineHandling();
 
-  /// @brief Method get_NewLineChars addr 0x2881068 size 0x8 virtual false final false
+  /// @brief Method get_NewLineChars addr 0x2704048 size 0x8 virtual false final false
   inline ::StringW get_NewLineChars();
 
-  /// @brief Method get_Indent addr 0x2881070 size 0x10 virtual false final false
+  /// @brief Method get_Indent addr 0x2704050 size 0x10 virtual false final false
   inline bool get_Indent();
 
-  /// @brief Method set_Indent addr 0x2881080 size 0x68 virtual false final false
+  /// @brief Method set_Indent addr 0x2704060 size 0x68 virtual false final false
   inline void set_Indent(bool value);
 
-  /// @brief Method get_IndentChars addr 0x28810e8 size 0x8 virtual false final false
+  /// @brief Method get_IndentChars addr 0x27040c8 size 0x8 virtual false final false
   inline ::StringW get_IndentChars();
 
-  /// @brief Method get_NewLineOnAttributes addr 0x28810f0 size 0x8 virtual false final false
+  /// @brief Method get_NewLineOnAttributes addr 0x27040d0 size 0x8 virtual false final false
   inline bool get_NewLineOnAttributes();
 
-  /// @brief Method get_CloseOutput addr 0x28810f8 size 0x8 virtual false final false
+  /// @brief Method get_CloseOutput addr 0x27040d8 size 0x8 virtual false final false
   inline bool get_CloseOutput();
 
-  /// @brief Method get_ConformanceLevel addr 0x2881100 size 0x8 virtual false final false
+  /// @brief Method get_ConformanceLevel addr 0x27040e0 size 0x8 virtual false final false
   inline ::System::Xml::ConformanceLevel get_ConformanceLevel();
 
-  /// @brief Method set_ConformanceLevel addr 0x2881108 size 0xb0 virtual false final false
+  /// @brief Method set_ConformanceLevel addr 0x27040e8 size 0xb0 virtual false final false
   inline void set_ConformanceLevel(::System::Xml::ConformanceLevel value);
 
-  /// @brief Method get_CheckCharacters addr 0x28811b8 size 0x8 virtual false final false
+  /// @brief Method get_CheckCharacters addr 0x2704198 size 0x8 virtual false final false
   inline bool get_CheckCharacters();
 
-  /// @brief Method get_NamespaceHandling addr 0x28811c0 size 0x8 virtual false final false
+  /// @brief Method get_NamespaceHandling addr 0x27041a0 size 0x8 virtual false final false
   inline ::System::Xml::NamespaceHandling get_NamespaceHandling();
 
-  /// @brief Method set_NamespaceHandling addr 0x28811c8 size 0xb0 virtual false final false
+  /// @brief Method set_NamespaceHandling addr 0x27041a8 size 0xb0 virtual false final false
   inline void set_NamespaceHandling(::System::Xml::NamespaceHandling value);
 
-  /// @brief Method get_WriteEndDocumentOnClose addr 0x2881278 size 0x8 virtual false final false
+  /// @brief Method get_WriteEndDocumentOnClose addr 0x2704258 size 0x8 virtual false final false
   inline bool get_WriteEndDocumentOnClose();
 
-  /// @brief Method get_OutputMethod addr 0x2881280 size 0x8 virtual false final false
+  /// @brief Method get_OutputMethod addr 0x2704260 size 0x8 virtual false final false
   inline ::System::Xml::XmlOutputMethod get_OutputMethod();
 
-  /// @brief Method set_OutputMethod addr 0x2881288 size 0x8 virtual false final false
+  /// @brief Method set_OutputMethod addr 0x2704268 size 0x8 virtual false final false
   inline void set_OutputMethod(::System::Xml::XmlOutputMethod value);
 
-  /// @brief Method Clone addr 0x2881290 size 0xcc virtual false final false
+  /// @brief Method Clone addr 0x2704270 size 0xcc virtual false final false
   inline ::System::Xml::XmlWriterSettings* Clone();
 
-  /// @brief Method get_CDataSectionElements addr 0x288135c size 0x8 virtual false final false
+  /// @brief Method get_CDataSectionElements addr 0x270433c size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>* get_CDataSectionElements();
 
-  /// @brief Method get_DoNotEscapeUriAttributes addr 0x2881364 size 0x8 virtual false final false
+  /// @brief Method get_DoNotEscapeUriAttributes addr 0x2704344 size 0x8 virtual false final false
   inline bool get_DoNotEscapeUriAttributes();
 
-  /// @brief Method get_MergeCDataSections addr 0x288136c size 0x8 virtual false final false
+  /// @brief Method get_MergeCDataSections addr 0x270434c size 0x8 virtual false final false
   inline bool get_MergeCDataSections();
 
-  /// @brief Method get_MediaType addr 0x2881374 size 0x8 virtual false final false
+  /// @brief Method get_MediaType addr 0x2704354 size 0x8 virtual false final false
   inline ::StringW get_MediaType();
 
-  /// @brief Method get_DocTypeSystem addr 0x288137c size 0x8 virtual false final false
+  /// @brief Method get_DocTypeSystem addr 0x270435c size 0x8 virtual false final false
   inline ::StringW get_DocTypeSystem();
 
-  /// @brief Method get_DocTypePublic addr 0x2881384 size 0x8 virtual false final false
+  /// @brief Method get_DocTypePublic addr 0x2704364 size 0x8 virtual false final false
   inline ::StringW get_DocTypePublic();
 
-  /// @brief Method get_Standalone addr 0x288138c size 0x8 virtual false final false
+  /// @brief Method get_Standalone addr 0x270436c size 0x8 virtual false final false
   inline ::System::Xml::XmlStandalone get_Standalone();
 
-  /// @brief Method get_AutoXmlDeclaration addr 0x2881394 size 0x8 virtual false final false
+  /// @brief Method get_AutoXmlDeclaration addr 0x2704374 size 0x8 virtual false final false
   inline bool get_AutoXmlDeclaration();
 
-  /// @brief Method get_IndentInternal addr 0x288139c size 0x8 virtual false final false
+  /// @brief Method get_IndentInternal addr 0x270437c size 0x8 virtual false final false
   inline ::System::Xml::TriState get_IndentInternal();
 
-  /// @brief Method get_IsQuerySpecific addr 0x28813a4 size 0x70 virtual false final false
+  /// @brief Method get_IsQuerySpecific addr 0x2704384 size 0x70 virtual false final false
   inline bool get_IsQuerySpecific();
 
-  /// @brief Method CreateWriter addr 0x288061c size 0x4b4 virtual false final false
+  /// @brief Method CreateWriter addr 0x27035fc size 0x4b4 virtual false final false
   inline ::System::Xml::XmlWriter* CreateWriter(::System::IO::Stream* output);
 
-  /// @brief Method CreateWriter addr 0x2880b38 size 0x31c virtual false final false
+  /// @brief Method CreateWriter addr 0x2703b18 size 0x31c virtual false final false
   inline ::System::Xml::XmlWriter* CreateWriter(::System::IO::TextWriter* output);
 
-  /// @brief Method set_ReadOnly addr 0x2881414 size 0xc virtual false final false
+  /// @brief Method set_ReadOnly addr 0x27043f4 size 0xc virtual false final false
   inline void set_ReadOnly(bool value);
 
-  /// @brief Method CheckReadOnly addr 0x2880fa8 size 0xb8 virtual false final false
+  /// @brief Method CheckReadOnly addr 0x2703f88 size 0xb8 virtual false final false
   inline void CheckReadOnly(::StringW propertyName);
 
-  /// @brief Method Initialize addr 0x2880e54 size 0xe0 virtual false final false
+  /// @brief Method Initialize addr 0x2703e34 size 0xe0 virtual false final false
   inline void Initialize();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlWriterSettings", modifiers: "&&", def_value: None }]
@@ -518,6 +518,52 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlWriterSettings, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___useAsync) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___encoding) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___omitXmlDecl) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___newLineHandling) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___newLineChars) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___indent) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___indentChars) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___newLineOnAttributes) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___closeOutput) == 0x41, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___namespaceHandling) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___conformanceLevel) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___checkCharacters) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___writeEndDocumentOnClose) == 0x4d, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___outputMethod) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___cdataSections) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___doNotEscapeUriAttributes) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___mergeCDataSections) == 0x61, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___mediaType) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___docTypeSystem) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___docTypePublic) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___standalone) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___autoXmlDecl) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlWriterSettings, ___isReadOnly) == 0x85, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlWriterSettings);

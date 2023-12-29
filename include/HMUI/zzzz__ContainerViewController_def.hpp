@@ -9,34 +9,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContainerViewController)
 namespace HMUI {
-class ViewController;
-}
-namespace System {
-class Action;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace HMUI {
-class __ContainerViewController___RemoveViewControllersCoroutine_d__17;
-}
-namespace HMUI {
 class Screen;
-}
-namespace HMUI {
-class __ContainerViewController___AddViewControllerCoroutine_d__15;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System {
+class Action;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace HMUI {
+class __ContainerViewController___RemoveViewControllersCoroutine_d__17;
+}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
+}
+namespace HMUI {
+class ViewController;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace HMUI {
+class __ContainerViewController___AddViewControllerCoroutine_d__15;
 }
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
@@ -44,11 +44,11 @@ template <typename T1, typename T2, typename T3> class Action_3;
 namespace System {
 class IDisposable;
 }
-namespace System {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace HMUI {
@@ -68,8 +68,8 @@ MARK_REF_PTR_T(::HMUI::__ContainerViewController___RemoveViewControllersCoroutin
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13568))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13687))
 // CS Name: ::ContainerViewController::<AddViewControllerCoroutine>d__15*
 class CORDL_TYPE __ContainerViewController___AddViewControllerCoroutine_d__15 : public ::System::Object {
 public:
@@ -180,22 +180,22 @@ public:
 
   static inline ::HMUI::__ContainerViewController___AddViewControllerCoroutine_d__15* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2125dd8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1fcfb7c size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x21261b0 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x1fcff54 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x21261b4 size 0x210 virtual true final true
+  /// @brief Method MoveNext addr 0x1fcff58 size 0x210 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x21263c4 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1fd0168 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x21263cc size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1fd0170 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x212640c size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1fd01b0 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ContainerViewController___AddViewControllerCoroutine_d__15", modifiers: "&&", def_value: None }]
@@ -247,13 +247,33 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__ContainerViewController___AddViewControllerCoroutine_d__15, 0x58>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__ContainerViewController___AddViewControllerCoroutine_d__15, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___AddViewControllerCoroutine_d__15, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___AddViewControllerCoroutine_d__15, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___AddViewControllerCoroutine_d__15, ___newViewController) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___AddViewControllerCoroutine_d__15, ___immediately) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___AddViewControllerCoroutine_d__15, ___animationLayouter) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___AddViewControllerCoroutine_d__15, ___finishedCallback) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___AddViewControllerCoroutine_d__15, ____viewControllers_5__2) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___AddViewControllerCoroutine_d__15, ____transitionDuration_5__3) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___AddViewControllerCoroutine_d__15, ____elapsedTime_5__4) == 0x54, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: ::<RemoveViewControllersCoroutine>d__17
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13569))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13688))
 // CS Name: ::ContainerViewController::<RemoveViewControllersCoroutine>d__17*
 class CORDL_TYPE __ContainerViewController___RemoveViewControllersCoroutine_d__17 : public ::System::Object {
 public:
@@ -378,22 +398,22 @@ public:
 
   static inline ::HMUI::__ContainerViewController___RemoveViewControllersCoroutine_d__17* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2125ed8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1fcfc7c size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2126414 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x1fd01b8 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2126418 size 0x2fc virtual true final true
+  /// @brief Method MoveNext addr 0x1fd01bc size 0x2fc virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2126714 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1fd04b8 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x212671c size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1fd04c0 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x212675c size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1fd0500 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ContainerViewController___RemoveViewControllersCoroutine_d__17", modifiers: "&&", def_value: None }]
@@ -448,13 +468,35 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__ContainerViewController___RemoveViewControllersCoroutine_d__17, 0x60>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__ContainerViewController___RemoveViewControllersCoroutine_d__17, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___RemoveViewControllersCoroutine_d__17, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___RemoveViewControllersCoroutine_d__17, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___RemoveViewControllersCoroutine_d__17, ___viewControllersToRemove) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___RemoveViewControllersCoroutine_d__17, ___immediately) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___RemoveViewControllersCoroutine_d__17, ___animationLayouter) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___RemoveViewControllersCoroutine_d__17, ___finishedCallback) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___RemoveViewControllersCoroutine_d__17, ____viewControllers_5__2) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___RemoveViewControllersCoroutine_d__17, ____viewControllersToRemoveSet_5__3) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___RemoveViewControllersCoroutine_d__17, ____transitionDuration_5__4) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__ContainerViewController___RemoveViewControllersCoroutine_d__17, ____elapsedTime_5__5) == 0x5c, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: HMUI::ContainerViewController
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13570))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13689))
 // CS Name: ::HMUI::ContainerViewController*
 class CORDL_TYPE ContainerViewController : public ::HMUI::ViewController {
 public:
@@ -485,63 +527,63 @@ public:
 
   constexpr void __set__viewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* value);
 
-  /// @brief Method get_controllersContainer addr 0x21253dc size 0xa8 virtual false final false
+  /// @brief Method get_controllersContainer addr 0x1fcf180 size 0xa8 virtual false final false
   inline ::UnityEngine::RectTransform* get_controllersContainer();
 
-  /// @brief Method get_viewControllers addr 0x2125484 size 0x8 virtual false final false
+  /// @brief Method get_viewControllers addr 0x1fcf228 size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::HMUI::ViewController*>* get_viewControllers();
 
-  /// @brief Method __Init addr 0x212548c size 0xd8 virtual true final false
+  /// @brief Method __Init addr 0x1fcf230 size 0xd8 virtual true final false
   inline void __Init(::HMUI::Screen* screen, ::HMUI::ViewController* parentViewController, ::HMUI::ContainerViewController* containerViewController);
 
   /// @brief Method LayoutViewControllers addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void LayoutViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers);
 
-  /// @brief Method __Activate addr 0x2125564 size 0x190 virtual true final false
+  /// @brief Method __Activate addr 0x1fcf308 size 0x190 virtual true final false
   inline void __Activate(bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method __Deactivate addr 0x21256f4 size 0xd0 virtual true final false
+  /// @brief Method __Deactivate addr 0x1fcf498 size 0xd0 virtual true final false
   inline void __Deactivate(bool removedFromHierarchy, bool deactivateGameObject, bool screenSystemDisabling);
 
-  /// @brief Method DeactivateGameObject addr 0x21257c4 size 0xe8 virtual true final false
+  /// @brief Method DeactivateGameObject addr 0x1fcf568 size 0xe8 virtual true final false
   inline void DeactivateGameObject();
 
-  /// @brief Method ClearChildViewControllers addr 0x21258ac size 0x124 virtual false final false
+  /// @brief Method ClearChildViewControllers addr 0x1fcf650 size 0x124 virtual false final false
   inline void ClearChildViewControllers();
 
-  /// @brief Method SetChildViewController addr 0x21259d0 size 0xa0 virtual false final false
+  /// @brief Method SetChildViewController addr 0x1fcf774 size 0xa0 virtual false final false
   inline void SetChildViewController(::HMUI::ViewController* viewController);
 
-  /// @brief Method SetChildViewControllers addr 0x2125a70 size 0x15c virtual false final false
+  /// @brief Method SetChildViewControllers addr 0x1fcf814 size 0x15c virtual false final false
   inline void SetChildViewControllers(::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers);
 
-  /// @brief Method AddViewController addr 0x2125bcc size 0x178 virtual false final false
+  /// @brief Method AddViewController addr 0x1fcf970 size 0x178 virtual false final false
   inline void AddViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback,
                                 ::System::Action_2<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>* animationLayouter, bool immediately);
 
-  /// @brief Method AddViewControllerCoroutine addr 0x2125d44 size 0x94 virtual false final false
+  /// @brief Method AddViewControllerCoroutine addr 0x1fcfae8 size 0x94 virtual false final false
   inline ::System::Collections::IEnumerator* AddViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback,
                                                                         ::System::Action_2<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>* animationLayouter,
                                                                         bool immediately);
 
-  /// @brief Method RemoveViewControllers addr 0x2125e00 size 0x44 virtual false final false
+  /// @brief Method RemoveViewControllers addr 0x1fcfba4 size 0x44 virtual false final false
   inline void RemoveViewControllers(
       ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers, ::System::Action* finishedCallback,
       ::System::Action_3<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*>* animationLayouter,
       bool immediately);
 
-  /// @brief Method RemoveViewControllersCoroutine addr 0x2125e44 size 0x94 virtual false final false
+  /// @brief Method RemoveViewControllersCoroutine addr 0x1fcfbe8 size 0x94 virtual false final false
   inline ::System::Collections::IEnumerator* RemoveViewControllersCoroutine(
       ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllersToRemove, ::System::Action* finishedCallback,
       ::System::Action_3<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*>* animationLayouter,
       bool immediately);
 
-  /// @brief Method GetNewXPositionsForViewControllers addr 0x2125f00 size 0x234 virtual false final false
+  /// @brief Method GetNewXPositionsForViewControllers addr 0x1fcfca4 size 0x234 virtual false final false
   inline ::ArrayW<float_t, ::Array<float_t>*> GetNewXPositionsForViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers, int32_t exludeFromEndCount);
 
   static inline ::HMUI::ContainerViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2126134 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x1fcfed8 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController", modifiers: "&&", def_value: None }]
@@ -568,6 +610,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::ContainerViewController, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::ContainerViewController, ____controllersContainer) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::ContainerViewController, ____viewControllers) == 0x78, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::ContainerViewController);

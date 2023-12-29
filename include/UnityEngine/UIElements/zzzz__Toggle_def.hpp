@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Toggle)
 namespace UnityEngine::UIElements {
-class __Toggle__UxmlFactory;
+class __Toggle__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-class __Toggle__UxmlTraits;
+class __Toggle__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__Toggle__UxmlTraits);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7131), inst: 914 }), TypeDefinitionIndex(TypeDefinitionIndex(7131)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6992))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7092)) CS Name: ::Toggle::UxmlTraits*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7217)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7217), inst: 897 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7078))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7178)) CS Name: ::Toggle::UxmlTraits*
 class CORDL_TYPE __Toggle__UxmlTraits : public ::UnityEngine::UIElements::BaseFieldTraits_2<bool, ::UnityEngine::UIElements::UxmlBoolAttributeDescription*> {
 public:
   // Declarations
@@ -58,12 +58,12 @@ public:
 
   constexpr void __set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method Init addr 0x2e338f0 size 0x118 virtual true final false
+  /// @brief Method Init addr 0x2ccc540 size 0x118 virtual true final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__Toggle__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e33a08 size 0xa0 virtual false final false
+  /// @brief Method .ctor addr 0x2ccc658 size 0xa0 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Toggle__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -88,13 +88,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Toggle__UxmlTraits, 0x90>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__Toggle__UxmlTraits, ___m_Text) == 0x88, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::Toggle
 // SizeInfo { instance_size: 1064, native_size: -1, calculated_instance_size: 1064, calculated_native_size: 1064, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7067))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7093))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7153))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7179))
 // CS Name: ::UnityEngine.UIElements::Toggle*
 class CORDL_TYPE Toggle : public ::UnityEngine::UIElements::BaseBoolField {
 public:
@@ -147,15 +149,15 @@ public:
 
   static inline ::UnityEngine::UIElements::Toggle* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e32ce0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2ccb930 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Toggle* New_ctor(::StringW label);
 
-  /// @brief Method .ctor addr 0x2e335c4 size 0xfc virtual false final false
+  /// @brief Method .ctor addr 0x2ccc214 size 0xfc virtual false final false
   inline void _ctor(::StringW label);
 
-  /// @brief Method InitLabel addr 0x2e336c0 size 0x78 virtual true final false
+  /// @brief Method InitLabel addr 0x2ccc310 size 0x78 virtual true final false
   inline void InitLabel();
 
   // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "&&", def_value: None }]
@@ -182,14 +184,14 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Toggle,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7093)), TypeDefinitionIndex(TypeDefinitionIndex(7092)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5281
-// }), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7091)) CS Name: ::Toggle::UxmlFactory*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5165 }), TypeDefinitionIndex(TypeDefinitionIndex(7178)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7179)), TypeDefinitionIndex(TypeDefinitionIndex(7083))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7177)) CS Name: ::Toggle::UxmlFactory*
 class CORDL_TYPE __Toggle__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Toggle*, ::UnityEngine::UIElements::__Toggle__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Toggle__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e338a8 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2ccc4f8 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Toggle__UxmlFactory", modifiers: "&&", def_value: None }]

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsRsaKeyExchange)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
+class TlsEncryptionCredentials;
 }
 namespace System::Collections {
 class IList;
@@ -18,11 +18,11 @@ class IList;
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsEncryptionCredentials;
+class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;
@@ -84,34 +84,34 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange* New_ctor(::System::Collections::IList* supportedSignatureAlgorithms);
 
-  /// @brief Method .ctor addr 0xfb1194 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0xf3af4c size 0x18 virtual false final false
   inline void _ctor(::System::Collections::IList* supportedSignatureAlgorithms);
 
-  /// @brief Method SkipServerCredentials addr 0xfb11ac size 0x40 virtual true final false
+  /// @brief Method SkipServerCredentials addr 0xf3af64 size 0x40 virtual true final false
   inline void SkipServerCredentials();
 
-  /// @brief Method ProcessServerCredentials addr 0xfb11ec size 0x168 virtual true final false
+  /// @brief Method ProcessServerCredentials addr 0xf3afa4 size 0x168 virtual true final false
   inline void ProcessServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* serverCredentials);
 
-  /// @brief Method ProcessServerCertificate addr 0xfb1354 size 0x240 virtual true final false
+  /// @brief Method ProcessServerCertificate addr 0xf3b10c size 0x240 virtual true final false
   inline void ProcessServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
 
-  /// @brief Method ValidateCertificateRequest addr 0xfb1594 size 0x9c virtual true final false
+  /// @brief Method ValidateCertificateRequest addr 0xf3b34c size 0x9c virtual true final false
   inline void ValidateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
 
-  /// @brief Method ProcessClientCredentials addr 0xfb1630 size 0x8c virtual true final false
+  /// @brief Method ProcessClientCredentials addr 0xf3b3e8 size 0x8c virtual true final false
   inline void ProcessClientCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* clientCredentials);
 
-  /// @brief Method GenerateClientKeyExchange addr 0xfb16bc size 0x28 virtual true final false
+  /// @brief Method GenerateClientKeyExchange addr 0xf3b474 size 0x28 virtual true final false
   inline void GenerateClientKeyExchange(::System::IO::Stream* output);
 
-  /// @brief Method ProcessClientKeyExchange addr 0xfb16e4 size 0x118 virtual true final false
+  /// @brief Method ProcessClientKeyExchange addr 0xf3b49c size 0x118 virtual true final false
   inline void ProcessClientKeyExchange(::System::IO::Stream* input);
 
-  /// @brief Method GeneratePremasterSecret addr 0xfb17fc size 0x58 virtual true final false
+  /// @brief Method GeneratePremasterSecret addr 0xf3b5b4 size 0x58 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GeneratePremasterSecret();
 
-  /// @brief Method ValidateRsaPublicKey addr 0xfb1854 size 0x70 virtual true final false
+  /// @brief Method ValidateRsaPublicKey addr 0xf3b60c size 0x70 virtual true final false
   inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* ValidateRsaPublicKey(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsRsaKeyExchange", modifiers: "&&", def_value: None }]
@@ -144,6 +144,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange, ___mServerPublicKey) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange, ___mRsaServerPublicKey) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange, ___mServerCredentials) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange, ___mPremasterSecret) == 0x40, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange);

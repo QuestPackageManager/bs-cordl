@@ -30,7 +30,7 @@ namespace Mono::Globalization::Unicode {
 struct CORDL_TYPE __CodePointIndexer__TableRange {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x24154a0 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x22bba20 size 0x18 virtual false final false
   inline void _ctor(int32_t start, int32_t end, int32_t indexStart);
 
   // Ctor Parameters [CppParam { name: "Start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "End", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Count", ty:
@@ -65,12 +65,22 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange, 0x14>, "Size mismatch!");
 
+static_assert(offsetof(::Mono::Globalization::Unicode::__CodePointIndexer__TableRange, Start) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::__CodePointIndexer__TableRange, End) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::__CodePointIndexer__TableRange, Count) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::__CodePointIndexer__TableRange, IndexStart) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::__CodePointIndexer__TableRange, IndexEnd) == 0x10, "Offset mismatch!");
+
 } // namespace Mono::Globalization::Unicode
 // Type: Mono.Globalization.Unicode::CodePointIndexer
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2258))
 // CS Name: ::Mono.Globalization.Unicode::CodePointIndexer*
 class CORDL_TYPE CodePointIndexer : public ::System::Object {
@@ -118,10 +128,10 @@ public:
   static inline ::Mono::Globalization::Unicode::CodePointIndexer* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> starts, ::ArrayW<int32_t, ::Array<int32_t>*> ends, int32_t defaultIndex,
                                                                            int32_t defaultCP);
 
-  /// @brief Method .ctor addr 0x241534c size 0x154 virtual false final false
+  /// @brief Method .ctor addr 0x22bb8cc size 0x154 virtual false final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> starts, ::ArrayW<int32_t, ::Array<int32_t>*> ends, int32_t defaultIndex, int32_t defaultCP);
 
-  /// @brief Method ToIndex addr 0x24154b8 size 0x84 virtual false final false
+  /// @brief Method ToIndex addr 0x22bba38 size 0x84 virtual false final false
   inline int32_t ToIndex(int32_t cp);
 
   // Ctor Parameters [CppParam { name: "", ty: "CodePointIndexer", modifiers: "&&", def_value: None }]
@@ -154,6 +164,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Globalization::Unicode::CodePointIndexer, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::CodePointIndexer, ___ranges) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::CodePointIndexer, ___TotalCount) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::CodePointIndexer, ___defaultIndex) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::CodePointIndexer, ___defaultCP) == 0x20, "Offset mismatch!");
 
 } // namespace Mono::Globalization::Unicode
 NEED_NO_BOX(::Mono::Globalization::Unicode::CodePointIndexer);

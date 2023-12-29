@@ -8,23 +8,23 @@ CORDL_MODULE_EXPORT(JEnumerable_1)
 namespace Newtonsoft::Json::Linq {
 class JToken;
 }
-namespace Newtonsoft::Json::Linq {
-template <typename T> class IJEnumerable_1;
-}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-class Object;
+namespace Newtonsoft::Json::Linq {
+template <typename T> class IJEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -38,8 +38,8 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11989)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11989), inst: 2991 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11989))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11917), inst: 2929 }), TypeDefinitionIndex(TypeDefinitionIndex(11917))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11917))
 // CS Name: ::Newtonsoft.Json.Linq::JEnumerable`1<T>
 struct CORDL_TYPE JEnumerable_1 {
 public:

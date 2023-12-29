@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::CollectionVirtualizationMethod);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7141))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7227))
 // CS Name: ::UnityEngine.UIElements::CollectionVirtualizationMethod
 struct CORDL_TYPE CollectionVirtualizationMethod {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::CollectionVirtualizationMethod, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::CollectionVirtualizationMethod, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::CollectionVirtualizationMethod, "UnityEngine.UIElements", "CollectionVirtualizationMethod");

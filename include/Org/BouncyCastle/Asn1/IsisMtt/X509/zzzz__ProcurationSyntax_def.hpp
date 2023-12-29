@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ProcurationSyntax)
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
-}
-namespace Org::BouncyCastle::Asn1::X500 {
-class DirectoryString;
 }
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Asn1::X500 {
+class DirectoryString;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class IssuerSerial;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
@@ -83,39 +83,39 @@ public:
 
   constexpr void __set_certRef(::Org::BouncyCastle::Asn1::X509::IssuerSerial* value);
 
-  /// @brief Method GetInstance addr 0xf795c4 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xf033a0 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf7974c size 0x2fc virtual false final false
+  /// @brief Method .ctor addr 0xf03528 size 0x2fc virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax* New_ctor(::StringW country, ::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution,
                                                                                       ::Org::BouncyCastle::Asn1::X509::IssuerSerial* certRef);
 
-  /// @brief Method .ctor addr 0xf79a48 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0xf03824 size 0x3c virtual false final false
   inline void _ctor(::StringW country, ::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* certRef);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax* New_ctor(::StringW country, ::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution,
                                                                                       ::Org::BouncyCastle::Asn1::X509::GeneralName* thirdPerson);
 
-  /// @brief Method .ctor addr 0xf79a84 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0xf03860 size 0x3c virtual false final false
   inline void _ctor(::StringW country, ::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution, ::Org::BouncyCastle::Asn1::X509::GeneralName* thirdPerson);
 
-  /// @brief Method get_Country addr 0xf79ac0 size 0x8 virtual true final false
+  /// @brief Method get_Country addr 0xf0389c size 0x8 virtual true final false
   inline ::StringW get_Country();
 
-  /// @brief Method get_TypeOfSubstitution addr 0xf79ac8 size 0x8 virtual true final false
+  /// @brief Method get_TypeOfSubstitution addr 0xf038a4 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_TypeOfSubstitution();
 
-  /// @brief Method get_ThirdPerson addr 0xf79ad0 size 0x8 virtual true final false
+  /// @brief Method get_ThirdPerson addr 0xf038ac size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_ThirdPerson();
 
-  /// @brief Method get_CertRef addr 0xf79ad8 size 0x8 virtual true final false
+  /// @brief Method get_CertRef addr 0xf038b4 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_CertRef();
 
-  /// @brief Method ToAsn1Object addr 0xf79ae0 size 0x174 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf038bc size 0x174 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProcurationSyntax", modifiers: "&&", def_value: None }]
@@ -148,6 +148,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax, ___country) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax, ___typeOfSubstitution) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax, ___thirdPerson) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax, ___certRef) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::IsisMtt::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax);

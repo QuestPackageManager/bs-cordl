@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphPackingMode);
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15535))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15519))
 // CS Name: ::UnityEngine.TextCore.LowLevel::GlyphPackingMode
 struct CORDL_TYPE GlyphPackingMode {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::LowLevel::GlyphPackingMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphPackingMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::GlyphPackingMode, "UnityEngine.TextCore.LowLevel", "GlyphPackingMode");

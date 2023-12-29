@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(IDragAndDropController_1)
 namespace UnityEngine::UIElements {
 struct DragVisualMode;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace UnityEngine::UIElements {
 class StartDragArgs;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,7 +26,7 @@ namespace UnityEngine::UIElements {
 template <typename TArgs>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6955))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7041))
 // CS Name: ::UnityEngine.UIElements::IDragAndDropController`1<TArgs>*
 class CORDL_TYPE IDragAndDropController_1 {
 public:

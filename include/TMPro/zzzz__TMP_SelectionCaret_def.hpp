@@ -17,21 +17,21 @@ MARK_REF_PTR_T(::TMPro::TMP_SelectionCaret);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13099))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12413))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13104))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12341))
 // CS Name: ::TMPro::TMP_SelectionCaret*
 class CORDL_TYPE TMP_SelectionCaret : public ::UnityEngine::UI::MaskableGraphic {
 public:
   // Declarations
-  /// @brief Method Cull addr 0x2c3faf4 size 0xd0 virtual true final false
+  /// @brief Method Cull addr 0x2abbda0 size 0xd0 virtual true final false
   inline void Cull(::UnityEngine::Rect clipRect, bool validRect);
 
-  /// @brief Method UpdateGeometry addr 0x2c3fbc4 size 0x4 virtual true final false
+  /// @brief Method UpdateGeometry addr 0x2abbe70 size 0x4 virtual true final false
   inline void UpdateGeometry();
 
   static inline ::TMPro::TMP_SelectionCaret* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c3fbc8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2abbe74 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_SelectionCaret", modifiers: "&&", def_value: None }]

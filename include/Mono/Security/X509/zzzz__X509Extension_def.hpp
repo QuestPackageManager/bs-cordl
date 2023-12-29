@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Extension)
+namespace Mono::Security {
+class ASN1;
+}
 namespace System {
 class Object;
 }
 namespace System::Text {
 class StringBuilder;
-}
-namespace Mono::Security {
-class ASN1;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509Extension);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13756))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14027))
 // CS Name: ::Mono.Security.X509::X509Extension*
 class CORDL_TYPE X509Extension : public ::System::Object {
 public:
@@ -66,39 +66,39 @@ public:
 
   static inline ::Mono::Security::X509::X509Extension* New_ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method .ctor addr 0x23fcb40 size 0x2cc virtual false final false
+  /// @brief Method .ctor addr 0x22a2834 size 0x2cc virtual false final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
   static inline ::Mono::Security::X509::X509Extension* New_ctor(::Mono::Security::X509::X509Extension* extension);
 
-  /// @brief Method .ctor addr 0x23fce0c size 0x14c virtual false final false
+  /// @brief Method .ctor addr 0x22a2b00 size 0x14c virtual false final false
   inline void _ctor(::Mono::Security::X509::X509Extension* extension);
 
-  /// @brief Method Decode addr 0x23fcf84 size 0x4 virtual true final false
+  /// @brief Method Decode addr 0x22a2c78 size 0x4 virtual true final false
   inline void Decode();
 
-  /// @brief Method Encode addr 0x23fcf88 size 0x4 virtual true final false
+  /// @brief Method Encode addr 0x22a2c7c size 0x4 virtual true final false
   inline void Encode();
 
-  /// @brief Method get_Oid addr 0x23fcf8c size 0x8 virtual false final false
+  /// @brief Method get_Oid addr 0x22a2c80 size 0x8 virtual false final false
   inline ::StringW get_Oid();
 
-  /// @brief Method get_Critical addr 0x23fcf94 size 0x8 virtual false final false
+  /// @brief Method get_Critical addr 0x22a2c88 size 0x8 virtual false final false
   inline bool get_Critical();
 
-  /// @brief Method get_Value addr 0x23fcf58 size 0x2c virtual false final false
+  /// @brief Method get_Value addr 0x22a2c4c size 0x2c virtual false final false
   inline ::Mono::Security::ASN1* get_Value();
 
-  /// @brief Method Equals addr 0x23fcf9c size 0x144 virtual true final false
+  /// @brief Method Equals addr 0x22a2c90 size 0x144 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x23fd0e0 size 0x20 virtual true final false
+  /// @brief Method GetHashCode addr 0x22a2dd4 size 0x20 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method WriteLine addr 0x23fd100 size 0x228 virtual false final false
+  /// @brief Method WriteLine addr 0x22a2df4 size 0x228 virtual false final false
   inline void WriteLine(::System::Text::StringBuilder* sb, int32_t n, int32_t pos);
 
-  /// @brief Method ToString addr 0x23fd328 size 0xd8 virtual true final false
+  /// @brief Method ToString addr 0x22a301c size 0xd8 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Extension", modifiers: "&&", def_value: None }]
@@ -128,6 +128,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509Extension, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::X509Extension, ___extnOid) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::X509Extension, ___extnCritical) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::X509Extension, ___extnValue) == 0x20, "Offset mismatch!");
 
 } // namespace Mono::Security::X509
 NEED_NO_BOX(::Mono::Security::X509::X509Extension);

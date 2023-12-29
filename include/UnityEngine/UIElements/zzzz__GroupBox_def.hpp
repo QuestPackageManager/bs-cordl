@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(GroupBox)
 namespace UnityEngine::UIElements {
+class Label;
+}
+namespace UnityEngine::UIElements {
 class __GroupBox__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
 class IGroupBox;
 }
 namespace UnityEngine::UIElements {
-class Label;
-}
-namespace UnityEngine::UIElements {
 class __GroupBox__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__GroupBox__UxmlTraits);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6800))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7114))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6886))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7200))
 // CS Name: ::GroupBox::UxmlTraits*
 class CORDL_TYPE __GroupBox__UxmlTraits : public ::UnityEngine::UIElements::__BindableElement__UxmlTraits {
 public:
@@ -63,12 +63,12 @@ public:
 
   constexpr void __set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method Init addr 0x2e379a8 size 0xf8 virtual true final false
+  /// @brief Method Init addr 0x2cd05f8 size 0xf8 virtual true final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__GroupBox__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e37aa0 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x2cd06f0 size 0x84 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GroupBox__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -93,13 +93,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__GroupBox__UxmlTraits, 0x80>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__GroupBox__UxmlTraits, ___m_Text) == 0x78, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::GroupBox
 // SizeInfo { instance_size: 968, native_size: -1, calculated_instance_size: 968, calculated_native_size: 968, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6801))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7115))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6887))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7201))
 // CS Name: ::UnityEngine.UIElements::GroupBox*
 class CORDL_TYPE GroupBox : public ::UnityEngine::UIElements::BindableElement {
 public:
@@ -136,17 +138,17 @@ public:
 
   static inline ::StringW getStaticF_labelUssClassName();
 
-  /// @brief Method set_text addr 0x2e37718 size 0x118 virtual false final false
+  /// @brief Method set_text addr 0x2cd0368 size 0x118 virtual false final false
   inline void set_text(::StringW value);
 
   static inline ::UnityEngine::UIElements::GroupBox* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e37830 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2cd0480 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::GroupBox* New_ctor(::StringW text);
 
-  /// @brief Method .ctor addr 0x2e37838 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x2cd0488 size 0x88 virtual false final false
   inline void _ctor(::StringW text);
 
   // Ctor Parameters [CppParam { name: "", ty: "GroupBox", modifiers: "&&", def_value: None }]
@@ -171,19 +173,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::GroupBox, 0x3c8>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::GroupBox, ___m_TitleLabel) == 0x3c0, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::UxmlFactory
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7114)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5261 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7115))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7113)) CS Name: ::GroupBox::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7083)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5145 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7200)), TypeDefinitionIndex(TypeDefinitionIndex(7201))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7199)) CS Name: ::GroupBox::UxmlFactory*
 class CORDL_TYPE __GroupBox__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::GroupBox*, ::UnityEngine::UIElements::__GroupBox__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__GroupBox__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e37960 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2cd05b0 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GroupBox__UxmlFactory", modifiers: "&&", def_value: None }]

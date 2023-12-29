@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(ExtendedProtectionPolicy)
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System::Security::Authentication::ExtendedProtection {
-struct PolicyEnforcement;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Security::Authentication::ExtendedProtection {
+struct PolicyEnforcement;
 }
 // Forward declare root types
 namespace System::Security::Authentication::ExtendedProtection {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Security::Authentication::ExtendedProtection::ExtendedP
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Authentication::ExtendedProtection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8966))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7803))
 // CS Name: ::System.Security.Authentication.ExtendedProtection::ExtendedProtectionPolicy*
 class CORDL_TYPE ExtendedProtectionPolicy : public ::System::Object {
 public:
@@ -38,19 +38,19 @@ public:
 
   static inline ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy* New_ctor(::System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement);
 
-  /// @brief Method .ctor addr 0x29742e4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27f656c size 0x8 virtual false final false
   inline void _ctor(::System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement);
 
   static inline ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                                            ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x29742ec size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x27f6574 size 0x48 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString addr 0x2974334 size 0x8 virtual true final false
+  /// @brief Method ToString addr 0x27f65bc size 0x8 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x297433c size 0x40 virtual true final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x27f65c4 size 0x40 virtual true final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "ExtendedProtectionPolicy", modifiers: "&&", def_value: None }]

@@ -38,16 +38,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::IO::MacSink* New_ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method .ctor addr 0xf08270 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xe93098 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method get_Mac addr 0xf08298 size 0x8 virtual true final false
+  /// @brief Method get_Mac addr 0xe930c0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Crypto::IMac* get_Mac();
 
-  /// @brief Method WriteByte addr 0xf082a0 size 0xac virtual true final false
+  /// @brief Method WriteByte addr 0xe930c8 size 0xac virtual true final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method Write addr 0xf0834c size 0xdc virtual true final false
+  /// @brief Method Write addr 0xe93174 size 0xdc virtual true final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "MacSink", modifiers: "&&", def_value: None }]
@@ -71,6 +71,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::IO::MacSink, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::IO::MacSink, ___mMac) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::IO
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::IO::MacSink);

@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Net::FtpMethodInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9044)), TypeDefinitionIndex(TypeDefinitionIndex(9045))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9046))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7881)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(7882))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7883))
 // CS Name: ::System.Net::FtpMethodInfo*
 class CORDL_TYPE FtpMethodInfo : public ::System::Object {
 public:
@@ -83,25 +83,25 @@ public:
 
   static inline ::System::Net::FtpMethodInfo* New_ctor(::StringW method, ::System::Net::FtpOperation operation, ::System::Net::FtpMethodFlags flags, ::StringW httpCommand);
 
-  /// @brief Method .ctor addr 0x2994768 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x2816ef4 size 0x44 virtual false final false
   inline void _ctor(::StringW method, ::System::Net::FtpOperation operation, ::System::Net::FtpMethodFlags flags, ::StringW httpCommand);
 
-  /// @brief Method HasFlag addr 0x29923dc size 0x10 virtual false final false
+  /// @brief Method HasFlag addr 0x2814b6c size 0x10 virtual false final false
   inline bool HasFlag(::System::Net::FtpMethodFlags flags);
 
-  /// @brief Method get_IsCommandOnly addr 0x2992580 size 0x10 virtual false final false
+  /// @brief Method get_IsCommandOnly addr 0x2814d10 size 0x10 virtual false final false
   inline bool get_IsCommandOnly();
 
-  /// @brief Method get_IsUpload addr 0x299337c size 0xc virtual false final false
+  /// @brief Method get_IsUpload addr 0x2815b0c size 0xc virtual false final false
   inline bool get_IsUpload();
 
-  /// @brief Method get_IsDownload addr 0x2993388 size 0xc virtual false final false
+  /// @brief Method get_IsDownload addr 0x2815b18 size 0xc virtual false final false
   inline bool get_IsDownload();
 
-  /// @brief Method get_ShouldParseForResponseUri addr 0x2990c34 size 0xc virtual false final false
+  /// @brief Method get_ShouldParseForResponseUri addr 0x28133c4 size 0xc virtual false final false
   inline bool get_ShouldParseForResponseUri();
 
-  /// @brief Method GetMethodInfo addr 0x29947ac size 0x164 virtual false final false
+  /// @brief Method GetMethodInfo addr 0x2816f38 size 0x164 virtual false final false
   static inline ::System::Net::FtpMethodInfo* GetMethodInfo(::StringW method);
 
   // Ctor Parameters [CppParam { name: "", ty: "FtpMethodInfo", modifiers: "&&", def_value: None }]
@@ -134,6 +134,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::FtpMethodInfo, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::FtpMethodInfo, ___Method) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpMethodInfo, ___Operation) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpMethodInfo, ___Flags) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpMethodInfo, ___HttpCommand) == 0x20, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::FtpMethodInfo);

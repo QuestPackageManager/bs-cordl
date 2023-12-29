@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Zenject::SignalBindingBindInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10653))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10581))
 // CS Name: ::Zenject::SignalBindingBindInfo*
 class CORDL_TYPE SignalBindingBindInfo : public ::System::Object {
 public:
@@ -50,19 +50,19 @@ public:
 
   static inline ::Zenject::SignalBindingBindInfo* New_ctor(::System::Type* signalType);
 
-  /// @brief Method .ctor addr 0x2ec2404 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d5a684 size 0x28 virtual false final false
   inline void _ctor(::System::Type* signalType);
 
-  /// @brief Method get_Identifier addr 0x2ec242c size 0x8 virtual false final false
+  /// @brief Method get_Identifier addr 0x2d5a6ac size 0x8 virtual false final false
   inline ::System::Object* get_Identifier();
 
-  /// @brief Method set_Identifier addr 0x2ec2434 size 0x8 virtual false final false
+  /// @brief Method set_Identifier addr 0x2d5a6b4 size 0x8 virtual false final false
   inline void set_Identifier(::System::Object* value);
 
-  /// @brief Method get_SignalType addr 0x2ec243c size 0x8 virtual false final false
+  /// @brief Method get_SignalType addr 0x2d5a6bc size 0x8 virtual false final false
   inline ::System::Type* get_SignalType();
 
-  /// @brief Method set_SignalType addr 0x2ec2444 size 0x8 virtual false final false
+  /// @brief Method set_SignalType addr 0x2d5a6c4 size 0x8 virtual false final false
   inline void set_SignalType(::System::Type* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalBindingBindInfo", modifiers: "&&", def_value: None }]
@@ -89,6 +89,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::SignalBindingBindInfo, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::SignalBindingBindInfo, ____Identifier_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::SignalBindingBindInfo, ____SignalType_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::SignalBindingBindInfo);

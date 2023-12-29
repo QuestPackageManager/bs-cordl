@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
 CORDL_MODULE_EXPORT(UsedImplicitlyAttribute)
 namespace JetBrains::Annotations {
-struct ImplicitUseTargetFlags;
+struct ImplicitUseKindFlags;
 }
 namespace JetBrains::Annotations {
-struct ImplicitUseKindFlags;
+struct ImplicitUseTargetFlags;
 }
 // Forward declare root types
 namespace JetBrains::Annotations {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::UsedImplicitlyAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(15750)), TypeDefinitionIndex(TypeDefinitionIndex(15751))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15748))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15701)), TypeDefinitionIndex(TypeDefinitionIndex(15700)), TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15698))
 // CS Name: ::JetBrains.Annotations::UsedImplicitlyAttribute*
 class CORDL_TYPE UsedImplicitlyAttribute : public ::System::Attribute {
 public:
@@ -52,34 +52,34 @@ public:
 
   static inline ::JetBrains::Annotations::UsedImplicitlyAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2eba14c size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2d523cc size 0x24 virtual false final false
   inline void _ctor();
 
   static inline ::JetBrains::Annotations::UsedImplicitlyAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags);
 
-  /// @brief Method .ctor addr 0x2eba19c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2d5241c size 0x2c virtual false final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags);
 
   static inline ::JetBrains::Annotations::UsedImplicitlyAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
-  /// @brief Method .ctor addr 0x2eba1c8 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2d52448 size 0x2c virtual false final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
   static inline ::JetBrains::Annotations::UsedImplicitlyAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
-  /// @brief Method .ctor addr 0x2eba170 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2d523f0 size 0x2c virtual false final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
-  /// @brief Method get_UseKindFlags addr 0x2eba1f4 size 0x8 virtual false final false
+  /// @brief Method get_UseKindFlags addr 0x2d52474 size 0x8 virtual false final false
   inline ::JetBrains::Annotations::ImplicitUseKindFlags get_UseKindFlags();
 
-  /// @brief Method set_UseKindFlags addr 0x2eba1fc size 0x8 virtual false final false
+  /// @brief Method set_UseKindFlags addr 0x2d5247c size 0x8 virtual false final false
   inline void set_UseKindFlags(::JetBrains::Annotations::ImplicitUseKindFlags value);
 
-  /// @brief Method get_TargetFlags addr 0x2eba204 size 0x8 virtual false final false
+  /// @brief Method get_TargetFlags addr 0x2d52484 size 0x8 virtual false final false
   inline ::JetBrains::Annotations::ImplicitUseTargetFlags get_TargetFlags();
 
-  /// @brief Method set_TargetFlags addr 0x2eba20c size 0x8 virtual false final false
+  /// @brief Method set_TargetFlags addr 0x2d5248c size 0x8 virtual false final false
   inline void set_TargetFlags(::JetBrains::Annotations::ImplicitUseTargetFlags value);
 
   // Ctor Parameters [CppParam { name: "", ty: "UsedImplicitlyAttribute", modifiers: "&&", def_value: None }]
@@ -106,6 +106,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::UsedImplicitlyAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::UsedImplicitlyAttribute, ____UseKindFlags_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::UsedImplicitlyAttribute, ____TargetFlags_k__BackingField) == 0x14, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::UsedImplicitlyAttribute);

@@ -10,29 +10,29 @@ CORDL_MODULE_EXPORT(OneOrMore_2)
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue, typename TList> class __OneOrMore_2__Enumerator;
+namespace System {
+class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue, typename TList> class __OneOrMore_2__Enumerator;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -51,7 +51,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue, typename TList>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6697))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6783))
 // CS Name: ::UnityEngine.InputSystem.Utilities::OneOrMore`2<TValue,TList>
 struct CORDL_TYPE OneOrMore_2 {
 public:
@@ -128,8 +128,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue, typename TList>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6697), inst: 4802 }), TypeDefinitionIndex(TypeDefinitionIndex(6697)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6696)) CS Name: ::OneOrMore`2::Enumerator<TValue,TList>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6783), inst: 4690 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6783))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6782)) CS Name: ::OneOrMore`2::Enumerator<TValue,TList>*
 class CORDL_TYPE __OneOrMore_2__Enumerator : public ::System::Object {
 public:
   // Declarations

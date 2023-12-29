@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pkcs1Encoding)
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Encodings {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Encodings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(821))
 // CS Name: ::Org.BouncyCastle.Crypto.Encodings::Pkcs1Encoding*
 class CORDL_TYPE Pkcs1Encoding : public ::System::Object {
@@ -116,58 +116,58 @@ public:
 
   static inline ::ArrayW<bool, ::Array<bool>*> getStaticF_strictLengthEnabled();
 
-  /// @brief Method get_StrictLengthEnabled addr 0xeb4118 size 0x70 virtual false final false
+  /// @brief Method get_StrictLengthEnabled addr 0xe3ff44 size 0x70 virtual false final false
   static inline bool get_StrictLengthEnabled();
 
-  /// @brief Method set_StrictLengthEnabled addr 0xeb4188 size 0x78 virtual false final false
+  /// @brief Method set_StrictLengthEnabled addr 0xe3ffb4 size 0x78 virtual false final false
   static inline void set_StrictLengthEnabled(bool value);
 
   static inline ::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
 
-  /// @brief Method .ctor addr 0xeb4318 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0xe40144 size 0x84 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
 
   static inline ::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, int32_t pLen);
 
-  /// @brief Method .ctor addr 0xeb439c size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0xe401c8 size 0x8c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, int32_t pLen);
 
   static inline ::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::ArrayW<uint8_t, ::Array<uint8_t>*> fallback);
 
-  /// @brief Method .ctor addr 0xeb4428 size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0xe40254 size 0x9c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::ArrayW<uint8_t, ::Array<uint8_t>*> fallback);
 
-  /// @brief Method GetUnderlyingCipher addr 0xeb44c4 size 0x8 virtual false final false
+  /// @brief Method GetUnderlyingCipher addr 0xe402f0 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* GetUnderlyingCipher();
 
-  /// @brief Method get_AlgorithmName addr 0xeb44cc size 0xc0 virtual true final true
+  /// @brief Method get_AlgorithmName addr 0xe402f8 size 0xc0 virtual true final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0xeb458c size 0x2dc virtual true final true
+  /// @brief Method Init addr 0xe403b8 size 0x2dc virtual true final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetInputBlockSize addr 0xeb4868 size 0xb8 virtual true final true
+  /// @brief Method GetInputBlockSize addr 0xe40694 size 0xb8 virtual true final true
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize addr 0xeb4920 size 0xb8 virtual true final true
+  /// @brief Method GetOutputBlockSize addr 0xe4074c size 0xb8 virtual true final true
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method ProcessBlock addr 0xeb49d8 size 0x10 virtual true final true
+  /// @brief Method ProcessBlock addr 0xe40804 size 0x10 virtual true final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method EncodeBlock addr 0xeb4cd8 size 0x308 virtual false final false
+  /// @brief Method EncodeBlock addr 0xe40b04 size 0x308 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method CheckPkcs1Encoding addr 0xeb4fe0 size 0xa0 virtual false final false
+  /// @brief Method CheckPkcs1Encoding addr 0xe40e0c size 0xa0 virtual false final false
   static inline int32_t CheckPkcs1Encoding(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded, int32_t pLen);
 
-  /// @brief Method DecodeBlockOrRandom addr 0xeb5080 size 0x2fc virtual false final false
+  /// @brief Method DecodeBlockOrRandom addr 0xe40eac size 0x2fc virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeBlockOrRandom(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method DecodeBlock addr 0xeb49e8 size 0x2f0 virtual false final false
+  /// @brief Method DecodeBlock addr 0xe40814 size 0x2f0 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method FindStart addr 0xeb537c size 0x98 virtual false final false
+  /// @brief Method FindStart addr 0xe411a8 size 0x98 virtual false final false
   inline int32_t FindStart(uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> block);
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs1Encoding", modifiers: "&&", def_value: None }]
@@ -218,6 +218,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding, ___random) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding, ___engine) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding, ___forEncryption) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding, ___forPrivateKey) == 0x21, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding, ___useStrictLength) == 0x22, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding, ___pLen) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding, ___fallback) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding, ___blockBuffer) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Encodings
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding);

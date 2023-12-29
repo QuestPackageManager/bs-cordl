@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::PSSortingLayer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14401))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13953))
 // CS Name: ::PSSortingLayer*
 class CORDL_TYPE PSSortingLayer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   static inline ::GlobalNamespace::PSSortingLayer* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f5b38 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fa2060 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PSSortingLayer", modifiers: "&&", def_value: None }]

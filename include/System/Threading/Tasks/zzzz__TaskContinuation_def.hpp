@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Threading::Tasks::TaskContinuation);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2801))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2797))
 // CS Name: ::System.Threading.Tasks::TaskContinuation*
 class CORDL_TYPE TaskContinuation : public ::System::Object {
 public:
@@ -26,12 +26,12 @@ public:
   /// @brief Method Run addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void Run(::System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
 
-  /// @brief Method InlineIfPossibleOrElseQueue addr 0x262b4c0 size 0x144 virtual false final false
+  /// @brief Method InlineIfPossibleOrElseQueue addr 0x24d13b4 size 0x144 virtual false final false
   static inline void InlineIfPossibleOrElseQueue(::System::Threading::Tasks::Task* task, bool needsProtection);
 
   static inline ::System::Threading::Tasks::TaskContinuation* New_ctor();
 
-  /// @brief Method .ctor addr 0x262b604 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24d14f8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskContinuation", modifiers: "&&", def_value: None }]

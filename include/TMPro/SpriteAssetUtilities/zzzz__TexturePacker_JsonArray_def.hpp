@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(TexturePacker_JsonArray)
 namespace TMPro::SpriteAssetUtilities {
-struct __TexturePacker_JsonArray__Meta;
-}
-namespace TMPro::SpriteAssetUtilities {
-class __TexturePacker_JsonArray__SpriteDataObject;
-}
-namespace TMPro::SpriteAssetUtilities {
 struct __TexturePacker_JsonArray__SpriteFrame;
 }
 namespace TMPro::SpriteAssetUtilities {
+struct __TexturePacker_JsonArray__Meta;
+}
+namespace TMPro::SpriteAssetUtilities {
 struct __TexturePacker_JsonArray__SpriteSize;
+}
+namespace TMPro::SpriteAssetUtilities {
+class __TexturePacker_JsonArray__SpriteDataObject;
 }
 namespace TMPro::SpriteAssetUtilities {
 struct __TexturePacker_JsonArray__Frame;
@@ -61,12 +61,12 @@ MARK_VAL_T(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteSize)
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12461))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12389))
 // CS Name: ::TexturePacker_JsonArray::SpriteFrame
 struct CORDL_TYPE __TexturePacker_JsonArray__SpriteFrame {
 public:
   // Declarations
-  /// @brief Method ToString addr 0x2c4e64c size 0x278 virtual true final false
+  /// @brief Method ToString addr 0x2aca8f8 size 0x278 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "w", ty: "float_t",
@@ -97,18 +97,26 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteFrame, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteFrame, x) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteFrame, y) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteFrame, w) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteFrame, h) == 0xc, "Offset mismatch!");
+
 } // namespace TMPro::SpriteAssetUtilities
 // Type: ::SpriteSize
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12462))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12390))
 // CS Name: ::TexturePacker_JsonArray::SpriteSize
 struct CORDL_TYPE __TexturePacker_JsonArray__SpriteSize {
 public:
   // Declarations
-  /// @brief Method ToString addr 0x2c4e8c4 size 0xac virtual true final false
+  /// @brief Method ToString addr 0x2acab70 size 0xac virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "h", ty: "float_t", modifiers: "", def_value: None }]
@@ -132,13 +140,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteSize, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteSize, w) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteSize, h) == 0x4, "Offset mismatch!");
+
 } // namespace TMPro::SpriteAssetUtilities
 // Type: ::Frame
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(12461)), TypeDefinitionIndex(TypeDefinitionIndex(12462))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12463))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12389)), TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(12390))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12391))
 // CS Name: ::TexturePacker_JsonArray::Frame
 struct CORDL_TYPE __TexturePacker_JsonArray__Frame {
 public:
@@ -185,13 +197,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame, filename) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame, frame) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame, rotated) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame, trimmed) == 0x19, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame, spriteSourceSize) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame, sourceSize) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame, pivot) == 0x34, "Offset mismatch!");
+
 } // namespace TMPro::SpriteAssetUtilities
 // Type: ::Meta
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12462))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12464))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12390))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12392))
 // CS Name: ::TexturePacker_JsonArray::Meta
 struct CORDL_TYPE __TexturePacker_JsonArray__Meta {
 public:
@@ -236,13 +262,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta, app) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta, version) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta, image) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta, format) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta, size) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta, scale) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta, smartupdate) == 0x30, "Offset mismatch!");
+
 } // namespace TMPro::SpriteAssetUtilities
 // Type: ::SpriteDataObject
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12464))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12465))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12392))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12393))
 // CS Name: ::TexturePacker_JsonArray::SpriteDataObject*
 class CORDL_TYPE __TexturePacker_JsonArray__SpriteDataObject : public ::System::Object {
 public:
@@ -267,7 +307,7 @@ public:
 
   static inline ::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c4e970 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2acac1c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TexturePacker_JsonArray__SpriteDataObject", modifiers: "&&", def_value: None }]
@@ -295,13 +335,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject, 0x50>, "Size mismatch!");
 
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject, ___frames) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject, ___meta) == 0x18, "Offset mismatch!");
+
 } // namespace TMPro::SpriteAssetUtilities
 // Type: TMPro.SpriteAssetUtilities::TexturePacker_JsonArray
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12466))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12394))
 // CS Name: ::TMPro.SpriteAssetUtilities::TexturePacker_JsonArray*
 class CORDL_TYPE TexturePacker_JsonArray : public ::System::Object {
 public:
@@ -318,7 +362,7 @@ public:
 
   static inline ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c4e644 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2aca8f0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TexturePacker_JsonArray", modifiers: "&&", def_value: None }]

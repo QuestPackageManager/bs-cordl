@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IInputActionCollection2)
-namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine::InputSystem {
-struct InputBinding;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem {
 class IInputActionCollection;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::IInputActionCollection2);
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6128))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6214))
 // CS Name: ::UnityEngine.InputSystem::IInputActionCollection2*
 class CORDL_TYPE IInputActionCollection2 {
 public:

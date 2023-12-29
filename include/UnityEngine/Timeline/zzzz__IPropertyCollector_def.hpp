@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(IPropertyCollector)
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine {
-class AnimationClip;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 namespace UnityEngine {
 class Component;
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::IPropertyCollector);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13933))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14204))
 // CS Name: ::UnityEngine.Timeline::IPropertyCollector*
 class CORDL_TYPE IPropertyCollector {
 public:

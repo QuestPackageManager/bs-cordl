@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(QuaternionSerializable)
 namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
 class INetSerializable;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
 namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -37,7 +37,7 @@ MARK_VAL_T(::GlobalNamespace::QuaternionSerializable);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15041))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15186))
 // CS Name: ::QuaternionSerializable
 struct CORDL_TYPE QuaternionSerializable {
 public:
@@ -48,55 +48,55 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::QuaternionSerializable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::QuaternionSerializable>*();
 
-  /// @brief Method get_identity addr 0x12a7a90 size 0x64 virtual false final false
+  /// @brief Method get_identity addr 0x1235994 size 0x64 virtual false final false
   static inline ::GlobalNamespace::QuaternionSerializable get_identity();
 
-  /// @brief Method ToSmallest addr 0x12a7c58 size 0x3e8 virtual false final false
+  /// @brief Method ToSmallest addr 0x1235b5c size 0x3e8 virtual false final false
   static inline void ToSmallest(::UnityEngine::Quaternion q, ByRef<int32_t> sa, ByRef<int32_t> sb, ByRef<int32_t> sc);
 
-  /// @brief Method FromSmallest addr 0x12a8040 size 0xd0 virtual false final false
+  /// @brief Method FromSmallest addr 0x1235f44 size 0xd0 virtual false final false
   static inline ::UnityEngine::Quaternion FromSmallest(int32_t sa, int32_t sb, int32_t sc);
 
-  /// @brief Method Serialize addr 0x12a4624 size 0x54 virtual true final true
+  /// @brief Method Serialize addr 0x1232528 size 0x54 virtual true final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize addr 0x12a4468 size 0x64 virtual true final true
+  /// @brief Method Deserialize addr 0x123236c size 0x64 virtual true final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals addr 0x12a8110 size 0x34 virtual true final true
+  /// @brief Method Equals addr 0x1236014 size 0x34 virtual true final true
   inline bool Equals(::GlobalNamespace::QuaternionSerializable other);
 
-  /// @brief Method Equals addr 0x12a8144 size 0x98 virtual true final false
+  /// @brief Method Equals addr 0x1236048 size 0x98 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Approximately addr 0x12a81dc size 0x80 virtual false final false
+  /// @brief Method Approximately addr 0x12360e0 size 0x80 virtual false final false
   inline bool Approximately(::GlobalNamespace::QuaternionSerializable other);
 
-  /// @brief Method GetHashCode addr 0x12a826c size 0x18 virtual true final false
+  /// @brief Method GetHashCode addr 0x1236170 size 0x18 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetSize addr 0x12a8284 size 0x54 virtual false final false
+  /// @brief Method GetSize addr 0x1236188 size 0x54 virtual false final false
   inline int32_t GetSize();
 
-  /// @brief Method .ctor addr 0x12a7af4 size 0x164 virtual false final false
+  /// @brief Method .ctor addr 0x12359f8 size 0x164 virtual false final false
   inline void _ctor(::UnityEngine::Quaternion q);
 
-  /// @brief Method .ctor addr 0x12a82d8 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x12361dc size 0xc virtual false final false
   inline void _ctor(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method ToString addr 0x12a82e4 size 0x38 virtual true final false
+  /// @brief Method ToString addr 0x12361e8 size 0x38 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method op_Implicit addr 0x12a825c size 0x10 virtual false final false
+  /// @brief Method op_Implicit addr 0x1236160 size 0x10 virtual false final false
   static inline ::UnityEngine::Quaternion op_Implicit___UnityEngine__Quaternion(::GlobalNamespace::QuaternionSerializable q);
 
-  /// @brief Method op_Implicit addr 0x12a4a0c size 0x2c virtual false final false
+  /// @brief Method op_Implicit addr 0x1232910 size 0x2c virtual false final false
   static inline ::GlobalNamespace::QuaternionSerializable op_Implicit___GlobalNamespace__QuaternionSerializable(::UnityEngine::Quaternion q);
 
-  /// @brief Method op_Addition addr 0x12a831c size 0x1c virtual false final false
+  /// @brief Method op_Addition addr 0x1236220 size 0x1c virtual false final false
   static inline ::GlobalNamespace::QuaternionSerializable op_Addition(::GlobalNamespace::QuaternionSerializable a, ::GlobalNamespace::QuaternionSerializable b);
 
-  /// @brief Method op_Subtraction addr 0x12a8338 size 0x1c virtual false final false
+  /// @brief Method op_Subtraction addr 0x123623c size 0x1c virtual false final false
   static inline ::GlobalNamespace::QuaternionSerializable op_Subtraction(::GlobalNamespace::QuaternionSerializable a, ::GlobalNamespace::QuaternionSerializable b);
 
   // Ctor Parameters [CppParam { name: "_a", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_b", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_c", ty:
@@ -135,6 +135,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::QuaternionSerializable, 0xc>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::QuaternionSerializable, _a) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::QuaternionSerializable, _b) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::QuaternionSerializable, _c) == 0x8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::QuaternionSerializable, "", "QuaternionSerializable");

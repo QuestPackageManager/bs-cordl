@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ElGamalPublicBcpgKey)
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
-}
-namespace Org::BouncyCastle::Bcpg {
 class IBcpgKey;
 }
 namespace Org::BouncyCastle::Bcpg {
+class BcpgOutputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
 class MPInteger;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -78,30 +78,30 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::ElGamalPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x11d1668 size 0xb0 virtual false final false
+  /// @brief Method .ctor addr 0x1160418 size 0xb0 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::ElGamalPublicBcpgKey* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* y);
 
-  /// @brief Method .ctor addr 0x11d1718 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x11604c8 size 0xc0 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* y);
 
-  /// @brief Method get_Format addr 0x11d17d8 size 0x40 virtual true final true
+  /// @brief Method get_Format addr 0x1160588 size 0x40 virtual true final true
   inline ::StringW get_Format();
 
-  /// @brief Method GetEncoded addr 0x11d1818 size 0x84 virtual true final false
+  /// @brief Method GetEncoded addr 0x11605c8 size 0x84 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method get_P addr 0x11d189c size 0x1c virtual false final false
+  /// @brief Method get_P addr 0x116064c size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_G addr 0x11d18b8 size 0x1c virtual false final false
+  /// @brief Method get_G addr 0x1160668 size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_Y addr 0x11d18d4 size 0x1c virtual false final false
+  /// @brief Method get_Y addr 0x1160684 size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Y();
 
-  /// @brief Method Encode addr 0x11d18f0 size 0x100 virtual true final false
+  /// @brief Method Encode addr 0x11606a0 size 0x100 virtual true final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalPublicBcpgKey", modifiers: "&&", def_value: None }]
@@ -131,6 +131,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::ElGamalPublicBcpgKey, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ElGamalPublicBcpgKey, ___p) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ElGamalPublicBcpgKey, ___g) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ElGamalPublicBcpgKey, ___y) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::ElGamalPublicBcpgKey);

@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::InvitePolicy);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12804))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12722))
 // CS Name: ::InvitePolicy
 struct CORDL_TYPE InvitePolicy {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::InvitePolicy, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::InvitePolicy, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::InvitePolicy, "", "InvitePolicy");

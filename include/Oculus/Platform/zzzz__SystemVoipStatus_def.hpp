@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::SystemVoipStatus);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13391))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13430))
 // CS Name: ::Oculus.Platform::SystemVoipStatus
 struct CORDL_TYPE SystemVoipStatus {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::SystemVoipStatus, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::SystemVoipStatus, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::SystemVoipStatus, "Oculus.Platform", "SystemVoipStatus");

@@ -10,7 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_AssetTask)
 namespace HoudiniEngineUnity {
-class HEU_ReloadEventData;
+class HEU_HoudiniAsset;
 }
 namespace HoudiniEngineUnity {
 struct __HEU_Task__TaskResult;
@@ -18,20 +18,20 @@ struct __HEU_Task__TaskResult;
 namespace UnityEngine {
 class GameObject;
 }
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_AssetTask__BuildType;
+class HEU_CookedEventData;
+}
+namespace HoudiniEngineUnity {
+class HEU_ReloadEventData;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
-class HEU_CookedEventData;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+struct __HEU_AssetTask__BuildType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetTask);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9801))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9728))
 // CS Name: ::HEU_AssetTask::BuildType
 struct CORDL_TYPE __HEU_AssetTask__BuildType {
 public:
@@ -98,13 +98,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_AssetTask__BuildType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_AssetTask__BuildType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_AssetTask
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9800)), TypeDefinitionIndex(TypeDefinitionIndex(9801)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9802))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(9727)), TypeDefinitionIndex(TypeDefinitionIndex(9728))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9729))
 // CS Name: ::HoudiniEngineUnity::HEU_AssetTask*
 class CORDL_TYPE HEU_AssetTask : public ::HoudiniEngineUnity::HEU_Task {
 public:
@@ -165,30 +167,30 @@ public:
 
   constexpr void __set__forceSessionID(int64_t value);
 
-  /// @brief Method GetTaskSession addr 0x21aa848 size 0xb4 virtual false final false
+  /// @brief Method GetTaskSession addr 0x2053eac size 0xb4 virtual false final false
   inline ::HoudiniEngineUnity::HEU_SessionBase* GetTaskSession();
 
-  /// @brief Method DoTask addr 0x21aa8fc size 0x5b0 virtual true final false
+  /// @brief Method DoTask addr 0x2053f60 size 0x5b0 virtual true final false
   inline void DoTask();
 
-  /// @brief Method KillTask addr 0x21aaed4 size 0x240 virtual true final false
+  /// @brief Method KillTask addr 0x2054538 size 0x240 virtual true final false
   inline void KillTask();
 
-  /// @brief Method CompleteTask addr 0x21ab114 size 0x240 virtual true final false
+  /// @brief Method CompleteTask addr 0x2054778 size 0x240 virtual true final false
   inline void CompleteTask(::HoudiniEngineUnity::__HEU_Task__TaskResult result);
 
-  /// @brief Method CookCompletedCallback addr 0x21ab354 size 0x80 virtual false final false
+  /// @brief Method CookCompletedCallback addr 0x20549b8 size 0x80 virtual false final false
   inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputs);
 
-  /// @brief Method CookCompletedCallback addr 0x21ab3d4 size 0x10 virtual false final false
+  /// @brief Method CookCompletedCallback addr 0x2054a38 size 0x10 virtual false final false
   inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_CookedEventData* cookedEventData);
 
-  /// @brief Method CookCompletedCallback addr 0x21ab3e4 size 0x10 virtual false final false
+  /// @brief Method CookCompletedCallback addr 0x2054a48 size 0x10 virtual false final false
   inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_ReloadEventData* reloadEventData);
 
   static inline ::HoudiniEngineUnity::HEU_AssetTask* New_ctor();
 
-  /// @brief Method .ctor addr 0x21ab3f4 size 0xb8 virtual false final false
+  /// @brief Method .ctor addr 0x2054a58 size 0xb8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_AssetTask", modifiers: "&&", def_value: None }]
@@ -227,6 +229,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_AssetTask, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetTask, ____buildType) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetTask, ____asset) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetTask, ____assetPath) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetTask, ____position) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetTask, ____buildResult) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetTask, ____forceSessionID) == 0x58, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_AssetTask__BuildType, "HoudiniEngineUnity", "HEU_AssetTask/BuildType");

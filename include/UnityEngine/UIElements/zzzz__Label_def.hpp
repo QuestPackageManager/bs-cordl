@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Label)
 namespace UnityEngine::UIElements {
-class __Label__UxmlFactory;
+class __Label__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-class __Label__UxmlTraits;
+class __Label__UxmlFactory;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -30,15 +30,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__Label__UxmlTraits);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6813))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7036))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6899))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7122))
 // CS Name: ::Label::UxmlTraits*
 class CORDL_TYPE __Label__UxmlTraits : public ::UnityEngine::UIElements::__TextElement__UxmlTraits {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Label__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e1d8f8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2cb7548 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Label__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -65,8 +65,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Label
 // SizeInfo { instance_size: 1144, native_size: -1, calculated_instance_size: 1144, calculated_native_size: 1140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6814))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7037))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6900))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7123))
 // CS Name: ::UnityEngine.UIElements::Label*
 class CORDL_TYPE Label : public ::UnityEngine::UIElements::TextElement {
 public:
@@ -84,12 +84,12 @@ public:
 
   static inline ::UnityEngine::UIElements::Label* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e1d848 size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x2cb7498 size 0x50 virtual false final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Label* New_ctor(::StringW text);
 
-  /// @brief Method .ctor addr 0x2e135a0 size 0xb8 virtual false final false
+  /// @brief Method .ctor addr 0x2cad1f0 size 0xb8 virtual false final false
   inline void _ctor(::StringW text);
 
   // Ctor Parameters [CppParam { name: "", ty: "Label", modifiers: "&&", def_value: None }]
@@ -116,14 +116,14 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Label, 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7037)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5266 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7036))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7035)) CS Name: ::Label::UxmlFactory*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5150 }), TypeDefinitionIndex(TypeDefinitionIndex(7123)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7083)), TypeDefinitionIndex(TypeDefinitionIndex(7122))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7121)) CS Name: ::Label::UxmlFactory*
 class CORDL_TYPE __Label__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Label*, ::UnityEngine::UIElements::__Label__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Label__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e11320 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2caaf70 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Label__UxmlFactory", modifiers: "&&", def_value: None }]

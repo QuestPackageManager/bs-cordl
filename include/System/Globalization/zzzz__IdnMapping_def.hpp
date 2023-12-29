@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IdnMapping)
-namespace System {
-class Object;
-}
 namespace System::Globalization {
 class Punycode;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Globalization::IdnMapping);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3723))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3711))
 // CS Name: ::System.Globalization::IdnMapping*
 class CORDL_TYPE IdnMapping : public ::System::Object {
 public:
@@ -57,46 +57,46 @@ public:
 
   static inline ::System::Globalization::IdnMapping* New_ctor();
 
-  /// @brief Method .ctor addr 0x2577cbc size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x241c830 size 0x90 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Equals addr 0x2577d8c size 0x8c virtual true final false
+  /// @brief Method Equals addr 0x241c900 size 0x8c virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2577e18 size 0x10 virtual true final false
+  /// @brief Method GetHashCode addr 0x241c98c size 0x10 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetAscii addr 0x2577e28 size 0x64 virtual false final false
+  /// @brief Method GetAscii addr 0x241c99c size 0x64 virtual false final false
   inline ::StringW GetAscii(::StringW unicode);
 
-  /// @brief Method GetAscii addr 0x2577e8c size 0xd4 virtual false final false
+  /// @brief Method GetAscii addr 0x241ca00 size 0xd4 virtual false final false
   inline ::StringW GetAscii(::StringW unicode, int32_t index, int32_t count);
 
-  /// @brief Method Convert addr 0x2577f60 size 0x228 virtual false final false
+  /// @brief Method Convert addr 0x241cad4 size 0x22c virtual false final false
   inline ::StringW Convert(::StringW input, int32_t index, int32_t count, bool toAscii);
 
-  /// @brief Method ToAscii addr 0x2578188 size 0x23c virtual false final false
+  /// @brief Method ToAscii addr 0x241cd00 size 0x23c virtual false final false
   inline ::StringW ToAscii(::StringW s, int32_t offset);
 
-  /// @brief Method VerifyLength addr 0x2578bf8 size 0xcc virtual false final false
+  /// @brief Method VerifyLength addr 0x241d774 size 0xcc virtual false final false
   inline void VerifyLength(::StringW s, int32_t offset);
 
-  /// @brief Method NamePrep addr 0x2578598 size 0x14c virtual false final false
+  /// @brief Method NamePrep addr 0x241d114 size 0x14c virtual false final false
   inline ::StringW NamePrep(::StringW s, int32_t offset);
 
-  /// @brief Method VerifyProhibitedCharacters addr 0x2578cc4 size 0x240 virtual false final false
+  /// @brief Method VerifyProhibitedCharacters addr 0x241d840 size 0x240 virtual false final false
   inline void VerifyProhibitedCharacters(::StringW s, int32_t offset);
 
-  /// @brief Method VerifyStd3AsciiRules addr 0x25786e4 size 0x1d0 virtual false final false
+  /// @brief Method VerifyStd3AsciiRules addr 0x241d260 size 0x1d0 virtual false final false
   inline void VerifyStd3AsciiRules(::StringW s, int32_t offset);
 
-  /// @brief Method GetUnicode addr 0x2578f04 size 0x64 virtual false final false
+  /// @brief Method GetUnicode addr 0x241da80 size 0x64 virtual false final false
   inline ::StringW GetUnicode(::StringW ascii);
 
-  /// @brief Method GetUnicode addr 0x2578f68 size 0xd4 virtual false final false
+  /// @brief Method GetUnicode addr 0x241dae4 size 0xd4 virtual false final false
   inline ::StringW GetUnicode(::StringW ascii, int32_t index, int32_t count);
 
-  /// @brief Method ToUnicode addr 0x25783c4 size 0x1d4 virtual false final false
+  /// @brief Method ToUnicode addr 0x241cf3c size 0x1d8 virtual false final false
   inline ::StringW ToUnicode(::StringW s, int32_t offset);
 
   // Ctor Parameters [CppParam { name: "", ty: "IdnMapping", modifiers: "&&", def_value: None }]
@@ -126,6 +126,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::IdnMapping, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::IdnMapping, ___allow_unassigned) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::IdnMapping, ___use_std3) == 0x11, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::IdnMapping, ___puny) == 0x18, "Offset mismatch!");
 
 } // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::IdnMapping);

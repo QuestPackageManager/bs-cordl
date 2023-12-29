@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockPositionUpdater);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14563))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14569))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14780))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14786))
 // CS Name: ::MaterialPropertyBlockPositionUpdater*
 class CORDL_TYPE MaterialPropertyBlockPositionUpdater : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __set__targetTransform(::UnityEngine::Transform* value);
 
-  /// @brief Method SetProperty addr 0x2115150 size 0xb4 virtual true final false
+  /// @brief Method SetProperty addr 0x1fbf5c8 size 0xb4 virtual true final false
   inline void SetProperty();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockPositionUpdater* New_ctor();
 
-  /// @brief Method .ctor addr 0x2115204 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fbf67c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockPositionUpdater", modifiers: "&&", def_value: None }]
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockPositionUpdater, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockPositionUpdater, ____targetTransform) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockPositionUpdater);

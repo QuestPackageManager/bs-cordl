@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::MessageBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13767)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13765))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14038))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14036))
 // CS Name: ::Mono.Security.Protocol.Ntlm::MessageBase*
 class CORDL_TYPE MessageBase : public ::System::Object {
 public:
@@ -57,25 +57,25 @@ public:
 
   static inline ::Mono::Security::Protocol::Ntlm::MessageBase* New_ctor(int32_t messageType);
 
-  /// @brief Method .ctor addr 0x2400ee8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x22a6bdc size 0x28 virtual false final false
   inline void _ctor(int32_t messageType);
 
-  /// @brief Method get_Flags addr 0x2400f10 size 0x8 virtual false final false
+  /// @brief Method get_Flags addr 0x22a6c04 size 0x8 virtual false final false
   inline ::Mono::Security::Protocol::Ntlm::NtlmFlags get_Flags();
 
-  /// @brief Method set_Flags addr 0x2400f18 size 0x8 virtual false final false
+  /// @brief Method set_Flags addr 0x22a6c0c size 0x8 virtual false final false
   inline void set_Flags(::Mono::Security::Protocol::Ntlm::NtlmFlags value);
 
-  /// @brief Method get_Type addr 0x2400f20 size 0x8 virtual false final false
+  /// @brief Method get_Type addr 0x22a6c14 size 0x8 virtual false final false
   inline int32_t get_Type();
 
-  /// @brief Method PrepareMessage addr 0x2400f28 size 0x100 virtual false final false
+  /// @brief Method PrepareMessage addr 0x22a6c1c size 0x100 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PrepareMessage(int32_t messageSize);
 
-  /// @brief Method Decode addr 0x2401028 size 0x1a4 virtual true final false
+  /// @brief Method Decode addr 0x22a6d1c size 0x1a4 virtual true final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method CheckHeader addr 0x24011cc size 0x114 virtual false final false
+  /// @brief Method CheckHeader addr 0x22a6ec0 size 0x114 virtual false final false
   inline bool CheckHeader(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
   /// @brief Method GetBytes addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -105,6 +105,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Protocol::Ntlm::MessageBase, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::Protocol::Ntlm::MessageBase, ____type) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Protocol::Ntlm::MessageBase, ____flags) == 0x14, "Offset mismatch!");
 
 } // namespace Mono::Security::Protocol::Ntlm
 NEED_NO_BOX(::Mono::Security::Protocol::Ntlm::MessageBase);

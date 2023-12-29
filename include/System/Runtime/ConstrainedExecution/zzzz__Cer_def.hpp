@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::ConstrainedExecution::Cer);
 namespace System::Runtime::ConstrainedExecution {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3350))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3346))
 // CS Name: ::System.Runtime.ConstrainedExecution::Cer
 struct CORDL_TYPE Cer {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::ConstrainedExecution::Cer, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::ConstrainedExecution::Cer, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Runtime::ConstrainedExecution
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::ConstrainedExecution::Cer, "System.Runtime.ConstrainedExecution", "Cer");

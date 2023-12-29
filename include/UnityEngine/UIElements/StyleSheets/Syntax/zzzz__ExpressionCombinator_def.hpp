@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator)
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7495))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7581))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::ExpressionCombinator
 struct CORDL_TYPE ExpressionCombinator {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets::Syntax
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator, "UnityEngine.UIElements.StyleSheets.Syntax", "ExpressionCombinator");

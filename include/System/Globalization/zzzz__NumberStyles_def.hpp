@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::NumberStyles);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3679))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3667))
 // CS Name: ::System.Globalization::NumberStyles
 struct CORDL_TYPE NumberStyles {
 public:
@@ -117,6 +117,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::NumberStyles, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::NumberStyles, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::NumberStyles, "System.Globalization", "NumberStyles");

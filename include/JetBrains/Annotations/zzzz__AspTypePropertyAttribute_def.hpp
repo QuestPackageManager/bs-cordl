@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspTypePropertyAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15800))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15750))
 // CS Name: ::JetBrains.Annotations::AspTypePropertyAttribute*
 class CORDL_TYPE AspTypePropertyAttribute : public ::System::Attribute {
 public:
@@ -31,15 +31,15 @@ public:
 
   constexpr void __set__CreateConstructorReferences_k__BackingField(bool value);
 
-  /// @brief Method get_CreateConstructorReferences addr 0x2eba828 size 0x8 virtual false final false
+  /// @brief Method get_CreateConstructorReferences addr 0x2d52aa8 size 0x8 virtual false final false
   inline bool get_CreateConstructorReferences();
 
-  /// @brief Method set_CreateConstructorReferences addr 0x2eba830 size 0xc virtual false final false
+  /// @brief Method set_CreateConstructorReferences addr 0x2d52ab0 size 0xc virtual false final false
   inline void set_CreateConstructorReferences(bool value);
 
   static inline ::JetBrains::Annotations::AspTypePropertyAttribute* New_ctor(bool createConstructorReferences);
 
-  /// @brief Method .ctor addr 0x2eba83c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2d52abc size 0x2c virtual false final false
   inline void _ctor(bool createConstructorReferences);
 
   // Ctor Parameters [CppParam { name: "", ty: "AspTypePropertyAttribute", modifiers: "&&", def_value: None }]
@@ -63,6 +63,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::AspTypePropertyAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::AspTypePropertyAttribute, ____CreateConstructorReferences_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::AspTypePropertyAttribute);

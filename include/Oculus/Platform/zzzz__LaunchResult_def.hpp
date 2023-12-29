@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::LaunchResult);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13251))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13255))
 // CS Name: ::Oculus.Platform::LaunchResult
 struct CORDL_TYPE LaunchResult {
 public:
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::LaunchResult, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::LaunchResult, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::LaunchResult, "Oculus.Platform", "LaunchResult");

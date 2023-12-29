@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CubemapTest)
 namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
 class RenderTexture;
-}
-namespace UnityEngine {
-class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CubemapTest);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5857))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5946))
 // CS Name: ::CubemapTest*
 class CORDL_TYPE CubemapTest : public ::UnityEngine::MonoBehaviour {
 public:
@@ -91,15 +91,15 @@ public:
 
   static inline int32_t getStaticF__cubePropertyId();
 
-  /// @brief Method Start addr 0x22f7500 size 0x7c virtual false final false
+  /// @brief Method Start addr 0x21aeca4 size 0x7c virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x22f757c size 0x210 virtual false final false
+  /// @brief Method Update addr 0x21aed20 size 0x210 virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::CubemapTest* New_ctor();
 
-  /// @brief Method .ctor addr 0x22f778c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21aef30 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CubemapTest", modifiers: "&&", def_value: None }]
@@ -138,6 +138,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CubemapTest, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CubemapTest, ____camera) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CubemapTest, ____cubemapMaterial) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CubemapTest, ____flatMaterial) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CubemapTest, ____cubemapRenderTexture) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CubemapTest, ____downsampledCubemapRenderTexture) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CubemapTest, ____cubemapFlatTexture) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CubemapTest);

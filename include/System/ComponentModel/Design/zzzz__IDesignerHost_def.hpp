@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDesignerHost)
-namespace System {
-class IServiceProvider;
-}
 namespace System::ComponentModel::Design {
 class IDesigner;
+}
+namespace System {
+class IServiceProvider;
 }
 namespace System::ComponentModel {
 class IComponent;
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::IDesignerHost);
 namespace System::ComponentModel::Design {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9499))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8336))
 // CS Name: ::System.ComponentModel.Design::IDesignerHost*
 class CORDL_TYPE IDesignerHost {
 public:

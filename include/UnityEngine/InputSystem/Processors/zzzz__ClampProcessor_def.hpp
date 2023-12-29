@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::ClampProcessor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 391 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6581))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6322), inst: 387 }), TypeDefinitionIndex(TypeDefinitionIndex(6322))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6667))
 // CS Name: ::UnityEngine.InputSystem.Processors::ClampProcessor*
 class CORDL_TYPE ClampProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
@@ -43,15 +43,15 @@ public:
 
   constexpr void __set_max(float_t value);
 
-  /// @brief Method Process addr 0x2af8d44 size 0x18 virtual true final false
+  /// @brief Method Process addr 0x2977ff0 size 0x18 virtual true final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString addr 0x2af8d5c size 0xa0 virtual true final false
+  /// @brief Method ToString addr 0x2978008 size 0xa0 virtual true final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::InputSystem::Processors::ClampProcessor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2af8dfc size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x29780a8 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ClampProcessor", modifiers: "&&", def_value: None }]
@@ -78,6 +78,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Processors::ClampProcessor, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Processors::ClampProcessor, ___min) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Processors::ClampProcessor, ___max) == 0x14, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Processors
 NEED_NO_BOX(::UnityEngine::InputSystem::Processors::ClampProcessor);

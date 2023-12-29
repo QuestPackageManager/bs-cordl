@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorScheme);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16204))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16043))
 // CS Name: ::ColorScheme*
 class CORDL_TYPE ColorScheme : public ::System::Object {
 public:
@@ -193,87 +193,79 @@ public:
 
   constexpr void __set__environmentColorWBoost(::UnityEngine::Color value);
 
-  /// @brief Method get_colorSchemeId addr 0x122d1a0 size 0x8 virtual false final false
+  /// @brief Method get_colorSchemeId addr 0x11bcf50 size 0x8 virtual false final false
   inline ::StringW get_colorSchemeId();
 
-  /// @brief Method get_colorSchemeNameLocalizationKey addr 0x122d1a8 size 0x8 virtual false final false
+  /// @brief Method get_colorSchemeNameLocalizationKey addr 0x11bcf58 size 0x8 virtual false final false
   inline ::StringW get_colorSchemeNameLocalizationKey();
 
-  /// @brief Method get_nonLocalizedName addr 0x122d1b0 size 0x8 virtual false final false
+  /// @brief Method get_nonLocalizedName addr 0x11bcf60 size 0x8 virtual false final false
   inline ::StringW get_nonLocalizedName();
 
-  /// @brief Method get_useNonLocalizedName addr 0x122d1b8 size 0x8 virtual false final false
+  /// @brief Method get_useNonLocalizedName addr 0x11bcf68 size 0x8 virtual false final false
   inline bool get_useNonLocalizedName();
 
-  /// @brief Method get_isEditable addr 0x122d1c0 size 0x8 virtual false final false
+  /// @brief Method get_isEditable addr 0x11bcf70 size 0x8 virtual false final false
   inline bool get_isEditable();
 
-  /// @brief Method get_saberAColor addr 0x122d1c8 size 0xc virtual false final false
+  /// @brief Method get_saberAColor addr 0x11bcf78 size 0xc virtual false final false
   inline ::UnityEngine::Color get_saberAColor();
 
-  /// @brief Method get_saberBColor addr 0x122d1d4 size 0xc virtual false final false
+  /// @brief Method get_saberBColor addr 0x11bcf84 size 0xc virtual false final false
   inline ::UnityEngine::Color get_saberBColor();
 
-  /// @brief Method get_environmentColor0 addr 0x122d1e0 size 0xc virtual false final false
+  /// @brief Method get_environmentColor0 addr 0x11bcf90 size 0xc virtual false final false
   inline ::UnityEngine::Color get_environmentColor0();
 
-  /// @brief Method get_environmentColor1 addr 0x122d1ec size 0xc virtual false final false
+  /// @brief Method get_environmentColor1 addr 0x11bcf9c size 0xc virtual false final false
   inline ::UnityEngine::Color get_environmentColor1();
 
-  /// @brief Method get_environmentColorW addr 0x122d1f8 size 0xc virtual false final false
+  /// @brief Method get_environmentColorW addr 0x11bcfa8 size 0xc virtual false final false
   inline ::UnityEngine::Color get_environmentColorW();
 
-  /// @brief Method get_supportsEnvironmentColorBoost addr 0x122d204 size 0x8 virtual false final false
+  /// @brief Method get_supportsEnvironmentColorBoost addr 0x11bcfb4 size 0x8 virtual false final false
   inline bool get_supportsEnvironmentColorBoost();
 
-  /// @brief Method get_environmentColor0Boost addr 0x122d20c size 0xc virtual false final false
+  /// @brief Method get_environmentColor0Boost addr 0x11bcfbc size 0xc virtual false final false
   inline ::UnityEngine::Color get_environmentColor0Boost();
 
-  /// @brief Method get_environmentColor1Boost addr 0x122d218 size 0xc virtual false final false
+  /// @brief Method get_environmentColor1Boost addr 0x11bcfc8 size 0xc virtual false final false
   inline ::UnityEngine::Color get_environmentColor1Boost();
 
-  /// @brief Method get_environmentColorWBoost addr 0x122d224 size 0xc virtual false final false
+  /// @brief Method get_environmentColorWBoost addr 0x11bcfd4 size 0xc virtual false final false
   inline ::UnityEngine::Color get_environmentColorWBoost();
 
-  /// @brief Method get_obstaclesColor addr 0x122d230 size 0xc virtual false final false
+  /// @brief Method get_obstaclesColor addr 0x11bcfe0 size 0xc virtual false final false
   inline ::UnityEngine::Color get_obstaclesColor();
 
   static inline ::GlobalNamespace::ColorScheme* New_ctor(::StringW colorSchemeId, ::StringW colorSchemeNameLocalizationKey, bool useNonLocalizedName, ::StringW nonLocalizedName, bool isEditable,
                                                          ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environmentColor0,
-                                                         ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColorW, bool supportsEnvironmentColorBoost,
-                                                         ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color environmentColorWBoost,
-                                                         ::UnityEngine::Color obstaclesColor);
+                                                         ::UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, ::UnityEngine::Color environmentColor0Boost,
+                                                         ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstaclesColor);
 
-  /// @brief Method .ctor addr 0x122d23c size 0x130 virtual false final false
+  /// @brief Method .ctor addr 0x11bcfec size 0x110 virtual false final false
   inline void _ctor(::StringW colorSchemeId, ::StringW colorSchemeNameLocalizationKey, bool useNonLocalizedName, ::StringW nonLocalizedName, bool isEditable, ::UnityEngine::Color saberAColor,
-                    ::UnityEngine::Color saberBColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColorW,
-                    bool supportsEnvironmentColorBoost, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color environmentColorWBoost,
-                    ::UnityEngine::Color obstaclesColor);
+                    ::UnityEngine::Color saberBColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost,
+                    ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstaclesColor);
 
   static inline ::GlobalNamespace::ColorScheme* New_ctor(::GlobalNamespace::ColorScheme* colorScheme, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor,
-                                                         ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColorW,
-                                                         bool supportsEnvironmentColorBoost, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost,
-                                                         ::UnityEngine::Color environmentColorWBoost, ::UnityEngine::Color obstaclesColor);
+                                                         ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost,
+                                                         ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstaclesColor);
 
-  /// @brief Method .ctor addr 0x122d36c size 0xd8 virtual false final false
+  /// @brief Method .ctor addr 0x11bd0fc size 0x90 virtual false final false
   inline void _ctor(::GlobalNamespace::ColorScheme* colorScheme, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environmentColor0,
-                    ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColorW, bool supportsEnvironmentColorBoost, ::UnityEngine::Color environmentColor0Boost,
-                    ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color environmentColorWBoost, ::UnityEngine::Color obstaclesColor);
+                    ::UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost,
+                    ::UnityEngine::Color obstaclesColor);
 
-  static inline ::GlobalNamespace::ColorScheme* New_ctor(::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::ColorSchemeSO* environmentColorScheme);
+  static inline ::GlobalNamespace::ColorScheme* New_ctor(::GlobalNamespace::ColorScheme* colorScheme);
 
-  /// @brief Method .ctor addr 0x122d444 size 0x2c virtual false final false
-  inline void _ctor(::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::ColorSchemeSO* environmentColorScheme);
+  /// @brief Method .ctor addr 0x11bd18c size 0xb0 virtual false final false
+  inline void _ctor(::GlobalNamespace::ColorScheme* colorScheme);
 
   static inline ::GlobalNamespace::ColorScheme* New_ctor(::GlobalNamespace::ColorSchemeSO* colorScheme);
 
-  /// @brief Method .ctor addr 0x122d554 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x11bd23c size 0x18 virtual false final false
   inline void _ctor(::GlobalNamespace::ColorSchemeSO* colorScheme);
-
-  static inline ::GlobalNamespace::ColorScheme* New_ctor(::GlobalNamespace::ColorScheme* colorScheme, ::UnityEngine::Color environmentColorW, ::UnityEngine::Color environmentColorWBoost);
-
-  /// @brief Method .ctor addr 0x122d470 size 0xe4 virtual false final false
-  inline void _ctor(::GlobalNamespace::ColorScheme* colorScheme, ::UnityEngine::Color environmentColorW, ::UnityEngine::Color environmentColorWBoost);
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorScheme", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -338,6 +330,36 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorScheme, 0xc8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorScheme, ____colorSchemeId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorScheme, ____colorSchemeNameLocalizationKey) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorScheme, ____useNonLocalizedName) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorScheme, ____nonLocalizedName) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorScheme, ____isEditable) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorScheme, ____saberAColor) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorScheme, ____saberBColor) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorScheme, ____obstaclesColor) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorScheme, ____environmentColor0) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorScheme, ____environmentColor1) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorScheme, ____environmentColorW) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorScheme, ____supportsEnvironmentColorBoost) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorScheme, ____environmentColor0Boost) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorScheme, ____environmentColor1Boost) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorScheme, ____environmentColorWBoost) == 0xb8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorScheme);

@@ -10,7 +10,22 @@ namespace System::Runtime::CompilerServices {
 class ITuple;
 }
 namespace System {
+class IComparable;
+}
+namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System::Collections {
+class IStructuralEquatable;
+}
+namespace System::Collections {
+class IStructuralComparable;
+}
+namespace System {
+class IValueTupleInternal;
+}
+namespace System::Collections {
+class IEqualityComparer;
 }
 namespace System {
 class Object;
@@ -19,22 +34,7 @@ namespace System {
 template <typename T> class IComparable_1;
 }
 namespace System::Collections {
-class IStructuralComparable;
-}
-namespace System::Collections {
-class IEqualityComparer;
-}
-namespace System {
-class IComparable;
-}
-namespace System::Collections {
 class IComparer;
-}
-namespace System::Collections {
-class IStructuralEquatable;
-}
-namespace System {
-class IValueTupleInternal;
 }
 // Forward declare root types
 namespace System {
@@ -49,7 +49,7 @@ namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2511))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2509))
 // CS Name: ::System::ValueTuple`8<T1,T2,T3,T4,T5,T6,T7,TRest>
 struct CORDL_TYPE ValueTuple_8 {
 public:

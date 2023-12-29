@@ -9,26 +9,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CacheControlHeaderValue)
+namespace System::Net::Http::Headers {
+class NameValueHeaderValue;
+}
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace System {
-struct TimeSpan;
+class ICloneable;
 }
-namespace System::Net::Http::Headers {
-class NameValueHeaderValue;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace System {
-class ICloneable;
+struct TimeSpan;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::CacheControlHeaderValue);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2711 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14659)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2482)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2446)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 2651 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14876)) CS Name:
 // ::System.Net.Http.Headers::CacheControlHeaderValue*
 class CORDL_TYPE CacheControlHeaderValue : public ::System::Object {
 public:
@@ -225,111 +225,111 @@ public:
 
   constexpr void __set__SharedMaxAge_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
 
-  /// @brief Method get_Extensions addr 0x2835120 size 0x80 virtual false final false
+  /// @brief Method get_Extensions addr 0x26ba10c size 0x80 virtual false final false
   inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Extensions();
 
-  /// @brief Method get_MaxAge addr 0x28351a0 size 0xc virtual false final false
+  /// @brief Method get_MaxAge addr 0x26ba18c size 0xc virtual false final false
   inline ::System::Nullable_1<::System::TimeSpan> get_MaxAge();
 
-  /// @brief Method set_MaxAge addr 0x28351ac size 0x8 virtual false final false
+  /// @brief Method set_MaxAge addr 0x26ba198 size 0x8 virtual false final false
   inline void set_MaxAge(::System::Nullable_1<::System::TimeSpan> value);
 
-  /// @brief Method get_MaxStale addr 0x28351b4 size 0x8 virtual false final false
+  /// @brief Method get_MaxStale addr 0x26ba1a0 size 0x8 virtual false final false
   inline bool get_MaxStale();
 
-  /// @brief Method set_MaxStale addr 0x28351bc size 0xc virtual false final false
+  /// @brief Method set_MaxStale addr 0x26ba1a8 size 0xc virtual false final false
   inline void set_MaxStale(bool value);
 
-  /// @brief Method get_MaxStaleLimit addr 0x28351c8 size 0xc virtual false final false
+  /// @brief Method get_MaxStaleLimit addr 0x26ba1b4 size 0xc virtual false final false
   inline ::System::Nullable_1<::System::TimeSpan> get_MaxStaleLimit();
 
-  /// @brief Method set_MaxStaleLimit addr 0x28351d4 size 0x8 virtual false final false
+  /// @brief Method set_MaxStaleLimit addr 0x26ba1c0 size 0x8 virtual false final false
   inline void set_MaxStaleLimit(::System::Nullable_1<::System::TimeSpan> value);
 
-  /// @brief Method get_MinFresh addr 0x28351dc size 0xc virtual false final false
+  /// @brief Method get_MinFresh addr 0x26ba1c8 size 0xc virtual false final false
   inline ::System::Nullable_1<::System::TimeSpan> get_MinFresh();
 
-  /// @brief Method set_MinFresh addr 0x28351e8 size 0x8 virtual false final false
+  /// @brief Method set_MinFresh addr 0x26ba1d4 size 0x8 virtual false final false
   inline void set_MinFresh(::System::Nullable_1<::System::TimeSpan> value);
 
-  /// @brief Method get_MustRevalidate addr 0x28351f0 size 0x8 virtual false final false
+  /// @brief Method get_MustRevalidate addr 0x26ba1dc size 0x8 virtual false final false
   inline bool get_MustRevalidate();
 
-  /// @brief Method set_MustRevalidate addr 0x28351f8 size 0xc virtual false final false
+  /// @brief Method set_MustRevalidate addr 0x26ba1e4 size 0xc virtual false final false
   inline void set_MustRevalidate(bool value);
 
-  /// @brief Method get_NoCache addr 0x2835204 size 0x8 virtual false final false
+  /// @brief Method get_NoCache addr 0x26ba1f0 size 0x8 virtual false final false
   inline bool get_NoCache();
 
-  /// @brief Method set_NoCache addr 0x283520c size 0xc virtual false final false
+  /// @brief Method set_NoCache addr 0x26ba1f8 size 0xc virtual false final false
   inline void set_NoCache(bool value);
 
-  /// @brief Method get_NoCacheHeaders addr 0x2835218 size 0x80 virtual false final false
+  /// @brief Method get_NoCacheHeaders addr 0x26ba204 size 0x80 virtual false final false
   inline ::System::Collections::Generic::ICollection_1<::StringW>* get_NoCacheHeaders();
 
-  /// @brief Method get_NoStore addr 0x2835298 size 0x8 virtual false final false
+  /// @brief Method get_NoStore addr 0x26ba284 size 0x8 virtual false final false
   inline bool get_NoStore();
 
-  /// @brief Method set_NoStore addr 0x28352a0 size 0xc virtual false final false
+  /// @brief Method set_NoStore addr 0x26ba28c size 0xc virtual false final false
   inline void set_NoStore(bool value);
 
-  /// @brief Method get_NoTransform addr 0x28352ac size 0x8 virtual false final false
+  /// @brief Method get_NoTransform addr 0x26ba298 size 0x8 virtual false final false
   inline bool get_NoTransform();
 
-  /// @brief Method set_NoTransform addr 0x28352b4 size 0xc virtual false final false
+  /// @brief Method set_NoTransform addr 0x26ba2a0 size 0xc virtual false final false
   inline void set_NoTransform(bool value);
 
-  /// @brief Method get_OnlyIfCached addr 0x28352c0 size 0x8 virtual false final false
+  /// @brief Method get_OnlyIfCached addr 0x26ba2ac size 0x8 virtual false final false
   inline bool get_OnlyIfCached();
 
-  /// @brief Method set_OnlyIfCached addr 0x28352c8 size 0xc virtual false final false
+  /// @brief Method set_OnlyIfCached addr 0x26ba2b4 size 0xc virtual false final false
   inline void set_OnlyIfCached(bool value);
 
-  /// @brief Method get_Private addr 0x28352d4 size 0x8 virtual false final false
+  /// @brief Method get_Private addr 0x26ba2c0 size 0x8 virtual false final false
   inline bool get_Private();
 
-  /// @brief Method set_Private addr 0x28352dc size 0xc virtual false final false
+  /// @brief Method set_Private addr 0x26ba2c8 size 0xc virtual false final false
   inline void set_Private(bool value);
 
-  /// @brief Method get_PrivateHeaders addr 0x28352e8 size 0x80 virtual false final false
+  /// @brief Method get_PrivateHeaders addr 0x26ba2d4 size 0x80 virtual false final false
   inline ::System::Collections::Generic::ICollection_1<::StringW>* get_PrivateHeaders();
 
-  /// @brief Method get_ProxyRevalidate addr 0x2835368 size 0x8 virtual false final false
+  /// @brief Method get_ProxyRevalidate addr 0x26ba354 size 0x8 virtual false final false
   inline bool get_ProxyRevalidate();
 
-  /// @brief Method set_ProxyRevalidate addr 0x2835370 size 0xc virtual false final false
+  /// @brief Method set_ProxyRevalidate addr 0x26ba35c size 0xc virtual false final false
   inline void set_ProxyRevalidate(bool value);
 
-  /// @brief Method get_Public addr 0x283537c size 0x8 virtual false final false
+  /// @brief Method get_Public addr 0x26ba368 size 0x8 virtual false final false
   inline bool get_Public();
 
-  /// @brief Method set_Public addr 0x2835384 size 0xc virtual false final false
+  /// @brief Method set_Public addr 0x26ba370 size 0xc virtual false final false
   inline void set_Public(bool value);
 
-  /// @brief Method get_SharedMaxAge addr 0x2835390 size 0xc virtual false final false
+  /// @brief Method get_SharedMaxAge addr 0x26ba37c size 0xc virtual false final false
   inline ::System::Nullable_1<::System::TimeSpan> get_SharedMaxAge();
 
-  /// @brief Method set_SharedMaxAge addr 0x283539c size 0x8 virtual false final false
+  /// @brief Method set_SharedMaxAge addr 0x26ba388 size 0x8 virtual false final false
   inline void set_SharedMaxAge(::System::Nullable_1<::System::TimeSpan> value);
 
-  /// @brief Method System.ICloneable.Clone addr 0x28353a4 size 0x568 virtual true final true
+  /// @brief Method System.ICloneable.Clone addr 0x26ba390 size 0x568 virtual true final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals addr 0x283590c size 0x384 virtual true final false
+  /// @brief Method Equals addr 0x26ba8f8 size 0x384 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2835c90 size 0x260 virtual true final false
+  /// @brief Method GetHashCode addr 0x26bac7c size 0x260 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method TryParse addr 0x2835ef0 size 0x8f4 virtual false final false
+  /// @brief Method TryParse addr 0x26baedc size 0x8f4 virtual false final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::CacheControlHeaderValue*> parsedValue);
 
-  /// @brief Method ToString addr 0x28369cc size 0x6e0 virtual true final false
+  /// @brief Method ToString addr 0x26bb9b8 size 0x6e0 virtual true final false
   inline ::StringW ToString();
 
   static inline ::System::Net::Http::Headers::CacheControlHeaderValue* New_ctor();
 
-  /// @brief Method .ctor addr 0x28367e4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26bb7d0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CacheControlHeaderValue", modifiers: "&&", def_value: None }]
@@ -398,6 +398,38 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::CacheControlHeaderValue, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::CacheControlHeaderValue, ___extensions) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::CacheControlHeaderValue, ___no_cache_headers) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::CacheControlHeaderValue, ___private_headers) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::CacheControlHeaderValue, ____MaxAge_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::CacheControlHeaderValue, ____MaxStale_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::CacheControlHeaderValue, ____MaxStaleLimit_k__BackingField) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::CacheControlHeaderValue, ____MinFresh_k__BackingField) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::CacheControlHeaderValue, ____MustRevalidate_k__BackingField) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::CacheControlHeaderValue, ____NoCache_k__BackingField) == 0x61, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::CacheControlHeaderValue, ____NoStore_k__BackingField) == 0x62, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::CacheControlHeaderValue, ____NoTransform_k__BackingField) == 0x63, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::CacheControlHeaderValue, ____OnlyIfCached_k__BackingField) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::CacheControlHeaderValue, ____Private_k__BackingField) == 0x65, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::CacheControlHeaderValue, ____ProxyRevalidate_k__BackingField) == 0x66, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::CacheControlHeaderValue, ____Public_k__BackingField) == 0x67, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::CacheControlHeaderValue, ____SharedMaxAge_k__BackingField) == 0x68, "Offset mismatch!");
 
 } // namespace System::Net::Http::Headers
 NEED_NO_BOX(::System::Net::Http::Headers::CacheControlHeaderValue);

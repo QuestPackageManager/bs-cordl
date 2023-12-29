@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::RootMotion::__BipedLimbOrientations__LimbOrientation);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12482))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12410))
 // CS Name: ::BipedLimbOrientations::LimbOrientation*
 class CORDL_TYPE __BipedLimbOrientations__LimbOrientation : public ::System::Object {
 public:
@@ -61,7 +61,7 @@ public:
   static inline ::RootMotion::__BipedLimbOrientations__LimbOrientation* New_ctor(::UnityEngine::Vector3 upperBoneForwardAxis, ::UnityEngine::Vector3 lowerBoneForwardAxis,
                                                                                  ::UnityEngine::Vector3 lastBoneLeftAxis);
 
-  /// @brief Method .ctor addr 0x1236054 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x11c5d28 size 0x74 virtual false final false
   inline void _ctor(::UnityEngine::Vector3 upperBoneForwardAxis, ::UnityEngine::Vector3 lowerBoneForwardAxis, ::UnityEngine::Vector3 lastBoneLeftAxis);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BipedLimbOrientations__LimbOrientation", modifiers: "&&", def_value: None }]
@@ -92,13 +92,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::__BipedLimbOrientations__LimbOrientation, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::__BipedLimbOrientations__LimbOrientation, ___upperBoneForwardAxis) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::__BipedLimbOrientations__LimbOrientation, ___lowerBoneForwardAxis) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::__BipedLimbOrientations__LimbOrientation, ___lastBoneLeftAxis) == 0x28, "Offset mismatch!");
+
 } // namespace RootMotion
 // Type: RootMotion::BipedLimbOrientations
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12483))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12411))
 // CS Name: ::RootMotion::BipedLimbOrientations*
 class CORDL_TYPE BipedLimbOrientations : public ::System::Object {
 public:
@@ -144,14 +150,14 @@ public:
   static inline ::RootMotion::BipedLimbOrientations* New_ctor(::RootMotion::__BipedLimbOrientations__LimbOrientation* leftArm, ::RootMotion::__BipedLimbOrientations__LimbOrientation* rightArm,
                                                               ::RootMotion::__BipedLimbOrientations__LimbOrientation* leftLeg, ::RootMotion::__BipedLimbOrientations__LimbOrientation* rightLeg);
 
-  /// @brief Method .ctor addr 0x1235d60 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x11c5a34 size 0x40 virtual false final false
   inline void _ctor(::RootMotion::__BipedLimbOrientations__LimbOrientation* leftArm, ::RootMotion::__BipedLimbOrientations__LimbOrientation* rightArm,
                     ::RootMotion::__BipedLimbOrientations__LimbOrientation* leftLeg, ::RootMotion::__BipedLimbOrientations__LimbOrientation* rightLeg);
 
-  /// @brief Method get_UMA addr 0x1235da0 size 0x2b4 virtual false final false
+  /// @brief Method get_UMA addr 0x11c5a74 size 0x2b4 virtual false final false
   static inline ::RootMotion::BipedLimbOrientations* get_UMA();
 
-  /// @brief Method get_MaxBiped addr 0x12360c8 size 0x2b4 virtual false final false
+  /// @brief Method get_MaxBiped addr 0x11c5d9c size 0x2b4 virtual false final false
   static inline ::RootMotion::BipedLimbOrientations* get_MaxBiped();
 
   // Ctor Parameters [CppParam { name: "", ty: "BipedLimbOrientations", modifiers: "&&", def_value: None }]
@@ -184,6 +190,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::BipedLimbOrientations, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::BipedLimbOrientations, ___leftArm) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::BipedLimbOrientations, ___rightArm) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::BipedLimbOrientations, ___leftLeg) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::BipedLimbOrientations, ___rightLeg) == 0x28, "Offset mismatch!");
 
 } // namespace RootMotion
 NEED_NO_BOX(::RootMotion::BipedLimbOrientations);

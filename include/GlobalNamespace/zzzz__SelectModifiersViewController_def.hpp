@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(SelectModifiersViewController)
 namespace GlobalNamespace {
-class GameplayModifiers;
+class GameplayModifiersPanelController;
 }
 namespace GlobalNamespace {
-class GameplayModifiersPanelController;
+class GameplayModifiers;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectModifiersViewController);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5721))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5820))
 // CS Name: ::SelectModifiersViewController*
 class CORDL_TYPE SelectModifiersViewController : public ::HMUI::ViewController {
 public:
@@ -38,18 +38,18 @@ public:
 
   constexpr void __set__gameplayModifiersPanelController(::GlobalNamespace::GameplayModifiersPanelController* value);
 
-  /// @brief Method get_gameplayModifiers addr 0x22d0164 size 0x1c virtual false final false
+  /// @brief Method get_gameplayModifiers addr 0x218d440 size 0x1c virtual false final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method Setup addr 0x22d0180 size 0x1c virtual false final false
+  /// @brief Method Setup addr 0x218d45c size 0x1c virtual false final false
   inline void Setup(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method DidActivate addr 0x22d019c size 0xa0 virtual true final false
+  /// @brief Method DidActivate addr 0x218d478 size 0xa0 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::SelectModifiersViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22d023c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x218d518 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectModifiersViewController", modifiers: "&&", def_value: None }]
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectModifiersViewController, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SelectModifiersViewController, ____gameplayModifiersPanelController) == 0x70, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SelectModifiersViewController);

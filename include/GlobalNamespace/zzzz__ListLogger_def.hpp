@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListLogger)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class IBeatSaberLogger;
+}
 namespace System {
 class Exception;
+}
+namespace System {
+class Object;
 }
 namespace GlobalNamespace {
 class __ListLogger__LogMessage;
 }
 namespace GlobalNamespace {
 struct __ListLogger__LogType;
-}
-namespace GlobalNamespace {
-class IBeatSaberLogger;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__ListLogger__LogMessage);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5878))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5968))
 // CS Name: ::ListLogger::LogType
 struct CORDL_TYPE __ListLogger__LogType {
 public:
@@ -95,13 +95,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ListLogger__LogType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ListLogger__LogType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LogMessage
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5878))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5879))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(5968))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5969))
 // CS Name: ::ListLogger::LogMessage*
 class CORDL_TYPE __ListLogger__LogMessage : public ::System::Object {
 public:
@@ -135,10 +137,10 @@ public:
 
   static inline ::GlobalNamespace::__ListLogger__LogMessage* New_ctor(::GlobalNamespace::__ListLogger__LogType type, ::StringW message, ::System::Object* context);
 
-  /// @brief Method .ctor addr 0x22f9a28 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x21b13dc size 0x3c virtual false final false
   inline void _ctor(::GlobalNamespace::__ListLogger__LogType type, ::StringW message, ::System::Object* context);
 
-  /// @brief Method ToString addr 0x22f9d74 size 0x88 virtual true final false
+  /// @brief Method ToString addr 0x21b1728 size 0x88 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ListLogger__LogMessage", modifiers: "&&", def_value: None }]
@@ -169,13 +171,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ListLogger__LogMessage, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ListLogger__LogMessage, ___type) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ListLogger__LogMessage, ___message) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ListLogger__LogMessage, ___context) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ListLogger
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5880))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5970))
 // CS Name: ::ListLogger*
 class CORDL_TYPE ListLogger : public ::System::Object {
 public:
@@ -198,36 +206,36 @@ public:
 
   constexpr void __set__messages(::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* value);
 
-  /// @brief Method get_messages addr 0x22f98a8 size 0x8 virtual false final false
+  /// @brief Method get_messages addr 0x21b125c size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* get_messages();
 
   static inline ::GlobalNamespace::ListLogger* New_ctor();
 
-  /// @brief Method .ctor addr 0x22f98b0 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x21b1264 size 0x80 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Log addr 0x22f9930 size 0x8 virtual true final true
+  /// @brief Method Log addr 0x21b12e4 size 0x8 virtual true final true
   inline void Log(::StringW message);
 
-  /// @brief Method Log addr 0x22f9938 size 0xf0 virtual true final true
+  /// @brief Method Log addr 0x21b12ec size 0xf0 virtual true final true
   inline void Log(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogWarning addr 0x22f9a64 size 0x8 virtual true final true
+  /// @brief Method LogWarning addr 0x21b1418 size 0x8 virtual true final true
   inline void LogWarning(::StringW message);
 
-  /// @brief Method LogWarning addr 0x22f9a6c size 0xf4 virtual true final true
+  /// @brief Method LogWarning addr 0x21b1420 size 0xf4 virtual true final true
   inline void LogWarning(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogError addr 0x22f9b60 size 0x8 virtual true final true
+  /// @brief Method LogError addr 0x21b1514 size 0x8 virtual true final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogError addr 0x22f9b68 size 0xf4 virtual true final true
+  /// @brief Method LogError addr 0x21b151c size 0xf4 virtual true final true
   inline void LogError(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogException addr 0x22f9c5c size 0x8 virtual true final true
+  /// @brief Method LogException addr 0x21b1610 size 0x8 virtual true final true
   inline void LogException(::System::Exception* exception);
 
-  /// @brief Method LogException addr 0x22f9c64 size 0x110 virtual true final true
+  /// @brief Method LogException addr 0x21b1618 size 0x110 virtual true final true
   inline void LogException(::System::Exception* exception, ::System::Object* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "ListLogger", modifiers: "&&", def_value: None }]
@@ -251,6 +259,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ListLogger, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ListLogger, ____messages) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ListLogger__LogType, "", "ListLogger/LogType");

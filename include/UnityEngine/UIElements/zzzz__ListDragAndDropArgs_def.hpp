@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(ListDragAndDropArgs)
 namespace UnityEngine::UIElements {
 class IListDragAndDropArgs;
 }
-namespace System {
-class Object;
-}
 namespace UnityEngine::UIElements {
 struct DragAndDropPosition;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::UIElements {
 class IDragAndDropData;
@@ -28,8 +28,8 @@ MARK_VAL_T(::UnityEngine::UIElements::ListDragAndDropArgs);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6954))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6953))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7040))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7039))
 // CS Name: ::UnityEngine.UIElements::ListDragAndDropArgs
 struct CORDL_TYPE ListDragAndDropArgs {
 public:
@@ -45,25 +45,25 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IListDragAndDropArgs"
   constexpr operator ::UnityEngine::UIElements::IListDragAndDropArgs*();
 
-  /// @brief Method set_target addr 0x2e0994c size 0x8 virtual false final false
+  /// @brief Method set_target addr 0x2ca359c size 0x8 virtual false final false
   inline void set_target(::System::Object* value);
 
-  /// @brief Method get_insertAtIndex addr 0x2e09954 size 0x8 virtual true final true
+  /// @brief Method get_insertAtIndex addr 0x2ca35a4 size 0x8 virtual true final true
   inline int32_t get_insertAtIndex();
 
-  /// @brief Method set_insertAtIndex addr 0x2e0995c size 0x8 virtual false final false
+  /// @brief Method set_insertAtIndex addr 0x2ca35ac size 0x8 virtual false final false
   inline void set_insertAtIndex(int32_t value);
 
-  /// @brief Method get_dragAndDropPosition addr 0x2e09964 size 0x8 virtual true final true
+  /// @brief Method get_dragAndDropPosition addr 0x2ca35b4 size 0x8 virtual true final true
   inline ::UnityEngine::UIElements::DragAndDropPosition get_dragAndDropPosition();
 
-  /// @brief Method set_dragAndDropPosition addr 0x2e0996c size 0x8 virtual false final false
+  /// @brief Method set_dragAndDropPosition addr 0x2ca35bc size 0x8 virtual false final false
   inline void set_dragAndDropPosition(::UnityEngine::UIElements::DragAndDropPosition value);
 
-  /// @brief Method get_dragAndDropData addr 0x2e09974 size 0x8 virtual true final true
+  /// @brief Method get_dragAndDropData addr 0x2ca35c4 size 0x8 virtual true final true
   inline ::UnityEngine::UIElements::IDragAndDropData* get_dragAndDropData();
 
-  /// @brief Method set_dragAndDropData addr 0x2e0997c size 0x8 virtual false final false
+  /// @brief Method set_dragAndDropData addr 0x2ca35cc size 0x8 virtual false final false
   inline void set_dragAndDropData(::UnityEngine::UIElements::IDragAndDropData* value);
 
   // Ctor Parameters [CppParam { name: "_target_k__BackingField", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_insertAtIndex_k__BackingField", ty: "int32_t",
@@ -95,6 +95,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ListDragAndDropArgs, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ListDragAndDropArgs, _target_k__BackingField) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ListDragAndDropArgs, _insertAtIndex_k__BackingField) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ListDragAndDropArgs, _dragAndDropPosition_k__BackingField) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ListDragAndDropArgs, _dragAndDropData_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ListDragAndDropArgs, "UnityEngine.UIElements", "ListDragAndDropArgs");

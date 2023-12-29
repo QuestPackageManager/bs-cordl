@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::AppDomainSetup);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2582))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2580))
 // CS Name: ::System::AppDomainSetup*
 class CORDL_TYPE AppDomainSetup : public ::System::Object {
 public:
@@ -262,7 +262,7 @@ public:
 
   static inline ::System::AppDomainSetup* New_ctor();
 
-  /// @brief Method .ctor addr 0x25f62a4 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x249b364 size 0x4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AppDomainSetup", modifiers: "&&", def_value: None }]
@@ -361,6 +361,58 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::AppDomainSetup, 0xc8>, "Size mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___application_base) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___application_name) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___cache_path) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___configuration_file) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___dynamic_base) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___license_file) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___private_bin_path) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___private_bin_path_probe) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___shadow_copy_directories) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___shadow_copy_files) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___publisher_policy) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___path_changed) == 0x61, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___loader_optimization) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___disallow_binding_redirects) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___disallow_code_downloads) == 0x69, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ____activationArguments) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___domain_initializer) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___application_trust) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___domain_initializer_args) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___disallow_appbase_probe) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___configuration_bytes) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___serialized_non_primitives) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___manager_assembly) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___manager_type) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ___partial_visible_assemblies) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::System::AppDomainSetup, ____TargetFrameworkName_k__BackingField) == 0xc0, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::AppDomainSetup);

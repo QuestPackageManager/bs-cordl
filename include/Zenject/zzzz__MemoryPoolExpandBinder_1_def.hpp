@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_1_def.hpp"
 CORDL_MODULE_EXPORT(MemoryPoolExpandBinder_1)
 namespace Zenject {
-class MemoryPoolBindInfo;
+class FactoryBindInfo;
 }
 namespace Zenject {
 template <typename TContract> class FactoryArgumentsToChoiceBinder_1;
 }
 namespace Zenject {
-class BindInfo;
+class MemoryPoolBindInfo;
 }
 namespace Zenject {
-class FactoryBindInfo;
+class BindInfo;
 }
 namespace Zenject {
 class DiContainer;
@@ -31,8 +31,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10703), inst: 1771 }), TypeDefinitionIndex(TypeDefinitionIndex(10703))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10866))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10631), inst: 1707 }), TypeDefinitionIndex(TypeDefinitionIndex(10631))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10794))
 // CS Name: ::Zenject::MemoryPoolExpandBinder`1<TContract>*
 class CORDL_TYPE MemoryPoolExpandBinder_1 : public ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract> {
 public:

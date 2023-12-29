@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithAbuseReportRecording);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13406)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 4569 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13267)) CS Name: ::Oculus.Platform::MessageWithAbuseReportRecording*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13269)), TypeDefinitionIndex(TypeDefinitionIndex(13445)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst:
+// 4465 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13274)) CS Name: ::Oculus.Platform::MessageWithAbuseReportRecording*
 class CORDL_TYPE MessageWithAbuseReportRecording : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AbuseReportRecording*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithAbuseReportRecording* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x26f0758 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x25943f4 size 0x58 virtual false final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetAbuseReportRecording addr 0x26f07b0 size 0x3c virtual true final false
+  /// @brief Method GetAbuseReportRecording addr 0x259444c size 0x3c virtual true final false
   inline ::Oculus::Platform::Models::AbuseReportRecording* GetAbuseReportRecording();
 
-  /// @brief Method GetDataFromMessage addr 0x26f07ec size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage addr 0x2594488 size 0x9c virtual true final false
   inline ::Oculus::Platform::Models::AbuseReportRecording* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithAbuseReportRecording", modifiers: "&&", def_value: None }]

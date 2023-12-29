@@ -3,23 +3,23 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IBeatmapDataAssetFileModel)
+namespace GlobalNamespace {
+struct GetAssetBundleFileResult;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-struct LevelDataAssetDownloadUpdate;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-struct GetAssetBundleFileResult;
+struct LevelDataAssetDownloadUpdate;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatmapDataAssetFileModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4412))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4432))
 // CS Name: ::IBeatmapDataAssetFileModel*
 class CORDL_TYPE IBeatmapDataAssetFileModel {
 public:

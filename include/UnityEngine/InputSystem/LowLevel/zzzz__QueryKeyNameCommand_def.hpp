@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(QueryKeyNameCommand)
-namespace UnityEngine::InputSystem {
-struct Key;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct __QueryKeyNameCommand___nameBuffer_e__FixedBuffer;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputDeviceCommand;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
+}
+namespace UnityEngine::InputSystem {
+struct Key;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -38,7 +38,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__QueryKeyNameCommand___nameBuf
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6477))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6563))
 // CS Name: ::QueryKeyNameCommand::<nameBuffer>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __QueryKeyNameCommand___nameBuffer_e__FixedBuffer {
@@ -66,14 +66,16 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::__QueryKeyNameCommand___nameBuffer_e__FixedBuffer, 0x100>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__QueryKeyNameCommand___nameBuffer_e__FixedBuffer, FixedElementField) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: UnityEngine.InputSystem.LowLevel::QueryKeyNameCommand
 // SizeInfo { instance_size: 268, native_size: 268, calculated_instance_size: 268, calculated_native_size: 284, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0)
 // }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6477)), TypeDefinitionIndex(TypeDefinitionIndex(6471))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6478))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6557)), TypeDefinitionIndex(TypeDefinitionIndex(6563))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6564))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::QueryKeyNameCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE QueryKeyNameCommand {
@@ -113,16 +115,16 @@ public:
 
   constexpr void __set_nameBuffer(::UnityEngine::InputSystem::LowLevel::__QueryKeyNameCommand___nameBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type addr 0x2ae7d84 size 0x30 virtual false final false
+  /// @brief Method get_Type addr 0x296803c size 0x30 virtual false final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method ReadKeyName addr 0x2ae7db4 size 0x10 virtual false final false
+  /// @brief Method ReadKeyName addr 0x296806c size 0x10 virtual false final false
   inline ::StringW ReadKeyName();
 
-  /// @brief Method get_typeStatic addr 0x2ae7dc4 size 0x30 virtual true final true
+  /// @brief Method get_typeStatic addr 0x296807c size 0x30 virtual true final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create addr 0x2ae7df4 size 0x60 virtual false final false
+  /// @brief Method Create addr 0x29680ac size 0x60 virtual false final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand Create(::UnityEngine::InputSystem::Key key);
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "scanOrKeyCode", ty: "int32_t",

@@ -17,145 +17,136 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRInput)
 namespace GlobalNamespace {
-struct __OVRInput__Button;
-}
-namespace GlobalNamespace {
-class __OVRInput__OVRControllerGamepadPC;
-}
-namespace GlobalNamespace {
-class __OVRInput__OVRControllerTouch;
-}
-namespace GlobalNamespace {
-struct __OVRInput__RawTouch;
-}
-namespace GlobalNamespace {
-class __OVRInput__OVRControllerRemote;
-}
-namespace OVR::OpenVR {
-struct ETrackedDeviceProperty;
-}
-namespace GlobalNamespace {
-struct __OVRInput__InputDeviceShowState;
-}
-namespace GlobalNamespace {
-class __OVRInput__OVRControllerBase;
-}
-namespace GlobalNamespace {
-struct __OVRInput__HapticsLocation;
-}
-namespace GlobalNamespace {
-struct __OVRInput__Touch;
-}
-namespace GlobalNamespace {
-struct __OVRInput__Handedness;
-}
-namespace System {
-class Version;
-}
-namespace GlobalNamespace {
-struct __OVRInput__RawAxis1D;
-}
-namespace GlobalNamespace {
-struct __OVRInput__OpenVRController;
-}
-namespace GlobalNamespace {
-class __OVRInput__HapticInfo;
-}
-namespace GlobalNamespace {
-class __OVRInput__OVRControllerLHand;
-}
-namespace GlobalNamespace {
-struct __OVRInput__Axis1D;
-}
-namespace GlobalNamespace {
-class __OVRInput__OVRControllerRHand;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace GlobalNamespace {
-struct __OVRInput__InteractionProfile;
-}
-namespace GlobalNamespace {
 struct __OVRInput__HapticsPcmVibration;
 }
 namespace GlobalNamespace {
-struct __OVRInput__RawButton;
-}
-namespace GlobalNamespace {
-struct __OVRInput__Hand;
-}
-namespace GlobalNamespace {
-class __OVRInput__OVRControllerRTouch;
-}
-namespace GlobalNamespace {
-struct __OVRInput__ControllerInHandState;
-}
-namespace GlobalNamespace {
-struct __OVRInput__HapticsAmplitudeEnvelopeVibration;
-}
-namespace GlobalNamespace {
-class __OVRInput__OVRControllerGamepadAndroid;
-}
-namespace GlobalNamespace {
-struct __OVRInput__Axis2D;
-}
-namespace GlobalNamespace {
-struct __OVRInput__OpenVRControllerDetails;
-}
-namespace GlobalNamespace {
-struct __OVRInput__RawNearTouch;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Step;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class __OVRInput__OVRControllerBase;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace GlobalNamespace {
-struct __OVRInput__Controller;
+class __OVRInput__OVRControllerHands;
 }
-namespace UnityEngine::XR {
-struct XRNode;
+namespace GlobalNamespace {
+struct __OVRInput__HapticsLocation;
+}
+namespace GlobalNamespace {
+struct __OVRInput__RawButton;
+}
+namespace GlobalNamespace {
+struct __OVRInput__OpenVRController;
+}
+namespace OVR::OpenVR {
+struct ETrackedDeviceProperty;
+}
+namespace GlobalNamespace {
+struct __OVRInput__Button;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+struct __OVRInput__NearTouch;
+}
+namespace GlobalNamespace {
+struct __OVRInput__Controller;
 }
 namespace GlobalNamespace {
 struct __OVRInput__OpenVRButton;
 }
 namespace GlobalNamespace {
-class __OVRInput__OVRControllerHands;
-}
-namespace GlobalNamespace {
-struct __OVRInput__NearTouch;
-}
-namespace UnityEngine {
-struct Vector3;
+struct __OVRInput__Touch;
 }
 namespace GlobalNamespace {
 class __OVRInput__OVRControllerLTouch;
 }
 namespace GlobalNamespace {
+class __OVRInput__OVRControllerRTouch;
+}
+namespace GlobalNamespace {
+struct __OVRInput__Handedness;
+}
+namespace GlobalNamespace {
+struct __OVRInput__InteractionProfile;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerLHand;
+}
+namespace GlobalNamespace {
+struct __OVRInput__OpenVRControllerDetails;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerRHand;
+}
+namespace GlobalNamespace {
+struct __OVRInput__RawAxis1D;
+}
+namespace GlobalNamespace {
+struct __OVRInput__RawNearTouch;
+}
+namespace GlobalNamespace {
 struct __OVRInput__RawAxis2D;
 }
-namespace GlobalNamespace {
-class __OVRInput__OVRControllerBase__VirtualAxis2DMap;
+namespace System {
+class Version;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__ControllerState6;
+struct __OVRInput__Axis2D;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerGamepadPC;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace GlobalNamespace {
+class __OVRInput__HapticInfo;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
+namespace GlobalNamespace {
+struct __OVRInput__Axis1D;
+}
+namespace GlobalNamespace {
+struct __OVRInput__RawTouch;
+}
+namespace GlobalNamespace {
+struct __OVRInput__Hand;
+}
+namespace GlobalNamespace {
+struct __OVRInput__HapticsAmplitudeEnvelopeVibration;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerRemote;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerGamepadAndroid;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerTouch;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerBase__VirtualTouchMap;
 }
 namespace GlobalNamespace {
 class __OVRInput__OVRControllerBase__VirtualButtonMap;
 }
 namespace GlobalNamespace {
-class __OVRInput__OVRControllerBase__VirtualNearTouchMap;
-}
-namespace GlobalNamespace {
 class __OVRInput__OVRControllerBase__VirtualAxis1DMap;
 }
 namespace GlobalNamespace {
-class __OVRInput__OVRControllerBase__VirtualTouchMap;
+struct __OVRPlugin__ControllerState5;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerBase__VirtualAxis2DMap;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerBase__VirtualNearTouchMap;
 }
 namespace OVR::OpenVR {
 struct VRControllerState_t;
@@ -174,9 +165,6 @@ namespace GlobalNamespace {
 struct __OVRInput__Controller;
 }
 namespace GlobalNamespace {
-struct __OVRInput__ControllerInHandState;
-}
-namespace GlobalNamespace {
 struct __OVRInput__Hand;
 }
 namespace GlobalNamespace {
@@ -184,9 +172,6 @@ struct __OVRInput__Handedness;
 }
 namespace GlobalNamespace {
 struct __OVRInput__HapticsLocation;
-}
-namespace GlobalNamespace {
-struct __OVRInput__InputDeviceShowState;
 }
 namespace GlobalNamespace {
 struct __OVRInput__InteractionProfile;
@@ -283,11 +268,9 @@ MARK_VAL_T(::GlobalNamespace::__OVRInput__Axis1D);
 MARK_VAL_T(::GlobalNamespace::__OVRInput__Axis2D);
 MARK_VAL_T(::GlobalNamespace::__OVRInput__Button);
 MARK_VAL_T(::GlobalNamespace::__OVRInput__Controller);
-MARK_VAL_T(::GlobalNamespace::__OVRInput__ControllerInHandState);
 MARK_VAL_T(::GlobalNamespace::__OVRInput__Hand);
 MARK_VAL_T(::GlobalNamespace::__OVRInput__Handedness);
 MARK_VAL_T(::GlobalNamespace::__OVRInput__HapticsLocation);
-MARK_VAL_T(::GlobalNamespace::__OVRInput__InputDeviceShowState);
 MARK_VAL_T(::GlobalNamespace::__OVRInput__InteractionProfile);
 MARK_VAL_T(::GlobalNamespace::__OVRInput__NearTouch);
 MARK_VAL_T(::GlobalNamespace::__OVRInput__OpenVRButton);
@@ -323,7 +306,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRInput__OpenVRControllerDetails);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7587))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8481))
 // CS Name: ::OVRInput::Button
 struct CORDL_TYPE __OVRInput__Button {
 public:
@@ -493,13 +476,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__Button, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__Button, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::RawButton
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7588))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8482))
 // CS Name: ::OVRInput::RawButton
 struct CORDL_TYPE __OVRInput__RawButton {
 public:
@@ -653,13 +638,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__RawButton, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__RawButton, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Touch
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7589))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8483))
 // CS Name: ::OVRInput::Touch
 struct CORDL_TYPE __OVRInput__Touch {
 public:
@@ -749,13 +736,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__Touch, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__Touch, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::RawTouch
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7590))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8484))
 // CS Name: ::OVRInput::RawTouch
 struct CORDL_TYPE __OVRInput__RawTouch {
 public:
@@ -845,13 +834,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__RawTouch, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__RawTouch, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::NearTouch
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7591))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8485))
 // CS Name: ::OVRInput::NearTouch
 struct CORDL_TYPE __OVRInput__NearTouch {
 public:
@@ -909,13 +900,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__NearTouch, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__NearTouch, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::RawNearTouch
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7592))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8486))
 // CS Name: ::OVRInput::RawNearTouch
 struct CORDL_TYPE __OVRInput__RawNearTouch {
 public:
@@ -973,13 +966,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__RawNearTouch, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__RawNearTouch, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Axis1D
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7593))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8487))
 // CS Name: ::OVRInput::Axis1D
 struct CORDL_TYPE __OVRInput__Axis1D {
 public:
@@ -1001,8 +996,6 @@ public:
     __E_SecondaryIndexTriggerSlide = static_cast<int32_t>(0x200),
     __E_SecondaryThumbRestForce = static_cast<int32_t>(0x400),
     __E_SecondaryStylusForce = static_cast<int32_t>(0x800),
-    __E_PrimaryIndexTriggerForce = static_cast<int32_t>(0x1000),
-    __E_SecondaryIndexTriggerForce = static_cast<int32_t>(0x2000),
     __E_Any = static_cast<int32_t>(0xffffffff),
   };
 
@@ -1063,12 +1056,6 @@ public:
   /// @brief Field SecondaryStylusForce value: static_cast<int32_t>(0x800)
   static ::GlobalNamespace::__OVRInput__Axis1D const SecondaryStylusForce;
 
-  /// @brief Field PrimaryIndexTriggerForce value: static_cast<int32_t>(0x1000)
-  static ::GlobalNamespace::__OVRInput__Axis1D const PrimaryIndexTriggerForce;
-
-  /// @brief Field SecondaryIndexTriggerForce value: static_cast<int32_t>(0x2000)
-  static ::GlobalNamespace::__OVRInput__Axis1D const SecondaryIndexTriggerForce;
-
   /// @brief Field Any value: static_cast<int32_t>(0xffffffff)
   static ::GlobalNamespace::__OVRInput__Axis1D const Any;
 
@@ -1077,13 +1064,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__Axis1D, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__Axis1D, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::RawAxis1D
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7594))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8488))
 // CS Name: ::OVRInput::RawAxis1D
 struct CORDL_TYPE __OVRInput__RawAxis1D {
 public:
@@ -1105,8 +1094,6 @@ public:
     __E_RIndexTriggerSlide = static_cast<int32_t>(0x200),
     __E_RThumbRestForce = static_cast<int32_t>(0x400),
     __E_RStylusForce = static_cast<int32_t>(0x800),
-    __E_LIndexTriggerForce = static_cast<int32_t>(0x1000),
-    __E_RIndexTriggerForce = static_cast<int32_t>(0x2000),
     __E_Any = static_cast<int32_t>(0xffffffff),
   };
 
@@ -1167,12 +1154,6 @@ public:
   /// @brief Field RStylusForce value: static_cast<int32_t>(0x800)
   static ::GlobalNamespace::__OVRInput__RawAxis1D const RStylusForce;
 
-  /// @brief Field LIndexTriggerForce value: static_cast<int32_t>(0x1000)
-  static ::GlobalNamespace::__OVRInput__RawAxis1D const LIndexTriggerForce;
-
-  /// @brief Field RIndexTriggerForce value: static_cast<int32_t>(0x2000)
-  static ::GlobalNamespace::__OVRInput__RawAxis1D const RIndexTriggerForce;
-
   /// @brief Field Any value: static_cast<int32_t>(0xffffffff)
   static ::GlobalNamespace::__OVRInput__RawAxis1D const Any;
 
@@ -1181,13 +1162,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__RawAxis1D, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__RawAxis1D, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Axis2D
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7595))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8489))
 // CS Name: ::OVRInput::Axis2D
 struct CORDL_TYPE __OVRInput__Axis2D {
 public:
@@ -1245,13 +1228,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__Axis2D, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__Axis2D, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::RawAxis2D
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7596))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8490))
 // CS Name: ::OVRInput::RawAxis2D
 struct CORDL_TYPE __OVRInput__RawAxis2D {
 public:
@@ -1309,13 +1294,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__RawAxis2D, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__RawAxis2D, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OpenVRButton
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7597))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8491))
 // CS Name: ::OVRInput::OpenVRButton
 struct CORDL_TYPE __OVRInput__OpenVRButton {
 public:
@@ -1365,13 +1352,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OpenVRButton, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OpenVRButton, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Controller
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7598))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8492))
 // CS Name: ::OVRInput::Controller
 struct CORDL_TYPE __OVRInput__Controller {
 public:
@@ -1449,13 +1438,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__Controller, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__Controller, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Handedness
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7599))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8493))
 // CS Name: ::OVRInput::Handedness
 struct CORDL_TYPE __OVRInput__Handedness {
 public:
@@ -1501,13 +1492,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__Handedness, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__Handedness, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::HapticsLocation
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7600))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8494))
 // CS Name: ::OVRInput::HapticsLocation
 struct CORDL_TYPE __OVRInput__HapticsLocation {
 public:
@@ -1557,13 +1550,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__HapticsLocation, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__HapticsLocation, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::InteractionProfile
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7601))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8495))
 // CS Name: ::OVRInput::InteractionProfile
 struct CORDL_TYPE __OVRInput__InteractionProfile {
 public:
@@ -1575,7 +1570,6 @@ public:
     __E_None = static_cast<int32_t>(0x0),
     __E_Touch = static_cast<int32_t>(0x1),
     __E_TouchPro = static_cast<int32_t>(0x2),
-    __E_TouchPlus = static_cast<int32_t>(0x4),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -1605,13 +1599,12 @@ public:
   /// @brief Field TouchPro value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__OVRInput__InteractionProfile const TouchPro;
 
-  /// @brief Field TouchPlus value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::__OVRInput__InteractionProfile const TouchPlus;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__InteractionProfile, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__InteractionProfile, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::Hand
@@ -1619,7 +1612,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__Int
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7602))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8496))
 // CS Name: ::OVRInput::Hand
 struct CORDL_TYPE __OVRInput__Hand {
 public:
@@ -1665,117 +1658,7 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__Hand, 0x4>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::InputDeviceShowState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: true
-// Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7603))
-// CS Name: ::OVRInput::InputDeviceShowState
-struct CORDL_TYPE __OVRInput__InputDeviceShowState {
-public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
-
-  /// @brief Nested struct ____OVRInput__InputDeviceShowState_Unwrapped
-  enum struct ____OVRInput__InputDeviceShowState_Unwrapped : int32_t {
-    __E_Always = static_cast<int32_t>(0x0),
-    __E_ControllerInHandOrNoHand = static_cast<int32_t>(0x1),
-    __E_ControllerInHand = static_cast<int32_t>(0x2),
-    __E_ControllerNotInHand = static_cast<int32_t>(0x3),
-    __E_NoHand = static_cast<int32_t>(0x4),
-  };
-
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator ____OVRInput__InputDeviceShowState_Unwrapped() const noexcept {
-    return static_cast<____OVRInput__InputDeviceShowState_Unwrapped>(this->value__);
-  }
-
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRInput__InputDeviceShowState(int32_t value__) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRInput__InputDeviceShowState();
-
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Always value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__OVRInput__InputDeviceShowState const Always;
-
-  /// @brief Field ControllerInHandOrNoHand value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__OVRInput__InputDeviceShowState const ControllerInHandOrNoHand;
-
-  /// @brief Field ControllerInHand value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__OVRInput__InputDeviceShowState const ControllerInHand;
-
-  /// @brief Field ControllerNotInHand value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__OVRInput__InputDeviceShowState const ControllerNotInHand;
-
-  /// @brief Field NoHand value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::__OVRInput__InputDeviceShowState const NoHand;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__InputDeviceShowState, 0x4>, "Size mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::ControllerInHandState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: true
-// Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7604))
-// CS Name: ::OVRInput::ControllerInHandState
-struct CORDL_TYPE __OVRInput__ControllerInHandState {
-public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
-
-  /// @brief Nested struct ____OVRInput__ControllerInHandState_Unwrapped
-  enum struct ____OVRInput__ControllerInHandState_Unwrapped : int32_t {
-    __E_NoHand = static_cast<int32_t>(0x0),
-    __E_ControllerInHand = static_cast<int32_t>(0x1),
-    __E_ControllerNotInHand = static_cast<int32_t>(0x2),
-  };
-
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator ____OVRInput__ControllerInHandState_Unwrapped() const noexcept {
-    return static_cast<____OVRInput__ControllerInHandState_Unwrapped>(this->value__);
-  }
-
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRInput__ControllerInHandState(int32_t value__) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRInput__ControllerInHandState();
-
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field NoHand value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__OVRInput__ControllerInHandState const NoHand;
-
-  /// @brief Field ControllerInHand value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__OVRInput__ControllerInHandState const ControllerInHand;
-
-  /// @brief Field ControllerNotInHand value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__OVRInput__ControllerInHandState const ControllerNotInHand;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__ControllerInHandState, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OVRInput__Hand, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::HapticsAmplitudeEnvelopeVibration
@@ -1783,7 +1666,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__Con
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7605))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8497))
 // CS Name: ::OVRInput::HapticsAmplitudeEnvelopeVibration
 struct CORDL_TYPE __OVRInput__HapticsAmplitudeEnvelopeVibration {
 public:
@@ -1813,13 +1696,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__HapticsAmplitudeEnvelopeVibration, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__HapticsAmplitudeEnvelopeVibration, SamplesCount) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__HapticsAmplitudeEnvelopeVibration, Samples) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__HapticsAmplitudeEnvelopeVibration, Duration) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::HapticsPcmVibration
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7606))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8498))
 // CS Name: ::OVRInput::HapticsPcmVibration
 struct CORDL_TYPE __OVRInput__HapticsPcmVibration {
 public:
@@ -1852,13 +1741,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__HapticsPcmVibration, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__HapticsPcmVibration, SamplesCount) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__HapticsPcmVibration, Samples) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__HapticsPcmVibration, SampleRateHz) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__HapticsPcmVibration, Append) == 0x14, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OpenVRController
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7607))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8499))
 // CS Name: ::OVRInput::OpenVRController
 struct CORDL_TYPE __OVRInput__OpenVRController {
 public:
@@ -1908,13 +1805,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OpenVRController, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OpenVRController, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OpenVRControllerDetails
 // SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8696)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7607))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7608)) CS Name: ::OVRInput::OpenVRControllerDetails
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(9465)), TypeDefinitionIndex(TypeDefinitionIndex(10176)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8499))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8500)) CS Name: ::OVRInput::OpenVRControllerDetails
 struct CORDL_TYPE __OVRInput__OpenVRControllerDetails {
 public:
   // Declarations
@@ -1951,13 +1850,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OpenVRControllerDetails, 0x68>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OpenVRControllerDetails, state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OpenVRControllerDetails, controllerType) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OpenVRControllerDetails, deviceID) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OpenVRControllerDetails, localPosition) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OpenVRControllerDetails, localOrientation) == 0x58, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::HapticInfo
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15614)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7609))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15571))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8501))
 // CS Name: ::OVRInput::HapticInfo*
 class CORDL_TYPE __OVRInput__HapticInfo : public ::System::Object {
 public:
@@ -2009,7 +1918,7 @@ public:
 
   static inline ::GlobalNamespace::__OVRInput__HapticInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x2735714 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x25d6028 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRInput__HapticInfo", modifiers: "&&", def_value: None }]
@@ -2046,13 +1955,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__HapticInfo, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__HapticInfo, ___playingHaptics) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__HapticInfo, ___hapticsDurationPlayed) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__HapticInfo, ___hapticsDuration) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__HapticInfo, ___hapticAmplitude) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__HapticInfo, ___node) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::VirtualButtonMap
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7588)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7610))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8482)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8502))
 // CS Name: ::OVRInput::OVRControllerBase::VirtualButtonMap*
 class CORDL_TYPE __OVRInput__OVRControllerBase__VirtualButtonMap : public ::System::Object {
 public:
@@ -2354,12 +2273,12 @@ public:
 
   constexpr void __set_Right(::GlobalNamespace::__OVRInput__RawButton value);
 
-  /// @brief Method ToRawMask addr 0x2736ec8 size 0x214 virtual false final false
+  /// @brief Method ToRawMask addr 0x25d77dc size 0x214 virtual false final false
   inline ::GlobalNamespace::__OVRInput__RawButton ToRawMask(::GlobalNamespace::__OVRInput__Button virtualMask);
 
   static inline ::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap* New_ctor();
 
-  /// @brief Method .ctor addr 0x273618c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x25d6aa0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRInput__OVRControllerBase__VirtualButtonMap", modifiers: "&&", def_value: None }]
@@ -2480,13 +2399,79 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, 0x98>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___None) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___One) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___Two) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___Three) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___Four) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___Start) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___Back) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___PrimaryShoulder) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___PrimaryIndexTrigger) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___PrimaryHandTrigger) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___PrimaryThumbstick) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___PrimaryThumbstickUp) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___PrimaryThumbstickDown) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___PrimaryThumbstickLeft) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___PrimaryThumbstickRight) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___PrimaryTouchpad) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___SecondaryShoulder) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___SecondaryIndexTrigger) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___SecondaryHandTrigger) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___SecondaryThumbstick) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___SecondaryThumbstickUp) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___SecondaryThumbstickDown) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___SecondaryThumbstickLeft) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___SecondaryThumbstickRight) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___SecondaryTouchpad) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___DpadUp) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___DpadDown) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___DpadLeft) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___DpadRight) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___Up) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___Down) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___Left) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap, ___Right) == 0x90, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::VirtualTouchMap
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7590))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7611))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8484)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8503))
 // CS Name: ::OVRInput::OVRControllerBase::VirtualTouchMap*
 class CORDL_TYPE __OVRInput__OVRControllerBase__VirtualTouchMap : public ::System::Object {
 public:
@@ -2608,12 +2593,12 @@ public:
 
   constexpr void __set_SecondaryTouchpad(::GlobalNamespace::__OVRInput__RawTouch value);
 
-  /// @brief Method ToRawMask addr 0x27370dc size 0xd4 virtual false final false
+  /// @brief Method ToRawMask addr 0x25d79f0 size 0xd4 virtual false final false
   inline ::GlobalNamespace::__OVRInput__RawTouch ToRawMask(::GlobalNamespace::__OVRInput__Touch virtualMask);
 
   static inline ::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap* New_ctor();
 
-  /// @brief Method .ctor addr 0x2736194 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x25d6aa8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRInput__OVRControllerBase__VirtualTouchMap", modifiers: "&&", def_value: None }]
@@ -2674,13 +2659,39 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap, ___None) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap, ___One) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap, ___Two) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap, ___Three) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap, ___Four) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap, ___PrimaryIndexTrigger) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap, ___PrimaryThumbstick) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap, ___PrimaryThumbRest) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap, ___PrimaryTouchpad) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap, ___SecondaryIndexTrigger) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap, ___SecondaryThumbstick) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap, ___SecondaryThumbRest) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap, ___SecondaryTouchpad) == 0x40, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::VirtualNearTouchMap
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7592))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7612))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8486)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8504))
 // CS Name: ::OVRInput::OVRControllerBase::VirtualNearTouchMap*
 class CORDL_TYPE __OVRInput__OVRControllerBase__VirtualNearTouchMap : public ::System::Object {
 public:
@@ -2730,12 +2741,12 @@ public:
 
   constexpr void __set_SecondaryThumbButtons(::GlobalNamespace::__OVRInput__RawNearTouch value);
 
-  /// @brief Method ToRawMask addr 0x27371b0 size 0x54 virtual false final false
+  /// @brief Method ToRawMask addr 0x25d7ac4 size 0x54 virtual false final false
   inline ::GlobalNamespace::__OVRInput__RawNearTouch ToRawMask(::GlobalNamespace::__OVRInput__NearTouch virtualMask);
 
   static inline ::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap* New_ctor();
 
-  /// @brief Method .ctor addr 0x273619c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x25d6ab0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRInput__OVRControllerBase__VirtualNearTouchMap", modifiers: "&&", def_value: None }]
@@ -2772,13 +2783,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap, ___None) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap, ___PrimaryIndexTrigger) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap, ___PrimaryThumbButtons) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap, ___SecondaryIndexTrigger) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap, ___SecondaryThumbButtons) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::VirtualAxis1DMap
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7594)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7613))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8488)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8505))
 // CS Name: ::OVRInput::OVRControllerBase::VirtualAxis1DMap*
 class CORDL_TYPE __OVRInput__OVRControllerBase__VirtualAxis1DMap : public ::System::Object {
 public:
@@ -2821,12 +2842,6 @@ public:
 
   /// @brief Field SecondaryStylusForce, offset 0x40, size 0x4
   __declspec(property(get = __get_SecondaryStylusForce, put = __set_SecondaryStylusForce))::GlobalNamespace::__OVRInput__RawAxis1D SecondaryStylusForce;
-
-  /// @brief Field PrimaryIndexTriggerForce, offset 0x44, size 0x4
-  __declspec(property(get = __get_PrimaryIndexTriggerForce, put = __set_PrimaryIndexTriggerForce))::GlobalNamespace::__OVRInput__RawAxis1D PrimaryIndexTriggerForce;
-
-  /// @brief Field SecondaryIndexTriggerForce, offset 0x48, size 0x4
-  __declspec(property(get = __get_SecondaryIndexTriggerForce, put = __set_SecondaryIndexTriggerForce))::GlobalNamespace::__OVRInput__RawAxis1D SecondaryIndexTriggerForce;
 
   constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& __get_None();
 
@@ -2906,24 +2921,12 @@ public:
 
   constexpr void __set_SecondaryStylusForce(::GlobalNamespace::__OVRInput__RawAxis1D value);
 
-  constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& __get_PrimaryIndexTriggerForce();
-
-  constexpr ::GlobalNamespace::__OVRInput__RawAxis1D const& __get_PrimaryIndexTriggerForce() const;
-
-  constexpr void __set_PrimaryIndexTriggerForce(::GlobalNamespace::__OVRInput__RawAxis1D value);
-
-  constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& __get_SecondaryIndexTriggerForce();
-
-  constexpr ::GlobalNamespace::__OVRInput__RawAxis1D const& __get_SecondaryIndexTriggerForce() const;
-
-  constexpr void __set_SecondaryIndexTriggerForce(::GlobalNamespace::__OVRInput__RawAxis1D value);
-
-  /// @brief Method ToRawMask addr 0x2737204 size 0xf4 virtual false final false
+  /// @brief Method ToRawMask addr 0x25d7b18 size 0xd4 virtual false final false
   inline ::GlobalNamespace::__OVRInput__RawAxis1D ToRawMask(::GlobalNamespace::__OVRInput__Axis1D virtualMask);
 
   static inline ::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap* New_ctor();
 
-  /// @brief Method .ctor addr 0x27361a4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x25d6ab8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRInput__OVRControllerBase__VirtualAxis1DMap", modifiers: "&&", def_value: None }]
@@ -2979,24 +2982,44 @@ public:
   /// @brief Field SecondaryStylusForce, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::__OVRInput__RawAxis1D ___SecondaryStylusForce;
 
-  /// @brief Field PrimaryIndexTriggerForce, offset: 0x44, size: 0x4, def value: None
-  ::GlobalNamespace::__OVRInput__RawAxis1D ___PrimaryIndexTriggerForce;
-
-  /// @brief Field SecondaryIndexTriggerForce, offset: 0x48, size: 0x4, def value: None
-  ::GlobalNamespace::__OVRInput__RawAxis1D ___SecondaryIndexTriggerForce;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap, ___None) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap, ___PrimaryIndexTrigger) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap, ___PrimaryHandTrigger) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap, ___SecondaryIndexTrigger) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap, ___SecondaryHandTrigger) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap, ___PrimaryIndexTriggerCurl) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap, ___PrimaryIndexTriggerSlide) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap, ___PrimaryThumbRestForce) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap, ___PrimaryStylusForce) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap, ___SecondaryIndexTriggerCurl) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap, ___SecondaryIndexTriggerSlide) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap, ___SecondaryThumbRestForce) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap, ___SecondaryStylusForce) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::VirtualAxis2DMap
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7596))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7614))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8490)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8506))
 // CS Name: ::OVRInput::OVRControllerBase::VirtualAxis2DMap*
 class CORDL_TYPE __OVRInput__OVRControllerBase__VirtualAxis2DMap : public ::System::Object {
 public:
@@ -3046,12 +3069,12 @@ public:
 
   constexpr void __set_SecondaryTouchpad(::GlobalNamespace::__OVRInput__RawAxis2D value);
 
-  /// @brief Method ToRawMask addr 0x27372f8 size 0x54 virtual false final false
+  /// @brief Method ToRawMask addr 0x25d7bec size 0x54 virtual false final false
   inline ::GlobalNamespace::__OVRInput__RawAxis2D ToRawMask(::GlobalNamespace::__OVRInput__Axis2D virtualMask);
 
   static inline ::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap* New_ctor();
 
-  /// @brief Method .ctor addr 0x27361ac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x25d6ac0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRInput__OVRControllerBase__VirtualAxis2DMap", modifiers: "&&", def_value: None }]
@@ -3088,13 +3111,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap, ___None) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap, ___PrimaryThumbstick) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap, ___PrimaryTouchpad) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap, ___SecondaryThumbstick) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap, ___SecondaryTouchpad) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OVRControllerBase
-// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(7730))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7615))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8492)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(8607))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8507))
 // CS Name: ::OVRInput::OVRControllerBase*
 class CORDL_TYPE __OVRInput__OVRControllerBase : public ::System::Object {
 public:
@@ -3127,16 +3160,16 @@ public:
   /// @brief Field axis2DMap, offset 0x38, size 0x8
   __declspec(property(get = __get_axis2DMap, put = __set_axis2DMap))::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap* axis2DMap;
 
-  /// @brief Field previousState, offset 0x40, size 0x6c
-  __declspec(property(get = __get_previousState, put = __set_previousState))::GlobalNamespace::__OVRPlugin__ControllerState6 previousState;
+  /// @brief Field previousState, offset 0x40, size 0x64
+  __declspec(property(get = __get_previousState, put = __set_previousState))::GlobalNamespace::__OVRPlugin__ControllerState5 previousState;
 
-  /// @brief Field currentState, offset 0xac, size 0x6c
-  __declspec(property(get = __get_currentState, put = __set_currentState))::GlobalNamespace::__OVRPlugin__ControllerState6 currentState;
+  /// @brief Field currentState, offset 0xa4, size 0x64
+  __declspec(property(get = __get_currentState, put = __set_currentState))::GlobalNamespace::__OVRPlugin__ControllerState5 currentState;
 
-  /// @brief Field shouldApplyDeadzone, offset 0x118, size 0x1
+  /// @brief Field shouldApplyDeadzone, offset 0x108, size 0x1
   __declspec(property(get = __get_shouldApplyDeadzone, put = __set_shouldApplyDeadzone)) bool shouldApplyDeadzone;
 
-  /// @brief Field HapticsPcmSamplesConsumedCache, offset 0x120, size 0x8
+  /// @brief Field HapticsPcmSamplesConsumedCache, offset 0x110, size 0x8
   __declspec(property(get = __get_HapticsPcmSamplesConsumedCache, put = __set_HapticsPcmSamplesConsumedCache))::ArrayW<uint32_t, ::Array<uint32_t>*> HapticsPcmSamplesConsumedCache;
 
   constexpr ::GlobalNamespace::__OVRInput__Controller& __get_controllerType();
@@ -3175,17 +3208,17 @@ public:
 
   constexpr void __set_axis2DMap(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap* value);
 
-  constexpr ::GlobalNamespace::__OVRPlugin__ControllerState6& __get_previousState();
+  constexpr ::GlobalNamespace::__OVRPlugin__ControllerState5& __get_previousState();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__ControllerState6 const& __get_previousState() const;
+  constexpr ::GlobalNamespace::__OVRPlugin__ControllerState5 const& __get_previousState() const;
 
-  constexpr void __set_previousState(::GlobalNamespace::__OVRPlugin__ControllerState6 value);
+  constexpr void __set_previousState(::GlobalNamespace::__OVRPlugin__ControllerState5 value);
 
-  constexpr ::GlobalNamespace::__OVRPlugin__ControllerState6& __get_currentState();
+  constexpr ::GlobalNamespace::__OVRPlugin__ControllerState5& __get_currentState();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__ControllerState6 const& __get_currentState() const;
+  constexpr ::GlobalNamespace::__OVRPlugin__ControllerState5 const& __get_currentState() const;
 
-  constexpr void __set_currentState(::GlobalNamespace::__OVRPlugin__ControllerState6 value);
+  constexpr void __set_currentState(::GlobalNamespace::__OVRPlugin__ControllerState5 value);
 
   constexpr bool& __get_shouldApplyDeadzone();
 
@@ -3201,31 +3234,31 @@ public:
 
   static inline ::GlobalNamespace::__OVRInput__OVRControllerBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x2735fdc size 0x1b0 virtual false final false
+  /// @brief Method .ctor addr 0x25d68f0 size 0x1b0 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Update addr 0x27361b4 size 0x3e8 virtual true final false
+  /// @brief Method Update addr 0x25d6ac8 size 0x3e4 virtual true final false
   inline ::GlobalNamespace::__OVRInput__Controller Update();
 
-  /// @brief Method GetOpenVRControllerState addr 0x273659c size 0x470 virtual false final false
-  inline ::GlobalNamespace::__OVRPlugin__ControllerState6 GetOpenVRControllerState(::GlobalNamespace::__OVRInput__Controller controllerType);
+  /// @brief Method GetOpenVRControllerState addr 0x25d6eac size 0x474 virtual false final false
+  inline ::GlobalNamespace::__OVRPlugin__ControllerState5 GetOpenVRControllerState(::GlobalNamespace::__OVRInput__Controller controllerType);
 
-  /// @brief Method SetControllerVibration addr 0x2736a0c size 0x74 virtual true final false
+  /// @brief Method SetControllerVibration addr 0x25d7320 size 0x74 virtual true final false
   inline void SetControllerVibration(float_t frequency, float_t amplitude);
 
-  /// @brief Method SetControllerLocalizedVibration addr 0x2736a80 size 0x84 virtual true final false
+  /// @brief Method SetControllerLocalizedVibration addr 0x25d7394 size 0x84 virtual true final false
   inline void SetControllerLocalizedVibration(::GlobalNamespace::__OVRInput__HapticsLocation hapticsLocationMask, float_t frequency, float_t amplitude);
 
-  /// @brief Method SetControllerHapticsAmplitudeEnvelope addr 0x2736b04 size 0x138 virtual true final false
+  /// @brief Method SetControllerHapticsAmplitudeEnvelope addr 0x25d7418 size 0x138 virtual true final false
   inline void SetControllerHapticsAmplitudeEnvelope(::GlobalNamespace::__OVRInput__HapticsAmplitudeEnvelopeVibration hapticsVibration);
 
-  /// @brief Method SetControllerHapticsPcm addr 0x2736c3c size 0x210 virtual true final false
+  /// @brief Method SetControllerHapticsPcm addr 0x25d7550 size 0x210 virtual true final false
   inline int32_t SetControllerHapticsPcm(::GlobalNamespace::__OVRInput__HapticsPcmVibration hapticsVibration);
 
-  /// @brief Method GetControllerSampleRateHz addr 0x2736e4c size 0x74 virtual true final false
+  /// @brief Method GetControllerSampleRateHz addr 0x25d7760 size 0x74 virtual true final false
   inline float_t GetControllerSampleRateHz();
 
-  /// @brief Method GetBatteryPercentRemaining addr 0x2736ec0 size 0x8 virtual true final false
+  /// @brief Method GetBatteryPercentRemaining addr 0x25d77d4 size 0x8 virtual true final false
   inline uint8_t GetBatteryPercentRemaining();
 
   /// @brief Method ConfigureButtonMap addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -3243,19 +3276,19 @@ public:
   /// @brief Method ConfigureAxis2DMap addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void ConfigureAxis2DMap();
 
-  /// @brief Method ResolveToRawMask addr 0x27332e0 size 0x18 virtual false final false
+  /// @brief Method ResolveToRawMask addr 0x25d3c6c size 0x18 virtual false final false
   inline ::GlobalNamespace::__OVRInput__RawButton ResolveToRawMask(::GlobalNamespace::__OVRInput__Button virtualMask);
 
-  /// @brief Method ResolveToRawMask addr 0x2733908 size 0x18 virtual false final false
+  /// @brief Method ResolveToRawMask addr 0x25d4294 size 0x18 virtual false final false
   inline ::GlobalNamespace::__OVRInput__RawTouch ResolveToRawMask(::GlobalNamespace::__OVRInput__Touch virtualMask);
 
-  /// @brief Method ResolveToRawMask addr 0x2733f98 size 0x18 virtual false final false
+  /// @brief Method ResolveToRawMask addr 0x25d4924 size 0x18 virtual false final false
   inline ::GlobalNamespace::__OVRInput__RawNearTouch ResolveToRawMask(::GlobalNamespace::__OVRInput__NearTouch virtualMask);
 
-  /// @brief Method ResolveToRawMask addr 0x2734b5c size 0x18 virtual false final false
+  /// @brief Method ResolveToRawMask addr 0x25d5470 size 0x18 virtual false final false
   inline ::GlobalNamespace::__OVRInput__RawAxis1D ResolveToRawMask(::GlobalNamespace::__OVRInput__Axis1D virtualMask);
 
-  /// @brief Method ResolveToRawMask addr 0x2735008 size 0x18 virtual false final false
+  /// @brief Method ResolveToRawMask addr 0x25d591c size 0x18 virtual false final false
   inline ::GlobalNamespace::__OVRInput__RawAxis2D ResolveToRawMask(::GlobalNamespace::__OVRInput__Axis2D virtualMask);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRInput__OVRControllerBase", modifiers: "&&", def_value: None }]
@@ -3290,55 +3323,75 @@ public:
   /// @brief Field axis2DMap, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap* ___axis2DMap;
 
-  /// @brief Field previousState, offset: 0x40, size: 0x6c, def value: None
-  ::GlobalNamespace::__OVRPlugin__ControllerState6 ___previousState;
+  /// @brief Field previousState, offset: 0x40, size: 0x64, def value: None
+  ::GlobalNamespace::__OVRPlugin__ControllerState5 ___previousState;
 
-  /// @brief Field currentState, offset: 0xac, size: 0x6c, def value: None
-  ::GlobalNamespace::__OVRPlugin__ControllerState6 ___currentState;
+  /// @brief Field currentState, offset: 0xa4, size: 0x64, def value: None
+  ::GlobalNamespace::__OVRPlugin__ControllerState5 ___currentState;
 
-  /// @brief Field shouldApplyDeadzone, offset: 0x118, size: 0x1, def value: None
+  /// @brief Field shouldApplyDeadzone, offset: 0x108, size: 0x1, def value: None
   bool ___shouldApplyDeadzone;
 
-  /// @brief Field HapticsPcmSamplesConsumedCache, offset: 0x120, size: 0x8, def value: None
+  /// @brief Field HapticsPcmSamplesConsumedCache, offset: 0x110, size: 0x8, def value: None
   ::ArrayW<uint32_t, ::Array<uint32_t>*> ___HapticsPcmSamplesConsumedCache;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerBase, 0x128>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerBase, 0x118>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase, ___controllerType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase, ___buttonMap) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase, ___touchMap) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase, ___nearTouchMap) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase, ___axis1DMap) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase, ___axis2DMap) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase, ___previousState) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase, ___currentState) == 0xa4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase, ___shouldApplyDeadzone) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRInput__OVRControllerBase, ___HapticsPcmSamplesConsumedCache) == 0x110, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::OVRControllerTouch
-// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7615))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7616))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8507))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8508))
 // CS Name: ::OVRInput::OVRControllerTouch*
 class CORDL_TYPE __OVRInput__OVRControllerTouch : public ::GlobalNamespace::__OVRInput__OVRControllerBase {
 public:
   // Declarations
   static inline ::GlobalNamespace::__OVRInput__OVRControllerTouch* New_ctor();
 
-  /// @brief Method .ctor addr 0x27304b0 size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x25d18ec size 0x1c virtual false final false
   inline void _ctor();
 
-  /// @brief Method ConfigureButtonMap addr 0x273734c size 0x68 virtual true final false
+  /// @brief Method ConfigureButtonMap addr 0x25d7c40 size 0x68 virtual true final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureTouchMap addr 0x27373b4 size 0x3c virtual true final false
+  /// @brief Method ConfigureTouchMap addr 0x25d7ca8 size 0x3c virtual true final false
   inline void ConfigureTouchMap();
 
-  /// @brief Method ConfigureNearTouchMap addr 0x27373f0 size 0x2c virtual true final false
+  /// @brief Method ConfigureNearTouchMap addr 0x25d7ce4 size 0x2c virtual true final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureAxis1DMap addr 0x273741c size 0x4c virtual true final false
+  /// @brief Method ConfigureAxis1DMap addr 0x25d7d10 size 0x40 virtual true final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap addr 0x2737468 size 0x2c virtual true final false
+  /// @brief Method ConfigureAxis2DMap addr 0x25d7d50 size 0x2c virtual true final false
   inline void ConfigureAxis2DMap();
 
-  /// @brief Method GetBatteryPercentRemaining addr 0x2737494 size 0x1014 virtual true final false
+  /// @brief Method GetBatteryPercentRemaining addr 0x25d7d7c size 0x14 virtual true final false
   inline uint8_t GetBatteryPercentRemaining();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRInput__OVRControllerTouch", modifiers: "&&", def_value: None }]
@@ -3358,40 +3411,40 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerTouch, 0x128>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerTouch, 0x118>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::OVRControllerLTouch
-// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7615))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7617))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8507))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8509))
 // CS Name: ::OVRInput::OVRControllerLTouch*
 class CORDL_TYPE __OVRInput__OVRControllerLTouch : public ::GlobalNamespace::__OVRInput__OVRControllerBase {
 public:
   // Declarations
   static inline ::GlobalNamespace::__OVRInput__OVRControllerLTouch* New_ctor();
 
-  /// @brief Method .ctor addr 0x27384a8 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x25d1908 size 0x1c virtual false final false
   inline void _ctor();
 
-  /// @brief Method ConfigureButtonMap addr 0x27384c8 size 0x78 virtual true final false
+  /// @brief Method ConfigureButtonMap addr 0x25d7d90 size 0x78 virtual true final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureTouchMap addr 0x2738540 size 0x34 virtual true final false
+  /// @brief Method ConfigureTouchMap addr 0x25d7e08 size 0x34 virtual true final false
   inline void ConfigureTouchMap();
 
-  /// @brief Method ConfigureNearTouchMap addr 0x2738574 size 0x28 virtual true final false
+  /// @brief Method ConfigureNearTouchMap addr 0x25d7e3c size 0x28 virtual true final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureAxis1DMap addr 0x273859c size 0x48 virtual true final false
+  /// @brief Method ConfigureAxis1DMap addr 0x25d7e64 size 0x3c virtual true final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap addr 0x27385e4 size 0x28 virtual true final false
+  /// @brief Method ConfigureAxis2DMap addr 0x25d7ea0 size 0x28 virtual true final false
   inline void ConfigureAxis2DMap();
 
-  /// @brief Method GetBatteryPercentRemaining addr 0x273860c size 0x8 virtual true final false
+  /// @brief Method GetBatteryPercentRemaining addr 0x25d7ec8 size 0x8 virtual true final false
   inline uint8_t GetBatteryPercentRemaining();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRInput__OVRControllerLTouch", modifiers: "&&", def_value: None }]
@@ -3411,40 +3464,40 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerLTouch, 0x128>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerLTouch, 0x118>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::OVRControllerRTouch
-// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7615))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7618))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8507))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8510))
 // CS Name: ::OVRInput::OVRControllerRTouch*
 class CORDL_TYPE __OVRInput__OVRControllerRTouch : public ::GlobalNamespace::__OVRInput__OVRControllerBase {
 public:
   // Declarations
   static inline ::GlobalNamespace::__OVRInput__OVRControllerRTouch* New_ctor();
 
-  /// @brief Method .ctor addr 0x2738614 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x25d1924 size 0x1c virtual false final false
   inline void _ctor();
 
-  /// @brief Method ConfigureButtonMap addr 0x2738634 size 0x78 virtual true final false
+  /// @brief Method ConfigureButtonMap addr 0x25d7ed0 size 0x78 virtual true final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureTouchMap addr 0x27386ac size 0x34 virtual true final false
+  /// @brief Method ConfigureTouchMap addr 0x25d7f48 size 0x34 virtual true final false
   inline void ConfigureTouchMap();
 
-  /// @brief Method ConfigureNearTouchMap addr 0x27386e0 size 0x28 virtual true final false
+  /// @brief Method ConfigureNearTouchMap addr 0x25d7f7c size 0x28 virtual true final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureAxis1DMap addr 0x2738708 size 0x48 virtual true final false
+  /// @brief Method ConfigureAxis1DMap addr 0x25d7fa4 size 0x3c virtual true final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap addr 0x2738750 size 0x28 virtual true final false
+  /// @brief Method ConfigureAxis2DMap addr 0x25d7fe0 size 0x28 virtual true final false
   inline void ConfigureAxis2DMap();
 
-  /// @brief Method GetBatteryPercentRemaining addr 0x2738778 size 0x8 virtual true final false
+  /// @brief Method GetBatteryPercentRemaining addr 0x25d8008 size 0x8 virtual true final false
   inline uint8_t GetBatteryPercentRemaining();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRInput__OVRControllerRTouch", modifiers: "&&", def_value: None }]
@@ -3464,40 +3517,40 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerRTouch, 0x128>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerRTouch, 0x118>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::OVRControllerHands
-// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7615))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7619))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8507))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8511))
 // CS Name: ::OVRInput::OVRControllerHands*
 class CORDL_TYPE __OVRInput__OVRControllerHands : public ::GlobalNamespace::__OVRInput__OVRControllerBase {
 public:
   // Declarations
   static inline ::GlobalNamespace::__OVRInput__OVRControllerHands* New_ctor();
 
-  /// @brief Method .ctor addr 0x2738780 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x25d1940 size 0x1c virtual false final false
   inline void _ctor();
 
-  /// @brief Method ConfigureButtonMap addr 0x27387a0 size 0x4c virtual true final false
+  /// @brief Method ConfigureButtonMap addr 0x25d8010 size 0x4c virtual true final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureTouchMap addr 0x27387ec size 0x28 virtual true final false
+  /// @brief Method ConfigureTouchMap addr 0x25d805c size 0x28 virtual true final false
   inline void ConfigureTouchMap();
 
-  /// @brief Method ConfigureNearTouchMap addr 0x2738814 size 0x20 virtual true final false
+  /// @brief Method ConfigureNearTouchMap addr 0x25d8084 size 0x20 virtual true final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureAxis1DMap addr 0x2738834 size 0x28 virtual true final false
+  /// @brief Method ConfigureAxis1DMap addr 0x25d80a4 size 0x28 virtual true final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap addr 0x273885c size 0x20 virtual true final false
+  /// @brief Method ConfigureAxis2DMap addr 0x25d80cc size 0x20 virtual true final false
   inline void ConfigureAxis2DMap();
 
-  /// @brief Method GetBatteryPercentRemaining addr 0x273887c size 0x14 virtual true final false
+  /// @brief Method GetBatteryPercentRemaining addr 0x25d80ec size 0x14 virtual true final false
   inline uint8_t GetBatteryPercentRemaining();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRInput__OVRControllerHands", modifiers: "&&", def_value: None }]
@@ -3517,40 +3570,40 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerHands, 0x128>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerHands, 0x118>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::OVRControllerLHand
-// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7615))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7620))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8507))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8512))
 // CS Name: ::OVRInput::OVRControllerLHand*
 class CORDL_TYPE __OVRInput__OVRControllerLHand : public ::GlobalNamespace::__OVRInput__OVRControllerBase {
 public:
   // Declarations
   static inline ::GlobalNamespace::__OVRInput__OVRControllerLHand* New_ctor();
 
-  /// @brief Method .ctor addr 0x2738890 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x25d195c size 0x1c virtual false final false
   inline void _ctor();
 
-  /// @brief Method ConfigureButtonMap addr 0x27388b0 size 0x4c virtual true final false
+  /// @brief Method ConfigureButtonMap addr 0x25d8100 size 0x4c virtual true final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureTouchMap addr 0x27388fc size 0x28 virtual true final false
+  /// @brief Method ConfigureTouchMap addr 0x25d814c size 0x28 virtual true final false
   inline void ConfigureTouchMap();
 
-  /// @brief Method ConfigureNearTouchMap addr 0x2738924 size 0x20 virtual true final false
+  /// @brief Method ConfigureNearTouchMap addr 0x25d8174 size 0x20 virtual true final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureAxis1DMap addr 0x2738944 size 0x28 virtual true final false
+  /// @brief Method ConfigureAxis1DMap addr 0x25d8194 size 0x28 virtual true final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap addr 0x273896c size 0x20 virtual true final false
+  /// @brief Method ConfigureAxis2DMap addr 0x25d81bc size 0x20 virtual true final false
   inline void ConfigureAxis2DMap();
 
-  /// @brief Method GetBatteryPercentRemaining addr 0x273898c size 0x8 virtual true final false
+  /// @brief Method GetBatteryPercentRemaining addr 0x25d81dc size 0x8 virtual true final false
   inline uint8_t GetBatteryPercentRemaining();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRInput__OVRControllerLHand", modifiers: "&&", def_value: None }]
@@ -3570,40 +3623,40 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerLHand, 0x128>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerLHand, 0x118>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::OVRControllerRHand
-// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7615))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7621))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8507))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8513))
 // CS Name: ::OVRInput::OVRControllerRHand*
 class CORDL_TYPE __OVRInput__OVRControllerRHand : public ::GlobalNamespace::__OVRInput__OVRControllerBase {
 public:
   // Declarations
   static inline ::GlobalNamespace::__OVRInput__OVRControllerRHand* New_ctor();
 
-  /// @brief Method .ctor addr 0x2738994 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x25d1978 size 0x1c virtual false final false
   inline void _ctor();
 
-  /// @brief Method ConfigureButtonMap addr 0x27389b4 size 0x4c virtual true final false
+  /// @brief Method ConfigureButtonMap addr 0x25d81e4 size 0x4c virtual true final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureTouchMap addr 0x2738a00 size 0x28 virtual true final false
+  /// @brief Method ConfigureTouchMap addr 0x25d8230 size 0x28 virtual true final false
   inline void ConfigureTouchMap();
 
-  /// @brief Method ConfigureNearTouchMap addr 0x2738a28 size 0x20 virtual true final false
+  /// @brief Method ConfigureNearTouchMap addr 0x25d8258 size 0x20 virtual true final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureAxis1DMap addr 0x2738a48 size 0x28 virtual true final false
+  /// @brief Method ConfigureAxis1DMap addr 0x25d8278 size 0x28 virtual true final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap addr 0x2738a70 size 0x20 virtual true final false
+  /// @brief Method ConfigureAxis2DMap addr 0x25d82a0 size 0x20 virtual true final false
   inline void ConfigureAxis2DMap();
 
-  /// @brief Method GetBatteryPercentRemaining addr 0x2738a90 size 0x8 virtual true final false
+  /// @brief Method GetBatteryPercentRemaining addr 0x25d82c0 size 0x8 virtual true final false
   inline uint8_t GetBatteryPercentRemaining();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRInput__OVRControllerRHand", modifiers: "&&", def_value: None }]
@@ -3623,37 +3676,37 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerRHand, 0x128>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerRHand, 0x118>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::OVRControllerRemote
-// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7615))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7622))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8507))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8514))
 // CS Name: ::OVRInput::OVRControllerRemote*
 class CORDL_TYPE __OVRInput__OVRControllerRemote : public ::GlobalNamespace::__OVRInput__OVRControllerBase {
 public:
   // Declarations
   static inline ::GlobalNamespace::__OVRInput__OVRControllerRemote* New_ctor();
 
-  /// @brief Method .ctor addr 0x2738a98 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x25d82c8 size 0x1c virtual false final false
   inline void _ctor();
 
-  /// @brief Method ConfigureButtonMap addr 0x2738ab8 size 0x5c virtual true final false
+  /// @brief Method ConfigureButtonMap addr 0x25d82e4 size 0x5c virtual true final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureTouchMap addr 0x2738b14 size 0x28 virtual true final false
+  /// @brief Method ConfigureTouchMap addr 0x25d8340 size 0x28 virtual true final false
   inline void ConfigureTouchMap();
 
-  /// @brief Method ConfigureNearTouchMap addr 0x2738b3c size 0x20 virtual true final false
+  /// @brief Method ConfigureNearTouchMap addr 0x25d8368 size 0x20 virtual true final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureAxis1DMap addr 0x2738b5c size 0x28 virtual true final false
+  /// @brief Method ConfigureAxis1DMap addr 0x25d8388 size 0x28 virtual true final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap addr 0x2738b84 size 0x20 virtual true final false
+  /// @brief Method ConfigureAxis2DMap addr 0x25d83b0 size 0x20 virtual true final false
   inline void ConfigureAxis2DMap();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRInput__OVRControllerRemote", modifiers: "&&", def_value: None }]
@@ -3673,37 +3726,37 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerRemote, 0x128>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerRemote, 0x118>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::OVRControllerGamepadPC
-// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7615))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7623))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8507))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8515))
 // CS Name: ::OVRInput::OVRControllerGamepadPC*
 class CORDL_TYPE __OVRInput__OVRControllerGamepadPC : public ::GlobalNamespace::__OVRInput__OVRControllerBase {
 public:
   // Declarations
   static inline ::GlobalNamespace::__OVRInput__OVRControllerGamepadPC* New_ctor();
 
-  /// @brief Method .ctor addr 0x2738ba4 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x25d83d0 size 0x1c virtual false final false
   inline void _ctor();
 
-  /// @brief Method ConfigureButtonMap addr 0x2738bc4 size 0x70 virtual true final false
+  /// @brief Method ConfigureButtonMap addr 0x25d83ec size 0x70 virtual true final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureTouchMap addr 0x2738c34 size 0x28 virtual true final false
+  /// @brief Method ConfigureTouchMap addr 0x25d845c size 0x28 virtual true final false
   inline void ConfigureTouchMap();
 
-  /// @brief Method ConfigureNearTouchMap addr 0x2738c5c size 0x20 virtual true final false
+  /// @brief Method ConfigureNearTouchMap addr 0x25d8484 size 0x20 virtual true final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureAxis1DMap addr 0x2738c7c size 0x30 virtual true final false
+  /// @brief Method ConfigureAxis1DMap addr 0x25d84a4 size 0x30 virtual true final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap addr 0x2738cac size 0x28 virtual true final false
+  /// @brief Method ConfigureAxis2DMap addr 0x25d84d4 size 0x28 virtual true final false
   inline void ConfigureAxis2DMap();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRInput__OVRControllerGamepadPC", modifiers: "&&", def_value: None }]
@@ -3723,37 +3776,37 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerGamepadPC, 0x128>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerGamepadPC, 0x118>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::OVRControllerGamepadAndroid
-// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7615))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7624))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8507))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8516))
 // CS Name: ::OVRInput::OVRControllerGamepadAndroid*
 class CORDL_TYPE __OVRInput__OVRControllerGamepadAndroid : public ::GlobalNamespace::__OVRInput__OVRControllerBase {
 public:
   // Declarations
   static inline ::GlobalNamespace::__OVRInput__OVRControllerGamepadAndroid* New_ctor();
 
-  /// @brief Method .ctor addr 0x2738cd4 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x25d18d0 size 0x1c virtual false final false
   inline void _ctor();
 
-  /// @brief Method ConfigureButtonMap addr 0x2738cf4 size 0x70 virtual true final false
+  /// @brief Method ConfigureButtonMap addr 0x25d84fc size 0x70 virtual true final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureTouchMap addr 0x2738d64 size 0x28 virtual true final false
+  /// @brief Method ConfigureTouchMap addr 0x25d856c size 0x28 virtual true final false
   inline void ConfigureTouchMap();
 
-  /// @brief Method ConfigureNearTouchMap addr 0x2738d8c size 0x20 virtual true final false
+  /// @brief Method ConfigureNearTouchMap addr 0x25d8594 size 0x20 virtual true final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureAxis1DMap addr 0x2738dac size 0x30 virtual true final false
+  /// @brief Method ConfigureAxis1DMap addr 0x25d85b4 size 0x30 virtual true final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap addr 0x2738ddc size 0x28 virtual true final false
+  /// @brief Method ConfigureAxis2DMap addr 0x25d85e4 size 0x28 virtual true final false
   inline void ConfigureAxis2DMap();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRInput__OVRControllerGamepadAndroid", modifiers: "&&", def_value: None }]
@@ -3773,15 +3826,15 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerGamepadAndroid, 0x128>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVRControllerGamepadAndroid, 0x118>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::OVRInput
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7709)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7598))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7625))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8586)), TypeDefinitionIndex(TypeDefinitionIndex(8492)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8517))
 // CS Name: ::OVRInput*
 class CORDL_TYPE OVRInput : public ::System::Object {
 public:
@@ -3815,10 +3868,6 @@ public:
   using HapticsPcmVibration = ::GlobalNamespace::__OVRInput__HapticsPcmVibration;
 
   using HapticsAmplitudeEnvelopeVibration = ::GlobalNamespace::__OVRInput__HapticsAmplitudeEnvelopeVibration;
-
-  using ControllerInHandState = ::GlobalNamespace::__OVRInput__ControllerInHandState;
-
-  using InputDeviceShowState = ::GlobalNamespace::__OVRInput__InputDeviceShowState;
 
   using Hand = ::GlobalNamespace::__OVRInput__Hand;
 
@@ -3982,240 +4031,225 @@ public:
 
   static inline ::ArrayW<::GlobalNamespace::__OVRInput__OpenVRControllerDetails, ::Array<::GlobalNamespace::__OVRInput__OpenVRControllerDetails>*> getStaticF_openVRControllerDetails();
 
-  /// @brief Method get_pluginSupportsActiveController addr 0x272fec8 size 0x9c virtual false final false
+  /// @brief Method get_pluginSupportsActiveController addr 0x25d12d0 size 0x9c virtual false final false
   static inline bool get_pluginSupportsActiveController();
 
-  /// @brief Method Update addr 0x273060c size 0x544 virtual false final false
+  /// @brief Method Update addr 0x25d1ad4 size 0x420 virtual false final false
   static inline void Update();
 
-  /// @brief Method FixedUpdate addr 0x273119c size 0x10c virtual false final false
+  /// @brief Method FixedUpdate addr 0x25d2540 size 0x10c virtual false final false
   static inline void FixedUpdate();
 
-  /// @brief Method GetCurrentInteractionProfile addr 0x27312a8 size 0x58 virtual false final false
+  /// @brief Method GetCurrentInteractionProfile addr 0x25d264c size 0x58 virtual false final false
   static inline ::GlobalNamespace::__OVRInput__InteractionProfile GetCurrentInteractionProfile(::GlobalNamespace::__OVRInput__Hand hand);
 
-  /// @brief Method GetControllerOrientationTracked addr 0x2731300 size 0xd8 virtual false final false
+  /// @brief Method GetControllerOrientationTracked addr 0x25d26a4 size 0xac virtual false final false
   static inline bool GetControllerOrientationTracked(::GlobalNamespace::__OVRInput__Controller controllerType);
 
-  /// @brief Method GetControllerOrientationValid addr 0x27313d8 size 0xd8 virtual false final false
+  /// @brief Method GetControllerOrientationValid addr 0x25d2750 size 0xac virtual false final false
   static inline bool GetControllerOrientationValid(::GlobalNamespace::__OVRInput__Controller controllerType);
 
-  /// @brief Method GetControllerPositionTracked addr 0x27314b0 size 0xd8 virtual false final false
+  /// @brief Method GetControllerPositionTracked addr 0x25d27fc size 0xac virtual false final false
   static inline bool GetControllerPositionTracked(::GlobalNamespace::__OVRInput__Controller controllerType);
 
-  /// @brief Method GetControllerPositionValid addr 0x2731588 size 0xd8 virtual false final false
+  /// @brief Method GetControllerPositionValid addr 0x25d28a8 size 0xac virtual false final false
   static inline bool GetControllerPositionValid(::GlobalNamespace::__OVRInput__Controller controllerType);
 
-  /// @brief Method AreHandPosesGeneratedByControllerData addr 0x2731660 size 0x94 virtual false final false
-  static inline bool AreHandPosesGeneratedByControllerData(::GlobalNamespace::__OVRPlugin__Step stepId, ::GlobalNamespace::__OVRInput__Hand hand);
-
-  /// @brief Method EnableSimultaneousHandsAndControllers addr 0x27316f4 size 0x54 virtual false final false
-  static inline bool EnableSimultaneousHandsAndControllers();
-
-  /// @brief Method DisableSimultaneousHandsAndControllers addr 0x2731748 size 0x54 virtual false final false
-  static inline bool DisableSimultaneousHandsAndControllers();
-
-  /// @brief Method GetControllerIsInHandState addr 0x273179c size 0xf0 virtual false final false
-  static inline ::GlobalNamespace::__OVRInput__ControllerInHandState GetControllerIsInHandState(::GlobalNamespace::__OVRInput__Hand hand);
-
-  /// @brief Method GetActiveControllerForHand addr 0x273188c size 0xfc virtual false final false
-  static inline ::GlobalNamespace::__OVRInput__Controller GetActiveControllerForHand(::GlobalNamespace::__OVRInput__Handedness handedness);
-
-  /// @brief Method GetLocalControllerPosition addr 0x2731988 size 0x560 virtual false final false
+  /// @brief Method GetLocalControllerPosition addr 0x25d2954 size 0x350 virtual false final false
   static inline ::UnityEngine::Vector3 GetLocalControllerPosition(::GlobalNamespace::__OVRInput__Controller controllerType);
 
-  /// @brief Method GetLocalControllerVelocity addr 0x2731ee8 size 0x23c virtual false final false
+  /// @brief Method GetLocalControllerVelocity addr 0x25d2ca4 size 0x1b8 virtual false final false
   static inline ::UnityEngine::Vector3 GetLocalControllerVelocity(::GlobalNamespace::__OVRInput__Controller controllerType);
 
-  /// @brief Method GetLocalControllerAcceleration addr 0x2732124 size 0x230 virtual false final false
+  /// @brief Method GetLocalControllerAcceleration addr 0x25d2e5c size 0x1b4 virtual false final false
   static inline ::UnityEngine::Vector3 GetLocalControllerAcceleration(::GlobalNamespace::__OVRInput__Controller controllerType);
 
-  /// @brief Method GetLocalControllerRotation addr 0x2732354 size 0x538 virtual false final false
+  /// @brief Method GetLocalControllerRotation addr 0x25d3010 size 0x338 virtual false final false
   static inline ::UnityEngine::Quaternion GetLocalControllerRotation(::GlobalNamespace::__OVRInput__Controller controllerType);
 
-  /// @brief Method GetLocalControllerAngularVelocity addr 0x273288c size 0x23c virtual false final false
+  /// @brief Method GetLocalControllerAngularVelocity addr 0x25d3348 size 0x1b8 virtual false final false
   static inline ::UnityEngine::Vector3 GetLocalControllerAngularVelocity(::GlobalNamespace::__OVRInput__Controller controllerType);
 
-  /// @brief Method GetLocalControllerAngularAcceleration addr 0x2732ac8 size 0x23c virtual false final false
+  /// @brief Method GetLocalControllerAngularAcceleration addr 0x25d3500 size 0x1b8 virtual false final false
   static inline ::UnityEngine::Vector3 GetLocalControllerAngularAcceleration(::GlobalNamespace::__OVRInput__Controller controllerType);
 
-  /// @brief Method GetLocalControllerStatesWithoutPrediction addr 0x2732d04 size 0x390 virtual false final false
+  /// @brief Method GetLocalControllerStatesWithoutPrediction addr 0x25d36b8 size 0x368 virtual false final false
   static inline bool GetLocalControllerStatesWithoutPrediction(::GlobalNamespace::__OVRInput__Controller controllerType, ByRef<::UnityEngine::Vector3> position,
                                                                ByRef<::UnityEngine::Quaternion> rotation, ByRef<::UnityEngine::Vector3> velocity, ByRef<::UnityEngine::Vector3> angularVelocity);
 
-  /// @brief Method GetDominantHand addr 0x2733094 size 0x50 virtual false final false
+  /// @brief Method GetDominantHand addr 0x25d3a20 size 0x50 virtual false final false
   static inline ::GlobalNamespace::__OVRInput__Handedness GetDominantHand();
 
-  /// @brief Method Get addr 0x27330e4 size 0x68 virtual false final false
+  /// @brief Method Get addr 0x25d3a70 size 0x68 virtual false final false
   static inline bool Get(::GlobalNamespace::__OVRInput__Button virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method Get addr 0x27310cc size 0x68 virtual false final false
+  /// @brief Method Get addr 0x25d2470 size 0x68 virtual false final false
   static inline bool Get(::GlobalNamespace::__OVRInput__RawButton rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetResolvedButton addr 0x273314c size 0x148 virtual false final false
+  /// @brief Method GetResolvedButton addr 0x25d3ad8 size 0x148 virtual false final false
   static inline bool GetResolvedButton(::GlobalNamespace::__OVRInput__Button virtualMask, ::GlobalNamespace::__OVRInput__RawButton rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetDown addr 0x27332f8 size 0x68 virtual false final false
+  /// @brief Method GetDown addr 0x25d3c84 size 0x68 virtual false final false
   static inline bool GetDown(::GlobalNamespace::__OVRInput__Button virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetDown addr 0x27334c0 size 0x68 virtual false final false
+  /// @brief Method GetDown addr 0x25d3e4c size 0x68 virtual false final false
   static inline bool GetDown(::GlobalNamespace::__OVRInput__RawButton rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetResolvedButtonDown addr 0x2733360 size 0x160 virtual false final false
+  /// @brief Method GetResolvedButtonDown addr 0x25d3cec size 0x160 virtual false final false
   static inline bool GetResolvedButtonDown(::GlobalNamespace::__OVRInput__Button virtualMask, ::GlobalNamespace::__OVRInput__RawButton rawMask,
                                            ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetUp addr 0x2733528 size 0x68 virtual false final false
+  /// @brief Method GetUp addr 0x25d3eb4 size 0x68 virtual false final false
   static inline bool GetUp(::GlobalNamespace::__OVRInput__Button virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetUp addr 0x27336f0 size 0x68 virtual false final false
+  /// @brief Method GetUp addr 0x25d407c size 0x68 virtual false final false
   static inline bool GetUp(::GlobalNamespace::__OVRInput__RawButton rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetResolvedButtonUp addr 0x2733590 size 0x160 virtual false final false
+  /// @brief Method GetResolvedButtonUp addr 0x25d3f1c size 0x160 virtual false final false
   static inline bool GetResolvedButtonUp(::GlobalNamespace::__OVRInput__Button virtualMask, ::GlobalNamespace::__OVRInput__RawButton rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method Get addr 0x2733758 size 0x68 virtual false final false
+  /// @brief Method Get addr 0x25d40e4 size 0x68 virtual false final false
   static inline bool Get(::GlobalNamespace::__OVRInput__Touch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method Get addr 0x2731134 size 0x68 virtual false final false
+  /// @brief Method Get addr 0x25d24d8 size 0x68 virtual false final false
   static inline bool Get(::GlobalNamespace::__OVRInput__RawTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetResolvedTouch addr 0x27337c0 size 0x148 virtual false final false
+  /// @brief Method GetResolvedTouch addr 0x25d414c size 0x148 virtual false final false
   static inline bool GetResolvedTouch(::GlobalNamespace::__OVRInput__Touch virtualMask, ::GlobalNamespace::__OVRInput__RawTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetDown addr 0x2733920 size 0x68 virtual false final false
+  /// @brief Method GetDown addr 0x25d42ac size 0x68 virtual false final false
   static inline bool GetDown(::GlobalNamespace::__OVRInput__Touch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetDown addr 0x2733ae8 size 0x68 virtual false final false
+  /// @brief Method GetDown addr 0x25d4474 size 0x68 virtual false final false
   static inline bool GetDown(::GlobalNamespace::__OVRInput__RawTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetResolvedTouchDown addr 0x2733988 size 0x160 virtual false final false
+  /// @brief Method GetResolvedTouchDown addr 0x25d4314 size 0x160 virtual false final false
   static inline bool GetResolvedTouchDown(::GlobalNamespace::__OVRInput__Touch virtualMask, ::GlobalNamespace::__OVRInput__RawTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetUp addr 0x2733b50 size 0x68 virtual false final false
+  /// @brief Method GetUp addr 0x25d44dc size 0x68 virtual false final false
   static inline bool GetUp(::GlobalNamespace::__OVRInput__Touch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetUp addr 0x2733d18 size 0x68 virtual false final false
+  /// @brief Method GetUp addr 0x25d46a4 size 0x68 virtual false final false
   static inline bool GetUp(::GlobalNamespace::__OVRInput__RawTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetResolvedTouchUp addr 0x2733bb8 size 0x160 virtual false final false
+  /// @brief Method GetResolvedTouchUp addr 0x25d4544 size 0x160 virtual false final false
   static inline bool GetResolvedTouchUp(::GlobalNamespace::__OVRInput__Touch virtualMask, ::GlobalNamespace::__OVRInput__RawTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method Get addr 0x2733d80 size 0x68 virtual false final false
+  /// @brief Method Get addr 0x25d470c size 0x68 virtual false final false
   static inline bool Get(::GlobalNamespace::__OVRInput__NearTouch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method Get addr 0x2733f30 size 0x68 virtual false final false
+  /// @brief Method Get addr 0x25d48bc size 0x68 virtual false final false
   static inline bool Get(::GlobalNamespace::__OVRInput__RawNearTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetResolvedNearTouch addr 0x2733de8 size 0x148 virtual false final false
+  /// @brief Method GetResolvedNearTouch addr 0x25d4774 size 0x148 virtual false final false
   static inline bool GetResolvedNearTouch(::GlobalNamespace::__OVRInput__NearTouch virtualMask, ::GlobalNamespace::__OVRInput__RawNearTouch rawMask,
                                           ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetDown addr 0x2733fb0 size 0x68 virtual false final false
+  /// @brief Method GetDown addr 0x25d493c size 0x68 virtual false final false
   static inline bool GetDown(::GlobalNamespace::__OVRInput__NearTouch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetDown addr 0x2734178 size 0x68 virtual false final false
+  /// @brief Method GetDown addr 0x25d4b04 size 0x68 virtual false final false
   static inline bool GetDown(::GlobalNamespace::__OVRInput__RawNearTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetResolvedNearTouchDown addr 0x2734018 size 0x160 virtual false final false
+  /// @brief Method GetResolvedNearTouchDown addr 0x25d49a4 size 0x160 virtual false final false
   static inline bool GetResolvedNearTouchDown(::GlobalNamespace::__OVRInput__NearTouch virtualMask, ::GlobalNamespace::__OVRInput__RawNearTouch rawMask,
                                               ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetUp addr 0x27341e0 size 0x68 virtual false final false
+  /// @brief Method GetUp addr 0x25d4b6c size 0x68 virtual false final false
   static inline bool GetUp(::GlobalNamespace::__OVRInput__NearTouch virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetUp addr 0x27343a8 size 0x68 virtual false final false
+  /// @brief Method GetUp addr 0x25d4d34 size 0x68 virtual false final false
   static inline bool GetUp(::GlobalNamespace::__OVRInput__RawNearTouch rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetResolvedNearTouchUp addr 0x2734248 size 0x160 virtual false final false
+  /// @brief Method GetResolvedNearTouchUp addr 0x25d4bd4 size 0x160 virtual false final false
   static inline bool GetResolvedNearTouchUp(::GlobalNamespace::__OVRInput__NearTouch virtualMask, ::GlobalNamespace::__OVRInput__RawNearTouch rawMask,
                                             ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method Get addr 0x2734410 size 0x68 virtual false final false
+  /// @brief Method Get addr 0x25d4d9c size 0x68 virtual false final false
   static inline float_t Get(::GlobalNamespace::__OVRInput__Axis1D virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method Get addr 0x2734af4 size 0x68 virtual false final false
+  /// @brief Method Get addr 0x25d5408 size 0x68 virtual false final false
   static inline float_t Get(::GlobalNamespace::__OVRInput__RawAxis1D rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetResolvedAxis1D addr 0x2734478 size 0x67c virtual false final false
+  /// @brief Method GetResolvedAxis1D addr 0x25d4e04 size 0x604 virtual false final false
   static inline float_t GetResolvedAxis1D(::GlobalNamespace::__OVRInput__Axis1D virtualMask, ::GlobalNamespace::__OVRInput__RawAxis1D rawMask,
                                           ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method Get addr 0x2734be8 size 0x68 virtual false final false
+  /// @brief Method Get addr 0x25d54fc size 0x68 virtual false final false
   static inline ::UnityEngine::Vector2 Get(::GlobalNamespace::__OVRInput__Axis2D virtualMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method Get addr 0x2734fa0 size 0x68 virtual false final false
+  /// @brief Method Get addr 0x25d58b4 size 0x68 virtual false final false
   static inline ::UnityEngine::Vector2 Get(::GlobalNamespace::__OVRInput__RawAxis2D rawMask, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetResolvedAxis2D addr 0x2734c50 size 0x350 virtual false final false
+  /// @brief Method GetResolvedAxis2D addr 0x25d5564 size 0x350 virtual false final false
   static inline ::UnityEngine::Vector2 GetResolvedAxis2D(::GlobalNamespace::__OVRInput__Axis2D virtualMask, ::GlobalNamespace::__OVRInput__RawAxis2D rawMask,
                                                          ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetConnectedControllers addr 0x2735180 size 0x58 virtual false final false
+  /// @brief Method GetConnectedControllers addr 0x25d5a94 size 0x58 virtual false final false
   static inline ::GlobalNamespace::__OVRInput__Controller GetConnectedControllers();
 
-  /// @brief Method IsControllerConnected addr 0x27351d8 size 0x64 virtual false final false
+  /// @brief Method IsControllerConnected addr 0x25d5aec size 0x64 virtual false final false
   static inline bool IsControllerConnected(::GlobalNamespace::__OVRInput__Controller controller);
 
-  /// @brief Method GetActiveController addr 0x273523c size 0x58 virtual false final false
+  /// @brief Method GetActiveController addr 0x25d5b50 size 0x58 virtual false final false
   static inline ::GlobalNamespace::__OVRInput__Controller GetActiveController();
 
-  /// @brief Method StartVibration addr 0x2735294 size 0x104 virtual false final false
+  /// @brief Method StartVibration addr 0x25d5ba8 size 0x104 virtual false final false
   static inline void StartVibration(float_t amplitude, float_t duration, ::UnityEngine::XR::XRNode controllerNode);
 
-  /// @brief Method SetOpenVRLocalPose addr 0x2735398 size 0x110 virtual false final false
+  /// @brief Method SetOpenVRLocalPose addr 0x25d5cac size 0x110 virtual false final false
   static inline void SetOpenVRLocalPose(::UnityEngine::Vector3 leftPos, ::UnityEngine::Vector3 rightPos, ::UnityEngine::Quaternion leftRot, ::UnityEngine::Quaternion rightRot);
 
-  /// @brief Method GetOpenVRStringProperty addr 0x27354a8 size 0x150 virtual false final false
+  /// @brief Method GetOpenVRStringProperty addr 0x25d5dbc size 0x150 virtual false final false
   static inline ::StringW GetOpenVRStringProperty(::OVR::OpenVR::ETrackedDeviceProperty prop, uint32_t deviceId);
 
-  /// @brief Method UpdateXRControllerNodeIds addr 0x2730b50 size 0x398 virtual false final false
+  /// @brief Method UpdateXRControllerNodeIds addr 0x25d1ef4 size 0x398 virtual false final false
   static inline void UpdateXRControllerNodeIds();
 
-  /// @brief Method UpdateXRControllerHaptics addr 0x2730ee8 size 0x1e4 virtual false final false
+  /// @brief Method UpdateXRControllerHaptics addr 0x25d228c size 0x1e4 virtual false final false
   static inline void UpdateXRControllerHaptics();
 
-  /// @brief Method InitHapticInfo addr 0x27304cc size 0x140 virtual false final false
+  /// @brief Method InitHapticInfo addr 0x25d1994 size 0x140 virtual false final false
   static inline void InitHapticInfo();
 
-  /// @brief Method PlayHapticImpulse addr 0x27355f8 size 0x11c virtual false final false
+  /// @brief Method PlayHapticImpulse addr 0x25d5f0c size 0x11c virtual false final false
   static inline void PlayHapticImpulse(float_t amplitude, ::UnityEngine::XR::XRNode deviceNode);
 
-  /// @brief Method IsValidOpenVRDevice addr 0x273571c size 0xc virtual false final false
+  /// @brief Method IsValidOpenVRDevice addr 0x25d6030 size 0xc virtual false final false
   static inline bool IsValidOpenVRDevice(uint32_t deviceId);
 
-  /// @brief Method SetControllerVibration addr 0x2735728 size 0x1dc virtual false final false
+  /// @brief Method SetControllerVibration addr 0x25d603c size 0x1dc virtual false final false
   static inline void SetControllerVibration(float_t frequency, float_t amplitude, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method SetControllerLocalizedVibration addr 0x2735904 size 0x1dc virtual false final false
+  /// @brief Method SetControllerLocalizedVibration addr 0x25d6218 size 0x1dc virtual false final false
   static inline void SetControllerLocalizedVibration(::GlobalNamespace::__OVRInput__HapticsLocation hapticsLocationMask, float_t frequency, float_t amplitude,
                                                      ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method SetControllerHapticsAmplitudeEnvelope addr 0x2735ae0 size 0x150 virtual false final false
+  /// @brief Method SetControllerHapticsAmplitudeEnvelope addr 0x25d63f4 size 0x150 virtual false final false
   static inline void SetControllerHapticsAmplitudeEnvelope(::GlobalNamespace::__OVRInput__HapticsAmplitudeEnvelopeVibration hapticsVibration, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method SetControllerHapticsPcm addr 0x2735c30 size 0x15c virtual false final false
+  /// @brief Method SetControllerHapticsPcm addr 0x25d6544 size 0x15c virtual false final false
   static inline int32_t SetControllerHapticsPcm(::GlobalNamespace::__OVRInput__HapticsPcmVibration hapticsVibration, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetControllerSampleRateHz addr 0x2735d8c size 0x128 virtual false final false
+  /// @brief Method GetControllerSampleRateHz addr 0x25d66a0 size 0x128 virtual false final false
   static inline float_t GetControllerSampleRateHz(::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method GetControllerBatteryPercentRemaining addr 0x2735eb4 size 0x128 virtual false final false
+  /// @brief Method GetControllerBatteryPercentRemaining addr 0x25d67c8 size 0x128 virtual false final false
   static inline uint8_t GetControllerBatteryPercentRemaining(::GlobalNamespace::__OVRInput__Controller controllerMask);
 
-  /// @brief Method CalculateAbsMax addr 0x2735158 size 0x28 virtual false final false
+  /// @brief Method CalculateAbsMax addr 0x25d5a6c size 0x28 virtual false final false
   static inline ::UnityEngine::Vector2 CalculateAbsMax(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
 
-  /// @brief Method CalculateAbsMax addr 0x2734bc4 size 0x24 virtual false final false
+  /// @brief Method CalculateAbsMax addr 0x25d54d8 size 0x24 virtual false final false
   static inline float_t CalculateAbsMax(float_t a, float_t b);
 
-  /// @brief Method CalculateDeadzone addr 0x2735020 size 0x138 virtual false final false
+  /// @brief Method CalculateDeadzone addr 0x25d5934 size 0x138 virtual false final false
   static inline ::UnityEngine::Vector2 CalculateDeadzone(::UnityEngine::Vector2 a, float_t deadzone);
 
-  /// @brief Method CalculateDeadzone addr 0x2734b74 size 0x50 virtual false final false
+  /// @brief Method CalculateDeadzone addr 0x25d5488 size 0x50 virtual false final false
   static inline float_t CalculateDeadzone(float_t a, float_t deadzone);
 
-  /// @brief Method ShouldResolveController addr 0x2733294 size 0x4c virtual false final false
+  /// @brief Method ShouldResolveController addr 0x25d3c20 size 0x4c virtual false final false
   static inline bool ShouldResolveController(::GlobalNamespace::__OVRInput__Controller controllerType, ::GlobalNamespace::__OVRInput__Controller controllerMask);
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRInput", modifiers: "&&", def_value: None }]
@@ -4242,11 +4276,9 @@ DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRInput__Axis1D, "", "OVRInput/Axis
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRInput__Axis2D, "", "OVRInput/Axis2D");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRInput__Button, "", "OVRInput/Button");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRInput__Controller, "", "OVRInput/Controller");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRInput__ControllerInHandState, "", "OVRInput/ControllerInHandState");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRInput__Hand, "", "OVRInput/Hand");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRInput__Handedness, "", "OVRInput/Handedness");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRInput__HapticsLocation, "", "OVRInput/HapticsLocation");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRInput__InputDeviceShowState, "", "OVRInput/InputDeviceShowState");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRInput__InteractionProfile, "", "OVRInput/InteractionProfile");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRInput__NearTouch, "", "OVRInput/NearTouch");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRInput__OpenVRButton, "", "OVRInput/OpenVRButton");

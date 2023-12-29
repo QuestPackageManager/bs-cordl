@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Wrap);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6890))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6976))
 // CS Name: ::UnityEngine.UIElements::Wrap
 struct CORDL_TYPE Wrap {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Wrap, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Wrap, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Wrap, "UnityEngine.UIElements", "Wrap");

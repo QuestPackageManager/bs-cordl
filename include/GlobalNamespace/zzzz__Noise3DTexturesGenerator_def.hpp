@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Noise3DTexturesGenerator)
+namespace UnityEngine {
+struct Color32;
+}
 namespace GlobalNamespace {
 struct __Noise3DTexturesGenerator__MaterialPropertyNameCouple;
-}
-namespace UnityEngine {
-class Texture3D;
 }
 namespace GlobalNamespace {
 struct __Noise3DTexturesGenerator__MaterialTextureParamsCouple;
 }
 namespace UnityEngine {
-struct Color32;
+class Texture3D;
 }
 namespace UnityEngine {
 class Material;
@@ -43,7 +43,7 @@ MARK_VAL_T(::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsC
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15300))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15329))
 // CS Name: ::Noise3DTexturesGenerator::MaterialTextureParamsCouple
 struct CORDL_TYPE __Noise3DTexturesGenerator__MaterialTextureParamsCouple {
 public:
@@ -74,13 +74,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple, globalPropertyName) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple, materialPropertyNameCouples) == 0x8, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MaterialPropertyNameCouple
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15301))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15330))
 // CS Name: ::Noise3DTexturesGenerator::MaterialPropertyNameCouple
 struct CORDL_TYPE __Noise3DTexturesGenerator__MaterialPropertyNameCouple {
 public:
@@ -107,13 +111,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialPropertyNameCouple, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__Noise3DTexturesGenerator__MaterialPropertyNameCouple, texturePropertyName) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__Noise3DTexturesGenerator__MaterialPropertyNameCouple, material) == 0x8, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Noise3DTexturesGenerator
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15302))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15331))
 // CS Name: ::Noise3DTexturesGenerator*
 class CORDL_TYPE Noise3DTexturesGenerator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -141,15 +149,15 @@ public:
 
   static inline ::UnityEngine::Texture3D* getStaticF__texture();
 
-  /// @brief Method Awake addr 0x280afac size 0x210 virtual false final false
+  /// @brief Method Awake addr 0x2690358 size 0x210 virtual false final false
   inline void Awake();
 
-  /// @brief Method CreateNoisePixels addr 0x280b1bc size 0x324 virtual false final false
+  /// @brief Method CreateNoisePixels addr 0x2690568 size 0x324 virtual false final false
   static inline ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> CreateNoisePixels(int32_t width, int32_t height, int32_t depth, float_t scale, int32_t repeat, float_t contrast);
 
   static inline ::GlobalNamespace::Noise3DTexturesGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x280b4e0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x269088c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Noise3DTexturesGenerator", modifiers: "&&", def_value: None }]
@@ -173,6 +181,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Noise3DTexturesGenerator, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::Noise3DTexturesGenerator, ____data) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Noise3DTexturesGenerator);

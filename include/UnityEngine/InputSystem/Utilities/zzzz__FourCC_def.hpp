@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FourCC)
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Utilities::FourCC);
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6667))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6753))
 // CS Name: ::UnityEngine.InputSystem.Utilities::FourCC
 struct CORDL_TYPE FourCC {
 public:
@@ -31,43 +31,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::FourCC>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::FourCC>*();
 
-  /// @brief Method .ctor addr 0x2b0fadc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x298ed88 size 0x8 virtual false final false
   inline void _ctor(int32_t code);
 
-  /// @brief Method .ctor addr 0x2b0b85c size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x298ab08 size 0x20 virtual false final false
   inline void _ctor(char16_t a, char16_t b, char16_t c, char16_t d);
 
-  /// @brief Method .ctor addr 0x2b0fae4 size 0x170 virtual false final false
+  /// @brief Method .ctor addr 0x298ed90 size 0x170 virtual false final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method op_Implicit addr 0x2b0fc54 size 0x4 virtual false final false
+  /// @brief Method op_Implicit addr 0x298ef00 size 0x4 virtual false final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::InputSystem::Utilities::FourCC fourCC);
 
-  /// @brief Method op_Implicit addr 0x2b0fc58 size 0x8 virtual false final false
+  /// @brief Method op_Implicit addr 0x298ef04 size 0x8 virtual false final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC op_Implicit___UnityEngine__InputSystem__Utilities__FourCC(int32_t i);
 
-  /// @brief Method ToString addr 0x2b0fc60 size 0x1b0 virtual true final false
+  /// @brief Method ToString addr 0x298ef0c size 0x1b0 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method Equals addr 0x2b0fe10 size 0x10 virtual true final true
+  /// @brief Method Equals addr 0x298f0bc size 0x10 virtual true final true
   inline bool Equals(::UnityEngine::InputSystem::Utilities::FourCC other);
 
-  /// @brief Method Equals addr 0x2b0fe20 size 0x78 virtual true final false
+  /// @brief Method Equals addr 0x298f0cc size 0x78 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2b0fe98 size 0x8 virtual true final false
+  /// @brief Method GetHashCode addr 0x298f144 size 0x8 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality addr 0x2b0fea0 size 0xc virtual false final false
+  /// @brief Method op_Equality addr 0x298f14c size 0xc virtual false final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Utilities::FourCC left, ::UnityEngine::InputSystem::Utilities::FourCC right);
 
-  /// @brief Method op_Inequality addr 0x2b0feac size 0xc virtual false final false
+  /// @brief Method op_Inequality addr 0x298f158 size 0xc virtual false final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Utilities::FourCC left, ::UnityEngine::InputSystem::Utilities::FourCC right);
 
-  /// @brief Method FromInt32 addr 0x2b0feb8 size 0x8 virtual false final false
+  /// @brief Method FromInt32 addr 0x298f164 size 0x8 virtual false final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC FromInt32(int32_t i);
 
-  /// @brief Method ToInt32 addr 0x2b0fec0 size 0x4 virtual false final false
+  /// @brief Method ToInt32 addr 0x298f16c size 0x4 virtual false final false
   static inline int32_t ToInt32(::UnityEngine::InputSystem::Utilities::FourCC fourCC);
 
   // Ctor Parameters [CppParam { name: "m_Code", ty: "int32_t", modifiers: "", def_value: None }]
@@ -87,6 +87,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilities::FourCC, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::FourCC, m_Code) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Utilities
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::FourCC, "UnityEngine.InputSystem.Utilities", "FourCC");

@@ -16,7 +16,7 @@ MARK_VAL_T(::LIV::SDK::Unity::PRIORITY);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15100))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15204))
 // CS Name: ::LIV.SDK.Unity::PRIORITY
 struct CORDL_TYPE PRIORITY {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::PRIORITY, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::PRIORITY, value__) == 0x0, "Offset mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::PRIORITY, "LIV.SDK.Unity", "PRIORITY");

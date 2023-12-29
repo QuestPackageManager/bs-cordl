@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::AssemblyContentType);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3446))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3441))
 // CS Name: ::System.Reflection::AssemblyContentType
 struct CORDL_TYPE AssemblyContentType {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::AssemblyContentType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyContentType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::AssemblyContentType, "System.Reflection", "AssemblyContentType");

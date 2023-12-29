@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDtdParserAdapterWithValidation)
 namespace System::Xml {
-class IDtdParserAdapter;
+class IValidationEventHandling;
 }
 namespace System::Xml {
-class IValidationEventHandling;
+class IDtdParserAdapter;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Xml::IDtdParserAdapterWithValidation);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11428))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11356))
 // CS Name: ::System.Xml::IDtdParserAdapterWithValidation*
 class CORDL_TYPE IDtdParserAdapterWithValidation {
 public:

@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(HttpMessageInvoker)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
-class IDisposable;
-}
 namespace System::Net::Http {
 class HttpResponseMessage;
 }
 namespace System::Net::Http {
 class HttpRequestMessage;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Net::Http {
 class HttpMessageHandler;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Net::Http::HttpMessageInvoker);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14651))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14868))
 // CS Name: ::System.Net.Http::HttpMessageInvoker*
 class CORDL_TYPE HttpMessageInvoker : public ::System::Object {
 public:
@@ -61,16 +61,16 @@ public:
 
   static inline ::System::Net::Http::HttpMessageInvoker* New_ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
-  /// @brief Method .ctor addr 0x2830cfc size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x26b5cec size 0x84 virtual false final false
   inline void _ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
-  /// @brief Method Dispose addr 0x2833438 size 0x10 virtual true final true
+  /// @brief Method Dispose addr 0x26b8428 size 0x10 virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x2830f28 size 0x38 virtual true final false
+  /// @brief Method Dispose addr 0x26b5f18 size 0x38 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method SendAsync addr 0x283196c size 0x20 virtual true final false
+  /// @brief Method SendAsync addr 0x26b695c size 0x20 virtual true final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
@@ -98,6 +98,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpMessageInvoker, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpMessageInvoker, ___handler) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpMessageInvoker, ___disposeHandler) == 0x18, "Offset mismatch!");
 
 } // namespace System::Net::Http
 NEED_NO_BOX(::System::Net::Http::HttpMessageInvoker);

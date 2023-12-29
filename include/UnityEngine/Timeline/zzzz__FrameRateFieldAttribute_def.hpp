@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::FrameRateFieldAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13923))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10098))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14194))
 // CS Name: ::UnityEngine.Timeline::FrameRateFieldAttribute*
 class CORDL_TYPE FrameRateFieldAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   static inline ::UnityEngine::Timeline::FrameRateFieldAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c6e790 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2aeaa3c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FrameRateFieldAttribute", modifiers: "&&", def_value: None }]

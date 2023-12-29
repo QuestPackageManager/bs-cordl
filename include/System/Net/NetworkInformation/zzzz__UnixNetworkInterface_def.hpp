@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnixNetworkInterface)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System::Net::NetworkInformation {
 struct NetworkInterfaceType;
+}
+namespace System::Net::NetworkInformation {
+class IPInterfaceProperties;
 }
 namespace System::Net {
 class IPAddress;
 }
-namespace System::Net::NetworkInformation {
-class IPInterfaceProperties;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixNetworkInterface);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9252)), TypeDefinitionIndex(TypeDefinitionIndex(9258))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9292))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8089)), TypeDefinitionIndex(TypeDefinitionIndex(8095))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8129))
 // CS Name: ::System.Net.NetworkInformation::UnixNetworkInterface*
 class CORDL_TYPE UnixNetworkInterface : public ::System::Net::NetworkInformation::NetworkInterface {
 public:
@@ -87,19 +87,19 @@ public:
 
   static inline ::System::Net::NetworkInformation::UnixNetworkInterface* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x29ed864 size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x2870fe0 size 0x90 virtual false final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method AddAddress addr 0x29ed7a0 size 0xa8 virtual false final false
+  /// @brief Method AddAddress addr 0x2870f1c size 0xa8 virtual false final false
   inline void AddAddress(::System::Net::IPAddress* address);
 
-  /// @brief Method SetLinkLayerInfo addr 0x29ed848 size 0xc virtual false final false
+  /// @brief Method SetLinkLayerInfo addr 0x2870fc4 size 0xc virtual false final false
   inline void SetLinkLayerInfo(int32_t index, ::ArrayW<uint8_t, ::Array<uint8_t>*> macAddress, ::System::Net::NetworkInformation::NetworkInterfaceType type);
 
-  /// @brief Method get_Name addr 0x29f0bcc size 0x8 virtual true final false
+  /// @brief Method get_Name addr 0x2874348 size 0x8 virtual true final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NetworkInterfaceType addr 0x29f0bd4 size 0x8 virtual true final false
+  /// @brief Method get_NetworkInterfaceType addr 0x2874350 size 0x8 virtual true final false
   inline ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnixNetworkInterface", modifiers: "&&", def_value: None }]
@@ -135,6 +135,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::UnixNetworkInterface, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::UnixNetworkInterface, ___ipproperties) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::UnixNetworkInterface, ___name) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::UnixNetworkInterface, ___addresses) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::UnixNetworkInterface, ___macAddress) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::UnixNetworkInterface, ___type) == 0x30, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation
 NEED_NO_BOX(::System::Net::NetworkInformation::UnixNetworkInterface);

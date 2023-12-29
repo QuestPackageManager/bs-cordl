@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpawnRotationChevronManager)
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace GlobalNamespace {
-class BeatmapObjectSpawnController;
-}
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class IAudioTimeSource;
+class __SpawnRotationChevronManager__DirectionData;
 }
 namespace GlobalNamespace {
 class __SpawnRotationChevron__Pool;
 }
 namespace GlobalNamespace {
-class __SpawnRotationChevronManager__DirectionData;
+class BeatmapObjectData;
+}
+namespace GlobalNamespace {
+class BeatmapObjectSpawnController;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
 namespace GlobalNamespace {
-class BeatmapObjectData;
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace GlobalNamespace {
 class SpawnRotationBeatmapEventData;
@@ -60,8 +60,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__SpawnRotationChevronManager__DirectionData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4996))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5101))
 // CS Name: ::SpawnRotationChevronManager::DirectionData*
 class CORDL_TYPE __SpawnRotationChevronManager__DirectionData : public ::System::Object {
 public:
@@ -104,7 +104,7 @@ public:
 
   static inline ::GlobalNamespace::__SpawnRotationChevronManager__DirectionData* New_ctor();
 
-  /// @brief Method .ctor addr 0x23b6894 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x227da7c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SpawnRotationChevronManager__DirectionData", modifiers: "&&", def_value: None }]
@@ -138,13 +138,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SpawnRotationChevronManager__DirectionData, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SpawnRotationChevronManager__DirectionData, ___chevron) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SpawnRotationChevronManager__DirectionData, ___fullyLid) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SpawnRotationChevronManager__DirectionData, ___fadeOutStartTime) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SpawnRotationChevronManager__DirectionData, ___fadeInEndTime) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SpawnRotationChevronManager
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4997))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5102))
 // CS Name: ::SpawnRotationChevronManager*
 class CORDL_TYPE SpawnRotationChevronManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -316,30 +324,30 @@ public:
 
   constexpr void __set__currentSpawnRotation(float_t value);
 
-  /// @brief Method Start addr 0x23b5724 size 0x170 virtual false final false
+  /// @brief Method Start addr 0x227c90c size 0x170 virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x23b59d8 size 0xa64 virtual false final false
+  /// @brief Method Update addr 0x227cbc0 size 0xa64 virtual false final false
   inline void Update();
 
-  /// @brief Method OnDestroy addr 0x23b643c size 0xfc virtual false final false
+  /// @brief Method OnDestroy addr 0x227d624 size 0xfc virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeatmapObjectCallback addr 0x23b6538 size 0x35c virtual false final false
+  /// @brief Method HandleBeatmapObjectCallback addr 0x227d720 size 0x35c virtual false final false
   inline void HandleBeatmapObjectCallback(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
 
-  /// @brief Method HandleSpawnRotationBeatmapEvent addr 0x23b689c size 0x1c virtual false final false
+  /// @brief Method HandleSpawnRotationBeatmapEvent addr 0x227da84 size 0x1c virtual false final false
   inline void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
 
-  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit addr 0x23b5894 size 0x144 virtual false final false
+  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit addr 0x227ca7c size 0x144 virtual false final false
   inline void HandleBeatmapObjectSpawnControllerDidInit();
 
-  /// @brief Method ComputeAheadTime addr 0x23b68b8 size 0x5c virtual false final false
+  /// @brief Method ComputeAheadTime addr 0x227daa0 size 0x5c virtual false final false
   inline float_t ComputeAheadTime();
 
   static inline ::GlobalNamespace::SpawnRotationChevronManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x23b6914 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x227dafc size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevronManager", modifiers: "&&", def_value: None }]
@@ -414,6 +422,42 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpawnRotationChevronManager, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____fadeInTime) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____fadeOutTime) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____jumpStartOffsetTime) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____cutOffsetTime) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____fadeInLightAmountCurve) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____fadeOutLightAmountCurve) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____chevronPool) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____audioTimeSyncController) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____beatmapObjectSpawnController) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____beatmapCallbacksController) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____spawnRotationDataCallbackWrapper) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____beatmapObjectDataCallbackWrapper) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____directionToDataDictionary) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____activeDirections) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____reusableDirectionsList) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____moveDuration) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____halfJumpDuration) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____currentSpawnRotation) == 0x88, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SpawnRotationChevronManager);

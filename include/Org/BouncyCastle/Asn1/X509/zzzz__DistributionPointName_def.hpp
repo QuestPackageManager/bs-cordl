@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DistributionPointName)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralNames;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -68,40 +68,40 @@ public:
 
   constexpr void __set_type(int32_t value);
 
-  /// @brief Method GetInstance addr 0x118bf9c size 0x18 virtual false final false
+  /// @brief Method GetInstance addr 0x111bd54 size 0x18 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0x118c43c size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0x111c1f4 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* New_ctor(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* name);
 
-  /// @brief Method .ctor addr 0x118c61c size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x111c3d4 size 0x30 virtual false final false
   inline void _ctor(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* name);
 
   static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* name);
 
-  /// @brief Method .ctor addr 0x118c64c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x111c404 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* name);
 
-  /// @brief Method get_PointType addr 0x118c678 size 0x8 virtual false final false
+  /// @brief Method get_PointType addr 0x111c430 size 0x8 virtual false final false
   inline int32_t get_PointType();
 
-  /// @brief Method get_Name addr 0x118c680 size 0x8 virtual false final false
+  /// @brief Method get_Name addr 0x111c438 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Name();
 
   static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj);
 
-  /// @brief Method .ctor addr 0x118c5c4 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x111c37c size 0x58 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj);
 
-  /// @brief Method ToAsn1Object addr 0x118c688 size 0x74 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x111c440 size 0x74 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString addr 0x118c6fc size 0x168 virtual true final false
+  /// @brief Method ToString addr 0x111c4b4 size 0x168 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method appendObject addr 0x118c864 size 0xf8 virtual false final false
+  /// @brief Method appendObject addr 0x111c61c size 0xf8 virtual false final false
   inline void appendObject(::System::Text::StringBuilder* buf, ::StringW sep, ::StringW name, ::StringW val);
 
   // Ctor Parameters [CppParam { name: "", ty: "DistributionPointName", modifiers: "&&", def_value: None }]
@@ -134,6 +134,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::DistributionPointName, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::DistributionPointName, ___name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::DistributionPointName, ___type) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::DistributionPointName);

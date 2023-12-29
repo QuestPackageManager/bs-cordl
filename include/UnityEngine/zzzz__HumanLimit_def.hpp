@@ -20,8 +20,8 @@ MARK_VAL_T(::UnityEngine::HumanLimit);
 // SizeInfo { instance_size: 44, native_size: 44, calculated_instance_size: 44, calculated_native_size: 60, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14850))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15080))
 // CS Name: ::UnityEngine::HumanLimit
 struct CORDL_TYPE HumanLimit {
 public:
@@ -57,6 +57,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::HumanLimit, 0x2c>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanLimit, m_Min) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanLimit, m_Max) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanLimit, m_Center) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanLimit, m_AxisLength) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanLimit, m_UseDefaultValues) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HumanLimit, "UnityEngine", "HumanLimit");

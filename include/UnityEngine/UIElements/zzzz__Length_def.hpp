@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Length)
+namespace System {
+class Object;
+}
 namespace UnityEngine::UIElements {
 struct __Length__Unit;
 }
 namespace System {
 template <typename T> class IEquatable_1;
-}
-namespace System {
-class Object;
 }
 namespace UnityEngine::UIElements {
 struct LengthUnit;
@@ -35,7 +35,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Length);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7312))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7398))
 // CS Name: ::Length::Unit
 struct CORDL_TYPE __Length__Unit {
 public:
@@ -85,13 +85,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Length__Unit, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__Length__Unit, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::Length
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7312))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7313))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7398))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7399))
 // CS Name: ::UnityEngine.UIElements::Length
 struct CORDL_TYPE Length {
 public:
@@ -105,61 +107,61 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Length>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Length>*();
 
-  /// @brief Method Percent addr 0x2e7534c size 0x28 virtual false final false
+  /// @brief Method Percent addr 0x2d0bf9c size 0x28 virtual false final false
   static inline ::UnityEngine::UIElements::Length Percent(float_t value);
 
-  /// @brief Method Auto addr 0x2e710cc size 0x8 virtual false final false
+  /// @brief Method Auto addr 0x2d07d1c size 0x8 virtual false final false
   static inline ::UnityEngine::UIElements::Length Auto();
 
-  /// @brief Method None addr 0x2e710d4 size 0x8 virtual false final false
+  /// @brief Method None addr 0x2d07d24 size 0x8 virtual false final false
   static inline ::UnityEngine::UIElements::Length None();
 
-  /// @brief Method get_value addr 0x2e7539c size 0x8 virtual false final false
+  /// @brief Method get_value addr 0x2d0bfec size 0x8 virtual false final false
   inline float_t get_value();
 
-  /// @brief Method set_value addr 0x2e753a4 size 0x24 virtual false final false
+  /// @brief Method set_value addr 0x2d0bff4 size 0x24 virtual false final false
   inline void set_value(float_t value);
 
-  /// @brief Method get_unit addr 0x2e753c8 size 0x8 virtual false final false
+  /// @brief Method get_unit addr 0x2d0c018 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::LengthUnit get_unit();
 
-  /// @brief Method set_unit addr 0x2e753d0 size 0x8 virtual false final false
+  /// @brief Method set_unit addr 0x2d0c020 size 0x8 virtual false final false
   inline void set_unit(::UnityEngine::UIElements::LengthUnit value);
 
-  /// @brief Method IsAuto addr 0x2e70c00 size 0x10 virtual false final false
+  /// @brief Method IsAuto addr 0x2d07850 size 0x10 virtual false final false
   inline bool IsAuto();
 
-  /// @brief Method IsNone addr 0x2e70c10 size 0x10 virtual false final false
+  /// @brief Method IsNone addr 0x2d07860 size 0x10 virtual false final false
   inline bool IsNone();
 
-  /// @brief Method .ctor addr 0x2e753d8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d0c028 size 0x28 virtual false final false
   inline void _ctor(float_t value);
 
-  /// @brief Method .ctor addr 0x2e70bac size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d077fc size 0x28 virtual false final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::LengthUnit unit);
 
-  /// @brief Method .ctor addr 0x2e75374 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d0bfc4 size 0x28 virtual false final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::__Length__Unit unit);
 
-  /// @brief Method op_Implicit addr 0x2e75400 size 0x24 virtual false final false
+  /// @brief Method op_Implicit addr 0x2d0c050 size 0x24 virtual false final false
   static inline ::UnityEngine::UIElements::Length op_Implicit___UnityEngine__UIElements__Length(float_t value);
 
-  /// @brief Method op_Equality addr 0x2e70c58 size 0x28 virtual false final false
+  /// @brief Method op_Equality addr 0x2d078a8 size 0x28 virtual false final false
   static inline bool op_Equality(::UnityEngine::UIElements::Length lhs, ::UnityEngine::UIElements::Length rhs);
 
-  /// @brief Method op_Inequality addr 0x2e75424 size 0x28 virtual false final false
+  /// @brief Method op_Inequality addr 0x2d0c074 size 0x28 virtual false final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Length lhs, ::UnityEngine::UIElements::Length rhs);
 
-  /// @brief Method Equals addr 0x2e7544c size 0x28 virtual true final true
+  /// @brief Method Equals addr 0x2d0c09c size 0x28 virtual true final true
   inline bool Equals(::UnityEngine::UIElements::Length other);
 
-  /// @brief Method Equals addr 0x2e75474 size 0x8c virtual true final false
+  /// @brief Method Equals addr 0x2d0c0c4 size 0x8c virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2e70dc8 size 0x28 virtual true final false
+  /// @brief Method GetHashCode addr 0x2d07a18 size 0x28 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x2e71878 size 0x1c0 virtual true final false
+  /// @brief Method ToString addr 0x2d084c8 size 0x1c0 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Unit", ty: "::UnityEngine::UIElements::__Length__Unit", modifiers: "", def_value:
@@ -186,6 +188,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Length, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Length, m_Value) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Length, m_Unit) == 0x4, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__Length__Unit, "UnityEngine.UIElements", "Length/Unit");

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ISite)
-namespace System {
-class IServiceProvider;
-}
 namespace System::ComponentModel {
 class IContainer;
+}
+namespace System {
+class IServiceProvider;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::ComponentModel::ISite);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9397))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8234))
 // CS Name: ::System.ComponentModel::ISite*
 class CORDL_TYPE ISite {
 public:

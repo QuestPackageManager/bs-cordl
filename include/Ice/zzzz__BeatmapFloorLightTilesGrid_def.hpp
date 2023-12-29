@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapFloorLightTilesGrid)
-namespace Ice {
-class FloorLightTilesGrid;
-}
 namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
+}
+namespace Ice {
+class FloorLightTilesGrid;
 }
 // Forward declare root types
 namespace Ice {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::Ice::BeatmapFloorLightTilesGrid);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16164))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16004))
 // CS Name: ::Ice::BeatmapFloorLightTilesGrid*
 class CORDL_TYPE BeatmapFloorLightTilesGrid : public ::UnityEngine::MonoBehaviour {
 public:
@@ -73,12 +73,12 @@ public:
 
   constexpr void __set__beatmapObjectSpawnController(::GlobalNamespace::IBeatmapObjectSpawnController* value);
 
-  /// @brief Method Start addr 0x129ed94 size 0xf0 virtual false final false
+  /// @brief Method Start addr 0x122ca68 size 0xf0 virtual false final false
   inline void Start();
 
   static inline ::Ice::BeatmapFloorLightTilesGrid* New_ctor();
 
-  /// @brief Method .ctor addr 0x129f018 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x122ccec size 0x18 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapFloorLightTilesGrid", modifiers: "&&", def_value: None }]
@@ -114,6 +114,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Ice::BeatmapFloorLightTilesGrid, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Ice::BeatmapFloorLightTilesGrid, ____numberOfRows) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Ice::BeatmapFloorLightTilesGrid, ____tileWidth) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::Ice::BeatmapFloorLightTilesGrid, ____tileHeight) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Ice::BeatmapFloorLightTilesGrid, ____floorLightTilesGrid) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Ice::BeatmapFloorLightTilesGrid, ____beatmapObjectSpawnController) == 0x30, "Offset mismatch!");
 
 } // namespace Ice
 NEED_NO_BOX(::Ice::BeatmapFloorLightTilesGrid);

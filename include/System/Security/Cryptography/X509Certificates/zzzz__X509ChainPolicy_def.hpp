@@ -10,7 +10,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__TimeSpan_def.hpp"
 CORDL_MODULE_EXPORT(X509ChainPolicy)
 namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
+struct X509VerificationFlags;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2Collection;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509RevocationMode;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System {
+struct DateTime;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509RevocationFlag;
@@ -18,20 +30,8 @@ struct X509RevocationFlag;
 namespace System::Security::Cryptography {
 class OidCollection;
 }
-namespace System {
-struct TimeSpan;
-}
 namespace System::Security::Cryptography::X509Certificates {
-struct X509RevocationMode;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2Collection;
-}
-namespace System {
-struct DateTime;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509VerificationFlags;
+class X509CertificateCollection;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509ChainPoli
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8986)), TypeDefinitionIndex(TypeDefinitionIndex(8989)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(8987))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9008))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7824)), TypeDefinitionIndex(TypeDefinitionIndex(2482)), TypeDefinitionIndex(TypeDefinitionIndex(7823)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7826)), TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2611))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7845))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ChainPolicy*
 class CORDL_TYPE X509ChainPolicy : public ::System::Object {
 public:
@@ -144,40 +144,40 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* New_ctor();
 
-  /// @brief Method .ctor addr 0x2980a88 size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x2803218 size 0x1c virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_ExtraStore addr 0x29819e0 size 0x26c virtual false final false
+  /// @brief Method get_ExtraStore addr 0x2804170 size 0x26c virtual false final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_ExtraStore();
 
-  /// @brief Method get_RevocationFlag addr 0x2983aec size 0x8 virtual false final false
+  /// @brief Method get_RevocationFlag addr 0x280627c size 0x8 virtual false final false
   inline ::System::Security::Cryptography::X509Certificates::X509RevocationFlag get_RevocationFlag();
 
-  /// @brief Method set_RevocationFlag addr 0x2983af4 size 0x64 virtual false final false
+  /// @brief Method set_RevocationFlag addr 0x2806284 size 0x64 virtual false final false
   inline void set_RevocationFlag(::System::Security::Cryptography::X509Certificates::X509RevocationFlag value);
 
-  /// @brief Method get_RevocationMode addr 0x2983b58 size 0x8 virtual false final false
+  /// @brief Method get_RevocationMode addr 0x28062e8 size 0x8 virtual false final false
   inline ::System::Security::Cryptography::X509Certificates::X509RevocationMode get_RevocationMode();
 
-  /// @brief Method set_RevocationMode addr 0x2983b60 size 0x64 virtual false final false
+  /// @brief Method set_RevocationMode addr 0x28062f0 size 0x64 virtual false final false
   inline void set_RevocationMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
 
-  /// @brief Method set_UrlRetrievalTimeout addr 0x2983bc4 size 0x8 virtual false final false
+  /// @brief Method set_UrlRetrievalTimeout addr 0x2806354 size 0x8 virtual false final false
   inline void set_UrlRetrievalTimeout(::System::TimeSpan value);
 
-  /// @brief Method get_VerificationFlags addr 0x2983bcc size 0x8 virtual false final false
+  /// @brief Method get_VerificationFlags addr 0x280635c size 0x8 virtual false final false
   inline ::System::Security::Cryptography::X509Certificates::X509VerificationFlags get_VerificationFlags();
 
-  /// @brief Method set_VerificationFlags addr 0x2983bd4 size 0x64 virtual false final false
+  /// @brief Method set_VerificationFlags addr 0x2806364 size 0x64 virtual false final false
   inline void set_VerificationFlags(::System::Security::Cryptography::X509Certificates::X509VerificationFlags value);
 
-  /// @brief Method get_VerificationTime addr 0x2983c38 size 0x8 virtual false final false
+  /// @brief Method get_VerificationTime addr 0x28063c8 size 0x8 virtual false final false
   inline ::System::DateTime get_VerificationTime();
 
-  /// @brief Method set_VerificationTime addr 0x2983c40 size 0x8 virtual false final false
+  /// @brief Method set_VerificationTime addr 0x28063d0 size 0x8 virtual false final false
   inline void set_VerificationTime(::System::DateTime value);
 
-  /// @brief Method Reset addr 0x29839f8 size 0xf4 virtual false final false
+  /// @brief Method Reset addr 0x2806188 size 0xf4 virtual false final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509ChainPolicy", modifiers: "&&", def_value: None }]
@@ -225,6 +225,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509ChainPolicy, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainPolicy, ___apps) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainPolicy, ___cert) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainPolicy, ___store) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainPolicy, ___store2) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainPolicy, ___rflag) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainPolicy, ___mode) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainPolicy, ___timeout) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainPolicy, ___vflags) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainPolicy, ___vtime) == 0x48, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509ChainPolicy);

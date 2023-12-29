@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContractionComparer)
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
-}
 namespace Mono::Globalization::Unicode {
 class Contraction;
+}
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
 }
 // Forward declare root types
 namespace Mono::Globalization::Unicode {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Mono::Globalization::Unicode::ContractionComparer);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2261))
 // CS Name: ::Mono.Globalization.Unicode::ContractionComparer*
 class CORDL_TYPE ContractionComparer : public ::System::Object {
@@ -37,12 +37,12 @@ public:
 
   static inline ::Mono::Globalization::Unicode::ContractionComparer* getStaticF_Instance();
 
-  /// @brief Method Compare addr 0x24155c4 size 0x94 virtual true final true
+  /// @brief Method Compare addr 0x22bbb44 size 0x94 virtual true final true
   inline int32_t Compare(::Mono::Globalization::Unicode::Contraction* c1, ::Mono::Globalization::Unicode::Contraction* c2);
 
   static inline ::Mono::Globalization::Unicode::ContractionComparer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2415658 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22bbbd8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContractionComparer", modifiers: "&&", def_value: None }]

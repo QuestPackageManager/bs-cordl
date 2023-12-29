@@ -20,8 +20,8 @@ MARK_VAL_T(::OVR::OpenVR::Compositor_FrameTiming);
 // SizeInfo { instance_size: 176, native_size: 176, calculated_instance_size: 176, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8658))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8704))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9427))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9473))
 // CS Name: ::OVR.OpenVR::Compositor_FrameTiming
 struct CORDL_TYPE Compositor_FrameTiming {
 public:
@@ -127,6 +127,54 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::Compositor_FrameTiming, 0xb0>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_nSize) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_nFrameIndex) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_nNumFramePresents) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_nNumMisPresented) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_nNumDroppedFrames) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_nReprojectionFlags) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flSystemTimeInSeconds) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flPreSubmitGpuMs) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flPostSubmitGpuMs) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flTotalRenderGpuMs) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flCompositorRenderGpuMs) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flCompositorRenderCpuMs) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flCompositorIdleCpuMs) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flClientFrameIntervalMs) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flPresentCallCpuMs) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flWaitForPresentCpuMs) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flSubmitFrameMs) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flWaitGetPosesCalledMs) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flNewPosesReadyMs) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flNewFrameReadyMs) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flCompositorUpdateStartMs) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flCompositorUpdateEndMs) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flCompositorRenderStartMs) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_HmdPose) == 0x60, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::Compositor_FrameTiming, "OVR.OpenVR", "Compositor_FrameTiming");

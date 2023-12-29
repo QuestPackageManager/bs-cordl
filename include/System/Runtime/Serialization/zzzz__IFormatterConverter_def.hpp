@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::IFormatterConverter);
 namespace System::Runtime::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3194))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3193))
 // CS Name: ::System.Runtime.Serialization::IFormatterConverter*
 class CORDL_TYPE IFormatterConverter {
 public:

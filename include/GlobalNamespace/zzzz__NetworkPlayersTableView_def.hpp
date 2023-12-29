@@ -11,31 +11,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkPlayersTableView)
 namespace GlobalNamespace {
-class LevelPackHeaderTableCell;
-}
-namespace GlobalNamespace {
 class __NetworkPlayersTableView__CellInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace GlobalNamespace {
+class LevelPackHeaderTableCell;
+}
+namespace GlobalNamespace {
+class NetworkPlayerOptionsTableCell;
+}
 namespace HMUI {
 class TableView;
 }
 namespace HMUI {
-class __TableView__IDataSource;
-}
-namespace HMUI {
 class TableCell;
-}
-namespace GlobalNamespace {
-class NetworkPlayerOptionsTableCell;
 }
 namespace GlobalNamespace {
 class INetworkPlayer;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace HMUI {
+class __TableView__IDataSource;
 }
 namespace GlobalNamespace {
 class NetworkPlayerTableCell;
@@ -62,7 +62,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__NetworkPlayersTableView__CellInfo);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5585))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5677))
 // CS Name: ::NetworkPlayersTableView::CellInfo::CellType
 struct CORDL_TYPE __NetworkPlayersTableView__CellInfo__CellType {
 public:
@@ -108,13 +108,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::CellInfo
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5585)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5586))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5677)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5678))
 // CS Name: ::NetworkPlayersTableView::CellInfo*
 class CORDL_TYPE __NetworkPlayersTableView__CellInfo : public ::System::Object {
 public:
@@ -159,7 +161,7 @@ public:
 
   static inline ::GlobalNamespace::__NetworkPlayersTableView__CellInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x22a958c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x216413c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayersTableView__CellInfo", modifiers: "&&", def_value: None }]
@@ -193,13 +195,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NetworkPlayersTableView__CellInfo, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__NetworkPlayersTableView__CellInfo, ___type) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__NetworkPlayersTableView__CellInfo, ___headerString) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__NetworkPlayersTableView__CellInfo, ___player) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__NetworkPlayersTableView__CellInfo, ___lastCellInParty) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::NetworkPlayersTableView
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5587))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5679))
 // CS Name: ::NetworkPlayersTableView*
 class CORDL_TYPE NetworkPlayersTableView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -290,31 +300,31 @@ public:
 
   constexpr void __set__selectedCellHasOptions(bool value);
 
-  /// @brief Method CellSize addr 0x22a87f8 size 0x8 virtual true final true
+  /// @brief Method CellSize addr 0x21633a8 size 0x8 virtual true final true
   inline float_t CellSize();
 
-  /// @brief Method NumberOfCells addr 0x22a8800 size 0x48 virtual true final true
+  /// @brief Method NumberOfCells addr 0x21633b0 size 0x48 virtual true final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method CellForIdx addr 0x22a8848 size 0x5c4 virtual true final true
+  /// @brief Method CellForIdx addr 0x21633f8 size 0x5c4 virtual true final true
   inline ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method AddPlayers addr 0x22a8ed4 size 0x6b8 virtual false final false
+  /// @brief Method AddPlayers addr 0x2163a84 size 0x6b8 virtual false final false
   inline void AddPlayers(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* players, ::StringW title);
 
-  /// @brief Method SetParties addr 0x22a98e4 size 0x13c virtual false final false
+  /// @brief Method SetParties addr 0x2164494 size 0x13c virtual false final false
   inline void SetParties(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* partyPlayers,
                          ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* otherPlayers, ::StringW myPartyTitle, ::StringW otherPlayersTitle);
 
-  /// @brief Method HandleCellWasPressed addr 0x22a9a20 size 0x4 virtual false final false
+  /// @brief Method HandleCellWasPressed addr 0x21645d0 size 0x4 virtual false final false
   inline void HandleCellWasPressed(::HMUI::TableView* tableView, ::HMUI::TableCell* tableCell);
 
-  /// @brief Method HasVisibleOptions addr 0x22a9594 size 0x350 virtual false final false
+  /// @brief Method HasVisibleOptions addr 0x2164144 size 0x350 virtual false final false
   static inline bool HasVisibleOptions(::GlobalNamespace::INetworkPlayer* player);
 
   static inline ::GlobalNamespace::NetworkPlayersTableView* New_ctor();
 
-  /// @brief Method .ctor addr 0x22a9a24 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0x21645d4 size 0x8c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersTableView", modifiers: "&&", def_value: None }]
@@ -371,6 +381,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkPlayersTableView, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayersTableView, ____tableView) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayersTableView, ____playerCellPrefab) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayersTableView, ____optionsCellPrefab) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayersTableView, ____headerCellPrefab) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayersTableView, ____rowHeight) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayersTableView, ____cellInfo) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayersTableView, ____selectedCellIndex) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayersTableView, ____selectedPlayerID) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayersTableView, ____selectedCellHasOptions) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType, "", "NetworkPlayersTableView/CellInfo/CellType");

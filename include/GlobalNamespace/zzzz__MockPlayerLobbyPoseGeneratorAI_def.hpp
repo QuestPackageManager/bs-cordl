@@ -4,7 +4,7 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MockPlayerLobbyPoseGenerator_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
-#include <cstdint>
+#include <cmath>
 CORDL_MODULE_EXPORT(MockPlayerLobbyPoseGeneratorAI)
 namespace System {
 class Random;
@@ -19,11 +19,11 @@ class MockPlayerLobbyPoseGeneratorAI;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI);
 // Type: ::MockPlayerLobbyPoseGeneratorAI
-// SizeInfo { instance_size: 312, native_size: -1, calculated_instance_size: 312, calculated_native_size: 312, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 300, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(15522))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15523))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15506)), TypeDefinitionIndex(TypeDefinitionIndex(9985))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15507))
 // CS Name: ::MockPlayerLobbyPoseGeneratorAI*
 class CORDL_TYPE MockPlayerLobbyPoseGeneratorAI : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
 public:
@@ -49,20 +49,20 @@ public:
   /// @brief Field _lastRightHandPoseTarget, offset 0xb4, size 0x1c
   __declspec(property(get = __get__lastRightHandPoseTarget, put = __set__lastRightHandPoseTarget))::UnityEngine::Pose _lastRightHandPoseTarget;
 
-  /// @brief Field _lastTargetTime, offset 0xd0, size 0x8
-  __declspec(property(get = __get__lastTargetTime, put = __set__lastTargetTime)) int64_t _lastTargetTime;
+  /// @brief Field _lastTargetTime, offset 0xd0, size 0x4
+  __declspec(property(get = __get__lastTargetTime, put = __set__lastTargetTime)) float_t _lastTargetTime;
 
-  /// @brief Field _headPoseTarget, offset 0xd8, size 0x1c
+  /// @brief Field _headPoseTarget, offset 0xd4, size 0x1c
   __declspec(property(get = __get__headPoseTarget, put = __set__headPoseTarget))::UnityEngine::Pose _headPoseTarget;
 
-  /// @brief Field _leftHandPoseTarget, offset 0xf4, size 0x1c
+  /// @brief Field _leftHandPoseTarget, offset 0xf0, size 0x1c
   __declspec(property(get = __get__leftHandPoseTarget, put = __set__leftHandPoseTarget))::UnityEngine::Pose _leftHandPoseTarget;
 
-  /// @brief Field _rightHandPoseTarget, offset 0x110, size 0x1c
+  /// @brief Field _rightHandPoseTarget, offset 0x10c, size 0x1c
   __declspec(property(get = __get__rightHandPoseTarget, put = __set__rightHandPoseTarget))::UnityEngine::Pose _rightHandPoseTarget;
 
-  /// @brief Field _nextTargetTime, offset 0x130, size 0x8
-  __declspec(property(get = __get__nextTargetTime, put = __set__nextTargetTime)) int64_t _nextTargetTime;
+  /// @brief Field _nextTargetTime, offset 0x128, size 0x4
+  __declspec(property(get = __get__nextTargetTime, put = __set__nextTargetTime)) float_t _nextTargetTime;
 
   constexpr ::System::Random*& __get__random();
 
@@ -106,11 +106,11 @@ public:
 
   constexpr void __set__lastRightHandPoseTarget(::UnityEngine::Pose value);
 
-  constexpr int64_t& __get__lastTargetTime();
+  constexpr float_t& __get__lastTargetTime();
 
-  constexpr int64_t const& __get__lastTargetTime() const;
+  constexpr float_t const& __get__lastTargetTime() const;
 
-  constexpr void __set__lastTargetTime(int64_t value);
+  constexpr void __set__lastTargetTime(float_t value);
 
   constexpr ::UnityEngine::Pose& __get__headPoseTarget();
 
@@ -130,21 +130,21 @@ public:
 
   constexpr void __set__rightHandPoseTarget(::UnityEngine::Pose value);
 
-  constexpr int64_t& __get__nextTargetTime();
+  constexpr float_t& __get__nextTargetTime();
 
-  constexpr int64_t const& __get__nextTargetTime() const;
+  constexpr float_t const& __get__nextTargetTime() const;
 
-  constexpr void __set__nextTargetTime(int64_t value);
+  constexpr void __set__nextTargetTime(float_t value);
 
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method .ctor addr 0x23eb410 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x228ff38 size 0x4 virtual false final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method Init addr 0x23ebe6c size 0x2d0 virtual true final false
+  /// @brief Method Init addr 0x2290994 size 0x2d0 virtual true final false
   inline void Init();
 
-  /// @brief Method Tick addr 0x23ec13c size 0x9ec virtual true final false
+  /// @brief Method Tick addr 0x2290c64 size 0x9d8 virtual true final false
   inline void Tick();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerLobbyPoseGeneratorAI", modifiers: "&&", def_value: None }]
@@ -182,25 +182,49 @@ public:
   /// @brief Field _lastRightHandPoseTarget, offset: 0xb4, size: 0x1c, def value: None
   ::UnityEngine::Pose ____lastRightHandPoseTarget;
 
-  /// @brief Field _lastTargetTime, offset: 0xd0, size: 0x8, def value: None
-  int64_t ____lastTargetTime;
+  /// @brief Field _lastTargetTime, offset: 0xd0, size: 0x4, def value: None
+  float_t ____lastTargetTime;
 
-  /// @brief Field _headPoseTarget, offset: 0xd8, size: 0x1c, def value: None
+  /// @brief Field _headPoseTarget, offset: 0xd4, size: 0x1c, def value: None
   ::UnityEngine::Pose ____headPoseTarget;
 
-  /// @brief Field _leftHandPoseTarget, offset: 0xf4, size: 0x1c, def value: None
+  /// @brief Field _leftHandPoseTarget, offset: 0xf0, size: 0x1c, def value: None
   ::UnityEngine::Pose ____leftHandPoseTarget;
 
-  /// @brief Field _rightHandPoseTarget, offset: 0x110, size: 0x1c, def value: None
+  /// @brief Field _rightHandPoseTarget, offset: 0x10c, size: 0x1c, def value: None
   ::UnityEngine::Pose ____rightHandPoseTarget;
 
-  /// @brief Field _nextTargetTime, offset: 0x130, size: 0x8, def value: None
-  int64_t ____nextTargetTime;
+  /// @brief Field _nextTargetTime, offset: 0x128, size: 0x4, def value: None
+  float_t ____nextTargetTime;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, 0x138>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, 0x130>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, ____random) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, ____headPose) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, ____leftHandPose) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, ____rightHandPose) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, ____lastHeadPoseTarget) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, ____lastLeftHandPoseTarget) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, ____lastRightHandPoseTarget) == 0xb4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, ____lastTargetTime) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, ____headPoseTarget) == 0xd4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, ____leftHandPoseTarget) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, ____rightHandPoseTarget) == 0x10c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI, ____nextTargetTime) == 0x128, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI);

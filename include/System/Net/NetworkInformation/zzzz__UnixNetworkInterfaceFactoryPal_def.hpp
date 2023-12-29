@@ -17,13 +17,13 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixNetworkInterfaceFactoryPal
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9293))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8130))
 // CS Name: ::System.Net.NetworkInformation::UnixNetworkInterfaceFactoryPal*
 class CORDL_TYPE UnixNetworkInterfaceFactoryPal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create addr 0x29f02ec size 0xf4 virtual false final false
+  /// @brief Method Create addr 0x2873a68 size 0xf4 virtual false final false
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnixNetworkInterfaceFactoryPal", modifiers: "&&", def_value: None }]

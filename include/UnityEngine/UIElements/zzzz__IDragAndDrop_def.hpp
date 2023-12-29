@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IDragAndDrop);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6965))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7051))
 // CS Name: ::UnityEngine.UIElements::IDragAndDrop*
 class CORDL_TYPE IDragAndDrop {
 public:

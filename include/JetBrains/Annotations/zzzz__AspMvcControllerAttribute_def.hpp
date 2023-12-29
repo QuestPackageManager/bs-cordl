@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspMvcControllerAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15768))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15718))
 // CS Name: ::JetBrains.Annotations::AspMvcControllerAttribute*
 class CORDL_TYPE AspMvcControllerAttribute : public ::System::Attribute {
 public:
@@ -34,18 +34,18 @@ public:
 
   static inline ::JetBrains::Annotations::AspMvcControllerAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2eba5c4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d52844 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::JetBrains::Annotations::AspMvcControllerAttribute* New_ctor(::StringW anonymousProperty);
 
-  /// @brief Method .ctor addr 0x2eba5cc size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d5284c size 0x28 virtual false final false
   inline void _ctor(::StringW anonymousProperty);
 
-  /// @brief Method get_AnonymousProperty addr 0x2eba5f4 size 0x8 virtual false final false
+  /// @brief Method get_AnonymousProperty addr 0x2d52874 size 0x8 virtual false final false
   inline ::StringW get_AnonymousProperty();
 
-  /// @brief Method set_AnonymousProperty addr 0x2eba5fc size 0x8 virtual false final false
+  /// @brief Method set_AnonymousProperty addr 0x2d5287c size 0x8 virtual false final false
   inline void set_AnonymousProperty(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "AspMvcControllerAttribute", modifiers: "&&", def_value: None }]
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::AspMvcControllerAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::AspMvcControllerAttribute, ____AnonymousProperty_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::AspMvcControllerAttribute);

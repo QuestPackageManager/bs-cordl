@@ -19,19 +19,19 @@ MARK_REF_PTR_T(::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::Profiling::LowLevel::Unsafe {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9968))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9896))
 // CS Name: ::Unity.Profiling.LowLevel.Unsafe::ProfilerUnsafeUtility*
 class CORDL_TYPE ProfilerUnsafeUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateMarker addr 0x2c9d6a4 size 0x5c virtual false final false
+  /// @brief Method CreateMarker addr 0x2b38984 size 0x5c virtual false final false
   static inline void* CreateMarker(::StringW name, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags, int32_t metadataCount);
 
-  /// @brief Method BeginSample addr 0x2c9d828 size 0x3c virtual false final false
+  /// @brief Method BeginSample addr 0x2b38b08 size 0x3c virtual false final false
   static inline void BeginSample(void* markerPtr);
 
-  /// @brief Method EndSample addr 0x2c9d8f4 size 0x3c virtual false final false
+  /// @brief Method EndSample addr 0x2b38bd4 size 0x3c virtual false final false
   static inline void EndSample(void* markerPtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "ProfilerUnsafeUtility", modifiers: "&&", def_value: None }]

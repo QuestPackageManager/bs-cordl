@@ -3,6 +3,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Diagnostics/Tracing/zzzz__EventSource_def.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(CDSCollectionETWBCLProvider)
 // Forward declare root types
 namespace System::Collections::Concurrent {
@@ -14,8 +15,8 @@ MARK_REF_PTR_T(::System::Collections::Concurrent::CDSCollectionETWBCLProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Collections::Concurrent {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3747))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9526))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3735))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3793))
 // CS Name: ::System.Collections.Concurrent::CDSCollectionETWBCLProvider*
 class CORDL_TYPE CDSCollectionETWBCLProvider : public ::System::Diagnostics::Tracing::EventSource {
 public:
@@ -29,14 +30,11 @@ public:
 
   static inline ::System::Collections::Concurrent::CDSCollectionETWBCLProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x2941a4c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x243063c size 0x4 virtual false final false
   inline void _ctor();
 
-  /// @brief Method ConcurrentBag_TryTakeSteals addr 0x2941a54 size 0x38 virtual false final false
-  inline void ConcurrentBag_TryTakeSteals();
-
-  /// @brief Method ConcurrentBag_TryPeekSteals addr 0x2941a8c size 0x38 virtual false final false
-  inline void ConcurrentBag_TryPeekSteals();
+  /// @brief Method ConcurrentDictionary_AcquiringAllLocks addr 0x2430640 size 0x4 virtual false final false
+  inline void ConcurrentDictionary_AcquiringAllLocks(int32_t numOfBuckets);
 
   // Ctor Parameters [CppParam { name: "", ty: "CDSCollectionETWBCLProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::Zenject::GuiRenderer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11316))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11244))
 // CS Name: ::Zenject::GuiRenderer*
 class CORDL_TYPE GuiRenderer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -39,21 +39,21 @@ public:
 
   constexpr void __set__renderableManager(::Zenject::GuiRenderableManager* value);
 
-  /// @brief Method Construct addr 0x2f12f84 size 0x8 virtual false final false
+  /// @brief Method Construct addr 0x2dab1b4 size 0x8 virtual false final false
   inline void Construct(::Zenject::GuiRenderableManager* renderableManager);
 
-  /// @brief Method OnGUI addr 0x2f12f8c size 0x18 virtual false final false
+  /// @brief Method OnGUI addr 0x2dab1bc size 0x18 virtual false final false
   inline void OnGUI();
 
   static inline ::Zenject::GuiRenderer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2f12fa4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2dab1d4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method __zenInjectMethod0 addr 0x2f12fac size 0xdc virtual false final false
+  /// @brief Method __zenInjectMethod0 addr 0x2dab1dc size 0xdc virtual false final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f13088 size 0x2f8 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2dab2b8 size 0x2f8 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "GuiRenderer", modifiers: "&&", def_value: None }]
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::GuiRenderer, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::GuiRenderer, ____renderableManager) == 0x18, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::GuiRenderer);

@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Pkcs12Entry)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
@@ -15,10 +15,10 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
 class IDictionary;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::Pkcs12Entry);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1693))
 // CS Name: ::Org.BouncyCastle.Pkcs::Pkcs12Entry*
 class CORDL_TYPE Pkcs12Entry : public ::System::Object {
@@ -53,25 +53,25 @@ public:
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs12Entry* New_ctor(::System::Collections::IDictionary* attributes);
 
-  /// @brief Method .ctor addr 0x10d53d0 size 0x54c virtual false final false
+  /// @brief Method .ctor addr 0x106417c size 0x54c virtual false final false
   inline void _ctor(::System::Collections::IDictionary* attributes);
 
-  /// @brief Method GetBagAttribute addr 0x10d591c size 0xfc virtual false final false
+  /// @brief Method GetBagAttribute addr 0x10646c8 size 0xfc virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBagAttribute(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetBagAttribute addr 0x10d5a18 size 0xf4 virtual false final false
+  /// @brief Method GetBagAttribute addr 0x10647c4 size 0xf4 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBagAttribute(::StringW oid);
 
-  /// @brief Method GetBagAttributeKeys addr 0x10d5b0c size 0x118 virtual false final false
+  /// @brief Method GetBagAttributeKeys addr 0x10648b8 size 0x118 virtual false final false
   inline ::System::Collections::IEnumerator* GetBagAttributeKeys();
 
-  /// @brief Method get_Item addr 0x10d5c24 size 0xfc virtual false final false
+  /// @brief Method get_Item addr 0x10649d0 size 0xfc virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method get_Item addr 0x10d5d20 size 0xf4 virtual false final false
+  /// @brief Method get_Item addr 0x1064acc size 0xf4 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(::StringW oid);
 
-  /// @brief Method get_BagAttributeKeys addr 0x10d5e14 size 0xe4 virtual false final false
+  /// @brief Method get_BagAttributeKeys addr 0x1064bc0 size 0xe4 virtual false final false
   inline ::System::Collections::IEnumerable* get_BagAttributeKeys();
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Entry", modifiers: "&&", def_value: None }]
@@ -95,6 +95,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkcs::Pkcs12Entry, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Pkcs::Pkcs12Entry, ___attributes) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Pkcs::Pkcs12Entry);

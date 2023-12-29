@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorCached)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+class InjectContext;
 }
 namespace Zenject {
 class ISubContainerCreator;
@@ -13,8 +13,8 @@ class ISubContainerCreator;
 namespace Zenject {
 struct TypeValuePair;
 }
-namespace Zenject {
-class InjectContext;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
 class DiContainer;
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorCached);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11294))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11222))
 // CS Name: ::Zenject::SubContainerCreatorCached*
 class CORDL_TYPE SubContainerCreatorCached : public ::System::Object {
 public:
@@ -67,10 +67,10 @@ public:
 
   static inline ::Zenject::SubContainerCreatorCached* New_ctor(::Zenject::ISubContainerCreator* subCreator);
 
-  /// @brief Method .ctor addr 0x2f0d3ec size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2da561c size 0x28 virtual false final false
   inline void _ctor(::Zenject::ISubContainerCreator* subCreator);
 
-  /// @brief Method CreateSubContainer addr 0x2f0d414 size 0x180 virtual true final true
+  /// @brief Method CreateSubContainer addr 0x2da5644 size 0x180 virtual true final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorCached", modifiers: "&&", def_value: None }]
@@ -100,6 +100,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::SubContainerCreatorCached, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::SubContainerCreatorCached, ____subCreator) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::SubContainerCreatorCached, ____isLookingUp) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::SubContainerCreatorCached, ____subContainer) == 0x20, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::SubContainerCreatorCached);

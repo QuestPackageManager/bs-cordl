@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::IPlayerEditorConnectionNative);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10141))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10069))
 // CS Name: ::UnityEngine::IPlayerEditorConnectionNative*
 class CORDL_TYPE IPlayerEditorConnectionNative {
 public:

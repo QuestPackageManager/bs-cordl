@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerSpectatingSpotManager)
-namespace GlobalNamespace {
-class IMultiplayerSpectatingSpot;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class __MultiplayerSpectatingSpotManager____c;
 }
+namespace GlobalNamespace {
+class IMultiplayerSpectatingSpot;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerSpectatingSpotManager____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5261))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5356))
 // CS Name: ::MultiplayerSpectatingSpotManager::<>c*
 class CORDL_TYPE __MultiplayerSpectatingSpotManager____c : public ::System::Object {
 public:
@@ -59,10 +59,10 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerSpectatingSpotManager____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x225e60c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x211a474 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <get_defaultSpot>b__3_0 addr 0x225e614 size 0xa0 virtual false final false
+  /// @brief Method <get_defaultSpot>b__3_0 addr 0x211a47c size 0xa0 virtual false final false
   inline bool _get_defaultSpot_b__3_0(::GlobalNamespace::IMultiplayerSpectatingSpot* s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerSpectatingSpotManager____c", modifiers: "&&", def_value: None }]
@@ -89,8 +89,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerSp
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5262))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5357))
 // CS Name: ::MultiplayerSpectatingSpotManager*
 class CORDL_TYPE MultiplayerSpectatingSpotManager : public ::System::Object {
 public:
@@ -120,30 +120,30 @@ public:
 
   constexpr void __set__spotIndexBySpot(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::IMultiplayerSpectatingSpot*, int32_t>* value);
 
-  /// @brief Method get_spectatingSpots addr 0x225dfbc size 0x8 virtual false final false
+  /// @brief Method get_spectatingSpots addr 0x2119e24 size 0x8 virtual false final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* get_spectatingSpots();
 
-  /// @brief Method get_defaultSpot addr 0x225dfc4 size 0x158 virtual false final false
+  /// @brief Method get_defaultSpot addr 0x2119e2c size 0x158 virtual false final false
   inline ::GlobalNamespace::IMultiplayerSpectatingSpot* get_defaultSpot();
 
-  /// @brief Method RegisterSpectatingSpot addr 0x225d88c size 0x164 virtual false final false
+  /// @brief Method RegisterSpectatingSpot addr 0x21196f4 size 0x164 virtual false final false
   inline void RegisterSpectatingSpot(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
 
-  /// @brief Method GetAdjacentSpot addr 0x225e290 size 0xb4 virtual false final false
+  /// @brief Method GetAdjacentSpot addr 0x211a0f8 size 0xb4 virtual false final false
   inline ::GlobalNamespace::IMultiplayerSpectatingSpot* GetAdjacentSpot(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot, int32_t offset);
 
-  /// @brief Method GetIndexBySpot addr 0x225e344 size 0x84 virtual false final false
+  /// @brief Method GetIndexBySpot addr 0x211a1ac size 0x84 virtual false final false
   inline int32_t GetIndexBySpot(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
 
-  /// @brief Method UpdateIndexBySpotDictionary addr 0x225e11c size 0x174 virtual false final false
+  /// @brief Method UpdateIndexBySpotDictionary addr 0x2119f84 size 0x174 virtual false final false
   inline void UpdateIndexBySpotDictionary();
 
-  /// @brief Method SpotOnHasBeenRemoved addr 0x225e3c8 size 0x120 virtual false final false
+  /// @brief Method SpotOnHasBeenRemoved addr 0x211a230 size 0x120 virtual false final false
   inline void SpotOnHasBeenRemoved(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
 
   static inline ::GlobalNamespace::MultiplayerSpectatingSpotManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x225e4e8 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x211a350 size 0xc0 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatingSpotManager", modifiers: "&&", def_value: None }]
@@ -170,6 +170,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerSpectatingSpotManager, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSpectatingSpotManager, ____spectatingSpots) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerSpectatingSpotManager, ____spotIndexBySpot) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerSpectatingSpotManager);

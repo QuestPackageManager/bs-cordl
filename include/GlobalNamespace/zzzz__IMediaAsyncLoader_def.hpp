@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IMediaAsyncLoader)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace UnityEngine {
 class AudioClip;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMediaAsyncLoader);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5894))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5985))
 // CS Name: ::IMediaAsyncLoader*
 class CORDL_TYPE IMediaAsyncLoader {
 public:

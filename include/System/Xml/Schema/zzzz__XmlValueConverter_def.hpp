@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlValueConverter)
 namespace System {
-class Type;
+struct DateTimeOffset;
 }
 namespace System {
 struct Decimal;
 }
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
 namespace System {
-struct DateTimeOffset;
+struct DateTime;
 }
 namespace System {
 class Object;
 }
 namespace System {
-struct DateTime;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
+class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlValueConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11747))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11675))
 // CS Name: ::System.Xml.Schema::XmlValueConverter*
 class CORDL_TYPE XmlValueConverter : public ::System::Object {
 public:
@@ -217,7 +217,7 @@ public:
 
   static inline ::System::Xml::Schema::XmlValueConverter* New_ctor();
 
-  /// @brief Method .ctor addr 0x28c9354 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x274b330 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlValueConverter", modifiers: "&&", def_value: None }]

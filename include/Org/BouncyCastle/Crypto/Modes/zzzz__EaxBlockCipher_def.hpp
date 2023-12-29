@@ -8,11 +8,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EaxBlockCipher)
-namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+namespace Org::BouncyCastle::Crypto::Modes {
+class SicBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
@@ -20,14 +17,17 @@ class ICipherParameters;
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadCipher;
 }
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadBlockCipher;
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 struct __EaxBlockCipher__Tag;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
-class SicBlockCipher;
+class IAeadBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {
@@ -90,12 +90,14 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Modes::__EaxBlockCipher__Tag, 0x1>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::__EaxBlockCipher__Tag, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Crypto::Modes
 // Type: Org.BouncyCastle.Crypto.Modes::EaxBlockCipher
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(969))
 // CS Name: ::Org.BouncyCastle.Crypto.Modes::EaxBlockCipher*
 class CORDL_TYPE EaxBlockCipher : public ::System::Object {
@@ -221,61 +223,61 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method .ctor addr 0xf1bd7c size 0x24c virtual false final false
+  /// @brief Method .ctor addr 0xea6b90 size 0x24c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method get_AlgorithmName addr 0xf1bfc8 size 0xd4 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xea6ddc size 0xd4 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetUnderlyingCipher addr 0xf1c09c size 0x8 virtual true final false
+  /// @brief Method GetUnderlyingCipher addr 0xea6eb0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Crypto::IBlockCipher* GetUnderlyingCipher();
 
-  /// @brief Method GetBlockSize addr 0xf1c0a4 size 0x24 virtual true final false
+  /// @brief Method GetBlockSize addr 0xea6eb8 size 0x24 virtual true final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method Init addr 0xf1c0c8 size 0x490 virtual true final false
+  /// @brief Method Init addr 0xea6edc size 0x490 virtual true final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method InitCipher addr 0xf1c558 size 0x198 virtual false final false
+  /// @brief Method InitCipher addr 0xea736c size 0x198 virtual false final false
   inline void InitCipher();
 
-  /// @brief Method CalculateMac addr 0xf1c6f0 size 0x158 virtual false final false
+  /// @brief Method CalculateMac addr 0xea7504 size 0x158 virtual false final false
   inline void CalculateMac();
 
-  /// @brief Method Reset addr 0xf1c848 size 0x8 virtual true final false
+  /// @brief Method Reset addr 0xea765c size 0x8 virtual true final false
   inline void Reset();
 
-  /// @brief Method Reset addr 0xf1c850 size 0x1f8 virtual false final false
+  /// @brief Method Reset addr 0xea7664 size 0x1f8 virtual false final false
   inline void Reset(bool clearMac);
 
-  /// @brief Method ProcessAadByte addr 0xf1ca48 size 0x100 virtual true final false
+  /// @brief Method ProcessAadByte addr 0xea785c size 0x100 virtual true final false
   inline void ProcessAadByte(uint8_t input);
 
-  /// @brief Method ProcessAadBytes addr 0xf1cb48 size 0x118 virtual true final false
+  /// @brief Method ProcessAadBytes addr 0xea795c size 0x118 virtual true final false
   inline void ProcessAadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len);
 
-  /// @brief Method ProcessByte addr 0xf1cc60 size 0x40 virtual true final false
+  /// @brief Method ProcessByte addr 0xea7a74 size 0x40 virtual true final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method ProcessBytes addr 0xf1cefc size 0x94 virtual true final false
+  /// @brief Method ProcessBytes addr 0xea7d10 size 0x94 virtual true final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method DoFinal addr 0xf1cf90 size 0x350 virtual true final false
+  /// @brief Method DoFinal addr 0xea7da4 size 0x350 virtual true final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method GetMac addr 0xf1d374 size 0x74 virtual true final false
+  /// @brief Method GetMac addr 0xea8188 size 0x74 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMac();
 
-  /// @brief Method GetUpdateOutputSize addr 0xf1d3e8 size 0x34 virtual true final false
+  /// @brief Method GetUpdateOutputSize addr 0xea81fc size 0x34 virtual true final false
   inline int32_t GetUpdateOutputSize(int32_t len);
 
-  /// @brief Method GetOutputSize addr 0xf1d41c size 0x1028 virtual true final false
+  /// @brief Method GetOutputSize addr 0xea8230 size 0x1028 virtual true final false
   inline int32_t GetOutputSize(int32_t len);
 
-  /// @brief Method Process addr 0xf1cca0 size 0x25c virtual false final false
+  /// @brief Method Process addr 0xea7ab4 size 0x25c virtual false final false
   inline int32_t Process(uint8_t b, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method VerifyMac addr 0xf1d2e0 size 0x94 virtual false final false
+  /// @brief Method VerifyMac addr 0xea80f4 size 0x94 virtual false final false
   inline bool VerifyMac(::ArrayW<uint8_t, ::Array<uint8_t>*> mac, int32_t off);
 
   // Ctor Parameters [CppParam { name: "", ty: "EaxBlockCipher", modifiers: "&&", def_value: None }]
@@ -332,6 +334,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher, ___cipher) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher, ___forEncryption) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher, ___blockSize) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher, ___mac) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher, ___nonceMac) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher, ___associatedTextMac) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher, ___macBlock) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher, ___macSize) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher, ___bufBlock) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher, ___bufOff) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher, ___cipherInitialized) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher, ___initialAssociatedText) == 0x58, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Modes
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Modes::__EaxBlockCipher__Tag, "Org.BouncyCastle.Crypto.Modes", "EaxBlockCipher/Tag");

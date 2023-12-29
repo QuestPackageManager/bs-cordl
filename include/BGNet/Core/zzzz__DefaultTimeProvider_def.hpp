@@ -17,13 +17,13 @@ MARK_REF_PTR_T(::BGNet::Core::DefaultTimeProvider);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGNet::Core {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13001))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12931))
 // CS Name: ::BGNet.Core::DefaultTimeProvider*
 class CORDL_TYPE DefaultTimeProvider : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_instance addr 0xe5e164 size 0x58 virtual false final false
+  /// @brief Method get_instance addr 0xdd8484 size 0x58 virtual false final false
   static inline ::BGNet::Core::ITimeProvider* get_instance();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultTimeProvider", modifiers: "&&", def_value: None }]

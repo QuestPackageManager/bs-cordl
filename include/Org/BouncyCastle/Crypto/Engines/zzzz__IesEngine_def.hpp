@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IesEngine)
 namespace Org::BouncyCastle::Crypto {
-class IBasicAgreement;
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
 class BufferedBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class IDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class IesParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
 class KdfParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
+class IBasicAgreement;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class IesParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::IesEngine);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(849))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::IesEngine*
 class CORDL_TYPE IesEngine : public ::System::Object {
@@ -127,30 +127,30 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Engines::IesEngine* New_ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf,
                                                                           ::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method .ctor addr 0xed42e4 size 0xf4 virtual false final false
+  /// @brief Method .ctor addr 0xe5f110 size 0xf4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf, ::Org::BouncyCastle::Crypto::IMac* mac);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::IesEngine* New_ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf,
                                                                           ::Org::BouncyCastle::Crypto::IMac* mac, ::Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher);
 
-  /// @brief Method .ctor addr 0xed43d8 size 0x100 virtual false final false
+  /// @brief Method .ctor addr 0xe5f204 size 0x100 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf, ::Org::BouncyCastle::Crypto::IMac* mac,
                     ::Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher);
 
-  /// @brief Method Init addr 0xed44d8 size 0xc8 virtual true final false
+  /// @brief Method Init addr 0xe5f304 size 0xc8 virtual true final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* privParameters, ::Org::BouncyCastle::Crypto::ICipherParameters* pubParameters,
                    ::Org::BouncyCastle::Crypto::ICipherParameters* iesParameters);
 
-  /// @brief Method DecryptBlock addr 0xed45a0 size 0x6ac virtual false final false
+  /// @brief Method DecryptBlock addr 0xe5f3cc size 0x6ac virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> in_enc, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> z);
 
-  /// @brief Method EncryptBlock addr 0xed4da4 size 0x5ec virtual false final false
+  /// @brief Method EncryptBlock addr 0xe5fbd0 size 0x5ec virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> z);
 
-  /// @brief Method GenerateKdfBytes addr 0xed4c4c size 0x158 virtual false final false
+  /// @brief Method GenerateKdfBytes addr 0xe5fa78 size 0x158 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateKdfBytes(::Org::BouncyCastle::Crypto::Parameters::KdfParameters* kParam, int32_t length);
 
-  /// @brief Method ProcessBlock addr 0xed5390 size 0x284 virtual true final false
+  /// @brief Method ProcessBlock addr 0xe601bc size 0x284 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
   // Ctor Parameters [CppParam { name: "", ty: "IesEngine", modifiers: "&&", def_value: None }]
@@ -198,6 +198,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::IesEngine, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IesEngine, ___agree) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IesEngine, ___kdf) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IesEngine, ___mac) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IesEngine, ___cipher) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IesEngine, ___macBuf) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IesEngine, ___forEncryption) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IesEngine, ___privParam) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IesEngine, ___pubParam) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IesEngine, ___param) == 0x50, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::IesEngine);

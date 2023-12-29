@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Net::ValidationHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9075))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7912))
 // CS Name: ::System.Net::ValidationHelper*
 class CORDL_TYPE ValidationHelper : public ::System::Object {
 public:
@@ -44,13 +44,13 @@ public:
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_InvalidParamChars();
 
-  /// @brief Method MakeStringNull addr 0x299dde8 size 0x14 virtual false final false
+  /// @brief Method MakeStringNull addr 0x2820570 size 0x14 virtual false final false
   static inline ::StringW MakeStringNull(::StringW stringValue);
 
-  /// @brief Method IsBlankString addr 0x299ddfc size 0x1c virtual false final false
+  /// @brief Method IsBlankString addr 0x2820584 size 0x1c virtual false final false
   static inline bool IsBlankString(::StringW stringValue);
 
-  /// @brief Method ValidateTcpPort addr 0x299de18 size 0xc virtual false final false
+  /// @brief Method ValidateTcpPort addr 0x28205a0 size 0xc virtual false final false
   static inline bool ValidateTcpPort(int32_t port);
 
   // Ctor Parameters [CppParam { name: "", ty: "ValidationHelper", modifiers: "&&", def_value: None }]

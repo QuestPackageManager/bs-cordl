@@ -1,3 +1,0 @@
-#pragma once
-#include "GlobalNamespace/zzzz__SonyFirstPersonFlyingControllerHandler_def.hpp"
-#include "GlobalNamespace/zzzz__SonyFirstPersonFlyingControllerHandler_impl.hpp"

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlElementWrapper)
-namespace Newtonsoft::Json::Converters {
-class IXmlElement;
-}
 namespace System::Xml {
 class XmlElement;
+}
+namespace Newtonsoft::Json::Converters {
+class IXmlElement;
 }
 namespace Newtonsoft::Json::Converters {
 class IXmlNode;
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XmlElementWrapper);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12052))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12049))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11980))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11977))
 // CS Name: ::Newtonsoft.Json.Converters::XmlElementWrapper*
 class CORDL_TYPE XmlElementWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper {
 public:
@@ -49,16 +49,16 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::XmlElementWrapper* New_ctor(::System::Xml::XmlElement* element);
 
-  /// @brief Method .ctor addr 0x26b9dac size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2555668 size 0x2c virtual false final false
   inline void _ctor(::System::Xml::XmlElement* element);
 
-  /// @brief Method SetAttributeNode addr 0x26ba084 size 0xe8 virtual true final true
+  /// @brief Method SetAttributeNode addr 0x2555940 size 0xe8 virtual true final true
   inline void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
 
-  /// @brief Method GetPrefixOfNamespace addr 0x26ba16c size 0x24 virtual true final true
+  /// @brief Method GetPrefixOfNamespace addr 0x2555a28 size 0x24 virtual true final true
   inline ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
 
-  /// @brief Method get_IsEmpty addr 0x26ba190 size 0x1c virtual true final true
+  /// @brief Method get_IsEmpty addr 0x2555a4c size 0x1c virtual true final true
   inline bool get_IsEmpty();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlElementWrapper", modifiers: "&&", def_value: None }]
@@ -82,6 +82,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Converters::XmlElementWrapper, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Converters::XmlElementWrapper, ____element) == 0x28, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Converters
 NEED_NO_BOX(::Newtonsoft::Json::Converters::XmlElementWrapper);

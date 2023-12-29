@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Certificate2Collection)
 namespace System::Security::Cryptography::X509Certificates {
-struct X509FindType;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2Enumerator;
-}
-namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509FindType;
 }
 namespace System {
 class Object;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2Enumerator;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certifica
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9000))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8994))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7837))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7831))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Certificate2Collection*
 class CORDL_TYPE X509Certificate2Collection : public ::System::Security::Cryptography::X509Certificates::X509CertificateCollection {
 public:
@@ -46,34 +46,34 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* New_ctor();
 
-  /// @brief Method .ctor addr 0x297b510 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27fd798 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* New_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* certificates);
 
-  /// @brief Method .ctor addr 0x297b520 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x27fd7a8 size 0x2c virtual false final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* certificates);
 
-  /// @brief Method get_Item addr 0x297b5c0 size 0x12c virtual false final false
+  /// @brief Method get_Item addr 0x27fd848 size 0x12c virtual false final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_Item(int32_t index);
 
-  /// @brief Method Add addr 0x297b6ec size 0x74 virtual false final false
+  /// @brief Method Add addr 0x27fd974 size 0x74 virtual false final false
   inline int32_t Add(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method AddRange addr 0x297b54c size 0x74 virtual false final false
+  /// @brief Method AddRange addr 0x27fd7d4 size 0x74 virtual false final false
   inline void AddRange(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* certificates);
 
-  /// @brief Method Contains addr 0x297b760 size 0x384 virtual false final false
+  /// @brief Method Contains addr 0x27fd9e8 size 0x384 virtual false final false
   inline bool Contains(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method GetKeyIdentifier addr 0x297bae4 size 0xcc virtual false final false
+  /// @brief Method GetKeyIdentifier addr 0x27fdd6c size 0xcc virtual false final false
   inline ::StringW GetKeyIdentifier(::System::Security::Cryptography::X509Certificates::X509Certificate2* x);
 
-  /// @brief Method Find addr 0x297bbb0 size 0x1138 virtual false final false
+  /// @brief Method Find addr 0x27fde38 size 0x113c virtual false final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* Find(::System::Security::Cryptography::X509Certificates::X509FindType findType, ::System::Object* findValue,
                                                                                               bool validOnly);
 
-  /// @brief Method GetEnumerator addr 0x297cce8 size 0x60 virtual false final false
+  /// @brief Method GetEnumerator addr 0x27fef74 size 0x60 virtual false final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator* GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Certificate2Collection", modifiers: "&&", def_value: None }]

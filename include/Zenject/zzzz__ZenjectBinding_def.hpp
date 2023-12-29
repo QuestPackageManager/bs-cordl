@@ -12,11 +12,11 @@ CORDL_MODULE_EXPORT(ZenjectBinding)
 namespace Zenject {
 struct __ZenjectBinding__BindTypes;
 }
-namespace UnityEngine {
-class Component;
-}
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace UnityEngine {
+class Component;
 }
 namespace Zenject {
 class Context;
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::Zenject::ZenjectBinding);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11155))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11083))
 // CS Name: ::ZenjectBinding::BindTypes
 struct CORDL_TYPE __ZenjectBinding__BindTypes {
 public:
@@ -86,13 +86,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__ZenjectBinding__BindTypes, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__ZenjectBinding__BindTypes, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: Zenject::ZenjectBinding
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(11155))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11156))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(11083))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11084))
 // CS Name: ::Zenject::ZenjectBinding*
 class CORDL_TYPE ZenjectBinding : public ::UnityEngine::MonoBehaviour {
 public:
@@ -165,36 +167,36 @@ public:
 
   constexpr void __set__bindType(::Zenject::__ZenjectBinding__BindTypes value);
 
-  /// @brief Method get_UseSceneContext addr 0x2ef5c18 size 0x8 virtual false final false
+  /// @brief Method get_UseSceneContext addr 0x2d8de5c size 0x8 virtual false final false
   inline bool get_UseSceneContext();
 
-  /// @brief Method get_IfNotBound addr 0x2ef5c20 size 0x8 virtual false final false
+  /// @brief Method get_IfNotBound addr 0x2d8de64 size 0x8 virtual false final false
   inline bool get_IfNotBound();
 
-  /// @brief Method get_Context addr 0x2ef5c28 size 0x8 virtual false final false
+  /// @brief Method get_Context addr 0x2d8de6c size 0x8 virtual false final false
   inline ::Zenject::Context* get_Context();
 
-  /// @brief Method set_Context addr 0x2ef5c30 size 0x8 virtual false final false
+  /// @brief Method set_Context addr 0x2d8de74 size 0x8 virtual false final false
   inline void set_Context(::Zenject::Context* value);
 
-  /// @brief Method get_Components addr 0x2ef5c38 size 0x8 virtual false final false
+  /// @brief Method get_Components addr 0x2d8de7c size 0x8 virtual false final false
   inline ::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*> get_Components();
 
-  /// @brief Method get_Identifier addr 0x2ef5c40 size 0x8 virtual false final false
+  /// @brief Method get_Identifier addr 0x2d8de84 size 0x8 virtual false final false
   inline ::StringW get_Identifier();
 
-  /// @brief Method get_BindType addr 0x2ef5c48 size 0x8 virtual false final false
+  /// @brief Method get_BindType addr 0x2d8de8c size 0x8 virtual false final false
   inline ::Zenject::__ZenjectBinding__BindTypes get_BindType();
 
-  /// @brief Method Start addr 0x2ef5c50 size 0x4 virtual false final false
+  /// @brief Method Start addr 0x2d8de94 size 0x4 virtual false final false
   inline void Start();
 
   static inline ::Zenject::ZenjectBinding* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ef5c54 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x2d8de98 size 0x58 virtual false final false
   inline void _ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2ef5cac size 0x178 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d8def0 size 0x178 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "ZenjectBinding", modifiers: "&&", def_value: None }]
@@ -233,6 +235,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::ZenjectBinding, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::ZenjectBinding, ____components) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::ZenjectBinding, ____identifier) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::ZenjectBinding, ____useSceneContext) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::ZenjectBinding, ____ifNotBound) == 0x29, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::ZenjectBinding, ____context) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::ZenjectBinding, ____bindType) == 0x38, "Offset mismatch!");
 
 } // namespace Zenject
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::__ZenjectBinding__BindTypes, "Zenject", "ZenjectBinding/BindTypes");

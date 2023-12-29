@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DTSubString)
 namespace System {
-struct DTSubStringType;
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+struct DTSubStringType;
 }
 // Forward declare root types
 namespace System {
@@ -23,14 +23,14 @@ MARK_VAL_T(::System::DTSubString);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2394)) CS Name: ::System::DTSubString
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2393)), TypeDefinitionIndex(TypeDefinitionIndex(2462)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2462), inst: 293
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(2394)) CS Name: ::System::DTSubString
 struct CORDL_TYPE DTSubString {
 public:
   // Declarations
   __declspec(property(get = get_Item)) char16_t Item[];
 
-  /// @brief Method get_Item addr 0x25a5844 size 0x2c virtual false final false
+  /// @brief Method get_Item addr 0x244a204 size 0x2c virtual false final false
   inline char16_t get_Item(int32_t relativeIndex);
 
   // Ctor Parameters [CppParam { name: "s", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None },
@@ -64,6 +64,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::DTSubString, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::DTSubString, s) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::DTSubString, index) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::DTSubString, length) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::DTSubString, type) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::DTSubString, value) == 0x1c, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::DTSubString, "System", "DTSubString");

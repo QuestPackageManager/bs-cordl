@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::LiteNetLib::NetDebug);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14159))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14497))
 // CS Name: ::LiteNetLib::NetDebug*
 class CORDL_TYPE NetDebug : public ::System::Object {
 public:
@@ -45,22 +45,22 @@ public:
 
   static inline ::System::Object* getStaticF_DebugLogLock();
 
-  /// @brief Method WriteLogic addr 0x21fbee4 size 0x220 virtual false final false
+  /// @brief Method WriteLogic addr 0x209a090 size 0x220 virtual false final false
   static inline void WriteLogic(::LiteNetLib::NetLogLevel logLevel, ::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Write addr 0x21fc104 size 0x68 virtual false final false
+  /// @brief Method Write addr 0x209a2b0 size 0x68 virtual false final false
   static inline void Write(::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Write addr 0x21fc16c size 0x6c virtual false final false
+  /// @brief Method Write addr 0x209a318 size 0x6c virtual false final false
   static inline void Write(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method WriteForce addr 0x21fc1d8 size 0x68 virtual false final false
+  /// @brief Method WriteForce addr 0x209a384 size 0x68 virtual false final false
   static inline void WriteForce(::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method WriteForce addr 0x21fc240 size 0x6c virtual false final false
+  /// @brief Method WriteForce addr 0x209a3ec size 0x6c virtual false final false
   static inline void WriteForce(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method WriteError addr 0x21f84d4 size 0x68 virtual false final false
+  /// @brief Method WriteError addr 0x2096680 size 0x68 virtual false final false
   static inline void WriteError(::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetDebug", modifiers: "&&", def_value: None }]

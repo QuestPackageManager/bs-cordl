@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EmptyEnumerable)
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1778))
 // CS Name: ::Org.BouncyCastle.Utilities.Collections::EmptyEnumerable*
 class CORDL_TYPE EmptyEnumerable : public ::System::Object {
@@ -38,10 +38,10 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable* New_ctor();
 
-  /// @brief Method .ctor addr 0x11579f0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x10e67a8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method GetEnumerator addr 0x11579f8 size 0x58 virtual true final true
+  /// @brief Method GetEnumerator addr 0x10e67b0 size 0x58 virtual true final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "EmptyEnumerable", modifiers: "&&", def_value: None }]

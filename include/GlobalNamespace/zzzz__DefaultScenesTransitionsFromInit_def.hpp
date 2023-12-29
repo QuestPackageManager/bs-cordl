@@ -8,12 +8,6 @@ namespace GlobalNamespace {
 class HealthWarningScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace GlobalNamespace {
-class MenuScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
 class RecordingToolScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
@@ -21,6 +15,12 @@ class BeatmapEditorScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class ShaderWarmupScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace GlobalNamespace {
+class MenuScenesTransitionSetupDataSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DefaultScenesTransitionsFromInit);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4023))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4018))
 // CS Name: ::DefaultScenesTransitionsFromInit*
 class CORDL_TYPE DefaultScenesTransitionsFromInit : public ::UnityEngine::MonoBehaviour {
 public:
@@ -99,15 +99,15 @@ public:
 
   constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
 
-  /// @brief Method get_mainMenuScenesTransitionSetupData addr 0x2225d5c size 0x8 virtual false final false
+  /// @brief Method get_mainMenuScenesTransitionSetupData addr 0x20c5fb4 size 0x8 virtual false final false
   inline ::GlobalNamespace::MenuScenesTransitionSetupDataSO* get_mainMenuScenesTransitionSetupData();
 
-  /// @brief Method TransitionToNextScene addr 0x2225d64 size 0x1d0 virtual false final false
+  /// @brief Method TransitionToNextScene addr 0x20c5fbc size 0x1d0 virtual false final false
   inline void TransitionToNextScene(bool goStraightToMenu, bool goStraightToEditor, bool goToRecordingToolScene);
 
   static inline ::GlobalNamespace::DefaultScenesTransitionsFromInit* New_ctor();
 
-  /// @brief Method .ctor addr 0x2225f34 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20c618c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultScenesTransitionsFromInit", modifiers: "&&", def_value: None }]
@@ -146,6 +146,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DefaultScenesTransitionsFromInit, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____healthWarningScenesTransitionSetupData) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____recordingToolScenesTransitionSetupData) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____mainMenuScenesTransitionSetupData) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____beatmapEditorScenesTransitionSetupData) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____shaderWarmupScenesTransitionSetupData) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____gameScenesManager) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DefaultScenesTransitionsFromInit);

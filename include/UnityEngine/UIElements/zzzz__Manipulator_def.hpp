@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Manipulator)
 namespace UnityEngine::UIElements {
-class VisualElement;
+class IManipulator;
 }
 namespace UnityEngine::UIElements {
-class IManipulator;
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Manipulator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6905))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6991))
 // CS Name: ::UnityEngine.UIElements::Manipulator*
 class CORDL_TYPE Manipulator : public ::System::Object {
 public:
@@ -46,15 +46,15 @@ public:
   /// @brief Method UnregisterCallbacksFromTarget addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void UnregisterCallbacksFromTarget();
 
-  /// @brief Method get_target addr 0x2dfef20 size 0x8 virtual true final true
+  /// @brief Method get_target addr 0x2c98b70 size 0x8 virtual true final true
   inline ::UnityEngine::UIElements::VisualElement* get_target();
 
-  /// @brief Method set_target addr 0x2dfef28 size 0x54 virtual true final true
+  /// @brief Method set_target addr 0x2c98b78 size 0x54 virtual true final true
   inline void set_target(::UnityEngine::UIElements::VisualElement* value);
 
   static inline ::UnityEngine::UIElements::Manipulator* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dfef7c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2c98bcc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Manipulator", modifiers: "&&", def_value: None }]
@@ -78,6 +78,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Manipulator, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Manipulator, ___m_Target) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Manipulator);

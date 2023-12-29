@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ChaCha20Poly1305)
-namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
-namespace Org::BouncyCastle::Crypto::Engines {
-class ChaCha7539Engine;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadCipher;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 struct __ChaCha20Poly1305__State;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMac;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Engines {
+class ChaCha7539Engine;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {
@@ -109,12 +109,14 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Crypto::Modes
 // Type: Org.BouncyCastle.Crypto.Modes::ChaCha20Poly1305
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(962))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(962)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(963))
 // CS Name: ::Org.BouncyCastle.Crypto.Modes::ChaCha20Poly1305*
 class CORDL_TYPE ChaCha20Poly1305 : public ::System::Object {
@@ -235,72 +237,72 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305* New_ctor();
 
-  /// @brief Method .ctor addr 0xf17bdc size 0x60 virtual false final false
+  /// @brief Method .ctor addr 0xea29f0 size 0x60 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305* New_ctor(::Org::BouncyCastle::Crypto::IMac* poly1305);
 
-  /// @brief Method .ctor addr 0xf17c3c size 0x1e4 virtual false final false
+  /// @brief Method .ctor addr 0xea2a50 size 0x1e4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* poly1305);
 
-  /// @brief Method get_AlgorithmName addr 0xf17e20 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xea2c34 size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0xf17e60 size 0x464 virtual true final false
+  /// @brief Method Init addr 0xea2c74 size 0x464 virtual true final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetOutputSize addr 0xf18404 size 0xf8 virtual true final false
+  /// @brief Method GetOutputSize addr 0xea3218 size 0xf8 virtual true final false
   inline int32_t GetOutputSize(int32_t len);
 
-  /// @brief Method GetUpdateOutputSize addr 0xf184fc size 0xfc virtual true final false
+  /// @brief Method GetUpdateOutputSize addr 0xea3310 size 0xfc virtual true final false
   inline int32_t GetUpdateOutputSize(int32_t len);
 
-  /// @brief Method ProcessAadByte addr 0xf185f8 size 0xc8 virtual true final false
+  /// @brief Method ProcessAadByte addr 0xea340c size 0xc8 virtual true final false
   inline void ProcessAadByte(uint8_t input);
 
-  /// @brief Method ProcessAadBytes addr 0xf187e0 size 0x1f8 virtual true final false
+  /// @brief Method ProcessAadBytes addr 0xea35f4 size 0x1f8 virtual true final false
   inline void ProcessAadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len);
 
-  /// @brief Method ProcessByte addr 0xf189d8 size 0x288 virtual true final false
+  /// @brief Method ProcessByte addr 0xea37ec size 0x288 virtual true final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method ProcessBytes addr 0xf18dfc size 0x508 virtual true final false
+  /// @brief Method ProcessBytes addr 0xea3c10 size 0x508 virtual true final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method DoFinal addr 0xf19304 size 0x3d0 virtual true final false
+  /// @brief Method DoFinal addr 0xea4118 size 0x3d0 virtual true final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method GetMac addr 0xf19864 size 0x5c virtual true final false
+  /// @brief Method GetMac addr 0xea4678 size 0x5c virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMac();
 
-  /// @brief Method Reset addr 0xf198c0 size 0xc virtual true final false
+  /// @brief Method Reset addr 0xea46d4 size 0xc virtual true final false
   inline void Reset();
 
-  /// @brief Method CheckAad addr 0xf186c0 size 0xb8 virtual false final false
+  /// @brief Method CheckAad addr 0xea34d4 size 0xb8 virtual false final false
   inline void CheckAad();
 
-  /// @brief Method CheckData addr 0xf18c60 size 0xd4 virtual false final false
+  /// @brief Method CheckData addr 0xea3a74 size 0xd4 virtual false final false
   inline void CheckData();
 
-  /// @brief Method FinishAad addr 0xf198cc size 0x2c virtual false final false
+  /// @brief Method FinishAad addr 0xea46e0 size 0x2c virtual false final false
   inline void FinishAad(::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State nextState);
 
-  /// @brief Method FinishData addr 0xf196d4 size 0x190 virtual false final false
+  /// @brief Method FinishData addr 0xea44e8 size 0x190 virtual false final false
   inline void FinishData(::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State nextState);
 
-  /// @brief Method IncrementCount addr 0xf18778 size 0x68 virtual false final false
+  /// @brief Method IncrementCount addr 0xea358c size 0x68 virtual false final false
   inline uint64_t IncrementCount(uint64_t count, uint32_t increment, uint64_t limit);
 
-  /// @brief Method InitMac addr 0xf199f8 size 0x1d4 virtual false final false
+  /// @brief Method InitMac addr 0xea480c size 0x1d4 virtual false final false
   inline void InitMac();
 
-  /// @brief Method PadMac addr 0xf198f8 size 0x100 virtual false final false
+  /// @brief Method PadMac addr 0xea470c size 0x100 virtual false final false
   inline void PadMac(uint64_t count);
 
-  /// @brief Method ProcessData addr 0xf18d34 size 0xc8 virtual false final false
+  /// @brief Method ProcessData addr 0xea3b48 size 0xc8 virtual false final false
   inline void ProcessData(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method Reset addr 0xf182c4 size 0x140 virtual false final false
+  /// @brief Method Reset addr 0xea30d8 size 0x140 virtual false final false
   inline void Reset(bool clearMac, bool resetCipher);
 
   // Ctor Parameters [CppParam { name: "", ty: "ChaCha20Poly1305", modifiers: "&&", def_value: None }]
@@ -372,6 +374,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305, ___mChacha20) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305, ___mPoly1305) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305, ___mKey) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305, ___mNonce) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305, ___mBuf) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305, ___mMac) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305, ___mInitialAad) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305, ___mAadCount) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305, ___mDataCount) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305, ___mState) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305, ___mBufPos) == 0x5c, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Modes
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State, "Org.BouncyCastle.Crypto.Modes", "ChaCha20Poly1305/State");

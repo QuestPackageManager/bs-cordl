@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IEditTimeValidated);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14338))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13809))
 // CS Name: ::IEditTimeValidated*
 class CORDL_TYPE IEditTimeValidated {
 public:

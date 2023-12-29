@@ -7,37 +7,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectSecurity)
 namespace System::Security::AccessControl {
-struct AccessControlType;
-}
-namespace System::Security::AccessControl {
 struct AccessControlSections;
-}
-namespace System::Security::AccessControl {
-class CommonSecurityDescriptor;
-}
-namespace System::Security::AccessControl {
-struct PropagationFlags;
-}
-namespace System::Security::AccessControl {
-class AccessRule;
-}
-namespace System::Security::AccessControl {
-struct InheritanceFlags;
 }
 namespace System {
 class Type;
 }
 namespace System::Security::AccessControl {
-class AuthorizationRuleCollection;
+class CommonSecurityDescriptor;
 }
 namespace System::Security::AccessControl {
-class QualifiedAce;
+struct AccessControlType;
 }
 namespace System::Security::Principal {
 class IdentityReference;
 }
+namespace System::Security::AccessControl {
+struct PropagationFlags;
+}
 namespace System::Threading {
 class ReaderWriterLock;
+}
+namespace System::Security::AccessControl {
+class AuthorizationRuleCollection;
+}
+namespace System::Security::AccessControl {
+class AccessRule;
+}
+namespace System::Security::AccessControl {
+class QualifiedAce;
+}
+namespace System::Security::AccessControl {
+struct InheritanceFlags;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -49,8 +49,8 @@ MARK_REF_PTR_T(::System::Security::AccessControl::ObjectSecurity);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3013)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3044))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3012))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3043))
 // CS Name: ::System.Security.AccessControl::ObjectSecurity*
 class CORDL_TYPE ObjectSecurity : public ::System::Object {
 public:
@@ -86,15 +86,15 @@ public:
 
   static inline ::System::Security::AccessControl::ObjectSecurity* New_ctor(::System::Security::AccessControl::CommonSecurityDescriptor* securityDescriptor);
 
-  /// @brief Method .ctor addr 0x24847c8 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x232ccd4 size 0xc4 virtual false final false
   inline void _ctor(::System::Security::AccessControl::CommonSecurityDescriptor* securityDescriptor);
 
   static inline ::System::Security::AccessControl::ObjectSecurity* New_ctor(bool isContainer, bool isDS);
 
-  /// @brief Method .ctor addr 0x2482be0 size 0xfc virtual false final false
+  /// @brief Method .ctor addr 0x232b0ec size 0xfc virtual false final false
   inline void _ctor(bool isContainer, bool isDS);
 
-  /// @brief Method set_AccessControlSectionsModified addr 0x2484100 size 0x24 virtual false final false
+  /// @brief Method set_AccessControlSectionsModified addr 0x232c60c size 0x24 virtual false final false
   inline void set_AccessControlSectionsModified(::System::Security::AccessControl::AccessControlSections value);
 
   /// @brief Method AccessRuleFactory addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -103,25 +103,25 @@ public:
                                                                           ::System::Security::AccessControl::PropagationFlags propagationFlags,
                                                                           ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method ReadLock addr 0x24848fc size 0x20 virtual false final false
+  /// @brief Method ReadLock addr 0x232ce08 size 0x20 virtual false final false
   inline void ReadLock();
 
-  /// @brief Method ReadUnlock addr 0x248491c size 0x1c virtual false final false
+  /// @brief Method ReadUnlock addr 0x232ce28 size 0x1c virtual false final false
   inline void ReadUnlock();
 
-  /// @brief Method Writing addr 0x248488c size 0x70 virtual false final false
+  /// @brief Method Writing addr 0x232cd98 size 0x70 virtual false final false
   inline void Writing();
 
-  /// @brief Method WriteLock addr 0x24840e0 size 0x20 virtual false final false
+  /// @brief Method WriteLock addr 0x232c5ec size 0x20 virtual false final false
   inline void WriteLock();
 
-  /// @brief Method WriteUnlock addr 0x2484938 size 0x1c virtual false final false
+  /// @brief Method WriteUnlock addr 0x232ce44 size 0x1c virtual false final false
   inline void WriteUnlock();
 
-  /// @brief Method InternalGetAccessRules addr 0x2482ce8 size 0x324 virtual false final false
+  /// @brief Method InternalGetAccessRules addr 0x232b1f4 size 0x324 virtual false final false
   inline ::System::Security::AccessControl::AuthorizationRuleCollection* InternalGetAccessRules(bool includeExplicit, bool includeInherited, ::System::Type* targetType);
 
-  /// @brief Method InternalAccessRuleFactory addr 0x2484954 size 0x70 virtual true final false
+  /// @brief Method InternalAccessRuleFactory addr 0x232ce60 size 0x70 virtual true final false
   inline ::System::Security::AccessControl::AccessRule* InternalAccessRuleFactory(::System::Security::AccessControl::QualifiedAce* ace, ::System::Type* targetType,
                                                                                   ::System::Security::AccessControl::AccessControlType type);
 
@@ -152,6 +152,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::ObjectSecurity, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::ObjectSecurity, ___descriptor) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::ObjectSecurity, ___sections_modified) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::ObjectSecurity, ___rw_lock) == 0x20, "Offset mismatch!");
 
 } // namespace System::Security::AccessControl
 NEED_NO_BOX(::System::Security::AccessControl::ObjectSecurity);

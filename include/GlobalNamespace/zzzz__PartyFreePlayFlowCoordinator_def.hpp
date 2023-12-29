@@ -7,16 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PartyFreePlayFlowCoordinator)
 namespace GlobalNamespace {
-class MenuLightsPresetSO;
-}
-namespace GlobalNamespace {
-class ISaveData;
-}
-namespace GlobalNamespace {
 class ResultsViewController;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
 }
 namespace GlobalNamespace {
 class __PartyFreePlayFlowCoordinator____c__DisplayClass23_0;
@@ -25,25 +16,34 @@ namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-class LocalLeaderboardViewController;
+class LeaderboardViewController;
 }
 namespace GlobalNamespace {
 class EnterPlayerGuestNameViewController;
 }
 namespace GlobalNamespace {
-class __PartyFreePlayFlowCoordinator____c__DisplayClass18_0;
-}
-namespace GlobalNamespace {
 class MenuLightsManager;
 }
 namespace GlobalNamespace {
-class LeaderboardViewController;
+class __PartyFreePlayFlowCoordinator____c__DisplayClass18_0;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class LocalLeaderboardViewController;
+}
+namespace GlobalNamespace {
+class MenuLightsPresetSO;
+}
+namespace GlobalNamespace {
+class ISaveData;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -63,8 +63,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayCl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5518))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5611))
 // CS Name: ::PartyFreePlayFlowCoordinator::<>c__DisplayClass18_0*
 class CORDL_TYPE __PartyFreePlayFlowCoordinator____c__DisplayClass18_0 : public ::System::Object {
 public:
@@ -125,10 +125,10 @@ public:
 
   static inline ::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x229b118 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2156c10 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0 addr 0x229b388 size 0xc8 virtual false final false
+  /// @brief Method <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0 addr 0x2156c18 size 0xd0 virtual false final false
   inline void _ProcessLevelCompletionResultsAfterLevelDidFinish_b__0(::GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::StringW playerName);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PartyFreePlayFlowCoordinator____c__DisplayClass18_0", modifiers: "&&", def_value: None }]
@@ -168,13 +168,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0, ___levelCompletionResults) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0, ___leaderboardId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0, ___transformedBeatmapData) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0, ___difficultyBeatmap) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0, ___practice) == 0x38, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass23_0
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5519))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5612))
 // CS Name: ::PartyFreePlayFlowCoordinator::<>c__DisplayClass23_0*
 class CORDL_TYPE __PartyFreePlayFlowCoordinator____c__DisplayClass23_0 : public ::System::Object {
 public:
@@ -199,10 +211,10 @@ public:
 
   static inline ::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass23_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x229b370 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2156ce8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <HandleResultsViewControllerRestartButtonPressed>b__0 addr 0x229b450 size 0x50 virtual false final false
+  /// @brief Method <HandleResultsViewControllerRestartButtonPressed>b__0 addr 0x2156cf0 size 0x50 virtual false final false
   inline void _HandleResultsViewControllerRestartButtonPressed_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PartyFreePlayFlowCoordinator____c__DisplayClass23_0", modifiers: "&&", def_value: None }]
@@ -230,13 +242,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass23_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass23_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass23_0, ___resultsViewController) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::PartyFreePlayFlowCoordinator
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5526))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5520))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5619))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5613))
 // CS Name: ::PartyFreePlayFlowCoordinator*
 class CORDL_TYPE PartyFreePlayFlowCoordinator : public ::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator {
 public:
@@ -325,46 +341,46 @@ public:
 
   constexpr void __set__saveData(::GlobalNamespace::ISaveData* value);
 
-  /// @brief Method get_gameMode addr 0x229aaf4 size 0x40 virtual true final false
+  /// @brief Method get_gameMode addr 0x21553ec size 0x40 virtual true final false
   inline ::StringW get_gameMode();
 
-  /// @brief Method get_leaderboardViewController addr 0x229ab34 size 0x8 virtual true final false
+  /// @brief Method get_leaderboardViewController addr 0x215542c size 0x8 virtual true final false
   inline ::GlobalNamespace::LeaderboardViewController* get_leaderboardViewController();
 
-  /// @brief Method get_showBackButtonForMainViewController addr 0x229ab3c size 0x8 virtual true final false
+  /// @brief Method get_showBackButtonForMainViewController addr 0x2155434 size 0x8 virtual true final false
   inline bool get_showBackButtonForMainViewController();
 
-  /// @brief Method get_mainTitle addr 0x229ab44 size 0x44 virtual true final false
+  /// @brief Method get_mainTitle addr 0x215543c size 0x44 virtual true final false
   inline ::StringW get_mainTitle();
 
-  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidActivate addr 0x229ab88 size 0x1d0 virtual true final false
+  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidActivate addr 0x2155480 size 0x1d4 virtual true final false
   inline void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
 
-  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate addr 0x229ad88 size 0x14c virtual true final false
+  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate addr 0x2155654 size 0x14c virtual true final false
   inline void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
 
-  /// @brief Method ProcessLevelCompletionResultsAfterLevelDidFinish addr 0x229aed4 size 0x244 virtual true final false
+  /// @brief Method ProcessLevelCompletionResultsAfterLevelDidFinish addr 0x21557a0 size 0x238 virtual true final false
   inline void ProcessLevelCompletionResultsAfterLevelDidFinish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
                                                                ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
 
-  /// @brief Method WillScoreGoToLeaderboard addr 0x229b144 size 0x50 virtual false final false
+  /// @brief Method WillScoreGoToLeaderboard addr 0x21559d8 size 0x50 virtual false final false
   inline bool WillScoreGoToLeaderboard(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::StringW leaderboardId, bool practice);
 
-  /// @brief Method IsNewHighScore addr 0x229b194 size 0x44 virtual false final false
+  /// @brief Method IsNewHighScore addr 0x2155a28 size 0x44 virtual false final false
   inline bool IsNewHighScore(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::StringW leaderboardId);
 
-  /// @brief Method ProcessScore addr 0x229b1d8 size 0x94 virtual false final false
+  /// @brief Method ProcessScore addr 0x2155a6c size 0x94 virtual false final false
   inline void ProcessScore(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::StringW leaderboardId, ::StringW playerName);
 
-  /// @brief Method HandleResultsViewControllerContinueButtonPressed addr 0x229b26c size 0x3c virtual false final false
+  /// @brief Method HandleResultsViewControllerContinueButtonPressed addr 0x2155b00 size 0x3c virtual false final false
   inline void HandleResultsViewControllerContinueButtonPressed(::GlobalNamespace::ResultsViewController* resultsViewController);
 
-  /// @brief Method HandleResultsViewControllerRestartButtonPressed addr 0x229b2a8 size 0xc8 virtual false final false
+  /// @brief Method HandleResultsViewControllerRestartButtonPressed addr 0x2155b3c size 0xcc virtual false final false
   inline void HandleResultsViewControllerRestartButtonPressed(::GlobalNamespace::ResultsViewController* resultsViewController);
 
   static inline ::GlobalNamespace::PartyFreePlayFlowCoordinator* New_ctor();
 
-  /// @brief Method .ctor addr 0x229b378 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2155c08 size 0x1008 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator", modifiers: "&&", def_value: None }]
@@ -409,6 +425,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PartyFreePlayFlowCoordinator, 0x150>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____defaultLightsPreset) == 0x110, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____resultsClearedLightsPreset) == 0x118, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____resultsFailedLightsPreset) == 0x120, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____menuLightsManager) == 0x128, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____resultsViewController) == 0x130, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____localLeaderboardViewController) == 0x138, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____enterNameViewController) == 0x140, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____saveData) == 0x148, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PartyFreePlayFlowCoordinator);

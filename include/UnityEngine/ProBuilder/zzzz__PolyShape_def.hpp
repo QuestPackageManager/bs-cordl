@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PolyShape)
 namespace UnityEngine::ProBuilder {
-struct __PolyShape__PolyEditMode;
-}
-namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace UnityEngine::ProBuilder {
+struct __PolyShape__PolyEditMode;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 namespace System::Collections::ObjectModel {
 template <typename T> class ReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::PolyShape);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12149))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12077))
 // CS Name: ::PolyShape::PolyEditMode
 struct CORDL_TYPE __PolyShape__PolyEditMode {
 public:
@@ -91,13 +91,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__PolyShape__PolyEditMode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::ProBuilder::__PolyShape__PolyEditMode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::ProBuilder
 // Type: UnityEngine.ProBuilder::PolyShape
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(12149))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12150))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12077)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12078))
 // CS Name: ::UnityEngine.ProBuilder::PolyShape*
 class CORDL_TYPE PolyShape : public ::UnityEngine::MonoBehaviour {
 public:
@@ -168,42 +170,42 @@ public:
 
   constexpr void __set_isOnGrid(bool value);
 
-  /// @brief Method get_controlPoints addr 0x2b55e30 size 0x7c virtual false final false
+  /// @brief Method get_controlPoints addr 0x29d40dc size 0x7c virtual false final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Vector3>* get_controlPoints();
 
-  /// @brief Method SetControlPoints addr 0x2b55eac size 0x5c virtual false final false
+  /// @brief Method SetControlPoints addr 0x29d4158 size 0x5c virtual false final false
   inline void SetControlPoints(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points);
 
-  /// @brief Method get_extrude addr 0x2b55f08 size 0x8 virtual false final false
+  /// @brief Method get_extrude addr 0x29d41b4 size 0x8 virtual false final false
   inline float_t get_extrude();
 
-  /// @brief Method set_extrude addr 0x2b55f10 size 0x8 virtual false final false
+  /// @brief Method set_extrude addr 0x29d41bc size 0x8 virtual false final false
   inline void set_extrude(float_t value);
 
-  /// @brief Method get_polyEditMode addr 0x2b55f18 size 0x8 virtual false final false
+  /// @brief Method get_polyEditMode addr 0x29d41c4 size 0x8 virtual false final false
   inline ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode get_polyEditMode();
 
-  /// @brief Method set_polyEditMode addr 0x2b55f20 size 0x8 virtual false final false
+  /// @brief Method set_polyEditMode addr 0x29d41cc size 0x8 virtual false final false
   inline void set_polyEditMode(::UnityEngine::ProBuilder::__PolyShape__PolyEditMode value);
 
-  /// @brief Method get_flipNormals addr 0x2b55f28 size 0x8 virtual false final false
+  /// @brief Method get_flipNormals addr 0x29d41d4 size 0x8 virtual false final false
   inline bool get_flipNormals();
 
-  /// @brief Method set_flipNormals addr 0x2b55f30 size 0xc virtual false final false
+  /// @brief Method set_flipNormals addr 0x29d41dc size 0xc virtual false final false
   inline void set_flipNormals(bool value);
 
-  /// @brief Method get_mesh addr 0x2b55f3c size 0x94 virtual false final false
+  /// @brief Method get_mesh addr 0x29d41e8 size 0x94 virtual false final false
   inline ::UnityEngine::ProBuilder::ProBuilderMesh* get_mesh();
 
-  /// @brief Method set_mesh addr 0x2b55fd0 size 0x8 virtual false final false
+  /// @brief Method set_mesh addr 0x29d427c size 0x8 virtual false final false
   inline void set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
 
-  /// @brief Method IsSnapEnabled addr 0x2b55fd8 size 0x8 virtual false final false
+  /// @brief Method IsSnapEnabled addr 0x29d4284 size 0x8 virtual false final false
   inline bool IsSnapEnabled();
 
   static inline ::UnityEngine::ProBuilder::PolyShape* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b55fe0 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x29d428c size 0x84 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PolyShape", modifiers: "&&", def_value: None }]
@@ -242,6 +244,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::PolyShape, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___m_Mesh) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___m_Points) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___m_Extrude) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___m_EditMode) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___m_FlipNormals) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___isOnGrid) == 0x31, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::__PolyShape__PolyEditMode, "UnityEngine.ProBuilder", "PolyShape/PolyEditMode");

@@ -5,28 +5,28 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(SignerInfo)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class IssuerAndSerialNumber;
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class IssuerAndSerialNumber;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class Asn1Sequence;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -121,7 +121,7 @@ public:
 
   constexpr void __set_unauthenticatedAttributes(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method GetInstance addr 0xf900fc size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xf19ed8 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SignerInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SignerInfo* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* version, ::Org::BouncyCastle::Asn1::Pkcs::IssuerAndSerialNumber* issuerAndSerialNumber,
@@ -129,7 +129,7 @@ public:
                                                                       ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digEncryptionAlgorithm,
                                                                       ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedDigest, ::Org::BouncyCastle::Asn1::Asn1Set* unauthenticatedAttributes);
 
-  /// @brief Method .ctor addr 0xf90928 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0xf1a704 size 0x64 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* version, ::Org::BouncyCastle::Asn1::Pkcs::IssuerAndSerialNumber* issuerAndSerialNumber,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digAlgorithm, ::Org::BouncyCastle::Asn1::Asn1Set* authenticatedAttributes,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digEncryptionAlgorithm, ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedDigest,
@@ -137,31 +137,31 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SignerInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf90284 size 0x6a4 virtual false final false
+  /// @brief Method .ctor addr 0xf1a060 size 0x6a4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Version addr 0xf9098c size 0x8 virtual false final false
+  /// @brief Method get_Version addr 0xf1a768 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_IssuerAndSerialNumber addr 0xf90994 size 0x8 virtual false final false
+  /// @brief Method get_IssuerAndSerialNumber addr 0xf1a770 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::IssuerAndSerialNumber* get_IssuerAndSerialNumber();
 
-  /// @brief Method get_AuthenticatedAttributes addr 0xf9099c size 0x8 virtual false final false
+  /// @brief Method get_AuthenticatedAttributes addr 0xf1a778 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_AuthenticatedAttributes();
 
-  /// @brief Method get_DigestAlgorithm addr 0xf909a4 size 0x8 virtual false final false
+  /// @brief Method get_DigestAlgorithm addr 0xf1a780 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_DigestAlgorithm();
 
-  /// @brief Method get_EncryptedDigest addr 0xf909ac size 0x8 virtual false final false
+  /// @brief Method get_EncryptedDigest addr 0xf1a788 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_EncryptedDigest();
 
-  /// @brief Method get_DigestEncryptionAlgorithm addr 0xf909b4 size 0x8 virtual false final false
+  /// @brief Method get_DigestEncryptionAlgorithm addr 0xf1a790 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_DigestEncryptionAlgorithm();
 
-  /// @brief Method get_UnauthenticatedAttributes addr 0xf909bc size 0x8 virtual false final false
+  /// @brief Method get_UnauthenticatedAttributes addr 0xf1a798 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_UnauthenticatedAttributes();
 
-  /// @brief Method ToAsn1Object addr 0xf909c4 size 0x1fc virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf1a7a0 size 0x1fc virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignerInfo", modifiers: "&&", def_value: None }]
@@ -203,6 +203,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::SignerInfo, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::SignerInfo, ___version) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::SignerInfo, ___issuerAndSerialNumber) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::SignerInfo, ___digAlgorithm) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::SignerInfo, ___authenticatedAttributes) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::SignerInfo, ___digEncryptionAlgorithm) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::SignerInfo, ___encryptedDigest) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::SignerInfo, ___unauthenticatedAttributes) == 0x40, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Pkcs::SignerInfo);

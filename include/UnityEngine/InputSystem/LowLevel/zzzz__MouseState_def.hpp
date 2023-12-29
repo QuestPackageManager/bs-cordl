@@ -28,8 +28,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::MouseState);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 30, calculated_native_size: 46, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6504))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6590))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::MouseState
 #pragma pack(push, 0)
 struct CORDL_TYPE MouseState {
@@ -94,13 +94,13 @@ public:
 
   constexpr void __set_clickCount(uint16_t value);
 
-  /// @brief Method get_Format addr 0x2ae89fc size 0x30 virtual false final false
+  /// @brief Method get_Format addr 0x2968cb4 size 0x30 virtual false final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method WithButton addr 0x2ae8a2c size 0x2c virtual false final false
+  /// @brief Method WithButton addr 0x2968ce4 size 0x2c virtual false final false
   inline ::UnityEngine::InputSystem::LowLevel::MouseState WithButton(::UnityEngine::InputSystem::LowLevel::MouseButton button, bool state);
 
-  /// @brief Method get_format addr 0x2ae8a58 size 0x30 virtual true final true
+  /// @brief Method get_format addr 0x2968d10 size 0x30 virtual true final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "delta", ty: "::UnityEngine::Vector2", modifiers: "", def_value:

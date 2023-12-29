@@ -12,10 +12,10 @@ namespace GlobalNamespace {
 class IBeatmapLevelPackCollection;
 }
 namespace GlobalNamespace {
-class BeatmapLevelPackSO;
+class PreviewBeatmapLevelPackSO;
 }
 namespace GlobalNamespace {
-class PreviewBeatmapLevelPackSO;
+class BeatmapLevelPackSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelPackCollectionSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4355))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4378))
 // CS Name: ::BeatmapLevelPackCollectionSO*
 class CORDL_TYPE BeatmapLevelPackCollectionSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -71,24 +71,24 @@ public:
 
   constexpr void __set__allBeatmapLevelPacks(::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> value);
 
-  /// @brief Method get_previewBeatmapLevelPack addr 0x23424e4 size 0x8 virtual false final false
+  /// @brief Method get_previewBeatmapLevelPack addr 0x21f7f94 size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::PreviewBeatmapLevelPackSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelPackSO*>*> get_previewBeatmapLevelPack();
 
-  /// @brief Method set_previewBeatmapLevelPack addr 0x23424ec size 0x8 virtual false final false
+  /// @brief Method set_previewBeatmapLevelPack addr 0x21f7f9c size 0x8 virtual false final false
   inline void set_previewBeatmapLevelPack(::ArrayW<::GlobalNamespace::PreviewBeatmapLevelPackSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelPackSO*>*> value);
 
-  /// @brief Method get_beatmapLevelPacks addr 0x23424f4 size 0x24 virtual true final true
+  /// @brief Method get_beatmapLevelPacks addr 0x21f7fa4 size 0x24 virtual true final true
   inline ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> get_beatmapLevelPacks();
 
-  /// @brief Method set_beatmapLevelPacks addr 0x23426fc size 0x8 virtual false final false
+  /// @brief Method set_beatmapLevelPacks addr 0x21f81ac size 0x8 virtual false final false
   inline void set_beatmapLevelPacks(::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> value);
 
-  /// @brief Method LoadAllBeatmapLevelPacks addr 0x2342518 size 0x1e4 virtual false final false
+  /// @brief Method LoadAllBeatmapLevelPacks addr 0x21f7fc8 size 0x1e4 virtual false final false
   inline void LoadAllBeatmapLevelPacks();
 
   static inline ::GlobalNamespace::BeatmapLevelPackCollectionSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x2342704 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21f81b4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelPackCollectionSO", modifiers: "&&", def_value: None }]
@@ -118,6 +118,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelPackCollectionSO, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackCollectionSO, ____beatmapLevelPacks) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackCollectionSO, ____previewBeatmapLevelPack) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackCollectionSO, ____allBeatmapLevelPacks) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapLevelPackCollectionSO);

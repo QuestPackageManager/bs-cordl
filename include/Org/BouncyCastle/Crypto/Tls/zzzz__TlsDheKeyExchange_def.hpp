@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsDheKeyExchange)
+namespace Org::BouncyCastle::Crypto::Tls {
+class SignatureAndHashAlgorithm;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHParameters;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsDHVerifier;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSigner;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
+}
 namespace System::Collections {
 class IList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class SecurityParameters;
 }
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsDHVerifier;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class SignatureAndHashAlgorithm;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSignerCredentials;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -64,27 +64,27 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange* New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
                                                                               ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
-  /// @brief Method .ctor addr 0xfa4e4c size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0xf2ec04 size 0x90 virtual false final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange* New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
                                                                               ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
                                                                               ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
-  /// @brief Method .ctor addr 0xfa4edc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xf2ec94 size 0x8 virtual false final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
                     ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
-  /// @brief Method ProcessServerCredentials addr 0xfa4ee4 size 0x16c virtual true final false
+  /// @brief Method ProcessServerCredentials addr 0xf2ec9c size 0x16c virtual true final false
   inline void ProcessServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* serverCredentials);
 
-  /// @brief Method GenerateServerKeyExchange addr 0xfa5050 size 0x44c virtual true final false
+  /// @brief Method GenerateServerKeyExchange addr 0xf2ee08 size 0x44c virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateServerKeyExchange();
 
-  /// @brief Method ProcessServerKeyExchange addr 0xfa549c size 0x2d8 virtual true final false
+  /// @brief Method ProcessServerKeyExchange addr 0xf2f254 size 0x2d8 virtual true final false
   inline void ProcessServerKeyExchange(::System::IO::Stream* input);
 
-  /// @brief Method InitVerifyer addr 0xfa5774 size 0x1d0 virtual true final false
+  /// @brief Method InitVerifyer addr 0xf2f52c size 0x1d0 virtual true final false
   inline ::Org::BouncyCastle::Crypto::ISigner* InitVerifyer(::Org::BouncyCastle::Crypto::Tls::TlsSigner* tlsSigner, ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm,
                                                             ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
@@ -109,6 +109,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange, ___mServerCredentials) == 0x60, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange);

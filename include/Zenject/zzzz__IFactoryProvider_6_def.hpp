@@ -9,22 +9,22 @@ namespace Zenject {
 class DiContainer;
 }
 namespace System {
-class Object;
+struct Guid;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+class InjectContext;
 }
 namespace System {
-struct Guid;
+class Object;
 }
 namespace System {
 class Action;
 }
 namespace Zenject {
 struct TypeValuePair;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -38,8 +38,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11194)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11194), inst: 3463 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11200))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11122), inst: 3389 }), TypeDefinitionIndex(TypeDefinitionIndex(11122))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11128))
 // CS Name: ::Zenject::IFactoryProvider`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>*
 class CORDL_TYPE IFactoryProvider_6 : public ::Zenject::IFactoryProviderBase_1<TContract> {
 public:

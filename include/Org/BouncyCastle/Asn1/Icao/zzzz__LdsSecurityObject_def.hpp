@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LdsSecurityObject)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
 namespace Org::BouncyCastle::Asn1::Icao {
 class LdsVersionInfo;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::Icao {
 class DataGroupHash;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Icao {
@@ -89,19 +89,19 @@ public:
 
   constexpr void __set_versionInfo(::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* value);
 
-  /// @brief Method GetInstance addr 0xf74da4 size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0xefeb80 size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsSecurityObject* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsSecurityObject* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf74e48 size 0x570 virtual false final false
+  /// @brief Method .ctor addr 0xefec24 size 0x570 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsSecurityObject*
   New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier,
            ::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*, ::Array<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*>*> datagroupHash);
 
-  /// @brief Method .ctor addr 0xf755ac size 0xac virtual false final false
+  /// @brief Method .ctor addr 0xeff388 size 0xac virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier,
                     ::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*, ::Array<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*>*> datagroupHash);
 
@@ -110,27 +110,27 @@ public:
            ::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*, ::Array<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*>*> datagroupHash,
            ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* versionInfo);
 
-  /// @brief Method .ctor addr 0xf75658 size 0xb8 virtual false final false
+  /// @brief Method .ctor addr 0xeff434 size 0xb8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier,
                     ::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*, ::Array<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*>*> datagroupHash,
                     ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* versionInfo);
 
-  /// @brief Method CheckDatagroupHashSeqSize addr 0xf75500 size 0xac virtual false final false
+  /// @brief Method CheckDatagroupHashSeqSize addr 0xeff2dc size 0xac virtual false final false
   inline void CheckDatagroupHashSeqSize(int32_t size);
 
-  /// @brief Method get_Version addr 0xf75710 size 0x1c virtual false final false
+  /// @brief Method get_Version addr 0xeff4ec size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Version();
 
-  /// @brief Method get_DigestAlgorithmIdentifier addr 0xf7572c size 0x8 virtual false final false
+  /// @brief Method get_DigestAlgorithmIdentifier addr 0xeff508 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_DigestAlgorithmIdentifier();
 
-  /// @brief Method GetDatagroupHash addr 0xf75734 size 0x8 virtual false final false
+  /// @brief Method GetDatagroupHash addr 0xeff510 size 0x8 virtual false final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*, ::Array<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*>*> GetDatagroupHash();
 
-  /// @brief Method get_VersionInfo addr 0xf7573c size 0x8 virtual false final false
+  /// @brief Method get_VersionInfo addr 0xeff518 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* get_VersionInfo();
 
-  /// @brief Method ToAsn1Object addr 0xf75744 size 0x1c0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xeff520 size 0x1c0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "LdsSecurityObject", modifiers: "&&", def_value: None }]
@@ -166,6 +166,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Icao::LdsSecurityObject, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Icao::LdsSecurityObject, ___version) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Icao::LdsSecurityObject, ___digestAlgorithmIdentifier) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Icao::LdsSecurityObject, ___datagroupHash) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Icao::LdsSecurityObject, ___versionInfo) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Icao
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Icao::LdsSecurityObject);

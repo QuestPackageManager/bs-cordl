@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 CORDL_MODULE_EXPORT(ListFacetsChecker)
-namespace System::Collections {
-class ArrayList;
-}
-namespace System {
-class Exception;
-}
 namespace System {
 class Object;
 }
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
+}
+namespace System {
+class Exception;
+}
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -26,21 +26,21 @@ MARK_REF_PTR_T(::System::Xml::Schema::ListFacetsChecker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11686))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11695))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11614))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11623))
 // CS Name: ::System.Xml.Schema::ListFacetsChecker*
 class CORDL_TYPE ListFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets addr 0x28c3628 size 0x234 virtual true final false
+  /// @brief Method CheckValueFacets addr 0x2745604 size 0x234 virtual true final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration addr 0x28c385c size 0xb4 virtual true final false
+  /// @brief Method MatchEnumeration addr 0x2745838 size 0xb4 virtual true final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::ListFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x28c3910 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27458ec size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ListFacetsChecker", modifiers: "&&", def_value: None }]

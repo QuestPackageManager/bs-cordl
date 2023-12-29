@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::AxisComposite);
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6713))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6799))
 // CS Name: ::AxisComposite::WhichSideWins
 struct CORDL_TYPE __AxisComposite__WhichSideWins {
 public:
@@ -76,13 +76,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::Composites
 // Type: UnityEngine.InputSystem.Composites::AxisComposite
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(6713)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6190))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6714)) CS Name: ::UnityEngine.InputSystem.Composites::AxisComposite*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6276), inst: 387 }), TypeDefinitionIndex(TypeDefinitionIndex(6276)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6799))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6800)) CS Name: ::UnityEngine.InputSystem.Composites::AxisComposite*
 class CORDL_TYPE AxisComposite : public ::UnityEngine::InputSystem::InputBindingComposite_1<float_t> {
 public:
   // Declarations
@@ -135,18 +137,18 @@ public:
 
   constexpr void __set_whichSideWins(::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins value);
 
-  /// @brief Method get_midPoint addr 0x2a5aabc size 0x14 virtual false final false
+  /// @brief Method get_midPoint addr 0x28dad74 size 0x14 virtual false final false
   inline float_t get_midPoint();
 
-  /// @brief Method ReadValue addr 0x2a5aad0 size 0x120 virtual true final false
+  /// @brief Method ReadValue addr 0x28dad88 size 0x120 virtual true final false
   inline float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method EvaluateMagnitude addr 0x2a5abf0 size 0x4c virtual true final false
+  /// @brief Method EvaluateMagnitude addr 0x28daea8 size 0x4c virtual true final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::AxisComposite* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a5ac3c size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x28daef4 size 0x54 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AxisComposite", modifiers: "&&", def_value: None }]
@@ -182,6 +184,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Composites::AxisComposite, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Composites::AxisComposite, ___negative) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Composites::AxisComposite, ___positive) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Composites::AxisComposite, ___minValue) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Composites::AxisComposite, ___maxValue) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Composites::AxisComposite, ___whichSideWins) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Composites
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins, "UnityEngine.InputSystem.Composites", "AxisComposite/WhichSideWins");

@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(GameServersFilterText)
-namespace HMUI {
-class CurvedTextMeshPro;
-}
 namespace GlobalNamespace {
-struct SongPackMask;
+class SongPackMasksModel;
 }
 namespace System::Text {
 class StringBuilder;
+}
+namespace HMUI {
+class CurvedTextMeshPro;
 }
 namespace GlobalNamespace {
 class GameServersFilter;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
+struct SongPackMask;
 }
 namespace GlobalNamespace {
-class SongPackMasksModel;
+struct BeatmapDifficultyMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServersFilterText);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5782))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5873))
 // CS Name: ::GameServersFilterText*
 class CORDL_TYPE GameServersFilterText : public ::UnityEngine::MonoBehaviour {
 public:
@@ -65,15 +65,15 @@ public:
 
   constexpr void __set__stringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method Setup addr 0x22e1ef4 size 0x248 virtual false final false
+  /// @brief Method Setup addr 0x219c860 size 0x24c virtual false final false
   inline void Setup(::GlobalNamespace::GameServersFilter* filter, bool visible);
 
-  /// @brief Method Setup addr 0x22ce74c size 0x1fc virtual false final false
+  /// @brief Method Setup addr 0x219caac size 0x1f8 virtual false final false
   inline void Setup(::GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask, ::GlobalNamespace::SongPackMask songPackMask, bool visible);
 
   static inline ::GlobalNamespace::GameServersFilterText* New_ctor();
 
-  /// @brief Method .ctor addr 0x22e213c size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x219cca4 size 0x68 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServersFilterText", modifiers: "&&", def_value: None }]
@@ -103,6 +103,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServersFilterText, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServersFilterText, ____text) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServersFilterText, ____songPackMasksModel) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServersFilterText, ____stringBuilder) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameServersFilterText);

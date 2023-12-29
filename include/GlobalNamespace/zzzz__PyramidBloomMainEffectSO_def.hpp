@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PyramidBloomMainEffectSO)
 namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-class Shader;
-}
-namespace GlobalNamespace {
-class PyramidBloomRendererSO;
-}
-namespace UnityEngine {
 class Material;
 }
 namespace GlobalNamespace {
 class BloomFogSO;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace GlobalNamespace {
+class PyramidBloomRendererSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PyramidBloomMainEffectSO);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15293)), TypeDefinitionIndex(TypeDefinitionIndex(14446))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15295))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14665)), TypeDefinitionIndex(TypeDefinitionIndex(15322))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15324))
 // CS Name: ::PyramidBloomMainEffectSO*
 class CORDL_TYPE PyramidBloomMainEffectSO : public ::GlobalNamespace::MainEffectSO {
 public:
@@ -232,27 +232,27 @@ public:
 
   static inline int32_t getStaticF__fadeID();
 
-  /// @brief Method get_hasPostProcessEffect addr 0x2808be4 size 0x8 virtual true final false
+  /// @brief Method get_hasPostProcessEffect addr 0x268dffc size 0x8 virtual true final false
   inline bool get_hasPostProcessEffect();
 
-  /// @brief Method OnEnable addr 0x2808bec size 0x1c virtual true final false
+  /// @brief Method OnEnable addr 0x268e004 size 0x1c virtual true final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2808d2c size 0x30 virtual false final false
+  /// @brief Method OnDisable addr 0x268e144 size 0x30 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method LazyInitializeMaterials addr 0x2808c08 size 0x124 virtual false final false
+  /// @brief Method LazyInitializeMaterials addr 0x268e020 size 0x124 virtual false final false
   inline void LazyInitializeMaterials();
 
-  /// @brief Method PreRender addr 0x2808d5c size 0x64 virtual true final false
+  /// @brief Method PreRender addr 0x268e174 size 0x64 virtual true final false
   inline void PreRender();
 
-  /// @brief Method Render addr 0x2808dc0 size 0x27c virtual true final false
+  /// @brief Method Render addr 0x268e1d8 size 0x274 virtual true final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t fade);
 
   static inline ::GlobalNamespace::PyramidBloomMainEffectSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x280903c size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x268e44c size 0x3c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PyramidBloomMainEffectSO", modifiers: "&&", def_value: None }]
@@ -330,6 +330,44 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PyramidBloomMainEffectSO, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____bloomRenderer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____bloomFog) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____fadeShader) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____mainEffectShader) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____bloomBlendFactor) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____bloomRadius) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____bloomIntensity) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____downBloomIntensityOffset) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____pyramidWeightsParam) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____alphaWeights) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____preFilterPass) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____downsamplePass) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____upsamplePass) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____finalUpsamplePass) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____bloomTextureWidth) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____baseColorBoost) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____baseColorBoostThreshold) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____fadeMaterial) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PyramidBloomMainEffectSO, ____mainEffectMaterial) == 0x78, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PyramidBloomMainEffectSO);

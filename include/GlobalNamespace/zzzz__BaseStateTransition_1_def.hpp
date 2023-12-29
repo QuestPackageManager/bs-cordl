@@ -16,8 +16,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5441))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5442))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5548))
 // CS Name: ::BaseStateTransition`1<T>*
 class CORDL_TYPE BaseStateTransition_1 : public ::GlobalNamespace::BaseStateTransition {
 public:

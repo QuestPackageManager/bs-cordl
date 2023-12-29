@@ -37,15 +37,15 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert* New_ctor(uint8_t alertDescription);
 
-  /// @brief Method .ctor addr 0xfaa180 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0xf33f38 size 0x40 virtual false final false
   inline void _ctor(uint8_t alertDescription);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert* New_ctor(uint8_t alertDescription, ::System::Exception* alertCause);
 
-  /// @brief Method .ctor addr 0xfaa570 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0xf34328 size 0x44 virtual false final false
   inline void _ctor(uint8_t alertDescription, ::System::Exception* alertCause);
 
-  /// @brief Method get_AlertDescription addr 0xfae004 size 0x8 virtual true final false
+  /// @brief Method get_AlertDescription addr 0xf37dbc size 0x8 virtual true final false
   inline uint8_t get_AlertDescription();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsFatalAlert", modifiers: "&&", def_value: None }]
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert, ___alertDescription) == 0x8c, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert);

@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ScopableBindingFinalizer)
 namespace Zenject {
-class BindInfo;
+class IProvider;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
+class BindInfo;
 }
 namespace Zenject {
 class __ScopableBindingFinalizer____c__DisplayClass3_0;
 }
 namespace System {
-class Type;
+template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
-class IProvider;
+class __ScopableBindingFinalizer____c__DisplayClass4_0;
 }
 namespace Zenject {
-class __ScopableBindingFinalizer____c__DisplayClass4_0;
+class DiContainer;
+}
+namespace System {
+class Type;
 }
 namespace System {
 class Object;
@@ -54,8 +54,8 @@ MARK_REF_PTR_T(::Zenject::__ScopableBindingFinalizer____c__DisplayClass4_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10967))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10895))
 // CS Name: ::ScopableBindingFinalizer::<>c__DisplayClass3_0*
 class CORDL_TYPE __ScopableBindingFinalizer____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -80,16 +80,16 @@ public:
 
   static inline ::Zenject::__ScopableBindingFinalizer____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ee629c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d7e51c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <FinalizeBindingConcrete>b__0 addr 0x2ee62ac size 0x34 virtual false final false
+  /// @brief Method <FinalizeBindingConcrete>b__0 addr 0x2d7e52c size 0x34 virtual false final false
   inline ::Zenject::IProvider* _FinalizeBindingConcrete_b__0(::Zenject::DiContainer* _, ::System::Type* concreteType);
 
-  /// @brief Method __zenCreate addr 0x2ee62e0 size 0x5c virtual false final false
+  /// @brief Method __zenCreate addr 0x2d7e560 size 0x5c virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2ee633c size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d7e5bc size 0x1c0 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScopableBindingFinalizer____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
@@ -117,13 +117,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__ScopableBindingFinalizer____c__DisplayClass3_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__ScopableBindingFinalizer____c__DisplayClass3_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__ScopableBindingFinalizer____c__DisplayClass3_0, ___container) == 0x18, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: ::<>c__DisplayClass4_0
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10968))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10896))
 // CS Name: ::ScopableBindingFinalizer::<>c__DisplayClass4_0*
 class CORDL_TYPE __ScopableBindingFinalizer____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -148,16 +152,16 @@ public:
 
   static inline ::Zenject::__ScopableBindingFinalizer____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ee62a4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d7e524 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <FinalizeBindingSelf>b__0 addr 0x2ee64fc size 0x34 virtual false final false
+  /// @brief Method <FinalizeBindingSelf>b__0 addr 0x2d7e77c size 0x34 virtual false final false
   inline ::Zenject::IProvider* _FinalizeBindingSelf_b__0(::Zenject::DiContainer* _, ::System::Type* contractType);
 
-  /// @brief Method __zenCreate addr 0x2ee6530 size 0x5c virtual false final false
+  /// @brief Method __zenCreate addr 0x2d7e7b0 size 0x5c virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2ee658c size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d7e80c size 0x1c0 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScopableBindingFinalizer____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
@@ -185,13 +189,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__ScopableBindingFinalizer____c__DisplayClass4_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__ScopableBindingFinalizer____c__DisplayClass4_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__ScopableBindingFinalizer____c__DisplayClass4_0, ___container) == 0x18, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: Zenject::ScopableBindingFinalizer
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10966))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10969))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10894))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10897))
 // CS Name: ::Zenject::ScopableBindingFinalizer*
 class CORDL_TYPE ScopableBindingFinalizer : public ::Zenject::ProviderBindingFinalizer {
 public:
@@ -211,16 +219,16 @@ public:
 
   static inline ::Zenject::ScopableBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method .ctor addr 0x2ee5f98 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2d7e218 size 0x2c virtual false final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method OnFinalizeBinding addr 0x2ee5fc4 size 0x84 virtual true final false
+  /// @brief Method OnFinalizeBinding addr 0x2d7e244 size 0x84 virtual true final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
-  /// @brief Method FinalizeBindingConcrete addr 0x2ee6158 size 0x144 virtual false final false
+  /// @brief Method FinalizeBindingConcrete addr 0x2d7e3d8 size 0x144 virtual false final false
   inline void FinalizeBindingConcrete(::Zenject::DiContainer* container, ::System::Collections::Generic::List_1<::System::Type*>* concreteTypes);
 
-  /// @brief Method FinalizeBindingSelf addr 0x2ee6048 size 0x110 virtual false final false
+  /// @brief Method FinalizeBindingSelf addr 0x2d7e2c8 size 0x110 virtual false final false
   inline void FinalizeBindingSelf(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "ScopableBindingFinalizer", modifiers: "&&", def_value: None }]
@@ -244,6 +252,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::ScopableBindingFinalizer, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::ScopableBindingFinalizer, ____providerFactory) == 0x18, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::ScopableBindingFinalizer);

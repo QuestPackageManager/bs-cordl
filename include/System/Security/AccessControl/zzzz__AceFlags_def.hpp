@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::AccessControl::AceFlags);
 namespace System::Security::AccessControl {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3017))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3016))
 // CS Name: ::System.Security.AccessControl::AceFlags
 struct CORDL_TYPE AceFlags {
 public:
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::AceFlags, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::AceFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Security::AccessControl
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::AceFlags, "System.Security.AccessControl", "AceFlags");

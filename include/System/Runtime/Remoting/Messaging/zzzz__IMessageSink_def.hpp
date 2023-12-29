@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IMessageSink);
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3170))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3169))
 // CS Name: ::System.Runtime.Remoting.Messaging::IMessageSink*
 class CORDL_TYPE IMessageSink {
 public:

@@ -7,20 +7,20 @@ CORDL_MODULE_EXPORT(SmimeCapabilities)
 namespace System {
 class Object;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace System::Collections {
 class ArrayList;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerObjectIdentifier;
+}
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Smime {
@@ -124,24 +124,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_RC2Cbc();
 
-  /// @brief Method GetInstance addr 0x1073354 size 0x240 virtual false final false
+  /// @brief Method GetInstance addr 0x1002108 size 0x240 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1073594 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1002348 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetCapabilities addr 0x10735bc size 0x7c virtual false final false
+  /// @brief Method GetCapabilities addr 0x1002370 size 0x7c virtual false final false
   inline ::System::Collections::ArrayList* GetCapabilities(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability);
 
-  /// @brief Method GetCapabilitiesForOid addr 0x1073c78 size 0x7c virtual false final false
+  /// @brief Method GetCapabilitiesForOid addr 0x1002a2c size 0x7c virtual false final false
   inline ::System::Collections::IList* GetCapabilitiesForOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability);
 
-  /// @brief Method DoGetCapabilitiesForOid addr 0x1073638 size 0x640 virtual false final false
+  /// @brief Method DoGetCapabilitiesForOid addr 0x10023ec size 0x640 virtual false final false
   inline void DoGetCapabilitiesForOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability, ::System::Collections::IList* list);
 
-  /// @brief Method ToAsn1Object addr 0x1073e3c size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1002bf0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SmimeCapabilities", modifiers: "&&", def_value: None }]
@@ -165,6 +165,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities, ___capabilities) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Smime
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities);

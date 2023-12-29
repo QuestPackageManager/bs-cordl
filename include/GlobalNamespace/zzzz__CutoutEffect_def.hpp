@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CutoutEffect)
+namespace UnityEngine {
+struct Vector3;
+}
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
 namespace GlobalNamespace {
 class BoolSO;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CutoutEffect);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4841))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4961))
 // CS Name: ::CutoutEffect*
 class CORDL_TYPE CutoutEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -93,21 +93,21 @@ public:
 
   static inline int32_t getStaticF__cutoutTexOffsetPropertyID();
 
-  /// @brief Method get_useRandomCutoutOffset addr 0x2396bac size 0x48 virtual false final false
+  /// @brief Method get_useRandomCutoutOffset addr 0x2262198 size 0x48 virtual false final false
   inline bool get_useRandomCutoutOffset();
 
-  /// @brief Method Start addr 0x2396bf4 size 0x3c virtual false final false
+  /// @brief Method Start addr 0x22621e0 size 0x3c virtual false final false
   inline void Start();
 
-  /// @brief Method SetCutout addr 0x2396968 size 0xc4 virtual false final false
+  /// @brief Method SetCutout addr 0x2261f54 size 0xc4 virtual false final false
   inline void SetCutout(float_t cutout);
 
-  /// @brief Method SetCutout addr 0x2396c30 size 0xe4 virtual false final false
+  /// @brief Method SetCutout addr 0x226221c size 0xe4 virtual false final false
   inline void SetCutout(float_t cutout, ::UnityEngine::Vector3 cutoutOffset);
 
   static inline ::GlobalNamespace::CutoutEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x2396d14 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2262300 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CutoutEffect", modifiers: "&&", def_value: None }]
@@ -143,6 +143,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CutoutEffect, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CutoutEffect, ____materialPropertyBlockController) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CutoutEffect, ____useRandomCutoutOffset) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CutoutEffect, ____cutoutOffset) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CutoutEffect, ____randomNoiseTexOffset) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CutoutEffect, ____cutout) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CutoutEffect);

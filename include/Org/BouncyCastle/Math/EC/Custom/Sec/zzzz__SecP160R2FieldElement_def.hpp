@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SecP160R2FieldElement)
-namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
@@ -58,74 +58,74 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R2FieldElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method .ctor addr 0xfdf04c size 0x118 virtual false final false
+  /// @brief Method .ctor addr 0xf6ae00 size 0x118 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x);
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R2FieldElement* New_ctor();
 
-  /// @brief Method .ctor addr 0xfe0bf0 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0xf6c9a4 size 0x24 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R2FieldElement* New_ctor(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-  /// @brief Method .ctor addr 0xfdf678 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xf6b42c size 0x28 virtual false final false
   inline void _ctor(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-  /// @brief Method get_IsZero addr 0xfe0c14 size 0xc virtual true final false
+  /// @brief Method get_IsZero addr 0xf6c9c8 size 0xc virtual true final false
   inline bool get_IsZero();
 
-  /// @brief Method get_IsOne addr 0xfe0c20 size 0xc virtual true final false
+  /// @brief Method get_IsOne addr 0xf6c9d4 size 0xc virtual true final false
   inline bool get_IsOne();
 
-  /// @brief Method TestBitZero addr 0xfe0c2c size 0x24 virtual true final false
+  /// @brief Method TestBitZero addr 0xf6c9e0 size 0x24 virtual true final false
   inline bool TestBitZero();
 
-  /// @brief Method ToBigInteger addr 0xfe0c50 size 0xc virtual true final false
+  /// @brief Method ToBigInteger addr 0xf6ca04 size 0xc virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* ToBigInteger();
 
-  /// @brief Method get_FieldName addr 0xfe0c5c size 0x40 virtual true final false
+  /// @brief Method get_FieldName addr 0xf6ca10 size 0x40 virtual true final false
   inline ::StringW get_FieldName();
 
-  /// @brief Method get_FieldSize addr 0xfe0c9c size 0x64 virtual true final false
+  /// @brief Method get_FieldSize addr 0xf6ca50 size 0x64 virtual true final false
   inline int32_t get_FieldSize();
 
-  /// @brief Method Add addr 0xfe0d00 size 0xf0 virtual true final false
+  /// @brief Method Add addr 0xf6cab4 size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Add(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method AddOne addr 0xfe0df0 size 0xa8 virtual true final false
+  /// @brief Method AddOne addr 0xf6cba4 size 0xa8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* AddOne();
 
-  /// @brief Method Subtract addr 0xfe0e98 size 0xf0 virtual true final false
+  /// @brief Method Subtract addr 0xf6cc4c size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Subtract(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method Multiply addr 0xfe0f88 size 0xf0 virtual true final false
+  /// @brief Method Multiply addr 0xf6cd3c size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Multiply(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method Divide addr 0xfe1078 size 0xf8 virtual true final false
+  /// @brief Method Divide addr 0xf6ce2c size 0xf8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Divide(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method Negate addr 0xfe1170 size 0xa8 virtual true final false
+  /// @brief Method Negate addr 0xf6cf24 size 0xa8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Negate();
 
-  /// @brief Method Square addr 0xfe1218 size 0xa8 virtual true final false
+  /// @brief Method Square addr 0xf6cfcc size 0xa8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Square();
 
-  /// @brief Method Invert addr 0xfe12c0 size 0xa8 virtual true final false
+  /// @brief Method Invert addr 0xf6d074 size 0xa8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Invert();
 
-  /// @brief Method Sqrt addr 0xfe1368 size 0x2f4 virtual true final false
+  /// @brief Method Sqrt addr 0xf6d11c size 0x2f4 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Sqrt();
 
-  /// @brief Method Equals addr 0xfe165c size 0x8c virtual true final false
+  /// @brief Method Equals addr 0xf6d410 size 0x8c virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xfe16e8 size 0x8c virtual true final false
+  /// @brief Method Equals addr 0xf6d49c size 0x8c virtual true final false
   inline bool Equals(::Org::BouncyCastle::Math::EC::ECFieldElement* other);
 
-  /// @brief Method Equals addr 0xfe1774 size 0x2c virtual true final false
+  /// @brief Method Equals addr 0xf6d528 size 0x2c virtual true final false
   inline bool Equals(::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R2FieldElement* other);
 
-  /// @brief Method GetHashCode addr 0xfe17a0 size 0xb8 virtual true final false
+  /// @brief Method GetHashCode addr 0xf6d554 size 0xb8 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "SecP160R2FieldElement", modifiers: "&&", def_value: None }]
@@ -149,6 +149,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R2FieldElement, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R2FieldElement, ___x) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC::Custom::Sec
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R2FieldElement);

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextShaderUtilities)
 namespace UnityEngine {
-class Shader;
+class Material;
 }
 namespace UnityEngine {
-class Material;
+class Shader;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextShaderUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13714))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13593))
 // CS Name: ::UnityEngine.TextCore.Text::TextShaderUtilities*
 class CORDL_TYPE TextShaderUtilities : public ::System::Object {
 public:
@@ -491,22 +491,22 @@ public:
 
   static inline ::UnityEngine::Shader* getStaticF_k_ShaderRef_MobileBitmap();
 
-  /// @brief Method get_ShaderRef_MobileSDF addr 0x2d483bc size 0x15c virtual false final false
+  /// @brief Method get_ShaderRef_MobileSDF addr 0x2be000c size 0x15c virtual false final false
   static inline ::UnityEngine::Shader* get_ShaderRef_MobileSDF();
 
-  /// @brief Method get_ShaderRef_MobileBitmap addr 0x2d48518 size 0x15c virtual false final false
+  /// @brief Method get_ShaderRef_MobileBitmap addr 0x2be0168 size 0x15c virtual false final false
   static inline ::UnityEngine::Shader* get_ShaderRef_MobileBitmap();
 
-  /// @brief Method GetShaderPropertyIDs addr 0x2d48804 size 0x988 virtual false final false
+  /// @brief Method GetShaderPropertyIDs addr 0x2be0454 size 0x988 virtual false final false
   static inline void GetShaderPropertyIDs();
 
-  /// @brief Method UpdateShaderRatios addr 0x2d4918c size 0x45c virtual false final false
+  /// @brief Method UpdateShaderRatios addr 0x2be0ddc size 0x45c virtual false final false
   static inline void UpdateShaderRatios(::UnityEngine::Material* mat);
 
-  /// @brief Method IsMaskingEnabled addr 0x2d495e8 size 0x19c virtual false final false
+  /// @brief Method IsMaskingEnabled addr 0x2be1238 size 0x19c virtual false final false
   static inline bool IsMaskingEnabled(::UnityEngine::Material* material);
 
-  /// @brief Method GetPadding addr 0x2d49784 size 0x6a8 virtual false final false
+  /// @brief Method GetPadding addr 0x2be13d4 size 0x6a8 virtual false final false
   static inline float_t GetPadding(::UnityEngine::Material* material, bool enableExtraPadding, bool isBold);
 
   // Ctor Parameters [CppParam { name: "", ty: "TextShaderUtilities", modifiers: "&&", def_value: None }]

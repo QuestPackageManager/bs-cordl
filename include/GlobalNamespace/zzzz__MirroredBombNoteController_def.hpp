@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MirroredBombNoteController__Pool);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4747)), TypeDefinitionIndex(TypeDefinitionIndex(4756)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4756), inst: 4620
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4752)) CS Name: ::MirroredBombNoteController*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4877), inst: 4526 }), TypeDefinitionIndex(TypeDefinitionIndex(4868)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4877))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4873)) CS Name: ::MirroredBombNoteController*
 class CORDL_TYPE MirroredBombNoteController : public ::GlobalNamespace::MirroredNoteController_1<::GlobalNamespace::INoteMirrorable*> {
 public:
   // Declarations
@@ -32,7 +32,7 @@ public:
 
   static inline ::GlobalNamespace::MirroredBombNoteController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2386134 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2251738 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MirroredBombNoteController", modifiers: "&&", def_value: None }]
@@ -59,14 +59,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MirroredBombNot
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2815 }), TypeDefinitionIndex(TypeDefinitionIndex(11050)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4752))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4751)) CS Name: ::MirroredBombNoteController::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10978)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst: 2755 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4873))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4872)) CS Name: ::MirroredBombNoteController::Pool*
 class CORDL_TYPE __MirroredBombNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MirroredBombNoteController*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MirroredBombNoteController__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x238617c size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2251780 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MirroredBombNoteController__Pool", modifiers: "&&", def_value: None }]

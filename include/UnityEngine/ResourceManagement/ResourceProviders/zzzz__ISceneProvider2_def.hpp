@@ -3,20 +3,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ISceneProvider2)
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class ISceneProvider;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct SceneInstance;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::SceneManagement {
 struct UnloadSceneOptions;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvi
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14006))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14277))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::ISceneProvider2*
 class CORDL_TYPE ISceneProvider2 {
 public:

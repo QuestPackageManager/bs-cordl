@@ -11,26 +11,26 @@ CORDL_MODULE_EXPORT(HEU_Extensions)
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_Extensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9821))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9748))
 // CS Name: ::HoudiniEngineUnity::HEU_Extensions*
 class CORDL_TYPE HEU_Extensions : public ::System::Object {
 public:
@@ -63,7 +63,7 @@ public:
   /// @brief Method IsEquivalentList addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline bool IsEquivalentList(::System::Collections::Generic::List_1<T>* self, ::System::Collections::Generic::List_1<T>* other);
 
-  /// @brief Method ApproximatelyEquals addr 0x21b2ff8 size 0x3c virtual false final false
+  /// @brief Method ApproximatelyEquals addr 0x205c65c size 0x3c virtual false final false
   static inline bool ApproximatelyEquals(::UnityEngine::Quaternion quatA, ::UnityEngine::Quaternion value);
 
   /// @brief Method ConvertList addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -75,31 +75,31 @@ public:
   /// @brief Method ConvertArrayToEquivable addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline ::ArrayW<::HoudiniEngineUnity::IEquivable_1<T>*, ::Array<::HoudiniEngineUnity::IEquivable_1<T>*>*> ConvertArrayToEquivable(::ArrayW<T, ::Array<T>*> self);
 
-  /// @brief Method ApproximatelyEquals addr 0x21b3034 size 0x10 virtual false final false
+  /// @brief Method ApproximatelyEquals addr 0x205c698 size 0x10 virtual false final false
   static inline bool ApproximatelyEquals(float_t self, float_t other, float_t epsilon);
 
-  /// @brief Method AsByteArray addr 0x21b3044 size 0x78 virtual false final false
+  /// @brief Method AsByteArray addr 0x205c6a8 size 0x78 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> AsByteArray(::StringW self);
 
-  /// @brief Method AsString addr 0x21b30bc size 0x80 virtual false final false
+  /// @brief Method AsString addr 0x205c720 size 0x80 virtual false final false
   static inline ::StringW AsString(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method SwapXAndY addr 0x21b313c size 0x10 virtual false final false
+  /// @brief Method SwapXAndY addr 0x205c7a0 size 0x10 virtual false final false
   static inline ::UnityEngine::Vector3 SwapXAndY(::UnityEngine::Vector3 self);
 
-  /// @brief Method SwapXAndZ addr 0x21b314c size 0x10 virtual false final false
+  /// @brief Method SwapXAndZ addr 0x205c7b0 size 0x10 virtual false final false
   static inline ::UnityEngine::Vector3 SwapXAndZ(::UnityEngine::Vector3 self);
 
-  /// @brief Method SwapYAndZ addr 0x21b315c size 0x10 virtual false final false
+  /// @brief Method SwapYAndZ addr 0x205c7c0 size 0x10 virtual false final false
   static inline ::UnityEngine::Vector3 SwapYAndZ(::UnityEngine::Vector3 self);
 
-  /// @brief Method DecomposeToPosition addr 0x21b316c size 0xc virtual false final false
+  /// @brief Method DecomposeToPosition addr 0x205c7d0 size 0xc virtual false final false
   static inline ::UnityEngine::Vector3 DecomposeToPosition(::UnityEngine::Matrix4x4 self);
 
-  /// @brief Method DecomposeToRotation addr 0x21b3178 size 0x64 virtual false final false
+  /// @brief Method DecomposeToRotation addr 0x205c7dc size 0x64 virtual false final false
   static inline ::UnityEngine::Quaternion DecomposeToRotation(::UnityEngine::Matrix4x4 self);
 
-  /// @brief Method DecomposeToScale addr 0x21b31dc size 0x194 virtual false final false
+  /// @brief Method DecomposeToScale addr 0x205c840 size 0x194 virtual false final false
   static inline ::UnityEngine::Vector3 DecomposeToScale(::UnityEngine::Matrix4x4 self);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_Extensions", modifiers: "&&", def_value: None }]

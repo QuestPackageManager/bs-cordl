@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::SignalMissingHandlerResponses);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11172))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11100))
 // CS Name: ::Zenject::SignalMissingHandlerResponses
 struct CORDL_TYPE SignalMissingHandlerResponses {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::SignalMissingHandlerResponses, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::SignalMissingHandlerResponses, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Zenject
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::SignalMissingHandlerResponses, "Zenject", "SignalMissingHandlerResponses");

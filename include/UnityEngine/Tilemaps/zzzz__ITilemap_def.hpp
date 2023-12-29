@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::Tilemaps::ITilemap);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10247)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 754 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15948)) CS Name: ::UnityEngine.Tilemaps::ITilemap*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10174)), TypeDefinitionIndex(TypeDefinitionIndex(9927)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 743 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15840)) CS Name: ::UnityEngine.Tilemaps::ITilemap*
 class CORDL_TYPE ITilemap : public ::System::Object {
 public:
   // Declarations
@@ -73,19 +73,19 @@ public:
 
   static inline ::UnityEngine::Tilemaps::ITilemap* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d508b0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2be8500 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method RefreshTile addr 0x2d5066c size 0x164 virtual false final false
+  /// @brief Method RefreshTile addr 0x2be82bc size 0x164 virtual false final false
   inline void RefreshTile(::UnityEngine::Vector3Int position);
 
-  /// @brief Method CreateInstance addr 0x2d508b8 size 0x70 virtual false final false
+  /// @brief Method CreateInstance addr 0x2be8508 size 0x70 virtual false final false
   static inline ::UnityEngine::Tilemaps::ITilemap* CreateInstance();
 
-  /// @brief Method FindAllRefreshPositions addr 0x2d50928 size 0x318 virtual false final false
+  /// @brief Method FindAllRefreshPositions addr 0x2be8578 size 0x318 virtual false final false
   static inline void FindAllRefreshPositions(::UnityEngine::Tilemaps::ITilemap* tilemap, int32_t count, void* oldTilesIntPtr, void* newTilesIntPtr, void* positionsIntPtr);
 
-  /// @brief Method GetAllTileData addr 0x2d50c40 size 0x1f8 virtual false final false
+  /// @brief Method GetAllTileData addr 0x2be8890 size 0x1f8 virtual false final false
   static inline void GetAllTileData(::UnityEngine::Tilemaps::ITilemap* tilemap, int32_t count, void* tilesIntPtr, void* positionsIntPtr, void* outTileDataIntPtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "ITilemap", modifiers: "&&", def_value: None }]
@@ -118,6 +118,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Tilemaps::ITilemap, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::ITilemap, ___m_Tilemap) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::ITilemap, ___m_AddToList) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::ITilemap, ___m_RefreshCount) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::ITilemap, ___m_RefreshPos) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::Tilemaps
 NEED_NO_BOX(::UnityEngine::Tilemaps::ITilemap);

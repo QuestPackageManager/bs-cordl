@@ -18,13 +18,13 @@ MARK_VAL_T(::GlobalNamespace::BezierCurve);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3992))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3978))
 // CS Name: ::BezierCurve
 struct CORDL_TYPE BezierCurve {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x221dde4 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x20bcdfc size 0x30 virtual false final false
   inline void _ctor(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::UnityEngine::Vector3 p3);
 
   // Ctor Parameters [CppParam { name: "p0", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "p1", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None },
@@ -54,6 +54,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BezierCurve, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BezierCurve, p0) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BezierCurve, p1) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BezierCurve, p2) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BezierCurve, p3) == 0x24, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BezierCurve, "", "BezierCurve");

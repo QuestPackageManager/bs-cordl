@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(KeyedFactory_4)
 namespace System {
 class Type;
 }
-namespace System {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -29,8 +29,8 @@ namespace Zenject {
 // cpp template
 template <typename TBase, typename TKey, typename TParam1, typename TParam2>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10995), inst: 3948 }), TypeDefinitionIndex(TypeDefinitionIndex(10995))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10998))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10923), inst: 3853 }), TypeDefinitionIndex(TypeDefinitionIndex(10923))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10926))
 // CS Name: ::Zenject::KeyedFactory`4<TBase,TKey,TParam1,TParam2>*
 class CORDL_TYPE KeyedFactory_4 : public ::Zenject::KeyedFactoryBase_2<TBase, TKey> {
 public:

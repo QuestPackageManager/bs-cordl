@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(InstallerBase)
 namespace Zenject {
-class DiContainer;
+class IInstaller;
 }
 namespace Zenject {
-class IInstaller;
+class InjectTypeInfo;
 }
 namespace System {
 class Object;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::Zenject::InstallerBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11137))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11065))
 // CS Name: ::Zenject::InstallerBase*
 class CORDL_TYPE InstallerBase : public ::System::Object {
 public:
@@ -48,10 +48,10 @@ public:
 
   constexpr void __set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method get_Container addr 0x2ef4bbc size 0x8 virtual false final false
+  /// @brief Method get_Container addr 0x2d8ce00 size 0x8 virtual false final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_IsEnabled addr 0x2ef4bc4 size 0x8 virtual true final false
+  /// @brief Method get_IsEnabled addr 0x2d8ce08 size 0x8 virtual true final false
   inline bool get_IsEnabled();
 
   /// @brief Method InstallBindings addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -59,13 +59,13 @@ public:
 
   static inline ::Zenject::InstallerBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ef4a3c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d8cc80 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method __zenFieldSetter0 addr 0x2ef4bcc size 0x134 virtual false final false
+  /// @brief Method __zenFieldSetter0 addr 0x2d8ce10 size 0x134 virtual false final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2ef4d00 size 0x2b0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d8cf44 size 0x2b0 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "InstallerBase", modifiers: "&&", def_value: None }]
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::InstallerBase, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::InstallerBase, ____container) == 0x10, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::InstallerBase);

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OidEnumerator)
+namespace System::Security::Cryptography {
+class Oid;
+}
 namespace System {
 class Object;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Security::Cryptography {
 class OidCollection;
 }
-namespace System::Security::Cryptography {
-class Oid;
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::OidEnumerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8974))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7811))
 // CS Name: ::System.Security.Cryptography::OidEnumerator*
 class CORDL_TYPE OidEnumerator : public ::System::Object {
 public:
@@ -60,19 +60,19 @@ public:
 
   static inline ::System::Security::Cryptography::OidEnumerator* New_ctor(::System::Security::Cryptography::OidCollection* oids);
 
-  /// @brief Method .ctor addr 0x29760d0 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x27f8358 size 0x30 virtual false final false
   inline void _ctor(::System::Security::Cryptography::OidCollection* oids);
 
-  /// @brief Method get_Current addr 0x29762cc size 0x20 virtual false final false
+  /// @brief Method get_Current addr 0x27f8554 size 0x20 virtual false final false
   inline ::System::Security::Cryptography::Oid* get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x29762ec size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x27f8574 size 0x4 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method MoveNext addr 0x29762f0 size 0x50 virtual true final true
+  /// @brief Method MoveNext addr 0x27f8578 size 0x50 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x2976340 size 0xc virtual true final true
+  /// @brief Method Reset addr 0x27f85c8 size 0xc virtual true final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "OidEnumerator", modifiers: "&&", def_value: None }]
@@ -99,6 +99,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::OidEnumerator, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::OidEnumerator, ____oids) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::OidEnumerator, ____current) == 0x18, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::OidEnumerator);

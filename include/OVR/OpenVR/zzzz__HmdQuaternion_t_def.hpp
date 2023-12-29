@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::HmdQuaternion_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8651))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9420))
 // CS Name: ::OVR.OpenVR::HmdQuaternion_t
 struct CORDL_TYPE HmdQuaternion_t {
 public:
@@ -48,6 +48,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::HmdQuaternion_t, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdQuaternion_t, w) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdQuaternion_t, x) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdQuaternion_t, y) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdQuaternion_t, z) == 0x18, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::HmdQuaternion_t, "OVR.OpenVR", "HmdQuaternion_t");

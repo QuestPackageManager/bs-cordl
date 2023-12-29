@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::CursorLockMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10060))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9988))
 // CS Name: ::UnityEngine::CursorLockMode
 struct CORDL_TYPE CursorLockMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::CursorLockMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::CursorLockMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CursorLockMode, "UnityEngine", "CursorLockMode");

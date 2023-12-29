@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::ConnectionState);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14173))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14511))
 // CS Name: ::LiteNetLib::ConnectionState
 struct CORDL_TYPE ConnectionState {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::ConnectionState, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::ConnectionState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace LiteNetLib
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::ConnectionState, "LiteNetLib", "ConnectionState");

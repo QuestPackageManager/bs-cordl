@@ -9,11 +9,11 @@ class IEnumerable;
 namespace System::Collections {
 class ICollection;
 }
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
 namespace System {
 class Object;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::System::Collections::IDictionary);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3757))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3745))
 // CS Name: ::System.Collections::IDictionary*
 class CORDL_TYPE IDictionary {
 public:

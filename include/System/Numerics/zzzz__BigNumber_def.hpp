@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BigNumber)
-namespace System::Globalization {
-class NumberFormatInfo;
+namespace System::Numerics {
+struct BigInteger;
 }
 namespace System {
 template <typename T> struct Span_1;
 }
-namespace System::Numerics {
-struct BigInteger;
+namespace System::Globalization {
+class NumberFormatInfo;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
@@ -29,23 +29,23 @@ MARK_REF_PTR_T(::System::Numerics::BigNumber);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Numerics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15650))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15635))
 // CS Name: ::System.Numerics::BigNumber*
 class CORDL_TYPE BigNumber : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ParseFormatSpecifier addr 0x2846b3c size 0xf0 virtual false final false
+  /// @brief Method ParseFormatSpecifier addr 0x26cab28 size 0xf0 virtual false final false
   static inline char16_t ParseFormatSpecifier(::System::ReadOnlySpan_1<char16_t> format, ByRef<int32_t> digits);
 
-  /// @brief Method FormatBigIntegerToHex addr 0x2846c2c size 0x5e4 virtual false final false
+  /// @brief Method FormatBigIntegerToHex addr 0x26cac18 size 0x5e4 virtual false final false
   static inline ::StringW FormatBigIntegerToHex(bool targetSpan, ::System::Numerics::BigInteger value, char16_t format, int32_t digits, ::System::Globalization::NumberFormatInfo* info,
                                                 ::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ByRef<bool> spanSuccess);
 
-  /// @brief Method FormatBigInteger addr 0x28458d8 size 0xac virtual false final false
+  /// @brief Method FormatBigInteger addr 0x26c98c4 size 0xac virtual false final false
   static inline ::StringW FormatBigInteger(::System::Numerics::BigInteger value, ::StringW format, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method FormatBigInteger addr 0x2847814 size 0xa00 virtual false final false
+  /// @brief Method FormatBigInteger addr 0x26cb800 size 0xa00 virtual false final false
   static inline ::StringW FormatBigInteger(bool targetSpan, ::System::Numerics::BigInteger value, ::StringW formatString, ::System::ReadOnlySpan_1<char16_t> formatSpan,
                                            ::System::Globalization::NumberFormatInfo* info, ::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ByRef<bool> spanSuccess);
 

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::StencilOp);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10336))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10258))
 // CS Name: ::UnityEngine.Rendering::StencilOp
 struct CORDL_TYPE StencilOp {
 public:
@@ -81,6 +81,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::StencilOp, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::StencilOp, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::StencilOp, "UnityEngine.Rendering", "StencilOp");

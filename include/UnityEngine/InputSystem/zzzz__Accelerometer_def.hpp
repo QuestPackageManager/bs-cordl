@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Accelerometer);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6274))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6275))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6360))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6361))
 // CS Name: ::UnityEngine.InputSystem::Accelerometer*
 class CORDL_TYPE Accelerometer : public ::UnityEngine::InputSystem::Sensor {
 public:
@@ -41,30 +41,30 @@ public:
 
   static inline ::UnityEngine::InputSystem::Accelerometer* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_acceleration addr 0x2aa7bd4 size 0x8 virtual false final false
+  /// @brief Method get_acceleration addr 0x2928e8c size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_acceleration();
 
-  /// @brief Method set_acceleration addr 0x2aa7bdc size 0x8 virtual false final false
+  /// @brief Method set_acceleration addr 0x2928e94 size 0x8 virtual false final false
   inline void set_acceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_current addr 0x2aa7be4 size 0x48 virtual false final false
+  /// @brief Method get_current addr 0x2928e9c size 0x48 virtual false final false
   static inline ::UnityEngine::InputSystem::Accelerometer* get_current();
 
-  /// @brief Method set_current addr 0x2aa7c2c size 0x4c virtual false final false
+  /// @brief Method set_current addr 0x2928ee4 size 0x4c virtual false final false
   static inline void set_current(::UnityEngine::InputSystem::Accelerometer* value);
 
-  /// @brief Method MakeCurrent addr 0x2aa7c78 size 0x54 virtual true final false
+  /// @brief Method MakeCurrent addr 0x2928f30 size 0x54 virtual true final false
   inline void MakeCurrent();
 
-  /// @brief Method OnRemoved addr 0x2aa7ccc size 0x84 virtual true final false
+  /// @brief Method OnRemoved addr 0x2928f84 size 0x84 virtual true final false
   inline void OnRemoved();
 
-  /// @brief Method FinishSetup addr 0x2aa7d50 size 0x78 virtual true final false
+  /// @brief Method FinishSetup addr 0x2929008 size 0x78 virtual true final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Accelerometer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2aa7dc8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2929080 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Accelerometer", modifiers: "&&", def_value: None }]
@@ -88,6 +88,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Accelerometer, 0x160>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Accelerometer, ____acceleration_k__BackingField) == 0x158, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 NEED_NO_BOX(::UnityEngine::InputSystem::Accelerometer);

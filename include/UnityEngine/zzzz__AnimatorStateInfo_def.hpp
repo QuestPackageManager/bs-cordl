@@ -17,14 +17,14 @@ MARK_VAL_T(::UnityEngine::AnimatorStateInfo);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14879))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15106))
 // CS Name: ::UnityEngine::AnimatorStateInfo
 struct CORDL_TYPE AnimatorStateInfo {
 public:
   // Declarations
   __declspec(property(get = get_normalizedTime)) float_t normalizedTime;
 
-  /// @brief Method get_normalizedTime addr 0x2c90718 size 0x8 virtual false final false
+  /// @brief Method get_normalizedTime addr 0x2b2aa78 size 0x8 virtual false final false
   inline float_t get_normalizedTime();
 
   // Ctor Parameters [CppParam { name: "m_Name", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Path", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
@@ -72,6 +72,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimatorStateInfo, 0x24>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorStateInfo, m_Name) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorStateInfo, m_Path) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorStateInfo, m_FullPath) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorStateInfo, m_NormalizedTime) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorStateInfo, m_Length) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorStateInfo, m_Speed) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorStateInfo, m_SpeedMultiplier) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorStateInfo, m_Tag) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimatorStateInfo, m_Loop) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimatorStateInfo, "UnityEngine", "AnimatorStateInfo");

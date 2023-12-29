@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::IO::PathInternal);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3567))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3562))
 // CS Name: ::System.IO::PathInternal*
 class CORDL_TYPE PathInternal : public ::System::Object {
 public:
@@ -32,34 +32,34 @@ public:
 
   static inline bool getStaticF_s_isCaseSensitive();
 
-  /// @brief Method GetRootLength addr 0x24ff870 size 0x7c virtual false final false
+  /// @brief Method GetRootLength addr 0x23a5ba4 size 0x7c virtual false final false
   static inline int32_t GetRootLength(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method IsDirectorySeparator addr 0x24ff8ec size 0x10 virtual false final false
+  /// @brief Method IsDirectorySeparator addr 0x23a5c20 size 0x10 virtual false final false
   static inline bool IsDirectorySeparator(char16_t c);
 
-  /// @brief Method EndsInDirectorySeparator addr 0x24ff8fc size 0x88 virtual false final false
+  /// @brief Method EndsInDirectorySeparator addr 0x23a5c30 size 0x88 virtual false final false
   static inline bool EndsInDirectorySeparator(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method StartsWithDirectorySeparator addr 0x24ff984 size 0x7c virtual false final false
+  /// @brief Method StartsWithDirectorySeparator addr 0x23a5cb8 size 0x7c virtual false final false
   static inline bool StartsWithDirectorySeparator(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method TrimEndingDirectorySeparator addr 0x24ffa00 size 0x140 virtual false final false
+  /// @brief Method TrimEndingDirectorySeparator addr 0x23a5d34 size 0x140 virtual false final false
   static inline ::StringW TrimEndingDirectorySeparator(::StringW path);
 
-  /// @brief Method TrimEndingDirectorySeparator addr 0x24ffbbc size 0xe0 virtual false final false
+  /// @brief Method TrimEndingDirectorySeparator addr 0x23a5ef0 size 0xe0 virtual false final false
   static inline ::System::ReadOnlySpan_1<char16_t> TrimEndingDirectorySeparator(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method IsRoot addr 0x24ffb40 size 0x7c virtual false final false
+  /// @brief Method IsRoot addr 0x23a5e74 size 0x7c virtual false final false
   static inline bool IsRoot(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method get_IsCaseSensitive addr 0x24ffc9c size 0x58 virtual false final false
+  /// @brief Method get_IsCaseSensitive addr 0x23a5fd0 size 0x58 virtual false final false
   static inline bool get_IsCaseSensitive();
 
-  /// @brief Method GetIsCaseSensitive addr 0x24ffcf4 size 0x304 virtual false final false
+  /// @brief Method GetIsCaseSensitive addr 0x23a6028 size 0x304 virtual false final false
   static inline bool GetIsCaseSensitive();
 
-  /// @brief Method IsPartiallyQualified addr 0x25001b4 size 0x8 virtual false final false
+  /// @brief Method IsPartiallyQualified addr 0x23a64e8 size 0x8 virtual false final false
   static inline bool IsPartiallyQualified(::StringW path);
 
   // Ctor Parameters [CppParam { name: "", ty: "PathInternal", modifiers: "&&", def_value: None }]

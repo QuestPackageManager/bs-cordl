@@ -5,7 +5,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IValueTaskSource)
 namespace System::Threading::Tasks::Sources {
-struct ValueTaskSourceOnCompletedFlags;
+struct ValueTaskSourceStatus;
 }
 namespace System {
 class Object;
@@ -14,7 +14,7 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace System::Threading::Tasks::Sources {
-struct ValueTaskSourceStatus;
+struct ValueTaskSourceOnCompletedFlags;
 }
 // Forward declare root types
 namespace System::Threading::Tasks::Sources {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::System::Threading::Tasks::Sources::IValueTaskSource);
 namespace System::Threading::Tasks::Sources {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2823))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2819))
 // CS Name: ::System.Threading.Tasks.Sources::IValueTaskSource*
 class CORDL_TYPE IValueTaskSource {
 public:

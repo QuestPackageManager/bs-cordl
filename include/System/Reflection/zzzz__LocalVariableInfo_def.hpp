@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Reflection::LocalVariableInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3516))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3511))
 // CS Name: ::System.Reflection::LocalVariableInfo*
 class CORDL_TYPE LocalVariableInfo : public ::System::Object {
 public:
@@ -54,10 +54,10 @@ public:
 
   static inline ::System::Reflection::LocalVariableInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x24f1cc8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2398218 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method ToString addr 0x24f1cd0 size 0xac virtual true final false
+  /// @brief Method ToString addr 0x2398220 size 0xac virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalVariableInfo", modifiers: "&&", def_value: None }]
@@ -87,6 +87,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::LocalVariableInfo, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::LocalVariableInfo, ___type) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::LocalVariableInfo, ___is_pinned) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::LocalVariableInfo, ___position) == 0x1a, "Offset mismatch!");
 
 } // namespace System::Reflection
 NEED_NO_BOX(::System::Reflection::LocalVariableInfo);

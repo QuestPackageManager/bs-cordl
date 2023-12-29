@@ -5,23 +5,17 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(VectorConverter)
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
-}
 namespace System {
 class Type;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
 }
 namespace UnityEngine {
 struct Vector4;
@@ -29,8 +23,14 @@ struct Vector4;
 namespace System {
 template <typename T> struct Nullable_1;
 }
-namespace System {
-class Object;
+namespace Newtonsoft::Json {
+class JsonSerializer;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::VectorConverter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11830))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12044))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11758))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11972))
 // CS Name: ::Newtonsoft.Json.Converters::VectorConverter*
 class CORDL_TYPE VectorConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
@@ -102,53 +102,53 @@ public:
 
   static inline ::System::Type* getStaticF_V4();
 
-  /// @brief Method get_EnableVector2 addr 0x26b7a18 size 0x8 virtual false final false
+  /// @brief Method get_EnableVector2 addr 0x25532d4 size 0x8 virtual false final false
   inline bool get_EnableVector2();
 
-  /// @brief Method set_EnableVector2 addr 0x26b7a20 size 0xc virtual false final false
+  /// @brief Method set_EnableVector2 addr 0x25532dc size 0xc virtual false final false
   inline void set_EnableVector2(bool value);
 
-  /// @brief Method get_EnableVector3 addr 0x26b7a2c size 0x8 virtual false final false
+  /// @brief Method get_EnableVector3 addr 0x25532e8 size 0x8 virtual false final false
   inline bool get_EnableVector3();
 
-  /// @brief Method set_EnableVector3 addr 0x26b7a34 size 0xc virtual false final false
+  /// @brief Method set_EnableVector3 addr 0x25532f0 size 0xc virtual false final false
   inline void set_EnableVector3(bool value);
 
-  /// @brief Method get_EnableVector4 addr 0x26b7a40 size 0x8 virtual false final false
+  /// @brief Method get_EnableVector4 addr 0x25532fc size 0x8 virtual false final false
   inline bool get_EnableVector4();
 
-  /// @brief Method set_EnableVector4 addr 0x26b7a48 size 0xc virtual false final false
+  /// @brief Method set_EnableVector4 addr 0x2553304 size 0xc virtual false final false
   inline void set_EnableVector4(bool value);
 
   static inline ::Newtonsoft::Json::Converters::VectorConverter* New_ctor();
 
-  /// @brief Method .ctor addr 0x26b7a54 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2553310 size 0x28 virtual false final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Converters::VectorConverter* New_ctor(bool enableVector2, bool enableVector3, bool enableVector4);
 
-  /// @brief Method .ctor addr 0x26b7a7c size 0x4c virtual false final false
+  /// @brief Method .ctor addr 0x2553338 size 0x4c virtual false final false
   inline void _ctor(bool enableVector2, bool enableVector3, bool enableVector4);
 
-  /// @brief Method WriteJson addr 0x26b7ac8 size 0x2b0 virtual true final false
+  /// @brief Method WriteJson addr 0x2553384 size 0x2b0 virtual true final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteVector addr 0x26b7d78 size 0x1d0 virtual false final false
+  /// @brief Method WriteVector addr 0x2553634 size 0x1d0 virtual false final false
   static inline void WriteVector(::Newtonsoft::Json::JsonWriter* writer, float_t x, float_t y, ::System::Nullable_1<float_t> z, ::System::Nullable_1<float_t> w);
 
-  /// @brief Method ReadJson addr 0x26b7f48 size 0x138 virtual true final false
+  /// @brief Method ReadJson addr 0x2553804 size 0x138 virtual true final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method CanConvert addr 0x26b83ec size 0xd8 virtual true final false
+  /// @brief Method CanConvert addr 0x2553ca8 size 0xd8 virtual true final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method PopulateVector2 addr 0x26b8080 size 0xe4 virtual false final false
+  /// @brief Method PopulateVector2 addr 0x255393c size 0xe4 virtual false final false
   static inline ::UnityEngine::Vector2 PopulateVector2(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method PopulateVector3 addr 0x26b8164 size 0x124 virtual false final false
+  /// @brief Method PopulateVector3 addr 0x2553a20 size 0x124 virtual false final false
   static inline ::UnityEngine::Vector3 PopulateVector3(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method PopulateVector4 addr 0x26b8288 size 0x164 virtual false final false
+  /// @brief Method PopulateVector4 addr 0x2553b44 size 0x164 virtual false final false
   static inline ::UnityEngine::Vector4 PopulateVector4(::Newtonsoft::Json::JsonReader* reader);
 
   // Ctor Parameters [CppParam { name: "", ty: "VectorConverter", modifiers: "&&", def_value: None }]
@@ -178,6 +178,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Converters::VectorConverter, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Converters::VectorConverter, ____EnableVector2_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Converters::VectorConverter, ____EnableVector3_k__BackingField) == 0x11, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Converters::VectorConverter, ____EnableVector4_k__BackingField) == 0x12, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Converters
 NEED_NO_BOX(::Newtonsoft::Json::Converters::VectorConverter);

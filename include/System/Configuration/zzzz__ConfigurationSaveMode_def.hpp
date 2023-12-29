@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Configuration::ConfigurationSaveMode);
 namespace System::Configuration {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16259))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16082))
 // CS Name: ::System.Configuration::ConfigurationSaveMode
 struct CORDL_TYPE ConfigurationSaveMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Configuration::ConfigurationSaveMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Configuration::ConfigurationSaveMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Configuration
 DEFINE_IL2CPP_ARG_TYPE(::System::Configuration::ConfigurationSaveMode, "System.Configuration", "ConfigurationSaveMode");

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(TrackLaneRing)
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TrackLaneRing);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5003))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5108))
 // CS Name: ::TrackLaneRing*
 class CORDL_TYPE TrackLaneRing : public ::UnityEngine::MonoBehaviour {
 public:
@@ -120,33 +120,33 @@ public:
 
   constexpr void __set__transform(::UnityEngine::Transform* value);
 
-  /// @brief Method get_destRotZ addr 0x23b7798 size 0x8 virtual false final false
+  /// @brief Method get_destRotZ addr 0x227e92c size 0x8 virtual false final false
   inline float_t get_destRotZ();
 
-  /// @brief Method Init addr 0x23b77a0 size 0x78 virtual false final false
+  /// @brief Method Init addr 0x227e934 size 0x78 virtual false final false
   inline void Init(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 positionOffset);
 
-  /// @brief Method FixedUpdateRing addr 0x23b7818 size 0x74 virtual false final false
+  /// @brief Method FixedUpdateRing addr 0x227e9ac size 0x74 virtual false final false
   inline void FixedUpdateRing(float_t fixedDeltaTime);
 
-  /// @brief Method LateUpdateRing addr 0x23b788c size 0x68 virtual false final false
+  /// @brief Method LateUpdateRing addr 0x227ea20 size 0x68 virtual false final false
   inline void LateUpdateRing(float_t interpolationFactor);
 
-  /// @brief Method SetDestRotation addr 0x23b78f4 size 0x8 virtual false final false
+  /// @brief Method SetDestRotation addr 0x227ea88 size 0x8 virtual false final false
   inline void SetDestRotation(float_t destRotZ, float_t rotateSpeed);
 
-  /// @brief Method GetRotation addr 0x23b78fc size 0x8 virtual false final false
+  /// @brief Method GetRotation addr 0x227ea90 size 0x8 virtual false final false
   inline float_t GetRotation();
 
-  /// @brief Method GetDestinationRotation addr 0x23b7904 size 0x8 virtual false final false
+  /// @brief Method GetDestinationRotation addr 0x227ea98 size 0x8 virtual false final false
   inline float_t GetDestinationRotation();
 
-  /// @brief Method SetPosition addr 0x23b790c size 0x8 virtual false final false
+  /// @brief Method SetPosition addr 0x227eaa0 size 0x8 virtual false final false
   inline void SetPosition(float_t destPosZ, float_t moveSpeed);
 
   static inline ::GlobalNamespace::TrackLaneRing* New_ctor();
 
-  /// @brief Method .ctor addr 0x23b7914 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x227eaa8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRing", modifiers: "&&", def_value: None }]
@@ -197,6 +197,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TrackLaneRing, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRing, ____prevRotZ) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRing, ____rotZ) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRing, ____destRotZ) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRing, ____rotationSpeed) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRing, ____prevPosZ) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRing, ____posZ) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRing, ____destPosZ) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRing, ____moveSpeed) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRing, ____positionOffset) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TrackLaneRing, ____transform) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TrackLaneRing);

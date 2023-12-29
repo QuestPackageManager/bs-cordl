@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(SinglePubInfo)
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
@@ -57,16 +57,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe88958 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0xe13784 size 0x84 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe87308 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xe12134 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_PubLocation addr 0xe889dc size 0x8 virtual true final false
+  /// @brief Method get_PubLocation addr 0xe13808 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_PubLocation();
 
-  /// @brief Method ToAsn1Object addr 0xe889e4 size 0x148 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe13810 size 0x148 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SinglePubInfo", modifiers: "&&", def_value: None }]
@@ -93,6 +93,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo, ___pubMethod) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo, ___pubLocation) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo);

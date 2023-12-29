@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MultiplayerGameState_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LobbyGameStateModel)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 struct MultiplayerGameState;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LobbyGameStateModel);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12880))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4503))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12803)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4514))
 // CS Name: ::LobbyGameStateModel*
 class CORDL_TYPE LobbyGameStateModel : public ::System::Object {
 public:
@@ -57,33 +57,33 @@ public:
 
   constexpr void __set__gameState(::GlobalNamespace::MultiplayerGameState value);
 
-  /// @brief Method get_gameState addr 0x235b51c size 0x8 virtual false final false
+  /// @brief Method get_gameState addr 0x220c4fc size 0x8 virtual false final false
   inline ::GlobalNamespace::MultiplayerGameState get_gameState();
 
-  /// @brief Method add_gameStateDidChangeEvent addr 0x235b524 size 0xb0 virtual false final false
+  /// @brief Method add_gameStateDidChangeEvent addr 0x220c504 size 0xb0 virtual false final false
   inline void add_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method remove_gameStateDidChangeEvent addr 0x235b5d4 size 0xb0 virtual false final false
+  /// @brief Method remove_gameStateDidChangeEvent addr 0x220c5b4 size 0xb0 virtual false final false
   inline void remove_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method add_gameStateDidChangeAlwaysSentEvent addr 0x235b684 size 0xb0 virtual false final false
+  /// @brief Method add_gameStateDidChangeAlwaysSentEvent addr 0x220c664 size 0xb0 virtual false final false
   inline void add_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method remove_gameStateDidChangeAlwaysSentEvent addr 0x235b734 size 0xb0 virtual false final false
+  /// @brief Method remove_gameStateDidChangeAlwaysSentEvent addr 0x220c714 size 0xb0 virtual false final false
   inline void remove_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method SetGameState addr 0x235a924 size 0x8 virtual false final false
+  /// @brief Method SetGameState addr 0x220b928 size 0x8 virtual false final false
   inline void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState);
 
-  /// @brief Method SetGameStateWithoutNotification addr 0x23589b0 size 0x2c virtual false final false
+  /// @brief Method SetGameStateWithoutNotification addr 0x22099b4 size 0x2c virtual false final false
   inline void SetGameStateWithoutNotification(::GlobalNamespace::MultiplayerGameState newGameState);
 
-  /// @brief Method SetGameState addr 0x235b7e4 size 0x70 virtual false final false
+  /// @brief Method SetGameState addr 0x220c7c4 size 0x70 virtual false final false
   inline void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState, bool sendNotification);
 
   static inline ::GlobalNamespace::LobbyGameStateModel* New_ctor();
 
-  /// @brief Method .ctor addr 0x235b854 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x220c834 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LobbyGameStateModel", modifiers: "&&", def_value: None }]
@@ -113,6 +113,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LobbyGameStateModel, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LobbyGameStateModel, ___gameStateDidChangeEvent) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LobbyGameStateModel, ___gameStateDidChangeAlwaysSentEvent) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LobbyGameStateModel, ____gameState) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LobbyGameStateModel);

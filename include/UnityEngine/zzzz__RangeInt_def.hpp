@@ -16,17 +16,17 @@ MARK_VAL_T(::UnityEngine::RangeInt);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10197))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10125))
 // CS Name: ::UnityEngine::RangeInt
 struct CORDL_TYPE RangeInt {
 public:
   // Declarations
   __declspec(property(get = get_end)) int32_t end;
 
-  /// @brief Method get_end addr 0x2ccef64 size 0xc virtual false final false
+  /// @brief Method get_end addr 0x2b68a60 size 0xc virtual false final false
   inline int32_t get_end();
 
-  /// @brief Method .ctor addr 0x2ccef70 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2b68a6c size 0x8 virtual false final false
   inline void _ctor(int32_t start, int32_t length);
 
   // Ctor Parameters [CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
@@ -49,6 +49,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::RangeInt, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::RangeInt, start) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::RangeInt, length) == 0x4, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RangeInt, "UnityEngine", "RangeInt");

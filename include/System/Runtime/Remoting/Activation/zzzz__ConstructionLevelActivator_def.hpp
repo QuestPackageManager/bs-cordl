@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::ConstructionLevelActivat
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3131))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3130))
 // CS Name: ::System.Runtime.Remoting.Activation::ConstructionLevelActivator*
 class CORDL_TYPE ConstructionLevelActivator : public ::System::Object {
 public:
@@ -34,15 +34,15 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
   constexpr operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
 
-  /// @brief Method get_NextActivator addr 0x24a4f84 size 0x8 virtual true final true
+  /// @brief Method get_NextActivator addr 0x234c490 size 0x8 virtual true final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
-  /// @brief Method Activate addr 0x24a4f8c size 0xf0 virtual true final true
+  /// @brief Method Activate addr 0x234c498 size 0xf0 virtual true final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
   static inline ::System::Runtime::Remoting::Activation::ConstructionLevelActivator* New_ctor();
 
-  /// @brief Method .ctor addr 0x24a4324 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x234b830 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConstructionLevelActivator", modifiers: "&&", def_value: None }]

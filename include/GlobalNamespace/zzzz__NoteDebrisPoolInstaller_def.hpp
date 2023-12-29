@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ScriptableObjectInstaller_def.hpp"
 CORDL_MODULE_EXPORT(NoteDebrisPoolInstaller)
 namespace GlobalNamespace {
-class BoolSO;
+class NoteDebris;
 }
 namespace GlobalNamespace {
-class NoteDebris;
+class BoolSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteDebrisPoolInstaller);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11147))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5402))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11075))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5492))
 // CS Name: ::NoteDebrisPoolInstaller*
 class CORDL_TYPE NoteDebrisPoolInstaller : public ::Zenject::ScriptableObjectInstaller {
 public:
@@ -89,12 +89,12 @@ public:
 
   constexpr void __set__noteDebrisHDConditionVariable(::GlobalNamespace::BoolSO* value);
 
-  /// @brief Method InstallBindings addr 0x2272fb8 size 0x234 virtual true final false
+  /// @brief Method InstallBindings addr 0x212d828 size 0x234 virtual true final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::NoteDebrisPoolInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x22731ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x212da5c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisPoolInstaller", modifiers: "&&", def_value: None }]
@@ -136,6 +136,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteDebrisPoolInstaller, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebrisPoolInstaller, ____normalNoteDebrisHDPrefab) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebrisPoolInstaller, ____normalNoteDebrisLWPrefab) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebrisPoolInstaller, ____burstSliderHeadNoteDebrisHDPrefab) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebrisPoolInstaller, ____burstSliderHeadNoteDebrisLWPrefab) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebrisPoolInstaller, ____burstSliderElementNoteHDPrefab) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebrisPoolInstaller, ____burstSliderElementNoteLWPrefab) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebrisPoolInstaller, ____noteDebrisHDConditionVariable) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteDebrisPoolInstaller);

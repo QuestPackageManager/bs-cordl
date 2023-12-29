@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsReliableHandshake)
 namespace Org::BouncyCastle::Crypto::Tls {
-class __DtlsReliableHandshake__RecordLayerBuffer;
+class DtlsRecordLayer;
 }
 namespace System::Collections {
 class IDictionary;
@@ -17,13 +17,10 @@ namespace System::Collections {
 class IList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class __DtlsReliableHandshake__Retransmit;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsRecordLayer;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class Timeout;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class __DtlsReliableHandshake__Retransmit;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
@@ -33,6 +30,9 @@ class __DtlsReliableHandshake__Message;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsHandshakeHash;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class __DtlsReliableHandshake__RecordLayerBuffer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsHandshakeRetransmit;
@@ -59,7 +59,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Retran
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1230))
 // CS Name: ::DtlsReliableHandshake::Message*
 class CORDL_TYPE __DtlsReliableHandshake__Message : public ::System::Object {
@@ -100,16 +100,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Message* New_ctor(int32_t message_seq, uint8_t msg_type, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method .ctor addr 0xf6fd3c size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0xef9b18 size 0x40 virtual false final false
   inline void _ctor(int32_t message_seq, uint8_t msg_type, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method get_Seq addr 0xf712b8 size 0x8 virtual false final false
+  /// @brief Method get_Seq addr 0xefb094 size 0x8 virtual false final false
   inline int32_t get_Seq();
 
-  /// @brief Method get_Type addr 0xf712c0 size 0x8 virtual false final false
+  /// @brief Method get_Type addr 0xefb09c size 0x8 virtual false final false
   inline uint8_t get_Type();
 
-  /// @brief Method get_Body addr 0xf712c8 size 0x8 virtual false final false
+  /// @brief Method get_Body addr 0xefb0a4 size 0x8 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Body();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DtlsReliableHandshake__Message", modifiers: "&&", def_value: None }]
@@ -140,12 +140,18 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Message, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Message, ___mMessageSeq) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Message, ___mMsgType) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Message, ___mBody) == 0x18, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Crypto::Tls
 // Type: ::RecordLayerBuffer
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3561))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1231))
 // CS Name: ::DtlsReliableHandshake::RecordLayerBuffer*
 class CORDL_TYPE __DtlsReliableHandshake__RecordLayerBuffer : public ::System::IO::MemoryStream {
@@ -153,10 +159,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__RecordLayerBuffer* New_ctor(int32_t size);
 
-  /// @brief Method .ctor addr 0xf711fc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xefafd8 size 0x8 virtual false final false
   inline void _ctor(int32_t size);
 
-  /// @brief Method SendToRecordLayer addr 0xf71204 size 0xb4 virtual false final false
+  /// @brief Method SendToRecordLayer addr 0xefafe0 size 0xb4 virtual false final false
   inline void SendToRecordLayer(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DtlsReliableHandshake__RecordLayerBuffer", modifiers: "&&", def_value: None }]
@@ -183,7 +189,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1232))
 // CS Name: ::DtlsReliableHandshake::Retransmit*
 class CORDL_TYPE __DtlsReliableHandshake__Retransmit : public ::System::Object {
@@ -203,10 +209,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Retransmit* New_ctor(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake* outer);
 
-  /// @brief Method .ctor addr 0xf708f8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xefa6d4 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake* outer);
 
-  /// @brief Method ReceivedHandshakeRecord addr 0xf712d0 size 0x2c virtual true final true
+  /// @brief Method ReceivedHandshakeRecord addr 0xefb0ac size 0x2c virtual true final true
   inline void ReceivedHandshakeRecord(int32_t epoch, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DtlsReliableHandshake__Retransmit", modifiers: "&&", def_value: None }]
@@ -231,12 +237,14 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Retransmit, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Retransmit, ___mOuter) == 0x10, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Crypto::Tls
 // Type: Org.BouncyCastle.Crypto.Tls::DtlsReliableHandshake
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1233))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsReliableHandshake*
 class CORDL_TYPE DtlsReliableHandshake : public ::System::Object {
@@ -343,64 +351,64 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* transport,
                                                                                   int32_t timeoutMillis);
 
-  /// @brief Method .ctor addr 0xf6aaec size 0x14c virtual false final false
+  /// @brief Method .ctor addr 0xef48c8 size 0x14c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* transport, int32_t timeoutMillis);
 
-  /// @brief Method NotifyHelloComplete addr 0xf6b2d0 size 0xac virtual false final false
+  /// @brief Method NotifyHelloComplete addr 0xef50ac size 0xac virtual false final false
   inline void NotifyHelloComplete();
 
-  /// @brief Method get_HandshakeHash addr 0xf6f9ac size 0x8 virtual false final false
+  /// @brief Method get_HandshakeHash addr 0xef9788 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* get_HandshakeHash();
 
-  /// @brief Method PrepareToFinish addr 0xf6b48c size 0xb0 virtual false final false
+  /// @brief Method PrepareToFinish addr 0xef5268 size 0xb0 virtual false final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* PrepareToFinish();
 
-  /// @brief Method SendMessage addr 0xf6ac38 size 0x1d0 virtual false final false
+  /// @brief Method SendMessage addr 0xef4a14 size 0x1d0 virtual false final false
   inline void SendMessage(uint8_t msg_type, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method ReceiveMessageBody addr 0xf6b37c size 0x6c virtual false final false
+  /// @brief Method ReceiveMessageBody addr 0xef5158 size 0x6c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReceiveMessageBody(uint8_t msg_type);
 
-  /// @brief Method ReceiveMessage addr 0xf6ae08 size 0x2f4 virtual false final false
+  /// @brief Method ReceiveMessage addr 0xef4be4 size 0x2f4 virtual false final false
   inline ::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Message* ReceiveMessage();
 
-  /// @brief Method Finish addr 0xf6b3e8 size 0xa4 virtual false final false
+  /// @brief Method Finish addr 0xef51c4 size 0xa4 virtual false final false
   inline void Finish();
 
-  /// @brief Method ResetHandshakeMessagesDigest addr 0xf6b22c size 0xa4 virtual false final false
+  /// @brief Method ResetHandshakeMessagesDigest addr 0xef5008 size 0xa4 virtual false final false
   inline void ResetHandshakeMessagesDigest();
 
-  /// @brief Method BackOff addr 0xf70920 size 0x5c virtual false final false
+  /// @brief Method BackOff addr 0xefa6fc size 0x5c virtual false final false
   inline int32_t BackOff(int32_t timeoutMillis);
 
-  /// @brief Method CheckInboundFlight addr 0xf6f9b4 size 0x388 virtual false final false
+  /// @brief Method CheckInboundFlight addr 0xef9790 size 0x388 virtual false final false
   inline void CheckInboundFlight();
 
-  /// @brief Method GetPendingMessage addr 0xf700cc size 0x19c virtual false final false
+  /// @brief Method GetPendingMessage addr 0xef9ea8 size 0x19c virtual false final false
   inline ::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Message* GetPendingMessage();
 
-  /// @brief Method PrepareInboundFlight addr 0xf700a0 size 0x2c virtual false final false
+  /// @brief Method PrepareInboundFlight addr 0xef9e7c size 0x2c virtual false final false
   inline void PrepareInboundFlight(::System::Collections::IDictionary* nextFlight);
 
-  /// @brief Method ProcessRecord addr 0xf70468 size 0x490 virtual false final false
+  /// @brief Method ProcessRecord addr 0xefa244 size 0x490 virtual false final false
   inline void ProcessRecord(int32_t windowSize, int32_t epoch, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method ResendOutboundFlight addr 0xf70268 size 0x200 virtual false final false
+  /// @brief Method ResendOutboundFlight addr 0xefa044 size 0x200 virtual false final false
   inline void ResendOutboundFlight();
 
-  /// @brief Method UpdateHandshakeMessagesDigest addr 0xf6fe90 size 0x210 virtual false final false
+  /// @brief Method UpdateHandshakeMessagesDigest addr 0xef9c6c size 0x210 virtual false final false
   inline ::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Message* UpdateHandshakeMessagesDigest(::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Message* message);
 
-  /// @brief Method WriteMessage addr 0xf6fd7c size 0x114 virtual false final false
+  /// @brief Method WriteMessage addr 0xef9b58 size 0x114 virtual false final false
   inline void WriteMessage(::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Message* message);
 
-  /// @brief Method WriteHandshakeFragment addr 0xf710d4 size 0x128 virtual false final false
+  /// @brief Method WriteHandshakeFragment addr 0xefaeb0 size 0x128 virtual false final false
   inline void WriteHandshakeFragment(::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Message* message, int32_t fragment_offset, int32_t fragment_length);
 
-  /// @brief Method CheckAll addr 0xf70d18 size 0x3bc virtual false final false
+  /// @brief Method CheckAll addr 0xefaaf4 size 0x3bc virtual false final false
   static inline bool CheckAll(::System::Collections::IDictionary* inboundFlight);
 
-  /// @brief Method ResetAll addr 0xf7097c size 0x39c virtual false final false
+  /// @brief Method ResetAll addr 0xefa758 size 0x39c virtual false final false
   static inline void ResetAll(::System::Collections::IDictionary* inboundFlight);
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake", modifiers: "&&", def_value: None }]
@@ -463,6 +471,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake, ___mRecordLayer) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake, ___mHandshakeTimeout) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake, ___mHandshakeHash) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake, ___mCurrentInboundFlight) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake, ___mPreviousInboundFlight) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake, ___mOutboundFlight) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake, ___mResendMillis) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake, ___mResendTimeout) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake, ___mMessageSeq) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake, ___mNextReceiveSeq) == 0x54, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake);

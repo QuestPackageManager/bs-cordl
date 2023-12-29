@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WindowsIdentity)
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System {
-class IDisposable;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Security::Principal {
-class IIdentity;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+class Object;
 }
 namespace System::Security::Principal {
 struct WindowsAccountType;
 }
 namespace System::Security::Principal {
+class IIdentity;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Security::Principal {
 class WindowsImpersonationContext;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Security::Claims {
 class ClaimsIdentity;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 // Forward declare root types
 namespace System::Security::Principal {
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::System::Security::Principal::WindowsIdentity);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3005)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3010))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3006))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3009)), TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(3004))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3005))
 // CS Name: ::System.Security.Principal::WindowsIdentity*
 class CORDL_TYPE WindowsIdentity : public ::System::Security::Claims::ClaimsIdentity {
 public:
@@ -133,53 +133,53 @@ public:
 
   static inline ::System::Security::Principal::WindowsIdentity* New_ctor(void* userToken, ::StringW type, ::System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated);
 
-  /// @brief Method .ctor addr 0x247abac size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x23230b8 size 0x64 virtual false final false
   inline void _ctor(void* userToken, ::StringW type, ::System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated);
 
   static inline ::System::Security::Principal::WindowsIdentity* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x247ad70 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x232327c size 0x3c virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Security::Principal::WindowsIdentity* New_ctor(::System::Security::Claims::ClaimsIdentity* claimsIdentity, void* userToken);
 
-  /// @brief Method .ctor addr 0x247adac size 0xa4 virtual false final false
+  /// @brief Method .ctor addr 0x23232b8 size 0xa4 virtual false final false
   inline void _ctor(::System::Security::Claims::ClaimsIdentity* claimsIdentity, void* userToken);
 
-  /// @brief Method Dispose addr 0x247ae50 size 0x50 virtual true final true
+  /// @brief Method Dispose addr 0x232335c size 0x50 virtual true final true
   inline void Dispose();
 
-  /// @brief Method GetCurrent addr 0x247aea0 size 0x84 virtual false final false
+  /// @brief Method GetCurrent addr 0x23233ac size 0x84 virtual false final false
   static inline ::System::Security::Principal::WindowsIdentity* GetCurrent();
 
-  /// @brief Method Impersonate addr 0x247af28 size 0x64 virtual true final false
+  /// @brief Method Impersonate addr 0x2323434 size 0x64 virtual true final false
   inline ::System::Security::Principal::WindowsImpersonationContext* Impersonate();
 
-  /// @brief Method get_AuthenticationType addr 0x247b018 size 0x8 virtual true final true
+  /// @brief Method get_AuthenticationType addr 0x2323524 size 0x8 virtual true final true
   inline ::StringW get_AuthenticationType();
 
-  /// @brief Method get_Name addr 0x247b020 size 0x68 virtual true final false
+  /// @brief Method get_Name addr 0x232352c size 0x68 virtual true final false
   inline ::StringW get_Name();
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization addr 0x247b08c size 0x2d8 virtual true final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization addr 0x2323598 size 0x2d8 virtual true final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x247b364 size 0x168 virtual true final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x2323870 size 0x168 virtual true final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method CloneAsBase addr 0x247b4cc size 0x4 virtual false final false
+  /// @brief Method CloneAsBase addr 0x23239d8 size 0x4 virtual false final false
   inline ::System::Security::Claims::ClaimsIdentity* CloneAsBase();
 
-  /// @brief Method GetTokenInternal addr 0x247b620 size 0x8 virtual false final false
+  /// @brief Method GetTokenInternal addr 0x2323b2c size 0x8 virtual false final false
   inline void* GetTokenInternal();
 
-  /// @brief Method SetToken addr 0x247ac10 size 0x160 virtual false final false
+  /// @brief Method SetToken addr 0x232311c size 0x160 virtual false final false
   inline void SetToken(void* token);
 
-  /// @brief Method GetCurrentToken addr 0x247af24 size 0x4 virtual false final false
+  /// @brief Method GetCurrentToken addr 0x2323430 size 0x4 virtual false final false
   static inline void* GetCurrentToken();
 
-  /// @brief Method GetTokenName addr 0x247b088 size 0x4 virtual false final false
+  /// @brief Method GetTokenName addr 0x2323594 size 0x4 virtual false final false
   static inline ::StringW GetTokenName(void* token);
 
   // Ctor Parameters [CppParam { name: "", ty: "WindowsIdentity", modifiers: "&&", def_value: None }]
@@ -218,6 +218,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Principal::WindowsIdentity, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Principal::WindowsIdentity, ____token) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Principal::WindowsIdentity, ____type) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Principal::WindowsIdentity, ____account) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Principal::WindowsIdentity, ____authenticated) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Principal::WindowsIdentity, ____name) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Principal::WindowsIdentity, ____info) == 0x98, "Offset mismatch!");
 
 } // namespace System::Security::Principal
 NEED_NO_BOX(::System::Security::Principal::WindowsIdentity);

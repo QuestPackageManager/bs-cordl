@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::GlobalNamespace::AppInitSetupInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4022))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4017))
 // CS Name: ::AppInitSetupInstaller*
 class CORDL_TYPE AppInitSetupInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings addr 0x2225cf8 size 0x5c virtual true final false
+  /// @brief Method InstallBindings addr 0x20c5f44 size 0x68 virtual true final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::AppInitSetupInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x2225d54 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20c5fac size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AppInitSetupInstaller", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::LIV::SDK::Unity::FEATURES);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15101))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15205))
 // CS Name: ::LIV.SDK.Unity::FEATURES
 struct CORDL_TYPE FEATURES {
 public:
@@ -97,6 +97,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::FEATURES, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::FEATURES, value__) == 0x0, "Offset mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::FEATURES, "LIV.SDK.Unity", "FEATURES");

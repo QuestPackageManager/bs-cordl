@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Identity)
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
+}
 namespace System::Runtime::Remoting {
 class ObjRef;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+namespace System {
+class Type;
 }
 namespace System::Runtime::Remoting::Contexts {
 class DynamicPropertyCollection;
 }
-namespace System {
-class Type;
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Identity);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3060))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3059))
 // CS Name: ::System.Runtime.Remoting::Identity*
 class CORDL_TYPE Identity : public ::System::Object {
 public:
@@ -115,46 +115,46 @@ public:
 
   static inline ::System::Runtime::Remoting::Identity* New_ctor(::StringW objectUri);
 
-  /// @brief Method .ctor addr 0x2485068 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x232d574 size 0x28 virtual false final false
   inline void _ctor(::StringW objectUri);
 
   /// @brief Method CreateObjRef addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
 
-  /// @brief Method get_ChannelSink addr 0x2485090 size 0x8 virtual false final false
+  /// @brief Method get_ChannelSink addr 0x232d59c size 0x8 virtual false final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_ChannelSink();
 
-  /// @brief Method set_ChannelSink addr 0x2485098 size 0x8 virtual false final false
+  /// @brief Method set_ChannelSink addr 0x232d5a4 size 0x8 virtual false final false
   inline void set_ChannelSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method get_EnvoySink addr 0x24850a0 size 0x8 virtual false final false
+  /// @brief Method get_EnvoySink addr 0x232d5ac size 0x8 virtual false final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySink();
 
-  /// @brief Method get_ObjectUri addr 0x24850a8 size 0x8 virtual false final false
+  /// @brief Method get_ObjectUri addr 0x232d5b4 size 0x8 virtual false final false
   inline ::StringW get_ObjectUri();
 
-  /// @brief Method set_ObjectUri addr 0x24850b0 size 0x8 virtual false final false
+  /// @brief Method set_ObjectUri addr 0x232d5bc size 0x8 virtual false final false
   inline void set_ObjectUri(::StringW value);
 
-  /// @brief Method get_IsConnected addr 0x24850b8 size 0x10 virtual false final false
+  /// @brief Method get_IsConnected addr 0x232d5c4 size 0x10 virtual false final false
   inline bool get_IsConnected();
 
-  /// @brief Method get_Disposed addr 0x24850c8 size 0x8 virtual false final false
+  /// @brief Method get_Disposed addr 0x232d5d4 size 0x8 virtual false final false
   inline bool get_Disposed();
 
-  /// @brief Method set_Disposed addr 0x24850d0 size 0xc virtual false final false
+  /// @brief Method set_Disposed addr 0x232d5dc size 0xc virtual false final false
   inline void set_Disposed(bool value);
 
-  /// @brief Method get_ClientDynamicProperties addr 0x24850dc size 0x6c virtual false final false
+  /// @brief Method get_ClientDynamicProperties addr 0x232d5e8 size 0x6c virtual false final false
   inline ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* get_ClientDynamicProperties();
 
-  /// @brief Method get_HasServerDynamicSinks addr 0x2485148 size 0x14 virtual false final false
+  /// @brief Method get_HasServerDynamicSinks addr 0x232d654 size 0x14 virtual false final false
   inline bool get_HasServerDynamicSinks();
 
-  /// @brief Method NotifyClientDynamicSinks addr 0x248515c size 0x74 virtual false final false
+  /// @brief Method NotifyClientDynamicSinks addr 0x232d668 size 0x74 virtual false final false
   inline void NotifyClientDynamicSinks(bool start, ::System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
 
-  /// @brief Method NotifyServerDynamicSinks addr 0x24851d0 size 0x74 virtual false final false
+  /// @brief Method NotifyServerDynamicSinks addr 0x232d6dc size 0x74 virtual false final false
   inline void NotifyServerDynamicSinks(bool start, ::System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
 
   // Ctor Parameters [CppParam { name: "", ty: "Identity", modifiers: "&&", def_value: None }]
@@ -196,6 +196,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Identity, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Identity, ____objectUri) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Identity, ____channelSink) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Identity, ____envoySink) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Identity, ____clientDynamicProperties) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Identity, ____serverDynamicProperties) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Identity, ____objRef) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Identity, ____disposed) == 0x40, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting
 NEED_NO_BOX(::System::Runtime::Remoting::Identity);

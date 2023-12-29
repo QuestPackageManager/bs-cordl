@@ -18,49 +18,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WordWrapState)
 namespace TMPro {
-class TMP_TextInfo;
-}
-namespace TMPro {
-struct Extents;
-}
-namespace TMPro {
-struct FontWeight;
-}
-namespace TMPro {
-struct HorizontalAlignmentOptions;
-}
-namespace TMPro {
 struct MaterialReference;
 }
 namespace TMPro {
 class TMP_ColorGradient;
 }
 namespace TMPro {
-template <typename T> struct TMP_TextProcessingStack_1;
+struct HorizontalAlignmentOptions;
 }
 namespace TMPro {
-struct TMP_FontStyleStack;
+template <typename T> struct TMP_TextProcessingStack_1;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace TMPro {
+struct FontWeight;
+}
+namespace TMPro {
+class TMP_FontAsset;
 }
 namespace TMPro {
 class TMP_SpriteAsset;
 }
 namespace TMPro {
+struct TMP_FontStyleStack;
+}
+namespace TMPro {
 struct FontStyles;
+}
+namespace TMPro {
+struct TMP_LineInfo;
 }
 namespace UnityEngine {
 struct Color32;
 }
 namespace TMPro {
-struct TMP_LineInfo;
+struct Extents;
+}
+namespace TMPro {
+class TMP_TextInfo;
 }
 namespace TMPro {
 struct HighlightState;
-}
-namespace TMPro {
-class TMP_FontAsset;
-}
-namespace UnityEngine {
-class Material;
 }
 // Forward declare root types
 namespace TMPro {
@@ -72,14 +72,14 @@ MARK_VAL_T(::TMPro::WordWrapState);
 // SizeInfo { instance_size: 888, native_size: -1, calculated_instance_size: 888, calculated_native_size: 902, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12334)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5050 }), GenericInstantiation(GenericInstantiation
-// { tdi: TypeDefinitionIndex(12453), inst: 5052 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5051 }), TypeDefinitionIndex(TypeDefinitionIndex(12453)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12331)), TypeDefinitionIndex(TypeDefinitionIndex(12304)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(12394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12452)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5054 }), TypeDefinitionIndex(TypeDefinitionIndex(12430)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12439)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5053 }), TypeDefinitionIndex(TypeDefinitionIndex(12438)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(12322)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(12453), inst: 742 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12324)) CS Name:
-// ::TMPro::WordWrapState
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12381), inst: 4943 }), TypeDefinitionIndex(TypeDefinitionIndex(12367)), GenericInstantiation(GenericInstantiation
+// { tdi: TypeDefinitionIndex(12381), inst: 101 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12381), inst: 4944 }), TypeDefinitionIndex(TypeDefinitionIndex(12232)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12381)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12381), inst: 4946 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(12381), inst: 4947 }), TypeDefinitionIndex(TypeDefinitionIndex(12358)), TypeDefinitionIndex(TypeDefinitionIndex(12250)), TypeDefinitionIndex(TypeDefinitionIndex(12322)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12366)), TypeDefinitionIndex(TypeDefinitionIndex(10177)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12381), inst: 731 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12381), inst: 387 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12381), inst: 4945 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(12380)), TypeDefinitionIndex(TypeDefinitionIndex(12259)), TypeDefinitionIndex(TypeDefinitionIndex(12262))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(12252)) CS Name: ::TMPro::WordWrapState
 struct CORDL_TYPE WordWrapState {
 public:
   // Declarations
@@ -343,6 +343,136 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::WordWrapState, 0x378>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, previous_WordBreak) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, total_CharacterCount) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, visible_CharacterCount) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, visible_SpriteCount) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, visible_LinkCount) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, firstCharacterIndex) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, firstVisibleCharacterIndex) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, lastCharacterIndex) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, lastVisibleCharIndex) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, lineNumber) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, maxCapHeight) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, maxAscender) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, maxDescender) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, startOfLineAscender) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, maxLineAscender) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, maxLineDescender) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, pageAscender) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, horizontalAlignment) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, marginLeft) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, marginRight) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, xAdvance) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, preferredWidth) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, preferredHeight) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, previousLineScale) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, wordCount) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, fontStyle) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, italicAngle) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, fontScaleMultiplier) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, currentFontSize) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, baselineOffset) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, lineOffset) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, isDrivenLineSpacing) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, glyphHorizontalAdvanceAdjustment) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, cSpace) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, mSpace) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, textInfo) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, lineInfo) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, vertexColor) == 0xf4, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, underlineColor) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, strikethroughColor) == 0xfc, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, highlightColor) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, basicStyleStack) == 0x104, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, italicAngleStack) == 0x110, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, colorStack) == 0x130, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, underlineColorStack) == 0x150, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, strikethroughColorStack) == 0x170, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, highlightColorStack) == 0x190, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, highlightStateStack) == 0x1b0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, colorGradientStack) == 0x1e0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, sizeStack) == 0x208, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, indentStack) == 0x228, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, fontWeightStack) == 0x248, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, styleStack) == 0x268, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, baselineStack) == 0x288, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, actionStack) == 0x2a8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, materialReferenceStack) == 0x2c8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, lineJustificationStack) == 0x320, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, spriteAnimationID) == 0x340, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, currentFontAsset) == 0x348, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, currentSpriteAsset) == 0x350, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, currentMaterial) == 0x358, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, currentMaterialIndex) == 0x360, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, meshExtents) == 0x364, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, tagNoParsing) == 0x374, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::WordWrapState, isNonBreakingSpace) == 0x375, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::WordWrapState, "TMPro", "WordWrapState");

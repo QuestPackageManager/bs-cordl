@@ -14,8 +14,11 @@ CORDL_MODULE_EXPORT(BlurredCoverImageView)
 namespace GlobalNamespace {
 struct __BlurredCoverImageView___SetTextureAsync_d__6;
 }
-namespace GlobalNamespace {
-class KawaseBlurRendererSO;
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace HMUI {
+class ImageView;
 }
 namespace UnityEngine {
 class Texture2D;
@@ -23,26 +26,23 @@ class Texture2D;
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
-namespace HMUI {
-class ImageView;
-}
-namespace System::Threading {
-class CancellationTokenSource;
+namespace GlobalNamespace {
+class KawaseBlurRendererSO;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace UnityEngine {
 class Sprite;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,19 +58,19 @@ MARK_VAL_T(::GlobalNamespace::__BlurredCoverImageView___SetTextureAsync_d__6);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5774)) CS Name:
-// ::BlurredCoverImageView::<SetTextureAsync>d__6
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 765 }), TypeDefinitionIndex(TypeDefinitionIndex(3389)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(10213))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5865))
+// CS Name: ::BlurredCoverImageView::<SetTextureAsync>d__6
 struct CORDL_TYPE __BlurredCoverImageView___SetTextureAsync_d__6 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x22dfbd8 size 0x808 virtual true final true
+  /// @brief Method MoveNext addr 0x21995ac size 0x808 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x22e03e0 size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0x2199db4 size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -113,13 +113,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BlurredCoverImageView___SetTextureAsync_d__6, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BlurredCoverImageView___SetTextureAsync_d__6, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BlurredCoverImageView___SetTextureAsync_d__6, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BlurredCoverImageView___SetTextureAsync_d__6, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BlurredCoverImageView___SetTextureAsync_d__6, level) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BlurredCoverImageView___SetTextureAsync_d__6, _cancellationToken_5__2) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BlurredCoverImageView___SetTextureAsync_d__6, __u__1) == 0x40, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BlurredCoverImageView
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5775))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5866))
 // CS Name: ::BlurredCoverImageView*
 class CORDL_TYPE BlurredCoverImageView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -171,15 +183,15 @@ public:
 
   constexpr void __set__blurredCoverTexture(::UnityEngine::Texture2D* value);
 
-  /// @brief Method OnDestroy addr 0x22dfa8c size 0xa4 virtual false final false
+  /// @brief Method OnDestroy addr 0x2199460 size 0xa4 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method SetTextureAsync addr 0x22dfb30 size 0xa0 virtual false final false
+  /// @brief Method SetTextureAsync addr 0x2199504 size 0xa0 virtual false final false
   inline void SetTextureAsync(::GlobalNamespace::IPreviewBeatmapLevel* level);
 
   static inline ::GlobalNamespace::BlurredCoverImageView* New_ctor();
 
-  /// @brief Method .ctor addr 0x22dfbd0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21995a4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BlurredCoverImageView", modifiers: "&&", def_value: None }]
@@ -215,6 +227,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BlurredCoverImageView, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BlurredCoverImageView, ____coverImage) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BlurredCoverImageView, ____kawaseBlurRenderer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BlurredCoverImageView, ____settingTextureForLevelId) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BlurredCoverImageView, ____cancellationTokenSource) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BlurredCoverImageView, ____blurredCoverTexture) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BlurredCoverImageView);

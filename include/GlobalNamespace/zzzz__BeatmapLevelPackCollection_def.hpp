@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelPackCollection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4353))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4376))
 // CS Name: ::BeatmapLevelPackCollection*
 class CORDL_TYPE BeatmapLevelPackCollection : public ::System::Object {
 public:
@@ -42,12 +42,12 @@ public:
 
   constexpr void __set__beatmapLevelPacks(::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> value);
 
-  /// @brief Method get_beatmapLevelPacks addr 0x23424a4 size 0x8 virtual true final true
+  /// @brief Method get_beatmapLevelPacks addr 0x21f7f54 size 0x8 virtual true final true
   inline ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> get_beatmapLevelPacks();
 
   static inline ::GlobalNamespace::BeatmapLevelPackCollection* New_ctor(::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> beatmapLevelPacks);
 
-  /// @brief Method .ctor addr 0x23424ac size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x21f7f5c size 0x28 virtual false final false
   inline void _ctor(::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> beatmapLevelPacks);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelPackCollection", modifiers: "&&", def_value: None }]
@@ -71,6 +71,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelPackCollection, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackCollection, ____beatmapLevelPacks) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapLevelPackCollection);

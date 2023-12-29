@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::IMeshModifier);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13145))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13150))
 // CS Name: ::UnityEngine.UI::IMeshModifier*
 class CORDL_TYPE IMeshModifier {
 public:

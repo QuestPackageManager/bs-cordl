@@ -12,50 +12,50 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SocketAsyncEventArgs)
-namespace System::Net::Sockets {
-class Socket;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Net::Sockets {
-class SendPacketsElement;
-}
-namespace System {
-template <typename T> struct ArraySegment_1;
-}
 namespace System::Net {
 class EndPoint;
 }
-namespace System {
-template <typename TEventArgs> class EventHandler_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Net::Sockets {
 struct SocketAsyncOperation;
 }
-namespace System::Net::Sockets {
-struct SocketFlags;
-}
-namespace System::Net::Sockets {
-struct SocketError;
+namespace System {
+template <typename TEventArgs> class EventHandler_1;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Net::Sockets {
-class SocketAsyncResult;
+namespace System {
+class Exception;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class IList_1;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class Exception;
+template <typename T> struct ArraySegment_1;
+}
+namespace System::Net::Sockets {
+struct SocketFlags;
+}
+namespace System::Net::Sockets {
+class Socket;
+}
+namespace System::Net::Sockets {
+struct SocketError;
 }
 namespace System {
 template <typename T> struct Memory_1;
+}
+namespace System::Net::Sockets {
+class SendPacketsElement;
+}
+namespace System::Net::Sockets {
+class SocketAsyncResult;
 }
 // Forward declare root types
 namespace System::Net::Sockets {
@@ -67,9 +67,9 @@ MARK_REF_PTR_T(::System::Net::Sockets::SocketAsyncEventArgs);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9339)), TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(9347)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9345)), TypeDefinitionIndex(TypeDefinitionIndex(9355)), TypeDefinitionIndex(TypeDefinitionIndex(9348)), TypeDefinitionIndex(TypeDefinitionIndex(2437)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9357)) CS Name: ::System.Net.Sockets::SocketAsyncEventArgs*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8184)), TypeDefinitionIndex(TypeDefinitionIndex(8182)), TypeDefinitionIndex(TypeDefinitionIndex(8176)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8192)), TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(2435)), TypeDefinitionIndex(TypeDefinitionIndex(8185)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2435), inst: 730 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8194)) CS Name: ::System.Net.Sockets::SocketAsyncEventArgs*
 class CORDL_TYPE SocketAsyncEventArgs : public ::System::EventArgs {
 public:
   // Declarations
@@ -321,98 +321,98 @@ public:
 
   constexpr void __set__bufferListInternal(::System::Collections::Generic::List_1<::System::ArraySegment_1<uint8_t>>* value);
 
-  /// @brief Method get_AcceptSocket addr 0x28fe760 size 0x8 virtual false final false
+  /// @brief Method get_AcceptSocket addr 0x278073c size 0x8 virtual false final false
   inline ::System::Net::Sockets::Socket* get_AcceptSocket();
 
-  /// @brief Method set_AcceptSocket addr 0x28fe768 size 0x8 virtual false final false
+  /// @brief Method set_AcceptSocket addr 0x2780744 size 0x8 virtual false final false
   inline void set_AcceptSocket(::System::Net::Sockets::Socket* value);
 
-  /// @brief Method get_BytesTransferred addr 0x28fe770 size 0x8 virtual false final false
+  /// @brief Method get_BytesTransferred addr 0x278074c size 0x8 virtual false final false
   inline int32_t get_BytesTransferred();
 
-  /// @brief Method set_BytesTransferred addr 0x28fe778 size 0x8 virtual false final false
+  /// @brief Method set_BytesTransferred addr 0x2780754 size 0x8 virtual false final false
   inline void set_BytesTransferred(int32_t value);
 
-  /// @brief Method set_LastOperation addr 0x28fe780 size 0x8 virtual false final false
+  /// @brief Method set_LastOperation addr 0x278075c size 0x8 virtual false final false
   inline void set_LastOperation(::System::Net::Sockets::SocketAsyncOperation value);
 
-  /// @brief Method set_RemoteEndPoint addr 0x28fe788 size 0x8 virtual false final false
+  /// @brief Method set_RemoteEndPoint addr 0x2780764 size 0x8 virtual false final false
   inline void set_RemoteEndPoint(::System::Net::EndPoint* value);
 
-  /// @brief Method set_SendPacketsSendSize addr 0x28fe790 size 0x8 virtual false final false
+  /// @brief Method set_SendPacketsSendSize addr 0x278076c size 0x8 virtual false final false
   inline void set_SendPacketsSendSize(int32_t value);
 
-  /// @brief Method get_SocketError addr 0x28fe798 size 0x8 virtual false final false
+  /// @brief Method get_SocketError addr 0x2780774 size 0x8 virtual false final false
   inline ::System::Net::Sockets::SocketError get_SocketError();
 
-  /// @brief Method set_SocketError addr 0x28fe7a0 size 0x8 virtual false final false
+  /// @brief Method set_SocketError addr 0x278077c size 0x8 virtual false final false
   inline void set_SocketError(::System::Net::Sockets::SocketError value);
 
-  /// @brief Method set_SocketFlags addr 0x28fe7a8 size 0x8 virtual false final false
+  /// @brief Method set_SocketFlags addr 0x2780784 size 0x8 virtual false final false
   inline void set_SocketFlags(::System::Net::Sockets::SocketFlags value);
 
-  /// @brief Method get_UserToken addr 0x28fe7b0 size 0x8 virtual false final false
+  /// @brief Method get_UserToken addr 0x278078c size 0x8 virtual false final false
   inline ::System::Object* get_UserToken();
 
-  /// @brief Method set_UserToken addr 0x28fe7b8 size 0x8 virtual false final false
+  /// @brief Method set_UserToken addr 0x2780794 size 0x8 virtual false final false
   inline void set_UserToken(::System::Object* value);
 
-  /// @brief Method add_Completed addr 0x28fe7c0 size 0xb0 virtual false final false
+  /// @brief Method add_Completed addr 0x278079c size 0xb0 virtual false final false
   inline void add_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* value);
 
-  /// @brief Method remove_Completed addr 0x28fe870 size 0xb0 virtual false final false
+  /// @brief Method remove_Completed addr 0x278084c size 0xb0 virtual false final false
   inline void remove_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* value);
 
   static inline ::System::Net::Sockets::SocketAsyncEventArgs* New_ctor();
 
-  /// @brief Method .ctor addr 0x28fe920 size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x27808fc size 0x98 virtual false final false
   inline void _ctor();
 
   static inline ::System::Net::Sockets::SocketAsyncEventArgs* New_ctor(bool flowExecutionContext);
 
-  /// @brief Method .ctor addr 0x28fe9c0 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0x278099c size 0x8c virtual false final false
   inline void _ctor(bool flowExecutionContext);
 
-  /// @brief Method Finalize addr 0x28fea4c size 0x10 virtual true final false
+  /// @brief Method Finalize addr 0x2780a28 size 0x10 virtual true final false
   inline void Finalize();
 
-  /// @brief Method Dispose addr 0x28fea5c size 0x14 virtual false final false
+  /// @brief Method Dispose addr 0x2780a38 size 0x14 virtual false final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Dispose addr 0x28fea70 size 0x64 virtual true final true
+  /// @brief Method Dispose addr 0x2780a4c size 0x64 virtual true final true
   inline void Dispose();
 
-  /// @brief Method SetBytesTransferred addr 0x28fb43c size 0x8 virtual false final false
+  /// @brief Method SetBytesTransferred addr 0x277d418 size 0x8 virtual false final false
   inline void SetBytesTransferred(int32_t value);
 
-  /// @brief Method get_CurrentSocket addr 0x28fead4 size 0x8 virtual false final false
+  /// @brief Method get_CurrentSocket addr 0x2780ab0 size 0x8 virtual false final false
   inline ::System::Net::Sockets::Socket* get_CurrentSocket();
 
-  /// @brief Method SetCurrentSocket addr 0x28feadc size 0x8 virtual false final false
+  /// @brief Method SetCurrentSocket addr 0x2780ab8 size 0x8 virtual false final false
   inline void SetCurrentSocket(::System::Net::Sockets::Socket* socket);
 
-  /// @brief Method SetLastOperation addr 0x28feae4 size 0xc8 virtual false final false
+  /// @brief Method SetLastOperation addr 0x2780ac0 size 0xc8 virtual false final false
   inline void SetLastOperation(::System::Net::Sockets::SocketAsyncOperation op);
 
-  /// @brief Method Complete_internal addr 0x28febac size 0x28 virtual false final false
+  /// @brief Method Complete_internal addr 0x2780b88 size 0x28 virtual false final false
   inline void Complete_internal();
 
-  /// @brief Method OnCompleted addr 0x28febd4 size 0x28 virtual true final false
+  /// @brief Method OnCompleted addr 0x2780bb0 size 0x28 virtual true final false
   inline void OnCompleted(::System::Net::Sockets::SocketAsyncEventArgs* e);
 
-  /// @brief Method get_MemoryBuffer addr 0x28febfc size 0xc virtual false final false
+  /// @brief Method get_MemoryBuffer addr 0x2780bd8 size 0xc virtual false final false
   inline ::System::Memory_1<uint8_t> get_MemoryBuffer();
 
-  /// @brief Method get_Offset addr 0x28fec08 size 0x8 virtual false final false
+  /// @brief Method get_Offset addr 0x2780be4 size 0x8 virtual false final false
   inline int32_t get_Offset();
 
-  /// @brief Method get_Count addr 0x28fec10 size 0x8 virtual false final false
+  /// @brief Method get_Count addr 0x2780bec size 0x8 virtual false final false
   inline int32_t get_Count();
 
-  /// @brief Method get_BufferList addr 0x28fec18 size 0x8 virtual false final false
+  /// @brief Method get_BufferList addr 0x2780bf4 size 0x8 virtual false final false
   inline ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* get_BufferList();
 
-  /// @brief Method SetBuffer addr 0x28fec20 size 0xf4 virtual false final false
+  /// @brief Method SetBuffer addr 0x2780bfc size 0xf4 virtual false final false
   inline void SetBuffer(::System::Memory_1<uint8_t> buffer);
 
   // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncEventArgs", modifiers: "&&", def_value: None }]
@@ -505,6 +505,54 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::SocketAsyncEventArgs, 0xb8>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ___disposed) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ___in_progress) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ___remote_ep) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ___current_socket) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ___socket_async_result) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____ConnectByNameError_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____AcceptSocket_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____BytesTransferred_k__BackingField) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____DisconnectReuseSocket_k__BackingField) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____LastOperation_k__BackingField) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____ReceiveMessageFromPacketInfo_k__BackingField) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____SendPacketsElements_k__BackingField) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____SendPacketsFlags_k__BackingField) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____SendPacketsSendSize_k__BackingField) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____SocketError_k__BackingField) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____SocketFlags_k__BackingField) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____UserToken_k__BackingField) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ___Completed) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____buffer) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____offset) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____count) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____bufferIsExplicitArray) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____bufferList) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketAsyncEventArgs, ____bufferListInternal) == 0xb0, "Offset mismatch!");
 
 } // namespace System::Net::Sockets
 NEED_NO_BOX(::System::Net::Sockets::SocketAsyncEventArgs);

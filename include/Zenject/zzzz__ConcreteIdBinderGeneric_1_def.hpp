@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ConcreteBinderGeneric_1_def.hpp"
 CORDL_MODULE_EXPORT(ConcreteIdBinderGeneric_1)
 namespace Zenject {
-class BindInfo;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
 template <typename TContract> class ConcreteBinderGeneric_1;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
 class BindStatement;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -31,8 +31,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10671)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10671), inst: 1067 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10673))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10599)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10599), inst: 1045 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10601))
 // CS Name: ::Zenject::ConcreteIdBinderGeneric`1<TContract>*
 class CORDL_TYPE ConcreteIdBinderGeneric_1 : public ::Zenject::ConcreteBinderGeneric_1<TContract> {
 public:

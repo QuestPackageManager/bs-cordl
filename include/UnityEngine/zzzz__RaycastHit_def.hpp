@@ -12,10 +12,10 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-class Collider;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+class Collider;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -27,8 +27,8 @@ MARK_VAL_T(::UnityEngine::RaycastHit);
 // SizeInfo { instance_size: 44, native_size: 44, calculated_instance_size: 44, calculated_native_size: 60, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15487))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15471))
 // CS Name: ::UnityEngine::RaycastHit
 struct CORDL_TYPE RaycastHit {
 public:
@@ -41,25 +41,25 @@ public:
 
   __declspec(property(get = get_distance, put = set_distance)) float_t distance;
 
-  /// @brief Method get_collider addr 0x2d15b90 size 0xac virtual false final false
+  /// @brief Method get_collider addr 0x2bae94c size 0xac virtual false final false
   inline ::UnityEngine::Collider* get_collider();
 
-  /// @brief Method get_point addr 0x2d15c3c size 0xc virtual false final false
+  /// @brief Method get_point addr 0x2bae9f8 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_point();
 
-  /// @brief Method set_point addr 0x2d15c48 size 0xc virtual false final false
+  /// @brief Method set_point addr 0x2baea04 size 0xc virtual false final false
   inline void set_point(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_normal addr 0x2d15c54 size 0xc virtual false final false
+  /// @brief Method get_normal addr 0x2baea10 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_normal();
 
-  /// @brief Method set_normal addr 0x2d15c60 size 0xc virtual false final false
+  /// @brief Method set_normal addr 0x2baea1c size 0xc virtual false final false
   inline void set_normal(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_distance addr 0x2d15c6c size 0x8 virtual false final false
+  /// @brief Method get_distance addr 0x2baea28 size 0x8 virtual false final false
   inline float_t get_distance();
 
-  /// @brief Method set_distance addr 0x2d15c74 size 0x8 virtual false final false
+  /// @brief Method set_distance addr 0x2baea30 size 0x8 virtual false final false
   inline void set_distance(float_t value);
 
   // Ctor Parameters [CppParam { name: "m_Point", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
@@ -96,6 +96,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::RaycastHit, 0x2c>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::RaycastHit, m_Point) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::RaycastHit, m_Normal) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::RaycastHit, m_FaceID) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::RaycastHit, m_Distance) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::RaycastHit, m_UV) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::RaycastHit, m_Collider) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RaycastHit, "UnityEngine", "RaycastHit");

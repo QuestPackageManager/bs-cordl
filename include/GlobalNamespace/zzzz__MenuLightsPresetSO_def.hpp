@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MenuLightsPresetSO)
 namespace GlobalNamespace {
-class ColorSO;
+class __MenuLightsPresetSO__LightIdColorPair;
 }
 namespace GlobalNamespace {
-class __MenuLightsPresetSO__LightIdColorPair;
+class ColorSO;
 }
 namespace UnityEngine {
 struct Color;
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4452))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4463))
 // CS Name: ::MenuLightsPresetSO::LightIdColorPair*
 class CORDL_TYPE __MenuLightsPresetSO__LightIdColorPair : public ::System::Object {
 public:
@@ -66,12 +66,12 @@ public:
 
   constexpr void __set_intensity(float_t value);
 
-  /// @brief Method get_lightColor addr 0x23524dc size 0x2c virtual false final false
+  /// @brief Method get_lightColor addr 0x22044a8 size 0x2c virtual false final false
   inline ::UnityEngine::Color get_lightColor();
 
   static inline ::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair* New_ctor();
 
-  /// @brief Method .ctor addr 0x2352508 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22044d4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuLightsPresetSO__LightIdColorPair", modifiers: "&&", def_value: None }]
@@ -102,13 +102,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair, ___lightId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair, ___baseColor) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair, ___intensity) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MenuLightsPresetSO
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4453))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4464))
 // CS Name: ::MenuLightsPresetSO*
 class CORDL_TYPE MenuLightsPresetSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -151,18 +157,18 @@ public:
 
   constexpr void __set__lightIdColorPairs(::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*> value);
 
-  /// @brief Method get_playersPlaceNeonsColor addr 0x23524b4 size 0x8 virtual false final false
+  /// @brief Method get_playersPlaceNeonsColor addr 0x2204480 size 0x8 virtual false final false
   inline ::GlobalNamespace::ColorSO* get_playersPlaceNeonsColor();
 
-  /// @brief Method get_playersPlaceNeonsIntensity addr 0x23524bc size 0x8 virtual false final false
+  /// @brief Method get_playersPlaceNeonsIntensity addr 0x2204488 size 0x8 virtual false final false
   inline float_t get_playersPlaceNeonsIntensity();
 
-  /// @brief Method get_lightIdColorPairs addr 0x23524c4 size 0x8 virtual false final false
+  /// @brief Method get_lightIdColorPairs addr 0x2204490 size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*> get_lightIdColorPairs();
 
   static inline ::GlobalNamespace::MenuLightsPresetSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x23524cc size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2204498 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuLightsPresetSO", modifiers: "&&", def_value: None }]
@@ -192,6 +198,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuLightsPresetSO, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuLightsPresetSO, ____playersPlaceNeonsColor) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuLightsPresetSO, ____playersPlaceNeonsIntensity) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuLightsPresetSO, ____lightIdColorPairs) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MenuLightsPresetSO);

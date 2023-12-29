@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IBindingList)
+namespace System {
+class Object;
+}
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System::ComponentModel {
-class PropertyDescriptor;
-}
-namespace System::Collections {
-class IList;
 }
 namespace System::Collections {
 class ICollection;
 }
+namespace System::Collections {
+class IList;
+}
+namespace System::ComponentModel {
+class PropertyDescriptor;
+}
 namespace System::ComponentModel {
 struct ListSortDirection;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::ComponentModel::IBindingList);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9430))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8267))
 // CS Name: ::System.ComponentModel::IBindingList*
 class CORDL_TYPE IBindingList {
 public:

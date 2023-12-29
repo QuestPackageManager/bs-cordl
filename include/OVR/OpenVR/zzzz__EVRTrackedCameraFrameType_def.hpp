@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRTrackedCameraFrameType);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8612))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9381))
 // CS Name: ::OVR.OpenVR::EVRTrackedCameraFrameType
 struct CORDL_TYPE EVRTrackedCameraFrameType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRTrackedCameraFrameType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::EVRTrackedCameraFrameType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRTrackedCameraFrameType, "OVR.OpenVR", "EVRTrackedCameraFrameType");

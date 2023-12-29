@@ -24,13 +24,13 @@ MARK_VAL_T(::UnityEngine::HumanPose);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14884))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15111))
 // CS Name: ::UnityEngine::HumanPose
 struct CORDL_TYPE HumanPose {
 public:
   // Declarations
-  /// @brief Method Init addr 0x2c96338 size 0x138 virtual false final false
+  /// @brief Method Init addr 0x2b30698 size 0x138 virtual false final false
   inline void Init();
 
   // Ctor Parameters [CppParam { name: "bodyPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "bodyRotation", ty: "::UnityEngine::Quaternion", modifiers: "",
@@ -57,6 +57,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::HumanPose, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanPose, bodyPosition) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanPose, bodyRotation) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::HumanPose, muscles) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HumanPose, "UnityEngine", "HumanPose");

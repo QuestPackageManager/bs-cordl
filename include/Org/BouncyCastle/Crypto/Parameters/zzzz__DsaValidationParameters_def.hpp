@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1032))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::DsaValidationParameters*
 class CORDL_TYPE DsaValidationParameters : public ::System::Object {
@@ -58,30 +58,30 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter);
 
-  /// @brief Method .ctor addr 0xf322d0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xebd0e4 size 0x8 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter, int32_t usageIndex);
 
-  /// @brief Method .ctor addr 0xf322d8 size 0x108 virtual false final false
+  /// @brief Method .ctor addr 0xebd0ec size 0x108 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter, int32_t usageIndex);
 
-  /// @brief Method GetSeed addr 0xf323e0 size 0x78 virtual true final false
+  /// @brief Method GetSeed addr 0xebd1f4 size 0x78 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed();
 
-  /// @brief Method get_Counter addr 0xf32458 size 0x8 virtual true final false
+  /// @brief Method get_Counter addr 0xebd26c size 0x8 virtual true final false
   inline int32_t get_Counter();
 
-  /// @brief Method get_UsageIndex addr 0xf32460 size 0x8 virtual true final false
+  /// @brief Method get_UsageIndex addr 0xebd274 size 0x8 virtual true final false
   inline int32_t get_UsageIndex();
 
-  /// @brief Method Equals addr 0xf32468 size 0xa4 virtual true final false
+  /// @brief Method Equals addr 0xebd27c size 0xa4 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xf3250c size 0x90 virtual true final false
+  /// @brief Method Equals addr 0xebd320 size 0x90 virtual true final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* other);
 
-  /// @brief Method GetHashCode addr 0xf3259c size 0x88 virtual true final false
+  /// @brief Method GetHashCode addr 0xebd3b0 size 0x88 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DsaValidationParameters", modifiers: "&&", def_value: None }]
@@ -111,6 +111,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters, ___seed) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters, ___counter) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters, ___usageIndex) == 0x1c, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters);

@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::ReportRequestResponse);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13379))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13412))
 // CS Name: ::Oculus.Platform::ReportRequestResponse
 struct CORDL_TYPE ReportRequestResponse {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::ReportRequestResponse, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::ReportRequestResponse, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::ReportRequestResponse, "Oculus.Platform", "ReportRequestResponse");

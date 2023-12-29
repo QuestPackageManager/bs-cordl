@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerLevelEndActionsListener);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5157))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5262))
 // CS Name: ::IMultiplayerLevelEndActionsListener*
 class CORDL_TYPE IMultiplayerLevelEndActionsListener {
 public:

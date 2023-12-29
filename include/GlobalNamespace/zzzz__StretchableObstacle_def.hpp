@@ -12,20 +12,20 @@ CORDL_MODULE_EXPORT(StretchableObstacle)
 namespace UnityEngine {
 struct Bounds;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
-class MaterialPropertyBlockController;
+class ParametricBoxFakeGlowController;
 }
 namespace GlobalNamespace {
 class ParametricBoxFrameController;
 }
-namespace GlobalNamespace {
-class ParametricBoxFakeGlowController;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StretchableObstacle);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10164))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4798))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10092)), TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4918))
 // CS Name: ::StretchableObstacle*
 class CORDL_TYPE StretchableObstacle : public ::UnityEngine::MonoBehaviour {
 public:
@@ -83,9 +83,6 @@ public:
 
   /// @brief Field _addColorID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__addColorID, put = setStaticF__addColorID)) int32_t _addColorID;
-
-  /// @brief Field _mainColorID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__mainColorID, put = setStaticF__mainColorID)) int32_t _mainColorID;
 
   __declspec(property(get = get_bounds))::UnityEngine::Bounds bounds;
 
@@ -161,22 +158,18 @@ public:
 
   static inline int32_t getStaticF__addColorID();
 
-  static inline void setStaticF__mainColorID(int32_t value);
-
-  static inline int32_t getStaticF__mainColorID();
-
-  /// @brief Method get_bounds addr 0x238f8c4 size 0x14 virtual false final false
+  /// @brief Method get_bounds addr 0x225b290 size 0x14 virtual false final false
   inline ::UnityEngine::Bounds get_bounds();
 
-  /// @brief Method SetSizeAndColor addr 0x238cbe4 size 0x40c virtual false final false
+  /// @brief Method SetSizeAndColor addr 0x22587e0 size 0x3e4 virtual false final false
   inline void SetSizeAndColor(float_t width, float_t height, float_t length, ::UnityEngine::Color color);
 
-  /// @brief Method OnValidate addr 0x238f8d8 size 0x6c virtual false final false
+  /// @brief Method OnValidate addr 0x225b2a4 size 0x6c virtual false final false
   inline void OnValidate();
 
   static inline ::GlobalNamespace::StretchableObstacle* New_ctor();
 
-  /// @brief Method .ctor addr 0x238f944 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x225b310 size 0x34 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StretchableObstacle", modifiers: "&&", def_value: None }]
@@ -227,6 +220,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StretchableObstacle, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StretchableObstacle, ____edgeSize) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StretchableObstacle, ____coreOffset) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StretchableObstacle, ____addColorMultiplier) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StretchableObstacle, ____obstacleCoreLerpToWhiteFactor) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StretchableObstacle, ____fakeGlowOffset) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StretchableObstacle, ____obstacleCore) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StretchableObstacle, ____materialPropertyBlockControllers) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StretchableObstacle, ____obstacleFrame) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StretchableObstacle, ____obstacleFakeGlow) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StretchableObstacle, ____bounds) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StretchableObstacle);

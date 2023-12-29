@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyTitleAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3456))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3451))
 // CS Name: ::System.Reflection::AssemblyTitleAttribute*
 class CORDL_TYPE AssemblyTitleAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Reflection::AssemblyTitleAttribute* New_ctor(::StringW title);
 
-  /// @brief Method .ctor addr 0x24e6060 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x238c5a8 size 0x28 virtual false final false
   inline void _ctor(::StringW title);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyTitleAttribute", modifiers: "&&", def_value: None }]
@@ -56,6 +56,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::AssemblyTitleAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyTitleAttribute, ____Title_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace System::Reflection
 NEED_NO_BOX(::System::Reflection::AssemblyTitleAttribute);

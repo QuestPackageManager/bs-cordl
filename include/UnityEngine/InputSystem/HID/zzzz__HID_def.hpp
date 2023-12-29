@@ -13,38 +13,56 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HID)
-namespace System {
-template <typename T> class Predicate_1;
-}
 namespace UnityEngine::InputSystem::Layouts {
 struct __InputControlLayout__ControlItem;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
+namespace System {
+template <typename T> class Predicate_1;
+}
 namespace UnityEngine::InputSystem::HID {
 struct __HID__HIDElementFlags;
 }
 namespace UnityEngine::InputSystem::HID {
-struct __HID__HIDCollectionType;
+class __HID____c__DisplayClass12_0;
 }
 namespace UnityEngine::InputSystem::HID {
 struct __HID__GenericDesktop;
 }
 namespace UnityEngine::InputSystem::HID {
-struct __HID__Simulation;
+class __HID__HIDLayoutBuilder;
+}
+namespace UnityEngine::InputSystem::HID {
+struct __HID__HIDCollectionType;
 }
 namespace UnityEngine::InputSystem::HID {
 struct __HID__HIDReportType;
 }
 namespace UnityEngine::InputSystem::HID {
-struct __HID__UsagePage;
+struct __HID__HIDDeviceDescriptorBuilder;
 }
 namespace UnityEngine::InputSystem::HID {
 struct __HID__Button;
 }
 namespace UnityEngine::InputSystem::HID {
-class __HID____c__DisplayClass12_0;
+struct __HID__HIDDeviceDescriptor;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class InputDeviceExecuteCommandDelegate;
+}
+namespace UnityEngine::InputSystem::HID {
+struct __HID__UsagePage;
+}
+namespace UnityEngine::InputSystem::HID {
+struct __HID__Simulation;
+}
+namespace UnityEngine::InputSystem::HID {
+struct __HID__HIDElementDescriptor;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine::InputSystem::HID {
 struct __HID__HIDCollectionDescriptor;
@@ -52,44 +70,26 @@ struct __HID__HIDCollectionDescriptor;
 namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceDescription;
 }
-namespace UnityEngine::InputSystem::HID {
-class __HID__HIDLayoutBuilder;
-}
-namespace UnityEngine::InputSystem::HID {
-struct __HID__HIDDeviceDescriptor;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
-namespace UnityEngine::InputSystem::HID {
-struct __HID__HIDDeviceDescriptorBuilder;
-}
-namespace UnityEngine::InputSystem::HID {
-struct __HID__HIDElementDescriptor;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class InputDeviceExecuteCommandDelegate;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class InputControlLayout;
-}
 namespace GlobalNamespace {
 class __HID__HIDLayoutBuilder____c;
 }
 namespace System {
 class Type;
 }
+namespace UnityEngine::InputSystem::Layouts {
+class InputControlLayout;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct PrimitiveValue;
 }
 namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace UnityEngine::InputSystem::Layouts {
 class __InputControlLayout__Builder;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct PrimitiveValue;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
@@ -160,8 +160,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6391))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6477))
 // CS Name: ::HID::HIDLayoutBuilder::<>c*
 class CORDL_TYPE __HID__HIDLayoutBuilder____c : public ::System::Object {
 public:
@@ -196,16 +196,16 @@ public:
 
   static inline ::GlobalNamespace::__HID__HIDLayoutBuilder____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2adeab4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x295ed6c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Build>b__4_0 addr 0x2adeabc size 0x24 virtual false final false
+  /// @brief Method <Build>b__4_0 addr 0x295ed74 size 0x24 virtual false final false
   inline bool _Build_b__4_0(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor element);
 
-  /// @brief Method <Build>b__4_1 addr 0x2adeae0 size 0x24 virtual false final false
+  /// @brief Method <Build>b__4_1 addr 0x295ed98 size 0x24 virtual false final false
   inline bool _Build_b__4_1(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor element);
 
-  /// @brief Method <Build>b__4_2 addr 0x2adeb04 size 0xc virtual false final false
+  /// @brief Method <Build>b__4_2 addr 0x295edbc size 0xc virtual false final false
   inline ::StringW _Build_b__4_2(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__HID__HIDLayoutBuilder____c", modifiers: "&&", def_value: None }]
@@ -233,7 +233,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HID__HIDLayou
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6400))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6486))
 // CS Name: ::HID::UsagePage
 struct CORDL_TYPE __HID__UsagePage {
 public:
@@ -367,21 +367,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HID__UsagePage, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__UsagePage, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::HIDDeviceDescriptor
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6400))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6398))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6486))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6484))
 // CS Name: ::HID::HIDDeviceDescriptor
 struct CORDL_TYPE __HID__HIDDeviceDescriptor {
 public:
   // Declarations
-  /// @brief Method ToJson addr 0x2adcc40 size 0x70 virtual false final false
+  /// @brief Method ToJson addr 0x295cef8 size 0x70 virtual false final false
   inline ::StringW ToJson();
 
-  /// @brief Method FromJson addr 0x2adb0d4 size 0xf28 virtual false final false
+  /// @brief Method FromJson addr 0x295b38c size 0xf28 virtual false final false
   static inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor FromJson(::StringW json);
 
   // Ctor Parameters [CppParam { name: "vendorId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "productId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
@@ -435,13 +437,31 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor, vendorId) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor, productId) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor, usage) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor, usagePage) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor, inputReportSize) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor, outputReportSize) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor, featureReportSize) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor, elements) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor, collections) == 0x28, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::HIDLayoutBuilder
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6398))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6392))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6484)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6478))
 // CS Name: ::HID::HIDLayoutBuilder*
 class CORDL_TYPE __HID__HIDLayoutBuilder : public ::System::Object {
 public:
@@ -484,12 +504,12 @@ public:
 
   constexpr void __set_deviceType(::System::Type* value);
 
-  /// @brief Method Build addr 0x2adcde0 size 0xcac virtual false final false
+  /// @brief Method Build addr 0x295d098 size 0xcac virtual false final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* Build();
 
   static inline ::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder* New_ctor();
 
-  /// @brief Method .ctor addr 0x2adb0cc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x295b384 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HID__HIDLayoutBuilder", modifiers: "&&", def_value: None }]
@@ -523,13 +543,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder, 0x58>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder, ___displayName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder, ___hidDescriptor) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder, ___parentLayout) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder, ___deviceType) == 0x50, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::HIDReportType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6393))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6479))
 // CS Name: ::HID::HIDReportType
 struct CORDL_TYPE __HID__HIDReportType {
 public:
@@ -579,13 +607,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HID__HIDReportType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDReportType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::HIDCollectionType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6394))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6480))
 // CS Name: ::HID::HIDCollectionType
 struct CORDL_TYPE __HID__HIDCollectionType {
 public:
@@ -647,13 +677,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HID__HIDCollectionType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDCollectionType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::HIDElementFlags
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6395))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6481))
 // CS Name: ::HID::HIDElementFlags
 struct CORDL_TYPE __HID__HIDElementFlags {
 public:
@@ -723,14 +755,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HID__HIDElementFlags, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementFlags, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::HIDElementDescriptor
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6400)), TypeDefinitionIndex(TypeDefinitionIndex(6395)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(6393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6396)) CS
-// Name: ::HID::HIDElementDescriptor
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6486)), TypeDefinitionIndex(TypeDefinitionIndex(6481)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 101
+// }), TypeDefinitionIndex(TypeDefinitionIndex(6479)), TypeDefinitionIndex(TypeDefinitionIndex(2446))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6482)) CS Name: ::HID::HIDElementDescriptor
 struct CORDL_TYPE __HID__HIDElementDescriptor {
 public:
   // Declarations
@@ -754,70 +787,70 @@ public:
 
   __declspec(property(get = get_maxFloatValue)) float_t maxFloatValue;
 
-  /// @brief Method get_hasNullState addr 0x2adeb10 size 0xc virtual false final false
+  /// @brief Method get_hasNullState addr 0x295edc8 size 0xc virtual false final false
   inline bool get_hasNullState();
 
-  /// @brief Method get_hasPreferredState addr 0x2adeb1c size 0x10 virtual false final false
+  /// @brief Method get_hasPreferredState addr 0x295edd4 size 0x10 virtual false final false
   inline bool get_hasPreferredState();
 
-  /// @brief Method get_isArray addr 0x2adeb2c size 0x10 virtual false final false
+  /// @brief Method get_isArray addr 0x295ede4 size 0x10 virtual false final false
   inline bool get_isArray();
 
-  /// @brief Method get_isNonLinear addr 0x2adeb3c size 0xc virtual false final false
+  /// @brief Method get_isNonLinear addr 0x295edf4 size 0xc virtual false final false
   inline bool get_isNonLinear();
 
-  /// @brief Method get_isRelative addr 0x2adeb48 size 0xc virtual false final false
+  /// @brief Method get_isRelative addr 0x295ee00 size 0xc virtual false final false
   inline bool get_isRelative();
 
-  /// @brief Method get_isConstant addr 0x2adeb54 size 0xc virtual false final false
+  /// @brief Method get_isConstant addr 0x295ee0c size 0xc virtual false final false
   inline bool get_isConstant();
 
-  /// @brief Method get_isWrapping addr 0x2adeb60 size 0xc virtual false final false
+  /// @brief Method get_isWrapping addr 0x295ee18 size 0xc virtual false final false
   inline bool get_isWrapping();
 
-  /// @brief Method get_isSigned addr 0x2addbfc size 0xc virtual false final false
+  /// @brief Method get_isSigned addr 0x295deb4 size 0xc virtual false final false
   inline bool get_isSigned();
 
-  /// @brief Method get_minFloatValue addr 0x2adeb6c size 0x9c virtual false final false
+  /// @brief Method get_minFloatValue addr 0x295ee24 size 0x9c virtual false final false
   inline float_t get_minFloatValue();
 
-  /// @brief Method get_maxFloatValue addr 0x2adec08 size 0xa4 virtual false final false
+  /// @brief Method get_maxFloatValue addr 0x295eec0 size 0xa4 virtual false final false
   inline float_t get_maxFloatValue();
 
-  /// @brief Method Is addr 0x2addd40 size 0x24 virtual false final false
+  /// @brief Method Is addr 0x295dff8 size 0x24 virtual false final false
   inline bool Is(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t usage);
 
-  /// @brief Method DetermineName addr 0x2adde50 size 0x210 virtual false final false
+  /// @brief Method DetermineName addr 0x295e108 size 0x210 virtual false final false
   inline ::StringW DetermineName();
 
-  /// @brief Method DetermineDisplayName addr 0x2ade060 size 0xfc virtual false final false
+  /// @brief Method DetermineDisplayName addr 0x295e318 size 0xfc virtual false final false
   inline ::StringW DetermineDisplayName();
 
-  /// @brief Method IsUsableElement addr 0x2adb094 size 0x38 virtual false final false
+  /// @brief Method IsUsableElement addr 0x295b34c size 0x38 virtual false final false
   inline bool IsUsableElement();
 
-  /// @brief Method DetermineLayout addr 0x2addd64 size 0xec virtual false final false
+  /// @brief Method DetermineLayout addr 0x295e01c size 0xec virtual false final false
   inline ::StringW DetermineLayout();
 
-  /// @brief Method DetermineFormat addr 0x2ade15c size 0x108 virtual false final false
+  /// @brief Method DetermineFormat addr 0x295e414 size 0x108 virtual false final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC DetermineFormat();
 
-  /// @brief Method DetermineUsages addr 0x2ade264 size 0x190 virtual false final false
+  /// @brief Method DetermineUsages addr 0x295e51c size 0x190 virtual false final false
   inline ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> DetermineUsages();
 
-  /// @brief Method DetermineParameters addr 0x2adda8c size 0x170 virtual false final false
+  /// @brief Method DetermineParameters addr 0x295dd44 size 0x170 virtual false final false
   inline ::StringW DetermineParameters();
 
-  /// @brief Method DetermineAxisNormalizationParameters addr 0x2adecac size 0x1c8 virtual false final false
+  /// @brief Method DetermineAxisNormalizationParameters addr 0x295ef64 size 0x1c8 virtual false final false
   inline ::StringW DetermineAxisNormalizationParameters();
 
-  /// @brief Method DetermineProcessors addr 0x2addcd0 size 0x70 virtual false final false
+  /// @brief Method DetermineProcessors addr 0x295df88 size 0x70 virtual false final false
   inline ::StringW DetermineProcessors();
 
-  /// @brief Method DetermineDefaultState addr 0x2addc08 size 0xc8 virtual false final false
+  /// @brief Method DetermineDefaultState addr 0x295dec0 size 0xc8 virtual false final false
   inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue DetermineDefaultState();
 
-  /// @brief Method AddChildControls addr 0x2ade3f4 size 0x65c virtual false final false
+  /// @brief Method AddChildControls addr 0x295e6ac size 0x65c virtual false final false
   inline void AddChildControls(ByRef<::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor> element, ::StringW controlName,
                                ByRef<::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder*> builder);
 
@@ -894,13 +927,45 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, usage) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, usagePage) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, unit) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, unitExponent) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, logicalMin) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, logicalMax) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, physicalMin) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, physicalMax) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, reportType) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, collectionIndex) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, reportId) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, reportSizeInBits) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, reportOffsetInBits) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, flags) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, usageMin) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, usageMax) == 0x40, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::HIDCollectionDescriptor
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6400)), TypeDefinitionIndex(TypeDefinitionIndex(6394))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6397))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6486)), TypeDefinitionIndex(TypeDefinitionIndex(6480))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6483))
 // CS Name: ::HID::HIDCollectionDescriptor
 struct CORDL_TYPE __HID__HIDCollectionDescriptor {
 public:
@@ -941,39 +1006,51 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HID__HIDCollectionDescriptor, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDCollectionDescriptor, type) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDCollectionDescriptor, usage) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDCollectionDescriptor, usagePage) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDCollectionDescriptor, parent) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDCollectionDescriptor, childCount) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDCollectionDescriptor, firstChild) == 0x14, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::HIDDeviceDescriptorBuilder
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6400)), TypeDefinitionIndex(TypeDefinitionIndex(6393))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6399))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6486)), TypeDefinitionIndex(TypeDefinitionIndex(6479))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6485))
 // CS Name: ::HID::HIDDeviceDescriptorBuilder
 struct CORDL_TYPE __HID__HIDDeviceDescriptorBuilder {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2adee74 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x295f12c size 0x18 virtual false final false
   inline void _ctor(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t usage);
 
-  /// @brief Method .ctor addr 0x2adee8c size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x295f144 size 0x1c virtual false final false
   inline void _ctor(::UnityEngine::InputSystem::HID::__HID__GenericDesktop usage);
 
-  /// @brief Method StartReport addr 0x2adeea8 size 0x28 virtual false final false
+  /// @brief Method StartReport addr 0x295f160 size 0x28 virtual false final false
   inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder StartReport(::UnityEngine::InputSystem::HID::__HID__HIDReportType reportType, int32_t reportId);
 
-  /// @brief Method AddElement addr 0x2adeed0 size 0x3d4 virtual false final false
+  /// @brief Method AddElement addr 0x295f188 size 0x3d4 virtual false final false
   inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder AddElement(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t usage, int32_t sizeInBits);
 
-  /// @brief Method AddElement addr 0x2adf2a4 size 0x48 virtual false final false
+  /// @brief Method AddElement addr 0x295f55c size 0x48 virtual false final false
   inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder AddElement(::UnityEngine::InputSystem::HID::__HID__GenericDesktop usage, int32_t sizeInBits);
 
-  /// @brief Method WithPhysicalMinMax addr 0x2adf2ec size 0x194 virtual false final false
+  /// @brief Method WithPhysicalMinMax addr 0x295f5a4 size 0x194 virtual false final false
   inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder WithPhysicalMinMax(int32_t min, int32_t max);
 
-  /// @brief Method WithLogicalMinMax addr 0x2adf480 size 0x178 virtual false final false
+  /// @brief Method WithLogicalMinMax addr 0x295f738 size 0x178 virtual false final false
   inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder WithLogicalMinMax(int32_t min, int32_t max);
 
-  /// @brief Method Finish addr 0x2adf5f8 size 0xb0 virtual false final false
+  /// @brief Method Finish addr 0x295f8b0 size 0xb0 virtual false final false
   inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor Finish();
 
   // Ctor Parameters [CppParam { name: "usagePage", ty: "::UnityEngine::InputSystem::HID::__HID__UsagePage", modifiers: "", def_value: None }, CppParam { name: "usage", ty: "int32_t", modifiers: "",
@@ -1031,13 +1108,33 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder, usagePage) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder, usage) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder, m_CurrentReportId) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder, m_CurrentReportType) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder, m_CurrentReportOffsetInBits) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder, m_Elements) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder, m_Collections) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder, m_InputReportSize) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder, m_OutputReportSize) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder, m_FeatureReportSize) == 0x30, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::GenericDesktop
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6401))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6487))
 // CS Name: ::HID::GenericDesktop
 struct CORDL_TYPE __HID__GenericDesktop {
 public:
@@ -1355,13 +1452,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HID__GenericDesktop, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__GenericDesktop, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::Simulation
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6402))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6488))
 // CS Name: ::HID::Simulation
 struct CORDL_TYPE __HID__Simulation {
 public:
@@ -1603,13 +1702,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HID__Simulation, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__Simulation, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::Button
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6403))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6489))
 // CS Name: ::HID::Button
 struct CORDL_TYPE __HID__Button {
 public:
@@ -1659,13 +1760,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HID__Button, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__Button, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::<>c__DisplayClass12_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6404))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6490))
 // CS Name: ::HID::<>c__DisplayClass12_0*
 class CORDL_TYPE __HID____c__DisplayClass12_0 : public ::System::Object {
 public:
@@ -1681,10 +1784,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::HID::__HID____c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ada92c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x295abe4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <OnFindLayoutForDevice>b__0 addr 0x2adf6a8 size 0x18 virtual false final false
+  /// @brief Method <OnFindLayoutForDevice>b__0 addr 0x295f960 size 0x18 virtual false final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* _OnFindLayoutForDevice_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HID____c__DisplayClass12_0", modifiers: "&&", def_value: None }]
@@ -1709,13 +1812,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HID____c__DisplayClass12_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID____c__DisplayClass12_0, ___layout) == 0x10, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::HID
 // Type: UnityEngine.InputSystem.HID::HID
 // SizeInfo { instance_size: 400, native_size: -1, calculated_instance_size: 400, calculated_native_size: 400, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6398)), TypeDefinitionIndex(TypeDefinitionIndex(6239))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6405))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6325)), TypeDefinitionIndex(TypeDefinitionIndex(6484))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6491))
 // CS Name: ::UnityEngine.InputSystem.HID::HID*
 class CORDL_TYPE HID : public ::UnityEngine::InputSystem::InputDevice {
 public:
@@ -1766,35 +1871,35 @@ public:
 
   constexpr void __set_m_HIDDescriptor(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor value);
 
-  /// @brief Method get_QueryHIDReportDescriptorDeviceCommandType addr 0x2ad9eb0 size 0x30 virtual false final false
+  /// @brief Method get_QueryHIDReportDescriptorDeviceCommandType addr 0x295a168 size 0x30 virtual false final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDReportDescriptorDeviceCommandType();
 
-  /// @brief Method get_QueryHIDReportDescriptorSizeDeviceCommandType addr 0x2ad9ee0 size 0x30 virtual false final false
+  /// @brief Method get_QueryHIDReportDescriptorSizeDeviceCommandType addr 0x295a198 size 0x30 virtual false final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDReportDescriptorSizeDeviceCommandType();
 
-  /// @brief Method get_QueryHIDParsedReportDescriptorDeviceCommandType addr 0x2ad9f10 size 0x30 virtual false final false
+  /// @brief Method get_QueryHIDParsedReportDescriptorDeviceCommandType addr 0x295a1c8 size 0x30 virtual false final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDParsedReportDescriptorDeviceCommandType();
 
-  /// @brief Method get_hidDescriptor addr 0x2ad9f40 size 0xa4 virtual false final false
+  /// @brief Method get_hidDescriptor addr 0x295a1f8 size 0xa4 virtual false final false
   inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor get_hidDescriptor();
 
-  /// @brief Method OnFindLayoutForDevice addr 0x2ad9fe4 size 0x948 virtual false final false
+  /// @brief Method OnFindLayoutForDevice addr 0x295a29c size 0x948 virtual false final false
   static inline ::StringW OnFindLayoutForDevice(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                                                 ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeDeviceCommand);
 
-  /// @brief Method ReadHIDDeviceDescriptor addr 0x2ada934 size 0x6f8 virtual false final false
+  /// @brief Method ReadHIDDeviceDescriptor addr 0x295abec size 0x6f8 virtual false final false
   static inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor ReadHIDDeviceDescriptor(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> deviceDescription,
                                                                                                     ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeCommandDelegate);
 
-  /// @brief Method UsagePageToString addr 0x2adccb0 size 0x8c virtual false final false
+  /// @brief Method UsagePageToString addr 0x295cf68 size 0x8c virtual false final false
   static inline ::StringW UsagePageToString(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage);
 
-  /// @brief Method UsageToString addr 0x2adcd3c size 0x9c virtual false final false
+  /// @brief Method UsageToString addr 0x295cff4 size 0x9c virtual false final false
   static inline ::StringW UsageToString(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t usage);
 
   static inline ::UnityEngine::InputSystem::HID::HID* New_ctor();
 
-  /// @brief Method .ctor addr 0x2adcdd8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x295d090 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HID", modifiers: "&&", def_value: None }]
@@ -1827,6 +1932,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::HID, 0x190>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::HID, ___m_HaveParsedHIDDescriptor) == 0x158, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::HID::HID, ___m_HIDDescriptor) == 0x160, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::HID
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::__HID__Button, "UnityEngine.InputSystem.HID", "HID/Button");

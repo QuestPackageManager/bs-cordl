@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::LightRotationDirection);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14736))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14951))
 // CS Name: ::LightRotationDirection
 struct CORDL_TYPE LightRotationDirection {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightRotationDirection, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightRotationDirection, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightRotationDirection, "", "LightRotationDirection");

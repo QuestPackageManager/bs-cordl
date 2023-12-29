@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PacketPool_1)
 namespace GlobalNamespace {
-template <typename T> class IPacketPool_1;
-}
-namespace GlobalNamespace {
-class IPoolablePacket;
-}
-namespace GlobalNamespace {
 class IPacketPool;
 }
 namespace System::Collections::Concurrent {
 template <typename T> class ConcurrentBag_1;
+}
+namespace GlobalNamespace {
+template <typename T> class IPacketPool_1;
+}
+namespace GlobalNamespace {
+class IPoolablePacket;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +29,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12809))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12727))
 // CS Name: ::PacketPool`1<T>*
 class CORDL_TYPE PacketPool_1 : public ::System::Object {
 public:

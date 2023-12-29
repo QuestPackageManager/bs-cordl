@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Deflate)
 namespace Org::BouncyCastle::Utilities::Zlib {
+class ZStream;
+}
+namespace Org::BouncyCastle::Utilities::Zlib {
 class __Deflate__Config;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
 class Tree;
-}
-namespace Org::BouncyCastle::Utilities::Zlib {
-class ZStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1818))
 // CS Name: ::Deflate::Config*
 class CORDL_TYPE __Deflate__Config : public ::System::Object {
@@ -83,7 +83,7 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config* New_ctor(int32_t good_length, int32_t max_lazy, int32_t nice_length, int32_t max_chain, int32_t func);
 
-  /// @brief Method .ctor addr 0x1164504 size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x10f42bc size 0x50 virtual false final false
   inline void _ctor(int32_t good_length, int32_t max_lazy, int32_t nice_length, int32_t max_chain, int32_t func);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Deflate__Config", modifiers: "&&", def_value: None }]
@@ -120,12 +120,22 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config, ___good_length) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config, ___max_lazy) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config, ___nice_length) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config, ___max_chain) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config, ___func) == 0x20, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Utilities::Zlib
 // Type: Org.BouncyCastle.Utilities.Zlib::Deflate
 // SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 304, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1819))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::Deflate*
 class CORDL_TYPE Deflate : public ::System::Object {
@@ -655,121 +665,121 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::Deflate* New_ctor();
 
-  /// @brief Method .ctor addr 0x1161538 size 0x148 virtual false final false
+  /// @brief Method .ctor addr 0x10f02f0 size 0x148 virtual false final false
   inline void _ctor();
 
-  /// @brief Method lm_init addr 0x1161680 size 0x114 virtual false final false
+  /// @brief Method lm_init addr 0x10f0438 size 0x114 virtual false final false
   inline void lm_init();
 
-  /// @brief Method tr_init addr 0x1161794 size 0xbc virtual false final false
+  /// @brief Method tr_init addr 0x10f054c size 0xbc virtual false final false
   inline void tr_init();
 
-  /// @brief Method init_block addr 0x1161850 size 0xb4 virtual false final false
+  /// @brief Method init_block addr 0x10f0608 size 0xb4 virtual false final false
   inline void init_block();
 
-  /// @brief Method pqdownheap addr 0x1161904 size 0x1b4 virtual false final false
+  /// @brief Method pqdownheap addr 0x10f06bc size 0x1b4 virtual false final false
   inline void pqdownheap(::ArrayW<int16_t, ::Array<int16_t>*> tree, int32_t k);
 
-  /// @brief Method smaller addr 0x1161ab8 size 0x8c virtual false final false
+  /// @brief Method smaller addr 0x10f0870 size 0x8c virtual false final false
   static inline bool smaller(::ArrayW<int16_t, ::Array<int16_t>*> tree, int32_t n, int32_t m, ::ArrayW<uint8_t, ::Array<uint8_t>*> depth);
 
-  /// @brief Method scan_tree addr 0x1161b44 size 0x194 virtual false final false
+  /// @brief Method scan_tree addr 0x10f08fc size 0x194 virtual false final false
   inline void scan_tree(::ArrayW<int16_t, ::Array<int16_t>*> tree, int32_t max_code);
 
-  /// @brief Method build_bl_tree addr 0x1161cd8 size 0x11c virtual false final false
+  /// @brief Method build_bl_tree addr 0x10f0a90 size 0x11c virtual false final false
   inline int32_t build_bl_tree();
 
-  /// @brief Method send_all_trees addr 0x1161df4 size 0x130 virtual false final false
+  /// @brief Method send_all_trees addr 0x10f0bac size 0x130 virtual false final false
   inline void send_all_trees(int32_t lcodes, int32_t dcodes, int32_t blcodes);
 
-  /// @brief Method send_tree addr 0x1161fdc size 0x1a0 virtual false final false
+  /// @brief Method send_tree addr 0x10f0d94 size 0x1a0 virtual false final false
   inline void send_tree(::ArrayW<int16_t, ::Array<int16_t>*> tree, int32_t max_code);
 
-  /// @brief Method put_byte addr 0x11621c0 size 0x48 virtual false final false
+  /// @brief Method put_byte addr 0x10f0f78 size 0x48 virtual false final false
   inline void put_byte(::ArrayW<uint8_t, ::Array<uint8_t>*> p, int32_t start, int32_t len);
 
-  /// @brief Method put_byte addr 0x1162208 size 0x3c virtual false final false
+  /// @brief Method put_byte addr 0x10f0fc0 size 0x3c virtual false final false
   inline void put_byte(uint8_t c);
 
-  /// @brief Method put_short addr 0x1162244 size 0x68 virtual false final false
+  /// @brief Method put_short addr 0x10f0ffc size 0x68 virtual false final false
   inline void put_short(int32_t w);
 
-  /// @brief Method putShortMSB addr 0x11622ac size 0x68 virtual false final false
+  /// @brief Method putShortMSB addr 0x10f1064 size 0x68 virtual false final false
   inline void putShortMSB(int32_t b);
 
-  /// @brief Method send_code addr 0x116217c size 0x44 virtual false final false
+  /// @brief Method send_code addr 0x10f0f34 size 0x44 virtual false final false
   inline void send_code(int32_t c, ::ArrayW<int16_t, ::Array<int16_t>*> tree);
 
-  /// @brief Method send_bits addr 0x1161f24 size 0xb8 virtual false final false
+  /// @brief Method send_bits addr 0x10f0cdc size 0xb8 virtual false final false
   inline void send_bits(int32_t val, int32_t length);
 
-  /// @brief Method _tr_align addr 0x1162314 size 0xe0 virtual false final false
+  /// @brief Method _tr_align addr 0x10f10cc size 0xe0 virtual false final false
   inline void _tr_align();
 
-  /// @brief Method _tr_tally addr 0x11624c8 size 0x2a4 virtual false final false
+  /// @brief Method _tr_tally addr 0x10f1280 size 0x2a4 virtual false final false
   inline bool _tr_tally(int32_t dist, int32_t lc);
 
-  /// @brief Method compress_block addr 0x116276c size 0x274 virtual false final false
+  /// @brief Method compress_block addr 0x10f1524 size 0x274 virtual false final false
   inline void compress_block(::ArrayW<int16_t, ::Array<int16_t>*> ltree, ::ArrayW<int16_t, ::Array<int16_t>*> dtree);
 
-  /// @brief Method set_data_type addr 0x11629e0 size 0xb0 virtual false final false
+  /// @brief Method set_data_type addr 0x10f1798 size 0xb0 virtual false final false
   inline void set_data_type();
 
-  /// @brief Method bi_flush addr 0x11623f4 size 0xd4 virtual false final false
+  /// @brief Method bi_flush addr 0x10f11ac size 0xd4 virtual false final false
   inline void bi_flush();
 
-  /// @brief Method bi_windup addr 0x1162a90 size 0xb0 virtual false final false
+  /// @brief Method bi_windup addr 0x10f1848 size 0xb0 virtual false final false
   inline void bi_windup();
 
-  /// @brief Method copy_block addr 0x1162b40 size 0x80 virtual false final false
+  /// @brief Method copy_block addr 0x10f18f8 size 0x80 virtual false final false
   inline void copy_block(int32_t buf, int32_t len, bool header);
 
-  /// @brief Method flush_block_only addr 0x1162bc0 size 0x4c virtual false final false
+  /// @brief Method flush_block_only addr 0x10f1978 size 0x4c virtual false final false
   inline void flush_block_only(bool eof);
 
-  /// @brief Method deflate_stored addr 0x1162dc4 size 0x164 virtual false final false
+  /// @brief Method deflate_stored addr 0x10f1b7c size 0x164 virtual false final false
   inline int32_t deflate_stored(int32_t flush);
 
-  /// @brief Method _tr_stored_block addr 0x11630f0 size 0x44 virtual false final false
+  /// @brief Method _tr_stored_block addr 0x10f1ea8 size 0x44 virtual false final false
   inline void _tr_stored_block(int32_t buf, int32_t stored_len, bool eof);
 
-  /// @brief Method _tr_flush_block addr 0x1162c0c size 0x1b8 virtual false final false
+  /// @brief Method _tr_flush_block addr 0x10f19c4 size 0x1b8 virtual false final false
   inline void _tr_flush_block(int32_t buf, int32_t stored_len, bool eof);
 
-  /// @brief Method fill_window addr 0x1162f28 size 0x1c8 virtual false final false
+  /// @brief Method fill_window addr 0x10f1ce0 size 0x1c8 virtual false final false
   inline void fill_window();
 
-  /// @brief Method deflate_fast addr 0x1163134 size 0x31c virtual false final false
+  /// @brief Method deflate_fast addr 0x10f1eec size 0x31c virtual false final false
   inline int32_t deflate_fast(int32_t flush);
 
-  /// @brief Method deflate_slow addr 0x11637fc size 0x3b4 virtual false final false
+  /// @brief Method deflate_slow addr 0x10f25b4 size 0x3b4 virtual false final false
   inline int32_t deflate_slow(int32_t flush);
 
-  /// @brief Method longest_match addr 0x1163450 size 0x3ac virtual false final false
+  /// @brief Method longest_match addr 0x10f2208 size 0x3ac virtual false final false
   inline int32_t longest_match(int32_t cur_match);
 
-  /// @brief Method deflateInit addr 0x1163bb0 size 0x14 virtual false final false
+  /// @brief Method deflateInit addr 0x10f2968 size 0x14 virtual false final false
   inline int32_t deflateInit(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, int32_t level, int32_t bits);
 
-  /// @brief Method deflateInit addr 0x1163d64 size 0x14 virtual false final false
+  /// @brief Method deflateInit addr 0x10f2b1c size 0x14 virtual false final false
   inline int32_t deflateInit(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, int32_t level);
 
-  /// @brief Method deflateInit2 addr 0x1163bc4 size 0x1a0 virtual false final false
+  /// @brief Method deflateInit2 addr 0x10f297c size 0x1a0 virtual false final false
   inline int32_t deflateInit2(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, int32_t level, int32_t method, int32_t windowBits, int32_t memLevel, int32_t strategy);
 
-  /// @brief Method deflateReset addr 0x1163d78 size 0x74 virtual false final false
+  /// @brief Method deflateReset addr 0x10f2b30 size 0x74 virtual false final false
   inline int32_t deflateReset(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm);
 
-  /// @brief Method deflateEnd addr 0x1163dec size 0x44 virtual false final false
+  /// @brief Method deflateEnd addr 0x10f2ba4 size 0x44 virtual false final false
   inline int32_t deflateEnd();
 
-  /// @brief Method deflateParams addr 0x1163e30 size 0x184 virtual false final false
+  /// @brief Method deflateParams addr 0x10f2be8 size 0x184 virtual false final false
   inline int32_t deflateParams(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, int32_t _level, int32_t _strategy);
 
-  /// @brief Method deflateSetDictionary addr 0x1163fb4 size 0x178 virtual false final false
+  /// @brief Method deflateSetDictionary addr 0x10f2d6c size 0x178 virtual false final false
   inline int32_t deflateSetDictionary(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, ::ArrayW<uint8_t, ::Array<uint8_t>*> dictionary, int32_t dictLength);
 
-  /// @brief Method deflate addr 0x116412c size 0x3d8 virtual false final false
+  /// @brief Method deflate addr 0x10f2ee4 size 0x13d8 virtual false final false
   inline int32_t deflate(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, int32_t flush);
 
   // Ctor Parameters [CppParam { name: "", ty: "Deflate", modifiers: "&&", def_value: None }]
@@ -1120,6 +1130,118 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Zlib::Deflate, 0x130>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___strm) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___status) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___pending_buf) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___pending_out) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___pending) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___noheader) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___data_type) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___method) == 0x35, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___last_flush) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___w_size) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___w_bits) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___w_mask) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___window) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___window_size) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___prev) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___head) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___ins_h) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___hash_size) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___hash_bits) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___hash_mask) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___hash_shift) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___block_start) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___match_length) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___prev_match) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___match_available) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___strstart) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___match_start) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___lookahead) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___prev_length) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___max_chain_length) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___max_lazy_match) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___level) == 0xa4, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___strategy) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___good_match) == 0xac, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___nice_match) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___dyn_ltree) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___dyn_dtree) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___bl_tree) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___l_desc) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___d_desc) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___bl_desc) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___bl_count) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___heap) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___heap_len) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___heap_max) == 0xfc, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___depth) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___l_buf) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___lit_bufsize) == 0x10c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___last_lit) == 0x110, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___d_buf) == 0x114, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___opt_len) == 0x118, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___static_len) == 0x11c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___matches) == 0x120, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___last_eob_len) == 0x124, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___bi_buf) == 0x128, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::Deflate, ___bi_valid) == 0x12c, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::Zlib
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::Deflate);

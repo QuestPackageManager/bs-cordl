@@ -9,16 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Toggle)
 namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
+class PointerEventData;
 }
-namespace UnityEngine::UI {
-class Graphic;
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
 }
 namespace UnityEngine::EventSystems {
 class ISubmitHandler;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IEventSystemHandler;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
 }
 namespace UnityEngine {
 class Transform;
@@ -27,22 +33,16 @@ namespace UnityEngine::UI {
 class ICanvasElement;
 }
 namespace UnityEngine::UI {
-struct __Toggle__ToggleTransition;
-}
-namespace UnityEngine::UI {
-struct CanvasUpdate;
+class __Toggle__ToggleEvent;
 }
 namespace UnityEngine::UI {
 class ToggleGroup;
 }
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+namespace UnityEngine::UI {
+class Graphic;
 }
 namespace UnityEngine::UI {
-class __Toggle__ToggleEvent;
+struct __Toggle__ToggleTransition;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -63,7 +63,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::__Toggle__ToggleEvent);
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13129))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13134))
 // CS Name: ::Toggle::ToggleTransition
 struct CORDL_TYPE __Toggle__ToggleTransition {
 public:
@@ -105,20 +105,22 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Toggle__ToggleTransition, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UI::__Toggle__ToggleTransition, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UI
 // Type: ::ToggleEvent
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 105 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13130))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10387), inst: 112 }), TypeDefinitionIndex(TypeDefinitionIndex(10387))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13135))
 // CS Name: ::Toggle::ToggleEvent*
 class CORDL_TYPE __Toggle__ToggleEvent : public ::UnityEngine::Events::UnityEvent_1<bool> {
 public:
   // Declarations
   static inline ::UnityEngine::UI::__Toggle__ToggleEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d8c820 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2c24470 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Toggle__ToggleEvent", modifiers: "&&", def_value: None }]
@@ -145,8 +147,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Toggle__Toggl
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 281, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(13129))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13131))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13134)), TypeDefinitionIndex(TypeDefinitionIndex(13124))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13136))
 // CS Name: ::UnityEngine.UI::Toggle*
 class CORDL_TYPE Toggle : public ::UnityEngine::UI::Selectable {
 public:
@@ -216,69 +218,69 @@ public:
 
   constexpr void __set_m_IsOn(bool value);
 
-  /// @brief Method get_group addr 0x2d8c56c size 0x8 virtual false final false
+  /// @brief Method get_group addr 0x2c241bc size 0x8 virtual false final false
   inline ::UnityEngine::UI::ToggleGroup* get_group();
 
-  /// @brief Method set_group addr 0x2d8c574 size 0x20 virtual false final false
+  /// @brief Method set_group addr 0x2c241c4 size 0x20 virtual false final false
   inline void set_group(::UnityEngine::UI::ToggleGroup* value);
 
   static inline ::UnityEngine::UI::Toggle* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d8c794 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0x2c243e4 size 0x8c virtual false final false
   inline void _ctor();
 
-  /// @brief Method Rebuild addr 0x2d8c868 size 0x4 virtual true final false
+  /// @brief Method Rebuild addr 0x2c244b8 size 0x4 virtual true final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
 
-  /// @brief Method LayoutComplete addr 0x2d8c86c size 0x4 virtual true final false
+  /// @brief Method LayoutComplete addr 0x2c244bc size 0x4 virtual true final false
   inline void LayoutComplete();
 
-  /// @brief Method GraphicUpdateComplete addr 0x2d8c870 size 0x4 virtual true final false
+  /// @brief Method GraphicUpdateComplete addr 0x2c244c0 size 0x4 virtual true final false
   inline void GraphicUpdateComplete();
 
-  /// @brief Method OnDestroy addr 0x2d8c874 size 0x80 virtual true final false
+  /// @brief Method OnDestroy addr 0x2c244c4 size 0x80 virtual true final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable addr 0x2d8cce0 size 0x2c virtual true final false
+  /// @brief Method OnEnable addr 0x2c24930 size 0x2c virtual true final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2d8cd0c size 0x20 virtual true final false
+  /// @brief Method OnDisable addr 0x2c2495c size 0x20 virtual true final false
   inline void OnDisable();
 
-  /// @brief Method OnDidApplyAnimationProperties addr 0x2d8cd2c size 0x124 virtual true final false
+  /// @brief Method OnDidApplyAnimationProperties addr 0x2c2497c size 0x124 virtual true final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method SetToggleGroup addr 0x2d8c594 size 0x13c virtual false final false
+  /// @brief Method SetToggleGroup addr 0x2c241e4 size 0x13c virtual false final false
   inline void SetToggleGroup(::UnityEngine::UI::ToggleGroup* newGroup, bool setMemberValue);
 
-  /// @brief Method get_isOn addr 0x2d8d234 size 0x8 virtual false final false
+  /// @brief Method get_isOn addr 0x2c24e84 size 0x8 virtual false final false
   inline bool get_isOn();
 
-  /// @brief Method set_isOn addr 0x2d8d23c size 0xc virtual false final false
+  /// @brief Method set_isOn addr 0x2c24e8c size 0xc virtual false final false
   inline void set_isOn(bool value);
 
-  /// @brief Method SetIsOnWithoutNotify addr 0x2d8d248 size 0xc virtual false final false
+  /// @brief Method SetIsOnWithoutNotify addr 0x2c24e98 size 0xc virtual false final false
   inline void SetIsOnWithoutNotify(bool value);
 
-  /// @brief Method Set addr 0x2d8ce50 size 0x174 virtual false final false
+  /// @brief Method Set addr 0x2c24aa0 size 0x174 virtual false final false
   inline void Set(bool value, bool sendCallback);
 
-  /// @brief Method PlayEffect addr 0x2d8c6d0 size 0xc4 virtual false final false
+  /// @brief Method PlayEffect addr 0x2c24320 size 0xc4 virtual false final false
   inline void PlayEffect(bool instant);
 
-  /// @brief Method Start addr 0x2d8d390 size 0x8 virtual true final false
+  /// @brief Method Start addr 0x2c24fe0 size 0x8 virtual true final false
   inline void Start();
 
-  /// @brief Method InternalToggle addr 0x2d8d398 size 0x54 virtual false final false
+  /// @brief Method InternalToggle addr 0x2c24fe8 size 0x54 virtual false final false
   inline void InternalToggle();
 
-  /// @brief Method OnPointerClick addr 0x2d8d3ec size 0x24 virtual true final false
+  /// @brief Method OnPointerClick addr 0x2c2503c size 0x24 virtual true final false
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSubmit addr 0x2d8d410 size 0x4 virtual true final false
+  /// @brief Method OnSubmit addr 0x2c25060 size 0x4 virtual true final false
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform addr 0x2d8d414 size 0x8 virtual true final true
+  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform addr 0x2c25064 size 0x8 virtual true final true
   inline ::UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
 
   // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "&&", def_value: None }]
@@ -314,6 +316,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::Toggle, 0x120>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Toggle, ___toggleTransition) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Toggle, ___graphic) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Toggle, ___m_Group) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Toggle, ___onValueChanged) == 0x110, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::Toggle, ___m_IsOn) == 0x118, "Offset mismatch!");
 
 } // namespace UnityEngine::UI
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::__Toggle__ToggleTransition, "UnityEngine.UI", "Toggle/ToggleTransition");

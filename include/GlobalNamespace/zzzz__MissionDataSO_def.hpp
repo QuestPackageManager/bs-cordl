@@ -13,16 +13,16 @@ namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace GlobalNamespace {
-class MissionHelpSO;
+class MissionObjective;
 }
 namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
-class MissionObjective;
+class MissionHelpSO;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionDataSO);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4457))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879)), TypeDefinitionIndex(TypeDefinitionIndex(14934))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4468))
 // CS Name: ::MissionDataSO*
 class CORDL_TYPE MissionDataSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -106,30 +106,30 @@ public:
 
   constexpr void __set__missionHelp(::GlobalNamespace::MissionHelpSO* value);
 
-  /// @brief Method get_missionObjectives addr 0x2352a14 size 0x8 virtual false final false
+  /// @brief Method get_missionObjectives addr 0x22049e0 size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> get_missionObjectives();
 
-  /// @brief Method get_level addr 0x2352a1c size 0x8 virtual false final false
+  /// @brief Method get_level addr 0x22049e8 size 0x8 virtual false final false
   inline ::GlobalNamespace::BeatmapLevelSO* get_level();
 
-  /// @brief Method get_beatmapCharacteristic addr 0x2352a24 size 0x8 virtual false final false
+  /// @brief Method get_beatmapCharacteristic addr 0x22049f0 size 0x8 virtual false final false
   inline ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
 
-  /// @brief Method get_beatmapDifficulty addr 0x2352a2c size 0x8 virtual false final false
+  /// @brief Method get_beatmapDifficulty addr 0x22049f8 size 0x8 virtual false final false
   inline ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
 
-  /// @brief Method get_gameplayModifiers addr 0x2352a34 size 0x8 virtual false final false
+  /// @brief Method get_gameplayModifiers addr 0x2204a00 size 0x8 virtual false final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method get_missionHelp addr 0x2352a3c size 0x8 virtual false final false
+  /// @brief Method get_missionHelp addr 0x2204a08 size 0x8 virtual false final false
   inline ::GlobalNamespace::MissionHelpSO* get_missionHelp();
 
-  /// @brief Method OnValidate addr 0x2352a44 size 0x8c virtual false final false
+  /// @brief Method OnValidate addr 0x2204a10 size 0x94 virtual false final false
   inline void OnValidate();
 
   static inline ::GlobalNamespace::MissionDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x2352ad0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2204aa4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionDataSO", modifiers: "&&", def_value: None }]
@@ -168,6 +168,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionDataSO, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionDataSO, ____level) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionDataSO, ____beatmapCharacteristic) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionDataSO, ____beatmapDifficulty) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionDataSO, ____missionObjectives) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionDataSO, ____gameplayModifiers) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionDataSO, ____missionHelp) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionDataSO);

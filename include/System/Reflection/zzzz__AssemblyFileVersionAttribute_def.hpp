@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyFileVersionAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3451))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3446))
 // CS Name: ::System.Reflection::AssemblyFileVersionAttribute*
 class CORDL_TYPE AssemblyFileVersionAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Reflection::AssemblyFileVersionAttribute* New_ctor(::StringW version);
 
-  /// @brief Method .ctor addr 0x24e5f70 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x238c4b8 size 0x78 virtual false final false
   inline void _ctor(::StringW version);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyFileVersionAttribute", modifiers: "&&", def_value: None }]
@@ -56,6 +56,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::AssemblyFileVersionAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyFileVersionAttribute, ____Version_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace System::Reflection
 NEED_NO_BOX(::System::Reflection::AssemblyFileVersionAttribute);

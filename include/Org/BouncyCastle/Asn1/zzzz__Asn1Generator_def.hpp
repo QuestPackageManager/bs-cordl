@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Asn1Generator)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1Generator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(451))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1Generator*
 class CORDL_TYPE Asn1Generator : public ::System::Object {
@@ -39,10 +39,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Generator* New_ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor addr 0x11b3d74 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1142b2c size 0x28 virtual false final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method get_Out addr 0x11b3d9c size 0x8 virtual false final false
+  /// @brief Method get_Out addr 0x1142b54 size 0x8 virtual false final false
   inline ::System::IO::Stream* get_Out();
 
   /// @brief Method AddObject addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -75,6 +75,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Asn1Generator, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Asn1Generator, ____out) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Asn1Generator);

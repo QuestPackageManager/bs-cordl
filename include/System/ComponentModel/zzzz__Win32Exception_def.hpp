@@ -10,10 +10,10 @@ namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::ComponentModel::Win32Exception);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3302))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9492))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3301))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8329))
 // CS Name: ::System.ComponentModel::Win32Exception*
 class CORDL_TYPE Win32Exception : public ::System::Runtime::InteropServices::ExternalException {
 public:
@@ -47,31 +47,31 @@ public:
 
   static inline ::System::ComponentModel::Win32Exception* New_ctor();
 
-  /// @brief Method .ctor addr 0x2939ba0 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x27bbb78 size 0x74 virtual false final false
   inline void _ctor();
 
   static inline ::System::ComponentModel::Win32Exception* New_ctor(int32_t error);
 
-  /// @brief Method .ctor addr 0x2939c14 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x27bbbec size 0x38 virtual false final false
   inline void _ctor(int32_t error);
 
   static inline ::System::ComponentModel::Win32Exception* New_ctor(int32_t error, ::StringW message);
 
-  /// @brief Method .ctor addr 0x293a540 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x27bc518 size 0x2c virtual false final false
   inline void _ctor(int32_t error, ::StringW message);
 
   static inline ::System::ComponentModel::Win32Exception* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x293a56c size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x27bc544 size 0x88 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_NativeErrorCode addr 0x293a5f4 size 0x8 virtual false final false
+  /// @brief Method get_NativeErrorCode addr 0x27bc5cc size 0x8 virtual false final false
   inline int32_t get_NativeErrorCode();
 
-  /// @brief Method GetObjectData addr 0x293a5fc size 0xcc virtual true final false
+  /// @brief Method GetObjectData addr 0x27bc5d4 size 0xcc virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetErrorMessage addr 0x2939c4c size 0x8f4 virtual false final false
+  /// @brief Method GetErrorMessage addr 0x27bbc24 size 0x8f4 virtual false final false
   static inline ::StringW GetErrorMessage(int32_t error);
 
   // Ctor Parameters [CppParam { name: "", ty: "Win32Exception", modifiers: "&&", def_value: None }]
@@ -95,6 +95,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::Win32Exception, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::Win32Exception, ___nativeErrorCode) == 0x8c, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::Win32Exception);

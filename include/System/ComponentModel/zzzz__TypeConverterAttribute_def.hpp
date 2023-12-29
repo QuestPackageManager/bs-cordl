@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeConverterAttribute)
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::ComponentModel::TypeConverterAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9458))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8295))
 // CS Name: ::System.ComponentModel::TypeConverterAttribute*
 class CORDL_TYPE TypeConverterAttribute : public ::System::Attribute {
 public:
@@ -48,26 +48,26 @@ public:
 
   static inline ::System::ComponentModel::TypeConverterAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2918dcc size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x279ada4 size 0x5c virtual false final false
   inline void _ctor();
 
   static inline ::System::ComponentModel::TypeConverterAttribute* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor addr 0x2918e28 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x279ae00 size 0x44 virtual false final false
   inline void _ctor(::System::Type* type);
 
   static inline ::System::ComponentModel::TypeConverterAttribute* New_ctor(::StringW typeName);
 
-  /// @brief Method .ctor addr 0x2918e6c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x279ae44 size 0x28 virtual false final false
   inline void _ctor(::StringW typeName);
 
-  /// @brief Method get_ConverterTypeName addr 0x2918e94 size 0x8 virtual false final false
+  /// @brief Method get_ConverterTypeName addr 0x279ae6c size 0x8 virtual false final false
   inline ::StringW get_ConverterTypeName();
 
-  /// @brief Method Equals addr 0x2918e9c size 0x80 virtual true final false
+  /// @brief Method Equals addr 0x279ae74 size 0x80 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2918f1c size 0x20 virtual true final false
+  /// @brief Method GetHashCode addr 0x279aef4 size 0x20 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeConverterAttribute", modifiers: "&&", def_value: None }]
@@ -91,6 +91,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::TypeConverterAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::TypeConverterAttribute, ____ConverterTypeName_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::TypeConverterAttribute);

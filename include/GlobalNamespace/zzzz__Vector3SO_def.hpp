@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::Vector3SO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst: 412 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15869))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15874)) CS Name: ::Vector3SO*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(13974)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13974), inst:
+// 407 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13979)) CS Name: ::Vector3SO*
 class CORDL_TYPE Vector3SO : public ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3> {
 public:
   // Declarations
   static inline ::GlobalNamespace::Vector3SO* New_ctor();
 
-  /// @brief Method .ctor addr 0xe28b20 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x1fa31ac size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector3SO", modifiers: "&&", def_value: None }]

@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::NavigationCancelEvent);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7248), inst: 4701 }), TypeDefinitionIndex(TypeDefinitionIndex(7248))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7253))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7334), inst: 4602 }), TypeDefinitionIndex(TypeDefinitionIndex(7334))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7339))
 // CS Name: ::UnityEngine.UIElements::NavigationCancelEvent*
 class CORDL_TYPE NavigationCancelEvent : public ::UnityEngine::UIElements::NavigationEventBase_1<::UnityEngine::UIElements::NavigationCancelEvent*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::NavigationCancelEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e53238 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2ceae88 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NavigationCancelEvent", modifiers: "&&", def_value: None }]

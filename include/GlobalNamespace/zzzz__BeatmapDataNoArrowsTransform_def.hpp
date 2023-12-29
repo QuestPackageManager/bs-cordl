@@ -20,16 +20,16 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataNoArrowsTransform);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4126))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4160))
 // CS Name: ::BeatmapDataNoArrowsTransform*
 class CORDL_TYPE BeatmapDataNoArrowsTransform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateTransformedData addr 0x223a374 size 0xec virtual false final false
+  /// @brief Method CreateTransformedData addr 0x21cc1c0 size 0xec virtual false final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0_0 addr 0x223a460 size 0xe4 virtual false final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0_0 addr 0x21cc2ac size 0xe4 virtual false final false
   static inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataNoArrowsTransform", modifiers: "&&", def_value: None }]

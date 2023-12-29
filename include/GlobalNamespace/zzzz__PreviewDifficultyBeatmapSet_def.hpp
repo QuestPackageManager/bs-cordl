@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PreviewDifficultyBeatmapSet);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4409))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4429))
 // CS Name: ::PreviewDifficultyBeatmapSet*
 class CORDL_TYPE PreviewDifficultyBeatmapSet : public ::System::Object {
 public:
@@ -50,16 +50,16 @@ public:
 
   constexpr void __set__beatmapDifficulties(::ArrayW<::GlobalNamespace::BeatmapDifficulty, ::Array<::GlobalNamespace::BeatmapDifficulty>*> value);
 
-  /// @brief Method get_beatmapCharacteristic addr 0x234c5e0 size 0x8 virtual false final false
+  /// @brief Method get_beatmapCharacteristic addr 0x21fff40 size 0x8 virtual false final false
   inline ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
 
-  /// @brief Method get_beatmapDifficulties addr 0x234c5e8 size 0x8 virtual false final false
+  /// @brief Method get_beatmapDifficulties addr 0x21fff48 size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::BeatmapDifficulty, ::Array<::GlobalNamespace::BeatmapDifficulty>*> get_beatmapDifficulties();
 
   static inline ::GlobalNamespace::PreviewDifficultyBeatmapSet* New_ctor(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
                                                                          ::ArrayW<::GlobalNamespace::BeatmapDifficulty, ::Array<::GlobalNamespace::BeatmapDifficulty>*> beatmapDifficulties);
 
-  /// @brief Method .ctor addr 0x234c5f0 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x21fff50 size 0x2c virtual false final false
   inline void _ctor(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
                     ::ArrayW<::GlobalNamespace::BeatmapDifficulty, ::Array<::GlobalNamespace::BeatmapDifficulty>*> beatmapDifficulties);
 
@@ -87,6 +87,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PreviewDifficultyBeatmapSet, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PreviewDifficultyBeatmapSet, ____beatmapCharacteristic) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PreviewDifficultyBeatmapSet, ____beatmapDifficulties) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PreviewDifficultyBeatmapSet);

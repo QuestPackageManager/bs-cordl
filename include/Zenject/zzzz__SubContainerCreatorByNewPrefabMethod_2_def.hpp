@@ -10,10 +10,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
-struct TypeValuePair;
+class DiContainer;
 }
 namespace Zenject {
-class GameObjectContext;
+class IPrefabProvider;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2> class __SubContainerCreatorByNewPrefabMethod_2____c__DisplayClass2_0;
@@ -22,13 +22,13 @@ namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
 class GameObjectCreationParameters;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class IPrefabProvider;
+class GameObjectContext;
 }
 namespace System {
 class Object;
@@ -52,8 +52,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11280))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11208))
 // CS Name: ::SubContainerCreatorByNewPrefabMethod`2::<>c__DisplayClass2_0<TParam1,TParam2>*
 class CORDL_TYPE __SubContainerCreatorByNewPrefabMethod_2____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -120,8 +120,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11274))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11281))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11202))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11209))
 // CS Name: ::Zenject::SubContainerCreatorByNewPrefabMethod`2<TParam1,TParam2>*
 class CORDL_TYPE SubContainerCreatorByNewPrefabMethod_2 : public ::Zenject::SubContainerCreatorByNewPrefabDynamicContext {
 public:

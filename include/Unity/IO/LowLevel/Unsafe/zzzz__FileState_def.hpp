@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::FileState);
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9985))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9913))
 // CS Name: ::Unity.IO.LowLevel.Unsafe::FileState
 struct CORDL_TYPE FileState {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::IO::LowLevel::Unsafe::FileState, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::FileState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Unity::IO::LowLevel::Unsafe
 DEFINE_IL2CPP_ARG_TYPE(::Unity::IO::LowLevel::Unsafe::FileState, "Unity.IO.LowLevel.Unsafe", "FileState");

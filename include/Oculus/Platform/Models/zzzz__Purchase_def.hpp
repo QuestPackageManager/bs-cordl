@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Purchase);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13475))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13531))
 // CS Name: ::Oculus.Platform.Models::Purchase*
 class CORDL_TYPE Purchase : public ::System::Object {
 public:
@@ -79,7 +79,7 @@ public:
 
   static inline ::Oculus::Platform::Models::Purchase* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x27087ac size 0xc8 virtual false final false
+  /// @brief Method .ctor addr 0x25b7000 size 0xc8 virtual false final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "Purchase", modifiers: "&&", def_value: None }]
@@ -118,6 +118,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::Purchase, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Purchase, ___DeveloperPayload) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Purchase, ___ExpirationTime) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Purchase, ___GrantTime) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Purchase, ____cordl_ID) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Purchase, ___ReportingId) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Purchase, ___Sku) == 0x38, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::Purchase);

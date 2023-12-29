@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::LiteNetLib::Utils::CRC32C);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14188))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14526))
 // CS Name: ::LiteNetLib.Utils::CRC32C*
 class CORDL_TYPE CRC32C : public ::System::Object {
 public:
@@ -29,7 +29,7 @@ public:
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_Table();
 
-  /// @brief Method Compute addr 0x220832c size 0x410 virtual false final false
+  /// @brief Method Compute addr 0x20a64d8 size 0x410 virtual false final false
   static inline uint32_t Compute(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t offset, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "CRC32C", modifiers: "&&", def_value: None }]

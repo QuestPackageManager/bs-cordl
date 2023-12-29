@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BasicConnectionRequestHandler)
-namespace GlobalNamespace {
-class IConnectionRequestHandler;
-}
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace GlobalNamespace {
+class IConnectionRequestHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BasicConnectionRequestHandler);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12683))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12611))
 // CS Name: ::BasicConnectionRequestHandler*
 class CORDL_TYPE BasicConnectionRequestHandler : public ::System::Object {
 public:
@@ -45,21 +45,21 @@ public:
 
   constexpr void __set__secret_k__BackingField(::StringW value);
 
-  /// @brief Method get_secret addr 0xe29860 size 0x8 virtual false final false
+  /// @brief Method get_secret addr 0xda3bc8 size 0x8 virtual false final false
   inline ::StringW get_secret();
 
-  /// @brief Method set_secret addr 0xe29868 size 0x8 virtual false final false
+  /// @brief Method set_secret addr 0xda3bd0 size 0x8 virtual false final false
   inline void set_secret(::StringW value);
 
-  /// @brief Method GetConnectionMessage addr 0xe29870 size 0x70 virtual true final true
+  /// @brief Method GetConnectionMessage addr 0xda3bd8 size 0x70 virtual true final true
   inline void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
 
-  /// @brief Method ValidateConnectionMessage addr 0xe298e0 size 0xbc virtual true final true
+  /// @brief Method ValidateConnectionMessage addr 0xda3c48 size 0xbc virtual true final true
   inline bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
 
   static inline ::GlobalNamespace::BasicConnectionRequestHandler* New_ctor();
 
-  /// @brief Method .ctor addr 0xe2999c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xda3d04 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicConnectionRequestHandler", modifiers: "&&", def_value: None }]
@@ -83,6 +83,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BasicConnectionRequestHandler, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BasicConnectionRequestHandler, ____secret_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BasicConnectionRequestHandler);

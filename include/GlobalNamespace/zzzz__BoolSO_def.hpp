@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::BoolSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(15869))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15861))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13974), inst: 112 }), TypeDefinitionIndex(TypeDefinitionIndex(13974))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13966))
 // CS Name: ::BoolSO*
 class CORDL_TYPE BoolSO : public ::GlobalNamespace::ObservableVariableSO_1<bool> {
 public:
   // Declarations
   static inline ::GlobalNamespace::BoolSO* New_ctor();
 
-  /// @brief Method .ctor addr 0xe288ec size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x1fa2f78 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BoolSO", modifiers: "&&", def_value: None }]

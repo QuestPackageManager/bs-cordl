@@ -9,32 +9,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BtsResultsEnvironmentController)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 class __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11;
 }
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
 namespace GlobalNamespace {
-class BTSCharacterDataModel;
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
 class __BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation;
 }
 namespace GlobalNamespace {
-class __BTSCharacterDataModel__PrefabWithId;
+class BTSCharacterDataModel;
 }
-namespace UnityEngine::Playables {
-class PlayableDirector;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
+class __BTSCharacterDataModel__PrefabWithId;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 class GameObject;
@@ -42,26 +42,26 @@ class GameObject;
 namespace UnityEngine {
 class AnimationClip;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class BTSCharacterResultAnimationController;
 }
 namespace GlobalNamespace {
 class BTSCharacter;
 }
+namespace UnityEngine {
+class Transform;
+}
 namespace UnityEngine::AddressableAssets {
 class AssetReference;
-}
-namespace GlobalNamespace {
-class BTSCharacterResultAnimationController;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -81,8 +81,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCha
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3975))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3961))
 // CS Name: ::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*
 class CORDL_TYPE __BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation : public ::System::Object {
 public:
@@ -143,18 +143,18 @@ public:
 
   constexpr void __set__btsCharacterAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method get_name addr 0x221d040 size 0x8 virtual false final false
+  /// @brief Method get_name addr 0x20bc058 size 0x8 virtual false final false
   inline ::StringW get_name();
 
-  /// @brief Method Clean addr 0x221ced8 size 0xec virtual false final false
+  /// @brief Method Clean addr 0x20bbef0 size 0xec virtual false final false
   inline void Clean();
 
-  /// @brief Method SetCharacter addr 0x221ca80 size 0xcc virtual false final false
+  /// @brief Method SetCharacter addr 0x20bba98 size 0xcc virtual false final false
   inline void SetCharacter(::UnityEngine::AddressableAssets::AssetReference* assetReference, ::GlobalNamespace::BTSCharacter* btsCharacter, bool alternativeMaterial);
 
   static inline ::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation* New_ctor();
 
-  /// @brief Method .ctor addr 0x221d048 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20bc060 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation", modifiers: "&&", def_value: None }]
@@ -194,13 +194,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation, ____name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation, ____placeTransform) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation, ____animationController) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation, ____animationClip) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation, ____btsCharacter) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation, ____btsCharacterAssetReference) == 0x38, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<DestroyCharactersDelayed>d__11
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3976))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3962))
 // CS Name: ::BtsResultsEnvironmentController::<DestroyCharactersDelayed>d__11*
 class CORDL_TYPE __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11 : public ::System::Object {
 public:
@@ -247,22 +259,22 @@ public:
 
   static inline ::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x221ceb0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x20bbec8 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x221d050 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x20bc068 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x221d054 size 0xc0 virtual true final true
+  /// @brief Method MoveNext addr 0x20bc06c size 0xc0 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x221d114 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x20bc12c size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x221d11c size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x20bc134 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x221d15c size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x20bc174 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11", modifiers: "&&", def_value: None }]
@@ -293,13 +305,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11, _____4__this) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BtsResultsEnvironmentController
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4687)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3977))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4808)), TypeDefinitionIndex(TypeDefinitionIndex(14941))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3963))
 // CS Name: ::BtsResultsEnvironmentController*
 class CORDL_TYPE BtsResultsEnvironmentController : public ::GlobalNamespace::BaseResultsEnvironmentController {
 public:
@@ -363,27 +381,27 @@ public:
 
   constexpr void __set__handles(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method Setup addr 0x221c34c size 0x4e4 virtual true final false
+  /// @brief Method Setup addr 0x20bb364 size 0x4e4 virtual true final false
   inline void Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method SpawnBtsCharacters addr 0x221c830 size 0x250 virtual false final false
+  /// @brief Method SpawnBtsCharacters addr 0x20bb848 size 0x250 virtual false final false
   inline void SpawnBtsCharacters(::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId* btsCharacterPrefabToSpawn, bool useAlternativeMaterial);
 
-  /// @brief Method Activate addr 0x221cb4c size 0xa8 virtual true final false
+  /// @brief Method Activate addr 0x20bbb64 size 0xa8 virtual true final false
   inline void Activate(bool immediately);
 
-  /// @brief Method Deactivate addr 0x221cbf4 size 0x1d0 virtual true final false
+  /// @brief Method Deactivate addr 0x20bbc0c size 0x1d0 virtual true final false
   inline void Deactivate(bool immediately);
 
-  /// @brief Method DestroyCharactersDelayed addr 0x221ce48 size 0x68 virtual false final false
+  /// @brief Method DestroyCharactersDelayed addr 0x20bbe60 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* DestroyCharactersDelayed();
 
-  /// @brief Method DestroyCharactersAndStopAnimations addr 0x221cdc4 size 0x84 virtual false final false
+  /// @brief Method DestroyCharactersAndStopAnimations addr 0x20bbddc size 0x84 virtual false final false
   inline void DestroyCharactersAndStopAnimations();
 
   static inline ::GlobalNamespace::BtsResultsEnvironmentController* New_ctor();
 
-  /// @brief Method .ctor addr 0x221cfc4 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x20bbfdc size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BtsResultsEnvironmentController", modifiers: "&&", def_value: None }]
@@ -424,6 +442,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BtsResultsEnvironmentController, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BtsResultsEnvironmentController, ____btsCharacterAnimationWrapper) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BtsResultsEnvironmentController, ____btsCharacterDataModel) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BtsResultsEnvironmentController, ____btsCharactersResultsAppearPlayableDirector) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BtsResultsEnvironmentController, ____resultPlacesWithAnimations) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BtsResultsEnvironmentController, ____handles) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BtsResultsEnvironmentController);

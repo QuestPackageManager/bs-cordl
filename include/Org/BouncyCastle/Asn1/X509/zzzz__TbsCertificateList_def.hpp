@@ -7,44 +7,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TbsCertificateList)
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class __TbsCertificateList__RevokedCertificatesEnumeration;
+class CrlEntry;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class CrlEntry;
+class __TbsCertificateList__RevokedCertificatesEnumeration;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class Time;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
 }
 namespace GlobalNamespace {
 class __TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator;
@@ -67,7 +67,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::__TbsCertificateList__RevokedCer
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(391))
 // CS Name: ::TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator*
 class CORDL_TYPE __TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator : public ::System::Object {
@@ -89,16 +89,16 @@ public:
 
   static inline ::GlobalNamespace::__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator* New_ctor(::System::Collections::IEnumerator* e);
 
-  /// @brief Method .ctor addr 0x1199c74 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1129a2c size 0x28 virtual false final false
   inline void _ctor(::System::Collections::IEnumerator* e);
 
-  /// @brief Method MoveNext addr 0x1199c9c size 0xa0 virtual true final true
+  /// @brief Method MoveNext addr 0x1129a54 size 0xa0 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x1199d3c size 0xa4 virtual true final true
+  /// @brief Method Reset addr 0x1129af4 size 0xa4 virtual true final true
   inline void Reset();
 
-  /// @brief Method get_Current addr 0x1199de0 size 0xe8 virtual true final true
+  /// @brief Method get_Current addr 0x1129b98 size 0xe8 virtual true final true
   inline ::System::Object* get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator", modifiers: "&&", def_value: None }]
@@ -123,12 +123,14 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator, ___e) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::RevokedCertificatesEnumeration
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(392))
 // CS Name: ::TbsCertificateList::RevokedCertificatesEnumeration*
 class CORDL_TYPE __TbsCertificateList__RevokedCertificatesEnumeration : public ::System::Object {
@@ -150,10 +152,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::__TbsCertificateList__RevokedCertificatesEnumeration* New_ctor(::System::Collections::IEnumerable* en);
 
-  /// @brief Method .ctor addr 0x1199b5c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1129914 size 0x28 virtual false final false
   inline void _ctor(::System::Collections::IEnumerable* en);
 
-  /// @brief Method GetEnumerator addr 0x1199b94 size 0xe0 virtual true final true
+  /// @brief Method GetEnumerator addr 0x112994c size 0xe0 virtual true final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TbsCertificateList__RevokedCertificatesEnumeration", modifiers: "&&", def_value: None }]
@@ -177,6 +179,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::__TbsCertificateList__RevokedCertificatesEnumeration, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::__TbsCertificateList__RevokedCertificatesEnumeration, ___en) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 // Type: Org.BouncyCastle.Asn1.X509::TbsCertificateList
@@ -277,45 +281,45 @@ public:
 
   constexpr void __set_crlExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
-  /// @brief Method GetInstance addr 0x1199298 size 0x18 virtual false final false
+  /// @brief Method GetInstance addr 0x1129050 size 0x18 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0x11992b0 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0x1129068 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1199438 size 0x4ec virtual false final false
+  /// @brief Method .ctor addr 0x11291f0 size 0x4ec virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Version addr 0x1199924 size 0x24 virtual false final false
+  /// @brief Method get_Version addr 0x11296dc size 0x24 virtual false final false
   inline int32_t get_Version();
 
-  /// @brief Method get_VersionNumber addr 0x1199948 size 0x8 virtual false final false
+  /// @brief Method get_VersionNumber addr 0x1129700 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_VersionNumber();
 
-  /// @brief Method get_Signature addr 0x1199950 size 0x8 virtual false final false
+  /// @brief Method get_Signature addr 0x1129708 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Signature();
 
-  /// @brief Method get_Issuer addr 0x1199958 size 0x8 virtual false final false
+  /// @brief Method get_Issuer addr 0x1129710 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_ThisUpdate addr 0x1199960 size 0x8 virtual false final false
+  /// @brief Method get_ThisUpdate addr 0x1129718 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_ThisUpdate();
 
-  /// @brief Method get_NextUpdate addr 0x1199968 size 0x8 virtual false final false
+  /// @brief Method get_NextUpdate addr 0x1129720 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_NextUpdate();
 
-  /// @brief Method GetRevokedCertificates addr 0x1199970 size 0x14c virtual false final false
+  /// @brief Method GetRevokedCertificates addr 0x1129728 size 0x14c virtual false final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CrlEntry*, ::Array<::Org::BouncyCastle::Asn1::X509::CrlEntry*>*> GetRevokedCertificates();
 
-  /// @brief Method GetRevokedCertificateEnumeration addr 0x1199abc size 0xa0 virtual false final false
+  /// @brief Method GetRevokedCertificateEnumeration addr 0x1129874 size 0xa0 virtual false final false
   inline ::System::Collections::IEnumerable* GetRevokedCertificateEnumeration();
 
-  /// @brief Method get_Extensions addr 0x1199b84 size 0x8 virtual false final false
+  /// @brief Method get_Extensions addr 0x112993c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method ToAsn1Object addr 0x1199b8c size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1129944 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "TbsCertificateList", modifiers: "&&", def_value: None }]
@@ -360,6 +364,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::TbsCertificateList, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::TbsCertificateList, ___seq) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::TbsCertificateList, ___version) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::TbsCertificateList, ___signature) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::TbsCertificateList, ___issuer) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::TbsCertificateList, ___thisUpdate) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::TbsCertificateList, ___nextUpdate) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::TbsCertificateList, ___revokedCertificates) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::TbsCertificateList, ___crlExtensions) == 0x48, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::GlobalNamespace::__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator);

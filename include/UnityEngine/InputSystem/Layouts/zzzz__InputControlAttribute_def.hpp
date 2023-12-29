@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::InputControlAttribute);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6594))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10098))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6680))
 // CS Name: ::UnityEngine.InputSystem.Layouts::InputControlAttribute*
 class CORDL_TYPE InputControlAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -279,147 +279,147 @@ public:
 
   constexpr void __set__maxValue_k__BackingField(::System::Object* value);
 
-  /// @brief Method get_layout addr 0x2afa128 size 0x8 virtual false final false
+  /// @brief Method get_layout addr 0x29793d4 size 0x8 virtual false final false
   inline ::StringW get_layout();
 
-  /// @brief Method set_layout addr 0x2afa130 size 0x8 virtual false final false
+  /// @brief Method set_layout addr 0x29793dc size 0x8 virtual false final false
   inline void set_layout(::StringW value);
 
-  /// @brief Method get_variants addr 0x2afa138 size 0x8 virtual false final false
+  /// @brief Method get_variants addr 0x29793e4 size 0x8 virtual false final false
   inline ::StringW get_variants();
 
-  /// @brief Method set_variants addr 0x2afa140 size 0x8 virtual false final false
+  /// @brief Method set_variants addr 0x29793ec size 0x8 virtual false final false
   inline void set_variants(::StringW value);
 
-  /// @brief Method get_name addr 0x2afa148 size 0x8 virtual false final false
+  /// @brief Method get_name addr 0x29793f4 size 0x8 virtual false final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name addr 0x2afa150 size 0x8 virtual false final false
+  /// @brief Method set_name addr 0x29793fc size 0x8 virtual false final false
   inline void set_name(::StringW value);
 
-  /// @brief Method get_format addr 0x2afa158 size 0x8 virtual false final false
+  /// @brief Method get_format addr 0x2979404 size 0x8 virtual false final false
   inline ::StringW get_format();
 
-  /// @brief Method set_format addr 0x2afa160 size 0x8 virtual false final false
+  /// @brief Method set_format addr 0x297940c size 0x8 virtual false final false
   inline void set_format(::StringW value);
 
-  /// @brief Method get_usage addr 0x2afa168 size 0x8 virtual false final false
+  /// @brief Method get_usage addr 0x2979414 size 0x8 virtual false final false
   inline ::StringW get_usage();
 
-  /// @brief Method set_usage addr 0x2afa170 size 0x8 virtual false final false
+  /// @brief Method set_usage addr 0x297941c size 0x8 virtual false final false
   inline void set_usage(::StringW value);
 
-  /// @brief Method get_usages addr 0x2afa178 size 0x8 virtual false final false
+  /// @brief Method get_usages addr 0x2979424 size 0x8 virtual false final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_usages();
 
-  /// @brief Method set_usages addr 0x2afa180 size 0x8 virtual false final false
+  /// @brief Method set_usages addr 0x297942c size 0x8 virtual false final false
   inline void set_usages(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method get_parameters addr 0x2afa188 size 0x8 virtual false final false
+  /// @brief Method get_parameters addr 0x2979434 size 0x8 virtual false final false
   inline ::StringW get_parameters();
 
-  /// @brief Method set_parameters addr 0x2afa190 size 0x8 virtual false final false
+  /// @brief Method set_parameters addr 0x297943c size 0x8 virtual false final false
   inline void set_parameters(::StringW value);
 
-  /// @brief Method get_processors addr 0x2afa198 size 0x8 virtual false final false
+  /// @brief Method get_processors addr 0x2979444 size 0x8 virtual false final false
   inline ::StringW get_processors();
 
-  /// @brief Method set_processors addr 0x2afa1a0 size 0x8 virtual false final false
+  /// @brief Method set_processors addr 0x297944c size 0x8 virtual false final false
   inline void set_processors(::StringW value);
 
-  /// @brief Method get_alias addr 0x2afa1a8 size 0x8 virtual false final false
+  /// @brief Method get_alias addr 0x2979454 size 0x8 virtual false final false
   inline ::StringW get_alias();
 
-  /// @brief Method set_alias addr 0x2afa1b0 size 0x8 virtual false final false
+  /// @brief Method set_alias addr 0x297945c size 0x8 virtual false final false
   inline void set_alias(::StringW value);
 
-  /// @brief Method get_aliases addr 0x2afa1b8 size 0x8 virtual false final false
+  /// @brief Method get_aliases addr 0x2979464 size 0x8 virtual false final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_aliases();
 
-  /// @brief Method set_aliases addr 0x2afa1c0 size 0x8 virtual false final false
+  /// @brief Method set_aliases addr 0x297946c size 0x8 virtual false final false
   inline void set_aliases(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method get_useStateFrom addr 0x2afa1c8 size 0x8 virtual false final false
+  /// @brief Method get_useStateFrom addr 0x2979474 size 0x8 virtual false final false
   inline ::StringW get_useStateFrom();
 
-  /// @brief Method set_useStateFrom addr 0x2afa1d0 size 0x8 virtual false final false
+  /// @brief Method set_useStateFrom addr 0x297947c size 0x8 virtual false final false
   inline void set_useStateFrom(::StringW value);
 
-  /// @brief Method get_bit addr 0x2afa1d8 size 0x8 virtual false final false
+  /// @brief Method get_bit addr 0x2979484 size 0x8 virtual false final false
   inline uint32_t get_bit();
 
-  /// @brief Method set_bit addr 0x2afa1e0 size 0x8 virtual false final false
+  /// @brief Method set_bit addr 0x297948c size 0x8 virtual false final false
   inline void set_bit(uint32_t value);
 
-  /// @brief Method get_offset addr 0x2afa1e8 size 0x8 virtual false final false
+  /// @brief Method get_offset addr 0x2979494 size 0x8 virtual false final false
   inline uint32_t get_offset();
 
-  /// @brief Method set_offset addr 0x2afa1f0 size 0x8 virtual false final false
+  /// @brief Method set_offset addr 0x297949c size 0x8 virtual false final false
   inline void set_offset(uint32_t value);
 
-  /// @brief Method get_sizeInBits addr 0x2afa1f8 size 0x8 virtual false final false
+  /// @brief Method get_sizeInBits addr 0x29794a4 size 0x8 virtual false final false
   inline uint32_t get_sizeInBits();
 
-  /// @brief Method set_sizeInBits addr 0x2afa200 size 0x8 virtual false final false
+  /// @brief Method set_sizeInBits addr 0x29794ac size 0x8 virtual false final false
   inline void set_sizeInBits(uint32_t value);
 
-  /// @brief Method get_arraySize addr 0x2afa208 size 0x8 virtual false final false
+  /// @brief Method get_arraySize addr 0x29794b4 size 0x8 virtual false final false
   inline int32_t get_arraySize();
 
-  /// @brief Method set_arraySize addr 0x2afa210 size 0x8 virtual false final false
+  /// @brief Method set_arraySize addr 0x29794bc size 0x8 virtual false final false
   inline void set_arraySize(int32_t value);
 
-  /// @brief Method get_displayName addr 0x2afa218 size 0x8 virtual false final false
+  /// @brief Method get_displayName addr 0x29794c4 size 0x8 virtual false final false
   inline ::StringW get_displayName();
 
-  /// @brief Method set_displayName addr 0x2afa220 size 0x8 virtual false final false
+  /// @brief Method set_displayName addr 0x29794cc size 0x8 virtual false final false
   inline void set_displayName(::StringW value);
 
-  /// @brief Method get_shortDisplayName addr 0x2afa228 size 0x8 virtual false final false
+  /// @brief Method get_shortDisplayName addr 0x29794d4 size 0x8 virtual false final false
   inline ::StringW get_shortDisplayName();
 
-  /// @brief Method set_shortDisplayName addr 0x2afa230 size 0x8 virtual false final false
+  /// @brief Method set_shortDisplayName addr 0x29794dc size 0x8 virtual false final false
   inline void set_shortDisplayName(::StringW value);
 
-  /// @brief Method get_noisy addr 0x2afa238 size 0x8 virtual false final false
+  /// @brief Method get_noisy addr 0x29794e4 size 0x8 virtual false final false
   inline bool get_noisy();
 
-  /// @brief Method set_noisy addr 0x2afa240 size 0xc virtual false final false
+  /// @brief Method set_noisy addr 0x29794ec size 0xc virtual false final false
   inline void set_noisy(bool value);
 
-  /// @brief Method get_synthetic addr 0x2afa24c size 0x8 virtual false final false
+  /// @brief Method get_synthetic addr 0x29794f8 size 0x8 virtual false final false
   inline bool get_synthetic();
 
-  /// @brief Method set_synthetic addr 0x2afa254 size 0xc virtual false final false
+  /// @brief Method set_synthetic addr 0x2979500 size 0xc virtual false final false
   inline void set_synthetic(bool value);
 
-  /// @brief Method get_dontReset addr 0x2afa260 size 0x8 virtual false final false
+  /// @brief Method get_dontReset addr 0x297950c size 0x8 virtual false final false
   inline bool get_dontReset();
 
-  /// @brief Method set_dontReset addr 0x2afa268 size 0xc virtual false final false
+  /// @brief Method set_dontReset addr 0x2979514 size 0xc virtual false final false
   inline void set_dontReset(bool value);
 
-  /// @brief Method get_defaultState addr 0x2afa274 size 0x8 virtual false final false
+  /// @brief Method get_defaultState addr 0x2979520 size 0x8 virtual false final false
   inline ::System::Object* get_defaultState();
 
-  /// @brief Method set_defaultState addr 0x2afa27c size 0x8 virtual false final false
+  /// @brief Method set_defaultState addr 0x2979528 size 0x8 virtual false final false
   inline void set_defaultState(::System::Object* value);
 
-  /// @brief Method get_minValue addr 0x2afa284 size 0x8 virtual false final false
+  /// @brief Method get_minValue addr 0x2979530 size 0x8 virtual false final false
   inline ::System::Object* get_minValue();
 
-  /// @brief Method set_minValue addr 0x2afa28c size 0x8 virtual false final false
+  /// @brief Method set_minValue addr 0x2979538 size 0x8 virtual false final false
   inline void set_minValue(::System::Object* value);
 
-  /// @brief Method get_maxValue addr 0x2afa294 size 0x8 virtual false final false
+  /// @brief Method get_maxValue addr 0x2979540 size 0x8 virtual false final false
   inline ::System::Object* get_maxValue();
 
-  /// @brief Method set_maxValue addr 0x2afa29c size 0x8 virtual false final false
+  /// @brief Method set_maxValue addr 0x2979548 size 0x8 virtual false final false
   inline void set_maxValue(::System::Object* value);
 
   static inline ::UnityEngine::InputSystem::Layouts::InputControlAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2afa2a4 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2979550 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputControlAttribute", modifiers: "&&", def_value: None }]
@@ -509,6 +509,52 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputControlAttribute, 0xa8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____layout_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____variants_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____name_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____format_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____usage_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____usages_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____parameters_k__BackingField) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____processors_k__BackingField) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____alias_k__BackingField) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____aliases_k__BackingField) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____useStateFrom_k__BackingField) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____bit_k__BackingField) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____offset_k__BackingField) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____sizeInBits_k__BackingField) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____arraySize_k__BackingField) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____displayName_k__BackingField) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____shortDisplayName_k__BackingField) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____noisy_k__BackingField) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____synthetic_k__BackingField) == 0x89, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____dontReset_k__BackingField) == 0x8a, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____defaultState_k__BackingField) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____minValue_k__BackingField) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlAttribute, ____maxValue_k__BackingField) == 0xa0, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Layouts
 NEED_NO_BOX(::UnityEngine::InputSystem::Layouts::InputControlAttribute);

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixIoctlRequest);
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9264))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8101))
 // CS Name: ::System.Net.NetworkInformation::AixIoctlRequest
 struct CORDL_TYPE AixIoctlRequest {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::AixIoctlRequest, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::AixIoctlRequest, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::AixIoctlRequest, "System.Net.NetworkInformation", "AixIoctlRequest");

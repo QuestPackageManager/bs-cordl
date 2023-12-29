@@ -18,7 +18,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::FontWeightPair);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13678))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13557))
 // CS Name: ::UnityEngine.TextCore.Text::FontWeightPair
 struct CORDL_TYPE FontWeightPair {
 public:
@@ -44,6 +44,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::FontWeightPair, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontWeightPair, regularTypeface) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontWeightPair, italicTypeface) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::FontWeightPair, "UnityEngine.TextCore.Text", "FontWeightPair");

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_GeoSync);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9793))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9795))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9720))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9722))
 // CS Name: ::HoudiniEngineUnity::HEU_GeoSync*
 class CORDL_TYPE HEU_GeoSync : public ::HoudiniEngineUnity::HEU_BaseSync {
 public:
@@ -33,12 +33,12 @@ public:
 
   constexpr void __set__filePath(::StringW value);
 
-  /// @brief Method SetupLoadTask addr 0x21a9f68 size 0x98 virtual true final false
+  /// @brief Method SetupLoadTask addr 0x20535cc size 0x98 virtual true final false
   inline void SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   static inline ::HoudiniEngineUnity::HEU_GeoSync* New_ctor();
 
-  /// @brief Method .ctor addr 0x21aa014 size 0x4c virtual false final false
+  /// @brief Method .ctor addr 0x2053678 size 0x4c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_GeoSync", modifiers: "&&", def_value: None }]
@@ -62,6 +62,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_GeoSync, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_GeoSync, ____filePath) == 0x80, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_GeoSync);

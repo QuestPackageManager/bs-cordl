@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithInstalledApplicationList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13438)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4586 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13262))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13291)) CS Name: ::Oculus.Platform::MessageWithInstalledApplicationList*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13269)), TypeDefinitionIndex(TypeDefinitionIndex(13484)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst:
+// 4487 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13304)) CS Name: ::Oculus.Platform::MessageWithInstalledApplicationList*
 class CORDL_TYPE MessageWithInstalledApplicationList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::InstalledApplicationList*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithInstalledApplicationList* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x26f1b70 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x2595d74 size 0x58 virtual false final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetInstalledApplicationList addr 0x26f1bc8 size 0x3c virtual true final false
+  /// @brief Method GetInstalledApplicationList addr 0x2595dcc size 0x3c virtual true final false
   inline ::Oculus::Platform::Models::InstalledApplicationList* GetInstalledApplicationList();
 
-  /// @brief Method GetDataFromMessage addr 0x26f1c04 size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage addr 0x2595e08 size 0x9c virtual true final false
   inline ::Oculus::Platform::Models::InstalledApplicationList* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithInstalledApplicationList", modifiers: "&&", def_value: None }]

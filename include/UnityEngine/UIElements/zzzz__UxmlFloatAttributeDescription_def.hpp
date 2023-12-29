@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(UxmlFloatAttributeDescription)
 namespace UnityEngine::UIElements {
-struct CreationContext;
-}
-namespace UnityEngine::UIElements {
 class __UxmlFloatAttributeDescription____c;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__UxmlFloatAttributeDescription____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6985))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7071))
 // CS Name: ::UxmlFloatAttributeDescription::<>c*
 class CORDL_TYPE __UxmlFloatAttributeDescription____c : public ::System::Object {
 public:
@@ -55,10 +55,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__UxmlFloatAttributeDescription____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e0f2c4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2ca8f14 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0 addr 0x2e0f2cc size 0x8 virtual false final false
+  /// @brief Method <GetValueFromBag>b__3_0 addr 0x2ca8f1c size 0x8 virtual false final false
   inline float_t _GetValueFromBag_b__3_0(::StringW s, float_t f);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UxmlFloatAttributeDescription____c", modifiers: "&&", def_value: None }]
@@ -85,8 +85,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UxmlF
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 391 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6986))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7068), inst: 387 }), TypeDefinitionIndex(TypeDefinitionIndex(7068))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7072))
 // CS Name: ::UnityEngine.UIElements::UxmlFloatAttributeDescription*
 class CORDL_TYPE UxmlFloatAttributeDescription : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<float_t> {
 public:
@@ -95,13 +95,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlFloatAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e0efc4 size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0x2ca8c14 size 0x9c virtual false final false
   inline void _ctor();
 
-  /// @brief Method GetValueFromBag addr 0x2e0f060 size 0x164 virtual true final false
+  /// @brief Method GetValueFromBag addr 0x2ca8cb0 size 0x164 virtual true final false
   inline float_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
-  /// @brief Method ConvertValueToFloat addr 0x2e0f1c4 size 0x9c virtual false final false
+  /// @brief Method ConvertValueToFloat addr 0x2ca8e14 size 0x9c virtual false final false
   static inline float_t ConvertValueToFloat(::StringW v, float_t defaultValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlFloatAttributeDescription", modifiers: "&&", def_value: None }]

@@ -20,31 +20,31 @@ MARK_REF_PTR_T(::System::Net::Mail::MailAddressParser);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Mail {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9378))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8215))
 // CS Name: ::System.Net.Mail::MailAddressParser*
 class CORDL_TYPE MailAddressParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ParseAddress addr 0x2901f94 size 0x30 virtual false final false
+  /// @brief Method ParseAddress addr 0x2783f6c size 0x30 virtual false final false
   static inline ::System::Net::Mail::MailAddress* ParseAddress(::StringW data);
 
-  /// @brief Method ParseAddress addr 0x2901fc4 size 0x378 virtual false final false
+  /// @brief Method ParseAddress addr 0x2783f9c size 0x378 virtual false final false
   static inline ::System::Net::Mail::MailAddress* ParseAddress(::StringW data, bool expectMultipleAddresses, ByRef<int32_t> index);
 
-  /// @brief Method ReadCfwsAndThrowIfIncomplete addr 0x290233c size 0x60 virtual false final false
+  /// @brief Method ReadCfwsAndThrowIfIncomplete addr 0x2784314 size 0x60 virtual false final false
   static inline int32_t ReadCfwsAndThrowIfIncomplete(::StringW data, int32_t index);
 
-  /// @brief Method ParseDomain addr 0x290239c size 0xe8 virtual false final false
+  /// @brief Method ParseDomain addr 0x2784374 size 0xe8 virtual false final false
   static inline ::StringW ParseDomain(::StringW data, ByRef<int32_t> index);
 
-  /// @brief Method ParseLocalPart addr 0x2902484 size 0x2d4 virtual false final false
+  /// @brief Method ParseLocalPart addr 0x278445c size 0x2d4 virtual false final false
   static inline ::StringW ParseLocalPart(::StringW data, ByRef<int32_t> index, bool expectAngleBracket, bool expectMultipleAddresses);
 
-  /// @brief Method ParseDisplayName addr 0x2902758 size 0x204 virtual false final false
+  /// @brief Method ParseDisplayName addr 0x2784730 size 0x204 virtual false final false
   static inline ::StringW ParseDisplayName(::StringW data, ByRef<int32_t> index, bool expectMultipleAddresses);
 
-  /// @brief Method NormalizeOrThrow addr 0x2902cbc size 0xec virtual false final false
+  /// @brief Method NormalizeOrThrow addr 0x2784c94 size 0xec virtual false final false
   static inline ::StringW NormalizeOrThrow(::StringW input);
 
   // Ctor Parameters [CppParam { name: "", ty: "MailAddressParser", modifiers: "&&", def_value: None }]

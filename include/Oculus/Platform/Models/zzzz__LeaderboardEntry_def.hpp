@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LeaderboardEntry);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13449))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13495))
 // CS Name: ::Oculus.Platform.Models::LeaderboardEntry*
 class CORDL_TYPE LeaderboardEntry : public ::System::Object {
 public:
@@ -113,7 +113,7 @@ public:
 
   static inline ::Oculus::Platform::Models::LeaderboardEntry* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x2706a8c size 0x1ac virtual false final false
+  /// @brief Method .ctor addr 0x25b40f0 size 0x1ac virtual false final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntry", modifiers: "&&", def_value: None }]
@@ -161,6 +161,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LeaderboardEntry, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::LeaderboardEntry, ___DisplayScore) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::LeaderboardEntry, ___ExtraData) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::LeaderboardEntry, ____cordl_ID) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::LeaderboardEntry, ___Rank) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::LeaderboardEntry, ___Score) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::LeaderboardEntry, ___SupplementaryMetricOptional) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::LeaderboardEntry, ___SupplementaryMetric) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::LeaderboardEntry, ___Timestamp) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::LeaderboardEntry, ___User) == 0x50, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::LeaderboardEntry);

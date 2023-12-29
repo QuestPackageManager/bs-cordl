@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::ValueProviderAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15741))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15691))
 // CS Name: ::JetBrains.Annotations::ValueProviderAttribute*
 class CORDL_TYPE ValueProviderAttribute : public ::System::Attribute {
 public:
@@ -34,13 +34,13 @@ public:
 
   static inline ::JetBrains::Annotations::ValueProviderAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x2eb9fa8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d52228 size 0x28 virtual false final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name addr 0x2eb9fd0 size 0x8 virtual false final false
+  /// @brief Method get_Name addr 0x2d52250 size 0x8 virtual false final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name addr 0x2eb9fd8 size 0x8 virtual false final false
+  /// @brief Method set_Name addr 0x2d52258 size 0x8 virtual false final false
   inline void set_Name(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ValueProviderAttribute", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::ValueProviderAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::ValueProviderAttribute, ____Name_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::ValueProviderAttribute);

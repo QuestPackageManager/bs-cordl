@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::RefreshMask);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12168))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12096))
 // CS Name: ::UnityEngine.ProBuilder::RefreshMask
 struct CORDL_TYPE RefreshMask {
 public:
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::RefreshMask, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::RefreshMask, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::RefreshMask, "UnityEngine.ProBuilder", "RefreshMask");

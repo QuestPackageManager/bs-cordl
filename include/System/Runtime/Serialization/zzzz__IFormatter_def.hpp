@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IFormatter)
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
-}
 namespace System {
 class Object;
+}
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
 }
 namespace System::IO {
 class Stream;
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::IFormatter);
 namespace System::Runtime::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3215))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3214))
 // CS Name: ::System.Runtime.Serialization::IFormatter*
 class CORDL_TYPE IFormatter {
 public:

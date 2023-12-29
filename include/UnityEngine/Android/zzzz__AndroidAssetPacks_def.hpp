@@ -11,32 +11,32 @@ CORDL_MODULE_EXPORT(AndroidAssetPacks)
 namespace UnityEngine::Android {
 class __AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback;
 }
+namespace UnityEngine {
+class AndroidJavaObject;
+}
 namespace UnityEngine::Android {
 class __AndroidAssetPacks__AssetPackManagerDownloadStatusCallback;
 }
 namespace UnityEngine::Android {
 class __AndroidAssetPacks__AssetPackManagerStatusQueryCallback;
 }
-namespace UnityEngine {
-class AndroidJavaObject;
-}
-namespace UnityEngine::Android {
-class AndroidAssetPackInfo;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::Android {
+class AndroidAssetPackInfo;
+}
+namespace UnityEngine::Android {
 class AndroidAssetPackUseMobileDataRequestResult;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace UnityEngine::Android {
 class AndroidAssetPackState;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::Android {
@@ -60,8 +60,8 @@ MARK_REF_PTR_T(::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStat
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Android {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14912))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14925))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15057))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15070))
 // CS Name: ::AndroidAssetPacks::AssetPackManagerDownloadStatusCallback*
 class CORDL_TYPE __AndroidAssetPacks__AssetPackManagerDownloadStatusCallback : public ::UnityEngine::AndroidJavaProxy {
 public:
@@ -87,10 +87,10 @@ public:
   static inline ::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback* New_ctor(::System::Action_1<::UnityEngine::Android::AndroidAssetPackInfo*>* callback,
                                                                                                               ::ArrayW<::StringW, ::Array<::StringW>*> assetPacks);
 
-  /// @brief Method .ctor addr 0x2c8cf44 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x2b2801c size 0x84 virtual false final false
   inline void _ctor(::System::Action_1<::UnityEngine::Android::AndroidAssetPackInfo*>* callback, ::ArrayW<::StringW, ::Array<::StringW>*> assetPacks);
 
-  /// @brief Method onStatusUpdate addr 0x2c8cfc8 size 0x114 virtual false final false
+  /// @brief Method onStatusUpdate addr 0x2b280a0 size 0x114 virtual false final false
   inline void onStatusUpdate(::StringW assetPackName, int32_t assetPackStatus, int64_t assetPackSize, int64_t assetPackBytesDownloaded, int32_t assetPackTransferProgress, int32_t assetPackErrorCode);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback", modifiers: "&&", def_value: None }]
@@ -118,13 +118,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback, ___m_Callback) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback, ___m_AssetPacks) == 0x28, "Offset mismatch!");
+
 } // namespace UnityEngine::Android
 // Type: ::AssetPackManagerMobileDataConfirmationCallback
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Android {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14912))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14926))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15057))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15071))
 // CS Name: ::AndroidAssetPacks::AssetPackManagerMobileDataConfirmationCallback*
 class CORDL_TYPE __AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback : public ::UnityEngine::AndroidJavaProxy {
 public:
@@ -141,10 +145,10 @@ public:
   static inline ::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback*
   New_ctor(::System::Action_1<::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult*>* callback);
 
-  /// @brief Method .ctor addr 0x2c8d0dc size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x2b281b4 size 0x80 virtual false final false
   inline void _ctor(::System::Action_1<::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult*>* callback);
 
-  /// @brief Method onMobileDataConfirmationResult addr 0x2c8d15c size 0x8c virtual false final false
+  /// @brief Method onMobileDataConfirmationResult addr 0x2b28234 size 0x8c virtual false final false
   inline void onMobileDataConfirmationResult(bool allowed);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback", modifiers: "&&", def_value: None }]
@@ -169,13 +173,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback, ___m_Callback) == 0x20, "Offset mismatch!");
+
 } // namespace UnityEngine::Android
 // Type: ::AssetPackManagerStatusQueryCallback
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Android {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14912))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14927))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15057))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15072))
 // CS Name: ::AndroidAssetPacks::AssetPackManagerStatusQueryCallback*
 class CORDL_TYPE __AndroidAssetPacks__AssetPackManagerStatusQueryCallback : public ::UnityEngine::AndroidJavaProxy {
 public:
@@ -224,11 +230,11 @@ public:
   New_ctor(::System::Action_2<uint64_t, ::ArrayW<::UnityEngine::Android::AndroidAssetPackState*, ::Array<::UnityEngine::Android::AndroidAssetPackState*>*>>* callback,
            ::ArrayW<::StringW, ::Array<::StringW>*> assetPacks);
 
-  /// @brief Method .ctor addr 0x2c8d1e8 size 0xf8 virtual false final false
+  /// @brief Method .ctor addr 0x2b282c0 size 0xf8 virtual false final false
   inline void _ctor(::System::Action_2<uint64_t, ::ArrayW<::UnityEngine::Android::AndroidAssetPackState*, ::Array<::UnityEngine::Android::AndroidAssetPackState*>*>>* callback,
                     ::ArrayW<::StringW, ::Array<::StringW>*> assetPacks);
 
-  /// @brief Method onStatusResult addr 0x2c8d2e0 size 0x37c virtual false final false
+  /// @brief Method onStatusResult addr 0x2b283b8 size 0x37c virtual false final false
   inline void onStatusResult(int64_t totalBytes, ::ArrayW<::StringW, ::Array<::StringW>*> assetPackNames, ::ArrayW<int32_t, ::Array<int32_t>*> assetPackStatuses,
                              ::ArrayW<int32_t, ::Array<int32_t>*> assetPackErrorCodes);
 
@@ -263,13 +269,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback, ___m_Callback) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback, ___m_AssetPackNames) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback, ___m_States) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback, ___m_Size) == 0x38, "Offset mismatch!");
+
 } // namespace UnityEngine::Android
 // Type: UnityEngine.Android::AndroidAssetPacks
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Android {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14928))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15073))
 // CS Name: ::UnityEngine.Android::AndroidAssetPacks*
 class CORDL_TYPE AndroidAssetPacks : public ::System::Object {
 public:
@@ -294,7 +308,7 @@ public:
 
   static inline bool getStaticF_s_ApiMissing();
 
-  /// @brief Method GetAssetPackManager addr 0x2c8cc2c size 0x318 virtual false final false
+  /// @brief Method GetAssetPackManager addr 0x2b27d04 size 0x318 virtual false final false
   static inline ::UnityEngine::AndroidJavaObject* GetAssetPackManager();
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks", modifiers: "&&", def_value: None }]

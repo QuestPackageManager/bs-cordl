@@ -19,18 +19,18 @@ MARK_VAL_T(::System::Runtime::InteropServices::HandleRef);
 // SizeInfo { instance_size: 16, native_size: 8, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3303))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3302))
 // CS Name: ::System.Runtime.InteropServices::HandleRef
 struct CORDL_TYPE HandleRef {
 public:
   // Declarations
   __declspec(property(get = get_Handle)) void* Handle;
 
-  /// @brief Method .ctor addr 0x24d6784 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x237dc80 size 0x8 virtual false final false
   inline void _ctor(::System::Object* wrapper, void* handle);
 
-  /// @brief Method get_Handle addr 0x24d678c size 0x8 virtual false final false
+  /// @brief Method get_Handle addr 0x237dc88 size 0x8 virtual false final false
   inline void* get_Handle();
 
   // Ctor Parameters [CppParam { name: "_wrapper", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "void*", modifiers: "", def_value: None }]
@@ -53,6 +53,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::HandleRef, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::HandleRef, _wrapper) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::HandleRef, _handle) == 0x8, "Offset mismatch!");
 
 } // namespace System::Runtime::InteropServices
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::HandleRef, "System.Runtime.InteropServices", "HandleRef");

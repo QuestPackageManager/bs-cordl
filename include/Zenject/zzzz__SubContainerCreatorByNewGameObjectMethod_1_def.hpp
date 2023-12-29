@@ -7,12 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewGameObjectMethod_1)
 namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
 struct TypeValuePair;
 }
 namespace System::Collections::Generic {
@@ -21,11 +15,17 @@ template <typename T> class List_1;
 namespace Zenject {
 class GameObjectContext;
 }
+namespace Zenject {
+template <typename TParam1> class __SubContainerCreatorByNewGameObjectMethod_1____c__DisplayClass2_0;
+}
+namespace Zenject {
+class DiContainer;
+}
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace Zenject {
-template <typename TParam1> class __SubContainerCreatorByNewGameObjectMethod_1____c__DisplayClass2_0;
+class GameObjectCreationParameters;
 }
 namespace System {
 class Object;
@@ -49,8 +49,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11259))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11187))
 // CS Name: ::SubContainerCreatorByNewGameObjectMethod`1::<>c__DisplayClass2_0<TParam1>*
 class CORDL_TYPE __SubContainerCreatorByNewGameObjectMethod_1____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -117,8 +117,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11255))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11260))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11183))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11188))
 // CS Name: ::Zenject::SubContainerCreatorByNewGameObjectMethod`1<TParam1>*
 class CORDL_TYPE SubContainerCreatorByNewGameObjectMethod_1 : public ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext {
 public:

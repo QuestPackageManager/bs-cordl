@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ProModeTrailingCollidersController)
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 class BoxCuttableBySaber;
 }
 namespace GlobalNamespace {
 class NoteMovement;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ProModeTrailingCollidersController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4784))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4905))
 // CS Name: ::ProModeTrailingCollidersController*
 class CORDL_TYPE ProModeTrailingCollidersController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -68,18 +68,18 @@ public:
 
   constexpr void __set__transform(::UnityEngine::Transform* value);
 
-  /// @brief Method Start addr 0x238b9e4 size 0x98 virtual false final false
+  /// @brief Method Start addr 0x225762c size 0x98 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x238ba7c size 0xd0 virtual false final false
+  /// @brief Method OnDestroy addr 0x22576c4 size 0xd0 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleNoteDidMoveInJumpPhase addr 0x238bb4c size 0x170 virtual false final false
+  /// @brief Method HandleNoteDidMoveInJumpPhase addr 0x2257794 size 0x170 virtual false final false
   inline void HandleNoteDidMoveInJumpPhase();
 
   static inline ::GlobalNamespace::ProModeTrailingCollidersController* New_ctor();
 
-  /// @brief Method .ctor addr 0x238bcbc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2257904 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProModeTrailingCollidersController", modifiers: "&&", def_value: None }]
@@ -112,6 +112,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ProModeTrailingCollidersController, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ProModeTrailingCollidersController, ____mainSmallCuttableBySaber) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ProModeTrailingCollidersController, ____trailingSmallCuttableBySaberList) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ProModeTrailingCollidersController, ____noteMovement) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ProModeTrailingCollidersController, ____transform) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ProModeTrailingCollidersController);

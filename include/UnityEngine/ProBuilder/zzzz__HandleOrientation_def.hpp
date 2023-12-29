@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::HandleOrientation);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12127))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12055))
 // CS Name: ::UnityEngine.ProBuilder::HandleOrientation
 struct CORDL_TYPE HandleOrientation {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::HandleOrientation, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::HandleOrientation, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::HandleOrientation, "UnityEngine.ProBuilder", "HandleOrientation");

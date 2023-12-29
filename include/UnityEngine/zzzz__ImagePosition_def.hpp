@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ImagePosition);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14627))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14844))
 // CS Name: ::UnityEngine::ImagePosition
 struct CORDL_TYPE ImagePosition {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ImagePosition, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ImagePosition, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ImagePosition, "UnityEngine", "ImagePosition");

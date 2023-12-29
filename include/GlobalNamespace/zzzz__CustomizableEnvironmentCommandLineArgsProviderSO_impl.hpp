@@ -1,17 +1,17 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomizableEnvironmentCommandLineArgsProviderSO_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentCommandLineArgsProvider_def.hpp"
 #include "GlobalNamespace/zzzz__ICommandLineArgsProvider_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentCommandLineArgsProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO.GetCommandLineArgs
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::*)()>(
     &::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::GetCommandLineArgs)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x2304f68;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x21ba9e8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO*>::get(),
                                                  "GetCommandLineArgs", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -23,10 +23,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::*)()>(
     &::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23050e4;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x21bab38;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -73,14 +73,18 @@ constexpr void GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____customCommandLineArgs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::setStaticF__environmentCommandLineArgsProvider(::GlobalNamespace::EnvironmentCommandLineArgsProvider* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::EnvironmentCommandLineArgsProvider*, "_environmentCommandLineArgsProvider",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO*>::get>(
-      std::forward<::GlobalNamespace::EnvironmentCommandLineArgsProvider*>(value));
+constexpr ::GlobalNamespace::EnvironmentCommandLineArgsProvider*& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__get__environmentCommandLineArgsProvider() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentCommandLineArgsProvider;
 }
-inline ::GlobalNamespace::EnvironmentCommandLineArgsProvider* GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::getStaticF__environmentCommandLineArgsProvider() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::EnvironmentCommandLineArgsProvider*, "_environmentCommandLineArgsProvider",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO*>::get>();
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentCommandLineArgsProvider*> const&
+GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__get__environmentCommandLineArgsProvider() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentCommandLineArgsProvider;
+}
+constexpr void GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__set__environmentCommandLineArgsProvider(::GlobalNamespace::EnvironmentCommandLineArgsProvider* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentCommandLineArgsProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ArrayW<::StringW, ::Array<::StringW>*> GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::GetCommandLineArgs() {
   static auto* ___internal_method =

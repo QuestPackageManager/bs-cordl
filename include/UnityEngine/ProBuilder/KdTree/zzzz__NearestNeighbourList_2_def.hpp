@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NearestNeighbourList_2)
 namespace UnityEngine::ProBuilder::KdTree {
+template <typename TItem, typename TDistance> class INearestNeighbourList_2;
+}
+namespace UnityEngine::ProBuilder::KdTree {
 template <typename TItem, typename TPriority> class PriorityQueue_2;
 }
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename T> class ITypeMath_1;
-}
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TItem, typename TDistance> class INearestNeighbourList_2;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::KdTree {
@@ -26,8 +26,8 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TItem, typename TDistance>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15922))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15814))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::NearestNeighbourList`2<TItem,TDistance>*
 class CORDL_TYPE NearestNeighbourList_2 : public ::System::Object {
 public:

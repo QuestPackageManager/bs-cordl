@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::PageInfo);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13711))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13590))
 // CS Name: ::UnityEngine.TextCore.Text::PageInfo
 struct CORDL_TYPE PageInfo {
 public:
@@ -53,6 +53,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::PageInfo, 0x14>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::PageInfo, firstCharacterIndex) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::PageInfo, lastCharacterIndex) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::PageInfo, ascender) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::PageInfo, baseLine) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::PageInfo, descender) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::PageInfo, "UnityEngine.TextCore.Text", "PageInfo");

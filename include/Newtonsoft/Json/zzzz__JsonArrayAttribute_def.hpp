@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonArrayAttribute);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 77, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11815))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11814))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11743))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11742))
 // CS Name: ::Newtonsoft.Json::JsonArrayAttribute*
 class CORDL_TYPE JsonArrayAttribute : public ::Newtonsoft::Json::JsonContainerAttribute {
 public:
@@ -32,25 +32,25 @@ public:
 
   constexpr void __set__allowNullItems(bool value);
 
-  /// @brief Method get_AllowNullItems addr 0x263efb0 size 0x8 virtual false final false
+  /// @brief Method get_AllowNullItems addr 0x24dc86c size 0x8 virtual false final false
   inline bool get_AllowNullItems();
 
-  /// @brief Method set_AllowNullItems addr 0x263efb8 size 0xc virtual false final false
+  /// @brief Method set_AllowNullItems addr 0x24dc874 size 0xc virtual false final false
   inline void set_AllowNullItems(bool value);
 
   static inline ::Newtonsoft::Json::JsonArrayAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x263efc4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24dc880 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::JsonArrayAttribute* New_ctor(bool allowNullItems);
 
-  /// @brief Method .ctor addr 0x263efcc size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x24dc888 size 0x28 virtual false final false
   inline void _ctor(bool allowNullItems);
 
   static inline ::Newtonsoft::Json::JsonArrayAttribute* New_ctor(::StringW id);
 
-  /// @brief Method .ctor addr 0x263eff4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x24dc8b0 size 0x28 virtual false final false
   inline void _ctor(::StringW id);
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonArrayAttribute", modifiers: "&&", def_value: None }]
@@ -74,6 +74,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonArrayAttribute, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonArrayAttribute, ____allowNullItems) == 0x4c, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json
 NEED_NO_BOX(::Newtonsoft::Json::JsonArrayAttribute);

@@ -19,8 +19,8 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2537))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2535))
 // CS Name: ::System::ByReference`1<T>
 struct CORDL_TYPE ByReference_1 {
 public:

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::ChallengeResponse);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13763))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14034))
 // CS Name: ::Mono.Security.Protocol.Ntlm::ChallengeResponse*
 class CORDL_TYPE ChallengeResponse : public ::System::Object {
 public:
@@ -89,42 +89,42 @@ public:
 
   static inline ::Mono::Security::Protocol::Ntlm::ChallengeResponse* New_ctor();
 
-  /// @brief Method .ctor addr 0x23feb48 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x22a483c size 0x70 virtual false final false
   inline void _ctor();
 
   static inline ::Mono::Security::Protocol::Ntlm::ChallengeResponse* New_ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> challenge);
 
-  /// @brief Method .ctor addr 0x23febb8 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x22a48ac size 0x38 virtual false final false
   inline void _ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> challenge);
 
-  /// @brief Method Finalize addr 0x23ff130 size 0xa0 virtual true final false
+  /// @brief Method Finalize addr 0x22a4e24 size 0xa0 virtual true final false
   inline void Finalize();
 
-  /// @brief Method set_Password addr 0x23febf0 size 0x40c virtual false final false
+  /// @brief Method set_Password addr 0x22a48e4 size 0x40c virtual false final false
   inline void set_Password(::StringW value);
 
-  /// @brief Method set_Challenge addr 0x23feffc size 0x134 virtual false final false
+  /// @brief Method set_Challenge addr 0x22a4cf0 size 0x134 virtual false final false
   inline void set_Challenge(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_LM addr 0x23ff378 size 0x64 virtual false final false
+  /// @brief Method get_LM addr 0x22a506c size 0x64 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_LM();
 
-  /// @brief Method get_NT addr 0x23ff6b8 size 0x64 virtual false final false
+  /// @brief Method get_NT addr 0x22a53ac size 0x64 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_NT();
 
-  /// @brief Method Dispose addr 0x23ff1d0 size 0x64 virtual true final true
+  /// @brief Method Dispose addr 0x22a4ec4 size 0x64 virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x23ff71c size 0x6c virtual false final false
+  /// @brief Method Dispose addr 0x22a5410 size 0x6c virtual false final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetResponse addr 0x23ff3dc size 0x2dc virtual false final false
+  /// @brief Method GetResponse addr 0x22a50d0 size 0x2dc virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetResponse(::ArrayW<uint8_t, ::Array<uint8_t>*> pwd);
 
-  /// @brief Method PrepareDESKey addr 0x23ff788 size 0x1f8 virtual false final false
+  /// @brief Method PrepareDESKey addr 0x22a547c size 0x1f8 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PrepareDESKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key56bits, int32_t position);
 
-  /// @brief Method PasswordToKey addr 0x23ff234 size 0x144 virtual false final false
+  /// @brief Method PasswordToKey addr 0x22a4f28 size 0x144 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PasswordToKey(::StringW password, int32_t position);
 
   // Ctor Parameters [CppParam { name: "", ty: "ChallengeResponse", modifiers: "&&", def_value: None }]
@@ -157,6 +157,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Protocol::Ntlm::ChallengeResponse, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::Protocol::Ntlm::ChallengeResponse, ____disposed) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Protocol::Ntlm::ChallengeResponse, ____challenge) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Protocol::Ntlm::ChallengeResponse, ____lmpwd) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Protocol::Ntlm::ChallengeResponse, ____ntpwd) == 0x28, "Offset mismatch!");
 
 } // namespace Mono::Security::Protocol::Ntlm
 NEED_NO_BOX(::Mono::Security::Protocol::Ntlm::ChallengeResponse);

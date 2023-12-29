@@ -10,20 +10,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(IKSolverTrigonometric)
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace RootMotion::FinalIK {
 class __IKSolver__Point;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace RootMotion::FinalIK {
-class __IKSolverTrigonometric__TrigonometricBone;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace RootMotion::FinalIK {
+class __IKSolverTrigonometric__TrigonometricBone;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12560)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12581))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(12488))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12509))
 // CS Name: ::IKSolverTrigonometric::TrigonometricBone*
 class CORDL_TYPE __IKSolverTrigonometric__TrigonometricBone : public ::RootMotion::FinalIK::__IKSolver__Bone {
 public:
@@ -63,18 +63,18 @@ public:
 
   constexpr void __set_defaultLocalBendNormal(::UnityEngine::Vector3 value);
 
-  /// @brief Method Initiate addr 0x12704c0 size 0xf0 virtual false final false
+  /// @brief Method Initiate addr 0x1200194 size 0xf0 virtual false final false
   inline void Initiate(::UnityEngine::Vector3 childPosition, ::UnityEngine::Vector3 bendNormal);
 
-  /// @brief Method GetRotation addr 0x1270d68 size 0x90 virtual false final false
+  /// @brief Method GetRotation addr 0x1200a3c size 0x90 virtual false final false
   inline ::UnityEngine::Quaternion GetRotation(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 bendNormal);
 
-  /// @brief Method GetBendNormalFromCurrentRotation addr 0x126ba9c size 0x30 virtual false final false
+  /// @brief Method GetBendNormalFromCurrentRotation addr 0x11fb770 size 0x30 virtual false final false
   inline ::UnityEngine::Vector3 GetBendNormalFromCurrentRotation();
 
   static inline ::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone* New_ctor();
 
-  /// @brief Method .ctor addr 0x1270e04 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1200ad8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolverTrigonometric__TrigonometricBone", modifiers: "&&", def_value: None }]
@@ -102,13 +102,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone, 0x90>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone, ___targetToLocalSpace) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone, ___defaultLocalBendNormal) == 0x84, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: RootMotion.FinalIK::IKSolverTrigonometric
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 165, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12564))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12582))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12492)), TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12510))
 // CS Name: ::RootMotion.FinalIK::IKSolverTrigonometric*
 class CORDL_TYPE IKSolverTrigonometric : public ::RootMotion::FinalIK::IKSolver {
 public:
@@ -196,76 +200,76 @@ public:
 
   constexpr void __set_directHierarchy(bool value);
 
-  /// @brief Method SetBendGoalPosition addr 0x126f224 size 0x194 virtual false final false
+  /// @brief Method SetBendGoalPosition addr 0x11feef8 size 0x194 virtual false final false
   inline void SetBendGoalPosition(::UnityEngine::Vector3 goalPosition, float_t weight);
 
-  /// @brief Method SetBendPlaneToCurrent addr 0x126f3b8 size 0x180 virtual false final false
+  /// @brief Method SetBendPlaneToCurrent addr 0x11ff08c size 0x180 virtual false final false
   inline void SetBendPlaneToCurrent();
 
-  /// @brief Method SetIKRotation addr 0x126f538 size 0xc virtual false final false
+  /// @brief Method SetIKRotation addr 0x11ff20c size 0xc virtual false final false
   inline void SetIKRotation(::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SetIKRotationWeight addr 0x126f544 size 0x1c virtual false final false
+  /// @brief Method SetIKRotationWeight addr 0x11ff218 size 0x1c virtual false final false
   inline void SetIKRotationWeight(float_t weight);
 
-  /// @brief Method GetIKRotation addr 0x126f560 size 0xc virtual false final false
+  /// @brief Method GetIKRotation addr 0x11ff234 size 0xc virtual false final false
   inline ::UnityEngine::Quaternion GetIKRotation();
 
-  /// @brief Method GetIKRotationWeight addr 0x126f56c size 0x8 virtual false final false
+  /// @brief Method GetIKRotationWeight addr 0x11ff240 size 0x8 virtual false final false
   inline float_t GetIKRotationWeight();
 
-  /// @brief Method GetPoints addr 0x126f574 size 0xec virtual true final false
+  /// @brief Method GetPoints addr 0x11ff248 size 0xec virtual true final false
   inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
 
-  /// @brief Method GetPoint addr 0x126f660 size 0xf8 virtual true final false
+  /// @brief Method GetPoint addr 0x11ff334 size 0xf8 virtual true final false
   inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
 
-  /// @brief Method StoreDefaultLocalState addr 0x126f758 size 0x40 virtual true final false
+  /// @brief Method StoreDefaultLocalState addr 0x11ff42c size 0x40 virtual true final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method FixTransforms addr 0x126f798 size 0x50 virtual true final false
+  /// @brief Method FixTransforms addr 0x11ff46c size 0x50 virtual true final false
   inline void FixTransforms();
 
-  /// @brief Method IsValid addr 0x126f7e8 size 0x3a4 virtual true final false
+  /// @brief Method IsValid addr 0x11ff4bc size 0x3a4 virtual true final false
   inline bool IsValid(ByRef<::StringW> message);
 
-  /// @brief Method SetChain addr 0x126fb8c size 0x4c virtual false final false
+  /// @brief Method SetChain addr 0x11ff860 size 0x4c virtual false final false
   inline bool SetChain(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* root);
 
-  /// @brief Method Solve addr 0x126fbd8 size 0x4f4 virtual false final false
+  /// @brief Method Solve addr 0x11ff8ac size 0x4f4 virtual false final false
   static inline void Solve(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Vector3 targetPosition, ::UnityEngine::Vector3 bendNormal,
                            float_t weight);
 
-  /// @brief Method GetDirectionToBendPoint addr 0x12700cc size 0x158 virtual false final false
+  /// @brief Method GetDirectionToBendPoint addr 0x11ffda0 size 0x158 virtual false final false
   static inline ::UnityEngine::Vector3 GetDirectionToBendPoint(::UnityEngine::Vector3 direction, float_t directionMag, ::UnityEngine::Vector3 bendDirection, float_t sqrMag1, float_t sqrMag2);
 
-  /// @brief Method OnInitiate addr 0x1270224 size 0x12c virtual true final false
+  /// @brief Method OnInitiate addr 0x11ffef8 size 0x12c virtual true final false
   inline void OnInitiate();
 
-  /// @brief Method IsDirectHierarchy addr 0x12703d0 size 0xf0 virtual false final false
+  /// @brief Method IsDirectHierarchy addr 0x12000a4 size 0xf0 virtual false final false
   inline bool IsDirectHierarchy();
 
-  /// @brief Method InitiateBones addr 0x1270350 size 0x80 virtual false final false
+  /// @brief Method InitiateBones addr 0x1200024 size 0x80 virtual false final false
   inline void InitiateBones();
 
-  /// @brief Method OnUpdate addr 0x12705b0 size 0x5f8 virtual true final false
+  /// @brief Method OnUpdate addr 0x1200284 size 0x5f8 virtual true final false
   inline void OnUpdate();
 
-  /// @brief Method OnInitiateVirtual addr 0x1270df8 size 0x4 virtual true final false
+  /// @brief Method OnInitiateVirtual addr 0x1200acc size 0x4 virtual true final false
   inline void OnInitiateVirtual();
 
-  /// @brief Method OnUpdateVirtual addr 0x1270dfc size 0x4 virtual true final false
+  /// @brief Method OnUpdateVirtual addr 0x1200ad0 size 0x4 virtual true final false
   inline void OnUpdateVirtual();
 
-  /// @brief Method OnPostSolveVirtual addr 0x1270e00 size 0x4 virtual true final false
+  /// @brief Method OnPostSolveVirtual addr 0x1200ad4 size 0x4 virtual true final false
   inline void OnPostSolveVirtual();
 
-  /// @brief Method GetBendDirection addr 0x1270ba8 size 0x1c0 virtual false final false
+  /// @brief Method GetBendDirection addr 0x120087c size 0x1c0 virtual false final false
   inline ::UnityEngine::Vector3 GetBendDirection(::UnityEngine::Vector3 IKPosition, ::UnityEngine::Vector3 bendNormal);
 
   static inline ::RootMotion::FinalIK::IKSolverTrigonometric* New_ctor();
 
-  /// @brief Method .ctor addr 0x126cc44 size 0x128 virtual false final false
+  /// @brief Method .ctor addr 0x11fc918 size 0x128 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverTrigonometric", modifiers: "&&", def_value: None }]
@@ -313,6 +317,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::IKSolverTrigonometric, 0xa8>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverTrigonometric, ___target) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverTrigonometric, ___IKRotationWeight) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverTrigonometric, ___IKRotation) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverTrigonometric, ___bendNormal) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverTrigonometric, ___bone1) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverTrigonometric, ___bone2) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverTrigonometric, ___bone3) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverTrigonometric, ___weightIKPosition) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverTrigonometric, ___directHierarchy) == 0xa4, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::IKSolverTrigonometric);

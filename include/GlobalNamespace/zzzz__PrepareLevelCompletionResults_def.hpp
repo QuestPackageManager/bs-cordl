@@ -5,40 +5,40 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(PrepareLevelCompletionResults)
 namespace GlobalNamespace {
-struct __LevelCompletionResults__LevelEndAction;
+class BeatmapObjectExecutionRatingsRecorder;
 }
 namespace GlobalNamespace {
 class GameplayModifiersModelSO;
+}
+namespace GlobalNamespace {
+class SaberActivityCounter;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+struct __LevelCompletionResults__LevelEndStateType;
+}
+namespace GlobalNamespace {
+class ComboController;
+}
+namespace GlobalNamespace {
+class IScoreController;
+}
+namespace GlobalNamespace {
+struct __LevelCompletionResults__LevelEndAction;
 }
 namespace GlobalNamespace {
 class GameEnergyCounter;
 }
 namespace GlobalNamespace {
 class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class BeatmapObjectExecutionRatingsRecorder;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class SaberActivityCounter;
-}
-namespace GlobalNamespace {
-class IScoreController;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class ComboController;
-}
-namespace GlobalNamespace {
-struct __LevelCompletionResults__LevelEndStateType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,8 +50,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PrepareLevelCompletionResults);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5273))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5368))
 // CS Name: ::PrepareLevelCompletionResults*
 class CORDL_TYPE PrepareLevelCompletionResults : public ::UnityEngine::MonoBehaviour {
 public:
@@ -138,13 +138,13 @@ public:
 
   constexpr void __set__comboController(::GlobalNamespace::ComboController* value);
 
-  /// @brief Method FillLevelCompletionResults addr 0x22607b8 size 0x250 virtual false final false
+  /// @brief Method FillLevelCompletionResults addr 0x211c620 size 0x250 virtual false final false
   inline ::GlobalNamespace::LevelCompletionResults* FillLevelCompletionResults(::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType,
                                                                                ::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction);
 
   static inline ::GlobalNamespace::PrepareLevelCompletionResults* New_ctor();
 
-  /// @brief Method .ctor addr 0x2260a40 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x211c8a8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PrepareLevelCompletionResults", modifiers: "&&", def_value: None }]
@@ -192,6 +192,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PrepareLevelCompletionResults, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrepareLevelCompletionResults, ____gameplayModifiersModelSO) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrepareLevelCompletionResults, ____saberActivityCounter) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrepareLevelCompletionResults, ____beatmapObjectExecutionRatingsRecorder) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrepareLevelCompletionResults, ____scoreController) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrepareLevelCompletionResults, ____gameEnergyCounter) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrepareLevelCompletionResults, ____beatmapData) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrepareLevelCompletionResults, ____audioTimeSyncController) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrepareLevelCompletionResults, ____gameplayModifiers) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PrepareLevelCompletionResults, ____comboController) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PrepareLevelCompletionResults);

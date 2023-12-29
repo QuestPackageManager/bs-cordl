@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::LogType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10036))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9964))
 // CS Name: ::UnityEngine::LogType
 struct CORDL_TYPE LogType {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::LogType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::LogType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LogType, "UnityEngine", "LogType");

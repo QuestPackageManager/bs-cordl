@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(ErrorMsgContent)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiFreeText;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiStatusInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -73,33 +73,33 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe66f38 size 0x11c virtual false final false
+  /// @brief Method .ctor addr 0xdf1d68 size 0x11c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe671dc size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xdf200c size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo);
 
-  /// @brief Method .ctor addr 0xe67364 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0xdf2194 size 0xc virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo, ::Org::BouncyCastle::Asn1::DerInteger* errorCode,
                                                                           ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* errorDetails);
 
-  /// @brief Method .ctor addr 0xe67370 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0xdf21a0 size 0x8c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo, ::Org::BouncyCastle::Asn1::DerInteger* errorCode, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* errorDetails);
 
-  /// @brief Method get_PkiStatusInfo addr 0xe673fc size 0x8 virtual true final false
+  /// @brief Method get_PkiStatusInfo addr 0xdf222c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_PkiStatusInfo();
 
-  /// @brief Method get_ErrorCode addr 0xe67404 size 0x8 virtual true final false
+  /// @brief Method get_ErrorCode addr 0xdf2234 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_ErrorCode();
 
-  /// @brief Method get_ErrorDetails addr 0xe6740c size 0x8 virtual true final false
+  /// @brief Method get_ErrorDetails addr 0xdf223c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* get_ErrorDetails();
 
-  /// @brief Method ToAsn1Object addr 0xe67414 size 0x174 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xdf2244 size 0x174 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ErrorMsgContent", modifiers: "&&", def_value: None }]
@@ -129,6 +129,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent, ___pkiStatusInfo) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent, ___errorCode) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent, ___errorDetails) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent);

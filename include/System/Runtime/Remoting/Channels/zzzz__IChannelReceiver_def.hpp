@@ -3,11 +3,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IChannelReceiver)
-namespace System {
-class Object;
-}
 namespace System::Runtime::Remoting::Channels {
 class IChannel;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::IChannelReceiver);
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3123))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3122))
 // CS Name: ::System.Runtime.Remoting.Channels::IChannelReceiver*
 class CORDL_TYPE IChannelReceiver {
 public:

@@ -16,12 +16,12 @@ MARK_VAL_T(::UnityEngine::GradientAlphaKey);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10255))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10182))
 // CS Name: ::UnityEngine::GradientAlphaKey
 struct CORDL_TYPE GradientAlphaKey {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2cdd61c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2b77dc4 size 0x8 virtual false final false
   inline void _ctor(float_t alpha, float_t time);
 
   // Ctor Parameters [CppParam { name: "alpha", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
@@ -44,6 +44,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::GradientAlphaKey, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::GradientAlphaKey, alpha) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GradientAlphaKey, time) == 0x4, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GradientAlphaKey, "UnityEngine", "GradientAlphaKey");

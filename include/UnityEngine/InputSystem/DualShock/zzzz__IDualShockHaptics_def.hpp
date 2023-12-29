@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDualShockHaptics)
 namespace UnityEngine::InputSystem::Haptics {
-class IDualMotorRumble;
+class IHaptics;
 }
 namespace UnityEngine::InputSystem::Haptics {
-class IHaptics;
+class IDualMotorRumble;
 }
 namespace UnityEngine {
 struct Color;
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::DualShock::IDualShockHaptics);
 namespace UnityEngine::InputSystem::DualShock {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6425))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6511))
 // CS Name: ::UnityEngine.InputSystem.DualShock::IDualShockHaptics*
 class CORDL_TYPE IDualShockHaptics {
 public:

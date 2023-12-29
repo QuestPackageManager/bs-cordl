@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SparselyPopulatedArray_1)
 namespace System::Threading {
-template <typename T> struct SparselyPopulatedArrayAddInfo_1;
+template <typename T> class SparselyPopulatedArrayFragment_1;
 }
 namespace System::Threading {
-template <typename T> class SparselyPopulatedArrayFragment_1;
+template <typename T> struct SparselyPopulatedArrayAddInfo_1;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -23,8 +23,8 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2692))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2690))
 // CS Name: ::System.Threading::SparselyPopulatedArray`1<T>*
 class CORDL_TYPE SparselyPopulatedArray_1 : public ::System::Object {
 public:

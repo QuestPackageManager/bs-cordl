@@ -15,15 +15,15 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatSignal);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14394), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(14394))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14393))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13946)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13946), inst: 387 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13944))
 // CS Name: ::FloatSignal*
 class CORDL_TYPE FloatSignal : public ::GlobalNamespace::GenericSignal_1<float_t> {
 public:
   // Declarations
   static inline ::GlobalNamespace::FloatSignal* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f55fc size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x1fa197c size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatSignal", modifiers: "&&", def_value: None }]

@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatToTimeConvertor);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4259))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4291))
 // CS Name: ::IBeatToTimeConvertor*
 class CORDL_TYPE IBeatToTimeConvertor {
 public:

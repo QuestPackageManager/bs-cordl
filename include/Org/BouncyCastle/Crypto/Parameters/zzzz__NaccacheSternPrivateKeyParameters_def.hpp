@@ -58,7 +58,7 @@ public:
                                                                                                      int32_t lowerSigmaBound, ::System::Collections::ArrayList* smallPrimes,
                                                                                                      ::Org::BouncyCastle::Math::BigInteger* phiN);
 
-  /// @brief Method .ctor addr 0xf38da4 size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0xec2bb8 size 0x54 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n, int32_t lowerSigmaBound, ::System::Collections::ArrayList* smallPrimes,
                     ::Org::BouncyCastle::Math::BigInteger* phiN);
 
@@ -66,17 +66,17 @@ public:
                                                                                                      int32_t lowerSigmaBound, ::System::Collections::IList* smallPrimes,
                                                                                                      ::Org::BouncyCastle::Math::BigInteger* phiN);
 
-  /// @brief Method .ctor addr 0xf38df8 size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0xec2c0c size 0x54 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n, int32_t lowerSigmaBound, ::System::Collections::IList* smallPrimes,
                     ::Org::BouncyCastle::Math::BigInteger* phiN);
 
-  /// @brief Method get_PhiN addr 0xf38e4c size 0x8 virtual false final false
+  /// @brief Method get_PhiN addr 0xec2c60 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PhiN();
 
-  /// @brief Method get_SmallPrimes addr 0xf38e54 size 0x68 virtual false final false
+  /// @brief Method get_SmallPrimes addr 0xec2c68 size 0x68 virtual false final false
   inline ::System::Collections::ArrayList* get_SmallPrimes();
 
-  /// @brief Method get_SmallPrimesList addr 0xf38ebc size 0x8 virtual false final false
+  /// @brief Method get_SmallPrimesList addr 0xec2cd0 size 0x8 virtual false final false
   inline ::System::Collections::IList* get_SmallPrimesList();
 
   // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternPrivateKeyParameters", modifiers: "&&", def_value: None }]
@@ -103,6 +103,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters, ___phiN) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters, ___smallPrimes) == 0x38, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters);

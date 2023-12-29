@@ -11,10 +11,10 @@ namespace GlobalNamespace {
 class MissionObjectiveCheckersManager;
 }
 namespace GlobalNamespace {
-class ILevelEndActions;
+class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
-class PrepareLevelCompletionResults;
+class ILevelEndActions;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionLevelFinishedController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5073))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5178))
 // CS Name: ::MissionLevelFinishedController*
 class CORDL_TYPE MissionLevelFinishedController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -68,21 +68,21 @@ public:
 
   constexpr void __set__gameplayManager(::GlobalNamespace::ILevelEndActions* value);
 
-  /// @brief Method Start addr 0x23c97a8 size 0xf0 virtual false final false
+  /// @brief Method Start addr 0x20e7c98 size 0xf0 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x23c9898 size 0x108 virtual false final false
+  /// @brief Method OnDestroy addr 0x20e7d88 size 0x108 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleLevelFinished addr 0x23c99a0 size 0x4 virtual false final false
+  /// @brief Method HandleLevelFinished addr 0x20e7e90 size 0x4 virtual false final false
   inline void HandleLevelFinished();
 
-  /// @brief Method StartLevelFinished addr 0x23c99a4 size 0xb0 virtual false final false
+  /// @brief Method StartLevelFinished addr 0x20e7e94 size 0xb0 virtual false final false
   inline void StartLevelFinished();
 
   static inline ::GlobalNamespace::MissionLevelFinishedController* New_ctor();
 
-  /// @brief Method .ctor addr 0x23c9a54 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20e7f44 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFinishedController", modifiers: "&&", def_value: None }]
@@ -115,6 +115,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelFinishedController, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelFinishedController, ____prepareLevelCompletionResults) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelFinishedController, ____missionLevelSceneSetupData) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelFinishedController, ____missionObjectiveCheckersManager) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelFinishedController, ____gameplayManager) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionLevelFinishedController);

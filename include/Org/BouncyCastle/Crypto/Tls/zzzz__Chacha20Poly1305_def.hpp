@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Chacha20Poly1305)
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
 }
+namespace Org::BouncyCastle::Crypto::Engines {
+class ChaCha7539Engine;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
+}
 namespace Org::BouncyCastle::Crypto {
 class IStreamCipher;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
 namespace Org::BouncyCastle::Crypto {
 class IMac;
-}
-namespace Org::BouncyCastle::Crypto::Engines {
-class ChaCha7539Engine;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1195))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::Chacha20Poly1305*
 class CORDL_TYPE Chacha20Poly1305 : public ::System::Object {
@@ -97,39 +97,39 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  /// @brief Method .ctor addr 0xf60e94 size 0x324 virtual false final false
+  /// @brief Method .ctor addr 0xeeac70 size 0x324 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  /// @brief Method GetPlaintextLimit addr 0xf611b8 size 0x8 virtual true final false
+  /// @brief Method GetPlaintextLimit addr 0xeeaf94 size 0x8 virtual true final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
-  /// @brief Method EncodePlaintext addr 0xf611c0 size 0x13c virtual true final false
+  /// @brief Method EncodePlaintext addr 0xeeaf9c size 0x13c virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method DecodeCiphertext addr 0xf612fc size 0x1f0 virtual true final false
+  /// @brief Method DecodeCiphertext addr 0xeeb0d8 size 0x1f0 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> ciphertext, int32_t offset, int32_t len);
 
-  /// @brief Method InitRecord addr 0xf614ec size 0x130 virtual true final false
+  /// @brief Method InitRecord addr 0xeeb2c8 size 0x130 virtual true final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* InitRecord(::Org::BouncyCastle::Crypto::IStreamCipher* cipher, bool forEncryption, int64_t seqNo,
                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method CalculateNonce addr 0xf6161c size 0xec virtual true final false
+  /// @brief Method CalculateNonce addr 0xeeb3f8 size 0xec virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateNonce(int64_t seqNo, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method GenerateRecordMacKey addr 0xf61708 size 0x15c virtual true final false
+  /// @brief Method GenerateRecordMacKey addr 0xeeb4e4 size 0x15c virtual true final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* GenerateRecordMacKey(::Org::BouncyCastle::Crypto::IStreamCipher* cipher);
 
-  /// @brief Method CalculateRecordMac addr 0xf61864 size 0x1a8 virtual true final false
+  /// @brief Method CalculateRecordMac addr 0xeeb640 size 0x1a8 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateRecordMac(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* macKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> additionalData,
                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method UpdateRecordMacLength addr 0xf61a0c size 0xc8 virtual true final false
+  /// @brief Method UpdateRecordMacLength addr 0xeeb7e8 size 0xc8 virtual true final false
   inline void UpdateRecordMacLength(::Org::BouncyCastle::Crypto::IMac* mac, int32_t len);
 
-  /// @brief Method UpdateRecordMacText addr 0xf61ad4 size 0x188 virtual true final false
+  /// @brief Method UpdateRecordMacText addr 0xeeb8b0 size 0x188 virtual true final false
   inline void UpdateRecordMacText(::Org::BouncyCastle::Crypto::IMac* mac, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method GetAdditionalData addr 0xf61c5c size 0x160 virtual true final false
+  /// @brief Method GetAdditionalData addr 0xeeba38 size 0x160 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetAdditionalData(int64_t seqNo, uint8_t type, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "Chacha20Poly1305", modifiers: "&&", def_value: None }]
@@ -165,6 +165,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305, ___context) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305, ___encryptCipher) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305, ___decryptCipher) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305, ___encryptIV) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305, ___decryptIV) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305);

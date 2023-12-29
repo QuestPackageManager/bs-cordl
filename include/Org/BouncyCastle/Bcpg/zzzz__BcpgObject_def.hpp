@@ -19,13 +19,13 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::BcpgObject);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(554))
 // CS Name: ::Org.BouncyCastle.Bcpg::BcpgObject*
 class CORDL_TYPE BcpgObject : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEncoded addr 0x11cf600 size 0xb0 virtual true final false
+  /// @brief Method GetEncoded addr 0x115e3b0 size 0xb0 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   /// @brief Method Encode addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -33,7 +33,7 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::BcpgObject* New_ctor();
 
-  /// @brief Method .ctor addr 0x11cf750 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x115e500 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BcpgObject", modifiers: "&&", def_value: None }]

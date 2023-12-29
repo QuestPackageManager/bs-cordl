@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HEU_ThreadedTask)
 namespace System::Threading {
-struct ThreadPriority;
-}
-namespace System::Threading {
 class Thread;
 }
 namespace System {
 class Object;
+}
+namespace System::Threading {
+struct ThreadPriority;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ThreadedTask);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2670)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9809))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2668)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9736))
 // CS Name: ::HoudiniEngineUnity::HEU_ThreadedTask*
 class CORDL_TYPE HEU_ThreadedTask : public ::System::Object {
 public:
@@ -115,72 +115,72 @@ public:
 
   constexpr void __set__name(::StringW value);
 
-  /// @brief Method Start addr 0x21abda0 size 0x13c virtual true final false
+  /// @brief Method Start addr 0x2055404 size 0x13c virtual true final false
   inline void Start();
 
-  /// @brief Method Stop addr 0x21ac05c size 0x3c virtual true final false
+  /// @brief Method Stop addr 0x20556c0 size 0x3c virtual true final false
   inline void Stop();
 
-  /// @brief Method Abort addr 0x21ac220 size 0x34 virtual true final false
+  /// @brief Method Abort addr 0x2055884 size 0x34 virtual true final false
   inline void Abort();
 
-  /// @brief Method Reset addr 0x21ac254 size 0x84 virtual true final false
+  /// @brief Method Reset addr 0x20558b8 size 0x84 virtual true final false
   inline void Reset();
 
-  /// @brief Method Update addr 0x21ac2d8 size 0x58 virtual true final false
+  /// @brief Method Update addr 0x205593c size 0x58 virtual true final false
   inline void Update();
 
-  /// @brief Method DoWork addr 0x21ac4c0 size 0x4 virtual true final false
+  /// @brief Method DoWork addr 0x2055b24 size 0x4 virtual true final false
   inline void DoWork();
 
-  /// @brief Method OnComplete addr 0x21ac4c4 size 0x4 virtual true final false
+  /// @brief Method OnComplete addr 0x2055b28 size 0x4 virtual true final false
   inline void OnComplete();
 
-  /// @brief Method OnStopped addr 0x21ac4c8 size 0x4 virtual true final false
+  /// @brief Method OnStopped addr 0x2055b2c size 0x4 virtual true final false
   inline void OnStopped();
 
-  /// @brief Method CleanUp addr 0x21ac4cc size 0x4 virtual true final false
+  /// @brief Method CleanUp addr 0x2055b30 size 0x4 virtual true final false
   inline void CleanUp();
 
-  /// @brief Method Run addr 0x21ac4d0 size 0x24 virtual false final false
+  /// @brief Method Run addr 0x2055b34 size 0x24 virtual false final false
   inline void Run();
 
-  /// @brief Method get_TaskName addr 0x21ac4f4 size 0x8 virtual false final false
+  /// @brief Method get_TaskName addr 0x2055b58 size 0x8 virtual false final false
   inline ::StringW get_TaskName();
 
-  /// @brief Method get_IsComplete addr 0x21ac098 size 0xc8 virtual false final false
+  /// @brief Method get_IsComplete addr 0x20556fc size 0xc8 virtual false final false
   inline bool get_IsComplete();
 
-  /// @brief Method set_IsComplete addr 0x21abf9c size 0xc0 virtual false final false
+  /// @brief Method set_IsComplete addr 0x2055600 size 0xc0 virtual false final false
   inline void set_IsComplete(bool value);
 
-  /// @brief Method get_IsActive addr 0x21ac330 size 0xc8 virtual false final false
+  /// @brief Method get_IsActive addr 0x2055994 size 0xc8 virtual false final false
   inline bool get_IsActive();
 
-  /// @brief Method set_IsActive addr 0x21abedc size 0xc0 virtual false final false
+  /// @brief Method set_IsActive addr 0x2055540 size 0xc0 virtual false final false
   inline void set_IsActive(bool value);
 
-  /// @brief Method get_StopRequested addr 0x21ac3f8 size 0xc8 virtual false final false
+  /// @brief Method get_StopRequested addr 0x2055a5c size 0xc8 virtual false final false
   inline bool get_StopRequested();
 
-  /// @brief Method set_StopRequested addr 0x21ac160 size 0xc0 virtual false final false
+  /// @brief Method set_StopRequested addr 0x20557c4 size 0xc0 virtual false final false
   inline void set_StopRequested(bool value);
 
-  /// @brief Method get_Priority addr 0x21ac4fc size 0x8 virtual false final false
+  /// @brief Method get_Priority addr 0x2055b60 size 0x8 virtual false final false
   inline ::System::Threading::ThreadPriority get_Priority();
 
-  /// @brief Method set_Priority addr 0x21ac504 size 0x8 virtual false final false
+  /// @brief Method set_Priority addr 0x2055b68 size 0x8 virtual false final false
   inline void set_Priority(::System::Threading::ThreadPriority value);
 
-  /// @brief Method get_IsBackground addr 0x21ac50c size 0x8 virtual false final false
+  /// @brief Method get_IsBackground addr 0x2055b70 size 0x8 virtual false final false
   inline bool get_IsBackground();
 
-  /// @brief Method set_IsBackground addr 0x21ac514 size 0xc virtual false final false
+  /// @brief Method set_IsBackground addr 0x2055b78 size 0xc virtual false final false
   inline void set_IsBackground(bool value);
 
   static inline ::HoudiniEngineUnity::HEU_ThreadedTask* New_ctor();
 
-  /// @brief Method .ctor addr 0x21ac520 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x2055b84 size 0x70 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ThreadedTask", modifiers: "&&", def_value: None }]
@@ -225,6 +225,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_ThreadedTask, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ThreadedTask, ____isComplete) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ThreadedTask, ____isActive) == 0x11, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ThreadedTask, ____stopRequested) == 0x12, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ThreadedTask, ____lockHandle) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ThreadedTask, ____thread) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ThreadedTask, ____priority) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ThreadedTask, ____isBackground) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ThreadedTask, ____name) == 0x30, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_ThreadedTask);

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IGamePause);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5050))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5155))
 // CS Name: ::IGamePause*
 class CORDL_TYPE IGamePause {
 public:

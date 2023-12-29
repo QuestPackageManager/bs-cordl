@@ -17,41 +17,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebResponseStream)
-namespace System {
-class Version;
-}
 namespace System::Net {
 struct __WebResponseStream___ReadAsync_d__40;
 }
-namespace System::Net {
-struct __WebResponseStream___ReadAllAsync_d__48;
-}
-namespace System::Net {
-class WebRequestStream;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
-}
-namespace System::Net {
-class __WebResponseStream____c__DisplayClass41_0;
-}
-namespace System::Net {
-struct __WebResponseStream___ReadAllAsyncInner_d__47;
-}
-namespace System::Net {
-class WebException;
-}
-namespace System::Net {
-class WebReadStream;
-}
-namespace System::Net {
-class BufferOffsetSize;
-}
-namespace System::Net {
-struct WebExceptionStatus;
-}
-namespace System {
-class Exception;
 }
 namespace System::Net {
 class WebCompletionSource;
@@ -59,8 +29,17 @@ class WebCompletionSource;
 namespace System::Net {
 struct HttpStatusCode;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System {
+class Version;
+}
+namespace System::Net {
+struct __WebResponseStream___ReadAllAsync_d__48;
+}
+namespace System::Net {
+class BufferOffsetSize;
+}
+namespace System::Net {
+class WebRequestStream;
 }
 namespace System::Net {
 struct ReadState;
@@ -69,28 +48,49 @@ namespace System::Net {
 struct __WebResponseStream___InitReadAsync_d__52;
 }
 namespace System::Net {
+struct WebExceptionStatus;
+}
+namespace System {
+class Object;
+}
+namespace System::Net {
+class WebReadStream;
+}
+namespace System::Net {
 class WebHeaderCollection;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
+namespace System::Net {
+class WebException;
+}
 namespace System {
-class Object;
+class Exception;
+}
+namespace System::Net {
+struct __WebResponseStream___ReadAllAsyncInner_d__47;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Net {
+class __WebResponseStream____c__DisplayClass41_0;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::IO {
 class MemoryStream;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Threading {
 class CancellationTokenSource;
@@ -125,20 +125,20 @@ MARK_VAL_T(::System::Net::__WebResponseStream___ReadAsync_d__40);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 2 }), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9239)) CS Name:
-// ::WebResponseStream::<ReadAsync>d__40
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 101 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3392)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 2 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 101 }), TypeDefinitionIndex(TypeDefinitionIndex(2675))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8076)) CS
+// Name: ::WebResponseStream::<ReadAsync>d__40
 struct CORDL_TYPE __WebResponseStream___ReadAsync_d__40 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x29e8ff4 size 0x8e4 virtual true final true
+  /// @brief Method MoveNext addr 0x286c774 size 0x8e4 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x29e98d8 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0x286d058 size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -203,13 +203,37 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebResponseStream___ReadAsync_d__40, 0x78>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, cancellationToken) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, buffer) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, offset) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, count) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, __4__this) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, _completion_5__2) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, _nbytes_5__3) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, _throwMe_5__4) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, __u__1) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, __u__2) == 0x68, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: ::<>c__DisplayClass41_0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9240))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8077))
 // CS Name: ::WebResponseStream::<>c__DisplayClass41_0*
 class CORDL_TYPE __WebResponseStream____c__DisplayClass41_0 : public ::System::Object {
 public:
@@ -252,16 +276,16 @@ public:
 
   static inline ::System::Net::__WebResponseStream____c__DisplayClass41_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x29e7b18 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x286b298 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <ProcessRead>b__0 addr 0x29e9930 size 0x3c virtual false final false
+  /// @brief Method <ProcessRead>b__0 addr 0x286d0b0 size 0x3c virtual false final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* _ProcessRead_b__0(::System::Threading::CancellationToken ct);
 
-  /// @brief Method <ProcessRead>b__1 addr 0x29e996c size 0x40 virtual false final false
+  /// @brief Method <ProcessRead>b__1 addr 0x286d0ec size 0x40 virtual false final false
   inline void _ProcessRead_b__1();
 
-  /// @brief Method <ProcessRead>b__2 addr 0x29e99ac size 0x24 virtual false final false
+  /// @brief Method <ProcessRead>b__2 addr 0x286d12c size 0x24 virtual false final false
   inline bool _ProcessRead_b__2();
 
   // Ctor Parameters [CppParam { name: "", ty: "__WebResponseStream____c__DisplayClass41_0", modifiers: "&&", def_value: None }]
@@ -295,24 +319,32 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebResponseStream____c__DisplayClass41_0, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__WebResponseStream____c__DisplayClass41_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream____c__DisplayClass41_0, ___buffer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream____c__DisplayClass41_0, ___offset) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream____c__DisplayClass41_0, ___size) == 0x24, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: ::<ReadAllAsyncInner>d__47
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 873 }), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(9241)) CS Name: ::WebResponseStream::<ReadAllAsyncInner>d__47
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 772
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3392)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 101 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8078)) CS
+// Name: ::WebResponseStream::<ReadAllAsyncInner>d__47
 struct CORDL_TYPE __WebResponseStream___ReadAllAsyncInner_d__47 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x29e99d0 size 0x56c virtual true final true
+  /// @brief Method MoveNext addr 0x286d150 size 0x568 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x29e9f3c size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0x286d6b8 size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -362,24 +394,40 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, 0x58>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, cancellationToken) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, _maximumSize_5__2) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, _ms_5__3) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, _buffer_5__4) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47, __u__1) == 0x48, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: ::<ReadAllAsync>d__48
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 }), TypeDefinitionIndex(TypeDefinitionIndex(2787)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 873 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9242)) CS Name: ::WebResponseStream::<ReadAllAsync>d__48
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(3392)), TypeDefinitionIndex(TypeDefinitionIndex(2783)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3396)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 396 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3392), inst: 772 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8079)) CS Name: ::WebResponseStream::<ReadAllAsync>d__48
 struct CORDL_TYPE __WebResponseStream___ReadAllAsync_d__48 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x29e9f94 size 0x95c virtual true final true
+  /// @brief Method MoveNext addr 0x286d710 size 0x95c virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x29ea8f0 size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0x286e06c size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -437,24 +485,44 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebResponseStream___ReadAllAsync_d__48, 0x70>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, cancellationToken) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, resending) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, _completion_5__2) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, _timeoutCts_5__3) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, _timeoutTask_5__4) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, __u__1) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, __u__2) == 0x60, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: ::<InitReadAsync>d__52
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(9214))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9243))
-// CS Name: ::WebResponseStream::<InitReadAsync>d__52
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3392)), TypeDefinitionIndex(TypeDefinitionIndex(8051)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 101
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(2675))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8080)) CS Name:
+// ::WebResponseStream::<InitReadAsync>d__52
 struct CORDL_TYPE __WebResponseStream___InitReadAsync_d__52 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x29ea8fc size 0x6bc virtual true final true
+  /// @brief Method MoveNext addr 0x286e078 size 0x6bc virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x29eafb8 size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0x286e734 size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -503,13 +571,29 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebResponseStream___InitReadAsync_d__52, 0x50>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52, cancellationToken) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52, _buffer_5__2) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52, _state_5__3) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52, _position_5__4) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52, __u__1) == 0x40, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: System.Net::WebResponseStream
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 170, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9027)), TypeDefinitionIndex(TypeDefinitionIndex(9220))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9244))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8057)), TypeDefinitionIndex(TypeDefinitionIndex(7864))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8081))
 // CS Name: ::System.Net::WebResponseStream*
 class CORDL_TYPE WebResponseStream : public ::System::Net::WebConnectionStream {
 public:
@@ -670,90 +754,90 @@ public:
 
   constexpr void __set__ChunkedRead_k__BackingField(bool value);
 
-  /// @brief Method get_RequestStream addr 0x29e7660 size 0x8 virtual false final false
+  /// @brief Method get_RequestStream addr 0x286ade0 size 0x8 virtual false final false
   inline ::System::Net::WebRequestStream* get_RequestStream();
 
-  /// @brief Method get_Headers addr 0x29e7668 size 0x8 virtual false final false
+  /// @brief Method get_Headers addr 0x286ade8 size 0x8 virtual false final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method set_Headers addr 0x29e7670 size 0x8 virtual false final false
+  /// @brief Method set_Headers addr 0x286adf0 size 0x8 virtual false final false
   inline void set_Headers(::System::Net::WebHeaderCollection* value);
 
-  /// @brief Method get_StatusCode addr 0x29e7678 size 0x8 virtual false final false
+  /// @brief Method get_StatusCode addr 0x286adf8 size 0x8 virtual false final false
   inline ::System::Net::HttpStatusCode get_StatusCode();
 
-  /// @brief Method set_StatusCode addr 0x29e7680 size 0x8 virtual false final false
+  /// @brief Method set_StatusCode addr 0x286ae00 size 0x8 virtual false final false
   inline void set_StatusCode(::System::Net::HttpStatusCode value);
 
-  /// @brief Method get_StatusDescription addr 0x29e7688 size 0x8 virtual false final false
+  /// @brief Method get_StatusDescription addr 0x286ae08 size 0x8 virtual false final false
   inline ::StringW get_StatusDescription();
 
-  /// @brief Method set_StatusDescription addr 0x29e7690 size 0x8 virtual false final false
+  /// @brief Method set_StatusDescription addr 0x286ae10 size 0x8 virtual false final false
   inline void set_StatusDescription(::StringW value);
 
-  /// @brief Method get_Version addr 0x29e7698 size 0x8 virtual false final false
+  /// @brief Method get_Version addr 0x286ae18 size 0x8 virtual false final false
   inline ::System::Version* get_Version();
 
-  /// @brief Method set_Version addr 0x29e76a0 size 0x8 virtual false final false
+  /// @brief Method set_Version addr 0x286ae20 size 0x8 virtual false final false
   inline void set_Version(::System::Version* value);
 
-  /// @brief Method get_KeepAlive addr 0x29e76a8 size 0x8 virtual false final false
+  /// @brief Method get_KeepAlive addr 0x286ae28 size 0x8 virtual false final false
   inline bool get_KeepAlive();
 
-  /// @brief Method set_KeepAlive addr 0x29e76b0 size 0xc virtual false final false
+  /// @brief Method set_KeepAlive addr 0x286ae30 size 0xc virtual false final false
   inline void set_KeepAlive(bool value);
 
   static inline ::System::Net::WebResponseStream* New_ctor(::System::Net::WebRequestStream* request);
 
-  /// @brief Method .ctor addr 0x29e76bc size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x286ae3c size 0x84 virtual false final false
   inline void _ctor(::System::Net::WebRequestStream* request);
 
-  /// @brief Method get_CanRead addr 0x29e7740 size 0x8 virtual true final false
+  /// @brief Method get_CanRead addr 0x286aec0 size 0x8 virtual true final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanWrite addr 0x29e7748 size 0x8 virtual true final false
+  /// @brief Method get_CanWrite addr 0x286aec8 size 0x8 virtual true final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_ChunkedRead addr 0x29e7750 size 0x8 virtual false final false
+  /// @brief Method get_ChunkedRead addr 0x286aed0 size 0x8 virtual false final false
   inline bool get_ChunkedRead();
 
-  /// @brief Method set_ChunkedRead addr 0x29e7758 size 0xc virtual false final false
+  /// @brief Method set_ChunkedRead addr 0x286aed8 size 0xc virtual false final false
   inline void set_ChunkedRead(bool value);
 
-  /// @brief Method ReadAsync addr 0x29e7764 size 0x134 virtual true final false
+  /// @brief Method ReadAsync addr 0x286aee4 size 0x134 virtual true final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ProcessRead addr 0x29e7898 size 0x280 virtual false final false
+  /// @brief Method ProcessRead addr 0x286b018 size 0x280 virtual false final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method TryReadFromBufferedContent addr 0x29e7b20 size 0xcc virtual true final false
+  /// @brief Method TryReadFromBufferedContent addr 0x286b2a0 size 0xcc virtual true final false
   inline bool TryReadFromBufferedContent(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ByRef<int32_t> result);
 
-  /// @brief Method get_ExpectContent addr 0x29e7bec size 0x90 virtual false final false
+  /// @brief Method get_ExpectContent addr 0x286b36c size 0x90 virtual false final false
   inline bool get_ExpectContent();
 
-  /// @brief Method Initialize addr 0x29e7c7c size 0x52c virtual false final false
+  /// @brief Method Initialize addr 0x286b3fc size 0x52c virtual false final false
   inline void Initialize(::System::Net::BufferOffsetSize* buffer);
 
-  /// @brief Method ReadAllAsyncInner addr 0x29e81a8 size 0x100 virtual false final false
+  /// @brief Method ReadAllAsyncInner addr 0x286b928 size 0x100 virtual false final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* ReadAllAsyncInner(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAllAsync addr 0x29e82a8 size 0xf4 virtual false final false
+  /// @brief Method ReadAllAsync addr 0x286ba28 size 0xf4 virtual false final false
   inline ::System::Threading::Tasks::Task* ReadAllAsync(bool resending, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteAsync addr 0x29e839c size 0x9c virtual true final false
+  /// @brief Method WriteAsync addr 0x286bb1c size 0x9c virtual true final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Close_internal addr 0x29e8438 size 0x8c virtual true final false
+  /// @brief Method Close_internal addr 0x286bbb8 size 0x8c virtual true final false
   inline void Close_internal(ByRef<bool> disposed);
 
-  /// @brief Method GetReadException addr 0x29e84c4 size 0x29c virtual false final false
+  /// @brief Method GetReadException addr 0x286bc44 size 0x29c virtual false final false
   inline ::System::Net::WebException* GetReadException(::System::Net::WebExceptionStatus status, ::System::Exception* error, ::StringW where);
 
-  /// @brief Method InitReadAsync addr 0x29e8760 size 0xdc virtual false final false
+  /// @brief Method InitReadAsync addr 0x286bee0 size 0xdc virtual false final false
   inline ::System::Threading::Tasks::Task* InitReadAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetResponse addr 0x29e883c size 0x7b8 virtual false final false
+  /// @brief Method GetResponse addr 0x286bfbc size 0x7b8 virtual false final false
   inline bool GetResponse(::System::Net::BufferOffsetSize* buffer, ByRef<int32_t> pos, ByRef<::System::Net::ReadState> state);
 
   // Ctor Parameters [CppParam { name: "", ty: "WebResponseStream", modifiers: "&&", def_value: None }]
@@ -816,6 +900,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::WebResponseStream, 0xb0>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::WebResponseStream, ___innerStream) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebResponseStream, ___nextReadCalled) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebResponseStream, ___bufferedEntireContent) == 0x61, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebResponseStream, ___pendingRead) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebResponseStream, ___locker) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebResponseStream, ___nestedRead) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebResponseStream, ___read_eof) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebResponseStream, ____RequestStream_k__BackingField) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebResponseStream, ____Headers_k__BackingField) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebResponseStream, ____StatusCode_k__BackingField) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebResponseStream, ____StatusDescription_k__BackingField) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebResponseStream, ____Version_k__BackingField) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebResponseStream, ____KeepAlive_k__BackingField) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebResponseStream, ____ChunkedRead_k__BackingField) == 0xa9, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::WebResponseStream);

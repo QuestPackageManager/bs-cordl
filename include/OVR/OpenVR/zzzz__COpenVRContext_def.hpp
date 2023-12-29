@@ -16,8 +16,8 @@ MARK_VAL_T(::OVR::OpenVR::COpenVRContext);
 // SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8727))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9496))
 // CS Name: ::OVR.OpenVR::COpenVRContext
 struct CORDL_TYPE COpenVRContext {
 public:
@@ -93,6 +93,38 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::COpenVRContext, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::COpenVRContext, m_pVRSystem) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::COpenVRContext, m_pVRChaperone) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::COpenVRContext, m_pVRChaperoneSetup) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::COpenVRContext, m_pVRCompositor) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::COpenVRContext, m_pVROverlay) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::COpenVRContext, m_pVRResources) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::COpenVRContext, m_pVRRenderModels) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::COpenVRContext, m_pVRExtendedDisplay) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::COpenVRContext, m_pVRSettings) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::COpenVRContext, m_pVRApplications) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::COpenVRContext, m_pVRTrackedCamera) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::COpenVRContext, m_pVRScreenshots) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::COpenVRContext, m_pVRDriverManager) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::COpenVRContext, m_pVRInput) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::COpenVRContext, m_pVRIOBuffer) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::COpenVRContext, m_pVRSpatialAnchors) == 0x78, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::COpenVRContext, "OVR.OpenVR", "COpenVRContext");

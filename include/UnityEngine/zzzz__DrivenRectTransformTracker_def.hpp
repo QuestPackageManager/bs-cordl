@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(DrivenRectTransformTracker)
 namespace UnityEngine {
-class RectTransform;
+class Object;
 }
 namespace UnityEngine {
-class Object;
+class RectTransform;
 }
 namespace UnityEngine {
 struct DrivenTransformProperties;
@@ -24,16 +24,16 @@ MARK_VAL_T(::UnityEngine::DrivenRectTransformTracker);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10278))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10205))
 // CS Name: ::UnityEngine::DrivenRectTransformTracker
 #pragma pack(push, 0)
 struct CORDL_TYPE DrivenRectTransformTracker {
 public:
   // Declarations
-  /// @brief Method Add addr 0x2ce2798 size 0x4 virtual false final false
+  /// @brief Method Add addr 0x2b7cf3c size 0x4 virtual false final false
   inline void Add(::UnityEngine::Object* driver, ::UnityEngine::RectTransform* rectTransform, ::UnityEngine::DrivenTransformProperties drivenProperties);
 
-  /// @brief Method Clear addr 0x2ce279c size 0x4 virtual false final false
+  /// @brief Method Clear addr 0x2b7cf40 size 0x4 virtual false final false
   inline void Clear();
 
   // Ctor Parameters []

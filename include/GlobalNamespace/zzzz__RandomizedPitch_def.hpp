@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RandomizedPitch)
 namespace UnityEngine {
-class AudioSource;
-}
-namespace GlobalNamespace {
-class __RandomizedPitch___PlayDelayedCoroutine_d__9;
+class Coroutine;
 }
 namespace GlobalNamespace {
 class __RandomizedPitch___RestorePitchWithDelay_d__10;
 }
 namespace UnityEngine {
-class Coroutine;
+class AudioSource;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace GlobalNamespace {
+class __RandomizedPitch___PlayDelayedCoroutine_d__9;
+}
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -49,8 +49,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__1
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14327))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13795))
 // CS Name: ::RandomizedPitch::<PlayDelayedCoroutine>d__9*
 class CORDL_TYPE __RandomizedPitch___PlayDelayedCoroutine_d__9 : public ::System::Object {
 public:
@@ -106,22 +106,22 @@ public:
 
   static inline ::GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x20ee48c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1f8ee30 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x20ee4f8 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x1f8ee9c size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x20ee4fc size 0xac virtual true final true
+  /// @brief Method MoveNext addr 0x1f8eea0 size 0xac virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x20ee5a8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1f8ef4c size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x20ee5b0 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1f8ef54 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x20ee5f0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1f8ef94 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__RandomizedPitch___PlayDelayedCoroutine_d__9", modifiers: "&&", def_value: None }]
@@ -155,13 +155,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9, ___delay) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9, _____4__this) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<RestorePitchWithDelay>d__10
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14328))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13796))
 // CS Name: ::RandomizedPitch::<RestorePitchWithDelay>d__10*
 class CORDL_TYPE __RandomizedPitch___RestorePitchWithDelay_d__10 : public ::System::Object {
 public:
@@ -217,22 +225,22 @@ public:
 
   static inline ::GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x20ee4b4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1f8ee58 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x20ee5f8 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x1f8ef9c size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x20ee5fc size 0xbc virtual true final true
+  /// @brief Method MoveNext addr 0x1f8efa0 size 0xbc virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x20ee6b8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1f8f05c size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x20ee6c0 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1f8f064 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x20ee700 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1f8f0a4 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__RandomizedPitch___RestorePitchWithDelay_d__10", modifiers: "&&", def_value: None }]
@@ -266,13 +274,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10, ___delay) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10, _____4__this) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::RandomizedPitch
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14329))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13797))
 // CS Name: ::RandomizedPitch*
 class CORDL_TYPE RandomizedPitch : public ::UnityEngine::MonoBehaviour {
 public:
@@ -335,24 +351,24 @@ public:
 
   constexpr void __set__restoringCoroutine(::UnityEngine::Coroutine* value);
 
-  /// @brief Method OnEnable addr 0x20ee238 size 0x58 virtual false final false
+  /// @brief Method OnEnable addr 0x1f8ebdc size 0x58 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method Play addr 0x20ee290 size 0xd4 virtual false final false
+  /// @brief Method Play addr 0x1f8ec34 size 0xd4 virtual false final false
   inline void Play();
 
-  /// @brief Method PlayDelayed addr 0x20ee3dc size 0x38 virtual false final false
+  /// @brief Method PlayDelayed addr 0x1f8ed80 size 0x38 virtual false final false
   inline void PlayDelayed(float_t delay);
 
-  /// @brief Method PlayDelayedCoroutine addr 0x20ee414 size 0x78 virtual false final false
+  /// @brief Method PlayDelayedCoroutine addr 0x1f8edb8 size 0x78 virtual false final false
   inline ::System::Collections::IEnumerator* PlayDelayedCoroutine(float_t delay);
 
-  /// @brief Method RestorePitchWithDelay addr 0x20ee364 size 0x78 virtual false final false
+  /// @brief Method RestorePitchWithDelay addr 0x1f8ed08 size 0x78 virtual false final false
   inline ::System::Collections::IEnumerator* RestorePitchWithDelay(float_t delay);
 
   static inline ::GlobalNamespace::RandomizedPitch* New_ctor();
 
-  /// @brief Method .ctor addr 0x20ee4dc size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x1f8ee80 size 0x1c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RandomizedPitch", modifiers: "&&", def_value: None }]
@@ -391,6 +407,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RandomizedPitch, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____audioSource) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____minPitchMultiplier) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____maxPitchMultiplier) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____playOnAwake) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____originalPitch) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____restoringCoroutine) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RandomizedPitch);

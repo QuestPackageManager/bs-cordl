@@ -16,23 +16,23 @@ MARK_REF_PTR_T(::System::Xml::IncrementalReadDummyDecoder);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11432))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11433))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11360))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11361))
 // CS Name: ::System.Xml::IncrementalReadDummyDecoder*
 class CORDL_TYPE IncrementalReadDummyDecoder : public ::System::Xml::IncrementalReadDecoder {
 public:
   // Declarations
   __declspec(property(get = get_IsFull)) bool IsFull;
 
-  /// @brief Method get_IsFull addr 0x2853abc size 0x8 virtual true final false
+  /// @brief Method get_IsFull addr 0x26d7aa0 size 0x8 virtual true final false
   inline bool get_IsFull();
 
-  /// @brief Method Decode addr 0x2853ac4 size 0x8 virtual true final false
+  /// @brief Method Decode addr 0x26d7aa8 size 0x8 virtual true final false
   inline int32_t Decode(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t startPos, int32_t len);
 
   static inline ::System::Xml::IncrementalReadDummyDecoder* New_ctor();
 
-  /// @brief Method .ctor addr 0x2853acc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26d7ab0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IncrementalReadDummyDecoder", modifiers: "&&", def_value: None }]

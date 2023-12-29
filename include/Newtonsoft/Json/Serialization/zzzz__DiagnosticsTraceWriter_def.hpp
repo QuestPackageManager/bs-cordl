@@ -12,11 +12,11 @@ class ITraceWriter;
 namespace System::Diagnostics {
 struct TraceLevel;
 }
-namespace System {
-class Exception;
-}
 namespace System::Diagnostics {
 struct TraceEventType;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8942))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11904))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7779)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11832))
 // CS Name: ::Newtonsoft.Json.Serialization::DiagnosticsTraceWriter*
 class CORDL_TYPE DiagnosticsTraceWriter : public ::System::Object {
 public:
@@ -48,21 +48,21 @@ public:
 
   constexpr void __set__LevelFilter_k__BackingField(::System::Diagnostics::TraceLevel value);
 
-  /// @brief Method get_LevelFilter addr 0x266a364 size 0x8 virtual true final true
+  /// @brief Method get_LevelFilter addr 0x2506c20 size 0x8 virtual true final true
   inline ::System::Diagnostics::TraceLevel get_LevelFilter();
 
-  /// @brief Method set_LevelFilter addr 0x266a36c size 0x8 virtual false final false
+  /// @brief Method set_LevelFilter addr 0x2506c28 size 0x8 virtual false final false
   inline void set_LevelFilter(::System::Diagnostics::TraceLevel value);
 
-  /// @brief Method GetTraceEventType addr 0x266a374 size 0x70 virtual false final false
+  /// @brief Method GetTraceEventType addr 0x2506c30 size 0x70 virtual false final false
   inline ::System::Diagnostics::TraceEventType GetTraceEventType(::System::Diagnostics::TraceLevel level);
 
-  /// @brief Method Trace addr 0x266a3e4 size 0x470 virtual true final true
+  /// @brief Method Trace addr 0x2506ca0 size 0x470 virtual true final true
   inline void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
 
   static inline ::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter* New_ctor();
 
-  /// @brief Method .ctor addr 0x266a854 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2507110 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DiagnosticsTraceWriter", modifiers: "&&", def_value: None }]
@@ -86,6 +86,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter, ____LevelFilter_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter);

@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::Priority_Queue::StablePriorityQueueNode);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Priority_Queue {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6093))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6104))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6164))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6175))
 // CS Name: ::Priority_Queue::StablePriorityQueueNode*
 class CORDL_TYPE StablePriorityQueueNode : public ::Priority_Queue::FastPriorityQueueNode {
 public:
@@ -32,15 +32,15 @@ public:
 
   constexpr void __set__InsertionIndex_k__BackingField(int64_t value);
 
-  /// @brief Method get_InsertionIndex addr 0x2321e30 size 0x8 virtual false final false
+  /// @brief Method get_InsertionIndex addr 0x21e8880 size 0x8 virtual false final false
   inline int64_t get_InsertionIndex();
 
-  /// @brief Method set_InsertionIndex addr 0x2321e38 size 0x8 virtual false final false
+  /// @brief Method set_InsertionIndex addr 0x21e8888 size 0x8 virtual false final false
   inline void set_InsertionIndex(int64_t value);
 
   static inline ::Priority_Queue::StablePriorityQueueNode* New_ctor();
 
-  /// @brief Method .ctor addr 0x2321e40 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21e8890 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StablePriorityQueueNode", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Priority_Queue::StablePriorityQueueNode, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Priority_Queue::StablePriorityQueueNode, ____InsertionIndex_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace Priority_Queue
 NEED_NO_BOX(::Priority_Queue::StablePriorityQueueNode);

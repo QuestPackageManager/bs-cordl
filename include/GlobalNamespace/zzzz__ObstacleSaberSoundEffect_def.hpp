@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ObstacleSaberSoundEffect)
-namespace UnityEngine {
-class AudioSource;
-}
 namespace GlobalNamespace {
 class ObstacleSaberSparkleEffectManager;
 }
 namespace GlobalNamespace {
 struct SaberType;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleSaberSoundEffect);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15036))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4073))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(15181))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4061))
 // CS Name: ::ObstacleSaberSoundEffect*
 class CORDL_TYPE ObstacleSaberSoundEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -77,24 +77,24 @@ public:
 
   constexpr void __set__targetVolume(float_t value);
 
-  /// @brief Method Awake addr 0x222f834 size 0x104 virtual false final false
+  /// @brief Method Awake addr 0x20cfd48 size 0x104 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x222f938 size 0x12c virtual false final false
+  /// @brief Method OnDestroy addr 0x20cfe4c size 0x12c virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method LateUpdate addr 0x222fa64 size 0x104 virtual false final false
+  /// @brief Method LateUpdate addr 0x20cff78 size 0x104 virtual false final false
   inline void LateUpdate();
 
-  /// @brief Method HandleSparkleEffectDidStart addr 0x222fb68 size 0xc8 virtual false final false
+  /// @brief Method HandleSparkleEffectDidStart addr 0x20d007c size 0xc8 virtual false final false
   inline void HandleSparkleEffectDidStart(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method HandleSparkleEffecDidEnd addr 0x222fc30 size 0x14 virtual false final false
+  /// @brief Method HandleSparkleEffecDidEnd addr 0x20d0144 size 0x14 virtual false final false
   inline void HandleSparkleEffecDidEnd(::GlobalNamespace::SaberType saberType);
 
   static inline ::GlobalNamespace::ObstacleSaberSoundEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x222fc44 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20d0158 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleSaberSoundEffect", modifiers: "&&", def_value: None }]
@@ -133,6 +133,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObstacleSaberSoundEffect, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSoundEffect, ____obstacleSaberSparkleEffectManager) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSoundEffect, ____saberType) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSoundEffect, ____audioSource) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSoundEffect, ____volume) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSoundEffect, ____targetVolume) == 0x34, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ObstacleSaberSoundEffect);

@@ -9,26 +9,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DiagnosticEventCollectorSingleton)
-namespace UnityEngine::ResourceManagement::Diagnostics {
-class __DiagnosticEventCollectorSingleton____c;
-}
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class List_1;
 }
 namespace UnityEngine::ResourceManagement::Diagnostics {
 struct DiagnosticEvent;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::ResourceManagement::Diagnostics {
+class __DiagnosticEventCollectorSingleton____c;
+}
+namespace GlobalNamespace {
+template <typename T> class DelegateList_1;
 }
 namespace System {
 struct Guid;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-template <typename T> class DelegateList_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Diagnostics::__DiagnosticEvent
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14025))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14296))
 // CS Name: ::DiagnosticEventCollectorSingleton::<>c*
 class CORDL_TYPE __DiagnosticEventCollectorSingleton____c : public ::System::Object {
 public:
@@ -76,13 +76,13 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::Diagnostics::__DiagnosticEventCollectorSingleton____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bdc540 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a597ec size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <RegisterEventHandler>b__8_0 addr 0x2bdc548 size 0x8 virtual false final false
+  /// @brief Method <RegisterEventHandler>b__8_0 addr 0x2a597f4 size 0x8 virtual false final false
   inline int32_t _RegisterEventHandler_b__8_0(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent evt);
 
-  /// @brief Method <Awake>b__11_0 addr 0x2bdc550 size 0x5c virtual false final false
+  /// @brief Method <Awake>b__11_0 addr 0x2a597fc size 0x5c virtual false final false
   inline void _Awake_b__11_0(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DiagnosticEventCollectorSingleton____c", modifiers: "&&", def_value: None }]
@@ -109,8 +109,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement:
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13966)), TypeDefinitionIndex(TypeDefinitionIndex(2406)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst:
-// 1061 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14026)) CS Name: ::UnityEngine.ResourceManagement.Diagnostics::DiagnosticEventCollectorSingleton*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14237), inst: 1039 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14237))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14297)) CS Name: ::UnityEngine.ResourceManagement.Diagnostics::DiagnosticEventCollectorSingleton*
 class CORDL_TYPE DiagnosticEventCollectorSingleton
     : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton*> {
 public:
@@ -181,33 +181,33 @@ public:
 
   static inline ::System::Guid getStaticF_s_editorConnectionGuid();
 
-  /// @brief Method get_PlayerConnectionGuid addr 0x2bdb77c size 0xfc virtual false final false
+  /// @brief Method get_PlayerConnectionGuid addr 0x2a58a28 size 0xfc virtual false final false
   static inline ::System::Guid get_PlayerConnectionGuid();
 
-  /// @brief Method GetGameObjectName addr 0x2bdb878 size 0x40 virtual true final false
+  /// @brief Method GetGameObjectName addr 0x2a58b24 size 0x40 virtual true final false
   inline ::StringW GetGameObjectName();
 
-  /// @brief Method RegisterEventHandler addr 0x2bdb8b8 size 0xbc virtual false final false
+  /// @brief Method RegisterEventHandler addr 0x2a58b64 size 0xbc virtual false final false
   static inline bool RegisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler, bool _cordl_register, bool create);
 
-  /// @brief Method RegisterEventHandler addr 0x2bdb974 size 0x4dc virtual false final false
+  /// @brief Method RegisterEventHandler addr 0x2a58c20 size 0x4dc virtual false final false
   inline void RegisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
 
-  /// @brief Method UnregisterEventHandler addr 0x2bdbe50 size 0xa8 virtual false final false
+  /// @brief Method UnregisterEventHandler addr 0x2a590fc size 0xa8 virtual false final false
   inline void UnregisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
 
-  /// @brief Method PostEvent addr 0x2bdbef8 size 0x224 virtual false final false
+  /// @brief Method PostEvent addr 0x2a591a4 size 0x224 virtual false final false
   inline void PostEvent(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
 
-  /// @brief Method Awake addr 0x2bdc11c size 0xe4 virtual false final false
+  /// @brief Method Awake addr 0x2a593c8 size 0xe4 virtual false final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x2bdc200 size 0x1d8 virtual false final false
+  /// @brief Method Update addr 0x2a594ac size 0x1d8 virtual false final false
   inline void Update();
 
   static inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bdc3d8 size 0x104 virtual false final false
+  /// @brief Method .ctor addr 0x2a59684 size 0x104 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DiagnosticEventCollectorSingleton", modifiers: "&&", def_value: None }]
@@ -246,6 +246,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton, ___m_CreatedEvents) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton, ___m_UnhandledEvents) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton, ___s_EventHandlers) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton, ___m_lastTickSent) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton, ___m_lastFrame) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton, ___fpsAvg) == 0x38, "Offset mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::Diagnostics
 NEED_NO_BOX(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton);

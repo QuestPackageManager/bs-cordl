@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Prese
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4440))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4428))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4461))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4449))
 // CS Name: ::BloomPrePassGraphicsSettingsPresetsSO::Preset*
 class CORDL_TYPE __BloomPrePassGraphicsSettingsPresetsSO__Preset : public ::GlobalNamespace::NamedPreset {
 public:
@@ -46,7 +46,7 @@ public:
 
   static inline ::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset* New_ctor();
 
-  /// @brief Method .ctor addr 0x234e6fc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2202254 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BloomPrePassGraphicsSettingsPresetsSO__Preset", modifiers: "&&", def_value: None }]
@@ -71,13 +71,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset, ___bloomPrePassEffect) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BloomPrePassGraphicsSettingsPresetsSO
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4441))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4429))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4462))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4450))
 // CS Name: ::BloomPrePassGraphicsSettingsPresetsSO*
 class CORDL_TYPE BloomPrePassGraphicsSettingsPresetsSO : public ::GlobalNamespace::NamedPresetsSO {
 public:
@@ -100,15 +102,15 @@ public:
 
   constexpr void __set__presets(::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> value);
 
-  /// @brief Method get_presets addr 0x234e6dc size 0x8 virtual false final false
+  /// @brief Method get_presets addr 0x220223c size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> get_presets();
 
-  /// @brief Method get_namedPresets addr 0x234e6e4 size 0x8 virtual true final false
+  /// @brief Method get_namedPresets addr 0x2202244 size 0x8 virtual true final false
   inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> get_namedPresets();
 
   static inline ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x234e6ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x220224c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassGraphicsSettingsPresetsSO", modifiers: "&&", def_value: None }]
@@ -132,6 +134,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO, ____presets) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO);

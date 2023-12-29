@@ -6,11 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UnityEvent_1)
-namespace System {
-class Type;
-}
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
+namespace System::Reflection {
+class MethodInfo;
 }
 namespace UnityEngine::Events {
 class BaseInvokableCall;
@@ -18,8 +15,11 @@ class BaseInvokableCall;
 namespace System {
 class Object;
 }
-namespace System::Reflection {
-class MethodInfo;
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -33,8 +33,8 @@ namespace UnityEngine::Events {
 // cpp template
 template <typename T0>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10461))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10465))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10383))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10387))
 // CS Name: ::UnityEngine.Events::UnityEvent`1<T0>*
 class CORDL_TYPE UnityEvent_1 : public ::UnityEngine::Events::UnityEventBase {
 public:

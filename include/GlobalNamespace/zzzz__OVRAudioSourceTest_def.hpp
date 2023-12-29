@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRAudioSourceTest);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8076))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8863))
 // CS Name: ::OVRAudioSourceTest*
 class CORDL_TYPE OVRAudioSourceTest : public ::UnityEngine::MonoBehaviour {
 public:
@@ -39,15 +39,15 @@ public:
 
   constexpr void __set_nextActionTime(float_t value);
 
-  /// @brief Method Start addr 0x27a1da0 size 0x100 virtual false final false
+  /// @brief Method Start addr 0x262f9f4 size 0x100 virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x27a1ea0 size 0x1bc virtual false final false
+  /// @brief Method Update addr 0x262faf4 size 0x1bc virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::OVRAudioSourceTest* New_ctor();
 
-  /// @brief Method .ctor addr 0x27a205c size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x262fcb0 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRAudioSourceTest", modifiers: "&&", def_value: None }]
@@ -74,6 +74,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRAudioSourceTest, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRAudioSourceTest, ___period) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRAudioSourceTest, ___nextActionTime) == 0x1c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRAudioSourceTest);

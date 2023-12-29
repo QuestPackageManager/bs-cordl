@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EventDebugger)
 namespace UnityEngine::UIElements {
-class EventBase;
+class PropagationPaths;
 }
 namespace UnityEngine::UIElements {
-class PropagationPaths;
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -20,13 +20,13 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::EventDebugger);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7354))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7440))
 // CS Name: ::UnityEngine.UIElements::EventDebugger*
 class CORDL_TYPE EventDebugger : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LogPropagationPaths addr 0x2e83510 size 0x4 virtual false final false
+  /// @brief Method LogPropagationPaths addr 0x2d1b160 size 0x4 virtual false final false
   static inline void LogPropagationPaths(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::PropagationPaths* paths);
 
   // Ctor Parameters [CppParam { name: "", ty: "EventDebugger", modifiers: "&&", def_value: None }]

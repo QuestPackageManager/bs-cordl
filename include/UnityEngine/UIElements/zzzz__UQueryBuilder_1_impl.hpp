@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__StyleSelectorRelationship_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UQueryBuilder_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__RuleMatcher_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleSelectorRelationship_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UQueryState_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleSelectorRelationship_def.hpp"
-#include "UnityEngine/UIElements/zzzz__RuleMatcher_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSelector_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSelectorPart_def.hpp"
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UQueryBuilder_1<T>>"
 template <typename T> constexpr UnityEngine::UIElements::UQueryBuilder_1<T>::operator ::System::IEquatable_1<::UnityEngine::UIElements::UQueryBuilder_1<T>>*() {

@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SpriteSwapGraphicViewStateTransition);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5442)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 924 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13055))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5461)) CS Name: ::SpriteSwapGraphicViewStateTransition*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13060)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5548), inst: 907 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(5548))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5567)) CS Name: ::SpriteSwapGraphicViewStateTransition*
 class CORDL_TYPE SpriteSwapGraphicViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::UI::Image*> {
 public:
   // Declarations
@@ -37,48 +37,48 @@ public:
 
   constexpr void __set__transition(::GlobalNamespace::SpriteSwapTransitionSO* value);
 
-  /// @brief Method get_transition addr 0x227feac size 0x8 virtual true final false
+  /// @brief Method get_transition addr 0x213e924 size 0x8 virtual true final false
   inline ::GlobalNamespace::BaseTransitionSO* get_transition();
 
-  /// @brief Method TransitionToNormalState addr 0x227feb4 size 0xc virtual true final false
+  /// @brief Method TransitionToNormalState addr 0x213e92c size 0xc virtual true final false
   inline void TransitionToNormalState();
 
-  /// @brief Method TransitionToHighlightedState addr 0x227fec0 size 0xc virtual true final false
+  /// @brief Method TransitionToHighlightedState addr 0x213e938 size 0xc virtual true final false
   inline void TransitionToHighlightedState();
 
-  /// @brief Method TransitionToPressedState addr 0x227fecc size 0x10 virtual true final false
+  /// @brief Method TransitionToPressedState addr 0x213e944 size 0x10 virtual true final false
   inline void TransitionToPressedState();
 
-  /// @brief Method TransitionToDisabledState addr 0x227fedc size 0x10 virtual true final false
+  /// @brief Method TransitionToDisabledState addr 0x213e954 size 0x10 virtual true final false
   inline void TransitionToDisabledState();
 
-  /// @brief Method TransitionToSelectedState addr 0x227feec size 0x10 virtual true final false
+  /// @brief Method TransitionToSelectedState addr 0x213e964 size 0x10 virtual true final false
   inline void TransitionToSelectedState();
 
-  /// @brief Method TransitionToSelectedAndHighlightedState addr 0x227fefc size 0x10 virtual true final false
+  /// @brief Method TransitionToSelectedAndHighlightedState addr 0x213e974 size 0x10 virtual true final false
   inline void TransitionToSelectedAndHighlightedState();
 
-  /// @brief Method SetNormalState addr 0x227ff0c size 0x28 virtual true final false
+  /// @brief Method SetNormalState addr 0x213e984 size 0x28 virtual true final false
   inline void SetNormalState();
 
-  /// @brief Method SetHighlightedState addr 0x227ff34 size 0x28 virtual true final false
+  /// @brief Method SetHighlightedState addr 0x213e9ac size 0x28 virtual true final false
   inline void SetHighlightedState();
 
-  /// @brief Method SetPressedState addr 0x227ff5c size 0x28 virtual true final false
+  /// @brief Method SetPressedState addr 0x213e9d4 size 0x28 virtual true final false
   inline void SetPressedState();
 
-  /// @brief Method SetDisabledState addr 0x227ff84 size 0x28 virtual true final false
+  /// @brief Method SetDisabledState addr 0x213e9fc size 0x28 virtual true final false
   inline void SetDisabledState();
 
-  /// @brief Method SetSelectedState addr 0x227ffac size 0x28 virtual true final false
+  /// @brief Method SetSelectedState addr 0x213ea24 size 0x28 virtual true final false
   inline void SetSelectedState();
 
-  /// @brief Method SetSelectedAndHighlightedState addr 0x227ffd4 size 0x28 virtual true final false
+  /// @brief Method SetSelectedAndHighlightedState addr 0x213ea4c size 0x28 virtual true final false
   inline void SetSelectedAndHighlightedState();
 
   static inline ::GlobalNamespace::SpriteSwapGraphicViewStateTransition* New_ctor();
 
-  /// @brief Method .ctor addr 0x227fffc size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x213ea74 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SpriteSwapGraphicViewStateTransition", modifiers: "&&", def_value: None }]
@@ -102,6 +102,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpriteSwapGraphicViewStateTransition, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpriteSwapGraphicViewStateTransition, ____transition) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SpriteSwapGraphicViewStateTransition);

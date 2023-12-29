@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509AttrCertParser)
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::X509 {
-class PemParser;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1InputStream;
+}
+namespace Org::BouncyCastle::X509 {
+class IX509AttributeCertificate;
 }
 namespace System::Collections {
 class ICollection;
 }
 namespace Org::BouncyCastle::X509 {
-class IX509AttributeCertificate;
+class PemParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509AttrCertParser);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1858))
 // CS Name: ::Org.BouncyCastle.X509::X509AttrCertParser*
 class CORDL_TYPE X509AttrCertParser : public ::System::Object {
@@ -74,30 +74,30 @@ public:
 
   static inline ::Org::BouncyCastle::X509::PemParser* getStaticF_PemAttrCertParser();
 
-  /// @brief Method ReadDerCertificate addr 0x1176164 size 0x240 virtual false final false
+  /// @brief Method ReadDerCertificate addr 0x1105f1c size 0x240 virtual false final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* ReadDerCertificate(::Org::BouncyCastle::Asn1::Asn1InputStream* dIn);
 
-  /// @brief Method GetCertificate addr 0x11763a4 size 0x128 virtual false final false
+  /// @brief Method GetCertificate addr 0x110615c size 0x128 virtual false final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* GetCertificate();
 
-  /// @brief Method ReadPemCertificate addr 0x117663c size 0xbc virtual false final false
+  /// @brief Method ReadPemCertificate addr 0x11063f4 size 0xbc virtual false final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* ReadPemCertificate(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadAttrCert addr 0x11766f8 size 0x78 virtual false final false
+  /// @brief Method ReadAttrCert addr 0x11064b0 size 0x78 virtual false final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* ReadAttrCert(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadAttrCerts addr 0x1176a5c size 0x78 virtual false final false
+  /// @brief Method ReadAttrCerts addr 0x1106814 size 0x78 virtual false final false
   inline ::System::Collections::ICollection* ReadAttrCerts(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadAttrCert addr 0x1176770 size 0x2ec virtual false final false
+  /// @brief Method ReadAttrCert addr 0x1106528 size 0x2ec virtual false final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* ReadAttrCert(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadAttrCerts addr 0x1176ad4 size 0x110 virtual false final false
+  /// @brief Method ReadAttrCerts addr 0x110688c size 0x110 virtual false final false
   inline ::System::Collections::ICollection* ReadAttrCerts(::System::IO::Stream* inStream);
 
   static inline ::Org::BouncyCastle::X509::X509AttrCertParser* New_ctor();
 
-  /// @brief Method .ctor addr 0x1176c74 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1106a2c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509AttrCertParser", modifiers: "&&", def_value: None }]
@@ -127,6 +127,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::X509AttrCertParser, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509AttrCertParser, ___sData) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509AttrCertParser, ___sDataObjectCount) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509AttrCertParser, ___currentStream) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::X509
 NEED_NO_BOX(::Org::BouncyCastle::X509::X509AttrCertParser);

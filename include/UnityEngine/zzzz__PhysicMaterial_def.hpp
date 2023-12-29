@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::UnityEngine::PhysicMaterial);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15486))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10128))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15470))
 // CS Name: ::UnityEngine::PhysicMaterial*
 class CORDL_TYPE PhysicMaterial : public ::UnityEngine::Object {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::EntityType);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12156))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12084))
 // CS Name: ::UnityEngine.ProBuilder::EntityType
 struct CORDL_TYPE EntityType {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::EntityType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::EntityType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::EntityType, "UnityEngine.ProBuilder", "EntityType");

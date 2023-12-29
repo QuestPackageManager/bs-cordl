@@ -18,16 +18,16 @@ MARK_REF_PTR_T(::UnityEngine::Networking::UnityWebRequestTexture);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16140))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15994))
 // CS Name: ::UnityEngine.Networking::UnityWebRequestTexture*
 class CORDL_TYPE UnityWebRequestTexture : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTexture addr 0x2eb0d48 size 0x8 virtual false final false
+  /// @brief Method GetTexture addr 0x2d47f5c size 0x8 virtual false final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetTexture(::StringW uri);
 
-  /// @brief Method GetTexture addr 0x2eb0d50 size 0xc0 virtual false final false
+  /// @brief Method GetTexture addr 0x2d47f64 size 0xc0 virtual false final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetTexture(::StringW uri, bool nonReadable);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestTexture", modifiers: "&&", def_value: None }]

@@ -3,14 +3,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IResourceReader)
-namespace System::Collections {
-class IDictionaryEnumerator;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IDictionaryEnumerator;
 }
 // Forward declare root types
 namespace System::Resources {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Resources::IResourceReader);
 namespace System::Resources {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3425))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3420))
 // CS Name: ::System.Resources::IResourceReader*
 class CORDL_TYPE IResourceReader {
 public:

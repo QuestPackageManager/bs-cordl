@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlWhitespace)
 namespace System::Xml {
+struct XmlNodeType;
+}
+namespace System::Xml {
 class XmlNode;
 }
 namespace System::Xml {
 class XmlDocument;
-}
-namespace System::Xml {
-struct XmlNodeType;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Xml::XmlWhitespace);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11500))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11529))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11428))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11457))
 // CS Name: ::System.Xml::XmlWhitespace*
 class CORDL_TYPE XmlWhitespace : public ::System::Xml::XmlCharacterData {
 public:
@@ -44,31 +44,31 @@ public:
 
   static inline ::System::Xml::XmlWhitespace* New_ctor(::StringW strData, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor addr 0x288cec0 size 0xa4 virtual false final false
+  /// @brief Method .ctor addr 0x270fea0 size 0xa4 virtual false final false
   inline void _ctor(::StringW strData, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Name addr 0x2892168 size 0x28 virtual true final false
+  /// @brief Method get_Name addr 0x2715148 size 0x28 virtual true final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_LocalName addr 0x2892190 size 0x28 virtual true final false
+  /// @brief Method get_LocalName addr 0x2715170 size 0x28 virtual true final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NodeType addr 0x28921b8 size 0x8 virtual true final false
+  /// @brief Method get_NodeType addr 0x2715198 size 0x8 virtual true final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_ParentNode addr 0x28921c0 size 0x88 virtual true final false
+  /// @brief Method get_ParentNode addr 0x27151a0 size 0x88 virtual true final false
   inline ::System::Xml::XmlNode* get_ParentNode();
 
-  /// @brief Method get_Value addr 0x2892248 size 0x10 virtual true final false
+  /// @brief Method get_Value addr 0x2715228 size 0x10 virtual true final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value addr 0x2892258 size 0x94 virtual true final false
+  /// @brief Method set_Value addr 0x2715238 size 0x94 virtual true final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method CloneNode addr 0x28922ec size 0x5c virtual true final false
+  /// @brief Method CloneNode addr 0x27152cc size 0x5c virtual true final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
-  /// @brief Method get_IsText addr 0x2892348 size 0x8 virtual true final false
+  /// @brief Method get_IsText addr 0x2715328 size 0x8 virtual true final false
   inline bool get_IsText();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlWhitespace", modifiers: "&&", def_value: None }]

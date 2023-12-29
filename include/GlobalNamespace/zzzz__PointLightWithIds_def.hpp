@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PointLightWithIds);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14552))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14550))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14770))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14767))
 // CS Name: ::PointLightWithIds*
 class CORDL_TYPE PointLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
 public:
@@ -35,12 +35,12 @@ public:
 
   constexpr void __set__pointLight(::GlobalNamespace::PointLight* value);
 
-  /// @brief Method ColorWasSet addr 0x2112910 size 0x20 virtual true final false
+  /// @brief Method ColorWasSet addr 0x1fbce98 size 0x20 virtual true final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::PointLightWithIds* New_ctor();
 
-  /// @brief Method .ctor addr 0x2112930 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x1fbceb8 size 0x18 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PointLightWithIds", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PointLightWithIds, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PointLightWithIds, ____pointLight) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PointLightWithIds);

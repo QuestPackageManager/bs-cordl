@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MiscellaneousUtils)
 namespace System {
-class ArgumentOutOfRangeException;
+class Object;
 }
 namespace System {
-class Object;
+class ArgumentOutOfRangeException;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -24,34 +24,34 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::MiscellaneousUtils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11894))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11822))
 // CS Name: ::Newtonsoft.Json.Utilities::MiscellaneousUtils*
 class CORDL_TYPE MiscellaneousUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValueEquals addr 0x2665770 size 0x2b0 virtual false final false
+  /// @brief Method ValueEquals addr 0x250202c size 0x2b0 virtual false final false
   static inline bool ValueEquals(::System::Object* objA, ::System::Object* objB);
 
-  /// @brief Method CreateArgumentOutOfRangeException addr 0x2655e40 size 0x100 virtual false final false
+  /// @brief Method CreateArgumentOutOfRangeException addr 0x24f26fc size 0x100 virtual false final false
   static inline ::System::ArgumentOutOfRangeException* CreateArgumentOutOfRangeException(::StringW paramName, ::System::Object* actualValue, ::StringW message);
 
-  /// @brief Method ToString addr 0x2665a20 size 0xac virtual false final false
+  /// @brief Method ToString addr 0x25022dc size 0xac virtual false final false
   static inline ::StringW ToString(::System::Object* value);
 
-  /// @brief Method ByteArrayCompare addr 0x2665acc size 0xb4 virtual false final false
+  /// @brief Method ByteArrayCompare addr 0x2502388 size 0xb4 virtual false final false
   static inline int32_t ByteArrayCompare(::ArrayW<uint8_t, ::Array<uint8_t>*> a1, ::ArrayW<uint8_t, ::Array<uint8_t>*> a2);
 
-  /// @brief Method GetPrefix addr 0x2665b80 size 0x24 virtual false final false
+  /// @brief Method GetPrefix addr 0x250243c size 0x24 virtual false final false
   static inline ::StringW GetPrefix(::StringW qualifiedName);
 
-  /// @brief Method GetLocalName addr 0x2665c38 size 0x24 virtual false final false
+  /// @brief Method GetLocalName addr 0x25024f4 size 0x24 virtual false final false
   static inline ::StringW GetLocalName(::StringW qualifiedName);
 
-  /// @brief Method GetQualifiedNameParts addr 0x2665ba4 size 0x94 virtual false final false
+  /// @brief Method GetQualifiedNameParts addr 0x2502460 size 0x94 virtual false final false
   static inline void GetQualifiedNameParts(::StringW qualifiedName, ByRef<::StringW> prefix, ByRef<::StringW> localName);
 
-  /// @brief Method FormatValueForPrint addr 0x2665c5c size 0xb0 virtual false final false
+  /// @brief Method FormatValueForPrint addr 0x2502518 size 0xb0 virtual false final false
   static inline ::StringW FormatValueForPrint(::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "MiscellaneousUtils", modifiers: "&&", def_value: None }]

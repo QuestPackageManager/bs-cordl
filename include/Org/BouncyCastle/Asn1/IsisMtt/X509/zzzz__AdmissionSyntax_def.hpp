@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(AdmissionSyntax)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
-class Admissions;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
+class Admissions;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
@@ -56,27 +56,27 @@ public:
 
   constexpr void __set_contentsOfAdmissions(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0xf7794c size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xf01728 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf77ad4 size 0x154 virtual false final false
+  /// @brief Method .ctor addr 0xf018b0 size 0x154 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* admissionAuthority,
                                                                                     ::Org::BouncyCastle::Asn1::Asn1Sequence* contentsOfAdmissions);
 
-  /// @brief Method .ctor addr 0xf77c28 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xf01a04 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* admissionAuthority, ::Org::BouncyCastle::Asn1::Asn1Sequence* contentsOfAdmissions);
 
-  /// @brief Method ToAsn1Object addr 0xf77c54 size 0x118 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf01a30 size 0x118 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method get_AdmissionAuthority addr 0xf77d6c size 0x8 virtual true final false
+  /// @brief Method get_AdmissionAuthority addr 0xf01b48 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_AdmissionAuthority();
 
-  /// @brief Method GetContentsOfAdmissions addr 0xf77d74 size 0x110 virtual true final false
+  /// @brief Method GetContentsOfAdmissions addr 0xf01b50 size 0x110 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*, ::Array<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>*> GetContentsOfAdmissions();
 
   // Ctor Parameters [CppParam { name: "", ty: "AdmissionSyntax", modifiers: "&&", def_value: None }]
@@ -103,6 +103,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax, ___admissionAuthority) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax, ___contentsOfAdmissions) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::IsisMtt::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax);

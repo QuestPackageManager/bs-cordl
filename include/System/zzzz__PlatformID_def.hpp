@@ -16,7 +16,7 @@ MARK_VAL_T(::System::PlatformID);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2614))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2612))
 // CS Name: ::System::PlatformID
 struct CORDL_TYPE PlatformID {
 public:
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::PlatformID, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::PlatformID, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::PlatformID, "System", "PlatformID");

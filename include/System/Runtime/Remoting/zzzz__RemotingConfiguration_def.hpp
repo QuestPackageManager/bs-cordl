@@ -6,14 +6,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RemotingConfiguration)
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Collections {
-class Hashtable;
-}
 namespace System::Runtime::Remoting {
-class ActivatedClientTypeEntry;
+class WellKnownServiceTypeEntry;
 }
 namespace System::Runtime::Remoting {
 class ChannelData;
@@ -22,16 +16,22 @@ namespace System::Runtime::Remoting {
 class ProviderData;
 }
 namespace System::Runtime::Remoting {
-class WellKnownClientTypeEntry;
+class ActivatedClientTypeEntry;
 }
-namespace System::Runtime::Remoting {
-class WellKnownServiceTypeEntry;
-}
-namespace System {
-class Type;
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Runtime::Remoting {
 class ActivatedServiceTypeEntry;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Runtime::Remoting {
+class WellKnownClientTypeEntry;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::RemotingConfiguration);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3055))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3064))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3054)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3063))
 // CS Name: ::System.Runtime.Remoting::RemotingConfiguration*
 class CORDL_TYPE RemotingConfiguration : public ::System::Object {
 public:
@@ -140,58 +140,58 @@ public:
 
   static inline ::System::Collections::Hashtable* getStaticF_serverProviderTemplates();
 
-  /// @brief Method get_ApplicationName addr 0x24867bc size 0x58 virtual false final false
+  /// @brief Method get_ApplicationName addr 0x232ecc8 size 0x58 virtual false final false
   static inline ::StringW get_ApplicationName();
 
-  /// @brief Method set_ApplicationName addr 0x2486814 size 0x5c virtual false final false
+  /// @brief Method set_ApplicationName addr 0x232ed20 size 0x5c virtual false final false
   static inline void set_ApplicationName(::StringW value);
 
-  /// @brief Method get_ProcessId addr 0x2486870 size 0xa8 virtual false final false
+  /// @brief Method get_ProcessId addr 0x232ed7c size 0xa8 virtual false final false
   static inline ::StringW get_ProcessId();
 
-  /// @brief Method LoadDefaultDelayedChannels addr 0x2486918 size 0x36c virtual false final false
+  /// @brief Method LoadDefaultDelayedChannels addr 0x232ee24 size 0x36c virtual false final false
   static inline void LoadDefaultDelayedChannels();
 
-  /// @brief Method IsActivationAllowed addr 0x2486d3c size 0x144 virtual false final false
+  /// @brief Method IsActivationAllowed addr 0x232f248 size 0x144 virtual false final false
   static inline bool IsActivationAllowed(::System::Type* svrType);
 
-  /// @brief Method IsRemotelyActivatedClientType addr 0x2486e80 size 0x18c virtual false final false
+  /// @brief Method IsRemotelyActivatedClientType addr 0x232f38c size 0x18c virtual false final false
   static inline ::System::Runtime::Remoting::ActivatedClientTypeEntry* IsRemotelyActivatedClientType(::System::Type* svrType);
 
-  /// @brief Method IsWellKnownClientType addr 0x248700c size 0x18c virtual false final false
+  /// @brief Method IsWellKnownClientType addr 0x232f518 size 0x18c virtual false final false
   static inline ::System::Runtime::Remoting::WellKnownClientTypeEntry* IsWellKnownClientType(::System::Type* svrType);
 
-  /// @brief Method RegisterActivatedClientType addr 0x2487198 size 0x28c virtual false final false
+  /// @brief Method RegisterActivatedClientType addr 0x232f6a4 size 0x28c virtual false final false
   static inline void RegisterActivatedClientType(::System::Runtime::Remoting::ActivatedClientTypeEntry* entry);
 
-  /// @brief Method RegisterActivatedServiceType addr 0x2487424 size 0x144 virtual false final false
+  /// @brief Method RegisterActivatedServiceType addr 0x232f930 size 0x144 virtual false final false
   static inline void RegisterActivatedServiceType(::System::Runtime::Remoting::ActivatedServiceTypeEntry* entry);
 
-  /// @brief Method RegisterWellKnownClientType addr 0x2487568 size 0x28c virtual false final false
+  /// @brief Method RegisterWellKnownClientType addr 0x232fa74 size 0x28c virtual false final false
   static inline void RegisterWellKnownClientType(::System::Runtime::Remoting::WellKnownClientTypeEntry* entry);
 
-  /// @brief Method RegisterWellKnownServiceType addr 0x24877f4 size 0x188 virtual false final false
+  /// @brief Method RegisterWellKnownServiceType addr 0x232fd00 size 0x188 virtual false final false
   static inline void RegisterWellKnownServiceType(::System::Runtime::Remoting::WellKnownServiceTypeEntry* entry);
 
-  /// @brief Method RegisterChannelTemplate addr 0x2487a98 size 0x7c virtual false final false
+  /// @brief Method RegisterChannelTemplate addr 0x232ffa4 size 0x7c virtual false final false
   static inline void RegisterChannelTemplate(::System::Runtime::Remoting::ChannelData* channel);
 
-  /// @brief Method RegisterClientProviderTemplate addr 0x2487b14 size 0x7c virtual false final false
+  /// @brief Method RegisterClientProviderTemplate addr 0x2330020 size 0x7c virtual false final false
   static inline void RegisterClientProviderTemplate(::System::Runtime::Remoting::ProviderData* prov);
 
-  /// @brief Method RegisterServerProviderTemplate addr 0x2487b90 size 0x7c virtual false final false
+  /// @brief Method RegisterServerProviderTemplate addr 0x233009c size 0x7c virtual false final false
   static inline void RegisterServerProviderTemplate(::System::Runtime::Remoting::ProviderData* prov);
 
-  /// @brief Method RegisterChannels addr 0x2487c0c size 0xc90 virtual false final false
+  /// @brief Method RegisterChannels addr 0x2330118 size 0xc90 virtual false final false
   static inline void RegisterChannels(::System::Collections::ArrayList* channels, bool onlyDelayed);
 
-  /// @brief Method RegisterTypes addr 0x24899b8 size 0x520 virtual false final false
+  /// @brief Method RegisterTypes addr 0x2331ec4 size 0x520 virtual false final false
   static inline void RegisterTypes(::System::Collections::ArrayList* types);
 
-  /// @brief Method CustomErrorsEnabled addr 0x2489ed8 size 0x94 virtual false final false
+  /// @brief Method CustomErrorsEnabled addr 0x23323e4 size 0x94 virtual false final false
   static inline bool CustomErrorsEnabled(bool isLocalRequest);
 
-  /// @brief Method SetCustomErrorsMode addr 0x2489f6c size 0x260 virtual false final false
+  /// @brief Method SetCustomErrorsMode addr 0x2332478 size 0x260 virtual false final false
   static inline void SetCustomErrorsMode(::StringW mode);
 
   // Ctor Parameters [CppParam { name: "", ty: "RemotingConfiguration", modifiers: "&&", def_value: None }]

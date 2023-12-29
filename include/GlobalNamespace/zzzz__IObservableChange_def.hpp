@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IObservableChange);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15866))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13971))
 // CS Name: ::IObservableChange*
 class CORDL_TYPE IObservableChange {
 public:

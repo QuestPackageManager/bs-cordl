@@ -10,9 +10,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(Vertex)
 namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
@@ -20,6 +17,9 @@ struct Vector3;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -31,8 +31,8 @@ MARK_VAL_T(::UnityEngine::UIElements::Vertex);
 // SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10250))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7330)) CS Name: ::UnityEngine.UIElements::Vertex
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10177)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10170)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10173))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7416)) CS Name: ::UnityEngine.UIElements::Vertex
 struct CORDL_TYPE Vertex {
 public:
   // Declarations
@@ -89,6 +89,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Vertex, 0x3c>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Vertex, position) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Vertex, tint) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Vertex, uv) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Vertex, xformClipPages) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Vertex, ids) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Vertex, flags) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Vertex, opacityColorPages) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Vertex, circle) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Vertex, textureId) == 0x38, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Vertex, "UnityEngine.UIElements", "Vertex");

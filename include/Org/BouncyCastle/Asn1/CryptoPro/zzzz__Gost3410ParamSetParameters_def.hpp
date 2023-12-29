@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Gost3410ParamSetParameters)
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::CryptoPro {
@@ -83,36 +83,36 @@ public:
 
   constexpr void __set_a(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method GetInstance addr 0xe8d99c size 0x18 virtual false final false
+  /// @brief Method GetInstance addr 0xe187c8 size 0x18 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0xe8d9b4 size 0x178 virtual false final false
+  /// @brief Method GetInstance addr 0xe187e0 size 0x178 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* New_ctor(int32_t keySize, ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                                            ::Org::BouncyCastle::Math::BigInteger* a);
 
-  /// @brief Method .ctor addr 0xe8d3a4 size 0xc8 virtual false final false
+  /// @brief Method .ctor addr 0xe181d0 size 0xc8 virtual false final false
   inline void _ctor(int32_t keySize, ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe8db2c size 0x120 virtual false final false
+  /// @brief Method .ctor addr 0xe18958 size 0x120 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_KeySize addr 0xe8dc4c size 0x8 virtual false final false
+  /// @brief Method get_KeySize addr 0xe18a78 size 0x8 virtual false final false
   inline int32_t get_KeySize();
 
-  /// @brief Method get_P addr 0xe8dc54 size 0x18 virtual false final false
+  /// @brief Method get_P addr 0xe18a80 size 0x18 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q addr 0xe8dc6c size 0x18 virtual false final false
+  /// @brief Method get_Q addr 0xe18a98 size 0x18 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_A addr 0xe8dc84 size 0x18 virtual false final false
+  /// @brief Method get_A addr 0xe18ab0 size 0x18 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_A();
 
-  /// @brief Method ToAsn1Object addr 0xe8dc9c size 0x17c virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe18ac8 size 0x17c virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Gost3410ParamSetParameters", modifiers: "&&", def_value: None }]
@@ -145,6 +145,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters, ___keySize) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters, ___p) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters, ___q) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters, ___a) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::CryptoPro
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters);

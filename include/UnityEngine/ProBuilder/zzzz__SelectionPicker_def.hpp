@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SelectionPicker)
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace UnityEngine::ProBuilder {
-struct Edge;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-class Camera;
+namespace UnityEngine::ProBuilder {
+class Face;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+struct PickerOptions;
 }
 namespace UnityEngine::ProBuilder {
-struct PickerOptions;
+class ProBuilderMesh;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace UnityEngine {
 struct Rect;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::ProBuilder {
+struct Edge;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
@@ -46,28 +46,28 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::SelectionPicker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12183))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12111))
 // CS Name: ::UnityEngine.ProBuilder::SelectionPicker*
 class CORDL_TYPE SelectionPicker : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PickVerticesInRect addr 0x2b63a48 size 0x63c virtual false final false
+  /// @brief Method PickVerticesInRect addr 0x29e1cf4 size 0x63c virtual false final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<int32_t>*>*
   PickVerticesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selectable,
                      ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint);
 
-  /// @brief Method PickFacesInRect addr 0x2b64a3c size 0xf44 virtual false final false
+  /// @brief Method PickFacesInRect addr 0x29e2ce8 size 0xf44 virtual false final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>*
   PickFacesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selectable,
                   ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint);
 
-  /// @brief Method PickEdgesInRect addr 0x2b65f64 size 0x848 virtual false final false
+  /// @brief Method PickEdgesInRect addr 0x29e4210 size 0x848 virtual false final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Edge>*>*
   PickEdgesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selectable,
                   ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint);
 
-  /// @brief Method PickFace addr 0x2b66f4c size 0xa0 virtual false final false
+  /// @brief Method PickFace addr 0x29e51f8 size 0xa0 virtual false final false
   static inline ::UnityEngine::ProBuilder::Face* PickFace(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 mousePosition, ::UnityEngine::ProBuilder::ProBuilderMesh* pickable);
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectionPicker", modifiers: "&&", def_value: None }]

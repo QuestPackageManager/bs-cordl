@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IUnityXRHapticsHandler);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14411))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13983))
 // CS Name: ::IUnityXRHapticsHandler*
 class CORDL_TYPE IUnityXRHapticsHandler {
 public:

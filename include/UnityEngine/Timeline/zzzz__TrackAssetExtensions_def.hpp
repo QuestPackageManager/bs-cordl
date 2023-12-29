@@ -20,16 +20,16 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TrackAssetExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13897))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14168))
 // CS Name: ::UnityEngine.Timeline::TrackAssetExtensions*
 class CORDL_TYPE TrackAssetExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetGroup addr 0x2c69e74 size 0xc4 virtual false final false
+  /// @brief Method GetGroup addr 0x2ae6120 size 0xc4 virtual false final false
   static inline ::UnityEngine::Timeline::GroupTrack* GetGroup(::UnityEngine::Timeline::TrackAsset* asset);
 
-  /// @brief Method SetGroup addr 0x2c69f38 size 0x330 virtual false final false
+  /// @brief Method SetGroup addr 0x2ae61e4 size 0x330 virtual false final false
   static inline void SetGroup(::UnityEngine::Timeline::TrackAsset* asset, ::UnityEngine::Timeline::GroupTrack* group);
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackAssetExtensions", modifiers: "&&", def_value: None }]

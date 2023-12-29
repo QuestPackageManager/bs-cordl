@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockColorSetter);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14565))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14782))
 // CS Name: ::MaterialPropertyBlockColorSetter*
 class CORDL_TYPE MaterialPropertyBlockColorSetter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -105,33 +105,30 @@ public:
 
   constexpr void __set__isInitialized(bool value);
 
-  /// @brief Method get_color addr 0x2114de0 size 0x2c virtual false final false
+  /// @brief Method get_color addr 0x1fbf340 size 0x2c virtual false final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_materialPropertyBlockController addr 0x2114e0c size 0x8 virtual false final false
+  /// @brief Method get_materialPropertyBlockController addr 0x1fbf36c size 0x8 virtual false final false
   inline ::GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
 
-  /// @brief Method set_materialPropertyBlockController addr 0x2114e14 size 0x8 virtual false final false
+  /// @brief Method set_materialPropertyBlockController addr 0x1fbf374 size 0x8 virtual false final false
   inline void set_materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
 
-  /// @brief Method Awake addr 0x2114e1c size 0x30 virtual false final false
+  /// @brief Method Awake addr 0x1fbf37c size 0x30 virtual false final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded addr 0x2114e4c size 0x30 virtual false final false
+  /// @brief Method InitIfNeeded addr 0x1fbf3ac size 0x30 virtual false final false
   inline void InitIfNeeded();
 
-  /// @brief Method SetColor addr 0x2114e7c size 0xac virtual false final false
+  /// @brief Method SetColor addr 0x1fbf3dc size 0xac virtual true final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method OnValidate addr 0x2114f28 size 0x38 virtual false final false
+  /// @brief Method OnValidate addr 0x1fbf488 size 0x40 virtual false final false
   inline void OnValidate();
-
-  /// @brief Method AddNecessaryComponents addr 0x2114f60 size 0xf0 virtual false final false
-  inline void AddNecessaryComponents();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockColorSetter* New_ctor();
 
-  /// @brief Method .ctor addr 0x2115050 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x1fbf4c8 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockColorSetter", modifiers: "&&", def_value: None }]
@@ -176,6 +173,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockColorSetter, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockColorSetter, ____useTestColor) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockColorSetter, ____testColor) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockColorSetter, ____property) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockColorSetter, ____materialPropertyBlockController) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockColorSetter, ____inverseAlpha) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockColorSetter, ____multiplyWithAlpha) == 0x41, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockColorSetter, ____propertyId) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockColorSetter, ____isInitialized) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockColorSetter);

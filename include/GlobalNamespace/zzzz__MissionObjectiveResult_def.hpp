@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionObjectiveResult);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4462))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4473))
 // CS Name: ::MissionObjectiveResult*
 class CORDL_TYPE MissionObjectiveResult : public ::System::Object {
 public:
@@ -57,27 +57,27 @@ public:
 
   constexpr void __set__value_k__BackingField(int32_t value);
 
-  /// @brief Method get_missionObjective addr 0x2352de0 size 0x8 virtual false final false
+  /// @brief Method get_missionObjective addr 0x2204db4 size 0x8 virtual false final false
   inline ::GlobalNamespace::MissionObjective* get_missionObjective();
 
-  /// @brief Method set_missionObjective addr 0x2352de8 size 0x8 virtual false final false
+  /// @brief Method set_missionObjective addr 0x2204dbc size 0x8 virtual false final false
   inline void set_missionObjective(::GlobalNamespace::MissionObjective* value);
 
-  /// @brief Method get_cleared addr 0x2352df0 size 0x8 virtual false final false
+  /// @brief Method get_cleared addr 0x2204dc4 size 0x8 virtual false final false
   inline bool get_cleared();
 
-  /// @brief Method set_cleared addr 0x2352df8 size 0xc virtual false final false
+  /// @brief Method set_cleared addr 0x2204dcc size 0xc virtual false final false
   inline void set_cleared(bool value);
 
-  /// @brief Method get_value addr 0x2352e04 size 0x8 virtual false final false
+  /// @brief Method get_value addr 0x2204dd8 size 0x8 virtual false final false
   inline int32_t get_value();
 
-  /// @brief Method set_value addr 0x2352e0c size 0x8 virtual false final false
+  /// @brief Method set_value addr 0x2204de0 size 0x8 virtual false final false
   inline void set_value(int32_t value);
 
   static inline ::GlobalNamespace::MissionObjectiveResult* New_ctor(::GlobalNamespace::MissionObjective* missionObjective, bool cleared, int32_t value);
 
-  /// @brief Method .ctor addr 0x2352e14 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x2204de8 size 0x44 virtual false final false
   inline void _ctor(::GlobalNamespace::MissionObjective* missionObjective, bool cleared, int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveResult", modifiers: "&&", def_value: None }]
@@ -107,6 +107,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionObjectiveResult, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveResult, ____missionObjective_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveResult, ____cleared_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveResult, ____value_k__BackingField) == 0x1c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionObjectiveResult);

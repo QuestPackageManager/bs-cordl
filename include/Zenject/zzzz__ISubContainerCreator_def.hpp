@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Zenject::ISubContainerCreator);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11241))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11169))
 // CS Name: ::Zenject::ISubContainerCreator*
 class CORDL_TYPE ISubContainerCreator {
 public:

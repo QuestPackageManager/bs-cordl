@@ -9,19 +9,19 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
-class RecipientInfo;
-}
-namespace Org::BouncyCastle::Cms {
-class RecipientInfoGenerator;
+class KekIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Cms {
+class RecipientInfoGenerator;
+}
+namespace Org::BouncyCastle::Cms {
 class CmsEnvelopedHelper;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
-class KekIdentifier;
+class RecipientInfo;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::KekRecipientInfoGenerator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(670))
 // CS Name: ::Org.BouncyCastle.Cms::KekRecipientInfoGenerator*
 class CORDL_TYPE KekRecipientInfoGenerator : public ::System::Object {
@@ -96,22 +96,22 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::KekRecipientInfoGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x1201864 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1190614 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method set_KekIdentifier addr 0x120186c size 0x8 virtual false final false
+  /// @brief Method set_KekIdentifier addr 0x119061c size 0x8 virtual false final false
   inline void set_KekIdentifier(::Org::BouncyCastle::Asn1::Cms::KekIdentifier* value);
 
-  /// @brief Method set_KeyEncryptionKey addr 0x1201874 size 0x74 virtual false final false
+  /// @brief Method set_KeyEncryptionKey addr 0x1190624 size 0x74 virtual false final false
   inline void set_KeyEncryptionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  /// @brief Method set_KeyEncryptionKeyOID addr 0x1201d68 size 0x8 virtual false final false
+  /// @brief Method set_KeyEncryptionKeyOID addr 0x1190b18 size 0x8 virtual false final false
   inline void set_KeyEncryptionKeyOID(::StringW value);
 
-  /// @brief Method Generate addr 0x1201d70 size 0x288 virtual true final true
+  /// @brief Method Generate addr 0x1190b20 size 0x288 virtual true final true
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Generate(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentEncryptionKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method DetermineKeyEncAlg addr 0x12018e8 size 0x480 virtual false final false
+  /// @brief Method DetermineKeyEncAlg addr 0x1190698 size 0x480 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* DetermineKeyEncAlg(::StringW algorithm, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "KekRecipientInfoGenerator", modifiers: "&&", def_value: None }]
@@ -144,6 +144,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::KekRecipientInfoGenerator, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::KekRecipientInfoGenerator, ___keyEncryptionKey) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::KekRecipientInfoGenerator, ___keyEncryptionKeyOID) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::KekRecipientInfoGenerator, ___kekIdentifier) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::KekRecipientInfoGenerator, ___keyEncryptionAlgorithm) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::KekRecipientInfoGenerator);

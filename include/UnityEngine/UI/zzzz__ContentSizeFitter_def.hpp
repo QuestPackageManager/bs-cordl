@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContentSizeFitter)
 namespace UnityEngine::UI {
-class ILayoutController;
-}
-namespace UnityEngine::UI {
-struct __ContentSizeFitter__FitMode;
-}
-namespace UnityEngine::UI {
 class ILayoutSelfController;
 }
 namespace UnityEngine {
 class RectTransform;
+}
+namespace UnityEngine::UI {
+class ILayoutController;
+}
+namespace UnityEngine::UI {
+struct __ContentSizeFitter__FitMode;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::ContentSizeFitter);
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13076))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13081))
 // CS Name: ::ContentSizeFitter::FitMode
 struct CORDL_TYPE __ContentSizeFitter__FitMode {
 public:
@@ -81,13 +81,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__ContentSizeFitter__FitMode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UI::__ContentSizeFitter__FitMode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UI
 // Type: UnityEngine.UI::ContentSizeFitter
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(13076)), TypeDefinitionIndex(TypeDefinitionIndex(10278))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13077))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13081)), TypeDefinitionIndex(TypeDefinitionIndex(13219)), TypeDefinitionIndex(TypeDefinitionIndex(10205))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13082))
 // CS Name: ::UnityEngine.UI::ContentSizeFitter*
 class CORDL_TYPE ContentSizeFitter : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
@@ -142,45 +144,45 @@ public:
 
   constexpr void __set_m_Tracker(::UnityEngine::DrivenRectTransformTracker value);
 
-  /// @brief Method get_horizontalFit addr 0x2d74720 size 0x8 virtual false final false
+  /// @brief Method get_horizontalFit addr 0x2c0c370 size 0x8 virtual false final false
   inline ::UnityEngine::UI::__ContentSizeFitter__FitMode get_horizontalFit();
 
-  /// @brief Method set_horizontalFit addr 0x2d74728 size 0x74 virtual false final false
+  /// @brief Method set_horizontalFit addr 0x2c0c378 size 0x74 virtual false final false
   inline void set_horizontalFit(::UnityEngine::UI::__ContentSizeFitter__FitMode value);
 
-  /// @brief Method get_verticalFit addr 0x2d74820 size 0x8 virtual false final false
+  /// @brief Method get_verticalFit addr 0x2c0c470 size 0x8 virtual false final false
   inline ::UnityEngine::UI::__ContentSizeFitter__FitMode get_verticalFit();
 
-  /// @brief Method set_verticalFit addr 0x2d74828 size 0x74 virtual false final false
+  /// @brief Method set_verticalFit addr 0x2c0c478 size 0x74 virtual false final false
   inline void set_verticalFit(::UnityEngine::UI::__ContentSizeFitter__FitMode value);
 
-  /// @brief Method get_rectTransform addr 0x2d7489c size 0x94 virtual false final false
+  /// @brief Method get_rectTransform addr 0x2c0c4ec size 0x94 virtual false final false
   inline ::UnityEngine::RectTransform* get_rectTransform();
 
   static inline ::UnityEngine::UI::ContentSizeFitter* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d74930 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2c0c580 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method OnEnable addr 0x2d74938 size 0x1c virtual true final false
+  /// @brief Method OnEnable addr 0x2c0c588 size 0x1c virtual true final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2d74954 size 0x7c virtual true final false
+  /// @brief Method OnDisable addr 0x2c0c5a4 size 0x7c virtual true final false
   inline void OnDisable();
 
-  /// @brief Method OnRectTransformDimensionsChange addr 0x2d749d0 size 0x4 virtual true final false
+  /// @brief Method OnRectTransformDimensionsChange addr 0x2c0c620 size 0x4 virtual true final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method HandleSelfFittingAlongAxis addr 0x2d749d4 size 0xe4 virtual false final false
+  /// @brief Method HandleSelfFittingAlongAxis addr 0x2c0c624 size 0xe4 virtual false final false
   inline void HandleSelfFittingAlongAxis(int32_t axis);
 
-  /// @brief Method SetLayoutHorizontal addr 0x2d74ad0 size 0x24 virtual true final false
+  /// @brief Method SetLayoutHorizontal addr 0x2c0c720 size 0x24 virtual true final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical addr 0x2d74af4 size 0x8 virtual true final false
+  /// @brief Method SetLayoutVertical addr 0x2c0c744 size 0x8 virtual true final false
   inline void SetLayoutVertical();
 
-  /// @brief Method SetDirty addr 0x2d7479c size 0x84 virtual false final false
+  /// @brief Method SetDirty addr 0x2c0c3ec size 0x84 virtual false final false
   inline void SetDirty();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentSizeFitter", modifiers: "&&", def_value: None }]
@@ -213,6 +215,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::ContentSizeFitter, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::ContentSizeFitter, ___m_HorizontalFit) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::ContentSizeFitter, ___m_VerticalFit) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::ContentSizeFitter, ___m_Rect) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::ContentSizeFitter, ___m_Tracker) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::UI
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::__ContentSizeFitter__FitMode, "UnityEngine.UI", "ContentSizeFitter/FitMode");

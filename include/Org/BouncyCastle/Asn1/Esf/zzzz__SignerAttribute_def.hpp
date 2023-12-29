@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(SignerAttribute)
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AttributeCertificate;
@@ -54,31 +54,31 @@ public:
 
   constexpr void __set_certifiedAttributes(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* value);
 
-  /// @brief Method GetInstance addr 0xe9872c size 0x154 virtual false final false
+  /// @brief Method GetInstance addr 0xe23558 size 0x154 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Esf::SignerAttribute* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignerAttribute* New_ctor(::System::Object* obj);
 
-  /// @brief Method .ctor addr 0xe98880 size 0x174 virtual false final false
+  /// @brief Method .ctor addr 0xe236ac size 0x174 virtual false final false
   inline void _ctor(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignerAttribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* claimedAttributes);
 
-  /// @brief Method .ctor addr 0xe989f4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xe23820 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* claimedAttributes);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignerAttribute* New_ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* certifiedAttributes);
 
-  /// @brief Method .ctor addr 0xe98a1c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xe23848 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* certifiedAttributes);
 
-  /// @brief Method get_ClaimedAttributes addr 0xe98a44 size 0x8 virtual true final false
+  /// @brief Method get_ClaimedAttributes addr 0xe23870 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_ClaimedAttributes();
 
-  /// @brief Method get_CertifiedAttributes addr 0xe98a4c size 0x8 virtual true final false
+  /// @brief Method get_CertifiedAttributes addr 0xe23878 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* get_CertifiedAttributes();
 
-  /// @brief Method ToAsn1Object addr 0xe98a54 size 0x100 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe23880 size 0x100 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignerAttribute", modifiers: "&&", def_value: None }]
@@ -105,6 +105,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Esf::SignerAttribute, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Esf::SignerAttribute, ___claimedAttributes) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Esf::SignerAttribute, ___certifiedAttributes) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Esf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Esf::SignerAttribute);

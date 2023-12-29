@@ -26,13 +26,13 @@ namespace System {
 struct CORDL_TYPE DateTimeRawInfo {
 public:
   // Declarations
-  /// @brief Method Init addr 0x25a5870 size 0x20 virtual false final false
+  /// @brief Method Init addr 0x244a230 size 0x20 virtual false final false
   inline void Init(::cordl_internals::Ptr<int32_t> numberBuffer);
 
-  /// @brief Method AddNumber addr 0x25a5890 size 0x18 virtual false final false
+  /// @brief Method AddNumber addr 0x244a250 size 0x18 virtual false final false
   inline void AddNumber(int32_t value);
 
-  /// @brief Method GetNumber addr 0x25a58a8 size 0xc virtual false final false
+  /// @brief Method GetNumber addr 0x244a268 size 0xc virtual false final false
   inline int32_t GetNumber(int32_t index);
 
   // Ctor Parameters [CppParam { name: "num", ty: "::cordl_internals::Ptr<int32_t>", modifiers: "", def_value: None }, CppParam { name: "numCount", ty: "int32_t", modifiers: "", def_value: None },
@@ -80,6 +80,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::DateTimeRawInfo, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::DateTimeRawInfo, num) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeRawInfo, numCount) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeRawInfo, month) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeRawInfo, year) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeRawInfo, dayOfWeek) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeRawInfo, era) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeRawInfo, timeMark) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeRawInfo, fraction) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::DateTimeRawInfo, hasSameDateAndTimeSeparators) == 0x28, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::DateTimeRawInfo, "System", "DateTimeRawInfo");

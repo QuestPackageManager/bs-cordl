@@ -15,18 +15,18 @@ MARK_REF_PTR_T(::UnityEngine::AudioLowPassFilter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10187))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15599))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10115))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15619))
 // CS Name: ::UnityEngine::AudioLowPassFilter*
 class CORDL_TYPE AudioLowPassFilter : public ::UnityEngine::Behaviour {
 public:
   // Declarations
   __declspec(property(get = get_cutoffFrequency, put = set_cutoffFrequency)) float_t cutoffFrequency;
 
-  /// @brief Method get_cutoffFrequency addr 0x2c9bfe4 size 0x3c virtual false final false
+  /// @brief Method get_cutoffFrequency addr 0x2b372bc size 0x3c virtual false final false
   inline float_t get_cutoffFrequency();
 
-  /// @brief Method set_cutoffFrequency addr 0x2c9c020 size 0x4c virtual false final false
+  /// @brief Method set_cutoffFrequency addr 0x2b372f8 size 0x4c virtual false final false
   inline void set_cutoffFrequency(float_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioLowPassFilter", modifiers: "&&", def_value: None }]

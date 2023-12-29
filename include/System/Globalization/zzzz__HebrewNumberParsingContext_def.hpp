@@ -19,13 +19,13 @@ MARK_VAL_T(::System::Globalization::HebrewNumberParsingContext);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3677))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3673))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3665))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3661))
 // CS Name: ::System.Globalization::HebrewNumberParsingContext
 struct CORDL_TYPE HebrewNumberParsingContext {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2552e60 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x23f6c6c size 0xc virtual false final false
   inline void _ctor(int32_t result);
 
   // Ctor Parameters [CppParam { name: "state", ty: "::System::Globalization::__HebrewNumber__HS", modifiers: "", def_value: None }, CppParam { name: "result", ty: "int32_t", modifiers: "", def_value:
@@ -49,6 +49,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::HebrewNumberParsingContext, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::HebrewNumberParsingContext, state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::HebrewNumberParsingContext, result) == 0x4, "Offset mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::HebrewNumberParsingContext, "System.Globalization", "HebrewNumberParsingContext");

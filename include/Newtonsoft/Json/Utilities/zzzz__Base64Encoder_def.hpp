@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::Base64Encoder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11847))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11775))
 // CS Name: ::Newtonsoft.Json.Utilities::Base64Encoder*
 class CORDL_TYPE Base64Encoder : public ::System::Object {
 public:
@@ -63,16 +63,16 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::Base64Encoder* New_ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method .ctor addr 0x26598f0 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0x24f61ac size 0x8c virtual false final false
   inline void _ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method Encode addr 0x265997c size 0x34c virtual false final false
+  /// @brief Method Encode addr 0x24f6238 size 0x34c virtual false final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Flush addr 0x2659cec size 0xb8 virtual false final false
+  /// @brief Method Flush addr 0x24f65a8 size 0xb8 virtual false final false
   inline void Flush();
 
-  /// @brief Method WriteChars addr 0x2659cc8 size 0x24 virtual false final false
+  /// @brief Method WriteChars addr 0x24f6584 size 0x24 virtual false final false
   inline void WriteChars(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count);
 
   // Ctor Parameters [CppParam { name: "", ty: "Base64Encoder", modifiers: "&&", def_value: None }]
@@ -111,6 +111,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::Base64Encoder, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::Base64Encoder, ____charsLine) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::Base64Encoder, ____writer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::Base64Encoder, ____leftOverBytes) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::Base64Encoder, ____leftOverBytesCount) == 0x28, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
 NEED_NO_BOX(::Newtonsoft::Json::Utilities::Base64Encoder);

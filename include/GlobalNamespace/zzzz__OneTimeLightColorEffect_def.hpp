@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OneTimeLightColorEffect);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4873))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4991))
 // CS Name: ::OneTimeLightColorEffect*
 class CORDL_TYPE OneTimeLightColorEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -64,12 +64,12 @@ public:
 
   constexpr void __set__lightWithIdManager(::GlobalNamespace::LightWithIdManager* value);
 
-  /// @brief Method Update addr 0x239b084 size 0x5c virtual false final false
+  /// @brief Method Update addr 0x2266118 size 0x5c virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::OneTimeLightColorEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x239b0e0 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2266174 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OneTimeLightColorEffect", modifiers: "&&", def_value: None }]
@@ -102,6 +102,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OneTimeLightColorEffect, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OneTimeLightColorEffect, ____color) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OneTimeLightColorEffect, ____alpha) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OneTimeLightColorEffect, ____lightsId) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OneTimeLightColorEffect, ____lightWithIdManager) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OneTimeLightColorEffect);

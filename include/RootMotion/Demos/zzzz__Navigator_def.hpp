@@ -10,11 +10,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Navigator)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::AI {
 class NavMeshPath;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace RootMotion::Demos {
 struct __Navigator__State;
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::RootMotion::Demos::Navigator);
 namespace RootMotion::Demos {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12504))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12432))
 // CS Name: ::Navigator::State
 struct CORDL_TYPE __Navigator__State {
 public:
@@ -83,13 +83,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::Demos::__Navigator__State, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::Demos::__Navigator__State, value__) == 0x0, "Offset mismatch!");
+
 } // namespace RootMotion::Demos
 // Type: RootMotion.Demos::Navigator
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::Demos {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12504))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12505))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12432)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12433))
 // CS Name: ::RootMotion.Demos::Navigator*
 class CORDL_TYPE Navigator : public ::System::Object {
 public:
@@ -226,42 +228,42 @@ public:
 
   constexpr void __set_nextPathTime(float_t value);
 
-  /// @brief Method get_normalizedDeltaPosition addr 0x1240ab4 size 0xc virtual false final false
+  /// @brief Method get_normalizedDeltaPosition addr 0x11d0788 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_normalizedDeltaPosition();
 
-  /// @brief Method set_normalizedDeltaPosition addr 0x1240ac0 size 0xc virtual false final false
+  /// @brief Method set_normalizedDeltaPosition addr 0x11d0794 size 0xc virtual false final false
   inline void set_normalizedDeltaPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_state addr 0x1240acc size 0x8 virtual false final false
+  /// @brief Method get_state addr 0x11d07a0 size 0x8 virtual false final false
   inline ::RootMotion::Demos::__Navigator__State get_state();
 
-  /// @brief Method set_state addr 0x1240ad4 size 0x8 virtual false final false
+  /// @brief Method set_state addr 0x11d07a8 size 0x8 virtual false final false
   inline void set_state(::RootMotion::Demos::__Navigator__State value);
 
-  /// @brief Method Initiate addr 0x1240adc size 0xb4 virtual false final false
+  /// @brief Method Initiate addr 0x11d07b0 size 0xb4 virtual false final false
   inline void Initiate(::UnityEngine::Transform* transform);
 
-  /// @brief Method Update addr 0x1240b90 size 0x444 virtual false final false
+  /// @brief Method Update addr 0x11d0864 size 0x444 virtual false final false
   inline void Update(::UnityEngine::Vector3 targetPosition);
 
-  /// @brief Method CalculatePath addr 0x12410ac size 0x64 virtual false final false
+  /// @brief Method CalculatePath addr 0x11d0d80 size 0x64 virtual false final false
   inline void CalculatePath(::UnityEngine::Vector3 targetPosition);
 
-  /// @brief Method Find addr 0x1241110 size 0x134 virtual false final false
+  /// @brief Method Find addr 0x11d0de4 size 0x134 virtual false final false
   inline bool Find(::UnityEngine::Vector3 targetPosition);
 
-  /// @brief Method Stop addr 0x1240fd4 size 0x5c virtual false final false
+  /// @brief Method Stop addr 0x11d0ca8 size 0x5c virtual false final false
   inline void Stop();
 
-  /// @brief Method HorDistance addr 0x1241030 size 0x7c virtual false final false
+  /// @brief Method HorDistance addr 0x11d0d04 size 0x7c virtual false final false
   inline float_t HorDistance(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
 
-  /// @brief Method Visualize addr 0x1241244 size 0x1c4 virtual false final false
+  /// @brief Method Visualize addr 0x11d0f18 size 0x1c4 virtual false final false
   inline void Visualize();
 
   static inline ::RootMotion::Demos::Navigator* New_ctor();
 
-  /// @brief Method .ctor addr 0x1241408 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x11d10dc size 0x64 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Navigator", modifiers: "&&", def_value: None }]
@@ -324,6 +326,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::Demos::Navigator, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::Demos::Navigator, ___activeTargetSeeking) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::Demos::Navigator, ___cornerRadius) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::Demos::Navigator, ___recalculateOnPathDistance) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::Demos::Navigator, ___maxSampleDistance) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::Demos::Navigator, ___nextPathInterval) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::Demos::Navigator, ____normalizedDeltaPosition_k__BackingField) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::Demos::Navigator, ____state_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::Demos::Navigator, ___transform) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::Demos::Navigator, ___cornerIndex) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::Demos::Navigator, ___corners) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::Demos::Navigator, ___path) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::Demos::Navigator, ___lastTargetPosition) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::Demos::Navigator, ___initiated) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::Demos::Navigator, ___nextPathTime) == 0x68, "Offset mismatch!");
 
 } // namespace RootMotion::Demos
 DEFINE_IL2CPP_ARG_TYPE(::RootMotion::Demos::__Navigator__State, "RootMotion.Demos", "Navigator/State");

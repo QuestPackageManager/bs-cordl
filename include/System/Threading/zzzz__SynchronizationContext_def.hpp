@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SynchronizationContext)
+namespace System {
+class Type;
+}
 namespace System::Threading {
 class SendOrPostCallback;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Threading::SynchronizationContext);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2716)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2717))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2714)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2715))
 // CS Name: ::System.Threading::SynchronizationContext*
 class CORDL_TYPE SynchronizationContext : public ::System::Object {
 public:
@@ -78,46 +78,46 @@ public:
 
   static inline ::System::Threading::SynchronizationContext* New_ctor();
 
-  /// @brief Method .ctor addr 0x2618734 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24bd718 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method IsWaitNotificationRequired addr 0x261873c size 0xc virtual false final false
+  /// @brief Method IsWaitNotificationRequired addr 0x24bd720 size 0xc virtual false final false
   inline bool IsWaitNotificationRequired();
 
-  /// @brief Method Send addr 0x2618748 size 0x28 virtual true final false
+  /// @brief Method Send addr 0x24bd72c size 0x28 virtual true final false
   inline void Send(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
-  /// @brief Method Post addr 0x2618770 size 0x8c virtual true final false
+  /// @brief Method Post addr 0x24bd754 size 0x8c virtual true final false
   inline void Post(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
-  /// @brief Method OperationStarted addr 0x2618928 size 0x4 virtual true final false
+  /// @brief Method OperationStarted addr 0x24bd90c size 0x4 virtual true final false
   inline void OperationStarted();
 
-  /// @brief Method OperationCompleted addr 0x261892c size 0x4 virtual true final false
+  /// @brief Method OperationCompleted addr 0x24bd910 size 0x4 virtual true final false
   inline void OperationCompleted();
 
-  /// @brief Method Wait addr 0x2618930 size 0x64 virtual true final false
+  /// @brief Method Wait addr 0x24bd914 size 0x64 virtual true final false
   inline int32_t Wait(::ArrayW<void*, ::Array<void*>*> waitHandles, bool waitAll, int32_t millisecondsTimeout);
 
-  /// @brief Method WaitHelper addr 0x2618994 size 0x8c virtual false final false
+  /// @brief Method WaitHelper addr 0x24bd978 size 0x8c virtual false final false
   static inline int32_t WaitHelper(::ArrayW<void*, ::Array<void*>*> waitHandles, bool waitAll, int32_t millisecondsTimeout);
 
-  /// @brief Method SetSynchronizationContext addr 0x2618a20 size 0x28 virtual false final false
+  /// @brief Method SetSynchronizationContext addr 0x24bda04 size 0x28 virtual false final false
   static inline void SetSynchronizationContext(::System::Threading::SynchronizationContext* syncContext);
 
-  /// @brief Method get_Current addr 0x26106f4 size 0x30 virtual false final false
+  /// @brief Method get_Current addr 0x24b576c size 0x30 virtual false final false
   static inline ::System::Threading::SynchronizationContext* get_Current();
 
-  /// @brief Method get_CurrentNoFlow addr 0x2618a94 size 0x30 virtual false final false
+  /// @brief Method get_CurrentNoFlow addr 0x24bda78 size 0x30 virtual false final false
   static inline ::System::Threading::SynchronizationContext* get_CurrentNoFlow();
 
-  /// @brief Method GetThreadLocalContext addr 0x2618a48 size 0x4c virtual false final false
+  /// @brief Method GetThreadLocalContext addr 0x24bda2c size 0x4c virtual false final false
   static inline ::System::Threading::SynchronizationContext* GetThreadLocalContext();
 
-  /// @brief Method CreateCopy addr 0x2618c20 size 0x5c virtual true final false
+  /// @brief Method CreateCopy addr 0x24bdc04 size 0x5c virtual true final false
   inline ::System::Threading::SynchronizationContext* CreateCopy();
 
-  /// @brief Method get_CurrentExplicit addr 0x2618c7c size 0x4 virtual false final false
+  /// @brief Method get_CurrentExplicit addr 0x24bdc60 size 0x4 virtual false final false
   static inline ::System::Threading::SynchronizationContext* get_CurrentExplicit();
 
   // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContext", modifiers: "&&", def_value: None }]
@@ -141,6 +141,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::SynchronizationContext, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::SynchronizationContext, ____props) == 0x10, "Offset mismatch!");
 
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::SynchronizationContext);

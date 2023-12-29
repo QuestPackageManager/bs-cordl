@@ -11,32 +11,32 @@ CORDL_MODULE_EXPORT(KnucklesUnityXRHapticsHandler)
 namespace UnityEngine {
 class MonoBehaviour;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine::XR {
-struct XRNode;
+namespace System {
+class IDisposable;
 }
 namespace GlobalNamespace {
 class __KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9;
 }
+namespace UnityEngine {
+class Coroutine;
+}
 namespace GlobalNamespace {
 class IUnityXRHapticsHandler;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::XR {
+struct XRNode;
 }
-namespace UnityEngine {
-class WaitForSecondsRealtime;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+class WaitForSecondsRealtime;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,8 +52,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCorou
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15621)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14413))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15578)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13985))
 // CS Name: ::KnucklesUnityXRHapticsHandler::<HapticsCoroutine>d__9*
 class CORDL_TYPE __KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9 : public ::System::Object {
 public:
@@ -118,22 +118,22 @@ public:
 
   static inline ::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x20f71b8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1fa48e8 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x20f7264 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x1fa4994 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x20f7268 size 0x110 virtual true final true
+  /// @brief Method MoveNext addr 0x1fa4998 size 0x110 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x20f7378 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1fa4aa8 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x20f7380 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1fa4ab0 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x20f73c0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1fa4af0 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9", modifiers: "&&", def_value: None }]
@@ -170,13 +170,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9, ____device_5__2) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9, ____waiter_5__3) == 0x38, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::KnucklesUnityXRHapticsHandler
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15614)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14414))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15571))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13986))
 // CS Name: ::KnucklesUnityXRHapticsHandler*
 class CORDL_TYPE KnucklesUnityXRHapticsHandler : public ::System::Object {
 public:
@@ -236,19 +246,19 @@ public:
 
   static inline ::GlobalNamespace::KnucklesUnityXRHapticsHandler* New_ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::MonoBehaviour* coroutineRunner);
 
-  /// @brief Method .ctor addr 0x20f70c0 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x1fa47f0 size 0x58 virtual false final false
   inline void _ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::MonoBehaviour* coroutineRunner);
 
-  /// @brief Method TriggerHapticPulse addr 0x20f7180 size 0x20 virtual true final true
+  /// @brief Method TriggerHapticPulse addr 0x1fa48b0 size 0x20 virtual true final true
   inline void TriggerHapticPulse(float_t strength, float_t duration);
 
-  /// @brief Method StopHaptics addr 0x20f71a0 size 0x18 virtual true final true
+  /// @brief Method StopHaptics addr 0x1fa48d0 size 0x18 virtual true final true
   inline void StopHaptics();
 
-  /// @brief Method HapticsCoroutine addr 0x20f7118 size 0x68 virtual false final false
+  /// @brief Method HapticsCoroutine addr 0x1fa4848 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* HapticsCoroutine();
 
-  /// @brief Method Dispose addr 0x20f71e0 size 0x84 virtual true final true
+  /// @brief Method Dispose addr 0x1fa4910 size 0x84 virtual true final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "KnucklesUnityXRHapticsHandler", modifiers: "&&", def_value: None }]
@@ -287,6 +297,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::KnucklesUnityXRHapticsHandler, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::KnucklesUnityXRHapticsHandler, ____coroutineRunner) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::KnucklesUnityXRHapticsHandler, ____hapticsCoroutine) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::KnucklesUnityXRHapticsHandler, ____node) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::KnucklesUnityXRHapticsHandler, ____remainingTime) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::KnucklesUnityXRHapticsHandler, ____amplitude) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::KnucklesUnityXRHapticsHandler);

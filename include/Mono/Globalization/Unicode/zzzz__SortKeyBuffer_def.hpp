@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortKeyBuffer)
 namespace System::Globalization {
-struct CompareOptions;
+class SortKey;
 }
 namespace System::Globalization {
-class SortKey;
+struct CompareOptions;
 }
 // Forward declare root types
 namespace Mono::Globalization::Unicode {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Mono::Globalization::Unicode::SortKeyBuffer);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 131, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3659)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3647)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2272))
 // CS Name: ::Mono.Globalization.Unicode::SortKeyBuffer*
 class CORDL_TYPE SortKeyBuffer : public ::System::Object {
@@ -231,37 +231,37 @@ public:
 
   static inline ::Mono::Globalization::Unicode::SortKeyBuffer* New_ctor(int32_t lcid);
 
-  /// @brief Method .ctor addr 0x2418fb0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22bf530 size 0x8 virtual false final false
   inline void _ctor(int32_t lcid);
 
-  /// @brief Method Reset addr 0x241d30c size 0x14 virtual false final false
+  /// @brief Method Reset addr 0x22c388c size 0x14 virtual false final false
   inline void Reset();
 
-  /// @brief Method Initialize addr 0x2418fb8 size 0x178 virtual false final false
+  /// @brief Method Initialize addr 0x22bf538 size 0x178 virtual false final false
   inline void Initialize(::System::Globalization::CompareOptions options, int32_t lcid, ::StringW s, bool frenchSort);
 
-  /// @brief Method AppendCJKExtension addr 0x24199ec size 0x94 virtual false final false
+  /// @brief Method AppendCJKExtension addr 0x22bff6c size 0x94 virtual false final false
   inline void AppendCJKExtension(uint8_t lv1msb, uint8_t lv1lsb);
 
-  /// @brief Method AppendKana addr 0x2419b34 size 0x94 virtual false final false
+  /// @brief Method AppendKana addr 0x22c00b4 size 0x94 virtual false final false
   inline void AppendKana(uint8_t category, uint8_t lv1, uint8_t lv2, uint8_t lv3, bool isSmallKana, uint8_t markType, bool isKatakana, bool isHalfWidth);
 
-  /// @brief Method AppendNormal addr 0x24198a8 size 0x144 virtual false final false
+  /// @brief Method AppendNormal addr 0x22bfe28 size 0x144 virtual false final false
   inline void AppendNormal(uint8_t category, uint8_t lv1, uint8_t lv2, uint8_t lv3);
 
-  /// @brief Method AppendLevel5 addr 0x241d3e8 size 0x98 virtual false final false
+  /// @brief Method AppendLevel5 addr 0x22c3968 size 0x98 virtual false final false
   inline void AppendLevel5(uint8_t category, uint8_t lv1);
 
-  /// @brief Method AppendBufferPrimitive addr 0x241d320 size 0xc8 virtual false final false
+  /// @brief Method AppendBufferPrimitive addr 0x22c38a0 size 0xc8 virtual false final false
   inline void AppendBufferPrimitive(uint8_t value, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buf, ByRef<int32_t> bidx);
 
-  /// @brief Method GetResultAndReset addr 0x24194ac size 0x24 virtual false final false
+  /// @brief Method GetResultAndReset addr 0x22bfa2c size 0x24 virtual false final false
   inline ::System::Globalization::SortKey* GetResultAndReset();
 
-  /// @brief Method GetOptimizedLength addr 0x241d95c size 0x60 virtual false final false
+  /// @brief Method GetOptimizedLength addr 0x22c3edc size 0x60 virtual false final false
   inline int32_t GetOptimizedLength(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t len, uint8_t defaultValue);
 
-  /// @brief Method GetResult addr 0x241d480 size 0x4dc virtual false final false
+  /// @brief Method GetResult addr 0x22c3a00 size 0x4dc virtual false final false
   inline ::System::Globalization::SortKey* GetResult();
 
   // Ctor Parameters [CppParam { name: "", ty: "SortKeyBuffer", modifiers: "&&", def_value: None }]
@@ -348,6 +348,50 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Globalization::Unicode::SortKeyBuffer, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l1b) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l2b) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l3b) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l4sb) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l4tb) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l4kb) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l4wb) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l5b) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___source) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l1) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l2) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l3) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l4s) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l4t) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l4k) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l4w) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l5) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___lcid) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___options) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___processLevel2) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___frenchSort) == 0x81, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___frenchSorted) == 0x82, "Offset mismatch!");
 
 } // namespace Mono::Globalization::Unicode
 NEED_NO_BOX(::Mono::Globalization::Unicode::SortKeyBuffer);

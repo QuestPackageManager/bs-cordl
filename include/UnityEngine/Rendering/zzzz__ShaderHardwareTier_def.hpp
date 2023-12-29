@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::ShaderHardwareTier);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10326))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10248))
 // CS Name: ::UnityEngine.Rendering::ShaderHardwareTier
 struct CORDL_TYPE ShaderHardwareTier {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ShaderHardwareTier, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::ShaderHardwareTier, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ShaderHardwareTier, "UnityEngine.Rendering", "ShaderHardwareTier");

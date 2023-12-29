@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PkixAttrCertChecker)
-namespace Org::BouncyCastle::Pkix {
-class PkixCertPath;
+namespace Org::BouncyCastle::X509 {
+class IX509AttributeCertificate;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
-namespace Org::BouncyCastle::X509 {
-class IX509AttributeCertificate;
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPath;
 }
 namespace System::Collections {
 class ICollection;
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixAttrCertChecker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1710))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixAttrCertChecker*
 class CORDL_TYPE PkixAttrCertChecker : public ::System::Object {
@@ -44,7 +44,7 @@ public:
 
   static inline ::Org::BouncyCastle::Pkix::PkixAttrCertChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x10e8764 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1077510 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixAttrCertChecker", modifiers: "&&", def_value: None }]

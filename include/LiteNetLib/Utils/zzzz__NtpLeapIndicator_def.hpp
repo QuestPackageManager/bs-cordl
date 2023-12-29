@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::Utils::NtpLeapIndicator);
 namespace LiteNetLib::Utils {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14238))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14576))
 // CS Name: ::LiteNetLib.Utils::NtpLeapIndicator
 struct CORDL_TYPE NtpLeapIndicator {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::NtpLeapIndicator, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::Utils::NtpLeapIndicator, value__) == 0x0, "Offset mismatch!");
 
 } // namespace LiteNetLib::Utils
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::NtpLeapIndicator, "LiteNetLib.Utils", "NtpLeapIndicator");

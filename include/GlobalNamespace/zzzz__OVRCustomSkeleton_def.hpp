@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRCustomSkeleton)
+namespace UnityEngine {
+class Transform;
+}
 namespace GlobalNamespace {
 struct __OVRSkeleton__SkeletonType;
+}
+namespace GlobalNamespace {
+struct __OVRCustomSkeleton__RetargetingType;
+}
+namespace GlobalNamespace {
+struct __OVRSkeleton__BoneId;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
-}
-namespace GlobalNamespace {
-struct __OVRSkeleton__BoneId;
-}
-namespace GlobalNamespace {
-struct __OVRCustomSkeleton__RetargetingType;
-}
-namespace UnityEngine {
-class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRCustomSkeleton);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8090))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8875))
 // CS Name: ::OVRCustomSkeleton::RetargetingType
 struct CORDL_TYPE __OVRCustomSkeleton__RetargetingType {
 public:
@@ -78,13 +78,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRCustomSkeleton__RetargetingType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRCustomSkeleton__RetargetingType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OVRCustomSkeleton
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8170)), TypeDefinitionIndex(TypeDefinitionIndex(8090))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8091))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8875)), TypeDefinitionIndex(TypeDefinitionIndex(8945))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8876))
 // CS Name: ::OVRCustomSkeleton*
 class CORDL_TYPE OVRCustomSkeleton : public ::GlobalNamespace::OVRSkeleton {
 public:
@@ -114,27 +116,27 @@ public:
 
   constexpr void __set_retargetingType(::GlobalNamespace::__OVRCustomSkeleton__RetargetingType value);
 
-  /// @brief Method get_CustomBones addr 0x27aa0a8 size 0x8 virtual false final false
+  /// @brief Method get_CustomBones addr 0x2635620 size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Transform*>* get_CustomBones();
 
-  /// @brief Method GetBoneTransform addr 0x27aa0b0 size 0x58 virtual true final false
+  /// @brief Method GetBoneTransform addr 0x2635628 size 0x58 virtual true final false
   inline ::UnityEngine::Transform* GetBoneTransform(::GlobalNamespace::__OVRSkeleton__BoneId boneId);
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize addr 0x27aa108 size 0x4 virtual true final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize addr 0x2635680 size 0x4 virtual true final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize addr 0x27aa10c size 0x4 virtual true final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize addr 0x2635684 size 0x4 virtual true final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method AllocateBones addr 0x27aa110 size 0xc8 virtual false final false
+  /// @brief Method AllocateBones addr 0x2635688 size 0xc8 virtual false final false
   inline void AllocateBones();
 
-  /// @brief Method SetSkeletonType addr 0x27aa1d8 size 0x88 virtual true final false
+  /// @brief Method SetSkeletonType addr 0x2635750 size 0x88 virtual false final false
   inline void SetSkeletonType(::GlobalNamespace::__OVRSkeleton__SkeletonType skeletonType);
 
   static inline ::GlobalNamespace::OVRCustomSkeleton* New_ctor();
 
-  /// @brief Method .ctor addr 0x27aa260 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26357d8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRCustomSkeleton", modifiers: "&&", def_value: None }]
@@ -161,6 +163,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRCustomSkeleton, 0xc8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRCustomSkeleton, ____customBones_V2) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRCustomSkeleton, ___retargetingType) == 0xc0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRCustomSkeleton__RetargetingType, "", "OVRCustomSkeleton/RetargetingType");

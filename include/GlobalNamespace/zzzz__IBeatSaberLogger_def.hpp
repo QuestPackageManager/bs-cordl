@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IBeatSaberLogger)
 namespace System {
-class Exception;
+class Object;
 }
 namespace System {
-class Object;
+class Exception;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatSaberLogger);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5877))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5967))
 // CS Name: ::IBeatSaberLogger*
 class CORDL_TYPE IBeatSaberLogger {
 public:

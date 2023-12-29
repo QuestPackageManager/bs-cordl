@@ -21,25 +21,25 @@ MARK_VAL_T(::UnityEngine::ContactFilter2D);
 // SizeInfo { instance_size: 28, native_size: 44, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15931))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10132))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15823))
 // CS Name: ::UnityEngine::ContactFilter2D
 struct CORDL_TYPE ContactFilter2D {
 public:
   // Declarations
-  /// @brief Method CheckConsistency addr 0x2d13270 size 0x3c virtual false final false
+  /// @brief Method CheckConsistency addr 0x2babe88 size 0x3c virtual false final false
   inline void CheckConsistency();
 
-  /// @brief Method SetLayerMask addr 0x2d132e8 size 0x10 virtual false final false
+  /// @brief Method SetLayerMask addr 0x2babf00 size 0x10 virtual false final false
   inline void SetLayerMask(::UnityEngine::LayerMask layerMask);
 
-  /// @brief Method SetDepth addr 0x2d132f8 size 0x48 virtual false final false
+  /// @brief Method SetDepth addr 0x2babf10 size 0x48 virtual false final false
   inline void SetDepth(float_t minDepth, float_t maxDepth);
 
-  /// @brief Method CreateLegacyFilter addr 0x2d11cbc size 0x100 virtual false final false
+  /// @brief Method CreateLegacyFilter addr 0x2baa8d4 size 0x100 virtual false final false
   static inline ::UnityEngine::ContactFilter2D CreateLegacyFilter(int32_t layerMask, float_t minDepth, float_t maxDepth);
 
-  /// @brief Method CheckConsistency_Injected addr 0x2d132ac size 0x3c virtual false final false
+  /// @brief Method CheckConsistency_Injected addr 0x2babec4 size 0x3c virtual false final false
   static inline void CheckConsistency_Injected(ByRef<::UnityEngine::ContactFilter2D> _unity_self);
 
   // Ctor Parameters [CppParam { name: "useTriggers", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "useLayerMask", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
@@ -94,6 +94,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ContactFilter2D, 0x1c>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactFilter2D, useTriggers) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactFilter2D, useLayerMask) == 0x1, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactFilter2D, useDepth) == 0x2, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactFilter2D, useOutsideDepth) == 0x3, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactFilter2D, useNormalAngle) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactFilter2D, useOutsideNormalAngle) == 0x5, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactFilter2D, layerMask) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactFilter2D, minDepth) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactFilter2D, maxDepth) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactFilter2D, minNormalAngle) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactFilter2D, maxNormalAngle) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ContactFilter2D, "UnityEngine", "ContactFilter2D");

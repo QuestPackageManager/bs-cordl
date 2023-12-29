@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_AssetInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9731))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9658))
 // CS Name: ::HoudiniEngineUnity::HAPI_AssetInfo
 struct CORDL_TYPE HAPI_AssetInfo {
 public:
@@ -95,6 +95,40 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_AssetInfo, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AssetInfo, nodeId) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AssetInfo, objectNodeId) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AssetInfo, hasEverCooked) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AssetInfo, nameSH) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AssetInfo, labelSH) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AssetInfo, filePathSH) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AssetInfo, versionSH) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AssetInfo, fullOpNameSH) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AssetInfo, helpTextSH) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AssetInfo, helpURLSH) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AssetInfo, objectCount) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AssetInfo, handleCount) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AssetInfo, transformInputCount) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AssetInfo, geoInputCount) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AssetInfo, geoOutputCount) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AssetInfo, haveObjectsChanged) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_AssetInfo, haveMaterialsChanged) == 0x3d, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_AssetInfo, "HoudiniEngineUnity", "HAPI_AssetInfo");

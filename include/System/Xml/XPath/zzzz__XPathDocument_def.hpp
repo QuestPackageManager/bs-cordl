@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XPathDocument)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace System::Xml {
 class XmlNameTable;
 }
 namespace MS::Internal::Xml::Cache {
-struct XPathNodeRef;
+struct XPathNode;
 }
 namespace MS::Internal::Xml::Cache {
-struct XPathNode;
+struct XPathNodeRef;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace System::Xml::XPath {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Xml::XPath::XPathDocument);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::XPath {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11579))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11507))
 // CS Name: ::System.Xml.XPath::XPathDocument*
 class CORDL_TYPE XPathDocument : public ::System::Object {
 public:
@@ -75,13 +75,13 @@ public:
 
   constexpr void __set_mapNmsp(::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>* value);
 
-  /// @brief Method get_NameTable addr 0x28a9d78 size 0x8 virtual false final false
+  /// @brief Method get_NameTable addr 0x272cd54 size 0x8 virtual false final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method GetXmlNamespaceNode addr 0x28a9d80 size 0x10 virtual false final false
+  /// @brief Method GetXmlNamespaceNode addr 0x272cd5c size 0x10 virtual false final false
   inline int32_t GetXmlNamespaceNode(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageXmlNmsp);
 
-  /// @brief Method LookupNamespaces addr 0x28a9d90 size 0xd4 virtual false final false
+  /// @brief Method LookupNamespaces addr 0x272cd6c size 0xd4 virtual false final false
   inline int32_t LookupNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageElem, int32_t idxElem,
                                   ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNmsp);
 
@@ -115,6 +115,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XPath::XPathDocument, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XPath::XPathDocument, ___pageXmlNmsp) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XPath::XPathDocument, ___idxXmlNmsp) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XPath::XPathDocument, ___nameTable) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XPath::XPathDocument, ___mapNmsp) == 0x28, "Offset mismatch!");
 
 } // namespace System::Xml::XPath
 NEED_NO_BOX(::System::Xml::XPath::XPathDocument);

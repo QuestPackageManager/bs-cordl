@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ColorSchemeConverter)
 namespace GlobalNamespace {
-class ColorScheme;
+struct ColorSchemeNetSerializable;
 }
 namespace GlobalNamespace {
-struct ColorSchemeNetSerializable;
+class ColorScheme;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,13 +20,13 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5827))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5920))
 // CS Name: ::ColorSchemeConverter*
 class CORDL_TYPE ColorSchemeConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FromNetSerializable addr 0x22ec398 size 0x218 virtual false final false
+  /// @brief Method FromNetSerializable addr 0x21a719c size 0x20c virtual false final false
   static inline ::GlobalNamespace::ColorScheme* FromNetSerializable(::GlobalNamespace::ColorSchemeNetSerializable serialized);
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeConverter", modifiers: "&&", def_value: None }]

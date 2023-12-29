@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::HapticState);
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6343))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6429))
 // CS Name: ::UnityEngine.InputSystem.XR.Haptics::HapticState
 struct CORDL_TYPE HapticState {
 public:
@@ -25,19 +25,19 @@ public:
 
   __declspec(property(get = get_samplesAvailable, put = set_samplesAvailable)) uint32_t samplesAvailable;
 
-  /// @brief Method .ctor addr 0x2ac97c4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x294aa7c size 0x8 virtual false final false
   inline void _ctor(uint32_t samplesQueued, uint32_t samplesAvailable);
 
-  /// @brief Method get_samplesQueued addr 0x2ac97cc size 0x8 virtual false final false
+  /// @brief Method get_samplesQueued addr 0x294aa84 size 0x8 virtual false final false
   inline uint32_t get_samplesQueued();
 
-  /// @brief Method set_samplesQueued addr 0x2ac97d4 size 0x8 virtual false final false
+  /// @brief Method set_samplesQueued addr 0x294aa8c size 0x8 virtual false final false
   inline void set_samplesQueued(uint32_t value);
 
-  /// @brief Method get_samplesAvailable addr 0x2ac97dc size 0x8 virtual false final false
+  /// @brief Method get_samplesAvailable addr 0x294aa94 size 0x8 virtual false final false
   inline uint32_t get_samplesAvailable();
 
-  /// @brief Method set_samplesAvailable addr 0x2ac97e4 size 0x8 virtual false final false
+  /// @brief Method set_samplesAvailable addr 0x294aa9c size 0x8 virtual false final false
   inline void set_samplesAvailable(uint32_t value);
 
   // Ctor Parameters [CppParam { name: "_samplesQueued_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_samplesAvailable_k__BackingField", ty: "uint32_t",
@@ -61,6 +61,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::Haptics::HapticState, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::Haptics::HapticState, _samplesQueued_k__BackingField) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::Haptics::HapticState, _samplesAvailable_k__BackingField) == 0x4, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::XR::Haptics
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XR::Haptics::HapticState, "UnityEngine.InputSystem.XR.Haptics", "HapticState");

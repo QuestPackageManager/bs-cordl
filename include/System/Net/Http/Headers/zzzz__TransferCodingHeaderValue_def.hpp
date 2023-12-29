@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TransferCodingHeaderValue)
+namespace System {
+class ICloneable;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
-}
-namespace System {
-class Object;
-}
-namespace System::Net::Http::Headers {
-class Lexer;
 }
 namespace System::Net::Http::Headers {
 struct Token;
@@ -23,10 +23,10 @@ namespace System::Net::Http::Headers {
 class NameValueHeaderValue;
 }
 namespace System {
-class ICloneable;
+class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System::Net::Http::Headers {
+class Lexer;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::TransferCodingHeaderValue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14708))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14925))
 // CS Name: ::System.Net.Http.Headers::TransferCodingHeaderValue*
 class CORDL_TYPE TransferCodingHeaderValue : public ::System::Object {
 public:
@@ -71,36 +71,36 @@ public:
 
   static inline ::System::Net::Http::Headers::TransferCodingHeaderValue* New_ctor(::System::Net::Http::Headers::TransferCodingHeaderValue* source);
 
-  /// @brief Method .ctor addr 0x2841d30 size 0x230 virtual false final false
+  /// @brief Method .ctor addr 0x26c6d1c size 0x230 virtual false final false
   inline void _ctor(::System::Net::Http::Headers::TransferCodingHeaderValue* source);
 
   static inline ::System::Net::Http::Headers::TransferCodingHeaderValue* New_ctor();
 
-  /// @brief Method .ctor addr 0x2841fe0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26c6fcc size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_Parameters addr 0x2841f60 size 0x80 virtual false final false
+  /// @brief Method get_Parameters addr 0x26c6f4c size 0x80 virtual false final false
   inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
 
-  /// @brief Method get_Value addr 0x2841fe8 size 0x8 virtual false final false
+  /// @brief Method get_Value addr 0x26c6fd4 size 0x8 virtual false final false
   inline ::StringW get_Value();
 
-  /// @brief Method System.ICloneable.Clone addr 0x2841ff0 size 0x60 virtual true final true
+  /// @brief Method System.ICloneable.Clone addr 0x26c6fdc size 0x60 virtual true final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals addr 0x2842050 size 0xc8 virtual true final false
+  /// @brief Method Equals addr 0x26c703c size 0xc8 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2842118 size 0x84 virtual true final false
+  /// @brief Method GetHashCode addr 0x26c7104 size 0x84 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x284219c size 0x58 virtual true final false
+  /// @brief Method ToString addr 0x26c7188 size 0x58 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse addr 0x28421f4 size 0xb0 virtual false final false
+  /// @brief Method TryParse addr 0x26c71e0 size 0xb0 virtual false final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement addr 0x28422a4 size 0x144 virtual false final false
+  /// @brief Method TryParseElement addr 0x26c7290 size 0x144 virtual false final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::TransferCodingHeaderValue*> parsedValue,
                                      ByRef<::System::Net::Http::Headers::Token> t);
 
@@ -128,6 +128,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::TransferCodingHeaderValue, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::TransferCodingHeaderValue, ___value) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::TransferCodingHeaderValue, ___parameters) == 0x18, "Offset mismatch!");
 
 } // namespace System::Net::Http::Headers
 NEED_NO_BOX(::System::Net::Http::Headers::TransferCodingHeaderValue);

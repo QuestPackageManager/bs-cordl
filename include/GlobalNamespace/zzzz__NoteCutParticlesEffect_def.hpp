@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteCutParticlesEffect);
 // SizeInfo { instance_size: 560, native_size: -1, calculated_instance_size: 560, calculated_native_size: 560, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15889)), TypeDefinitionIndex(TypeDefinitionIndex(15882)), TypeDefinitionIndex(TypeDefinitionIndex(15884)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15886)), TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4871)) CS Name: ::NoteCutParticlesEffect*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15781)), TypeDefinitionIndex(TypeDefinitionIndex(15774)), TypeDefinitionIndex(TypeDefinitionIndex(15778)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(15776))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4989)) CS Name: ::NoteCutParticlesEffect*
 class CORDL_TYPE NoteCutParticlesEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -149,16 +149,16 @@ public:
 
   constexpr void __set__explosionPrePassBloomPSShapeModule(::UnityEngine::__ParticleSystem__ShapeModule value);
 
-  /// @brief Method Awake addr 0x239a95c size 0x148 virtual false final false
+  /// @brief Method Awake addr 0x22659f0 size 0x148 virtual false final false
   inline void Awake();
 
-  /// @brief Method SpawnParticles addr 0x239aaa4 size 0x4b0 virtual false final false
+  /// @brief Method SpawnParticles addr 0x2265b38 size 0x4b0 virtual false final false
   inline void SpawnParticles(::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, ::UnityEngine::Vector3 saberDir, float_t saberSpeed, ::UnityEngine::Vector3 noteMovementVec,
                              ::UnityEngine::Color32 color, int32_t sparkleParticlesCount, int32_t explosionParticlesCount, float_t lifetimeMultiplier);
 
   static inline ::GlobalNamespace::NoteCutParticlesEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x239af54 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2265fe8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutParticlesEffect", modifiers: "&&", def_value: None }]
@@ -218,6 +218,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutParticlesEffect, 0x230>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutParticlesEffect, ____sparklesPS) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutParticlesEffect, ____explosionPS) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutParticlesEffect, ____explosionCorePS) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutParticlesEffect, ____explosionPrePassBloomPS) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutParticlesEffect, ____sparklesPSEmitParams) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutParticlesEffect, ____sparklesPSMainModule) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutParticlesEffect, ____sparklesPSShapeModule) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutParticlesEffect, ____sparklesLifetimeMinMaxCurve) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutParticlesEffect, ____explosionPSEmitParams) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutParticlesEffect, ____explosionCorePSEmitParams) == 0x188, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutParticlesEffect, ____explosionCorePSMainModule) == 0x218, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutParticlesEffect, ____explosionCorePSShapeModule) == 0x220, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutParticlesEffect, ____explosionPrePassBloomPSShapeModule) == 0x228, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteCutParticlesEffect);

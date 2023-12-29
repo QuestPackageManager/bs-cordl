@@ -15,33 +15,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Integers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1834))
 // CS Name: ::Org.BouncyCastle.Utilities::Integers*
 class CORDL_TYPE Integers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NumberOfLeadingZeros addr 0x116db34 size 0x7c virtual false final false
+  /// @brief Method NumberOfLeadingZeros addr 0x10fd8ec size 0x7c virtual false final false
   static inline int32_t NumberOfLeadingZeros(int32_t i);
 
-  /// @brief Method NumberOfTrailingZeros addr 0x116dbb0 size 0x34 virtual false final false
+  /// @brief Method NumberOfTrailingZeros addr 0x10fd968 size 0x34 virtual false final false
   static inline int32_t NumberOfTrailingZeros(int32_t i);
 
-  /// @brief Method RotateLeft addr 0x116dbe4 size 0x14 virtual false final false
+  /// @brief Method RotateLeft addr 0x10fd99c size 0x14 virtual false final false
   static inline int32_t RotateLeft(int32_t i, int32_t distance);
 
-  /// @brief Method RotateLeft addr 0x116dbf8 size 0x14 virtual false final false
+  /// @brief Method RotateLeft addr 0x10fd9b0 size 0x14 virtual false final false
   static inline uint32_t RotateLeft(uint32_t i, int32_t distance);
 
-  /// @brief Method RotateRight addr 0x116dc0c size 0x14 virtual false final false
+  /// @brief Method RotateRight addr 0x10fd9c4 size 0x14 virtual false final false
   static inline int32_t RotateRight(int32_t i, int32_t distance);
 
-  /// @brief Method RotateRight addr 0x116dc20 size 0x14 virtual false final false
+  /// @brief Method RotateRight addr 0x10fd9d8 size 0x14 virtual false final false
   static inline uint32_t RotateRight(uint32_t i, int32_t distance);
 
   static inline ::Org::BouncyCastle::Utilities::Integers* New_ctor();
 
-  /// @brief Method .ctor addr 0x116dc34 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x10fd9ec size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Integers", modifiers: "&&", def_value: None }]

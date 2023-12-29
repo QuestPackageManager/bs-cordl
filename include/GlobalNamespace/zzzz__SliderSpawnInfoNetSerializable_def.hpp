@@ -13,10 +13,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SliderSpawnInfoNetSerializable)
 namespace GlobalNamespace {
-struct SliderMidAnchorMode;
-}
-namespace GlobalNamespace {
-struct NoteLineLayer;
+struct ColorType;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -25,16 +22,19 @@ namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace GlobalNamespace {
+struct NoteLineLayer;
+}
+namespace GlobalNamespace {
 struct __SliderData__Type;
+}
+namespace GlobalNamespace {
+struct SliderMidAnchorMode;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace GlobalNamespace {
 struct NoteCutDirection;
-}
-namespace GlobalNamespace {
-struct ColorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -46,9 +46,9 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderSpawnInfoNetSerializable);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14764)), TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(14760)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(15039)), TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14766))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15046))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14973)), TypeDefinitionIndex(TypeDefinitionIndex(14965)), TypeDefinitionIndex(TypeDefinitionIndex(14977)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15178)), TypeDefinitionIndex(TypeDefinitionIndex(14979)), TypeDefinitionIndex(TypeDefinitionIndex(14968)), TypeDefinitionIndex(TypeDefinitionIndex(15184))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15191))
 // CS Name: ::SliderSpawnInfoNetSerializable*
 class CORDL_TYPE SliderSpawnInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
@@ -341,10 +341,10 @@ public:
 
   constexpr void __set_rotation(float_t value);
 
-  /// @brief Method Obtain addr 0x12a9014 size 0x64 virtual false final false
+  /// @brief Method Obtain addr 0x1236e4c size 0x64 virtual false final false
   static inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Init addr 0x12a9078 size 0x244 virtual false final false
+  /// @brief Method Init addr 0x1236eb0 size 0x244 virtual false final false
   inline ::GlobalNamespace::SliderSpawnInfoNetSerializable*
   Init(::GlobalNamespace::ColorType colorType, ::GlobalNamespace::__SliderData__Type sliderType, bool hasHeadNote, float_t headTime, int32_t headLineIndex,
        ::GlobalNamespace::NoteLineLayer headLineLayer, ::GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float_t headControlPointLengthMultiplier,
@@ -356,13 +356,13 @@ public:
 
   static inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method .ctor addr 0x12a92bc size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x12370f4 size 0x58 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Serialize addr 0x12a9314 size 0x238 virtual true final false
+  /// @brief Method Serialize addr 0x123714c size 0x238 virtual true final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize addr 0x12a954c size 0x274 virtual true final false
+  /// @brief Method Deserialize addr 0x1237384 size 0x274 virtual true final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderSpawnInfoNetSerializable", modifiers: "&&", def_value: None }]
@@ -479,6 +479,70 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderSpawnInfoNetSerializable, 0xc8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___colorType) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___sliderType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___hasHeadNote) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___headTime) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___headLineIndex) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___headLineLayer) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___headBeforeJumpLineLayer) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___headControlPointLengthMultiplier) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___headCutDirection) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___headCutDirectionAngleOffset) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___hasTailNote) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___tailTime) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___tailLineIndex) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___tailLineLayer) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___tailBeforeJumpLineLayer) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___tailControlPointLengthMultiplier) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___tailCutDirection) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___tailCutDirectionAngleOffset) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___midAnchorMode) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___sliceCount) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___squishAmount) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___headMoveStartPos) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___headJumpStartPos) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___headJumpEndPos) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___headJumpGravity) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___tailMoveStartPos) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___tailJumpStartPos) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___tailJumpEndPos) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___tailJumpGravity) == 0xb4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___moveDuration) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___jumpDuration) == 0xbc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SliderSpawnInfoNetSerializable, ___rotation) == 0xc0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SliderSpawnInfoNetSerializable);

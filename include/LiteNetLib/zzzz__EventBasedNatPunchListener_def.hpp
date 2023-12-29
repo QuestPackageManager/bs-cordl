@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(EventBasedNatPunchListener)
 namespace LiteNetLib {
 class INatPunchListener;
 }
-namespace LiteNetLib {
-class __EventBasedNatPunchListener__OnNatIntroductionRequest;
-}
 namespace System::Net {
 class IPEndPoint;
+}
+namespace LiteNetLib {
+class __EventBasedNatPunchListener__OnNatIntroductionRequest;
 }
 namespace LiteNetLib {
 struct NatAddressType;
@@ -49,25 +49,25 @@ MARK_REF_PTR_T(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSucc
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14146))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14484))
 // CS Name: ::EventBasedNatPunchListener::OnNatIntroductionRequest*
 class CORDL_TYPE __EventBasedNatPunchListener__OnNatIntroductionRequest : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x21fa650 size 0x130 virtual false final false
+  /// @brief Method .ctor addr 0x20987fc size 0x130 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x21fa780 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x209892c size 0x14 virtual true final false
   inline void Invoke(::System::Net::IPEndPoint* localEndPoint, ::System::Net::IPEndPoint* remoteEndPoint, ::StringW token);
 
-  /// @brief Method BeginInvoke addr 0x21fa794 size 0x2c virtual true final false
+  /// @brief Method BeginInvoke addr 0x2098940 size 0x2c virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Net::IPEndPoint* localEndPoint, ::System::Net::IPEndPoint* remoteEndPoint, ::StringW token, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x21fa7c0 size 0xc virtual true final false
+  /// @brief Method EndInvoke addr 0x209896c size 0xc virtual true final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EventBasedNatPunchListener__OnNatIntroductionRequest", modifiers: "&&", def_value: None }]
@@ -94,25 +94,25 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::__EventBasedNatPunch
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14147))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14485))
 // CS Name: ::EventBasedNatPunchListener::OnNatIntroductionSuccess*
 class CORDL_TYPE __EventBasedNatPunchListener__OnNatIntroductionSuccess : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x21fa7cc size 0x130 virtual false final false
+  /// @brief Method .ctor addr 0x2098978 size 0x130 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x21fa8fc size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2098aa8 size 0x14 virtual true final false
   inline void Invoke(::System::Net::IPEndPoint* targetEndPoint, ::LiteNetLib::NatAddressType type, ::StringW token);
 
-  /// @brief Method BeginInvoke addr 0x21fa910 size 0x98 virtual true final false
+  /// @brief Method BeginInvoke addr 0x2098abc size 0x98 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Net::IPEndPoint* targetEndPoint, ::LiteNetLib::NatAddressType type, ::StringW token, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x21fa9a8 size 0xc virtual true final false
+  /// @brief Method EndInvoke addr 0x2098b54 size 0xc virtual true final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EventBasedNatPunchListener__OnNatIntroductionSuccess", modifiers: "&&", def_value: None }]
@@ -139,8 +139,8 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::__EventBasedNatPunch
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14148))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14486))
 // CS Name: ::LiteNetLib::EventBasedNatPunchListener*
 class CORDL_TYPE EventBasedNatPunchListener : public ::System::Object {
 public:
@@ -170,27 +170,27 @@ public:
 
   constexpr void __set_NatIntroductionSuccess(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess* value);
 
-  /// @brief Method add_NatIntroductionRequest addr 0x21fa3a0 size 0x9c virtual false final false
+  /// @brief Method add_NatIntroductionRequest addr 0x209854c size 0x9c virtual false final false
   inline void add_NatIntroductionRequest(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest* value);
 
-  /// @brief Method remove_NatIntroductionRequest addr 0x21fa43c size 0x9c virtual false final false
+  /// @brief Method remove_NatIntroductionRequest addr 0x20985e8 size 0x9c virtual false final false
   inline void remove_NatIntroductionRequest(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest* value);
 
-  /// @brief Method add_NatIntroductionSuccess addr 0x21fa4d8 size 0x9c virtual false final false
+  /// @brief Method add_NatIntroductionSuccess addr 0x2098684 size 0x9c virtual false final false
   inline void add_NatIntroductionSuccess(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess* value);
 
-  /// @brief Method remove_NatIntroductionSuccess addr 0x21fa574 size 0x9c virtual false final false
+  /// @brief Method remove_NatIntroductionSuccess addr 0x2098720 size 0x9c virtual false final false
   inline void remove_NatIntroductionSuccess(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess* value);
 
-  /// @brief Method LiteNetLib.INatPunchListener.OnNatIntroductionRequest addr 0x21fa610 size 0x1c virtual true final true
+  /// @brief Method LiteNetLib.INatPunchListener.OnNatIntroductionRequest addr 0x20987bc size 0x1c virtual true final true
   inline void LiteNetLib_INatPunchListener_OnNatIntroductionRequest(::System::Net::IPEndPoint* localEndPoint, ::System::Net::IPEndPoint* remoteEndPoint, ::StringW token);
 
-  /// @brief Method LiteNetLib.INatPunchListener.OnNatIntroductionSuccess addr 0x21fa62c size 0x1c virtual true final true
+  /// @brief Method LiteNetLib.INatPunchListener.OnNatIntroductionSuccess addr 0x20987d8 size 0x1c virtual true final true
   inline void LiteNetLib_INatPunchListener_OnNatIntroductionSuccess(::System::Net::IPEndPoint* targetEndPoint, ::LiteNetLib::NatAddressType type, ::StringW token);
 
   static inline ::LiteNetLib::EventBasedNatPunchListener* New_ctor();
 
-  /// @brief Method .ctor addr 0x21fa648 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20987f4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBasedNatPunchListener", modifiers: "&&", def_value: None }]
@@ -217,6 +217,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::EventBasedNatPunchListener, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::EventBasedNatPunchListener, ___NatIntroductionRequest) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::EventBasedNatPunchListener, ___NatIntroductionSuccess) == 0x18, "Offset mismatch!");
 
 } // namespace LiteNetLib
 NEED_NO_BOX(::LiteNetLib::EventBasedNatPunchListener);

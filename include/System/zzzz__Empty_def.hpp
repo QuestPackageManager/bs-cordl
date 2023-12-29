@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Empty)
 namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 // Forward declare root types
 namespace System {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Empty);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2555))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2553))
 // CS Name: ::System::Empty*
 class CORDL_TYPE Empty : public ::System::Object {
 public:
@@ -42,13 +42,13 @@ public:
 
   static inline ::System::Empty* New_ctor();
 
-  /// @brief Method .ctor addr 0x25e1c4c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2485d24 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method ToString addr 0x25e1c54 size 0x48 virtual true final false
+  /// @brief Method ToString addr 0x2485d2c size 0x48 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method GetObjectData addr 0x25e1c9c size 0x6c virtual true final true
+  /// @brief Method GetObjectData addr 0x2485d74 size 0x6c virtual true final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "Empty", modifiers: "&&", def_value: None }]

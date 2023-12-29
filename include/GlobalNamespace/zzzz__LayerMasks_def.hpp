@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LayerMasks);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16245))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10132)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16076))
 // CS Name: ::LayerMasks*
 class CORDL_TYPE LayerMasks : public ::System::Object {
 public:
@@ -68,18 +68,18 @@ public:
 
   static inline int32_t getStaticF_cutEffectParticlesLayer();
 
-  /// @brief Method GetLayerMask addr 0x122da84 size 0x30 virtual false final false
+  /// @brief Method GetLayerMask addr 0x11bd758 size 0x30 virtual false final false
   static inline ::UnityEngine::LayerMask GetLayerMask(::StringW layerName);
 
-  /// @brief Method GetLayerMask addr 0x122dab4 size 0x28 virtual false final false
+  /// @brief Method GetLayerMask addr 0x11bd788 size 0x28 virtual false final false
   static inline ::UnityEngine::LayerMask GetLayerMask(int32_t layerNum);
 
-  /// @brief Method GetLayer addr 0x122dadc size 0x8 virtual false final false
+  /// @brief Method GetLayer addr 0x11bd7b0 size 0x8 virtual false final false
   static inline int32_t GetLayer(::StringW layerName);
 
   static inline ::GlobalNamespace::LayerMasks* New_ctor();
 
-  /// @brief Method .ctor addr 0x122dae4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x11bd7b8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LayerMasks", modifiers: "&&", def_value: None }]

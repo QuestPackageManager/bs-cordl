@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(NoteBigCuttableColliderSize)
-namespace GlobalNamespace {
-class NoteControllerBase;
-}
 namespace UnityEngine {
 class BoxCollider;
 }
 namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
+}
+namespace GlobalNamespace {
+class NoteControllerBase;
 }
 namespace GlobalNamespace {
 class NoteController;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteBigCuttableColliderSize);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4759))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4880))
 // CS Name: ::NoteBigCuttableColliderSize*
 class CORDL_TYPE NoteBigCuttableColliderSize : public ::UnityEngine::MonoBehaviour {
 public:
@@ -63,18 +63,18 @@ public:
 
   constexpr void __set__defaultColliderSize(::UnityEngine::Vector3 value);
 
-  /// @brief Method Awake addr 0x2386ab4 size 0xd0 virtual false final false
+  /// @brief Method Awake addr 0x225269c size 0xd0 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x2386b84 size 0x104 virtual false final false
+  /// @brief Method OnDestroy addr 0x225276c size 0x104 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleNoteControllerDidInit addr 0x2386c88 size 0x74 virtual true final true
+  /// @brief Method HandleNoteControllerDidInit addr 0x2252870 size 0x74 virtual true final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
   static inline ::GlobalNamespace::NoteBigCuttableColliderSize* New_ctor();
 
-  /// @brief Method .ctor addr 0x2386cfc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22528e4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteBigCuttableColliderSize", modifiers: "&&", def_value: None }]
@@ -104,6 +104,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteBigCuttableColliderSize, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteBigCuttableColliderSize, ____noteController) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteBigCuttableColliderSize, ____boxCollider) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteBigCuttableColliderSize, ____defaultColliderSize) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteBigCuttableColliderSize);

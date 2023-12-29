@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(IGenericMenu)
 namespace UnityEngine {
 struct Rect;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace System {
 class Action;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IGenericMenu);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7072))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7158))
 // CS Name: ::UnityEngine.UIElements::IGenericMenu*
 class CORDL_TYPE IGenericMenu {
 public:

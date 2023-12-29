@@ -14,20 +14,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandaloneMonobehavior)
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
-}
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace GlobalNamespace {
-struct __StandaloneMonobehavior___Dispatch_d__20;
-}
-namespace GlobalNamespace {
-class IStandaloneThreadRunner;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -35,32 +23,41 @@ class IEnumerator;
 namespace GlobalNamespace {
 class IStandaloneMonobehavior;
 }
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
 namespace GlobalNamespace {
 struct __StandaloneMonobehavior___DispatchAsync_d__21;
 }
 namespace GlobalNamespace {
 class __StandaloneMonobehavior___RunAsyncCoroutine_d__25;
 }
-namespace System {
-class Action;
-}
 namespace UnityEngine {
 struct FrameTiming;
 }
 namespace System::Threading::Tasks {
-class Task;
+template <typename TResult> class TaskCompletionSource_1;
+}
+namespace GlobalNamespace {
+struct __StandaloneMonobehavior___Dispatch_d__20;
+}
+namespace GlobalNamespace {
+class IStandaloneThreadRunner;
 }
 namespace System {
-class Object;
-}
-namespace System {
-class IDisposable;
+class Action;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -70,6 +67,9 @@ struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -96,18 +96,18 @@ MARK_VAL_T(::GlobalNamespace::__StandaloneMonobehavior___Dispatch_d__20);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12963)) CS Name: ::StandaloneMonobehavior::<Dispatch>d__20
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 112 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3389))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12884)) CS Name: ::StandaloneMonobehavior::<Dispatch>d__20
 struct CORDL_TYPE __StandaloneMonobehavior___Dispatch_d__20 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0xe58d1c size 0x200 virtual true final true
+  /// @brief Method MoveNext addr 0xdd3c98 size 0x200 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0xe58f1c size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0xdd3e98 size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -145,13 +145,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__StandaloneMonobehavior___Dispatch_d__20, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___Dispatch_d__20, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___Dispatch_d__20, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___Dispatch_d__20, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___Dispatch_d__20, action) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___Dispatch_d__20, __u__1) == 0x38, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<DispatchAsync>d__21
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12964)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 112 }), TypeDefinitionIndex(TypeDefinitionIndex(3389)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(3388))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12885)) CS Name:
 // ::StandaloneMonobehavior::<DispatchAsync>d__21
 struct CORDL_TYPE __StandaloneMonobehavior___DispatchAsync_d__21 {
 public:
@@ -159,10 +169,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0xe58f28 size 0x2b0 virtual true final true
+  /// @brief Method MoveNext addr 0xdd3ea4 size 0x2b0 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0xe591d8 size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0xdd4154 size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -204,13 +214,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__StandaloneMonobehavior___DispatchAsync_d__21, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___DispatchAsync_d__21, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___DispatchAsync_d__21, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___DispatchAsync_d__21, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___DispatchAsync_d__21, action) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___DispatchAsync_d__21, __u__1) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___DispatchAsync_d__21, __u__2) == 0x38, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<RunAsyncCoroutine>d__25
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12965))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2675))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12886))
 // CS Name: ::StandaloneMonobehavior::<RunAsyncCoroutine>d__25*
 class CORDL_TYPE __StandaloneMonobehavior___RunAsyncCoroutine_d__25 : public ::System::Object {
 public:
@@ -275,22 +297,22 @@ public:
 
   static inline ::GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0xe58cf4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xdd3c70 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0xe591e4 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0xdd4160 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0xe591e8 size 0x174 virtual true final true
+  /// @brief Method MoveNext addr 0xdd4164 size 0x174 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0xe5935c size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0xdd42d8 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0xe59364 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0xdd42e0 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0xe593a4 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0xdd4320 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StandaloneMonobehavior___RunAsyncCoroutine_d__25", modifiers: "&&", def_value: None }]
@@ -327,13 +349,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25, ___cancellationToken) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25, ___tcs) == 0x30, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::StandaloneMonobehavior
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12966))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12887))
 // CS Name: ::StandaloneMonobehavior*
 class CORDL_TYPE StandaloneMonobehavior : public ::UnityEngine::MonoBehaviour {
 public:
@@ -402,60 +434,60 @@ public:
 
   constexpr void __set__lastFrameTimeCount(int32_t value);
 
-  /// @brief Method get_objectLifeTime addr 0xe588a4 size 0x20 virtual false final false
+  /// @brief Method get_objectLifeTime addr 0xdd3820 size 0x20 virtual false final false
   inline float_t get_objectLifeTime();
 
-  /// @brief Method get_deltaTime addr 0xe588c4 size 0x8 virtual false final false
+  /// @brief Method get_deltaTime addr 0xdd3840 size 0x8 virtual false final false
   inline float_t get_deltaTime();
 
-  /// @brief Method get_lastFrameTime addr 0xe588cc size 0x4 virtual false final false
+  /// @brief Method get_lastFrameTime addr 0xdd3848 size 0x4 virtual false final false
   inline float_t get_lastFrameTime();
 
-  /// @brief Method get_frameCount addr 0xe4ad1c size 0x8 virtual false final false
+  /// @brief Method get_frameCount addr 0xdc5da8 size 0x8 virtual false final false
   inline int32_t get_frameCount();
 
-  /// @brief Method get_isReady addr 0xe58940 size 0x50 virtual false final false
+  /// @brief Method get_isReady addr 0xdd38bc size 0x50 virtual false final false
   inline bool get_isReady();
 
-  /// @brief Method Awake addr 0xe58990 size 0x1c virtual false final false
+  /// @brief Method Awake addr 0xdd390c size 0x1c virtual false final false
   inline void Awake();
 
-  /// @brief Method Start addr 0xe589ac size 0x4 virtual true final false
+  /// @brief Method Start addr 0xdd3928 size 0x4 virtual true final false
   inline void Start();
 
-  /// @brief Method Update addr 0xe589b0 size 0x4 virtual true final false
+  /// @brief Method Update addr 0xdd392c size 0x4 virtual true final false
   inline void Update();
 
-  /// @brief Method OnDestroy addr 0xe589b4 size 0x4 virtual true final false
+  /// @brief Method OnDestroy addr 0xdd3930 size 0x4 virtual true final false
   inline void OnDestroy();
 
-  /// @brief Method OnApplicationPause addr 0xe589b8 size 0x4 virtual true final false
+  /// @brief Method OnApplicationPause addr 0xdd3934 size 0x4 virtual true final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method Dispatch addr 0xe589bc size 0x9c virtual true final true
+  /// @brief Method Dispatch addr 0xdd3938 size 0x9c virtual true final true
   inline void Dispatch(::System::Action* action);
 
-  /// @brief Method DispatchAsync addr 0xe58a58 size 0xd8 virtual true final true
+  /// @brief Method DispatchAsync addr 0xdd39d4 size 0xd8 virtual true final true
   inline ::System::Threading::Tasks::Task* DispatchAsync(::System::Func_1<::System::Threading::Tasks::Task*>* action);
 
   /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline T Create();
 
-  /// @brief Method RunAsync addr 0xe58b30 size 0x140 virtual true final true
+  /// @brief Method RunAsync addr 0xdd3aac size 0x140 virtual true final true
   inline ::System::Threading::Tasks::Task* RunAsync(::GlobalNamespace::IStandaloneThreadRunner* runner, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Stop addr 0xe58cec size 0x8 virtual true final true
+  /// @brief Method Stop addr 0xdd3c68 size 0x8 virtual true final true
   inline void Stop();
 
-  /// @brief Method RunAsyncCoroutine addr 0xe58c70 size 0x7c virtual false final false
+  /// @brief Method RunAsyncCoroutine addr 0xdd3bec size 0x7c virtual false final false
   inline ::System::Collections::IEnumerator* RunAsyncCoroutine(::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetLastFrameTime addr 0xe588d0 size 0x70 virtual false final false
+  /// @brief Method GetLastFrameTime addr 0xdd384c size 0x70 virtual false final false
   inline float_t GetLastFrameTime();
 
   static inline ::GlobalNamespace::StandaloneMonobehavior* New_ctor();
 
-  /// @brief Method .ctor addr 0xe4cbfc size 0xa0 virtual false final false
+  /// @brief Method .ctor addr 0xdc7c6c size 0xa0 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehavior", modifiers: "&&", def_value: None }]
@@ -491,6 +523,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandaloneMonobehavior, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandaloneMonobehavior, ____readyTcs) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandaloneMonobehavior, ____isRunning) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandaloneMonobehavior, ____startTime) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandaloneMonobehavior, ____lastFrameTimings) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandaloneMonobehavior, ____lastFrameTimeCount) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandaloneMonobehavior);

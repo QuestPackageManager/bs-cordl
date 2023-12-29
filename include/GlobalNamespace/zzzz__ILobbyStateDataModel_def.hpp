@@ -8,16 +8,16 @@ namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ILobbyStateDataModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4493))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4504))
 // CS Name: ::ILobbyStateDataModel*
 class CORDL_TYPE ILobbyStateDataModel {
 public:

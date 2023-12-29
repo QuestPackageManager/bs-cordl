@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BasicUIAudioManager)
-namespace UnityEngine {
-class AudioSource;
-}
 namespace GlobalNamespace {
 class Signal;
 }
 namespace GlobalNamespace {
 template <typename T> class RandomObjectPicker_1;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 namespace UnityEngine {
 class AudioClip;
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BasicUIAudioManager);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5406))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5496))
 // CS Name: ::BasicUIAudioManager*
 class CORDL_TYPE BasicUIAudioManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -88,21 +88,21 @@ public:
 
   constexpr void __set__randomSoundPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>* value);
 
-  /// @brief Method Start addr 0x2274418 size 0x98 virtual false final false
+  /// @brief Method Start addr 0x212ec88 size 0x98 virtual false final false
   inline void Start();
 
-  /// @brief Method OnEnable addr 0x22744b0 size 0xd4 virtual false final false
+  /// @brief Method OnEnable addr 0x212ed20 size 0xd4 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2274584 size 0xd4 virtual false final false
+  /// @brief Method OnDisable addr 0x212edf4 size 0xd4 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method HandleButtonClickEvent addr 0x2274658 size 0xd0 virtual false final false
+  /// @brief Method HandleButtonClickEvent addr 0x212eec8 size 0xd0 virtual false final false
   inline void HandleButtonClickEvent();
 
   static inline ::GlobalNamespace::BasicUIAudioManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2274728 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x212ef98 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicUIAudioManager", modifiers: "&&", def_value: None }]
@@ -141,6 +141,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BasicUIAudioManager, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BasicUIAudioManager, ____buttonClickEvents) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BasicUIAudioManager, ____audioSource) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BasicUIAudioManager, ____clickSounds) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BasicUIAudioManager, ____minPitch) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BasicUIAudioManager, ____maxPitch) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BasicUIAudioManager, ____randomSoundPicker) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BasicUIAudioManager);

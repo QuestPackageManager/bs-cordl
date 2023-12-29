@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ThreadHelper)
+namespace System {
+class Object;
+}
 namespace System::Threading {
 class ExecutionContext;
 }
 namespace System {
 class Delegate;
-}
-namespace System {
-class Object;
 }
 namespace System::Threading {
 class ContextCallback;
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Threading::ThreadHelper);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2722))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2720))
 // CS Name: ::System.Threading::ThreadHelper*
 class CORDL_TYPE ThreadHelper : public ::System::Object {
 public:
@@ -68,19 +68,19 @@ public:
 
   static inline ::System::Threading::ThreadHelper* New_ctor(::System::Delegate* start);
 
-  /// @brief Method .ctor addr 0x26192a0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x24be284 size 0x28 virtual false final false
   inline void _ctor(::System::Delegate* start);
 
-  /// @brief Method SetExecutionContextHelper addr 0x26192c8 size 0x8 virtual false final false
+  /// @brief Method SetExecutionContextHelper addr 0x24be2ac size 0x8 virtual false final false
   inline void SetExecutionContextHelper(::System::Threading::ExecutionContext* ec);
 
-  /// @brief Method ThreadStart_Context addr 0x26192d0 size 0x10c virtual false final false
+  /// @brief Method ThreadStart_Context addr 0x24be2b4 size 0x10c virtual false final false
   static inline void ThreadStart_Context(::System::Object* state);
 
-  /// @brief Method ThreadStart addr 0x26193dc size 0x100 virtual false final false
+  /// @brief Method ThreadStart addr 0x24be3c0 size 0x100 virtual false final false
   inline void ThreadStart(::System::Object* obj);
 
-  /// @brief Method ThreadStart addr 0x26194dc size 0xf4 virtual false final false
+  /// @brief Method ThreadStart addr 0x24be4c0 size 0xf4 virtual false final false
   inline void ThreadStart();
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadHelper", modifiers: "&&", def_value: None }]
@@ -110,6 +110,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::ThreadHelper, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::ThreadHelper, ____start) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::ThreadHelper, ____startArg) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::ThreadHelper, ____executionContext) == 0x20, "Offset mismatch!");
 
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::ThreadHelper);

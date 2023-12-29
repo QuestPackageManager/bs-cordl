@@ -13,10 +13,10 @@ namespace System::Threading {
 template <typename T> class __ThreadLocal_1__IdManager;
 }
 namespace System::Threading {
-template <typename T> class __ThreadLocal_1__LinkedSlot;
+template <typename T> struct __ThreadLocal_1__LinkedSlotVolatile;
 }
-namespace System {
-class IDisposable;
+namespace System::Threading {
+template <typename T> class __ThreadLocal_1__LinkedSlot;
 }
 namespace System::Threading {
 template <typename T> class __ThreadLocal_1__FinalizationHelper;
@@ -24,8 +24,8 @@ template <typename T> class __ThreadLocal_1__FinalizationHelper;
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace System::Threading {
-template <typename T> struct __ThreadLocal_1__LinkedSlotVolatile;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -59,7 +59,7 @@ namespace System::Threading {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2702))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2700))
 // CS Name: ::ThreadLocal`1::LinkedSlotVolatile<T>
 struct CORDL_TYPE __ThreadLocal_1__LinkedSlotVolatile {
 public:
@@ -87,8 +87,8 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2703))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2701))
 // CS Name: ::ThreadLocal`1::LinkedSlot<T>*
 class CORDL_TYPE __ThreadLocal_1__LinkedSlot : public ::System::Object {
 public:
@@ -172,8 +172,8 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2704))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2702))
 // CS Name: ::ThreadLocal`1::IdManager<T>*
 class CORDL_TYPE __ThreadLocal_1__IdManager : public ::System::Object {
 public:
@@ -237,8 +237,8 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2705))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2703))
 // CS Name: ::ThreadLocal`1::FinalizationHelper<T>*
 class CORDL_TYPE __ThreadLocal_1__FinalizationHelper : public ::System::Object {
 public:
@@ -301,8 +301,8 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2706))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2704))
 // CS Name: ::System.Threading::ThreadLocal`1<T>*
 class CORDL_TYPE ThreadLocal_1 : public ::System::Object {
 public:

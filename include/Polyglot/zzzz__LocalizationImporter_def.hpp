@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(LocalizationImporter)
+namespace Polyglot {
+struct GoogleDriveDownloadFormat;
+}
+namespace Polyglot {
+class __LocalizationImporter____c__DisplayClass8_0;
+}
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace Polyglot {
-class LocalizationAsset;
-}
-namespace Polyglot {
-class Localization;
+template <typename T> class List_1;
 }
 namespace Polyglot {
 class LocalizationDocument;
@@ -21,26 +21,26 @@ class LocalizationDocument;
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace Polyglot {
 struct Language;
 }
-namespace Polyglot {
-class __LocalizationImporter____c__DisplayClass5_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Polyglot {
-class __LocalizationImporter____c__DisplayClass8_0;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace Polyglot {
-struct GoogleDriveDownloadFormat;
+class Localization;
+}
+namespace Polyglot {
+class __LocalizationImporter____c__DisplayClass5_0;
+}
+namespace Polyglot {
+class LocalizationAsset;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -60,8 +60,8 @@ MARK_REF_PTR_T(::Polyglot::__LocalizationImporter____c__DisplayClass8_0);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15561))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15545))
 // CS Name: ::LocalizationImporter::<>c__DisplayClass5_0*
 class CORDL_TYPE __LocalizationImporter____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -77,10 +77,10 @@ public:
 
   static inline ::Polyglot::__LocalizationImporter____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x28045c4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x268993c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <ImportFromGoogle>b__0 addr 0x2805714 size 0x74 virtual false final false
+  /// @brief Method <ImportFromGoogle>b__0 addr 0x268aa8c size 0x74 virtual false final false
   inline void _ImportFromGoogle_b__0(::StringW s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LocalizationImporter____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
@@ -105,13 +105,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Polyglot::__LocalizationImporter____c__DisplayClass5_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::Polyglot::__LocalizationImporter____c__DisplayClass5_0, ___settings) == 0x10, "Offset mismatch!");
+
 } // namespace Polyglot
 // Type: ::<>c__DisplayClass8_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15562))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15546))
 // CS Name: ::LocalizationImporter::<>c__DisplayClass8_0*
 class CORDL_TYPE __LocalizationImporter____c__DisplayClass8_0 : public ::System::Object {
 public:
@@ -127,10 +129,10 @@ public:
 
   static inline ::Polyglot::__LocalizationImporter____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2804e7c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x268a1f4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <DownloadCustomSheet>b__0 addr 0x2805788 size 0x74 virtual false final false
+  /// @brief Method <DownloadCustomSheet>b__0 addr 0x268ab00 size 0x74 virtual false final false
   inline void _DownloadCustomSheet_b__0(::StringW s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LocalizationImporter____c__DisplayClass8_0", modifiers: "&&", def_value: None }]
@@ -155,13 +157,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Polyglot::__LocalizationImporter____c__DisplayClass8_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::Polyglot::__LocalizationImporter____c__DisplayClass8_0, ___settings) == 0x10, "Offset mismatch!");
+
 } // namespace Polyglot
 // Type: Polyglot::LocalizationImporter
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15563))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15547))
 // CS Name: ::Polyglot::LocalizationImporter*
 class CORDL_TYPE LocalizationImporter : public ::System::Object {
 public:
@@ -192,46 +196,46 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>* getStaticF_InputFiles();
 
-  /// @brief Method Initialize addr 0x28042e0 size 0x118 virtual false final false
+  /// @brief Method Initialize addr 0x2689658 size 0x118 virtual false final false
   static inline void Initialize();
 
-  /// @brief Method ImportFromGoogle addr 0x28044c0 size 0x104 virtual false final false
+  /// @brief Method ImportFromGoogle addr 0x2689838 size 0x104 virtual false final false
   static inline void ImportFromGoogle(::Polyglot::Localization* settings);
 
-  /// @brief Method Import addr 0x28045f4 size 0x64 virtual false final false
+  /// @brief Method Import addr 0x268996c size 0x64 virtual false final false
   static inline void Import(::StringW text, ::Polyglot::GoogleDriveDownloadFormat format);
 
-  /// @brief Method Download addr 0x28045cc size 0x28 virtual false final false
+  /// @brief Method Download addr 0x2689944 size 0x28 virtual false final false
   static inline ::System::Collections::IEnumerator* Download(::Polyglot::LocalizationDocument* document, ::System::Action_1<::StringW>* done, ::System::Func_2<float_t, bool>* progressbar);
 
-  /// @brief Method DownloadCustomSheet addr 0x2804cf8 size 0x184 virtual false final false
+  /// @brief Method DownloadCustomSheet addr 0x268a070 size 0x184 virtual false final false
   static inline ::System::Collections::IEnumerator* DownloadCustomSheet(::System::Func_2<float_t, bool>* progressbar);
 
-  /// @brief Method ImportFromFiles addr 0x28043f8 size 0xc8 virtual false final false
+  /// @brief Method ImportFromFiles addr 0x2689770 size 0xc8 virtual false final false
   static inline void ImportFromFiles(::Polyglot::Localization* settings);
 
-  /// @brief Method ImportInputFiles addr 0x2804e84 size 0x218 virtual false final false
+  /// @brief Method ImportInputFiles addr 0x268a1fc size 0x218 virtual false final false
   static inline void ImportInputFiles();
 
-  /// @brief Method ImportTextFile addr 0x2804658 size 0x6a0 virtual false final false
+  /// @brief Method ImportTextFile addr 0x26899d0 size 0x6a0 virtual false final false
   static inline void ImportTextFile(::StringW text, ::Polyglot::GoogleDriveDownloadFormat format);
 
-  /// @brief Method IsLineBreak addr 0x2803c50 size 0x90 virtual false final false
+  /// @brief Method IsLineBreak addr 0x2688fc8 size 0x90 virtual false final false
   static inline bool IsLineBreak(::StringW currentString);
 
-  /// @brief Method GetLanguages addr 0x28032d8 size 0x310 virtual false final false
+  /// @brief Method GetLanguages addr 0x2688650 size 0x310 virtual false final false
   static inline ::System::Collections::Generic::List_1<::StringW>* GetLanguages(::StringW key, ::System::Collections::Generic::List_1<::Polyglot::Language>* supportedLanguages);
 
-  /// @brief Method GetLanguagesStartsWith addr 0x280509c size 0x2e0 virtual false final false
+  /// @brief Method GetLanguagesStartsWith addr 0x268a414 size 0x2e0 virtual false final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* GetLanguagesStartsWith(::StringW key);
 
-  /// @brief Method GetLanguagesContains addr 0x280537c size 0x2e0 virtual false final false
+  /// @brief Method GetLanguagesContains addr 0x268a6f4 size 0x2e0 virtual false final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* GetLanguagesContains(::StringW key);
 
-  /// @brief Method Refresh addr 0x280565c size 0xb8 virtual false final false
+  /// @brief Method Refresh addr 0x268a9d4 size 0xb8 virtual false final false
   static inline void Refresh();
 
-  /// @brief Method GetKeys addr 0x2803ddc size 0x94 virtual false final false
+  /// @brief Method GetKeys addr 0x2689154 size 0x94 virtual false final false
   static inline ::System::Collections::Generic::List_1<::StringW>* GetKeys();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizationImporter", modifiers: "&&", def_value: None }]

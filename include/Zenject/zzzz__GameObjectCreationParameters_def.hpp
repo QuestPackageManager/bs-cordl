@@ -9,11 +9,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameObjectCreationParameters)
+namespace Zenject {
+class InjectContext;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System {
-template <typename T> struct Nullable_1;
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -21,14 +27,8 @@ struct Quaternion;
 namespace System {
 class Object;
 }
-namespace Zenject {
-class InjectContext;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
+namespace System {
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -40,9 +40,9 @@ MARK_REF_PTR_T(::Zenject::GameObjectCreationParameters);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3342 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 412 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10949)) CS Name: ::Zenject::GameObjectCreationParameters*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 407 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2611)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 3266 }), TypeDefinitionIndex(TypeDefinitionIndex(2446)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10179))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10877)) CS Name: ::Zenject::GameObjectCreationParameters*
 class CORDL_TYPE GameObjectCreationParameters : public ::System::Object {
 public:
   // Declarations
@@ -120,60 +120,60 @@ public:
 
   static inline ::Zenject::GameObjectCreationParameters* getStaticF_Default();
 
-  /// @brief Method get_Name addr 0x2edf160 size 0x8 virtual false final false
+  /// @brief Method get_Name addr 0x2d773e0 size 0x8 virtual false final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name addr 0x2edf168 size 0x8 virtual false final false
+  /// @brief Method set_Name addr 0x2d773e8 size 0x8 virtual false final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method get_GroupName addr 0x2edf170 size 0x8 virtual false final false
+  /// @brief Method get_GroupName addr 0x2d773f0 size 0x8 virtual false final false
   inline ::StringW get_GroupName();
 
-  /// @brief Method set_GroupName addr 0x2edf178 size 0x8 virtual false final false
+  /// @brief Method set_GroupName addr 0x2d773f8 size 0x8 virtual false final false
   inline void set_GroupName(::StringW value);
 
-  /// @brief Method get_ParentTransform addr 0x2edf180 size 0x8 virtual false final false
+  /// @brief Method get_ParentTransform addr 0x2d77400 size 0x8 virtual false final false
   inline ::UnityEngine::Transform* get_ParentTransform();
 
-  /// @brief Method set_ParentTransform addr 0x2edf188 size 0x8 virtual false final false
+  /// @brief Method set_ParentTransform addr 0x2d77408 size 0x8 virtual false final false
   inline void set_ParentTransform(::UnityEngine::Transform* value);
 
-  /// @brief Method get_ParentTransformGetter addr 0x2edf190 size 0x8 virtual false final false
+  /// @brief Method get_ParentTransformGetter addr 0x2d77410 size 0x8 virtual false final false
   inline ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>* get_ParentTransformGetter();
 
-  /// @brief Method set_ParentTransformGetter addr 0x2edf198 size 0x8 virtual false final false
+  /// @brief Method set_ParentTransformGetter addr 0x2d77418 size 0x8 virtual false final false
   inline void set_ParentTransformGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>* value);
 
-  /// @brief Method get_Position addr 0x2edf1a0 size 0xc virtual false final false
+  /// @brief Method get_Position addr 0x2d77420 size 0xc virtual false final false
   inline ::System::Nullable_1<::UnityEngine::Vector3> get_Position();
 
-  /// @brief Method set_Position addr 0x2edf1ac size 0x8 virtual false final false
+  /// @brief Method set_Position addr 0x2d7742c size 0x8 virtual false final false
   inline void set_Position(::System::Nullable_1<::UnityEngine::Vector3> value);
 
-  /// @brief Method get_Rotation addr 0x2edf1b4 size 0x14 virtual false final false
+  /// @brief Method get_Rotation addr 0x2d77434 size 0x14 virtual false final false
   inline ::System::Nullable_1<::UnityEngine::Quaternion> get_Rotation();
 
-  /// @brief Method set_Rotation addr 0x2edf1c8 size 0x14 virtual false final false
+  /// @brief Method set_Rotation addr 0x2d77448 size 0x14 virtual false final false
   inline void set_Rotation(::System::Nullable_1<::UnityEngine::Quaternion> value);
 
-  /// @brief Method GetHashCode addr 0x2edf1dc size 0x294 virtual true final false
+  /// @brief Method GetHashCode addr 0x2d7745c size 0x294 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x2edf470 size 0xd0 virtual true final false
+  /// @brief Method Equals addr 0x2d776f0 size 0xd0 virtual true final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals addr 0x2edf598 size 0x64 virtual false final false
+  /// @brief Method Equals addr 0x2d77818 size 0x64 virtual false final false
   inline bool Equals(::Zenject::GameObjectCreationParameters* that);
 
-  /// @brief Method op_Equality addr 0x2edf540 size 0x58 virtual false final false
+  /// @brief Method op_Equality addr 0x2d777c0 size 0x58 virtual false final false
   static inline bool op_Equality(::Zenject::GameObjectCreationParameters* left, ::Zenject::GameObjectCreationParameters* right);
 
-  /// @brief Method op_Inequality addr 0x2edf5fc size 0x20 virtual false final false
+  /// @brief Method op_Inequality addr 0x2d7787c size 0x20 virtual false final false
   static inline bool op_Inequality(::Zenject::GameObjectCreationParameters* left, ::Zenject::GameObjectCreationParameters* right);
 
   static inline ::Zenject::GameObjectCreationParameters* New_ctor();
 
-  /// @brief Method .ctor addr 0x2edbb28 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d73da8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameObjectCreationParameters", modifiers: "&&", def_value: None }]
@@ -212,6 +212,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::GameObjectCreationParameters, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::GameObjectCreationParameters, ____Name_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::GameObjectCreationParameters, ____GroupName_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::GameObjectCreationParameters, ____ParentTransform_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::GameObjectCreationParameters, ____ParentTransformGetter_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::GameObjectCreationParameters, ____Position_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::GameObjectCreationParameters, ____Rotation_k__BackingField) == 0x40, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::GameObjectCreationParameters);

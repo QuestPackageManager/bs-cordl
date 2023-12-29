@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GcmBlockCipher)
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto::Modes::Gcm {
+class IGcmMultiplier;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
-class IGcmMultiplier;
-}
-namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 class IGcmExponentiator;
-}
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(970))
 // CS Name: ::Org.BouncyCastle.Crypto.Modes::GcmBlockCipher*
 class CORDL_TYPE GcmBlockCipher : public ::System::Object {
@@ -267,81 +267,81 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* c);
 
-  /// @brief Method .ctor addr 0xf1e444 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xea9258 size 0x8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* c);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* c, ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier* m);
 
-  /// @brief Method .ctor addr 0xf1e44c size 0x190 virtual false final false
+  /// @brief Method .ctor addr 0xea9260 size 0x190 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* c, ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier* m);
 
-  /// @brief Method get_AlgorithmName addr 0xf1e5dc size 0xc0 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xea93f0 size 0xc0 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetUnderlyingCipher addr 0xf1e69c size 0x8 virtual true final true
+  /// @brief Method GetUnderlyingCipher addr 0xea94b0 size 0x8 virtual true final true
   inline ::Org::BouncyCastle::Crypto::IBlockCipher* GetUnderlyingCipher();
 
-  /// @brief Method GetBlockSize addr 0xf1e6a4 size 0x8 virtual true final false
+  /// @brief Method GetBlockSize addr 0xea94b8 size 0x8 virtual true final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method Init addr 0xf1e6ac size 0x6bc virtual true final false
+  /// @brief Method Init addr 0xea94c0 size 0x6bc virtual true final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetMac addr 0xf1ef80 size 0x88 virtual true final false
+  /// @brief Method GetMac addr 0xea9d94 size 0x88 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMac();
 
-  /// @brief Method GetOutputSize addr 0xf1f008 size 0x28 virtual true final false
+  /// @brief Method GetOutputSize addr 0xea9e1c size 0x28 virtual true final false
   inline int32_t GetOutputSize(int32_t len);
 
-  /// @brief Method GetUpdateOutputSize addr 0xf1f030 size 0x38 virtual true final false
+  /// @brief Method GetUpdateOutputSize addr 0xea9e44 size 0x38 virtual true final false
   inline int32_t GetUpdateOutputSize(int32_t len);
 
-  /// @brief Method ProcessAadByte addr 0xf1f068 size 0x7c virtual true final false
+  /// @brief Method ProcessAadByte addr 0xea9e7c size 0x7c virtual true final false
   inline void ProcessAadByte(uint8_t input);
 
-  /// @brief Method ProcessAadBytes addr 0xf1f164 size 0xc0 virtual true final false
+  /// @brief Method ProcessAadBytes addr 0xea9f78 size 0xc0 virtual true final false
   inline void ProcessAadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len);
 
-  /// @brief Method InitCipher addr 0xf1f224 size 0x94 virtual false final false
+  /// @brief Method InitCipher addr 0xeaa038 size 0x94 virtual false final false
   inline void InitCipher();
 
-  /// @brief Method ProcessByte addr 0xf1f3bc size 0xc8 virtual true final false
+  /// @brief Method ProcessByte addr 0xeaa1d0 size 0xc8 virtual true final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes addr 0xf1f5fc size 0x24c virtual true final false
+  /// @brief Method ProcessBytes addr 0xeaa410 size 0x24c virtual true final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method DoFinal addr 0xf1f848 size 0x52c virtual true final true
+  /// @brief Method DoFinal addr 0xeaa65c size 0x52c virtual true final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xf20090 size 0x8 virtual true final false
+  /// @brief Method Reset addr 0xeaaea4 size 0x8 virtual true final false
   inline void Reset();
 
-  /// @brief Method Reset addr 0xf1fecc size 0x1c4 virtual false final false
+  /// @brief Method Reset addr 0xeaace0 size 0x1c4 virtual false final false
   inline void Reset(bool clearMac);
 
-  /// @brief Method ProcessBlock addr 0xf1f484 size 0x178 virtual false final false
+  /// @brief Method ProcessBlock addr 0xeaa298 size 0x178 virtual false final false
   inline void ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t bufOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessPartial addr 0xf1fd74 size 0x158 virtual false final false
+  /// @brief Method ProcessPartial addr 0xeaab88 size 0x158 virtual false final false
   inline void ProcessPartial(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method gHASH addr 0xf1ede0 size 0xb4 virtual false final false
+  /// @brief Method gHASH addr 0xea9bf4 size 0xb4 virtual false final false
   inline void gHASH(::ArrayW<uint8_t, ::Array<uint8_t>*> Y, ::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t len);
 
-  /// @brief Method gHASHBlock addr 0xf1ee94 size 0xec virtual false final false
+  /// @brief Method gHASHBlock addr 0xea9ca8 size 0xec virtual false final false
   inline void gHASHBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> Y, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-  /// @brief Method gHASHBlock addr 0xf2023c size 0xfc virtual false final false
+  /// @brief Method gHASHBlock addr 0xeab050 size 0xfc virtual false final false
   inline void gHASHBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> Y, ::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t off);
 
-  /// @brief Method gHASHPartial addr 0xf1f2b8 size 0x104 virtual false final false
+  /// @brief Method gHASHPartial addr 0xeaa0cc size 0x104 virtual false final false
   inline void gHASHPartial(::ArrayW<uint8_t, ::Array<uint8_t>*> Y, ::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t off, int32_t len);
 
-  /// @brief Method GetNextCtrBlock addr 0xf20098 size 0x1a4 virtual false final false
+  /// @brief Method GetNextCtrBlock addr 0xeaaeac size 0x1a4 virtual false final false
   inline void GetNextCtrBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> block);
 
-  /// @brief Method CheckStatus addr 0xf1f0e4 size 0x80 virtual false final false
+  /// @brief Method CheckStatus addr 0xea9ef8 size 0x80 virtual false final false
   inline void CheckStatus();
 
   // Ctor Parameters [CppParam { name: "", ty: "GcmBlockCipher", modifiers: "&&", def_value: None }]
@@ -437,6 +437,54 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, 0xb8>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___cipher) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___multiplier) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___exp) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___forEncryption) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___initialised) == 0x29, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___macSize) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___lastKey) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___nonce) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___initialAssociatedText) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___H) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___J0) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___bufBlock) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___macBlock) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___S) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___S_at) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___S_atPre) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___counter) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___blocksRemaining) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___bufOff) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___totalLength) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___atBlock) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___atBlockPos) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___atLength) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher, ___atLengthPre) == 0xb0, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Modes
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher);

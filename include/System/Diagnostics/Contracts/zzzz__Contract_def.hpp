@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Diagnostics::Contracts::Contract);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Diagnostics::Contracts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3742))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3730))
 // CS Name: ::System.Diagnostics.Contracts::Contract*
 class CORDL_TYPE Contract : public ::System::Object {
 public:

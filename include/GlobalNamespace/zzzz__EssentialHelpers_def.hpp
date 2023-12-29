@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(EssentialHelpers)
 namespace UnityEngine {
-class Object;
+class GameObject;
 }
 namespace UnityEngine {
-class GameObject;
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,16 +21,16 @@ MARK_REF_PTR_T(::GlobalNamespace::EssentialHelpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15853))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13858))
 // CS Name: ::EssentialHelpers*
 class CORDL_TYPE EssentialHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_CurrentTimeStamp addr 0xe27ac0 size 0xb4 virtual false final false
+  /// @brief Method get_CurrentTimeStamp addr 0x1f95cf4 size 0xb4 virtual false final false
   static inline double_t get_CurrentTimeStamp();
 
-  /// @brief Method SafeDestroy addr 0xe27b74 size 0xa8 virtual false final false
+  /// @brief Method SafeDestroy addr 0x1f95da8 size 0xa8 virtual false final false
   static inline void SafeDestroy(::UnityEngine::Object* obj);
 
   /// @brief Method GetOrAddComponent addr 0x0 size 0xffffffffffffffff virtual false final false

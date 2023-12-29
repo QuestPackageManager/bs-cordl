@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Net::HttpRequestCreator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9177))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8014))
 // CS Name: ::System.Net::HttpRequestCreator*
 class CORDL_TYPE HttpRequestCreator : public ::System::Object {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::System::Net::HttpRequestCreator* New_ctor();
 
-  /// @brief Method .ctor addr 0x29cb7b8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x284df44 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Create addr 0x29cb7c0 size 0x60 virtual true final true
+  /// @brief Method Create addr 0x284df4c size 0x60 virtual true final true
   inline ::System::Net::WebRequest* Create(::System::Uri* uri);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpRequestCreator", modifiers: "&&", def_value: None }]

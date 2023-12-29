@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Metadata::SoapTypeAttribute);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 82, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Metadata {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3138))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3142))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3137))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3141))
 // CS Name: ::System.Runtime.Remoting.Metadata::SoapTypeAttribute*
 class CORDL_TYPE SoapTypeAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute {
 public:
@@ -103,31 +103,31 @@ public:
 
   static inline ::System::Runtime::Remoting::Metadata::SoapTypeAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x24a5f30 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x234d43c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_UseAttribute addr 0x24a5f38 size 0x8 virtual true final false
+  /// @brief Method get_UseAttribute addr 0x234d444 size 0x8 virtual true final false
   inline bool get_UseAttribute();
 
-  /// @brief Method get_XmlElementName addr 0x24a5f40 size 0x8 virtual false final false
+  /// @brief Method get_XmlElementName addr 0x234d44c size 0x8 virtual false final false
   inline ::StringW get_XmlElementName();
 
-  /// @brief Method get_XmlNamespace addr 0x24a5f48 size 0x8 virtual true final false
+  /// @brief Method get_XmlNamespace addr 0x234d454 size 0x8 virtual true final false
   inline ::StringW get_XmlNamespace();
 
-  /// @brief Method get_XmlTypeName addr 0x24a5f50 size 0x8 virtual false final false
+  /// @brief Method get_XmlTypeName addr 0x234d45c size 0x8 virtual false final false
   inline ::StringW get_XmlTypeName();
 
-  /// @brief Method get_XmlTypeNamespace addr 0x24a5f58 size 0x8 virtual false final false
+  /// @brief Method get_XmlTypeNamespace addr 0x234d464 size 0x8 virtual false final false
   inline ::StringW get_XmlTypeNamespace();
 
-  /// @brief Method get_IsInteropXmlElement addr 0x24a5f60 size 0x8 virtual false final false
+  /// @brief Method get_IsInteropXmlElement addr 0x234d46c size 0x8 virtual false final false
   inline bool get_IsInteropXmlElement();
 
-  /// @brief Method get_IsInteropXmlType addr 0x24a5f68 size 0x8 virtual false final false
+  /// @brief Method get_IsInteropXmlType addr 0x234d474 size 0x8 virtual false final false
   inline bool get_IsInteropXmlType();
 
-  /// @brief Method SetReflectionObject addr 0x24a5f70 size 0x1fc virtual true final false
+  /// @brief Method SetReflectionObject addr 0x234d47c size 0x1fc virtual true final false
   inline void SetReflectionObject(::System::Object* reflectionObject);
 
   // Ctor Parameters [CppParam { name: "", ty: "SoapTypeAttribute", modifiers: "&&", def_value: None }]
@@ -169,6 +169,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Metadata::SoapTypeAttribute, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapTypeAttribute, ____useAttribute) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapTypeAttribute, ____xmlElementName) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapTypeAttribute, ____xmlNamespace) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapTypeAttribute, ____xmlTypeName) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapTypeAttribute, ____xmlTypeNamespace) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapTypeAttribute, ____isType) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapTypeAttribute, ____isElement) == 0x51, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Metadata
 NEED_NO_BOX(::System::Runtime::Remoting::Metadata::SoapTypeAttribute);

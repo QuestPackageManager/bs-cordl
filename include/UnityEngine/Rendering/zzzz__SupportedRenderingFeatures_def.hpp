@@ -10,20 +10,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SupportedRenderingFeatures)
-namespace UnityEngine {
-struct LightmapBakeType;
-}
-namespace UnityEngine {
-struct MixedLightingMode;
+namespace UnityEngine::Rendering {
+struct __SupportedRenderingFeatures__LightmapMixedBakeModes;
 }
 namespace UnityEngine::Rendering {
 struct __SupportedRenderingFeatures__ReflectionProbeModes;
 }
-namespace UnityEngine::Rendering {
-struct __SupportedRenderingFeatures__LightmapMixedBakeModes;
+namespace UnityEngine {
+struct LightmapBakeType;
 }
 namespace UnityEngine {
 struct LightmapsMode;
+}
+namespace UnityEngine {
+struct MixedLightingMode;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::SupportedRenderingFeatures);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10361))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10283))
 // CS Name: ::SupportedRenderingFeatures::ReflectionProbeModes
 struct CORDL_TYPE __SupportedRenderingFeatures__ReflectionProbeModes {
 public:
@@ -86,13 +86,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::Rendering
 // Type: ::LightmapMixedBakeModes
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10362))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10284))
 // CS Name: ::SupportedRenderingFeatures::LightmapMixedBakeModes
 struct CORDL_TYPE __SupportedRenderingFeatures__LightmapMixedBakeModes {
 public:
@@ -142,13 +144,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::Rendering
 // Type: UnityEngine.Rendering::SupportedRenderingFeatures
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10122)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10105)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10361)), TypeDefinitionIndex(TypeDefinitionIndex(10362))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10363)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10284)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10283)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10033)), TypeDefinitionIndex(TypeDefinitionIndex(10050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10285)) CS Name:
 // ::UnityEngine.Rendering::SupportedRenderingFeatures*
 class CORDL_TYPE SupportedRenderingFeatures : public ::System::Object {
 public:
@@ -430,75 +434,75 @@ public:
 
   static inline ::UnityEngine::Rendering::SupportedRenderingFeatures* getStaticF_s_Active();
 
-  /// @brief Method get_active addr 0x2cee4b4 size 0xa8 virtual false final false
+  /// @brief Method get_active addr 0x2b87080 size 0xa8 virtual false final false
   static inline ::UnityEngine::Rendering::SupportedRenderingFeatures* get_active();
 
-  /// @brief Method set_active addr 0x2ced124 size 0x5c virtual false final false
+  /// @brief Method set_active addr 0x2b85cf0 size 0x5c virtual false final false
   static inline void set_active(::UnityEngine::Rendering::SupportedRenderingFeatures* value);
 
-  /// @brief Method get_defaultMixedLightingModes addr 0x2cee55c size 0x8 virtual false final false
+  /// @brief Method get_defaultMixedLightingModes addr 0x2b87128 size 0x8 virtual false final false
   inline ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes get_defaultMixedLightingModes();
 
-  /// @brief Method get_mixedLightingModes addr 0x2cee564 size 0x8 virtual false final false
+  /// @brief Method get_mixedLightingModes addr 0x2b87130 size 0x8 virtual false final false
   inline ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes get_mixedLightingModes();
 
-  /// @brief Method get_lightmapBakeTypes addr 0x2cee56c size 0x8 virtual false final false
+  /// @brief Method get_lightmapBakeTypes addr 0x2b87138 size 0x8 virtual false final false
   inline ::UnityEngine::LightmapBakeType get_lightmapBakeTypes();
 
-  /// @brief Method get_lightmapsModes addr 0x2cee574 size 0x8 virtual false final false
+  /// @brief Method get_lightmapsModes addr 0x2b87140 size 0x8 virtual false final false
   inline ::UnityEngine::LightmapsMode get_lightmapsModes();
 
-  /// @brief Method get_enlightenLightmapper addr 0x2cee57c size 0x8 virtual false final false
+  /// @brief Method get_enlightenLightmapper addr 0x2b87148 size 0x8 virtual false final false
   inline bool get_enlightenLightmapper();
 
-  /// @brief Method get_enlighten addr 0x2cee584 size 0x8 virtual false final false
+  /// @brief Method get_enlighten addr 0x2b87150 size 0x8 virtual false final false
   inline bool get_enlighten();
 
-  /// @brief Method get_rendersUIOverlay addr 0x2cee58c size 0x8 virtual false final false
+  /// @brief Method get_rendersUIOverlay addr 0x2b87158 size 0x8 virtual false final false
   inline bool get_rendersUIOverlay();
 
-  /// @brief Method get_autoAmbientProbeBaking addr 0x2cee594 size 0x8 virtual false final false
+  /// @brief Method get_autoAmbientProbeBaking addr 0x2b87160 size 0x8 virtual false final false
   inline bool get_autoAmbientProbeBaking();
 
-  /// @brief Method get_autoDefaultReflectionProbeBaking addr 0x2cee59c size 0x8 virtual false final false
+  /// @brief Method get_autoDefaultReflectionProbeBaking addr 0x2b87168 size 0x8 virtual false final false
   inline bool get_autoDefaultReflectionProbeBaking();
 
-  /// @brief Method FallbackMixedLightingModeByRef addr 0x2cee5a4 size 0x134 virtual false final false
+  /// @brief Method FallbackMixedLightingModeByRef addr 0x2b87170 size 0x134 virtual false final false
   static inline void FallbackMixedLightingModeByRef(void* fallbackModePtr);
 
-  /// @brief Method IsMixedLightingModeSupported addr 0x2cee6d8 size 0x6c virtual false final false
+  /// @brief Method IsMixedLightingModeSupported addr 0x2b872a4 size 0x6c virtual false final false
   static inline bool IsMixedLightingModeSupported(::UnityEngine::MixedLightingMode mixedMode);
 
-  /// @brief Method IsMixedLightingModeSupportedByRef addr 0x2cee744 size 0x108 virtual false final false
+  /// @brief Method IsMixedLightingModeSupportedByRef addr 0x2b87310 size 0x108 virtual false final false
   static inline void IsMixedLightingModeSupportedByRef(::UnityEngine::MixedLightingMode mixedMode, void* isSupportedPtr);
 
-  /// @brief Method IsLightmapBakeTypeSupported addr 0x2cee84c size 0x6c virtual false final false
+  /// @brief Method IsLightmapBakeTypeSupported addr 0x2b87418 size 0x6c virtual false final false
   static inline bool IsLightmapBakeTypeSupported(::UnityEngine::LightmapBakeType bakeType);
 
-  /// @brief Method IsLightmapBakeTypeSupportedByRef addr 0x2cee8b8 size 0xf0 virtual false final false
+  /// @brief Method IsLightmapBakeTypeSupportedByRef addr 0x2b87484 size 0xf0 virtual false final false
   static inline void IsLightmapBakeTypeSupportedByRef(::UnityEngine::LightmapBakeType bakeType, void* isSupportedPtr);
 
-  /// @brief Method IsLightmapsModeSupportedByRef addr 0x2cee9a8 size 0x8c virtual false final false
+  /// @brief Method IsLightmapsModeSupportedByRef addr 0x2b87574 size 0x8c virtual false final false
   static inline void IsLightmapsModeSupportedByRef(::UnityEngine::LightmapsMode mode, void* isSupportedPtr);
 
-  /// @brief Method IsLightmapperSupportedByRef addr 0x2ceea34 size 0x84 virtual false final false
+  /// @brief Method IsLightmapperSupportedByRef addr 0x2b87600 size 0x84 virtual false final false
   static inline void IsLightmapperSupportedByRef(int32_t lightmapper, void* isSupportedPtr);
 
-  /// @brief Method IsUIOverlayRenderedBySRP addr 0x2ceeab8 size 0x78 virtual false final false
+  /// @brief Method IsUIOverlayRenderedBySRP addr 0x2b87684 size 0x78 virtual false final false
   static inline void IsUIOverlayRenderedBySRP(void* isSupportedPtr);
 
-  /// @brief Method IsAutoAmbientProbeBakingSupported addr 0x2ceeb30 size 0x78 virtual false final false
+  /// @brief Method IsAutoAmbientProbeBakingSupported addr 0x2b876fc size 0x78 virtual false final false
   static inline void IsAutoAmbientProbeBakingSupported(void* isSupportedPtr);
 
-  /// @brief Method IsAutoDefaultReflectionProbeBakingSupported addr 0x2ceeba8 size 0x78 virtual false final false
+  /// @brief Method IsAutoDefaultReflectionProbeBakingSupported addr 0x2b87774 size 0x78 virtual false final false
   static inline void IsAutoDefaultReflectionProbeBakingSupported(void* isSupportedPtr);
 
-  /// @brief Method FallbackLightmapperByRef addr 0x2ceec20 size 0x1c virtual false final false
+  /// @brief Method FallbackLightmapperByRef addr 0x2b877ec size 0x1c virtual false final false
   static inline void FallbackLightmapperByRef(void* lightmapperPtr);
 
   static inline ::UnityEngine::Rendering::SupportedRenderingFeatures* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ced094 size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x2b85c60 size 0x90 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SupportedRenderingFeatures", modifiers: "&&", def_value: None }]
@@ -600,6 +604,60 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::SupportedRenderingFeatures, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____reflectionProbeModes_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____defaultMixedLightingModes_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____mixedLightingModes_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____lightmapBakeTypes_k__BackingField) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____lightmapsModes_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____enlightenLightmapper_k__BackingField) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____enlighten_k__BackingField) == 0x25, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____lightProbeProxyVolumes_k__BackingField) == 0x26, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____motionVectors_k__BackingField) == 0x27, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____receiveShadows_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____reflectionProbes_k__BackingField) == 0x29, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____reflectionProbesBlendDistance_k__BackingField) == 0x2a, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____rendererPriority_k__BackingField) == 0x2b, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____rendersUIOverlay_k__BackingField) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____overridesEnvironmentLighting_k__BackingField) == 0x2d, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____overridesFog_k__BackingField) == 0x2e, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____overridesRealtimeReflectionProbes_k__BackingField) == 0x2f, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____overridesOtherLightingSettings_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____editableMaterialRenderQueue_k__BackingField) == 0x31, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____overridesLODBias_k__BackingField) == 0x32, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____overridesMaximumLODLevel_k__BackingField) == 0x33, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____rendererProbes_k__BackingField) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____particleSystemInstancing_k__BackingField) == 0x35, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____autoAmbientProbeBaking_k__BackingField) == 0x36, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____autoDefaultReflectionProbeBaking_k__BackingField) == 0x37, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____overridesShadowmask_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____overrideShadowmaskMessage_k__BackingField) == 0x40, "Offset mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes, "UnityEngine.Rendering", "SupportedRenderingFeatures/LightmapMixedBakeModes");

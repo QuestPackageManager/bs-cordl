@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(950))
 // CS Name: ::Org.BouncyCastle.Crypto.Modes.Gcm::BasicGcmExponentiator*
 class CORDL_TYPE BasicGcmExponentiator : public ::System::Object {
@@ -37,15 +37,15 @@ public:
 
   constexpr void __set_x(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method Init addr 0xf1209c size 0x68 virtual true final true
+  /// @brief Method Init addr 0xe9cebc size 0x68 virtual true final true
   inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
-  /// @brief Method ExponentiateX addr 0xf1216c size 0x110 virtual true final true
+  /// @brief Method ExponentiateX addr 0xe9cf8c size 0x110 virtual true final true
   inline void ExponentiateX(int64_t pow, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator* New_ctor();
 
-  /// @brief Method .ctor addr 0xf123b8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xe9d1d8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicGcmExponentiator", modifiers: "&&", def_value: None }]
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator, ___x) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Modes::Gcm
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator);

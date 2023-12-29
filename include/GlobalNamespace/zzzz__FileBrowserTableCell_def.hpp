@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FileBrowserTableCell)
+namespace UnityEngine::UI {
+class Image;
+}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace HMUI {
 struct __SelectableCell__TransitionType;
-}
-namespace UnityEngine::UI {
-class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FileBrowserTableCell);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5482))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13781))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5588))
 // CS Name: ::FileBrowserTableCell*
 class CORDL_TYPE FileBrowserTableCell : public ::HMUI::TableCell {
 public:
@@ -59,21 +59,21 @@ public:
 
   constexpr void __set__highlightImage(::UnityEngine::UI::Image* value);
 
-  /// @brief Method set_text addr 0x22843e4 size 0x24 virtual false final false
+  /// @brief Method set_text addr 0x2142e5c size 0x24 virtual false final false
   inline void set_text(::StringW value);
 
-  /// @brief Method get_text addr 0x2284408 size 0x24 virtual false final false
+  /// @brief Method get_text addr 0x2142e80 size 0x24 virtual false final false
   inline ::StringW get_text();
 
-  /// @brief Method SelectionDidChange addr 0x228442c size 0xa4 virtual true final false
+  /// @brief Method SelectionDidChange addr 0x2142ea4 size 0xa4 virtual true final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method HighlightDidChange addr 0x22844d0 size 0x40 virtual true final false
+  /// @brief Method HighlightDidChange addr 0x2142f48 size 0x40 virtual true final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   static inline ::GlobalNamespace::FileBrowserTableCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x2284510 size 0x1008 virtual false final false
+  /// @brief Method .ctor addr 0x2142f88 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FileBrowserTableCell", modifiers: "&&", def_value: None }]
@@ -103,6 +103,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FileBrowserTableCell, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FileBrowserTableCell, ____text) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FileBrowserTableCell, ____bgImage) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FileBrowserTableCell, ____highlightImage) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FileBrowserTableCell);

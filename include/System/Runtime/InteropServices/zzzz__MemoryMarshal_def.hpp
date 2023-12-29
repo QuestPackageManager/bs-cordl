@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryMarshal)
 namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
 template <typename T> struct Span_1;
 }
 namespace System {
@@ -14,9 +17,6 @@ template <typename T> struct ReadOnlyMemory_1;
 }
 namespace System {
 template <typename T> struct ArraySegment_1;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
 template <typename T> struct Memory_1;
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::MemoryMarshal);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3305))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3304))
 // CS Name: ::System.Runtime.InteropServices::MemoryMarshal*
 class CORDL_TYPE MemoryMarshal : public ::System::Object {
 public:

@@ -5,31 +5,31 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TMPro_EventManager)
 namespace TMPro {
-class FastAction;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace TMPro {
-template <typename A, typename B> class FastAction_2;
-}
-namespace System {
-class Object;
-}
-namespace TMPro {
 class Compute_DT_EventArgs;
-}
-namespace TMPro {
-template <typename A, typename B, typename C> class FastAction_3;
 }
 namespace UnityEngine {
 class GameObject;
 }
+namespace UnityEngine {
+class Material;
+}
+namespace TMPro {
+template <typename A, typename B> class FastAction_2;
+}
+namespace UnityEngine {
+class Object;
+}
 namespace TMPro {
 template <typename A> class FastAction_1;
 }
-namespace UnityEngine {
-class Material;
+namespace TMPro {
+template <typename A, typename B, typename C> class FastAction_3;
+}
+namespace TMPro {
+class FastAction;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace TMPro {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::TMPro::TMPro_EventManager);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12312))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12240))
 // CS Name: ::TMPro::TMPro_EventManager*
 class CORDL_TYPE TMPro_EventManager : public ::System::Object {
 public:
@@ -136,40 +136,40 @@ public:
 
   static inline ::TMPro::FastAction_1<::UnityEngine::Object*>* getStaticF_TEXT_CHANGED_EVENT();
 
-  /// @brief Method ON_MATERIAL_PROPERTY_CHANGED addr 0x2bfeabc size 0x90 virtual false final false
+  /// @brief Method ON_MATERIAL_PROPERTY_CHANGED addr 0x2a7ad68 size 0x90 virtual false final false
   static inline void ON_MATERIAL_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Material* mat);
 
-  /// @brief Method ON_FONT_PROPERTY_CHANGED addr 0x2bfeb4c size 0x90 virtual false final false
+  /// @brief Method ON_FONT_PROPERTY_CHANGED addr 0x2a7adf8 size 0x90 virtual false final false
   static inline void ON_FONT_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Object* obj);
 
-  /// @brief Method ON_SPRITE_ASSET_PROPERTY_CHANGED addr 0x2bfebdc size 0x90 virtual false final false
+  /// @brief Method ON_SPRITE_ASSET_PROPERTY_CHANGED addr 0x2a7ae88 size 0x90 virtual false final false
   static inline void ON_SPRITE_ASSET_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Object* obj);
 
-  /// @brief Method ON_TEXTMESHPRO_PROPERTY_CHANGED addr 0x2bfec6c size 0x90 virtual false final false
+  /// @brief Method ON_TEXTMESHPRO_PROPERTY_CHANGED addr 0x2a7af18 size 0x90 virtual false final false
   static inline void ON_TEXTMESHPRO_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Object* obj);
 
-  /// @brief Method ON_DRAG_AND_DROP_MATERIAL_CHANGED addr 0x2bfecfc size 0x98 virtual false final false
+  /// @brief Method ON_DRAG_AND_DROP_MATERIAL_CHANGED addr 0x2a7afa8 size 0x98 virtual false final false
   static inline void ON_DRAG_AND_DROP_MATERIAL_CHANGED(::UnityEngine::GameObject* sender, ::UnityEngine::Material* currentMaterial, ::UnityEngine::Material* newMaterial);
 
-  /// @brief Method ON_TEXT_STYLE_PROPERTY_CHANGED addr 0x2bfed94 size 0x80 virtual false final false
+  /// @brief Method ON_TEXT_STYLE_PROPERTY_CHANGED addr 0x2a7b040 size 0x80 virtual false final false
   static inline void ON_TEXT_STYLE_PROPERTY_CHANGED(bool isChanged);
 
-  /// @brief Method ON_COLOR_GRADIENT_PROPERTY_CHANGED addr 0x2bfee14 size 0x80 virtual false final false
+  /// @brief Method ON_COLOR_GRADIENT_PROPERTY_CHANGED addr 0x2a7b0c0 size 0x80 virtual false final false
   static inline void ON_COLOR_GRADIENT_PROPERTY_CHANGED(::UnityEngine::Object* obj);
 
-  /// @brief Method ON_TEXT_CHANGED addr 0x2bfee94 size 0x80 virtual false final false
+  /// @brief Method ON_TEXT_CHANGED addr 0x2a7b140 size 0x80 virtual false final false
   static inline void ON_TEXT_CHANGED(::UnityEngine::Object* obj);
 
-  /// @brief Method ON_TMP_SETTINGS_CHANGED addr 0x2bfef14 size 0x60 virtual false final false
+  /// @brief Method ON_TMP_SETTINGS_CHANGED addr 0x2a7b1c0 size 0x60 virtual false final false
   static inline void ON_TMP_SETTINGS_CHANGED();
 
-  /// @brief Method ON_RESOURCES_LOADED addr 0x2bfef74 size 0x60 virtual false final false
+  /// @brief Method ON_RESOURCES_LOADED addr 0x2a7b220 size 0x60 virtual false final false
   static inline void ON_RESOURCES_LOADED();
 
-  /// @brief Method ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED addr 0x2bfefd4 size 0x90 virtual false final false
+  /// @brief Method ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED addr 0x2a7b280 size 0x90 virtual false final false
   static inline void ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Object* obj);
 
-  /// @brief Method ON_COMPUTE_DT_EVENT addr 0x2bff064 size 0x90 virtual false final false
+  /// @brief Method ON_COMPUTE_DT_EVENT addr 0x2a7b310 size 0x90 virtual false final false
   static inline void ON_COMPUTE_DT_EVENT(::System::Object* Sender, ::TMPro::Compute_DT_EventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "TMPro_EventManager", modifiers: "&&", def_value: None }]

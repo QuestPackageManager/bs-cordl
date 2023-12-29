@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RequestStream)
+namespace System {
+class IAsyncResult;
+}
+namespace System::IO {
+class Stream;
+}
 namespace System::IO {
 struct SeekOrigin;
 }
 namespace System {
-class IAsyncResult;
-}
-namespace System {
 class AsyncCallback;
-}
-namespace System::IO {
-class Stream;
 }
 namespace System {
 class Object;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Net::RequestStream);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9198))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3607))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8035))
 // CS Name: ::System.Net::RequestStream*
 class CORDL_TYPE RequestStream : public ::System::IO::Stream {
 public:
@@ -104,63 +104,63 @@ public:
 
   static inline ::System::Net::RequestStream* New_ctor(::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
-  /// @brief Method .ctor addr 0x29d5718 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2858ea4 size 0x8 virtual false final false
   inline void _ctor(::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
   static inline ::System::Net::RequestStream* New_ctor(::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length, int64_t contentlength);
 
-  /// @brief Method .ctor addr 0x29d5720 size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x2858eac size 0x98 virtual false final false
   inline void _ctor(::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length, int64_t contentlength);
 
-  /// @brief Method get_CanRead addr 0x29d57b8 size 0x8 virtual true final false
+  /// @brief Method get_CanRead addr 0x2858f44 size 0x8 virtual true final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek addr 0x29d57c0 size 0x8 virtual true final false
+  /// @brief Method get_CanSeek addr 0x2858f4c size 0x8 virtual true final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite addr 0x29d57c8 size 0x8 virtual true final false
+  /// @brief Method get_CanWrite addr 0x2858f54 size 0x8 virtual true final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length addr 0x29d57d0 size 0x40 virtual true final false
+  /// @brief Method get_Length addr 0x2858f5c size 0x40 virtual true final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position addr 0x29d5810 size 0x40 virtual true final false
+  /// @brief Method get_Position addr 0x2858f9c size 0x40 virtual true final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position addr 0x29d5850 size 0x40 virtual true final false
+  /// @brief Method set_Position addr 0x2858fdc size 0x40 virtual true final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method Close addr 0x29d5890 size 0xc virtual true final false
+  /// @brief Method Close addr 0x285901c size 0xc virtual true final false
   inline void Close();
 
-  /// @brief Method Flush addr 0x29d589c size 0x4 virtual true final false
+  /// @brief Method Flush addr 0x2859028 size 0x4 virtual true final false
   inline void Flush();
 
-  /// @brief Method FillFromBuffer addr 0x29d58a0 size 0x29c virtual false final false
+  /// @brief Method FillFromBuffer addr 0x285902c size 0x29c virtual false final false
   inline int32_t FillFromBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t off, int32_t count);
 
-  /// @brief Method Read addr 0x29d5b3c size 0x11c virtual true final false
+  /// @brief Method Read addr 0x28592c8 size 0x11c virtual true final false
   inline int32_t Read(ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method BeginRead addr 0x29d5c58 size 0x20c virtual true final false
+  /// @brief Method BeginRead addr 0x28593e4 size 0x20c virtual true final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* cback, ::System::Object* state);
 
-  /// @brief Method EndRead addr 0x29d5e64 size 0x29c virtual true final false
+  /// @brief Method EndRead addr 0x28595f0 size 0x29c virtual true final false
   inline int32_t EndRead(::System::IAsyncResult* ares);
 
-  /// @brief Method Seek addr 0x29d6100 size 0x40 virtual true final false
+  /// @brief Method Seek addr 0x285988c size 0x40 virtual true final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength addr 0x29d6140 size 0x40 virtual true final false
+  /// @brief Method SetLength addr 0x28598cc size 0x40 virtual true final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write addr 0x29d6180 size 0x40 virtual true final false
+  /// @brief Method Write addr 0x285990c size 0x40 virtual true final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method BeginWrite addr 0x29d61c0 size 0x40 virtual true final false
+  /// @brief Method BeginWrite addr 0x285994c size 0x40 virtual true final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* cback, ::System::Object* state);
 
-  /// @brief Method EndWrite addr 0x29d6200 size 0x40 virtual true final false
+  /// @brief Method EndWrite addr 0x285998c size 0x40 virtual true final false
   inline void EndWrite(::System::IAsyncResult* async_result);
 
   // Ctor Parameters [CppParam { name: "", ty: "RequestStream", modifiers: "&&", def_value: None }]
@@ -199,6 +199,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::RequestStream, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::RequestStream, ___buffer) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::RequestStream, ___offset) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::RequestStream, ___length) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::RequestStream, ___remaining_body) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::RequestStream, ___disposed) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::RequestStream, ___stream) == 0x48, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::RequestStream);

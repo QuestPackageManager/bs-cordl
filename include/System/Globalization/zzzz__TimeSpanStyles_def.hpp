@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::TimeSpanStyles);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3693))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3681))
 // CS Name: ::System.Globalization::TimeSpanStyles
 struct CORDL_TYPE TimeSpanStyles {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::TimeSpanStyles, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::TimeSpanStyles, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::TimeSpanStyles, "System.Globalization", "TimeSpanStyles");

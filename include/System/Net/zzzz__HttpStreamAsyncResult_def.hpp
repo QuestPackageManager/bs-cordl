@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpStreamAsyncResult)
 namespace System::Threading {
-class WaitHandle;
-}
-namespace System {
-class Exception;
-}
-namespace System::Threading {
 class ManualResetEvent;
 }
 namespace System {
-class AsyncCallback;
+class Object;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
-class Object;
+class AsyncCallback;
+}
+namespace System {
+class Exception;
+}
+namespace System::Threading {
+class WaitHandle;
 }
 // Forward declare root types
 namespace System::Net {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::System::Net::HttpStreamAsyncResult);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9178))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8015))
 // CS Name: ::System.Net::HttpStreamAsyncResult*
 class CORDL_TYPE HttpStreamAsyncResult : public ::System::Object {
 public:
@@ -141,27 +141,27 @@ public:
 
   constexpr void __set_Error(::System::Exception* value);
 
-  /// @brief Method Complete addr 0x29bd058 size 0x8 virtual false final false
+  /// @brief Method Complete addr 0x283f7e0 size 0x8 virtual false final false
   inline void Complete(::System::Exception* e);
 
-  /// @brief Method Complete addr 0x29bc994 size 0x100 virtual false final false
+  /// @brief Method Complete addr 0x283f11c size 0x100 virtual false final false
   inline void Complete();
 
-  /// @brief Method get_AsyncState addr 0x29cb9c8 size 0x8 virtual true final true
+  /// @brief Method get_AsyncState addr 0x284e154 size 0x8 virtual true final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle addr 0x29cb9d0 size 0x13c virtual true final true
+  /// @brief Method get_AsyncWaitHandle addr 0x284e15c size 0x13c virtual true final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously addr 0x29cbb0c size 0x14 virtual true final true
+  /// @brief Method get_CompletedSynchronously addr 0x284e298 size 0x14 virtual true final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted addr 0x29cbb20 size 0xc8 virtual true final true
+  /// @brief Method get_IsCompleted addr 0x284e2ac size 0xc8 virtual true final true
   inline bool get_IsCompleted();
 
   static inline ::System::Net::HttpStreamAsyncResult* New_ctor();
 
-  /// @brief Method .ctor addr 0x29bc92c size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x283f0b4 size 0x68 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpStreamAsyncResult", modifiers: "&&", def_value: None }]
@@ -212,6 +212,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::HttpStreamAsyncResult, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::HttpStreamAsyncResult, ___locker) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpStreamAsyncResult, ___handle) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpStreamAsyncResult, ___completed) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpStreamAsyncResult, ___Buffer) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpStreamAsyncResult, ___Offset) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpStreamAsyncResult, ___Count) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpStreamAsyncResult, ___Callback) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpStreamAsyncResult, ___State) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpStreamAsyncResult, ___SynchRead) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::HttpStreamAsyncResult, ___Error) == 0x50, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::HttpStreamAsyncResult);

@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::LeaderboardFilterType);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13253))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13257))
 // CS Name: ::Oculus.Platform::LeaderboardFilterType
 struct CORDL_TYPE LeaderboardFilterType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::LeaderboardFilterType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::LeaderboardFilterType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::LeaderboardFilterType, "Oculus.Platform", "LeaderboardFilterType");

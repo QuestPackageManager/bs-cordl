@@ -12,11 +12,11 @@ class SecureRandom;
 namespace Org::BouncyCastle::Crypto::Prng {
 class IDrbgProvider;
 }
-namespace Org::BouncyCastle::Crypto::Prng::Drbg {
-class ISP80090Drbg;
-}
 namespace Org::BouncyCastle::Crypto {
 class IEntropySource;
+}
+namespace Org::BouncyCastle::Crypto::Prng::Drbg {
+class ISP80090Drbg;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -82,26 +82,26 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom* New_ctor(::Org::BouncyCastle::Security::SecureRandom* randomSource, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
                                                                                ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* drbgProvider, bool predictionResistant);
 
-  /// @brief Method .ctor addr 0xf43c90 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0xecdaa4 size 0x88 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* randomSource, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
                     ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* drbgProvider, bool predictionResistant);
 
-  /// @brief Method SetSeed addr 0xf43d18 size 0xb4 virtual true final false
+  /// @brief Method SetSeed addr 0xecdb2c size 0xb4 virtual true final false
   inline void SetSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method SetSeed addr 0xf43dcc size 0xb4 virtual true final false
+  /// @brief Method SetSeed addr 0xecdbe0 size 0xb4 virtual true final false
   inline void SetSeed(int64_t seed);
 
-  /// @brief Method NextBytes addr 0xf43e80 size 0x2e0 virtual true final false
+  /// @brief Method NextBytes addr 0xecdc94 size 0x2e0 virtual true final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method NextBytes addr 0xf44160 size 0x98 virtual true final false
+  /// @brief Method NextBytes addr 0xecdf74 size 0x98 virtual true final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method GenerateSeed addr 0xf441f8 size 0x8 virtual true final false
+  /// @brief Method GenerateSeed addr 0xece00c size 0x8 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSeed(int32_t numBytes);
 
-  /// @brief Method Reseed addr 0xf44200 size 0x1d4 virtual true final false
+  /// @brief Method Reseed addr 0xece014 size 0x1d4 virtual true final false
   inline void Reseed(::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput);
 
   // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandom", modifiers: "&&", def_value: None }]
@@ -137,6 +137,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom, ___mDrbgProvider) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom, ___mPredictionResistant) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom, ___mRandomSource) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom, ___mEntropySource) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom, ___mDrbg) == 0x48, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Prng
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom);

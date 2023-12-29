@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(UnionFacetsChecker)
 namespace System {
 class Object;
 }
-namespace System::Collections {
-class ArrayList;
-}
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
 namespace System {
 class Exception;
+}
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -26,21 +26,21 @@ MARK_REF_PTR_T(::System::Xml::Schema::UnionFacetsChecker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11686))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11696))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11614))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11624))
 // CS Name: ::System.Xml.Schema::UnionFacetsChecker*
 class CORDL_TYPE UnionFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets addr 0x28c3918 size 0xf4 virtual true final false
+  /// @brief Method CheckValueFacets addr 0x27458f4 size 0xf4 virtual true final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration addr 0x28c3a0c size 0xb4 virtual true final false
+  /// @brief Method MatchEnumeration addr 0x27459e8 size 0xb4 virtual true final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::UnionFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x28c3ac0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2745a9c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnionFacetsChecker", modifiers: "&&", def_value: None }]

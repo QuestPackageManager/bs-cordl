@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::KeyValuePairType);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13250))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13254))
 // CS Name: ::Oculus.Platform::KeyValuePairType
 struct CORDL_TYPE KeyValuePairType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::KeyValuePairType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::KeyValuePairType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::KeyValuePairType, "Oculus.Platform", "KeyValuePairType");

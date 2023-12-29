@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_VolumeTileInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9747))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9674))
 // CS Name: ::HoudiniEngineUnity::HAPI_VolumeTileInfo
 struct CORDL_TYPE HAPI_VolumeTileInfo {
 public:
@@ -48,6 +48,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_VolumeTileInfo, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeTileInfo, minX) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeTileInfo, minY) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeTileInfo, minZ) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeTileInfo, isValid) == 0xc, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_VolumeTileInfo, "HoudiniEngineUnity", "HAPI_VolumeTileInfo");

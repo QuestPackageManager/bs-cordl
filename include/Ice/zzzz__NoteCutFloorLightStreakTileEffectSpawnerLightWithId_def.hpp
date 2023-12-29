@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(NoteCutFloorLightStreakTileEffectSpawnerLightWithId)
-namespace Ice {
-class NoteCutFloorLightStreakTileEffectSpawner;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace Ice {
+class NoteCutFloorLightStreakTileEffectSpawner;
 }
 // Forward declare root types
 namespace Ice {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16172))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16012))
 // CS Name: ::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId*
 class CORDL_TYPE NoteCutFloorLightStreakTileEffectSpawnerLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -36,12 +36,12 @@ public:
 
   constexpr void __set__noteCutFloorLightStreakTileEffectSpawner(::Ice::NoteCutFloorLightStreakTileEffectSpawner* value);
 
-  /// @brief Method ColorWasSet addr 0x12a0050 size 0x20 virtual true final false
+  /// @brief Method ColorWasSet addr 0x122dd28 size 0x20 virtual true final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId* New_ctor();
 
-  /// @brief Method .ctor addr 0x12a0070 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x122dd48 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutFloorLightStreakTileEffectSpawnerLightWithId", modifiers: "&&", def_value: None }]
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId, ____noteCutFloorLightStreakTileEffectSpawner) == 0x30, "Offset mismatch!");
 
 } // namespace Ice
 NEED_NO_BOX(::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId);

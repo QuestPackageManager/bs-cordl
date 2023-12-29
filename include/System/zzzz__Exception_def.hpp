@@ -9,7 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Exception)
 namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System {
+class Object;
+}
+namespace System::Runtime::Serialization {
 class SafeSerializationManager;
+}
+namespace System::Diagnostics {
+class StackTrace;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -17,26 +29,14 @@ class SerializationInfo;
 namespace System::Runtime::ExceptionServices {
 class ExceptionDispatchInfo;
 }
-namespace System::Collections {
-class IDictionary;
-}
 namespace System {
-class Object;
+class Type;
 }
 namespace System {
 struct __Exception__ExceptionMessageKind;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Diagnostics {
-class StackTrace;
-}
-namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System {
@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::System::Exception);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2560))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2558))
 // CS Name: ::Exception::ExceptionMessageKind
 struct CORDL_TYPE __Exception__ExceptionMessageKind {
 public:
@@ -99,13 +99,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::__Exception__ExceptionMessageKind, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::System::__Exception__ExceptionMessageKind, value__) == 0x0, "Offset mismatch!");
+
 } // namespace System
 // Type: System::Exception
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2561))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2559))
 // CS Name: ::System::Exception*
 class CORDL_TYPE Exception : public ::System::Object {
 public:
@@ -278,87 +280,87 @@ public:
 
   static inline ::System::Object* getStaticF_s_EDILock();
 
-  /// @brief Method Init addr 0x25e68f4 size 0x78 virtual false final false
+  /// @brief Method Init addr 0x248a9cc size 0x78 virtual false final false
   inline void Init();
 
   static inline ::System::Exception* New_ctor();
 
-  /// @brief Method .ctor addr 0x25e696c size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x248aa44 size 0x1c virtual false final false
   inline void _ctor();
 
   static inline ::System::Exception* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x25e6988 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x248aa60 size 0x30 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Exception* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor addr 0x25e69b8 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x248aa90 size 0x38 virtual false final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::System::Exception* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x25e69f0 size 0x468 virtual false final false
+  /// @brief Method .ctor addr 0x248aac8 size 0x468 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Message addr 0x25e6e58 size 0xd8 virtual true final false
+  /// @brief Method get_Message addr 0x248af30 size 0xd8 virtual true final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_Data addr 0x25e6f6c size 0x6c virtual true final false
+  /// @brief Method get_Data addr 0x248b044 size 0x6c virtual true final false
   inline ::System::Collections::IDictionary* get_Data();
 
-  /// @brief Method GetClassName addr 0x25e6f30 size 0x3c virtual false final false
+  /// @brief Method GetClassName addr 0x248b008 size 0x3c virtual false final false
   inline ::StringW GetClassName();
 
-  /// @brief Method get_InnerException addr 0x25e6fe0 size 0x8 virtual true final true
+  /// @brief Method get_InnerException addr 0x248b0b8 size 0x8 virtual true final true
   inline ::System::Exception* get_InnerException();
 
-  /// @brief Method get_StackTrace addr 0x25e6fe8 size 0x8 virtual true final false
+  /// @brief Method get_StackTrace addr 0x248b0c0 size 0x8 virtual true final false
   inline ::StringW get_StackTrace();
 
-  /// @brief Method GetStackTrace addr 0x25e6ff0 size 0x4c virtual false final false
+  /// @brief Method GetStackTrace addr 0x248b0c8 size 0x4c virtual false final false
   inline ::StringW GetStackTrace(bool needFileInfo);
 
-  /// @brief Method SetErrorCode addr 0x25e7044 size 0x8 virtual false final false
+  /// @brief Method SetErrorCode addr 0x248b11c size 0x8 virtual false final false
   inline void SetErrorCode(int32_t hr);
 
-  /// @brief Method get_Source addr 0x25e704c size 0x10c virtual true final false
+  /// @brief Method get_Source addr 0x248b124 size 0x10c virtual true final false
   inline ::StringW get_Source();
 
-  /// @brief Method ToString addr 0x25e7158 size 0xc virtual true final false
+  /// @brief Method ToString addr 0x248b230 size 0xc virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString addr 0x25e7164 size 0x2a4 virtual false final false
+  /// @brief Method ToString addr 0x248b23c size 0x2a4 virtual false final false
   inline ::StringW ToString(bool needFileLineInfo, bool needMessage);
 
-  /// @brief Method GetObjectData addr 0x25e7408 size 0x4ac virtual true final false
+  /// @brief Method GetObjectData addr 0x248b4e0 size 0x4ac virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method OnDeserialized addr 0x25e78b4 size 0x80 virtual false final false
+  /// @brief Method OnDeserialized addr 0x248b98c size 0x80 virtual false final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method StripFileInfo addr 0x25e703c size 0x8 virtual false final false
+  /// @brief Method StripFileInfo addr 0x248b114 size 0x8 virtual false final false
   inline ::StringW StripFileInfo(::StringW stackTrace, bool isRemoteStackTrace);
 
-  /// @brief Method RestoreExceptionDispatchInfo addr 0x25e7934 size 0x9c virtual false final false
+  /// @brief Method RestoreExceptionDispatchInfo addr 0x248ba0c size 0x9c virtual false final false
   inline void RestoreExceptionDispatchInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* exceptionDispatchInfo);
 
-  /// @brief Method get_HResult addr 0x25e79d0 size 0x8 virtual false final false
+  /// @brief Method get_HResult addr 0x248baa8 size 0x8 virtual false final false
   inline int32_t get_HResult();
 
-  /// @brief Method set_HResult addr 0x25e79d8 size 0x8 virtual false final false
+  /// @brief Method set_HResult addr 0x248bab0 size 0x8 virtual false final false
   inline void set_HResult(int32_t value);
 
-  /// @brief Method GetType addr 0x25e6fd8 size 0x8 virtual true final true
+  /// @brief Method GetType addr 0x248b0b0 size 0x8 virtual true final true
   inline ::System::Type* GetType();
 
-  /// @brief Method GetMessageFromNativeResources addr 0x25e79e0 size 0x84 virtual false final false
+  /// @brief Method GetMessageFromNativeResources addr 0x248bab8 size 0x84 virtual false final false
   static inline ::StringW GetMessageFromNativeResources(::System::__Exception__ExceptionMessageKind kind);
 
-  /// @brief Method FixRemotingException addr 0x25e7a64 size 0xe8 virtual false final false
+  /// @brief Method FixRemotingException addr 0x248bb3c size 0xe8 virtual false final false
   inline ::System::Exception* FixRemotingException();
 
-  /// @brief Method ReportUnhandledException addr 0x25e7b4c size 0x4 virtual false final false
+  /// @brief Method ReportUnhandledException addr 0x248bc24 size 0x4 virtual false final false
   static inline void ReportUnhandledException(::System::Exception* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "Exception", modifiers: "&&", def_value: None }]
@@ -430,6 +432,38 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Exception, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::System::Exception, ____className) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Exception, ____message) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Exception, ____data) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Exception, ____innerException) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Exception, ____helpURL) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Exception, ____stackTrace) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Exception, ____stackTraceString) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Exception, ____remoteStackTraceString) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Exception, ____remoteStackIndex) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Exception, ____dynamicMethods) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Exception, ____HResult) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Exception, ____source) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Exception, ____safeSerializationManager) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::Exception, ___captured_traces) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::System::Exception, ___native_trace_ips) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::System::Exception, ___caught_in_unmanaged) == 0x88, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::__Exception__ExceptionMessageKind, "System", "Exception/ExceptionMessageKind");

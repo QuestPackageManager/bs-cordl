@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::ComponentModel::AmbientValueAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9401))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8238))
 // CS Name: ::System.ComponentModel::AmbientValueAttribute*
 class CORDL_TYPE AmbientValueAttribute : public ::System::Attribute {
 public:
@@ -34,7 +34,7 @@ public:
 
   constexpr void __set__Value_k__BackingField(::System::Object* value);
 
-  /// @brief Method get_Value addr 0x2905164 size 0x8 virtual false final false
+  /// @brief Method get_Value addr 0x278713c size 0x8 virtual false final false
   inline ::System::Object* get_Value();
 
   // Ctor Parameters [CppParam { name: "", ty: "AmbientValueAttribute", modifiers: "&&", def_value: None }]
@@ -58,6 +58,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::AmbientValueAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::AmbientValueAttribute, ____Value_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::AmbientValueAttribute);

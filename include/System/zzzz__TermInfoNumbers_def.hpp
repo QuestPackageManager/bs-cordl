@@ -16,7 +16,7 @@ MARK_VAL_T(::System::TermInfoNumbers);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2624))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2622))
 // CS Name: ::System::TermInfoNumbers
 struct CORDL_TYPE TermInfoNumbers {
 public:
@@ -185,6 +185,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::TermInfoNumbers, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::TermInfoNumbers, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::TermInfoNumbers, "System", "TermInfoNumbers");

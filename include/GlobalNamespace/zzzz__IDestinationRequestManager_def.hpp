@@ -3,11 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDestinationRequestManager)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class MenuDestination;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IDestinationRequestManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4149))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4183))
 // CS Name: ::IDestinationRequestManager*
 class CORDL_TYPE IDestinationRequestManager {
 public:

@@ -11,11 +11,11 @@ class Thread;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Diagnostics {
-class StackTrace;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Diagnostics {
+class StackTrace;
 }
 // Forward declare root types
 namespace System::Net::Sockets {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::System::Net::Sockets::SafeSocketHandle);
 namespace System::Net::Sockets {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2302))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9356))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8193))
 // CS Name: ::System.Net.Sockets::SafeSocketHandle*
 class CORDL_TYPE SafeSocketHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid {
 public:
@@ -71,16 +71,16 @@ public:
 
   static inline ::System::Net::Sockets::SafeSocketHandle* New_ctor(void* preexistingHandle, bool ownsHandle);
 
-  /// @brief Method .ctor addr 0x28fdcfc size 0xcc virtual false final false
+  /// @brief Method .ctor addr 0x277fcd8 size 0xcc virtual false final false
   inline void _ctor(void* preexistingHandle, bool ownsHandle);
 
-  /// @brief Method ReleaseHandle addr 0x28fddc8 size 0x5cc virtual true final false
+  /// @brief Method ReleaseHandle addr 0x277fda4 size 0x5cc virtual true final false
   inline bool ReleaseHandle();
 
-  /// @brief Method RegisterForBlockingSyscall addr 0x28fe394 size 0x148 virtual false final false
+  /// @brief Method RegisterForBlockingSyscall addr 0x2780370 size 0x148 virtual false final false
   inline void RegisterForBlockingSyscall();
 
-  /// @brief Method UnRegisterForBlockingSyscall addr 0x28fe4dc size 0x1f0 virtual false final false
+  /// @brief Method UnRegisterForBlockingSyscall addr 0x27804b8 size 0x1f0 virtual false final false
   inline void UnRegisterForBlockingSyscall();
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeSocketHandle", modifiers: "&&", def_value: None }]
@@ -116,6 +116,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::SafeSocketHandle, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SafeSocketHandle, ___blocking_threads) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SafeSocketHandle, ___threads_stacktraces) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SafeSocketHandle, ___in_cleanup) == 0x30, "Offset mismatch!");
 
 } // namespace System::Net::Sockets
 NEED_NO_BOX(::System::Net::Sockets::SafeSocketHandle);

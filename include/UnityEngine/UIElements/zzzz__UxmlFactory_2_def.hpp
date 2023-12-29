@@ -12,10 +12,10 @@ namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct CreationContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -29,8 +29,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TCreatedType, typename TTraits>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6997))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7083))
 // CS Name: ::UnityEngine.UIElements::UxmlFactory`2<TCreatedType,TTraits>*
 class CORDL_TYPE UxmlFactory_2 : public ::System::Object {
 public:

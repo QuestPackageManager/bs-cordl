@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LeaderboardTableCell)
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LeaderboardTableCell);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5427))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13781)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5527))
 // CS Name: ::LeaderboardTableCell*
 class CORDL_TYPE LeaderboardTableCell : public ::HMUI::TableCell {
 public:
@@ -104,27 +104,27 @@ public:
 
   constexpr void __set__separatorImage(::UnityEngine::UI::Image* value);
 
-  /// @brief Method set_rank addr 0x227aa18 size 0x48 virtual false final false
+  /// @brief Method set_rank addr 0x213795c size 0x48 virtual false final false
   inline void set_rank(int32_t value);
 
-  /// @brief Method set_playerName addr 0x227aa60 size 0x24 virtual false final false
+  /// @brief Method set_playerName addr 0x21379a4 size 0x24 virtual false final false
   inline void set_playerName(::StringW value);
 
-  /// @brief Method set_score addr 0x227aa84 size 0xa0 virtual false final false
+  /// @brief Method set_score addr 0x21379c8 size 0xa0 virtual false final false
   inline void set_score(int32_t value);
 
-  /// @brief Method set_showSeparator addr 0x227ab24 size 0x20 virtual false final false
+  /// @brief Method set_showSeparator addr 0x2137a68 size 0x20 virtual false final false
   inline void set_showSeparator(bool value);
 
-  /// @brief Method set_showFullCombo addr 0x227ab44 size 0x20 virtual false final false
+  /// @brief Method set_showFullCombo addr 0x2137a88 size 0x20 virtual false final false
   inline void set_showFullCombo(bool value);
 
-  /// @brief Method set_specialScore addr 0x227ab64 size 0xf8 virtual false final false
+  /// @brief Method set_specialScore addr 0x2137aa8 size 0xf8 virtual false final false
   inline void set_specialScore(bool value);
 
   static inline ::GlobalNamespace::LeaderboardTableCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x227ac5c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2137ba0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableCell", modifiers: "&&", def_value: None }]
@@ -166,6 +166,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LeaderboardTableCell, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____rankText) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____playerNameText) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____scoreText) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____fullComboText) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____normalColor) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____specialScoreColor) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____separatorImage) == 0x98, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LeaderboardTableCell);

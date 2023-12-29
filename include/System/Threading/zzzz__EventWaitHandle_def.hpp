@@ -18,26 +18,26 @@ MARK_REF_PTR_T(::System::Threading::EventWaitHandle);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2740))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2708))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2738))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2706))
 // CS Name: ::System.Threading::EventWaitHandle*
 class CORDL_TYPE EventWaitHandle : public ::System::Threading::WaitHandle {
 public:
   // Declarations
   static inline ::System::Threading::EventWaitHandle* New_ctor(bool initialState, ::System::Threading::EventResetMode mode);
 
-  /// @brief Method .ctor addr 0x260fc04 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x24b4c7c size 0xc virtual false final false
   inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode);
 
   static inline ::System::Threading::EventWaitHandle* New_ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
 
-  /// @brief Method .ctor addr 0x2616974 size 0x2c0 virtual false final false
+  /// @brief Method .ctor addr 0x24bb958 size 0x2c0 virtual false final false
   inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
 
-  /// @brief Method Reset addr 0x2614cb8 size 0x64 virtual false final false
+  /// @brief Method Reset addr 0x24b9c9c size 0x64 virtual false final false
   inline bool Reset();
 
-  /// @brief Method Set addr 0x2611530 size 0x64 virtual false final false
+  /// @brief Method Set addr 0x24b65a8 size 0x64 virtual false final false
   inline bool Set();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventWaitHandle", modifiers: "&&", def_value: None }]

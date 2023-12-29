@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Diagnostics::DebuggerTypeProxyAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3736))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3724))
 // CS Name: ::System.Diagnostics::DebuggerTypeProxyAttribute*
 class CORDL_TYPE DebuggerTypeProxyAttribute : public ::System::Attribute {
 public:
@@ -35,7 +35,7 @@ public:
 
   static inline ::System::Diagnostics::DebuggerTypeProxyAttribute* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor addr 0x2579cc4 size 0xe8 virtual false final false
+  /// @brief Method .ctor addr 0x241e84c size 0xe8 virtual false final false
   inline void _ctor(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "DebuggerTypeProxyAttribute", modifiers: "&&", def_value: None }]
@@ -59,6 +59,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::DebuggerTypeProxyAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::DebuggerTypeProxyAttribute, ___typeName) == 0x10, "Offset mismatch!");
 
 } // namespace System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::DebuggerTypeProxyAttribute);

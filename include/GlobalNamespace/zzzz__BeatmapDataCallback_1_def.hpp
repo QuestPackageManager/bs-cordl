@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataCallback_1)
 namespace System {
+class Object;
+}
+namespace System {
 class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4710))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4831))
 // CS Name: ::BeatmapDataCallback`1<T>*
 class CORDL_TYPE BeatmapDataCallback_1 : public ::System::MulticastDelegate {
 public:

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ResetPitchOnGameplayFinished)
 namespace GlobalNamespace {
-class GameplayLevelSceneTransitionEvents;
+class AudioManagerSO;
 }
 namespace GlobalNamespace {
-class AudioManagerSO;
+class GameplayLevelSceneTransitionEvents;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ResetPitchOnGameplayFinished);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4076))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4064))
 // CS Name: ::ResetPitchOnGameplayFinished*
 class CORDL_TYPE ResetPitchOnGameplayFinished : public ::System::Object {
 public:
@@ -48,13 +48,13 @@ public:
   static inline ::GlobalNamespace::ResetPitchOnGameplayFinished* New_ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents,
                                                                           ::GlobalNamespace::AudioManagerSO* audioManager);
 
-  /// @brief Method .ctor addr 0x222ff5c size 0xa8 virtual false final false
+  /// @brief Method .ctor addr 0x20d0470 size 0xa8 virtual false final false
   inline void _ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents, ::GlobalNamespace::AudioManagerSO* audioManager);
 
-  /// @brief Method Finalize addr 0x2230004 size 0x110 virtual true final false
+  /// @brief Method Finalize addr 0x20d0518 size 0x110 virtual true final false
   inline void Finalize();
 
-  /// @brief Method HandleAnyGameplayLevelDidFinish addr 0x2230114 size 0x20 virtual false final false
+  /// @brief Method HandleAnyGameplayLevelDidFinish addr 0x20d0628 size 0x20 virtual false final false
   inline void HandleAnyGameplayLevelDidFinish();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResetPitchOnGameplayFinished", modifiers: "&&", def_value: None }]
@@ -81,6 +81,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResetPitchOnGameplayFinished, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ResetPitchOnGameplayFinished, ____gameplayLevelSceneTransitionEvents) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ResetPitchOnGameplayFinished, ____audioManager) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ResetPitchOnGameplayFinished);

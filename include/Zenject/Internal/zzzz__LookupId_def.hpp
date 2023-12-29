@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::Zenject::Internal::LookupId);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11158)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11367))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11086)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11295))
 // CS Name: ::Zenject.Internal::LookupId*
 class CORDL_TYPE LookupId : public ::System::Object {
 public:
@@ -48,15 +48,15 @@ public:
 
   static inline ::Zenject::Internal::LookupId* New_ctor();
 
-  /// @brief Method .ctor addr 0x2f213bc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2db95ec size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::Zenject::Internal::LookupId* New_ctor(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId);
 
-  /// @brief Method .ctor addr 0x2f213c4 size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0x2db95f4 size 0x9c virtual false final false
   inline void _ctor(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId);
 
-  /// @brief Method GetHashCode addr 0x2f21460 size 0x50 virtual true final false
+  /// @brief Method GetHashCode addr 0x2db9690 size 0x50 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "LookupId", modifiers: "&&", def_value: None }]
@@ -83,6 +83,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::Internal::LookupId, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::Internal::LookupId, ___Provider) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::Internal::LookupId, ___BindingId) == 0x18, "Offset mismatch!");
 
 } // namespace Zenject::Internal
 NEED_NO_BOX(::Zenject::Internal::LookupId);

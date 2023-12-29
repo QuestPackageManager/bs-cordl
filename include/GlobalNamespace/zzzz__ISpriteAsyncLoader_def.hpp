@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ISpriteAsyncLoader);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5898))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5989))
 // CS Name: ::ISpriteAsyncLoader*
 class CORDL_TYPE ISpriteAsyncLoader {
 public:

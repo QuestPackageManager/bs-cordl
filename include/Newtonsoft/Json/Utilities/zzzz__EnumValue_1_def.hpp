@@ -17,8 +17,8 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11887))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11815))
 // CS Name: ::Newtonsoft.Json.Utilities::EnumValue`1<T>*
 class CORDL_TYPE EnumValue_1 : public ::System::Object {
 public:

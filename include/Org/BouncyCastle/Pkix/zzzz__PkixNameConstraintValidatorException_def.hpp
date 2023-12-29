@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1727))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixNameConstraintValidatorException*
 class CORDL_TYPE PkixNameConstraintValidatorException : public ::System::Exception {
@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException* New_ctor(::StringW msg);
 
-  /// @brief Method .ctor addr 0x110afd0 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x1099d7c size 0x68 virtual false final false
   inline void _ctor(::StringW msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixNameConstraintValidatorException", modifiers: "&&", def_value: None }]

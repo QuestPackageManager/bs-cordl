@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::Input::OculusRemote);
 // SizeInfo { instance_size: 368, native_size: -1, calculated_instance_size: 368, calculated_native_size: 368, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus::Input {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6239))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15156))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6325))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15297))
 // CS Name: ::Unity.XR.Oculus.Input::OculusRemote*
 class CORDL_TYPE OculusRemote : public ::UnityEngine::InputSystem::InputDevice {
 public:
@@ -59,30 +59,30 @@ public:
 
   constexpr void __set__touchpad_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method get_back addr 0x2c7ca58 size 0x8 virtual false final false
+  /// @brief Method get_back addr 0x2af8d30 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_back();
 
-  /// @brief Method set_back addr 0x2c7ca60 size 0x8 virtual false final false
+  /// @brief Method set_back addr 0x2af8d38 size 0x8 virtual false final false
   inline void set_back(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_start addr 0x2c7ca68 size 0x8 virtual false final false
+  /// @brief Method get_start addr 0x2af8d40 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_start();
 
-  /// @brief Method set_start addr 0x2c7ca70 size 0x8 virtual false final false
+  /// @brief Method set_start addr 0x2af8d48 size 0x8 virtual false final false
   inline void set_start(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_touchpad addr 0x2c7ca78 size 0x8 virtual false final false
+  /// @brief Method get_touchpad addr 0x2af8d50 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_touchpad();
 
-  /// @brief Method set_touchpad addr 0x2c7ca80 size 0x8 virtual false final false
+  /// @brief Method set_touchpad addr 0x2af8d58 size 0x8 virtual false final false
   inline void set_touchpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method FinishSetup addr 0x2c7ca88 size 0xe8 virtual true final false
+  /// @brief Method FinishSetup addr 0x2af8d60 size 0xe8 virtual true final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::Oculus::Input::OculusRemote* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c7cb70 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2af8e48 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusRemote", modifiers: "&&", def_value: None }]
@@ -112,6 +112,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::Input::OculusRemote, 0x170>, "Size mismatch!");
+
+static_assert(offsetof(::Unity::XR::Oculus::Input::OculusRemote, ____back_k__BackingField) == 0x158, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::Oculus::Input::OculusRemote, ____start_k__BackingField) == 0x160, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::XR::Oculus::Input::OculusRemote, ____touchpad_k__BackingField) == 0x168, "Offset mismatch!");
 
 } // namespace Unity::XR::Oculus::Input
 NEED_NO_BOX(::Unity::XR::Oculus::Input::OculusRemote);

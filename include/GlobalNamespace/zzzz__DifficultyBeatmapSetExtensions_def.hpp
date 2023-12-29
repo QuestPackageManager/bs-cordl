@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DifficultyBeatmapSetExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4398))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4420))
 // CS Name: ::DifficultyBeatmapSetExtensions*
 class CORDL_TYPE DifficultyBeatmapSetExtensions : public ::System::Object {
 public:

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Vector2Tween)
+namespace System {
+template <typename T> class Action_1;
+}
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class StaticMemoryPool_7;
 }
 namespace GlobalNamespace {
 struct EaseType;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::Tweening::Vector2Tween);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16099), inst: 411 }), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16099))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16094)) CS Name: ::Tweening::Vector2Tween*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15953)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15953), inst: 406 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10170))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15948)) CS Name: ::Tweening::Vector2Tween*
 class CORDL_TYPE Vector2Tween : public ::Tweening::Tween_1<::UnityEngine::Vector2> {
 public:
   // Declarations
@@ -46,17 +46,17 @@ public:
 
   static inline ::Tweening::Vector2Tween* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a0dc68 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x288ff20 size 0x48 virtual false final false
   inline void _ctor();
 
   static inline ::Tweening::Vector2Tween* New_ctor(::UnityEngine::Vector2 fromValue, ::UnityEngine::Vector2 toValue, ::System::Action_1<::UnityEngine::Vector2>* onUpdate, float_t duration,
                                                    ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method .ctor addr 0x2a0dcb0 size 0xa8 virtual false final false
+  /// @brief Method .ctor addr 0x288ff68 size 0xa8 virtual false final false
   inline void _ctor(::UnityEngine::Vector2 fromValue, ::UnityEngine::Vector2 toValue, ::System::Action_1<::UnityEngine::Vector2>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType,
                     float_t delay);
 
-  /// @brief Method GetValue addr 0x2a0dd58 size 0x34 virtual true final false
+  /// @brief Method GetValue addr 0x2890010 size 0x34 virtual true final false
   inline ::UnityEngine::Vector2 GetValue(float_t t);
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector2Tween", modifiers: "&&", def_value: None }]

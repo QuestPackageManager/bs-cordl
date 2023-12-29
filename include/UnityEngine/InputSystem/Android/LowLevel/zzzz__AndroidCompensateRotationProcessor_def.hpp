@@ -20,18 +20,18 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateR
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6583))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6459))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6669))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6545))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidCompensateRotationProcessor*
 class CORDL_TYPE AndroidCompensateRotationProcessor : public ::UnityEngine::InputSystem::Processors::CompensateRotationProcessor {
 public:
   // Declarations
-  /// @brief Method Process addr 0x2ae6f64 size 0x34 virtual true final false
+  /// @brief Method Process addr 0x296721c size 0x34 virtual true final false
   inline ::UnityEngine::Quaternion Process(::UnityEngine::Quaternion value, ::UnityEngine::InputSystem::InputControl* control);
 
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ae6f98 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2967250 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidCompensateRotationProcessor", modifiers: "&&", def_value: None }]

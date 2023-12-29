@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::CustomConstantAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3365))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3361))
 // CS Name: ::System.Runtime.CompilerServices::CustomConstantAttribute*
 class CORDL_TYPE CustomConstantAttribute : public ::System::Attribute {
 public:
@@ -30,7 +30,7 @@ public:
 
   static inline ::System::Runtime::CompilerServices::CustomConstantAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x24daf30 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2381540 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomConstantAttribute", modifiers: "&&", def_value: None }]

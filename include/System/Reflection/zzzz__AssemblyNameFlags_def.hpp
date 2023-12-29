@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::AssemblyNameFlags);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3454))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3449))
 // CS Name: ::System.Reflection::AssemblyNameFlags
 struct CORDL_TYPE AssemblyNameFlags {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::AssemblyNameFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyNameFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::AssemblyNameFlags, "System.Reflection", "AssemblyNameFlags");

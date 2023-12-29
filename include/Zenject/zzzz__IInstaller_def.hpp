@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Zenject::IInstaller);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11129))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11057))
 // CS Name: ::Zenject::IInstaller*
 class CORDL_TYPE IInstaller {
 public:

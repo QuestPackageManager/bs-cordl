@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior);
 namespace UnityEngine::ProBuilder::KdTree {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15914))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15806))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::AddDuplicateBehavior
 struct CORDL_TYPE AddDuplicateBehavior {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder::KdTree
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior, "UnityEngine.ProBuilder.KdTree", "AddDuplicateBehavior");

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Sockets::TransmitFileOptions);
 namespace System::Net::Sockets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9355))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8192))
 // CS Name: ::System.Net.Sockets::TransmitFileOptions
 struct CORDL_TYPE TransmitFileOptions {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::TransmitFileOptions, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::TransmitFileOptions, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net::Sockets
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::TransmitFileOptions, "System.Net.Sockets", "TransmitFileOptions");

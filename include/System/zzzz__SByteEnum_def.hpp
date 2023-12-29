@@ -16,7 +16,7 @@ MARK_VAL_T(::System::SByteEnum);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2593))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2591))
 // CS Name: ::System::SByteEnum
 struct CORDL_TYPE SByteEnum {
 public:
@@ -48,6 +48,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::SByteEnum, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::System::SByteEnum, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::SByteEnum, "System", "SByteEnum");

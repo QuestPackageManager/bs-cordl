@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(X509Name)
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace System::Collections {
 class IList;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509NameEntryConverter;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace System::Collections {
-class Hashtable;
+class IDictionary;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 class Object;
@@ -28,13 +28,13 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace System::Collections {
+class Hashtable;
 }
-namespace System::Text {
-class StringBuilder;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509NameEntryConverter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -377,121 +377,121 @@ public:
 
   static inline ::System::Collections::Hashtable* getStaticF_DefaultLookup();
 
-  /// @brief Method get_DefaultReverse addr 0x11a1638 size 0x70 virtual false final false
+  /// @brief Method get_DefaultReverse addr 0x11313f0 size 0x70 virtual false final false
   static inline bool get_DefaultReverse();
 
-  /// @brief Method set_DefaultReverse addr 0x11a16a8 size 0x78 virtual false final false
+  /// @brief Method set_DefaultReverse addr 0x1131460 size 0x78 virtual false final false
   static inline void set_DefaultReverse(bool value);
 
-  /// @brief Method GetInstance addr 0x118e730 size 0x78 virtual false final false
+  /// @brief Method GetInstance addr 0x111e4e8 size 0x78 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0x118e8fc size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0x111e6b4 size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* New_ctor();
 
-  /// @brief Method .ctor addr 0x11a39ec size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x11337a4 size 0x7c virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x11a30c0 size 0x92c virtual false final false
+  /// @brief Method .ctor addr 0x1132e78 size 0x92c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* New_ctor(::System::Collections::IList* ordering, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method .ctor addr 0x11a3a68 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x1133820 size 0x7c virtual false final false
   inline void _ctor(::System::Collections::IList* ordering, ::System::Collections::IDictionary* attributes);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* New_ctor(::System::Collections::IList* ordering, ::System::Collections::IDictionary* attributes,
                                                                     ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
-  /// @brief Method .ctor addr 0x11a3ae4 size 0x654 virtual false final false
+  /// @brief Method .ctor addr 0x113389c size 0x654 virtual false final false
   inline void _ctor(::System::Collections::IList* ordering, ::System::Collections::IDictionary* attributes, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* New_ctor(::System::Collections::IList* oids, ::System::Collections::IList* values);
 
-  /// @brief Method .ctor addr 0x11a4138 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x1133ef0 size 0x7c virtual false final false
   inline void _ctor(::System::Collections::IList* oids, ::System::Collections::IList* values);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* New_ctor(::System::Collections::IList* oids, ::System::Collections::IList* values,
                                                                     ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
-  /// @brief Method .ctor addr 0x11a41b4 size 0x484 virtual false final false
+  /// @brief Method .ctor addr 0x1133f6c size 0x484 virtual false final false
   inline void _ctor(::System::Collections::IList* oids, ::System::Collections::IList* values, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* New_ctor(::StringW dirName);
 
-  /// @brief Method .ctor addr 0x118e07c size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x111de34 size 0x78 virtual false final false
   inline void _ctor(::StringW dirName);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* New_ctor(::StringW dirName, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
-  /// @brief Method .ctor addr 0x11a46c4 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x113447c size 0x80 virtual false final false
   inline void _ctor(::StringW dirName, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* New_ctor(bool reverse, ::StringW dirName);
 
-  /// @brief Method .ctor addr 0x11a5190 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x1134f48 size 0x78 virtual false final false
   inline void _ctor(bool reverse, ::StringW dirName);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* New_ctor(bool reverse, ::StringW dirName, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
-  /// @brief Method .ctor addr 0x11a5208 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x1134fc0 size 0x88 virtual false final false
   inline void _ctor(bool reverse, ::StringW dirName, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* New_ctor(bool reverse, ::System::Collections::IDictionary* lookUp, ::StringW dirName);
 
-  /// @brief Method .ctor addr 0x11a4638 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0x11343f0 size 0x8c virtual false final false
   inline void _ctor(bool reverse, ::System::Collections::IDictionary* lookUp, ::StringW dirName);
 
-  /// @brief Method DecodeOid addr 0x11a5290 size 0x268 virtual false final false
+  /// @brief Method DecodeOid addr 0x1135048 size 0x268 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DecodeOid(::StringW name, ::System::Collections::IDictionary* lookUp);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* New_ctor(bool reverse, ::System::Collections::IDictionary* lookUp, ::StringW dirName,
                                                                     ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
-  /// @brief Method .ctor addr 0x11a4744 size 0xa4c virtual false final false
+  /// @brief Method .ctor addr 0x11344fc size 0xa4c virtual false final false
   inline void _ctor(bool reverse, ::System::Collections::IDictionary* lookUp, ::StringW dirName, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
-  /// @brief Method GetOidList addr 0x11a5780 size 0x5c virtual false final false
+  /// @brief Method GetOidList addr 0x1135538 size 0x5c virtual false final false
   inline ::System::Collections::IList* GetOidList();
 
-  /// @brief Method GetValueList addr 0x11a57dc size 0x8 virtual false final false
+  /// @brief Method GetValueList addr 0x1135594 size 0x8 virtual false final false
   inline ::System::Collections::IList* GetValueList();
 
-  /// @brief Method GetValueList addr 0x11a57e4 size 0x2f4 virtual false final false
+  /// @brief Method GetValueList addr 0x113559c size 0x2f4 virtual false final false
   inline ::System::Collections::IList* GetValueList(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method ToAsn1Object addr 0x11a5ad8 size 0x4d8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1135890 size 0x4d8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method Equivalent addr 0x11a5fb0 size 0x460 virtual false final false
+  /// @brief Method Equivalent addr 0x1135d68 size 0x460 virtual false final false
   inline bool Equivalent(::Org::BouncyCastle::Asn1::X509::X509Name* other, bool inOrder);
 
-  /// @brief Method Equivalent addr 0x11a6410 size 0x5dc virtual false final false
+  /// @brief Method Equivalent addr 0x11361c8 size 0x5dc virtual false final false
   inline bool Equivalent(::Org::BouncyCastle::Asn1::X509::X509Name* other);
 
-  /// @brief Method equivalentStrings addr 0x11a69ec size 0xd8 virtual false final false
+  /// @brief Method equivalentStrings addr 0x11367a4 size 0xd8 virtual false final false
   static inline bool equivalentStrings(::StringW s1, ::StringW s2);
 
-  /// @brief Method canonicalize addr 0x11a6ac4 size 0x1cc virtual false final false
+  /// @brief Method canonicalize addr 0x113687c size 0x1cc virtual false final false
   static inline ::StringW canonicalize(::StringW s);
 
-  /// @brief Method decodeObject addr 0x11a6d88 size 0x170 virtual false final false
+  /// @brief Method decodeObject addr 0x1136b40 size 0x170 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* decodeObject(::StringW v);
 
-  /// @brief Method stripInternalSpaces addr 0x11a6c90 size 0xf8 virtual false final false
+  /// @brief Method stripInternalSpaces addr 0x1136a48 size 0xf8 virtual false final false
   static inline ::StringW stripInternalSpaces(::StringW str);
 
-  /// @brief Method AppendValue addr 0x11a6ef8 size 0x2d4 virtual false final false
+  /// @brief Method AppendValue addr 0x1136cb0 size 0x2d4 virtual false final false
   inline void AppendValue(::System::Text::StringBuilder* buf, ::System::Collections::IDictionary* oidSymbols, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW val);
 
-  /// @brief Method ToString addr 0x11a71cc size 0x5d8 virtual false final false
+  /// @brief Method ToString addr 0x1136f84 size 0x5d8 virtual false final false
   inline ::StringW ToString(bool reverse, ::System::Collections::IDictionary* oidSymbols);
 
-  /// @brief Method ToString addr 0x11a77a4 size 0x68 virtual true final false
+  /// @brief Method ToString addr 0x113755c size 0x68 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Name", modifiers: "&&", def_value: None }]
@@ -527,6 +527,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::X509Name, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::X509Name, ___ordering) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::X509Name, ___converter) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::X509Name, ___values) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::X509Name, ___added) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::X509Name, ___seq) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::X509Name);

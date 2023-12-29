@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UnityEvent_4)
-namespace UnityEngine::Events {
-class BaseInvokableCall;
-}
 namespace System::Reflection {
 class MethodInfo;
 }
 namespace System {
 class Type;
+}
+namespace UnityEngine::Events {
+class BaseInvokableCall;
 }
 namespace System {
 class Object;
@@ -30,8 +30,8 @@ namespace UnityEngine::Events {
 // cpp template
 template <typename T0, typename T1, typename T2, typename T3>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10461))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10469))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10383))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10391))
 // CS Name: ::UnityEngine.Events::UnityEvent`4<T0,T1,T2,T3>*
 class CORDL_TYPE UnityEvent_4 : public ::UnityEngine::Events::UnityEventBase {
 public:

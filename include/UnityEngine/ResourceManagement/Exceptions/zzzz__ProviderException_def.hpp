@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Exceptions::ProviderException)
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Exceptions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13963))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13964))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14234))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14235))
 // CS Name: ::UnityEngine.ResourceManagement.Exceptions::ProviderException*
 class CORDL_TYPE ProviderException : public ::UnityEngine::ResourceManagement::Exceptions::OperationException {
 public:
@@ -41,10 +41,10 @@ public:
   static inline ::UnityEngine::ResourceManagement::Exceptions::ProviderException* New_ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                                                                                            ::System::Exception* innerException);
 
-  /// @brief Method .ctor addr 0x2bd0190 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2a4d43c size 0x28 virtual false final false
   inline void _ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Exception* innerException);
 
-  /// @brief Method get_Location addr 0x2bd01b8 size 0x8 virtual false final false
+  /// @brief Method get_Location addr 0x2a4d464 size 0x8 virtual false final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProviderException", modifiers: "&&", def_value: None }]
@@ -68,6 +68,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Exceptions::ProviderException, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Exceptions::ProviderException, ____Location_k__BackingField) == 0x90, "Offset mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::Exceptions
 NEED_NO_BOX(::UnityEngine::ResourceManagement::Exceptions::ProviderException);

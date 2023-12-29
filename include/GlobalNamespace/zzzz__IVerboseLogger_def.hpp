@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IVerboseLogger);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14335))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13806))
 // CS Name: ::IVerboseLogger*
 class CORDL_TYPE IVerboseLogger {
 public:

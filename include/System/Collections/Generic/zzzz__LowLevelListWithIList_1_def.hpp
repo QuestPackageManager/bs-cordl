@@ -7,10 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LowLevelListWithIList_1)
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> struct __LowLevelListWithIList_1__Enumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
@@ -18,20 +27,11 @@ template <typename T> class IList_1;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> struct __LowLevelListWithIList_1__Enumerator;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -50,7 +50,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3860))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3848))
 // CS Name: ::LowLevelListWithIList`1::Enumerator<T>
 struct CORDL_TYPE __LowLevelListWithIList_1__Enumerator {
 public:
@@ -122,8 +122,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3859)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3859), inst: 2653 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3861))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3847)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3847), inst: 2593 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3849))
 // CS Name: ::System.Collections.Generic::LowLevelListWithIList`1<T>*
 class CORDL_TYPE LowLevelListWithIList_1 : public ::System::Collections::Generic::LowLevelList_1<T> {
 public:

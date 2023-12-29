@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14566))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14783))
 // CS Name: ::MaterialPropertyBlockController*
 class CORDL_TYPE MaterialPropertyBlockController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -71,18 +71,18 @@ public:
 
   constexpr void __set__isInitialized(bool value);
 
-  /// @brief Method get_renderers addr 0x2115060 size 0x8 virtual false final false
+  /// @brief Method get_renderers addr 0x1fbf4d8 size 0x8 virtual false final false
   inline ::ArrayW<::UnityEngine::Renderer*, ::Array<::UnityEngine::Renderer*>*> get_renderers();
 
-  /// @brief Method get_materialPropertyBlock addr 0x2114d60 size 0x6c virtual false final false
+  /// @brief Method get_materialPropertyBlock addr 0x1fbf2c0 size 0x6c virtual false final false
   inline ::UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
 
-  /// @brief Method ApplyChanges addr 0x2114afc size 0x1f0 virtual false final false
+  /// @brief Method ApplyChanges addr 0x1fbf05c size 0x1f0 virtual false final false
   inline void ApplyChanges();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2115068 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fbf4e0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockController", modifiers: "&&", def_value: None }]
@@ -115,6 +115,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockController, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockController, ____renderers) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockController, ____materialPropertyBlock) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockController, ____numberOfMaterialsInRenderers) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockController, ____isInitialized) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockController);

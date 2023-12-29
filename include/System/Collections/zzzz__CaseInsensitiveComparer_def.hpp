@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CaseInsensitiveComparer)
-namespace System::Globalization {
-class CultureInfo;
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class IComparer;
@@ -14,8 +14,8 @@ class IComparer;
 namespace System::Globalization {
 class CompareInfo;
 }
-namespace System {
-class Object;
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Collections::CaseInsensitiveComparer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3771))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3759))
 // CS Name: ::System.Collections::CaseInsensitiveComparer*
 class CORDL_TYPE CaseInsensitiveComparer : public ::System::Object {
 public:
@@ -47,15 +47,15 @@ public:
 
   static inline ::System::Collections::CaseInsensitiveComparer* New_ctor();
 
-  /// @brief Method .ctor addr 0x257dd5c size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x24228ec size 0x7c virtual false final false
   inline void _ctor();
 
   static inline ::System::Collections::CaseInsensitiveComparer* New_ctor(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method .ctor addr 0x257ddd4 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x2422968 size 0x88 virtual false final false
   inline void _ctor(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method Compare addr 0x257de5c size 0xec virtual true final true
+  /// @brief Method Compare addr 0x24229f0 size 0xec virtual true final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
   // Ctor Parameters [CppParam { name: "", ty: "CaseInsensitiveComparer", modifiers: "&&", def_value: None }]
@@ -79,6 +79,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::CaseInsensitiveComparer, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Collections::CaseInsensitiveComparer, ____compareInfo) == 0x10, "Offset mismatch!");
 
 } // namespace System::Collections
 NEED_NO_BOX(::System::Collections::CaseInsensitiveComparer);

@@ -7,13 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CallbackHelpers)
 namespace Mono::Security::Interface {
-class MonoRemoteCertificateValidationCallback;
-}
-namespace System::Net::Security {
-class LocalCertSelectionCallback;
-}
-namespace Mono::Net::Security::Private {
-class __CallbackHelpers____c__DisplayClass6_0;
+class MonoLocalCertificateSelectionCallback;
 }
 namespace System::Net::Security {
 class RemoteCertificateValidationCallback;
@@ -21,17 +15,23 @@ class RemoteCertificateValidationCallback;
 namespace Mono::Net::Security::Private {
 class __CallbackHelpers____c__DisplayClass0_0;
 }
-namespace Mono::Security::Interface {
-class MonoLocalCertificateSelectionCallback;
+namespace Mono::Net::Security::Private {
+class __CallbackHelpers____c__DisplayClass6_0;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
+namespace Mono::Security::Interface {
+class MonoRemoteCertificateValidationCallback;
+}
+namespace System::Net::Security {
+class LocalCertSelectionCallback;
 }
 namespace Mono::Security::Interface {
 struct MonoSslPolicyErrors;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
@@ -54,8 +54,8 @@ MARK_REF_PTR_T(::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayCl
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security::Private {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8847))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7684))
 // CS Name: ::CallbackHelpers::<>c__DisplayClass0_0*
 class CORDL_TYPE __CallbackHelpers____c__DisplayClass0_0 : public ::System::Object {
 public:
@@ -71,10 +71,10 @@ public:
 
   static inline ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2825e7c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26aae6c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <PublicToMono>b__0 addr 0x2825e8c size 0x24 virtual false final false
+  /// @brief Method <PublicToMono>b__0 addr 0x26aae7c size 0x24 virtual false final false
   inline bool _PublicToMono_b__0(::StringW h, ::System::Security::Cryptography::X509Certificates::X509Certificate* c, ::System::Security::Cryptography::X509Certificates::X509Chain* ch,
                                  ::Mono::Security::Interface::MonoSslPolicyErrors e);
 
@@ -100,13 +100,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0, ___callback) == 0x10, "Offset mismatch!");
+
 } // namespace Mono::Net::Security::Private
 // Type: ::<>c__DisplayClass6_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security::Private {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8848))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7685))
 // CS Name: ::CallbackHelpers::<>c__DisplayClass6_0*
 class CORDL_TYPE __CallbackHelpers____c__DisplayClass6_0 : public ::System::Object {
 public:
@@ -122,10 +124,10 @@ public:
 
   static inline ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2825e84 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26aae74 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <MonoToInternal>b__0 addr 0x2825eb0 size 0x24 virtual false final false
+  /// @brief Method <MonoToInternal>b__0 addr 0x26aaea0 size 0x24 virtual false final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* _MonoToInternal_b__0(::StringW t, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc,
                                                                                                    ::System::Security::Cryptography::X509Certificates::X509Certificate* rc,
                                                                                                    ::ArrayW<::StringW, ::Array<::StringW>*> ai);
@@ -152,13 +154,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0, ___callback) == 0x10, "Offset mismatch!");
+
 } // namespace Mono::Net::Security::Private
 // Type: Mono.Net.Security.Private::CallbackHelpers
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Net::Security::Private {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8849))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7686))
 // CS Name: ::Mono.Net.Security.Private::CallbackHelpers*
 class CORDL_TYPE CallbackHelpers : public ::System::Object {
 public:
@@ -167,10 +171,10 @@ public:
 
   using __c__DisplayClass0_0 = ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0;
 
-  /// @brief Method PublicToMono addr 0x2825dcc size 0xb0 virtual false final false
+  /// @brief Method PublicToMono addr 0x26aadbc size 0xb0 virtual false final false
   static inline ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* PublicToMono(::System::Net::Security::RemoteCertificateValidationCallback* callback);
 
-  /// @brief Method MonoToInternal addr 0x282050c size 0xb0 virtual false final false
+  /// @brief Method MonoToInternal addr 0x26a5500 size 0xb0 virtual false final false
   static inline ::System::Net::Security::LocalCertSelectionCallback* MonoToInternal(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback);
 
   // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers", modifiers: "&&", def_value: None }]

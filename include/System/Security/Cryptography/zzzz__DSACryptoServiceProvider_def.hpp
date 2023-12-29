@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DSACryptoServiceProvider)
-namespace Mono::Security::Cryptography {
-class DSAManaged;
+namespace System::Security::Cryptography {
+struct DSAParameters;
 }
 namespace Mono::Security::Cryptography {
 class KeyPairPersistence;
 }
-namespace System::Security::Cryptography {
-struct DSAParameters;
+namespace Mono::Security::Cryptography {
+class DSAManaged;
 }
 namespace System {
 class Object;
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::DSACryptoServiceProvider);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2931))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2979))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2930))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2978))
 // CS Name: ::System.Security.Cryptography::DSACryptoServiceProvider*
 class CORDL_TYPE DSACryptoServiceProvider : public ::System::Security::Cryptography::DSA {
 public:
@@ -104,39 +104,39 @@ public:
 
   static inline ::System::Security::Cryptography::DSACryptoServiceProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x246e3ec size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2315678 size 0x2c virtual false final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::DSACryptoServiceProvider* New_ctor(int32_t dwKeySize);
 
-  /// @brief Method .ctor addr 0x2470584 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x2317810 size 0x38 virtual false final false
   inline void _ctor(int32_t dwKeySize);
 
-  /// @brief Method Common addr 0x24705bc size 0x224 virtual false final false
+  /// @brief Method Common addr 0x2317848 size 0x224 virtual false final false
   inline void Common(int32_t dwKeySize, bool parameters);
 
-  /// @brief Method Finalize addr 0x24707e0 size 0xa0 virtual true final false
+  /// @brief Method Finalize addr 0x2317a6c size 0xa0 virtual true final false
   inline void Finalize();
 
-  /// @brief Method get_KeySize addr 0x2470880 size 0x20 virtual true final false
+  /// @brief Method get_KeySize addr 0x2317b0c size 0x20 virtual true final false
   inline int32_t get_KeySize();
 
-  /// @brief Method get_PublicOnly addr 0x24708a0 size 0x1c virtual false final false
+  /// @brief Method get_PublicOnly addr 0x2317b2c size 0x1c virtual false final false
   inline bool get_PublicOnly();
 
-  /// @brief Method ExportParameters addr 0x24708bc size 0xb4 virtual true final false
+  /// @brief Method ExportParameters addr 0x2317b48 size 0xb4 virtual true final false
   inline ::System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters);
 
-  /// @brief Method ImportParameters addr 0x2470970 size 0x54 virtual true final false
+  /// @brief Method ImportParameters addr 0x2317bfc size 0x54 virtual true final false
   inline void ImportParameters(::System::Security::Cryptography::DSAParameters parameters);
 
-  /// @brief Method VerifySignature addr 0x24709c4 size 0x20 virtual true final false
+  /// @brief Method VerifySignature addr 0x2317c50 size 0x20 virtual true final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
 
-  /// @brief Method Dispose addr 0x24709e4 size 0x54 virtual true final false
+  /// @brief Method Dispose addr 0x2317c70 size 0x54 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method OnKeyGenerated addr 0x2470a38 size 0x84 virtual false final false
+  /// @brief Method OnKeyGenerated addr 0x2317cc4 size 0x84 virtual false final false
   inline void OnKeyGenerated(::System::Object* sender, ::System::EventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "DSACryptoServiceProvider", modifiers: "&&", def_value: None }]
@@ -175,6 +175,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::DSACryptoServiceProvider, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DSACryptoServiceProvider, ___store) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DSACryptoServiceProvider, ___persistKey) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DSACryptoServiceProvider, ___persisted) == 0x29, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DSACryptoServiceProvider, ___privateKeyExportable) == 0x2a, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DSACryptoServiceProvider, ___m_disposed) == 0x2b, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DSACryptoServiceProvider, ___dsa) == 0x30, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::DSACryptoServiceProvider);

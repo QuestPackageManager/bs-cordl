@@ -13,13 +13,13 @@ namespace System::Text {
 struct ValueStringBuilder;
 }
 namespace System::Globalization {
-class NumberFormatInfo;
+class __FormatProvider__Number;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace System::Globalization {
-class __FormatProvider__Number;
+class NumberFormatInfo;
 }
 namespace GlobalNamespace {
 struct __FormatProvider__Number__NumberBuffer;
@@ -43,14 +43,14 @@ MARK_VAL_T(::GlobalNamespace::__FormatProvider__Number__NumberBuffer);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15652))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15637))
 // CS Name: ::FormatProvider::Number::NumberBuffer
 struct CORDL_TYPE __FormatProvider__Number__NumberBuffer {
 public:
   // Declarations
   __declspec(property(get = get_digits))::cordl_internals::Ptr<char16_t> digits;
 
-  /// @brief Method get_digits addr 0x284bf10 size 0x8 virtual false final false
+  /// @brief Method get_digits addr 0x26cfefc size 0x8 virtual false final false
   inline ::cordl_internals::Ptr<char16_t> get_digits();
 
   // Ctor Parameters [CppParam { name: "precision", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sign",
@@ -81,13 +81,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FormatProvider__Number__NumberBuffer, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__FormatProvider__Number__NumberBuffer, precision) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FormatProvider__Number__NumberBuffer, scale) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FormatProvider__Number__NumberBuffer, sign) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__FormatProvider__Number__NumberBuffer, overrideDigits) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Number
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15653))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15638))
 // CS Name: ::FormatProvider::Number*
 class CORDL_TYPE __FormatProvider__Number : public ::System::Object {
 public:
@@ -136,54 +144,54 @@ public:
 
   static inline ::StringW getStaticF_s_posNumberFormat();
 
-  /// @brief Method Int32ToDecChars addr 0x2849a74 size 0x5c virtual false final false
+  /// @brief Method Int32ToDecChars addr 0x26cda60 size 0x5c virtual false final false
   static inline void Int32ToDecChars(::cordl_internals::Ptr<char16_t> buffer, ByRef<int32_t> index, uint32_t value, int32_t digits);
 
-  /// @brief Method ParseFormatSpecifier addr 0x284836c size 0x140 virtual false final false
+  /// @brief Method ParseFormatSpecifier addr 0x26cc358 size 0x140 virtual false final false
   static inline char16_t ParseFormatSpecifier(::System::ReadOnlySpan_1<char16_t> format, ByRef<int32_t> digits);
 
-  /// @brief Method NumberToString addr 0x28484ac size 0x548 virtual false final false
+  /// @brief Method NumberToString addr 0x26cc498 size 0x548 virtual false final false
   static inline void NumberToString(ByRef<::System::Text::ValueStringBuilder> sb, ByRef<::GlobalNamespace::__FormatProvider__Number__NumberBuffer> number, char16_t format, int32_t nMaxDigits,
                                     ::System::Globalization::NumberFormatInfo* info, bool isDecimal);
 
-  /// @brief Method FormatCurrency addr 0x2849ba4 size 0x260 virtual false final false
+  /// @brief Method FormatCurrency addr 0x26cdb90 size 0x260 virtual false final false
   static inline void FormatCurrency(ByRef<::System::Text::ValueStringBuilder> sb, ByRef<::GlobalNamespace::__FormatProvider__Number__NumberBuffer> number, int32_t nMinDigits, int32_t nMaxDigits,
                                     ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method wcslen addr 0x284adc0 size 0x20 virtual false final false
+  /// @brief Method wcslen addr 0x26cedac size 0x20 virtual false final false
   static inline int32_t wcslen(::cordl_internals::Ptr<char16_t> s);
 
-  /// @brief Method FormatFixed addr 0x2849e04 size 0x53c virtual false final false
+  /// @brief Method FormatFixed addr 0x26cddf0 size 0x53c virtual false final false
   static inline void FormatFixed(ByRef<::System::Text::ValueStringBuilder> sb, ByRef<::GlobalNamespace::__FormatProvider__Number__NumberBuffer> number, int32_t nMinDigits, int32_t nMaxDigits,
                                  ::System::Globalization::NumberFormatInfo* info, ::ArrayW<int32_t, ::Array<int32_t>*> groupDigits, ::StringW sDecimal, ::StringW sGroup);
 
-  /// @brief Method FormatNumber addr 0x284a340 size 0x248 virtual false final false
+  /// @brief Method FormatNumber addr 0x26ce32c size 0x248 virtual false final false
   static inline void FormatNumber(ByRef<::System::Text::ValueStringBuilder> sb, ByRef<::GlobalNamespace::__FormatProvider__Number__NumberBuffer> number, int32_t nMinDigits, int32_t nMaxDigits,
                                   ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method FormatScientific addr 0x284a588 size 0x23c virtual false final false
+  /// @brief Method FormatScientific addr 0x26ce574 size 0x23c virtual false final false
   static inline void FormatScientific(ByRef<::System::Text::ValueStringBuilder> sb, ByRef<::GlobalNamespace::__FormatProvider__Number__NumberBuffer> number, int32_t nMinDigits, int32_t nMaxDigits,
                                       ::System::Globalization::NumberFormatInfo* info, char16_t expChar);
 
-  /// @brief Method FormatExponent addr 0x284af9c size 0x2f0 virtual false final false
+  /// @brief Method FormatExponent addr 0x26cef88 size 0x2f0 virtual false final false
   static inline void FormatExponent(ByRef<::System::Text::ValueStringBuilder> sb, ::System::Globalization::NumberFormatInfo* info, int32_t value, char16_t expChar, int32_t minDigits,
                                     bool positiveSign);
 
-  /// @brief Method FormatGeneral addr 0x284a7c4 size 0x39c virtual false final false
+  /// @brief Method FormatGeneral addr 0x26ce7b0 size 0x39c virtual false final false
   static inline void FormatGeneral(ByRef<::System::Text::ValueStringBuilder> sb, ByRef<::GlobalNamespace::__FormatProvider__Number__NumberBuffer> number, int32_t nMinDigits, int32_t nMaxDigits,
                                    ::System::Globalization::NumberFormatInfo* info, char16_t expChar, bool bSuppressScientific);
 
-  /// @brief Method FormatPercent addr 0x284ab60 size 0x260 virtual false final false
+  /// @brief Method FormatPercent addr 0x26ceb4c size 0x260 virtual false final false
   static inline void FormatPercent(ByRef<::System::Text::ValueStringBuilder> sb, ByRef<::GlobalNamespace::__FormatProvider__Number__NumberBuffer> number, int32_t nMinDigits, int32_t nMaxDigits,
                                    ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method RoundNumber addr 0x2849ad0 size 0xd4 virtual false final false
+  /// @brief Method RoundNumber addr 0x26cdabc size 0xd4 virtual false final false
   static inline void RoundNumber(ByRef<::GlobalNamespace::__FormatProvider__Number__NumberBuffer> number, int32_t pos);
 
-  /// @brief Method FindSection addr 0x284b28c size 0x134 virtual false final false
+  /// @brief Method FindSection addr 0x26cf278 size 0x134 virtual false final false
   static inline int32_t FindSection(::System::ReadOnlySpan_1<char16_t> format, int32_t section);
 
-  /// @brief Method NumberToStringFormat addr 0x28489f4 size 0x1080 virtual false final false
+  /// @brief Method NumberToStringFormat addr 0x26cc9e0 size 0x1080 virtual false final false
   static inline void NumberToStringFormat(ByRef<::System::Text::ValueStringBuilder> sb, ByRef<::GlobalNamespace::__FormatProvider__Number__NumberBuffer> number,
                                           ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::NumberFormatInfo* info);
 
@@ -211,15 +219,15 @@ static_assert(::cordl_internals::size_check_v<::System::Globalization::__FormatP
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15654))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15639))
 // CS Name: ::System.Globalization::FormatProvider*
 class CORDL_TYPE FormatProvider : public ::System::Object {
 public:
   // Declarations
   using Number = ::System::Globalization::__FormatProvider__Number;
 
-  /// @brief Method FormatBigInteger addr 0x2848224 size 0x140 virtual false final false
+  /// @brief Method FormatBigInteger addr 0x26cc210 size 0x140 virtual false final false
   static inline void FormatBigInteger(ByRef<::System::Text::ValueStringBuilder> sb, int32_t precision, int32_t scale, bool sign, ::System::ReadOnlySpan_1<char16_t> format,
                                       ::System::Globalization::NumberFormatInfo* numberFormatInfo, ::ArrayW<char16_t, ::Array<char16_t>*> digits, int32_t startIndex);
 

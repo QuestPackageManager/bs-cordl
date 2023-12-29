@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::XR::Management::__XRManagementAnalytics__BuildEvent);
 namespace UnityEngine::XR::Management {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16037))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15901))
 // CS Name: ::XRManagementAnalytics::BuildEvent
 struct CORDL_TYPE __XRManagementAnalytics__BuildEvent {
 public:
@@ -59,20 +59,35 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::Management::__XRManagementAnalytics__BuildEvent, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::XR::Management::__XRManagementAnalytics__BuildEvent, buildGuid) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Management::__XRManagementAnalytics__BuildEvent, buildTarget) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Management::__XRManagementAnalytics__BuildEvent, buildTargetGroup) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Management::__XRManagementAnalytics__BuildEvent, assigned_loaders) == 0x18, "Offset mismatch!");
+
 } // namespace UnityEngine::XR::Management
 // Type: UnityEngine.XR.Management::XRManagementAnalytics
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16038))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15902))
 // CS Name: ::UnityEngine.XR.Management::XRManagementAnalytics*
 class CORDL_TYPE XRManagementAnalytics : public ::System::Object {
 public:
   // Declarations
   using BuildEvent = ::UnityEngine::XR::Management::__XRManagementAnalytics__BuildEvent;
 
-  /// @brief Method Initialize addr 0x2c765e8 size 0x8 virtual false final false
+  /// @brief Field s_Initialized, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_s_Initialized, put = setStaticF_s_Initialized)) bool s_Initialized;
+
+  static inline void setStaticF_s_Initialized(bool value);
+
+  static inline bool getStaticF_s_Initialized();
+
+  /// @brief Method Initialize addr 0x2af2894 size 0x48 virtual false final false
   static inline bool Initialize();
 
   // Ctor Parameters [CppParam { name: "", ty: "XRManagementAnalytics", modifiers: "&&", def_value: None }]

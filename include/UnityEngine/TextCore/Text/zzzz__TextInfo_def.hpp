@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextInfo)
 namespace UnityEngine::TextCore::Text {
-struct PageInfo;
-}
-namespace UnityEngine::TextCore::Text {
-struct LinkInfo;
+struct TextElementInfo;
 }
 namespace UnityEngine::TextCore::Text {
 struct LineInfo;
 }
 namespace UnityEngine::TextCore::Text {
-struct MeshInfo;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextElementInfo;
+struct PageInfo;
 }
 namespace UnityEngine::TextCore::Text {
 struct WordInfo;
+}
+namespace UnityEngine::TextCore::Text {
+struct MeshInfo;
+}
+namespace UnityEngine::TextCore::Text {
+struct LinkInfo;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextInfo);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13713))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13592))
 // CS Name: ::UnityEngine.TextCore.Text::TextInfo*
 class CORDL_TYPE TextInfo : public ::System::Object {
 public:
@@ -194,16 +194,16 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d47fa8 size 0x134 virtual false final false
+  /// @brief Method .ctor addr 0x2bdfbf8 size 0x134 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Clear addr 0x2d480dc size 0x5c virtual false final false
+  /// @brief Method Clear addr 0x2bdfd2c size 0x5c virtual false final false
   inline void Clear();
 
-  /// @brief Method ClearMeshInfo addr 0x2d48138 size 0x80 virtual false final false
+  /// @brief Method ClearMeshInfo addr 0x2bdfd88 size 0x80 virtual false final false
   inline void ClearMeshInfo(bool updateMesh);
 
-  /// @brief Method ClearLineInfo addr 0x2d481e4 size 0x16c virtual false final false
+  /// @brief Method ClearLineInfo addr 0x2bdfe34 size 0x16c virtual false final false
   inline void ClearLineInfo();
 
   /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -275,6 +275,36 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextInfo, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___characterCount) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___spriteCount) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___spaceCount) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___wordCount) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___linkCount) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___lineCount) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___pageCount) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___materialCount) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___textElementInfo) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___wordInfo) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___linkInfo) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___lineInfo) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___pageInfo) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___meshInfo) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextInfo, ___isDirty) == 0x60, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::TextInfo);

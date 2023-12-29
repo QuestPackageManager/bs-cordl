@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BitmapAllocator32)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::UIElements::UIR {
 struct BMPAlloc;
 }
 namespace UnityEngine::UIElements::UIR {
 class BaseShaderInfoStorage;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct __BitmapAllocator32__Page;
@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__BitmapAllocator32__Page);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7375))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7461))
 // CS Name: ::BitmapAllocator32::Page
 struct CORDL_TYPE __BitmapAllocator32__Page {
 public:
@@ -63,13 +63,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__BitmapAllocator32__Page, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__BitmapAllocator32__Page, x) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__BitmapAllocator32__Page, y) == 0x2, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__BitmapAllocator32__Page, freeSlots) == 0x4, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements::UIR
 // Type: UnityEngine.UIElements.UIR::BitmapAllocator32
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7376))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7462))
 // CS Name: ::UnityEngine.UIElements.UIR::BitmapAllocator32
 struct CORDL_TYPE BitmapAllocator32 {
 public:
@@ -80,28 +86,28 @@ public:
 
   __declspec(property(get = get_entryHeight)) int32_t entryHeight;
 
-  /// @brief Method Construct addr 0x2e8800c size 0x110 virtual false final false
+  /// @brief Method Construct addr 0x2d1fc5c size 0x110 virtual false final false
   inline void Construct(int32_t pageHeight, int32_t entryWidth, int32_t entryHeight);
 
-  /// @brief Method ForceFirstAlloc addr 0x2e8811c size 0x1cc virtual false final false
+  /// @brief Method ForceFirstAlloc addr 0x2d1fd6c size 0x1cc virtual false final false
   inline void ForceFirstAlloc(uint16_t firstPageX, uint16_t firstPageY);
 
-  /// @brief Method Allocate addr 0x2e882e8 size 0x41c virtual false final false
+  /// @brief Method Allocate addr 0x2d1ff38 size 0x41c virtual false final false
   inline ::UnityEngine::UIElements::UIR::BMPAlloc Allocate(::UnityEngine::UIElements::UIR::BaseShaderInfoStorage* storage);
 
-  /// @brief Method Free addr 0x2e88768 size 0x144 virtual false final false
+  /// @brief Method Free addr 0x2d203b8 size 0x144 virtual false final false
   inline void Free(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method get_entryWidth addr 0x2e888ac size 0x8 virtual false final false
+  /// @brief Method get_entryWidth addr 0x2d204fc size 0x8 virtual false final false
   inline int32_t get_entryWidth();
 
-  /// @brief Method get_entryHeight addr 0x2e888b4 size 0x8 virtual false final false
+  /// @brief Method get_entryHeight addr 0x2d20504 size 0x8 virtual false final false
   inline int32_t get_entryHeight();
 
-  /// @brief Method GetAllocPageAtlasLocation addr 0x2e888bc size 0x78 virtual false final false
+  /// @brief Method GetAllocPageAtlasLocation addr 0x2d2050c size 0x78 virtual false final false
   inline void GetAllocPageAtlasLocation(int32_t page, ByRef<uint16_t> x, ByRef<uint16_t> y);
 
-  /// @brief Method CountTrailingZeroes addr 0x2e88704 size 0x64 virtual false final false
+  /// @brief Method CountTrailingZeroes addr 0x2d20354 size 0x64 virtual false final false
   static inline uint8_t CountTrailingZeroes(uint32_t val);
 
   // Ctor Parameters [CppParam { name: "m_PageHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Pages", ty:
@@ -137,6 +143,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::BitmapAllocator32, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::BitmapAllocator32, m_PageHeight) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::BitmapAllocator32, m_Pages) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::BitmapAllocator32, m_AllocMap) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::BitmapAllocator32, m_EntryWidth) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::BitmapAllocator32, m_EntryHeight) == 0x1c, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::BitmapAllocator32, "UnityEngine.UIElements.UIR", "BitmapAllocator32");

@@ -31,25 +31,25 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey* New_ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method .ctor addr 0x1208070 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x1196e20 size 0x44 virtual false final false
   inline void _ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
   static inline ::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey* New_ctor(::StringW password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
-  /// @brief Method .ctor addr 0x12080b8 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x1196e68 size 0x3c virtual false final false
   inline void _ctor(::StringW password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
   static inline ::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey* New_ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method .ctor addr 0x12080b4 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x1196e64 size 0x4 virtual false final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
   static inline ::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey* New_ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
-  /// @brief Method .ctor addr 0x12080f4 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x1196ea4 size 0x4 virtual false final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
-  /// @brief Method GetEncoded addr 0x12080f8 size 0x12c virtual true final false
+  /// @brief Method GetEncoded addr 0x1196ea8 size 0x12c virtual true final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* GetEncoded(::StringW algorithmOid);
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs5Scheme2PbeKey", modifiers: "&&", def_value: None }]

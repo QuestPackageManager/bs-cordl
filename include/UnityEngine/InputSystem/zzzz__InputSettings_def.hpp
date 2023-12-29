@@ -13,17 +13,17 @@ CORDL_MODULE_EXPORT(InputSettings)
 namespace UnityEngine::InputSystem {
 struct __InputSettings__BackgroundBehavior;
 }
+namespace UnityEngine::InputSystem {
+struct __InputSettings__EditorInputBehaviorInPlayMode;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace UnityEngine::InputSystem {
-struct __InputSettings__EditorInputBehaviorInPlayMode;
-}
-namespace UnityEngine::InputSystem {
 struct __InputSettings__UpdateMode;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::InputSettings);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6301))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6387))
 // CS Name: ::InputSettings::UpdateMode
 struct CORDL_TYPE __InputSettings__UpdateMode {
 public:
@@ -94,13 +94,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputSettings__UpdateMode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputSettings__UpdateMode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: ::BackgroundBehavior
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6302))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6388))
 // CS Name: ::InputSettings::BackgroundBehavior
 struct CORDL_TYPE __InputSettings__BackgroundBehavior {
 public:
@@ -146,13 +148,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: ::EditorInputBehaviorInPlayMode
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6303))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6389))
 // CS Name: ::InputSettings::EditorInputBehaviorInPlayMode
 struct CORDL_TYPE __InputSettings__EditorInputBehaviorInPlayMode {
 public:
@@ -198,13 +202,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: UnityEngine.InputSystem::InputSettings
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6303)), TypeDefinitionIndex(TypeDefinitionIndex(6302)), TypeDefinitionIndex(TypeDefinitionIndex(6301)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10210))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6304)) CS Name: ::UnityEngine.InputSystem::InputSettings*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137)), TypeDefinitionIndex(TypeDefinitionIndex(6387)), TypeDefinitionIndex(TypeDefinitionIndex(6388)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6389))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6390)) CS Name: ::UnityEngine.InputSystem::InputSettings*
 class CORDL_TYPE InputSettings : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -423,126 +429,126 @@ public:
 
   constexpr void __set_m_FeatureFlags(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  /// @brief Method get_updateMode addr 0x2ab7d58 size 0x8 virtual false final false
+  /// @brief Method get_updateMode addr 0x2939010 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::__InputSettings__UpdateMode get_updateMode();
 
-  /// @brief Method set_updateMode addr 0x2ab7d60 size 0x18 virtual false final false
+  /// @brief Method set_updateMode addr 0x2939018 size 0x18 virtual false final false
   inline void set_updateMode(::UnityEngine::InputSystem::__InputSettings__UpdateMode value);
 
-  /// @brief Method get_compensateForScreenOrientation addr 0x2ab7e44 size 0x8 virtual false final false
+  /// @brief Method get_compensateForScreenOrientation addr 0x29390fc size 0x8 virtual false final false
   inline bool get_compensateForScreenOrientation();
 
-  /// @brief Method set_compensateForScreenOrientation addr 0x2ab7e4c size 0x1c virtual false final false
+  /// @brief Method set_compensateForScreenOrientation addr 0x2939104 size 0x1c virtual false final false
   inline void set_compensateForScreenOrientation(bool value);
 
-  /// @brief Method get_filterNoiseOnCurrent addr 0x2ab7e68 size 0x8 virtual false final false
+  /// @brief Method get_filterNoiseOnCurrent addr 0x2939120 size 0x8 virtual false final false
   inline bool get_filterNoiseOnCurrent();
 
-  /// @brief Method set_filterNoiseOnCurrent addr 0x2ab7e70 size 0x4 virtual false final false
+  /// @brief Method set_filterNoiseOnCurrent addr 0x2939128 size 0x4 virtual false final false
   inline void set_filterNoiseOnCurrent(bool value);
 
-  /// @brief Method get_defaultDeadzoneMin addr 0x2ab7e74 size 0x8 virtual false final false
+  /// @brief Method get_defaultDeadzoneMin addr 0x293912c size 0x8 virtual false final false
   inline float_t get_defaultDeadzoneMin();
 
-  /// @brief Method set_defaultDeadzoneMin addr 0x2ab7e7c size 0x18 virtual false final false
+  /// @brief Method set_defaultDeadzoneMin addr 0x2939134 size 0x18 virtual false final false
   inline void set_defaultDeadzoneMin(float_t value);
 
-  /// @brief Method get_defaultDeadzoneMax addr 0x2ab7e94 size 0x8 virtual false final false
+  /// @brief Method get_defaultDeadzoneMax addr 0x293914c size 0x8 virtual false final false
   inline float_t get_defaultDeadzoneMax();
 
-  /// @brief Method set_defaultDeadzoneMax addr 0x2ab7e9c size 0x18 virtual false final false
+  /// @brief Method set_defaultDeadzoneMax addr 0x2939154 size 0x18 virtual false final false
   inline void set_defaultDeadzoneMax(float_t value);
 
-  /// @brief Method get_defaultButtonPressPoint addr 0x2ab7eb4 size 0x8 virtual false final false
+  /// @brief Method get_defaultButtonPressPoint addr 0x293916c size 0x8 virtual false final false
   inline float_t get_defaultButtonPressPoint();
 
-  /// @brief Method set_defaultButtonPressPoint addr 0x2ab7ebc size 0x34 virtual false final false
+  /// @brief Method set_defaultButtonPressPoint addr 0x2939174 size 0x34 virtual false final false
   inline void set_defaultButtonPressPoint(float_t value);
 
-  /// @brief Method get_buttonReleaseThreshold addr 0x2ab7ef0 size 0x8 virtual false final false
+  /// @brief Method get_buttonReleaseThreshold addr 0x29391a8 size 0x8 virtual false final false
   inline float_t get_buttonReleaseThreshold();
 
-  /// @brief Method set_buttonReleaseThreshold addr 0x2ab7ef8 size 0x18 virtual false final false
+  /// @brief Method set_buttonReleaseThreshold addr 0x29391b0 size 0x18 virtual false final false
   inline void set_buttonReleaseThreshold(float_t value);
 
-  /// @brief Method get_defaultTapTime addr 0x2ab7f10 size 0x8 virtual false final false
+  /// @brief Method get_defaultTapTime addr 0x29391c8 size 0x8 virtual false final false
   inline float_t get_defaultTapTime();
 
-  /// @brief Method set_defaultTapTime addr 0x2ab7f18 size 0x18 virtual false final false
+  /// @brief Method set_defaultTapTime addr 0x29391d0 size 0x18 virtual false final false
   inline void set_defaultTapTime(float_t value);
 
-  /// @brief Method get_defaultSlowTapTime addr 0x2ab7f30 size 0x8 virtual false final false
+  /// @brief Method get_defaultSlowTapTime addr 0x29391e8 size 0x8 virtual false final false
   inline float_t get_defaultSlowTapTime();
 
-  /// @brief Method set_defaultSlowTapTime addr 0x2ab7f38 size 0x18 virtual false final false
+  /// @brief Method set_defaultSlowTapTime addr 0x29391f0 size 0x18 virtual false final false
   inline void set_defaultSlowTapTime(float_t value);
 
-  /// @brief Method get_defaultHoldTime addr 0x2ab7f50 size 0x8 virtual false final false
+  /// @brief Method get_defaultHoldTime addr 0x2939208 size 0x8 virtual false final false
   inline float_t get_defaultHoldTime();
 
-  /// @brief Method set_defaultHoldTime addr 0x2ab7f58 size 0x18 virtual false final false
+  /// @brief Method set_defaultHoldTime addr 0x2939210 size 0x18 virtual false final false
   inline void set_defaultHoldTime(float_t value);
 
-  /// @brief Method get_tapRadius addr 0x2ab7f70 size 0x8 virtual false final false
+  /// @brief Method get_tapRadius addr 0x2939228 size 0x8 virtual false final false
   inline float_t get_tapRadius();
 
-  /// @brief Method set_tapRadius addr 0x2ab7f78 size 0x18 virtual false final false
+  /// @brief Method set_tapRadius addr 0x2939230 size 0x18 virtual false final false
   inline void set_tapRadius(float_t value);
 
-  /// @brief Method get_multiTapDelayTime addr 0x2ab7f90 size 0x8 virtual false final false
+  /// @brief Method get_multiTapDelayTime addr 0x2939248 size 0x8 virtual false final false
   inline float_t get_multiTapDelayTime();
 
-  /// @brief Method set_multiTapDelayTime addr 0x2ab7f98 size 0x18 virtual false final false
+  /// @brief Method set_multiTapDelayTime addr 0x2939250 size 0x18 virtual false final false
   inline void set_multiTapDelayTime(float_t value);
 
-  /// @brief Method get_backgroundBehavior addr 0x2ab7fb0 size 0x8 virtual false final false
+  /// @brief Method get_backgroundBehavior addr 0x2939268 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior get_backgroundBehavior();
 
-  /// @brief Method set_backgroundBehavior addr 0x2ab7fb8 size 0x18 virtual false final false
+  /// @brief Method set_backgroundBehavior addr 0x2939270 size 0x18 virtual false final false
   inline void set_backgroundBehavior(::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior value);
 
-  /// @brief Method get_editorInputBehaviorInPlayMode addr 0x2ab7fd0 size 0x8 virtual false final false
+  /// @brief Method get_editorInputBehaviorInPlayMode addr 0x2939288 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode get_editorInputBehaviorInPlayMode();
 
-  /// @brief Method set_editorInputBehaviorInPlayMode addr 0x2ab7fd8 size 0x18 virtual false final false
+  /// @brief Method set_editorInputBehaviorInPlayMode addr 0x2939290 size 0x18 virtual false final false
   inline void set_editorInputBehaviorInPlayMode(::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode value);
 
-  /// @brief Method get_maxEventBytesPerUpdate addr 0x2ab7ff0 size 0x8 virtual false final false
+  /// @brief Method get_maxEventBytesPerUpdate addr 0x29392a8 size 0x8 virtual false final false
   inline int32_t get_maxEventBytesPerUpdate();
 
-  /// @brief Method set_maxEventBytesPerUpdate addr 0x2ab7ff8 size 0x18 virtual false final false
+  /// @brief Method set_maxEventBytesPerUpdate addr 0x29392b0 size 0x18 virtual false final false
   inline void set_maxEventBytesPerUpdate(int32_t value);
 
-  /// @brief Method get_maxQueuedEventsPerUpdate addr 0x2ab8010 size 0x8 virtual false final false
+  /// @brief Method get_maxQueuedEventsPerUpdate addr 0x29392c8 size 0x8 virtual false final false
   inline int32_t get_maxQueuedEventsPerUpdate();
 
-  /// @brief Method set_maxQueuedEventsPerUpdate addr 0x2ab8018 size 0x18 virtual false final false
+  /// @brief Method set_maxQueuedEventsPerUpdate addr 0x29392d0 size 0x18 virtual false final false
   inline void set_maxQueuedEventsPerUpdate(int32_t value);
 
-  /// @brief Method get_supportedDevices addr 0x2ab8030 size 0x60 virtual false final false
+  /// @brief Method get_supportedDevices addr 0x29392e8 size 0x60 virtual false final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> get_supportedDevices();
 
-  /// @brief Method set_supportedDevices addr 0x2ab8090 size 0x124 virtual false final false
+  /// @brief Method set_supportedDevices addr 0x2939348 size 0x124 virtual false final false
   inline void set_supportedDevices(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> value);
 
-  /// @brief Method get_disableRedundantEventsMerging addr 0x2ab81b4 size 0x8 virtual false final false
+  /// @brief Method get_disableRedundantEventsMerging addr 0x293946c size 0x8 virtual false final false
   inline bool get_disableRedundantEventsMerging();
 
-  /// @brief Method set_disableRedundantEventsMerging addr 0x2ab81bc size 0x1c virtual false final false
+  /// @brief Method set_disableRedundantEventsMerging addr 0x2939474 size 0x1c virtual false final false
   inline void set_disableRedundantEventsMerging(bool value);
 
-  /// @brief Method SetInternalFeatureFlag addr 0x2ab81d8 size 0x1a0 virtual false final false
+  /// @brief Method SetInternalFeatureFlag addr 0x2939490 size 0x1a0 virtual false final false
   inline void SetInternalFeatureFlag(::StringW featureName, bool enabled);
 
-  /// @brief Method IsFeatureEnabled addr 0x2ab8378 size 0xc0 virtual false final false
+  /// @brief Method IsFeatureEnabled addr 0x2939630 size 0xc0 virtual false final false
   inline bool IsFeatureEnabled(::StringW featureName);
 
-  /// @brief Method OnChange addr 0x2ab7d78 size 0xcc virtual false final false
+  /// @brief Method OnChange addr 0x2939030 size 0xcc virtual false final false
   inline void OnChange();
 
   static inline ::UnityEngine::InputSystem::InputSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ab8438 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x29396f0 size 0x44 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputSettings", modifiers: "&&", def_value: None }]
@@ -623,6 +629,44 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputSettings, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_SupportedDevices) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_UpdateMode) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_MaxEventBytesPerUpdate) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_MaxQueuedEventsPerUpdate) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_CompensateForScreenOrientation) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_BackgroundBehavior) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_EditorInputBehaviorInPlayMode) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultDeadzoneMin) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultDeadzoneMax) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultButtonPressPoint) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_ButtonReleaseThreshold) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultTapTime) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultSlowTapTime) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultHoldTime) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_TapRadius) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_MultiTapDelayTime) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DisableRedundantEventsMerging) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_ShortcutKeysConsumeInputs) == 0x5d, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_FeatureFlags) == 0x60, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior, "UnityEngine.InputSystem", "InputSettings/BackgroundBehavior");

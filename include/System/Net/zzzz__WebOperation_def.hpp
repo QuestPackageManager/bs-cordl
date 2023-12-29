@@ -13,14 +13,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebOperation)
-namespace System::Net {
-class WebRequestStream;
-}
 namespace System::Runtime::ExceptionServices {
 class ExceptionDispatchInfo;
 }
 namespace System::Net {
+class WebResponseStream;
+}
+namespace System::Net {
+struct __WebOperation___Run_d__58;
+}
+namespace System::Net {
 class ServicePoint;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Net {
+class WebRequestStream;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Net {
+class BufferOffsetSize;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System::Net {
+class WebConnection;
 }
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
@@ -28,38 +49,17 @@ template <typename T1, typename T2> struct ValueTuple_2;
 namespace System {
 class Exception;
 }
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace System::Net {
-struct __WebOperation___Run_d__58;
-}
 namespace System::Net {
 struct __WebOperation___GetRequestStream_d__50;
-}
-namespace System::Net {
-class HttpWebRequest;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
 }
 namespace System::Net {
 template <typename T> class WebCompletionSource_1;
 }
 namespace System::Net {
-class BufferOffsetSize;
+class HttpWebRequest;
 }
-namespace System::Net {
-class WebConnection;
-}
-namespace System::Net {
-class WebResponseStream;
-}
-namespace System::IO {
-class Stream;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -71,10 +71,10 @@ namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+struct AsyncVoidMethodBuilder;
 }
 // Forward declare root types
 namespace System::Net {
@@ -94,19 +94,19 @@ MARK_VAL_T(::System::Net::__WebOperation___Run_d__58);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901 }), TypeDefinitionIndex(TypeDefinitionIndex(9238)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3619)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 899 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9225)) CS Name: ::WebOperation::<GetRequestStream>d__50
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 879 }), TypeDefinitionIndex(TypeDefinitionIndex(3607)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3392), inst: 881 }), TypeDefinitionIndex(TypeDefinitionIndex(8075)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3392))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(8062)) CS Name: ::WebOperation::<GetRequestStream>d__50
 struct CORDL_TYPE __WebOperation___GetRequestStream_d__50 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x29e2b60 size 0x21c virtual true final true
+  /// @brief Method MoveNext addr 0x28662e0 size 0x21c virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x29e2d7c size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0x28664fc size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -141,24 +141,31 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebOperation___GetRequestStream_d__50, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__WebOperation___GetRequestStream_d__50, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebOperation___GetRequestStream_d__50, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebOperation___GetRequestStream_d__50, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebOperation___GetRequestStream_d__50, __u__1) == 0x28, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: ::<Run>d__58
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901 }), TypeDefinitionIndex(TypeDefinitionIndex(9238)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3395))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9226))
-// CS Name: ::WebOperation::<Run>d__58
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8075)), TypeDefinitionIndex(TypeDefinitionIndex(3392)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 881
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3390))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8063)) CS Name: ::WebOperation::<Run>d__58
 struct CORDL_TYPE __WebOperation___Run_d__58 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x29e2dd4 size 0x58c virtual true final true
+  /// @brief Method MoveNext addr 0x2866554 size 0x58c virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x29e343c size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0x2866bbc size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -204,13 +211,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebOperation___Run_d__58, 0x60>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__WebOperation___Run_d__58, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebOperation___Run_d__58, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebOperation___Run_d__58, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebOperation___Run_d__58, _requestStream_5__2) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebOperation___Run_d__58, _stream_5__3) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebOperation___Run_d__58, __u__1) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__WebOperation___Run_d__58, __u__2) == 0x50, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: System.Net::WebOperation
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9227))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8064))
 // CS Name: ::System.Net::WebOperation*
 class CORDL_TYPE WebOperation : public ::System::Object {
 public:
@@ -390,103 +411,103 @@ public:
 
   constexpr void __set_finished(int32_t value);
 
-  /// @brief Method get_Request addr 0x29e1f34 size 0x8 virtual false final false
+  /// @brief Method get_Request addr 0x28656b4 size 0x8 virtual false final false
   inline ::System::Net::HttpWebRequest* get_Request();
 
-  /// @brief Method get_Connection addr 0x29e1f3c size 0x8 virtual false final false
+  /// @brief Method get_Connection addr 0x28656bc size 0x8 virtual false final false
   inline ::System::Net::WebConnection* get_Connection();
 
-  /// @brief Method set_Connection addr 0x29e1f44 size 0x8 virtual false final false
+  /// @brief Method set_Connection addr 0x28656c4 size 0x8 virtual false final false
   inline void set_Connection(::System::Net::WebConnection* value);
 
-  /// @brief Method get_ServicePoint addr 0x29e1f4c size 0x8 virtual false final false
+  /// @brief Method get_ServicePoint addr 0x28656cc size 0x8 virtual false final false
   inline ::System::Net::ServicePoint* get_ServicePoint();
 
-  /// @brief Method set_ServicePoint addr 0x29e1f54 size 0x8 virtual false final false
+  /// @brief Method set_ServicePoint addr 0x28656d4 size 0x8 virtual false final false
   inline void set_ServicePoint(::System::Net::ServicePoint* value);
 
-  /// @brief Method get_WriteBuffer addr 0x29e1f5c size 0x8 virtual false final false
+  /// @brief Method get_WriteBuffer addr 0x28656dc size 0x8 virtual false final false
   inline ::System::Net::BufferOffsetSize* get_WriteBuffer();
 
-  /// @brief Method get_IsNtlmChallenge addr 0x29e1f64 size 0x8 virtual false final false
+  /// @brief Method get_IsNtlmChallenge addr 0x28656e4 size 0x8 virtual false final false
   inline bool get_IsNtlmChallenge();
 
   static inline ::System::Net::WebOperation* New_ctor(::System::Net::HttpWebRequest* request, ::System::Net::BufferOffsetSize* writeBuffer, bool isNtlmChallenge,
                                                       ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method .ctor addr 0x29e1f6c size 0x194 virtual false final false
+  /// @brief Method .ctor addr 0x28656ec size 0x194 virtual false final false
   inline void _ctor(::System::Net::HttpWebRequest* request, ::System::Net::BufferOffsetSize* writeBuffer, bool isNtlmChallenge, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method get_Aborted addr 0x29db03c size 0x50 virtual false final false
+  /// @brief Method get_Aborted addr 0x285e7bc size 0x50 virtual false final false
   inline bool get_Aborted();
 
-  /// @brief Method get_Closed addr 0x29e2100 size 0x2c virtual false final false
+  /// @brief Method get_Closed addr 0x2865880 size 0x2c virtual false final false
   inline bool get_Closed();
 
-  /// @brief Method Abort addr 0x29daffc size 0x40 virtual false final false
+  /// @brief Method Abort addr 0x285e77c size 0x40 virtual false final false
   inline void Abort();
 
-  /// @brief Method Close addr 0x29e22e8 size 0xac virtual false final false
+  /// @brief Method Close addr 0x2865a68 size 0xac virtual false final false
   inline void Close();
 
-  /// @brief Method SetCanceled addr 0x29e221c size 0xcc virtual false final false
+  /// @brief Method SetCanceled addr 0x286599c size 0xcc virtual false final false
   inline void SetCanceled();
 
-  /// @brief Method SetError addr 0x29e25d8 size 0xa4 virtual false final false
+  /// @brief Method SetError addr 0x2865d58 size 0xa4 virtual false final false
   inline void SetError(::System::Exception* error);
 
-  /// @brief Method SetDisposed addr 0x29e212c size 0xf0 virtual false final false
+  /// @brief Method SetDisposed addr 0x28658ac size 0xf0 virtual false final false
   inline ::System::ValueTuple_2<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*, bool> SetDisposed(ByRef<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> field);
 
-  /// @brief Method CheckDisposed addr 0x29e267c size 0x4c virtual false final false
+  /// @brief Method CheckDisposed addr 0x2865dfc size 0x4c virtual false final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* CheckDisposed(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ThrowIfDisposed addr 0x29e2720 size 0x60 virtual false final false
+  /// @brief Method ThrowIfDisposed addr 0x2865ea0 size 0x60 virtual false final false
   inline void ThrowIfDisposed();
 
-  /// @brief Method ThrowIfDisposed addr 0x29de7b4 size 0x44 virtual false final false
+  /// @brief Method ThrowIfDisposed addr 0x2861f34 size 0x44 virtual false final false
   inline void ThrowIfDisposed(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ThrowIfClosedOrDisposed addr 0x29dfc84 size 0x60 virtual false final false
+  /// @brief Method ThrowIfClosedOrDisposed addr 0x2863404 size 0x60 virtual false final false
   inline void ThrowIfClosedOrDisposed();
 
-  /// @brief Method ThrowIfClosedOrDisposed addr 0x29df4a4 size 0x4c virtual false final false
+  /// @brief Method ThrowIfClosedOrDisposed addr 0x2862c24 size 0x4c virtual false final false
   inline void ThrowIfClosedOrDisposed(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method CheckThrowDisposed addr 0x29e26c8 size 0x58 virtual false final false
+  /// @brief Method CheckThrowDisposed addr 0x2865e48 size 0x58 virtual false final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* CheckThrowDisposed(bool throwIt, ByRef<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> field);
 
-  /// @brief Method RegisterRequest addr 0x29dd99c size 0x254 virtual false final false
+  /// @brief Method RegisterRequest addr 0x286111c size 0x254 virtual false final false
   inline void RegisterRequest(::System::Net::ServicePoint* servicePoint, ::System::Net::WebConnection* connection);
 
-  /// @brief Method SetPriorityRequest addr 0x29e2780 size 0x18c virtual false final false
+  /// @brief Method SetPriorityRequest addr 0x2865f00 size 0x18c virtual false final false
   inline void SetPriorityRequest(::System::Net::WebOperation* operation);
 
-  /// @brief Method GetRequestStream addr 0x29e290c size 0xf0 virtual false final false
+  /// @brief Method GetRequestStream addr 0x286608c size 0xf0 virtual false final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetRequestStream();
 
-  /// @brief Method GetRequestStreamInternal addr 0x29e29fc size 0x50 virtual false final false
+  /// @brief Method GetRequestStreamInternal addr 0x286617c size 0x50 virtual false final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::WebRequestStream*>* GetRequestStreamInternal();
 
-  /// @brief Method get_WriteStream addr 0x29e2a4c size 0x18 virtual false final false
+  /// @brief Method get_WriteStream addr 0x28661cc size 0x18 virtual false final false
   inline ::System::Net::WebRequestStream* get_WriteStream();
 
-  /// @brief Method GetResponseStream addr 0x29e2a64 size 0x50 virtual false final false
+  /// @brief Method GetResponseStream addr 0x28661e4 size 0x50 virtual false final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::WebResponseStream*>* GetResponseStream();
 
-  /// @brief Method get_Finished addr 0x29e2ab4 size 0x8 virtual false final false
+  /// @brief Method get_Finished addr 0x2866234 size 0x8 virtual false final false
   inline ::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>* get_Finished();
 
-  /// @brief Method Run addr 0x29ddbf0 size 0x94 virtual false final false
+  /// @brief Method Run addr 0x2861370 size 0x94 virtual false final false
   inline void Run();
 
-  /// @brief Method CompleteRequestWritten addr 0x29e2abc size 0x80 virtual false final false
+  /// @brief Method CompleteRequestWritten addr 0x286623c size 0x80 virtual false final false
   inline void CompleteRequestWritten(::System::Net::WebRequestStream* stream, ::System::Exception* error);
 
-  /// @brief Method Finish addr 0x29e2394 size 0x244 virtual false final false
+  /// @brief Method Finish addr 0x2865b14 size 0x244 virtual false final false
   inline void Finish(bool ok, ::System::Exception* error);
 
-  /// @brief Method <RegisterRequest>b__48_0 addr 0x29e2b3c size 0x24 virtual false final false
+  /// @brief Method <RegisterRequest>b__48_0 addr 0x28662bc size 0x24 virtual false final false
   inline void _RegisterRequest_b__48_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "WebOperation", modifiers: "&&", def_value: None }]
@@ -558,6 +579,40 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::WebOperation, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::WebOperation, ____Request_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebOperation, ____Connection_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebOperation, ____ServicePoint_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebOperation, ____WriteBuffer_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebOperation, ____IsNtlmChallenge_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebOperation, ___cts) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebOperation, ___requestTask) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebOperation, ___requestWrittenTask) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebOperation, ___responseTask) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebOperation, ___finishedTask) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebOperation, ___writeStream) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebOperation, ___responseStream) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebOperation, ___disposedInfo) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebOperation, ___closedInfo) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebOperation, ___priorityRequest) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebOperation, ___requestSent) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::WebOperation, ___finished) == 0x8c, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::WebOperation);

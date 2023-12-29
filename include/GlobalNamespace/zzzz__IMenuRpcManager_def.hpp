@@ -3,46 +3,46 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
+#include <cmath>
 CORDL_MODULE_EXPORT(IMenuRpcManager)
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-struct CannotStartGameReason;
+template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace GlobalNamespace {
 struct MultiplayerGameState;
 }
 namespace GlobalNamespace {
-struct EntitlementsStatus;
+struct CannotStartGameReason;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+}
+namespace GlobalNamespace {
+class PlayersMissingEntitlementsNetSerializable;
 }
 namespace GlobalNamespace {
 class PlayersLobbyPermissionConfigurationNetSerializable;
 }
 namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
+class IDisposable;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-struct SongPackMask;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class PlayersMissingEntitlementsNetSerializable;
+class BeatmapIdentifierNetSerializable;
+}
+namespace GlobalNamespace {
+struct EntitlementsStatus;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,18 +55,18 @@ MARK_REF_PTR_T(::GlobalNamespace::IMenuRpcManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12798))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12715))
 // CS Name: ::IMenuRpcManager*
 class CORDL_TYPE IMenuRpcManager {
 public:
   // Declarations
-  __declspec(property(get = get_syncTime)) int64_t syncTime;
+  __declspec(property(get = get_syncTime)) float_t syncTime;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// @brief Method get_syncTime addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline int64_t get_syncTime();
+  inline float_t get_syncTime();
 
   /// @brief Method add_getPlayersPermissionConfigurationEvent addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void add_getPlayersPermissionConfigurationEvent(::System::Action_1<::StringW>* value);
@@ -177,10 +177,10 @@ public:
   inline void remove_setIsReadyEvent(::System::Action_2<::StringW, bool>* value);
 
   /// @brief Method add_setStartGameTimeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void add_setStartGameTimeEvent(::System::Action_2<::StringW, int64_t>* value);
+  inline void add_setStartGameTimeEvent(::System::Action_2<::StringW, float_t>* value);
 
   /// @brief Method remove_setStartGameTimeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void remove_setStartGameTimeEvent(::System::Action_2<::StringW, int64_t>* value);
+  inline void remove_setStartGameTimeEvent(::System::Action_2<::StringW, float_t>* value);
 
   /// @brief Method add_cancelledLevelStartEvent addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void add_cancelledLevelStartEvent(::System::Action_1<::StringW>* value);
@@ -189,10 +189,10 @@ public:
   inline void remove_cancelledLevelStartEvent(::System::Action_1<::StringW>* value);
 
   /// @brief Method add_startedLevelEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void add_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* value);
+  inline void add_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, float_t>* value);
 
   /// @brief Method remove_startedLevelEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void remove_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* value);
+  inline void remove_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, float_t>* value);
 
   /// @brief Method add_getStartedLevelEvent addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void add_getStartedLevelEvent(::System::Action_1<::StringW>* value);
@@ -255,10 +255,10 @@ public:
   inline void remove_cancelCountdownEvent(::System::Action_1<::StringW>* value);
 
   /// @brief Method add_setCountdownEndTimeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void add_setCountdownEndTimeEvent(::System::Action_2<::StringW, int64_t>* value);
+  inline void add_setCountdownEndTimeEvent(::System::Action_2<::StringW, float_t>* value);
 
   /// @brief Method remove_setCountdownEndTimeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void remove_setCountdownEndTimeEvent(::System::Action_2<::StringW, int64_t>* value);
+  inline void remove_setCountdownEndTimeEvent(::System::Action_2<::StringW, float_t>* value);
 
   /// @brief Method add_setOwnedSongPacksEvent addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void add_setOwnedSongPacksEvent(::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>* value);
@@ -357,7 +357,7 @@ public:
   inline void SetOwnedSongPacks(::GlobalNamespace::SongPackMask songPackMask);
 
   /// @brief Method StartLevel addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void StartLevel(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, int64_t startTime);
+  inline void StartLevel(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, float_t startTime);
 
   /// @brief Method GetStartedLevel addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void GetStartedLevel();
@@ -366,7 +366,7 @@ public:
   inline void CancelLevelStart();
 
   /// @brief Method SetStartGameTime addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void SetStartGameTime(int64_t newTime);
+  inline void SetStartGameTime(float_t newTime);
 
   /// @brief Method GetCountdownEndTime addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void GetCountdownEndTime();

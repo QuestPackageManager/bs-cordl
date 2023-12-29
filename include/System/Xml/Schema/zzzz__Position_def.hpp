@@ -19,12 +19,12 @@ MARK_VAL_T(::System::Xml::Schema::Position);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11597))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11525))
 // CS Name: ::System.Xml.Schema::Position
 struct CORDL_TYPE Position {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x28ada14 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x27309f0 size 0xc virtual false final false
   inline void _ctor(int32_t symbol, ::System::Object* particle);
 
   // Ctor Parameters [CppParam { name: "symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "particle", ty: "::System::Object*", modifiers: "", def_value: None }]
@@ -47,6 +47,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::Position, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::Position, symbol) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::Position, particle) == 0x8, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Position, "System.Xml.Schema", "Position");

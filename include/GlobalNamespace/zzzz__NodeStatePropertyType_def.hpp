@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::NodeStatePropertyType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7533))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8438))
 // CS Name: ::NodeStatePropertyType
 struct CORDL_TYPE NodeStatePropertyType {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NodeStatePropertyType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NodeStatePropertyType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NodeStatePropertyType, "", "NodeStatePropertyType");

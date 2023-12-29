@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::X509Certificates::X509SubjectKeyIde
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8988))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7825))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509SubjectKeyIdentifierHashAlgorithm
 struct CORDL_TYPE X509SubjectKeyIdentifierHashAlgorithm {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm, "System.Security.Cryptography.X509Certificates",

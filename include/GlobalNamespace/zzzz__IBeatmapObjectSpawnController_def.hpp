@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IBeatmapObjectSpawnController)
-namespace GlobalNamespace {
-struct NoteLineLayer;
-}
-namespace System {
-class Action;
-}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace GlobalNamespace {
 class BeatmapObjectSpawnMovementData;
+}
+namespace GlobalNamespace {
+struct NoteLineLayer;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatmapObjectSpawnController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4730))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4851))
 // CS Name: ::IBeatmapObjectSpawnController*
 class CORDL_TYPE IBeatmapObjectSpawnController {
 public:

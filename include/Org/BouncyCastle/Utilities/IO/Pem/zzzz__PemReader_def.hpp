@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PemReader)
-namespace Org::BouncyCastle::Utilities::IO::Pem {
-class PemObject;
-}
 namespace System::IO {
 class TextReader;
+}
+namespace Org::BouncyCastle::Utilities::IO::Pem {
+class PemObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::IO::Pem {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::Pem::PemReader);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1685))
 // CS Name: ::Org.BouncyCastle.Utilities.IO.Pem::PemReader*
 class CORDL_TYPE PemReader : public ::System::Object {
@@ -40,16 +40,16 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemReader* New_ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method .ctor addr 0x10d15a4 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x1060350 size 0x78 virtual false final false
   inline void _ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method get_Reader addr 0x10d161c size 0x8 virtual false final false
+  /// @brief Method get_Reader addr 0x10603c8 size 0x8 virtual false final false
   inline ::System::IO::TextReader* get_Reader();
 
-  /// @brief Method ReadPemObject addr 0x10d1624 size 0x154 virtual false final false
+  /// @brief Method ReadPemObject addr 0x10603d0 size 0x154 virtual false final false
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* ReadPemObject();
 
-  /// @brief Method LoadObject addr 0x10d1778 size 0x3d8 virtual false final false
+  /// @brief Method LoadObject addr 0x1060524 size 0x3d8 virtual false final false
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* LoadObject(::StringW type);
 
   // Ctor Parameters [CppParam { name: "", ty: "PemReader", modifiers: "&&", def_value: None }]
@@ -79,6 +79,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::IO::Pem::PemReader, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::IO::Pem::PemReader, ___reader) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::IO::Pem
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::IO::Pem::PemReader);

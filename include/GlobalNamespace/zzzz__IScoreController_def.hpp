@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(IScoreController)
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class ScoringElement;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IScoreController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5318))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5413))
 // CS Name: ::IScoreController*
 class CORDL_TYPE IScoreController {
 public:

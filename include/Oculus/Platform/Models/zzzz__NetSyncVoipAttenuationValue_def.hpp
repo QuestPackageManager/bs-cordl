@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncVoipAttenuationValue);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13463))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13518))
 // CS Name: ::Oculus.Platform.Models::NetSyncVoipAttenuationValue*
 class CORDL_TYPE NetSyncVoipAttenuationValue : public ::System::Object {
 public:
@@ -42,7 +42,7 @@ public:
 
   static inline ::Oculus::Platform::Models::NetSyncVoipAttenuationValue* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x2707a00 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x25b6184 size 0x88 virtual false final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSyncVoipAttenuationValue", modifiers: "&&", def_value: None }]
@@ -69,6 +69,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::NetSyncVoipAttenuationValue, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::NetSyncVoipAttenuationValue, ___Decibels) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::NetSyncVoipAttenuationValue, ___Distance) == 0x14, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::NetSyncVoipAttenuationValue);

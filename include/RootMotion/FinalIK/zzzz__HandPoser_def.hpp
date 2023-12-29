@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(HandPoser)
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::HandPoser);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12617))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12616))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12544))
 // CS Name: ::RootMotion.FinalIK::HandPoser*
 class CORDL_TYPE HandPoser : public ::RootMotion::FinalIK::Poser {
 public:
@@ -75,24 +75,24 @@ public:
 
   constexpr void __set_defaultLocalRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
 
-  /// @brief Method AutoMapping addr 0x128cdf4 size 0xbc virtual true final false
+  /// @brief Method AutoMapping addr 0x121bac8 size 0xbc virtual true final false
   inline void AutoMapping();
 
-  /// @brief Method InitiatePoser addr 0x128ceb0 size 0x54 virtual true final false
+  /// @brief Method InitiatePoser addr 0x121bb84 size 0x54 virtual true final false
   inline void InitiatePoser();
 
-  /// @brief Method FixPoserTransforms addr 0x128d054 size 0xe8 virtual true final false
+  /// @brief Method FixPoserTransforms addr 0x121bd28 size 0xe8 virtual true final false
   inline void FixPoserTransforms();
 
-  /// @brief Method UpdatePoser addr 0x128d13c size 0x330 virtual true final false
+  /// @brief Method UpdatePoser addr 0x121be10 size 0x330 virtual true final false
   inline void UpdatePoser();
 
-  /// @brief Method StoreDefaultState addr 0x128cf04 size 0x150 virtual false final false
+  /// @brief Method StoreDefaultState addr 0x121bbd8 size 0x150 virtual false final false
   inline void StoreDefaultState();
 
   static inline ::RootMotion::FinalIK::HandPoser* New_ctor();
 
-  /// @brief Method .ctor addr 0x128d46c size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x121c140 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HandPoser", modifiers: "&&", def_value: None }]
@@ -128,6 +128,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::HandPoser, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::HandPoser, ___children) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::HandPoser, ____poseRoot) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::HandPoser, ___poseChildren) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::HandPoser, ___defaultLocalPositions) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::HandPoser, ___defaultLocalRotations) == 0x70, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::HandPoser);

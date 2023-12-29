@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__TaskContinuation_def.hpp"
 CORDL_MODULE_EXPORT(StandardTaskContinuation)
 namespace System::Threading::Tasks {
-class Task;
+class TaskScheduler;
 }
 namespace System::Threading::Tasks {
 struct TaskContinuationOptions;
 }
 namespace System::Threading::Tasks {
-class TaskScheduler;
+class Task;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Threading::Tasks::StandardTaskContinuation);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2792)), TypeDefinitionIndex(TypeDefinitionIndex(2801))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2802))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2797)), TypeDefinitionIndex(TypeDefinitionIndex(2788))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2798))
 // CS Name: ::System.Threading.Tasks::StandardTaskContinuation*
 class CORDL_TYPE StandardTaskContinuation : public ::System::Threading::Tasks::TaskContinuation {
 public:
@@ -60,10 +60,10 @@ public:
   static inline ::System::Threading::Tasks::StandardTaskContinuation* New_ctor(::System::Threading::Tasks::Task* task, ::System::Threading::Tasks::TaskContinuationOptions options,
                                                                                ::System::Threading::Tasks::TaskScheduler* scheduler);
 
-  /// @brief Method .ctor addr 0x2628370 size 0x120 virtual false final false
+  /// @brief Method .ctor addr 0x24ce264 size 0x120 virtual false final false
   inline void _ctor(::System::Threading::Tasks::Task* task, ::System::Threading::Tasks::TaskContinuationOptions options, ::System::Threading::Tasks::TaskScheduler* scheduler);
 
-  /// @brief Method Run addr 0x262b60c size 0x198 virtual true final false
+  /// @brief Method Run addr 0x24d1500 size 0x198 virtual true final false
   inline void Run(::System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardTaskContinuation", modifiers: "&&", def_value: None }]
@@ -93,6 +93,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::StandardTaskContinuation, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::StandardTaskContinuation, ___m_task) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::StandardTaskContinuation, ___m_options) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::StandardTaskContinuation, ___m_taskScheduler) == 0x20, "Offset mismatch!");
 
 } // namespace System::Threading::Tasks
 NEED_NO_BOX(::System::Threading::Tasks::StandardTaskContinuation);

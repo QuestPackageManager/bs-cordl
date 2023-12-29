@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ForceMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15500))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15484))
 // CS Name: ::UnityEngine::ForceMode
 struct CORDL_TYPE ForceMode {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ForceMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ForceMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ForceMode, "UnityEngine", "ForceMode");

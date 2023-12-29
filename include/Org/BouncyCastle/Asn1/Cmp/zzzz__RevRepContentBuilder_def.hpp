@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(RevRepContentBuilder)
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiStatusInfo;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class CertificateList;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class CertId;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class RevRepContent;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class CertId;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class CertificateList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(52))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::RevRepContentBuilder*
 class CORDL_TYPE RevRepContentBuilder : public ::System::Object {
@@ -62,21 +62,21 @@ public:
 
   constexpr void __set_crls(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  /// @brief Method Add addr 0xe6f154 size 0x28 virtual true final false
+  /// @brief Method Add addr 0xdf9f80 size 0x28 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder* Add(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status);
 
-  /// @brief Method Add addr 0xe6f17c size 0xac virtual true final false
+  /// @brief Method Add addr 0xdf9fa8 size 0xac virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder* Add(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status, ::Org::BouncyCastle::Asn1::Crmf::CertId* certId);
 
-  /// @brief Method AddCrl addr 0xe6f228 size 0x28 virtual true final false
+  /// @brief Method AddCrl addr 0xdfa054 size 0x28 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder* AddCrl(::Org::BouncyCastle::Asn1::X509::CertificateList* crl);
 
-  /// @brief Method Build addr 0xe6f250 size 0x1a4 virtual true final false
+  /// @brief Method Build addr 0xdfa07c size 0x1a4 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContent* Build();
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder* New_ctor();
 
-  /// @brief Method .ctor addr 0xe6f3f4 size 0xa0 virtual false final false
+  /// @brief Method .ctor addr 0xdfa220 size 0xa0 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RevRepContentBuilder", modifiers: "&&", def_value: None }]
@@ -106,6 +106,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder, ___status) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder, ___revCerts) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder, ___crls) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder);

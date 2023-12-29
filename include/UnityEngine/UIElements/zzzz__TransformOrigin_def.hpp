@@ -27,8 +27,8 @@ MARK_VAL_T(::UnityEngine::UIElements::TransformOrigin);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7313))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7317))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7399))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7403))
 // CS Name: ::UnityEngine.UIElements::TransformOrigin
 struct CORDL_TYPE TransformOrigin {
 public:
@@ -42,37 +42,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>*();
 
-  /// @brief Method .ctor addr 0x2e75844 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2d0c494 size 0xc virtual false final false
   inline void _ctor(::UnityEngine::UIElements::Length x, ::UnityEngine::UIElements::Length y, float_t z);
 
-  /// @brief Method Initial addr 0x2e75850 size 0x18 virtual false final false
+  /// @brief Method Initial addr 0x2d0c4a0 size 0x18 virtual false final false
   static inline ::UnityEngine::UIElements::TransformOrigin Initial();
 
-  /// @brief Method get_x addr 0x2e75868 size 0x8 virtual false final false
+  /// @brief Method get_x addr 0x2d0c4b8 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::Length get_x();
 
-  /// @brief Method get_y addr 0x2e75870 size 0x8 virtual false final false
+  /// @brief Method get_y addr 0x2d0c4c0 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::Length get_y();
 
-  /// @brief Method get_z addr 0x2e75878 size 0x8 virtual false final false
+  /// @brief Method get_z addr 0x2d0c4c8 size 0x8 virtual false final false
   inline float_t get_z();
 
-  /// @brief Method op_Equality addr 0x2e755a8 size 0x60 virtual false final false
+  /// @brief Method op_Equality addr 0x2d0c1f8 size 0x60 virtual false final false
   static inline bool op_Equality(::UnityEngine::UIElements::TransformOrigin lhs, ::UnityEngine::UIElements::TransformOrigin rhs);
 
-  /// @brief Method op_Inequality addr 0x2e75880 size 0x6c virtual false final false
+  /// @brief Method op_Inequality addr 0x2d0c4d0 size 0x6c virtual false final false
   static inline bool op_Inequality(::UnityEngine::UIElements::TransformOrigin lhs, ::UnityEngine::UIElements::TransformOrigin rhs);
 
-  /// @brief Method Equals addr 0x2e758ec size 0x6c virtual true final true
+  /// @brief Method Equals addr 0x2d0c53c size 0x6c virtual true final true
   inline bool Equals(::UnityEngine::UIElements::TransformOrigin other);
 
-  /// @brief Method Equals addr 0x2e75958 size 0xd0 virtual true final false
+  /// @brief Method Equals addr 0x2d0c5a8 size 0xd0 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2e75748 size 0x74 virtual true final false
+  /// @brief Method GetHashCode addr 0x2d0c398 size 0x74 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x2e75a28 size 0x1cc virtual true final false
+  /// @brief Method ToString addr 0x2d0c678 size 0x1cc virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "m_X", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "::UnityEngine::UIElements::Length", modifiers: "",
@@ -99,6 +99,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TransformOrigin, 0x14>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TransformOrigin, m_X) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TransformOrigin, m_Y) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TransformOrigin, m_Z) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TransformOrigin, "UnityEngine.UIElements", "TransformOrigin");

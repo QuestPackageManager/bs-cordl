@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::NameCache);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3295))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3294))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::NameCache*
 class CORDL_TYPE NameCache : public ::System::Object {
 public:
@@ -43,15 +43,15 @@ public:
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::System::Object*>* getStaticF_ht();
 
-  /// @brief Method GetCachedValue addr 0x24cf098 size 0xa8 virtual false final false
+  /// @brief Method GetCachedValue addr 0x2376594 size 0xa8 virtual false final false
   inline ::System::Object* GetCachedValue(::StringW name);
 
-  /// @brief Method SetCachedValue addr 0x24cf540 size 0x90 virtual false final false
+  /// @brief Method SetCachedValue addr 0x2376a3c size 0x90 virtual false final false
   inline void SetCachedValue(::System::Object* value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::NameCache* New_ctor();
 
-  /// @brief Method .ctor addr 0x24cb5d4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2372ad0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NameCache", modifiers: "&&", def_value: None }]
@@ -75,6 +75,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::NameCache, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::NameCache, ___name) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::NameCache);

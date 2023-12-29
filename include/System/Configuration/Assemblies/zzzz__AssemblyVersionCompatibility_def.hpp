@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Configuration::Assemblies::AssemblyVersionCompatibility);
 namespace System::Configuration::Assemblies {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3751))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3739))
 // CS Name: ::System.Configuration.Assemblies::AssemblyVersionCompatibility
 struct CORDL_TYPE AssemblyVersionCompatibility {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Configuration::Assemblies::AssemblyVersionCompatibility, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Configuration::Assemblies::AssemblyVersionCompatibility, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Configuration::Assemblies
 DEFINE_IL2CPP_ARG_TYPE(::System::Configuration::Assemblies::AssemblyVersionCompatibility, "System.Configuration.Assemblies", "AssemblyVersionCompatibility");

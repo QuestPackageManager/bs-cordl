@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RenderTextureFromPostEffect);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15299))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15328))
 // CS Name: ::RenderTextureFromPostEffect*
 class CORDL_TYPE RenderTextureFromPostEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -46,18 +46,18 @@ public:
 
   constexpr void __set__camera(::UnityEngine::Camera* value);
 
-  /// @brief Method get_targetTexture addr 0x280ad54 size 0x8 virtual false final false
+  /// @brief Method get_targetTexture addr 0x2690100 size 0x8 virtual false final false
   inline ::UnityEngine::RenderTexture* get_targetTexture();
 
-  /// @brief Method Awake addr 0x280ad5c size 0x50 virtual false final false
+  /// @brief Method Awake addr 0x2690108 size 0x50 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnRenderImage addr 0x280adac size 0x1f8 virtual false final false
+  /// @brief Method OnRenderImage addr 0x2690158 size 0x1f8 virtual false final false
   inline void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dst);
 
   static inline ::GlobalNamespace::RenderTextureFromPostEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x280afa4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2690350 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderTextureFromPostEffect", modifiers: "&&", def_value: None }]
@@ -84,6 +84,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RenderTextureFromPostEffect, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RenderTextureFromPostEffect, ____targetTexture) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RenderTextureFromPostEffect, ____camera) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RenderTextureFromPostEffect);

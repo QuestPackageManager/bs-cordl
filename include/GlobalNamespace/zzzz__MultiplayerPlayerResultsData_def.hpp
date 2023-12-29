@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerPlayerResultsData)
-namespace GlobalNamespace {
-class MultiplayerBadgeAwardData;
-}
-namespace System {
-class Object;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
 namespace System {
 class IComparable;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
+}
+namespace System {
+class Object;
+}
+namespace GlobalNamespace {
+class MultiplayerBadgeAwardData;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPlayerResultsData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5236))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5330))
 // CS Name: ::MultiplayerPlayerResultsData*
 class CORDL_TYPE MultiplayerPlayerResultsData : public ::System::Object {
 public:
@@ -70,10 +70,10 @@ public:
   static inline ::GlobalNamespace::MultiplayerPlayerResultsData* New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer,
                                                                           ::GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults);
 
-  /// @brief Method .ctor addr 0x22569f8 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2113694 size 0x2c virtual false final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults);
 
-  /// @brief Method CompareTo addr 0x2256a24 size 0x1e0 virtual true final true
+  /// @brief Method CompareTo addr 0x21136c0 size 0x1e0 virtual true final true
   inline int32_t CompareTo(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlayerResultsData", modifiers: "&&", def_value: None }]
@@ -103,6 +103,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerPlayerResultsData, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayerResultsData, ___connectedPlayer) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayerResultsData, ___multiplayerLevelCompletionResults) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayerResultsData, ___badge) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerPlayerResultsData);

@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EditableModifiersSelectionView);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 74, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5798))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5780))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5888))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5871))
 // CS Name: ::EditableModifiersSelectionView*
 class CORDL_TYPE EditableModifiersSelectionView : public ::GlobalNamespace::ModifiersSelectionView {
 public:
@@ -82,36 +82,36 @@ public:
 
   constexpr void __set__showClearButton_k__BackingField(bool value);
 
-  /// @brief Method get_editButton addr 0x22e1008 size 0x8 virtual false final false
+  /// @brief Method get_editButton addr 0x219a9dc size 0x8 virtual false final false
   inline ::UnityEngine::UI::Button* get_editButton();
 
-  /// @brief Method get_clearButton addr 0x22e1010 size 0x8 virtual false final false
+  /// @brief Method get_clearButton addr 0x219a9e4 size 0x8 virtual false final false
   inline ::UnityEngine::UI::Button* get_clearButton();
 
-  /// @brief Method get_interactable addr 0x22e1018 size 0x8 virtual false final false
+  /// @brief Method get_interactable addr 0x219a9ec size 0x8 virtual false final false
   inline bool get_interactable();
 
-  /// @brief Method set_interactable addr 0x22cef90 size 0x60 virtual false final false
+  /// @brief Method set_interactable addr 0x218c324 size 0x60 virtual false final false
   inline void set_interactable(bool value);
 
-  /// @brief Method get_showClearButton addr 0x22e1020 size 0x8 virtual false final false
+  /// @brief Method get_showClearButton addr 0x219a9f4 size 0x8 virtual false final false
   inline bool get_showClearButton();
 
-  /// @brief Method set_showClearButton addr 0x22e1028 size 0xc virtual false final false
+  /// @brief Method set_showClearButton addr 0x219a9fc size 0xc virtual false final false
   inline void set_showClearButton(bool value);
 
-  /// @brief Method SetVisibility addr 0x22ce988 size 0x28 virtual false final false
+  /// @brief Method SetVisibility addr 0x218bd1c size 0x28 virtual false final false
   inline void SetVisibility(bool visible);
 
-  /// @brief Method Setup addr 0x22ce97c size 0xc virtual false final false
+  /// @brief Method Setup addr 0x218bd10 size 0xc virtual false final false
   inline void Setup(bool showClearButton);
 
-  /// @brief Method SetGameplayModifiers addr 0x22e1034 size 0x64 virtual true final false
+  /// @brief Method SetGameplayModifiers addr 0x219aa08 size 0x64 virtual true final false
   inline void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   static inline ::GlobalNamespace::EditableModifiersSelectionView* New_ctor();
 
-  /// @brief Method .ctor addr 0x22e1098 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x219aa6c size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EditableModifiersSelectionView", modifiers: "&&", def_value: None }]
@@ -147,6 +147,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EditableModifiersSelectionView, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EditableModifiersSelectionView, ____editButton) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EditableModifiersSelectionView, ____clearButton) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EditableModifiersSelectionView, ____modifiersListCanvasGroup) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EditableModifiersSelectionView, ____interactable) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EditableModifiersSelectionView, ____showClearButton_k__BackingField) == 0x49, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EditableModifiersSelectionView);

@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::ILayoutElement);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13084))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13089))
 // CS Name: ::UnityEngine.UI::ILayoutElement*
 class CORDL_TYPE ILayoutElement {
 public:

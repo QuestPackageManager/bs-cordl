@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(InvariantComparer)
 namespace System::Collections {
 class IComparer;
 }
-namespace System {
-class Object;
-}
 namespace System::Globalization {
 class CompareInfo;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::InvariantComparer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8868))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7705))
 // CS Name: ::System::InvariantComparer*
 class CORDL_TYPE InvariantComparer : public ::System::Object {
 public:
@@ -51,10 +51,10 @@ public:
 
   static inline ::System::InvariantComparer* New_ctor();
 
-  /// @brief Method .ctor addr 0x29481b0 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x27cb090 size 0x7c virtual false final false
   inline void _ctor();
 
-  /// @brief Method Compare addr 0x294822c size 0xec virtual true final true
+  /// @brief Method Compare addr 0x27cb10c size 0xec virtual true final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
   // Ctor Parameters [CppParam { name: "", ty: "InvariantComparer", modifiers: "&&", def_value: None }]
@@ -78,6 +78,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::InvariantComparer, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::InvariantComparer, ___m_compareInfo) == 0x10, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::InvariantComparer);

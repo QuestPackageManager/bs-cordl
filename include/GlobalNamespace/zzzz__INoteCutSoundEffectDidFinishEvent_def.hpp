@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteCutSoundEffectDidFinishEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4068))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4056))
 // CS Name: ::INoteCutSoundEffectDidFinishEvent*
 class CORDL_TYPE INoteCutSoundEffectDidFinishEvent {
 public:

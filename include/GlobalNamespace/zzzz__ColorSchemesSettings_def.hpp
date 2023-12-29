@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorSchemesSettings)
-namespace GlobalNamespace {
-class ColorScheme;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class ColorSchemeSO;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class ColorSchemeSO;
+class ColorScheme;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemesSettings);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4607))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4722))
 // CS Name: ::ColorSchemesSettings*
 class CORDL_TYPE ColorSchemesSettings : public ::System::Object {
 public:
@@ -73,45 +73,45 @@ public:
 
   constexpr void __set__selectedColorSchemeId(::StringW value);
 
-  /// @brief Method set_selectedColorSchemeId addr 0x236a778 size 0x8 virtual false final false
+  /// @brief Method set_selectedColorSchemeId addr 0x2233f3c size 0x8 virtual false final false
   inline void set_selectedColorSchemeId(::StringW value);
 
-  /// @brief Method get_selectedColorSchemeId addr 0x236a780 size 0x8 virtual false final false
+  /// @brief Method get_selectedColorSchemeId addr 0x2233f44 size 0x8 virtual false final false
   inline ::StringW get_selectedColorSchemeId();
 
   static inline ::GlobalNamespace::ColorSchemesSettings* New_ctor(::ArrayW<::GlobalNamespace::ColorScheme*, ::Array<::GlobalNamespace::ColorScheme*>*> colorSchemes);
 
-  /// @brief Method .ctor addr 0x236a788 size 0x160 virtual false final false
+  /// @brief Method .ctor addr 0x2233f4c size 0x160 virtual false final false
   inline void _ctor(::ArrayW<::GlobalNamespace::ColorScheme*, ::Array<::GlobalNamespace::ColorScheme*>*> colorSchemes);
 
   static inline ::GlobalNamespace::ColorSchemesSettings* New_ctor(::ArrayW<::GlobalNamespace::ColorSchemeSO*, ::Array<::GlobalNamespace::ColorSchemeSO*>*> colorSchemeSOs);
 
-  /// @brief Method .ctor addr 0x236a8e8 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x22340ac size 0x20 virtual false final false
   inline void _ctor(::ArrayW<::GlobalNamespace::ColorSchemeSO*, ::Array<::GlobalNamespace::ColorSchemeSO*>*> colorSchemeSOs);
 
-  /// @brief Method ConvertColorSchemeSOs addr 0x236a908 size 0x114 virtual false final false
+  /// @brief Method ConvertColorSchemeSOs addr 0x22340cc size 0x114 virtual false final false
   static inline ::ArrayW<::GlobalNamespace::ColorScheme*, ::Array<::GlobalNamespace::ColorScheme*>*>
   ConvertColorSchemeSOs(::ArrayW<::GlobalNamespace::ColorSchemeSO*, ::Array<::GlobalNamespace::ColorSchemeSO*>*> colorSchemeSOs);
 
-  /// @brief Method GetNumberOfColorSchemes addr 0x236aa1c size 0x48 virtual false final false
+  /// @brief Method GetNumberOfColorSchemes addr 0x22341e0 size 0x48 virtual false final false
   inline int32_t GetNumberOfColorSchemes();
 
-  /// @brief Method GetColorSchemeForIdx addr 0x236aa64 size 0x58 virtual false final false
+  /// @brief Method GetColorSchemeForIdx addr 0x2234228 size 0x58 virtual false final false
   inline ::GlobalNamespace::ColorScheme* GetColorSchemeForIdx(int32_t idx);
 
-  /// @brief Method GetColorSchemeForId addr 0x236aabc size 0x58 virtual false final false
+  /// @brief Method GetColorSchemeForId addr 0x2234280 size 0x58 virtual false final false
   inline ::GlobalNamespace::ColorScheme* GetColorSchemeForId(::StringW id);
 
-  /// @brief Method SetColorSchemeForId addr 0x236ab14 size 0x110 virtual false final false
+  /// @brief Method SetColorSchemeForId addr 0x22342d8 size 0x110 virtual false final false
   inline void SetColorSchemeForId(::GlobalNamespace::ColorScheme* colorScheme);
 
-  /// @brief Method GetSelectedColorScheme addr 0x236ac24 size 0x54 virtual false final false
+  /// @brief Method GetSelectedColorScheme addr 0x22343e8 size 0x54 virtual false final false
   inline ::GlobalNamespace::ColorScheme* GetSelectedColorScheme();
 
-  /// @brief Method GetSelectedColorSchemeIdx addr 0x236ac78 size 0xa0 virtual false final false
+  /// @brief Method GetSelectedColorSchemeIdx addr 0x223443c size 0xa0 virtual false final false
   inline int32_t GetSelectedColorSchemeIdx();
 
-  /// @brief Method GetOverrideColorScheme addr 0x235ac94 size 0x14 virtual false final false
+  /// @brief Method GetOverrideColorScheme addr 0x22344dc size 0x14 virtual false final false
   inline ::GlobalNamespace::ColorScheme* GetOverrideColorScheme();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesSettings", modifiers: "&&", def_value: None }]
@@ -144,6 +144,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemesSettings, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemesSettings, ___overrideDefaultColors) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemesSettings, ____colorSchemesList) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemesSettings, ____colorSchemesDict) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorSchemesSettings, ____selectedColorSchemeId) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorSchemesSettings);

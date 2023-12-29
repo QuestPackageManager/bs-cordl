@@ -31,26 +31,26 @@ public:
 
   static inline uint8_t getStaticF_FEATURE_MODIFICATION_DETECTION();
 
-  /// @brief Method FeatureToByteArray addr 0x11c7590 size 0x64 virtual false final false
+  /// @brief Method FeatureToByteArray addr 0x1156340 size 0x64 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FeatureToByteArray(uint8_t feature);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Features* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0x11c75f4 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x11563a4 size 0x48 virtual false final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Features* New_ctor(bool critical, uint8_t feature);
 
-  /// @brief Method .ctor addr 0x11c763c size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x11563ec size 0x90 virtual false final false
   inline void _ctor(bool critical, uint8_t feature);
 
-  /// @brief Method get_SupportsModificationDetection addr 0x11c76cc size 0x60 virtual false final false
+  /// @brief Method get_SupportsModificationDetection addr 0x115647c size 0x60 virtual false final false
   inline bool get_SupportsModificationDetection();
 
-  /// @brief Method SupportsFeature addr 0x11c772c size 0x78 virtual false final false
+  /// @brief Method SupportsFeature addr 0x11564dc size 0x78 virtual false final false
   inline bool SupportsFeature(uint8_t feature);
 
-  /// @brief Method SetSupportsFeature addr 0x11c77a4 size 0x1b4 virtual false final false
+  /// @brief Method SetSupportsFeature addr 0x1156554 size 0x1b4 virtual false final false
   inline void SetSupportsFeature(uint8_t feature, bool support);
 
   // Ctor Parameters [CppParam { name: "", ty: "Features", modifiers: "&&", def_value: None }]

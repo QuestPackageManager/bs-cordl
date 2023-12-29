@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/EventSystems/zzzz__PhysicsRaycaster_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Physics2DRaycaster)
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
-}
-namespace UnityEngine {
-struct RaycastHit2D;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
+}
+namespace UnityEngine {
+struct RaycastHit2D;
+}
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::Physics2DRaycaster);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13212))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13210))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13217))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13215))
 // CS Name: ::UnityEngine.EventSystems::Physics2DRaycaster*
 class CORDL_TYPE Physics2DRaycaster : public ::UnityEngine::EventSystems::PhysicsRaycaster {
 public:
@@ -44,10 +44,10 @@ public:
 
   static inline ::UnityEngine::EventSystems::Physics2DRaycaster* New_ctor();
 
-  /// @brief Method .ctor addr 0x2da0428 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2c38078 size 0x28 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Raycast addr 0x2da0478 size 0x5c0 virtual true final false
+  /// @brief Method Raycast addr 0x2c380c8 size 0x5c0 virtual true final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
   // Ctor Parameters [CppParam { name: "", ty: "Physics2DRaycaster", modifiers: "&&", def_value: None }]
@@ -71,6 +71,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::Physics2DRaycaster, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::Physics2DRaycaster, ___m_Hits) == 0x40, "Offset mismatch!");
 
 } // namespace UnityEngine::EventSystems
 NEED_NO_BOX(::UnityEngine::EventSystems::Physics2DRaycaster);

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(VROverlayIntersectionResults_t)
 namespace OVR::OpenVR {
-struct HmdVector3_t;
+struct HmdVector2_t;
 }
 namespace OVR::OpenVR {
-struct HmdVector2_t;
+struct HmdVector3_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -23,8 +23,8 @@ MARK_VAL_T(::OVR::OpenVR::VROverlayIntersectionResults_t);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8647)), TypeDefinitionIndex(TypeDefinitionIndex(8650))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8707))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9419)), TypeDefinitionIndex(TypeDefinitionIndex(9416))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9476))
 // CS Name: ::OVR.OpenVR::VROverlayIntersectionResults_t
 struct CORDL_TYPE VROverlayIntersectionResults_t {
 public:
@@ -56,6 +56,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VROverlayIntersectionResults_t, 0x24>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VROverlayIntersectionResults_t, vPoint) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VROverlayIntersectionResults_t, vNormal) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VROverlayIntersectionResults_t, vUVs) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VROverlayIntersectionResults_t, fDistance) == 0x20, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VROverlayIntersectionResults_t, "OVR.OpenVR", "VROverlayIntersectionResults_t");

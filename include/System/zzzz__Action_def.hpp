@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Action);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2322))
 // CS Name: ::System::Action*
 class CORDL_TYPE Action : public ::System::MulticastDelegate {
@@ -26,10 +26,10 @@ public:
   // Declarations
   static inline ::System::Action* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x251f0ac size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x23c5de0 size 0xbc virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x251f168 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x23c5e9c size 0x14 virtual true final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "Action", modifiers: "&&", def_value: None }]

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CommandEventBase_1)
-namespace UnityEngine {
-class Event;
-}
 namespace UnityEngine::UIElements {
 class ICommandEvent;
+}
+namespace UnityEngine {
+class Event;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -23,8 +23,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1027 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7229))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7266), inst: 1006 }), TypeDefinitionIndex(TypeDefinitionIndex(7266))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7315))
 // CS Name: ::UnityEngine.UIElements::CommandEventBase`1<T>*
 class CORDL_TYPE CommandEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:

@@ -22,8 +22,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6981))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6982))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7067))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7068))
 // CS Name: ::UnityEngine.UIElements::TypedUxmlAttributeDescription`1<T>*
 class CORDL_TYPE TypedUxmlAttributeDescription_1 : public ::UnityEngine::UIElements::UxmlAttributeDescription {
 public:

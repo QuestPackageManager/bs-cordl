@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::UnityEngine::SubsystemsImplementation::SubsystemProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::SubsystemsImplementation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15974))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15866))
 // CS Name: ::UnityEngine.SubsystemsImplementation::SubsystemProvider*
 class CORDL_TYPE SubsystemProvider : public ::System::Object {
 public:
@@ -50,6 +50,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SubsystemsImplementation::SubsystemProvider, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::SubsystemsImplementation::SubsystemProvider, ___m_Running) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::SubsystemsImplementation
 NEED_NO_BOX(::UnityEngine::SubsystemsImplementation::SubsystemProvider);

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::RenderTextureMemoryless);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10121))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10049))
 // CS Name: ::UnityEngine::RenderTextureMemoryless
 struct CORDL_TYPE RenderTextureMemoryless {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::RenderTextureMemoryless, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::RenderTextureMemoryless, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RenderTextureMemoryless, "UnityEngine", "RenderTextureMemoryless");

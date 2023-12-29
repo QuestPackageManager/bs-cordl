@@ -16,12 +16,12 @@ MARK_VAL_T(::GlobalNamespace::GetAssetBundleFileResult);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4413))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4433))
 // CS Name: ::GetAssetBundleFileResult
 struct CORDL_TYPE GetAssetBundleFileResult {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x234cdc8 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2200718 size 0x10 virtual false final false
   inline void _ctor(bool isError, ::StringW assetBundlePath);
 
   // Ctor Parameters [CppParam { name: "isError", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "assetBundlePath", ty: "::StringW", modifiers: "", def_value: None }]
@@ -44,6 +44,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GetAssetBundleFileResult, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GetAssetBundleFileResult, isError) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GetAssetBundleFileResult, assetBundlePath) == 0x8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GetAssetBundleFileResult, "", "GetAssetBundleFileResult");

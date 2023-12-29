@@ -11,26 +11,26 @@ struct TypeValuePair;
 namespace Zenject {
 class IProvider;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TResult> class Func_8;
+}
 namespace Zenject {
 class InjectContext;
 }
 namespace System {
-class Type;
+class Action;
 }
 namespace Zenject {
 class DiContainer;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace System {
 class Object;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TResult> class Func_8;
-}
-namespace System {
-class Action;
+class Type;
 }
 // Forward declare root types
 namespace Zenject {
@@ -44,8 +44,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11217))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11145))
 // CS Name: ::Zenject::MethodProviderWithContainer`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>*
 class CORDL_TYPE MethodProviderWithContainer_7 : public ::System::Object {
 public:

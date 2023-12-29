@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(X509ChainImplUnityTls)
 namespace System::Security::Cryptography::X509Certificates {
-class X509ChainElementCollection;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509ChainPolicy;
-}
-namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatus;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Mono::Unity {
-struct __UnityTls__unitytls_x509list_ref;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatusFlags;
 }
 namespace System::Security::Cryptography::X509Certificates {
+class X509ChainPolicy;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509ChainElementCollection;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_x509list_ref;
 }
 // Forward declare root types
 namespace Mono::Unity {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::Mono::Unity::X509ChainImplUnityTls);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9006)), TypeDefinitionIndex(TypeDefinitionIndex(8764))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8814))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7843)), TypeDefinitionIndex(TypeDefinitionIndex(7601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7651))
 // CS Name: ::Mono.Unity::X509ChainImplUnityTls*
 class CORDL_TYPE X509ChainImplUnityTls : public ::System::Security::Cryptography::X509Certificates::X509ChainImpl {
 public:
@@ -102,34 +102,34 @@ public:
 
   static inline ::Mono::Unity::X509ChainImplUnityTls* New_ctor(::Mono::Unity::__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder);
 
-  /// @brief Method .ctor addr 0x281c250 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x26a1244 size 0x88 virtual false final false
   inline void _ctor(::Mono::Unity::__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder);
 
-  /// @brief Method get_IsValid addr 0x281d88c size 0x28 virtual true final false
+  /// @brief Method get_IsValid addr 0x26a2880 size 0x28 virtual true final false
   inline bool get_IsValid();
 
-  /// @brief Method get_NativeCertificateChain addr 0x281d8b4 size 0x8 virtual false final false
+  /// @brief Method get_NativeCertificateChain addr 0x26a28a8 size 0x8 virtual false final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509list_ref get_NativeCertificateChain();
 
-  /// @brief Method get_ChainElements addr 0x281d8bc size 0x2dc virtual true final false
+  /// @brief Method get_ChainElements addr 0x26a28b0 size 0x2dc virtual true final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* get_ChainElements();
 
-  /// @brief Method AddStatus addr 0x281db98 size 0x10c virtual true final false
+  /// @brief Method AddStatus addr 0x26a2b8c size 0x10c virtual true final false
   inline void AddStatus(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags error);
 
-  /// @brief Method get_ChainPolicy addr 0x281dca4 size 0x8 virtual true final false
+  /// @brief Method get_ChainPolicy addr 0x26a2c98 size 0x8 virtual true final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* get_ChainPolicy();
 
-  /// @brief Method get_ChainStatus addr 0x281dcac size 0x7c virtual true final false
+  /// @brief Method get_ChainStatus addr 0x26a2ca0 size 0x7c virtual true final false
   inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> get_ChainStatus();
 
-  /// @brief Method Build addr 0x281dd28 size 0x8 virtual true final false
+  /// @brief Method Build addr 0x26a2d1c size 0x8 virtual true final false
   inline bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Reset addr 0x281dd30 size 0x40 virtual true final false
+  /// @brief Method Reset addr 0x26a2d24 size 0x40 virtual true final false
   inline void Reset();
 
-  /// @brief Method Dispose addr 0x281dd70 size 0x38 virtual true final false
+  /// @brief Method Dispose addr 0x26a2d64 size 0x38 virtual true final false
   inline void Dispose(bool disposing);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509ChainImplUnityTls", modifiers: "&&", def_value: None }]
@@ -165,6 +165,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Unity::X509ChainImplUnityTls, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Unity::X509ChainImplUnityTls, ___elements) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Unity::X509ChainImplUnityTls, ___nativeCertificateChain) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Unity::X509ChainImplUnityTls, ___policy) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Unity::X509ChainImplUnityTls, ___chainStatusList) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Unity::X509ChainImplUnityTls, ___reverseOrder) == 0x30, "Offset mismatch!");
 
 } // namespace Mono::Unity
 NEED_NO_BOX(::Mono::Unity::X509ChainImplUnityTls);

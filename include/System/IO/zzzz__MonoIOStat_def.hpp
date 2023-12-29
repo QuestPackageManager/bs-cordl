@@ -19,8 +19,8 @@ MARK_VAL_T(::System::IO::MonoIOStat);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3632))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3597))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3620))
 // CS Name: ::System.IO::MonoIOStat
 struct CORDL_TYPE MonoIOStat {
 public:
@@ -56,6 +56,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::MonoIOStat, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::IO::MonoIOStat, fileAttributes) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::MonoIOStat, Length) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::MonoIOStat, CreationTime) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::MonoIOStat, LastAccessTime) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::MonoIOStat, LastWriteTime) == 0x20, "Offset mismatch!");
 
 } // namespace System::IO
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::MonoIOStat, "System.IO", "MonoIOStat");

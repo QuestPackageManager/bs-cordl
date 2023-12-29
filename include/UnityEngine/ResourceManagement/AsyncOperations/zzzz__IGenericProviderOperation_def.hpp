@@ -8,20 +8,8 @@ CORDL_MODULE_EXPORT(IGenericProviderOperation)
 namespace System {
 class Type;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace System {
-class Exception;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
-}
 namespace System {
 template <typename TResult> class Func_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
@@ -29,14 +17,26 @@ struct DownloadStatus;
 namespace System {
 class Object;
 }
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace System {
+class Exception;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class IResourceProvider;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {
@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::IGenericProvi
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14039))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14310))
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::IGenericProviderOperation*
 class CORDL_TYPE IGenericProviderOperation {
 public:

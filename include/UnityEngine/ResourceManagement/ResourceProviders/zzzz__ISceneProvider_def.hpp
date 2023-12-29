@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISceneProvider)
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct SceneInstance;
@@ -13,8 +13,8 @@ struct SceneInstance;
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 namespace UnityEngine::SceneManagement {
 struct LoadSceneMode;
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvi
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14005))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14276))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::ISceneProvider*
 class CORDL_TYPE ISceneProvider {
 public:

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileLoadException)
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::IO {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::IO::FileLoadException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3565))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3560))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3560))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3555))
 // CS Name: ::System.IO::FileLoadException*
 class CORDL_TYPE FileLoadException : public ::System::IO::IOException {
 public:
@@ -54,35 +54,35 @@ public:
 
   static inline ::System::IO::FileLoadException* New_ctor();
 
-  /// @brief Method .ctor addr 0x24fc2b4 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x23a2738 size 0x5c virtual false final false
   inline void _ctor();
 
   static inline ::System::IO::FileLoadException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x24fc310 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x23a2794 size 0x24 virtual false final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method get_Message addr 0x24fc334 size 0x24 virtual true final false
+  /// @brief Method get_Message addr 0x23a27b8 size 0x24 virtual true final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_FileName addr 0x24fc3cc size 0x8 virtual false final false
+  /// @brief Method get_FileName addr 0x23a2850 size 0x8 virtual false final false
   inline ::StringW get_FileName();
 
-  /// @brief Method get_FusionLog addr 0x24fc3d4 size 0x8 virtual false final false
+  /// @brief Method get_FusionLog addr 0x23a2858 size 0x8 virtual false final false
   inline ::StringW get_FusionLog();
 
-  /// @brief Method ToString addr 0x24fc3dc size 0x1e4 virtual true final false
+  /// @brief Method ToString addr 0x23a2860 size 0x1e4 virtual true final false
   inline ::StringW ToString();
 
   static inline ::System::IO::FileLoadException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x24fc5c0 size 0xb0 virtual false final false
+  /// @brief Method .ctor addr 0x23a2a44 size 0xb0 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData addr 0x24fc670 size 0x118 virtual true final false
+  /// @brief Method GetObjectData addr 0x23a2af4 size 0x118 virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method FormatFileLoadExceptionMessage addr 0x24fc358 size 0x74 virtual false final false
+  /// @brief Method FormatFileLoadExceptionMessage addr 0x23a27dc size 0x74 virtual false final false
   static inline ::StringW FormatFileLoadExceptionMessage(::StringW fileName, int32_t hResult);
 
   // Ctor Parameters [CppParam { name: "", ty: "FileLoadException", modifiers: "&&", def_value: None }]
@@ -109,6 +109,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::FileLoadException, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::System::IO::FileLoadException, ____FileName_k__BackingField) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::FileLoadException, ____FusionLog_k__BackingField) == 0x98, "Offset mismatch!");
 
 } // namespace System::IO
 NEED_NO_BOX(::System::IO::FileLoadException);

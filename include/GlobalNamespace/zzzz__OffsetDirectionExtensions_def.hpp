@@ -17,13 +17,13 @@ MARK_REF_PTR_T(::GlobalNamespace::OffsetDirectionExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14763))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14976))
 // CS Name: ::OffsetDirectionExtensions*
 class CORDL_TYPE OffsetDirectionExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method OppositeDirection addr 0xe01580 size 0x1c virtual false final false
+  /// @brief Method OppositeDirection addr 0xd9bb70 size 0x1c virtual false final false
   static inline ::GlobalNamespace::OffsetDirection OppositeDirection(::GlobalNamespace::OffsetDirection offsetDirection);
 
   // Ctor Parameters [CppParam { name: "", ty: "OffsetDirectionExtensions", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis);
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6445))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6531))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidAxis
 struct CORDL_TYPE AndroidAxis {
 public:
@@ -217,6 +217,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Android::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis, "UnityEngine.InputSystem.Android.LowLevel", "AndroidAxis");

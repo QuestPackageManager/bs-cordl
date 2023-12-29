@@ -8,8 +8,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISonyCommerceHelper)
-namespace GlobalNamespace {
-struct __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult;
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 struct __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult;
@@ -17,11 +20,8 @@ struct __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult;
 namespace GlobalNamespace {
 struct __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace GlobalNamespace {
+struct __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult;
 }
 namespace GlobalNamespace {
 struct __ISonyCommerceHelper__DisplayProductBrowseDialogResult;
@@ -53,7 +53,7 @@ MARK_VAL_T(::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlemen
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4140))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4174))
 // CS Name: ::ISonyCommerceHelper::DisplayProductBrowseDialogResult
 struct CORDL_TYPE __ISonyCommerceHelper__DisplayProductBrowseDialogResult {
 public:
@@ -95,13 +95,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::DisplayCategoryBrowseDialogResult
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4141))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4175))
 // CS Name: ::ISonyCommerceHelper::DisplayCategoryBrowseDialogResult
 struct CORDL_TYPE __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult {
 public:
@@ -143,13 +145,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::GetAdditionalContentEntitlementsResult
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4142))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4176))
 // CS Name: ::ISonyCommerceHelper::GetAdditionalContentEntitlementsResult
 struct CORDL_TYPE __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult {
 public:
@@ -191,13 +195,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::AdditionalContentEntitlementsAsyncResult
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4142))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4143))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4177))
 // CS Name: ::ISonyCommerceHelper::AdditionalContentEntitlementsAsyncResult
 struct CORDL_TYPE __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult {
 public:
@@ -225,13 +231,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult, result) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult, entitlementsLabels) == 0x8, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ISonyCommerceHelper
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4144))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4178))
 // CS Name: ::ISonyCommerceHelper*
 class CORDL_TYPE ISonyCommerceHelper {
 public:

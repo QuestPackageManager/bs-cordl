@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::TypeLoadExceptionHolder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3224))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3223))
 // CS Name: ::System.Runtime.Serialization::TypeLoadExceptionHolder*
 class CORDL_TYPE TypeLoadExceptionHolder : public ::System::Object {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::System::Runtime::Serialization::TypeLoadExceptionHolder* New_ctor(::StringW typeName);
 
-  /// @brief Method .ctor addr 0x24bcd64 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2364270 size 0x28 virtual false final false
   inline void _ctor(::StringW typeName);
 
-  /// @brief Method get_TypeName addr 0x24bcd8c size 0x8 virtual false final false
+  /// @brief Method get_TypeName addr 0x2364298 size 0x8 virtual false final false
   inline ::StringW get_TypeName();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeLoadExceptionHolder", modifiers: "&&", def_value: None }]
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::TypeLoadExceptionHolder, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::TypeLoadExceptionHolder, ___m_typeName) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::TypeLoadExceptionHolder);

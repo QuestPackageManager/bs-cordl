@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ElementTryParser_1)
+namespace System {
+class Object;
+}
 namespace System::Net::Http::Headers {
 class Lexer;
 }
 namespace System::Net::Http::Headers {
 struct Token;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -27,8 +27,8 @@ namespace System::Net::Http::Headers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14661))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14878))
 // CS Name: ::System.Net.Http.Headers::ElementTryParser`1<T>*
 class CORDL_TYPE ElementTryParser_1 : public ::System::MulticastDelegate {
 public:

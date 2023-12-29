@@ -17,12 +17,12 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_BoxInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9750))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9677))
 // CS Name: ::HoudiniEngineUnity::HAPI_BoxInfo
 struct CORDL_TYPE HAPI_BoxInfo {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2191eb0 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x203b514 size 0x70 virtual false final false
   inline void _ctor(bool initialize_fields);
 
   // Ctor Parameters [CppParam { name: "center", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "size", ty: "::ArrayW<float_t,::Array<float_t>*>",
@@ -49,6 +49,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_BoxInfo, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_BoxInfo, center) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_BoxInfo, size) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_BoxInfo, rotation) == 0x10, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_BoxInfo, "HoudiniEngineUnity", "HAPI_BoxInfo");

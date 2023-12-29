@@ -14,11 +14,20 @@ CORDL_MODULE_EXPORT(AnimatedSwitchView)
 namespace HMUI {
 class __AnimatedSwitchView____c;
 }
+namespace HMUI {
+class ImageView;
+}
+namespace UnityEngine {
+struct Color;
+}
 namespace UnityEngine {
 class RectTransform;
 }
 namespace HMUI {
-class ToggleWithCallbacks;
+class __AnimatedSwitchView__GetColorDelegate;
+}
+namespace HMUI {
+class __AnimatedSwitchView__ColorBlock;
 }
 namespace HMUI {
 struct __AnimatedSwitchView__AnimationState;
@@ -27,28 +36,19 @@ namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace HMUI {
-class ImageView;
+class ToggleWithCallbacks;
 }
 namespace HMUI {
 struct __ToggleWithCallbacks__SelectionState;
 }
-namespace HMUI {
-class __AnimatedSwitchView__ColorBlock;
-}
-namespace HMUI {
-class __AnimatedSwitchView__GetColorDelegate;
-}
-namespace UnityEngine {
-struct Color;
-}
 namespace System {
-class Object;
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
-class AsyncCallback;
+class Object;
 }
 // Forward declare root types
 namespace HMUI {
@@ -76,8 +76,8 @@ MARK_REF_PTR_T(::HMUI::__AnimatedSwitchView____c);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13614))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13731))
 // CS Name: ::AnimatedSwitchView::ColorBlock*
 class CORDL_TYPE __AnimatedSwitchView__ColorBlock : public ::System::Object {
 public:
@@ -138,7 +138,7 @@ public:
 
   static inline ::HMUI::__AnimatedSwitchView__ColorBlock* New_ctor();
 
-  /// @brief Method .ctor addr 0x2130100 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x1fd8764 size 0x18 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__AnimatedSwitchView__ColorBlock", modifiers: "&&", def_value: None }]
@@ -178,13 +178,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__AnimatedSwitchView__ColorBlock, 0x70>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__AnimatedSwitchView__ColorBlock, ___knobColor) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__AnimatedSwitchView__ColorBlock, ___knobColor0) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__AnimatedSwitchView__ColorBlock, ___knobColor1) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__AnimatedSwitchView__ColorBlock, ___backgroundColor) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__AnimatedSwitchView__ColorBlock, ___backgroundColor0) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__AnimatedSwitchView__ColorBlock, ___backgroundColor1) == 0x60, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: ::AnimationState
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13615))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13732))
 // CS Name: ::AnimatedSwitchView::AnimationState
 struct CORDL_TYPE __AnimatedSwitchView__AnimationState {
 public:
@@ -246,29 +258,31 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__AnimatedSwitchView__AnimationState, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__AnimatedSwitchView__AnimationState, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: ::GetColorDelegate
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13616))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13733))
 // CS Name: ::AnimatedSwitchView::GetColorDelegate*
 class CORDL_TYPE __AnimatedSwitchView__GetColorDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::HMUI::__AnimatedSwitchView__GetColorDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x212fd40 size 0x12c virtual false final false
+  /// @brief Method .ctor addr 0x1fd83a4 size 0x12c virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2130118 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x1fd877c size 0x14 virtual true final false
   inline ::UnityEngine::Color Invoke(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method BeginInvoke addr 0x213012c size 0x20 virtual true final false
+  /// @brief Method BeginInvoke addr 0x1fd8790 size 0x20 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x213014c size 0x2c virtual true final false
+  /// @brief Method EndInvoke addr 0x1fd87b0 size 0x2c virtual true final false
   inline ::UnityEngine::Color EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AnimatedSwitchView__GetColorDelegate", modifiers: "&&", def_value: None }]
@@ -295,8 +309,8 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__AnimatedSwitchView__GetC
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13617))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13734))
 // CS Name: ::AnimatedSwitchView::<>c*
 class CORDL_TYPE __AnimatedSwitchView____c : public ::System::Object {
 public:
@@ -352,25 +366,25 @@ public:
 
   static inline ::HMUI::__AnimatedSwitchView____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x21301dc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fd8840 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <LerpColors>b__31_0 addr 0x21301e4 size 0x1c virtual false final false
+  /// @brief Method <LerpColors>b__31_0 addr 0x1fd8848 size 0x1c virtual false final false
   inline ::UnityEngine::Color _LerpColors_b__31_0(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method <LerpColors>b__31_1 addr 0x2130200 size 0x1c virtual false final false
+  /// @brief Method <LerpColors>b__31_1 addr 0x1fd8864 size 0x1c virtual false final false
   inline ::UnityEngine::Color _LerpColors_b__31_1(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method <LerpColors>b__31_2 addr 0x213021c size 0x1c virtual false final false
+  /// @brief Method <LerpColors>b__31_2 addr 0x1fd8880 size 0x1c virtual false final false
   inline ::UnityEngine::Color _LerpColors_b__31_2(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method <LerpColors>b__31_3 addr 0x2130238 size 0x1c virtual false final false
+  /// @brief Method <LerpColors>b__31_3 addr 0x1fd889c size 0x1c virtual false final false
   inline ::UnityEngine::Color _LerpColors_b__31_3(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method <LerpColors>b__31_4 addr 0x2130254 size 0x1c virtual false final false
+  /// @brief Method <LerpColors>b__31_4 addr 0x1fd88b8 size 0x1c virtual false final false
   inline ::UnityEngine::Color _LerpColors_b__31_4(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method <LerpColors>b__31_5 addr 0x2130270 size 0x1c virtual false final false
+  /// @brief Method <LerpColors>b__31_5 addr 0x1fd88d4 size 0x1c virtual false final false
   inline ::UnityEngine::Color _LerpColors_b__31_5(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AnimatedSwitchView____c", modifiers: "&&", def_value: None }]
@@ -397,8 +411,8 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__AnimatedSwitchView____c,
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(13615))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13618))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13732)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13735))
 // CS Name: ::HMUI::AnimatedSwitchView*
 class CORDL_TYPE AnimatedSwitchView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -609,39 +623,39 @@ public:
 
   constexpr void __set__toggle(::HMUI::ToggleWithCallbacks* value);
 
-  /// @brief Method Awake addr 0x212f190 size 0x50 virtual false final false
+  /// @brief Method Awake addr 0x1fd77f4 size 0x50 virtual false final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x212f1e0 size 0x1a0 virtual false final false
+  /// @brief Method Start addr 0x1fd7844 size 0x1a0 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x212f8d8 size 0x150 virtual false final false
+  /// @brief Method OnDestroy addr 0x1fd7f3c size 0x150 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method Update addr 0x212fa28 size 0x298 virtual false final false
+  /// @brief Method Update addr 0x1fd808c size 0x298 virtual false final false
   inline void Update();
 
-  /// @brief Method LerpPosition addr 0x212f874 size 0x64 virtual false final false
+  /// @brief Method LerpPosition addr 0x1fd7ed8 size 0x64 virtual false final false
   inline void LerpPosition(float_t switchAmount);
 
-  /// @brief Method LerpStretch addr 0x212fcc0 size 0x80 virtual false final false
+  /// @brief Method LerpStretch addr 0x1fd8324 size 0x80 virtual false final false
   inline void LerpStretch(float_t switchAmount);
 
-  /// @brief Method LerpColors addr 0x212f380 size 0x4f4 virtual false final false
+  /// @brief Method LerpColors addr 0x1fd79e4 size 0x4f4 virtual false final false
   inline void LerpColors(float_t switchAmount, float_t highlightAmount, float_t disabledAmount);
 
-  /// @brief Method LerpColor addr 0x212fe6c size 0x1ac virtual false final false
+  /// @brief Method LerpColor addr 0x1fd84d0 size 0x1ac virtual false final false
   inline ::UnityEngine::Color LerpColor(float_t switchAmount, float_t highlightAmount, float_t disabledAmount, ::HMUI::__AnimatedSwitchView__GetColorDelegate* getColorDelegate);
 
-  /// @brief Method HandleOnValueChanged addr 0x2130058 size 0x28 virtual false final false
+  /// @brief Method HandleOnValueChanged addr 0x1fd86bc size 0x28 virtual false final false
   inline void HandleOnValueChanged(bool value);
 
-  /// @brief Method HandleStateDidChange addr 0x2130080 size 0x60 virtual false final false
+  /// @brief Method HandleStateDidChange addr 0x1fd86e4 size 0x60 virtual false final false
   inline void HandleStateDidChange(::HMUI::__ToggleWithCallbacks__SelectionState selectionState);
 
   static inline ::HMUI::AnimatedSwitchView* New_ctor();
 
-  /// @brief Method .ctor addr 0x21300e0 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x1fd8744 size 0x20 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView", modifiers: "&&", def_value: None }]
@@ -728,6 +742,50 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::AnimatedSwitchView, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____knobRectTransform) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____backgroundImage) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____knobImage) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____onText) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____offText) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____switchAnimationSmooth) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____disableAnimationDuration) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____highlightAnimationDuration) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____horizontalStretchAmount) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____verticalStretchAmount) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____onColors) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____offColors) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____onHighlightedColors) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____offHighlightedColors) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____disabledColors) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____animationState) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____switchAmount) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____highlightAmount) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____disabledAmount) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____originalKnobWidth) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____originalKnobHeight) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::AnimatedSwitchView, ____toggle) == 0x98, "Offset mismatch!");
 
 } // namespace HMUI
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::__AnimatedSwitchView__AnimationState, "HMUI", "AnimatedSwitchView/AnimationState");

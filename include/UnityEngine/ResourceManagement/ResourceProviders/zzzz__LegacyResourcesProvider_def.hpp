@@ -10,20 +10,20 @@ CORDL_MODULE_EXPORT(LegacyResourcesProvider)
 namespace System {
 class Object;
 }
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProvideHandle;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class __LegacyResourcesProvider__InternalOp;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+namespace UnityEngine {
+class AsyncOperation;
 }
 namespace UnityEngine {
 class ResourceRequest;
-}
-namespace UnityEngine {
-class AsyncOperation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__LegacyRes
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14009))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14273)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14280))
 // CS Name: ::LegacyResourcesProvider::InternalOp*
 class CORDL_TYPE __LegacyResourcesProvider__InternalOp : public ::System::Object {
 public:
@@ -63,21 +63,21 @@ public:
 
   constexpr void __set_m_ProvideHandle(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
 
-  /// @brief Method Start addr 0x2bd7b44 size 0x190 virtual false final false
+  /// @brief Method Start addr 0x2a54df0 size 0x190 virtual false final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method WaitForCompletionHandler addr 0x2bd7e04 size 0x14 virtual false final false
+  /// @brief Method WaitForCompletionHandler addr 0x2a550b0 size 0x14 virtual false final false
   inline bool WaitForCompletionHandler();
 
-  /// @brief Method AsyncOperationCompleted addr 0x2bd7e18 size 0x184 virtual false final false
+  /// @brief Method AsyncOperationCompleted addr 0x2a550c4 size 0x184 virtual false final false
   inline void AsyncOperationCompleted(::UnityEngine::AsyncOperation* op);
 
-  /// @brief Method PercentComplete addr 0x2bd7f9c size 0x18 virtual false final false
+  /// @brief Method PercentComplete addr 0x2a55248 size 0x18 virtual false final false
   inline float_t PercentComplete();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bd7b3c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a54de8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LegacyResourcesProvider__InternalOp", modifiers: "&&", def_value: None }]
@@ -105,28 +105,32 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp, ___m_RequestOperation) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp, ___m_ProvideHandle) == 0x18, "Offset mismatch!");
+
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
 // Type: UnityEngine.ResourceManagement.ResourceProviders::LegacyResourcesProvider
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14013))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14010))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14284))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14281))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::LegacyResourcesProvider*
 class CORDL_TYPE LegacyResourcesProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {
 public:
   // Declarations
   using InternalOp = ::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp;
 
-  /// @brief Method Provide addr 0x2bd7750 size 0x3ec virtual true final false
+  /// @brief Method Provide addr 0x2a549fc size 0x3ec virtual true final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle pi);
 
-  /// @brief Method Release addr 0x2bd7cd4 size 0x128 virtual true final false
+  /// @brief Method Release addr 0x2a54f80 size 0x128 virtual true final false
   inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* asset);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bd7dfc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a550a8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LegacyResourcesProvider", modifiers: "&&", def_value: None }]

@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Linq::Expressions::UnaryExpression);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14300))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14307))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14638))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14645))
 // CS Name: ::System.Linq.Expressions::UnaryExpression*
 class CORDL_TYPE UnaryExpression : public ::System::Linq::Expressions::Expression {
 public:
@@ -34,7 +34,7 @@ public:
 
   constexpr void __set__Operand_k__BackingField(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method get_Operand addr 0x2813e04 size 0x8 virtual false final false
+  /// @brief Method get_Operand addr 0x2698df0 size 0x8 virtual false final false
   inline ::System::Linq::Expressions::Expression* get_Operand();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnaryExpression", modifiers: "&&", def_value: None }]
@@ -58,6 +58,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::UnaryExpression, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Linq::Expressions::UnaryExpression, ____Operand_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::UnaryExpression);

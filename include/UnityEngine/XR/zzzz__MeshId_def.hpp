@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshId)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::XR {
@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::XR::MeshId);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15633))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15591))
 // CS Name: ::UnityEngine.XR::MeshId
 struct CORDL_TYPE MeshId {
 public:
@@ -38,16 +38,16 @@ public:
 
   static inline ::UnityEngine::XR::MeshId getStaticF_s_InvalidId();
 
-  /// @brief Method ToString addr 0x2eb36a8 size 0x94 virtual true final false
+  /// @brief Method ToString addr 0x2d4a900 size 0x94 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method GetHashCode addr 0x2eb373c size 0x34 virtual true final false
+  /// @brief Method GetHashCode addr 0x2d4a994 size 0x34 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x2eb3770 size 0x88 virtual true final false
+  /// @brief Method Equals addr 0x2d4a9c8 size 0x88 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x2eb37f8 size 0x24 virtual true final true
+  /// @brief Method Equals addr 0x2d4aa50 size 0x24 virtual true final true
   inline bool Equals(::UnityEngine::XR::MeshId other);
 
   // Ctor Parameters [CppParam { name: "m_SubId1", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_SubId2", ty: "uint64_t", modifiers: "", def_value: None }]
@@ -70,6 +70,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::MeshId, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::MeshId, m_SubId1) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::MeshId, m_SubId2) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::MeshId, "UnityEngine.XR", "MeshId");

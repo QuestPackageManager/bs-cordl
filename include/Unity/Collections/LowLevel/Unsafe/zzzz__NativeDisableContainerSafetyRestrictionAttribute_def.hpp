@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSaf
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10024))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9952))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeDisableContainerSafetyRestrictionAttribute*
 class CORDL_TYPE NativeDisableContainerSafetyRestrictionAttribute : public ::System::Attribute {
 public:

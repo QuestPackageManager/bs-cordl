@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14716))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14727))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14933))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14944))
 // CS Name: ::BeatmapEventData*
 class CORDL_TYPE BeatmapEventData : public ::GlobalNamespace::BeatmapDataItem {
 public:
@@ -46,36 +46,36 @@ public:
 
   constexpr void __set__nextSameTypeEventData_k__BackingField(::GlobalNamespace::BeatmapEventData* value);
 
-  /// @brief Method get_previousSameTypeEventData addr 0xdfe050 size 0x8 virtual false final false
+  /// @brief Method get_previousSameTypeEventData addr 0xd98aa8 size 0x8 virtual false final false
   inline ::GlobalNamespace::BeatmapEventData* get_previousSameTypeEventData();
 
-  /// @brief Method set_previousSameTypeEventData addr 0xdfe058 size 0x8 virtual false final false
+  /// @brief Method set_previousSameTypeEventData addr 0xd98ab0 size 0x8 virtual false final false
   inline void set_previousSameTypeEventData(::GlobalNamespace::BeatmapEventData* value);
 
-  /// @brief Method get_nextSameTypeEventData addr 0xdfe060 size 0x8 virtual false final false
+  /// @brief Method get_nextSameTypeEventData addr 0xd98ab8 size 0x8 virtual false final false
   inline ::GlobalNamespace::BeatmapEventData* get_nextSameTypeEventData();
 
-  /// @brief Method set_nextSameTypeEventData addr 0xdfe068 size 0x8 virtual false final false
+  /// @brief Method set_nextSameTypeEventData addr 0xd98ac0 size 0x8 virtual false final false
   inline void set_nextSameTypeEventData(::GlobalNamespace::BeatmapEventData* value);
 
   static inline ::GlobalNamespace::BeatmapEventData* New_ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier);
 
-  /// @brief Method .ctor addr 0xdfdc98 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0xd986f0 size 0x44 virtual false final false
   inline void _ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier);
 
-  /// @brief Method __ConnectWithPreviousSameTypeEventData addr 0xdfe070 size 0x10 virtual false final false
+  /// @brief Method __ConnectWithPreviousSameTypeEventData addr 0xd98ac8 size 0x10 virtual false final false
   inline void __ConnectWithPreviousSameTypeEventData(::GlobalNamespace::BeatmapEventData* newPreviousSameTypeEvent);
 
-  /// @brief Method __ConnectWithNextSameTypeEventData addr 0xdfe080 size 0x10 virtual false final false
+  /// @brief Method __ConnectWithNextSameTypeEventData addr 0xd98ad8 size 0x10 virtual false final false
   inline void __ConnectWithNextSameTypeEventData(::GlobalNamespace::BeatmapEventData* newNextSameTypeEvent);
 
-  /// @brief Method __ResetConnections addr 0xdfe090 size 0x8 virtual false final false
+  /// @brief Method __ResetConnections addr 0xd98ae8 size 0x8 virtual false final false
   inline void __ResetConnections();
 
   /// @brief Method GetDefault addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
-  /// @brief Method GetDefault addr 0xdfe098 size 0x2c virtual false final false
+  /// @brief Method GetDefault addr 0xd98af0 size 0x2c virtual false final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault(::GlobalNamespace::BeatmapEventData* nextData);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventData", modifiers: "&&", def_value: None }]
@@ -102,6 +102,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapEventData, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapEventData, ____previousSameTypeEventData_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapEventData, ____nextSameTypeEventData_k__BackingField) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapEventData);

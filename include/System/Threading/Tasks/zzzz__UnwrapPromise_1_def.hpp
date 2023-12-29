@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnwrapPromise_1)
 namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading::Tasks {
 class ITaskCompletionAction;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class __UnwrapPromise_1____c;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace System::Threading {
+class WaitCallback;
 }
 namespace System {
 class Object;
-}
-namespace System::Threading {
-class WaitCallback;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -37,8 +37,8 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2796))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2792))
 // CS Name: ::UnwrapPromise`1::<>c<TResult>*
 class CORDL_TYPE __UnwrapPromise_1____c : public ::System::Object {
 public:
@@ -89,8 +89,8 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5111 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2797))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2769), inst: 5002 }), TypeDefinitionIndex(TypeDefinitionIndex(2769))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2793))
 // CS Name: ::System.Threading.Tasks::UnwrapPromise`1<TResult>*
 class CORDL_TYPE UnwrapPromise_1 : public ::System::Threading::Tasks::Task_1<TResult> {
 public:

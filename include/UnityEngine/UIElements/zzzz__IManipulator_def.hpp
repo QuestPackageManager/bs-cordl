@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IManipulator);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6904))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6990))
 // CS Name: ::UnityEngine.UIElements::IManipulator*
 class CORDL_TYPE IManipulator {
 public:

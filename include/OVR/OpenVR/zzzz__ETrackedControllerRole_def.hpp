@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::ETrackedControllerRole);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8585))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9354))
 // CS Name: ::OVR.OpenVR::ETrackedControllerRole
 struct CORDL_TYPE ETrackedControllerRole {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::ETrackedControllerRole, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::ETrackedControllerRole, value__) == 0x0, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::ETrackedControllerRole, "OVR.OpenVR", "ETrackedControllerRole");

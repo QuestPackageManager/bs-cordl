@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TypeInfo)
+namespace System::Runtime::Remoting {
+class IRemotingTypeInfo;
+}
 namespace System {
 class Type;
 }
 namespace System {
 class Object;
-}
-namespace System::Runtime::Remoting {
-class IRemotingTypeInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::TypeInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3080))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3079))
 // CS Name: ::System.Runtime.Remoting::TypeInfo*
 class CORDL_TYPE TypeInfo : public ::System::Object {
 public:
@@ -65,13 +65,13 @@ public:
 
   static inline ::System::Runtime::Remoting::TypeInfo* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor addr 0x2492d38 size 0x410 virtual false final false
+  /// @brief Method .ctor addr 0x233a244 size 0x410 virtual false final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_TypeName addr 0x2495654 size 0x8 virtual true final true
+  /// @brief Method get_TypeName addr 0x233cb60 size 0x8 virtual true final true
   inline ::StringW get_TypeName();
 
-  /// @brief Method CanCastTo addr 0x249565c size 0x26c virtual true final true
+  /// @brief Method CanCastTo addr 0x233cb68 size 0x26c virtual true final true
   inline bool CanCastTo(::System::Type* fromType, ::System::Object* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeInfo", modifiers: "&&", def_value: None }]
@@ -101,6 +101,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::TypeInfo, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::TypeInfo, ___serverType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::TypeInfo, ___serverHierarchy) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::TypeInfo, ___interfacesImplemented) == 0x20, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting
 NEED_NO_BOX(::System::Runtime::Remoting::TypeInfo);

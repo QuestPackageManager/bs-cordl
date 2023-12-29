@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CmsContentInfoParser)
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfoParser;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsContentInfoParser);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(620))
 // CS Name: ::Org.BouncyCastle.Cms::CmsContentInfoParser*
 class CORDL_TYPE CmsContentInfoParser : public ::System::Object {
@@ -46,10 +46,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsContentInfoParser* New_ctor(::System::IO::Stream* data);
 
-  /// @brief Method .ctor addr 0x11da548 size 0x248 virtual false final false
+  /// @brief Method .ctor addr 0x11692f8 size 0x248 virtual false final false
   inline void _ctor(::System::IO::Stream* data);
 
-  /// @brief Method Close addr 0x11da790 size 0x5c virtual false final false
+  /// @brief Method Close addr 0x1169540 size 0x5c virtual false final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsContentInfoParser", modifiers: "&&", def_value: None }]
@@ -76,6 +76,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsContentInfoParser, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsContentInfoParser, ___contentInfo) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsContentInfoParser, ___data) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsContentInfoParser);

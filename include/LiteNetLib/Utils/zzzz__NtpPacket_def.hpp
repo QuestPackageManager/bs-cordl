@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(NtpPacket)
 namespace LiteNetLib::Utils {
 struct NtpLeapIndicator;
 }
-namespace System {
-struct TimeSpan;
-}
 namespace LiteNetLib::Utils {
 struct NtpMode;
 }
 namespace System {
 struct DateTime;
+}
+namespace System {
+struct TimeSpan;
 }
 namespace System {
 template <typename T> struct Nullable_1;
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::LiteNetLib::Utils::NtpPacket);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2701
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2368))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14237)) CS Name: ::LiteNetLib.Utils::NtpPacket*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2446)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2368)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 2640 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14575)) CS Name: ::LiteNetLib.Utils::NtpPacket*
 class CORDL_TYPE NtpPacket : public ::System::Object {
 public:
   // Declarations
@@ -98,119 +98,119 @@ public:
 
   static inline ::System::DateTime getStaticF_Epoch();
 
-  /// @brief Method get_Bytes addr 0x220bcd4 size 0x8 virtual false final false
+  /// @brief Method get_Bytes addr 0x20aad9c size 0x8 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Bytes();
 
-  /// @brief Method set_Bytes addr 0x220bcdc size 0x8 virtual false final false
+  /// @brief Method set_Bytes addr 0x20aada4 size 0x8 virtual false final false
   inline void set_Bytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_LeapIndicator addr 0x220bce4 size 0x2c virtual false final false
+  /// @brief Method get_LeapIndicator addr 0x20aadac size 0x2c virtual false final false
   inline ::LiteNetLib::Utils::NtpLeapIndicator get_LeapIndicator();
 
-  /// @brief Method get_VersionNumber addr 0x220bd10 size 0x2c virtual false final false
+  /// @brief Method get_VersionNumber addr 0x20aadd8 size 0x2c virtual false final false
   inline int32_t get_VersionNumber();
 
-  /// @brief Method set_VersionNumber addr 0x220bd3c size 0x34 virtual false final false
+  /// @brief Method set_VersionNumber addr 0x20aae04 size 0x34 virtual false final false
   inline void set_VersionNumber(int32_t value);
 
-  /// @brief Method get_Mode addr 0x220bd70 size 0x2c virtual false final false
+  /// @brief Method get_Mode addr 0x20aae38 size 0x2c virtual false final false
   inline ::LiteNetLib::Utils::NtpMode get_Mode();
 
-  /// @brief Method set_Mode addr 0x220bd9c size 0x34 virtual false final false
+  /// @brief Method set_Mode addr 0x20aae64 size 0x34 virtual false final false
   inline void set_Mode(::LiteNetLib::Utils::NtpMode value);
 
-  /// @brief Method get_Stratum addr 0x220bdd0 size 0x2c virtual false final false
+  /// @brief Method get_Stratum addr 0x20aae98 size 0x2c virtual false final false
   inline int32_t get_Stratum();
 
-  /// @brief Method get_Poll addr 0x220bdfc size 0x2c virtual false final false
+  /// @brief Method get_Poll addr 0x20aaec4 size 0x2c virtual false final false
   inline int32_t get_Poll();
 
-  /// @brief Method get_Precision addr 0x220be28 size 0x2c virtual false final false
+  /// @brief Method get_Precision addr 0x20aaef0 size 0x2c virtual false final false
   inline int32_t get_Precision();
 
-  /// @brief Method get_RootDelay addr 0x220be54 size 0x8 virtual false final false
+  /// @brief Method get_RootDelay addr 0x20aaf1c size 0x8 virtual false final false
   inline ::System::TimeSpan get_RootDelay();
 
-  /// @brief Method get_RootDispersion addr 0x220bee0 size 0x8 virtual false final false
+  /// @brief Method get_RootDispersion addr 0x20aafa8 size 0x8 virtual false final false
   inline ::System::TimeSpan get_RootDispersion();
 
-  /// @brief Method get_ReferenceId addr 0x220bee8 size 0x8 virtual false final false
+  /// @brief Method get_ReferenceId addr 0x20aafb0 size 0x8 virtual false final false
   inline uint32_t get_ReferenceId();
 
-  /// @brief Method get_ReferenceTimestamp addr 0x220bf90 size 0x8 virtual false final false
+  /// @brief Method get_ReferenceTimestamp addr 0x20ab058 size 0x8 virtual false final false
   inline ::System::Nullable_1<::System::DateTime> get_ReferenceTimestamp();
 
-  /// @brief Method get_OriginTimestamp addr 0x220c0b4 size 0x8 virtual false final false
+  /// @brief Method get_OriginTimestamp addr 0x20ab17c size 0x8 virtual false final false
   inline ::System::Nullable_1<::System::DateTime> get_OriginTimestamp();
 
-  /// @brief Method get_ReceiveTimestamp addr 0x220c0bc size 0x8 virtual false final false
+  /// @brief Method get_ReceiveTimestamp addr 0x20ab184 size 0x8 virtual false final false
   inline ::System::Nullable_1<::System::DateTime> get_ReceiveTimestamp();
 
-  /// @brief Method get_TransmitTimestamp addr 0x220c0c4 size 0x8 virtual false final false
+  /// @brief Method get_TransmitTimestamp addr 0x20ab18c size 0x8 virtual false final false
   inline ::System::Nullable_1<::System::DateTime> get_TransmitTimestamp();
 
-  /// @brief Method set_TransmitTimestamp addr 0x220c0cc size 0x10 virtual false final false
+  /// @brief Method set_TransmitTimestamp addr 0x20ab194 size 0x10 virtual false final false
   inline void set_TransmitTimestamp(::System::Nullable_1<::System::DateTime> value);
 
-  /// @brief Method get_DestinationTimestamp addr 0x220c21c size 0xc virtual false final false
+  /// @brief Method get_DestinationTimestamp addr 0x20ab2e4 size 0xc virtual false final false
   inline ::System::Nullable_1<::System::DateTime> get_DestinationTimestamp();
 
-  /// @brief Method set_DestinationTimestamp addr 0x220c228 size 0x8 virtual false final false
+  /// @brief Method set_DestinationTimestamp addr 0x20ab2f0 size 0x8 virtual false final false
   inline void set_DestinationTimestamp(::System::Nullable_1<::System::DateTime> value);
 
-  /// @brief Method get_RoundTripTime addr 0x220c230 size 0x160 virtual false final false
+  /// @brief Method get_RoundTripTime addr 0x20ab2f8 size 0x160 virtual false final false
   inline ::System::TimeSpan get_RoundTripTime();
 
-  /// @brief Method get_CorrectionOffset addr 0x220c4c4 size 0x174 virtual false final false
+  /// @brief Method get_CorrectionOffset addr 0x20ab58c size 0x174 virtual false final false
   inline ::System::TimeSpan get_CorrectionOffset();
 
   static inline ::LiteNetLib::Utils::NtpPacket* New_ctor();
 
-  /// @brief Method .ctor addr 0x220c638 size 0xe4 virtual false final false
+  /// @brief Method .ctor addr 0x20ab700 size 0xe4 virtual false final false
   inline void _ctor();
 
   static inline ::LiteNetLib::Utils::NtpPacket* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method .ctor addr 0x220c71c size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0x20ab7e4 size 0x9c virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method FromServerResponse addr 0x220c7b8 size 0xa4 virtual false final false
+  /// @brief Method FromServerResponse addr 0x20ab880 size 0xa4 virtual false final false
   static inline ::LiteNetLib::Utils::NtpPacket* FromServerResponse(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::System::DateTime destinationTimestamp);
 
-  /// @brief Method ValidateRequest addr 0x220c85c size 0xfc virtual false final false
+  /// @brief Method ValidateRequest addr 0x20ab924 size 0xfc virtual false final false
   inline void ValidateRequest();
 
-  /// @brief Method ValidateReply addr 0x220c958 size 0x164 virtual false final false
+  /// @brief Method ValidateReply addr 0x20aba20 size 0x164 virtual false final false
   inline void ValidateReply();
 
-  /// @brief Method CheckTimestamps addr 0x220c390 size 0x134 virtual false final false
+  /// @brief Method CheckTimestamps addr 0x20ab458 size 0x134 virtual false final false
   inline void CheckTimestamps();
 
-  /// @brief Method GetDateTime64 addr 0x220bf98 size 0x11c virtual false final false
+  /// @brief Method GetDateTime64 addr 0x20ab060 size 0x11c virtual false final false
   inline ::System::Nullable_1<::System::DateTime> GetDateTime64(int32_t offset);
 
-  /// @brief Method SetDateTime64 addr 0x220c0dc size 0x140 virtual false final false
+  /// @brief Method SetDateTime64 addr 0x20ab1a4 size 0x140 virtual false final false
   inline void SetDateTime64(int32_t offset, ::System::Nullable_1<::System::DateTime> value);
 
-  /// @brief Method GetTimeSpan32 addr 0x220be5c size 0x84 virtual false final false
+  /// @brief Method GetTimeSpan32 addr 0x20aaf24 size 0x84 virtual false final false
   inline ::System::TimeSpan GetTimeSpan32(int32_t offset);
 
-  /// @brief Method GetUInt64BE addr 0x220cabc size 0xa0 virtual false final false
+  /// @brief Method GetUInt64BE addr 0x20abb84 size 0xa0 virtual false final false
   inline uint64_t GetUInt64BE(int32_t offset);
 
-  /// @brief Method SetUInt64BE addr 0x220cb5c size 0x7c virtual false final false
+  /// @brief Method SetUInt64BE addr 0x20abc24 size 0x7c virtual false final false
   inline void SetUInt64BE(int32_t offset, uint64_t value);
 
-  /// @brief Method GetInt32BE addr 0x220cbd8 size 0x4 virtual false final false
+  /// @brief Method GetInt32BE addr 0x20abca0 size 0x4 virtual false final false
   inline int32_t GetInt32BE(int32_t offset);
 
-  /// @brief Method GetUInt32BE addr 0x220bef0 size 0xa0 virtual false final false
+  /// @brief Method GetUInt32BE addr 0x20aafb8 size 0xa0 virtual false final false
   inline uint32_t GetUInt32BE(int32_t offset);
 
-  /// @brief Method SwapEndianness addr 0x220cc3c size 0x8 virtual false final false
+  /// @brief Method SwapEndianness addr 0x20abd04 size 0x8 virtual false final false
   static inline uint32_t SwapEndianness(uint32_t x);
 
-  /// @brief Method SwapEndianness addr 0x220cbdc size 0x60 virtual false final false
+  /// @brief Method SwapEndianness addr 0x20abca4 size 0x60 virtual false final false
   static inline uint64_t SwapEndianness(uint64_t x);
 
   // Ctor Parameters [CppParam { name: "", ty: "NtpPacket", modifiers: "&&", def_value: None }]
@@ -237,6 +237,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::NtpPacket, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::Utils::NtpPacket, ____Bytes_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::Utils::NtpPacket, ____DestinationTimestamp_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace LiteNetLib::Utils
 NEED_NO_BOX(::LiteNetLib::Utils::NtpPacket);

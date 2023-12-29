@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(IDictionary_2)
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -29,7 +29,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3828))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3816))
 // CS Name: ::System.Collections.Generic::IDictionary`2<TKey,TValue>*
 class CORDL_TYPE IDictionary_2 {
 public:

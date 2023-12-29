@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::IValueTupleInternal);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2504))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2502))
 // CS Name: ::System::IValueTupleInternal*
 class CORDL_TYPE IValueTupleInternal {
 public:

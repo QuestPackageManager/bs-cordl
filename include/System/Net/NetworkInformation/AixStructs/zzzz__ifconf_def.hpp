@@ -16,8 +16,8 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::ifconf);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9300))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8137))
 // CS Name: ::System.Net.NetworkInformation.AixStructs::ifconf
 #pragma pack(push, 0)
 struct CORDL_TYPE ifconf {

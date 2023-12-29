@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngineInternal::TypeInferenceRules);
 namespace UnityEngineInternal {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9961))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9889))
 // CS Name: ::UnityEngineInternal::TypeInferenceRules
 struct CORDL_TYPE TypeInferenceRules {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngineInternal::TypeInferenceRules, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngineInternal::TypeInferenceRules, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngineInternal
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngineInternal::TypeInferenceRules, "UnityEngineInternal", "TypeInferenceRules");

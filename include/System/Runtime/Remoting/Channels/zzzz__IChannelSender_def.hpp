@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::IChannelSender);
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3124))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3123))
 // CS Name: ::System.Runtime.Remoting.Channels::IChannelSender*
 class CORDL_TYPE IChannelSender {
 public:

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AixNetworkInterface)
 namespace System::Net::NetworkInformation {
-class IPInterfaceProperties;
+struct OperationalStatus;
 }
 namespace System::Net::NetworkInformation {
-struct OperationalStatus;
+class IPInterfaceProperties;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::AixNetworkInterface);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9292))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9261))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8129))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8098))
 // CS Name: ::System.Net.NetworkInformation::AixNetworkInterface*
 class CORDL_TYPE AixNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface {
 public:
@@ -50,13 +50,13 @@ public:
 
   static inline ::System::Net::NetworkInformation::AixNetworkInterface* New_ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu);
 
-  /// @brief Method .ctor addr 0x29ed778 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2870ef4 size 0x28 virtual false final false
   inline void _ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu);
 
-  /// @brief Method GetIPProperties addr 0x29ed8f4 size 0x84 virtual true final false
+  /// @brief Method GetIPProperties addr 0x2871070 size 0x84 virtual true final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
-  /// @brief Method get_OperationalStatus addr 0x29ed978 size 0x14 virtual true final false
+  /// @brief Method get_OperationalStatus addr 0x28710f4 size 0x14 virtual true final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
   // Ctor Parameters [CppParam { name: "", ty: "AixNetworkInterface", modifiers: "&&", def_value: None }]
@@ -83,6 +83,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::AixNetworkInterface, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::AixNetworkInterface, ____ifa_flags) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::AixNetworkInterface, ____ifru_mtu) == 0x38, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation
 NEED_NO_BOX(::System::Net::NetworkInformation::AixNetworkInterface);

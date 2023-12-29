@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(QueryPairedUserAccountCommand)
 namespace UnityEngine::InputSystem::LowLevel {
+struct __QueryPairedUserAccountCommand__Result;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputDeviceCommand;
+}
+namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct __QueryPairedUserAccountCommand__Result;
+struct __QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct __QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -49,7 +49,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6479))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6565))
 // CS Name: ::QueryPairedUserAccountCommand::Result
 struct CORDL_TYPE __QueryPairedUserAccountCommand__Result {
 public:
@@ -99,13 +99,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: ::<nameBuffer>e__FixedBuffer
 // SizeInfo { instance_size: 512, native_size: 512, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6480))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6566))
 // CS Name: ::QueryPairedUserAccountCommand::<nameBuffer>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer {
@@ -133,13 +135,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer, 0x200>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer, FixedElementField) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: ::<idBuffer>e__FixedBuffer
 // SizeInfo { instance_size: 512, native_size: 512, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6481))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6567))
 // CS Name: ::QueryPairedUserAccountCommand::<idBuffer>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer {
@@ -167,14 +171,16 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer, 0x200>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer, FixedElementField) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: UnityEngine.InputSystem.LowLevel::QueryPairedUserAccountCommand
 // SizeInfo { instance_size: 1040, native_size: 1040, calculated_instance_size: 1040, calculated_native_size: 1056, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing:
 // Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6471)), TypeDefinitionIndex(TypeDefinitionIndex(6480)), TypeDefinitionIndex(TypeDefinitionIndex(6481))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6482))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6557)), TypeDefinitionIndex(TypeDefinitionIndex(6567)), TypeDefinitionIndex(TypeDefinitionIndex(6566))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6568))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::QueryPairedUserAccountCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE QueryPairedUserAccountCommand {
@@ -231,25 +237,25 @@ public:
 
   constexpr void __set_idBuffer(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type addr 0x2ae7e54 size 0x30 virtual false final false
+  /// @brief Method get_Type addr 0x296810c size 0x30 virtual false final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_id addr 0x2ae7e84 size 0x10 virtual false final false
+  /// @brief Method get_id addr 0x296813c size 0x10 virtual false final false
   inline ::StringW get_id();
 
-  /// @brief Method set_id addr 0x2ae7e94 size 0x114 virtual false final false
+  /// @brief Method set_id addr 0x296814c size 0x114 virtual false final false
   inline void set_id(::StringW value);
 
-  /// @brief Method get_name addr 0x2ae7fa8 size 0x10 virtual false final false
+  /// @brief Method get_name addr 0x2968260 size 0x10 virtual false final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name addr 0x2ae7fb8 size 0x114 virtual false final false
+  /// @brief Method set_name addr 0x2968270 size 0x114 virtual false final false
   inline void set_name(::StringW value);
 
-  /// @brief Method get_typeStatic addr 0x2ae80cc size 0x30 virtual true final true
+  /// @brief Method get_typeStatic addr 0x2968384 size 0x30 virtual true final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create addr 0x2ae80fc size 0x58 virtual false final false
+  /// @brief Method Create addr 0x29683b4 size 0x58 virtual false final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand Create();
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "handle", ty: "uint64_t",

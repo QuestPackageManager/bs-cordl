@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerObstacleController)
 namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace GlobalNamespace {
-class __MultiplayerConnectedPlayerObstacleController__Pool;
+class MultiplayerConnectedPlayerObstacleClippingController;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-class MultiplayerConnectedPlayerObstacleClippingController;
+class ObstacleData;
+}
+namespace GlobalNamespace {
+class __MultiplayerConnectedPlayerObstacleController__Pool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4792))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5142))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4913))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5247))
 // CS Name: ::MultiplayerConnectedPlayerObstacleController*
 class CORDL_TYPE MultiplayerConnectedPlayerObstacleController : public ::GlobalNamespace::ObstacleController {
 public:
@@ -51,13 +51,13 @@ public:
 
   constexpr void __set__multiplayerConnectedPlayerObstacleClippingController(::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* value);
 
-  /// @brief Method Init addr 0x23d7c4c size 0x1d0 virtual true final false
+  /// @brief Method Init addr 0x20f60d4 size 0x1d0 virtual true final false
   inline void Init(::GlobalNamespace::ObstacleData* obstacleData, float_t worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 midPos, ::UnityEngine::Vector3 endPos,
                    float_t move1Duration, float_t move2Duration, float_t singleLineWidth, float_t height);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController* New_ctor();
 
-  /// @brief Method .ctor addr 0x23d7e1c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20f62a4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleController", modifiers: "&&", def_value: None }]
@@ -82,19 +82,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController, 0x128>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerObstacleController, ____multiplayerConnectedPlayerObstacleClippingController) == 0x120, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Pool
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(5142)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2820 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5141)) CS Name: ::MultiplayerConnectedPlayerObstacleController::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10978)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst: 2760 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(5247))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5246)) CS Name: ::MultiplayerConnectedPlayerObstacleController::Pool*
 class CORDL_TYPE __MultiplayerConnectedPlayerObstacleController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x23d7e24 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x20f62ac size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerConnectedPlayerObstacleController__Pool", modifiers: "&&", def_value: None }]

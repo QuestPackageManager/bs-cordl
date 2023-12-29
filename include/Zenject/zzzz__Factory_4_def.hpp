@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__PlaceholderFactory_4_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Factory_4)
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace System {
 class Object;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -23,8 +23,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11011)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11011), inst: 3506 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11012))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10939)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10939), inst: 3432 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10940))
 // CS Name: ::Zenject::Factory`4<TParam1,TParam2,TParam3,TValue>*
 class CORDL_TYPE Factory_4 : public ::Zenject::PlaceholderFactory_4<TParam1, TParam2, TParam3, TValue> {
 public:

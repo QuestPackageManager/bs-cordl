@@ -9,37 +9,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapObjectsAvoidance)
 namespace GlobalNamespace {
-class BeatmapObjectAvoidanceYOffsetEvaluator;
-}
-namespace GlobalNamespace {
-class BeatmapObjectAvoidanceTiltEvaluator;
-}
-namespace GlobalNamespace {
-class PlayerTransforms;
-}
-namespace GlobalNamespace {
-class BeatmapObjectAvoidancePathEvaluator;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
-}
-namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class BezierSplineEvaluator;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace GlobalNamespace {
-struct OffsetDirection;
+class PlayerTransforms;
+}
+namespace GlobalNamespace {
+class BeatmapObjectAvoidanceYOffsetEvaluator;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+class BeatmapObjectAvoidanceTiltEvaluator;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+struct OffsetDirection;
+}
+namespace GlobalNamespace {
+class BezierSplineEvaluator;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
+class BeatmapObjectAvoidancePathEvaluator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectsAvoidance);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3961))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3947))
 // CS Name: ::BeatmapObjectsAvoidance*
 class CORDL_TYPE BeatmapObjectsAvoidance : public ::UnityEngine::MonoBehaviour {
 public:
@@ -184,33 +184,33 @@ public:
 
   constexpr void __set__transform(::UnityEngine::Transform* value);
 
-  /// @brief Method Awake addr 0x2217c98 size 0x1c virtual false final false
+  /// @brief Method Awake addr 0x20b6cb0 size 0x1c virtual false final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x2217cb4 size 0x184 virtual false final false
+  /// @brief Method Start addr 0x20b6ccc size 0x184 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x22181f8 size 0x108 virtual false final false
+  /// @brief Method OnDestroy addr 0x20b7210 size 0x108 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method Update addr 0x2218300 size 0x190 virtual false final false
+  /// @brief Method Update addr 0x20b7318 size 0x190 virtual false final false
   inline void Update();
 
-  /// @brief Method SetupAndRun addr 0x2217e38 size 0x3c0 virtual false final false
+  /// @brief Method SetupAndRun addr 0x20b6e50 size 0x3c0 virtual false final false
   inline void SetupAndRun();
 
-  /// @brief Method BuildAnimationCurvePath addr 0x2218490 size 0x584 virtual false final false
+  /// @brief Method BuildAnimationCurvePath addr 0x20b74a8 size 0x584 virtual false final false
   inline bool BuildAnimationCurvePath();
 
-  /// @brief Method AdjustPositionWithOffsetDirection addr 0x2218ad4 size 0x2f0 virtual false final false
+  /// @brief Method AdjustPositionWithOffsetDirection addr 0x20b7aec size 0x2f0 virtual false final false
   inline void AdjustPositionWithOffsetDirection(ByRef<::UnityEngine::Vector2> position, int32_t lineIndex, ::GlobalNamespace::OffsetDirection offsetDirection);
 
-  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit addr 0x2219624 size 0x4 virtual false final false
+  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit addr 0x20b863c size 0x4 virtual false final false
   inline void HandleBeatmapObjectSpawnControllerDidInit();
 
   static inline ::GlobalNamespace::BeatmapObjectsAvoidance* New_ctor();
 
-  /// @brief Method .ctor addr 0x2219628 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x20b8640 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsAvoidance", modifiers: "&&", def_value: None }]
@@ -273,6 +273,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapObjectsAvoidance, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsAvoidance, ____zOffset) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsAvoidance, ____yOffset) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsAvoidance, ____gravity) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsAvoidance, ____towardsPlayerWrapperTransform) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsAvoidance, ____audioTimeSource) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsAvoidance, ____beatmapData) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsAvoidance, ____beatmapObjectSpawnController) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsAvoidance, ____playerTransforms) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsAvoidance, ____avoidanceYOffsetEvaluatorProvider) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsAvoidance, ____pathEvaluator) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsAvoidance, ____tiltEvaluator) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsAvoidance, ____pathBezierSplineEvaluator) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsAvoidance, ____accelerationBezierSplineEvaluator) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsAvoidance, ____transform) == 0x78, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapObjectsAvoidance);

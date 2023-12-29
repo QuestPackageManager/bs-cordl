@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::VRPlatformSDK);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14415))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13987))
 // CS Name: ::VRPlatformSDK
 struct CORDL_TYPE VRPlatformSDK {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VRPlatformSDK, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRPlatformSDK, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRPlatformSDK, "", "VRPlatformSDK");

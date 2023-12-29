@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/Xml/Linq/zzzz__XObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XNode)
-namespace System::Xml {
-class XmlWriter;
+namespace System::Text {
+class StringBuilder;
 }
 namespace System::Xml::Linq {
 struct SaveOptions;
 }
-namespace System::Text {
-class StringBuilder;
+namespace System::Xml {
+class XmlWriter;
 }
 // Forward declare root types
 namespace System::Xml::Linq {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Xml::Linq::XNode);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15454))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15453))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15438))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15437))
 // CS Name: ::System.Xml.Linq::XNode*
 class CORDL_TYPE XNode : public ::System::Xml::Linq::XObject {
 public:
@@ -41,25 +41,25 @@ public:
 
   static inline ::System::Xml::Linq::XNode* New_ctor();
 
-  /// @brief Method .ctor addr 0x285be04 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26dfde8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Remove addr 0x2860be0 size 0x64 virtual false final false
+  /// @brief Method Remove addr 0x26e4bc4 size 0x64 virtual false final false
   inline void Remove();
 
-  /// @brief Method ToString addr 0x2860c44 size 0x1c virtual true final false
+  /// @brief Method ToString addr 0x26e4c28 size 0x1c virtual true final false
   inline ::StringW ToString();
 
   /// @brief Method WriteTo addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
-  /// @brief Method AppendText addr 0x28611b0 size 0x4 virtual true final false
+  /// @brief Method AppendText addr 0x26e5194 size 0x4 virtual true final false
   inline void AppendText(::System::Text::StringBuilder* sb);
 
   /// @brief Method CloneNode addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
-  /// @brief Method GetXmlString addr 0x2860d40 size 0x470 virtual false final false
+  /// @brief Method GetXmlString addr 0x26e4d24 size 0x470 virtual false final false
   inline ::StringW GetXmlString(::System::Xml::Linq::SaveOptions o);
 
   // Ctor Parameters [CppParam { name: "", ty: "XNode", modifiers: "&&", def_value: None }]
@@ -83,6 +83,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XNode, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XNode, ___next) == 0x20, "Offset mismatch!");
 
 } // namespace System::Xml::Linq
 NEED_NO_BOX(::System::Xml::Linq::XNode);

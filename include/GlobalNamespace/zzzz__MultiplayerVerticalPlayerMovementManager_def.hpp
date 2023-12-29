@@ -5,17 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerVerticalPlayerMovementManager)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerFacade;
+}
+namespace GlobalNamespace {
+class MultiplayerScoreProvider;
 }
 namespace GlobalNamespace {
 class __MultiplayerScoreProvider__RankedPlayer;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class MultiplayerController;
 }
 namespace GlobalNamespace {
 class MultiplayerPlayersManager;
@@ -24,13 +21,16 @@ namespace GlobalNamespace {
 class MultiplayerLayoutProvider;
 }
 namespace GlobalNamespace {
+class MultiplayerController;
+}
+namespace GlobalNamespace {
 struct __MultiplayerController__State;
 }
-namespace GlobalNamespace {
-class MultiplayerConnectedPlayerFacade;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace GlobalNamespace {
-class MultiplayerScoreProvider;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5256))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5351))
 // CS Name: ::MultiplayerVerticalPlayerMovementManager*
 class CORDL_TYPE MultiplayerVerticalPlayerMovementManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -168,21 +168,21 @@ public:
 
   constexpr void __set__lastFrameBaseScore(float_t value);
 
-  /// @brief Method Start addr 0x225b2bc size 0xa8 virtual false final false
+  /// @brief Method Start addr 0x2118118 size 0xac virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x225b374 size 0xd0 virtual false final false
+  /// @brief Method OnDestroy addr 0x21181d4 size 0xd4 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method Update addr 0x225b444 size 0x7e0 virtual false final false
+  /// @brief Method Update addr 0x21182a8 size 0x7e4 virtual false final false
   inline void Update();
 
-  /// @brief Method HandleStateChanged addr 0x225b364 size 0x10 virtual false final false
+  /// @brief Method HandleStateChanged addr 0x21181c4 size 0x10 virtual false final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
   static inline ::GlobalNamespace::MultiplayerVerticalPlayerMovementManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x225bc24 size 0x10e0 virtual false final false
+  /// @brief Method .ctor addr 0x2118a8c size 0xe0 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerVerticalPlayerMovementManager", modifiers: "&&", def_value: None }]
@@ -242,6 +242,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerVerticalPlayerMovementManager, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager, ____movementRange) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager, ____duelMovementRange) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager, ____maxMoveSpeedMetersPerSecond) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager, ____accelerationMetersPerSecondSquared) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager, ____decelerationMetersPerSecondSquared) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager, ____minScoreDifference) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager, ____multiplayerPlayersManager) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager, ____scoreProvider) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager, ____layoutProvider) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager, ____multiplayerController) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager, ____reusablePlayersList) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager, ____currentSpeedsDictionary) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager, ____lastFrameBaseScore) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager);

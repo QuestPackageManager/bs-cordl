@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::IFormattable);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2418))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2416))
 // CS Name: ::System::IFormattable*
 class CORDL_TYPE IFormattable {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Timeline::NotificationFlags);
 namespace UnityEngine::Timeline {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13906))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14177))
 // CS Name: ::UnityEngine.Timeline::NotificationFlags
 struct CORDL_TYPE NotificationFlags {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::NotificationFlags, 0x2>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::NotificationFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Timeline
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::NotificationFlags, "UnityEngine.Timeline", "NotificationFlags");

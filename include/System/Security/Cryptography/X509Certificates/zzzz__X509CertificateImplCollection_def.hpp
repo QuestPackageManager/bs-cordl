@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CertificateImplCollection)
+namespace System {
+class IDisposable;
+}
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImpl;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certifica
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9001))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7838))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509CertificateImplCollection*
 class CORDL_TYPE X509CertificateImplCollection : public ::System::Object {
 public:
@@ -48,33 +48,33 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* New_ctor();
 
-  /// @brief Method .ctor addr 0x297e4f4 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x2800788 size 0x80 virtual false final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* New_ctor(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* other);
 
-  /// @brief Method .ctor addr 0x297f2f4 size 0x230 virtual false final false
+  /// @brief Method .ctor addr 0x2801b24 size 0x230 virtual false final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* other);
 
-  /// @brief Method get_Count addr 0x297f524 size 0x48 virtual false final false
+  /// @brief Method get_Count addr 0x2801498 size 0x48 virtual false final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item addr 0x297f56c size 0x58 virtual false final false
+  /// @brief Method get_Item addr 0x2801440 size 0x58 virtual false final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* get_Item(int32_t index);
 
-  /// @brief Method Add addr 0x297e574 size 0xd4 virtual false final false
+  /// @brief Method Add addr 0x2800808 size 0xd4 virtual false final false
   inline void Add(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl, bool takeOwnership);
 
-  /// @brief Method Clone addr 0x297d360 size 0x60 virtual false final false
+  /// @brief Method Clone addr 0x27ff5ec size 0x60 virtual false final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* Clone();
 
-  /// @brief Method Dispose addr 0x297f5c4 size 0x6c virtual true final true
+  /// @brief Method Dispose addr 0x2801d54 size 0x6c virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x297f630 size 0x220 virtual true final false
+  /// @brief Method Dispose addr 0x2801dc0 size 0x220 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize addr 0x297f850 size 0xa0 virtual true final false
+  /// @brief Method Finalize addr 0x2801fe0 size 0xa0 virtual true final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CertificateImplCollection", modifiers: "&&", def_value: None }]
@@ -98,6 +98,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection, ___list) == 0x10, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection);

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HandleConstraint2D)
-namespace System {
-class Object;
-}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::HandleConstraint2D);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12126))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12054))
 // CS Name: ::UnityEngine.ProBuilder::HandleConstraint2D*
 class CORDL_TYPE HandleConstraint2D : public ::System::Object {
 public:
@@ -55,31 +55,31 @@ public:
 
   static inline ::UnityEngine::ProBuilder::HandleConstraint2D* New_ctor(int32_t x, int32_t y);
 
-  /// @brief Method .ctor addr 0x2b4244c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x29c06f8 size 0x2c virtual false final false
   inline void _ctor(int32_t x, int32_t y);
 
-  /// @brief Method Inverse addr 0x2b42478 size 0x80 virtual false final false
+  /// @brief Method Inverse addr 0x29c0724 size 0x80 virtual false final false
   inline ::UnityEngine::ProBuilder::HandleConstraint2D* Inverse();
 
-  /// @brief Method Mask addr 0x2b424f8 size 0x18 virtual false final false
+  /// @brief Method Mask addr 0x29c07a4 size 0x18 virtual false final false
   inline ::UnityEngine::Vector2 Mask(::UnityEngine::Vector2 v);
 
-  /// @brief Method InverseMask addr 0x2b42510 size 0x28 virtual false final false
+  /// @brief Method InverseMask addr 0x29c07bc size 0x28 virtual false final false
   inline ::UnityEngine::Vector2 InverseMask(::UnityEngine::Vector2 v);
 
-  /// @brief Method op_Equality addr 0x2b42538 size 0x40 virtual false final false
+  /// @brief Method op_Equality addr 0x29c07e4 size 0x40 virtual false final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::HandleConstraint2D* a, ::UnityEngine::ProBuilder::HandleConstraint2D* b);
 
-  /// @brief Method op_Inequality addr 0x2b42578 size 0x40 virtual false final false
+  /// @brief Method op_Inequality addr 0x29c0824 size 0x40 virtual false final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::HandleConstraint2D* a, ::UnityEngine::ProBuilder::HandleConstraint2D* b);
 
-  /// @brief Method GetHashCode addr 0x2b425b8 size 0x8 virtual true final false
+  /// @brief Method GetHashCode addr 0x29c0864 size 0x8 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x2b425c0 size 0x80 virtual true final false
+  /// @brief Method Equals addr 0x29c086c size 0x80 virtual true final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method ToString addr 0x2b42640 size 0x1a4 virtual true final false
+  /// @brief Method ToString addr 0x29c08ec size 0x1a4 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "HandleConstraint2D", modifiers: "&&", def_value: None }]
@@ -106,6 +106,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::HandleConstraint2D, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::HandleConstraint2D, ___x) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::HandleConstraint2D, ___y) == 0x14, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::HandleConstraint2D);

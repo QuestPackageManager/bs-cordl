@@ -11,35 +11,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeNotificationBehaviour)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::Timeline {
-struct NotificationFlags;
-}
 namespace UnityEngine::Playables {
-struct PlayableOutput;
+struct FrameData;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
-struct DirectorWrapMode;
+struct Playable;
 }
 namespace UnityEngine::Timeline {
-class __TimeNotificationBehaviour____c;
+struct NotificationFlags;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+template <typename T> struct ScriptPlayable_1;
 }
 namespace UnityEngine::Timeline {
 struct __TimeNotificationBehaviour__NotificationEntry;
 }
 namespace UnityEngine::Playables {
-struct FrameData;
+struct PlayableOutput;
+}
+namespace UnityEngine::Timeline {
+class __TimeNotificationBehaviour____c;
 }
 namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
+struct DirectorWrapMode;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::Playables {
 class INotification;
@@ -65,8 +65,8 @@ MARK_VAL_T(::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEnt
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13906))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13910))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14177))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14181))
 // CS Name: ::TimeNotificationBehaviour::NotificationEntry
 struct CORDL_TYPE __TimeNotificationBehaviour__NotificationEntry {
 public:
@@ -77,13 +77,13 @@ public:
 
   __declspec(property(get = get_triggerOnce)) bool triggerOnce;
 
-  /// @brief Method get_triggerInEditor addr 0x2c6e450 size 0xc virtual false final false
+  /// @brief Method get_triggerInEditor addr 0x2aea6fc size 0xc virtual false final false
   inline bool get_triggerInEditor();
 
-  /// @brief Method get_prewarm addr 0x2c6e444 size 0xc virtual false final false
+  /// @brief Method get_prewarm addr 0x2aea6f0 size 0xc virtual false final false
   inline bool get_prewarm();
 
-  /// @brief Method get_triggerOnce addr 0x2c6db80 size 0xc virtual false final false
+  /// @brief Method get_triggerOnce addr 0x2ae9e2c size 0xc virtual false final false
   inline bool get_triggerOnce();
 
   // Ctor Parameters [CppParam { name: "time", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "payload", ty: "::UnityEngine::Playables::INotification*", modifiers: "", def_value:
@@ -116,13 +116,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry, time) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry, payload) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry, notificationFired) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry, flags) == 0x12, "Offset mismatch!");
+
 } // namespace UnityEngine::Timeline
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13911))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14182))
 // CS Name: ::TimeNotificationBehaviour::<>c*
 class CORDL_TYPE __TimeNotificationBehaviour____c : public ::System::Object {
 public:
@@ -143,10 +151,10 @@ public:
 
   static inline ::UnityEngine::Timeline::__TimeNotificationBehaviour____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c6e53c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2aea7e8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <SortNotifications>b__12_0 addr 0x2c6e544 size 0x10 virtual false final false
+  /// @brief Method <SortNotifications>b__12_0 addr 0x2aea7f0 size 0x10 virtual false final false
   inline int32_t _SortNotifications_b__12_0(::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry x, ::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry y);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TimeNotificationBehaviour____c", modifiers: "&&", def_value: None }]
@@ -173,8 +181,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__TimeNot
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(10428))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13912))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10347)), TypeDefinitionIndex(TypeDefinitionIndex(10350))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14183))
 // CS Name: ::UnityEngine.Timeline::TimeNotificationBehaviour*
 class CORDL_TYPE TimeNotificationBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -222,48 +230,48 @@ public:
 
   constexpr void __set_m_TimeSource(::UnityEngine::Playables::Playable value);
 
-  /// @brief Method set_timeSource addr 0x2c6d690 size 0x8 virtual false final false
+  /// @brief Method set_timeSource addr 0x2ae993c size 0x8 virtual false final false
   inline void set_timeSource(::UnityEngine::Playables::Playable value);
 
-  /// @brief Method Create addr 0x2c6d698 size 0x11c virtual false final false
+  /// @brief Method Create addr 0x2ae9944 size 0x11c virtual false final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeNotificationBehaviour*> Create(::UnityEngine::Playables::PlayableGraph graph, double_t duration,
                                                                                                                        ::UnityEngine::Playables::DirectorWrapMode loopMode);
 
-  /// @brief Method AddNotification addr 0x2c6d7b4 size 0xf8 virtual false final false
+  /// @brief Method AddNotification addr 0x2ae9a60 size 0xf8 virtual false final false
   inline void AddNotification(double_t time, ::UnityEngine::Playables::INotification* payload, ::UnityEngine::Timeline::NotificationFlags flags);
 
-  /// @brief Method OnGraphStart addr 0x2c6d8ac size 0x1c4 virtual true final false
+  /// @brief Method OnGraphStart addr 0x2ae9b58 size 0x1c4 virtual true final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnBehaviourPause addr 0x2c6db8c size 0x1ac virtual true final false
+  /// @brief Method OnBehaviourPause addr 0x2ae9e38 size 0x1ac virtual true final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method PrepareFrame addr 0x2c6ddc0 size 0x35c virtual true final false
+  /// @brief Method PrepareFrame addr 0x2aea06c size 0x35c virtual true final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method SortNotifications addr 0x2c6da70 size 0x110 virtual false final false
+  /// @brief Method SortNotifications addr 0x2ae9d1c size 0x110 virtual false final false
   inline void SortNotifications();
 
-  /// @brief Method CanRestoreNotification addr 0x2c6e3e0 size 0x5c virtual false final false
+  /// @brief Method CanRestoreNotification addr 0x2aea68c size 0x5c virtual false final false
   static inline bool CanRestoreNotification(::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry e, ::UnityEngine::Playables::FrameData info, double_t currentTime,
                                             double_t previousTime);
 
-  /// @brief Method TriggerNotificationsInRange addr 0x2c6e220 size 0x1c0 virtual false final false
+  /// @brief Method TriggerNotificationsInRange addr 0x2aea4cc size 0x1c0 virtual false final false
   inline void TriggerNotificationsInRange(double_t start, double_t end, ::UnityEngine::Playables::FrameData info, ::UnityEngine::Playables::Playable playable, bool checkState);
 
-  /// @brief Method SyncDurationWithExternalSource addr 0x2c6e11c size 0x104 virtual false final false
+  /// @brief Method SyncDurationWithExternalSource addr 0x2aea3c8 size 0x104 virtual false final false
   inline void SyncDurationWithExternalSource(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method Trigger_internal addr 0x2c6dd38 size 0x88 virtual false final false
+  /// @brief Method Trigger_internal addr 0x2ae9fe4 size 0x88 virtual false final false
   static inline void Trigger_internal(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::PlayableOutput output,
                                       ByRef<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry> e);
 
-  /// @brief Method Restore_internal addr 0x2c6e43c size 0x8 virtual false final false
+  /// @brief Method Restore_internal addr 0x2aea6e8 size 0x8 virtual false final false
   static inline void Restore_internal(ByRef<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry> e);
 
   static inline ::UnityEngine::Timeline::TimeNotificationBehaviour* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c6e45c size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x2aea708 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeNotificationBehaviour", modifiers: "&&", def_value: None }]
@@ -296,6 +304,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::TimeNotificationBehaviour, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::TimeNotificationBehaviour, ___m_Notifications) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::TimeNotificationBehaviour, ___m_PreviousTime) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::TimeNotificationBehaviour, ___m_NeedSortNotifications) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::TimeNotificationBehaviour, ___m_TimeSource) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::TimeNotificationBehaviour);

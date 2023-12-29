@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(IMethodReturnMessage)
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
+}
 namespace System {
 class Object;
 }
 namespace System {
 class Exception;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IMethodReturnMessage);
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3173))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3172))
 // CS Name: ::System.Runtime.Remoting.Messaging::IMethodReturnMessage*
 class CORDL_TYPE IMethodReturnMessage {
 public:

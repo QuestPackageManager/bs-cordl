@@ -16,29 +16,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIRStylePainter)
-namespace System {
-class IDisposable;
+namespace UnityEngine::UIElements::UIR {
+class VectorImageManager;
+}
+namespace UnityEngine::UIElements {
+class MeshWriteData;
 }
 namespace UnityEngine::UIElements {
 struct Vertex;
 }
 namespace UnityEngine::UIElements {
-struct TextureId;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__BorderParams;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
-}
-namespace System {
-class Action;
+struct __MeshGenerationContextUtils__TextParams;
 }
 namespace UnityEngine::UIElements::UIR::Implementation {
-template <typename T> struct __UIRStylePainter__TempDataAlloc_1;
+struct __UIRStylePainter__Entry;
 }
 namespace UnityEngine::UIElements {
-class AtlasBase;
+class ITextHandle;
+}
+namespace UnityEngine::UIElements::UIR {
+struct __MeshBuilder__AllocMeshData;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace GlobalNamespace {
+class __MeshBuilder__AllocMeshData__Allocator;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements::UIR {
+class RenderChain;
 }
 namespace UnityEngine {
 class Texture;
@@ -46,62 +58,50 @@ class Texture;
 namespace UnityEngine::UIElements {
 struct __MeshGenerationContextUtils__RectangleParams;
 }
-namespace UnityEngine::UIElements::UIR::Implementation {
-struct __UIRStylePainter__ClosingInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements::UIR {
-class VectorImageManager;
-}
-namespace UnityEngine::UIElements::UIR::Implementation {
-struct __UIRStylePainter__Entry;
+namespace System {
+class Action;
 }
 namespace UnityEngine::UIElements {
-class MeshGenerationContext;
-}
-namespace UnityEngine::UIElements::UIR {
-class RenderChainCommand;
-}
-namespace UnityEngine::UIElements::UIR {
-class RenderChain;
+class IStylePainter;
 }
 namespace UnityEngine::UIElements {
 struct __MeshGenerationContext__MeshFlags;
 }
-namespace GlobalNamespace {
-class __MeshBuilder__AllocMeshData__Allocator;
+namespace UnityEngine::UIElements::UIR {
+class RenderChainCommand;
 }
-namespace UnityEngine {
-class Material;
+namespace Unity::Collections {
+template <typename T> struct NativeSlice_1;
+}
+namespace UnityEngine::UIElements {
+struct TextureId;
+}
+namespace UnityEngine::UIElements::UIR::Implementation {
+template <typename T> struct __UIRStylePainter__TempDataAlloc_1;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
-class ITextHandle;
+class MeshGenerationContext;
 }
 namespace UnityEngine::UIElements {
-class IStylePainter;
+class AtlasBase;
 }
-namespace UnityEngine::UIElements::UIR {
-struct __MeshBuilder__AllocMeshData;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__TextParams;
+namespace UnityEngine::UIElements::UIR::Implementation {
+struct __UIRStylePainter__ClosingInfo;
 }
 namespace UnityEngine::UIElements {
-class MeshWriteData;
+struct __MeshGenerationContextUtils__BorderParams;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements::UIR {
-struct BMPAlloc;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct VertexFlags;
+}
+namespace UnityEngine::UIElements::UIR {
+struct BMPAlloc;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
@@ -128,9 +128,9 @@ MARK_GEN_VAL_T(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR::Implementation {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9994)), TypeDefinitionIndex(TypeDefinitionIndex(7330)), TypeDefinitionIndex(TypeDefinitionIndex(7440)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 752 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 756 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7374)), TypeDefinitionIndex(TypeDefinitionIndex(7339))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7447)) CS Name: ::UIRStylePainter::Entry
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9922), inst: 745 }), TypeDefinitionIndex(TypeDefinitionIndex(7416)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7526)), TypeDefinitionIndex(TypeDefinitionIndex(9922)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9922), inst: 741 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7425)), TypeDefinitionIndex(TypeDefinitionIndex(7460))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7533)) CS Name: ::UIRStylePainter::Entry
 struct CORDL_TYPE __UIRStylePainter__Entry {
 public:
   // Declarations
@@ -205,13 +205,43 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry, 0x60>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry, vertices) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry, indices) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry, material) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry, custom) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry, font) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry, fontTexSDFScale) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry, texture) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry, customCommand) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry, clipRectID) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry, addFlags) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry, uvIsDisplacement) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry, isTextEntry) == 0x55, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry, isClipRegisterEntry) == 0x56, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry, stencilRef) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry, maskDepth) == 0x5c, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements::UIR::Implementation
 // Type: ::ClosingInfo
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR::Implementation {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9994)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 756 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(9994), inst: 752 }), TypeDefinitionIndex(TypeDefinitionIndex(7330))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7448)) CS Name: ::UIRStylePainter::ClosingInfo
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7416)), TypeDefinitionIndex(TypeDefinitionIndex(9922)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9922), inst: 741
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9922), inst: 745 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7534)) CS Name: ::UIRStylePainter::ClosingInfo
 struct CORDL_TYPE __UIRStylePainter__ClosingInfo {
 public:
   // Declarations
@@ -268,6 +298,26 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo, needsClosing) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo, popViewMatrix) == 0x1, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo, popScissorClip) == 0x2, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo, blitAndPopRenderTexture) == 0x3, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo, PopDefaultMaterial) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo, clipUnregisterDrawCommand) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo, clipperRegisterVertices) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo, clipperRegisterIndices) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo, clipperRegisterIndexOffset) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo, maskStencilRef) == 0x34, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements::UIR::Implementation
 // Type: ::TempDataAlloc`1
 // SizeInfo { instance_size: 40, native_size: 52, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
@@ -275,8 +325,8 @@ namespace UnityEngine::UIElements::UIR::Implementation {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 4694 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7449))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9927)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 4595 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7535))
 // CS Name: ::UIRStylePainter::TempDataAlloc`1<T>
 struct CORDL_TYPE __UIRStylePainter__TempDataAlloc_1 {
 public:
@@ -329,10 +379,10 @@ public:
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 369, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR::Implementation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7447)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7448)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7374)), TypeDefinitionIndex(TypeDefinitionIndex(7449)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7449), inst: 756 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7330)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7449), inst: 752 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7450)) CS
-// Name: ::UnityEngine.UIElements.UIR.Implementation::UIRStylePainter*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7535)), TypeDefinitionIndex(TypeDefinitionIndex(7533)), TypeDefinitionIndex(TypeDefinitionIndex(7534)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7416)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(7460)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(7535), inst: 745 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7535), inst: 741 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7536)) CS Name:
+// ::UnityEngine.UIElements.UIR.Implementation::UIRStylePainter*
 class CORDL_TYPE UIRStylePainter : public ::System::Object {
 public:
   // Declarations
@@ -567,129 +617,129 @@ public:
 
   constexpr void __set__disposed_k__BackingField(bool value);
 
-  /// @brief Method GetPooledMeshWriteData addr 0x2dd9140 size 0x120 virtual false final false
+  /// @brief Method GetPooledMeshWriteData addr 0x2c72d90 size 0x120 virtual false final false
   inline ::UnityEngine::UIElements::MeshWriteData* GetPooledMeshWriteData();
 
-  /// @brief Method AllocRawVertsIndices addr 0x2dd9260 size 0xbc virtual false final false
+  /// @brief Method AllocRawVertsIndices addr 0x2c72eb0 size 0xbc virtual false final false
   inline ::UnityEngine::UIElements::MeshWriteData* AllocRawVertsIndices(uint32_t vertexCount, uint32_t indexCount, ByRef<::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData> allocatorData);
 
-  /// @brief Method AllocThroughDrawMesh addr 0x2dd931c size 0x14 virtual false final false
+  /// @brief Method AllocThroughDrawMesh addr 0x2c72f6c size 0x14 virtual false final false
   inline ::UnityEngine::UIElements::MeshWriteData* AllocThroughDrawMesh(uint32_t vertexCount, uint32_t indexCount, ByRef<::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData> allocatorData);
 
-  /// @brief Method AllocThroughDrawGradients addr 0x2dd9800 size 0x10 virtual false final false
+  /// @brief Method AllocThroughDrawGradients addr 0x2c73450 size 0x10 virtual false final false
   inline ::UnityEngine::UIElements::MeshWriteData* AllocThroughDrawGradients(uint32_t vertexCount, uint32_t indexCount,
                                                                              ByRef<::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData> allocatorData);
 
   static inline ::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* New_ctor(::UnityEngine::UIElements::UIR::RenderChain* renderChain);
 
-  /// @brief Method .ctor addr 0x2dd9b14 size 0x368 virtual false final false
+  /// @brief Method .ctor addr 0x2c73764 size 0x368 virtual false final false
   inline void _ctor(::UnityEngine::UIElements::UIR::RenderChain* renderChain);
 
-  /// @brief Method get_meshGenerationContext addr 0x2dd9e7c size 0x8 virtual false final false
+  /// @brief Method get_meshGenerationContext addr 0x2c73acc size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::MeshGenerationContext* get_meshGenerationContext();
 
-  /// @brief Method get_currentElement addr 0x2dd9e84 size 0x8 virtual false final false
+  /// @brief Method get_currentElement addr 0x2c73ad4 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::VisualElement* get_currentElement();
 
-  /// @brief Method set_currentElement addr 0x2dd9e8c size 0x8 virtual false final false
+  /// @brief Method set_currentElement addr 0x2c73adc size 0x8 virtual false final false
   inline void set_currentElement(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method get_entries addr 0x2dd9e94 size 0x8 virtual false final false
+  /// @brief Method get_entries addr 0x2c73ae4 size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry>* get_entries();
 
-  /// @brief Method get_closingInfo addr 0x2dd9e9c size 0x1c virtual false final false
+  /// @brief Method get_closingInfo addr 0x2c73aec size 0x1c virtual false final false
   inline ::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo get_closingInfo();
 
-  /// @brief Method get_totalVertices addr 0x2dd9eb8 size 0x8 virtual false final false
+  /// @brief Method get_totalVertices addr 0x2c73b08 size 0x8 virtual false final false
   inline int32_t get_totalVertices();
 
-  /// @brief Method set_totalVertices addr 0x2dd9ec0 size 0x8 virtual false final false
+  /// @brief Method set_totalVertices addr 0x2c73b10 size 0x8 virtual false final false
   inline void set_totalVertices(int32_t value);
 
-  /// @brief Method get_totalIndices addr 0x2dd9ec8 size 0x8 virtual false final false
+  /// @brief Method get_totalIndices addr 0x2c73b18 size 0x8 virtual false final false
   inline int32_t get_totalIndices();
 
-  /// @brief Method set_totalIndices addr 0x2dd9ed0 size 0x8 virtual false final false
+  /// @brief Method set_totalIndices addr 0x2c73b20 size 0x8 virtual false final false
   inline void set_totalIndices(int32_t value);
 
-  /// @brief Method get_disposed addr 0x2dd9ed8 size 0x8 virtual false final false
+  /// @brief Method get_disposed addr 0x2c73b28 size 0x8 virtual false final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed addr 0x2dd9ee0 size 0xc virtual false final false
+  /// @brief Method set_disposed addr 0x2c73b30 size 0xc virtual false final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose addr 0x2dd9eec size 0x64 virtual true final true
+  /// @brief Method Dispose addr 0x2c73b3c size 0x64 virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x2dd9f50 size 0x84 virtual false final false
+  /// @brief Method Dispose addr 0x2c73ba0 size 0x84 virtual false final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Begin addr 0x2dd9fd4 size 0x510 virtual false final false
+  /// @brief Method Begin addr 0x2c73c24 size 0x510 virtual false final false
   inline void Begin(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method LandClipUnregisterMeshDrawCommand addr 0x2dda4e4 size 0x74 virtual false final false
+  /// @brief Method LandClipUnregisterMeshDrawCommand addr 0x2c74134 size 0x74 virtual false final false
   inline void LandClipUnregisterMeshDrawCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* cmd);
 
-  /// @brief Method LandClipRegisterMesh addr 0x2dda558 size 0x9c virtual false final false
+  /// @brief Method LandClipRegisterMesh addr 0x2c741a8 size 0x9c virtual false final false
   inline void LandClipRegisterMesh(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices, int32_t indexOffset);
 
-  /// @brief Method AddGradientsEntry addr 0x2dd9810 size 0x304 virtual false final false
+  /// @brief Method AddGradientsEntry addr 0x2c73460 size 0x304 virtual false final false
   inline ::UnityEngine::UIElements::MeshWriteData* AddGradientsEntry(int32_t vertexCount, int32_t indexCount, ::UnityEngine::UIElements::TextureId texture, ::UnityEngine::Material* material,
                                                                      ::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags flags);
 
-  /// @brief Method DrawMesh addr 0x2dd9330 size 0x4d0 virtual true final true
+  /// @brief Method DrawMesh addr 0x2c72f80 size 0x4d0 virtual true final true
   inline ::UnityEngine::UIElements::MeshWriteData* DrawMesh(int32_t vertexCount, int32_t indexCount, ::UnityEngine::Texture* texture, ::UnityEngine::Material* material,
                                                             ::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags flags);
 
-  /// @brief Method DrawText addr 0x2dda5f4 size 0x138 virtual true final true
+  /// @brief Method DrawText addr 0x2c74244 size 0x138 virtual true final true
   inline void DrawText(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, ::UnityEngine::UIElements::ITextHandle* handle, float_t pixelsPerPoint);
 
-  /// @brief Method DrawTextNative addr 0x2dda72c size 0x438 virtual false final false
+  /// @brief Method DrawTextNative addr 0x2c7437c size 0x438 virtual false final false
   inline void DrawTextNative(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, ::UnityEngine::UIElements::ITextHandle* handle, float_t pixelsPerPoint);
 
-  /// @brief Method DrawTextCore addr 0x2ddab64 size 0x628 virtual false final false
+  /// @brief Method DrawTextCore addr 0x2c747b4 size 0x628 virtual false final false
   inline void DrawTextCore(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, ::UnityEngine::UIElements::ITextHandle* handle, float_t pixelsPerPoint);
 
-  /// @brief Method DrawRectangle addr 0x2ddb18c size 0x29c virtual true final true
+  /// @brief Method DrawRectangle addr 0x2c74ddc size 0x29c virtual true final true
   inline void DrawRectangle(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams rectParams);
 
-  /// @brief Method DrawBorder addr 0x2ddbee4 size 0xe0 virtual true final true
+  /// @brief Method DrawBorder addr 0x2c75b34 size 0xe0 virtual true final true
   inline void DrawBorder(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams borderParams);
 
-  /// @brief Method DrawImmediate addr 0x2ddbfc4 size 0x17c virtual true final true
+  /// @brief Method DrawImmediate addr 0x2c75c14 size 0x17c virtual true final true
   inline void DrawImmediate(::System::Action* callback, bool cullingEnabled);
 
-  /// @brief Method get_visualElement addr 0x2ddc140 size 0x8 virtual true final true
+  /// @brief Method get_visualElement addr 0x2c75d90 size 0x8 virtual true final true
   inline ::UnityEngine::UIElements::VisualElement* get_visualElement();
 
-  /// @brief Method DrawVisualElementBackground addr 0x2ddc148 size 0xe08 virtual false final false
+  /// @brief Method DrawVisualElementBackground addr 0x2c75d98 size 0xe08 virtual false final false
   inline void DrawVisualElementBackground();
 
-  /// @brief Method DrawVisualElementBorder addr 0x2ddcf50 size 0x974 virtual false final false
+  /// @brief Method DrawVisualElementBorder addr 0x2c76ba0 size 0x974 virtual false final false
   inline void DrawVisualElementBorder();
 
-  /// @brief Method ApplyVisualElementClipping addr 0x2ddd8c4 size 0x24c virtual false final false
+  /// @brief Method ApplyVisualElementClipping addr 0x2c77514 size 0x24c virtual false final false
   inline void ApplyVisualElementClipping();
 
-  /// @brief Method AdjustSpriteWinding addr 0x2dde8a0 size 0x320 virtual false final false
+  /// @brief Method AdjustSpriteWinding addr 0x2c784f0 size 0x320 virtual false final false
   inline ::ArrayW<uint16_t, ::Array<uint16_t>*> AdjustSpriteWinding(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> vertices, ::ArrayW<uint16_t, ::Array<uint16_t>*> indices);
 
-  /// @brief Method DrawSprite addr 0x2ddb88c size 0x658 virtual false final false
+  /// @brief Method DrawSprite addr 0x2c754dc size 0x658 virtual false final false
   inline void DrawSprite(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams rectParams);
 
-  /// @brief Method DrawVectorImage addr 0x2ddb428 size 0x464 virtual false final false
+  /// @brief Method DrawVectorImage addr 0x2c75078 size 0x464 virtual false final false
   inline void DrawVectorImage(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams rectParams);
 
-  /// @brief Method Reset addr 0x2ddebc0 size 0xe4 virtual false final false
+  /// @brief Method Reset addr 0x2c78810 size 0xe4 virtual false final false
   inline void Reset();
 
-  /// @brief Method ValidateMeshWriteData addr 0x2ddeca4 size 0x4f4 virtual false final false
+  /// @brief Method ValidateMeshWriteData addr 0x2c788f4 size 0x4f4 virtual false final false
   inline void ValidateMeshWriteData();
 
-  /// @brief Method GenerateStencilClipEntryForRoundedRectBackground addr 0x2ddde84 size 0xa1c virtual false final false
+  /// @brief Method GenerateStencilClipEntryForRoundedRectBackground addr 0x2c77ad4 size 0xa1c virtual false final false
   inline void GenerateStencilClipEntryForRoundedRectBackground();
 
-  /// @brief Method GenerateStencilClipEntryForSVGBackground addr 0x2dddb10 size 0x374 virtual false final false
+  /// @brief Method GenerateStencilClipEntryForSVGBackground addr 0x2c77760 size 0x374 virtual false final false
   inline void GenerateStencilClipEntryForSVGBackground();
 
   // Ctor Parameters [CppParam { name: "", ty: "UIRStylePainter", modifiers: "&&", def_value: None }]
@@ -776,6 +826,50 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, 0x178>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ___m_Owner) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ___m_Entries) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ___m_Atlas) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ___m_VectorImageManager) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ___m_CurrentEntry) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ___m_ClosingInfo) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ___m_MaskDepth) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ___m_StencilRef) == 0xcc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ___m_ClipRectID) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ___m_SVGBackgroundEntryIndex) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ___m_VertsPool) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ___m_IndicesPool) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ___m_MeshWriteDataPool) == 0x130, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ___m_NextMeshWriteDataPoolItem) == 0x138, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ___m_AllocRawVertsIndicesDelegate) == 0x140, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ___m_AllocThroughDrawMeshDelegate) == 0x148, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ___m_AllocThroughDrawGradientsDelegate) == 0x150, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ____meshGenerationContext_k__BackingField) == 0x158, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ____currentElement_k__BackingField) == 0x160, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ____totalVertices_k__BackingField) == 0x168, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ____totalIndices_k__BackingField) == 0x16c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter, ____disposed_k__BackingField) == 0x170, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR::Implementation
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter);

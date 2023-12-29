@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TimeFieldAttribute);
 namespace UnityEngine::Timeline {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13921))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14192))
 // CS Name: ::TimeFieldAttribute::UseEditMode
 struct CORDL_TYPE __TimeFieldAttribute__UseEditMode {
 public:
@@ -67,13 +67,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::Timeline
 // Type: UnityEngine.Timeline::TimeFieldAttribute
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(13921))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13922))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10098)), TypeDefinitionIndex(TypeDefinitionIndex(14192))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14193))
 // CS Name: ::UnityEngine.Timeline::TimeFieldAttribute*
 class CORDL_TYPE TimeFieldAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -91,12 +93,12 @@ public:
 
   constexpr void __set__useEditMode_k__BackingField(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode value);
 
-  /// @brief Method get_useEditMode addr 0x2c6e760 size 0x8 virtual false final false
+  /// @brief Method get_useEditMode addr 0x2aeaa0c size 0x8 virtual false final false
   inline ::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode get_useEditMode();
 
   static inline ::UnityEngine::Timeline::TimeFieldAttribute* New_ctor(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode useEditMode);
 
-  /// @brief Method .ctor addr 0x2c6e768 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2aeaa14 size 0x28 virtual false final false
   inline void _ctor(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode useEditMode);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeFieldAttribute", modifiers: "&&", def_value: None }]
@@ -120,6 +122,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::TimeFieldAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::TimeFieldAttribute, ____useEditMode_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::Timeline
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode, "UnityEngine.Timeline", "TimeFieldAttribute/UseEditMode");

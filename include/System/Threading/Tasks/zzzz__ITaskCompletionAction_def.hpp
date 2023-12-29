@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Threading::Tasks::ITaskCompletionAction);
 namespace System::Threading::Tasks {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2795))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2791))
 // CS Name: ::System.Threading.Tasks::ITaskCompletionAction*
 class CORDL_TYPE ITaskCompletionAction {
 public:

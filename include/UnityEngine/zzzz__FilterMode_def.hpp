@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::FilterMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10113))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10041))
 // CS Name: ::UnityEngine::FilterMode
 struct CORDL_TYPE FilterMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::FilterMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::FilterMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::FilterMode, "UnityEngine", "FilterMode");

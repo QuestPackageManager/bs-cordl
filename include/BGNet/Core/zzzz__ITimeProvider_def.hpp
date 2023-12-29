@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::BGNet::Core::ITimeProvider);
 namespace BGNet::Core {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13004))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12936))
 // CS Name: ::BGNet.Core::ITimeProvider*
 class CORDL_TYPE ITimeProvider {
 public:

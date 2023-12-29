@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::UILineInfo);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15906))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15798))
 // CS Name: ::UnityEngine::UILineInfo
 struct CORDL_TYPE UILineInfo {
 public:
@@ -49,6 +49,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UILineInfo, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UILineInfo, startCharIdx) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UILineInfo, height) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UILineInfo, topY) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UILineInfo, leading) == 0xc, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UILineInfo, "UnityEngine", "UILineInfo");

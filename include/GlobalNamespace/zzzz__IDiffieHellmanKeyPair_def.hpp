@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IDiffieHellmanKeyPair)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace BGNet::Core {
 class ITaskUtility;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IDiffieHellmanKeyPair);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12711))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12639))
 // CS Name: ::IDiffieHellmanKeyPair*
 class CORDL_TYPE IDiffieHellmanKeyPair {
 public:

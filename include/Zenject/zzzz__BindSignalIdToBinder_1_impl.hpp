@@ -1,10 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__BindSignalToBinder_1_impl.hpp"
 #include "Zenject/zzzz__BindSignalIdToBinder_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__SignalBindingBindInfo_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__BindSignalToBinder_1_def.hpp"
 template <typename TSignal>
 inline ::Zenject::BindSignalIdToBinder_1<TSignal>* Zenject::BindSignalIdToBinder_1<TSignal>::New_ctor(::Zenject::DiContainer* container, ::Zenject::SignalBindingBindInfo* signalBindInfo) {

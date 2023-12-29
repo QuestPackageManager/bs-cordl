@@ -25,24 +25,24 @@ MARK_REF_PTR_T(::System::Reflection::TargetInvocationException);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2343))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3498))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3493))
 // CS Name: ::System.Reflection::TargetInvocationException*
 class CORDL_TYPE TargetInvocationException : public ::System::ApplicationException {
 public:
   // Declarations
   static inline ::System::Reflection::TargetInvocationException* New_ctor(::System::Exception* inner);
 
-  /// @brief Method .ctor addr 0x24ec6e8 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x2392c30 size 0x6c virtual false final false
   inline void _ctor(::System::Exception* inner);
 
   static inline ::System::Reflection::TargetInvocationException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor addr 0x24ec754 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2392c9c size 0x24 virtual false final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
   static inline ::System::Reflection::TargetInvocationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x24ec778 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2392cc0 size 0x8 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "TargetInvocationException", modifiers: "&&", def_value: None }]

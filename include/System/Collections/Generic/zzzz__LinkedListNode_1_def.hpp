@@ -19,8 +19,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9535))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8372))
 // CS Name: ::System.Collections.Generic::LinkedListNode`1<T>*
 class CORDL_TYPE LinkedListNode_1 : public ::System::Object {
 public:

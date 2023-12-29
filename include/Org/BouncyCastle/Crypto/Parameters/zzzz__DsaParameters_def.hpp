@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DsaParameters)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DsaValidationParameters;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::DsaParameters);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1029))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::DsaParameters*
 class CORDL_TYPE DsaParameters : public ::System::Object {
@@ -83,36 +83,36 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                                  ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method .ctor addr 0xf31b44 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xebc958 size 0x8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                                  ::Org::BouncyCastle::Math::BigInteger* g,
                                                                                  ::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* parameters);
 
-  /// @brief Method .ctor addr 0xf31b4c size 0xe0 virtual false final false
+  /// @brief Method .ctor addr 0xebc960 size 0xe0 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g,
                     ::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* parameters);
 
-  /// @brief Method get_P addr 0xf31c2c size 0x8 virtual false final false
+  /// @brief Method get_P addr 0xebca40 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q addr 0xf31c34 size 0x8 virtual false final false
+  /// @brief Method get_Q addr 0xebca48 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_G addr 0xf31c3c size 0x8 virtual false final false
+  /// @brief Method get_G addr 0xebca50 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_ValidationParameters addr 0xf31c44 size 0x8 virtual false final false
+  /// @brief Method get_ValidationParameters addr 0xebca58 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* get_ValidationParameters();
 
-  /// @brief Method Equals addr 0xf31c4c size 0x9c virtual true final false
+  /// @brief Method Equals addr 0xebca60 size 0x9c virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xf31ce8 size 0x80 virtual false final false
+  /// @brief Method Equals addr 0xebcafc size 0x80 virtual false final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DsaParameters* other);
 
-  /// @brief Method GetHashCode addr 0xf31d68 size 0x70 virtual true final false
+  /// @brief Method GetHashCode addr 0xebcb7c size 0x70 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DsaParameters", modifiers: "&&", def_value: None }]
@@ -145,6 +145,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::DsaParameters, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DsaParameters, ___p) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DsaParameters, ___q) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DsaParameters, ___g) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DsaParameters, ___validation) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::DsaParameters);

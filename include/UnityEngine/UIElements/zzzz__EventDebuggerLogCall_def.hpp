@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(EventDebuggerLogCall)
 namespace System {
-class IDisposable;
+class Delegate;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace System {
-class Delegate;
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,7 +24,7 @@ MARK_VAL_T(::UnityEngine::UIElements::EventDebuggerLogCall);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7351))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7437))
 // CS Name: ::UnityEngine.UIElements::EventDebuggerLogCall
 #pragma pack(push, 0)
 struct CORDL_TYPE EventDebuggerLogCall {
@@ -33,10 +33,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method .ctor addr 0x2e834f8 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x2d1b148 size 0x4 virtual false final false
   inline void _ctor(::System::Delegate* callback, ::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method Dispose addr 0x2e834fc size 0x4 virtual true final true
+  /// @brief Method Dispose addr 0x2d1b14c size 0x4 virtual true final true
   inline void Dispose();
 
   // Ctor Parameters []

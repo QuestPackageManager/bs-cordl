@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::ModifierSpec);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2633))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2631))
 // CS Name: ::System::ModifierSpec*
 class CORDL_TYPE ModifierSpec {
 public:

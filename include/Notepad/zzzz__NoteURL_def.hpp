@@ -16,7 +16,7 @@ MARK_VAL_T(::Notepad::NoteURL);
 namespace Notepad {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16279))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16100))
 // CS Name: ::Notepad::NoteURL
 struct CORDL_TYPE NoteURL {
 public:
@@ -41,6 +41,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Notepad::NoteURL, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::Notepad::NoteURL, name) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::Notepad::NoteURL, url) == 0x8, "Offset mismatch!");
 
 } // namespace Notepad
 DEFINE_IL2CPP_ARG_TYPE(::Notepad::NoteURL, "Notepad", "NoteURL");

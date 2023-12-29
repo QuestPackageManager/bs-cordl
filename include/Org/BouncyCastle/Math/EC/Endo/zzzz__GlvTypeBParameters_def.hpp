@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Endo {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1524))
 // CS Name: ::Org.BouncyCastle.Math.EC.Endo::GlvTypeBParameters*
 class CORDL_TYPE GlvTypeBParameters : public ::System::Object {
@@ -76,7 +76,7 @@ public:
                                                                                   ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v2,
                                                                                   ::Org::BouncyCastle::Math::BigInteger* g1, ::Org::BouncyCastle::Math::BigInteger* g2, int32_t bits);
 
-  /// @brief Method .ctor addr 0x10356a4 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0xfc3458 size 0xbc virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* beta, ::Org::BouncyCastle::Math::BigInteger* lambda,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v1,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v2, ::Org::BouncyCastle::Math::BigInteger* g1,
@@ -85,31 +85,31 @@ public:
   static inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* beta, ::Org::BouncyCastle::Math::BigInteger* lambda,
                                                                                   ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams);
 
-  /// @brief Method .ctor addr 0x103585c size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0xfc3610 size 0x3c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* beta, ::Org::BouncyCastle::Math::BigInteger* lambda, ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams);
 
-  /// @brief Method get_Beta addr 0x1035898 size 0x8 virtual true final false
+  /// @brief Method get_Beta addr 0xfc364c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Beta();
 
-  /// @brief Method get_Lambda addr 0x10358a0 size 0x8 virtual true final false
+  /// @brief Method get_Lambda addr 0xfc3654 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Lambda();
 
-  /// @brief Method get_SplitParams addr 0x10358a8 size 0x8 virtual true final false
+  /// @brief Method get_SplitParams addr 0xfc365c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* get_SplitParams();
 
-  /// @brief Method get_V1 addr 0x10358b0 size 0xec virtual true final false
+  /// @brief Method get_V1 addr 0xfc3664 size 0xec virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> get_V1();
 
-  /// @brief Method get_V2 addr 0x103599c size 0xec virtual true final false
+  /// @brief Method get_V2 addr 0xfc3750 size 0xec virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> get_V2();
 
-  /// @brief Method get_G1 addr 0x1035a88 size 0x20 virtual true final false
+  /// @brief Method get_G1 addr 0xfc383c size 0x20 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G1();
 
-  /// @brief Method get_G2 addr 0x1035aa8 size 0x20 virtual true final false
+  /// @brief Method get_G2 addr 0xfc385c size 0x20 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G2();
 
-  /// @brief Method get_Bits addr 0x1035ac8 size 0x20 virtual true final false
+  /// @brief Method get_Bits addr 0xfc387c size 0x20 virtual true final false
   inline int32_t get_Bits();
 
   // Ctor Parameters [CppParam { name: "", ty: "GlvTypeBParameters", modifiers: "&&", def_value: None }]
@@ -139,6 +139,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters, ___m_beta) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters, ___m_lambda) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters, ___m_splitParams) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC::Endo
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters);

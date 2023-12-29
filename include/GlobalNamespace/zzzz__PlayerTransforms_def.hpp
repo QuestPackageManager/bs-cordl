@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerTransforms);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 193, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5277))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5372))
 // CS Name: ::PlayerTransforms*
 class CORDL_TYPE PlayerTransforms : public ::UnityEngine::MonoBehaviour {
 public:
@@ -193,54 +193,54 @@ public:
 
   constexpr void __set__useOriginParentTransformForPseudoLocalCalculations(bool value);
 
-  /// @brief Method get_headWorldPos addr 0x2260d2c size 0xc virtual false final false
+  /// @brief Method get_headWorldPos addr 0x211cb94 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_headWorldPos();
 
-  /// @brief Method get_headWorldRot addr 0x2260d38 size 0xc virtual false final false
+  /// @brief Method get_headWorldRot addr 0x211cba0 size 0xc virtual false final false
   inline ::UnityEngine::Quaternion get_headWorldRot();
 
-  /// @brief Method get_headPseudoLocalPos addr 0x2260d44 size 0xc virtual false final false
+  /// @brief Method get_headPseudoLocalPos addr 0x211cbac size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_headPseudoLocalPos();
 
-  /// @brief Method get_headPseudoLocalRot addr 0x2260d50 size 0xc virtual false final false
+  /// @brief Method get_headPseudoLocalRot addr 0x211cbb8 size 0xc virtual false final false
   inline ::UnityEngine::Quaternion get_headPseudoLocalRot();
 
-  /// @brief Method get_leftHandPseudoLocalPos addr 0x2260d5c size 0xc virtual false final false
+  /// @brief Method get_leftHandPseudoLocalPos addr 0x211cbc4 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_leftHandPseudoLocalPos();
 
-  /// @brief Method get_leftHandPseudoLocalRot addr 0x2260d68 size 0xc virtual false final false
+  /// @brief Method get_leftHandPseudoLocalRot addr 0x211cbd0 size 0xc virtual false final false
   inline ::UnityEngine::Quaternion get_leftHandPseudoLocalRot();
 
-  /// @brief Method get_rightHandPseudoLocalPos addr 0x2260d74 size 0xc virtual false final false
+  /// @brief Method get_rightHandPseudoLocalPos addr 0x211cbdc size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_rightHandPseudoLocalPos();
 
-  /// @brief Method get_rightHandPseudoLocalRot addr 0x2260d80 size 0xc virtual false final false
+  /// @brief Method get_rightHandPseudoLocalRot addr 0x211cbe8 size 0xc virtual false final false
   inline ::UnityEngine::Quaternion get_rightHandPseudoLocalRot();
 
-  /// @brief Method Awake addr 0x2260d8c size 0x84 virtual false final false
+  /// @brief Method Awake addr 0x211cbf4 size 0x84 virtual false final false
   inline void Awake();
 
-  /// @brief Method OverrideHeadPos addr 0x2260e10 size 0x1c virtual false final false
+  /// @brief Method OverrideHeadPos addr 0x211cc78 size 0x1c virtual false final false
   inline void OverrideHeadPos(::UnityEngine::Vector3 pos);
 
-  /// @brief Method Update addr 0x2260e2c size 0x1d8 virtual false final false
+  /// @brief Method Update addr 0x211cc94 size 0x1d8 virtual false final false
   inline void Update();
 
-  /// @brief Method MoveTowardsHead addr 0x2261004 size 0x74 virtual false final false
+  /// @brief Method MoveTowardsHead addr 0x211ce6c size 0x74 virtual false final false
   inline float_t MoveTowardsHead(float_t start, float_t end, ::UnityEngine::Quaternion noteInverseWorldRotation, float_t t);
 
-  /// @brief Method GetZPosOffsetByHeadPosAtTime addr 0x22610c0 size 0x2c virtual false final false
+  /// @brief Method GetZPosOffsetByHeadPosAtTime addr 0x211cf28 size 0x2c virtual false final false
   inline float_t GetZPosOffsetByHeadPosAtTime(float_t start, float_t end, float_t t);
 
-  /// @brief Method GetZPos addr 0x2261098 size 0x28 virtual false final false
+  /// @brief Method GetZPos addr 0x211cf00 size 0x28 virtual false final false
   inline float_t GetZPos(float_t start, float_t end, float_t headOffsetZ, float_t t);
 
-  /// @brief Method HeadOffsetZ addr 0x2261078 size 0x20 virtual false final false
+  /// @brief Method HeadOffsetZ addr 0x211cee0 size 0x20 virtual false final false
   inline float_t HeadOffsetZ(::UnityEngine::Quaternion noteInverseWorldRotation);
 
   static inline ::GlobalNamespace::PlayerTransforms* New_ctor();
 
-  /// @brief Method .ctor addr 0x22610ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x211cf54 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerTransforms", modifiers: "&&", def_value: None }]
@@ -309,6 +309,38 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerTransforms, 0xc8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____headTransform) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____originTransform) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____leftHandTransform) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____rightHandTransform) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____overrideHeadPos) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____overriddenHeadPos) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____headWorldPos) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____headWorldRot) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____headPseudoLocalPos) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____headPseudoLocalRot) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____leftHandPseudoLocalPos) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____leftHandPseudoLocalRot) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____rightHandPseudoLocalPos) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____rightHandPseudoLocalRot) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____originParentTransform) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____useOriginParentTransformForPseudoLocalCalculations) == 0xc0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerTransforms);

@@ -13,34 +13,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_CharacterInfo)
 namespace TMPro {
-struct TMP_TextElementType;
+struct HighlightState;
 }
 namespace UnityEngine {
 struct Color32;
 }
 namespace TMPro {
-struct HighlightState;
+class TMP_TextElement;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace TMPro {
+class TMP_FontAsset;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace TMPro {
+struct TMP_TextElementType;
+}
+namespace TMPro {
+struct TMP_Vertex;
 }
 namespace TMPro {
 struct FontStyles;
 }
 namespace TMPro {
 class TMP_SpriteAsset;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace TMPro {
-class TMP_TextElement;
-}
-namespace TMPro {
-class TMP_FontAsset;
-}
-namespace TMPro {
-struct TMP_Vertex;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace TMPro {
@@ -52,9 +52,9 @@ MARK_VAL_T(::TMPro::TMP_CharacterInfo);
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 389, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12433)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(12329)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12331)), TypeDefinitionIndex(TypeDefinitionIndex(12438))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(12332)) CS Name: ::TMPro::TMP_CharacterInfo
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(12361)), TypeDefinitionIndex(TypeDefinitionIndex(12366)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12257)), TypeDefinitionIndex(TypeDefinitionIndex(10177)), TypeDefinitionIndex(TypeDefinitionIndex(12259))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(12260)) CS Name: ::TMPro::TMP_CharacterInfo
 struct CORDL_TYPE TMP_CharacterInfo {
 public:
   // Declarations
@@ -221,6 +221,88 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_CharacterInfo, 0x178>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, character) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, index) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, stringLength) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, elementType) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, textElement) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, fontAsset) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, spriteAsset) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, spriteIndex) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, material) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, materialReferenceIndex) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, isUsingAlternateTypeface) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, pointSize) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, lineNumber) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, pageNumber) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, vertexIndex) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, vertex_BL) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, vertex_TL) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, vertex_TR) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, vertex_BR) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, topLeft) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, bottomLeft) == 0xfc, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, topRight) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, bottomRight) == 0x114, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, origin) == 0x120, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, xAdvance) == 0x124, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, ascender) == 0x128, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, baseLine) == 0x12c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, descender) == 0x130, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, adjustedAscender) == 0x134, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, adjustedDescender) == 0x138, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, aspectRatio) == 0x13c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, scale) == 0x140, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, color) == 0x144, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, underlineColor) == 0x148, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, underlineVertexIndex) == 0x14c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, strikethroughColor) == 0x150, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, strikethroughVertexIndex) == 0x154, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, highlightColor) == 0x158, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, highlightState) == 0x15c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, style) == 0x170, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_CharacterInfo, isVisible) == 0x174, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_CharacterInfo, "TMPro", "TMP_CharacterInfo");

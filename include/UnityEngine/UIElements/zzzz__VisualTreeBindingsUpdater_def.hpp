@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualTreeBindingsUpdater)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
+}
 namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
 struct HierarchyChangeType;
 }
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
 }
 namespace UnityEngine::UIElements {
 class IBinding;
@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualTreeBindingsUpdater);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(6787)), TypeDefinitionIndex(TypeDefinitionIndex(10159))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7344))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6873)), TypeDefinitionIndex(TypeDefinitionIndex(10087)), TypeDefinitionIndex(TypeDefinitionIndex(9894))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7430))
 // CS Name: ::UnityEngine.UIElements::VisualTreeBindingsUpdater*
 class CORDL_TYPE VisualTreeBindingsUpdater : public ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater {
 public:
@@ -178,51 +178,51 @@ public:
 
   static inline bool getStaticF__disableBindingsThrottling_k__BackingField();
 
-  /// @brief Method get_profilerMarker addr 0x2e7e198 size 0x58 virtual true final false
+  /// @brief Method get_profilerMarker addr 0x2d15de8 size 0x58 virtual true final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method GetBindingObjectFromElement addr 0x2e7e1f0 size 0x138 virtual false final false
+  /// @brief Method GetBindingObjectFromElement addr 0x2d15e40 size 0x138 virtual false final false
   inline ::UnityEngine::UIElements::IBinding* GetBindingObjectFromElement(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StartTracking addr 0x2e7e3b0 size 0x80 virtual false final false
+  /// @brief Method StartTracking addr 0x2d16000 size 0x80 virtual false final false
   inline void StartTracking(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StopTracking addr 0x2e7e430 size 0x80 virtual false final false
+  /// @brief Method StopTracking addr 0x2d16080 size 0x80 virtual false final false
   inline void StopTracking(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method get_temporaryObjectCache addr 0x2e7e4b0 size 0x8 virtual false final false
+  /// @brief Method get_temporaryObjectCache addr 0x2d16100 size 0x8 virtual false final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* get_temporaryObjectCache();
 
-  /// @brief Method GetAdditionalBinding addr 0x2e7e328 size 0x88 virtual false final false
+  /// @brief Method GetAdditionalBinding addr 0x2d15f78 size 0x88 virtual false final false
   static inline ::UnityEngine::UIElements::IBinding* GetAdditionalBinding(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StartTrackingRecursive addr 0x2e7e4b8 size 0x118 virtual false final false
+  /// @brief Method StartTrackingRecursive addr 0x2d16108 size 0x118 virtual false final false
   inline void StartTrackingRecursive(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StopTrackingRecursive addr 0x2e7e5d0 size 0x10c virtual false final false
+  /// @brief Method StopTrackingRecursive addr 0x2d16220 size 0x10c virtual false final false
   inline void StopTrackingRecursive(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method OnVersionChanged addr 0x2e7e6dc size 0xf8 virtual true final false
+  /// @brief Method OnVersionChanged addr 0x2d1632c size 0xf8 virtual true final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method OnHierarchyChange addr 0x2e7e7d4 size 0x18 virtual true final false
+  /// @brief Method OnHierarchyChange addr 0x2d16424 size 0x18 virtual true final false
   inline void OnHierarchyChange(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType type);
 
-  /// @brief Method CurrentTime addr 0x2e7e7ec size 0x50 virtual false final false
+  /// @brief Method CurrentTime addr 0x2d1643c size 0x50 virtual false final false
   static inline int64_t CurrentTime();
 
-  /// @brief Method PerformTrackingOperations addr 0x2e7e83c size 0x284 virtual false final false
+  /// @brief Method PerformTrackingOperations addr 0x2d1648c size 0x284 virtual false final false
   inline void PerformTrackingOperations();
 
-  /// @brief Method Update addr 0x2e7eac0 size 0x600 virtual true final false
+  /// @brief Method Update addr 0x2d16710 size 0x600 virtual true final false
   inline void Update();
 
-  /// @brief Method UpdateBindings addr 0x2e7f0c0 size 0x534 virtual false final false
+  /// @brief Method UpdateBindings addr 0x2d16d10 size 0x534 virtual false final false
   inline void UpdateBindings();
 
   static inline ::UnityEngine::UIElements::VisualTreeBindingsUpdater* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e7f5f4 size 0x160 virtual false final false
+  /// @brief Method .ctor addr 0x2d17244 size 0x160 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualTreeBindingsUpdater", modifiers: "&&", def_value: None }]
@@ -264,6 +264,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualTreeBindingsUpdater, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeBindingsUpdater, ___m_ElementsWithBindings) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeBindingsUpdater, ___m_ElementsToAdd) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeBindingsUpdater, ___m_ElementsToRemove) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeBindingsUpdater, ___m_LastUpdateTime) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeBindingsUpdater, ___m_ElementsToBind) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeBindingsUpdater, ____temporaryObjectCache_k__BackingField) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeBindingsUpdater, ___updatedBindings) == 0x68, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VisualTreeBindingsUpdater);

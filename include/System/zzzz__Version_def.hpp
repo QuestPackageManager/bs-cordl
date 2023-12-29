@@ -7,23 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Version)
-namespace System::Text {
-class StringBuilder;
-}
 namespace System {
 class ISpanFormattable;
-}
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System {
-class IComparable;
 }
 namespace System {
 template <typename T> struct Span_1;
@@ -32,10 +17,25 @@ namespace System {
 template <typename T> class IComparable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class ICloneable;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace System {
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::System::Version);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2512))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2510))
 // CS Name: ::System::Version*
 class CORDL_TYPE Version : public ::System::Object {
 public:
@@ -116,110 +116,110 @@ public:
 
   static inline ::System::Version* New_ctor(int32_t major, int32_t minor, int32_t build, int32_t revision);
 
-  /// @brief Method .ctor addr 0x25ce8d4 size 0x124 virtual false final false
+  /// @brief Method .ctor addr 0x24719ac size 0x124 virtual false final false
   inline void _ctor(int32_t major, int32_t minor, int32_t build, int32_t revision);
 
   static inline ::System::Version* New_ctor(int32_t major, int32_t minor, int32_t build);
 
-  /// @brief Method .ctor addr 0x25ce9f8 size 0xf8 virtual false final false
+  /// @brief Method .ctor addr 0x2471ad0 size 0xf8 virtual false final false
   inline void _ctor(int32_t major, int32_t minor, int32_t build);
 
   static inline ::System::Version* New_ctor(int32_t major, int32_t minor);
 
-  /// @brief Method .ctor addr 0x25ceaf0 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x2471bc8 size 0xc0 virtual false final false
   inline void _ctor(int32_t major, int32_t minor);
 
   static inline ::System::Version* New_ctor(::StringW version);
 
-  /// @brief Method .ctor addr 0x25cebb0 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x2471c88 size 0x44 virtual false final false
   inline void _ctor(::StringW version);
 
   static inline ::System::Version* New_ctor();
 
-  /// @brief Method .ctor addr 0x25cec90 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2471d68 size 0x24 virtual false final false
   inline void _ctor();
 
   static inline ::System::Version* New_ctor(::System::Version* version);
 
-  /// @brief Method .ctor addr 0x25cecb4 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x2471d8c size 0x3c virtual false final false
   inline void _ctor(::System::Version* version);
 
-  /// @brief Method Clone addr 0x25cecf0 size 0x60 virtual true final true
+  /// @brief Method Clone addr 0x2471dc8 size 0x60 virtual true final true
   inline ::System::Object* Clone();
 
-  /// @brief Method get_Major addr 0x25ced50 size 0x8 virtual false final false
+  /// @brief Method get_Major addr 0x2471e28 size 0x8 virtual false final false
   inline int32_t get_Major();
 
-  /// @brief Method get_Minor addr 0x25ced58 size 0x8 virtual false final false
+  /// @brief Method get_Minor addr 0x2471e30 size 0x8 virtual false final false
   inline int32_t get_Minor();
 
-  /// @brief Method get_Build addr 0x25ced60 size 0x8 virtual false final false
+  /// @brief Method get_Build addr 0x2471e38 size 0x8 virtual false final false
   inline int32_t get_Build();
 
-  /// @brief Method get_Revision addr 0x25ced68 size 0x8 virtual false final false
+  /// @brief Method get_Revision addr 0x2471e40 size 0x8 virtual false final false
   inline int32_t get_Revision();
 
-  /// @brief Method CompareTo addr 0x25ced70 size 0xbc virtual true final true
+  /// @brief Method CompareTo addr 0x2471e48 size 0xbc virtual true final true
   inline int32_t CompareTo(::System::Object* version);
 
-  /// @brief Method CompareTo addr 0x25cee40 size 0x68 virtual true final true
+  /// @brief Method CompareTo addr 0x2471f18 size 0x68 virtual true final true
   inline int32_t CompareTo(::System::Version* value);
 
-  /// @brief Method Equals addr 0x25ceea8 size 0x64 virtual true final false
+  /// @brief Method Equals addr 0x2471f80 size 0x64 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x25cef0c size 0x60 virtual true final true
+  /// @brief Method Equals addr 0x2471fe4 size 0x60 virtual true final true
   inline bool Equals(::System::Version* obj);
 
-  /// @brief Method GetHashCode addr 0x25cef6c size 0x1c virtual true final false
+  /// @brief Method GetHashCode addr 0x2472044 size 0x1c virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x25cef88 size 0x28 virtual true final false
+  /// @brief Method ToString addr 0x2472060 size 0x28 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString addr 0x25cefd8 size 0x8c virtual false final false
+  /// @brief Method ToString addr 0x24720b0 size 0x8c virtual false final false
   inline ::StringW ToString(int32_t fieldCount);
 
-  /// @brief Method TryFormat addr 0x25cf2b0 size 0x2c virtual false final false
+  /// @brief Method TryFormat addr 0x2472388 size 0x2c virtual false final false
   inline bool TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten);
 
-  /// @brief Method TryFormat addr 0x25cf2dc size 0x128 virtual false final false
+  /// @brief Method TryFormat addr 0x24723b4 size 0x128 virtual false final false
   inline bool TryFormat(::System::Span_1<char16_t> destination, int32_t fieldCount, ByRef<int32_t> charsWritten);
 
-  /// @brief Method System.ISpanFormattable.TryFormat addr 0x25cf404 size 0x2c virtual true final true
+  /// @brief Method System.ISpanFormattable.TryFormat addr 0x24724dc size 0x2c virtual true final true
   inline bool System_ISpanFormattable_TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider);
 
-  /// @brief Method get_DefaultFormatFieldCount addr 0x25cefb0 size 0x28 virtual false final false
+  /// @brief Method get_DefaultFormatFieldCount addr 0x2472088 size 0x28 virtual false final false
   inline int32_t get_DefaultFormatFieldCount();
 
-  /// @brief Method ToCachedStringBuilder addr 0x25cf064 size 0x24c virtual false final false
+  /// @brief Method ToCachedStringBuilder addr 0x247213c size 0x24c virtual false final false
   inline ::System::Text::StringBuilder* ToCachedStringBuilder(int32_t fieldCount);
 
-  /// @brief Method Parse addr 0x25cebf4 size 0x9c virtual false final false
+  /// @brief Method Parse addr 0x2471ccc size 0x9c virtual false final false
   static inline ::System::Version* Parse(::StringW input);
 
-  /// @brief Method ParseVersion addr 0x25cf430 size 0x4d4 virtual false final false
+  /// @brief Method ParseVersion addr 0x2472508 size 0x4d4 virtual false final false
   static inline ::System::Version* ParseVersion(::System::ReadOnlySpan_1<char16_t> input, bool throwOnFailure);
 
-  /// @brief Method TryParseComponent addr 0x25cf904 size 0x118 virtual false final false
+  /// @brief Method TryParseComponent addr 0x24729dc size 0x118 virtual false final false
   static inline bool TryParseComponent(::System::ReadOnlySpan_1<char16_t> component, ::StringW componentName, bool throwOnFailure, ByRef<int32_t> parsedComponent);
 
-  /// @brief Method op_Equality addr 0x25cee2c size 0x14 virtual false final false
+  /// @brief Method op_Equality addr 0x2471f04 size 0x14 virtual false final false
   static inline bool op_Equality(::System::Version* v1, ::System::Version* v2);
 
-  /// @brief Method op_Inequality addr 0x25cfa1c size 0x28 virtual false final false
+  /// @brief Method op_Inequality addr 0x2472af4 size 0x28 virtual false final false
   static inline bool op_Inequality(::System::Version* v1, ::System::Version* v2);
 
-  /// @brief Method op_LessThan addr 0x25cfa44 size 0x64 virtual false final false
+  /// @brief Method op_LessThan addr 0x2472b1c size 0x64 virtual false final false
   static inline bool op_LessThan(::System::Version* v1, ::System::Version* v2);
 
-  /// @brief Method op_LessThanOrEqual addr 0x25cfaa8 size 0x68 virtual false final false
+  /// @brief Method op_LessThanOrEqual addr 0x2472b80 size 0x68 virtual false final false
   static inline bool op_LessThanOrEqual(::System::Version* v1, ::System::Version* v2);
 
-  /// @brief Method op_GreaterThan addr 0x25cfb10 size 0x10 virtual false final false
+  /// @brief Method op_GreaterThan addr 0x2472be8 size 0x10 virtual false final false
   static inline bool op_GreaterThan(::System::Version* v1, ::System::Version* v2);
 
-  /// @brief Method op_GreaterThanOrEqual addr 0x25cfb20 size 0x10 virtual false final false
+  /// @brief Method op_GreaterThanOrEqual addr 0x2472bf8 size 0x10 virtual false final false
   static inline bool op_GreaterThanOrEqual(::System::Version* v1, ::System::Version* v2);
 
   // Ctor Parameters [CppParam { name: "", ty: "Version", modifiers: "&&", def_value: None }]
@@ -252,6 +252,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Version, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Version, ____Major) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Version, ____Minor) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Version, ____Build) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Version, ____Revision) == 0x1c, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::Version);

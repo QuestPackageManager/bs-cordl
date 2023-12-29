@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Diagnostics::TraceLevel);
 namespace System::Diagnostics {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8942))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7779))
 // CS Name: ::System.Diagnostics::TraceLevel
 struct CORDL_TYPE TraceLevel {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::TraceLevel, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::TraceLevel, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Diagnostics
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::TraceLevel, "System.Diagnostics", "TraceLevel");

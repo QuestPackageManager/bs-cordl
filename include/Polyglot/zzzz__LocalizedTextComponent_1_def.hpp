@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalizedTextComponent_1)
-namespace Polyglot {
-struct LanguageDirection;
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Polyglot {
-class ILocalize;
+struct LanguageDirection;
 }
-namespace System {
-class Object;
+namespace Polyglot {
+class ILocalize;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -31,8 +31,8 @@ namespace Polyglot {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15565))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15549))
 // CS Name: ::Polyglot::LocalizedTextComponent`1<T>*
 class CORDL_TYPE LocalizedTextComponent_1 : public ::UnityEngine::MonoBehaviour {
 public:

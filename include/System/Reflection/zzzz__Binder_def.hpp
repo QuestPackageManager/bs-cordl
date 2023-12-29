@@ -8,7 +8,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Binder)
 namespace System::Reflection {
+class MethodBase;
+}
+namespace System::Reflection {
 struct ParameterModifier;
+}
+namespace System::Reflection {
+struct BindingFlags;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
@@ -17,19 +29,7 @@ namespace System::Reflection {
 class FieldInfo;
 }
 namespace System::Reflection {
-struct BindingFlags;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Reflection {
 class PropertyInfo;
-}
-namespace System {
-class Object;
-}
-namespace System::Reflection {
-class MethodBase;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -41,15 +41,15 @@ MARK_REF_PTR_T(::System::Reflection::Binder);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3458))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3453))
 // CS Name: ::System.Reflection::Binder*
 class CORDL_TYPE Binder : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Reflection::Binder* New_ctor();
 
-  /// @brief Method .ctor addr 0x24e60b0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x238c5f8 size 0x8 virtual false final false
   inline void _ctor();
 
   /// @brief Method BindToField addr 0x0 size 0xffffffffffffffff virtual true final false

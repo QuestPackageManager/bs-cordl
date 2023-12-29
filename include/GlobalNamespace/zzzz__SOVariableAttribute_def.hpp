@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::SOVariableAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15870))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10098))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13975))
 // CS Name: ::SOVariableAttribute*
 class CORDL_TYPE SOVariableAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   static inline ::GlobalNamespace::SOVariableAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0xe28a78 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fa3104 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SOVariableAttribute", modifiers: "&&", def_value: None }]

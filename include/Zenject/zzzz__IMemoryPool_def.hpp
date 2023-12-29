@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Zenject::IMemoryPool);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11027))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10955))
 // CS Name: ::Zenject::IMemoryPool*
 class CORDL_TYPE IMemoryPool {
 public:

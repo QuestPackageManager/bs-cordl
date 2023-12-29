@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::InputArrayExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6670))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6756))
 // CS Name: ::UnityEngine.InputSystem.Utilities::InputArrayExtensions*
 class CORDL_TYPE InputArrayExtensions : public ::System::Object {
 public:

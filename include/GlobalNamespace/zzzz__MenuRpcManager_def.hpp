@@ -15,182 +15,183 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MenuRpcManager)
 namespace GlobalNamespace {
-class __MenuRpcManager__SelectLevelPackRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__ClearRecommendedGameplayModifiersRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__ClearSelectedGameplayModifiersRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__SetSelectedBeatmapRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__StartLevelRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__ClearRecommendedBeatmapRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__RequestKickPlayerRpc;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__SetMultiplayerGameStateRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__GetIsStartButtonEnabledRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__GetSelectedBeatmapRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__GetStartedLevelRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__GetOwnedSongPacksRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__SetPlayersPermissionConfigurationRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__SetOwnedSongPacksRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__SetIsStartButtonEnabledRpc;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__GetIsInLobbyRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__SetIsEntitledToLevelRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__InvalidateLevelEntitlementStatusesRpc;
-}
-namespace GlobalNamespace {
-struct EntitlementsStatus;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__RecommendBeatmapRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__GetIsReadyRpc;
-}
-namespace GlobalNamespace {
 class __MenuRpcManager__LevelLoadErrorRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__RecommendGameplayModifiersRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__SetCountdownEndTimeRpc;
-}
-namespace GlobalNamespace {
-struct CannotStartGameReason;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__CancelStartGameTimeRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__SetPlayersMissingEntitlementsToLevelRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__GetRecommendedGameplayModifiersRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__CancelLevelStartRpc;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__GetIsEntitledToLevelRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__GetSelectedGameplayModifiersRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__SetIsInLobbyRpc;
-}
-namespace GlobalNamespace {
-template <typename TType> class RpcHandler_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__GetCountdownEndTimeRpc;
-}
-namespace GlobalNamespace {
-struct __MenuRpcManager__RpcType;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__GetRecommendedBeatmapRpc;
-}
-namespace GlobalNamespace {
-struct MultiplayerGameState;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__ClearSelectedBeatmapRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__SetIsReadyRpc;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class IMenuRpcManager;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__CancelCountdownRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__SetSelectedGameplayModifiersRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__SetStartGameTimeRpc;
-}
-namespace GlobalNamespace {
-class __MenuRpcManager__GetPlayersPermissionConfigurationRpc;
 }
 namespace GlobalNamespace {
 class __MenuRpcManager__GetMultiplayerGameStateRpc;
 }
 namespace GlobalNamespace {
+class __MenuRpcManager__RecommendGameplayModifiersRpc;
+}
+namespace GlobalNamespace {
 class BeatmapIdentifierNetSerializable;
 }
 namespace GlobalNamespace {
-class __MenuRpcManager__LevelLoadSuccessRpc;
+struct CannotStartGameReason;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__InvalidateLevelEntitlementStatusesRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__StartLevelRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__GetPlayersPermissionConfigurationRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__SetSelectedGameplayModifiersRpc;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__ClearRecommendedBeatmapRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__GetIsEntitledToLevelRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__RecommendBeatmapRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__GetRecommendedBeatmapRpc;
 }
 namespace GlobalNamespace {
 class PlayersMissingEntitlementsNetSerializable;
 }
 namespace GlobalNamespace {
+class __MenuRpcManager__GetIsInLobbyRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__GetOwnedSongPacksRpc;
+}
+namespace GlobalNamespace {
+class IMenuRpcManager;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__SetIsEntitledToLevelRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__ClearSelectedBeatmapRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__SetStartGameTimeRpc;
+}
+namespace GlobalNamespace {
+struct __MenuRpcManager__RpcType;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__ClearRecommendedGameplayModifiersRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__SetIsInLobbyRpc;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__GetIsStartButtonEnabledRpc;
+}
+namespace GlobalNamespace {
+struct MultiplayerGameState;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__SetIsReadyRpc;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__SetSelectedBeatmapRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__SetOwnedSongPacksRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__RequestKickPlayerRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__GetStartedLevelRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__SetIsStartButtonEnabledRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__CancelCountdownRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__SetPlayersMissingEntitlementsToLevelRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__SetCountdownEndTimeRpc;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__SetMultiplayerGameStateRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__GetSelectedGameplayModifiersRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__GetCountdownEndTimeRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__ClearSelectedGameplayModifiersRpc;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__CancelLevelStartRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__CancelStartGameTimeRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__SetPlayersPermissionConfigurationRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__LevelLoadSuccessRpc;
+}
+namespace GlobalNamespace {
 class PlayersLobbyPermissionConfigurationNetSerializable;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__GetIsReadyRpc;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace GlobalNamespace {
+struct EntitlementsStatus;
+}
+namespace GlobalNamespace {
+template <typename TType> class RpcHandler_1;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__GetSelectedBeatmapRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__GetRecommendedGameplayModifiersRpc;
+}
+namespace GlobalNamespace {
+class __MenuRpcManager__SelectLevelPackRpc;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -367,7 +368,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MenuRpcManager__StartLevelRpc);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12833))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12750))
 // CS Name: ::MenuRpcManager::RpcType
 struct CORDL_TYPE __MenuRpcManager__RpcType {
 public:
@@ -561,20 +562,22 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManager__RpcType, 0x1>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MenuRpcManager__RpcType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::GetPlayersPermissionConfigurationRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12834))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12751))
 // CS Name: ::MenuRpcManager::GetPlayersPermissionConfigurationRpc*
 class CORDL_TYPE __MenuRpcManager__GetPlayersPermissionConfigurationRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetPlayersPermissionConfigurationRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe4923c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc2058 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__GetPlayersPermissionConfigurationRpc", modifiers: "&&", def_value: None }]
@@ -601,14 +604,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 4912 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15031))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12835)) CS Name: ::MenuRpcManager::SetPlayersPermissionConfigurationRpc*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst: 4812 }), TypeDefinitionIndex(TypeDefinitionIndex(15176)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12858))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12752)) CS Name: ::MenuRpcManager::SetPlayersPermissionConfigurationRpc*
 class CORDL_TYPE __MenuRpcManager__SetPlayersPermissionConfigurationRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetPlayersPermissionConfigurationRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe4924c size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc2068 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__SetPlayersPermissionConfigurationRpc", modifiers: "&&", def_value: None }]
@@ -635,14 +638,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 379 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12937))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12836)) CS Name: ::MenuRpcManager::SetPlayersMissingEntitlementsToLevelRpc*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12858)), TypeDefinitionIndex(TypeDefinitionIndex(15177)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst:
+// 375 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12753)) CS Name: ::MenuRpcManager::SetPlayersMissingEntitlementsToLevelRpc*
 class CORDL_TYPE __MenuRpcManager__SetPlayersMissingEntitlementsToLevelRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetPlayersMissingEntitlementsToLevelRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe49294 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc20b0 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__SetPlayersMissingEntitlementsToLevelRpc", modifiers: "&&", def_value: None }]
@@ -669,15 +672,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 397 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12837))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(12858))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12754))
 // CS Name: ::MenuRpcManager::GetIsEntitledToLevelRpc*
 class CORDL_TYPE __MenuRpcManager__GetIsEntitledToLevelRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::StringW> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetIsEntitledToLevelRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe492dc size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc20f8 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__GetIsEntitledToLevelRpc", modifiers: "&&", def_value: None }]
@@ -704,15 +707,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12938)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12938), inst: 1427 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12838))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12859), inst: 1377 }), TypeDefinitionIndex(TypeDefinitionIndex(12859))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12755))
 // CS Name: ::MenuRpcManager::SetIsEntitledToLevelRpc*
 class CORDL_TYPE __MenuRpcManager__SetIsEntitledToLevelRpc : public ::GlobalNamespace::RemoteProcedureCall_2<::StringW, int32_t> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetIsEntitledToLevelRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe49324 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc2140 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__SetIsEntitledToLevelRpc", modifiers: "&&", def_value: None }]
@@ -736,18 +739,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::InvalidateLevelEntitlementStatusesRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12839))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12756))
 // CS Name: ::MenuRpcManager::InvalidateLevelEntitlementStatusesRpc*
 class CORDL_TYPE __MenuRpcManager__InvalidateLevelEntitlementStatusesRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__InvalidateLevelEntitlementStatusesRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe4936c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc2188 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__InvalidateLevelEntitlementStatusesRpc", modifiers: "&&", def_value: None }]
@@ -774,15 +777,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 397 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12840))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12858)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst: 393 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12757))
 // CS Name: ::MenuRpcManager::SelectLevelPackRpc*
 class CORDL_TYPE __MenuRpcManager__SelectLevelPackRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::StringW> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SelectLevelPackRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe49374 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc2190 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__SelectLevelPackRpc", modifiers: "&&", def_value: None }]
@@ -809,14 +812,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14987)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 3265 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12937))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12841)) CS Name: ::MenuRpcManager::SetSelectedBeatmapRpc*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12858)), TypeDefinitionIndex(TypeDefinitionIndex(15135)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst:
+// 3198 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12758)) CS Name: ::MenuRpcManager::SetSelectedBeatmapRpc*
 class CORDL_TYPE __MenuRpcManager__SetSelectedBeatmapRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetSelectedBeatmapRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe493bc size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc21d8 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__SetSelectedBeatmapRpc", modifiers: "&&", def_value: None }]
@@ -840,18 +843,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::ClearSelectedBeatmapRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12842))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12759))
 // CS Name: ::MenuRpcManager::ClearSelectedBeatmapRpc*
 class CORDL_TYPE __MenuRpcManager__ClearSelectedBeatmapRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__ClearSelectedBeatmapRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe49404 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc2220 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__ClearSelectedBeatmapRpc", modifiers: "&&", def_value: None }]
@@ -875,18 +878,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::GetSelectedBeatmapRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12843))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12760))
 // CS Name: ::MenuRpcManager::GetSelectedBeatmapRpc*
 class CORDL_TYPE __MenuRpcManager__GetSelectedBeatmapRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetSelectedBeatmapRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe4940c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc2228 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__GetSelectedBeatmapRpc", modifiers: "&&", def_value: None }]
@@ -913,14 +916,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 3265 }), TypeDefinitionIndex(TypeDefinitionIndex(12937)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14987))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12844)) CS Name: ::MenuRpcManager::RecommendBeatmapRpc*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12858)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst: 3198 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(15135))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12761)) CS Name: ::MenuRpcManager::RecommendBeatmapRpc*
 class CORDL_TYPE __MenuRpcManager__RecommendBeatmapRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__RecommendBeatmapRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe49414 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc2230 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__RecommendBeatmapRpc", modifiers: "&&", def_value: None }]
@@ -944,18 +947,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::ClearRecommendedBeatmapRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12845))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12762))
 // CS Name: ::MenuRpcManager::ClearRecommendedBeatmapRpc*
 class CORDL_TYPE __MenuRpcManager__ClearRecommendedBeatmapRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__ClearRecommendedBeatmapRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe4945c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc2278 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__ClearRecommendedBeatmapRpc", modifiers: "&&", def_value: None }]
@@ -979,18 +982,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::GetRecommendedBeatmapRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12846))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12763))
 // CS Name: ::MenuRpcManager::GetRecommendedBeatmapRpc*
 class CORDL_TYPE __MenuRpcManager__GetRecommendedBeatmapRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetRecommendedBeatmapRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe49464 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc2280 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__GetRecommendedBeatmapRpc", modifiers: "&&", def_value: None }]
@@ -1017,14 +1020,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15002)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 312 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12937))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12847)) CS Name: ::MenuRpcManager::SetSelectedGameplayModifiersRpc*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst: 313 }), TypeDefinitionIndex(TypeDefinitionIndex(15149)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12858))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12764)) CS Name: ::MenuRpcManager::SetSelectedGameplayModifiersRpc*
 class CORDL_TYPE __MenuRpcManager__SetSelectedGameplayModifiersRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::GameplayModifiers*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetSelectedGameplayModifiersRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe4946c size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc2288 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__SetSelectedGameplayModifiersRpc", modifiers: "&&", def_value: None }]
@@ -1048,18 +1051,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::ClearSelectedGameplayModifiersRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12848))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12765))
 // CS Name: ::MenuRpcManager::ClearSelectedGameplayModifiersRpc*
 class CORDL_TYPE __MenuRpcManager__ClearSelectedGameplayModifiersRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__ClearSelectedGameplayModifiersRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe494b4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc22d0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__ClearSelectedGameplayModifiersRpc", modifiers: "&&", def_value: None }]
@@ -1083,18 +1086,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::GetSelectedGameplayModifiersRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12849))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12766))
 // CS Name: ::MenuRpcManager::GetSelectedGameplayModifiersRpc*
 class CORDL_TYPE __MenuRpcManager__GetSelectedGameplayModifiersRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetSelectedGameplayModifiersRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe494bc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc22d8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__GetSelectedGameplayModifiersRpc", modifiers: "&&", def_value: None }]
@@ -1121,14 +1124,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 312 }), TypeDefinitionIndex(TypeDefinitionIndex(12937)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15002))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12850)) CS Name: ::MenuRpcManager::RecommendGameplayModifiersRpc*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst: 313 }), TypeDefinitionIndex(TypeDefinitionIndex(12858)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15149))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12767)) CS Name: ::MenuRpcManager::RecommendGameplayModifiersRpc*
 class CORDL_TYPE __MenuRpcManager__RecommendGameplayModifiersRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::GameplayModifiers*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__RecommendGameplayModifiersRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe494c4 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc22e0 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__RecommendGameplayModifiersRpc", modifiers: "&&", def_value: None }]
@@ -1152,18 +1155,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::ClearRecommendedGameplayModifiersRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12851))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12768))
 // CS Name: ::MenuRpcManager::ClearRecommendedGameplayModifiersRpc*
 class CORDL_TYPE __MenuRpcManager__ClearRecommendedGameplayModifiersRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__ClearRecommendedGameplayModifiersRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe4950c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc2328 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__ClearRecommendedGameplayModifiersRpc", modifiers: "&&", def_value: None }]
@@ -1187,18 +1190,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::GetRecommendedGameplayModifiersRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12852))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12769))
 // CS Name: ::MenuRpcManager::GetRecommendedGameplayModifiersRpc*
 class CORDL_TYPE __MenuRpcManager__GetRecommendedGameplayModifiersRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetRecommendedGameplayModifiersRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe49514 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc2330 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__GetRecommendedGameplayModifiersRpc", modifiers: "&&", def_value: None }]
@@ -1222,18 +1225,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::GetIsStartButtonEnabledRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12853))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12770))
 // CS Name: ::MenuRpcManager::GetIsStartButtonEnabledRpc*
 class CORDL_TYPE __MenuRpcManager__GetIsStartButtonEnabledRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetIsStartButtonEnabledRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe4951c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc2338 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__GetIsStartButtonEnabledRpc", modifiers: "&&", def_value: None }]
@@ -1260,14 +1263,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 291 }), TypeDefinitionIndex(TypeDefinitionIndex(12688)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12937))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12854)) CS Name: ::MenuRpcManager::SetIsStartButtonEnabledRpc*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12616)), TypeDefinitionIndex(TypeDefinitionIndex(12858)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst:
+// 292 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12771)) CS Name: ::MenuRpcManager::SetIsStartButtonEnabledRpc*
 class CORDL_TYPE __MenuRpcManager__SetIsStartButtonEnabledRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::CannotStartGameReason> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetIsStartButtonEnabledRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe49524 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc2340 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__SetIsStartButtonEnabledRpc", modifiers: "&&", def_value: None }]
@@ -1294,15 +1297,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 397 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12855))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12858)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst: 393 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12772))
 // CS Name: ::MenuRpcManager::LevelLoadErrorRpc*
 class CORDL_TYPE __MenuRpcManager__LevelLoadErrorRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::StringW> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__LevelLoadErrorRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe4956c size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc2388 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__LevelLoadErrorRpc", modifiers: "&&", def_value: None }]
@@ -1329,15 +1332,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(12937))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12856))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12858)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst: 393 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12773))
 // CS Name: ::MenuRpcManager::LevelLoadSuccessRpc*
 class CORDL_TYPE __MenuRpcManager__LevelLoadSuccessRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::StringW> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__LevelLoadSuccessRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe495b4 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc23d0 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__LevelLoadSuccessRpc", modifiers: "&&", def_value: None }]
@@ -1364,15 +1367,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12939)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12939), inst: 4929 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14987)), TypeDefinitionIndex(TypeDefinitionIndex(15002))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12857)) CS Name: ::MenuRpcManager::StartLevelRpc*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12860), inst: 4829 }), TypeDefinitionIndex(TypeDefinitionIndex(15135)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15149)), TypeDefinitionIndex(TypeDefinitionIndex(12860))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12774)) CS Name: ::MenuRpcManager::StartLevelRpc*
 class CORDL_TYPE __MenuRpcManager__StartLevelRpc
-    : public ::GlobalNamespace::RemoteProcedureCall_3<::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t> {
+    : public ::GlobalNamespace::RemoteProcedureCall_3<::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, float_t> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__StartLevelRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe495fc size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc2418 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__StartLevelRpc", modifiers: "&&", def_value: None }]
@@ -1396,18 +1399,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::GetStartedLevelRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12858))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12775))
 // CS Name: ::MenuRpcManager::GetStartedLevelRpc*
 class CORDL_TYPE __MenuRpcManager__GetStartedLevelRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetStartedLevelRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe49644 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc2460 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__GetStartedLevelRpc", modifiers: "&&", def_value: None }]
@@ -1431,18 +1434,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::GetMultiplayerGameStateRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12859))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12776))
 // CS Name: ::MenuRpcManager::GetMultiplayerGameStateRpc*
 class CORDL_TYPE __MenuRpcManager__GetMultiplayerGameStateRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetMultiplayerGameStateRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe4964c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc2468 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__GetMultiplayerGameStateRpc", modifiers: "&&", def_value: None }]
@@ -1469,14 +1472,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), TypeDefinitionIndex(TypeDefinitionIndex(12880)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst:
-// 357 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12860)) CS Name: ::MenuRpcManager::SetMultiplayerGameStateRpc*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12858)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst: 354 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(12803))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12777)) CS Name: ::MenuRpcManager::SetMultiplayerGameStateRpc*
 class CORDL_TYPE __MenuRpcManager__SetMultiplayerGameStateRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::MultiplayerGameState> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetMultiplayerGameStateRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe49654 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc2470 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__SetMultiplayerGameStateRpc", modifiers: "&&", def_value: None }]
@@ -1500,18 +1503,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::CancelCountdownRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12861))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12778))
 // CS Name: ::MenuRpcManager::CancelCountdownRpc*
 class CORDL_TYPE __MenuRpcManager__CancelCountdownRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__CancelCountdownRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe4969c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc24b8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__CancelCountdownRpc", modifiers: "&&", def_value: None }]
@@ -1538,15 +1541,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 333 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12862))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12858)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst: 387 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12779))
 // CS Name: ::MenuRpcManager::SetCountdownEndTimeRpc*
-class CORDL_TYPE __MenuRpcManager__SetCountdownEndTimeRpc : public ::GlobalNamespace::RemoteProcedureCall_1<int64_t> {
+class CORDL_TYPE __MenuRpcManager__SetCountdownEndTimeRpc : public ::GlobalNamespace::RemoteProcedureCall_1<float_t> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetCountdownEndTimeRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe496a4 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc24c0 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__SetCountdownEndTimeRpc", modifiers: "&&", def_value: None }]
@@ -1570,18 +1573,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::GetCountdownEndTimeRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12863))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12780))
 // CS Name: ::MenuRpcManager::GetCountdownEndTimeRpc*
 class CORDL_TYPE __MenuRpcManager__GetCountdownEndTimeRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetCountdownEndTimeRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe496ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc2508 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__GetCountdownEndTimeRpc", modifiers: "&&", def_value: None }]
@@ -1605,18 +1608,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::CancelLevelStartRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12864))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12781))
 // CS Name: ::MenuRpcManager::CancelLevelStartRpc*
 class CORDL_TYPE __MenuRpcManager__CancelLevelStartRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__CancelLevelStartRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe496f4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc2510 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__CancelLevelStartRpc", modifiers: "&&", def_value: None }]
@@ -1640,18 +1643,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::GetIsReadyRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12865))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12782))
 // CS Name: ::MenuRpcManager::GetIsReadyRpc*
 class CORDL_TYPE __MenuRpcManager__GetIsReadyRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetIsReadyRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe496fc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc2518 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__GetIsReadyRpc", modifiers: "&&", def_value: None }]
@@ -1678,15 +1681,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 105 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12866))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12858)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst: 112 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12783))
 // CS Name: ::MenuRpcManager::SetIsReadyRpc*
 class CORDL_TYPE __MenuRpcManager__SetIsReadyRpc : public ::GlobalNamespace::RemoteProcedureCall_1<bool> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetIsReadyRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe49704 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc2520 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__SetIsReadyRpc", modifiers: "&&", def_value: None }]
@@ -1713,15 +1716,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 333 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12867))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst: 387 }), TypeDefinitionIndex(TypeDefinitionIndex(12858))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12784))
 // CS Name: ::MenuRpcManager::SetStartGameTimeRpc*
-class CORDL_TYPE __MenuRpcManager__SetStartGameTimeRpc : public ::GlobalNamespace::RemoteProcedureCall_1<int64_t> {
+class CORDL_TYPE __MenuRpcManager__SetStartGameTimeRpc : public ::GlobalNamespace::RemoteProcedureCall_1<float_t> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetStartGameTimeRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe4974c size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc2568 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__SetStartGameTimeRpc", modifiers: "&&", def_value: None }]
@@ -1745,18 +1748,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::CancelStartGameTimeRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12868))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12785))
 // CS Name: ::MenuRpcManager::CancelStartGameTimeRpc*
 class CORDL_TYPE __MenuRpcManager__CancelStartGameTimeRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__CancelStartGameTimeRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe49794 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc25b0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__CancelStartGameTimeRpc", modifiers: "&&", def_value: None }]
@@ -1780,18 +1783,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::GetIsInLobbyRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12869))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12786))
 // CS Name: ::MenuRpcManager::GetIsInLobbyRpc*
 class CORDL_TYPE __MenuRpcManager__GetIsInLobbyRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetIsInLobbyRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe4979c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc25b8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__GetIsInLobbyRpc", modifiers: "&&", def_value: None }]
@@ -1818,15 +1821,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 105 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12870))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst: 112 }), TypeDefinitionIndex(TypeDefinitionIndex(12858))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12787))
 // CS Name: ::MenuRpcManager::SetIsInLobbyRpc*
 class CORDL_TYPE __MenuRpcManager__SetIsInLobbyRpc : public ::GlobalNamespace::RemoteProcedureCall_1<bool> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetIsInLobbyRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe497a4 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc25c0 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__SetIsInLobbyRpc", modifiers: "&&", def_value: None }]
@@ -1850,18 +1853,18 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 
 } // namespace GlobalNamespace
 // Type: ::GetOwnedSongPacksRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12871))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12788))
 // CS Name: ::MenuRpcManager::GetOwnedSongPacksRpc*
 class CORDL_TYPE __MenuRpcManager__GetOwnedSongPacksRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetOwnedSongPacksRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe497ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc2608 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__GetOwnedSongPacksRpc", modifiers: "&&", def_value: None }]
@@ -1888,14 +1891,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 3352 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15047))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12872)) CS Name: ::MenuRpcManager::SetOwnedSongPacksRpc*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15192)), TypeDefinitionIndex(TypeDefinitionIndex(12858)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst:
+// 3277 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12789)) CS Name: ::MenuRpcManager::SetOwnedSongPacksRpc*
 class CORDL_TYPE __MenuRpcManager__SetOwnedSongPacksRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::SongPackMask> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetOwnedSongPacksRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe497f4 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc2610 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__SetOwnedSongPacksRpc", modifiers: "&&", def_value: None }]
@@ -1922,15 +1925,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(12937))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12873))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12858)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12858), inst: 393 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12790))
 // CS Name: ::MenuRpcManager::RequestKickPlayerRpc*
 class CORDL_TYPE __MenuRpcManager__RequestKickPlayerRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::StringW> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__RequestKickPlayerRpc* New_ctor();
 
-  /// @brief Method .ctor addr 0xe4983c size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xdc2658 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuRpcManager__RequestKickPlayerRpc", modifiers: "&&", def_value: None }]
@@ -1957,8 +1960,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12874))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12791))
 // CS Name: ::MenuRpcManager*
 class CORDL_TYPE MenuRpcManager : public ::System::Object {
 public:
@@ -2133,7 +2136,7 @@ public:
   /// @brief Field startedLevelEvent, offset 0xd8, size 0x8
   __declspec(
       property(get = __get_startedLevelEvent,
-               put = __set_startedLevelEvent))::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* startedLevelEvent;
+               put = __set_startedLevelEvent))::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, float_t>* startedLevelEvent;
 
   /// @brief Field getStartedLevelEvent, offset 0xe0, size 0x8
   __declspec(property(get = __get_getStartedLevelEvent, put = __set_getStartedLevelEvent))::System::Action_1<::StringW>* getStartedLevelEvent;
@@ -2149,7 +2152,7 @@ public:
   __declspec(property(get = __get_cancelCountdownEvent, put = __set_cancelCountdownEvent))::System::Action_1<::StringW>* cancelCountdownEvent;
 
   /// @brief Field setCountdownEndTimeEvent, offset 0x100, size 0x8
-  __declspec(property(get = __get_setCountdownEndTimeEvent, put = __set_setCountdownEndTimeEvent))::System::Action_2<::StringW, int64_t>* setCountdownEndTimeEvent;
+  __declspec(property(get = __get_setCountdownEndTimeEvent, put = __set_setCountdownEndTimeEvent))::System::Action_2<::StringW, float_t>* setCountdownEndTimeEvent;
 
   /// @brief Field getCountdownEndTimeEvent, offset 0x108, size 0x8
   __declspec(property(get = __get_getCountdownEndTimeEvent, put = __set_getCountdownEndTimeEvent))::System::Action_1<::StringW>* getCountdownEndTimeEvent;
@@ -2164,7 +2167,7 @@ public:
   __declspec(property(get = __get_setIsReadyEvent, put = __set_setIsReadyEvent))::System::Action_2<::StringW, bool>* setIsReadyEvent;
 
   /// @brief Field setStartGameTimeEvent, offset 0x128, size 0x8
-  __declspec(property(get = __get_setStartGameTimeEvent, put = __set_setStartGameTimeEvent))::System::Action_2<::StringW, int64_t>* setStartGameTimeEvent;
+  __declspec(property(get = __get_setStartGameTimeEvent, put = __set_setStartGameTimeEvent))::System::Action_2<::StringW, float_t>* setStartGameTimeEvent;
 
   /// @brief Field cancelStartGameTimeEvent, offset 0x130, size 0x8
   __declspec(property(get = __get_cancelStartGameTimeEvent, put = __set_cancelStartGameTimeEvent))::System::Action_1<::StringW>* cancelStartGameTimeEvent;
@@ -2190,7 +2193,7 @@ public:
 
   __declspec(property(get = get_enabledForAllPlayers)) bool enabledForAllPlayers;
 
-  __declspec(property(get = get_syncTime)) int64_t syncTime;
+  __declspec(property(get = get_syncTime)) float_t syncTime;
 
   /// @brief Convert operator to "::GlobalNamespace::IMenuRpcManager"
   constexpr operator ::GlobalNamespace::IMenuRpcManager*() noexcept;
@@ -2350,12 +2353,12 @@ public:
 
   constexpr void __set_levelLoadSuccessEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  constexpr ::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>*& __get_startedLevelEvent();
+  constexpr ::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, float_t>*& __get_startedLevelEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>*> const&
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, float_t>*> const&
   __get_startedLevelEvent() const;
 
-  constexpr void __set_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* value);
+  constexpr void __set_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, float_t>* value);
 
   constexpr ::System::Action_1<::StringW>*& __get_getStartedLevelEvent();
 
@@ -2381,11 +2384,11 @@ public:
 
   constexpr void __set_cancelCountdownEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_2<::StringW, int64_t>*& __get_setCountdownEndTimeEvent();
+  constexpr ::System::Action_2<::StringW, float_t>*& __get_setCountdownEndTimeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, int64_t>*> const& __get_setCountdownEndTimeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, float_t>*> const& __get_setCountdownEndTimeEvent() const;
 
-  constexpr void __set_setCountdownEndTimeEvent(::System::Action_2<::StringW, int64_t>* value);
+  constexpr void __set_setCountdownEndTimeEvent(::System::Action_2<::StringW, float_t>* value);
 
   constexpr ::System::Action_1<::StringW>*& __get_getCountdownEndTimeEvent();
 
@@ -2411,11 +2414,11 @@ public:
 
   constexpr void __set_setIsReadyEvent(::System::Action_2<::StringW, bool>* value);
 
-  constexpr ::System::Action_2<::StringW, int64_t>*& __get_setStartGameTimeEvent();
+  constexpr ::System::Action_2<::StringW, float_t>*& __get_setStartGameTimeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, int64_t>*> const& __get_setStartGameTimeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, float_t>*> const& __get_setStartGameTimeEvent() const;
 
-  constexpr void __set_setStartGameTimeEvent(::System::Action_2<::StringW, int64_t>* value);
+  constexpr void __set_setStartGameTimeEvent(::System::Action_2<::StringW, float_t>* value);
 
   constexpr ::System::Action_1<::StringW>*& __get_cancelStartGameTimeEvent();
 
@@ -2453,510 +2456,510 @@ public:
 
   constexpr void __set_requestedKickPlayerEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method get_multiplayerSessionManager addr 0xe43278 size 0x8 virtual false final false
+  /// @brief Method get_multiplayerSessionManager addr 0xdbc1f8 size 0x8 virtual false final false
   inline ::GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();
 
-  /// @brief Method get_enabled addr 0xe43280 size 0xc0 virtual false final false
+  /// @brief Method get_enabled addr 0xdbc200 size 0xc0 virtual false final false
   inline bool get_enabled();
 
-  /// @brief Method set_enabled addr 0xe43340 size 0xc8 virtual false final false
+  /// @brief Method set_enabled addr 0xdbc2c0 size 0xc8 virtual false final false
   inline void set_enabled(bool value);
 
-  /// @brief Method get_enabledForAllPlayers addr 0xe43408 size 0x1dc virtual false final false
+  /// @brief Method get_enabledForAllPlayers addr 0xdbc388 size 0x1dc virtual false final false
   inline bool get_enabledForAllPlayers();
 
-  /// @brief Method get_syncTime addr 0xe435e4 size 0xa4 virtual true final true
-  inline int64_t get_syncTime();
+  /// @brief Method get_syncTime addr 0xdbc564 size 0xa4 virtual true final true
+  inline float_t get_syncTime();
 
   static inline ::GlobalNamespace::MenuRpcManager* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method .ctor addr 0xe43688 size 0x1150 virtual false final false
+  /// @brief Method .ctor addr 0xdb6a68 size 0x1150 virtual false final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method Dispose addr 0xe447d8 size 0x5c virtual true final true
+  /// @brief Method Dispose addr 0xdbc608 size 0x5c virtual true final true
   inline void Dispose();
 
-  /// @brief Method EnabledForPlayer addr 0xe44834 size 0xbc virtual false final false
+  /// @brief Method EnabledForPlayer addr 0xdbc664 size 0xbc virtual false final false
   inline bool EnabledForPlayer(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method add_getPlayersPermissionConfigurationEvent addr 0xe448f0 size 0xb0 virtual true final true
+  /// @brief Method add_getPlayersPermissionConfigurationEvent addr 0xdbc720 size 0xb0 virtual true final true
   inline void add_getPlayersPermissionConfigurationEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getPlayersPermissionConfigurationEvent addr 0xe449a0 size 0xb0 virtual true final true
+  /// @brief Method remove_getPlayersPermissionConfigurationEvent addr 0xdbc7d0 size 0xb0 virtual true final true
   inline void remove_getPlayersPermissionConfigurationEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method GetPlayersPermissionConfiguration addr 0xe44a50 size 0x50 virtual true final true
+  /// @brief Method GetPlayersPermissionConfiguration addr 0xdbc880 size 0x50 virtual true final true
   inline void GetPlayersPermissionConfiguration();
 
-  /// @brief Method InvokeGetPlayersPermissionConfiguration addr 0xe44aa0 size 0x1c virtual false final false
+  /// @brief Method InvokeGetPlayersPermissionConfiguration addr 0xdbc8d0 size 0x1c virtual false final false
   inline void InvokeGetPlayersPermissionConfiguration(::StringW userId);
 
-  /// @brief Method add_setPlayersPermissionConfigurationEvent addr 0xe44abc size 0xb0 virtual true final true
+  /// @brief Method add_setPlayersPermissionConfigurationEvent addr 0xdbc8ec size 0xb0 virtual true final true
   inline void add_setPlayersPermissionConfigurationEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* value);
 
-  /// @brief Method remove_setPlayersPermissionConfigurationEvent addr 0xe44b6c size 0xb0 virtual true final true
+  /// @brief Method remove_setPlayersPermissionConfigurationEvent addr 0xdbc99c size 0xb0 virtual true final true
   inline void remove_setPlayersPermissionConfigurationEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* value);
 
-  /// @brief Method SetPlayersPermissionConfiguration addr 0xe44c1c size 0x58 virtual true final true
+  /// @brief Method SetPlayersPermissionConfiguration addr 0xdbca4c size 0x58 virtual true final true
   inline void SetPlayersPermissionConfiguration(::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersPermissionConfiguration);
 
-  /// @brief Method InvokeSetPlayersPermissionConfiguration addr 0xe44c74 size 0x1c virtual false final false
+  /// @brief Method InvokeSetPlayersPermissionConfiguration addr 0xdbcaa4 size 0x1c virtual false final false
   inline void InvokeSetPlayersPermissionConfiguration(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersPermissionConfiguration);
 
-  /// @brief Method add_setPlayersMissingEntitlementsToLevelEvent addr 0xe44c90 size 0xb0 virtual true final true
+  /// @brief Method add_setPlayersMissingEntitlementsToLevelEvent addr 0xdbcac0 size 0xb0 virtual true final true
   inline void add_setPlayersMissingEntitlementsToLevelEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
 
-  /// @brief Method remove_setPlayersMissingEntitlementsToLevelEvent addr 0xe44d40 size 0xb0 virtual true final true
+  /// @brief Method remove_setPlayersMissingEntitlementsToLevelEvent addr 0xdbcb70 size 0xb0 virtual true final true
   inline void remove_setPlayersMissingEntitlementsToLevelEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
 
-  /// @brief Method SetPlayersMissingEntitlementsToLevel addr 0xe44df0 size 0x58 virtual true final true
+  /// @brief Method SetPlayersMissingEntitlementsToLevel addr 0xdbcc20 size 0x58 virtual true final true
   inline void SetPlayersMissingEntitlementsToLevel(::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* playersMissingEntitlements);
 
-  /// @brief Method InvokeSetPlayersMissingEntitlementsToLevelRpc addr 0xe44e48 size 0x1c virtual false final false
+  /// @brief Method InvokeSetPlayersMissingEntitlementsToLevelRpc addr 0xdbcc78 size 0x1c virtual false final false
   inline void InvokeSetPlayersMissingEntitlementsToLevelRpc(::StringW userId, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* playersMissingEntitlements);
 
-  /// @brief Method add_getIsEntitledToLevelEvent addr 0xe44e64 size 0xb0 virtual true final true
+  /// @brief Method add_getIsEntitledToLevelEvent addr 0xdbcc94 size 0xb0 virtual true final true
   inline void add_getIsEntitledToLevelEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method remove_getIsEntitledToLevelEvent addr 0xe44f14 size 0xb0 virtual true final true
+  /// @brief Method remove_getIsEntitledToLevelEvent addr 0xdbcd44 size 0xb0 virtual true final true
   inline void remove_getIsEntitledToLevelEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method GetIsEntitledToLevel addr 0xe44fc4 size 0x58 virtual true final true
+  /// @brief Method GetIsEntitledToLevel addr 0xdbcdf4 size 0x58 virtual true final true
   inline void GetIsEntitledToLevel(::StringW levelId);
 
-  /// @brief Method InvokeGetIsEntitledToLevel addr 0xe4501c size 0x1c virtual false final false
+  /// @brief Method InvokeGetIsEntitledToLevel addr 0xdbce4c size 0x1c virtual false final false
   inline void InvokeGetIsEntitledToLevel(::StringW userId, ::StringW levelId);
 
-  /// @brief Method add_setIsEntitledToLevelEvent addr 0xe45038 size 0xb0 virtual true final true
+  /// @brief Method add_setIsEntitledToLevelEvent addr 0xdbce68 size 0xb0 virtual true final true
   inline void add_setIsEntitledToLevelEvent(::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>* value);
 
-  /// @brief Method remove_setIsEntitledToLevelEvent addr 0xe450e8 size 0xb0 virtual true final true
+  /// @brief Method remove_setIsEntitledToLevelEvent addr 0xdbcf18 size 0xb0 virtual true final true
   inline void remove_setIsEntitledToLevelEvent(::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>* value);
 
-  /// @brief Method SetIsEntitledToLevel addr 0xe45198 size 0x68 virtual true final true
+  /// @brief Method SetIsEntitledToLevel addr 0xdbcfc8 size 0x68 virtual true final true
   inline void SetIsEntitledToLevel(::StringW levelId, ::GlobalNamespace::EntitlementsStatus entitlementStatus);
 
-  /// @brief Method InvokeSetIsEntitledToLevel addr 0xe45200 size 0x1c virtual false final false
+  /// @brief Method InvokeSetIsEntitledToLevel addr 0xdbd030 size 0x1c virtual false final false
   inline void InvokeSetIsEntitledToLevel(::StringW userId, ::StringW levelId, int32_t entitlementStatus);
 
-  /// @brief Method add_levelEntitlementStatusesInvalidatedEvent addr 0xe4521c size 0xb0 virtual true final true
+  /// @brief Method add_levelEntitlementStatusesInvalidatedEvent addr 0xdbd04c size 0xb0 virtual true final true
   inline void add_levelEntitlementStatusesInvalidatedEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_levelEntitlementStatusesInvalidatedEvent addr 0xe452cc size 0xb0 virtual true final true
+  /// @brief Method remove_levelEntitlementStatusesInvalidatedEvent addr 0xdbd0fc size 0xb0 virtual true final true
   inline void remove_levelEntitlementStatusesInvalidatedEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method InvalidateLevelEntitlementStatuses addr 0xe4537c size 0x50 virtual true final true
+  /// @brief Method InvalidateLevelEntitlementStatuses addr 0xdbd1ac size 0x50 virtual true final true
   inline void InvalidateLevelEntitlementStatuses();
 
-  /// @brief Method InvokeLevelEntitlementStatusesInvalidated addr 0xe453cc size 0x1c virtual false final false
+  /// @brief Method InvokeLevelEntitlementStatusesInvalidated addr 0xdbd1fc size 0x1c virtual false final false
   inline void InvokeLevelEntitlementStatusesInvalidated(::StringW userId);
 
-  /// @brief Method add_selectedLevelPackEvent addr 0xe453e8 size 0xb0 virtual false final false
+  /// @brief Method add_selectedLevelPackEvent addr 0xdbd218 size 0xb0 virtual false final false
   inline void add_selectedLevelPackEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method remove_selectedLevelPackEvent addr 0xe45498 size 0xb0 virtual false final false
+  /// @brief Method remove_selectedLevelPackEvent addr 0xdbd2c8 size 0xb0 virtual false final false
   inline void remove_selectedLevelPackEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method SelectLevelPack addr 0xe45548 size 0x58 virtual false final false
+  /// @brief Method SelectLevelPack addr 0xdbd378 size 0x58 virtual false final false
   inline void SelectLevelPack(::StringW levelPackId);
 
-  /// @brief Method InvokeOnSelectedLevelPackEvent addr 0xe455a0 size 0x1c virtual false final false
+  /// @brief Method InvokeOnSelectedLevelPackEvent addr 0xdbd3d0 size 0x1c virtual false final false
   inline void InvokeOnSelectedLevelPackEvent(::StringW userId, ::StringW levelPackId);
 
-  /// @brief Method add_setSelectedBeatmapEvent addr 0xe455bc size 0xb0 virtual true final true
+  /// @brief Method add_setSelectedBeatmapEvent addr 0xdbd3ec size 0xb0 virtual true final true
   inline void add_setSelectedBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
 
-  /// @brief Method remove_setSelectedBeatmapEvent addr 0xe4566c size 0xb0 virtual true final true
+  /// @brief Method remove_setSelectedBeatmapEvent addr 0xdbd49c size 0xb0 virtual true final true
   inline void remove_setSelectedBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
 
-  /// @brief Method SetSelectedBeatmap addr 0xe4571c size 0x58 virtual true final true
+  /// @brief Method SetSelectedBeatmap addr 0xdbd54c size 0x58 virtual true final true
   inline void SetSelectedBeatmap(::GlobalNamespace::BeatmapIdentifierNetSerializable* identifier);
 
-  /// @brief Method InvokeSetSelectedBeatmap addr 0xe45774 size 0x1c virtual false final false
+  /// @brief Method InvokeSetSelectedBeatmap addr 0xdbd5a4 size 0x1c virtual false final false
   inline void InvokeSetSelectedBeatmap(::StringW userId, ::GlobalNamespace::BeatmapIdentifierNetSerializable* identifier);
 
-  /// @brief Method add_clearSelectedBeatmapEvent addr 0xe45790 size 0xb0 virtual true final true
+  /// @brief Method add_clearSelectedBeatmapEvent addr 0xdbd5c0 size 0xb0 virtual true final true
   inline void add_clearSelectedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_clearSelectedBeatmapEvent addr 0xe45840 size 0xb0 virtual true final true
+  /// @brief Method remove_clearSelectedBeatmapEvent addr 0xdbd670 size 0xb0 virtual true final true
   inline void remove_clearSelectedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method ClearSelectedBeatmap addr 0xe458f0 size 0x50 virtual false final false
+  /// @brief Method ClearSelectedBeatmap addr 0xdbd720 size 0x50 virtual false final false
   inline void ClearSelectedBeatmap();
 
-  /// @brief Method InvokeClearSelectedBeatmap addr 0xe45940 size 0x1c virtual false final false
+  /// @brief Method InvokeClearSelectedBeatmap addr 0xdbd770 size 0x1c virtual false final false
   inline void InvokeClearSelectedBeatmap(::StringW userId);
 
-  /// @brief Method add_getSelectedBeatmapEvent addr 0xe4595c size 0xb0 virtual true final true
+  /// @brief Method add_getSelectedBeatmapEvent addr 0xdbd78c size 0xb0 virtual true final true
   inline void add_getSelectedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getSelectedBeatmapEvent addr 0xe45a0c size 0xb0 virtual true final true
+  /// @brief Method remove_getSelectedBeatmapEvent addr 0xdbd83c size 0xb0 virtual true final true
   inline void remove_getSelectedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method GetSelectedBeatmap addr 0xe45abc size 0x50 virtual true final true
+  /// @brief Method GetSelectedBeatmap addr 0xdbd8ec size 0x50 virtual true final true
   inline void GetSelectedBeatmap();
 
-  /// @brief Method InvokeGetSelectedBeatmapRpc addr 0xe45b0c size 0x1c virtual false final false
+  /// @brief Method InvokeGetSelectedBeatmapRpc addr 0xdbd93c size 0x1c virtual false final false
   inline void InvokeGetSelectedBeatmapRpc(::StringW userId);
 
-  /// @brief Method add_recommendBeatmapEvent addr 0xe45b28 size 0xb0 virtual true final true
+  /// @brief Method add_recommendBeatmapEvent addr 0xdbd958 size 0xb0 virtual true final true
   inline void add_recommendBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
 
-  /// @brief Method remove_recommendBeatmapEvent addr 0xe45bd8 size 0xb0 virtual true final true
+  /// @brief Method remove_recommendBeatmapEvent addr 0xdbda08 size 0xb0 virtual true final true
   inline void remove_recommendBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
 
-  /// @brief Method RecommendBeatmap addr 0xe45c88 size 0x58 virtual true final true
+  /// @brief Method RecommendBeatmap addr 0xdbdab8 size 0x58 virtual true final true
   inline void RecommendBeatmap(::GlobalNamespace::BeatmapIdentifierNetSerializable* identifier);
 
-  /// @brief Method InvokeRecommendBeatmap addr 0xe45ce0 size 0x1c virtual false final false
+  /// @brief Method InvokeRecommendBeatmap addr 0xdbdb10 size 0x1c virtual false final false
   inline void InvokeRecommendBeatmap(::StringW userId, ::GlobalNamespace::BeatmapIdentifierNetSerializable* identifier);
 
-  /// @brief Method add_clearRecommendedBeatmapEvent addr 0xe45cfc size 0xb0 virtual true final true
+  /// @brief Method add_clearRecommendedBeatmapEvent addr 0xdbdb2c size 0xb0 virtual true final true
   inline void add_clearRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_clearRecommendedBeatmapEvent addr 0xe45dac size 0xb0 virtual true final true
+  /// @brief Method remove_clearRecommendedBeatmapEvent addr 0xdbdbdc size 0xb0 virtual true final true
   inline void remove_clearRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method ClearRecommendedBeatmap addr 0xe45e5c size 0x50 virtual true final true
+  /// @brief Method ClearRecommendedBeatmap addr 0xdbdc8c size 0x50 virtual true final true
   inline void ClearRecommendedBeatmap();
 
-  /// @brief Method InvokeClearRecommendedBeatmap addr 0xe45eac size 0x1c virtual false final false
+  /// @brief Method InvokeClearRecommendedBeatmap addr 0xdbdcdc size 0x1c virtual false final false
   inline void InvokeClearRecommendedBeatmap(::StringW userId);
 
-  /// @brief Method add_getRecommendedBeatmapEvent addr 0xe45ec8 size 0xb0 virtual true final true
+  /// @brief Method add_getRecommendedBeatmapEvent addr 0xdbdcf8 size 0xb0 virtual true final true
   inline void add_getRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getRecommendedBeatmapEvent addr 0xe45f78 size 0xb0 virtual true final true
+  /// @brief Method remove_getRecommendedBeatmapEvent addr 0xdbdda8 size 0xb0 virtual true final true
   inline void remove_getRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method GetRecommendedBeatmap addr 0xe46028 size 0x50 virtual true final true
+  /// @brief Method GetRecommendedBeatmap addr 0xdbde58 size 0x50 virtual true final true
   inline void GetRecommendedBeatmap();
 
-  /// @brief Method InvokeGetRecommendedBeatmap addr 0xe46078 size 0x1c virtual false final false
+  /// @brief Method InvokeGetRecommendedBeatmap addr 0xdbdea8 size 0x1c virtual false final false
   inline void InvokeGetRecommendedBeatmap(::StringW userId);
 
-  /// @brief Method add_setSelectedGameplayModifiersEvent addr 0xe46094 size 0xb0 virtual true final true
+  /// @brief Method add_setSelectedGameplayModifiersEvent addr 0xdbdec4 size 0xb0 virtual true final true
   inline void add_setSelectedGameplayModifiersEvent(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method remove_setSelectedGameplayModifiersEvent addr 0xe46144 size 0xb0 virtual true final true
+  /// @brief Method remove_setSelectedGameplayModifiersEvent addr 0xdbdf74 size 0xb0 virtual true final true
   inline void remove_setSelectedGameplayModifiersEvent(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method SetSelectedGameplayModifiers addr 0xe461f4 size 0x58 virtual true final true
+  /// @brief Method SetSelectedGameplayModifiers addr 0xdbe024 size 0x58 virtual true final true
   inline void SetSelectedGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method InvokeSetSelectedGameplayModifiers addr 0xe4624c size 0x1c virtual false final false
+  /// @brief Method InvokeSetSelectedGameplayModifiers addr 0xdbe07c size 0x1c virtual false final false
   inline void InvokeSetSelectedGameplayModifiers(::StringW userId, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method add_clearSelectedGameplayModifiersEvent addr 0xe46268 size 0xb0 virtual true final true
+  /// @brief Method add_clearSelectedGameplayModifiersEvent addr 0xdbe098 size 0xb0 virtual true final true
   inline void add_clearSelectedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_clearSelectedGameplayModifiersEvent addr 0xe46318 size 0xb0 virtual true final true
+  /// @brief Method remove_clearSelectedGameplayModifiersEvent addr 0xdbe148 size 0xb0 virtual true final true
   inline void remove_clearSelectedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method ClearSelectedGameplayModifiers addr 0xe463c8 size 0x50 virtual false final false
+  /// @brief Method ClearSelectedGameplayModifiers addr 0xdbe1f8 size 0x50 virtual false final false
   inline void ClearSelectedGameplayModifiers();
 
-  /// @brief Method InvokeClearSelectedGameplayModifiers addr 0xe46418 size 0x1c virtual false final false
+  /// @brief Method InvokeClearSelectedGameplayModifiers addr 0xdbe248 size 0x1c virtual false final false
   inline void InvokeClearSelectedGameplayModifiers(::StringW userId);
 
-  /// @brief Method add_getSelectedGameplayModifiersEvent addr 0xe46434 size 0xb0 virtual true final true
+  /// @brief Method add_getSelectedGameplayModifiersEvent addr 0xdbe264 size 0xb0 virtual true final true
   inline void add_getSelectedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getSelectedGameplayModifiersEvent addr 0xe464e4 size 0xb0 virtual true final true
+  /// @brief Method remove_getSelectedGameplayModifiersEvent addr 0xdbe314 size 0xb0 virtual true final true
   inline void remove_getSelectedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method GetSelectedGameplayModifiers addr 0xe46594 size 0x50 virtual true final true
+  /// @brief Method GetSelectedGameplayModifiers addr 0xdbe3c4 size 0x50 virtual true final true
   inline void GetSelectedGameplayModifiers();
 
-  /// @brief Method InvokeGetSelectedGameplayModifiers addr 0xe465e4 size 0x1c virtual false final false
+  /// @brief Method InvokeGetSelectedGameplayModifiers addr 0xdbe414 size 0x1c virtual false final false
   inline void InvokeGetSelectedGameplayModifiers(::StringW userId);
 
-  /// @brief Method add_recommendGameplayModifiersEvent addr 0xe46600 size 0xb0 virtual true final true
+  /// @brief Method add_recommendGameplayModifiersEvent addr 0xdbe430 size 0xb0 virtual true final true
   inline void add_recommendGameplayModifiersEvent(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method remove_recommendGameplayModifiersEvent addr 0xe466b0 size 0xb0 virtual true final true
+  /// @brief Method remove_recommendGameplayModifiersEvent addr 0xdbe4e0 size 0xb0 virtual true final true
   inline void remove_recommendGameplayModifiersEvent(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method RecommendGameplayModifiers addr 0xe46760 size 0x58 virtual true final true
+  /// @brief Method RecommendGameplayModifiers addr 0xdbe590 size 0x58 virtual true final true
   inline void RecommendGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method InvokeRecommendGameplayModifiers addr 0xe467b8 size 0x1c virtual false final false
+  /// @brief Method InvokeRecommendGameplayModifiers addr 0xdbe5e8 size 0x1c virtual false final false
   inline void InvokeRecommendGameplayModifiers(::StringW userId, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method add_clearRecommendedGameplayModifiersEvent addr 0xe467d4 size 0xb0 virtual true final true
+  /// @brief Method add_clearRecommendedGameplayModifiersEvent addr 0xdbe604 size 0xb0 virtual true final true
   inline void add_clearRecommendedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_clearRecommendedGameplayModifiersEvent addr 0xe46884 size 0xb0 virtual true final true
+  /// @brief Method remove_clearRecommendedGameplayModifiersEvent addr 0xdbe6b4 size 0xb0 virtual true final true
   inline void remove_clearRecommendedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method ClearRecommendedGameplayModifiers addr 0xe46934 size 0x50 virtual true final true
+  /// @brief Method ClearRecommendedGameplayModifiers addr 0xdbe764 size 0x50 virtual true final true
   inline void ClearRecommendedGameplayModifiers();
 
-  /// @brief Method InvokeClearRecommendedGameplayModifiers addr 0xe46984 size 0x1c virtual false final false
+  /// @brief Method InvokeClearRecommendedGameplayModifiers addr 0xdbe7b4 size 0x1c virtual false final false
   inline void InvokeClearRecommendedGameplayModifiers(::StringW userId);
 
-  /// @brief Method add_getRecommendedGameplayModifiersEvent addr 0xe469a0 size 0xb0 virtual true final true
+  /// @brief Method add_getRecommendedGameplayModifiersEvent addr 0xdbe7d0 size 0xb0 virtual true final true
   inline void add_getRecommendedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getRecommendedGameplayModifiersEvent addr 0xe46a50 size 0xb0 virtual true final true
+  /// @brief Method remove_getRecommendedGameplayModifiersEvent addr 0xdbe880 size 0xb0 virtual true final true
   inline void remove_getRecommendedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method GetRecommendedGameplayModifiers addr 0xe46b00 size 0x50 virtual true final true
+  /// @brief Method GetRecommendedGameplayModifiers addr 0xdbe930 size 0x50 virtual true final true
   inline void GetRecommendedGameplayModifiers();
 
-  /// @brief Method InvokeGetRecommendedGameplayModifiers addr 0xe46b50 size 0x1c virtual false final false
+  /// @brief Method InvokeGetRecommendedGameplayModifiers addr 0xdbe980 size 0x1c virtual false final false
   inline void InvokeGetRecommendedGameplayModifiers(::StringW userId);
 
-  /// @brief Method add_getIsStartButtonEnabledEvent addr 0xe46b6c size 0xb0 virtual true final true
+  /// @brief Method add_getIsStartButtonEnabledEvent addr 0xdbe99c size 0xb0 virtual true final true
   inline void add_getIsStartButtonEnabledEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getIsStartButtonEnabledEvent addr 0xe46c1c size 0xb0 virtual true final true
+  /// @brief Method remove_getIsStartButtonEnabledEvent addr 0xdbea4c size 0xb0 virtual true final true
   inline void remove_getIsStartButtonEnabledEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method GetIsStartButtonEnabled addr 0xe46ccc size 0x50 virtual true final true
+  /// @brief Method GetIsStartButtonEnabled addr 0xdbeafc size 0x50 virtual true final true
   inline void GetIsStartButtonEnabled();
 
-  /// @brief Method InvokeGetIsStartButtonEnabled addr 0xe46d1c size 0x1c virtual false final false
+  /// @brief Method InvokeGetIsStartButtonEnabled addr 0xdbeb4c size 0x1c virtual false final false
   inline void InvokeGetIsStartButtonEnabled(::StringW userId);
 
-  /// @brief Method add_setIsStartButtonEnabledEvent addr 0xe46d38 size 0xb0 virtual true final true
+  /// @brief Method add_setIsStartButtonEnabledEvent addr 0xdbeb68 size 0xb0 virtual true final true
   inline void add_setIsStartButtonEnabledEvent(::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>* value);
 
-  /// @brief Method remove_setIsStartButtonEnabledEvent addr 0xe46de8 size 0xb0 virtual true final true
+  /// @brief Method remove_setIsStartButtonEnabledEvent addr 0xdbec18 size 0xb0 virtual true final true
   inline void remove_setIsStartButtonEnabledEvent(::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>* value);
 
-  /// @brief Method SetIsStartButtonEnabled addr 0xe46e98 size 0x58 virtual true final true
+  /// @brief Method SetIsStartButtonEnabled addr 0xdbecc8 size 0x58 virtual true final true
   inline void SetIsStartButtonEnabled(::GlobalNamespace::CannotStartGameReason reason);
 
-  /// @brief Method InvokeSetIsStartButtonEnabled addr 0xe46ef0 size 0x1c virtual false final false
+  /// @brief Method InvokeSetIsStartButtonEnabled addr 0xdbed20 size 0x1c virtual false final false
   inline void InvokeSetIsStartButtonEnabled(::StringW userId, ::GlobalNamespace::CannotStartGameReason reason);
 
-  /// @brief Method add_levelLoadErrorEvent addr 0xe46f0c size 0xb0 virtual false final false
+  /// @brief Method add_levelLoadErrorEvent addr 0xdbed3c size 0xb0 virtual false final false
   inline void add_levelLoadErrorEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method remove_levelLoadErrorEvent addr 0xe46fbc size 0xb0 virtual false final false
+  /// @brief Method remove_levelLoadErrorEvent addr 0xdbedec size 0xb0 virtual false final false
   inline void remove_levelLoadErrorEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method LevelLoadError addr 0xe4706c size 0x58 virtual false final false
+  /// @brief Method LevelLoadError addr 0xdbee9c size 0x58 virtual false final false
   inline void LevelLoadError(::StringW levelId);
 
-  /// @brief Method InvokeLevelLoadError addr 0xe470c4 size 0x1c virtual false final false
+  /// @brief Method InvokeLevelLoadError addr 0xdbeef4 size 0x1c virtual false final false
   inline void InvokeLevelLoadError(::StringW userId, ::StringW levelId);
 
-  /// @brief Method add_levelLoadSuccessEvent addr 0xe470e0 size 0xb0 virtual false final false
+  /// @brief Method add_levelLoadSuccessEvent addr 0xdbef10 size 0xb0 virtual false final false
   inline void add_levelLoadSuccessEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method remove_levelLoadSuccessEvent addr 0xe47190 size 0xb0 virtual false final false
+  /// @brief Method remove_levelLoadSuccessEvent addr 0xdbefc0 size 0xb0 virtual false final false
   inline void remove_levelLoadSuccessEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method LevelLoadSuccess addr 0xe47240 size 0x58 virtual false final false
+  /// @brief Method LevelLoadSuccess addr 0xdbf070 size 0x58 virtual false final false
   inline void LevelLoadSuccess(::StringW levelId);
 
-  /// @brief Method InvokeLevelLoadSuccess addr 0xe47298 size 0x1c virtual false final false
+  /// @brief Method InvokeLevelLoadSuccess addr 0xdbf0c8 size 0x1c virtual false final false
   inline void InvokeLevelLoadSuccess(::StringW userId, ::StringW levelId);
 
-  /// @brief Method add_startedLevelEvent addr 0xe472b4 size 0xb0 virtual true final true
-  inline void add_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* value);
+  /// @brief Method add_startedLevelEvent addr 0xdbf0e4 size 0xb0 virtual true final true
+  inline void add_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, float_t>* value);
 
-  /// @brief Method remove_startedLevelEvent addr 0xe47364 size 0xb0 virtual true final true
-  inline void remove_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* value);
+  /// @brief Method remove_startedLevelEvent addr 0xdbf194 size 0xb0 virtual true final true
+  inline void remove_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, float_t>* value);
 
-  /// @brief Method StartLevel addr 0xe47414 size 0x70 virtual true final true
-  inline void StartLevel(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, int64_t startTime);
+  /// @brief Method StartLevel addr 0xdbf244 size 0x78 virtual true final true
+  inline void StartLevel(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, float_t startTime);
 
-  /// @brief Method InvokeStartLevel addr 0xe47484 size 0x1c virtual false final false
-  inline void InvokeStartLevel(::StringW userId, ::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, int64_t startTime);
+  /// @brief Method InvokeStartLevel addr 0xdbf2bc size 0x1c virtual false final false
+  inline void InvokeStartLevel(::StringW userId, ::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, float_t startTime);
 
-  /// @brief Method add_getStartedLevelEvent addr 0xe474a0 size 0xb0 virtual true final true
+  /// @brief Method add_getStartedLevelEvent addr 0xdbf2d8 size 0xb0 virtual true final true
   inline void add_getStartedLevelEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getStartedLevelEvent addr 0xe47550 size 0xb0 virtual true final true
+  /// @brief Method remove_getStartedLevelEvent addr 0xdbf388 size 0xb0 virtual true final true
   inline void remove_getStartedLevelEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method GetStartedLevel addr 0xe47600 size 0x50 virtual true final true
+  /// @brief Method GetStartedLevel addr 0xdbf438 size 0x50 virtual true final true
   inline void GetStartedLevel();
 
-  /// @brief Method InvokeGetStartedLevel addr 0xe47650 size 0x1c virtual false final false
+  /// @brief Method InvokeGetStartedLevel addr 0xdbf488 size 0x1c virtual false final false
   inline void InvokeGetStartedLevel(::StringW userId);
 
-  /// @brief Method add_getMultiplayerGameStateEvent addr 0xe4766c size 0xb0 virtual true final true
+  /// @brief Method add_getMultiplayerGameStateEvent addr 0xdbf4a4 size 0xb0 virtual true final true
   inline void add_getMultiplayerGameStateEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getMultiplayerGameStateEvent addr 0xe4771c size 0xb0 virtual true final true
+  /// @brief Method remove_getMultiplayerGameStateEvent addr 0xdbf554 size 0xb0 virtual true final true
   inline void remove_getMultiplayerGameStateEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method GetMultiplayerGameState addr 0xe477cc size 0x50 virtual true final true
+  /// @brief Method GetMultiplayerGameState addr 0xdbf604 size 0x50 virtual true final true
   inline void GetMultiplayerGameState();
 
-  /// @brief Method InvokeGetMultiplayerGameState addr 0xe4781c size 0x1c virtual false final false
+  /// @brief Method InvokeGetMultiplayerGameState addr 0xdbf654 size 0x1c virtual false final false
   inline void InvokeGetMultiplayerGameState(::StringW userId);
 
-  /// @brief Method add_setMultiplayerGameStateEvent addr 0xe47838 size 0xb0 virtual true final true
+  /// @brief Method add_setMultiplayerGameStateEvent addr 0xdbf670 size 0xb0 virtual true final true
   inline void add_setMultiplayerGameStateEvent(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method remove_setMultiplayerGameStateEvent addr 0xe478e8 size 0xb0 virtual true final true
+  /// @brief Method remove_setMultiplayerGameStateEvent addr 0xdbf720 size 0xb0 virtual true final true
   inline void remove_setMultiplayerGameStateEvent(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method SetMultiplayerGameState addr 0xe47998 size 0x58 virtual true final true
+  /// @brief Method SetMultiplayerGameState addr 0xdbf7d0 size 0x58 virtual true final true
   inline void SetMultiplayerGameState(::GlobalNamespace::MultiplayerGameState lobbyState);
 
-  /// @brief Method InvokeSetMultiplayerGameState addr 0xe479f0 size 0x1c virtual false final false
+  /// @brief Method InvokeSetMultiplayerGameState addr 0xdbf828 size 0x1c virtual false final false
   inline void InvokeSetMultiplayerGameState(::StringW userId, ::GlobalNamespace::MultiplayerGameState lobbyState);
 
-  /// @brief Method add_cancelCountdownEvent addr 0xe47a0c size 0xb0 virtual true final true
+  /// @brief Method add_cancelCountdownEvent addr 0xdbf844 size 0xb0 virtual true final true
   inline void add_cancelCountdownEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_cancelCountdownEvent addr 0xe47abc size 0xb0 virtual true final true
+  /// @brief Method remove_cancelCountdownEvent addr 0xdbf8f4 size 0xb0 virtual true final true
   inline void remove_cancelCountdownEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method CancelCountdown addr 0xe47b6c size 0x50 virtual false final false
+  /// @brief Method CancelCountdown addr 0xdbf9a4 size 0x50 virtual false final false
   inline void CancelCountdown();
 
-  /// @brief Method InvokeCancelCountdown addr 0xe47bbc size 0x1c virtual false final false
+  /// @brief Method InvokeCancelCountdown addr 0xdbf9f4 size 0x1c virtual false final false
   inline void InvokeCancelCountdown(::StringW userId);
 
-  /// @brief Method add_setCountdownEndTimeEvent addr 0xe47bd8 size 0xb4 virtual true final true
-  inline void add_setCountdownEndTimeEvent(::System::Action_2<::StringW, int64_t>* value);
+  /// @brief Method add_setCountdownEndTimeEvent addr 0xdbfa10 size 0xb4 virtual true final true
+  inline void add_setCountdownEndTimeEvent(::System::Action_2<::StringW, float_t>* value);
 
-  /// @brief Method remove_setCountdownEndTimeEvent addr 0xe47c8c size 0xb4 virtual true final true
-  inline void remove_setCountdownEndTimeEvent(::System::Action_2<::StringW, int64_t>* value);
+  /// @brief Method remove_setCountdownEndTimeEvent addr 0xdbfac4 size 0xb4 virtual true final true
+  inline void remove_setCountdownEndTimeEvent(::System::Action_2<::StringW, float_t>* value);
 
-  /// @brief Method SetCountdownEndTime addr 0xe47d40 size 0x58 virtual false final false
-  inline void SetCountdownEndTime(int64_t newTime);
+  /// @brief Method SetCountdownEndTime addr 0xdbfb78 size 0x60 virtual false final false
+  inline void SetCountdownEndTime(float_t newTime);
 
-  /// @brief Method InvokeSetCountdownEndTime addr 0xe47d98 size 0x1c virtual false final false
-  inline void InvokeSetCountdownEndTime(::StringW userId, int64_t newTime);
+  /// @brief Method InvokeSetCountdownEndTime addr 0xdbfbd8 size 0x1c virtual false final false
+  inline void InvokeSetCountdownEndTime(::StringW userId, float_t newTime);
 
-  /// @brief Method add_getCountdownEndTimeEvent addr 0xe47db4 size 0xb4 virtual false final false
+  /// @brief Method add_getCountdownEndTimeEvent addr 0xdbfbf4 size 0xb4 virtual false final false
   inline void add_getCountdownEndTimeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getCountdownEndTimeEvent addr 0xe47e68 size 0xb4 virtual false final false
+  /// @brief Method remove_getCountdownEndTimeEvent addr 0xdbfca8 size 0xb4 virtual false final false
   inline void remove_getCountdownEndTimeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method GetCountdownEndTime addr 0xe47f1c size 0x50 virtual true final true
+  /// @brief Method GetCountdownEndTime addr 0xdbfd5c size 0x50 virtual true final true
   inline void GetCountdownEndTime();
 
-  /// @brief Method InvokeGetCountdownEndTime addr 0xe47f6c size 0x1c virtual false final false
+  /// @brief Method InvokeGetCountdownEndTime addr 0xdbfdac size 0x1c virtual false final false
   inline void InvokeGetCountdownEndTime(::StringW userId);
 
-  /// @brief Method add_cancelledLevelStartEvent addr 0xe47f88 size 0xb4 virtual true final true
+  /// @brief Method add_cancelledLevelStartEvent addr 0xdbfdc8 size 0xb4 virtual true final true
   inline void add_cancelledLevelStartEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_cancelledLevelStartEvent addr 0xe4803c size 0xb4 virtual true final true
+  /// @brief Method remove_cancelledLevelStartEvent addr 0xdbfe7c size 0xb4 virtual true final true
   inline void remove_cancelledLevelStartEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method CancelLevelStart addr 0xe480f0 size 0x50 virtual true final true
+  /// @brief Method CancelLevelStart addr 0xdbff30 size 0x50 virtual true final true
   inline void CancelLevelStart();
 
-  /// @brief Method InvokeCancelLevelStart addr 0xe48140 size 0x1c virtual false final false
+  /// @brief Method InvokeCancelLevelStart addr 0xdbff80 size 0x1c virtual false final false
   inline void InvokeCancelLevelStart(::StringW userId);
 
-  /// @brief Method add_getIsReadyEvent addr 0xe4815c size 0xb4 virtual true final true
+  /// @brief Method add_getIsReadyEvent addr 0xdbff9c size 0xb4 virtual true final true
   inline void add_getIsReadyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getIsReadyEvent addr 0xe48210 size 0xb4 virtual true final true
+  /// @brief Method remove_getIsReadyEvent addr 0xdc0050 size 0xb4 virtual true final true
   inline void remove_getIsReadyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method GetIsReady addr 0xe482c4 size 0x50 virtual true final true
+  /// @brief Method GetIsReady addr 0xdc0104 size 0x50 virtual true final true
   inline void GetIsReady();
 
-  /// @brief Method InvokeGetIsReady addr 0xe48314 size 0x1c virtual false final false
+  /// @brief Method InvokeGetIsReady addr 0xdc0154 size 0x1c virtual false final false
   inline void InvokeGetIsReady(::StringW userId);
 
-  /// @brief Method add_setIsReadyEvent addr 0xe48330 size 0xb4 virtual true final true
+  /// @brief Method add_setIsReadyEvent addr 0xdc0170 size 0xb4 virtual true final true
   inline void add_setIsReadyEvent(::System::Action_2<::StringW, bool>* value);
 
-  /// @brief Method remove_setIsReadyEvent addr 0xe483e4 size 0xb4 virtual true final true
+  /// @brief Method remove_setIsReadyEvent addr 0xdc0224 size 0xb4 virtual true final true
   inline void remove_setIsReadyEvent(::System::Action_2<::StringW, bool>* value);
 
-  /// @brief Method SetIsReady addr 0xe48498 size 0x58 virtual true final true
+  /// @brief Method SetIsReady addr 0xdc02d8 size 0x58 virtual true final true
   inline void SetIsReady(bool isReady);
 
-  /// @brief Method InvokeSetIsReady addr 0xe484f0 size 0x20 virtual false final false
+  /// @brief Method InvokeSetIsReady addr 0xdc0330 size 0x20 virtual false final false
   inline void InvokeSetIsReady(::StringW userId, bool isReady);
 
-  /// @brief Method add_setStartGameTimeEvent addr 0xe48510 size 0xb4 virtual true final true
-  inline void add_setStartGameTimeEvent(::System::Action_2<::StringW, int64_t>* value);
+  /// @brief Method add_setStartGameTimeEvent addr 0xdc0350 size 0xb4 virtual true final true
+  inline void add_setStartGameTimeEvent(::System::Action_2<::StringW, float_t>* value);
 
-  /// @brief Method remove_setStartGameTimeEvent addr 0xe485c4 size 0xb4 virtual true final true
-  inline void remove_setStartGameTimeEvent(::System::Action_2<::StringW, int64_t>* value);
+  /// @brief Method remove_setStartGameTimeEvent addr 0xdc0404 size 0xb4 virtual true final true
+  inline void remove_setStartGameTimeEvent(::System::Action_2<::StringW, float_t>* value);
 
-  /// @brief Method SetStartGameTime addr 0xe48678 size 0x58 virtual true final true
-  inline void SetStartGameTime(int64_t newTime);
+  /// @brief Method SetStartGameTime addr 0xdc04b8 size 0x60 virtual true final true
+  inline void SetStartGameTime(float_t newTime);
 
-  /// @brief Method InvokeSetStartGameCountdown addr 0xe486d0 size 0x1c virtual false final false
-  inline void InvokeSetStartGameCountdown(::StringW userId, int64_t newTime);
+  /// @brief Method InvokeSetStartGameCountdown addr 0xdc0518 size 0x1c virtual false final false
+  inline void InvokeSetStartGameCountdown(::StringW userId, float_t newTime);
 
-  /// @brief Method add_cancelStartGameTimeEvent addr 0xe486ec size 0xb4 virtual false final false
+  /// @brief Method add_cancelStartGameTimeEvent addr 0xdc0534 size 0xb4 virtual false final false
   inline void add_cancelStartGameTimeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_cancelStartGameTimeEvent addr 0xe487a0 size 0xb4 virtual false final false
+  /// @brief Method remove_cancelStartGameTimeEvent addr 0xdc05e8 size 0xb4 virtual false final false
   inline void remove_cancelStartGameTimeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method CancelStartGameTime addr 0xe48854 size 0x50 virtual false final false
+  /// @brief Method CancelStartGameTime addr 0xdc069c size 0x50 virtual false final false
   inline void CancelStartGameTime();
 
-  /// @brief Method InvokeCancelStartGameCountdown addr 0xe488a4 size 0x1c virtual false final false
+  /// @brief Method InvokeCancelStartGameCountdown addr 0xdc06ec size 0x1c virtual false final false
   inline void InvokeCancelStartGameCountdown(::StringW userId);
 
-  /// @brief Method add_getIsInLobbyEvent addr 0xe488c0 size 0xb4 virtual true final true
+  /// @brief Method add_getIsInLobbyEvent addr 0xdc0708 size 0xb4 virtual true final true
   inline void add_getIsInLobbyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getIsInLobbyEvent addr 0xe48974 size 0xb4 virtual true final true
+  /// @brief Method remove_getIsInLobbyEvent addr 0xdc07bc size 0xb4 virtual true final true
   inline void remove_getIsInLobbyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method GetIsInLobby addr 0xe48a28 size 0x50 virtual true final true
+  /// @brief Method GetIsInLobby addr 0xdc0870 size 0x50 virtual true final true
   inline void GetIsInLobby();
 
-  /// @brief Method InvokeGetIsInLobby addr 0xe48a78 size 0x1c virtual false final false
+  /// @brief Method InvokeGetIsInLobby addr 0xdc08c0 size 0x1c virtual false final false
   inline void InvokeGetIsInLobby(::StringW userId);
 
-  /// @brief Method add_setIsInLobbyEvent addr 0xe48a94 size 0xb4 virtual true final true
+  /// @brief Method add_setIsInLobbyEvent addr 0xdc08dc size 0xb4 virtual true final true
   inline void add_setIsInLobbyEvent(::System::Action_2<::StringW, bool>* value);
 
-  /// @brief Method remove_setIsInLobbyEvent addr 0xe48b48 size 0xb4 virtual true final true
+  /// @brief Method remove_setIsInLobbyEvent addr 0xdc0990 size 0xb4 virtual true final true
   inline void remove_setIsInLobbyEvent(::System::Action_2<::StringW, bool>* value);
 
-  /// @brief Method SetIsInLobby addr 0xe48bfc size 0x58 virtual true final true
+  /// @brief Method SetIsInLobby addr 0xdc0a44 size 0x58 virtual true final true
   inline void SetIsInLobby(bool isBack);
 
-  /// @brief Method InvokeSetIsInLobby addr 0xe48c54 size 0x20 virtual false final false
+  /// @brief Method InvokeSetIsInLobby addr 0xdc0a9c size 0x20 virtual false final false
   inline void InvokeSetIsInLobby(::StringW userId, bool isBack);
 
-  /// @brief Method add_getOwnedSongPacksEvent addr 0xe48c74 size 0xb4 virtual true final true
+  /// @brief Method add_getOwnedSongPacksEvent addr 0xdc0abc size 0xb4 virtual true final true
   inline void add_getOwnedSongPacksEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getOwnedSongPacksEvent addr 0xe48d28 size 0xb4 virtual true final true
+  /// @brief Method remove_getOwnedSongPacksEvent addr 0xdc0b70 size 0xb4 virtual true final true
   inline void remove_getOwnedSongPacksEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method GetOwnedSongPacks addr 0xe48ddc size 0x50 virtual true final true
+  /// @brief Method GetOwnedSongPacks addr 0xdc0c24 size 0x50 virtual true final true
   inline void GetOwnedSongPacks();
 
-  /// @brief Method InvokeGetOwnedSongPacks addr 0xe48e2c size 0x1c virtual false final false
+  /// @brief Method InvokeGetOwnedSongPacks addr 0xdc0c74 size 0x1c virtual false final false
   inline void InvokeGetOwnedSongPacks(::StringW userId);
 
-  /// @brief Method add_setOwnedSongPacksEvent addr 0xe48e48 size 0xb4 virtual true final true
+  /// @brief Method add_setOwnedSongPacksEvent addr 0xdc0c90 size 0xb4 virtual true final true
   inline void add_setOwnedSongPacksEvent(::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>* value);
 
-  /// @brief Method remove_setOwnedSongPacksEvent addr 0xe48efc size 0xb4 virtual true final true
+  /// @brief Method remove_setOwnedSongPacksEvent addr 0xdc0d44 size 0xb4 virtual true final true
   inline void remove_setOwnedSongPacksEvent(::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>* value);
 
-  /// @brief Method SetOwnedSongPacks addr 0xe48fb0 size 0x74 virtual true final true
+  /// @brief Method SetOwnedSongPacks addr 0xdc0df8 size 0x68 virtual true final true
   inline void SetOwnedSongPacks(::GlobalNamespace::SongPackMask songPackMask);
 
-  /// @brief Method InvokeSetOwnedSongPacks addr 0xe49024 size 0x3c virtual false final false
+  /// @brief Method InvokeSetOwnedSongPacks addr 0xdc0e60 size 0x1c virtual false final false
   inline void InvokeSetOwnedSongPacks(::StringW userId, ::GlobalNamespace::SongPackMask songPackMask);
 
-  /// @brief Method add_requestedKickPlayerEvent addr 0xe49060 size 0xb4 virtual true final true
+  /// @brief Method add_requestedKickPlayerEvent addr 0xdc0e7c size 0xb4 virtual true final true
   inline void add_requestedKickPlayerEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method remove_requestedKickPlayerEvent addr 0xe49114 size 0xb4 virtual true final true
+  /// @brief Method remove_requestedKickPlayerEvent addr 0xdc0f30 size 0xb4 virtual true final true
   inline void remove_requestedKickPlayerEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method RequestKickPlayer addr 0xe491c8 size 0x58 virtual true final true
+  /// @brief Method RequestKickPlayer addr 0xdc0fe4 size 0x58 virtual true final true
   inline void RequestKickPlayer(::StringW kickedPlayerId);
 
-  /// @brief Method InvokeKickPlayer addr 0xe49220 size 0x1c virtual false final false
+  /// @brief Method InvokeKickPlayer addr 0xdc103c size 0x101c virtual false final false
   inline void InvokeKickPlayer(::StringW userId, ::StringW kickedPlayerId);
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager", modifiers: "&&", def_value: None }]
@@ -3049,7 +3052,7 @@ public:
   ::System::Action_2<::StringW, ::StringW>* ___levelLoadSuccessEvent;
 
   /// @brief Field startedLevelEvent, offset: 0xd8, size: 0x8, def value: None
-  ::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* ___startedLevelEvent;
+  ::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, float_t>* ___startedLevelEvent;
 
   /// @brief Field getStartedLevelEvent, offset: 0xe0, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___getStartedLevelEvent;
@@ -3064,7 +3067,7 @@ public:
   ::System::Action_1<::StringW>* ___cancelCountdownEvent;
 
   /// @brief Field setCountdownEndTimeEvent, offset: 0x100, size: 0x8, def value: None
-  ::System::Action_2<::StringW, int64_t>* ___setCountdownEndTimeEvent;
+  ::System::Action_2<::StringW, float_t>* ___setCountdownEndTimeEvent;
 
   /// @brief Field getCountdownEndTimeEvent, offset: 0x108, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___getCountdownEndTimeEvent;
@@ -3079,7 +3082,7 @@ public:
   ::System::Action_2<::StringW, bool>* ___setIsReadyEvent;
 
   /// @brief Field setStartGameTimeEvent, offset: 0x128, size: 0x8, def value: None
-  ::System::Action_2<::StringW, int64_t>* ___setStartGameTimeEvent;
+  ::System::Action_2<::StringW, float_t>* ___setStartGameTimeEvent;
 
   /// @brief Field cancelStartGameTimeEvent, offset: 0x130, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___cancelStartGameTimeEvent;
@@ -3106,6 +3109,90 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuRpcManager, 0x160>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ____multiplayerSessionManager) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ____rpcHandler) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___getPlayersPermissionConfigurationEvent) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___setPlayersPermissionConfigurationEvent) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___setPlayersMissingEntitlementsToLevelEvent) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___getIsEntitledToLevelEvent) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___setIsEntitledToLevelEvent) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___levelEntitlementStatusesInvalidatedEvent) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___selectedLevelPackEvent) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___setSelectedBeatmapEvent) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___clearSelectedBeatmapEvent) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___getSelectedBeatmapEvent) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___recommendBeatmapEvent) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___clearRecommendedBeatmapEvent) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___getRecommendedBeatmapEvent) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___setSelectedGameplayModifiersEvent) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___clearSelectedGameplayModifiersEvent) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___getSelectedGameplayModifiersEvent) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___recommendGameplayModifiersEvent) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___clearRecommendedGameplayModifiersEvent) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___getRecommendedGameplayModifiersEvent) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___getIsStartButtonEnabledEvent) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___setIsStartButtonEnabledEvent) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___levelLoadErrorEvent) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___levelLoadSuccessEvent) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___startedLevelEvent) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___getStartedLevelEvent) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___getMultiplayerGameStateEvent) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___setMultiplayerGameStateEvent) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___cancelCountdownEvent) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___setCountdownEndTimeEvent) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___getCountdownEndTimeEvent) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___cancelledLevelStartEvent) == 0x110, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___getIsReadyEvent) == 0x118, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___setIsReadyEvent) == 0x120, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___setStartGameTimeEvent) == 0x128, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___cancelStartGameTimeEvent) == 0x130, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___getIsInLobbyEvent) == 0x138, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___setIsInLobbyEvent) == 0x140, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___getOwnedSongPacksEvent) == 0x148, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___setOwnedSongPacksEvent) == 0x150, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuRpcManager, ___requestedKickPlayerEvent) == 0x158, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MenuRpcManager__RpcType, "", "MenuRpcManager/RpcType");

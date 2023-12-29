@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(SignalDeclarationBindInfo)
 namespace System {
 class Type;
 }
-namespace Zenject {
-struct SignalMissingHandlerResponses;
-}
 namespace System {
 class Object;
+}
+namespace Zenject {
+struct SignalMissingHandlerResponses;
 }
 // Forward declare root types
 namespace Zenject {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::Zenject::SignalDeclarationBindInfo);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11172))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10654))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(11100))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10582))
 // CS Name: ::Zenject::SignalDeclarationBindInfo*
 class CORDL_TYPE SignalDeclarationBindInfo : public ::System::Object {
 public:
@@ -89,37 +89,37 @@ public:
 
   static inline ::Zenject::SignalDeclarationBindInfo* New_ctor(::System::Type* signalType);
 
-  /// @brief Method .ctor addr 0x2ec244c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d5a6cc size 0x28 virtual false final false
   inline void _ctor(::System::Type* signalType);
 
-  /// @brief Method get_Identifier addr 0x2ec2474 size 0x8 virtual false final false
+  /// @brief Method get_Identifier addr 0x2d5a6f4 size 0x8 virtual false final false
   inline ::System::Object* get_Identifier();
 
-  /// @brief Method set_Identifier addr 0x2ec247c size 0x8 virtual false final false
+  /// @brief Method set_Identifier addr 0x2d5a6fc size 0x8 virtual false final false
   inline void set_Identifier(::System::Object* value);
 
-  /// @brief Method get_SignalType addr 0x2ec2484 size 0x8 virtual false final false
+  /// @brief Method get_SignalType addr 0x2d5a704 size 0x8 virtual false final false
   inline ::System::Type* get_SignalType();
 
-  /// @brief Method set_SignalType addr 0x2ec248c size 0x8 virtual false final false
+  /// @brief Method set_SignalType addr 0x2d5a70c size 0x8 virtual false final false
   inline void set_SignalType(::System::Type* value);
 
-  /// @brief Method get_RunAsync addr 0x2ec2494 size 0x8 virtual false final false
+  /// @brief Method get_RunAsync addr 0x2d5a714 size 0x8 virtual false final false
   inline bool get_RunAsync();
 
-  /// @brief Method set_RunAsync addr 0x2ec249c size 0xc virtual false final false
+  /// @brief Method set_RunAsync addr 0x2d5a71c size 0xc virtual false final false
   inline void set_RunAsync(bool value);
 
-  /// @brief Method get_TickPriority addr 0x2ec24a8 size 0x8 virtual false final false
+  /// @brief Method get_TickPriority addr 0x2d5a728 size 0x8 virtual false final false
   inline int32_t get_TickPriority();
 
-  /// @brief Method set_TickPriority addr 0x2ec24b0 size 0x8 virtual false final false
+  /// @brief Method set_TickPriority addr 0x2d5a730 size 0x8 virtual false final false
   inline void set_TickPriority(int32_t value);
 
-  /// @brief Method get_MissingHandlerResponse addr 0x2ec24b8 size 0x8 virtual false final false
+  /// @brief Method get_MissingHandlerResponse addr 0x2d5a738 size 0x8 virtual false final false
   inline ::Zenject::SignalMissingHandlerResponses get_MissingHandlerResponse();
 
-  /// @brief Method set_MissingHandlerResponse addr 0x2ec24c0 size 0x8 virtual false final false
+  /// @brief Method set_MissingHandlerResponse addr 0x2d5a740 size 0x8 virtual false final false
   inline void set_MissingHandlerResponse(::Zenject::SignalMissingHandlerResponses value);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalDeclarationBindInfo", modifiers: "&&", def_value: None }]
@@ -155,6 +155,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::SignalDeclarationBindInfo, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::SignalDeclarationBindInfo, ____Identifier_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::SignalDeclarationBindInfo, ____SignalType_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::SignalDeclarationBindInfo, ____RunAsync_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::SignalDeclarationBindInfo, ____TickPriority_k__BackingField) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::SignalDeclarationBindInfo, ____MissingHandlerResponse_k__BackingField) == 0x28, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::SignalDeclarationBindInfo);

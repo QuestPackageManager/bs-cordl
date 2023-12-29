@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueDropdownController_1)
-namespace HMUI {
-class DropdownWithTableView;
+namespace GlobalNamespace {
+template <typename T> class __ValueDropdownController_1____c;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -16,14 +16,14 @@ template <typename T1, typename T2> class Action_2;
 namespace HMUI {
 class SimpleTextDropdown;
 }
-namespace System {
-template <typename T1, typename T2> class Tuple_2;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace GlobalNamespace {
-template <typename T> class __ValueDropdownController_1____c;
+namespace System {
+template <typename T1, typename T2> class Tuple_2;
+}
+namespace HMUI {
+class DropdownWithTableView;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -44,8 +44,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5601))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5697))
 // CS Name: ::ValueDropdownController`1::<>c<T>*
 class CORDL_TYPE __ValueDropdownController_1____c : public ::System::Object {
 public:
@@ -53,24 +53,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__ValueDropdownController_1____c<T>* __9;
 
-  /// @brief Field <>9__9_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__9_0, put = setStaticF___9__9_0))::System::Func_2<::System::Tuple_2<T, ::StringW>*, ::StringW>* __9__9_0;
+  /// @brief Field <>9__7_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0))::System::Func_2<::System::Tuple_2<T, ::StringW>*, ::StringW>* __9__7_0;
 
   static inline void setStaticF___9(::GlobalNamespace::__ValueDropdownController_1____c<T>* value);
 
   static inline ::GlobalNamespace::__ValueDropdownController_1____c<T>* getStaticF___9();
 
-  static inline void setStaticF___9__9_0(::System::Func_2<::System::Tuple_2<T, ::StringW>*, ::StringW>* value);
+  static inline void setStaticF___9__7_0(::System::Func_2<::System::Tuple_2<T, ::StringW>*, ::StringW>* value);
 
-  static inline ::System::Func_2<::System::Tuple_2<T, ::StringW>*, ::StringW>* getStaticF___9__9_0();
+  static inline ::System::Func_2<::System::Tuple_2<T, ::StringW>*, ::StringW>* getStaticF___9__7_0();
 
   static inline ::GlobalNamespace::__ValueDropdownController_1____c<T>* New_ctor();
 
   /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Start>b__9_0 addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline ::StringW _Start_b__9_0(::System::Tuple_2<T, ::StringW>* x);
+  /// @brief Method <Start>b__7_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  inline ::StringW _Start_b__7_0(::System::Tuple_2<T, ::StringW>* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ValueDropdownController_1____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -96,8 +96,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5602))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5698))
 // CS Name: ::ValueDropdownController`1<T>*
 class CORDL_TYPE ValueDropdownController_1 : public ::UnityEngine::MonoBehaviour {
 public:
@@ -112,8 +112,6 @@ public:
 
   /// @brief Field _namedValues, offset 0x28, size 0x8
   __declspec(property(get = __get__namedValues, put = __set__namedValues))::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* _namedValues;
-
-  __declspec(property(get = get_innerDropdown))::HMUI::SimpleTextDropdown* innerDropdown;
 
   __declspec(property(get = get_namedValues))::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* namedValues;
 
@@ -134,9 +132,6 @@ public:
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>*> const& __get__namedValues() const;
 
   constexpr void __set__namedValues(::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* value);
-
-  /// @brief Method get_innerDropdown addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline ::HMUI::SimpleTextDropdown* get_innerDropdown();
 
   /// @brief Method add_didSelectCellWithIdxEvent addr 0x0 size 0xffffffffffffffff virtual false final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_2<int32_t, T>* value);

@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PKMacBuilder)
-namespace Org::BouncyCastle::Crmf {
-class IPKMacPrimitivesProvider;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PbmParameter;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Crmf {
+class IPKMacPrimitivesProvider;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMacFactory;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::PKMacBuilder);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(711))
 // CS Name: ::Org.BouncyCastle.Crmf::PKMacBuilder*
 class CORDL_TYPE PKMacBuilder : public ::System::Object {
@@ -111,54 +111,54 @@ public:
 
   static inline ::Org::BouncyCastle::Crmf::PKMacBuilder* New_ctor();
 
-  /// @brief Method .ctor addr 0x12123f0 size 0x174 virtual false final false
+  /// @brief Method .ctor addr 0x11a11a0 size 0x174 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crmf::PKMacBuilder* New_ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider);
 
-  /// @brief Method .ctor addr 0x12125b0 size 0x14c virtual false final false
+  /// @brief Method .ctor addr 0x11a1360 size 0x14c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider);
 
   static inline ::Org::BouncyCastle::Crmf::PKMacBuilder* New_ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider,
                                                                   ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier,
                                                                   ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithmIdentifier);
 
-  /// @brief Method .ctor addr 0x12126fc size 0x4c virtual false final false
+  /// @brief Method .ctor addr 0x11a14ac size 0x4c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithmIdentifier);
 
   static inline ::Org::BouncyCastle::Crmf::PKMacBuilder* New_ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider, int32_t maxIterations);
 
-  /// @brief Method .ctor addr 0x1212748 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x11a14f8 size 0x38 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider, int32_t maxIterations);
 
   static inline ::Org::BouncyCastle::Crmf::PKMacBuilder* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier, int32_t iterationCount,
                                                                   ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithmIdentifier,
                                                                   ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider);
 
-  /// @brief Method .ctor addr 0x1212564 size 0x4c virtual false final false
+  /// @brief Method .ctor addr 0x11a1314 size 0x4c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier, int32_t iterationCount,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithmIdentifier, ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider);
 
-  /// @brief Method SetSaltLength addr 0x1212780 size 0x64 virtual false final false
+  /// @brief Method SetSaltLength addr 0x11a1530 size 0x64 virtual false final false
   inline ::Org::BouncyCastle::Crmf::PKMacBuilder* SetSaltLength(int32_t saltLength);
 
-  /// @brief Method SetIterationCount addr 0x12127e4 size 0x7c virtual false final false
+  /// @brief Method SetIterationCount addr 0x11a1594 size 0x7c virtual false final false
   inline ::Org::BouncyCastle::Crmf::PKMacBuilder* SetIterationCount(int32_t iterationCount);
 
-  /// @brief Method SetParameters addr 0x1212a38 size 0x54 virtual false final false
+  /// @brief Method SetParameters addr 0x11a17e8 size 0x54 virtual false final false
   inline ::Org::BouncyCastle::Crmf::PKMacBuilder* SetParameters(::Org::BouncyCastle::Asn1::Cmp::PbmParameter* parameters);
 
-  /// @brief Method SetSecureRandom addr 0x1212a8c size 0x8 virtual false final false
+  /// @brief Method SetSecureRandom addr 0x11a183c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Crmf::PKMacBuilder* SetSecureRandom(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Build addr 0x1212a94 size 0x114 virtual false final false
+  /// @brief Method Build addr 0x11a1844 size 0x114 virtual false final false
   inline ::Org::BouncyCastle::Crypto::IMacFactory* Build(::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  /// @brief Method CheckIterationCountCeiling addr 0x1212860 size 0x1d8 virtual false final false
+  /// @brief Method CheckIterationCountCeiling addr 0x11a1610 size 0x1d8 virtual false final false
   inline void CheckIterationCountCeiling(int32_t iterationCount);
 
-  /// @brief Method GenCalculator addr 0x1212ba8 size 0x418 virtual false final false
+  /// @brief Method GenCalculator addr 0x11a1958 size 0x418 virtual false final false
   inline ::Org::BouncyCastle::Crypto::IMacFactory* GenCalculator(::Org::BouncyCastle::Asn1::Cmp::PbmParameter* parameters, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
   // Ctor Parameters [CppParam { name: "", ty: "PKMacBuilder", modifiers: "&&", def_value: None }]
@@ -203,6 +203,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crmf::PKMacBuilder, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crmf::PKMacBuilder, ___owf) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crmf::PKMacBuilder, ___mac) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crmf::PKMacBuilder, ___provider) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crmf::PKMacBuilder, ___random) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crmf::PKMacBuilder, ___parameters) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crmf::PKMacBuilder, ___iterationCount) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crmf::PKMacBuilder, ___saltLength) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crmf::PKMacBuilder, ___maxIterations) == 0x40, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Crmf::PKMacBuilder);

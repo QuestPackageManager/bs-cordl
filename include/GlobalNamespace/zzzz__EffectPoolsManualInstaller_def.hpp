@@ -19,11 +19,11 @@ class NoteCutSoundEffect;
 namespace GlobalNamespace {
 class BeatEffect;
 }
-namespace GlobalNamespace {
-class FlyingSpriteEffect;
-}
 namespace Zenject {
 class DiContainer;
+}
+namespace GlobalNamespace {
+class FlyingSpriteEffect;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EffectPoolsManualInstaller);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5390))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5481))
 // CS Name: ::EffectPoolsManualInstaller*
 class CORDL_TYPE EffectPoolsManualInstaller : public ::UnityEngine::MonoBehaviour {
 public:
@@ -104,12 +104,12 @@ public:
 
   constexpr void __set__flyingSpriteEffectPrefab(::GlobalNamespace::FlyingSpriteEffect* value);
 
-  /// @brief Method ManualInstallBindings addr 0x226f65c size 0x248 virtual false final false
+  /// @brief Method ManualInstallBindings addr 0x212a05c size 0x248 virtual false final false
   inline void ManualInstallBindings(::Zenject::DiContainer* container, bool shortBeatEffect);
 
   static inline ::GlobalNamespace::EffectPoolsManualInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x226f8a4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x212a2a4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EffectPoolsManualInstaller", modifiers: "&&", def_value: None }]
@@ -151,6 +151,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EffectPoolsManualInstaller, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____flyingTextEffectPrefab) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____flyingScoreEffectPrefab) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____beatEffectPrefab) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____shortBeatEffectPrefab) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____noteCutSoundEffectPrefab) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____bombCutSoundEffectPrefab) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____flyingSpriteEffectPrefab) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EffectPoolsManualInstaller);

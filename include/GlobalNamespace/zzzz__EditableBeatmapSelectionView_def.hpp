@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
 CORDL_MODULE_EXPORT(EditableBeatmapSelectionView)
-namespace UnityEngine::UI {
-class Button;
-}
 namespace UnityEngine {
 class CanvasGroup;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EditableBeatmapSelectionView);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5772))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5779))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5863))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5870))
 // CS Name: ::EditableBeatmapSelectionView*
 class CORDL_TYPE EditableBeatmapSelectionView : public ::GlobalNamespace::BeatmapSelectionView {
 public:
@@ -82,36 +82,36 @@ public:
 
   constexpr void __set__showClearButton_k__BackingField(bool value);
 
-  /// @brief Method get_editButton addr 0x22e0f64 size 0x8 virtual false final false
+  /// @brief Method get_editButton addr 0x219a938 size 0x8 virtual false final false
   inline ::UnityEngine::UI::Button* get_editButton();
 
-  /// @brief Method get_clearButton addr 0x22e0f6c size 0x8 virtual false final false
+  /// @brief Method get_clearButton addr 0x219a940 size 0x8 virtual false final false
   inline ::UnityEngine::UI::Button* get_clearButton();
 
-  /// @brief Method get_interactable addr 0x22e0f74 size 0x8 virtual false final false
+  /// @brief Method get_interactable addr 0x219a948 size 0x8 virtual false final false
   inline bool get_interactable();
 
-  /// @brief Method set_interactable addr 0x22cef30 size 0x60 virtual false final false
+  /// @brief Method set_interactable addr 0x218c2c4 size 0x60 virtual false final false
   inline void set_interactable(bool value);
 
-  /// @brief Method get_showClearButton addr 0x22e0f7c size 0x8 virtual false final false
+  /// @brief Method get_showClearButton addr 0x219a950 size 0x8 virtual false final false
   inline bool get_showClearButton();
 
-  /// @brief Method set_showClearButton addr 0x22e0f84 size 0xc virtual false final false
+  /// @brief Method set_showClearButton addr 0x219a958 size 0xc virtual false final false
   inline void set_showClearButton(bool value);
 
-  /// @brief Method SetVisibility addr 0x22ce954 size 0x28 virtual false final false
+  /// @brief Method SetVisibility addr 0x218bce8 size 0x28 virtual false final false
   inline void SetVisibility(bool visible);
 
-  /// @brief Method Setup addr 0x22ce948 size 0xc virtual false final false
+  /// @brief Method Setup addr 0x218bcdc size 0xc virtual false final false
   inline void Setup(bool showClearButton);
 
-  /// @brief Method SetBeatmap addr 0x22e0f90 size 0x68 virtual true final false
+  /// @brief Method SetBeatmap addr 0x219a964 size 0x68 virtual true final false
   inline void SetBeatmap(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel);
 
   static inline ::GlobalNamespace::EditableBeatmapSelectionView* New_ctor();
 
-  /// @brief Method .ctor addr 0x22e0ff8 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x219a9cc size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EditableBeatmapSelectionView", modifiers: "&&", def_value: None }]
@@ -147,6 +147,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EditableBeatmapSelectionView, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EditableBeatmapSelectionView, ____editButton) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EditableBeatmapSelectionView, ____clearButton) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EditableBeatmapSelectionView, ____levelBarCanvasGroup) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EditableBeatmapSelectionView, ____interactable) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EditableBeatmapSelectionView, ____showClearButton_k__BackingField) == 0x41, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EditableBeatmapSelectionView);

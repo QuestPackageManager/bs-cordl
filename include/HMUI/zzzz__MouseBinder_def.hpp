@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MouseBinder)
-namespace System {
-template <typename T1, typename T2, typename T3> struct ValueTuple_3;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Tuple_3;
-}
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace HMUI {
-struct __MouseBinder__MouseEventType;
+namespace UnityEngine::Events {
+class UnityAction;
 }
 namespace HMUI {
 struct __MouseBinder__ButtonType;
 }
+namespace HMUI {
+struct __MouseBinder__MouseEventType;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> struct ValueTuple_3;
+}
 namespace UnityEngine::Events {
-class UnityAction;
+template <typename T0> class UnityAction_1;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Tuple_3;
 }
 // Forward declare root types
 namespace HMUI {
@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::HMUI::MouseBinder);
 namespace HMUI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13518))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13638))
 // CS Name: ::MouseBinder::MouseEventType
 struct CORDL_TYPE __MouseBinder__MouseEventType {
 public:
@@ -93,13 +93,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__MouseBinder__MouseEventType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__MouseBinder__MouseEventType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: ::ButtonType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13519))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13639))
 // CS Name: ::MouseBinder::ButtonType
 struct CORDL_TYPE __MouseBinder__ButtonType {
 public:
@@ -145,13 +147,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__MouseBinder__ButtonType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__MouseBinder__ButtonType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: HMUI::MouseBinder
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13520))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13640))
 // CS Name: ::HMUI::MouseBinder*
 class CORDL_TYPE MouseBinder : public ::System::Object {
 public:
@@ -194,43 +198,43 @@ public:
   constexpr void __set__buttonBindings(
       ::System::Collections::Generic::List_1<::System::ValueTuple_3<::HMUI::__MouseBinder__ButtonType, ::HMUI::__MouseBinder__MouseEventType, ::UnityEngine::Events::UnityAction*>>* value);
 
-  /// @brief Method get_enabled addr 0x2119bb4 size 0x8 virtual false final false
+  /// @brief Method get_enabled addr 0x1fc3f3c size 0x8 virtual false final false
   inline bool get_enabled();
 
-  /// @brief Method set_enabled addr 0x2119bbc size 0xc virtual false final false
+  /// @brief Method set_enabled addr 0x1fc3f44 size 0xc virtual false final false
   inline void set_enabled(bool value);
 
   static inline ::HMUI::MouseBinder* New_ctor();
 
-  /// @brief Method .ctor addr 0x2119bc8 size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x1fc3f50 size 0x1c virtual false final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0x2119be4 size 0xc0 virtual false final false
+  /// @brief Method Init addr 0x1fc3f6c size 0xc0 virtual false final false
   inline void Init();
 
-  /// @brief Method AddScrollBindings addr 0x2119ca4 size 0x13c virtual false final false
+  /// @brief Method AddScrollBindings addr 0x1fc402c size 0x13c virtual false final false
   inline void AddScrollBindings(::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float_t>*>* bindingData);
 
-  /// @brief Method AddScrollBinding addr 0x2119de0 size 0xa8 virtual false final false
+  /// @brief Method AddScrollBinding addr 0x1fc4168 size 0xa8 virtual false final false
   inline void AddScrollBinding(::UnityEngine::Events::UnityAction_1<float_t>* action);
 
-  /// @brief Method RemoveScrollBinding addr 0x2119e88 size 0x58 virtual false final false
+  /// @brief Method RemoveScrollBinding addr 0x1fc4210 size 0x58 virtual false final false
   inline void RemoveScrollBinding(::UnityEngine::Events::UnityAction_1<float_t>* action);
 
-  /// @brief Method AddButtonBindings addr 0x2119ee0 size 0x174 virtual false final false
+  /// @brief Method AddButtonBindings addr 0x1fc4268 size 0x174 virtual false final false
   inline void AddButtonBindings(
       ::System::Collections::Generic::List_1<::System::Tuple_3<::HMUI::__MouseBinder__ButtonType, ::HMUI::__MouseBinder__MouseEventType, ::UnityEngine::Events::UnityAction*>*>* bindingData);
 
-  /// @brief Method AddButtonBinding addr 0x211a054 size 0xf8 virtual false final false
+  /// @brief Method AddButtonBinding addr 0x1fc43dc size 0xf8 virtual false final false
   inline void AddButtonBinding(::HMUI::__MouseBinder__ButtonType buttonType, ::HMUI::__MouseBinder__MouseEventType keyBindingType, ::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method RemoveButtonBinding addr 0x211a14c size 0xb0 virtual false final false
+  /// @brief Method RemoveButtonBinding addr 0x1fc44d4 size 0xb0 virtual false final false
   inline void RemoveButtonBinding(::HMUI::__MouseBinder__ButtonType buttonType, ::HMUI::__MouseBinder__MouseEventType keyBindingType, ::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method ClearBindings addr 0x211a1fc size 0xa4 virtual false final false
+  /// @brief Method ClearBindings addr 0x1fc4584 size 0xa4 virtual false final false
   inline void ClearBindings();
 
-  /// @brief Method ManualUpdate addr 0x211a2a0 size 0x384 virtual false final false
+  /// @brief Method ManualUpdate addr 0x1fc4628 size 0x384 virtual false final false
   inline void ManualUpdate();
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseBinder", modifiers: "&&", def_value: None }]
@@ -260,6 +264,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::MouseBinder, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::MouseBinder, ____enabled_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::MouseBinder, ____scrollBindings) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::MouseBinder, ____buttonBindings) == 0x20, "Offset mismatch!");
 
 } // namespace HMUI
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::__MouseBinder__ButtonType, "HMUI", "MouseBinder/ButtonType");

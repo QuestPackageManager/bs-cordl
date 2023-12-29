@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__TableCell_def.hpp"
 CORDL_MODULE_EXPORT(GameServerListDetailTableCell)
-namespace UnityEngine::UI {
-class Button;
-}
 namespace System {
 class Action;
 }
 namespace HMUI {
 class ButtonBinder;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServerListDetailTableCell);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5421))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13781))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5520))
 // CS Name: ::GameServerListDetailTableCell*
 class CORDL_TYPE GameServerListDetailTableCell : public ::HMUI::TableCell {
 public:
@@ -56,21 +56,21 @@ public:
 
   constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  /// @brief Method add_joinServerButtonWasPressedEvent addr 0x2278d10 size 0x9c virtual false final false
+  /// @brief Method add_joinServerButtonWasPressedEvent addr 0x2135a1c size 0x9c virtual false final false
   inline void add_joinServerButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_joinServerButtonWasPressedEvent addr 0x2278dac size 0x9c virtual false final false
+  /// @brief Method remove_joinServerButtonWasPressedEvent addr 0x2135ab8 size 0x9c virtual false final false
   inline void remove_joinServerButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method Start addr 0x2278e48 size 0xa8 virtual true final false
+  /// @brief Method Start addr 0x2135b54 size 0xa8 virtual true final false
   inline void Start();
 
   static inline ::GlobalNamespace::GameServerListDetailTableCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x2278ef0 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x2135bfc size 0x68 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Start>b__5_0 addr 0x2278f58 size 0x1c virtual false final false
+  /// @brief Method <Start>b__5_0 addr 0x2135c64 size 0x1c virtual false final false
   inline void _Start_b__5_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServerListDetailTableCell", modifiers: "&&", def_value: None }]
@@ -100,6 +100,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerListDetailTableCell, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServerListDetailTableCell, ____joinServerButton) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServerListDetailTableCell, ___joinServerButtonWasPressedEvent) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServerListDetailTableCell, ____buttonBinder) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameServerListDetailTableCell);

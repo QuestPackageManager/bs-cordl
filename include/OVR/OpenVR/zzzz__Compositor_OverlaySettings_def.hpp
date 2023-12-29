@@ -20,8 +20,8 @@ MARK_VAL_T(::OVR::OpenVR::Compositor_OverlaySettings);
 // SizeInfo { instance_size: 112, native_size: 112, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8646))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8698))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9415))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9467))
 // CS Name: ::OVR.OpenVR::Compositor_OverlaySettings
 struct CORDL_TYPE Compositor_OverlaySettings {
 public:
@@ -88,6 +88,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::Compositor_OverlaySettings, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_OverlaySettings, size) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_OverlaySettings, curved) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_OverlaySettings, antialias) == 0x5, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_OverlaySettings, scale) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_OverlaySettings, distance) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_OverlaySettings, alpha) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_OverlaySettings, uOffset) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_OverlaySettings, vOffset) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_OverlaySettings, uScale) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_OverlaySettings, vScale) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_OverlaySettings, gridDivs) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_OverlaySettings, gridWidth) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_OverlaySettings, gridScale) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::Compositor_OverlaySettings, transform) == 0x30, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::Compositor_OverlaySettings, "OVR.OpenVR", "Compositor_OverlaySettings");

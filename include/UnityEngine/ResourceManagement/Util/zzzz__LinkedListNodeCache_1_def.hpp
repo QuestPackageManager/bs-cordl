@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LinkedListNodeCache_1)
 namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
+template <typename T> class LinkedListNode_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
+template <typename T> class LinkedList_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -23,8 +23,8 @@ namespace UnityEngine::ResourceManagement::Util {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13981))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14252))
 // CS Name: ::UnityEngine.ResourceManagement.Util::LinkedListNodeCache`1<T>*
 class CORDL_TYPE LinkedListNodeCache_1 : public ::System::Object {
 public:

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputBindingComposite_1)
-namespace System {
-class Object;
+namespace UnityEngine::InputSystem {
+struct InputBindingCompositeContext;
 }
 namespace System {
 class Type;
 }
-namespace UnityEngine::InputSystem {
-struct InputBindingCompositeContext;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -27,8 +27,8 @@ namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6189))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6190))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6275))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6276))
 // CS Name: ::UnityEngine.InputSystem::InputBindingComposite`1<TValue>*
 class CORDL_TYPE InputBindingComposite_1 : public ::UnityEngine::InputSystem::InputBindingComposite {
 public:

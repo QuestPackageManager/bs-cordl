@@ -15,18 +15,18 @@ MARK_REF_PTR_T(::System::Collections::Specialized::CaseSensitiveStringDictionary
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9518))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9519))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8355))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8356))
 // CS Name: ::System.Collections.Specialized::CaseSensitiveStringDictionary*
 class CORDL_TYPE CaseSensitiveStringDictionary : public ::System::Collections::Specialized::StringDictionary {
 public:
   // Declarations
   static inline ::System::Collections::Specialized::CaseSensitiveStringDictionary* New_ctor();
 
-  /// @brief Method .ctor addr 0x293fd60 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x27c1d38 size 0x4 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Add addr 0x293fd64 size 0x74 virtual true final false
+  /// @brief Method Add addr 0x27c1d3c size 0x74 virtual true final false
   inline void Add(::StringW key, ::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "CaseSensitiveStringDictionary", modifiers: "&&", def_value: None }]

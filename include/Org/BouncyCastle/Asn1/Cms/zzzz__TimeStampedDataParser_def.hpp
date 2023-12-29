@@ -4,8 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TimeStampedDataParser)
-namespace Org::BouncyCastle::Asn1::Cms {
-class Evidence;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetStringParser;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1SequenceParser;
 }
 namespace System {
 class Object;
@@ -13,17 +16,14 @@ class Object;
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1SequenceParser;
+namespace Org::BouncyCastle::Asn1::Cms {
+class MetaData;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetStringParser;
+namespace Org::BouncyCastle::Asn1::Cms {
+class Evidence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerIA5String;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class MetaData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(100))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::TimeStampedDataParser*
 class CORDL_TYPE TimeStampedDataParser : public ::System::Object {
@@ -103,22 +103,22 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* parser);
 
-  /// @brief Method .ctor addr 0xe82948 size 0x400 virtual false final false
+  /// @brief Method .ctor addr 0xe0d774 size 0x400 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* parser);
 
-  /// @brief Method GetInstance addr 0xe82d48 size 0x128 virtual false final false
+  /// @brief Method GetInstance addr 0xe0db74 size 0x128 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_DataUri addr 0xe82e70 size 0x8 virtual true final false
+  /// @brief Method get_DataUri addr 0xe0dc9c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_DataUri();
 
-  /// @brief Method get_MetaData addr 0xe82e78 size 0x8 virtual true final false
+  /// @brief Method get_MetaData addr 0xe0dca4 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cms::MetaData* get_MetaData();
 
-  /// @brief Method get_Content addr 0xe82e80 size 0x8 virtual true final false
+  /// @brief Method get_Content addr 0xe0dcac size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* get_Content();
 
-  /// @brief Method GetTemporalEvidence addr 0xe82e88 size 0x12c virtual true final false
+  /// @brief Method GetTemporalEvidence addr 0xe0dcb4 size 0x12c virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cms::Evidence* GetTemporalEvidence();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampedDataParser", modifiers: "&&", def_value: None }]
@@ -157,6 +157,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser, ___version) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser, ___dataUri) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser, ___metaData) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser, ___content) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser, ___temporalEvidence) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser, ___parser) == 0x38, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser);

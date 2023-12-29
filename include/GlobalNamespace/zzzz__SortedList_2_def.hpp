@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortedList_2)
 namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
+template <typename T> class LinkedList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
+template <typename T> class LinkedListNode_1;
 }
 namespace GlobalNamespace {
 template <typename T> class ISortedList_1;
@@ -29,8 +29,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T, typename TBase>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14780))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14992))
 // CS Name: ::SortedList`2<T,TBase>*
 class CORDL_TYPE SortedList_2 : public ::System::Object {
 public:
@@ -83,9 +83,6 @@ public:
   /// @brief Method Insert addr 0x0 size 0xffffffffffffffff virtual true final true
   inline ::System::Collections::Generic::LinkedListNode_1<TBase>* Insert(TBase newItem);
 
-  /// @brief Method Insert addr 0x0 size 0xffffffffffffffff virtual true final true
-  inline void Insert(::System::Collections::Generic::LinkedListNode_1<TBase>* newNode);
-
   /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
   inline void Remove(::System::Collections::Generic::LinkedListNode_1<TBase>* node);
 
@@ -93,7 +90,7 @@ public:
   inline void TouchLastUsedNode(::System::Collections::Generic::LinkedListNode_1<TBase>* node);
 
   /// @brief Method InsertInternal addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void InsertInternal(::System::Collections::Generic::LinkedListNode_1<TBase>* newItem);
+  inline ::System::Collections::Generic::LinkedListNode_1<TBase>* InsertInternal(TBase newItem);
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedList_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

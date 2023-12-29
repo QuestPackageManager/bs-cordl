@@ -11,26 +11,26 @@ CORDL_MODULE_EXPORT(XRManagerSettings)
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace UnityEngine::XR::Management {
-class XRLoader;
-}
-namespace UnityEngine::XR::Management {
-class __XRManagerSettings___InitializeLoader_d__24;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine::XR::Management {
+class __XRManagerSettings___InitializeLoader_d__24;
+}
+namespace UnityEngine::XR::Management {
+class XRLoader;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
@@ -49,8 +49,8 @@ MARK_REF_PTR_T(::UnityEngine::XR::Management::__XRManagerSettings___InitializeLo
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1697
-// }), TypeDefinitionIndex(TypeDefinitionIndex(16035))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16039)) CS Name: ::XRManagerSettings::<InitializeLoader>d__24*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15899)), TypeDefinitionIndex(TypeDefinitionIndex(3830)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3830), inst:
+// 1630 }), TypeDefinitionIndex(TypeDefinitionIndex(2611))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15903)) CS Name: ::XRManagerSettings::<InitializeLoader>d__24*
 class CORDL_TYPE __XRManagerSettings___InitializeLoader_d__24 : public ::System::Object {
 public:
   // Declarations
@@ -105,25 +105,25 @@ public:
 
   static inline ::UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2c767fc size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2af2ae8 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2c76d3c size 0x1c virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2af3028 size 0x1c virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2c76d58 size 0x2bc virtual true final true
+  /// @brief Method MoveNext addr 0x2af3044 size 0x2bc virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1 addr 0x2c77014 size 0x50 virtual false final false
+  /// @brief Method <>m__Finally1 addr 0x2af3300 size 0x50 virtual false final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2c77064 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2af3350 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2c7706c size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2af3358 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2c770ac size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2af3398 size 0x1008 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__XRManagerSettings___InitializeLoader_d__24", modifiers: "&&", def_value: None }]
@@ -157,13 +157,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24, _____7__wrap1) == 0x28, "Offset mismatch!");
+
 } // namespace UnityEngine::XR::Management
 // Type: UnityEngine.XR.Management::XRManagerSettings
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16040))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15904))
 // CS Name: ::UnityEngine.XR.Management::XRManagerSettings*
 class CORDL_TYPE XRManagerSettings : public ::UnityEngine::ScriptableObject {
 public:
@@ -249,84 +257,84 @@ public:
 
   constexpr void __set__activeLoader_k__BackingField(::UnityEngine::XR::Management::XRLoader* value);
 
-  /// @brief Method get_automaticLoading addr 0x2c765f0 size 0x8 virtual false final false
+  /// @brief Method get_automaticLoading addr 0x2af28dc size 0x8 virtual false final false
   inline bool get_automaticLoading();
 
-  /// @brief Method set_automaticLoading addr 0x2c765f8 size 0xc virtual false final false
+  /// @brief Method set_automaticLoading addr 0x2af28e4 size 0xc virtual false final false
   inline void set_automaticLoading(bool value);
 
-  /// @brief Method get_automaticRunning addr 0x2c76604 size 0x8 virtual false final false
+  /// @brief Method get_automaticRunning addr 0x2af28f0 size 0x8 virtual false final false
   inline bool get_automaticRunning();
 
-  /// @brief Method set_automaticRunning addr 0x2c7660c size 0xc virtual false final false
+  /// @brief Method set_automaticRunning addr 0x2af28f8 size 0xc virtual false final false
   inline void set_automaticRunning(bool value);
 
-  /// @brief Method get_loaders addr 0x2c76618 size 0x8 virtual false final false
+  /// @brief Method get_loaders addr 0x2af2904 size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* get_loaders();
 
-  /// @brief Method get_activeLoaders addr 0x2c76620 size 0x8 virtual false final false
+  /// @brief Method get_activeLoaders addr 0x2af290c size 0x8 virtual false final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::XR::Management::XRLoader*>* get_activeLoaders();
 
-  /// @brief Method get_isInitializationComplete addr 0x2c76628 size 0x8 virtual false final false
+  /// @brief Method get_isInitializationComplete addr 0x2af2914 size 0x8 virtual false final false
   inline bool get_isInitializationComplete();
 
-  /// @brief Method get_activeLoader addr 0x2c76630 size 0x8 virtual false final false
+  /// @brief Method get_activeLoader addr 0x2af291c size 0x8 virtual false final false
   inline ::UnityEngine::XR::Management::XRLoader* get_activeLoader();
 
-  /// @brief Method set_activeLoader addr 0x2c76638 size 0x8 virtual false final false
+  /// @brief Method set_activeLoader addr 0x2af2924 size 0x8 virtual false final false
   inline void set_activeLoader(::UnityEngine::XR::Management::XRLoader* value);
 
   /// @brief Method ActiveLoaderAs addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> inline T ActiveLoaderAs();
 
-  /// @brief Method InitializeLoaderSync addr 0x2c75e7c size 0x23c virtual false final false
+  /// @brief Method InitializeLoaderSync addr 0x2af2128 size 0x23c virtual false final false
   inline void InitializeLoaderSync();
 
-  /// @brief Method InitializeLoader addr 0x2c76794 size 0x68 virtual false final false
+  /// @brief Method InitializeLoader addr 0x2af2a80 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* InitializeLoader();
 
-  /// @brief Method TryAddLoader addr 0x2c76824 size 0x194 virtual false final false
+  /// @brief Method TryAddLoader addr 0x2af2b10 size 0x194 virtual false final false
   inline bool TryAddLoader(::UnityEngine::XR::Management::XRLoader* loader, int32_t index);
 
-  /// @brief Method TryRemoveLoader addr 0x2c769b8 size 0x94 virtual false final false
+  /// @brief Method TryRemoveLoader addr 0x2af2ca4 size 0x94 virtual false final false
   inline bool TryRemoveLoader(::UnityEngine::XR::Management::XRLoader* loader);
 
-  /// @brief Method TrySetLoaders addr 0x2c76a4c size 0x1d8 virtual false final false
+  /// @brief Method TrySetLoaders addr 0x2af2d38 size 0x1d8 virtual false final false
   inline bool TrySetLoaders(::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* reorderedLoaders);
 
-  /// @brief Method CheckGraphicsAPICompatibility addr 0x2c76640 size 0x154 virtual false final false
+  /// @brief Method CheckGraphicsAPICompatibility addr 0x2af292c size 0x154 virtual false final false
   inline bool CheckGraphicsAPICompatibility(::UnityEngine::XR::Management::XRLoader* loader);
 
-  /// @brief Method StartSubsystems addr 0x2c760b8 size 0xdc virtual false final false
+  /// @brief Method StartSubsystems addr 0x2af2364 size 0xdc virtual false final false
   inline void StartSubsystems();
 
-  /// @brief Method StopSubsystems addr 0x2c76240 size 0xdc virtual false final false
+  /// @brief Method StopSubsystems addr 0x2af24ec size 0xdc virtual false final false
   inline void StopSubsystems();
 
-  /// @brief Method DeinitializeLoader addr 0x2c7631c size 0xe4 virtual false final false
+  /// @brief Method DeinitializeLoader addr 0x2af25c8 size 0xe4 virtual false final false
   inline void DeinitializeLoader();
 
-  /// @brief Method Start addr 0x2c76c24 size 0x18 virtual false final false
+  /// @brief Method Start addr 0x2af2f10 size 0x18 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDisable addr 0x2c76c3c size 0x18 virtual false final false
+  /// @brief Method OnDisable addr 0x2af2f28 size 0x18 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method OnDestroy addr 0x2c76c54 size 0x10 virtual false final false
+  /// @brief Method OnDestroy addr 0x2af2f40 size 0x10 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method get_currentLoaders addr 0x2c76c64 size 0x8 virtual false final false
+  /// @brief Method get_currentLoaders addr 0x2af2f50 size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* get_currentLoaders();
 
-  /// @brief Method set_currentLoaders addr 0x2c76c6c size 0x8 virtual false final false
+  /// @brief Method set_currentLoaders addr 0x2af2f58 size 0x8 virtual false final false
   inline void set_currentLoaders(::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* value);
 
-  /// @brief Method get_registeredLoaders addr 0x2c76c74 size 0x8 virtual false final false
+  /// @brief Method get_registeredLoaders addr 0x2af2f60 size 0x8 virtual false final false
   inline ::System::Collections::Generic::HashSet_1<::UnityEngine::XR::Management::XRLoader*>* get_registeredLoaders();
 
   static inline ::UnityEngine::XR::Management::XRManagerSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c76c7c size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x2af2f68 size 0xc0 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XRManagerSettings", modifiers: "&&", def_value: None }]
@@ -368,6 +376,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::Management::XRManagerSettings, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Management::XRManagerSettings, ___m_InitializationComplete) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Management::XRManagerSettings, ___m_RequiresSettingsUpdate) == 0x19, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Management::XRManagerSettings, ___m_AutomaticLoading) == 0x1a, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Management::XRManagerSettings, ___m_AutomaticRunning) == 0x1b, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Management::XRManagerSettings, ___m_Loaders) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Management::XRManagerSettings, ___m_RegisteredLoaders) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::Management::XRManagerSettings, ____activeLoader_k__BackingField) == 0x30, "Offset mismatch!");
 
 } // namespace UnityEngine::XR::Management
 NEED_NO_BOX(::UnityEngine::XR::Management::XRManagerSettings);

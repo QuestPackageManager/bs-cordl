@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__ByReference_1_impl.hpp"
 #include "System/zzzz__Span_1_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ByReference_1_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 template <typename T> inline void System::Span_1<T>::_ctor(::ArrayW<T, ::Array<T>*> array) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Span_1<T>>::get(), ".ctor", std::vector<Il2CppClass*>{},

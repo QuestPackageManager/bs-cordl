@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::_Activator);
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3342))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3338))
 // CS Name: ::System.Runtime.InteropServices::_Activator*
 class CORDL_TYPE _Activator {
 public:

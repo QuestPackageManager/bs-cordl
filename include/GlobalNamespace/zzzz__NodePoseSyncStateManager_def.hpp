@@ -11,31 +11,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NodePoseSyncStateManager)
 namespace GlobalNamespace {
-struct PoseSerializable;
-}
-namespace GlobalNamespace {
-struct __NodePoseSyncState__NodePose;
+class INodePoseSyncStateManager;
 }
 namespace GlobalNamespace {
 struct NodePoseSyncState;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class INodePoseSyncStateManager_5;
-}
-namespace GlobalNamespace {
-class INodePoseSyncStateManager;
-}
-namespace GlobalNamespace {
 class NodePoseSyncStateNetSerializable;
+}
+namespace GlobalNamespace {
+struct PoseSerializable;
 }
 namespace GlobalNamespace {
 template <typename T> class IPacketPool_1;
 }
 namespace GlobalNamespace {
+class NodePoseSyncStateDeltaNetSerializable;
+}
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class INodePoseSyncStateManager_5;
+}
+namespace GlobalNamespace {
 struct __MultiplayerSessionManager__MessageType;
 }
 namespace GlobalNamespace {
-class NodePoseSyncStateDeltaNetSerializable;
+struct __NodePoseSyncState__NodePose;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -47,17 +47,17 @@ MARK_REF_PTR_T(::GlobalNamespace::NodePoseSyncStateManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12974)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14951), inst: 3651 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15042)), TypeDefinitionIndex(TypeDefinitionIndex(14951)), TypeDefinitionIndex(TypeDefinitionIndex(12975)), TypeDefinitionIndex(TypeDefinitionIndex(12973)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12972))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14966)) CS Name: ::NodePoseSyncStateManager*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12895)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4564), inst: 3574 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(12896)), TypeDefinitionIndex(TypeDefinitionIndex(12893)), TypeDefinitionIndex(TypeDefinitionIndex(12894)), TypeDefinitionIndex(TypeDefinitionIndex(15187)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4564))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4579)) CS Name: ::NodePoseSyncStateManager*
 class CORDL_TYPE NodePoseSyncStateManager
     : public ::GlobalNamespace::MultiplayerSyncStateManager_5<::GlobalNamespace::NodePoseSyncState, ::GlobalNamespace::__NodePoseSyncState__NodePose, ::GlobalNamespace::PoseSerializable,
                                                               ::GlobalNamespace::NodePoseSyncStateNetSerializable*, ::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*> {
 public:
   // Declarations
-  __declspec(property(get = get_deltaUpdateFrequencyMs)) int64_t deltaUpdateFrequencyMs;
+  __declspec(property(get = get_deltaUpdateFrequency)) float_t deltaUpdateFrequency;
 
-  __declspec(property(get = get_fullStateUpdateFrequencyMs)) int64_t fullStateUpdateFrequencyMs;
+  __declspec(property(get = get_fullStateUpdateFrequency)) float_t fullStateUpdateFrequency;
 
   __declspec(property(get = get_localBufferSize)) int32_t localBufferSize;
 
@@ -79,39 +79,39 @@ public:
   constexpr operator ::GlobalNamespace::INodePoseSyncStateManager_5<::GlobalNamespace::NodePoseSyncState, ::GlobalNamespace::__NodePoseSyncState__NodePose, ::GlobalNamespace::PoseSerializable,
                                                                     ::GlobalNamespace::NodePoseSyncStateNetSerializable*, ::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>*() noexcept;
 
-  /// @brief Method get_deltaUpdateFrequencyMs addr 0x2637c2c size 0x8 virtual true final false
-  inline int64_t get_deltaUpdateFrequencyMs();
+  /// @brief Method get_deltaUpdateFrequency addr 0x221d34c size 0xc virtual true final false
+  inline float_t get_deltaUpdateFrequency();
 
-  /// @brief Method get_fullStateUpdateFrequencyMs addr 0x2637c34 size 0x8 virtual true final false
-  inline int64_t get_fullStateUpdateFrequencyMs();
+  /// @brief Method get_fullStateUpdateFrequency addr 0x221d358 size 0xc virtual true final false
+  inline float_t get_fullStateUpdateFrequency();
 
-  /// @brief Method get_localBufferSize addr 0x2637c3c size 0x8 virtual true final false
+  /// @brief Method get_localBufferSize addr 0x221d364 size 0x8 virtual true final false
   inline int32_t get_localBufferSize();
 
-  /// @brief Method get_remoteBufferSize addr 0x2637c44 size 0x8 virtual true final false
+  /// @brief Method get_remoteBufferSize addr 0x221d36c size 0x8 virtual true final false
   inline int32_t get_remoteBufferSize();
 
-  /// @brief Method get_serializablePool addr 0x2637c4c size 0x8 virtual true final false
+  /// @brief Method get_serializablePool addr 0x221d374 size 0x8 virtual true final false
   inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::NodePoseSyncStateNetSerializable*>* get_serializablePool();
 
-  /// @brief Method get_deltaSerializablePool addr 0x2637c54 size 0x8 virtual true final false
+  /// @brief Method get_deltaSerializablePool addr 0x221d37c size 0x8 virtual true final false
   inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* get_deltaSerializablePool();
 
-  /// @brief Method get_messageType addr 0x2637c5c size 0x8 virtual true final false
+  /// @brief Method get_messageType addr 0x221d384 size 0x8 virtual true final false
   inline ::GlobalNamespace::__MultiplayerSessionManager__MessageType get_messageType();
 
-  /// @brief Method get_deltaMessageType addr 0x2637c64 size 0x8 virtual true final false
+  /// @brief Method get_deltaMessageType addr 0x221d38c size 0x8 virtual true final false
   inline ::GlobalNamespace::__MultiplayerSessionManager__MessageType get_deltaMessageType();
 
-  /// @brief Method Interpolate addr 0x2637c6c size 0x6c virtual true final false
-  inline ::GlobalNamespace::PoseSerializable Interpolate(::GlobalNamespace::PoseSerializable prev, int64_t prevTime, ::GlobalNamespace::PoseSerializable curr, int64_t currTime, int64_t time);
+  /// @brief Method Interpolate addr 0x221d394 size 0x5c virtual true final false
+  inline ::GlobalNamespace::PoseSerializable Interpolate(::GlobalNamespace::PoseSerializable prev, float_t prevTime, ::GlobalNamespace::PoseSerializable curr, float_t currTime, float_t time);
 
-  /// @brief Method Smooth addr 0x2637cd8 size 0x5c virtual true final false
+  /// @brief Method Smooth addr 0x221d3f0 size 0x5c virtual true final false
   inline ::GlobalNamespace::PoseSerializable Smooth(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b, float_t smooth);
 
   static inline ::GlobalNamespace::NodePoseSyncStateManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2637d34 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x221d44c size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NodePoseSyncStateManager", modifiers: "&&", def_value: None }]

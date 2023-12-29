@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::NetLogLevel);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14157))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14495))
 // CS Name: ::LiteNetLib::NetLogLevel
 struct CORDL_TYPE NetLogLevel {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::NetLogLevel, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetLogLevel, value__) == 0x0, "Offset mismatch!");
 
 } // namespace LiteNetLib
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetLogLevel, "LiteNetLib", "NetLogLevel");

@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FakeMirrorSettings);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15286))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15315))
 // CS Name: ::FakeMirrorSettings*
 class CORDL_TYPE FakeMirrorSettings : public ::UnityEngine::MonoBehaviour {
 public:
@@ -114,27 +114,27 @@ public:
 
   static inline int32_t getStaticF__vertexDistortionZposMultiplierId();
 
-  /// @brief Method get_fakeMirrorTransparency addr 0x28079e8 size 0x8 virtual false final false
+  /// @brief Method get_fakeMirrorTransparency addr 0x268cd50 size 0x8 virtual false final false
   inline float_t get_fakeMirrorTransparency();
 
-  /// @brief Method set_fakeMirrorTransparency addr 0x28079f0 size 0x8 virtual false final false
+  /// @brief Method set_fakeMirrorTransparency addr 0x268cd58 size 0x8 virtual false final false
   inline void set_fakeMirrorTransparency(float_t value);
 
-  /// @brief Method Start addr 0x28079f8 size 0x4 virtual false final false
+  /// @brief Method Start addr 0x268cd60 size 0x4 virtual false final false
   inline void Start();
 
-  /// @brief Method OnEnable addr 0x2807b0c size 0x4 virtual false final false
+  /// @brief Method OnEnable addr 0x268ce74 size 0x4 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate addr 0x2807b10 size 0x4 virtual false final false
+  /// @brief Method OnValidate addr 0x268ce78 size 0x4 virtual false final false
   inline void OnValidate();
 
-  /// @brief Method SetGlobalParameters addr 0x28079fc size 0x110 virtual false final false
+  /// @brief Method SetGlobalParameters addr 0x268cd64 size 0x110 virtual false final false
   inline void SetGlobalParameters();
 
   static inline ::GlobalNamespace::FakeMirrorSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x2807b14 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x268ce7c size 0x30 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorSettings", modifiers: "&&", def_value: None }]
@@ -173,6 +173,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FakeMirrorSettings, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FakeMirrorSettings, ____fakeMirrorTransparency) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FakeMirrorSettings, ____useVertexDistortion) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FakeMirrorSettings, ____vertexDistortionNoiseScale) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FakeMirrorSettings, ____vertexDistortionStrength) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FakeMirrorSettings, ____vertexDistortionDirectionality) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FakeMirrorSettings, ____vertexDistortionZposMultiplier) == 0x34, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FakeMirrorSettings);

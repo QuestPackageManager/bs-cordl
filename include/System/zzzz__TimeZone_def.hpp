@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeZone)
 namespace System {
-struct TimeSpan;
+class Object;
 }
 namespace System {
 struct DateTime;
@@ -15,7 +15,7 @@ namespace System::Globalization {
 class DaylightTime;
 }
 namespace System {
-class Object;
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::TimeZone);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2485))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2483))
 // CS Name: ::System::TimeZone*
 class CORDL_TYPE TimeZone : public ::System::Object {
 public:
@@ -47,15 +47,15 @@ public:
 
   static inline ::System::Object* getStaticF_s_InternalSyncObject();
 
-  /// @brief Method get_InternalSyncObject addr 0x25c6ee0 size 0xa0 virtual false final false
+  /// @brief Method get_InternalSyncObject addr 0x2469fb8 size 0xa0 virtual false final false
   static inline ::System::Object* get_InternalSyncObject();
 
   static inline ::System::TimeZone* New_ctor();
 
-  /// @brief Method .ctor addr 0x25c6f80 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x246a058 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_CurrentTimeZone addr 0x25c6f88 size 0x16c virtual false final false
+  /// @brief Method get_CurrentTimeZone addr 0x246a060 size 0x16c virtual false final false
   static inline ::System::TimeZone* get_CurrentTimeZone();
 
   /// @brief Method GetUtcOffset addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -64,7 +64,7 @@ public:
   /// @brief Method GetDaylightChanges addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Globalization::DaylightTime* GetDaylightChanges(int32_t year);
 
-  /// @brief Method CalculateUtcOffset addr 0x25c70f4 size 0x21c virtual false final false
+  /// @brief Method CalculateUtcOffset addr 0x246a1cc size 0x21c virtual false final false
   static inline ::System::TimeSpan CalculateUtcOffset(::System::DateTime time, ::System::Globalization::DaylightTime* daylightTimes);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeZone", modifiers: "&&", def_value: None }]

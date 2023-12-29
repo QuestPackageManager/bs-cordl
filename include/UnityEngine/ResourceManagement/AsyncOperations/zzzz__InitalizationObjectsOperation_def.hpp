@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(InitalizationObjectsOperation)
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+struct AsyncOperationHandle;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace UnityEngine::AddressableAssets::Initialization {
 class ResourceManagerRuntimeData;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl;
@@ -34,10 +34,10 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::Initalization
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }), TypeDefinitionIndex(TypeDefinitionIndex(14125)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 858 }), TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14032), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(14032))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14047)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14304), inst: 781 }), TypeDefinitionIndex(TypeDefinitionIndex(14305)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14304)), TypeDefinitionIndex(TypeDefinitionIndex(3823)), TypeDefinitionIndex(TypeDefinitionIndex(14396)), TypeDefinitionIndex(TypeDefinitionIndex(14303)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14304), inst: 845 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3823), inst: 279 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14303), inst: 112 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14318)) CS Name:
 // ::UnityEngine.ResourceManagement.AsyncOperations::InitalizationObjectsOperation*
 class CORDL_TYPE InitalizationObjectsOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
 public:
@@ -80,28 +80,28 @@ public:
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
           value);
 
-  /// @brief Method Init addr 0x2a0f148 size 0x34 virtual false final false
+  /// @brief Method Init addr 0x2891400 size 0x34 virtual false final false
   inline void Init(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> rtdOp,
                    ::UnityEngine::AddressableAssets::AddressablesImpl* addressables);
 
-  /// @brief Method get_DebugName addr 0x2a0f218 size 0x40 virtual true final false
+  /// @brief Method get_DebugName addr 0x28914d0 size 0x40 virtual true final false
   inline ::StringW get_DebugName();
 
-  /// @brief Method LogRuntimeWarnings addr 0x2a0f258 size 0x1fc virtual false final false
+  /// @brief Method LogRuntimeWarnings addr 0x2891510 size 0x1fc virtual false final false
   inline bool LogRuntimeWarnings(::StringW pathToBuildLogs);
 
-  /// @brief Method InvokeWaitForCompletion addr 0x2a0f584 size 0x1a0 virtual true final false
+  /// @brief Method InvokeWaitForCompletion addr 0x289183c size 0x1a0 virtual true final false
   inline bool InvokeWaitForCompletion();
 
-  /// @brief Method Execute addr 0x2a0f724 size 0x6a0 virtual true final false
+  /// @brief Method Execute addr 0x28919dc size 0x6a0 virtual true final false
   inline void Execute();
 
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a0fec0 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2892178 size 0x48 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Execute>b__8_0 addr 0x2a0ff08 size 0x1ac virtual false final false
+  /// @brief Method <Execute>b__8_0 addr 0x28921c0 size 0x1ac virtual false final false
   inline void _Execute_b__8_0(
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
           obj);
@@ -134,6 +134,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation, 0xd0>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation, ___m_RtdOp) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation, ___m_Addressables) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation, ___m_DepOp) == 0xb0, "Offset mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::AsyncOperations
 NEED_NO_BOX(::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation);

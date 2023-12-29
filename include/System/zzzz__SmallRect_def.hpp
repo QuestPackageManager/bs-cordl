@@ -16,7 +16,7 @@ MARK_VAL_T(::System::SmallRect);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2646))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2644))
 // CS Name: ::System::SmallRect
 struct CORDL_TYPE SmallRect {
 public:
@@ -48,6 +48,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::SmallRect, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::System::SmallRect, Left) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::SmallRect, Top) == 0x2, "Offset mismatch!");
+
+static_assert(offsetof(::System::SmallRect, Right) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::System::SmallRect, Bottom) == 0x6, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::SmallRect, "System", "SmallRect");

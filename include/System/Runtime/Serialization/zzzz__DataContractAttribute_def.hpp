@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::DataContractAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16239))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16070))
 // CS Name: ::System.Runtime.Serialization::DataContractAttribute*
 class CORDL_TYPE DataContractAttribute : public ::System::Attribute {
 public:
@@ -31,7 +31,7 @@ public:
 
   constexpr void __set_isReference(bool value);
 
-  /// @brief Method get_IsReference addr 0x284d5f4 size 0x8 virtual false final false
+  /// @brief Method get_IsReference addr 0x26d15e0 size 0x8 virtual false final false
   inline bool get_IsReference();
 
   // Ctor Parameters [CppParam { name: "", ty: "DataContractAttribute", modifiers: "&&", def_value: None }]
@@ -55,6 +55,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::DataContractAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::DataContractAttribute, ___isReference) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::DataContractAttribute);

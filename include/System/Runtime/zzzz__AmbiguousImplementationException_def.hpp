@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AmbiguousImplementationException)
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Runtime {
@@ -21,25 +21,25 @@ MARK_REF_PTR_T(::System::Runtime::AmbiguousImplementationException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3050))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3049))
 // CS Name: ::System.Runtime::AmbiguousImplementationException*
 class CORDL_TYPE AmbiguousImplementationException : public ::System::Exception {
 public:
   // Declarations
   static inline ::System::Runtime::AmbiguousImplementationException* New_ctor();
 
-  /// @brief Method .ctor addr 0x2484af4 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x232d000 size 0x80 virtual false final false
   inline void _ctor();
 
   static inline ::System::Runtime::AmbiguousImplementationException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x2484b74 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x232d080 size 0x78 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Runtime::AmbiguousImplementationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x2484bec size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x232d0f8 size 0x80 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "AmbiguousImplementationException", modifiers: "&&", def_value: None }]

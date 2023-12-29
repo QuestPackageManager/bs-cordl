@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Net::ICredentials);
 namespace System::Net {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9070))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7907))
 // CS Name: ::System.Net::ICredentials*
 class CORDL_TYPE ICredentials {
 public:

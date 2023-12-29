@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDifficultyMaskExtensions)
 namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+struct BeatmapDifficultyMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,34 +22,34 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDifficultyMaskExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14720))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14937))
 // CS Name: ::BeatmapDifficultyMaskExtensions*
 class CORDL_TYPE BeatmapDifficultyMaskExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToMask addr 0xdfd7f0 size 0xc virtual false final false
+  /// @brief Method ToMask addr 0xd98248 size 0xc virtual false final false
   static inline ::GlobalNamespace::BeatmapDifficultyMask ToMask(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method FromMask addr 0xdfd7fc size 0x54 virtual false final false
+  /// @brief Method FromMask addr 0xd98254 size 0x54 virtual false final false
   static inline ::GlobalNamespace::BeatmapDifficulty FromMask(::GlobalNamespace::BeatmapDifficultyMask mask);
 
-  /// @brief Method LocalizedKey addr 0xdfd850 size 0xdc virtual false final false
+  /// @brief Method LocalizedKey addr 0xd982a8 size 0xdc virtual false final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::BeatmapDifficultyMask mask);
 
-  /// @brief Method ShortLocalizedKey addr 0xdfd92c size 0xdc virtual false final false
+  /// @brief Method ShortLocalizedKey addr 0xd98384 size 0xdc virtual false final false
   static inline ::StringW ShortLocalizedKey(::GlobalNamespace::BeatmapDifficultyMask mask);
 
-  /// @brief Method Contains addr 0xdfda08 size 0x18 virtual false final false
+  /// @brief Method Contains addr 0xd98460 size 0x18 virtual false final false
   static inline bool Contains(::GlobalNamespace::BeatmapDifficultyMask mask, ::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method Contains addr 0xdfda20 size 0x10 virtual false final false
+  /// @brief Method Contains addr 0xd98478 size 0x10 virtual false final false
   static inline bool Contains(::GlobalNamespace::BeatmapDifficultyMask mask, ::GlobalNamespace::BeatmapDifficultyMask other);
 
-  /// @brief Method DifferenceFrom addr 0xdfda30 size 0x3c virtual false final false
+  /// @brief Method DifferenceFrom addr 0xd98488 size 0x3c virtual false final false
   static inline int32_t DifferenceFrom(::GlobalNamespace::BeatmapDifficultyMask mask, ::GlobalNamespace::BeatmapDifficultyMask other);
 
-  /// @brief Method ToHexString addr 0xdfdaa0 size 0x5c virtual false final false
+  /// @brief Method ToHexString addr 0xd984f8 size 0x5c virtual false final false
   static inline ::StringW ToHexString(::GlobalNamespace::BeatmapDifficultyMask mask);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyMaskExtensions", modifiers: "&&", def_value: None }]

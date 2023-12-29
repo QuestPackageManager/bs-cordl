@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::IDisposable);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2415))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2413))
 // CS Name: ::System::IDisposable*
 class CORDL_TYPE IDisposable {
 public:

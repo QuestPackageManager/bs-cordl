@@ -7,47 +7,47 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapCallbacksController)
-namespace System {
-class IDisposable;
-}
 namespace GlobalNamespace {
-class __BeatmapCallbacksController__CallCallbacksBehavior;
-}
-namespace GlobalNamespace {
-class CallbacksInTime;
-}
-namespace GlobalNamespace {
-class __BeatmapCallbacksController__CallCallbacksBehaviorWithLastState;
+class __BeatmapCallbacksController__InitData;
 }
 namespace GlobalNamespace {
 class BeatmapEventData;
 }
 namespace GlobalNamespace {
-class __BeatmapCallbacksController__ICallCallbacksBehavior;
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 template <typename T> class BeatmapDataCallback_1;
 }
 namespace GlobalNamespace {
-class __BeatmapCallbacksController__InitData;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
-class BeatmapDataItem;
+class __BeatmapCallbacksController__CallCallbacksBehavior;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+class __BeatmapCallbacksController__ICallCallbacksBehavior;
+}
+namespace GlobalNamespace {
+class BeatmapDataItem;
 }
 namespace System {
 class Action;
 }
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class __BeatmapCallbacksController__CallCallbacksBehaviorWithLastState;
+}
+namespace GlobalNamespace {
+class CallbacksInTime;
+}
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 class Type;
@@ -81,8 +81,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapCallbacksController__InitData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4704))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4825))
 // CS Name: ::BeatmapCallbacksController::InitData*
 class CORDL_TYPE __BeatmapCallbacksController__InitData : public ::System::Object {
 public:
@@ -116,7 +116,7 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapCallbacksController__InitData* New_ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, float_t startFilterTime, bool shouldKeepReplayState);
 
-  /// @brief Method .ctor addr 0x237b7f0 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x2246d94 size 0x40 virtual false final false
   inline void _ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, float_t startFilterTime, bool shouldKeepReplayState);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapCallbacksController__InitData", modifiers: "&&", def_value: None }]
@@ -147,13 +147,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapCallbacksController__InitData, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BeatmapCallbacksController__InitData, ___beatmapData) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapCallbacksController__InitData, ___startFilterTime) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapCallbacksController__InitData, ___shouldKeepReplayState) == 0x1c, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ICallCallbacksBehavior
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4705))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4826))
 // CS Name: ::BeatmapCallbacksController::ICallCallbacksBehavior*
 class CORDL_TYPE __BeatmapCallbacksController__ICallCallbacksBehavior {
 public:
@@ -180,8 +186,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4706))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4827))
 // CS Name: ::BeatmapCallbacksController::CallCallbacksBehavior*
 class CORDL_TYPE __BeatmapCallbacksController__CallCallbacksBehavior : public ::System::Object {
 public:
@@ -189,15 +195,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior"
   constexpr operator ::GlobalNamespace::__BeatmapCallbacksController__ICallCallbacksBehavior*() noexcept;
 
-  /// @brief Method CallCallbacks addr 0x237b830 size 0x18 virtual true final true
+  /// @brief Method CallCallbacks addr 0x2246dd4 size 0x18 virtual true final true
   inline void CallCallbacks(::GlobalNamespace::CallbacksInTime* callbacksInTime, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
-  /// @brief Method Replay addr 0x237b848 size 0x4 virtual true final true
+  /// @brief Method Replay addr 0x2246dec size 0x4 virtual true final true
   inline void Replay(::System::Collections::Generic::Dictionary_2<float_t, ::GlobalNamespace::CallbacksInTime*>* callbacksInTimes);
 
   static inline ::GlobalNamespace::__BeatmapCallbacksController__CallCallbacksBehavior* New_ctor();
 
-  /// @brief Method .ctor addr 0x2379f08 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22454ac size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapCallbacksController__CallCallbacksBehavior", modifiers: "&&", def_value: None }]
@@ -224,8 +230,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapCallba
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4707))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4828))
 // CS Name: ::BeatmapCallbacksController::CallCallbacksBehaviorWithLastState*
 class CORDL_TYPE __BeatmapCallbacksController__CallCallbacksBehaviorWithLastState : public ::System::Object {
 public:
@@ -244,15 +250,15 @@ public:
 
   constexpr void __set__replayState(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::BeatmapDataItem*>* value);
 
-  /// @brief Method CallCallbacks addr 0x237b84c size 0xc4 virtual true final true
+  /// @brief Method CallCallbacks addr 0x2246df0 size 0xc4 virtual true final true
   inline void CallCallbacks(::GlobalNamespace::CallbacksInTime* callbacksInTime, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
-  /// @brief Method Replay addr 0x237b910 size 0x288 virtual true final true
+  /// @brief Method Replay addr 0x2246eb4 size 0x288 virtual true final true
   inline void Replay(::System::Collections::Generic::Dictionary_2<float_t, ::GlobalNamespace::CallbacksInTime*>* callbacksInTimes);
 
   static inline ::GlobalNamespace::__BeatmapCallbacksController__CallCallbacksBehaviorWithLastState* New_ctor();
 
-  /// @brief Method .ctor addr 0x2379f10 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x22454b4 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapCallbacksController__CallCallbacksBehaviorWithLastState", modifiers: "&&", def_value: None }]
@@ -277,13 +283,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapCallbacksController__CallCallbacksBehaviorWithLastState, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BeatmapCallbacksController__CallCallbacksBehaviorWithLastState, ____replayState) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BeatmapCallbacksController
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 62, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4708))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4829))
 // CS Name: ::BeatmapCallbacksController*
 class CORDL_TYPE BeatmapCallbacksController : public ::System::Object {
 public:
@@ -384,33 +392,33 @@ public:
 
   constexpr void __set__processingCallbacks(bool value);
 
-  /// @brief Method get_sendCallbacksOnBeatmapDataChange addr 0x2379a8c size 0x8 virtual false final false
+  /// @brief Method get_sendCallbacksOnBeatmapDataChange addr 0x2245030 size 0x8 virtual false final false
   inline bool get_sendCallbacksOnBeatmapDataChange();
 
-  /// @brief Method set_sendCallbacksOnBeatmapDataChange addr 0x2379a94 size 0xc virtual false final false
+  /// @brief Method set_sendCallbacksOnBeatmapDataChange addr 0x2245038 size 0xc virtual false final false
   inline void set_sendCallbacksOnBeatmapDataChange(bool value);
 
-  /// @brief Method get_songTime addr 0x2379aa0 size 0x8 virtual false final false
+  /// @brief Method get_songTime addr 0x2245044 size 0x8 virtual false final false
   inline float_t get_songTime();
 
-  /// @brief Method add_didProcessAllCallbacksThisFrameEvent addr 0x2379aa8 size 0x9c virtual false final false
+  /// @brief Method add_didProcessAllCallbacksThisFrameEvent addr 0x224504c size 0x9c virtual false final false
   inline void add_didProcessAllCallbacksThisFrameEvent(::System::Action* value);
 
-  /// @brief Method remove_didProcessAllCallbacksThisFrameEvent addr 0x2379b44 size 0x9c virtual false final false
+  /// @brief Method remove_didProcessAllCallbacksThisFrameEvent addr 0x22450e8 size 0x9c virtual false final false
   inline void remove_didProcessAllCallbacksThisFrameEvent(::System::Action* value);
 
   static inline ::GlobalNamespace::BeatmapCallbacksController* New_ctor(::GlobalNamespace::__BeatmapCallbacksController__InitData* initData);
 
-  /// @brief Method .ctor addr 0x2379be0 size 0x328 virtual false final false
+  /// @brief Method .ctor addr 0x2245184 size 0x328 virtual false final false
   inline void _ctor(::GlobalNamespace::__BeatmapCallbacksController__InitData* initData);
 
-  /// @brief Method Dispose addr 0x2379f8c size 0x254 virtual true final true
+  /// @brief Method Dispose addr 0x2245530 size 0x254 virtual true final true
   inline void Dispose();
 
-  /// @brief Method ReplayState addr 0x237a1e0 size 0xac virtual false final false
+  /// @brief Method ReplayState addr 0x2245784 size 0xac virtual false final false
   inline void ReplayState();
 
-  /// @brief Method ManualUpdate addr 0x237a28c size 0x5e0 virtual false final false
+  /// @brief Method ManualUpdate addr 0x2245830 size 0x5e0 virtual false final false
   inline void ManualUpdate(float_t songTime);
 
   /// @brief Method AddBeatmapCallback addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -428,20 +436,20 @@ public:
   inline ::GlobalNamespace::BeatmapDataCallbackWrapper* AddBeatmapCallback(float_t aheadTime, ::GlobalNamespace::BeatmapDataCallback_1<T>* callback,
                                                                            ::ArrayW<int32_t, ::Array<int32_t>*> beatmapDataSubtypeIdentifiers);
 
-  /// @brief Method RemoveBeatmapCallback addr 0x237a86c size 0xc0 virtual false final false
+  /// @brief Method RemoveBeatmapCallback addr 0x2245e10 size 0xc0 virtual false final false
   inline void RemoveBeatmapCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
 
-  /// @brief Method TriggerBeatmapEvent addr 0x237ab9c size 0x160 virtual false final false
+  /// @brief Method TriggerBeatmapEvent addr 0x2246140 size 0x160 virtual false final false
   inline void TriggerBeatmapEvent(::GlobalNamespace::BeatmapEventData* beatmapEventData);
 
-  /// @brief Method HandleBeatmapEventDataWasInserted addr 0x237add0 size 0x5d8 virtual false final false
+  /// @brief Method HandleBeatmapEventDataWasInserted addr 0x2246374 size 0x5d8 virtual false final false
   inline void HandleBeatmapEventDataWasInserted(::GlobalNamespace::BeatmapEventData* beatmapEventData, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node);
 
-  /// @brief Method HandleBeatmapEventDataWillBeRemoved addr 0x237b3a8 size 0x254 virtual false final false
+  /// @brief Method HandleBeatmapEventDataWillBeRemoved addr 0x224694c size 0x254 virtual false final false
   inline void HandleBeatmapEventDataWillBeRemoved(::GlobalNamespace::BeatmapEventData* beatmapEventDataToRemove,
                                                   ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToRemove);
 
-  /// @brief Method HandleBeatmapEventDataWasRemoved addr 0x237b5fc size 0x1f4 virtual false final false
+  /// @brief Method HandleBeatmapEventDataWasRemoved addr 0x2246ba0 size 0x1f4 virtual false final false
   inline void HandleBeatmapEventDataWasRemoved(::GlobalNamespace::BeatmapEventData* beatmapEventData);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController", modifiers: "&&", def_value: None }]
@@ -489,6 +497,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapCallbacksController, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapCallbacksController, ___didProcessAllCallbacksThisFrameEvent) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapCallbacksController, ____callbacksInTimes) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapCallbacksController, ____beatmapData) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapCallbacksController, ____callCallbacksBehavior) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapCallbacksController, ____startFilterTime) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapCallbacksController, ____prevSongTime) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapCallbacksController, ____songTime) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapCallbacksController, ____sendCallbacksOnBeatmapDataChangeChange) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapCallbacksController, ____processingCallbacks) == 0x3d, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapCallbacksController);

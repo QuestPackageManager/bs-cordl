@@ -16,15 +16,15 @@ MARK_VAL_T(::System::Xml::LineInfo);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11532))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11460))
 // CS Name: ::System.Xml::LineInfo
 struct CORDL_TYPE LineInfo {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x28923c4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27153a4 size 0x8 virtual false final false
   inline void _ctor(int32_t lineNo, int32_t linePos);
 
-  /// @brief Method Set addr 0x28923cc size 0x8 virtual false final false
+  /// @brief Method Set addr 0x27153ac size 0x8 virtual false final false
   inline void Set(int32_t lineNo, int32_t linePos);
 
   // Ctor Parameters [CppParam { name: "lineNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePos", ty: "int32_t", modifiers: "", def_value: None }]
@@ -47,6 +47,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::LineInfo, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::LineInfo, lineNo) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::LineInfo, linePos) == 0x4, "Offset mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::LineInfo, "System.Xml", "LineInfo");

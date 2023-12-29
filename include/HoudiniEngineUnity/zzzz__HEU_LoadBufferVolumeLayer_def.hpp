@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9951)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9807)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(9878)), TypeDefinitionIndex(TypeDefinitionIndex(10170)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9734)) CS Name:
 // ::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*
 class CORDL_TYPE HEU_LoadBufferVolumeLayer : public ::System::Object {
 public:
@@ -291,7 +291,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer* New_ctor();
 
-  /// @brief Method .ctor addr 0x21abd18 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x205537c size 0x80 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_LoadBufferVolumeLayer", modifiers: "&&", def_value: None }]
@@ -399,6 +399,64 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, 0xd8>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____layerName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____partID) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____heightMapWidth) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____heightMapHeight) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____strength) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____diffuseTexturePath) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____maskTexturePath) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____metallic) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____normalTexturePath) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____normalScale) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____smoothness) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____specularColor) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____tileSize) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____tileOffset) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____uiExpanded) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____tile) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____normalizedHeights) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____minHeight) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____maxHeight) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____heightRange) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____terrainSizeX) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____terrainSizeY) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____position) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____minBounds) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____maxBounds) == 0xac, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____center) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____layerPath) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____hasLayerAttributes) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer, ____layerType) == 0xd4, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer);

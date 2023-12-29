@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Graph::G_Graph);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Graph {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15080))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15258))
 // CS Name: ::Tayx.Graphy.Graph::G_Graph*
 class CORDL_TYPE G_Graph : public ::UnityEngine::MonoBehaviour {
 public:
@@ -28,7 +28,7 @@ public:
 
   static inline ::Tayx::Graphy::Graph::G_Graph* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a07f7c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x288a75c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_Graph", modifiers: "&&", def_value: None }]

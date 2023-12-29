@@ -1,17 +1,17 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Priority_Queue/zzzz__GenericPriorityQueue_2_def.hpp"
-#include "Priority_Queue/zzzz__GenericPriorityQueue_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Priority_Queue/zzzz__GenericPriorityQueue_2_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Priority_Queue/zzzz__IFixedSizePriorityQueue_2_def.hpp"
 #include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
-#include "Priority_Queue/zzzz__IFixedSizePriorityQueue_2_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TItem>"
 template <typename TItem, typename TPriority>
 constexpr Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>::operator ::System::Collections::Generic::IEnumerator_1<TItem>*() noexcept {

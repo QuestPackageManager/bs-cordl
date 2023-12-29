@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RectOffset)
 namespace System {
-class Object;
-}
-namespace System {
 class IFormattable;
 }
 namespace System {
 class IFormatProvider;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 struct Rect;
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::UnityEngine::RectOffset);
 // SizeInfo { instance_size: 32, native_size: 16, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10161))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10089))
 // CS Name: ::UnityEngine::RectOffset*
 class CORDL_TYPE RectOffset : public ::System::Object {
 public:
@@ -71,71 +71,71 @@ public:
 
   static inline ::UnityEngine::RectOffset* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cc88d4 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2b624bc size 0x48 virtual false final false
   inline void _ctor();
 
   static inline ::UnityEngine::RectOffset* New_ctor(::System::Object* sourceStyle, void* source);
 
-  /// @brief Method .ctor addr 0x2cc8944 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2b6252c size 0x2c virtual false final false
   inline void _ctor(::System::Object* sourceStyle, void* source);
 
-  /// @brief Method Finalize addr 0x2cc8970 size 0xa0 virtual true final false
+  /// @brief Method Finalize addr 0x2b62558 size 0xa0 virtual true final false
   inline void Finalize();
 
   static inline ::UnityEngine::RectOffset* New_ctor(int32_t left, int32_t right, int32_t top, int32_t bottom);
 
-  /// @brief Method .ctor addr 0x2cc8ab0 size 0x114 virtual false final false
+  /// @brief Method .ctor addr 0x2b62698 size 0x114 virtual false final false
   inline void _ctor(int32_t left, int32_t right, int32_t top, int32_t bottom);
 
-  /// @brief Method ToString addr 0x2cc8cd4 size 0xc virtual true final false
+  /// @brief Method ToString addr 0x2b628bc size 0xc virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString addr 0x2cc8ce0 size 0x29c virtual true final true
+  /// @brief Method ToString addr 0x2b628c8 size 0x29c virtual true final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method Destroy addr 0x2cc8a10 size 0xa0 virtual false final false
+  /// @brief Method Destroy addr 0x2b625f8 size 0xa0 virtual false final false
   inline void Destroy();
 
-  /// @brief Method InternalCreate addr 0x2cc891c size 0x28 virtual false final false
+  /// @brief Method InternalCreate addr 0x2b62504 size 0x28 virtual false final false
   static inline void* InternalCreate();
 
-  /// @brief Method InternalDestroy addr 0x2cc906c size 0x3c virtual false final false
+  /// @brief Method InternalDestroy addr 0x2b62c54 size 0x3c virtual false final false
   static inline void InternalDestroy(void* ptr);
 
-  /// @brief Method get_left addr 0x2cc8f7c size 0x3c virtual false final false
+  /// @brief Method get_left addr 0x2b62b64 size 0x3c virtual false final false
   inline int32_t get_left();
 
-  /// @brief Method set_left addr 0x2cc8bc4 size 0x44 virtual false final false
+  /// @brief Method set_left addr 0x2b627ac size 0x44 virtual false final false
   inline void set_left(int32_t value);
 
-  /// @brief Method get_right addr 0x2cc8fb8 size 0x3c virtual false final false
+  /// @brief Method get_right addr 0x2b62ba0 size 0x3c virtual false final false
   inline int32_t get_right();
 
-  /// @brief Method set_right addr 0x2cc8c08 size 0x44 virtual false final false
+  /// @brief Method set_right addr 0x2b627f0 size 0x44 virtual false final false
   inline void set_right(int32_t value);
 
-  /// @brief Method get_top addr 0x2cc8ff4 size 0x3c virtual false final false
+  /// @brief Method get_top addr 0x2b62bdc size 0x3c virtual false final false
   inline int32_t get_top();
 
-  /// @brief Method set_top addr 0x2cc8c4c size 0x44 virtual false final false
+  /// @brief Method set_top addr 0x2b62834 size 0x44 virtual false final false
   inline void set_top(int32_t value);
 
-  /// @brief Method get_bottom addr 0x2cc9030 size 0x3c virtual false final false
+  /// @brief Method get_bottom addr 0x2b62c18 size 0x3c virtual false final false
   inline int32_t get_bottom();
 
-  /// @brief Method set_bottom addr 0x2cc8c90 size 0x44 virtual false final false
+  /// @brief Method set_bottom addr 0x2b62878 size 0x44 virtual false final false
   inline void set_bottom(int32_t value);
 
-  /// @brief Method get_horizontal addr 0x2cc90a8 size 0x3c virtual false final false
+  /// @brief Method get_horizontal addr 0x2b62c90 size 0x3c virtual false final false
   inline int32_t get_horizontal();
 
-  /// @brief Method get_vertical addr 0x2cc90e4 size 0x3c virtual false final false
+  /// @brief Method get_vertical addr 0x2b62ccc size 0x3c virtual false final false
   inline int32_t get_vertical();
 
-  /// @brief Method Remove addr 0x2cc9120 size 0x64 virtual false final false
+  /// @brief Method Remove addr 0x2b62d08 size 0x64 virtual false final false
   inline ::UnityEngine::Rect Remove(::UnityEngine::Rect rect);
 
-  /// @brief Method Remove_Injected addr 0x2cc9184 size 0x54 virtual false final false
+  /// @brief Method Remove_Injected addr 0x2b62d6c size 0x54 virtual false final false
   inline void Remove_Injected(ByRef<::UnityEngine::Rect> rect, ByRef<::UnityEngine::Rect> ret);
 
   // Ctor Parameters [CppParam { name: "", ty: "RectOffset", modifiers: "&&", def_value: None }]
@@ -162,6 +162,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::RectOffset, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::RectOffset, ___m_Ptr) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::RectOffset, ___m_SourceStyle) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::RectOffset);

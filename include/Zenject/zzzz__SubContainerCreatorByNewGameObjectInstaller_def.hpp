@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__SubContainerCreatorByNewGameObjectDynamicContext_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewGameObjectInstaller)
-namespace Zenject {
-class __SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0;
+namespace System {
+class Type;
 }
 namespace Zenject {
 class GameObjectCreationParameters;
 }
 namespace Zenject {
-class GameObjectContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class DiContainer;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
 namespace Zenject {
-class DiContainer;
+class GameObjectContext;
 }
-namespace System {
-class Type;
+namespace Zenject {
+class __SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::Zenject::__SubContainerCreatorByNewGameObjectInstaller____c__Di
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11256))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11184))
 // CS Name: ::SubContainerCreatorByNewGameObjectInstaller::<>c__DisplayClass3_0*
 class CORDL_TYPE __SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -73,16 +73,16 @@ public:
 
   static inline ::Zenject::__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2f0bb04 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2da3d34 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <AddInstallers>b__0 addr 0x2f0bb68 size 0x178 virtual false final false
+  /// @brief Method <AddInstallers>b__0 addr 0x2da3d98 size 0x178 virtual false final false
   inline void _AddInstallers_b__0(::Zenject::DiContainer* subContainer);
 
-  /// @brief Method __zenCreate addr 0x2f0bce0 size 0x5c virtual false final false
+  /// @brief Method __zenCreate addr 0x2da3f10 size 0x5c virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f0bd3c size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2da3f6c size 0x1c0 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
@@ -110,13 +110,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0, ___args) == 0x18, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: Zenject::SubContainerCreatorByNewGameObjectInstaller
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11255))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11257))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11183))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11185))
 // CS Name: ::Zenject::SubContainerCreatorByNewGameObjectInstaller*
 class CORDL_TYPE SubContainerCreatorByNewGameObjectInstaller : public ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext {
 public:
@@ -144,11 +148,11 @@ public:
   static inline ::Zenject::SubContainerCreatorByNewGameObjectInstaller* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
                                                                                  ::System::Type* installerType, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
 
-  /// @brief Method .ctor addr 0x2f0b940 size 0xd0 virtual false final false
+  /// @brief Method .ctor addr 0x2da3b70 size 0xd0 virtual false final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Type* installerType,
                     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
 
-  /// @brief Method AddInstallers addr 0x2f0ba10 size 0xf4 virtual true final false
+  /// @brief Method AddInstallers addr 0x2da3c40 size 0xf4 virtual true final false
   inline void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewGameObjectInstaller", modifiers: "&&", def_value: None }]
@@ -175,6 +179,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::SubContainerCreatorByNewGameObjectInstaller, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::SubContainerCreatorByNewGameObjectInstaller, ____installerType) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::SubContainerCreatorByNewGameObjectInstaller, ____extraArgs) == 0x28, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::SubContainerCreatorByNewGameObjectInstaller);

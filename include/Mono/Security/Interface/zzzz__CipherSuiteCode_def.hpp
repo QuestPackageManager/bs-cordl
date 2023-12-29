@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Security::Interface::CipherSuiteCode);
 namespace Mono::Security::Interface {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13777))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14048))
 // CS Name: ::Mono.Security.Interface::CipherSuiteCode
 struct CORDL_TYPE CipherSuiteCode {
 public:
@@ -1113,6 +1113,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::CipherSuiteCode, 0x2>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::Interface::CipherSuiteCode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Mono::Security::Interface
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::CipherSuiteCode, "Mono.Security.Interface", "CipherSuiteCode");

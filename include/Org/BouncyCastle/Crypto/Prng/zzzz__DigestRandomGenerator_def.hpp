@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1107))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::DigestRandomGenerator*
 class CORDL_TYPE DigestRandomGenerator : public ::System::Object {
@@ -78,34 +78,34 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0xf42034 size 0x168 virtual false final false
+  /// @brief Method .ctor addr 0xecbe48 size 0x168 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method AddSeedMaterial addr 0xf4219c size 0xc8 virtual true final true
+  /// @brief Method AddSeedMaterial addr 0xecbfb0 size 0xc8 virtual true final true
   inline void AddSeedMaterial(::ArrayW<uint8_t, ::Array<uint8_t>*> inSeed);
 
-  /// @brief Method AddSeedMaterial addr 0xf423d0 size 0xc8 virtual true final true
+  /// @brief Method AddSeedMaterial addr 0xecc1e4 size 0xc8 virtual true final true
   inline void AddSeedMaterial(int64_t rSeed);
 
-  /// @brief Method NextBytes addr 0xf42590 size 0x1c virtual true final true
+  /// @brief Method NextBytes addr 0xecc3a4 size 0x1c virtual true final true
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method NextBytes addr 0xf425ac size 0x168 virtual true final true
+  /// @brief Method NextBytes addr 0xecc3c0 size 0x168 virtual true final true
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t len);
 
-  /// @brief Method CycleSeed addr 0xf42788 size 0x34 virtual false final false
+  /// @brief Method CycleSeed addr 0xecc59c size 0x34 virtual false final false
   inline void CycleSeed();
 
-  /// @brief Method GenerateState addr 0xf42714 size 0x74 virtual false final false
+  /// @brief Method GenerateState addr 0xecc528 size 0x74 virtual false final false
   inline void GenerateState();
 
-  /// @brief Method DigestAddCounter addr 0xf42498 size 0xf8 virtual false final false
+  /// @brief Method DigestAddCounter addr 0xecc2ac size 0xf8 virtual false final false
   inline void DigestAddCounter(int64_t seedVal);
 
-  /// @brief Method DigestUpdate addr 0xf42264 size 0xbc virtual false final false
+  /// @brief Method DigestUpdate addr 0xecc078 size 0xbc virtual false final false
   inline void DigestUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> inSeed);
 
-  /// @brief Method DigestDoFinal addr 0xf42320 size 0xb0 virtual false final false
+  /// @brief Method DigestDoFinal addr 0xecc134 size 0xb0 virtual false final false
   inline void DigestDoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "DigestRandomGenerator", modifiers: "&&", def_value: None }]
@@ -144,6 +144,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator, ___stateCounter) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator, ___seedCounter) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator, ___digest) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator, ___state) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator, ___seed) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Prng
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator);

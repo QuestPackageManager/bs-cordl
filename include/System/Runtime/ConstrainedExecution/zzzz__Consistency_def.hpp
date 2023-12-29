@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::ConstrainedExecution::Consistency);
 namespace System::Runtime::ConstrainedExecution {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3351))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3347))
 // CS Name: ::System.Runtime.ConstrainedExecution::Consistency
 struct CORDL_TYPE Consistency {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::ConstrainedExecution::Consistency, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::ConstrainedExecution::Consistency, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Runtime::ConstrainedExecution
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::ConstrainedExecution::Consistency, "System.Runtime.ConstrainedExecution", "Consistency");

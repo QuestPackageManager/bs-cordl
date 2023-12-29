@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::ProcessorArchitecture);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3486))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3481))
 // CS Name: ::System.Reflection::ProcessorArchitecture
 struct CORDL_TYPE ProcessorArchitecture {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::ProcessorArchitecture, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::ProcessorArchitecture, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::ProcessorArchitecture, "System.Reflection", "ProcessorArchitecture");

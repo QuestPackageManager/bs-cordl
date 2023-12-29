@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::TOPNodeTags);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9769))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9696))
 // CS Name: ::HoudiniEngineUnity::TOPNodeTags*
 class CORDL_TYPE TOPNodeTags : public ::System::Object {
 public:
@@ -40,7 +40,7 @@ public:
 
   static inline ::HoudiniEngineUnity::TOPNodeTags* New_ctor();
 
-  /// @brief Method .ctor addr 0x219a6dc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2043d40 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TOPNodeTags", modifiers: "&&", def_value: None }]
@@ -67,6 +67,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::TOPNodeTags, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::TOPNodeTags, ____show) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::TOPNodeTags, ____autoload) == 0x11, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::TOPNodeTags);

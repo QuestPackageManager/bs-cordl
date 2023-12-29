@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CombineMeshes)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __CombineMeshes____c;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
 namespace UnityEngine::ProBuilder {
 class Face;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __CombineMeshes____c;
+}
+namespace UnityEngine::ProBuilder {
+class SharedVertex;
+}
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder {
 class Vertex;
 }
 namespace UnityEngine::ProBuilder {
-class SharedVertex;
+class ProBuilderMesh;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -57,8 +57,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__CombineMeshes____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12248))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12176))
 // CS Name: ::CombineMeshes::<>c*
 class CORDL_TYPE __CombineMeshes____c : public ::System::Object {
 public:
@@ -79,10 +79,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__CombineMeshes____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ba43c0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a2266c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <SplitByMaxVertexCount>b__5_0 addr 0x2ba43c8 size 0x18 virtual false final false
+  /// @brief Method <SplitByMaxVertexCount>b__5_0 addr 0x2a22674 size 0x18 virtual false final false
   inline int32_t _SplitByMaxVertexCount_b__5_0(::UnityEngine::ProBuilder::Face* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CombineMeshes____c", modifiers: "&&", def_value: None }]
@@ -109,27 +109,27 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12249))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12177))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::CombineMeshes*
 class CORDL_TYPE CombineMeshes : public ::System::Object {
 public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::MeshOperations::__CombineMeshes____c;
 
-  /// @brief Method Combine addr 0x2ba1374 size 0x4 virtual false final false
+  /// @brief Method Combine addr 0x2a1f620 size 0x4 virtual false final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*
   Combine(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshes);
 
-  /// @brief Method Combine addr 0x2ba181c size 0xbb8 virtual false final false
+  /// @brief Method Combine addr 0x2a1fac8 size 0xbb8 virtual false final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*
   Combine(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshes, ::UnityEngine::ProBuilder::ProBuilderMesh* meshTarget);
 
-  /// @brief Method CombineToNewMeshes addr 0x2ba1378 size 0x4a4 virtual false final false
+  /// @brief Method CombineToNewMeshes addr 0x2a1f624 size 0x4a4 virtual false final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*
   CombineToNewMeshes(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshes);
 
-  /// @brief Method AccumulateMeshesInfo addr 0x2ba23d4 size 0xd74 virtual false final false
+  /// @brief Method AccumulateMeshesInfo addr 0x2a20680 size 0xd74 virtual false final false
   static inline void AccumulateMeshesInfo(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshes, int32_t offset,
                                           ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*> vertices,
                                           ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*> faces,
@@ -138,13 +138,13 @@ public:
                                           ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*> sharedTextures,
                                           ByRef<::System::Collections::Generic::List_1<::UnityEngine::Material*>*> materialMap, ::UnityEngine::Transform* targetTransform);
 
-  /// @brief Method CreateMeshFromSplit addr 0x2ba3e50 size 0x50c virtual false final false
+  /// @brief Method CreateMeshFromSplit addr 0x2a220fc size 0x50c virtual false final false
   static inline ::UnityEngine::ProBuilder::ProBuilderMesh*
   CreateMeshFromSplit(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces,
                       ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedVertexLookup, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedTextureLookup,
                       ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* remap, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> materials);
 
-  /// @brief Method SplitByMaxVertexCount addr 0x2ba3148 size 0xd08 virtual false final false
+  /// @brief Method SplitByMaxVertexCount addr 0x2a213f4 size 0xd08 virtual false final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*
   SplitByMaxVertexCount(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces,
                         ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices,

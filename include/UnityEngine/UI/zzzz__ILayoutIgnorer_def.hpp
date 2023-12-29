@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::ILayoutIgnorer);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13088))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13093))
 // CS Name: ::UnityEngine.UI::ILayoutIgnorer*
 class CORDL_TYPE ILayoutIgnorer {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::BindingFlags);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3459))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3454))
 // CS Name: ::System.Reflection::BindingFlags
 struct CORDL_TYPE BindingFlags {
 public:
@@ -133,6 +133,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::BindingFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::BindingFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::BindingFlags, "System.Reflection", "BindingFlags");

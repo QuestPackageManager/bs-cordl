@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Reflection::ExceptionHandlingClause);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3467)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3515))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3462))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3510))
 // CS Name: ::System.Reflection::ExceptionHandlingClause*
 class CORDL_TYPE ExceptionHandlingClause : public ::System::Object {
 public:
@@ -91,10 +91,10 @@ public:
 
   static inline ::System::Reflection::ExceptionHandlingClause* New_ctor();
 
-  /// @brief Method .ctor addr 0x24f19fc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2397f4c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method ToString addr 0x24f1a04 size 0x2c4 virtual true final false
+  /// @brief Method ToString addr 0x2397f54 size 0x2c4 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExceptionHandlingClause", modifiers: "&&", def_value: None }]
@@ -136,6 +136,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::ExceptionHandlingClause, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::ExceptionHandlingClause, ___catch_type) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::ExceptionHandlingClause, ___filter_offset) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::ExceptionHandlingClause, ___flags) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::ExceptionHandlingClause, ___try_offset) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::ExceptionHandlingClause, ___try_length) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::ExceptionHandlingClause, ___handler_offset) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::ExceptionHandlingClause, ___handler_length) == 0x2c, "Offset mismatch!");
 
 } // namespace System::Reflection
 NEED_NO_BOX(::System::Reflection::ExceptionHandlingClause);

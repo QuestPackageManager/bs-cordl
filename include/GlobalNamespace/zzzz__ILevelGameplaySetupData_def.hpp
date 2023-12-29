@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ILevelGameplaySetupData)
 namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class PreviewDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ILevelGameplaySetupData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4489))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4500))
 // CS Name: ::ILevelGameplaySetupData*
 class CORDL_TYPE ILevelGameplaySetupData {
 public:

@@ -3,16 +3,24 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Task_1)
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Threading::Tasks {
-struct TaskContinuationOptions;
+class TaskScheduler;
 }
 namespace System::Threading::Tasks {
-struct TaskCreationOptions;
+struct TaskContinuationOptions;
+}
+namespace System {
+class Delegate;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -21,16 +29,7 @@ namespace System {
 class Object;
 }
 namespace System::Threading::Tasks {
-struct InternalTaskOptions;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskFactory_1;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+struct TaskCreationOptions;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
@@ -41,131 +40,30 @@ template <typename TResult> struct ConfiguredTaskAwaitable_1;
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace System {
-class Delegate;
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskFactory_1;
 }
 namespace System::Threading::Tasks {
-class TaskScheduler;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class __Task_1__TaskWhenAnyCast;
-}
-namespace GlobalNamespace {
-template <typename TResult> class __Task_1__TaskWhenAnyCast____c;
+struct InternalTaskOptions;
 }
 // Forward declare root types
-namespace GlobalNamespace {
-template <typename TResult> class __Task_1__TaskWhenAnyCast____c;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class __Task_1__TaskWhenAnyCast;
-}
 // Write type traits
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__Task_1__TaskWhenAnyCast____c);
 MARK_GEN_REF_PTR_T(::System::Threading::Tasks::Task_1);
-MARK_GEN_REF_PTR_T(::System::Threading::Tasks::__Task_1__TaskWhenAnyCast);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// cpp template
-template <typename TResult>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2771))
-// CS Name: ::Task`1::TaskWhenAnyCast::<>c<TResult>*
-class CORDL_TYPE __Task_1__TaskWhenAnyCast____c : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>* __9;
-
-  static inline void setStaticF___9(::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>* value);
-
-  static inline ::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>* getStaticF___9();
-
-  static inline ::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>* New_ctor();
-
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor();
-
-  /// @brief Method <.cctor>b__1_0 addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline ::System::Threading::Tasks::Task_1<TResult>* __cctor_b__1_0(::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* completed);
-
-  // Ctor Parameters [CppParam { name: "", ty: "__Task_1__TaskWhenAnyCast____c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __Task_1__TaskWhenAnyCast____c(__Task_1__TaskWhenAnyCast____c&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__Task_1__TaskWhenAnyCast____c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __Task_1__TaskWhenAnyCast____c(__Task_1__TaskWhenAnyCast____c const&) = delete;
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Task_1__TaskWhenAnyCast____c();
-
-public:
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace GlobalNamespace
-// Type: ::TaskWhenAnyCast
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace System::Threading::Tasks {
-// cpp template
-template <typename TResult>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2772))
-// CS Name: ::Task`1::TaskWhenAnyCast<TResult>*
-class CORDL_TYPE __Task_1__TaskWhenAnyCast : public ::System::Object {
-public:
-  // Declarations
-  using __c = ::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>;
-
-  /// @brief Field Value, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Value,
-                             put = setStaticF_Value))::System::Func_2<::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*, ::System::Threading::Tasks::Task_1<TResult>*>* Value;
-
-  static inline void setStaticF_Value(::System::Func_2<::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*, ::System::Threading::Tasks::Task_1<TResult>*>* value);
-
-  static inline ::System::Func_2<::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*, ::System::Threading::Tasks::Task_1<TResult>*>* getStaticF_Value();
-
-  // Ctor Parameters [CppParam { name: "", ty: "__Task_1__TaskWhenAnyCast", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __Task_1__TaskWhenAnyCast(__Task_1__TaskWhenAnyCast&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__Task_1__TaskWhenAnyCast", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __Task_1__TaskWhenAnyCast(__Task_1__TaskWhenAnyCast const&) = delete;
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Task_1__TaskWhenAnyCast();
-
-public:
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace System::Threading::Tasks
 // Type: System.Threading.Tasks::Task`1
 // SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2787))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2773))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2783))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2769))
 // CS Name: ::System.Threading.Tasks::Task`1<TResult>*
 class CORDL_TYPE Task_1 : public ::System::Threading::Tasks::Task {
 public:
   // Declarations
-  using TaskWhenAnyCast = ::System::Threading::Tasks::__Task_1__TaskWhenAnyCast<TResult>;
-
   /// @brief Field m_result, offset 0x50, size 0x8
   __declspec(property(get = __get_m_result, put = __set_m_result)) TResult m_result;
 
@@ -287,12 +185,6 @@ public:
   /// @brief Method ContinueWith addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename TNewResult>
   inline ::System::Threading::Tasks::Task_1<TNewResult>* ContinueWith(::System::Func_2<::System::Threading::Tasks::Task_1<TResult>*, TNewResult>* continuationFunction,
-                                                                      ::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskContinuationOptions continuationOptions,
-                                                                      ::System::Threading::Tasks::TaskScheduler* scheduler);
-
-  /// @brief Method ContinueWith addr 0x0 size 0xffffffffffffffff virtual false final false
-  template <typename TNewResult>
-  inline ::System::Threading::Tasks::Task_1<TNewResult>* ContinueWith(::System::Func_2<::System::Threading::Tasks::Task_1<TResult>*, TNewResult>* continuationFunction,
                                                                       ::System::Threading::Tasks::TaskScheduler* scheduler, ::System::Threading::CancellationToken cancellationToken,
                                                                       ::System::Threading::Tasks::TaskContinuationOptions continuationOptions);
 
@@ -317,6 +209,4 @@ public:
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__Task_1__TaskWhenAnyCast____c, "System.Threading.Tasks", "Task`1/TaskWhenAnyCast/<>c");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::Tasks::Task_1, "System.Threading.Tasks", "Task`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::Tasks::__Task_1__TaskWhenAnyCast, "System.Threading.Tasks", "Task`1/TaskWhenAnyCast");

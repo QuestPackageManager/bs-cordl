@@ -5,8 +5,14 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IssuingDistributionPoint)
-namespace Org::BouncyCastle::Asn1::X509 {
-class ReasonFlags;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 class Object;
@@ -14,17 +20,11 @@ class Object;
 namespace Org::BouncyCastle::Asn1::X509 {
 class DistributionPointName;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace System::Text {
-class StringBuilder;
+namespace Org::BouncyCastle::Asn1::X509 {
+class ReasonFlags;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -117,50 +117,50 @@ public:
 
   constexpr void __set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0x119143c size 0x18 virtual false final false
+  /// @brief Method GetInstance addr 0x11211f4 size 0x18 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0x1191454 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0x112120c size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* New_ctor(::Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPoint, bool onlyContainsUserCerts,
                                                                                     bool onlyContainsCACerts, ::Org::BouncyCastle::Asn1::X509::ReasonFlags* onlySomeReasons, bool indirectCRL,
                                                                                     bool onlyContainsAttributeCerts);
 
-  /// @brief Method .ctor addr 0x1191888 size 0x2f0 virtual false final false
+  /// @brief Method .ctor addr 0x1121640 size 0x2f0 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPoint, bool onlyContainsUserCerts, bool onlyContainsCACerts,
                     ::Org::BouncyCastle::Asn1::X509::ReasonFlags* onlySomeReasons, bool indirectCRL, bool onlyContainsAttributeCerts);
 
   static inline ::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x11915dc size 0x2ac virtual false final false
+  /// @brief Method .ctor addr 0x1121394 size 0x2ac virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_OnlyContainsUserCerts addr 0x1191b78 size 0x8 virtual false final false
+  /// @brief Method get_OnlyContainsUserCerts addr 0x1121930 size 0x8 virtual false final false
   inline bool get_OnlyContainsUserCerts();
 
-  /// @brief Method get_OnlyContainsCACerts addr 0x1191b80 size 0x8 virtual false final false
+  /// @brief Method get_OnlyContainsCACerts addr 0x1121938 size 0x8 virtual false final false
   inline bool get_OnlyContainsCACerts();
 
-  /// @brief Method get_IsIndirectCrl addr 0x1191b88 size 0x8 virtual false final false
+  /// @brief Method get_IsIndirectCrl addr 0x1121940 size 0x8 virtual false final false
   inline bool get_IsIndirectCrl();
 
-  /// @brief Method get_OnlyContainsAttributeCerts addr 0x1191b90 size 0x8 virtual false final false
+  /// @brief Method get_OnlyContainsAttributeCerts addr 0x1121948 size 0x8 virtual false final false
   inline bool get_OnlyContainsAttributeCerts();
 
-  /// @brief Method get_DistributionPoint addr 0x1191b98 size 0x8 virtual false final false
+  /// @brief Method get_DistributionPoint addr 0x1121950 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* get_DistributionPoint();
 
-  /// @brief Method get_OnlySomeReasons addr 0x1191ba0 size 0x8 virtual false final false
+  /// @brief Method get_OnlySomeReasons addr 0x1121958 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* get_OnlySomeReasons();
 
-  /// @brief Method ToAsn1Object addr 0x1191ba8 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1121960 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString addr 0x1191bb0 size 0x284 virtual true final false
+  /// @brief Method ToString addr 0x1121968 size 0x284 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method appendObject addr 0x1191e34 size 0xf8 virtual false final false
+  /// @brief Method appendObject addr 0x1121bec size 0xf8 virtual false final false
   inline void appendObject(::System::Text::StringBuilder* buf, ::StringW sep, ::StringW name, ::StringW val);
 
   // Ctor Parameters [CppParam { name: "", ty: "IssuingDistributionPoint", modifiers: "&&", def_value: None }]
@@ -202,6 +202,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint, ____distributionPoint) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint, ____onlyContainsUserCerts) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint, ____onlyContainsCACerts) == 0x19, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint, ____onlySomeReasons) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint, ____indirectCRL) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint, ____onlyContainsAttributeCerts) == 0x29, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint, ___seq) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint);

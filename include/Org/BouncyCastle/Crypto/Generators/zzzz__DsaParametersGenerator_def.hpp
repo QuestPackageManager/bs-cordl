@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(DsaParametersGenerator)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DsaParameters;
 }
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DsaParameterGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DsaParameterGenerationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(898))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::DsaParametersGenerator*
 class CORDL_TYPE DsaParametersGenerator : public ::System::Object {
@@ -102,51 +102,51 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0xef8500 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0xe8332c size 0x6c virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0xef856c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xe83398 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init addr 0xef8594 size 0x9c virtual true final false
+  /// @brief Method Init addr 0xe833c0 size 0x9c virtual true final false
   inline void Init(int32_t size, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Init addr 0xef8660 size 0x29c virtual true final false
+  /// @brief Method Init addr 0xe8348c size 0x29c virtual true final false
   inline void Init(::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters* parameters);
 
-  /// @brief Method GenerateParameters addr 0xef88fc size 0x1c virtual true final false
+  /// @brief Method GenerateParameters addr 0xe83728 size 0x1c virtual true final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* GenerateParameters();
 
-  /// @brief Method GenerateParameters_FIPS186_2 addr 0xef8918 size 0x538 virtual true final false
+  /// @brief Method GenerateParameters_FIPS186_2 addr 0xe83744 size 0x538 virtual true final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* GenerateParameters_FIPS186_2();
 
-  /// @brief Method CalculateGenerator_FIPS186_2 addr 0xef8fc0 size 0x114 virtual true final false
+  /// @brief Method CalculateGenerator_FIPS186_2 addr 0xe83dec size 0x114 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateGenerator_FIPS186_2(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                              ::Org::BouncyCastle::Security::SecureRandom* r);
 
-  /// @brief Method GenerateParameters_FIPS186_3 addr 0xef90d4 size 0x58c virtual true final false
+  /// @brief Method GenerateParameters_FIPS186_3 addr 0xe83f00 size 0x58c virtual true final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* GenerateParameters_FIPS186_3();
 
-  /// @brief Method CalculateGenerator_FIPS186_3_Unverifiable addr 0xef9660 size 0xc virtual true final false
+  /// @brief Method CalculateGenerator_FIPS186_3_Unverifiable addr 0xe8448c size 0xc virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateGenerator_FIPS186_3_Unverifiable(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                                           ::Org::BouncyCastle::Security::SecureRandom* r);
 
-  /// @brief Method CalculateGenerator_FIPS186_3_Verifiable addr 0xef966c size 0x2b0 virtual true final false
+  /// @brief Method CalculateGenerator_FIPS186_3_Verifiable addr 0xe84498 size 0x2b0 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateGenerator_FIPS186_3_Verifiable(::Org::BouncyCastle::Crypto::IDigest* d, ::Org::BouncyCastle::Math::BigInteger* p,
                                                                                         ::Org::BouncyCastle::Math::BigInteger* q, ::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t index);
 
-  /// @brief Method IsValidDsaStrength addr 0xef8630 size 0x1c virtual false final false
+  /// @brief Method IsValidDsaStrength addr 0xe8345c size 0x1c virtual false final false
   static inline bool IsValidDsaStrength(int32_t strength);
 
-  /// @brief Method Hash addr 0xef8e50 size 0x128 virtual false final false
+  /// @brief Method Hash addr 0xe83c7c size 0x128 virtual false final false
   static inline void Hash(::Org::BouncyCastle::Crypto::IDigest* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method GetDefaultN addr 0xef864c size 0x14 virtual false final false
+  /// @brief Method GetDefaultN addr 0xe83478 size 0x14 virtual false final false
   static inline int32_t GetDefaultN(int32_t L);
 
-  /// @brief Method Inc addr 0xef8f78 size 0x48 virtual false final false
+  /// @brief Method Inc addr 0xe83da4 size 0x48 virtual false final false
   static inline void Inc(::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
   // Ctor Parameters [CppParam { name: "", ty: "DsaParametersGenerator", modifiers: "&&", def_value: None }]
@@ -188,6 +188,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator, ___digest) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator, ___L) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator, ___N) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator, ___certainty) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator, ___random) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator, ___use186_3) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator, ___usageIndex) == 0x34, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator);

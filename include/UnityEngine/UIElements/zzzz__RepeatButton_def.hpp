@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RepeatButton)
 namespace UnityEngine::UIElements {
-class __RepeatButton__UxmlFactory;
+class Clickable;
 }
 namespace UnityEngine::UIElements {
 class __RepeatButton__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-class Clickable;
+class __RepeatButton__UxmlFactory;
 }
 namespace System {
 class Action;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class UxmlLongAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -29,7 +29,7 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class UxmlLongAttributeDescription;
+class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -49,8 +49,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__RepeatButton__UxmlTraits);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6813))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7051))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6899))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7137))
 // CS Name: ::RepeatButton::UxmlTraits*
 class CORDL_TYPE __RepeatButton__UxmlTraits : public ::UnityEngine::UIElements::__TextElement__UxmlTraits {
 public:
@@ -73,12 +73,12 @@ public:
 
   constexpr void __set_m_Interval(::UnityEngine::UIElements::UxmlLongAttributeDescription* value);
 
-  /// @brief Method Init addr 0x2e27420 size 0x134 virtual true final false
+  /// @brief Method Init addr 0x2cc0070 size 0x134 virtual true final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__RepeatButton__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e27554 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x2cc01a4 size 0xc4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__RepeatButton__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -106,13 +106,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__RepeatButton__UxmlTraits, 0xa0>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__RepeatButton__UxmlTraits, ___m_Delay) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__RepeatButton__UxmlTraits, ___m_Interval) == 0x98, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::RepeatButton
 // SizeInfo { instance_size: 1152, native_size: -1, calculated_instance_size: 1152, calculated_native_size: 1152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6814))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7052))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6900))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7138))
 // CS Name: ::UnityEngine.UIElements::RepeatButton*
 class CORDL_TYPE RepeatButton : public ::UnityEngine::UIElements::TextElement {
 public:
@@ -139,15 +143,15 @@ public:
 
   static inline ::UnityEngine::UIElements::RepeatButton* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e27200 size 0x94 virtual false final false
+  /// @brief Method .ctor addr 0x2cbfe50 size 0x94 virtual false final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::RepeatButton* New_ctor(::System::Action* clickEvent, int64_t delay, int64_t interval);
 
-  /// @brief Method .ctor addr 0x2e27294 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x2cbfee4 size 0x40 virtual false final false
   inline void _ctor(::System::Action* clickEvent, int64_t delay, int64_t interval);
 
-  /// @brief Method SetAction addr 0x2e272d4 size 0xa4 virtual false final false
+  /// @brief Method SetAction addr 0x2cbff24 size 0xa4 virtual false final false
   inline void SetAction(::System::Action* clickEvent, int64_t delay, int64_t interval);
 
   // Ctor Parameters [CppParam { name: "", ty: "RepeatButton", modifiers: "&&", def_value: None }]
@@ -172,19 +176,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RepeatButton, 0x480>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::RepeatButton, ___m_Clickable) == 0x478, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::UxmlFactory
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5273 }), TypeDefinitionIndex(TypeDefinitionIndex(7051)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7052)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7050)) CS Name: ::RepeatButton::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7083)), TypeDefinitionIndex(TypeDefinitionIndex(7138)), TypeDefinitionIndex(TypeDefinitionIndex(7137)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5157 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7136)) CS Name: ::RepeatButton::UxmlFactory*
 class CORDL_TYPE __RepeatButton__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::RepeatButton*, ::UnityEngine::UIElements::__RepeatButton__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__RepeatButton__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e273d8 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2cc0028 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__RepeatButton__UxmlFactory", modifiers: "&&", def_value: None }]

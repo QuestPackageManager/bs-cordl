@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignerInformationStore)
 namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
 class ICollection;
 }
 namespace Org::BouncyCastle::Cms {
-class SignerInformation;
+class SignerID;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Cms {
-class SignerID;
+class SignerInformation;
 }
 namespace System::Collections {
 class IList;
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::SignerInformationStore);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(692))
 // CS Name: ::Org.BouncyCastle.Cms::SignerInformationStore*
 class CORDL_TYPE SignerInformationStore : public ::System::Object {
@@ -58,24 +58,24 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::SignerInformationStore* New_ctor(::Org::BouncyCastle::Cms::SignerInformation* signerInfo);
 
-  /// @brief Method .ctor addr 0x120d260 size 0x18c virtual false final false
+  /// @brief Method .ctor addr 0x119c010 size 0x18c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Cms::SignerInformation* signerInfo);
 
   static inline ::Org::BouncyCastle::Cms::SignerInformationStore* New_ctor(::System::Collections::ICollection* signerInfos);
 
-  /// @brief Method .ctor addr 0x120d3ec size 0x5a8 virtual false final false
+  /// @brief Method .ctor addr 0x119c19c size 0x5a8 virtual false final false
   inline void _ctor(::System::Collections::ICollection* signerInfos);
 
-  /// @brief Method GetFirstSigner addr 0x120d994 size 0x190 virtual false final false
+  /// @brief Method GetFirstSigner addr 0x119c744 size 0x190 virtual false final false
   inline ::Org::BouncyCastle::Cms::SignerInformation* GetFirstSigner(::Org::BouncyCastle::Cms::SignerID* selector);
 
-  /// @brief Method get_Count addr 0x120db24 size 0xa4 virtual false final false
+  /// @brief Method get_Count addr 0x119c8d4 size 0xa4 virtual false final false
   inline int32_t get_Count();
 
-  /// @brief Method GetSigners addr 0x120dbc8 size 0x5c virtual false final false
+  /// @brief Method GetSigners addr 0x119c978 size 0x5c virtual false final false
   inline ::System::Collections::ICollection* GetSigners();
 
-  /// @brief Method GetSigners addr 0x120dc24 size 0x130 virtual false final false
+  /// @brief Method GetSigners addr 0x119c9d4 size 0x130 virtual false final false
   inline ::System::Collections::ICollection* GetSigners(::Org::BouncyCastle::Cms::SignerID* selector);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignerInformationStore", modifiers: "&&", def_value: None }]
@@ -102,6 +102,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::SignerInformationStore, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::SignerInformationStore, ___all) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::SignerInformationStore, ___table) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::SignerInformationStore);

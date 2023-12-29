@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(G_ExtensionMethods)
+namespace UnityEngine {
+class GameObject;
+}
 namespace UnityEngine::UI {
 class Image;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine {
-class GameObject;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Utils {
@@ -24,19 +24,19 @@ MARK_REF_PTR_T(::Tayx::Graphy::Utils::G_ExtensionMethods);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Utils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15070))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15248))
 // CS Name: ::Tayx.Graphy.Utils::G_ExtensionMethods*
 class CORDL_TYPE G_ExtensionMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetAllActive addr 0x2a06608 size 0x164 virtual false final false
+  /// @brief Method SetAllActive addr 0x2888e24 size 0x164 virtual false final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* SetAllActive(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* gameObjects, bool active);
 
-  /// @brief Method SetOneActive addr 0x2a0676c size 0xb4 virtual false final false
+  /// @brief Method SetOneActive addr 0x2888f88 size 0xb4 virtual false final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* SetOneActive(::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* images, int32_t active);
 
-  /// @brief Method SetAllActive addr 0x2a06820 size 0x17c virtual false final false
+  /// @brief Method SetAllActive addr 0x288903c size 0x17c virtual false final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* SetAllActive(::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* images, bool active);
 
   // Ctor Parameters [CppParam { name: "", ty: "G_ExtensionMethods", modifiers: "&&", def_value: None }]

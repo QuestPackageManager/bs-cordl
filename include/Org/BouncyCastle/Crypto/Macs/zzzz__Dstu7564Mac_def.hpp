@@ -11,10 +11,10 @@ namespace Org::BouncyCastle::Crypto::Digests {
 class Dstu7564Digest;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Macs::Dstu7564Mac);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Macs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(939))
 // CS Name: ::Org.BouncyCastle.Crypto.Macs::Dstu7564Mac*
 class CORDL_TYPE Dstu7564Mac : public ::System::Object {
@@ -82,36 +82,36 @@ public:
 
   constexpr void __set_invertedKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_AlgorithmName addr 0xf0bc98 size 0x40 virtual true final true
+  /// @brief Method get_AlgorithmName addr 0xe96ab8 size 0x40 virtual true final true
   inline ::StringW get_AlgorithmName();
 
   static inline ::Org::BouncyCastle::Crypto::Macs::Dstu7564Mac* New_ctor(int32_t macSizeBits);
 
-  /// @brief Method .ctor addr 0xf0bcd8 size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0xe96af8 size 0x90 virtual false final false
   inline void _ctor(int32_t macSizeBits);
 
-  /// @brief Method Init addr 0xf0bd68 size 0x17c virtual true final true
+  /// @brief Method Init addr 0xe96b88 size 0x17c virtual true final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetMacSize addr 0xf0c098 size 0x8 virtual true final true
+  /// @brief Method GetMacSize addr 0xe96eb8 size 0x8 virtual true final true
   inline int32_t GetMacSize();
 
-  /// @brief Method BlockUpdate addr 0xf0c0a0 size 0x118 virtual true final true
+  /// @brief Method BlockUpdate addr 0xe96ec0 size 0x118 virtual true final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method Update addr 0xf0c1b8 size 0x38 virtual true final true
+  /// @brief Method Update addr 0xe96fd8 size 0x38 virtual true final true
   inline void Update(uint8_t input);
 
-  /// @brief Method DoFinal addr 0xf0c1f0 size 0x12c virtual true final true
+  /// @brief Method DoFinal addr 0xe97010 size 0x12c virtual true final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xf0c434 size 0x5c virtual true final true
+  /// @brief Method Reset addr 0xe97254 size 0x5c virtual true final true
   inline void Reset();
 
-  /// @brief Method Pad addr 0xf0c31c size 0x118 virtual false final false
+  /// @brief Method Pad addr 0xe9713c size 0x118 virtual false final false
   inline void Pad();
 
-  /// @brief Method PadKey addr 0xf0bee4 size 0x1b4 virtual false final false
+  /// @brief Method PadKey addr 0xe96d04 size 0x1b4 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PadKey(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   // Ctor Parameters [CppParam { name: "", ty: "Dstu7564Mac", modifiers: "&&", def_value: None }]
@@ -147,6 +147,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Macs::Dstu7564Mac, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Dstu7564Mac, ___engine) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Dstu7564Mac, ___macSize) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Dstu7564Mac, ___inputLength) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Dstu7564Mac, ___paddedKey) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Dstu7564Mac, ___invertedKey) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Macs
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Macs::Dstu7564Mac);

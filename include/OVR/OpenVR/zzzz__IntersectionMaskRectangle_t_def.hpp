@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::IntersectionMaskRectangle_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8708))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9477))
 // CS Name: ::OVR.OpenVR::IntersectionMaskRectangle_t
 struct CORDL_TYPE IntersectionMaskRectangle_t {
 public:
@@ -48,6 +48,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IntersectionMaskRectangle_t, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::IntersectionMaskRectangle_t, m_flTopLeftX) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::IntersectionMaskRectangle_t, m_flTopLeftY) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::IntersectionMaskRectangle_t, m_flWidth) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::IntersectionMaskRectangle_t, m_flHeight) == 0xc, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IntersectionMaskRectangle_t, "OVR.OpenVR", "IntersectionMaskRectangle_t");

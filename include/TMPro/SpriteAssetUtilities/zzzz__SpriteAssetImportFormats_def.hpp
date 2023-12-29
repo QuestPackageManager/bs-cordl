@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::SpriteAssetUtilities::SpriteAssetImportFormats);
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12460))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12388))
 // CS Name: ::TMPro.SpriteAssetUtilities::SpriteAssetImportFormats
 struct CORDL_TYPE SpriteAssetImportFormats {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::SpriteAssetUtilities::SpriteAssetImportFormats, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::SpriteAssetUtilities::SpriteAssetImportFormats, value__) == 0x0, "Offset mismatch!");
 
 } // namespace TMPro::SpriteAssetUtilities
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::SpriteAssetUtilities::SpriteAssetImportFormats, "TMPro.SpriteAssetUtilities", "SpriteAssetImportFormats");

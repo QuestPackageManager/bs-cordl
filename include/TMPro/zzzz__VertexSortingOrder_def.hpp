@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::VertexSortingOrder);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12404))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12332))
 // CS Name: ::TMPro::VertexSortingOrder
 struct CORDL_TYPE VertexSortingOrder {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::VertexSortingOrder, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::VertexSortingOrder, value__) == 0x0, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::VertexSortingOrder, "TMPro", "VertexSortingOrder");

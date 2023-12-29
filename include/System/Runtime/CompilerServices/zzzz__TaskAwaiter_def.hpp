@@ -12,13 +12,10 @@ namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Runtime::CompilerServices {
-class ICriticalNotifyCompletion;
-}
-namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
-}
-namespace System::Runtime::CompilerServices {
 class __TaskAwaiter____c__DisplayClass11_0;
+}
+namespace System::Runtime::CompilerServices {
+class ICriticalNotifyCompletion;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -34,8 +31,8 @@ MARK_VAL_T(::System::Runtime::CompilerServices::TaskAwaiter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3392))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3387))
 // CS Name: ::TaskAwaiter::<>c__DisplayClass11_0*
 class CORDL_TYPE __TaskAwaiter____c__DisplayClass11_0 : public ::System::Object {
 public:
@@ -60,10 +57,10 @@ public:
 
   static inline ::System::Runtime::CompilerServices::__TaskAwaiter____c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x24dc1c4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2382638 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <OutputWaitEtwEvents>b__0 addr 0x24dc1cc size 0x174 virtual false final false
+  /// @brief Method <OutputWaitEtwEvents>b__0 addr 0x2382640 size 0x174 virtual false final false
   inline void _OutputWaitEtwEvents_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TaskAwaiter____c__DisplayClass11_0", modifiers: "&&", def_value: None }]
@@ -91,13 +88,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::__TaskAwaiter____c__DisplayClass11_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::System::Runtime::CompilerServices::__TaskAwaiter____c__DisplayClass11_0, ___task) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::CompilerServices::__TaskAwaiter____c__DisplayClass11_0, ___continuation) == 0x18, "Offset mismatch!");
+
 } // namespace System::Runtime::CompilerServices
 // Type: System.Runtime.CompilerServices::TaskAwaiter
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3393))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3388))
 // CS Name: ::System.Runtime.CompilerServices::TaskAwaiter
 struct CORDL_TYPE TaskAwaiter {
 public:
@@ -109,37 +110,31 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*();
 
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
-  constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
-
-  /// @brief Method .ctor addr 0x24dbd08 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x238217c size 0x8 virtual false final false
   inline void _ctor(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method get_IsCompleted addr 0x24dbd10 size 0x1c virtual false final false
+  /// @brief Method get_IsCompleted addr 0x2382184 size 0x1c virtual false final false
   inline bool get_IsCompleted();
 
-  /// @brief Method OnCompleted addr 0x24db9b8 size 0x10 virtual true final true
-  inline void OnCompleted(::System::Action* continuation);
-
-  /// @brief Method UnsafeOnCompleted addr 0x24dbb54 size 0x10 virtual true final true
+  /// @brief Method UnsafeOnCompleted addr 0x2381fc8 size 0x10 virtual true final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
-  /// @brief Method GetResult addr 0x24dbde0 size 0x8 virtual false final false
+  /// @brief Method GetResult addr 0x2382254 size 0x8 virtual false final false
   inline void GetResult();
 
-  /// @brief Method ValidateEnd addr 0x24dbde8 size 0x4c virtual false final false
+  /// @brief Method ValidateEnd addr 0x238225c size 0x4c virtual false final false
   static inline void ValidateEnd(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method HandleNonSuccessAndDebuggerNotification addr 0x24dbe34 size 0x60 virtual false final false
+  /// @brief Method HandleNonSuccessAndDebuggerNotification addr 0x23822a8 size 0x60 virtual false final false
   static inline void HandleNonSuccessAndDebuggerNotification(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method ThrowForNonSuccess addr 0x24dbe94 size 0x154 virtual false final false
+  /// @brief Method ThrowForNonSuccess addr 0x2382308 size 0x154 virtual false final false
   static inline void ThrowForNonSuccess(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method OnCompletedInternal addr 0x24dbd2c size 0xb4 virtual false final false
+  /// @brief Method OnCompletedInternal addr 0x23821a0 size 0xb4 virtual false final false
   static inline void OnCompletedInternal(::System::Threading::Tasks::Task* task, ::System::Action* continuation, bool continueOnCapturedContext, bool flowExecutionContext);
 
-  /// @brief Method OutputWaitEtwEvents addr 0x24dbfe8 size 0x1dc virtual false final false
+  /// @brief Method OutputWaitEtwEvents addr 0x238245c size 0x1dc virtual false final false
   static inline ::System::Action* OutputWaitEtwEvents(::System::Threading::Tasks::Task* task, ::System::Action* continuation);
 
   // Ctor Parameters [CppParam { name: "m_task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None }]
@@ -159,6 +154,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::TaskAwaiter, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::CompilerServices::TaskAwaiter, m_task) == 0x0, "Offset mismatch!");
 
 } // namespace System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::__TaskAwaiter____c__DisplayClass11_0);

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::IMaterialModifier);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13101))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13106))
 // CS Name: ::UnityEngine.UI::IMaterialModifier*
 class CORDL_TYPE IMaterialModifier {
 public:

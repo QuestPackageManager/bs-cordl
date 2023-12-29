@@ -19,8 +19,8 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_Session);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9691))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9728))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9618))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9655))
 // CS Name: ::HoudiniEngineUnity::HAPI_Session
 struct CORDL_TYPE HAPI_Session {
 public:
@@ -45,6 +45,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_Session, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_Session, type) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_Session, id) == 0x8, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_Session, "HoudiniEngineUnity", "HAPI_Session");

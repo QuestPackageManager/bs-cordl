@@ -19,13 +19,13 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationBinder);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3206))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3205))
 // CS Name: ::System.Runtime.Serialization::SerializationBinder*
 class CORDL_TYPE SerializationBinder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BindToName addr 0x24b4f68 size 0xc virtual true final false
+  /// @brief Method BindToName addr 0x235c474 size 0xc virtual true final false
   inline void BindToName(::System::Type* serializedType, ByRef<::StringW> assemblyName, ByRef<::StringW> typeName);
 
   /// @brief Method BindToType addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -33,7 +33,7 @@ public:
 
   static inline ::System::Runtime::Serialization::SerializationBinder* New_ctor();
 
-  /// @brief Method .ctor addr 0x24b4f74 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x235c480 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializationBinder", modifiers: "&&", def_value: None }]

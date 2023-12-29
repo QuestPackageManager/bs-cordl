@@ -11,10 +11,10 @@ namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-class NonLazyBinder;
+struct BindingInheritanceMethods;
 }
 namespace Zenject {
-struct BindingInheritanceMethods;
+class NonLazyBinder;
 }
 // Forward declare root types
 namespace Zenject {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::Zenject::CopyNonLazyBinder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10925))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10701))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10853))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10629))
 // CS Name: ::Zenject::CopyNonLazyBinder*
 class CORDL_TYPE CopyNonLazyBinder : public ::Zenject::NonLazyBinder {
 public:
@@ -43,25 +43,25 @@ public:
 
   static inline ::Zenject::CopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor addr 0x2ec7418 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d5f698 size 0x8 virtual false final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method AddSecondaryCopyBindInfo addr 0x2ecb7ec size 0xf0 virtual false final false
+  /// @brief Method AddSecondaryCopyBindInfo addr 0x2d63a6c size 0xf0 virtual false final false
   inline void AddSecondaryCopyBindInfo(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method CopyIntoAllSubContainers addr 0x2ec5f60 size 0x1c virtual false final false
+  /// @brief Method CopyIntoAllSubContainers addr 0x2d5e1e0 size 0x1c virtual false final false
   inline ::Zenject::NonLazyBinder* CopyIntoAllSubContainers();
 
-  /// @brief Method CopyIntoDirectSubContainers addr 0x2ecba20 size 0x1c virtual false final false
+  /// @brief Method CopyIntoDirectSubContainers addr 0x2d63ca0 size 0x1c virtual false final false
   inline ::Zenject::NonLazyBinder* CopyIntoDirectSubContainers();
 
-  /// @brief Method MoveIntoAllSubContainers addr 0x2ecba3c size 0x1c virtual false final false
+  /// @brief Method MoveIntoAllSubContainers addr 0x2d63cbc size 0x1c virtual false final false
   inline ::Zenject::NonLazyBinder* MoveIntoAllSubContainers();
 
-  /// @brief Method MoveIntoDirectSubContainers addr 0x2ecba58 size 0x1c virtual false final false
+  /// @brief Method MoveIntoDirectSubContainers addr 0x2d63cd8 size 0x1c virtual false final false
   inline ::Zenject::NonLazyBinder* MoveIntoDirectSubContainers();
 
-  /// @brief Method SetInheritanceMethod addr 0x2ecb8dc size 0x144 virtual false final false
+  /// @brief Method SetInheritanceMethod addr 0x2d63b5c size 0x144 virtual false final false
   inline void SetInheritanceMethod(::Zenject::BindingInheritanceMethods method);
 
   // Ctor Parameters [CppParam { name: "", ty: "CopyNonLazyBinder", modifiers: "&&", def_value: None }]
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::CopyNonLazyBinder, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::CopyNonLazyBinder, ____secondaryBindInfos) == 0x18, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::CopyNonLazyBinder);

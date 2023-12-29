@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::GenericParameterAttributes);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3470))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3465))
 // CS Name: ::System.Reflection::GenericParameterAttributes
 struct CORDL_TYPE GenericParameterAttributes {
 public:
@@ -81,6 +81,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::GenericParameterAttributes, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::GenericParameterAttributes, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::GenericParameterAttributes, "System.Reflection", "GenericParameterAttributes");

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IComboController)
 namespace System {
-class Action;
+template <typename T> class Action_1;
 }
 namespace System {
-template <typename T> class Action_1;
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IComboController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5316))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5411))
 // CS Name: ::IComboController*
 class CORDL_TYPE IComboController {
 public:

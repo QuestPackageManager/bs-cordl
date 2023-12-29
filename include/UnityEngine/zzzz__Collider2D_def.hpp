@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::UnityEngine::Collider2D);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10187))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15936))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10115))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15828))
 // CS Name: ::UnityEngine::Collider2D*
 class CORDL_TYPE Collider2D : public ::UnityEngine::Behaviour {
 public:

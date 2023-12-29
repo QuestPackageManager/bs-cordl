@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::ICustomDeviceReset);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6495))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6581))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::ICustomDeviceReset*
 class CORDL_TYPE ICustomDeviceReset {
 public:

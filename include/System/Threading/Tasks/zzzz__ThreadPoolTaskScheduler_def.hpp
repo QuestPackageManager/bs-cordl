@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__ThreadPoolTaskScheduler____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2814))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2810))
 // CS Name: ::ThreadPoolTaskScheduler::<>c*
 class CORDL_TYPE __ThreadPoolTaskScheduler____c : public ::System::Object {
 public:
@@ -46,10 +46,10 @@ public:
 
   static inline ::System::Threading::Tasks::__ThreadPoolTaskScheduler____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x262de4c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24d3d40 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__10_0 addr 0x262de54 size 0x84 virtual false final false
+  /// @brief Method <.cctor>b__10_0 addr 0x24d3d48 size 0x84 virtual false final false
   inline void __cctor_b__10_0(::System::Object* s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ThreadPoolTaskScheduler____c", modifiers: "&&", def_value: None }]
@@ -76,8 +76,8 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__Thre
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2812))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2815))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2808))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2811))
 // CS Name: ::System.Threading.Tasks::ThreadPoolTaskScheduler*
 class CORDL_TYPE ThreadPoolTaskScheduler : public ::System::Threading::Tasks::TaskScheduler {
 public:
@@ -95,22 +95,22 @@ public:
 
   static inline ::System::Threading::Tasks::ThreadPoolTaskScheduler* New_ctor();
 
-  /// @brief Method .ctor addr 0x262da00 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x24d38f4 size 0x58 virtual false final false
   inline void _ctor();
 
-  /// @brief Method QueueTask addr 0x262da58 size 0x1c8 virtual true final false
+  /// @brief Method QueueTask addr 0x24d394c size 0x1c8 virtual true final false
   inline void QueueTask(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method TryExecuteTaskInline addr 0x262dc20 size 0xe4 virtual true final false
+  /// @brief Method TryExecuteTaskInline addr 0x24d3b14 size 0xe4 virtual true final false
   inline bool TryExecuteTaskInline(::System::Threading::Tasks::Task* task, bool taskWasPreviouslyQueued);
 
-  /// @brief Method TryDequeue addr 0x262dd04 size 0x8 virtual true final false
+  /// @brief Method TryDequeue addr 0x24d3bf8 size 0x8 virtual true final false
   inline bool TryDequeue(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method NotifyWorkItemProgress addr 0x262dd0c size 0x10 virtual true final false
+  /// @brief Method NotifyWorkItemProgress addr 0x24d3c00 size 0x10 virtual true final false
   inline void NotifyWorkItemProgress();
 
-  /// @brief Method get_RequiresAtomicStartTransition addr 0x262dd1c size 0x8 virtual true final false
+  /// @brief Method get_RequiresAtomicStartTransition addr 0x24d3c10 size 0x8 virtual true final false
   inline bool get_RequiresAtomicStartTransition();
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolTaskScheduler", modifiers: "&&", def_value: None }]

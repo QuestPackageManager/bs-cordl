@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlTemplateTraits);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6995))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6975))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7081))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7061))
 // CS Name: ::UnityEngine.UIElements::UxmlTemplateTraits*
 class CORDL_TYPE UxmlTemplateTraits : public ::UnityEngine::UIElements::UxmlTraits {
 public:
@@ -52,7 +52,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlTemplateTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e0e404 size 0xf8 virtual false final false
+  /// @brief Method .ctor addr 0x2ca8054 size 0xf8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlTemplateTraits", modifiers: "&&", def_value: None }]
@@ -82,6 +82,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlTemplateTraits, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UxmlTemplateTraits, ___m_Name) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UxmlTemplateTraits, ___m_Path) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UxmlTemplateTraits, ___m_Src) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UxmlTemplateTraits);

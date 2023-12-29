@@ -16,7 +16,7 @@ MARK_VAL_T(::LIV::SDK::Unity::TEXTURE_FORMAT);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15104))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15208))
 // CS Name: ::LIV.SDK.Unity::TEXTURE_FORMAT
 struct CORDL_TYPE TEXTURE_FORMAT {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::TEXTURE_FORMAT, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::TEXTURE_FORMAT, value__) == 0x0, "Offset mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::TEXTURE_FORMAT, "LIV.SDK.Unity", "TEXTURE_FORMAT");

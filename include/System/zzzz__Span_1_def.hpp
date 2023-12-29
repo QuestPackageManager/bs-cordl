@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Span_1)
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
 class Object;
 }
 namespace System {
 template <typename T> struct ByReference_1;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System {
@@ -30,8 +30,8 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2537)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2537), inst: 965 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2470))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2535)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2535), inst: 947 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2468))
 // CS Name: ::System::Span`1<T>
 struct CORDL_TYPE Span_1 {
 public:

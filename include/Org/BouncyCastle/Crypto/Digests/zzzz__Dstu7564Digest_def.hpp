@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(749))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::Dstu7564Digest*
 class CORDL_TYPE Dstu7564Digest : public ::System::Object {
@@ -157,66 +157,66 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* digest);
 
-  /// @brief Method .ctor addr 0x122012c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x11aeedc size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* digest);
 
-  /// @brief Method CopyIn addr 0x1220158 size 0x130 virtual false final false
+  /// @brief Method CopyIn addr 0x11aef08 size 0x130 virtual false final false
   inline void CopyIn(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* digest);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* New_ctor(int32_t hashSizeBits);
 
-  /// @brief Method .ctor addr 0x1220288 size 0x14c virtual false final false
+  /// @brief Method .ctor addr 0x11af038 size 0x14c virtual false final false
   inline void _ctor(int32_t hashSizeBits);
 
-  /// @brief Method get_AlgorithmName addr 0x12203d4 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0x11af184 size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetDigestSize addr 0x1220414 size 0x8 virtual true final false
+  /// @brief Method GetDigestSize addr 0x11af1c4 size 0x8 virtual true final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method GetByteLength addr 0x122041c size 0x8 virtual true final false
+  /// @brief Method GetByteLength addr 0x11af1cc size 0x8 virtual true final false
   inline int32_t GetByteLength();
 
-  /// @brief Method Update addr 0x1220424 size 0x7c virtual true final false
+  /// @brief Method Update addr 0x11af1d4 size 0x7c virtual true final false
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate addr 0x12204a0 size 0x128 virtual true final false
+  /// @brief Method BlockUpdate addr 0x11af250 size 0x128 virtual true final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method DoFinal addr 0x12205c8 size 0x260 virtual true final false
+  /// @brief Method DoFinal addr 0x11af378 size 0x260 virtual true final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0x12208dc size 0x50 virtual true final false
+  /// @brief Method Reset addr 0x11af68c size 0x50 virtual true final false
   inline void Reset();
 
-  /// @brief Method ProcessBlock addr 0x122092c size 0x150 virtual true final false
+  /// @brief Method ProcessBlock addr 0x11af6dc size 0x150 virtual true final false
   inline void ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method P addr 0x1220828 size 0xb4 virtual false final false
+  /// @brief Method P addr 0x11af5d8 size 0xb4 virtual false final false
   inline void P(::ArrayW<uint64_t, ::Array<uint64_t>*> s);
 
-  /// @brief Method Q addr 0x1220a7c size 0xd0 virtual false final false
+  /// @brief Method Q addr 0x11af82c size 0xd0 virtual false final false
   inline void Q(::ArrayW<uint64_t, ::Array<uint64_t>*> s);
 
-  /// @brief Method MixColumn addr 0x1221230 size 0xb8 virtual false final false
+  /// @brief Method MixColumn addr 0x11affe0 size 0xb8 virtual false final false
   static inline uint64_t MixColumn(uint64_t c);
 
-  /// @brief Method MixColumns addr 0x1221174 size 0xbc virtual false final false
+  /// @brief Method MixColumns addr 0x11aff24 size 0xbc virtual false final false
   inline void MixColumns(::ArrayW<uint64_t, ::Array<uint64_t>*> s);
 
-  /// @brief Method Rotate addr 0x12212e8 size 0x8 virtual false final false
+  /// @brief Method Rotate addr 0x11b0098 size 0x8 virtual false final false
   static inline uint64_t Rotate(int32_t n, uint64_t x);
 
-  /// @brief Method ShiftRows addr 0x1220b4c size 0x480 virtual false final false
+  /// @brief Method ShiftRows addr 0x11af8fc size 0x480 virtual false final false
   inline void ShiftRows(::ArrayW<uint64_t, ::Array<uint64_t>*> s);
 
-  /// @brief Method SubBytes addr 0x1220fcc size 0x1a8 virtual false final false
+  /// @brief Method SubBytes addr 0x11afd7c size 0x1a8 virtual false final false
   inline void SubBytes(::ArrayW<uint64_t, ::Array<uint64_t>*> s);
 
-  /// @brief Method Copy addr 0x12212f0 size 0x6c virtual true final false
+  /// @brief Method Copy addr 0x11b00a0 size 0x6c virtual true final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method Reset addr 0x122135c size 0x84 virtual true final false
+  /// @brief Method Reset addr 0x11b010c size 0x84 virtual true final false
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Dstu7564Digest", modifiers: "&&", def_value: None }]
@@ -279,6 +279,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest, ___hashSize) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest, ___blockSize) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest, ___columns) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest, ___rounds) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest, ___state) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest, ___tempState1) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest, ___tempState2) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest, ___inputBlocks) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest, ___bufOff) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest, ___buf) == 0x48, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Digests
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest);

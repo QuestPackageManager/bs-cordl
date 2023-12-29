@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoPauseGamePause);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5061))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5166))
 // CS Name: ::NoPauseGamePause*
 class CORDL_TYPE NoPauseGamePause : public ::System::Object {
 public:
@@ -67,39 +67,39 @@ public:
 
   constexpr void __set__pause(bool value);
 
-  /// @brief Method get_isPaused addr 0x23c6d00 size 0x8 virtual true final true
+  /// @brief Method get_isPaused addr 0x20e4e80 size 0x8 virtual true final true
   inline bool get_isPaused();
 
-  /// @brief Method add_didPauseEvent addr 0x23c6d08 size 0x9c virtual true final true
+  /// @brief Method add_didPauseEvent addr 0x20e4e88 size 0x9c virtual true final true
   inline void add_didPauseEvent(::System::Action* value);
 
-  /// @brief Method remove_didPauseEvent addr 0x23c6da4 size 0x9c virtual true final true
+  /// @brief Method remove_didPauseEvent addr 0x20e4f24 size 0x9c virtual true final true
   inline void remove_didPauseEvent(::System::Action* value);
 
-  /// @brief Method add_willResumeEvent addr 0x23c6e40 size 0x9c virtual true final true
+  /// @brief Method add_willResumeEvent addr 0x20e4fc0 size 0x9c virtual true final true
   inline void add_willResumeEvent(::System::Action* value);
 
-  /// @brief Method remove_willResumeEvent addr 0x23c6edc size 0x9c virtual true final true
+  /// @brief Method remove_willResumeEvent addr 0x20e505c size 0x9c virtual true final true
   inline void remove_willResumeEvent(::System::Action* value);
 
-  /// @brief Method add_didResumeEvent addr 0x23c6f78 size 0x9c virtual true final true
+  /// @brief Method add_didResumeEvent addr 0x20e50f8 size 0x9c virtual true final true
   inline void add_didResumeEvent(::System::Action* value);
 
-  /// @brief Method remove_didResumeEvent addr 0x23c7014 size 0x9c virtual true final true
+  /// @brief Method remove_didResumeEvent addr 0x20e5194 size 0x9c virtual true final true
   inline void remove_didResumeEvent(::System::Action* value);
 
-  /// @brief Method Pause addr 0x23c70b0 size 0x24 virtual true final true
+  /// @brief Method Pause addr 0x20e5230 size 0x24 virtual true final true
   inline void Pause();
 
-  /// @brief Method WillResume addr 0x23c70d4 size 0x1c virtual true final true
+  /// @brief Method WillResume addr 0x20e5254 size 0x1c virtual true final true
   inline void WillResume();
 
-  /// @brief Method Resume addr 0x23c70f0 size 0x20 virtual true final true
+  /// @brief Method Resume addr 0x20e5270 size 0x20 virtual true final true
   inline void Resume();
 
   static inline ::GlobalNamespace::NoPauseGamePause* New_ctor();
 
-  /// @brief Method .ctor addr 0x23c7110 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20e5290 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoPauseGamePause", modifiers: "&&", def_value: None }]
@@ -132,6 +132,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoPauseGamePause, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoPauseGamePause, ___didPauseEvent) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoPauseGamePause, ___willResumeEvent) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoPauseGamePause, ___didResumeEvent) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoPauseGamePause, ____pause) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoPauseGamePause);

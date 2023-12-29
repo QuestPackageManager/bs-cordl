@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RollingAverage);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12941))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12862))
 // CS Name: ::RollingAverage*
 class CORDL_TYPE RollingAverage : public ::System::Object {
 public:
@@ -72,21 +72,21 @@ public:
 
   constexpr void __set__length(int32_t value);
 
-  /// @brief Method get_currentAverage addr 0xe54598 size 0x8 virtual false final false
+  /// @brief Method get_currentAverage addr 0xdcf5c4 size 0x8 virtual false final false
   inline float_t get_currentAverage();
 
-  /// @brief Method get_hasValue addr 0xe545a0 size 0x10 virtual false final false
+  /// @brief Method get_hasValue addr 0xdcf5cc size 0x10 virtual false final false
   inline bool get_hasValue();
 
   static inline ::GlobalNamespace::RollingAverage* New_ctor(int32_t window);
 
-  /// @brief Method .ctor addr 0xe545b0 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0xdcf5dc size 0x68 virtual false final false
   inline void _ctor(int32_t window);
 
-  /// @brief Method Update addr 0xe54618 size 0x120 virtual false final false
+  /// @brief Method Update addr 0xdcf644 size 0x120 virtual false final false
   inline void Update(float_t value);
 
-  /// @brief Method Reset addr 0xe54738 size 0x10 virtual false final false
+  /// @brief Method Reset addr 0xdcf764 size 0x10 virtual false final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "RollingAverage", modifiers: "&&", def_value: None }]
@@ -125,6 +125,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RollingAverage, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RollingAverage, ____currentTotal) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RollingAverage, ____currentAverage) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RollingAverage, ____buffer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RollingAverage, ____index) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RollingAverage, ____length) == 0x2c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RollingAverage);

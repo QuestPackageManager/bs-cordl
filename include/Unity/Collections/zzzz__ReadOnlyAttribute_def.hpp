@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::Unity::Collections::ReadOnlyAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10004))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9932))
 // CS Name: ::Unity.Collections::ReadOnlyAttribute*
 class CORDL_TYPE ReadOnlyAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Unity::Collections::ReadOnlyAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c9e0ac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2b3938c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyAttribute", modifiers: "&&", def_value: None }]

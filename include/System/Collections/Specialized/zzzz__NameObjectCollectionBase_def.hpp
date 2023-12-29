@@ -7,7 +7,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NameObjectCollectionBase)
 namespace System {
-class Object;
+class DBNull;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System {
+class StringComparer;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Specialized {
+class __NameObjectCollectionBase__NameObjectKeysEnumerator;
+}
+namespace System::Collections::Specialized {
+class __NameObjectCollectionBase__NameObjectEntry;
+}
+namespace System {
+class Array;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
 }
 namespace System::Collections {
 class IEqualityComparer;
@@ -15,41 +45,11 @@ class IEqualityComparer;
 namespace System::Collections {
 class Hashtable;
 }
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Collections::Specialized {
-class __NameObjectCollectionBase__NameObjectEntry;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class ICollection;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class DBNull;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections::Specialized {
-class __NameObjectCollectionBase__NameObjectKeysEnumerator;
-}
-namespace System {
-class StringComparer;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -72,8 +72,8 @@ MARK_REF_PTR_T(::System::Collections::Specialized::__NameObjectCollectionBase__N
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9520))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8357))
 // CS Name: ::NameObjectCollectionBase::NameObjectEntry*
 class CORDL_TYPE __NameObjectCollectionBase__NameObjectEntry : public ::System::Object {
 public:
@@ -98,7 +98,7 @@ public:
 
   static inline ::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectEntry* New_ctor(::StringW name, ::System::Object* value);
 
-  /// @brief Method .ctor addr 0x2940fe0 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x27c2fb8 size 0x2c virtual false final false
   inline void _ctor(::StringW name, ::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NameObjectCollectionBase__NameObjectEntry", modifiers: "&&", def_value: None }]
@@ -126,13 +126,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectEntry, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectEntry, ___Key) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectEntry, ___Value) == 0x18, "Offset mismatch!");
+
 } // namespace System::Collections::Specialized
 // Type: ::NameObjectKeysEnumerator
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9521))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8358))
 // CS Name: ::NameObjectCollectionBase::NameObjectKeysEnumerator*
 class CORDL_TYPE __NameObjectCollectionBase__NameObjectKeysEnumerator : public ::System::Object {
 public:
@@ -171,16 +175,16 @@ public:
 
   static inline ::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectKeysEnumerator* New_ctor(::System::Collections::Specialized::NameObjectCollectionBase* coll);
 
-  /// @brief Method .ctor addr 0x294106c size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x27c3044 size 0x40 virtual false final false
   inline void _ctor(::System::Collections::Specialized::NameObjectCollectionBase* coll);
 
-  /// @brief Method MoveNext addr 0x2941518 size 0xe0 virtual true final true
+  /// @brief Method MoveNext addr 0x27c34f0 size 0xe0 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x29415f8 size 0x90 virtual true final true
+  /// @brief Method Reset addr 0x27c35d0 size 0x90 virtual true final true
   inline void Reset();
 
-  /// @brief Method get_Current addr 0x2941688 size 0xa8 virtual true final true
+  /// @brief Method get_Current addr 0x27c3660 size 0xa8 virtual true final true
   inline ::System::Object* get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NameObjectCollectionBase__NameObjectKeysEnumerator", modifiers: "&&", def_value: None }]
@@ -211,13 +215,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectKeysEnumerator, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectKeysEnumerator, ____pos) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectKeysEnumerator, ____coll) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectKeysEnumerator, ____version) == 0x20, "Offset mismatch!");
+
 } // namespace System::Collections::Specialized
 // Type: System.Collections.Specialized::NameObjectCollectionBase
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9522))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8359))
 // CS Name: ::System.Collections.Specialized::NameObjectCollectionBase*
 class CORDL_TYPE NameObjectCollectionBase : public ::System::Object {
 public:
@@ -327,84 +337,84 @@ public:
 
   static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x293cb40 size 0x60 virtual false final false
+  /// @brief Method .ctor addr 0x27beb18 size 0x60 virtual false final false
   inline void _ctor();
 
   static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(::System::Collections::IEqualityComparer* equalityComparer);
 
-  /// @brief Method .ctor addr 0x293fdd8 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x27c1db0 size 0x80 virtual false final false
   inline void _ctor(::System::Collections::IEqualityComparer* equalityComparer);
 
   static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(int32_t capacity, ::System::Collections::IEqualityComparer* equalityComparer);
 
-  /// @brief Method .ctor addr 0x293cd28 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x27bed00 size 0x2c virtual false final false
   inline void _ctor(int32_t capacity, ::System::Collections::IEqualityComparer* equalityComparer);
 
   static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(int32_t capacity);
 
-  /// @brief Method .ctor addr 0x293cc04 size 0xb0 virtual false final false
+  /// @brief Method .ctor addr 0x27bebdc size 0xb0 virtual false final false
   inline void _ctor(int32_t capacity);
 
   static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(::System::DBNull* dummy);
 
-  /// @brief Method .ctor addr 0x293da9c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27bfa74 size 0x8 virtual false final false
   inline void _ctor(::System::DBNull* dummy);
 
   static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                        ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x293cdc0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x27bed98 size 0x28 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData addr 0x293ffd4 size 0x580 virtual true final false
+  /// @brief Method GetObjectData addr 0x27c1fac size 0x580 virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method OnDeserialization addr 0x2940710 size 0x768 virtual true final false
+  /// @brief Method OnDeserialization addr 0x27c26e8 size 0x768 virtual true final false
   inline void OnDeserialization(::System::Object* sender);
 
-  /// @brief Method Reset addr 0x293fe58 size 0xb8 virtual false final false
+  /// @brief Method Reset addr 0x27c1e30 size 0xb8 virtual false final false
   inline void Reset();
 
-  /// @brief Method Reset addr 0x293ff10 size 0xc4 virtual false final false
+  /// @brief Method Reset addr 0x27c1ee8 size 0xc4 virtual false final false
   inline void Reset(int32_t capacity);
 
-  /// @brief Method FindEntry addr 0x2940f20 size 0xb8 virtual false final false
+  /// @brief Method FindEntry addr 0x27c2ef8 size 0xb8 virtual false final false
   inline ::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectEntry* FindEntry(::StringW key);
 
-  /// @brief Method get_IsReadOnly addr 0x2940fd8 size 0x8 virtual false final false
+  /// @brief Method get_IsReadOnly addr 0x27c2fb0 size 0x8 virtual false final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method BaseAdd addr 0x293d1b4 size 0x164 virtual false final false
+  /// @brief Method BaseAdd addr 0x27bf18c size 0x164 virtual false final false
   inline void BaseAdd(::StringW name, ::System::Object* value);
 
-  /// @brief Method BaseRemove addr 0x293d5d4 size 0x20c virtual false final false
+  /// @brief Method BaseRemove addr 0x27bf5ac size 0x20c virtual false final false
   inline void BaseRemove(::StringW name);
 
-  /// @brief Method BaseGet addr 0x293d19c size 0x18 virtual false final false
+  /// @brief Method BaseGet addr 0x27bf174 size 0x18 virtual false final false
   inline ::System::Object* BaseGet(::StringW name);
 
-  /// @brief Method BaseSet addr 0x293d51c size 0xb0 virtual false final false
+  /// @brief Method BaseSet addr 0x27bf4f4 size 0xb0 virtual false final false
   inline void BaseSet(::StringW name, ::System::Object* value);
 
-  /// @brief Method BaseGet addr 0x293d884 size 0x9c virtual false final false
+  /// @brief Method BaseGet addr 0x27bf85c size 0x9c virtual false final false
   inline ::System::Object* BaseGet(int32_t index);
 
-  /// @brief Method BaseGetKey addr 0x293d9a8 size 0x9c virtual false final false
+  /// @brief Method BaseGetKey addr 0x27bf980 size 0x9c virtual false final false
   inline ::StringW BaseGetKey(int32_t index);
 
-  /// @brief Method GetEnumerator addr 0x294100c size 0x60 virtual true final false
+  /// @brief Method GetEnumerator addr 0x27c2fe4 size 0x60 virtual true final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method get_Count addr 0x29410ac size 0x24 virtual true final false
+  /// @brief Method get_Count addr 0x27c3084 size 0x24 virtual true final false
   inline int32_t get_Count();
 
-  /// @brief Method System.Collections.ICollection.CopyTo addr 0x29410d0 size 0x31c virtual true final true
+  /// @brief Method System.Collections.ICollection.CopyTo addr 0x27c30a8 size 0x31c virtual true final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot addr 0x29413ec size 0x7c virtual true final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot addr 0x27c33c4 size 0x7c virtual true final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized addr 0x2941468 size 0x8 virtual true final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized addr 0x27c3440 size 0x8 virtual true final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
   // Ctor Parameters [CppParam { name: "", ty: "NameObjectCollectionBase", modifiers: "&&", def_value: None }]
@@ -449,6 +459,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::Specialized::NameObjectCollectionBase, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::NameObjectCollectionBase, ____readOnly) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::NameObjectCollectionBase, ____entriesArray) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::NameObjectCollectionBase, ____keyComparer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::NameObjectCollectionBase, ____entriesTable) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::NameObjectCollectionBase, ____nullKeyEntry) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::NameObjectCollectionBase, ____serializationInfo) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::NameObjectCollectionBase, ____version) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::NameObjectCollectionBase, ____syncRoot) == 0x48, "Offset mismatch!");
 
 } // namespace System::Collections::Specialized
 NEED_NO_BOX(::System::Collections::Specialized::NameObjectCollectionBase);

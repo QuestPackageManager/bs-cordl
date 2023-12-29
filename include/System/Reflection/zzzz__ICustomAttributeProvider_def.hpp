@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ICustomAttributeProvider)
 namespace System {
-class Object;
+class Type;
 }
 namespace System {
-class Type;
+class Object;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Reflection::ICustomAttributeProvider);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3471))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3466))
 // CS Name: ::System.Reflection::ICustomAttributeProvider*
 class CORDL_TYPE ICustomAttributeProvider {
 public:

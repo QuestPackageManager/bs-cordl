@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsStreamException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3565))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(661))
 // CS Name: ::Org.BouncyCastle.Cms::CmsStreamException*
 class CORDL_TYPE CmsStreamException : public ::System::IO::IOException {
@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Cms::CmsStreamException* New_ctor();
 
-  /// @brief Method .ctor addr 0x11ffea4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x118ec54 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsStreamException* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x11ffeac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x118ec5c size 0x8 virtual false final false
   inline void _ctor(::StringW name);
 
   static inline ::Org::BouncyCastle::Cms::CmsStreamException* New_ctor(::StringW name, ::System::Exception* e);
 
-  /// @brief Method .ctor addr 0x11f3264 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1182014 size 0x8 virtual false final false
   inline void _ctor(::StringW name, ::System::Exception* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsStreamException", modifiers: "&&", def_value: None }]

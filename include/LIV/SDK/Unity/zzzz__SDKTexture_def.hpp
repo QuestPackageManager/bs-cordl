@@ -16,16 +16,16 @@ namespace LIV::SDK::Unity {
 struct TEXTURE_DEVICE;
 }
 namespace LIV::SDK::Unity {
-struct TEXTURE_TYPE;
-}
-namespace LIV::SDK::Unity {
 struct TEXTURE_ID;
 }
 namespace LIV::SDK::Unity {
-struct TEXTURE_COLOR_SPACE;
+struct TEXTURE_TYPE;
 }
 namespace LIV::SDK::Unity {
 struct TEXTURE_FORMAT;
+}
+namespace LIV::SDK::Unity {
+struct TEXTURE_COLOR_SPACE;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -37,16 +37,16 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKTexture);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15102)), TypeDefinitionIndex(TypeDefinitionIndex(15105)), TypeDefinitionIndex(TypeDefinitionIndex(15103)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15104)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(15106))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(15118)) CS Name: ::LIV.SDK.Unity::SDKTexture
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15206)), TypeDefinitionIndex(TypeDefinitionIndex(15209)), TypeDefinitionIndex(TypeDefinitionIndex(15208)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15210)), TypeDefinitionIndex(TypeDefinitionIndex(15207)), TypeDefinitionIndex(TypeDefinitionIndex(2601))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(15222)) CS Name: ::LIV.SDK.Unity::SDKTexture
 struct CORDL_TYPE SDKTexture {
 public:
   // Declarations
-  /// @brief Method get_empty addr 0x220f644 size 0x5c virtual false final false
+  /// @brief Method get_empty addr 0x20ae70c size 0x5c virtual false final false
   static inline ::LIV::SDK::Unity::SDKTexture get_empty();
 
-  /// @brief Method ToString addr 0x221591c size 0x3a4 virtual true final false
+  /// @brief Method ToString addr 0x20b49e4 size 0x3a4 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "id", ty: "::LIV::SDK::Unity::TEXTURE_ID", modifiers: "", def_value: None }, CppParam { name: "texturePtr", ty: "void*", modifiers: "", def_value: None },
@@ -98,6 +98,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::SDKTexture, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKTexture, id) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKTexture, texturePtr) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKTexture, SharedHandle) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKTexture, device) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKTexture, dummy) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKTexture, type) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKTexture, format) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKTexture, colorSpace) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKTexture, width) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKTexture, height) == 0x30, "Offset mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKTexture, "LIV.SDK.Unity", "SDKTexture");

@@ -16,19 +16,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParticleSystem)
 namespace UnityEngine {
-struct __ParticleSystem__EmissionModule;
+struct Color32;
 }
 namespace UnityEngine {
 struct __ParticleSystem__MinMaxGradient;
 }
 namespace UnityEngine {
-struct Vector3;
+struct __ParticleSystem__MainModule;
 }
 namespace UnityEngine {
 struct ParticleSystemStopBehavior;
 }
 namespace UnityEngine {
-struct __ParticleSystem__MainModule;
+struct __ParticleSystem__EmissionModule;
 }
 namespace UnityEngine {
 struct __ParticleSystem__ShapeModule;
@@ -37,22 +37,22 @@ namespace UnityEngine {
 struct __ParticleSystem__SubEmittersModule;
 }
 namespace UnityEngine {
-struct __ParticleSystem__MinMaxCurve;
-}
-namespace UnityEngine {
 struct __ParticleSystem__Particle;
-}
-namespace UnityEngine {
-struct Color32;
 }
 namespace UnityEngine {
 struct __ParticleSystem__EmitParams;
 }
 namespace UnityEngine {
-struct ParticleSystemCurveMode;
+struct Vector3;
+}
+namespace UnityEngine {
+struct __ParticleSystem__MinMaxCurve;
 }
 namespace UnityEngine {
 class AnimationCurve;
+}
+namespace UnityEngine {
+struct ParticleSystemCurveMode;
 }
 namespace UnityEngine {
 struct ParticleSystemGradientMode;
@@ -109,7 +109,7 @@ MARK_VAL_T(::UnityEngine::__ParticleSystem__SubEmittersModule);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15882))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15774))
 // CS Name: ::ParticleSystem::MainModule
 struct CORDL_TYPE __ParticleSystem__MainModule {
 public:
@@ -130,73 +130,73 @@ public:
 
   __declspec(property(get = get_maxParticles, put = set_maxParticles)) int32_t maxParticles;
 
-  /// @brief Method .ctor addr 0x2d10d9c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2ba99b4 size 0x8 virtual false final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
-  /// @brief Method get_duration addr 0x2d10fb4 size 0x3c virtual false final false
+  /// @brief Method get_duration addr 0x2ba9bcc size 0x3c virtual false final false
   inline float_t get_duration();
 
-  /// @brief Method get_loop addr 0x2d1102c size 0x3c virtual false final false
+  /// @brief Method get_loop addr 0x2ba9c44 size 0x3c virtual false final false
   inline bool get_loop();
 
-  /// @brief Method set_startLifetime addr 0x2d110a4 size 0x44 virtual false final false
+  /// @brief Method set_startLifetime addr 0x2ba9cbc size 0x44 virtual false final false
   inline void set_startLifetime(::UnityEngine::__ParticleSystem__MinMaxCurve value);
 
-  /// @brief Method set_startSpeed addr 0x2d1112c size 0x44 virtual false final false
+  /// @brief Method set_startSpeed addr 0x2ba9d44 size 0x44 virtual false final false
   inline void set_startSpeed(::UnityEngine::__ParticleSystem__MinMaxCurve value);
 
-  /// @brief Method get_startSpeedMultiplier addr 0x2d111b4 size 0x3c virtual false final false
+  /// @brief Method get_startSpeedMultiplier addr 0x2ba9dcc size 0x3c virtual false final false
   inline float_t get_startSpeedMultiplier();
 
-  /// @brief Method set_startSpeedMultiplier addr 0x2d1122c size 0x4c virtual false final false
+  /// @brief Method set_startSpeedMultiplier addr 0x2ba9e44 size 0x4c virtual false final false
   inline void set_startSpeedMultiplier(float_t value);
 
-  /// @brief Method get_startColor addr 0x2d112c4 size 0x78 virtual false final false
+  /// @brief Method get_startColor addr 0x2ba9edc size 0x78 virtual false final false
   inline ::UnityEngine::__ParticleSystem__MinMaxGradient get_startColor();
 
-  /// @brief Method set_startColor addr 0x2d11380 size 0x44 virtual false final false
+  /// @brief Method set_startColor addr 0x2ba9f98 size 0x44 virtual false final false
   inline void set_startColor(::UnityEngine::__ParticleSystem__MinMaxGradient value);
 
-  /// @brief Method set_simulationSpeed addr 0x2d11408 size 0x4c virtual false final false
+  /// @brief Method set_simulationSpeed addr 0x2baa020 size 0x4c virtual false final false
   inline void set_simulationSpeed(float_t value);
 
-  /// @brief Method get_maxParticles addr 0x2d114a0 size 0x3c virtual false final false
+  /// @brief Method get_maxParticles addr 0x2baa0b8 size 0x3c virtual false final false
   inline int32_t get_maxParticles();
 
-  /// @brief Method set_maxParticles addr 0x2d11518 size 0x44 virtual false final false
+  /// @brief Method set_maxParticles addr 0x2baa130 size 0x44 virtual false final false
   inline void set_maxParticles(int32_t value);
 
-  /// @brief Method get_duration_Injected addr 0x2d10ff0 size 0x3c virtual false final false
+  /// @brief Method get_duration_Injected addr 0x2ba9c08 size 0x3c virtual false final false
   static inline float_t get_duration_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self);
 
-  /// @brief Method get_loop_Injected addr 0x2d11068 size 0x3c virtual false final false
+  /// @brief Method get_loop_Injected addr 0x2ba9c80 size 0x3c virtual false final false
   static inline bool get_loop_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self);
 
-  /// @brief Method set_startLifetime_Injected addr 0x2d110e8 size 0x44 virtual false final false
+  /// @brief Method set_startLifetime_Injected addr 0x2ba9d00 size 0x44 virtual false final false
   static inline void set_startLifetime_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, ByRef<::UnityEngine::__ParticleSystem__MinMaxCurve> value);
 
-  /// @brief Method set_startSpeed_Injected addr 0x2d11170 size 0x44 virtual false final false
+  /// @brief Method set_startSpeed_Injected addr 0x2ba9d88 size 0x44 virtual false final false
   static inline void set_startSpeed_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, ByRef<::UnityEngine::__ParticleSystem__MinMaxCurve> value);
 
-  /// @brief Method get_startSpeedMultiplier_Injected addr 0x2d111f0 size 0x3c virtual false final false
+  /// @brief Method get_startSpeedMultiplier_Injected addr 0x2ba9e08 size 0x3c virtual false final false
   static inline float_t get_startSpeedMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self);
 
-  /// @brief Method set_startSpeedMultiplier_Injected addr 0x2d11278 size 0x4c virtual false final false
+  /// @brief Method set_startSpeedMultiplier_Injected addr 0x2ba9e90 size 0x4c virtual false final false
   static inline void set_startSpeedMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, float_t value);
 
-  /// @brief Method get_startColor_Injected addr 0x2d1133c size 0x44 virtual false final false
+  /// @brief Method get_startColor_Injected addr 0x2ba9f54 size 0x44 virtual false final false
   static inline void get_startColor_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, ByRef<::UnityEngine::__ParticleSystem__MinMaxGradient> ret);
 
-  /// @brief Method set_startColor_Injected addr 0x2d113c4 size 0x44 virtual false final false
+  /// @brief Method set_startColor_Injected addr 0x2ba9fdc size 0x44 virtual false final false
   static inline void set_startColor_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, ByRef<::UnityEngine::__ParticleSystem__MinMaxGradient> value);
 
-  /// @brief Method set_simulationSpeed_Injected addr 0x2d11454 size 0x4c virtual false final false
+  /// @brief Method set_simulationSpeed_Injected addr 0x2baa06c size 0x4c virtual false final false
   static inline void set_simulationSpeed_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, float_t value);
 
-  /// @brief Method get_maxParticles_Injected addr 0x2d114dc size 0x3c virtual false final false
+  /// @brief Method get_maxParticles_Injected addr 0x2baa0f4 size 0x3c virtual false final false
   static inline int32_t get_maxParticles_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self);
 
-  /// @brief Method set_maxParticles_Injected addr 0x2d1155c size 0x44 virtual false final false
+  /// @brief Method set_maxParticles_Injected addr 0x2baa174 size 0x44 virtual false final false
   static inline void set_maxParticles_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, int32_t value);
 
   // Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityEngine::ParticleSystem*", modifiers: "", def_value: None }]
@@ -217,32 +217,34 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::__ParticleSystem__MainModule, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::__ParticleSystem__MainModule, m_ParticleSystem) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine
 // Type: ::EmissionModule
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15883))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15775))
 // CS Name: ::ParticleSystem::EmissionModule
 struct CORDL_TYPE __ParticleSystem__EmissionModule {
 public:
   // Declarations
   __declspec(property(get = get_enabled, put = set_enabled)) bool enabled;
 
-  /// @brief Method .ctor addr 0x2d10da8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2ba99c0 size 0x8 virtual false final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
-  /// @brief Method get_enabled addr 0x2d115a0 size 0x3c virtual false final false
+  /// @brief Method get_enabled addr 0x2baa1b8 size 0x3c virtual false final false
   inline bool get_enabled();
 
-  /// @brief Method set_enabled addr 0x2d11618 size 0x44 virtual false final false
+  /// @brief Method set_enabled addr 0x2baa230 size 0x44 virtual false final false
   inline void set_enabled(bool value);
 
-  /// @brief Method get_enabled_Injected addr 0x2d115dc size 0x3c virtual false final false
+  /// @brief Method get_enabled_Injected addr 0x2baa1f4 size 0x3c virtual false final false
   static inline bool get_enabled_Injected(ByRef<::UnityEngine::__ParticleSystem__EmissionModule> _unity_self);
 
-  /// @brief Method set_enabled_Injected addr 0x2d1165c size 0x44 virtual false final false
+  /// @brief Method set_enabled_Injected addr 0x2baa274 size 0x44 virtual false final false
   static inline void set_enabled_Injected(ByRef<::UnityEngine::__ParticleSystem__EmissionModule> _unity_self, bool value);
 
   // Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityEngine::ParticleSystem*", modifiers: "", def_value: None }]
@@ -263,13 +265,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::__ParticleSystem__EmissionModule, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::__ParticleSystem__EmissionModule, m_ParticleSystem) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine
 // Type: ::ShapeModule
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15884))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15776))
 // CS Name: ::ParticleSystem::ShapeModule
 struct CORDL_TYPE __ParticleSystem__ShapeModule {
 public:
@@ -278,25 +282,25 @@ public:
 
   __declspec(property(put = set_rotation))::UnityEngine::Vector3 rotation;
 
-  /// @brief Method .ctor addr 0x2d10db4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2ba99cc size 0x8 virtual false final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
-  /// @brief Method get_meshRenderer addr 0x2d116a0 size 0x3c virtual false final false
+  /// @brief Method get_meshRenderer addr 0x2baa2b8 size 0x3c virtual false final false
   inline ::UnityEngine::MeshRenderer* get_meshRenderer();
 
-  /// @brief Method set_meshRenderer addr 0x2d11718 size 0x44 virtual false final false
+  /// @brief Method set_meshRenderer addr 0x2baa330 size 0x44 virtual false final false
   inline void set_meshRenderer(::UnityEngine::MeshRenderer* value);
 
-  /// @brief Method set_rotation addr 0x2d117a0 size 0x54 virtual false final false
+  /// @brief Method set_rotation addr 0x2baa3b8 size 0x54 virtual false final false
   inline void set_rotation(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_meshRenderer_Injected addr 0x2d116dc size 0x3c virtual false final false
+  /// @brief Method get_meshRenderer_Injected addr 0x2baa2f4 size 0x3c virtual false final false
   static inline ::UnityEngine::MeshRenderer* get_meshRenderer_Injected(ByRef<::UnityEngine::__ParticleSystem__ShapeModule> _unity_self);
 
-  /// @brief Method set_meshRenderer_Injected addr 0x2d1175c size 0x44 virtual false final false
+  /// @brief Method set_meshRenderer_Injected addr 0x2baa374 size 0x44 virtual false final false
   static inline void set_meshRenderer_Injected(ByRef<::UnityEngine::__ParticleSystem__ShapeModule> _unity_self, ::UnityEngine::MeshRenderer* value);
 
-  /// @brief Method set_rotation_Injected addr 0x2d117f4 size 0x44 virtual false final false
+  /// @brief Method set_rotation_Injected addr 0x2baa40c size 0x44 virtual false final false
   static inline void set_rotation_Injected(ByRef<::UnityEngine::__ParticleSystem__ShapeModule> _unity_self, ByRef<::UnityEngine::Vector3> value);
 
   // Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityEngine::ParticleSystem*", modifiers: "", def_value: None }]
@@ -317,32 +321,34 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::__ParticleSystem__ShapeModule, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::__ParticleSystem__ShapeModule, m_ParticleSystem) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine
 // Type: ::SubEmittersModule
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15885))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15777))
 // CS Name: ::ParticleSystem::SubEmittersModule
 struct CORDL_TYPE __ParticleSystem__SubEmittersModule {
 public:
   // Declarations
   __declspec(property(get = get_subEmittersCount)) int32_t subEmittersCount;
 
-  /// @brief Method .ctor addr 0x2d10dc0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2ba99d8 size 0x8 virtual false final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
-  /// @brief Method get_subEmittersCount addr 0x2d11838 size 0x3c virtual false final false
+  /// @brief Method get_subEmittersCount addr 0x2baa450 size 0x3c virtual false final false
   inline int32_t get_subEmittersCount();
 
-  /// @brief Method GetSubEmitterSystem addr 0x2d118b0 size 0x44 virtual false final false
+  /// @brief Method GetSubEmitterSystem addr 0x2baa4c8 size 0x44 virtual false final false
   inline ::UnityEngine::ParticleSystem* GetSubEmitterSystem(int32_t index);
 
-  /// @brief Method get_subEmittersCount_Injected addr 0x2d11874 size 0x3c virtual false final false
+  /// @brief Method get_subEmittersCount_Injected addr 0x2baa48c size 0x3c virtual false final false
   static inline int32_t get_subEmittersCount_Injected(ByRef<::UnityEngine::__ParticleSystem__SubEmittersModule> _unity_self);
 
-  /// @brief Method GetSubEmitterSystem_Injected addr 0x2d118f4 size 0x44 virtual false final false
+  /// @brief Method GetSubEmitterSystem_Injected addr 0x2baa50c size 0x44 virtual false final false
   static inline ::UnityEngine::ParticleSystem* GetSubEmitterSystem_Injected(ByRef<::UnityEngine::__ParticleSystem__SubEmittersModule> _unity_self, int32_t index);
 
   // Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityEngine::ParticleSystem*", modifiers: "", def_value: None }]
@@ -363,13 +369,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::__ParticleSystem__SubEmittersModule, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::__ParticleSystem__SubEmittersModule, m_ParticleSystem) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine
 // Type: ::MinMaxCurve
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15892))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15886))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15784))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15778))
 // CS Name: ::ParticleSystem::MinMaxCurve
 struct CORDL_TYPE __ParticleSystem__MinMaxCurve {
 public:
@@ -378,19 +386,19 @@ public:
 
   __declspec(property(put = set_constantMin)) float_t constantMin;
 
-  /// @brief Method .ctor addr 0x2d11938 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x2baa550 size 0x14 virtual false final false
   inline void _ctor(float_t constant);
 
-  /// @brief Method .ctor addr 0x2d1194c size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x2baa564 size 0x1c virtual false final false
   inline void _ctor(float_t min, float_t max);
 
-  /// @brief Method set_constantMax addr 0x2d11968 size 0x8 virtual false final false
+  /// @brief Method set_constantMax addr 0x2baa580 size 0x8 virtual false final false
   inline void set_constantMax(float_t value);
 
-  /// @brief Method set_constantMin addr 0x2d11970 size 0x8 virtual false final false
+  /// @brief Method set_constantMin addr 0x2baa588 size 0x8 virtual false final false
   inline void set_constantMin(float_t value);
 
-  /// @brief Method op_Implicit addr 0x2d11978 size 0x14 virtual false final false
+  /// @brief Method op_Implicit addr 0x2baa590 size 0x14 virtual false final false
   static inline ::UnityEngine::__ParticleSystem__MinMaxCurve op_Implicit___UnityEngine____ParticleSystem__MinMaxCurve(float_t constant);
 
   // Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::ParticleSystemCurveMode", modifiers: "", def_value: None }, CppParam { name: "m_CurveMultiplier", ty: "float_t", modifiers: "",
@@ -430,26 +438,38 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::__ParticleSystem__MinMaxCurve, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::__ParticleSystem__MinMaxCurve, m_Mode) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__MinMaxCurve, m_CurveMultiplier) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__MinMaxCurve, m_CurveMin) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__MinMaxCurve, m_CurveMax) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__MinMaxCurve, m_ConstantMin) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__MinMaxCurve, m_ConstantMax) == 0x1c, "Offset mismatch!");
+
 } // namespace UnityEngine
 // Type: ::MinMaxGradient
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15893))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15887))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15785)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15779))
 // CS Name: ::ParticleSystem::MinMaxGradient
 struct CORDL_TYPE __ParticleSystem__MinMaxGradient {
 public:
   // Declarations
   __declspec(property(get = get_color))::UnityEngine::Color color;
 
-  /// @brief Method .ctor addr 0x2d1198c size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x2baa5a4 size 0x1c virtual false final false
   inline void _ctor(::UnityEngine::Color color);
 
-  /// @brief Method get_color addr 0x2d119a8 size 0xc virtual false final false
+  /// @brief Method get_color addr 0x2baa5c0 size 0xc virtual false final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method op_Implicit addr 0x2d119b4 size 0x1c virtual false final false
+  /// @brief Method op_Implicit addr 0x2baa5cc size 0x1c virtual false final false
   static inline ::UnityEngine::__ParticleSystem__MinMaxGradient op_Implicit___UnityEngine____ParticleSystem__MinMaxGradient(::UnityEngine::Color color);
 
   // Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::ParticleSystemGradientMode", modifiers: "", def_value: None }, CppParam { name: "m_GradientMin", ty: "::UnityEngine::Gradient*",
@@ -485,13 +505,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::__ParticleSystem__MinMaxGradient, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::__ParticleSystem__MinMaxGradient, m_Mode) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__MinMaxGradient, m_GradientMin) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__MinMaxGradient, m_GradientMax) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__MinMaxGradient, m_ColorMin) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__MinMaxGradient, m_ColorMax) == 0x28, "Offset mismatch!");
+
 } // namespace UnityEngine
 // Type: ::Particle
 // SizeInfo { instance_size: 132, native_size: 132, calculated_instance_size: 132, calculated_native_size: 148, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15888))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10177))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15780))
 // CS Name: ::ParticleSystem::Particle
 struct CORDL_TYPE __ParticleSystem__Particle {
 public:
@@ -516,34 +546,34 @@ public:
 
   __declspec(property(put = set_lifetime)) float_t lifetime;
 
-  /// @brief Method set_position addr 0x2d10ecc size 0xc virtual false final false
+  /// @brief Method set_position addr 0x2ba9ae4 size 0xc virtual false final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_velocity addr 0x2d10ed8 size 0xc virtual false final false
+  /// @brief Method set_velocity addr 0x2ba9af0 size 0xc virtual false final false
   inline void set_velocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_remainingLifetime addr 0x2d119d0 size 0x8 virtual false final false
+  /// @brief Method set_remainingLifetime addr 0x2baa5e8 size 0x8 virtual false final false
   inline void set_remainingLifetime(float_t value);
 
-  /// @brief Method set_startLifetime addr 0x2d10eec size 0x8 virtual false final false
+  /// @brief Method set_startLifetime addr 0x2ba9b04 size 0x8 virtual false final false
   inline void set_startLifetime(float_t value);
 
-  /// @brief Method set_startColor addr 0x2d10f58 size 0x8 virtual false final false
+  /// @brief Method set_startColor addr 0x2ba9b70 size 0x8 virtual false final false
   inline void set_startColor(::UnityEngine::Color32 value);
 
-  /// @brief Method set_randomSeed addr 0x2d10f60 size 0x8 virtual false final false
+  /// @brief Method set_randomSeed addr 0x2ba9b78 size 0x8 virtual false final false
   inline void set_randomSeed(uint32_t value);
 
-  /// @brief Method set_startSize addr 0x2d10ef4 size 0xc virtual false final false
+  /// @brief Method set_startSize addr 0x2ba9b0c size 0xc virtual false final false
   inline void set_startSize(float_t value);
 
-  /// @brief Method set_rotation3D addr 0x2d10f00 size 0x2c virtual false final false
+  /// @brief Method set_rotation3D addr 0x2ba9b18 size 0x2c virtual false final false
   inline void set_rotation3D(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_angularVelocity3D addr 0x2d10f2c size 0x2c virtual false final false
+  /// @brief Method set_angularVelocity3D addr 0x2ba9b44 size 0x2c virtual false final false
   inline void set_angularVelocity3D(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_lifetime addr 0x2d10ee4 size 0x8 virtual false final false
+  /// @brief Method set_lifetime addr 0x2ba9afc size 0x8 virtual false final false
   inline void set_lifetime(float_t value);
 
   // Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Velocity", ty: "::UnityEngine::Vector3", modifiers: "",
@@ -623,13 +653,47 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::__ParticleSystem__Particle, 0x84>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_Position) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_Velocity) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_AnimatedVelocity) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_InitialVelocity) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_AxisOfRotation) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_Rotation) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_AngularVelocity) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_StartSize) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_StartColor) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_RandomSeed) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_ParentRandomSeed) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_Lifetime) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_StartLifetime) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_MeshIndex) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_EmitAccumulator0) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_EmitAccumulator1) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_Flags) == 0x80, "Offset mismatch!");
+
 } // namespace UnityEngine
 // Type: ::EmitParams
 // SizeInfo { instance_size: 144, native_size: 176, calculated_instance_size: 144, calculated_native_size: 159, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15888))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15889))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15780))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15781))
 // CS Name: ::ParticleSystem::EmitParams
 struct CORDL_TYPE __ParticleSystem__EmitParams {
 public:
@@ -642,16 +706,16 @@ public:
 
   __declspec(property(put = set_startColor))::UnityEngine::Color32 startColor;
 
-  /// @brief Method set_position addr 0x2d119d8 size 0x14 virtual false final false
+  /// @brief Method set_position addr 0x2baa5f0 size 0x14 virtual false final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_applyShapeToPosition addr 0x2d119ec size 0xc virtual false final false
+  /// @brief Method set_applyShapeToPosition addr 0x2baa604 size 0xc virtual false final false
   inline void set_applyShapeToPosition(bool value);
 
-  /// @brief Method set_rotation3D addr 0x2d119f8 size 0x34 virtual false final false
+  /// @brief Method set_rotation3D addr 0x2baa610 size 0x34 virtual false final false
   inline void set_rotation3D(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_startColor addr 0x2d11a2c size 0x10 virtual false final false
+  /// @brief Method set_startColor addr 0x2baa644 size 0x10 virtual false final false
   inline void set_startColor(::UnityEngine::Color32 value);
 
   // Ctor Parameters [CppParam { name: "m_Particle", ty: "::UnityEngine::__ParticleSystem__Particle", modifiers: "", def_value: None }, CppParam { name: "m_PositionSet", ty: "bool", modifiers: "",
@@ -712,13 +776,37 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::__ParticleSystem__EmitParams, 0x90>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::__ParticleSystem__EmitParams, m_Particle) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__EmitParams, m_PositionSet) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__EmitParams, m_VelocitySet) == 0x85, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__EmitParams, m_AxisOfRotationSet) == 0x86, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__EmitParams, m_RotationSet) == 0x87, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__EmitParams, m_AngularVelocitySet) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__EmitParams, m_StartSizeSet) == 0x89, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__EmitParams, m_StartColorSet) == 0x8a, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__EmitParams, m_RandomSeedSet) == 0x8b, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__EmitParams, m_StartLifetimeSet) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__EmitParams, m_MeshIndexSet) == 0x8d, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__ParticleSystem__EmitParams, m_ApplyShapeToPosition) == 0x8e, "Offset mismatch!");
+
 } // namespace UnityEngine
 // Type: UnityEngine::ParticleSystem
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10238))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15890))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15782))
 // CS Name: ::UnityEngine::ParticleSystem*
 class CORDL_TYPE ParticleSystem : public ::UnityEngine::Component {
 public:
@@ -755,102 +843,102 @@ public:
 
   __declspec(property(get = get_subEmitters))::UnityEngine::__ParticleSystem__SubEmittersModule subEmitters;
 
-  /// @brief Method get_particleCount addr 0x2d10640 size 0x3c virtual false final false
+  /// @brief Method get_particleCount addr 0x2ba9258 size 0x3c virtual false final false
   inline int32_t get_particleCount();
 
-  /// @brief Method get_time addr 0x2d1067c size 0x3c virtual false final false
+  /// @brief Method get_time addr 0x2ba9294 size 0x3c virtual false final false
   inline float_t get_time();
 
-  /// @brief Method set_randomSeed addr 0x2d106b8 size 0x44 virtual false final false
+  /// @brief Method set_randomSeed addr 0x2ba92d0 size 0x44 virtual false final false
   inline void set_randomSeed(uint32_t value);
 
-  /// @brief Method get_useAutoRandomSeed addr 0x2d106fc size 0x3c virtual false final false
+  /// @brief Method get_useAutoRandomSeed addr 0x2ba9314 size 0x3c virtual false final false
   inline bool get_useAutoRandomSeed();
 
-  /// @brief Method set_useAutoRandomSeed addr 0x2d10738 size 0x44 virtual false final false
+  /// @brief Method set_useAutoRandomSeed addr 0x2ba9350 size 0x44 virtual false final false
   inline void set_useAutoRandomSeed(bool value);
 
-  /// @brief Method SetParticles addr 0x2d1077c size 0x5c virtual false final false
+  /// @brief Method SetParticles addr 0x2ba9394 size 0x5c virtual false final false
   inline void SetParticles(ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>> particles, int32_t size, int32_t offset);
 
-  /// @brief Method SetParticles addr 0x2d107d8 size 0x58 virtual false final false
+  /// @brief Method SetParticles addr 0x2ba93f0 size 0x58 virtual false final false
   inline void SetParticles(ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>> particles, int32_t size);
 
-  /// @brief Method GetParticles addr 0x2d10830 size 0x5c virtual false final false
+  /// @brief Method GetParticles addr 0x2ba9448 size 0x5c virtual false final false
   inline int32_t GetParticles(ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>> particles, int32_t size, int32_t offset);
 
-  /// @brief Method GetParticles addr 0x2d1088c size 0x58 virtual false final false
+  /// @brief Method GetParticles addr 0x2ba94a4 size 0x58 virtual false final false
   inline int32_t GetParticles(ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>> particles, int32_t size);
 
-  /// @brief Method Simulate addr 0x2d108e4 size 0x6c virtual false final false
+  /// @brief Method Simulate addr 0x2ba94fc size 0x6c virtual false final false
   inline void Simulate(float_t t, bool withChildren, bool restart, bool fixedTimeStep);
 
-  /// @brief Method Simulate addr 0x2d10950 size 0x68 virtual false final false
+  /// @brief Method Simulate addr 0x2ba9568 size 0x68 virtual false final false
   inline void Simulate(float_t t, bool withChildren, bool restart);
 
-  /// @brief Method Play addr 0x2d109b8 size 0x44 virtual false final false
+  /// @brief Method Play addr 0x2ba95d0 size 0x44 virtual false final false
   inline void Play(bool withChildren);
 
-  /// @brief Method Play addr 0x2d109fc size 0x40 virtual false final false
+  /// @brief Method Play addr 0x2ba9614 size 0x40 virtual false final false
   inline void Play();
 
-  /// @brief Method Pause addr 0x2d10a3c size 0x44 virtual false final false
+  /// @brief Method Pause addr 0x2ba9654 size 0x44 virtual false final false
   inline void Pause(bool withChildren);
 
-  /// @brief Method Pause addr 0x2d10a80 size 0x40 virtual false final false
+  /// @brief Method Pause addr 0x2ba9698 size 0x40 virtual false final false
   inline void Pause();
 
-  /// @brief Method Stop addr 0x2d10ac0 size 0x54 virtual false final false
+  /// @brief Method Stop addr 0x2ba96d8 size 0x54 virtual false final false
   inline void Stop(bool withChildren, ::UnityEngine::ParticleSystemStopBehavior stopBehavior);
 
-  /// @brief Method Stop addr 0x2d10b14 size 0x48 virtual false final false
+  /// @brief Method Stop addr 0x2ba972c size 0x48 virtual false final false
   inline void Stop(bool withChildren);
 
-  /// @brief Method Stop addr 0x2d10b5c size 0x44 virtual false final false
+  /// @brief Method Stop addr 0x2ba9774 size 0x44 virtual false final false
   inline void Stop();
 
-  /// @brief Method Clear addr 0x2d10ba0 size 0x44 virtual false final false
+  /// @brief Method Clear addr 0x2ba97b8 size 0x44 virtual false final false
   inline void Clear(bool withChildren);
 
-  /// @brief Method Clear addr 0x2d10be4 size 0x40 virtual false final false
+  /// @brief Method Clear addr 0x2ba97fc size 0x40 virtual false final false
   inline void Clear();
 
-  /// @brief Method Emit addr 0x2d10c24 size 0x44 virtual false final false
+  /// @brief Method Emit addr 0x2ba983c size 0x44 virtual false final false
   inline void Emit(int32_t count);
 
-  /// @brief Method Emit_Internal addr 0x2d10c68 size 0x44 virtual false final false
+  /// @brief Method Emit_Internal addr 0x2ba9880 size 0x44 virtual false final false
   inline void Emit_Internal(int32_t count);
 
-  /// @brief Method Emit addr 0x2d10cac size 0x54 virtual false final false
+  /// @brief Method Emit addr 0x2ba98c4 size 0x54 virtual false final false
   inline void Emit(::UnityEngine::__ParticleSystem__EmitParams emitParams, int32_t count);
 
-  /// @brief Method EmitOld_Internal addr 0x2d10d54 size 0x44 virtual false final false
+  /// @brief Method EmitOld_Internal addr 0x2ba996c size 0x44 virtual false final false
   inline void EmitOld_Internal(ByRef<::UnityEngine::__ParticleSystem__Particle> particle);
 
-  /// @brief Method get_main addr 0x2d10d98 size 0x4 virtual false final false
+  /// @brief Method get_main addr 0x2ba99b0 size 0x4 virtual false final false
   inline ::UnityEngine::__ParticleSystem__MainModule get_main();
 
-  /// @brief Method get_emission addr 0x2d10da4 size 0x4 virtual false final false
+  /// @brief Method get_emission addr 0x2ba99bc size 0x4 virtual false final false
   inline ::UnityEngine::__ParticleSystem__EmissionModule get_emission();
 
-  /// @brief Method get_shape addr 0x2d10db0 size 0x4 virtual false final false
+  /// @brief Method get_shape addr 0x2ba99c8 size 0x4 virtual false final false
   inline ::UnityEngine::__ParticleSystem__ShapeModule get_shape();
 
-  /// @brief Method get_subEmitters addr 0x2d10dbc size 0x4 virtual false final false
+  /// @brief Method get_subEmitters addr 0x2ba99d4 size 0x4 virtual false final false
   inline ::UnityEngine::__ParticleSystem__SubEmittersModule get_subEmitters();
 
-  /// @brief Method Emit addr 0x2d10dc8 size 0x104 virtual false final false
+  /// @brief Method Emit addr 0x2ba99e0 size 0x104 virtual false final false
   inline void Emit(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 velocity, float_t size, float_t lifetime, ::UnityEngine::Color32 color);
 
-  /// @brief Method Emit addr 0x2d10f68 size 0x44 virtual false final false
+  /// @brief Method Emit addr 0x2ba9b80 size 0x44 virtual false final false
   inline void Emit(::UnityEngine::__ParticleSystem__Particle particle);
 
   static inline ::UnityEngine::ParticleSystem* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d10fac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2ba9bc4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Emit_Injected addr 0x2d10d00 size 0x54 virtual false final false
+  /// @brief Method Emit_Injected addr 0x2ba9918 size 0x54 virtual false final false
   inline void Emit_Injected(ByRef<::UnityEngine::__ParticleSystem__EmitParams> emitParams, int32_t count);
 
   // Ctor Parameters [CppParam { name: "", ty: "ParticleSystem", modifiers: "&&", def_value: None }]

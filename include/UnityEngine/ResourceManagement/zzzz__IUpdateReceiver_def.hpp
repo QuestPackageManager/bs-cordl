@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::IUpdateReceiver);
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13958))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14229))
 // CS Name: ::UnityEngine.ResourceManagement::IUpdateReceiver*
 class CORDL_TYPE IUpdateReceiver {
 public:

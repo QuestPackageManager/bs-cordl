@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Interactions::TapInteraction);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Interactions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6652))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6738))
 // CS Name: ::UnityEngine.InputSystem.Interactions::TapInteraction*
 class CORDL_TYPE TapInteraction : public ::System::Object {
 public:
@@ -64,24 +64,24 @@ public:
 
   constexpr void __set_m_TapStartTime(double_t value);
 
-  /// @brief Method get_durationOrDefault addr 0x2b0d234 size 0x70 virtual false final false
+  /// @brief Method get_durationOrDefault addr 0x298c4e0 size 0x70 virtual false final false
   inline float_t get_durationOrDefault();
 
-  /// @brief Method get_pressPointOrDefault addr 0x2b0d2a4 size 0x58 virtual false final false
+  /// @brief Method get_pressPointOrDefault addr 0x298c550 size 0x58 virtual false final false
   inline float_t get_pressPointOrDefault();
 
-  /// @brief Method get_releasePointOrDefault addr 0x2b0d2fc size 0x88 virtual false final false
+  /// @brief Method get_releasePointOrDefault addr 0x298c5a8 size 0x88 virtual false final false
   inline float_t get_releasePointOrDefault();
 
-  /// @brief Method Process addr 0x2b0d384 size 0x160 virtual true final true
+  /// @brief Method Process addr 0x298c630 size 0x160 virtual true final true
   inline void Process(ByRef<::UnityEngine::InputSystem::InputInteractionContext> context);
 
-  /// @brief Method Reset addr 0x2b0d4e4 size 0x8 virtual true final true
+  /// @brief Method Reset addr 0x298c790 size 0x8 virtual true final true
   inline void Reset();
 
   static inline ::UnityEngine::InputSystem::Interactions::TapInteraction* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b0d4ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x298c798 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TapInteraction", modifiers: "&&", def_value: None }]
@@ -111,6 +111,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Interactions::TapInteraction, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Interactions::TapInteraction, ___duration) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Interactions::TapInteraction, ___pressPoint) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Interactions::TapInteraction, ___m_TapStartTime) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Interactions
 NEED_NO_BOX(::UnityEngine::InputSystem::Interactions::TapInteraction);

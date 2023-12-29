@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ValidateCommandEvent);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7229), inst: 1029 }), TypeDefinitionIndex(TypeDefinitionIndex(7229))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7230))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7315)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 1008 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7316))
 // CS Name: ::UnityEngine.UIElements::ValidateCommandEvent*
 class CORDL_TYPE ValidateCommandEvent : public ::UnityEngine::UIElements::CommandEventBase_1<::UnityEngine::UIElements::ValidateCommandEvent*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::ValidateCommandEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e51edc size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2ce9b2c size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ValidateCommandEvent", modifiers: "&&", def_value: None }]

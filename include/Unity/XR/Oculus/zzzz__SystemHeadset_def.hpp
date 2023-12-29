@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::XR::Oculus::SystemHeadset);
 namespace Unity::XR::Oculus {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15139))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15284))
 // CS Name: ::Unity.XR.Oculus::SystemHeadset
 struct CORDL_TYPE SystemHeadset {
 public:
@@ -129,6 +129,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::SystemHeadset, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Unity::XR::Oculus::SystemHeadset, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Unity::XR::Oculus
 DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::SystemHeadset, "Unity.XR.Oculus", "SystemHeadset");

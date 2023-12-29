@@ -21,8 +21,8 @@ MARK_VAL_T(::UnityEngine::Experimental::Playables::TexturePlayableOutput);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Playables {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10415))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10413))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10337))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10335))
 // CS Name: ::UnityEngine.Experimental.Playables::TexturePlayableOutput
 struct CORDL_TYPE TexturePlayableOutput {
 public:
@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
   constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
 
-  /// @brief Method GetHandle addr 0x2cf48b4 size 0xc virtual true final true
+  /// @brief Method GetHandle addr 0x2b8c574 size 0xc virtual true final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
@@ -50,6 +50,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Playables::TexturePlayableOutput, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::Playables::TexturePlayableOutput, m_Handle) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Experimental::Playables
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Playables::TexturePlayableOutput, "UnityEngine.Experimental.Playables", "TexturePlayableOutput");

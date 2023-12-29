@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::Mono::Security::Authenticode::AuthenticodeBase);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Authenticode {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13801))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14072))
 // CS Name: ::Mono.Security.Authenticode::AuthenticodeBase*
 class CORDL_TYPE AuthenticodeBase : public ::System::Object {
 public:
@@ -114,31 +114,31 @@ public:
 
   static inline ::Mono::Security::Authenticode::AuthenticodeBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x240a3f0 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x22b096c size 0x5c virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_PEOffset addr 0x240a44c size 0x28 virtual false final false
+  /// @brief Method get_PEOffset addr 0x22b09c8 size 0x28 virtual false final false
   inline int32_t get_PEOffset();
 
-  /// @brief Method Open addr 0x240a54c size 0x94 virtual false final false
+  /// @brief Method Open addr 0x22b0ac8 size 0x94 virtual false final false
   inline void Open(::StringW filename);
 
-  /// @brief Method Open addr 0x240a60c size 0x8c virtual false final false
+  /// @brief Method Open addr 0x22b0b88 size 0x8c virtual false final false
   inline void Open(::ArrayW<uint8_t, ::Array<uint8_t>*> rawdata);
 
-  /// @brief Method Close addr 0x240a5e0 size 0x2c virtual false final false
+  /// @brief Method Close addr 0x22b0b5c size 0x2c virtual false final false
   inline void Close();
 
-  /// @brief Method ReadFirstBlock addr 0x240a474 size 0xd8 virtual false final false
+  /// @brief Method ReadFirstBlock addr 0x22b09f0 size 0xd8 virtual false final false
   inline void ReadFirstBlock();
 
-  /// @brief Method ProcessFirstBlock addr 0x240a698 size 0x240 virtual false final false
+  /// @brief Method ProcessFirstBlock addr 0x22b0c14 size 0x240 virtual false final false
   inline int32_t ProcessFirstBlock();
 
-  /// @brief Method GetSecurityEntry addr 0x240a8d8 size 0xd0 virtual false final false
+  /// @brief Method GetSecurityEntry addr 0x22b0e54 size 0xd0 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSecurityEntry();
 
-  /// @brief Method GetHash addr 0x240a9a8 size 0x488 virtual false final false
+  /// @brief Method GetHash addr 0x22b0f24 size 0x488 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetHash(::System::Security::Cryptography::HashAlgorithm* hash);
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthenticodeBase", modifiers: "&&", def_value: None }]
@@ -186,6 +186,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Authenticode::AuthenticodeBase, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::Authenticode::AuthenticodeBase, ___fileblock) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Authenticode::AuthenticodeBase, ___fs) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Authenticode::AuthenticodeBase, ___blockNo) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Authenticode::AuthenticodeBase, ___blockLength) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Authenticode::AuthenticodeBase, ___peOffset) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Authenticode::AuthenticodeBase, ___dirSecurityOffset) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Authenticode::AuthenticodeBase, ___dirSecuritySize) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Authenticode::AuthenticodeBase, ___coffSymbolTableOffset) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::Authenticode::AuthenticodeBase, ___pe64) == 0x38, "Offset mismatch!");
 
 } // namespace Mono::Security::Authenticode
 NEED_NO_BOX(::Mono::Security::Authenticode::AuthenticodeBase);

@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentIntensityReductionOptions);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4171))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4203))
 // CS Name: ::EnvironmentIntensityReductionOptions::CompressExpandReductionType
 struct CORDL_TYPE __EnvironmentIntensityReductionOptions__CompressExpandReductionType {
 public:
@@ -74,13 +74,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::RotateRingsReductionType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4172))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4204))
 // CS Name: ::EnvironmentIntensityReductionOptions::RotateRingsReductionType
 struct CORDL_TYPE __EnvironmentIntensityReductionOptions__RotateRingsReductionType {
 public:
@@ -122,13 +124,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::EnvironmentIntensityReductionOptions
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4171)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4172))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4173))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(4204)), TypeDefinitionIndex(TypeDefinitionIndex(4203))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4205))
 // CS Name: ::EnvironmentIntensityReductionOptions*
 class CORDL_TYPE EnvironmentIntensityReductionOptions : public ::System::Object {
 public:
@@ -159,15 +163,15 @@ public:
 
   constexpr void __set__rotateRings(::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType value);
 
-  /// @brief Method get_compressExpand addr 0x224038c size 0x8 virtual false final false
+  /// @brief Method get_compressExpand addr 0x21d14ec size 0x8 virtual false final false
   inline ::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType get_compressExpand();
 
-  /// @brief Method get_rotateRings addr 0x2240394 size 0x8 virtual false final false
+  /// @brief Method get_rotateRings addr 0x21d14f4 size 0x8 virtual false final false
   inline ::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType get_rotateRings();
 
   static inline ::GlobalNamespace::EnvironmentIntensityReductionOptions* New_ctor();
 
-  /// @brief Method .ctor addr 0x224039c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d14fc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentIntensityReductionOptions", modifiers: "&&", def_value: None }]
@@ -194,6 +198,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentIntensityReductionOptions, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentIntensityReductionOptions, ____compressExpand) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentIntensityReductionOptions, ____rotateRings) == 0x14, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType, "", "EnvironmentIntensityReductionOptions/CompressExpandReductionType");

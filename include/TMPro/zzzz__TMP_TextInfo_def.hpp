@@ -9,28 +9,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_TextInfo)
 namespace TMPro {
-struct TMP_WordInfo;
-}
-namespace TMPro {
-struct TMP_LinkInfo;
-}
-namespace TMPro {
 struct TMP_LineInfo;
-}
-namespace TMPro {
-struct TMP_PageInfo;
-}
-namespace TMPro {
-struct TMP_MeshInfo;
-}
-namespace TMPro {
-struct TMP_CharacterInfo;
 }
 namespace TMPro {
 class TMP_Text;
 }
 namespace TMPro {
 struct MaterialReference;
+}
+namespace TMPro {
+struct TMP_MeshInfo;
+}
+namespace TMPro {
+struct TMP_LinkInfo;
+}
+namespace TMPro {
+struct TMP_CharacterInfo;
+}
+namespace TMPro {
+struct TMP_WordInfo;
+}
+namespace TMPro {
+struct TMP_PageInfo;
 }
 // Forward declare root types
 namespace TMPro {
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::TMPro::TMP_TextInfo);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12450))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12378))
 // CS Name: ::TMPro::TMP_TextInfo*
 class CORDL_TYPE TMP_TextInfo : public ::System::Object {
 public:
@@ -208,44 +208,44 @@ public:
 
   static inline ::TMPro::TMP_TextInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c47e48 size 0x128 virtual false final false
+  /// @brief Method .ctor addr 0x2ac40f4 size 0x128 virtual false final false
   inline void _ctor();
 
   static inline ::TMPro::TMP_TextInfo* New_ctor(int32_t characterCount);
 
-  /// @brief Method .ctor addr 0x2c47f70 size 0x12c virtual false final false
+  /// @brief Method .ctor addr 0x2ac421c size 0x12c virtual false final false
   inline void _ctor(int32_t characterCount);
 
   static inline ::TMPro::TMP_TextInfo* New_ctor(::TMPro::TMP_Text* textComponent);
 
-  /// @brief Method .ctor addr 0x2c4809c size 0x16c virtual false final false
+  /// @brief Method .ctor addr 0x2ac4348 size 0x16c virtual false final false
   inline void _ctor(::TMPro::TMP_Text* textComponent);
 
-  /// @brief Method Clear addr 0x2c48208 size 0x5c virtual false final false
+  /// @brief Method Clear addr 0x2ac44b4 size 0x5c virtual false final false
   inline void Clear();
 
-  /// @brief Method ClearAllData addr 0x2c48264 size 0x12c virtual false final false
+  /// @brief Method ClearAllData addr 0x2ac4510 size 0x12c virtual false final false
   inline void ClearAllData();
 
-  /// @brief Method ClearMeshInfo addr 0x2c48390 size 0x70 virtual false final false
+  /// @brief Method ClearMeshInfo addr 0x2ac463c size 0x70 virtual false final false
   inline void ClearMeshInfo(bool updateMesh);
 
-  /// @brief Method ClearAllMeshInfo addr 0x2c48400 size 0x64 virtual false final false
+  /// @brief Method ClearAllMeshInfo addr 0x2ac46ac size 0x64 virtual false final false
   inline void ClearAllMeshInfo();
 
-  /// @brief Method ResetVertexLayout addr 0x2c48464 size 0x74 virtual false final false
+  /// @brief Method ResetVertexLayout addr 0x2ac4710 size 0x74 virtual false final false
   inline void ResetVertexLayout(bool isVolumetric);
 
-  /// @brief Method ClearUnusedVertices addr 0x2c484d8 size 0x64 virtual false final false
+  /// @brief Method ClearUnusedVertices addr 0x2ac4784 size 0x64 virtual false final false
   inline void ClearUnusedVertices(::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*> materials);
 
-  /// @brief Method ClearLineInfo addr 0x2c4853c size 0x180 virtual false final false
+  /// @brief Method ClearLineInfo addr 0x2ac47e8 size 0x180 virtual false final false
   inline void ClearLineInfo();
 
-  /// @brief Method ClearPageInfo addr 0x2c486bc size 0x98 virtual false final false
+  /// @brief Method ClearPageInfo addr 0x2ac4968 size 0x98 virtual false final false
   inline void ClearPageInfo();
 
-  /// @brief Method CopyMeshInfoVertexData addr 0x2c48754 size 0x3c8 virtual false final false
+  /// @brief Method CopyMeshInfoVertexData addr 0x2ac4a00 size 0x3c8 virtual false final false
   inline ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> CopyMeshInfoVertexData();
 
   /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -320,6 +320,38 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_TextInfo, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_TextInfo, ___textComponent) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_TextInfo, ___characterCount) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_TextInfo, ___spriteCount) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_TextInfo, ___spaceCount) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_TextInfo, ___wordCount) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_TextInfo, ___linkCount) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_TextInfo, ___lineCount) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_TextInfo, ___pageCount) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_TextInfo, ___materialCount) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_TextInfo, ___characterInfo) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_TextInfo, ___wordInfo) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_TextInfo, ___linkInfo) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_TextInfo, ___lineInfo) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_TextInfo, ___pageInfo) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_TextInfo, ___meshInfo) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_TextInfo, ___m_CachedMeshInfo) == 0x68, "Offset mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::TMP_TextInfo);

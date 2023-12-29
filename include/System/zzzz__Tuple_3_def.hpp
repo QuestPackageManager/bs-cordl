@@ -6,20 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Tuple_3)
-namespace System {
-class ITupleInternal;
-}
-namespace System {
-class IComparable;
-}
-namespace System::Collections {
-class IEqualityComparer;
-}
 namespace System::Collections {
 class IStructuralEquatable;
-}
-namespace System::Runtime::CompilerServices {
-class ITuple;
 }
 namespace System {
 class Object;
@@ -27,8 +15,20 @@ class Object;
 namespace System::Collections {
 class IComparer;
 }
+namespace System::Collections {
+class IEqualityComparer;
+}
 namespace System::Text {
 class StringBuilder;
+}
+namespace System::Runtime::CompilerServices {
+class ITuple;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+class ITupleInternal;
 }
 namespace System::Collections {
 class IStructuralComparable;
@@ -45,8 +45,8 @@ namespace System {
 // cpp template
 template <typename T1, typename T2, typename T3>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2491))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2489))
 // CS Name: ::System::Tuple`3<T1,T2,T3>*
 class CORDL_TYPE Tuple_3 : public ::System::Object {
 public:

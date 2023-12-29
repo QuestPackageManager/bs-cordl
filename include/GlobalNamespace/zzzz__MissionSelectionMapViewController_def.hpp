@@ -11,56 +11,56 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionSelectionMapViewController)
+namespace HMUI {
+class ScrollView;
+}
 namespace GlobalNamespace {
-class MissionNode;
+struct __MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15;
 }
 namespace GlobalNamespace {
 class MissionNodeVisualController;
 }
 namespace GlobalNamespace {
+class MissionNodeSelectionManager;
+}
+namespace GlobalNamespace {
+class MissionNode;
+}
+namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class SongPreviewPlayer;
-}
-namespace GlobalNamespace {
-struct __MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15;
-}
-namespace HMUI {
-class ScrollView;
 }
 namespace GlobalNamespace {
 class MissionMapAnimationController;
 }
 namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelModel;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
 class __MissionSelectionMapViewController____c__DisplayClass15_0;
 }
 namespace GlobalNamespace {
-class MissionNodeSelectionManager;
+class SongPreviewPlayer;
+}
+namespace GlobalNamespace {
+class PerceivedLoudnessPerLevelModel;
 }
 namespace GlobalNamespace {
 class AudioClipAsyncLoader;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+class Action;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace UnityEngine {
 class AudioClip;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +80,8 @@ MARK_VAL_T(::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCr
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5703))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5802))
 // CS Name: ::MissionSelectionMapViewController::<>c__DisplayClass15_0*
 class CORDL_TYPE __MissionSelectionMapViewController____c__DisplayClass15_0 : public ::System::Object {
 public:
@@ -106,10 +106,10 @@ public:
 
   static inline ::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x22cb7e0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2188de4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <SongPlayerCrossfadeToLevelAsync>b__0 addr 0x22cb7e8 size 0x2c virtual false final false
+  /// @brief Method <SongPlayerCrossfadeToLevelAsync>b__0 addr 0x2188dec size 0x2c virtual false final false
   inline void _SongPlayerCrossfadeToLevelAsync_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionSelectionMapViewController____c__DisplayClass15_0", modifiers: "&&", def_value: None }]
@@ -137,13 +137,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0, ___level) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<SongPlayerCrossfadeToLevelAsync>d__15
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15594)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5704)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(15614)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 280 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5803)) CS Name:
 // ::MissionSelectionMapViewController::<SongPlayerCrossfadeToLevelAsync>d__15
 struct CORDL_TYPE __MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15 {
 public:
@@ -151,10 +155,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x22cb814 size 0x49c virtual true final true
+  /// @brief Method MoveNext addr 0x2188e18 size 0x49c virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x22cbcb0 size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0x21892b4 size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -201,13 +205,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15, 0x50>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15, level) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15, __8__1) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15, _musicVolume_5__2) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15, __u__1) == 0x48, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MissionSelectionMapViewController
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5705))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5804))
 // CS Name: ::MissionSelectionMapViewController*
 class CORDL_TYPE MissionSelectionMapViewController : public ::HMUI::ViewController {
 public:
@@ -292,36 +310,36 @@ public:
 
   constexpr void __set__selectedMissionNode(::GlobalNamespace::MissionNode* value);
 
-  /// @brief Method add_didSelectMissionLevelEvent addr 0x22cb29c size 0xb0 virtual false final false
+  /// @brief Method add_didSelectMissionLevelEvent addr 0x21888a0 size 0xb0 virtual false final false
   inline void add_didSelectMissionLevelEvent(::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>* value);
 
-  /// @brief Method remove_didSelectMissionLevelEvent addr 0x22cb34c size 0xb0 virtual false final false
+  /// @brief Method remove_didSelectMissionLevelEvent addr 0x2188950 size 0xb0 virtual false final false
   inline void remove_didSelectMissionLevelEvent(::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>* value);
 
-  /// @brief Method get_animatedUpdateIsRequired addr 0x22cb3fc size 0x1c virtual false final false
+  /// @brief Method get_animatedUpdateIsRequired addr 0x2188a00 size 0x1c virtual false final false
   inline bool get_animatedUpdateIsRequired();
 
-  /// @brief Method DidActivate addr 0x22cb418 size 0x144 virtual true final false
+  /// @brief Method DidActivate addr 0x2188a1c size 0x144 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x22cb55c size 0x130 virtual true final false
+  /// @brief Method DidDeactivate addr 0x2188b60 size 0x130 virtual true final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleMissionNodeSelectionManagerDidSelectMissionNode addr 0x22cb68c size 0x6c virtual false final false
+  /// @brief Method HandleMissionNodeSelectionManagerDidSelectMissionNode addr 0x2188c90 size 0x6c virtual false final false
   inline void HandleMissionNodeSelectionManagerDidSelectMissionNode(::GlobalNamespace::MissionNodeVisualController* missionNodeVisualController);
 
-  /// @brief Method SongPlayerCrossfadeToLevelAsync addr 0x22cb6f8 size 0xa0 virtual false final false
+  /// @brief Method SongPlayerCrossfadeToLevelAsync addr 0x2188cfc size 0xa0 virtual false final false
   inline void SongPlayerCrossfadeToLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* level);
 
-  /// @brief Method ShowMissionClearedAnimation addr 0x22cb798 size 0x24 virtual false final false
+  /// @brief Method ShowMissionClearedAnimation addr 0x2188d9c size 0x24 virtual false final false
   inline void ShowMissionClearedAnimation(::System::Action* finishCallback);
 
-  /// @brief Method DeselectSelectedNode addr 0x22cb7bc size 0x1c virtual false final false
+  /// @brief Method DeselectSelectedNode addr 0x2188dc0 size 0x1c virtual false final false
   inline void DeselectSelectedNode();
 
   static inline ::GlobalNamespace::MissionSelectionMapViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22cb7d8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2188ddc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionSelectionMapViewController", modifiers: "&&", def_value: None }]
@@ -366,6 +384,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionSelectionMapViewController, 0xb0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____mapScrollView) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____missionNodeSelectionManager) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____missionMapAnimationController) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____songPreviewPlayer) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____perceivedLoudnessPerLevelModel) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____audioClipAsyncLoader) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ___didSelectMissionLevelEvent) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____selectedMissionNode) == 0xa8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionSelectionMapViewController);

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Positions)
-namespace System::Xml::Schema {
-struct Position;
-}
 namespace System::Collections {
 class ArrayList;
 }
 namespace System {
 class Object;
+}
+namespace System::Xml::Schema {
+struct Position;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Positions);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11598))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11526))
 // CS Name: ::System.Xml.Schema::Positions*
 class CORDL_TYPE Positions : public ::System::Object {
 public:
@@ -43,18 +43,18 @@ public:
 
   constexpr void __set_positions(::System::Collections::ArrayList* value);
 
-  /// @brief Method Add addr 0x28ada20 size 0x90 virtual false final false
+  /// @brief Method Add addr 0x27309fc size 0x90 virtual false final false
   inline int32_t Add(int32_t symbol, ::System::Object* particle);
 
-  /// @brief Method get_Item addr 0x28adab0 size 0x90 virtual false final false
+  /// @brief Method get_Item addr 0x2730a8c size 0x90 virtual false final false
   inline ::System::Xml::Schema::Position get_Item(int32_t pos);
 
-  /// @brief Method get_Count addr 0x28adb40 size 0x24 virtual false final false
+  /// @brief Method get_Count addr 0x2730b1c size 0x24 virtual false final false
   inline int32_t get_Count();
 
   static inline ::System::Xml::Schema::Positions* New_ctor();
 
-  /// @brief Method .ctor addr 0x28adb64 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x2730b40 size 0x68 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Positions", modifiers: "&&", def_value: None }]
@@ -78,6 +78,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::Positions, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::Positions, ___positions) == 0x10, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::Positions);

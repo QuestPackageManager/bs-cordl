@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Resources::UltimateResourceFallbackLocation);
 namespace System::Resources {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3431))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3426))
 // CS Name: ::System.Resources::UltimateResourceFallbackLocation
 struct CORDL_TYPE UltimateResourceFallbackLocation {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Resources::UltimateResourceFallbackLocation, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Resources::UltimateResourceFallbackLocation, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Resources
 DEFINE_IL2CPP_ARG_TYPE(::System::Resources::UltimateResourceFallbackLocation, "System.Resources", "UltimateResourceFallbackLocation");

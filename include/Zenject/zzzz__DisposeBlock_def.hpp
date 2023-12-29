@@ -5,26 +5,35 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(DisposeBlock)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+template <typename TValue> class IDespawnableMemoryPool_1;
+}
 namespace System {
 class IDisposable;
 }
 namespace Zenject {
-template <typename TValue> class IMemoryPool_1;
+template <typename TParam1, typename TValue> class IMemoryPool_2;
+}
+namespace Zenject {
+template <typename TValue> class StaticMemoryPool_1;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue> class IMemoryPool_5;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue> class IMemoryPool_8;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
+template <typename TValue> class IMemoryPool_1;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TValue> class IMemoryPool_4;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Zenject {
-template <typename TParam1, typename TValue> class IMemoryPool_2;
+struct __DisposeBlock__SpawnedObjectPoolPair;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue> class IMemoryPool_6;
@@ -33,28 +42,19 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class IMemoryPool_7;
 }
 namespace Zenject {
-template <typename TValue> class StaticMemoryPool_1;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue> class IMemoryPool_5;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Zenject {
-struct __DisposeBlock__SpawnedObjectPoolPair;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue> class IMemoryPool_8;
-}
-namespace Zenject {
 template <typename TParam1, typename TParam2, typename TValue> class IMemoryPool_3;
 }
 namespace Zenject {
-class IMemoryPool;
+template <typename TParam1, typename TParam2, typename TParam3, typename TValue> class IMemoryPool_4;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 class Object;
+}
+namespace Zenject {
+class IMemoryPool;
 }
 // Forward declare root types
 namespace Zenject {
@@ -71,7 +71,7 @@ MARK_VAL_T(::Zenject::__DisposeBlock__SpawnedObjectPoolPair);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11349))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11277))
 // CS Name: ::DisposeBlock::SpawnedObjectPoolPair
 struct CORDL_TYPE __DisposeBlock__SpawnedObjectPoolPair {
 public:
@@ -97,13 +97,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__DisposeBlock__SpawnedObjectPoolPair, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__DisposeBlock__SpawnedObjectPoolPair, Pool) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__DisposeBlock__SpawnedObjectPoolPair, Object) == 0x8, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: Zenject::DisposeBlock
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11350))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11278))
 // CS Name: ::Zenject::DisposeBlock*
 class CORDL_TYPE DisposeBlock : public ::System::Object {
 public:
@@ -138,22 +142,22 @@ public:
 
   static inline ::Zenject::StaticMemoryPool_1<::Zenject::DisposeBlock*>* getStaticF__pool();
 
-  /// @brief Method OnSpawned addr 0x2f1d8c8 size 0x2c virtual false final false
+  /// @brief Method OnSpawned addr 0x2db5af8 size 0x2c virtual false final false
   static inline void OnSpawned(::Zenject::DisposeBlock* that);
 
-  /// @brief Method OnDespawned addr 0x2f1d8f4 size 0x360 virtual false final false
+  /// @brief Method OnDespawned addr 0x2db5b24 size 0x360 virtual false final false
   static inline void OnDespawned(::Zenject::DisposeBlock* that);
 
-  /// @brief Method LazyInitializeDisposableList addr 0x2f1dc54 size 0xf4 virtual false final false
+  /// @brief Method LazyInitializeDisposableList addr 0x2db5e84 size 0xf4 virtual false final false
   inline void LazyInitializeDisposableList();
 
   /// @brief Method AddRange addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> inline void AddRange(::System::Collections::Generic::IList_1<T>* disposables);
 
-  /// @brief Method Add addr 0x2f1dd48 size 0xe8 virtual false final false
+  /// @brief Method Add addr 0x2db5f78 size 0xe8 virtual false final false
   inline void Add(::System::IDisposable* disposable);
 
-  /// @brief Method Remove addr 0x2f1de30 size 0x64 virtual false final false
+  /// @brief Method Remove addr 0x2db6060 size 0x64 virtual false final false
   inline void Remove(::System::IDisposable* disposable);
 
   /// @brief Method StoreSpawnedObject addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -195,15 +199,15 @@ public:
   /// @brief Method SpawnList addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> inline ::System::Collections::Generic::List_1<T>* SpawnList();
 
-  /// @brief Method Spawn addr 0x2f1de94 size 0x78 virtual false final false
+  /// @brief Method Spawn addr 0x2db60c4 size 0x78 virtual false final false
   static inline ::Zenject::DisposeBlock* Spawn();
 
-  /// @brief Method Dispose addr 0x2f1df0c size 0x80 virtual true final true
+  /// @brief Method Dispose addr 0x2db613c size 0x80 virtual true final true
   inline void Dispose();
 
   static inline ::Zenject::DisposeBlock* New_ctor();
 
-  /// @brief Method .ctor addr 0x2f1df8c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2db61bc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DisposeBlock", modifiers: "&&", def_value: None }]
@@ -230,6 +234,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::DisposeBlock, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::DisposeBlock, ____disposables) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::DisposeBlock, ____objectPoolPairs) == 0x18, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::DisposeBlock);

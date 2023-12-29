@@ -8,26 +8,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualTreeStyleUpdaterTraversal)
-namespace UnityEngine::UIElements {
-class StyleVariableContext;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class StyleMatchingContext;
-}
 namespace UnityEngine::UIElements::StyleSheets {
 class StylePropertyReader;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct MatchResultInfo;
-}
 namespace UnityEngine::UIElements {
-struct VersionChangeType;
+struct ComputedStyle;
 }
 namespace UnityEngine::UIElements {
 class StyleRule;
@@ -35,20 +20,35 @@ class StyleRule;
 namespace UnityEngine::UIElements::StyleSheets {
 struct SelectorMatchRecord;
 }
-namespace UnityEngine::UIElements {
-struct ComputedStyle;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
 }
 namespace UnityEngine::UIElements {
-class __VisualTreeStyleUpdaterTraversal____c;
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class StyleMatchingContext;
+}
+namespace UnityEngine::UIElements {
+class StyleVariableContext;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace UnityEngine::UIElements::StyleSheets {
+struct MatchResultInfo;
+}
+namespace UnityEngine::UIElements {
+class __VisualTreeStyleUpdaterTraversal____c;
+}
 namespace UnityEngine::UIElements {
 class StyleSheet;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace System {
 template <typename T> class Comparison_1;
@@ -67,8 +67,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6818))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6904))
 // CS Name: ::VisualTreeStyleUpdaterTraversal::<>c*
 class CORDL_TYPE __VisualTreeStyleUpdaterTraversal____c : public ::System::Object {
 public:
@@ -89,10 +89,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc3340 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2c5bf90 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <ProcessMatchedRules>b__24_0 addr 0x2dc3348 size 0x44 virtual false final false
+  /// @brief Method <ProcessMatchedRules>b__24_0 addr 0x2c5bf98 size 0x44 virtual false final false
   inline int32_t _ProcessMatchedRules_b__24_0(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord a, ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord b);
 
   // Ctor Parameters [CppParam { name: "", ty: "__VisualTreeStyleUpdaterTraversal____c", modifiers: "&&", def_value: None }]
@@ -119,8 +119,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Visua
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7459))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6819))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6905))
 // CS Name: ::UnityEngine.UIElements::VisualTreeStyleUpdaterTraversal*
 class CORDL_TYPE VisualTreeStyleUpdaterTraversal : public ::UnityEngine::UIElements::StyleSheets::HierarchyTraversal {
 public:
@@ -203,55 +203,55 @@ public:
 
   constexpr void __set_m_AnimatedProperties(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* value);
 
-  /// @brief Method get_currentPixelsPerPoint addr 0x2dc1e6c size 0x8 virtual false final false
+  /// @brief Method get_currentPixelsPerPoint addr 0x2c5aabc size 0x8 virtual false final false
   inline float_t get_currentPixelsPerPoint();
 
-  /// @brief Method set_currentPixelsPerPoint addr 0x2dc1e74 size 0x8 virtual false final false
+  /// @brief Method set_currentPixelsPerPoint addr 0x2c5aac4 size 0x8 virtual false final false
   inline void set_currentPixelsPerPoint(float_t value);
 
-  /// @brief Method PrepareTraversal addr 0x2dc1844 size 0x8 virtual false final false
+  /// @brief Method PrepareTraversal addr 0x2c5a494 size 0x8 virtual false final false
   inline void PrepareTraversal(float_t pixelsPerPoint);
 
-  /// @brief Method AddChangedElement addr 0x2dc105c size 0x80 virtual false final false
+  /// @brief Method AddChangedElement addr 0x2c59cac size 0x80 virtual false final false
   inline void AddChangedElement(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Clear addr 0x2dc14c8 size 0xa4 virtual false final false
+  /// @brief Method Clear addr 0x2c5a118 size 0xa4 virtual false final false
   inline void Clear();
 
-  /// @brief Method PropagateToChildren addr 0x2dc1e7c size 0xd4 virtual false final false
+  /// @brief Method PropagateToChildren addr 0x2c5aacc size 0xd4 virtual false final false
   inline void PropagateToChildren(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method PropagateToParents addr 0x2dc1f50 size 0xa8 virtual false final false
+  /// @brief Method PropagateToParents addr 0x2c5aba0 size 0xa8 virtual false final false
   inline void PropagateToParents(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method OnProcessMatchResult addr 0x2dc1ff8 size 0x30 virtual false final false
+  /// @brief Method OnProcessMatchResult addr 0x2c5ac48 size 0x30 virtual false final false
   static inline void OnProcessMatchResult(::UnityEngine::UIElements::VisualElement* current, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo info);
 
-  /// @brief Method TraverseRecursive addr 0x2dc2028 size 0x600 virtual true final false
+  /// @brief Method TraverseRecursive addr 0x2c5ac78 size 0x600 virtual true final false
   inline void TraverseRecursive(::UnityEngine::UIElements::VisualElement* element, int32_t depth);
 
-  /// @brief Method ProcessTransitions addr 0x2dc2e68 size 0xe4 virtual false final false
+  /// @brief Method ProcessTransitions addr 0x2c5bab8 size 0xe4 virtual false final false
   inline void ProcessTransitions(::UnityEngine::UIElements::VisualElement* element, ByRef<::UnityEngine::UIElements::ComputedStyle> oldStyle, ByRef<::UnityEngine::UIElements::ComputedStyle> newStyle);
 
-  /// @brief Method ForceUpdateTransitions addr 0x2dc2f4c size 0x294 virtual false final false
+  /// @brief Method ForceUpdateTransitions addr 0x2c5bb9c size 0x294 virtual false final false
   inline void ForceUpdateTransitions(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method CancelAnimationsWithNoTransitionProperty addr 0x2dc156c size 0x2c8 virtual false final false
+  /// @brief Method CancelAnimationsWithNoTransitionProperty addr 0x2c5a1bc size 0x2c8 virtual false final false
   inline void CancelAnimationsWithNoTransitionProperty(::UnityEngine::UIElements::VisualElement* element, ByRef<::UnityEngine::UIElements::ComputedStyle> newStyle);
 
-  /// @brief Method ShouldSkipElement addr 0x2dc2628 size 0x84 virtual false final false
+  /// @brief Method ShouldSkipElement addr 0x2c5b278 size 0x84 virtual false final false
   inline bool ShouldSkipElement(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method ProcessMatchedRules addr 0x2dc26ac size 0x7bc virtual false final false
+  /// @brief Method ProcessMatchedRules addr 0x2c5b2fc size 0x7bc virtual false final false
   inline ::UnityEngine::UIElements::ComputedStyle ProcessMatchedRules(::UnityEngine::UIElements::VisualElement* element,
                                                                       ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchingSelectors);
 
-  /// @brief Method ProcessMatchedVariables addr 0x2dc31e0 size 0xfc virtual false final false
+  /// @brief Method ProcessMatchedVariables addr 0x2c5be30 size 0xfc virtual false final false
   inline void ProcessMatchedVariables(::UnityEngine::UIElements::StyleSheet* sheet, ::UnityEngine::UIElements::StyleRule* rule);
 
   static inline ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dc1920 size 0x208 virtual false final false
+  /// @brief Method .ctor addr 0x2c5a570 size 0x208 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualTreeStyleUpdaterTraversal", modifiers: "&&", def_value: None }]
@@ -296,6 +296,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal, ___m_ProcessVarContext) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal, ___m_UpdateList) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal, ___m_ParentList) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal, ___m_TempMatchResults) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal, ____currentPixelsPerPoint_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal, ___m_StyleMatchingContext) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal, ___m_StylePropertyReader) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal, ___m_AnimatedProperties) == 0x48, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal);

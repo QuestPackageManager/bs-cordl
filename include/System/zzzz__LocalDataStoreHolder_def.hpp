@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::LocalDataStoreHolder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2541))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2539))
 // CS Name: ::System::LocalDataStoreHolder*
 class CORDL_TYPE LocalDataStoreHolder : public ::System::Object {
 public:
@@ -36,13 +36,13 @@ public:
 
   static inline ::System::LocalDataStoreHolder* New_ctor(::System::LocalDataStore* store);
 
-  /// @brief Method .ctor addr 0x25d7b1c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x247bbf4 size 0x28 virtual false final false
   inline void _ctor(::System::LocalDataStore* store);
 
-  /// @brief Method Finalize addr 0x25d7b44 size 0x9c virtual true final false
+  /// @brief Method Finalize addr 0x247bc1c size 0x9c virtual true final false
   inline void Finalize();
 
-  /// @brief Method get_Store addr 0x25d7bfc size 0x8 virtual false final false
+  /// @brief Method get_Store addr 0x247bcd4 size 0x8 virtual false final false
   inline ::System::LocalDataStore* get_Store();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalDataStoreHolder", modifiers: "&&", def_value: None }]
@@ -66,6 +66,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::LocalDataStoreHolder, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::LocalDataStoreHolder, ___m_Store) == 0x10, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::LocalDataStoreHolder);

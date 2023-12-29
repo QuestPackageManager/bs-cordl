@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::IChannelDataStore);
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3122))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3121))
 // CS Name: ::System.Runtime.Remoting.Channels::IChannelDataStore*
 class CORDL_TYPE IChannelDataStore {
 public:

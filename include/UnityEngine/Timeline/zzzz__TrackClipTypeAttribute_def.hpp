@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TrackClipTypeAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13915))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14186))
 // CS Name: ::UnityEngine.Timeline::TrackClipTypeAttribute*
 class CORDL_TYPE TrackClipTypeAttribute : public ::System::Attribute {
 public:
@@ -43,12 +43,12 @@ public:
 
   static inline ::UnityEngine::Timeline::TrackClipTypeAttribute* New_ctor(::System::Type* clipClass);
 
-  /// @brief Method .ctor addr 0x2c6e668 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x2aea914 size 0x30 virtual false final false
   inline void _ctor(::System::Type* clipClass);
 
   static inline ::UnityEngine::Timeline::TrackClipTypeAttribute* New_ctor(::System::Type* clipClass, bool allowAutoCreate);
 
-  /// @brief Method .ctor addr 0x2c6e698 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2aea944 size 0x28 virtual false final false
   inline void _ctor(::System::Type* clipClass, bool allowAutoCreate);
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackClipTypeAttribute", modifiers: "&&", def_value: None }]
@@ -75,6 +75,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::TrackClipTypeAttribute, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::TrackClipTypeAttribute, ___inspectedType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::TrackClipTypeAttribute, ___allowAutoCreate) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::TrackClipTypeAttribute);

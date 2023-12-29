@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::TypeAttributes);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3500))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3495))
 // CS Name: ::System.Reflection::TypeAttributes
 struct CORDL_TYPE TypeAttributes {
 public:
@@ -177,6 +177,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::TypeAttributes, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::TypeAttributes, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::TypeAttributes, "System.Reflection", "TypeAttributes");

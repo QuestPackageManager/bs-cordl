@@ -21,7 +21,7 @@ MARK_VAL_T(::System::Threading::LockHolder);
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2695))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2693))
 // CS Name: ::System.Threading::LockHolder
 struct CORDL_TYPE LockHolder {
 public:
@@ -29,10 +29,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Hold addr 0x2614158 size 0x24 virtual false final false
+  /// @brief Method Hold addr 0x24b913c size 0x24 virtual false final false
   static inline ::System::Threading::LockHolder Hold(::System::Threading::Lock* l);
 
-  /// @brief Method Dispose addr 0x2614184 size 0x1c virtual true final true
+  /// @brief Method Dispose addr 0x24b9168 size 0x1c virtual true final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "_lock", ty: "::System::Threading::Lock*", modifiers: "", def_value: None }]
@@ -52,6 +52,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::LockHolder, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::LockHolder, _lock) == 0x0, "Offset mismatch!");
 
 } // namespace System::Threading
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::LockHolder, "System.Threading", "LockHolder");

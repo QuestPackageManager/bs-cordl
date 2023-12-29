@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnect
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10313))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10235))
 // CS Name: ::UnityEngine.Networking.PlayerConnection::IEditorPlayerConnection*
 class CORDL_TYPE IEditorPlayerConnection {
 public:

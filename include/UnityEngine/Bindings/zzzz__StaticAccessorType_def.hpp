@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Bindings::StaticAccessorType);
 namespace UnityEngine::Bindings {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16027))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15891))
 // CS Name: ::UnityEngine.Bindings::StaticAccessorType
 struct CORDL_TYPE StaticAccessorType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::StaticAccessorType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Bindings::StaticAccessorType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Bindings
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::StaticAccessorType, "UnityEngine.Bindings", "StaticAccessorType");

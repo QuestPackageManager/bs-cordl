@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(G_AudioText)
-namespace UnityEngine::UI {
-class Text;
+namespace Tayx::Graphy {
+class GraphyManager;
 }
 namespace Tayx::Graphy::Audio {
 class G_AudioMonitor;
 }
-namespace Tayx::Graphy {
-class GraphyManager;
+namespace UnityEngine::UI {
+class Text;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Audio {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Audio::G_AudioText);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Audio {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15089))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15267))
 // CS Name: ::Tayx.Graphy.Audio::G_AudioText*
 class CORDL_TYPE G_AudioText : public ::UnityEngine::MonoBehaviour {
 public:
@@ -76,21 +76,21 @@ public:
 
   constexpr void __set_m_deltaTimeOffset(float_t value);
 
-  /// @brief Method Awake addr 0x2a0a6bc size 0x4 virtual false final false
+  /// @brief Method Awake addr 0x288dbd0 size 0x4 virtual false final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x2a0a6c0 size 0x100 virtual false final false
+  /// @brief Method Update addr 0x288dca4 size 0x100 virtual false final false
   inline void Update();
 
-  /// @brief Method UpdateParameters addr 0x2a0a114 size 0x20 virtual false final false
+  /// @brief Method UpdateParameters addr 0x288d650 size 0x20 virtual false final false
   inline void UpdateParameters();
 
-  /// @brief Method Init addr 0x2a0a134 size 0x110 virtual false final false
+  /// @brief Method Init addr 0x288dbd4 size 0xd0 virtual false final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Audio::G_AudioText* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a0a7c0 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x288dda4 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_AudioText", modifiers: "&&", def_value: None }]
@@ -126,6 +126,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Audio::G_AudioText, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioText, ___m_DBText) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioText, ___m_graphyManager) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioText, ___m_audioMonitor) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioText, ___m_updateRate) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioText, ___m_deltaTimeOffset) == 0x34, "Offset mismatch!");
 
 } // namespace Tayx::Graphy::Audio
 NEED_NO_BOX(::Tayx::Graphy::Audio::G_AudioText);

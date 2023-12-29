@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SerializationInfoEnumerator)
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Type;
-}
 namespace System::Runtime::Serialization {
 struct SerializationEntry;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationInfoEnumerator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3199))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3198))
 // CS Name: ::System.Runtime.Serialization::SerializationInfoEnumerator*
 class CORDL_TYPE SerializationInfoEnumerator : public ::System::Object {
 public:
@@ -105,29 +105,29 @@ public:
   static inline ::System::Runtime::Serialization::SerializationInfoEnumerator* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> members, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> info,
                                                                                         ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types, int32_t numItems);
 
-  /// @brief Method .ctor addr 0x24b451c size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x235ba28 size 0x50 virtual false final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> members, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> info, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types,
                     int32_t numItems);
 
-  /// @brief Method MoveNext addr 0x24b456c size 0x2c virtual true final true
+  /// @brief Method MoveNext addr 0x235ba78 size 0x2c virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x24b4598 size 0x70 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x235baa4 size 0x70 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method get_Current addr 0x24b4608 size 0xc8 virtual false final false
+  /// @brief Method get_Current addr 0x235bb14 size 0xc8 virtual false final false
   inline ::System::Runtime::Serialization::SerializationEntry get_Current();
 
-  /// @brief Method Reset addr 0x24b46d0 size 0x10 virtual true final true
+  /// @brief Method Reset addr 0x235bbdc size 0x10 virtual true final true
   inline void Reset();
 
-  /// @brief Method get_Name addr 0x24b46e0 size 0x88 virtual false final false
+  /// @brief Method get_Name addr 0x235bbec size 0x88 virtual false final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Value addr 0x24b4768 size 0x88 virtual false final false
+  /// @brief Method get_Value addr 0x235bc74 size 0x88 virtual false final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method get_ObjectType addr 0x24b47f0 size 0x88 virtual false final false
+  /// @brief Method get_ObjectType addr 0x235bcfc size 0x88 virtual false final false
   inline ::System::Type* get_ObjectType();
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializationInfoEnumerator", modifiers: "&&", def_value: None }]
@@ -166,6 +166,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::SerializationInfoEnumerator, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfoEnumerator, ____members) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfoEnumerator, ____data) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfoEnumerator, ____types) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfoEnumerator, ____numItems) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfoEnumerator, ____currItem) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::SerializationInfoEnumerator, ____current) == 0x30, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::SerializationInfoEnumerator);

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::CspProviderFlags);
 namespace System::Security::Cryptography {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2926))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2925))
 // CS Name: ::System.Security.Cryptography::CspProviderFlags
 struct CORDL_TYPE CspProviderFlags {
 public:
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::CspProviderFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::CspProviderFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::CspProviderFlags, "System.Security.Cryptography", "CspProviderFlags");

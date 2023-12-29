@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GridLayoutGroup)
 namespace UnityEngine::UI {
-struct __GridLayoutGroup__Axis;
+struct __GridLayoutGroup__Constraint;
+}
+namespace UnityEngine::UI {
+struct __GridLayoutGroup__Corner;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UI {
-struct __GridLayoutGroup__Corner;
-}
-namespace UnityEngine::UI {
-struct __GridLayoutGroup__Constraint;
+struct __GridLayoutGroup__Axis;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::GridLayoutGroup);
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13078))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13083))
 // CS Name: ::GridLayoutGroup::Corner
 struct CORDL_TYPE __GridLayoutGroup__Corner {
 public:
@@ -93,13 +93,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__GridLayoutGroup__Corner, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UI::__GridLayoutGroup__Corner, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UI
 // Type: ::Axis
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13079))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13084))
 // CS Name: ::GridLayoutGroup::Axis
 struct CORDL_TYPE __GridLayoutGroup__Axis {
 public:
@@ -141,13 +143,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__GridLayoutGroup__Axis, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UI::__GridLayoutGroup__Axis, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UI
 // Type: ::Constraint
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13080))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13085))
 // CS Name: ::GridLayoutGroup::Constraint
 struct CORDL_TYPE __GridLayoutGroup__Constraint {
 public:
@@ -193,13 +197,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__GridLayoutGroup__Constraint, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UI::__GridLayoutGroup__Constraint, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UI
 // Type: UnityEngine.UI::GridLayoutGroup
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13091)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13078)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13080)), TypeDefinitionIndex(TypeDefinitionIndex(13079))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13081)) CS Name: ::UnityEngine.UI::GridLayoutGroup*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13084)), TypeDefinitionIndex(TypeDefinitionIndex(13096)), TypeDefinitionIndex(TypeDefinitionIndex(13083)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(13085))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13086)) CS Name: ::UnityEngine.UI::GridLayoutGroup*
 class CORDL_TYPE GridLayoutGroup : public ::UnityEngine::UI::LayoutGroup {
 public:
   // Declarations
@@ -275,60 +281,60 @@ public:
 
   constexpr void __set_m_ConstraintCount(int32_t value);
 
-  /// @brief Method get_startCorner addr 0x2d74afc size 0x8 virtual false final false
+  /// @brief Method get_startCorner addr 0x2c0c74c size 0x8 virtual false final false
   inline ::UnityEngine::UI::__GridLayoutGroup__Corner get_startCorner();
 
-  /// @brief Method set_startCorner addr 0x2d74b04 size 0x5c virtual false final false
+  /// @brief Method set_startCorner addr 0x2c0c754 size 0x5c virtual false final false
   inline void set_startCorner(::UnityEngine::UI::__GridLayoutGroup__Corner value);
 
-  /// @brief Method get_startAxis addr 0x2d74b60 size 0x8 virtual false final false
+  /// @brief Method get_startAxis addr 0x2c0c7b0 size 0x8 virtual false final false
   inline ::UnityEngine::UI::__GridLayoutGroup__Axis get_startAxis();
 
-  /// @brief Method set_startAxis addr 0x2d74b68 size 0x5c virtual false final false
+  /// @brief Method set_startAxis addr 0x2c0c7b8 size 0x5c virtual false final false
   inline void set_startAxis(::UnityEngine::UI::__GridLayoutGroup__Axis value);
 
-  /// @brief Method get_cellSize addr 0x2d74bc4 size 0x8 virtual false final false
+  /// @brief Method get_cellSize addr 0x2c0c814 size 0x8 virtual false final false
   inline ::UnityEngine::Vector2 get_cellSize();
 
-  /// @brief Method set_cellSize addr 0x2d74bcc size 0x64 virtual false final false
+  /// @brief Method set_cellSize addr 0x2c0c81c size 0x64 virtual false final false
   inline void set_cellSize(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_spacing addr 0x2d74c30 size 0x8 virtual false final false
+  /// @brief Method get_spacing addr 0x2c0c880 size 0x8 virtual false final false
   inline ::UnityEngine::Vector2 get_spacing();
 
-  /// @brief Method set_spacing addr 0x2d74c38 size 0x64 virtual false final false
+  /// @brief Method set_spacing addr 0x2c0c888 size 0x64 virtual false final false
   inline void set_spacing(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_constraint addr 0x2d74c9c size 0x8 virtual false final false
+  /// @brief Method get_constraint addr 0x2c0c8ec size 0x8 virtual false final false
   inline ::UnityEngine::UI::__GridLayoutGroup__Constraint get_constraint();
 
-  /// @brief Method set_constraint addr 0x2d74ca4 size 0x5c virtual false final false
+  /// @brief Method set_constraint addr 0x2c0c8f4 size 0x5c virtual false final false
   inline void set_constraint(::UnityEngine::UI::__GridLayoutGroup__Constraint value);
 
-  /// @brief Method get_constraintCount addr 0x2d74d00 size 0x8 virtual false final false
+  /// @brief Method get_constraintCount addr 0x2c0c950 size 0x8 virtual false final false
   inline int32_t get_constraintCount();
 
-  /// @brief Method set_constraintCount addr 0x2d74d08 size 0x60 virtual false final false
+  /// @brief Method set_constraintCount addr 0x2c0c958 size 0x60 virtual false final false
   inline void set_constraintCount(int32_t value);
 
   static inline ::UnityEngine::UI::GridLayoutGroup* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d74d68 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x2c0c9b8 size 0x68 virtual false final false
   inline void _ctor();
 
-  /// @brief Method CalculateLayoutInputHorizontal addr 0x2d74efc size 0x1cc virtual true final false
+  /// @brief Method CalculateLayoutInputHorizontal addr 0x2c0cb4c size 0x1cc virtual true final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical addr 0x2d75508 size 0x228 virtual true final false
+  /// @brief Method CalculateLayoutInputVertical addr 0x2c0d158 size 0x228 virtual true final false
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method SetLayoutHorizontal addr 0x2d757c4 size 0x8 virtual true final false
+  /// @brief Method SetLayoutHorizontal addr 0x2c0d414 size 0x8 virtual true final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical addr 0x2d75da4 size 0x8 virtual true final false
+  /// @brief Method SetLayoutVertical addr 0x2c0d9f4 size 0x8 virtual true final false
   inline void SetLayoutVertical();
 
-  /// @brief Method SetCellsAlongAxis addr 0x2d757cc size 0x5d8 virtual false final false
+  /// @brief Method SetCellsAlongAxis addr 0x2c0d41c size 0x5d8 virtual false final false
   inline void SetCellsAlongAxis(int32_t axis);
 
   // Ctor Parameters [CppParam { name: "", ty: "GridLayoutGroup", modifiers: "&&", def_value: None }]
@@ -367,6 +373,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::GridLayoutGroup, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::GridLayoutGroup, ___m_StartCorner) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::GridLayoutGroup, ___m_StartAxis) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::GridLayoutGroup, ___m_CellSize) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::GridLayoutGroup, ___m_Spacing) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::GridLayoutGroup, ___m_Constraint) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::GridLayoutGroup, ___m_ConstraintCount) == 0x74, "Offset mismatch!");
 
 } // namespace UnityEngine::UI
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::__GridLayoutGroup__Axis, "UnityEngine.UI", "GridLayoutGroup/Axis");

@@ -6,41 +6,41 @@ CORDL_MODULE_INIT
 #include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityUtil)
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Component;
-}
-namespace UnityEngine::SceneManagement {
-struct Scene;
+namespace ModestTree::Util {
+class __UnityUtil___GetParents_d__16;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace ModestTree::Util {
-class __UnityUtil___GetParentsAndSelf_d__17;
+namespace UnityEngine {
+class GameObject;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::SceneManagement {
+struct Scene;
 }
 namespace ModestTree::Util {
 class __UnityUtil____c;
 }
 namespace ModestTree::Util {
-class __UnityUtil___GetDirectChildrenAndSelf_d__20;
+class __UnityUtil___GetParentsAndSelf_d__17;
 }
 namespace ModestTree::Util {
 class __UnityUtil___GetDirectChildren_d__21;
 }
 namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Component;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace ModestTree::Util {
-class __UnityUtil___get_AllScenes_d__1;
+class __UnityUtil___GetDirectChildrenAndSelf_d__20;
 }
 namespace ModestTree::Util {
-class __UnityUtil___GetParents_d__16;
+class __UnityUtil___get_AllScenes_d__1;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -48,14 +48,14 @@ class IEnumerable;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -94,8 +94,8 @@ MARK_REF_PTR_T(::ModestTree::Util::__UnityUtil___get_AllScenes_d__1);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace ModestTree::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10380))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10630))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10302)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10558))
 // CS Name: ::UnityUtil::<get_AllScenes>d__1*
 class CORDL_TYPE __UnityUtil___get_AllScenes_d__1 : public ::System::Object {
 public:
@@ -158,28 +158,28 @@ public:
 
   static inline ::ModestTree::Util::__UnityUtil___get_AllScenes_d__1* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2ebeeac size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x2d5712c size 0x34 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2ebfa08 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2d57c88 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2ebfa0c size 0xcc virtual true final true
+  /// @brief Method MoveNext addr 0x2d57c8c size 0xcc virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.SceneManagement.Scene>.get_Current addr 0x2ebfad8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.SceneManagement.Scene>.get_Current addr 0x2d57d58 size 0x8 virtual true final true
   inline ::UnityEngine::SceneManagement::Scene System_Collections_Generic_IEnumerator_UnityEngine_SceneManagement_Scene__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2ebfae0 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2d57d60 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2ebfb20 size 0x5c virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2d57da0 size 0x5c virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.SceneManagement.Scene>.GetEnumerator addr 0x2ebfb7c size 0x98 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.SceneManagement.Scene>.GetEnumerator addr 0x2d57dfc size 0x98 virtual true final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::SceneManagement::Scene>* System_Collections_Generic_IEnumerable_UnityEngine_SceneManagement_Scene__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2ebfc14 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2d57e94 size 0x4 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnityUtil___get_AllScenes_d__1", modifiers: "&&", def_value: None }]
@@ -213,13 +213,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::ModestTree::Util::__UnityUtil___get_AllScenes_d__1, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___get_AllScenes_d__1, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___get_AllScenes_d__1, _____2__current) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___get_AllScenes_d__1, _____l__initialThreadId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___get_AllScenes_d__1, ____i_5__2) == 0x1c, "Offset mismatch!");
+
 } // namespace ModestTree::Util
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace ModestTree::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10631))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10559))
 // CS Name: ::UnityUtil::<>c*
 class CORDL_TYPE __UnityUtil____c : public ::System::Object {
 public:
@@ -275,25 +283,25 @@ public:
 
   static inline ::ModestTree::Util::__UnityUtil____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ebfc7c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d57efc size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <get_AllLoadedScenes>b__3_0 addr 0x2ebfc84 size 0x20 virtual false final false
+  /// @brief Method <get_AllLoadedScenes>b__3_0 addr 0x2d57f04 size 0x20 virtual false final false
   inline bool _get_AllLoadedScenes_b__3_0(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method <GetRootParentOrSelf>b__15_0 addr 0x2ebfca4 size 0x18 virtual false final false
+  /// @brief Method <GetRootParentOrSelf>b__15_0 addr 0x2d57f24 size 0x18 virtual false final false
   inline ::UnityEngine::GameObject* _GetRootParentOrSelf_b__15_0(::UnityEngine::Transform* x);
 
-  /// @brief Method <GetComponentsInChildrenTopDown>b__18_0 addr 0x2ebfcbc size 0x88 virtual false final false
+  /// @brief Method <GetComponentsInChildrenTopDown>b__18_0 addr 0x2d57f3c size 0x88 virtual false final false
   inline int32_t _GetComponentsInChildrenTopDown_b__18_0(::UnityEngine::Component* x);
 
-  /// @brief Method <GetComponentsInChildrenBottomUp>b__19_0 addr 0x2ebfd44 size 0x88 virtual false final false
+  /// @brief Method <GetComponentsInChildrenBottomUp>b__19_0 addr 0x2d57fc4 size 0x88 virtual false final false
   inline int32_t _GetComponentsInChildrenBottomUp_b__19_0(::UnityEngine::Component* x);
 
-  /// @brief Method <GetAllGameObjects>b__22_0 addr 0x2ebfdcc size 0x18 virtual false final false
+  /// @brief Method <GetAllGameObjects>b__22_0 addr 0x2d5804c size 0x18 virtual false final false
   inline ::UnityEngine::GameObject* _GetAllGameObjects_b__22_0(::UnityEngine::Transform* x);
 
-  /// @brief Method <GetAllRootGameObjects>b__23_0 addr 0x2ebfde4 size 0x84 virtual false final false
+  /// @brief Method <GetAllRootGameObjects>b__23_0 addr 0x2d58064 size 0x84 virtual false final false
   inline bool _GetAllRootGameObjects_b__23_0(::UnityEngine::GameObject* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnityUtil____c", modifiers: "&&", def_value: None }]
@@ -320,8 +328,8 @@ static_assert(::cordl_internals::size_check_v<::ModestTree::Util::__UnityUtil___
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ModestTree::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10632))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10560))
 // CS Name: ::UnityUtil::<GetParents>d__16*
 class CORDL_TYPE __UnityUtil___GetParents_d__16 : public ::System::Object {
 public:
@@ -401,31 +409,31 @@ public:
 
   static inline ::ModestTree::Util::__UnityUtil___GetParents_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2ebf388 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x2d57608 size 0x34 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2ebfe68 size 0x1c virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2d580e8 size 0x1c virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2ebfe84 size 0x2f8 virtual true final true
+  /// @brief Method MoveNext addr 0x2d58104 size 0x2f8 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1 addr 0x2ec017c size 0xb0 virtual false final false
+  /// @brief Method <>m__Finally1 addr 0x2d583fc size 0xb0 virtual false final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current addr 0x2ec022c size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current addr 0x2d584ac size 0x8 virtual true final true
   inline ::UnityEngine::Transform* System_Collections_Generic_IEnumerator_UnityEngine_Transform__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2ec0234 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2d584b4 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2ec0274 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2d584f4 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Transform>.GetEnumerator addr 0x2ec027c size 0xa4 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Transform>.GetEnumerator addr 0x2d584fc size 0xa4 virtual true final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>* System_Collections_Generic_IEnumerable_UnityEngine_Transform__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2ec0320 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2d585a0 size 0x4 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnityUtil___GetParents_d__16", modifiers: "&&", def_value: None }]
@@ -465,13 +473,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::ModestTree::Util::__UnityUtil___GetParents_d__16, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetParents_d__16, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetParents_d__16, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetParents_d__16, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetParents_d__16, ___transform) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetParents_d__16, _____3__transform) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetParents_d__16, _____7__wrap1) == 0x38, "Offset mismatch!");
+
 } // namespace ModestTree::Util
 // Type: ::<GetParentsAndSelf>d__17
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ModestTree::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10633))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10561))
 // CS Name: ::UnityUtil::<GetParentsAndSelf>d__17*
 class CORDL_TYPE __UnityUtil___GetParentsAndSelf_d__17 : public ::System::Object {
 public:
@@ -551,31 +571,31 @@ public:
 
   static inline ::ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2ebf3bc size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x2d5763c size 0x34 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2ec0324 size 0x1c virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2d585a4 size 0x1c virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2ec0340 size 0x320 virtual true final true
+  /// @brief Method MoveNext addr 0x2d585c0 size 0x320 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1 addr 0x2ec0660 size 0xb0 virtual false final false
+  /// @brief Method <>m__Finally1 addr 0x2d588e0 size 0xb0 virtual false final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current addr 0x2ec0710 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current addr 0x2d58990 size 0x8 virtual true final true
   inline ::UnityEngine::Transform* System_Collections_Generic_IEnumerator_UnityEngine_Transform__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2ec0718 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2d58998 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2ec0758 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2d589d8 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Transform>.GetEnumerator addr 0x2ec0760 size 0xa4 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Transform>.GetEnumerator addr 0x2d589e0 size 0xa4 virtual true final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>* System_Collections_Generic_IEnumerable_UnityEngine_Transform__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2ec0804 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2d58a84 size 0x4 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnityUtil___GetParentsAndSelf_d__17", modifiers: "&&", def_value: None }]
@@ -615,13 +635,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17, ___transform) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17, _____3__transform) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17, _____7__wrap1) == 0x38, "Offset mismatch!");
+
 } // namespace ModestTree::Util
 // Type: ::<GetDirectChildrenAndSelf>d__20
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ModestTree::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10634))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10562))
 // CS Name: ::UnityUtil::<GetDirectChildrenAndSelf>d__20*
 class CORDL_TYPE __UnityUtil___GetDirectChildrenAndSelf_d__20 : public ::System::Object {
 public:
@@ -702,31 +734,31 @@ public:
 
   static inline ::ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2ebf6c8 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x2d57948 size 0x34 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2ec0808 size 0x1c virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2d58a88 size 0x1c virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2ec0824 size 0x2ac virtual true final true
+  /// @brief Method MoveNext addr 0x2d58aa4 size 0x2ac virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1 addr 0x2ec0ad0 size 0xbc virtual false final false
+  /// @brief Method <>m__Finally1 addr 0x2d58d50 size 0xbc virtual false final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.get_Current addr 0x2ec0b8c size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.get_Current addr 0x2d58e0c size 0x8 virtual true final true
   inline ::UnityEngine::GameObject* System_Collections_Generic_IEnumerator_UnityEngine_GameObject__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2ec0b94 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2d58e14 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2ec0bd4 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2d58e54 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.GameObject>.GetEnumerator addr 0x2ec0bdc size 0xa4 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.GameObject>.GetEnumerator addr 0x2d58e5c size 0xa4 virtual true final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>* System_Collections_Generic_IEnumerable_UnityEngine_GameObject__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2ec0c80 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2d58f00 size 0x4 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnityUtil___GetDirectChildrenAndSelf_d__20", modifiers: "&&", def_value: None }]
@@ -766,13 +798,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20, ___obj) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20, _____3__obj) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20, _____7__wrap1) == 0x38, "Offset mismatch!");
+
 } // namespace ModestTree::Util
 // Type: ::<GetDirectChildren>d__21
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ModestTree::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10635))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10563))
 // CS Name: ::UnityUtil::<GetDirectChildren>d__21*
 class CORDL_TYPE __UnityUtil___GetDirectChildren_d__21 : public ::System::Object {
 public:
@@ -853,31 +897,31 @@ public:
 
   static inline ::ModestTree::Util::__UnityUtil___GetDirectChildren_d__21* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2ebf774 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x2d579f4 size 0x34 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2ec0c84 size 0x1c virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2d58f04 size 0x1c virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2ec0ca0 size 0x290 virtual true final true
+  /// @brief Method MoveNext addr 0x2d58f20 size 0x290 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1 addr 0x2ec0f30 size 0xbc virtual false final false
+  /// @brief Method <>m__Finally1 addr 0x2d591b0 size 0xbc virtual false final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.get_Current addr 0x2ec0fec size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.get_Current addr 0x2d5926c size 0x8 virtual true final true
   inline ::UnityEngine::GameObject* System_Collections_Generic_IEnumerator_UnityEngine_GameObject__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2ec0ff4 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2d59274 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2ec1034 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2d592b4 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.GameObject>.GetEnumerator addr 0x2ec103c size 0xa4 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.GameObject>.GetEnumerator addr 0x2d592bc size 0xa4 virtual true final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>* System_Collections_Generic_IEnumerable_UnityEngine_GameObject__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2ec10e0 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2d59360 size 0x4 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnityUtil___GetDirectChildren_d__21", modifiers: "&&", def_value: None }]
@@ -917,13 +961,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::ModestTree::Util::__UnityUtil___GetDirectChildren_d__21, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetDirectChildren_d__21, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetDirectChildren_d__21, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetDirectChildren_d__21, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetDirectChildren_d__21, ___obj) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetDirectChildren_d__21, _____3__obj) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::ModestTree::Util::__UnityUtil___GetDirectChildren_d__21, _____7__wrap1) == 0x38, "Offset mismatch!");
+
 } // namespace ModestTree::Util
 // Type: ModestTree.Util::UnityUtil
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace ModestTree::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10636))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10564))
 // CS Name: ::ModestTree.Util::UnityUtil*
 class CORDL_TYPE UnityUtil : public ::System::Object {
 public:
@@ -940,55 +996,55 @@ public:
 
   using _get_AllScenes_d__1 = ::ModestTree::Util::__UnityUtil___get_AllScenes_d__1;
 
-  /// @brief Method get_AllScenes addr 0x2ebee3c size 0x70 virtual false final false
+  /// @brief Method get_AllScenes addr 0x2d570bc size 0x70 virtual false final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>* get_AllScenes();
 
-  /// @brief Method get_AllLoadedScenes addr 0x2ebeee0 size 0x104 virtual false final false
+  /// @brief Method get_AllLoadedScenes addr 0x2d57160 size 0x104 virtual false final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>* get_AllLoadedScenes();
 
-  /// @brief Method get_IsAltKeyDown addr 0x2ebefe4 size 0x30 virtual false final false
+  /// @brief Method get_IsAltKeyDown addr 0x2d57264 size 0x30 virtual false final false
   static inline bool get_IsAltKeyDown();
 
-  /// @brief Method get_IsControlKeyDown addr 0x2ebf014 size 0x30 virtual false final false
+  /// @brief Method get_IsControlKeyDown addr 0x2d57294 size 0x30 virtual false final false
   static inline bool get_IsControlKeyDown();
 
-  /// @brief Method get_IsShiftKeyDown addr 0x2ebf044 size 0x30 virtual false final false
+  /// @brief Method get_IsShiftKeyDown addr 0x2d572c4 size 0x30 virtual false final false
   static inline bool get_IsShiftKeyDown();
 
-  /// @brief Method get_WasShiftKeyJustPressed addr 0x2ebf074 size 0x30 virtual false final false
+  /// @brief Method get_WasShiftKeyJustPressed addr 0x2d572f4 size 0x30 virtual false final false
   static inline bool get_WasShiftKeyJustPressed();
 
-  /// @brief Method get_WasAltKeyJustPressed addr 0x2ebf0a4 size 0x30 virtual false final false
+  /// @brief Method get_WasAltKeyJustPressed addr 0x2d57324 size 0x30 virtual false final false
   static inline bool get_WasAltKeyJustPressed();
 
-  /// @brief Method GetDepthLevel addr 0x2ebf0d4 size 0x90 virtual false final false
+  /// @brief Method GetDepthLevel addr 0x2d57354 size 0x90 virtual false final false
   static inline int32_t GetDepthLevel(::UnityEngine::Transform* transform);
 
-  /// @brief Method GetRootParentOrSelf addr 0x2ebf164 size 0x134 virtual false final false
+  /// @brief Method GetRootParentOrSelf addr 0x2d573e4 size 0x134 virtual false final false
   static inline ::UnityEngine::GameObject* GetRootParentOrSelf(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method GetParents addr 0x2ebf310 size 0x78 virtual false final false
+  /// @brief Method GetParents addr 0x2d57590 size 0x78 virtual false final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>* GetParents(::UnityEngine::Transform* transform);
 
-  /// @brief Method GetParentsAndSelf addr 0x2ebf298 size 0x78 virtual false final false
+  /// @brief Method GetParentsAndSelf addr 0x2d57518 size 0x78 virtual false final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>* GetParentsAndSelf(::UnityEngine::Transform* transform);
 
-  /// @brief Method GetComponentsInChildrenTopDown addr 0x2ebf3f0 size 0x130 virtual false final false
+  /// @brief Method GetComponentsInChildrenTopDown addr 0x2d57670 size 0x130 virtual false final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Component*>* GetComponentsInChildrenTopDown(::UnityEngine::GameObject* gameObject, bool includeInactive);
 
-  /// @brief Method GetComponentsInChildrenBottomUp addr 0x2ebf520 size 0x130 virtual false final false
+  /// @brief Method GetComponentsInChildrenBottomUp addr 0x2d577a0 size 0x130 virtual false final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Component*>* GetComponentsInChildrenBottomUp(::UnityEngine::GameObject* gameObject, bool includeInactive);
 
-  /// @brief Method GetDirectChildrenAndSelf addr 0x2ebf650 size 0x78 virtual false final false
+  /// @brief Method GetDirectChildrenAndSelf addr 0x2d578d0 size 0x78 virtual false final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* GetDirectChildrenAndSelf(::UnityEngine::GameObject* obj);
 
-  /// @brief Method GetDirectChildren addr 0x2ebf6fc size 0x78 virtual false final false
+  /// @brief Method GetDirectChildren addr 0x2d5797c size 0x78 virtual false final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* GetDirectChildren(::UnityEngine::GameObject* obj);
 
-  /// @brief Method GetAllGameObjects addr 0x2ebf7a8 size 0x140 virtual false final false
+  /// @brief Method GetAllGameObjects addr 0x2d57a28 size 0x140 virtual false final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* GetAllGameObjects();
 
-  /// @brief Method GetAllRootGameObjects addr 0x2ebf8e8 size 0x120 virtual false final false
+  /// @brief Method GetAllRootGameObjects addr 0x2d57b68 size 0x120 virtual false final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* GetAllRootGameObjects();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityUtil", modifiers: "&&", def_value: None }]

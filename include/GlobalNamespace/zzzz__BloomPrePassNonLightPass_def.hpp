@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassNonLightPass)
 namespace UnityEngine {
-struct Matrix4x4;
+class RenderTexture;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace UnityEngine {
+struct Matrix4x4;
+}
 namespace GlobalNamespace {
 struct __BloomPrePassNonLightPass__ExecutionTimeType;
-}
-namespace UnityEngine {
-class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassNonLightPass);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14477))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14695))
 // CS Name: ::BloomPrePassNonLightPass::ExecutionTimeType
 struct CORDL_TYPE __BloomPrePassNonLightPass__ExecutionTimeType {
 public:
@@ -80,13 +80,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BloomPrePassNonLightPass
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14477))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14478))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(14695))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14696))
 // CS Name: ::BloomPrePassNonLightPass*
 class CORDL_TYPE BloomPrePassNonLightPass : public ::UnityEngine::MonoBehaviour {
 public:
@@ -129,28 +131,28 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* getStaticF__bloomPrePassBeforeBlurList();
 
-  /// @brief Method get_executionTimeType addr 0x2107188 size 0x8 virtual false final false
+  /// @brief Method get_executionTimeType addr 0x1fb1dac size 0x8 virtual false final false
   inline ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType get_executionTimeType();
 
-  /// @brief Method get_bloomPrePassAfterBlurList addr 0x2107190 size 0x58 virtual false final false
+  /// @brief Method get_bloomPrePassAfterBlurList addr 0x1fb1db4 size 0x58 virtual false final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* get_bloomPrePassAfterBlurList();
 
-  /// @brief Method get_bloomPrePassBeforeBlurList addr 0x21071e8 size 0x58 virtual false final false
+  /// @brief Method get_bloomPrePassBeforeBlurList addr 0x1fb1e0c size 0x58 virtual false final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* get_bloomPrePassBeforeBlurList();
 
-  /// @brief Method OnEnable addr 0x2105a84 size 0x4 virtual true final false
+  /// @brief Method OnEnable addr 0x1fb08d4 size 0x4 virtual true final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2107240 size 0x4 virtual true final false
+  /// @brief Method OnDisable addr 0x1fb1e64 size 0x4 virtual true final false
   inline void OnDisable();
 
-  /// @brief Method Register addr 0x2105918 size 0x124 virtual false final false
+  /// @brief Method Register addr 0x1fb0768 size 0x124 virtual false final false
   inline void Register();
 
-  /// @brief Method Unregister addr 0x210585c size 0xbc virtual false final false
+  /// @brief Method Unregister addr 0x1fb06ac size 0xbc virtual false final false
   inline void Unregister();
 
-  /// @brief Method OnValidate addr 0x21065ec size 0x2c virtual true final false
+  /// @brief Method OnValidate addr 0x1fb1210 size 0x2c virtual true final false
   inline void OnValidate();
 
   /// @brief Method Render addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -158,7 +160,7 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassNonLightPass* New_ctor();
 
-  /// @brief Method .ctor addr 0x2104130 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1faf03c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassNonLightPass", modifiers: "&&", def_value: None }]
@@ -185,6 +187,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassNonLightPass, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassNonLightPass, ____executionTimeType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassNonLightPass, ____registeredExecutionTimeType) == 0x1c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType, "", "BloomPrePassNonLightPass/ExecutionTimeType");

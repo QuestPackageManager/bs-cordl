@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::LiteNetLib::NetConnectRequestPacket);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14170))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14508))
 // CS Name: ::LiteNetLib::NetConnectRequestPacket*
 class CORDL_TYPE NetConnectRequestPacket : public ::System::Object {
 public:
@@ -73,16 +73,16 @@ public:
   static inline ::LiteNetLib::NetConnectRequestPacket* New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> targetAddress,
                                                                 ::LiteNetLib::Utils::NetDataReader* data);
 
-  /// @brief Method .ctor addr 0x220301c size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x20a11c8 size 0x44 virtual false final false
   inline void _ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> targetAddress, ::LiteNetLib::Utils::NetDataReader* data);
 
-  /// @brief Method GetProtocolId addr 0x21ffbf0 size 0x68 virtual false final false
+  /// @brief Method GetProtocolId addr 0x209dd9c size 0x68 virtual false final false
   static inline int32_t GetProtocolId(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method FromData addr 0x21ffcfc size 0x1ac virtual false final false
+  /// @brief Method FromData addr 0x209dea8 size 0x1ac virtual false final false
   static inline ::LiteNetLib::NetConnectRequestPacket* FromData(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method Make addr 0x22030a0 size 0x144 virtual false final false
+  /// @brief Method Make addr 0x20a124c size 0x144 virtual false final false
   static inline ::LiteNetLib::NetPacket* Make(::LiteNetLib::Utils::NetDataWriter* connectData, ::System::Net::SocketAddress* addressBytes, int64_t connectId);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetConnectRequestPacket", modifiers: "&&", def_value: None }]
@@ -118,6 +118,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::NetConnectRequestPacket, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetConnectRequestPacket, ___ConnectionTime) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetConnectRequestPacket, ___ConnectionNumber) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetConnectRequestPacket, ___TargetAddress) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetConnectRequestPacket, ___Data) == 0x28, "Offset mismatch!");
 
 } // namespace LiteNetLib
 NEED_NO_BOX(::LiteNetLib::NetConnectRequestPacket);

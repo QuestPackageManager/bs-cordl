@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HeaderHandler)
-namespace System::Runtime::Remoting::Messaging {
-class Header;
-}
 namespace System {
 class Object;
+}
+namespace System::Runtime::Remoting::Messaging {
+class Header;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -22,18 +22,18 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::HeaderHandler);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3166))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3165))
 // CS Name: ::System.Runtime.Remoting.Messaging::HeaderHandler*
 class CORDL_TYPE HeaderHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Runtime::Remoting::Messaging::HeaderHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x24ad688 size 0x12c virtual false final false
+  /// @brief Method .ctor addr 0x2354b94 size 0x12c virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x24ad7b4 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2354cc0 size 0x14 virtual true final false
   inline ::System::Object* Invoke(::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> headers);
 
   // Ctor Parameters [CppParam { name: "", ty: "HeaderHandler", modifiers: "&&", def_value: None }]

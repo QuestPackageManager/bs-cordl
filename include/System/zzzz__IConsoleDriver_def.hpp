@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::IConsoleDriver);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2602))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2600))
 // CS Name: ::System::IConsoleDriver*
 class CORDL_TYPE IConsoleDriver {
 public:

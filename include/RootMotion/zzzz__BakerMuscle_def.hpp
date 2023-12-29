@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::RootMotion::BakerMuscle);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12477))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12405))
 // CS Name: ::RootMotion::BakerMuscle*
 class CORDL_TYPE BakerMuscle : public ::System::Object {
 public:
@@ -60,25 +60,25 @@ public:
 
   static inline ::RootMotion::BakerMuscle* New_ctor(int32_t muscleIndex);
 
-  /// @brief Method .ctor addr 0x1233938 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x11c360c size 0x64 virtual false final false
   inline void _ctor(int32_t muscleIndex);
 
-  /// @brief Method MuscleNameToPropertyName addr 0x123399c size 0xa34 virtual false final false
+  /// @brief Method MuscleNameToPropertyName addr 0x11c3670 size 0xa34 virtual false final false
   inline ::StringW MuscleNameToPropertyName(::StringW n);
 
-  /// @brief Method MultiplyLength addr 0x1234430 size 0xa8 virtual false final false
+  /// @brief Method MultiplyLength addr 0x11c4104 size 0xa8 virtual false final false
   inline void MultiplyLength(::UnityEngine::AnimationCurve* curve, float_t mlp);
 
-  /// @brief Method SetCurves addr 0x12344d8 size 0xf4 virtual false final false
+  /// @brief Method SetCurves addr 0x11c41ac size 0xf4 virtual false final false
   inline void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip, float_t maxError, float_t lengthMlp);
 
-  /// @brief Method Reset addr 0x12343d0 size 0x60 virtual false final false
+  /// @brief Method Reset addr 0x11c40a4 size 0x60 virtual false final false
   inline void Reset();
 
-  /// @brief Method SetKeyframe addr 0x12345cc size 0x3c virtual false final false
+  /// @brief Method SetKeyframe addr 0x11c42a0 size 0x3c virtual false final false
   inline void SetKeyframe(float_t time, ::ArrayW<float_t, ::Array<float_t>*> muscles);
 
-  /// @brief Method SetLoopFrame addr 0x1234608 size 0x8 virtual false final false
+  /// @brief Method SetLoopFrame addr 0x11c42dc size 0x8 virtual false final false
   inline void SetLoopFrame(float_t time);
 
   // Ctor Parameters [CppParam { name: "", ty: "BakerMuscle", modifiers: "&&", def_value: None }]
@@ -108,6 +108,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::BakerMuscle, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::BakerMuscle, ___curve) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::BakerMuscle, ___muscleIndex) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::BakerMuscle, ___propertyName) == 0x20, "Offset mismatch!");
 
 } // namespace RootMotion
 NEED_NO_BOX(::RootMotion::BakerMuscle);

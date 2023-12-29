@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ConsoleSpecialKey);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2522))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2520))
 // CS Name: ::System::ConsoleSpecialKey
 struct CORDL_TYPE ConsoleSpecialKey {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ConsoleSpecialKey, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::ConsoleSpecialKey, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::ConsoleSpecialKey, "System", "ConsoleSpecialKey");

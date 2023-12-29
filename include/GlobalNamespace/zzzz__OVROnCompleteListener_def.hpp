@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::OVROnCompleteListener);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14912))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7653))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15057))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8542))
 // CS Name: ::OVROnCompleteListener*
 class CORDL_TYPE OVROnCompleteListener : public ::UnityEngine::AndroidJavaProxy {
 public:
   // Declarations
   static inline ::GlobalNamespace::OVROnCompleteListener* New_ctor();
 
-  /// @brief Method .ctor addr 0x274605c size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x25e5ad4 size 0x70 virtual false final false
   inline void _ctor();
 
   /// @brief Method onSuccess addr 0x0 size 0xffffffffffffffff virtual true final false

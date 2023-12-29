@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListViewDraggerExtension)
 namespace UnityEngine::UIElements {
-class BaseVerticalCollectionView;
+class ReusableCollectionItem;
 }
 namespace UnityEngine::UIElements {
-class ReusableCollectionItem;
+class BaseVerticalCollectionView;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -21,13 +21,13 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ListViewDraggerExtension);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6960))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7046))
 // CS Name: ::UnityEngine.UIElements::ListViewDraggerExtension*
 class CORDL_TYPE ListViewDraggerExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRecycledItemFromIndex addr 0x2e09584 size 0x348 virtual false final false
+  /// @brief Method GetRecycledItemFromIndex addr 0x2ca31d4 size 0x348 virtual false final false
   static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromIndex(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerExtension", modifiers: "&&", def_value: None }]

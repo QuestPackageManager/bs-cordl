@@ -5,10 +5,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IGameLiftPlayerSessionProvider)
 namespace GlobalNamespace {
-class IPollable;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
+class IAuthenticationTokenProvider;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -17,10 +14,13 @@ namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
-class IAuthenticationTokenProvider;
+struct GameplayServerConfiguration;
 }
 namespace BGNet::Core::GameLift {
 class PlayerSessionInfo;
+}
+namespace GlobalNamespace {
+class IPollable;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider);
 namespace BGNet::Core::GameLift {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13012))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13017))
 // CS Name: ::BGNet.Core.GameLift::IGameLiftPlayerSessionProvider*
 class CORDL_TYPE IGameLiftPlayerSessionProvider {
 public:

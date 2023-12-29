@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2445))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15334))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2443))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15364))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::PointOnEdgeException*
 class CORDL_TYPE PointOnEdgeException : public ::System::NotImplementedException {
 public:
@@ -55,7 +55,7 @@ public:
                                                                                     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b,
                                                                                     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* c);
 
-  /// @brief Method .ctor addr 0x2b33418 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x29b16c4 size 0x3c virtual false final false
   inline void _ctor(::StringW message, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b,
                     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* c);
 
@@ -86,6 +86,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException, 0xa8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException, ___A) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException, ___B) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException, ___C) == 0xa0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Poly2Tri
 NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException);

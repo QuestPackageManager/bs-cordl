@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Lazy_1)
-namespace System {
-template <typename TResult> class Func_1;
-}
 namespace System::Threading {
 struct LazyThreadSafetyMode;
+}
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace System {
 class LazyHelper;
@@ -26,8 +26,8 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2432))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2430))
 // CS Name: ::System::Lazy`1<T>*
 class CORDL_TYPE Lazy_1 : public ::System::Object {
 public:

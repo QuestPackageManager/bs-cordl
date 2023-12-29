@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/UIR/zzzz__GfxUpdateBufferRange_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Page)
-namespace System {
-class IDisposable;
-}
 namespace UnityEngine::UIElements {
 struct Vertex;
 }
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::UIElements::UIR {
 template <typename T> class __Page__DataSet_1;
+}
+namespace UnityEngine::UIElements::UIR {
+template <typename T> class __Utility__GPUBuffer_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct __Utility__GPUBufferType;
 }
 namespace UnityEngine::UIElements::UIR {
 class GPUBufferAllocator;
-}
-namespace UnityEngine::UIElements::UIR {
-template <typename T> class __Utility__GPUBuffer_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -41,9 +41,9 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 2550 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15379)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 744 }), TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7438)) CS Name: ::Page::DataSet`1<T>*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 733 }), TypeDefinitionIndex(TypeDefinitionIndex(15409)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9927)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 2493 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7524)) CS Name: ::Page::DataSet`1<T>*
 class CORDL_TYPE __Page__DataSet_1 : public ::System::Object {
 public:
   // Declarations
@@ -254,8 +254,8 @@ public:
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7439))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7525))
 // CS Name: ::UnityEngine.UIElements.UIR::Page*
 class CORDL_TYPE Page : public ::System::Object {
 public:
@@ -316,22 +316,22 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::Page* New_ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage);
 
-  /// @brief Method .ctor addr 0x2dd0eb0 size 0x14c virtual false final false
+  /// @brief Method .ctor addr 0x2c6ab00 size 0x14c virtual false final false
   inline void _ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage);
 
-  /// @brief Method get_disposed addr 0x2dd53a8 size 0x8 virtual false final false
+  /// @brief Method get_disposed addr 0x2c6eff8 size 0x8 virtual false final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed addr 0x2dd53b0 size 0xc virtual false final false
+  /// @brief Method set_disposed addr 0x2c6f000 size 0xc virtual false final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose addr 0x2dd4a70 size 0x6c virtual true final true
+  /// @brief Method Dispose addr 0x2c6e6c0 size 0x6c virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x2dd53bc size 0x90 virtual true final false
+  /// @brief Method Dispose addr 0x2c6f00c size 0x90 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method get_isEmpty addr 0x2dd0ffc size 0x48 virtual false final false
+  /// @brief Method get_isEmpty addr 0x2c6ac4c size 0x48 virtual false final false
   inline bool get_isEmpty();
 
   // Ctor Parameters [CppParam { name: "", ty: "Page", modifiers: "&&", def_value: None }]
@@ -367,6 +367,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::Page, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Page, ____disposed_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Page, ___vertices) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Page, ___indices) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Page, ___next) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Page, ___framesEmpty) == 0x30, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::Page);

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15417))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15418))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13939))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13940))
 // CS Name: ::SingleFixedSceneScenesTransitionSetupDataSO*
 class CORDL_TYPE SingleFixedSceneScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
@@ -37,15 +37,15 @@ public:
 
   constexpr void __set__sceneInfo(::GlobalNamespace::SceneInfo* value);
 
-  /// @brief Method get_sceneInfo addr 0xe23c24 size 0x8 virtual false final false
+  /// @brief Method get_sceneInfo addr 0x1fa189c size 0x8 virtual false final false
   inline ::GlobalNamespace::SceneInfo* get_sceneInfo();
 
-  /// @brief Method Init addr 0xe23494 size 0xf0 virtual false final false
+  /// @brief Method Init addr 0x1fa1240 size 0xf0 virtual false final false
   inline void Init(::GlobalNamespace::SceneSetupData* sceneSetupData);
 
   static inline ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0xe2366c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fa1338 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SingleFixedSceneScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO, ____sceneInfo) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO);

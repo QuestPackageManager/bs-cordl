@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(QueryKeyboardLayoutCommand)
 namespace UnityEngine::InputSystem::LowLevel {
 struct __QueryKeyboardLayoutCommand___nameBuffer_e__FixedBuffer;
 }
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -35,7 +35,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__QueryKeyboardLayoutCommand___
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6475))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6561))
 // CS Name: ::QueryKeyboardLayoutCommand::<nameBuffer>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __QueryKeyboardLayoutCommand___nameBuffer_e__FixedBuffer {
@@ -63,14 +63,16 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::__QueryKeyboardLayoutCommand___nameBuffer_e__FixedBuffer, 0x100>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__QueryKeyboardLayoutCommand___nameBuffer_e__FixedBuffer, FixedElementField) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: UnityEngine.InputSystem.LowLevel::QueryKeyboardLayoutCommand
 // SizeInfo { instance_size: 264, native_size: 264, calculated_instance_size: 264, calculated_native_size: 280, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0)
 // }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6475)), TypeDefinitionIndex(TypeDefinitionIndex(6471))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6476))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6557)), TypeDefinitionIndex(TypeDefinitionIndex(6561))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6562))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::QueryKeyboardLayoutCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE QueryKeyboardLayoutCommand {
@@ -101,19 +103,19 @@ public:
 
   constexpr void __set_nameBuffer(::UnityEngine::InputSystem::LowLevel::__QueryKeyboardLayoutCommand___nameBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type addr 0x2ae7c98 size 0x30 virtual false final false
+  /// @brief Method get_Type addr 0x2967f50 size 0x30 virtual false final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method ReadLayoutName addr 0x2ae7cc8 size 0x10 virtual false final false
+  /// @brief Method ReadLayoutName addr 0x2967f80 size 0x10 virtual false final false
   inline ::StringW ReadLayoutName();
 
-  /// @brief Method WriteLayoutName addr 0x2ae7cd8 size 0x24 virtual false final false
+  /// @brief Method WriteLayoutName addr 0x2967f90 size 0x24 virtual false final false
   inline void WriteLayoutName(::StringW name);
 
-  /// @brief Method get_typeStatic addr 0x2ae7cfc size 0x30 virtual true final true
+  /// @brief Method get_typeStatic addr 0x2967fb4 size 0x30 virtual true final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create addr 0x2ae7d2c size 0x58 virtual false final false
+  /// @brief Method Create addr 0x2967fe4 size 0x58 virtual false final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand Create();
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "nameBuffer", ty:

@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::System::Security::Cryptography::MD5);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2916))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2945))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2912))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2944))
 // CS Name: ::System.Security.Cryptography::MD5*
 class CORDL_TYPE MD5 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
   static inline ::System::Security::Cryptography::MD5* New_ctor();
 
-  /// @brief Method .ctor addr 0x245fee0 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x2306868 size 0x20 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Create addr 0x245ff00 size 0x5c virtual false final false
+  /// @brief Method Create addr 0x2306888 size 0x5c virtual false final false
   static inline ::System::Security::Cryptography::MD5* Create();
 
   // Ctor Parameters [CppParam { name: "", ty: "MD5", modifiers: "&&", def_value: None }]

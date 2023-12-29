@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonFormatterConverter)
-namespace System {
-class Type;
-}
 namespace Newtonsoft::Json::Serialization {
-class JsonSerializerInternalReader;
-}
-namespace System {
-struct Decimal;
+class JsonISerializableContract;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonProperty;
 }
 namespace System {
+struct TypeCode;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonSerializerInternalReader;
+}
+namespace System {
 class Object;
 }
-namespace System::Runtime::Serialization {
-class IFormatterConverter;
+namespace System {
+class Type;
+}
+namespace System {
+struct Decimal;
 }
 namespace System {
 struct DateTime;
 }
-namespace System {
-struct TypeCode;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonISerializableContract;
+namespace System::Runtime::Serialization {
+class IFormatterConverter;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonFormatterConverter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11912))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11840))
 // CS Name: ::Newtonsoft.Json.Serialization::JsonFormatterConverter*
 class CORDL_TYPE JsonFormatterConverter : public ::System::Object {
 public:
@@ -84,62 +84,62 @@ public:
                                                                                     ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract,
                                                                                     ::Newtonsoft::Json::Serialization::JsonProperty* member);
 
-  /// @brief Method .ctor addr 0x266d890 size 0xa4 virtual false final false
+  /// @brief Method .ctor addr 0x250a14c size 0xa4 virtual false final false
   inline void _ctor(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* reader, ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract,
                     ::Newtonsoft::Json::Serialization::JsonProperty* member);
 
   /// @brief Method GetTokenValue addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> inline T GetTokenValue(::System::Object* value);
 
-  /// @brief Method Convert addr 0x266d934 size 0x11c virtual true final true
+  /// @brief Method Convert addr 0x250a1f0 size 0x11c virtual true final true
   inline ::System::Object* Convert(::System::Object* value, ::System::Type* type);
 
-  /// @brief Method Convert addr 0x266db44 size 0x10c virtual true final true
+  /// @brief Method Convert addr 0x250a400 size 0x10c virtual true final true
   inline ::System::Object* Convert(::System::Object* value, ::System::TypeCode typeCode);
 
-  /// @brief Method ToBoolean addr 0x266dc50 size 0x58 virtual true final true
+  /// @brief Method ToBoolean addr 0x250a50c size 0x58 virtual true final true
   inline bool ToBoolean(::System::Object* value);
 
-  /// @brief Method ToByte addr 0x266dca8 size 0x58 virtual true final true
+  /// @brief Method ToByte addr 0x250a564 size 0x58 virtual true final true
   inline uint8_t ToByte(::System::Object* value);
 
-  /// @brief Method ToChar addr 0x266dd00 size 0x58 virtual true final true
+  /// @brief Method ToChar addr 0x250a5bc size 0x58 virtual true final true
   inline char16_t ToChar(::System::Object* value);
 
-  /// @brief Method ToDateTime addr 0x266dd58 size 0x58 virtual true final true
+  /// @brief Method ToDateTime addr 0x250a614 size 0x58 virtual true final true
   inline ::System::DateTime ToDateTime(::System::Object* value);
 
-  /// @brief Method ToDecimal addr 0x266ddb0 size 0x58 virtual true final true
+  /// @brief Method ToDecimal addr 0x250a66c size 0x58 virtual true final true
   inline ::System::Decimal ToDecimal(::System::Object* value);
 
-  /// @brief Method ToDouble addr 0x266de08 size 0x58 virtual true final true
+  /// @brief Method ToDouble addr 0x250a6c4 size 0x58 virtual true final true
   inline double_t ToDouble(::System::Object* value);
 
-  /// @brief Method ToInt16 addr 0x266de60 size 0x58 virtual true final true
+  /// @brief Method ToInt16 addr 0x250a71c size 0x58 virtual true final true
   inline int16_t ToInt16(::System::Object* value);
 
-  /// @brief Method ToInt32 addr 0x266deb8 size 0x58 virtual true final true
+  /// @brief Method ToInt32 addr 0x250a774 size 0x58 virtual true final true
   inline int32_t ToInt32(::System::Object* value);
 
-  /// @brief Method ToInt64 addr 0x266df10 size 0x58 virtual true final true
+  /// @brief Method ToInt64 addr 0x250a7cc size 0x58 virtual true final true
   inline int64_t ToInt64(::System::Object* value);
 
-  /// @brief Method ToSByte addr 0x266df68 size 0x58 virtual true final true
+  /// @brief Method ToSByte addr 0x250a824 size 0x58 virtual true final true
   inline int8_t ToSByte(::System::Object* value);
 
-  /// @brief Method ToSingle addr 0x266dfc0 size 0x58 virtual true final true
+  /// @brief Method ToSingle addr 0x250a87c size 0x58 virtual true final true
   inline float_t ToSingle(::System::Object* value);
 
-  /// @brief Method ToString addr 0x266e018 size 0x58 virtual true final true
+  /// @brief Method ToString addr 0x250a8d4 size 0x58 virtual true final true
   inline ::StringW ToString(::System::Object* value);
 
-  /// @brief Method ToUInt16 addr 0x266e070 size 0x58 virtual true final true
+  /// @brief Method ToUInt16 addr 0x250a92c size 0x58 virtual true final true
   inline uint16_t ToUInt16(::System::Object* value);
 
-  /// @brief Method ToUInt32 addr 0x266e0c8 size 0x58 virtual true final true
+  /// @brief Method ToUInt32 addr 0x250a984 size 0x58 virtual true final true
   inline uint32_t ToUInt32(::System::Object* value);
 
-  /// @brief Method ToUInt64 addr 0x266e120 size 0x58 virtual true final true
+  /// @brief Method ToUInt64 addr 0x250a9dc size 0x58 virtual true final true
   inline uint64_t ToUInt64(::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonFormatterConverter", modifiers: "&&", def_value: None }]
@@ -169,6 +169,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::JsonFormatterConverter, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonFormatterConverter, ____reader) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonFormatterConverter, ____contract) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonFormatterConverter, ____member) == 0x20, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonFormatterConverter);

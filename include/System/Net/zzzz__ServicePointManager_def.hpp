@@ -10,17 +10,8 @@ CORDL_MODULE_EXPORT(ServicePointManager)
 namespace System {
 class Uri;
 }
-namespace System::Net {
-class IWebProxy;
-}
-namespace System::Net {
-struct SecurityProtocolType;
-}
-namespace System::Net {
-class ICertificatePolicy;
-}
-namespace System::Net {
-class ServerCertValidationCallback;
+namespace System::Collections::Concurrent {
+template <typename TKey, typename TValue> class ConcurrentDictionary_2;
 }
 namespace System::Net::Security {
 class RemoteCertificateValidationCallback;
@@ -31,8 +22,17 @@ class __ServicePointManager__SPKey;
 namespace System::Net {
 class ServicePoint;
 }
-namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class ConcurrentDictionary_2;
+namespace System::Net {
+class ICertificatePolicy;
+}
+namespace System::Net {
+class IWebProxy;
+}
+namespace System::Net {
+class ServerCertValidationCallback;
+}
+namespace System::Net {
+struct SecurityProtocolType;
 }
 namespace System {
 class Object;
@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::System::Net::__ServicePointManager__SPKey);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9201))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8038))
 // CS Name: ::ServicePointManager::SPKey*
 class CORDL_TYPE __ServicePointManager__SPKey : public ::System::Object {
 public:
@@ -88,16 +88,16 @@ public:
 
   static inline ::System::Net::__ServicePointManager__SPKey* New_ctor(::System::Uri* uri, ::System::Uri* proxy, bool use_connect);
 
-  /// @brief Method .ctor addr 0x29d8d70 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x285c4f0 size 0x3c virtual false final false
   inline void _ctor(::System::Uri* uri, ::System::Uri* proxy, bool use_connect);
 
-  /// @brief Method get_UsesProxy addr 0x29d924c size 0x60 virtual false final false
+  /// @brief Method get_UsesProxy addr 0x285c9cc size 0x60 virtual false final false
   inline bool get_UsesProxy();
 
-  /// @brief Method GetHashCode addr 0x29d92ac size 0xd0 virtual true final false
+  /// @brief Method GetHashCode addr 0x285ca2c size 0xd0 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x29d937c size 0xf4 virtual true final false
+  /// @brief Method Equals addr 0x285cafc size 0xf4 virtual true final false
   inline bool Equals(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ServicePointManager__SPKey", modifiers: "&&", def_value: None }]
@@ -128,13 +128,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__ServicePointManager__SPKey, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__ServicePointManager__SPKey, ___uri) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointManager__SPKey, ___proxy) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__ServicePointManager__SPKey, ___use_connect) == 0x20, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: System.Net::ServicePointManager
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9055)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9202))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(7892))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8039))
 // CS Name: ::System.Net::ServicePointManager*
 class CORDL_TYPE ServicePointManager : public ::System::Object {
 public:
@@ -241,31 +247,31 @@ public:
 
   static inline int32_t getStaticF_tcp_keepalive_interval();
 
-  /// @brief Method GetLegacyCertificatePolicy addr 0x29d84c8 size 0x58 virtual false final false
+  /// @brief Method GetLegacyCertificatePolicy addr 0x285bc48 size 0x58 virtual false final false
   static inline ::System::Net::ICertificatePolicy* GetLegacyCertificatePolicy();
 
-  /// @brief Method get_CheckCertificateRevocationList addr 0x29d8520 size 0x58 virtual false final false
+  /// @brief Method get_CheckCertificateRevocationList addr 0x285bca0 size 0x58 virtual false final false
   static inline bool get_CheckCertificateRevocationList();
 
-  /// @brief Method get_DnsRefreshTimeout addr 0x29d8578 size 0x58 virtual false final false
+  /// @brief Method get_DnsRefreshTimeout addr 0x285bcf8 size 0x58 virtual false final false
   static inline int32_t get_DnsRefreshTimeout();
 
-  /// @brief Method get_SecurityProtocol addr 0x29d85d0 size 0x58 virtual false final false
+  /// @brief Method get_SecurityProtocol addr 0x285bd50 size 0x58 virtual false final false
   static inline ::System::Net::SecurityProtocolType get_SecurityProtocol();
 
-  /// @brief Method get_ServerCertValidationCallback addr 0x29d8628 size 0x58 virtual false final false
+  /// @brief Method get_ServerCertValidationCallback addr 0x285bda8 size 0x58 virtual false final false
   static inline ::System::Net::ServerCertValidationCallback* get_ServerCertValidationCallback();
 
-  /// @brief Method get_ServerCertificateValidationCallback addr 0x29d8680 size 0x88 virtual false final false
+  /// @brief Method get_ServerCertificateValidationCallback addr 0x285be00 size 0x88 virtual false final false
   static inline ::System::Net::Security::RemoteCertificateValidationCallback* get_ServerCertificateValidationCallback();
 
-  /// @brief Method FindServicePoint addr 0x29d8708 size 0x668 virtual false final false
+  /// @brief Method FindServicePoint addr 0x285be88 size 0x668 virtual false final false
   static inline ::System::Net::ServicePoint* FindServicePoint(::System::Uri* address, ::System::Net::IWebProxy* proxy);
 
-  /// @brief Method CloseConnectionGroup addr 0x29d8dac size 0x408 virtual false final false
+  /// @brief Method CloseConnectionGroup addr 0x285c52c size 0x408 virtual false final false
   static inline void CloseConnectionGroup(::StringW connectionGroupName);
 
-  /// @brief Method RemoveServicePoint addr 0x29d91b4 size 0x98 virtual false final false
+  /// @brief Method RemoveServicePoint addr 0x285c934 size 0x98 virtual false final false
   static inline void RemoveServicePoint(::System::Net::ServicePoint* sp);
 
   // Ctor Parameters [CppParam { name: "", ty: "ServicePointManager", modifiers: "&&", def_value: None }]

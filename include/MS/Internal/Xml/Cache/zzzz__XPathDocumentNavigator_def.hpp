@@ -8,10 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XPathDocumentNavigator)
 namespace System::Xml::XPath {
-struct XPathNodeType;
+struct XPathNamespaceScope;
+}
+namespace System {
+class Object;
 }
 namespace System::Xml::XPath {
-class XPathNavigator;
+struct XPathNodeType;
 }
 namespace System::Xml {
 class XmlNameTable;
@@ -19,11 +22,8 @@ class XmlNameTable;
 namespace MS::Internal::Xml::Cache {
 struct XPathNode;
 }
-namespace System {
-class Object;
-}
 namespace System::Xml::XPath {
-struct XPathNamespaceScope;
+class XPathNavigator;
 }
 // Forward declare root types
 namespace MS::Internal::Xml::Cache {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::MS::Internal::Xml::Cache::XPathDocumentNavigator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::Cache {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11582))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11767))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11510))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11695))
 // CS Name: ::MS.Internal.Xml.Cache::XPathDocumentNavigator*
 class CORDL_TYPE XPathDocumentNavigator : public ::System::Xml::XPath::XPathNavigator {
 public:
@@ -96,47 +96,47 @@ public:
                                                                              ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageParent,
                                                                              int32_t idxParent);
 
-  /// @brief Method .ctor addr 0x28eab3c size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x276cb18 size 0x84 virtual false final false
   inline void _ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageCurrent, int32_t idxCurrent,
                     ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageParent, int32_t idxParent);
 
-  /// @brief Method get_Value addr 0x28eabc0 size 0x1fc virtual true final false
+  /// @brief Method get_Value addr 0x276cb9c size 0x1fc virtual true final false
   inline ::StringW get_Value();
 
-  /// @brief Method Clone addr 0x28eaf9c size 0x7c virtual true final false
+  /// @brief Method Clone addr 0x276cf78 size 0x7c virtual true final false
   inline ::System::Xml::XPath::XPathNavigator* Clone();
 
-  /// @brief Method get_NodeType addr 0x28eb018 size 0x38 virtual true final false
+  /// @brief Method get_NodeType addr 0x276cff4 size 0x38 virtual true final false
   inline ::System::Xml::XPath::XPathNodeType get_NodeType();
 
-  /// @brief Method get_LocalName addr 0x28eb05c size 0x3c virtual true final false
+  /// @brief Method get_LocalName addr 0x276d038 size 0x3c virtual true final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceURI addr 0x28eb0b4 size 0x3c virtual true final false
+  /// @brief Method get_NamespaceURI addr 0x276d090 size 0x3c virtual true final false
   inline ::StringW get_NamespaceURI();
 
-  /// @brief Method get_Prefix addr 0x28eb10c size 0x3c virtual true final false
+  /// @brief Method get_Prefix addr 0x276d0e8 size 0x3c virtual true final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_NameTable addr 0x28eb164 size 0x44 virtual true final false
+  /// @brief Method get_NameTable addr 0x276d140 size 0x44 virtual true final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method MoveToFirstNamespace addr 0x28eb1c4 size 0xf4 virtual true final false
+  /// @brief Method MoveToFirstNamespace addr 0x276d1a0 size 0xf4 virtual true final false
   inline bool MoveToFirstNamespace(::System::Xml::XPath::XPathNamespaceScope namespaceScope);
 
-  /// @brief Method MoveToNextNamespace addr 0x28eb480 size 0x108 virtual true final false
+  /// @brief Method MoveToNextNamespace addr 0x276d45c size 0x108 virtual true final false
   inline bool MoveToNextNamespace(::System::Xml::XPath::XPathNamespaceScope scope);
 
-  /// @brief Method MoveToParent addr 0x28eb5ac size 0x2c virtual true final false
+  /// @brief Method MoveToParent addr 0x276d588 size 0x2c virtual true final false
   inline bool MoveToParent();
 
-  /// @brief Method IsSamePosition addr 0x28eb630 size 0xac virtual true final false
+  /// @brief Method IsSamePosition addr 0x276d60c size 0xac virtual true final false
   inline bool IsSamePosition(::System::Xml::XPath::XPathNavigator* other);
 
-  /// @brief Method get_UnderlyingObject addr 0x28eb6dc size 0x10 virtual true final false
+  /// @brief Method get_UnderlyingObject addr 0x276d6b8 size 0x10 virtual true final false
   inline ::System::Object* get_UnderlyingObject();
 
-  /// @brief Method GetPositionHashCode addr 0x28eb6ec size 0xc virtual false final false
+  /// @brief Method GetPositionHashCode addr 0x276d6c8 size 0xc virtual false final false
   inline int32_t GetPositionHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "XPathDocumentNavigator", modifiers: "&&", def_value: None }]
@@ -169,6 +169,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::Cache::XPathDocumentNavigator, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::MS::Internal::Xml::Cache::XPathDocumentNavigator, ____pageCurrent) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::MS::Internal::Xml::Cache::XPathDocumentNavigator, ____pageParent) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::MS::Internal::Xml::Cache::XPathDocumentNavigator, ____idxCurrent) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::MS::Internal::Xml::Cache::XPathDocumentNavigator, ____idxParent) == 0x24, "Offset mismatch!");
 
 } // namespace MS::Internal::Xml::Cache
 NEED_NO_BOX(::MS::Internal::Xml::Cache::XPathDocumentNavigator);

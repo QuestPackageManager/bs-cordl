@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeArrayUnsafeUtility)
 namespace Unity::Collections {
-struct Allocator;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+struct Allocator;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10013))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9941))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeArrayUnsafeUtility*
 class CORDL_TYPE NativeArrayUnsafeUtility : public ::System::Object {
 public:

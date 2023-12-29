@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/Reflection/zzzz__FieldInfo_def.hpp"
 CORDL_MODULE_EXPORT(RtFieldInfo)
-namespace System {
-class Object;
+namespace System::Reflection {
+struct BindingFlags;
 }
 namespace System::Reflection {
 class Binder;
 }
+namespace System {
+class Object;
+}
 namespace System::Globalization {
 class CultureInfo;
-}
-namespace System::Reflection {
-struct BindingFlags;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Reflection::RtFieldInfo);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3469))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3520))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3464))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3515))
 // CS Name: ::System.Reflection::RtFieldInfo*
 class CORDL_TYPE RtFieldInfo : public ::System::Reflection::FieldInfo {
 public:
@@ -44,7 +44,7 @@ public:
 
   static inline ::System::Reflection::RtFieldInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x24f2c78 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x23991c8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RtFieldInfo", modifiers: "&&", def_value: None }]

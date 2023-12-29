@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Datatype_QNameXdr)
 namespace System::Xml {
-struct XmlTokenizedType;
-}
-namespace System {
-class Object;
+class XmlNameTable;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System::Xml {
-class XmlNameTable;
+struct XmlTokenizedType;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_QNameXdr);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11624))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11679))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11552))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11607))
 // CS Name: ::System.Xml.Schema::Datatype_QNameXdr*
 class CORDL_TYPE Datatype_QNameXdr : public ::System::Xml::Schema::Datatype_anySimpleType {
 public:
@@ -56,21 +56,21 @@ public:
 
   static inline ::System::Type* getStaticF_listValueType();
 
-  /// @brief Method get_TokenizedType addr 0x28bef80 size 0x8 virtual true final false
+  /// @brief Method get_TokenizedType addr 0x2740f5c size 0x8 virtual true final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method ParseValue addr 0x28bef88 size 0x274 virtual true final false
+  /// @brief Method ParseValue addr 0x2740f64 size 0x274 virtual true final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method get_ValueType addr 0x28bf1fc size 0x58 virtual true final false
+  /// @brief Method get_ValueType addr 0x27411d8 size 0x58 virtual true final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_ListValueType addr 0x28bf254 size 0x58 virtual true final false
+  /// @brief Method get_ListValueType addr 0x2741230 size 0x58 virtual true final false
   inline ::System::Type* get_ListValueType();
 
   static inline ::System::Xml::Schema::Datatype_QNameXdr* New_ctor();
 
-  /// @brief Method .ctor addr 0x28bf2ac size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x2741288 size 0x54 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_QNameXdr", modifiers: "&&", def_value: None }]

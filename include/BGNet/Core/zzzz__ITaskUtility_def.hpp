@@ -7,13 +7,7 @@ namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+struct TimeSpan;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -21,8 +15,14 @@ class Task;
 namespace System {
 class Action;
 }
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace System {
-struct TimeSpan;
+template <typename TResult> class Func_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace BGNet::Core {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::BGNet::Core::ITaskUtility);
 namespace BGNet::Core {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13003))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12935))
 // CS Name: ::BGNet.Core::ITaskUtility*
 class CORDL_TYPE ITaskUtility {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::NullValueHandling);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11838))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11766))
 // CS Name: ::Newtonsoft.Json::NullValueHandling
 struct CORDL_TYPE NullValueHandling {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::NullValueHandling, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::NullValueHandling, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::NullValueHandling, "Newtonsoft.Json", "NullValueHandling");

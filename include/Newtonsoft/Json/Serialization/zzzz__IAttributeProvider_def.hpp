@@ -4,13 +4,13 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IAttributeProvider)
 namespace System {
-class Type;
+class Attribute;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace System {
-class Attribute;
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::IAttributeProvider);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11905))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11833))
 // CS Name: ::Newtonsoft.Json.Serialization::IAttributeProvider*
 class CORDL_TYPE IAttributeProvider {
 public:

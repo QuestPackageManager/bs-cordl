@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlNodeList)
-namespace System {
-class IDisposable;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Xml::XmlNodeList);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11523))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11451))
 // CS Name: ::System.Xml::XmlNodeList*
 class CORDL_TYPE XmlNodeList : public ::System::Object {
 public:
@@ -44,15 +44,15 @@ public:
   /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2891968 size 0xc virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2714948 size 0xc virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method PrivateDisposeNodeList addr 0x2891974 size 0x4 virtual true final false
+  /// @brief Method PrivateDisposeNodeList addr 0x2714954 size 0x4 virtual true final false
   inline void PrivateDisposeNodeList();
 
   static inline ::System::Xml::XmlNodeList* New_ctor();
 
-  /// @brief Method .ctor addr 0x2891978 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2714958 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlNodeList", modifiers: "&&", def_value: None }]

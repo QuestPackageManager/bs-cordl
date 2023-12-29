@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Playables::PlayableTraversalMode);
 namespace UnityEngine::Playables {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10433))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10355))
 // CS Name: ::UnityEngine.Playables::PlayableTraversalMode
 struct CORDL_TYPE PlayableTraversalMode {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Playables::PlayableTraversalMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Playables::PlayableTraversalMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Playables
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::PlayableTraversalMode, "UnityEngine.Playables", "PlayableTraversalMode");

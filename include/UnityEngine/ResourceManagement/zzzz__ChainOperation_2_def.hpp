@@ -11,14 +11,17 @@ CORDL_MODULE_EXPORT(ChainOperation_2)
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
+namespace System {
+class Object;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -27,10 +30,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
 namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement {
@@ -44,10 +44,9 @@ namespace UnityEngine::ResourceManagement {
 // cpp template
 template <typename TObject, typename TObjectDependency>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 789 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 832 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14033), inst: 789 }), TypeDefinitionIndex(TypeDefinitionIndex(14036))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13949)) CS Name:
-// ::UnityEngine.ResourceManagement::ChainOperation`2<TObject,TObjectDependency>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14307)), TypeDefinitionIndex(TypeDefinitionIndex(14304)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14303), inst:
+// 778 }), TypeDefinitionIndex(TypeDefinitionIndex(14303)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14304), inst: 821 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(14304), inst: 778 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14220)) CS Name: ::UnityEngine.ResourceManagement::ChainOperation`2<TObject,TObjectDependency>*
 class CORDL_TYPE ChainOperation_2 : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject> {
 public:
   // Declarations

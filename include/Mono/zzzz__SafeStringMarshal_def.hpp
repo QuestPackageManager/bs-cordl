@@ -21,7 +21,7 @@ MARK_VAL_T(::Mono::SafeStringMarshal);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2249))
 // CS Name: ::Mono::SafeStringMarshal
 struct CORDL_TYPE SafeStringMarshal {
@@ -32,22 +32,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method StringToUtf8_icall addr 0x2412e94 size 0x4 virtual false final false
+  /// @brief Method StringToUtf8_icall addr 0x22b9414 size 0x4 virtual false final false
   static inline void* StringToUtf8_icall(ByRef<::StringW> str);
 
-  /// @brief Method StringToUtf8 addr 0x2412e98 size 0x18 virtual false final false
+  /// @brief Method StringToUtf8 addr 0x22b9418 size 0x18 virtual false final false
   static inline void* StringToUtf8(::StringW str);
 
-  /// @brief Method GFree addr 0x2412eb0 size 0x4 virtual false final false
+  /// @brief Method GFree addr 0x22b9430 size 0x4 virtual false final false
   static inline void GFree(void* ptr);
 
-  /// @brief Method .ctor addr 0x2412c6c size 0x60 virtual false final false
+  /// @brief Method .ctor addr 0x22b91ec size 0x60 virtual false final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method get_Value addr 0x2412eb4 size 0x80 virtual false final false
+  /// @brief Method get_Value addr 0x22b9434 size 0x80 virtual false final false
   inline void* get_Value();
 
-  /// @brief Method Dispose addr 0x2412f34 size 0x74 virtual true final true
+  /// @brief Method Dispose addr 0x22b94b4 size 0x74 virtual true final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "marshaled_string", ty: "void*", modifiers: "", def_value: None }]
@@ -70,6 +70,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::SafeStringMarshal, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::SafeStringMarshal, str) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::SafeStringMarshal, marshaled_string) == 0x8, "Offset mismatch!");
 
 } // namespace Mono
 DEFINE_IL2CPP_ARG_TYPE(::Mono::SafeStringMarshal, "Mono", "SafeStringMarshal");

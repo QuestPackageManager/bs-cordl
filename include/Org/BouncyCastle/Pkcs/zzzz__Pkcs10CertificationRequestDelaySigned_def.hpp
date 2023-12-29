@@ -8,10 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pkcs10CertificationRequestDelaySigned)
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
@@ -19,11 +22,8 @@ class X509Name;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {
@@ -43,22 +43,22 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned* New_ctor();
 
-  /// @brief Method .ctor addr 0x10dacbc size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x1069a68 size 0x58 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
-  /// @brief Method .ctor addr 0x10dad14 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x1069ac0 size 0x64 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x10dad78 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x1069b24 size 0x68 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor addr 0x10dade0 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x1069b8c size 0x64 virtual false final false
   inline void _ctor(::System::IO::Stream* input);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned* New_ctor(::StringW signatureAlgorithm, ::Org::BouncyCastle::Asn1::X509::X509Name* subject,
@@ -66,7 +66,7 @@ public:
                                                                                            ::Org::BouncyCastle::Asn1::Asn1Set* attributes,
                                                                                            ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* signingKey);
 
-  /// @brief Method .ctor addr 0x10dae44 size 0x94 virtual false final false
+  /// @brief Method .ctor addr 0x1069bf0 size 0x94 virtual false final false
   inline void _ctor(::StringW signatureAlgorithm, ::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey,
                     ::Org::BouncyCastle::Asn1::Asn1Set* attributes, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* signingKey);
 
@@ -74,17 +74,17 @@ public:
                                                                                            ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey,
                                                                                            ::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-  /// @brief Method .ctor addr 0x10daed8 size 0x65c virtual false final false
+  /// @brief Method .ctor addr 0x1069c84 size 0x65c virtual false final false
   inline void _ctor(::StringW signatureAlgorithm, ::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey,
                     ::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-  /// @brief Method GetDataToSign addr 0x10db534 size 0x1c virtual false final false
+  /// @brief Method GetDataToSign addr 0x106a2e0 size 0x1c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDataToSign();
 
-  /// @brief Method SignRequest addr 0x10db550 size 0x70 virtual false final false
+  /// @brief Method SignRequest addr 0x106a2fc size 0x70 virtual false final false
   inline void SignRequest(::ArrayW<uint8_t, ::Array<uint8_t>*> signedData);
 
-  /// @brief Method SignRequest addr 0x10db5c0 size 0x8 virtual false final false
+  /// @brief Method SignRequest addr 0x106a36c size 0x8 virtual false final false
   inline void SignRequest(::Org::BouncyCastle::Asn1::DerBitString* signedData);
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs10CertificationRequestDelaySigned", modifiers: "&&", def_value: None }]

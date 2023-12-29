@@ -3,14 +3,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMultiplayerStatusModel)
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace GlobalNamespace {
 class MultiplayerStatusData;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerStatusModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4467))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4478))
 // CS Name: ::IMultiplayerStatusModel*
 class CORDL_TYPE IMultiplayerStatusModel {
 public:

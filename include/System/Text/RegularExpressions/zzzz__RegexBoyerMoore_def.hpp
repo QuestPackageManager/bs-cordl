@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexBoyerMoore);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8914))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7751))
 // CS Name: ::System.Text.RegularExpressions::RegexBoyerMoore*
 class CORDL_TYPE RegexBoyerMoore : public ::System::Object {
 public:
@@ -109,16 +109,16 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexBoyerMoore* New_ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method .ctor addr 0x2953dec size 0x4b4 virtual false final false
+  /// @brief Method .ctor addr 0x27d64f0 size 0x4b4 virtual false final false
   inline void _ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method MatchPattern addr 0x29542a0 size 0x124 virtual false final false
+  /// @brief Method MatchPattern addr 0x27d69a4 size 0x124 virtual false final false
   inline bool MatchPattern(::StringW text, int32_t index);
 
-  /// @brief Method IsMatch addr 0x29543c4 size 0x6c virtual false final false
+  /// @brief Method IsMatch addr 0x27d6ac8 size 0x6c virtual false final false
   inline bool IsMatch(::StringW text, int32_t index, int32_t beglimit, int32_t endlimit);
 
-  /// @brief Method Scan addr 0x2954430 size 0x2e4 virtual false final false
+  /// @brief Method Scan addr 0x27d6b34 size 0x2e4 virtual false final false
   inline int32_t Scan(::StringW text, int32_t index, int32_t beglimit, int32_t endlimit);
 
   // Ctor Parameters [CppParam { name: "", ty: "RegexBoyerMoore", modifiers: "&&", def_value: None }]
@@ -166,6 +166,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexBoyerMoore, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexBoyerMoore, ___Positive) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexBoyerMoore, ___NegativeASCII) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexBoyerMoore, ___NegativeUnicode) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexBoyerMoore, ___Pattern) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexBoyerMoore, ___LowASCII) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexBoyerMoore, ___HighASCII) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexBoyerMoore, ___RightToLeft) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexBoyerMoore, ___CaseInsensitive) == 0x39, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexBoyerMoore, ____culture) == 0x40, "Offset mismatch!");
 
 } // namespace System::Text::RegularExpressions
 NEED_NO_BOX(::System::Text::RegularExpressions::RegexBoyerMoore);

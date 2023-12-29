@@ -7,41 +7,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HashSet_1)
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__Slot;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> struct __HashSet_1__ElementCount;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Collections::Generic {
 template <typename T> struct __HashSet_1__Enumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> struct __HashSet_1__Slot;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
@@ -49,11 +40,20 @@ class IDeserializationCallback;
 namespace System {
 template <typename T> class Predicate_1;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__ElementCount;
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
 }
 namespace System {
 class IDisposable;
@@ -83,7 +83,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14312))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14650))
 // CS Name: ::HashSet`1::ElementCount<T>
 struct CORDL_TYPE __HashSet_1__ElementCount {
 public:
@@ -115,7 +115,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14313))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14651))
 // CS Name: ::HashSet`1::Slot<T>
 struct CORDL_TYPE __HashSet_1__Slot {
 public:
@@ -151,7 +151,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14314))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14652))
 // CS Name: ::HashSet`1::Enumerator<T>
 struct CORDL_TYPE __HashSet_1__Enumerator {
 public:
@@ -220,8 +220,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14315))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14653))
 // CS Name: ::System.Collections.Generic::HashSet`1<T>*
 class CORDL_TYPE HashSet_1 : public ::System::Object {
 public:
@@ -338,11 +338,6 @@ public:
   /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
   inline void _ctor(::System::Collections::Generic::IEqualityComparer_1<T>* comparer);
 
-  static inline ::System::Collections::Generic::HashSet_1<T>* New_ctor(int32_t capacity);
-
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(int32_t capacity);
-
   static inline ::System::Collections::Generic::HashSet_1<T>* New_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection);
 
   /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -360,11 +355,6 @@ public:
 
   /// @brief Method CopyFrom addr 0x0 size 0xffffffffffffffff virtual false final false
   inline void CopyFrom(::System::Collections::Generic::HashSet_1<T>* source);
-
-  static inline ::System::Collections::Generic::HashSet_1<T>* New_ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer);
-
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer);
 
   /// @brief Method System.Collections.Generic.ICollection<T>.Add addr 0x0 size 0xffffffffffffffff virtual true final true
   inline void System_Collections_Generic_ICollection_T__Add(T item);

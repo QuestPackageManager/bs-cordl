@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MirroredSliderController)
 namespace GlobalNamespace {
-class __MirroredSliderController__Pool;
+class ISliderDidStartDissolvingEvent;
 }
 namespace UnityEngine {
-class MeshFilter;
+class Transform;
 }
 namespace GlobalNamespace {
-class ISliderDidStartDissolvingEvent;
+class __MirroredSliderController__Pool;
 }
 namespace GlobalNamespace {
 class SliderController;
@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
 }
 namespace UnityEngine {
-class Transform;
+class MeshFilter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MirroredSliderController__Pool);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4812))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4758))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4932))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4879))
 // CS Name: ::MirroredSliderController*
 class CORDL_TYPE MirroredSliderController : public ::GlobalNamespace::SliderControllerBase {
 public:
@@ -96,36 +96,36 @@ public:
 
   constexpr void __set__followedTransform(::UnityEngine::Transform* value);
 
-  /// @brief Method set_hide addr 0x23827e4 size 0x2c virtual false final false
+  /// @brief Method set_hide addr 0x2251d34 size 0x2c virtual false final false
   inline void set_hide(bool value);
 
-  /// @brief Method Awake addr 0x2386730 size 0x1c virtual false final false
+  /// @brief Method Awake addr 0x2251d60 size 0x1c virtual false final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x238674c size 0xb0 virtual false final false
+  /// @brief Method Update addr 0x2251d7c size 0xb0 virtual false final false
   inline void Update();
 
-  /// @brief Method OnDestroy addr 0x238691c size 0x4 virtual false final false
+  /// @brief Method OnDestroy addr 0x2251f48 size 0x4 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method Mirror addr 0x2381d50 size 0x20c virtual false final false
+  /// @brief Method Mirror addr 0x2252040 size 0x214 virtual false final false
   inline void Mirror(::GlobalNamespace::SliderController* sliderController);
 
-  /// @brief Method UpdateMaterialPropertyBlock addr 0x23867fc size 0x120 virtual false final false
+  /// @brief Method UpdateMaterialPropertyBlock addr 0x2251e2c size 0x11c virtual false final false
   inline void UpdateMaterialPropertyBlock(float_t timeSinceHeadNoteJump);
 
-  /// @brief Method RemoveListeners addr 0x2386920 size 0xf4 virtual false final false
+  /// @brief Method RemoveListeners addr 0x2251f4c size 0xf4 virtual false final false
   inline void RemoveListeners();
 
-  /// @brief Method HandleSliderDidStartDissolving addr 0x2386a14 size 0x28 virtual true final true
+  /// @brief Method HandleSliderDidStartDissolving addr 0x22525d4 size 0x24 virtual true final true
   inline void HandleSliderDidStartDissolving(::GlobalNamespace::SliderController* sliderController, float_t duration);
 
-  /// @brief Method Dissolve addr 0x2386a3c size 0x28 virtual false final false
+  /// @brief Method Dissolve addr 0x22525f8 size 0x24 virtual false final false
   inline void Dissolve(float_t duration);
 
   static inline ::GlobalNamespace::MirroredSliderController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2386a64 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2252644 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MirroredSliderController", modifiers: "&&", def_value: None }]
@@ -162,19 +162,29 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MirroredSliderController, 0x58>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::MirroredSliderController, ____meshFilter) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MirroredSliderController, ____beatmapObjectSpawnController) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MirroredSliderController, ____followedSlider) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MirroredSliderController, ____transform) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MirroredSliderController, ____followedTransform) == 0x50, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Pool
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4758)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2817 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4757)) CS Name: ::MirroredSliderController::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4879)), TypeDefinitionIndex(TypeDefinitionIndex(10978)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst:
+// 2757 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4878)) CS Name: ::MirroredSliderController::Pool*
 class CORDL_TYPE __MirroredSliderController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MirroredSliderController*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MirroredSliderController__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x2386a6c size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2252654 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MirroredSliderController__Pool", modifiers: "&&", def_value: None }]

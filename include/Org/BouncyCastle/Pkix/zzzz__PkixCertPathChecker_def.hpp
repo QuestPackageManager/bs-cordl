@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(PkixCertPathChecker)
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathChecker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1721))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathChecker*
 class CORDL_TYPE PkixCertPathChecker : public ::System::Object {
@@ -31,7 +31,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x10f440c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x10831b8 size 0x8 virtual false final false
   inline void _ctor();
 
   /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -46,7 +46,7 @@ public:
   /// @brief Method Check addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void Check(::Org::BouncyCastle::X509::X509Certificate* cert, ::Org::BouncyCastle::Utilities::Collections::ISet* unresolvedCritExts);
 
-  /// @brief Method Clone addr 0x10f4414 size 0x8 virtual true final false
+  /// @brief Method Clone addr 0x10831c0 size 0x8 virtual true final false
   inline ::System::Object* Clone();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathChecker", modifiers: "&&", def_value: None }]

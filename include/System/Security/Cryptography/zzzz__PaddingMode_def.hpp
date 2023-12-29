@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::PaddingMode);
 namespace System::Security::Cryptography {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2922))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2921))
 // CS Name: ::System.Security.Cryptography::PaddingMode
 struct CORDL_TYPE PaddingMode {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::PaddingMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::PaddingMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::PaddingMode, "System.Security.Cryptography", "PaddingMode");

@@ -36,16 +36,16 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::PushbackStream* New_ctor(::System::IO::Stream* s);
 
-  /// @brief Method .ctor addr 0x115fbb0 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x10ee968 size 0x10 virtual false final false
   inline void _ctor(::System::IO::Stream* s);
 
-  /// @brief Method ReadByte addr 0x115fbc0 size 0x24 virtual true final false
+  /// @brief Method ReadByte addr 0x10ee978 size 0x24 virtual true final false
   inline int32_t ReadByte();
 
-  /// @brief Method Read addr 0x115fbe4 size 0x60 virtual true final false
+  /// @brief Method Read addr 0x10ee99c size 0x60 virtual true final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Unread addr 0x115fc44 size 0x6c virtual true final false
+  /// @brief Method Unread addr 0x10ee9fc size 0x6c virtual true final false
   inline void Unread(int32_t b);
 
   // Ctor Parameters [CppParam { name: "", ty: "PushbackStream", modifiers: "&&", def_value: None }]
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::IO::PushbackStream, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::IO::PushbackStream, ___buf) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::IO
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::IO::PushbackStream);

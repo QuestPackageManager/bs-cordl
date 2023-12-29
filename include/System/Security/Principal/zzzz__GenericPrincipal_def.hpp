@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Security::Principal::GenericPrincipal);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3011))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2998))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3010))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2997))
 // CS Name: ::System.Security.Principal::GenericPrincipal*
 class CORDL_TYPE GenericPrincipal : public ::System::Security::Claims::ClaimsPrincipal {
 public:
@@ -45,7 +45,7 @@ public:
 
   static inline ::System::Security::Principal::GenericPrincipal* New_ctor(::System::Security::Principal::IIdentity* identity, ::ArrayW<::StringW, ::Array<::StringW>*> roles);
 
-  /// @brief Method .ctor addr 0x2476bb8 size 0x168 virtual false final false
+  /// @brief Method .ctor addr 0x231f0c4 size 0x168 virtual false final false
   inline void _ctor(::System::Security::Principal::IIdentity* identity, ::ArrayW<::StringW, ::Array<::StringW>*> roles);
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericPrincipal", modifiers: "&&", def_value: None }]
@@ -72,6 +72,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Principal::GenericPrincipal, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Principal::GenericPrincipal, ___m_identity) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Principal::GenericPrincipal, ___m_roles) == 0x30, "Offset mismatch!");
 
 } // namespace System::Security::Principal
 NEED_NO_BOX(::System::Security::Principal::GenericPrincipal);

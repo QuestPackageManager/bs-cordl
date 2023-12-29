@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Threading::PlatformHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2681))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2679))
 // CS Name: ::System.Threading::PlatformHelper*
 class CORDL_TYPE PlatformHelper : public ::System::Object {
 public:
@@ -42,7 +42,7 @@ public:
 
   static inline bool getStaticF_IsSingleProcessor();
 
-  /// @brief Method get_ProcessorCount addr 0x26122b4 size 0xec virtual false final false
+  /// @brief Method get_ProcessorCount addr 0x24b732c size 0xec virtual false final false
   static inline int32_t get_ProcessorCount();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformHelper", modifiers: "&&", def_value: None }]

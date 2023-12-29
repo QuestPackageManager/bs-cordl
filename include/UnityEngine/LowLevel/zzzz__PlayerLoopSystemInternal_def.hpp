@@ -22,8 +22,8 @@ MARK_VAL_T(::UnityEngine::LowLevel::PlayerLoopSystemInternal);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10472))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10394))
 // CS Name: ::UnityEngine.LowLevel::PlayerLoopSystemInternal
 struct CORDL_TYPE PlayerLoopSystemInternal {
 public:
@@ -60,6 +60,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::LowLevel::PlayerLoopSystemInternal, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::LowLevel::PlayerLoopSystemInternal, type) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::LowLevel::PlayerLoopSystemInternal, updateDelegate) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::LowLevel::PlayerLoopSystemInternal, updateFunction) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::LowLevel::PlayerLoopSystemInternal, loopConditionFunction) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::LowLevel::PlayerLoopSystemInternal, numSubSystems) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LowLevel::PlayerLoopSystemInternal, "UnityEngine.LowLevel", "PlayerLoopSystemInternal");

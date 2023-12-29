@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsEnvelopedDataGenerator)
 namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
+class CmsEnvelopedData;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedData;
+class CmsProcessable;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherBuilderWithKey;
@@ -39,24 +39,24 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x11dd994 size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x116c744 size 0x54 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor addr 0x11dd9e8 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x116c798 size 0x64 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method Generate addr 0x11dda4c size 0xbfc virtual false final false
+  /// @brief Method Generate addr 0x116c7fc size 0xbfc virtual false final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator* keyGen);
 
-  /// @brief Method Generate addr 0x11de648 size 0x1b4 virtual false final false
+  /// @brief Method Generate addr 0x116d3f8 size 0x1b4 virtual false final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid);
 
-  /// @brief Method Generate addr 0x11de7fc size 0xc80 virtual false final false
+  /// @brief Method Generate addr 0x116d5ac size 0xc80 virtual false final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* cipherBuilder);
 
-  /// @brief Method Generate addr 0x11df47c size 0x1b0 virtual false final false
+  /// @brief Method Generate addr 0x116e22c size 0x1b0 virtual false final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid, int32_t keySize);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedDataGenerator", modifiers: "&&", def_value: None }]

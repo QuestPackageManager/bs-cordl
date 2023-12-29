@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByMethodBase)
 namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-class SubContainerCreatorBindInfo;
-}
-namespace Zenject {
-class ISubContainerCreator;
+struct TypeValuePair;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-struct TypeValuePair;
+class ISubContainerCreator;
+}
+namespace Zenject {
+class InjectContext;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace Zenject {
+class SubContainerCreatorBindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByMethodBase);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11246))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11174))
 // CS Name: ::Zenject::SubContainerCreatorByMethodBase*
 class CORDL_TYPE SubContainerCreatorByMethodBase : public ::System::Object {
 public:
@@ -61,13 +61,13 @@ public:
 
   static inline ::Zenject::SubContainerCreatorByMethodBase* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo);
 
-  /// @brief Method .ctor addr 0x2f0b764 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2da3994 size 0x2c virtual false final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo);
 
   /// @brief Method CreateSubContainer addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
-  /// @brief Method CreateEmptySubContainer addr 0x2f0b790 size 0x3c virtual false final false
+  /// @brief Method CreateEmptySubContainer addr 0x2da39c0 size 0x3c virtual false final false
   inline ::Zenject::DiContainer* CreateEmptySubContainer();
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByMethodBase", modifiers: "&&", def_value: None }]
@@ -94,6 +94,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::SubContainerCreatorByMethodBase, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::SubContainerCreatorByMethodBase, ____container) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::SubContainerCreatorByMethodBase, ____containerBindInfo) == 0x18, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::SubContainerCreatorByMethodBase);

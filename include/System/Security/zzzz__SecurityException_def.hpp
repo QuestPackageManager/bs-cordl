@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Security::SecurityException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2889))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2885))
 // CS Name: ::System.Security::SecurityException*
 class CORDL_TYPE SecurityException : public ::System::SystemException {
 public:
@@ -41,28 +41,28 @@ public:
 
   static inline ::System::Security::SecurityException* New_ctor();
 
-  /// @brief Method .ctor addr 0x24545e4 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x22faac8 size 0x68 virtual false final false
   inline void _ctor();
 
   static inline ::System::Security::SecurityException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x245464c size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x22fab30 size 0x24 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Security::SecurityException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x2454670 size 0x10c virtual false final false
+  /// @brief Method .ctor addr 0x22fab54 size 0x10c virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Security::SecurityException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor addr 0x245477c size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x22fac60 size 0x24 virtual false final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method GetObjectData addr 0x24547a0 size 0x100 virtual true final false
+  /// @brief Method GetObjectData addr 0x22fac84 size 0x100 virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString addr 0x24548a0 size 0x8 virtual true final false
+  /// @brief Method ToString addr 0x22fad84 size 0x8 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "SecurityException", modifiers: "&&", def_value: None }]
@@ -86,6 +86,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::SecurityException, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::SecurityException, ___permissionState) == 0x90, "Offset mismatch!");
 
 } // namespace System::Security
 NEED_NO_BOX(::System::Security::SecurityException);

@@ -9,28 +9,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IPlatformAchievementsHandler)
 namespace GlobalNamespace {
-struct __IPlatformAchievementsHandler__UnlockAchievementResult;
-}
-namespace GlobalNamespace {
-class __IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
+class HMAsyncRequest;
 }
 namespace GlobalNamespace {
 struct __IPlatformAchievementsHandler__GetUnlockedAchievementsResult;
 }
 namespace GlobalNamespace {
-class HMAsyncRequest;
+class __IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
+}
+namespace GlobalNamespace {
+struct __IPlatformAchievementsHandler__UnlockAchievementResult;
 }
 namespace GlobalNamespace {
 class __IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
-}
-namespace System {
-class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class IAsyncResult;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -59,7 +59,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievem
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4092))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4117))
 // CS Name: ::IPlatformAchievementsHandler::UnlockAchievementResult
 struct CORDL_TYPE __IPlatformAchievementsHandler__UnlockAchievementResult {
 public:
@@ -101,13 +101,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementResult, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementResult, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::GetUnlockedAchievementsResult
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4093))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4118))
 // CS Name: ::IPlatformAchievementsHandler::GetUnlockedAchievementsResult
 struct CORDL_TYPE __IPlatformAchievementsHandler__GetUnlockedAchievementsResult {
 public:
@@ -149,29 +151,31 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsResult, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsResult, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::UnlockAchievementCompletionHandler
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4094))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4119))
 // CS Name: ::IPlatformAchievementsHandler::UnlockAchievementCompletionHandler*
 class CORDL_TYPE __IPlatformAchievementsHandler__UnlockAchievementCompletionHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2232fb0 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x20d9918 size 0xc4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2233370 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x20d9cd8 size 0x14 virtual true final false
   inline void Invoke(::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementResult result);
 
-  /// @brief Method BeginInvoke addr 0x2233384 size 0x84 virtual true final false
+  /// @brief Method BeginInvoke addr 0x20d9cec size 0x84 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementResult result, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2233408 size 0xc virtual true final false
+  /// @brief Method EndInvoke addr 0x20d9d70 size 0xc virtual true final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler", modifiers: "&&", def_value: None }]
@@ -198,25 +202,25 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IPlatformAchi
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4095))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4120))
 // CS Name: ::IPlatformAchievementsHandler::GetUnlockedAchievementsCompletionHandler*
 class CORDL_TYPE __IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2232ee4 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x20d984c size 0xc4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2233414 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x20d9d7c size 0x14 virtual true final false
   inline void Invoke(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsResult result, ::ArrayW<::StringW, ::Array<::StringW>*> unlockedAchievementsIds);
 
-  /// @brief Method BeginInvoke addr 0x2233428 size 0x90 virtual true final false
+  /// @brief Method BeginInvoke addr 0x20d9d90 size 0x90 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsResult result, ::ArrayW<::StringW, ::Array<::StringW>*> unlockedAchievementsIds,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x22334b8 size 0xc virtual true final false
+  /// @brief Method EndInvoke addr 0x20d9e20 size 0xc virtual true final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler", modifiers: "&&", def_value: None }]
@@ -244,7 +248,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IPlatformAchi
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4096))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4121))
 // CS Name: ::IPlatformAchievementsHandler*
 class CORDL_TYPE IPlatformAchievementsHandler {
 public:

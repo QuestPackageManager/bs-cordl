@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::MultiplayerPlayerLayout);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5233))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5327))
 // CS Name: ::MultiplayerPlayerLayout
 struct CORDL_TYPE MultiplayerPlayerLayout {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerPlayerLayout, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayerLayout, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerPlayerLayout, "", "MultiplayerPlayerLayout");

@@ -19,7 +19,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4745))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4866))
 // CS Name: ::ICubeNoteControllerInitializable`1<T>*
 class CORDL_TYPE ICubeNoteControllerInitializable_1 {
 public:

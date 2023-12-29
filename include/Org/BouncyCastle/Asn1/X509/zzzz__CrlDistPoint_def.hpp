@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(CrlDistPoint)
 namespace Org::BouncyCastle::Asn1::X509 {
 class DistributionPoint;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -49,33 +49,33 @@ public:
 
   constexpr void __set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0x118aa38 size 0x18 virtual false final false
+  /// @brief Method GetInstance addr 0x111a7f0 size 0x18 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0x118aa50 size 0xa8 virtual false final false
+  /// @brief Method GetInstance addr 0x111a808 size 0xa8 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* GetInstance(::System::Object* obj);
 
-  /// @brief Method FromExtensions addr 0x118ab20 size 0x74 virtual false final false
+  /// @brief Method FromExtensions addr 0x111a8d8 size 0x74 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x118aaf8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x111a8b0 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint*
   New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*, ::Array<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>*> points);
 
-  /// @brief Method .ctor addr 0x118aba0 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x111a958 size 0x7c virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*, ::Array<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>*> points);
 
-  /// @brief Method GetDistributionPoints addr 0x118ac1c size 0x110 virtual false final false
+  /// @brief Method GetDistributionPoints addr 0x111a9d4 size 0x110 virtual false final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*, ::Array<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>*> GetDistributionPoints();
 
-  /// @brief Method ToAsn1Object addr 0x118aea4 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x111ac5c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString addr 0x118aeac size 0x154 virtual true final false
+  /// @brief Method ToString addr 0x111ac64 size 0x154 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrlDistPoint", modifiers: "&&", def_value: None }]
@@ -99,6 +99,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::CrlDistPoint, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::CrlDistPoint, ___seq) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::CrlDistPoint);

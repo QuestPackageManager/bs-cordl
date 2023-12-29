@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AnimationScriptPlayable)
-namespace UnityEngine::Playables {
-class IPlayable;
-}
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::Playables {
+class IPlayable;
 }
 namespace UnityEngine::Playables {
 struct PlayableHandle;
@@ -24,8 +24,8 @@ MARK_VAL_T(::UnityEngine::Animations::AnimationScriptPlayable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10440))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14893))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10362))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15120))
 // CS Name: ::UnityEngine.Animations::AnimationScriptPlayable
 struct CORDL_TYPE AnimationScriptPlayable {
 public:
@@ -43,13 +43,13 @@ public:
 
   static inline ::UnityEngine::Animations::AnimationScriptPlayable getStaticF_m_NullPlayable();
 
-  /// @brief Method .ctor addr 0x2c976b0 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x2b31a10 size 0xc0 virtual false final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
-  /// @brief Method GetHandle addr 0x2c97770 size 0xc virtual true final true
+  /// @brief Method GetHandle addr 0x2b31ad0 size 0xc virtual true final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method Equals addr 0x2c9777c size 0x78 virtual true final true
+  /// @brief Method Equals addr 0x2b31adc size 0x78 virtual true final true
   inline bool Equals(::UnityEngine::Animations::AnimationScriptPlayable other);
 
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Animations::AnimationScriptPlayable, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Animations::AnimationScriptPlayable, m_Handle) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Animations
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimationScriptPlayable, "UnityEngine.Animations", "AnimationScriptPlayable");

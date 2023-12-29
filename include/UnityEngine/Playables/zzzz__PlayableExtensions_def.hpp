@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayableExtensions)
 namespace UnityEngine::Playables {
+struct PlayState;
+}
+namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
 struct PlayableTraversalMode;
 }
 namespace UnityEngine::Playables {
-struct PlayState;
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct DirectorWrapMode;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::UnityEngine::Playables::PlayableExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10434))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10356))
 // CS Name: ::UnityEngine.Playables::PlayableExtensions*
 class CORDL_TYPE PlayableExtensions : public ::System::Object {
 public:

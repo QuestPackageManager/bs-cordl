@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::HMUI::TableCell);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13653))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13664))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13770))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13781))
 // CS Name: ::HMUI::TableCell*
 class CORDL_TYPE TableCell : public ::HMUI::SelectableCell {
 public:
@@ -58,39 +58,39 @@ public:
 
   constexpr void __set__tableCellOwner(::HMUI::ITableCellOwner* value);
 
-  /// @brief Method get_reuseIdentifier addr 0x21487e0 size 0x8 virtual false final false
+  /// @brief Method get_reuseIdentifier addr 0x1ff0e44 size 0x8 virtual false final false
   inline ::StringW get_reuseIdentifier();
 
-  /// @brief Method set_reuseIdentifier addr 0x21487e8 size 0x8 virtual false final false
+  /// @brief Method set_reuseIdentifier addr 0x1ff0e4c size 0x8 virtual false final false
   inline void set_reuseIdentifier(::StringW value);
 
-  /// @brief Method get_idx addr 0x21487f0 size 0x8 virtual false final false
+  /// @brief Method get_idx addr 0x1ff0e54 size 0x8 virtual false final false
   inline int32_t get_idx();
 
-  /// @brief Method set_idx addr 0x21487f8 size 0x8 virtual false final false
+  /// @brief Method set_idx addr 0x1ff0e5c size 0x8 virtual false final false
   inline void set_idx(int32_t value);
 
-  /// @brief Method get_tableCellOwner addr 0x2148800 size 0x8 virtual false final false
+  /// @brief Method get_tableCellOwner addr 0x1ff0e64 size 0x8 virtual false final false
   inline ::HMUI::ITableCellOwner* get_tableCellOwner();
 
-  /// @brief Method TableViewSetup addr 0x2148808 size 0xc virtual true final false
+  /// @brief Method TableViewSetup addr 0x1ff0e6c size 0xc virtual true final false
   inline void TableViewSetup(::HMUI::ITableCellOwner* tableCellOwner, int32_t idx);
 
-  /// @brief Method MoveIdx addr 0x2148814 size 0x10 virtual false final false
+  /// @brief Method MoveIdx addr 0x1ff0e78 size 0x10 virtual false final false
   inline void MoveIdx(int32_t offset);
 
-  /// @brief Method InternalToggle addr 0x2148824 size 0x1f4 virtual true final false
+  /// @brief Method InternalToggle addr 0x1ff0e88 size 0x1f4 virtual true final false
   inline void InternalToggle();
 
-  /// @brief Method __WasPreparedForReuse addr 0x2148a18 size 0x10 virtual false final false
+  /// @brief Method __WasPreparedForReuse addr 0x1ff107c size 0x10 virtual false final false
   inline void __WasPreparedForReuse();
 
-  /// @brief Method WasPreparedForReuse addr 0x2148a28 size 0x4 virtual true final false
+  /// @brief Method WasPreparedForReuse addr 0x1ff108c size 0x4 virtual true final false
   inline void WasPreparedForReuse();
 
   static inline ::HMUI::TableCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x2148a2c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1ff1090 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TableCell", modifiers: "&&", def_value: None }]
@@ -120,6 +120,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::TableCell, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::TableCell, ____idx_k__BackingField) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::TableCell, ____reuseIdentifier) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::TableCell, ____tableCellOwner) == 0x50, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::TableCell);

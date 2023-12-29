@@ -25,29 +25,29 @@ MARK_REF_PTR_T(::Polyglot::LocalizedTextMeshPro);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12307)), TypeDefinitionIndex(TypeDefinitionIndex(15565)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15565), inst:
-// 4463 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15567)) CS Name: ::Polyglot::LocalizedTextMeshPro*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15549), inst: 4359 }), TypeDefinitionIndex(TypeDefinitionIndex(12235)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15549))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15551)) CS Name: ::Polyglot::LocalizedTextMeshPro*
 class CORDL_TYPE LocalizedTextMeshPro : public ::Polyglot::LocalizedTextComponent_1<::TMPro::TextMeshPro*> {
 public:
   // Declarations
-  /// @brief Method SetText addr 0x2805cc0 size 0x2c virtual true final false
+  /// @brief Method SetText addr 0x268b038 size 0x2c virtual true final false
   inline void SetText(::TMPro::TextMeshPro* text, ::StringW value);
 
-  /// @brief Method UpdateAlignment addr 0x2805cec size 0xf4 virtual true final false
+  /// @brief Method UpdateAlignment addr 0x268b064 size 0xf4 virtual true final false
   inline void UpdateAlignment(::TMPro::TextMeshPro* text, ::Polyglot::LanguageDirection direction);
 
-  /// @brief Method IsOppositeDirection addr 0x2805de0 size 0x58 virtual false final false
+  /// @brief Method IsOppositeDirection addr 0x268b158 size 0x58 virtual false final false
   inline bool IsOppositeDirection(::TMPro::TextAlignmentOptions alignment, ::Polyglot::LanguageDirection direction);
 
-  /// @brief Method IsAlignmentRight addr 0x2805e38 size 0x28 virtual false final false
+  /// @brief Method IsAlignmentRight addr 0x268b1b0 size 0x28 virtual false final false
   inline bool IsAlignmentRight(::TMPro::TextAlignmentOptions alignment);
 
-  /// @brief Method IsAlignmentLeft addr 0x2805e60 size 0x28 virtual false final false
+  /// @brief Method IsAlignmentLeft addr 0x268b1d8 size 0x28 virtual false final false
   inline bool IsAlignmentLeft(::TMPro::TextAlignmentOptions alignment);
 
   static inline ::Polyglot::LocalizedTextMeshPro* New_ctor();
 
-  /// @brief Method .ctor addr 0x2805e88 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x268b200 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextMeshPro", modifiers: "&&", def_value: None }]

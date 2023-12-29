@@ -17,12 +17,12 @@ MARK_VAL_T(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl);
 namespace System::Net::NetworkInformation::MacOsStructs {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9299))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8136))
 // CS Name: ::System.Net.NetworkInformation.MacOsStructs::sockaddr_dl
 struct CORDL_TYPE sockaddr_dl {
 public:
   // Declarations
-  /// @brief Method Read addr 0x29f0008 size 0x190 virtual false final false
+  /// @brief Method Read addr 0x2873784 size 0x190 virtual false final false
   inline void Read(void* ptr);
 
   // Ctor Parameters [CppParam { name: "sdl_len", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sdl_family", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
@@ -67,6 +67,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, sdl_len) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, sdl_family) == 0x1, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, sdl_index) == 0x2, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, sdl_type) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, sdl_nlen) == 0x5, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, sdl_alen) == 0x6, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, sdl_slen) == 0x7, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, sdl_data) == 0x8, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation::MacOsStructs
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, "System.Net.NetworkInformation.MacOsStructs", "sockaddr_dl");

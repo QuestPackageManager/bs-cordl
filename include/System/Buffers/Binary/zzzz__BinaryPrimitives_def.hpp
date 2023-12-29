@@ -15,25 +15,25 @@ MARK_REF_PTR_T(::System::Buffers::Binary::BinaryPrimitives);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Buffers::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3891))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3879))
 // CS Name: ::System.Buffers.Binary::BinaryPrimitives*
 class CORDL_TYPE BinaryPrimitives : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReverseEndianness addr 0x258c684 size 0x8 virtual false final false
+  /// @brief Method ReverseEndianness addr 0x2431128 size 0x8 virtual false final false
   static inline int32_t ReverseEndianness(int32_t value);
 
-  /// @brief Method ReverseEndianness addr 0x258c68c size 0x14 virtual false final false
+  /// @brief Method ReverseEndianness addr 0x2431130 size 0x14 virtual false final false
   static inline int64_t ReverseEndianness(int64_t value);
 
-  /// @brief Method ReverseEndianness addr 0x258c6a0 size 0xc virtual false final false
+  /// @brief Method ReverseEndianness addr 0x2431144 size 0xc virtual false final false
   static inline uint16_t ReverseEndianness(uint16_t value);
 
-  /// @brief Method ReverseEndianness addr 0x258c6ac size 0x8 virtual false final false
+  /// @brief Method ReverseEndianness addr 0x2431150 size 0x8 virtual false final false
   static inline uint32_t ReverseEndianness(uint32_t value);
 
-  /// @brief Method ReverseEndianness addr 0x258c6b4 size 0x14 virtual false final false
+  /// @brief Method ReverseEndianness addr 0x2431158 size 0x14 virtual false final false
   static inline uint64_t ReverseEndianness(uint64_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryPrimitives", modifiers: "&&", def_value: None }]

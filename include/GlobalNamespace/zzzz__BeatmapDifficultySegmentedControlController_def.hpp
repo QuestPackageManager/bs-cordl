@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDifficultySegmentedControlController)
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
 namespace HMUI {
 class TextSegmentedControl;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
+}
+namespace HMUI {
+class SegmentedControl;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
-}
-namespace HMUI {
-class SegmentedControl;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDifficultySegmentedControlController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5616))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(14934))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5712))
 // CS Name: ::BeatmapDifficultySegmentedControlController*
 class CORDL_TYPE BeatmapDifficultySegmentedControlController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -84,33 +84,33 @@ public:
 
   constexpr void __set__selectedDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  /// @brief Method add_didSelectDifficultyEvent addr 0x22adc4c size 0xb0 virtual false final false
+  /// @brief Method add_didSelectDifficultyEvent addr 0x2168e38 size 0xb0 virtual false final false
   inline void add_didSelectDifficultyEvent(::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>* value);
 
-  /// @brief Method remove_didSelectDifficultyEvent addr 0x22adcfc size 0xb0 virtual false final false
+  /// @brief Method remove_didSelectDifficultyEvent addr 0x2168ee8 size 0xb0 virtual false final false
   inline void remove_didSelectDifficultyEvent(::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>* value);
 
-  /// @brief Method get_selectedDifficulty addr 0x22addac size 0x8 virtual false final false
+  /// @brief Method get_selectedDifficulty addr 0x2168f98 size 0x8 virtual false final false
   inline ::GlobalNamespace::BeatmapDifficulty get_selectedDifficulty();
 
-  /// @brief Method Awake addr 0x22addb4 size 0x8c virtual false final false
+  /// @brief Method Awake addr 0x2168fa0 size 0x8c virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x22ade40 size 0xd4 virtual false final false
+  /// @brief Method OnDestroy addr 0x216902c size 0xd4 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method GetClosestDifficultyIndex addr 0x22adf14 size 0x14c virtual false final false
+  /// @brief Method GetClosestDifficultyIndex addr 0x2169100 size 0x14c virtual false final false
   inline int32_t GetClosestDifficultyIndex(::GlobalNamespace::BeatmapDifficulty searchDifficulty);
 
-  /// @brief Method HandleDifficultySegmentedControlDidSelectCell addr 0x22ae060 size 0x88 virtual false final false
+  /// @brief Method HandleDifficultySegmentedControlDidSelectCell addr 0x216924c size 0x88 virtual false final false
   inline void HandleDifficultySegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
-  /// @brief Method SetData addr 0x22ae0e8 size 0x5e8 virtual false final false
+  /// @brief Method SetData addr 0x21692d4 size 0x5e8 virtual false final false
   inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps, ::GlobalNamespace::BeatmapDifficulty selectedDifficulty);
 
   static inline ::GlobalNamespace::BeatmapDifficultySegmentedControlController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22ae6d0 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x21698bc size 0x80 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultySegmentedControlController", modifiers: "&&", def_value: None }]
@@ -143,6 +143,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDifficultySegmentedControlController, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDifficultySegmentedControlController, ____difficultySegmentedControl) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDifficultySegmentedControlController, ___didSelectDifficultyEvent) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDifficultySegmentedControlController, ____difficulties) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDifficultySegmentedControlController, ____selectedDifficulty) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapDifficultySegmentedControlController);

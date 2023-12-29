@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(CipherKeyGeneratorFactory)
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Crypto {
-class CipherKeyGenerator;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class CipherKeyGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Utilities {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Utilities::CipherKeyGeneratorFactory
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1338))
 // CS Name: ::Org.BouncyCastle.Crypto.Utilities::CipherKeyGeneratorFactory*
 class CORDL_TYPE CipherKeyGeneratorFactory : public ::System::Object {
@@ -32,13 +32,13 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Utilities::CipherKeyGeneratorFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0xfc133c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xf4b0f0 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method CreateKeyGenerator addr 0xfc1344 size 0x434 virtual false final false
+  /// @brief Method CreateKeyGenerator addr 0xf4b0f8 size 0x434 virtual false final false
   static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* CreateKeyGenerator(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method CreateCipherKeyGenerator addr 0xfc1778 size 0xb0 virtual false final false
+  /// @brief Method CreateCipherKeyGenerator addr 0xf4b52c size 0xb0 virtual false final false
   static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* CreateCipherKeyGenerator(::Org::BouncyCastle::Security::SecureRandom* random, int32_t keySize);
 
   // Ctor Parameters [CppParam { name: "", ty: "CipherKeyGeneratorFactory", modifiers: "&&", def_value: None }]

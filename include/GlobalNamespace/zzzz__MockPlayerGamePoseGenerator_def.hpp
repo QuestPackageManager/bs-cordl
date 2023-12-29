@@ -3,37 +3,37 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include <cstdint>
+#include <cmath>
 CORDL_MODULE_EXPORT(MockPlayerGamePoseGenerator)
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
-class MockBeatmapData;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
 class MockNodePoseSyncStateSender;
-}
-namespace System {
-class IDisposable;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class IGameplayRpcManager;
+class MockBeatmapData;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class MockScoreSyncStateSender;
+}
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 struct __LevelCompletionResults__LevelEndStateType;
 }
 namespace GlobalNamespace {
-class LevelCompletionResults;
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class MockScoreSyncStateSender;
+class LevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerGamePoseGenerator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15515))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15499))
 // CS Name: ::MockPlayerGamePoseGenerator*
 class CORDL_TYPE MockPlayerGamePoseGenerator : public ::System::Object {
 public:
@@ -102,25 +102,25 @@ public:
   static inline ::GlobalNamespace::MockPlayerGamePoseGenerator* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                          ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded);
 
-  /// @brief Method .ctor addr 0x23e7108 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x228bb30 size 0xc0 virtual false final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded);
 
-  /// @brief Method Dispose addr 0x23e7344 size 0x2c virtual true final false
+  /// @brief Method Dispose addr 0x228bd6c size 0x2c virtual true final false
   inline void Dispose();
 
   /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void Init(int64_t introStartTime, ::GlobalNamespace::MockBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::Action* onSongFinished);
+  inline void Init(float_t introStartTime, ::GlobalNamespace::MockBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::Action* onSongFinished);
 
   /// @brief Method Tick addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void Tick();
 
-  /// @brief Method SimulateFail addr 0x23e7438 size 0xf0 virtual true final false
+  /// @brief Method SimulateFail addr 0x228be60 size 0xf0 virtual true final false
   inline void SimulateFail();
 
-  /// @brief Method SimulateGiveUp addr 0x23e7630 size 0xf0 virtual false final false
+  /// @brief Method SimulateGiveUp addr 0x228c058 size 0xf0 virtual false final false
   inline void SimulateGiveUp();
 
-  /// @brief Method CreateEmptyLevelCompletionResults addr 0x23e7528 size 0x108 virtual false final false
+  /// @brief Method CreateEmptyLevelCompletionResults addr 0x228bf50 size 0x108 virtual false final false
   static inline ::GlobalNamespace::LevelCompletionResults* CreateEmptyLevelCompletionResults(::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType);
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerGamePoseGenerator", modifiers: "&&", def_value: None }]
@@ -156,6 +156,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerGamePoseGenerator, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGenerator, ___multiplayerSessionManager) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGenerator, ___gameplayRpcManager) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGenerator, ___leftHanded) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGenerator, ___mockNodePoseSyncStateSender) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGenerator, ___mockScoreSyncStateSender) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockPlayerGamePoseGenerator);

@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(OrderedEnumerable_2)
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System::Linq {
-template <typename TElement> class OrderedEnumerable_1;
-}
-namespace System::Linq {
 template <typename TElement> class EnumerableSorter_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Linq {
+template <typename TElement> class OrderedEnumerable_1;
 }
 // Forward declare root types
 namespace System::Linq {
@@ -31,8 +31,8 @@ namespace System::Linq {
 // cpp template
 template <typename TElement, typename TKey>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14291), inst: 1678 }), TypeDefinitionIndex(TypeDefinitionIndex(14291))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14292))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14629), inst: 1612 }), TypeDefinitionIndex(TypeDefinitionIndex(14629))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14630))
 // CS Name: ::System.Linq::OrderedEnumerable`2<TElement,TKey>*
 class CORDL_TYPE OrderedEnumerable_2 : public ::System::Linq::OrderedEnumerable_1<TElement> {
 public:

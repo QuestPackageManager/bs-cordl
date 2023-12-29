@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_TimelineOptions);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9730))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9657))
 // CS Name: ::HoudiniEngineUnity::HAPI_TimelineOptions
 struct CORDL_TYPE HAPI_TimelineOptions {
 public:
@@ -45,6 +45,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_TimelineOptions, 0xc>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_TimelineOptions, fps) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_TimelineOptions, startTime) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_TimelineOptions, endTime) == 0x8, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_TimelineOptions, "HoudiniEngineUnity", "HAPI_TimelineOptions");

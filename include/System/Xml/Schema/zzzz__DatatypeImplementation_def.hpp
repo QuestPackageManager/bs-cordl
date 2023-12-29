@@ -9,56 +9,56 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DatatypeImplementation)
-namespace System::Xml::Schema {
-class RestrictionFacets;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Xml::Schema {
-class FacetsChecker;
-}
-namespace System::Xml::Schema {
-class __DatatypeImplementation__SchemaDatatypeMap;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System::Xml {
-struct XmlTokenizedType;
-}
-namespace System {
-class Object;
-}
 namespace System::Xml {
 class XmlQualifiedName;
-}
-namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
-}
-namespace System {
-class Type;
-}
-namespace System::Xml {
-class XmlNameTable;
-}
-namespace System::Xml::Schema {
-struct XmlSchemaDatatypeVariety;
 }
 namespace System::Xml::Schema {
 class XmlValueConverter;
 }
 namespace System::Xml::Schema {
-class XmlSchemaDatatype;
+struct XmlTypeCode;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaWhiteSpace;
 }
 namespace System::Xml::Schema {
+class XmlSchemaDatatype;
+}
+namespace System {
+class Object;
+}
+namespace System::Xml::Schema {
+class XmlSchemaSimpleType;
+}
+namespace System::Xml::Schema {
+class FacetsChecker;
+}
+namespace System::Xml {
+struct XmlTokenizedType;
+}
+namespace System::Xml::Schema {
+class RestrictionFacets;
+}
+namespace System::Xml::Schema {
+class __DatatypeImplementation__SchemaDatatypeMap;
+}
+namespace System::Xml::Schema {
 class XmlSchemaType;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System {
+class Type;
+}
+namespace System::Xml::Schema {
+struct XmlSchemaDatatypeVariety;
+}
+namespace System::Xml {
+class XmlNameTable;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System {
 class IComparable;
@@ -77,8 +77,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::__DatatypeImplementation__SchemaDatatypeMa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11620))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11548))
 // CS Name: ::DatatypeImplementation::SchemaDatatypeMap*
 class CORDL_TYPE __DatatypeImplementation__SchemaDatatypeMap : public ::System::Object {
 public:
@@ -119,24 +119,24 @@ public:
 
   static inline ::System::Xml::Schema::__DatatypeImplementation__SchemaDatatypeMap* New_ctor(::StringW name, ::System::Xml::Schema::DatatypeImplementation* type);
 
-  /// @brief Method .ctor addr 0x28b475c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2737738 size 0x2c virtual false final false
   inline void _ctor(::StringW name, ::System::Xml::Schema::DatatypeImplementation* type);
 
   static inline ::System::Xml::Schema::__DatatypeImplementation__SchemaDatatypeMap* New_ctor(::StringW name, ::System::Xml::Schema::DatatypeImplementation* type, int32_t parentIndex);
 
-  /// @brief Method .ctor addr 0x28b4788 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x2737764 size 0x3c virtual false final false
   inline void _ctor(::StringW name, ::System::Xml::Schema::DatatypeImplementation* type, int32_t parentIndex);
 
-  /// @brief Method op_Explicit addr 0x28b5948 size 0x18 virtual false final false
+  /// @brief Method op_Explicit addr 0x2738924 size 0x18 virtual false final false
   static inline ::System::Xml::Schema::DatatypeImplementation* op_Explicit___System__Xml__Schema__DatatypeImplementation_(::System::Xml::Schema::__DatatypeImplementation__SchemaDatatypeMap* sdm);
 
-  /// @brief Method get_Name addr 0x28b5960 size 0x8 virtual false final false
+  /// @brief Method get_Name addr 0x273893c size 0x8 virtual false final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ParentIndex addr 0x28b5968 size 0x8 virtual false final false
+  /// @brief Method get_ParentIndex addr 0x2738944 size 0x8 virtual false final false
   inline int32_t get_ParentIndex();
 
-  /// @brief Method CompareTo addr 0x28b5970 size 0x70 virtual true final true
+  /// @brief Method CompareTo addr 0x273894c size 0x70 virtual true final true
   inline int32_t CompareTo(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DatatypeImplementation__SchemaDatatypeMap", modifiers: "&&", def_value: None }]
@@ -167,13 +167,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::__DatatypeImplementation__SchemaDatatypeMap, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::System::Xml::Schema::__DatatypeImplementation__SchemaDatatypeMap, ___name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::__DatatypeImplementation__SchemaDatatypeMap, ___type) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::__DatatypeImplementation__SchemaDatatypeMap, ___parentIndex) == 0x20, "Offset mismatch!");
+
 } // namespace System::Xml::Schema
 // Type: System.Xml.Schema::DatatypeImplementation
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11723)), TypeDefinitionIndex(TypeDefinitionIndex(11615))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11621))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11543)), TypeDefinitionIndex(TypeDefinitionIndex(11651))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11549))
 // CS Name: ::System.Xml.Schema::DatatypeImplementation*
 class CORDL_TYPE DatatypeImplementation : public ::System::Xml::Schema::XmlSchemaDatatype {
 public:
@@ -839,78 +845,78 @@ public:
 
   static inline ::ArrayW<::System::Xml::Schema::__DatatypeImplementation__SchemaDatatypeMap*, ::Array<::System::Xml::Schema::__DatatypeImplementation__SchemaDatatypeMap*>*> getStaticF_c_XsdTypes();
 
-  /// @brief Method get_AnySimpleType addr 0x28b4f90 size 0x58 virtual false final false
+  /// @brief Method get_AnySimpleType addr 0x2737f6c size 0x58 virtual false final false
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* get_AnySimpleType();
 
-  /// @brief Method get_UntypedAtomicType addr 0x28b4fe8 size 0x58 virtual false final false
+  /// @brief Method get_UntypedAtomicType addr 0x2737fc4 size 0x58 virtual false final false
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* get_UntypedAtomicType();
 
-  /// @brief Method FromXmlTokenizedType addr 0x28b5040 size 0x7c virtual false final false
+  /// @brief Method FromXmlTokenizedType addr 0x273801c size 0x7c virtual false final false
   static inline ::System::Xml::Schema::DatatypeImplementation* FromXmlTokenizedType(::System::Xml::XmlTokenizedType token);
 
-  /// @brief Method FromTypeName addr 0x28b50bc size 0xc0 virtual false final false
+  /// @brief Method FromTypeName addr 0x2738098 size 0xc0 virtual false final false
   static inline ::System::Xml::Schema::DatatypeImplementation* FromTypeName(::StringW name);
 
-  /// @brief Method StartBuiltinType addr 0x28b517c size 0xd4 virtual false final false
+  /// @brief Method StartBuiltinType addr 0x2738158 size 0xd4 virtual false final false
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* StartBuiltinType(::System::Xml::XmlQualifiedName* qname, ::System::Xml::Schema::XmlSchemaDatatype* dataType);
 
-  /// @brief Method FinishBuiltinType addr 0x28b5250 size 0x1e4 virtual false final false
+  /// @brief Method FinishBuiltinType addr 0x273822c size 0x1e4 virtual false final false
   static inline void FinishBuiltinType(::System::Xml::Schema::XmlSchemaSimpleType* derivedType, ::System::Xml::Schema::XmlSchemaSimpleType* baseType);
 
-  /// @brief Method CreateBuiltinTypes addr 0x28b47c4 size 0x7cc virtual false final false
+  /// @brief Method CreateBuiltinTypes addr 0x27377a0 size 0x7cc virtual false final false
   static inline void CreateBuiltinTypes();
 
-  /// @brief Method GetSimpleTypeFromTypeCode addr 0x28b5434 size 0x7c virtual false final false
+  /// @brief Method GetSimpleTypeFromTypeCode addr 0x2738410 size 0x7c virtual false final false
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* GetSimpleTypeFromTypeCode(::System::Xml::Schema::XmlTypeCode typeCode);
 
-  /// @brief Method DeriveByList addr 0x28b45d4 size 0x188 virtual false final false
+  /// @brief Method DeriveByList addr 0x27375b0 size 0x188 virtual false final false
   inline ::System::Xml::Schema::XmlSchemaDatatype* DeriveByList(int32_t minSize, ::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method IsEqual addr 0x28b5524 size 0x20 virtual true final false
+  /// @brief Method IsEqual addr 0x2738500 size 0x20 virtual true final false
   inline bool IsEqual(::System::Object* o1, ::System::Object* o2);
 
-  /// @brief Method CreateValueConverter addr 0x28b5544 size 0x8 virtual true final false
+  /// @brief Method CreateValueConverter addr 0x2738520 size 0x8 virtual true final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method get_FacetsChecker addr 0x28b554c size 0x58 virtual true final false
+  /// @brief Method get_FacetsChecker addr 0x2738528 size 0x58 virtual true final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_ValueConverter addr 0x28b55a4 size 0x34 virtual true final false
+  /// @brief Method get_ValueConverter addr 0x2738580 size 0x34 virtual true final false
   inline ::System::Xml::Schema::XmlValueConverter* get_ValueConverter();
 
-  /// @brief Method get_TokenizedType addr 0x28b55d8 size 0x8 virtual true final false
+  /// @brief Method get_TokenizedType addr 0x27385b4 size 0x8 virtual true final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method get_ValueType addr 0x28b55e0 size 0x6c virtual true final false
+  /// @brief Method get_ValueType addr 0x27385bc size 0x6c virtual true final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_Variety addr 0x28b564c size 0x8 virtual true final false
+  /// @brief Method get_Variety addr 0x2738628 size 0x8 virtual true final false
   inline ::System::Xml::Schema::XmlSchemaDatatypeVariety get_Variety();
 
-  /// @brief Method get_TypeCode addr 0x28b5654 size 0x8 virtual true final false
+  /// @brief Method get_TypeCode addr 0x2738630 size 0x8 virtual true final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_Restriction addr 0x28b565c size 0x8 virtual true final false
+  /// @brief Method get_Restriction addr 0x2738638 size 0x8 virtual true final false
   inline ::System::Xml::Schema::RestrictionFacets* get_Restriction();
 
   /// @brief Method get_ListValueType addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_BuiltInWhitespaceFacet addr 0x28b5664 size 0x8 virtual true final false
+  /// @brief Method get_BuiltInWhitespaceFacet addr 0x2738640 size 0x8 virtual true final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method ParseValue addr 0x28b566c size 0x1f8 virtual true final false
+  /// @brief Method ParseValue addr 0x2738648 size 0x1f8 virtual true final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method GetTypeName addr 0x28b5864 size 0x68 virtual false final false
+  /// @brief Method GetTypeName addr 0x2738840 size 0x68 virtual false final false
   inline ::StringW GetTypeName();
 
-  /// @brief Method Compare addr 0x28b58cc size 0x74 virtual false final false
+  /// @brief Method Compare addr 0x27388a8 size 0x74 virtual false final false
   inline int32_t Compare(::ArrayW<uint8_t, ::Array<uint8_t>*> value1, ::ArrayW<uint8_t, ::Array<uint8_t>*> value2);
 
   static inline ::System::Xml::Schema::DatatypeImplementation* New_ctor();
 
-  /// @brief Method .ctor addr 0x28b5940 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x273891c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DatatypeImplementation", modifiers: "&&", def_value: None }]
@@ -946,6 +952,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::DatatypeImplementation, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::DatatypeImplementation, ___variety) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::DatatypeImplementation, ___restriction) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::DatatypeImplementation, ___baseType) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::DatatypeImplementation, ___valueConverter) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::DatatypeImplementation, ___parentSchemaType) == 0x30, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::DatatypeImplementation);

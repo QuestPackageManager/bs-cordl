@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::RenderTextureCreationFlags);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10119))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10047))
 // CS Name: ::UnityEngine::RenderTextureCreationFlags
 struct CORDL_TYPE RenderTextureCreationFlags {
 public:
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::RenderTextureCreationFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::RenderTextureCreationFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RenderTextureCreationFlags, "UnityEngine", "RenderTextureCreationFlags");

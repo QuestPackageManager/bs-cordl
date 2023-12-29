@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::FFTWindow);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15588))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15608))
 // CS Name: ::UnityEngine::FFTWindow
 struct CORDL_TYPE FFTWindow {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::FFTWindow, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::FFTWindow, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::FFTWindow, "UnityEngine", "FFTWindow");

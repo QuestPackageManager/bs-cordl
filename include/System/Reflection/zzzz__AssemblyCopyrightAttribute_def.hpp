@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyCopyrightAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3447))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3442))
 // CS Name: ::System.Reflection::AssemblyCopyrightAttribute*
 class CORDL_TYPE AssemblyCopyrightAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Reflection::AssemblyCopyrightAttribute* New_ctor(::StringW copyright);
 
-  /// @brief Method .ctor addr 0x24e5ed0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x238c418 size 0x28 virtual false final false
   inline void _ctor(::StringW copyright);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyCopyrightAttribute", modifiers: "&&", def_value: None }]
@@ -56,6 +56,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::AssemblyCopyrightAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyCopyrightAttribute, ____Copyright_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace System::Reflection
 NEED_NO_BOX(::System::Reflection::AssemblyCopyrightAttribute);

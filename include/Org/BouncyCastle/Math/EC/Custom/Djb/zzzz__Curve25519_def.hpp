@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Curve25519)
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Math::EC::Custom::Djb {
 class __Curve25519__Curve25519LookupTable;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECLookupTable;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
@@ -26,7 +26,7 @@ namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
+class ECCurve;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -83,19 +83,19 @@ public:
   static inline ::Org::BouncyCastle::Math::EC::Custom::Djb::__Curve25519__Curve25519LookupTable* New_ctor(::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519* outer,
                                                                                                           ::ArrayW<uint32_t, ::Array<uint32_t>*> table, int32_t size);
 
-  /// @brief Method .ctor addr 0xfcca3c size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0xf577f0 size 0x3c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519* outer, ::ArrayW<uint32_t, ::Array<uint32_t>*> table, int32_t size);
 
-  /// @brief Method get_Size addr 0xfccf9c size 0x8 virtual true final false
+  /// @brief Method get_Size addr 0xf57d50 size 0x8 virtual true final false
   inline int32_t get_Size();
 
-  /// @brief Method Lookup addr 0xfccfa4 size 0x118 virtual true final false
+  /// @brief Method Lookup addr 0xf57d58 size 0x118 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 
-  /// @brief Method LookupVar addr 0xfcd19c size 0xc4 virtual true final false
+  /// @brief Method LookupVar addr 0xf57f50 size 0xc4 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
-  /// @brief Method CreatePoint addr 0xfcd0bc size 0xe0 virtual false final false
+  /// @brief Method CreatePoint addr 0xf57e70 size 0xe0 virtual false final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Curve25519__Curve25519LookupTable", modifiers: "&&", def_value: None }]
@@ -125,6 +125,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Custom::Djb::__Curve25519__Curve25519LookupTable, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Custom::Djb::__Curve25519__Curve25519LookupTable, ___m_outer) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Custom::Djb::__Curve25519__Curve25519LookupTable, ___m_table) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Custom::Djb::__Curve25519__Curve25519LookupTable, ___m_size) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC::Custom::Djb
 // Type: Org.BouncyCastle.Math.EC.Custom.Djb::Curve25519
@@ -186,43 +192,43 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519* New_ctor();
 
-  /// @brief Method .ctor addr 0xfcc2a8 size 0x1a0 virtual false final false
+  /// @brief Method .ctor addr 0xf5705c size 0x1a0 virtual false final false
   inline void _ctor();
 
-  /// @brief Method CloneCurve addr 0xfcc450 size 0x58 virtual true final false
+  /// @brief Method CloneCurve addr 0xf57204 size 0x58 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* CloneCurve();
 
-  /// @brief Method SupportsCoordinateSystem addr 0xfcc4a8 size 0xc virtual true final false
+  /// @brief Method SupportsCoordinateSystem addr 0xf5725c size 0xc virtual true final false
   inline bool SupportsCoordinateSystem(int32_t coord);
 
-  /// @brief Method get_Q addr 0xfcc4b4 size 0x58 virtual true final false
+  /// @brief Method get_Q addr 0xf57268 size 0x58 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_Infinity addr 0xfcc50c size 0x8 virtual true final false
+  /// @brief Method get_Infinity addr 0xf572c0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Infinity();
 
-  /// @brief Method get_FieldSize addr 0xfcc514 size 0x64 virtual true final false
+  /// @brief Method get_FieldSize addr 0xf572c8 size 0x64 virtual true final false
   inline int32_t get_FieldSize();
 
-  /// @brief Method FromBigInteger addr 0xfcc578 size 0x60 virtual true final false
+  /// @brief Method FromBigInteger addr 0xf5732c size 0x60 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method CreateRawPoint addr 0xfcc6f0 size 0x88 virtual true final false
+  /// @brief Method CreateRawPoint addr 0xf574a4 size 0x88 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method CreateRawPoint addr 0xfcc800 size 0x90 virtual true final false
+  /// @brief Method CreateRawPoint addr 0xf575b4 size 0x90 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                                                                 ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
                                                                 bool withCompression);
 
-  /// @brief Method CreateCacheSafeLookupTable addr 0xfcc898 size 0x1a4 virtual true final false
+  /// @brief Method CreateCacheSafeLookupTable addr 0xf5764c size 0x1a4 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> points,
                                                                                   int32_t off, int32_t len);
 
-  /// @brief Method RandomFieldElement addr 0xfcca78 size 0xa4 virtual true final false
+  /// @brief Method RandomFieldElement addr 0xf5782c size 0xa4 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElement(::Org::BouncyCastle::Security::SecureRandom* r);
 
-  /// @brief Method RandomFieldElementMult addr 0xfccc3c size 0xa4 virtual true final false
+  /// @brief Method RandomFieldElementMult addr 0xf579f0 size 0xa4 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r);
 
   // Ctor Parameters [CppParam { name: "", ty: "Curve25519", modifiers: "&&", def_value: None }]
@@ -252,6 +258,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519, ___m_infinity) == 0x50, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC::Custom::Djb
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519);

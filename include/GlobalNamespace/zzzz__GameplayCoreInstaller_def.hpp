@@ -5,43 +5,37 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(GameplayCoreInstaller)
 namespace GlobalNamespace {
-class BeatLineManager;
-}
-namespace GlobalNamespace {
-class EffectPoolsManualInstaller;
-}
-namespace GlobalNamespace {
 class PerceivedLoudnessPerLevelModel;
 }
 namespace GlobalNamespace {
 class RelativeSfxVolumePerLevelModel;
 }
 namespace GlobalNamespace {
-class AudioManagerSO;
-}
-namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
-}
-namespace Tweening {
-class SongTimeTweeningManager;
-}
-namespace GlobalNamespace {
-class SongProfilingController;
-}
-namespace GlobalNamespace {
-class BadNoteCutEffectSpawner;
-}
-namespace GlobalNamespace {
-class MissedNoteEffectSpawner;
+class BeatLineManager;
 }
 namespace GlobalNamespace {
 class NoteCutScoreSpawner;
 }
 namespace GlobalNamespace {
+class BadNoteCutEffectSpawner;
+}
+namespace Tweening {
+class SongTimeTweeningManager;
+}
+namespace GlobalNamespace {
+class AudioManagerSO;
+}
+namespace GlobalNamespace {
+class EffectPoolsManualInstaller;
+}
+namespace GlobalNamespace {
+class GameplayCoreSceneSetupData;
+}
+namespace GlobalNamespace {
 class PlayerHeightDetector;
 }
 namespace GlobalNamespace {
-class SongAutopilot;
+class MissedNoteEffectSpawner;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,11 +44,11 @@ class GameplayCoreInstaller;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameplayCoreInstaller);
 // Type: ::GameplayCoreInstaller
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5393))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5484))
 // CS Name: ::GameplayCoreInstaller*
 class CORDL_TYPE GameplayCoreInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -83,19 +77,13 @@ public:
   /// @brief Field _effectPoolsManualInstaller, offset 0x58, size 0x8
   __declspec(property(get = __get__effectPoolsManualInstaller, put = __set__effectPoolsManualInstaller))::GlobalNamespace::EffectPoolsManualInstaller* _effectPoolsManualInstaller;
 
-  /// @brief Field songAutopilotPrefab, offset 0x60, size 0x8
-  __declspec(property(get = __get_songAutopilotPrefab, put = __set_songAutopilotPrefab))::GlobalNamespace::SongAutopilot* songAutopilotPrefab;
-
-  /// @brief Field _songProfilingControllerPrefab, offset 0x68, size 0x8
-  __declspec(property(get = __get__songProfilingControllerPrefab, put = __set__songProfilingControllerPrefab))::GlobalNamespace::SongProfilingController* _songProfilingControllerPrefab;
-
-  /// @brief Field _sceneSetupData, offset 0x70, size 0x8
+  /// @brief Field _sceneSetupData, offset 0x60, size 0x8
   __declspec(property(get = __get__sceneSetupData, put = __set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  /// @brief Field _perceivedLoudnessPerLevelModel, offset 0x78, size 0x8
+  /// @brief Field _perceivedLoudnessPerLevelModel, offset 0x68, size 0x8
   __declspec(property(get = __get__perceivedLoudnessPerLevelModel, put = __set__perceivedLoudnessPerLevelModel))::GlobalNamespace::PerceivedLoudnessPerLevelModel* _perceivedLoudnessPerLevelModel;
 
-  /// @brief Field _relativeSfxVolumePerLevelModel, offset 0x80, size 0x8
+  /// @brief Field _relativeSfxVolumePerLevelModel, offset 0x70, size 0x8
   __declspec(property(get = __get__relativeSfxVolumePerLevelModel, put = __set__relativeSfxVolumePerLevelModel))::GlobalNamespace::RelativeSfxVolumePerLevelModel* _relativeSfxVolumePerLevelModel;
 
   constexpr ::GlobalNamespace::BeatLineManager*& __get__beatLineManagerPrefab();
@@ -146,18 +134,6 @@ public:
 
   constexpr void __set__effectPoolsManualInstaller(::GlobalNamespace::EffectPoolsManualInstaller* value);
 
-  constexpr ::GlobalNamespace::SongAutopilot*& __get_songAutopilotPrefab();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongAutopilot*> const& __get_songAutopilotPrefab() const;
-
-  constexpr void __set_songAutopilotPrefab(::GlobalNamespace::SongAutopilot* value);
-
-  constexpr ::GlobalNamespace::SongProfilingController*& __get__songProfilingControllerPrefab();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongProfilingController*> const& __get__songProfilingControllerPrefab() const;
-
-  constexpr void __set__songProfilingControllerPrefab(::GlobalNamespace::SongProfilingController* value);
-
   constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __get__sceneSetupData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __get__sceneSetupData() const;
@@ -176,15 +152,12 @@ public:
 
   constexpr void __set__relativeSfxVolumePerLevelModel(::GlobalNamespace::RelativeSfxVolumePerLevelModel* value);
 
-  /// @brief Method InstallBindings addr 0x226ff3c size 0x1b30 virtual true final false
+  /// @brief Method InstallBindings addr 0x212a93c size 0x1b28 virtual true final false
   inline void InstallBindings();
-
-  /// @brief Method InstallRecordingTool addr 0x2271a6c size 0x124 virtual false final false
-  inline void InstallRecordingTool();
 
   static inline ::GlobalNamespace::GameplayCoreInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x2271b90 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x212c464 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayCoreInstaller", modifiers: "&&", def_value: None }]
@@ -225,25 +198,41 @@ public:
   /// @brief Field _effectPoolsManualInstaller, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::EffectPoolsManualInstaller* ____effectPoolsManualInstaller;
 
-  /// @brief Field songAutopilotPrefab, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::SongAutopilot* ___songAutopilotPrefab;
-
-  /// @brief Field _songProfilingControllerPrefab, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::SongProfilingController* ____songProfilingControllerPrefab;
-
-  /// @brief Field _sceneSetupData, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _sceneSetupData, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 
-  /// @brief Field _perceivedLoudnessPerLevelModel, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _perceivedLoudnessPerLevelModel, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::PerceivedLoudnessPerLevelModel* ____perceivedLoudnessPerLevelModel;
 
-  /// @brief Field _relativeSfxVolumePerLevelModel, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _relativeSfxVolumePerLevelModel, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::RelativeSfxVolumePerLevelModel* ____relativeSfxVolumePerLevelModel;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayCoreInstaller, 0x88>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayCoreInstaller, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____beatLineManagerPrefab) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____songTimeTweeningManager) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____audioManager) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____playerHeightDetectorPrefab) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____noteCutScoreSpawnerPrefab) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____badNoteCutEffectSpawnerPrefab) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____missedNoteEffectSpawnerPrefab) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____effectPoolsManualInstaller) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____sceneSetupData) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____perceivedLoudnessPerLevelModel) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____relativeSfxVolumePerLevelModel) == 0x70, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameplayCoreInstaller);

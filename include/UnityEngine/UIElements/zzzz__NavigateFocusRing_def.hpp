@@ -9,16 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NavigateFocusRing)
 namespace UnityEngine::UIElements {
-class VisualElement;
+class Focusable;
 }
 namespace UnityEngine::UIElements {
-class __NavigateFocusRing__ChangeDirection;
-}
-namespace UnityEngine::UIElements {
-class IFocusRing;
-}
-namespace UnityEngine::UIElements {
-class FocusController;
+struct __NavigateFocusRing__FocusableHierarchyTraversal;
 }
 namespace UnityEngine::UIElements {
 class FocusChangeDirection;
@@ -27,13 +21,19 @@ namespace UnityEngine::UIElements {
 class VisualElementFocusRing;
 }
 namespace UnityEngine::UIElements {
+class FocusController;
+}
+namespace UnityEngine::UIElements {
+class IFocusRing;
+}
+namespace UnityEngine::UIElements {
+class __NavigateFocusRing__ChangeDirection;
+}
+namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class Focusable;
-}
-namespace UnityEngine::UIElements {
-struct __NavigateFocusRing__FocusableHierarchyTraversal;
+class VisualElement;
 }
 namespace UnityEngine {
 struct Rect;
@@ -56,15 +56,15 @@ MARK_VAL_T(::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTra
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6881))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7020))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6967))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7106))
 // CS Name: ::NavigateFocusRing::ChangeDirection*
 class CORDL_TYPE __NavigateFocusRing__ChangeDirection : public ::UnityEngine::UIElements::FocusChangeDirection {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__NavigateFocusRing__ChangeDirection* New_ctor(int32_t i);
 
-  /// @brief Method .ctor addr 0x2e18640 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x2cb2290 size 0x68 virtual false final false
   inline void _ctor(int32_t i);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NavigateFocusRing__ChangeDirection", modifiers: "&&", def_value: None }]
@@ -91,31 +91,31 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Navig
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7021))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10093))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7107))
 // CS Name: ::NavigateFocusRing::FocusableHierarchyTraversal
 struct CORDL_TYPE __NavigateFocusRing__FocusableHierarchyTraversal {
 public:
   // Declarations
-  /// @brief Method ValidateHierarchyTraversal addr 0x2e186a8 size 0xb0 virtual false final false
+  /// @brief Method ValidateHierarchyTraversal addr 0x2cb22f8 size 0xb0 virtual false final false
   inline bool ValidateHierarchyTraversal(::UnityEngine::UIElements::VisualElement* v);
 
-  /// @brief Method ValidateElement addr 0x2e18758 size 0xc4 virtual false final false
+  /// @brief Method ValidateElement addr 0x2cb23a8 size 0xc4 virtual false final false
   inline bool ValidateElement(::UnityEngine::UIElements::VisualElement* v);
 
-  /// @brief Method Order addr 0x2e1881c size 0xec virtual false final false
+  /// @brief Method Order addr 0x2cb246c size 0xec virtual false final false
   inline int32_t Order(::UnityEngine::UIElements::VisualElement* a, ::UnityEngine::UIElements::VisualElement* b);
 
-  /// @brief Method StrictOrder addr 0x2e18c30 size 0x84 virtual false final false
+  /// @brief Method StrictOrder addr 0x2cb2880 size 0x84 virtual false final false
   inline int32_t StrictOrder(::UnityEngine::UIElements::VisualElement* a, ::UnityEngine::UIElements::VisualElement* b);
 
-  /// @brief Method StrictOrder addr 0x2e18908 size 0x1f4 virtual false final false
+  /// @brief Method StrictOrder addr 0x2cb2558 size 0x1f4 virtual false final false
   inline int32_t StrictOrder(::UnityEngine::Rect ra, ::UnityEngine::Rect rb);
 
-  /// @brief Method TieBreaker addr 0x2e18afc size 0x134 virtual false final false
+  /// @brief Method TieBreaker addr 0x2cb274c size 0x134 virtual false final false
   inline int32_t TieBreaker(::UnityEngine::Rect ra, ::UnityEngine::Rect rb);
 
-  /// @brief Method GetBestOverall addr 0x2e18064 size 0x13c virtual false final false
+  /// @brief Method GetBestOverall addr 0x2cb1cb4 size 0x13c virtual false final false
   inline ::UnityEngine::UIElements::VisualElement* GetBestOverall(::UnityEngine::UIElements::VisualElement* candidate, ::UnityEngine::UIElements::VisualElement* bestSoFar);
 
   // Ctor Parameters [CppParam { name: "currentFocusable", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "validRect", ty: "::UnityEngine::Rect",
@@ -148,13 +148,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal, currentFocusable) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal, validRect) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal, firstPass) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal, direction) == 0x20, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::NavigateFocusRing
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7022))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7108))
 // CS Name: ::UnityEngine.UIElements::NavigateFocusRing*
 class CORDL_TYPE NavigateFocusRing : public ::System::Object {
 public:
@@ -228,42 +236,42 @@ public:
 
   static inline ::UnityEngine::UIElements::__NavigateFocusRing__ChangeDirection* getStaticF_Previous();
 
-  /// @brief Method get_focusController addr 0x2e1733c size 0x24 virtual false final false
+  /// @brief Method get_focusController addr 0x2cb0f8c size 0x24 virtual false final false
   inline ::UnityEngine::UIElements::FocusController* get_focusController();
 
   static inline ::UnityEngine::UIElements::NavigateFocusRing* New_ctor(::UnityEngine::UIElements::VisualElement* root);
 
-  /// @brief Method .ctor addr 0x2e16824 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x2cb0474 size 0x84 virtual false final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* root);
 
-  /// @brief Method GetFocusChangeDirection addr 0x2e17360 size 0x438 virtual true final true
+  /// @brief Method GetFocusChangeDirection addr 0x2cb0fb0 size 0x438 virtual true final true
   inline ::UnityEngine::UIElements::FocusChangeDirection* GetFocusChangeDirection(::UnityEngine::UIElements::Focusable* currentFocusable, ::UnityEngine::UIElements::EventBase* e);
 
-  /// @brief Method GetNextFocusable addr 0x2e17798 size 0x2b4 virtual true final false
+  /// @brief Method GetNextFocusable addr 0x2cb13e8 size 0x2b4 virtual true final false
   inline ::UnityEngine::UIElements::Focusable* GetNextFocusable(::UnityEngine::UIElements::Focusable* currentFocusable, ::UnityEngine::UIElements::FocusChangeDirection* direction);
 
-  /// @brief Method GetNextFocusable2D addr 0x2e17a4c size 0x590 virtual false final false
+  /// @brief Method GetNextFocusable2D addr 0x2cb169c size 0x590 virtual false final false
   inline ::UnityEngine::UIElements::Focusable* GetNextFocusable2D(::UnityEngine::UIElements::Focusable* currentFocusable, ::UnityEngine::UIElements::__NavigateFocusRing__ChangeDirection* direction);
 
-  /// @brief Method IsActive addr 0x2e18200 size 0xd8 virtual false final false
+  /// @brief Method IsActive addr 0x2cb1e50 size 0xd8 virtual false final false
   static inline bool IsActive(::UnityEngine::UIElements::VisualElement* v);
 
-  /// @brief Method IsFocusable addr 0x2e182d8 size 0x40 virtual false final false
+  /// @brief Method IsFocusable addr 0x2cb1f28 size 0x40 virtual false final false
   static inline bool IsFocusable(::UnityEngine::UIElements::Focusable* focusable);
 
-  /// @brief Method IsLeaf addr 0x2e18318 size 0x40 virtual false final false
+  /// @brief Method IsLeaf addr 0x2cb1f68 size 0x40 virtual false final false
   static inline bool IsLeaf(::UnityEngine::UIElements::Focusable* focusable);
 
-  /// @brief Method IsFocusRoot addr 0x2e18358 size 0xb0 virtual false final false
+  /// @brief Method IsFocusRoot addr 0x2cb1fa8 size 0xb0 virtual false final false
   static inline bool IsFocusRoot(::UnityEngine::UIElements::VisualElement* focusable);
 
-  /// @brief Method GetLeafFocusable addr 0x2e181a0 size 0x60 virtual false final false
+  /// @brief Method GetLeafFocusable addr 0x2cb1df0 size 0x60 virtual false final false
   static inline ::UnityEngine::UIElements::VisualElement* GetLeafFocusable(::UnityEngine::UIElements::VisualElement* v);
 
-  /// @brief Method GetLeafFocusableRecursive addr 0x2e18408 size 0x10c virtual false final false
+  /// @brief Method GetLeafFocusableRecursive addr 0x2cb2058 size 0x10c virtual false final false
   static inline ::UnityEngine::UIElements::VisualElement* GetLeafFocusableRecursive(::UnityEngine::UIElements::VisualElement* v);
 
-  /// @brief Method GetRootFocusable addr 0x2e17fdc size 0x88 virtual false final false
+  /// @brief Method GetRootFocusable addr 0x2cb1c2c size 0x88 virtual false final false
   static inline ::UnityEngine::UIElements::VisualElement* GetRootFocusable(::UnityEngine::UIElements::VisualElement* v);
 
   // Ctor Parameters [CppParam { name: "", ty: "NavigateFocusRing", modifiers: "&&", def_value: None }]
@@ -290,6 +298,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::NavigateFocusRing, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::NavigateFocusRing, ___m_Root) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::NavigateFocusRing, ___m_Ring) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::NavigateFocusRing);

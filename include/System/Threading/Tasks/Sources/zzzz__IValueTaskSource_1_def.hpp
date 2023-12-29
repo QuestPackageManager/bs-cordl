@@ -8,13 +8,13 @@ namespace System {
 class Object;
 }
 namespace System::Threading::Tasks::Sources {
-struct ValueTaskSourceStatus;
-}
-namespace System::Threading::Tasks::Sources {
 struct ValueTaskSourceOnCompletedFlags;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System::Threading::Tasks::Sources {
+struct ValueTaskSourceStatus;
 }
 // Forward declare root types
 namespace System::Threading::Tasks::Sources {
@@ -29,7 +29,7 @@ namespace System::Threading::Tasks::Sources {
 template <typename TResult>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2824))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2820))
 // CS Name: ::System.Threading.Tasks.Sources::IValueTaskSource`1<TResult>*
 class CORDL_TYPE IValueTaskSource_1 {
 public:

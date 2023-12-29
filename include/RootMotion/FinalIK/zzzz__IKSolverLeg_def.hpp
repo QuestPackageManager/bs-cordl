@@ -14,16 +14,16 @@ namespace RootMotion::FinalIK {
 class __IKSolver__Point;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
-namespace RootMotion::FinalIK {
-class __IKSolverVR__Leg;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace RootMotion::FinalIK {
+class __IKSolverVR__Leg;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverLeg);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12564)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12575))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(12492))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12503))
 // CS Name: ::RootMotion.FinalIK::IKSolverLeg*
 class CORDL_TYPE IKSolverLeg : public ::RootMotion::FinalIK::IKSolver {
 public:
@@ -140,43 +140,43 @@ public:
 
   constexpr void __set_rotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
 
-  /// @brief Method IsValid addr 0x126a8b8 size 0x35c virtual true final false
+  /// @brief Method IsValid addr 0x11fa58c size 0x35c virtual true final false
   inline bool IsValid(ByRef<::StringW> message);
 
-  /// @brief Method SetChain addr 0x126ac14 size 0x64 virtual false final false
+  /// @brief Method SetChain addr 0x11fa8e8 size 0x64 virtual false final false
   inline bool SetChain(::UnityEngine::Transform* pelvis, ::UnityEngine::Transform* thigh, ::UnityEngine::Transform* calf, ::UnityEngine::Transform* foot, ::UnityEngine::Transform* toe,
                        ::UnityEngine::Transform* root);
 
-  /// @brief Method GetPoints addr 0x126ac78 size 0x144 virtual true final false
+  /// @brief Method GetPoints addr 0x11fa94c size 0x144 virtual true final false
   inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
 
-  /// @brief Method GetPoint addr 0x126adbc size 0x160 virtual true final false
+  /// @brief Method GetPoint addr 0x11faa90 size 0x160 virtual true final false
   inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
 
-  /// @brief Method StoreDefaultLocalState addr 0x126af1c size 0x50 virtual true final false
+  /// @brief Method StoreDefaultLocalState addr 0x11fabf0 size 0x50 virtual true final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method FixTransforms addr 0x126af6c size 0x60 virtual true final false
+  /// @brief Method FixTransforms addr 0x11fac40 size 0x60 virtual true final false
   inline void FixTransforms();
 
-  /// @brief Method OnInitiate addr 0x126afcc size 0x58 virtual true final false
+  /// @brief Method OnInitiate addr 0x11faca0 size 0x58 virtual true final false
   inline void OnInitiate();
 
-  /// @brief Method OnUpdate addr 0x126b328 size 0x20 virtual true final false
+  /// @brief Method OnUpdate addr 0x11faffc size 0x20 virtual true final false
   inline void OnUpdate();
 
-  /// @brief Method Solve addr 0x126b348 size 0x84 virtual false final false
+  /// @brief Method Solve addr 0x11fb01c size 0x84 virtual false final false
   inline void Solve();
 
-  /// @brief Method Read addr 0x126b024 size 0x304 virtual false final false
+  /// @brief Method Read addr 0x11facf8 size 0x304 virtual false final false
   inline void Read();
 
-  /// @brief Method Write addr 0x126b3cc size 0x178 virtual false final false
+  /// @brief Method Write addr 0x11fb0a0 size 0x178 virtual false final false
   inline void Write();
 
   static inline ::RootMotion::FinalIK::IKSolverLeg* New_ctor();
 
-  /// @brief Method .ctor addr 0x126b7ac size 0x194 virtual false final false
+  /// @brief Method .ctor addr 0x11fb480 size 0x194 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverLeg", modifiers: "&&", def_value: None }]
@@ -230,6 +230,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::IKSolverLeg, 0xc0>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverLeg, ___IKRotationWeight) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverLeg, ___IKRotation) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverLeg, ___pelvis) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverLeg, ___thigh) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverLeg, ___calf) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverLeg, ___foot) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverLeg, ___toe) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverLeg, ___leg) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverLeg, ___heelOffset) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverLeg, ___positions) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKSolverLeg, ___rotations) == 0xb8, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::IKSolverLeg);

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(OVRCompositionUtil)
-namespace GlobalNamespace {
-struct __OVRBoundary__BoundaryType;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 class Mesh;
+}
+namespace GlobalNamespace {
+struct __OVRBoundary__BoundaryType;
 }
 namespace UnityEngine {
 class GameObject;
@@ -31,33 +31,33 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRCompositionUtil);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7505))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8426))
 // CS Name: ::OVRCompositionUtil*
 class CORDL_TYPE OVRCompositionUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SafeDestroy addr 0x270d240 size 0x78 virtual false final false
+  /// @brief Method SafeDestroy addr 0x25b9e20 size 0x78 virtual false final false
   static inline void SafeDestroy(::UnityEngine::GameObject* obj);
 
-  /// @brief Method SafeDestroy addr 0x270d2b8 size 0x74 virtual false final false
+  /// @brief Method SafeDestroy addr 0x25b9e98 size 0x74 virtual false final false
   static inline void SafeDestroy(ByRef<::UnityEngine::GameObject*> obj);
 
-  /// @brief Method GetWorldPosition addr 0x270d32c size 0x3c virtual false final false
+  /// @brief Method GetWorldPosition addr 0x25b9f0c size 0x3c virtual false final false
   static inline ::UnityEngine::Vector3 GetWorldPosition(::UnityEngine::Vector3 trackingSpacePosition);
 
-  /// @brief Method GetWorldPosition addr 0x270d368 size 0x94 virtual false final false
+  /// @brief Method GetWorldPosition addr 0x25b9f48 size 0x94 virtual false final false
   static inline ::UnityEngine::Vector3 GetWorldPosition(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 trackingSpacePosition);
 
-  /// @brief Method GetMaximumBoundaryDistance addr 0x270d3fc size 0x1c0 virtual false final false
+  /// @brief Method GetMaximumBoundaryDistance addr 0x25b9fdc size 0x1c0 virtual false final false
   static inline float_t GetMaximumBoundaryDistance(::UnityEngine::Camera* camera, ::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
 
-  /// @brief Method BuildBoundaryMesh addr 0x270da90 size 0x480 virtual false final false
+  /// @brief Method BuildBoundaryMesh addr 0x25ba670 size 0x480 virtual false final false
   static inline ::UnityEngine::Mesh* BuildBoundaryMesh(::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType, float_t topY, float_t bottomY);
 
   static inline ::GlobalNamespace::OVRCompositionUtil* New_ctor();
 
-  /// @brief Method .ctor addr 0x270df10 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x25baaf0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRCompositionUtil", modifiers: "&&", def_value: None }]

@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CrlStoreSelector)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class ICollection;
+}
+namespace Org::BouncyCastle::X509 {
+class IX509AttributeCertificate;
 }
 namespace Org::BouncyCastle::X509::Store {
 class IX509Selector;
 }
-namespace System {
-class ICloneable;
+namespace Org::BouncyCastle::Utilities::Date {
+class DateTimeObject;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Utilities::Date {
-class DateTimeObject;
+namespace System {
+class Object;
 }
-namespace Org::BouncyCastle::X509 {
-class IX509AttributeCertificate;
+namespace System {
+class ICloneable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1850))
 // CS Name: ::Org.BouncyCastle.X509.Store::X509CrlStoreSelector*
 class CORDL_TYPE X509CrlStoreSelector : public ::System::Object {
@@ -175,84 +175,84 @@ public:
 
   static inline ::Org::BouncyCastle::X509::Store::X509CrlStoreSelector* New_ctor();
 
-  /// @brief Method .ctor addr 0x1171d28 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1101ae0 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::X509::Store::X509CrlStoreSelector* New_ctor(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector* o);
 
-  /// @brief Method .ctor addr 0x1171d30 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x1101ae8 size 0x7c virtual false final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector* o);
 
-  /// @brief Method Clone addr 0x1171e5c size 0x60 virtual true final false
+  /// @brief Method Clone addr 0x1101c14 size 0x60 virtual true final false
   inline ::System::Object* Clone();
 
-  /// @brief Method get_CertificateChecking addr 0x1171ebc size 0x8 virtual false final false
+  /// @brief Method get_CertificateChecking addr 0x1101c74 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::X509::X509Certificate* get_CertificateChecking();
 
-  /// @brief Method set_CertificateChecking addr 0x1171ec4 size 0x8 virtual false final false
+  /// @brief Method set_CertificateChecking addr 0x1101c7c size 0x8 virtual false final false
   inline void set_CertificateChecking(::Org::BouncyCastle::X509::X509Certificate* value);
 
-  /// @brief Method get_DateAndTime addr 0x1171ecc size 0x8 virtual false final false
+  /// @brief Method get_DateAndTime addr 0x1101c84 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_DateAndTime();
 
-  /// @brief Method set_DateAndTime addr 0x1171ed4 size 0x8 virtual false final false
+  /// @brief Method set_DateAndTime addr 0x1101c8c size 0x8 virtual false final false
   inline void set_DateAndTime(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  /// @brief Method get_Issuers addr 0x1171dac size 0x58 virtual false final false
+  /// @brief Method get_Issuers addr 0x1101b64 size 0x58 virtual false final false
   inline ::System::Collections::ICollection* get_Issuers();
 
-  /// @brief Method set_Issuers addr 0x1171edc size 0x68 virtual false final false
+  /// @brief Method set_Issuers addr 0x1101c94 size 0x68 virtual false final false
   inline void set_Issuers(::System::Collections::ICollection* value);
 
-  /// @brief Method get_MaxCrlNumber addr 0x1171f44 size 0x8 virtual false final false
+  /// @brief Method get_MaxCrlNumber addr 0x1101cfc size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_MaxCrlNumber();
 
-  /// @brief Method set_MaxCrlNumber addr 0x1171f4c size 0x8 virtual false final false
+  /// @brief Method set_MaxCrlNumber addr 0x1101d04 size 0x8 virtual false final false
   inline void set_MaxCrlNumber(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method get_MinCrlNumber addr 0x1171f54 size 0x8 virtual false final false
+  /// @brief Method get_MinCrlNumber addr 0x1101d0c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_MinCrlNumber();
 
-  /// @brief Method set_MinCrlNumber addr 0x1171f5c size 0x8 virtual false final false
+  /// @brief Method set_MinCrlNumber addr 0x1101d14 size 0x8 virtual false final false
   inline void set_MinCrlNumber(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method get_AttrCertChecking addr 0x1171f64 size 0x8 virtual false final false
+  /// @brief Method get_AttrCertChecking addr 0x1101d1c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* get_AttrCertChecking();
 
-  /// @brief Method set_AttrCertChecking addr 0x1171f6c size 0x8 virtual false final false
+  /// @brief Method set_AttrCertChecking addr 0x1101d24 size 0x8 virtual false final false
   inline void set_AttrCertChecking(::Org::BouncyCastle::X509::IX509AttributeCertificate* value);
 
-  /// @brief Method get_CompleteCrlEnabled addr 0x1171f74 size 0x8 virtual false final false
+  /// @brief Method get_CompleteCrlEnabled addr 0x1101d2c size 0x8 virtual false final false
   inline bool get_CompleteCrlEnabled();
 
-  /// @brief Method set_CompleteCrlEnabled addr 0x1171f7c size 0xc virtual false final false
+  /// @brief Method set_CompleteCrlEnabled addr 0x1101d34 size 0xc virtual false final false
   inline void set_CompleteCrlEnabled(bool value);
 
-  /// @brief Method get_DeltaCrlIndicatorEnabled addr 0x1171f88 size 0x8 virtual false final false
+  /// @brief Method get_DeltaCrlIndicatorEnabled addr 0x1101d40 size 0x8 virtual false final false
   inline bool get_DeltaCrlIndicatorEnabled();
 
-  /// @brief Method set_DeltaCrlIndicatorEnabled addr 0x1171f90 size 0xc virtual false final false
+  /// @brief Method set_DeltaCrlIndicatorEnabled addr 0x1101d48 size 0xc virtual false final false
   inline void set_DeltaCrlIndicatorEnabled(bool value);
 
-  /// @brief Method get_IssuingDistributionPoint addr 0x1171e04 size 0x58 virtual false final false
+  /// @brief Method get_IssuingDistributionPoint addr 0x1101bbc size 0x58 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_IssuingDistributionPoint();
 
-  /// @brief Method set_IssuingDistributionPoint addr 0x1171f9c size 0x68 virtual false final false
+  /// @brief Method set_IssuingDistributionPoint addr 0x1101d54 size 0x68 virtual false final false
   inline void set_IssuingDistributionPoint(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_IssuingDistributionPointEnabled addr 0x1172004 size 0x8 virtual false final false
+  /// @brief Method get_IssuingDistributionPointEnabled addr 0x1101dbc size 0x8 virtual false final false
   inline bool get_IssuingDistributionPointEnabled();
 
-  /// @brief Method set_IssuingDistributionPointEnabled addr 0x117200c size 0xc virtual false final false
+  /// @brief Method set_IssuingDistributionPointEnabled addr 0x1101dc4 size 0xc virtual false final false
   inline void set_IssuingDistributionPointEnabled(bool value);
 
-  /// @brief Method get_MaxBaseCrlNumber addr 0x1172018 size 0x8 virtual false final false
+  /// @brief Method get_MaxBaseCrlNumber addr 0x1101dd0 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_MaxBaseCrlNumber();
 
-  /// @brief Method set_MaxBaseCrlNumber addr 0x1172020 size 0x8 virtual false final false
+  /// @brief Method set_MaxBaseCrlNumber addr 0x1101dd8 size 0x8 virtual false final false
   inline void set_MaxBaseCrlNumber(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method Match addr 0x1172028 size 0x6d0 virtual true final false
+  /// @brief Method Match addr 0x1101de0 size 0x6d0 virtual true final false
   inline bool Match(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CrlStoreSelector", modifiers: "&&", def_value: None }]
@@ -306,6 +306,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::Store::X509CrlStoreSelector, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector, ___certificateChecking) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector, ___dateAndTime) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector, ___issuers) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector, ___maxCrlNumber) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector, ___minCrlNumber) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector, ___attrCertChecking) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector, ___completeCrlEnabled) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector, ___deltaCrlIndicatorEnabled) == 0x41, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector, ___issuingDistributionPoint) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector, ___issuingDistributionPointEnabled) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector, ___maxBaseCrlNumber) == 0x58, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::X509::Store
 NEED_NO_BOX(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector);

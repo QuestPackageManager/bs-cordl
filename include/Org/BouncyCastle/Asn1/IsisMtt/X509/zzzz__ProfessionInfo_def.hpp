@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ProfessionInfo)
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
+}
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
 class NamingAuthority;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1::X500 {
+class DirectoryString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::X500 {
-class DirectoryString;
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
@@ -227,12 +227,12 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_Patentanwalt();
 
-  /// @brief Method GetInstance addr 0xf776f4 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xf014d0 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf79c54 size 0x8b0 virtual false final false
+  /// @brief Method .ctor addr 0xf03a30 size 0x8b0 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*
@@ -241,28 +241,28 @@ public:
            ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Array<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>*> professionOids, ::StringW registrationNumber,
            ::Org::BouncyCastle::Asn1::Asn1OctetString* addProfessionInfo);
 
-  /// @brief Method .ctor addr 0xf7a504 size 0xc8 virtual false final false
+  /// @brief Method .ctor addr 0xf042e0 size 0xc8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* namingAuthority,
                     ::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Array<::Org::BouncyCastle::Asn1::X500::DirectoryString*>*> professionItems,
                     ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Array<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>*> professionOids, ::StringW registrationNumber,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* addProfessionInfo);
 
-  /// @brief Method ToAsn1Object addr 0xf7a5cc size 0x1c8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf043a8 size 0x1c8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method get_AddProfessionInfo addr 0xf7a794 size 0x8 virtual true final false
+  /// @brief Method get_AddProfessionInfo addr 0xf04570 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_AddProfessionInfo();
 
-  /// @brief Method get_NamingAuthority addr 0xf7a79c size 0x8 virtual true final false
+  /// @brief Method get_NamingAuthority addr 0xf04578 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* get_NamingAuthority();
 
-  /// @brief Method GetProfessionItems addr 0xf7a7a4 size 0x114 virtual true final false
+  /// @brief Method GetProfessionItems addr 0xf04580 size 0x114 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Array<::Org::BouncyCastle::Asn1::X500::DirectoryString*>*> GetProfessionItems();
 
-  /// @brief Method GetProfessionOids addr 0xf7a8b8 size 0x168 virtual true final false
+  /// @brief Method GetProfessionOids addr 0xf04694 size 0x168 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Array<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>*> GetProfessionOids();
 
-  /// @brief Method get_RegistrationNumber addr 0xf7aa20 size 0x8 virtual true final false
+  /// @brief Method get_RegistrationNumber addr 0xf047fc size 0x8 virtual true final false
   inline ::StringW get_RegistrationNumber();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProfessionInfo", modifiers: "&&", def_value: None }]
@@ -298,6 +298,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo, ___namingAuthority) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo, ___professionItems) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo, ___professionOids) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo, ___registrationNumber) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo, ___addProfessionInfo) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::IsisMtt::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo);

@@ -16,7 +16,7 @@ MARK_VAL_T(::LIV::SDK::Unity::RENDERING_PIPELINE);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15107))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15211))
 // CS Name: ::LIV.SDK.Unity::RENDERING_PIPELINE
 struct CORDL_TYPE RENDERING_PIPELINE {
 public:
@@ -30,7 +30,7 @@ public:
     __E_DEFERRED = static_cast<uint32_t>(0x5040302u),
     __E_VERTEX_LIT = static_cast<uint32_t>(0x50403u),
     __E_UNIVERSAL = static_cast<uint32_t>(0x2000504u),
-    __E_HIGH_DEFINITION = static_cast<uint32_t>(0x20005u),
+    __E_HIGH_DEFINITION = static_cast<uint32_t>(0x4020005u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -66,13 +66,15 @@ public:
   /// @brief Field UNIVERSAL value: static_cast<uint32_t>(0x2000504u)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const UNIVERSAL;
 
-  /// @brief Field HIGH_DEFINITION value: static_cast<uint32_t>(0x20005u)
+  /// @brief Field HIGH_DEFINITION value: static_cast<uint32_t>(0x4020005u)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const HIGH_DEFINITION;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::RENDERING_PIPELINE, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::RENDERING_PIPELINE, value__) == 0x0, "Offset mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::RENDERING_PIPELINE, "LIV.SDK.Unity", "RENDERING_PIPELINE");

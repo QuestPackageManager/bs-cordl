@@ -7,11 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLevelCompletionResults)
-namespace GlobalNamespace {
-class LevelCompletionResults;
-}
 namespace System {
-class IComparable;
+class Object;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class INetImmutableSerializable_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace GlobalNamespace {
 struct __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState;
@@ -20,16 +23,13 @@ namespace GlobalNamespace {
 struct __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
-}
-namespace System {
-class Object;
-}
-namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
+namespace System {
+class IComparable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLevelCompletionResults);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12876))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12799))
 // CS Name: ::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndState
 struct CORDL_TYPE __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState {
 public:
@@ -96,13 +96,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MultiplayerPlayerLevelEndReason
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12877))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12800))
 // CS Name: ::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndReason
 struct CORDL_TYPE __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason {
 public:
@@ -168,13 +170,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MultiplayerLevelCompletionResults
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12876)), TypeDefinitionIndex(TypeDefinitionIndex(12877))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12878))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12800)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12799))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12801))
 // CS Name: ::MultiplayerLevelCompletionResults*
 class CORDL_TYPE MultiplayerLevelCompletionResults : public ::System::Object {
 public:
@@ -227,44 +231,44 @@ public:
 
   constexpr void __set__levelCompletionResults(::GlobalNamespace::LevelCompletionResults* value);
 
-  /// @brief Method get_playerLevelEndState addr 0xe49b00 size 0x8 virtual false final false
+  /// @brief Method get_playerLevelEndState addr 0xdc4b88 size 0x8 virtual false final false
   inline ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState get_playerLevelEndState();
 
-  /// @brief Method get_playerLevelEndReason addr 0xe49b08 size 0x8 virtual false final false
+  /// @brief Method get_playerLevelEndReason addr 0xdc4b90 size 0x8 virtual false final false
   inline ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason get_playerLevelEndReason();
 
-  /// @brief Method get_levelCompletionResults addr 0xe49b10 size 0x8 virtual false final false
+  /// @brief Method get_levelCompletionResults addr 0xdc4b98 size 0x8 virtual false final false
   inline ::GlobalNamespace::LevelCompletionResults* get_levelCompletionResults();
 
-  /// @brief Method get_hasAnyResults addr 0xe49b18 size 0x10 virtual false final false
+  /// @brief Method get_hasAnyResults addr 0xdc4ba0 size 0x10 virtual false final false
   inline bool get_hasAnyResults();
 
-  /// @brief Method get_failedOrGivenUp addr 0xe49b34 size 0x14 virtual false final false
+  /// @brief Method get_failedOrGivenUp addr 0xdc4bbc size 0x14 virtual false final false
   inline bool get_failedOrGivenUp();
 
   static inline ::GlobalNamespace::MultiplayerLevelCompletionResults* New_ctor();
 
-  /// @brief Method .ctor addr 0xe49b48 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdc4bd0 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MultiplayerLevelCompletionResults* New_ctor(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState,
                                                                                ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason playerLevelEndReason,
                                                                                ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method .ctor addr 0xe49b50 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0xdc4bd8 size 0x3c virtual false final false
   inline void _ctor(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState,
                     ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason playerLevelEndReason, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method Serialize addr 0xe49b8c size 0x6c virtual true final true
+  /// @brief Method Serialize addr 0xdc4c14 size 0x6c virtual true final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method CreateFromSerializedData addr 0xe49bf8 size 0xac virtual true final true
+  /// @brief Method CreateFromSerializedData addr 0xdc4c80 size 0xac virtual true final true
   inline ::GlobalNamespace::MultiplayerLevelCompletionResults* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method CompareTo addr 0xe49ca4 size 0xec virtual true final true
+  /// @brief Method CompareTo addr 0xdc4d2c size 0xec virtual true final true
   inline int32_t CompareTo(::System::Object* obj);
 
-  /// @brief Method HasAnyResult addr 0xe49b28 size 0xc virtual false final false
+  /// @brief Method HasAnyResult addr 0xdc4bb0 size 0xc virtual false final false
   static inline bool HasAnyResult(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState);
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelCompletionResults", modifiers: "&&", def_value: None }]
@@ -294,6 +298,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLevelCompletionResults, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelCompletionResults, ____playerLevelEndState) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelCompletionResults, ____playerLevelEndReason) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelCompletionResults, ____levelCompletionResults) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason, "", "MultiplayerLevelCompletionResults/MultiplayerPlayerLevelEndReason");

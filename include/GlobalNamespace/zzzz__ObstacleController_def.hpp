@@ -13,59 +13,59 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObstacleController)
-namespace GlobalNamespace {
-class IBeatmapObjectController;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class __ObstacleController__Pool;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class __ObstacleController___DissolveCoroutine_d__65;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct Bounds;
 }
 namespace GlobalNamespace {
 class PlayerTransforms;
 }
 namespace GlobalNamespace {
-class StretchableObstacle;
+class ColorManager;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
-class ColorManager;
+class StretchableObstacle;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+class IBeatmapObjectController;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace GlobalNamespace {
+class __ObstacleController__Pool;
+}
+namespace GlobalNamespace {
+class ObstacleData;
 }
 namespace UnityEngine {
 struct Vector3;
 }
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
+class __ObstacleController___DissolveCoroutine_d__65;
+}
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -85,8 +85,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10164)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4793)), TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4792)) CS Name: ::ObstacleController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10092)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(4914)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(10179))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4913)) CS Name: ::ObstacleController*
 class CORDL_TYPE ObstacleController : public ::GlobalNamespace::ObstacleControllerBase {
 public:
   // Declarations
@@ -395,91 +395,91 @@ public:
 
   constexpr void __set__inverseWorldRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method add_finishedMovementEvent addr 0x238d150 size 0xb0 virtual false final false
+  /// @brief Method add_finishedMovementEvent addr 0x2258d24 size 0xb0 virtual false final false
   inline void add_finishedMovementEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method remove_finishedMovementEvent addr 0x238d200 size 0xb0 virtual false final false
+  /// @brief Method remove_finishedMovementEvent addr 0x2258dd4 size 0xb0 virtual false final false
   inline void remove_finishedMovementEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method add_passedThreeQuartersOfMove2Event addr 0x238d2b0 size 0xb0 virtual false final false
+  /// @brief Method add_passedThreeQuartersOfMove2Event addr 0x2258e84 size 0xb0 virtual false final false
   inline void add_passedThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method remove_passedThreeQuartersOfMove2Event addr 0x238d360 size 0xb0 virtual false final false
+  /// @brief Method remove_passedThreeQuartersOfMove2Event addr 0x2258f34 size 0xb0 virtual false final false
   inline void remove_passedThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method add_passedAvoidedMarkEvent addr 0x238d410 size 0xb0 virtual false final false
+  /// @brief Method add_passedAvoidedMarkEvent addr 0x2258fe4 size 0xb0 virtual false final false
   inline void add_passedAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method remove_passedAvoidedMarkEvent addr 0x238d4c0 size 0xb0 virtual false final false
+  /// @brief Method remove_passedAvoidedMarkEvent addr 0x2259094 size 0xb0 virtual false final false
   inline void remove_passedAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method add_didDissolveEvent addr 0x238d570 size 0xb0 virtual false final false
+  /// @brief Method add_didDissolveEvent addr 0x2259144 size 0xb0 virtual false final false
   inline void add_didDissolveEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method remove_didDissolveEvent addr 0x238d620 size 0xb0 virtual false final false
+  /// @brief Method remove_didDissolveEvent addr 0x22591f4 size 0xb0 virtual false final false
   inline void remove_didDissolveEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method add_didUpdateProgress addr 0x238d6d0 size 0xb0 virtual false final false
+  /// @brief Method add_didUpdateProgress addr 0x22592a4 size 0xb0 virtual false final false
   inline void add_didUpdateProgress(::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>* value);
 
-  /// @brief Method remove_didUpdateProgress addr 0x238d780 size 0xb0 virtual false final false
+  /// @brief Method remove_didUpdateProgress addr 0x2259354 size 0xb0 virtual false final false
   inline void remove_didUpdateProgress(::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>* value);
 
-  /// @brief Method get_bounds addr 0x238d830 size 0x14 virtual false final false
+  /// @brief Method get_bounds addr 0x2259404 size 0x14 virtual false final false
   inline ::UnityEngine::Bounds get_bounds();
 
-  /// @brief Method get_obstacleData addr 0x238d844 size 0x8 virtual false final false
+  /// @brief Method get_obstacleData addr 0x2259418 size 0x8 virtual false final false
   inline ::GlobalNamespace::ObstacleData* get_obstacleData();
 
-  /// @brief Method get_hasPassedAvoidedMark addr 0x238d84c size 0x8 virtual false final false
+  /// @brief Method get_hasPassedAvoidedMark addr 0x2259420 size 0x8 virtual false final false
   inline bool get_hasPassedAvoidedMark();
 
-  /// @brief Method get_move1Duration addr 0x238d854 size 0x8 virtual false final false
+  /// @brief Method get_move1Duration addr 0x2259428 size 0x8 virtual false final false
   inline float_t get_move1Duration();
 
-  /// @brief Method get_move2Duration addr 0x238d85c size 0x8 virtual false final false
+  /// @brief Method get_move2Duration addr 0x2259430 size 0x8 virtual false final false
   inline float_t get_move2Duration();
 
-  /// @brief Method get_width addr 0x238d864 size 0x8 virtual false final false
+  /// @brief Method get_width addr 0x2259438 size 0x8 virtual false final false
   inline float_t get_width();
 
-  /// @brief Method get_height addr 0x238d86c size 0x8 virtual false final false
+  /// @brief Method get_height addr 0x2259440 size 0x8 virtual false final false
   inline float_t get_height();
 
-  /// @brief Method get_length addr 0x238d874 size 0x8 virtual false final false
+  /// @brief Method get_length addr 0x2259448 size 0x8 virtual false final false
   inline float_t get_length();
 
-  /// @brief Method get_color addr 0x238d87c size 0xc virtual false final false
+  /// @brief Method get_color addr 0x2259450 size 0xc virtual false final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method Init addr 0x238d888 size 0x2d4 virtual true final false
+  /// @brief Method Init addr 0x225945c size 0x2d4 virtual true final false
   inline void Init(::GlobalNamespace::ObstacleData* obstacleData, float_t worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 midPos, ::UnityEngine::Vector3 endPos,
                    float_t move1Duration, float_t move2Duration, float_t singleLineWidth, float_t height);
 
-  /// @brief Method Update addr 0x238db5c size 0xc virtual false final false
+  /// @brief Method Update addr 0x2259730 size 0xc virtual false final false
   inline void Update();
 
-  /// @brief Method ManualUpdate addr 0x238db68 size 0x1ec virtual true final false
+  /// @brief Method ManualUpdate addr 0x225973c size 0x1ec virtual true final false
   inline void ManualUpdate();
 
-  /// @brief Method GetPosForTime addr 0x238dd54 size 0x124 virtual false final false
+  /// @brief Method GetPosForTime addr 0x2259928 size 0x124 virtual false final false
   inline ::UnityEngine::Vector3 GetPosForTime(float_t time);
 
-  /// @brief Method DissolveCoroutine addr 0x238de78 size 0x78 virtual false final false
+  /// @brief Method DissolveCoroutine addr 0x2259a4c size 0x78 virtual false final false
   inline ::System::Collections::IEnumerator* DissolveCoroutine(float_t duration);
 
-  /// @brief Method Dissolve addr 0x238df18 size 0x38 virtual true final true
+  /// @brief Method Dissolve addr 0x2259aec size 0x38 virtual true final true
   inline void Dissolve(float_t duration);
 
-  /// @brief Method Hide addr 0x238df50 size 0x6c virtual true final true
+  /// @brief Method Hide addr 0x2259b24 size 0x6c virtual true final true
   inline void Hide(bool hide);
 
-  /// @brief Method Pause addr 0x238dfbc size 0x10 virtual true final true
+  /// @brief Method Pause addr 0x2259b90 size 0x10 virtual true final true
   inline void Pause(bool pause);
 
   static inline ::GlobalNamespace::ObstacleController* New_ctor();
 
-  /// @brief Method .ctor addr 0x238dfcc size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2259ba0 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleController", modifiers: "&&", def_value: None }]
@@ -597,19 +597,81 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObstacleController, 0x120>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____stretchableObstacle) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____endDistanceOffset) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____visualWrappers) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____playerTransforms) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____audioTimeSyncController) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____colorManager) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ___finishedMovementEvent) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ___passedThreeQuartersOfMove2Event) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ___passedAvoidedMarkEvent) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ___didDissolveEvent) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ___didUpdateProgress) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____width) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____height) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____length) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____startPos) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____midPos) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____endPos) == 0xa4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____move1Duration) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____move2Duration) == 0xb4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____startTimeOffset) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____obstacleDuration) == 0xbc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____passedThreeQuartersOfMove2Reported) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____passedAvoidedMarkReported) == 0xc1, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____passedAvoidedMarkTime) == 0xc4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____finishMovementTime) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____bounds) == 0xcc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____dissolving) == 0xe4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____obstacleData) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____color) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____worldRotation) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleController, ____inverseWorldRotation) == 0x110, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Pool
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4792)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 372 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4790)) CS Name: ::ObstacleController::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10978)), TypeDefinitionIndex(TypeDefinitionIndex(4913)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst:
+// 369 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4911)) CS Name: ::ObstacleController::Pool*
 class CORDL_TYPE __ObstacleController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::ObstacleController*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__ObstacleController__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x238dfdc size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2259bb0 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ObstacleController__Pool", modifiers: "&&", def_value: None }]
@@ -636,8 +698,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ObstacleContr
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4791))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4912))
 // CS Name: ::ObstacleController::<DissolveCoroutine>d__65*
 class CORDL_TYPE __ObstacleController___DissolveCoroutine_d__65 : public ::System::Object {
 public:
@@ -693,22 +755,22 @@ public:
 
   static inline ::GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x238def0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2259ac4 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x238e024 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2259bf8 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x238e028 size 0xe8 virtual true final true
+  /// @brief Method MoveNext addr 0x2259bfc size 0xe8 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x238e110 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2259ce4 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x238e118 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2259cec size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x238e158 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2259d2c size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ObstacleController___DissolveCoroutine_d__65", modifiers: "&&", def_value: None }]
@@ -741,6 +803,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65, ___duration) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ObstacleController);

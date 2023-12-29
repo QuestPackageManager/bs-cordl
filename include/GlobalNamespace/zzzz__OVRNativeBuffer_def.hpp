@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRNativeBuffer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7536))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8441))
 // CS Name: ::OVRNativeBuffer*
 class CORDL_TYPE OVRNativeBuffer : public ::System::Object {
 public:
@@ -57,31 +57,31 @@ public:
 
   static inline ::GlobalNamespace::OVRNativeBuffer* New_ctor(int32_t numBytes);
 
-  /// @brief Method .ctor addr 0x2716244 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x25be5bc size 0x70 virtual false final false
   inline void _ctor(int32_t numBytes);
 
-  /// @brief Method Finalize addr 0x271a75c size 0xa8 virtual true final false
+  /// @brief Method Finalize addr 0x25c26a0 size 0xa8 virtual true final false
   inline void Finalize();
 
-  /// @brief Method Reset addr 0x2715de8 size 0x4 virtual false final false
+  /// @brief Method Reset addr 0x25be160 size 0x4 virtual false final false
   inline void Reset(int32_t numBytes);
 
-  /// @brief Method GetCapacity addr 0x271a828 size 0x8 virtual false final false
+  /// @brief Method GetCapacity addr 0x25c276c size 0x8 virtual false final false
   inline int32_t GetCapacity();
 
-  /// @brief Method GetPointer addr 0x2715dec size 0x9c virtual false final false
+  /// @brief Method GetPointer addr 0x25be164 size 0x9c virtual false final false
   inline void* GetPointer(int32_t byteOffset);
 
-  /// @brief Method Dispose addr 0x271a830 size 0x70 virtual true final true
+  /// @brief Method Dispose addr 0x25c2774 size 0x70 virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x271a804 size 0x24 virtual false final false
+  /// @brief Method Dispose addr 0x25c2748 size 0x24 virtual false final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Reallocate addr 0x271a6bc size 0xa0 virtual false final false
+  /// @brief Method Reallocate addr 0x25c2600 size 0xa0 virtual false final false
   inline void Reallocate(int32_t numBytes);
 
-  /// @brief Method Release addr 0x271a8a0 size 0xa4 virtual false final false
+  /// @brief Method Release addr 0x25c27e4 size 0xa4 virtual false final false
   inline void Release();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRNativeBuffer", modifiers: "&&", def_value: None }]
@@ -111,6 +111,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRNativeBuffer, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRNativeBuffer, ___disposed) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRNativeBuffer, ___m_numBytes) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRNativeBuffer, ___m_ptr) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRNativeBuffer);

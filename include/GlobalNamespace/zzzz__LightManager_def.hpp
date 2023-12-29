@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightManager);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14497))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14715))
 // CS Name: ::LightManager*
 class CORDL_TYPE LightManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -134,24 +134,24 @@ public:
 
   static inline int32_t getStaticF__pointLightColorsID();
 
-  /// @brief Method OnEnable addr 0x210b4dc size 0xec virtual false final false
+  /// @brief Method OnEnable addr 0x1fb5ff8 size 0xec virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x210b5c8 size 0xec virtual false final false
+  /// @brief Method OnDisable addr 0x1fb60e4 size 0xec virtual false final false
   inline void OnDisable();
 
-  /// @brief Method OnCameraPreRender addr 0x210b6b4 size 0x560 virtual false final false
+  /// @brief Method OnCameraPreRender addr 0x1fb61d0 size 0x560 virtual false final false
   inline void OnCameraPreRender(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnDestroy addr 0x210bc14 size 0x4 virtual false final false
+  /// @brief Method OnDestroy addr 0x1fb6730 size 0x4 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method ResetColors addr 0x210bc18 size 0xe4 virtual false final false
+  /// @brief Method ResetColors addr 0x1fb6734 size 0xe4 virtual false final false
   inline void ResetColors();
 
   static inline ::GlobalNamespace::LightManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x210bcfc size 0xcc virtual false final false
+  /// @brief Method .ctor addr 0x1fb6818 size 0xcc virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightManager", modifiers: "&&", def_value: None }]
@@ -193,6 +193,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightManager, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightManager, ____directionalLightDirections) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightManager, ____directionalLightColors) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightManager, ____directionalLightPositions) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightManager, ____directionalLightRadii) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightManager, ____pointLightPositions) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightManager, ____pointLightColors) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightManager, ___lastRefreshFrameNum) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightManager);

@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceRequest);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10201))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10262))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10129))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10189))
 // CS Name: ::UnityEngine::ResourceRequest*
 class CORDL_TYPE ResourceRequest : public ::UnityEngine::AsyncOperation {
 public:
@@ -47,15 +47,15 @@ public:
 
   constexpr void __set_m_Type(::System::Type* value);
 
-  /// @brief Method GetResult addr 0x2cddfec size 0xc virtual true final false
+  /// @brief Method GetResult addr 0x2b78794 size 0xc virtual true final false
   inline ::UnityEngine::Object* GetResult();
 
-  /// @brief Method get_asset addr 0x2cde070 size 0xc virtual false final false
+  /// @brief Method get_asset addr 0x2b78818 size 0xc virtual false final false
   inline ::UnityEngine::Object* get_asset();
 
   static inline ::UnityEngine::ResourceRequest* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cde07c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2b78824 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceRequest", modifiers: "&&", def_value: None }]
@@ -82,6 +82,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceRequest, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceRequest, ___m_Path) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceRequest, ___m_Type) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::ResourceRequest);

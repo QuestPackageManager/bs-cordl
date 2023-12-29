@@ -6,14 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BasicOcspRespGenerator)
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Ocsp {
+class CertificateStatus;
+}
+namespace Org::BouncyCastle::Ocsp {
+class CertificateID;
+}
+namespace Org::BouncyCastle::Ocsp {
+class BasicOcspResp;
+}
 namespace System {
 struct DateTime;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Ocsp {
-class BasicOcspResp;
 }
 namespace Org::BouncyCastle::Ocsp {
 class RespID;
@@ -24,26 +39,11 @@ class IEnumerable;
 namespace Org::BouncyCastle::Ocsp {
 class __BasicOcspRespGenerator__ResponseObject;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Ocsp {
-class CertificateID;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
-namespace Org::BouncyCastle::Ocsp {
-class CertificateStatus;
-}
 namespace Org::BouncyCastle::Crypto {
 class ISignatureFactory;
 }
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class CertStatus;
@@ -68,7 +68,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObje
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1608))
 // CS Name: ::BasicOcspRespGenerator::ResponseObject*
 class CORDL_TYPE __BasicOcspRespGenerator__ResponseObject : public ::System::Object {
@@ -123,7 +123,7 @@ public:
                                                                                               ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus, ::System::DateTime thisUpdate,
                                                                                               ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method .ctor addr 0x109d540 size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x102c2f0 size 0x98 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus, ::System::DateTime thisUpdate,
                     ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
@@ -131,7 +131,7 @@ public:
                                                                                               ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus, ::System::DateTime thisUpdate,
                                                                                               ::System::DateTime nextUpdate, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method .ctor addr 0x109d840 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x102c5f0 size 0xc0 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus, ::System::DateTime thisUpdate, ::System::DateTime nextUpdate,
                     ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
@@ -139,11 +139,11 @@ public:
   New_ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* thisUpdate,
            ::Org::BouncyCastle::Asn1::DerGeneralizedTime* nextUpdate, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method .ctor addr 0x109eacc size 0x264 virtual false final false
+  /// @brief Method .ctor addr 0x102d87c size 0x264 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* thisUpdate,
                     ::Org::BouncyCastle::Asn1::DerGeneralizedTime* nextUpdate, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method ToResponse addr 0x109e624 size 0x98 virtual false final false
+  /// @brief Method ToResponse addr 0x102d3d4 size 0x98 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* ToResponse();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BasicOcspRespGenerator__ResponseObject", modifiers: "&&", def_value: None }]
@@ -180,12 +180,22 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject, ___certId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject, ___certStatus) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject, ___thisUpdate) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject, ___nextUpdate) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject, ___extensions) == 0x30, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Ocsp
 // Type: Org.BouncyCastle.Ocsp::BasicOcspRespGenerator
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1609))
 // CS Name: ::Org.BouncyCastle.Ocsp::BasicOcspRespGenerator*
 class CORDL_TYPE BasicOcspRespGenerator : public ::System::Object {
@@ -224,53 +234,53 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator* New_ctor(::Org::BouncyCastle::Ocsp::RespID* responderID);
 
-  /// @brief Method .ctor addr 0x109d0ec size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x102be9c size 0x78 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Ocsp::RespID* responderID);
 
   static inline ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method .ctor addr 0x109d164 size 0xa8 virtual false final false
+  /// @brief Method .ctor addr 0x102bf14 size 0xa8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method AddResponse addr 0x109d41c size 0x124 virtual false final false
+  /// @brief Method AddResponse addr 0x102c1cc size 0x124 virtual false final false
   inline void AddResponse(::Org::BouncyCastle::Ocsp::CertificateID* certID, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus);
 
-  /// @brief Method AddResponse addr 0x109d5d8 size 0x130 virtual false final false
+  /// @brief Method AddResponse addr 0x102c388 size 0x130 virtual false final false
   inline void AddResponse(::Org::BouncyCastle::Ocsp::CertificateID* certID, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus,
                           ::Org::BouncyCastle::Asn1::X509::X509Extensions* singleExtensions);
 
-  /// @brief Method AddResponse addr 0x109d708 size 0x138 virtual false final false
+  /// @brief Method AddResponse addr 0x102c4b8 size 0x138 virtual false final false
   inline void AddResponse(::Org::BouncyCastle::Ocsp::CertificateID* certID, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus, ::System::DateTime nextUpdate,
                           ::Org::BouncyCastle::Asn1::X509::X509Extensions* singleExtensions);
 
-  /// @brief Method AddResponse addr 0x109d900 size 0x110 virtual false final false
+  /// @brief Method AddResponse addr 0x102c6b0 size 0x110 virtual false final false
   inline void AddResponse(::Org::BouncyCastle::Ocsp::CertificateID* certID, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus, ::System::DateTime thisUpdate, ::System::DateTime nextUpdate,
                           ::Org::BouncyCastle::Asn1::X509::X509Extensions* singleExtensions);
 
-  /// @brief Method SetResponseExtensions addr 0x109da10 size 0x8 virtual false final false
+  /// @brief Method SetResponseExtensions addr 0x102c7c0 size 0x8 virtual false final false
   inline void SetResponseExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* responseExtensions);
 
-  /// @brief Method GenerateResponse addr 0x109da18 size 0xc0c virtual false final false
+  /// @brief Method GenerateResponse addr 0x102c7c8 size 0xc0c virtual false final false
   inline ::Org::BouncyCastle::Ocsp::BasicOcspResp* GenerateResponse(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureCalculator,
                                                                     ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*, ::Array<::Org::BouncyCastle::X509::X509Certificate*>*> chain,
                                                                     ::System::DateTime producedAt);
 
-  /// @brief Method Generate addr 0x109e828 size 0x8 virtual false final false
+  /// @brief Method Generate addr 0x102d5d8 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Ocsp::BasicOcspResp* Generate(::StringW signingAlgorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                                                             ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*, ::Array<::Org::BouncyCastle::X509::X509Certificate*>*> chain,
                                                             ::System::DateTime thisUpdate);
 
-  /// @brief Method Generate addr 0x109e830 size 0xec virtual false final false
+  /// @brief Method Generate addr 0x102d5e0 size 0xec virtual false final false
   inline ::Org::BouncyCastle::Ocsp::BasicOcspResp* Generate(::StringW signingAlgorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                                                             ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*, ::Array<::Org::BouncyCastle::X509::X509Certificate*>*> chain,
                                                             ::System::DateTime producedAt, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Generate addr 0x109e91c size 0x58 virtual false final false
+  /// @brief Method Generate addr 0x102d6cc size 0x58 virtual false final false
   inline ::Org::BouncyCastle::Ocsp::BasicOcspResp* Generate(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureCalculatorFactory,
                                                             ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*, ::Array<::Org::BouncyCastle::X509::X509Certificate*>*> chain,
                                                             ::System::DateTime producedAt);
 
-  /// @brief Method get_SignatureAlgNames addr 0x109e974 size 0x4c virtual false final false
+  /// @brief Method get_SignatureAlgNames addr 0x102d724 size 0x4c virtual false final false
   inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicOcspRespGenerator", modifiers: "&&", def_value: None }]
@@ -300,6 +310,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator, ___list) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator, ___responseExtensions) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator, ___responderID) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Ocsp
 NEED_NO_BOX(::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator);

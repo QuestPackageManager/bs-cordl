@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspRequiredAttributeAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15799))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15749))
 // CS Name: ::JetBrains.Annotations::AspRequiredAttributeAttribute*
 class CORDL_TYPE AspRequiredAttributeAttribute : public ::System::Attribute {
 public:
@@ -34,13 +34,13 @@ public:
 
   static inline ::JetBrains::Annotations::AspRequiredAttributeAttribute* New_ctor(::StringW attribute);
 
-  /// @brief Method .ctor addr 0x2eba7f0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d52a70 size 0x28 virtual false final false
   inline void _ctor(::StringW attribute);
 
-  /// @brief Method get_Attribute addr 0x2eba818 size 0x8 virtual false final false
+  /// @brief Method get_Attribute addr 0x2d52a98 size 0x8 virtual false final false
   inline ::StringW get_Attribute();
 
-  /// @brief Method set_Attribute addr 0x2eba820 size 0x8 virtual false final false
+  /// @brief Method set_Attribute addr 0x2d52aa0 size 0x8 virtual false final false
   inline void set_Attribute(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "AspRequiredAttributeAttribute", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::AspRequiredAttributeAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::AspRequiredAttributeAttribute, ____Attribute_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::AspRequiredAttributeAttribute);

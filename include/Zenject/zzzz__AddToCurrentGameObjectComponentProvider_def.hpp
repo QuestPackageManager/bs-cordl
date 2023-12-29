@@ -6,38 +6,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(AddToCurrentGameObjectComponentProvider)
-namespace System {
-class Action;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace Zenject {
-class __AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0;
+namespace System {
+class Action;
+}
+namespace System {
+class Type;
 }
 namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
-struct TypeValuePair;
+class InjectContext;
 }
-namespace System {
-class Type;
+namespace Zenject {
+class DiContainer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
-class InjectContext;
-}
-namespace System {
-class Object;
+struct TypeValuePair;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace Zenject {
-class DiContainer;
+class __AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -56,8 +56,8 @@ MARK_REF_PTR_T(::Zenject::__AddToCurrentGameObjectComponentProvider____c__Displa
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11180))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11108))
 // CS Name: ::AddToCurrentGameObjectComponentProvider::<>c__DisplayClass15_0*
 class CORDL_TYPE __AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0 : public ::System::Object {
 public:
@@ -100,16 +100,16 @@ public:
 
   static inline ::Zenject::__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2f05df4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d9e024 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <GetAllInstancesWithInjectSplit>b__0 addr 0x2f05f14 size 0x158 virtual false final false
+  /// @brief Method <GetAllInstancesWithInjectSplit>b__0 addr 0x2d9e144 size 0x158 virtual false final false
   inline void _GetAllInstancesWithInjectSplit_b__0();
 
-  /// @brief Method __zenCreate addr 0x2f0606c size 0x5c virtual false final false
+  /// @brief Method __zenCreate addr 0x2d9e29c size 0x5c virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f060c8 size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d9e2f8 size 0x1c0 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0", modifiers: "&&", def_value: None }]
@@ -143,13 +143,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0, ___args) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0, ___instance) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0, ___context) == 0x28, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: Zenject::AddToCurrentGameObjectComponentProvider
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11181))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11109))
 // CS Name: ::Zenject::AddToCurrentGameObjectComponentProvider*
 class CORDL_TYPE AddToCurrentGameObjectComponentProvider : public ::System::Object {
 public:
@@ -217,26 +225,26 @@ public:
                                                                              ::System::Object* concreteIdentifier,
                                                                              ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method .ctor addr 0x2f05998 size 0xe0 virtual false final false
+  /// @brief Method .ctor addr 0x2d9dbc8 size 0xe0 virtual false final false
   inline void _ctor(::Zenject::DiContainer* container, ::System::Type* componentType, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments,
                     ::System::Object* concreteIdentifier, ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_IsCached addr 0x2f05a78 size 0x8 virtual true final true
+  /// @brief Method get_IsCached addr 0x2d9dca8 size 0x8 virtual true final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType addr 0x2f05a80 size 0x8 virtual true final true
+  /// @brief Method get_TypeVariesBasedOnMemberType addr 0x2d9dcb0 size 0x8 virtual true final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method get_Container addr 0x2f05a88 size 0x8 virtual false final false
+  /// @brief Method get_Container addr 0x2d9dcb8 size 0x8 virtual false final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_ComponentType addr 0x2f05a90 size 0x8 virtual false final false
+  /// @brief Method get_ComponentType addr 0x2d9dcc0 size 0x8 virtual false final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method GetInstanceType addr 0x2f05a98 size 0x8 virtual true final true
+  /// @brief Method GetInstanceType addr 0x2d9dcc8 size 0x8 virtual true final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method GetAllInstancesWithInjectSplit addr 0x2f05aa0 size 0x354 virtual true final true
+  /// @brief Method GetAllInstancesWithInjectSplit addr 0x2d9dcd0 size 0x354 virtual true final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
@@ -273,6 +281,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::AddToCurrentGameObjectComponentProvider, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::AddToCurrentGameObjectComponentProvider, ____componentType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::AddToCurrentGameObjectComponentProvider, ____container) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::AddToCurrentGameObjectComponentProvider, ____extraArguments) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::AddToCurrentGameObjectComponentProvider, ____concreteIdentifier) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::AddToCurrentGameObjectComponentProvider, ____instantiateCallback) == 0x30, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::AddToCurrentGameObjectComponentProvider);

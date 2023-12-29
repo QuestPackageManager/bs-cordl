@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_LineInfo)
 namespace TMPro {
-struct Extents;
+struct HorizontalAlignmentOptions;
 }
 namespace TMPro {
-struct HorizontalAlignmentOptions;
+struct Extents;
 }
 // Forward declare root types
 namespace TMPro {
@@ -24,8 +24,8 @@ MARK_VAL_T(::TMPro::TMP_LineInfo);
 // SizeInfo { instance_size: 92, native_size: 92, calculated_instance_size: 92, calculated_native_size: 108, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12322)), TypeDefinitionIndex(TypeDefinitionIndex(12430))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12394))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12358)), TypeDefinitionIndex(TypeDefinitionIndex(12250))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12322))
 // CS Name: ::TMPro::TMP_LineInfo
 struct CORDL_TYPE TMP_LineInfo {
 public:
@@ -116,6 +116,46 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_LineInfo, 0x5c>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, controlCharacterCount) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, characterCount) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, visibleCharacterCount) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, spaceCount) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, wordCount) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, firstCharacterIndex) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, firstVisibleCharacterIndex) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, lastCharacterIndex) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, lastVisibleCharacterIndex) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, length) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, lineHeight) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, ascender) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, baseline) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, descender) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, maxAdvance) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, width) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, marginLeft) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, marginRight) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, alignment) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_LineInfo, lineExtents) == 0x4c, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_LineInfo, "TMPro", "TMP_LineInfo");

@@ -17,8 +17,8 @@ MARK_VAL_T(::System::Net::NetworkInformation::MacOsStructs::ifaddrs);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation::MacOsStructs {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9294))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8131))
 // CS Name: ::System.Net.NetworkInformation.MacOsStructs::ifaddrs
 struct CORDL_TYPE ifaddrs {
 public:
@@ -60,6 +60,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::MacOsStructs::ifaddrs, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::ifaddrs, ifa_next) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::ifaddrs, ifa_name) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::ifaddrs, ifa_flags) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::ifaddrs, ifa_addr) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::ifaddrs, ifa_netmask) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::ifaddrs, ifa_dstaddr) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::ifaddrs, ifa_data) == 0x30, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation::MacOsStructs
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::MacOsStructs::ifaddrs, "System.Net.NetworkInformation.MacOsStructs", "ifaddrs");

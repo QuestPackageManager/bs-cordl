@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ControllersTransformSettingsViewController)
-namespace GlobalNamespace {
-class Vector3SO;
-}
 namespace HMUI {
 class RangeValuesTextSlider;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+class Vector3SO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ControllersTransformSettingsViewController);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5619))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5715))
 // CS Name: ::ControllersTransformSettingsViewController*
 class CORDL_TYPE ControllersTransformSettingsViewController : public ::HMUI::ViewController {
 public:
@@ -111,24 +111,24 @@ public:
 
   constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method DidActivate addr 0x22ae914 size 0x570 virtual true final false
+  /// @brief Method DidActivate addr 0x2169b00 size 0x570 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x22aee84 size 0xac virtual true final false
+  /// @brief Method DidDeactivate addr 0x216a070 size 0xac virtual true final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method OnDestroy addr 0x22aef30 size 0x338 virtual true final false
+  /// @brief Method OnDestroy addr 0x216a11c size 0x338 virtual true final false
   inline void OnDestroy();
 
-  /// @brief Method HandlePositionSliderValueDidChange addr 0x22af268 size 0x120 virtual false final false
+  /// @brief Method HandlePositionSliderValueDidChange addr 0x216a454 size 0x120 virtual false final false
   inline void HandlePositionSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-  /// @brief Method HandleRotationSliderValueDidChange addr 0x22af388 size 0x118 virtual false final false
+  /// @brief Method HandleRotationSliderValueDidChange addr 0x216a574 size 0x118 virtual false final false
   inline void HandleRotationSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
   static inline ::GlobalNamespace::ControllersTransformSettingsViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22af4a0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x216a68c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ControllersTransformSettingsViewController", modifiers: "&&", def_value: None }]
@@ -185,6 +185,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ControllersTransformSettingsViewController, 0xb8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____controllerPosition) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____controllerRotation) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____posXSlider) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____posYSlider) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____posZSlider) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____rotXSlider) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____rotYSlider) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____rotZSlider) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____vrPlatformHelper) == 0xb0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ControllersTransformSettingsViewController);

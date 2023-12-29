@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ShaderWarmupSceneSetup);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6082))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6142))
 // CS Name: ::ShaderWarmupSceneSetup*
 class CORDL_TYPE ShaderWarmupSceneSetup : public ::Zenject::MonoInstaller {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __set__sharedWarmupColorScheme(::GlobalNamespace::ColorSchemeSO* value);
 
-  /// @brief Method InstallBindings addr 0x2320098 size 0xb8 virtual true final false
+  /// @brief Method InstallBindings addr 0x21e59bc size 0xb8 virtual true final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::ShaderWarmupSceneSetup* New_ctor();
 
-  /// @brief Method .ctor addr 0x2320150 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21e5a74 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderWarmupSceneSetup", modifiers: "&&", def_value: None }]
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ShaderWarmupSceneSetup, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ShaderWarmupSceneSetup, ____sharedWarmupColorScheme) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ShaderWarmupSceneSetup);

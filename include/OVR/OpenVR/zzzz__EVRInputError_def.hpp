@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRInputError);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8596))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9365))
 // CS Name: ::OVR.OpenVR::EVRInputError
 struct CORDL_TYPE EVRInputError {
 public:
@@ -117,6 +117,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRInputError, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::EVRInputError, value__) == 0x0, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRInputError, "OVR.OpenVR", "EVRInputError");

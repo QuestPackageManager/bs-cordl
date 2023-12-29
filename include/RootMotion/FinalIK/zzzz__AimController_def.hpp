@@ -14,14 +14,14 @@ class __AimController___TurnToTarget_d__33;
 namespace UnityEngine {
 class Transform;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class AimIK;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__AimController___TurnToTarget_d__33);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12629))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12557))
 // CS Name: ::AimController::<TurnToTarget>d__33*
 class CORDL_TYPE __AimController___TurnToTarget_d__33 : public ::System::Object {
 public:
@@ -94,22 +94,22 @@ public:
 
   static inline ::RootMotion::FinalIK::__AimController___TurnToTarget_d__33* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x1293cd4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x12229a8 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x1293de0 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x1222ab4 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x1293de4 size 0xe4 virtual true final true
+  /// @brief Method MoveNext addr 0x1222ab8 size 0xe4 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1293ec8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1222b9c size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1293ed0 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1222ba4 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1293f10 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1222be4 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__AimController___TurnToTarget_d__33", modifiers: "&&", def_value: None }]
@@ -140,13 +140,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__AimController___TurnToTarget_d__33, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__AimController___TurnToTarget_d__33, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__AimController___TurnToTarget_d__33, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__AimController___TurnToTarget_d__33, _____4__this) == 0x20, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: RootMotion.FinalIK::AimController
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12630))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12558))
 // CS Name: ::RootMotion.FinalIK::AimController*
 class CORDL_TYPE AimController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -398,27 +404,27 @@ public:
 
   constexpr void __set_turnToTargetMlpV(float_t value);
 
-  /// @brief Method Start addr 0x1293218 size 0x7c virtual false final false
+  /// @brief Method Start addr 0x1221eec size 0x7c virtual false final false
   inline void Start();
 
-  /// @brief Method LateUpdate addr 0x1293318 size 0x52c virtual false final false
+  /// @brief Method LateUpdate addr 0x1221fec size 0x52c virtual false final false
   inline void LateUpdate();
 
-  /// @brief Method get_pivot addr 0x1293294 size 0x84 virtual false final false
+  /// @brief Method get_pivot addr 0x1221f68 size 0x84 virtual false final false
   inline ::UnityEngine::Vector3 get_pivot();
 
-  /// @brief Method ApplyMinDistance addr 0x1293844 size 0x184 virtual false final false
+  /// @brief Method ApplyMinDistance addr 0x1222518 size 0x184 virtual false final false
   inline void ApplyMinDistance();
 
-  /// @brief Method RootRotation addr 0x12939c8 size 0x2a4 virtual false final false
+  /// @brief Method RootRotation addr 0x122269c size 0x2a4 virtual false final false
   inline void RootRotation();
 
-  /// @brief Method TurnToTarget addr 0x1293c6c size 0x68 virtual false final false
+  /// @brief Method TurnToTarget addr 0x1222940 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* TurnToTarget();
 
   static inline ::RootMotion::FinalIK::AimController* New_ctor();
 
-  /// @brief Method .ctor addr 0x1293cfc size 0xe4 virtual false final false
+  /// @brief Method .ctor addr 0x12229d0 size 0xe4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AimController", modifiers: "&&", def_value: None }]
@@ -520,6 +526,60 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::AimController, 0xb8>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___ik) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___weight) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___target) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___targetSwitchSmoothTime) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___weightSmoothTime) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___smoothTurnTowardsTarget) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___maxRadiansDelta) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___maxMagnitudeDelta) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___slerpSpeed) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___pivotOffsetFromRoot) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___minDistance) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___offset) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___maxRootAngle) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___turnToTarget) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___turnToTargetTime) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___useAnimatedAimDirection) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___animatedAimDirection) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___lastTarget) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___switchWeight) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___switchWeightV) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___weightV) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___lastPosition) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___dir) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___lastSmoothTowardsTarget) == 0xac, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___turningToTarget) == 0xad, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___turnToTargetMlp) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::AimController, ___turnToTargetMlpV) == 0xb4, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::AimController);

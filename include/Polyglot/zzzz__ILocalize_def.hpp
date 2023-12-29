@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Polyglot::ILocalize);
 namespace Polyglot {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15553))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15537))
 // CS Name: ::Polyglot::ILocalize*
 class CORDL_TYPE ILocalize {
 public:

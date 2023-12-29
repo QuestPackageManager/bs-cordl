@@ -10,11 +10,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshGenerationResult)
-namespace System {
-class Object;
-}
 namespace UnityEngine::XR {
 struct MeshId;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 class MeshCollider;
@@ -22,20 +25,17 @@ class MeshCollider;
 namespace UnityEngine::XR {
 struct MeshGenerationStatus;
 }
-namespace UnityEngine::XR {
-struct MeshVertexAttributes;
-}
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Mesh;
+struct Quaternion;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
+namespace UnityEngine::XR {
+struct MeshVertexAttributes;
+}
 namespace UnityEngine {
-struct Quaternion;
+class Mesh;
 }
 // Forward declare root types
 namespace UnityEngine::XR {
@@ -47,8 +47,8 @@ MARK_VAL_T(::UnityEngine::XR::MeshGenerationResult);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(15634)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15637)), TypeDefinitionIndex(TypeDefinitionIndex(15633))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15636)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15591)), TypeDefinitionIndex(TypeDefinitionIndex(15592)), TypeDefinitionIndex(TypeDefinitionIndex(10179)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15595)), TypeDefinitionIndex(TypeDefinitionIndex(10176))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15594)) CS Name:
 // ::UnityEngine.XR::MeshGenerationResult
 struct CORDL_TYPE MeshGenerationResult {
 public:
@@ -72,37 +72,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>*();
 
-  /// @brief Method get_MeshId addr 0x2eb3928 size 0xc virtual false final false
+  /// @brief Method get_MeshId addr 0x2d4ab80 size 0xc virtual false final false
   inline ::UnityEngine::XR::MeshId get_MeshId();
 
-  /// @brief Method get_Mesh addr 0x2eb3934 size 0x8 virtual false final false
+  /// @brief Method get_Mesh addr 0x2d4ab8c size 0x8 virtual false final false
   inline ::UnityEngine::Mesh* get_Mesh();
 
-  /// @brief Method get_MeshCollider addr 0x2eb393c size 0x8 virtual false final false
+  /// @brief Method get_MeshCollider addr 0x2d4ab94 size 0x8 virtual false final false
   inline ::UnityEngine::MeshCollider* get_MeshCollider();
 
-  /// @brief Method get_Status addr 0x2eb3944 size 0x8 virtual false final false
+  /// @brief Method get_Status addr 0x2d4ab9c size 0x8 virtual false final false
   inline ::UnityEngine::XR::MeshGenerationStatus get_Status();
 
-  /// @brief Method get_Attributes addr 0x2eb394c size 0x8 virtual false final false
+  /// @brief Method get_Attributes addr 0x2d4aba4 size 0x8 virtual false final false
   inline ::UnityEngine::XR::MeshVertexAttributes get_Attributes();
 
-  /// @brief Method get_Position addr 0x2eb3954 size 0xc virtual false final false
+  /// @brief Method get_Position addr 0x2d4abac size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_Position();
 
-  /// @brief Method get_Rotation addr 0x2eb3960 size 0xc virtual false final false
+  /// @brief Method get_Rotation addr 0x2d4abb8 size 0xc virtual false final false
   inline ::UnityEngine::Quaternion get_Rotation();
 
-  /// @brief Method get_Scale addr 0x2eb396c size 0xc virtual false final false
+  /// @brief Method get_Scale addr 0x2d4abc4 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_Scale();
 
-  /// @brief Method Equals addr 0x2eb3978 size 0x90 virtual true final false
+  /// @brief Method Equals addr 0x2d4abd0 size 0x90 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x2eb3a08 size 0x184 virtual true final true
+  /// @brief Method Equals addr 0x2d4ac60 size 0x184 virtual true final true
   inline bool Equals(::UnityEngine::XR::MeshGenerationResult other);
 
-  /// @brief Method GetHashCode addr 0x2eb3b8c size 0x208 virtual true final false
+  /// @brief Method GetHashCode addr 0x2d4ade4 size 0x208 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "_MeshId_k__BackingField", ty: "::UnityEngine::XR::MeshId", modifiers: "", def_value: None }, CppParam { name: "_Mesh_k__BackingField", ty:
@@ -154,6 +154,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::MeshGenerationResult, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::MeshGenerationResult, _MeshId_k__BackingField) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::MeshGenerationResult, _Mesh_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::MeshGenerationResult, _MeshCollider_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::MeshGenerationResult, _Status_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::MeshGenerationResult, _Attributes_k__BackingField) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::MeshGenerationResult, _Timestamp_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::MeshGenerationResult, _Position_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::MeshGenerationResult, _Rotation_k__BackingField) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::MeshGenerationResult, _Scale_k__BackingField) == 0x4c, "Offset mismatch!");
 
 } // namespace UnityEngine::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::MeshGenerationResult, "UnityEngine.XR", "MeshGenerationResult");

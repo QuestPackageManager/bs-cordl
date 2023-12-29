@@ -9,46 +9,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionMapAnimationController)
 namespace GlobalNamespace {
+class __MissionMapAnimationController___UpdateMissionMapCoroutine_d__12;
+}
+namespace GlobalNamespace {
 class MissionNode;
 }
 namespace GlobalNamespace {
 class MenuShockwave;
 }
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class MissionNodesManager;
-}
-namespace HMUI {
-class ScrollView;
-}
-namespace GlobalNamespace {
-class __MissionMapAnimationController____c;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
 class __MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13;
 }
 namespace GlobalNamespace {
-class __MissionMapAnimationController___UpdateMissionMapCoroutine_d__12;
+class __MissionMapAnimationController____c;
 }
-namespace GlobalNamespace {
-class __MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15;
+namespace HMUI {
+class ScrollView;
+}
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class __MissionMapAnimationController___UpdateStageCoroutine_d__14;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class MissionNodesManager;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class __MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class IDisposable;
 }
 namespace GlobalNamespace {
 class MissionNodeConnection;
@@ -86,8 +86,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionMapAnimationController____c);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5537))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5630))
 // CS Name: ::MissionMapAnimationController::<UpdateMissionMapCoroutine>d__12*
 class CORDL_TYPE __MissionMapAnimationController___UpdateMissionMapCoroutine_d__12 : public ::System::Object {
 public:
@@ -152,22 +152,22 @@ public:
 
   static inline ::GlobalNamespace::__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x229f604 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x215a680 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x229f7fc size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x215a878 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x229f800 size 0x1f8 virtual true final true
+  /// @brief Method MoveNext addr 0x215a87c size 0x1f8 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x229f9f8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x215aa74 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x229fa00 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x215aa7c size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x229fa40 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x215aabc size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12", modifiers: "&&", def_value: None }]
@@ -204,13 +204,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12, ___lastClearedMissionNode) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12, ___finishCallback) == 0x30, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<UpdateClearedNodeStateCoroutine>d__13
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5538))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5631))
 // CS Name: ::MissionMapAnimationController::<UpdateClearedNodeStateCoroutine>d__13*
 class CORDL_TYPE __MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13 : public ::System::Object {
 public:
@@ -266,22 +276,22 @@ public:
 
   static inline ::GlobalNamespace::__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x229f6a0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x215a71c size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x229fa48 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x215aac4 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x229fa4c size 0xf0 virtual true final true
+  /// @brief Method MoveNext addr 0x215aac8 size 0xf0 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x229fb48 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x215abc4 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x229fb50 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x215abcc size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x229fb90 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x215ac0c size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13", modifiers: "&&", def_value: None }]
@@ -315,13 +325,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13, ___lastClearedMissionNode) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13, _____4__this) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<UpdateStageCoroutine>d__14
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5539))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5632))
 // CS Name: ::MissionMapAnimationController::<UpdateStageCoroutine>d__14*
 class CORDL_TYPE __MissionMapAnimationController___UpdateStageCoroutine_d__14 : public ::System::Object {
 public:
@@ -368,22 +386,22 @@ public:
 
   static inline ::GlobalNamespace::__MissionMapAnimationController___UpdateStageCoroutine_d__14* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x229f730 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x215a7ac size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x229fb98 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x215ac14 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x229fb9c size 0x9c virtual true final true
+  /// @brief Method MoveNext addr 0x215ac18 size 0x9c virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x229fdf8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x215ae74 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x229fe00 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x215ae7c size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x229fe40 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x215aebc size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionMapAnimationController___UpdateStageCoroutine_d__14", modifiers: "&&", def_value: None }]
@@ -414,13 +432,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionMapAnimationController___UpdateStageCoroutine_d__14, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateStageCoroutine_d__14, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateStageCoroutine_d__14, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateStageCoroutine_d__14, _____4__this) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5540))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5633))
 // CS Name: ::MissionMapAnimationController::<>c*
 class CORDL_TYPE __MissionMapAnimationController____c : public ::System::Object {
 public:
@@ -448,13 +472,13 @@ public:
 
   static inline ::GlobalNamespace::__MissionMapAnimationController____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x229feac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x215af28 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <UpdateNodesAndConnectionCoroutine>b__15_0 addr 0x229feb4 size 0x24 virtual false final false
+  /// @brief Method <UpdateNodesAndConnectionCoroutine>b__15_0 addr 0x215af30 size 0x24 virtual false final false
   inline float_t _UpdateNodesAndConnectionCoroutine_b__15_0(::GlobalNamespace::MissionNodeConnection* connection);
 
-  /// @brief Method <UpdateNodesAndConnectionCoroutine>b__15_1 addr 0x229fef4 size 0x24 virtual false final false
+  /// @brief Method <UpdateNodesAndConnectionCoroutine>b__15_1 addr 0x215af70 size 0x24 virtual false final false
   inline float_t _UpdateNodesAndConnectionCoroutine_b__15_1(::GlobalNamespace::MissionNodeConnection* connection);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionMapAnimationController____c", modifiers: "&&", def_value: None }]
@@ -481,8 +505,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionMapAni
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5541))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5634))
 // CS Name: ::MissionMapAnimationController::<UpdateNodesAndConnectionCoroutine>d__15*
 class CORDL_TYPE __MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15 : public ::System::Object {
 public:
@@ -557,22 +581,22 @@ public:
 
   static inline ::GlobalNamespace::__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x229f7c0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x215a83c size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x229ff18 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x215af94 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x229ff1c size 0x310 virtual true final true
+  /// @brief Method MoveNext addr 0x215af98 size 0x310 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x22a0478 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x215b4f4 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x22a0480 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x215b4fc size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x22a04c0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x215b53c size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15", modifiers: "&&", def_value: None }]
@@ -612,13 +636,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15, ____newEnabledConnection_5__2) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15, _____7__wrap2) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15, _____7__wrap3) == 0x38, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MissionMapAnimationController
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5542))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5635))
 // CS Name: ::MissionMapAnimationController*
 class CORDL_TYPE MissionMapAnimationController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -707,30 +743,30 @@ public:
 
   constexpr void __set__shockwaveEffect(::GlobalNamespace::MenuShockwave* value);
 
-  /// @brief Method get_animatedUpdateIsRequired addr 0x229f128 size 0x74 virtual false final false
+  /// @brief Method get_animatedUpdateIsRequired addr 0x215a1a4 size 0x74 virtual false final false
   inline bool get_animatedUpdateIsRequired();
 
-  /// @brief Method ScrollToTopMostNotClearedMission addr 0x229f24c size 0xcc virtual false final false
+  /// @brief Method ScrollToTopMostNotClearedMission addr 0x215a2c8 size 0xcc virtual false final false
   inline void ScrollToTopMostNotClearedMission();
 
-  /// @brief Method UpdateMissionMapAfterMissionWasCleared addr 0x229f464 size 0xe8 virtual false final false
+  /// @brief Method UpdateMissionMapAfterMissionWasCleared addr 0x215a4e0 size 0xe8 virtual false final false
   inline void UpdateMissionMapAfterMissionWasCleared(bool animated, ::System::Action* finishCallback);
 
-  /// @brief Method UpdateMissionMapCoroutine addr 0x229f588 size 0x7c virtual false final false
+  /// @brief Method UpdateMissionMapCoroutine addr 0x215a604 size 0x7c virtual false final false
   inline ::System::Collections::IEnumerator* UpdateMissionMapCoroutine(::GlobalNamespace::MissionNode* lastClearedMissionNode, ::System::Action* finishCallback);
 
-  /// @brief Method UpdateClearedNodeStateCoroutine addr 0x229f62c size 0x74 virtual false final false
+  /// @brief Method UpdateClearedNodeStateCoroutine addr 0x215a6a8 size 0x74 virtual false final false
   inline ::System::Collections::IEnumerator* UpdateClearedNodeStateCoroutine(::GlobalNamespace::MissionNode* lastClearedMissionNode);
 
-  /// @brief Method UpdateStageCoroutine addr 0x229f6c8 size 0x68 virtual false final false
+  /// @brief Method UpdateStageCoroutine addr 0x215a744 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* UpdateStageCoroutine();
 
-  /// @brief Method UpdateNodesAndConnectionCoroutine addr 0x229f758 size 0x68 virtual false final false
+  /// @brief Method UpdateNodesAndConnectionCoroutine addr 0x215a7d4 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* UpdateNodesAndConnectionCoroutine();
 
   static inline ::GlobalNamespace::MissionMapAnimationController* New_ctor();
 
-  /// @brief Method .ctor addr 0x229f7e8 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x215a864 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController", modifiers: "&&", def_value: None }]
@@ -775,6 +811,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionMapAnimationController, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionMapAnimationController, ____missionNodesManager) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionMapAnimationController, ____mapScrollView) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionMapAnimationController, ____startDelay) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionMapAnimationController, ____stageAnimationStartDelay) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionMapAnimationController, ____missionConnectionAnimationStartDelay) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionMapAnimationController, ____missionConnectionAnimationSeparationTime) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionMapAnimationController, ____stageAnimationDuration) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionMapAnimationController, ____shockwaveEffect) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionMapAnimationController);

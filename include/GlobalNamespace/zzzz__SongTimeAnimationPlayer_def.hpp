@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SongTimeAnimationPlayer);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5384))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5475))
 // CS Name: ::SongTimeAnimationPlayer*
 class CORDL_TYPE SongTimeAnimationPlayer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,12 +44,12 @@ public:
 
   constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value);
 
-  /// @brief Method Update addr 0x226ef14 size 0x44 virtual false final false
+  /// @brief Method Update addr 0x2129914 size 0x44 virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::SongTimeAnimationPlayer* New_ctor();
 
-  /// @brief Method .ctor addr 0x226ef58 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2129958 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SongTimeAnimationPlayer", modifiers: "&&", def_value: None }]
@@ -76,6 +76,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongTimeAnimationPlayer, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongTimeAnimationPlayer, ____animationClip) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongTimeAnimationPlayer, ____audioTimeSyncController) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongTimeAnimationPlayer);

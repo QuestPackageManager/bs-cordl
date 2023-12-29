@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(SoapServices)
 namespace System::Reflection {
 class MethodBase;
 }
-namespace System::Reflection {
-class Assembly;
-}
 namespace System::Collections {
 class Hashtable;
+}
+namespace System::Runtime::Remoting {
+class __SoapServices__TypeInfo;
 }
 namespace System {
 class Type;
 }
-namespace System::Runtime::Remoting {
-class __SoapServices__TypeInfo;
+namespace System::Reflection {
+class Assembly;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::__SoapServices__TypeInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3077))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3076))
 // CS Name: ::SoapServices::TypeInfo*
 class CORDL_TYPE __SoapServices__TypeInfo : public ::System::Object {
 public:
@@ -61,7 +61,7 @@ public:
 
   static inline ::System::Runtime::Remoting::__SoapServices__TypeInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x249551c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x233ca28 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SoapServices__TypeInfo", modifiers: "&&", def_value: None }]
@@ -89,13 +89,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::__SoapServices__TypeInfo, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::System::Runtime::Remoting::__SoapServices__TypeInfo, ___Attributes) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::__SoapServices__TypeInfo, ___Elements) == 0x18, "Offset mismatch!");
+
 } // namespace System::Runtime::Remoting
 // Type: System.Runtime.Remoting::SoapServices
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3078))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3077))
 // CS Name: ::System.Runtime.Remoting::SoapServices*
 class CORDL_TYPE SoapServices : public ::System::Object {
 public:
@@ -137,49 +141,49 @@ public:
 
   static inline ::System::Collections::Hashtable* getStaticF__typeInfos();
 
-  /// @brief Method get_XmlNsForClrTypeWithAssembly addr 0x24944e4 size 0x40 virtual false final false
+  /// @brief Method get_XmlNsForClrTypeWithAssembly addr 0x233b9f0 size 0x40 virtual false final false
   static inline ::StringW get_XmlNsForClrTypeWithAssembly();
 
-  /// @brief Method get_XmlNsForClrTypeWithNs addr 0x2494524 size 0x40 virtual false final false
+  /// @brief Method get_XmlNsForClrTypeWithNs addr 0x233ba30 size 0x40 virtual false final false
   static inline ::StringW get_XmlNsForClrTypeWithNs();
 
-  /// @brief Method get_XmlNsForClrTypeWithNsAndAssembly addr 0x2494564 size 0x40 virtual false final false
+  /// @brief Method get_XmlNsForClrTypeWithNsAndAssembly addr 0x233ba70 size 0x40 virtual false final false
   static inline ::StringW get_XmlNsForClrTypeWithNsAndAssembly();
 
-  /// @brief Method CodeXmlNamespaceForClrTypeNamespace addr 0x24945a4 size 0x198 virtual false final false
+  /// @brief Method CodeXmlNamespaceForClrTypeNamespace addr 0x233bab0 size 0x198 virtual false final false
   static inline ::StringW CodeXmlNamespaceForClrTypeNamespace(::StringW typeNamespace, ::StringW assemblyName);
 
-  /// @brief Method GetNameKey addr 0x2494820 size 0x68 virtual false final false
+  /// @brief Method GetNameKey addr 0x233bd2c size 0x68 virtual false final false
   static inline ::StringW GetNameKey(::StringW name, ::StringW namspace);
 
-  /// @brief Method GetAssemblyName addr 0x2494888 size 0x134 virtual false final false
+  /// @brief Method GetAssemblyName addr 0x233bd94 size 0x134 virtual false final false
   static inline ::StringW GetAssemblyName(::System::Reflection::MethodBase* mb);
 
-  /// @brief Method GetXmlElementForInteropType addr 0x24949bc size 0xd0 virtual false final false
+  /// @brief Method GetXmlElementForInteropType addr 0x233bec8 size 0xd0 virtual false final false
   static inline bool GetXmlElementForInteropType(::System::Type* type, ByRef<::StringW> xmlElement, ByRef<::StringW> xmlNamespace);
 
-  /// @brief Method GetXmlNamespaceForMethodCall addr 0x2494a8c size 0x94 virtual false final false
+  /// @brief Method GetXmlNamespaceForMethodCall addr 0x233bf98 size 0x94 virtual false final false
   static inline ::StringW GetXmlNamespaceForMethodCall(::System::Reflection::MethodBase* mb);
 
-  /// @brief Method GetXmlNamespaceForMethodResponse addr 0x2494b20 size 0x94 virtual false final false
+  /// @brief Method GetXmlNamespaceForMethodResponse addr 0x233c02c size 0x94 virtual false final false
   static inline ::StringW GetXmlNamespaceForMethodResponse(::System::Reflection::MethodBase* mb);
 
-  /// @brief Method GetXmlTypeForInteropType addr 0x2494bb4 size 0xc8 virtual false final false
+  /// @brief Method GetXmlTypeForInteropType addr 0x233c0c0 size 0xc8 virtual false final false
   static inline bool GetXmlTypeForInteropType(::System::Type* type, ByRef<::StringW> xmlType, ByRef<::StringW> xmlTypeNamespace);
 
-  /// @brief Method PreLoad addr 0x2494c7c size 0xbc virtual false final false
+  /// @brief Method PreLoad addr 0x233c188 size 0xbc virtual false final false
   static inline void PreLoad(::System::Reflection::Assembly* assembly);
 
-  /// @brief Method PreLoad addr 0x2494d38 size 0x4c4 virtual false final false
+  /// @brief Method PreLoad addr 0x233c244 size 0x4c4 virtual false final false
   static inline void PreLoad(::System::Type* type);
 
-  /// @brief Method RegisterInteropXmlElement addr 0x249538c size 0x190 virtual false final false
+  /// @brief Method RegisterInteropXmlElement addr 0x233c898 size 0x190 virtual false final false
   static inline void RegisterInteropXmlElement(::StringW xmlElement, ::StringW xmlNamespace, ::System::Type* type);
 
-  /// @brief Method RegisterInteropXmlType addr 0x24951fc size 0x190 virtual false final false
+  /// @brief Method RegisterInteropXmlType addr 0x233c708 size 0x190 virtual false final false
   static inline void RegisterInteropXmlType(::StringW xmlType, ::StringW xmlTypeNamespace, ::System::Type* type);
 
-  /// @brief Method EncodeNs addr 0x249473c size 0xe4 virtual false final false
+  /// @brief Method EncodeNs addr 0x233bc48 size 0xe4 virtual false final false
   static inline ::StringW EncodeNs(::StringW ns);
 
   // Ctor Parameters [CppParam { name: "", ty: "SoapServices", modifiers: "&&", def_value: None }]

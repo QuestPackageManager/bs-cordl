@@ -7,18 +7,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DeclarationOfMajority)
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
-namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
-struct __DeclarationOfMajority__Choice;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
@@ -27,6 +15,18 @@ class DerGeneralizedTime;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
+struct __DeclarationOfMajority__Choice;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
@@ -89,6 +89,8 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::IsisMtt::X509::__DeclarationOfMajority__Choice, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::X509::__DeclarationOfMajority__Choice, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Asn1::IsisMtt::X509
 // Type: Org.BouncyCastle.Asn1.IsisMtt.X509::DeclarationOfMajority
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
@@ -124,40 +126,40 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority* New_ctor(int32_t notYoungerThan);
 
-  /// @brief Method .ctor addr 0xf77e84 size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0xf01c60 size 0xb4 virtual false final false
   inline void _ctor(int32_t notYoungerThan);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority* New_ctor(bool fullAge, ::StringW country);
 
-  /// @brief Method .ctor addr 0xf77f38 size 0x220 virtual false final false
+  /// @brief Method .ctor addr 0xf01d14 size 0x220 virtual false final false
   inline void _ctor(bool fullAge, ::StringW country);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority* New_ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* dateOfBirth);
 
-  /// @brief Method .ctor addr 0xf78158 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0xf01f34 size 0x84 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* dateOfBirth);
 
-  /// @brief Method GetInstance addr 0xf781dc size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xf01fb8 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* o);
 
-  /// @brief Method .ctor addr 0xf78364 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0xf02140 size 0xc0 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* o);
 
-  /// @brief Method ToAsn1Object addr 0xf78424 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf02200 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method get_Type addr 0xf7842c size 0x1c virtual false final false
+  /// @brief Method get_Type addr 0xf02208 size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::__DeclarationOfMajority__Choice get_Type();
 
-  /// @brief Method get_NotYoungerThan addr 0xf78448 size 0x40 virtual true final false
+  /// @brief Method get_NotYoungerThan addr 0xf02224 size 0x40 virtual true final false
   inline int32_t get_NotYoungerThan();
 
-  /// @brief Method get_FullAgeAtCountry addr 0xf78488 size 0x38 virtual true final false
+  /// @brief Method get_FullAgeAtCountry addr 0xf02264 size 0x38 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_FullAgeAtCountry();
 
-  /// @brief Method get_DateOfBirth addr 0xf784c0 size 0x38 virtual true final false
+  /// @brief Method get_DateOfBirth addr 0xf0229c size 0x38 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_DateOfBirth();
 
   // Ctor Parameters [CppParam { name: "", ty: "DeclarationOfMajority", modifiers: "&&", def_value: None }]
@@ -181,6 +183,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority, ___declaration) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::IsisMtt::X509
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::IsisMtt::X509::__DeclarationOfMajority__Choice, "Org.BouncyCastle.Asn1.IsisMtt.X509", "DeclarationOfMajority/Choice");

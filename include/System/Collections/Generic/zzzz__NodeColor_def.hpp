@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Collections::Generic::NodeColor);
 namespace System::Collections::Generic {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9542))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8379))
 // CS Name: ::System.Collections.Generic::NodeColor
 struct CORDL_TYPE NodeColor {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::Generic::NodeColor, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::System::Collections::Generic::NodeColor, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Collections::Generic
 DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Generic::NodeColor, "System.Collections.Generic", "NodeColor");

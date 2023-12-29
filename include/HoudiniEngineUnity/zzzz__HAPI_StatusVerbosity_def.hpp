@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_StatusVerbosity);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9688))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9615))
 // CS Name: ::HoudiniEngineUnity::HAPI_StatusVerbosity
 struct CORDL_TYPE HAPI_StatusVerbosity {
 public:
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_StatusVerbosity, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_StatusVerbosity, value__) == 0x0, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_StatusVerbosity, "HoudiniEngineUnity", "HAPI_StatusVerbosity");

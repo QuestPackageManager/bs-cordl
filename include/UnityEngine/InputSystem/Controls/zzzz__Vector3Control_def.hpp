@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Vector3Control)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Controls {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::Vector3Control);
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(6216)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 412
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6645)) CS Name: ::UnityEngine.InputSystem.Controls::Vector3Control*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6302), inst: 407 }), TypeDefinitionIndex(TypeDefinitionIndex(10176)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6302))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6731)) CS Name: ::UnityEngine.InputSystem.Controls::Vector3Control*
 class CORDL_TYPE Vector3Control : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::Vector3> {
 public:
   // Declarations
@@ -60,39 +60,39 @@ public:
 
   constexpr void __set__z_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_x addr 0x2b0c108 size 0x8 virtual false final false
+  /// @brief Method get_x addr 0x298b3b4 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_x();
 
-  /// @brief Method set_x addr 0x2b0c110 size 0x8 virtual false final false
+  /// @brief Method set_x addr 0x298b3bc size 0x8 virtual false final false
   inline void set_x(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_y addr 0x2b0c118 size 0x8 virtual false final false
+  /// @brief Method get_y addr 0x298b3c4 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_y();
 
-  /// @brief Method set_y addr 0x2b0c120 size 0x8 virtual false final false
+  /// @brief Method set_y addr 0x298b3cc size 0x8 virtual false final false
   inline void set_y(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_z addr 0x2b0c128 size 0x8 virtual false final false
+  /// @brief Method get_z addr 0x298b3d4 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_z();
 
-  /// @brief Method set_z addr 0x2b0c130 size 0x8 virtual false final false
+  /// @brief Method set_z addr 0x298b3dc size 0x8 virtual false final false
   inline void set_z(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   static inline ::UnityEngine::InputSystem::Controls::Vector3Control* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b0c138 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x298b3e4 size 0x88 virtual false final false
   inline void _ctor();
 
-  /// @brief Method FinishSetup addr 0x2b0c1c0 size 0xd0 virtual true final false
+  /// @brief Method FinishSetup addr 0x298b46c size 0xd0 virtual true final false
   inline void FinishSetup();
 
-  /// @brief Method ReadUnprocessedValueFromState addr 0x2b0c290 size 0x8c virtual true final false
+  /// @brief Method ReadUnprocessedValueFromState addr 0x298b53c size 0x8c virtual true final false
   inline ::UnityEngine::Vector3 ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState addr 0x2b0c31c size 0x84 virtual true final false
+  /// @brief Method WriteValueIntoState addr 0x298b5c8 size 0x84 virtual true final false
   inline void WriteValueIntoState(::UnityEngine::Vector3 value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method EvaluateMagnitude addr 0x2b0c3a0 size 0xc8 virtual true final false
+  /// @brief Method EvaluateMagnitude addr 0x298b64c size 0xc8 virtual true final false
   inline float_t EvaluateMagnitude(::cordl_internals::Ptr<void> statePtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector3Control", modifiers: "&&", def_value: None }]
@@ -122,6 +122,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::Vector3Control, 0x108>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::Vector3Control, ____x_k__BackingField) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::Vector3Control, ____y_k__BackingField) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::Vector3Control, ____z_k__BackingField) == 0x100, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Controls
 NEED_NO_BOX(::UnityEngine::InputSystem::Controls::Vector3Control);

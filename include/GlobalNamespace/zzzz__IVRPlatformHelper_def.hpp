@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRPlatformHelper)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace GlobalNamespace {
 struct VRPlatformSDK;
 }
 namespace UnityEngine {
-struct Pose;
+struct Vector3;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+struct EulerPose;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
+namespace UnityEngine {
+struct Vector2;
+}
 namespace UnityEngine::XR {
 struct XRNode;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IVRPlatformHelper);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14416))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13988))
 // CS Name: ::IVRPlatformHelper*
 class CORDL_TYPE IVRPlatformHelper {
 public:
@@ -93,12 +93,6 @@ public:
   /// @brief Method remove_controllersDidChangeReferenceEvent addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void remove_controllersDidChangeReferenceEvent(::System::Action* value);
 
-  /// @brief Method add_controllersDidDisconnectEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void add_controllersDidDisconnectEvent(::System::Action* value);
-
-  /// @brief Method remove_controllersDidDisconnectEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void remove_controllersDidDisconnectEvent(::System::Action* value);
-
   /// @brief Method get_hasInputFocus addr 0x0 size 0xffffffffffffffff virtual true final false
   inline bool get_hasInputFocus();
 
@@ -117,8 +111,8 @@ public:
   /// @brief Method StopHaptics addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void StopHaptics(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method TryGetPoseOffsetForNode addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline bool TryGetPoseOffsetForNode(::UnityEngine::XR::XRNode node, ByRef<::UnityEngine::Pose> poseOffset);
+  /// @brief Method GetPoseOffsetForNode addr 0x0 size 0xffffffffffffffff virtual true final false
+  inline ::GlobalNamespace::EulerPose GetPoseOffsetForNode(::UnityEngine::XR::XRNode node);
 
   /// @brief Method GetNodePose addr 0x0 size 0xffffffffffffffff virtual true final false
   inline bool GetNodePose(::UnityEngine::XR::XRNode nodeType, int32_t idx, ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> rot);

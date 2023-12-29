@@ -11,35 +11,35 @@ CORDL_MODULE_EXPORT(TypeSpec)
 namespace System::Reflection {
 class AssemblyName;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Threading {
-struct StackCrawlMark;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class ModifierSpec;
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 struct __TypeSpec__DisplayNameFormat;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Text {
-class StringBuilder;
 }
 namespace System::Reflection {
 class Assembly;
 }
 namespace System {
 class TypeIdentifier;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Threading {
+struct StackCrawlMark;
+}
+namespace System {
+class ModifierSpec;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class Type;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
 }
 // Forward declare root types
 namespace System {
@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::System::TypeSpec);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2636))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2634))
 // CS Name: ::TypeSpec::DisplayNameFormat
 struct CORDL_TYPE __TypeSpec__DisplayNameFormat {
 public:
@@ -102,13 +102,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::__TypeSpec__DisplayNameFormat, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::System::__TypeSpec__DisplayNameFormat, value__) == 0x0, "Offset mismatch!");
+
 } // namespace System
 // Type: System::TypeSpec
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2637))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2635))
 // CS Name: ::System::TypeSpec*
 class CORDL_TYPE TypeSpec : public ::System::Object {
 public:
@@ -182,50 +184,50 @@ public:
 
   constexpr void __set_display_fullname(::StringW value);
 
-  /// @brief Method get_HasModifiers addr 0x2606b9c size 0x10 virtual false final false
+  /// @brief Method get_HasModifiers addr 0x24abc14 size 0x10 virtual false final false
   inline bool get_HasModifiers();
 
-  /// @brief Method GetDisplayFullName addr 0x2606bac size 0x454 virtual false final false
+  /// @brief Method GetDisplayFullName addr 0x24abc24 size 0x454 virtual false final false
   inline ::StringW GetDisplayFullName(::System::__TypeSpec__DisplayNameFormat flags);
 
-  /// @brief Method GetModifierString addr 0x2607028 size 0x1f4 virtual false final false
+  /// @brief Method GetModifierString addr 0x24ac0a0 size 0x1f4 virtual false final false
   inline ::System::Text::StringBuilder* GetModifierString(::System::Text::StringBuilder* sb);
 
-  /// @brief Method get_DisplayFullName addr 0x2607000 size 0x28 virtual false final false
+  /// @brief Method get_DisplayFullName addr 0x24ac078 size 0x28 virtual false final false
   inline ::StringW get_DisplayFullName();
 
-  /// @brief Method Parse addr 0x260721c size 0xd8 virtual false final false
+  /// @brief Method Parse addr 0x24ac294 size 0xd8 virtual false final false
   static inline ::System::TypeSpec* Parse(::StringW typeName);
 
-  /// @brief Method UnescapeInternalName addr 0x2607e78 size 0xe8 virtual false final false
+  /// @brief Method UnescapeInternalName addr 0x24acef0 size 0xe8 virtual false final false
   static inline ::StringW UnescapeInternalName(::StringW displayName);
 
-  /// @brief Method Resolve addr 0x2607f60 size 0x90c virtual false final false
+  /// @brief Method Resolve addr 0x24acfd8 size 0x90c virtual false final false
   inline ::System::Type* Resolve(::System::Func_2<::System::Reflection::AssemblyName*, ::System::Reflection::Assembly*>* assemblyResolver,
                                  ::System::Func_4<::System::Reflection::Assembly*, ::StringW, bool, ::System::Type*>* typeResolver, bool throwOnError, bool ignoreCase,
                                  ByRef<::System::Threading::StackCrawlMark> stackMark);
 
-  /// @brief Method AddName addr 0x260886c size 0x118 virtual false final false
+  /// @brief Method AddName addr 0x24ad8e4 size 0x118 virtual false final false
   inline void AddName(::StringW type_name);
 
-  /// @brief Method AddModifier addr 0x260898c size 0xf0 virtual false final false
+  /// @brief Method AddModifier addr 0x24ada04 size 0xf0 virtual false final false
   inline void AddModifier(::System::ModifierSpec* md);
 
-  /// @brief Method SkipSpace addr 0x2608a7c size 0xb0 virtual false final false
+  /// @brief Method SkipSpace addr 0x24adaf4 size 0xb0 virtual false final false
   static inline void SkipSpace(::StringW name, ByRef<int32_t> pos);
 
-  /// @brief Method BoundCheck addr 0x2608b2c size 0x88 virtual false final false
+  /// @brief Method BoundCheck addr 0x24adba4 size 0x88 virtual false final false
   static inline void BoundCheck(int32_t idx, ::StringW s);
 
-  /// @brief Method ParsedTypeIdentifier addr 0x2608984 size 0x8 virtual false final false
+  /// @brief Method ParsedTypeIdentifier addr 0x24ad9fc size 0x8 virtual false final false
   static inline ::System::TypeIdentifier* ParsedTypeIdentifier(::StringW displayName);
 
-  /// @brief Method Parse addr 0x26072f4 size 0xb84 virtual false final false
+  /// @brief Method Parse addr 0x24ac36c size 0xb84 virtual false final false
   static inline ::System::TypeSpec* Parse(::StringW name, ByRef<int32_t> p, bool is_recurse, bool allow_aqn);
 
   static inline ::System::TypeSpec* New_ctor();
 
-  /// @brief Method .ctor addr 0x2608bb4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24adc2c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeSpec", modifiers: "&&", def_value: None }]
@@ -267,6 +269,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::TypeSpec, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::System::TypeSpec, ___name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::TypeSpec, ___assembly_name) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::TypeSpec, ___nested) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::TypeSpec, ___generic_params) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::TypeSpec, ___modifier_spec) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::TypeSpec, ___is_byref) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::TypeSpec, ___display_fullname) == 0x40, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::__TypeSpec__DisplayNameFormat, "System", "TypeSpec/DisplayNameFormat");

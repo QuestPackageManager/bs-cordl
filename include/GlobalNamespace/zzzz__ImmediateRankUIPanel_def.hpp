@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ImmediateRankUIPanel)
+namespace GlobalNamespace {
+class RelativeScoreAndImmediateRankCounter;
+}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace System::Text {
 class StringBuilder;
-}
-namespace GlobalNamespace {
-class RelativeScoreAndImmediateRankCounter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ImmediateRankUIPanel);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15034))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5034))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15179)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5139))
 // CS Name: ::ImmediateRankUIPanel*
 class CORDL_TYPE ImmediateRankUIPanel : public ::UnityEngine::MonoBehaviour {
 public:
@@ -86,18 +86,18 @@ public:
 
   constexpr void __set__prevImmediateRank(::GlobalNamespace::__RankModel__Rank value);
 
-  /// @brief Method Start addr 0x23c0d50 size 0xc4 virtual false final false
+  /// @brief Method Start addr 0x22879e4 size 0xc4 virtual false final false
   inline void Start();
 
-  /// @brief Method HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange addr 0x23c101c size 0x4 virtual false final false
+  /// @brief Method HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange addr 0x2287cb0 size 0x4 virtual false final false
   inline void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange();
 
-  /// @brief Method RefreshUI addr 0x23c0e14 size 0x16c virtual false final false
+  /// @brief Method RefreshUI addr 0x2287aa8 size 0x16c virtual false final false
   inline void RefreshUI();
 
   static inline ::GlobalNamespace::ImmediateRankUIPanel* New_ctor();
 
-  /// @brief Method .ctor addr 0x23c1020 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x2287cb4 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ImmediateRankUIPanel", modifiers: "&&", def_value: None }]
@@ -136,6 +136,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ImmediateRankUIPanel, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ImmediateRankUIPanel, ____rankText) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ImmediateRankUIPanel, ____relativeScoreText) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ImmediateRankUIPanel, ____relativeScoreAndImmediateRankCounter) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ImmediateRankUIPanel, ____stringBuilder) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ImmediateRankUIPanel, ____prevRelativeScore) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ImmediateRankUIPanel, ____prevImmediateRank) == 0x3c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ImmediateRankUIPanel);

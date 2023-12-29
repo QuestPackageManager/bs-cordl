@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokeni
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7490))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7576))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::StyleSyntaxTokenizer*
 class CORDL_TYPE StyleSyntaxTokenizer : public ::System::Object {
 public:
@@ -48,33 +48,33 @@ public:
 
   constexpr void __set_m_CurrentTokenIndex(int32_t value);
 
-  /// @brief Method get_current addr 0x2df5de4 size 0xac virtual false final false
+  /// @brief Method get_current addr 0x2c8ea34 size 0xac virtual false final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken get_current();
 
-  /// @brief Method MoveNext addr 0x2df5e90 size 0x114 virtual false final false
+  /// @brief Method MoveNext addr 0x2c8eae0 size 0x114 virtual false final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken MoveNext();
 
-  /// @brief Method PeekNext addr 0x2df5fa4 size 0xb0 virtual false final false
+  /// @brief Method PeekNext addr 0x2c8ebf4 size 0xb0 virtual false final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken PeekNext();
 
-  /// @brief Method Tokenize addr 0x2df6054 size 0xcf8 virtual false final false
+  /// @brief Method Tokenize addr 0x2c8eca4 size 0xcf8 virtual false final false
   inline void Tokenize(::StringW syntax);
 
-  /// @brief Method IsNextCharacter addr 0x2df6d88 size 0x44 virtual false final false
+  /// @brief Method IsNextCharacter addr 0x2c8f9d8 size 0x44 virtual false final false
   static inline bool IsNextCharacter(::StringW s, int32_t index, char16_t c);
 
-  /// @brief Method IsNextLetterOrDash addr 0x2df6e64 size 0xc0 virtual false final false
+  /// @brief Method IsNextLetterOrDash addr 0x2c8fab4 size 0xc0 virtual false final false
   static inline bool IsNextLetterOrDash(::StringW s, int32_t index);
 
-  /// @brief Method IsNextNumber addr 0x2df6dcc size 0x98 virtual false final false
+  /// @brief Method IsNextNumber addr 0x2c8fa1c size 0x98 virtual false final false
   static inline bool IsNextNumber(::StringW s, int32_t index);
 
-  /// @brief Method GlobCharacter addr 0x2df6d4c size 0x3c virtual false final false
+  /// @brief Method GlobCharacter addr 0x2c8f99c size 0x3c virtual false final false
   static inline int32_t GlobCharacter(::StringW s, int32_t index, char16_t c);
 
   static inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2df6f24 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x2c8fb74 size 0x84 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleSyntaxTokenizer", modifiers: "&&", def_value: None }]
@@ -101,6 +101,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer, ___m_Tokens) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer, ___m_CurrentTokenIndex) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets::Syntax
 NEED_NO_BOX(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer);

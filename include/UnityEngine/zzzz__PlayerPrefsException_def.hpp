@@ -15,15 +15,15 @@ MARK_REF_PTR_T(::UnityEngine::PlayerPrefsException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10039))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9967))
 // CS Name: ::UnityEngine::PlayerPrefsException*
 class CORDL_TYPE PlayerPrefsException : public ::System::Exception {
 public:
   // Declarations
   static inline ::UnityEngine::PlayerPrefsException* New_ctor(::StringW error);
 
-  /// @brief Method .ctor addr 0x2c9e688 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x2b39960 size 0x68 virtual false final false
   inline void _ctor(::StringW error);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerPrefsException", modifiers: "&&", def_value: None }]

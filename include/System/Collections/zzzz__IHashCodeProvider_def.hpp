@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Collections::IHashCodeProvider);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3799))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3787))
 // CS Name: ::System.Collections::IHashCodeProvider*
 class CORDL_TYPE IHashCodeProvider {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Yoga::YogaOverflow);
 namespace UnityEngine::Yoga {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15373))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15403))
 // CS Name: ::UnityEngine.Yoga::YogaOverflow
 struct CORDL_TYPE YogaOverflow {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Yoga::YogaOverflow, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Yoga::YogaOverflow, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Yoga
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Yoga::YogaOverflow, "UnityEngine.Yoga", "YogaOverflow");

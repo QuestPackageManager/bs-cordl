@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpriteLightWithId)
 namespace UnityEngine {
-class SpriteRenderer;
+struct Color;
 }
 namespace UnityEngine {
-struct Color;
+class SpriteRenderer;
 }
 namespace GlobalNamespace {
 struct __SpriteLightWithId__MultiplyColorByAlphaType;
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SpriteLightWithId);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14556))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14774))
 // CS Name: ::SpriteLightWithId::MultiplyColorByAlphaType
 struct CORDL_TYPE __SpriteLightWithId__MultiplyColorByAlphaType {
 public:
@@ -78,13 +78,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SpriteLightWithId
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 83, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542)), TypeDefinitionIndex(TypeDefinitionIndex(14556))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14557))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14774))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14775))
 // CS Name: ::SpriteLightWithId*
 class CORDL_TYPE SpriteLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -183,15 +185,15 @@ public:
 
   constexpr void __set__setOnlyOnce(bool value);
 
-  /// @brief Method get_color addr 0x2113eb4 size 0x1c virtual false final false
+  /// @brief Method get_color addr 0x1fbd448 size 0x1c virtual false final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method ColorWasSet addr 0x2113ed0 size 0x144 virtual true final false
+  /// @brief Method ColorWasSet addr 0x1fbd464 size 0x144 virtual true final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::SpriteLightWithId* New_ctor();
 
-  /// @brief Method .ctor addr 0x2114014 size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x1fbd5a8 size 0x1024 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SpriteLightWithId", modifiers: "&&", def_value: None }]
@@ -242,6 +244,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpriteLightWithId, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____spriteRenderer) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____hideIfAlphaOutOfRange) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____hideAlphaRangeMin) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____hideAlphaRangeMax) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____intensity) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____minAlpha) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____multiplyColorByAlpha) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____setColorOnly) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____setAlphaOnly) == 0x51, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____setOnlyOnce) == 0x52, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType, "", "SpriteLightWithId/MultiplyColorByAlphaType");

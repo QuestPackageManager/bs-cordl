@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnu
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3243))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3242))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryHeaderEnum
 struct CORDL_TYPE BinaryHeaderEnum {
 public:
@@ -141,6 +141,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum, "System.Runtime.Serialization.Formatters.Binary", "BinaryHeaderEnum");

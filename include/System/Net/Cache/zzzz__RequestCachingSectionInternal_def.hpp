@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::System::Net::Cache::RequestCachingSectionInternal);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Net::Cache {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9319))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8156))
 // CS Name: ::System.Net.Cache::RequestCachingSectionInternal*
 class CORDL_TYPE RequestCachingSectionInternal : public ::System::Object {
 public:
@@ -31,7 +31,7 @@ public:
 
   static inline ::System::Net::Cache::RequestCachingSectionInternal* New_ctor();
 
-  /// @brief Method .ctor addr 0x29f12b0 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2874a2c size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RequestCachingSectionInternal", modifiers: "&&", def_value: None }]
@@ -55,6 +55,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Cache::RequestCachingSectionInternal, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Cache::RequestCachingSectionInternal, ___DisableAllCaching) == 0x10, "Offset mismatch!");
 
 } // namespace System::Net::Cache
 NEED_NO_BOX(::System::Net::Cache::RequestCachingSectionInternal);

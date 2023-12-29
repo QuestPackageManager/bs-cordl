@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Diagnostics::ProcessWindowStyle);
 namespace System::Diagnostics {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8960))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7797))
 // CS Name: ::System.Diagnostics::ProcessWindowStyle
 struct CORDL_TYPE ProcessWindowStyle {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::ProcessWindowStyle, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::ProcessWindowStyle, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Diagnostics
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::ProcessWindowStyle, "System.Diagnostics", "ProcessWindowStyle");

@@ -7,34 +7,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExtendedKeyUsage)
 namespace Org::BouncyCastle::Asn1::X509 {
-class KeyPurposeID;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections {
-class IList;
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class KeyPurposeID;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace System::Collections {
 class IDictionary;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class ArrayList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -72,48 +72,48 @@ public:
 
   constexpr void __set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0x118ce68 size 0x18 virtual false final false
+  /// @brief Method GetInstance addr 0x111cc20 size 0x18 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0x118ce80 size 0xec virtual false final false
+  /// @brief Method GetInstance addr 0x111cc38 size 0xec virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* GetInstance(::System::Object* obj);
 
-  /// @brief Method FromExtensions addr 0x118d458 size 0x74 virtual false final false
+  /// @brief Method FromExtensions addr 0x111d210 size 0x74 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x118d074 size 0x3e4 virtual false final false
+  /// @brief Method .ctor addr 0x111ce2c size 0x3e4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*, ::Array<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*>*> usages);
 
-  /// @brief Method .ctor addr 0x118d4cc size 0x170 virtual false final false
+  /// @brief Method .ctor addr 0x111d284 size 0x170 virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*, ::Array<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*>*> usages);
 
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* New_ctor(::System::Collections::ArrayList* usages);
 
-  /// @brief Method .ctor addr 0x118d63c size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x111d3f4 size 0x4 virtual false final false
   inline void _ctor(::System::Collections::ArrayList* usages);
 
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* New_ctor(::System::Collections::IEnumerable* usages);
 
-  /// @brief Method .ctor addr 0x118d640 size 0x458 virtual false final false
+  /// @brief Method .ctor addr 0x111d3f8 size 0x458 virtual false final false
   inline void _ctor(::System::Collections::IEnumerable* usages);
 
-  /// @brief Method HasKeyPurposeId addr 0x118da98 size 0xac virtual false final false
+  /// @brief Method HasKeyPurposeId addr 0x111d850 size 0xac virtual false final false
   inline bool HasKeyPurposeId(::Org::BouncyCastle::Asn1::X509::KeyPurposeID* keyPurposeId);
 
-  /// @brief Method GetUsages addr 0x118db44 size 0xe4 virtual false final false
+  /// @brief Method GetUsages addr 0x111d8fc size 0xe4 virtual false final false
   inline ::System::Collections::ArrayList* GetUsages();
 
-  /// @brief Method GetAllUsages addr 0x118dc28 size 0xdc virtual false final false
+  /// @brief Method GetAllUsages addr 0x111d9e0 size 0xdc virtual false final false
   inline ::System::Collections::IList* GetAllUsages();
 
-  /// @brief Method get_Count addr 0x118dd04 size 0xa4 virtual false final false
+  /// @brief Method get_Count addr 0x111dabc size 0xa4 virtual false final false
   inline int32_t get_Count();
 
-  /// @brief Method ToAsn1Object addr 0x118dda8 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x111db60 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExtendedKeyUsage", modifiers: "&&", def_value: None }]
@@ -140,6 +140,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage, ___usageTable) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage, ___seq) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage);

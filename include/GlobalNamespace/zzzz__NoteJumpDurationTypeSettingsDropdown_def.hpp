@@ -25,17 +25,17 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5602), inst: 4748 }), TypeDefinitionIndex(TypeDefinitionIndex(5602)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4622))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5606)) CS Name: ::NoteJumpDurationTypeSettingsDropdown*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4737)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5698), inst: 4649 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(5698))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5701)) CS Name: ::NoteJumpDurationTypeSettingsDropdown*
 class CORDL_TYPE NoteJumpDurationTypeSettingsDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::NoteJumpDurationTypeSettings> {
 public:
   // Declarations
-  /// @brief Method GetNamedValues addr 0x22ab764 size 0xf4 virtual true final false
+  /// @brief Method GetNamedValues addr 0x2166758 size 0xf4 virtual true final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings, ::StringW>*>* GetNamedValues();
 
   static inline ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown* New_ctor();
 
-  /// @brief Method .ctor addr 0x22ab858 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x216684c size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteJumpDurationTypeSettingsDropdown", modifiers: "&&", def_value: None }]

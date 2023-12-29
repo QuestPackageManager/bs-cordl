@@ -13,23 +13,23 @@ CORDL_MODULE_EXPORT(NetEvent)
 namespace LiteNetLib {
 class NetPeer;
 }
-namespace LiteNetLib {
-class NetPacketReader;
-}
 namespace System {
 class Object;
 }
 namespace LiteNetLib {
 struct __NetEvent__EType;
 }
-namespace System::Net {
-class IPEndPoint;
+namespace LiteNetLib {
+class ConnectionRequest;
 }
 namespace LiteNetLib {
 class NetManager;
 }
 namespace LiteNetLib {
-class ConnectionRequest;
+class NetPacketReader;
+}
+namespace System::Net {
+class IPEndPoint;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::LiteNetLib::NetEvent);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14163))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14501))
 // CS Name: ::NetEvent::EType
 struct CORDL_TYPE __NetEvent__EType {
 public:
@@ -116,13 +116,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::__NetEvent__EType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::LiteNetLib::__NetEvent__EType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace LiteNetLib
 // Type: LiteNetLib::NetEvent
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9347)), TypeDefinitionIndex(TypeDefinitionIndex(14131)), TypeDefinitionIndex(TypeDefinitionIndex(14163)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14155))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14164)) CS Name: ::LiteNetLib::NetEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14469)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14501)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14493)), TypeDefinitionIndex(TypeDefinitionIndex(8184))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14502)) CS Name: ::LiteNetLib::NetEvent*
 class CORDL_TYPE NetEvent : public ::System::Object {
 public:
   // Declarations
@@ -220,7 +222,7 @@ public:
 
   static inline ::LiteNetLib::NetEvent* New_ctor(::LiteNetLib::NetManager* manager);
 
-  /// @brief Method .ctor addr 0x21fc760 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x209a90c size 0x7c virtual false final false
   inline void _ctor(::LiteNetLib::NetManager* manager);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetEvent", modifiers: "&&", def_value: None }]
@@ -271,6 +273,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::NetEvent, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetEvent, ___Type) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetEvent, ___Peer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetEvent, ___RemoteEndPoint) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetEvent, ___UserData) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetEvent, ___Latency) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetEvent, ___ErrorCode) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetEvent, ___DisconnectReason) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetEvent, ___ConnectionRequest) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetEvent, ___DeliveryMethod) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetEvent, ___DataReader) == 0x50, "Offset mismatch!");
 
 } // namespace LiteNetLib
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::__NetEvent__EType, "LiteNetLib", "NetEvent/EType");

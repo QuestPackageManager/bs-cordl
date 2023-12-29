@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseReorderableDragAndDropController_def.hpp"
 CORDL_MODULE_EXPORT(ListViewReorderableDragAndDropController)
 namespace UnityEngine::UIElements {
+class ListView;
+}
+namespace UnityEngine::UIElements {
 class IListDragAndDropArgs;
 }
 namespace UnityEngine::UIElements {
 struct DragVisualMode;
-}
-namespace UnityEngine::UIElements {
-class ListView;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ListViewReorderableDragAndDropControll
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6951))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6950))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7037))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7036))
 // CS Name: ::UnityEngine.UIElements::ListViewReorderableDragAndDropController*
 class CORDL_TYPE ListViewReorderableDragAndDropController : public ::UnityEngine::UIElements::BaseReorderableDragAndDropController {
 public:
@@ -40,13 +40,13 @@ public:
 
   static inline ::UnityEngine::UIElements::ListViewReorderableDragAndDropController* New_ctor(::UnityEngine::UIElements::ListView* view);
 
-  /// @brief Method .ctor addr 0x2e08b0c size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x2ca275c size 0x34 virtual false final false
   inline void _ctor(::UnityEngine::UIElements::ListView* view);
 
-  /// @brief Method HandleDragAndDrop addr 0x2e08b70 size 0x19c virtual true final false
+  /// @brief Method HandleDragAndDrop addr 0x2ca27c0 size 0x19c virtual true final false
   inline ::UnityEngine::UIElements::DragVisualMode HandleDragAndDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
 
-  /// @brief Method OnDrop addr 0x2e08d0c size 0x288 virtual true final false
+  /// @brief Method OnDrop addr 0x2ca295c size 0x288 virtual true final false
   inline void OnDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
 
   // Ctor Parameters [CppParam { name: "", ty: "ListViewReorderableDragAndDropController", modifiers: "&&", def_value: None }]
@@ -70,6 +70,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ListViewReorderableDragAndDropController, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ListViewReorderableDragAndDropController, ___m_ListView) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ListViewReorderableDragAndDropController);

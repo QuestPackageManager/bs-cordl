@@ -16,7 +16,7 @@ MARK_VAL_T(::Polyglot::GoogleDriveDownloadFormat);
 namespace Polyglot {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15552))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15536))
 // CS Name: ::Polyglot::GoogleDriveDownloadFormat
 struct CORDL_TYPE GoogleDriveDownloadFormat {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Polyglot::GoogleDriveDownloadFormat, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Polyglot::GoogleDriveDownloadFormat, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Polyglot
 DEFINE_IL2CPP_ARG_TYPE(::Polyglot::GoogleDriveDownloadFormat, "Polyglot", "GoogleDriveDownloadFormat");

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMenuButtonTrigger);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5053))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5158))
 // CS Name: ::IMenuButtonTrigger*
 class CORDL_TYPE IMenuButtonTrigger {
 public:

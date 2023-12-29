@@ -5,8 +5,14 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonetaryValue)
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::X509::Qualified {
+class Iso4217CurrencyCode;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
@@ -14,14 +20,8 @@ class DerInteger;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::X509::Qualified {
-class Iso4217CurrencyCode;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509::Qualified {
@@ -72,29 +72,29 @@ public:
 
   constexpr void __set_exponent(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method GetInstance addr 0x10810e4 size 0x168 virtual false final false
+  /// @brief Method GetInstance addr 0x100fe94 size 0x168 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x108124c size 0x13c virtual false final false
+  /// @brief Method .ctor addr 0x100fffc size 0x13c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue* New_ctor(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* currency, int32_t amount, int32_t exponent);
 
-  /// @brief Method .ctor addr 0x1081388 size 0xb0 virtual false final false
+  /// @brief Method .ctor addr 0x1010138 size 0xb0 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* currency, int32_t amount, int32_t exponent);
 
-  /// @brief Method get_Currency addr 0x1081438 size 0x8 virtual false final false
+  /// @brief Method get_Currency addr 0x10101e8 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* get_Currency();
 
-  /// @brief Method get_Amount addr 0x1081440 size 0x1c virtual false final false
+  /// @brief Method get_Amount addr 0x10101f0 size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Amount();
 
-  /// @brief Method get_Exponent addr 0x108145c size 0x1c virtual false final false
+  /// @brief Method get_Exponent addr 0x101020c size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Exponent();
 
-  /// @brief Method ToAsn1Object addr 0x1081478 size 0x11c virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1010228 size 0x11c virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonetaryValue", modifiers: "&&", def_value: None }]
@@ -124,6 +124,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue, ___currency) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue, ___amount) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue, ___exponent) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509::Qualified
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue);

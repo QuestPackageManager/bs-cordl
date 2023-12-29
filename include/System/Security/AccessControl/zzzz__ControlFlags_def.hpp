@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::AccessControl::ControlFlags);
 namespace System::Security::AccessControl {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3028))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3027))
 // CS Name: ::System.Security.AccessControl::ControlFlags
 struct CORDL_TYPE ControlFlags {
 public:
@@ -117,6 +117,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::ControlFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::ControlFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Security::AccessControl
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::ControlFlags, "System.Security.AccessControl", "ControlFlags");

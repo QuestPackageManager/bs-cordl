@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncReadManagerMetricsFilters)
 namespace Unity::IO::LowLevel::Unsafe {
-struct AssetLoadingSubsystem;
+struct FileReadType;
 }
 namespace Unity::IO::LowLevel::Unsafe {
-struct FileReadType;
+struct AssetLoadingSubsystem;
 }
 namespace Unity::IO::LowLevel::Unsafe {
 struct Priority;
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters);
 // SizeInfo { instance_size: 56, native_size: 40, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9991))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9919))
 // CS Name: ::Unity.IO.LowLevel.Unsafe::AsyncReadManagerMetricsFilters*
 class CORDL_TYPE AsyncReadManagerMetricsFilters : public ::System::Object {
 public:
@@ -113,6 +113,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters, ___TypeIDs) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters, ___States) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters, ___ReadTypes) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters, ___PriorityLevels) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters, ___Subsystems) == 0x30, "Offset mismatch!");
 
 } // namespace Unity::IO::LowLevel::Unsafe
 NEED_NO_BOX(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters);

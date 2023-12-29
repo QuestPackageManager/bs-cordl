@@ -14,8 +14,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerSaveData)
+namespace GlobalNamespace {
+class __PlayerSaveData__PlayerMissionStatsData;
+}
+namespace GlobalNamespace {
+class __PlayerSaveData__ColorSchemesSettings;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class __PlayerSaveData__LocalPlayer;
 }
 namespace GlobalNamespace {
 class __PlayerSaveData__PlayerSpecificSettings;
@@ -24,67 +33,52 @@ namespace GlobalNamespace {
 class __PlayerSaveData__ColorScheme;
 }
 namespace GlobalNamespace {
-class __PlayerSaveData__PlayerAllOverallStatsData;
-}
-namespace GlobalNamespace {
-class __PlayerSaveData__PracticeSettings;
-}
-namespace GlobalNamespace {
-struct __PlayerSaveData__PlayerSensitivityFlagSaveData;
-}
-namespace GlobalNamespace {
 class __PlayerSaveData__GuestPlayer;
 }
 namespace GlobalNamespace {
-class __PlayerSaveData__OverrideEnvironmentSettings;
-}
-namespace GlobalNamespace {
-class __PlayerSaveData__GameplayModifiers;
+class __PlayerSaveData__PlayerAgreementsData;
 }
 namespace GlobalNamespace {
 class __PlayerSaveData__PlayerOverallStatsData;
 }
 namespace GlobalNamespace {
-class __PlayerSaveData__PlayerLevelStatsData;
+class __PlayerSaveData__PracticeSettings;
 }
 namespace GlobalNamespace {
-class __PlayerSaveData__PlayerMissionStatsData;
+class __PlayerSaveData__PlayerAllOverallStatsData;
+}
+namespace GlobalNamespace {
+class __PlayerSaveData__OverrideEnvironmentSettings;
 }
 namespace GlobalNamespace {
 class __PlayerSaveData__MultiplayerModeSettings;
 }
 namespace GlobalNamespace {
-struct __PlayerSaveData__UserAgeCategorySaveData;
+class __PlayerSaveData__PlayerLevelStatsData;
 }
 namespace GlobalNamespace {
-class __PlayerSaveData__LocalPlayer;
-}
-namespace GlobalNamespace {
-class __PlayerSaveData__ColorSchemesSettings;
-}
-namespace GlobalNamespace {
-class __PlayerSaveData__PlayerAgreementsData;
+class __PlayerSaveData__GameplayModifiers;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-struct __PlayerSaveData__GameplayModifiers__EnabledObstacleType;
+struct __PlayerSaveData__GameplayModifiers__SongSpeed;
 }
 namespace GlobalNamespace {
 struct __PlayerSaveData__GameplayModifiers__EnergyType;
 }
 namespace GlobalNamespace {
-struct __PlayerSaveData__GameplayModifiers__SongSpeed;
+struct __PlayerSaveData__GameplayModifiers__EnabledObstacleType;
+}
+namespace GlobalNamespace {
+struct __PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
 }
 namespace GlobalNamespace {
 struct __PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData;
 }
 namespace GlobalNamespace {
 struct __PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData;
-}
-namespace GlobalNamespace {
-struct __PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -97,9 +91,6 @@ namespace GlobalNamespace {
 struct __PlayerSaveData__GameplayModifiers__SongSpeed;
 }
 namespace GlobalNamespace {
-struct __PlayerSaveData__PlayerSensitivityFlagSaveData;
-}
-namespace GlobalNamespace {
 struct __PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData;
 }
 namespace GlobalNamespace {
@@ -107,9 +98,6 @@ struct __PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetS
 }
 namespace GlobalNamespace {
 struct __PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData;
-}
-namespace GlobalNamespace {
-struct __PlayerSaveData__UserAgeCategorySaveData;
 }
 namespace GlobalNamespace {
 class PlayerSaveData;
@@ -160,11 +148,9 @@ class __PlayerSaveData__PracticeSettings;
 MARK_VAL_T(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType);
 MARK_VAL_T(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType);
 MARK_VAL_T(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed);
-MARK_VAL_T(::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData);
 MARK_VAL_T(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData);
 MARK_VAL_T(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData);
 MARK_VAL_T(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData);
-MARK_VAL_T(::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData);
 MARK_REF_PTR_T(::GlobalNamespace::PlayerSaveData);
 MARK_REF_PTR_T(::GlobalNamespace::__PlayerSaveData__ColorScheme);
 MARK_REF_PTR_T(::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings);
@@ -185,7 +171,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__PlayerSaveData__PracticeSettings);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4634))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4748))
 // CS Name: ::PlayerSaveData::GameplayModifiers::EnabledObstacleType
 struct CORDL_TYPE __PlayerSaveData__GameplayModifiers__EnabledObstacleType {
 public:
@@ -231,13 +217,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::EnergyType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4635))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4749))
 // CS Name: ::PlayerSaveData::GameplayModifiers::EnergyType
 struct CORDL_TYPE __PlayerSaveData__GameplayModifiers__EnergyType {
 public:
@@ -279,13 +267,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SongSpeed
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4636))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4750))
 // CS Name: ::PlayerSaveData::GameplayModifiers::SongSpeed
 struct CORDL_TYPE __PlayerSaveData__GameplayModifiers__SongSpeed {
 public:
@@ -331,13 +321,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::GameplayModifiers
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4635)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4636)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4634))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4637)) CS Name: ::PlayerSaveData::GameplayModifiers*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4748)), TypeDefinitionIndex(TypeDefinitionIndex(4749)), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4750))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4751)) CS Name: ::PlayerSaveData::GameplayModifiers*
 class CORDL_TYPE __PlayerSaveData__GameplayModifiers : public ::System::Object {
 public:
   // Declarations
@@ -484,7 +476,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__GameplayModifiers* New_ctor();
 
-  /// @brief Method .ctor addr 0x2372854 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2238be8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__GameplayModifiers", modifiers: "&&", def_value: None }]
@@ -551,13 +543,43 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__GameplayModifiers, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___energyType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___instaFail) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___failOnSaberClash) == 0x15, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___enabledObstacleType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___fastNotes) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___strictAngles) == 0x1d, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___disappearingArrows) == 0x1e, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___ghostNotes) == 0x1f, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___noBombs) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___songSpeed) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___noArrows) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___noFailOn0Energy) == 0x29, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___proMode) == 0x2a, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___zenMode) == 0x2b, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___smallCubes) == 0x2c, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::EnvironmentEffectsFilterPresetSaveData
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4638))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4752))
 // CS Name: ::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData
 struct CORDL_TYPE __PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData {
 public:
@@ -603,13 +625,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ArcVisibilityTypeSaveData
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4639))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4753))
 // CS Name: ::PlayerSaveData::PlayerSpecificSettings::ArcVisibilityTypeSaveData
 struct CORDL_TYPE __PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData {
 public:
@@ -659,13 +683,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::NoteJumpDurationTypeSettingsSaveData
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4640))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4754))
 // CS Name: ::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData
 struct CORDL_TYPE __PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData {
 public:
@@ -707,13 +733,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::PlayerSpecificSettings
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4639)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4638)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4640))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4641)) CS Name: ::PlayerSaveData::PlayerSpecificSettings*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4754)), TypeDefinitionIndex(TypeDefinitionIndex(4753)), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4752))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4755)) CS Name: ::PlayerSaveData::PlayerSpecificSettings*
 class CORDL_TYPE __PlayerSaveData__PlayerSpecificSettings : public ::System::Object {
 public:
   // Declarations
@@ -788,9 +816,6 @@ public:
   __declspec(property(get = __get_environmentEffectsFilterExpertPlusPreset,
                       put = __set_environmentEffectsFilterExpertPlusPreset))::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData
       environmentEffectsFilterExpertPlusPreset;
-
-  /// @brief Field headsetHapticIntensity, offset 0x48, size 0x4
-  __declspec(property(get = __get_headsetHapticIntensity, put = __set_headsetHapticIntensity)) float_t headsetHapticIntensity;
 
   constexpr bool& __get_staticLights();
 
@@ -912,15 +937,9 @@ public:
 
   constexpr void __set_environmentEffectsFilterExpertPlusPreset(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData value);
 
-  constexpr float_t& __get_headsetHapticIntensity();
-
-  constexpr float_t const& __get_headsetHapticIntensity() const;
-
-  constexpr void __set_headsetHapticIntensity(float_t value);
-
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x237285c size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x2238bf0 size 0x34 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__PlayerSpecificSettings", modifiers: "&&", def_value: None }]
@@ -997,21 +1016,58 @@ public:
   /// @brief Field environmentEffectsFilterExpertPlusPreset, offset: 0x44, size: 0x4, def value: None
   ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData ___environmentEffectsFilterExpertPlusPreset;
 
-  /// @brief Field headsetHapticIntensity, offset: 0x48, size: 0x4, def value: None
-  float_t ___headsetHapticIntensity;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___staticLights) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___leftHanded) == 0x11, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___playerHeight) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___automaticPlayerHeight) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___sfxVolume) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___reduceDebris) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___noTextsAndHuds) == 0x21, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___advancedHud) == 0x22, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___saberTrailIntensity) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ____noteJumpDurationTypeSettingsSaveData) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___noteJumpFixedDuration) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___autoRestart) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___noFailEffects) == 0x31, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___noteJumpBeatOffset) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___hideNoteSpawnEffect) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___adaptiveSfx) == 0x39, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___arcsHapticFeedback) == 0x3a, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___arcsVisibleSaveData) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___environmentEffectsFilterDefaultPreset) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings, ___environmentEffectsFilterExpertPlusPreset) == 0x44, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::PlayerAllOverallStatsData
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4642))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4756))
 // CS Name: ::PlayerSaveData::PlayerAllOverallStatsData*
 class CORDL_TYPE __PlayerSaveData__PlayerAllOverallStatsData : public ::System::Object {
 public:
@@ -1054,7 +1110,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* New_ctor();
 
-  /// @brief Method .ctor addr 0x237239c size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x223be44 size 0xc0 virtual false final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* New_ctor(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* campaignOverallStatsData,
@@ -1062,7 +1118,7 @@ public:
                                                                                          ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* partyFreePlayOverallStatsData,
                                                                                          ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* onlinePlayOverallStatsData);
 
-  /// @brief Method .ctor addr 0x2372548 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x223bff0 size 0x40 virtual false final false
   inline void _ctor(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* campaignOverallStatsData, ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* soloFreePlayOverallStatsData,
                     ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* partyFreePlayOverallStatsData,
                     ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* onlinePlayOverallStatsData);
@@ -1098,13 +1154,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData, ___campaignOverallStatsData) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData, ___soloFreePlayOverallStatsData) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData, ___partyFreePlayOverallStatsData) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData, ___onlinePlayOverallStatsData) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::PlayerOverallStatsData
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4643))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4757))
 // CS Name: ::PlayerSaveData::PlayerOverallStatsData*
 class CORDL_TYPE __PlayerSaveData__PlayerOverallStatsData : public ::System::Object {
 public:
@@ -1210,14 +1274,14 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2372588 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x223c030 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* New_ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore,
                                                                                       int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount,
                                                                                       float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier);
 
-  /// @brief Method .ctor addr 0x2372590 size 0xb0 virtual false final false
+  /// @brief Method .ctor addr 0x223c038 size 0xb0 virtual false final false
   inline void _ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount,
                     int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier);
 
@@ -1273,13 +1337,35 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData, ___goodCutsCount) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData, ___badCutsCount) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData, ___missedCutsCount) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData, ___totalScore) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData, ___playedLevelsCount) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData, ___cleardLevelsCount) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData, ___failedLevelsCount) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData, ___fullComboCount) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData, ___timePlayed) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData, ___handDistanceTravelled) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData, ___cummulativeCutScoreWithoutMultiplier) == 0x40, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::PlayerLevelStatsData
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(15034))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4644))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14934)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15179))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4758))
 // CS Name: ::PlayerSaveData::PlayerLevelStatsData*
 class CORDL_TYPE __PlayerSaveData__PlayerLevelStatsData : public ::System::Object {
 public:
@@ -1367,7 +1453,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2372894 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2238d30 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__PlayerLevelStatsData", modifiers: "&&", def_value: None }]
@@ -1416,13 +1502,31 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData, 0x40>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData, ___levelId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData, ___difficulty) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData, ___beatmapCharacteristicName) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData, ___highScore) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData, ___maxCombo) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData, ___fullCombo) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData, ___maxRank) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData, ___validScore) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData, ___playCount) == 0x3c, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::PlayerMissionStatsData
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4645))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4759))
 // CS Name: ::PlayerSaveData::PlayerMissionStatsData*
 class CORDL_TYPE __PlayerSaveData__PlayerMissionStatsData : public ::System::Object {
 public:
@@ -1447,7 +1551,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData* New_ctor();
 
-  /// @brief Method .ctor addr 0x237289c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2238d38 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__PlayerMissionStatsData", modifiers: "&&", def_value: None }]
@@ -1475,13 +1579,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData, ___missionId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData, ___cleared) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::PracticeSettings
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4646))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4760))
 // CS Name: ::PlayerSaveData::PracticeSettings*
 class CORDL_TYPE __PlayerSaveData__PracticeSettings : public ::System::Object {
 public:
@@ -1506,7 +1614,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__PracticeSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x23728a4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2238c5c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__PracticeSettings", modifiers: "&&", def_value: None }]
@@ -1534,13 +1642,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__PracticeSettings, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PracticeSettings, ___startSongTime) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PracticeSettings, ___songSpeedMul) == 0x14, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ColorScheme
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4647))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4761))
 // CS Name: ::PlayerSaveData::ColorScheme*
 class CORDL_TYPE __PlayerSaveData__ColorScheme : public ::System::Object {
 public:
@@ -1621,7 +1733,7 @@ public:
                                                                            ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color obstaclesColor,
                                                                            ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
-  /// @brief Method .ctor addr 0x23728ac size 0xd0 virtual false final false
+  /// @brief Method .ctor addr 0x2238d48 size 0xd0 virtual false final false
   inline void _ctor(::StringW colorSchemeId, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1,
                     ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
@@ -1668,13 +1780,29 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__ColorScheme, 0x88>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__ColorScheme, ___colorSchemeId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__ColorScheme, ___saberAColor) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__ColorScheme, ___saberBColor) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__ColorScheme, ___environmentColor0) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__ColorScheme, ___environmentColor1) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__ColorScheme, ___obstaclesColor) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__ColorScheme, ___environmentColor0Boost) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__ColorScheme, ___environmentColor1Boost) == 0x78, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ColorSchemesSettings
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4648))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4762))
 // CS Name: ::PlayerSaveData::ColorSchemesSettings*
 class CORDL_TYPE __PlayerSaveData__ColorSchemesSettings : public ::System::Object {
 public:
@@ -1709,7 +1837,7 @@ public:
   static inline ::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings* New_ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId,
                                                                                     ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>* colorSchemes);
 
-  /// @brief Method .ctor addr 0x237297c size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x2238e18 size 0x3c virtual false final false
   inline void _ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId, ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>* colorSchemes);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__ColorSchemesSettings", modifiers: "&&", def_value: None }]
@@ -1740,13 +1868,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings, ___overrideDefaultColors) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings, ___selectedColorSchemeId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings, ___colorSchemes) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OverrideEnvironmentSettings
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4649))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4763))
 // CS Name: ::PlayerSaveData::OverrideEnvironmentSettings*
 class CORDL_TYPE __PlayerSaveData__OverrideEnvironmentSettings : public ::System::Object {
 public:
@@ -1780,7 +1914,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x23729b8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2238e54 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__OverrideEnvironmentSettings", modifiers: "&&", def_value: None }]
@@ -1811,13 +1945,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings, ___overrideEnvironments) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings, ___overrideNormalEnvironmentName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings, ___override360EnvironmentName) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::GuestPlayer
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4650))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4764))
 // CS Name: ::PlayerSaveData::GuestPlayer*
 class CORDL_TYPE __PlayerSaveData__GuestPlayer : public ::System::Object {
 public:
@@ -1833,7 +1973,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__GuestPlayer* New_ctor();
 
-  /// @brief Method .ctor addr 0x23729c0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2238d40 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__GuestPlayer", modifiers: "&&", def_value: None }]
@@ -1858,13 +1998,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__GuestPlayer, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GuestPlayer, ___playerName) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MultiplayerModeSettings
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4651))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4765))
 // CS Name: ::PlayerSaveData::MultiplayerModeSettings*
 class CORDL_TYPE __PlayerSaveData__MultiplayerModeSettings : public ::System::Object {
 public:
@@ -1916,7 +2058,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x23729c8 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x2238e5c size 0x74 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__MultiplayerModeSettings", modifiers: "&&", def_value: None }]
@@ -1953,13 +2095,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings, ___createServerNumberOfPlayers) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings, ___quickPlayDifficulty) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings, ___quickPlaySongPackMask) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings, ___quickPlaySongPackMaskSerializedName) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings, ___quickPlayEnableLevelSelection) == 0x30, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::PlayerAgreementsData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4652))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4766))
 // CS Name: ::PlayerSaveData::PlayerAgreementsData*
 class CORDL_TYPE __PlayerSaveData__PlayerAgreementsData : public ::System::Object {
 public:
@@ -1972,9 +2124,6 @@ public:
 
   /// @brief Field healthAndSafetyVersion, offset 0x18, size 0x4
   __declspec(property(get = __get_healthAndSafetyVersion, put = __set_healthAndSafetyVersion)) int32_t healthAndSafetyVersion;
-
-  /// @brief Field playerSensitivityFlagVersion, offset 0x1c, size 0x4
-  __declspec(property(get = __get_playerSensitivityFlagVersion, put = __set_playerSensitivityFlagVersion)) int32_t playerSensitivityFlagVersion;
 
   constexpr int32_t& __get_eulaVersion();
 
@@ -1994,15 +2143,9 @@ public:
 
   constexpr void __set_healthAndSafetyVersion(int32_t value);
 
-  constexpr int32_t& __get_playerSensitivityFlagVersion();
-
-  constexpr int32_t const& __get_playerSensitivityFlagVersion() const;
-
-  constexpr void __set_playerSensitivityFlagVersion(int32_t value);
-
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2372a3c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2238ed0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__PlayerAgreementsData", modifiers: "&&", def_value: None }]
@@ -2028,129 +2171,25 @@ public:
   /// @brief Field healthAndSafetyVersion, offset: 0x18, size: 0x4, def value: None
   int32_t ___healthAndSafetyVersion;
 
-  /// @brief Field playerSensitivityFlagVersion, offset: 0x1c, size: 0x4, def value: None
-  int32_t ___playerSensitivityFlagVersion;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::UserAgeCategorySaveData
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: true
-// Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4653))
-// CS Name: ::PlayerSaveData::UserAgeCategorySaveData
-struct CORDL_TYPE __PlayerSaveData__UserAgeCategorySaveData {
-public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData, ___eulaVersion) == 0x10, "Offset mismatch!");
 
-  /// @brief Nested struct ____PlayerSaveData__UserAgeCategorySaveData_Unwrapped
-  enum struct ____PlayerSaveData__UserAgeCategorySaveData_Unwrapped : int32_t {
-    __E_Unknown = static_cast<int32_t>(0x0),
-    __E_Child = static_cast<int32_t>(0x1),
-    __E_Teen = static_cast<int32_t>(0x2),
-    __E_Adult = static_cast<int32_t>(0x3),
-  };
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData, ___privacyPolicyVersion) == 0x14, "Offset mismatch!");
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator ____PlayerSaveData__UserAgeCategorySaveData_Unwrapped() const noexcept {
-    return static_cast<____PlayerSaveData__UserAgeCategorySaveData_Unwrapped>(this->value__);
-  }
-
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PlayerSaveData__UserAgeCategorySaveData(int32_t value__) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlayerSaveData__UserAgeCategorySaveData();
-
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData const Unknown;
-
-  /// @brief Field Child value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData const Child;
-
-  /// @brief Field Teen value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData const Teen;
-
-  /// @brief Field Adult value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData const Adult;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData, 0x4>, "Size mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::PlayerSensitivityFlagSaveData
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: true
-// Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4654))
-// CS Name: ::PlayerSaveData::PlayerSensitivityFlagSaveData
-struct CORDL_TYPE __PlayerSaveData__PlayerSensitivityFlagSaveData {
-public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
-
-  /// @brief Nested struct ____PlayerSaveData__PlayerSensitivityFlagSaveData_Unwrapped
-  enum struct ____PlayerSaveData__PlayerSensitivityFlagSaveData_Unwrapped : int32_t {
-    __E_Unknown = static_cast<int32_t>(0x0),
-    __E_Safe = static_cast<int32_t>(0x1),
-    __E_Explicit = static_cast<int32_t>(0x2),
-  };
-
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator ____PlayerSaveData__PlayerSensitivityFlagSaveData_Unwrapped() const noexcept {
-    return static_cast<____PlayerSaveData__PlayerSensitivityFlagSaveData_Unwrapped>(this->value__);
-  }
-
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PlayerSaveData__PlayerSensitivityFlagSaveData(int32_t value__) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlayerSaveData__PlayerSensitivityFlagSaveData();
-
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData const Unknown;
-
-  /// @brief Field Safe value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData const Safe;
-
-  /// @brief Field Explicit value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData const Explicit;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData, ___healthAndSafetyVersion) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::LocalPlayer
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4654)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4653))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4655)) CS Name: ::PlayerSaveData::LocalPlayer*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14934)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4767))
+// CS Name: ::PlayerSaveData::LocalPlayer*
 class CORDL_TYPE __PlayerSaveData__LocalPlayer : public ::System::Object {
 public:
   // Declarations
@@ -2175,66 +2214,60 @@ public:
   /// @brief Field agreedToMultiplayerDisclaimer, offset 0x24, size 0x1
   __declspec(property(get = __get_agreedToMultiplayerDisclaimer, put = __set_agreedToMultiplayerDisclaimer)) bool agreedToMultiplayerDisclaimer;
 
+  /// @brief Field avatarCreated, offset 0x25, size 0x1
+  __declspec(property(get = __get_avatarCreated, put = __set_avatarCreated)) bool avatarCreated;
+
   /// @brief Field didSelectRegionVersion, offset 0x28, size 0x4
   __declspec(property(get = __get_didSelectRegionVersion, put = __set_didSelectRegionVersion)) int32_t didSelectRegionVersion;
 
-  /// @brief Field selectedAvatarSystemTypeId, offset 0x30, size 0x8
-  __declspec(property(get = __get_selectedAvatarSystemTypeId, put = __set_selectedAvatarSystemTypeId))::StringW selectedAvatarSystemTypeId;
-
-  /// @brief Field playerAgreements, offset 0x38, size 0x8
+  /// @brief Field playerAgreements, offset 0x30, size 0x8
   __declspec(property(get = __get_playerAgreements, put = __set_playerAgreements))::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData* playerAgreements;
 
-  /// @brief Field lastSelectedBeatmapDifficulty, offset 0x40, size 0x4
+  /// @brief Field lastSelectedBeatmapDifficulty, offset 0x38, size 0x4
   __declspec(property(get = __get_lastSelectedBeatmapDifficulty, put = __set_lastSelectedBeatmapDifficulty))::GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty;
 
-  /// @brief Field lastSelectedBeatmapCharacteristicName, offset 0x48, size 0x8
+  /// @brief Field lastSelectedBeatmapCharacteristicName, offset 0x40, size 0x8
   __declspec(property(get = __get_lastSelectedBeatmapCharacteristicName, put = __set_lastSelectedBeatmapCharacteristicName))::StringW lastSelectedBeatmapCharacteristicName;
 
-  /// @brief Field gameplayModifiers, offset 0x50, size 0x8
+  /// @brief Field gameplayModifiers, offset 0x48, size 0x8
   __declspec(property(get = __get_gameplayModifiers, put = __set_gameplayModifiers))::GlobalNamespace::__PlayerSaveData__GameplayModifiers* gameplayModifiers;
 
-  /// @brief Field playerSpecificSettings, offset 0x58, size 0x8
+  /// @brief Field playerSpecificSettings, offset 0x50, size 0x8
   __declspec(property(get = __get_playerSpecificSettings, put = __set_playerSpecificSettings))::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings* playerSpecificSettings;
 
-  /// @brief Field practiceSettings, offset 0x60, size 0x8
+  /// @brief Field practiceSettings, offset 0x58, size 0x8
   __declspec(property(get = __get_practiceSettings, put = __set_practiceSettings))::GlobalNamespace::__PlayerSaveData__PracticeSettings* practiceSettings;
 
-  /// @brief Field playerAllOverallStatsData, offset 0x68, size 0x8
+  /// @brief Field playerAllOverallStatsData, offset 0x60, size 0x8
   __declspec(property(get = __get_playerAllOverallStatsData, put = __set_playerAllOverallStatsData))::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* playerAllOverallStatsData;
 
-  /// @brief Field levelsStatsData, offset 0x70, size 0x8
+  /// @brief Field levelsStatsData, offset 0x68, size 0x8
   __declspec(property(get = __get_levelsStatsData, put = __set_levelsStatsData))::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData*>* levelsStatsData;
 
-  /// @brief Field missionsStatsData, offset 0x78, size 0x8
+  /// @brief Field missionsStatsData, offset 0x70, size 0x8
   __declspec(property(get = __get_missionsStatsData,
                       put = __set_missionsStatsData))::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData*>* missionsStatsData;
 
-  /// @brief Field showedMissionHelpIds, offset 0x80, size 0x8
+  /// @brief Field showedMissionHelpIds, offset 0x78, size 0x8
   __declspec(property(get = __get_showedMissionHelpIds, put = __set_showedMissionHelpIds))::System::Collections::Generic::List_1<::StringW>* showedMissionHelpIds;
 
-  /// @brief Field colorSchemesSettings, offset 0x88, size 0x8
+  /// @brief Field colorSchemesSettings, offset 0x80, size 0x8
   __declspec(property(get = __get_colorSchemesSettings, put = __set_colorSchemesSettings))::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings* colorSchemesSettings;
 
-  /// @brief Field overrideEnvironmentSettings, offset 0x90, size 0x8
+  /// @brief Field overrideEnvironmentSettings, offset 0x88, size 0x8
   __declspec(property(get = __get_overrideEnvironmentSettings, put = __set_overrideEnvironmentSettings))::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings* overrideEnvironmentSettings;
 
-  /// @brief Field favoritesLevelIds, offset 0x98, size 0x8
+  /// @brief Field favoritesLevelIds, offset 0x90, size 0x8
   __declspec(property(get = __get_favoritesLevelIds, put = __set_favoritesLevelIds))::System::Collections::Generic::List_1<::StringW>* favoritesLevelIds;
 
-  /// @brief Field multiplayerModeSettings, offset 0xa0, size 0x8
+  /// @brief Field multiplayerModeSettings, offset 0x98, size 0x8
   __declspec(property(get = __get_multiplayerModeSettings, put = __set_multiplayerModeSettings))::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings* multiplayerModeSettings;
 
-  /// @brief Field currentDlcPromoDisplayCount, offset 0xa8, size 0x4
+  /// @brief Field currentDlcPromoDisplayCount, offset 0xa0, size 0x4
   __declspec(property(get = __get_currentDlcPromoDisplayCount, put = __set_currentDlcPromoDisplayCount)) int32_t currentDlcPromoDisplayCount;
 
-  /// @brief Field currentDlcPromoId, offset 0xb0, size 0x8
+  /// @brief Field currentDlcPromoId, offset 0xa8, size 0x8
   __declspec(property(get = __get_currentDlcPromoId, put = __set_currentDlcPromoId))::StringW currentDlcPromoId;
-
-  /// @brief Field userAgeCategory, offset 0xb8, size 0x4
-  __declspec(property(get = __get_userAgeCategory, put = __set_userAgeCategory))::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData userAgeCategory;
-
-  /// @brief Field desiredSensitivityFlag, offset 0xbc, size 0x4
-  __declspec(property(get = __get_desiredSensitivityFlag, put = __set_desiredSensitivityFlag))::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData desiredSensitivityFlag;
 
   constexpr ::StringW& __get_playerId();
 
@@ -2278,17 +2311,17 @@ public:
 
   constexpr void __set_agreedToMultiplayerDisclaimer(bool value);
 
+  constexpr bool& __get_avatarCreated();
+
+  constexpr bool const& __get_avatarCreated() const;
+
+  constexpr void __set_avatarCreated(bool value);
+
   constexpr int32_t& __get_didSelectRegionVersion();
 
   constexpr int32_t const& __get_didSelectRegionVersion() const;
 
   constexpr void __set_didSelectRegionVersion(int32_t value);
-
-  constexpr ::StringW& __get_selectedAvatarSystemTypeId();
-
-  constexpr ::StringW const& __get_selectedAvatarSystemTypeId() const;
-
-  constexpr void __set_selectedAvatarSystemTypeId(::StringW value);
 
   constexpr ::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData*& __get_playerAgreements();
 
@@ -2386,21 +2419,9 @@ public:
 
   constexpr void __set_currentDlcPromoId(::StringW value);
 
-  constexpr ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData& __get_userAgeCategory();
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData const& __get_userAgeCategory() const;
-
-  constexpr void __set_userAgeCategory(::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData value);
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData& __get_desiredSensitivityFlag();
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData const& __get_desiredSensitivityFlag() const;
-
-  constexpr void __set_desiredSensitivityFlag(::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData value);
-
   static inline ::GlobalNamespace::__PlayerSaveData__LocalPlayer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2372a44 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x2238bd0 size 0x18 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__LocalPlayer", modifiers: "&&", def_value: None }]
@@ -2438,87 +2459,127 @@ public:
   /// @brief Field agreedToMultiplayerDisclaimer, offset: 0x24, size: 0x1, def value: None
   bool ___agreedToMultiplayerDisclaimer;
 
+  /// @brief Field avatarCreated, offset: 0x25, size: 0x1, def value: None
+  bool ___avatarCreated;
+
   /// @brief Field didSelectRegionVersion, offset: 0x28, size: 0x4, def value: None
   int32_t ___didSelectRegionVersion;
 
-  /// @brief Field selectedAvatarSystemTypeId, offset: 0x30, size: 0x8, def value: None
-  ::StringW ___selectedAvatarSystemTypeId;
-
-  /// @brief Field playerAgreements, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field playerAgreements, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData* ___playerAgreements;
 
-  /// @brief Field lastSelectedBeatmapDifficulty, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field lastSelectedBeatmapDifficulty, offset: 0x38, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapDifficulty ___lastSelectedBeatmapDifficulty;
 
-  /// @brief Field lastSelectedBeatmapCharacteristicName, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field lastSelectedBeatmapCharacteristicName, offset: 0x40, size: 0x8, def value: None
   ::StringW ___lastSelectedBeatmapCharacteristicName;
 
-  /// @brief Field gameplayModifiers, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field gameplayModifiers, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::__PlayerSaveData__GameplayModifiers* ___gameplayModifiers;
 
-  /// @brief Field playerSpecificSettings, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field playerSpecificSettings, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings* ___playerSpecificSettings;
 
-  /// @brief Field practiceSettings, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field practiceSettings, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::__PlayerSaveData__PracticeSettings* ___practiceSettings;
 
-  /// @brief Field playerAllOverallStatsData, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field playerAllOverallStatsData, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* ___playerAllOverallStatsData;
 
-  /// @brief Field levelsStatsData, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field levelsStatsData, offset: 0x68, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData*>* ___levelsStatsData;
 
-  /// @brief Field missionsStatsData, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field missionsStatsData, offset: 0x70, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData*>* ___missionsStatsData;
 
-  /// @brief Field showedMissionHelpIds, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field showedMissionHelpIds, offset: 0x78, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___showedMissionHelpIds;
 
-  /// @brief Field colorSchemesSettings, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field colorSchemesSettings, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings* ___colorSchemesSettings;
 
-  /// @brief Field overrideEnvironmentSettings, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field overrideEnvironmentSettings, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings* ___overrideEnvironmentSettings;
 
-  /// @brief Field favoritesLevelIds, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field favoritesLevelIds, offset: 0x90, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___favoritesLevelIds;
 
-  /// @brief Field multiplayerModeSettings, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field multiplayerModeSettings, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings* ___multiplayerModeSettings;
 
-  /// @brief Field currentDlcPromoDisplayCount, offset: 0xa8, size: 0x4, def value: None
+  /// @brief Field currentDlcPromoDisplayCount, offset: 0xa0, size: 0x4, def value: None
   int32_t ___currentDlcPromoDisplayCount;
 
-  /// @brief Field currentDlcPromoId, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field currentDlcPromoId, offset: 0xa8, size: 0x8, def value: None
   ::StringW ___currentDlcPromoId;
-
-  /// @brief Field userAgeCategory, offset: 0xb8, size: 0x4, def value: None
-  ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData ___userAgeCategory;
-
-  /// @brief Field desiredSensitivityFlag, offset: 0xbc, size: 0x4, def value: None
-  ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData ___desiredSensitivityFlag;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__LocalPlayer, 0xc0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveData__LocalPlayer, 0xb0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___playerId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___playerName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___shouldShowTutorialPrompt) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___shouldShow360Warning) == 0x21, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___agreedToEula) == 0x22, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___didSelectLanguage) == 0x23, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___agreedToMultiplayerDisclaimer) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___avatarCreated) == 0x25, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___didSelectRegionVersion) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___playerAgreements) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___lastSelectedBeatmapDifficulty) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___lastSelectedBeatmapCharacteristicName) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___gameplayModifiers) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___playerSpecificSettings) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___practiceSettings) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___playerAllOverallStatsData) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___levelsStatsData) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___missionsStatsData) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___showedMissionHelpIds) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___colorSchemesSettings) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___overrideEnvironmentSettings) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___favoritesLevelIds) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___multiplayerModeSettings) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___currentDlcPromoDisplayCount) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___currentDlcPromoId) == 0xa8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::PlayerSaveData
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4685))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4656))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4806))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4768))
 // CS Name: ::PlayerSaveData*
 class CORDL_TYPE PlayerSaveData : public ::GlobalNamespace::VersionSaveData {
 public:
   // Declarations
   using LocalPlayer = ::GlobalNamespace::__PlayerSaveData__LocalPlayer;
-
-  using PlayerSensitivityFlagSaveData = ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData;
-
-  using UserAgeCategorySaveData = ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData;
 
   using PlayerAgreementsData = ::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData;
 
@@ -2566,7 +2627,7 @@ public:
 
   static inline ::GlobalNamespace::PlayerSaveData* New_ctor();
 
-  /// @brief Method .ctor addr 0x23727f8 size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x2238b7c size 0x54 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveData", modifiers: "&&", def_value: None }]
@@ -2590,24 +2651,26 @@ public:
   ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__GuestPlayer*>* ___guestPlayers;
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
-  static constexpr ::ConstString kCurrentVersion{ u"2.0.26" };
+  static constexpr ::ConstString kCurrentVersion{ u"2.0.23" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerSaveData, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::PlayerSaveData, ___localPlayers) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerSaveData, ___guestPlayers) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType, "", "PlayerSaveData/GameplayModifiers/EnabledObstacleType");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType, "", "PlayerSaveData/GameplayModifiers/EnergyType");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed, "", "PlayerSaveData/GameplayModifiers/SongSpeed");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData, "", "PlayerSaveData/PlayerSensitivityFlagSaveData");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData, "", "PlayerSaveData/PlayerSpecificSettings/ArcVisibilityTypeSaveData");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData, "",
                        "PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData, "",
                        "PlayerSaveData/PlayerSpecificSettings/NoteJumpDurationTypeSettingsSaveData");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData, "", "PlayerSaveData/UserAgeCategorySaveData");
 NEED_NO_BOX(::GlobalNamespace::PlayerSaveData);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerSaveData*, "", "PlayerSaveData");
 NEED_NO_BOX(::GlobalNamespace::__PlayerSaveData__ColorScheme);

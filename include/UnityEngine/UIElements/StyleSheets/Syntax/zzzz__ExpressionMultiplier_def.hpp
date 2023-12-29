@@ -19,24 +19,24 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier)
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7496))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7497))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7582))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7583))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::ExpressionMultiplier
 struct CORDL_TYPE ExpressionMultiplier {
 public:
   // Declarations
   __declspec(property(get = get_type, put = set_type))::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType type;
 
-  /// @brief Method get_type addr 0x2df16a0 size 0x8 virtual false final false
+  /// @brief Method get_type addr 0x2c8a2f0 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType get_type();
 
-  /// @brief Method set_type addr 0x2df861c size 0x4 virtual false final false
+  /// @brief Method set_type addr 0x2c9126c size 0x4 virtual false final false
   inline void set_type(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value);
 
-  /// @brief Method .ctor addr 0x2df888c size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2c914dc size 0x10 virtual false final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType type);
 
-  /// @brief Method SetType addr 0x2df889c size 0x54 virtual false final false
+  /// @brief Method SetType addr 0x2c914ec size 0x1054 virtual false final false
   inline void SetType(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value);
 
   // Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType", modifiers: "", def_value: None }, CppParam { name: "min", ty:
@@ -66,6 +66,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier, 0xc>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier, m_Type) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier, min) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier, max) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets::Syntax
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier, "UnityEngine.UIElements.StyleSheets.Syntax", "ExpressionMultiplier");

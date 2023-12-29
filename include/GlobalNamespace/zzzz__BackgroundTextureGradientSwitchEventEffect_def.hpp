@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(BackgroundTextureGradientSwitchEventEffect)
 namespace GlobalNamespace {
-class ColorBoostBeatmapEventData;
+class BloomPrePassBackgroundTextureGradient;
 }
 namespace GlobalNamespace {
-class BloomPrePassBackgroundTextureGradient;
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class ColorBoostBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4897))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5015))
 // CS Name: ::BackgroundTextureGradientSwitchEventEffect*
 class CORDL_TYPE BackgroundTextureGradientSwitchEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -68,18 +68,18 @@ public:
 
   constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start addr 0x23a4f94 size 0xa8 virtual false final false
+  /// @brief Method Start addr 0x226ed3c size 0xa8 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x23a503c size 0x1c virtual false final false
+  /// @brief Method OnDestroy addr 0x226ede4 size 0x1c virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeatmapEvent addr 0x23a5058 size 0x50 virtual false final false
+  /// @brief Method HandleBeatmapEvent addr 0x226ee00 size 0x50 virtual false final false
   inline void HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
 
   static inline ::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x23a50a8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x226ee50 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BackgroundTextureGradientSwitchEventEffect", modifiers: "&&", def_value: None }]
@@ -112,6 +112,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect, ____defaultTextureGradient) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect, ____boostTextureGradient) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect, ____beatmapCallbacksController) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect, ____beatmapDataCallbackWrapper) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect);

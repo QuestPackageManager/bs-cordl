@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Sockets::SelectMode);
 namespace System::Net::Sockets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9344))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8181))
 // CS Name: ::System.Net.Sockets::SelectMode
 struct CORDL_TYPE SelectMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::SelectMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SelectMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net::Sockets
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::SelectMode, "System.Net.Sockets", "SelectMode");

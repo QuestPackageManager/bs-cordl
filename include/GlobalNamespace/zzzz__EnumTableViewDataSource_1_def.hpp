@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnumTableViewDataSource_1)
+namespace HMUI {
+class TableCell;
+}
 namespace GlobalNamespace {
 class TextOnlyTableCell;
 }
 namespace HMUI {
-class __TableView__IDataSource;
-}
-namespace HMUI {
-class TableCell;
-}
-namespace HMUI {
 class TableView;
+}
+namespace HMUI {
+class __TableView__IDataSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,8 +32,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4684))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4805))
 // CS Name: ::EnumTableViewDataSource`1<T>*
 class CORDL_TYPE EnumTableViewDataSource_1 : public ::UnityEngine::MonoBehaviour {
 public:

@@ -15,17 +15,11 @@ CORDL_MODULE_EXPORT(NoteCutInfoNetSerializable)
 namespace GlobalNamespace {
 class NoteData;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
-struct __NoteData__GameplayType;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+struct NoteLineLayer;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -34,10 +28,16 @@ namespace GlobalNamespace {
 struct ColorType;
 }
 namespace GlobalNamespace {
-struct NoteLineLayer;
+struct NoteCutInfo;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace GlobalNamespace {
+struct __NoteData__GameplayType;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -49,9 +49,9 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteCutInfoNetSerializable);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(15041)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15039)), TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(14757))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(15026)) CS Name: ::NoteCutInfoNetSerializable*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15184)), TypeDefinitionIndex(TypeDefinitionIndex(14965)), TypeDefinitionIndex(TypeDefinitionIndex(15178)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15186)), TypeDefinitionIndex(TypeDefinitionIndex(14970)), TypeDefinitionIndex(TypeDefinitionIndex(14973))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(15171)) CS Name: ::NoteCutInfoNetSerializable*
 class CORDL_TYPE NoteCutInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
   // Declarations
@@ -190,25 +190,25 @@ public:
 
   constexpr void __set_moveVec(::GlobalNamespace::Vector3Serializable value);
 
-  /// @brief Method Obtain addr 0x12a4288 size 0x64 virtual false final false
+  /// @brief Method Obtain addr 0x123218c size 0x64 virtual false final false
   static inline ::GlobalNamespace::NoteCutInfoNetSerializable* Obtain();
 
-  /// @brief Method Deserialize addr 0x12a42ec size 0x118 virtual true final false
+  /// @brief Method Deserialize addr 0x12321f0 size 0x118 virtual true final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Serialize addr 0x12a44cc size 0x104 virtual true final false
+  /// @brief Method Serialize addr 0x12323d0 size 0x104 virtual true final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   static inline ::GlobalNamespace::NoteCutInfoNetSerializable* New_ctor();
 
-  /// @brief Method .ctor addr 0x12a4678 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x123257c size 0x58 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0x12a46d8 size 0xe4 virtual false final false
+  /// @brief Method Init addr 0x12325dc size 0xe4 virtual false final false
   inline ::GlobalNamespace::NoteCutInfoNetSerializable* Init(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteData* noteData, ::UnityEngine::Vector3 notePosition,
                                                              ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale, ::UnityEngine::Vector3 moveVec);
 
-  /// @brief Method Init addr 0x12a47bc size 0x224 virtual false final false
+  /// @brief Method Init addr 0x12326c0 size 0x224 virtual false final false
   inline ::GlobalNamespace::NoteCutInfoNetSerializable* Init(float_t saberSpeed, bool cutWasOk, ::UnityEngine::Vector3 saberDir, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal,
                                                              ::GlobalNamespace::__NoteData__GameplayType gameplayType, ::GlobalNamespace::ColorType colorType,
                                                              ::GlobalNamespace::NoteLineLayer lineLayer, int32_t noteLineIndex, float_t noteTime, float_t timeToNextColorNote,
@@ -278,6 +278,36 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutInfoNetSerializable, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___saberSpeed) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___cutWasOk) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___saberDir) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___cutPoint) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___cutNormal) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___notePosition) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___noteScale) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___noteRotation) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___gameplayType) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___colorType) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___noteTime) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___noteLineIndex) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___lineLayer) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___timeToNextColorNote) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutInfoNetSerializable, ___moveVec) == 0x7c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteCutInfoNetSerializable);

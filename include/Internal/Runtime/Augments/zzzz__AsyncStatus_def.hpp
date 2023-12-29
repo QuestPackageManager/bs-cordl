@@ -66,5 +66,7 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Internal::Runtime::Augments::AsyncStatus, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::Internal::Runtime::Augments::AsyncStatus, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Internal::Runtime::Augments
 DEFINE_IL2CPP_ARG_TYPE(::Internal::Runtime::Augments::AsyncStatus, "Internal.Runtime.Augments", "AsyncStatus");

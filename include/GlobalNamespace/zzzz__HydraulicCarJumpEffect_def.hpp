@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HydraulicCarJumpEffect)
 namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace UnityEngine {
+class Rigidbody;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace UnityEngine {
-class Rigidbody;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::HydraulicCarJumpEffect);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4000))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(14941)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3986))
 // CS Name: ::HydraulicCarJumpEffect*
 class CORDL_TYPE HydraulicCarJumpEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -139,18 +139,18 @@ public:
 
   constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start addr 0x22202d8 size 0x170 virtual false final false
+  /// @brief Method Start addr 0x20bf2c0 size 0x170 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x2220448 size 0x1c virtual false final false
+  /// @brief Method OnDestroy addr 0x20bf430 size 0x1c virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeatmapEvent addr 0x2220464 size 0x11c virtual false final false
+  /// @brief Method HandleBeatmapEvent addr 0x20bf44c size 0x11c virtual false final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::HydraulicCarJumpEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x2220580 size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x20bf568 size 0x1c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HydraulicCarJumpEffect", modifiers: "&&", def_value: None }]
@@ -204,6 +204,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HydraulicCarJumpEffect, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HydraulicCarJumpEffect, ____event) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HydraulicCarJumpEffect, ____eventValues) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HydraulicCarJumpEffect, ____impulse) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HydraulicCarJumpEffect, ____randomness) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HydraulicCarJumpEffect, ____position) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HydraulicCarJumpEffect, ____minDelayBetweenEvents) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HydraulicCarJumpEffect, ____rigidbody) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HydraulicCarJumpEffect, ____beatmapCallbacksController) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HydraulicCarJumpEffect, ____lastEventTime) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HydraulicCarJumpEffect, ____eventValuesHashSet) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::HydraulicCarJumpEffect, ____beatmapDataCallbackWrapper) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HydraulicCarJumpEffect);

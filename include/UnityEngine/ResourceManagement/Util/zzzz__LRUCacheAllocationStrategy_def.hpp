@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LRUCacheAllocationStrategy)
 namespace System {
-class Type;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::ResourceManagement::Util {
-class IAllocationStrategy;
-}
-namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IAllocationStrategy;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrate
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13979))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14250))
 // CS Name: ::UnityEngine.ResourceManagement.Util::LRUCacheAllocationStrategy*
 class CORDL_TYPE LRUCacheAllocationStrategy : public ::System::Object {
 public:
@@ -86,19 +86,19 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy* New_ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity);
 
-  /// @brief Method .ctor addr 0x2bca3cc size 0x1d8 virtual false final false
+  /// @brief Method .ctor addr 0x2a47678 size 0x1d8 virtual false final false
   inline void _ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity);
 
-  /// @brief Method GetPool addr 0x2bd202c size 0xf0 virtual false final false
+  /// @brief Method GetPool addr 0x2a4f2d8 size 0xf0 virtual false final false
   inline ::System::Collections::Generic::List_1<::System::Object*>* GetPool();
 
-  /// @brief Method ReleasePool addr 0x2bd211c size 0xc0 virtual false final false
+  /// @brief Method ReleasePool addr 0x2a4f3c8 size 0xc0 virtual false final false
   inline void ReleasePool(::System::Collections::Generic::List_1<::System::Object*>* pool);
 
-  /// @brief Method New addr 0x2bd21dc size 0x13c virtual true final true
+  /// @brief Method New addr 0x2a4f488 size 0x13c virtual true final true
   inline ::System::Object* New(::System::Type* type, int32_t typeHash);
 
-  /// @brief Method Release addr 0x2bd2318 size 0x138 virtual true final true
+  /// @brief Method Release addr 0x2a4f5c4 size 0x138 virtual true final true
   inline void Release(int32_t typeHash, ::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "LRUCacheAllocationStrategy", modifiers: "&&", def_value: None }]
@@ -134,6 +134,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy, ___m_poolMaxSize) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy, ___m_poolInitialCapacity) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy, ___m_poolCacheMaxSize) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy, ___m_poolCache) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy, ___m_cache) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::Util
 NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy);

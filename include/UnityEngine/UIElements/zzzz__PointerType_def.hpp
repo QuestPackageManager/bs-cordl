@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerType);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7194))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7280))
 // CS Name: ::UnityEngine.UIElements::PointerType*
 class CORDL_TYPE PointerType : public ::System::Object {
 public:
@@ -50,10 +50,10 @@ public:
 
   static inline ::StringW getStaticF_unknown();
 
-  /// @brief Method GetPointerType addr 0x2e4ebc8 size 0x9c virtual false final false
+  /// @brief Method GetPointerType addr 0x2ce6818 size 0x9c virtual false final false
   static inline ::StringW GetPointerType(int32_t pointerId);
 
-  /// @brief Method IsDirectManipulationDevice addr 0x2e4ec64 size 0x8c virtual false final false
+  /// @brief Method IsDirectManipulationDevice addr 0x2ce68b4 size 0x8c virtual false final false
   static inline bool IsDirectManipulationDevice(::StringW pointerType);
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerType", modifiers: "&&", def_value: None }]

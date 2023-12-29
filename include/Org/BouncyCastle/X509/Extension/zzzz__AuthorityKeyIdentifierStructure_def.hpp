@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AuthorityKeyIdentifier_def.hpp"
 CORDL_MODULE_EXPORT(AuthorityKeyIdentifierStructure)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
+}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Extension {
@@ -34,23 +34,23 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* encodedValue);
 
-  /// @brief Method .ctor addr 0x116ece0 size 0x94 virtual false final false
+  /// @brief Method .ctor addr 0x10fea98 size 0x94 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* encodedValue);
 
-  /// @brief Method FromCertificate addr 0x116ed98 size 0x404 virtual false final false
+  /// @brief Method FromCertificate addr 0x10feb50 size 0x404 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* FromCertificate(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
-  /// @brief Method FromKey addr 0x116f19c size 0x1a0 virtual false final false
+  /// @brief Method FromKey addr 0x10fef54 size 0x1a0 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* FromKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
   static inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
-  /// @brief Method .ctor addr 0x116f33c size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x10ff0f4 size 0x24 virtual false final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
   static inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
-  /// @brief Method .ctor addr 0x116f360 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x10ff118 size 0x24 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthorityKeyIdentifierStructure", modifiers: "&&", def_value: None }]

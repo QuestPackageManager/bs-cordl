@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(AsyncLocal_1)
 namespace System {
 template <typename T> class Action_1;
 }
+namespace System {
+class Object;
+}
 namespace System::Threading {
 class IAsyncLocal;
 }
 namespace System::Threading {
 template <typename T> struct AsyncLocalValueChangedArgs_1;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -28,8 +28,8 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2657))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2655))
 // CS Name: ::System.Threading::AsyncLocal`1<T>*
 class CORDL_TYPE AsyncLocal_1 : public ::System::Object {
 public:

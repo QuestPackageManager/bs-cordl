@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RecipientInformation)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
+namespace Org::BouncyCastle::Cms {
+class CmsSecureReadable;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Cms {
+class CmsTypedStream;
 }
 namespace Org::BouncyCastle::Cms {
 class RecipientID;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsSecureReadable;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsTypedStream;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::RecipientInformation);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(671))
 // CS Name: ::Org.BouncyCastle.Cms::RecipientInformation*
 class CORDL_TYPE RecipientInformation : public ::System::Object {
@@ -90,31 +90,31 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::RecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncAlg, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method .ctor addr 0x1202070 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x1190e20 size 0x88 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncAlg, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method GetContentAlgorithmName addr 0x1202108 size 0xbc virtual false final false
+  /// @brief Method GetContentAlgorithmName addr 0x1190eb8 size 0xbc virtual false final false
   inline ::StringW GetContentAlgorithmName();
 
-  /// @brief Method get_RecipientID addr 0x12021c4 size 0x8 virtual false final false
+  /// @brief Method get_RecipientID addr 0x1190f74 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Cms::RecipientID* get_RecipientID();
 
-  /// @brief Method get_KeyEncryptionAlgorithmID addr 0x12021cc size 0x8 virtual false final false
+  /// @brief Method get_KeyEncryptionAlgorithmID addr 0x1190f7c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyEncryptionAlgorithmID();
 
-  /// @brief Method get_KeyEncryptionAlgOid addr 0x12021d4 size 0x2c virtual false final false
+  /// @brief Method get_KeyEncryptionAlgOid addr 0x1190f84 size 0x2c virtual false final false
   inline ::StringW get_KeyEncryptionAlgOid();
 
-  /// @brief Method get_KeyEncryptionAlgParams addr 0x1202200 size 0x38 virtual false final false
+  /// @brief Method get_KeyEncryptionAlgParams addr 0x1190fb0 size 0x38 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_KeyEncryptionAlgParams();
 
-  /// @brief Method GetContentFromSessionKey addr 0x1202238 size 0x22c virtual false final false
+  /// @brief Method GetContentFromSessionKey addr 0x1190fe8 size 0x22c virtual false final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentFromSessionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* sKey);
 
-  /// @brief Method GetContent addr 0x1202464 size 0x104 virtual false final false
+  /// @brief Method GetContent addr 0x1191214 size 0x104 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetContent(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
-  /// @brief Method GetMac addr 0x1202568 size 0x168 virtual false final false
+  /// @brief Method GetMac addr 0x1191318 size 0x168 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMac();
 
   /// @brief Method GetContentStream addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -150,6 +150,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::RecipientInformation, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::RecipientInformation, ___rid) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::RecipientInformation, ___keyEncAlg) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::RecipientInformation, ___secureReadable) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::RecipientInformation, ___resultMac) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::RecipientInformation);

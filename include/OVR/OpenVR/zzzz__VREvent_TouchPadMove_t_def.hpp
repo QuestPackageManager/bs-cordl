@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_TouchPadMove_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8669))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9438))
 // CS Name: ::OVR.OpenVR::VREvent_TouchPadMove_t
 struct CORDL_TYPE VREvent_TouchPadMove_t {
 public:
@@ -55,6 +55,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VREvent_TouchPadMove_t, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_TouchPadMove_t, bFingerDown) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_TouchPadMove_t, flSecondsFingerDown) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_TouchPadMove_t, fValueXFirst) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_TouchPadMove_t, fValueYFirst) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_TouchPadMove_t, fValueXRaw) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_TouchPadMove_t, fValueYRaw) == 0x14, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VREvent_TouchPadMove_t, "OVR.OpenVR", "VREvent_TouchPadMove_t");

@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncSessionList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13430)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1178 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13459))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13460)) CS Name: ::Oculus.Platform.Models::NetSyncSessionList*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13476), inst: 1156 }), TypeDefinitionIndex(TypeDefinitionIndex(13476)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13514))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13515)) CS Name: ::Oculus.Platform.Models::NetSyncSessionList*
 class CORDL_TYPE NetSyncSessionList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::NetSyncSession*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::Models::NetSyncSessionList* New_ctor(void* a);
 
-  /// @brief Method .ctor addr 0x2707654 size 0x23c virtual false final false
+  /// @brief Method .ctor addr 0x25b5dd8 size 0x23c virtual false final false
   inline void _ctor(void* a);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSyncSessionList", modifiers: "&&", def_value: None }]

@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(HEU_InputPreset)
 namespace HoudiniEngineUnity {
 class HEU_InputAssetPreset;
 }
-namespace HoudiniEngineUnity {
-class HEU_InputObjectPreset;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputObjectPreset;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputPreset);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9642))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9608))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9569)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9535))
 // CS Name: ::HoudiniEngineUnity::HEU_InputPreset*
 class CORDL_TYPE HEU_InputPreset : public ::System::Object {
 public:
@@ -106,7 +106,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_InputPreset* New_ctor();
 
-  /// @brief Method .ctor addr 0x214e6f8 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x1ff6d5c size 0xc0 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputPreset", modifiers: "&&", def_value: None }]
@@ -151,6 +151,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputPreset, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputPreset, ____inputObjectType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputPreset, ____inputObjectPresets) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputPreset, ____inputAssetName) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputPreset, ____inputIndex) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputPreset, ____inputName) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputPreset, ____keepWorldTransform) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputPreset, ____packGeometryBeforeMerging) == 0x39, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputPreset, ____inputAssetPresets) == 0x40, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputPreset);

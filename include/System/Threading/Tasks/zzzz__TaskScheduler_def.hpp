@@ -8,23 +8,23 @@ CORDL_MODULE_EXPORT(TaskScheduler)
 namespace System::Threading::Tasks {
 class __TaskScheduler__SystemThreadingTasks_TaskSchedulerDebugView;
 }
-namespace System::Threading::Tasks {
-class UnobservedTaskExceptionEventArgs;
-}
-namespace System::Threading {
-class Lock;
-}
-namespace System {
-class Object;
-}
-namespace System {
-template <typename TEventArgs> class EventHandler_1;
-}
 namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class ConditionalWeakTable_2;
 }
 namespace System::Threading::Tasks {
+class UnobservedTaskExceptionEventArgs;
+}
+namespace System {
+class Object;
+}
+namespace System::Threading::Tasks {
 class Task;
+}
+namespace System {
+template <typename TEventArgs> class EventHandler_1;
+}
+namespace System::Threading {
+class Lock;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__TaskScheduler__SystemThreadingTasks
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2811))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2807))
 // CS Name: ::TaskScheduler::SystemThreadingTasks_TaskSchedulerDebugView*
 class CORDL_TYPE __TaskScheduler__SystemThreadingTasks_TaskSchedulerDebugView : public ::System::Object {
 public:
@@ -70,8 +70,8 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__Task
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2812))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2808))
 // CS Name: ::System.Threading.Tasks::TaskScheduler*
 class CORDL_TYPE TaskScheduler : public ::System::Object {
 public:
@@ -135,36 +135,36 @@ public:
   /// @brief Method TryExecuteTaskInline addr 0x0 size 0xffffffffffffffff virtual true final false
   inline bool TryExecuteTaskInline(::System::Threading::Tasks::Task* task, bool taskWasPreviouslyQueued);
 
-  /// @brief Method TryRunInline addr 0x26273b0 size 0x1f8 virtual false final false
+  /// @brief Method TryRunInline addr 0x24cd2a4 size 0x1f8 virtual false final false
   inline bool TryRunInline(::System::Threading::Tasks::Task* task, bool taskWasPreviouslyQueued);
 
-  /// @brief Method TryDequeue addr 0x262d8e0 size 0x8 virtual true final false
+  /// @brief Method TryDequeue addr 0x24d37d4 size 0x8 virtual true final false
   inline bool TryDequeue(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method NotifyWorkItemProgress addr 0x262d8e8 size 0x4 virtual true final false
+  /// @brief Method NotifyWorkItemProgress addr 0x24d37dc size 0x4 virtual true final false
   inline void NotifyWorkItemProgress();
 
-  /// @brief Method get_RequiresAtomicStartTransition addr 0x262d8ec size 0x8 virtual true final false
+  /// @brief Method get_RequiresAtomicStartTransition addr 0x24d37e0 size 0x8 virtual true final false
   inline bool get_RequiresAtomicStartTransition();
 
   static inline ::System::Threading::Tasks::TaskScheduler* New_ctor();
 
-  /// @brief Method .ctor addr 0x262d8f4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24d37e8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_Default addr 0x262d8fc size 0x58 virtual false final false
+  /// @brief Method get_Default addr 0x24d37f0 size 0x58 virtual false final false
   static inline ::System::Threading::Tasks::TaskScheduler* get_Default();
 
-  /// @brief Method get_Current addr 0x2627ce8 size 0xa0 virtual false final false
+  /// @brief Method get_Current addr 0x24cdbdc size 0xa0 virtual false final false
   static inline ::System::Threading::Tasks::TaskScheduler* get_Current();
 
-  /// @brief Method get_InternalCurrent addr 0x26268c8 size 0xa4 virtual false final false
+  /// @brief Method get_InternalCurrent addr 0x24cc7bc size 0xa4 virtual false final false
   static inline ::System::Threading::Tasks::TaskScheduler* get_InternalCurrent();
 
-  /// @brief Method get_Id addr 0x26275a8 size 0x94 virtual false final false
+  /// @brief Method get_Id addr 0x24cd49c size 0x94 virtual false final false
   inline int32_t get_Id();
 
-  /// @brief Method PublishUnobservedTaskException addr 0x262ca14 size 0x134 virtual false final false
+  /// @brief Method PublishUnobservedTaskException addr 0x24d2908 size 0x134 virtual false final false
   static inline void PublishUnobservedTaskException(::System::Object* sender, ::System::Threading::Tasks::UnobservedTaskExceptionEventArgs* ueea);
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskScheduler", modifiers: "&&", def_value: None }]
@@ -188,6 +188,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::TaskScheduler, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::TaskScheduler, ___m_taskSchedulerId) == 0x10, "Offset mismatch!");
 
 } // namespace System::Threading::Tasks
 NEED_NO_BOX(::System::Threading::Tasks::TaskScheduler);

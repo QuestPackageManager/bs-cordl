@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnableIMECompositionCommand)
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -25,8 +25,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::EnableIMECompositionCommand);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 9, calculated_native_size: 25, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6471))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6465))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6557))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6551))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::EnableIMECompositionCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE EnableIMECompositionCommand {
@@ -57,16 +57,16 @@ public:
 
   constexpr void __set_m_ImeEnabled(uint8_t value);
 
-  /// @brief Method get_Type addr 0x2ae7568 size 0x30 virtual false final false
+  /// @brief Method get_Type addr 0x2967820 size 0x30 virtual false final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_imeEnabled addr 0x2ae7598 size 0x10 virtual false final false
+  /// @brief Method get_imeEnabled addr 0x2967850 size 0x10 virtual false final false
   inline bool get_imeEnabled();
 
-  /// @brief Method get_typeStatic addr 0x2ae75a8 size 0x30 virtual true final true
+  /// @brief Method get_typeStatic addr 0x2967860 size 0x30 virtual true final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create addr 0x2ae75d8 size 0x58 virtual false final false
+  /// @brief Method Create addr 0x2967890 size 0x58 virtual false final false
   static inline ::UnityEngine::InputSystem::LowLevel::EnableIMECompositionCommand Create(bool enabled);
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "m_ImeEnabled", ty: "uint8_t",

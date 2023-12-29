@@ -10,10 +10,10 @@ namespace UnityEngine {
 struct Keyframe;
 }
 namespace UnityEngine {
-struct Quaternion;
+class AnimationCurve;
 }
 namespace UnityEngine {
-class AnimationCurve;
+struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::RotationLimitSpline);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12622))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12628))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12550))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12556))
 // CS Name: ::RootMotion.FinalIK::RotationLimitSpline*
 class CORDL_TYPE RotationLimitSpline : public ::RootMotion::FinalIK::RotationLimit {
 public:
@@ -49,30 +49,30 @@ public:
 
   constexpr void __set_spline(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method OpenUserManual addr 0x1292c90 size 0x44 virtual false final false
+  /// @brief Method OpenUserManual addr 0x1221964 size 0x44 virtual false final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference addr 0x1292cd4 size 0x44 virtual false final false
+  /// @brief Method OpenScriptReference addr 0x12219a8 size 0x44 virtual false final false
   inline void OpenScriptReference();
 
-  /// @brief Method SupportGroup addr 0x1292d18 size 0x44 virtual false final false
+  /// @brief Method SupportGroup addr 0x12219ec size 0x44 virtual false final false
   inline void SupportGroup();
 
-  /// @brief Method ASThread addr 0x1292d5c size 0x44 virtual false final false
+  /// @brief Method ASThread addr 0x1221a30 size 0x44 virtual false final false
   inline void ASThread();
 
-  /// @brief Method SetSpline addr 0x1292da0 size 0x1c virtual false final false
+  /// @brief Method SetSpline addr 0x1221a74 size 0x1c virtual false final false
   inline void SetSpline(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keyframes);
 
-  /// @brief Method LimitRotation addr 0x1292dbc size 0x94 virtual true final false
+  /// @brief Method LimitRotation addr 0x1221a90 size 0x94 virtual true final false
   inline ::UnityEngine::Quaternion LimitRotation(::UnityEngine::Quaternion rotation);
 
-  /// @brief Method LimitSwing addr 0x1292e50 size 0x3b8 virtual false final false
+  /// @brief Method LimitSwing addr 0x1221b24 size 0x3b8 virtual false final false
   inline ::UnityEngine::Quaternion LimitSwing(::UnityEngine::Quaternion rotation);
 
   static inline ::RootMotion::FinalIK::RotationLimitSpline* New_ctor();
 
-  /// @brief Method .ctor addr 0x1293208 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x1221edc size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RotationLimitSpline", modifiers: "&&", def_value: None }]
@@ -99,6 +99,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::RotationLimitSpline, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::RotationLimitSpline, ___twistLimit) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::RotationLimitSpline, ___spline) == 0x40, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::RotationLimitSpline);

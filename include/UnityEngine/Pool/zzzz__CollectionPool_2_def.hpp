@@ -30,8 +30,8 @@ namespace UnityEngine::Pool {
 // cpp template
 template <typename TCollection, typename TItem>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10443))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10365))
 // CS Name: ::CollectionPool`2::<>c<TCollection,TItem>*
 class CORDL_TYPE __CollectionPool_2____c : public ::System::Object {
 public:
@@ -78,8 +78,8 @@ namespace UnityEngine::Pool {
 // cpp template
 template <typename TCollection, typename TItem>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10444))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10366))
 // CS Name: ::UnityEngine.Pool::CollectionPool`2<TCollection,TItem>*
 class CORDL_TYPE CollectionPool_2 : public ::System::Object {
 public:

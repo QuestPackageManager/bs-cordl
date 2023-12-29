@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(NclUtilities)
 namespace System::Net {
 class IPAddress;
 }
-namespace System {
-class Object;
+namespace System::Net {
+class IPHostEntry;
 }
 namespace System {
 class Exception;
 }
-namespace System::Net {
-class IPHostEntry;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::System::Net::NclUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9074))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7911))
 // CS Name: ::System.Net::NclUtilities*
 class CORDL_TYPE NclUtilities : public ::System::Object {
 public:
@@ -55,19 +55,19 @@ public:
 
   static inline ::StringW getStaticF__LocalDomainName();
 
-  /// @brief Method IsFatal addr 0x299d724 size 0xc0 virtual false final false
+  /// @brief Method IsFatal addr 0x281feac size 0xc0 virtual false final false
   static inline bool IsFatal(::System::Exception* exception);
 
-  /// @brief Method IsAddressLocal addr 0x299d7e4 size 0x8c virtual false final false
+  /// @brief Method IsAddressLocal addr 0x281ff6c size 0x8c virtual false final false
   static inline bool IsAddressLocal(::System::Net::IPAddress* ipAddress);
 
-  /// @brief Method GetLocalHost addr 0x299dd2c size 0x18 virtual false final false
+  /// @brief Method GetLocalHost addr 0x28204b4 size 0x18 virtual false final false
   static inline ::System::Net::IPHostEntry* GetLocalHost();
 
-  /// @brief Method get_LocalAddresses addr 0x299d870 size 0x4bc virtual false final false
+  /// @brief Method get_LocalAddresses addr 0x281fff8 size 0x4bc virtual false final false
   static inline ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> get_LocalAddresses();
 
-  /// @brief Method get_LocalAddressesLock addr 0x299dd44 size 0xa4 virtual false final false
+  /// @brief Method get_LocalAddressesLock addr 0x28204cc size 0xa4 virtual false final false
   static inline ::System::Object* get_LocalAddressesLock();
 
   // Ctor Parameters [CppParam { name: "", ty: "NclUtilities", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_MaterialInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9742))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9669))
 // CS Name: ::HoudiniEngineUnity::HAPI_MaterialInfo
 struct CORDL_TYPE HAPI_MaterialInfo {
 public:
@@ -45,6 +45,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_MaterialInfo, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_MaterialInfo, nodeId) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_MaterialInfo, exists) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_MaterialInfo, hasChanged) == 0x5, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_MaterialInfo, "HoudiniEngineUnity", "HAPI_MaterialInfo");

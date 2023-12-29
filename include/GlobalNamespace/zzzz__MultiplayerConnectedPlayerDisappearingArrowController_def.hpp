@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowCon
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 356 }), TypeDefinitionIndex(TypeDefinitionIndex(5137)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4742))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5135)) CS Name: ::MultiplayerConnectedPlayerDisappearingArrowController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4863)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4863), inst: 353 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(5242))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5240)) CS Name: ::MultiplayerConnectedPlayerDisappearingArrowController*
 class CORDL_TYPE MultiplayerConnectedPlayerDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*> {
 public:
   // Declarations
@@ -34,12 +34,12 @@ public:
 
   constexpr void __set__gameNoteController(::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* value);
 
-  /// @brief Method get_gameNoteController addr 0x23d77ec size 0x8 virtual true final false
+  /// @brief Method get_gameNoteController addr 0x20f5c74 size 0x8 virtual true final false
   inline ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* get_gameNoteController();
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController* New_ctor();
 
-  /// @brief Method .ctor addr 0x23d77f4 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x20f5c7c size 0x6c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerDisappearingArrowController", modifiers: "&&", def_value: None }]
@@ -63,6 +63,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController, ____gameNoteController) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController);

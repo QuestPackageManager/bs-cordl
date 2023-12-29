@@ -6,44 +6,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CollectionUtils)
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System {
-class Type;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System::Reflection {
 class ConstructorInfo;
 }
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
 namespace System::Collections {
-class IEqualityComparer;
+class IEnumerable;
+}
+namespace System {
+class Type;
 }
 namespace System::Collections {
 class IList;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class IEqualityComparer_1;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class Array;
 }
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace System::Collections {
+class IEqualityComparer;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -55,8 +55,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::CollectionUtils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11891))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11819))
 // CS Name: ::Newtonsoft.Json.Utilities::CollectionUtils*
 class CORDL_TYPE CollectionUtils : public ::System::Object {
 public:
@@ -70,13 +70,13 @@ public:
   /// @brief Method AddRange addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline void AddRange(::System::Collections::Generic::IList_1<T>* initial, ::System::Collections::IEnumerable* collection);
 
-  /// @brief Method IsDictionaryType addr 0x2664430 size 0x138 virtual false final false
+  /// @brief Method IsDictionaryType addr 0x2500cec size 0x138 virtual false final false
   static inline bool IsDictionaryType(::System::Type* type);
 
-  /// @brief Method ResolveEnumerableCollectionConstructor addr 0x26645dc size 0x110 virtual false final false
+  /// @brief Method ResolveEnumerableCollectionConstructor addr 0x2500e98 size 0x110 virtual false final false
   static inline ::System::Reflection::ConstructorInfo* ResolveEnumerableCollectionConstructor(::System::Type* collectionType, ::System::Type* collectionItemType);
 
-  /// @brief Method ResolveEnumerableCollectionConstructor addr 0x26646ec size 0x2c4 virtual false final false
+  /// @brief Method ResolveEnumerableCollectionConstructor addr 0x2500fa8 size 0x2c4 virtual false final false
   static inline ::System::Reflection::ConstructorInfo* ResolveEnumerableCollectionConstructor(::System::Type* collectionType, ::System::Type* collectionItemType,
                                                                                               ::System::Type* constructorArgumentType);
 
@@ -104,16 +104,16 @@ public:
   /// @brief Method IndexOfReference addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline int32_t IndexOfReference(::System::Collections::Generic::List_1<T>* list, T item);
 
-  /// @brief Method GetDimensions addr 0x26649b0 size 0x2e4 virtual false final false
+  /// @brief Method GetDimensions addr 0x250126c size 0x2e4 virtual false final false
   static inline ::System::Collections::Generic::IList_1<int32_t>* GetDimensions(::System::Collections::IList* values, int32_t dimensionsCount);
 
-  /// @brief Method CopyFromJaggedToMultidimensionalArray addr 0x2664c94 size 0x2c0 virtual false final false
+  /// @brief Method CopyFromJaggedToMultidimensionalArray addr 0x2501550 size 0x2c0 virtual false final false
   static inline void CopyFromJaggedToMultidimensionalArray(::System::Collections::IList* values, ::System::Array* multidimensionalArray, ::ArrayW<int32_t, ::Array<int32_t>*> indices);
 
-  /// @brief Method JaggedArrayGetValue addr 0x2664f54 size 0x13c virtual false final false
+  /// @brief Method JaggedArrayGetValue addr 0x2501810 size 0x13c virtual false final false
   static inline ::System::Object* JaggedArrayGetValue(::System::Collections::IList* values, ::ArrayW<int32_t, ::Array<int32_t>*> indices);
 
-  /// @brief Method ToMultidimensionalArray addr 0x2665090 size 0x1a0 virtual false final false
+  /// @brief Method ToMultidimensionalArray addr 0x250194c size 0x1a0 virtual false final false
   static inline ::System::Array* ToMultidimensionalArray(::System::Collections::IList* values, ::System::Type* type, int32_t rank);
 
   // Ctor Parameters [CppParam { name: "", ty: "CollectionUtils", modifiers: "&&", def_value: None }]

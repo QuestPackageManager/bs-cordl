@@ -12,10 +12,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FormattedFloatListSettingsValueController)
 namespace GlobalNamespace {
-struct __FormattedFloatListSettingsValueController__ValueType;
+class FloatSO;
 }
 namespace GlobalNamespace {
-class FloatSO;
+struct __FormattedFloatListSettingsValueController__ValueType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::FormattedFloatListSettingsValueController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5593))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5686))
 // CS Name: ::FormattedFloatListSettingsValueController::ValueType
 struct CORDL_TYPE __FormattedFloatListSettingsValueController__ValueType {
 public:
@@ -78,13 +78,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::FormattedFloatListSettingsValueController
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16149)), TypeDefinitionIndex(TypeDefinitionIndex(5593))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5594))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5686)), TypeDefinitionIndex(TypeDefinitionIndex(5691))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5687))
 // CS Name: ::FormattedFloatListSettingsValueController*
 class CORDL_TYPE FormattedFloatListSettingsValueController : public ::GlobalNamespace::ListSettingsController {
 public:
@@ -145,18 +147,18 @@ public:
 
   constexpr void __set__max(float_t value);
 
-  /// @brief Method GetInitValues addr 0x22aa814 size 0xe0 virtual true final false
+  /// @brief Method GetInitValues addr 0x2165500 size 0xe0 virtual true final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method ApplyValue addr 0x22aa8f4 size 0x74 virtual true final false
+  /// @brief Method ApplyValue addr 0x21655e0 size 0x74 virtual true final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method TextForValue addr 0x22aa968 size 0xdc virtual true final false
+  /// @brief Method TextForValue addr 0x2165654 size 0xdc virtual true final false
   inline ::StringW TextForValue(int32_t idx);
 
   static inline ::GlobalNamespace::FormattedFloatListSettingsValueController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22aaa44 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x2165730 size 0x5c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FormattedFloatListSettingsValueController", modifiers: "&&", def_value: None }]
@@ -195,6 +197,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FormattedFloatListSettingsValueController, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FormattedFloatListSettingsValueController, ____settingsValue) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FormattedFloatListSettingsValueController, ____values) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FormattedFloatListSettingsValueController, ____formattingString) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FormattedFloatListSettingsValueController, ___valueType) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FormattedFloatListSettingsValueController, ____min) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FormattedFloatListSettingsValueController, ____max) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType, "", "FormattedFloatListSettingsValueController/ValueType");

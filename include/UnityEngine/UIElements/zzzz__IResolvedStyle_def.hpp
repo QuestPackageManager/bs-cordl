@@ -6,10 +6,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IResolvedStyle)
 namespace UnityEngine::UIElements {
-struct StyleFloat;
-}
-namespace UnityEngine::UIElements {
-struct Scale;
+struct Visibility;
 }
 namespace UnityEngine {
 struct Color;
@@ -17,14 +14,17 @@ struct Color;
 namespace UnityEngine::UIElements {
 struct DisplayStyle;
 }
+namespace UnityEngine::UIElements {
+struct StyleFloat;
+}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::UIElements {
-struct Visibility;
+struct WhiteSpace;
 }
 namespace UnityEngine::UIElements {
-struct WhiteSpace;
+struct Scale;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IResolvedStyle);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7363))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7449))
 // CS Name: ::UnityEngine.UIElements::IResolvedStyle*
 class CORDL_TYPE IResolvedStyle {
 public:

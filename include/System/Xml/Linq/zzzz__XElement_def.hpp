@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XElement)
 namespace System::Xml {
-struct XmlNodeType;
-}
-namespace System::Xml::Linq {
-class XNode;
+class XmlWriter;
 }
 namespace System::Xml::Linq {
 class XNamespace;
+}
+namespace System::Xml::Linq {
+class XStreamingElement;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -23,19 +23,19 @@ namespace System::Xml::Linq {
 class XAttribute;
 }
 namespace System::Xml::Linq {
+class XName;
+}
+namespace System::Xml {
+struct XmlNodeType;
+}
+namespace System::Xml::Linq {
 class __XElement___GetAttributes_d__116;
 }
 namespace System::Xml::Linq {
-class XName;
+class XNode;
 }
-namespace System::Xml::Linq {
-class XStreamingElement;
-}
-namespace System::Xml {
-class XmlWriter;
-}
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -43,11 +43,11 @@ template <typename T> class IEnumerator_1;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Linq {
@@ -63,8 +63,8 @@ MARK_REF_PTR_T(::System::Xml::Linq::__XElement___GetAttributes_d__116);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15440))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15424))
 // CS Name: ::XElement::<GetAttributes>d__116*
 class CORDL_TYPE __XElement___GetAttributes_d__116 : public ::System::Object {
 public:
@@ -154,28 +154,28 @@ public:
 
   static inline ::System::Xml::Linq::__XElement___GetAttributes_d__116* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x285f574 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x26e3558 size 0x34 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x285f6e4 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x26e36c8 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x285f6e8 size 0xa8 virtual true final true
+  /// @brief Method MoveNext addr 0x26e36cc size 0xa8 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Xml.Linq.XAttribute>.get_Current addr 0x285f790 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Xml.Linq.XAttribute>.get_Current addr 0x26e3774 size 0x8 virtual true final true
   inline ::System::Xml::Linq::XAttribute* System_Collections_Generic_IEnumerator_System_Xml_Linq_XAttribute__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x285f798 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x26e377c size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x285f7d8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x26e37bc size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Xml.Linq.XAttribute>.GetEnumerator addr 0x285f7e0 size 0xac virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Xml.Linq.XAttribute>.GetEnumerator addr 0x26e37c4 size 0xac virtual true final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XAttribute*>* System_Collections_Generic_IEnumerable_System_Xml_Linq_XAttribute__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x285f88c size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x26e3870 size 0x4 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__XElement___GetAttributes_d__116", modifiers: "&&", def_value: None }]
@@ -218,13 +218,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::__XElement___GetAttributes_d__116, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::System::Xml::Linq::__XElement___GetAttributes_d__116, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::__XElement___GetAttributes_d__116, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::__XElement___GetAttributes_d__116, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::__XElement___GetAttributes_d__116, _____4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::__XElement___GetAttributes_d__116, ___name) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::__XElement___GetAttributes_d__116, _____3__name) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::__XElement___GetAttributes_d__116, ____a_5__2) == 0x40, "Offset mismatch!");
+
 } // namespace System::Xml::Linq
 // Type: System.Xml.Linq::XElement
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15436))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15441))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15420))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15425))
 // CS Name: ::System.Xml.Linq::XElement*
 class CORDL_TYPE XElement : public ::System::Xml::Linq::XContainer {
 public:
@@ -259,68 +273,68 @@ public:
 
   static inline ::System::Xml::Linq::XElement* New_ctor(::System::Xml::Linq::XName* name);
 
-  /// @brief Method .ctor addr 0x285eb40 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x26e2b24 size 0x78 virtual false final false
   inline void _ctor(::System::Xml::Linq::XName* name);
 
   static inline ::System::Xml::Linq::XElement* New_ctor(::System::Xml::Linq::XElement* other);
 
-  /// @brief Method .ctor addr 0x285ebb8 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x26e2b9c size 0xc0 virtual false final false
   inline void _ctor(::System::Xml::Linq::XElement* other);
 
   static inline ::System::Xml::Linq::XElement* New_ctor(::System::Xml::Linq::XStreamingElement* other);
 
-  /// @brief Method .ctor addr 0x285d09c size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x26e1080 size 0x84 virtual false final false
   inline void _ctor(::System::Xml::Linq::XStreamingElement* other);
 
-  /// @brief Method get_IsEmpty addr 0x285ecb0 size 0x10 virtual false final false
+  /// @brief Method get_IsEmpty addr 0x26e2c94 size 0x10 virtual false final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_Name addr 0x285ecc0 size 0x8 virtual false final false
+  /// @brief Method get_Name addr 0x26e2ca4 size 0x8 virtual false final false
   inline ::System::Xml::Linq::XName* get_Name();
 
-  /// @brief Method get_NodeType addr 0x285ecc8 size 0x8 virtual true final false
+  /// @brief Method get_NodeType addr 0x26e2cac size 0x8 virtual true final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Value addr 0x285ecd0 size 0x94 virtual false final false
+  /// @brief Method get_Value addr 0x26e2cb4 size 0x94 virtual false final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value addr 0x285ed64 size 0x78 virtual false final false
+  /// @brief Method set_Value addr 0x26e2d48 size 0x78 virtual false final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method Attribute addr 0x285eddc size 0x3c virtual false final false
+  /// @brief Method Attribute addr 0x26e2dc0 size 0x3c virtual false final false
   inline ::System::Xml::Linq::XAttribute* Attribute(::System::Xml::Linq::XName* name);
 
-  /// @brief Method Attributes addr 0x285ee18 size 0x8 virtual false final false
+  /// @brief Method Attributes addr 0x26e2dfc size 0x8 virtual false final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XAttribute*>* Attributes();
 
-  /// @brief Method GetPrefixOfNamespace addr 0x285b990 size 0x224 virtual false final false
+  /// @brief Method GetPrefixOfNamespace addr 0x26df974 size 0x224 virtual false final false
   inline ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns);
 
-  /// @brief Method WriteTo addr 0x285efa8 size 0x84 virtual true final false
+  /// @brief Method WriteTo addr 0x26e2f8c size 0x84 virtual true final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
-  /// @brief Method AddAttribute addr 0x285f1e0 size 0xf0 virtual true final false
+  /// @brief Method AddAttribute addr 0x26e31c4 size 0xf0 virtual true final false
   inline void AddAttribute(::System::Xml::Linq::XAttribute* a);
 
-  /// @brief Method AddAttributeSkipNotify addr 0x285f408 size 0x10c virtual true final false
+  /// @brief Method AddAttributeSkipNotify addr 0x26e33ec size 0x10c virtual true final false
   inline void AddAttributeSkipNotify(::System::Xml::Linq::XAttribute* a);
 
-  /// @brief Method AppendAttribute addr 0x285f2d0 size 0x138 virtual false final false
+  /// @brief Method AppendAttribute addr 0x26e32b4 size 0x138 virtual false final false
   inline void AppendAttribute(::System::Xml::Linq::XAttribute* a);
 
-  /// @brief Method AppendAttributeSkipNotify addr 0x285ec78 size 0x38 virtual false final false
+  /// @brief Method AppendAttributeSkipNotify addr 0x26e2c5c size 0x38 virtual false final false
   inline void AppendAttributeSkipNotify(::System::Xml::Linq::XAttribute* a);
 
-  /// @brief Method CloneNode addr 0x285f514 size 0x60 virtual true final false
+  /// @brief Method CloneNode addr 0x26e34f8 size 0x60 virtual true final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
-  /// @brief Method GetAttributes addr 0x285ee20 size 0x88 virtual false final false
+  /// @brief Method GetAttributes addr 0x26e2e04 size 0x88 virtual false final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XAttribute*>* GetAttributes(::System::Xml::Linq::XName* name);
 
-  /// @brief Method GetNamespaceOfPrefixInScope addr 0x285eeb4 size 0xf4 virtual false final false
+  /// @brief Method GetNamespaceOfPrefixInScope addr 0x26e2e98 size 0xf4 virtual false final false
   inline ::StringW GetNamespaceOfPrefixInScope(::StringW prefix, ::System::Xml::Linq::XElement* outOfScope);
 
-  /// @brief Method ValidateNode addr 0x285f5a8 size 0x13c virtual true final false
+  /// @brief Method ValidateNode addr 0x26e358c size 0x13c virtual true final false
   inline void ValidateNode(::System::Xml::Linq::XNode* node, ::System::Xml::Linq::XNode* previous);
 
   // Ctor Parameters [CppParam { name: "", ty: "XElement", modifiers: "&&", def_value: None }]
@@ -347,6 +361,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XElement, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XElement, ___name) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XElement, ___lastAttr) == 0x38, "Offset mismatch!");
 
 } // namespace System::Xml::Linq
 NEED_NO_BOX(::System::Xml::Linq::XElement);

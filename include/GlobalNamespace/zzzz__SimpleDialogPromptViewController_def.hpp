@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimpleDialogPromptViewController)
+namespace GlobalNamespace {
+class __SimpleDialogPromptViewController____c__DisplayClass5_0;
+}
 namespace TMPro {
 class TextMeshProUGUI;
-}
-namespace UnityEngine::UI {
-class Button;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-class __SimpleDialogPromptViewController____c__DisplayClass5_0;
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__SimpleDialogPromptViewController____c__Displ
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5762))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5853))
 // CS Name: ::SimpleDialogPromptViewController::<>c__DisplayClass5_0*
 class CORDL_TYPE __SimpleDialogPromptViewController____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -60,10 +60,10 @@ public:
 
   static inline ::GlobalNamespace::__SimpleDialogPromptViewController____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x22db9fc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2195ef4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__0 addr 0x22dbc00 size 0x38 virtual false final false
+  /// @brief Method <DidActivate>b__0 addr 0x21960f8 size 0x38 virtual false final false
   inline void _DidActivate_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SimpleDialogPromptViewController____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
@@ -91,13 +91,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SimpleDialogPromptViewController____c__DisplayClass5_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SimpleDialogPromptViewController____c__DisplayClass5_0, ___buttonNum) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SimpleDialogPromptViewController____c__DisplayClass5_0, _____4__this) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SimpleDialogPromptViewController
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5763))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5854))
 // CS Name: ::SimpleDialogPromptViewController*
 class CORDL_TYPE SimpleDialogPromptViewController : public ::HMUI::ViewController {
 public:
@@ -149,24 +153,24 @@ public:
 
   constexpr void __set__didFinishAction(::System::Action_1<int32_t>* value);
 
-  /// @brief Method DidActivate addr 0x22db8d0 size 0x12c virtual true final false
+  /// @brief Method DidActivate addr 0x2195dc8 size 0x12c virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x22dba04 size 0xc virtual true final false
+  /// @brief Method DidDeactivate addr 0x2195efc size 0xc virtual true final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Init addr 0x22dba10 size 0x10 virtual false final false
+  /// @brief Method Init addr 0x2195f08 size 0x10 virtual false final false
   inline void Init(::StringW title, ::StringW message, ::StringW buttonText, ::System::Action_1<int32_t>* didFinishAction);
 
-  /// @brief Method Init addr 0x22dbbf4 size 0xc virtual false final false
+  /// @brief Method Init addr 0x21960ec size 0xc virtual false final false
   inline void Init(::StringW title, ::StringW message, ::StringW firstButtonText, ::StringW secondButtonText, ::System::Action_1<int32_t>* didFinishAction);
 
-  /// @brief Method Init addr 0x22dba20 size 0x1d4 virtual false final false
+  /// @brief Method Init addr 0x2195f18 size 0x1d4 virtual false final false
   inline void Init(::StringW title, ::StringW message, ::StringW firstButtonText, ::StringW secondButtonText, ::StringW thirdButtonText, ::System::Action_1<int32_t>* didFinishAction);
 
   static inline ::GlobalNamespace::SimpleDialogPromptViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22d7ef8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2195058 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController", modifiers: "&&", def_value: None }]
@@ -202,6 +206,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleDialogPromptViewController, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleDialogPromptViewController, ____titleText) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleDialogPromptViewController, ____messageText) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleDialogPromptViewController, ____buttons) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleDialogPromptViewController, ____buttonTexts) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleDialogPromptViewController, ____didFinishAction) == 0x90, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SimpleDialogPromptViewController);

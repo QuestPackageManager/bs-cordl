@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::AsnDecodeStatus);
 namespace System::Security::Cryptography {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8976))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7813))
 // CS Name: ::System.Security.Cryptography::AsnDecodeStatus
 struct CORDL_TYPE AsnDecodeStatus {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::AsnDecodeStatus, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::AsnDecodeStatus, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::AsnDecodeStatus, "System.Security.Cryptography", "AsnDecodeStatus");

@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MissionLevelNoTransitionInstaller)
+namespace Zenject {
+class DiContainer;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
 namespace GlobalNamespace {
 class ColorSchemeSO;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class MissionLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
 class MissionObjective;
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionLevelNoTransitionInstaller);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11176)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6039))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11104)), TypeDefinitionIndex(TypeDefinitionIndex(14934))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6094))
 // CS Name: ::MissionLevelNoTransitionInstaller*
 class CORDL_TYPE MissionLevelNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
@@ -128,12 +128,12 @@ public:
 
   constexpr void __set__scenesTransitionSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value);
 
-  /// @brief Method InstallBindings addr 0x231b0f0 size 0xc4 virtual true final false
+  /// @brief Method InstallBindings addr 0x21c82c4 size 0xc4 virtual true final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::MissionLevelNoTransitionInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x231b6e8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21c8388 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelNoTransitionInstaller", modifiers: "&&", def_value: None }]
@@ -181,6 +181,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelNoTransitionInstaller, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelNoTransitionInstaller, ____beatmapLevel) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelNoTransitionInstaller, ____beatmapCharacteristic) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelNoTransitionInstaller, ____beatmapDifficulty) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelNoTransitionInstaller, ____colorScheme) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelNoTransitionInstaller, ____missionObjectives) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelNoTransitionInstaller, ____gameplayModifiers) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelNoTransitionInstaller, ____playerSpecificSettings) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelNoTransitionInstaller, ____backButtonText) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelNoTransitionInstaller, ____scenesTransitionSetupData) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionLevelNoTransitionInstaller);

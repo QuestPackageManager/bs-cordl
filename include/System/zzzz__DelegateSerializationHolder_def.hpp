@@ -7,16 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DelegateSerializationHolder)
 namespace System {
-class __DelegateSerializationHolder__DelegateEntry;
+class Object;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System {
+class __DelegateSerializationHolder__DelegateEntry;
 }
 namespace System {
 class Delegate;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 class IObjectReference;
@@ -24,8 +21,11 @@ class IObjectReference;
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 // Forward declare root types
 namespace System {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::System::__DelegateSerializationHolder__DelegateEntry);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2590))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2588))
 // CS Name: ::DelegateSerializationHolder::DelegateEntry*
 class CORDL_TYPE __DelegateSerializationHolder__DelegateEntry : public ::System::Object {
 public:
@@ -112,10 +112,10 @@ public:
 
   static inline ::System::__DelegateSerializationHolder__DelegateEntry* New_ctor(::System::Delegate* del, ::StringW targetLabel);
 
-  /// @brief Method .ctor addr 0x25f9f50 size 0x11c virtual false final false
+  /// @brief Method .ctor addr 0x249efc0 size 0x11c virtual false final false
   inline void _ctor(::System::Delegate* del, ::StringW targetLabel);
 
-  /// @brief Method DeserializeDelegate addr 0x25f9cd8 size 0x278 virtual false final false
+  /// @brief Method DeserializeDelegate addr 0x249ed48 size 0x278 virtual false final false
   inline ::System::Delegate* DeserializeDelegate(::System::Runtime::Serialization::SerializationInfo* info, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DelegateSerializationHolder__DelegateEntry", modifiers: "&&", def_value: None }]
@@ -158,13 +158,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::__DelegateSerializationHolder__DelegateEntry, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::System::__DelegateSerializationHolder__DelegateEntry, ___type) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::__DelegateSerializationHolder__DelegateEntry, ___assembly) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::__DelegateSerializationHolder__DelegateEntry, ___target) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::__DelegateSerializationHolder__DelegateEntry, ___targetTypeAssembly) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::__DelegateSerializationHolder__DelegateEntry, ___targetTypeName) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::__DelegateSerializationHolder__DelegateEntry, ___methodName) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::__DelegateSerializationHolder__DelegateEntry, ___delegateEntry) == 0x40, "Offset mismatch!");
+
 } // namespace System
 // Type: System::DelegateSerializationHolder
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2591))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2589))
 // CS Name: ::System::DelegateSerializationHolder*
 class CORDL_TYPE DelegateSerializationHolder : public ::System::Object {
 public:
@@ -188,16 +202,16 @@ public:
 
   static inline ::System::DelegateSerializationHolder* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method .ctor addr 0x25f9ad8 size 0x200 virtual false final false
+  /// @brief Method .ctor addr 0x249eb48 size 0x200 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method GetDelegateData addr 0x25f96b8 size 0x248 virtual false final false
+  /// @brief Method GetDelegateData addr 0x249e728 size 0x248 virtual false final false
   static inline void GetDelegateData(::System::Delegate* instance, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method GetObjectData addr 0x25fa06c size 0x40 virtual true final true
+  /// @brief Method GetObjectData addr 0x249f0dc size 0x40 virtual true final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetRealObject addr 0x25fa0ac size 0x8 virtual true final true
+  /// @brief Method GetRealObject addr 0x249f11c size 0x8 virtual true final true
   inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "DelegateSerializationHolder", modifiers: "&&", def_value: None }]
@@ -221,6 +235,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::DelegateSerializationHolder, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::DelegateSerializationHolder, ____delegate) == 0x10, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::DelegateSerializationHolder);

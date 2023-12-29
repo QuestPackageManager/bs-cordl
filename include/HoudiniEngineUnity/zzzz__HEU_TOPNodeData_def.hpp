@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_TOPNodeData)
-namespace HoudiniEngineUnity {
-class HEU_WorkItemTally;
-}
-namespace HoudiniEngineUnity {
-class HEU_TOPWorkResult;
-}
-namespace HoudiniEngineUnity {
-class TOPNodeTags;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_TOPNodeData__PDGState;
-}
 namespace UnityEngine {
 class GameObject;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_TOPNodeData__PDGState;
+}
+namespace HoudiniEngineUnity {
+class HEU_TOPWorkResult;
+}
+namespace HoudiniEngineUnity {
+class HEU_WorkItemTally;
+}
+namespace HoudiniEngineUnity {
+class TOPNodeTags;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_TOPNodeData);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9771))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9698))
 // CS Name: ::HEU_TOPNodeData::PDGState
 struct CORDL_TYPE __HEU_TOPNodeData__PDGState {
 public:
@@ -99,13 +99,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_TOPNodeData
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9771))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9772))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(9698))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9699))
 // CS Name: ::HoudiniEngineUnity::HEU_TOPNodeData*
 class CORDL_TYPE HEU_TOPNodeData : public ::System::Object {
 public:
@@ -193,21 +195,21 @@ public:
 
   constexpr void __set__workItemTally(::HoudiniEngineUnity::HEU_WorkItemTally* value);
 
-  /// @brief Method Reset addr 0x219c938 size 0x24 virtual false final false
+  /// @brief Method Reset addr 0x2045f9c size 0x24 virtual false final false
   inline void Reset();
 
-  /// @brief Method AreAllWorkItemsComplete addr 0x219c95c size 0x4c virtual false final false
+  /// @brief Method AreAllWorkItemsComplete addr 0x2045fc0 size 0x4c virtual false final false
   inline bool AreAllWorkItemsComplete();
 
-  /// @brief Method AnyWorkItemsFailed addr 0x219c718 size 0x24 virtual false final false
+  /// @brief Method AnyWorkItemsFailed addr 0x2045d7c size 0x24 virtual false final false
   inline bool AnyWorkItemsFailed();
 
-  /// @brief Method AnyWorkItemsPending addr 0x219c9f0 size 0x58 virtual false final false
+  /// @brief Method AnyWorkItemsPending addr 0x2046054 size 0x58 virtual false final false
   inline bool AnyWorkItemsPending();
 
   static inline ::HoudiniEngineUnity::HEU_TOPNodeData* New_ctor();
 
-  /// @brief Method .ctor addr 0x219af08 size 0xe4 virtual false final false
+  /// @brief Method .ctor addr 0x204456c size 0xe4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_TOPNodeData", modifiers: "&&", def_value: None }]
@@ -255,6 +257,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_TOPNodeData, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNodeData, ____nodeID) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNodeData, ____nodeName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNodeData, ____parentName) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNodeData, ____workResultParentGO) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNodeData, ____workResults) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNodeData, ____tags) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNodeData, ____showResults) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNodeData, ____pdgState) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNodeData, ____workItemTally) == 0x48, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState, "HoudiniEngineUnity", "HEU_TOPNodeData/PDGState");

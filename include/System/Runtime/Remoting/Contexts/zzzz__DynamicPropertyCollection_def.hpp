@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DynamicPropertyCollection)
-namespace System::Collections {
-class ArrayList;
+namespace System::Runtime::Remoting::Contexts {
+class __DynamicPropertyCollection__DynamicPropertyReg;
 }
 namespace System::Runtime::Remoting::Contexts {
 class IDynamicProperty;
 }
-namespace System::Runtime::Remoting::Contexts {
-class __DynamicPropertyCollection__DynamicPropertyReg;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Runtime::Remoting::Contexts {
 class IDynamicMessageSink;
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::__DynamicPropertyCollectio
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3099))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3098))
 // CS Name: ::DynamicPropertyCollection::DynamicPropertyReg*
 class CORDL_TYPE __DynamicPropertyCollection__DynamicPropertyReg : public ::System::Object {
 public:
@@ -61,7 +61,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg* New_ctor();
 
-  /// @brief Method .ctor addr 0x249eefc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2346408 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DynamicPropertyCollection__DynamicPropertyReg", modifiers: "&&", def_value: None }]
@@ -89,13 +89,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg, ___Property) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg, ___Sink) == 0x18, "Offset mismatch!");
+
 } // namespace System::Runtime::Remoting::Contexts
 // Type: System.Runtime.Remoting.Contexts::DynamicPropertyCollection
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3100))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3099))
 // CS Name: ::System.Runtime.Remoting.Contexts::DynamicPropertyCollection*
 class CORDL_TYPE DynamicPropertyCollection : public ::System::Object {
 public:
@@ -113,24 +117,24 @@ public:
 
   constexpr void __set__properties(::System::Collections::ArrayList* value);
 
-  /// @brief Method get_HasProperties addr 0x249c7ac size 0x30 virtual false final false
+  /// @brief Method get_HasProperties addr 0x2343cb8 size 0x30 virtual false final false
   inline bool get_HasProperties();
 
-  /// @brief Method RegisterDynamicProperty addr 0x249ca38 size 0x2ec virtual false final false
+  /// @brief Method RegisterDynamicProperty addr 0x2343f44 size 0x2ec virtual false final false
   inline bool RegisterDynamicProperty(::System::Runtime::Remoting::Contexts::IDynamicProperty* prop);
 
-  /// @brief Method UnregisterDynamicProperty addr 0x249cd9c size 0x178 virtual false final false
+  /// @brief Method UnregisterDynamicProperty addr 0x23442a8 size 0x178 virtual false final false
   inline bool UnregisterDynamicProperty(::StringW name);
 
-  /// @brief Method NotifyMessage addr 0x249d07c size 0x65c virtual false final false
+  /// @brief Method NotifyMessage addr 0x2344588 size 0x65c virtual false final false
   inline void NotifyMessage(bool start, ::System::Runtime::Remoting::Messaging::IMessage* msg, bool client_site, bool async);
 
-  /// @brief Method FindProperty addr 0x249ed98 size 0x164 virtual false final false
+  /// @brief Method FindProperty addr 0x23462a4 size 0x164 virtual false final false
   inline int32_t FindProperty(::StringW name);
 
   static inline ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* New_ctor();
 
-  /// @brief Method .ctor addr 0x249cf14 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x2344420 size 0x68 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection", modifiers: "&&", def_value: None }]
@@ -154,6 +158,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Contexts::DynamicPropertyCollection, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection, ____properties) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Contexts
 NEED_NO_BOX(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection);

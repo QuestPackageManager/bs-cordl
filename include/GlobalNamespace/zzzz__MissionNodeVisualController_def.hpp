@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionNodeVisualController);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5551))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5644))
 // CS Name: ::MissionNodeVisualController*
 class CORDL_TYPE MissionNodeVisualController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -111,75 +111,75 @@ public:
 
   constexpr void __set__interactable(bool value);
 
-  /// @brief Method add_nodeWasSelectEvent addr 0x22a0bd8 size 0xb0 virtual false final false
+  /// @brief Method add_nodeWasSelectEvent addr 0x215bc54 size 0xb0 virtual false final false
   inline void add_nodeWasSelectEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
 
-  /// @brief Method remove_nodeWasSelectEvent addr 0x22a0ea8 size 0xb0 virtual false final false
+  /// @brief Method remove_nodeWasSelectEvent addr 0x215bf24 size 0xb0 virtual false final false
   inline void remove_nodeWasSelectEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
 
-  /// @brief Method add_nodeWasDisplayedEvent addr 0x22a0c88 size 0xb0 virtual false final false
+  /// @brief Method add_nodeWasDisplayedEvent addr 0x215bd04 size 0xb0 virtual false final false
   inline void add_nodeWasDisplayedEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
 
-  /// @brief Method remove_nodeWasDisplayedEvent addr 0x22a0f58 size 0xb0 virtual false final false
+  /// @brief Method remove_nodeWasDisplayedEvent addr 0x215bfd4 size 0xb0 virtual false final false
   inline void remove_nodeWasDisplayedEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
 
-  /// @brief Method get_missionNode addr 0x22a1d88 size 0x8 virtual false final false
+  /// @brief Method get_missionNode addr 0x215ce04 size 0x8 virtual false final false
   inline ::GlobalNamespace::MissionNode* get_missionNode();
 
-  /// @brief Method get_selected addr 0x22a1d90 size 0x8 virtual false final false
+  /// @brief Method get_selected addr 0x215ce0c size 0x8 virtual false final false
   inline bool get_selected();
 
-  /// @brief Method get_isInitialized addr 0x22a1d98 size 0x8 virtual false final false
+  /// @brief Method get_isInitialized addr 0x215ce14 size 0x8 virtual false final false
   inline bool get_isInitialized();
 
-  /// @brief Method get_cleared addr 0x22a1da0 size 0x8 virtual false final false
+  /// @brief Method get_cleared addr 0x215ce1c size 0x8 virtual false final false
   inline bool get_cleared();
 
-  /// @brief Method get_interactable addr 0x22a1da8 size 0x8 virtual false final false
+  /// @brief Method get_interactable addr 0x215ce24 size 0x8 virtual false final false
   inline bool get_interactable();
 
-  /// @brief Method SetSelected addr 0x22a0a74 size 0x2c virtual false final false
+  /// @brief Method SetSelected addr 0x215baf0 size 0x2c virtual false final false
   inline void SetSelected(bool value);
 
-  /// @brief Method OnEnable addr 0x22a1dc0 size 0x20 virtual false final false
+  /// @brief Method OnEnable addr 0x215ce3c size 0x20 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method Awake addr 0x22a1de0 size 0x9c virtual false final false
+  /// @brief Method Awake addr 0x215ce5c size 0x9c virtual false final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x22a1f38 size 0x4 virtual false final false
+  /// @brief Method Start addr 0x215cfb4 size 0x4 virtual false final false
   inline void Start();
 
-  /// @brief Method Reset addr 0x22a1d48 size 0x8 virtual false final false
+  /// @brief Method Reset addr 0x215cdc4 size 0x8 virtual false final false
   inline void Reset();
 
-  /// @brief Method OnDestroy addr 0x22a1f98 size 0xcc virtual false final false
+  /// @brief Method OnDestroy addr 0x215d014 size 0xcc virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method Init addr 0x22a1f3c size 0x5c virtual false final false
+  /// @brief Method Init addr 0x215cfb8 size 0x5c virtual false final false
   inline void Init();
 
-  /// @brief Method Setup addr 0x22a1d5c size 0x1c virtual false final false
+  /// @brief Method Setup addr 0x215cdd8 size 0x1c virtual false final false
   inline void Setup(bool cleared, bool interactable);
 
-  /// @brief Method SetupToggle addr 0x22a2138 size 0x2c virtual false final false
+  /// @brief Method SetupToggle addr 0x215d1b4 size 0x2c virtual false final false
   inline void SetupToggle();
 
-  /// @brief Method SetMissionCleared addr 0x229fb3c size 0xc virtual false final false
+  /// @brief Method SetMissionCleared addr 0x215abb8 size 0xc virtual false final false
   inline void SetMissionCleared();
 
-  /// @brief Method SetInteractable addr 0x22a046c size 0xc virtual false final false
+  /// @brief Method SetInteractable addr 0x215b4e8 size 0xc virtual false final false
   inline void SetInteractable();
 
-  /// @brief Method ChangeNodeSelection addr 0x22a2164 size 0x34 virtual false final false
+  /// @brief Method ChangeNodeSelection addr 0x215d1e0 size 0x34 virtual false final false
   inline void ChangeNodeSelection(bool selected);
 
-  /// @brief Method HandleMissionToggleSelectionDidChange addr 0x22a21fc size 0x40 virtual false final false
+  /// @brief Method HandleMissionToggleSelectionDidChange addr 0x215d278 size 0x40 virtual false final false
   inline void HandleMissionToggleSelectionDidChange(::GlobalNamespace::MissionToggle* toggle);
 
   static inline ::GlobalNamespace::MissionNodeVisualController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22a223c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x215d2b8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionNodeVisualController", modifiers: "&&", def_value: None }]
@@ -224,6 +224,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionNodeVisualController, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeVisualController, ____missionToggle) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeVisualController, ____missionNode) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeVisualController, ___nodeWasSelectEvent) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeVisualController, ___nodeWasDisplayedEvent) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeVisualController, ____selected) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeVisualController, ____isInitialized) == 0x39, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeVisualController, ____cleared) == 0x3a, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeVisualController, ____interactable) == 0x3b, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionNodeVisualController);

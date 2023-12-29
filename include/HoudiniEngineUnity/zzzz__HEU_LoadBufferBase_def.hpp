@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferBase);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9804))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9731))
 // CS Name: ::HoudiniEngineUnity::HEU_LoadBufferBase*
 class CORDL_TYPE HEU_LoadBufferBase : public ::System::Object {
 public:
@@ -70,12 +70,12 @@ public:
 
   constexpr void __set__generatedOutput(::HoudiniEngineUnity::HEU_GeneratedOutput* value);
 
-  /// @brief Method InitializeBuffer addr 0x21abbe8 size 0x1c virtual false final false
+  /// @brief Method InitializeBuffer addr 0x205524c size 0x1c virtual false final false
   inline void InitializeBuffer(int32_t id, ::StringW name, bool bInstanced, bool bInstancer);
 
   static inline ::HoudiniEngineUnity::HEU_LoadBufferBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x21abc04 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2055268 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_LoadBufferBase", modifiers: "&&", def_value: None }]
@@ -111,6 +111,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_LoadBufferBase, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferBase, ____id) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferBase, ____name) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferBase, ____bInstanced) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferBase, ____bInstancer) == 0x21, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_LoadBufferBase, ____generatedOutput) == 0x28, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_LoadBufferBase);

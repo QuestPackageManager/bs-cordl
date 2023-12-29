@@ -8,8 +8,11 @@ CORDL_MODULE_EXPORT(PoolCleanupChecker)
 namespace Zenject {
 class ILateDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+class IMemoryPool;
+}
+namespace System {
+class Type;
 }
 namespace System {
 class Object;
@@ -18,13 +21,10 @@ namespace Zenject {
 class __PoolCleanupChecker____c;
 }
 namespace Zenject {
-class IMemoryPool;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
 class InjectTypeInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::Zenject::__PoolCleanupChecker____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11098))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11026))
 // CS Name: ::PoolCleanupChecker::<>c*
 class CORDL_TYPE __PoolCleanupChecker____c : public ::System::Object {
 public:
@@ -65,16 +65,16 @@ public:
 
   static inline ::Zenject::__PoolCleanupChecker____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ee9424 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d816a4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <.ctor>b__2_0 addr 0x2ee942c size 0x6c virtual false final false
+  /// @brief Method <.ctor>b__2_0 addr 0x2d816ac size 0x6c virtual false final false
   inline bool __ctor_b__2_0(::System::Type* x);
 
-  /// @brief Method __zenCreate addr 0x2ee9498 size 0x5c virtual false final false
+  /// @brief Method __zenCreate addr 0x2d81718 size 0x5c virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2ee94f4 size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d81774 size 0x1c0 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PoolCleanupChecker____c", modifiers: "&&", def_value: None }]
@@ -101,8 +101,8 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__PoolCleanupChecker___
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11099))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11027))
 // CS Name: ::Zenject::PoolCleanupChecker*
 class CORDL_TYPE PoolCleanupChecker : public ::System::Object {
 public:
@@ -133,16 +133,16 @@ public:
   static inline ::Zenject::PoolCleanupChecker* New_ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories,
                                                         ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools);
 
-  /// @brief Method .ctor addr 0x2ee8ab0 size 0x11c virtual false final false
+  /// @brief Method .ctor addr 0x2d80d30 size 0x11c virtual false final false
   inline void _ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories, ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools);
 
-  /// @brief Method LateDispose addr 0x2ee8bcc size 0x3d4 virtual true final true
+  /// @brief Method LateDispose addr 0x2d80e4c size 0x3d4 virtual true final true
   inline void LateDispose();
 
-  /// @brief Method __zenCreate addr 0x2ee8fa0 size 0x11c virtual false final false
+  /// @brief Method __zenCreate addr 0x2d81220 size 0x11c virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2ee90bc size 0x304 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d8133c size 0x304 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "PoolCleanupChecker", modifiers: "&&", def_value: None }]
@@ -169,6 +169,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::PoolCleanupChecker, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::PoolCleanupChecker, ____poolFactories) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::PoolCleanupChecker, ____ignoredPools) == 0x18, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::PoolCleanupChecker);

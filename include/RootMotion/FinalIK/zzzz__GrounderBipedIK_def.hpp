@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GrounderBipedIK)
-namespace UnityEngine {
-struct Quaternion;
+namespace RootMotion::FinalIK {
+class IKSolverLimb;
 }
 namespace RootMotion::FinalIK {
 class BipedIK;
 }
-namespace RootMotion::FinalIK {
-class IKSolverLimb;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::GrounderBipedIK);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12518))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12519))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(12446))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12447))
 // CS Name: ::RootMotion.FinalIK::GrounderBipedIK*
 class CORDL_TYPE GrounderBipedIK : public ::RootMotion::FinalIK::Grounder {
 public:
@@ -117,42 +117,42 @@ public:
 
   constexpr void __set_lastWeight(float_t value);
 
-  /// @brief Method OpenUserManual addr 0x12448b0 size 0x44 virtual true final false
+  /// @brief Method OpenUserManual addr 0x11d4584 size 0x44 virtual true final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference addr 0x12448f4 size 0x44 virtual true final false
+  /// @brief Method OpenScriptReference addr 0x11d45c8 size 0x44 virtual true final false
   inline void OpenScriptReference();
 
-  /// @brief Method ResetPosition addr 0x1244938 size 0x6c virtual true final false
+  /// @brief Method ResetPosition addr 0x11d460c size 0x6c virtual true final false
   inline void ResetPosition();
 
-  /// @brief Method IsReadyToInitiate addr 0x12449a4 size 0xa0 virtual false final false
+  /// @brief Method IsReadyToInitiate addr 0x11d4678 size 0xa0 virtual false final false
   inline bool IsReadyToInitiate();
 
-  /// @brief Method Update addr 0x1244a44 size 0x54 virtual false final false
+  /// @brief Method Update addr 0x11d4718 size 0x54 virtual false final false
   inline void Update();
 
-  /// @brief Method Initiate addr 0x1244a98 size 0x304 virtual false final false
+  /// @brief Method Initiate addr 0x11d476c size 0x304 virtual false final false
   inline void Initiate();
 
-  /// @brief Method OnDisable addr 0x1244d9c size 0x40 virtual false final false
+  /// @brief Method OnDisable addr 0x11d4a70 size 0x40 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method OnSolverUpdate addr 0x1244ddc size 0x460 virtual false final false
+  /// @brief Method OnSolverUpdate addr 0x11d4ab0 size 0x460 virtual false final false
   inline void OnSolverUpdate();
 
-  /// @brief Method SetLegIK addr 0x124523c size 0xc0 virtual false final false
+  /// @brief Method SetLegIK addr 0x11d4f10 size 0xc0 virtual false final false
   inline void SetLegIK(::RootMotion::FinalIK::IKSolverLimb* limb, int32_t index);
 
-  /// @brief Method OnPostSolverUpdate addr 0x12452fc size 0x1d0 virtual false final false
+  /// @brief Method OnPostSolverUpdate addr 0x11d4fd0 size 0x1d0 virtual false final false
   inline void OnPostSolverUpdate();
 
-  /// @brief Method OnDestroy addr 0x12454cc size 0x1a8 virtual false final false
+  /// @brief Method OnDestroy addr 0x11d51a0 size 0x1a8 virtual false final false
   inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::GrounderBipedIK* New_ctor();
 
-  /// @brief Method .ctor addr 0x1245674 size 0x108c virtual false final false
+  /// @brief Method .ctor addr 0x11d5348 size 0x108c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GrounderBipedIK", modifiers: "&&", def_value: None }]
@@ -200,6 +200,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::GrounderBipedIK, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderBipedIK, ___ik) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderBipedIK, ___spineBend) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderBipedIK, ___spineSpeed) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderBipedIK, ___feet) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderBipedIK, ___footRotations) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderBipedIK, ___animatedPelvisLocalPosition) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderBipedIK, ___solvedPelvisLocalPosition) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderBipedIK, ___spineOffset) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::GrounderBipedIK, ___lastWeight) == 0x84, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::GrounderBipedIK);

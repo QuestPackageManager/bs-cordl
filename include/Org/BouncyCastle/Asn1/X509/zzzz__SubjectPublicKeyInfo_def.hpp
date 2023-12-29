@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SubjectPublicKeyInfo)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -65,40 +65,40 @@ public:
 
   constexpr void __set_keyData(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method GetInstance addr 0x1197654 size 0x18 virtual false final false
+  /// @brief Method GetInstance addr 0x112740c size 0x18 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0x119766c size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0x1127424 size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::Org::BouncyCastle::Asn1::Asn1Encodable* publicKey);
 
-  /// @brief Method .ctor addr 0x1197880 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x1127638 size 0x80 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::Org::BouncyCastle::Asn1::Asn1Encodable* publicKey);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
-  /// @brief Method .ctor addr 0x1197900 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x11276b8 size 0x80 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1197710 size 0x170 virtual false final false
+  /// @brief Method .ctor addr 0x11274c8 size 0x170 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_AlgorithmID addr 0x1197980 size 0x8 virtual false final false
+  /// @brief Method get_AlgorithmID addr 0x1127738 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmID();
 
-  /// @brief Method ParsePublicKey addr 0x1197988 size 0x28 virtual false final false
+  /// @brief Method ParsePublicKey addr 0x1127740 size 0x28 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ParsePublicKey();
 
-  /// @brief Method GetPublicKey addr 0x11979b0 size 0x28 virtual false final false
+  /// @brief Method GetPublicKey addr 0x1127768 size 0x28 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* GetPublicKey();
 
-  /// @brief Method get_PublicKeyData addr 0x11979d8 size 0x8 virtual false final false
+  /// @brief Method get_PublicKeyData addr 0x1127790 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_PublicKeyData();
 
-  /// @brief Method ToAsn1Object addr 0x11979e0 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1127798 size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SubjectPublicKeyInfo", modifiers: "&&", def_value: None }]
@@ -125,6 +125,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo, ___algID) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo, ___keyData) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo);

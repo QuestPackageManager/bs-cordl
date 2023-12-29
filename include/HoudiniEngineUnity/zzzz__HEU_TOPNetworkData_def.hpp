@@ -11,10 +11,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_TOPNodeData;
+class TOPNodeTags;
 }
 namespace HoudiniEngineUnity {
-class TOPNodeTags;
+class HEU_TOPNodeData;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_TOPNetworkData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9770))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9697))
 // CS Name: ::HoudiniEngineUnity::HEU_TOPNetworkData*
 class CORDL_TYPE HEU_TOPNetworkData : public ::System::Object {
 public:
@@ -97,7 +97,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_TOPNetworkData* New_ctor();
 
-  /// @brief Method .ctor addr 0x219a97c size 0xd8 virtual false final false
+  /// @brief Method .ctor addr 0x2043fe0 size 0xd8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_TOPNetworkData", modifiers: "&&", def_value: None }]
@@ -139,6 +139,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_TOPNetworkData, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNetworkData, ____nodeID) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNetworkData, ____nodeName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNetworkData, ____topNodes) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNetworkData, ____topNodeNames) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNetworkData, ____selectedTOPIndex) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNetworkData, ____parentName) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNetworkData, ____tags) == 0x40, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_TOPNetworkData);

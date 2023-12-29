@@ -16,8 +16,8 @@ MARK_VAL_T(::UnityEngine::Animations::AnimationHumanStream);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14896))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15123))
 // CS Name: ::UnityEngine.Animations::AnimationHumanStream
 struct CORDL_TYPE AnimationHumanStream {
 public:
@@ -39,6 +39,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Animations::AnimationHumanStream, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Animations::AnimationHumanStream, stream) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Animations
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimationHumanStream, "UnityEngine.Animations", "AnimationHumanStream");

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Remoting::CustomErrorsModes);
 namespace System::Runtime::Remoting {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3055))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3054))
 // CS Name: ::System.Runtime.Remoting::CustomErrorsModes
 struct CORDL_TYPE CustomErrorsModes {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::CustomErrorsModes, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::CustomErrorsModes, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::CustomErrorsModes, "System.Runtime.Remoting", "CustomErrorsModes");

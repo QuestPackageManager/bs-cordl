@@ -17,14 +17,14 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus);
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14036))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14307))
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::DownloadStatus
 struct CORDL_TYPE DownloadStatus {
 public:
   // Declarations
   __declspec(property(get = get_Percent)) float_t Percent;
 
-  /// @brief Method get_Percent addr 0x2bdd6b8 size 0x38 virtual false final false
+  /// @brief Method get_Percent addr 0x2a5a964 size 0x38 virtual false final false
   inline float_t get_Percent();
 
   // Ctor Parameters [CppParam { name: "TotalBytes", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "DownloadedBytes", ty: "int64_t", modifiers: "", def_value: None }, CppParam {
@@ -51,6 +51,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus, TotalBytes) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus, DownloadedBytes) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus, IsDone) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::AsyncOperations
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus, "UnityEngine.ResourceManagement.AsyncOperations", "DownloadStatus");

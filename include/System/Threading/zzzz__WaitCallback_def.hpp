@@ -18,18 +18,18 @@ MARK_REF_PTR_T(::System::Threading::WaitCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2728))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2726))
 // CS Name: ::System.Threading::WaitCallback*
 class CORDL_TYPE WaitCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Threading::WaitCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x26187fc size 0x12c virtual false final false
+  /// @brief Method .ctor addr 0x24bd7e0 size 0x12c virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x261a4ac size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x24bf490 size 0x14 virtual true final false
   inline void Invoke(::System::Object* state);
 
   // Ctor Parameters [CppParam { name: "", ty: "WaitCallback", modifiers: "&&", def_value: None }]

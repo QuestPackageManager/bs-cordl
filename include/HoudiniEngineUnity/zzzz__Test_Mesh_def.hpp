@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_Mesh)
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+template <typename T> class IEquivableWrapperClass_1;
 }
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivableWrapperClass_1;
+template <typename T> class IEquivable_1;
 }
 namespace UnityEngine {
 class Mesh;
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_Mesh);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9916))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9843))
 // CS Name: ::HoudiniEngineUnity::Test_Mesh*
 class CORDL_TYPE Test_Mesh : public ::System::Object {
 public:
@@ -46,13 +46,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_Mesh* New_ctor(::UnityEngine::Mesh* self);
 
-  /// @brief Method .ctor addr 0x21e56d4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x208cd38 size 0x28 virtual false final false
   inline void _ctor(::UnityEngine::Mesh* self);
 
-  /// @brief Method IsNull addr 0x21e56fc size 0x60 virtual true final true
+  /// @brief Method IsNull addr 0x208cd60 size 0x60 virtual true final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo addr 0x21e575c size 0x42c virtual true final true
+  /// @brief Method IsEquivalentTo addr 0x208cdc0 size 0x42c virtual true final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Mesh* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Mesh", modifiers: "&&", def_value: None }]
@@ -76,6 +76,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::Test_Mesh, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::Test_Mesh, ___self) == 0x10, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::Test_Mesh);

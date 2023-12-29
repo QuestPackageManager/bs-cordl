@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::TextOverflowMode);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13687))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13566))
 // CS Name: ::UnityEngine.TextCore.Text::TextOverflowMode
 struct CORDL_TYPE TextOverflowMode {
 public:
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextOverflowMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextOverflowMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextOverflowMode, "UnityEngine.TextCore.Text", "TextOverflowMode");

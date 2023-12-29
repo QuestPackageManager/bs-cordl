@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::GlobalNamespace::SpawnRotationBeatmapEventDataProcessor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14739)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14741), inst: 953 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14741))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14748)) CS Name: ::SpawnRotationBeatmapEventDataProcessor*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14956), inst: 935 }), TypeDefinitionIndex(TypeDefinitionIndex(14954)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14956))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14961)) CS Name: ::SpawnRotationBeatmapEventDataProcessor*
 class CORDL_TYPE SpawnRotationBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::SpawnRotationBeatmapEventData*> {
 public:
   // Declarations
-  /// @brief Method ProcessInsertedEventDataInternal addr 0xe000bc size 0x1f0 virtual true final false
+  /// @brief Method ProcessInsertedEventDataInternal addr 0xd9a6ac size 0x1f0 virtual true final false
   inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal addr 0xe002ac size 0x240 virtual true final false
+  /// @brief Method ProcessBeforeDeleteEventDataInternal addr 0xd9a89c size 0x240 virtual true final false
   inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
 
   static inline ::GlobalNamespace::SpawnRotationBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method .ctor addr 0xe004ec size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0xd9aadc size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationBeatmapEventDataProcessor", modifiers: "&&", def_value: None }]

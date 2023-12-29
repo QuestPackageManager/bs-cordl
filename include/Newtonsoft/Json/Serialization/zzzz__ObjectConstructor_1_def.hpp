@@ -10,10 +10,10 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
-class Object;
+class AsyncCallback;
 }
 namespace System {
-class AsyncCallback;
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -27,8 +27,8 @@ namespace Newtonsoft::Json::Serialization {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11965))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11893))
 // CS Name: ::Newtonsoft.Json.Serialization::ObjectConstructor`1<T>*
 class CORDL_TYPE ObjectConstructor_1 : public ::System::MulticastDelegate {
 public:

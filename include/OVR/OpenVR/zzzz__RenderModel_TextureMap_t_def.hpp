@@ -16,8 +16,8 @@ MARK_VAL_T(::OVR::OpenVR::RenderModel_TextureMap_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8713))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9482))
 // CS Name: ::OVR.OpenVR::RenderModel_TextureMap_t
 struct CORDL_TYPE RenderModel_TextureMap_t {
 public:
@@ -46,6 +46,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::RenderModel_TextureMap_t, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::RenderModel_TextureMap_t, unWidth) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::RenderModel_TextureMap_t, unHeight) == 0x2, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::RenderModel_TextureMap_t, rubTextureMapData) == 0x8, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::RenderModel_TextureMap_t, "OVR.OpenVR", "RenderModel_TextureMap_t");

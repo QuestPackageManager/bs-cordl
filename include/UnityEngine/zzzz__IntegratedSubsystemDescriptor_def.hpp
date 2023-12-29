@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntegratedSubsystemDescriptor)
 namespace UnityEngine {
-class ISubsystemDescriptor;
+class ISubsystem;
 }
 namespace UnityEngine {
-class ISubsystem;
+class ISubsystemDescriptor;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::IntegratedSubsystemDescriptor);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15959))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15851))
 // CS Name: ::UnityEngine::IntegratedSubsystemDescriptor*
 class CORDL_TYPE IntegratedSubsystemDescriptor : public ::System::Object {
 public:
@@ -43,10 +43,10 @@ public:
 
   constexpr void __set_m_Ptr(void* value);
 
-  /// @brief Method get_id addr 0x2d1a10c size 0x3c virtual true final true
+  /// @brief Method get_id addr 0x2bb2d5c size 0x3c virtual true final true
   inline ::StringW get_id();
 
-  /// @brief Method UnityEngine.ISubsystemDescriptor.Create addr 0x2d1a184 size 0xc virtual true final true
+  /// @brief Method UnityEngine.ISubsystemDescriptor.Create addr 0x2bb2dd4 size 0xc virtual true final true
   inline ::UnityEngine::ISubsystem* UnityEngine_ISubsystemDescriptor_Create();
 
   /// @brief Method CreateImpl addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -54,7 +54,7 @@ public:
 
   static inline ::UnityEngine::IntegratedSubsystemDescriptor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d1a190 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2bb2de0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystemDescriptor", modifiers: "&&", def_value: None }]
@@ -78,6 +78,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::IntegratedSubsystemDescriptor, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::IntegratedSubsystemDescriptor, ___m_Ptr) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::IntegratedSubsystemDescriptor);

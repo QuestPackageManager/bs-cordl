@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Mono::Globalization::Unicode::Contraction);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2260))
 // CS Name: ::Mono.Globalization.Unicode::Contraction*
 class CORDL_TYPE Contraction : public ::System::Object {
@@ -62,7 +62,7 @@ public:
   static inline ::Mono::Globalization::Unicode::Contraction* New_ctor(int32_t index, ::ArrayW<char16_t, ::Array<char16_t>*> source, ::StringW replacement,
                                                                       ::ArrayW<uint8_t, ::Array<uint8_t>*> sortkey);
 
-  /// @brief Method .ctor addr 0x2415580 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x22bbb00 size 0x44 virtual false final false
   inline void _ctor(int32_t index, ::ArrayW<char16_t, ::Array<char16_t>*> source, ::StringW replacement, ::ArrayW<uint8_t, ::Array<uint8_t>*> sortkey);
 
   // Ctor Parameters [CppParam { name: "", ty: "Contraction", modifiers: "&&", def_value: None }]
@@ -95,6 +95,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Globalization::Unicode::Contraction, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::Contraction, ___Index) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::Contraction, ___Source) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::Contraction, ___Replacement) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Globalization::Unicode::Contraction, ___SortKey) == 0x28, "Offset mismatch!");
 
 } // namespace Mono::Globalization::Unicode
 NEED_NO_BOX(::Mono::Globalization::Unicode::Contraction);

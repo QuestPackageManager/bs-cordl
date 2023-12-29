@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Door)
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
 struct Bounds;
-}
-namespace UnityEngine::ProBuilder::Shapes {
-class Shape;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::ProBuilder::Shapes {
+class Shape;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Door);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12233))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12228))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12161))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12156))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Door*
 class CORDL_TYPE Door : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
@@ -54,15 +54,15 @@ public:
 
   constexpr void __set_m_LegWidth(float_t value);
 
-  /// @brief Method CopyShape addr 0x2b899f0 size 0xac virtual true final false
+  /// @brief Method CopyShape addr 0x2a08c9c size 0xac virtual true final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method RebuildMesh addr 0x2b89a9c size 0x1a9c virtual true final false
+  /// @brief Method RebuildMesh addr 0x2a08d48 size 0x1a9c virtual true final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Door* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b8b538 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x2a0a7e4 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Door", modifiers: "&&", def_value: None }]
@@ -89,6 +89,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::Door, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Door, ___m_DoorHeight) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Door, ___m_LegWidth) == 0x14, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Shapes
 NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Door);

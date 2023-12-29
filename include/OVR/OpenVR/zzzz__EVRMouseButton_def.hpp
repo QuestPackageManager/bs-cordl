@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRMouseButton);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8594))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9363))
 // CS Name: ::OVR.OpenVR::EVRMouseButton
 struct CORDL_TYPE EVRMouseButton {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRMouseButton, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::EVRMouseButton, value__) == 0x0, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRMouseButton, "OVR.OpenVR", "EVRMouseButton");

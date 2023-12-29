@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightTranslationBaseData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4325))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15944))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4345))
 // CS Name: ::LightTranslationBaseData*
 class CORDL_TYPE LightTranslationBaseData : public ::System::Object {
 public:
@@ -63,7 +63,7 @@ public:
 
   static inline ::GlobalNamespace::LightTranslationBaseData* New_ctor(float_t beat, bool usePreviousEventTranslationValue, ::GlobalNamespace::EaseType easeType, float_t translation);
 
-  /// @brief Method .ctor addr 0x233dce0 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x21ec88c size 0x48 virtual false final false
   inline void _ctor(float_t beat, bool usePreviousEventTranslationValue, ::GlobalNamespace::EaseType easeType, float_t translation);
 
   // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBaseData", modifiers: "&&", def_value: None }]
@@ -96,6 +96,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightTranslationBaseData, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightTranslationBaseData, ___beat) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightTranslationBaseData, ___usePreviousEventTranslationValue) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightTranslationBaseData, ___easeType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightTranslationBaseData, ___translation) == 0x1c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightTranslationBaseData);

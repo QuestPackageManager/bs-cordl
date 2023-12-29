@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(EmptyPlatformAchievementsHandler)
 namespace GlobalNamespace {
-class __IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
+class IPlatformAchievementsHandler;
 }
 namespace GlobalNamespace {
 class __IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
@@ -15,7 +15,7 @@ namespace GlobalNamespace {
 class HMAsyncRequest;
 }
 namespace GlobalNamespace {
-class IPlatformAchievementsHandler;
+class __IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EmptyPlatformAchievementsHandler);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4090))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4115))
 // CS Name: ::EmptyPlatformAchievementsHandler*
 class CORDL_TYPE EmptyPlatformAchievementsHandler : public ::System::Object {
 public:
@@ -36,18 +36,18 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPlatformAchievementsHandler"
   constexpr operator ::GlobalNamespace::IPlatformAchievementsHandler*() noexcept;
 
-  /// @brief Method Initialize addr 0x2233214 size 0x4 virtual true final true
+  /// @brief Method Initialize addr 0x20d9b7c size 0x4 virtual true final true
   inline void Initialize();
 
-  /// @brief Method UnlockAchievement addr 0x2233218 size 0x8 virtual true final true
+  /// @brief Method UnlockAchievement addr 0x20d9b80 size 0x8 virtual true final true
   inline ::GlobalNamespace::HMAsyncRequest* UnlockAchievement(::StringW achievementId, ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler* completionHandler);
 
-  /// @brief Method GetUnlockedAchievements addr 0x2233220 size 0x8 virtual true final true
+  /// @brief Method GetUnlockedAchievements addr 0x20d9b88 size 0x8 virtual true final true
   inline ::GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler* completionHandler);
 
   static inline ::GlobalNamespace::EmptyPlatformAchievementsHandler* New_ctor();
 
-  /// @brief Method .ctor addr 0x2233228 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20d9b90 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EmptyPlatformAchievementsHandler", modifiers: "&&", def_value: None }]

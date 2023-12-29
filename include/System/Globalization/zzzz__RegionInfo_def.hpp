@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegionInfo)
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System {
 class Object;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Globalization::RegionInfo);
 // SizeInfo { instance_size: 96, native_size: 80, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3726))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3714))
 // CS Name: ::System.Globalization::RegionInfo*
 class CORDL_TYPE RegionInfo : public ::System::Object {
 public:
@@ -151,79 +151,79 @@ public:
 
   static inline ::System::Globalization::RegionInfo* getStaticF_currentRegion();
 
-  /// @brief Method get_CurrentRegion addr 0x2579448 size 0xc8 virtual false final false
+  /// @brief Method get_CurrentRegion addr 0x241dfc4 size 0xcc virtual false final false
   static inline ::System::Globalization::RegionInfo* get_CurrentRegion();
 
   static inline ::System::Globalization::RegionInfo* New_ctor(int32_t culture);
 
-  /// @brief Method .ctor addr 0x25796a8 size 0x108 virtual false final false
+  /// @brief Method .ctor addr 0x241e228 size 0x10c virtual false final false
   inline void _ctor(int32_t culture);
 
   static inline ::System::Globalization::RegionInfo* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x257985c size 0x140 virtual false final false
+  /// @brief Method .ctor addr 0x241e3e0 size 0x144 virtual false final false
   inline void _ctor(::StringW name);
 
   static inline ::System::Globalization::RegionInfo* New_ctor(::System::Globalization::CultureInfo* ci);
 
-  /// @brief Method .ctor addr 0x2579510 size 0x198 virtual false final false
+  /// @brief Method .ctor addr 0x241e090 size 0x198 virtual false final false
   inline void _ctor(::System::Globalization::CultureInfo* ci);
 
-  /// @brief Method GetByTerritory addr 0x25797b0 size 0xac virtual false final false
+  /// @brief Method GetByTerritory addr 0x241e334 size 0xac virtual false final false
   inline bool GetByTerritory(::System::Globalization::CultureInfo* ci);
 
-  /// @brief Method construct_internal_region_from_name addr 0x257999c size 0x4 virtual false final false
+  /// @brief Method construct_internal_region_from_name addr 0x241e524 size 0x4 virtual false final false
   inline bool construct_internal_region_from_name(::StringW name);
 
-  /// @brief Method get_CurrencyEnglishName addr 0x25799a0 size 0x8 virtual true final false
+  /// @brief Method get_CurrencyEnglishName addr 0x241e528 size 0x8 virtual true final false
   inline ::StringW get_CurrencyEnglishName();
 
-  /// @brief Method get_CurrencySymbol addr 0x25799a8 size 0x8 virtual true final false
+  /// @brief Method get_CurrencySymbol addr 0x241e530 size 0x8 virtual true final false
   inline ::StringW get_CurrencySymbol();
 
-  /// @brief Method get_DisplayName addr 0x25799b0 size 0x8 virtual true final false
+  /// @brief Method get_DisplayName addr 0x241e538 size 0x8 virtual true final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_EnglishName addr 0x25799b8 size 0x8 virtual true final false
+  /// @brief Method get_EnglishName addr 0x241e540 size 0x8 virtual true final false
   inline ::StringW get_EnglishName();
 
-  /// @brief Method get_GeoId addr 0x25799c0 size 0x8 virtual true final false
+  /// @brief Method get_GeoId addr 0x241e548 size 0x8 virtual true final false
   inline int32_t get_GeoId();
 
-  /// @brief Method get_IsMetric addr 0x25799c8 size 0x8c virtual true final false
+  /// @brief Method get_IsMetric addr 0x241e550 size 0x8c virtual true final false
   inline bool get_IsMetric();
 
-  /// @brief Method get_ISOCurrencySymbol addr 0x2579a54 size 0x8 virtual true final false
+  /// @brief Method get_ISOCurrencySymbol addr 0x241e5dc size 0x8 virtual true final false
   inline ::StringW get_ISOCurrencySymbol();
 
-  /// @brief Method get_NativeName addr 0x2579a5c size 0x8 virtual true final false
+  /// @brief Method get_NativeName addr 0x241e5e4 size 0x8 virtual true final false
   inline ::StringW get_NativeName();
 
-  /// @brief Method get_CurrencyNativeName addr 0x2579a64 size 0x8 virtual true final false
+  /// @brief Method get_CurrencyNativeName addr 0x241e5ec size 0x8 virtual true final false
   inline ::StringW get_CurrencyNativeName();
 
-  /// @brief Method get_Name addr 0x2579a6c size 0x8 virtual true final false
+  /// @brief Method get_Name addr 0x241e5f4 size 0x8 virtual true final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ThreeLetterISORegionName addr 0x2579a74 size 0x8 virtual true final false
+  /// @brief Method get_ThreeLetterISORegionName addr 0x241e5fc size 0x8 virtual true final false
   inline ::StringW get_ThreeLetterISORegionName();
 
-  /// @brief Method get_ThreeLetterWindowsRegionName addr 0x2579a7c size 0x8 virtual true final false
+  /// @brief Method get_ThreeLetterWindowsRegionName addr 0x241e604 size 0x8 virtual true final false
   inline ::StringW get_ThreeLetterWindowsRegionName();
 
-  /// @brief Method get_TwoLetterISORegionName addr 0x2579a84 size 0x8 virtual true final false
+  /// @brief Method get_TwoLetterISORegionName addr 0x241e60c size 0x8 virtual true final false
   inline ::StringW get_TwoLetterISORegionName();
 
-  /// @brief Method Equals addr 0x2579a8c size 0xc8 virtual true final false
+  /// @brief Method Equals addr 0x241e614 size 0xc8 virtual true final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode addr 0x2579b54 size 0x2c virtual true final false
+  /// @brief Method GetHashCode addr 0x241e6dc size 0x2c virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x2579b80 size 0x10 virtual true final false
+  /// @brief Method ToString addr 0x241e708 size 0x10 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method ClearCachedData addr 0x2579b90 size 0x48 virtual false final false
+  /// @brief Method ClearCachedData addr 0x241e718 size 0x48 virtual false final false
   static inline void ClearCachedData();
 
   // Ctor Parameters [CppParam { name: "", ty: "RegionInfo", modifiers: "&&", def_value: None }]
@@ -274,6 +274,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::RegionInfo, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::RegionInfo, ___regionId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::RegionInfo, ___iso2Name) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::RegionInfo, ___iso3Name) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::RegionInfo, ___win3Name) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::RegionInfo, ___englishName) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::RegionInfo, ___nativeName) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::RegionInfo, ___currencySymbol) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::RegionInfo, ___isoCurrencySymbol) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::RegionInfo, ___currencyEnglishName) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::RegionInfo, ___currencyNativeName) == 0x58, "Offset mismatch!");
 
 } // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::RegionInfo);

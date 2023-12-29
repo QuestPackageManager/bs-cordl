@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(HighlightState)
 namespace UnityEngine {
 struct Color32;
 }
-namespace TMPro {
-struct TMP_Offset;
-}
 namespace System {
 class Object;
+}
+namespace TMPro {
+struct TMP_Offset;
 }
 // Forward declare root types
 namespace TMPro {
@@ -26,28 +26,28 @@ MARK_VAL_T(::TMPro::HighlightState);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12330)), TypeDefinitionIndex(TypeDefinitionIndex(10250))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12331))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10177)), TypeDefinitionIndex(TypeDefinitionIndex(12258))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12259))
 // CS Name: ::TMPro::HighlightState
 struct CORDL_TYPE HighlightState {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2c01c08 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2a7ceb4 size 0x10 virtual false final false
   inline void _ctor(::UnityEngine::Color32 color, ::TMPro::TMP_Offset padding);
 
-  /// @brief Method op_Equality addr 0x2c01c18 size 0xc8 virtual false final false
+  /// @brief Method op_Equality addr 0x2a7cec4 size 0xc8 virtual false final false
   static inline bool op_Equality(::TMPro::HighlightState lhs, ::TMPro::HighlightState rhs);
 
-  /// @brief Method op_Inequality addr 0x2c01ce0 size 0x48 virtual false final false
+  /// @brief Method op_Inequality addr 0x2a7cf8c size 0x48 virtual false final false
   static inline bool op_Inequality(::TMPro::HighlightState lhs, ::TMPro::HighlightState rhs);
 
-  /// @brief Method GetHashCode addr 0x2c01d28 size 0x6c virtual true final false
+  /// @brief Method GetHashCode addr 0x2a7cfd4 size 0x6c virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x2c01d94 size 0x80 virtual true final false
+  /// @brief Method Equals addr 0x2a7d040 size 0x80 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x2c01e14 size 0xa4 virtual false final false
+  /// @brief Method Equals addr 0x2a7d0c0 size 0xa4 virtual false final false
   inline bool Equals(::TMPro::HighlightState other);
 
   // Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "padding", ty: "::TMPro::TMP_Offset", modifiers: "", def_value: None }]
@@ -70,6 +70,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::HighlightState, 0x14>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::HighlightState, color) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::HighlightState, padding) == 0x4, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::HighlightState, "TMPro", "HighlightState");

@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::UnityEngine::Networking::UploadHandler);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15582))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15566))
 // CS Name: ::UnityEngine.Networking::UploadHandler*
 class CORDL_TYPE UploadHandler : public ::System::Object {
 public:
@@ -31,10 +31,10 @@ public:
 
   constexpr void __set_m_Ptr(void* value);
 
-  /// @brief Method Release addr 0x2eafc28 size 0x3c virtual false final false
+  /// @brief Method Release addr 0x2d46e3c size 0x3c virtual false final false
   inline void Release();
 
-  /// @brief Method Dispose addr 0x2eafc64 size 0x94 virtual true final false
+  /// @brief Method Dispose addr 0x2d46e78 size 0x94 virtual true final false
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "UploadHandler", modifiers: "&&", def_value: None }]
@@ -58,6 +58,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::UploadHandler, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Networking::UploadHandler, ___m_Ptr) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::Networking
 NEED_NO_BOX(::UnityEngine::Networking::UploadHandler);

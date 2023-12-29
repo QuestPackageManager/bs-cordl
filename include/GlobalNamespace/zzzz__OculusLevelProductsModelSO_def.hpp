@@ -13,8 +13,8 @@ class __OculusLevelProductsModelSO__LevelProductData;
 namespace GlobalNamespace {
 class __OculusLevelProductsModelSO__LevelPackProductData;
 }
-namespace GlobalNamespace {
-class __OculusLevelProductsModelSO__LevelPackRedirectionData;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,22 +24,18 @@ namespace GlobalNamespace {
 class __OculusLevelProductsModelSO__LevelPackProductData;
 }
 namespace GlobalNamespace {
-class __OculusLevelProductsModelSO__LevelPackRedirectionData;
-}
-namespace GlobalNamespace {
 class __OculusLevelProductsModelSO__LevelProductData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OculusLevelProductsModelSO);
 MARK_REF_PTR_T(::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData);
-MARK_REF_PTR_T(::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData);
 MARK_REF_PTR_T(::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData);
 // Type: ::LevelProductData
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4538))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4627))
 // CS Name: ::OculusLevelProductsModelSO::LevelProductData*
 class CORDL_TYPE __OculusLevelProductsModelSO__LevelProductData : public ::System::Object {
 public:
@@ -68,18 +64,18 @@ public:
 
   constexpr void __set__sku(::StringW value);
 
-  /// @brief Method get_sku addr 0x236784c size 0x8 virtual false final false
+  /// @brief Method get_sku addr 0x222d114 size 0x8 virtual false final false
   inline ::StringW get_sku();
 
-  /// @brief Method get_levelId addr 0x2367854 size 0x8 virtual false final false
+  /// @brief Method get_levelId addr 0x222d11c size 0x8 virtual false final false
   inline ::StringW get_levelId();
 
-  /// @brief Method get_assetFile addr 0x2365cc4 size 0x1c virtual false final false
+  /// @brief Method get_assetFile addr 0x222b228 size 0x1c virtual false final false
   inline ::StringW get_assetFile();
 
   static inline ::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData* New_ctor();
 
-  /// @brief Method .ctor addr 0x236785c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x222d124 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OculusLevelProductsModelSO__LevelProductData", modifiers: "&&", def_value: None }]
@@ -107,13 +103,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData, ____levelId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData, ____sku) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LevelPackProductData
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4539))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4628))
 // CS Name: ::OculusLevelProductsModelSO::LevelPackProductData*
 class CORDL_TYPE __OculusLevelProductsModelSO__LevelPackProductData : public ::System::Object {
 public:
@@ -155,18 +155,18 @@ public:
   constexpr void
   __set__levelProductsData(::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*>*> value);
 
-  /// @brief Method get_sku addr 0x2367864 size 0x8 virtual false final false
+  /// @brief Method get_sku addr 0x222d12c size 0x8 virtual false final false
   inline ::StringW get_sku();
 
-  /// @brief Method get_levelPackId addr 0x236786c size 0x8 virtual false final false
+  /// @brief Method get_levelPackId addr 0x222d134 size 0x8 virtual false final false
   inline ::StringW get_levelPackId();
 
-  /// @brief Method get_levelProductsData addr 0x2367874 size 0x8 virtual false final false
+  /// @brief Method get_levelProductsData addr 0x222d13c size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*>*> get_levelProductsData();
 
   static inline ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData* New_ctor();
 
-  /// @brief Method .ctor addr 0x236787c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x222d144 size 0x58 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OculusLevelProductsModelSO__LevelPackProductData", modifiers: "&&", def_value: None }]
@@ -197,122 +197,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::LevelPackRedirectionData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4540))
-// CS Name: ::OculusLevelProductsModelSO::LevelPackRedirectionData*
-class CORDL_TYPE __OculusLevelProductsModelSO__LevelPackRedirectionData : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field _targetLevelPackId, offset 0x10, size 0x8
-  __declspec(property(get = __get__targetLevelPackId, put = __set__targetLevelPackId))::StringW _targetLevelPackId;
+static_assert(offsetof(::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData, ____sku) == 0x10, "Offset mismatch!");
 
-  /// @brief Field _shouldOwnLevelPackId, offset 0x18, size 0x8
-  __declspec(property(get = __get__shouldOwnLevelPackId, put = __set__shouldOwnLevelPackId))::StringW _shouldOwnLevelPackId;
+static_assert(offsetof(::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData, ____levelPackId) == 0x18, "Offset mismatch!");
 
-  /// @brief Field _redirectedSku, offset 0x20, size 0x8
-  __declspec(property(get = __get__redirectedSku, put = __set__redirectedSku))::StringW _redirectedSku;
-
-  /// @brief Field _validUntilDate, offset 0x28, size 0x8
-  __declspec(property(get = __get__validUntilDate, put = __set__validUntilDate))::StringW _validUntilDate;
-
-  __declspec(property(get = get_targetLevelPackId))::StringW targetLevelPackId;
-
-  __declspec(property(get = get_shouldOwnLevelPackId))::StringW shouldOwnLevelPackId;
-
-  __declspec(property(get = get_redirectedSku))::StringW redirectedSku;
-
-  __declspec(property(get = get_validUntilDate))::StringW validUntilDate;
-
-  constexpr ::StringW& __get__targetLevelPackId();
-
-  constexpr ::StringW const& __get__targetLevelPackId() const;
-
-  constexpr void __set__targetLevelPackId(::StringW value);
-
-  constexpr ::StringW& __get__shouldOwnLevelPackId();
-
-  constexpr ::StringW const& __get__shouldOwnLevelPackId() const;
-
-  constexpr void __set__shouldOwnLevelPackId(::StringW value);
-
-  constexpr ::StringW& __get__redirectedSku();
-
-  constexpr ::StringW const& __get__redirectedSku() const;
-
-  constexpr void __set__redirectedSku(::StringW value);
-
-  constexpr ::StringW& __get__validUntilDate();
-
-  constexpr ::StringW const& __get__validUntilDate() const;
-
-  constexpr void __set__validUntilDate(::StringW value);
-
-  /// @brief Method get_targetLevelPackId addr 0x2367884 size 0x8 virtual false final false
-  inline ::StringW get_targetLevelPackId();
-
-  /// @brief Method get_shouldOwnLevelPackId addr 0x236788c size 0x8 virtual false final false
-  inline ::StringW get_shouldOwnLevelPackId();
-
-  /// @brief Method get_redirectedSku addr 0x2367894 size 0x8 virtual false final false
-  inline ::StringW get_redirectedSku();
-
-  /// @brief Method get_validUntilDate addr 0x236789c size 0x8 virtual false final false
-  inline ::StringW get_validUntilDate();
-
-  static inline ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData* New_ctor();
-
-  /// @brief Method .ctor addr 0x23678a4 size 0x8 virtual false final false
-  inline void _ctor();
-
-  // Ctor Parameters [CppParam { name: "", ty: "__OculusLevelProductsModelSO__LevelPackRedirectionData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __OculusLevelProductsModelSO__LevelPackRedirectionData(__OculusLevelProductsModelSO__LevelPackRedirectionData&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__OculusLevelProductsModelSO__LevelPackRedirectionData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __OculusLevelProductsModelSO__LevelPackRedirectionData(__OculusLevelProductsModelSO__LevelPackRedirectionData const&) = delete;
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusLevelProductsModelSO__LevelPackRedirectionData();
-
-public:
-  /// @brief Field _targetLevelPackId, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____targetLevelPackId;
-
-  /// @brief Field _shouldOwnLevelPackId, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____shouldOwnLevelPackId;
-
-  /// @brief Field _redirectedSku, offset: 0x20, size: 0x8, def value: None
-  ::StringW ____redirectedSku;
-
-  /// @brief Field _validUntilDate, offset: 0x28, size: 0x8, def value: None
-  ::StringW ____validUntilDate;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData, ____levelProductsData) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::OculusLevelProductsModelSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4541))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4629))
 // CS Name: ::OculusLevelProductsModelSO*
 class CORDL_TYPE OculusLevelProductsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  using LevelPackRedirectionData = ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData;
-
   using LevelPackProductData = ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData;
 
   using LevelProductData = ::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData;
@@ -322,16 +223,21 @@ public:
                       put = __set__levelPackProductsData))::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*,
                                                                    ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>*> _levelPackProductsData;
 
-  /// @brief Field _levelPackRedirectionData, offset 0x20, size 0x8
-  __declspec(property(get = __get__levelPackRedirectionData,
-                      put = __set__levelPackRedirectionData))::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*,
-                                                                      ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*>*> _levelPackRedirectionData;
+  /// @brief Field _levelIdToProductData, offset 0x20, size 0x8
+  __declspec(
+      property(get = __get__levelIdToProductData,
+               put = __set__levelIdToProductData))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*>* _levelIdToProductData;
+
+  /// @brief Field _levelPackIdToProductData, offset 0x28, size 0x8
+  __declspec(property(
+      get = __get__levelPackIdToProductData,
+      put = __set__levelPackIdToProductData))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>* _levelPackIdToProductData;
+
+  /// @brief Field _assetFileToSku, offset 0x30, size 0x8
+  __declspec(property(get = __get__assetFileToSku, put = __set__assetFileToSku))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _assetFileToSku;
 
   __declspec(property(get = get_levelPackProductsData))::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*,
                                                                 ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>*> levelPackProductsData;
-
-  __declspec(property(get = get_levelPackRedirectionData))::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*,
-                                                                   ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*>*> levelPackRedirectionData;
 
   constexpr ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>*>&
   __get__levelPackProductsData();
@@ -342,25 +248,44 @@ public:
   constexpr void __set__levelPackProductsData(
       ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*>*>&
-  __get__levelPackRedirectionData();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*>*& __get__levelIdToProductData();
 
-  constexpr ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*>*> const&
-  __get__levelPackRedirectionData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*>*> const&
+  __get__levelIdToProductData() const;
 
-  constexpr void __set__levelPackRedirectionData(
-      ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*>*> value);
+  constexpr void __set__levelIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*>* value);
 
-  /// @brief Method get_levelPackProductsData addr 0x23677b0 size 0x8 virtual false final false
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>*& __get__levelPackIdToProductData();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>*> const&
+  __get__levelPackIdToProductData() const;
+
+  constexpr void __set__levelPackIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>* value);
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __get__assetFileToSku();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> const& __get__assetFileToSku() const;
+
+  constexpr void __set__assetFileToSku(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
+
+  /// @brief Method get_levelPackProductsData addr 0x222cd10 size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>*> get_levelPackProductsData();
 
-  /// @brief Method get_levelPackRedirectionData addr 0x23677b8 size 0x8 virtual false final false
-  inline ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*>*>
-  get_levelPackRedirectionData();
+  /// @brief Method OnEnable addr 0x222cd18 size 0x1dc virtual true final false
+  inline void OnEnable();
+
+  /// @brief Method GetLevelProductData addr 0x222b1b0 size 0x78 virtual false final false
+  inline ::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData* GetLevelProductData(::StringW levelId);
+
+  /// @brief Method GetLevelPackProductData addr 0x222cef4 size 0x78 virtual false final false
+  inline ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData* GetLevelPackProductData(::StringW levelPackId);
+
+  /// @brief Method GetLevelSku addr 0x222cf6c size 0x78 virtual false final false
+  inline ::StringW GetLevelSku(::StringW assetFile);
 
   static inline ::GlobalNamespace::OculusLevelProductsModelSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x23677c0 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0x222cfe4 size 0x130 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductsModelSO", modifiers: "&&", def_value: None }]
@@ -380,21 +305,32 @@ public:
   /// @brief Field _levelPackProductsData, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>*> ____levelPackProductsData;
 
-  /// @brief Field _levelPackRedirectionData, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*>*>
-      ____levelPackRedirectionData;
+  /// @brief Field _levelIdToProductData, offset: 0x20, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*>* ____levelIdToProductData;
+
+  /// @brief Field _levelPackIdToProductData, offset: 0x28, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>* ____levelPackIdToProductData;
+
+  /// @brief Field _assetFileToSku, offset: 0x30, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* ____assetFileToSku;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusLevelProductsModelSO, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusLevelProductsModelSO, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OculusLevelProductsModelSO, ____levelPackProductsData) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OculusLevelProductsModelSO, ____levelIdToProductData) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OculusLevelProductsModelSO, ____levelPackIdToProductData) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OculusLevelProductsModelSO, ____assetFileToSku) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OculusLevelProductsModelSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusLevelProductsModelSO*, "", "OculusLevelProductsModelSO");
 NEED_NO_BOX(::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*, "", "OculusLevelProductsModelSO/LevelPackProductData");
-NEED_NO_BOX(::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*, "", "OculusLevelProductsModelSO/LevelPackRedirectionData");
 NEED_NO_BOX(::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*, "", "OculusLevelProductsModelSO/LevelProductData");

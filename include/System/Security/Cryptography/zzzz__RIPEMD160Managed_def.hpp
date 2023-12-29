@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RIPEMD160Managed);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2953))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2954))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2952))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2953))
 // CS Name: ::System.Security.Cryptography::RIPEMD160Managed*
 class CORDL_TYPE RIPEMD160Managed : public ::System::Security::Cryptography::RIPEMD160 {
 public:
@@ -60,43 +60,43 @@ public:
 
   static inline ::System::Security::Cryptography::RIPEMD160Managed* New_ctor();
 
-  /// @brief Method .ctor addr 0x245eb60 size 0x124 virtual false final false
+  /// @brief Method .ctor addr 0x23054e8 size 0x124 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Initialize addr 0x2463bd0 size 0x44 virtual true final false
+  /// @brief Method Initialize addr 0x230a558 size 0x44 virtual true final false
   inline void Initialize();
 
-  /// @brief Method HashCore addr 0x2463c14 size 0x4 virtual true final false
+  /// @brief Method HashCore addr 0x230a59c size 0x4 virtual true final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal addr 0x2463d94 size 0x4 virtual true final false
+  /// @brief Method HashFinal addr 0x230a71c size 0x4 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method InitializeState addr 0x2463b4c size 0x84 virtual false final false
+  /// @brief Method InitializeState addr 0x230a4d4 size 0x84 virtual false final false
   inline void InitializeState();
 
-  /// @brief Method _HashData addr 0x2463c18 size 0x17c virtual false final false
+  /// @brief Method _HashData addr 0x230a5a0 size 0x17c virtual false final false
   inline void _HashData(::ArrayW<uint8_t, ::Array<uint8_t>*> partIn, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method _EndHash addr 0x2463d98 size 0x1a8 virtual false final false
+  /// @brief Method _EndHash addr 0x230a720 size 0x1a8 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> _EndHash();
 
-  /// @brief Method MDTransform addr 0x2463f40 size 0x16fc virtual false final false
+  /// @brief Method MDTransform addr 0x230a8c8 size 0x16fc virtual false final false
   static inline void MDTransform(::cordl_internals::Ptr<uint32_t> blockDWords, ::cordl_internals::Ptr<uint32_t> state, ::cordl_internals::Ptr<uint8_t> block);
 
-  /// @brief Method F addr 0x246563c size 0xc virtual false final false
+  /// @brief Method F addr 0x230bfc4 size 0xc virtual false final false
   static inline uint32_t F(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method G addr 0x2465648 size 0x10 virtual false final false
+  /// @brief Method G addr 0x230bfd0 size 0x10 virtual false final false
   static inline uint32_t G(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method H addr 0x2465658 size 0xc virtual false final false
+  /// @brief Method H addr 0x230bfe0 size 0xc virtual false final false
   static inline uint32_t H(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method I addr 0x2465664 size 0x10 virtual false final false
+  /// @brief Method I addr 0x230bfec size 0x10 virtual false final false
   static inline uint32_t I(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method J addr 0x2465674 size 0xc virtual false final false
+  /// @brief Method J addr 0x230bffc size 0xc virtual false final false
   static inline uint32_t J(uint32_t x, uint32_t y, uint32_t z);
 
   // Ctor Parameters [CppParam { name: "", ty: "RIPEMD160Managed", modifiers: "&&", def_value: None }]
@@ -129,6 +129,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::RIPEMD160Managed, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RIPEMD160Managed, ____buffer) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RIPEMD160Managed, ____count) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RIPEMD160Managed, ____stateMD160) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RIPEMD160Managed, ____blockDWords) == 0x40, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::RIPEMD160Managed);

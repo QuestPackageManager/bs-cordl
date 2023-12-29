@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Ed448)
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 struct __Ed448__Algorithm;
+}
+namespace Org::BouncyCastle::Crypto {
+class IXof;
 }
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 class __Ed448__PointPrecomp;
 }
-namespace Org::BouncyCastle::Math::EC::Rfc8032 {
-class __Ed448__PointExt;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Crypto {
-class IXof;
+namespace Org::BouncyCastle::Math::EC::Rfc8032 {
+class __Ed448__PointExt;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -93,12 +93,14 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__Algorithm, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__Algorithm, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Math::EC::Rfc8032
 // Type: ::PointExt
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1562))
 // CS Name: ::Ed448::PointExt*
 class CORDL_TYPE __Ed448__PointExt : public ::System::Object {
@@ -133,7 +135,7 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt* New_ctor();
 
-  /// @brief Method .ctor addr 0x1047da0 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0xfd6b54 size 0x3c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Ed448__PointExt", modifiers: "&&", def_value: None }]
@@ -164,12 +166,18 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt, ___x) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt, ___y) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt, ___z) == 0x20, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Math::EC::Rfc8032
 // Type: ::PointPrecomp
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1563))
 // CS Name: ::Ed448::PointPrecomp*
 class CORDL_TYPE __Ed448__PointPrecomp : public ::System::Object {
@@ -195,7 +203,7 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointPrecomp* New_ctor();
 
-  /// @brief Method .ctor addr 0x1049070 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0xfd7e24 size 0x30 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Ed448__PointPrecomp", modifiers: "&&", def_value: None }]
@@ -223,12 +231,16 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointPrecomp, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointPrecomp, ___x) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointPrecomp, ___y) == 0x18, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Math::EC::Rfc8032
 // Type: Org.BouncyCastle.Math.EC.Rfc8032::Ed448
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1564))
 // CS Name: ::Org.BouncyCastle.Math.EC.Rfc8032::Ed448*
 class CORDL_TYPE Ed448 : public ::System::Object {
@@ -333,175 +345,175 @@ public:
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_precompBase();
 
-  /// @brief Method CalculateS addr 0x10451f4 size 0x198 virtual false final false
+  /// @brief Method CalculateS addr 0xfd3fa8 size 0x198 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateS(::ArrayW<uint8_t, ::Array<uint8_t>*> r, ::ArrayW<uint8_t, ::Array<uint8_t>*> k, ::ArrayW<uint8_t, ::Array<uint8_t>*> s);
 
-  /// @brief Method CheckContextVar addr 0x1045d04 size 0x14 virtual false final false
+  /// @brief Method CheckContextVar addr 0xfd4ab8 size 0x14 virtual false final false
   static inline bool CheckContextVar(::ArrayW<uint8_t, ::Array<uint8_t>*> ctx);
 
-  /// @brief Method CheckPoint addr 0x1045d18 size 0xd8 virtual false final false
+  /// @brief Method CheckPoint addr 0xfd4acc size 0xd8 virtual false final false
   static inline int32_t CheckPoint(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y);
 
-  /// @brief Method CheckPoint addr 0x1045df0 size 0x12c virtual false final false
+  /// @brief Method CheckPoint addr 0xfd4ba4 size 0x12c virtual false final false
   static inline int32_t CheckPoint(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method CheckPointVar addr 0x1045f1c size 0xe0 virtual false final false
+  /// @brief Method CheckPointVar addr 0xfd4cd0 size 0xe0 virtual false final false
   static inline bool CheckPointVar(::ArrayW<uint8_t, ::Array<uint8_t>*> p);
 
-  /// @brief Method CheckScalarVar addr 0x10460cc size 0xd4 virtual false final false
+  /// @brief Method CheckScalarVar addr 0xfd4e80 size 0xd4 virtual false final false
   static inline bool CheckScalarVar(::ArrayW<uint8_t, ::Array<uint8_t>*> s);
 
-  /// @brief Method CreatePrehash addr 0x10461a0 size 0x4c virtual false final false
+  /// @brief Method CreatePrehash addr 0xfd4f54 size 0x4c virtual false final false
   static inline ::Org::BouncyCastle::Crypto::IXof* CreatePrehash();
 
-  /// @brief Method CreateXof addr 0x10461ec size 0x60 virtual false final false
+  /// @brief Method CreateXof addr 0xfd4fa0 size 0x60 virtual false final false
   static inline ::Org::BouncyCastle::Crypto::IXof* CreateXof();
 
-  /// @brief Method Decode16 addr 0x104624c size 0x40 virtual false final false
+  /// @brief Method Decode16 addr 0xfd5000 size 0x40 virtual false final false
   static inline uint32_t Decode16(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method Decode24 addr 0x104628c size 0x54 virtual false final false
+  /// @brief Method Decode24 addr 0xfd5040 size 0x54 virtual false final false
   static inline uint32_t Decode24(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method Decode32 addr 0x10462e0 size 0x68 virtual false final false
+  /// @brief Method Decode32 addr 0xfd5094 size 0x68 virtual false final false
   static inline uint32_t Decode32(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method Decode32 addr 0x1045ffc size 0xd0 virtual false final false
+  /// @brief Method Decode32 addr 0xfd4db0 size 0xd0 virtual false final false
   static inline void Decode32(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t bsOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> n, int32_t nOff, int32_t nLen);
 
-  /// @brief Method DecodePointVar addr 0x1046348 size 0x200 virtual false final false
+  /// @brief Method DecodePointVar addr 0xfd50fc size 0x200 virtual false final false
   static inline bool DecodePointVar(::ArrayW<uint8_t, ::Array<uint8_t>*> p, int32_t pOff, bool negate, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt* r);
 
-  /// @brief Method DecodeScalar addr 0x104538c size 0x74 virtual false final false
+  /// @brief Method DecodeScalar addr 0xfd4140 size 0x74 virtual false final false
   static inline void DecodeScalar(::ArrayW<uint8_t, ::Array<uint8_t>*> k, int32_t kOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> n);
 
-  /// @brief Method Dom4 addr 0x1046564 size 0x230 virtual false final false
+  /// @brief Method Dom4 addr 0xfd5318 size 0x230 virtual false final false
   static inline void Dom4(::Org::BouncyCastle::Crypto::IXof* d, uint8_t x, ::ArrayW<uint8_t, ::Array<uint8_t>*> y);
 
-  /// @brief Method Encode24 addr 0x1046794 size 0x64 virtual false final false
+  /// @brief Method Encode24 addr 0xfd5548 size 0x64 virtual false final false
   static inline void Encode24(uint32_t n, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method Encode32 addr 0x1045400 size 0x80 virtual false final false
+  /// @brief Method Encode32 addr 0xfd41b4 size 0x80 virtual false final false
   static inline void Encode32(uint32_t n, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method Encode56 addr 0x10467f8 size 0x7c virtual false final false
+  /// @brief Method Encode56 addr 0xfd55ac size 0x7c virtual false final false
   static inline void Encode56(uint64_t n, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method EncodePoint addr 0x1046874 size 0x134 virtual false final false
+  /// @brief Method EncodePoint addr 0xfd5628 size 0x134 virtual false final false
   static inline int32_t EncodePoint(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt* p, ::ArrayW<uint8_t, ::Array<uint8_t>*> r, int32_t rOff);
 
-  /// @brief Method GeneratePrivateKey addr 0x10469a8 size 0x1c virtual false final false
+  /// @brief Method GeneratePrivateKey addr 0xfd575c size 0x1c virtual false final false
   static inline void GeneratePrivateKey(::Org::BouncyCastle::Security::SecureRandom* random, ::ArrayW<uint8_t, ::Array<uint8_t>*> k);
 
-  /// @brief Method GeneratePublicKey addr 0x10469c4 size 0x1e0 virtual false final false
+  /// @brief Method GeneratePublicKey addr 0xfd5778 size 0x1e0 virtual false final false
   static inline void GeneratePublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> sk, int32_t skOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> pk, int32_t pkOff);
 
-  /// @brief Method GetWnafVar addr 0x1046cec size 0x1b8 virtual false final false
+  /// @brief Method GetWnafVar addr 0xfd5aa0 size 0x1b8 virtual false final false
   static inline ::ArrayW<int8_t, ::Array<int8_t>*> GetWnafVar(::ArrayW<uint32_t, ::Array<uint32_t>*> n, int32_t width);
 
-  /// @brief Method ImplSign addr 0x1046ea4 size 0x474 virtual false final false
+  /// @brief Method ImplSign addr 0xfd5c58 size 0x474 virtual false final false
   static inline void ImplSign(::Org::BouncyCastle::Crypto::IXof* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> h, ::ArrayW<uint8_t, ::Array<uint8_t>*> s, ::ArrayW<uint8_t, ::Array<uint8_t>*> pk,
                               int32_t pkOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, uint8_t phflag, ::ArrayW<uint8_t, ::Array<uint8_t>*> m, int32_t mOff, int32_t mLen,
                               ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
-  /// @brief Method ImplSign addr 0x1047318 size 0x2c0 virtual false final false
+  /// @brief Method ImplSign addr 0xfd60cc size 0x2c0 virtual false final false
   static inline void ImplSign(::ArrayW<uint8_t, ::Array<uint8_t>*> sk, int32_t skOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, uint8_t phflag, ::ArrayW<uint8_t, ::Array<uint8_t>*> m, int32_t mOff,
                               int32_t mLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
-  /// @brief Method ImplSign addr 0x10475d8 size 0x2b0 virtual false final false
+  /// @brief Method ImplSign addr 0xfd638c size 0x2b0 virtual false final false
   static inline void ImplSign(::ArrayW<uint8_t, ::Array<uint8_t>*> sk, int32_t skOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> pk, int32_t pkOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, uint8_t phflag,
                               ::ArrayW<uint8_t, ::Array<uint8_t>*> m, int32_t mOff, int32_t mLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
-  /// @brief Method ImplVerify addr 0x1047888 size 0x518 virtual false final false
+  /// @brief Method ImplVerify addr 0xfd663c size 0x518 virtual false final false
   static inline bool ImplVerify(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> pk, int32_t pkOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx,
                                 uint8_t phflag, ::ArrayW<uint8_t, ::Array<uint8_t>*> m, int32_t mOff, int32_t mLen);
 
-  /// @brief Method PointAddVar addr 0x1047f98 size 0x264 virtual false final false
+  /// @brief Method PointAddVar addr 0xfd6d4c size 0x264 virtual false final false
   static inline void PointAddVar(bool negate, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt* p, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt* r);
 
-  /// @brief Method PointAddPrecomp addr 0x10481fc size 0x1f8 virtual false final false
+  /// @brief Method PointAddPrecomp addr 0xfd6fb0 size 0x1f8 virtual false final false
   static inline void PointAddPrecomp(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointPrecomp* p, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt* r);
 
-  /// @brief Method PointCopy addr 0x10483f4 size 0xa8 virtual false final false
+  /// @brief Method PointCopy addr 0xfd71a8 size 0xa8 virtual false final false
   static inline ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt* PointCopy(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt* p);
 
-  /// @brief Method PointDouble addr 0x104849c size 0x17c virtual false final false
+  /// @brief Method PointDouble addr 0xfd7250 size 0x17c virtual false final false
   static inline void PointDouble(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt* r);
 
-  /// @brief Method PointExtendXY addr 0x1046548 size 0x1c virtual false final false
+  /// @brief Method PointExtendXY addr 0xfd52fc size 0x1c virtual false final false
   static inline void PointExtendXY(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt* p);
 
-  /// @brief Method PointLookup addr 0x1048618 size 0xdc virtual false final false
+  /// @brief Method PointLookup addr 0xfd73cc size 0xdc virtual false final false
   static inline void PointLookup(int32_t block, int32_t index, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointPrecomp* p);
 
-  /// @brief Method PointPrecompVar addr 0x10486f4 size 0x17c virtual false final false
+  /// @brief Method PointPrecompVar addr 0xfd74a8 size 0x17c virtual false final false
   static inline ::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt*, ::Array<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt*>*>
   PointPrecompVar(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt* p, int32_t count);
 
-  /// @brief Method PointSetNeutral addr 0x1048870 size 0x38 virtual false final false
+  /// @brief Method PointSetNeutral addr 0xfd7624 size 0x38 virtual false final false
   static inline void PointSetNeutral(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt* p);
 
-  /// @brief Method Precompute addr 0x10488a8 size 0x5b4 virtual false final false
+  /// @brief Method Precompute addr 0xfd765c size 0x5b4 virtual false final false
   static inline void Precompute();
 
-  /// @brief Method PruneScalar addr 0x1046ba4 size 0x60 virtual false final false
+  /// @brief Method PruneScalar addr 0xfd5958 size 0x60 virtual false final false
   static inline void PruneScalar(::ArrayW<uint8_t, ::Array<uint8_t>*> n, int32_t nOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> r);
 
-  /// @brief Method ReduceScalar addr 0x1045480 size 0x884 virtual false final false
+  /// @brief Method ReduceScalar addr 0xfd4234 size 0x884 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReduceScalar(::ArrayW<uint8_t, ::Array<uint8_t>*> n);
 
-  /// @brief Method ScalarMultBase addr 0x1048e5c size 0x214 virtual false final false
+  /// @brief Method ScalarMultBase addr 0xfd7c10 size 0x214 virtual false final false
   static inline void ScalarMultBase(::ArrayW<uint8_t, ::Array<uint8_t>*> k, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt* r);
 
-  /// @brief Method ScalarMultBaseEncoded addr 0x1046c04 size 0xe8 virtual false final false
+  /// @brief Method ScalarMultBaseEncoded addr 0xfd59b8 size 0xe8 virtual false final false
   static inline void ScalarMultBaseEncoded(::ArrayW<uint8_t, ::Array<uint8_t>*> k, ::ArrayW<uint8_t, ::Array<uint8_t>*> r, int32_t rOff);
 
-  /// @brief Method ScalarMultBaseXY addr 0x10490a0 size 0x154 virtual false final false
+  /// @brief Method ScalarMultBaseXY addr 0xfd7e54 size 0x154 virtual false final false
   static inline void ScalarMultBaseXY(::ArrayW<uint8_t, ::Array<uint8_t>*> k, int32_t kOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y);
 
-  /// @brief Method ScalarMultStrausVar addr 0x1047ddc size 0x1bc virtual false final false
+  /// @brief Method ScalarMultStrausVar addr 0xfd6b90 size 0x1bc virtual false final false
   static inline void ScalarMultStrausVar(::ArrayW<uint32_t, ::Array<uint32_t>*> nb, ::ArrayW<uint32_t, ::Array<uint32_t>*> np, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt* p,
                                          ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt* r);
 
-  /// @brief Method Sign addr 0x10491f4 size 0xbc virtual false final false
+  /// @brief Method Sign addr 0xfd7fa8 size 0xbc virtual false final false
   static inline void Sign(::ArrayW<uint8_t, ::Array<uint8_t>*> sk, int32_t skOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, ::ArrayW<uint8_t, ::Array<uint8_t>*> m, int32_t mOff, int32_t mLen,
                           ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
-  /// @brief Method Sign addr 0x10492b0 size 0xcc virtual false final false
+  /// @brief Method Sign addr 0xfd8064 size 0xcc virtual false final false
   static inline void Sign(::ArrayW<uint8_t, ::Array<uint8_t>*> sk, int32_t skOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> pk, int32_t pkOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx,
                           ::ArrayW<uint8_t, ::Array<uint8_t>*> m, int32_t mOff, int32_t mLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
-  /// @brief Method SignPrehash addr 0x104937c size 0xb8 virtual false final false
+  /// @brief Method SignPrehash addr 0xfd8130 size 0xb8 virtual false final false
   static inline void SignPrehash(::ArrayW<uint8_t, ::Array<uint8_t>*> sk, int32_t skOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, ::ArrayW<uint8_t, ::Array<uint8_t>*> ph, int32_t phOff,
                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
-  /// @brief Method SignPrehash addr 0x1049434 size 0xd4 virtual false final false
+  /// @brief Method SignPrehash addr 0xfd81e8 size 0xd4 virtual false final false
   static inline void SignPrehash(::ArrayW<uint8_t, ::Array<uint8_t>*> sk, int32_t skOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> pk, int32_t pkOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx,
                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> ph, int32_t phOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
-  /// @brief Method SignPrehash addr 0x1049508 size 0x1cc virtual false final false
+  /// @brief Method SignPrehash addr 0xfd82bc size 0x1cc virtual false final false
   static inline void SignPrehash(::ArrayW<uint8_t, ::Array<uint8_t>*> sk, int32_t skOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, ::Org::BouncyCastle::Crypto::IXof* ph,
                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
-  /// @brief Method SignPrehash addr 0x10496d4 size 0x1e8 virtual false final false
+  /// @brief Method SignPrehash addr 0xfd8488 size 0x1e8 virtual false final false
   static inline void SignPrehash(::ArrayW<uint8_t, ::Array<uint8_t>*> sk, int32_t skOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> pk, int32_t pkOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx,
                                  ::Org::BouncyCastle::Crypto::IXof* ph, ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
-  /// @brief Method Verify addr 0x10498bc size 0xc0 virtual false final false
+  /// @brief Method Verify addr 0xfd8670 size 0xc0 virtual false final false
   static inline bool Verify(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> pk, int32_t pkOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx,
                             ::ArrayW<uint8_t, ::Array<uint8_t>*> m, int32_t mOff, int32_t mLen);
 
-  /// @brief Method VerifyPrehash addr 0x104997c size 0xc0 virtual false final false
+  /// @brief Method VerifyPrehash addr 0xfd8730 size 0xc0 virtual false final false
   static inline bool VerifyPrehash(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> pk, int32_t pkOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx,
                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> ph, int32_t phOff);
 
-  /// @brief Method VerifyPrehash addr 0x1049a3c size 0x1d4 virtual false final false
+  /// @brief Method VerifyPrehash addr 0xfd87f0 size 0x1d4 virtual false final false
   static inline bool VerifyPrehash(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> pk, int32_t pkOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx,
                                    ::Org::BouncyCastle::Crypto::IXof* ph);
 
   static inline ::Org::BouncyCastle::Math::EC::Rfc8032::Ed448* New_ctor();
 
-  /// @brief Method .ctor addr 0x1049e00 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xfd8bb4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Ed448", modifiers: "&&", def_value: None }]

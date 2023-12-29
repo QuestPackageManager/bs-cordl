@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509Stores);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13760))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14031))
 // CS Name: ::Mono.Security.X509::X509Stores*
 class CORDL_TYPE X509Stores : public ::System::Object {
 public:
@@ -55,13 +55,13 @@ public:
 
   static inline ::Mono::Security::X509::X509Stores* New_ctor(::StringW path, bool newFormat);
 
-  /// @brief Method .ctor addr 0x23fe044 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x22a3d38 size 0x30 virtual false final false
   inline void _ctor(::StringW path, bool newFormat);
 
-  /// @brief Method get_TrustedRoot addr 0x23fe114 size 0xdc virtual false final false
+  /// @brief Method get_TrustedRoot addr 0x22a3e08 size 0xdc virtual false final false
   inline ::Mono::Security::X509::X509Store* get_TrustedRoot();
 
-  /// @brief Method Open addr 0x23fe1f0 size 0x120 virtual false final false
+  /// @brief Method Open addr 0x22a3ee4 size 0x120 virtual false final false
   inline ::Mono::Security::X509::X509Store* Open(::StringW storeName, bool create);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Stores", modifiers: "&&", def_value: None }]
@@ -91,6 +91,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509Stores, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::X509Stores, ____storePath) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::X509Stores, ____newFormat) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::X509Stores, ____trusted) == 0x20, "Offset mismatch!");
 
 } // namespace Mono::Security::X509
 NEED_NO_BOX(::Mono::Security::X509::X509Stores);

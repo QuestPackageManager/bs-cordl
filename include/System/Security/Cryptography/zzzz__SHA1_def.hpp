@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::System::Security::Cryptography::SHA1);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2916))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2958))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2912))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2957))
 // CS Name: ::System.Security.Cryptography::SHA1*
 class CORDL_TYPE SHA1 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
   static inline ::System::Security::Cryptography::SHA1* New_ctor();
 
-  /// @brief Method .ctor addr 0x2466ba8 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x230dee8 size 0x20 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Create addr 0x2466bc8 size 0x5c virtual false final false
+  /// @brief Method Create addr 0x230dc34 size 0x5c virtual false final false
   static inline ::System::Security::Cryptography::SHA1* Create();
 
   // Ctor Parameters [CppParam { name: "", ty: "SHA1", modifiers: "&&", def_value: None }]

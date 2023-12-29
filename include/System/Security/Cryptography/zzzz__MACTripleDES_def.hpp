@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MACTripleDES)
 namespace System::Security::Cryptography {
-class TailStream;
+class TripleDES;
 }
 namespace System::Security::Cryptography {
 class ICryptoTransform;
 }
 namespace System::Security::Cryptography {
-class CryptoStream;
+class TailStream;
 }
 namespace System::Security::Cryptography {
-class TripleDES;
+class CryptoStream;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::MACTripleDES);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2942))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2943))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2941))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2942))
 // CS Name: ::System.Security.Cryptography::MACTripleDES*
 class CORDL_TYPE MACTripleDES : public ::System::Security::Cryptography::KeyedHashAlgorithm {
 public:
@@ -81,19 +81,19 @@ public:
 
   static inline ::System::Security::Cryptography::MACTripleDES* New_ctor();
 
-  /// @brief Method .ctor addr 0x245f454 size 0x130 virtual false final false
+  /// @brief Method .ctor addr 0x2305ddc size 0x130 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Initialize addr 0x245f584 size 0x8 virtual true final false
+  /// @brief Method Initialize addr 0x2305f0c size 0x8 virtual true final false
   inline void Initialize();
 
-  /// @brief Method HashCore addr 0x245f58c size 0x170 virtual true final false
+  /// @brief Method HashCore addr 0x2305f14 size 0x170 virtual true final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbData, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal addr 0x245f78c size 0x14c virtual true final false
+  /// @brief Method HashFinal addr 0x2306114 size 0x14c virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Dispose addr 0x245f950 size 0xe8 virtual true final false
+  /// @brief Method Dispose addr 0x23062d8 size 0xe8 virtual true final false
   inline void Dispose(bool disposing);
 
   // Ctor Parameters [CppParam { name: "", ty: "MACTripleDES", modifiers: "&&", def_value: None }]
@@ -129,6 +129,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::MACTripleDES, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::MACTripleDES, ___m_encryptor) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::MACTripleDES, ____cs) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::MACTripleDES, ____ts) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::MACTripleDES, ___m_bytesPerBlock) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::MACTripleDES, ___des) == 0x50, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::MACTripleDES);

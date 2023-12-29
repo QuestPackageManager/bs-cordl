@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Utilities::ParseResult);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11872))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11800))
 // CS Name: ::Newtonsoft.Json.Utilities::ParseResult
 struct CORDL_TYPE ParseResult {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::ParseResult, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::ParseResult, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ParseResult, "Newtonsoft.Json.Utilities", "ParseResult");

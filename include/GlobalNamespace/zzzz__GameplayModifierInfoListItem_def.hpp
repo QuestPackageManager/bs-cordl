@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(GameplayModifierInfoListItem)
 namespace UnityEngine::UI {
 class Image;
 }
-namespace HMUI {
-class HoverHint;
-}
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
+}
+namespace HMUI {
+class HoverHint;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayModifierInfoListItem);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5419))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5518))
 // CS Name: ::GameplayModifierInfoListItem*
 class CORDL_TYPE GameplayModifierInfoListItem : public ::UnityEngine::MonoBehaviour {
 public:
@@ -47,12 +47,12 @@ public:
 
   constexpr void __set__iconImage(::UnityEngine::UI::Image* value);
 
-  /// @brief Method SetModifier addr 0x2278a9c size 0x224 virtual false final false
+  /// @brief Method SetModifier addr 0x21357a8 size 0x224 virtual false final false
   inline void SetModifier(::GlobalNamespace::GameplayModifierParamsSO* modifierParam, bool showName);
 
   static inline ::GlobalNamespace::GameplayModifierInfoListItem* New_ctor();
 
-  /// @brief Method .ctor addr 0x2278cc0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21359cc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierInfoListItem", modifiers: "&&", def_value: None }]
@@ -79,6 +79,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayModifierInfoListItem, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifierInfoListItem, ____hoverHint) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifierInfoListItem, ____iconImage) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameplayModifierInfoListItem);

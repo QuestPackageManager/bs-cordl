@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventCallbackFunctorBase)
 namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
 struct CallbackPhase;
+}
+namespace UnityEngine::UIElements {
+struct PropagationPhase;
 }
 namespace System {
 class Delegate;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
 struct InvokePolicy;
-}
-namespace UnityEngine::UIElements {
-struct PropagationPhase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::EventCallbackFunctorBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7163)), TypeDefinitionIndex(TypeDefinitionIndex(7164))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7183))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(7250)), TypeDefinitionIndex(TypeDefinitionIndex(7249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7269))
 // CS Name: ::UnityEngine.UIElements::EventCallbackFunctorBase*
 class CORDL_TYPE EventCallbackFunctorBase : public ::System::Object {
 public:
@@ -60,15 +60,15 @@ public:
 
   constexpr void __set__invokePolicy_k__BackingField(::UnityEngine::UIElements::InvokePolicy value);
 
-  /// @brief Method get_phase addr 0x2e4e050 size 0x8 virtual false final false
+  /// @brief Method get_phase addr 0x2ce5ca0 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::CallbackPhase get_phase();
 
-  /// @brief Method get_invokePolicy addr 0x2e4e058 size 0x8 virtual false final false
+  /// @brief Method get_invokePolicy addr 0x2ce5ca8 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::InvokePolicy get_invokePolicy();
 
   static inline ::UnityEngine::UIElements::EventCallbackFunctorBase* New_ctor(::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
-  /// @brief Method .ctor addr 0x2e4e060 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2ce5cb0 size 0x2c virtual false final false
   inline void _ctor(::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
   /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -77,7 +77,7 @@ public:
   /// @brief Method IsEquivalentTo addr 0x0 size 0xffffffffffffffff virtual true final false
   inline bool IsEquivalentTo(int64_t eventTypeId, ::System::Delegate* callback, ::UnityEngine::UIElements::CallbackPhase phase);
 
-  /// @brief Method PhaseMatches addr 0x2e4e08c size 0x3c virtual false final false
+  /// @brief Method PhaseMatches addr 0x2ce5cdc size 0x3c virtual false final false
   inline bool PhaseMatches(::UnityEngine::UIElements::PropagationPhase propagationPhase);
 
   // Ctor Parameters [CppParam { name: "", ty: "EventCallbackFunctorBase", modifiers: "&&", def_value: None }]
@@ -104,6 +104,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventCallbackFunctorBase, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::EventCallbackFunctorBase, ____phase_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::EventCallbackFunctorBase, ____invokePolicy_k__BackingField) == 0x14, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::EventCallbackFunctorBase);

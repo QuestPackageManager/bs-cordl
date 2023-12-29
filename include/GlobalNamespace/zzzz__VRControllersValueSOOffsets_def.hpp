@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__VRControllerTransformOffset_def.hpp"
 CORDL_MODULE_EXPORT(VRControllersValueSOOffsets)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class Vector3SO;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::VRControllersValueSOOffsets);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14439))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4686))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13999))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4807))
 // CS Name: ::VRControllersValueSOOffsets*
 class CORDL_TYPE VRControllersValueSOOffsets : public ::GlobalNamespace::VRControllerTransformOffset {
 public:
@@ -48,15 +48,15 @@ public:
 
   constexpr void __set__rotationOffset(::GlobalNamespace::Vector3SO* value);
 
-  /// @brief Method get_positionOffset addr 0x2376250 size 0x4c virtual true final false
+  /// @brief Method get_positionOffset addr 0x2241b48 size 0x4c virtual true final false
   inline ::UnityEngine::Vector3 get_positionOffset();
 
-  /// @brief Method get_rotationOffset addr 0x237629c size 0x4c virtual true final false
+  /// @brief Method get_rotationOffset addr 0x2241b94 size 0x4c virtual true final false
   inline ::UnityEngine::Vector3 get_rotationOffset();
 
   static inline ::GlobalNamespace::VRControllersValueSOOffsets* New_ctor();
 
-  /// @brief Method .ctor addr 0x23762e8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2241be0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VRControllersValueSOOffsets", modifiers: "&&", def_value: None }]
@@ -83,6 +83,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VRControllersValueSOOffsets, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRControllersValueSOOffsets, ____positionOffset) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRControllersValueSOOffsets, ____rotationOffset) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::VRControllersValueSOOffsets);

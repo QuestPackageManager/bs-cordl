@@ -20,8 +20,8 @@ MARK_VAL_T(::UnityEngine::ContactPoint);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15498))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15482))
 // CS Name: ::UnityEngine::ContactPoint
 struct CORDL_TYPE ContactPoint {
 public:
@@ -57,6 +57,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ContactPoint, 0x24>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactPoint, m_Point) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactPoint, m_Normal) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactPoint, m_ThisColliderInstanceID) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactPoint, m_OtherColliderInstanceID) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactPoint, m_Separation) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ContactPoint, "UnityEngine", "ContactPoint");

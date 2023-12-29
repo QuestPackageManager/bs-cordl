@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(IStylePainter)
 namespace UnityEngine::UIElements {
-class ITextHandle;
+struct __MeshGenerationContextUtils__RectangleParams;
 }
 namespace System {
 class Action;
 }
 namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__TextParams;
+class ITextHandle;
 }
 namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__RectangleParams;
+struct __MeshGenerationContextUtils__TextParams;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IStylePainter);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6769))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6855))
 // CS Name: ::UnityEngine.UIElements::IStylePainter*
 class CORDL_TYPE IStylePainter {
 public:

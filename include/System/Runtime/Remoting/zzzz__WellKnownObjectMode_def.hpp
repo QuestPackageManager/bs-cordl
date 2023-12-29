@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Remoting::WellKnownObjectMode);
 namespace System::Runtime::Remoting {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3082))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3081))
 // CS Name: ::System.Runtime.Remoting::WellKnownObjectMode
 struct CORDL_TYPE WellKnownObjectMode {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::WellKnownObjectMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::WellKnownObjectMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::WellKnownObjectMode, "System.Runtime.Remoting", "WellKnownObjectMode");

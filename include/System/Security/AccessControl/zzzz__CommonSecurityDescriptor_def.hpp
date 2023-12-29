@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/Security/AccessControl/zzzz__ControlFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__GenericSecurityDescriptor_def.hpp"
 CORDL_MODULE_EXPORT(CommonSecurityDescriptor)
-namespace System::Security::AccessControl {
-class CommonAcl;
-}
-namespace System::Security::AccessControl {
-class DiscretionaryAcl;
-}
 namespace System::Security::Principal {
 class SecurityIdentifier;
 }
 namespace System::Security::AccessControl {
-struct ControlFlags;
+class CommonAcl;
 }
 namespace System::Security::AccessControl {
 class SystemAcl;
+}
+namespace System::Security::AccessControl {
+class DiscretionaryAcl;
+}
+namespace System::Security::AccessControl {
+struct ControlFlags;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::System::Security::AccessControl::CommonSecurityDescriptor);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3028)), TypeDefinitionIndex(TypeDefinitionIndex(3037))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3027))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3027)), TypeDefinitionIndex(TypeDefinitionIndex(3036))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3026))
 // CS Name: ::System.Security.AccessControl::CommonSecurityDescriptor*
 class CORDL_TYPE CommonSecurityDescriptor : public ::System::Security::AccessControl::GenericSecurityDescriptor {
 public:
@@ -116,38 +116,38 @@ public:
                                                                                       ::System::Security::Principal::SecurityIdentifier* group, ::System::Security::AccessControl::SystemAcl* systemAcl,
                                                                                       ::System::Security::AccessControl::DiscretionaryAcl* discretionaryAcl);
 
-  /// @brief Method .ctor addr 0x248300c size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x232b518 size 0x74 virtual false final false
   inline void _ctor(bool isContainer, bool isDS, ::System::Security::AccessControl::ControlFlags flags, ::System::Security::Principal::SecurityIdentifier* owner,
                     ::System::Security::Principal::SecurityIdentifier* group, ::System::Security::AccessControl::SystemAcl* systemAcl,
                     ::System::Security::AccessControl::DiscretionaryAcl* discretionaryAcl);
 
-  /// @brief Method Init addr 0x2483088 size 0x84 virtual false final false
+  /// @brief Method Init addr 0x232b594 size 0x84 virtual false final false
   inline void Init(bool isContainer, bool isDS, ::System::Security::AccessControl::ControlFlags flags, ::System::Security::Principal::SecurityIdentifier* owner,
                    ::System::Security::Principal::SecurityIdentifier* group, ::System::Security::AccessControl::SystemAcl* systemAcl,
                    ::System::Security::AccessControl::DiscretionaryAcl* discretionaryAcl);
 
-  /// @brief Method get_DiscretionaryAcl addr 0x2483240 size 0x8 virtual false final false
+  /// @brief Method get_DiscretionaryAcl addr 0x232b74c size 0x8 virtual false final false
   inline ::System::Security::AccessControl::DiscretionaryAcl* get_DiscretionaryAcl();
 
-  /// @brief Method set_DiscretionaryAcl addr 0x248313c size 0x104 virtual false final false
+  /// @brief Method set_DiscretionaryAcl addr 0x232b648 size 0x104 virtual false final false
   inline void set_DiscretionaryAcl(::System::Security::AccessControl::DiscretionaryAcl* value);
 
-  /// @brief Method set_Group addr 0x2483378 size 0x8 virtual true final false
+  /// @brief Method set_Group addr 0x232b884 size 0x8 virtual true final false
   inline void set_Group(::System::Security::Principal::SecurityIdentifier* value);
 
-  /// @brief Method get_IsContainer addr 0x2483380 size 0x8 virtual false final false
+  /// @brief Method get_IsContainer addr 0x232b88c size 0x8 virtual false final false
   inline bool get_IsContainer();
 
-  /// @brief Method get_IsDS addr 0x2483388 size 0x8 virtual false final false
+  /// @brief Method get_IsDS addr 0x232b894 size 0x8 virtual false final false
   inline bool get_IsDS();
 
-  /// @brief Method set_Owner addr 0x2483390 size 0x8 virtual true final false
+  /// @brief Method set_Owner addr 0x232b89c size 0x8 virtual true final false
   inline void set_Owner(::System::Security::Principal::SecurityIdentifier* value);
 
-  /// @brief Method set_SystemAcl addr 0x248310c size 0x30 virtual false final false
+  /// @brief Method set_SystemAcl addr 0x232b618 size 0x30 virtual false final false
   inline void set_SystemAcl(::System::Security::AccessControl::SystemAcl* value);
 
-  /// @brief Method CheckAclConsistency addr 0x24832b4 size 0xc4 virtual false final false
+  /// @brief Method CheckAclConsistency addr 0x232b7c0 size 0xc4 virtual false final false
   inline void CheckAclConsistency(::System::Security::AccessControl::CommonAcl* acl);
 
   // Ctor Parameters [CppParam { name: "", ty: "CommonSecurityDescriptor", modifiers: "&&", def_value: None }]
@@ -189,6 +189,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::CommonSecurityDescriptor, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::CommonSecurityDescriptor, ___is_container) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::CommonSecurityDescriptor, ___is_ds) == 0x11, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::CommonSecurityDescriptor, ___flags) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::CommonSecurityDescriptor, ___owner) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::CommonSecurityDescriptor, ___group) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::CommonSecurityDescriptor, ___system_acl) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::CommonSecurityDescriptor, ___discretionary_acl) == 0x30, "Offset mismatch!");
 
 } // namespace System::Security::AccessControl
 NEED_NO_BOX(::System::Security::AccessControl::CommonSecurityDescriptor);

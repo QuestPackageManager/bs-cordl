@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::AesTransform);
 namespace System::Security::Cryptography {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2284))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14252))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14590))
 // CS Name: ::System.Security.Cryptography::AesTransform*
 class CORDL_TYPE AesTransform : public ::Mono::Security::Cryptography::SymmetricTransform {
 public:
@@ -132,19 +132,19 @@ public:
   static inline ::System::Security::Cryptography::AesTransform* New_ctor(::System::Security::Cryptography::Aes* algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor addr 0x280d698 size 0x6f4 virtual false final false
+  /// @brief Method .ctor addr 0x2692a38 size 0x6f4 virtual false final false
   inline void _ctor(::System::Security::Cryptography::Aes* algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method ECB addr 0x280e0a8 size 0x14 virtual true final false
+  /// @brief Method ECB addr 0x2693448 size 0x14 virtual true final false
   inline void ECB(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method SubByte addr 0x280dfe4 size 0xc4 virtual false final false
+  /// @brief Method SubByte addr 0x2693384 size 0xc4 virtual false final false
   inline uint32_t SubByte(uint32_t a);
 
-  /// @brief Method Encrypt128 addr 0x280e0bc size 0x1e2c virtual false final false
+  /// @brief Method Encrypt128 addr 0x269345c size 0x1e2c virtual false final false
   inline void Encrypt128(::ArrayW<uint8_t, ::Array<uint8_t>*> indata, ::ArrayW<uint8_t, ::Array<uint8_t>*> outdata, ::ArrayW<uint32_t, ::Array<uint32_t>*> ekey);
 
-  /// @brief Method Decrypt128 addr 0x280fee8 size 0x1df0 virtual false final false
+  /// @brief Method Decrypt128 addr 0x2695288 size 0x1df0 virtual false final false
   inline void Decrypt128(::ArrayW<uint8_t, ::Array<uint8_t>*> indata, ::ArrayW<uint8_t, ::Array<uint8_t>*> outdata, ::ArrayW<uint32_t, ::Array<uint32_t>*> ekey);
 
   // Ctor Parameters [CppParam { name: "", ty: "AesTransform", modifiers: "&&", def_value: None }]
@@ -174,6 +174,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::AesTransform, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::AesTransform, ___expandedKey) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::AesTransform, ___Nk) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::AesTransform, ___Nr) == 0x64, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::AesTransform);

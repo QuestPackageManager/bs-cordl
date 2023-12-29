@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Plane)
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 struct Bounds;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Plane);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12233))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12230))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12161))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12158))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Plane*
 class CORDL_TYPE Plane : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
@@ -54,15 +54,15 @@ public:
 
   constexpr void __set_m_WidthSegments(int32_t value);
 
-  /// @brief Method CopyShape addr 0x2b8c09c size 0xac virtual true final false
+  /// @brief Method CopyShape addr 0x2a0b348 size 0xac virtual true final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method RebuildMesh addr 0x2b8c148 size 0x24c virtual true final false
+  /// @brief Method RebuildMesh addr 0x2a0b3f4 size 0x24c virtual true final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Plane* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b8c394 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2a0b640 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Plane", modifiers: "&&", def_value: None }]
@@ -89,6 +89,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::Plane, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Plane, ___m_HeightSegments) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Plane, ___m_WidthSegments) == 0x14, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Shapes
 NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Plane);

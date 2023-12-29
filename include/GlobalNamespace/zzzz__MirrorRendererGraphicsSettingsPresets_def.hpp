@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Prese
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4437))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4458))
 // CS Name: ::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType
 struct CORDL_TYPE __MirrorRendererGraphicsSettingsPresets__Preset__MirrorType {
 public:
@@ -84,13 +84,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Preset
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(4440)), TypeDefinitionIndex(TypeDefinitionIndex(4437))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4438))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4461)), TypeDefinitionIndex(TypeDefinitionIndex(4458)), TypeDefinitionIndex(TypeDefinitionIndex(10132))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4459))
 // CS Name: ::MirrorRendererGraphicsSettingsPresets::Preset*
 class CORDL_TYPE __MirrorRendererGraphicsSettingsPresets__Preset : public ::GlobalNamespace::NamedPreset {
 public:
@@ -171,7 +173,7 @@ public:
 
   static inline ::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset* New_ctor();
 
-  /// @brief Method .ctor addr 0x235039c size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x220442c size 0x44 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MirrorRendererGraphicsSettingsPresets__Preset", modifiers: "&&", def_value: None }]
@@ -217,13 +219,29 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset, ___mirrorType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset, ___reflectLayers) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset, ___stereoTextureWidth) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset, ___stereoTextureHeight) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset, ___monoTextureWidth) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset, ___monoTextureHeight) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset, ___maxAntiAliasing) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset, ___enableBloomPrePassFog) == 0x34, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MirrorRendererGraphicsSettingsPresets
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4441))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4439))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4462))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4460))
 // CS Name: ::MirrorRendererGraphicsSettingsPresets*
 class CORDL_TYPE MirrorRendererGraphicsSettingsPresets : public ::GlobalNamespace::NamedPresetsSO {
 public:
@@ -246,15 +264,15 @@ public:
 
   constexpr void __set__presets(::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*> value);
 
-  /// @brief Method get_presets addr 0x2350384 size 0x8 virtual false final false
+  /// @brief Method get_presets addr 0x220440c size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*> get_presets();
 
-  /// @brief Method get_namedPresets addr 0x235038c size 0x8 virtual true final false
+  /// @brief Method get_namedPresets addr 0x2204414 size 0x8 virtual true final false
   inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> get_namedPresets();
 
   static inline ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets* New_ctor();
 
-  /// @brief Method .ctor addr 0x2350394 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x220441c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererGraphicsSettingsPresets", modifiers: "&&", def_value: None }]
@@ -278,6 +296,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MirrorRendererGraphicsSettingsPresets, ____presets) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType, "", "MirrorRendererGraphicsSettingsPresets/Preset/MirrorType");

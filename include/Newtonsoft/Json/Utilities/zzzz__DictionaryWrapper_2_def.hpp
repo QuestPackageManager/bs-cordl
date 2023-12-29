@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DictionaryWrapper_2)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
-}
-namespace System {
-class Array;
-}
 namespace Newtonsoft::Json::Utilities {
 class IWrappedDictionary;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue> class __DictionaryWrapper_2____c;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue> struct __DictionaryWrapper_2__DictionaryEnumerator_2;
@@ -33,31 +33,31 @@ namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename TKey, typename TValue> class IDictionary_2;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+struct DictionaryEntry;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections {
-struct DictionaryEntry;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -80,7 +80,7 @@ namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11881))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11809))
 // CS Name: ::DictionaryWrapper`2::DictionaryEnumerator`2<TKey,TValue,TEnumeratorKey,TEnumeratorValue>
 struct CORDL_TYPE __DictionaryWrapper_2__DictionaryEnumerator_2 {
 public:
@@ -144,8 +144,8 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11882))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11810))
 // CS Name: ::DictionaryWrapper`2::<>c<TKey,TValue>*
 class CORDL_TYPE __DictionaryWrapper_2____c : public ::System::Object {
 public:
@@ -197,8 +197,8 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11883))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11811))
 // CS Name: ::Newtonsoft.Json.Utilities::DictionaryWrapper`2<TKey,TValue>*
 class CORDL_TYPE DictionaryWrapper_2 : public ::System::Object {
 public:

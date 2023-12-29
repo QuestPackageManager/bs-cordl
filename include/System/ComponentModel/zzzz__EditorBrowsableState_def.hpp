@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ComponentModel::EditorBrowsableState);
 namespace System::ComponentModel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9385))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8222))
 // CS Name: ::System.ComponentModel::EditorBrowsableState
 struct CORDL_TYPE EditorBrowsableState {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::EditorBrowsableState, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::EditorBrowsableState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::EditorBrowsableState, "System.ComponentModel", "EditorBrowsableState");

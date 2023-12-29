@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(590))
 // CS Name: ::Org.BouncyCastle.Bcpg::SignatureSubpacketsParser*
 class CORDL_TYPE SignatureSubpacketsParser : public ::System::Object {
@@ -40,13 +40,13 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor addr 0x11d38d4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1162684 size 0x28 virtual false final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method ReadPacket addr 0x11d38fc size 0x650 virtual false final false
+  /// @brief Method ReadPacket addr 0x11626ac size 0x650 virtual false final false
   inline ::Org::BouncyCastle::Bcpg::SignatureSubpacket* ReadPacket();
 
-  /// @brief Method CheckData addr 0x11d4b18 size 0xf0 virtual false final false
+  /// @brief Method CheckData addr 0x11638c8 size 0xf0 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CheckData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t expected, int32_t bytesRead, ::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignatureSubpacketsParser", modifiers: "&&", def_value: None }]
@@ -70,6 +70,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser, ___input) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser);

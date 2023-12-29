@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Zenject::ILateTickable);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15734))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15684))
 // CS Name: ::Zenject::ILateTickable*
 class CORDL_TYPE ILateTickable {
 public:

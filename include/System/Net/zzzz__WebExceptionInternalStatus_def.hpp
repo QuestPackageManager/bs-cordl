@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::WebExceptionInternalStatus);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9086))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7923))
 // CS Name: ::System.Net::WebExceptionInternalStatus
 struct CORDL_TYPE WebExceptionInternalStatus {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::WebExceptionInternalStatus, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::WebExceptionInternalStatus, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebExceptionInternalStatus, "System.Net", "WebExceptionInternalStatus");

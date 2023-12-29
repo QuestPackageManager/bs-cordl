@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::TypeInitializationException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2497))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2495))
 // CS Name: ::System::TypeInitializationException*
 class CORDL_TYPE TypeInitializationException : public ::System::SystemException {
 public:
@@ -43,28 +43,28 @@ public:
 
   static inline ::System::TypeInitializationException* New_ctor();
 
-  /// @brief Method .ctor addr 0x25cb1b0 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x246e288 size 0x58 virtual false final false
   inline void _ctor();
 
   static inline ::System::TypeInitializationException* New_ctor(::StringW fullTypeName, ::System::Exception* innerException);
 
-  /// @brief Method .ctor addr 0x25cb208 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x246e2e0 size 0x80 virtual false final false
   inline void _ctor(::StringW fullTypeName, ::System::Exception* innerException);
 
   static inline ::System::TypeInitializationException* New_ctor(::StringW fullTypeName, ::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor addr 0x25cb288 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x246e360 size 0x38 virtual false final false
   inline void _ctor(::StringW fullTypeName, ::StringW message, ::System::Exception* innerException);
 
   static inline ::System::TypeInitializationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x25cb2c0 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x246e398 size 0x84 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData addr 0x25cb344 size 0x108 virtual true final false
+  /// @brief Method GetObjectData addr 0x246e41c size 0x108 virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_TypeName addr 0x25cb44c size 0x54 virtual false final false
+  /// @brief Method get_TypeName addr 0x246e524 size 0x54 virtual false final false
   inline ::StringW get_TypeName();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeInitializationException", modifiers: "&&", def_value: None }]
@@ -88,6 +88,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::TypeInitializationException, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::System::TypeInitializationException, ____typeName) == 0x90, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::TypeInitializationException);

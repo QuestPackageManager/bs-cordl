@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X448Agreement)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class X448PrivateKeyParameters;
-}
 namespace Org::BouncyCastle::Crypto {
 class IRawAgreement;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class X448PrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::X448Agreement);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(744))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement::X448Agreement*
 class CORDL_TYPE X448Agreement : public ::System::Object {
@@ -45,18 +45,18 @@ public:
 
   constexpr void __set_privateKey(::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters* value);
 
-  /// @brief Method Init addr 0x121d350 size 0x74 virtual true final true
+  /// @brief Method Init addr 0x11ac100 size 0x74 virtual true final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AgreementSize addr 0x121d3c4 size 0x58 virtual true final true
+  /// @brief Method get_AgreementSize addr 0x11ac174 size 0x58 virtual true final true
   inline int32_t get_AgreementSize();
 
-  /// @brief Method CalculateAgreement addr 0x121d41c size 0x8c virtual true final true
+  /// @brief Method CalculateAgreement addr 0x11ac1cc size 0x8c virtual true final true
   inline void CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* publicKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::X448Agreement* New_ctor();
 
-  /// @brief Method .ctor addr 0x121d4a8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x11ac258 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X448Agreement", modifiers: "&&", def_value: None }]
@@ -80,6 +80,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Agreement::X448Agreement, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::X448Agreement, ___privateKey) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Agreement
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::X448Agreement);

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRControllerState_t_Packed)
 namespace OVR::OpenVR {
-struct VRControllerState_t;
+struct VRControllerAxis_t;
 }
 namespace OVR::OpenVR {
-struct VRControllerAxis_t;
+struct VRControllerState_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -23,17 +23,17 @@ MARK_VAL_T(::OVR::OpenVR::VRControllerState_t_Packed);
 // SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 4, natural_alignment: 8, packing: Some(4), specified_packing: Some(4) }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8695))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8697))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9464))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9466))
 // CS Name: ::OVR.OpenVR::VRControllerState_t_Packed
 #pragma pack(push, 4)
 struct CORDL_TYPE VRControllerState_t_Packed {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x27f1360 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x267a3dc size 0x44 virtual false final false
   inline void _ctor(::OVR::OpenVR::VRControllerState_t unpacked);
 
-  /// @brief Method Unpack addr 0x27f13a4 size 0x3c virtual false final false
+  /// @brief Method Unpack addr 0x267a420 size 0x3c virtual false final false
   inline void Unpack(ByRef<::OVR::OpenVR::VRControllerState_t> unpacked);
 
   // Ctor Parameters [CppParam { name: "unPacketNum", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ulButtonPressed", ty: "uint64_t", modifiers: "", def_value: None }, CppParam {
@@ -79,6 +79,22 @@ public:
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VRControllerState_t_Packed, 0x3c>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRControllerState_t_Packed, unPacketNum) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRControllerState_t_Packed, ulButtonPressed) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRControllerState_t_Packed, ulButtonTouched) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRControllerState_t_Packed, rAxis0) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRControllerState_t_Packed, rAxis1) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRControllerState_t_Packed, rAxis2) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRControllerState_t_Packed, rAxis3) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRControllerState_t_Packed, rAxis4) == 0x34, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VRControllerState_t_Packed, "OVR.OpenVR", "VRControllerState_t_Packed");

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::InputDeviceChange);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6240))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6326))
 // CS Name: ::UnityEngine.InputSystem::InputDeviceChange
 struct CORDL_TYPE InputDeviceChange {
 public:
@@ -93,6 +93,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputDeviceChange, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputDeviceChange, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputDeviceChange, "UnityEngine.InputSystem", "InputDeviceChange");

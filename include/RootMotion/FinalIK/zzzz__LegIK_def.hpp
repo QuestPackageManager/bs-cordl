@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::LegIK);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12536))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12538))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12464))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12466))
 // CS Name: ::RootMotion.FinalIK::LegIK*
 class CORDL_TYPE LegIK : public ::RootMotion::FinalIK::IK {
 public:
@@ -35,24 +35,24 @@ public:
 
   constexpr void __set_solver(::RootMotion::FinalIK::IKSolverLeg* value);
 
-  /// @brief Method OpenUserManual addr 0x124f494 size 0x44 virtual true final false
+  /// @brief Method OpenUserManual addr 0x11df168 size 0x44 virtual true final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference addr 0x124f4d8 size 0x44 virtual true final false
+  /// @brief Method OpenScriptReference addr 0x11df1ac size 0x44 virtual true final false
   inline void OpenScriptReference();
 
-  /// @brief Method SupportGroup addr 0x124f51c size 0x44 virtual false final false
+  /// @brief Method SupportGroup addr 0x11df1f0 size 0x44 virtual false final false
   inline void SupportGroup();
 
-  /// @brief Method ASThread addr 0x124f560 size 0x44 virtual false final false
+  /// @brief Method ASThread addr 0x11df234 size 0x44 virtual false final false
   inline void ASThread();
 
-  /// @brief Method GetIKSolver addr 0x124f5a4 size 0x8 virtual true final false
+  /// @brief Method GetIKSolver addr 0x11df278 size 0x8 virtual true final false
   inline ::RootMotion::FinalIK::IKSolver* GetIKSolver();
 
   static inline ::RootMotion::FinalIK::LegIK* New_ctor();
 
-  /// @brief Method .ctor addr 0x124f5ac size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x11df280 size 0x68 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LegIK", modifiers: "&&", def_value: None }]
@@ -76,6 +76,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::LegIK, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LegIK, ___solver) == 0x38, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::LegIK);

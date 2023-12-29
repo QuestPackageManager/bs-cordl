@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::HMUI::TimeSlider);
 namespace HMUI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13561))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13680))
 // CS Name: ::TimeSlider::TimeType
 struct CORDL_TYPE __TimeSlider__TimeType {
 public:
@@ -69,13 +69,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::__TimeSlider__TimeType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HMUI::__TimeSlider__TimeType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HMUI
 // Type: HMUI::TimeSlider
 // SizeInfo { instance_size: 368, native_size: -1, calculated_instance_size: 368, calculated_native_size: 364, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13558)), TypeDefinitionIndex(TypeDefinitionIndex(13561))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13562))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13680)), TypeDefinitionIndex(TypeDefinitionIndex(13677))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13681))
 // CS Name: ::HMUI::TimeSlider*
 class CORDL_TYPE TimeSlider : public ::HMUI::RangeValuesTextSlider {
 public:
@@ -91,12 +93,12 @@ public:
 
   constexpr void __set__timeType(::HMUI::__TimeSlider__TimeType value);
 
-  /// @brief Method TextForValue addr 0x2124180 size 0x254 virtual true final false
+  /// @brief Method TextForValue addr 0x1fcdf24 size 0x254 virtual true final false
   inline ::StringW TextForValue(float_t value);
 
   static inline ::HMUI::TimeSlider* New_ctor();
 
-  /// @brief Method .ctor addr 0x21243d4 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x1fce178 size 0xc virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeSlider", modifiers: "&&", def_value: None }]
@@ -120,6 +122,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::TimeSlider, 0x170>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::TimeSlider, ____timeType) == 0x168, "Offset mismatch!");
 
 } // namespace HMUI
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::__TimeSlider__TimeType, "HMUI", "TimeSlider/TimeType");

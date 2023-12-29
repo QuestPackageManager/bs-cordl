@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::ShortenedDigest);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(775))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::ShortenedDigest*
 class CORDL_TYPE ShortenedDigest : public ::System::Object {
@@ -51,28 +51,28 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::ShortenedDigest* New_ctor(::Org::BouncyCastle::Crypto::IDigest* baseDigest, int32_t length);
 
-  /// @brief Method .ctor addr 0xea58fc size 0x150 virtual false final false
+  /// @brief Method .ctor addr 0xe31728 size 0x150 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* baseDigest, int32_t length);
 
-  /// @brief Method get_AlgorithmName addr 0xea5a4c size 0x1f0 virtual true final true
+  /// @brief Method get_AlgorithmName addr 0xe31878 size 0x1f0 virtual true final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetDigestSize addr 0xea5c3c size 0x8 virtual true final true
+  /// @brief Method GetDigestSize addr 0xe31a68 size 0x8 virtual true final true
   inline int32_t GetDigestSize();
 
-  /// @brief Method Update addr 0xea5c44 size 0xac virtual true final true
+  /// @brief Method Update addr 0xe31a70 size 0xac virtual true final true
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate addr 0xea5cf0 size 0xc4 virtual true final true
+  /// @brief Method BlockUpdate addr 0xe31b1c size 0xc4 virtual true final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method DoFinal addr 0xea5db4 size 0x174 virtual true final true
+  /// @brief Method DoFinal addr 0xe31be0 size 0x174 virtual true final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xea5f28 size 0xa4 virtual true final true
+  /// @brief Method Reset addr 0xe31d54 size 0xa4 virtual true final true
   inline void Reset();
 
-  /// @brief Method GetByteLength addr 0xea5fcc size 0xa4 virtual true final true
+  /// @brief Method GetByteLength addr 0xe31df8 size 0xa4 virtual true final true
   inline int32_t GetByteLength();
 
   // Ctor Parameters [CppParam { name: "", ty: "ShortenedDigest", modifiers: "&&", def_value: None }]
@@ -99,6 +99,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::ShortenedDigest, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::ShortenedDigest, ___baseDigest) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::ShortenedDigest, ___length) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Digests
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::ShortenedDigest);

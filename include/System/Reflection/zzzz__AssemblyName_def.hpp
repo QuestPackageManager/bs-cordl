@@ -13,11 +13,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssemblyName)
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System::Reflection {
+class StrongNameKeyPair;
 }
-namespace System {
-class Version;
+namespace Mono {
+struct MonoAssemblyName;
 }
 namespace System {
 class Object;
@@ -25,8 +25,20 @@ class Object;
 namespace System {
 class ICloneable;
 }
-namespace System::Globalization {
-class CultureInfo;
+namespace System {
+class Version;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Reflection {
+struct AssemblyNameFlags;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::InteropServices {
+class _AssemblyName;
 }
 namespace System::Reflection {
 class Assembly;
@@ -34,23 +46,11 @@ class Assembly;
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
 }
-namespace System::Reflection {
-class StrongNameKeyPair;
-}
-namespace System::Runtime::InteropServices {
-class _AssemblyName;
-}
-namespace Mono {
-struct MonoAssemblyName;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Reflection {
-struct AssemblyNameFlags;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -62,8 +62,8 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyName);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3454)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3750)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3486)), TypeDefinitionIndex(TypeDefinitionIndex(3751)), TypeDefinitionIndex(TypeDefinitionIndex(3446))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3512))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3739)), TypeDefinitionIndex(TypeDefinitionIndex(3481)), TypeDefinitionIndex(TypeDefinitionIndex(3449)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3738)), TypeDefinitionIndex(TypeDefinitionIndex(3441)), TypeDefinitionIndex(TypeDefinitionIndex(2611))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3507))
 // CS Name: ::System.Reflection::AssemblyName*
 class CORDL_TYPE AssemblyName : public ::System::Object {
 public:
@@ -238,74 +238,74 @@ public:
 
   static inline ::System::Reflection::AssemblyName* New_ctor();
 
-  /// @brief Method .ctor addr 0x24ef444 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x2395994 size 0x20 virtual false final false
   inline void _ctor();
 
-  /// @brief Method ParseAssemblyName addr 0x24ef464 size 0x4 virtual false final false
+  /// @brief Method ParseAssemblyName addr 0x23959b4 size 0x4 virtual false final false
   static inline bool ParseAssemblyName(void* name, ByRef<::Mono::MonoAssemblyName> aname, ByRef<bool> is_version_definited, ByRef<bool> is_token_defined);
 
   static inline ::System::Reflection::AssemblyName* New_ctor(::StringW assemblyName);
 
-  /// @brief Method .ctor addr 0x24e1aa8 size 0x298 virtual false final false
+  /// @brief Method .ctor addr 0x2387578 size 0x298 virtual false final false
   inline void _ctor(::StringW assemblyName);
 
   static inline ::System::Reflection::AssemblyName* New_ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method .ctor addr 0x24ef708 size 0x508 virtual false final false
+  /// @brief Method .ctor addr 0x2395c58 size 0x508 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method get_Name addr 0x24efc10 size 0x8 virtual false final false
+  /// @brief Method get_Name addr 0x2396160 size 0x8 virtual false final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_CultureInfo addr 0x24efc18 size 0x8 virtual false final false
+  /// @brief Method get_CultureInfo addr 0x2396168 size 0x8 virtual false final false
   inline ::System::Globalization::CultureInfo* get_CultureInfo();
 
-  /// @brief Method get_Flags addr 0x24efc20 size 0x8 virtual false final false
+  /// @brief Method get_Flags addr 0x2396170 size 0x8 virtual false final false
   inline ::System::Reflection::AssemblyNameFlags get_Flags();
 
-  /// @brief Method get_FullName addr 0x24efc28 size 0x35c virtual false final false
+  /// @brief Method get_FullName addr 0x2396178 size 0x35c virtual false final false
   inline ::StringW get_FullName();
 
-  /// @brief Method get_Version addr 0x24f006c size 0x8 virtual false final false
+  /// @brief Method get_Version addr 0x23965bc size 0x8 virtual false final false
   inline ::System::Version* get_Version();
 
-  /// @brief Method set_Version addr 0x24f0074 size 0x4c virtual false final false
+  /// @brief Method set_Version addr 0x23965c4 size 0x4c virtual false final false
   inline void set_Version(::System::Version* value);
 
-  /// @brief Method ToString addr 0x24f00c0 size 0x28 virtual true final false
+  /// @brief Method ToString addr 0x2396610 size 0x28 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method GetPublicKeyToken addr 0x24e1d40 size 0xe8 virtual false final false
+  /// @brief Method GetPublicKeyToken addr 0x2387810 size 0xe8 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPublicKeyToken();
 
-  /// @brief Method get_IsPublicKeyValid addr 0x24f00e8 size 0x84 virtual false final false
+  /// @brief Method get_IsPublicKeyValid addr 0x2396638 size 0x84 virtual false final false
   inline bool get_IsPublicKeyValid();
 
-  /// @brief Method InternalGetPublicKeyToken addr 0x24eff84 size 0xe8 virtual false final false
+  /// @brief Method InternalGetPublicKeyToken addr 0x23964d4 size 0xe8 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> InternalGetPublicKeyToken();
 
-  /// @brief Method get_public_token addr 0x24f01f8 size 0x4 virtual false final false
+  /// @brief Method get_public_token addr 0x2396748 size 0x4 virtual false final false
   static inline void get_public_token(::cordl_internals::Ptr<uint8_t> token, ::cordl_internals::Ptr<uint8_t> pubkey, int32_t len);
 
-  /// @brief Method ComputePublicKeyToken addr 0x24f016c size 0x8c virtual false final false
+  /// @brief Method ComputePublicKeyToken addr 0x23966bc size 0x8c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ComputePublicKeyToken();
 
-  /// @brief Method GetObjectData addr 0x24f01fc size 0x330 virtual true final true
+  /// @brief Method GetObjectData addr 0x239674c size 0x330 virtual true final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Clone addr 0x24f052c size 0xb0 virtual true final true
+  /// @brief Method Clone addr 0x2396a7c size 0xb0 virtual true final true
   inline ::System::Object* Clone();
 
-  /// @brief Method OnDeserialization addr 0x24f05dc size 0x8 virtual true final true
+  /// @brief Method OnDeserialization addr 0x2396b2c size 0x8 virtual true final true
   inline void OnDeserialization(::System::Object* sender);
 
-  /// @brief Method GetNativeName addr 0x24f05e4 size 0x4 virtual false final false
+  /// @brief Method GetNativeName addr 0x2396b34 size 0x4 virtual false final false
   static inline ::cordl_internals::Ptr<::Mono::MonoAssemblyName> GetNativeName(void* assembly_ptr);
 
-  /// @brief Method FillName addr 0x24ef468 size 0x2a0 virtual false final false
+  /// @brief Method FillName addr 0x23959b8 size 0x2a0 virtual false final false
   inline void FillName(::cordl_internals::Ptr<::Mono::MonoAssemblyName> native, ::StringW codeBase, bool addVersion, bool addPublickey, bool defaultToken, bool assemblyRef);
 
-  /// @brief Method Create addr 0x24f05e8 size 0xcc virtual false final false
+  /// @brief Method Create addr 0x2396b38 size 0xcc virtual false final false
   static inline ::System::Reflection::AssemblyName* Create(::System::Reflection::Assembly* assembly, bool fillCodebase);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyName", modifiers: "&&", def_value: None }]
@@ -374,6 +374,38 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::AssemblyName, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyName, ___name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyName, ___codebase) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyName, ___major) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyName, ___minor) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyName, ___build) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyName, ___revision) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyName, ___cultureinfo) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyName, ___flags) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyName, ___hashalg) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyName, ___keypair) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyName, ___publicKey) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyName, ___keyToken) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyName, ___versioncompat) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyName, ___version) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyName, ___processor_architecture) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::AssemblyName, ___contentType) == 0x6c, "Offset mismatch!");
 
 } // namespace System::Reflection
 NEED_NO_BOX(::System::Reflection::AssemblyName);

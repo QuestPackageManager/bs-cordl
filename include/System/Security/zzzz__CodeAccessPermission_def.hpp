@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CodeAccessPermission)
 namespace System::Security {
+class ISecurityEncodable;
+}
+namespace System::Security {
+class IPermission;
+}
+namespace System {
+class Object;
+}
+namespace System::Security {
 class SecurityElement;
 }
 namespace System::Security::Permissions {
 struct PermissionState;
 }
 namespace System {
-class Object;
-}
-namespace System {
 class Type;
-}
-namespace System::Security {
-class IPermission;
-}
-namespace System::Security {
-class ISecurityEncodable;
 }
 // Forward declare root types
 namespace System::Security {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::System::Security::CodeAccessPermission);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2882))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2878))
 // CS Name: ::System.Security::CodeAccessPermission*
 class CORDL_TYPE CodeAccessPermission : public ::System::Object {
 public:
@@ -48,37 +48,37 @@ public:
 
   static inline ::System::Security::CodeAccessPermission* New_ctor();
 
-  /// @brief Method .ctor addr 0x2451124 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22f7608 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Demand addr 0x245112c size 0x2c virtual true final true
+  /// @brief Method Demand addr 0x22f7610 size 0x2c virtual true final true
   inline void Demand();
 
-  /// @brief Method Equals addr 0x2451224 size 0x124 virtual true final false
+  /// @brief Method Equals addr 0x22f7708 size 0x124 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2451348 size 0x8 virtual true final false
+  /// @brief Method GetHashCode addr 0x22f782c size 0x8 virtual true final false
   inline int32_t GetHashCode();
 
   /// @brief Method IsSubsetOf addr 0x0 size 0xffffffffffffffff virtual true final false
   inline bool IsSubsetOf(::System::Security::IPermission* target);
 
-  /// @brief Method ToString addr 0x2451350 size 0x28 virtual true final false
+  /// @brief Method ToString addr 0x22f7834 size 0x28 virtual true final false
   inline ::StringW ToString();
 
   /// @brief Method ToXml addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Security::SecurityElement* ToXml();
 
-  /// @brief Method Element addr 0x2451378 size 0x168 virtual false final false
+  /// @brief Method Element addr 0x22f785c size 0x168 virtual false final false
   inline ::System::Security::SecurityElement* Element(int32_t version);
 
-  /// @brief Method CheckPermissionState addr 0x24514e0 size 0xb0 virtual false final false
+  /// @brief Method CheckPermissionState addr 0x22f79c4 size 0xb0 virtual false final false
   static inline ::System::Security::Permissions::PermissionState CheckPermissionState(::System::Security::Permissions::PermissionState state, bool allowUnrestricted);
 
-  /// @brief Method ThrowInvalidPermission addr 0x2451590 size 0xa4 virtual false final false
+  /// @brief Method ThrowInvalidPermission addr 0x22f7a74 size 0xa4 virtual false final false
   static inline void ThrowInvalidPermission(::System::Security::IPermission* target, ::System::Type* expected);
 
-  /// @brief Method System.Security.IPermission.Demand addr 0x2451634 size 0x4 virtual true final true
+  /// @brief Method System.Security.IPermission.Demand addr 0x22f7b18 size 0x4 virtual true final true
   inline void System_Security_IPermission_Demand();
 
   // Ctor Parameters [CppParam { name: "", ty: "CodeAccessPermission", modifiers: "&&", def_value: None }]

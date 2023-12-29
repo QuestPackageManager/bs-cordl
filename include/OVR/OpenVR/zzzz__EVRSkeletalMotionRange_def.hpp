@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRSkeletalMotionRange);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8606))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9375))
 // CS Name: ::OVR.OpenVR::EVRSkeletalMotionRange
 struct CORDL_TYPE EVRSkeletalMotionRange {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRSkeletalMotionRange, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::EVRSkeletalMotionRange, value__) == 0x0, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRSkeletalMotionRange, "OVR.OpenVR", "EVRSkeletalMotionRange");

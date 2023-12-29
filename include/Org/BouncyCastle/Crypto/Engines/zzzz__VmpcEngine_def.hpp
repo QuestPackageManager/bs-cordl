@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VmpcEngine)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IStreamCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IStreamCipher;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::VmpcEngine);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(882))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::VmpcEngine*
 class CORDL_TYPE VmpcEngine : public ::System::Object {
@@ -79,27 +79,27 @@ public:
 
   constexpr void __set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_AlgorithmName addr 0xef4120 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xe7ef4c size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0xef4160 size 0x198 virtual true final false
+  /// @brief Method Init addr 0xe7ef8c size 0x198 virtual true final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method InitKey addr 0xef42f8 size 0x1fc virtual true final false
+  /// @brief Method InitKey addr 0xe7f124 size 0x1fc virtual true final false
   inline void InitKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> ivBytes);
 
-  /// @brief Method ProcessBytes addr 0xef44f4 size 0x1c0 virtual true final false
+  /// @brief Method ProcessBytes addr 0xe7f320 size 0x1c0 virtual true final false
   inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xef46b4 size 0x10 virtual true final false
+  /// @brief Method Reset addr 0xe7f4e0 size 0x10 virtual true final false
   inline void Reset();
 
-  /// @brief Method ReturnByte addr 0xef46c4 size 0xc4 virtual true final false
+  /// @brief Method ReturnByte addr 0xe7f4f0 size 0xc4 virtual true final false
   inline uint8_t ReturnByte(uint8_t input);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::VmpcEngine* New_ctor();
 
-  /// @brief Method .ctor addr 0xef4788 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0xe7f5b4 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VmpcEngine", modifiers: "&&", def_value: None }]
@@ -135,6 +135,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::VmpcEngine, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::VmpcEngine, ___n) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::VmpcEngine, ___P) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::VmpcEngine, ___s) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::VmpcEngine, ___workingIV) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::VmpcEngine, ___workingKey) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::VmpcEngine);

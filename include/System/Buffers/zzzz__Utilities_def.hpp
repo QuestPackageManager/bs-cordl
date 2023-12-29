@@ -15,16 +15,16 @@ MARK_REF_PTR_T(::System::Buffers::Utilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Buffers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3890))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3878))
 // CS Name: ::System.Buffers::Utilities*
 class CORDL_TYPE Utilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SelectBucketIndex addr 0x258c5fc size 0x7c virtual false final false
+  /// @brief Method SelectBucketIndex addr 0x24310a0 size 0x7c virtual false final false
   static inline int32_t SelectBucketIndex(int32_t bufferSize);
 
-  /// @brief Method GetMaxSizeForBucket addr 0x258c678 size 0xc virtual false final false
+  /// @brief Method GetMaxSizeForBucket addr 0x243111c size 0xc virtual false final false
   static inline int32_t GetMaxSizeForBucket(int32_t binIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "Utilities", modifiers: "&&", def_value: None }]

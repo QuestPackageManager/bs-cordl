@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HFLayerType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9951))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9878))
 // CS Name: ::HoudiniEngineUnity::HFLayerType
 struct CORDL_TYPE HFLayerType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HFLayerType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HFLayerType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HFLayerType, "HoudiniEngineUnity", "HFLayerType");

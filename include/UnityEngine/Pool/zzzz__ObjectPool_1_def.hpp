@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectPool_1)
+namespace UnityEngine::Pool {
+template <typename T> class IObjectPool_1;
+}
 namespace System {
 template <typename TResult> class Func_1;
 }
@@ -13,16 +16,13 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::Pool {
-template <typename T> class IObjectPool_1;
-}
-namespace UnityEngine::Pool {
 template <typename T> struct PooledObject_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::Pool {
@@ -36,8 +36,8 @@ namespace UnityEngine::Pool {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10446))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10368))
 // CS Name: ::UnityEngine.Pool::ObjectPool`1<T>*
 class CORDL_TYPE ObjectPool_1 : public ::System::Object {
 public:

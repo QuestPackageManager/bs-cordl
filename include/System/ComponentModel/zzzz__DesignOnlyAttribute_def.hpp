@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::ComponentModel::DesignOnlyAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9389))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8226))
 // CS Name: ::System.ComponentModel::DesignOnlyAttribute*
 class CORDL_TYPE DesignOnlyAttribute : public ::System::Attribute {
 public:
@@ -58,19 +58,19 @@ public:
 
   static inline ::System::ComponentModel::DesignOnlyAttribute* New_ctor(bool isDesignOnly);
 
-  /// @brief Method .ctor addr 0x29043e4 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x27863bc size 0x28 virtual false final false
   inline void _ctor(bool isDesignOnly);
 
-  /// @brief Method get_IsDesignOnly addr 0x290440c size 0x8 virtual false final false
+  /// @brief Method get_IsDesignOnly addr 0x27863e4 size 0x8 virtual false final false
   inline bool get_IsDesignOnly();
 
-  /// @brief Method Equals addr 0x2904414 size 0xe4 virtual true final false
+  /// @brief Method Equals addr 0x27863ec size 0xe4 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x29044f8 size 0x20 virtual true final false
+  /// @brief Method GetHashCode addr 0x27864d0 size 0x20 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute addr 0x2904518 size 0x80 virtual true final false
+  /// @brief Method IsDefaultAttribute addr 0x27864f0 size 0x80 virtual true final false
   inline bool IsDefaultAttribute();
 
   // Ctor Parameters [CppParam { name: "", ty: "DesignOnlyAttribute", modifiers: "&&", def_value: None }]
@@ -94,6 +94,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::DesignOnlyAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::DesignOnlyAttribute, ____IsDesignOnly_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::DesignOnlyAttribute);

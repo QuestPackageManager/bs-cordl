@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IContributeDynamicSink);
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3108))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3107))
 // CS Name: ::System.Runtime.Remoting.Contexts::IContributeDynamicSink*
 class CORDL_TYPE IContributeDynamicSink {
 public:

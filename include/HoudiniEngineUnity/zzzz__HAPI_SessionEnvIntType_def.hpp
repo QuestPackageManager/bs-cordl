@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_SessionEnvIntType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9719))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9646))
 // CS Name: ::HoudiniEngineUnity::HAPI_SessionEnvIntType
 struct CORDL_TYPE HAPI_SessionEnvIntType {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_SessionEnvIntType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_SessionEnvIntType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_SessionEnvIntType, "HoudiniEngineUnity", "HAPI_SessionEnvIntType");

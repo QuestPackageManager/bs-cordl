@@ -5,142 +5,142 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(PostLateUpdate)
 namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__TriggerEndOfFrameCallbacks;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__ParticleSystemEndUpdateAll;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__XRPostPresent;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__ScriptRunDelayedDynamicFrameRate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__VFXUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateLightProbeProxyVolumes;
-}
-namespace UnityEngine::PlayerLoop {
 struct __PostLateUpdate__BatchModeUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__ShaderHandleErrors;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__ThreadedLoadingDebug;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__ProfilerSynchronizeStats;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__ProfilerEndFrame;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateAllRenderers;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__PlayerSendFramePostPresent;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__XRPostLateUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__ClearImmediateRenderers;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateCaptureScreenshot;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__FinishFrameRendering;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__EndGraphicsJobsAfterScriptLateUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__GUIClearEvents;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__DirectorRenderImage;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__PlayerSendFrameStarted;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateResolution;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__XRPreEndFrame;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateCanvasRectTransform;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__ProcessWebSendMessages;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__ResetInputAxis;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__InputEndFrame;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__EnlightenRuntimeUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateSubstance;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__PresentAfterDraw;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__GraphicsWarmupPreloadedShaders;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateAllSkinnedMeshes;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__PhysicsSkinnedClothFinishUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__PhysicsSkinnedClothBeginUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__MemoryFrameMaintenance;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateRectTransform;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__PlayerUpdateCanvases;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PostLateUpdate__UpdateVideo;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__PlayerEmitCanvasGeometry;
+struct __PostLateUpdate__ShaderHandleErrors;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateCustomRenderTextures;
+struct __PostLateUpdate__VFXUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__SortingGroupsUpdate;
+struct __PostLateUpdate__DirectorRenderImage;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__FinishFrameRendering;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ResetInputAxis;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ProfilerSynchronizeStats;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__PlayerUpdateCanvases;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateAudio;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateAllSkinnedMeshes;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ClearImmediateRenderers;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PostLateUpdate__ExecuteGameCenterCallbacks;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__PlayerSendFrameComplete;
+struct __PostLateUpdate__InputEndFrame;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateVideoTextures;
+struct __PostLateUpdate__XRPreEndFrame;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__PhysicsSkinnedClothFinishUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PostLateUpdate__DirectorLateUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateAudio;
+struct __PostLateUpdate__UpdateRectTransform;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__EnlightenRuntimeUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__TriggerEndOfFrameCallbacks;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ScriptRunDelayedDynamicFrameRate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ThreadedLoadingDebug;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__XRPostLateUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__SortingGroupsUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateAllRenderers;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateSubstance;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__GUIClearEvents;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__PlayerSendFrameComplete;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateCaptureScreenshot;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ProfilerEndFrame;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__PresentAfterDraw;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateCustomRenderTextures;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__EndGraphicsJobsAfterScriptLateUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateVideoTextures;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__PlayerEmitCanvasGeometry;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateCanvasRectTransform;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ParticleSystemEndUpdateAll;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateResolution;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__PlayerSendFrameStarted;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ProcessWebSendMessages;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__XRPostPresent;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateLightProbeProxyVolumes;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__MemoryFrameMaintenance;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__GraphicsWarmupPreloadedShaders;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__PlayerSendFramePostPresent;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__PhysicsSkinnedClothBeginUpdate;
 }
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {
@@ -337,7 +337,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__XRPreEndFrame);
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10561))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10483))
 // CS Name: ::PostLateUpdate::PlayerSendFrameStarted
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__PlayerSendFrameStarted {
@@ -365,7 +365,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10562))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10484))
 // CS Name: ::PostLateUpdate::UpdateRectTransform
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateRectTransform {
@@ -393,7 +393,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10563))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10485))
 // CS Name: ::PostLateUpdate::UpdateCanvasRectTransform
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateCanvasRectTransform {
@@ -421,7 +421,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10564))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10486))
 // CS Name: ::PostLateUpdate::PlayerUpdateCanvases
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__PlayerUpdateCanvases {
@@ -449,7 +449,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10565))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10487))
 // CS Name: ::PostLateUpdate::UpdateAudio
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateAudio {
@@ -477,7 +477,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10566))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10488))
 // CS Name: ::PostLateUpdate::UpdateVideo
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateVideo {
@@ -505,7 +505,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10567))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10489))
 // CS Name: ::PostLateUpdate::DirectorLateUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__DirectorLateUpdate {
@@ -533,7 +533,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10568))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10490))
 // CS Name: ::PostLateUpdate::ScriptRunDelayedDynamicFrameRate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ScriptRunDelayedDynamicFrameRate {
@@ -561,7 +561,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10569))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10491))
 // CS Name: ::PostLateUpdate::VFXUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__VFXUpdate {
@@ -589,7 +589,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10570))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10492))
 // CS Name: ::PostLateUpdate::ParticleSystemEndUpdateAll
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ParticleSystemEndUpdateAll {
@@ -617,7 +617,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10571))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10493))
 // CS Name: ::PostLateUpdate::EndGraphicsJobsAfterScriptLateUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__EndGraphicsJobsAfterScriptLateUpdate {
@@ -645,7 +645,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10572))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10494))
 // CS Name: ::PostLateUpdate::UpdateSubstance
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateSubstance {
@@ -673,7 +673,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10573))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10495))
 // CS Name: ::PostLateUpdate::UpdateCustomRenderTextures
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateCustomRenderTextures {
@@ -701,7 +701,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10574))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10496))
 // CS Name: ::PostLateUpdate::XRPostLateUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__XRPostLateUpdate {
@@ -729,7 +729,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10575))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10497))
 // CS Name: ::PostLateUpdate::UpdateAllRenderers
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateAllRenderers {
@@ -757,7 +757,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10576))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10498))
 // CS Name: ::PostLateUpdate::UpdateLightProbeProxyVolumes
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateLightProbeProxyVolumes {
@@ -785,7 +785,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10577))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10499))
 // CS Name: ::PostLateUpdate::EnlightenRuntimeUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__EnlightenRuntimeUpdate {
@@ -813,7 +813,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10578))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10500))
 // CS Name: ::PostLateUpdate::UpdateAllSkinnedMeshes
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateAllSkinnedMeshes {
@@ -841,7 +841,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10579))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10501))
 // CS Name: ::PostLateUpdate::ProcessWebSendMessages
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ProcessWebSendMessages {
@@ -869,7 +869,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10580))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10502))
 // CS Name: ::PostLateUpdate::SortingGroupsUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__SortingGroupsUpdate {
@@ -897,7 +897,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10581))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10503))
 // CS Name: ::PostLateUpdate::UpdateVideoTextures
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateVideoTextures {
@@ -925,7 +925,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10582))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10504))
 // CS Name: ::PostLateUpdate::DirectorRenderImage
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__DirectorRenderImage {
@@ -953,7 +953,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10583))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10505))
 // CS Name: ::PostLateUpdate::PlayerEmitCanvasGeometry
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__PlayerEmitCanvasGeometry {
@@ -981,7 +981,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10584))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10506))
 // CS Name: ::PostLateUpdate::FinishFrameRendering
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__FinishFrameRendering {
@@ -1009,7 +1009,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10585))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10507))
 // CS Name: ::PostLateUpdate::BatchModeUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__BatchModeUpdate {
@@ -1037,7 +1037,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10586))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10508))
 // CS Name: ::PostLateUpdate::PlayerSendFrameComplete
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__PlayerSendFrameComplete {
@@ -1065,7 +1065,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10587))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10509))
 // CS Name: ::PostLateUpdate::UpdateCaptureScreenshot
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateCaptureScreenshot {
@@ -1093,7 +1093,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10588))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10510))
 // CS Name: ::PostLateUpdate::PresentAfterDraw
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__PresentAfterDraw {
@@ -1121,7 +1121,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10589))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10511))
 // CS Name: ::PostLateUpdate::ClearImmediateRenderers
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ClearImmediateRenderers {
@@ -1149,7 +1149,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10590))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10512))
 // CS Name: ::PostLateUpdate::XRPostPresent
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__XRPostPresent {
@@ -1177,7 +1177,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10591))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10513))
 // CS Name: ::PostLateUpdate::UpdateResolution
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateResolution {
@@ -1205,7 +1205,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10592))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10514))
 // CS Name: ::PostLateUpdate::InputEndFrame
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__InputEndFrame {
@@ -1233,7 +1233,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10593))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10515))
 // CS Name: ::PostLateUpdate::GUIClearEvents
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__GUIClearEvents {
@@ -1261,7 +1261,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10594))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10516))
 // CS Name: ::PostLateUpdate::ShaderHandleErrors
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ShaderHandleErrors {
@@ -1289,7 +1289,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10595))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10517))
 // CS Name: ::PostLateUpdate::ResetInputAxis
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ResetInputAxis {
@@ -1317,7 +1317,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10596))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10518))
 // CS Name: ::PostLateUpdate::ThreadedLoadingDebug
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ThreadedLoadingDebug {
@@ -1345,7 +1345,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10597))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10519))
 // CS Name: ::PostLateUpdate::ProfilerSynchronizeStats
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ProfilerSynchronizeStats {
@@ -1373,7 +1373,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10598))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10520))
 // CS Name: ::PostLateUpdate::MemoryFrameMaintenance
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__MemoryFrameMaintenance {
@@ -1401,7 +1401,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10599))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10521))
 // CS Name: ::PostLateUpdate::ExecuteGameCenterCallbacks
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ExecuteGameCenterCallbacks {
@@ -1429,7 +1429,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10600))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10522))
 // CS Name: ::PostLateUpdate::XRPreEndFrame
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__XRPreEndFrame {
@@ -1457,7 +1457,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10601))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10523))
 // CS Name: ::PostLateUpdate::ProfilerEndFrame
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ProfilerEndFrame {
@@ -1485,7 +1485,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10602))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10524))
 // CS Name: ::PostLateUpdate::GraphicsWarmupPreloadedShaders
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__GraphicsWarmupPreloadedShaders {
@@ -1513,7 +1513,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10603))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10525))
 // CS Name: ::PostLateUpdate::PlayerSendFramePostPresent
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__PlayerSendFramePostPresent {
@@ -1541,7 +1541,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10604))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10526))
 // CS Name: ::PostLateUpdate::PhysicsSkinnedClothBeginUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__PhysicsSkinnedClothBeginUpdate {
@@ -1569,7 +1569,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10605))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10527))
 // CS Name: ::PostLateUpdate::PhysicsSkinnedClothFinishUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__PhysicsSkinnedClothFinishUpdate {
@@ -1597,7 +1597,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10606))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10528))
 // CS Name: ::PostLateUpdate::TriggerEndOfFrameCallbacks
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__TriggerEndOfFrameCallbacks {
@@ -1625,7 +1625,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10607))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10529))
 // CS Name: ::UnityEngine.PlayerLoop::PostLateUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE PostLateUpdate {

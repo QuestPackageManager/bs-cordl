@@ -20,8 +20,8 @@ MARK_VAL_T(::OVR::OpenVR::ImuSample_t);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8649))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8702))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9418))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9471))
 // CS Name: ::OVR.OpenVR::ImuSample_t
 struct CORDL_TYPE ImuSample_t {
 public:
@@ -53,6 +53,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::ImuSample_t, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::ImuSample_t, fSampleTime) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::ImuSample_t, vAccel) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::ImuSample_t, vGyro) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::ImuSample_t, unOffScaleFlags) == 0x38, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::ImuSample_t, "OVR.OpenVR", "ImuSample_t");

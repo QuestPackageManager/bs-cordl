@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::AxisControl);
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6627))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6713))
 // CS Name: ::AxisControl::Clamp
 struct CORDL_TYPE __AxisControl__Clamp {
 public:
@@ -76,13 +76,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::__AxisControl__Clamp, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::__AxisControl__Clamp, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::Controls
 // Type: UnityEngine.InputSystem.Controls::AxisControl
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6216)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 391 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6627))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6628)) CS Name: ::UnityEngine.InputSystem.Controls::AxisControl*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6302)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6302), inst: 387 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6713))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6714)) CS Name: ::UnityEngine.InputSystem.Controls::AxisControl*
 class CORDL_TYPE AxisControl : public ::UnityEngine::InputSystem::InputControl_1<float_t> {
 public:
   // Declarations
@@ -187,30 +189,30 @@ public:
 
   constexpr void __set_scaleFactor(float_t value);
 
-  /// @brief Method Preprocess addr 0x2b09ab4 size 0xd4 virtual false final false
+  /// @brief Method Preprocess addr 0x2988d60 size 0xd4 virtual false final false
   inline float_t Preprocess(float_t value);
 
-  /// @brief Method Unpreprocess addr 0x2b09b88 size 0x4c virtual false final false
+  /// @brief Method Unpreprocess addr 0x2988e34 size 0x4c virtual false final false
   inline float_t Unpreprocess(float_t value);
 
   static inline ::UnityEngine::InputSystem::Controls::AxisControl* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b09bd4 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x2988e80 size 0x88 virtual false final false
   inline void _ctor();
 
-  /// @brief Method FinishSetup addr 0x2b09c5c size 0xa4 virtual true final false
+  /// @brief Method FinishSetup addr 0x2988f08 size 0xa4 virtual true final false
   inline void FinishSetup();
 
-  /// @brief Method ReadUnprocessedValueFromState addr 0x2b09d00 size 0x34 virtual true final false
+  /// @brief Method ReadUnprocessedValueFromState addr 0x2988fac size 0x34 virtual true final false
   inline float_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState addr 0x2b09d34 size 0x40 virtual true final false
+  /// @brief Method WriteValueIntoState addr 0x2988fe0 size 0x40 virtual true final false
   inline void WriteValueIntoState(float_t value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method CompareValue addr 0x2b09d74 size 0xec virtual true final false
+  /// @brief Method CompareValue addr 0x2989020 size 0xec virtual true final false
   inline bool CompareValue(::cordl_internals::Ptr<void> firstStatePtr, ::cordl_internals::Ptr<void> secondStatePtr);
 
-  /// @brief Method EvaluateMagnitude addr 0x2b09e60 size 0xe8 virtual true final false
+  /// @brief Method EvaluateMagnitude addr 0x298910c size 0xe8 virtual true final false
   inline float_t EvaluateMagnitude(::cordl_internals::Ptr<void> statePtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "AxisControl", modifiers: "&&", def_value: None }]
@@ -264,6 +266,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::AxisControl, 0x118>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::AxisControl, ___clamp) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::AxisControl, ___clampMin) == 0xf4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::AxisControl, ___clampMax) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::AxisControl, ___clampConstant) == 0xfc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::AxisControl, ___invert) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::AxisControl, ___normalize) == 0x101, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::AxisControl, ___normalizeMin) == 0x104, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::AxisControl, ___normalizeMax) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::AxisControl, ___normalizeZero) == 0x10c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::AxisControl, ___scale) == 0x110, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::AxisControl, ___scaleFactor) == 0x114, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Controls
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::__AxisControl__Clamp, "UnityEngine.InputSystem.Controls", "AxisControl/Clamp");

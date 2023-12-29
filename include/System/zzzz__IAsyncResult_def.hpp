@@ -3,11 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IAsyncResult)
-namespace System {
-class Object;
-}
 namespace System::Threading {
 class WaitHandle;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::IAsyncResult);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2409))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2407))
 // CS Name: ::System::IAsyncResult*
 class CORDL_TYPE IAsyncResult {
 public:

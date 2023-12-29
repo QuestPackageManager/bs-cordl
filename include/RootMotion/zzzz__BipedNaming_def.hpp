@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::RootMotion::BipedNaming);
 namespace RootMotion {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12484))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12412))
 // CS Name: ::BipedNaming::BoneType
 struct CORDL_TYPE __BipedNaming__BoneType {
 public:
@@ -98,13 +98,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::__BipedNaming__BoneType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::__BipedNaming__BoneType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace RootMotion
 // Type: ::BoneSide
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12485))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12413))
 // CS Name: ::BipedNaming::BoneSide
 struct CORDL_TYPE __BipedNaming__BoneSide {
 public:
@@ -150,13 +152,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::__BipedNaming__BoneSide, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::__BipedNaming__BoneSide, value__) == 0x0, "Offset mismatch!");
+
 } // namespace RootMotion
 // Type: RootMotion::BipedNaming
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12486))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12414))
 // CS Name: ::RootMotion::BipedNaming*
 class CORDL_TYPE BipedNaming : public ::System::Object {
 public:
@@ -291,80 +295,80 @@ public:
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_foot();
 
-  /// @brief Method GetBonesOfType addr 0x123637c size 0x1ac virtual false final false
+  /// @brief Method GetBonesOfType addr 0x11c6050 size 0x1ac virtual false final false
   static inline ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> GetBonesOfType(::RootMotion::__BipedNaming__BoneType boneType,
                                                                                                         ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> bones);
 
-  /// @brief Method GetBonesOfSide addr 0x1236640 size 0x1ac virtual false final false
+  /// @brief Method GetBonesOfSide addr 0x11c6314 size 0x1ac virtual false final false
   static inline ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> GetBonesOfSide(::RootMotion::__BipedNaming__BoneSide boneSide,
                                                                                                         ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> bones);
 
-  /// @brief Method GetBonesOfTypeAndSide addr 0x1236874 size 0x74 virtual false final false
+  /// @brief Method GetBonesOfTypeAndSide addr 0x11c6548 size 0x74 virtual false final false
   static inline ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>
   GetBonesOfTypeAndSide(::RootMotion::__BipedNaming__BoneType boneType, ::RootMotion::__BipedNaming__BoneSide boneSide, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> bones);
 
-  /// @brief Method GetFirstBoneOfTypeAndSide addr 0x12368e8 size 0x94 virtual false final false
+  /// @brief Method GetFirstBoneOfTypeAndSide addr 0x11c65bc size 0x94 virtual false final false
   static inline ::UnityEngine::Transform* GetFirstBoneOfTypeAndSide(::RootMotion::__BipedNaming__BoneType boneType, ::RootMotion::__BipedNaming__BoneSide boneSide,
                                                                     ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> bones);
 
-  /// @brief Method GetNamingMatch addr 0x123697c size 0x114 virtual false final false
+  /// @brief Method GetNamingMatch addr 0x11c6650 size 0x114 virtual false final false
   static inline ::UnityEngine::Transform* GetNamingMatch(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms,
                                                          ::ArrayW<::ArrayW<::StringW, ::Array<::StringW>*>, ::Array<::ArrayW<::StringW, ::Array<::StringW>*>>*> namings);
 
-  /// @brief Method GetBoneType addr 0x1236528 size 0x118 virtual false final false
+  /// @brief Method GetBoneType addr 0x11c61fc size 0x118 virtual false final false
   static inline ::RootMotion::__BipedNaming__BoneType GetBoneType(::StringW boneName);
 
-  /// @brief Method GetBoneSide addr 0x12367ec size 0x88 virtual false final false
+  /// @brief Method GetBoneSide addr 0x11c64c0 size 0x88 virtual false final false
   static inline ::RootMotion::__BipedNaming__BoneSide GetBoneSide(::StringW boneName);
 
-  /// @brief Method GetBone addr 0x12370b4 size 0x80 virtual false final false
+  /// @brief Method GetBone addr 0x11c6d88 size 0x80 virtual false final false
   static inline ::UnityEngine::Transform* GetBone(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms, ::RootMotion::__BipedNaming__BoneType boneType,
                                                   ::RootMotion::__BipedNaming__BoneSide boneSide,
                                                   ::ArrayW<::ArrayW<::StringW, ::Array<::StringW>*>, ::Array<::ArrayW<::StringW, ::Array<::StringW>*>>*> namings);
 
-  /// @brief Method isLeft addr 0x1236f0c size 0xd4 virtual false final false
+  /// @brief Method isLeft addr 0x11c6be0 size 0xd4 virtual false final false
   static inline bool isLeft(::StringW boneName);
 
-  /// @brief Method isRight addr 0x1236fe0 size 0xd4 virtual false final false
+  /// @brief Method isRight addr 0x11c6cb4 size 0xd4 virtual false final false
   static inline bool isRight(::StringW boneName);
 
-  /// @brief Method isSpine addr 0x1236b64 size 0x9c virtual false final false
+  /// @brief Method isSpine addr 0x11c6838 size 0x9c virtual false final false
   static inline bool isSpine(::StringW boneName);
 
-  /// @brief Method isHead addr 0x1236c00 size 0x9c virtual false final false
+  /// @brief Method isHead addr 0x11c68d4 size 0x9c virtual false final false
   static inline bool isHead(::StringW boneName);
 
-  /// @brief Method isArm addr 0x1236c9c size 0x9c virtual false final false
+  /// @brief Method isArm addr 0x11c6970 size 0x9c virtual false final false
   static inline bool isArm(::StringW boneName);
 
-  /// @brief Method isLeg addr 0x1236d38 size 0x9c virtual false final false
+  /// @brief Method isLeg addr 0x11c6a0c size 0x9c virtual false final false
   static inline bool isLeg(::StringW boneName);
 
-  /// @brief Method isTail addr 0x1236dd4 size 0x9c virtual false final false
+  /// @brief Method isTail addr 0x11c6aa8 size 0x9c virtual false final false
   static inline bool isTail(::StringW boneName);
 
-  /// @brief Method isEye addr 0x1236e70 size 0x9c virtual false final false
+  /// @brief Method isEye addr 0x11c6b44 size 0x9c virtual false final false
   static inline bool isEye(::StringW boneName);
 
-  /// @brief Method isTypeExclude addr 0x123729c size 0x60 virtual false final false
+  /// @brief Method isTypeExclude addr 0x11c6f70 size 0x60 virtual false final false
   static inline bool isTypeExclude(::StringW boneName);
 
-  /// @brief Method matchesNaming addr 0x1236a90 size 0xd4 virtual false final false
+  /// @brief Method matchesNaming addr 0x11c6764 size 0xd4 virtual false final false
   static inline bool matchesNaming(::StringW boneName, ::ArrayW<::StringW, ::Array<::StringW>*> namingConvention);
 
-  /// @brief Method excludesNaming addr 0x1237218 size 0x84 virtual false final false
+  /// @brief Method excludesNaming addr 0x11c6eec size 0x84 virtual false final false
   static inline bool excludesNaming(::StringW boneName, ::ArrayW<::StringW, ::Array<::StringW>*> namingConvention);
 
-  /// @brief Method matchesLastLetter addr 0x12372fc size 0xc0 virtual false final false
+  /// @brief Method matchesLastLetter addr 0x11c6fd0 size 0xc0 virtual false final false
   static inline bool matchesLastLetter(::StringW boneName, ::ArrayW<::StringW, ::Array<::StringW>*> namingConvention);
 
-  /// @brief Method LastLetterIs addr 0x12373bc size 0x34 virtual false final false
+  /// @brief Method LastLetterIs addr 0x11c7090 size 0x34 virtual false final false
   static inline bool LastLetterIs(::StringW boneName, ::StringW letter);
 
-  /// @brief Method firstLetter addr 0x12371a4 size 0x74 virtual false final false
+  /// @brief Method firstLetter addr 0x11c6e78 size 0x74 virtual false final false
   static inline ::StringW firstLetter(::StringW boneName);
 
-  /// @brief Method lastLetter addr 0x1237134 size 0x70 virtual false final false
+  /// @brief Method lastLetter addr 0x11c6e08 size 0x70 virtual false final false
   static inline ::StringW lastLetter(::StringW boneName);
 
   // Ctor Parameters [CppParam { name: "", ty: "BipedNaming", modifiers: "&&", def_value: None }]

@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Calendar)
 namespace System {
-struct DayOfWeek;
-}
-namespace System {
-struct DateTime;
+class ICloneable;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class ICloneable;
+struct DateTime;
+}
+namespace System {
+struct DayOfWeek;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Globalization::Calendar);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3696))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3684))
 // CS Name: ::System.Globalization::Calendar*
 class CORDL_TYPE Calendar : public ::System::Object {
 public:
@@ -79,33 +79,33 @@ public:
 
   constexpr void __set_twoDigitYearMax(int32_t value);
 
-  /// @brief Method get_MinSupportedDateTime addr 0x255e0b4 size 0x58 virtual true final false
+  /// @brief Method get_MinSupportedDateTime addr 0x2401dec size 0x58 virtual true final false
   inline ::System::DateTime get_MinSupportedDateTime();
 
-  /// @brief Method get_MaxSupportedDateTime addr 0x255e10c size 0x58 virtual true final false
+  /// @brief Method get_MaxSupportedDateTime addr 0x2401e44 size 0x58 virtual true final false
   inline ::System::DateTime get_MaxSupportedDateTime();
 
   static inline ::System::Globalization::Calendar* New_ctor();
 
-  /// @brief Method .ctor addr 0x255e164 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x2401e9c size 0x14 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_ID addr 0x255e178 size 0x8 virtual true final false
+  /// @brief Method get_ID addr 0x2401eb0 size 0x8 virtual true final false
   inline int32_t get_ID();
 
-  /// @brief Method get_BaseCalendarID addr 0x255e180 size 0xc virtual true final false
+  /// @brief Method get_BaseCalendarID addr 0x2401eb8 size 0xc virtual true final false
   inline int32_t get_BaseCalendarID();
 
-  /// @brief Method Clone addr 0x255e18c size 0x88 virtual true final false
+  /// @brief Method Clone addr 0x2401ec4 size 0x88 virtual true final false
   inline ::System::Object* Clone();
 
-  /// @brief Method VerifyWritable addr 0x255e214 size 0x74 virtual false final false
+  /// @brief Method VerifyWritable addr 0x2401f4c size 0x74 virtual false final false
   inline void VerifyWritable();
 
-  /// @brief Method SetReadOnlyState addr 0x255e288 size 0xc virtual false final false
+  /// @brief Method SetReadOnlyState addr 0x2401fc0 size 0xc virtual false final false
   inline void SetReadOnlyState(bool readOnly);
 
-  /// @brief Method get_CurrentEraValue addr 0x255e294 size 0x8c virtual true final false
+  /// @brief Method get_CurrentEraValue addr 0x2401fcc size 0x8c virtual true final false
   inline int32_t get_CurrentEraValue();
 
   /// @brief Method GetDayOfMonth addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -135,43 +135,43 @@ public:
   /// @brief Method GetYear addr 0x0 size 0xffffffffffffffff virtual true final false
   inline int32_t GetYear(::System::DateTime time);
 
-  /// @brief Method IsLeapYear addr 0x255e3c4 size 0x14 virtual true final false
+  /// @brief Method IsLeapYear addr 0x2402100 size 0x14 virtual true final false
   inline bool IsLeapYear(int32_t year);
 
   /// @brief Method IsLeapYear addr 0x0 size 0xffffffffffffffff virtual true final false
   inline bool IsLeapYear(int32_t year, int32_t era);
 
-  /// @brief Method ToDateTime addr 0x255e3d8 size 0x28 virtual true final false
+  /// @brief Method ToDateTime addr 0x2402114 size 0x28 virtual true final false
   inline ::System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond);
 
   /// @brief Method ToDateTime addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era);
 
-  /// @brief Method TryToDateTime addr 0x255e400 size 0x160 virtual true final false
+  /// @brief Method TryToDateTime addr 0x240213c size 0x160 virtual true final false
   inline bool TryToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era, ByRef<::System::DateTime> result);
 
-  /// @brief Method IsValidYear addr 0x255e560 size 0x84 virtual true final false
+  /// @brief Method IsValidYear addr 0x240229c size 0x84 virtual true final false
   inline bool IsValidYear(int32_t year, int32_t era);
 
-  /// @brief Method IsValidMonth addr 0x255e5e4 size 0x78 virtual true final false
+  /// @brief Method IsValidMonth addr 0x2402320 size 0x78 virtual true final false
   inline bool IsValidMonth(int32_t year, int32_t month, int32_t era);
 
-  /// @brief Method IsValidDay addr 0x255e65c size 0x80 virtual true final false
+  /// @brief Method IsValidDay addr 0x2402398 size 0x80 virtual true final false
   inline bool IsValidDay(int32_t year, int32_t month, int32_t day, int32_t era);
 
-  /// @brief Method get_TwoDigitYearMax addr 0x255e6dc size 0x8 virtual true final false
+  /// @brief Method get_TwoDigitYearMax addr 0x2402418 size 0x8 virtual true final false
   inline int32_t get_TwoDigitYearMax();
 
-  /// @brief Method set_TwoDigitYearMax addr 0x255e6e4 size 0x24 virtual true final false
+  /// @brief Method set_TwoDigitYearMax addr 0x2402420 size 0x24 virtual true final false
   inline void set_TwoDigitYearMax(int32_t value);
 
-  /// @brief Method ToFourDigitYear addr 0x255e708 size 0xfc virtual true final false
+  /// @brief Method ToFourDigitYear addr 0x2402444 size 0xfc virtual true final false
   inline int32_t ToFourDigitYear(int32_t year);
 
-  /// @brief Method TimeToTicks addr 0x255e804 size 0x1bc virtual false final false
+  /// @brief Method TimeToTicks addr 0x2402540 size 0x1bc virtual false final false
   static inline int64_t TimeToTicks(int32_t hour, int32_t minute, int32_t second, int32_t millisecond);
 
-  /// @brief Method GetSystemTwoDigitYearSetting addr 0x255e9c0 size 0x54 virtual false final false
+  /// @brief Method GetSystemTwoDigitYearSetting addr 0x24026fc size 0x54 virtual false final false
   static inline int32_t GetSystemTwoDigitYearSetting(int32_t CalID, int32_t defaultYearValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "Calendar", modifiers: "&&", def_value: None }]
@@ -318,6 +318,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::Calendar, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::Calendar, ___m_currentEraValue) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::Calendar, ___m_isReadOnly) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::Calendar, ___twoDigitYearMax) == 0x18, "Offset mismatch!");
 
 } // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::Calendar);

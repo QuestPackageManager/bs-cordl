@@ -2,6 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(INodePoseSyncStateManager_5)
 namespace GlobalNamespace {
@@ -26,19 +27,19 @@ namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14942))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4539))
 // CS Name: ::INodePoseSyncStateManager`5<TStateTable,TType,TState,TSerializable,TDeltaSerializable>*
 class CORDL_TYPE INodePoseSyncStateManager_5 {
 public:
   // Declarations
-  __declspec(property(get = get_syncTime)) int64_t syncTime;
+  __declspec(property(get = get_syncTime)) float_t syncTime;
 
   __declspec(property(get = get_connectedPlayerCount)) int32_t connectedPlayerCount;
 
   __declspec(property(get = get_localState))::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* localState;
 
   /// @brief Method get_syncTime addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline int64_t get_syncTime();
+  inline float_t get_syncTime();
 
   /// @brief Method get_connectedPlayerCount addr 0x0 size 0xffffffffffffffff virtual true final false
   inline int32_t get_connectedPlayerCount();

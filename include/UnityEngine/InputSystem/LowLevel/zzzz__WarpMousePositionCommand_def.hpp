@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(WarpMousePositionCommand)
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputDeviceCommand;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -29,8 +29,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::WarpMousePositionCommand);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(6471))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6491))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(6557))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6577))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::WarpMousePositionCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE WarpMousePositionCommand {
@@ -59,13 +59,13 @@ public:
 
   constexpr void __set_warpPositionInPlayerDisplaySpace(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_Type addr 0x2ae85f8 size 0x30 virtual false final false
+  /// @brief Method get_Type addr 0x29688b0 size 0x30 virtual false final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic addr 0x2ae8628 size 0x30 virtual true final true
+  /// @brief Method get_typeStatic addr 0x29688e0 size 0x30 virtual true final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create addr 0x2ae8658 size 0x50 virtual false final false
+  /// @brief Method Create addr 0x2968910 size 0x50 virtual false final false
   static inline ::UnityEngine::InputSystem::LowLevel::WarpMousePositionCommand Create(::UnityEngine::Vector2 position);
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name:

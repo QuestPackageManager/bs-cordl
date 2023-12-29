@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SchemaInfo)
-namespace System::Xml::Schema {
-class SchemaNotation;
-}
-namespace System::Xml::Schema {
-class SchemaElementDecl;
-}
 namespace System::Xml {
-class IDtdInfo;
-}
-namespace System::Xml::Schema {
-struct SchemaType;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class XmlQualifiedName;
 }
 namespace System::Xml {
 class IDtdEntityInfo;
 }
-namespace System::Xml::Schema {
-class SchemaEntity;
-}
 namespace System::Xml {
-class IDtdAttributeListInfo;
+class IDtdInfo;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Xml::Schema {
 class SchemaAttDef;
 }
 namespace System::Xml {
-class XmlQualifiedName;
+class IDtdAttributeListInfo;
+}
+namespace System::Xml::Schema {
+struct SchemaType;
+}
+namespace System::Xml::Schema {
+class SchemaElementDecl;
+}
+namespace System::Xml::Schema {
+class SchemaEntity;
+}
+namespace System::Xml::Schema {
+class SchemaNotation;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::SchemaInfo);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11708))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11706))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11636)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11634))
 // CS Name: ::System.Xml.Schema::SchemaInfo*
 class CORDL_TYPE SchemaInfo : public ::System::Object {
 public:
@@ -212,55 +212,55 @@ public:
 
   static inline ::System::Xml::Schema::SchemaInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x28c54ec size 0x1ac virtual false final false
+  /// @brief Method .ctor addr 0x27474c8 size 0x1ac virtual false final false
   inline void _ctor();
 
-  /// @brief Method set_DocTypeName addr 0x28c5698 size 0x8 virtual false final false
+  /// @brief Method set_DocTypeName addr 0x2747674 size 0x8 virtual false final false
   inline void set_DocTypeName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method set_InternalDtdSubset addr 0x28c56a0 size 0x8 virtual false final false
+  /// @brief Method set_InternalDtdSubset addr 0x274767c size 0x8 virtual false final false
   inline void set_InternalDtdSubset(::StringW value);
 
-  /// @brief Method get_ElementDecls addr 0x28c56a8 size 0x8 virtual false final false
+  /// @brief Method get_ElementDecls addr 0x2747684 size 0x8 virtual false final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* get_ElementDecls();
 
-  /// @brief Method get_UndeclaredElementDecls addr 0x28c56b0 size 0x8 virtual false final false
+  /// @brief Method get_UndeclaredElementDecls addr 0x274768c size 0x8 virtual false final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* get_UndeclaredElementDecls();
 
-  /// @brief Method get_GeneralEntities addr 0x28c56b8 size 0x80 virtual false final false
+  /// @brief Method get_GeneralEntities addr 0x2747694 size 0x80 virtual false final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* get_GeneralEntities();
 
-  /// @brief Method get_ParameterEntities addr 0x28c5738 size 0x80 virtual false final false
+  /// @brief Method get_ParameterEntities addr 0x2747714 size 0x80 virtual false final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* get_ParameterEntities();
 
-  /// @brief Method get_SchemaType addr 0x28c57b8 size 0x8 virtual false final false
+  /// @brief Method get_SchemaType addr 0x2747794 size 0x8 virtual false final false
   inline ::System::Xml::Schema::SchemaType get_SchemaType();
 
-  /// @brief Method set_SchemaType addr 0x28c57c0 size 0x8 virtual false final false
+  /// @brief Method set_SchemaType addr 0x274779c size 0x8 virtual false final false
   inline void set_SchemaType(::System::Xml::Schema::SchemaType value);
 
-  /// @brief Method get_Notations addr 0x28c57c8 size 0x80 virtual false final false
+  /// @brief Method get_Notations addr 0x27477a4 size 0x80 virtual false final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::Schema::SchemaNotation*>* get_Notations();
 
-  /// @brief Method Finish addr 0x28c5848 size 0x1b4 virtual false final false
+  /// @brief Method Finish addr 0x2747824 size 0x1b4 virtual false final false
   inline void Finish();
 
-  /// @brief Method System.Xml.IDtdInfo.get_HasDefaultAttributes addr 0x28c59fc size 0x8 virtual true final true
+  /// @brief Method System.Xml.IDtdInfo.get_HasDefaultAttributes addr 0x27479d8 size 0x8 virtual true final true
   inline bool System_Xml_IDtdInfo_get_HasDefaultAttributes();
 
-  /// @brief Method System.Xml.IDtdInfo.get_HasNonCDataAttributes addr 0x28c5a04 size 0x8 virtual true final true
+  /// @brief Method System.Xml.IDtdInfo.get_HasNonCDataAttributes addr 0x27479e0 size 0x8 virtual true final true
   inline bool System_Xml_IDtdInfo_get_HasNonCDataAttributes();
 
-  /// @brief Method System.Xml.IDtdInfo.LookupAttributeList addr 0x28c5a0c size 0xcc virtual true final true
+  /// @brief Method System.Xml.IDtdInfo.LookupAttributeList addr 0x27479e8 size 0xcc virtual true final true
   inline ::System::Xml::IDtdAttributeListInfo* System_Xml_IDtdInfo_LookupAttributeList(::StringW prefix, ::StringW localName);
 
-  /// @brief Method System.Xml.IDtdInfo.LookupEntity addr 0x28c5ad8 size 0xb8 virtual true final true
+  /// @brief Method System.Xml.IDtdInfo.LookupEntity addr 0x2747ab4 size 0xb8 virtual true final true
   inline ::System::Xml::IDtdEntityInfo* System_Xml_IDtdInfo_LookupEntity(::StringW name);
 
-  /// @brief Method System.Xml.IDtdInfo.get_Name addr 0x28c5b90 size 0x8 virtual true final true
+  /// @brief Method System.Xml.IDtdInfo.get_Name addr 0x2747b6c size 0x8 virtual true final true
   inline ::System::Xml::XmlQualifiedName* System_Xml_IDtdInfo_get_Name();
 
-  /// @brief Method System.Xml.IDtdInfo.get_InternalDtdSubset addr 0x28c5b98 size 0x8 virtual true final true
+  /// @brief Method System.Xml.IDtdInfo.get_InternalDtdSubset addr 0x2747b74 size 0x8 virtual true final true
   inline ::StringW System_Xml_IDtdInfo_get_InternalDtdSubset();
 
   // Ctor Parameters [CppParam { name: "", ty: "SchemaInfo", modifiers: "&&", def_value: None }]
@@ -320,6 +320,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::SchemaInfo, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::SchemaInfo, ___elementDecls) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::SchemaInfo, ___undeclaredElementDecls) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::SchemaInfo, ___generalEntities) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::SchemaInfo, ___parameterEntities) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::SchemaInfo, ___docTypeName) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::SchemaInfo, ___internalDtdSubset) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::SchemaInfo, ___hasNonCDataAttributes) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::SchemaInfo, ___hasDefaultAttributes) == 0x41, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::SchemaInfo, ___targetNamespaces) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::SchemaInfo, ___attributeDecls) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::SchemaInfo, ___schemaType) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::SchemaInfo, ___elementDeclsByType) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::SchemaInfo, ___notations) == 0x68, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::SchemaInfo);

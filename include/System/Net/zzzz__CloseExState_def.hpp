@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::CloseExState);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9104))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7941))
 // CS Name: ::System.Net::CloseExState
 struct CORDL_TYPE CloseExState {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::CloseExState, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::CloseExState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::CloseExState, "System.Net", "CloseExState");

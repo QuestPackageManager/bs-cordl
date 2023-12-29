@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Diagnostics::DebuggerBrowsableState);
 namespace System::Diagnostics {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3734))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3722))
 // CS Name: ::System.Diagnostics::DebuggerBrowsableState
 struct CORDL_TYPE DebuggerBrowsableState {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::DebuggerBrowsableState, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::DebuggerBrowsableState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Diagnostics
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::DebuggerBrowsableState, "System.Diagnostics", "DebuggerBrowsableState");

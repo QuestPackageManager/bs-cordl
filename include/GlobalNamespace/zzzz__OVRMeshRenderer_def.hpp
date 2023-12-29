@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRMeshRenderer)
 namespace UnityEngine {
-class Material;
-}
-namespace GlobalNamespace {
-struct __OVRMeshRenderer__ConfidenceBehavior;
-}
-namespace GlobalNamespace {
-struct __OVRMeshRenderer__MeshRendererData;
-}
-namespace GlobalNamespace {
-struct __OVRMeshRenderer__SystemGestureBehavior;
-}
-namespace UnityEngine {
 class SkinnedMeshRenderer;
-}
-namespace GlobalNamespace {
-class __OVRMeshRenderer__IOVRMeshRendererDataProvider;
 }
 namespace GlobalNamespace {
 class OVRMesh;
 }
 namespace GlobalNamespace {
+class __OVRMeshRenderer__IOVRMeshRendererDataProvider;
+}
+namespace GlobalNamespace {
+struct __OVRMeshRenderer__MeshRendererData;
+}
+namespace GlobalNamespace {
+struct __OVRMeshRenderer__ConfidenceBehavior;
+}
+namespace GlobalNamespace {
+struct __OVRMeshRenderer__SystemGestureBehavior;
+}
+namespace GlobalNamespace {
 class OVRSkeleton;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,7 +58,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRMeshRenderer__MeshRendererData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8128))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8910))
 // CS Name: ::OVRMeshRenderer::IOVRMeshRendererDataProvider*
 class CORDL_TYPE __OVRMeshRenderer__IOVRMeshRendererDataProvider {
 public:
@@ -83,7 +83,7 @@ public:
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8129))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8911))
 // CS Name: ::OVRMeshRenderer::MeshRendererData
 struct CORDL_TYPE __OVRMeshRenderer__MeshRendererData {
 public:
@@ -94,22 +94,22 @@ public:
 
   __declspec(property(get = get_ShouldUseSystemGestureMaterial, put = set_ShouldUseSystemGestureMaterial)) bool ShouldUseSystemGestureMaterial;
 
-  /// @brief Method get_IsDataValid addr 0x27b1fa0 size 0x8 virtual false final false
+  /// @brief Method get_IsDataValid addr 0x263d240 size 0x8 virtual false final false
   inline bool get_IsDataValid();
 
-  /// @brief Method set_IsDataValid addr 0x27b1fa8 size 0xc virtual false final false
+  /// @brief Method set_IsDataValid addr 0x263d248 size 0xc virtual false final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method get_IsDataHighConfidence addr 0x27b1fb4 size 0x8 virtual false final false
+  /// @brief Method get_IsDataHighConfidence addr 0x263d254 size 0x8 virtual false final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method set_IsDataHighConfidence addr 0x27b1fbc size 0xc virtual false final false
+  /// @brief Method set_IsDataHighConfidence addr 0x263d25c size 0xc virtual false final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method get_ShouldUseSystemGestureMaterial addr 0x27b1fc8 size 0x8 virtual false final false
+  /// @brief Method get_ShouldUseSystemGestureMaterial addr 0x263d268 size 0x8 virtual false final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
-  /// @brief Method set_ShouldUseSystemGestureMaterial addr 0x27b1fd0 size 0xc virtual false final false
+  /// @brief Method set_ShouldUseSystemGestureMaterial addr 0x263d270 size 0xc virtual false final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
   // Ctor Parameters [CppParam { name: "_IsDataValid_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_IsDataHighConfidence_k__BackingField", ty: "bool", modifiers:
@@ -137,13 +137,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRMeshRenderer__MeshRendererData, 0x3>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRMeshRenderer__MeshRendererData, _IsDataValid_k__BackingField) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRMeshRenderer__MeshRendererData, _IsDataHighConfidence_k__BackingField) == 0x1, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRMeshRenderer__MeshRendererData, _ShouldUseSystemGestureMaterial_k__BackingField) == 0x2, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ConfidenceBehavior
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8130))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8912))
 // CS Name: ::OVRMeshRenderer::ConfidenceBehavior
 struct CORDL_TYPE __OVRMeshRenderer__ConfidenceBehavior {
 public:
@@ -185,13 +191,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SystemGestureBehavior
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8131))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8913))
 // CS Name: ::OVRMeshRenderer::SystemGestureBehavior
 struct CORDL_TYPE __OVRMeshRenderer__SystemGestureBehavior {
 public:
@@ -233,13 +241,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OVRMeshRenderer
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8130)), TypeDefinitionIndex(TypeDefinitionIndex(8131)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8132))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8912)), TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(8913))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8914))
 // CS Name: ::OVRMeshRenderer*
 class CORDL_TYPE OVRMeshRenderer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -368,48 +378,48 @@ public:
 
   constexpr void __set__ShouldUseSystemGestureMaterial_k__BackingField(bool value);
 
-  /// @brief Method get_IsInitialized addr 0x27b1570 size 0x8 virtual false final false
+  /// @brief Method get_IsInitialized addr 0x263c810 size 0x8 virtual false final false
   inline bool get_IsInitialized();
 
-  /// @brief Method set_IsInitialized addr 0x27b1578 size 0xc virtual false final false
+  /// @brief Method set_IsInitialized addr 0x263c818 size 0xc virtual false final false
   inline void set_IsInitialized(bool value);
 
-  /// @brief Method get_IsDataValid addr 0x27b1584 size 0x8 virtual false final false
+  /// @brief Method get_IsDataValid addr 0x263c824 size 0x8 virtual false final false
   inline bool get_IsDataValid();
 
-  /// @brief Method set_IsDataValid addr 0x27b158c size 0xc virtual false final false
+  /// @brief Method set_IsDataValid addr 0x263c82c size 0xc virtual false final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method get_IsDataHighConfidence addr 0x27b1598 size 0x8 virtual false final false
+  /// @brief Method get_IsDataHighConfidence addr 0x263c838 size 0x8 virtual false final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method set_IsDataHighConfidence addr 0x27b15a0 size 0xc virtual false final false
+  /// @brief Method set_IsDataHighConfidence addr 0x263c840 size 0xc virtual false final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method get_ShouldUseSystemGestureMaterial addr 0x27b15ac size 0x8 virtual false final false
+  /// @brief Method get_ShouldUseSystemGestureMaterial addr 0x263c84c size 0x8 virtual false final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
-  /// @brief Method set_ShouldUseSystemGestureMaterial addr 0x27b15b4 size 0xc virtual false final false
+  /// @brief Method set_ShouldUseSystemGestureMaterial addr 0x263c854 size 0xc virtual false final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
-  /// @brief Method Awake addr 0x27b15c0 size 0x104 virtual false final false
+  /// @brief Method Awake addr 0x263c860 size 0x104 virtual false final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x27b16c4 size 0x9c virtual false final false
+  /// @brief Method Start addr 0x263c964 size 0x9c virtual false final false
   inline void Start();
 
-  /// @brief Method ShouldInitialize addr 0x27b1760 size 0xf0 virtual false final false
+  /// @brief Method ShouldInitialize addr 0x263ca00 size 0xf0 virtual false final false
   inline bool ShouldInitialize();
 
-  /// @brief Method Initialize addr 0x27b1850 size 0x4a0 virtual false final false
+  /// @brief Method Initialize addr 0x263caf0 size 0x4a0 virtual false final false
   inline void Initialize();
 
-  /// @brief Method Update addr 0x27b1cf0 size 0x2a0 virtual false final false
+  /// @brief Method Update addr 0x263cf90 size 0x2a0 virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::OVRMeshRenderer* New_ctor();
 
-  /// @brief Method .ctor addr 0x27b1f90 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x263d230 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRMeshRenderer", modifiers: "&&", def_value: None }]
@@ -466,6 +476,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRMeshRenderer, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRMeshRenderer, ____dataProvider) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRMeshRenderer, ____ovrMesh) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRMeshRenderer, ____ovrSkeleton) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRMeshRenderer, ____confidenceBehavior) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRMeshRenderer, ____systemGestureBehavior) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRMeshRenderer, ____systemGestureMaterial) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRMeshRenderer, ____originalMaterial) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRMeshRenderer, ____skinnedMeshRenderer) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRMeshRenderer, ____IsInitialized_k__BackingField) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRMeshRenderer, ____IsDataValid_k__BackingField) == 0x51, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRMeshRenderer, ____IsDataHighConfidence_k__BackingField) == 0x52, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRMeshRenderer, ____ShouldUseSystemGestureMaterial_k__BackingField) == 0x53, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior, "", "OVRMeshRenderer/ConfidenceBehavior");

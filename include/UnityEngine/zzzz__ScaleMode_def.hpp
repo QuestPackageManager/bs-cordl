@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ScaleMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14596))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14813))
 // CS Name: ::UnityEngine::ScaleMode
 struct CORDL_TYPE ScaleMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ScaleMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ScaleMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ScaleMode, "UnityEngine", "ScaleMode");

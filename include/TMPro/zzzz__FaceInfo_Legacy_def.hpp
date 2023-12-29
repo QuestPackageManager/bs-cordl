@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::TMPro::FaceInfo_Legacy);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12357))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12285))
 // CS Name: ::TMPro::FaceInfo_Legacy*
 class CORDL_TYPE FaceInfo_Legacy : public ::System::Object {
 public:
@@ -214,7 +214,7 @@ public:
 
   static inline ::TMPro::FaceInfo_Legacy* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c10188 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a8b434 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FaceInfo_Legacy", modifiers: "&&", def_value: None }]
@@ -298,6 +298,48 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::FaceInfo_Legacy, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___Name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___PointSize) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___Scale) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___CharacterCount) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___LineHeight) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___Baseline) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___Ascender) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___CapHeight) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___Descender) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___CenterLine) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___SuperscriptOffset) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___SubscriptOffset) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___SubSize) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___Underline) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___UnderlineThickness) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___strikethrough) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___strikethroughThickness) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___TabWidth) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___Padding) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___AtlasWidth) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___AtlasHeight) == 0x64, "Offset mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::FaceInfo_Legacy);

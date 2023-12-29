@@ -13,68 +13,68 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FtpControlStream)
-namespace System {
-struct DateTime;
-}
 namespace System::Net {
-struct __CommandStream__PipelineInstruction;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::Net {
-struct TriState;
-}
-namespace System::Net {
-class TlsStream;
+class FtpWebRequest;
 }
 namespace System::Net {
 class __CommandStream__PipelineEntry;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Net::Sockets {
-class TcpClient;
 }
 namespace System::Net {
 class IPAddress;
 }
 namespace System {
-class WeakReference;
+class AsyncCallback;
+}
+namespace System::Net {
+class TlsStream;
+}
+namespace System::Net {
+struct __CommandStream__PipelineInstruction;
+}
+namespace System::Net {
+class __FtpControlStream____c__DisplayClass31_0;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System::Net {
-class __FtpControlStream____c__DisplayClass31_0;
+class IPEndPoint;
+}
+namespace System::Net {
+struct TriState;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System {
+struct DateTime;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System::Net::Sockets {
+class Socket;
 }
 namespace System::Net {
 class NetworkCredential;
 }
 namespace System::Net {
-class IPEndPoint;
+class WebRequest;
+}
+namespace System::Net {
+struct __FtpControlStream__GetPathOption;
+}
+namespace System::Net::Sockets {
+class TcpClient;
 }
 namespace System::Net {
 class ResponseDescription;
 }
-namespace System::Net {
-class WebRequest;
-}
-namespace System::Net {
-class FtpWebRequest;
-}
-namespace System::Net::Sockets {
-class Socket;
-}
 namespace System {
 class Uri;
 }
-namespace System::Net {
-struct __FtpControlStream__GetPathOption;
+namespace System {
+class WeakReference;
 }
 // Forward declare root types
 namespace System::Net {
@@ -95,7 +95,7 @@ MARK_REF_PTR_T(::System::Net::__FtpControlStream____c__DisplayClass31_0);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9040))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7877))
 // CS Name: ::FtpControlStream::GetPathOption
 struct CORDL_TYPE __FtpControlStream__GetPathOption {
 public:
@@ -141,13 +141,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__FtpControlStream__GetPathOption, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__FtpControlStream__GetPathOption, value__) == 0x0, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: ::<>c__DisplayClass31_0
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9041))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7878))
 // CS Name: ::FtpControlStream::<>c__DisplayClass31_0*
 class CORDL_TYPE __FtpControlStream____c__DisplayClass31_0 : public ::System::Object {
 public:
@@ -172,10 +174,10 @@ public:
 
   static inline ::System::Net::__FtpControlStream____c__DisplayClass31_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x29904dc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2812c6c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <PipelineCallback>b__0 addr 0x29934a8 size 0xf8 virtual false final false
+  /// @brief Method <PipelineCallback>b__0 addr 0x2815c38 size 0xf8 virtual false final false
   inline void _PipelineCallback_b__0(::System::IAsyncResult* ar);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FtpControlStream____c__DisplayClass31_0", modifiers: "&&", def_value: None }]
@@ -203,13 +205,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__FtpControlStream____c__DisplayClass31_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::System::Net::__FtpControlStream____c__DisplayClass31_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::__FtpControlStream____c__DisplayClass31_0, ___tlsStream) == 0x18, "Offset mismatch!");
+
 } // namespace System::Net
 // Type: System.Net::FtpControlStream
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(9062)), TypeDefinitionIndex(TypeDefinitionIndex(9036)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9039))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9042)) CS Name: ::System.Net::FtpControlStream*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(7899)), TypeDefinitionIndex(TypeDefinitionIndex(7873)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7876))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7879)) CS Name: ::System.Net::FtpControlStream*
 class CORDL_TYPE FtpControlStream : public ::System::Net::CommandStream {
 public:
   // Declarations
@@ -414,110 +420,110 @@ public:
 
   static inline ::System::AsyncCallback* getStaticF_s_SSLHandshakeCallback();
 
-  /// @brief Method get_Credentials addr 0x298ecdc size 0xa8 virtual false final false
+  /// @brief Method get_Credentials addr 0x281146c size 0xa8 virtual false final false
   inline ::System::Net::NetworkCredential* get_Credentials();
 
-  /// @brief Method set_Credentials addr 0x298ed84 size 0x80 virtual false final false
+  /// @brief Method set_Credentials addr 0x2811514 size 0x80 virtual false final false
   inline void set_Credentials(::System::Net::NetworkCredential* value);
 
   static inline ::System::Net::FtpControlStream* New_ctor(::System::Net::Sockets::TcpClient* client);
 
-  /// @brief Method .ctor addr 0x298ee04 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0x2811594 size 0x8c virtual false final false
   inline void _ctor(::System::Net::Sockets::TcpClient* client);
 
-  /// @brief Method AbortConnect addr 0x298ee90 size 0x8c virtual false final false
+  /// @brief Method AbortConnect addr 0x2811620 size 0x8c virtual false final false
   inline void AbortConnect();
 
-  /// @brief Method AcceptCallback addr 0x298ef1c size 0x368 virtual false final false
+  /// @brief Method AcceptCallback addr 0x28116ac size 0x368 virtual false final false
   static inline void AcceptCallback(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method ConnectCallback addr 0x298f318 size 0x1b0 virtual false final false
+  /// @brief Method ConnectCallback addr 0x2811aa8 size 0x1b0 virtual false final false
   static inline void ConnectCallback(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method SSLHandshakeCallback addr 0x298f4c8 size 0x1c4 virtual false final false
+  /// @brief Method SSLHandshakeCallback addr 0x2811c58 size 0x1c4 virtual false final false
   static inline void SSLHandshakeCallback(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method QueueOrCreateFtpDataStream addr 0x298f68c size 0x29c virtual false final false
+  /// @brief Method QueueOrCreateFtpDataStream addr 0x2811e1c size 0x29c virtual false final false
   inline ::System::Net::__CommandStream__PipelineInstruction QueueOrCreateFtpDataStream(ByRef<::System::IO::Stream*> stream);
 
-  /// @brief Method ClearState addr 0x298fc20 size 0x90 virtual true final false
+  /// @brief Method ClearState addr 0x28123b0 size 0x90 virtual true final false
   inline void ClearState();
 
-  /// @brief Method PipelineCallback addr 0x298fcb0 size 0x82c virtual true final false
+  /// @brief Method PipelineCallback addr 0x2812440 size 0x82c virtual true final false
   inline ::System::Net::__CommandStream__PipelineInstruction PipelineCallback(::System::Net::__CommandStream__PipelineEntry* entry, ::System::Net::ResponseDescription* response, bool timeout,
                                                                               ByRef<::System::IO::Stream*> stream);
 
-  /// @brief Method BuildCommandsList addr 0x2991504 size 0xdd8 virtual true final false
+  /// @brief Method BuildCommandsList addr 0x2813c94 size 0xdd8 virtual true final false
   inline ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> BuildCommandsList(::System::Net::WebRequest* req);
 
-  /// @brief Method QueueOrCreateDataConection addr 0x29904e4 size 0x664 virtual false final false
+  /// @brief Method QueueOrCreateDataConection addr 0x2812c74 size 0x664 virtual false final false
   inline ::System::Net::__CommandStream__PipelineInstruction QueueOrCreateDataConection(::System::Net::__CommandStream__PipelineEntry* entry, ::System::Net::ResponseDescription* response,
                                                                                         bool timeout, ByRef<::System::IO::Stream*> stream, ByRef<bool> isSocketReady);
 
-  /// @brief Method GetPathInfo addr 0x29923ec size 0x194 virtual false final false
+  /// @brief Method GetPathInfo addr 0x2814b7c size 0x194 virtual false final false
   static inline void GetPathInfo(::System::Net::__FtpControlStream__GetPathOption pathOption, ::System::Uri* uri, ByRef<::StringW> path, ByRef<::StringW> directory, ByRef<::StringW> filename);
 
-  /// @brief Method FormatAddress addr 0x2992d34 size 0x124 virtual false final false
+  /// @brief Method FormatAddress addr 0x28154c4 size 0x124 virtual false final false
   inline ::StringW FormatAddress(::System::Net::IPAddress* address, int32_t Port);
 
-  /// @brief Method FormatAddressV6 addr 0x2992e58 size 0x110 virtual false final false
+  /// @brief Method FormatAddressV6 addr 0x28155e8 size 0x110 virtual false final false
   inline ::StringW FormatAddressV6(::System::Net::IPAddress* address, int32_t port);
 
-  /// @brief Method get_ContentLength addr 0x2992f68 size 0x8 virtual false final false
+  /// @brief Method get_ContentLength addr 0x28156f8 size 0x8 virtual false final false
   inline int64_t get_ContentLength();
 
-  /// @brief Method get_LastModified addr 0x2992f70 size 0x8 virtual false final false
+  /// @brief Method get_LastModified addr 0x2815700 size 0x8 virtual false final false
   inline ::System::DateTime get_LastModified();
 
-  /// @brief Method get_ResponseUri addr 0x2992f78 size 0x8 virtual false final false
+  /// @brief Method get_ResponseUri addr 0x2815708 size 0x8 virtual false final false
   inline ::System::Uri* get_ResponseUri();
 
-  /// @brief Method get_BannerMessage addr 0x2992f80 size 0x18 virtual false final false
+  /// @brief Method get_BannerMessage addr 0x2815710 size 0x18 virtual false final false
   inline ::StringW get_BannerMessage();
 
-  /// @brief Method get_WelcomeMessage addr 0x2992f98 size 0x18 virtual false final false
+  /// @brief Method get_WelcomeMessage addr 0x2815728 size 0x18 virtual false final false
   inline ::StringW get_WelcomeMessage();
 
-  /// @brief Method get_ExitMessage addr 0x2992fb0 size 0x18 virtual false final false
+  /// @brief Method get_ExitMessage addr 0x2815740 size 0x18 virtual false final false
   inline ::StringW get_ExitMessage();
 
-  /// @brief Method GetContentLengthFrom213Response addr 0x2990fb4 size 0x140 virtual false final false
+  /// @brief Method GetContentLengthFrom213Response addr 0x2813744 size 0x140 virtual false final false
   inline int64_t GetContentLengthFrom213Response(::StringW responseString);
 
-  /// @brief Method GetLastModifiedFrom213Response addr 0x29910f4 size 0x360 virtual false final false
+  /// @brief Method GetLastModifiedFrom213Response addr 0x2813884 size 0x360 virtual false final false
   inline ::System::DateTime GetLastModifiedFrom213Response(::StringW str);
 
-  /// @brief Method TryUpdateResponseUri addr 0x2990c40 size 0x358 virtual false final false
+  /// @brief Method TryUpdateResponseUri addr 0x28133d0 size 0x358 virtual false final false
   inline void TryUpdateResponseUri(::StringW str, ::System::Net::FtpWebRequest* request);
 
-  /// @brief Method TryUpdateContentLength addr 0x2990b48 size 0xec virtual false final false
+  /// @brief Method TryUpdateContentLength addr 0x28132d8 size 0xec virtual false final false
   inline void TryUpdateContentLength(::StringW str);
 
-  /// @brief Method GetLoginDirectory addr 0x2991454 size 0xb0 virtual false final false
+  /// @brief Method GetLoginDirectory addr 0x2813be4 size 0xb0 virtual false final false
   inline ::StringW GetLoginDirectory(::StringW str);
 
-  /// @brief Method GetPortV4 addr 0x2992900 size 0x1f4 virtual false final false
+  /// @brief Method GetPortV4 addr 0x2815090 size 0x1f4 virtual false final false
   inline int32_t GetPortV4(::StringW responseString);
 
-  /// @brief Method GetPortV6 addr 0x2992af4 size 0x1c0 virtual false final false
+  /// @brief Method GetPortV6 addr 0x2815284 size 0x1c0 virtual false final false
   inline int32_t GetPortV6(::StringW responseString);
 
-  /// @brief Method CreateFtpListenerSocket addr 0x2992590 size 0x17c virtual false final false
+  /// @brief Method CreateFtpListenerSocket addr 0x2814d20 size 0x17c virtual false final false
   inline void CreateFtpListenerSocket(::System::Net::FtpWebRequest* request);
 
-  /// @brief Method GetPortCommandLine addr 0x299270c size 0x1f4 virtual false final false
+  /// @brief Method GetPortCommandLine addr 0x2814e9c size 0x1f4 virtual false final false
   inline ::StringW GetPortCommandLine(::System::Net::FtpWebRequest* request);
 
-  /// @brief Method FormatFtpCommand addr 0x29922dc size 0x100 virtual false final false
+  /// @brief Method FormatFtpCommand addr 0x2814a6c size 0x100 virtual false final false
   inline ::StringW FormatFtpCommand(::StringW command, ::StringW parameter);
 
-  /// @brief Method CreateFtpDataSocket addr 0x2992cb4 size 0x80 virtual false final false
+  /// @brief Method CreateFtpDataSocket addr 0x2815444 size 0x80 virtual false final false
   inline ::System::Net::Sockets::Socket* CreateFtpDataSocket(::System::Net::FtpWebRequest* request, ::System::Net::Sockets::Socket* templateSocket);
 
-  /// @brief Method CheckValid addr 0x2992fc8 size 0x3b4 virtual true final false
+  /// @brief Method CheckValid addr 0x2815758 size 0x3b4 virtual true final false
   inline bool CheckValid(::System::Net::ResponseDescription* response, ByRef<int32_t> validThrough, ByRef<int32_t> completeLength);
 
-  /// @brief Method IsFtpDataStreamWriteable addr 0x298f928 size 0x84 virtual false final false
+  /// @brief Method IsFtpDataStreamWriteable addr 0x28120b8 size 0x84 virtual false final false
   inline ::System::Net::TriState IsFtpDataStreamWriteable();
 
   // Ctor Parameters [CppParam { name: "", ty: "FtpControlStream", modifiers: "&&", def_value: None }]
@@ -592,6 +598,42 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::FtpControlStream, 0x110>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ____dataSocket) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ____passiveEndPoint) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ____tlsStream) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ____bannerMessage) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ____welcomeMessage) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ____exitMessage) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ____credentials) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ____currentTypeSetting) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ____contentLength) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ____lastModified) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ____dataHandshakeStarted) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ____loginDirectory) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ____establishedServerDirectory) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ____requestedServerDirectory) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ____responseUri) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ____loginState) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ___StatusCode) == 0x104, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpControlStream, ___StatusLine) == 0x108, "Offset mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::__FtpControlStream__GetPathOption, "System.Net", "FtpControlStream/GetPathOption");

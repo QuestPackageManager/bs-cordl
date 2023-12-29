@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
 CORDL_MODULE_EXPORT(EnvironmentSceneSetupData)
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class IPreviewBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentSceneSetupData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15408))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6048))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13934))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6103))
 // CS Name: ::EnvironmentSceneSetupData*
 class CORDL_TYPE EnvironmentSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
@@ -56,7 +56,7 @@ public:
   static inline ::GlobalNamespace::EnvironmentSceneSetupData* New_ctor(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                                                                        bool hideBranding);
 
-  /// @brief Method .ctor addr 0x231c3d0 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x21c8778 size 0x3c virtual false final false
   inline void _ctor(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, bool hideBranding);
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentSceneSetupData", modifiers: "&&", def_value: None }]
@@ -86,6 +86,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentSceneSetupData, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentSceneSetupData, ___hideBranding) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentSceneSetupData, ___environmentInfo) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnvironmentSceneSetupData, ___previewBeatmapLevel) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentSceneSetupData);

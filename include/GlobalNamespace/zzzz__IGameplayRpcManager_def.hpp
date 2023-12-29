@@ -4,19 +4,33 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-#include <cstdint>
 CORDL_MODULE_EXPORT(IGameplayRpcManager)
-namespace System {
-class IDisposable;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace GlobalNamespace {
+class SliderSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettingsNetSerializable;
 }
+namespace GlobalNamespace {
+class NoteMissInfoNetSerializable;
+}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class NoteSpawnInfoNetSerializable;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+}
+namespace GlobalNamespace {
+class NoteCutInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettingsAtStartNetSerializable;
+}
+namespace System {
+class IDisposable;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
@@ -24,26 +38,11 @@ class MultiplayerLevelCompletionResults;
 namespace GlobalNamespace {
 class ObstacleSpawnInfoNetSerializable;
 }
-namespace GlobalNamespace {
-class PlayerSpecificSettingsAtStartNetSerializable;
-}
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
-namespace GlobalNamespace {
-class SliderSpawnInfoNetSerializable;
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace GlobalNamespace {
-class NoteMissInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class NoteSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class NoteCutInfoNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -56,7 +55,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IGameplayRpcManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12786))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12713))
 // CS Name: ::IGameplayRpcManager*
 class CORDL_TYPE IGameplayRpcManager {
 public:
@@ -109,10 +108,10 @@ public:
   inline void remove_getGameplaySongReadyEvent(::System::Action_1<::StringW>* value);
 
   /// @brief Method add_setSongStartTimeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void add_setSongStartTimeEvent(::System::Action_2<::StringW, int64_t>* value);
+  inline void add_setSongStartTimeEvent(::System::Action_2<::StringW, float_t>* value);
 
   /// @brief Method remove_setSongStartTimeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void remove_setSongStartTimeEvent(::System::Action_2<::StringW, int64_t>* value);
+  inline void remove_setSongStartTimeEvent(::System::Action_2<::StringW, float_t>* value);
 
   /// @brief Method add_requestReturnToMenuEvent addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void add_requestReturnToMenuEvent(::System::Action_1<::StringW>* value);
@@ -133,34 +132,34 @@ public:
   inline void remove_levelFinishedEvent(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
   /// @brief Method add_noteWasSpawnedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void add_noteWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
+  inline void add_noteWasSpawnedEvent(::System::Action_4<::StringW, float_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
 
   /// @brief Method remove_noteWasSpawnedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void remove_noteWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
+  inline void remove_noteWasSpawnedEvent(::System::Action_4<::StringW, float_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
 
   /// @brief Method add_obstacleWasSpawnedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void add_obstacleWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
+  inline void add_obstacleWasSpawnedEvent(::System::Action_4<::StringW, float_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
 
   /// @brief Method remove_obstacleWasSpawnedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void remove_obstacleWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
+  inline void remove_obstacleWasSpawnedEvent(::System::Action_4<::StringW, float_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
 
   /// @brief Method add_sliderWasSpawnedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void add_sliderWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
+  inline void add_sliderWasSpawnedEvent(::System::Action_4<::StringW, float_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
 
   /// @brief Method remove_sliderWasSpawnedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void remove_sliderWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
+  inline void remove_sliderWasSpawnedEvent(::System::Action_4<::StringW, float_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
 
   /// @brief Method add_noteWasCutEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void add_noteWasCutEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
+  inline void add_noteWasCutEvent(::System::Action_4<::StringW, float_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
 
   /// @brief Method remove_noteWasCutEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void remove_noteWasCutEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
+  inline void remove_noteWasCutEvent(::System::Action_4<::StringW, float_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
 
   /// @brief Method add_noteWasMissedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void add_noteWasMissedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
+  inline void add_noteWasMissedEvent(::System::Action_4<::StringW, float_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
 
   /// @brief Method remove_noteWasMissedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void remove_noteWasMissedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
+  inline void remove_noteWasMissedEvent(::System::Action_4<::StringW, float_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
 
   /// @brief Method NoteSpawned addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void NoteSpawned(float_t songTime, ::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfoNetSerializable);
@@ -190,7 +189,7 @@ public:
   inline void SetPlayerDidConnectLate(::StringW userId, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable, ::StringW sessionGameId);
 
   /// @brief Method SetSongStartTime addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void SetSongStartTime(int64_t startTime);
+  inline void SetSongStartTime(float_t startTime);
 
   /// @brief Method SetGameplaySongReady addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void SetGameplaySongReady();

@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PlayerSaveDataConvertor)
 namespace GlobalNamespace {
-struct NoteJumpDurationTypeSettings;
+struct ArcVisibilityType;
 }
 namespace GlobalNamespace {
-struct __PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
+struct __PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData;
+}
+namespace GlobalNamespace {
+struct NoteJumpDurationTypeSettings;
 }
 namespace GlobalNamespace {
 struct __PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData;
 }
 namespace GlobalNamespace {
-struct ArcVisibilityType;
-}
-namespace GlobalNamespace {
-struct __PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData;
+struct __PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
 }
 namespace GlobalNamespace {
 struct EnvironmentEffectsFilterPreset;
@@ -32,28 +32,28 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSaveDataConvertor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4657))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4769))
 // CS Name: ::PlayerSaveDataConvertor*
 class CORDL_TYPE PlayerSaveDataConvertor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRuntimeData addr 0x2372a5c size 0x1c virtual false final false
+  /// @brief Method GetRuntimeData addr 0x223af18 size 0x1c virtual false final false
   static inline ::GlobalNamespace::EnvironmentEffectsFilterPreset GetRuntimeData(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData saveData);
 
-  /// @brief Method GetSaveData addr 0x2372a78 size 0x1c virtual false final false
+  /// @brief Method GetSaveData addr 0x2238c40 size 0x1c virtual false final false
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData GetSaveData(::GlobalNamespace::EnvironmentEffectsFilterPreset data);
 
-  /// @brief Method GetRuntimeData addr 0x2372a94 size 0xc virtual false final false
+  /// @brief Method GetRuntimeData addr 0x223aefc size 0xc virtual false final false
   static inline ::GlobalNamespace::NoteJumpDurationTypeSettings GetRuntimeData(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData saveData);
 
-  /// @brief Method GetSaveData addr 0x2372aa0 size 0xc virtual false final false
+  /// @brief Method GetSaveData addr 0x2238c24 size 0xc virtual false final false
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData GetSaveData(::GlobalNamespace::NoteJumpDurationTypeSettings data);
 
-  /// @brief Method GetRuntimeData addr 0x2372aac size 0x10 virtual false final false
+  /// @brief Method GetRuntimeData addr 0x223af08 size 0x10 virtual false final false
   static inline ::GlobalNamespace::ArcVisibilityType GetRuntimeData(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData saveData);
 
-  /// @brief Method GetSaveData addr 0x2372abc size 0x10 virtual false final false
+  /// @brief Method GetSaveData addr 0x2238c30 size 0x10 virtual false final false
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData GetSaveData(::GlobalNamespace::ArcVisibilityType data);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataConvertor", modifiers: "&&", def_value: None }]

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenInjectMethod)
 namespace System {
-class Object;
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
-class IAsyncResult;
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -25,24 +25,24 @@ MARK_REF_PTR_T(::Zenject::ZenInjectMethod);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15713))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15663))
 // CS Name: ::Zenject::ZenInjectMethod*
 class CORDL_TYPE ZenInjectMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Zenject::ZenInjectMethod* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2eb9834 size 0x130 virtual false final false
+  /// @brief Method .ctor addr 0x2d51ab4 size 0x130 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2eb9964 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2d51be4 size 0x14 virtual true final false
   inline void Invoke(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method BeginInvoke addr 0x2eb9978 size 0x28 virtual true final false
+  /// @brief Method BeginInvoke addr 0x2d51bf8 size 0x28 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2eb99a0 size 0xc virtual true final false
+  /// @brief Method EndInvoke addr 0x2d51c20 size 0xc virtual true final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "ZenInjectMethod", modifiers: "&&", def_value: None }]

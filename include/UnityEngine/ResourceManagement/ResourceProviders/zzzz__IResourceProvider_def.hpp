@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IResourceProvider)
-namespace System {
-class Type;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
-}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProviderBehaviourFlags;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct ProvideHandle;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::IResourcePr
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14003))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14274))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::IResourceProvider*
 class CORDL_TYPE IResourceProvider {
 public:

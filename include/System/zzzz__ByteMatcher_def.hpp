@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ByteMatcher)
-namespace System {
-struct TermInfoStrings;
-}
 namespace System::Collections {
 class Hashtable;
+}
+namespace System {
+struct TermInfoStrings;
 }
 // Forward declare root types
 namespace System {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::ByteMatcher);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2623))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2621))
 // CS Name: ::System::ByteMatcher*
 class CORDL_TYPE ByteMatcher : public ::System::Object {
 public:
@@ -47,21 +47,21 @@ public:
 
   constexpr void __set_starts(::System::Collections::Hashtable* value);
 
-  /// @brief Method AddMapping addr 0x2604f80 size 0x120 virtual false final false
+  /// @brief Method AddMapping addr 0x24a9ff8 size 0x120 virtual false final false
   inline void AddMapping(::System::TermInfoStrings key, ::ArrayW<uint8_t, ::Array<uint8_t>*> val);
 
-  /// @brief Method Sort addr 0x26050a0 size 0x4 virtual false final false
+  /// @brief Method Sort addr 0x24aa118 size 0x4 virtual false final false
   inline void Sort();
 
-  /// @brief Method StartsWith addr 0x2601fa4 size 0x88 virtual false final false
+  /// @brief Method StartsWith addr 0x24a701c size 0x88 virtual false final false
   inline bool StartsWith(int32_t c);
 
-  /// @brief Method Match addr 0x260202c size 0x48c virtual false final false
+  /// @brief Method Match addr 0x24a70a4 size 0x48c virtual false final false
   inline ::System::TermInfoStrings Match(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t offset, int32_t length, ByRef<int32_t> used);
 
   static inline ::System::ByteMatcher* New_ctor();
 
-  /// @brief Method .ctor addr 0x2604eb8 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x24a9f30 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ByteMatcher", modifiers: "&&", def_value: None }]
@@ -88,6 +88,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ByteMatcher, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::ByteMatcher, ___map) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::ByteMatcher, ___starts) == 0x18, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::ByteMatcher);

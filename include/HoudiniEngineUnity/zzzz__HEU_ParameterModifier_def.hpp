@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ParameterModifier)
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+struct __HEU_ParameterModifier__ModifierAction;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_ParameterModifier__ModifierAction;
+template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ParameterModifier);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9761))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9688))
 // CS Name: ::HEU_ParameterModifier::ModifierAction
 struct CORDL_TYPE __HEU_ParameterModifier__ModifierAction {
 public:
@@ -83,13 +83,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_ParameterModifier
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9761)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9762))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(9688))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9689))
 // CS Name: ::HoudiniEngineUnity::HEU_ParameterModifier*
 class CORDL_TYPE HEU_ParameterModifier : public ::System::Object {
 public:
@@ -153,16 +155,16 @@ public:
 
   constexpr void __set__intValue(int32_t value);
 
-  /// @brief Method GetNewModifier addr 0x2192d40 size 0x84 virtual false final false
+  /// @brief Method GetNewModifier addr 0x203c3a4 size 0x84 virtual false final false
   static inline ::HoudiniEngineUnity::HEU_ParameterModifier* GetNewModifier(::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction action, int32_t parameterIndex, int32_t instanceIndex,
                                                                             int32_t modifierValue);
 
-  /// @brief Method IsEquivalentTo addr 0x2192dcc size 0x28c virtual true final true
+  /// @brief Method IsEquivalentTo addr 0x203c430 size 0x28c virtual true final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterModifier* other);
 
   static inline ::HoudiniEngineUnity::HEU_ParameterModifier* New_ctor();
 
-  /// @brief Method .ctor addr 0x2192dc4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x203c428 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ParameterModifier", modifiers: "&&", def_value: None }]
@@ -201,6 +203,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_ParameterModifier, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterModifier, ____parameterIndex) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterModifier, ____action) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterModifier, ____instanceIndex) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterModifier, ____modifierValue) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterModifier, ____floatValue) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterModifier, ____intValue) == 0x24, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction, "HoudiniEngineUnity", "HEU_ParameterModifier/ModifierAction");

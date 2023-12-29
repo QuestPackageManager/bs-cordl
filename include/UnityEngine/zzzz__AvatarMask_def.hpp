@@ -20,27 +20,27 @@ MARK_REF_PTR_T(::UnityEngine::AvatarMask);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14856))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10128))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15086))
 // CS Name: ::UnityEngine::AvatarMask*
 class CORDL_TYPE AvatarMask : public ::UnityEngine::Object {
 public:
   // Declarations
   __declspec(property(get = get_transformCount)) int32_t transformCount;
 
-  /// @brief Method GetHumanoidBodyPartActive addr 0x2c8eee4 size 0x44 virtual false final false
+  /// @brief Method GetHumanoidBodyPartActive addr 0x2b29fbc size 0x44 virtual false final false
   inline bool GetHumanoidBodyPartActive(::UnityEngine::AvatarMaskBodyPart index);
 
-  /// @brief Method get_transformCount addr 0x2c8ef28 size 0x3c virtual false final false
+  /// @brief Method get_transformCount addr 0x2b2a000 size 0x3c virtual false final false
   inline int32_t get_transformCount();
 
-  /// @brief Method GetTransformPath addr 0x2c8ef64 size 0x44 virtual false final false
+  /// @brief Method GetTransformPath addr 0x2b2a03c size 0x44 virtual false final false
   inline ::StringW GetTransformPath(int32_t index);
 
-  /// @brief Method GetTransformWeight addr 0x2c8efa8 size 0x44 virtual false final false
+  /// @brief Method GetTransformWeight addr 0x2b2a080 size 0x44 virtual false final false
   inline float_t GetTransformWeight(int32_t index);
 
-  /// @brief Method GetTransformActive addr 0x2c8efec size 0x54 virtual false final false
+  /// @brief Method GetTransformActive addr 0x2b2a0c4 size 0x54 virtual false final false
   inline bool GetTransformActive(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarMask", modifiers: "&&", def_value: None }]

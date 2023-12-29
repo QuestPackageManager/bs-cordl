@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AvatarTarget);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14870))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15097))
 // CS Name: ::UnityEngine::AvatarTarget
 struct CORDL_TYPE AvatarTarget {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AvatarTarget, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AvatarTarget, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AvatarTarget, "UnityEngine", "AvatarTarget");

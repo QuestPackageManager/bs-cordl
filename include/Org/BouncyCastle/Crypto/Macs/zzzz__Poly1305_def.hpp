@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Poly1305)
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Macs::Poly1305);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Macs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(945))
 // CS Name: ::Org.BouncyCastle.Crypto.Macs::Poly1305*
 class CORDL_TYPE Poly1305 : public ::System::Object {
@@ -237,42 +237,42 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Macs::Poly1305* New_ctor();
 
-  /// @brief Method .ctor addr 0xf0fb24 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0xe9a944 size 0x74 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Macs::Poly1305* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method .ctor addr 0xf0fb98 size 0x14c virtual false final false
+  /// @brief Method .ctor addr 0xe9a9b8 size 0x14c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method Init addr 0xf0fce4 size 0x19c virtual true final true
+  /// @brief Method Init addr 0xe9ab04 size 0x19c virtual true final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method SetKey addr 0xf0fe80 size 0x344 virtual false final false
+  /// @brief Method SetKey addr 0xe9aca0 size 0x344 virtual false final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method get_AlgorithmName addr 0xf101d0 size 0xe8 virtual true final true
+  /// @brief Method get_AlgorithmName addr 0xe9aff0 size 0xe8 virtual true final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetMacSize addr 0xf102b8 size 0x8 virtual true final true
+  /// @brief Method GetMacSize addr 0xe9b0d8 size 0x8 virtual true final true
   inline int32_t GetMacSize();
 
-  /// @brief Method Update addr 0xf102c0 size 0x34 virtual true final true
+  /// @brief Method Update addr 0xe9b0e0 size 0x34 virtual true final true
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate addr 0xf102f4 size 0xe8 virtual true final true
+  /// @brief Method BlockUpdate addr 0xe9b114 size 0xe8 virtual true final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method ProcessBlock addr 0xf103dc size 0x21c virtual false final false
+  /// @brief Method ProcessBlock addr 0xe9b1fc size 0x21c virtual false final false
   inline void ProcessBlock();
 
-  /// @brief Method DoFinal addr 0xf10600 size 0x1e0 virtual true final true
+  /// @brief Method DoFinal addr 0xe9b420 size 0x1e0 virtual true final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xf101c4 size 0xc virtual true final true
+  /// @brief Method Reset addr 0xe9afe4 size 0xc virtual true final true
   inline void Reset();
 
-  /// @brief Method mul32x32_64 addr 0xf105f8 size 0x8 virtual false final false
+  /// @brief Method mul32x32_64 addr 0xe9b418 size 0x8 virtual false final false
   static inline uint64_t mul32x32_64(uint32_t i1, uint32_t i2);
 
   // Ctor Parameters [CppParam { name: "", ty: "Poly1305", modifiers: "&&", def_value: None }]
@@ -362,6 +362,50 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Macs::Poly1305, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___cipher) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___singleByte) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___r0) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___r1) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___r2) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___r3) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___r4) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___s1) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___s2) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___s3) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___s4) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___k0) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___k1) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___k2) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___k3) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___currentBlock) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___currentBlockOffset) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___h0) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___h1) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___h2) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___h3) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Macs::Poly1305, ___h4) == 0x74, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Macs
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Macs::Poly1305);

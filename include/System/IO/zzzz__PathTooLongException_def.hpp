@@ -21,25 +21,25 @@ MARK_REF_PTR_T(::System::IO::PathTooLongException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3565))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3568))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3560))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3563))
 // CS Name: ::System.IO::PathTooLongException*
 class CORDL_TYPE PathTooLongException : public ::System::IO::IOException {
 public:
   // Declarations
   static inline ::System::IO::PathTooLongException* New_ctor();
 
-  /// @brief Method .ctor addr 0x250020c size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x23a6540 size 0x5c virtual false final false
   inline void _ctor();
 
   static inline ::System::IO::PathTooLongException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x2500268 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x23a659c size 0x24 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::IO::PathTooLongException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x250028c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x23a65c0 size 0x8 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "PathTooLongException", modifiers: "&&", def_value: None }]

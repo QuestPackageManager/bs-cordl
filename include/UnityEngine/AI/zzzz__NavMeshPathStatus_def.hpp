@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AI::NavMeshPathStatus);
 namespace UnityEngine::AI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16114))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15968))
 // CS Name: ::UnityEngine.AI::NavMeshPathStatus
 struct CORDL_TYPE NavMeshPathStatus {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AI::NavMeshPathStatus, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AI::NavMeshPathStatus, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::AI
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AI::NavMeshPathStatus, "UnityEngine.AI", "NavMeshPathStatus");

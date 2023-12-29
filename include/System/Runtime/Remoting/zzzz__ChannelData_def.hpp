@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ChannelData)
 namespace System::Collections {
-class ArrayList;
+class Hashtable;
 }
 namespace System::Collections {
-class Hashtable;
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ChannelData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3066))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3065))
 // CS Name: ::System.Runtime.Remoting::ChannelData*
 class CORDL_TYPE ChannelData : public ::System::Object {
 public:
@@ -96,21 +96,21 @@ public:
 
   constexpr void __set__customProperties(::System::Collections::Hashtable* value);
 
-  /// @brief Method get_ServerProviders addr 0x24891dc size 0x6c virtual false final false
+  /// @brief Method get_ServerProviders addr 0x23316e8 size 0x6c virtual false final false
   inline ::System::Collections::ArrayList* get_ServerProviders();
 
-  /// @brief Method get_ClientProviders addr 0x248994c size 0x6c virtual false final false
+  /// @brief Method get_ClientProviders addr 0x2331e58 size 0x6c virtual false final false
   inline ::System::Collections::ArrayList* get_ClientProviders();
 
-  /// @brief Method get_CustomProperties addr 0x248d578 size 0x6c virtual false final false
+  /// @brief Method get_CustomProperties addr 0x2335a84 size 0x6c virtual false final false
   inline ::System::Collections::Hashtable* get_CustomProperties();
 
-  /// @brief Method CopyFrom addr 0x248889c size 0x940 virtual false final false
+  /// @brief Method CopyFrom addr 0x2330da8 size 0x940 virtual false final false
   inline void CopyFrom(::System::Runtime::Remoting::ChannelData* other);
 
   static inline ::System::Runtime::Remoting::ChannelData* New_ctor();
 
-  /// @brief Method .ctor addr 0x248d4c4 size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0x23359d0 size 0xb4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ChannelData", modifiers: "&&", def_value: None }]
@@ -152,6 +152,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::ChannelData, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::ChannelData, ___Ref) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::ChannelData, ___Type) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::ChannelData, ___Id) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::ChannelData, ___DelayLoadAsClientChannel) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::ChannelData, ____serverProviders) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::ChannelData, ____clientProviders) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::ChannelData, ____customProperties) == 0x40, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting
 NEED_NO_BOX(::System::Runtime::Remoting::ChannelData);

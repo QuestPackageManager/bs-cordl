@@ -7,11 +7,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleSheetCache)
-namespace UnityEngine::UIElements::StyleSheets {
-struct __StyleSheetCache__SheetHandleKey;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine::UIElements {
+class StyleSheet;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 class __StyleSheetCache__SheetHandleKeyComparer;
@@ -19,8 +16,11 @@ class __StyleSheetCache__SheetHandleKeyComparer;
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
 }
-namespace UnityEngine::UIElements {
-class StyleSheet;
+namespace UnityEngine::UIElements::StyleSheets {
+struct __StyleSheetCache__SheetHandleKey;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::UIElements {
 class StyleRule;
@@ -47,12 +47,12 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandl
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7475))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7561))
 // CS Name: ::StyleSheetCache::SheetHandleKey
 struct CORDL_TYPE __StyleSheetCache__SheetHandleKey {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2ded160 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x2c85db0 size 0x34 virtual false final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheet* sheet, int32_t index);
 
   // Ctor Parameters [CppParam { name: "sheetInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
@@ -76,13 +76,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey, sheetInstanceID) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey, index) == 0x4, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements::StyleSheets
 // Type: ::SheetHandleKeyComparer
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7476))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7562))
 // CS Name: ::StyleSheetCache::SheetHandleKeyComparer*
 class CORDL_TYPE __StyleSheetCache__SheetHandleKeyComparer : public ::System::Object {
 public:
@@ -90,15 +94,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey>*() noexcept;
 
-  /// @brief Method Equals addr 0x2ded194 size 0x20 virtual true final true
+  /// @brief Method Equals addr 0x2c85de4 size 0x20 virtual true final true
   inline bool Equals(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey x, ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey y);
 
-  /// @brief Method GetHashCode addr 0x2ded1b4 size 0x40 virtual true final true
+  /// @brief Method GetHashCode addr 0x2c85e04 size 0x40 virtual true final true
   inline int32_t GetHashCode(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey key);
 
   static inline ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ded1f4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2c85e44 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StyleSheetCache__SheetHandleKeyComparer", modifiers: "&&", def_value: None }]
@@ -125,8 +129,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSh
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7477))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7563))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StyleSheetCache*
 class CORDL_TYPE StyleSheetCache : public ::System::Object {
 public:
@@ -155,15 +159,15 @@ public:
                                                              ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*>>*
   getStaticF_s_RulePropertyIdsCache();
 
-  /// @brief Method GetPropertyIds addr 0x2de619c size 0x1b0 virtual false final false
+  /// @brief Method GetPropertyIds addr 0x2c7fdec size 0x1b0 virtual false final false
   static inline ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*>
   GetPropertyIds(::UnityEngine::UIElements::StyleSheet* sheet, int32_t ruleIndex);
 
-  /// @brief Method GetPropertyIds addr 0x2debfac size 0xe0 virtual false final false
+  /// @brief Method GetPropertyIds addr 0x2c85bfc size 0xe0 virtual false final false
   static inline ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*>
   GetPropertyIds(::UnityEngine::UIElements::StyleRule* rule);
 
-  /// @brief Method GetPropertyId addr 0x2debeb8 size 0xf4 virtual false final false
+  /// @brief Method GetPropertyId addr 0x2c85b08 size 0xf4 virtual false final false
   static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId GetPropertyId(::UnityEngine::UIElements::StyleRule* rule, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleSheetCache", modifiers: "&&", def_value: None }]

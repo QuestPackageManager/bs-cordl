@@ -11,16 +11,10 @@ namespace GlobalNamespace {
 class ColorManager;
 }
 namespace GlobalNamespace {
-class LightWithIdManager;
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class IBpmController;
-}
-namespace GlobalNamespace {
-struct EnvironmentColorType;
+class LightColorBeatmapEventData;
 }
 namespace UnityEngine {
 struct Color;
@@ -29,16 +23,22 @@ namespace Tweening {
 class FloatTween;
 }
 namespace GlobalNamespace {
-class LightColorBeatmapEventData;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class LightWithIdManager;
 }
 namespace GlobalNamespace {
-class __LightColorGroupEffect__InitData;
+class IBpmController;
 }
 namespace Tweening {
 class SongTimeTweeningManager;
+}
+namespace GlobalNamespace {
+struct EnvironmentColorType;
+}
+namespace GlobalNamespace {
+class __LightColorGroupEffect__InitData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -54,8 +54,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightColorGroupEffect__InitData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4922))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5025))
 // CS Name: ::LightColorGroupEffect::InitData*
 class CORDL_TYPE __LightColorGroupEffect__InitData : public ::System::Object {
 public:
@@ -89,7 +89,7 @@ public:
 
   static inline ::GlobalNamespace::__LightColorGroupEffect__InitData* New_ctor(int32_t groupId, int32_t elementId, int32_t lightId);
 
-  /// @brief Method .ctor addr 0x23a8d44 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x2270b1c size 0x3c virtual false final false
   inline void _ctor(int32_t groupId, int32_t elementId, int32_t lightId);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LightColorGroupEffect__InitData", modifiers: "&&", def_value: None }]
@@ -120,13 +120,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LightColorGroupEffect__InitData, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LightColorGroupEffect__InitData, ___groupId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LightColorGroupEffect__InitData, ___elementId) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LightColorGroupEffect__InitData, ___lightId) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LightColorGroupEffect
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 162, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4923))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5026))
 // CS Name: ::LightColorGroupEffect*
 class CORDL_TYPE LightColorGroupEffect : public ::System::Object {
 public:
@@ -158,35 +164,29 @@ public:
   __declspec(property(get = __get__lightColorBeatmapEventCallbackWrapper,
                       put = __set__lightColorBeatmapEventCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _lightColorBeatmapEventCallbackWrapper;
 
-  /// @brief Field _fromColor, offset 0x50, size 0x10
-  __declspec(property(get = __get__fromColor, put = __set__fromColor))::UnityEngine::Color _fromColor;
-
-  /// @brief Field _toColor, offset 0x60, size 0x10
-  __declspec(property(get = __get__toColor, put = __set__toColor))::UnityEngine::Color _toColor;
-
-  /// @brief Field _alternativeFromColor, offset 0x70, size 0x10
-  __declspec(property(get = __get__alternativeFromColor, put = __set__alternativeFromColor))::UnityEngine::Color _alternativeFromColor;
-
-  /// @brief Field _alternativeToColor, offset 0x80, size 0x10
-  __declspec(property(get = __get__alternativeToColor, put = __set__alternativeToColor))::UnityEngine::Color _alternativeToColor;
-
-  /// @brief Field _fromStrobeFrequency, offset 0x90, size 0x4
+  /// @brief Field _fromStrobeFrequency, offset 0x50, size 0x4
   __declspec(property(get = __get__fromStrobeFrequency, put = __set__fromStrobeFrequency)) float_t _fromStrobeFrequency;
 
-  /// @brief Field _toStrobeFrequency, offset 0x94, size 0x4
+  /// @brief Field _toStrobeFrequency, offset 0x54, size 0x4
   __declspec(property(get = __get__toStrobeFrequency, put = __set__toStrobeFrequency)) float_t _toStrobeFrequency;
 
-  /// @brief Field _fromStrobeBrightness, offset 0x98, size 0x4
-  __declspec(property(get = __get__fromStrobeBrightness, put = __set__fromStrobeBrightness)) float_t _fromStrobeBrightness;
+  /// @brief Field _fromColor, offset 0x58, size 0x10
+  __declspec(property(get = __get__fromColor, put = __set__fromColor))::UnityEngine::Color _fromColor;
 
-  /// @brief Field _toStrobeBrightness, offset 0x9c, size 0x4
-  __declspec(property(get = __get__toStrobeBrightness, put = __set__toStrobeBrightness)) float_t _toStrobeBrightness;
+  /// @brief Field _toColor, offset 0x68, size 0x10
+  __declspec(property(get = __get__toColor, put = __set__toColor))::UnityEngine::Color _toColor;
 
-  /// @brief Field _strobeFade, offset 0xa0, size 0x1
-  __declspec(property(get = __get__strobeFade, put = __set__strobeFade)) bool _strobeFade;
+  /// @brief Field _alternativeFromColor, offset 0x78, size 0x10
+  __declspec(property(get = __get__alternativeFromColor, put = __set__alternativeFromColor))::UnityEngine::Color _alternativeFromColor;
 
-  /// @brief Field _usingBoostColors, offset 0xa1, size 0x1
+  /// @brief Field _alternativeToColor, offset 0x88, size 0x10
+  __declspec(property(get = __get__alternativeToColor, put = __set__alternativeToColor))::UnityEngine::Color _alternativeToColor;
+
+  /// @brief Field _usingBoostColors, offset 0x98, size 0x1
   __declspec(property(get = __get__usingBoostColors, put = __set__usingBoostColors)) bool _usingBoostColors;
+
+  /// @brief Field offColor, offset 0xffffffff, size 0x10
+  static __declspec(property(get = getStaticF_offColor, put = setStaticF_offColor))::UnityEngine::Color offColor;
 
   constexpr ::GlobalNamespace::ColorManager*& __get__colorManager();
 
@@ -236,6 +236,18 @@ public:
 
   constexpr void __set__lightColorBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
+  constexpr float_t& __get__fromStrobeFrequency();
+
+  constexpr float_t const& __get__fromStrobeFrequency() const;
+
+  constexpr void __set__fromStrobeFrequency(float_t value);
+
+  constexpr float_t& __get__toStrobeFrequency();
+
+  constexpr float_t const& __get__toStrobeFrequency() const;
+
+  constexpr void __set__toStrobeFrequency(float_t value);
+
   constexpr ::UnityEngine::Color& __get__fromColor();
 
   constexpr ::UnityEngine::Color const& __get__fromColor() const;
@@ -260,67 +272,41 @@ public:
 
   constexpr void __set__alternativeToColor(::UnityEngine::Color value);
 
-  constexpr float_t& __get__fromStrobeFrequency();
-
-  constexpr float_t const& __get__fromStrobeFrequency() const;
-
-  constexpr void __set__fromStrobeFrequency(float_t value);
-
-  constexpr float_t& __get__toStrobeFrequency();
-
-  constexpr float_t const& __get__toStrobeFrequency() const;
-
-  constexpr void __set__toStrobeFrequency(float_t value);
-
-  constexpr float_t& __get__fromStrobeBrightness();
-
-  constexpr float_t const& __get__fromStrobeBrightness() const;
-
-  constexpr void __set__fromStrobeBrightness(float_t value);
-
-  constexpr float_t& __get__toStrobeBrightness();
-
-  constexpr float_t const& __get__toStrobeBrightness() const;
-
-  constexpr void __set__toStrobeBrightness(float_t value);
-
-  constexpr bool& __get__strobeFade();
-
-  constexpr bool const& __get__strobeFade() const;
-
-  constexpr void __set__strobeFade(bool value);
-
   constexpr bool& __get__usingBoostColors();
 
   constexpr bool const& __get__usingBoostColors() const;
 
   constexpr void __set__usingBoostColors(bool value);
 
+  static inline void setStaticF_offColor(::UnityEngine::Color value);
+
+  static inline ::UnityEngine::Color getStaticF_offColor();
+
   static inline ::GlobalNamespace::LightColorGroupEffect* New_ctor(::GlobalNamespace::__LightColorGroupEffect__InitData* initData, ::GlobalNamespace::LightWithIdManager* lightManager,
                                                                    ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager,
                                                                    ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IBpmController* bpmController);
 
-  /// @brief Method .ctor addr 0x23a8070 size 0x35c virtual false final false
+  /// @brief Method .ctor addr 0x226fe34 size 0x36c virtual false final false
   inline void _ctor(::GlobalNamespace::__LightColorGroupEffect__InitData* initData, ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IBpmController* bpmController);
 
-  /// @brief Method Cleanup addr 0x23a83cc size 0x9c virtual false final false
+  /// @brief Method Cleanup addr 0x22701a0 size 0x9c virtual false final false
   inline void Cleanup();
 
-  /// @brief Method HandleColorChangeBeatmapEvent addr 0x23a8468 size 0x480 virtual false final false
+  /// @brief Method HandleColorChangeBeatmapEvent addr 0x227023c size 0x470 virtual false final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* currentEventData);
 
-  /// @brief Method UseBoostColors addr 0x23a8a0c size 0x180 virtual false final false
+  /// @brief Method UseBoostColors addr 0x22707b8 size 0x178 virtual false final false
   inline void UseBoostColors(bool useBoostColors);
 
-  /// @brief Method GetColor addr 0x23a8b8c size 0x34 virtual true final false
+  /// @brief Method GetColor addr 0x2270930 size 0x34 virtual true final false
   inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
-  /// @brief Method SetData addr 0x23a8bc0 size 0x184 virtual false final false
+  /// @brief Method SetData addr 0x2270964 size 0x170 virtual false final false
   inline void SetData(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor, float_t fromStrobeBeatFrequency,
-                      float_t toStrobeBeatFrequency, float_t fromStrobeBrightness, float_t toStrobeBrightness, bool strobeFade);
+                      float_t toStrobeBeatFrequency);
 
-  /// @brief Method SetColor addr 0x23a88e8 size 0x124 virtual false final false
+  /// @brief Method SetColor addr 0x22706ac size 0x10c virtual false final false
   inline void SetColor(float_t t);
 
   // Ctor Parameters [CppParam { name: "", ty: "LightColorGroupEffect", modifiers: "&&", def_value: None }]
@@ -361,40 +347,61 @@ public:
   /// @brief Field _lightColorBeatmapEventCallbackWrapper, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____lightColorBeatmapEventCallbackWrapper;
 
-  /// @brief Field _fromColor, offset: 0x50, size: 0x10, def value: None
-  ::UnityEngine::Color ____fromColor;
-
-  /// @brief Field _toColor, offset: 0x60, size: 0x10, def value: None
-  ::UnityEngine::Color ____toColor;
-
-  /// @brief Field _alternativeFromColor, offset: 0x70, size: 0x10, def value: None
-  ::UnityEngine::Color ____alternativeFromColor;
-
-  /// @brief Field _alternativeToColor, offset: 0x80, size: 0x10, def value: None
-  ::UnityEngine::Color ____alternativeToColor;
-
-  /// @brief Field _fromStrobeFrequency, offset: 0x90, size: 0x4, def value: None
+  /// @brief Field _fromStrobeFrequency, offset: 0x50, size: 0x4, def value: None
   float_t ____fromStrobeFrequency;
 
-  /// @brief Field _toStrobeFrequency, offset: 0x94, size: 0x4, def value: None
+  /// @brief Field _toStrobeFrequency, offset: 0x54, size: 0x4, def value: None
   float_t ____toStrobeFrequency;
 
-  /// @brief Field _fromStrobeBrightness, offset: 0x98, size: 0x4, def value: None
-  float_t ____fromStrobeBrightness;
+  /// @brief Field _fromColor, offset: 0x58, size: 0x10, def value: None
+  ::UnityEngine::Color ____fromColor;
 
-  /// @brief Field _toStrobeBrightness, offset: 0x9c, size: 0x4, def value: None
-  float_t ____toStrobeBrightness;
+  /// @brief Field _toColor, offset: 0x68, size: 0x10, def value: None
+  ::UnityEngine::Color ____toColor;
 
-  /// @brief Field _strobeFade, offset: 0xa0, size: 0x1, def value: None
-  bool ____strobeFade;
+  /// @brief Field _alternativeFromColor, offset: 0x78, size: 0x10, def value: None
+  ::UnityEngine::Color ____alternativeFromColor;
 
-  /// @brief Field _usingBoostColors, offset: 0xa1, size: 0x1, def value: None
+  /// @brief Field _alternativeToColor, offset: 0x88, size: 0x10, def value: None
+  ::UnityEngine::Color ____alternativeToColor;
+
+  /// @brief Field _usingBoostColors, offset: 0x98, size: 0x1, def value: None
   bool ____usingBoostColors;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightColorGroupEffect, 0xa8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightColorGroupEffect, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____colorManager) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____lightId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____lightManager) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____tweeningManager) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____beatmapCallbacksController) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____bpmController) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____floatTween) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____lightColorBeatmapEventCallbackWrapper) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____fromStrobeFrequency) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____toStrobeFrequency) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____fromColor) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____toColor) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____alternativeFromColor) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____alternativeToColor) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffect, ____usingBoostColors) == 0x98, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightColorGroupEffect);

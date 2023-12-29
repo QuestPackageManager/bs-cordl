@@ -11,22 +11,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerEnvironmentResizeController)
 namespace GlobalNamespace {
-class __MultiplayerEnvironmentResizeController__ResizeData;
+class BeatmapObjectSpawnCenter;
 }
-namespace System {
-class Action;
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 struct __MultiplayerEnvironmentResizeController__ResizeType;
 }
 namespace GlobalNamespace {
-class BeatmapObjectSpawnCenter;
+class __MultiplayerEnvironmentResizeController__ResizeData;
 }
 namespace GlobalNamespace {
 class MultiplayerCenterResizeController;
 }
-namespace UnityEngine {
-class Transform;
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerEnvironmentResizeController__Resi
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5204))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5308))
 // CS Name: ::MultiplayerEnvironmentResizeController::ResizeType
 struct CORDL_TYPE __MultiplayerEnvironmentResizeController__ResizeType {
 public:
@@ -96,13 +96,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ResizeData
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5204))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5205))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(5308))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5309))
 // CS Name: ::MultiplayerEnvironmentResizeController::ResizeData*
 class CORDL_TYPE __MultiplayerEnvironmentResizeController__ResizeData : public ::System::Object {
 public:
@@ -151,21 +153,21 @@ public:
 
   constexpr void __set__otherTransforms(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
 
-  /// @brief Method get_resizeType addr 0x224c89c size 0x8 virtual false final false
+  /// @brief Method get_resizeType addr 0x210b368 size 0x8 virtual false final false
   inline ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType get_resizeType();
 
-  /// @brief Method get_offset addr 0x224c8a4 size 0x8 virtual false final false
+  /// @brief Method get_offset addr 0x210b370 size 0x8 virtual false final false
   inline float_t get_offset();
 
-  /// @brief Method get_lights addr 0x224c8ac size 0x8 virtual false final false
+  /// @brief Method get_lights addr 0x210b378 size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*, ::Array<::GlobalNamespace::TubeBloomPrePassLight*>*> get_lights();
 
-  /// @brief Method get_otherTransforms addr 0x224c8b4 size 0x8 virtual false final false
+  /// @brief Method get_otherTransforms addr 0x210b380 size 0x8 virtual false final false
   inline ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> get_otherTransforms();
 
   static inline ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData* New_ctor();
 
-  /// @brief Method .ctor addr 0x224c8bc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x210b388 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerEnvironmentResizeController__ResizeData", modifiers: "&&", def_value: None }]
@@ -199,13 +201,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData, ____resizeType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData, ____offset) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData, ____lights) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData, ____otherTransforms) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MultiplayerEnvironmentResizeController
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 67, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5206))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5310))
 // CS Name: ::MultiplayerEnvironmentResizeController*
 class CORDL_TYPE MultiplayerEnvironmentResizeController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -291,36 +301,36 @@ public:
 
   constexpr void __set__spawnCenterDistanceFound(bool value);
 
-  /// @brief Method get_isResizingFinished addr 0x224c298 size 0x8 virtual false final false
+  /// @brief Method get_isResizingFinished addr 0x210ad64 size 0x8 virtual false final false
   inline bool get_isResizingFinished();
 
-  /// @brief Method add_resizingDidFinishEvent addr 0x224c2a0 size 0x9c virtual false final false
+  /// @brief Method add_resizingDidFinishEvent addr 0x210ad6c size 0x9c virtual false final false
   inline void add_resizingDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_resizingDidFinishEvent addr 0x224c33c size 0x9c virtual false final false
+  /// @brief Method remove_resizingDidFinishEvent addr 0x210ae08 size 0x9c virtual false final false
   inline void remove_resizingDidFinishEvent(::System::Action* value);
 
-  /// @brief Method Start addr 0x224c3d8 size 0x13c virtual false final false
+  /// @brief Method Start addr 0x210aea4 size 0x13c virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x224c544 size 0x150 virtual false final false
+  /// @brief Method OnDestroy addr 0x210b010 size 0x150 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleEdgeDistanceFromCenterWasCalculated addr 0x224c514 size 0x18 virtual false final false
+  /// @brief Method HandleEdgeDistanceFromCenterWasCalculated addr 0x210afe0 size 0x18 virtual false final false
   inline void HandleEdgeDistanceFromCenterWasCalculated(float_t edgeDistanceFromCenter);
 
-  /// @brief Method HandleSpawnCenterDistanceWasFound addr 0x224c52c size 0x18 virtual false final false
+  /// @brief Method HandleSpawnCenterDistanceWasFound addr 0x210aff8 size 0x18 virtual false final false
   inline void HandleSpawnCenterDistanceWasFound(float_t distance);
 
-  /// @brief Method TryResize addr 0x224c694 size 0x18 virtual false final false
+  /// @brief Method TryResize addr 0x210b160 size 0x18 virtual false final false
   inline void TryResize();
 
-  /// @brief Method Resize addr 0x224c6ac size 0x1e8 virtual false final false
+  /// @brief Method Resize addr 0x210b178 size 0x1e8 virtual false final false
   inline void Resize();
 
   static inline ::GlobalNamespace::MultiplayerEnvironmentResizeController* New_ctor();
 
-  /// @brief Method .ctor addr 0x224c894 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x210b360 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentResizeController", modifiers: "&&", def_value: None }]
@@ -365,6 +375,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerEnvironmentResizeController, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerEnvironmentResizeController, ____platformEnd) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerEnvironmentResizeController, ____resizeData) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerEnvironmentResizeController, ____centerResizeController) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerEnvironmentResizeController, ____beatmapObjectSpawnCenter) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerEnvironmentResizeController, ___resizingDidFinishEvent) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerEnvironmentResizeController, ____isResizingFinished) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerEnvironmentResizeController, ____edgeDistanceFromCenterFound) == 0x41, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerEnvironmentResizeController, ____spawnCenterDistanceFound) == 0x42, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType, "", "MultiplayerEnvironmentResizeController/ResizeType");

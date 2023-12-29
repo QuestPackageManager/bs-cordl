@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Pkix/zzzz__PkixCertPathValidatorResult_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PkixCertPathBuilderResult)
-namespace Org::BouncyCastle::Pkix {
-class TrustAnchor;
-}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Pkix {
+class TrustAnchor;
 }
 namespace Org::BouncyCastle::Pkix {
 class PkixPolicyNode;
@@ -48,14 +48,14 @@ public:
                                                                                ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
                                                                                ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method .ctor addr 0x10eb440 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x107a1ec size 0x80 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
                     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method get_CertPath addr 0x10f425c size 0x8 virtual false final false
+  /// @brief Method get_CertPath addr 0x1083008 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPath* get_CertPath();
 
-  /// @brief Method ToString addr 0x10f4264 size 0x1a8 virtual true final false
+  /// @brief Method ToString addr 0x1083010 size 0x1a8 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathBuilderResult", modifiers: "&&", def_value: None }]
@@ -79,6 +79,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult, ___certPath) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Pkix
 NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult);

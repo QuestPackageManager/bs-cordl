@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_LayerMask);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10204))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9925))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10132)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9852))
 // CS Name: ::HoudiniEngineUnity::Test_LayerMask*
 class CORDL_TYPE Test_LayerMask : public ::System::Object {
 public:
@@ -41,10 +41,10 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_LayerMask* New_ctor(::UnityEngine::LayerMask self);
 
-  /// @brief Method .ctor addr 0x21e6950 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x208dfb4 size 0x28 virtual false final false
   inline void _ctor(::UnityEngine::LayerMask self);
 
-  /// @brief Method IsEquivalentTo addr 0x21e6978 size 0xf8 virtual true final true
+  /// @brief Method IsEquivalentTo addr 0x208dfdc size 0xf8 virtual true final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_LayerMask* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_LayerMask", modifiers: "&&", def_value: None }]
@@ -68,6 +68,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::Test_LayerMask, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::Test_LayerMask, ___self) == 0x10, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::Test_LayerMask);

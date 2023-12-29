@@ -19,7 +19,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::Alloc);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7433))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7519))
 // CS Name: ::UnityEngine.UIElements.UIR::Alloc
 struct CORDL_TYPE Alloc {
 public:
@@ -51,6 +51,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::Alloc, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Alloc, start) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Alloc, size) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Alloc, handle) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Alloc, shortLived) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::Alloc, "UnityEngine.UIElements.UIR", "Alloc");

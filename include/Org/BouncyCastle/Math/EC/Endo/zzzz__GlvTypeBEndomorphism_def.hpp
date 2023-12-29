@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(GlvTypeBEndomorphism)
-namespace Org::BouncyCastle::Math::EC::Endo {
-class ECEndomorphism;
+namespace Org::BouncyCastle::Math::EC {
+class ECPointMap;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -15,13 +15,13 @@ namespace Org::BouncyCastle::Math::EC::Endo {
 class GlvEndomorphism;
 }
 namespace Org::BouncyCastle::Math::EC::Endo {
-class GlvTypeBParameters;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECPointMap;
+class ECEndomorphism;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
+}
+namespace Org::BouncyCastle::Math::EC::Endo {
+class GlvTypeBParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Endo {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Endo {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1523))
 // CS Name: ::Org.BouncyCastle.Math.EC.Endo::GlvTypeBEndomorphism*
 class CORDL_TYPE GlvTypeBEndomorphism : public ::System::Object {
@@ -69,16 +69,16 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* parameters);
 
-  /// @brief Method .ctor addr 0x1035560 size 0xb8 virtual false final false
+  /// @brief Method .ctor addr 0xfc3314 size 0xb8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* parameters);
 
-  /// @brief Method DecomposeScalar addr 0x1035618 size 0x7c virtual true final false
+  /// @brief Method DecomposeScalar addr 0xfc33cc size 0x7c virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> DecomposeScalar(::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method get_PointMap addr 0x1035694 size 0x8 virtual true final false
+  /// @brief Method get_PointMap addr 0xfc3448 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPointMap* get_PointMap();
 
-  /// @brief Method get_HasEfficientPointMap addr 0x103569c size 0x8 virtual true final false
+  /// @brief Method get_HasEfficientPointMap addr 0xfc3450 size 0x8 virtual true final false
   inline bool get_HasEfficientPointMap();
 
   // Ctor Parameters [CppParam { name: "", ty: "GlvTypeBEndomorphism", modifiers: "&&", def_value: None }]
@@ -105,6 +105,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism, ___m_parameters) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism, ___m_pointMap) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC::Endo
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism);

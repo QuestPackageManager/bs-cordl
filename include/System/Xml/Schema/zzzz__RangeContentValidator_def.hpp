@@ -10,10 +10,10 @@ namespace System::Xml::Schema {
 class Positions;
 }
 namespace System::Xml::Schema {
-class BitSet;
+class SymbolsDictionary;
 }
 namespace System::Xml::Schema {
-class SymbolsDictionary;
+class BitSet;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaContentType;
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::RangeContentValidator);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11610))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11614))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11538))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11542))
 // CS Name: ::System.Xml.Schema::RangeContentValidator*
 class CORDL_TYPE RangeContentValidator : public ::System::Xml::Schema::ContentValidator {
 public:
@@ -103,7 +103,7 @@ public:
                                                                        ::System::Xml::Schema::XmlSchemaContentType contentType, bool isEmptiable,
                                                                        ::System::Xml::Schema::BitSet* positionsWithRangeTerminals, int32_t minmaxNodesCount);
 
-  /// @brief Method .ctor addr 0x28b0330 size 0xc0 virtual false final false
+  /// @brief Method .ctor addr 0x273330c size 0xc0 virtual false final false
   inline void _ctor(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos,
                     ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, int32_t endMarkerPos, ::System::Xml::Schema::XmlSchemaContentType contentType,
                     bool isEmptiable, ::System::Xml::Schema::BitSet* positionsWithRangeTerminals, int32_t minmaxNodesCount);
@@ -147,6 +147,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::RangeContentValidator, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RangeContentValidator, ___firstpos) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RangeContentValidator, ___followpos) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RangeContentValidator, ___positionsWithRangeTerminals) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RangeContentValidator, ___symbols) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RangeContentValidator, ___positions) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RangeContentValidator, ___minMaxNodesCount) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RangeContentValidator, ___endMarkerPos) == 0x44, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::RangeContentValidator);

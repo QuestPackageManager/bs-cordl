@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::FontFeatureLookupFlags);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12371))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12299))
 // CS Name: ::TMPro::FontFeatureLookupFlags
 struct CORDL_TYPE FontFeatureLookupFlags {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::FontFeatureLookupFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::FontFeatureLookupFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::FontFeatureLookupFlags, "TMPro", "FontFeatureLookupFlags");

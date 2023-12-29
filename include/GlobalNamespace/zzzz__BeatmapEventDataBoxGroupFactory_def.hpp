@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapEventDataBoxGroupFactory)
 namespace GlobalNamespace {
-class IndexFilter;
+struct __BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0;
 }
 namespace GlobalNamespace {
-struct __BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0;
+class IndexFilter;
 }
 namespace GlobalNamespace {
 class __DefaultEnvironmentEvents__LightGroupEvent;
@@ -38,7 +38,7 @@ MARK_VAL_T(::GlobalNamespace::__BeatmapEventDataBoxGroupFactory____c__DisplayCla
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4304))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4330))
 // CS Name: ::BeatmapEventDataBoxGroupFactory::<>c__DisplayClass2_0
 struct CORDL_TYPE __BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0 {
 public:
@@ -61,30 +61,32 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0, numberOfElements) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BeatmapEventDataBoxGroupFactory
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4305))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4331))
 // CS Name: ::BeatmapEventDataBoxGroupFactory*
 class CORDL_TYPE BeatmapEventDataBoxGroupFactory : public ::System::Object {
 public:
   // Declarations
   using __c__DisplayClass2_0 = ::GlobalNamespace::__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0;
 
-  /// @brief Method CreateExtendColorBeatmapEventDataBoxGroup addr 0x2339034 size 0x200 virtual false final false
+  /// @brief Method CreateExtendColorBeatmapEventDataBoxGroup addr 0x21ee894 size 0x1f8 virtual false final false
   static inline ::GlobalNamespace::BeatmapEventDataBoxGroup* CreateExtendColorBeatmapEventDataBoxGroup(float_t beat, int32_t numberOfElements);
 
-  /// @brief Method CreateExtendRotationBeatmapEventDataBoxGroup addr 0x2339234 size 0x31c virtual false final false
+  /// @brief Method CreateExtendRotationBeatmapEventDataBoxGroup addr 0x21eea8c size 0x30c virtual false final false
   static inline ::GlobalNamespace::BeatmapEventDataBoxGroup* CreateExtendRotationBeatmapEventDataBoxGroup(float_t beat, int32_t numberOfElements);
 
-  /// @brief Method CreateSingleLightBeatmapEventDataBoxGroup addr 0x23379bc size 0x994 virtual false final false
+  /// @brief Method CreateSingleLightBeatmapEventDataBoxGroup addr 0x21ed52c size 0x828 virtual false final false
   static inline ::GlobalNamespace::BeatmapEventDataBoxGroup* CreateSingleLightBeatmapEventDataBoxGroup(float_t beat, int32_t numberOfElements,
                                                                                                        ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent* lightGroupEvent);
 
-  /// @brief Method <CreateSingleLightBeatmapEventDataBoxGroup>g__CreateIndexFilter|2_0 addr 0x2339550 size 0x150 virtual false final false
+  /// @brief Method <CreateSingleLightBeatmapEventDataBoxGroup>g__CreateIndexFilter|2_0 addr 0x21eed98 size 0x150 virtual false final false
   static inline ::GlobalNamespace::IndexFilter*
   _CreateSingleLightBeatmapEventDataBoxGroup_g__CreateIndexFilter_2_0(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* filtering,
                                                                       ByRef<::GlobalNamespace::__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0> _cordl_fixed_empty_name_whitespace);

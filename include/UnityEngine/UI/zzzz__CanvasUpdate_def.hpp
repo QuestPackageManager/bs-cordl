@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UI::CanvasUpdate);
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13020))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13025))
 // CS Name: ::UnityEngine.UI::CanvasUpdate
 struct CORDL_TYPE CanvasUpdate {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::CanvasUpdate, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UI::CanvasUpdate, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UI
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::CanvasUpdate, "UnityEngine.UI", "CanvasUpdate");

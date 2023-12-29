@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimpleTemporalFiltering)
 namespace UnityEngine {
-class Material;
+class RenderTexture;
 }
 namespace UnityEngine {
-class RenderTexture;
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleTemporalFiltering);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15311))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15340))
 // CS Name: ::SimpleTemporalFiltering*
 class CORDL_TYPE SimpleTemporalFiltering : public ::System::Object {
 public:
@@ -67,13 +67,13 @@ public:
 
   static inline ::GlobalNamespace::SimpleTemporalFiltering* New_ctor();
 
-  /// @brief Method .ctor addr 0x280bd34 size 0xcc virtual false final false
+  /// @brief Method .ctor addr 0x26910e0 size 0xcc virtual false final false
   inline void _ctor();
 
-  /// @brief Method FilterTexture addr 0x280be00 size 0x180 virtual false final false
+  /// @brief Method FilterTexture addr 0x26911ac size 0x180 virtual false final false
   inline ::UnityEngine::RenderTexture* FilterTexture(::UnityEngine::RenderTexture* src);
 
-  /// @brief Method CreateRenderTexturesIfNeeded addr 0x280bf80 size 0x28c virtual false final false
+  /// @brief Method CreateRenderTexturesIfNeeded addr 0x269132c size 0x28c virtual false final false
   inline void CreateRenderTexturesIfNeeded(int32_t width, int32_t height);
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleTemporalFiltering", modifiers: "&&", def_value: None }]
@@ -106,6 +106,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleTemporalFiltering, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleTemporalFiltering, ____temporalFilteringTextures) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleTemporalFiltering, ____prevTemporalFilteringTextureIdx) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleTemporalFiltering, ____temporalFilteringMaterial) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleTemporalFiltering, ____bufferTexID) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SimpleTemporalFiltering);

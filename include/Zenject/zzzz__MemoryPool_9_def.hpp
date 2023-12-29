@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MemoryPool_9)
 namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue> class IMemoryPool_9;
+}
+namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue> class IFactory_9;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue> class IMemoryPool_9;
-}
-namespace System {
-class Object;
+template <typename TValue> class IDespawnableMemoryPool_1;
 }
 namespace Zenject {
 class IMemoryPool;
@@ -20,11 +20,11 @@ class IMemoryPool;
 namespace Zenject {
 class IFactory;
 }
-namespace Zenject {
-class InjectTypeInfo;
+namespace System {
+class Object;
 }
 namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -38,8 +38,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11049)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11049), inst: 2799 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11046))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10977), inst: 2739 }), TypeDefinitionIndex(TypeDefinitionIndex(10977))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10974))
 // CS Name: ::Zenject::MemoryPool`9<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TValue>*
 class CORDL_TYPE MemoryPool_9 : public ::Zenject::MemoryPoolBase_1<TValue> {
 public:

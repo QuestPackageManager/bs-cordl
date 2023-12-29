@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIRAtlasAllocator)
-namespace System {
-class IDisposable;
+namespace UnityEngine::UIElements {
+class __UIRAtlasAllocator__Row;
 }
 namespace UnityEngine {
 struct RectInt;
 }
-namespace UnityEngine::UIElements {
-class __UIRAtlasAllocator__Row;
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::UIElements {
 class __UIRAtlasAllocator__AreaNode;
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__UIRAtlasAllocator__Row);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7324))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7410))
 // CS Name: ::UIRAtlasAllocator::Row*
 class CORDL_TYPE __UIRAtlasAllocator__Row : public ::System::Object {
 public:
@@ -108,36 +108,36 @@ public:
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>* getStaticF_s_Pool();
 
-  /// @brief Method get_offsetX addr 0x2e77480 size 0x8 virtual false final false
+  /// @brief Method get_offsetX addr 0x2d0e0d0 size 0x8 virtual false final false
   inline int32_t get_offsetX();
 
-  /// @brief Method set_offsetX addr 0x2e77488 size 0x8 virtual false final false
+  /// @brief Method set_offsetX addr 0x2d0e0d8 size 0x8 virtual false final false
   inline void set_offsetX(int32_t value);
 
-  /// @brief Method get_offsetY addr 0x2e77490 size 0x8 virtual false final false
+  /// @brief Method get_offsetY addr 0x2d0e0e0 size 0x8 virtual false final false
   inline int32_t get_offsetY();
 
-  /// @brief Method set_offsetY addr 0x2e77498 size 0x8 virtual false final false
+  /// @brief Method set_offsetY addr 0x2d0e0e8 size 0x8 virtual false final false
   inline void set_offsetY(int32_t value);
 
-  /// @brief Method get_width addr 0x2e774a0 size 0x8 virtual false final false
+  /// @brief Method get_width addr 0x2d0e0f0 size 0x8 virtual false final false
   inline int32_t get_width();
 
-  /// @brief Method set_width addr 0x2e774a8 size 0x8 virtual false final false
+  /// @brief Method set_width addr 0x2d0e0f8 size 0x8 virtual false final false
   inline void set_width(int32_t value);
 
-  /// @brief Method set_height addr 0x2e774b0 size 0x8 virtual false final false
+  /// @brief Method set_height addr 0x2d0e100 size 0x8 virtual false final false
   inline void set_height(int32_t value);
 
-  /// @brief Method Acquire addr 0x2e7728c size 0xac virtual false final false
+  /// @brief Method Acquire addr 0x2d0dedc size 0xac virtual false final false
   static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__Row* Acquire(int32_t offsetX, int32_t offsetY, int32_t width, int32_t height);
 
-  /// @brief Method Release addr 0x2e766e4 size 0x90 virtual false final false
+  /// @brief Method Release addr 0x2d0d334 size 0x90 virtual false final false
   inline void Release();
 
   static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__Row* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e774b8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d0e108 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UIRAtlasAllocator__Row", modifiers: "&&", def_value: None }]
@@ -174,13 +174,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UIRAtlasAllocator__Row, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__UIRAtlasAllocator__Row, ____offsetX_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__UIRAtlasAllocator__Row, ____offsetY_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__UIRAtlasAllocator__Row, ____width_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__UIRAtlasAllocator__Row, ____height_k__BackingField) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__UIRAtlasAllocator__Row, ___Cursor) == 0x20, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::AreaNode
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7325))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10090)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7411))
 // CS Name: ::UIRAtlasAllocator::AreaNode*
 class CORDL_TYPE __UIRAtlasAllocator__AreaNode : public ::System::Object {
 public:
@@ -219,21 +229,21 @@ public:
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*>* getStaticF_s_Pool();
 
-  /// @brief Method Acquire addr 0x2e76af0 size 0x98 virtual false final false
+  /// @brief Method Acquire addr 0x2d0d740 size 0x98 virtual false final false
   static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* Acquire(::UnityEngine::RectInt rect);
 
-  /// @brief Method Release addr 0x2e76774 size 0x80 virtual false final false
+  /// @brief Method Release addr 0x2d0d3c4 size 0x80 virtual false final false
   inline void Release();
 
-  /// @brief Method RemoveFromChain addr 0x2e77338 size 0x28 virtual false final false
+  /// @brief Method RemoveFromChain addr 0x2d0df88 size 0x28 virtual false final false
   inline void RemoveFromChain();
 
-  /// @brief Method AddAfter addr 0x2e77360 size 0xac virtual false final false
+  /// @brief Method AddAfter addr 0x2d0dfb0 size 0xac virtual false final false
   inline void AddAfter(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* previous);
 
   static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e77550 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d0e1a0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UIRAtlasAllocator__AreaNode", modifiers: "&&", def_value: None }]
@@ -264,13 +274,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode, ___rect) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode, ___previous) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode, ___next) == 0x28, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::UIRAtlasAllocator
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7326))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(9894))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7412))
 // CS Name: ::UnityEngine.UIElements::UIRAtlasAllocator*
 class CORDL_TYPE UIRAtlasAllocator : public ::System::Object {
 public:
@@ -414,66 +430,66 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerTryAllocate();
 
-  /// @brief Method get_maxAtlasSize addr 0x2e7657c size 0x8 virtual false final false
+  /// @brief Method get_maxAtlasSize addr 0x2d0d1cc size 0x8 virtual false final false
   inline int32_t get_maxAtlasSize();
 
-  /// @brief Method get_maxImageWidth addr 0x2e76584 size 0x8 virtual false final false
+  /// @brief Method get_maxImageWidth addr 0x2d0d1d4 size 0x8 virtual false final false
   inline int32_t get_maxImageWidth();
 
-  /// @brief Method get_maxImageHeight addr 0x2e7658c size 0x8 virtual false final false
+  /// @brief Method get_maxImageHeight addr 0x2d0d1dc size 0x8 virtual false final false
   inline int32_t get_maxImageHeight();
 
-  /// @brief Method get_virtualWidth addr 0x2e76594 size 0x8 virtual false final false
+  /// @brief Method get_virtualWidth addr 0x2d0d1e4 size 0x8 virtual false final false
   inline int32_t get_virtualWidth();
 
-  /// @brief Method set_virtualWidth addr 0x2e7659c size 0x8 virtual false final false
+  /// @brief Method set_virtualWidth addr 0x2d0d1ec size 0x8 virtual false final false
   inline void set_virtualWidth(int32_t value);
 
-  /// @brief Method get_virtualHeight addr 0x2e765a4 size 0x8 virtual false final false
+  /// @brief Method get_virtualHeight addr 0x2d0d1f4 size 0x8 virtual false final false
   inline int32_t get_virtualHeight();
 
-  /// @brief Method set_virtualHeight addr 0x2e765ac size 0x8 virtual false final false
+  /// @brief Method set_virtualHeight addr 0x2d0d1fc size 0x8 virtual false final false
   inline void set_virtualHeight(int32_t value);
 
-  /// @brief Method get_physicalWidth addr 0x2e765b4 size 0x8 virtual false final false
+  /// @brief Method get_physicalWidth addr 0x2d0d204 size 0x8 virtual false final false
   inline int32_t get_physicalWidth();
 
-  /// @brief Method set_physicalWidth addr 0x2e765bc size 0x8 virtual false final false
+  /// @brief Method set_physicalWidth addr 0x2d0d20c size 0x8 virtual false final false
   inline void set_physicalWidth(int32_t value);
 
-  /// @brief Method get_physicalHeight addr 0x2e765c4 size 0x8 virtual false final false
+  /// @brief Method get_physicalHeight addr 0x2d0d214 size 0x8 virtual false final false
   inline int32_t get_physicalHeight();
 
-  /// @brief Method set_physicalHeight addr 0x2e765cc size 0x8 virtual false final false
+  /// @brief Method set_physicalHeight addr 0x2d0d21c size 0x8 virtual false final false
   inline void set_physicalHeight(int32_t value);
 
-  /// @brief Method get_disposed addr 0x2e765d4 size 0x8 virtual false final false
+  /// @brief Method get_disposed addr 0x2d0d224 size 0x8 virtual false final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed addr 0x2e765dc size 0xc virtual false final false
+  /// @brief Method set_disposed addr 0x2d0d22c size 0xc virtual false final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose addr 0x2e765e8 size 0x6c virtual true final true
+  /// @brief Method Dispose addr 0x2d0d238 size 0x6c virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x2e76654 size 0x90 virtual true final false
+  /// @brief Method Dispose addr 0x2d0d2a4 size 0x90 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetLog2OfNextPower addr 0x2e767f4 size 0x130 virtual false final false
+  /// @brief Method GetLog2OfNextPower addr 0x2d0d444 size 0x130 virtual false final false
   static inline int32_t GetLog2OfNextPower(int32_t n);
 
   static inline ::UnityEngine::UIElements::UIRAtlasAllocator* New_ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding);
 
-  /// @brief Method .ctor addr 0x2e76924 size 0x1cc virtual false final false
+  /// @brief Method .ctor addr 0x2d0d574 size 0x1cc virtual false final false
   inline void _ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding);
 
-  /// @brief Method TryAllocate addr 0x2e76c94 size 0x3e0 virtual false final false
+  /// @brief Method TryAllocate addr 0x2d0d8e4 size 0x3e0 virtual false final false
   inline bool TryAllocate(int32_t width, int32_t height, ByRef<::UnityEngine::RectInt> location);
 
-  /// @brief Method TryPartitionArea addr 0x2e77074 size 0x218 virtual false final false
+  /// @brief Method TryPartitionArea addr 0x2d0dcc4 size 0x218 virtual false final false
   inline bool TryPartitionArea(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* areaNode, int32_t rowIndex, int32_t rowHeight, int32_t minWidth);
 
-  /// @brief Method BuildAreas addr 0x2e76b88 size 0x10c virtual false final false
+  /// @brief Method BuildAreas addr 0x2d0d7d8 size 0x10c virtual false final false
   inline void BuildAreas();
 
   // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator", modifiers: "&&", def_value: None }]
@@ -530,6 +546,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIRAtlasAllocator, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIRAtlasAllocator, ____maxAtlasSize_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIRAtlasAllocator, ____maxImageWidth_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIRAtlasAllocator, ____maxImageHeight_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIRAtlasAllocator, ____virtualWidth_k__BackingField) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIRAtlasAllocator, ____virtualHeight_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIRAtlasAllocator, ____physicalWidth_k__BackingField) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIRAtlasAllocator, ____physicalHeight_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIRAtlasAllocator, ___m_FirstUnpartitionedArea) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIRAtlasAllocator, ___m_OpenRows) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIRAtlasAllocator, ___m_1SidePadding) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIRAtlasAllocator, ___m_2SidePadding) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIRAtlasAllocator, ____disposed_k__BackingField) == 0x48, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UIRAtlasAllocator);

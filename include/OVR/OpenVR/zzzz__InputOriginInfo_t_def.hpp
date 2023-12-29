@@ -17,14 +17,14 @@ MARK_VAL_T(::OVR::OpenVR::InputOriginInfo_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8724))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9493))
 // CS Name: ::OVR.OpenVR::InputOriginInfo_t
 struct CORDL_TYPE InputOriginInfo_t {
 public:
   // Declarations
   __declspec(property(get = get_rchRenderModelComponentName))::StringW rchRenderModelComponentName;
 
-  /// @brief Method get_rchRenderModelComponentName addr 0x27f6804 size 0x86c virtual false final false
+  /// @brief Method get_rchRenderModelComponentName addr 0x267f880 size 0x86c virtual false final false
   inline ::StringW get_rchRenderModelComponentName();
 
   // Ctor Parameters [CppParam { name: "devicePath", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "trackedDeviceIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam
@@ -526,6 +526,266 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::InputOriginInfo_t, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, devicePath) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, trackedDeviceIndex) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName0) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName1) == 0xd, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName2) == 0xe, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName3) == 0xf, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName4) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName5) == 0x11, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName6) == 0x12, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName7) == 0x13, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName8) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName9) == 0x15, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName10) == 0x16, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName11) == 0x17, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName12) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName13) == 0x19, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName14) == 0x1a, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName15) == 0x1b, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName16) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName17) == 0x1d, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName18) == 0x1e, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName19) == 0x1f, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName20) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName21) == 0x21, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName22) == 0x22, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName23) == 0x23, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName24) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName25) == 0x25, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName26) == 0x26, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName27) == 0x27, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName28) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName29) == 0x29, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName30) == 0x2a, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName31) == 0x2b, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName32) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName33) == 0x2d, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName34) == 0x2e, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName35) == 0x2f, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName36) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName37) == 0x31, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName38) == 0x32, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName39) == 0x33, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName40) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName41) == 0x35, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName42) == 0x36, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName43) == 0x37, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName44) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName45) == 0x39, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName46) == 0x3a, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName47) == 0x3b, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName48) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName49) == 0x3d, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName50) == 0x3e, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName51) == 0x3f, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName52) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName53) == 0x41, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName54) == 0x42, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName55) == 0x43, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName56) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName57) == 0x45, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName58) == 0x46, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName59) == 0x47, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName60) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName61) == 0x49, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName62) == 0x4a, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName63) == 0x4b, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName64) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName65) == 0x4d, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName66) == 0x4e, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName67) == 0x4f, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName68) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName69) == 0x51, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName70) == 0x52, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName71) == 0x53, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName72) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName73) == 0x55, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName74) == 0x56, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName75) == 0x57, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName76) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName77) == 0x59, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName78) == 0x5a, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName79) == 0x5b, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName80) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName81) == 0x5d, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName82) == 0x5e, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName83) == 0x5f, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName84) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName85) == 0x61, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName86) == 0x62, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName87) == 0x63, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName88) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName89) == 0x65, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName90) == 0x66, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName91) == 0x67, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName92) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName93) == 0x69, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName94) == 0x6a, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName95) == 0x6b, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName96) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName97) == 0x6d, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName98) == 0x6e, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName99) == 0x6f, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName100) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName101) == 0x71, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName102) == 0x72, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName103) == 0x73, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName104) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName105) == 0x75, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName106) == 0x76, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName107) == 0x77, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName108) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName109) == 0x79, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName110) == 0x7a, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName111) == 0x7b, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName112) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName113) == 0x7d, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName114) == 0x7e, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName115) == 0x7f, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName116) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName117) == 0x81, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName118) == 0x82, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName119) == 0x83, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName120) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName121) == 0x85, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName122) == 0x86, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName123) == 0x87, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName124) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName125) == 0x89, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName126) == 0x8a, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName127) == 0x8b, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::InputOriginInfo_t, "OVR.OpenVR", "InputOriginInfo_t");

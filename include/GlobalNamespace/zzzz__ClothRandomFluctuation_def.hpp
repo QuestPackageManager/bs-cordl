@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ClothRandomFluctuation)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 class __ClothRandomFluctuation__SineLayer;
 }
 namespace UnityEngine {
 class Cloth;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__ClothRandomFluctuation__SineLayer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4010))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3993))
 // CS Name: ::ClothRandomFluctuation::SineLayer*
 class CORDL_TYPE __ClothRandomFluctuation__SineLayer : public ::System::Object {
 public:
@@ -56,7 +56,7 @@ public:
 
   static inline ::GlobalNamespace::__ClothRandomFluctuation__SineLayer* New_ctor();
 
-  /// @brief Method .ctor addr 0x22225d8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20c0eec size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ClothRandomFluctuation__SineLayer", modifiers: "&&", def_value: None }]
@@ -84,13 +84,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ClothRandomFluctuation__SineLayer, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ClothRandomFluctuation__SineLayer, ___multiplier) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ClothRandomFluctuation__SineLayer, ___offset) == 0x14, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ClothRandomFluctuation
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4011))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3994))
 // CS Name: ::ClothRandomFluctuation*
 class CORDL_TYPE ClothRandomFluctuation : public ::UnityEngine::MonoBehaviour {
 public:
@@ -169,18 +173,18 @@ public:
 
   constexpr void __set__speed(float_t value);
 
-  /// @brief Method Update addr 0x2222354 size 0x8 virtual false final false
+  /// @brief Method Update addr 0x20c0c68 size 0x8 virtual false final false
   inline void Update();
 
-  /// @brief Method FluctuateCloth addr 0x222235c size 0x170 virtual false final false
+  /// @brief Method FluctuateCloth addr 0x20c0c70 size 0x170 virtual false final false
   inline void FluctuateCloth(::UnityEngine::Cloth* cloth);
 
-  /// @brief Method GetNoise addr 0x22224cc size 0x104 virtual false final false
+  /// @brief Method GetNoise addr 0x20c0de0 size 0x104 virtual false final false
   inline float_t GetNoise(float_t time, float_t offset);
 
   static inline ::GlobalNamespace::ClothRandomFluctuation* New_ctor();
 
-  /// @brief Method .ctor addr 0x22225d0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20c0ee4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ClothRandomFluctuation", modifiers: "&&", def_value: None }]
@@ -225,6 +229,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ClothRandomFluctuation, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____cloth) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____useLocalExternalFluctuations) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____externalFluctuations) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____useLocalRandomFluctuations) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____minFluctuations) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____maxFluctuations) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____compoundSins) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____speed) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ClothRandomFluctuation);

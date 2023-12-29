@@ -11,22 +11,22 @@ namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
 namespace GlobalNamespace {
-class SetSaberGlowColor;
+class SetSaberFakeGlowColor;
 }
 namespace GlobalNamespace {
-class ColorManager;
+class SetSaberGlowColor;
 }
 namespace GlobalNamespace {
 class Saber;
 }
 namespace GlobalNamespace {
-class SetSaberFakeGlowColor;
-}
-namespace GlobalNamespace {
-class SaberTrail;
+class ColorManager;
 }
 namespace GlobalNamespace {
 class __SaberModelController__InitData;
+}
+namespace GlobalNamespace {
+class SaberTrail;
 }
 namespace UnityEngine {
 class Transform;
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__SaberModelController__InitData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5298))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5393))
 // CS Name: ::SaberModelController::InitData*
 class CORDL_TYPE __SaberModelController__InitData : public ::System::Object {
 public:
@@ -65,12 +65,12 @@ public:
 
   static inline ::GlobalNamespace::__SaberModelController__InitData* New_ctor();
 
-  /// @brief Method .ctor addr 0x226452c size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x212035c size 0x20 virtual false final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__SaberModelController__InitData* New_ctor(::UnityEngine::Color trailTintColor);
 
-  /// @brief Method .ctor addr 0x226454c size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x212037c size 0x40 virtual false final false
   inline void _ctor(::UnityEngine::Color trailTintColor);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SaberModelController__InitData", modifiers: "&&", def_value: None }]
@@ -95,13 +95,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SaberModelController__InitData, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SaberModelController__InitData, ___trailTintColor) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SaberModelController
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5299))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5394))
 // CS Name: ::SaberModelController*
 class CORDL_TYPE SaberModelController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -164,12 +166,12 @@ public:
 
   constexpr void __set__colorManager(::GlobalNamespace::ColorManager* value);
 
-  /// @brief Method Init addr 0x22641ac size 0x2f0 virtual false final false
+  /// @brief Method Init addr 0x211ffdc size 0x2f0 virtual false final false
   inline void Init(::UnityEngine::Transform* parent, ::GlobalNamespace::Saber* saber);
 
   static inline ::GlobalNamespace::SaberModelController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22644bc size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x21202ec size 0x70 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberModelController", modifiers: "&&", def_value: None }]
@@ -208,6 +210,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberModelController, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberModelController, ____saberTrail) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberModelController, ____setSaberGlowColors) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberModelController, ____setSaberFakeGlowColors) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberModelController, ____saberLight) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberModelController, ____initData) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberModelController, ____colorManager) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberModelController);

@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::HmdMatrix33_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8645))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9414))
 // CS Name: ::OVR.OpenVR::HmdMatrix33_t
 struct CORDL_TYPE HmdMatrix33_t {
 public:
@@ -65,6 +65,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::HmdMatrix33_t, 0x24>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix33_t, m0) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix33_t, m1) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix33_t, m2) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix33_t, m3) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix33_t, m4) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix33_t, m5) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix33_t, m6) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix33_t, m7) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdMatrix33_t, m8) == 0x20, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::HmdMatrix33_t, "OVR.OpenVR", "HmdMatrix33_t");

@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ShaderInfoStorageRGBA32)
-namespace UnityEngine::UIElements::UIR {
-class __ShaderInfoStorageRGBA32____c;
-}
 namespace UnityEngine {
 struct Color;
 }
@@ -18,6 +15,9 @@ struct Color32;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::UIElements::UIR {
+class __ShaderInfoStorageRGBA32____c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7382))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7468))
 // CS Name: ::ShaderInfoStorageRGBA32::<>c*
 class CORDL_TYPE __ShaderInfoStorageRGBA32____c : public ::System::Object {
 public:
@@ -48,10 +48,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e8b4e0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d23130 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__2_0 addr 0x2e8b4e8 size 0x2c4 virtual false final false
+  /// @brief Method <.cctor>b__2_0 addr 0x2d23138 size 0x2c4 virtual false final false
   inline ::UnityEngine::Color32 __cctor_b__2_0(::UnityEngine::Color c);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ShaderInfoStorageRGBA32____c", modifiers: "&&", def_value: None }]
@@ -78,8 +78,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10250)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7381), inst: 742 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7381))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7383)) CS Name: ::UnityEngine.UIElements.UIR::ShaderInfoStorageRGBA32*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10177)), TypeDefinitionIndex(TypeDefinitionIndex(7467)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7467), inst: 731
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7469)) CS Name: ::UnityEngine.UIElements.UIR::ShaderInfoStorageRGBA32*
 class CORDL_TYPE ShaderInfoStorageRGBA32 : public ::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<::UnityEngine::Color32> {
 public:
   // Declarations
@@ -94,7 +94,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32* New_ctor(int32_t initialSize, int32_t maxSize);
 
-  /// @brief Method .ctor addr 0x2e8935c size 0x94 virtual false final false
+  /// @brief Method .ctor addr 0x2d20fac size 0x94 virtual false final false
   inline void _ctor(int32_t initialSize, int32_t maxSize);
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorageRGBA32", modifiers: "&&", def_value: None }]

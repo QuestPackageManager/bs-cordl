@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::CultureTypes);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3661))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3649))
 // CS Name: ::System.Globalization::CultureTypes
 struct CORDL_TYPE CultureTypes {
 public:
@@ -81,6 +81,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::CultureTypes, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::CultureTypes, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CultureTypes, "System.Globalization", "CultureTypes");

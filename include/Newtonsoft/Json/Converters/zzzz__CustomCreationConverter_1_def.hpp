@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 CORDL_MODULE_EXPORT(CustomCreationConverter_1)
-namespace System {
-class Object;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
 namespace Newtonsoft::Json {
-class JsonReader;
+class JsonWriter;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -31,8 +31,8 @@ namespace Newtonsoft::Json::Converters {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11830))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12031))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11758))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11959))
 // CS Name: ::Newtonsoft.Json.Converters::CustomCreationConverter`1<T>*
 class CORDL_TYPE CustomCreationConverter_1 : public ::Newtonsoft::Json::JsonConverter {
 public:

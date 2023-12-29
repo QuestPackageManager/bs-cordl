@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::Utils::NtpMode);
 namespace LiteNetLib::Utils {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14239))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14577))
 // CS Name: ::LiteNetLib.Utils::NtpMode
 struct CORDL_TYPE NtpMode {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::NtpMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::Utils::NtpMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace LiteNetLib::Utils
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::NtpMode, "LiteNetLib.Utils", "NtpMode");

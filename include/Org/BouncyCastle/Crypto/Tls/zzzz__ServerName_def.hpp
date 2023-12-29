@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ServerName);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1267))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::ServerName*
 class CORDL_TYPE ServerName : public ::System::Object {
@@ -52,25 +52,25 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerName* New_ctor(uint8_t nameType, ::System::Object* name);
 
-  /// @brief Method .ctor addr 0xf94d8c size 0xa0 virtual false final false
+  /// @brief Method .ctor addr 0xf1eb64 size 0xa0 virtual false final false
   inline void _ctor(uint8_t nameType, ::System::Object* name);
 
-  /// @brief Method get_NameType addr 0xf94ef4 size 0x8 virtual true final false
+  /// @brief Method get_NameType addr 0xf1eccc size 0x8 virtual true final false
   inline uint8_t get_NameType();
 
-  /// @brief Method get_Name addr 0xf94efc size 0x8 virtual true final false
+  /// @brief Method get_Name addr 0xf1ecd4 size 0x8 virtual true final false
   inline ::System::Object* get_Name();
 
-  /// @brief Method GetHostName addr 0xf94f04 size 0xdc virtual true final false
+  /// @brief Method GetHostName addr 0xf1ecdc size 0xdc virtual true final false
   inline ::StringW GetHostName();
 
-  /// @brief Method Encode addr 0xf94fe0 size 0x124 virtual true final false
+  /// @brief Method Encode addr 0xf1edb8 size 0x124 virtual true final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse addr 0xf95104 size 0x118 virtual false final false
+  /// @brief Method Parse addr 0xf1eedc size 0x118 virtual false final false
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerName* Parse(::System::IO::Stream* input);
 
-  /// @brief Method IsCorrectType addr 0xf94e2c size 0xc8 virtual false final false
+  /// @brief Method IsCorrectType addr 0xf1ec04 size 0xc8 virtual false final false
   static inline bool IsCorrectType(uint8_t nameType, ::System::Object* name);
 
   // Ctor Parameters [CppParam { name: "", ty: "ServerName", modifiers: "&&", def_value: None }]
@@ -97,6 +97,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::ServerName, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::ServerName, ___mNameType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::ServerName, ___mName) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::ServerName);

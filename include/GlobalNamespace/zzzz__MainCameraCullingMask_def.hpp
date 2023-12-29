@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MainCameraCullingMask)
-namespace GlobalNamespace {
-class __MainCameraCullingMask__InitData;
-}
 namespace UnityEngine {
 class Camera;
+}
+namespace GlobalNamespace {
+class __MainCameraCullingMask__InitData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MainCameraCullingMask__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15287))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15316))
 // CS Name: ::MainCameraCullingMask::InitData*
 class CORDL_TYPE __MainCameraCullingMask__InitData : public ::System::Object {
 public:
@@ -42,7 +42,7 @@ public:
 
   static inline ::GlobalNamespace::__MainCameraCullingMask__InitData* New_ctor(bool showDebris);
 
-  /// @brief Method .ctor addr 0x2807d8c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x268d0f4 size 0x28 virtual false final false
   inline void _ctor(bool showDebris);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MainCameraCullingMask__InitData", modifiers: "&&", def_value: None }]
@@ -67,13 +67,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MainCameraCullingMask__InitData, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MainCameraCullingMask__InitData, ___showDebris) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MainCameraCullingMask
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15288))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15317))
 // CS Name: ::MainCameraCullingMask*
 class CORDL_TYPE MainCameraCullingMask : public ::UnityEngine::MonoBehaviour {
 public:
@@ -98,12 +100,12 @@ public:
 
   constexpr void __set__initData(::GlobalNamespace::__MainCameraCullingMask__InitData* value);
 
-  /// @brief Method Start addr 0x2807c6c size 0xb0 virtual false final false
+  /// @brief Method Start addr 0x268cfd4 size 0xb0 virtual false final false
   inline void Start();
 
   static inline ::GlobalNamespace::MainCameraCullingMask* New_ctor();
 
-  /// @brief Method .ctor addr 0x2807d1c size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x268d084 size 0x70 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MainCameraCullingMask", modifiers: "&&", def_value: None }]
@@ -130,6 +132,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainCameraCullingMask, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MainCameraCullingMask, ____camera) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MainCameraCullingMask, ____initData) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainCameraCullingMask);

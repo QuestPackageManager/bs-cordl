@@ -14,13 +14,13 @@ MARK_REF_PTR_T(::UnityEngine::ClassLibraryInitializer);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10188))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10116))
 // CS Name: ::UnityEngine::ClassLibraryInitializer*
 class CORDL_TYPE ClassLibraryInitializer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Init addr 0x2ccd2c8 size 0x8 virtual false final false
+  /// @brief Method Init addr 0x2b66dc4 size 0x8 virtual false final false
   static inline void Init();
 
   // Ctor Parameters [CppParam { name: "", ty: "ClassLibraryInitializer", modifiers: "&&", def_value: None }]

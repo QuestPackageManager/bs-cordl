@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BombExplosionEffect);
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15889))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4838))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15781)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4958))
 // CS Name: ::BombExplosionEffect*
 class CORDL_TYPE BombExplosionEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -82,15 +82,15 @@ public:
 
   constexpr void __set__explosionPSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
 
-  /// @brief Method Awake addr 0x2396730 size 0x2c virtual false final false
+  /// @brief Method Awake addr 0x2261d1c size 0x2c virtual false final false
   inline void Awake();
 
-  /// @brief Method SpawnExplosion addr 0x239675c size 0xbc virtual false final false
+  /// @brief Method SpawnExplosion addr 0x2261d48 size 0xbc virtual false final false
   inline void SpawnExplosion(::UnityEngine::Vector3 pos);
 
   static inline ::GlobalNamespace::BombExplosionEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x2396818 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x2261e04 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BombExplosionEffect", modifiers: "&&", def_value: None }]
@@ -129,6 +129,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BombExplosionEffect, 0x150>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____debrisPS) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____explosionPS) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____debrisCount) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____explosionParticlesCount) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____emitParams) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____explosionPSEmitParams) == 0xc0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BombExplosionEffect);

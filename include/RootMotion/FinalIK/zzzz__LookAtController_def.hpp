@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(LookAtController)
-namespace RootMotion::FinalIK {
-class LookAtIK;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace RootMotion::FinalIK {
+class LookAtIK;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::LookAtController);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 149, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12653))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12581))
 // CS Name: ::RootMotion.FinalIK::LookAtController*
 class CORDL_TYPE LookAtController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -213,24 +213,24 @@ public:
 
   constexpr void __set_lastSmoothTowardsTarget(bool value);
 
-  /// @brief Method Start addr 0x12971b8 size 0x68 virtual false final false
+  /// @brief Method Start addr 0x1225e8c size 0x68 virtual false final false
   inline void Start();
 
-  /// @brief Method LateUpdate addr 0x12972a4 size 0x4e8 virtual false final false
+  /// @brief Method LateUpdate addr 0x1225f78 size 0x4e8 virtual false final false
   inline void LateUpdate();
 
-  /// @brief Method get_pivot addr 0x1297220 size 0x84 virtual false final false
+  /// @brief Method get_pivot addr 0x1225ef4 size 0x84 virtual false final false
   inline ::UnityEngine::Vector3 get_pivot();
 
-  /// @brief Method ApplyMinDistance addr 0x129778c size 0x184 virtual false final false
+  /// @brief Method ApplyMinDistance addr 0x1226460 size 0x184 virtual false final false
   inline void ApplyMinDistance();
 
-  /// @brief Method RootRotation addr 0x1297910 size 0x24c virtual false final false
+  /// @brief Method RootRotation addr 0x12265e4 size 0x24c virtual false final false
   inline void RootRotation();
 
   static inline ::RootMotion::FinalIK::LookAtController* New_ctor();
 
-  /// @brief Method .ctor addr 0x1297b5c size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x1226830 size 0x98 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LookAtController", modifiers: "&&", def_value: None }]
@@ -311,6 +311,46 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::LookAtController, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___ik) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___target) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___weight) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___offset) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___targetSwitchSmoothTime) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___weightSmoothTime) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___smoothTurnTowardsTarget) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___maxRadiansDelta) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___maxMagnitudeDelta) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___slerpSpeed) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___pivotOffsetFromRoot) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___minDistance) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___maxRootAngle) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___lastTarget) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___switchWeight) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___switchWeightV) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___weightV) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___lastPosition) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___dir) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::LookAtController, ___lastSmoothTowardsTarget) == 0x94, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::LookAtController);

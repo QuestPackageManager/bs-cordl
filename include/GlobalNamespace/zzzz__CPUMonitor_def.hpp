@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CPUMonitor)
 namespace GlobalNamespace {
+class ICPUMonitor;
+}
+namespace GlobalNamespace {
 class IPollable;
 }
 namespace System::Diagnostics {
@@ -14,9 +17,6 @@ class Process;
 }
 namespace GlobalNamespace {
 class RollingAverage;
-}
-namespace GlobalNamespace {
-class ICPUMonitor;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CPUMonitor);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12709))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12637))
 // CS Name: ::CPUMonitor*
 class CORDL_TYPE CPUMonitor : public ::System::Object {
 public:
@@ -87,15 +87,15 @@ public:
 
   constexpr void __set__lastSampleValue(int64_t value);
 
-  /// @brief Method PollUpdate addr 0xe32340 size 0xf8 virtual true final true
+  /// @brief Method PollUpdate addr 0xdac328 size 0xf8 virtual true final true
   inline void PollUpdate();
 
-  /// @brief Method get_utilization addr 0xe32438 size 0x28 virtual true final true
+  /// @brief Method get_utilization addr 0xdac420 size 0x28 virtual true final true
   inline float_t get_utilization();
 
   static inline ::GlobalNamespace::CPUMonitor* New_ctor();
 
-  /// @brief Method .ctor addr 0xe32460 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0xdac448 size 0x84 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CPUMonitor", modifiers: "&&", def_value: None }]
@@ -131,6 +131,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CPUMonitor, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CPUMonitor, ____utilization) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CPUMonitor, ____currentProcess) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CPUMonitor, ____processorCount) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CPUMonitor, ____lastSampleTime) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CPUMonitor, ____lastSampleValue) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CPUMonitor);

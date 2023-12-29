@@ -10,22 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebCompletionSource_1)
 namespace System::Net {
-template <typename T> struct __WebCompletionSource_1___WaitForCompletion_d__15;
-}
-namespace System {
-class OperationCanceledException;
-}
-namespace System::Net {
 template <typename T> class __WebCompletionSource_1__Result;
 }
 namespace System::Net {
-template <typename T> struct __WebCompletionSource_1__Status;
-}
-namespace System {
-class Exception;
-}
-namespace System::Threading::Tasks {
-class Task;
+template <typename T> struct __WebCompletionSource_1___WaitForCompletion_d__15;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
@@ -33,17 +21,29 @@ template <typename TResult> class TaskCompletionSource_1;
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
+namespace System {
+class Exception;
+}
+namespace System::Net {
+template <typename T> struct __WebCompletionSource_1__Status;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+class OperationCanceledException;
+}
 namespace System::Runtime::ExceptionServices {
 class ExceptionDispatchInfo;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace System::Net {
@@ -69,8 +69,8 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9209)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9209), inst: 5027 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9209))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8046), inst: 4920 }), TypeDefinitionIndex(TypeDefinitionIndex(8046))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8046))
 // CS Name: ::WebCompletionSource`1::Status<T>
 struct CORDL_TYPE __WebCompletionSource_1__Status {
 public:
@@ -125,8 +125,8 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9209), inst: 5026 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9209))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9210)) CS Name: ::WebCompletionSource`1::Result<T>*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8046), inst: 4919 }), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8046))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8047)) CS Name: ::WebCompletionSource`1::Result<T>*
 class CORDL_TYPE __WebCompletionSource_1__Result : public ::System::Object {
 public:
   // Declarations
@@ -221,9 +221,9 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9210), inst: 101 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3397), inst: 1122 }), TypeDefinitionIndex(TypeDefinitionIndex(9210)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 101 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9211)) CS Name: ::WebCompletionSource`1::<WaitForCompletion>d__15<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8047)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 1100
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8047), inst: 108 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 108 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3392))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8048)) CS Name: ::WebCompletionSource`1::<WaitForCompletion>d__15<T>
 struct CORDL_TYPE __WebCompletionSource_1___WaitForCompletion_d__15 {
 public:
   // Declarations
@@ -273,8 +273,8 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9212))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8049))
 // CS Name: ::System.Net::WebCompletionSource`1<T>*
 class CORDL_TYPE WebCompletionSource_1 : public ::System::Object {
 public:

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseVisualTreeHierarchyTrackerUpdater)
 namespace UnityEngine::UIElements {
-struct __BaseVisualTreeHierarchyTrackerUpdater__State;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct __BaseVisualTreeHierarchyTrackerUpdater__State;
 }
 namespace UnityEngine::UIElements {
 struct HierarchyChangeType;
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater)
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6786))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6872))
 // CS Name: ::BaseVisualTreeHierarchyTrackerUpdater::State
 struct CORDL_TYPE __BaseVisualTreeHierarchyTrackerUpdater__State {
 public:
@@ -80,13 +80,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::BaseVisualTreeHierarchyTrackerUpdater
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(6786))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6787))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6840)), TypeDefinitionIndex(TypeDefinitionIndex(6872))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6873))
 // CS Name: ::UnityEngine.UIElements::BaseVisualTreeHierarchyTrackerUpdater*
 class CORDL_TYPE BaseVisualTreeHierarchyTrackerUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
@@ -123,24 +125,24 @@ public:
   /// @brief Method OnHierarchyChange addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void OnHierarchyChange(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType type);
 
-  /// @brief Method OnVersionChanged addr 0x2dba6bc size 0x2c virtual true final false
+  /// @brief Method OnVersionChanged addr 0x2c5330c size 0x2c virtual true final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update addr 0x2dba88c size 0x94 virtual true final false
+  /// @brief Method Update addr 0x2c534dc size 0x94 virtual true final false
   inline void Update();
 
-  /// @brief Method ProcessNewChange addr 0x2dba6e8 size 0x84 virtual false final false
+  /// @brief Method ProcessNewChange addr 0x2c53338 size 0x84 virtual false final false
   inline void ProcessNewChange(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method ProcessAddOrMove addr 0x2dba7d0 size 0xbc virtual false final false
+  /// @brief Method ProcessAddOrMove addr 0x2c53420 size 0xbc virtual false final false
   inline void ProcessAddOrMove(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method ProcessRemove addr 0x2dba76c size 0x64 virtual false final false
+  /// @brief Method ProcessRemove addr 0x2c533bc size 0x64 virtual false final false
   inline void ProcessRemove(::UnityEngine::UIElements::VisualElement* ve);
 
   static inline ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dba920 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2c53570 size 0xc virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseVisualTreeHierarchyTrackerUpdater", modifiers: "&&", def_value: None }]
@@ -170,6 +172,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater, ___m_State) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater, ___m_CurrentChangeElement) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater, ___m_CurrentChangeParent) == 0x30, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State, "UnityEngine.UIElements", "BaseVisualTreeHierarchyTrackerUpdater/State");

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Configuration::UnicodeDecodingConformance);
 namespace System::Net::Configuration {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9313))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8150))
 // CS Name: ::System.Net.Configuration::UnicodeDecodingConformance
 struct CORDL_TYPE UnicodeDecodingConformance {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Configuration::UnicodeDecodingConformance, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Configuration::UnicodeDecodingConformance, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net::Configuration
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Configuration::UnicodeDecodingConformance, "System.Net.Configuration", "UnicodeDecodingConformance");

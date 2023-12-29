@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SonyOnGoingToBackgroundSaveHandler)
 namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
 class LocalLeaderboardsModel;
 }
 namespace GlobalNamespace {
@@ -13,12 +16,6 @@ class PlayerDataModel;
 namespace GlobalNamespace {
 class ISaveData;
 }
-namespace GlobalNamespace {
-class SonyBackgroundExecutionHelper;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class SonyOnGoingToBackgroundSaveHandler;
@@ -26,11 +23,11 @@ class SonyOnGoingToBackgroundSaveHandler;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler);
 // Type: ::SonyOnGoingToBackgroundSaveHandler
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4592))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4682))
 // CS Name: ::SonyOnGoingToBackgroundSaveHandler*
 class CORDL_TYPE SonyOnGoingToBackgroundSaveHandler : public ::UnityEngine::MonoBehaviour {
 public:
@@ -46,9 +43,6 @@ public:
 
   /// @brief Field _saveData, offset 0x30, size 0x8
   __declspec(property(get = __get__saveData, put = __set__saveData))::GlobalNamespace::ISaveData* _saveData;
-
-  /// @brief Field _sonyBackgroundExecutionHelper, offset 0x38, size 0x8
-  __declspec(property(get = __get__sonyBackgroundExecutionHelper, put = __set__sonyBackgroundExecutionHelper))::GlobalNamespace::SonyBackgroundExecutionHelper* _sonyBackgroundExecutionHelper;
 
   constexpr ::GlobalNamespace::LocalLeaderboardsModel*& __get__localLeaderboardModel();
 
@@ -74,24 +68,24 @@ public:
 
   constexpr void __set__saveData(::GlobalNamespace::ISaveData* value);
 
-  constexpr ::GlobalNamespace::SonyBackgroundExecutionHelper*& __get__sonyBackgroundExecutionHelper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyBackgroundExecutionHelper*> const& __get__sonyBackgroundExecutionHelper() const;
-
-  constexpr void __set__sonyBackgroundExecutionHelper(::GlobalNamespace::SonyBackgroundExecutionHelper* value);
-
-  /// @brief Method Initialize addr 0x2369be8 size 0xb8 virtual false final false
+  /// @brief Method Initialize addr 0x222fd94 size 0x68 virtual false final false
   inline void Initialize();
 
-  /// @brief Method OnDestroy addr 0x2369ca0 size 0x94 virtual false final false
+  /// @brief Method OnDestroy addr 0x222fdfc size 0xc virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandlePlatformBackgroundExecutionHelperDidGoToBackgroundExecution addr 0x2369d34 size 0x48 virtual false final false
-  inline void HandlePlatformBackgroundExecutionHelperDidGoToBackgroundExecution();
+  /// @brief Method Subscribe addr 0x0 size 0xffffffffffffffff virtual true final false
+  inline void Subscribe();
+
+  /// @brief Method Unsubscribe addr 0x0 size 0xffffffffffffffff virtual true final false
+  inline void Unsubscribe();
+
+  /// @brief Method HandlePlatformHelperDidGoToBackgroundExecution addr 0x222fe08 size 0x48 virtual false final false
+  inline void HandlePlatformHelperDidGoToBackgroundExecution();
 
   static inline ::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler* New_ctor();
 
-  /// @brief Method .ctor addr 0x2369d7c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x222e28c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SonyOnGoingToBackgroundSaveHandler", modifiers: "&&", def_value: None }]
@@ -120,13 +114,18 @@ public:
   /// @brief Field _saveData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::ISaveData* ____saveData;
 
-  /// @brief Field _sonyBackgroundExecutionHelper, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::SonyBackgroundExecutionHelper* ____sonyBackgroundExecutionHelper;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler, ____localLeaderboardModel) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler, ____mainSettingsModel) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler, ____playerDataModel) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler, ____saveData) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler);

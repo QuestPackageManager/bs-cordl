@@ -22,25 +22,25 @@ MARK_REF_PTR_T(::GlobalNamespace::SavWav);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5375))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5468))
 // CS Name: ::SavWav*
 class CORDL_TYPE SavWav : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Save addr 0x226cc1c size 0x3ac virtual false final false
+  /// @brief Method Save addr 0x21289a0 size 0x3a8 virtual false final false
   static inline void Save(::StringW filepath, ::UnityEngine::AudioClip* clip, float_t start, float_t duration);
 
-  /// @brief Method GetWav addr 0x226cfc8 size 0x40 virtual false final false
+  /// @brief Method GetWav addr 0x2128d48 size 0x40 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetWav(::UnityEngine::AudioClip* clip, ByRef<uint32_t> length, float_t start, float_t duration);
 
-  /// @brief Method ConvertAndWrite addr 0x226d008 size 0x268 virtual false final false
+  /// @brief Method ConvertAndWrite addr 0x2128d88 size 0x268 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConvertAndWrite(::UnityEngine::AudioClip* clip, ByRef<uint32_t> length, ByRef<uint32_t> samplesAfterTrimming, float_t start, float_t duration);
 
-  /// @brief Method AddDataToBuffer addr 0x226d520 size 0x70 virtual false final false
+  /// @brief Method AddDataToBuffer addr 0x21292a0 size 0x70 virtual false final false
   static inline void AddDataToBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<uint32_t> offset, ::ArrayW<uint8_t, ::Array<uint8_t>*> addBytes);
 
-  /// @brief Method WriteHeader addr 0x226d270 size 0x2b0 virtual false final false
+  /// @brief Method WriteHeader addr 0x2128ff0 size 0x2b0 virtual false final false
   static inline void WriteHeader(::ArrayW<uint8_t, ::Array<uint8_t>*> stream, ::UnityEngine::AudioClip* clip, uint32_t length, uint32_t samples);
 
   // Ctor Parameters [CppParam { name: "", ty: "SavWav", modifiers: "&&", def_value: None }]

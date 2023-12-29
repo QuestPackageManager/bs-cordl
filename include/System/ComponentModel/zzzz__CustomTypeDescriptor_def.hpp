@@ -7,25 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CustomTypeDescriptor)
 namespace System::ComponentModel {
-class PropertyDescriptor;
-}
-namespace System {
-class Type;
-}
-namespace System::ComponentModel {
 class ICustomTypeDescriptor;
-}
-namespace System::ComponentModel {
-class EventDescriptor;
-}
-namespace System::ComponentModel {
-class EventDescriptorCollection;
-}
-namespace System::ComponentModel {
-class TypeConverter;
-}
-namespace System {
-class Object;
 }
 namespace System::ComponentModel {
 class AttributeCollection;
@@ -34,7 +16,25 @@ namespace System {
 class Attribute;
 }
 namespace System::ComponentModel {
+class TypeConverter;
+}
+namespace System::ComponentModel {
+class EventDescriptorCollection;
+}
+namespace System::ComponentModel {
+class PropertyDescriptor;
+}
+namespace System::ComponentModel {
+class EventDescriptor;
+}
+namespace System {
+class Type;
+}
+namespace System::ComponentModel {
 class PropertyDescriptorCollection;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::System::ComponentModel::CustomTypeDescriptor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9414))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8251))
 // CS Name: ::System.ComponentModel::CustomTypeDescriptor*
 class CORDL_TYPE CustomTypeDescriptor : public ::System::Object {
 public:
@@ -66,43 +66,43 @@ public:
 
   static inline ::System::ComponentModel::CustomTypeDescriptor* New_ctor();
 
-  /// @brief Method .ctor addr 0x290cc34 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x278ec0c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method GetAttributes addr 0x290cc3c size 0xd8 virtual true final false
+  /// @brief Method GetAttributes addr 0x278ec14 size 0xd8 virtual true final false
   inline ::System::ComponentModel::AttributeCollection* GetAttributes();
 
-  /// @brief Method GetClassName addr 0x290cd14 size 0xb0 virtual true final false
+  /// @brief Method GetClassName addr 0x278ecec size 0xb0 virtual true final false
   inline ::StringW GetClassName();
 
-  /// @brief Method GetComponentName addr 0x290cdc4 size 0xb0 virtual true final false
+  /// @brief Method GetComponentName addr 0x278ed9c size 0xb0 virtual true final false
   inline ::StringW GetComponentName();
 
-  /// @brief Method GetConverter addr 0x290ce74 size 0xe0 virtual true final false
+  /// @brief Method GetConverter addr 0x278ee4c size 0xe0 virtual true final false
   inline ::System::ComponentModel::TypeConverter* GetConverter();
 
-  /// @brief Method GetDefaultEvent addr 0x290cf54 size 0xb0 virtual true final false
+  /// @brief Method GetDefaultEvent addr 0x278ef2c size 0xb0 virtual true final false
   inline ::System::ComponentModel::EventDescriptor* GetDefaultEvent();
 
-  /// @brief Method GetDefaultProperty addr 0x290d004 size 0xb0 virtual true final false
+  /// @brief Method GetDefaultProperty addr 0x278efdc size 0xb0 virtual true final false
   inline ::System::ComponentModel::PropertyDescriptor* GetDefaultProperty();
 
-  /// @brief Method GetEditor addr 0x290d0b4 size 0xb8 virtual true final false
+  /// @brief Method GetEditor addr 0x278f08c size 0xb8 virtual true final false
   inline ::System::Object* GetEditor(::System::Type* editorBaseType);
 
-  /// @brief Method GetEvents addr 0x290d16c size 0xdc virtual true final false
+  /// @brief Method GetEvents addr 0x278f144 size 0xdc virtual true final false
   inline ::System::ComponentModel::EventDescriptorCollection* GetEvents();
 
-  /// @brief Method GetEvents addr 0x290d248 size 0xe4 virtual true final false
+  /// @brief Method GetEvents addr 0x278f220 size 0xe4 virtual true final false
   inline ::System::ComponentModel::EventDescriptorCollection* GetEvents(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetProperties addr 0x290d32c size 0xdc virtual true final false
+  /// @brief Method GetProperties addr 0x278f304 size 0xdc virtual true final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties();
 
-  /// @brief Method GetProperties addr 0x290d408 size 0xe4 virtual true final false
+  /// @brief Method GetProperties addr 0x278f3e0 size 0xe4 virtual true final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetPropertyOwner addr 0x290d4ec size 0xb8 virtual true final false
+  /// @brief Method GetPropertyOwner addr 0x278f4c4 size 0xb8 virtual true final false
   inline ::System::Object* GetPropertyOwner(::System::ComponentModel::PropertyDescriptor* pd);
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomTypeDescriptor", modifiers: "&&", def_value: None }]
@@ -126,6 +126,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::CustomTypeDescriptor, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::CustomTypeDescriptor, ____parent) == 0x10, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::CustomTypeDescriptor);

@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::BeatmapDifficultyMask);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14719))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14936))
 // CS Name: ::BeatmapDifficultyMask
 struct CORDL_TYPE BeatmapDifficultyMask {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDifficultyMask, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDifficultyMask, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDifficultyMask, "", "BeatmapDifficultyMask");

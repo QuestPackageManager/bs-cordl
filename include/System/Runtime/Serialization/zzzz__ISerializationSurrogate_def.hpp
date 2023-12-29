@@ -4,16 +4,16 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ISerializationSurrogate)
 namespace System::Runtime::Serialization {
-class ISurrogateSelector;
+class SerializationInfo;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ISerializationSurrogate);
 namespace System::Runtime::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3203))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3202))
 // CS Name: ::System.Runtime.Serialization::ISerializationSurrogate*
 class CORDL_TYPE ISerializationSurrogate {
 public:

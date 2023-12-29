@@ -5,11 +5,14 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Bson/zzzz__BsonToken_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BsonObject)
-namespace Newtonsoft::Json::Bson {
-class BsonProperty;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace Newtonsoft::Json::Bson {
+struct BsonType;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -20,14 +23,11 @@ class BsonToken;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace Newtonsoft::Json::Bson {
+class BsonProperty;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace Newtonsoft::Json::Bson {
-struct BsonType;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonObject);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12074))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12075))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12002))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12003))
 // CS Name: ::Newtonsoft.Json.Bson::BsonObject*
 class CORDL_TYPE BsonObject : public ::Newtonsoft::Json::Bson::BsonToken {
 public:
@@ -62,21 +62,21 @@ public:
 
   constexpr void __set__children(::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonProperty*>* value);
 
-  /// @brief Method Add addr 0x26c8090 size 0x134 virtual false final false
+  /// @brief Method Add addr 0x2564940 size 0x134 virtual false final false
   inline void Add(::StringW name, ::Newtonsoft::Json::Bson::BsonToken* token);
 
-  /// @brief Method get_Type addr 0x26c8208 size 0x8 virtual true final false
+  /// @brief Method get_Type addr 0x2564ab8 size 0x8 virtual true final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-  /// @brief Method GetEnumerator addr 0x26c6138 size 0x90 virtual true final true
+  /// @brief Method GetEnumerator addr 0x25629f0 size 0x90 virtual true final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Bson::BsonProperty*>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x26c8210 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2564ac0 size 0x4 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   static inline ::Newtonsoft::Json::Bson::BsonObject* New_ctor();
 
-  /// @brief Method .ctor addr 0x26c8214 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x2564ac4 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BsonObject", modifiers: "&&", def_value: None }]
@@ -100,6 +100,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Bson::BsonObject, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Bson::BsonObject, ____children) == 0x20, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Bson
 NEED_NO_BOX(::Newtonsoft::Json::Bson::BsonObject);

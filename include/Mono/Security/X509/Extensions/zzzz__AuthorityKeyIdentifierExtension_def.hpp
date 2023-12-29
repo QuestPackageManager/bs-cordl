@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtensi
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509::Extensions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13756))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13761))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14027))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14032))
 // CS Name: ::Mono.Security.X509.Extensions::AuthorityKeyIdentifierExtension*
 class CORDL_TYPE AuthorityKeyIdentifierExtension : public ::Mono::Security::X509::X509Extension {
 public:
@@ -39,19 +39,19 @@ public:
 
   static inline ::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension* New_ctor(::Mono::Security::X509::X509Extension* extension);
 
-  /// @brief Method .ctor addr 0x23fe310 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x22a4004 size 0x4 virtual false final false
   inline void _ctor(::Mono::Security::X509::X509Extension* extension);
 
-  /// @brief Method Decode addr 0x23fe314 size 0x118 virtual true final false
+  /// @brief Method Decode addr 0x22a4008 size 0x118 virtual true final false
   inline void Decode();
 
-  /// @brief Method Encode addr 0x23fe42c size 0x124 virtual true final false
+  /// @brief Method Encode addr 0x22a4120 size 0x124 virtual true final false
   inline void Encode();
 
-  /// @brief Method get_Identifier addr 0x23fe550 size 0x74 virtual false final false
+  /// @brief Method get_Identifier addr 0x22a4244 size 0x74 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Identifier();
 
-  /// @brief Method ToString addr 0x23fe5c4 size 0x168 virtual true final false
+  /// @brief Method ToString addr 0x22a42b8 size 0x168 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthorityKeyIdentifierExtension", modifiers: "&&", def_value: None }]
@@ -75,6 +75,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension, ___aki) == 0x28, "Offset mismatch!");
 
 } // namespace Mono::Security::X509::Extensions
 NEED_NO_BOX(::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension);

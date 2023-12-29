@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IScoreSyncStateManager)
 namespace GlobalNamespace {
+struct StandardScoreSyncState;
+}
+namespace GlobalNamespace {
 struct __StandardScoreSyncState__Score;
 }
 namespace GlobalNamespace {
-struct StandardScoreSyncState;
+class StandardScoreSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
 class StandardScoreSyncStateDeltaNetSerializable;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class IScoreSyncStateManager_5;
-}
-namespace GlobalNamespace {
-class StandardScoreSyncStateNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IScoreSyncStateManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14945))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4542))
 // CS Name: ::IScoreSyncStateManager*
 class CORDL_TYPE IScoreSyncStateManager {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::InteropServices::GCHandleType);
 namespace System::Runtime::InteropServices {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3308))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3305))
 // CS Name: ::System.Runtime.InteropServices::GCHandleType
 struct CORDL_TYPE GCHandleType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::GCHandleType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::GCHandleType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Runtime::InteropServices
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::GCHandleType, "System.Runtime.InteropServices", "GCHandleType");

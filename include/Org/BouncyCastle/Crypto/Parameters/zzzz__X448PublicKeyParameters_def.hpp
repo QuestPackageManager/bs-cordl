@@ -43,18 +43,18 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method .ctor addr 0xf3c538 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0xec634c size 0xbc virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor addr 0xf3c7b8 size 0x108 virtual false final false
+  /// @brief Method .ctor addr 0xec65cc size 0x108 virtual false final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method Encode addr 0xf3c6e8 size 0x84 virtual false final false
+  /// @brief Method Encode addr 0xec64fc size 0x84 virtual false final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method GetEncoded addr 0xf3c8c0 size 0x5c virtual false final false
+  /// @brief Method GetEncoded addr 0xec66d4 size 0x5c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   // Ctor Parameters [CppParam { name: "", ty: "X448PublicKeyParameters", modifiers: "&&", def_value: None }]
@@ -78,6 +78,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters, ___data) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters);

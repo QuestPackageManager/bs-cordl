@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::GUILayoutOption);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14629))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14846))
 // CS Name: ::GUILayoutOption::Type
 struct CORDL_TYPE __GUILayoutOption__Type {
 public:
@@ -118,13 +118,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::__GUILayoutOption__Type, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::__GUILayoutOption__Type, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine
 // Type: UnityEngine::GUILayoutOption
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14629)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14630))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14846))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14847))
 // CS Name: ::UnityEngine::GUILayoutOption*
 class CORDL_TYPE GUILayoutOption : public ::System::Object {
 public:
@@ -151,7 +153,7 @@ public:
 
   static inline ::UnityEngine::GUILayoutOption* New_ctor(::UnityEngine::__GUILayoutOption__Type type, ::System::Object* value);
 
-  /// @brief Method .ctor addr 0x2d0e124 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x2ba6d14 size 0x30 virtual false final false
   inline void _ctor(::UnityEngine::__GUILayoutOption__Type type, ::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "GUILayoutOption", modifiers: "&&", def_value: None }]
@@ -178,6 +180,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::GUILayoutOption, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUILayoutOption, ___type) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUILayoutOption, ___value) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::__GUILayoutOption__Type, "UnityEngine", "GUILayoutOption/Type");

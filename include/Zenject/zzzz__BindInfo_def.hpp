@@ -13,25 +13,25 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-class Type;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System {
 class Object;
+}
+namespace Zenject {
+class BindingCondition;
 }
 namespace System {
 class IDisposable;
 }
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
 namespace Zenject {
-class BindingCondition;
+struct TypeValuePair;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class InjectContext;
 }
 // Forward declare root types
 namespace Zenject {
@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::Zenject::BindInfo);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10942)), TypeDefinitionIndex(TypeDefinitionIndex(10943)), TypeDefinitionIndex(TypeDefinitionIndex(10945)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10944)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10946)) CS Name: ::Zenject::BindInfo*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10873)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10872)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10871)), TypeDefinitionIndex(TypeDefinitionIndex(10870))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10874)) CS Name: ::Zenject::BindInfo*
 class CORDL_TYPE BindInfo : public ::System::Object {
 public:
   // Declarations
@@ -215,16 +215,16 @@ public:
 
   static inline ::Zenject::BindInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ede974 size 0xec virtual false final false
+  /// @brief Method .ctor addr 0x2d76bf4 size 0xec virtual false final false
   inline void _ctor();
 
-  /// @brief Method Dispose addr 0x2edeb5c size 0x58 virtual true final true
+  /// @brief Method Dispose addr 0x2d76ddc size 0x58 virtual true final true
   inline void Dispose();
 
-  /// @brief Method SetContextInfo addr 0x2edebb4 size 0x8 virtual false final false
+  /// @brief Method SetContextInfo addr 0x2d76e34 size 0x8 virtual false final false
   inline void SetContextInfo(::StringW contextInfo);
 
-  /// @brief Method Reset addr 0x2edea60 size 0xfc virtual false final false
+  /// @brief Method Reset addr 0x2d76ce0 size 0xfc virtual false final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "BindInfo", modifiers: "&&", def_value: None }]
@@ -299,6 +299,42 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::BindInfo, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___MarkAsCreationBinding) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___MarkAsUniqueSingleton) == 0x11, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___ConcreteIdentifier) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___SaveProvider) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___OnlyBindIfNotBound) == 0x21, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___RequireExplicitScope) == 0x22, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___Identifier) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___ContractTypes) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___BindingInheritanceMethod) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___InvalidBindResponse) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___NonLazy) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___Condition) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___ToChoice) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___ContextInfo) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___ToTypes) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___Scope) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___Arguments) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::BindInfo, ___InstantiatedCallback) == 0x78, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::BindInfo);

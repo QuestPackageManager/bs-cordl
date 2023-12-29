@@ -5,29 +5,29 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Observable)
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
 namespace System {
 template <typename T> class IObservable_1;
 }
 namespace System {
-class IDisposable;
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> class __Observable____c__DisplayClass6_0_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System {
-template <typename T> class Action_1;
+class IDisposable;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __Observable____c__DisplayClass6_0_1;
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -45,8 +45,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6687))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6773))
 // CS Name: ::Observable::<>c__DisplayClass6_0`1<TValue>*
 class CORDL_TYPE __Observable____c__DisplayClass6_0_1 : public ::System::Object {
 public:
@@ -93,8 +93,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6688))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6774))
 // CS Name: ::UnityEngine.InputSystem.Utilities::Observable*
 class CORDL_TYPE Observable : public ::System::Object {
 public:
@@ -114,7 +114,7 @@ public:
   /// @brief Method Take addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename TValue> static inline ::System::IObservable_1<TValue>* Take(::System::IObservable_1<TValue>* source, int32_t count);
 
-  /// @brief Method ForDevice addr 0x2b15fc0 size 0xbc virtual false final false
+  /// @brief Method ForDevice addr 0x299526c size 0xbc virtual false final false
   static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source,
                                                                                                         ::UnityEngine::InputSystem::InputDevice* device);
 

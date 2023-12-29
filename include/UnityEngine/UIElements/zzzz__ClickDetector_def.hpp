@@ -6,6 +6,12 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ClickDetector)
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine {
+struct Vector2;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -14,12 +20,6 @@ class EventBase;
 }
 namespace UnityEngine::UIElements {
 class __ClickDetector__ButtonClickStatus;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6755))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6841))
 // CS Name: ::ClickDetector::ButtonClickStatus*
 class CORDL_TYPE __ClickDetector__ButtonClickStatus : public ::System::Object {
 public:
@@ -77,12 +77,12 @@ public:
 
   constexpr void __set_m_ClickCount(int32_t value);
 
-  /// @brief Method Reset addr 0x2db334c size 0x64 virtual false final false
+  /// @brief Method Reset addr 0x2c4bf9c size 0x64 virtual false final false
   inline void Reset();
 
   static inline ::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus* New_ctor();
 
-  /// @brief Method .ctor addr 0x2db30dc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2c4bd2c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ClickDetector__ButtonClickStatus", modifiers: "&&", def_value: None }]
@@ -116,13 +116,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus, ___m_Target) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus, ___m_PointerDownPosition) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus, ___m_LastPointerDownTime) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus, ___m_ClickCount) == 0x30, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::ClickDetector
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6756))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6842))
 // CS Name: ::UnityEngine.UIElements::ClickDetector*
 class CORDL_TYPE ClickDetector : public ::System::Object {
 public:
@@ -145,30 +153,30 @@ public:
 
   static inline int32_t getStaticF__s_DoubleClickTime_k__BackingField();
 
-  /// @brief Method get_s_DoubleClickTime addr 0x2db2dc8 size 0x58 virtual false final false
+  /// @brief Method get_s_DoubleClickTime addr 0x2c4ba18 size 0x58 virtual false final false
   static inline int32_t get_s_DoubleClickTime();
 
-  /// @brief Method set_s_DoubleClickTime addr 0x2db2e20 size 0x5c virtual false final false
+  /// @brief Method set_s_DoubleClickTime addr 0x2c4ba70 size 0x5c virtual false final false
   static inline void set_s_DoubleClickTime(int32_t value);
 
   static inline ::UnityEngine::UIElements::ClickDetector* New_ctor();
 
-  /// @brief Method .ctor addr 0x2db2e7c size 0x260 virtual false final false
+  /// @brief Method .ctor addr 0x2c4bacc size 0x260 virtual false final false
   inline void _ctor();
 
-  /// @brief Method StartClickTracking addr 0x2db30e4 size 0x268 virtual false final false
+  /// @brief Method StartClickTracking addr 0x2c4bd34 size 0x268 virtual false final false
   inline void StartClickTracking(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method SendClickEvent addr 0x2db33b0 size 0x3e4 virtual false final false
+  /// @brief Method SendClickEvent addr 0x2c4c000 size 0x3e4 virtual false final false
   inline void SendClickEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method CancelClickTracking addr 0x2db38b4 size 0xfc virtual false final false
+  /// @brief Method CancelClickTracking addr 0x2c4c504 size 0xfc virtual false final false
   inline void CancelClickTracking(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ProcessEvent addr 0x2db39b0 size 0x51c virtual false final false
+  /// @brief Method ProcessEvent addr 0x2c4c600 size 0x51c virtual false final false
   inline void ProcessEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ContainsPointer addr 0x2db3794 size 0x120 virtual false final false
+  /// @brief Method ContainsPointer addr 0x2c4c3e4 size 0x120 virtual false final false
   static inline bool ContainsPointer(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::Vector2 position);
 
   // Ctor Parameters [CppParam { name: "", ty: "ClickDetector", modifiers: "&&", def_value: None }]
@@ -192,6 +200,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ClickDetector, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ClickDetector, ___m_ClickStatus) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ClickDetector);

@@ -5,10 +5,10 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::GlobalNamespace::BakedLightUtils::ValidateLoadedEnvironmentScene)> {
-  constexpr static std::size_t size = 0x838;
-  constexpr static std::size_t addrs = 0x22f5e28;
+  constexpr static std::size_t size = 0x80c;
+  constexpr static std::size_t addrs = 0x21ad5f8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightUtils*>::get(), "ValidateLoadedEnvironmentScene",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));

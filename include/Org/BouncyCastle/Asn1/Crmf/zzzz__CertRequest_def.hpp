@@ -8,20 +8,20 @@ CORDL_MODULE_EXPORT(CertRequest)
 namespace Org::BouncyCastle::Asn1::Crmf {
 class CertTemplate;
 }
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class Controls;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class Controls;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -74,34 +74,34 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertRequest* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe84788 size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0xe0f5b4 size 0x9c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe841e8 size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0xe0f014 size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertRequest* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertRequest* New_ctor(int32_t certReqId, ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certTemplate,
                                                                        ::Org::BouncyCastle::Asn1::Crmf::Controls* controls);
 
-  /// @brief Method .ctor addr 0xe84a54 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0xe0f880 size 0x8c virtual false final false
   inline void _ctor(int32_t certReqId, ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certTemplate, ::Org::BouncyCastle::Asn1::Crmf::Controls* controls);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertRequest* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certTemplate,
                                                                        ::Org::BouncyCastle::Asn1::Crmf::Controls* controls);
 
-  /// @brief Method .ctor addr 0xe84ae0 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0xe0f90c size 0x3c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certTemplate, ::Org::BouncyCastle::Asn1::Crmf::Controls* controls);
 
-  /// @brief Method get_CertReqID addr 0xe84b1c size 0x8 virtual true final false
+  /// @brief Method get_CertReqID addr 0xe0f948 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CertReqID();
 
-  /// @brief Method get_CertTemplate addr 0xe84b24 size 0x8 virtual true final false
+  /// @brief Method get_CertTemplate addr 0xe0f950 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* get_CertTemplate();
 
-  /// @brief Method get_Controls addr 0xe84b2c size 0x8 virtual true final false
+  /// @brief Method get_Controls addr 0xe0f958 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Crmf::Controls* get_Controls();
 
-  /// @brief Method ToAsn1Object addr 0xe84b34 size 0x174 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe0f960 size 0x174 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertRequest", modifiers: "&&", def_value: None }]
@@ -131,6 +131,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Crmf::CertRequest, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertRequest, ___certReqId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertRequest, ___certTemplate) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertRequest, ___controls) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Crmf::CertRequest);

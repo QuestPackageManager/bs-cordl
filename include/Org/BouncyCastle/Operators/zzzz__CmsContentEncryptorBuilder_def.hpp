@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsContentEncryptorBuilder)
-namespace Org::BouncyCastle::Cms {
-class EnvelopedDataHelper;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherBuilderWithKey;
 }
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Cms {
+class EnvelopedDataHelper;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Operators {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Operators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(997))
 // CS Name: ::Org.BouncyCastle.Operators::CmsContentEncryptorBuilder*
 class CORDL_TYPE CmsContentEncryptorBuilder : public ::System::Object {
@@ -67,20 +67,20 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_KeySizes();
 
-  /// @brief Method GetKeySize addr 0xf2d628 size 0x1a4 virtual false final false
+  /// @brief Method GetKeySize addr 0xeb843c size 0x1a4 virtual false final false
   static inline int32_t GetKeySize(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   static inline ::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID);
 
-  /// @brief Method .ctor addr 0xf2d7cc size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0xeb85e0 size 0x70 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID);
 
   static inline ::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize);
 
-  /// @brief Method .ctor addr 0xf2d83c size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0xeb8650 size 0x84 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize);
 
-  /// @brief Method Build addr 0xf2d8c0 size 0x68 virtual false final false
+  /// @brief Method Build addr 0xeb86d4 size 0x68 virtual false final false
   inline ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* Build();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsContentEncryptorBuilder", modifiers: "&&", def_value: None }]
@@ -110,6 +110,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder, ___encryptionOID) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder, ___keySize) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder, ___helper) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Operators
 NEED_NO_BOX(::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder);

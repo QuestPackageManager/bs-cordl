@@ -14,14 +14,11 @@ class Object;
 namespace GlobalNamespace {
 template <typename TResult> class __ValueTask_1__ValueTaskSourceAsTask____c;
 }
-namespace System::Threading::Tasks::Sources {
-template <typename TResult> class IValueTaskSource_1;
-}
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class __ValueTask_1__ValueTaskSourceAsTask;
+namespace System::Threading::Tasks::Sources {
+template <typename TResult> class IValueTaskSource_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -34,6 +31,9 @@ template <typename TResult> struct ConfiguredValueTaskAwaitable_1;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class __ValueTask_1__ValueTaskSourceAsTask;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,8 +55,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2765))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2763))
 // CS Name: ::ValueTask`1::ValueTaskSourceAsTask::<>c<TResult>*
 class CORDL_TYPE __ValueTask_1__ValueTaskSourceAsTask____c : public ::System::Object {
 public:
@@ -100,8 +100,8 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 3850 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2766))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2769), inst: 3758 }), TypeDefinitionIndex(TypeDefinitionIndex(2769))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2764))
 // CS Name: ::ValueTask`1::ValueTaskSourceAsTask<TResult>*
 class CORDL_TYPE __ValueTask_1__ValueTaskSourceAsTask : public ::System::Threading::Tasks::Task_1<TResult> {
 public:
@@ -169,7 +169,7 @@ namespace System::Threading::Tasks {
 template <typename TResult>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2767))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2765))
 // CS Name: ::System.Threading.Tasks::ValueTask`1<TResult>
 struct CORDL_TYPE ValueTask_1 {
 public:

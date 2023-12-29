@@ -6,14 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KekIdentifier)
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerGeneralizedTime;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -21,8 +18,11 @@ class Asn1Sequence;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class OtherKeyAttribute;
@@ -79,30 +79,30 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* date,
                                                                         ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* other);
 
-  /// @brief Method .ctor addr 0xe78794 size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0xe035c0 size 0x90 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* date, ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* other);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe78824 size 0x298 virtual false final false
+  /// @brief Method .ctor addr 0xe03650 size 0x298 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe78c44 size 0x18 virtual false final false
+  /// @brief Method GetInstance addr 0xe03a70 size 0x18 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0xe78c5c size 0x178 virtual false final false
+  /// @brief Method GetInstance addr 0xe03a88 size 0x178 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_KeyIdentifier addr 0xe78dd4 size 0x8 virtual false final false
+  /// @brief Method get_KeyIdentifier addr 0xe03c00 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_KeyIdentifier();
 
-  /// @brief Method get_Date addr 0xe78ddc size 0x8 virtual false final false
+  /// @brief Method get_Date addr 0xe03c08 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_Date();
 
-  /// @brief Method get_Other addr 0xe78de4 size 0x8 virtual false final false
+  /// @brief Method get_Other addr 0xe03c10 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* get_Other();
 
-  /// @brief Method ToAsn1Object addr 0xe78dec size 0x174 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe03c18 size 0x174 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "KekIdentifier", modifiers: "&&", def_value: None }]
@@ -132,6 +132,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::KekIdentifier, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::KekIdentifier, ___keyIdentifier) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::KekIdentifier, ___date) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::KekIdentifier, ___other) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::KekIdentifier);

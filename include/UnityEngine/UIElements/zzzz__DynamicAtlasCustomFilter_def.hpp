@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(DynamicAtlasCustomFilter)
 namespace System {
 class Object;
 }
-namespace UnityEngine::UIElements {
-struct DynamicAtlasFilters;
-}
 namespace UnityEngine {
 class Texture2D;
+}
+namespace UnityEngine::UIElements {
+struct DynamicAtlasFilters;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -25,18 +25,18 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DynamicAtlasCustomFilter);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6760))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6846))
 // CS Name: ::UnityEngine.UIElements::DynamicAtlasCustomFilter*
 class CORDL_TYPE DynamicAtlasCustomFilter : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::DynamicAtlasCustomFilter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2db4200 size 0xd8 virtual false final false
+  /// @brief Method .ctor addr 0x2c4ce50 size 0xd8 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2db42d8 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2c4cf28 size 0x14 virtual true final false
   inline bool Invoke(::UnityEngine::Texture2D* texture, ByRef<::UnityEngine::UIElements::DynamicAtlasFilters> filtersToApply);
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlasCustomFilter", modifiers: "&&", def_value: None }]

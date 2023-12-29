@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConsoleDriver)
 namespace System {
-struct ConsoleKeyInfo;
+class IConsoleDriver;
 }
 namespace System {
-class IConsoleDriver;
+struct ConsoleKeyInfo;
 }
 // Forward declare root types
 namespace System {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::ConsoleDriver);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2587))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2585))
 // CS Name: ::System::ConsoleDriver*
 class CORDL_TYPE ConsoleDriver : public ::System::Object {
 public:
@@ -51,31 +51,31 @@ public:
 
   static inline bool getStaticF_called_isatty();
 
-  /// @brief Method CreateNullConsoleDriver addr 0x25f7788 size 0x4c virtual false final false
+  /// @brief Method CreateNullConsoleDriver addr 0x249c7f8 size 0x4c virtual false final false
   static inline ::System::IConsoleDriver* CreateNullConsoleDriver();
 
-  /// @brief Method CreateWindowsConsoleDriver addr 0x25f77d4 size 0x5c virtual false final false
+  /// @brief Method CreateWindowsConsoleDriver addr 0x249c844 size 0x5c virtual false final false
   static inline ::System::IConsoleDriver* CreateWindowsConsoleDriver();
 
-  /// @brief Method CreateTermInfoDriver addr 0x25f7830 size 0x60 virtual false final false
+  /// @brief Method CreateTermInfoDriver addr 0x249c8a0 size 0x60 virtual false final false
   static inline ::System::IConsoleDriver* CreateTermInfoDriver(::StringW term);
 
-  /// @brief Method ReadKey addr 0x25f714c size 0xd8 virtual false final false
+  /// @brief Method ReadKey addr 0x249c1bc size 0xd8 virtual false final false
   static inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
-  /// @brief Method get_IsConsole addr 0x25f694c size 0x138 virtual false final false
+  /// @brief Method get_IsConsole addr 0x249ba0c size 0x138 virtual false final false
   static inline bool get_IsConsole();
 
-  /// @brief Method Isatty addr 0x25f7bdc size 0x4 virtual false final false
+  /// @brief Method Isatty addr 0x249cc4c size 0x4 virtual false final false
   static inline bool Isatty(void* handle);
 
-  /// @brief Method InternalKeyAvailable addr 0x25f7be0 size 0x4 virtual false final false
+  /// @brief Method InternalKeyAvailable addr 0x249cc50 size 0x4 virtual false final false
   static inline int32_t InternalKeyAvailable(int32_t ms_timeout);
 
-  /// @brief Method TtySetup addr 0x25f7be4 size 0x4 virtual false final false
+  /// @brief Method TtySetup addr 0x249cc54 size 0x4 virtual false final false
   static inline bool TtySetup(::StringW keypadXmit, ::StringW teardown, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> control_characters, ByRef<::cordl_internals::Ptr<int32_t>> address);
 
-  /// @brief Method SetEcho addr 0x25f7be8 size 0x8 virtual false final false
+  /// @brief Method SetEcho addr 0x249cc58 size 0x8 virtual false final false
   static inline bool SetEcho(bool wantEcho);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConsoleDriver", modifiers: "&&", def_value: None }]

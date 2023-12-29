@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::ICancelHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13188))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13193))
 // CS Name: ::UnityEngine.EventSystems::ICancelHandler*
 class CORDL_TYPE ICancelHandler {
 public:

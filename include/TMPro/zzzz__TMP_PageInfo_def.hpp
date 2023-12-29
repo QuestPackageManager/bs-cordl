@@ -17,7 +17,7 @@ MARK_VAL_T(::TMPro::TMP_PageInfo);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12318))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12246))
 // CS Name: ::TMPro::TMP_PageInfo
 struct CORDL_TYPE TMP_PageInfo {
 public:
@@ -53,6 +53,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_PageInfo, 0x14>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_PageInfo, firstCharacterIndex) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_PageInfo, lastCharacterIndex) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_PageInfo, ascender) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_PageInfo, baseLine) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_PageInfo, descender) == 0x10, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_PageInfo, "TMPro", "TMP_PageInfo");

@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IX509Selector)
 namespace System {
-class ICloneable;
+class Object;
 }
 namespace System {
-class Object;
+class ICloneable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {

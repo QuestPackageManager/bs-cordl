@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IBloomPrePassParams)
 namespace GlobalNamespace {
-struct ToneMapping;
-}
-namespace GlobalNamespace {
 class TextureEffectSO;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace GlobalNamespace {
+struct ToneMapping;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBloomPrePassParams);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14484))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14702))
 // CS Name: ::IBloomPrePassParams*
 class CORDL_TYPE IBloomPrePassParams {
 public:

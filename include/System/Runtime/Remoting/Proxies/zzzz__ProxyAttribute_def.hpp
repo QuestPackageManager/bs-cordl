@@ -4,29 +4,29 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
 CORDL_MODULE_EXPORT(ProxyAttribute)
-namespace System::Runtime::Remoting {
-class ObjRef;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Remoting::Contexts {
-class IContextAttribute;
-}
 namespace System::Runtime::Remoting::Proxies {
 class RealProxy;
 }
 namespace System::Runtime::Remoting::Contexts {
 class Context;
 }
-namespace System {
-class MarshalByRefObject;
+namespace System::Runtime::Remoting::Contexts {
+class IContextAttribute;
+}
+namespace System::Runtime::Remoting {
+class ObjRef;
 }
 namespace System::Runtime::Remoting::Activation {
 class IConstructionCallMessage;
 }
 namespace System {
 class Type;
+}
+namespace System {
+class MarshalByRefObject;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Proxies {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Proxies::ProxyAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Proxies {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3086))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3085))
 // CS Name: ::System.Runtime.Remoting.Proxies::ProxyAttribute*
 class CORDL_TYPE ProxyAttribute : public ::System::Attribute {
 public:
@@ -47,17 +47,17 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Contexts::IContextAttribute"
   constexpr operator ::System::Runtime::Remoting::Contexts::IContextAttribute*() noexcept;
 
-  /// @brief Method CreateInstance addr 0x2496398 size 0x104 virtual true final false
+  /// @brief Method CreateInstance addr 0x233d8a4 size 0x104 virtual true final false
   inline ::System::MarshalByRefObject* CreateInstance(::System::Type* serverType);
 
-  /// @brief Method CreateProxy addr 0x24964e4 size 0x70 virtual true final false
+  /// @brief Method CreateProxy addr 0x233d9f0 size 0x70 virtual true final false
   inline ::System::Runtime::Remoting::Proxies::RealProxy* CreateProxy(::System::Runtime::Remoting::ObjRef* objRef, ::System::Type* serverType, ::System::Object* serverObject,
                                                                       ::System::Runtime::Remoting::Contexts::Context* serverContext);
 
-  /// @brief Method GetPropertiesForNewContext addr 0x2496554 size 0x4 virtual true final true
+  /// @brief Method GetPropertiesForNewContext addr 0x233da60 size 0x4 virtual true final true
   inline void GetPropertiesForNewContext(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
-  /// @brief Method IsContextOK addr 0x2496558 size 0x8 virtual true final true
+  /// @brief Method IsContextOK addr 0x233da64 size 0x8 virtual true final true
   inline bool IsContextOK(::System::Runtime::Remoting::Contexts::Context* ctx, ::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "ProxyAttribute", modifiers: "&&", def_value: None }]

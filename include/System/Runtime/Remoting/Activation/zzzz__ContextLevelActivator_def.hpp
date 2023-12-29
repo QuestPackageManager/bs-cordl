@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::ContextLevelActivator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3132))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3131))
 // CS Name: ::System.Runtime.Remoting.Activation::ContextLevelActivator*
 class CORDL_TYPE ContextLevelActivator : public ::System::Object {
 public:
@@ -45,13 +45,13 @@ public:
 
   static inline ::System::Runtime::Remoting::Activation::ContextLevelActivator* New_ctor(::System::Runtime::Remoting::Activation::IActivator* next);
 
-  /// @brief Method .ctor addr 0x24a4528 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x234ba34 size 0x28 virtual false final false
   inline void _ctor(::System::Runtime::Remoting::Activation::IActivator* next);
 
-  /// @brief Method get_NextActivator addr 0x24a507c size 0x8 virtual true final true
+  /// @brief Method get_NextActivator addr 0x234c588 size 0x8 virtual true final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
-  /// @brief Method Activate addr 0x24a5084 size 0x334 virtual true final true
+  /// @brief Method Activate addr 0x234c590 size 0x334 virtual true final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextLevelActivator", modifiers: "&&", def_value: None }]
@@ -75,6 +75,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Activation::ContextLevelActivator, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Activation::ContextLevelActivator, ___m_NextActivator) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Activation
 NEED_NO_BOX(::System::Runtime::Remoting::Activation::ContextLevelActivator);

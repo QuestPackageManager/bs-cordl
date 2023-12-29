@@ -19,8 +19,8 @@ MARK_VAL_T(::UnityEngine::MatchTargetWeightMask);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14881))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15108))
 // CS Name: ::UnityEngine::MatchTargetWeightMask
 struct CORDL_TYPE MatchTargetWeightMask {
 public:
@@ -46,6 +46,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::MatchTargetWeightMask, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::MatchTargetWeightMask, m_PositionXYZWeight) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::MatchTargetWeightMask, m_RotationWeight) == 0xc, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::MatchTargetWeightMask, "UnityEngine", "MatchTargetWeightMask");

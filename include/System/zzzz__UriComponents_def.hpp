@@ -16,7 +16,7 @@ MARK_VAL_T(::System::UriComponents);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8878))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7715))
 // CS Name: ::System::UriComponents
 struct CORDL_TYPE UriComponents {
 public:
@@ -117,6 +117,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::UriComponents, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::UriComponents, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::UriComponents, "System", "UriComponents");

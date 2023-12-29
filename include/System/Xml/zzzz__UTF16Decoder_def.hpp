@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Xml::UTF16Decoder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2827))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11555))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2823))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11483))
 // CS Name: ::System.Xml::UTF16Decoder*
 class CORDL_TYPE UTF16Decoder : public ::System::Text::Decoder {
 public:
@@ -43,19 +43,19 @@ public:
 
   static inline ::System::Xml::UTF16Decoder* New_ctor(bool bigEndian);
 
-  /// @brief Method .ctor addr 0x28a54c4 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x27284a0 size 0x30 virtual false final false
   inline void _ctor(bool bigEndian);
 
-  /// @brief Method GetCharCount addr 0x28a54f4 size 0x10 virtual true final false
+  /// @brief Method GetCharCount addr 0x27284d0 size 0x10 virtual true final false
   inline int32_t GetCharCount(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t index, int32_t count);
 
-  /// @brief Method GetCharCount addr 0x28a5504 size 0xec virtual true final false
+  /// @brief Method GetCharCount addr 0x27284e0 size 0xec virtual true final false
   inline int32_t GetCharCount(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t index, int32_t count, bool flush);
 
-  /// @brief Method GetChars addr 0x28a55f0 size 0x238 virtual true final false
+  /// @brief Method GetChars addr 0x27285cc size 0x238 virtual true final false
   inline int32_t GetChars(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex);
 
-  /// @brief Method Convert addr 0x28a5828 size 0x298 virtual true final false
+  /// @brief Method Convert addr 0x2728804 size 0x298 virtual true final false
   inline void Convert(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, int32_t charCount, bool flush,
                       ByRef<int32_t> bytesUsed, ByRef<int32_t> charsUsed, ByRef<bool> completed);
 
@@ -83,6 +83,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::UTF16Decoder, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::UTF16Decoder, ___bigEndian) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::UTF16Decoder, ___lastByte) == 0x24, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::UTF16Decoder);

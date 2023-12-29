@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::RenderingPath);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10101))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10029))
 // CS Name: ::UnityEngine::RenderingPath
 struct CORDL_TYPE RenderingPath {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::RenderingPath, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::RenderingPath, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RenderingPath, "UnityEngine", "RenderingPath");

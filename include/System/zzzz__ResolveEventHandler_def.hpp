@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResolveEventHandler)
+namespace System {
+class ResolveEventArgs;
+}
 namespace System::Reflection {
 class Assembly;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class ResolveEventArgs;
 }
 // Forward declare root types
 namespace System {
@@ -24,18 +24,18 @@ MARK_REF_PTR_T(::System::ResolveEventHandler);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2466))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2464))
 // CS Name: ::System::ResolveEventHandler*
 class CORDL_TYPE ResolveEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::ResolveEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x25c03ac size 0x130 virtual false final false
+  /// @brief Method .ctor addr 0x2463484 size 0x130 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x25c04dc size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x24635b4 size 0x14 virtual true final false
   inline ::System::Reflection::Assembly* Invoke(::System::Object* sender, ::System::ResolveEventArgs* args);
 
   // Ctor Parameters [CppParam { name: "", ty: "ResolveEventHandler", modifiers: "&&", def_value: None }]

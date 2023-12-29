@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(VRIKRootController)
-namespace RootMotion::FinalIK {
-class __VRIKCalibrator__CalibrationData;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
 class VRIK;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace RootMotion::FinalIK {
+class __VRIKCalibrator__CalibrationData;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::VRIKRootController);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12674))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12602))
 // CS Name: ::RootMotion.FinalIK::VRIKRootController*
 class CORDL_TYPE VRIKRootController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -80,30 +80,30 @@ public:
 
   constexpr void __set_ik(::RootMotion::FinalIK::VRIK* value);
 
-  /// @brief Method get_pelvisTargetRight addr 0x129d7ac size 0xc virtual false final false
+  /// @brief Method get_pelvisTargetRight addr 0x122c480 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_pelvisTargetRight();
 
-  /// @brief Method set_pelvisTargetRight addr 0x129d7b8 size 0xc virtual false final false
+  /// @brief Method set_pelvisTargetRight addr 0x122c48c size 0xc virtual false final false
   inline void set_pelvisTargetRight(::UnityEngine::Vector3 value);
 
-  /// @brief Method Awake addr 0x129d7c4 size 0xf4 virtual false final false
+  /// @brief Method Awake addr 0x122c498 size 0xf4 virtual false final false
   inline void Awake();
 
-  /// @brief Method Calibrate addr 0x129c490 size 0x1c0 virtual false final false
+  /// @brief Method Calibrate addr 0x122b164 size 0x1c0 virtual false final false
   inline void Calibrate();
 
-  /// @brief Method Calibrate addr 0x129d2a0 size 0x158 virtual false final false
+  /// @brief Method Calibrate addr 0x122bf74 size 0x158 virtual false final false
   inline void Calibrate(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* data);
 
-  /// @brief Method OnPreUpdate addr 0x129d8b8 size 0x3c8 virtual false final false
+  /// @brief Method OnPreUpdate addr 0x122c58c size 0x3c8 virtual false final false
   inline void OnPreUpdate();
 
-  /// @brief Method OnDestroy addr 0x129dc80 size 0x10c virtual false final false
+  /// @brief Method OnDestroy addr 0x122c954 size 0x10c virtual false final false
   inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::VRIKRootController* New_ctor();
 
-  /// @brief Method .ctor addr 0x129dd8c size 0x1008 virtual false final false
+  /// @brief Method .ctor addr 0x122ca60 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VRIKRootController", modifiers: "&&", def_value: None }]
@@ -139,6 +139,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::VRIKRootController, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::VRIKRootController, ____pelvisTargetRight_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::VRIKRootController, ___pelvisTarget) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::VRIKRootController, ___leftFootTarget) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::VRIKRootController, ___rightFootTarget) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::VRIKRootController, ___ik) == 0x40, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::VRIKRootController);

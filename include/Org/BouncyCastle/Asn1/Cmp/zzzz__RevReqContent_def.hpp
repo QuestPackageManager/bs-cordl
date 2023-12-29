@@ -12,10 +12,10 @@ namespace Org::BouncyCastle::Asn1::Cmp {
 class RevDetails;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -44,21 +44,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevReqContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe6f494 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xdfa2c0 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe6972c size 0x18c virtual false final false
+  /// @brief Method GetInstance addr 0xdf455c size 0x18c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevReqContent* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevReqContent* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::RevDetails*, ::Array<::Org::BouncyCastle::Asn1::Cmp::RevDetails*>*> revDetails);
 
-  /// @brief Method .ctor addr 0xe6f4bc size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0xdfa2e8 size 0x7c virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::RevDetails*, ::Array<::Org::BouncyCastle::Asn1::Cmp::RevDetails*>*> revDetails);
 
-  /// @brief Method ToRevDetailsArray addr 0xe6f538 size 0xf4 virtual true final false
+  /// @brief Method ToRevDetailsArray addr 0xdfa364 size 0xf4 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::RevDetails*, ::Array<::Org::BouncyCastle::Asn1::Cmp::RevDetails*>*> ToRevDetailsArray();
 
-  /// @brief Method ToAsn1Object addr 0xe6f62c size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xdfa458 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "RevReqContent", modifiers: "&&", def_value: None }]
@@ -82,6 +82,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::RevReqContent, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::RevReqContent, ___content) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::RevReqContent);

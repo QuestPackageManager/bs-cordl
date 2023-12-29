@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Net::KnownHttpVerb);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9079))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7916))
 // CS Name: ::System.Net::KnownHttpVerb*
 class CORDL_TYPE KnownHttpVerb : public ::System::Object {
 public:
@@ -120,10 +120,10 @@ public:
 
   static inline ::System::Net::KnownHttpVerb* New_ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse);
 
-  /// @brief Method .ctor addr 0x299e5c0 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x2820d48 size 0x58 virtual false final false
   inline void _ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse);
 
-  /// @brief Method Parse addr 0x299e930 size 0xc8 virtual false final false
+  /// @brief Method Parse addr 0x28210b8 size 0xc8 virtual false final false
   static inline ::System::Net::KnownHttpVerb* Parse(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "KnownHttpVerb", modifiers: "&&", def_value: None }]
@@ -159,6 +159,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::KnownHttpVerb, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::KnownHttpVerb, ___Name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::KnownHttpVerb, ___RequireContentBody) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::KnownHttpVerb, ___ContentBodyNotAllowed) == 0x19, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::KnownHttpVerb, ___ConnectRequest) == 0x1a, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::KnownHttpVerb, ___ExpectNoContentResponse) == 0x1b, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::KnownHttpVerb);

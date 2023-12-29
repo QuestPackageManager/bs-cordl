@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryFromBinder_6)
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TSubFactory> class __FactoryFromBinder_6____c__2_1;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactorySubContainerBinder_6;
-}
-namespace System {
-class Object;
+class ConditionCopyNonLazyBinder;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class __FactoryFromBinder_6____c__DisplayClass1_0;
 }
 namespace Zenject {
-class BindInfo;
+class FactoryBindInfo;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class FactoryBindInfo;
+class BindInfo;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
-class ConditionCopyNonLazyBinder;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactorySubContainerBinder_6;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TSubFactory> class __FactoryFromBinder_6____c__2_1;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename TResult> class Func_7;
@@ -37,10 +37,10 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue> class IFactory_6;
+template <typename TContract> class ConcreteBinderGeneric_1;
 }
 namespace Zenject {
-template <typename TContract> class ConcreteBinderGeneric_1;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue> class IFactory_6;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -68,8 +68,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10763))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10691))
 // CS Name: ::FactoryFromBinder`6::<>c__DisplayClass1_0<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>*
 class CORDL_TYPE __FactoryFromBinder_6____c__DisplayClass1_0 : public ::System::Object {
 public:
@@ -124,8 +124,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TSubFactory>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10764))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10692))
 // CS Name: ::FactoryFromBinder`6::<>c__2`1<TParam1,TParam2,TParam3,TParam4,TParam5,TContract,TSubFactory>*
 class CORDL_TYPE __FactoryFromBinder_6____c__2_1 : public ::System::Object {
 public:
@@ -184,8 +184,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10846))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10765))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10774))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10693))
 // CS Name: ::Zenject::FactoryFromBinder`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>*
 class CORDL_TYPE FactoryFromBinder_6 : public ::Zenject::FactoryFromBinderBase {
 public:

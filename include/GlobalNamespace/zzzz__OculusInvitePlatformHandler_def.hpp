@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OculusInvitePlatformHandler);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4496))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4507))
 // CS Name: ::OculusInvitePlatformHandler*
 class CORDL_TYPE OculusInvitePlatformHandler : public ::System::Object {
 public:
@@ -28,15 +28,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IInvitePlatformHandler"
   constexpr operator ::GlobalNamespace::IInvitePlatformHandler*() noexcept;
 
-  /// @brief Method get_isSupported addr 0x2355c4c size 0x8 virtual true final true
+  /// @brief Method get_isSupported addr 0x2206c50 size 0x8 virtual true final true
   inline bool get_isSupported();
 
-  /// @brief Method OpenInvitePanel addr 0x2355c54 size 0x60 virtual true final true
+  /// @brief Method OpenInvitePanel addr 0x2206c58 size 0x60 virtual true final true
   inline void OpenInvitePanel();
 
   static inline ::GlobalNamespace::OculusInvitePlatformHandler* New_ctor();
 
-  /// @brief Method .ctor addr 0x2355cb4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2206cb8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusInvitePlatformHandler", modifiers: "&&", def_value: None }]

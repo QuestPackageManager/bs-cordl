@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeMethods)
+namespace Microsoft::Win32::SafeHandles {
+class SafeProcessHandle;
+}
 namespace System::Runtime::InteropServices {
 struct HandleRef;
 }
@@ -14,9 +17,6 @@ class SafeWaitHandle;
 }
 namespace System::Runtime::InteropServices {
 class SafeHandle;
-}
-namespace Microsoft::Win32::SafeHandles {
-class SafeProcessHandle;
 }
 // Forward declare root types
 namespace Microsoft::Win32 {
@@ -28,41 +28,41 @@ MARK_REF_PTR_T(::Microsoft::Win32::NativeMethods);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Microsoft::Win32 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8859))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7696))
 // CS Name: ::Microsoft.Win32::NativeMethods*
 class CORDL_TYPE NativeMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DuplicateHandle addr 0x282a858 size 0x204 virtual false final false
+  /// @brief Method DuplicateHandle addr 0x26af848 size 0x204 virtual false final false
   static inline bool DuplicateHandle(::System::Runtime::InteropServices::HandleRef hSourceProcessHandle, ::System::Runtime::InteropServices::SafeHandle* hSourceHandle,
                                      ::System::Runtime::InteropServices::HandleRef hTargetProcess, ByRef<::Microsoft::Win32::SafeHandles::SafeWaitHandle*> targetHandle, int32_t dwDesiredAccess,
                                      bool bInheritHandle, int32_t dwOptions);
 
-  /// @brief Method DuplicateHandle addr 0x282aa5c size 0x150 virtual false final false
+  /// @brief Method DuplicateHandle addr 0x26afa4c size 0x150 virtual false final false
   static inline bool DuplicateHandle(::System::Runtime::InteropServices::HandleRef hSourceProcessHandle, ::System::Runtime::InteropServices::HandleRef hSourceHandle,
                                      ::System::Runtime::InteropServices::HandleRef hTargetProcess, ByRef<::Microsoft::Win32::SafeHandles::SafeProcessHandle*> targetHandle, int32_t dwDesiredAccess,
                                      bool bInheritHandle, int32_t dwOptions);
 
-  /// @brief Method GetCurrentProcess addr 0x282abd8 size 0x4 virtual false final false
+  /// @brief Method GetCurrentProcess addr 0x26afbc8 size 0x4 virtual false final false
   static inline void* GetCurrentProcess();
 
-  /// @brief Method GetExitCodeProcess addr 0x282abdc size 0x4 virtual false final false
+  /// @brief Method GetExitCodeProcess addr 0x26afbcc size 0x4 virtual false final false
   static inline bool GetExitCodeProcess(void* processHandle, ByRef<int32_t> exitCode);
 
-  /// @brief Method GetExitCodeProcess addr 0x282abe0 size 0xe8 virtual false final false
+  /// @brief Method GetExitCodeProcess addr 0x26afbd0 size 0xe8 virtual false final false
   static inline bool GetExitCodeProcess(::Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle, ByRef<int32_t> exitCode);
 
-  /// @brief Method GetProcessTimes addr 0x282acc8 size 0x4 virtual false final false
+  /// @brief Method GetProcessTimes addr 0x26afcb8 size 0x4 virtual false final false
   static inline bool GetProcessTimes(void* handle, ByRef<int64_t> creation, ByRef<int64_t> exit, ByRef<int64_t> kernel, ByRef<int64_t> user);
 
-  /// @brief Method GetProcessTimes addr 0x282accc size 0x108 virtual false final false
+  /// @brief Method GetProcessTimes addr 0x26afcbc size 0x108 virtual false final false
   static inline bool GetProcessTimes(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle, ByRef<int64_t> creation, ByRef<int64_t> exit, ByRef<int64_t> kernel, ByRef<int64_t> user);
 
-  /// @brief Method GetCurrentProcessId addr 0x282add4 size 0x4 virtual false final false
+  /// @brief Method GetCurrentProcessId addr 0x26afdc4 size 0x4 virtual false final false
   static inline int32_t GetCurrentProcessId();
 
-  /// @brief Method CloseProcess addr 0x282add8 size 0x4 virtual false final false
+  /// @brief Method CloseProcess addr 0x26afdc8 size 0x4 virtual false final false
   static inline bool CloseProcess(void* handle);
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeMethods", modifiers: "&&", def_value: None }]

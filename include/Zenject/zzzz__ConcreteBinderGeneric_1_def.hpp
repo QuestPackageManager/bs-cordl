@@ -6,8 +6,14 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__FromBinderGeneric_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ConcreteBinderGeneric_1)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace Zenject {
 class ConventionSelectTypesBinder;
@@ -22,10 +28,10 @@ namespace Zenject {
 template <typename TContract> class __ConcreteBinderGeneric_1____c__DisplayClass5_0;
 }
 namespace Zenject {
-class DiContainer;
+template <typename TContract> class FromBinderGeneric_1;
 }
-namespace Zenject {
-class IProvider;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
 class BindStatement;
@@ -33,17 +39,11 @@ class BindStatement;
 namespace Zenject {
 class FromBinderNonGeneric;
 }
-namespace Zenject {
-template <typename TContract> class FromBinderGeneric_1;
-}
-namespace Zenject {
-class BindInfo;
+namespace System {
+class Object;
 }
 namespace Zenject {
 class InjectTypeInfo;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -61,8 +61,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10670))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10598))
 // CS Name: ::ConcreteBinderGeneric`1::<>c__DisplayClass5_0<TContract>*
 class CORDL_TYPE __ConcreteBinderGeneric_1____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -117,8 +117,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10914)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10914), inst: 1990 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10671))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10842), inst: 1926 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10599))
 // CS Name: ::Zenject::ConcreteBinderGeneric`1<TContract>*
 class CORDL_TYPE ConcreteBinderGeneric_1 : public ::Zenject::FromBinderGeneric_1<TContract> {
 public:

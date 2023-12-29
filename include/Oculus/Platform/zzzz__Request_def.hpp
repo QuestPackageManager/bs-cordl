@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Request);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13381))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13414))
 // CS Name: ::Oculus.Platform::Request*
 class CORDL_TYPE Request : public ::System::Object {
 public:
@@ -49,22 +49,22 @@ public:
 
   static inline ::Oculus::Platform::Request* New_ctor(uint64_t requestID);
 
-  /// @brief Method .ctor addr 0x26f7470 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x25a86b4 size 0x28 virtual false final false
   inline void _ctor(uint64_t requestID);
 
-  /// @brief Method get_RequestID addr 0x2700ca4 size 0x8 virtual false final false
+  /// @brief Method get_RequestID addr 0x25adaa4 size 0x8 virtual false final false
   inline uint64_t get_RequestID();
 
-  /// @brief Method set_RequestID addr 0x2700cac size 0x8 virtual false final false
+  /// @brief Method set_RequestID addr 0x25adaac size 0x8 virtual false final false
   inline void set_RequestID(uint64_t value);
 
-  /// @brief Method OnComplete addr 0x26ca69c size 0x6c virtual false final false
+  /// @brief Method OnComplete addr 0x25adab4 size 0x70 virtual false final false
   inline ::Oculus::Platform::Request* OnComplete(::Oculus::Platform::__Message__Callback* callback);
 
-  /// @brief Method HandleMessage addr 0x2700cb4 size 0x6c virtual true final false
+  /// @brief Method HandleMessage addr 0x25adb24 size 0x6c virtual true final false
   inline void HandleMessage(::Oculus::Platform::Message* msg);
 
-  /// @brief Method RunCallbacks addr 0x26cfc5c size 0x68 virtual false final false
+  /// @brief Method RunCallbacks addr 0x25adb90 size 0x70 virtual false final false
   static inline void RunCallbacks(uint32_t limit);
 
   // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "&&", def_value: None }]
@@ -91,6 +91,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Request, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Request, ___callback_) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Request, ____RequestID_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::Request);

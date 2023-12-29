@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::ISecurableChannel);
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3126))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3125))
 // CS Name: ::System.Runtime.Remoting.Channels::ISecurableChannel*
 class CORDL_TYPE ISecurableChannel {
 public:

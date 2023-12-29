@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSystemPerfMetrics)
 namespace GlobalNamespace {
-class __OVRSystemPerfMetrics__PerfMetrics;
+class __OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer;
 }
 namespace GlobalNamespace {
-class __OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer;
+class __OVRSystemPerfMetrics__PerfMetrics;
 }
 namespace GlobalNamespace {
 class __OVRNetwork__OVRNetworkTcpServer;
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8182))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8957))
 // CS Name: ::OVRSystemPerfMetrics::PerfMetrics*
 class CORDL_TYPE __OVRSystemPerfMetrics__PerfMetrics : public ::System::Object {
 public:
@@ -321,15 +321,15 @@ public:
 
   constexpr void __set_deviceCpuCoreUtilPercentage(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method ToJSON addr 0x27c24c0 size 0x774 virtual false final false
+  /// @brief Method ToJSON addr 0x264c44c size 0x734 virtual false final false
   inline ::StringW ToJSON();
 
-  /// @brief Method LoadFromJSON addr 0x27c2cd8 size 0x948 virtual false final false
+  /// @brief Method LoadFromJSON addr 0x264cb80 size 0x948 virtual false final false
   inline bool LoadFromJSON(::StringW json);
 
   static inline ::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics* New_ctor();
 
-  /// @brief Method .ctor addr 0x27c3db4 size 0xb8 virtual false final false
+  /// @brief Method .ctor addr 0x264dc64 size 0xb8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRSystemPerfMetrics__PerfMetrics", modifiers: "&&", def_value: None }]
@@ -444,13 +444,75 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, 0x98>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___frameCount) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___frameTime) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deltaFrameTime) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___appCpuTime_IsValid) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___appCpuTime) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___appGpuTime_IsValid) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___appGpuTime) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___compositorCpuTime_IsValid) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___compositorCpuTime) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___compositorGpuTime_IsValid) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___compositorGpuTime) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___compositorDroppedFrameCount_IsValid) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___compositorDroppedFrameCount) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___compositorSpaceWarpMode_IsValid) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___compositorSpaceWarpMode) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___systemGpuUtilPercentage_IsValid) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___systemGpuUtilPercentage) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___systemCpuUtilAveragePercentage_IsValid) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___systemCpuUtilAveragePercentage) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___systemCpuUtilWorstPercentage_IsValid) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___systemCpuUtilWorstPercentage) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceCpuClockFrequencyInMHz_IsValid) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceCpuClockFrequencyInMHz) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceGpuClockFrequencyInMHz_IsValid) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceGpuClockFrequencyInMHz) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceCpuClockLevel_IsValid) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceCpuClockLevel) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceGpuClockLevel_IsValid) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceGpuClockLevel) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceCpuCoreUtilPercentage_IsValid) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, ___deviceCpuCoreUtilPercentage) == 0x90, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OVRSystemPerfMetricsTcpServer
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8183))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8958))
 // CS Name: ::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*
 class CORDL_TYPE __OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -480,21 +542,21 @@ public:
 
   static inline ::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer* getStaticF_singleton();
 
-  /// @brief Method OnEnable addr 0x27c3e6c size 0x114 virtual false final false
+  /// @brief Method OnEnable addr 0x264dd1c size 0x110 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x27c3f80 size 0xa0 virtual false final false
+  /// @brief Method OnDisable addr 0x264de2c size 0x9c virtual false final false
   inline void OnDisable();
 
-  /// @brief Method Update addr 0x27c4020 size 0x84 virtual false final false
+  /// @brief Method Update addr 0x264dec8 size 0x7c virtual false final false
   inline void Update();
 
-  /// @brief Method GatherPerfMetrics addr 0x27c40a4 size 0x300 virtual false final false
+  /// @brief Method GatherPerfMetrics addr 0x264df44 size 0x300 virtual false final false
   inline ::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics* GatherPerfMetrics();
 
   static inline ::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer* New_ctor();
 
-  /// @brief Method .ctor addr 0x27c43a4 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x264e244 size 0x6c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer", modifiers: "&&", def_value: None }]
@@ -522,13 +584,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer, ___tcpServer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer, ___listeningPort) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OVRSystemPerfMetrics
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8184))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8959))
 // CS Name: ::OVRSystemPerfMetrics*
 class CORDL_TYPE OVRSystemPerfMetrics : public ::System::Object {
 public:
@@ -539,7 +605,7 @@ public:
 
   static inline ::GlobalNamespace::OVRSystemPerfMetrics* New_ctor();
 
-  /// @brief Method .ctor addr 0x27c24b8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x264c444 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics", modifiers: "&&", def_value: None }]

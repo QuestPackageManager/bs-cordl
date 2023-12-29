@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngineInternal::TypeInferenceRuleAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngineInternal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9962))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9890))
 // CS Name: ::UnityEngineInternal::TypeInferenceRuleAttribute*
 class CORDL_TYPE TypeInferenceRuleAttribute : public ::System::Attribute {
 public:
@@ -35,15 +35,15 @@ public:
 
   static inline ::UnityEngineInternal::TypeInferenceRuleAttribute* New_ctor(::UnityEngineInternal::TypeInferenceRules rule);
 
-  /// @brief Method .ctor addr 0x2c9d4fc size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x2b387dc size 0x84 virtual false final false
   inline void _ctor(::UnityEngineInternal::TypeInferenceRules rule);
 
   static inline ::UnityEngineInternal::TypeInferenceRuleAttribute* New_ctor(::StringW rule);
 
-  /// @brief Method .ctor addr 0x2c9d580 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2b38860 size 0x28 virtual false final false
   inline void _ctor(::StringW rule);
 
-  /// @brief Method ToString addr 0x2c9d5a8 size 0x8 virtual true final false
+  /// @brief Method ToString addr 0x2b38888 size 0x8 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeInferenceRuleAttribute", modifiers: "&&", def_value: None }]
@@ -67,6 +67,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngineInternal::TypeInferenceRuleAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngineInternal::TypeInferenceRuleAttribute, ____rule) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngineInternal
 NEED_NO_BOX(::UnityEngineInternal::TypeInferenceRuleAttribute);

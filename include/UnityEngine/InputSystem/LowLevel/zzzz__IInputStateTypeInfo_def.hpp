@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6563))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6649))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IInputStateTypeInfo*
 class CORDL_TYPE IInputStateTypeInfo {
 public:

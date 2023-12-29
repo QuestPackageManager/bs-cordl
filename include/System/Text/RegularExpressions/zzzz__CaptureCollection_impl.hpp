@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__CaptureCollection_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__Group_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Capture_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__Group_def.hpp"
 constexpr ::System::Text::RegularExpressions::Group*& System::Text::RegularExpressions::CaptureCollection::__get__group() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____group;

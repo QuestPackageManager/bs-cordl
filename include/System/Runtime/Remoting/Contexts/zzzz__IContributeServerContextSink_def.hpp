@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IContributeServerContextSi
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3111))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3110))
 // CS Name: ::System.Runtime.Remoting.Contexts::IContributeServerContextSink*
 class CORDL_TYPE IContributeServerContextSink {
 public:

@@ -11,32 +11,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GhostEffectBehaviour)
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace GlobalNamespace {
-struct __GhostEffectBehaviour__EndBehavior;
+namespace TMPro {
+class TextMeshPro;
 }
 namespace GlobalNamespace {
 struct __GhostEffectBehaviour__GhostEffectType;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+struct FrameData;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+struct __GhostEffectBehaviour__EndBehavior;
 }
-namespace TMPro {
-class TextMeshPro;
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace UnityEngine::Playables {
-struct FrameData;
+struct Playable;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GhostEffectBehaviour);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6014))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6069))
 // CS Name: ::GhostEffectBehaviour::EndBehavior
 struct CORDL_TYPE __GhostEffectBehaviour__EndBehavior {
 public:
@@ -103,13 +103,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GhostEffectBehaviour__EndBehavior, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__GhostEffectBehaviour__EndBehavior, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::GhostEffectType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6015))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6070))
 // CS Name: ::GhostEffectBehaviour::GhostEffectType
 struct CORDL_TYPE __GhostEffectBehaviour__GhostEffectType {
 public:
@@ -151,13 +153,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::GhostEffectBehaviour
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 165, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(6015)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(6014))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6016)) CS Name: ::GhostEffectBehaviour*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15944)), TypeDefinitionIndex(TypeDefinitionIndex(10347)), TypeDefinitionIndex(TypeDefinitionIndex(6069)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6070)), TypeDefinitionIndex(TypeDefinitionIndex(10176))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6071)) CS Name: ::GhostEffectBehaviour*
 class CORDL_TYPE GhostEffectBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
@@ -336,18 +340,18 @@ public:
 
   constexpr void __set__finished(bool value);
 
-  /// @brief Method OnBehaviourPlay addr 0x2317380 size 0x190 virtual true final false
+  /// @brief Method OnBehaviourPlay addr 0x21c455c size 0x190 virtual true final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method ProcessFrame addr 0x2317624 size 0x438 virtual true final false
+  /// @brief Method ProcessFrame addr 0x21c4800 size 0x438 virtual true final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method EnableObjects addr 0x2317510 size 0x114 virtual false final false
+  /// @brief Method EnableObjects addr 0x21c46ec size 0x114 virtual false final false
   inline void EnableObjects(bool on);
 
   static inline ::GlobalNamespace::GhostEffectBehaviour* New_ctor();
 
-  /// @brief Method .ctor addr 0x2317a5c size 0xd0 virtual false final false
+  /// @brief Method .ctor addr 0x21c4c38 size 0xd0 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GhostEffectBehaviour", modifiers: "&&", def_value: None }]
@@ -425,6 +429,44 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GhostEffectBehaviour, 0xa8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ___alphaCurve) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ___sizeCurve) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ___distanceCurve) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ____distanceMultiplier) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ____useStartTransform) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ____useEndTransform) == 0x35, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ____startLocalPosition) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ____startTransform) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ____endLocalPosition) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ____endTransform) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ____positionEasing) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ____endBehavior) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ___progress) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ___textMeshPros) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ____canvasGroups) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ____ghostEffectType) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ____ghostEffectTransform) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ____direction) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ____finished) == 0xa4, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__GhostEffectBehaviour__EndBehavior, "", "GhostEffectBehaviour/EndBehavior");

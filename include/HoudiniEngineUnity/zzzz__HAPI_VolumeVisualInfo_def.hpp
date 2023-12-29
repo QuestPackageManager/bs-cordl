@@ -19,8 +19,8 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_VolumeVisualInfo);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9706))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9748))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9633))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9675))
 // CS Name: ::HoudiniEngineUnity::HAPI_VolumeVisualInfo
 struct CORDL_TYPE HAPI_VolumeVisualInfo {
 public:
@@ -49,6 +49,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_VolumeVisualInfo, 0xc>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeVisualInfo, type) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeVisualInfo, iso) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeVisualInfo, density) == 0x8, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_VolumeVisualInfo, "HoudiniEngineUnity", "HAPI_VolumeVisualInfo");

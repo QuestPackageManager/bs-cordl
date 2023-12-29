@@ -16,8 +16,8 @@ MARK_VAL_T(::OVR::OpenVR::VRVulkanTextureData_t);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8664))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9433))
 // CS Name: ::OVR.OpenVR::VRVulkanTextureData_t
 struct CORDL_TYPE VRVulkanTextureData_t {
 public:
@@ -71,6 +71,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VRVulkanTextureData_t, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRVulkanTextureData_t, m_nImage) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRVulkanTextureData_t, m_pDevice) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRVulkanTextureData_t, m_pPhysicalDevice) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRVulkanTextureData_t, m_pInstance) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRVulkanTextureData_t, m_pQueue) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRVulkanTextureData_t, m_nQueueFamilyIndex) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRVulkanTextureData_t, m_nWidth) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRVulkanTextureData_t, m_nHeight) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRVulkanTextureData_t, m_nFormat) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRVulkanTextureData_t, m_nSampleCount) == 0x38, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VRVulkanTextureData_t, "OVR.OpenVR", "VRVulkanTextureData_t");

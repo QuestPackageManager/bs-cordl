@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::UI::UIPointerBehavior);
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6373))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6459))
 // CS Name: ::UnityEngine.InputSystem.UI::UIPointerBehavior
 struct CORDL_TYPE UIPointerBehavior {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::UI::UIPointerBehavior, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::UIPointerBehavior, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::UI
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::UI::UIPointerBehavior, "UnityEngine.InputSystem.UI", "UIPointerBehavior");

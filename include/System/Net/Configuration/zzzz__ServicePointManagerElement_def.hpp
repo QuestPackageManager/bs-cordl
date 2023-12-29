@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Net::Configuration::ServicePointManagerElement);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16257))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9577))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16080))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8413))
 // CS Name: ::System.Net.Configuration::ServicePointManagerElement*
 class CORDL_TYPE ServicePointManagerElement : public ::System::Configuration::ConfigurationElement {
 public:
@@ -27,10 +27,10 @@ public:
 
   static inline ::System::Net::Configuration::ServicePointManagerElement* New_ctor();
 
-  /// @brief Method .ctor addr 0x2945064 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x27c6f44 size 0x38 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_Properties addr 0x294509c size 0x38 virtual true final false
+  /// @brief Method get_Properties addr 0x27c6f7c size 0x38 virtual true final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
   // Ctor Parameters [CppParam { name: "", ty: "ServicePointManagerElement", modifiers: "&&", def_value: None }]

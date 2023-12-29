@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::TMPro::ITextElement);
 namespace TMPro {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12428))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12356))
 // CS Name: ::TMPro::ITextElement*
 class CORDL_TYPE ITextElement {
 public:

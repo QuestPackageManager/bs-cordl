@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Sockets::SocketOperation);
 namespace System::Net::Sockets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9360))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8197))
 // CS Name: ::System.Net.Sockets::SocketOperation
 struct CORDL_TYPE SocketOperation {
 public:
@@ -97,6 +97,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::SocketOperation, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Sockets::SocketOperation, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net::Sockets
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::SocketOperation, "System.Net.Sockets", "SocketOperation");

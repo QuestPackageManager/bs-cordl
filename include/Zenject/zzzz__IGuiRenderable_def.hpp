@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Zenject::IGuiRenderable);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15704))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15654))
 // CS Name: ::Zenject::IGuiRenderable*
 class CORDL_TYPE IGuiRenderable {
 public:

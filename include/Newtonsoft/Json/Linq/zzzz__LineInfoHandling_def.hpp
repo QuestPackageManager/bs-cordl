@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Linq::LineInfoHandling);
 namespace Newtonsoft::Json::Linq {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11967))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11895))
 // CS Name: ::Newtonsoft.Json.Linq::LineInfoHandling
 struct CORDL_TYPE LineInfoHandling {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::LineInfoHandling, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Linq::LineInfoHandling, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Linq
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::LineInfoHandling, "Newtonsoft.Json.Linq", "LineInfoHandling");

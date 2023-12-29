@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(FileWebRequestCreator)
-namespace System::Net {
-class WebRequest;
-}
 namespace System {
 class Uri;
 }
 namespace System::Net {
 class IWebRequestCreate;
+}
+namespace System::Net {
+class WebRequest;
 }
 // Forward declare root types
 namespace System::Net {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Net::FileWebRequestCreator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9135))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7972))
 // CS Name: ::System.Net::FileWebRequestCreator*
 class CORDL_TYPE FileWebRequestCreator : public ::System::Object {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::System::Net::FileWebRequestCreator* New_ctor();
 
-  /// @brief Method .ctor addr 0x29a358c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2825d14 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Create addr 0x29b5dec size 0x60 virtual true final true
+  /// @brief Method Create addr 0x2838574 size 0x60 virtual true final true
   inline ::System::Net::WebRequest* Create(::System::Uri* uri);
 
   // Ctor Parameters [CppParam { name: "", ty: "FileWebRequestCreator", modifiers: "&&", def_value: None }]

@@ -22,7 +22,7 @@ namespace System {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2419))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2417))
 // CS Name: ::System::IObservable`1<T>*
 class CORDL_TYPE IObservable_1 {
 public:

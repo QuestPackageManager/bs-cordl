@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(RequestCacheBinding)
 namespace System::Net::Cache {
-class RequestCache;
+class RequestCacheValidator;
 }
 namespace System::Net::Cache {
-class RequestCacheValidator;
+class RequestCache;
 }
 namespace System::Net::Cache {
 class RequestCachePolicy;
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Net::Cache::RequestCacheBinding);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Cache {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9320))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8157))
 // CS Name: ::System.Net.Cache::RequestCacheBinding*
 class CORDL_TYPE RequestCacheBinding : public ::System::Object {
 public:
@@ -65,16 +65,16 @@ public:
   static inline ::System::Net::Cache::RequestCacheBinding* New_ctor(::System::Net::Cache::RequestCache* requestCache, ::System::Net::Cache::RequestCacheValidator* cacheValidator,
                                                                     ::System::Net::Cache::RequestCachePolicy* policy);
 
-  /// @brief Method .ctor addr 0x29f13f0 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x2874b6c size 0x3c virtual false final false
   inline void _ctor(::System::Net::Cache::RequestCache* requestCache, ::System::Net::Cache::RequestCacheValidator* cacheValidator, ::System::Net::Cache::RequestCachePolicy* policy);
 
-  /// @brief Method get_Cache addr 0x29f146c size 0x8 virtual false final false
+  /// @brief Method get_Cache addr 0x2874be8 size 0x8 virtual false final false
   inline ::System::Net::Cache::RequestCache* get_Cache();
 
-  /// @brief Method get_Validator addr 0x29f1474 size 0x8 virtual false final false
+  /// @brief Method get_Validator addr 0x2874bf0 size 0x8 virtual false final false
   inline ::System::Net::Cache::RequestCacheValidator* get_Validator();
 
-  /// @brief Method get_Policy addr 0x29f147c size 0x8 virtual false final false
+  /// @brief Method get_Policy addr 0x2874bf8 size 0x8 virtual false final false
   inline ::System::Net::Cache::RequestCachePolicy* get_Policy();
 
   // Ctor Parameters [CppParam { name: "", ty: "RequestCacheBinding", modifiers: "&&", def_value: None }]
@@ -104,6 +104,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Cache::RequestCacheBinding, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Cache::RequestCacheBinding, ___m_RequestCache) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Cache::RequestCacheBinding, ___m_CacheValidator) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Cache::RequestCacheBinding, ___m_Policy) == 0x20, "Offset mismatch!");
 
 } // namespace System::Net::Cache
 NEED_NO_BOX(::System::Net::Cache::RequestCacheBinding);

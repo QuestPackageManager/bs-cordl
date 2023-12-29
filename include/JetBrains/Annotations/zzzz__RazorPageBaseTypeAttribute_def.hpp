@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::RazorPageBaseTypeAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15804))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15754))
 // CS Name: ::JetBrains.Annotations::RazorPageBaseTypeAttribute*
 class CORDL_TYPE RazorPageBaseTypeAttribute : public ::System::Attribute {
 public:
@@ -45,24 +45,24 @@ public:
 
   static inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* New_ctor(::StringW baseType);
 
-  /// @brief Method .ctor addr 0x2eba924 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d52ba4 size 0x28 virtual false final false
   inline void _ctor(::StringW baseType);
 
   static inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* New_ctor(::StringW baseType, ::StringW pageName);
 
-  /// @brief Method .ctor addr 0x2eba94c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2d52bcc size 0x2c virtual false final false
   inline void _ctor(::StringW baseType, ::StringW pageName);
 
-  /// @brief Method get_BaseType addr 0x2eba978 size 0x8 virtual false final false
+  /// @brief Method get_BaseType addr 0x2d52bf8 size 0x8 virtual false final false
   inline ::StringW get_BaseType();
 
-  /// @brief Method set_BaseType addr 0x2eba980 size 0x8 virtual false final false
+  /// @brief Method set_BaseType addr 0x2d52c00 size 0x8 virtual false final false
   inline void set_BaseType(::StringW value);
 
-  /// @brief Method get_PageName addr 0x2eba988 size 0x8 virtual false final false
+  /// @brief Method get_PageName addr 0x2d52c08 size 0x8 virtual false final false
   inline ::StringW get_PageName();
 
-  /// @brief Method set_PageName addr 0x2eba990 size 0x8 virtual false final false
+  /// @brief Method set_PageName addr 0x2d52c10 size 0x8 virtual false final false
   inline void set_PageName(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "RazorPageBaseTypeAttribute", modifiers: "&&", def_value: None }]
@@ -89,6 +89,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::RazorPageBaseTypeAttribute, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::RazorPageBaseTypeAttribute, ____BaseType_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::RazorPageBaseTypeAttribute, ____PageName_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::RazorPageBaseTypeAttribute);

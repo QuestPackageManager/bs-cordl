@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISpanFormattable)
 namespace System {
-class IFormatProvider;
-}
-namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
 template <typename T> struct Span_1;
+}
+namespace System {
+class IFormatProvider;
 }
 // Forward declare root types
 namespace System {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::ISpanFormattable);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2421))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2419))
 // CS Name: ::System::ISpanFormattable*
 class CORDL_TYPE ISpanFormattable {
 public:

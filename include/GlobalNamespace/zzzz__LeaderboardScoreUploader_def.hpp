@@ -11,8 +11,23 @@ CORDL_MODULE_EXPORT(LeaderboardScoreUploader)
 namespace GlobalNamespace {
 class __LeaderboardScoreUploader__ScoreData;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
+class __LeaderboardScoreUploader__ScoresToUploadData;
+}
 namespace GlobalNamespace {
 class __LeaderboardScoreUploader____c__DisplayClass16_0;
+}
+namespace GlobalNamespace {
+class __LeaderboardScoreUploader___UploadScoresCoroutine_d__16;
+}
+namespace System {
+class Action;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class __LeaderboardScoreUploader__UploadScoreCallback;
@@ -20,47 +35,32 @@ class __LeaderboardScoreUploader__UploadScoreCallback;
 namespace GlobalNamespace {
 class ISaveData;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class __LeaderboardScoreUploader__ScoresToUploadData;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class __LeaderboardScoreUploader___UploadScoresCoroutine_d__16;
-}
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
-namespace GlobalNamespace {
-class HMAsyncRequest;
+namespace System {
+class AsyncCallback;
 }
 namespace GlobalNamespace {
 class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
+}
+namespace GlobalNamespace {
+class HMAsyncRequest;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
-class AsyncCallback;
-}
-namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace GlobalNamespace {
 struct __PlatformLeaderboardsModel__UploadScoreResult;
@@ -95,8 +95,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass1
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4208))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4241))
 // CS Name: ::LeaderboardScoreUploader::ScoreData*
 class CORDL_TYPE __LeaderboardScoreUploader__ScoreData : public ::System::Object {
 public:
@@ -229,71 +229,71 @@ public:
 
   constexpr void __set_currentUploadAttemptCount(int32_t value);
 
-  /// @brief Method get_playerId addr 0x232826c size 0x8 virtual false final false
+  /// @brief Method get_playerId addr 0x21d7578 size 0x8 virtual false final false
   inline ::StringW get_playerId();
 
-  /// @brief Method set_playerId addr 0x2328274 size 0x8 virtual false final false
+  /// @brief Method set_playerId addr 0x21d7580 size 0x8 virtual false final false
   inline void set_playerId(::StringW value);
 
-  /// @brief Method get_beatmap addr 0x232827c size 0x8 virtual false final false
+  /// @brief Method get_beatmap addr 0x21d7588 size 0x8 virtual false final false
   inline ::GlobalNamespace::IDifficultyBeatmap* get_beatmap();
 
-  /// @brief Method set_beatmap addr 0x2328284 size 0x8 virtual false final false
+  /// @brief Method set_beatmap addr 0x21d7590 size 0x8 virtual false final false
   inline void set_beatmap(::GlobalNamespace::IDifficultyBeatmap* value);
 
-  /// @brief Method get_gameplayModifiers addr 0x232828c size 0x8 virtual false final false
+  /// @brief Method get_gameplayModifiers addr 0x21d7598 size 0x8 virtual false final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method set_gameplayModifiers addr 0x2328294 size 0x8 virtual false final false
+  /// @brief Method set_gameplayModifiers addr 0x21d75a0 size 0x8 virtual false final false
   inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method get_multipliedScore addr 0x232829c size 0x8 virtual false final false
+  /// @brief Method get_multipliedScore addr 0x21d75a8 size 0x8 virtual false final false
   inline int32_t get_multipliedScore();
 
-  /// @brief Method set_multipliedScore addr 0x23282a4 size 0x8 virtual false final false
+  /// @brief Method set_multipliedScore addr 0x21d75b0 size 0x8 virtual false final false
   inline void set_multipliedScore(int32_t value);
 
-  /// @brief Method get_modifiedScore addr 0x23282ac size 0x8 virtual false final false
+  /// @brief Method get_modifiedScore addr 0x21d75b8 size 0x8 virtual false final false
   inline int32_t get_modifiedScore();
 
-  /// @brief Method set_modifiedScore addr 0x23282b4 size 0x8 virtual false final false
+  /// @brief Method set_modifiedScore addr 0x21d75c0 size 0x8 virtual false final false
   inline void set_modifiedScore(int32_t value);
 
-  /// @brief Method get_fullCombo addr 0x23282bc size 0x8 virtual false final false
+  /// @brief Method get_fullCombo addr 0x21d75c8 size 0x8 virtual false final false
   inline bool get_fullCombo();
 
-  /// @brief Method set_fullCombo addr 0x23282c4 size 0xc virtual false final false
+  /// @brief Method set_fullCombo addr 0x21d75d0 size 0xc virtual false final false
   inline void set_fullCombo(bool value);
 
-  /// @brief Method get_goodCutsCount addr 0x23282d0 size 0x8 virtual false final false
+  /// @brief Method get_goodCutsCount addr 0x21d75dc size 0x8 virtual false final false
   inline int32_t get_goodCutsCount();
 
-  /// @brief Method set_goodCutsCount addr 0x23282d8 size 0x8 virtual false final false
+  /// @brief Method set_goodCutsCount addr 0x21d75e4 size 0x8 virtual false final false
   inline void set_goodCutsCount(int32_t value);
 
-  /// @brief Method get_badCutsCount addr 0x23282e0 size 0x8 virtual false final false
+  /// @brief Method get_badCutsCount addr 0x21d75ec size 0x8 virtual false final false
   inline int32_t get_badCutsCount();
 
-  /// @brief Method set_badCutsCount addr 0x23282e8 size 0x8 virtual false final false
+  /// @brief Method set_badCutsCount addr 0x21d75f4 size 0x8 virtual false final false
   inline void set_badCutsCount(int32_t value);
 
-  /// @brief Method get_missedCount addr 0x23282f0 size 0x8 virtual false final false
+  /// @brief Method get_missedCount addr 0x21d75fc size 0x8 virtual false final false
   inline int32_t get_missedCount();
 
-  /// @brief Method set_missedCount addr 0x23282f8 size 0x8 virtual false final false
+  /// @brief Method set_missedCount addr 0x21d7604 size 0x8 virtual false final false
   inline void set_missedCount(int32_t value);
 
-  /// @brief Method get_maxCombo addr 0x2328300 size 0x8 virtual false final false
+  /// @brief Method get_maxCombo addr 0x21d760c size 0x8 virtual false final false
   inline int32_t get_maxCombo();
 
-  /// @brief Method set_maxCombo addr 0x2328308 size 0x8 virtual false final false
+  /// @brief Method set_maxCombo addr 0x21d7614 size 0x8 virtual false final false
   inline void set_maxCombo(int32_t value);
 
   static inline ::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* New_ctor(::StringW playerId, ::GlobalNamespace::IDifficultyBeatmap* beatmap, int32_t multipliedScore, int32_t modifiedScore,
                                                                                    bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t maxCombo,
                                                                                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method .ctor addr 0x2328310 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x21d761c size 0x88 virtual false final false
   inline void _ctor(::StringW playerId, ::GlobalNamespace::IDifficultyBeatmap* beatmap, int32_t multipliedScore, int32_t modifiedScore, bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount,
                     int32_t missedCount, int32_t maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
@@ -352,13 +352,37 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData, 0x50>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData, ____playerId_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData, ____beatmap_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData, ____gameplayModifiers_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData, ____multipliedScore_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData, ____modifiedScore_k__BackingField) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData, ____fullCombo_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData, ____goodCutsCount_k__BackingField) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData, ____badCutsCount_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData, ____missedCount_k__BackingField) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData, ____maxCombo_k__BackingField) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData, ___uploadAttemptCount) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData, ___currentUploadAttemptCount) == 0x48, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ScoresToUploadData
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4209))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4242))
 // CS Name: ::LeaderboardScoreUploader::ScoresToUploadData*
 class CORDL_TYPE __LeaderboardScoreUploader__ScoresToUploadData : public ::System::Object {
 public:
@@ -374,7 +398,7 @@ public:
 
   static inline ::GlobalNamespace::__LeaderboardScoreUploader__ScoresToUploadData* New_ctor();
 
-  /// @brief Method .ctor addr 0x23280f0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d73fc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LeaderboardScoreUploader__ScoresToUploadData", modifiers: "&&", def_value: None }]
@@ -399,32 +423,34 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LeaderboardScoreUploader__ScoresToUploadData, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader__ScoresToUploadData, ___scores) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::UploadScoreCallback
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4210))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4243))
 // CS Name: ::LeaderboardScoreUploader::UploadScoreCallback*
 class CORDL_TYPE __LeaderboardScoreUploader__UploadScoreCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2328398 size 0x130 virtual false final false
+  /// @brief Method .ctor addr 0x21d76a4 size 0x130 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x23284c8 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x21d77d4 size 0x14 virtual true final false
   inline ::GlobalNamespace::HMAsyncRequest* Invoke(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* scoreData,
                                                    ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* completionHandler);
 
-  /// @brief Method BeginInvoke addr 0x23284dc size 0x28 virtual true final false
+  /// @brief Method BeginInvoke addr 0x21d77e8 size 0x28 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* scoreData,
                                              ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* completionHandler, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2328504 size 0xc virtual true final false
+  /// @brief Method EndInvoke addr 0x21d7810 size 0xc virtual true final false
   inline ::GlobalNamespace::HMAsyncRequest* EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LeaderboardScoreUploader__UploadScoreCallback", modifiers: "&&", def_value: None }]
@@ -451,8 +477,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LeaderboardSc
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4211))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4244))
 // CS Name: ::LeaderboardScoreUploader::<>c__DisplayClass16_0*
 class CORDL_TYPE __LeaderboardScoreUploader____c__DisplayClass16_0 : public ::System::Object {
 public:
@@ -477,10 +503,10 @@ public:
 
   static inline ::GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2328510 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d781c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <UploadScoresCoroutine>b__0 addr 0x2328518 size 0x238 virtual false final false
+  /// @brief Method <UploadScoresCoroutine>b__0 addr 0x21d7824 size 0x238 virtual false final false
   inline void _UploadScoresCoroutine_b__0(::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreResult result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LeaderboardScoreUploader____c__DisplayClass16_0", modifiers: "&&", def_value: None }]
@@ -508,13 +534,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0, ___scoreData) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0, _____4__this) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<UploadScoresCoroutine>d__16
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4212))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4245))
 // CS Name: ::LeaderboardScoreUploader::<UploadScoresCoroutine>d__16*
 class CORDL_TYPE __LeaderboardScoreUploader___UploadScoresCoroutine_d__16 : public ::System::Object {
 public:
@@ -561,22 +591,22 @@ public:
 
   static inline ::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2327b64 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x21d6e70 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2328750 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x21d7a5c size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2328754 size 0x1e8 virtual true final true
+  /// @brief Method MoveNext addr 0x21d7a60 size 0x1e8 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2328a00 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x21d7d0c size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2328a08 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x21d7d14 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2328a48 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x21d7d54 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LeaderboardScoreUploader___UploadScoresCoroutine_d__16", modifiers: "&&", def_value: None }]
@@ -607,13 +637,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16, _____4__this) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LeaderboardScoreUploader
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4213))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4246))
 // CS Name: ::LeaderboardScoreUploader*
 class CORDL_TYPE LeaderboardScoreUploader : public ::UnityEngine::MonoBehaviour {
 public:
@@ -693,39 +729,39 @@ public:
 
   constexpr void __set__saveData(::GlobalNamespace::ISaveData* value);
 
-  /// @brief Method add_allScoresDidUploadEvent addr 0x23278b8 size 0x9c virtual false final false
+  /// @brief Method add_allScoresDidUploadEvent addr 0x21d6bc4 size 0x9c virtual false final false
   inline void add_allScoresDidUploadEvent(::System::Action* value);
 
-  /// @brief Method remove_allScoresDidUploadEvent addr 0x2327954 size 0x9c virtual false final false
+  /// @brief Method remove_allScoresDidUploadEvent addr 0x21d6c60 size 0x9c virtual false final false
   inline void remove_allScoresDidUploadEvent(::System::Action* value);
 
-  /// @brief Method Init addr 0x23279f0 size 0x58 virtual false final false
+  /// @brief Method Init addr 0x21d6cfc size 0x58 virtual false final false
   inline void Init(::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback* uploadScoreCallback, ::StringW playerId);
 
-  /// @brief Method Uninitialize addr 0x2327ab0 size 0xb0 virtual false final false
+  /// @brief Method Uninitialize addr 0x21d6dbc size 0xb0 virtual false final false
   inline void Uninitialize();
 
-  /// @brief Method OnApplicationQuit addr 0x2327b60 size 0x4 virtual false final false
+  /// @brief Method OnApplicationQuit addr 0x21d6e6c size 0x4 virtual false final false
   inline void OnApplicationQuit();
 
-  /// @brief Method UploadScoresCoroutine addr 0x2327a48 size 0x68 virtual false final false
+  /// @brief Method UploadScoresCoroutine addr 0x21d6d54 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* UploadScoresCoroutine();
 
-  /// @brief Method LoadScoresToUploadFromFile addr 0x2327b8c size 0x378 virtual false final false
+  /// @brief Method LoadScoresToUploadFromFile addr 0x21d6e98 size 0x378 virtual false final false
   inline void LoadScoresToUploadFromFile();
 
-  /// @brief Method SaveScoresToUploadToFile addr 0x2327f04 size 0x1ec virtual false final false
+  /// @brief Method SaveScoresToUploadToFile addr 0x21d7210 size 0x1ec virtual false final false
   inline void SaveScoresToUploadToFile();
 
-  /// @brief Method AddScore addr 0x23280f8 size 0xc4 virtual false final false
+  /// @brief Method AddScore addr 0x21d7404 size 0xc4 virtual false final false
   inline void AddScore(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* scoreData);
 
   static inline ::GlobalNamespace::LeaderboardScoreUploader* New_ctor();
 
-  /// @brief Method .ctor addr 0x23281bc size 0xa0 virtual false final false
+  /// @brief Method .ctor addr 0x21d74c8 size 0xa0 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <UploadScoresCoroutine>b__16_1 addr 0x232825c size 0x10 virtual false final false
+  /// @brief Method <UploadScoresCoroutine>b__16_1 addr 0x21d7568 size 0x10 virtual false final false
   inline bool _UploadScoresCoroutine_b__16_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader", modifiers: "&&", def_value: None }]
@@ -770,6 +806,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LeaderboardScoreUploader, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader, ___allScoresDidUploadEvent) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader, ____scoresToUpload) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader, ____scoresToUploadForCurrentPlayer) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader, ____uploadScoreCallback) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader, ____playerId) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader, ____uploading) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader, ____saveData) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LeaderboardScoreUploader);

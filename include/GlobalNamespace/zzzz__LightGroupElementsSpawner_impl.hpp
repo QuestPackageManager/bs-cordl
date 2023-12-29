@@ -2,19 +2,45 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightGroupElementsSpawner_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__LightGroup_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::LightGroupElementsSpawner.OnEnable
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightGroupElementsSpawner::*)()>(&::GlobalNamespace::LightGroupElementsSpawner::OnEnable)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x22717d4;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupElementsSpawner*>::get(), "OnEnable",
+                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::LightGroupElementsSpawner._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightGroupElementsSpawner::*)()>(&::GlobalNamespace::LightGroupElementsSpawner::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x210e384;
+  constexpr static std::size_t addrs = 0x2271834;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupElementsSpawner*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
   }
 };
+constexpr ::GlobalNamespace::LightGroup*& GlobalNamespace::LightGroupElementsSpawner::__get__lightGroup() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lightGroup;
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightGroup*> const& GlobalNamespace::LightGroupElementsSpawner::__get__lightGroup() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lightGroup;
+}
+constexpr void GlobalNamespace::LightGroupElementsSpawner::__set__lightGroup(::GlobalNamespace::LightGroup* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::LightGroupElementsSpawner::__get__lightPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightPrefab;
@@ -50,6 +76,11 @@ constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const&
 constexpr void GlobalNamespace::LightGroupElementsSpawner::__set__alternateLightPrefab(::UnityEngine::GameObject* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____alternateLightPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void GlobalNamespace::LightGroupElementsSpawner::OnEnable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupElementsSpawner*>::get(), "OnEnable",
+                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::LightGroupElementsSpawner* GlobalNamespace::LightGroupElementsSpawner::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::LightGroupElementsSpawner*>());

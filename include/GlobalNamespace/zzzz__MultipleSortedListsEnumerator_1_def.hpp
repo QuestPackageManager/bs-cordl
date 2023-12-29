@@ -9,23 +9,23 @@ CORDL_MODULE_EXPORT(MultipleSortedListsEnumerator_1)
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace GlobalNamespace {
 template <typename T> class __MultipleSortedListsEnumerator_1__HeapItem;
 }
 namespace GlobalNamespace {
 template <typename T> class __MultipleSortedListsEnumerator_1___GetEnumerator_d__4;
 }
+namespace GlobalNamespace {
+template <typename T> class BinaryHeap_1;
+}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace GlobalNamespace {
-template <typename T> class BinaryHeap_1;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 template <typename T> class IComparable_1;
@@ -56,8 +56,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14344))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13824))
 // CS Name: ::MultipleSortedListsEnumerator`1::HeapItem<T>*
 class CORDL_TYPE __MultipleSortedListsEnumerator_1__HeapItem : public ::System::Object {
 public:
@@ -141,8 +141,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14345))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13825))
 // CS Name: ::MultipleSortedListsEnumerator`1::<GetEnumerator>d__4<T>*
 class CORDL_TYPE __MultipleSortedListsEnumerator_1___GetEnumerator_d__4 : public ::System::Object {
 public:
@@ -252,8 +252,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14346))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13826))
 // CS Name: ::MultipleSortedListsEnumerator`1<T>*
 class CORDL_TYPE MultipleSortedListsEnumerator_1 : public ::System::Object {
 public:

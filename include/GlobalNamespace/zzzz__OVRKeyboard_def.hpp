@@ -22,13 +22,13 @@ namespace GlobalNamespace {
 struct __OVRPlugin__TrackedKeyboardQueryFlags;
 }
 namespace GlobalNamespace {
+struct __OVRPlugin__TrackedKeyboardFlags;
+}
+namespace GlobalNamespace {
 struct __OVRPlugin__TrackedKeyboardPresentationStyles;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__TrackedKeyboardFlags;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -51,8 +51,8 @@ MARK_VAL_T(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState);
 // SizeInfo { instance_size: 40, native_size: 56, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8025))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8841))
 // CS Name: ::OVRKeyboard::TrackedKeyboardState
 struct CORDL_TYPE __OVRKeyboard__TrackedKeyboardState {
 public:
@@ -97,13 +97,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState, isPositionValid) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState, isPositionTracked) == 0x1, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState, isOrientationValid) == 0x2, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState, isOrientationTracked) == 0x3, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState, position) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState, rotation) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState, timeInSeconds) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::TrackedKeyboardInfo
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7791)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(7790))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8026))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8667)), TypeDefinitionIndex(TypeDefinitionIndex(8666)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8842))
 // CS Name: ::OVRKeyboard::TrackedKeyboardInfo
 struct CORDL_TYPE __OVRKeyboard__TrackedKeyboardInfo {
 public:
@@ -141,13 +155,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo, Name) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo, Identifier) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo, Dimensions) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo, KeyboardFlags) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo, SupportedPresentationStyles) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OVRKeyboard
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8027))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8843))
 // CS Name: ::OVRKeyboard*
 class CORDL_TYPE OVRKeyboard : public ::System::Object {
 public:
@@ -156,13 +180,13 @@ public:
 
   using TrackedKeyboardState = ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState;
 
-  /// @brief Method GetKeyboardState addr 0x2793764 size 0x154 virtual false final false
+  /// @brief Method GetKeyboardState addr 0x26282fc size 0x154 virtual false final false
   static inline ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState GetKeyboardState();
 
-  /// @brief Method GetSystemKeyboardInfo addr 0x27938b8 size 0xe4 virtual false final false
+  /// @brief Method GetSystemKeyboardInfo addr 0x2628450 size 0xe4 virtual false final false
   static inline bool GetSystemKeyboardInfo(::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags keyboardQueryFlags, ByRef<::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo> keyboardInfo);
 
-  /// @brief Method StopKeyboardTracking addr 0x279399c size 0x50 virtual false final false
+  /// @brief Method StopKeyboardTracking addr 0x2628534 size 0x50 virtual false final false
   static inline bool StopKeyboardTracking(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo keyboardInfo);
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRKeyboard", modifiers: "&&", def_value: None }]

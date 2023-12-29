@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SmoothCameraController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5331))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5426))
 // CS Name: ::SmoothCameraController*
 class CORDL_TYPE SmoothCameraController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,24 +44,24 @@ public:
 
   constexpr void __set__smoothCamera(::GlobalNamespace::SmoothCamera* value);
 
-  /// @brief Method Start addr 0x22684e4 size 0x4 virtual false final false
+  /// @brief Method Start addr 0x21243a8 size 0x4 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x2268684 size 0x4 virtual false final false
+  /// @brief Method OnDestroy addr 0x2124548 size 0x4 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleDidActivate addr 0x2268688 size 0x40 virtual false final false
+  /// @brief Method HandleDidActivate addr 0x212454c size 0x40 virtual false final false
   inline void HandleDidActivate();
 
-  /// @brief Method HandleDidDeactivate addr 0x22686c8 size 0x4 virtual false final false
+  /// @brief Method HandleDidDeactivate addr 0x212458c size 0x4 virtual false final false
   inline void HandleDidDeactivate();
 
-  /// @brief Method ActivateSmoothCameraIfNeeded addr 0x22684e8 size 0x19c virtual false final false
+  /// @brief Method ActivateSmoothCameraIfNeeded addr 0x21243ac size 0x19c virtual false final false
   inline void ActivateSmoothCameraIfNeeded();
 
   static inline ::GlobalNamespace::SmoothCameraController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22686cc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2124590 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SmoothCameraController", modifiers: "&&", def_value: None }]
@@ -88,6 +88,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SmoothCameraController, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SmoothCameraController, ____mainSettingsModel) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SmoothCameraController, ____smoothCamera) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SmoothCameraController);

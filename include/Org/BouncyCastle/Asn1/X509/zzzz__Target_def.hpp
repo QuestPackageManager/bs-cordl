@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Target)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-struct __Target__Choice;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+struct __Target__Choice;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -81,6 +81,8 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::__Target__Choice, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::__Target__Choice, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Asn1::X509
 // Type: Org.BouncyCastle.Asn1.X509::Target
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
@@ -119,26 +121,26 @@ public:
 
   constexpr void __set_targetGroup(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  /// @brief Method GetInstance addr 0x1197ad0 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0x1127888 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::Target* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Target* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj);
 
-  /// @brief Method .ctor addr 0x1197c58 size 0x114 virtual false final false
+  /// @brief Method .ctor addr 0x1127a10 size 0x114 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Target* New_ctor(::Org::BouncyCastle::Asn1::X509::__Target__Choice type, ::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method .ctor addr 0x1197d6c size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x1127b24 size 0x7c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::__Target__Choice type, ::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method get_TargetGroup addr 0x1197de8 size 0x8 virtual true final false
+  /// @brief Method get_TargetGroup addr 0x1127ba0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_TargetGroup();
 
-  /// @brief Method get_TargetName addr 0x1197df0 size 0x8 virtual true final false
+  /// @brief Method get_TargetName addr 0x1127ba8 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_TargetName();
 
-  /// @brief Method ToAsn1Object addr 0x1197df8 size 0x94 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1127bb0 size 0x94 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Target", modifiers: "&&", def_value: None }]
@@ -165,6 +167,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::Target, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::Target, ___targetName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::Target, ___targetGroup) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::__Target__Choice, "Org.BouncyCastle.Asn1.X509", "Target/Choice");

@@ -18,13 +18,13 @@ MARK_REF_PTR_T(::TMPro::SetPropertyUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12392))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12320))
 // CS Name: ::TMPro::SetPropertyUtility*
 class CORDL_TYPE SetPropertyUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetColor addr 0x2c39680 size 0x48 virtual false final false
+  /// @brief Method SetColor addr 0x2ab592c size 0x48 virtual false final false
   static inline bool SetColor(ByRef<::UnityEngine::Color> currentValue, ::UnityEngine::Color newValue);
 
   /// @brief Method SetEquatableStruct addr 0x0 size 0xffffffffffffffff virtual false final false

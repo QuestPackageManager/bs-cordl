@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LazyInject_1)
 namespace Zenject {
-class InjectContext;
+class DiContainer;
 }
 namespace Zenject {
 class IValidatable;
 }
 namespace Zenject {
-class DiContainer;
+class InjectContext;
 }
 // Forward declare root types
 namespace Zenject {
@@ -25,8 +25,8 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11117))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11045))
 // CS Name: ::Zenject::LazyInject`1<T>*
 class CORDL_TYPE LazyInject_1 : public ::System::Object {
 public:

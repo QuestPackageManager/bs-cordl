@@ -16,7 +16,7 @@ MARK_VAL_T(::LIV::SDK::Unity::TEXTURE_ID);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15102))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15206))
 // CS Name: ::LIV.SDK.Unity::TEXTURE_ID
 struct CORDL_TYPE TEXTURE_ID {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::TEXTURE_ID, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::TEXTURE_ID, value__) == 0x0, "Offset mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::TEXTURE_ID, "LIV.SDK.Unity", "TEXTURE_ID");

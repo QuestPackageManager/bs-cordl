@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::ISerializationCallbackReceiver);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10051))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9979))
 // CS Name: ::UnityEngine::ISerializationCallbackReceiver*
 class CORDL_TYPE ISerializationCallbackReceiver {
 public:

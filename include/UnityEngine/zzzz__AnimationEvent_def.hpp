@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::AnimationEvent);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14863)), TypeDefinitionIndex(TypeDefinitionIndex(14879)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14878))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14867)) CS Name: ::UnityEngine::AnimationEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15106)), TypeDefinitionIndex(TypeDefinitionIndex(15105)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15090))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15094)) CS Name: ::UnityEngine::AnimationEvent*
 class CORDL_TYPE AnimationEvent : public ::System::Object {
 public:
   // Declarations
@@ -132,7 +132,7 @@ public:
 
   static inline ::UnityEngine::AnimationEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c905d0 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x2b2a930 size 0x64 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationEvent", modifiers: "&&", def_value: None }]
@@ -186,6 +186,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimationEvent, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimationEvent, ___m_Time) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimationEvent, ___m_FunctionName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimationEvent, ___m_StringParameter) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimationEvent, ___m_ObjectReferenceParameter) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimationEvent, ___m_FloatParameter) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimationEvent, ___m_IntParameter) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimationEvent, ___m_MessageOptions) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimationEvent, ___m_Source) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimationEvent, ___m_StateSender) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimationEvent, ___m_AnimatorStateInfo) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimationEvent, ___m_AnimatorClipInfo) == 0x6c, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::AnimationEvent);

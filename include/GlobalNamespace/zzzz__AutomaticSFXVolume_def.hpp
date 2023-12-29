@@ -12,10 +12,10 @@ namespace GlobalNamespace {
 class AudioManagerSO;
 }
 namespace GlobalNamespace {
-class __AutomaticSFXVolume__InitData;
+class AutomaticSFXVolumeParamsSO;
 }
 namespace GlobalNamespace {
-class AutomaticSFXVolumeParamsSO;
+class __AutomaticSFXVolume__InitData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__AutomaticSFXVolume__InitData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4054))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4042))
 // CS Name: ::AutomaticSFXVolume::InitData*
 class CORDL_TYPE __AutomaticSFXVolume__InitData : public ::System::Object {
 public:
@@ -66,7 +66,7 @@ public:
 
   static inline ::GlobalNamespace::__AutomaticSFXVolume__InitData* New_ctor(float_t volumeOffset, bool adaptiveSfx, float_t maxVolume);
 
-  /// @brief Method .ctor addr 0x222c538 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x20cca4c size 0x3c virtual false final false
   inline void _ctor(float_t volumeOffset, bool adaptiveSfx, float_t maxVolume);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AutomaticSFXVolume__InitData", modifiers: "&&", def_value: None }]
@@ -97,13 +97,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AutomaticSFXVolume__InitData, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__AutomaticSFXVolume__InitData, ___volumeOffset) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__AutomaticSFXVolume__InitData, ___maxVolume) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__AutomaticSFXVolume__InitData, ___adaptiveSfx) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::AutomaticSFXVolume
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4055))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4043))
 // CS Name: ::AutomaticSFXVolume*
 class CORDL_TYPE AutomaticSFXVolume : public ::UnityEngine::MonoBehaviour {
 public:
@@ -209,27 +215,27 @@ public:
 
   constexpr void __set__maxVolume(float_t value);
 
-  /// @brief Method Start addr 0x222c278 size 0x4 virtual false final false
+  /// @brief Method Start addr 0x20cc78c size 0x4 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDisable addr 0x222c2f4 size 0x88 virtual false final false
+  /// @brief Method OnDisable addr 0x20cc808 size 0x88 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method OnValidate addr 0x222c37c size 0x4 virtual false final false
+  /// @brief Method OnValidate addr 0x20cc890 size 0x4 virtual false final false
   inline void OnValidate();
 
-  /// @brief Method RecalculateParams addr 0x222c27c size 0x78 virtual false final false
+  /// @brief Method RecalculateParams addr 0x20cc790 size 0x78 virtual false final false
   inline void RecalculateParams();
 
-  /// @brief Method OnAudioFilterRead addr 0x222c380 size 0x154 virtual false final false
+  /// @brief Method OnAudioFilterRead addr 0x20cc894 size 0x154 virtual false final false
   inline void OnAudioFilterRead(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels);
 
-  /// @brief Method Update addr 0x222c4d4 size 0x50 virtual false final false
+  /// @brief Method Update addr 0x20cc9e8 size 0x50 virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::AutomaticSFXVolume* New_ctor();
 
-  /// @brief Method .ctor addr 0x222c524 size 0x14 virtual false final false
+  /// @brief Method .ctor addr 0x20cca38 size 0x14 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AutomaticSFXVolume", modifiers: "&&", def_value: None }]
@@ -286,6 +292,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AutomaticSFXVolume, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutomaticSFXVolume, ____params) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutomaticSFXVolume, ____audioManager) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutomaticSFXVolume, ____initData) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutomaticSFXVolume, ____sampleRate) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutomaticSFXVolume, ____volume) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutomaticSFXVolume, ____envelope) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutomaticSFXVolume, ____attackSamples) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutomaticSFXVolume, ____releaseSamples) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutomaticSFXVolume, ____attackCoef) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutomaticSFXVolume, ____releaseCoef) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutomaticSFXVolume, ____maxVolume) == 0x4c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AutomaticSFXVolume);

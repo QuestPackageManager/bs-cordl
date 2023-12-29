@@ -5,29 +5,29 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ReflectionUtil)
-namespace System::Reflection {
-class MethodInfo;
+namespace System {
+class Action;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4, typename T5> class Action_5;
 }
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5> class Action_5;
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Action_6;
 }
 namespace System::Collections {
 class IList;
 }
 namespace System {
-class Object;
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
-}
-namespace System {
-template <typename T> class Action_1;
+template <typename TResult> class Func_1;
 }
 namespace System {
 class Array;
@@ -36,25 +36,25 @@ namespace System {
 class Type;
 }
 namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System {
-class Action;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Action_6;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
+}
+namespace System::Reflection {
+class MethodInfo;
 }
 // Forward declare root types
 namespace ModestTree {
@@ -66,22 +66,22 @@ MARK_REF_PTR_T(::ModestTree::ReflectionUtil);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10624))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10552))
 // CS Name: ::ModestTree::ReflectionUtil*
 class CORDL_TYPE ReflectionUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateArray addr 0x2ebe588 size 0x308 virtual false final false
+  /// @brief Method CreateArray addr 0x2d56808 size 0x308 virtual false final false
   static inline ::System::Array* CreateArray(::System::Type* elementType, ::System::Collections::Generic::List_1<::System::Object*>* instances);
 
-  /// @brief Method CreateGenericList addr 0x2ebe890 size 0x458 virtual false final false
+  /// @brief Method CreateGenericList addr 0x2d56b10 size 0x458 virtual false final false
   static inline ::System::Collections::IList* CreateGenericList(::System::Type* elementType, ::System::Collections::Generic::List_1<::System::Object*>* instances);
 
-  /// @brief Method ToDebugString addr 0x2ebece8 size 0x130 virtual false final false
+  /// @brief Method ToDebugString addr 0x2d56f68 size 0x130 virtual false final false
   static inline ::StringW ToDebugString(::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ToDebugString addr 0x2ebee18 size 0x1c virtual false final false
+  /// @brief Method ToDebugString addr 0x2d57098 size 0x1c virtual false final false
   static inline ::StringW ToDebugString(::System::Action* action);
 
   /// @brief Method ToDebugString addr 0x0 size 0xffffffffffffffff virtual false final false

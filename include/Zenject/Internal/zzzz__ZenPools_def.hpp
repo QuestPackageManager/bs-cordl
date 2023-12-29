@@ -6,47 +6,47 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenPools)
-namespace Zenject {
-class BindStatement;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System {
-class Object;
-}
-namespace Zenject::Internal {
-class LookupId;
-}
-namespace Zenject {
-class InjectableInfo;
-}
-namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-class IProvider;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace Zenject {
 class DiContainer;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+struct BindingId;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-struct BindingId;
+class BindInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+class InjectableInfo;
+}
+namespace Zenject {
+class BindStatement;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 template <typename TValue> class StaticMemoryPool_1;
 }
+namespace Zenject::Internal {
+class LookupId;
+}
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template <typename T> class List_1;
+}
+namespace Zenject {
+class InjectContext;
 }
 // Forward declare root types
 namespace Zenject::Internal {
@@ -58,8 +58,8 @@ MARK_REF_PTR_T(::Zenject::Internal::ZenPools);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11384))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11312))
 // CS Name: ::Zenject.Internal::ZenPools*
 class CORDL_TYPE ZenPools : public ::System::Object {
 public:
@@ -98,16 +98,16 @@ public:
   /// @brief Method SpawnDictionary addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename TKey, typename TValue> static inline ::System::Collections::Generic::Dictionary_2<TKey, TValue>* SpawnDictionary();
 
-  /// @brief Method SpawnStatement addr 0x2f2334c size 0x78 virtual false final false
+  /// @brief Method SpawnStatement addr 0x2dbb510 size 0x78 virtual false final false
   static inline ::Zenject::BindStatement* SpawnStatement();
 
-  /// @brief Method DespawnStatement addr 0x2f233c4 size 0x90 virtual false final false
+  /// @brief Method DespawnStatement addr 0x2dbb588 size 0x90 virtual false final false
   static inline void DespawnStatement(::Zenject::BindStatement* statement);
 
-  /// @brief Method SpawnBindInfo addr 0x2f23454 size 0x78 virtual false final false
+  /// @brief Method SpawnBindInfo addr 0x2dbb618 size 0x78 virtual false final false
   static inline ::Zenject::BindInfo* SpawnBindInfo();
 
-  /// @brief Method DespawnBindInfo addr 0x2f234cc size 0x90 virtual false final false
+  /// @brief Method DespawnBindInfo addr 0x2dbb690 size 0x90 virtual false final false
   static inline void DespawnBindInfo(::Zenject::BindInfo* bindInfo);
 
   /// @brief Method DespawnDictionary addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -116,10 +116,10 @@ public:
   /// @brief Method DespawnHashSet addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline void DespawnHashSet(::System::Collections::Generic::HashSet_1<T>* set);
 
-  /// @brief Method SpawnLookupId addr 0x2f2355c size 0x9c virtual false final false
+  /// @brief Method SpawnLookupId addr 0x2dbb720 size 0x9c virtual false final false
   static inline ::Zenject::Internal::LookupId* SpawnLookupId(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId);
 
-  /// @brief Method DespawnLookupId addr 0x2f235f8 size 0x80 virtual false final false
+  /// @brief Method DespawnLookupId addr 0x2dbb7bc size 0x80 virtual false final false
   static inline void DespawnLookupId(::Zenject::Internal::LookupId* lookupId);
 
   /// @brief Method SpawnList addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -134,13 +134,13 @@ public:
   /// @brief Method SpawnArray addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> SpawnArray(int32_t length);
 
-  /// @brief Method SpawnInjectContext addr 0x2f23678 size 0xa8 virtual false final false
+  /// @brief Method SpawnInjectContext addr 0x2dbb83c size 0xa8 virtual false final false
   static inline ::Zenject::InjectContext* SpawnInjectContext(::Zenject::DiContainer* container, ::System::Type* memberType);
 
-  /// @brief Method DespawnInjectContext addr 0x2f23720 size 0x90 virtual false final false
+  /// @brief Method DespawnInjectContext addr 0x2dbb8e4 size 0x90 virtual false final false
   static inline void DespawnInjectContext(::Zenject::InjectContext* context);
 
-  /// @brief Method SpawnInjectContext addr 0x2f237b0 size 0xcc virtual false final false
+  /// @brief Method SpawnInjectContext addr 0x2dbb974 size 0xcc virtual false final false
   static inline ::Zenject::InjectContext* SpawnInjectContext(::Zenject::DiContainer* container, ::Zenject::InjectableInfo* injectableInfo, ::Zenject::InjectContext* currentContext,
                                                              ::System::Object* targetInstance, ::System::Type* targetType, ::System::Object* concreteIdentifier);
 

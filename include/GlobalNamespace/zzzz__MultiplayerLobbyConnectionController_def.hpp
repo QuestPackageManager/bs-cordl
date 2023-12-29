@@ -9,26 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLobbyConnectionController)
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
-}
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class INetworkPlayer;
 }
 namespace GlobalNamespace {
 struct __MultiplayerLobbyConnectionController__LobbyConnectionState;
 }
-namespace GlobalNamespace {
-class __UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig;
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 struct __MultiplayerLobbyConnectionController__LobbyConnectionType;
@@ -36,8 +24,11 @@ struct __MultiplayerLobbyConnectionController__LobbyConnectionType;
 namespace GlobalNamespace {
 class IUnifiedNetworkPlayerModel;
 }
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
 namespace GlobalNamespace {
-struct ConnectionFailedReason;
+struct CreateServerFormData;
 }
 namespace GlobalNamespace {
 class SelectMultiplayerLobbyDestination;
@@ -46,7 +37,16 @@ namespace GlobalNamespace {
 struct SongPackMask;
 }
 namespace GlobalNamespace {
-struct CreateServerFormData;
+struct ConnectionFailedReason;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficultyMask;
+}
+namespace GlobalNamespace {
+class INetworkPlayer;
+}
+namespace GlobalNamespace {
+class __UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -67,7 +67,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyConnectionController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4511))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4522))
 // CS Name: ::MultiplayerLobbyConnectionController::LobbyConnectionState
 struct CORDL_TYPE __MultiplayerLobbyConnectionController__LobbyConnectionState {
 public:
@@ -117,13 +117,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionState, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionState, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LobbyConnectionType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4512))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4523))
 // CS Name: ::MultiplayerLobbyConnectionController::LobbyConnectionType
 struct CORDL_TYPE __MultiplayerLobbyConnectionController__LobbyConnectionType {
 public:
@@ -173,13 +175,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MultiplayerLobbyConnectionController
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4512)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12708)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4511))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4513)) CS Name: ::MultiplayerLobbyConnectionController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12636)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(4523)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4522))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4524)) CS Name: ::MultiplayerLobbyConnectionController*
 class CORDL_TYPE MultiplayerLobbyConnectionController : public ::System::Object {
 public:
   // Declarations
@@ -279,69 +283,69 @@ public:
 
   constexpr void __set__retryAttemptsLeft(int32_t value);
 
-  /// @brief Method add_connectionSuccessEvent addr 0x23614a4 size 0x9c virtual false final false
+  /// @brief Method add_connectionSuccessEvent addr 0x22123dc size 0x9c virtual false final false
   inline void add_connectionSuccessEvent(::System::Action* value);
 
-  /// @brief Method remove_connectionSuccessEvent addr 0x2361540 size 0x9c virtual false final false
+  /// @brief Method remove_connectionSuccessEvent addr 0x2212478 size 0x9c virtual false final false
   inline void remove_connectionSuccessEvent(::System::Action* value);
 
-  /// @brief Method add_connectionFailedEvent addr 0x23615dc size 0xb0 virtual false final false
+  /// @brief Method add_connectionFailedEvent addr 0x2212514 size 0xb0 virtual false final false
   inline void add_connectionFailedEvent(::System::Action_2<::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method remove_connectionFailedEvent addr 0x236168c size 0xb0 virtual false final false
+  /// @brief Method remove_connectionFailedEvent addr 0x22125c4 size 0xb0 virtual false final false
   inline void remove_connectionFailedEvent(::System::Action_2<::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method get_connectionState addr 0x236173c size 0x8 virtual false final false
+  /// @brief Method get_connectionState addr 0x2212674 size 0x8 virtual false final false
   inline ::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionState get_connectionState();
 
-  /// @brief Method set_connectionState addr 0x2361744 size 0x8 virtual false final false
+  /// @brief Method set_connectionState addr 0x221267c size 0x8 virtual false final false
   inline void set_connectionState(::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionState value);
 
-  /// @brief Method get_connectionType addr 0x236174c size 0x8 virtual false final false
+  /// @brief Method get_connectionType addr 0x2212684 size 0x8 virtual false final false
   inline ::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType get_connectionType();
 
-  /// @brief Method set_connectionType addr 0x2361754 size 0x8 virtual false final false
+  /// @brief Method set_connectionType addr 0x221268c size 0x8 virtual false final false
   inline void set_connectionType(::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType value);
 
-  /// @brief Method get_connectionFailedReason addr 0x236175c size 0x8 virtual false final false
+  /// @brief Method get_connectionFailedReason addr 0x2212694 size 0x8 virtual false final false
   inline ::GlobalNamespace::ConnectionFailedReason get_connectionFailedReason();
 
-  /// @brief Method set_connectionFailedReason addr 0x2361764 size 0x8 virtual false final false
+  /// @brief Method set_connectionFailedReason addr 0x221269c size 0x8 virtual false final false
   inline void set_connectionFailedReason(::GlobalNamespace::ConnectionFailedReason value);
 
-  /// @brief Method CreateParty addr 0x236176c size 0x450 virtual false final false
+  /// @brief Method CreateParty addr 0x22126a4 size 0x42c virtual false final false
   inline void CreateParty(::GlobalNamespace::CreateServerFormData data);
 
-  /// @brief Method ConnectToParty addr 0x2361e4c size 0x324 virtual false final false
+  /// @brief Method ConnectToParty addr 0x2212d60 size 0x318 virtual false final false
   inline void ConnectToParty(::StringW serverCode);
 
-  /// @brief Method CreateOrConnectToDestinationParty addr 0x2362170 size 0x414 virtual false final false
+  /// @brief Method CreateOrConnectToDestinationParty addr 0x2213078 size 0x408 virtual false final false
   inline void CreateOrConnectToDestinationParty(::GlobalNamespace::SelectMultiplayerLobbyDestination* lobbyDestination);
 
-  /// @brief Method ConnectToServer addr 0x2362584 size 0x23c virtual false final false
+  /// @brief Method ConnectToServer addr 0x2213480 size 0x23c virtual false final false
   inline void ConnectToServer(::GlobalNamespace::INetworkPlayer* server, ::StringW password);
 
-  /// @brief Method ConnectToMatchmaking addr 0x23627c0 size 0x334 virtual false final false
+  /// @brief Method ConnectToMatchmaking addr 0x22136bc size 0x330 virtual false final false
   inline void ConnectToMatchmaking(::GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask, ::GlobalNamespace::SongPackMask songPackMask, bool allowSongSelection);
 
-  /// @brief Method LeaveLobby addr 0x2362af4 size 0xa8 virtual false final false
+  /// @brief Method LeaveLobby addr 0x22139ec size 0xa8 virtual false final false
   inline void LeaveLobby();
 
-  /// @brief Method ClearCurrentConnection addr 0x2362b9c size 0x8 virtual false final false
+  /// @brief Method ClearCurrentConnection addr 0x2213a94 size 0x8 virtual false final false
   inline void ClearCurrentConnection();
 
-  /// @brief Method HandleMultiplayerSessionManagerConnected addr 0x2362ba4 size 0x274 virtual false final false
+  /// @brief Method HandleMultiplayerSessionManagerConnected addr 0x2213a9c size 0x274 virtual false final false
   inline void HandleMultiplayerSessionManagerConnected();
 
-  /// @brief Method HandleMultiplayerSessionManagerConnectionFailed addr 0x2361bbc size 0x290 virtual false final false
+  /// @brief Method HandleMultiplayerSessionManagerConnectionFailed addr 0x2212ad0 size 0x290 virtual false final false
   inline void HandleMultiplayerSessionManagerConnectionFailed(::GlobalNamespace::ConnectionFailedReason reason);
 
-  /// @brief Method HandleMultiplayerSessionManagerConnectionFailedWithRetry addr 0x2362e18 size 0x12c virtual false final false
+  /// @brief Method HandleMultiplayerSessionManagerConnectionFailedWithRetry addr 0x2213d10 size 0x12c virtual false final false
   inline void HandleMultiplayerSessionManagerConnectionFailedWithRetry(::GlobalNamespace::ConnectionFailedReason reason);
 
   static inline ::GlobalNamespace::MultiplayerLobbyConnectionController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2362f44 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2213e3c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyConnectionController", modifiers: "&&", def_value: None }]
@@ -389,6 +393,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyConnectionController, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyConnectionController, ____multiplayerSessionManager) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyConnectionController, ____unifiedNetworkPlayerModel) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyConnectionController, ___connectionSuccessEvent) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyConnectionController, ___connectionFailedEvent) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyConnectionController, ____connectionState_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyConnectionController, ____connectionType_k__BackingField) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyConnectionController, ____connectionFailedReason_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyConnectionController, ____partyConfig) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyConnectionController, ____retryAttemptsLeft) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionState, "", "MultiplayerLobbyConnectionController/LobbyConnectionState");

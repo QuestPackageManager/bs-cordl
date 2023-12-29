@@ -17,7 +17,7 @@ MARK_VAL_T(::System::Numerics::Register);
 namespace System::Numerics {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3551))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3546))
 // CS Name: ::System.Numerics::Register
 struct CORDL_TYPE Register {
 public:

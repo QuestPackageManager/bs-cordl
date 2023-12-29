@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(EnableRendererWithLightId)
 namespace UnityEngine {
-class Renderer;
+struct Color;
 }
 namespace UnityEngine {
-struct Color;
+class Renderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnableRendererWithLightId);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14529))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14745))
 // CS Name: ::EnableRendererWithLightId*
 class CORDL_TYPE EnableRendererWithLightId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -54,12 +54,12 @@ public:
 
   constexpr void __set__hideAlphaRangeMax(float_t value);
 
-  /// @brief Method ColorWasSet addr 0x210f21c size 0x44 virtual true final false
+  /// @brief Method ColorWasSet addr 0x1fb9be0 size 0x44 virtual true final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::EnableRendererWithLightId* New_ctor();
 
-  /// @brief Method .ctor addr 0x210f260 size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x1fb9c24 size 0x1c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnableRendererWithLightId", modifiers: "&&", def_value: None }]
@@ -89,6 +89,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnableRendererWithLightId, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnableRendererWithLightId, ____renderer) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnableRendererWithLightId, ____hideAlphaRangeMin) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::EnableRendererWithLightId, ____hideAlphaRangeMax) == 0x3c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnableRendererWithLightId);

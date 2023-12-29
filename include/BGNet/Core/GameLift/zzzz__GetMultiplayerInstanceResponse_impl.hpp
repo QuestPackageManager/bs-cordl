@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MultiplayerPlacementErrorCode_impl.hpp"
 #include "BGNet/Core/GameLift/zzzz__GetMultiplayerInstanceResponse_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerPlacementErrorCode_def.hpp"
 #include "BGNet/Core/GameLift/zzzz__PlayerSessionInfo_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerPlacementErrorCode_def.hpp"
 //  Writing Method size for method: ::BGNet::Core::GameLift::GetMultiplayerInstanceResponse._ctor
 template <>
 
@@ -10,9 +10,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MultiplayerPlacementErrorCode, ::BGNet::Core::GameLift::PlayerSessionInfo*, int32_t, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::BGNet::Core::GameLift::GetMultiplayerInstanceResponse::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0xe60ec4;
+  constexpr static std::size_t addrs = 0xdeacf4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GetMultiplayerInstanceResponse>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerPlacementErrorCode>::get(),

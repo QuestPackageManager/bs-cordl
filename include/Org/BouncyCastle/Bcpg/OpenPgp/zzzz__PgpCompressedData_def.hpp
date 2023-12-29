@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_def.hpp"
 CORDL_MODULE_EXPORT(PgpCompressedData)
 namespace Org::BouncyCastle::Bcpg {
-struct CompressionAlgorithmTag;
-}
-namespace Org::BouncyCastle::Bcpg {
-class CompressedDataPacket;
-}
-namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct CompressionAlgorithmTag;
 }
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Bcpg {
+class CompressedDataPacket;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -45,16 +45,16 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method .ctor addr 0x10a52ac size 0x120 virtual false final false
+  /// @brief Method .ctor addr 0x103405c size 0x120 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method get_Algorithm addr 0x10a53cc size 0x1c virtual false final false
+  /// @brief Method get_Algorithm addr 0x103417c size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag get_Algorithm();
 
-  /// @brief Method GetInputStream addr 0x10a53e8 size 0x1c virtual false final false
+  /// @brief Method GetInputStream addr 0x1034198 size 0x1c virtual false final false
   inline ::System::IO::Stream* GetInputStream();
 
-  /// @brief Method GetDataStream addr 0x10a5404 size 0x178 virtual false final false
+  /// @brief Method GetDataStream addr 0x10341b4 size 0x178 virtual false final false
   inline ::System::IO::Stream* GetDataStream();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedData", modifiers: "&&", def_value: None }]
@@ -78,6 +78,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData, ___data) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg::OpenPgp
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData);

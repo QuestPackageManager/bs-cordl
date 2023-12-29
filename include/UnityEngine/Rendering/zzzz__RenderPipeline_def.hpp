@@ -9,13 +9,13 @@ namespace UnityEngine::Rendering {
 struct ScriptableRenderContext;
 }
 namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
 struct __Camera__RenderRequest;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine {
-class Camera;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::RenderPipeline);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10358))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10280))
 // CS Name: ::UnityEngine.Rendering::RenderPipeline*
 class CORDL_TYPE RenderPipeline : public ::System::Object {
 public:
@@ -47,30 +47,30 @@ public:
   /// @brief Method Render addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::ArrayW<::UnityEngine::Camera*, ::Array<::UnityEngine::Camera*>*> cameras);
 
-  /// @brief Method ProcessRenderRequests addr 0x2cedf10 size 0x4 virtual true final false
+  /// @brief Method ProcessRenderRequests addr 0x2b86adc size 0x4 virtual true final false
   inline void ProcessRenderRequests(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera,
                                     ::System::Collections::Generic::List_1<::UnityEngine::__Camera__RenderRequest>* renderRequests);
 
-  /// @brief Method Render addr 0x2cedf14 size 0x78 virtual true final false
+  /// @brief Method Render addr 0x2b86ae0 size 0x78 virtual true final false
   inline void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityEngine::Camera*>* cameras);
 
-  /// @brief Method InternalRender addr 0x2ced5a0 size 0x88 virtual false final false
+  /// @brief Method InternalRender addr 0x2b8616c size 0x88 virtual false final false
   inline void InternalRender(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityEngine::Camera*>* cameras);
 
-  /// @brief Method InternalRenderWithRequests addr 0x2ced628 size 0x100 virtual false final false
+  /// @brief Method InternalRenderWithRequests addr 0x2b861f4 size 0x100 virtual false final false
   inline void InternalRenderWithRequests(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityEngine::Camera*>* cameras,
                                          ::System::Collections::Generic::List_1<::UnityEngine::__Camera__RenderRequest>* renderRequests);
 
-  /// @brief Method get_disposed addr 0x2cedf8c size 0x8 virtual false final false
+  /// @brief Method get_disposed addr 0x2b86b58 size 0x8 virtual false final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed addr 0x2cedf94 size 0xc virtual false final false
+  /// @brief Method set_disposed addr 0x2b86b60 size 0xc virtual false final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose addr 0x2ced01c size 0x78 virtual false final false
+  /// @brief Method Dispose addr 0x2b85be8 size 0x78 virtual false final false
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x2cedfa0 size 0x4 virtual true final false
+  /// @brief Method Dispose addr 0x2b86b6c size 0x4 virtual true final false
   inline void Dispose(bool disposing);
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderPipeline", modifiers: "&&", def_value: None }]
@@ -94,6 +94,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderPipeline, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::RenderPipeline, ____disposed_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::RenderPipeline);

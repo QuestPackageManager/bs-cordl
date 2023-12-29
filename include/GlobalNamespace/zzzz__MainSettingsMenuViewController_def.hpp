@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MainSettingsMenuViewController)
-namespace GlobalNamespace {
-class SettingsSubMenuInfo;
-}
-namespace HMUI {
-class SegmentedControl;
-}
 namespace HMUI {
 class TextSegmentedControl;
 }
+namespace GlobalNamespace {
+class SettingsSubMenuInfo;
+}
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace HMUI {
+class SegmentedControl;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MainSettingsMenuViewController);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5693))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5792))
 // CS Name: ::MainSettingsMenuViewController*
 class CORDL_TYPE MainSettingsMenuViewController : public ::HMUI::ViewController {
 public:
@@ -85,30 +85,30 @@ public:
 
   constexpr void __set__selectedSubMenuInfoIdx(int32_t value);
 
-  /// @brief Method add_didSelectSettingsSubMenuEvent addr 0x22c9514 size 0xb0 virtual false final false
+  /// @brief Method add_didSelectSettingsSubMenuEvent addr 0x2186b18 size 0xb0 virtual false final false
   inline void add_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value);
 
-  /// @brief Method remove_didSelectSettingsSubMenuEvent addr 0x22c95c4 size 0xb0 virtual false final false
+  /// @brief Method remove_didSelectSettingsSubMenuEvent addr 0x2186bc8 size 0xb0 virtual false final false
   inline void remove_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value);
 
-  /// @brief Method get_numberOfSubMenus addr 0x22c9674 size 0x1c virtual false final false
+  /// @brief Method get_numberOfSubMenus addr 0x2186c78 size 0x1c virtual false final false
   inline int32_t get_numberOfSubMenus();
 
-  /// @brief Method get_selectedSubMenuInfo addr 0x22c9690 size 0x8 virtual false final false
+  /// @brief Method get_selectedSubMenuInfo addr 0x2186c94 size 0x8 virtual false final false
   inline ::GlobalNamespace::SettingsSubMenuInfo* get_selectedSubMenuInfo();
 
-  /// @brief Method Init addr 0x22c9698 size 0x38 virtual false final false
+  /// @brief Method Init addr 0x2186c9c size 0x38 virtual false final false
   inline void Init(int32_t selectedSubMenuInfoIdx);
 
-  /// @brief Method DidActivate addr 0x22c96d0 size 0x1f0 virtual true final false
+  /// @brief Method DidActivate addr 0x2186cd4 size 0x1f0 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleSettingsMenuSegmentedControlDidSelectCell addr 0x22c98c0 size 0x54 virtual false final false
+  /// @brief Method HandleSettingsMenuSegmentedControlDidSelectCell addr 0x2186ec4 size 0x54 virtual false final false
   inline void HandleSettingsMenuSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
   static inline ::GlobalNamespace::MainSettingsMenuViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22c9914 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2186f18 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MainSettingsMenuViewController", modifiers: "&&", def_value: None }]
@@ -144,6 +144,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainSettingsMenuViewController, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MainSettingsMenuViewController, ___didSelectSettingsSubMenuEvent) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MainSettingsMenuViewController, ____settingsSubMenuInfos) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MainSettingsMenuViewController, ____settingsMenuSegmentedControl) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MainSettingsMenuViewController, ____selectedSubMenuInfo) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MainSettingsMenuViewController, ____selectedSubMenuInfoIdx) == 0x90, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainSettingsMenuViewController);

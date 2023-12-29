@@ -22,8 +22,8 @@ MARK_VAL_T(::OVR::OpenVR::VRBoneTransform_t);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8648)), TypeDefinitionIndex(TypeDefinitionIndex(8652))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8699))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9417)), TypeDefinitionIndex(TypeDefinitionIndex(9421))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9468))
 // CS Name: ::OVR.OpenVR::VRBoneTransform_t
 struct CORDL_TYPE VRBoneTransform_t {
 public:
@@ -49,6 +49,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VRBoneTransform_t, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRBoneTransform_t, position) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRBoneTransform_t, orientation) == 0x10, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VRBoneTransform_t, "OVR.OpenVR", "VRBoneTransform_t");

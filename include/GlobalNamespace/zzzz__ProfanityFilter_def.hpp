@@ -7,31 +7,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProfanityFilter)
 namespace GlobalNamespace {
+class __ProfanityFilter___GetLookalikeLetters_d__4;
+}
+namespace GlobalNamespace {
 class __ProfanityFilter__TrieNode;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace GlobalNamespace {
-class __ProfanityFilter___GetLookalikeLetters_d__4;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12931))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12852))
 // CS Name: ::ProfanityFilter::TrieNode*
 class CORDL_TYPE __ProfanityFilter__TrieNode : public ::System::Object {
 public:
@@ -75,15 +75,15 @@ public:
 
   constexpr void __set__shortestWord(int32_t value);
 
-  /// @brief Method AddWord addr 0xe539b8 size 0x4c4 virtual false final false
+  /// @brief Method AddWord addr 0xdce9d8 size 0x4c4 virtual false final false
   inline void AddWord(::StringW word, int32_t index);
 
-  /// @brief Method IsMatch addr 0xe53ee4 size 0x178 virtual false final false
+  /// @brief Method IsMatch addr 0xdcef04 size 0x178 virtual false final false
   inline bool IsMatch(::StringW word, int32_t index);
 
   static inline ::GlobalNamespace::__ProfanityFilter__TrieNode* New_ctor();
 
-  /// @brief Method .ctor addr 0xe539a8 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0xdce9c8 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ProfanityFilter__TrieNode", modifiers: "&&", def_value: None }]
@@ -111,13 +111,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ProfanityFilter__TrieNode, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ProfanityFilter__TrieNode, ____children) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ProfanityFilter__TrieNode, ____shortestWord) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<GetLookalikeLetters>d__4
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12932))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12853))
 // CS Name: ::ProfanityFilter::<GetLookalikeLetters>d__4*
 class CORDL_TYPE __ProfanityFilter___GetLookalikeLetters_d__4 : public ::System::Object {
 public:
@@ -188,28 +192,28 @@ public:
 
   static inline ::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0xe540d4 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0xdcf0f4 size 0x34 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0xe54174 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0xdcf194 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0xe54178 size 0xa4 virtual true final true
+  /// @brief Method MoveNext addr 0xdcf198 size 0xa4 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Char>.get_Current addr 0xe5421c size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Char>.get_Current addr 0xdcf23c size 0x8 virtual true final true
   inline char16_t System_Collections_Generic_IEnumerator_System_Char__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0xe54224 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0xdcf244 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0xe54264 size 0x5c virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0xdcf284 size 0x5c virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator addr 0xe542c0 size 0xa4 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator addr 0xdcf2e0 size 0xa4 virtual true final true
   inline ::System::Collections::Generic::IEnumerator_1<char16_t>* System_Collections_Generic_IEnumerable_System_Char__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0xe54364 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0xdcf384 size 0x4 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ProfanityFilter___GetLookalikeLetters_d__4", modifiers: "&&", def_value: None }]
@@ -246,13 +250,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4, _____2__current) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4, _____l__initialThreadId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4, ___c) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4, _____3__c) == 0x1e, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ProfanityFilter
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12933))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12854))
 // CS Name: ::ProfanityFilter*
 class CORDL_TYPE ProfanityFilter : public ::System::Object {
 public:
@@ -272,16 +286,16 @@ public:
 
   static inline ::GlobalNamespace::ProfanityFilter* New_ctor(::System::Collections::Generic::IEnumerable_1<::StringW>* wordList);
 
-  /// @brief Method .ctor addr 0xe53668 size 0x340 virtual false final false
+  /// @brief Method .ctor addr 0xdce688 size 0x340 virtual false final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::StringW>* wordList);
 
-  /// @brief Method IsProfane addr 0xe53e7c size 0x68 virtual false final false
+  /// @brief Method IsProfane addr 0xdcee9c size 0x68 virtual false final false
   inline bool IsProfane(::StringW word);
 
-  /// @brief Method GetLookalikeLetters addr 0xe5405c size 0x78 virtual false final false
+  /// @brief Method GetLookalikeLetters addr 0xdcf07c size 0x78 virtual false final false
   static inline ::System::Collections::Generic::IEnumerable_1<char16_t>* GetLookalikeLetters(char16_t c);
 
-  /// @brief Method GetLeetEquivalent addr 0xe54108 size 0x6c virtual false final false
+  /// @brief Method GetLeetEquivalent addr 0xdcf128 size 0x6c virtual false final false
   static inline char16_t GetLeetEquivalent(char16_t c);
 
   // Ctor Parameters [CppParam { name: "", ty: "ProfanityFilter", modifiers: "&&", def_value: None }]
@@ -305,6 +319,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ProfanityFilter, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ProfanityFilter, ____trie) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ProfanityFilter);

@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TaskToApm)
-namespace System {
-class IAsyncResult;
-}
 namespace System::Threading::Tasks {
 class Task;
-}
-namespace System::Threading::Tasks {
-class __TaskToApm__TaskWrapperAsyncResult;
 }
 namespace System::Threading::Tasks {
 class __TaskToApm____c__DisplayClass3_0;
 }
 namespace System {
-class Object;
+class AsyncCallback;
 }
 namespace System {
-class AsyncCallback;
+class Object;
+}
+namespace System::Threading::Tasks {
+class __TaskToApm__TaskWrapperAsyncResult;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System::Threading {
 class WaitHandle;
@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2759))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2757))
 // CS Name: ::TaskToApm::TaskWrapperAsyncResult*
 class CORDL_TYPE __TaskToApm__TaskWrapperAsyncResult : public ::System::Object {
 public:
@@ -89,19 +89,19 @@ public:
 
   static inline ::System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult* New_ctor(::System::Threading::Tasks::Task* task, ::System::Object* state, bool completedSynchronously);
 
-  /// @brief Method .ctor addr 0x2620fc4 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x24c6f10 size 0x3c virtual false final false
   inline void _ctor(::System::Threading::Tasks::Task* task, ::System::Object* state, bool completedSynchronously);
 
-  /// @brief Method System.IAsyncResult.get_AsyncState addr 0x2621224 size 0x8 virtual true final true
+  /// @brief Method System.IAsyncResult.get_AsyncState addr 0x24c7170 size 0x8 virtual true final true
   inline ::System::Object* System_IAsyncResult_get_AsyncState();
 
-  /// @brief Method System.IAsyncResult.get_CompletedSynchronously addr 0x262122c size 0x8 virtual true final true
+  /// @brief Method System.IAsyncResult.get_CompletedSynchronously addr 0x24c7178 size 0x8 virtual true final true
   inline bool System_IAsyncResult_get_CompletedSynchronously();
 
-  /// @brief Method System.IAsyncResult.get_IsCompleted addr 0x2621234 size 0x18 virtual true final true
+  /// @brief Method System.IAsyncResult.get_IsCompleted addr 0x24c7180 size 0x18 virtual true final true
   inline bool System_IAsyncResult_get_IsCompleted();
 
-  /// @brief Method System.IAsyncResult.get_AsyncWaitHandle addr 0x262124c size 0xa4 virtual true final true
+  /// @brief Method System.IAsyncResult.get_AsyncWaitHandle addr 0x24c7198 size 0xa4 virtual true final true
   inline ::System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TaskToApm__TaskWrapperAsyncResult", modifiers: "&&", def_value: None }]
@@ -132,13 +132,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult, ___Task) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult, ____state) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult, ____completedSynchronously) == 0x20, "Offset mismatch!");
+
 } // namespace System::Threading::Tasks
 // Type: ::<>c__DisplayClass3_0
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2760))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2758))
 // CS Name: ::TaskToApm::<>c__DisplayClass3_0*
 class CORDL_TYPE __TaskToApm____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -163,10 +169,10 @@ public:
 
   static inline ::System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x26211e8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24c7134 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <InvokeCallbackWhenTaskCompletes>b__0 addr 0x26212f0 size 0x28 virtual false final false
+  /// @brief Method <InvokeCallbackWhenTaskCompletes>b__0 addr 0x24c723c size 0x28 virtual false final false
   inline void _InvokeCallbackWhenTaskCompletes_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TaskToApm____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
@@ -194,13 +200,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0, ___callback) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0, ___asyncResult) == 0x18, "Offset mismatch!");
+
 } // namespace System::Threading::Tasks
 // Type: System.Threading.Tasks::TaskToApm
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2761))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2759))
 // CS Name: ::System.Threading.Tasks::TaskToApm*
 class CORDL_TYPE TaskToApm : public ::System::Object {
 public:
@@ -209,16 +219,16 @@ public:
 
   using TaskWrapperAsyncResult = ::System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult;
 
-  /// @brief Method Begin addr 0x2620e6c size 0xf4 virtual false final false
+  /// @brief Method Begin addr 0x24c6db8 size 0xf4 virtual false final false
   static inline ::System::IAsyncResult* Begin(::System::Threading::Tasks::Task* task, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method End addr 0x26210f8 size 0xec virtual false final false
+  /// @brief Method End addr 0x24c7044 size 0xec virtual false final false
   static inline void End(::System::IAsyncResult* asyncResult);
 
   /// @brief Method End addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename TResult> static inline TResult End(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method InvokeCallbackWhenTaskCompletes addr 0x2621000 size 0xf8 virtual false final false
+  /// @brief Method InvokeCallbackWhenTaskCompletes addr 0x24c6f4c size 0xf8 virtual false final false
   static inline void InvokeCallbackWhenTaskCompletes(::System::Threading::Tasks::Task* antecedent, ::System::AsyncCallback* callback, ::System::IAsyncResult* asyncResult);
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskToApm", modifiers: "&&", def_value: None }]

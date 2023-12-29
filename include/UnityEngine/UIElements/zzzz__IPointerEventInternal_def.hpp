@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IPointerEventInternal);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7197))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7283))
 // CS Name: ::UnityEngine.UIElements::IPointerEventInternal*
 class CORDL_TYPE IPointerEventInternal {
 public:

@@ -4,22 +4,22 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IConnectedPlayerBeatmapObjectEventManager)
 namespace GlobalNamespace {
-class SliderSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class NoteSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
 class NoteCutInfoNetSerializable;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class NoteMissInfoNetSerializable;
 }
 namespace GlobalNamespace {
+class SliderSpawnInfoNetSerializable;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
 class ObstacleSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class NoteSpawnInfoNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12779))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12706))
 // CS Name: ::IConnectedPlayerBeatmapObjectEventManager*
 class CORDL_TYPE IConnectedPlayerBeatmapObjectEventManager {
 public:

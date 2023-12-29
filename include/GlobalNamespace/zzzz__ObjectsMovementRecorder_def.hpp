@@ -10,29 +10,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectsMovementRecorder)
-namespace UnityEngine {
-class Camera;
-}
 namespace GlobalNamespace {
 struct __ObjectsMovementRecorder__Mode;
 }
 namespace GlobalNamespace {
+class PlaybackRenderer;
+}
+namespace GlobalNamespace {
 struct __ObjectsMovementRecorder__CameraView;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace GlobalNamespace {
 class __ObjectsMovementRecorder__InitData;
 }
 namespace GlobalNamespace {
-class PoseObject;
-}
-namespace GlobalNamespace {
 class PosesRecorder;
 }
 namespace GlobalNamespace {
-class PosesPlayback;
+class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
 class PlaybackScreenshotRecorder;
+}
+namespace GlobalNamespace {
+class PoseObject;
 }
 namespace GlobalNamespace {
 class PoseObjectIdSO;
@@ -41,16 +44,13 @@ namespace GlobalNamespace {
 class __PlaybackRenderer__PlaybackScreenshot;
 }
 namespace GlobalNamespace {
-class PlaybackRenderer;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
 class IBeatSaberLogger;
 }
 namespace GlobalNamespace {
 class IPosesSerializer;
+}
+namespace GlobalNamespace {
+class PosesPlayback;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,7 +75,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__ObjectsMovementRecorder__InitData);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5917))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6008))
 // CS Name: ::ObjectsMovementRecorder::Mode
 struct CORDL_TYPE __ObjectsMovementRecorder__Mode {
 public:
@@ -121,13 +121,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ObjectsMovementRecorder__Mode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__Mode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::CameraView
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5918))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6009))
 // CS Name: ::ObjectsMovementRecorder::CameraView
 struct CORDL_TYPE __ObjectsMovementRecorder__CameraView {
 public:
@@ -169,13 +171,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ObjectsMovementRecorder__CameraView, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__CameraView, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::InitData
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5918)), TypeDefinitionIndex(TypeDefinitionIndex(5917))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5919))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6009)), TypeDefinitionIndex(TypeDefinitionIndex(6008)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6010))
 // CS Name: ::ObjectsMovementRecorder::InitData*
 class CORDL_TYPE __ObjectsMovementRecorder__InitData : public ::System::Object {
 public:
@@ -296,7 +300,7 @@ public:
            ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> playbackScreenshots, bool saveToOldFormat,
            ::GlobalNamespace::IBeatSaberLogger* logger, ::GlobalNamespace::IPosesSerializer* posesSerializer);
 
-  /// @brief Method .ctor addr 0x2300138 size 0xa4 virtual false final false
+  /// @brief Method .ctor addr 0x21b6b88 size 0xa4 virtual false final false
   inline void _ctor(::GlobalNamespace::__ObjectsMovementRecorder__Mode mode, ::StringW recordingPath, ::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView,
                     bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate,
                     ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> playbackScreenshots,
@@ -357,13 +361,37 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ObjectsMovementRecorder__InitData, 0x58>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___mode) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___recordingPath) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___cameraView) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___addDateTimeSuffixToRecordingName) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___screenshotRecording) == 0x25, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___screenshotWidth) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___screenshotHeight) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___framerate) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___playbackScreenshots) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___saveToOldFormat) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___posesSerializer) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___logger) == 0x50, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ObjectsMovementRecorder
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5918)), TypeDefinitionIndex(TypeDefinitionIndex(5917))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5920))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(6008)), TypeDefinitionIndex(TypeDefinitionIndex(6009))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6011))
 // CS Name: ::ObjectsMovementRecorder*
 class CORDL_TYPE ObjectsMovementRecorder : public ::UnityEngine::MonoBehaviour {
 public:
@@ -529,18 +557,18 @@ public:
 
   constexpr void __set__posesSerializer(::GlobalNamespace::IPosesSerializer* value);
 
-  /// @brief Method Init addr 0x22fef7c size 0x704 virtual false final false
+  /// @brief Method Init addr 0x21b59cc size 0x704 virtual false final false
   inline void Init();
 
-  /// @brief Method OnDestroy addr 0x22ffd84 size 0x228 virtual false final false
+  /// @brief Method OnDestroy addr 0x21b67d4 size 0x228 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleGameStateChanged addr 0x22fffc4 size 0x70 virtual false final false
+  /// @brief Method HandleGameStateChanged addr 0x21b6a14 size 0x70 virtual false final false
   inline void HandleGameStateChanged();
 
   static inline ::GlobalNamespace::ObjectsMovementRecorder* New_ctor();
 
-  /// @brief Method .ctor addr 0x2300128 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x21b6b78 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectsMovementRecorder", modifiers: "&&", def_value: None }]
@@ -612,6 +640,40 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObjectsMovementRecorder, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____poseObjects) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____livPoseObjectId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____recorder) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____playback) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____playbackScreenshotRecorder) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____playbackRender) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____externalCameraPrefab) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____audioTimeSyncController) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____hmdCamera) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____initData) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____mode) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____recordingPath) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____cameraView) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____externalCamera) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____playbackScreenshots) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____logger) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____posesSerializer) == 0x98, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ObjectsMovementRecorder__CameraView, "", "ObjectsMovementRecorder/CameraView");

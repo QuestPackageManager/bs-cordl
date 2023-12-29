@@ -10,13 +10,13 @@ namespace UnityEngine {
 class RenderTexture;
 }
 namespace GlobalNamespace {
-class BloomFogSO;
+struct ToneMapping;
 }
 namespace GlobalNamespace {
 class PyramidBloomRendererSO;
 }
 namespace GlobalNamespace {
-struct ToneMapping;
+class BloomFogSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBloomTextureEffectSO);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14446)), TypeDefinitionIndex(TypeDefinitionIndex(14470))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15312))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14665)), TypeDefinitionIndex(TypeDefinitionIndex(14688))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15341))
 // CS Name: ::BloomPrePassBloomTextureEffectSO*
 class CORDL_TYPE BloomPrePassBloomTextureEffectSO : public ::GlobalNamespace::BloomPrePassEffectSO {
 public:
@@ -153,15 +153,15 @@ public:
 
   constexpr void __set__bloomFog(::GlobalNamespace::BloomFogSO* value);
 
-  /// @brief Method get_toneMapping addr 0x280c20c size 0x20 virtual true final false
+  /// @brief Method get_toneMapping addr 0x26915b8 size 0x20 virtual true final false
   inline ::GlobalNamespace::ToneMapping get_toneMapping();
 
-  /// @brief Method Render addr 0x280c22c size 0x6c virtual true final false
+  /// @brief Method Render addr 0x26915d8 size 0x64 virtual true final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   static inline ::GlobalNamespace::BloomPrePassBloomTextureEffectSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x280c298 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x269163c size 0x3c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBloomTextureEffectSO", modifiers: "&&", def_value: None }]
@@ -221,6 +221,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBloomTextureEffectSO, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____radius) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____intensity) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____downBloomIntensityOffset) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____uniformPyramidWeights) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____pyramidWeightsParam) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____firstUpsampleBrightness) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____finalUpsampleBrightness) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____prefilterPass) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____downsamplePass) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____upsamplePass) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____finalUpsamplePass) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____bloomRenderer) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBloomTextureEffectSO, ____bloomFog) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassBloomTextureEffectSO);

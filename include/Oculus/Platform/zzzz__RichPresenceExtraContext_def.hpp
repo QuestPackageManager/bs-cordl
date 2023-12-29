@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::RichPresenceExtraContext);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13382))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13415))
 // CS Name: ::Oculus.Platform::RichPresenceExtraContext
 struct CORDL_TYPE RichPresenceExtraContext {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::RichPresenceExtraContext, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::RichPresenceExtraContext, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::RichPresenceExtraContext, "Oculus.Platform", "RichPresenceExtraContext");

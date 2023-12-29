@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PathsHolder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5972))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6049))
 // CS Name: ::PathsHolder*
 class CORDL_TYPE PathsHolder : public ::System::Object {
 public:
@@ -49,18 +49,18 @@ public:
 
   constexpr void __set__vertexPath(::GlobalNamespace::VertexPath* value);
 
-  /// @brief Method get_bezierPath addr 0x230be58 size 0x8 virtual false final false
+  /// @brief Method get_bezierPath addr 0x21c0dd4 size 0x8 virtual false final false
   inline ::GlobalNamespace::BezierPath* get_bezierPath();
 
-  /// @brief Method get_vertexPath addr 0x230be60 size 0x8 virtual false final false
+  /// @brief Method get_vertexPath addr 0x21c0ddc size 0x8 virtual false final false
   inline ::GlobalNamespace::VertexPath* get_vertexPath();
 
   static inline ::GlobalNamespace::PathsHolder* New_ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath);
 
-  /// @brief Method .ctor addr 0x230be68 size 0x124 virtual false final false
+  /// @brief Method .ctor addr 0x21c0de4 size 0x124 virtual false final false
   inline void _ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath);
 
-  /// @brief Method UpdateVertexPathByBezierPath addr 0x230c4dc size 0x20 virtual false final false
+  /// @brief Method UpdateVertexPathByBezierPath addr 0x21c1458 size 0x20 virtual false final false
   inline void UpdateVertexPathByBezierPath();
 
   // Ctor Parameters [CppParam { name: "", ty: "PathsHolder", modifiers: "&&", def_value: None }]
@@ -87,6 +87,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PathsHolder, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PathsHolder, ____bezierPath) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PathsHolder, ____vertexPath) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PathsHolder);

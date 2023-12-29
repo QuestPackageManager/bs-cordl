@@ -14,20 +14,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BsonReader)
+namespace Newtonsoft::Json::Bson {
+struct BsonBinaryType;
+}
+namespace Newtonsoft::Json::Bson {
+struct __BsonReader__BsonReaderState;
+}
 namespace System::IO {
 class Stream;
 }
 namespace Newtonsoft::Json::Bson {
 class __BsonReader__ContainerContext;
-}
-namespace Newtonsoft::Json::Bson {
-struct BsonType;
-}
-namespace Newtonsoft::Json::Bson {
-struct BsonBinaryType;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace System {
 struct DateTimeKind;
@@ -36,7 +33,10 @@ namespace System::IO {
 class BinaryReader;
 }
 namespace Newtonsoft::Json::Bson {
-struct __BsonReader__BsonReaderState;
+struct BsonType;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {
@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::__BsonReader__ContainerContext);
 namespace Newtonsoft::Json::Bson {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12071))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11999))
 // CS Name: ::BsonReader::BsonReaderState
 struct CORDL_TYPE __BsonReader__BsonReaderState {
 public:
@@ -127,13 +127,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Newtonsoft::Json::Bson
 // Type: ::ContainerContext
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12082))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12072))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12010)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12000))
 // CS Name: ::BsonReader::ContainerContext*
 class CORDL_TYPE __BsonReader__ContainerContext : public ::System::Object {
 public:
@@ -167,7 +169,7 @@ public:
 
   static inline ::Newtonsoft::Json::Bson::__BsonReader__ContainerContext* New_ctor(::Newtonsoft::Json::Bson::BsonType type);
 
-  /// @brief Method .ctor addr 0x26c71b8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2563a68 size 0x28 virtual false final false
   inline void _ctor(::Newtonsoft::Json::Bson::BsonType type);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BsonReader__ContainerContext", modifiers: "&&", def_value: None }]
@@ -198,13 +200,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Bson::__BsonReader__ContainerContext, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::Newtonsoft::Json::Bson::__BsonReader__ContainerContext, ___Type) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Bson::__BsonReader__ContainerContext, ___Length) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Bson::__BsonReader__ContainerContext, ___Position) == 0x18, "Offset mismatch!");
+
 } // namespace Newtonsoft::Json::Bson
 // Type: Newtonsoft.Json.Bson::BsonReader
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12082)), TypeDefinitionIndex(TypeDefinitionIndex(11833)), TypeDefinitionIndex(TypeDefinitionIndex(12071)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2369))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12073)) CS Name: ::Newtonsoft.Json.Bson::BsonReader*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11761)), TypeDefinitionIndex(TypeDefinitionIndex(2369)), TypeDefinitionIndex(TypeDefinitionIndex(11999)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12010))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12001)) CS Name: ::Newtonsoft.Json.Bson::BsonReader*
 class CORDL_TYPE BsonReader : public ::Newtonsoft::Json::JsonReader {
 public:
   // Declarations
@@ -336,111 +344,111 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_SeqRange4();
 
-  /// @brief Method get_JsonNet35BinaryCompatibility addr 0x26c64d8 size 0x8 virtual false final false
+  /// @brief Method get_JsonNet35BinaryCompatibility addr 0x2562d88 size 0x8 virtual false final false
   inline bool get_JsonNet35BinaryCompatibility();
 
-  /// @brief Method set_JsonNet35BinaryCompatibility addr 0x26c64e0 size 0xc virtual false final false
+  /// @brief Method set_JsonNet35BinaryCompatibility addr 0x2562d90 size 0xc virtual false final false
   inline void set_JsonNet35BinaryCompatibility(bool value);
 
-  /// @brief Method get_ReadRootValueAsArray addr 0x26c64ec size 0x8 virtual false final false
+  /// @brief Method get_ReadRootValueAsArray addr 0x2562d9c size 0x8 virtual false final false
   inline bool get_ReadRootValueAsArray();
 
-  /// @brief Method set_ReadRootValueAsArray addr 0x26c64f4 size 0xc virtual false final false
+  /// @brief Method set_ReadRootValueAsArray addr 0x2562da4 size 0xc virtual false final false
   inline void set_ReadRootValueAsArray(bool value);
 
-  /// @brief Method get_DateTimeKindHandling addr 0x26c6500 size 0x8 virtual false final false
+  /// @brief Method get_DateTimeKindHandling addr 0x2562db0 size 0x8 virtual false final false
   inline ::System::DateTimeKind get_DateTimeKindHandling();
 
-  /// @brief Method set_DateTimeKindHandling addr 0x26c6508 size 0x8 virtual false final false
+  /// @brief Method set_DateTimeKindHandling addr 0x2562db8 size 0x8 virtual false final false
   inline void set_DateTimeKindHandling(::System::DateTimeKind value);
 
   static inline ::Newtonsoft::Json::Bson::BsonReader* New_ctor(::System::IO::Stream* stream);
 
-  /// @brief Method .ctor addr 0x26c6510 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2562dc0 size 0xc virtual false final false
   inline void _ctor(::System::IO::Stream* stream);
 
   static inline ::Newtonsoft::Json::Bson::BsonReader* New_ctor(::System::IO::BinaryReader* reader);
 
-  /// @brief Method .ctor addr 0x26c661c size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2562ecc size 0xc virtual false final false
   inline void _ctor(::System::IO::BinaryReader* reader);
 
   static inline ::Newtonsoft::Json::Bson::BsonReader* New_ctor(::System::IO::Stream* stream, bool readRootValueAsArray, ::System::DateTimeKind dateTimeKindHandling);
 
-  /// @brief Method .ctor addr 0x26c651c size 0x100 virtual false final false
+  /// @brief Method .ctor addr 0x2562dcc size 0x100 virtual false final false
   inline void _ctor(::System::IO::Stream* stream, bool readRootValueAsArray, ::System::DateTimeKind dateTimeKindHandling);
 
   static inline ::Newtonsoft::Json::Bson::BsonReader* New_ctor(::System::IO::BinaryReader* reader, bool readRootValueAsArray, ::System::DateTimeKind dateTimeKindHandling);
 
-  /// @brief Method .ctor addr 0x26c6628 size 0xd0 virtual false final false
+  /// @brief Method .ctor addr 0x2562ed8 size 0xd0 virtual false final false
   inline void _ctor(::System::IO::BinaryReader* reader, bool readRootValueAsArray, ::System::DateTimeKind dateTimeKindHandling);
 
-  /// @brief Method ReadElement addr 0x26c66f8 size 0x1c virtual false final false
+  /// @brief Method ReadElement addr 0x2562fa8 size 0x1c virtual false final false
   inline ::StringW ReadElement();
 
-  /// @brief Method Read addr 0x26c69b8 size 0x1a8 virtual true final false
+  /// @brief Method Read addr 0x2563268 size 0x1a8 virtual true final false
   inline bool Read();
 
-  /// @brief Method Close addr 0x26c70f0 size 0x38 virtual true final false
+  /// @brief Method Close addr 0x25639a0 size 0x38 virtual true final false
   inline void Close();
 
-  /// @brief Method ReadCodeWScope addr 0x26c6f10 size 0x1e0 virtual false final false
+  /// @brief Method ReadCodeWScope addr 0x25637c0 size 0x1e0 virtual false final false
   inline bool ReadCodeWScope();
 
-  /// @brief Method ReadReference addr 0x26c6d54 size 0x1bc virtual false final false
+  /// @brief Method ReadReference addr 0x2563604 size 0x1bc virtual false final false
   inline bool ReadReference();
 
-  /// @brief Method ReadNormal addr 0x26c6b60 size 0x1f4 virtual false final false
+  /// @brief Method ReadNormal addr 0x2563410 size 0x1f4 virtual false final false
   inline bool ReadNormal();
 
-  /// @brief Method PopContext addr 0x26c7828 size 0xa4 virtual false final false
+  /// @brief Method PopContext addr 0x25640d8 size 0xa4 virtual false final false
   inline void PopContext();
 
-  /// @brief Method PushContext addr 0x26c71e0 size 0xa8 virtual false final false
+  /// @brief Method PushContext addr 0x2563a90 size 0xa8 virtual false final false
   inline void PushContext(::Newtonsoft::Json::Bson::__BsonReader__ContainerContext* newContext);
 
-  /// @brief Method ReadByte addr 0x26c77f4 size 0x34 virtual false final false
+  /// @brief Method ReadByte addr 0x25640a4 size 0x34 virtual false final false
   inline uint8_t ReadByte();
 
-  /// @brief Method ReadType addr 0x26c72c0 size 0x534 virtual false final false
+  /// @brief Method ReadType addr 0x2563b70 size 0x534 virtual false final false
   inline void ReadType(::Newtonsoft::Json::Bson::BsonType type);
 
-  /// @brief Method ReadBinary addr 0x26c7928 size 0x58 virtual false final false
+  /// @brief Method ReadBinary addr 0x25641d8 size 0x58 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadBinary(ByRef<::Newtonsoft::Json::Bson::BsonBinaryType> binaryType);
 
-  /// @brief Method ReadString addr 0x26c6748 size 0x270 virtual false final false
+  /// @brief Method ReadString addr 0x2562ff8 size 0x270 virtual false final false
   inline ::StringW ReadString();
 
-  /// @brief Method ReadLengthString addr 0x26c7160 size 0x58 virtual false final false
+  /// @brief Method ReadLengthString addr 0x2563a10 size 0x58 virtual false final false
   inline ::StringW ReadLengthString();
 
-  /// @brief Method GetString addr 0x26c7ae8 size 0x274 virtual false final false
+  /// @brief Method GetString addr 0x2564398 size 0x274 virtual false final false
   inline ::StringW GetString(int32_t length);
 
-  /// @brief Method GetLastFullCharStop addr 0x26c7a64 size 0x84 virtual false final false
+  /// @brief Method GetLastFullCharStop addr 0x2564314 size 0x84 virtual false final false
   inline int32_t GetLastFullCharStop(int32_t start);
 
-  /// @brief Method BytesInSequence addr 0x26c7d5c size 0x1d0 virtual false final false
+  /// @brief Method BytesInSequence addr 0x256460c size 0x1d0 virtual false final false
   inline int32_t BytesInSequence(uint8_t b);
 
-  /// @brief Method EnsureBuffers addr 0x26c79b8 size 0xac virtual false final false
+  /// @brief Method EnsureBuffers addr 0x2564268 size 0xac virtual false final false
   inline void EnsureBuffers();
 
-  /// @brief Method ReadDouble addr 0x26c78f0 size 0x38 virtual false final false
+  /// @brief Method ReadDouble addr 0x25641a0 size 0x38 virtual false final false
   inline double_t ReadDouble();
 
-  /// @brief Method ReadInt32 addr 0x26c7128 size 0x38 virtual false final false
+  /// @brief Method ReadInt32 addr 0x25639d8 size 0x38 virtual false final false
   inline int32_t ReadInt32();
 
-  /// @brief Method ReadInt64 addr 0x26c7980 size 0x38 virtual false final false
+  /// @brief Method ReadInt64 addr 0x2564230 size 0x38 virtual false final false
   inline int64_t ReadInt64();
 
-  /// @brief Method ReadType addr 0x26c6714 size 0x34 virtual false final false
+  /// @brief Method ReadType addr 0x2562fc4 size 0x34 virtual false final false
   inline ::Newtonsoft::Json::Bson::BsonType ReadType();
 
-  /// @brief Method MovePosition addr 0x26c78cc size 0x24 virtual false final false
+  /// @brief Method MovePosition addr 0x256417c size 0x24 virtual false final false
   inline void MovePosition(int32_t count);
 
-  /// @brief Method ReadBytes addr 0x26c7288 size 0x38 virtual false final false
+  /// @brief Method ReadBytes addr 0x2563b38 size 0x38 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadBytes(int32_t count);
 
   // Ctor Parameters [CppParam { name: "", ty: "BsonReader", modifiers: "&&", def_value: None }]
@@ -494,6 +502,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Bson::BsonReader, 0xb0>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Bson::BsonReader, ____reader) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Bson::BsonReader, ____stack) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Bson::BsonReader, ____byteBuffer) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Bson::BsonReader, ____charBuffer) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Bson::BsonReader, ____currentElementType) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Bson::BsonReader, ____bsonReaderState) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Bson::BsonReader, ____currentContext) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Bson::BsonReader, ____readRootValueAsArray) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Bson::BsonReader, ____jsonNet35BinaryCompatibility) == 0xa9, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Bson::BsonReader, ____dateTimeKindHandling) == 0xac, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Bson
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState, "Newtonsoft.Json.Bson", "BsonReader/BsonReaderState");

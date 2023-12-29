@@ -6,17 +6,14 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FloorLightTile)
+namespace System {
+template <typename T> class Action_1;
+}
 namespace Tweening {
 class ColorTween;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockColorSetter;
-}
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
-}
-namespace Ice {
-class __FloorLightTile__Pool;
 }
 namespace UnityEngine {
 struct Color;
@@ -24,8 +21,11 @@ struct Color;
 namespace Tweening {
 class SongTimeTweeningManager;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace Ice {
+class __FloorLightTile__Pool;
+}
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
 }
 // Forward declare root types
 namespace Ice {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::Ice::__FloorLightTile__Pool);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16168))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16008))
 // CS Name: ::Ice::FloorLightTile*
 class CORDL_TYPE FloorLightTile : public ::UnityEngine::MonoBehaviour {
 public:
@@ -103,27 +103,27 @@ public:
 
   constexpr void __set__fadeOutTween(::Tweening::ColorTween* value);
 
-  /// @brief Method Awake addr 0x129f894 size 0x1f0 virtual false final false
+  /// @brief Method Awake addr 0x122d568 size 0x1f0 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x129fa84 size 0xa0 virtual false final false
+  /// @brief Method OnDestroy addr 0x122d758 size 0xa0 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HighlightWithColor addr 0x129fb24 size 0xcc virtual false final false
+  /// @brief Method HighlightWithColor addr 0x122d7f8 size 0xcc virtual false final false
   inline void HighlightWithColor(::UnityEngine::Color color, float_t fadeInDuration, float_t fadeOutDuration);
 
-  /// @brief Method HandleFadeInTweenOnCompleted addr 0x129fbf0 size 0x24 virtual false final false
+  /// @brief Method HandleFadeInTweenOnCompleted addr 0x122d8c4 size 0x24 virtual false final false
   inline void HandleFadeInTweenOnCompleted();
 
-  /// @brief Method HandleFadeOutTweenOnCompleted addr 0x129fc14 size 0x20 virtual false final false
+  /// @brief Method HandleFadeOutTweenOnCompleted addr 0x122d8e8 size 0x20 virtual false final false
   inline void HandleFadeOutTweenOnCompleted();
 
-  /// @brief Method SetColor addr 0x129fc34 size 0x60 virtual false final false
+  /// @brief Method SetColor addr 0x122d908 size 0x64 virtual false final false
   inline void SetColor(::UnityEngine::Color color);
 
   static inline ::Ice::FloorLightTile* New_ctor();
 
-  /// @brief Method .ctor addr 0x129fc94 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x122d96c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FloorLightTile", modifiers: "&&", def_value: None }]
@@ -163,19 +163,31 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Ice::FloorLightTile, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::Ice::FloorLightTile, ____colorSetter) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Ice::FloorLightTile, ____tubeBloomPrePassLight) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Ice::FloorLightTile, ____songTimeTweeningManager) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Ice::FloorLightTile, ___didFinish) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Ice::FloorLightTile, ____fadeInTween) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Ice::FloorLightTile, ____fadeOutTween) == 0x40, "Offset mismatch!");
+
 } // namespace Ice
 // Type: ::Pool
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16168)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 308 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(16167)) CS Name: ::FloorLightTile::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16008)), TypeDefinitionIndex(TypeDefinitionIndex(10978)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst:
+// 309 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(16007)) CS Name: ::FloorLightTile::Pool*
 class CORDL_TYPE __FloorLightTile__Pool : public ::Zenject::MonoMemoryPool_1<::Ice::FloorLightTile*> {
 public:
   // Declarations
   static inline ::Ice::__FloorLightTile__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x129fc9c size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x122d974 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FloorLightTile__Pool", modifiers: "&&", def_value: None }]

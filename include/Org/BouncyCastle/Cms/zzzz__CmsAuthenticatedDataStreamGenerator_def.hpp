@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsAuthenticatedDataStreamGenerator)
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace System::IO {
 class Stream;
 }
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
 namespace Org::BouncyCastle::Crypto {
 class CipherKeyGenerator;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
 namespace Org::BouncyCastle::Cms {
 class __CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
@@ -105,17 +105,17 @@ public:
                                                                                                                             ::Org::BouncyCastle::Asn1::BerSequenceGenerator* authGen,
                                                                                                                             ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
-  /// @brief Method .ctor addr 0x11dbfcc size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x116ad7c size 0x50 virtual false final false
   inline void _ctor(::System::IO::Stream* macStream, ::Org::BouncyCastle::Crypto::IMac* mac, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* cGen,
                     ::Org::BouncyCastle::Asn1::BerSequenceGenerator* authGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
-  /// @brief Method WriteByte addr 0x11dc1d8 size 0x24 virtual true final false
+  /// @brief Method WriteByte addr 0x116af88 size 0x24 virtual true final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method Write addr 0x11dc1fc size 0x24 virtual true final false
+  /// @brief Method Write addr 0x116afac size 0x24 virtual true final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off, int32_t len);
 
-  /// @brief Method Close addr 0x11dc220 size 0x138 virtual true final false
+  /// @brief Method Close addr 0x116afd0 size 0x138 virtual true final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream", modifiers: "&&", def_value: None }]
@@ -152,6 +152,16 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream, 0x58>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream, ___macStream) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream, ___mac) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream, ___cGen) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream, ___authGen) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream, ___eiGen) == 0x50, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Cms
 // Type: Org.BouncyCastle.Cms::CmsAuthenticatedDataStreamGenerator
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
@@ -185,31 +195,31 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x11db10c size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x1169ebc size 0x4 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor addr 0x11db110 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x1169ec0 size 0x4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method SetBufferSize addr 0x11db114 size 0x8 virtual false final false
+  /// @brief Method SetBufferSize addr 0x1169ec4 size 0x8 virtual false final false
   inline void SetBufferSize(int32_t bufferSize);
 
-  /// @brief Method SetBerEncodeRecipients addr 0x11db11c size 0xc virtual false final false
+  /// @brief Method SetBerEncodeRecipients addr 0x1169ecc size 0xc virtual false final false
   inline void SetBerEncodeRecipients(bool berEncodeRecipientSet);
 
-  /// @brief Method Open addr 0x11db128 size 0x5f8 virtual false final false
+  /// @brief Method Open addr 0x1169ed8 size 0x5f8 virtual false final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, ::StringW macOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator* keyGen);
 
-  /// @brief Method Open addr 0x11db720 size 0x8ac virtual false final false
+  /// @brief Method Open addr 0x116a4d0 size 0x8ac virtual false final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgId, ::Org::BouncyCastle::Crypto::ICipherParameters* cipherParameters,
                                     ::Org::BouncyCastle::Asn1::Asn1EncodableVector* recipientInfos);
 
-  /// @brief Method Open addr 0x11dc01c size 0xdc virtual false final false
+  /// @brief Method Open addr 0x116adcc size 0xdc virtual false final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, ::StringW encryptionOid);
 
-  /// @brief Method Open addr 0x11dc0f8 size 0xe0 virtual false final false
+  /// @brief Method Open addr 0x116aea8 size 0xe0 virtual false final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, ::StringW encryptionOid, int32_t keySize);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataStreamGenerator", modifiers: "&&", def_value: None }]
@@ -236,6 +246,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator, ____bufferSize) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator, ____berEncodeRecipientSet) == 0x2c, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator);

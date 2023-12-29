@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Text::EncoderReplacementFallbackBuffer);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2845))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2848))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2841))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2844))
 // CS Name: ::System.Text::EncoderReplacementFallbackBuffer*
 class CORDL_TYPE EncoderReplacementFallbackBuffer : public ::System::Text::EncoderFallbackBuffer {
 public:
@@ -56,25 +56,25 @@ public:
 
   static inline ::System::Text::EncoderReplacementFallbackBuffer* New_ctor(::System::Text::EncoderReplacementFallback* fallback);
 
-  /// @brief Method .ctor addr 0x2436dbc size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x22dd2a0 size 0x48 virtual false final false
   inline void _ctor(::System::Text::EncoderReplacementFallback* fallback);
 
-  /// @brief Method Fallback addr 0x2436ec0 size 0x150 virtual true final false
+  /// @brief Method Fallback addr 0x22dd3a4 size 0x150 virtual true final false
   inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  /// @brief Method Fallback addr 0x2437010 size 0x228 virtual true final false
+  /// @brief Method Fallback addr 0x22dd4f4 size 0x228 virtual true final false
   inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method GetNextChar addr 0x2437238 size 0x50 virtual true final false
+  /// @brief Method GetNextChar addr 0x22dd71c size 0x50 virtual true final false
   inline char16_t GetNextChar();
 
-  /// @brief Method MovePrevious addr 0x2437288 size 0x30 virtual true final false
+  /// @brief Method MovePrevious addr 0x22dd76c size 0x30 virtual true final false
   inline bool MovePrevious();
 
-  /// @brief Method get_Remaining addr 0x24372b8 size 0xc virtual true final false
+  /// @brief Method get_Remaining addr 0x22dd79c size 0xc virtual true final false
   inline int32_t get_Remaining();
 
-  /// @brief Method Reset addr 0x24372c4 size 0x14 virtual true final false
+  /// @brief Method Reset addr 0x22dd7a8 size 0x14 virtual true final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "EncoderReplacementFallbackBuffer", modifiers: "&&", def_value: None }]
@@ -104,6 +104,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::EncoderReplacementFallbackBuffer, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Text::EncoderReplacementFallbackBuffer, ____strDefault) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::EncoderReplacementFallbackBuffer, ____fallbackCount) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::EncoderReplacementFallbackBuffer, ____fallbackIndex) == 0x3c, "Offset mismatch!");
 
 } // namespace System::Text
 NEED_NO_BOX(::System::Text::EncoderReplacementFallbackBuffer);

@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::System::Net::Configuration::BypassElement);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16257))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9565))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16080))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8401))
 // CS Name: ::System.Net.Configuration::BypassElement*
 class CORDL_TYPE BypassElement : public ::System::Configuration::ConfigurationElement {
 public:

@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionNodeSelectionManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5547))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5640))
 // CS Name: ::MissionNodeSelectionManager*
 class CORDL_TYPE MissionNodeSelectionManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -69,30 +69,30 @@ public:
 
   constexpr void __set__selectedNode(::GlobalNamespace::MissionNodeVisualController* value);
 
-  /// @brief Method add_didSelectMissionNodeEvent addr 0x22a0894 size 0xb0 virtual false final false
+  /// @brief Method add_didSelectMissionNodeEvent addr 0x215b910 size 0xb0 virtual false final false
   inline void add_didSelectMissionNodeEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
 
-  /// @brief Method remove_didSelectMissionNodeEvent addr 0x22a0944 size 0xb0 virtual false final false
+  /// @brief Method remove_didSelectMissionNodeEvent addr 0x215b9c0 size 0xb0 virtual false final false
   inline void remove_didSelectMissionNodeEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
 
-  /// @brief Method DeselectSelectedNode addr 0x22a09f4 size 0x80 virtual false final false
+  /// @brief Method DeselectSelectedNode addr 0x215ba70 size 0x80 virtual false final false
   inline void DeselectSelectedNode();
 
-  /// @brief Method Start addr 0x22a0aa0 size 0x138 virtual false final false
+  /// @brief Method Start addr 0x215bb1c size 0x138 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x22a0d38 size 0x170 virtual false final false
+  /// @brief Method OnDestroy addr 0x215bdb4 size 0x170 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleNodeWasSelect addr 0x22a1008 size 0xb4 virtual false final false
+  /// @brief Method HandleNodeWasSelect addr 0x215c084 size 0xb4 virtual false final false
   inline void HandleNodeWasSelect(::GlobalNamespace::MissionNodeVisualController* missionNode);
 
-  /// @brief Method HandleNodeWasDisplayed addr 0x22a10bc size 0x80 virtual false final false
+  /// @brief Method HandleNodeWasDisplayed addr 0x215c138 size 0x80 virtual false final false
   inline void HandleNodeWasDisplayed(::GlobalNamespace::MissionNodeVisualController* missionNode);
 
   static inline ::GlobalNamespace::MissionNodeSelectionManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x22a113c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x215c1b8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionNodeSelectionManager", modifiers: "&&", def_value: None }]
@@ -125,6 +125,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionNodeSelectionManager, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeSelectionManager, ____missionNodesManager) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeSelectionManager, ___didSelectMissionNodeEvent) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeSelectionManager, ____missionNodes) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionNodeSelectionManager, ____selectedNode) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionNodeSelectionManager);

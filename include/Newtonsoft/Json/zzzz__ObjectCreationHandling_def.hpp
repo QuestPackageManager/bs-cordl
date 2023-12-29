@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::ObjectCreationHandling);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11822))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11750))
 // CS Name: ::Newtonsoft.Json::ObjectCreationHandling
 struct CORDL_TYPE ObjectCreationHandling {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::ObjectCreationHandling, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::ObjectCreationHandling, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::ObjectCreationHandling, "Newtonsoft.Json", "ObjectCreationHandling");

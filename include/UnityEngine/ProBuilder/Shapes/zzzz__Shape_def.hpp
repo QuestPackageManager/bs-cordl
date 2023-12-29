@@ -11,10 +11,10 @@ namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Bounds;
 }
 namespace UnityEngine {
-struct Bounds;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -26,13 +26,13 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Shape);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12233))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12161))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Shape*
 class CORDL_TYPE Shape : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method UpdateBounds addr 0x2b8dbf4 size 0x4c virtual true final false
+  /// @brief Method UpdateBounds addr 0x2a0cea0 size 0x4c virtual true final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
   /// @brief Method RebuildMesh addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -43,7 +43,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Shapes::Shape* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b87ae4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a06d90 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Shape", modifiers: "&&", def_value: None }]

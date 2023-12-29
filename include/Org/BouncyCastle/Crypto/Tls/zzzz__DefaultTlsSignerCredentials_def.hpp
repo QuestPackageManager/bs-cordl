@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultTlsSignerCredentials)
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSigner;
+class SignatureAndHashAlgorithm;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class SignatureAndHashAlgorithm;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+class TlsSigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -89,7 +89,7 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials*
   New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method .ctor addr 0xf65a4c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xeef828 size 0x8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context,
@@ -97,17 +97,17 @@ public:
                                                                                         ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                                                                                         ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* signatureAndHashAlgorithm);
 
-  /// @brief Method .ctor addr 0xf65a54 size 0x420 virtual false final false
+  /// @brief Method .ctor addr 0xeef830 size 0x420 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                     ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* signatureAndHashAlgorithm);
 
-  /// @brief Method get_Certificate addr 0xf65e74 size 0x8 virtual true final false
+  /// @brief Method get_Certificate addr 0xeefc50 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Crypto::Tls::Certificate* get_Certificate();
 
-  /// @brief Method GenerateCertificateSignature addr 0xf65e7c size 0x238 virtual true final false
+  /// @brief Method GenerateCertificateSignature addr 0xeefc58 size 0x238 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateCertificateSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> hash);
 
-  /// @brief Method get_SignatureAndHashAlgorithm addr 0xf660b4 size 0x8 virtual true final false
+  /// @brief Method get_SignatureAndHashAlgorithm addr 0xeefe90 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* get_SignatureAndHashAlgorithm();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultTlsSignerCredentials", modifiers: "&&", def_value: None }]
@@ -143,6 +143,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials, ___mContext) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials, ___mCertificate) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials, ___mPrivateKey) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials, ___mSignatureAndHashAlgorithm) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials, ___mSigner) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials);

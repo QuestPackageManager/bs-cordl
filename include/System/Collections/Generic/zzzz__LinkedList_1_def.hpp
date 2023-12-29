@@ -7,50 +7,50 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LinkedList_1)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __LinkedList_1__Enumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-class Array;
-}
 namespace System::Collections {
-class ICollection;
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections {
-class IEnumerable;
+class ICollection;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections::Generic {
+template <typename T> struct __LinkedList_1__Enumerator;
 }
 namespace System {
 class IDisposable;
@@ -72,7 +72,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9533))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8370))
 // CS Name: ::LinkedList`1::Enumerator<T>
 struct CORDL_TYPE __LinkedList_1__Enumerator {
 public:
@@ -161,8 +161,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9534))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8371))
 // CS Name: ::System.Collections.Generic::LinkedList`1<T>*
 class CORDL_TYPE LinkedList_1 : public ::System::Object {
 public:
@@ -273,7 +273,7 @@ public:
   inline void System_Collections_Generic_ICollection_T__Add(T value);
 
   /// @brief Method AddAfter addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void AddAfter(::System::Collections::Generic::LinkedListNode_1<T>* node, ::System::Collections::Generic::LinkedListNode_1<T>* newNode);
+  inline ::System::Collections::Generic::LinkedListNode_1<T>* AddAfter(::System::Collections::Generic::LinkedListNode_1<T>* node, T value);
 
   /// @brief Method AddBefore addr 0x0 size 0xffffffffffffffff virtual false final false
   inline ::System::Collections::Generic::LinkedListNode_1<T>* AddBefore(::System::Collections::Generic::LinkedListNode_1<T>* node, T value);

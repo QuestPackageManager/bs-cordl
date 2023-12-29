@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::AttributeProperties);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11438))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11366))
 // CS Name: ::System.Xml::AttributeProperties
 struct CORDL_TYPE AttributeProperties {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::AttributeProperties, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::AttributeProperties, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::AttributeProperties, "System.Xml", "AttributeProperties");

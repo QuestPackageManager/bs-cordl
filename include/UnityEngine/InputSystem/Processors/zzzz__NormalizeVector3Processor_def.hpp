@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NormalizeVector3Processor)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::InputSystem {
 class InputControl;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Processors {
@@ -22,20 +22,20 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::NormalizeVector3Processor
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 412 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6236))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6589)) CS Name: ::UnityEngine.InputSystem.Processors::NormalizeVector3Processor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6322)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6322), inst: 407
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6675)) CS Name: ::UnityEngine.InputSystem.Processors::NormalizeVector3Processor*
 class CORDL_TYPE NormalizeVector3Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3> {
 public:
   // Declarations
-  /// @brief Method Process addr 0x2af99b4 size 0xd0 virtual true final false
+  /// @brief Method Process addr 0x2978c60 size 0xd0 virtual true final false
   inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString addr 0x2af9a84 size 0x40 virtual true final false
+  /// @brief Method ToString addr 0x2978d30 size 0x40 virtual true final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::InputSystem::Processors::NormalizeVector3Processor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2af9ac4 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2978d70 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NormalizeVector3Processor", modifiers: "&&", def_value: None }]

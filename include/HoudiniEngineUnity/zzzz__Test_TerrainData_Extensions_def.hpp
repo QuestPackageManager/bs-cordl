@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Test_TerrainData_Extensions)
+namespace UnityEngine {
+class TerrainData;
+}
 namespace HoudiniEngineUnity {
 class Test_TerrainData;
 }
@@ -13,9 +16,6 @@ class __Test_TerrainData_Extensions____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine {
-class TerrainData;
 }
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_TerrainData_Extensions____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9943))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9870))
 // CS Name: ::Test_TerrainData_Extensions::<>c*
 class CORDL_TYPE __Test_TerrainData_Extensions____c : public ::System::Object {
 public:
@@ -63,13 +63,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_TerrainData_Extensions____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x21e90b8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x209071c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <ToTestObject>b__1_0 addr 0x21e90c0 size 0x64 virtual false final false
+  /// @brief Method <ToTestObject>b__1_0 addr 0x2090724 size 0x64 virtual false final false
   inline ::HoudiniEngineUnity::Test_TerrainData* _ToTestObject_b__1_0(::UnityEngine::TerrainData* lod);
 
-  /// @brief Method <ToTestObject>b__2_0 addr 0x21e9124 size 0x64 virtual false final false
+  /// @brief Method <ToTestObject>b__2_0 addr 0x2090788 size 0x64 virtual false final false
   inline ::HoudiniEngineUnity::Test_TerrainData* _ToTestObject_b__2_0(::UnityEngine::TerrainData* lod);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Test_TerrainData_Extensions____c", modifiers: "&&", def_value: None }]
@@ -96,22 +96,22 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_Terra
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9944))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9871))
 // CS Name: ::HoudiniEngineUnity::Test_TerrainData_Extensions*
 class CORDL_TYPE Test_TerrainData_Extensions : public ::System::Object {
 public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_TerrainData_Extensions____c;
 
-  /// @brief Method ToTestObject addr 0x21e8dfc size 0x64 virtual false final false
+  /// @brief Method ToTestObject addr 0x2090460 size 0x64 virtual false final false
   static inline ::HoudiniEngineUnity::Test_TerrainData* ToTestObject(::UnityEngine::TerrainData* self);
 
-  /// @brief Method ToTestObject addr 0x21e8e60 size 0xf8 virtual false final false
+  /// @brief Method ToTestObject addr 0x20904c4 size 0xf8 virtual false final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_TerrainData*, ::Array<::HoudiniEngineUnity::Test_TerrainData*>*>
   ToTestObject(::ArrayW<::UnityEngine::TerrainData*, ::Array<::UnityEngine::TerrainData*>*> self);
 
-  /// @brief Method ToTestObject addr 0x21e8f58 size 0xfc virtual false final false
+  /// @brief Method ToTestObject addr 0x20905bc size 0xfc virtual false final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_TerrainData*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::TerrainData*>* self);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_TerrainData_Extensions", modifiers: "&&", def_value: None }]

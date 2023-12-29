@@ -10,6 +10,12 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TrackedPoseDriver)
+namespace UnityEngine::InputSystem {
+struct __InputAction__CallbackContext;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -17,22 +23,16 @@ namespace UnityEngine::InputSystem::XR {
 struct __TrackedPoseDriver__UpdateType;
 }
 namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace UnityEngine::InputSystem::XR {
-struct __TrackedPoseDriver__TrackingType;
+struct InputActionProperty;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine::InputSystem {
-struct __InputAction__CallbackContext;
+namespace UnityEngine::InputSystem::XR {
+struct __TrackedPoseDriver__TrackingType;
 }
 namespace UnityEngine::InputSystem {
-struct InputActionProperty;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
+class InputAction;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::TrackedPoseDriver);
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6327))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6413))
 // CS Name: ::TrackedPoseDriver::TrackingType
 struct CORDL_TYPE __TrackedPoseDriver__TrackingType {
 public:
@@ -99,13 +99,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::XR
 // Type: ::UpdateType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6328))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6414))
 // CS Name: ::TrackedPoseDriver::UpdateType
 struct CORDL_TYPE __TrackedPoseDriver__UpdateType {
 public:
@@ -151,14 +153,16 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::__TrackedPoseDriver__UpdateType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::XR::__TrackedPoseDriver__UpdateType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::XR
 // Type: UnityEngine.InputSystem.XR::TrackedPoseDriver
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 129, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(6328)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6327)), TypeDefinitionIndex(TypeDefinitionIndex(6164))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6329))
-// CS Name: ::UnityEngine.InputSystem.XR::TrackedPoseDriver*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(6413)), TypeDefinitionIndex(TypeDefinitionIndex(6250)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6414)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10152))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(6415)) CS Name: ::UnityEngine.InputSystem.XR::TrackedPoseDriver*
 class CORDL_TYPE TrackedPoseDriver : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -280,114 +284,114 @@ public:
 
   constexpr void __set_m_HasMigratedActions(bool value);
 
-  /// @brief Method get_trackingType addr 0x2ac5d68 size 0x8 virtual false final false
+  /// @brief Method get_trackingType addr 0x2947020 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType get_trackingType();
 
-  /// @brief Method set_trackingType addr 0x2ac5d70 size 0x8 virtual false final false
+  /// @brief Method set_trackingType addr 0x2947028 size 0x8 virtual false final false
   inline void set_trackingType(::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType value);
 
-  /// @brief Method get_updateType addr 0x2ac5d78 size 0x8 virtual false final false
+  /// @brief Method get_updateType addr 0x2947030 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::XR::__TrackedPoseDriver__UpdateType get_updateType();
 
-  /// @brief Method set_updateType addr 0x2ac5d80 size 0x8 virtual false final false
+  /// @brief Method set_updateType addr 0x2947038 size 0x8 virtual false final false
   inline void set_updateType(::UnityEngine::InputSystem::XR::__TrackedPoseDriver__UpdateType value);
 
-  /// @brief Method get_positionInput addr 0x2ac5d88 size 0x14 virtual false final false
+  /// @brief Method get_positionInput addr 0x2947040 size 0x14 virtual false final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_positionInput();
 
-  /// @brief Method set_positionInput addr 0x2ac5d9c size 0x6c virtual false final false
+  /// @brief Method set_positionInput addr 0x2947054 size 0x6c virtual false final false
   inline void set_positionInput(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method get_rotationInput addr 0x2ac6100 size 0x14 virtual false final false
+  /// @brief Method get_rotationInput addr 0x29473b8 size 0x14 virtual false final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_rotationInput();
 
-  /// @brief Method set_rotationInput addr 0x2ac6114 size 0x6c virtual false final false
+  /// @brief Method set_rotationInput addr 0x29473cc size 0x6c virtual false final false
   inline void set_rotationInput(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method BindActions addr 0x2ac6478 size 0x18 virtual false final false
+  /// @brief Method BindActions addr 0x2947730 size 0x18 virtual false final false
   inline void BindActions();
 
-  /// @brief Method BindPosition addr 0x2ac5f58 size 0x1a8 virtual false final false
+  /// @brief Method BindPosition addr 0x2947210 size 0x1a8 virtual false final false
   inline void BindPosition();
 
-  /// @brief Method BindRotation addr 0x2ac62d0 size 0x1a8 virtual false final false
+  /// @brief Method BindRotation addr 0x2947588 size 0x1a8 virtual false final false
   inline void BindRotation();
 
-  /// @brief Method UnbindActions addr 0x2ac6490 size 0x18 virtual false final false
+  /// @brief Method UnbindActions addr 0x2947748 size 0x18 virtual false final false
   inline void UnbindActions();
 
-  /// @brief Method UnbindPosition addr 0x2ac5e08 size 0x150 virtual false final false
+  /// @brief Method UnbindPosition addr 0x29470c0 size 0x150 virtual false final false
   inline void UnbindPosition();
 
-  /// @brief Method UnbindRotation addr 0x2ac6180 size 0x150 virtual false final false
+  /// @brief Method UnbindRotation addr 0x2947438 size 0x150 virtual false final false
   inline void UnbindRotation();
 
-  /// @brief Method OnPositionPerformed addr 0x2ac64a8 size 0x60 virtual false final false
+  /// @brief Method OnPositionPerformed addr 0x2947760 size 0x60 virtual false final false
   inline void OnPositionPerformed(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
 
-  /// @brief Method OnPositionCanceled addr 0x2ac6508 size 0x58 virtual false final false
+  /// @brief Method OnPositionCanceled addr 0x29477c0 size 0x58 virtual false final false
   inline void OnPositionCanceled(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
 
-  /// @brief Method OnRotationPerformed addr 0x2ac6560 size 0x60 virtual false final false
+  /// @brief Method OnRotationPerformed addr 0x2947818 size 0x60 virtual false final false
   inline void OnRotationPerformed(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
 
-  /// @brief Method OnRotationCanceled addr 0x2ac65c0 size 0x50 virtual false final false
+  /// @brief Method OnRotationCanceled addr 0x2947878 size 0x50 virtual false final false
   inline void OnRotationCanceled(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
 
-  /// @brief Method Awake addr 0x2ac6610 size 0x6c virtual true final false
+  /// @brief Method Awake addr 0x29478c8 size 0x6c virtual true final false
   inline void Awake();
 
-  /// @brief Method OnEnable addr 0x2ac6734 size 0xb4 virtual false final false
+  /// @brief Method OnEnable addr 0x29479ec size 0xb4 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2ac67e8 size 0xb4 virtual false final false
+  /// @brief Method OnDisable addr 0x2947aa0 size 0xb4 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method OnDestroy addr 0x2ac689c size 0x6c virtual true final false
+  /// @brief Method OnDestroy addr 0x2947b54 size 0x6c virtual true final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateCallback addr 0x2ac6908 size 0x68 virtual false final false
+  /// @brief Method UpdateCallback addr 0x2947bc0 size 0x68 virtual false final false
   inline void UpdateCallback();
 
-  /// @brief Method OnUpdate addr 0x2ac6970 size 0x1c virtual true final false
+  /// @brief Method OnUpdate addr 0x2947c28 size 0x1c virtual true final false
   inline void OnUpdate();
 
-  /// @brief Method OnBeforeRender addr 0x2ac698c size 0x20 virtual true final false
+  /// @brief Method OnBeforeRender addr 0x2947c44 size 0x20 virtual true final false
   inline void OnBeforeRender();
 
-  /// @brief Method SetLocalTransform addr 0x2ac69ac size 0xcc virtual true final false
+  /// @brief Method SetLocalTransform addr 0x2947c64 size 0xcc virtual true final false
   inline void SetLocalTransform(::UnityEngine::Vector3 newPosition, ::UnityEngine::Quaternion newRotation);
 
-  /// @brief Method HasStereoCamera addr 0x2ac667c size 0xb8 virtual false final false
+  /// @brief Method HasStereoCamera addr 0x2947934 size 0xb8 virtual false final false
   inline bool HasStereoCamera();
 
-  /// @brief Method PerformUpdate addr 0x2ac6a78 size 0x1c virtual true final false
+  /// @brief Method PerformUpdate addr 0x2947d30 size 0x1c virtual true final false
   inline void PerformUpdate();
 
-  /// @brief Method get_positionAction addr 0x2ac6a94 size 0xc virtual false final false
+  /// @brief Method get_positionAction addr 0x2947d4c size 0xc virtual false final false
   inline ::UnityEngine::InputSystem::InputAction* get_positionAction();
 
-  /// @brief Method set_positionAction addr 0x2ac6aa0 size 0x48 virtual false final false
+  /// @brief Method set_positionAction addr 0x2947d58 size 0x48 virtual false final false
   inline void set_positionAction(::UnityEngine::InputSystem::InputAction* value);
 
-  /// @brief Method get_rotationAction addr 0x2ac6ae8 size 0xc virtual false final false
+  /// @brief Method get_rotationAction addr 0x2947da0 size 0xc virtual false final false
   inline ::UnityEngine::InputSystem::InputAction* get_rotationAction();
 
-  /// @brief Method set_rotationAction addr 0x2ac6af4 size 0x48 virtual false final false
+  /// @brief Method set_rotationAction addr 0x2947dac size 0x48 virtual false final false
   inline void set_rotationAction(::UnityEngine::InputSystem::InputAction* value);
 
-  /// @brief Method Reset addr 0x2ac6b3c size 0xc virtual false final false
+  /// @brief Method Reset addr 0x2947df4 size 0xc virtual false final false
   inline void Reset();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize addr 0x2ac6b48 size 0x4 virtual true final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize addr 0x2947e00 size 0x4 virtual true final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize addr 0x2ac6b4c size 0x78 virtual true final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize addr 0x2947e04 size 0x78 virtual true final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
   static inline ::UnityEngine::InputSystem::XR::TrackedPoseDriver* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ac6bc4 size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0x2947e7c size 0x98 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackedPoseDriver", modifiers: "&&", def_value: None }]
@@ -441,6 +445,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::TrackedPoseDriver, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::TrackedPoseDriver, ___m_TrackingType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::TrackedPoseDriver, ___m_UpdateType) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::TrackedPoseDriver, ___m_PositionInput) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::TrackedPoseDriver, ___m_RotationInput) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::TrackedPoseDriver, ___m_CurrentPosition) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::TrackedPoseDriver, ___m_CurrentRotation) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::TrackedPoseDriver, ___m_RotationBound) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::TrackedPoseDriver, ___m_PositionBound) == 0x6d, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::TrackedPoseDriver, ___m_PositionAction) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::TrackedPoseDriver, ___m_RotationAction) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::TrackedPoseDriver, ___m_HasMigratedActions) == 0x80, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType, "UnityEngine.InputSystem.XR", "TrackedPoseDriver/TrackingType");

@@ -18,8 +18,8 @@ MARK_VAL_T(::OVR::OpenVR::SpatialAnchorPose_t);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8644))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8726))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9413))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9495))
 // CS Name: ::OVR.OpenVR::SpatialAnchorPose_t
 struct CORDL_TYPE SpatialAnchorPose_t {
 public:
@@ -41,6 +41,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::SpatialAnchorPose_t, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::SpatialAnchorPose_t, mAnchorToAbsoluteTracking) == 0x0, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::SpatialAnchorPose_t, "OVR.OpenVR", "SpatialAnchorPose_t");

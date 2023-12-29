@@ -21,25 +21,25 @@ MARK_REF_PTR_T(::System::CannotUnloadAppDomainException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2525))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2523))
 // CS Name: ::System::CannotUnloadAppDomainException*
 class CORDL_TYPE CannotUnloadAppDomainException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::CannotUnloadAppDomainException* New_ctor();
 
-  /// @brief Method .ctor addr 0x25d12f8 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x24743d0 size 0x58 virtual false final false
   inline void _ctor();
 
   static inline ::System::CannotUnloadAppDomainException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x25d1350 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x2474428 size 0x20 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::CannotUnloadAppDomainException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x25d1370 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x2474448 size 0x4 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "CannotUnloadAppDomainException", modifiers: "&&", def_value: None }]

@@ -10,46 +10,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteCutSoundEffectManager)
 namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-class AudioManagerSO;
+class __NoteCutSoundEffectManager__InitData;
 }
 namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
+class AudioManagerSO;
+}
+namespace GlobalNamespace {
 class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-class __NoteCutSoundEffectManager__InitData;
-}
-namespace GlobalNamespace {
-template <typename T> class RandomObjectPicker_1;
-}
-namespace GlobalNamespace {
-class NoteCutSoundEffect;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-class INoteCutSoundEffectDidFinishEvent;
-}
-namespace GlobalNamespace {
-class SaberManager;
 }
 namespace GlobalNamespace {
 class __NoteCutSoundEffect__Pool;
 }
 namespace GlobalNamespace {
+class INoteCutSoundEffectDidFinishEvent;
+}
+namespace GlobalNamespace {
+class NoteCutSoundEffect;
+}
+namespace GlobalNamespace {
+template <typename T> class RandomObjectPicker_1;
+}
+namespace GlobalNamespace {
 template <typename T> class MemoryPoolContainer_1;
 }
 namespace GlobalNamespace {
+class NoteController;
+}
+namespace GlobalNamespace {
 struct NoteCutInfo;
+}
+namespace UnityEngine {
+class AudioClip;
+}
+namespace GlobalNamespace {
+class SaberManager;
+}
+namespace GlobalNamespace {
+class NoteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -65,8 +65,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__NoteCutSoundEffectManager__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4071))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4059))
 // CS Name: ::NoteCutSoundEffectManager::InitData*
 class CORDL_TYPE __NoteCutSoundEffectManager__InitData : public ::System::Object {
 public:
@@ -91,7 +91,7 @@ public:
 
   static inline ::GlobalNamespace::__NoteCutSoundEffectManager__InitData* New_ctor(bool useTestAudioClips, bool ignoreBadCuts);
 
-  /// @brief Method .ctor addr 0x222f804 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x20cfd18 size 0x30 virtual false final false
   inline void _ctor(bool useTestAudioClips, bool ignoreBadCuts);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NoteCutSoundEffectManager__InitData", modifiers: "&&", def_value: None }]
@@ -119,13 +119,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NoteCutSoundEffectManager__InitData, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__NoteCutSoundEffectManager__InitData, ___useTestAudioClips) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__NoteCutSoundEffectManager__InitData, ___ignoreBadCuts) == 0x11, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::NoteCutSoundEffectManager
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4072))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4060))
 // CS Name: ::NoteCutSoundEffectManager*
 class CORDL_TYPE NoteCutSoundEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -319,33 +323,33 @@ public:
 
   constexpr void __set__noteCutSoundEffectPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::NoteCutSoundEffect*>* value);
 
-  /// @brief Method get_handleWrongSaberTypeAsGood addr 0x222ebc8 size 0x8 virtual false final false
+  /// @brief Method get_handleWrongSaberTypeAsGood addr 0x20cf0dc size 0x8 virtual false final false
   inline bool get_handleWrongSaberTypeAsGood();
 
-  /// @brief Method set_handleWrongSaberTypeAsGood addr 0x222ebd0 size 0xc virtual false final false
+  /// @brief Method set_handleWrongSaberTypeAsGood addr 0x20cf0e4 size 0xc virtual false final false
   inline void set_handleWrongSaberTypeAsGood(bool value);
 
-  /// @brief Method Start addr 0x222ebdc size 0x260 virtual false final false
+  /// @brief Method Start addr 0x20cf0f0 size 0x260 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x222ee3c size 0x104 virtual false final false
+  /// @brief Method OnDestroy addr 0x20cf350 size 0x104 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleNoteWasSpawned addr 0x222ef40 size 0x580 virtual false final false
+  /// @brief Method HandleNoteWasSpawned addr 0x20cf454 size 0x580 virtual false final false
   inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleNoteWasCut addr 0x222f4fc size 0x1b0 virtual false final false
+  /// @brief Method HandleNoteWasCut addr 0x20cfa10 size 0x1b0 virtual false final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleNoteCutSoundEffectDidFinish addr 0x222f6ac size 0xd8 virtual true final true
+  /// @brief Method HandleNoteCutSoundEffectDidFinish addr 0x20cfbc0 size 0xd8 virtual true final true
   inline void HandleNoteCutSoundEffectDidFinish(::GlobalNamespace::NoteCutSoundEffect* noteCutSoundEffect);
 
-  /// @brief Method IsSupportedNote addr 0x222f4c0 size 0x3c virtual false final false
+  /// @brief Method IsSupportedNote addr 0x20cf9d4 size 0x3c virtual false final false
   inline bool IsSupportedNote(::GlobalNamespace::NoteData* noteData);
 
   static inline ::GlobalNamespace::NoteCutSoundEffectManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x222f784 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x20cfc98 size 0x80 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffectManager", modifiers: "&&", def_value: None }]
@@ -435,6 +439,46 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutSoundEffectManager, 0xa8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____audioManager) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____audioSamplesBeatAlignOffset) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____longCutEffectsAudioClips) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____shortCutEffectsAudioClips) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____testAudioClip) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____initData) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____beatmapObjectManager) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____saberManager) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____noteCutSoundEffectPool) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____audioTimeSyncController) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____handleWrongSaberTypeAsGood_k__BackingField) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____randomLongCutSoundPicker) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____randomShortCutSoundPicker) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____prevNoteATime) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____prevNoteBTime) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____prevNoteASoundEffect) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____prevNoteBSoundEffect) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____beatAlignOffset) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____useTestAudioClips) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffectManager, ____noteCutSoundEffectPoolContainer) == 0xa0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteCutSoundEffectManager);

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::ICachable);
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14028))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14299))
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::ICachable*
 class CORDL_TYPE ICachable {
 public:

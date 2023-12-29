@@ -14,13 +14,13 @@ MARK_REF_PTR_T(::System::__Il2CppComDelegate);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16287))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16288))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16111))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16112))
 // CS Name: ::System::__Il2CppComDelegate*
 class CORDL_TYPE __Il2CppComDelegate : public ::System::__Il2CppComObject {
 public:
   // Declarations
-  /// @brief Method Finalize addr 0x2f2975c size 0xffffffffffffffff virtual true final false
+  /// @brief Method Finalize addr 0x2dc1920 size 0xffffffffffffffff virtual true final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Il2CppComDelegate", modifiers: "&&", def_value: None }]

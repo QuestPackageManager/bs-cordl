@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::HmdColor_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8653))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9422))
 // CS Name: ::OVR.OpenVR::HmdColor_t
 struct CORDL_TYPE HmdColor_t {
 public:
@@ -48,6 +48,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::HmdColor_t, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdColor_t, r) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdColor_t, g) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdColor_t, b) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::HmdColor_t, a) == 0xc, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::HmdColor_t, "OVR.OpenVR", "HmdColor_t");

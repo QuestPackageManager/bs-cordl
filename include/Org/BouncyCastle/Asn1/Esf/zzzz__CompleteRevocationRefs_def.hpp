@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(CompleteRevocationRefs)
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -45,29 +45,29 @@ public:
 
   constexpr void __set_crlOcspRefs(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0xe909a0 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xe1b7cc size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe90b28 size 0x34c virtual false final false
+  /// @brief Method .ctor addr 0xe1b954 size 0x34c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs*
   New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*, ::Array<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*>*> crlOcspRefs);
 
-  /// @brief Method .ctor addr 0xe90ffc size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0xe1be28 size 0xc4 virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*, ::Array<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*>*> crlOcspRefs);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs* New_ctor(::System::Collections::IEnumerable* crlOcspRefs);
 
-  /// @brief Method .ctor addr 0xe910c0 size 0x1a4 virtual false final false
+  /// @brief Method .ctor addr 0xe1beec size 0x1a4 virtual false final false
   inline void _ctor(::System::Collections::IEnumerable* crlOcspRefs);
 
-  /// @brief Method GetCrlOcspRefs addr 0xe91264 size 0x120 virtual false final false
+  /// @brief Method GetCrlOcspRefs addr 0xe1c090 size 0x120 virtual false final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*, ::Array<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*>*> GetCrlOcspRefs();
 
-  /// @brief Method ToAsn1Object addr 0xe91384 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe1c1b0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CompleteRevocationRefs", modifiers: "&&", def_value: None }]
@@ -91,6 +91,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs, ___crlOcspRefs) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Esf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs);

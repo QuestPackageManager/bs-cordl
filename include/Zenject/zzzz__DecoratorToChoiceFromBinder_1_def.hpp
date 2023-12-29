@@ -8,13 +8,13 @@ namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-class DiContainer;
+class FactoryBindInfo;
 }
 namespace Zenject {
 template <typename TParam1, typename TContract> class FactoryFromBinder_2;
 }
 namespace Zenject {
-class FactoryBindInfo;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -28,8 +28,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10847))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10775))
 // CS Name: ::Zenject::DecoratorToChoiceFromBinder`1<TContract>*
 class CORDL_TYPE DecoratorToChoiceFromBinder_1 : public ::System::Object {
 public:

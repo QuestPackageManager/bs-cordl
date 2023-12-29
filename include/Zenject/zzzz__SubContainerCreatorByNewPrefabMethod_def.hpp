@@ -4,14 +4,8 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefabDynamicContext_def.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewPrefabMethod)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace Zenject {
 class GameObjectContext;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace Zenject {
 class GameObjectCreationParameters;
@@ -25,6 +19,12 @@ class IPrefabProvider;
 namespace Zenject {
 struct TypeValuePair;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+class DiContainer;
+}
 // Forward declare root types
 namespace Zenject {
 class SubContainerCreatorByNewPrefabMethod;
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByNewPrefabMethod);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11274))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11277))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11202))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11205))
 // CS Name: ::Zenject::SubContainerCreatorByNewPrefabMethod*
 class CORDL_TYPE SubContainerCreatorByNewPrefabMethod : public ::Zenject::SubContainerCreatorByNewPrefabDynamicContext {
 public:
@@ -53,11 +53,11 @@ public:
   static inline ::Zenject::SubContainerCreatorByNewPrefabMethod* New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
                                                                           ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Action_1<::Zenject::DiContainer*>* installerMethod);
 
-  /// @brief Method .ctor addr 0x2f0c930 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x2da4b60 size 0x40 virtual false final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
                     ::System::Action_1<::Zenject::DiContainer*>* installerMethod);
 
-  /// @brief Method AddInstallers addr 0x2f0c970 size 0xb4 virtual true final false
+  /// @brief Method AddInstallers addr 0x2da4ba0 size 0xb4 virtual true final false
   inline void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabMethod", modifiers: "&&", def_value: None }]
@@ -81,6 +81,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::SubContainerCreatorByNewPrefabMethod, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::SubContainerCreatorByNewPrefabMethod, ____installerMethod) == 0x28, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::SubContainerCreatorByNewPrefabMethod);

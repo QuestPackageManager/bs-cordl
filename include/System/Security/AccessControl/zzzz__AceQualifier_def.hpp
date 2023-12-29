@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::AccessControl::AceQualifier);
 namespace System::Security::AccessControl {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3018))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3017))
 // CS Name: ::System.Security.AccessControl::AceQualifier
 struct CORDL_TYPE AceQualifier {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::AceQualifier, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::AccessControl::AceQualifier, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Security::AccessControl
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::AceQualifier, "System.Security.AccessControl", "AceQualifier");

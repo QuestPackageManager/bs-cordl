@@ -8,44 +8,44 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteDebris)
-namespace UnityEngine {
-class Mesh;
-}
 namespace GlobalNamespace {
-class NoteDebrisPhysics;
-}
-namespace GlobalNamespace {
-class INoteDebrisDidFinishEvent;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class __NoteDebris__Pool;
-}
-namespace GlobalNamespace {
-class ColorManager;
+class MaterialPropertyBlockController;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
+namespace UnityEngine {
+class Mesh;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace GlobalNamespace {
-class MaterialPropertyBlockController;
+class NoteDebrisPhysics;
+}
+namespace GlobalNamespace {
+template <typename T> class LazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
+template <typename T> class ILazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
+class __NoteDebris__Pool;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 struct ColorType;
 }
+namespace UnityEngine {
+class AnimationCurve;
+}
 namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
+class ColorManager;
+}
+namespace GlobalNamespace {
+class INoteDebrisDidFinishEvent;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -61,8 +61,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__NoteDebris__Pool);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4773))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4894))
 // CS Name: ::NoteDebris*
 class CORDL_TYPE NoteDebris : public ::UnityEngine::MonoBehaviour {
 public:
@@ -196,23 +196,23 @@ public:
 
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> getStaticF__meshVertices();
 
-  /// @brief Method get_didFinishEvent addr 0x238797c size 0x8 virtual false final false
+  /// @brief Method get_didFinishEvent addr 0x2253e70 size 0x8 virtual false final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* get_didFinishEvent();
 
-  /// @brief Method Awake addr 0x2387984 size 0x98 virtual false final false
+  /// @brief Method Awake addr 0x2253e78 size 0x98 virtual false final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x2387a1c size 0x27c virtual false final false
+  /// @brief Method Update addr 0x2253f10 size 0x27c virtual false final false
   inline void Update();
 
-  /// @brief Method Init addr 0x2387c98 size 0x570 virtual false final false
+  /// @brief Method Init addr 0x225418c size 0x570 virtual false final false
   inline void Init(::GlobalNamespace::ColorType colorType, ::UnityEngine::Vector3 notePos, ::UnityEngine::Quaternion noteRot, ::UnityEngine::Vector3 noteMoveVec, ::UnityEngine::Vector3 noteScale,
                    ::UnityEngine::Vector3 positionOffset, ::UnityEngine::Quaternion rotationOffset, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, ::UnityEngine::Vector3 force,
                    ::UnityEngine::Vector3 torque, float_t lifeTime);
 
   static inline ::GlobalNamespace::NoteDebris* New_ctor();
 
-  /// @brief Method .ctor addr 0x2388208 size 0xa4 virtual false final false
+  /// @brief Method .ctor addr 0x22546fc size 0xa4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteDebris", modifiers: "&&", def_value: None }]
@@ -264,19 +264,39 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteDebris, 0x60>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::NoteDebris, ____meshTransform) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebris, ____physics) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebris, ____materialPropertyBlockController) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebris, ____cutoutCurve) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebris, ____maxCutPointCenterDistance) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebris, ____centroidComputationMesh) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebris, ____colorManager) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebris, ____elapsedTime) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebris, ____lifeTime) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteDebris, ____didFinishEvent) == 0x58, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Pool
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2824 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4772)) CS Name: ::NoteDebris::Pool*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst: 2764 }), TypeDefinitionIndex(TypeDefinitionIndex(10978)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4894))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4893)) CS Name: ::NoteDebris::Pool*
 class CORDL_TYPE __NoteDebris__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::NoteDebris*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__NoteDebris__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x23883a8 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x225489c size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NoteDebris__Pool", modifiers: "&&", def_value: None }]

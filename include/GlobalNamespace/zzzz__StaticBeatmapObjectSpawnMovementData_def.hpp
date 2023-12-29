@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StaticBeatmapObjectSpawnMovementData)
-namespace GlobalNamespace {
-struct NoteLineLayer;
-}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace GlobalNamespace {
+struct NoteLineLayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,19 +22,19 @@ MARK_REF_PTR_T(::GlobalNamespace::StaticBeatmapObjectSpawnMovementData);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14781))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14993))
 // CS Name: ::StaticBeatmapObjectSpawnMovementData*
 class CORDL_TYPE StaticBeatmapObjectSpawnMovementData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get2DNoteOffset addr 0xe04e84 size 0x4c virtual false final false
+  /// @brief Method Get2DNoteOffset addr 0xd9f474 size 0x4c virtual false final false
   static inline ::UnityEngine::Vector2 Get2DNoteOffset(int32_t noteLineIndex, int32_t noteLinesCount, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method LineYPosForLineLayer addr 0xe05268 size 0x24 virtual false final false
+  /// @brief Method LineYPosForLineLayer addr 0xd9f934 size 0x24 virtual false final false
   static inline float_t LineYPosForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
 
-  /// @brief Method get_layerHeight addr 0xe0528c size 0xc virtual false final false
+  /// @brief Method get_layerHeight addr 0xd9f958 size 0xc virtual false final false
   static inline float_t get_layerHeight();
 
   // Ctor Parameters [CppParam { name: "", ty: "StaticBeatmapObjectSpawnMovementData", modifiers: "&&", def_value: None }]

@@ -20,17 +20,17 @@ MARK_VAL_T(::OVR::OpenVR::RenderModel_t_Packed);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 8, packing: Some(4), specified_packing: Some(4) }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8716))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9485))
 // CS Name: ::OVR.OpenVR::RenderModel_t_Packed
 #pragma pack(push, 4)
 struct CORDL_TYPE RenderModel_t_Packed {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x27f67b4 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x267f830 size 0x2c virtual false final false
   inline void _ctor(::OVR::OpenVR::RenderModel_t unpacked);
 
-  /// @brief Method Unpack addr 0x27f67e0 size 0x24 virtual false final false
+  /// @brief Method Unpack addr 0x267f85c size 0x24 virtual false final false
   inline void Unpack(ByRef<::OVR::OpenVR::RenderModel_t> unpacked);
 
   // Ctor Parameters [CppParam { name: "rVertexData", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "unVertexCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
@@ -65,6 +65,16 @@ public:
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::RenderModel_t_Packed, 0x1c>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::RenderModel_t_Packed, rVertexData) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::RenderModel_t_Packed, unVertexCount) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::RenderModel_t_Packed, rIndexData) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::RenderModel_t_Packed, unTriangleCount) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::RenderModel_t_Packed, diffuseTextureId) == 0x18, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::RenderModel_t_Packed, "OVR.OpenVR", "RenderModel_t_Packed");

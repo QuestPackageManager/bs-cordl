@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute* New_ctor(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector* capabilities);
 
-  /// @brief Method .ctor addr 0x1074608 size 0xe4 virtual false final false
+  /// @brief Method .ctor addr 0x10033bc size 0xe4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector* capabilities);
 
   // Ctor Parameters [CppParam { name: "", ty: "SmimeCapabilitiesAttribute", modifiers: "&&", def_value: None }]

@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ResourceProvider)
-namespace System {
-class Type;
-}
-namespace System {
-class Action;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace Zenject {
 struct TypeValuePair;
+}
+namespace System {
+class Type;
 }
 namespace System {
 class Object;
 }
 namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
 class IProvider;
+}
+namespace System {
+class Action;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::Zenject::ResourceProvider);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11236))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11164))
 // CS Name: ::Zenject::ResourceProvider*
 class CORDL_TYPE ResourceProvider : public ::System::Object {
 public:
@@ -79,19 +79,19 @@ public:
 
   static inline ::Zenject::ResourceProvider* New_ctor(::StringW resourcePath, ::System::Type* resourceType, bool matchSingle);
 
-  /// @brief Method .ctor addr 0x2f0a04c size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x2da227c size 0x3c virtual false final false
   inline void _ctor(::StringW resourcePath, ::System::Type* resourceType, bool matchSingle);
 
-  /// @brief Method get_IsCached addr 0x2f0a088 size 0x8 virtual true final true
+  /// @brief Method get_IsCached addr 0x2da22b8 size 0x8 virtual true final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType addr 0x2f0a090 size 0x8 virtual true final true
+  /// @brief Method get_TypeVariesBasedOnMemberType addr 0x2da22c0 size 0x8 virtual true final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType addr 0x2f0a098 size 0x8 virtual true final true
+  /// @brief Method GetInstanceType addr 0x2da22c8 size 0x8 virtual true final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method GetAllInstancesWithInjectSplit addr 0x2f0a0a0 size 0x1d8 virtual true final true
+  /// @brief Method GetAllInstancesWithInjectSplit addr 0x2da22d0 size 0x1d8 virtual true final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
@@ -122,6 +122,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::ResourceProvider, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::ResourceProvider, ____resourceType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::ResourceProvider, ____resourcePath) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::ResourceProvider, ____matchSingle) == 0x20, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::ResourceProvider);

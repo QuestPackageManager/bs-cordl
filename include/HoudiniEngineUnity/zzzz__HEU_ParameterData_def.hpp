@@ -13,14 +13,8 @@ CORDL_MODULE_EXPORT(HEU_ParameterData)
 namespace UnityEngine {
 class GUIContent;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HoudiniEngineUnity {
 class HEU_InputNode;
-}
-namespace UnityEngine {
-class AnimationCurve;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -28,8 +22,14 @@ struct Vector3;
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine {
 class Gradient;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ParameterData);
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 329, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(9734)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9760))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9661)), TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9687))
 // CS Name: ::HoudiniEngineUnity::HEU_ParameterData*
 class CORDL_TYPE HEU_ParameterData : public ::System::Object {
 public:
@@ -281,93 +281,93 @@ public:
 
   constexpr void __set__hasAssetPathTag(bool value);
 
-  /// @brief Method get_ParmID addr 0x2190908 size 0x8 virtual false final false
+  /// @brief Method get_ParmID addr 0x2039f6c size 0x8 virtual false final false
   inline int32_t get_ParmID();
 
-  /// @brief Method get_ParentID addr 0x219207c size 0x8 virtual false final false
+  /// @brief Method get_ParentID addr 0x203b6e0 size 0x8 virtual false final false
   inline int32_t get_ParentID();
 
-  /// @brief Method get_ChildIndex addr 0x2192084 size 0x8 virtual false final false
+  /// @brief Method get_ChildIndex addr 0x203b6e8 size 0x8 virtual false final false
   inline int32_t get_ChildIndex();
 
-  /// @brief Method get_ParmSize addr 0x219208c size 0x8 virtual false final false
+  /// @brief Method get_ParmSize addr 0x203b6f0 size 0x8 virtual false final false
   inline int32_t get_ParmSize();
 
-  /// @brief Method IsInt addr 0x2192094 size 0x10 virtual false final false
+  /// @brief Method IsInt addr 0x203b6f8 size 0x10 virtual false final false
   inline bool IsInt();
 
-  /// @brief Method IsFloat addr 0x21920a4 size 0x10 virtual false final false
+  /// @brief Method IsFloat addr 0x203b708 size 0x10 virtual false final false
   inline bool IsFloat();
 
-  /// @brief Method IsString addr 0x21920b4 size 0x10 virtual false final false
+  /// @brief Method IsString addr 0x203b718 size 0x10 virtual false final false
   inline bool IsString();
 
-  /// @brief Method IsPathFile addr 0x21920c4 size 0x14 virtual false final false
+  /// @brief Method IsPathFile addr 0x203b728 size 0x14 virtual false final false
   inline bool IsPathFile();
 
-  /// @brief Method HasMin addr 0x21920d8 size 0x8 virtual false final false
+  /// @brief Method HasMin addr 0x203b73c size 0x8 virtual false final false
   inline bool HasMin();
 
-  /// @brief Method HasMax addr 0x21920e0 size 0x8 virtual false final false
+  /// @brief Method HasMax addr 0x203b744 size 0x8 virtual false final false
   inline bool HasMax();
 
-  /// @brief Method HasUIMin addr 0x21920e8 size 0x8 virtual false final false
+  /// @brief Method HasUIMin addr 0x203b74c size 0x8 virtual false final false
   inline bool HasUIMin();
 
-  /// @brief Method HasUIMax addr 0x21920f0 size 0x8 virtual false final false
+  /// @brief Method HasUIMax addr 0x203b754 size 0x8 virtual false final false
   inline bool HasUIMax();
 
-  /// @brief Method get_IntMin addr 0x21920f8 size 0xdc virtual false final false
+  /// @brief Method get_IntMin addr 0x203b75c size 0xdc virtual false final false
   inline int32_t get_IntMin();
 
-  /// @brief Method get_IntMax addr 0x21921d4 size 0xdc virtual false final false
+  /// @brief Method get_IntMax addr 0x203b838 size 0xdc virtual false final false
   inline int32_t get_IntMax();
 
-  /// @brief Method get_IntUIMin addr 0x21922b0 size 0xdc virtual false final false
+  /// @brief Method get_IntUIMin addr 0x203b914 size 0xdc virtual false final false
   inline int32_t get_IntUIMin();
 
-  /// @brief Method get_IntUIMax addr 0x219238c size 0xdc virtual false final false
+  /// @brief Method get_IntUIMax addr 0x203b9f0 size 0xdc virtual false final false
   inline int32_t get_IntUIMax();
 
-  /// @brief Method get_FloatMin addr 0x2192468 size 0x8 virtual false final false
+  /// @brief Method get_FloatMin addr 0x203bacc size 0x8 virtual false final false
   inline float_t get_FloatMin();
 
-  /// @brief Method get_FloatMax addr 0x2192470 size 0x8 virtual false final false
+  /// @brief Method get_FloatMax addr 0x203bad4 size 0x8 virtual false final false
   inline float_t get_FloatMax();
 
-  /// @brief Method get_FloatUIMin addr 0x2192478 size 0x8 virtual false final false
+  /// @brief Method get_FloatUIMin addr 0x203badc size 0x8 virtual false final false
   inline float_t get_FloatUIMin();
 
-  /// @brief Method get_FloatUIMax addr 0x2192480 size 0x8 virtual false final false
+  /// @brief Method get_FloatUIMax addr 0x203bae4 size 0x8 virtual false final false
   inline float_t get_FloatUIMax();
 
-  /// @brief Method IsContainer addr 0x2192488 size 0x54 virtual false final false
+  /// @brief Method IsContainer addr 0x203baec size 0x54 virtual false final false
   inline bool IsContainer();
 
-  /// @brief Method IsMultiParam addr 0x21924dc size 0x10 virtual false final false
+  /// @brief Method IsMultiParam addr 0x203bb40 size 0x10 virtual false final false
   inline bool IsMultiParam();
 
-  /// @brief Method IsRamp addr 0x21924ec size 0x10 virtual false final false
+  /// @brief Method IsRamp addr 0x203bb50 size 0x10 virtual false final false
   inline bool IsRamp();
 
-  /// @brief Method IsToggle addr 0x21924fc size 0x10 virtual false final false
+  /// @brief Method IsToggle addr 0x203bb60 size 0x10 virtual false final false
   inline bool IsToggle();
 
-  /// @brief Method IsColor addr 0x219250c size 0x10 virtual false final false
+  /// @brief Method IsColor addr 0x203bb70 size 0x10 virtual false final false
   inline bool IsColor();
 
-  /// @brief Method ToVector3 addr 0x219251c size 0x84 virtual false final false
+  /// @brief Method ToVector3 addr 0x203bb80 size 0x84 virtual false final false
   inline ::UnityEngine::Vector3 ToVector3();
 
-  /// @brief Method IsAssetPath addr 0x21925a0 size 0x8 virtual false final false
+  /// @brief Method IsAssetPath addr 0x203bc04 size 0x8 virtual false final false
   inline bool IsAssetPath();
 
-  /// @brief Method IsEquivalentTo addr 0x21925a8 size 0x71c virtual true final true
+  /// @brief Method IsEquivalentTo addr 0x203bc0c size 0x71c virtual true final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterData* other);
 
   static inline ::HoudiniEngineUnity::HEU_ParameterData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2192cc4 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x203c328 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ParameterData", modifiers: "&&", def_value: None }]
@@ -457,6 +457,52 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_ParameterData, 0x150>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____unityIndex) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____name) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____labelName) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____help) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____childParameterIDs) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____choiceValue) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____intValues) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____floatValues) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____stringValues) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____toggle) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____color) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____gradient) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____animCurve) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____choiceLabels) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____choiceStringValues) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____choiceIntValues) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____parmInfo) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____showChildren) == 0x128, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____fileTypeInfo) == 0x130, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____folderListChildrenProcessed) == 0x138, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____tabSelectedIndex) == 0x13c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____paramInputNode) == 0x140, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ParameterData, ____hasAssetPathTag) == 0x148, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_ParameterData);

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9291))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9279))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8128))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8116))
 // CS Name: ::System.Net.NetworkInformation::MacOsNetworkInterfaceAPI*
 class CORDL_TYPE MacOsNetworkInterfaceAPI : public ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI {
 public:
@@ -36,15 +36,15 @@ public:
 
   static inline ::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor addr 0x29ef57c size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x2872cf8 size 0x20 virtual false final false
   inline void _ctor();
 
   static inline ::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI* New_ctor(int32_t AF_INET6);
 
-  /// @brief Method .ctor addr 0x29ed9ac size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2871128 size 0x28 virtual false final false
   inline void _ctor(int32_t AF_INET6);
 
-  /// @brief Method GetAllNetworkInterfaces addr 0x29ef59c size 0xa6c virtual true final false
+  /// @brief Method GetAllNetworkInterfaces addr 0x2872d18 size 0xa6c virtual true final false
   inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetAllNetworkInterfaces();
 
   // Ctor Parameters [CppParam { name: "", ty: "MacOsNetworkInterfaceAPI", modifiers: "&&", def_value: None }]
@@ -68,6 +68,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI, ___AF_INET6) == 0x10, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation
 NEED_NO_BOX(::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI);

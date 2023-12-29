@@ -25,24 +25,24 @@ namespace Org::BouncyCastle::Crypto::Generators {
 class CORDL_TYPE Poly1305KeyGenerator : public ::Org::BouncyCastle::Crypto::CipherKeyGenerator {
 public:
   // Declarations
-  /// @brief Method engineInit addr 0xf05548 size 0x24 virtual true final false
+  /// @brief Method engineInit addr 0xe90374 size 0x24 virtual true final false
   inline void engineInit(::Org::BouncyCastle::Crypto::KeyGenerationParameters* param);
 
-  /// @brief Method engineGenerateKey addr 0xf0556c size 0x1c virtual true final false
+  /// @brief Method engineGenerateKey addr 0xe90398 size 0x1c virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> engineGenerateKey();
 
-  /// @brief Method Clamp addr 0xf05588 size 0xc0 virtual false final false
+  /// @brief Method Clamp addr 0xe903b4 size 0xc0 virtual false final false
   static inline void Clamp(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method CheckKey addr 0xf05648 size 0x10c virtual false final false
+  /// @brief Method CheckKey addr 0xe90474 size 0x10c virtual false final false
   static inline void CheckKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method CheckMask addr 0xf05754 size 0x60 virtual false final false
+  /// @brief Method CheckMask addr 0xe90580 size 0x60 virtual false final false
   static inline void CheckMask(uint8_t b, uint8_t mask);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0xf057b4 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0xe905e0 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Poly1305KeyGenerator", modifiers: "&&", def_value: None }]

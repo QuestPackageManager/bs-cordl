@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRCubemapCapture)
 namespace UnityEngine {
+class Cubemap;
+}
+namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-class Cubemap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRCubemapCapture);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10058))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8085))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(9986))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8872))
 // CS Name: ::OVRCubemapCapture*
 class CORDL_TYPE OVRCubemapCapture : public ::UnityEngine::MonoBehaviour {
 public:
@@ -87,21 +87,21 @@ public:
 
   constexpr void __set_cubemapSize(int32_t value);
 
-  /// @brief Method Update addr 0x27a7c08 size 0xa8 virtual false final false
+  /// @brief Method Update addr 0x26344f0 size 0xa8 virtual false final false
   inline void Update();
 
-  /// @brief Method TriggerCubemapCapture addr 0x27a7cb0 size 0x2b0 virtual false final false
+  /// @brief Method TriggerCubemapCapture addr 0x2634598 size 0x2b0 virtual false final false
   static inline void TriggerCubemapCapture(::UnityEngine::Vector3 capturePos, int32_t cubemapSize, ::StringW pathName);
 
-  /// @brief Method RenderIntoCubemap addr 0x27a7f60 size 0x580 virtual false final false
+  /// @brief Method RenderIntoCubemap addr 0x2634848 size 0x580 virtual false final false
   static inline void RenderIntoCubemap(::UnityEngine::Camera* ownerCamera, ::UnityEngine::Cubemap* outCubemap);
 
-  /// @brief Method SaveCubemapCapture addr 0x27a84e0 size 0x774 virtual false final false
+  /// @brief Method SaveCubemapCapture addr 0x2634dc8 size 0x774 virtual false final false
   static inline bool SaveCubemapCapture(::UnityEngine::Cubemap* cubemap, ::StringW pathName);
 
   static inline ::GlobalNamespace::OVRCubemapCapture* New_ctor();
 
-  /// @brief Method .ctor addr 0x27a8c54 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x263553c size 0x28 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRCubemapCapture", modifiers: "&&", def_value: None }]
@@ -140,6 +140,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRCubemapCapture, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___autoTriggerAfterLaunch) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___autoTriggerDelay) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___autoTriggerElapse) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___triggeredByKey) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___pathName) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___cubemapSize) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRCubemapCapture);

@@ -10,11 +10,11 @@ struct CancellationToken;
 namespace GlobalNamespace {
 class MultiplayerStatusData;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace GlobalNamespace {
 class IMultiplayerStatusModel;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockMultiplayerStatusModel);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5178))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5283))
 // CS Name: ::MockMultiplayerStatusModel*
 class CORDL_TYPE MockMultiplayerStatusModel : public ::System::Object {
 public:
@@ -44,12 +44,12 @@ public:
 
   constexpr void __set__multiplayerStatusData(::GlobalNamespace::MultiplayerStatusData* value);
 
-  /// @brief Method GetMultiplayerStatusAsync addr 0x23df8fc size 0x70 virtual true final true
+  /// @brief Method GetMultiplayerStatusAsync addr 0x20ff0b4 size 0x70 virtual true final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::MockMultiplayerStatusModel* New_ctor();
 
-  /// @brief Method .ctor addr 0x23df96c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20ff124 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockMultiplayerStatusModel", modifiers: "&&", def_value: None }]
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockMultiplayerStatusModel, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockMultiplayerStatusModel, ____multiplayerStatusData) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockMultiplayerStatusModel);

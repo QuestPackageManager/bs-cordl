@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BombExecutionRating);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4136))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4170))
 // CS Name: ::BombExecutionRating::Rating
 struct CORDL_TYPE __BombExecutionRating__Rating {
 public:
@@ -68,13 +68,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BombExecutionRating__Rating, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BombExecutionRating__Rating, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BombExecutionRating
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4136)), TypeDefinitionIndex(TypeDefinitionIndex(4135))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4137))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4170)), TypeDefinitionIndex(TypeDefinitionIndex(4169))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4171))
 // CS Name: ::BombExecutionRating*
 class CORDL_TYPE BombExecutionRating : public ::GlobalNamespace::BeatmapObjectExecutionRating {
 public:
@@ -92,12 +94,12 @@ public:
 
   constexpr void __set__rating_k__BackingField(::GlobalNamespace::__BombExecutionRating__Rating value);
 
-  /// @brief Method get_rating addr 0x223bfbc size 0x8 virtual false final false
+  /// @brief Method get_rating addr 0x21cdb5c size 0x8 virtual false final false
   inline ::GlobalNamespace::__BombExecutionRating__Rating get_rating();
 
   static inline ::GlobalNamespace::BombExecutionRating* New_ctor(float_t time, ::GlobalNamespace::__BombExecutionRating__Rating rating);
 
-  /// @brief Method .ctor addr 0x223bfc4 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x21cdb64 size 0x38 virtual false final false
   inline void _ctor(float_t time, ::GlobalNamespace::__BombExecutionRating__Rating rating);
 
   // Ctor Parameters [CppParam { name: "", ty: "BombExecutionRating", modifiers: "&&", def_value: None }]
@@ -121,6 +123,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BombExecutionRating, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BombExecutionRating, ____rating_k__BackingField) == 0x14, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BombExecutionRating__Rating, "", "BombExecutionRating/Rating");

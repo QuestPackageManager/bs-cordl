@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::Collections::NativeArrayOptions);
 namespace Unity::Collections {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9997))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9925))
 // CS Name: ::Unity.Collections::NativeArrayOptions
 struct CORDL_TYPE NativeArrayOptions {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::NativeArrayOptions, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Unity::Collections::NativeArrayOptions, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Unity::Collections
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::NativeArrayOptions, "Unity.Collections", "NativeArrayOptions");

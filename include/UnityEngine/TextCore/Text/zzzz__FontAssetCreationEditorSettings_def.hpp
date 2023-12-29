@@ -18,7 +18,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13679))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13558))
 // CS Name: ::UnityEngine.TextCore.Text::FontAssetCreationEditorSettings
 struct CORDL_TYPE FontAssetCreationEditorSettings {
 public:
@@ -94,6 +94,38 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, sourceFontFileGUID) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, faceIndex) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, pointSizeSamplingMode) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, pointSize) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, padding) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, packingMode) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, atlasWidth) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, atlasHeight) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, characterSetSelectionMode) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, characterSequence) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, referencedFontAssetGUID) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, referencedTextAssetGUID) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, fontStyle) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, fontStyleModifier) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, renderMode) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, includeFontFeatures) == 0x4c, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, "UnityEngine.TextCore.Text", "FontAssetCreationEditorSettings");

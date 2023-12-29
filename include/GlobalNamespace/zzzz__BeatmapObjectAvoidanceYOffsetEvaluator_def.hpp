@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapObjectAvoidanceYOffsetEvaluator)
 namespace GlobalNamespace {
-class IAudioTimeSource;
+struct __BeatmapObjectAvoidanceYOffsetEvaluator__BufferData;
 }
 namespace GlobalNamespace {
-struct __BeatmapObjectAvoidanceYOffsetEvaluator__BufferData;
+class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
@@ -35,12 +35,12 @@ MARK_VAL_T(::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferDa
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3959))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3945))
 // CS Name: ::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData
 struct CORDL_TYPE __BeatmapObjectAvoidanceYOffsetEvaluator__BufferData {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2217808 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20b6820 size 0x8 virtual false final false
   inline void _ctor(float_t songTime, float_t yOffset);
 
   // Ctor Parameters [CppParam { name: "songTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yOffset", ty: "float_t", modifiers: "", def_value: None }]
@@ -64,13 +64,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData, songTime) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData, yOffset) == 0x4, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BeatmapObjectAvoidanceYOffsetEvaluator
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3960))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3946))
 // CS Name: ::BeatmapObjectAvoidanceYOffsetEvaluator*
 class CORDL_TYPE BeatmapObjectAvoidanceYOffsetEvaluator : public ::System::Object {
 public:
@@ -130,14 +134,14 @@ public:
                                                                                     ::GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController, float_t moveToPlayerHeadTParam,
                                                                                     ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData);
 
-  /// @brief Method .ctor addr 0x22176b4 size 0x154 virtual false final false
+  /// @brief Method .ctor addr 0x20b66cc size 0x154 virtual false final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController, float_t moveToPlayerHeadTParam,
                     ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData);
 
-  /// @brief Method ManualUpdate addr 0x2217810 size 0x178 virtual false final false
+  /// @brief Method ManualUpdate addr 0x20b6828 size 0x178 virtual false final false
   inline void ManualUpdate();
 
-  /// @brief Method GetJumpOffsetYAtJumpStartSongTime addr 0x2217988 size 0x310 virtual false final false
+  /// @brief Method GetJumpOffsetYAtJumpStartSongTime addr 0x20b69a0 size 0x310 virtual false final false
   inline float_t GetJumpOffsetYAtJumpStartSongTime(float_t lastDeltaTime);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectAvoidanceYOffsetEvaluator", modifiers: "&&", def_value: None }]
@@ -179,6 +183,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator, ____currentYJumpOffsetBufferEndIndex) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator, ____jumpDurationToDesiredZPosition) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator, ____yJumpOffsetBuffer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator, ____audioTimeSource) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator, ____beatmapObjectSpawnController) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator);

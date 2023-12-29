@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::WhitespaceHandling);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11446))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11374))
 // CS Name: ::System.Xml::WhitespaceHandling
 struct CORDL_TYPE WhitespaceHandling {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::WhitespaceHandling, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::WhitespaceHandling, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::WhitespaceHandling, "System.Xml", "WhitespaceHandling");

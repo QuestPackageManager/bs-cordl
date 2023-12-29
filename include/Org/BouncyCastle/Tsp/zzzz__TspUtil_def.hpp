@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TspUtil)
-namespace System::Collections {
-class ICollection;
-}
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
+namespace System::Collections {
+class IList;
+}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Cms {
-class SignerInformation;
+namespace System::Collections {
+class ICollection;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
-namespace System::Collections {
-class IList;
-}
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Cms {
+class SignerInformation;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TspUtil);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1775))
 // CS Name: ::Org.BouncyCastle.Tsp::TspUtil*
 class CORDL_TYPE TspUtil : public ::System::Object {
@@ -74,33 +74,33 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_digestNames();
 
-  /// @brief Method GetSignatureTimestamps addr 0x1155e60 size 0x9c8 virtual false final false
+  /// @brief Method GetSignatureTimestamps addr 0x10e4c18 size 0x9c8 virtual false final false
   static inline ::System::Collections::ICollection* GetSignatureTimestamps(::Org::BouncyCastle::Cms::SignerInformation* signerInfo);
 
-  /// @brief Method ValidateCertificate addr 0x115340c size 0x374 virtual false final false
+  /// @brief Method ValidateCertificate addr 0x10e21c4 size 0x374 virtual false final false
   static inline void ValidateCertificate(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method GetDigestAlgName addr 0x1156828 size 0x108 virtual false final false
+  /// @brief Method GetDigestAlgName addr 0x10e55e0 size 0x108 virtual false final false
   static inline ::StringW GetDigestAlgName(::StringW digestAlgOID);
 
-  /// @brief Method GetDigestLength addr 0x114fba0 size 0x1e4 virtual false final false
+  /// @brief Method GetDigestLength addr 0x10de958 size 0x1e4 virtual false final false
   static inline int32_t GetDigestLength(::StringW digestAlgOID);
 
-  /// @brief Method CreateDigestInstance addr 0x1156930 size 0x8c virtual false final false
+  /// @brief Method CreateDigestInstance addr 0x10e56e8 size 0x8c virtual false final false
   static inline ::Org::BouncyCastle::Crypto::IDigest* CreateDigestInstance(::StringW digestAlgOID);
 
-  /// @brief Method GetCriticalExtensionOids addr 0x11569bc size 0xb4 virtual false final false
+  /// @brief Method GetCriticalExtensionOids addr 0x10e5774 size 0xb4 virtual false final false
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetCriticalExtensionOids(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetNonCriticalExtensionOids addr 0x1156d94 size 0xb4 virtual false final false
+  /// @brief Method GetNonCriticalExtensionOids addr 0x10e5b4c size 0xb4 virtual false final false
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetNonCriticalExtensionOids(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetExtensionOids addr 0x114fe1c size 0xb0 virtual false final false
+  /// @brief Method GetExtensionOids addr 0x10debd4 size 0xb0 virtual false final false
   static inline ::System::Collections::IList* GetExtensionOids(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
   static inline ::Org::BouncyCastle::Tsp::TspUtil* New_ctor();
 
-  /// @brief Method .ctor addr 0x1156e48 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x10e5c00 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TspUtil", modifiers: "&&", def_value: None }]

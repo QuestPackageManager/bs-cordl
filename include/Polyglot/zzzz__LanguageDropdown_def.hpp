@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(LanguageDropdown)
-namespace UnityEngine::UI {
-class Dropdown;
-}
 namespace Polyglot {
 class ILocalize;
+}
+namespace UnityEngine::UI {
+class Dropdown;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Polyglot::LanguageDropdown);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15557))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15541))
 // CS Name: ::Polyglot::LanguageDropdown*
 class CORDL_TYPE LanguageDropdown : public ::UnityEngine::MonoBehaviour {
 public:
@@ -38,21 +38,21 @@ public:
 
   constexpr void __set_dropdown(::UnityEngine::UI::Dropdown* value);
 
-  /// @brief Method Reset addr 0x2802824 size 0x50 virtual false final false
+  /// @brief Method Reset addr 0x2687c00 size 0x50 virtual false final false
   inline void Reset();
 
-  /// @brief Method Start addr 0x2802874 size 0x24 virtual false final false
+  /// @brief Method Start addr 0x2687c50 size 0x24 virtual false final false
   inline void Start();
 
-  /// @brief Method CreateDropdown addr 0x2802898 size 0x22c virtual false final false
+  /// @brief Method CreateDropdown addr 0x2687c74 size 0x22c virtual false final false
   inline void CreateDropdown();
 
-  /// @brief Method OnLocalize addr 0x2802e10 size 0x148 virtual true final true
+  /// @brief Method OnLocalize addr 0x26881ec size 0x148 virtual true final true
   inline void OnLocalize();
 
   static inline ::Polyglot::LanguageDropdown* New_ctor();
 
-  /// @brief Method .ctor addr 0x2802f58 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2688334 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LanguageDropdown", modifiers: "&&", def_value: None }]
@@ -76,6 +76,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Polyglot::LanguageDropdown, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Polyglot::LanguageDropdown, ___dropdown) == 0x18, "Offset mismatch!");
 
 } // namespace Polyglot
 NEED_NO_BOX(::Polyglot::LanguageDropdown);

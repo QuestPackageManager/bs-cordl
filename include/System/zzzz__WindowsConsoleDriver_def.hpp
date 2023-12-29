@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WindowsConsoleDriver)
 namespace System {
-struct ConsoleScreenBufferInfo;
+struct ConsoleKeyInfo;
 }
 namespace System {
 struct InputRecord;
 }
 namespace System {
-struct ConsoleKeyInfo;
+class IConsoleDriver;
+}
+namespace System {
+struct ConsoleScreenBufferInfo;
 }
 namespace System {
 struct Handles;
-}
-namespace System {
-class IConsoleDriver;
 }
 // Forward declare root types
 namespace System {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::WindowsConsoleDriver);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2649))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2647))
 // CS Name: ::System::WindowsConsoleDriver*
 class CORDL_TYPE WindowsConsoleDriver : public ::System::Object {
 public:
@@ -70,22 +70,22 @@ public:
 
   static inline ::System::WindowsConsoleDriver* New_ctor();
 
-  /// @brief Method .ctor addr 0x2609554 size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x24ae5cc size 0x54 virtual false final false
   inline void _ctor();
 
-  /// @brief Method ReadKey addr 0x26096c0 size 0x140 virtual true final true
+  /// @brief Method ReadKey addr 0x24ae738 size 0x140 virtual true final true
   inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
-  /// @brief Method IsModifierKey addr 0x2609908 size 0x34 virtual false final false
+  /// @brief Method IsModifierKey addr 0x24ae980 size 0x34 virtual false final false
   static inline bool IsModifierKey(int16_t virtualKeyCode);
 
-  /// @brief Method GetStdHandle addr 0x26095a8 size 0x84 virtual false final false
+  /// @brief Method GetStdHandle addr 0x24ae620 size 0x84 virtual false final false
   static inline void* GetStdHandle(::System::Handles handle);
 
-  /// @brief Method GetConsoleScreenBufferInfo addr 0x260962c size 0x94 virtual false final false
+  /// @brief Method GetConsoleScreenBufferInfo addr 0x24ae6a4 size 0x94 virtual false final false
   static inline bool GetConsoleScreenBufferInfo(void* handle, ByRef<::System::ConsoleScreenBufferInfo> info);
 
-  /// @brief Method ReadConsoleInput addr 0x2609800 size 0x108 virtual false final false
+  /// @brief Method ReadConsoleInput addr 0x24ae878 size 0x108 virtual false final false
   static inline bool ReadConsoleInput(void* handle, ByRef<::System::InputRecord> record, int32_t length, ByRef<int32_t> nread);
 
   // Ctor Parameters [CppParam { name: "", ty: "WindowsConsoleDriver", modifiers: "&&", def_value: None }]
@@ -115,6 +115,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::WindowsConsoleDriver, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::WindowsConsoleDriver, ___inputHandle) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::WindowsConsoleDriver, ___outputHandle) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::WindowsConsoleDriver, ___defaultAttribute) == 0x20, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::WindowsConsoleDriver);

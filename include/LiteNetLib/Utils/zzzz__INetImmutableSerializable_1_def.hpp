@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(INetImmutableSerializable_1)
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 // Forward declare root types
 namespace LiteNetLib::Utils {
@@ -22,7 +22,7 @@ namespace LiteNetLib::Utils {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14192))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14530))
 // CS Name: ::LiteNetLib.Utils::INetImmutableSerializable`1<T>*
 class CORDL_TYPE INetImmutableSerializable_1 {
 public:

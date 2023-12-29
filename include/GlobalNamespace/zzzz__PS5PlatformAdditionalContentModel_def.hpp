@@ -8,12 +8,6 @@ CORDL_MODULE_EXPORT(PS5PlatformAdditionalContentModel)
 namespace GlobalNamespace {
 class PS5LevelProductsModelSO;
 }
-namespace GlobalNamespace {
-class AlwaysOwnedContentContainerSO;
-}
-namespace GlobalNamespace {
-class ISonyCommerceHelper;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class PS5PlatformAdditionalContentModel;
@@ -21,21 +15,30 @@ class PS5PlatformAdditionalContentModel;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PS5PlatformAdditionalContentModel);
 // Type: ::PS5PlatformAdditionalContentModel
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4601)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4601), inst: 4983 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4563))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4564)) CS Name: ::PS5PlatformAdditionalContentModel*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4690), inst: 4877 }), TypeDefinitionIndex(TypeDefinitionIndex(4690)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4652))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4654)) CS Name: ::PS5PlatformAdditionalContentModel*
 class CORDL_TYPE PS5PlatformAdditionalContentModel : public ::GlobalNamespace::SonyPlatformAdditionalContentModel_1<::GlobalNamespace::PS5LevelProductsModelSO*> {
 public:
   // Declarations
-  static inline ::GlobalNamespace::PS5PlatformAdditionalContentModel* New_ctor(::GlobalNamespace::PS5LevelProductsModelSO* ps5LevelProductsModel,
-                                                                               ::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper,
-                                                                               ::GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer);
+  /// @brief Field _ps5LevelProductsModel, offset 0x48, size 0x8
+  __declspec(property(get = __get__ps5LevelProductsModel, put = __set__ps5LevelProductsModel))::GlobalNamespace::PS5LevelProductsModelSO* _ps5LevelProductsModel;
 
-  /// @brief Method .ctor addr 0x23682c4 size 0x70 virtual false final false
-  inline void _ctor(::GlobalNamespace::PS5LevelProductsModelSO* ps5LevelProductsModel, ::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper,
-                    ::GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer);
+  constexpr ::GlobalNamespace::PS5LevelProductsModelSO*& __get__ps5LevelProductsModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PS5LevelProductsModelSO*> const& __get__ps5LevelProductsModel() const;
+
+  constexpr void __set__ps5LevelProductsModel(::GlobalNamespace::PS5LevelProductsModelSO* value);
+
+  /// @brief Method GetLevelProductsModel addr 0x222e3a4 size 0x8 virtual true final false
+  inline ::GlobalNamespace::PS5LevelProductsModelSO* GetLevelProductsModel();
+
+  static inline ::GlobalNamespace::PS5PlatformAdditionalContentModel* New_ctor();
+
+  /// @brief Method .ctor addr 0x222e3ac size 0x48 virtual false final false
+  inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PS5PlatformAdditionalContentModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -51,10 +54,15 @@ protected:
   constexpr PS5PlatformAdditionalContentModel();
 
 public:
+  /// @brief Field _ps5LevelProductsModel, offset: 0x48, size: 0x8, def value: None
+  ::GlobalNamespace::PS5LevelProductsModelSO* ____ps5LevelProductsModel;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PS5PlatformAdditionalContentModel, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PS5PlatformAdditionalContentModel, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PS5PlatformAdditionalContentModel, ____ps5LevelProductsModel) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PS5PlatformAdditionalContentModel);

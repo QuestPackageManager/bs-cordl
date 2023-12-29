@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::Ping);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10062))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9990))
 // CS Name: ::UnityEngine::Ping*
 class CORDL_TYPE Ping : public ::System::Object {
 public:
@@ -38,28 +38,28 @@ public:
 
   static inline ::UnityEngine::Ping* New_ctor(::StringW address);
 
-  /// @brief Method .ctor addr 0x2ca2310 size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x2b3d610 size 0x50 virtual false final false
   inline void _ctor(::StringW address);
 
-  /// @brief Method Finalize addr 0x2ca239c size 0x94 virtual true final false
+  /// @brief Method Finalize addr 0x2b3d69c size 0x94 virtual true final false
   inline void Finalize();
 
-  /// @brief Method DestroyPing addr 0x2ca2430 size 0xa0 virtual false final false
+  /// @brief Method DestroyPing addr 0x2b3d730 size 0xa0 virtual false final false
   inline void DestroyPing();
 
-  /// @brief Method Internal_Destroy addr 0x2ca24d0 size 0x3c virtual false final false
+  /// @brief Method Internal_Destroy addr 0x2b3d7d0 size 0x3c virtual false final false
   static inline void Internal_Destroy(void* ptr);
 
-  /// @brief Method Internal_Create addr 0x2ca2360 size 0x3c virtual false final false
+  /// @brief Method Internal_Create addr 0x2b3d660 size 0x3c virtual false final false
   static inline void* Internal_Create(::StringW address);
 
-  /// @brief Method get_isDone addr 0x2ca250c size 0x90 virtual false final false
+  /// @brief Method get_isDone addr 0x2b3d80c size 0x90 virtual false final false
   inline bool get_isDone();
 
-  /// @brief Method Internal_IsDone addr 0x2ca259c size 0x3c virtual false final false
+  /// @brief Method Internal_IsDone addr 0x2b3d89c size 0x3c virtual false final false
   inline bool Internal_IsDone();
 
-  /// @brief Method get_time addr 0x2ca25d8 size 0x3c virtual false final false
+  /// @brief Method get_time addr 0x2b3d8d8 size 0x3c virtual false final false
   inline int32_t get_time();
 
   // Ctor Parameters [CppParam { name: "", ty: "Ping", modifiers: "&&", def_value: None }]
@@ -83,6 +83,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Ping, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Ping, ___m_Ptr) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::Ping);

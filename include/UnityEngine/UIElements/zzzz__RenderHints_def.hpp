@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::RenderHints);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6865))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6951))
 // CS Name: ::UnityEngine.UIElements::RenderHints
 struct CORDL_TYPE RenderHints {
 public:
@@ -97,6 +97,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RenderHints, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::RenderHints, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::RenderHints, "UnityEngine.UIElements", "RenderHints");

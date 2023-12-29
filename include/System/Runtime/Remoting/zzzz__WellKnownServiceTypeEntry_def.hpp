@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::WellKnownServiceTypeEntry);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3079)), TypeDefinitionIndex(TypeDefinitionIndex(3082))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3083))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3081)), TypeDefinitionIndex(TypeDefinitionIndex(3078))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3082))
 // CS Name: ::System.Runtime.Remoting::WellKnownServiceTypeEntry*
 class CORDL_TYPE WellKnownServiceTypeEntry : public ::System::Runtime::Remoting::TypeEntry {
 public:
@@ -64,19 +64,19 @@ public:
   static inline ::System::Runtime::Remoting::WellKnownServiceTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri,
                                                                                  ::System::Runtime::Remoting::WellKnownObjectMode mode);
 
-  /// @brief Method .ctor addr 0x2495a30 size 0x140 virtual false final false
+  /// @brief Method .ctor addr 0x233cf3c size 0x140 virtual false final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri, ::System::Runtime::Remoting::WellKnownObjectMode mode);
 
-  /// @brief Method get_Mode addr 0x2495b70 size 0x8 virtual false final false
+  /// @brief Method get_Mode addr 0x233d07c size 0x8 virtual false final false
   inline ::System::Runtime::Remoting::WellKnownObjectMode get_Mode();
 
-  /// @brief Method get_ObjectType addr 0x2495b78 size 0x8 virtual false final false
+  /// @brief Method get_ObjectType addr 0x233d084 size 0x8 virtual false final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method get_ObjectUri addr 0x2495b80 size 0x8 virtual false final false
+  /// @brief Method get_ObjectUri addr 0x233d08c size 0x8 virtual false final false
   inline ::StringW get_ObjectUri();
 
-  /// @brief Method ToString addr 0x2495b88 size 0x178 virtual true final false
+  /// @brief Method ToString addr 0x233d094 size 0x178 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "WellKnownServiceTypeEntry", modifiers: "&&", def_value: None }]
@@ -106,6 +106,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::WellKnownServiceTypeEntry, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::WellKnownServiceTypeEntry, ___obj_type) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::WellKnownServiceTypeEntry, ___obj_uri) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::WellKnownServiceTypeEntry, ___obj_mode) == 0x30, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting
 NEED_NO_BOX(::System::Runtime::Remoting::WellKnownServiceTypeEntry);

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Log)
 namespace System {
-class Exception;
+class Object;
 }
 namespace System {
-class Object;
+class Exception;
 }
 // Forward declare root types
 namespace ModestTree {
@@ -22,31 +22,31 @@ MARK_REF_PTR_T(::ModestTree::Log);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10614))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10542))
 // CS Name: ::ModestTree::Log*
 class CORDL_TYPE Log : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Debug addr 0x2ebc1d0 size 0x4 virtual false final false
+  /// @brief Method Debug addr 0x2d54450 size 0x4 virtual false final false
   static inline void Debug(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Info addr 0x2ebc1d4 size 0x78 virtual false final false
+  /// @brief Method Info addr 0x2d54454 size 0x78 virtual false final false
   static inline void Info(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Warn addr 0x2ebbbc8 size 0x78 virtual false final false
+  /// @brief Method Warn addr 0x2d53e48 size 0x78 virtual false final false
   static inline void Warn(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Trace addr 0x2ebc24c size 0x78 virtual false final false
+  /// @brief Method Trace addr 0x2d544cc size 0x78 virtual false final false
   static inline void Trace(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method ErrorException addr 0x2ebc2c4 size 0x58 virtual false final false
+  /// @brief Method ErrorException addr 0x2d54544 size 0x58 virtual false final false
   static inline void ErrorException(::System::Exception* e);
 
-  /// @brief Method ErrorException addr 0x2ebc31c size 0x70 virtual false final false
+  /// @brief Method ErrorException addr 0x2d5459c size 0x70 virtual false final false
   static inline void ErrorException(::StringW message, ::System::Exception* e);
 
-  /// @brief Method Error addr 0x2ebc38c size 0x78 virtual false final false
+  /// @brief Method Error addr 0x2d5460c size 0x78 virtual false final false
   static inline void Error(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   // Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "&&", def_value: None }]

@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12270))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12198))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::MeshImportSettings*
 class CORDL_TYPE MeshImportSettings : public ::System::Object {
 public:
@@ -55,30 +55,30 @@ public:
 
   constexpr void __set_m_SmoothingThreshold(float_t value);
 
-  /// @brief Method get_quads addr 0x2bb9b38 size 0x8 virtual false final false
+  /// @brief Method get_quads addr 0x2a37de4 size 0x8 virtual false final false
   inline bool get_quads();
 
-  /// @brief Method set_quads addr 0x2bb9b40 size 0xc virtual false final false
+  /// @brief Method set_quads addr 0x2a37dec size 0xc virtual false final false
   inline void set_quads(bool value);
 
-  /// @brief Method get_smoothing addr 0x2bb9b4c size 0x8 virtual false final false
+  /// @brief Method get_smoothing addr 0x2a37df8 size 0x8 virtual false final false
   inline bool get_smoothing();
 
-  /// @brief Method set_smoothing addr 0x2bb9b54 size 0xc virtual false final false
+  /// @brief Method set_smoothing addr 0x2a37e00 size 0xc virtual false final false
   inline void set_smoothing(bool value);
 
-  /// @brief Method get_smoothingAngle addr 0x2bb9b60 size 0x8 virtual false final false
+  /// @brief Method get_smoothingAngle addr 0x2a37e0c size 0x8 virtual false final false
   inline float_t get_smoothingAngle();
 
-  /// @brief Method set_smoothingAngle addr 0x2bb9b68 size 0x8 virtual false final false
+  /// @brief Method set_smoothingAngle addr 0x2a37e14 size 0x8 virtual false final false
   inline void set_smoothingAngle(float_t value);
 
-  /// @brief Method ToString addr 0x2bb9b70 size 0xd8 virtual true final false
+  /// @brief Method ToString addr 0x2a37e1c size 0xd8 virtual true final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bb9c48 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x2a37ef4 size 0x18 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshImportSettings", modifiers: "&&", def_value: None }]
@@ -108,6 +108,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings, ___m_Quads) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings, ___m_Smoothing) == 0x11, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings, ___m_SmoothingThreshold) == 0x14, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
 NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings);

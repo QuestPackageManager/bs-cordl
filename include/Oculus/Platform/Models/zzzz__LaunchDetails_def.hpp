@@ -17,11 +17,11 @@ class LaunchDetails;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::LaunchDetails);
 // Type: Oculus.Platform.Models::LaunchDetails
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13252))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13442))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(13256))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13488))
 // CS Name: ::Oculus.Platform.Models::LaunchDetails*
 class CORDL_TYPE LaunchDetails : public ::System::Object {
 public:
@@ -38,13 +38,16 @@ public:
   /// @brief Field LaunchType, offset 0x28, size 0x4
   __declspec(property(get = __get_LaunchType, put = __set_LaunchType))::Oculus::Platform::LaunchType LaunchType;
 
-  /// @brief Field TrackingID, offset 0x30, size 0x8
+  /// @brief Field RoomID, offset 0x30, size 0x8
+  __declspec(property(get = __get_RoomID, put = __set_RoomID)) uint64_t RoomID;
+
+  /// @brief Field TrackingID, offset 0x38, size 0x8
   __declspec(property(get = __get_TrackingID, put = __set_TrackingID))::StringW TrackingID;
 
-  /// @brief Field UsersOptional, offset 0x38, size 0x8
+  /// @brief Field UsersOptional, offset 0x40, size 0x8
   __declspec(property(get = __get_UsersOptional, put = __set_UsersOptional))::Oculus::Platform::Models::UserList* UsersOptional;
 
-  /// @brief Field Users, offset 0x40, size 0x8
+  /// @brief Field Users, offset 0x48, size 0x8
   __declspec(property(get = __get_Users, put = __set_Users))::Oculus::Platform::Models::UserList* Users;
 
   constexpr ::StringW& __get_DeeplinkMessage();
@@ -71,6 +74,12 @@ public:
 
   constexpr void __set_LaunchType(::Oculus::Platform::LaunchType value);
 
+  constexpr uint64_t& __get_RoomID();
+
+  constexpr uint64_t const& __get_RoomID() const;
+
+  constexpr void __set_RoomID(uint64_t value);
+
   constexpr ::StringW& __get_TrackingID();
 
   constexpr ::StringW const& __get_TrackingID() const;
@@ -91,7 +100,7 @@ public:
 
   static inline ::Oculus::Platform::Models::LaunchDetails* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x2706494 size 0x140 virtual false final false
+  /// @brief Method .ctor addr 0x25b3ae8 size 0x150 virtual false final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "LaunchDetails", modifiers: "&&", def_value: None }]
@@ -120,19 +129,38 @@ public:
   /// @brief Field LaunchType, offset: 0x28, size: 0x4, def value: None
   ::Oculus::Platform::LaunchType ___LaunchType;
 
-  /// @brief Field TrackingID, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field RoomID, offset: 0x30, size: 0x8, def value: None
+  uint64_t ___RoomID;
+
+  /// @brief Field TrackingID, offset: 0x38, size: 0x8, def value: None
   ::StringW ___TrackingID;
 
-  /// @brief Field UsersOptional, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field UsersOptional, offset: 0x40, size: 0x8, def value: None
   ::Oculus::Platform::Models::UserList* ___UsersOptional;
 
-  /// @brief Field Users, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field Users, offset: 0x48, size: 0x8, def value: None
   ::Oculus::Platform::Models::UserList* ___Users;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LaunchDetails, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LaunchDetails, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::LaunchDetails, ___DeeplinkMessage) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::LaunchDetails, ___DestinationApiName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::LaunchDetails, ___LaunchSource) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::LaunchDetails, ___LaunchType) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::LaunchDetails, ___RoomID) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::LaunchDetails, ___TrackingID) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::LaunchDetails, ___UsersOptional) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::LaunchDetails, ___Users) == 0x48, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::LaunchDetails);

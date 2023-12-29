@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(TypeValuePair)
 namespace System {
-class Object;
+class Type;
 }
 namespace System {
-class Type;
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -21,12 +21,12 @@ MARK_VAL_T(::Zenject::TypeValuePair);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11114))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11042))
 // CS Name: ::Zenject::TypeValuePair
 struct CORDL_TYPE TypeValuePair {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2eeb834 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d83ab4 size 0x8 virtual false final false
   inline void _ctor(::System::Type* type, ::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "Type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "::System::Object*", modifiers: "", def_value: None }]
@@ -49,6 +49,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::TypeValuePair, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::TypeValuePair, Type) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::TypeValuePair, Value) == 0x8, "Offset mismatch!");
 
 } // namespace Zenject
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::TypeValuePair, "Zenject", "TypeValuePair");

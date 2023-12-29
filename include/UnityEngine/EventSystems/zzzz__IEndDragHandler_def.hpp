@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IEndDragHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13180))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13185))
 // CS Name: ::UnityEngine.EventSystems::IEndDragHandler*
 class CORDL_TYPE IEndDragHandler {
 public:

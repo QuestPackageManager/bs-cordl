@@ -10,40 +10,40 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-struct SaberType;
+class ObstacleSaberSparkleEffect;
 }
 namespace GlobalNamespace {
 class SaberManager;
 }
 namespace GlobalNamespace {
-class Saber;
+struct SaberType;
+}
+namespace Libraries::HM::HMLib::VR {
+class HapticPresetSO;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct Bounds;
-}
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
+struct Quaternion;
 }
 namespace GlobalNamespace {
-class ObstacleSaberSparkleEffect;
-}
-namespace GlobalNamespace {
-class HapticFeedbackManager;
+class HapticFeedbackController;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class ColorManager;
+}
+namespace GlobalNamespace {
+class Saber;
+}
+namespace UnityEngine {
+struct Bounds;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,8 +55,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleSaberSparkleEffectManager);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4896))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5014))
 // CS Name: ::ObstacleSaberSparkleEffectManager*
 class CORDL_TYPE ObstacleSaberSparkleEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -73,8 +73,8 @@ public:
   /// @brief Field _saberManager, offset 0x30, size 0x8
   __declspec(property(get = __get__saberManager, put = __set__saberManager))::GlobalNamespace::SaberManager* _saberManager;
 
-  /// @brief Field _hapticFeedbackManager, offset 0x38, size 0x8
-  __declspec(property(get = __get__hapticFeedbackManager, put = __set__hapticFeedbackManager))::GlobalNamespace::HapticFeedbackManager* _hapticFeedbackManager;
+  /// @brief Field _hapticFeedbackController, offset 0x38, size 0x8
+  __declspec(property(get = __get__hapticFeedbackController, put = __set__hapticFeedbackController))::GlobalNamespace::HapticFeedbackController* _hapticFeedbackController;
 
   /// @brief Field _colorManager, offset 0x40, size 0x8
   __declspec(property(get = __get__colorManager, put = __set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
@@ -127,11 +127,11 @@ public:
 
   constexpr void __set__saberManager(::GlobalNamespace::SaberManager* value);
 
-  constexpr ::GlobalNamespace::HapticFeedbackManager*& __get__hapticFeedbackManager();
+  constexpr ::GlobalNamespace::HapticFeedbackController*& __get__hapticFeedbackController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HapticFeedbackManager*> const& __get__hapticFeedbackManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HapticFeedbackController*> const& __get__hapticFeedbackController() const;
 
-  constexpr void __set__hapticFeedbackManager(::GlobalNamespace::HapticFeedbackManager* value);
+  constexpr void __set__hapticFeedbackController(::GlobalNamespace::HapticFeedbackController* value);
 
   constexpr ::GlobalNamespace::ColorManager*& __get__colorManager();
 
@@ -187,40 +187,40 @@ public:
 
   constexpr void __set__burnMarkPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method add_sparkleEffectDidStartEvent addr 0x23a3d08 size 0xb0 virtual false final false
+  /// @brief Method add_sparkleEffectDidStartEvent addr 0x226dcd0 size 0xb0 virtual false final false
   inline void add_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method remove_sparkleEffectDidStartEvent addr 0x23a3db8 size 0xb0 virtual false final false
+  /// @brief Method remove_sparkleEffectDidStartEvent addr 0x226dd80 size 0xb0 virtual false final false
   inline void remove_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method add_sparkleEffectDidEndEvent addr 0x23a3e68 size 0xb0 virtual false final false
+  /// @brief Method add_sparkleEffectDidEndEvent addr 0x226de30 size 0xb0 virtual false final false
   inline void add_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method remove_sparkleEffectDidEndEvent addr 0x23a3f18 size 0xb0 virtual false final false
+  /// @brief Method remove_sparkleEffectDidEndEvent addr 0x226dee0 size 0xb0 virtual false final false
   inline void remove_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method Start addr 0x23a3fc8 size 0x2ac virtual false final false
+  /// @brief Method Start addr 0x226df90 size 0x2b0 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDisable addr 0x23a4370 size 0xa4 virtual false final false
+  /// @brief Method OnDisable addr 0x226e240 size 0xa4 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method Update addr 0x23a4414 size 0x60c virtual false final false
+  /// @brief Method Update addr 0x226e2e4 size 0x618 virtual false final false
   inline void Update();
 
-  /// @brief Method GetEffectRotation addr 0x23a4ca8 size 0x124 virtual false final false
+  /// @brief Method GetEffectRotation addr 0x226eb84 size 0x124 virtual false final false
   inline ::UnityEngine::Quaternion GetEffectRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Transform* transform, ::UnityEngine::Bounds bounds);
 
-  /// @brief Method BurnMarkPosForSaberType addr 0x23a4f00 size 0x8c virtual false final false
+  /// @brief Method BurnMarkPosForSaberType addr 0x226eca8 size 0x8c virtual false final false
   inline ::UnityEngine::Vector3 BurnMarkPosForSaberType(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method GetBurnMarkPos addr 0x23a4a20 size 0x288 virtual false final false
+  /// @brief Method GetBurnMarkPos addr 0x226e8fc size 0x288 virtual false final false
   inline bool GetBurnMarkPos(::UnityEngine::Bounds bounds, ::UnityEngine::Transform* transform, ::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos,
                              ByRef<::UnityEngine::Vector3> burnMarkPos);
 
   static inline ::GlobalNamespace::ObstacleSaberSparkleEffectManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x23a4f8c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x226ed34 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleSaberSparkleEffectManager", modifiers: "&&", def_value: None }]
@@ -249,8 +249,8 @@ public:
   /// @brief Field _saberManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::SaberManager* ____saberManager;
 
-  /// @brief Field _hapticFeedbackManager, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::HapticFeedbackManager* ____hapticFeedbackManager;
+  /// @brief Field _hapticFeedbackController, offset: 0x38, size: 0x8, def value: None
+  ::GlobalNamespace::HapticFeedbackController* ____hapticFeedbackController;
 
   /// @brief Field _colorManager, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
@@ -283,6 +283,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObstacleSaberSparkleEffectManager, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____obstacleSaberSparkleEffectPrefab) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____rumblePreset) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____beatmapObjectManager) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____saberManager) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____hapticFeedbackController) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____colorManager) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ___sparkleEffectDidStartEvent) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ___sparkleEffectDidEndEvent) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____sabers) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____effects) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____effectsTransforms) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____isSystemActive) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____wasSystemActive) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____burnMarkPositions) == 0x80, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ObstacleSaberSparkleEffectManager);

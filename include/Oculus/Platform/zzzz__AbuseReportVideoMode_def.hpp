@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::AbuseReportVideoMode);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13223))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13226))
 // CS Name: ::Oculus.Platform::AbuseReportVideoMode
 struct CORDL_TYPE AbuseReportVideoMode {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::AbuseReportVideoMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::AbuseReportVideoMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::AbuseReportVideoMode, "Oculus.Platform", "AbuseReportVideoMode");

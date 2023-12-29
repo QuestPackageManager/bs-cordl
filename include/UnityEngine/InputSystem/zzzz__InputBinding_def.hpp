@@ -14,31 +14,31 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::InputSystem {
-struct __InputBinding__MatchOptions;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
 class __InputBinding____c;
-}
-namespace UnityEngine::InputSystem {
-struct __InputBinding__DisplayStringOptions;
-}
-namespace UnityEngine::InputSystem {
-struct __InputBinding__Flags;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
 }
 namespace System {
 class Object;
 }
 namespace System {
-struct Guid;
+template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::InputSystem {
+struct __InputBinding__Flags;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem {
+struct __InputBinding__MatchOptions;
+}
+namespace UnityEngine::InputSystem {
+struct __InputBinding__DisplayStringOptions;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+struct Guid;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -67,7 +67,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::InputBinding);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6183))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6269))
 // CS Name: ::InputBinding::DisplayStringOptions
 struct CORDL_TYPE __InputBinding__DisplayStringOptions {
 public:
@@ -117,13 +117,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: ::MatchOptions
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6184))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6270))
 // CS Name: ::InputBinding::MatchOptions
 struct CORDL_TYPE __InputBinding__MatchOptions {
 public:
@@ -161,13 +163,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputBinding__MatchOptions, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBinding__MatchOptions, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: ::Flags
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6185))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6271))
 // CS Name: ::InputBinding::Flags
 struct CORDL_TYPE __InputBinding__Flags {
 public:
@@ -213,13 +217,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputBinding__Flags, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputBinding__Flags, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6186))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6272))
 // CS Name: ::InputBinding::<>c*
 class CORDL_TYPE __InputBinding____c : public ::System::Object {
 public:
@@ -240,10 +246,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::__InputBinding____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a55d88 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x28d6040 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <MaskByGroups>b__45_0 addr 0x2a55d90 size 0x20 virtual false final false
+  /// @brief Method <MaskByGroups>b__45_0 addr 0x28d6048 size 0x20 virtual false final false
   inline bool _MaskByGroups_b__45_0(::StringW x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputBinding____c", modifiers: "&&", def_value: None }]
@@ -270,8 +276,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6185))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6187))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6271))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6273))
 // CS Name: ::UnityEngine.InputSystem::InputBinding
 struct CORDL_TYPE InputBinding {
 public:
@@ -321,143 +327,143 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>*();
 
-  /// @brief Method get_name addr 0x2a54ff4 size 0x8 virtual false final false
+  /// @brief Method get_name addr 0x28d52ac size 0x8 virtual false final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name addr 0x2a54ffc size 0x8 virtual false final false
+  /// @brief Method set_name addr 0x28d52b4 size 0x8 virtual false final false
   inline void set_name(::StringW value);
 
-  /// @brief Method get_id addr 0x2a55004 size 0x48 virtual false final false
+  /// @brief Method get_id addr 0x28d52bc size 0x48 virtual false final false
   inline ::System::Guid get_id();
 
-  /// @brief Method set_id addr 0x2a5504c size 0x2c virtual false final false
+  /// @brief Method set_id addr 0x28d5304 size 0x2c virtual false final false
   inline void set_id(::System::Guid value);
 
-  /// @brief Method get_path addr 0x2a55078 size 0x8 virtual false final false
+  /// @brief Method get_path addr 0x28d5330 size 0x8 virtual false final false
   inline ::StringW get_path();
 
-  /// @brief Method set_path addr 0x2a55080 size 0x8 virtual false final false
+  /// @brief Method set_path addr 0x28d5338 size 0x8 virtual false final false
   inline void set_path(::StringW value);
 
-  /// @brief Method get_overridePath addr 0x2a55088 size 0x8 virtual false final false
+  /// @brief Method get_overridePath addr 0x28d5340 size 0x8 virtual false final false
   inline ::StringW get_overridePath();
 
-  /// @brief Method set_overridePath addr 0x2a55090 size 0x8 virtual false final false
+  /// @brief Method set_overridePath addr 0x28d5348 size 0x8 virtual false final false
   inline void set_overridePath(::StringW value);
 
-  /// @brief Method get_interactions addr 0x2a55098 size 0x8 virtual false final false
+  /// @brief Method get_interactions addr 0x28d5350 size 0x8 virtual false final false
   inline ::StringW get_interactions();
 
-  /// @brief Method set_interactions addr 0x2a550a0 size 0x8 virtual false final false
+  /// @brief Method set_interactions addr 0x28d5358 size 0x8 virtual false final false
   inline void set_interactions(::StringW value);
 
-  /// @brief Method get_overrideInteractions addr 0x2a550a8 size 0x8 virtual false final false
+  /// @brief Method get_overrideInteractions addr 0x28d5360 size 0x8 virtual false final false
   inline ::StringW get_overrideInteractions();
 
-  /// @brief Method set_overrideInteractions addr 0x2a550b0 size 0x8 virtual false final false
+  /// @brief Method set_overrideInteractions addr 0x28d5368 size 0x8 virtual false final false
   inline void set_overrideInteractions(::StringW value);
 
-  /// @brief Method get_processors addr 0x2a550b8 size 0x8 virtual false final false
+  /// @brief Method get_processors addr 0x28d5370 size 0x8 virtual false final false
   inline ::StringW get_processors();
 
-  /// @brief Method set_processors addr 0x2a550c0 size 0x8 virtual false final false
+  /// @brief Method set_processors addr 0x28d5378 size 0x8 virtual false final false
   inline void set_processors(::StringW value);
 
-  /// @brief Method get_overrideProcessors addr 0x2a550c8 size 0x8 virtual false final false
+  /// @brief Method get_overrideProcessors addr 0x28d5380 size 0x8 virtual false final false
   inline ::StringW get_overrideProcessors();
 
-  /// @brief Method set_overrideProcessors addr 0x2a550d0 size 0x8 virtual false final false
+  /// @brief Method set_overrideProcessors addr 0x28d5388 size 0x8 virtual false final false
   inline void set_overrideProcessors(::StringW value);
 
-  /// @brief Method get_groups addr 0x2a550d8 size 0x8 virtual false final false
+  /// @brief Method get_groups addr 0x28d5390 size 0x8 virtual false final false
   inline ::StringW get_groups();
 
-  /// @brief Method set_groups addr 0x2a550e0 size 0x8 virtual false final false
+  /// @brief Method set_groups addr 0x28d5398 size 0x8 virtual false final false
   inline void set_groups(::StringW value);
 
-  /// @brief Method get_action addr 0x2a550e8 size 0x8 virtual false final false
+  /// @brief Method get_action addr 0x28d53a0 size 0x8 virtual false final false
   inline ::StringW get_action();
 
-  /// @brief Method set_action addr 0x2a550f0 size 0x8 virtual false final false
+  /// @brief Method set_action addr 0x28d53a8 size 0x8 virtual false final false
   inline void set_action(::StringW value);
 
-  /// @brief Method get_isComposite addr 0x2a4c8f4 size 0xc virtual false final false
+  /// @brief Method get_isComposite addr 0x28ccbac size 0xc virtual false final false
   inline bool get_isComposite();
 
-  /// @brief Method set_isComposite addr 0x2a550f8 size 0x1c virtual false final false
+  /// @brief Method set_isComposite addr 0x28d53b0 size 0x1c virtual false final false
   inline void set_isComposite(bool value);
 
-  /// @brief Method get_isPartOfComposite addr 0x2a4c900 size 0xc virtual false final false
+  /// @brief Method get_isPartOfComposite addr 0x28ccbb8 size 0xc virtual false final false
   inline bool get_isPartOfComposite();
 
-  /// @brief Method set_isPartOfComposite addr 0x2a4cbf4 size 0x1c virtual false final false
+  /// @brief Method set_isPartOfComposite addr 0x28cceac size 0x1c virtual false final false
   inline void set_isPartOfComposite(bool value);
 
-  /// @brief Method get_hasOverrides addr 0x2a55114 size 0x28 virtual false final false
+  /// @brief Method get_hasOverrides addr 0x28d53cc size 0x28 virtual false final false
   inline bool get_hasOverrides();
 
-  /// @brief Method .ctor addr 0x2a5513c size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x28d53f4 size 0x20 virtual false final false
   inline void _ctor(::StringW path, ::StringW action, ::StringW groups, ::StringW processors, ::StringW interactions, ::StringW name);
 
-  /// @brief Method GetNameOfComposite addr 0x2a5515c size 0x44 virtual false final false
+  /// @brief Method GetNameOfComposite addr 0x28d5414 size 0x44 virtual false final false
   inline ::StringW GetNameOfComposite();
 
-  /// @brief Method GenerateId addr 0x2a551a0 size 0x34 virtual false final false
+  /// @brief Method GenerateId addr 0x28d5458 size 0x34 virtual false final false
   inline void GenerateId();
 
-  /// @brief Method RemoveOverrides addr 0x2a551d4 size 0xc virtual false final false
+  /// @brief Method RemoveOverrides addr 0x28d548c size 0xc virtual false final false
   inline void RemoveOverrides();
 
-  /// @brief Method MaskByGroup addr 0x2a551e0 size 0x18 virtual false final false
+  /// @brief Method MaskByGroup addr 0x28d5498 size 0x18 virtual false final false
   static inline ::UnityEngine::InputSystem::InputBinding MaskByGroup(::StringW group);
 
-  /// @brief Method MaskByGroups addr 0x2a551f8 size 0x160 virtual false final false
+  /// @brief Method MaskByGroups addr 0x28d54b0 size 0x160 virtual false final false
   static inline ::UnityEngine::InputSystem::InputBinding MaskByGroups(::ArrayW<::StringW, ::Array<::StringW>*> groups);
 
-  /// @brief Method get_effectivePath addr 0x2a4e2bc size 0x18 virtual false final false
+  /// @brief Method get_effectivePath addr 0x28ce574 size 0x18 virtual false final false
   inline ::StringW get_effectivePath();
 
-  /// @brief Method get_effectiveInteractions addr 0x2a55358 size 0x18 virtual false final false
+  /// @brief Method get_effectiveInteractions addr 0x28d5610 size 0x18 virtual false final false
   inline ::StringW get_effectiveInteractions();
 
-  /// @brief Method get_effectiveProcessors addr 0x2a55370 size 0x18 virtual false final false
+  /// @brief Method get_effectiveProcessors addr 0x28d5628 size 0x18 virtual false final false
   inline ::StringW get_effectiveProcessors();
 
-  /// @brief Method get_isEmpty addr 0x2a55388 size 0x4c virtual false final false
+  /// @brief Method get_isEmpty addr 0x28d5640 size 0x4c virtual false final false
   inline bool get_isEmpty();
 
-  /// @brief Method Equals addr 0x2a553d4 size 0xcc virtual true final true
+  /// @brief Method Equals addr 0x28d568c size 0xcc virtual true final true
   inline bool Equals(::UnityEngine::InputSystem::InputBinding other);
 
-  /// @brief Method Equals addr 0x2a554a0 size 0x90 virtual true final false
+  /// @brief Method Equals addr 0x28d5758 size 0x90 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method op_Equality addr 0x2a4d3d8 size 0x34 virtual false final false
+  /// @brief Method op_Equality addr 0x28cd690 size 0x34 virtual false final false
   static inline bool op_Equality(::UnityEngine::InputSystem::InputBinding left, ::UnityEngine::InputSystem::InputBinding right);
 
-  /// @brief Method op_Inequality addr 0x2a55530 size 0x4c virtual false final false
+  /// @brief Method op_Inequality addr 0x28d57e8 size 0x4c virtual false final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::InputBinding left, ::UnityEngine::InputSystem::InputBinding right);
 
-  /// @brief Method GetHashCode addr 0x2a5557c size 0xfc virtual true final false
+  /// @brief Method GetHashCode addr 0x28d5834 size 0xfc virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x2a55678 size 0x104 virtual true final false
+  /// @brief Method ToString addr 0x28d5930 size 0x104 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method ToDisplayString addr 0x2a5577c size 0x2c virtual false final false
+  /// @brief Method ToDisplayString addr 0x28d5a34 size 0x2c virtual false final false
   inline ::StringW ToDisplayString(::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions options, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToDisplayString addr 0x2a557a8 size 0x46c virtual false final false
+  /// @brief Method ToDisplayString addr 0x28d5a60 size 0x46c virtual false final false
   inline ::StringW ToDisplayString(ByRef<::StringW> deviceLayoutName, ByRef<::StringW> controlPath, ::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions options,
                                    ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method TriggersAction addr 0x2a4c89c size 0x58 virtual false final false
+  /// @brief Method TriggersAction addr 0x28ccb54 size 0x58 virtual false final false
   inline bool TriggersAction(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method Matches addr 0x2a55c14 size 0x8 virtual false final false
+  /// @brief Method Matches addr 0x28d5ecc size 0x8 virtual false final false
   inline bool Matches(::UnityEngine::InputSystem::InputBinding binding);
 
-  /// @brief Method Matches addr 0x2a55c1c size 0x108 virtual false final false
+  /// @brief Method Matches addr 0x28d5ed4 size 0x108 virtual false final false
   inline bool Matches(ByRef<::UnityEngine::InputSystem::InputBinding> binding, ::UnityEngine::InputSystem::__InputBinding__MatchOptions options);
 
   // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
@@ -519,6 +525,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputBinding, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputBinding, m_Name) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputBinding, m_Id) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputBinding, m_Path) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputBinding, m_Interactions) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputBinding, m_Processors) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputBinding, m_Groups) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputBinding, m_Action) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputBinding, m_Flags) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputBinding, m_OverridePath) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputBinding, m_OverrideInteractions) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputBinding, m_OverrideProcessors) == 0x50, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::__InputBinding__DisplayStringOptions, "UnityEngine.InputSystem", "InputBinding/DisplayStringOptions");

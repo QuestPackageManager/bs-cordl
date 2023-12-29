@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomFogEnvironment);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14449))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14668))
 // CS Name: ::BloomFogEnvironment*
 class CORDL_TYPE BloomFogEnvironment : public ::UnityEngine::MonoBehaviour {
 public:
@@ -31,8 +31,6 @@ public:
 
   /// @brief Field _fogParams, offset 0x20, size 0x8
   __declspec(property(get = __get__fogParams, put = __set__fogParams))::GlobalNamespace::BloomFogEnvironmentParams* _fogParams;
-
-  __declspec(property(get = get_fogParams))::GlobalNamespace::BloomFogEnvironmentParams* fogParams;
 
   constexpr ::GlobalNamespace::BloomFogSO*& __get__bloomFog();
 
@@ -46,18 +44,15 @@ public:
 
   constexpr void __set__fogParams(::GlobalNamespace::BloomFogEnvironmentParams* value);
 
-  /// @brief Method get_fogParams addr 0x2101e74 size 0x8 virtual false final false
-  inline ::GlobalNamespace::BloomFogEnvironmentParams* get_fogParams();
-
-  /// @brief Method OnEnable addr 0x2101e7c size 0x40 virtual false final false
+  /// @brief Method OnEnable addr 0x1faced4 size 0x40 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate addr 0x2101edc size 0x60 virtual false final false
+  /// @brief Method OnValidate addr 0x1facf34 size 0x48 virtual false final false
   inline void OnValidate();
 
   static inline ::GlobalNamespace::BloomFogEnvironment* New_ctor();
 
-  /// @brief Method .ctor addr 0x210215c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fad18c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomFogEnvironment", modifiers: "&&", def_value: None }]
@@ -84,6 +79,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomFogEnvironment, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomFogEnvironment, ____bloomFog) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomFogEnvironment, ____fogParams) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomFogEnvironment);

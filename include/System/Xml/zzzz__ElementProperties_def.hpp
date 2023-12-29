@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::ElementProperties);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11437))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11365))
 // CS Name: ::System.Xml::ElementProperties
 struct CORDL_TYPE ElementProperties {
 public:
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::ElementProperties, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::ElementProperties, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::ElementProperties, "System.Xml", "ElementProperties");

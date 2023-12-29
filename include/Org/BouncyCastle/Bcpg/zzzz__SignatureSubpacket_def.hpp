@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::SignatureSubpacket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(591))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(591))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(531))
 // CS Name: ::Org.BouncyCastle.Bcpg::SignatureSubpacket*
 class CORDL_TYPE SignatureSubpacket : public ::System::Object {
@@ -70,22 +70,22 @@ public:
   static inline ::Org::BouncyCastle::Bcpg::SignatureSubpacket* New_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength,
                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0x11c71fc size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x1155fac size 0x48 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_SubpacketType addr 0x11c7244 size 0x8 virtual false final false
+  /// @brief Method get_SubpacketType addr 0x1155ff4 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag get_SubpacketType();
 
-  /// @brief Method IsCritical addr 0x11c724c size 0x8 virtual false final false
+  /// @brief Method IsCritical addr 0x1155ffc size 0x8 virtual false final false
   inline bool IsCritical();
 
-  /// @brief Method IsLongLength addr 0x11c7254 size 0x8 virtual false final false
+  /// @brief Method IsLongLength addr 0x1156004 size 0x8 virtual false final false
   inline bool IsLongLength();
 
-  /// @brief Method GetData addr 0x11c725c size 0x78 virtual false final false
+  /// @brief Method GetData addr 0x115600c size 0x78 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetData();
 
-  /// @brief Method Encode addr 0x11c72d4 size 0x144 virtual false final false
+  /// @brief Method Encode addr 0x1156084 size 0x144 virtual false final false
   inline void Encode(::System::IO::Stream* os);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignatureSubpacket", modifiers: "&&", def_value: None }]
@@ -118,6 +118,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::SignatureSubpacket, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::SignatureSubpacket, ___type) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::SignatureSubpacket, ___critical) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::SignatureSubpacket, ___isLongLength) == 0x15, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::SignatureSubpacket, ___data) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::SignatureSubpacket);

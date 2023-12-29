@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::SdkAccountList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13430)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1183 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13478))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13479)) CS Name: ::Oculus.Platform.Models::SdkAccountList*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13538)), TypeDefinitionIndex(TypeDefinitionIndex(13476)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13476), inst:
+// 1161 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13539)) CS Name: ::Oculus.Platform.Models::SdkAccountList*
 class CORDL_TYPE SdkAccountList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::SdkAccount*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::Models::SdkAccountList* New_ctor(void* a);
 
-  /// @brief Method .ctor addr 0x2708bd4 size 0x23c virtual false final false
+  /// @brief Method .ctor addr 0x25b7968 size 0x23c virtual false final false
   inline void _ctor(void* a);
 
   // Ctor Parameters [CppParam { name: "", ty: "SdkAccountList", modifiers: "&&", def_value: None }]

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CADObjRef);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3153))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3152))
 // CS Name: ::System.Runtime.Remoting.Messaging::CADObjRef*
 class CORDL_TYPE CADObjRef : public ::System::Object {
 public:
@@ -54,7 +54,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::CADObjRef* New_ctor(::System::Runtime::Remoting::ObjRef* o, int32_t sourceDomain);
 
-  /// @brief Method .ctor addr 0x24a7be0 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x234f0ec size 0x48 virtual false final false
   inline void _ctor(::System::Runtime::Remoting::ObjRef* o, int32_t sourceDomain);
 
   // Ctor Parameters [CppParam { name: "", ty: "CADObjRef", modifiers: "&&", def_value: None }]
@@ -84,6 +84,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::CADObjRef, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADObjRef, ___objref) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADObjRef, ___SourceDomain) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADObjRef, ___TypeInfo) == 0x20, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CADObjRef);

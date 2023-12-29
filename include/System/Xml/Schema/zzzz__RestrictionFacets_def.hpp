@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::RestrictionFacets);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11618)), TypeDefinitionIndex(TypeDefinitionIndex(11617)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11619))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(11545)), TypeDefinitionIndex(TypeDefinitionIndex(11546))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11547))
 // CS Name: ::System.Xml.Schema::RestrictionFacets*
 class CORDL_TYPE RestrictionFacets : public ::System::Object {
 public:
@@ -203,6 +203,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::RestrictionFacets, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___Length) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___MinLength) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___MaxLength) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___Patterns) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___Enumeration) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___WhiteSpace) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___MaxInclusive) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___MaxExclusive) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___MinInclusive) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___MinExclusive) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___TotalDigits) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___FractionDigits) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::RestrictionFacets, ___Flags) == 0x60, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::RestrictionFacets);

@@ -6,37 +6,37 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLocalActivePlayerInGameMenuController)
 namespace GlobalNamespace {
+class IMenuButtonTrigger;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class SaberManager;
+}
+namespace GlobalNamespace {
+struct __MultiplayerController__State;
+}
+namespace GlobalNamespace {
+class __MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
 class IGamePause;
 }
 namespace GlobalNamespace {
 class MultiplayerLocalActivePlayerInGameMenuViewController;
 }
 namespace GlobalNamespace {
-class IMenuButtonTrigger;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace GlobalNamespace {
-class SaberManager;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-struct __MultiplayerController__State;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-class __MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0;
-}
-namespace GlobalNamespace {
 class MultiplayerController;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,8 +52,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerLocalActivePlayerInGameMenuContro
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5056))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5161))
 // CS Name: ::MultiplayerLocalActivePlayerInGameMenuController::<>c__DisplayClass19_0*
 class CORDL_TYPE __MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0 : public ::System::Object {
 public:
@@ -69,10 +69,10 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x23c4bd0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20e2d50 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <get_canShowInGameMenu>b__0 addr 0x23c5ae0 size 0x10 virtual false final false
+  /// @brief Method <get_canShowInGameMenu>b__0 addr 0x20e3c60 size 0x10 virtual false final false
   inline void _get_canShowInGameMenu_b__0(bool newValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0", modifiers: "&&", def_value: None }]
@@ -97,13 +97,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0, ___value) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MultiplayerLocalActivePlayerInGameMenuController
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5057))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5162))
 // CS Name: ::MultiplayerLocalActivePlayerInGameMenuController*
 class CORDL_TYPE MultiplayerLocalActivePlayerInGameMenuController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -213,66 +215,66 @@ public:
 
   constexpr void __set__gameMenuIsShown(bool value);
 
-  /// @brief Method add_didGiveUpEvent addr 0x23c470c size 0x9c virtual false final false
+  /// @brief Method add_didGiveUpEvent addr 0x20e288c size 0x9c virtual false final false
   inline void add_didGiveUpEvent(::System::Action* value);
 
-  /// @brief Method remove_didGiveUpEvent addr 0x23c47a8 size 0x9c virtual false final false
+  /// @brief Method remove_didGiveUpEvent addr 0x20e2928 size 0x9c virtual false final false
   inline void remove_didGiveUpEvent(::System::Action* value);
 
-  /// @brief Method add_canShowInGameMenuEvent addr 0x23c4844 size 0xb0 virtual false final false
+  /// @brief Method add_canShowInGameMenuEvent addr 0x20e29c4 size 0xb0 virtual false final false
   inline void add_canShowInGameMenuEvent(::System::Action_1<::System::Action_1<bool>*>* value);
 
-  /// @brief Method remove_canShowInGameMenuEvent addr 0x23c48f4 size 0xb0 virtual false final false
+  /// @brief Method remove_canShowInGameMenuEvent addr 0x20e2a74 size 0xb0 virtual false final false
   inline void remove_canShowInGameMenuEvent(::System::Action_1<::System::Action_1<bool>*>* value);
 
-  /// @brief Method add_requestsDisconnectEvent addr 0x23c49a4 size 0x9c virtual false final false
+  /// @brief Method add_requestsDisconnectEvent addr 0x20e2b24 size 0x9c virtual false final false
   inline void add_requestsDisconnectEvent(::System::Action* value);
 
-  /// @brief Method remove_requestsDisconnectEvent addr 0x23c4a40 size 0x9c virtual false final false
+  /// @brief Method remove_requestsDisconnectEvent addr 0x20e2bc0 size 0x9c virtual false final false
   inline void remove_requestsDisconnectEvent(::System::Action* value);
 
-  /// @brief Method get_gameMenuIsShown addr 0x23c4adc size 0x8 virtual false final false
+  /// @brief Method get_gameMenuIsShown addr 0x20e2c5c size 0x8 virtual false final false
   inline bool get_gameMenuIsShown();
 
-  /// @brief Method get_canShowInGameMenu addr 0x23c4ae4 size 0xec virtual false final false
+  /// @brief Method get_canShowInGameMenu addr 0x20e2c64 size 0xec virtual false final false
   inline bool get_canShowInGameMenu();
 
-  /// @brief Method Start addr 0x23c4bd8 size 0x2e0 virtual false final false
+  /// @brief Method Start addr 0x20e2d58 size 0x2e0 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x23c51dc size 0x354 virtual false final false
+  /// @brief Method OnDestroy addr 0x20e335c size 0x354 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method OnApplicationPause addr 0x23c5704 size 0xc virtual false final false
+  /// @brief Method OnApplicationPause addr 0x20e3884 size 0xc virtual false final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method ShowInGameMenu addr 0x23c5710 size 0x100 virtual false final false
+  /// @brief Method ShowInGameMenu addr 0x20e3890 size 0x100 virtual false final false
   inline void ShowInGameMenu();
 
-  /// @brief Method HideInGameMenu addr 0x23c4eb8 size 0x150 virtual false final false
+  /// @brief Method HideInGameMenu addr 0x20e3038 size 0x150 virtual false final false
   inline void HideInGameMenu();
 
-  /// @brief Method HandleMenuButtonTriggered addr 0x23c58a4 size 0x4 virtual false final false
+  /// @brief Method HandleMenuButtonTriggered addr 0x20e3a24 size 0x4 virtual false final false
   inline void HandleMenuButtonTriggered();
 
-  /// @brief Method HandleInputFocusWasCaptured addr 0x23c58a8 size 0x4 virtual false final false
+  /// @brief Method HandleInputFocusWasCaptured addr 0x20e3a28 size 0x4 virtual false final false
   inline void HandleInputFocusWasCaptured();
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressResumeButton addr 0x23c58ac size 0x4 virtual false final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressResumeButton addr 0x20e3a2c size 0x4 virtual false final false
   inline void HandleInGameMenuViewControllerDidPressResumeButton();
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressGiveUpButton addr 0x23c58b0 size 0x3c virtual false final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressGiveUpButton addr 0x20e3a30 size 0x3c virtual false final false
   inline void HandleInGameMenuViewControllerDidPressGiveUpButton();
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressDisconnectButton addr 0x23c58ec size 0x1c virtual false final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressDisconnectButton addr 0x20e3a6c size 0x1c virtual false final false
   inline void HandleInGameMenuViewControllerDidPressDisconnectButton();
 
-  /// @brief Method HandleStateChanged addr 0x23c5908 size 0x1d0 virtual false final false
+  /// @brief Method HandleStateChanged addr 0x20e3a88 size 0x1d0 virtual false final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController* New_ctor();
 
-  /// @brief Method .ctor addr 0x23c5ad8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20e3c58 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerInGameMenuController", modifiers: "&&", def_value: None }]
@@ -326,6 +328,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____inGameMenuViewController) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____menuButtonTrigger) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____vrPlatformHelper) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____gamePause) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____multiplayerController) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____saberManager) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____beatmapObjectManager) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ___didGiveUpEvent) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ___canShowInGameMenuEvent) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ___requestsDisconnectEvent) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____gameMenuIsShown) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController);

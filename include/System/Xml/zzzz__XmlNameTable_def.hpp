@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Xml::XmlNameTable);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11568))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11496))
 // CS Name: ::System.Xml::XmlNameTable*
 class CORDL_TYPE XmlNameTable : public ::System::Object {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::System::Xml::XmlNameTable* New_ctor();
 
-  /// @brief Method .ctor addr 0x28a7d4c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x272ad28 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlNameTable", modifiers: "&&", def_value: None }]

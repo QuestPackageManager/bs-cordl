@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionLevelDetailViewController)
-namespace UnityEngine::UI {
-class Button;
-}
 namespace GlobalNamespace {
-class __MissionLevelDetailViewController____c__DisplayClass14_0;
-}
-namespace GlobalNamespace {
-class ObjectiveListItemsList;
-}
-namespace GlobalNamespace {
-class GameplayModifierInfoListItemsList;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class MissionNode;
+class LevelBar;
 }
 namespace GlobalNamespace {
 class GameplayModifiersModelSO;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class LevelBar;
+class ObjectiveListItemsList;
 }
 namespace GlobalNamespace {
-class MissionObjective;
+class __MissionLevelDetailViewController____c__DisplayClass14_0;
+}
+namespace GlobalNamespace {
+class GameplayModifierInfoListItemsList;
+}
+namespace GlobalNamespace {
+class MissionNode;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class MissionObjective;
 }
 namespace GlobalNamespace {
 class ObjectiveListItem;
@@ -63,8 +63,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionLevelDetailViewController____c__Displ
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5696))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5795))
 // CS Name: ::MissionLevelDetailViewController::<>c__DisplayClass14_0*
 class CORDL_TYPE __MissionLevelDetailViewController____c__DisplayClass14_0 : public ::System::Object {
 public:
@@ -89,13 +89,13 @@ public:
 
   static inline ::GlobalNamespace::__MissionLevelDetailViewController____c__DisplayClass14_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x22ca080 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2187684 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <RefreshContent>b__0 addr 0x22ca0b0 size 0x1f0 virtual false final false
+  /// @brief Method <RefreshContent>b__0 addr 0x21876b4 size 0x1f0 virtual false final false
   inline void _RefreshContent_b__0(int32_t idx, ::GlobalNamespace::ObjectiveListItem* objectiveListItem);
 
-  /// @brief Method <RefreshContent>b__1 addr 0x22ca2a0 size 0x7c virtual false final false
+  /// @brief Method <RefreshContent>b__1 addr 0x21878a4 size 0x7c virtual false final false
   inline void _RefreshContent_b__1(int32_t idx, ::GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionLevelDetailViewController____c__DisplayClass14_0", modifiers: "&&", def_value: None }]
@@ -123,13 +123,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionLevelDetailViewController____c__DisplayClass14_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MissionLevelDetailViewController____c__DisplayClass14_0, ___missionObjectives) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionLevelDetailViewController____c__DisplayClass14_0, ___modifierParamsList) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MissionLevelDetailViewController
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5697))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5796))
 // CS Name: ::MissionLevelDetailViewController*
 class CORDL_TYPE MissionLevelDetailViewController : public ::HMUI::ViewController {
 public:
@@ -211,30 +215,30 @@ public:
 
   constexpr void __set__missionNode(::GlobalNamespace::MissionNode* value);
 
-  /// @brief Method add_didPressPlayButtonEvent addr 0x22c9c54 size 0xb0 virtual false final false
+  /// @brief Method add_didPressPlayButtonEvent addr 0x2187258 size 0xb0 virtual false final false
   inline void add_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionLevelDetailViewController*>* value);
 
-  /// @brief Method remove_didPressPlayButtonEvent addr 0x22c9d04 size 0xb0 virtual false final false
+  /// @brief Method remove_didPressPlayButtonEvent addr 0x2187308 size 0xb0 virtual false final false
   inline void remove_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionLevelDetailViewController*>* value);
 
-  /// @brief Method get_missionNode addr 0x22c9db4 size 0x8 virtual false final false
+  /// @brief Method get_missionNode addr 0x21873b8 size 0x8 virtual false final false
   inline ::GlobalNamespace::MissionNode* get_missionNode();
 
-  /// @brief Method Setup addr 0x22c9dbc size 0x2c virtual false final false
+  /// @brief Method Setup addr 0x21873c0 size 0x2c virtual false final false
   inline void Setup(::GlobalNamespace::MissionNode* missionNode);
 
-  /// @brief Method DidActivate addr 0x22c9fd4 size 0xac virtual true final false
+  /// @brief Method DidActivate addr 0x21875d8 size 0xac virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method RefreshContent addr 0x22c9de8 size 0x1ec virtual false final false
+  /// @brief Method RefreshContent addr 0x21873ec size 0x1ec virtual false final false
   inline void RefreshContent();
 
-  /// @brief Method PlayButtonPressed addr 0x22ca088 size 0x20 virtual false final false
+  /// @brief Method PlayButtonPressed addr 0x218768c size 0x20 virtual false final false
   inline void PlayButtonPressed();
 
   static inline ::GlobalNamespace::MissionLevelDetailViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22ca0a8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21876ac size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelDetailViewController", modifiers: "&&", def_value: None }]
@@ -279,6 +283,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelDetailViewController, 0xb0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelDetailViewController, ____gameplayModifiersModel) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelDetailViewController, ____playButton) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelDetailViewController, ____levelBar) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelDetailViewController, ____objectiveListItems) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelDetailViewController, ____gameplayModifierInfoListItemsList) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelDetailViewController, ____modifiersPanelGO) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelDetailViewController, ___didPressPlayButtonEvent) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelDetailViewController, ____missionNode) == 0xa8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionLevelDetailViewController);

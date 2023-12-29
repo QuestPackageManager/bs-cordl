@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(MonoMemoryPool_2)
 namespace UnityEngine {
 class Transform;
 }
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace System {
 class Object;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -26,8 +26,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11039), inst: 3482 }), TypeDefinitionIndex(TypeDefinitionIndex(11039))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11051))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10967), inst: 3408 }), TypeDefinitionIndex(TypeDefinitionIndex(10967))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10979))
 // CS Name: ::Zenject::MonoMemoryPool`2<TParam1,TValue>*
 class CORDL_TYPE MonoMemoryPool_2 : public ::Zenject::MemoryPool_2<TParam1, TValue> {
 public:

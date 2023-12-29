@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SceneProviderExtensions)
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
-}
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class ISceneProvider;
+struct SceneInstance;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::SceneManagement {
 struct UnloadSceneOptions;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class ISceneProvider;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -29,13 +29,13 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::SceneProvid
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14007))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14278))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::SceneProviderExtensions*
 class CORDL_TYPE SceneProviderExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReleaseScene addr 0x2bd753c size 0x1f8 virtual false final false
+  /// @brief Method ReleaseScene addr 0x2a547e8 size 0x1f8 virtual false final false
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   ReleaseScene(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* provider, ::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
                ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle,

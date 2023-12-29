@@ -3,20 +3,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMockBeatmapDataProvider)
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class MockBeatmapData;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-class MockBeatmapData;
+namespace System {
+class IDisposable;
 }
 namespace GlobalNamespace {
 class BeatmapIdentifierNetSerializable;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMockBeatmapDataProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15507))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15491))
 // CS Name: ::IMockBeatmapDataProvider*
 class CORDL_TYPE IMockBeatmapDataProvider {
 public:

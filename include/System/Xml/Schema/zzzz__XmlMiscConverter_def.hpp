@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlMiscConverter)
 namespace System::Xml::Schema {
+class XmlSchemaType;
+}
+namespace System::Xml::Schema {
 class XmlValueConverter;
 }
 namespace System {
 class Object;
 }
-namespace System::Xml::Schema {
-class XmlSchemaType;
+namespace System {
+class Type;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -30,33 +30,33 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlMiscConverter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11748))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11753))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11676))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11681))
 // CS Name: ::System.Xml.Schema::XmlMiscConverter*
 class CORDL_TYPE XmlMiscConverter : public ::System::Xml::Schema::XmlBaseConverter {
 public:
   // Declarations
   static inline ::System::Xml::Schema::XmlMiscConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method .ctor addr 0x28d8d2c size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x275ad08 size 0x68 virtual false final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method Create addr 0x28d8d94 size 0x60 virtual false final false
+  /// @brief Method Create addr 0x275ad70 size 0x60 virtual false final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method ToString addr 0x28d8df4 size 0x54c virtual true final false
+  /// @brief Method ToString addr 0x275add0 size 0x54c virtual true final false
   inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType addr 0x28d947c size 0x514 virtual true final false
+  /// @brief Method ChangeType addr 0x275b458 size 0x514 virtual true final false
   inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType addr 0x28d9af4 size 0xd04 virtual true final false
+  /// @brief Method ChangeType addr 0x275bad0 size 0xd04 virtual true final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeTypeWildcardDestination addr 0x28d9340 size 0x13c virtual false final false
+  /// @brief Method ChangeTypeWildcardDestination addr 0x275b31c size 0x13c virtual false final false
   inline ::System::Object* ChangeTypeWildcardDestination(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeTypeWildcardSource addr 0x28d9990 size 0x164 virtual false final false
+  /// @brief Method ChangeTypeWildcardSource addr 0x275b96c size 0x164 virtual false final false
   inline ::System::Object* ChangeTypeWildcardSource(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlMiscConverter", modifiers: "&&", def_value: None }]

@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataItem)
-namespace System {
-template <typename T> class IComparable_1;
-}
 namespace GlobalNamespace {
 struct __BeatmapDataItem__BeatmapDataItemType;
+}
+namespace System {
+template <typename T> class IComparable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataItem);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14715))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14932))
 // CS Name: ::BeatmapDataItem::BeatmapDataItemType
 struct CORDL_TYPE __BeatmapDataItem__BeatmapDataItemType {
 public:
@@ -71,13 +71,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BeatmapDataItem
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14715))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14716))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14932)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14933))
 // CS Name: ::BeatmapDataItem*
 class CORDL_TYPE BeatmapDataItem : public ::System::Object {
 public:
@@ -129,24 +131,24 @@ public:
 
   constexpr void __set_type(::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType value);
 
-  /// @brief Method get_time addr 0xdfd538 size 0x8 virtual false final false
+  /// @brief Method get_time addr 0xd97f90 size 0x8 virtual false final false
   inline float_t get_time();
 
-  /// @brief Method get_executionOrder addr 0xdfd540 size 0x8 virtual false final false
+  /// @brief Method get_executionOrder addr 0xd97f98 size 0x8 virtual false final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method get_subtypeGroupIdentifier addr 0xdfd548 size 0x8 virtual true final false
+  /// @brief Method get_subtypeGroupIdentifier addr 0xd97fa0 size 0x8 virtual true final false
   inline int32_t get_subtypeGroupIdentifier();
 
   static inline ::GlobalNamespace::BeatmapDataItem* New_ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier, ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType type);
 
-  /// @brief Method .ctor addr 0xdfd550 size 0x4c virtual false final false
+  /// @brief Method .ctor addr 0xd97fa8 size 0x4c virtual false final false
   inline void _ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier, ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType type);
 
   /// @brief Method GetCopy addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method CompareTo addr 0xdfd59c size 0x4c virtual true final true
+  /// @brief Method CompareTo addr 0xd97ff4 size 0x4c virtual true final true
   inline int32_t CompareTo(::GlobalNamespace::BeatmapDataItem* b);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataItem", modifiers: "&&", def_value: None }]
@@ -179,6 +181,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDataItem, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDataItem, ____time_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDataItem, ____executionOrder_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDataItem, ___subtypeIdentifier) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDataItem, ___type) == 0x1c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType, "", "BeatmapDataItem/BeatmapDataItemType");

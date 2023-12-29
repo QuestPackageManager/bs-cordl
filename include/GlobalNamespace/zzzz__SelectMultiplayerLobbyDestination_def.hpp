@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectMultiplayerLobbyDestination);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4157))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4187))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4192))
 // CS Name: ::SelectMultiplayerLobbyDestination*
 class CORDL_TYPE SelectMultiplayerLobbyDestination : public ::GlobalNamespace::MenuDestination {
 public:
@@ -42,17 +42,17 @@ public:
 
   static inline ::GlobalNamespace::SelectMultiplayerLobbyDestination* New_ctor(::StringW lobbySecret, ::StringW lobbyCode);
 
-  /// @brief Method .ctor addr 0x223cfa8 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x21cec04 size 0x2c virtual false final false
   inline void _ctor(::StringW lobbySecret, ::StringW lobbyCode);
 
   static inline ::GlobalNamespace::SelectMultiplayerLobbyDestination* New_ctor(uint64_t roomId);
 
-  /// @brief Method .ctor addr 0x223cfd4 size 0xd4 virtual false final false
+  /// @brief Method .ctor addr 0x21cec30 size 0xd4 virtual false final false
   inline void _ctor(uint64_t roomId);
 
   static inline ::GlobalNamespace::SelectMultiplayerLobbyDestination* New_ctor(::StringW lobbyCode);
 
-  /// @brief Method .ctor addr 0x223dd28 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x21cfa5c size 0x28 virtual false final false
   inline void _ctor(::StringW lobbyCode);
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectMultiplayerLobbyDestination", modifiers: "&&", def_value: None }]
@@ -79,6 +79,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectMultiplayerLobbyDestination, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SelectMultiplayerLobbyDestination, ___lobbySecret) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SelectMultiplayerLobbyDestination, ___lobbyCode) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SelectMultiplayerLobbyDestination);

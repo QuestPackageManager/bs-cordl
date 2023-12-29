@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Notepad::NoteSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Notepad {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16280))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16101))
 // CS Name: ::Notepad::NoteSO*
 class CORDL_TYPE NoteSO : public ::UnityEngine::ScriptableObject {
 public:
@@ -54,7 +54,7 @@ public:
 
   static inline ::Notepad::NoteSO* New_ctor();
 
-  /// @brief Method .ctor addr 0xe2648c size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x256649c size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteSO", modifiers: "&&", def_value: None }]
@@ -84,6 +84,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Notepad::NoteSO, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Notepad::NoteSO, ___title) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Notepad::NoteSO, ___content) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Notepad::NoteSO, ___urls) == 0x28, "Offset mismatch!");
 
 } // namespace Notepad
 NEED_NO_BOX(::Notepad::NoteSO);

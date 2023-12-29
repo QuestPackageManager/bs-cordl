@@ -4,14 +4,17 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(INetEventListener)
-namespace System::Net::Sockets {
-struct SocketError;
-}
 namespace LiteNetLib {
 struct DeliveryMethod;
 }
 namespace LiteNetLib {
-class ConnectionRequest;
+class NetPacketReader;
+}
+namespace LiteNetLib {
+struct UnconnectedMessageType;
+}
+namespace System::Net::Sockets {
+struct SocketError;
 }
 namespace LiteNetLib {
 struct DisconnectInfo;
@@ -23,10 +26,7 @@ namespace LiteNetLib {
 class NetPeer;
 }
 namespace LiteNetLib {
-class NetPacketReader;
-}
-namespace LiteNetLib {
-struct UnconnectedMessageType;
+class ConnectionRequest;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::LiteNetLib::INetEventListener);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14133))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14471))
 // CS Name: ::LiteNetLib::INetEventListener*
 class CORDL_TYPE INetEventListener {
 public:

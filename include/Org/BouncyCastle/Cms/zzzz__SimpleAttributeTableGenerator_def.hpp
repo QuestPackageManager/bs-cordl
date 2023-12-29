@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SimpleAttributeTableGenerator)
-namespace Org::BouncyCastle::Cms {
-class CmsAttributeTableGenerator;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class AttributeTable;
 }
 namespace System::Collections {
 class IDictionary;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsAttributeTableGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(693))
 // CS Name: ::Org.BouncyCastle.Cms::SimpleAttributeTableGenerator*
 class CORDL_TYPE SimpleAttributeTableGenerator : public ::System::Object {
@@ -43,10 +43,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributes);
 
-  /// @brief Method .ctor addr 0x120dd54 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x119cb04 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributes);
 
-  /// @brief Method GetAttributes addr 0x120dd7c size 0x8 virtual true final false
+  /// @brief Method GetAttributes addr 0x119cb2c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary* parameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleAttributeTableGenerator", modifiers: "&&", def_value: None }]
@@ -70,6 +70,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator, ___attributes) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator);

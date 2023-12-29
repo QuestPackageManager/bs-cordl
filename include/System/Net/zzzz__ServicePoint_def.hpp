@@ -8,8 +8,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ServicePoint)
+namespace System {
+class Uri;
+}
+namespace System::Net {
+class __ServicePointManager__SPKey;
+}
 namespace System::Net {
 class IPHostEntry;
+}
+namespace System::Net::Sockets {
+class Socket;
+}
+namespace System::Net {
+class WebOperation;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
 }
 namespace System::Net {
 class IPEndPoint;
@@ -17,29 +32,14 @@ class IPEndPoint;
 namespace System {
 class Version;
 }
-namespace System::Net {
-class BindIPEndPoint;
-}
-namespace System {
-class Uri;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
 namespace System {
 class Object;
-}
-namespace System::Net {
-class WebOperation;
 }
 namespace System::Net {
 class ServicePointScheduler;
 }
 namespace System::Net {
-class __ServicePointManager__SPKey;
-}
-namespace System::Net::Sockets {
-class Socket;
+class BindIPEndPoint;
 }
 // Forward declare root types
 namespace System::Net {
@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::System::Net::ServicePoint);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9200))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8037))
 // CS Name: ::System.Net::ServicePoint*
 class CORDL_TYPE ServicePoint : public ::System::Object {
 public:
@@ -281,88 +281,88 @@ public:
 
   static inline ::System::Net::ServicePoint* New_ctor(::System::Net::__ServicePointManager__SPKey* key, ::System::Uri* uri, int32_t connectionLimit, int32_t maxIdleTime);
 
-  /// @brief Method .ctor addr 0x29d7258 size 0xe0 virtual false final false
+  /// @brief Method .ctor addr 0x285a9d0 size 0xe0 virtual false final false
   inline void _ctor(::System::Net::__ServicePointManager__SPKey* key, ::System::Uri* uri, int32_t connectionLimit, int32_t maxIdleTime);
 
-  /// @brief Method get_Key addr 0x29d7510 size 0x8 virtual false final false
+  /// @brief Method get_Key addr 0x285ac88 size 0x8 virtual false final false
   inline ::System::Net::__ServicePointManager__SPKey* get_Key();
 
-  /// @brief Method get_Scheduler addr 0x29d7518 size 0x8 virtual false final false
+  /// @brief Method get_Scheduler addr 0x285ac90 size 0x8 virtual false final false
   inline ::System::Net::ServicePointScheduler* get_Scheduler();
 
-  /// @brief Method set_Scheduler addr 0x29d7520 size 0x8 virtual false final false
+  /// @brief Method set_Scheduler addr 0x285ac98 size 0x8 virtual false final false
   inline void set_Scheduler(::System::Net::ServicePointScheduler* value);
 
-  /// @brief Method get_Address addr 0x29d7528 size 0x8 virtual false final false
+  /// @brief Method get_Address addr 0x285aca0 size 0x8 virtual false final false
   inline ::System::Uri* get_Address();
 
-  /// @brief Method get_ConnectionLimit addr 0x29d7530 size 0x8 virtual false final false
+  /// @brief Method get_ConnectionLimit addr 0x285aca8 size 0x8 virtual false final false
   inline int32_t get_ConnectionLimit();
 
-  /// @brief Method get_ProtocolVersion addr 0x29d7538 size 0x8 virtual true final false
+  /// @brief Method get_ProtocolVersion addr 0x285acb0 size 0x8 virtual true final false
   inline ::System::Version* get_ProtocolVersion();
 
-  /// @brief Method set_Expect100Continue addr 0x29d7540 size 0xc virtual false final false
+  /// @brief Method set_Expect100Continue addr 0x285acb8 size 0xc virtual false final false
   inline void set_Expect100Continue(bool value);
 
-  /// @brief Method get_UseNagleAlgorithm addr 0x29d754c size 0x8 virtual false final false
+  /// @brief Method get_UseNagleAlgorithm addr 0x285acc4 size 0x8 virtual false final false
   inline bool get_UseNagleAlgorithm();
 
-  /// @brief Method set_UseNagleAlgorithm addr 0x29d7554 size 0xc virtual false final false
+  /// @brief Method set_UseNagleAlgorithm addr 0x285accc size 0xc virtual false final false
   inline void set_UseNagleAlgorithm(bool value);
 
-  /// @brief Method get_SendContinue addr 0x29d7560 size 0x9c virtual false final false
+  /// @brief Method get_SendContinue addr 0x285acd8 size 0x9c virtual false final false
   inline bool get_SendContinue();
 
-  /// @brief Method set_SendContinue addr 0x29d75fc size 0xc virtual false final false
+  /// @brief Method set_SendContinue addr 0x285ad74 size 0xc virtual false final false
   inline void set_SendContinue(bool value);
 
-  /// @brief Method SetTcpKeepAlive addr 0x29d7608 size 0xb8 virtual false final false
+  /// @brief Method SetTcpKeepAlive addr 0x285ad80 size 0xb8 virtual false final false
   inline void SetTcpKeepAlive(bool enabled, int32_t keepAliveTime, int32_t keepAliveInterval);
 
-  /// @brief Method KeepAliveSetup addr 0x29d76c0 size 0xb4 virtual false final false
+  /// @brief Method KeepAliveSetup addr 0x285ae38 size 0xb4 virtual false final false
   inline void KeepAliveSetup(::System::Net::Sockets::Socket* socket);
 
-  /// @brief Method PutBytes addr 0x29d7774 size 0x144 virtual false final false
+  /// @brief Method PutBytes addr 0x285aeec size 0x144 virtual false final false
   static inline void PutBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, uint32_t v, int32_t offset);
 
-  /// @brief Method get_UsesProxy addr 0x29d78b8 size 0x8 virtual false final false
+  /// @brief Method get_UsesProxy addr 0x285b030 size 0x8 virtual false final false
   inline bool get_UsesProxy();
 
-  /// @brief Method set_UsesProxy addr 0x29d78c0 size 0xc virtual false final false
+  /// @brief Method set_UsesProxy addr 0x285b038 size 0xc virtual false final false
   inline void set_UsesProxy(bool value);
 
-  /// @brief Method get_UseConnect addr 0x29d78cc size 0x8 virtual false final false
+  /// @brief Method get_UseConnect addr 0x285b044 size 0x8 virtual false final false
   inline bool get_UseConnect();
 
-  /// @brief Method set_UseConnect addr 0x29d78d4 size 0xc virtual false final false
+  /// @brief Method set_UseConnect addr 0x285b04c size 0xc virtual false final false
   inline void set_UseConnect(bool value);
 
-  /// @brief Method get_HasTimedOut addr 0x29d78e0 size 0x12c virtual false final false
+  /// @brief Method get_HasTimedOut addr 0x285b058 size 0x12c virtual false final false
   inline bool get_HasTimedOut();
 
-  /// @brief Method get_HostEntry addr 0x29d7a0c size 0x388 virtual false final false
+  /// @brief Method get_HostEntry addr 0x285b184 size 0x388 virtual false final false
   inline ::System::Net::IPHostEntry* get_HostEntry();
 
-  /// @brief Method SetVersion addr 0x29d7d94 size 0x8 virtual false final false
+  /// @brief Method SetVersion addr 0x285b50c size 0x8 virtual false final false
   inline void SetVersion(::System::Version* version);
 
-  /// @brief Method SendRequest addr 0x29d7d9c size 0x17c virtual false final false
+  /// @brief Method SendRequest addr 0x285b514 size 0x17c virtual false final false
   inline void SendRequest(::System::Net::WebOperation* operation, ::StringW groupName);
 
-  /// @brief Method CloseConnectionGroup addr 0x29d8000 size 0xec virtual false final false
+  /// @brief Method CloseConnectionGroup addr 0x285b778 size 0xec virtual false final false
   inline bool CloseConnectionGroup(::StringW connectionGroupName);
 
-  /// @brief Method FreeServicePoint addr 0x29d81fc size 0x10 virtual false final false
+  /// @brief Method FreeServicePoint addr 0x285b974 size 0x10 virtual false final false
   inline void FreeServicePoint();
 
-  /// @brief Method UpdateServerCertificate addr 0x29d820c size 0x34 virtual false final false
+  /// @brief Method UpdateServerCertificate addr 0x285b984 size 0x38 virtual false final false
   inline void UpdateServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* certificate);
 
-  /// @brief Method UpdateClientCertificate addr 0x29d8240 size 0x34 virtual false final false
+  /// @brief Method UpdateClientCertificate addr 0x285b9bc size 0x38 virtual false final false
   inline void UpdateClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* certificate);
 
-  /// @brief Method CallEndPointDelegate addr 0x29d8274 size 0x1a4 virtual false final false
+  /// @brief Method CallEndPointDelegate addr 0x285b9f4 size 0x1a4 virtual false final false
   inline bool CallEndPointDelegate(::System::Net::Sockets::Socket* sock, ::System::Net::IPEndPoint* remote);
 
   // Ctor Parameters [CppParam { name: "", ty: "ServicePoint", modifiers: "&&", def_value: None }]
@@ -449,6 +449,50 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::ServicePoint, 0x90>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___uri) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___lastDnsResolve) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___protocolVersion) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___host) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___usesProxy) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___sendContinue) == 0x31, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___useConnect) == 0x32, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___hostE) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___useNagle) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___endPointCallback) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___tcp_keepalive) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___tcp_keepalive_time) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___tcp_keepalive_interval) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___disposed) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___connectionLeaseTimeout) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___receiveBufferSize) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ____Key_k__BackingField) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ____Scheduler_k__BackingField) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___connectionLimit) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___maxIdleTime) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___m_ServerCertificateOrBytes) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ServicePoint, ___m_ClientCertificateOrBytes) == 0x88, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::ServicePoint);

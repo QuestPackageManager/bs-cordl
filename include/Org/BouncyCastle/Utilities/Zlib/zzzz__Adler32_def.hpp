@@ -16,18 +16,18 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::Adler32);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1817))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::Adler32*
 class CORDL_TYPE Adler32 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method adler32 addr 0x1160b14 size 0x32c virtual false final false
+  /// @brief Method adler32 addr 0x10ef8cc size 0x32c virtual false final false
   inline int64_t adler32(int64_t adler, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t index, int32_t len);
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::Adler32* New_ctor();
 
-  /// @brief Method .ctor addr 0x1160e40 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x10efbf8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Adler32", modifiers: "&&", def_value: None }]

@@ -23,8 +23,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::Eyes);
 // SizeInfo { instance_size: 76, native_size: 76, calculated_instance_size: 76, calculated_native_size: 92, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6338))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6424))
 // CS Name: ::UnityEngine.InputSystem.XR::Eyes
 struct CORDL_TYPE Eyes {
 public:
@@ -43,46 +43,46 @@ public:
 
   __declspec(property(get = get_rightEyeOpenAmount, put = set_rightEyeOpenAmount)) float_t rightEyeOpenAmount;
 
-  /// @brief Method get_leftEyePosition addr 0x2ac8378 size 0xc virtual false final false
+  /// @brief Method get_leftEyePosition addr 0x2949630 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_leftEyePosition();
 
-  /// @brief Method set_leftEyePosition addr 0x2ac8384 size 0xc virtual false final false
+  /// @brief Method set_leftEyePosition addr 0x294963c size 0xc virtual false final false
   inline void set_leftEyePosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_leftEyeRotation addr 0x2ac8390 size 0xc virtual false final false
+  /// @brief Method get_leftEyeRotation addr 0x2949648 size 0xc virtual false final false
   inline ::UnityEngine::Quaternion get_leftEyeRotation();
 
-  /// @brief Method set_leftEyeRotation addr 0x2ac839c size 0xc virtual false final false
+  /// @brief Method set_leftEyeRotation addr 0x2949654 size 0xc virtual false final false
   inline void set_leftEyeRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method get_rightEyePosition addr 0x2ac83a8 size 0xc virtual false final false
+  /// @brief Method get_rightEyePosition addr 0x2949660 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_rightEyePosition();
 
-  /// @brief Method set_rightEyePosition addr 0x2ac83b4 size 0xc virtual false final false
+  /// @brief Method set_rightEyePosition addr 0x294966c size 0xc virtual false final false
   inline void set_rightEyePosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_rightEyeRotation addr 0x2ac83c0 size 0xc virtual false final false
+  /// @brief Method get_rightEyeRotation addr 0x2949678 size 0xc virtual false final false
   inline ::UnityEngine::Quaternion get_rightEyeRotation();
 
-  /// @brief Method set_rightEyeRotation addr 0x2ac83cc size 0xc virtual false final false
+  /// @brief Method set_rightEyeRotation addr 0x2949684 size 0xc virtual false final false
   inline void set_rightEyeRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method get_fixationPoint addr 0x2ac83d8 size 0xc virtual false final false
+  /// @brief Method get_fixationPoint addr 0x2949690 size 0xc virtual false final false
   inline ::UnityEngine::Vector3 get_fixationPoint();
 
-  /// @brief Method set_fixationPoint addr 0x2ac83e4 size 0xc virtual false final false
+  /// @brief Method set_fixationPoint addr 0x294969c size 0xc virtual false final false
   inline void set_fixationPoint(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_leftEyeOpenAmount addr 0x2ac83f0 size 0x8 virtual false final false
+  /// @brief Method get_leftEyeOpenAmount addr 0x29496a8 size 0x8 virtual false final false
   inline float_t get_leftEyeOpenAmount();
 
-  /// @brief Method set_leftEyeOpenAmount addr 0x2ac83f8 size 0x8 virtual false final false
+  /// @brief Method set_leftEyeOpenAmount addr 0x29496b0 size 0x8 virtual false final false
   inline void set_leftEyeOpenAmount(float_t value);
 
-  /// @brief Method get_rightEyeOpenAmount addr 0x2ac8400 size 0x8 virtual false final false
+  /// @brief Method get_rightEyeOpenAmount addr 0x29496b8 size 0x8 virtual false final false
   inline float_t get_rightEyeOpenAmount();
 
-  /// @brief Method set_rightEyeOpenAmount addr 0x2ac8408 size 0x8 virtual false final false
+  /// @brief Method set_rightEyeOpenAmount addr 0x29496c0 size 0x8 virtual false final false
   inline void set_rightEyeOpenAmount(float_t value);
 
   // Ctor Parameters [CppParam { name: "_leftEyePosition_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_leftEyeRotation_k__BackingField", ty:
@@ -126,6 +126,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::Eyes, 0x4c>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::Eyes, _leftEyePosition_k__BackingField) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::Eyes, _leftEyeRotation_k__BackingField) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::Eyes, _rightEyePosition_k__BackingField) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::Eyes, _rightEyeRotation_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::Eyes, _fixationPoint_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::Eyes, _leftEyeOpenAmount_k__BackingField) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::Eyes, _rightEyeOpenAmount_k__BackingField) == 0x48, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XR::Eyes, "UnityEngine.InputSystem.XR", "Eyes");

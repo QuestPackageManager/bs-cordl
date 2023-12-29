@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::VectorImageRenderInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 413 }), TypeDefinitionIndex(TypeDefinitionIndex(7433)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7399))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7419)) CS Name: ::UnityEngine.UIElements.UIR::VectorImageRenderInfo*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7485)), TypeDefinitionIndex(TypeDefinitionIndex(7519)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7485), inst: 408
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7505)) CS Name: ::UnityEngine.UIElements.UIR::VectorImageRenderInfo*
 class CORDL_TYPE VectorImageRenderInfo : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*> {
 public:
   // Declarations
@@ -51,12 +51,12 @@ public:
 
   constexpr void __set_gradientSettingsAlloc(::UnityEngine::UIElements::UIR::Alloc value);
 
-  /// @brief Method Reset addr 0x2dccea8 size 0x10 virtual false final false
+  /// @brief Method Reset addr 0x2c66af8 size 0x10 virtual false final false
   inline void Reset();
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dcce40 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2c66a90 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VectorImageRenderInfo", modifiers: "&&", def_value: None }]
@@ -86,6 +86,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::VectorImageRenderInfo, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::VectorImageRenderInfo, ___useCount) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::VectorImageRenderInfo, ___firstGradientRemap) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::VectorImageRenderInfo, ___gradientSettingsAlloc) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::VectorImageRenderInfo);

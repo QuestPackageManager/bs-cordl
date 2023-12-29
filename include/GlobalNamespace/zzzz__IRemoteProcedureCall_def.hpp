@@ -2,13 +2,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include <cstdint>
+#include <cmath>
 CORDL_MODULE_EXPORT(IRemoteProcedureCall)
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
 namespace GlobalNamespace {
 class IPoolablePacket;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::GlobalNamespace::IRemoteProcedureCall);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12812))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12730))
 // CS Name: ::IRemoteProcedureCall*
 class CORDL_TYPE IRemoteProcedureCall {
 public:
   // Declarations
-  __declspec(property(get = get_syncTime)) int64_t syncTime;
+  __declspec(property(get = get_syncTime)) float_t syncTime;
 
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
@@ -35,7 +35,7 @@ public:
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
 
   /// @brief Method get_syncTime addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline int64_t get_syncTime();
+  inline float_t get_syncTime();
 
   // Ctor Parameters [CppParam { name: "", ty: "IRemoteProcedureCall", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

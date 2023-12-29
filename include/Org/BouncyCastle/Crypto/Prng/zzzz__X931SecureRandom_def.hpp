@@ -58,22 +58,22 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandom* New_ctor(::Org::BouncyCastle::Security::SecureRandom* randomSource, ::Org::BouncyCastle::Crypto::Prng::X931Rng* drbg,
                                                                               bool predictionResistant);
 
-  /// @brief Method .ctor addr 0xf45d34 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0xecfb48 size 0x80 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* randomSource, ::Org::BouncyCastle::Crypto::Prng::X931Rng* drbg, bool predictionResistant);
 
-  /// @brief Method SetSeed addr 0xf45db4 size 0xb4 virtual true final false
+  /// @brief Method SetSeed addr 0xecfbc8 size 0xb4 virtual true final false
   inline void SetSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method SetSeed addr 0xf45e68 size 0xb4 virtual true final false
+  /// @brief Method SetSeed addr 0xecfc7c size 0xb4 virtual true final false
   inline void SetSeed(int64_t seed);
 
-  /// @brief Method NextBytes addr 0xf45f1c size 0xf0 virtual true final false
+  /// @brief Method NextBytes addr 0xecfd30 size 0xf0 virtual true final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method NextBytes addr 0xf4600c size 0x98 virtual true final false
+  /// @brief Method NextBytes addr 0xecfe20 size 0x98 virtual true final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method GenerateSeed addr 0xf460a4 size 0x1c virtual true final false
+  /// @brief Method GenerateSeed addr 0xecfeb8 size 0x1c virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSeed(int32_t numBytes);
 
   // Ctor Parameters [CppParam { name: "", ty: "X931SecureRandom", modifiers: "&&", def_value: None }]
@@ -103,6 +103,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::X931SecureRandom, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::X931SecureRandom, ___mPredictionResistant) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::X931SecureRandom, ___mRandomSource) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::X931SecureRandom, ___mDrbg) == 0x38, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Prng
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::X931SecureRandom);

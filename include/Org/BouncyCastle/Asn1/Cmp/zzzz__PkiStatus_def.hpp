@@ -78,5 +78,7 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::PkiStatus, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiStatus, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Asn1::Cmp
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cmp::PkiStatus, "Org.BouncyCastle.Asn1.Cmp", "PkiStatus");

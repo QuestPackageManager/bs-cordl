@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__PlatformInternal_def.hpp"
-#include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
-#include "Oculus/Platform/zzzz__Request_1_def.hpp"
 #include "Oculus/Platform/zzzz__PlatformInternal_def.hpp"
 #include "Oculus/Platform/zzzz__Message_def.hpp"
+#include "Oculus/Platform/zzzz__Request_1_def.hpp"
+#include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__HttpTransferUpdate_def.hpp"
-#include "Oculus/Platform/zzzz__ServiceProvider_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LinkedAccountList_def.hpp"
+#include "Oculus/Platform/zzzz__ServiceProvider_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Oculus::Platform::__PlatformInternal__MessageTypeInternal::__PlatformInternal__MessageTypeInternal(uint32_t value__) noexcept {
   this->value__ = value__;
@@ -76,6 +76,7 @@ constexpr ::Oculus::Platform::__PlatformInternal__MessageTypeInternal Oculus::Pl
     0x49d1e0c3u) };
 constexpr ::Oculus::Platform::__PlatformInternal__MessageTypeInternal Oculus::Platform::__PlatformInternal__MessageTypeInternal::User_GetLinkedAccounts{ static_cast<uint32_t>(0x93f456f0u) };
 constexpr ::Oculus::Platform::__PlatformInternal__MessageTypeInternal Oculus::Platform::__PlatformInternal__MessageTypeInternal::User_GetUserCapabilities{ static_cast<uint32_t>(0x7c311cd2u) };
+constexpr ::Oculus::Platform::__PlatformInternal__MessageTypeInternal Oculus::Platform::__PlatformInternal__MessageTypeInternal::User_LaunchProfile{ static_cast<uint32_t>(0x977239cau) };
 constexpr ::Oculus::Platform::__PlatformInternal__MessageTypeInternal Oculus::Platform::__PlatformInternal__MessageTypeInternal::User_LaunchReportFlow{ static_cast<uint32_t>(0x62a011f0u) };
 constexpr ::Oculus::Platform::__PlatformInternal__MessageTypeInternal Oculus::Platform::__PlatformInternal__MessageTypeInternal::User_LaunchReportFlow2{ static_cast<uint32_t>(0x835863f0u) };
 constexpr ::Oculus::Platform::__PlatformInternal__MessageTypeInternal Oculus::Platform::__PlatformInternal__MessageTypeInternal::User_NewEntitledTestUser{ static_cast<uint32_t>(0x31f74d1u) };
@@ -95,9 +96,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::HttpTransferUpdate*>*)>(
     &::Oculus::Platform::__PlatformInternal__HTTP::SetHttpTransferUpdateCallback)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2700730;
+  constexpr static std::size_t addrs = 0x25ad4d0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__PlatformInternal__HTTP*>::get(), "SetHttpTransferUpdateCallback", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{
@@ -119,10 +120,10 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::LinkedAccountList*>* (*)(::ArrayW<::Oculus::Platform::ServiceProvider, ::Array<::Oculus::Platform::ServiceProvider>*>)>(
         &::Oculus::Platform::__PlatformInternal__Users::GetLinkedAccounts)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x27007a4;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x25ad544;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__PlatformInternal__Users*>::get(), "GetLinkedAccounts", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{
@@ -143,10 +144,10 @@ constexpr ::Oculus::Platform::__PlatformInternal__Users::__PlatformInternal__Use
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Oculus::Platform::PlatformInternal::CrashApplication)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x27004ac;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x25ac7b4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::PlatformInternal*>::get(), "CrashApplication",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -157,10 +158,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Message* (*)(void*, ::Oculus::Platform::__Message__MessageType)>(
     &::Oculus::Platform::PlatformInternal::ParseMessageHandle)> {
-  constexpr static std::size_t size = 0x8b4;
-  constexpr static std::size_t addrs = 0x26efc38;
+  constexpr static std::size_t size = 0xa7c;
+  constexpr static std::size_t addrs = 0x25ac804;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::PlatformInternal*>::get(), "ParseMessageHandle", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(),
@@ -173,10 +174,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* (*)(uint64_t, ::StringW)>(
     &::Oculus::Platform::PlatformInternal::InitializeStandaloneAsync)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x27004f8;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x25ad280;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::PlatformInternal*>::get(), "InitializeStandaloneAsync", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));

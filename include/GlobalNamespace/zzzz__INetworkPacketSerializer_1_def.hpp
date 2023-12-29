@@ -7,10 +7,10 @@ namespace LiteNetLib::Utils {
 class INetSerializable;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +25,7 @@ namespace GlobalNamespace {
 template <typename TData>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12890))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12812))
 // CS Name: ::INetworkPacketSerializer`1<TData>*
 class CORDL_TYPE INetworkPacketSerializer_1 {
 public:

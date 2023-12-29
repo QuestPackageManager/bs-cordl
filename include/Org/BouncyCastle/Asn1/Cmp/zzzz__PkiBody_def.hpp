@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkiBody)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace System {
-class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -61,29 +61,29 @@ public:
 
   constexpr void __set_body(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method GetInstance addr 0xe690a4 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xdf3ed4 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method .ctor addr 0xe6922c size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0xdf405c size 0x50 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* New_ctor(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method .ctor addr 0xe693d8 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0xdf4208 size 0x3c virtual false final false
   inline void _ctor(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method GetBodyForType addr 0xe6927c size 0x15c virtual false final false
+  /// @brief Method GetBodyForType addr 0xdf40ac size 0x15c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBodyForType(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* o);
 
-  /// @brief Method get_Type addr 0xe6a1b8 size 0x8 virtual true final false
+  /// @brief Method get_Type addr 0xdf4fe8 size 0x8 virtual true final false
   inline int32_t get_Type();
 
-  /// @brief Method get_Content addr 0xe6a1c0 size 0x8 virtual true final false
+  /// @brief Method get_Content addr 0xdf4ff0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Content();
 
-  /// @brief Method ToAsn1Object addr 0xe6a1c8 size 0x74 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xdf4ff8 size 0x74 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkiBody", modifiers: "&&", def_value: None }]
@@ -191,6 +191,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::PkiBody, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiBody, ___tagNo) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiBody, ___body) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::PkiBody);

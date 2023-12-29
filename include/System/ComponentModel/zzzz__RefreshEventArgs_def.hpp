@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::ComponentModel::RefreshEventArgs);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9451))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8288))
 // CS Name: ::System.ComponentModel::RefreshEventArgs*
 class CORDL_TYPE RefreshEventArgs : public ::System::EventArgs {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::System::ComponentModel::RefreshEventArgs* New_ctor(::System::Type* typeChanged);
 
-  /// @brief Method .ctor addr 0x2917e34 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x2799e0c size 0x6c virtual false final false
   inline void _ctor(::System::Type* typeChanged);
 
   // Ctor Parameters [CppParam { name: "", ty: "RefreshEventArgs", modifiers: "&&", def_value: None }]
@@ -58,6 +58,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::RefreshEventArgs, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::RefreshEventArgs, ____TypeChanged_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::RefreshEventArgs);

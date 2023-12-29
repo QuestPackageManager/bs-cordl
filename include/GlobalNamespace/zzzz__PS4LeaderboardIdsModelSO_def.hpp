@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::GlobalNamespace::PS4LeaderboardIdsModelSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4583))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4551))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4674))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4639))
 // CS Name: ::PS4LeaderboardIdsModelSO*
 class CORDL_TYPE PS4LeaderboardIdsModelSO : public ::GlobalNamespace::SonyLeaderboardIdsModelSO {
 public:
   // Declarations
-  /// @brief Method DoesSupport360 addr 0x23680c4 size 0x8 virtual true final false
+  /// @brief Method DoesSupport360 addr 0x222dfac size 0x8 virtual true final false
   inline bool DoesSupport360();
 
   static inline ::GlobalNamespace::PS4LeaderboardIdsModelSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x23680cc size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x222dfb4 size 0x4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PS4LeaderboardIdsModelSO", modifiers: "&&", def_value: None }]

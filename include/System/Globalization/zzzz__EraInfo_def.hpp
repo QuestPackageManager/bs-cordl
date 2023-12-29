@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Globalization::EraInfo);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3699))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3687))
 // CS Name: ::System.Globalization::EraInfo*
 class CORDL_TYPE EraInfo : public ::System::Object {
 public:
@@ -96,13 +96,13 @@ public:
 
   static inline ::System::Globalization::EraInfo* New_ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear);
 
-  /// @brief Method .ctor addr 0x256274c size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0x24060c4 size 0x9c virtual false final false
   inline void _ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear);
 
   static inline ::System::Globalization::EraInfo* New_ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear,
                                                            ::StringW eraName, ::StringW abbrevEraName, ::StringW englishEraName);
 
-  /// @brief Method .ctor addr 0x25627e8 size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0x2406160 size 0xb4 virtual false final false
   inline void _ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear, ::StringW eraName, ::StringW abbrevEraName,
                     ::StringW englishEraName);
 
@@ -148,6 +148,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::EraInfo, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::EraInfo, ___era) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::EraInfo, ___ticks) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::EraInfo, ___yearOffset) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::EraInfo, ___minEraYear) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::EraInfo, ___maxEraYear) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::EraInfo, ___eraName) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::EraInfo, ___abbrevEraName) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::EraInfo, ___englishEraName) == 0x40, "Offset mismatch!");
 
 } // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::EraInfo);

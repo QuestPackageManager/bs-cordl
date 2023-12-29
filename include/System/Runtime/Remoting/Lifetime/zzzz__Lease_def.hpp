@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Lease)
 namespace System::Runtime::Remoting::Lifetime {
-struct LeaseState;
+class __Lease__RenewalDelegate;
 }
-namespace System::Collections {
-class Queue;
+namespace System {
+struct TimeSpan;
 }
 namespace System {
 class Object;
@@ -21,23 +21,23 @@ class Object;
 namespace System::Runtime::Remoting::Lifetime {
 class ILease;
 }
-namespace System::Runtime::Remoting::Lifetime {
-class __Lease__RenewalDelegate;
-}
 namespace System::Collections {
 class ArrayList;
 }
-namespace System {
-struct TimeSpan;
+namespace System::Collections {
+class Queue;
 }
 namespace System::Runtime::Remoting::Lifetime {
 class ISponsor;
 }
-namespace System {
-class IAsyncResult;
+namespace System::Runtime::Remoting::Lifetime {
+struct LeaseState;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Lifetime {
@@ -53,24 +53,24 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Lifetime::__Lease__RenewalDelegate);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3092))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3091))
 // CS Name: ::Lease::RenewalDelegate*
 class CORDL_TYPE __Lease__RenewalDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Runtime::Remoting::Lifetime::__Lease__RenewalDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x249b2ec size 0x12c virtual false final false
+  /// @brief Method .ctor addr 0x23427f8 size 0x12c virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x249b644 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2342b50 size 0x14 virtual true final false
   inline ::System::TimeSpan Invoke(::System::Runtime::Remoting::Lifetime::ILease* lease);
 
-  /// @brief Method BeginInvoke addr 0x249b418 size 0x20 virtual true final false
+  /// @brief Method BeginInvoke addr 0x2342924 size 0x20 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Runtime::Remoting::Lifetime::ILease* lease, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x249b61c size 0x28 virtual true final false
+  /// @brief Method EndInvoke addr 0x2342b28 size 0x28 virtual true final false
   inline ::System::TimeSpan EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Lease__RenewalDelegate", modifiers: "&&", def_value: None }]
@@ -97,8 +97,8 @@ static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Lifet
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(3096)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2484))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3093)) CS Name: ::System.Runtime.Remoting.Lifetime::Lease*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3095)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2368)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2482))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3092)) CS Name: ::System.Runtime.Remoting.Lifetime::Lease*
 class CORDL_TYPE Lease : public ::System::MarshalByRefObject {
 public:
   // Declarations
@@ -187,34 +187,34 @@ public:
 
   static inline ::System::Runtime::Remoting::Lifetime::Lease* New_ctor();
 
-  /// @brief Method .ctor addr 0x249294c size 0x158 virtual false final false
+  /// @brief Method .ctor addr 0x2339e58 size 0x158 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_CurrentLeaseTime addr 0x249acb4 size 0x68 virtual true final true
+  /// @brief Method get_CurrentLeaseTime addr 0x23421c0 size 0x68 virtual true final true
   inline ::System::TimeSpan get_CurrentLeaseTime();
 
-  /// @brief Method get_CurrentState addr 0x249ad1c size 0x8 virtual true final true
+  /// @brief Method get_CurrentState addr 0x2342228 size 0x8 virtual true final true
   inline ::System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState();
 
-  /// @brief Method Activate addr 0x249ad24 size 0xc virtual false final false
+  /// @brief Method Activate addr 0x2342230 size 0xc virtual false final false
   inline void Activate();
 
-  /// @brief Method get_RenewOnCallTime addr 0x249ad30 size 0x8 virtual true final true
+  /// @brief Method get_RenewOnCallTime addr 0x234223c size 0x8 virtual true final true
   inline ::System::TimeSpan get_RenewOnCallTime();
 
-  /// @brief Method Renew addr 0x249ad38 size 0x8c virtual true final true
+  /// @brief Method Renew addr 0x2342244 size 0x8c virtual true final true
   inline ::System::TimeSpan Renew(::System::TimeSpan renewalTime);
 
-  /// @brief Method Unregister addr 0x249adc4 size 0x144 virtual true final true
+  /// @brief Method Unregister addr 0x23422d0 size 0x144 virtual true final true
   inline void Unregister(::System::Runtime::Remoting::Lifetime::ISponsor* obj);
 
-  /// @brief Method UpdateState addr 0x249af08 size 0x1a0 virtual false final false
+  /// @brief Method UpdateState addr 0x2342414 size 0x1a0 virtual false final false
   inline void UpdateState();
 
-  /// @brief Method CheckNextSponsor addr 0x249b0a8 size 0x244 virtual false final false
+  /// @brief Method CheckNextSponsor addr 0x23425b4 size 0x244 virtual false final false
   inline void CheckNextSponsor();
 
-  /// @brief Method ProcessSponsorResponse addr 0x249b438 size 0x1e4 virtual false final false
+  /// @brief Method ProcessSponsorResponse addr 0x2342944 size 0x1e4 virtual false final false
   inline void ProcessSponsorResponse(::System::Object* state, bool timedOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "Lease", modifiers: "&&", def_value: None }]
@@ -259,6 +259,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Lifetime::Lease, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Lifetime::Lease, ____leaseExpireTime) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Lifetime::Lease, ____currentState) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Lifetime::Lease, ____initialLeaseTime) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Lifetime::Lease, ____renewOnCallTime) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Lifetime::Lease, ____sponsorshipTimeout) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Lifetime::Lease, ____sponsors) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Lifetime::Lease, ____renewingSponsors) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Lifetime::Lease, ____renewalDelegate) == 0x50, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Lifetime
 NEED_NO_BOX(::System::Runtime::Remoting::Lifetime::Lease);

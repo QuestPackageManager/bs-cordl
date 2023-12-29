@@ -16,7 +16,7 @@ namespace System {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2416))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2414))
 // CS Name: ::System::IEquatable`1<T>*
 class CORDL_TYPE IEquatable_1 {
 public:

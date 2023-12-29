@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::Aes);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2973))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2917))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2972))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2916))
 // CS Name: ::System.Security.Cryptography::Aes*
 class CORDL_TYPE Aes : public ::System::Security::Cryptography::SymmetricAlgorithm {
 public:
@@ -42,7 +42,7 @@ public:
 
   static inline ::System::Security::Cryptography::Aes* New_ctor();
 
-  /// @brief Method .ctor addr 0x245bbd0 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x23024f4 size 0x84 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Aes", modifiers: "&&", def_value: None }]

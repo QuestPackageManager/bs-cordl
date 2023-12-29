@@ -7,8 +7,8 @@ CORDL_MODULE_EXPORT(ReflectionDelegateFactory)
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System::Reflection {
-class MethodBase;
+namespace Newtonsoft::Json::Serialization {
+template <typename T> class ObjectConstructor_1;
 }
 namespace System {
 class Type;
@@ -16,17 +16,14 @@ class Type;
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace System::Reflection {
-class PropertyInfo;
-}
-namespace System::Reflection {
-class FieldInfo;
-}
-namespace Newtonsoft::Json::Serialization {
-template <typename T> class ObjectConstructor_1;
-}
 namespace System {
 class Object;
+}
+namespace System::Reflection {
+class MethodBase;
+}
+namespace System::Reflection {
+class PropertyInfo;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename T, typename TResult> class MethodCall_2;
@@ -36,6 +33,9 @@ class MemberInfo;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace System::Reflection {
+class FieldInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::ReflectionDelegateFactory);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11851))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11779))
 // CS Name: ::Newtonsoft.Json.Utilities::ReflectionDelegateFactory*
 class CORDL_TYPE ReflectionDelegateFactory : public ::System::Object {
 public:
@@ -82,7 +82,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x265a4dc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24f6d98 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionDelegateFactory", modifiers: "&&", def_value: None }]

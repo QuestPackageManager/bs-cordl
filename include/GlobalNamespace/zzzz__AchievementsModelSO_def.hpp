@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AchievementsModelSO)
 namespace GlobalNamespace {
-struct __IPlatformAchievementsHandler__GetUnlockedAchievementsResult;
-}
-namespace GlobalNamespace {
 class __AchievementsModelSO____c__DisplayClass4_0;
 }
 namespace GlobalNamespace {
 class AchievementSO;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace GlobalNamespace {
+struct __IPlatformAchievementsHandler__GetUnlockedAchievementsResult;
 }
 namespace GlobalNamespace {
 class IPlatformAchievementsHandler;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace GlobalNamespace {
 struct __IPlatformAchievementsHandler__UnlockAchievementResult;
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__AchievementsModelSO____c__DisplayClass4_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4087))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4112))
 // CS Name: ::AchievementsModelSO::<>c__DisplayClass4_0*
 class CORDL_TYPE __AchievementsModelSO____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -65,10 +65,10 @@ public:
 
   static inline ::GlobalNamespace::__AchievementsModelSO____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2232fa8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20d9910 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <UnlockAchievement>b__0 addr 0x2233194 size 0x70 virtual false final false
+  /// @brief Method <UnlockAchievement>b__0 addr 0x20d9afc size 0x70 virtual false final false
   inline void _UnlockAchievement_b__0(::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementResult result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AchievementsModelSO____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
@@ -96,13 +96,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AchievementsModelSO____c__DisplayClass4_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__AchievementsModelSO____c__DisplayClass4_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__AchievementsModelSO____c__DisplayClass4_0, ___achievementId) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::AchievementsModelSO
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4088))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4113))
 // CS Name: ::AchievementsModelSO*
 class CORDL_TYPE AchievementsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -136,18 +140,18 @@ public:
 
   constexpr void __set__initialized(bool value);
 
-  /// @brief Method Initialize addr 0x2231cc4 size 0x174 virtual false final false
+  /// @brief Method Initialize addr 0x20d864c size 0x174 virtual false final false
   inline void Initialize();
 
-  /// @brief Method UnlockAchievement addr 0x2232d58 size 0x184 virtual false final false
+  /// @brief Method UnlockAchievement addr 0x20d96c0 size 0x184 virtual false final false
   inline void UnlockAchievement(::GlobalNamespace::AchievementSO* achievement);
 
   static inline ::GlobalNamespace::AchievementsModelSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x2233074 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x20d99dc size 0x7c virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Initialize>b__3_0 addr 0x22330f0 size 0xa4 virtual false final false
+  /// @brief Method <Initialize>b__3_0 addr 0x20d9a58 size 0xa4 virtual false final false
   inline void _Initialize_b__3_0(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsResult result, ::ArrayW<::StringW, ::Array<::StringW>*> achievementIds);
 
   // Ctor Parameters [CppParam { name: "", ty: "AchievementsModelSO", modifiers: "&&", def_value: None }]
@@ -177,6 +181,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AchievementsModelSO, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AchievementsModelSO, ____platformAchievementsHandler) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AchievementsModelSO, ____unlockedAchievementIds) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AchievementsModelSO, ____initialized) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AchievementsModelSO);

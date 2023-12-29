@@ -14,24 +14,24 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::XRController);
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6289))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6325))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6375))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6411))
 // CS Name: ::UnityEngine.InputSystem.XR::XRController*
 class CORDL_TYPE XRController : public ::UnityEngine::InputSystem::TrackedDevice {
 public:
   // Declarations
-  /// @brief Method get_leftHand addr 0x2ac59b8 size 0xa0 virtual false final false
+  /// @brief Method get_leftHand addr 0x2946c70 size 0xa0 virtual false final false
   static inline ::UnityEngine::InputSystem::XR::XRController* get_leftHand();
 
-  /// @brief Method get_rightHand addr 0x2ac5a58 size 0xa0 virtual false final false
+  /// @brief Method get_rightHand addr 0x2946d10 size 0xa0 virtual false final false
   static inline ::UnityEngine::InputSystem::XR::XRController* get_rightHand();
 
-  /// @brief Method FinishSetup addr 0x2ac5af8 size 0xf0 virtual true final false
+  /// @brief Method FinishSetup addr 0x2946db0 size 0xf0 virtual true final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::XR::XRController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ac5c30 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2946ee8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XRController", modifiers: "&&", def_value: None }]

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConcatenationKdfGenerator)
 namespace Org::BouncyCastle::Crypto {
+class IDerivationFunction;
+}
+namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement::Kdf {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGene
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::Kdf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(722))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.Kdf::ConcatenationKdfGenerator*
 class CORDL_TYPE ConcatenationKdfGenerator : public ::System::Object {
@@ -74,16 +74,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0x12165f0 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x11a53a0 size 0xbc virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init addr 0x12166ac size 0xcc virtual true final false
+  /// @brief Method Init addr 0x11a545c size 0xcc virtual true final false
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* param);
 
-  /// @brief Method get_Digest addr 0x1216778 size 0x8 virtual true final false
+  /// @brief Method get_Digest addr 0x11a5528 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
-  /// @brief Method GenerateBytes addr 0x1216780 size 0x5d8 virtual true final false
+  /// @brief Method GenerateBytes addr 0x11a5530 size 0x5d8 virtual true final false
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcatenationKdfGenerator", modifiers: "&&", def_value: None }]
@@ -116,6 +116,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenerator, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenerator, ___mDigest) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenerator, ___mShared) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenerator, ___mOtherInfo) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenerator, ___mHLen) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Agreement::Kdf
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenerator);

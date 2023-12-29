@@ -15,11 +15,11 @@ struct InputInteractionContext;
 namespace UnityEngine::InputSystem {
 template <typename TValue> class IInputInteraction_1;
 }
-namespace UnityEngine::InputSystem::Interactions {
-struct __MultiTapInteraction__TapPhase;
-}
 namespace UnityEngine::InputSystem {
 class IInputInteraction;
+}
+namespace UnityEngine::InputSystem::Interactions {
+struct __MultiTapInteraction__TapPhase;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Interactions {
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Interactions::MultiTapInteraction);
 namespace UnityEngine::InputSystem::Interactions {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6647))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6733))
 // CS Name: ::MultiTapInteraction::TapPhase
 struct CORDL_TYPE __MultiTapInteraction__TapPhase {
 public:
@@ -82,13 +82,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Interactions::__MultiTapInteraction__TapPhase, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::Interactions::__MultiTapInteraction__TapPhase, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::Interactions
 // Type: UnityEngine.InputSystem.Interactions::MultiTapInteraction
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Interactions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6647))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6648))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6733)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6734))
 // CS Name: ::UnityEngine.InputSystem.Interactions::MultiTapInteraction*
 class CORDL_TYPE MultiTapInteraction : public ::System::Object {
 public:
@@ -181,27 +183,27 @@ public:
 
   constexpr void __set_m_LastTapReleaseTime(double_t value);
 
-  /// @brief Method get_tapTimeOrDefault addr 0x2b0c6e4 size 0x70 virtual false final false
+  /// @brief Method get_tapTimeOrDefault addr 0x298b990 size 0x70 virtual false final false
   inline float_t get_tapTimeOrDefault();
 
-  /// @brief Method get_tapDelayOrDefault addr 0x2b0c754 size 0x70 virtual false final false
+  /// @brief Method get_tapDelayOrDefault addr 0x298ba00 size 0x70 virtual false final false
   inline float_t get_tapDelayOrDefault();
 
-  /// @brief Method get_pressPointOrDefault addr 0x2b0c7c4 size 0x58 virtual false final false
+  /// @brief Method get_pressPointOrDefault addr 0x298ba70 size 0x58 virtual false final false
   inline float_t get_pressPointOrDefault();
 
-  /// @brief Method get_releasePointOrDefault addr 0x2b0c81c size 0x88 virtual false final false
+  /// @brief Method get_releasePointOrDefault addr 0x298bac8 size 0x88 virtual false final false
   inline float_t get_releasePointOrDefault();
 
-  /// @brief Method Process addr 0x2b0c8a4 size 0x280 virtual true final true
+  /// @brief Method Process addr 0x298bb50 size 0x280 virtual true final true
   inline void Process(ByRef<::UnityEngine::InputSystem::InputInteractionContext> context);
 
-  /// @brief Method Reset addr 0x2b0cb24 size 0xc virtual true final true
+  /// @brief Method Reset addr 0x298bdd0 size 0xc virtual true final true
   inline void Reset();
 
   static inline ::UnityEngine::InputSystem::Interactions::MultiTapInteraction* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b0cb30 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x298bddc size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiTapInteraction", modifiers: "&&", def_value: None }]
@@ -246,6 +248,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Interactions::MultiTapInteraction, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Interactions::MultiTapInteraction, ___tapTime) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Interactions::MultiTapInteraction, ___tapDelay) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Interactions::MultiTapInteraction, ___tapCount) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Interactions::MultiTapInteraction, ___pressPoint) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Interactions::MultiTapInteraction, ___m_CurrentTapPhase) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Interactions::MultiTapInteraction, ___m_CurrentTapCount) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Interactions::MultiTapInteraction, ___m_CurrentTapStartTime) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Interactions::MultiTapInteraction, ___m_LastTapReleaseTime) == 0x30, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Interactions
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Interactions::__MultiTapInteraction__TapPhase, "UnityEngine.InputSystem.Interactions", "MultiTapInteraction/TapPhase");

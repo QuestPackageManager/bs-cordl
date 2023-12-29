@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::DrivenTransformProperties);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10277))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10204))
 // CS Name: ::UnityEngine::DrivenTransformProperties
 struct CORDL_TYPE DrivenTransformProperties {
 public:
@@ -149,6 +149,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::DrivenTransformProperties, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::DrivenTransformProperties, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::DrivenTransformProperties, "UnityEngine", "DrivenTransformProperties");

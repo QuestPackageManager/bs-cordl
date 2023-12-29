@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::CookieVariant);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9119))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7956))
 // CS Name: ::System.Net::CookieVariant
 struct CORDL_TYPE CookieVariant {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::CookieVariant, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::CookieVariant, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::CookieVariant, "System.Net", "CookieVariant");

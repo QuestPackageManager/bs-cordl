@@ -10,18 +10,6 @@ CORDL_MODULE_EXPORT(EventDispatcher)
 namespace UnityEngine::UIElements {
 class IPanel;
 }
-namespace UnityEngine::UIElements {
-struct __EventDispatcher__DispatchContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace UnityEngine::UIElements {
-class PointerDispatchState;
-}
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
@@ -29,22 +17,34 @@ namespace UnityEngine::UIElements {
 struct DispatchMode;
 }
 namespace UnityEngine::UIElements {
+class IEventDispatchingStrategy;
+}
+namespace UnityEngine::UIElements {
+struct __EventDispatcher__EventRecord;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
+namespace UnityEngine::UIElements {
 template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
 class ClickDetector;
 }
-namespace UnityEngine::UIElements {
-struct __EventDispatcher__EventRecord;
-}
-namespace UnityEngine::UIElements {
-class IEventDispatchingStrategy;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
+class PointerDispatchState;
+}
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
+}
+namespace UnityEngine::UIElements {
 class EventBase;
+}
+namespace UnityEngine::UIElements {
+struct __EventDispatcher__DispatchContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -65,7 +65,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__EventDispatcher__EventRecord);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6913))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6999))
 // CS Name: ::EventDispatcher::EventRecord
 struct CORDL_TYPE __EventDispatcher__EventRecord {
 public:
@@ -92,13 +92,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__EventDispatcher__EventRecord, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__EventDispatcher__EventRecord, m_Event) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__EventDispatcher__EventRecord, m_Panel) == 0x8, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: ::DispatchContext
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6914))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7000))
 // CS Name: ::EventDispatcher::DispatchContext
 struct CORDL_TYPE __EventDispatcher__DispatchContext {
 public:
@@ -125,13 +129,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__EventDispatcher__DispatchContext, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__EventDispatcher__DispatchContext, m_GateCount) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__EventDispatcher__DispatchContext, m_Queue) == 0x8, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::EventDispatcher
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6915))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7001))
 // CS Name: ::UnityEngine.UIElements::EventDispatcher*
 class CORDL_TYPE EventDispatcher : public ::System::Object {
 public:
@@ -238,39 +246,39 @@ public:
 
   static inline ::ArrayW<::UnityEngine::UIElements::IEventDispatchingStrategy*, ::Array<::UnityEngine::UIElements::IEventDispatchingStrategy*>*> getStaticF_s_EditorStrategies();
 
-  /// @brief Method get_pointerState addr 0x2e02708 size 0x8 virtual false final false
+  /// @brief Method get_pointerState addr 0x2c9c358 size 0x8 virtual false final false
   inline ::UnityEngine::UIElements::PointerDispatchState* get_pointerState();
 
-  /// @brief Method CreateForRuntime addr 0x2e02710 size 0x60 virtual false final false
+  /// @brief Method CreateForRuntime addr 0x2c9c360 size 0x60 virtual false final false
   static inline ::UnityEngine::UIElements::EventDispatcher* CreateForRuntime(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* strategies);
 
   static inline ::UnityEngine::UIElements::EventDispatcher* New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* strategies);
 
-  /// @brief Method .ctor addr 0x2e02770 size 0x1ac virtual false final false
+  /// @brief Method .ctor addr 0x2c9c3c0 size 0x1ac virtual false final false
   inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* strategies);
 
-  /// @brief Method get_dispatchImmediately addr 0x2e0291c size 0x20 virtual false final false
+  /// @brief Method get_dispatchImmediately addr 0x2c9c56c size 0x20 virtual false final false
   inline bool get_dispatchImmediately();
 
-  /// @brief Method set_processingEvents addr 0x2e0293c size 0xc virtual false final false
+  /// @brief Method set_processingEvents addr 0x2c9c58c size 0xc virtual false final false
   inline void set_processingEvents(bool value);
 
-  /// @brief Method Dispatch addr 0x2e02948 size 0x164 virtual false final false
+  /// @brief Method Dispatch addr 0x2c9c598 size 0x164 virtual false final false
   inline void Dispatch(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel, ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
-  /// @brief Method CloseGate addr 0x2e025b8 size 0x10 virtual false final false
+  /// @brief Method CloseGate addr 0x2c9c208 size 0x10 virtual false final false
   inline void CloseGate();
 
-  /// @brief Method OpenGate addr 0x2e025e0 size 0x88 virtual false final false
+  /// @brief Method OpenGate addr 0x2c9c230 size 0x88 virtual false final false
   inline void OpenGate();
 
-  /// @brief Method ProcessEventQueue addr 0x2e02e7c size 0x3c8 virtual false final false
+  /// @brief Method ProcessEventQueue addr 0x2c9cacc size 0x3c8 virtual false final false
   inline void ProcessEventQueue();
 
-  /// @brief Method ProcessEvent addr 0x2e02aac size 0x3d0 virtual false final false
+  /// @brief Method ProcessEvent addr 0x2c9c6fc size 0x3d0 virtual false final false
   inline void ProcessEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method ApplyDispatchingStrategies addr 0x2e03244 size 0x330 virtual false final false
+  /// @brief Method ApplyDispatchingStrategies addr 0x2c9ce94 size 0x330 virtual false final false
   inline void ApplyDispatchingStrategies(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel, bool imguiEventIsInitiallyUsed);
 
   // Ctor Parameters [CppParam { name: "", ty: "EventDispatcher", modifiers: "&&", def_value: None }]
@@ -315,6 +323,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventDispatcher, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::EventDispatcher, ___m_ClickDetector) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::EventDispatcher, ___m_DispatchingStrategies) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::EventDispatcher, ___m_Queue) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::EventDispatcher, ____pointerState_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::EventDispatcher, ___m_GateCount) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::EventDispatcher, ___m_DispatchContexts) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::EventDispatcher, ___m_Immediate) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::EventDispatcher, ____processingEvents_k__BackingField) == 0x41, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::EventDispatcher);

@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::System::Configuration::ConfigurationCollectionAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Configuration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16262))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16085))
 // CS Name: ::System.Configuration::ConfigurationCollectionAttribute*
 class CORDL_TYPE ConfigurationCollectionAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Configuration::ConfigurationCollectionAttribute* New_ctor(::System::Type* itemType);
 
-  /// @brief Method .ctor addr 0x280cb18 size 0x4 virtual false final false
+  /// @brief Method .ctor addr 0x2691eb8 size 0x4 virtual false final false
   inline void _ctor(::System::Type* itemType);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConfigurationCollectionAttribute", modifiers: "&&", def_value: None }]

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ITransform);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6780))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6866))
 // CS Name: ::UnityEngine.UIElements::ITransform*
 class CORDL_TYPE ITransform {
 public:

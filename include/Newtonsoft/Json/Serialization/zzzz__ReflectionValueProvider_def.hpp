@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ReflectionValueProvider)
+namespace System {
+class Object;
+}
 namespace Newtonsoft::Json::Serialization {
 class IValueProvider;
 }
 namespace System::Reflection {
 class MemberInfo;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ReflectionValueProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11963))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11891))
 // CS Name: ::Newtonsoft.Json.Serialization::ReflectionValueProvider*
 class CORDL_TYPE ReflectionValueProvider : public ::System::Object {
 public:
@@ -43,13 +43,13 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::ReflectionValueProvider* New_ctor(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method .ctor addr 0x268f5a8 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x252be64 size 0x6c virtual false final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method SetValue addr 0x268f614 size 0x1a4 virtual true final true
+  /// @brief Method SetValue addr 0x252bed0 size 0x1a4 virtual true final true
   inline void SetValue(::System::Object* target, ::System::Object* value);
 
-  /// @brief Method GetValue addr 0x268f7b8 size 0x1a0 virtual true final true
+  /// @brief Method GetValue addr 0x252c074 size 0x1a0 virtual true final true
   inline ::System::Object* GetValue(::System::Object* target);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionValueProvider", modifiers: "&&", def_value: None }]
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::ReflectionValueProvider, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Serialization::ReflectionValueProvider, ____memberInfo) == 0x10, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::ReflectionValueProvider);

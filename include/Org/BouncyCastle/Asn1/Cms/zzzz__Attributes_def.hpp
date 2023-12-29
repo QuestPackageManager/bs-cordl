@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Attributes)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
-}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class Attribute;
@@ -47,21 +47,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Attributes* New_ctor(::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-  /// @brief Method .ctor addr 0xe6ff54 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xdfad80 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Attributes* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
-  /// @brief Method .ctor addr 0xe6ff7c size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0xdfada8 size 0x7c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
-  /// @brief Method GetInstance addr 0xe6fff8 size 0xa8 virtual false final false
+  /// @brief Method GetInstance addr 0xdfae24 size 0xa8 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Attributes* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetAttributes addr 0xe700a0 size 0xf0 virtual true final false
+  /// @brief Method GetAttributes addr 0xdfaecc size 0xf0 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cms::Attribute*, ::Array<::Org::BouncyCastle::Asn1::Cms::Attribute*>*> GetAttributes();
 
-  /// @brief Method ToAsn1Object addr 0xe70190 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xdfafbc size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Attributes", modifiers: "&&", def_value: None }]
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::Attributes, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::Attributes, ___attributes) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::Attributes);

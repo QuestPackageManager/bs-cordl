@@ -8,16 +8,16 @@ namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerUtf8String;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
+class DerUtf8String;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ess {
@@ -57,31 +57,31 @@ public:
 
   constexpr void __set_contentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method GetInstance addr 0xe997c4 size 0x190 virtual false final false
+  /// @brief Method GetInstance addr 0xe245f0 size 0x190 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe99954 size 0x188 virtual false final false
+  /// @brief Method .ctor addr 0xe24780 size 0x188 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType);
 
-  /// @brief Method .ctor addr 0xe99adc size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xe24908 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::DerUtf8String* contentDescription);
 
-  /// @brief Method .ctor addr 0xe99b04 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xe24930 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::DerUtf8String* contentDescription);
 
-  /// @brief Method get_ContentType addr 0xe99b30 size 0x8 virtual false final false
+  /// @brief Method get_ContentType addr 0xe2495c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
-  /// @brief Method get_ContentDescription addr 0xe99b38 size 0x8 virtual false final false
+  /// @brief Method get_ContentDescription addr 0xe24964 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerUtf8String* get_ContentDescription();
 
-  /// @brief Method ToAsn1Object addr 0xe99b40 size 0x118 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe2496c size 0x118 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentHints", modifiers: "&&", def_value: None }]
@@ -108,6 +108,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ess::ContentHints, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ess::ContentHints, ___contentDescription) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ess::ContentHints, ___contentType) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Ess
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ess::ContentHints);

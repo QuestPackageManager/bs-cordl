@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(TextureMixerPlayable)
 namespace UnityEngine::Playables {
-class IPlayable;
+struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
-struct PlayableHandle;
+class IPlayable;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -24,8 +24,8 @@ MARK_VAL_T(::UnityEngine::Experimental::Playables::TextureMixerPlayable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Playables {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10440))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10414))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10362))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10336))
 // CS Name: ::UnityEngine.Experimental.Playables::TextureMixerPlayable
 struct CORDL_TYPE TextureMixerPlayable {
 public:
@@ -36,10 +36,10 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::TextureMixerPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Experimental::Playables::TextureMixerPlayable>*();
 
-  /// @brief Method GetHandle addr 0x2cf48c0 size 0xc virtual true final true
+  /// @brief Method GetHandle addr 0x2b8c580 size 0xc virtual true final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method Equals addr 0x2cf48cc size 0x74 virtual true final true
+  /// @brief Method Equals addr 0x2b8c58c size 0x74 virtual true final true
   inline bool Equals(::UnityEngine::Experimental::Playables::TextureMixerPlayable other);
 
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
@@ -59,6 +59,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Playables::TextureMixerPlayable, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::Playables::TextureMixerPlayable, m_Handle) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Experimental::Playables
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Playables::TextureMixerPlayable, "UnityEngine.Experimental.Playables", "TextureMixerPlayable");

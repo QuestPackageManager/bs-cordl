@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapEventDataBox)
-namespace GlobalNamespace {
-class IBeatToTimeConvertor;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-struct EaseType;
 }
 namespace GlobalNamespace {
 struct __BeatmapEventDataBox__DistributionParamType;
 }
 namespace GlobalNamespace {
+class IndexFilter;
+}
+namespace GlobalNamespace {
 class BeatmapEventData;
 }
 namespace GlobalNamespace {
-class IndexFilter;
+class IBeatToTimeConvertor;
+}
+namespace GlobalNamespace {
+struct EaseType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventDataBox);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4300))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4326))
 // CS Name: ::BeatmapEventDataBox::DistributionParamType
 struct CORDL_TYPE __BeatmapEventDataBox__DistributionParamType {
 public:
@@ -84,13 +84,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BeatmapEventDataBox
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4300)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4301))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15944)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(4326))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4327))
 // CS Name: ::BeatmapEventDataBox*
 class CORDL_TYPE BeatmapEventDataBox : public ::System::Object {
 public:
@@ -181,7 +183,7 @@ public:
   /// @brief Method get_beatStep addr 0x0 size 0xffffffffffffffff virtual true final false
   inline float_t get_beatStep();
 
-  /// @brief Method get_indexFilter addr 0x2338804 size 0x8 virtual false final false
+  /// @brief Method get_indexFilter addr 0x21ee078 size 0x8 virtual false final false
   inline ::GlobalNamespace::IndexFilter* get_indexFilter();
 
   static inline ::GlobalNamespace::BeatmapEventDataBox* New_ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType,
@@ -189,7 +191,7 @@ public:
                                                                  float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent,
                                                                  ::GlobalNamespace::EaseType eventDistributionEaseType);
 
-  /// @brief Method .ctor addr 0x233880c size 0x94 virtual false final false
+  /// @brief Method .ctor addr 0x21ee080 size 0x94 virtual false final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t beatDistributionParam,
                     ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent,
                     ::GlobalNamespace::EaseType eventDistributionEaseType);
@@ -198,20 +200,16 @@ public:
   inline void Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
                      ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
 
-  /// @brief Method GetBeatStep addr 0x23388ac size 0x20 virtual false final false
+  /// @brief Method GetBeatStep addr 0x21ee114 size 0x64 virtual false final false
   inline float_t GetBeatStep(float_t lastBaseEventRelativeBeat);
 
-  /// @brief Method GetDistribution addr 0x2338920 size 0x2c virtual false final false
+  /// @brief Method GetDistribution addr 0x21ee198 size 0x2c virtual false final false
   inline float_t GetDistribution(bool isFirstBaseDataEvent, int32_t distributionOrderIndex);
 
-  /// @brief Method BeatDistributionParamToStep addr 0x23389b8 size 0x20 virtual false final false
+  /// @brief Method BeatDistributionParamToStep addr 0x21ee178 size 0x20 virtual false final false
   static inline float_t BeatDistributionParamToStep(float_t distributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType distributionParamType, int32_t count);
 
-  /// @brief Method GetBeatStep addr 0x23388cc size 0x54 virtual false final false
-  static inline float_t GetBeatStep(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType distributionParamType, float_t distributionParam,
-                                    float_t lastBaseEventRelativeBeat);
-
-  /// @brief Method EventDistributionParamToStep addr 0x233894c size 0x6c virtual false final false
+  /// @brief Method EventDistributionParamToStep addr 0x21ee1c4 size 0x6c virtual false final false
   static inline float_t EventDistributionParamToStep(int32_t index, float_t distributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType distributionParamType, int32_t count,
                                                      ::GlobalNamespace::EaseType easeType);
 
@@ -257,6 +255,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapEventDataBox, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapEventDataBox, ____indexFilter_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapEventDataBox, ____beatDistributionParam) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapEventDataBox, ____beatDistributionParamType) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapEventDataBox, ____eventDistributionCount) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapEventDataBox, ____eventDistributionParamType) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapEventDataBox, ____eventDistributionParam) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapEventDataBox, ____eventDistributionShouldAffectFirstBaseEvent) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapEventDataBox, ____eventDistributionEaseType) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType, "", "BeatmapEventDataBox/DistributionParamType");

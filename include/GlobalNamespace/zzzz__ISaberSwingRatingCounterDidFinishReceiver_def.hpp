@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15015))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15162))
 // CS Name: ::ISaberSwingRatingCounterDidFinishReceiver*
 class CORDL_TYPE ISaberSwingRatingCounterDidFinishReceiver {
 public:

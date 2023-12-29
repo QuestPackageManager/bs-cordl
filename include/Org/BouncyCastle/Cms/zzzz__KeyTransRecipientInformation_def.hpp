@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(KeyTransRecipientInformation)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class KeyTransRecipientInfo;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsTypedStream;
+class CmsSecureReadable;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsSecureReadable;
+class CmsTypedStream;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -51,16 +51,16 @@ public:
   static inline ::Org::BouncyCastle::Cms::KeyTransRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info,
                                                                                  ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method .ctor addr 0x11e3700 size 0x21c virtual false final false
+  /// @brief Method .ctor addr 0x11724b0 size 0x21c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method GetExchangeEncryptionAlgorithmName addr 0x1205048 size 0x1c4 virtual false final false
+  /// @brief Method GetExchangeEncryptionAlgorithmName addr 0x1193df8 size 0x1c4 virtual false final false
   inline ::StringW GetExchangeEncryptionAlgorithmName(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algo);
 
-  /// @brief Method UnwrapKey addr 0x120520c size 0x388 virtual false final false
+  /// @brief Method UnwrapKey addr 0x1193fbc size 0x388 virtual false final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* UnwrapKey(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
-  /// @brief Method GetContentStream addr 0x1205594 size 0x1c virtual true final false
+  /// @brief Method GetContentStream addr 0x1194344 size 0x1c virtual true final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyTransRecipientInformation", modifiers: "&&", def_value: None }]
@@ -84,6 +84,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::KeyTransRecipientInformation, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::KeyTransRecipientInformation, ___info) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::KeyTransRecipientInformation);

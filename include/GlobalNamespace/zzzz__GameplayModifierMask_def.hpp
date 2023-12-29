@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::GameplayModifierMask);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14997))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15144))
 // CS Name: ::GameplayModifierMask
 struct CORDL_TYPE GameplayModifierMask {
 public:
@@ -121,6 +121,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayModifierMask, 0x2>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayModifierMask, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayModifierMask, "", "GameplayModifierMask");

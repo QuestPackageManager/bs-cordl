@@ -11,41 +11,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderChainVEData)
+namespace UnityEngine {
+struct Color;
+}
 namespace UnityEngine::UIElements::UIR {
 struct RenderDataDirtyTypes;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class BasicNode_1;
+class MeshHandle;
 }
 namespace UnityEngine::UIElements::UIR {
-struct TextureEntry;
+struct BMPAlloc;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace UnityEngine::UIElements::UIR {
+class RenderChainCommand;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements::UIR::Implementation {
 struct ClipMethod;
 }
 namespace UnityEngine::UIElements::UIR {
-class RenderChainCommand;
+template <typename T> class BasicNode_1;
 }
-namespace UnityEngine::UIElements::UIR {
-struct BMPAlloc;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::UIElements::UIR {
+struct TextureEntry;
 }
 namespace UnityEngine::UIElements::UIR {
 struct RenderChainTextEntry;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements::UIR {
-class MeshHandle;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -57,21 +57,21 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::RenderChainVEData);
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 360, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7445)), TypeDefinitionIndex(TypeDefinitionIndex(7394)), TypeDefinitionIndex(TypeDefinitionIndex(10245)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7374)), TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7396)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10172)), TypeDefinitionIndex(TypeDefinitionIndex(7531)), TypeDefinitionIndex(TypeDefinitionIndex(10178)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7480)), TypeDefinitionIndex(TypeDefinitionIndex(7460))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7482)) CS Name:
 // ::UnityEngine.UIElements.UIR::RenderChainVEData
 struct CORDL_TYPE RenderChainVEData {
 public:
   // Declarations
   __declspec(property(get = get_lastClosingOrLastCommand))::UnityEngine::UIElements::UIR::RenderChainCommand* lastClosingOrLastCommand;
 
-  /// @brief Method get_lastClosingOrLastCommand addr 0x2e91e18 size 0x18 virtual false final false
+  /// @brief Method get_lastClosingOrLastCommand addr 0x2d29a68 size 0x18 virtual false final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_lastClosingOrLastCommand();
 
-  /// @brief Method AllocatesID addr 0x2e91e30 size 0x34 virtual false final false
+  /// @brief Method AllocatesID addr 0x2d29a80 size 0x34 virtual false final false
   static inline bool AllocatesID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method InheritsID addr 0x2e91e64 size 0x30 virtual false final false
+  /// @brief Method InheritsID addr 0x2d29ab4 size 0x30 virtual false final false
   static inline bool InheritsID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
   // Ctor Parameters [CppParam { name: "prev", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "next", ty:
@@ -261,6 +261,94 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::RenderChainVEData, 0x158>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, prev) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, next) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, groupTransformAncestor) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, boneTransformAncestor) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, prevDirty) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, nextDirty) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, hierarchyDepth) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, dirtiedValues) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, dirtyID) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, firstCommand) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, lastCommand) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, firstClosingCommand) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, lastClosingCommand) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, isInChain) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, isHierarchyHidden) == 0x61, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, localFlipsWinding) == 0x62, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, localTransformScaleZero) == 0x63, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, worldFlipsWinding) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, clipMethod) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, childrenStencilRef) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, childrenMaskDepth) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, disableNudging) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, usesLegacyText) == 0x75, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, data) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, closingData) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, verticesSpace) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, displacementUVStart) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, displacementUVEnd) == 0xcc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, transformID) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, clipRectID) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, opacityID) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, textCoreSettingsID) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, backgroundColorID) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, borderLeftColorID) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, borderTopColorID) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, borderRightColorID) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, borderBottomColorID) == 0x110, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, tintColorID) == 0x118, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, compositeOpacity) == 0x120, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, backgroundColor) == 0x124, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, prevText) == 0x138, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, nextText) == 0x140, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, textEntries) == 0x148, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainVEData, textures) == 0x150, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::RenderChainVEData, "UnityEngine.UIElements.UIR", "RenderChainVEData");

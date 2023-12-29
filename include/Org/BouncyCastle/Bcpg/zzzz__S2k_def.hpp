@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(S2k)
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Bcpg {
+class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
 }
-namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -87,43 +87,43 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::S2k* New_ctor(::System::IO::Stream* inStr);
 
-  /// @brief Method .ctor addr 0x11d3144 size 0x198 virtual false final false
+  /// @brief Method .ctor addr 0x1161ef4 size 0x198 virtual false final false
   inline void _ctor(::System::IO::Stream* inStr);
 
   static inline ::Org::BouncyCastle::Bcpg::S2k* New_ctor(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm);
 
-  /// @brief Method .ctor addr 0x11d32dc size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x116208c size 0x30 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm);
 
   static inline ::Org::BouncyCastle::Bcpg::S2k* New_ctor(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor addr 0x11d330c size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x11620bc size 0x3c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
   static inline ::Org::BouncyCastle::Bcpg::S2k* New_ctor(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv, int32_t itCount);
 
-  /// @brief Method .ctor addr 0x11d3348 size 0x4c virtual false final false
+  /// @brief Method .ctor addr 0x11620f8 size 0x4c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv, int32_t itCount);
 
-  /// @brief Method get_Type addr 0x11d3394 size 0x8 virtual true final false
+  /// @brief Method get_Type addr 0x1162144 size 0x8 virtual true final false
   inline int32_t get_Type();
 
-  /// @brief Method get_HashAlgorithm addr 0x11d339c size 0x8 virtual true final false
+  /// @brief Method get_HashAlgorithm addr 0x116214c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Bcpg::HashAlgorithmTag get_HashAlgorithm();
 
-  /// @brief Method GetIV addr 0x11d33a4 size 0x5c virtual true final false
+  /// @brief Method GetIV addr 0x1162154 size 0x5c virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIV();
 
-  /// @brief Method GetIterationCount addr 0x11d3400 size 0xc virtual false final false
+  /// @brief Method GetIterationCount addr 0x11621b0 size 0xc virtual false final false
   inline int64_t GetIterationCount();
 
-  /// @brief Method get_IterationCount addr 0x11d340c size 0x20 virtual true final false
+  /// @brief Method get_IterationCount addr 0x11621bc size 0x20 virtual true final false
   inline int64_t get_IterationCount();
 
-  /// @brief Method get_ProtectionMode addr 0x11d342c size 0x8 virtual true final false
+  /// @brief Method get_ProtectionMode addr 0x11621dc size 0x8 virtual true final false
   inline int32_t get_ProtectionMode();
 
-  /// @brief Method Encode addr 0x11d3434 size 0xfc virtual true final false
+  /// @brief Method Encode addr 0x11621e4 size 0xfc virtual true final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "S2k", modifiers: "&&", def_value: None }]
@@ -180,6 +180,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::S2k, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::S2k, ___type) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::S2k, ___algorithm) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::S2k, ___iv) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::S2k, ___itCount) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::S2k, ___protectionMode) == 0x24, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::S2k);

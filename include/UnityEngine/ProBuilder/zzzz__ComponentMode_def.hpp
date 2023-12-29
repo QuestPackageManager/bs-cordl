@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::ComponentMode);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12154))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12082))
 // CS Name: ::UnityEngine.ProBuilder::ComponentMode
 struct CORDL_TYPE ComponentMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::ComponentMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::ComponentMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ComponentMode, "UnityEngine.ProBuilder", "ComponentMode");

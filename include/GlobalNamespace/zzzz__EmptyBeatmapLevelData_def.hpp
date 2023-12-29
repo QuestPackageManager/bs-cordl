@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EmptyBeatmapLevelData);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4387))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4409))
 // CS Name: ::EmptyBeatmapLevelData*
 class CORDL_TYPE EmptyBeatmapLevelData : public ::System::Object {
 public:
@@ -39,15 +39,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapLevelData"
   constexpr operator ::GlobalNamespace::IBeatmapLevelData*() noexcept;
 
-  /// @brief Method get_audioClip addr 0x2347dd4 size 0x8 virtual true final true
+  /// @brief Method get_audioClip addr 0x21fd708 size 0x8 virtual true final true
   inline ::UnityEngine::AudioClip* get_audioClip();
 
-  /// @brief Method get_difficultyBeatmapSets addr 0x2347ddc size 0x8 virtual true final true
+  /// @brief Method get_difficultyBeatmapSets addr 0x21fd710 size 0x8 virtual true final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
 
   static inline ::GlobalNamespace::EmptyBeatmapLevelData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2347dcc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21fd700 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EmptyBeatmapLevelData", modifiers: "&&", def_value: None }]

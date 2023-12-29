@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::ScrollViewMode);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7042))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7128))
 // CS Name: ::UnityEngine.UIElements::ScrollViewMode
 struct CORDL_TYPE ScrollViewMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ScrollViewMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ScrollViewMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ScrollViewMode, "UnityEngine.UIElements", "ScrollViewMode");

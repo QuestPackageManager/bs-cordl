@@ -6,14 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueTuple_2)
-namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System {
-class IValueTupleInternal;
+namespace System::Collections {
+class IStructuralComparable;
 }
 namespace System::Collections {
-class IStructuralEquatable;
+class IEqualityComparer;
 }
 namespace System {
 class Object;
@@ -21,20 +18,23 @@ class Object;
 namespace System::Collections {
 class IComparer;
 }
-namespace System::Collections {
-class IStructuralComparable;
-}
 namespace System {
-template <typename T> class IEquatable_1;
+template <typename T> class IComparable_1;
 }
 namespace System::Runtime::CompilerServices {
 class ITuple;
 }
-namespace System::Collections {
-class IEqualityComparer;
+namespace System {
+class IValueTupleInternal;
 }
 namespace System {
 class IComparable;
+}
+namespace System::Collections {
+class IStructuralEquatable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace System {
@@ -49,7 +49,7 @@ namespace System {
 template <typename T1, typename T2>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2507))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2505))
 // CS Name: ::System::ValueTuple`2<T1,T2>
 struct CORDL_TYPE ValueTuple_2 {
 public:

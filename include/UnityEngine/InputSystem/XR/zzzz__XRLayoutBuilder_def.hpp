@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRLayoutBuilder)
+namespace UnityEngine::InputSystem::XR {
+struct FeatureType;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class InputDeviceExecuteCommandDelegate;
+}
 namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceDescription;
 }
+namespace UnityEngine::InputSystem::Layouts {
+class InputControlLayout;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::InputSystem::XR {
-struct XRFeatureDescriptor;
+class XRDeviceDescriptor;
 }
 namespace UnityEngine::InputSystem::XR {
 class __XRLayoutBuilder____c__DisplayClass5_0;
 }
 namespace UnityEngine::InputSystem::XR {
-struct FeatureType;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class InputControlLayout;
-}
-namespace UnityEngine::InputSystem::XR {
-class XRDeviceDescriptor;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class InputDeviceExecuteCommandDelegate;
+struct XRFeatureDescriptor;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__DisplayCl
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6330))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6416))
 // CS Name: ::XRLayoutBuilder::<>c__DisplayClass5_0*
 class CORDL_TYPE __XRLayoutBuilder____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -63,10 +63,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ac7288 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2948540 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <OnFindLayoutForDevice>b__0 addr 0x2ac8310 size 0x18 virtual false final false
+  /// @brief Method <OnFindLayoutForDevice>b__0 addr 0x29495c8 size 0x18 virtual false final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* _OnFindLayoutForDevice_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__XRLayoutBuilder____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
@@ -91,13 +91,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__DisplayClass5_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__DisplayClass5_0, ___layout) == 0x10, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::XR
 // Type: UnityEngine.InputSystem.XR::XRLayoutBuilder
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6331))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6417))
 // CS Name: ::UnityEngine.InputSystem.XR::XRLayoutBuilder*
 class CORDL_TYPE XRLayoutBuilder : public ::System::Object {
 public:
@@ -146,34 +148,34 @@ public:
 
   static inline ::ArrayW<::UnityEngine::InputSystem::XR::FeatureType, ::Array<::UnityEngine::InputSystem::XR::FeatureType>*> getStaticF_poseSubControlTypes();
 
-  /// @brief Method GetSizeOfFeature addr 0x2ac6c5c size 0x78 virtual false final false
+  /// @brief Method GetSizeOfFeature addr 0x2947f14 size 0x78 virtual false final false
   static inline uint32_t GetSizeOfFeature(::UnityEngine::InputSystem::XR::XRFeatureDescriptor featureDescriptor);
 
-  /// @brief Method SanitizeString addr 0x2ac6cd4 size 0x160 virtual false final false
+  /// @brief Method SanitizeString addr 0x2947f8c size 0x160 virtual false final false
   static inline ::StringW SanitizeString(::StringW original, bool allowPaths);
 
-  /// @brief Method OnFindLayoutForDevice addr 0x2ac6e34 size 0x454 virtual false final false
+  /// @brief Method OnFindLayoutForDevice addr 0x29480ec size 0x454 virtual false final false
   static inline ::StringW OnFindLayoutForDevice(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                                                 ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeCommandDelegate);
 
-  /// @brief Method ConvertPotentialAliasToName addr 0x2ac7298 size 0x17c virtual false final false
+  /// @brief Method ConvertPotentialAliasToName addr 0x2948550 size 0x17c virtual false final false
   static inline ::StringW ConvertPotentialAliasToName(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout, ::StringW nameOrAlias);
 
-  /// @brief Method IsSubControl addr 0x2ac7414 size 0x1c virtual false final false
+  /// @brief Method IsSubControl addr 0x29486cc size 0x1c virtual false final false
   inline bool IsSubControl(::StringW name);
 
-  /// @brief Method GetParentControlName addr 0x2ac7430 size 0x38 virtual false final false
+  /// @brief Method GetParentControlName addr 0x29486e8 size 0x38 virtual false final false
   inline ::StringW GetParentControlName(::StringW name);
 
-  /// @brief Method IsPoseControl addr 0x2ac7468 size 0x154 virtual false final false
+  /// @brief Method IsPoseControl addr 0x2948720 size 0x154 virtual false final false
   inline bool IsPoseControl(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>* features, int32_t startIndex);
 
-  /// @brief Method Build addr 0x2ac75bc size 0xb04 virtual false final false
+  /// @brief Method Build addr 0x2948874 size 0xb04 virtual false final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* Build();
 
   static inline ::UnityEngine::InputSystem::XR::XRLayoutBuilder* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ac7290 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2948548 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XRLayoutBuilder", modifiers: "&&", def_value: None }]
@@ -203,6 +205,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::XRLayoutBuilder, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::XRLayoutBuilder, ___parentLayout) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::XRLayoutBuilder, ___interfaceName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::XRLayoutBuilder, ___descriptor) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::XR
 NEED_NO_BOX(::UnityEngine::InputSystem::XR::XRLayoutBuilder);

@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ClientContextReplySink)
 namespace System::Runtime::Remoting::Messaging {
-class IMessageCtrl;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
 namespace System::Runtime::Remoting::Contexts {
 class Context;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageCtrl;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ClientContextReplySink);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3159))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3158))
 // CS Name: ::System.Runtime.Remoting.Messaging::ClientContextReplySink*
 class CORDL_TYPE ClientContextReplySink : public ::System::Object {
 public:
@@ -56,13 +56,13 @@ public:
   static inline ::System::Runtime::Remoting::Messaging::ClientContextReplySink* New_ctor(::System::Runtime::Remoting::Contexts::Context* ctx,
                                                                                          ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method .ctor addr 0x24aaf1c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2352428 size 0x2c virtual false final false
   inline void _ctor(::System::Runtime::Remoting::Contexts::Context* ctx, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method SyncProcessMessage addr 0x24aaf48 size 0x104 virtual true final true
+  /// @brief Method SyncProcessMessage addr 0x2352454 size 0x104 virtual true final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method AsyncProcessMessage addr 0x24ab04c size 0x40 virtual true final true
+  /// @brief Method AsyncProcessMessage addr 0x2352558 size 0x40 virtual true final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
@@ -90,6 +90,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::ClientContextReplySink, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::ClientContextReplySink, ____replySink) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::ClientContextReplySink, ____context) == 0x18, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::ClientContextReplySink);

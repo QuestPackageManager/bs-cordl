@@ -19,15 +19,15 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::MatchResult);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7480))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7481))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7566))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7567))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::MatchResult
 struct CORDL_TYPE MatchResult {
 public:
   // Declarations
   __declspec(property(get = get_success)) bool success;
 
-  /// @brief Method get_success addr 0x2df1400 size 0x10 virtual false final false
+  /// @brief Method get_success addr 0x2c8a050 size 0x10 virtual false final false
   inline bool get_success();
 
   // Ctor Parameters [CppParam { name: "errorCode", ty: "::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode", modifiers: "", def_value: None }, CppParam { name: "errorValue", ty:
@@ -51,6 +51,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::MatchResult, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::MatchResult, errorCode) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::MatchResult, errorValue) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::MatchResult, "UnityEngine.UIElements.StyleSheets", "MatchResult");

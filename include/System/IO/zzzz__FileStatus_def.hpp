@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileStatus)
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-struct DateTimeOffset;
-}
 namespace System::IO {
 struct FileAttributes;
 }
 namespace GlobalNamespace {
 struct __Interop__Sys__FileStatus;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+struct DateTimeOffset;
 }
 // Forward declare root types
 namespace System::IO {
@@ -30,44 +30,44 @@ MARK_VAL_T(::System::IO::FileStatus);
 namespace System::IO {
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2215))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3594))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3583))
 // CS Name: ::System.IO::FileStatus
 struct CORDL_TYPE FileStatus {
 public:
   // Declarations
   __declspec(property(get = get_InitiallyDirectory, put = set_InitiallyDirectory)) bool InitiallyDirectory;
 
-  /// @brief Method get_InitiallyDirectory addr 0x250e1e0 size 0x8 virtual false final false
+  /// @brief Method get_InitiallyDirectory addr 0x23b1d38 size 0x8 virtual false final false
   inline bool get_InitiallyDirectory();
 
-  /// @brief Method set_InitiallyDirectory addr 0x250e1e8 size 0xc virtual false final false
+  /// @brief Method set_InitiallyDirectory addr 0x23b1d40 size 0xc virtual false final false
   inline void set_InitiallyDirectory(bool value);
 
-  /// @brief Method Initialize addr 0x250e1f4 size 0x14 virtual false final false
+  /// @brief Method Initialize addr 0x23b1d4c size 0x14 virtual false final false
   static inline void Initialize(ByRef<::System::IO::FileStatus> status, bool isDirectory);
 
-  /// @brief Method IsReadOnly addr 0x250e208 size 0xf0 virtual false final false
+  /// @brief Method IsReadOnly addr 0x23b1d60 size 0xf0 virtual false final false
   inline bool IsReadOnly(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method GetAttributes addr 0x250e3b4 size 0xe8 virtual false final false
+  /// @brief Method GetAttributes addr 0x23b1f0c size 0xe8 virtual false final false
   inline ::System::IO::FileAttributes GetAttributes(::System::ReadOnlySpan_1<char16_t> path, ::System::ReadOnlySpan_1<char16_t> fileName);
 
-  /// @brief Method GetExists addr 0x250e49c size 0x44 virtual false final false
+  /// @brief Method GetExists addr 0x23b1ff4 size 0x44 virtual false final false
   inline bool GetExists(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method GetLastWriteTime addr 0x250e674 size 0x9c virtual false final false
+  /// @brief Method GetLastWriteTime addr 0x23b21cc size 0x9c virtual false final false
   inline ::System::DateTimeOffset GetLastWriteTime(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method UnixTimeToDateTimeOffset addr 0x250e710 size 0xb4 virtual false final false
+  /// @brief Method UnixTimeToDateTimeOffset addr 0x23b2268 size 0xb4 virtual false final false
   inline ::System::DateTimeOffset UnixTimeToDateTimeOffset(int64_t seconds, int64_t nanoseconds);
 
-  /// @brief Method GetLength addr 0x250e7c4 size 0x1c virtual false final false
+  /// @brief Method GetLength addr 0x23b231c size 0x1c virtual false final false
   inline int64_t GetLength(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method Refresh addr 0x250e4e0 size 0x194 virtual false final false
+  /// @brief Method Refresh addr 0x23b2038 size 0x194 virtual false final false
   inline void Refresh(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method EnsureStatInitialized addr 0x250e2f8 size 0xbc virtual false final false
+  /// @brief Method EnsureStatInitialized addr 0x23b1e50 size 0xbc virtual false final false
   inline void EnsureStatInitialized(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
   // Ctor Parameters [CppParam { name: "_fileStatus", ty: "::GlobalNamespace::__Interop__Sys__FileStatus", modifiers: "", def_value: None }, CppParam { name: "_fileStatusInitialized", ty: "int32_t",
@@ -101,6 +101,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::FileStatus, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::System::IO::FileStatus, _fileStatus) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::FileStatus, _fileStatusInitialized) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::FileStatus, _InitiallyDirectory_k__BackingField) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::FileStatus, _isDirectory) == 0x75, "Offset mismatch!");
+
+static_assert(offsetof(::System::IO::FileStatus, _exists) == 0x76, "Offset mismatch!");
 
 } // namespace System::IO
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::FileStatus, "System.IO", "FileStatus");

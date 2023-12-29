@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ParticleSystemStopBehavior);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15894))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15786))
 // CS Name: ::UnityEngine::ParticleSystemStopBehavior
 struct CORDL_TYPE ParticleSystemStopBehavior {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ParticleSystemStopBehavior, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ParticleSystemStopBehavior, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ParticleSystemStopBehavior, "UnityEngine", "ParticleSystemStopBehavior");

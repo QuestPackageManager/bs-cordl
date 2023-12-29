@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CertificateStatus)
-namespace Org::BouncyCastle::Cms {
-class DefaultSignatureAlgorithmIdentifierFinder;
+namespace Org::BouncyCastle::Asn1::Cmp {
+class CertStatus;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiStatusInfo;
+}
+namespace Org::BouncyCastle::Cms {
+class DefaultSignatureAlgorithmIdentifierFinder;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class CertStatus;
 }
 namespace Org::BouncyCastle::Cms {
 class DefaultDigestAlgorithmIdentifierFinder;
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cmp::CertificateStatus);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(603))
 // CS Name: ::Org.BouncyCastle.Cmp::CertificateStatus*
 class CORDL_TYPE CertificateStatus : public ::System::Object {
@@ -70,16 +70,16 @@ public:
   static inline ::Org::BouncyCastle::Cmp::CertificateStatus* New_ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder,
                                                                       ::Org::BouncyCastle::Asn1::Cmp::CertStatus* certStatus);
 
-  /// @brief Method .ctor addr 0x11d5510 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x11642c0 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder, ::Org::BouncyCastle::Asn1::Cmp::CertStatus* certStatus);
 
-  /// @brief Method get_PkiStatusInfo addr 0x11d5c9c size 0x20 virtual false final false
+  /// @brief Method get_PkiStatusInfo addr 0x1164a4c size 0x20 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_PkiStatusInfo();
 
-  /// @brief Method get_CertRequestId addr 0x11d5cbc size 0x2c virtual false final false
+  /// @brief Method get_CertRequestId addr 0x1164a6c size 0x2c virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_CertRequestId();
 
-  /// @brief Method IsVerified addr 0x11d5ce8 size 0x1f0 virtual false final false
+  /// @brief Method IsVerified addr 0x1164a98 size 0x1f0 virtual false final false
   inline bool IsVerified(::Org::BouncyCastle::X509::X509Certificate* cert);
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateStatus", modifiers: "&&", def_value: None }]
@@ -106,6 +106,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cmp::CertificateStatus, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cmp::CertificateStatus, ___digestAlgFinder) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cmp::CertificateStatus, ___certStatus) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Cmp::CertificateStatus);

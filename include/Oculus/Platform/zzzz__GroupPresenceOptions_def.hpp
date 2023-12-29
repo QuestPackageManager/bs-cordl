@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::Oculus::Platform::GroupPresenceOptions);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13245))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13249))
 // CS Name: ::Oculus.Platform::GroupPresenceOptions*
 class CORDL_TYPE GroupPresenceOptions : public ::System::Object {
 public:
@@ -34,28 +34,28 @@ public:
 
   static inline ::Oculus::Platform::GroupPresenceOptions* New_ctor();
 
-  /// @brief Method .ctor addr 0x26ca1e0 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x258f45c size 0x64 virtual false final false
   inline void _ctor();
 
-  /// @brief Method SetDeeplinkMessageOverride addr 0x26ec80c size 0x68 virtual false final false
+  /// @brief Method SetDeeplinkMessageOverride addr 0x258f4c0 size 0x68 virtual false final false
   inline void SetDeeplinkMessageOverride(::StringW value);
 
-  /// @brief Method SetDestinationApiName addr 0x26ca244 size 0x68 virtual false final false
+  /// @brief Method SetDestinationApiName addr 0x258f528 size 0x68 virtual false final false
   inline void SetDestinationApiName(::StringW value);
 
-  /// @brief Method SetIsJoinable addr 0x26ca37c size 0x68 virtual false final false
+  /// @brief Method SetIsJoinable addr 0x258f590 size 0x68 virtual false final false
   inline void SetIsJoinable(bool value);
 
-  /// @brief Method SetLobbySessionId addr 0x26ca314 size 0x68 virtual false final false
+  /// @brief Method SetLobbySessionId addr 0x258f5f8 size 0x68 virtual false final false
   inline void SetLobbySessionId(::StringW value);
 
-  /// @brief Method SetMatchSessionId addr 0x26ca2ac size 0x68 virtual false final false
+  /// @brief Method SetMatchSessionId addr 0x258f660 size 0x68 virtual false final false
   inline void SetMatchSessionId(::StringW value);
 
-  /// @brief Method op_Explicit addr 0x26ec874 size 0x58 virtual false final false
+  /// @brief Method op_Explicit addr 0x258f6c8 size 0x58 virtual false final false
   static inline void* op_Explicit_void_(::Oculus::Platform::GroupPresenceOptions* options);
 
-  /// @brief Method Finalize addr 0x26ec8cc size 0xd4 virtual true final false
+  /// @brief Method Finalize addr 0x258f720 size 0xd4 virtual true final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "GroupPresenceOptions", modifiers: "&&", def_value: None }]
@@ -79,6 +79,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::GroupPresenceOptions, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::GroupPresenceOptions, ___Handle) == 0x10, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::GroupPresenceOptions);

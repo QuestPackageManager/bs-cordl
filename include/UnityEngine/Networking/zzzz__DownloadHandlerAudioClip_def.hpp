@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DownloadHandlerAudioClip)
+namespace UnityEngine::Networking {
+class UnityWebRequest;
+}
 namespace UnityEngine {
 struct AudioType;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine {
 class AudioClip;
 }
-namespace UnityEngine::Networking {
-class UnityWebRequest;
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::UnityEngine::Networking::DownloadHandlerAudioClip);
 // SizeInfo { instance_size: 40, native_size: 24, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(15580)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(16162)) CS Name: ::UnityEngine.Networking::DownloadHandlerAudioClip*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 730 }), TypeDefinitionIndex(TypeDefinitionIndex(9927)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15564))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16002)) CS Name: ::UnityEngine.Networking::DownloadHandlerAudioClip*
 class CORDL_TYPE DownloadHandlerAudioClip : public ::UnityEngine::Networking::DownloadHandler {
 public:
   // Declarations
@@ -47,33 +47,33 @@ public:
 
   constexpr void __set_m_NativeData(::Unity::Collections::NativeArray_1<uint8_t> value);
 
-  /// @brief Method Create addr 0x2eac068 size 0x54 virtual false final false
+  /// @brief Method Create addr 0x2d4327c size 0x54 virtual false final false
   static inline void* Create(::UnityEngine::Networking::DownloadHandlerAudioClip* obj, ::StringW url, ::UnityEngine::AudioType audioType);
 
-  /// @brief Method InternalCreateAudioClip addr 0x2eac0bc size 0x5c virtual false final false
+  /// @brief Method InternalCreateAudioClip addr 0x2d432d0 size 0x5c virtual false final false
   inline void InternalCreateAudioClip(::StringW url, ::UnityEngine::AudioType audioType);
 
   static inline ::UnityEngine::Networking::DownloadHandlerAudioClip* New_ctor(::StringW url, ::UnityEngine::AudioType audioType);
 
-  /// @brief Method .ctor addr 0x2eac004 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x2d43218 size 0x64 virtual false final false
   inline void _ctor(::StringW url, ::UnityEngine::AudioType audioType);
 
-  /// @brief Method GetNativeData addr 0x2eac118 size 0xc virtual true final false
+  /// @brief Method GetNativeData addr 0x2d4332c size 0xc virtual true final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> GetNativeData();
 
-  /// @brief Method Dispose addr 0x2eac124 size 0x24 virtual true final false
+  /// @brief Method Dispose addr 0x2d43338 size 0x24 virtual true final false
   inline void Dispose();
 
-  /// @brief Method GetText addr 0x2eac148 size 0x50 virtual true final false
+  /// @brief Method GetText addr 0x2d4335c size 0x50 virtual true final false
   inline ::StringW GetText();
 
-  /// @brief Method get_audioClip addr 0x2eac198 size 0x3c virtual false final false
+  /// @brief Method get_audioClip addr 0x2d433ac size 0x3c virtual false final false
   inline ::UnityEngine::AudioClip* get_audioClip();
 
-  /// @brief Method set_streamAudio addr 0x2eac1d4 size 0x44 virtual false final false
+  /// @brief Method set_streamAudio addr 0x2d433e8 size 0x44 virtual false final false
   inline void set_streamAudio(bool value);
 
-  /// @brief Method GetContent addr 0x2eac218 size 0x7c virtual false final false
+  /// @brief Method GetContent addr 0x2d4342c size 0x7c virtual false final false
   static inline ::UnityEngine::AudioClip* GetContent(::UnityEngine::Networking::UnityWebRequest* www);
 
   // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAudioClip", modifiers: "&&", def_value: None }]
@@ -97,6 +97,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::DownloadHandlerAudioClip, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Networking::DownloadHandlerAudioClip, ___m_NativeData) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::Networking
 NEED_NO_BOX(::UnityEngine::Networking::DownloadHandlerAudioClip);

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TooltipEvent);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1725 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7180))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7174)) CS Name: ::UnityEngine.UIElements::TooltipEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7266)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7266), inst: 1658 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10093))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7260)) CS Name: ::UnityEngine.UIElements::TooltipEvent*
 class CORDL_TYPE TooltipEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::TooltipEvent*> {
 public:
   // Declarations
@@ -46,21 +46,21 @@ public:
 
   constexpr void __set__rect_k__BackingField(::UnityEngine::Rect value);
 
-  /// @brief Method set_tooltip addr 0x2e4cfe8 size 0x8 virtual false final false
+  /// @brief Method set_tooltip addr 0x2ce4c38 size 0x8 virtual false final false
   inline void set_tooltip(::StringW value);
 
-  /// @brief Method set_rect addr 0x2e4cff0 size 0xc virtual false final false
+  /// @brief Method set_rect addr 0x2ce4c40 size 0xc virtual false final false
   inline void set_rect(::UnityEngine::Rect value);
 
-  /// @brief Method Init addr 0x2e4cffc size 0x90 virtual true final false
+  /// @brief Method Init addr 0x2ce4c4c size 0x90 virtual true final false
   inline void Init();
 
-  /// @brief Method LocalInit addr 0x2e4d08c size 0x5c virtual false final false
+  /// @brief Method LocalInit addr 0x2ce4cdc size 0x5c virtual false final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::TooltipEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e4d104 size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0x2ce4d54 size 0xb4 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TooltipEvent", modifiers: "&&", def_value: None }]
@@ -87,6 +87,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TooltipEvent, 0x98>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TooltipEvent, ____tooltip_k__BackingField) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TooltipEvent, ____rect_k__BackingField) == 0x88, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::TooltipEvent);

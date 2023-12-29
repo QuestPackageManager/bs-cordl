@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::Unsafe);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3424))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3419))
 // CS Name: ::System.Runtime.CompilerServices::Unsafe*
 class CORDL_TYPE Unsafe : public ::System::Object {
 public:
@@ -55,7 +55,7 @@ public:
   /// @brief Method AsRef addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline ByRef<T> AsRef(ByRef<T> source);
 
-  /// @brief Method InitBlockUnaligned addr 0x24dee78 size 0x8 virtual false final false
+  /// @brief Method InitBlockUnaligned addr 0x23843e4 size 0x8 virtual false final false
   static inline void InitBlockUnaligned(ByRef<uint8_t> startAddress, uint8_t value, uint32_t byteCount);
 
   /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual false final false

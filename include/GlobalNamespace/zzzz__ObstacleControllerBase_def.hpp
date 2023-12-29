@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleControllerBase);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4793))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4914))
 // CS Name: ::ObstacleControllerBase*
 class CORDL_TYPE ObstacleControllerBase : public ::UnityEngine::MonoBehaviour {
 public:
@@ -45,27 +45,27 @@ public:
 
   constexpr void __set_didStartDissolvingEvent(::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>* value);
 
-  /// @brief Method add_didInitEvent addr 0x238e160 size 0xb0 virtual false final false
+  /// @brief Method add_didInitEvent addr 0x2259d34 size 0xb0 virtual false final false
   inline void add_didInitEvent(::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>* value);
 
-  /// @brief Method remove_didInitEvent addr 0x238e210 size 0xb0 virtual false final false
+  /// @brief Method remove_didInitEvent addr 0x2259de4 size 0xb0 virtual false final false
   inline void remove_didInitEvent(::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>* value);
 
-  /// @brief Method add_didStartDissolvingEvent addr 0x238cff0 size 0xb0 virtual false final false
+  /// @brief Method add_didStartDissolvingEvent addr 0x2258bc4 size 0xb0 virtual false final false
   inline void add_didStartDissolvingEvent(::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>* value);
 
-  /// @brief Method remove_didStartDissolvingEvent addr 0x238ca3c size 0xb0 virtual false final false
+  /// @brief Method remove_didStartDissolvingEvent addr 0x2258638 size 0xb0 virtual false final false
   inline void remove_didStartDissolvingEvent(::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>* value);
 
-  /// @brief Method InvokeDidInitEvent addr 0x238d0a0 size 0x1c virtual false final false
+  /// @brief Method InvokeDidInitEvent addr 0x2258c74 size 0x1c virtual false final false
   inline void InvokeDidInitEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController);
 
-  /// @brief Method InvokeDidStartDissolvingEvent addr 0x238d0dc size 0x1c virtual false final false
+  /// @brief Method InvokeDidStartDissolvingEvent addr 0x2258cb0 size 0x1c virtual false final false
   inline void InvokeDidStartDissolvingEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController, float_t duration);
 
   static inline ::GlobalNamespace::ObstacleControllerBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x238d100 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2258cd4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleControllerBase", modifiers: "&&", def_value: None }]
@@ -92,6 +92,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObstacleControllerBase, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleControllerBase, ___didInitEvent) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleControllerBase, ___didStartDissolvingEvent) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ObstacleControllerBase);

@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ActionInstaller)
 namespace Zenject {
-class DiContainer;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
 class InjectTypeInfo;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::Zenject::ActionInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11131), inst: 3902 }), TypeDefinitionIndex(TypeDefinitionIndex(11131))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11346))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11059), inst: 3811 }), TypeDefinitionIndex(TypeDefinitionIndex(11059))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11274))
 // CS Name: ::Zenject::ActionInstaller*
 class CORDL_TYPE ActionInstaller : public ::Zenject::Installer_1<::Zenject::ActionInstaller*> {
 public:
@@ -44,16 +44,16 @@ public:
 
   static inline ::Zenject::ActionInstaller* New_ctor(::System::Action_1<::Zenject::DiContainer*>* installMethod);
 
-  /// @brief Method .ctor addr 0x2f0bb0c size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x2da3d3c size 0x5c virtual false final false
   inline void _ctor(::System::Action_1<::Zenject::DiContainer*>* installMethod);
 
-  /// @brief Method InstallBindings addr 0x2f1cd14 size 0x28 virtual true final false
+  /// @brief Method InstallBindings addr 0x2db4f44 size 0x28 virtual true final false
   inline void InstallBindings();
 
-  /// @brief Method __zenCreate addr 0x2f1cd3c size 0xb4 virtual false final false
+  /// @brief Method __zenCreate addr 0x2db4f6c size 0xb4 virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f1cdf0 size 0x274 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2db5020 size 0x274 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "ActionInstaller", modifiers: "&&", def_value: None }]
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::ActionInstaller, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::ActionInstaller, ____installMethod) == 0x18, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::ActionInstaller);

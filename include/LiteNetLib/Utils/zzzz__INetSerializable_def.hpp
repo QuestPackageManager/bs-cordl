@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::LiteNetLib::Utils::INetSerializable);
 namespace LiteNetLib::Utils {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14193))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14531))
 // CS Name: ::LiteNetLib.Utils::INetSerializable*
 class CORDL_TYPE INetSerializable {
 public:

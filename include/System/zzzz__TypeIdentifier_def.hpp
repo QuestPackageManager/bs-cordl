@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::TypeIdentifier);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2628))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2626))
 // CS Name: ::System::TypeIdentifier*
 class CORDL_TYPE TypeIdentifier {
 public:

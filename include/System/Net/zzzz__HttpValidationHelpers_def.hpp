@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Net::HttpValidationHelpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9022))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7859))
 // CS Name: ::System.Net::HttpValidationHelpers*
 class CORDL_TYPE HttpValidationHelpers : public ::System::Object {
 public:
@@ -29,7 +29,7 @@ public:
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_s_httpTrimCharacters();
 
-  /// @brief Method IsInvalidMethodOrHeaderString addr 0x2988ce0 size 0x100 virtual false final false
+  /// @brief Method IsInvalidMethodOrHeaderString addr 0x280b470 size 0x100 virtual false final false
   static inline bool IsInvalidMethodOrHeaderString(::StringW stringValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpValidationHelpers", modifiers: "&&", def_value: None }]

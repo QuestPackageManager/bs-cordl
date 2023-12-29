@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflecti
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10409))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10331))
 // CS Name: ::UnityEngine.Experimental.Rendering::ScriptableRuntimeReflectionSystemWrapper*
 class CORDL_TYPE ScriptableRuntimeReflectionSystemWrapper : public ::System::Object {
 public:
@@ -36,18 +36,18 @@ public:
 
   constexpr void __set__implementation_k__BackingField(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
-  /// @brief Method get_implementation addr 0x2cf45ac size 0x8 virtual false final false
+  /// @brief Method get_implementation addr 0x2b8c26c size 0x8 virtual false final false
   inline ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* get_implementation();
 
-  /// @brief Method set_implementation addr 0x2cf45b4 size 0x8 virtual false final false
+  /// @brief Method set_implementation addr 0x2b8c274 size 0x8 virtual false final false
   inline void set_implementation(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
-  /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes addr 0x2cf45bc size 0xb4 virtual false final false
+  /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes addr 0x2b8c27c size 0xb4 virtual false final false
   inline void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(ByRef<bool> result);
 
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cf45a4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2b8c264 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRuntimeReflectionSystemWrapper", modifiers: "&&", def_value: None }]
@@ -71,6 +71,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper, ____implementation_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::Experimental::Rendering
 NEED_NO_BOX(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper);

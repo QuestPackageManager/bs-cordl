@@ -3,11 +3,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ILease)
-namespace System {
-struct TimeSpan;
-}
 namespace System::Runtime::Remoting::Lifetime {
 struct LeaseState;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Lifetime {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Lifetime::ILease);
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3090))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3089))
 // CS Name: ::System.Runtime.Remoting.Lifetime::ILease*
 class CORDL_TYPE ILease {
 public:

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PerceivedLoudnessPerLevelModel)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace GlobalNamespace {
 class PerceivedLoudnessPerLevelSO;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PerceivedLoudnessPerLevelModel);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4418))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4439))
 // CS Name: ::PerceivedLoudnessPerLevelModel*
 class CORDL_TYPE PerceivedLoudnessPerLevelModel : public ::System::Object {
 public:
@@ -39,19 +39,19 @@ public:
 
   static inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel* New_ctor(::GlobalNamespace::PerceivedLoudnessPerLevelSO* loudnessPerLeveData);
 
-  /// @brief Method .ctor addr 0x234d664 size 0xfc virtual false final false
+  /// @brief Method .ctor addr 0x22013a8 size 0xfc virtual false final false
   inline void _ctor(::GlobalNamespace::PerceivedLoudnessPerLevelSO* loudnessPerLeveData);
 
-  /// @brief Method ContainsLevelId addr 0x234d760 size 0x58 virtual false final false
+  /// @brief Method ContainsLevelId addr 0x22014a4 size 0x58 virtual false final false
   inline bool ContainsLevelId(::StringW levelId);
 
-  /// @brief Method GetLoudnessCorrectionByLevelId addr 0x234d7b8 size 0x20 virtual false final false
+  /// @brief Method GetLoudnessCorrectionByLevelId addr 0x22014fc size 0x20 virtual false final false
   inline float_t GetLoudnessCorrectionByLevelId(::StringW levelId);
 
-  /// @brief Method GetMaxSfxVolumeByLevelId addr 0x234d854 size 0x18 virtual false final false
+  /// @brief Method GetMaxSfxVolumeByLevelId addr 0x2201598 size 0x18 virtual false final false
   inline float_t GetMaxSfxVolumeByLevelId(::StringW levelId);
 
-  /// @brief Method GetLoudnessByLevelId addr 0x234d7d8 size 0x7c virtual false final false
+  /// @brief Method GetLoudnessByLevelId addr 0x220151c size 0x7c virtual false final false
   inline float_t GetLoudnessByLevelId(::StringW levelId);
 
   // Ctor Parameters [CppParam { name: "", ty: "PerceivedLoudnessPerLevelModel", modifiers: "&&", def_value: None }]
@@ -84,6 +84,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerceivedLoudnessPerLevelModel, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PerceivedLoudnessPerLevelModel, ____loudnessLevelPerLevelId) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PerceivedLoudnessPerLevelModel);

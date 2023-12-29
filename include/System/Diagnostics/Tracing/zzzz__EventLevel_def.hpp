@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Diagnostics::Tracing::EventLevel);
 namespace System::Diagnostics::Tracing {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3743))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3731))
 // CS Name: ::System.Diagnostics.Tracing::EventLevel
 struct CORDL_TYPE EventLevel {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::Tracing::EventLevel, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Tracing::EventLevel, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Diagnostics::Tracing
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::Tracing::EventLevel, "System.Diagnostics.Tracing", "EventLevel");

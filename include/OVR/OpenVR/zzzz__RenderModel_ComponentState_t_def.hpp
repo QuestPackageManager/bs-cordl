@@ -19,8 +19,8 @@ MARK_VAL_T(::OVR::OpenVR::RenderModel_ComponentState_t);
 // SizeInfo { instance_size: 100, native_size: 100, calculated_instance_size: 100, calculated_native_size: 116, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8644))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8711))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9413))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9480))
 // CS Name: ::OVR.OpenVR::RenderModel_ComponentState_t
 struct CORDL_TYPE RenderModel_ComponentState_t {
 public:
@@ -49,6 +49,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::RenderModel_ComponentState_t, 0x64>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::RenderModel_ComponentState_t, mTrackingToComponentRenderModel) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::RenderModel_ComponentState_t, mTrackingToComponentLocal) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::RenderModel_ComponentState_t, uProperties) == 0x60, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::RenderModel_ComponentState_t, "OVR.OpenVR", "RenderModel_ComponentState_t");

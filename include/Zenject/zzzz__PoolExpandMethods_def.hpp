@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::PoolExpandMethods);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10950))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10878))
 // CS Name: ::Zenject::PoolExpandMethods
 struct CORDL_TYPE PoolExpandMethods {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::PoolExpandMethods, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::PoolExpandMethods, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Zenject
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::PoolExpandMethods, "Zenject", "PoolExpandMethods");

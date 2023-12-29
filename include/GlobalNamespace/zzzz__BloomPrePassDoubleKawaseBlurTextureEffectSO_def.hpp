@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassDoubleKawaseBlurTextureEffectSO)
-namespace GlobalNamespace {
-class KawaseBlurRendererSO;
-}
 namespace UnityEngine {
 class RenderTexture;
+}
+namespace GlobalNamespace {
+class KawaseBlurRendererSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14470)), TypeDefinitionIndex(TypeDefinitionIndex(14503))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15313))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14721)), TypeDefinitionIndex(TypeDefinitionIndex(14688))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15342))
 // CS Name: ::BloomPrePassDoubleKawaseBlurTextureEffectSO*
 class CORDL_TYPE BloomPrePassDoubleKawaseBlurTextureEffectSO : public ::GlobalNamespace::BloomPrePassEffectSO {
 public:
@@ -101,12 +101,12 @@ public:
 
   constexpr void __set__kawaseBlurRenderer(::GlobalNamespace::KawaseBlurRendererSO* value);
 
-  /// @brief Method Render addr 0x280c2d4 size 0x38 virtual true final false
+  /// @brief Method Render addr 0x2691678 size 0x38 virtual true final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   static inline ::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x280c30c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x26916b0 size 0x2c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassDoubleKawaseBlurTextureEffectSO", modifiers: "&&", def_value: None }]
@@ -151,6 +151,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO, ____bloom1KernelSize) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO, ____bloom1Boost) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO, ____bloom2KernelSize) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO, ____bloom2Boost) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO, ____bloom2Alpha) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO, ____downsample) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO, ____gammaCorrection) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO, ____kawaseBlurRenderer) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO);

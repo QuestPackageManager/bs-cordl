@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(EncryptedData)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
+namespace Org::BouncyCastle::Asn1::Cms {
+class EncryptedContentInfo;
+}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+class DerInteger;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class EncryptedContentInfo;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -71,34 +71,34 @@ public:
 
   constexpr void __set_unprotectedAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method GetInstance addr 0xe76728 size 0x178 virtual false final false
+  /// @brief Method GetInstance addr 0xe01554 size 0x178 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cms::EncryptedData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EncryptedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* encInfo);
 
-  /// @brief Method .ctor addr 0xe76ad4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xe01900 size 0x8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* encInfo);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EncryptedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* encInfo, ::Org::BouncyCastle::Asn1::Asn1Set* unprotectedAttrs);
 
-  /// @brief Method .ctor addr 0xe76adc size 0xe0 virtual false final false
+  /// @brief Method .ctor addr 0xe01908 size 0xe0 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* encInfo, ::Org::BouncyCastle::Asn1::Asn1Set* unprotectedAttrs);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EncryptedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe768a0 size 0x234 virtual false final false
+  /// @brief Method .ctor addr 0xe016cc size 0x234 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Version addr 0xe76bbc size 0x8 virtual true final false
+  /// @brief Method get_Version addr 0xe019e8 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_EncryptedContentInfo addr 0xe76bc4 size 0x8 virtual true final false
+  /// @brief Method get_EncryptedContentInfo addr 0xe019f0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* get_EncryptedContentInfo();
 
-  /// @brief Method get_UnprotectedAttrs addr 0xe76bcc size 0x8 virtual true final false
+  /// @brief Method get_UnprotectedAttrs addr 0xe019f8 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_UnprotectedAttrs();
 
-  /// @brief Method ToAsn1Object addr 0xe76bd4 size 0x170 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe01a00 size 0x170 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "EncryptedData", modifiers: "&&", def_value: None }]
@@ -128,6 +128,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::EncryptedData, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::EncryptedData, ___version) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::EncryptedData, ___encryptedContentInfo) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::EncryptedData, ___unprotectedAttrs) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::EncryptedData);

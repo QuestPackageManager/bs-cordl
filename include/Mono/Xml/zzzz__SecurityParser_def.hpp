@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SecurityParser)
-namespace System::Collections {
-class Stack;
-}
-namespace System::Security {
-class SecurityElement;
-}
 namespace Mono::Xml {
 class __SmallXmlParser__IContentHandler;
 }
+namespace System::Collections {
+class Stack;
+}
 namespace Mono::Xml {
 class SmallXmlParser;
+}
+namespace System::Security {
+class SecurityElement;
 }
 namespace Mono::Xml {
 class __SmallXmlParser__IAttrList;
@@ -68,34 +68,34 @@ public:
 
   static inline ::Mono::Xml::SecurityParser* New_ctor();
 
-  /// @brief Method .ctor addr 0x2412fa8 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x22b9528 size 0x68 virtual false final false
   inline void _ctor();
 
-  /// @brief Method LoadXml addr 0x2413128 size 0x8c virtual false final false
+  /// @brief Method LoadXml addr 0x22b96a8 size 0x8c virtual false final false
   inline void LoadXml(::StringW xml);
 
-  /// @brief Method ToXml addr 0x241337c size 0x8 virtual false final false
+  /// @brief Method ToXml addr 0x22b98fc size 0x8 virtual false final false
   inline ::System::Security::SecurityElement* ToXml();
 
-  /// @brief Method OnStartParsing addr 0x2413384 size 0x4 virtual true final true
+  /// @brief Method OnStartParsing addr 0x22b9904 size 0x4 virtual true final true
   inline void OnStartParsing(::Mono::Xml::SmallXmlParser* parser);
 
-  /// @brief Method OnProcessingInstruction addr 0x2413388 size 0x4 virtual true final true
+  /// @brief Method OnProcessingInstruction addr 0x22b9908 size 0x4 virtual true final true
   inline void OnProcessingInstruction(::StringW name, ::StringW text);
 
-  /// @brief Method OnIgnorableWhitespace addr 0x241338c size 0x4 virtual true final true
+  /// @brief Method OnIgnorableWhitespace addr 0x22b990c size 0x4 virtual true final true
   inline void OnIgnorableWhitespace(::StringW s);
 
-  /// @brief Method OnStartElement addr 0x2413390 size 0x27c virtual true final true
+  /// @brief Method OnStartElement addr 0x22b9910 size 0x27c virtual true final true
   inline void OnStartElement(::StringW name, ::Mono::Xml::__SmallXmlParser__IAttrList* attrs);
 
-  /// @brief Method OnEndElement addr 0x241360c size 0x88 virtual true final true
+  /// @brief Method OnEndElement addr 0x22b9b8c size 0x88 virtual true final true
   inline void OnEndElement(::StringW name);
 
-  /// @brief Method OnChars addr 0x2413694 size 0x80 virtual true final true
+  /// @brief Method OnChars addr 0x22b9c14 size 0x80 virtual true final true
   inline void OnChars(::StringW ch);
 
-  /// @brief Method OnEndParsing addr 0x2413714 size 0x4 virtual true final true
+  /// @brief Method OnEndParsing addr 0x22b9c94 size 0x4 virtual true final true
   inline void OnEndParsing(::Mono::Xml::SmallXmlParser* parser);
 
   // Ctor Parameters [CppParam { name: "", ty: "SecurityParser", modifiers: "&&", def_value: None }]
@@ -125,6 +125,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Xml::SecurityParser, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Xml::SecurityParser, ___root) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Xml::SecurityParser, ___current) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Xml::SecurityParser, ___stack) == 0x78, "Offset mismatch!");
 
 } // namespace Mono::Xml
 NEED_NO_BOX(::Mono::Xml::SecurityParser);

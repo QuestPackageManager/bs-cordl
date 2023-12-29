@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(RevAnnContent)
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiStatusEncodable;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerGeneralizedTime;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class CertId;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -98,28 +98,28 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevAnnContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe6e4fc size 0x15c virtual false final false
+  /// @brief Method .ctor addr 0xdf9328 size 0x15c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe69a40 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xdf4870 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevAnnContent* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Status addr 0xe6e658 size 0x8 virtual true final false
+  /// @brief Method get_Status addr 0xdf9484 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* get_Status();
 
-  /// @brief Method get_CertID addr 0xe6e660 size 0x8 virtual true final false
+  /// @brief Method get_CertID addr 0xdf948c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertId* get_CertID();
 
-  /// @brief Method get_WillBeRevokedAt addr 0xe6e668 size 0x8 virtual true final false
+  /// @brief Method get_WillBeRevokedAt addr 0xdf9494 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_WillBeRevokedAt();
 
-  /// @brief Method get_BadSinceDate addr 0xe6e670 size 0x8 virtual true final false
+  /// @brief Method get_BadSinceDate addr 0xdf949c size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_BadSinceDate();
 
-  /// @brief Method get_CrlDetails addr 0xe6e678 size 0x8 virtual true final false
+  /// @brief Method get_CrlDetails addr 0xdf94a4 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_CrlDetails();
 
-  /// @brief Method ToAsn1Object addr 0xe6e680 size 0x1cc virtual true final false
+  /// @brief Method ToAsn1Object addr 0xdf94ac size 0x1cc virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "RevAnnContent", modifiers: "&&", def_value: None }]
@@ -155,6 +155,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::RevAnnContent, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::RevAnnContent, ___status) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::RevAnnContent, ___certId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::RevAnnContent, ___willBeRevokedAt) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::RevAnnContent, ___badSinceDate) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::RevAnnContent, ___crlDetails) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::RevAnnContent);

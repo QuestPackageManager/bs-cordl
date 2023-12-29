@@ -22,35 +22,35 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 class CORDL_TYPE DesEdeParameters : public ::Org::BouncyCastle::Crypto::Parameters::DesParameters {
 public:
   // Declarations
-  /// @brief Method FixKey addr 0xf2fd8c size 0x1ac virtual false final false
+  /// @brief Method FixKey addr 0xebaba0 size 0x1ac virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FixKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DesEdeParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor addr 0xf2ff54 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0xebad68 size 0x7c virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DesEdeParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method .ctor addr 0xf2ffd0 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0xebade4 size 0x8c virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method IsWeakKey addr 0xf3005c size 0x90 virtual false final false
+  /// @brief Method IsWeakKey addr 0xebae70 size 0x90 virtual false final false
   static inline bool IsWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t offset, int32_t length);
 
-  /// @brief Method IsWeakKey addr 0xf300ec size 0x1c virtual false final false
+  /// @brief Method IsWeakKey addr 0xebaf00 size 0x1c virtual false final false
   static inline bool IsWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t offset);
 
-  /// @brief Method IsWeakKey addr 0xf2ff38 size 0x1c virtual false final false
+  /// @brief Method IsWeakKey addr 0xebad4c size 0x1c virtual false final false
   static inline bool IsWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method IsRealEdeKey addr 0xf30108 size 0x28 virtual false final false
+  /// @brief Method IsRealEdeKey addr 0xebaf1c size 0x28 virtual false final false
   static inline bool IsRealEdeKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t offset);
 
-  /// @brief Method IsReal2Key addr 0xf301d8 size 0x64 virtual false final false
+  /// @brief Method IsReal2Key addr 0xebafec size 0x64 virtual false final false
   static inline bool IsReal2Key(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t offset);
 
-  /// @brief Method IsReal3Key addr 0xf30130 size 0xa8 virtual false final false
+  /// @brief Method IsReal3Key addr 0xebaf44 size 0xa8 virtual false final false
   static inline bool IsReal3Key(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t offset);
 
   // Ctor Parameters [CppParam { name: "", ty: "DesEdeParameters", modifiers: "&&", def_value: None }]

@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(LinkedCertificate)
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class DigestInfo;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+class GeneralNames;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralNames;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class X509Name;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::BC {
@@ -87,37 +87,37 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BC::LinkedCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digest, ::Org::BouncyCastle::Asn1::X509::GeneralName* certLocation);
 
-  /// @brief Method .ctor addr 0xe63584 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0xdee3b4 size 0x30 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digest, ::Org::BouncyCastle::Asn1::X509::GeneralName* certLocation);
 
   static inline ::Org::BouncyCastle::Asn1::BC::LinkedCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digest, ::Org::BouncyCastle::Asn1::X509::GeneralName* certLocation,
                                                                            ::Org::BouncyCastle::Asn1::X509::X509Name* certIssuer, ::Org::BouncyCastle::Asn1::X509::GeneralNames* caCerts);
 
-  /// @brief Method .ctor addr 0xe635b4 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0xdee3e4 size 0x40 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digest, ::Org::BouncyCastle::Asn1::X509::GeneralName* certLocation, ::Org::BouncyCastle::Asn1::X509::X509Name* certIssuer,
                     ::Org::BouncyCastle::Asn1::X509::GeneralNames* caCerts);
 
   static inline ::Org::BouncyCastle::Asn1::BC::LinkedCertificate* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe635f4 size 0x1c8 virtual false final false
+  /// @brief Method .ctor addr 0xdee424 size 0x1c8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe637bc size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0xdee5ec size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::BC::LinkedCertificate* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Digest addr 0xe63860 size 0x8 virtual true final false
+  /// @brief Method get_Digest addr 0xdee690 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* get_Digest();
 
-  /// @brief Method get_CertLocation addr 0xe63868 size 0x8 virtual true final false
+  /// @brief Method get_CertLocation addr 0xdee698 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_CertLocation();
 
-  /// @brief Method get_CertIssuer addr 0xe63870 size 0x8 virtual true final false
+  /// @brief Method get_CertIssuer addr 0xdee6a0 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_CertIssuer();
 
-  /// @brief Method get_CACerts addr 0xe63878 size 0x8 virtual true final false
+  /// @brief Method get_CACerts addr 0xdee6a8 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* get_CACerts();
 
-  /// @brief Method ToAsn1Object addr 0xe63880 size 0x158 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xdee6b0 size 0x158 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "LinkedCertificate", modifiers: "&&", def_value: None }]
@@ -150,6 +150,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::BC::LinkedCertificate, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::BC::LinkedCertificate, ___mDigest) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::BC::LinkedCertificate, ___mCertLocation) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::BC::LinkedCertificate, ___mCertIssuer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::BC::LinkedCertificate, ___mCACerts) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::BC
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::BC::LinkedCertificate);

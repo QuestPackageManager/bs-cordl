@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::INetworkConfig);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12800))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12717))
 // CS Name: ::INetworkConfig*
 class CORDL_TYPE INetworkConfig {
 public:

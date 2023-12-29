@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::UnityEngine::Audio::AudioMixerSnapshot);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Audio {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15606))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10128))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15626))
 // CS Name: ::UnityEngine.Audio::AudioMixerSnapshot*
 class CORDL_TYPE AudioMixerSnapshot : public ::UnityEngine::Object {
 public:

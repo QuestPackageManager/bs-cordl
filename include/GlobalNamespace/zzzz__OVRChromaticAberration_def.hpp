@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRChromaticAberration);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7588))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8078))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8482)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8865))
 // CS Name: ::OVRChromaticAberration*
 class CORDL_TYPE OVRChromaticAberration : public ::UnityEngine::MonoBehaviour {
 public:
@@ -39,15 +39,15 @@ public:
 
   constexpr void __set_chromatic(bool value);
 
-  /// @brief Method Start addr 0x27a2190 size 0x9c virtual false final false
+  /// @brief Method Start addr 0x262fde4 size 0x9c virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x27a222c size 0xf0 virtual false final false
+  /// @brief Method Update addr 0x262fe80 size 0xf0 virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::OVRChromaticAberration* New_ctor();
 
-  /// @brief Method .ctor addr 0x27a231c size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x262ff70 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRChromaticAberration", modifiers: "&&", def_value: None }]
@@ -74,6 +74,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRChromaticAberration, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRChromaticAberration, ___toggleButton) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRChromaticAberration, ___chromatic) == 0x1c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRChromaticAberration);

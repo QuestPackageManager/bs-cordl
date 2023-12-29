@@ -11,11 +11,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRHandTest)
-namespace System::Text {
-class StringBuilder;
-}
 namespace GlobalNamespace {
-class __OVRPlugin__Mesh;
+class __OVRHandTest____c;
 }
 namespace UnityEngine::UI {
 class Text;
@@ -23,8 +20,11 @@ class Text;
 namespace GlobalNamespace {
 class __OVRHandTest__BoolMonitor;
 }
+namespace System::Text {
+class StringBuilder;
+}
 namespace GlobalNamespace {
-class __OVRHandTest____c;
+class __OVRPlugin__Mesh;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -33,13 +33,13 @@ namespace GlobalNamespace {
 class __OVRHandTest__BoolMonitor__BoolGenerator;
 }
 namespace System {
-class IAsyncResult;
-}
-namespace System {
 class Object;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -63,24 +63,24 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRHandTest____c);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8117))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8899))
 // CS Name: ::OVRHandTest::BoolMonitor::BoolGenerator*
 class CORDL_TYPE __OVRHandTest__BoolMonitor__BoolGenerator : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x27af490 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x263a738 size 0xbc virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x27b04e8 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x263b790 size 0x14 virtual true final false
   inline bool Invoke();
 
-  /// @brief Method BeginInvoke addr 0x27b04fc size 0x20 virtual true final false
+  /// @brief Method BeginInvoke addr 0x263b7a4 size 0x20 virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x27b051c size 0x28 virtual true final false
+  /// @brief Method EndInvoke addr 0x263b7c4 size 0x28 virtual true final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRHandTest__BoolMonitor__BoolGenerator", modifiers: "&&", def_value: None }]
@@ -107,8 +107,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRHandTest__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8118))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8900))
 // CS Name: ::OVRHandTest::BoolMonitor*
 class CORDL_TYPE __OVRHandTest__BoolMonitor : public ::System::Object {
 public:
@@ -180,13 +180,13 @@ public:
 
   static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor* New_ctor(::StringW name, ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
 
-  /// @brief Method .ctor addr 0x27af54c size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x263a7f4 size 0x78 virtual false final false
   inline void _ctor(::StringW name, ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
 
-  /// @brief Method Update addr 0x27b01c8 size 0x94 virtual false final false
+  /// @brief Method Update addr 0x263b470 size 0x94 virtual false final false
   inline void Update();
 
-  /// @brief Method AppendToStringBuilder addr 0x27b025c size 0xd4 virtual false final false
+  /// @brief Method AppendToStringBuilder addr 0x263b504 size 0xd4 virtual false final false
   inline void AppendToStringBuilder(ByRef<::System::Text::StringBuilder*> sb);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRHandTest__BoolMonitor", modifiers: "&&", def_value: None }]
@@ -229,13 +229,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRHandTest__BoolMonitor, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRHandTest__BoolMonitor, ___m_name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHandTest__BoolMonitor, ___m_generator) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHandTest__BoolMonitor, ___m_prevValue) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHandTest__BoolMonitor, ___m_currentValue) == 0x21, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHandTest__BoolMonitor, ___m_currentValueRecentlyChanged) == 0x22, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHandTest__BoolMonitor, ___m_displayTimeout) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRHandTest__BoolMonitor, ___m_displayTimer) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8119))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8901))
 // CS Name: ::OVRHandTest::<>c*
 class CORDL_TYPE __OVRHandTest____c : public ::System::Object {
 public:
@@ -256,13 +270,13 @@ public:
 
   static inline ::GlobalNamespace::__OVRHandTest____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x27b05a8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x263b850 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Start>b__14_0 addr 0x27b05b0 size 0x58 virtual false final false
+  /// @brief Method <Start>b__14_0 addr 0x263b858 size 0x58 virtual false final false
   inline bool _Start_b__14_0();
 
-  /// @brief Method <.cctor>b__19_0 addr 0x27b0608 size 0x108 virtual false final false
+  /// @brief Method <.cctor>b__19_0 addr 0x263b8b0 size 0x108 virtual false final false
   inline bool __cctor_b__19_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRHandTest____c", modifiers: "&&", def_value: None }]
@@ -289,8 +303,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRHandTest__
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 372, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7777)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7771))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8120))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8647)), TypeDefinitionIndex(TypeDefinitionIndex(8653)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8902))
 // CS Name: ::OVRHandTest*
 class CORDL_TYPE OVRHandTest : public ::UnityEngine::MonoBehaviour {
 public:
@@ -430,15 +444,15 @@ public:
 
   static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor* getStaticF_controllers();
 
-  /// @brief Method Start addr 0x27af1ac size 0x2e4 virtual false final false
+  /// @brief Method Start addr 0x263a454 size 0x2e4 virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x27af5c4 size 0xc04 virtual false final false
+  /// @brief Method Update addr 0x263a86c size 0xc04 virtual false final false
   inline void Update();
 
   static inline ::GlobalNamespace::OVRHandTest* New_ctor();
 
-  /// @brief Method .ctor addr 0x27b0330 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x263b5d8 size 0x84 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRHandTest", modifiers: "&&", def_value: None }]
@@ -498,6 +512,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRHandTest, 0x178>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___uiText) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___monitors) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___data) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___hs_LH) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___hs_RH) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___skel_LH) == 0x120, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___skel_RH) == 0x140, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___mesh_LH) == 0x160, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___mesh_RH) == 0x168, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___result_skel_LH) == 0x170, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___result_skel_RH) == 0x171, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___result_mesh_LH) == 0x172, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___result_mesh_RH) == 0x173, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRHandTest);

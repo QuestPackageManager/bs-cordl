@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LocalizationDocument)
-namespace UnityEngine {
-class TextAsset;
-}
 namespace Polyglot {
 struct GoogleDriveDownloadFormat;
+}
+namespace UnityEngine {
+class TextAsset;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::Polyglot::LocalizationDocument);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15552))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15560))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15536))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15544))
 // CS Name: ::Polyglot::LocalizationDocument*
 class CORDL_TYPE LocalizationDocument : public ::System::Object {
 public:
@@ -83,39 +83,39 @@ public:
 
   constexpr void __set_downloadOnStart(bool value);
 
-  /// @brief Method get_TextAsset addr 0x2804160 size 0x8 virtual false final false
+  /// @brief Method get_TextAsset addr 0x26894d8 size 0x8 virtual false final false
   inline ::UnityEngine::TextAsset* get_TextAsset();
 
-  /// @brief Method set_TextAsset addr 0x2804168 size 0x8 virtual false final false
+  /// @brief Method set_TextAsset addr 0x26894e0 size 0x8 virtual false final false
   inline void set_TextAsset(::UnityEngine::TextAsset* value);
 
-  /// @brief Method get_DocsId addr 0x2804170 size 0x8 virtual false final false
+  /// @brief Method get_DocsId addr 0x26894e8 size 0x8 virtual false final false
   inline ::StringW get_DocsId();
 
-  /// @brief Method set_DocsId addr 0x2804178 size 0x8 virtual false final false
+  /// @brief Method set_DocsId addr 0x26894f0 size 0x8 virtual false final false
   inline void set_DocsId(::StringW value);
 
-  /// @brief Method get_SheetId addr 0x2804180 size 0x8 virtual false final false
+  /// @brief Method get_SheetId addr 0x26894f8 size 0x8 virtual false final false
   inline ::StringW get_SheetId();
 
-  /// @brief Method set_SheetId addr 0x2804188 size 0x8 virtual false final false
+  /// @brief Method set_SheetId addr 0x2689500 size 0x8 virtual false final false
   inline void set_SheetId(::StringW value);
 
-  /// @brief Method get_Format addr 0x2804190 size 0x8 virtual false final false
+  /// @brief Method get_Format addr 0x2689508 size 0x8 virtual false final false
   inline ::Polyglot::GoogleDriveDownloadFormat get_Format();
 
-  /// @brief Method set_Format addr 0x2804198 size 0x8 virtual false final false
+  /// @brief Method set_Format addr 0x2689510 size 0x8 virtual false final false
   inline void set_Format(::Polyglot::GoogleDriveDownloadFormat value);
 
-  /// @brief Method get_DownloadOnStart addr 0x28041a0 size 0x8 virtual false final false
+  /// @brief Method get_DownloadOnStart addr 0x2689518 size 0x8 virtual false final false
   inline bool get_DownloadOnStart();
 
-  /// @brief Method set_DownloadOnStart addr 0x28041a8 size 0xc virtual false final false
+  /// @brief Method set_DownloadOnStart addr 0x2689520 size 0xc virtual false final false
   inline void set_DownloadOnStart(bool value);
 
   static inline ::Polyglot::LocalizationDocument* New_ctor();
 
-  /// @brief Method .ctor addr 0x28041b4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x268952c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizationDocument", modifiers: "&&", def_value: None }]
@@ -151,6 +151,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Polyglot::LocalizationDocument, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Polyglot::LocalizationDocument, ___docsId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Polyglot::LocalizationDocument, ___sheetId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Polyglot::LocalizationDocument, ___format) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Polyglot::LocalizationDocument, ___textAsset) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Polyglot::LocalizationDocument, ___downloadOnStart) == 0x30, "Offset mismatch!");
 
 } // namespace Polyglot
 NEED_NO_BOX(::Polyglot::LocalizationDocument);

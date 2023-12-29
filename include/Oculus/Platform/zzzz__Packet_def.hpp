@@ -10,6 +10,9 @@ CORDL_MODULE_EXPORT(Packet)
 namespace System {
 class IDisposable;
 }
+namespace Oculus::Platform {
+struct SendPolicy;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class Packet;
@@ -20,8 +23,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Packet);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13343))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13370))
 // CS Name: ::Oculus.Platform::Packet*
 class CORDL_TYPE Packet : public ::System::Object {
 public:
@@ -35,6 +38,8 @@ public:
   __declspec(property(get = get_SenderID)) uint64_t SenderID;
 
   __declspec(property(get = get_Size)) uint64_t Size;
+
+  __declspec(property(get = get_Policy))::Oculus::Platform::SendPolicy Policy;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -53,22 +58,25 @@ public:
 
   static inline ::Oculus::Platform::Packet* New_ctor(void* packetHandle);
 
-  /// @brief Method .ctor addr 0x26f49c0 size 0xb0 virtual false final false
+  /// @brief Method .ctor addr 0x2599874 size 0xb0 virtual false final false
   inline void _ctor(void* packetHandle);
 
-  /// @brief Method ReadBytes addr 0x26f4a70 size 0x144 virtual false final false
+  /// @brief Method ReadBytes addr 0x2599924 size 0x144 virtual false final false
   inline uint64_t ReadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> destination);
 
-  /// @brief Method get_SenderID addr 0x26f4bb4 size 0x58 virtual false final false
+  /// @brief Method get_SenderID addr 0x2599a68 size 0x58 virtual false final false
   inline uint64_t get_SenderID();
 
-  /// @brief Method get_Size addr 0x26f4c0c size 0x8 virtual false final false
+  /// @brief Method get_Size addr 0x2599ac0 size 0x8 virtual false final false
   inline uint64_t get_Size();
 
-  /// @brief Method Finalize addr 0x26f4c14 size 0x94 virtual true final false
+  /// @brief Method get_Policy addr 0x2599ac8 size 0x58 virtual false final false
+  inline ::Oculus::Platform::SendPolicy get_Policy();
+
+  /// @brief Method Finalize addr 0x2599b20 size 0x94 virtual true final false
   inline void Finalize();
 
-  /// @brief Method Dispose addr 0x26f4ca8 size 0x88 virtual true final true
+  /// @brief Method Dispose addr 0x2599bb4 size 0x88 virtual true final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "Packet", modifiers: "&&", def_value: None }]
@@ -95,6 +103,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Packet, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Packet, ___size) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Packet, ___packetHandle) == 0x18, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::Packet);

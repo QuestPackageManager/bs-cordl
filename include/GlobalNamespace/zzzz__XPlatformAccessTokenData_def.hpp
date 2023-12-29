@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::XPlatformAccessTokenData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12924)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12925))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12845))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12846))
 // CS Name: ::XPlatformAccessTokenData*
 class CORDL_TYPE XPlatformAccessTokenData : public ::System::Object {
 public:
@@ -47,21 +47,21 @@ public:
 
   constexpr void __set__platformEnvironment_k__BackingField(::GlobalNamespace::PlatformEnvironment value);
 
-  /// @brief Method get_token addr 0xe51d4c size 0x8 virtual false final false
+  /// @brief Method get_token addr 0xdccd6c size 0x8 virtual false final false
   inline ::StringW get_token();
 
-  /// @brief Method set_token addr 0xe51d54 size 0x8 virtual false final false
+  /// @brief Method set_token addr 0xdccd74 size 0x8 virtual false final false
   inline void set_token(::StringW value);
 
-  /// @brief Method get_platformEnvironment addr 0xe51d5c size 0x8 virtual false final false
+  /// @brief Method get_platformEnvironment addr 0xdccd7c size 0x8 virtual false final false
   inline ::GlobalNamespace::PlatformEnvironment get_platformEnvironment();
 
-  /// @brief Method set_platformEnvironment addr 0xe51d64 size 0x8 virtual false final false
+  /// @brief Method set_platformEnvironment addr 0xdccd84 size 0x8 virtual false final false
   inline void set_platformEnvironment(::GlobalNamespace::PlatformEnvironment value);
 
   static inline ::GlobalNamespace::XPlatformAccessTokenData* New_ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment platformEnvironment);
 
-  /// @brief Method .ctor addr 0xe51d6c size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0xdccd8c size 0x30 virtual false final false
   inline void _ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment platformEnvironment);
 
   // Ctor Parameters [CppParam { name: "", ty: "XPlatformAccessTokenData", modifiers: "&&", def_value: None }]
@@ -88,6 +88,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::XPlatformAccessTokenData, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::XPlatformAccessTokenData, ____token_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::XPlatformAccessTokenData, ____platformEnvironment_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::XPlatformAccessTokenData);

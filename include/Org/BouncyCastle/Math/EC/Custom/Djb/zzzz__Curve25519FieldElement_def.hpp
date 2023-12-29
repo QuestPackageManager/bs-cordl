@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Curve25519FieldElement)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace System {
 class Object;
@@ -65,74 +65,74 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method .ctor addr 0xfcc5d8 size 0x118 virtual false final false
+  /// @brief Method .ctor addr 0xf5738c size 0x118 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x);
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* New_ctor();
 
-  /// @brief Method .ctor addr 0xfce87c size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0xf59630 size 0x24 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* New_ctor(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-  /// @brief Method .ctor addr 0xfccc14 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xf579c8 size 0x28 virtual false final false
   inline void _ctor(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-  /// @brief Method get_IsZero addr 0xfce8a0 size 0xc virtual true final false
+  /// @brief Method get_IsZero addr 0xf59654 size 0xc virtual true final false
   inline bool get_IsZero();
 
-  /// @brief Method get_IsOne addr 0xfce8ac size 0xc virtual true final false
+  /// @brief Method get_IsOne addr 0xf59660 size 0xc virtual true final false
   inline bool get_IsOne();
 
-  /// @brief Method TestBitZero addr 0xfce8b8 size 0x24 virtual true final false
+  /// @brief Method TestBitZero addr 0xf5966c size 0x24 virtual true final false
   inline bool TestBitZero();
 
-  /// @brief Method ToBigInteger addr 0xfce8dc size 0xc virtual true final false
+  /// @brief Method ToBigInteger addr 0xf59690 size 0xc virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* ToBigInteger();
 
-  /// @brief Method get_FieldName addr 0xfce8e8 size 0x40 virtual true final false
+  /// @brief Method get_FieldName addr 0xf5969c size 0x40 virtual true final false
   inline ::StringW get_FieldName();
 
-  /// @brief Method get_FieldSize addr 0xfce928 size 0x64 virtual true final false
+  /// @brief Method get_FieldSize addr 0xf596dc size 0x64 virtual true final false
   inline int32_t get_FieldSize();
 
-  /// @brief Method Add addr 0xfce98c size 0xf0 virtual true final false
+  /// @brief Method Add addr 0xf59740 size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Add(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method AddOne addr 0xfcea7c size 0xa8 virtual true final false
+  /// @brief Method AddOne addr 0xf59830 size 0xa8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* AddOne();
 
-  /// @brief Method Subtract addr 0xfceb24 size 0xf0 virtual true final false
+  /// @brief Method Subtract addr 0xf598d8 size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Subtract(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method Multiply addr 0xfcec14 size 0xf0 virtual true final false
+  /// @brief Method Multiply addr 0xf599c8 size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Multiply(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method Divide addr 0xfced04 size 0xf8 virtual true final false
+  /// @brief Method Divide addr 0xf59ab8 size 0xf8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Divide(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method Negate addr 0xfcedfc size 0xa8 virtual true final false
+  /// @brief Method Negate addr 0xf59bb0 size 0xa8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Negate();
 
-  /// @brief Method Square addr 0xfceea4 size 0xa8 virtual true final false
+  /// @brief Method Square addr 0xf59c58 size 0xa8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Square();
 
-  /// @brief Method Invert addr 0xfcef4c size 0xa8 virtual true final false
+  /// @brief Method Invert addr 0xf59d00 size 0xa8 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Invert();
 
-  /// @brief Method Sqrt addr 0xfceff4 size 0x2d0 virtual true final false
+  /// @brief Method Sqrt addr 0xf59da8 size 0x2d0 virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Sqrt();
 
-  /// @brief Method Equals addr 0xfcf2c4 size 0x8c virtual true final false
+  /// @brief Method Equals addr 0xf5a078 size 0x8c virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xfcf350 size 0x8c virtual true final false
+  /// @brief Method Equals addr 0xf5a104 size 0x8c virtual true final false
   inline bool Equals(::Org::BouncyCastle::Math::EC::ECFieldElement* other);
 
-  /// @brief Method Equals addr 0xfcf3dc size 0x2c virtual true final false
+  /// @brief Method Equals addr 0xf5a190 size 0x2c virtual true final false
   inline bool Equals(::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* other);
 
-  /// @brief Method GetHashCode addr 0xfcf408 size 0xb8 virtual true final false
+  /// @brief Method GetHashCode addr 0xf5a1bc size 0xb8 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "Curve25519FieldElement", modifiers: "&&", def_value: None }]
@@ -156,6 +156,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement, ___x) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC::Custom::Djb
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement);

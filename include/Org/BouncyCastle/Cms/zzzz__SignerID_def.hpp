@@ -24,15 +24,15 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE SignerID : public ::Org::BouncyCastle::X509::Store::X509CertStoreSelector {
 public:
   // Declarations
-  /// @brief Method GetHashCode addr 0x1208a04 size 0xa4 virtual true final false
+  /// @brief Method GetHashCode addr 0x11977b4 size 0xa4 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x1208aa8 size 0x12c virtual true final false
+  /// @brief Method Equals addr 0x1197858 size 0x12c virtual true final false
   inline bool Equals(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Cms::SignerID* New_ctor();
 
-  /// @brief Method .ctor addr 0x1208bd4 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x1197984 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignerID", modifiers: "&&", def_value: None }]

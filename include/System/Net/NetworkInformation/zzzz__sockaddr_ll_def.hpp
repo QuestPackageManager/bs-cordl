@@ -17,7 +17,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::sockaddr_ll);
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9275))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8112))
 // CS Name: ::System.Net.NetworkInformation::sockaddr_ll
 struct CORDL_TYPE sockaddr_ll {
 public:
@@ -61,6 +61,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::sockaddr_ll, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::sockaddr_ll, sll_family) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::sockaddr_ll, sll_protocol) == 0x2, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::sockaddr_ll, sll_ifindex) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::sockaddr_ll, sll_hatype) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::sockaddr_ll, sll_pkttype) == 0xa, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::sockaddr_ll, sll_halen) == 0xb, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::sockaddr_ll, sll_addr) == 0x10, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::sockaddr_ll, "System.Net.NetworkInformation", "sockaddr_ll");

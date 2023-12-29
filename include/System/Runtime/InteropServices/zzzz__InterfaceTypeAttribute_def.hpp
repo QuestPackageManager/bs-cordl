@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::InterfaceTypeAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3314))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3315))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545)), TypeDefinitionIndex(TypeDefinitionIndex(3311))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3312))
 // CS Name: ::System.Runtime.InteropServices::InterfaceTypeAttribute*
 class CORDL_TYPE InterfaceTypeAttribute : public ::System::Attribute {
 public:
@@ -35,7 +35,7 @@ public:
 
   static inline ::System::Runtime::InteropServices::InterfaceTypeAttribute* New_ctor(::System::Runtime::InteropServices::ComInterfaceType interfaceType);
 
-  /// @brief Method .ctor addr 0x24d71f8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x237e310 size 0x28 virtual false final false
   inline void _ctor(::System::Runtime::InteropServices::ComInterfaceType interfaceType);
 
   // Ctor Parameters [CppParam { name: "", ty: "InterfaceTypeAttribute", modifiers: "&&", def_value: None }]
@@ -59,6 +59,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::InterfaceTypeAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::InteropServices::InterfaceTypeAttribute, ____val) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::InteropServices
 NEED_NO_BOX(::System::Runtime::InteropServices::InterfaceTypeAttribute);

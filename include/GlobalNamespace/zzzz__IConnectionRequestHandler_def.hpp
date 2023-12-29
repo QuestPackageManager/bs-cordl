@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IConnectionRequestHandler);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12783))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12710))
 // CS Name: ::IConnectionRequestHandler*
 class CORDL_TYPE IConnectionRequestHandler {
 public:

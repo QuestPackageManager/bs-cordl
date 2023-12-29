@@ -17,7 +17,7 @@ MARK_VAL_T(::System::Security::Cryptography::DSAParameters);
 namespace System::Security::Cryptography {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2930))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2929))
 // CS Name: ::System.Security.Cryptography::DSAParameters
 struct CORDL_TYPE DSAParameters {
 public:
@@ -65,6 +65,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::DSAParameters, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DSAParameters, P) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DSAParameters, Q) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DSAParameters, G) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DSAParameters, Y) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DSAParameters, J) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DSAParameters, X) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DSAParameters, Seed) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::DSAParameters, Counter) == 0x38, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::DSAParameters, "System.Security.Cryptography", "DSAParameters");

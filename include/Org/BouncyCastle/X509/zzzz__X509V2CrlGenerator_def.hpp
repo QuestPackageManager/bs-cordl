@@ -7,20 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509V2CrlGenerator)
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509ExtensionsGenerator;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
 namespace Org::BouncyCastle::X509 {
 class X509Crl;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
 class V2TbsCertListGenerator;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISignatureFactory;
@@ -28,29 +25,32 @@ class ISignatureFactory;
 namespace Org::BouncyCastle::Asn1::X509 {
 class TbsCertificateList;
 }
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509ExtensionsGenerator;
+class X509Extensions;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace System::Collections {
 class IEnumerable;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+namespace System {
+struct DateTime;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -62,7 +62,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509V2CrlGenerator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1873))
 // CS Name: ::Org.BouncyCastle.X509::X509V2CrlGenerator*
 class CORDL_TYPE X509V2CrlGenerator : public ::System::Object {
@@ -117,65 +117,65 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509V2CrlGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x1184fd4 size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0x1114d8c size 0x9c virtual false final false
   inline void _ctor();
 
-  /// @brief Method Reset addr 0x1185070 size 0x6c virtual false final false
+  /// @brief Method Reset addr 0x1114e28 size 0x6c virtual false final false
   inline void Reset();
 
-  /// @brief Method SetIssuerDN addr 0x11850dc size 0x1c virtual false final false
+  /// @brief Method SetIssuerDN addr 0x1114e94 size 0x1c virtual false final false
   inline void SetIssuerDN(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
-  /// @brief Method SetThisUpdate addr 0x11850f8 size 0x78 virtual false final false
+  /// @brief Method SetThisUpdate addr 0x1114eb0 size 0x78 virtual false final false
   inline void SetThisUpdate(::System::DateTime date);
 
-  /// @brief Method SetNextUpdate addr 0x1185170 size 0x78 virtual false final false
+  /// @brief Method SetNextUpdate addr 0x1114f28 size 0x78 virtual false final false
   inline void SetNextUpdate(::System::DateTime date);
 
-  /// @brief Method AddCrlEntry addr 0x11851e8 size 0xc8 virtual false final false
+  /// @brief Method AddCrlEntry addr 0x1114fa0 size 0xc8 virtual false final false
   inline void AddCrlEntry(::Org::BouncyCastle::Math::BigInteger* userCertificate, ::System::DateTime revocationDate, int32_t reason);
 
-  /// @brief Method AddCrlEntry addr 0x11852b0 size 0x100 virtual false final false
+  /// @brief Method AddCrlEntry addr 0x1115068 size 0x100 virtual false final false
   inline void AddCrlEntry(::Org::BouncyCastle::Math::BigInteger* userCertificate, ::System::DateTime revocationDate, int32_t reason, ::System::DateTime invalidityDate);
 
-  /// @brief Method AddCrlEntry addr 0x11853b0 size 0xc8 virtual false final false
+  /// @brief Method AddCrlEntry addr 0x1115168 size 0xc8 virtual false final false
   inline void AddCrlEntry(::Org::BouncyCastle::Math::BigInteger* userCertificate, ::System::DateTime revocationDate, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method AddCrl addr 0x1185478 size 0x4a0 virtual false final false
+  /// @brief Method AddCrl addr 0x1115230 size 0x4a0 virtual false final false
   inline void AddCrl(::Org::BouncyCastle::X509::X509Crl* other);
 
-  /// @brief Method SetSignatureAlgorithm addr 0x1185918 size 0x164 virtual false final false
+  /// @brief Method SetSignatureAlgorithm addr 0x11156d0 size 0x164 virtual false final false
   inline void SetSignatureAlgorithm(::StringW signatureAlgorithm);
 
-  /// @brief Method AddExtension addr 0x1185a7c size 0x98 virtual false final false
+  /// @brief Method AddExtension addr 0x1115834 size 0x98 virtual false final false
   inline void AddExtension(::StringW oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* extensionValue);
 
-  /// @brief Method AddExtension addr 0x1185b14 size 0x20 virtual false final false
+  /// @brief Method AddExtension addr 0x11158cc size 0x20 virtual false final false
   inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* extensionValue);
 
-  /// @brief Method AddExtension addr 0x1185b34 size 0xc8 virtual false final false
+  /// @brief Method AddExtension addr 0x11158ec size 0xc8 virtual false final false
   inline void AddExtension(::StringW oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> extensionValue);
 
-  /// @brief Method AddExtension addr 0x1185bfc size 0x98 virtual false final false
+  /// @brief Method AddExtension addr 0x11159b4 size 0x98 virtual false final false
   inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> extensionValue);
 
-  /// @brief Method Generate addr 0x1185c94 size 0x8 virtual false final false
+  /// @brief Method Generate addr 0x1115a4c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::X509::X509Crl* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method Generate addr 0x1185c9c size 0x84 virtual false final false
+  /// @brief Method Generate addr 0x1115a54 size 0x84 virtual false final false
   inline ::Org::BouncyCastle::X509::X509Crl* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Generate addr 0x1185d20 size 0x464 virtual false final false
+  /// @brief Method Generate addr 0x1115ad8 size 0x464 virtual false final false
   inline ::Org::BouncyCastle::X509::X509Crl* Generate(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureCalculatorFactory);
 
-  /// @brief Method GenerateCertList addr 0x1186184 size 0x58 virtual false final false
+  /// @brief Method GenerateCertList addr 0x1115f3c size 0x58 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* GenerateCertList();
 
-  /// @brief Method GenerateJcaObject addr 0x11861dc size 0x18c virtual false final false
+  /// @brief Method GenerateJcaObject addr 0x1115f94 size 0x18c virtual false final false
   inline ::Org::BouncyCastle::X509::X509Crl* GenerateJcaObject(::Org::BouncyCastle::Asn1::X509::TbsCertificateList* tbsCrl, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId,
                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method get_SignatureAlgNames addr 0x1186368 size 0x4c virtual false final false
+  /// @brief Method get_SignatureAlgNames addr 0x1116120 size 0x4c virtual false final false
   inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509V2CrlGenerator", modifiers: "&&", def_value: None }]
@@ -211,6 +211,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::X509V2CrlGenerator, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509V2CrlGenerator, ___extGenerator) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509V2CrlGenerator, ___tbsGen) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509V2CrlGenerator, ___sigOID) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509V2CrlGenerator, ___sigAlgId) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509V2CrlGenerator, ___signatureAlgorithm) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::X509
 NEED_NO_BOX(::Org::BouncyCastle::X509::X509V2CrlGenerator);

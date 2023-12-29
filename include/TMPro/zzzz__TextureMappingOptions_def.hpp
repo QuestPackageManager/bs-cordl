@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TextureMappingOptions);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12437))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12365))
 // CS Name: ::TMPro::TextureMappingOptions
 struct CORDL_TYPE TextureMappingOptions {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TextureMappingOptions, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TextureMappingOptions, value__) == 0x0, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TextureMappingOptions, "TMPro", "TextureMappingOptions");

@@ -20,7 +20,7 @@ MARK_VAL_T(::System::ParamsArray);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2458))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2456))
 // CS Name: ::System::ParamsArray
 struct CORDL_TYPE ParamsArray {
 public:
@@ -50,25 +50,25 @@ public:
 
   static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> getStaticF_s_threeArgArray();
 
-  /// @brief Method .ctor addr 0x25be18c size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x2461264 size 0x74 virtual false final false
   inline void _ctor(::System::Object* arg0);
 
-  /// @brief Method .ctor addr 0x25be200 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x24612d8 size 0x78 virtual false final false
   inline void _ctor(::System::Object* arg0, ::System::Object* arg1);
 
-  /// @brief Method .ctor addr 0x25be278 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x2461350 size 0x84 virtual false final false
   inline void _ctor(::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method .ctor addr 0x25be2fc size 0x60 virtual false final false
+  /// @brief Method .ctor addr 0x24613d4 size 0x60 virtual false final false
   inline void _ctor(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method get_Length addr 0x25be35c size 0x1c virtual false final false
+  /// @brief Method get_Length addr 0x2461434 size 0x1c virtual false final false
   inline int32_t get_Length();
 
-  /// @brief Method get_Item addr 0x25be378 size 0x10 virtual false final false
+  /// @brief Method get_Item addr 0x2461450 size 0x10 virtual false final false
   inline ::System::Object* get_Item(int32_t index);
 
-  /// @brief Method GetAtSlow addr 0x25be388 size 0x54 virtual false final false
+  /// @brief Method GetAtSlow addr 0x2461460 size 0x54 virtual false final false
   inline ::System::Object* GetAtSlow(int32_t index);
 
   // Ctor Parameters [CppParam { name: "_arg0", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_arg1", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam
@@ -99,6 +99,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ParamsArray, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::ParamsArray, _arg0) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::ParamsArray, _arg1) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::ParamsArray, _arg2) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::ParamsArray, _args) == 0x18, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::ParamsArray, "System", "ParamsArray");

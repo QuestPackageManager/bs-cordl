@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(GUIWordWrapSizer)
 namespace UnityEngine {
+class GUIStyle;
+}
+namespace UnityEngine {
 class GUIContent;
 }
 namespace UnityEngine {
 class GUILayoutOption;
-}
-namespace UnityEngine {
-class GUIStyle;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::UnityEngine::GUIWordWrapSizer);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14592))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14593))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14809))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14810))
 // CS Name: ::UnityEngine::GUIWordWrapSizer*
 class CORDL_TYPE GUIWordWrapSizer : public ::UnityEngine::GUILayoutEntry {
 public:
@@ -61,13 +61,13 @@ public:
   static inline ::UnityEngine::GUIWordWrapSizer* New_ctor(::UnityEngine::GUIStyle* style, ::UnityEngine::GUIContent* content,
                                                           ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method .ctor addr 0x2cfc00c size 0xdc virtual false final false
+  /// @brief Method .ctor addr 0x2b93bfc size 0xdc virtual false final false
   inline void _ctor(::UnityEngine::GUIStyle* style, ::UnityEngine::GUIContent* content, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method CalcWidth addr 0x2cfc16c size 0x84 virtual true final false
+  /// @brief Method CalcWidth addr 0x2b93d5c size 0x84 virtual true final false
   inline void CalcWidth();
 
-  /// @brief Method CalcHeight addr 0x2cfc1f0 size 0x70 virtual true final false
+  /// @brief Method CalcHeight addr 0x2b93de0 size 0x70 virtual true final false
   inline void CalcHeight();
 
   // Ctor Parameters [CppParam { name: "", ty: "GUIWordWrapSizer", modifiers: "&&", def_value: None }]
@@ -97,6 +97,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::GUIWordWrapSizer, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUIWordWrapSizer, ___m_Content) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUIWordWrapSizer, ___m_ForcedMinHeight) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::GUIWordWrapSizer, ___m_ForcedMaxHeight) == 0x54, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::GUIWordWrapSizer);

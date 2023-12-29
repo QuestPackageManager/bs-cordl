@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleTextWithIconTableCell);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13501))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13781))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13621))
 // CS Name: ::SimpleTextWithIconTableCell*
 class CORDL_TYPE SimpleTextWithIconTableCell : public ::HMUI::TableCell {
 public:
@@ -49,21 +49,21 @@ public:
 
   constexpr void __set__icon(::UnityEngine::UI::Image* value);
 
-  /// @brief Method set_icon addr 0x2116214 size 0x8 virtual false final false
+  /// @brief Method set_icon addr 0x1fc068c size 0x8 virtual false final false
   inline void set_icon(::UnityEngine::UI::Image* value);
 
-  /// @brief Method get_icon addr 0x211621c size 0x8 virtual false final false
+  /// @brief Method get_icon addr 0x1fc0694 size 0x8 virtual false final false
   inline ::UnityEngine::UI::Image* get_icon();
 
-  /// @brief Method set_text addr 0x2116224 size 0x24 virtual false final false
+  /// @brief Method set_text addr 0x1fc069c size 0x24 virtual false final false
   inline void set_text(::StringW value);
 
-  /// @brief Method get_text addr 0x2116248 size 0x24 virtual false final false
+  /// @brief Method get_text addr 0x1fc06c0 size 0x24 virtual false final false
   inline ::StringW get_text();
 
   static inline ::GlobalNamespace::SimpleTextWithIconTableCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x211626c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fc06e4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleTextWithIconTableCell", modifiers: "&&", def_value: None }]
@@ -90,6 +90,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleTextWithIconTableCell, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleTextWithIconTableCell, ____text) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleTextWithIconTableCell, ____icon) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SimpleTextWithIconTableCell);

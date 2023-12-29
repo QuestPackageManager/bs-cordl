@@ -21,28 +21,28 @@ MARK_REF_PTR_T(::UnityEngine::JsonUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16159))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15999))
 // CS Name: ::UnityEngine::JsonUtility*
 class CORDL_TYPE JsonUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToJsonInternal addr 0x2d1025c size 0x44 virtual false final false
+  /// @brief Method ToJsonInternal addr 0x2ba8e74 size 0x44 virtual false final false
   static inline ::StringW ToJsonInternal(::System::Object* obj, bool prettyPrint);
 
-  /// @brief Method FromJsonInternal addr 0x2d102a0 size 0x54 virtual false final false
+  /// @brief Method FromJsonInternal addr 0x2ba8eb8 size 0x54 virtual false final false
   static inline ::System::Object* FromJsonInternal(::StringW json, ::System::Object* objectToOverwrite, ::System::Type* type);
 
-  /// @brief Method ToJson addr 0x2d102f4 size 0x8 virtual false final false
+  /// @brief Method ToJson addr 0x2ba8f0c size 0x8 virtual false final false
   static inline ::StringW ToJson(::System::Object* obj);
 
-  /// @brief Method ToJson addr 0x2d102fc size 0x174 virtual false final false
+  /// @brief Method ToJson addr 0x2ba8f14 size 0x174 virtual false final false
   static inline ::StringW ToJson(::System::Object* obj, bool prettyPrint);
 
   /// @brief Method FromJson addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename T> static inline T FromJson(::StringW json);
 
-  /// @brief Method FromJson addr 0x2d10470 size 0x1d0 virtual false final false
+  /// @brief Method FromJson addr 0x2ba9088 size 0x1d0 virtual false final false
   static inline ::System::Object* FromJson(::StringW json, ::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonUtility", modifiers: "&&", def_value: None }]

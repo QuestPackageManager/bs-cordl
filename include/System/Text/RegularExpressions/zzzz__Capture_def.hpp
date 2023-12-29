@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::Capture);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8900))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7737))
 // CS Name: ::System.Text.RegularExpressions::Capture*
 class CORDL_TYPE Capture : public ::System::Object {
 public:
@@ -62,37 +62,37 @@ public:
 
   static inline ::System::Text::RegularExpressions::Capture* New_ctor(::StringW text, int32_t index, int32_t length);
 
-  /// @brief Method .ctor addr 0x294e388 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x27d1268 size 0x3c virtual false final false
   inline void _ctor(::StringW text, int32_t index, int32_t length);
 
-  /// @brief Method get_Index addr 0x294e3c4 size 0x8 virtual false final false
+  /// @brief Method get_Index addr 0x27d12a4 size 0x8 virtual false final false
   inline int32_t get_Index();
 
-  /// @brief Method set_Index addr 0x294e3cc size 0x8 virtual false final false
+  /// @brief Method set_Index addr 0x27d12ac size 0x8 virtual false final false
   inline void set_Index(int32_t value);
 
-  /// @brief Method get_Length addr 0x294e3d4 size 0x8 virtual false final false
+  /// @brief Method get_Length addr 0x27d12b4 size 0x8 virtual false final false
   inline int32_t get_Length();
 
-  /// @brief Method set_Length addr 0x294e3dc size 0x8 virtual false final false
+  /// @brief Method set_Length addr 0x27d12bc size 0x8 virtual false final false
   inline void set_Length(int32_t value);
 
-  /// @brief Method get_Text addr 0x294e3e4 size 0x8 virtual false final false
+  /// @brief Method get_Text addr 0x27d12c4 size 0x8 virtual false final false
   inline ::StringW get_Text();
 
-  /// @brief Method set_Text addr 0x294e3ec size 0x8 virtual false final false
+  /// @brief Method set_Text addr 0x27d12cc size 0x8 virtual false final false
   inline void set_Text(::StringW value);
 
-  /// @brief Method get_Value addr 0x294e3f4 size 0x24 virtual false final false
+  /// @brief Method get_Value addr 0x27d12d4 size 0x24 virtual false final false
   inline ::StringW get_Value();
 
-  /// @brief Method ToString addr 0x294e418 size 0x4 virtual true final false
+  /// @brief Method ToString addr 0x27d12f8 size 0x4 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method GetLeftSubstring addr 0x294e41c size 0x88 virtual false final false
+  /// @brief Method GetLeftSubstring addr 0x27d12fc size 0x88 virtual false final false
   inline ::System::ReadOnlySpan_1<char16_t> GetLeftSubstring();
 
-  /// @brief Method GetRightSubstring addr 0x294e4a4 size 0x90 virtual false final false
+  /// @brief Method GetRightSubstring addr 0x27d1384 size 0x90 virtual false final false
   inline ::System::ReadOnlySpan_1<char16_t> GetRightSubstring();
 
   // Ctor Parameters [CppParam { name: "", ty: "Capture", modifiers: "&&", def_value: None }]
@@ -122,6 +122,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::Capture, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::Capture, ____Index_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::Capture, ____Length_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::Capture, ____Text_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace System::Text::RegularExpressions
 NEED_NO_BOX(::System::Text::RegularExpressions::Capture);

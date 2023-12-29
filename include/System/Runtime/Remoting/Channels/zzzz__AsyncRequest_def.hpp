@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AsyncRequest)
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMessageSink;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::AsyncRequest);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3120))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3119))
 // CS Name: ::System.Runtime.Remoting.Channels::AsyncRequest*
 class CORDL_TYPE AsyncRequest : public ::System::Object {
 public:
@@ -47,7 +47,7 @@ public:
   static inline ::System::Runtime::Remoting::Channels::AsyncRequest* New_ctor(::System::Runtime::Remoting::Messaging::IMessage* msgRequest,
                                                                               ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method .ctor addr 0x24a3d00 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x234b20c size 0x2c virtual false final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessage* msgRequest, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncRequest", modifiers: "&&", def_value: None }]
@@ -74,6 +74,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Channels::AsyncRequest, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Channels::AsyncRequest, ___ReplySink) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Channels::AsyncRequest, ___MsgRequest) == 0x18, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Channels
 NEED_NO_BOX(::System::Runtime::Remoting::Channels::AsyncRequest);

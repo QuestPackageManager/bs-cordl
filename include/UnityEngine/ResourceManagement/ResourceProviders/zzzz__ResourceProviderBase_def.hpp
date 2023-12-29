@@ -10,35 +10,35 @@ CORDL_MODULE_EXPORT(ResourceProviderBase)
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class IResourceProvider;
 }
-namespace UnityEngine::ResourceManagement::Util {
-class IInitializableObject;
-}
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace System {
-class Type;
-}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __ResourceProviderBase__BaseInitAsyncOp;
+class __ResourceProviderBase____c__DisplayClass10_0;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProviderBehaviourFlags;
 }
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
+}
 namespace System {
-class Object;
+class Type;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IInitializableObject;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProvideHandle;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __ResourceProviderBase____c__DisplayClass10_0;
+class __ResourceProviderBase__BaseInitAsyncOp;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+namespace System {
+class Object;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 namespace System {
 template <typename TResult> class Func_1;
@@ -61,8 +61,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__ResourceP
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 105 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14011))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14303)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14303), inst: 112 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14282))
 // CS Name: ::ResourceProviderBase::BaseInitAsyncOp*
 class CORDL_TYPE __ResourceProviderBase__BaseInitAsyncOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
 public:
@@ -76,18 +76,18 @@ public:
 
   constexpr void __set_m_CallBack(::System::Func_1<bool>* value);
 
-  /// @brief Method Init addr 0x2bd8290 size 0x8 virtual false final false
+  /// @brief Method Init addr 0x2a5553c size 0x8 virtual false final false
   inline void Init(::System::Func_1<bool>* callback);
 
-  /// @brief Method InvokeWaitForCompletion addr 0x2bd8298 size 0x70 virtual true final false
+  /// @brief Method InvokeWaitForCompletion addr 0x2a55544 size 0x70 virtual true final false
   inline bool InvokeWaitForCompletion();
 
-  /// @brief Method Execute addr 0x2bd8308 size 0x88 virtual true final false
+  /// @brief Method Execute addr 0x2a555b4 size 0x88 virtual true final false
   inline void Execute();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase__BaseInitAsyncOp* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bd8240 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2a554ec size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ResourceProviderBase__BaseInitAsyncOp", modifiers: "&&", def_value: None }]
@@ -112,13 +112,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase__BaseInitAsyncOp, 0x90>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase__BaseInitAsyncOp, ___m_CallBack) == 0x88, "Offset mismatch!");
+
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
 // Type: ::<>c__DisplayClass10_0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14012))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14283))
 // CS Name: ::ResourceProviderBase::<>c__DisplayClass10_0*
 class CORDL_TYPE __ResourceProviderBase____c__DisplayClass10_0 : public ::System::Object {
 public:
@@ -152,10 +154,10 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase____c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bd8238 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a554e4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <InitializeAsync>b__0 addr 0x2bd8390 size 0x2c virtual false final false
+  /// @brief Method <InitializeAsync>b__0 addr 0x2a5563c size 0x2c virtual false final false
   inline bool _InitializeAsync_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ResourceProviderBase____c__DisplayClass10_0", modifiers: "&&", def_value: None }]
@@ -186,13 +188,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase____c__DisplayClass10_0, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase____c__DisplayClass10_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase____c__DisplayClass10_0, ___id) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase____c__DisplayClass10_0, ___data) == 0x20, "Offset mismatch!");
+
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
 // Type: UnityEngine.ResourceManagement.ResourceProviders::ResourceProviderBase
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14001)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14013))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14272)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14284))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::ResourceProviderBase*
 class CORDL_TYPE ResourceProviderBase : public ::System::Object {
 public:
@@ -230,36 +238,36 @@ public:
 
   constexpr void __set_m_BehaviourFlags(::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags value);
 
-  /// @brief Method get_ProviderId addr 0x2bd7fb4 size 0x50 virtual true final false
+  /// @brief Method get_ProviderId addr 0x2a55260 size 0x50 virtual true final false
   inline ::StringW get_ProviderId();
 
-  /// @brief Method Initialize addr 0x2bd8004 size 0x24 virtual true final false
+  /// @brief Method Initialize addr 0x2a552b0 size 0x24 virtual true final false
   inline bool Initialize(::StringW id, ::StringW data);
 
-  /// @brief Method CanProvide addr 0x2bd8028 size 0x40 virtual true final false
+  /// @brief Method CanProvide addr 0x2a552d4 size 0x40 virtual true final false
   inline bool CanProvide(::System::Type* t, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method ToString addr 0x2bd8068 size 0xc virtual true final false
+  /// @brief Method ToString addr 0x2a55314 size 0xc virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method Release addr 0x2bd8074 size 0x4 virtual true final false
+  /// @brief Method Release addr 0x2a55320 size 0x4 virtual true final false
   inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* obj);
 
-  /// @brief Method GetDefaultType addr 0x2bd8078 size 0x6c virtual true final false
+  /// @brief Method GetDefaultType addr 0x2a55324 size 0x6c virtual true final false
   inline ::System::Type* GetDefaultType(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
   /// @brief Method Provide addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method InitializeAsync addr 0x2bd80e4 size 0x154 virtual true final false
+  /// @brief Method InitializeAsync addr 0x2a55390 size 0x154 virtual true final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW id, ::StringW data);
 
-  /// @brief Method UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider.get_BehaviourFlags addr 0x2bd8288 size 0x8 virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider.get_BehaviourFlags addr 0x2a55534 size 0x8 virtual true final true
   inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags UnityEngine_ResourceManagement_ResourceProviders_IResourceProvider_get_BehaviourFlags();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bd5b2c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a52dd8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase", modifiers: "&&", def_value: None }]
@@ -286,6 +294,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase, ___m_ProviderId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase, ___m_BehaviourFlags) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
 NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase);

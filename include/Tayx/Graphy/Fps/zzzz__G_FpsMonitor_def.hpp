@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Fps::__G_FpsMonitor____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Fps {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15083))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15261))
 // CS Name: ::G_FpsMonitor::<>c*
 class CORDL_TYPE __G_FpsMonitor____c : public ::System::Object {
 public:
@@ -50,10 +50,10 @@ public:
 
   static inline ::Tayx::Graphy::Fps::__G_FpsMonitor____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a0912c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x288c100 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Update>b__25_0 addr 0x2a09134 size 0x20 virtual false final false
+  /// @brief Method <Update>b__25_0 addr 0x288c108 size 0x20 virtual false final false
   inline int32_t _Update_b__25_0(int16_t x, int16_t y);
 
   // Ctor Parameters [CppParam { name: "", ty: "__G_FpsMonitor____c", modifiers: "&&", def_value: None }]
@@ -80,8 +80,8 @@ static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Fps::__G_FpsMonito
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Fps {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15084))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15262))
 // CS Name: ::Tayx.Graphy.Fps::G_FpsMonitor*
 class CORDL_TYPE G_FpsMonitor : public ::UnityEngine::MonoBehaviour {
 public:
@@ -204,45 +204,45 @@ public:
 
   constexpr void __set__Zero1PercentFps_k__BackingField(int16_t value);
 
-  /// @brief Method get_CurrentFPS addr 0x2a08cd8 size 0x8 virtual false final false
+  /// @brief Method get_CurrentFPS addr 0x288bc10 size 0x8 virtual false final false
   inline int16_t get_CurrentFPS();
 
-  /// @brief Method set_CurrentFPS addr 0x2a08ce0 size 0x8 virtual false final false
+  /// @brief Method set_CurrentFPS addr 0x288bc18 size 0x8 virtual false final false
   inline void set_CurrentFPS(int16_t value);
 
-  /// @brief Method get_AverageFPS addr 0x2a08ce8 size 0x8 virtual false final false
+  /// @brief Method get_AverageFPS addr 0x288bc20 size 0x8 virtual false final false
   inline int16_t get_AverageFPS();
 
-  /// @brief Method set_AverageFPS addr 0x2a08cf0 size 0x8 virtual false final false
+  /// @brief Method set_AverageFPS addr 0x288bc28 size 0x8 virtual false final false
   inline void set_AverageFPS(int16_t value);
 
-  /// @brief Method get_OnePercentFPS addr 0x2a08cf8 size 0x8 virtual false final false
+  /// @brief Method get_OnePercentFPS addr 0x288bc30 size 0x8 virtual false final false
   inline int16_t get_OnePercentFPS();
 
-  /// @brief Method set_OnePercentFPS addr 0x2a08d00 size 0x8 virtual false final false
+  /// @brief Method set_OnePercentFPS addr 0x288bc38 size 0x8 virtual false final false
   inline void set_OnePercentFPS(int16_t value);
 
-  /// @brief Method get_Zero1PercentFps addr 0x2a08d08 size 0x8 virtual false final false
+  /// @brief Method get_Zero1PercentFps addr 0x288bc40 size 0x8 virtual false final false
   inline int16_t get_Zero1PercentFps();
 
-  /// @brief Method set_Zero1PercentFps addr 0x2a08d10 size 0x8 virtual false final false
+  /// @brief Method set_Zero1PercentFps addr 0x288bc48 size 0x8 virtual false final false
   inline void set_Zero1PercentFps(int16_t value);
 
-  /// @brief Method Awake addr 0x2a08d18 size 0x4 virtual false final false
+  /// @brief Method Awake addr 0x288bc50 size 0x4 virtual false final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x2a08d1c size 0x390 virtual false final false
+  /// @brief Method Update addr 0x288bcf0 size 0x390 virtual false final false
   inline void Update();
 
-  /// @brief Method UpdateParameters addr 0x2a08a50 size 0x40 virtual false final false
+  /// @brief Method UpdateParameters addr 0x288bacc size 0x40 virtual false final false
   inline void UpdateParameters();
 
-  /// @brief Method Init addr 0x2a03620 size 0xa4 virtual false final false
+  /// @brief Method Init addr 0x288bc54 size 0x9c virtual false final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Fps::G_FpsMonitor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a090ac size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x288c080 size 0x1c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_FpsMonitor", modifiers: "&&", def_value: None }]
@@ -299,6 +299,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Fps::G_FpsMonitor, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsMonitor, ___m_fpsSamples) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsMonitor, ___m_fpsSamplesSorted) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsMonitor, ___m_fpsSamplesCapacity) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsMonitor, ___m_onePercentSamples) == 0x2a, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsMonitor, ___m_zero1PercentSamples) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsMonitor, ___m_fpsSamplesCount) == 0x2e, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsMonitor, ___m_indexSample) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsMonitor, ___m_unscaledDeltaTime) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsMonitor, ____CurrentFPS_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsMonitor, ____AverageFPS_k__BackingField) == 0x3a, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsMonitor, ____OnePercentFPS_k__BackingField) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsMonitor, ____Zero1PercentFps_k__BackingField) == 0x3e, "Offset mismatch!");
 
 } // namespace Tayx::Graphy::Fps
 NEED_NO_BOX(::Tayx::Graphy::Fps::G_FpsMonitor);

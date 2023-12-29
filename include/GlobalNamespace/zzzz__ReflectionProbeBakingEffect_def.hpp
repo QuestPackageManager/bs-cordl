@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ReflectionProbeBakingEffect);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14502))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14720))
 // CS Name: ::ReflectionProbeBakingEffect*
 class CORDL_TYPE ReflectionProbeBakingEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -35,12 +35,12 @@ public:
 
   constexpr void __set__material(::UnityEngine::Material* value);
 
-  /// @brief Method OnRenderImage addr 0x210c310 size 0x74 virtual false final false
+  /// @brief Method OnRenderImage addr 0x1fb6e2c size 0x74 virtual false final false
   inline void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   static inline ::GlobalNamespace::ReflectionProbeBakingEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x210c384 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fb6ea0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbeBakingEffect", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ReflectionProbeBakingEffect, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingEffect, ____material) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ReflectionProbeBakingEffect);

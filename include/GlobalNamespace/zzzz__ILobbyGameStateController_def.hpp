@@ -2,43 +2,43 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include <cstdint>
+#include <cmath>
 CORDL_MODULE_EXPORT(ILobbyGameStateController)
-namespace GlobalNamespace {
-struct DisconnectedReason;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
-namespace GlobalNamespace {
-struct CannotStartGameReason;
+namespace System::Threading::Tasks {
+class Task;
 }
-namespace GlobalNamespace {
-class PlayersMissingEntitlementsNetSerializable;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace GlobalNamespace {
-struct MultiplayerLobbyState;
+struct CannotStartGameReason;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace GlobalNamespace {
+class MultiplayerResultsData;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+class PlayersMissingEntitlementsNetSerializable;
+}
+namespace GlobalNamespace {
+struct MultiplayerLobbyState;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class MultiplayerResultsData;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+class ILevelGameplaySetupData;
 }
 namespace System {
 class Action;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class ILevelGameplaySetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ILobbyGameStateController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4490))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4501))
 // CS Name: ::ILobbyGameStateController*
 class CORDL_TYPE ILobbyGameStateController {
 public:
@@ -64,13 +64,13 @@ public:
 
   __declspec(property(get = get_countdownStarted)) bool countdownStarted;
 
-  __declspec(property(get = get_countdownEndTime)) int64_t countdownEndTime;
+  __declspec(property(get = get_countdownEndTime)) float_t countdownEndTime;
 
   __declspec(property(get = get_levelStartInitiated)) bool levelStartInitiated;
 
-  __declspec(property(get = get_startTime)) int64_t startTime;
+  __declspec(property(get = get_startTime)) float_t startTime;
 
-  __declspec(property(get = get_predictedCountdownEndTime)) int64_t predictedCountdownEndTime;
+  __declspec(property(get = get_predictedCountdownEndTime)) float_t predictedCountdownEndTime;
 
   __declspec(property(get = get_isDisconnected)) bool isDisconnected;
 
@@ -176,16 +176,16 @@ public:
   inline bool get_countdownStarted();
 
   /// @brief Method get_countdownEndTime addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline int64_t get_countdownEndTime();
+  inline float_t get_countdownEndTime();
 
   /// @brief Method get_levelStartInitiated addr 0x0 size 0xffffffffffffffff virtual true final false
   inline bool get_levelStartInitiated();
 
   /// @brief Method get_startTime addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline int64_t get_startTime();
+  inline float_t get_startTime();
 
   /// @brief Method get_predictedCountdownEndTime addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline int64_t get_predictedCountdownEndTime();
+  inline float_t get_predictedCountdownEndTime();
 
   /// @brief Method get_isDisconnected addr 0x0 size 0xffffffffffffffff virtual true final false
   inline bool get_isDisconnected();

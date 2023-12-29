@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Diagnostics::TraceOptions);
 namespace System::Diagnostics {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8945))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7782))
 // CS Name: ::System.Diagnostics::TraceOptions
 struct CORDL_TYPE TraceOptions {
 public:
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::TraceOptions, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::TraceOptions, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Diagnostics
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::TraceOptions, "System.Diagnostics", "TraceOptions");

@@ -14,10 +14,10 @@ namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -44,29 +44,29 @@ public:
 
   constexpr void __set_str(::StringW value);
 
-  /// @brief Method GetInstance addr 0x11c559c size 0xf0 virtual false final false
+  /// @brief Method GetInstance addr 0x115434c size 0xf0 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerUtf8String* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance addr 0x11c568c size 0xd8 virtual false final false
+  /// @brief Method GetInstance addr 0x115443c size 0xd8 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerUtf8String* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::DerUtf8String* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor addr 0x11b7434 size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x11461e4 size 0x54 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
   static inline ::Org::BouncyCastle::Asn1::DerUtf8String* New_ctor(::StringW str);
 
-  /// @brief Method .ctor addr 0x11c5764 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x1154514 size 0x78 virtual false final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method GetString addr 0x11c57dc size 0x8 virtual true final false
+  /// @brief Method GetString addr 0x115458c size 0x8 virtual true final false
   inline ::StringW GetString();
 
-  /// @brief Method Asn1Equals addr 0x11c57e4 size 0xa0 virtual true final false
+  /// @brief Method Asn1Equals addr 0x1154594 size 0xa0 virtual true final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Encode addr 0x11c5884 size 0x50 virtual true final false
+  /// @brief Method Encode addr 0x1154634 size 0x50 virtual true final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "DerUtf8String", modifiers: "&&", def_value: None }]
@@ -90,6 +90,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::DerUtf8String, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::DerUtf8String, ___str) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerUtf8String);

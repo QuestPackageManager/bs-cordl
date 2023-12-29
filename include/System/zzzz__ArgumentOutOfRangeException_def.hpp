@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__ArgumentException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ArgumentOutOfRangeException)
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
 namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -43,33 +43,33 @@ public:
 
   static inline ::System::ArgumentOutOfRangeException* New_ctor();
 
-  /// @brief Method .ctor addr 0x2520d2c size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x23c7a60 size 0x5c virtual false final false
   inline void _ctor();
 
   static inline ::System::ArgumentOutOfRangeException* New_ctor(::StringW paramName);
 
-  /// @brief Method .ctor addr 0x2520d88 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x23c7abc size 0x6c virtual false final false
   inline void _ctor(::StringW paramName);
 
   static inline ::System::ArgumentOutOfRangeException* New_ctor(::StringW paramName, ::StringW message);
 
-  /// @brief Method .ctor addr 0x251c910 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x23c3644 size 0x38 virtual false final false
   inline void _ctor(::StringW paramName, ::StringW message);
 
   static inline ::System::ArgumentOutOfRangeException* New_ctor(::StringW paramName, ::System::Object* actualValue, ::StringW message);
 
-  /// @brief Method .ctor addr 0x251da30 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x23c4764 size 0x3c virtual false final false
   inline void _ctor(::StringW paramName, ::System::Object* actualValue, ::StringW message);
 
   static inline ::System::ArgumentOutOfRangeException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x2520df4 size 0xd8 virtual false final false
+  /// @brief Method .ctor addr 0x23c7b28 size 0xd8 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData addr 0x2520ecc size 0xd8 virtual true final false
+  /// @brief Method GetObjectData addr 0x23c7c00 size 0xd8 virtual true final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Message addr 0x2520fa4 size 0xac virtual true final false
+  /// @brief Method get_Message addr 0x23c7cd8 size 0xac virtual true final false
   inline ::StringW get_Message();
 
   // Ctor Parameters [CppParam { name: "", ty: "ArgumentOutOfRangeException", modifiers: "&&", def_value: None }]
@@ -93,6 +93,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ArgumentOutOfRangeException, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::System::ArgumentOutOfRangeException, ____actualValue) == 0x98, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::ArgumentOutOfRangeException);

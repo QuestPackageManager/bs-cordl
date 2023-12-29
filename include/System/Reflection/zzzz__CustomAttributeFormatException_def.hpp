@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CustomAttributeFormatException)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System {
 class Exception;
@@ -25,29 +25,29 @@ MARK_REF_PTR_T(::System::Reflection::CustomAttributeFormatException);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2382))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3462))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3457))
 // CS Name: ::System.Reflection::CustomAttributeFormatException*
 class CORDL_TYPE CustomAttributeFormatException : public ::System::FormatException {
 public:
   // Declarations
   static inline ::System::Reflection::CustomAttributeFormatException* New_ctor();
 
-  /// @brief Method .ctor addr 0x24e625c size 0x60 virtual false final false
+  /// @brief Method .ctor addr 0x238c7a4 size 0x60 virtual false final false
   inline void _ctor();
 
   static inline ::System::Reflection::CustomAttributeFormatException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x24e62bc size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x238c804 size 0x28 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Reflection::CustomAttributeFormatException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor addr 0x24e62e4 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x238c82c size 0x24 virtual false final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
   static inline ::System::Reflection::CustomAttributeFormatException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x24e6308 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x238c850 size 0x8 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeFormatException", modifiers: "&&", def_value: None }]

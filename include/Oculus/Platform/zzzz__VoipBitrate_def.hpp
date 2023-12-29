@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::VoipBitrate);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13398))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13437))
 // CS Name: ::Oculus.Platform::VoipBitrate
 struct CORDL_TYPE VoipBitrate {
 public:
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::VoipBitrate, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::VoipBitrate, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::VoipBitrate, "Oculus.Platform", "VoipBitrate");

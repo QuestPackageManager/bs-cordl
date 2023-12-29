@@ -4,19 +4,20 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__StateBuffer_3_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RemoteStateBuffer_3)
 namespace GlobalNamespace {
-struct SyncStateId;
-}
-namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
+template <typename TStateTable, typename TType, typename TState> struct __StateBuffer_3__TimestampedStateTable;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> struct __StateBuffer_3__TimestampedStateTable;
+struct SyncStateId;
+}
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,8 +31,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12985)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12985), inst: 3837 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12987))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12906)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12906), inst: 3745 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12908))
 // CS Name: ::RemoteStateBuffer`3<TStateTable,TType,TState>*
 class CORDL_TYPE RemoteStateBuffer_3 : public ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState> {
 public:
@@ -110,10 +111,10 @@ public:
   inline void Clear();
 
   /// @brief Method PushState addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void PushState(::GlobalNamespace::SyncStateId id, TStateTable state, int64_t time);
+  inline void PushState(::GlobalNamespace::SyncStateId id, TStateTable state, float_t time);
 
   /// @brief Method PushDelta addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void PushDelta(::GlobalNamespace::SyncStateId baseId, TStateTable delta, int64_t timeOffset);
+  inline void PushDelta(::GlobalNamespace::SyncStateId baseId, TStateTable delta, float_t timeOffset);
 
   /// @brief Method ProcessQueue addr 0x0 size 0xffffffffffffffff virtual false final false
   inline void ProcessQueue();

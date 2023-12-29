@@ -8,28 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelCompletionResultsHelper)
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class BeatmapObjectExecutionRating;
-}
-namespace GlobalNamespace {
 struct __LevelCompletionResults__LevelEndAction;
 }
 namespace GlobalNamespace {
-struct __LevelCompletionResults__LevelEndStateType;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
 class PlayerData;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
@@ -38,7 +20,25 @@ namespace GlobalNamespace {
 class PlayerLevelStatsData;
 }
 namespace GlobalNamespace {
+class BeatmapObjectExecutionRating;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
+namespace GlobalNamespace {
 class PlatformLeaderboardsModel;
+}
+namespace GlobalNamespace {
+struct __LevelCompletionResults__LevelEndStateType;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,13 +50,13 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelCompletionResultsHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4236))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4269))
 // CS Name: ::LevelCompletionResultsHelper*
 class CORDL_TYPE LevelCompletionResultsHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create addr 0x232be74 size 0x454 virtual false final false
+  /// @brief Method Create addr 0x21db140 size 0x454 virtual false final false
   static inline ::GlobalNamespace::LevelCompletionResults*
   Create(::GlobalNamespace::IReadonlyBeatmapData* beatmapData,
          ::ArrayW<::GlobalNamespace::BeatmapObjectExecutionRating*, ::Array<::GlobalNamespace::BeatmapObjectExecutionRating*>*> beatmapObjectExecutionRatings,
@@ -65,7 +65,7 @@ public:
          float_t leftHandMovementDistance, float_t rightHandMovementDistance, ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType,
          ::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy, float_t songTime);
 
-  /// @brief Method ProcessScore addr 0x232c2c8 size 0x110 virtual false final false
+  /// @brief Method ProcessScore addr 0x21db594 size 0x110 virtual false final false
   static inline void ProcessScore(::GlobalNamespace::PlayerData* playerData, ::GlobalNamespace::PlayerLevelStatsData* playerLevelStats,
                                   ::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
                                   ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel);

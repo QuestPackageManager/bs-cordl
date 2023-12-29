@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::Assets::OVR::Scripts::FixRecord);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Assets::OVR::Scripts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8734))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8737))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9499))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9502))
 // CS Name: ::Assets.OVR.Scripts::FixRecord*
 class CORDL_TYPE FixRecord : public ::Assets::OVR::Scripts::Record {
 public:
@@ -77,7 +77,7 @@ public:
   static inline ::Assets::OVR::Scripts::FixRecord* New_ctor(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate* fix, ::UnityEngine::Object* target,
                                                             bool editRequired, ::ArrayW<::StringW, ::Array<::StringW>*> buttons);
 
-  /// @brief Method .ctor addr 0x27f874c size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x26814a4 size 0x6c virtual false final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate* fix, ::UnityEngine::Object* target, bool editRequired,
                     ::ArrayW<::StringW, ::Array<::StringW>*> buttons);
 
@@ -114,6 +114,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Assets::OVR::Scripts::FixRecord, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Assets::OVR::Scripts::FixRecord, ___fixMethod) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Assets::OVR::Scripts::FixRecord, ___targetObject) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Assets::OVR::Scripts::FixRecord, ___buttonNames) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Assets::OVR::Scripts::FixRecord, ___editModeRequired) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Assets::OVR::Scripts::FixRecord, ___complete) == 0x41, "Offset mismatch!");
 
 } // namespace Assets::OVR::Scripts
 NEED_NO_BOX(::Assets::OVR::Scripts::FixRecord);

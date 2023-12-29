@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_TOPWorkResult);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9773))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9700))
 // CS Name: ::HoudiniEngineUnity::HEU_TOPWorkResult*
 class CORDL_TYPE HEU_TOPWorkResult : public ::System::Object {
 public:
@@ -56,7 +56,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_TOPWorkResult* New_ctor();
 
-  /// @brief Method .ctor addr 0x219c068 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0x20456cc size 0x84 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_TOPWorkResult", modifiers: "&&", def_value: None }]
@@ -86,6 +86,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_TOPWorkResult, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPWorkResult, ____workItemIndex) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPWorkResult, ____workItemID) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPWorkResult, ____generatedGOs) == 0x18, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_TOPWorkResult);

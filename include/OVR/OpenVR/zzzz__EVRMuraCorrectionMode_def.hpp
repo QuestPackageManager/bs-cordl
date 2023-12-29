@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRMuraCorrectionMode);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8614))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9383))
 // CS Name: ::OVR.OpenVR::EVRMuraCorrectionMode
 struct CORDL_TYPE EVRMuraCorrectionMode {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRMuraCorrectionMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::EVRMuraCorrectionMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRMuraCorrectionMode, "OVR.OpenVR", "EVRMuraCorrectionMode");

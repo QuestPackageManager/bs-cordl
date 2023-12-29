@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::NetSyncVoipMicSource);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13341))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13368))
 // CS Name: ::Oculus.Platform::NetSyncVoipMicSource
 struct CORDL_TYPE NetSyncVoipMicSource {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::NetSyncVoipMicSource, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::NetSyncVoipMicSource, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::NetSyncVoipMicSource, "Oculus.Platform", "NetSyncVoipMicSource");

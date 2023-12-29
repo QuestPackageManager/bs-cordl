@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15641))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15599))
 // CS Name: ::XRDisplaySubsystem::LateLatchNode
 struct CORDL_TYPE __XRDisplaySubsystem__LateLatchNode {
 public:
@@ -79,13 +79,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::__XRDisplaySubsystem__LateLatchNode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__LateLatchNode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::XR
 // Type: ::XRRenderPass
 // SizeInfo { instance_size: 216, native_size: 216, calculated_instance_size: 216, calculated_native_size: 228, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10346)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10089))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15642))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10017)), TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(10268))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15600))
 // CS Name: ::XRDisplaySubsystem::XRRenderPass
 struct CORDL_TYPE __XRDisplaySubsystem__XRRenderPass {
 public:
@@ -140,13 +142,31 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass, 0xd8>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass, displaySubsystemInstance) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass, renderPassIndex) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass, renderTarget) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass, renderTargetDesc) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass, hasMotionVectorPass) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass, motionVectorRenderTarget) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass, motionVectorRenderTargetDesc) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass, shouldFillOutDepth) == 0xcc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass, cullingPassIndex) == 0xd0, "Offset mismatch!");
+
 } // namespace UnityEngine::XR
 // Type: ::XRMirrorViewBlitDesc
 // SizeInfo { instance_size: 16, native_size: 24, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15643))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15601))
 // CS Name: ::XRDisplaySubsystem::XRMirrorViewBlitDesc
 struct CORDL_TYPE __XRDisplaySubsystem__XRMirrorViewBlitDesc {
 public:
@@ -178,6 +198,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::__XRDisplaySubsystem__XRMirrorViewBlitDesc, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__XRMirrorViewBlitDesc, displaySubsystemInstance) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__XRMirrorViewBlitDesc, nativeBlitAvailable) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__XRMirrorViewBlitDesc, nativeBlitInvalidStates) == 0x9, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__XRMirrorViewBlitDesc, blitParamsCount) == 0xc, "Offset mismatch!");
 
 } // namespace UnityEngine::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::__XRDisplaySubsystem__LateLatchNode, "UnityEngine.XR", "XRDisplaySubsystem/LateLatchNode");

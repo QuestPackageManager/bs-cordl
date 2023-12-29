@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CombinedHash)
 namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class TlsHandshakeHash;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::CombinedHash);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1202))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::CombinedHash*
 class CORDL_TYPE CombinedHash : public ::System::Object {
@@ -69,57 +69,57 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CombinedHash* New_ctor();
 
-  /// @brief Method .ctor addr 0xf61e6c size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0xeebc48 size 0x7c virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CombinedHash* New_ctor(::Org::BouncyCastle::Crypto::Tls::CombinedHash* t);
 
-  /// @brief Method .ctor addr 0xf61ee8 size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0xeebcc4 size 0x9c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::CombinedHash* t);
 
-  /// @brief Method Init addr 0xf61f84 size 0x8 virtual true final false
+  /// @brief Method Init addr 0xeebd60 size 0x8 virtual true final false
   inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  /// @brief Method NotifyPrfDetermined addr 0xf61f8c size 0x4 virtual true final false
+  /// @brief Method NotifyPrfDetermined addr 0xeebd68 size 0x4 virtual true final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* NotifyPrfDetermined();
 
-  /// @brief Method TrackHashAlgorithm addr 0xf61f90 size 0x50 virtual true final false
+  /// @brief Method TrackHashAlgorithm addr 0xeebd6c size 0x50 virtual true final false
   inline void TrackHashAlgorithm(uint8_t hashAlgorithm);
 
-  /// @brief Method SealHashAlgorithms addr 0xf61fe0 size 0x4 virtual true final false
+  /// @brief Method SealHashAlgorithms addr 0xeebdbc size 0x4 virtual true final false
   inline void SealHashAlgorithms();
 
-  /// @brief Method StopTracking addr 0xf61fe4 size 0x60 virtual true final false
+  /// @brief Method StopTracking addr 0xeebdc0 size 0x60 virtual true final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* StopTracking();
 
-  /// @brief Method ForkPrfHash addr 0xf62044 size 0x60 virtual true final false
+  /// @brief Method ForkPrfHash addr 0xeebe20 size 0x60 virtual true final false
   inline ::Org::BouncyCastle::Crypto::IDigest* ForkPrfHash();
 
-  /// @brief Method GetFinalHash addr 0xf620a4 size 0x50 virtual true final false
+  /// @brief Method GetFinalHash addr 0xeebe80 size 0x50 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetFinalHash(uint8_t hashAlgorithm);
 
-  /// @brief Method get_AlgorithmName addr 0xf620f4 size 0x12c virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xeebed0 size 0x12c virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetByteLength addr 0xf62220 size 0x148 virtual true final false
+  /// @brief Method GetByteLength addr 0xeebffc size 0x148 virtual true final false
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize addr 0xf62368 size 0x114 virtual true final false
+  /// @brief Method GetDigestSize addr 0xeec144 size 0x114 virtual true final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method Update addr 0xf6247c size 0x11c virtual true final false
+  /// @brief Method Update addr 0xeec258 size 0x11c virtual true final false
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate addr 0xf62598 size 0x13c virtual true final false
+  /// @brief Method BlockUpdate addr 0xeec374 size 0x13c virtual true final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal addr 0xf626d4 size 0x1ec virtual true final false
+  /// @brief Method DoFinal addr 0xeec4b0 size 0x1ec virtual true final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xf628c0 size 0x108 virtual true final false
+  /// @brief Method Reset addr 0xeec69c size 0x108 virtual true final false
   inline void Reset();
 
-  /// @brief Method Ssl3Complete addr 0xf629c8 size 0x33c virtual true final false
+  /// @brief Method Ssl3Complete addr 0xeec7a4 size 0x33c virtual true final false
   inline void Ssl3Complete(::Org::BouncyCastle::Crypto::IDigest* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> ipad, ::ArrayW<uint8_t, ::Array<uint8_t>*> opad, int32_t padLength);
 
   // Ctor Parameters [CppParam { name: "", ty: "CombinedHash", modifiers: "&&", def_value: None }]
@@ -149,6 +149,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::CombinedHash, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::CombinedHash, ___mContext) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::CombinedHash, ___mMd5) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::CombinedHash, ___mSha1) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::CombinedHash);

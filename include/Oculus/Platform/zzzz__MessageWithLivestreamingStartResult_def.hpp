@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithLivestreamingStartResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13454)), TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 4595 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13302)) CS Name: ::Oculus.Platform::MessageWithLivestreamingStartResult*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13269)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst: 4496 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13500))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13315)) CS Name: ::Oculus.Platform::MessageWithLivestreamingStartResult*
 class CORDL_TYPE MessageWithLivestreamingStartResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LivestreamingStartResult*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithLivestreamingStartResult* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x26f2618 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x259681c size 0x58 virtual false final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetLivestreamingStartResult addr 0x26f2670 size 0x3c virtual true final false
+  /// @brief Method GetLivestreamingStartResult addr 0x2596874 size 0x3c virtual true final false
   inline ::Oculus::Platform::Models::LivestreamingStartResult* GetLivestreamingStartResult();
 
-  /// @brief Method GetDataFromMessage addr 0x26f26ac size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage addr 0x25968b0 size 0x9c virtual true final false
   inline ::Oculus::Platform::Models::LivestreamingStartResult* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithLivestreamingStartResult", modifiers: "&&", def_value: None }]

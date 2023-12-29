@@ -10,13 +10,19 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class IEnumerator_1;
+}
+namespace System {
+template <typename T> class Predicate_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -27,14 +33,8 @@ template <typename T> class Comparison_1;
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace System {
-template <typename T> class Predicate_1;
-}
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI::Collections {
@@ -48,8 +48,8 @@ namespace UnityEngine::UI::Collections {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13149))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13154))
 // CS Name: ::UnityEngine.UI.Collections::IndexedSet`1<T>*
 class CORDL_TYPE IndexedSet_1 : public ::System::Object {
 public:

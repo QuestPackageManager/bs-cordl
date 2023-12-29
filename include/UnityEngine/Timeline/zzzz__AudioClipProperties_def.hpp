@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::AudioClipProperties);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13865))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10347))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14136))
 // CS Name: ::UnityEngine.Timeline::AudioClipProperties*
 class CORDL_TYPE AudioClipProperties : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::Timeline::AudioClipProperties* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c61ac0 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2addd6c size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioClipProperties", modifiers: "&&", def_value: None }]
@@ -56,6 +56,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::AudioClipProperties, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::AudioClipProperties, ___volume) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::AudioClipProperties);

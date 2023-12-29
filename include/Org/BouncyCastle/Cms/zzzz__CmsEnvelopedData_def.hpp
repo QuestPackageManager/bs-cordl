@@ -13,14 +13,14 @@ class Asn1Set;
 namespace Org::BouncyCastle::Asn1::Cms {
 class AttributeTable;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfo;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace System::IO {
 class Stream;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfo;
 }
 namespace Org::BouncyCastle::Cms {
 class RecipientInformationStore;
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsEnvelopedData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(633))
 // CS Name: ::Org.BouncyCastle.Cms::CmsEnvelopedData*
 class CORDL_TYPE CmsEnvelopedData : public ::System::Object {
@@ -85,35 +85,35 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> envelopedData);
 
-  /// @brief Method .ctor addr 0x11dd734 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x116c4e4 size 0x24 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> envelopedData);
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* New_ctor(::System::IO::Stream* envelopedData);
 
-  /// @brief Method .ctor addr 0x11dd89c size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x116c64c size 0x24 virtual false final false
   inline void _ctor(::System::IO::Stream* envelopedData);
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method .ctor addr 0x11dd758 size 0x144 virtual false final false
+  /// @brief Method .ctor addr 0x116c508 size 0x144 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method get_EncryptionAlgorithmID addr 0x11dd8c0 size 0x8 virtual false final false
+  /// @brief Method get_EncryptionAlgorithmID addr 0x116c670 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithmID();
 
-  /// @brief Method get_EncryptionAlgOid addr 0x11dd8c8 size 0x2c virtual false final false
+  /// @brief Method get_EncryptionAlgOid addr 0x116c678 size 0x2c virtual false final false
   inline ::StringW get_EncryptionAlgOid();
 
-  /// @brief Method GetRecipientInfos addr 0x11dd8f4 size 0x8 virtual false final false
+  /// @brief Method GetRecipientInfos addr 0x116c6a4 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Cms::RecipientInformationStore* GetRecipientInfos();
 
-  /// @brief Method get_ContentInfo addr 0x11dd8fc size 0x8 virtual false final false
+  /// @brief Method get_ContentInfo addr 0x116c6ac size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_ContentInfo();
 
-  /// @brief Method GetUnprotectedAttributes addr 0x11dd904 size 0x74 virtual false final false
+  /// @brief Method GetUnprotectedAttributes addr 0x116c6b4 size 0x74 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetUnprotectedAttributes();
 
-  /// @brief Method GetEncoded addr 0x11dd978 size 0x1c virtual false final false
+  /// @brief Method GetEncoded addr 0x116c728 size 0x1c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedData", modifiers: "&&", def_value: None }]
@@ -146,6 +146,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsEnvelopedData, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsEnvelopedData, ___recipientInfoStore) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsEnvelopedData, ___contentInfo) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsEnvelopedData, ___encAlg) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::CmsEnvelopedData, ___unprotectedAttributes) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsEnvelopedData);

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatmapObjectAvoidanceTiltEvaluator)
+namespace UnityEngine {
+struct Vector2;
+}
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class BezierSplineEvaluator;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3958))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3944))
 // CS Name: ::BeatmapObjectAvoidanceTiltEvaluator*
 class CORDL_TYPE BeatmapObjectAvoidanceTiltEvaluator : public ::System::Object {
 public:
@@ -79,10 +79,10 @@ public:
   static inline ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator,
                                                                                  ::UnityEngine::Vector2 gravity);
 
-  /// @brief Method .ctor addr 0x2217308 size 0xe0 virtual false final false
+  /// @brief Method .ctor addr 0x20b6320 size 0xe0 virtual false final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator, ::UnityEngine::Vector2 gravity);
 
-  /// @brief Method GetTiltAngle addr 0x22173e8 size 0x2cc virtual false final false
+  /// @brief Method GetTiltAngle addr 0x20b6400 size 0x2cc virtual false final false
   inline float_t GetTiltAngle();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectAvoidanceTiltEvaluator", modifiers: "&&", def_value: None }]
@@ -121,6 +121,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator, ____audioTimeSource) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator, ____gravity) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator, ____normalizedGravity) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator, ____bezierSplineEvaluator) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator, ____currentAcceleration) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator);

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10182))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10110))
 // CS Name: ::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments
 struct CORDL_TYPE TouchScreenKeyboard_InternalConstructorHelperArguments {
 public:
@@ -56,6 +56,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments, keyboardType) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments, autocorrection) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments, multiline) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments, secure) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments, alert) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments, characterLimit) == 0x14, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments, "UnityEngine", "TouchScreenKeyboard_InternalConstructorHelperArguments");

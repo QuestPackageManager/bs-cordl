@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PublicKeyPacket)
-namespace System {
-struct DateTime;
+namespace Org::BouncyCastle::Bcpg {
+class IBcpgKey;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct PublicKeyAlgorithmTag;
@@ -16,8 +16,8 @@ struct PublicKeyAlgorithmTag;
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
-namespace Org::BouncyCastle::Bcpg {
-class IBcpgKey;
+namespace System {
+struct DateTime;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
@@ -93,33 +93,33 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x11ce7f4 size 0x298 virtual false final false
+  /// @brief Method .ctor addr 0x115d5a4 size 0x298 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-  /// @brief Method .ctor addr 0x11d259c size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0x116134c size 0xb4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-  /// @brief Method get_Version addr 0x11d2650 size 0x8 virtual true final false
+  /// @brief Method get_Version addr 0x1161400 size 0x8 virtual true final false
   inline int32_t get_Version();
 
-  /// @brief Method get_Algorithm addr 0x11d2658 size 0x8 virtual true final false
+  /// @brief Method get_Algorithm addr 0x1161408 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_Algorithm();
 
-  /// @brief Method get_ValidDays addr 0x11d2660 size 0x8 virtual true final false
+  /// @brief Method get_ValidDays addr 0x1161410 size 0x8 virtual true final false
   inline int32_t get_ValidDays();
 
-  /// @brief Method GetTime addr 0x11d2668 size 0x60 virtual true final false
+  /// @brief Method GetTime addr 0x1161418 size 0x60 virtual true final false
   inline ::System::DateTime GetTime();
 
-  /// @brief Method get_Key addr 0x11d26c8 size 0x8 virtual true final false
+  /// @brief Method get_Key addr 0x1161478 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Bcpg::IBcpgKey* get_Key();
 
-  /// @brief Method GetEncodedContents addr 0x11d26d0 size 0x15c virtual true final false
+  /// @brief Method GetEncodedContents addr 0x1161480 size 0x15c virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncodedContents();
 
-  /// @brief Method Encode addr 0x11d282c size 0x38 virtual true final false
+  /// @brief Method Encode addr 0x11615dc size 0x38 virtual true final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "PublicKeyPacket", modifiers: "&&", def_value: None }]
@@ -155,6 +155,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::PublicKeyPacket, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::PublicKeyPacket, ___version) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::PublicKeyPacket, ___time) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::PublicKeyPacket, ___validDays) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::PublicKeyPacket, ___algorithm) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::PublicKeyPacket, ___key) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::PublicKeyPacket);

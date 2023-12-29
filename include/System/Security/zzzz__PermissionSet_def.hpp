@@ -14,32 +14,32 @@ class ISecurityEncodable;
 namespace System {
 class Object;
 }
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Security {
+class SecurityElement;
+}
+namespace System::Security::Permissions {
+struct PermissionState;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections {
+class ArrayList;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Collections {
-class ICollection;
-}
 namespace System::Security {
 class IPermission;
-}
-namespace System::Security {
-class SecurityElement;
-}
-namespace System {
-class Array;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Security::Permissions {
-struct PermissionState;
 }
 // Forward declare root types
 namespace System::Security {
@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::System::Security::PermissionSet);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2902))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2884))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2898)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2880))
 // CS Name: ::System.Security::PermissionSet*
 class CORDL_TYPE PermissionSet : public ::System::Object {
 public:
@@ -127,59 +127,59 @@ public:
 
   static inline ::System::Security::PermissionSet* New_ctor();
 
-  /// @brief Method .ctor addr 0x245168c size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x22f7b70 size 0x6c virtual false final false
   inline void _ctor();
 
   static inline ::System::Security::PermissionSet* New_ctor(::System::Security::Permissions::PermissionState state);
 
-  /// @brief Method .ctor addr 0x2451778 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x22f7c5c size 0x30 virtual false final false
   inline void _ctor(::System::Security::Permissions::PermissionState state);
 
   static inline ::System::Security::PermissionSet* New_ctor(::System::Security::IPermission* perm);
 
-  /// @brief Method .ctor addr 0x2451160 size 0x4c virtual false final false
+  /// @brief Method .ctor addr 0x22f7644 size 0x4c virtual false final false
   inline void _ctor(::System::Security::IPermission* perm);
 
-  /// @brief Method CopyTo addr 0x2452014 size 0x178 virtual true final false
+  /// @brief Method CopyTo addr 0x22f84f8 size 0x178 virtual true final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method Demand addr 0x245218c size 0x228 virtual true final true
+  /// @brief Method Demand addr 0x22f8670 size 0x228 virtual true final true
   inline void Demand();
 
-  /// @brief Method CasOnlyDemand addr 0x24511ac size 0x78 virtual false final false
+  /// @brief Method CasOnlyDemand addr 0x22f7690 size 0x78 virtual false final false
   inline void CasOnlyDemand(int32_t skip);
 
-  /// @brief Method GetEnumerator addr 0x2452764 size 0x24 virtual true final true
+  /// @brief Method GetEnumerator addr 0x22f8c48 size 0x24 virtual true final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method IsEmpty addr 0x24523b4 size 0x3a0 virtual false final false
+  /// @brief Method IsEmpty addr 0x22f8898 size 0x3a0 virtual false final false
   inline bool IsEmpty();
 
-  /// @brief Method IsUnrestricted addr 0x2452754 size 0x10 virtual false final false
+  /// @brief Method IsUnrestricted addr 0x22f8c38 size 0x10 virtual false final false
   inline bool IsUnrestricted();
 
-  /// @brief Method ToString addr 0x2452788 size 0x2c virtual true final false
+  /// @brief Method ToString addr 0x22f8c6c size 0x2c virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method ToXml addr 0x2451910 size 0x45c virtual true final false
+  /// @brief Method ToXml addr 0x22f7df4 size 0x45c virtual true final false
   inline ::System::Security::SecurityElement* ToXml();
 
-  /// @brief Method get_Count addr 0x24527b4 size 0x24 virtual true final false
+  /// @brief Method get_Count addr 0x22f8c98 size 0x24 virtual true final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized addr 0x24527d8 size 0x24 virtual true final false
+  /// @brief Method get_IsSynchronized addr 0x22f8cbc size 0x24 virtual true final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot addr 0x24527fc size 0x4 virtual true final false
+  /// @brief Method get_SyncRoot addr 0x22f8ce0 size 0x4 virtual true final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization addr 0x2452800 size 0x4 virtual true final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization addr 0x22f8ce4 size 0x4 virtual true final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method Equals addr 0x2451dfc size 0x19c virtual true final false
+  /// @brief Method Equals addr 0x22f82e0 size 0x19c virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2451fd0 size 0x44 virtual true final false
+  /// @brief Method GetHashCode addr 0x22f84b4 size 0x44 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "PermissionSet", modifiers: "&&", def_value: None }]
@@ -212,6 +212,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::PermissionSet, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::PermissionSet, ___state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::PermissionSet, ___list) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::PermissionSet, ____declsec) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::PermissionSet, ____ignored) == 0x28, "Offset mismatch!");
 
 } // namespace System::Security
 NEED_NO_BOX(::System::Security::PermissionSet);

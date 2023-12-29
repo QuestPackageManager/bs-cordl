@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::QuaternionControl);
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6216)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3342 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6639)) CS Name: ::UnityEngine.InputSystem.Controls::QuaternionControl*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(6302)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6302), inst:
+// 3266 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6725)) CS Name: ::UnityEngine.InputSystem.Controls::QuaternionControl*
 class CORDL_TYPE QuaternionControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::Quaternion> {
 public:
   // Declarations
@@ -70,42 +70,42 @@ public:
 
   constexpr void __set__w_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_x addr 0x2b0b254 size 0x8 virtual false final false
+  /// @brief Method get_x addr 0x298a500 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_x();
 
-  /// @brief Method set_x addr 0x2b0b25c size 0x8 virtual false final false
+  /// @brief Method set_x addr 0x298a508 size 0x8 virtual false final false
   inline void set_x(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_y addr 0x2b0b264 size 0x8 virtual false final false
+  /// @brief Method get_y addr 0x298a510 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_y();
 
-  /// @brief Method set_y addr 0x2b0b26c size 0x8 virtual false final false
+  /// @brief Method set_y addr 0x298a518 size 0x8 virtual false final false
   inline void set_y(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_z addr 0x2b0b274 size 0x8 virtual false final false
+  /// @brief Method get_z addr 0x298a520 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_z();
 
-  /// @brief Method set_z addr 0x2b0b27c size 0x8 virtual false final false
+  /// @brief Method set_z addr 0x298a528 size 0x8 virtual false final false
   inline void set_z(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_w addr 0x2b0b284 size 0x8 virtual false final false
+  /// @brief Method get_w addr 0x298a530 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_w();
 
-  /// @brief Method set_w addr 0x2b0b28c size 0x8 virtual false final false
+  /// @brief Method set_w addr 0x298a538 size 0x8 virtual false final false
   inline void set_w(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   static inline ::UnityEngine::InputSystem::Controls::QuaternionControl* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b0b294 size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x298a540 size 0x90 virtual false final false
   inline void _ctor();
 
-  /// @brief Method FinishSetup addr 0x2b0b324 size 0xf8 virtual true final false
+  /// @brief Method FinishSetup addr 0x298a5d0 size 0xf8 virtual true final false
   inline void FinishSetup();
 
-  /// @brief Method ReadUnprocessedValueFromState addr 0x2b0b41c size 0xcc virtual true final false
+  /// @brief Method ReadUnprocessedValueFromState addr 0x298a6c8 size 0xcc virtual true final false
   inline ::UnityEngine::Quaternion ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState addr 0x2b0b4e8 size 0xb0 virtual true final false
+  /// @brief Method WriteValueIntoState addr 0x298a794 size 0xb0 virtual true final false
   inline void WriteValueIntoState(::UnityEngine::Quaternion value, ::cordl_internals::Ptr<void> statePtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "QuaternionControl", modifiers: "&&", def_value: None }]
@@ -138,6 +138,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::QuaternionControl, 0x110>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::QuaternionControl, ____x_k__BackingField) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::QuaternionControl, ____y_k__BackingField) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::QuaternionControl, ____z_k__BackingField) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::QuaternionControl, ____w_k__BackingField) == 0x108, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Controls
 NEED_NO_BOX(::UnityEngine::InputSystem::Controls::QuaternionControl);

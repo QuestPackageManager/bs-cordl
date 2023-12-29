@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::MonthNameStyles);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3662))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3650))
 // CS Name: ::System.Globalization::MonthNameStyles
 struct CORDL_TYPE MonthNameStyles {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::MonthNameStyles, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::MonthNameStyles, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::MonthNameStyles, "System.Globalization", "MonthNameStyles");

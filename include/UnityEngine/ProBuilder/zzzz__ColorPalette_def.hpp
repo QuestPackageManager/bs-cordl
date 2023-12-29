@@ -6,12 +6,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorPalette)
-namespace UnityEngine::ProBuilder {
-class IHasDefault;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
@@ -20,6 +14,12 @@ template <typename T> class ReadOnlyCollection_1;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine::ProBuilder {
+class IHasDefault;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ColorPalette);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10210))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12112))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(10137))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12040))
 // CS Name: ::UnityEngine.ProBuilder::ColorPalette*
 class CORDL_TYPE ColorPalette : public ::UnityEngine::ScriptableObject {
 public:
@@ -66,33 +66,33 @@ public:
 
   constexpr void __set_m_Colors(::System::Collections::Generic::List_1<::UnityEngine::Color>* value);
 
-  /// @brief Method get_current addr 0x2b3c7f0 size 0xc virtual false final false
+  /// @brief Method get_current addr 0x29baa9c size 0xc virtual false final false
   inline ::UnityEngine::Color get_current();
 
-  /// @brief Method set_current addr 0x2b3c7fc size 0xc virtual false final false
+  /// @brief Method set_current addr 0x29baaa8 size 0xc virtual false final false
   inline void set_current(::UnityEngine::Color value);
 
-  /// @brief Method get_colors addr 0x2b3c808 size 0x7c virtual false final false
+  /// @brief Method get_colors addr 0x29baab4 size 0x7c virtual false final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>* get_colors();
 
-  /// @brief Method SetColors addr 0x2b3c884 size 0xa4 virtual false final false
+  /// @brief Method SetColors addr 0x29bab30 size 0xa4 virtual false final false
   inline void SetColors(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>* colors);
 
-  /// @brief Method SetDefaultValues addr 0x2b3c928 size 0x7c8 virtual true final true
+  /// @brief Method SetDefaultValues addr 0x29babd4 size 0x7c8 virtual true final true
   inline void SetDefaultValues();
 
-  /// @brief Method get_Item addr 0x2b3d0f0 size 0x58 virtual false final false
+  /// @brief Method get_Item addr 0x29bb39c size 0x58 virtual false final false
   inline ::UnityEngine::Color get_Item(int32_t i);
 
-  /// @brief Method set_Item addr 0x2b3d148 size 0x88 virtual false final false
+  /// @brief Method set_Item addr 0x29bb3f4 size 0x88 virtual false final false
   inline void set_Item(int32_t i, ::UnityEngine::Color value);
 
-  /// @brief Method get_Count addr 0x2b3d1d0 size 0x48 virtual false final false
+  /// @brief Method get_Count addr 0x29bb47c size 0x48 virtual false final false
   inline int32_t get_Count();
 
   static inline ::UnityEngine::ProBuilder::ColorPalette* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b3d218 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x29bb4c4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorPalette", modifiers: "&&", def_value: None }]
@@ -119,6 +119,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::ColorPalette, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::ColorPalette, ____current_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::ColorPalette, ___m_Colors) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::ColorPalette);

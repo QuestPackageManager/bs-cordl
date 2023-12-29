@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SonyPublisherSKUSettingsSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4602))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4691))
 // CS Name: ::SonyPublisherSKUSettingsSO*
 class CORDL_TYPE SonyPublisherSKUSettingsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -65,21 +65,21 @@ public:
 
   constexpr void __set__productLabel(::StringW value);
 
-  /// @brief Method get_skuName addr 0x2369d84 size 0x8 virtual false final false
+  /// @brief Method get_skuName addr 0x222fe50 size 0x8 virtual false final false
   inline ::StringW get_skuName();
 
-  /// @brief Method get_serviceIdPrefix addr 0x2369d8c size 0x8 virtual false final false
+  /// @brief Method get_serviceIdPrefix addr 0x222fe58 size 0x8 virtual false final false
   inline ::StringW get_serviceIdPrefix();
 
-  /// @brief Method get_titleId addr 0x2369d94 size 0x8 virtual false final false
+  /// @brief Method get_titleId addr 0x222fe60 size 0x8 virtual false final false
   inline ::StringW get_titleId();
 
-  /// @brief Method get_productLabel addr 0x2369d9c size 0x8 virtual false final false
+  /// @brief Method get_productLabel addr 0x222fe68 size 0x8 virtual false final false
   inline ::StringW get_productLabel();
 
   static inline ::GlobalNamespace::SonyPublisherSKUSettingsSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x2368248 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x222e31c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SonyPublisherSKUSettingsSO", modifiers: "&&", def_value: None }]
@@ -112,6 +112,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyPublisherSKUSettingsSO, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SonyPublisherSKUSettingsSO, ____skuName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SonyPublisherSKUSettingsSO, ____serviceIdPrefix) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SonyPublisherSKUSettingsSO, ____titleId) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SonyPublisherSKUSettingsSO, ____productLabel) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SonyPublisherSKUSettingsSO);

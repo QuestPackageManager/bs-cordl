@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IFlyingObjectEffectDidFinishEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4851))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4971))
 // CS Name: ::IFlyingObjectEffectDidFinishEvent*
 class CORDL_TYPE IFlyingObjectEffectDidFinishEvent {
 public:

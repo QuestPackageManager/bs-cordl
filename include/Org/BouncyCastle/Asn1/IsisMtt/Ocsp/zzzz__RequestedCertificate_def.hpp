@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RequestedCertificate)
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509CertificateStructure;
 }
 namespace Org::BouncyCastle::Asn1::IsisMtt::Ocsp {
 struct __RequestedCertificate__Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509CertificateStructure;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::Ocsp {
@@ -86,6 +86,8 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::__RequestedCertificate__Choice, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::__RequestedCertificate__Choice, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Asn1::IsisMtt::Ocsp
 // Type: Org.BouncyCastle.Asn1.IsisMtt.Ocsp::RequestedCertificate
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
@@ -131,35 +133,35 @@ public:
 
   constexpr void __set_attributeCert(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method GetInstance addr 0xf7612c size 0x1f4 virtual false final false
+  /// @brief Method GetInstance addr 0xefff08 size 0x1f4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance addr 0xf76474 size 0x6c virtual false final false
+  /// @brief Method GetInstance addr 0xf00250 size 0x6c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method .ctor addr 0xf76348 size 0x12c virtual false final false
+  /// @brief Method .ctor addr 0xf00124 size 0x12c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* certificate);
 
-  /// @brief Method .ctor addr 0xf76320 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xf000fc size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* certificate);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* New_ctor(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::__RequestedCertificate__Choice type,
                                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> certificateOctets);
 
-  /// @brief Method .ctor addr 0xf764e0 size 0xac virtual false final false
+  /// @brief Method .ctor addr 0xf002bc size 0xac virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::__RequestedCertificate__Choice type, ::ArrayW<uint8_t, ::Array<uint8_t>*> certificateOctets);
 
-  /// @brief Method get_Type addr 0xf7658c size 0x20 virtual false final false
+  /// @brief Method get_Type addr 0xf00368 size 0x20 virtual false final false
   inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::__RequestedCertificate__Choice get_Type();
 
-  /// @brief Method GetCertificateBytes addr 0xf765ac size 0x104 virtual false final false
+  /// @brief Method GetCertificateBytes addr 0xf00388 size 0x104 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetCertificateBytes();
 
-  /// @brief Method ToAsn1Object addr 0xf766b0 size 0x104 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf0048c size 0x104 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "RequestedCertificate", modifiers: "&&", def_value: None }]
@@ -189,6 +191,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate, ___cert) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate, ___publicKeyCert) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate, ___attributeCert) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::IsisMtt::Ocsp
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::__RequestedCertificate__Choice, "Org.BouncyCastle.Asn1.IsisMtt.Ocsp", "RequestedCertificate/Choice");

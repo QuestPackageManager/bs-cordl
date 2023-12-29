@@ -9,13 +9,13 @@ namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System {
 class Object;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -29,8 +29,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3869), inst: 1699 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3874))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3857)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3857), inst: 1632 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3862))
 // CS Name: ::System.Collections.Generic::EnumEqualityComparer`1<T>*
 class CORDL_TYPE EnumEqualityComparer_1 : public ::System::Collections::Generic::EqualityComparer_1<T> {
 public:

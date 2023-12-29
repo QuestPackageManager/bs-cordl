@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeStructs)
 namespace Mono {
-struct __RuntimeStructs__RemoteClass;
-}
-namespace Mono {
-struct __RuntimeStructs__GenericParamInfo;
-}
-namespace Mono {
 struct __RuntimeStructs__GPtrArray;
 }
 namespace Mono {
+struct __RuntimeStructs__RemoteClass;
+}
+namespace Mono {
 struct __RuntimeStructs__MonoClass;
+}
+namespace Mono {
+struct __RuntimeStructs__GenericParamInfo;
 }
 // Forward declare root types
 namespace Mono {
@@ -45,7 +45,7 @@ MARK_VAL_T(::Mono::__RuntimeStructs__RemoteClass);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2235))
 // CS Name: ::RuntimeStructs::RemoteClass
 struct CORDL_TYPE __RuntimeStructs__RemoteClass {
@@ -84,6 +84,16 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::__RuntimeStructs__RemoteClass, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::Mono::__RuntimeStructs__RemoteClass, default_vtable) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::__RuntimeStructs__RemoteClass, xdomain_vtable) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::__RuntimeStructs__RemoteClass, proxy_class) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::__RuntimeStructs__RemoteClass, proxy_class_name) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::__RuntimeStructs__RemoteClass, interface_count) == 0x20, "Offset mismatch!");
+
 } // namespace Mono
 // Type: ::MonoClass
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
@@ -117,7 +127,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::__RuntimeStructs__MonoClas
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2237))
 // CS Name: ::RuntimeStructs::GenericParamInfo
 struct CORDL_TYPE __RuntimeStructs__GenericParamInfo {
@@ -156,6 +166,16 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::__RuntimeStructs__GenericParamInfo, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::Mono::__RuntimeStructs__GenericParamInfo, pklass) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::__RuntimeStructs__GenericParamInfo, name) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::__RuntimeStructs__GenericParamInfo, flags) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::__RuntimeStructs__GenericParamInfo, token) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::__RuntimeStructs__GenericParamInfo, constraints) == 0x18, "Offset mismatch!");
+
 } // namespace Mono
 // Type: ::GPtrArray
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
@@ -188,12 +208,16 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::__RuntimeStructs__GPtrArray, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::Mono::__RuntimeStructs__GPtrArray, data) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::__RuntimeStructs__GPtrArray, len) == 0x8, "Offset mismatch!");
+
 } // namespace Mono
 // Type: Mono::RuntimeStructs
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2239))
 // CS Name: ::Mono::RuntimeStructs*
 class CORDL_TYPE RuntimeStructs : public ::System::Object {

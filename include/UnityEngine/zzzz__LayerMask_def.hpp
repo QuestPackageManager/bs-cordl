@@ -18,32 +18,32 @@ MARK_VAL_T(::UnityEngine::LayerMask);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10204))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10132))
 // CS Name: ::UnityEngine::LayerMask
 struct CORDL_TYPE LayerMask {
 public:
   // Declarations
   __declspec(property(get = get_value, put = set_value)) int32_t value;
 
-  /// @brief Method op_Implicit addr 0x2cd0cb8 size 0x4 virtual false final false
+  /// @brief Method op_Implicit addr 0x2b6a7b4 size 0x4 virtual false final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::LayerMask mask);
 
-  /// @brief Method op_Implicit addr 0x2cd0cbc size 0x8 virtual false final false
+  /// @brief Method op_Implicit addr 0x2b6a7b8 size 0x8 virtual false final false
   static inline ::UnityEngine::LayerMask op_Implicit___UnityEngine__LayerMask(int32_t intVal);
 
-  /// @brief Method get_value addr 0x2cd0cc4 size 0x8 virtual false final false
+  /// @brief Method get_value addr 0x2b6a7c0 size 0x8 virtual false final false
   inline int32_t get_value();
 
-  /// @brief Method set_value addr 0x2cd0ccc size 0x8 virtual false final false
+  /// @brief Method set_value addr 0x2b6a7c8 size 0x8 virtual false final false
   inline void set_value(int32_t value);
 
-  /// @brief Method LayerToName addr 0x2cd0cd4 size 0x3c virtual false final false
+  /// @brief Method LayerToName addr 0x2b6a7d0 size 0x3c virtual false final false
   static inline ::StringW LayerToName(int32_t layer);
 
-  /// @brief Method NameToLayer addr 0x2cd0d10 size 0x3c virtual false final false
+  /// @brief Method NameToLayer addr 0x2b6a80c size 0x3c virtual false final false
   static inline int32_t NameToLayer(::StringW layerName);
 
-  /// @brief Method GetMask addr 0x2cd0d4c size 0x108 virtual false final false
+  /// @brief Method GetMask addr 0x2b6a848 size 0x108 virtual false final false
   static inline int32_t GetMask(::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
 
   // Ctor Parameters [CppParam { name: "m_Mask", ty: "int32_t", modifiers: "", def_value: None }]
@@ -63,6 +63,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::LayerMask, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::LayerMask, m_Mask) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LayerMask, "UnityEngine", "LayerMask");

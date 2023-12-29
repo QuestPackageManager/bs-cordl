@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/EventSystems/zzzz__AbstractEventData_def.hpp"
 CORDL_MODULE_EXPORT(BaseEventData)
-namespace UnityEngine {
-class GameObject;
+namespace UnityEngine::EventSystems {
+class EventSystem;
 }
 namespace UnityEngine::EventSystems {
 class BaseInputModule;
 }
-namespace UnityEngine::EventSystems {
-class EventSystem;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::BaseEventData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13164))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13165))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13169))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13170))
 // CS Name: ::UnityEngine.EventSystems::BaseEventData*
 class CORDL_TYPE BaseEventData : public ::UnityEngine::EventSystems::AbstractEventData {
 public:
@@ -44,16 +44,16 @@ public:
 
   static inline ::UnityEngine::EventSystems::BaseEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method .ctor addr 0x2d95400 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2c2d050 size 0x28 virtual false final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method get_currentInputModule addr 0x2d9544c size 0x1c virtual false final false
+  /// @brief Method get_currentInputModule addr 0x2c2d09c size 0x1c virtual false final false
   inline ::UnityEngine::EventSystems::BaseInputModule* get_currentInputModule();
 
-  /// @brief Method get_selectedObject addr 0x2d95468 size 0x1c virtual false final false
+  /// @brief Method get_selectedObject addr 0x2c2d0b8 size 0x1c virtual false final false
   inline ::UnityEngine::GameObject* get_selectedObject();
 
-  /// @brief Method set_selectedObject addr 0x2d95484 size 0x1c virtual false final false
+  /// @brief Method set_selectedObject addr 0x2c2d0d4 size 0x1c virtual false final false
   inline void set_selectedObject(::UnityEngine::GameObject* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseEventData", modifiers: "&&", def_value: None }]
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::BaseEventData, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::BaseEventData, ___m_EventSystem) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::EventSystems
 NEED_NO_BOX(::UnityEngine::EventSystems::BaseEventData);

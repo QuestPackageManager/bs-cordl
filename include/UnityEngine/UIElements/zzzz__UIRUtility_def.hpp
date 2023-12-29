@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIRUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7328))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7414))
 // CS Name: ::UnityEngine.UIElements::UIRUtility*
 class CORDL_TYPE UIRUtility : public ::System::Object {
 public:
@@ -42,28 +42,28 @@ public:
 
   static inline ::StringW getStaticF_k_DefaultWorldSpaceShaderName();
 
-  /// @brief Method ShapeWindingIsClockwise addr 0x2e784f8 size 0x8c virtual false final false
+  /// @brief Method ShapeWindingIsClockwise addr 0x2d0f148 size 0x8c virtual false final false
   static inline bool ShapeWindingIsClockwise(int32_t maskDepth, int32_t stencilRef);
 
-  /// @brief Method IsRoundRect addr 0x2e78584 size 0x204 virtual false final false
+  /// @brief Method IsRoundRect addr 0x2d0f1d4 size 0x204 virtual false final false
   static inline bool IsRoundRect(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsVectorImageBackground addr 0x2e78788 size 0x90 virtual false final false
+  /// @brief Method IsVectorImageBackground addr 0x2d0f3d8 size 0x90 virtual false final false
   static inline bool IsVectorImageBackground(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsElementSelfHidden addr 0x2e78818 size 0xc0 virtual false final false
+  /// @brief Method IsElementSelfHidden addr 0x2d0f468 size 0xc0 virtual false final false
   static inline bool IsElementSelfHidden(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method Destroy addr 0x2e788d8 size 0xa8 virtual false final false
+  /// @brief Method Destroy addr 0x2d0f528 size 0xa8 virtual false final false
   static inline void Destroy(::UnityEngine::Object* obj);
 
-  /// @brief Method GetPrevPow2 addr 0x2e78980 size 0x34 virtual false final false
+  /// @brief Method GetPrevPow2 addr 0x2d0f5d0 size 0x34 virtual false final false
   static inline int32_t GetPrevPow2(int32_t n);
 
-  /// @brief Method GetNextPow2 addr 0x2e789b4 size 0x1c virtual false final false
+  /// @brief Method GetNextPow2 addr 0x2d0f604 size 0x1c virtual false final false
   static inline int32_t GetNextPow2(int32_t n);
 
-  /// @brief Method GetNextPow2Exp addr 0x2e789d0 size 0x30 virtual false final false
+  /// @brief Method GetNextPow2Exp addr 0x2d0f620 size 0x30 virtual false final false
   static inline int32_t GetNextPow2Exp(int32_t n);
 
   // Ctor Parameters [CppParam { name: "", ty: "UIRUtility", modifiers: "&&", def_value: None }]

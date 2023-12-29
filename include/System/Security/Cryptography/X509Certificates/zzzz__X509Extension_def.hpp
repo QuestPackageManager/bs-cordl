@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Extension
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8977))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9011))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7814))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7848))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Extension*
 class CORDL_TYPE X509Extension : public ::System::Security::Cryptography::AsnEncodedData {
 public:
@@ -39,24 +39,24 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Extension* New_ctor();
 
-  /// @brief Method .ctor addr 0x29845b0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2806d40 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Extension* New_ctor(::StringW oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData, bool critical);
 
-  /// @brief Method .ctor addr 0x29845b8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2806d48 size 0x28 virtual false final false
   inline void _ctor(::StringW oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData, bool critical);
 
-  /// @brief Method get_Critical addr 0x29845e0 size 0x8 virtual false final false
+  /// @brief Method get_Critical addr 0x2806d70 size 0x8 virtual false final false
   inline bool get_Critical();
 
-  /// @brief Method set_Critical addr 0x29845e8 size 0xc virtual false final false
+  /// @brief Method set_Critical addr 0x2806d78 size 0xc virtual false final false
   inline void set_Critical(bool value);
 
-  /// @brief Method CopyFrom addr 0x29845f4 size 0x130 virtual true final false
+  /// @brief Method CopyFrom addr 0x2806d84 size 0x130 virtual true final false
   inline void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  /// @brief Method FormatUnkownData addr 0x2984724 size 0x114 virtual false final false
+  /// @brief Method FormatUnkownData addr 0x2806eb4 size 0x114 virtual false final false
   inline ::StringW FormatUnkownData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Extension", modifiers: "&&", def_value: None }]
@@ -80,6 +80,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509Extension, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509Extension, ____critical) == 0x20, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509Extension);

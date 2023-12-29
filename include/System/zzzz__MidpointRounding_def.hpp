@@ -16,7 +16,7 @@ MARK_VAL_T(::System::MidpointRounding);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2441))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2439))
 // CS Name: ::System::MidpointRounding
 struct CORDL_TYPE MidpointRounding {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::MidpointRounding, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::MidpointRounding, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::MidpointRounding, "System", "MidpointRounding");

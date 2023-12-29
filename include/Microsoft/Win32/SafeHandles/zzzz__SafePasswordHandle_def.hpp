@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Microsoft::Win32::SafeHandles::SafePasswordHandle);
 // SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Microsoft::Win32::SafeHandles {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3334))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3331))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2298))
 // CS Name: ::Microsoft.Win32.SafeHandles::SafePasswordHandle*
 class CORDL_TYPE SafePasswordHandle : public ::System::Runtime::InteropServices::SafeHandle {
@@ -24,27 +24,27 @@ public:
   // Declarations
   __declspec(property(get = get_IsInvalid)) bool IsInvalid;
 
-  /// @brief Method CreateHandle addr 0x242be80 size 0x58 virtual false final false
+  /// @brief Method CreateHandle addr 0x22d240c size 0x58 virtual false final false
   inline void* CreateHandle(::StringW password);
 
-  /// @brief Method FreeHandle addr 0x242bed8 size 0x5c virtual false final false
+  /// @brief Method FreeHandle addr 0x22d2464 size 0x5c virtual false final false
   inline void FreeHandle();
 
   static inline ::Microsoft::Win32::SafeHandles::SafePasswordHandle* New_ctor(::StringW password);
 
-  /// @brief Method .ctor addr 0x242bf34 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x22d24c0 size 0x78 virtual false final false
   inline void _ctor(::StringW password);
 
-  /// @brief Method ReleaseHandle addr 0x242bfac size 0x7c virtual true final false
+  /// @brief Method ReleaseHandle addr 0x22d2538 size 0x7c virtual true final false
   inline bool ReleaseHandle();
 
-  /// @brief Method Dispose addr 0x242c028 size 0x70 virtual true final false
+  /// @brief Method Dispose addr 0x22d25b4 size 0x70 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method get_IsInvalid addr 0x242c098 size 0x28 virtual true final false
+  /// @brief Method get_IsInvalid addr 0x22d2624 size 0x28 virtual true final false
   inline bool get_IsInvalid();
 
-  /// @brief Method Mono_DangerousGetString addr 0x242c0c0 size 0x5c virtual false final false
+  /// @brief Method Mono_DangerousGetString addr 0x22d264c size 0x5c virtual false final false
   inline ::StringW Mono_DangerousGetString();
 
   // Ctor Parameters [CppParam { name: "", ty: "SafePasswordHandle", modifiers: "&&", def_value: None }]

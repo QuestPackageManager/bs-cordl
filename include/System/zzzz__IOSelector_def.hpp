@@ -18,13 +18,13 @@ MARK_REF_PTR_T(::System::IOSelector);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8897))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7734))
 // CS Name: ::System::IOSelector*
 class CORDL_TYPE IOSelector : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Add addr 0x294d8fc size 0x4 virtual false final false
+  /// @brief Method Add addr 0x27d07dc size 0x4 virtual false final false
   static inline void Add(void* handle, ::System::IOSelectorJob* job);
 
   // Ctor Parameters [CppParam { name: "", ty: "IOSelector", modifiers: "&&", def_value: None }]

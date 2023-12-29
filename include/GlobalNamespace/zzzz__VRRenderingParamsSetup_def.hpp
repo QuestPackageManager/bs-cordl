@@ -8,19 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRRenderingParamsSetup)
 namespace GlobalNamespace {
-struct __VRRenderingParamsSetup__SceneType;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
-class FloatSO;
+class BoolSO;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
-class BoolSO;
+struct __VRRenderingParamsSetup__SceneType;
+}
+namespace GlobalNamespace {
+class FloatSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::VRRenderingParamsSetup);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6000))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15344))
 // CS Name: ::VRRenderingParamsSetup::SceneType
 struct CORDL_TYPE __VRRenderingParamsSetup__SceneType {
 public:
@@ -83,13 +80,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__VRRenderingParamsSetup__SceneType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__VRRenderingParamsSetup__SceneType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::VRRenderingParamsSetup
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6000))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6001))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15344)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15345))
 // CS Name: ::VRRenderingParamsSetup*
 class CORDL_TYPE VRRenderingParamsSetup : public ::UnityEngine::MonoBehaviour {
 public:
@@ -110,9 +109,6 @@ public:
 
   /// @brief Field _vrPlatformHelper, offset 0x38, size 0x8
   __declspec(property(get = __get__vrPlatformHelper, put = __set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
-
-  /// @brief Field _mainSettingsModel, offset 0x40, size 0x8
-  __declspec(property(get = __get__mainSettingsModel, put = __set__mainSettingsModel))::GlobalNamespace::MainSettingsModelSO* _mainSettingsModel;
 
   constexpr ::GlobalNamespace::FloatSO*& __get__vrResolutionScale();
 
@@ -144,24 +140,12 @@ public:
 
   constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  constexpr ::GlobalNamespace::MainSettingsModelSO*& __get__mainSettingsModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsModelSO*> const& __get__mainSettingsModel() const;
-
-  constexpr void __set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO* value);
-
-  /// @brief Method OnEnable addr 0x2314d38 size 0xf0 virtual false final false
+  /// @brief Method OnEnable addr 0x26919a4 size 0x33c virtual false final false
   inline void OnEnable();
-
-  /// @brief Method Start addr 0x2315038 size 0x4 virtual false final false
-  inline void Start();
-
-  /// @brief Method SetupOculus addr 0x2314e28 size 0x210 virtual false final false
-  inline void SetupOculus();
 
   static inline ::GlobalNamespace::VRRenderingParamsSetup* New_ctor();
 
-  /// @brief Method .ctor addr 0x231503c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2691ce0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VRRenderingParamsSetup", modifiers: "&&", def_value: None }]
@@ -193,13 +177,20 @@ public:
   /// @brief Field _vrPlatformHelper, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
-  /// @brief Field _mainSettingsModel, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::MainSettingsModelSO* ____mainSettingsModel;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VRRenderingParamsSetup, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VRRenderingParamsSetup, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRRenderingParamsSetup, ____vrResolutionScale) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRRenderingParamsSetup, ____menuVRResolutionScaleMultiplier) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRRenderingParamsSetup, ____useFixedFoveatedRenderingDuringGameplay) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRRenderingParamsSetup, ____sceneType) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::VRRenderingParamsSetup, ____vrPlatformHelper) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__VRRenderingParamsSetup__SceneType, "", "VRRenderingParamsSetup/SceneType");

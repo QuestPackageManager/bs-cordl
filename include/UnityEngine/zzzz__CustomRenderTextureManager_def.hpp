@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::CustomRenderTextureManager);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10088))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10016))
 // CS Name: ::UnityEngine::CustomRenderTextureManager*
 class CORDL_TYPE CustomRenderTextureManager : public ::System::Object {
 public:
@@ -40,10 +40,10 @@ public:
 
   static inline ::System::Action_1<::UnityEngine::CustomRenderTexture*>* getStaticF_textureUnloaded();
 
-  /// @brief Method InvokeOnTextureLoaded_Internal addr 0x2cb69cc size 0x6c virtual false final false
+  /// @brief Method InvokeOnTextureLoaded_Internal addr 0x2b515b4 size 0x6c virtual false final false
   static inline void InvokeOnTextureLoaded_Internal(::UnityEngine::CustomRenderTexture* source);
 
-  /// @brief Method InvokeOnTextureUnloaded_Internal addr 0x2cb6a38 size 0x6c virtual false final false
+  /// @brief Method InvokeOnTextureUnloaded_Internal addr 0x2b51620 size 0x6c virtual false final false
   static inline void InvokeOnTextureUnloaded_Internal(::UnityEngine::CustomRenderTexture* source);
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomRenderTextureManager", modifiers: "&&", def_value: None }]

@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(GameplayModifiersConfiguration)
 namespace GlobalNamespace {
+class __GameplayModifiersConfiguration__NoteUniformScale;
+}
+namespace GlobalNamespace {
 class __GameplayModifiersConfiguration__SongSpeed;
 }
 namespace GlobalNamespace {
 class __GameplayModifiersConfiguration__CutAngleTolerance;
-}
-namespace GlobalNamespace {
-class __GameplayModifiersConfiguration__NoteUniformScale;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameplayModifiersConfiguration__SongSpeed);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15003))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15150))
 // CS Name: ::GameplayModifiersConfiguration::SongSpeed*
 class CORDL_TYPE __GameplayModifiersConfiguration__SongSpeed : public ::System::Object {
 public:
@@ -78,8 +78,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModif
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15004))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15151))
 // CS Name: ::GameplayModifiersConfiguration::CutAngleTolerance*
 class CORDL_TYPE __GameplayModifiersConfiguration__CutAngleTolerance : public ::System::Object {
 public:
@@ -114,8 +114,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModif
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15005))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15152))
 // CS Name: ::GameplayModifiersConfiguration::NoteUniformScale*
 class CORDL_TYPE __GameplayModifiersConfiguration__NoteUniformScale : public ::System::Object {
 public:
@@ -150,8 +150,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModif
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15006))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15153))
 // CS Name: ::GameplayModifiersConfiguration*
 class CORDL_TYPE GameplayModifiersConfiguration : public ::System::Object {
 public:

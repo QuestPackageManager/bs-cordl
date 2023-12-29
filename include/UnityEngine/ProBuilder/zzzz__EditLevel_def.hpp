@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::EditLevel);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12155))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12083))
 // CS Name: ::UnityEngine.ProBuilder::EditLevel
 struct CORDL_TYPE EditLevel {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::EditLevel, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::EditLevel, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::EditLevel, "UnityEngine.ProBuilder", "EditLevel");

@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Collections::IDictionaryEnumerator);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3758))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3746))
 // CS Name: ::System.Collections::IDictionaryEnumerator*
 class CORDL_TYPE IDictionaryEnumerator {
 public:

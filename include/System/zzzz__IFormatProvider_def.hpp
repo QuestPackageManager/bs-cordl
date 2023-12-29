@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::IFormatProvider);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2417))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2415))
 // CS Name: ::System::IFormatProvider*
 class CORDL_TYPE IFormatProvider {
 public:

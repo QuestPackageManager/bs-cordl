@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Android::AndroidAssetPackStatus);
 namespace UnityEngine::Android {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14920))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15065))
 // CS Name: ::UnityEngine.Android::AndroidAssetPackStatus
 struct CORDL_TYPE AndroidAssetPackStatus {
 public:
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Android::AndroidAssetPackStatus, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Android::AndroidAssetPackStatus, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Android
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Android::AndroidAssetPackStatus, "UnityEngine.Android", "AndroidAssetPackStatus");

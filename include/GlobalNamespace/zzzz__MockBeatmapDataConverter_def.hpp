@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MockBeatmapDataConverter)
 namespace GlobalNamespace {
-class MockObstacleData;
-}
-namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
@@ -15,6 +12,9 @@ class __MockBeatmapDataConverter____c;
 }
 namespace GlobalNamespace {
 class MockBeatmapData;
+}
+namespace GlobalNamespace {
+class MockObstacleData;
 }
 namespace GlobalNamespace {
 class NoteData;
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MockBeatmapDataConverter____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5170))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5275))
 // CS Name: ::MockBeatmapDataConverter::<>c*
 class CORDL_TYPE __MockBeatmapDataConverter____c : public ::System::Object {
 public:
@@ -106,28 +106,28 @@ public:
 
   static inline ::GlobalNamespace::__MockBeatmapDataConverter____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x23dea60 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20fe140 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <ToMockBeatmapData>b__0_0 addr 0x23dea68 size 0x20 virtual false final false
+  /// @brief Method <ToMockBeatmapData>b__0_0 addr 0x20fe148 size 0x20 virtual false final false
   inline bool _ToMockBeatmapData_b__0_0(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_1 addr 0x23dea88 size 0x8 virtual false final false
+  /// @brief Method <ToMockBeatmapData>b__0_1 addr 0x20fe168 size 0x8 virtual false final false
   inline ::GlobalNamespace::MockNoteData* _ToMockBeatmapData_b__0_1(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_2 addr 0x23dea90 size 0x20 virtual false final false
+  /// @brief Method <ToMockBeatmapData>b__0_2 addr 0x20fe170 size 0x20 virtual false final false
   inline bool _ToMockBeatmapData_b__0_2(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_3 addr 0x23deab0 size 0x8 virtual false final false
+  /// @brief Method <ToMockBeatmapData>b__0_3 addr 0x20fe190 size 0x8 virtual false final false
   inline ::GlobalNamespace::MockNoteData* _ToMockBeatmapData_b__0_3(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_4 addr 0x23deab8 size 0x20 virtual false final false
+  /// @brief Method <ToMockBeatmapData>b__0_4 addr 0x20fe198 size 0x20 virtual false final false
   inline bool _ToMockBeatmapData_b__0_4(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_5 addr 0x23dead8 size 0x8 virtual false final false
+  /// @brief Method <ToMockBeatmapData>b__0_5 addr 0x20fe1b8 size 0x8 virtual false final false
   inline ::GlobalNamespace::MockNoteData* _ToMockBeatmapData_b__0_5(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_6 addr 0x23deae0 size 0x8 virtual false final false
+  /// @brief Method <ToMockBeatmapData>b__0_6 addr 0x20fe1c0 size 0x8 virtual false final false
   inline ::GlobalNamespace::MockObstacleData* _ToMockBeatmapData_b__0_6(::GlobalNamespace::ObstacleData* od);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MockBeatmapDataConverter____c", modifiers: "&&", def_value: None }]
@@ -154,21 +154,21 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MockBeatmapDa
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5171))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5276))
 // CS Name: ::MockBeatmapDataConverter*
 class CORDL_TYPE MockBeatmapDataConverter : public ::System::Object {
 public:
   // Declarations
   using __c = ::GlobalNamespace::__MockBeatmapDataConverter____c;
 
-  /// @brief Method ToMockBeatmapData addr 0x23de010 size 0x8f4 virtual false final false
+  /// @brief Method ToMockBeatmapData addr 0x20fd6f0 size 0x8f4 virtual false final false
   static inline ::GlobalNamespace::MockBeatmapData* ToMockBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method ToMockNoteData addr 0x23de904 size 0x84 virtual false final false
+  /// @brief Method ToMockNoteData addr 0x20fdfe4 size 0x84 virtual false final false
   static inline ::GlobalNamespace::MockNoteData* ToMockNoteData(::GlobalNamespace::NoteData* noteData);
 
-  /// @brief Method ToMockObstacleData addr 0x23de988 size 0x74 virtual false final false
+  /// @brief Method ToMockObstacleData addr 0x20fe068 size 0x74 virtual false final false
   static inline ::GlobalNamespace::MockObstacleData* ToMockObstacleData(::GlobalNamespace::ObstacleData* obstacleData);
 
   // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapDataConverter", modifiers: "&&", def_value: None }]

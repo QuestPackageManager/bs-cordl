@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 CORDL_MODULE_EXPORT(EyesControl)
 namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
-}
-namespace UnityEngine::InputSystem::XR {
-struct Eyes;
-}
-namespace UnityEngine::InputSystem::Controls {
 class QuaternionControl;
 }
 namespace UnityEngine::InputSystem::Controls {
+class Vector3Control;
+}
+namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
+}
+namespace UnityEngine::InputSystem::XR {
+struct Eyes;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::EyesControl);
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6216)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3893 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6338))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6340)) CS Name: ::UnityEngine.InputSystem.XR::EyesControl*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6302), inst: 3800 }), TypeDefinitionIndex(TypeDefinitionIndex(6424)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6302))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6426)) CS Name: ::UnityEngine.InputSystem.XR::EyesControl*
 class CORDL_TYPE EyesControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::XR::Eyes> {
 public:
   // Declarations
@@ -115,60 +115,60 @@ public:
 
   constexpr void __set__rightEyeOpenAmount_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_leftEyePosition addr 0x2ac86c0 size 0x8 virtual false final false
+  /// @brief Method get_leftEyePosition addr 0x2949978 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyePosition();
 
-  /// @brief Method set_leftEyePosition addr 0x2ac86c8 size 0x8 virtual false final false
+  /// @brief Method set_leftEyePosition addr 0x2949980 size 0x8 virtual false final false
   inline void set_leftEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_leftEyeRotation addr 0x2ac86d0 size 0x8 virtual false final false
+  /// @brief Method get_leftEyeRotation addr 0x2949988 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_leftEyeRotation();
 
-  /// @brief Method set_leftEyeRotation addr 0x2ac86d8 size 0x8 virtual false final false
+  /// @brief Method set_leftEyeRotation addr 0x2949990 size 0x8 virtual false final false
   inline void set_leftEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method get_rightEyePosition addr 0x2ac86e0 size 0x8 virtual false final false
+  /// @brief Method get_rightEyePosition addr 0x2949998 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyePosition();
 
-  /// @brief Method set_rightEyePosition addr 0x2ac86e8 size 0x8 virtual false final false
+  /// @brief Method set_rightEyePosition addr 0x29499a0 size 0x8 virtual false final false
   inline void set_rightEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_rightEyeRotation addr 0x2ac86f0 size 0x8 virtual false final false
+  /// @brief Method get_rightEyeRotation addr 0x29499a8 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_rightEyeRotation();
 
-  /// @brief Method set_rightEyeRotation addr 0x2ac86f8 size 0x8 virtual false final false
+  /// @brief Method set_rightEyeRotation addr 0x29499b0 size 0x8 virtual false final false
   inline void set_rightEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method get_fixationPoint addr 0x2ac8700 size 0x8 virtual false final false
+  /// @brief Method get_fixationPoint addr 0x29499b8 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_fixationPoint();
 
-  /// @brief Method set_fixationPoint addr 0x2ac8708 size 0x8 virtual false final false
+  /// @brief Method set_fixationPoint addr 0x29499c0 size 0x8 virtual false final false
   inline void set_fixationPoint(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_leftEyeOpenAmount addr 0x2ac8710 size 0x8 virtual false final false
+  /// @brief Method get_leftEyeOpenAmount addr 0x29499c8 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_leftEyeOpenAmount();
 
-  /// @brief Method set_leftEyeOpenAmount addr 0x2ac8718 size 0x8 virtual false final false
+  /// @brief Method set_leftEyeOpenAmount addr 0x29499d0 size 0x8 virtual false final false
   inline void set_leftEyeOpenAmount(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_rightEyeOpenAmount addr 0x2ac8720 size 0x8 virtual false final false
+  /// @brief Method get_rightEyeOpenAmount addr 0x29499d8 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_rightEyeOpenAmount();
 
-  /// @brief Method set_rightEyeOpenAmount addr 0x2ac8728 size 0x8 virtual false final false
+  /// @brief Method set_rightEyeOpenAmount addr 0x29499e0 size 0x8 virtual false final false
   inline void set_rightEyeOpenAmount(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method FinishSetup addr 0x2ac8730 size 0x1a8 virtual true final false
+  /// @brief Method FinishSetup addr 0x29499e8 size 0x1a8 virtual true final false
   inline void FinishSetup();
 
-  /// @brief Method ReadUnprocessedValueFromState addr 0x2ac88d8 size 0x1b8 virtual true final false
+  /// @brief Method ReadUnprocessedValueFromState addr 0x2949b90 size 0x1b8 virtual true final false
   inline ::UnityEngine::InputSystem::XR::Eyes ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState addr 0x2ac8a90 size 0x114 virtual true final false
+  /// @brief Method WriteValueIntoState addr 0x2949d48 size 0x114 virtual true final false
   inline void WriteValueIntoState(::UnityEngine::InputSystem::XR::Eyes value, ::cordl_internals::Ptr<void> statePtr);
 
   static inline ::UnityEngine::InputSystem::XR::EyesControl* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ac8ba4 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2949e5c size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EyesControl", modifiers: "&&", def_value: None }]
@@ -210,6 +210,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::EyesControl, 0x128>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::EyesControl, ____leftEyePosition_k__BackingField) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::EyesControl, ____leftEyeRotation_k__BackingField) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::EyesControl, ____rightEyePosition_k__BackingField) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::EyesControl, ____rightEyeRotation_k__BackingField) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::EyesControl, ____fixationPoint_k__BackingField) == 0x110, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::EyesControl, ____leftEyeOpenAmount_k__BackingField) == 0x118, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::XR::EyesControl, ____rightEyeOpenAmount_k__BackingField) == 0x120, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::XR
 NEED_NO_BOX(::UnityEngine::InputSystem::XR::EyesControl);

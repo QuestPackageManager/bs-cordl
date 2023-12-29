@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VolumeCachePreset);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9612))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9539))
 // CS Name: ::HoudiniEngineUnity::HEU_VolumeCachePreset*
 class CORDL_TYPE HEU_VolumeCachePreset : public ::System::Object {
 public:
@@ -84,7 +84,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_VolumeCachePreset* New_ctor();
 
-  /// @brief Method .ctor addr 0x214e870 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x1ff6ed4 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_VolumeCachePreset", modifiers: "&&", def_value: None }]
@@ -123,6 +123,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_VolumeCachePreset, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeCachePreset, ____objName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeCachePreset, ____geoName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeCachePreset, ____uiExpanded) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeCachePreset, ____volumeLayersPresets) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeCachePreset, ____terrainDataPath) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeCachePreset, ____tile) == 0x38, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_VolumeCachePreset);

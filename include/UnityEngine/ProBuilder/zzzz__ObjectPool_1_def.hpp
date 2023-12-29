@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectPool_1)
 namespace System {
-template <typename TResult> class Func_1;
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class Queue_1;
 }
 namespace System {
-class IDisposable;
+template <typename TResult> class Func_1;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -29,8 +29,8 @@ namespace UnityEngine::ProBuilder {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12147))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12075))
 // CS Name: ::UnityEngine.ProBuilder::ObjectPool`1<T>*
 class CORDL_TYPE ObjectPool_1 : public ::System::Object {
 public:

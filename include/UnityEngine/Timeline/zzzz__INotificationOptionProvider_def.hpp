@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::INotificationOptionProvider);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13887))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14158))
 // CS Name: ::UnityEngine.Timeline::INotificationOptionProvider*
 class CORDL_TYPE INotificationOptionProvider {
 public:

@@ -15,11 +15,11 @@ class PlayerSessionInfo;
 // Write type traits
 MARK_REF_PTR_T(::BGNet::Core::GameLift::PlayerSessionInfo);
 // Type: BGNet.Core.GameLift::PlayerSessionInfo
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13013))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12687)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12614))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13018))
 // CS Name: ::BGNet.Core.GameLift::PlayerSessionInfo*
 class CORDL_TYPE PlayerSessionInfo : public ::System::Object {
 public:
@@ -36,16 +36,16 @@ public:
   /// @brief Field port, offset 0x28, size 0x4
   __declspec(property(get = __get_port, put = __set_port)) int32_t port;
 
-  /// @brief Field beatmapLevelSelectionMask, offset 0x30, size 0x28
+  /// @brief Field beatmapLevelSelectionMask, offset 0x30, size 0x18
   __declspec(property(get = __get_beatmapLevelSelectionMask, put = __set_beatmapLevelSelectionMask))::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask;
 
-  /// @brief Field gameplayServerConfiguration, offset 0x58, size 0x18
+  /// @brief Field gameplayServerConfiguration, offset 0x48, size 0x18
   __declspec(property(get = __get_gameplayServerConfiguration, put = __set_gameplayServerConfiguration))::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration;
 
-  /// @brief Field privateGameSecret, offset 0x70, size 0x8
+  /// @brief Field privateGameSecret, offset 0x60, size 0x8
   __declspec(property(get = __get_privateGameSecret, put = __set_privateGameSecret))::StringW privateGameSecret;
 
-  /// @brief Field privateGameCode, offset 0x78, size 0x8
+  /// @brief Field privateGameCode, offset 0x68, size 0x8
   __declspec(property(get = __get_privateGameCode, put = __set_privateGameCode))::StringW privateGameCode;
 
   constexpr ::StringW& __get_playerSessionId();
@@ -98,7 +98,7 @@ public:
 
   static inline ::BGNet::Core::GameLift::PlayerSessionInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0xe60edc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdead0c size 0x1008 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerSessionInfo", modifiers: "&&", def_value: None }]
@@ -127,22 +127,38 @@ public:
   /// @brief Field port, offset: 0x28, size: 0x4, def value: None
   int32_t ___port;
 
-  /// @brief Field beatmapLevelSelectionMask, offset: 0x30, size: 0x28, def value: None
+  /// @brief Field beatmapLevelSelectionMask, offset: 0x30, size: 0x18, def value: None
   ::GlobalNamespace::BeatmapLevelSelectionMask ___beatmapLevelSelectionMask;
 
-  /// @brief Field gameplayServerConfiguration, offset: 0x58, size: 0x18, def value: None
+  /// @brief Field gameplayServerConfiguration, offset: 0x48, size: 0x18, def value: None
   ::GlobalNamespace::GameplayServerConfiguration ___gameplayServerConfiguration;
 
-  /// @brief Field privateGameSecret, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field privateGameSecret, offset: 0x60, size: 0x8, def value: None
   ::StringW ___privateGameSecret;
 
-  /// @brief Field privateGameCode, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field privateGameCode, offset: 0x68, size: 0x8, def value: None
   ::StringW ___privateGameCode;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGNet::Core::GameLift::PlayerSessionInfo, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BGNet::Core::GameLift::PlayerSessionInfo, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::PlayerSessionInfo, ___playerSessionId) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::PlayerSessionInfo, ___gameSessionId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::PlayerSessionInfo, ___dnsName) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::PlayerSessionInfo, ___port) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::PlayerSessionInfo, ___beatmapLevelSelectionMask) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::PlayerSessionInfo, ___gameplayServerConfiguration) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::PlayerSessionInfo, ___privateGameSecret) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::BGNet::Core::GameLift::PlayerSessionInfo, ___privateGameCode) == 0x68, "Offset mismatch!");
 
 } // namespace BGNet::Core::GameLift
 NEED_NO_BOX(::BGNet::Core::GameLift::PlayerSessionInfo);

@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::RootMotion::SolverManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 51, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12499))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12427))
 // CS Name: ::RootMotion::SolverManager*
 class CORDL_TYPE SolverManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -87,51 +87,51 @@ public:
 
   constexpr void __set_skipSolverUpdate(bool value);
 
-  /// @brief Method Disable addr 0x123f2a8 size 0x94 virtual false final false
+  /// @brief Method Disable addr 0x11cef7c size 0x94 virtual false final false
   inline void Disable();
 
-  /// @brief Method InitiateSolver addr 0x123f33c size 0x4 virtual true final false
+  /// @brief Method InitiateSolver addr 0x11cf010 size 0x4 virtual true final false
   inline void InitiateSolver();
 
-  /// @brief Method UpdateSolver addr 0x123f340 size 0x4 virtual true final false
+  /// @brief Method UpdateSolver addr 0x11cf014 size 0x4 virtual true final false
   inline void UpdateSolver();
 
-  /// @brief Method FixTransforms addr 0x123f344 size 0x4 virtual true final false
+  /// @brief Method FixTransforms addr 0x11cf018 size 0x4 virtual true final false
   inline void FixTransforms();
 
-  /// @brief Method OnDisable addr 0x123f348 size 0x28 virtual false final false
+  /// @brief Method OnDisable addr 0x11cf01c size 0x28 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method Start addr 0x123f3c0 size 0x4 virtual false final false
+  /// @brief Method Start addr 0x11cf094 size 0x4 virtual false final false
   inline void Start();
 
-  /// @brief Method get_animatePhysics addr 0x123f3c4 size 0xcc virtual false final false
+  /// @brief Method get_animatePhysics addr 0x11cf098 size 0xcc virtual false final false
   inline bool get_animatePhysics();
 
-  /// @brief Method Initiate addr 0x123f370 size 0x50 virtual false final false
+  /// @brief Method Initiate addr 0x11cf044 size 0x50 virtual false final false
   inline void Initiate();
 
-  /// @brief Method Update addr 0x123f648 size 0x3c virtual false final false
+  /// @brief Method Update addr 0x11cf31c size 0x3c virtual false final false
   inline void Update();
 
-  /// @brief Method FindAnimatorRecursive addr 0x123f490 size 0x1b8 virtual false final false
+  /// @brief Method FindAnimatorRecursive addr 0x11cf164 size 0x1b8 virtual false final false
   inline void FindAnimatorRecursive(::UnityEngine::Transform* t, bool findInChildren);
 
-  /// @brief Method get_isAnimated addr 0x123f684 size 0x98 virtual false final false
+  /// @brief Method get_isAnimated addr 0x11cf358 size 0x98 virtual false final false
   inline bool get_isAnimated();
 
-  /// @brief Method FixedUpdate addr 0x123f71c size 0x4c virtual false final false
+  /// @brief Method FixedUpdate addr 0x11cf3f0 size 0x4c virtual false final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate addr 0x123f768 size 0x4c virtual false final false
+  /// @brief Method LateUpdate addr 0x11cf43c size 0x4c virtual false final false
   inline void LateUpdate();
 
-  /// @brief Method UpdateSolverExternal addr 0x123f7b4 size 0x38 virtual false final false
+  /// @brief Method UpdateSolverExternal addr 0x11cf488 size 0x38 virtual false final false
   inline void UpdateSolverExternal();
 
   static inline ::RootMotion::SolverManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x123f7ec size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x11cf4c0 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SolverManager", modifiers: "&&", def_value: None }]
@@ -170,6 +170,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::SolverManager, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::SolverManager, ___fixTransforms) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::SolverManager, ___animator) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::SolverManager, ___legacy) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::SolverManager, ___updateFrame) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::SolverManager, ___componentInitiated) == 0x31, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::SolverManager, ___skipSolverUpdate) == 0x32, "Offset mismatch!");
 
 } // namespace RootMotion
 NEED_NO_BOX(::RootMotion::SolverManager);

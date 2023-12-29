@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Date::DateTimeUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Date {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1792))
 // CS Name: ::Org.BouncyCastle.Utilities.Date::DateTimeUtilities*
 class CORDL_TYPE DateTimeUtilities : public ::System::Object {
@@ -34,16 +34,16 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Date::DateTimeUtilities* New_ctor();
 
-  /// @brief Method .ctor addr 0x115b73c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x10ea4f4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method DateTimeToUnixMs addr 0x115b744 size 0x15c virtual false final false
+  /// @brief Method DateTimeToUnixMs addr 0x10ea4fc size 0x15c virtual false final false
   static inline int64_t DateTimeToUnixMs(::System::DateTime dateTime);
 
-  /// @brief Method UnixMsToDateTime addr 0x115b8a0 size 0x94 virtual false final false
+  /// @brief Method UnixMsToDateTime addr 0x10ea658 size 0x94 virtual false final false
   static inline ::System::DateTime UnixMsToDateTime(int64_t unixMs);
 
-  /// @brief Method CurrentUnixMs addr 0x115b934 size 0x84 virtual false final false
+  /// @brief Method CurrentUnixMs addr 0x10ea6ec size 0x84 virtual false final false
   static inline int64_t CurrentUnixMs();
 
   // Ctor Parameters [CppParam { name: "", ty: "DateTimeUtilities", modifiers: "&&", def_value: None }]

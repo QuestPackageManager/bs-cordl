@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Utilities/IO/zzzz__FilterStream_def.hpp"
 CORDL_MODULE_EXPORT(WrappedGeneratorStream)
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class IStreamGenerator;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class IStreamGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -37,10 +37,10 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream* New_ctor(::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* gen, ::System::IO::Stream* str);
 
-  /// @brief Method .ctor addr 0x10cfd38 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x105eae4 size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* gen, ::System::IO::Stream* str);
 
-  /// @brief Method Close addr 0x10cfd64 size 0xa0 virtual true final false
+  /// @brief Method Close addr 0x105eb10 size 0xa0 virtual true final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "WrappedGeneratorStream", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream, ___gen) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg::OpenPgp
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream);

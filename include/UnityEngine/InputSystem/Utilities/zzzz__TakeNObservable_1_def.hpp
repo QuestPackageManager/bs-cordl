@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TakeNObservable_1)
 namespace System {
-template <typename T> class IObservable_1;
+class IDisposable;
 }
 namespace System {
-template <typename T> class IObserver_1;
+template <typename T> class IObservable_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> class __TakeNObservable_1__Take;
 }
 namespace System {
-class IDisposable;
+template <typename T> class IObserver_1;
 }
 namespace System {
 class Exception;
@@ -36,8 +36,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6692))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6778))
 // CS Name: ::TakeNObservable`1::Take<TValue>*
 class CORDL_TYPE __TakeNObservable_1__Take : public ::System::Object {
 public:
@@ -108,8 +108,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6693))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6779))
 // CS Name: ::UnityEngine.InputSystem.Utilities::TakeNObservable`1<TValue>*
 class CORDL_TYPE TakeNObservable_1 : public ::System::Object {
 public:

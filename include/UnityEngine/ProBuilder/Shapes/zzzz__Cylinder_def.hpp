@@ -11,14 +11,14 @@ class Shape;
 namespace UnityEngine {
 struct Vector3;
 }
+namespace UnityEngine {
+struct Bounds;
+}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
 struct Quaternion;
-}
-namespace UnityEngine {
-struct Bounds;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Cylinder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12233))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12227))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12161))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12155))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Cylinder*
 class CORDL_TYPE Cylinder : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
@@ -63,18 +63,18 @@ public:
 
   constexpr void __set_m_Smooth(bool value);
 
-  /// @brief Method CopyShape addr 0x2b88cd0 size 0xd4 virtual true final false
+  /// @brief Method CopyShape addr 0x2a07f7c size 0xd4 virtual true final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method UpdateBounds addr 0x2b88da4 size 0x38 virtual true final false
+  /// @brief Method UpdateBounds addr 0x2a08050 size 0x38 virtual true final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
-  /// @brief Method RebuildMesh addr 0x2b88ddc size 0xbfc virtual true final false
+  /// @brief Method RebuildMesh addr 0x2a08088 size 0xbfc virtual true final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Cylinder* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b899d8 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x2a08c84 size 0x18 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Cylinder", modifiers: "&&", def_value: None }]
@@ -104,6 +104,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::Cylinder, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Cylinder, ___m_AxisDivisions) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Cylinder, ___m_HeightCuts) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Cylinder, ___m_Smooth) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Shapes
 NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Cylinder);

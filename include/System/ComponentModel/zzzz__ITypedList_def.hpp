@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::ComponentModel::ITypedList);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9435))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8272))
 // CS Name: ::System.ComponentModel::ITypedList*
 class CORDL_TYPE ITypedList {
 public:

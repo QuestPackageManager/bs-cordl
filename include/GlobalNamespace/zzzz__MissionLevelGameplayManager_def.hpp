@@ -12,46 +12,46 @@ namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class MissionObjectiveCheckersManager;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
 class ILevelEndActions;
-}
-namespace GlobalNamespace {
-class ILevelStartController;
-}
-namespace GlobalNamespace {
-class __MissionLevelGameplayManager___Start_d__23;
-}
-namespace GlobalNamespace {
-class GameEnergyCounter;
-}
-namespace GlobalNamespace {
-class __MissionLevelGameplayManager__InitData;
-}
-namespace GlobalNamespace {
-struct __MissionLevelGameplayManager__GameState;
 }
 namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
+class GameEnergyCounter;
+}
+namespace GlobalNamespace {
+struct __MissionLevelGameplayManager__GameState;
+}
+namespace GlobalNamespace {
+class __MissionLevelGameplayManager___Start_d__23;
+}
+namespace GlobalNamespace {
+class MissionObjectiveCheckersManager;
+}
+namespace GlobalNamespace {
 class GameSongController;
+}
+namespace GlobalNamespace {
+class __MissionLevelGameplayManager__InitData;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
+class ILevelStartController;
 }
 namespace GlobalNamespace {
 class PauseController;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
@@ -78,8 +78,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5018))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5123))
 // CS Name: ::MissionLevelGameplayManager::InitData*
 class CORDL_TYPE __MissionLevelGameplayManager__InitData : public ::System::Object {
 public:
@@ -95,7 +95,7 @@ public:
 
   static inline ::GlobalNamespace::__MissionLevelGameplayManager__InitData* New_ctor(bool failOn0Energy);
 
-  /// @brief Method .ctor addr 0x23bc598 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2283500 size 0x28 virtual false final false
   inline void _ctor(bool failOn0Energy);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionLevelGameplayManager__InitData", modifiers: "&&", def_value: None }]
@@ -120,13 +120,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionLevelGameplayManager__InitData, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MissionLevelGameplayManager__InitData, ___failOn0Energy) == 0x10, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::GameState
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5019))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5124))
 // CS Name: ::MissionLevelGameplayManager::GameState
 struct CORDL_TYPE __MissionLevelGameplayManager__GameState {
 public:
@@ -180,13 +182,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionLevelGameplayManager__GameState, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MissionLevelGameplayManager__GameState, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<Start>d__23
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5020))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5125))
 // CS Name: ::MissionLevelGameplayManager::<Start>d__23*
 class CORDL_TYPE __MissionLevelGameplayManager___Start_d__23 : public ::System::Object {
 public:
@@ -233,22 +237,22 @@ public:
 
   static inline ::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x23bbf94 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x22830d8 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x23bc5c0 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x2283528 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x23bc5c4 size 0x3c0 virtual true final true
+  /// @brief Method MoveNext addr 0x228352c size 0x3cc virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x23bcb6c size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x22838f8 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x23bcb74 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2283900 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x23bcbb4 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2283940 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionLevelGameplayManager___Start_d__23", modifiers: "&&", def_value: None }]
@@ -279,13 +283,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23, _____4__this) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MissionLevelGameplayManager
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5019))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5021))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(5124))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5126))
 // CS Name: ::MissionLevelGameplayManager*
 class CORDL_TYPE MissionLevelGameplayManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -410,60 +420,60 @@ public:
 
   constexpr void __set__prePauseGameState(::GlobalNamespace::__MissionLevelGameplayManager__GameState value);
 
-  /// @brief Method add_levelWillStartIntroEvent addr 0x23bba44 size 0x9c virtual true final true
+  /// @brief Method add_levelWillStartIntroEvent addr 0x2282b88 size 0x9c virtual true final true
   inline void add_levelWillStartIntroEvent(::System::Action* value);
 
-  /// @brief Method remove_levelWillStartIntroEvent addr 0x23bbae0 size 0x9c virtual true final true
+  /// @brief Method remove_levelWillStartIntroEvent addr 0x2282c24 size 0x9c virtual true final true
   inline void remove_levelWillStartIntroEvent(::System::Action* value);
 
-  /// @brief Method add_levelDidStartEvent addr 0x23bbb7c size 0x9c virtual true final true
+  /// @brief Method add_levelDidStartEvent addr 0x2282cc0 size 0x9c virtual true final true
   inline void add_levelDidStartEvent(::System::Action* value);
 
-  /// @brief Method remove_levelDidStartEvent addr 0x23bbc18 size 0x9c virtual true final true
+  /// @brief Method remove_levelDidStartEvent addr 0x2282d5c size 0x9c virtual true final true
   inline void remove_levelDidStartEvent(::System::Action* value);
 
-  /// @brief Method add_levelFailedEvent addr 0x23bbcb4 size 0x9c virtual true final true
+  /// @brief Method add_levelFailedEvent addr 0x2282df8 size 0x9c virtual true final true
   inline void add_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFailedEvent addr 0x23bbd50 size 0x9c virtual true final true
+  /// @brief Method remove_levelFailedEvent addr 0x2282e94 size 0x9c virtual true final true
   inline void remove_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method add_levelFinishedEvent addr 0x23bbdec size 0x9c virtual true final true
+  /// @brief Method add_levelFinishedEvent addr 0x2282f30 size 0x9c virtual true final true
   inline void add_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFinishedEvent addr 0x23bbe88 size 0x9c virtual true final true
+  /// @brief Method remove_levelFinishedEvent addr 0x2282fcc size 0x9c virtual true final true
   inline void remove_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method Awake addr 0x23bbf24 size 0x8 virtual false final false
+  /// @brief Method Awake addr 0x2283068 size 0x8 virtual false final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x23bbf2c size 0x68 virtual false final false
+  /// @brief Method Start addr 0x2283070 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* Start();
 
-  /// @brief Method OnDestroy addr 0x23bbfbc size 0x2dc virtual false final false
+  /// @brief Method OnDestroy addr 0x2283100 size 0x2e8 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleGameEnergyDidReach0 addr 0x23bc480 size 0x54 virtual false final false
+  /// @brief Method HandleGameEnergyDidReach0 addr 0x22833e8 size 0x54 virtual false final false
   inline void HandleGameEnergyDidReach0();
 
-  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveDidFail addr 0x23bc4d4 size 0x34 virtual false final false
+  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveDidFail addr 0x228343c size 0x34 virtual false final false
   inline void HandleMissionObjectiveCheckersManagerObjectiveDidFail();
 
-  /// @brief Method HandleSongDidFinish addr 0x23bc508 size 0x34 virtual false final false
+  /// @brief Method HandleSongDidFinish addr 0x2283470 size 0x34 virtual false final false
   inline void HandleSongDidFinish();
 
-  /// @brief Method HandlePauseControllerCanPause addr 0x23bc53c size 0x24 virtual false final false
+  /// @brief Method HandlePauseControllerCanPause addr 0x22834a4 size 0x24 virtual false final false
   inline void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
 
-  /// @brief Method HandlePauseControllerDidPause addr 0x23bc560 size 0x18 virtual false final false
+  /// @brief Method HandlePauseControllerDidPause addr 0x22834c8 size 0x18 virtual false final false
   inline void HandlePauseControllerDidPause();
 
-  /// @brief Method HandlePauseControllerDidResume addr 0x23bc578 size 0x18 virtual false final false
+  /// @brief Method HandlePauseControllerDidResume addr 0x22834e0 size 0x18 virtual false final false
   inline void HandlePauseControllerDidResume();
 
   static inline ::GlobalNamespace::MissionLevelGameplayManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x23bc590 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22834f8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelGameplayManager", modifiers: "&&", def_value: None }]
@@ -520,6 +530,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelGameplayManager, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelGameplayManager, ____missionObjectiveCheckersManager) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelGameplayManager, ____gameScenesManager) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelGameplayManager, ____gameSongController) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelGameplayManager, ____gameEnergyCounter) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelGameplayManager, ____pauseController) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelGameplayManager, ____initData) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelGameplayManager, ___levelWillStartIntroEvent) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelGameplayManager, ___levelDidStartEvent) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelGameplayManager, ___levelFailedEvent) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelGameplayManager, ___levelFinishedEvent) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelGameplayManager, ____gameState) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionLevelGameplayManager, ____prePauseGameState) == 0x6c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MissionLevelGameplayManager__GameState, "", "MissionLevelGameplayManager/GameState");

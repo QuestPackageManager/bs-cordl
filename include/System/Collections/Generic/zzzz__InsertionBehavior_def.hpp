@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Collections::Generic::InsertionBehavior);
 namespace System::Collections::Generic {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3817))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3805))
 // CS Name: ::System.Collections.Generic::InsertionBehavior
 struct CORDL_TYPE InsertionBehavior {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::Generic::InsertionBehavior, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::System::Collections::Generic::InsertionBehavior, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Collections::Generic
 DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Generic::InsertionBehavior, "System.Collections.Generic", "InsertionBehavior");

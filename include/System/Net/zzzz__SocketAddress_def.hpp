@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SocketAddress)
-namespace System::Net {
-class IPEndPoint;
-}
 namespace System::Net::Sockets {
 struct AddressFamily;
 }
 namespace System::Net {
-class IPAddress;
+class IPEndPoint;
 }
 namespace System {
 class Object;
+}
+namespace System::Net {
+class IPAddress;
 }
 // Forward declare root types
 namespace System::Net {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Net::SocketAddress);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9083))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7920))
 // CS Name: ::System.Net::SocketAddress*
 class CORDL_TYPE SocketAddress : public ::System::Object {
 public:
@@ -77,43 +77,43 @@ public:
 
   constexpr void __set_m_hash(int32_t value);
 
-  /// @brief Method get_Family addr 0x299ec68 size 0x38 virtual false final false
+  /// @brief Method get_Family addr 0x28213f0 size 0x38 virtual false final false
   inline ::System::Net::Sockets::AddressFamily get_Family();
 
-  /// @brief Method get_Size addr 0x299eca0 size 0x8 virtual false final false
+  /// @brief Method get_Size addr 0x2821428 size 0x8 virtual false final false
   inline int32_t get_Size();
 
-  /// @brief Method get_Item addr 0x299eca8 size 0x7c virtual false final false
+  /// @brief Method get_Item addr 0x2821430 size 0x7c virtual false final false
   inline uint8_t get_Item(int32_t offset);
 
   static inline ::System::Net::SocketAddress* New_ctor(::System::Net::Sockets::AddressFamily family, int32_t size);
 
-  /// @brief Method .ctor addr 0x299ed24 size 0x120 virtual false final false
+  /// @brief Method .ctor addr 0x28214ac size 0x120 virtual false final false
   inline void _ctor(::System::Net::Sockets::AddressFamily family, int32_t size);
 
   static inline ::System::Net::SocketAddress* New_ctor(::System::Net::IPAddress* ipAddress);
 
-  /// @brief Method .ctor addr 0x299ee44 size 0x288 virtual false final false
+  /// @brief Method .ctor addr 0x28215cc size 0x288 virtual false final false
   inline void _ctor(::System::Net::IPAddress* ipAddress);
 
   static inline ::System::Net::SocketAddress* New_ctor(::System::Net::IPAddress* ipaddress, int32_t port);
 
-  /// @brief Method .ctor addr 0x299f0cc size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x2821854 size 0x5c virtual false final false
   inline void _ctor(::System::Net::IPAddress* ipaddress, int32_t port);
 
-  /// @brief Method GetIPAddress addr 0x299f128 size 0x1f4 virtual false final false
+  /// @brief Method GetIPAddress addr 0x28218b0 size 0x1f4 virtual false final false
   inline ::System::Net::IPAddress* GetIPAddress();
 
-  /// @brief Method GetIPEndPoint addr 0x299f31c size 0xa8 virtual false final false
+  /// @brief Method GetIPEndPoint addr 0x2821aa4 size 0xa8 virtual false final false
   inline ::System::Net::IPEndPoint* GetIPEndPoint();
 
-  /// @brief Method Equals addr 0x299f3c4 size 0xec virtual true final false
+  /// @brief Method Equals addr 0x2821b4c size 0xec virtual true final false
   inline bool Equals(::System::Object* comparand);
 
-  /// @brief Method GetHashCode addr 0x299f4b0 size 0x130 virtual true final false
+  /// @brief Method GetHashCode addr 0x2821c38 size 0x130 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x299f5e0 size 0x2ec virtual true final false
+  /// @brief Method ToString addr 0x2821d68 size 0x2ec virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "SocketAddress", modifiers: "&&", def_value: None }]
@@ -146,6 +146,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::SocketAddress, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::SocketAddress, ___m_Size) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::SocketAddress, ___m_Buffer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::SocketAddress, ___m_changed) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::SocketAddress, ___m_hash) == 0x24, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::SocketAddress);

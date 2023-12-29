@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InfCodes)
 namespace Org::BouncyCastle::Utilities::Zlib {
-class InfBlocks;
+class ZStream;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
-class ZStream;
+class InfBlocks;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::InfCodes);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1821))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::InfCodes*
 class CORDL_TYPE InfCodes : public ::System::Object {
@@ -163,20 +163,20 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::InfCodes* New_ctor();
 
-  /// @brief Method .ctor addr 0x116469c size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x10f4454 size 0xc virtual false final false
   inline void _ctor();
 
-  /// @brief Method init addr 0x1165a8c size 0x24 virtual false final false
+  /// @brief Method init addr 0x10f5844 size 0x24 virtual false final false
   inline void init(int32_t bl, int32_t bd, ::ArrayW<int32_t, ::Array<int32_t>*> tl, int32_t tl_index, ::ArrayW<int32_t, ::Array<int32_t>*> td, int32_t td_index,
                    ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method proc addr 0x1165e10 size 0x9cc virtual false final false
+  /// @brief Method proc addr 0x10f5bc8 size 0x9cc virtual false final false
   inline int32_t proc(::Org::BouncyCastle::Utilities::Zlib::InfBlocks* s, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r);
 
-  /// @brief Method free addr 0x116474c size 0x4 virtual false final false
+  /// @brief Method free addr 0x10f4504 size 0x4 virtual false final false
   inline void free(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method inflate_fast addr 0x1166918 size 0x860 virtual false final false
+  /// @brief Method inflate_fast addr 0x10f66d0 size 0x860 virtual false final false
   inline int32_t inflate_fast(int32_t bl, int32_t bd, ::ArrayW<int32_t, ::Array<int32_t>*> tl, int32_t tl_index, ::ArrayW<int32_t, ::Array<int32_t>*> td, int32_t td_index,
                               ::Org::BouncyCastle::Utilities::Zlib::InfBlocks* s, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
@@ -297,6 +297,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Zlib::InfCodes, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfCodes, ___mode) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfCodes, ___len) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfCodes, ___tree) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfCodes, ___tree_index) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfCodes, ___need) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfCodes, ___lit) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfCodes, ___get) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfCodes, ___dist) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfCodes, ___lbits) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfCodes, ___dbits) == 0x35, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfCodes, ___ltree) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfCodes, ___ltree_index) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfCodes, ___dtree) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::InfCodes, ___dtree_index) == 0x50, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::Zlib
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::InfCodes);

@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Security::Interface::AlertLevel);
 namespace Mono::Security::Interface {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13772))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14043))
 // CS Name: ::Mono.Security.Interface::AlertLevel
 struct CORDL_TYPE AlertLevel {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::AlertLevel, 0x1>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::Interface::AlertLevel, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Mono::Security::Interface
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::AlertLevel, "Mono.Security.Interface", "AlertLevel");

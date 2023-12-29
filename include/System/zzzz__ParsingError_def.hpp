@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ParsingError);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8881))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7718))
 // CS Name: ::System::ParsingError
 struct CORDL_TYPE ParsingError {
 public:
@@ -105,6 +105,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ParsingError, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::ParsingError, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::ParsingError, "System", "ParsingError");

@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::AbstractECLookupTable);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1363))
 // CS Name: ::Org.BouncyCastle.Math.EC::AbstractECLookupTable*
 class CORDL_TYPE AbstractECLookupTable : public ::System::Object {
@@ -38,12 +38,12 @@ public:
   /// @brief Method get_Size addr 0x0 size 0xffffffffffffffff virtual true final false
   inline int32_t get_Size();
 
-  /// @brief Method LookupVar addr 0xfcbc94 size 0xc virtual true final false
+  /// @brief Method LookupVar addr 0xf56a48 size 0xc virtual true final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
   static inline ::Org::BouncyCastle::Math::EC::AbstractECLookupTable* New_ctor();
 
-  /// @brief Method .ctor addr 0xfcb8c0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xf56674 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AbstractECLookupTable", modifiers: "&&", def_value: None }]

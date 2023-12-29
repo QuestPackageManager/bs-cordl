@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlElement)
 namespace System::Xml {
+class XmlName;
+}
+namespace System::Xml {
 class XmlAttributeCollection;
 }
 namespace System::Xml {
-class XmlAttribute;
+class XmlNode;
 }
 namespace System::Xml {
 class XmlDocument;
 }
 namespace System::Xml {
-class XmlLinkedNode;
-}
-namespace System::Xml {
-class XmlName;
+class XmlAttribute;
 }
 namespace System::Xml {
 struct XmlNodeType;
 }
 namespace System::Xml {
-class XmlNode;
+class XmlLinkedNode;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::System::Xml::XmlElement);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11513))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11508))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11441))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11436))
 // CS Name: ::System.Xml::XmlElement*
 class CORDL_TYPE XmlElement : public ::System::Xml::XmlLinkedNode {
 public:
@@ -103,96 +103,96 @@ public:
 
   static inline ::System::Xml::XmlElement* New_ctor(::System::Xml::XmlName* name, bool empty, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor addr 0x288821c size 0x120 virtual false final false
+  /// @brief Method .ctor addr 0x270b1fc size 0x120 virtual false final false
   inline void _ctor(::System::Xml::XmlName* name, bool empty, ::System::Xml::XmlDocument* doc);
 
   static inline ::System::Xml::XmlElement* New_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor addr 0x288833c size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x270b31c size 0x44 virtual false final false
   inline void _ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_XmlName addr 0x2888380 size 0x8 virtual false final false
+  /// @brief Method get_XmlName addr 0x270b360 size 0x8 virtual false final false
   inline ::System::Xml::XmlName* get_XmlName();
 
-  /// @brief Method set_XmlName addr 0x2888388 size 0x8 virtual false final false
+  /// @brief Method set_XmlName addr 0x270b368 size 0x8 virtual false final false
   inline void set_XmlName(::System::Xml::XmlName* value);
 
-  /// @brief Method CloneNode addr 0x2888390 size 0x58c virtual true final false
+  /// @brief Method CloneNode addr 0x270b370 size 0x58c virtual true final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
-  /// @brief Method get_Name addr 0x2888964 size 0x18 virtual true final false
+  /// @brief Method get_Name addr 0x270b944 size 0x18 virtual true final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_LocalName addr 0x2888b28 size 0x1c virtual true final false
+  /// @brief Method get_LocalName addr 0x270bb08 size 0x1c virtual true final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceURI addr 0x2888b44 size 0x1c virtual true final false
+  /// @brief Method get_NamespaceURI addr 0x270bb24 size 0x1c virtual true final false
   inline ::StringW get_NamespaceURI();
 
-  /// @brief Method get_Prefix addr 0x2888b60 size 0x1c virtual true final false
+  /// @brief Method get_Prefix addr 0x270bb40 size 0x1c virtual true final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_NodeType addr 0x2888b7c size 0x8 virtual true final false
+  /// @brief Method get_NodeType addr 0x270bb5c size 0x8 virtual true final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_ParentNode addr 0x2888b84 size 0x8 virtual true final false
+  /// @brief Method get_ParentNode addr 0x270bb64 size 0x8 virtual true final false
   inline ::System::Xml::XmlNode* get_ParentNode();
 
-  /// @brief Method get_OwnerDocument addr 0x2888b8c size 0x1c virtual true final false
+  /// @brief Method get_OwnerDocument addr 0x270bb6c size 0x1c virtual true final false
   inline ::System::Xml::XmlDocument* get_OwnerDocument();
 
-  /// @brief Method get_IsContainer addr 0x2888ba8 size 0x8 virtual true final false
+  /// @brief Method get_IsContainer addr 0x270bb88 size 0x8 virtual true final false
   inline bool get_IsContainer();
 
-  /// @brief Method AppendChildForLoad addr 0x2888bb0 size 0x168 virtual true final false
+  /// @brief Method AppendChildForLoad addr 0x270bb90 size 0x168 virtual true final false
   inline ::System::Xml::XmlNode* AppendChildForLoad(::System::Xml::XmlNode* newChild, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_IsEmpty addr 0x288891c size 0x10 virtual false final false
+  /// @brief Method get_IsEmpty addr 0x270b8fc size 0x10 virtual false final false
   inline bool get_IsEmpty();
 
-  /// @brief Method set_IsEmpty addr 0x288892c size 0x38 virtual false final false
+  /// @brief Method set_IsEmpty addr 0x270b90c size 0x38 virtual false final false
   inline void set_IsEmpty(bool value);
 
-  /// @brief Method get_LastNode addr 0x2888d34 size 0x10 virtual true final false
+  /// @brief Method get_LastNode addr 0x270bd14 size 0x10 virtual true final false
   inline ::System::Xml::XmlLinkedNode* get_LastNode();
 
-  /// @brief Method set_LastNode addr 0x2888d44 size 0x8 virtual true final false
+  /// @brief Method set_LastNode addr 0x270bd24 size 0x8 virtual true final false
   inline void set_LastNode(::System::Xml::XmlLinkedNode* value);
 
-  /// @brief Method IsValidChildType addr 0x2888d4c size 0x24 virtual true final false
+  /// @brief Method IsValidChildType addr 0x270bd2c size 0x24 virtual true final false
   inline bool IsValidChildType(::System::Xml::XmlNodeType type);
 
-  /// @brief Method get_Attributes addr 0x2888d70 size 0x144 virtual true final false
+  /// @brief Method get_Attributes addr 0x270bd50 size 0x144 virtual true final false
   inline ::System::Xml::XmlAttributeCollection* get_Attributes();
 
-  /// @brief Method get_HasAttributes addr 0x2888eb4 size 0x28 virtual true final false
+  /// @brief Method get_HasAttributes addr 0x270be94 size 0x28 virtual true final false
   inline bool get_HasAttributes();
 
-  /// @brief Method SetAttributeNode addr 0x2888edc size 0x118 virtual true final false
+  /// @brief Method SetAttributeNode addr 0x270bebc size 0x118 virtual true final false
   inline ::System::Xml::XmlAttribute* SetAttributeNode(::System::Xml::XmlAttribute* newAttr);
 
-  /// @brief Method RemoveAllAttributes addr 0x2888ff4 size 0x3c virtual true final false
+  /// @brief Method RemoveAllAttributes addr 0x270bfd4 size 0x3c virtual true final false
   inline void RemoveAllAttributes();
 
-  /// @brief Method RemoveAll addr 0x2889030 size 0x24 virtual true final false
+  /// @brief Method RemoveAll addr 0x270c010 size 0x24 virtual true final false
   inline void RemoveAll();
 
-  /// @brief Method RemoveAllChildren addr 0x2888d30 size 0x4 virtual false final false
+  /// @brief Method RemoveAllChildren addr 0x270bd10 size 0x4 virtual false final false
   inline void RemoveAllChildren();
 
-  /// @brief Method set_InnerXml addr 0x28890bc size 0x7c virtual true final false
+  /// @brief Method set_InnerXml addr 0x270c09c size 0x7c virtual true final false
   inline void set_InnerXml(::StringW value);
 
-  /// @brief Method get_InnerText addr 0x28891ac size 0x4 virtual true final false
+  /// @brief Method get_InnerText addr 0x270c18c size 0x4 virtual true final false
   inline ::StringW get_InnerText();
 
-  /// @brief Method set_InnerText addr 0x28892b8 size 0xb8 virtual true final false
+  /// @brief Method set_InnerText addr 0x270c298 size 0xb8 virtual true final false
   inline void set_InnerText(::StringW value);
 
-  /// @brief Method get_NextSibling addr 0x2889370 size 0x3c virtual true final false
+  /// @brief Method get_NextSibling addr 0x270c350 size 0x3c virtual true final false
   inline ::System::Xml::XmlNode* get_NextSibling();
 
-  /// @brief Method SetParent addr 0x28893ac size 0x8 virtual true final false
+  /// @brief Method SetParent addr 0x270c38c size 0x8 virtual true final false
   inline void SetParent(::System::Xml::XmlNode* node);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlElement", modifiers: "&&", def_value: None }]
@@ -222,6 +222,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlElement, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlElement, ___name) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlElement, ___attributes) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlElement, ___lastChild) == 0x30, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlElement);

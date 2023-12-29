@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::VertexSortingOrder);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13729))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13608))
 // CS Name: ::UnityEngine.TextCore.Text::VertexSortingOrder
 struct CORDL_TYPE VertexSortingOrder {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::VertexSortingOrder, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::VertexSortingOrder, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::VertexSortingOrder, "UnityEngine.TextCore.Text", "VertexSortingOrder");

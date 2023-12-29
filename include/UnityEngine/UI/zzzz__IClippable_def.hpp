@@ -10,10 +10,10 @@ namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-class GameObject;
+struct Vector2;
 }
 namespace UnityEngine {
-struct Vector2;
+class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::IClippable);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13027))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13032))
 // CS Name: ::UnityEngine.UI::IClippable*
 class CORDL_TYPE IClippable {
 public:

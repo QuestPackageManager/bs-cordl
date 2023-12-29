@@ -12,35 +12,35 @@ CORDL_MODULE_EXPORT(ConcurrentQueue_1)
 namespace System::Collections::Concurrent {
 template <typename T> class __ConcurrentQueue_1___Enumerate_d__28;
 }
+namespace System::Collections::Concurrent {
+template <typename T> class IProducerConsumerCollection_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections::Concurrent {
 template <typename T> class __ConcurrentQueue_1__Segment;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Concurrent {
-template <typename T> class IProducerConsumerCollection_1;
-}
-namespace System {
-class Array;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace GlobalNamespace {
 template <typename T> struct __ConcurrentQueue_1__Segment__Slot;
@@ -73,7 +73,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3800))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3788))
 // CS Name: ::ConcurrentQueue`1::Segment::Slot<T>
 struct CORDL_TYPE __ConcurrentQueue_1__Segment__Slot {
 public:
@@ -104,8 +104,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3804))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3801))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3792)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3789))
 // CS Name: ::ConcurrentQueue`1::Segment<T>*
 class CORDL_TYPE __ConcurrentQueue_1__Segment : public ::System::Object {
 public:
@@ -233,8 +233,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3802))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3790))
 // CS Name: ::ConcurrentQueue`1::<Enumerate>d__28<T>*
 class CORDL_TYPE __ConcurrentQueue_1___Enumerate_d__28 : public ::System::Object {
 public:
@@ -428,8 +428,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3803))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3791))
 // CS Name: ::System.Collections.Concurrent::ConcurrentQueue`1<T>*
 class CORDL_TYPE ConcurrentQueue_1 : public ::System::Object {
 public:

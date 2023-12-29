@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VROverlayTransformType);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8625))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9394))
 // CS Name: ::OVR.OpenVR::VROverlayTransformType
 struct CORDL_TYPE VROverlayTransformType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VROverlayTransformType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VROverlayTransformType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VROverlayTransformType, "OVR.OpenVR", "VROverlayTransformType");

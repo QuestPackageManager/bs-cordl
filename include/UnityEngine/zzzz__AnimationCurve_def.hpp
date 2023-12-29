@@ -12,10 +12,10 @@ namespace UnityEngine {
 struct Keyframe;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::UnityEngine::AnimationCurve);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10043))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9971))
 // CS Name: ::UnityEngine::AnimationCurve*
 class CORDL_TYPE AnimationCurve : public ::System::Object {
 public:
@@ -49,62 +49,62 @@ public:
 
   constexpr void __set_m_Ptr(void* value);
 
-  /// @brief Method Internal_Destroy addr 0x2c9ead8 size 0x3c virtual false final false
+  /// @brief Method Internal_Destroy addr 0x2b39dd8 size 0x3c virtual false final false
   static inline void Internal_Destroy(void* ptr);
 
-  /// @brief Method Internal_Create addr 0x2c9eb14 size 0x3c virtual false final false
+  /// @brief Method Internal_Create addr 0x2b39e14 size 0x3c virtual false final false
   static inline void* Internal_Create(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
 
-  /// @brief Method Internal_Equals addr 0x2c9eb50 size 0x44 virtual false final false
+  /// @brief Method Internal_Equals addr 0x2b39e50 size 0x44 virtual false final false
   inline bool Internal_Equals(void* other);
 
-  /// @brief Method Finalize addr 0x2c9eb94 size 0xbc virtual true final false
+  /// @brief Method Finalize addr 0x2b39e94 size 0xbc virtual true final false
   inline void Finalize();
 
-  /// @brief Method Evaluate addr 0x2c9ec50 size 0x4c virtual false final false
+  /// @brief Method Evaluate addr 0x2b39f50 size 0x4c virtual false final false
   inline float_t Evaluate(float_t time);
 
-  /// @brief Method get_keys addr 0x2c9ec9c size 0x3c virtual false final false
+  /// @brief Method get_keys addr 0x2b39f9c size 0x3c virtual false final false
   inline ::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> get_keys();
 
-  /// @brief Method set_keys addr 0x2c9ed14 size 0x44 virtual false final false
+  /// @brief Method set_keys addr 0x2b3a014 size 0x44 virtual false final false
   inline void set_keys(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> value);
 
-  /// @brief Method AddKey addr 0x2c9ed9c size 0x54 virtual false final false
+  /// @brief Method AddKey addr 0x2b3a09c size 0x54 virtual false final false
   inline int32_t AddKey(float_t time, float_t value);
 
-  /// @brief Method get_length addr 0x2c9edf0 size 0x3c virtual false final false
+  /// @brief Method get_length addr 0x2b3a0f0 size 0x3c virtual false final false
   inline int32_t get_length();
 
-  /// @brief Method SetKeys addr 0x2c9ed58 size 0x44 virtual false final false
+  /// @brief Method SetKeys addr 0x2b3a058 size 0x44 virtual false final false
   inline void SetKeys(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
 
-  /// @brief Method GetKeys addr 0x2c9ecd8 size 0x3c virtual false final false
+  /// @brief Method GetKeys addr 0x2b39fd8 size 0x3c virtual false final false
   inline ::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> GetKeys();
 
-  /// @brief Method Linear addr 0x2c9ee2c size 0x140 virtual false final false
+  /// @brief Method Linear addr 0x2b3a12c size 0x140 virtual false final false
   static inline ::UnityEngine::AnimationCurve* Linear(float_t timeStart, float_t valueStart, float_t timeEnd, float_t valueEnd);
 
-  /// @brief Method EaseInOut addr 0x2c9efbc size 0x134 virtual false final false
+  /// @brief Method EaseInOut addr 0x2b3a2bc size 0x134 virtual false final false
   static inline ::UnityEngine::AnimationCurve* EaseInOut(float_t timeStart, float_t valueStart, float_t timeEnd, float_t valueEnd);
 
   static inline ::UnityEngine::AnimationCurve* New_ctor(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
 
-  /// @brief Method .ctor addr 0x2c9ef6c size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x2b3a26c size 0x50 virtual false final false
   inline void _ctor(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
 
   static inline ::UnityEngine::AnimationCurve* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c9f0f0 size 0x4c virtual false final false
+  /// @brief Method .ctor addr 0x2b3a3f0 size 0x4c virtual false final false
   inline void _ctor();
 
-  /// @brief Method Equals addr 0x2c9f13c size 0xc8 virtual true final false
+  /// @brief Method Equals addr 0x2b3a43c size 0xc8 virtual true final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals addr 0x2c9f204 size 0xc8 virtual true final true
+  /// @brief Method Equals addr 0x2b3a504 size 0xc8 virtual true final true
   inline bool Equals(::UnityEngine::AnimationCurve* other);
 
-  /// @brief Method GetHashCode addr 0x2c9f2cc size 0xc virtual true final false
+  /// @brief Method GetHashCode addr 0x2b3a5cc size 0xc virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationCurve", modifiers: "&&", def_value: None }]
@@ -128,6 +128,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimationCurve, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AnimationCurve, ___m_Ptr) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::AnimationCurve);

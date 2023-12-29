@@ -11,13 +11,13 @@ namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine {
 struct Vector3Int;
 }
 namespace UnityEngine {
 struct Matrix4x4;
-}
-namespace UnityEngine {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Tilemaps {
@@ -29,8 +29,8 @@ MARK_VAL_T(::UnityEngine::Tilemaps::TileChangeData);
 // SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10247)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10245))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15943))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(10174)), TypeDefinitionIndex(TypeDefinitionIndex(10172))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15835))
 // CS Name: ::UnityEngine.Tilemaps::TileChangeData
 struct CORDL_TYPE TileChangeData {
 public:
@@ -63,6 +63,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Tilemaps::TileChangeData, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::TileChangeData, m_Position) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::TileChangeData, m_TileAsset) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::TileChangeData, m_Color) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::TileChangeData, m_Transform) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::Tilemaps
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Tilemaps::TileChangeData, "UnityEngine.Tilemaps", "TileChangeData");

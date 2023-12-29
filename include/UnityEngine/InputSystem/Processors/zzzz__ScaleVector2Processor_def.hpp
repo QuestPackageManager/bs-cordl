@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::ScaleVector2Processor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(6236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 411
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6591)) CS Name: ::UnityEngine.InputSystem.Processors::ScaleVector2Processor*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6322), inst: 406 }), TypeDefinitionIndex(TypeDefinitionIndex(6322)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10170))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6677)) CS Name: ::UnityEngine.InputSystem.Processors::ScaleVector2Processor*
 class CORDL_TYPE ScaleVector2Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector2> {
 public:
   // Declarations
@@ -46,15 +46,15 @@ public:
 
   constexpr void __set_y(float_t value);
 
-  /// @brief Method Process addr 0x2af9bec size 0x10 virtual true final false
+  /// @brief Method Process addr 0x2978e98 size 0x10 virtual true final false
   inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString addr 0x2af9bfc size 0xa0 virtual true final false
+  /// @brief Method ToString addr 0x2978ea8 size 0xa0 virtual true final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::InputSystem::Processors::ScaleVector2Processor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2af9c9c size 0x50 virtual false final false
+  /// @brief Method .ctor addr 0x2978f48 size 0x50 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScaleVector2Processor", modifiers: "&&", def_value: None }]
@@ -81,6 +81,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Processors::ScaleVector2Processor, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Processors::ScaleVector2Processor, ___x) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Processors::ScaleVector2Processor, ___y) == 0x14, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Processors
 NEED_NO_BOX(::UnityEngine::InputSystem::Processors::ScaleVector2Processor);

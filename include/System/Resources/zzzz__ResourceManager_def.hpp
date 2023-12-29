@@ -7,20 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceManager)
-namespace System::Resources {
-class ResourceSet;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Collections {
-class Hashtable;
+namespace System {
+class Type;
 }
 namespace System::Reflection {
 class RuntimeAssembly;
 }
-namespace System {
-class Type;
+namespace System::Reflection {
+class Assembly;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Resources {
+class IResourceGroveler;
+}
+namespace System::Resources {
+class ResourceSet;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Resources {
 class __ResourceManager__CultureNameResourceSetPair;
@@ -28,20 +40,8 @@ class __ResourceManager__CultureNameResourceSetPair;
 namespace System::Reflection {
 class AssemblyName;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System::Resources {
 class __ResourceManager__ResourceManagerMediator;
-}
-namespace System::Resources {
-class IResourceGroveler;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Reflection {
-class Assembly;
 }
 // Forward declare root types
 namespace System::Resources {
@@ -61,15 +61,15 @@ MARK_REF_PTR_T(::System::Resources::__ResourceManager__ResourceManagerMediator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3436))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3431))
 // CS Name: ::ResourceManager::CultureNameResourceSetPair*
 class CORDL_TYPE __ResourceManager__CultureNameResourceSetPair : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Resources::__ResourceManager__CultureNameResourceSetPair* New_ctor();
 
-  /// @brief Method .ctor addr 0x24e1588 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2387058 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ResourceManager__CultureNameResourceSetPair", modifiers: "&&", def_value: None }]
@@ -96,8 +96,8 @@ static_assert(::cordl_internals::size_check_v<::System::Resources::__ResourceMan
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3437))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3432))
 // CS Name: ::ResourceManager::ResourceManagerMediator*
 class CORDL_TYPE __ResourceManager__ResourceManagerMediator : public ::System::Object {
 public:
@@ -113,7 +113,7 @@ public:
 
   static inline ::System::Resources::__ResourceManager__ResourceManagerMediator* New_ctor(::System::Resources::ResourceManager* rm);
 
-  /// @brief Method .ctor addr 0x24e1590 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x2387060 size 0x78 virtual false final false
   inline void _ctor(::System::Resources::ResourceManager* rm);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ResourceManager__ResourceManagerMediator", modifiers: "&&", def_value: None }]
@@ -138,13 +138,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Resources::__ResourceManager__ResourceManagerMediator, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::System::Resources::__ResourceManager__ResourceManagerMediator, ____rm) == 0x10, "Offset mismatch!");
+
 } // namespace System::Resources
 // Type: System.Resources::ResourceManager
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3431))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3438))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3426))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3433))
 // CS Name: ::System.Resources::ResourceManager*
 class CORDL_TYPE ResourceManager : public ::System::Object {
 public:
@@ -301,24 +303,24 @@ public:
 
   static inline int32_t getStaticF_DEBUG();
 
-  /// @brief Method Init addr 0x24e1398 size 0x118 virtual false final false
+  /// @brief Method Init addr 0x2386e68 size 0x118 virtual false final false
   inline void Init();
 
   static inline ::System::Resources::ResourceManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x24e14b4 size 0xd4 virtual false final false
+  /// @brief Method .ctor addr 0x2386f84 size 0xd4 virtual false final false
   inline void _ctor();
 
-  /// @brief Method OnDeserializing addr 0x24e1608 size 0x10 virtual false final false
+  /// @brief Method OnDeserializing addr 0x23870d8 size 0x10 virtual false final false
   inline void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnDeserialized addr 0x24e1618 size 0x1cc virtual false final false
+  /// @brief Method OnDeserialized addr 0x23870e8 size 0x1cc virtual false final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnSerializing addr 0x24e17e4 size 0x70 virtual false final false
+  /// @brief Method OnSerializing addr 0x23872b4 size 0x70 virtual false final false
   inline void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method CompareNames addr 0x24e1854 size 0x254 virtual false final false
+  /// @brief Method CompareNames addr 0x2387324 size 0x254 virtual false final false
   static inline bool CompareNames(::StringW asmTypeName1, ::StringW typeName2, ::System::Reflection::AssemblyName* asmName2);
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceManager", modifiers: "&&", def_value: None }]
@@ -372,6 +374,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Resources::ResourceManager, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceManager, ___ResourceSets) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceManager, ____resourceSets) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceManager, ___MainAssembly) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceManager, ____neutralResourcesCulture) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceManager, ____lastUsedResourceCache) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceManager, ___UseManifest) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceManager, ___UseSatelliteAssem) == 0x39, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceManager, ____fallbackLoc) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceManager, ____callingAssembly) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceManager, ___m_callingAssembly) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceManager, ___resourceGroveler) == 0x50, "Offset mismatch!");
 
 } // namespace System::Resources
 NEED_NO_BOX(::System::Resources::ResourceManager);

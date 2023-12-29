@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(AccessDescription)
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -72,29 +72,29 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdADOcsp();
 
-  /// @brief Method GetInstance addr 0x10836cc size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0x101247c size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::AccessDescription* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AccessDescription* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1083854 size 0x118 virtual false final false
+  /// @brief Method .ctor addr 0x1012604 size 0x118 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AccessDescription* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X509::GeneralName* location);
 
-  /// @brief Method .ctor addr 0x108396c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x101271c size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X509::GeneralName* location);
 
-  /// @brief Method get_AccessMethod addr 0x1083998 size 0x8 virtual false final false
+  /// @brief Method get_AccessMethod addr 0x1012748 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_AccessMethod();
 
-  /// @brief Method get_AccessLocation addr 0x10839a0 size 0x8 virtual false final false
+  /// @brief Method get_AccessLocation addr 0x1012750 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_AccessLocation();
 
-  /// @brief Method ToAsn1Object addr 0x10839a8 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x1012758 size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString addr 0x1083a98 size 0x70 virtual true final false
+  /// @brief Method ToString addr 0x1012848 size 0x70 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "AccessDescription", modifiers: "&&", def_value: None }]
@@ -121,6 +121,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::AccessDescription, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::AccessDescription, ___accessMethod) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::AccessDescription, ___accessLocation) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::AccessDescription);

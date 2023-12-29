@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleTranslate)
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class IStyleValue_1;
 }
-namespace System {
-class Object;
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
 }
 namespace UnityEngine::UIElements {
 struct Translate;
@@ -33,8 +33,8 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleTranslate);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7302)), TypeDefinitionIndex(TypeDefinitionIndex(7300))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7291))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7386)), TypeDefinitionIndex(TypeDefinitionIndex(7388))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7377))
 // CS Name: ::UnityEngine.UIElements::StyleTranslate
 struct CORDL_TYPE StyleTranslate {
 public:
@@ -49,40 +49,40 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleTranslate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleTranslate>*();
 
-  /// @brief Method get_value addr 0x2e6f32c size 0x44 virtual true final true
+  /// @brief Method get_value addr 0x2d05f7c size 0x44 virtual true final true
   inline ::UnityEngine::UIElements::Translate get_value();
 
-  /// @brief Method get_keyword addr 0x2e6f370 size 0x8 virtual true final true
+  /// @brief Method get_keyword addr 0x2d05fc0 size 0x8 virtual true final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method .ctor addr 0x2e6f378 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d05fc8 size 0x28 virtual false final false
   inline void _ctor(::UnityEngine::UIElements::Translate v);
 
-  /// @brief Method .ctor addr 0x2e6f3b8 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2d06008 size 0x10 virtual false final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor addr 0x2e6f3a0 size 0x18 virtual false final false
+  /// @brief Method .ctor addr 0x2d05ff0 size 0x18 virtual false final false
   inline void _ctor(::UnityEngine::UIElements::Translate v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method op_Equality addr 0x2e6f3c8 size 0x94 virtual false final false
+  /// @brief Method op_Equality addr 0x2d06018 size 0x94 virtual false final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleTranslate lhs, ::UnityEngine::UIElements::StyleTranslate rhs);
 
-  /// @brief Method op_Implicit addr 0x2e6f4d8 size 0x10 virtual false final false
+  /// @brief Method op_Implicit addr 0x2d06128 size 0x10 virtual false final false
   static inline ::UnityEngine::UIElements::StyleTranslate op_Implicit___UnityEngine__UIElements__StyleTranslate(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method op_Implicit addr 0x2e6f4e8 size 0x18 virtual false final false
+  /// @brief Method op_Implicit addr 0x2d06138 size 0x18 virtual false final false
   static inline ::UnityEngine::UIElements::StyleTranslate op_Implicit___UnityEngine__UIElements__StyleTranslate(::UnityEngine::UIElements::Translate v);
 
-  /// @brief Method Equals addr 0x2e6f500 size 0x44 virtual true final true
+  /// @brief Method Equals addr 0x2d06150 size 0x44 virtual true final true
   inline bool Equals(::UnityEngine::UIElements::StyleTranslate other);
 
-  /// @brief Method Equals addr 0x2e6f544 size 0xa0 virtual true final false
+  /// @brief Method Equals addr 0x2d06194 size 0xa0 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2e6f5e4 size 0x24 virtual true final false
+  /// @brief Method GetHashCode addr 0x2d06234 size 0x24 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x2e6f67c size 0x88 virtual true final false
+  /// @brief Method ToString addr 0x2d062cc size 0x88 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::Translate", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty:
@@ -106,6 +106,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleTranslate, 0x1c>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleTranslate, m_Value) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleTranslate, m_Keyword) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleTranslate, "UnityEngine.UIElements", "StyleTranslate");

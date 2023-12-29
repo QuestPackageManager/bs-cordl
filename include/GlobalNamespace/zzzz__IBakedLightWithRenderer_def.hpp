@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBakedLightWithRenderer);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15275))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15304))
 // CS Name: ::IBakedLightWithRenderer*
 class CORDL_TYPE IBakedLightWithRenderer {
 public:

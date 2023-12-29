@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::LightType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10103))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10031))
 // CS Name: ::UnityEngine::LightType
 struct CORDL_TYPE LightType {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::LightType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::LightType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LightType, "UnityEngine", "LightType");

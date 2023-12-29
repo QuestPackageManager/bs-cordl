@@ -17,7 +17,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Mouse_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8667))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9436))
 // CS Name: ::OVR.OpenVR::VREvent_Mouse_t
 struct CORDL_TYPE VREvent_Mouse_t {
 public:
@@ -46,6 +46,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VREvent_Mouse_t, 0xc>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_Mouse_t, x) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_Mouse_t, y) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VREvent_Mouse_t, button) == 0x8, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VREvent_Mouse_t, "OVR.OpenVR", "VREvent_Mouse_t");

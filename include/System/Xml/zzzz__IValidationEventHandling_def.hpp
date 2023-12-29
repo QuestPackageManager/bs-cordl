@@ -3,11 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IValidationEventHandling)
-namespace System {
-class Exception;
-}
 namespace System::Xml::Schema {
 struct XmlSeverityType;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Xml::IValidationEventHandling);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11431))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11359))
 // CS Name: ::System.Xml::IValidationEventHandling*
 class CORDL_TYPE IValidationEventHandling {
 public:

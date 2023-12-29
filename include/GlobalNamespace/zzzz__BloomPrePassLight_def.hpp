@@ -13,8 +13,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassLight)
-namespace GlobalNamespace {
-class BloomPrePassLightTypeSO;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
@@ -22,20 +28,14 @@ template <typename T> class HashSet_1;
 namespace GlobalNamespace {
 struct __BloomPrePassLight__QuadData;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
 namespace GlobalNamespace {
 class __BloomPrePassLight__LightsDataItem;
 }
 namespace GlobalNamespace {
 struct __BloomPrePassLight__VertexData;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class BloomPrePassLightTypeSO;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -65,8 +65,8 @@ MARK_VAL_T(::GlobalNamespace::__BloomPrePassLight__VertexData);
 // SizeInfo { instance_size: 52, native_size: 52, calculated_instance_size: 52, calculated_native_size: 68, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14471))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14689))
 // CS Name: ::BloomPrePassLight::VertexData
 struct CORDL_TYPE __BloomPrePassLight__VertexData {
 public:
@@ -190,8 +190,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePassL
 // SizeInfo { instance_size: 208, native_size: 208, calculated_instance_size: 208, calculated_native_size: 224, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14471))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14472))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14689))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14690))
 // CS Name: ::BloomPrePassLight::QuadData
 struct CORDL_TYPE __BloomPrePassLight__QuadData {
 public:
@@ -317,8 +317,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePassL
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14473))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14691))
 // CS Name: ::BloomPrePassLight::LightsDataItem*
 class CORDL_TYPE __BloomPrePassLight__LightsDataItem : public ::System::Object {
 public:
@@ -344,7 +344,7 @@ public:
   static inline ::GlobalNamespace::__BloomPrePassLight__LightsDataItem* New_ctor(::GlobalNamespace::BloomPrePassLightTypeSO* lightType,
                                                                                  ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>* lights);
 
-  /// @brief Method .ctor addr 0x2106d6c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x1fb1990 size 0x2c virtual false final false
   inline void _ctor(::GlobalNamespace::BloomPrePassLightTypeSO* lightType, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>* lights);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BloomPrePassLight__LightsDataItem", modifiers: "&&", def_value: None }]
@@ -372,13 +372,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePassLight__LightsDataItem, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BloomPrePassLight__LightsDataItem, ___lightType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BloomPrePassLight__LightsDataItem, ___lights) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BloomPrePassLight
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14474))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14692))
 // CS Name: ::BloomPrePassLight*
 class CORDL_TYPE BloomPrePassLight : public ::UnityEngine::MonoBehaviour {
 public:
@@ -445,29 +449,29 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::__BloomPrePassLight__LightsDataItem*>* getStaticF__lightsDataItems();
 
-  /// @brief Method get_bloomLightsDict addr 0x2106930 size 0x58 virtual false final false
+  /// @brief Method get_bloomLightsDict addr 0x1fb1554 size 0x58 virtual false final false
   static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BloomPrePassLightTypeSO*, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>*>*
   get_bloomLightsDict();
 
-  /// @brief Method get_lightsDataItems addr 0x2106988 size 0x58 virtual false final false
+  /// @brief Method get_lightsDataItems addr 0x1fb15ac size 0x58 virtual false final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::__BloomPrePassLight__LightsDataItem*>* get_lightsDataItems();
 
   /// @brief Method get_isDirty addr 0x0 size 0xffffffffffffffff virtual true final false
   inline bool get_isDirty();
 
-  /// @brief Method OnEnable addr 0x21069e0 size 0x4 virtual true final false
+  /// @brief Method OnEnable addr 0x1fb1604 size 0x4 virtual true final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2106c98 size 0x4 virtual true final false
+  /// @brief Method OnDisable addr 0x1fb18bc size 0x4 virtual true final false
   inline void OnDisable();
 
-  /// @brief Method OnDestroy addr 0x2106d60 size 0xc virtual false final false
+  /// @brief Method OnDestroy addr 0x1fb1984 size 0xc virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method RegisterLight addr 0x21069e4 size 0x2b4 virtual false final false
+  /// @brief Method RegisterLight addr 0x1fb1608 size 0x2b4 virtual false final false
   inline void RegisterLight();
 
-  /// @brief Method UnregisterLight addr 0x2106c9c size 0xc4 virtual false final false
+  /// @brief Method UnregisterLight addr 0x1fb18c0 size 0xc4 virtual false final false
   inline void UnregisterLight();
 
   /// @brief Method DidRegisterLight addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -482,7 +486,7 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassLight* New_ctor();
 
-  /// @brief Method .ctor addr 0x2106d98 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fb19bc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassLight", modifiers: "&&", def_value: None }]
@@ -545,6 +549,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassLight, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassLight, ____lightType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassLight, ____registeredWithLightType) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassLight, ____isRegistered) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassLight, ____isBeingDestroyed) == 0x29, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassLight);

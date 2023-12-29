@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::RotationOrder);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10274))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10201))
 // CS Name: ::UnityEngine::RotationOrder
 struct CORDL_TYPE RotationOrder {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::RotationOrder, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::RotationOrder, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RotationOrder, "UnityEngine", "RotationOrder");

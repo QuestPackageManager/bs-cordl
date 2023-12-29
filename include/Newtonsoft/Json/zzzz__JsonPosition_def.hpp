@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonPosition)
-namespace System::Text {
-class StringBuilder;
-}
 namespace Newtonsoft::Json {
-class IJsonLineInfo;
+struct JsonContainerType;
 }
 namespace System {
 template <typename T> struct Nullable_1;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Newtonsoft::Json {
-struct JsonContainerType;
+class IJsonLineInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -33,8 +33,8 @@ MARK_VAL_T(::Newtonsoft::Json::JsonPosition);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11806))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11807))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11734))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11735))
 // CS Name: ::Newtonsoft.Json::JsonPosition
 struct CORDL_TYPE JsonPosition {
 public:
@@ -46,22 +46,22 @@ public:
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_SpecialCharacters();
 
-  /// @brief Method .ctor addr 0x263e9ec size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x24dc2a8 size 0x7c virtual false final false
   inline void _ctor(::Newtonsoft::Json::JsonContainerType type);
 
-  /// @brief Method CalculateLength addr 0x263ea78 size 0x98 virtual false final false
+  /// @brief Method CalculateLength addr 0x24dc334 size 0x98 virtual false final false
   inline int32_t CalculateLength();
 
-  /// @brief Method WriteTo addr 0x263eb10 size 0x168 virtual false final false
+  /// @brief Method WriteTo addr 0x24dc3cc size 0x168 virtual false final false
   inline void WriteTo(::System::Text::StringBuilder* sb);
 
-  /// @brief Method TypeHasIndex addr 0x263ea68 size 0x10 virtual false final false
+  /// @brief Method TypeHasIndex addr 0x24dc324 size 0x10 virtual false final false
   static inline bool TypeHasIndex(::Newtonsoft::Json::JsonContainerType type);
 
-  /// @brief Method BuildPath addr 0x263ec78 size 0x29c virtual false final false
+  /// @brief Method BuildPath addr 0x24dc534 size 0x29c virtual false final false
   static inline ::StringW BuildPath(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* positions, ::System::Nullable_1<::Newtonsoft::Json::JsonPosition> currentPosition);
 
-  /// @brief Method FormatMessage addr 0x263e678 size 0x32c virtual false final false
+  /// @brief Method FormatMessage addr 0x24dbf34 size 0x32c virtual false final false
   static inline ::StringW FormatMessage(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
 
   // Ctor Parameters [CppParam { name: "Type", ty: "::Newtonsoft::Json::JsonContainerType", modifiers: "", def_value: None }, CppParam { name: "Position", ty: "int32_t", modifiers: "", def_value: None
@@ -91,6 +91,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonPosition, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonPosition, Type) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonPosition, Position) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonPosition, PropertyName) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonPosition, HasIndex) == 0x10, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonPosition, "Newtonsoft.Json", "JsonPosition");

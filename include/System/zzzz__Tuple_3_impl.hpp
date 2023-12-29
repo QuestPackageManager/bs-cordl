@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Tuple_3_def.hpp"
-#include "System/zzzz__ITupleInternal_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__ITupleInternal_def.hpp"
 #include "System/Collections/zzzz__IStructuralComparable_def.hpp"
 /// @brief Convert operator to "::System::Collections::IStructuralEquatable"
 template <typename T1, typename T2, typename T3> constexpr System::Tuple_3<T1, T2, T3>::operator ::System::Collections::IStructuralEquatable*() noexcept {

@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(RegisteredWaitHandle)
 namespace System::Threading {
 class ManualResetEvent;
 }
+namespace System {
+class Object;
+}
 namespace System::Threading {
 class WaitOrTimerCallback;
-}
-namespace System {
-struct TimeSpan;
 }
 namespace System::Threading {
 class WaitHandle;
 }
 namespace System {
-class Object;
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::System::Threading::RegisteredWaitHandle);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 78, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2746))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2482)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2744))
 // CS Name: ::System.Threading::RegisteredWaitHandle*
 class CORDL_TYPE RegisteredWaitHandle : public ::System::MarshalByRefObject {
 public:
@@ -121,16 +121,16 @@ public:
   static inline ::System::Threading::RegisteredWaitHandle* New_ctor(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callback, ::System::Object* state,
                                                                     ::System::TimeSpan timeout, bool executeOnlyOnce);
 
-  /// @brief Method .ctor addr 0x261c76c size 0xb4 virtual false final false
+  /// @brief Method .ctor addr 0x24c2750 size 0xb4 virtual false final false
   inline void _ctor(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callback, ::System::Object* state, ::System::TimeSpan timeout, bool executeOnlyOnce);
 
-  /// @brief Method Wait addr 0x261f0dc size 0x530 virtual false final false
+  /// @brief Method Wait addr 0x24c50bc size 0x530 virtual false final false
   inline void Wait(::System::Object* state);
 
-  /// @brief Method DoCallBack addr 0x261f60c size 0x104 virtual false final false
+  /// @brief Method DoCallBack addr 0x24c55ec size 0x104 virtual false final false
   inline void DoCallBack(::System::Object* timedOut);
 
-  /// @brief Method Unregister addr 0x261f710 size 0xf4 virtual false final false
+  /// @brief Method Unregister addr 0x24c56f0 size 0xf4 virtual false final false
   inline bool Unregister(::System::Threading::WaitHandle* waitObject);
 
   // Ctor Parameters [CppParam { name: "", ty: "RegisteredWaitHandle", modifiers: "&&", def_value: None }]
@@ -178,6 +178,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::RegisteredWaitHandle, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::RegisteredWaitHandle, ____waitObject) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::RegisteredWaitHandle, ____callback) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::RegisteredWaitHandle, ____state) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::RegisteredWaitHandle, ____finalEvent) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::RegisteredWaitHandle, ____cancelEvent) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::RegisteredWaitHandle, ____timeout) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::RegisteredWaitHandle, ____callsInProcess) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::RegisteredWaitHandle, ____executeOnlyOnce) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::RegisteredWaitHandle, ____unregistered) == 0x4d, "Offset mismatch!");
 
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::RegisteredWaitHandle);

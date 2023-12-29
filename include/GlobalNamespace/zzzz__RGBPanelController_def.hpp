@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RGBPanelController);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16179))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5510))
 // CS Name: ::RGBPanelController*
 class CORDL_TYPE RGBPanelController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -80,36 +80,36 @@ public:
 
   constexpr void __set__color(::UnityEngine::Color value);
 
-  /// @brief Method add_colorDidChangeEvent addr 0x23e3b74 size 0xb0 virtual false final false
+  /// @brief Method add_colorDidChangeEvent addr 0x2132c8c size 0xb0 virtual false final false
   inline void add_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method remove_colorDidChangeEvent addr 0x23e3c24 size 0xb0 virtual false final false
+  /// @brief Method remove_colorDidChangeEvent addr 0x2132f2c size 0xb0 virtual false final false
   inline void remove_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method get_color addr 0x23e3cd4 size 0xc virtual false final false
+  /// @brief Method get_color addr 0x213378c size 0xc virtual false final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method set_color addr 0x23e3ce0 size 0x20 virtual false final false
+  /// @brief Method set_color addr 0x2132d3c size 0x20 virtual false final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method Awake addr 0x23e3ec4 size 0x104 virtual false final false
+  /// @brief Method Awake addr 0x213395c size 0x104 virtual false final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x23e3fc8 size 0x1ac virtual false final false
+  /// @brief Method OnDestroy addr 0x2133a60 size 0x1ac virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleSliderColorDidChange addr 0x23e4174 size 0x3c virtual false final false
+  /// @brief Method HandleSliderColorDidChange addr 0x2133c0c size 0x3c virtual false final false
   inline void HandleSliderColorDidChange(::HMUI::ColorGradientSlider* slider, ::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
 
-  /// @brief Method RefreshSlidersValues addr 0x23e3e78 size 0x4c virtual false final false
+  /// @brief Method RefreshSlidersValues addr 0x2133910 size 0x4c virtual false final false
   inline void RefreshSlidersValues();
 
-  /// @brief Method RefreshSlidersColors addr 0x23e3d00 size 0x178 virtual false final false
+  /// @brief Method RefreshSlidersColors addr 0x2133798 size 0x178 virtual false final false
   inline void RefreshSlidersColors();
 
   static inline ::GlobalNamespace::RGBPanelController* New_ctor();
 
-  /// @brief Method .ctor addr 0x23e41b0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2133c48 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RGBPanelController", modifiers: "&&", def_value: None }]
@@ -145,6 +145,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RGBPanelController, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RGBPanelController, ____redSlider) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RGBPanelController, ____greenSlider) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RGBPanelController, ____blueSlider) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RGBPanelController, ___colorDidChangeEvent) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RGBPanelController, ____color) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RGBPanelController);

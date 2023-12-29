@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Linq::Expressions::ExpressionType);
 namespace System::Linq::Expressions {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14302))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14640))
 // CS Name: ::System.Linq.Expressions::ExpressionType
 struct CORDL_TYPE ExpressionType {
 public:
@@ -389,6 +389,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::ExpressionType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Linq::Expressions::ExpressionType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Linq::Expressions
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::ExpressionType, "System.Linq.Expressions", "ExpressionType");

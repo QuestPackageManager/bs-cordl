@@ -7,29 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DisposableManager)
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-class __DisposableManager____c__DisplayClass4_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Zenject {
-class __DisposableManager____c__DisplayClass4_1;
-}
-namespace Zenject {
-class __DisposableManager____c;
-}
-namespace System {
-class Object;
-}
 namespace System {
 class IDisposable;
 }
 namespace Zenject {
-struct __DisposableManager__DisposableInfo;
+class __DisposableManager____c__DisplayClass4_1;
+}
+namespace ModestTree::Util {
+template <typename T1, typename T2> class ValuePair_2;
+}
+namespace Zenject {
+class ILateDisposable;
+}
+namespace System {
+class Object;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace Zenject {
 class __DisposableManager____c__DisplayClass9_0;
@@ -40,11 +34,17 @@ class Type;
 namespace Zenject {
 class __DisposableManager__LateDisposableInfo;
 }
-namespace ModestTree::Util {
-template <typename T1, typename T2> class ValuePair_2;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
-class ILateDisposable;
+struct __DisposableManager__DisposableInfo;
+}
+namespace Zenject {
+class __DisposableManager____c;
+}
+namespace Zenject {
+class __DisposableManager____c__DisplayClass4_0;
 }
 namespace System {
 template <typename T> struct Nullable_1;
@@ -87,12 +87,12 @@ MARK_VAL_T(::Zenject::__DisposableManager__DisposableInfo);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11305))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11233))
 // CS Name: ::DisposableManager::DisposableInfo
 struct CORDL_TYPE __DisposableManager__DisposableInfo {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2f0f868 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2da7a98 size 0xc virtual false final false
   inline void _ctor(::System::IDisposable* disposable, int32_t priority);
 
   // Ctor Parameters [CppParam { name: "Disposable", ty: "::System::IDisposable*", modifiers: "", def_value: None }, CppParam { name: "Priority", ty: "int32_t", modifiers: "", def_value: None }]
@@ -116,13 +116,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__DisposableManager__DisposableInfo, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__DisposableManager__DisposableInfo, Disposable) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__DisposableManager__DisposableInfo, Priority) == 0x8, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: ::LateDisposableInfo
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11306))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11234))
 // CS Name: ::DisposableManager::LateDisposableInfo*
 class CORDL_TYPE __DisposableManager__LateDisposableInfo : public ::System::Object {
 public:
@@ -147,13 +151,13 @@ public:
 
   static inline ::Zenject::__DisposableManager__LateDisposableInfo* New_ctor(::Zenject::ILateDisposable* lateDisposable, int32_t priority);
 
-  /// @brief Method .ctor addr 0x2f0f87c size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x2da7aac size 0x30 virtual false final false
   inline void _ctor(::Zenject::ILateDisposable* lateDisposable, int32_t priority);
 
-  /// @brief Method __zenCreate addr 0x2f10a18 size 0x110 virtual false final false
+  /// @brief Method __zenCreate addr 0x2da8c48 size 0x110 virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f10b28 size 0x304 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2da8d58 size 0x304 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DisposableManager__LateDisposableInfo", modifiers: "&&", def_value: None }]
@@ -181,13 +185,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__DisposableManager__LateDisposableInfo, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__DisposableManager__LateDisposableInfo, ___LateDisposable) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__DisposableManager__LateDisposableInfo, ___Priority) == 0x18, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: ::<>c__DisplayClass4_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11307))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11235))
 // CS Name: ::DisposableManager::<>c__DisplayClass4_0*
 class CORDL_TYPE __DisposableManager____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -203,16 +211,16 @@ public:
 
   static inline ::Zenject::__DisposableManager____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2f0f860 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2da7a90 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <.ctor>b__0 addr 0x2f10e2c size 0x80 virtual false final false
+  /// @brief Method <.ctor>b__0 addr 0x2da905c size 0x80 virtual false final false
   inline bool __ctor_b__0(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method __zenCreate addr 0x2f10eac size 0x5c virtual false final false
+  /// @brief Method __zenCreate addr 0x2da90dc size 0x5c virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f10f08 size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2da9138 size 0x1c0 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DisposableManager____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
@@ -237,13 +245,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__DisposableManager____c__DisplayClass4_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__DisposableManager____c__DisplayClass4_0, ___disposable) == 0x10, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: ::<>c__DisplayClass4_1
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11308))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11236))
 // CS Name: ::DisposableManager::<>c__DisplayClass4_1*
 class CORDL_TYPE __DisposableManager____c__DisplayClass4_1 : public ::System::Object {
 public:
@@ -259,16 +269,16 @@ public:
 
   static inline ::Zenject::__DisposableManager____c__DisplayClass4_1* New_ctor();
 
-  /// @brief Method .ctor addr 0x2f0f874 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2da7aa4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <.ctor>b__2 addr 0x2f110c8 size 0x80 virtual false final false
+  /// @brief Method <.ctor>b__2 addr 0x2da92f8 size 0x80 virtual false final false
   inline bool __ctor_b__2(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method __zenCreate addr 0x2f11148 size 0x5c virtual false final false
+  /// @brief Method __zenCreate addr 0x2da9378 size 0x5c virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f111a4 size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2da93d4 size 0x1c0 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DisposableManager____c__DisplayClass4_1", modifiers: "&&", def_value: None }]
@@ -293,13 +303,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__DisposableManager____c__DisplayClass4_1, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__DisposableManager____c__DisplayClass4_1, ___lateDisposable) == 0x10, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11309))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11237))
 // CS Name: ::DisposableManager::<>c*
 class CORDL_TYPE __DisposableManager____c : public ::System::Object {
 public:
@@ -343,25 +355,25 @@ public:
 
   static inline ::Zenject::__DisposableManager____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2f113c8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2da95f8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <.ctor>b__4_1 addr 0x2f113d0 size 0x60 virtual false final false
+  /// @brief Method <.ctor>b__4_1 addr 0x2da9600 size 0x60 virtual false final false
   inline ::System::Nullable_1<int32_t> __ctor_b__4_1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method <.ctor>b__4_3 addr 0x2f11430 size 0x60 virtual false final false
+  /// @brief Method <.ctor>b__4_3 addr 0x2da9660 size 0x60 virtual false final false
   inline ::System::Nullable_1<int32_t> __ctor_b__4_3(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method <LateDispose>b__10_0 addr 0x2f11490 size 0x18 virtual false final false
+  /// @brief Method <LateDispose>b__10_0 addr 0x2da96c0 size 0x18 virtual false final false
   inline int32_t _LateDispose_b__10_0(::Zenject::__DisposableManager__LateDisposableInfo* x);
 
-  /// @brief Method <Dispose>b__11_0 addr 0x2f114a8 size 0x8 virtual false final false
+  /// @brief Method <Dispose>b__11_0 addr 0x2da96d8 size 0x8 virtual false final false
   inline int32_t _Dispose_b__11_0(::Zenject::__DisposableManager__DisposableInfo x);
 
-  /// @brief Method __zenCreate addr 0x2f114b0 size 0x5c virtual false final false
+  /// @brief Method __zenCreate addr 0x2da96e0 size 0x5c virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f1150c size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2da973c size 0x1c0 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DisposableManager____c", modifiers: "&&", def_value: None }]
@@ -388,8 +400,8 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__DisposableManager____
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11310))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11238))
 // CS Name: ::DisposableManager::<>c__DisplayClass9_0*
 class CORDL_TYPE __DisposableManager____c__DisplayClass9_0 : public ::System::Object {
 public:
@@ -405,16 +417,16 @@ public:
 
   static inline ::Zenject::__DisposableManager____c__DisplayClass9_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2f0fb94 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2da7dc4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Remove>b__0 addr 0x2f116cc size 0x10 virtual false final false
+  /// @brief Method <Remove>b__0 addr 0x2da98fc size 0x10 virtual false final false
   inline bool _Remove_b__0(::Zenject::__DisposableManager__DisposableInfo x);
 
-  /// @brief Method __zenCreate addr 0x2f116dc size 0x5c virtual false final false
+  /// @brief Method __zenCreate addr 0x2da990c size 0x5c virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f11738 size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2da9968 size 0x1c0 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DisposableManager____c__DisplayClass9_0", modifiers: "&&", def_value: None }]
@@ -439,13 +451,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__DisposableManager____c__DisplayClass9_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__DisposableManager____c__DisplayClass9_0, ___disposable) == 0x10, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: Zenject::DisposableManager
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11311))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11239))
 // CS Name: ::Zenject::DisposableManager*
 class CORDL_TYPE DisposableManager : public ::System::Object {
 public:
@@ -506,37 +520,37 @@ public:
                                                        ::System::Collections::Generic::List_1<::Zenject::ILateDisposable*>* lateDisposables,
                                                        ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* latePriorities);
 
-  /// @brief Method .ctor addr 0x2f0f030 size 0x830 virtual false final false
+  /// @brief Method .ctor addr 0x2da7260 size 0x830 virtual false final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::IDisposable*>* disposables,
                     ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities,
                     ::System::Collections::Generic::List_1<::Zenject::ILateDisposable*>* lateDisposables,
                     ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* latePriorities);
 
-  /// @brief Method Add addr 0x2f0f8ac size 0x8 virtual false final false
+  /// @brief Method Add addr 0x2da7adc size 0x8 virtual false final false
   inline void Add(::System::IDisposable* disposable);
 
-  /// @brief Method Add addr 0x2f0f8b4 size 0xbc virtual false final false
+  /// @brief Method Add addr 0x2da7ae4 size 0xbc virtual false final false
   inline void Add(::System::IDisposable* disposable, int32_t priority);
 
-  /// @brief Method AddLate addr 0x2f0f970 size 0x8 virtual false final false
+  /// @brief Method AddLate addr 0x2da7ba0 size 0x8 virtual false final false
   inline void AddLate(::Zenject::ILateDisposable* disposable);
 
-  /// @brief Method AddLate addr 0x2f0f978 size 0xf0 virtual false final false
+  /// @brief Method AddLate addr 0x2da7ba8 size 0xf0 virtual false final false
   inline void AddLate(::Zenject::ILateDisposable* disposable, int32_t priority);
 
-  /// @brief Method Remove addr 0x2f0fa68 size 0x12c virtual false final false
+  /// @brief Method Remove addr 0x2da7c98 size 0x12c virtual false final false
   inline void Remove(::System::IDisposable* disposable);
 
-  /// @brief Method LateDispose addr 0x2f0fb9c size 0x45c virtual false final false
+  /// @brief Method LateDispose addr 0x2da7dcc size 0x45c virtual false final false
   inline void LateDispose();
 
-  /// @brief Method Dispose addr 0x2f0fff8 size 0x438 virtual true final true
+  /// @brief Method Dispose addr 0x2da8228 size 0x438 virtual true final true
   inline void Dispose();
 
-  /// @brief Method __zenCreate addr 0x2f10430 size 0x1c4 virtual false final false
+  /// @brief Method __zenCreate addr 0x2da8660 size 0x1c4 virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f105f4 size 0x424 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2da8824 size 0x424 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "DisposableManager", modifiers: "&&", def_value: None }]
@@ -569,6 +583,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::DisposableManager, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::DisposableManager, ____disposables) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::DisposableManager, ____lateDisposables) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::DisposableManager, ____disposed) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::DisposableManager, ____lateDisposed) == 0x21, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::DisposableManager);

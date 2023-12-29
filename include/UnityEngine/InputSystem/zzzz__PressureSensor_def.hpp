@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::PressureSensor);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6274))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6282))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6360))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6368))
 // CS Name: ::UnityEngine.InputSystem::PressureSensor*
 class CORDL_TYPE PressureSensor : public ::UnityEngine::InputSystem::Sensor {
 public:
@@ -42,30 +42,30 @@ public:
 
   static inline ::UnityEngine::InputSystem::PressureSensor* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_atmosphericPressure addr 0x2aa89b8 size 0x8 virtual false final false
+  /// @brief Method get_atmosphericPressure addr 0x2929c70 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_atmosphericPressure();
 
-  /// @brief Method set_atmosphericPressure addr 0x2aa89c0 size 0x8 virtual false final false
+  /// @brief Method set_atmosphericPressure addr 0x2929c78 size 0x8 virtual false final false
   inline void set_atmosphericPressure(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_current addr 0x2aa89c8 size 0x48 virtual false final false
+  /// @brief Method get_current addr 0x2929c80 size 0x48 virtual false final false
   static inline ::UnityEngine::InputSystem::PressureSensor* get_current();
 
-  /// @brief Method set_current addr 0x2aa8a10 size 0x4c virtual false final false
+  /// @brief Method set_current addr 0x2929cc8 size 0x4c virtual false final false
   static inline void set_current(::UnityEngine::InputSystem::PressureSensor* value);
 
-  /// @brief Method MakeCurrent addr 0x2aa8a5c size 0x54 virtual true final false
+  /// @brief Method MakeCurrent addr 0x2929d14 size 0x54 virtual true final false
   inline void MakeCurrent();
 
-  /// @brief Method OnRemoved addr 0x2aa8ab0 size 0x84 virtual true final false
+  /// @brief Method OnRemoved addr 0x2929d68 size 0x84 virtual true final false
   inline void OnRemoved();
 
-  /// @brief Method FinishSetup addr 0x2aa8b34 size 0x78 virtual true final false
+  /// @brief Method FinishSetup addr 0x2929dec size 0x78 virtual true final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::PressureSensor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2aa8bac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2929e64 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PressureSensor", modifiers: "&&", def_value: None }]
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::PressureSensor, 0x160>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::PressureSensor, ____atmosphericPressure_k__BackingField) == 0x158, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 NEED_NO_BOX(::UnityEngine::InputSystem::PressureSensor);

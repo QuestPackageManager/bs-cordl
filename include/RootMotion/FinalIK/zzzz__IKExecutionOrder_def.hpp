@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKExecutionOrder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12537))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12465))
 // CS Name: ::RootMotion.FinalIK::IKExecutionOrder*
 class CORDL_TYPE IKExecutionOrder : public ::UnityEngine::MonoBehaviour {
 public:
@@ -56,27 +56,27 @@ public:
 
   constexpr void __set_fixedFrame(bool value);
 
-  /// @brief Method get_animatePhysics addr 0x124f24c size 0x8c virtual false final false
+  /// @brief Method get_animatePhysics addr 0x11def20 size 0x8c virtual false final false
   inline bool get_animatePhysics();
 
-  /// @brief Method Start addr 0x124f2d8 size 0x64 virtual false final false
+  /// @brief Method Start addr 0x11defac size 0x64 virtual false final false
   inline void Start();
 
-  /// @brief Method Update addr 0x124f33c size 0x24 virtual false final false
+  /// @brief Method Update addr 0x11df010 size 0x24 virtual false final false
   inline void Update();
 
-  /// @brief Method FixedUpdate addr 0x124f3dc size 0x2c virtual false final false
+  /// @brief Method FixedUpdate addr 0x11df0b0 size 0x2c virtual false final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate addr 0x124f408 size 0x84 virtual false final false
+  /// @brief Method LateUpdate addr 0x11df0dc size 0x84 virtual false final false
   inline void LateUpdate();
 
-  /// @brief Method FixTransforms addr 0x124f360 size 0x7c virtual false final false
+  /// @brief Method FixTransforms addr 0x11df034 size 0x7c virtual false final false
   inline void FixTransforms();
 
   static inline ::RootMotion::FinalIK::IKExecutionOrder* New_ctor();
 
-  /// @brief Method .ctor addr 0x124f48c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x11df160 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKExecutionOrder", modifiers: "&&", def_value: None }]
@@ -106,6 +106,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::IKExecutionOrder, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKExecutionOrder, ___IKComponents) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKExecutionOrder, ___animator) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKExecutionOrder, ___fixedFrame) == 0x28, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::IKExecutionOrder);

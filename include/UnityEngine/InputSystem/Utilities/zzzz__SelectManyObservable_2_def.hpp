@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SelectManyObservable_2)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TSource, typename TResult> class __SelectManyObservable_2__Select;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 template <typename T> class IObserver_1;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 template <typename T> class IObservable_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TSource, typename TResult> class __SelectManyObservable_2__Select;
 }
 namespace System {
 class Exception;
@@ -41,8 +41,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TSource, typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6690))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6776))
 // CS Name: ::SelectManyObservable`2::Select<TSource,TResult>*
 class CORDL_TYPE __SelectManyObservable_2__Select : public ::System::Object {
 public:
@@ -113,8 +113,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TSource, typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6691))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6777))
 // CS Name: ::UnityEngine.InputSystem.Utilities::SelectManyObservable`2<TSource,TResult>*
 class CORDL_TYPE SelectManyObservable_2 : public ::System::Object {
 public:

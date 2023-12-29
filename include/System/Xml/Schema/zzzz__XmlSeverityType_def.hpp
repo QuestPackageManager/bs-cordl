@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::Schema::XmlSeverityType);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11745))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11673))
 // CS Name: ::System.Xml.Schema::XmlSeverityType
 struct CORDL_TYPE XmlSeverityType {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSeverityType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSeverityType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSeverityType, "System.Xml.Schema", "XmlSeverityType");

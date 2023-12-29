@@ -20,11 +20,11 @@ class __BatchRendererGroup__OnPerformCulling;
 namespace UnityEngine::Rendering {
 struct BatchCullingContext;
 }
-namespace System {
-class Object;
-}
 namespace Unity::Jobs {
 struct JobHandle;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -40,18 +40,18 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling)
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10367))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10289))
 // CS Name: ::BatchRendererGroup::OnPerformCulling*
 class CORDL_TYPE __BatchRendererGroup__OnPerformCulling : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2ceef10 size 0x130 virtual false final false
+  /// @brief Method .ctor addr 0x2b87adc size 0x130 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2cef040 size 0x5c virtual true final false
+  /// @brief Method Invoke addr 0x2b87c0c size 0x5c virtual true final false
   inline ::Unity::Jobs::JobHandle Invoke(::UnityEngine::Rendering::BatchRendererGroup* rendererGroup, ::UnityEngine::Rendering::BatchCullingContext cullingContext);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BatchRendererGroup__OnPerformCulling", modifiers: "&&", def_value: None }]
@@ -78,8 +78,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::__BatchR
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10368))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10290))
 // CS Name: ::UnityEngine.Rendering::BatchRendererGroup*
 class CORDL_TYPE BatchRendererGroup : public ::System::Object {
 public:
@@ -104,7 +104,7 @@ public:
 
   constexpr void __set_m_PerformCulling(::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* value);
 
-  /// @brief Method InvokeOnPerformCulling addr 0x2ceecf0 size 0x220 virtual false final false
+  /// @brief Method InvokeOnPerformCulling addr 0x2b878bc size 0x220 virtual false final false
   static inline void InvokeOnPerformCulling(::UnityEngine::Rendering::BatchRendererGroup* group, ByRef<::UnityEngine::Rendering::BatchRendererCullingOutput> context,
                                             ByRef<::UnityEngine::Rendering::LODParameters> lodParameters);
 
@@ -132,6 +132,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BatchRendererGroup, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchRendererGroup, ___m_GroupHandle) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::BatchRendererGroup, ___m_PerformCulling) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::BatchRendererGroup);

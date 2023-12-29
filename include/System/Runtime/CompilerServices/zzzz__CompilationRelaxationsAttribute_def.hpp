@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::CompilationRelaxationsAttrib
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3414))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3409))
 // CS Name: ::System.Runtime.CompilerServices::CompilationRelaxationsAttribute*
 class CORDL_TYPE CompilationRelaxationsAttribute : public ::System::Attribute {
 public:
@@ -37,15 +37,15 @@ public:
 
   static inline ::System::Runtime::CompilerServices::CompilationRelaxationsAttribute* New_ctor(int32_t relaxations);
 
-  /// @brief Method .ctor addr 0x24debdc size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x238414c size 0x28 virtual false final false
   inline void _ctor(int32_t relaxations);
 
   static inline ::System::Runtime::CompilerServices::CompilationRelaxationsAttribute* New_ctor(::System::Runtime::CompilerServices::CompilationRelaxations relaxations);
 
-  /// @brief Method .ctor addr 0x24dec04 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2384174 size 0x28 virtual false final false
   inline void _ctor(::System::Runtime::CompilerServices::CompilationRelaxations relaxations);
 
-  /// @brief Method get_CompilationRelaxations addr 0x24dec2c size 0x8 virtual false final false
+  /// @brief Method get_CompilationRelaxations addr 0x238419c size 0x8 virtual false final false
   inline int32_t get_CompilationRelaxations();
 
   // Ctor Parameters [CppParam { name: "", ty: "CompilationRelaxationsAttribute", modifiers: "&&", def_value: None }]
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::CompilationRelaxationsAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::CompilerServices::CompilationRelaxationsAttribute, ___m_relaxations) == 0x10, "Offset mismatch!");
 
 } // namespace System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::CompilationRelaxationsAttribute);

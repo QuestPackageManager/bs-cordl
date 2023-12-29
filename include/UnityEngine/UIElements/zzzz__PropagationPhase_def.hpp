@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::PropagationPhase);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7256))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7342))
 // CS Name: ::UnityEngine.UIElements::PropagationPhase
 struct CORDL_TYPE PropagationPhase {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PropagationPhase, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::PropagationPhase, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PropagationPhase, "UnityEngine.UIElements", "PropagationPhase");

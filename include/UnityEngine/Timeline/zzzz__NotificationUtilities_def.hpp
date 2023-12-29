@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(NotificationUtilities)
-namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
-}
-namespace UnityEngine::Timeline {
-class IMarker;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace UnityEngine::Timeline {
 class TimeNotificationBehaviour;
 }
 namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Timeline {
+class IMarker;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::Playables {
 struct DirectorWrapMode;
+}
+namespace UnityEngine::Playables {
+template <typename T> struct ScriptPlayable_1;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -36,18 +36,18 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::NotificationUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13935))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14206))
 // CS Name: ::UnityEngine.Timeline::NotificationUtilities*
 class CORDL_TYPE NotificationUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateNotificationsPlayable addr 0x2c70db0 size 0x6e0 virtual false final false
+  /// @brief Method CreateNotificationsPlayable addr 0x2aed05c size 0x6e0 virtual false final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeNotificationBehaviour*>
   CreateNotificationsPlayable(::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>* markers, double_t duration,
                               ::UnityEngine::Playables::DirectorWrapMode extrapolationMode);
 
-  /// @brief Method TrackTypeSupportsNotifications addr 0x2c71490 size 0x18c virtual false final false
+  /// @brief Method TrackTypeSupportsNotifications addr 0x2aed73c size 0x18c virtual false final false
   static inline bool TrackTypeSupportsNotifications(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "NotificationUtilities", modifiers: "&&", def_value: None }]

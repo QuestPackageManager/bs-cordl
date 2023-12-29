@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::X509Certificates::StoreLocation);
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8979))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7816))
 // CS Name: ::System.Security.Cryptography.X509Certificates::StoreLocation
 struct CORDL_TYPE StoreLocation {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::StoreLocation, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::X509Certificates::StoreLocation, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::StoreLocation, "System.Security.Cryptography.X509Certificates", "StoreLocation");

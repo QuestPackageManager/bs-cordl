@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UVEditing)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __UVEditing____c;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace UnityEngine::ProBuilder {
-struct Edge;
-}
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __UVEditing____c__DisplayClass0_0;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
-class __UVEditing____c__DisplayClass4_0;
+class __UVEditing____c;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::ProBuilder {
+struct Edge;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __UVEditing____c__DisplayClass4_0;
 }
 namespace UnityEngine {
 struct Vector4;
@@ -65,8 +65,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__Disp
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12286))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12214))
 // CS Name: ::UVEditing::<>c__DisplayClass0_0*
 class CORDL_TYPE __UVEditing____c__DisplayClass0_0 : public ::System::Object {
 public:
@@ -91,10 +91,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bc364c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a418f8 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <AutoStitch>b__0 addr 0x2bc671c size 0x44 virtual false final false
+  /// @brief Method <AutoStitch>b__0 addr 0x2a449c8 size 0x44 virtual false final false
   inline bool _AutoStitch_b__0(::UnityEngine::ProBuilder::WingedEdge* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UVEditing____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
@@ -122,13 +122,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass0_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass0_0, ___f1) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass0_0, ___f2) == 0x18, "Offset mismatch!");
+
 } // namespace UnityEngine::ProBuilder::MeshOperations
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12287))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12215))
 // CS Name: ::UVEditing::<>c*
 class CORDL_TYPE __UVEditing____c : public ::System::Object {
 public:
@@ -188,25 +192,25 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bc67c4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a44a70 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <GetUVs>b__2_0 addr 0x2bc67cc size 0x4 virtual false final false
+  /// @brief Method <GetUVs>b__2_0 addr 0x2a44a78 size 0x4 virtual false final false
   inline ::UnityEngine::Vector2 _GetUVs_b__2_0(::UnityEngine::Vector4 x);
 
-  /// @brief Method <SewUVs>b__4_1 addr 0x2bc67d0 size 0x3c virtual false final false
+  /// @brief Method <SewUVs>b__4_1 addr 0x2a44a7c size 0x3c virtual false final false
   inline int32_t _SewUVs_b__4_1(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> y);
 
-  /// @brief Method <ProjectFacesAuto>b__8_0 addr 0x2bc680c size 0x18 virtual false final false
+  /// @brief Method <ProjectFacesAuto>b__8_0 addr 0x2a44ab8 size 0x18 virtual false final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _ProjectFacesAuto_b__8_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <ProjectFacesAuto>b__8_1 addr 0x2bc6824 size 0x18 virtual false final false
+  /// @brief Method <ProjectFacesAuto>b__8_1 addr 0x2a44ad0 size 0x18 virtual false final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _ProjectFacesAuto_b__8_1(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <ProjectFacesBox>b__9_0 addr 0x2bc683c size 0x18 virtual false final false
+  /// @brief Method <ProjectFacesBox>b__9_0 addr 0x2a44ae8 size 0x18 virtual false final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _ProjectFacesBox_b__9_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <ProjectFacesBox>b__11_0 addr 0x2bc6854 size 0x18 virtual false final false
+  /// @brief Method <ProjectFacesBox>b__11_0 addr 0x2a44b00 size 0x18 virtual false final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _ProjectFacesBox_b__11_0(::UnityEngine::ProBuilder::Face* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UVEditing____c", modifiers: "&&", def_value: None }]
@@ -233,8 +237,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12288))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12216))
 // CS Name: ::UVEditing::<>c__DisplayClass4_0*
 class CORDL_TYPE __UVEditing____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -250,10 +254,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bc4f68 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a43214 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <SewUVs>b__0 addr 0x2bc686c size 0x48 virtual false final false
+  /// @brief Method <SewUVs>b__0 addr 0x2a44b18 size 0x48 virtual false final false
   inline bool _SewUVs_b__0(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UVEditing____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
@@ -278,13 +282,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass4_0, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass4_0, ___b) == 0x10, "Offset mismatch!");
+
 } // namespace UnityEngine::ProBuilder::MeshOperations
 // Type: UnityEngine.ProBuilder.MeshOperations::UVEditing
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12289))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12217))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::UVEditing*
 class CORDL_TYPE UVEditing : public ::System::Object {
 public:
@@ -295,48 +301,48 @@ public:
 
   using __c__DisplayClass0_0 = ::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass0_0;
 
-  /// @brief Method AutoStitch addr 0x2bc3388 size 0x2c4 virtual false final false
+  /// @brief Method AutoStitch addr 0x2a41634 size 0x2c4 virtual false final false
   static inline bool AutoStitch(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* f1, ::UnityEngine::ProBuilder::Face* f2, int32_t channel);
 
-  /// @brief Method AlignEdges addr 0x2bc3654 size 0xa58 virtual false final false
+  /// @brief Method AlignEdges addr 0x2a41900 size 0xa58 virtual false final false
   static inline bool AlignEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* faceToMove, ::UnityEngine::ProBuilder::Edge edgeToAlignTo,
                                 ::UnityEngine::ProBuilder::Edge edgeToBeAligned, int32_t channel);
 
-  /// @brief Method GetUVs addr 0x2bc40ac size 0x248 virtual false final false
+  /// @brief Method GetUVs addr 0x2a42358 size 0x248 virtual false final false
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> GetUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t channel);
 
-  /// @brief Method ApplyUVs addr 0x2bc4688 size 0x35c virtual false final false
+  /// @brief Method ApplyUVs addr 0x2a42934 size 0x35c virtual false final false
   static inline void ApplyUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs, int32_t channel, bool applyToMesh);
 
-  /// @brief Method SewUVs addr 0x2bc49e4 size 0x584 virtual false final false
+  /// @brief Method SewUVs addr 0x2a42c90 size 0x584 virtual false final false
   static inline void SewUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t, ::Array<int32_t>*> indexes, float_t delta);
 
-  /// @brief Method CollapseUVs addr 0x2bc4f70 size 0xc8 virtual false final false
+  /// @brief Method CollapseUVs addr 0x2a4321c size 0xc8 virtual false final false
   static inline void CollapseUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t, ::Array<int32_t>*> indexes);
 
-  /// @brief Method SplitUVs addr 0x2bc42f4 size 0x394 virtual false final false
+  /// @brief Method SplitUVs addr 0x2a425a0 size 0x394 virtual false final false
   static inline void SplitUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes);
 
-  /// @brief Method SplitUVs addr 0x2bc5038 size 0x414 virtual false final false
+  /// @brief Method SplitUVs addr 0x2a432e4 size 0x414 virtual false final false
   static inline void SplitUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method ProjectFacesAuto addr 0x2bc544c size 0x3a8 virtual false final false
+  /// @brief Method ProjectFacesAuto addr 0x2a436f8 size 0x3a8 virtual false final false
   static inline void ProjectFacesAuto(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> faces, int32_t channel);
 
-  /// @brief Method ProjectFacesBox addr 0x2bc57f4 size 0x5ec virtual false final false
+  /// @brief Method ProjectFacesBox addr 0x2a43aa0 size 0x5ec virtual false final false
   static inline void ProjectFacesBox(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> faces, int32_t channel);
 
-  /// @brief Method FindMinimalUV addr 0x2bc5de0 size 0xe8 virtual false final false
+  /// @brief Method FindMinimalUV addr 0x2a4408c size 0xe8 virtual false final false
   static inline ::UnityEngine::Vector2 FindMinimalUV(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs, ::ArrayW<int32_t, ::Array<int32_t>*> indices, float_t xMin, float_t yMin);
 
-  /// @brief Method ProjectFacesBox addr 0x2bc5ec8 size 0x610 virtual false final false
+  /// @brief Method ProjectFacesBox addr 0x2a44174 size 0x610 virtual false final false
   static inline void ProjectFacesBox(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> faces,
                                      ::UnityEngine::Vector2 lowerLeftAnchor, int32_t channel);
 
-  /// @brief Method ProjectFacesSphere addr 0x2bc64d8 size 0x178 virtual false final false
+  /// @brief Method ProjectFacesSphere addr 0x2a44784 size 0x178 virtual false final false
   static inline void ProjectFacesSphere(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::ArrayW<int32_t, ::Array<int32_t>*> indexes, int32_t channel);
 
-  /// @brief Method FitUVs addr 0x2bc6650 size 0xcc virtual false final false
+  /// @brief Method FitUVs addr 0x2a448fc size 0xcc virtual false final false
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> FitUVs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs);
 
   // Ctor Parameters [CppParam { name: "", ty: "UVEditing", modifiers: "&&", def_value: None }]

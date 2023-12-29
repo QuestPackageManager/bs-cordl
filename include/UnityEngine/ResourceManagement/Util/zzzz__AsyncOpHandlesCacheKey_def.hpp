@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncOpHandlesCacheKey)
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename T> class HashSet_1;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace System {
-class Object;
-}
 namespace UnityEngine::ResourceManagement::Util {
 class IOperationCacheKey;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace System {
+class Object;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13972))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14243))
 // CS Name: ::UnityEngine.ResourceManagement.Util::AsyncOpHandlesCacheKey*
 class CORDL_TYPE AsyncOpHandlesCacheKey : public ::System::Object {
 public:
@@ -57,19 +57,19 @@ public:
   static inline ::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey*
   New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* handles);
 
-  /// @brief Method .ctor addr 0x2bcd0c4 size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x2a4a370 size 0x90 virtual false final false
   inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* handles);
 
-  /// @brief Method GetHashCode addr 0x2bd1e9c size 0x20 virtual true final false
+  /// @brief Method GetHashCode addr 0x2a4f148 size 0x20 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x2bd1ebc size 0x64 virtual true final false
+  /// @brief Method Equals addr 0x2a4f168 size 0x64 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x2bd1f9c size 0x64 virtual true final true
+  /// @brief Method Equals addr 0x2a4f248 size 0x64 virtual true final true
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* other);
 
-  /// @brief Method Equals addr 0x2bd1f20 size 0x7c virtual false final false
+  /// @brief Method Equals addr 0x2a4f1cc size 0x7c virtual false final false
   inline bool Equals(::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncOpHandlesCacheKey", modifiers: "&&", def_value: None }]
@@ -93,6 +93,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey, ___m_Handles) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::Util
 NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey);

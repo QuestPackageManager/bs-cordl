@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LowLevelDictionary_2)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class __LowLevelDictionary_2__Entry;
+template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+template <typename TKey, typename TValue> class __LowLevelDictionary_2__Entry;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue, typename T> class __LowLevelDictionary_2__DefaultComparer_1;
@@ -35,8 +35,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3848))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3836))
 // CS Name: ::LowLevelDictionary`2::Entry<TKey,TValue>*
 class CORDL_TYPE __LowLevelDictionary_2__Entry : public ::System::Object {
 public:
@@ -106,8 +106,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue, typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3849))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3837))
 // CS Name: ::LowLevelDictionary`2::DefaultComparer`1<TKey,TValue,T>*
 class CORDL_TYPE __LowLevelDictionary_2__DefaultComparer_1 : public ::System::Object {
 public:
@@ -150,8 +150,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3850))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3838))
 // CS Name: ::System.Collections.Generic::LowLevelDictionary`2<TKey,TValue>*
 class CORDL_TYPE LowLevelDictionary_2 : public ::System::Object {
 public:

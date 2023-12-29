@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__AwaitTaskContinuation_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SynchronizationContextAwaitTaskContinuation)
-namespace System::Threading {
-class SynchronizationContext;
+namespace System::Threading::Tasks {
+class __SynchronizationContextAwaitTaskContinuation____c;
+}
+namespace System {
+class Action;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System::Threading::Tasks {
-class __SynchronizationContextAwaitTaskContinuation____c;
+namespace System {
+class Object;
 }
 namespace System::Threading {
-class ContextCallback;
+class SynchronizationContext;
 }
 namespace System::Threading {
 class SendOrPostCallback;
 }
-namespace System {
-class Object;
-}
-namespace System {
-class Action;
+namespace System::Threading {
+class ContextCallback;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__SynchronizationContextAwaitTaskCont
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2803))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2799))
 // CS Name: ::SynchronizationContextAwaitTaskContinuation::<>c*
 class CORDL_TYPE __SynchronizationContextAwaitTaskContinuation____c : public ::System::Object {
 public:
@@ -55,10 +55,10 @@ public:
 
   static inline ::System::Threading::Tasks::__SynchronizationContextAwaitTaskContinuation____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x262be10 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24d1d04 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__7_0 addr 0x262be18 size 0x6c virtual false final false
+  /// @brief Method <.cctor>b__7_0 addr 0x24d1d0c size 0x6c virtual false final false
   inline void __cctor_b__7_0(::System::Object* state);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SynchronizationContextAwaitTaskContinuation____c", modifiers: "&&", def_value: None }]
@@ -85,8 +85,8 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__Sync
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2807))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2804))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2803))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2800))
 // CS Name: ::System.Threading.Tasks::SynchronizationContextAwaitTaskContinuation*
 class CORDL_TYPE SynchronizationContextAwaitTaskContinuation : public ::System::Threading::Tasks::AwaitTaskContinuation {
 public:
@@ -119,16 +119,16 @@ public:
   static inline ::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation* New_ctor(::System::Threading::SynchronizationContext* context, ::System::Action* action,
                                                                                                   bool flowExecutionContext);
 
-  /// @brief Method .ctor addr 0x2626898 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x24cc78c size 0x30 virtual false final false
   inline void _ctor(::System::Threading::SynchronizationContext* context, ::System::Action* action, bool flowExecutionContext);
 
-  /// @brief Method Run addr 0x262b824 size 0x1ec virtual true final true
+  /// @brief Method Run addr 0x24d1718 size 0x1ec virtual true final true
   inline void Run(::System::Threading::Tasks::Task* ignored, bool canInlineContinuationTask);
 
-  /// @brief Method PostAction addr 0x262bb8c size 0x94 virtual false final false
+  /// @brief Method PostAction addr 0x24d1a80 size 0x94 virtual false final false
   static inline void PostAction(::System::Object* state);
 
-  /// @brief Method GetPostActionCallback addr 0x262bc20 size 0xc8 virtual false final false
+  /// @brief Method GetPostActionCallback addr 0x24d1b14 size 0xc8 virtual false final false
   static inline ::System::Threading::ContextCallback* GetPostActionCallback();
 
   // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContextAwaitTaskContinuation", modifiers: "&&", def_value: None }]
@@ -152,6 +152,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation, ___m_syncContext) == 0x20, "Offset mismatch!");
 
 } // namespace System::Threading::Tasks
 NEED_NO_BOX(::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation);

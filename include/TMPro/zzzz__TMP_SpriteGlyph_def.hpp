@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_SpriteGlyph)
+namespace UnityEngine {
+class Sprite;
+}
 namespace UnityEngine::TextCore {
 struct GlyphMetrics;
 }
 namespace UnityEngine::TextCore {
 struct GlyphRect;
-}
-namespace UnityEngine {
-class Sprite;
 }
 // Forward declare root types
 namespace TMPro {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::TMPro::TMP_SpriteGlyph);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15530))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12423))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15514))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12351))
 // CS Name: ::TMPro::TMP_SpriteGlyph*
 class CORDL_TYPE TMP_SpriteGlyph : public ::UnityEngine::TextCore::Glyph {
 public:
@@ -42,18 +42,18 @@ public:
 
   static inline ::TMPro::TMP_SpriteGlyph* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c4463c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2ac08e8 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::TMPro::TMP_SpriteGlyph* New_ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex);
 
-  /// @brief Method .ctor addr 0x2c449b0 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x2ac0c5c size 0xbc virtual false final false
   inline void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex);
 
   static inline ::TMPro::TMP_SpriteGlyph* New_ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex,
                                                    ::UnityEngine::Sprite* sprite);
 
-  /// @brief Method .ctor addr 0x2c44a6c size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x2ac0d18 size 0xc4 virtual false final false
   inline void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, ::UnityEngine::Sprite* sprite);
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteGlyph", modifiers: "&&", def_value: None }]
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_SpriteGlyph, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_SpriteGlyph, ___sprite) == 0x48, "Offset mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::TMP_SpriteGlyph);

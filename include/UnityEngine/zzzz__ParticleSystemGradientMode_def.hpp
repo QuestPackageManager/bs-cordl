@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ParticleSystemGradientMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15893))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15785))
 // CS Name: ::UnityEngine::ParticleSystemGradientMode
 struct CORDL_TYPE ParticleSystemGradientMode {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ParticleSystemGradientMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ParticleSystemGradientMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ParticleSystemGradientMode, "UnityEngine", "ParticleSystemGradientMode");

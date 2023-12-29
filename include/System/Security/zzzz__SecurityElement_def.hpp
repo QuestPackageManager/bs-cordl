@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::System::Security::__SecurityElement__SecurityAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2887))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2883))
 // CS Name: ::SecurityElement::SecurityAttribute*
 class CORDL_TYPE __SecurityElement__SecurityAttribute : public ::System::Object {
 public:
@@ -61,13 +61,13 @@ public:
 
   static inline ::System::Security::__SecurityElement__SecurityAttribute* New_ctor(::StringW name, ::StringW value);
 
-  /// @brief Method .ctor addr 0x24535cc size 0x164 virtual false final false
+  /// @brief Method .ctor addr 0x22f9ab0 size 0x164 virtual false final false
   inline void _ctor(::StringW name, ::StringW value);
 
-  /// @brief Method get_Name addr 0x24545d4 size 0x8 virtual false final false
+  /// @brief Method get_Name addr 0x22faab8 size 0x8 virtual false final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Value addr 0x24545dc size 0x8 virtual false final false
+  /// @brief Method get_Value addr 0x22faac0 size 0x8 virtual false final false
   inline ::StringW get_Value();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SecurityElement__SecurityAttribute", modifiers: "&&", def_value: None }]
@@ -95,13 +95,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::__SecurityElement__SecurityAttribute, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::System::Security::__SecurityElement__SecurityAttribute, ____name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::__SecurityElement__SecurityAttribute, ____value) == 0x18, "Offset mismatch!");
+
 } // namespace System::Security
 // Type: System.Security::SecurityElement
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2888))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2884))
 // CS Name: ::System.Security::SecurityElement*
 class CORDL_TYPE SecurityElement : public ::System::Object {
 public:
@@ -189,63 +193,63 @@ public:
 
   static inline ::System::Security::SecurityElement* New_ctor(::StringW tag);
 
-  /// @brief Method .ctor addr 0x2450ea0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22f7384 size 0x8 virtual false final false
   inline void _ctor(::StringW tag);
 
   static inline ::System::Security::SecurityElement* New_ctor(::StringW tag, ::StringW text);
 
-  /// @brief Method .ctor addr 0x2452d8c size 0x150 virtual false final false
+  /// @brief Method .ctor addr 0x22f9270 size 0x150 virtual false final false
   inline void _ctor(::StringW tag, ::StringW text);
 
-  /// @brief Method get_Children addr 0x2453054 size 0x8 virtual false final false
+  /// @brief Method get_Children addr 0x22f9538 size 0x8 virtual false final false
   inline ::System::Collections::ArrayList* get_Children();
 
-  /// @brief Method get_Tag addr 0x245305c size 0x8 virtual false final false
+  /// @brief Method get_Tag addr 0x22f9540 size 0x8 virtual false final false
   inline ::StringW get_Tag();
 
-  /// @brief Method set_Text addr 0x2452f58 size 0xfc virtual false final false
+  /// @brief Method set_Text addr 0x22f943c size 0xfc virtual false final false
   inline void set_Text(::StringW value);
 
-  /// @brief Method AddAttribute addr 0x2450ea8 size 0x1ac virtual false final false
+  /// @brief Method AddAttribute addr 0x22f738c size 0x1ac virtual false final false
   inline void AddAttribute(::StringW name, ::StringW value);
 
-  /// @brief Method AddChild addr 0x2451054 size 0xd0 virtual false final false
+  /// @brief Method AddChild addr 0x22f7538 size 0xd0 virtual false final false
   inline void AddChild(::System::Security::SecurityElement* child);
 
-  /// @brief Method Escape addr 0x2453730 size 0x1ec virtual false final false
+  /// @brief Method Escape addr 0x22f9c14 size 0x1ec virtual false final false
   static inline ::StringW Escape(::StringW str);
 
-  /// @brief Method Unescape addr 0x24530e0 size 0x1dc virtual false final false
+  /// @brief Method Unescape addr 0x22f95c4 size 0x1dc virtual false final false
   static inline ::StringW Unescape(::StringW str);
 
-  /// @brief Method IsValidAttributeName addr 0x245391c size 0x7c virtual false final false
+  /// @brief Method IsValidAttributeName addr 0x22f9e00 size 0x7c virtual false final false
   static inline bool IsValidAttributeName(::StringW name);
 
-  /// @brief Method IsValidAttributeValue addr 0x2453998 size 0x7c virtual false final false
+  /// @brief Method IsValidAttributeValue addr 0x22f9e7c size 0x7c virtual false final false
   static inline bool IsValidAttributeValue(::StringW value);
 
-  /// @brief Method IsValidTag addr 0x2452edc size 0x7c virtual false final false
+  /// @brief Method IsValidTag addr 0x22f93c0 size 0x7c virtual false final false
   static inline bool IsValidTag(::StringW tag);
 
-  /// @brief Method IsValidText addr 0x2453064 size 0x7c virtual false final false
+  /// @brief Method IsValidText addr 0x22f9548 size 0x7c virtual false final false
   static inline bool IsValidText(::StringW text);
 
-  /// @brief Method SearchForChildByTag addr 0x2453a14 size 0x128 virtual false final false
+  /// @brief Method SearchForChildByTag addr 0x22f9ef8 size 0x128 virtual false final false
   inline ::System::Security::SecurityElement* SearchForChildByTag(::StringW tag);
 
-  /// @brief Method ToString addr 0x2453b3c size 0x88 virtual true final false
+  /// @brief Method ToString addr 0x22fa020 size 0x88 virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method ToXml addr 0x2453bc4 size 0x64c virtual false final false
+  /// @brief Method ToXml addr 0x22fa0a8 size 0x64c virtual false final false
   inline void ToXml(ByRef<::System::Text::StringBuilder*> s, int32_t level);
 
-  /// @brief Method GetAttribute addr 0x24532bc size 0x310 virtual false final false
+  /// @brief Method GetAttribute addr 0x22f97a0 size 0x310 virtual false final false
   inline ::System::Security::__SecurityElement__SecurityAttribute* GetAttribute(::StringW name);
 
-  /// @brief Method set_m_strText addr 0x2454210 size 0x8 virtual false final false
+  /// @brief Method set_m_strText addr 0x22fa6f4 size 0x8 virtual false final false
   inline void set_m_strText(::StringW value);
 
-  /// @brief Method SearchForTextOfLocalName addr 0x2454218 size 0x23c virtual false final false
+  /// @brief Method SearchForTextOfLocalName addr 0x22fa6fc size 0x23c virtual false final false
   inline ::StringW SearchForTextOfLocalName(::StringW strLocalName);
 
   // Ctor Parameters [CppParam { name: "", ty: "SecurityElement", modifiers: "&&", def_value: None }]
@@ -278,6 +282,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::SecurityElement, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::SecurityElement, ___text) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::SecurityElement, ___tag) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::SecurityElement, ___attributes) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::SecurityElement, ___children) == 0x28, "Offset mismatch!");
 
 } // namespace System::Security
 NEED_NO_BOX(::System::Security::SecurityElement);

@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SonyLevelPacksSKUModel)
 namespace GlobalNamespace {
-class __SonyLevelPacksSKUModel__PricePerBundlePair;
-}
-namespace GlobalNamespace {
 class __SonyLevelPacksSKUModel__LevelProductData;
 }
 namespace GlobalNamespace {
 class __SonyLevelPacksSKUModel__LevelPackProductData;
+}
+namespace GlobalNamespace {
+class __SonyLevelPacksSKUModel__PricePerBundlePair;
 }
 namespace GlobalNamespace {
 class BeatmapLevelPackSO;
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4584))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4675))
 // CS Name: ::SonyLevelPacksSKUModel::PricePerBundlePair*
 class CORDL_TYPE __SonyLevelPacksSKUModel__PricePerBundlePair : public ::System::Object {
 public:
@@ -74,15 +74,15 @@ public:
 
   constexpr void __set__levelsCount(int32_t value);
 
-  /// @brief Method get_pricePerBundle addr 0x23699dc size 0x8 virtual false final false
+  /// @brief Method get_pricePerBundle addr 0x222f95c size 0x8 virtual false final false
   inline float_t get_pricePerBundle();
 
-  /// @brief Method get_levelsCount addr 0x23699e4 size 0x8 virtual false final false
+  /// @brief Method get_levelsCount addr 0x222f964 size 0x8 virtual false final false
   inline int32_t get_levelsCount();
 
   static inline ::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair* New_ctor();
 
-  /// @brief Method .ctor addr 0x23699ec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x222f96c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SonyLevelPacksSKUModel__PricePerBundlePair", modifiers: "&&", def_value: None }]
@@ -110,13 +110,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair, ____pricePerBundle) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair, ____levelsCount) == 0x14, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LevelProductData
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4585))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4676))
 // CS Name: ::SonyLevelPacksSKUModel::LevelProductData*
 class CORDL_TYPE __SonyLevelPacksSKUModel__LevelProductData : public ::System::Object {
 public:
@@ -143,15 +147,15 @@ public:
 
   constexpr void __set__level(::GlobalNamespace::BeatmapLevelSO* value);
 
-  /// @brief Method get_levelIndex addr 0x23699f4 size 0x8 virtual false final false
+  /// @brief Method get_levelIndex addr 0x222f974 size 0x8 virtual false final false
   inline int32_t get_levelIndex();
 
-  /// @brief Method get_level addr 0x23699fc size 0x8 virtual false final false
+  /// @brief Method get_level addr 0x222f97c size 0x8 virtual false final false
   inline ::GlobalNamespace::BeatmapLevelSO* get_level();
 
   static inline ::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2369a04 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x222f984 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SonyLevelPacksSKUModel__LevelProductData", modifiers: "&&", def_value: None }]
@@ -179,13 +183,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData, ____levelIndex) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData, ____level) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LevelPackProductData
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4586))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4677))
 // CS Name: ::SonyLevelPacksSKUModel::LevelPackProductData*
 class CORDL_TYPE __SonyLevelPacksSKUModel__LevelPackProductData : public ::System::Object {
 public:
@@ -225,18 +233,18 @@ public:
 
   constexpr void __set__levelProductsData(::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*>*> value);
 
-  /// @brief Method get_packIndex addr 0x2369a0c size 0x8 virtual false final false
+  /// @brief Method get_packIndex addr 0x222f98c size 0x8 virtual false final false
   inline int32_t get_packIndex();
 
-  /// @brief Method get_levelPack addr 0x2369a14 size 0x8 virtual false final false
+  /// @brief Method get_levelPack addr 0x222f994 size 0x8 virtual false final false
   inline ::GlobalNamespace::BeatmapLevelPackSO* get_levelPack();
 
-  /// @brief Method get_levelProductsData addr 0x2369a1c size 0x8 virtual false final false
+  /// @brief Method get_levelProductsData addr 0x222f99c size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*>*> get_levelProductsData();
 
   static inline ::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2369a24 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x222f9a4 size 0x58 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SonyLevelPacksSKUModel__LevelPackProductData", modifiers: "&&", def_value: None }]
@@ -267,13 +275,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData, ____packIndex) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData, ____levelPack) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData, ____levelProductsData) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SonyLevelPacksSKUModel
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4587))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4678))
 // CS Name: ::SonyLevelPacksSKUModel*
 class CORDL_TYPE SonyLevelPacksSKUModel : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -326,24 +340,24 @@ public:
   constexpr void
   __set__levelPackProductsData(::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*>*> value);
 
-  /// @brief Method get_pricePerLevel addr 0x236985c size 0x8 virtual false final false
+  /// @brief Method get_pricePerLevel addr 0x222f7dc size 0x8 virtual false final false
   inline float_t get_pricePerLevel();
 
-  /// @brief Method get_pricePairBundlePairs addr 0x2369864 size 0x8 virtual false final false
+  /// @brief Method get_pricePairBundlePairs addr 0x222f7e4 size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*>*> get_pricePairBundlePairs();
 
-  /// @brief Method get_levelPackProductsData addr 0x236986c size 0x8 virtual false final false
+  /// @brief Method get_levelPackProductsData addr 0x222f7ec size 0x8 virtual false final false
   inline ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*>*> get_levelPackProductsData();
 
-  /// @brief Method GetLevelPackProductData addr 0x2369874 size 0x88 virtual false final false
+  /// @brief Method GetLevelPackProductData addr 0x222f7f4 size 0x88 virtual false final false
   inline ::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData* GetLevelPackProductData(::StringW levelPackID);
 
-  /// @brief Method GetPricePerBundlePair addr 0x23698fc size 0x50 virtual false final false
+  /// @brief Method GetPricePerBundlePair addr 0x222f87c size 0x50 virtual false final false
   inline ::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair* GetPricePerBundlePair(int32_t levelsCount);
 
   static inline ::GlobalNamespace::SonyLevelPacksSKUModel* New_ctor();
 
-  /// @brief Method .ctor addr 0x236994c size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x222f8cc size 0x90 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SonyLevelPacksSKUModel", modifiers: "&&", def_value: None }]
@@ -373,6 +387,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyLevelPacksSKUModel, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SonyLevelPacksSKUModel, ____pricePerLevel) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SonyLevelPacksSKUModel, ____pricePairBundlePairs) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SonyLevelPacksSKUModel, ____levelPackProductsData) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SonyLevelPacksSKUModel);

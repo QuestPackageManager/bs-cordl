@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SubsystemWithProvider)
-namespace UnityEngine {
-class ISubsystem;
-}
 namespace UnityEngine::SubsystemsImplementation {
 class SubsystemProvider;
+}
+namespace UnityEngine {
+class ISubsystem;
 }
 // Forward declare root types
 namespace UnityEngine::SubsystemsImplementation {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::SubsystemsImplementation::SubsystemWithProvider);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::SubsystemsImplementation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15973))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15865))
 // CS Name: ::UnityEngine.SubsystemsImplementation::SubsystemWithProvider*
 class CORDL_TYPE SubsystemWithProvider : public ::System::Object {
 public:
@@ -51,36 +51,36 @@ public:
 
   constexpr void __set__providerBase_k__BackingField(::UnityEngine::SubsystemsImplementation::SubsystemProvider* value);
 
-  /// @brief Method Start addr 0x2d1b4b4 size 0x3c virtual true final true
+  /// @brief Method Start addr 0x2bb4104 size 0x3c virtual true final true
   inline void Start();
 
   /// @brief Method OnStart addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void OnStart();
 
-  /// @brief Method Stop addr 0x2d1b4f0 size 0x38 virtual true final true
+  /// @brief Method Stop addr 0x2bb4140 size 0x38 virtual true final true
   inline void Stop();
 
   /// @brief Method OnStop addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void OnStop();
 
-  /// @brief Method Destroy addr 0x2d1b528 size 0x7c virtual true final true
+  /// @brief Method Destroy addr 0x2bb4178 size 0x7c virtual true final true
   inline void Destroy();
 
   /// @brief Method OnDestroy addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void OnDestroy();
 
-  /// @brief Method get_running addr 0x2d1b5a4 size 0x8 virtual true final true
+  /// @brief Method get_running addr 0x2bb41f4 size 0x8 virtual true final true
   inline bool get_running();
 
-  /// @brief Method set_running addr 0x2d1b5ac size 0xc virtual false final false
+  /// @brief Method set_running addr 0x2bb41fc size 0xc virtual false final false
   inline void set_running(bool value);
 
-  /// @brief Method get_providerBase addr 0x2d1b5b8 size 0x8 virtual false final false
+  /// @brief Method get_providerBase addr 0x2bb4208 size 0x8 virtual false final false
   inline ::UnityEngine::SubsystemsImplementation::SubsystemProvider* get_providerBase();
 
   static inline ::UnityEngine::SubsystemsImplementation::SubsystemWithProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d1b5c0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2bb4210 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SubsystemWithProvider", modifiers: "&&", def_value: None }]
@@ -107,6 +107,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SubsystemsImplementation::SubsystemWithProvider, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::SubsystemsImplementation::SubsystemWithProvider, ____running_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::SubsystemsImplementation::SubsystemWithProvider, ____providerBase_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::SubsystemsImplementation
 NEED_NO_BOX(::UnityEngine::SubsystemsImplementation::SubsystemWithProvider);

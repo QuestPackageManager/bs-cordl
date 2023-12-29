@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Collections::IEnumerable);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3759))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3747))
 // CS Name: ::System.Collections::IEnumerable*
 class CORDL_TYPE IEnumerable {
 public:

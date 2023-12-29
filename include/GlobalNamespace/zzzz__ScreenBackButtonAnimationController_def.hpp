@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(ScreenBackButtonAnimationController)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace GlobalNamespace {
-struct __ScreenBackButtonAnimationController__AnimationType;
-}
 namespace UnityEngine {
 class Animator;
+}
+namespace GlobalNamespace {
+struct __ScreenBackButtonAnimationController__AnimationType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ScreenBackButtonAnimationController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13498))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13618))
 // CS Name: ::ScreenBackButtonAnimationController::AnimationType
 struct CORDL_TYPE __ScreenBackButtonAnimationController__AnimationType {
 public:
@@ -88,13 +88,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ScreenBackButtonAnimationController
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13499))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13619))
 // CS Name: ::ScreenBackButtonAnimationController*
 class CORDL_TYPE ScreenBackButtonAnimationController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -121,15 +123,15 @@ public:
 
   constexpr void __set__animationHashes(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, int32_t>* value);
 
-  /// @brief Method Awake addr 0x2115f54 size 0x20 virtual false final false
+  /// @brief Method Awake addr 0x1fc03cc size 0x20 virtual false final false
   inline void Awake();
 
-  /// @brief Method StartAnimation addr 0x2115f74 size 0x70 virtual false final false
+  /// @brief Method StartAnimation addr 0x1fc03ec size 0x70 virtual false final false
   inline void StartAnimation(::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType animationType);
 
   static inline ::GlobalNamespace::ScreenBackButtonAnimationController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2115fe4 size 0x1e0 virtual false final false
+  /// @brief Method .ctor addr 0x1fc045c size 0x1e0 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenBackButtonAnimationController", modifiers: "&&", def_value: None }]
@@ -156,6 +158,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScreenBackButtonAnimationController, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenBackButtonAnimationController, ____animator) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenBackButtonAnimationController, ____animationHashes) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, "", "ScreenBackButtonAnimationController/AnimationType");

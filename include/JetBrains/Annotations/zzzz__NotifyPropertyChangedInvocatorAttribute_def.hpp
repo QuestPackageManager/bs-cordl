@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15743))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15693))
 // CS Name: ::JetBrains.Annotations::NotifyPropertyChangedInvocatorAttribute*
 class CORDL_TYPE NotifyPropertyChangedInvocatorAttribute : public ::System::Attribute {
 public:
@@ -34,18 +34,18 @@ public:
 
   static inline ::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2eb9fe8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d52268 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute* New_ctor(::StringW parameterName);
 
-  /// @brief Method .ctor addr 0x2eb9ff0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d52270 size 0x28 virtual false final false
   inline void _ctor(::StringW parameterName);
 
-  /// @brief Method get_ParameterName addr 0x2eba018 size 0x8 virtual false final false
+  /// @brief Method get_ParameterName addr 0x2d52298 size 0x8 virtual false final false
   inline ::StringW get_ParameterName();
 
-  /// @brief Method set_ParameterName addr 0x2eba020 size 0x8 virtual false final false
+  /// @brief Method set_ParameterName addr 0x2d522a0 size 0x8 virtual false final false
   inline void set_ParameterName(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "NotifyPropertyChangedInvocatorAttribute", modifiers: "&&", def_value: None }]
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute, ____ParameterName_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute);

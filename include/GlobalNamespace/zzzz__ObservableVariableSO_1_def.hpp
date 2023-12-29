@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 CORDL_MODULE_EXPORT(ObservableVariableSO_1)
-namespace GlobalNamespace {
-template <typename T> class IValue_1;
-}
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+template <typename T> class IValue_1;
 }
 namespace GlobalNamespace {
 class IObservableChange;
@@ -25,8 +25,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15869))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13974))
 // CS Name: ::ObservableVariableSO`1<T>*
 class CORDL_TYPE ObservableVariableSO_1 : public ::GlobalNamespace::PersistentScriptableObject {
 public:

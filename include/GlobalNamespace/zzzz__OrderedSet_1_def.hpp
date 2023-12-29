@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OrderedSet_1)
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace GlobalNamespace {
-template <typename T> struct __OrderedSet_1__ProcessOrder;
-}
-namespace GlobalNamespace {
-template <typename T> class __OrderedSet_1__Node;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace GlobalNamespace {
-template <typename T> class __OrderedSet_1___GetEnumerator_d__23;
+template <typename T> struct __OrderedSet_1__ProcessOrder;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 template <typename T> class Comparison_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace GlobalNamespace {
+template <typename T> class __OrderedSet_1__Node;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+template <typename T> class __OrderedSet_1___GetEnumerator_d__23;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -65,8 +65,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12903)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12903), inst: 4869 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12903))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12825)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12825), inst: 4771 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12825))
 // CS Name: ::OrderedSet`1::ProcessOrder<T>
 struct CORDL_TYPE __OrderedSet_1__ProcessOrder {
 public:
@@ -117,8 +117,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12904))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12826))
 // CS Name: ::OrderedSet`1::Node<T>*
 class CORDL_TYPE __OrderedSet_1__Node : public ::System::Object {
 public:
@@ -212,8 +212,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12905))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12827))
 // CS Name: ::OrderedSet`1::<GetEnumerator>d__23<T>*
 class CORDL_TYPE __OrderedSet_1___GetEnumerator_d__23 : public ::System::Object {
 public:
@@ -323,8 +323,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12903), inst: 1036 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12903))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12906)) CS Name: ::OrderedSet`1<T>*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12825), inst: 1015 }), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12825))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12828)) CS Name: ::OrderedSet`1<T>*
 class CORDL_TYPE OrderedSet_1 : public ::System::Object {
 public:
   // Declarations

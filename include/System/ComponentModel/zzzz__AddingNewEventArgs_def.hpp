@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::ComponentModel::AddingNewEventArgs);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11785))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11713))
 // CS Name: ::System.ComponentModel::AddingNewEventArgs*
 class CORDL_TYPE AddingNewEventArgs : public ::System::Object {
 public:
@@ -34,20 +34,20 @@ public:
 
   constexpr void __set__NewObject_k__BackingField(::System::Object* value);
 
-  /// @brief Method get_NewObject addr 0x263da4c size 0x8 virtual false final false
+  /// @brief Method get_NewObject addr 0x24db308 size 0x8 virtual false final false
   inline ::System::Object* get_NewObject();
 
-  /// @brief Method set_NewObject addr 0x263da54 size 0x8 virtual false final false
+  /// @brief Method set_NewObject addr 0x24db310 size 0x8 virtual false final false
   inline void set_NewObject(::System::Object* value);
 
   static inline ::System::ComponentModel::AddingNewEventArgs* New_ctor();
 
-  /// @brief Method .ctor addr 0x263da5c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24db318 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::System::ComponentModel::AddingNewEventArgs* New_ctor(::System::Object* newObject);
 
-  /// @brief Method .ctor addr 0x263da64 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x24db320 size 0x28 virtual false final false
   inline void _ctor(::System::Object* newObject);
 
   // Ctor Parameters [CppParam { name: "", ty: "AddingNewEventArgs", modifiers: "&&", def_value: None }]
@@ -71,6 +71,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::AddingNewEventArgs, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::AddingNewEventArgs, ____NewObject_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::AddingNewEventArgs);

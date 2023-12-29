@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(906))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::HkdfBytesGenerator*
 class CORDL_TYPE HkdfBytesGenerator : public ::System::Object {
@@ -89,22 +89,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* hash);
 
-  /// @brief Method .ctor addr 0xefcbcc size 0xf4 virtual false final false
+  /// @brief Method .ctor addr 0xe879f8 size 0xf4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* hash);
 
-  /// @brief Method Init addr 0xefccc0 size 0x1d8 virtual true final false
+  /// @brief Method Init addr 0xe87aec size 0x1d8 virtual true final false
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
 
-  /// @brief Method Extract addr 0xefce98 size 0x170 virtual false final false
+  /// @brief Method Extract addr 0xe87cc4 size 0x170 virtual false final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* Extract(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::ArrayW<uint8_t, ::Array<uint8_t>*> ikm);
 
-  /// @brief Method ExpandNext addr 0xefd008 size 0x104 virtual false final false
+  /// @brief Method ExpandNext addr 0xe87e34 size 0x104 virtual false final false
   inline void ExpandNext();
 
-  /// @brief Method get_Digest addr 0xefd10c size 0x20 virtual true final false
+  /// @brief Method get_Digest addr 0xe87f38 size 0x20 virtual true final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
-  /// @brief Method GenerateBytes addr 0xefd12c size 0x1bc virtual true final false
+  /// @brief Method GenerateBytes addr 0xe87f58 size 0x1bc virtual true final false
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "HkdfBytesGenerator", modifiers: "&&", def_value: None }]
@@ -140,6 +140,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator, ___hMacHash) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator, ___hashLen) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator, ___info) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator, ___currentT) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator, ___generatedBytes) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator);

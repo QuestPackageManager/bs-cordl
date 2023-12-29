@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DropdownMenuEventInfo);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14602))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6944)) CS Name: ::UnityEngine.UIElements::DropdownMenuEventInfo*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14819)), TypeDefinitionIndex(TypeDefinitionIndex(9986)), TypeDefinitionIndex(TypeDefinitionIndex(10170)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2611))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7030)) CS Name: ::UnityEngine.UIElements::DropdownMenuEventInfo*
 class CORDL_TYPE DropdownMenuEventInfo : public ::System::Object {
 public:
   // Declarations
@@ -72,7 +72,7 @@ public:
 
   static inline ::UnityEngine::UIElements::DropdownMenuEventInfo* New_ctor(::UnityEngine::UIElements::EventBase* e);
 
-  /// @brief Method .ctor addr 0x2e08220 size 0x31c virtual false final false
+  /// @brief Method .ctor addr 0x2ca1e70 size 0x31c virtual false final false
   inline void _ctor(::UnityEngine::UIElements::EventBase* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "DropdownMenuEventInfo", modifiers: "&&", def_value: None }]
@@ -108,6 +108,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DropdownMenuEventInfo, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DropdownMenuEventInfo, ____modifiers_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DropdownMenuEventInfo, ____mousePosition_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DropdownMenuEventInfo, ____localMousePosition_k__BackingField) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DropdownMenuEventInfo, ____character_k__BackingField) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DropdownMenuEventInfo, ____keyCode_k__BackingField) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::DropdownMenuEventInfo);

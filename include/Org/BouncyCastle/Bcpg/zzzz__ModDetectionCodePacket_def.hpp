@@ -39,18 +39,18 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::ModDetectionCodePacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x11cf1e0 size 0xb8 virtual false final false
+  /// @brief Method .ctor addr 0x115df90 size 0xb8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::ModDetectionCodePacket* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method .ctor addr 0x11d1d2c size 0x100 virtual false final false
+  /// @brief Method .ctor addr 0x1160adc size 0x100 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method GetDigest addr 0x11d1e2c size 0x78 virtual false final false
+  /// @brief Method GetDigest addr 0x1160bdc size 0x78 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
 
-  /// @brief Method Encode addr 0x11d1ea4 size 0x28 virtual true final false
+  /// @brief Method Encode addr 0x1160c54 size 0x28 virtual true final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "ModDetectionCodePacket", modifiers: "&&", def_value: None }]
@@ -74,6 +74,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::ModDetectionCodePacket, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ModDetectionCodePacket, ___digest) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::ModDetectionCodePacket);

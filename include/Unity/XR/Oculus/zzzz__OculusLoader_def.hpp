@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OculusLoader)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::XR {
+class XRInputSubsystem;
 }
 namespace Unity::XR::Oculus {
 struct __OculusLoader__DeviceSupportedResult;
 }
 namespace UnityEngine::XR {
-class XRInputSubsystem;
-}
-namespace UnityEngine::XR {
 class XRDisplaySubsystemDescriptor;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Unity::XR::Oculus {
 class OculusSettings;
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::OculusLoader);
 namespace Unity::XR::Oculus {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15132))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15277))
 // CS Name: ::OculusLoader::DeviceSupportedResult
 struct CORDL_TYPE __OculusLoader__DeviceSupportedResult {
 public:
@@ -83,13 +83,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Unity::XR::Oculus
 // Type: Unity.XR.Oculus::OculusLoader
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16036))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15133))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15900))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15278))
 // CS Name: ::Unity.XR.Oculus::OculusLoader*
 class CORDL_TYPE OculusLoader : public ::UnityEngine::XR::Management::XRLoaderHelper {
 public:
@@ -116,42 +118,42 @@ public:
 
   static inline ::System::Collections::Generic::List_1<Il2CppObject*>* getStaticF_s_InputSubsystemDescriptors();
 
-  /// @brief Method IsDeviceSupported addr 0x2c77b64 size 0x90 virtual false final false
+  /// @brief Method IsDeviceSupported addr 0x2af4e50 size 0x90 virtual false final false
   static inline ::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult IsDeviceSupported();
 
-  /// @brief Method get_displaySubsystem addr 0x2c77bf8 size 0x70 virtual false final false
+  /// @brief Method get_displaySubsystem addr 0x2af4ee4 size 0x70 virtual false final false
   inline Il2CppObject* get_displaySubsystem();
 
-  /// @brief Method get_inputSubsystem addr 0x2c77c68 size 0x70 virtual false final false
+  /// @brief Method get_inputSubsystem addr 0x2af4f54 size 0x70 virtual false final false
   inline ::UnityEngine::XR::XRInputSubsystem* get_inputSubsystem();
 
-  /// @brief Method Initialize addr 0x2c77cd8 size 0x438 virtual true final false
+  /// @brief Method Initialize addr 0x2af4fc4 size 0x438 virtual true final false
   inline bool Initialize();
 
-  /// @brief Method PermissionGrantedCallback addr 0x2c784a0 size 0x64 virtual false final false
+  /// @brief Method PermissionGrantedCallback addr 0x2af578c size 0x64 virtual false final false
   inline void PermissionGrantedCallback(::StringW permissionName);
 
-  /// @brief Method Start addr 0x2c7850c size 0x7c virtual true final false
+  /// @brief Method Start addr 0x2af57f8 size 0x7c virtual true final false
   inline bool Start();
 
-  /// @brief Method Stop addr 0x2c78588 size 0x7c virtual true final false
+  /// @brief Method Stop addr 0x2af5874 size 0x7c virtual true final false
   inline bool Stop();
 
-  /// @brief Method Deinitialize addr 0x2c78604 size 0x7c virtual true final false
+  /// @brief Method Deinitialize addr 0x2af58f0 size 0x7c virtual true final false
   inline bool Deinitialize();
 
-  /// @brief Method RuntimeLoadOVRPlugin addr 0x2c786fc size 0x178 virtual false final false
+  /// @brief Method RuntimeLoadOVRPlugin addr 0x2af59e8 size 0x178 virtual false final false
   static inline void RuntimeLoadOVRPlugin();
 
-  /// @brief Method GetSettings addr 0x2c78878 size 0x48 virtual false final false
+  /// @brief Method GetSettings addr 0x2af5b64 size 0x48 virtual false final false
   inline ::Unity::XR::Oculus::OculusSettings* GetSettings();
 
-  /// @brief Method CheckUnityVersionCompatibility addr 0x2c78110 size 0x2dc virtual false final false
+  /// @brief Method CheckUnityVersionCompatibility addr 0x2af53fc size 0x2dc virtual false final false
   inline bool CheckUnityVersionCompatibility();
 
   static inline ::Unity::XR::Oculus::OculusLoader* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c788c0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2af5bac size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusLoader", modifiers: "&&", def_value: None }]

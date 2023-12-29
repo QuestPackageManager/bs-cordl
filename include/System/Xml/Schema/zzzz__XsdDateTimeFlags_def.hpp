@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::Schema::XsdDateTimeFlags);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11759))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11687))
 // CS Name: ::System.Xml.Schema::XsdDateTimeFlags
 struct CORDL_TYPE XsdDateTimeFlags {
 public:
@@ -97,6 +97,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XsdDateTimeFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XsdDateTimeFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XsdDateTimeFlags, "System.Xml.Schema", "XsdDateTimeFlags");

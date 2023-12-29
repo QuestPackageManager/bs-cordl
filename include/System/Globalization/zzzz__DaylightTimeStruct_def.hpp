@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(DaylightTimeStruct)
 namespace System {
-struct TimeSpan;
+struct DateTime;
 }
 namespace System {
-struct DateTime;
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -22,13 +22,13 @@ MARK_VAL_T(::System::Globalization::DaylightTimeStruct);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2484))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3672))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2482))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3660))
 // CS Name: ::System.Globalization::DaylightTimeStruct
 struct CORDL_TYPE DaylightTimeStruct {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2554c40 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x23f8a50 size 0xc virtual false final false
   inline void _ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta);
 
   // Ctor Parameters [CppParam { name: "Start", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "End", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam
@@ -55,6 +55,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::DaylightTimeStruct, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Globalization::DaylightTimeStruct, Start) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::DaylightTimeStruct, End) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::DaylightTimeStruct, Delta) == 0x10, "Offset mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::DaylightTimeStruct, "System.Globalization", "DaylightTimeStruct");

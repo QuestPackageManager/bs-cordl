@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 CORDL_MODULE_EXPORT(NetPacketReader)
 namespace LiteNetLib {
-class NetManager;
+class NetPacket;
 }
 namespace LiteNetLib {
-class NetPacket;
+class NetManager;
 }
 namespace LiteNetLib {
 class NetEvent;
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::LiteNetLib::NetPacketReader);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14194))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14162))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14532))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14500))
 // CS Name: ::LiteNetLib::NetPacketReader*
 class CORDL_TYPE NetPacketReader : public ::LiteNetLib::Utils::NetDataReader {
 public:
@@ -58,16 +58,16 @@ public:
 
   static inline ::LiteNetLib::NetPacketReader* New_ctor(::LiteNetLib::NetManager* manager, ::LiteNetLib::NetEvent* evt);
 
-  /// @brief Method .ctor addr 0x21fc360 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x209a50c size 0x2c virtual false final false
   inline void _ctor(::LiteNetLib::NetManager* manager, ::LiteNetLib::NetEvent* evt);
 
-  /// @brief Method SetSource addr 0x21fc38c size 0x40 virtual false final false
+  /// @brief Method SetSource addr 0x209a538 size 0x40 virtual false final false
   inline void SetSource(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method RecycleInternal addr 0x21fc454 size 0x44 virtual false final false
+  /// @brief Method RecycleInternal addr 0x209a600 size 0x44 virtual false final false
   inline void RecycleInternal();
 
-  /// @brief Method Recycle addr 0x21fc6f4 size 0x6c virtual false final false
+  /// @brief Method Recycle addr 0x209a8a0 size 0x6c virtual false final false
   inline void Recycle();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPacketReader", modifiers: "&&", def_value: None }]
@@ -97,6 +97,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::NetPacketReader, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetPacketReader, ____packet) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetPacketReader, ____manager) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetPacketReader, ____evt) == 0x38, "Offset mismatch!");
 
 } // namespace LiteNetLib
 NEED_NO_BOX(::LiteNetLib::NetPacketReader);

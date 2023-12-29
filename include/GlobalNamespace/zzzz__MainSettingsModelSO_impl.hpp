@@ -1,31 +1,17 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MainSettingsModelSO_impl.hpp"
-#include "GlobalNamespace/zzzz__ObstaclesQuality_impl.hpp"
-#include "GlobalNamespace/zzzz__PerformancePreset_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
-#include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "System/zzzz__ValueTuple_2_impl.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__ObstaclesQualitySO_def.hpp"
-#include "GlobalNamespace/zzzz__StringSO_def.hpp"
 #include "GlobalNamespace/zzzz__IntSO_def.hpp"
-#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__Vector3SO_def.hpp"
 #include "GlobalNamespace/zzzz__LanguageSO_def.hpp"
+#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
 #include "GlobalNamespace/zzzz__Vector2IntSO_def.hpp"
-#include "GlobalNamespace/zzzz__PerformancePreset_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
+#include "GlobalNamespace/zzzz__Vector3SO_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "GlobalNamespace/zzzz__StringSO_def.hpp"
 #include "GlobalNamespace/zzzz__FloatSO_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__MainSettingsModelSO__WindowMode::__MainSettingsModelSO__WindowMode(int32_t value__) noexcept {
   this->value__ = value__;
@@ -39,42 +25,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MainSettingsModelSO__Config::*)()>(
     &::GlobalNamespace::__MainSettingsModelSO__Config::_ctor)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x234f6d0;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x22042e0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO__Config*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__MainSettingsModelSO__Config._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MainSettingsModelSO__Config::*)(
-    ::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>)>(&::GlobalNamespace::__MainSettingsModelSO__Config::_ctor)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x234f7ac;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO__Config*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__MainSettingsModelSO__Config.ApplyPerformancePreset
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MainSettingsModelSO__Config::*)(
-    ::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>)>(&::GlobalNamespace::__MainSettingsModelSO__Config::ApplyPerformancePreset)> {
-  constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x234f8a8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO__Config*>::get(), "ApplyPerformancePreset", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>::get() })));
     return ___internal_method;
   }
 };
@@ -174,6 +130,18 @@ constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_menuVRResol
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___menuVRResolutionScaleMultiplier = value;
 }
+constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__get_useFixedFoveatedRenderingDuringGameplay() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___useFixedFoveatedRenderingDuringGameplay;
+}
+constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__get_useFixedFoveatedRenderingDuringGameplay() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___useFixedFoveatedRenderingDuringGameplay;
+}
+constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_useFixedFoveatedRenderingDuringGameplay(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___useFixedFoveatedRenderingDuringGameplay = value;
+}
 constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_antiAliasingLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___antiAliasingLevel;
@@ -257,30 +225,6 @@ constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__get_scre
 constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_screenDisplacementEffectsEnabled(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___screenDisplacementEffectsEnabled = value;
-}
-constexpr ::GlobalNamespace::ObstaclesQuality& GlobalNamespace::__MainSettingsModelSO__Config::__get_obstaclesQuality() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___obstaclesQuality;
-}
-constexpr ::GlobalNamespace::ObstaclesQuality const& GlobalNamespace::__MainSettingsModelSO__Config::__get_obstaclesQuality() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___obstaclesQuality;
-}
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_obstaclesQuality(::GlobalNamespace::ObstaclesQuality value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___obstaclesQuality = value;
-}
-constexpr ::StringW& GlobalNamespace::__MainSettingsModelSO__Config::__get_performancePresetKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___performancePresetKey;
-}
-constexpr ::StringW const& GlobalNamespace::__MainSettingsModelSO__Config::__get_performancePresetKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___performancePresetKey;
-}
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_performancePresetKey(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___performancePresetKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_roomCenterX() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -570,54 +514,6 @@ constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_customServe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___customServerHostName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__get_useFixedFoveatedRenderingDuringGameplay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___useFixedFoveatedRenderingDuringGameplay;
-}
-constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__get_useFixedFoveatedRenderingDuringGameplay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___useFixedFoveatedRenderingDuringGameplay;
-}
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_useFixedFoveatedRenderingDuringGameplay(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___useFixedFoveatedRenderingDuringGameplay = value;
-}
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_gpuLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___gpuLevel;
-}
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_gpuLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___gpuLevel;
-}
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_gpuLevel(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___gpuLevel = value;
-}
-constexpr int32_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_cpuLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___cpuLevel;
-}
-constexpr int32_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_cpuLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___cpuLevel;
-}
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_cpuLevel(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___cpuLevel = value;
-}
-constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_targetFramerate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___targetFramerate;
-}
-constexpr float_t const& GlobalNamespace::__MainSettingsModelSO__Config::__get_targetFramerate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___targetFramerate;
-}
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_targetFramerate(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___targetFramerate = value;
-}
 constexpr float_t& GlobalNamespace::__MainSettingsModelSO__Config::__get_volume() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___volume;
@@ -750,30 +646,6 @@ constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_enableFPSCo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enableFPSCounter = value;
 }
-constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__get_enableFPSRecorder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enableFPSRecorder;
-}
-constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__get_enableFPSRecorder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enableFPSRecorder;
-}
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_enableFPSRecorder(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___enableFPSRecorder = value;
-}
-constexpr bool& GlobalNamespace::__MainSettingsModelSO__Config::__get_enableMemoryTracker() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enableMemoryTracker;
-}
-constexpr bool const& GlobalNamespace::__MainSettingsModelSO__Config::__get_enableMemoryTracker() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enableMemoryTracker;
-}
-constexpr void GlobalNamespace::__MainSettingsModelSO__Config::__set_enableMemoryTracker(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___enableMemoryTracker = value;
-}
 inline ::GlobalNamespace::__MainSettingsModelSO__Config* GlobalNamespace::__MainSettingsModelSO__Config::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__MainSettingsModelSO__Config*>());
 }
@@ -782,97 +654,17 @@ inline void GlobalNamespace::__MainSettingsModelSO__Config::_ctor() {
                                                                              std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__MainSettingsModelSO__Config*
-GlobalNamespace::__MainSettingsModelSO__Config::New_ctor(::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*> performancePresetToLoad) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__MainSettingsModelSO__Config*>(performancePresetToLoad));
-}
-inline void GlobalNamespace::__MainSettingsModelSO__Config::_ctor(::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*> performancePresetToLoad) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO__Config*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, performancePresetToLoad);
-}
-inline void GlobalNamespace::__MainSettingsModelSO__Config::ApplyPerformancePreset(::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*> performancePresetToLoad) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO__Config*>::get(), "ApplyPerformancePreset", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, performancePresetToLoad);
-}
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__MainSettingsModelSO__Config::__MainSettingsModelSO__Config() {}
-//  Writing Method size for method: ::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71::*)()>(
-    &::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71::MoveNext)> {
-  constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x234fe44;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71>::get(),
-                                                 "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71.SetStateMachine
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2350378;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71>::get(), "SetStateMachine",
-        std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-    return ___internal_method;
-  }
-};
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
-}
-inline void GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71>::get(),
-                                               "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71>::get(), "SetStateMachine", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
-}
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "config", ty: "::GlobalNamespace::__MainSettingsModelSO__Config*", modifiers:
-// "", def_value: Some("nullptr") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW,::GlobalNamespace::PerformancePreset*>>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap1", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PerformancePreset*>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::__MainSettingsModelSO__Config* config,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> __u__1, ::StringW __7__wrap1,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PerformancePreset*> __u__2) noexcept {
-  this->__1__state = __1__state;
-  this->__t__builder = __t__builder;
-  this->config = config;
-  this->__u__1 = __u__1;
-  this->__7__wrap1 = __7__wrap1;
-  this->__u__2 = __u__2;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71() {}
 //  Writing Method size for method: ::GlobalNamespace::MainSettingsModelSO.get_createScreenshotDuringTheGame
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MainSettingsModelSO::*)()>(
     &::GlobalNamespace::MainSettingsModelSO::get_createScreenshotDuringTheGame)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e734;
+  constexpr static std::size_t addrs = 0x22025b0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(),
                                                                                "get_createScreenshotDuringTheGame", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -884,9 +676,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsModelSO::*)(bool)>(
     &::GlobalNamespace::MainSettingsModelSO::set_createScreenshotDuringTheGame)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x234e73c;
+  constexpr static std::size_t addrs = 0x22025b8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "set_createScreenshotDuringTheGame",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
@@ -899,9 +691,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MainSettingsModelSO::*)()>(
     &::GlobalNamespace::MainSettingsModelSO::get_playingForTheFirstTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e748;
+  constexpr static std::size_t addrs = 0x22025c4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(),
                                                                                "get_playingForTheFirstTime", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -913,9 +705,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsModelSO::*)(bool)>(
     &::GlobalNamespace::MainSettingsModelSO::set_playingForTheFirstTime)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x234e750;
+  constexpr static std::size_t addrs = 0x22025cc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "set_playingForTheFirstTime",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
@@ -925,17 +717,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::MainSettingsModelSO.Initialize
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsModelSO::*)(
-    ::GlobalNamespace::ISaveData*, ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>)>(&::GlobalNamespace::MainSettingsModelSO::Initialize)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x234e75c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsModelSO::*)(::GlobalNamespace::ISaveData*)>(
+    &::GlobalNamespace::MainSettingsModelSO::Initialize)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x22025d8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Initialize", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Initialize", std::vector<Il2CppClass*>{},
+                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get() })));
     return ___internal_method;
   }
 };
@@ -944,10 +734,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsModelSO::*)(::GlobalNamespace::ISaveData*)>(
     &::GlobalNamespace::MainSettingsModelSO::Save)> {
-  constexpr static std::size_t size = 0x504;
-  constexpr static std::size_t addrs = 0x234f1cc;
+  constexpr static std::size_t size = 0x47c;
+  constexpr static std::size_t addrs = 0x2202d1c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Save", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get() })));
@@ -959,29 +749,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsModelSO::*)(::GlobalNamespace::ISaveData*, bool)>(
     &::GlobalNamespace::MainSettingsModelSO::Load)> {
-  constexpr static std::size_t size = 0x894;
-  constexpr static std::size_t addrs = 0x234e938;
+  constexpr static std::size_t size = 0x644;
+  constexpr static std::size_t addrs = 0x22026d8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Load", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::MainSettingsModelSO.ForceApplyPerformancePresetAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::GlobalNamespace::MainSettingsModelSO::*)(::GlobalNamespace::__MainSettingsModelSO__Config*)>(&::GlobalNamespace::MainSettingsModelSO::ForceApplyPerformancePresetAsync)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x234fa68;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "ForceApplyPerformancePresetAsync", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MainSettingsModelSO__Config*>::get() })));
     return ___internal_method;
   }
 };
@@ -990,9 +765,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsModelSO::*)()>(&::GlobalNamespace::MainSettingsModelSO::__DeleteSettingsFiles)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x234fb30;
+  constexpr static std::size_t addrs = 0x2203198;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(),
                                                                                "__DeleteSettingsFiles", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -1002,10 +777,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsModelSO::*)()>(&::GlobalNamespace::MainSettingsModelSO::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234fc70;
+  constexpr static std::size_t size = 0x1008;
+  constexpr static std::size_t addrs = 0x22032d8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -1034,6 +809,19 @@ constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const
 constexpr void GlobalNamespace::MainSettingsModelSO::__set_menuVRResolutionScaleMultiplier(::GlobalNamespace::FloatSO* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___menuVRResolutionScaleMultiplier)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_useFixedFoveatedRenderingDuringGameplay() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___useFixedFoveatedRenderingDuringGameplay;
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_useFixedFoveatedRenderingDuringGameplay() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___useFixedFoveatedRenderingDuringGameplay;
+}
+constexpr void GlobalNamespace::MainSettingsModelSO::__set_useFixedFoveatedRenderingDuringGameplay(::GlobalNamespace::BoolSO* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___useFixedFoveatedRenderingDuringGameplay)),
+                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::Vector2IntSO*& GlobalNamespace::MainSettingsModelSO::__get_windowResolution() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1263,30 +1051,6 @@ constexpr void GlobalNamespace::MainSettingsModelSO::__set_screenDisplacementEff
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___screenDisplacementEffectsEnabled)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::ObstaclesQualitySO*& GlobalNamespace::MainSettingsModelSO::__get_obstaclesQuality() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___obstaclesQuality;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObstaclesQualitySO*> const& GlobalNamespace::MainSettingsModelSO::__get_obstaclesQuality() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___obstaclesQuality;
-}
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_obstaclesQuality(::GlobalNamespace::ObstaclesQualitySO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___obstaclesQuality)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::GlobalNamespace::StringSO*& GlobalNamespace::MainSettingsModelSO::__get_performancePresetKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___performancePresetKey;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StringSO*> const& GlobalNamespace::MainSettingsModelSO::__get_performancePresetKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___performancePresetKey;
-}
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_performancePresetKey(::GlobalNamespace::StringSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___performancePresetKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_smoothCameraEnabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothCameraEnabled;
@@ -1479,79 +1243,6 @@ constexpr void GlobalNamespace::MainSettingsModelSO::__set_enableFPSCounter(::Gl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___enableFPSCounter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_enableFPSRecorder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enableFPSRecorder;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_enableFPSRecorder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enableFPSRecorder;
-}
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_enableFPSRecorder(::GlobalNamespace::BoolSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___enableFPSRecorder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_enableMemoryTracker() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enableMemoryTracker;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_enableMemoryTracker() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enableMemoryTracker;
-}
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_enableMemoryTracker(::GlobalNamespace::BoolSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___enableMemoryTracker)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_useFixedFoveatedRenderingDuringGameplay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___useFixedFoveatedRenderingDuringGameplay;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainSettingsModelSO::__get_useFixedFoveatedRenderingDuringGameplay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___useFixedFoveatedRenderingDuringGameplay;
-}
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_useFixedFoveatedRenderingDuringGameplay(::GlobalNamespace::BoolSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___useFixedFoveatedRenderingDuringGameplay)),
-                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::GlobalNamespace::IntSO*& GlobalNamespace::MainSettingsModelSO::__get_gpuLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___gpuLevel;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntSO*> const& GlobalNamespace::MainSettingsModelSO::__get_gpuLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___gpuLevel;
-}
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_gpuLevel(::GlobalNamespace::IntSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gpuLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::GlobalNamespace::IntSO*& GlobalNamespace::MainSettingsModelSO::__get_cpuLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___cpuLevel;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntSO*> const& GlobalNamespace::MainSettingsModelSO::__get_cpuLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___cpuLevel;
-}
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_cpuLevel(::GlobalNamespace::IntSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cpuLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::MainSettingsModelSO::__get_targetFramerate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___targetFramerate;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::MainSettingsModelSO::__get_targetFramerate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___targetFramerate;
-}
-constexpr void GlobalNamespace::MainSettingsModelSO::__set_targetFramerate(::GlobalNamespace::FloatSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___targetFramerate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainSettingsModelSO::__get_depthTextureEnabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depthTextureEnabled;
@@ -1612,26 +1303,6 @@ constexpr void GlobalNamespace::MainSettingsModelSO::__set__isLoaded(bool value)
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isLoaded = value;
 }
-constexpr ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>& GlobalNamespace::MainSettingsModelSO::__get__defaultPerformancePreset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____defaultPerformancePreset;
-}
-constexpr ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> const& GlobalNamespace::MainSettingsModelSO::__get__defaultPerformancePreset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____defaultPerformancePreset;
-}
-constexpr void GlobalNamespace::MainSettingsModelSO::__set__defaultPerformancePreset(::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____defaultPerformancePreset = value;
-}
-inline void GlobalNamespace::MainSettingsModelSO::setStaticF_bestGraphicsPreset(::GlobalNamespace::PerformancePreset* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::PerformancePreset*, "bestGraphicsPreset", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get>(
-      std::forward<::GlobalNamespace::PerformancePreset*>(value));
-}
-inline ::GlobalNamespace::PerformancePreset* GlobalNamespace::MainSettingsModelSO::getStaticF_bestGraphicsPreset() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::PerformancePreset*, "bestGraphicsPreset",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get>();
-}
 inline bool GlobalNamespace::MainSettingsModelSO::get_createScreenshotDuringTheGame() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(),
                                                                              "get_createScreenshotDuringTheGame", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -1654,14 +1325,11 @@ inline void GlobalNamespace::MainSettingsModelSO::set_playingForTheFirstTime(boo
                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::MainSettingsModelSO::Initialize(::GlobalNamespace::ISaveData* saveData,
-                                                             ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> defaultPerformancePreset) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Initialize", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get(),
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, saveData, defaultPerformancePreset);
+inline void GlobalNamespace::MainSettingsModelSO::Initialize(::GlobalNamespace::ISaveData* saveData) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "Initialize", std::vector<Il2CppClass*>{},
+                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, saveData);
 }
 inline void GlobalNamespace::MainSettingsModelSO::Save(::GlobalNamespace::ISaveData* saveData) {
   static auto* ___internal_method =
@@ -1675,12 +1343,6 @@ inline void GlobalNamespace::MainSettingsModelSO::Load(::GlobalNamespace::ISaveD
                                                ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get(),
                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, saveData, forced);
-}
-inline ::System::Threading::Tasks::Task* GlobalNamespace::MainSettingsModelSO::ForceApplyPerformancePresetAsync(::GlobalNamespace::__MainSettingsModelSO__Config* config) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(), "ForceApplyPerformancePresetAsync", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MainSettingsModelSO__Config*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, config);
 }
 inline void GlobalNamespace::MainSettingsModelSO::__DeleteSettingsFiles() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsModelSO*>::get(),

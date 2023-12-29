@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CampaignFlowCoordinator)
 namespace GlobalNamespace {
-class MissionResultsViewController;
+class MenuLightsManager;
+}
+namespace HMUI {
+class ViewController;
 }
 namespace GlobalNamespace {
 class CampaignProgressModel;
 }
-namespace GlobalNamespace {
-class __CampaignFlowCoordinator____c__DisplayClass20_0;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class MissionHelpViewController;
 }
+namespace GlobalNamespace {
+class GameplaySetupViewController;
+}
 namespace HMUI {
 struct __ViewController__AnimationType;
-}
-namespace GlobalNamespace {
-class MissionNode;
-}
-namespace GlobalNamespace {
-class MissionCompletionResults;
 }
 namespace GlobalNamespace {
 class MenuTransitionsHelper;
@@ -32,32 +32,32 @@ class MenuTransitionsHelper;
 namespace GlobalNamespace {
 class MissionSelectionNavigationController;
 }
-namespace HMUI {
-class ViewController;
+namespace GlobalNamespace {
+class MissionCompletionResults;
 }
 namespace GlobalNamespace {
-class GameplaySetupViewController;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
+class __CampaignFlowCoordinator____c__DisplayClass20_0;
 }
 namespace GlobalNamespace {
 class __CampaignFlowCoordinator____c__DisplayClass22_0;
 }
 namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
+class PlayerDataModel;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class MissionResultsViewController;
+}
+namespace GlobalNamespace {
+class MissionLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class MenuLightsPresetSO;
 }
 namespace GlobalNamespace {
-class MenuLightsManager;
+class MissionNode;
 }
 namespace System {
-template <typename T> class Action_1;
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,8 +77,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__CampaignFlowCoordinator____c__DisplayClass22
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5487))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5590))
 // CS Name: ::CampaignFlowCoordinator::<>c__DisplayClass20_0*
 class CORDL_TYPE __CampaignFlowCoordinator____c__DisplayClass20_0 : public ::System::Object {
 public:
@@ -103,10 +103,10 @@ public:
 
   static inline ::GlobalNamespace::__CampaignFlowCoordinator____c__DisplayClass20_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2287858 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2143f70 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <HandleMissionHelpViewControllerDidFinish>b__0 addr 0x2287d20 size 0x50 virtual false final false
+  /// @brief Method <HandleMissionHelpViewControllerDidFinish>b__0 addr 0x2144438 size 0x50 virtual false final false
   inline void _HandleMissionHelpViewControllerDidFinish_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CampaignFlowCoordinator____c__DisplayClass20_0", modifiers: "&&", def_value: None }]
@@ -134,13 +134,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CampaignFlowCoordinator____c__DisplayClass20_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__CampaignFlowCoordinator____c__DisplayClass20_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CampaignFlowCoordinator____c__DisplayClass20_0, ___viewController) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass22_0
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5488))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5591))
 // CS Name: ::CampaignFlowCoordinator::<>c__DisplayClass22_0*
 class CORDL_TYPE __CampaignFlowCoordinator____c__DisplayClass22_0 : public ::System::Object {
 public:
@@ -165,10 +169,10 @@ public:
 
   static inline ::GlobalNamespace::__CampaignFlowCoordinator____c__DisplayClass22_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x22879c8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21440e0 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <HandleMissionResultsViewControllerRetryButtonPressed>b__0 addr 0x2287d70 size 0x50 virtual false final false
+  /// @brief Method <HandleMissionResultsViewControllerRetryButtonPressed>b__0 addr 0x2144488 size 0x50 virtual false final false
   inline void _HandleMissionResultsViewControllerRetryButtonPressed_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CampaignFlowCoordinator____c__DisplayClass22_0", modifiers: "&&", def_value: None }]
@@ -196,13 +200,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CampaignFlowCoordinator____c__DisplayClass22_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__CampaignFlowCoordinator____c__DisplayClass22_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__CampaignFlowCoordinator____c__DisplayClass22_0, ___viewController) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::CampaignFlowCoordinator
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 273, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13582))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5489))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13699))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5592))
 // CS Name: ::CampaignFlowCoordinator*
 class CORDL_TYPE CampaignFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
@@ -338,59 +346,59 @@ public:
 
   constexpr void __set__showCredits(bool value);
 
-  /// @brief Method add_didFinishEvent addr 0x2286e58 size 0xb4 virtual false final false
+  /// @brief Method add_didFinishEvent addr 0x2143570 size 0xb4 virtual false final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x2286f0c size 0xb4 virtual false final false
+  /// @brief Method remove_didFinishEvent addr 0x2143624 size 0xb4 virtual false final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>* value);
 
-  /// @brief Method DidActivate addr 0x2286fc0 size 0x254 virtual true final false
+  /// @brief Method DidActivate addr 0x21436d8 size 0x254 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x2287214 size 0x1b8 virtual true final false
+  /// @brief Method DidDeactivate addr 0x214392c size 0x1b8 virtual true final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method TopViewControllerWillChange addr 0x22873cc size 0xf8 virtual true final false
+  /// @brief Method TopViewControllerWillChange addr 0x2143ae4 size 0xf8 virtual true final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::__ViewController__AnimationType animationType);
 
-  /// @brief Method HandleMissionSelectionNavigationControllerDidPressPlayButton addr 0x22874c4 size 0x120 virtual false final false
+  /// @brief Method HandleMissionSelectionNavigationControllerDidPressPlayButton addr 0x2143bdc size 0x120 virtual false final false
   inline void HandleMissionSelectionNavigationControllerDidPressPlayButton(::GlobalNamespace::MissionSelectionNavigationController* viewController);
 
-  /// @brief Method HandleMissionHelpViewControllerDidFinish addr 0x228779c size 0xbc virtual false final false
+  /// @brief Method HandleMissionHelpViewControllerDidFinish addr 0x2143eb4 size 0xbc virtual false final false
   inline void HandleMissionHelpViewControllerDidFinish(::GlobalNamespace::MissionHelpViewController* viewController);
 
-  /// @brief Method HandleMissionResultsViewControllerContinueButtonPressed addr 0x2287860 size 0xac virtual false final false
+  /// @brief Method HandleMissionResultsViewControllerContinueButtonPressed addr 0x2143f78 size 0xac virtual false final false
   inline void HandleMissionResultsViewControllerContinueButtonPressed(::GlobalNamespace::MissionResultsViewController* viewController);
 
-  /// @brief Method HandleMissionResultsViewControllerRetryButtonPressed addr 0x228790c size 0xbc virtual false final false
+  /// @brief Method HandleMissionResultsViewControllerRetryButtonPressed addr 0x2144024 size 0xbc virtual false final false
   inline void HandleMissionResultsViewControllerRetryButtonPressed(::GlobalNamespace::MissionResultsViewController* viewController);
 
-  /// @brief Method StartLevel addr 0x22875e4 size 0x1b8 virtual false final false
+  /// @brief Method StartLevel addr 0x2143cfc size 0x1b8 virtual false final false
   inline void StartLevel(::System::Action* beforeSceneSwitchCallback);
 
-  /// @brief Method HandleMissionLevelSceneDidFinish addr 0x22879d0 size 0xe0 virtual false final false
+  /// @brief Method HandleMissionLevelSceneDidFinish addr 0x21440e8 size 0xe0 virtual false final false
   inline void HandleMissionLevelSceneDidFinish(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData,
                                                ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method HandleMissionLevelSceneRestarted addr 0x2287b78 size 0x3c virtual false final false
+  /// @brief Method HandleMissionLevelSceneRestarted addr 0x2144290 size 0x3c virtual false final false
   inline void HandleMissionLevelSceneRestarted(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData,
                                                ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method UpdatePlayerStatistics addr 0x2287ab0 size 0xc8 virtual false final false
+  /// @brief Method UpdatePlayerStatistics addr 0x21441c8 size 0xc8 virtual false final false
   inline void UpdatePlayerStatistics(::GlobalNamespace::MissionCompletionResults* missionCompletionResults, ::GlobalNamespace::MissionNode* missionNode);
 
-  /// @brief Method BackButtonWasPressed addr 0x2287bb4 size 0xa0 virtual true final false
+  /// @brief Method BackButtonWasPressed addr 0x21442cc size 0xa0 virtual true final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
   static inline ::GlobalNamespace::CampaignFlowCoordinator* New_ctor();
 
-  /// @brief Method .ctor addr 0x2287c54 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x214436c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <HandleMissionResultsViewControllerContinueButtonPressed>b__21_0 addr 0x2287c5c size 0x8c virtual false final false
+  /// @brief Method <HandleMissionResultsViewControllerContinueButtonPressed>b__21_0 addr 0x2144374 size 0x8c virtual false final false
   inline void _HandleMissionResultsViewControllerContinueButtonPressed_b__21_0();
 
-  /// @brief Method <HandleMissionResultsViewControllerContinueButtonPressed>b__21_1 addr 0x2287ce8 size 0x38 virtual false final false
+  /// @brief Method <HandleMissionResultsViewControllerContinueButtonPressed>b__21_1 addr 0x2144400 size 0x38 virtual false final false
   inline void _HandleMissionResultsViewControllerContinueButtonPressed_b__21_1(bool presented);
 
   // Ctor Parameters [CppParam { name: "", ty: "CampaignFlowCoordinator", modifiers: "&&", def_value: None }]
@@ -453,6 +461,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CampaignFlowCoordinator, 0x118>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____defaultLightsPreset) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____resultsClearedLightsPreset) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____resultsFailedLightsPreset) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____newObjectiveLightsPreset) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____menuTransitionsHelper) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____menuLightsManager) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____missionSelectionNavigationController) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____missionResultsViewController) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____gameplaySetupViewController) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____missionHelpViewController) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____playerDataModel) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____campaignProgressModel) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ___didFinishEvent) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____showCredits) == 0x110, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CampaignFlowCoordinator);

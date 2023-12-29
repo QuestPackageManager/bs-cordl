@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomControlPlayableAsset);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13874))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6008))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14145))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6063))
 // CS Name: ::CustomControlPlayableAsset*
 class CORDL_TYPE CustomControlPlayableAsset : public ::UnityEngine::Timeline::ControlPlayableAsset {
 public:
@@ -43,12 +43,12 @@ public:
 
   constexpr void __set__template(::GlobalNamespace::AvatarColorBehaviour* value);
 
-  /// @brief Method get_clipCaps addr 0x2315858 size 0x8 virtual true final true
+  /// @brief Method get_clipCaps addr 0x21c3a34 size 0x8 virtual true final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   static inline ::GlobalNamespace::CustomControlPlayableAsset* New_ctor();
 
-  /// @brief Method .ctor addr 0x2315860 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x21c3a3c size 0x58 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomControlPlayableAsset", modifiers: "&&", def_value: None }]
@@ -72,6 +72,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CustomControlPlayableAsset, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CustomControlPlayableAsset, ____template) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CustomControlPlayableAsset);

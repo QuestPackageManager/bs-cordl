@@ -23,7 +23,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextGenerator)
 namespace UnityEngine::TextCore::Text {
-struct TextFontWeight;
+struct FontStyles;
+}
+namespace UnityEngine::TextCore::Text {
+class TextInfo;
+}
+namespace UnityEngine::TextCore::Text {
+struct MaterialReference;
 }
 namespace UnityEngine::TextCore::Text {
 struct TextElementInfo;
@@ -32,19 +38,43 @@ namespace UnityEngine::TextCore::Text {
 class TextColorGradient;
 }
 namespace UnityEngine::TextCore::Text {
+struct __TextGenerator__SpecialCharacter;
+}
+namespace UnityEngine::TextCore::Text {
+class TextGenerationSettings;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine::TextCore::Text {
+struct RichTextTagAttribute;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::TextCore::Text {
 class SpriteAsset;
+}
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
+}
+namespace UnityEngine::TextCore::Text {
+struct XmlTagAttribute;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::TextCore::Text {
 class TextElement;
 }
 namespace UnityEngine::TextCore::Text {
-struct __TextGenerator__SpecialCharacter;
-}
-namespace UnityEngine::TextCore::Text {
-struct XmlTagAttribute;
-}
-namespace UnityEngine::TextCore::Text {
-class TextGenerationSettings;
+struct TextFontWeight;
 }
 namespace UnityEngine {
 struct Rect;
@@ -52,38 +82,8 @@ struct Rect;
 namespace UnityEngine::TextCore::Text {
 struct WordWrapState;
 }
-namespace UnityEngine::TextCore::Text {
-struct MaterialReference;
-}
 namespace UnityEngine {
 struct Color32;
-}
-namespace UnityEngine::TextCore::Text {
-class FontAsset;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine::TextCore::Text {
-struct RichTextTagAttribute;
-}
-namespace UnityEngine::TextCore::Text {
-class TextInfo;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::TextCore::Text {
-struct FontStyles;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace UnityEngine::TextCore::Text {
 class Character;
@@ -103,12 +103,12 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::__TextGenerator__SpecialCharacter);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13690))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13569))
 // CS Name: ::TextGenerator::SpecialCharacter
 struct CORDL_TYPE __TextGenerator__SpecialCharacter {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2d412b8 size 0xec virtual false final false
+  /// @brief Method .ctor addr 0x2bd8f08 size 0xec virtual false final false
   inline void _ctor(::UnityEngine::TextCore::Text::Character* character, int32_t materialIndex);
 
   // Ctor Parameters [CppParam { name: "character", ty: "::UnityEngine::TextCore::Text::Character*", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty:
@@ -141,19 +141,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::__TextGenerator__SpecialCharacter, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::TextCore::Text::__TextGenerator__SpecialCharacter, character) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::__TextGenerator__SpecialCharacter, fontAsset) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::__TextGenerator__SpecialCharacter, material) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::__TextGenerator__SpecialCharacter, materialIndex) == 0x18, "Offset mismatch!");
+
 } // namespace UnityEngine::TextCore::Text
 // Type: UnityEngine.TextCore.Text::TextGenerator
 // SizeInfo { instance_size: 2648, native_size: -1, calculated_instance_size: 2648, calculated_native_size: 2644, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13705)), TypeDefinitionIndex(TypeDefinitionIndex(13727)), TypeDefinitionIndex(TypeDefinitionIndex(10250)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 742 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13718)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5142 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 391 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(13690)), TypeDefinitionIndex(TypeDefinitionIndex(13709)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5143 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5144 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10245)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5141 }), TypeDefinitionIndex(TypeDefinitionIndex(13677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13694)), TypeDefinitionIndex(TypeDefinitionIndex(13697)), TypeDefinitionIndex(TypeDefinitionIndex(13719)), TypeDefinitionIndex(TypeDefinitionIndex(13726)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13723))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13691)) CS Name: ::UnityEngine.TextCore.Text::TextGenerator*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13606), inst: 731 }), TypeDefinitionIndex(TypeDefinitionIndex(13602)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13588)), TypeDefinitionIndex(TypeDefinitionIndex(13605)), TypeDefinitionIndex(TypeDefinitionIndex(13556)), TypeDefinitionIndex(TypeDefinitionIndex(13569)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(13584)), TypeDefinitionIndex(TypeDefinitionIndex(13598)), TypeDefinitionIndex(TypeDefinitionIndex(13576)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13606), inst: 101 }), TypeDefinitionIndex(TypeDefinitionIndex(13606)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(13606), inst: 5027 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13606), inst: 387 }), TypeDefinitionIndex(TypeDefinitionIndex(13573)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13606), inst: 5029 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13606), inst: 5028 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10177)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13606), inst: 5030 }), TypeDefinitionIndex(TypeDefinitionIndex(10172)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13597))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13570)) CS Name: ::UnityEngine.TextCore.Text::TextGenerator*
 class CORDL_TYPE TextGenerator : public ::System::Object {
 public:
   // Declarations
@@ -1095,91 +1103,91 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextGenerator* getStaticF_s_TextGenerator();
 
-  /// @brief Method GetTextGenerator addr 0x2d296a4 size 0x78 virtual false final false
+  /// @brief Method GetTextGenerator addr 0x2bc22f4 size 0x78 virtual false final false
   static inline ::UnityEngine::TextCore::Text::TextGenerator* GetTextGenerator();
 
-  /// @brief Method GenerateText addr 0x2d29bf8 size 0x174 virtual false final false
+  /// @brief Method GenerateText addr 0x2bc2848 size 0x174 virtual false final false
   static inline void GenerateText(::UnityEngine::TextCore::Text::TextGenerationSettings* settings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method GetCursorPosition addr 0x2d29ea0 size 0x138 virtual false final false
+  /// @brief Method GetCursorPosition addr 0x2bc2af0 size 0x138 virtual false final false
   static inline ::UnityEngine::Vector2 GetCursorPosition(::UnityEngine::TextCore::Text::TextInfo* textInfo, ::UnityEngine::Rect screenRect, int32_t index, bool inverseYAxis);
 
-  /// @brief Method GetPreferredValues addr 0x2d29fd8 size 0x12c virtual false final false
+  /// @brief Method GetPreferredValues addr 0x2bc2c28 size 0x12c virtual false final false
   static inline ::UnityEngine::Vector2 GetPreferredValues(::UnityEngine::TextCore::Text::TextGenerationSettings* settings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method Prepare addr 0x2d29d6c size 0x134 virtual false final false
+  /// @brief Method Prepare addr 0x2bc29bc size 0x134 virtual false final false
   inline void Prepare(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method GenerateTextMesh addr 0x2d22ddc size 0x68c8 virtual false final false
+  /// @brief Method GenerateTextMesh addr 0x2bbba2c size 0x68c8 virtual false final false
   inline void GenerateTextMesh(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method SaveWordWrappingState addr 0x2d2b1f8 size 0x218 virtual false final false
+  /// @brief Method SaveWordWrappingState addr 0x2bc3e48 size 0x218 virtual false final false
   inline void SaveWordWrappingState(ByRef<::UnityEngine::TextCore::Text::WordWrapState> state, int32_t index, int32_t count, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method RestoreWordWrappingState addr 0x2d2b410 size 0x23c virtual false final false
+  /// @brief Method RestoreWordWrappingState addr 0x2bc4060 size 0x23c virtual false final false
   inline int32_t RestoreWordWrappingState(ByRef<::UnityEngine::TextCore::Text::WordWrapState> state, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method ValidateHtmlTag addr 0x2d2b64c size 0x42ac virtual false final false
+  /// @brief Method ValidateHtmlTag addr 0x2bc429c size 0x42ac virtual false final false
   inline bool ValidateHtmlTag(::ArrayW<int32_t, ::Array<int32_t>*> chars, int32_t startIndex, ByRef<int32_t> endIndex, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
                               ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method SaveGlyphVertexInfo addr 0x2d2f8f8 size 0x1dec virtual false final false
+  /// @brief Method SaveGlyphVertexInfo addr 0x2bc8548 size 0x1dec virtual false final false
   inline void SaveGlyphVertexInfo(float_t padding, float_t stylePadding, ::UnityEngine::Color32 vertexColor, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
                                   ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method SaveSpriteVertexInfo addr 0x2d316e4 size 0x1ab4 virtual false final false
+  /// @brief Method SaveSpriteVertexInfo addr 0x2bca334 size 0x1ab4 virtual false final false
   inline void SaveSpriteVertexInfo(::UnityEngine::Color32 vertexColor, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method DrawUnderlineMesh addr 0x2d33198 size 0xf68 virtual false final false
+  /// @brief Method DrawUnderlineMesh addr 0x2bcbde8 size 0xf68 virtual false final false
   inline void DrawUnderlineMesh(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ByRef<int32_t> index, float_t startScale, float_t endScale, float_t maxScale, float_t sdfScale,
                                 ::UnityEngine::Color32 underlineColor, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method DrawTextHighlight addr 0x2d34238 size 0x5ac virtual false final false
+  /// @brief Method DrawTextHighlight addr 0x2bcce88 size 0x5ac virtual false final false
   inline void DrawTextHighlight(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ByRef<int32_t> index, ::UnityEngine::Color32 highlightColor,
                                 ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method ClearMesh addr 0x2d347e4 size 0x20 virtual false final false
+  /// @brief Method ClearMesh addr 0x2bcd434 size 0x20 virtual false final false
   static inline void ClearMesh(bool updateMesh, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method EnableMasking addr 0x2d34804 size 0xc virtual false final false
+  /// @brief Method EnableMasking addr 0x2bcd454 size 0xc virtual false final false
   inline void EnableMasking();
 
-  /// @brief Method DisableMasking addr 0x2d34810 size 0x8 virtual false final false
+  /// @brief Method DisableMasking addr 0x2bcd460 size 0x8 virtual false final false
   inline void DisableMasking();
 
-  /// @brief Method SetArraySizes addr 0x2d2a380 size 0xe78 virtual false final false
+  /// @brief Method SetArraySizes addr 0x2bc2fd0 size 0xe78 virtual false final false
   inline void SetArraySizes(::ArrayW<int32_t, ::Array<int32_t>*> chars, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method GetTextElement addr 0x2d34818 size 0x2ec virtual false final false
+  /// @brief Method GetTextElement addr 0x2bcd468 size 0x2ec virtual false final false
   inline ::UnityEngine::TextCore::Text::TextElement* GetTextElement(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, uint32_t unicode,
                                                                     ::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::TextCore::Text::FontStyles fontStyle,
                                                                     ::UnityEngine::TextCore::Text::TextFontWeight fontWeight, ByRef<bool> isUsingAlternativeTypeface);
 
-  /// @brief Method ComputeMarginSize addr 0x2d2a240 size 0x140 virtual false final false
+  /// @brief Method ComputeMarginSize addr 0x2bc2e90 size 0x140 virtual false final false
   inline void ComputeMarginSize(::UnityEngine::Rect rect, ::UnityEngine::Vector4 margins);
 
-  /// @brief Method GetSpecialCharacters addr 0x2d2a218 size 0x28 virtual false final false
+  /// @brief Method GetSpecialCharacters addr 0x2bc2e68 size 0x28 virtual false final false
   inline void GetSpecialCharacters(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
 
-  /// @brief Method GetEllipsisSpecialCharacter addr 0x2d34b04 size 0x18c virtual false final false
+  /// @brief Method GetEllipsisSpecialCharacter addr 0x2bcd754 size 0x18c virtual false final false
   inline void GetEllipsisSpecialCharacter(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
 
-  /// @brief Method GetUnderlineSpecialCharacter addr 0x2d34100 size 0x138 virtual false final false
+  /// @brief Method GetUnderlineSpecialCharacter addr 0x2bccd50 size 0x138 virtual false final false
   inline void GetUnderlineSpecialCharacter(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
 
-  /// @brief Method GetPaddingForMaterial addr 0x2d34c90 size 0x114 virtual false final false
+  /// @brief Method GetPaddingForMaterial addr 0x2bcd8e0 size 0x114 virtual false final false
   inline float_t GetPaddingForMaterial(::UnityEngine::Material* material, bool extraPadding);
 
-  /// @brief Method GetPreferredValuesInternal addr 0x2d2a104 size 0x114 virtual false final false
+  /// @brief Method GetPreferredValuesInternal addr 0x2bc2d54 size 0x114 virtual false final false
   inline ::UnityEngine::Vector2 GetPreferredValuesInternal(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method CalculatePreferredValues addr 0x2d34da4 size 0x2c10 virtual true final false
+  /// @brief Method CalculatePreferredValues addr 0x2bcd9f4 size 0x1c10 virtual true final false
   inline ::UnityEngine::Vector2 CalculatePreferredValues(float_t defaultFontSize, ::UnityEngine::Vector2 marginSize, bool ignoreTextAutoSizing,
                                                          ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
   static inline ::UnityEngine::TextCore::Text::TextGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d2971c size 0x4dc virtual false final false
+  /// @brief Method .ctor addr 0x2bc236c size 0x4dc virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextGenerator", modifiers: "&&", def_value: None }]
@@ -1506,6 +1514,210 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextGenerator, 0xa58>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_RectTransformCorners) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MarginWidth) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MarginHeight) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_CharBuffer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_PreferredWidth) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_PreferredHeight) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_CurrentFontAsset) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_CurrentMaterial) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_CurrentMaterialIndex) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaterialReferenceStack) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_Padding) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_CurrentSpriteAsset) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_TotalCharacterCount) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FontScale) == 0xb4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FontSize) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FontScaleMultiplier) == 0xbc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_CurrentFontSize) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SizeStack) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FontStyleInternal) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FontStyleStack) == 0xec, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FontWeightInternal) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FontWeightStack) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LineJustification) == 0x120, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LineJustificationStack) == 0x128, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_BaselineOffset) == 0x148, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_BaselineOffsetStack) == 0x150, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FontColor32) == 0x170, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_HtmlColor) == 0x174, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_UnderlineColor) == 0x178, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_StrikethroughColor) == 0x17c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_ColorStack) == 0x180, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_UnderlineColorStack) == 0x1a0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_StrikethroughColorStack) == 0x1c0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_HighlightColorStack) == 0x1e0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_ColorGradientPreset) == 0x200, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_ColorGradientStack) == 0x208, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_ActionStack) == 0x230, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IsFxMatrixSet) == 0x250, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LineOffset) == 0x254, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LineHeight) == 0x258, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_CSpacing) == 0x25c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MonoSpacing) == 0x260, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_XAdvance) == 0x264, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_TagLineIndent) == 0x268, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_TagIndent) == 0x26c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IndentStack) == 0x270, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_TagNoParsing) == 0x290, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_CharacterCount) == 0x294, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FirstCharacterOfLine) == 0x298, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LastCharacterOfLine) == 0x29c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FirstVisibleCharacterOfLine) == 0x2a0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LastVisibleCharacterOfLine) == 0x2a4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxLineAscender) == 0x2a8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxLineDescender) == 0x2ac, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LineNumber) == 0x2b0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LineVisibleCharacterCount) == 0x2b4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FirstOverflowCharacterIndex) == 0x2b8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_PageNumber) == 0x2bc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MarginLeft) == 0x2c0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MarginRight) == 0x2c4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_Width) == 0x2c8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MeshExtents) == 0x2cc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxCapHeight) == 0x2dc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxAscender) == 0x2e0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxDescender) == 0x2e4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IsNewPage) == 0x2e8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IsNonBreakingSpace) == 0x2e9, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SavedWordWrapState) == 0x2f0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SavedLineState) == 0x600, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LoopCountA) == 0x910, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_TextElementType) == 0x914, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IsParsingText) == 0x915, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SpriteIndex) == 0x918, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SpriteColor) == 0x91c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_CachedTextElement) == 0x920, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_HighlightColor) == 0x928, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_CharWidthAdjDelta) == 0x92c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FxMatrix) == 0x930, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxFontSize) == 0x970, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MinFontSize) == 0x974, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IsCharacterWrappingEnabled) == 0x978, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_StartOfLineAscender) == 0x97c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LineSpacingDelta) == 0x980, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IsMaskingEnabled) == 0x984, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaterialReferences) == 0x988, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SpriteCount) == 0x990, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_StyleStack) == 0x998, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SpriteAnimationId) == 0x9b8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_InternalTextParsingBuffer) == 0x9c0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_Attributes) == 0x9c8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_XmlAttribute) == 0x9d0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_RichTextTag) == 0x9d8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaterialReferenceIndexLookup) == 0x9e0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IsCalculatingPreferredValues) == 0x9e8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_DefaultSpriteAsset) == 0x9f0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_TintSprite) == 0x9f8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_Ellipsis) == 0xa00, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_Underline) == 0xa20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IsUsingBold) == 0xa40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IsSdfShader) == 0xa41, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_InternalTextElementInfo) == 0xa48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_RecursiveCount) == 0xa50, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::TextGenerator);

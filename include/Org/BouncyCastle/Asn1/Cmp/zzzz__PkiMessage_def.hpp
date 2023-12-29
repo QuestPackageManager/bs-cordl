@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PkiMessage)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class CmpCertificate;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace System {
-class Object;
+class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiHeader;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
-}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiBody;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -86,44 +86,44 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe6ca4c size 0x1c4 virtual false final false
+  /// @brief Method .ctor addr 0xdf7878 size 0x1c4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe6cc10 size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0xdf7a3c size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body,
                                                                      ::Org::BouncyCastle::Asn1::DerBitString* protection,
                                                                      ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> extraCerts);
 
-  /// @brief Method .ctor addr 0xe6ccb4 size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0xdf7ae0 size 0x9c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body, ::Org::BouncyCastle::Asn1::DerBitString* protection,
                     ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> extraCerts);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body,
                                                                      ::Org::BouncyCastle::Asn1::DerBitString* protection);
 
-  /// @brief Method .ctor addr 0xe6cd50 size 0x60 virtual false final false
+  /// @brief Method .ctor addr 0xdf7b7c size 0x60 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body, ::Org::BouncyCastle::Asn1::DerBitString* protection);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body);
 
-  /// @brief Method .ctor addr 0xe6cdb0 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0xdf7bdc size 0x5c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body);
 
-  /// @brief Method get_Header addr 0xe6ce0c size 0x8 virtual true final false
+  /// @brief Method get_Header addr 0xdf7c38 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* get_Header();
 
-  /// @brief Method get_Body addr 0xe6ce14 size 0x8 virtual true final false
+  /// @brief Method get_Body addr 0xdf7c40 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* get_Body();
 
-  /// @brief Method get_Protection addr 0xe6ce1c size 0x8 virtual true final false
+  /// @brief Method get_Protection addr 0xdf7c48 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_Protection();
 
-  /// @brief Method GetExtraCerts addr 0xe6ce24 size 0x100 virtual true final false
+  /// @brief Method GetExtraCerts addr 0xdf7c50 size 0x100 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> GetExtraCerts();
 
-  /// @brief Method ToAsn1Object addr 0xe6cf24 size 0x158 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xdf7d50 size 0x158 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkiMessage", modifiers: "&&", def_value: None }]
@@ -156,6 +156,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::PkiMessage, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiMessage, ___header) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiMessage, ___body) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiMessage, ___protection) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::PkiMessage, ___extraCerts) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::PkiMessage);

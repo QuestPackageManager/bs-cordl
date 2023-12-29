@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Playables::DirectorWrapMode);
 namespace UnityEngine::Playables {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10427))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10349))
 // CS Name: ::UnityEngine.Playables::DirectorWrapMode
 struct CORDL_TYPE DirectorWrapMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Playables::DirectorWrapMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Playables::DirectorWrapMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Playables
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::DirectorWrapMode, "UnityEngine.Playables", "DirectorWrapMode");

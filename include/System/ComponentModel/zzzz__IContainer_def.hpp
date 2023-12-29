@@ -4,13 +4,13 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IContainer)
 namespace System::ComponentModel {
-class ComponentCollection;
-}
-namespace System::ComponentModel {
 class IComponent;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::ComponentModel {
+class ComponentCollection;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::ComponentModel::IContainer);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9396))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8233))
 // CS Name: ::System.ComponentModel::IContainer*
 class CORDL_TYPE IContainer {
 public:

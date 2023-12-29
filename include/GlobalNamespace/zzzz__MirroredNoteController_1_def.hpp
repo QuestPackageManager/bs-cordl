@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MirroredNoteController_1)
 namespace GlobalNamespace {
+template <typename T> class ILazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
 class INoteControllerNoteDidPassJumpThreeQuartersEvent;
 }
 namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
-}
-namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
+class NoteData;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class NoteData;
+class INoteControllerNoteDidStartDissolvingEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerDidInitEvent;
 }
 namespace GlobalNamespace {
 class NoteControllerBase;
 }
 namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
-}
-namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
+template <typename T> class LazyCopyHashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,8 +41,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4770))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4756))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4891))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4877))
 // CS Name: ::MirroredNoteController`1<T>*
 class CORDL_TYPE MirroredNoteController_1 : public ::GlobalNamespace::NoteControllerBase {
 public:

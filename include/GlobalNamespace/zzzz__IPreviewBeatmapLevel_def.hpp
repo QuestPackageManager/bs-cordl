@@ -2,30 +2,26 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(IPreviewBeatmapLevel)
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-struct PlayerSensitivityFlag;
+class EnvironmentInfoSO;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmapSet;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IPreviewBeatmapLevel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4399))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4421))
 // CS Name: ::IPreviewBeatmapLevel*
 class CORDL_TYPE IPreviewBeatmapLevel {
 public:
@@ -71,11 +67,7 @@ public:
 
   __declspec(property(get = get_allDirectionsEnvironmentInfo))::GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo;
 
-  __declspec(property(get = get_environmentInfos))::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> environmentInfos;
-
   __declspec(property(get = get_previewDifficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSets;
-
-  __declspec(property(get = get_contentRating))::GlobalNamespace::PlayerSensitivityFlag contentRating;
 
   /// @brief Method get_levelID addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::StringW get_levelID();
@@ -119,14 +111,8 @@ public:
   /// @brief Method get_allDirectionsEnvironmentInfo addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
 
-  /// @brief Method get_environmentInfos addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> get_environmentInfos();
-
   /// @brief Method get_previewDifficultyBeatmapSets addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
-
-  /// @brief Method get_contentRating addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline ::GlobalNamespace::PlayerSensitivityFlag get_contentRating();
 
   /// @brief Method GetCoverImageAsync addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);

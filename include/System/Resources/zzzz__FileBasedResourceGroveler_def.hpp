@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Resources::FileBasedResourceGroveler);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3433))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3428))
 // CS Name: ::System.Resources::FileBasedResourceGroveler*
 class CORDL_TYPE FileBasedResourceGroveler : public ::System::Object {
 public:
@@ -40,7 +40,7 @@ public:
 
   static inline ::System::Resources::FileBasedResourceGroveler* New_ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
 
-  /// @brief Method .ctor addr 0x24e0f64 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2386a34 size 0x28 virtual false final false
   inline void _ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
 
   // Ctor Parameters [CppParam { name: "", ty: "FileBasedResourceGroveler", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Resources::FileBasedResourceGroveler, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Resources::FileBasedResourceGroveler, ____mediator) == 0x10, "Offset mismatch!");
 
 } // namespace System::Resources
 NEED_NO_BOX(::System::Resources::FileBasedResourceGroveler);

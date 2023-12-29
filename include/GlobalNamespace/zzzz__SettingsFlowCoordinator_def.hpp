@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SettingsFlowCoordinator)
 namespace GlobalNamespace {
-struct __SettingsFlowCoordinator__FinishAction;
+class MainSettingsMenuViewController;
 }
-namespace HMUI {
-class ViewController;
+namespace GlobalNamespace {
+struct __SettingsFlowCoordinator__FinishAction;
 }
 namespace GlobalNamespace {
 class SettingsSubMenuInfo;
@@ -22,9 +22,6 @@ namespace GlobalNamespace {
 class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
-class MainSettingsMenuViewController;
-}
-namespace GlobalNamespace {
 class SettingsNavigationController;
 }
 namespace System {
@@ -32,6 +29,9 @@ template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
 class ISaveData;
+}
+namespace HMUI {
+class ViewController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SettingsFlowCoordinator);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5523))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5616))
 // CS Name: ::SettingsFlowCoordinator::FinishAction
 struct CORDL_TYPE __SettingsFlowCoordinator__FinishAction {
 public:
@@ -94,13 +94,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SettingsFlowCoordinator__FinishAction, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__SettingsFlowCoordinator__FinishAction, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::SettingsFlowCoordinator
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13582))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5524))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13699))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5617))
 // CS Name: ::SettingsFlowCoordinator*
 class CORDL_TYPE SettingsFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
@@ -161,39 +163,39 @@ public:
 
   static inline int32_t getStaticF__selectedSettingsSubMenuInfoIdx();
 
-  /// @brief Method add_didFinishEvent addr 0x228b9b8 size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent addr 0x2156f70 size 0xb0 virtual false final false
   inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::SettingsFlowCoordinator*, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x228c1d8 size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent addr 0x2157020 size 0xb0 virtual false final false
   inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::SettingsFlowCoordinator*, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* value);
 
-  /// @brief Method DidActivate addr 0x229b6d0 size 0x2b0 virtual true final false
+  /// @brief Method DidActivate addr 0x21570d0 size 0x2b0 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x229b980 size 0x10c virtual true final false
+  /// @brief Method DidDeactivate addr 0x2157380 size 0x10c virtual true final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method ShowSecretViewController addr 0x229ba8c size 0x4 virtual false final false
+  /// @brief Method ShowSecretViewController addr 0x215748c size 0x4 virtual false final false
   inline void ShowSecretViewController(::HMUI::ViewController* viewController);
 
-  /// @brief Method HandleDidSelectSettingsSubMenu addr 0x229bb24 size 0x6c virtual false final false
+  /// @brief Method HandleDidSelectSettingsSubMenu addr 0x2157524 size 0x6c virtual false final false
   inline void HandleDidSelectSettingsSubMenu(::GlobalNamespace::SettingsSubMenuInfo* settingsSubMenuInfo, int32_t idx);
 
-  /// @brief Method ReplaceViewController addr 0x229ba90 size 0x94 virtual false final false
+  /// @brief Method ReplaceViewController addr 0x2157490 size 0x94 virtual false final false
   inline void ReplaceViewController(::HMUI::ViewController* viewController);
 
-  /// @brief Method HandleSettingsNavigationControllerDidFinish addr 0x229bb90 size 0x9c virtual false final false
+  /// @brief Method HandleSettingsNavigationControllerDidFinish addr 0x2157590 size 0x9c virtual false final false
   inline void HandleSettingsNavigationControllerDidFinish(::GlobalNamespace::__SettingsNavigationController__FinishAction finishAction);
 
-  /// @brief Method ApplySettings addr 0x229bc2c size 0x3c virtual false final false
+  /// @brief Method ApplySettings addr 0x215762c size 0x3c virtual false final false
   inline void ApplySettings();
 
-  /// @brief Method CancelSettings addr 0x229bc68 size 0x28 virtual false final false
+  /// @brief Method CancelSettings addr 0x2157668 size 0x28 virtual false final false
   inline void CancelSettings();
 
   static inline ::GlobalNamespace::SettingsFlowCoordinator* New_ctor();
 
-  /// @brief Method .ctor addr 0x229bc90 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2157690 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SettingsFlowCoordinator", modifiers: "&&", def_value: None }]
@@ -229,6 +231,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SettingsFlowCoordinator, 0xd0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____mainSettingsModel) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____mainSettingsMenuViewController) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____settingsNavigationController) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____saveData) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ___didFinishEvent) == 0xc8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SettingsFlowCoordinator__FinishAction, "", "SettingsFlowCoordinator/FinishAction");

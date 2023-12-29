@@ -20,8 +20,8 @@ MARK_VAL_T(::UnityEngine::ContactPoint2D);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15933))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15825))
 // CS Name: ::UnityEngine::ContactPoint2D
 struct CORDL_TYPE ContactPoint2D {
 public:
@@ -79,6 +79,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ContactPoint2D, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactPoint2D, m_Point) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactPoint2D, m_Normal) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactPoint2D, m_RelativeVelocity) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactPoint2D, m_Separation) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactPoint2D, m_NormalImpulse) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactPoint2D, m_TangentImpulse) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactPoint2D, m_Collider) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactPoint2D, m_OtherCollider) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactPoint2D, m_Rigidbody) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactPoint2D, m_OtherRigidbody) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ContactPoint2D, m_Enabled) == 0x34, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ContactPoint2D, "UnityEngine", "ContactPoint2D");

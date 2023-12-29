@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IGameEnergyCounter)
 namespace System {
-template <typename T> class Action_1;
+class Action;
 }
 namespace System {
-class Action;
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 struct __GameplayModifiers__EnergyType;
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IGameEnergyCounter);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5268))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5363))
 // CS Name: ::IGameEnergyCounter*
 class CORDL_TYPE IGameEnergyCounter {
 public:

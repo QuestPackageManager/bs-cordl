@@ -9,29 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Dictionary_2)
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-struct InsertionBehavior;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct __Dictionary_2__Enumerator;
-}
 namespace System::Collections {
-class IEnumerator;
+class IDictionary;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct __Dictionary_2__Entry;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IDictionary_2;
 }
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
@@ -39,47 +27,59 @@ class IDeserializationCallback;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class __Dictionary_2__KeyCollection;
 }
-namespace System::Collections {
-class ICollection;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class __Dictionary_2__ValueCollection;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+template <typename TKey, typename TValue> struct __Dictionary_2__Enumerator;
 }
 namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class Object;
+class IEnumerator;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct __Dictionary_2__Entry;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
+template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class __Dictionary_2__ValueCollection;
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
 }
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename T> class IEnumerator_1;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections::Generic {
+struct InsertionBehavior;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System::Collections {
-class IDictionaryEnumerator;
+namespace System {
+class Object;
+}
+namespace System {
+class Array;
 }
 namespace GlobalNamespace {
 template <typename TKey, typename TValue> struct __Dictionary_2__KeyCollection__Enumerator;
@@ -130,7 +130,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3818))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3806))
 // CS Name: ::Dictionary`2::Entry<TKey,TValue>
 struct CORDL_TYPE __Dictionary_2__Entry {
 public:
@@ -168,8 +168,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1206 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3819))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3829)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3829), inst: 1186 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3807))
 // CS Name: ::Dictionary`2::Enumerator<TKey,TValue>
 struct CORDL_TYPE __Dictionary_2__Enumerator {
 public:
@@ -262,7 +262,7 @@ namespace GlobalNamespace {
 template <typename TKey, typename TValue>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3820))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3808))
 // CS Name: ::Dictionary`2::KeyCollection::Enumerator<TKey,TValue>
 struct CORDL_TYPE __Dictionary_2__KeyCollection__Enumerator {
 public:
@@ -331,8 +331,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3821))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3809))
 // CS Name: ::Dictionary`2::KeyCollection<TKey,TValue>*
 class CORDL_TYPE __Dictionary_2__KeyCollection : public ::System::Object {
 public:
@@ -443,7 +443,7 @@ namespace GlobalNamespace {
 template <typename TKey, typename TValue>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3822))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3810))
 // CS Name: ::Dictionary`2::ValueCollection::Enumerator<TKey,TValue>
 struct CORDL_TYPE __Dictionary_2__ValueCollection__Enumerator {
 public:
@@ -512,8 +512,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3823))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3811))
 // CS Name: ::Dictionary`2::ValueCollection<TKey,TValue>*
 class CORDL_TYPE __Dictionary_2__ValueCollection : public ::System::Object {
 public:
@@ -623,8 +623,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3824))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3812))
 // CS Name: ::System.Collections.Generic::Dictionary`2<TKey,TValue>*
 class CORDL_TYPE Dictionary_2 : public ::System::Object {
 public:

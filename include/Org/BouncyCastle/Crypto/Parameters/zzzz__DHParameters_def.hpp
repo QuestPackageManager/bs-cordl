@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DHParameters)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHValidationParameters;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHValidationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::DHParameters);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1022))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::DHParameters*
 class CORDL_TYPE DHParameters : public ::System::Object {
@@ -113,37 +113,37 @@ public:
 
   constexpr void __set_validation(::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* value);
 
-  /// @brief Method GetDefaultMParam addr 0xf306b0 size 0x70 virtual false final false
+  /// @brief Method GetDefaultMParam addr 0xebb4c4 size 0x70 virtual false final false
   static inline int32_t GetDefaultMParam(int32_t lParam);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method .ctor addr 0xf30720 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0xebb534 size 0x74 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g,
                                                                                 ::Org::BouncyCastle::Math::BigInteger* q);
 
-  /// @brief Method .ctor addr 0xf307f8 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0xebb60c size 0x78 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* q);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g,
                                                                                 ::Org::BouncyCastle::Math::BigInteger* q, int32_t l);
 
-  /// @brief Method .ctor addr 0xf30794 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0xebb5a8 size 0x64 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* q, int32_t l);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g,
                                                                                 ::Org::BouncyCastle::Math::BigInteger* q, int32_t m, int32_t l);
 
-  /// @brief Method .ctor addr 0xf30c00 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0xebba14 size 0x20 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* q, int32_t m, int32_t l);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g,
                                                                                 ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* j,
                                                                                 ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* validation);
 
-  /// @brief Method .ctor addr 0xf30c20 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xebba34 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* j,
                     ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* validation);
 
@@ -151,38 +151,38 @@ public:
                                                                                 ::Org::BouncyCastle::Math::BigInteger* q, int32_t m, int32_t l, ::Org::BouncyCastle::Math::BigInteger* j,
                                                                                 ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* validation);
 
-  /// @brief Method .ctor addr 0xf30870 size 0x390 virtual false final false
+  /// @brief Method .ctor addr 0xebb684 size 0x390 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* q, int32_t m, int32_t l,
                     ::Org::BouncyCastle::Math::BigInteger* j, ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* validation);
 
-  /// @brief Method get_P addr 0xf30c48 size 0x8 virtual false final false
+  /// @brief Method get_P addr 0xebba5c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_G addr 0xf30c50 size 0x8 virtual false final false
+  /// @brief Method get_G addr 0xebba64 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_Q addr 0xf30c58 size 0x8 virtual false final false
+  /// @brief Method get_Q addr 0xebba6c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_J addr 0xf30c60 size 0x8 virtual false final false
+  /// @brief Method get_J addr 0xebba74 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_J();
 
-  /// @brief Method get_M addr 0xf30c68 size 0x8 virtual false final false
+  /// @brief Method get_M addr 0xebba7c size 0x8 virtual false final false
   inline int32_t get_M();
 
-  /// @brief Method get_L addr 0xf30c70 size 0x8 virtual false final false
+  /// @brief Method get_L addr 0xebba84 size 0x8 virtual false final false
   inline int32_t get_L();
 
-  /// @brief Method get_ValidationParameters addr 0xf30c78 size 0x8 virtual false final false
+  /// @brief Method get_ValidationParameters addr 0xebba8c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* get_ValidationParameters();
 
-  /// @brief Method Equals addr 0xf30c80 size 0xa4 virtual true final false
+  /// @brief Method Equals addr 0xebba94 size 0xa4 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xf30d24 size 0x78 virtual true final false
+  /// @brief Method Equals addr 0xebbb38 size 0x78 virtual true final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHParameters* other);
 
-  /// @brief Method GetHashCode addr 0xf30d9c size 0x70 virtual true final false
+  /// @brief Method GetHashCode addr 0xebbbb0 size 0x70 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHParameters", modifiers: "&&", def_value: None }]
@@ -227,6 +227,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::DHParameters, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DHParameters, ___p) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DHParameters, ___g) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DHParameters, ___q) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DHParameters, ___j) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DHParameters, ___m) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DHParameters, ___l) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DHParameters, ___validation) == 0x38, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::DHParameters);

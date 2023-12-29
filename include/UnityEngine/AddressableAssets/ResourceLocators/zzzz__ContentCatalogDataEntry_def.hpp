@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ContentCatalogDataEntry)
-namespace System {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalo
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14108))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14379))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::ContentCatalogDataEntry*
 class CORDL_TYPE ContentCatalogDataEntry : public ::System::Object {
 public:
@@ -99,40 +99,40 @@ public:
 
   constexpr void __set__ResourceType_k__BackingField(::System::Type* value);
 
-  /// @brief Method get_InternalId addr 0x2a2cfe0 size 0x8 virtual false final false
+  /// @brief Method get_InternalId addr 0x28af298 size 0x8 virtual false final false
   inline ::StringW get_InternalId();
 
-  /// @brief Method set_InternalId addr 0x2a2cfe8 size 0x8 virtual false final false
+  /// @brief Method set_InternalId addr 0x28af2a0 size 0x8 virtual false final false
   inline void set_InternalId(::StringW value);
 
-  /// @brief Method get_Provider addr 0x2a2cff0 size 0x8 virtual false final false
+  /// @brief Method get_Provider addr 0x28af2a8 size 0x8 virtual false final false
   inline ::StringW get_Provider();
 
-  /// @brief Method set_Provider addr 0x2a2cff8 size 0x8 virtual false final false
+  /// @brief Method set_Provider addr 0x28af2b0 size 0x8 virtual false final false
   inline void set_Provider(::StringW value);
 
-  /// @brief Method get_Keys addr 0x2a2d000 size 0x8 virtual false final false
+  /// @brief Method get_Keys addr 0x28af2b8 size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::System::Object*>* get_Keys();
 
-  /// @brief Method set_Keys addr 0x2a2d008 size 0x8 virtual false final false
+  /// @brief Method set_Keys addr 0x28af2c0 size 0x8 virtual false final false
   inline void set_Keys(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  /// @brief Method get_Dependencies addr 0x2a2d010 size 0x8 virtual false final false
+  /// @brief Method get_Dependencies addr 0x28af2c8 size 0x8 virtual false final false
   inline ::System::Collections::Generic::List_1<::System::Object*>* get_Dependencies();
 
-  /// @brief Method set_Dependencies addr 0x2a2d018 size 0x8 virtual false final false
+  /// @brief Method set_Dependencies addr 0x28af2d0 size 0x8 virtual false final false
   inline void set_Dependencies(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  /// @brief Method get_Data addr 0x2a2d020 size 0x8 virtual false final false
+  /// @brief Method get_Data addr 0x28af2d8 size 0x8 virtual false final false
   inline ::System::Object* get_Data();
 
-  /// @brief Method set_Data addr 0x2a2d028 size 0x8 virtual false final false
+  /// @brief Method set_Data addr 0x28af2e0 size 0x8 virtual false final false
   inline void set_Data(::System::Object* value);
 
-  /// @brief Method get_ResourceType addr 0x2a2d030 size 0x8 virtual false final false
+  /// @brief Method get_ResourceType addr 0x28af2e8 size 0x8 virtual false final false
   inline ::System::Type* get_ResourceType();
 
-  /// @brief Method set_ResourceType addr 0x2a2d038 size 0x8 virtual false final false
+  /// @brief Method set_ResourceType addr 0x28af2f0 size 0x8 virtual false final false
   inline void set_ResourceType(::System::Type* value);
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry* New_ctor(::System::Type* type, ::StringW internalId, ::StringW provider,
@@ -140,7 +140,7 @@ public:
                                                                                                       ::System::Collections::Generic::IEnumerable_1<::System::Object*>* dependencies,
                                                                                                       ::System::Object* extraData);
 
-  /// @brief Method .ctor addr 0x2a2d040 size 0x108 virtual false final false
+  /// @brief Method .ctor addr 0x28af2f8 size 0x108 virtual false final false
   inline void _ctor(::System::Type* type, ::StringW internalId, ::StringW provider, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* keys,
                     ::System::Collections::Generic::IEnumerable_1<::System::Object*>* dependencies, ::System::Object* extraData);
 
@@ -180,6 +180,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry, ____InternalId_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry, ____Provider_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry, ____Keys_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry, ____Dependencies_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry, ____Data_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry, ____ResourceType_k__BackingField) == 0x38, "Offset mismatch!");
 
 } // namespace UnityEngine::AddressableAssets::ResourceLocators
 NEED_NO_BOX(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry);

@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NameValueCollection)
-namespace System::Collections {
-class IEqualityComparer;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Collections {
+class IEqualityComparer;
 }
 namespace System::Collections {
 class ArrayList;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Collections::Specialized::NameValueCollection);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9522))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9513))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8359))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8350))
 // CS Name: ::System.Collections.Specialized::NameValueCollection*
 class CORDL_TYPE NameValueCollection : public ::System::Collections::Specialized::NameObjectCollectionBase {
 public:
@@ -60,67 +60,67 @@ public:
 
   static inline ::System::Collections::Specialized::NameValueCollection* New_ctor();
 
-  /// @brief Method .ctor addr 0x293caec size 0x54 virtual false final false
+  /// @brief Method .ctor addr 0x27beac4 size 0x54 virtual false final false
   inline void _ctor();
 
   static inline ::System::Collections::Specialized::NameValueCollection* New_ctor(int32_t capacity);
 
-  /// @brief Method .ctor addr 0x293cba0 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x27beb78 size 0x64 virtual false final false
   inline void _ctor(int32_t capacity);
 
   static inline ::System::Collections::Specialized::NameValueCollection* New_ctor(int32_t capacity, ::System::Collections::IEqualityComparer* equalityComparer);
 
-  /// @brief Method .ctor addr 0x293ccb4 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0x27bec8c size 0x74 virtual false final false
   inline void _ctor(int32_t capacity, ::System::Collections::IEqualityComparer* equalityComparer);
 
   static inline ::System::Collections::Specialized::NameValueCollection* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                   ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x293cd54 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x27bed2c size 0x6c virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method InvalidateCachedArrays addr 0x293cde8 size 0x8 virtual false final false
+  /// @brief Method InvalidateCachedArrays addr 0x27bedc0 size 0x8 virtual false final false
   inline void InvalidateCachedArrays();
 
-  /// @brief Method GetAsOneString addr 0x293cdf0 size 0x1a0 virtual false final false
+  /// @brief Method GetAsOneString addr 0x27bedc8 size 0x1a0 virtual false final false
   static inline ::StringW GetAsOneString(::System::Collections::ArrayList* list);
 
-  /// @brief Method GetAsStringArray addr 0x293cf90 size 0xa0 virtual false final false
+  /// @brief Method GetAsStringArray addr 0x27bef68 size 0xa0 virtual false final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetAsStringArray(::System::Collections::ArrayList* list);
 
-  /// @brief Method Add addr 0x293d030 size 0x16c virtual true final false
+  /// @brief Method Add addr 0x27bf008 size 0x16c virtual true final false
   inline void Add(::StringW name, ::StringW value);
 
-  /// @brief Method Get addr 0x293d318 size 0x8c virtual true final false
+  /// @brief Method Get addr 0x27bf2f0 size 0x8c virtual true final false
   inline ::StringW Get(::StringW name);
 
-  /// @brief Method GetValues addr 0x293d3a4 size 0x8c virtual true final false
+  /// @brief Method GetValues addr 0x27bf37c size 0x8c virtual true final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetValues(::StringW name);
 
-  /// @brief Method Set addr 0x293d430 size 0xec virtual true final false
+  /// @brief Method Set addr 0x27bf408 size 0xec virtual true final false
   inline void Set(::StringW name, ::StringW value);
 
-  /// @brief Method Remove addr 0x293d5cc size 0x8 virtual true final false
+  /// @brief Method Remove addr 0x27bf5a4 size 0x8 virtual true final false
   inline void Remove(::StringW name);
 
-  /// @brief Method get_Item addr 0x293d7e0 size 0x10 virtual false final false
+  /// @brief Method get_Item addr 0x27bf7b8 size 0x10 virtual false final false
   inline ::StringW get_Item(::StringW name);
 
-  /// @brief Method set_Item addr 0x293d7f0 size 0x10 virtual false final false
+  /// @brief Method set_Item addr 0x27bf7c8 size 0x10 virtual false final false
   inline void set_Item(::StringW name, ::StringW value);
 
-  /// @brief Method Get addr 0x293d800 size 0x84 virtual true final false
+  /// @brief Method Get addr 0x27bf7d8 size 0x84 virtual true final false
   inline ::StringW Get(int32_t index);
 
-  /// @brief Method GetValues addr 0x293d920 size 0x84 virtual true final false
+  /// @brief Method GetValues addr 0x27bf8f8 size 0x84 virtual true final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetValues(int32_t index);
 
-  /// @brief Method GetKey addr 0x293d9a4 size 0x4 virtual true final false
+  /// @brief Method GetKey addr 0x27bf97c size 0x4 virtual true final false
   inline ::StringW GetKey(int32_t index);
 
   static inline ::System::Collections::Specialized::NameValueCollection* New_ctor(::System::DBNull* dummy);
 
-  /// @brief Method .ctor addr 0x293da44 size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x27bfa1c size 0x58 virtual false final false
   inline void _ctor(::System::DBNull* dummy);
 
   // Ctor Parameters [CppParam { name: "", ty: "NameValueCollection", modifiers: "&&", def_value: None }]
@@ -147,6 +147,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::Specialized::NameValueCollection, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::NameValueCollection, ____all) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Collections::Specialized::NameValueCollection, ____allKeys) == 0x58, "Offset mismatch!");
 
 } // namespace System::Collections::Specialized
 NEED_NO_BOX(::System::Collections::Specialized::NameValueCollection);

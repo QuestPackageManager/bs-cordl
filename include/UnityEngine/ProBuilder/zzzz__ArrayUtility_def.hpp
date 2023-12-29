@@ -10,28 +10,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayUtility)
 namespace UnityEngine::ProBuilder {
+struct __ArrayUtility__SearchRange;
+}
+namespace UnityEngine::ProBuilder {
 template <typename T> class __ArrayUtility____c__23_1;
 }
 namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::ProBuilder {
-struct __ArrayUtility__SearchRange;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::ProBuilder {
-template <typename TSource, typename TKey> class __ArrayUtility____c__DisplayClass21_0_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::ProBuilder {
+template <typename TSource, typename TKey> class __ArrayUtility____c__DisplayClass21_0_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
@@ -59,21 +59,21 @@ MARK_VAL_T(::UnityEngine::ProBuilder::__ArrayUtility__SearchRange);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12094))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12022))
 // CS Name: ::ArrayUtility::SearchRange
 struct CORDL_TYPE __ArrayUtility__SearchRange {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2b3698c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x29b4c38 size 0x8 virtual false final false
   inline void _ctor(int32_t begin, int32_t end);
 
-  /// @brief Method Valid addr 0x2b36994 size 0x14 virtual false final false
+  /// @brief Method Valid addr 0x29b4c40 size 0x14 virtual false final false
   inline bool Valid();
 
-  /// @brief Method Center addr 0x2b369a8 size 0x18 virtual false final false
+  /// @brief Method Center addr 0x29b4c54 size 0x18 virtual false final false
   inline int32_t Center();
 
-  /// @brief Method ToString addr 0x2b369c0 size 0x1fc virtual true final false
+  /// @brief Method ToString addr 0x29b4c6c size 0x1fc virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "begin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: None }]
@@ -97,6 +97,10 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__ArrayUtility__SearchRange, 0x8>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::ProBuilder::__ArrayUtility__SearchRange, begin) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::__ArrayUtility__SearchRange, end) == 0x4, "Offset mismatch!");
+
 } // namespace UnityEngine::ProBuilder
 // Type: ::<>c__DisplayClass21_0`2
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
@@ -104,8 +108,8 @@ namespace UnityEngine::ProBuilder {
 // cpp template
 template <typename TSource, typename TKey>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12095))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12023))
 // CS Name: ::ArrayUtility::<>c__DisplayClass21_0`2<TSource,TKey>*
 class CORDL_TYPE __ArrayUtility____c__DisplayClass21_0_2 : public ::System::Object {
 public:
@@ -166,8 +170,8 @@ namespace UnityEngine::ProBuilder {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12096))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12024))
 // CS Name: ::ArrayUtility::<>c__23`1<T>*
 class CORDL_TYPE __ArrayUtility____c__23_1 : public ::System::Object {
 public:
@@ -216,8 +220,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12097))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12025))
 // CS Name: ::UnityEngine.ProBuilder::ArrayUtility*
 class CORDL_TYPE ArrayUtility : public ::System::Object {
 public:

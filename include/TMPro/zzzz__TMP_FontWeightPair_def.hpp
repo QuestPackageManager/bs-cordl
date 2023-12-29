@@ -18,7 +18,7 @@ MARK_VAL_T(::TMPro::TMP_FontWeightPair);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12360))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12288))
 // CS Name: ::TMPro::TMP_FontWeightPair
 struct CORDL_TYPE TMP_FontWeightPair {
 public:
@@ -44,6 +44,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_FontWeightPair, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_FontWeightPair, regularTypeface) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_FontWeightPair, italicTypeface) == 0x8, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_FontWeightPair, "TMPro", "TMP_FontWeightPair");

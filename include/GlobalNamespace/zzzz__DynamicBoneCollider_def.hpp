@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DynamicBoneCollider);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16049))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16046))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15913))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15910))
 // CS Name: ::DynamicBoneCollider*
 class CORDL_TYPE DynamicBoneCollider : public ::GlobalNamespace::DynamicBoneColliderBase {
 public:
@@ -43,30 +43,30 @@ public:
 
   constexpr void __set_m_Height(float_t value);
 
-  /// @brief Method OnValidate addr 0x1230144 size 0x18 virtual false final false
+  /// @brief Method OnValidate addr 0x11bfe18 size 0x18 virtual false final false
   inline void OnValidate();
 
-  /// @brief Method Collide addr 0x123015c size 0x1f4 virtual true final false
+  /// @brief Method Collide addr 0x11bfe30 size 0x1f4 virtual true final false
   inline void Collide(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius);
 
-  /// @brief Method OutsideSphere addr 0x1230350 size 0x60 virtual false final false
+  /// @brief Method OutsideSphere addr 0x11c0024 size 0x60 virtual false final false
   static inline void OutsideSphere(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius, ::UnityEngine::Vector3 sphereCenter, float_t sphereRadius);
 
-  /// @brief Method InsideSphere addr 0x12303b0 size 0x58 virtual false final false
+  /// @brief Method InsideSphere addr 0x11c0084 size 0x58 virtual false final false
   static inline void InsideSphere(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius, ::UnityEngine::Vector3 sphereCenter, float_t sphereRadius);
 
-  /// @brief Method OutsideCapsule addr 0x1230408 size 0x174 virtual false final false
+  /// @brief Method OutsideCapsule addr 0x11c00dc size 0x174 virtual false final false
   static inline void OutsideCapsule(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius, ::UnityEngine::Vector3 capsuleP0, ::UnityEngine::Vector3 capsuleP1, float_t capsuleRadius);
 
-  /// @brief Method InsideCapsule addr 0x123057c size 0x15c virtual false final false
+  /// @brief Method InsideCapsule addr 0x11c0250 size 0x15c virtual false final false
   static inline void InsideCapsule(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius, ::UnityEngine::Vector3 capsuleP0, ::UnityEngine::Vector3 capsuleP1, float_t capsuleRadius);
 
-  /// @brief Method OnDrawGizmosSelected addr 0x12306d8 size 0x19c virtual false final false
+  /// @brief Method OnDrawGizmosSelected addr 0x11c03ac size 0x19c virtual false final false
   inline void OnDrawGizmosSelected();
 
   static inline ::GlobalNamespace::DynamicBoneCollider* New_ctor();
 
-  /// @brief Method .ctor addr 0x1230874 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x11c0548 size 0xc virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicBoneCollider", modifiers: "&&", def_value: None }]
@@ -93,6 +93,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DynamicBoneCollider, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBoneCollider, ___m_Radius) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DynamicBoneCollider, ___m_Height) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DynamicBoneCollider);

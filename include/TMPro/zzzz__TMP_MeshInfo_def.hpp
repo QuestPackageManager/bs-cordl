@@ -10,29 +10,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_MeshInfo)
-namespace UnityEngine {
-struct Color32;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace TMPro {
 struct VertexSortingOrder;
 }
 namespace UnityEngine {
-class Mesh;
+struct Vector3;
 }
-namespace UnityEngine {
-class Material;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace UnityEngine {
 struct Vector4;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace TMPro {
@@ -44,8 +44,8 @@ MARK_VAL_T(::TMPro::TMP_MeshInfo);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10164)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12405)) CS Name: ::TMPro::TMP_MeshInfo
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10177)), TypeDefinitionIndex(TypeDefinitionIndex(10092)), TypeDefinitionIndex(TypeDefinitionIndex(10173)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10176))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12333)) CS Name: ::TMPro::TMP_MeshInfo
 struct CORDL_TYPE TMP_MeshInfo {
 public:
   // Declarations
@@ -77,40 +77,40 @@ public:
 
   static inline ::UnityEngine::Bounds getStaticF_s_DefaultBounds();
 
-  /// @brief Method .ctor addr 0x2c3cf54 size 0x4f8 virtual false final false
+  /// @brief Method .ctor addr 0x2ab9200 size 0x4f8 virtual false final false
   inline void _ctor(::UnityEngine::Mesh* mesh, int32_t size);
 
-  /// @brief Method .ctor addr 0x2c3d44c size 0x784 virtual false final false
+  /// @brief Method .ctor addr 0x2ab96f8 size 0x784 virtual false final false
   inline void _ctor(::UnityEngine::Mesh* mesh, int32_t size, bool isVolumetric);
 
-  /// @brief Method ResizeMeshInfo addr 0x2c3dbd0 size 0x474 virtual false final false
+  /// @brief Method ResizeMeshInfo addr 0x2ab9e7c size 0x474 virtual false final false
   inline void ResizeMeshInfo(int32_t size);
 
-  /// @brief Method ResizeMeshInfo addr 0x2c3e044 size 0x8d4 virtual false final false
+  /// @brief Method ResizeMeshInfo addr 0x2aba2f0 size 0x8d4 virtual false final false
   inline void ResizeMeshInfo(int32_t size, bool isVolumetric);
 
-  /// @brief Method Clear addr 0x2c3e918 size 0xa4 virtual false final false
+  /// @brief Method Clear addr 0x2ababc4 size 0xa4 virtual false final false
   inline void Clear();
 
-  /// @brief Method Clear addr 0x2c3e9bc size 0x138 virtual false final false
+  /// @brief Method Clear addr 0x2abac68 size 0x138 virtual false final false
   inline void Clear(bool uploadChanges);
 
-  /// @brief Method ClearUnusedVertices addr 0x2c3eaf4 size 0x3c virtual false final false
+  /// @brief Method ClearUnusedVertices addr 0x2abada0 size 0x3c virtual false final false
   inline void ClearUnusedVertices();
 
-  /// @brief Method ClearUnusedVertices addr 0x2c3eb30 size 0x34 virtual false final false
+  /// @brief Method ClearUnusedVertices addr 0x2abaddc size 0x34 virtual false final false
   inline void ClearUnusedVertices(int32_t startIndex);
 
-  /// @brief Method ClearUnusedVertices addr 0x2c3eb64 size 0xc4 virtual false final false
+  /// @brief Method ClearUnusedVertices addr 0x2abae10 size 0xc4 virtual false final false
   inline void ClearUnusedVertices(int32_t startIndex, bool updateMesh);
 
-  /// @brief Method SortGeometry addr 0x2c3ec28 size 0x7c virtual false final false
+  /// @brief Method SortGeometry addr 0x2abaed4 size 0x7c virtual false final false
   inline void SortGeometry(::TMPro::VertexSortingOrder order);
 
-  /// @brief Method SortGeometry addr 0x2c3f230 size 0x1d4 virtual false final false
+  /// @brief Method SortGeometry addr 0x2abb4dc size 0x1d4 virtual false final false
   inline void SortGeometry(::System::Collections::Generic::IList_1<int32_t>* sortingOrder);
 
-  /// @brief Method SwapVertexData addr 0x2c3eca4 size 0x58c virtual false final false
+  /// @brief Method SwapVertexData addr 0x2abaf50 size 0x58c virtual false final false
   inline void SwapVertexData(int32_t src, int32_t dst);
 
   // Ctor Parameters [CppParam { name: "mesh", ty: "::UnityEngine::Mesh*", modifiers: "", def_value: None }, CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
@@ -167,6 +167,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_MeshInfo, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_MeshInfo, mesh) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_MeshInfo, vertexCount) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_MeshInfo, vertices) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_MeshInfo, normals) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_MeshInfo, tangents) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_MeshInfo, uvs0) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_MeshInfo, uvs2) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_MeshInfo, colors32) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_MeshInfo, triangles) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_MeshInfo, material) == 0x48, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_MeshInfo, "TMPro", "TMP_MeshInfo");

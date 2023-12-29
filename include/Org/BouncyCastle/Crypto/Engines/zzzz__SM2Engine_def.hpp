@@ -6,20 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SM2Engine)
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class ECMultiplier;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -27,11 +15,23 @@ class BigInteger;
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
+}
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
+class ECKeyParameters;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class ECMultiplier;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::SM2Engine);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(872))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::SM2Engine*
 class CORDL_TYPE SM2Engine : public ::System::Object {
@@ -105,42 +105,42 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::SM2Engine* New_ctor();
 
-  /// @brief Method .ctor addr 0xee835c size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0xe73188 size 0x6c virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::SM2Engine* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0xee83c8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xe731f4 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init addr 0xee83f0 size 0x29c virtual true final false
+  /// @brief Method Init addr 0xe7321c size 0x29c virtual true final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* param);
 
-  /// @brief Method ProcessBlock addr 0xee868c size 0x10 virtual true final false
+  /// @brief Method ProcessBlock addr 0xe734b8 size 0x10 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method CreateBasePointMultiplier addr 0xee8f0c size 0x5c virtual true final false
+  /// @brief Method CreateBasePointMultiplier addr 0xe73d38 size 0x5c virtual true final false
   inline ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
 
-  /// @brief Method Encrypt addr 0xee869c size 0x3f8 virtual false final false
+  /// @brief Method Encrypt addr 0xe734c8 size 0x3f8 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encrypt(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method Decrypt addr 0xee8a94 size 0x478 virtual false final false
+  /// @brief Method Decrypt addr 0xe738c0 size 0x478 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decrypt(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method NotEncrypted addr 0xee9430 size 0x68 virtual false final false
+  /// @brief Method NotEncrypted addr 0xe7425c size 0x68 virtual false final false
   inline bool NotEncrypted(::ArrayW<uint8_t, ::Array<uint8_t>*> encData, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method Kdf addr 0xee9038 size 0x3f8 virtual false final false
+  /// @brief Method Kdf addr 0xe73e64 size 0x3f8 virtual false final false
   inline void Kdf(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECPoint* c1, ::ArrayW<uint8_t, ::Array<uint8_t>*> encData);
 
-  /// @brief Method Xor addr 0xee956c size 0x64 virtual false final false
+  /// @brief Method Xor addr 0xe74398 size 0x64 virtual false final false
   inline void Xor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ArrayW<uint8_t, ::Array<uint8_t>*> kdfOut, int32_t dOff, int32_t dRemaining);
 
-  /// @brief Method NextK addr 0xee8f68 size 0xd0 virtual false final false
+  /// @brief Method NextK addr 0xe73d94 size 0xd0 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* NextK();
 
-  /// @brief Method AddFieldElement addr 0xee9498 size 0xd4 virtual false final false
+  /// @brief Method AddFieldElement addr 0xe742c4 size 0xd4 virtual false final false
   inline void AddFieldElement(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECFieldElement* v);
 
   // Ctor Parameters [CppParam { name: "", ty: "SM2Engine", modifiers: "&&", def_value: None }]
@@ -179,6 +179,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::SM2Engine, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::SM2Engine, ___mDigest) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::SM2Engine, ___mForEncryption) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::SM2Engine, ___mECKey) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::SM2Engine, ___mECParams) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::SM2Engine, ___mCurveLength) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::SM2Engine, ___mRandom) == 0x38, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::SM2Engine);

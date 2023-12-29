@@ -138,5 +138,7 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag, value__) == 0x0, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Bcpg
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag, "Org.BouncyCastle.Bcpg", "PublicKeyAlgorithmTag");

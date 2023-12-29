@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(ExposedReference_1)
 namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine {
 class IExposedPropertyTable;
 }
 namespace UnityEngine {
 struct PropertyName;
-}
-namespace UnityEngine {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -26,8 +26,8 @@ namespace UnityEngine {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10159))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10046))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10087))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9974))
 // CS Name: ::UnityEngine::ExposedReference`1<T>
 struct CORDL_TYPE ExposedReference_1 {
 public:

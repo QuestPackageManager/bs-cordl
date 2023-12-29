@@ -17,28 +17,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WordWrapState)
 namespace UnityEngine::TextCore::Text {
-struct TextFontWeight;
+struct FontStyleStack;
 }
 namespace UnityEngine {
 class Material;
 }
-namespace UnityEngine::TextCore::Text {
-struct MaterialReference;
+namespace UnityEngine {
+struct Color32;
 }
 namespace UnityEngine::TextCore::Text {
-struct FontStyleStack;
+class TextInfo;
 }
 namespace UnityEngine::TextCore::Text {
-class SpriteAsset;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextAlignment;
+template <typename T> struct TextProcessingStack_1;
 }
 namespace UnityEngine::TextCore::Text {
 struct FontStyles;
 }
 namespace UnityEngine::TextCore::Text {
-class TextInfo;
+class SpriteAsset;
+}
+namespace UnityEngine::TextCore::Text {
+struct Extents;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextAlignment;
+}
+namespace UnityEngine::TextCore::Text {
+struct LineInfo;
 }
 namespace UnityEngine::TextCore::Text {
 class FontAsset;
@@ -46,17 +52,11 @@ class FontAsset;
 namespace UnityEngine::TextCore::Text {
 class TextColorGradient;
 }
-namespace UnityEngine {
-struct Color32;
+namespace UnityEngine::TextCore::Text {
+struct TextFontWeight;
 }
 namespace UnityEngine::TextCore::Text {
-struct Extents;
-}
-namespace UnityEngine::TextCore::Text {
-template <typename T> struct TextProcessingStack_1;
-}
-namespace UnityEngine::TextCore::Text {
-struct LineInfo;
+struct MaterialReference;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -68,14 +68,13 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::WordWrapState);
 // SizeInfo { instance_size: 784, native_size: -1, calculated_instance_size: 784, calculated_native_size: 798, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 742 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5141 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5144 }), TypeDefinitionIndex(TypeDefinitionIndex(13719)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(13727), inst: 5143 }), TypeDefinitionIndex(TypeDefinitionIndex(13694)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(13727), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(13677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5142 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13697)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(13723)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13726)), TypeDefinitionIndex(TypeDefinitionIndex(13718)), TypeDefinitionIndex(TypeDefinitionIndex(13695)), TypeDefinitionIndex(TypeDefinitionIndex(13727))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13709))
-// CS Name: ::UnityEngine.TextCore.Text::WordWrapState
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13606), inst: 5027 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13606), inst: 5029
+// }), TypeDefinitionIndex(TypeDefinitionIndex(13574)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13606), inst: 387 }), TypeDefinitionIndex(TypeDefinitionIndex(13605)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13606), inst: 5030 }), TypeDefinitionIndex(TypeDefinitionIndex(13576)), TypeDefinitionIndex(TypeDefinitionIndex(10177)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13573)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13606), inst: 731 }), TypeDefinitionIndex(TypeDefinitionIndex(13597)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13598)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13606), inst: 5028 }), TypeDefinitionIndex(TypeDefinitionIndex(13606)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13602)), TypeDefinitionIndex(TypeDefinitionIndex(13556)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13606), inst: 101 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(13588)) CS Name: ::UnityEngine.TextCore.Text::WordWrapState
 struct CORDL_TYPE WordWrapState {
 public:
   // Declarations
@@ -309,6 +308,116 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::WordWrapState, 0x310>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, previousWordBreak) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, totalCharacterCount) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, visibleCharacterCount) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, visibleSpriteCount) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, visibleLinkCount) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, firstCharacterIndex) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, firstVisibleCharacterIndex) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, lastCharacterIndex) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, lastVisibleCharIndex) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, lineNumber) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, maxCapHeight) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, maxAscender) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, maxDescender) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, maxLineAscender) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, maxLineDescender) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, previousLineAscender) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, xAdvance) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, preferredWidth) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, preferredHeight) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, previousLineScale) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, wordCount) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, fontStyle) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, fontScale) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, fontScaleMultiplier) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, currentFontSize) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, baselineOffset) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, lineOffset) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, textInfo) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, lineInfo) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, vertexColor) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, underlineColor) == 0xdc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, strikethroughColor) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, highlightColor) == 0xe4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, basicStyleStack) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, colorStack) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, underlineColorStack) == 0x118, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, strikethroughColorStack) == 0x138, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, highlightColorStack) == 0x158, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, colorGradientStack) == 0x178, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, sizeStack) == 0x1a0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, indentStack) == 0x1c0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, fontWeightStack) == 0x1e0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, styleStack) == 0x200, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, baselineStack) == 0x220, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, actionStack) == 0x240, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, materialReferenceStack) == 0x260, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, lineJustificationStack) == 0x2b8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, spriteAnimationId) == 0x2d8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, currentFontAsset) == 0x2e0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, currentSpriteAsset) == 0x2e8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, currentMaterial) == 0x2f0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, currentMaterialIndex) == 0x2f8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, meshExtents) == 0x2fc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, tagNoParsing) == 0x30c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, isNonBreakingSpace) == 0x30d, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::WordWrapState, "UnityEngine.TextCore.Text", "WordWrapState");

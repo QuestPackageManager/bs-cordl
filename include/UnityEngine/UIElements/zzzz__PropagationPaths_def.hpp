@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(PropagationPaths)
 namespace UnityEngine::UIElements {
 struct __PropagationPaths__Type;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class ObjectPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PropagationPaths);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7171))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7257))
 // CS Name: ::PropagationPaths::Type
 struct CORDL_TYPE __PropagationPaths__Type {
 public:
@@ -82,13 +82,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__PropagationPaths__Type, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::__PropagationPaths__Type, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::PropagationPaths
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7172))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7258))
 // CS Name: ::UnityEngine.UIElements::PropagationPaths*
 class CORDL_TYPE PropagationPaths : public ::System::Object {
 public:
@@ -131,17 +133,17 @@ public:
 
   static inline ::UnityEngine::UIElements::PropagationPaths* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e4c718 size 0xcc virtual false final false
+  /// @brief Method .ctor addr 0x2ce4368 size 0xcc virtual false final false
   inline void _ctor();
 
-  /// @brief Method Copy addr 0x2e4c7e4 size 0xe0 virtual false final false
+  /// @brief Method Copy addr 0x2ce4434 size 0xe0 virtual false final false
   static inline ::UnityEngine::UIElements::PropagationPaths* Copy(::UnityEngine::UIElements::PropagationPaths* paths);
 
-  /// @brief Method Build addr 0x2e4c8c4 size 0x29c virtual false final false
+  /// @brief Method Build addr 0x2ce4514 size 0x29c virtual false final false
   static inline ::UnityEngine::UIElements::PropagationPaths* Build(::UnityEngine::UIElements::VisualElement* elem, ::UnityEngine::UIElements::EventBase* evt,
                                                                    ::UnityEngine::UIElements::__PropagationPaths__Type pathTypesRequested);
 
-  /// @brief Method Release addr 0x2e4cbbc size 0x110 virtual false final false
+  /// @brief Method Release addr 0x2ce480c size 0x110 virtual false final false
   inline void Release();
 
   // Ctor Parameters [CppParam { name: "", ty: "PropagationPaths", modifiers: "&&", def_value: None }]
@@ -177,6 +179,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PropagationPaths, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::PropagationPaths, ___trickleDownPath) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::PropagationPaths, ___targetElements) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::PropagationPaths, ___bubbleUpPath) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__PropagationPaths__Type, "UnityEngine.UIElements", "PropagationPaths/Type");

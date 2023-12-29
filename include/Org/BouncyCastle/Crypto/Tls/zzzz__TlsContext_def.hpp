@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(TlsContext)
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSession;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class ProtocolVersion;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSession;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class SecurityParameters;
 }
 namespace Org::BouncyCastle::Crypto::Prng {
 class IRandomGenerator;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

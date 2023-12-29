@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ReflectionProbeBakingOverride);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5865))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5954))
 // CS Name: ::ReflectionProbeBakingOverride::ActiveStateHandling
 struct CORDL_TYPE __ReflectionProbeBakingOverride__ActiveStateHandling {
 public:
@@ -72,13 +72,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ReflectionProbeBakingOverride
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5865)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5866))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(5954)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5955))
 // CS Name: ::ReflectionProbeBakingOverride*
 class CORDL_TYPE ReflectionProbeBakingOverride : public ::UnityEngine::MonoBehaviour {
 public:
@@ -148,12 +150,12 @@ public:
 
   constexpr void __set__localScale(::UnityEngine::Vector3 value);
 
-  /// @brief Method UpdateForProbeBaking addr 0x22f82f8 size 0xe8 virtual false final false
+  /// @brief Method UpdateForProbeBaking addr 0x21afbb4 size 0xe8 virtual false final false
   inline void UpdateForProbeBaking();
 
   static inline ::GlobalNamespace::ReflectionProbeBakingOverride* New_ctor();
 
-  /// @brief Method .ctor addr 0x22f83e0 size 0xa8 virtual false final false
+  /// @brief Method .ctor addr 0x21afc9c size 0xa8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbeBakingOverride", modifiers: "&&", def_value: None }]
@@ -195,6 +197,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ReflectionProbeBakingOverride, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____stateHandling) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____setPosition) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____localPosition) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____setRotation) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____localRotation) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____setScale) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____localScale) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling, "", "ReflectionProbeBakingOverride/ActiveStateHandling");

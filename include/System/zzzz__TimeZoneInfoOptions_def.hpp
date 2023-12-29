@@ -16,7 +16,7 @@ MARK_VAL_T(::System::TimeZoneInfoOptions);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2486))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2484))
 // CS Name: ::System::TimeZoneInfoOptions
 struct CORDL_TYPE TimeZoneInfoOptions {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::TimeZoneInfoOptions, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::TimeZoneInfoOptions, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::TimeZoneInfoOptions, "System", "TimeZoneInfoOptions");

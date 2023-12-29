@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardScoreSyncStateDeltaNetSerializable)
 namespace GlobalNamespace {
-struct StandardScoreSyncState;
+template <typename T> class IPacketPool_1;
 }
 namespace GlobalNamespace {
-template <typename T> class ISyncStateDeltaSerializable_1;
+struct StandardScoreSyncState;
 }
 namespace GlobalNamespace {
 struct SyncStateId;
 }
 namespace GlobalNamespace {
-class IPoolablePacket;
+template <typename T> class ISyncStateDeltaSerializable_1;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class INetSerializable;
+}
+namespace GlobalNamespace {
+class IPoolablePacket;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
-namespace GlobalNamespace {
-template <typename T> class IPacketPool_1;
-}
 namespace LiteNetLib::Utils {
-class INetSerializable;
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12978)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12988))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12979))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12899)), TypeDefinitionIndex(TypeDefinitionIndex(12909))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12900))
 // CS Name: ::StandardScoreSyncStateDeltaNetSerializable*
 class CORDL_TYPE StandardScoreSyncStateDeltaNetSerializable : public ::System::Object {
 public:
@@ -89,39 +89,39 @@ public:
 
   constexpr void __set__timeOffsetMs_k__BackingField(int32_t value);
 
-  /// @brief Method get_pool addr 0xe5a870 size 0x40 virtual false final false
+  /// @brief Method get_pool addr 0xdd57ac size 0x40 virtual false final false
   static inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* get_pool();
 
-  /// @brief Method get_baseId addr 0xe5a8b0 size 0x8 virtual true final true
+  /// @brief Method get_baseId addr 0xdd57ec size 0x8 virtual true final true
   inline ::GlobalNamespace::SyncStateId get_baseId();
 
-  /// @brief Method set_baseId addr 0xe5a8b8 size 0x8 virtual true final true
+  /// @brief Method set_baseId addr 0xdd57f4 size 0x8 virtual true final true
   inline void set_baseId(::GlobalNamespace::SyncStateId value);
 
-  /// @brief Method get_timeOffsetMs addr 0xe5a8c0 size 0x8 virtual true final true
+  /// @brief Method get_timeOffsetMs addr 0xdd57fc size 0x8 virtual true final true
   inline int32_t get_timeOffsetMs();
 
-  /// @brief Method set_timeOffsetMs addr 0xe5a8c8 size 0x8 virtual true final true
+  /// @brief Method set_timeOffsetMs addr 0xdd5804 size 0x8 virtual true final true
   inline void set_timeOffsetMs(int32_t value);
 
-  /// @brief Method get_delta addr 0xe5a8d0 size 0x14 virtual true final true
+  /// @brief Method get_delta addr 0xdd580c size 0x14 virtual true final true
   inline ::GlobalNamespace::StandardScoreSyncState get_delta();
 
-  /// @brief Method set_delta addr 0xe5a8e4 size 0x14 virtual true final true
+  /// @brief Method set_delta addr 0xdd5820 size 0x14 virtual true final true
   inline void set_delta(::GlobalNamespace::StandardScoreSyncState value);
 
-  /// @brief Method Serialize addr 0xe5a8f8 size 0xb0 virtual true final true
+  /// @brief Method Serialize addr 0xdd5834 size 0xb0 virtual true final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize addr 0xe5a9a8 size 0x60 virtual true final true
+  /// @brief Method Deserialize addr 0xdd58e4 size 0x60 virtual true final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Release addr 0xe5aa08 size 0xac virtual true final true
+  /// @brief Method Release addr 0xdd5944 size 0xac virtual true final true
   inline void Release();
 
   static inline ::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable* New_ctor();
 
-  /// @brief Method .ctor addr 0xe5aab4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdd59f0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardScoreSyncStateDeltaNetSerializable", modifiers: "&&", def_value: None }]
@@ -151,6 +151,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable, ____delta) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable, ____baseId_k__BackingField) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable, ____timeOffsetMs_k__BackingField) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable);

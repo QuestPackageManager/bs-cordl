@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::TextMesh);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10238))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15904))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15796))
 // CS Name: ::UnityEngine::TextMesh*
 class CORDL_TYPE TextMesh : public ::UnityEngine::Component {
 public:
@@ -28,13 +28,13 @@ public:
 
   __declspec(property(get = get_alignment, put = set_alignment))::UnityEngine::TextAlignment alignment;
 
-  /// @brief Method set_text addr 0x2d4f1e4 size 0x44 virtual false final false
+  /// @brief Method set_text addr 0x2be5e34 size 0x44 virtual false final false
   inline void set_text(::StringW value);
 
-  /// @brief Method get_alignment addr 0x2d4f228 size 0x3c virtual false final false
+  /// @brief Method get_alignment addr 0x2be5e78 size 0x3c virtual false final false
   inline ::UnityEngine::TextAlignment get_alignment();
 
-  /// @brief Method set_alignment addr 0x2d4f264 size 0x44 virtual false final false
+  /// @brief Method set_alignment addr 0x2be5eb4 size 0x44 virtual false final false
   inline void set_alignment(::UnityEngine::TextAlignment value);
 
   // Ctor Parameters [CppParam { name: "", ty: "TextMesh", modifiers: "&&", def_value: None }]

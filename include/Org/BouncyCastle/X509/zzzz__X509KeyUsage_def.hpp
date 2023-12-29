@@ -35,10 +35,10 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509KeyUsage* New_ctor(int32_t usage);
 
-  /// @brief Method .ctor addr 0x117eebc size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x110ec74 size 0x28 virtual false final false
   inline void _ctor(int32_t usage);
 
-  /// @brief Method ToAsn1Object addr 0x117eee4 size 0x68 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x110ec9c size 0x68 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509KeyUsage", modifiers: "&&", def_value: None }]
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::X509KeyUsage, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::X509::X509KeyUsage, ___usage) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::X509
 NEED_NO_BOX(::Org::BouncyCastle::X509::X509KeyUsage);

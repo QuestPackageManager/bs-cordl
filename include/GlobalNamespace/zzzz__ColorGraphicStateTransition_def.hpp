@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorGraphicStateTransition);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 923 }), TypeDefinitionIndex(TypeDefinitionIndex(5442)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13042))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5446)) CS Name: ::ColorGraphicStateTransition*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5548)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5548), inst: 906 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13047))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5552)) CS Name: ::ColorGraphicStateTransition*
 class CORDL_TYPE ColorGraphicStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::UI::Graphic*> {
 public:
   // Declarations
@@ -52,57 +52,57 @@ public:
 
   constexpr void __set__colorTween(::Tweening::ColorTween* value);
 
-  /// @brief Method get_transition addr 0x227d2bc size 0x8 virtual true final false
+  /// @brief Method get_transition addr 0x213abcc size 0x8 virtual true final false
   inline ::GlobalNamespace::BaseTransitionSO* get_transition();
 
-  /// @brief Method TransitionToNormalState addr 0x227d2c4 size 0x2c virtual true final false
+  /// @brief Method TransitionToNormalState addr 0x213abd4 size 0x2c virtual true final false
   inline void TransitionToNormalState();
 
-  /// @brief Method TransitionToHighlightedState addr 0x227d534 size 0x2c virtual true final false
+  /// @brief Method TransitionToHighlightedState addr 0x213ae44 size 0x2c virtual true final false
   inline void TransitionToHighlightedState();
 
-  /// @brief Method TransitionToPressedState addr 0x227d56c size 0x2c virtual true final false
+  /// @brief Method TransitionToPressedState addr 0x213ae7c size 0x2c virtual true final false
   inline void TransitionToPressedState();
 
-  /// @brief Method TransitionToDisabledState addr 0x227d5a4 size 0x2c virtual true final false
+  /// @brief Method TransitionToDisabledState addr 0x213aeb4 size 0x2c virtual true final false
   inline void TransitionToDisabledState();
 
-  /// @brief Method TransitionToSelectedState addr 0x227d5dc size 0x2c virtual true final false
+  /// @brief Method TransitionToSelectedState addr 0x213aeec size 0x2c virtual true final false
   inline void TransitionToSelectedState();
 
-  /// @brief Method TransitionToSelectedAndHighlightedState addr 0x227d614 size 0x2c virtual true final false
+  /// @brief Method TransitionToSelectedAndHighlightedState addr 0x213af24 size 0x2c virtual true final false
   inline void TransitionToSelectedAndHighlightedState();
 
-  /// @brief Method SetNormalState addr 0x227d64c size 0x3c virtual true final false
+  /// @brief Method SetNormalState addr 0x213af5c size 0x3c virtual true final false
   inline void SetNormalState();
 
-  /// @brief Method SetHighlightedState addr 0x227d688 size 0x3c virtual true final false
+  /// @brief Method SetHighlightedState addr 0x213af98 size 0x3c virtual true final false
   inline void SetHighlightedState();
 
-  /// @brief Method SetPressedState addr 0x227d6c4 size 0x3c virtual true final false
+  /// @brief Method SetPressedState addr 0x213afd4 size 0x3c virtual true final false
   inline void SetPressedState();
 
-  /// @brief Method SetDisabledState addr 0x227d700 size 0x3c virtual true final false
+  /// @brief Method SetDisabledState addr 0x213b010 size 0x3c virtual true final false
   inline void SetDisabledState();
 
-  /// @brief Method SetSelectedState addr 0x227d73c size 0x3c virtual true final false
+  /// @brief Method SetSelectedState addr 0x213b04c size 0x3c virtual true final false
   inline void SetSelectedState();
 
-  /// @brief Method SetSelectedAndHighlightedState addr 0x227d778 size 0x3c virtual true final false
+  /// @brief Method SetSelectedAndHighlightedState addr 0x213b088 size 0x3c virtual true final false
   inline void SetSelectedAndHighlightedState();
 
-  /// @brief Method StartTween addr 0x227d2fc size 0x238 virtual false final false
+  /// @brief Method StartTween addr 0x213ac0c size 0x238 virtual false final false
   inline void StartTween(::UnityEngine::Color endColor);
 
   static inline ::GlobalNamespace::ColorGraphicStateTransition* New_ctor();
 
-  /// @brief Method .ctor addr 0x227d7b4 size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x213b0c4 size 0x48 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <StartTween>b__16_0 addr 0x227d7fc size 0x24 virtual false final false
+  /// @brief Method <StartTween>b__16_0 addr 0x213b10c size 0x24 virtual false final false
   inline void _StartTween_b__16_0(::UnityEngine::Color color);
 
-  /// @brief Method <StartTween>b__16_1 addr 0x227d820 size 0x88 virtual false final false
+  /// @brief Method <StartTween>b__16_1 addr 0x213b130 size 0x88 virtual false final false
   inline void _StartTween_b__16_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorGraphicStateTransition", modifiers: "&&", def_value: None }]
@@ -129,6 +129,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorGraphicStateTransition, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorGraphicStateTransition, ____transition) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorGraphicStateTransition, ____colorTween) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorGraphicStateTransition);

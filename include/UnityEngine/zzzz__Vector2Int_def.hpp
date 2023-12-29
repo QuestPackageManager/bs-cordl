@@ -10,13 +10,13 @@ namespace System {
 class Object;
 }
 namespace System {
-class IFormatProvider;
-}
-namespace System {
 class IFormattable;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System {
+class IFormatProvider;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -32,7 +32,7 @@ MARK_VAL_T(::UnityEngine::Vector2Int);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10244))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10171))
 // CS Name: ::UnityEngine::Vector2Int
 struct CORDL_TYPE Vector2Int {
 public:
@@ -89,43 +89,43 @@ public:
 
   static inline ::UnityEngine::Vector2Int getStaticF_s_Right();
 
-  /// @brief Method get_x addr 0x2cd5974 size 0x8 virtual false final false
+  /// @brief Method get_x addr 0x2b6f1f4 size 0x8 virtual false final false
   inline int32_t get_x();
 
-  /// @brief Method set_x addr 0x2cd597c size 0x8 virtual false final false
+  /// @brief Method set_x addr 0x2b6f1fc size 0x8 virtual false final false
   inline void set_x(int32_t value);
 
-  /// @brief Method get_y addr 0x2cd5984 size 0x8 virtual false final false
+  /// @brief Method get_y addr 0x2b6f204 size 0x8 virtual false final false
   inline int32_t get_y();
 
-  /// @brief Method set_y addr 0x2cd598c size 0x8 virtual false final false
+  /// @brief Method set_y addr 0x2b6f20c size 0x8 virtual false final false
   inline void set_y(int32_t value);
 
-  /// @brief Method .ctor addr 0x2cd5994 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2b6f214 size 0x8 virtual false final false
   inline void _ctor(int32_t x, int32_t y);
 
-  /// @brief Method op_Implicit addr 0x2cd599c size 0x10 virtual false final false
+  /// @brief Method op_Implicit addr 0x2b6f21c size 0x10 virtual false final false
   static inline ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::Vector2Int v);
 
-  /// @brief Method FloorToInt addr 0x2cd59ac size 0xf8 virtual false final false
+  /// @brief Method FloorToInt addr 0x2b6f22c size 0xf8 virtual false final false
   static inline ::UnityEngine::Vector2Int FloorToInt(::UnityEngine::Vector2 v);
 
-  /// @brief Method op_Equality addr 0x2cd5aa4 size 0x20 virtual false final false
+  /// @brief Method op_Equality addr 0x2b6f324 size 0x20 virtual false final false
   static inline bool op_Equality(::UnityEngine::Vector2Int lhs, ::UnityEngine::Vector2Int rhs);
 
-  /// @brief Method Equals addr 0x2cd5ac4 size 0x88 virtual true final false
+  /// @brief Method Equals addr 0x2b6f344 size 0x88 virtual true final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals addr 0x2cd5b4c size 0x28 virtual true final true
+  /// @brief Method Equals addr 0x2b6f3cc size 0x28 virtual true final true
   inline bool Equals(::UnityEngine::Vector2Int other);
 
-  /// @brief Method GetHashCode addr 0x2cd5b74 size 0x48 virtual true final false
+  /// @brief Method GetHashCode addr 0x2b6f3f4 size 0x48 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x2cd5bbc size 0xc virtual true final false
+  /// @brief Method ToString addr 0x2b6f43c size 0xc virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString addr 0x2cd5bc8 size 0x17c virtual true final true
+  /// @brief Method ToString addr 0x2b6f448 size 0x17c virtual true final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
   // Ctor Parameters [CppParam { name: "m_X", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "int32_t", modifiers: "", def_value: None }]
@@ -148,6 +148,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Vector2Int, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Vector2Int, m_X) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Vector2Int, m_Y) == 0x4, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Vector2Int, "UnityEngine", "Vector2Int");

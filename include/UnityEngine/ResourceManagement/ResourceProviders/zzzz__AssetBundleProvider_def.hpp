@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ResourceProviderBase_def.hpp"
 CORDL_MODULE_EXPORT(AssetBundleProvider)
-namespace System {
-class Object;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
-}
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
 namespace System {
+class Object;
+}
+namespace System {
 class Type;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct ProvideHandle;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -26,27 +26,27 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundle
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14013))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13994))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14284))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14265))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::AssetBundleProvider*
 class CORDL_TYPE AssetBundleProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {
 public:
   // Declarations
-  /// @brief Method WaitForAllUnloadingBundlesToComplete addr 0x2bd58b0 size 0x4 virtual false final false
+  /// @brief Method WaitForAllUnloadingBundlesToComplete addr 0x2a52b5c size 0x4 virtual false final false
   static inline void WaitForAllUnloadingBundlesToComplete();
 
-  /// @brief Method Provide addr 0x2bd58b4 size 0x80 virtual true final false
+  /// @brief Method Provide addr 0x2a52b60 size 0x80 virtual true final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface);
 
-  /// @brief Method GetDefaultType addr 0x2bd5934 size 0x6c virtual true final false
+  /// @brief Method GetDefaultType addr 0x2a52be0 size 0x6c virtual true final false
   inline ::System::Type* GetDefaultType(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method Release addr 0x2bd59a0 size 0x184 virtual true final false
+  /// @brief Method Release addr 0x2a52c4c size 0x184 virtual true final false
   inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* asset);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bd5b24 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a52dd0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetBundleProvider", modifiers: "&&", def_value: None }]

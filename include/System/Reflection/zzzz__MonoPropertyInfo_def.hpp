@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(MonoPropertyInfo)
 namespace System::Reflection {
 class MethodInfo;
 }
-namespace System::Reflection {
-struct PropertyAttributes;
-}
 namespace System {
 class Type;
+}
+namespace System::Reflection {
+struct PropertyAttributes;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -25,8 +25,8 @@ MARK_VAL_T(::System::Reflection::MonoPropertyInfo);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3487))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3527))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3482))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3522))
 // CS Name: ::System.Reflection::MonoPropertyInfo
 struct CORDL_TYPE MonoPropertyInfo {
 public:
@@ -67,6 +67,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::MonoPropertyInfo, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::MonoPropertyInfo, parent) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::MonoPropertyInfo, declaring_type) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::MonoPropertyInfo, name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::MonoPropertyInfo, get_method) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::MonoPropertyInfo, set_method) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::MonoPropertyInfo, attrs) == 0x28, "Offset mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MonoPropertyInfo, "System.Reflection", "MonoPropertyInfo");

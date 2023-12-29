@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "System/Globalization/zzzz__DateTimeStyles_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IsoDateTimeConverter)
-namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
-}
-namespace System::Globalization {
-struct DateTimeStyles;
-}
 namespace System::Globalization {
 class CultureInfo;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
+namespace System::Globalization {
+struct DateTimeStyles;
+}
+namespace System {
+class Type;
+}
+namespace System {
+class Object;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::IsoDateTimeConverter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12032)), TypeDefinitionIndex(TypeDefinitionIndex(3670))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12046))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3658)), TypeDefinitionIndex(TypeDefinitionIndex(11960))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11974))
 // CS Name: ::Newtonsoft.Json.Converters::IsoDateTimeConverter*
 class CORDL_TYPE IsoDateTimeConverter : public ::Newtonsoft::Json::Converters::DateTimeConverterBase {
 public:
@@ -76,33 +76,33 @@ public:
 
   constexpr void __set__culture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method get_DateTimeStyles addr 0x26b89b8 size 0x8 virtual false final false
+  /// @brief Method get_DateTimeStyles addr 0x2554274 size 0x8 virtual false final false
   inline ::System::Globalization::DateTimeStyles get_DateTimeStyles();
 
-  /// @brief Method set_DateTimeStyles addr 0x26b89c0 size 0x8 virtual false final false
+  /// @brief Method set_DateTimeStyles addr 0x255427c size 0x8 virtual false final false
   inline void set_DateTimeStyles(::System::Globalization::DateTimeStyles value);
 
-  /// @brief Method get_DateTimeFormat addr 0x26b89c8 size 0x54 virtual false final false
+  /// @brief Method get_DateTimeFormat addr 0x2554284 size 0x54 virtual false final false
   inline ::StringW get_DateTimeFormat();
 
-  /// @brief Method set_DateTimeFormat addr 0x26b8a1c size 0x20 virtual false final false
+  /// @brief Method set_DateTimeFormat addr 0x25542d8 size 0x20 virtual false final false
   inline void set_DateTimeFormat(::StringW value);
 
-  /// @brief Method get_Culture addr 0x26b8a3c size 0x68 virtual false final false
+  /// @brief Method get_Culture addr 0x25542f8 size 0x68 virtual false final false
   inline ::System::Globalization::CultureInfo* get_Culture();
 
-  /// @brief Method set_Culture addr 0x26b8aa4 size 0x8 virtual false final false
+  /// @brief Method set_Culture addr 0x2554360 size 0x8 virtual false final false
   inline void set_Culture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method WriteJson addr 0x26b8aac size 0x220 virtual true final false
+  /// @brief Method WriteJson addr 0x2554368 size 0x220 virtual true final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method ReadJson addr 0x26b8ccc size 0x4c0 virtual true final false
+  /// @brief Method ReadJson addr 0x2554588 size 0x4c0 virtual true final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   static inline ::Newtonsoft::Json::Converters::IsoDateTimeConverter* New_ctor();
 
-  /// @brief Method .ctor addr 0x26b918c size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x2554a48 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IsoDateTimeConverter", modifiers: "&&", def_value: None }]
@@ -135,6 +135,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Converters::IsoDateTimeConverter, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Converters::IsoDateTimeConverter, ____dateTimeStyles) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Converters::IsoDateTimeConverter, ____dateTimeFormat) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Converters::IsoDateTimeConverter, ____culture) == 0x20, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Converters
 NEED_NO_BOX(::Newtonsoft::Json::Converters::IsoDateTimeConverter);

@@ -3,11 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IServerSongPackProviderManager)
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace GlobalNamespace {
 class IServerSongPackProvider;
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IServerSongPackProviderManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12816))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12734))
 // CS Name: ::IServerSongPackProviderManager*
 class CORDL_TYPE IServerSongPackProviderManager {
 public:

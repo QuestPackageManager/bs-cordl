@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::VoipDtxState);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13399))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13438))
 // CS Name: ::Oculus.Platform::VoipDtxState
 struct CORDL_TYPE VoipDtxState {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::VoipDtxState, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::VoipDtxState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::VoipDtxState, "Oculus.Platform", "VoipDtxState");

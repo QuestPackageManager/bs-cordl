@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XPathNavigator)
-namespace System::Xml::XPath {
-struct XPathNodeType;
-}
-namespace System::Xml::XPath {
-struct XPathNamespaceScope;
-}
 namespace System {
 class Type;
 }
-namespace System {
-class Object;
-}
 namespace System::Xml::Schema {
-class XmlSchemaType;
+class IXmlSchemaInfo;
 }
 namespace System::Xml {
 class XmlNameTable;
-}
-namespace System {
-class ICloneable;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System::Xml::Schema {
-class IXmlSchemaInfo;
 }
 namespace System {
 struct DateTime;
 }
 namespace System::Xml::XPath {
 class XPathNavigatorKeyComparer;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
+}
+namespace System::Xml::XPath {
+struct XPathNodeType;
+}
+namespace System {
+class Object;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System {
+class ICloneable;
+}
+namespace System::Xml::XPath {
+struct XPathNamespaceScope;
 }
 // Forward declare root types
 namespace System::Xml::XPath {
@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::System::Xml::XPath::XPathNavigator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::XPath {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11580))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11582))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11508))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11510))
 // CS Name: ::System.Xml.XPath::XPathNavigator*
 class CORDL_TYPE XPathNavigator : public ::System::Xml::XPath::XPathItem {
 public:
@@ -121,46 +121,46 @@ public:
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_ContentKindMasks();
 
-  /// @brief Method ToString addr 0x28a9e80 size 0xc virtual true final false
+  /// @brief Method ToString addr 0x272ce5c size 0xc virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method get_XmlType addr 0x28a9e8c size 0x188 virtual true final false
+  /// @brief Method get_XmlType addr 0x272ce68 size 0x188 virtual true final false
   inline ::System::Xml::Schema::XmlSchemaType* get_XmlType();
 
-  /// @brief Method get_TypedValue addr 0x28aa014 size 0x2dc virtual true final false
+  /// @brief Method get_TypedValue addr 0x272cff0 size 0x2dc virtual true final false
   inline ::System::Object* get_TypedValue();
 
-  /// @brief Method get_ValueType addr 0x28aa2f0 size 0x20c virtual true final false
+  /// @brief Method get_ValueType addr 0x272d2cc size 0x20c virtual true final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_ValueAsBoolean addr 0x28aa4fc size 0x2c4 virtual true final false
+  /// @brief Method get_ValueAsBoolean addr 0x272d4d8 size 0x2c4 virtual true final false
   inline bool get_ValueAsBoolean();
 
-  /// @brief Method get_ValueAsDateTime addr 0x28aa7c0 size 0x2cc virtual true final false
+  /// @brief Method get_ValueAsDateTime addr 0x272d79c size 0x2cc virtual true final false
   inline ::System::DateTime get_ValueAsDateTime();
 
-  /// @brief Method get_ValueAsDouble addr 0x28aaa8c size 0x2cc virtual true final false
+  /// @brief Method get_ValueAsDouble addr 0x272da68 size 0x2cc virtual true final false
   inline double_t get_ValueAsDouble();
 
-  /// @brief Method get_ValueAsInt addr 0x28aad58 size 0x2cc virtual true final false
+  /// @brief Method get_ValueAsInt addr 0x272dd34 size 0x2cc virtual true final false
   inline int32_t get_ValueAsInt();
 
-  /// @brief Method get_ValueAsLong addr 0x28ab024 size 0x2cc virtual true final false
+  /// @brief Method get_ValueAsLong addr 0x272e000 size 0x2cc virtual true final false
   inline int64_t get_ValueAsLong();
 
-  /// @brief Method ValueAs addr 0x28ab2f0 size 0x2ec virtual true final false
+  /// @brief Method ValueAs addr 0x272e2cc size 0x2ec virtual true final false
   inline ::System::Object* ValueAs(::System::Type* returnType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method System.ICloneable.Clone addr 0x28ab5dc size 0x10 virtual true final true
+  /// @brief Method System.ICloneable.Clone addr 0x272e5b8 size 0x10 virtual true final true
   inline ::System::Object* System_ICloneable_Clone();
 
   /// @brief Method get_NameTable addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method LookupNamespace addr 0x28ab5ec size 0x1a4 virtual true final false
+  /// @brief Method LookupNamespace addr 0x272e5c8 size 0x1a4 virtual true final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
-  /// @brief Method LookupPrefix addr 0x28ab790 size 0x1f0 virtual true final false
+  /// @brief Method LookupPrefix addr 0x272e76c size 0x1f0 virtual true final false
   inline ::StringW LookupPrefix(::StringW namespaceURI);
 
   /// @brief Method Clone addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -178,10 +178,10 @@ public:
   /// @brief Method get_Prefix addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_UnderlyingObject addr 0x28ab980 size 0x8 virtual true final false
+  /// @brief Method get_UnderlyingObject addr 0x272e95c size 0x8 virtual true final false
   inline ::System::Object* get_UnderlyingObject();
 
-  /// @brief Method MoveToNamespace addr 0x28ab988 size 0xa0 virtual true final false
+  /// @brief Method MoveToNamespace addr 0x272e964 size 0xa0 virtual true final false
   inline bool MoveToNamespace(::StringW name);
 
   /// @brief Method MoveToFirstNamespace addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -196,15 +196,15 @@ public:
   /// @brief Method IsSamePosition addr 0x0 size 0xffffffffffffffff virtual true final false
   inline bool IsSamePosition(::System::Xml::XPath::XPathNavigator* other);
 
-  /// @brief Method get_SchemaInfo addr 0x28aba28 size 0x48 virtual true final false
+  /// @brief Method get_SchemaInfo addr 0x272ea04 size 0x48 virtual true final false
   inline ::System::Xml::Schema::IXmlSchemaInfo* get_SchemaInfo();
 
-  /// @brief Method IsText addr 0x28aba70 size 0x10 virtual false final false
+  /// @brief Method IsText addr 0x272ea4c size 0x10 virtual false final false
   static inline bool IsText(::System::Xml::XPath::XPathNodeType type);
 
   static inline ::System::Xml::XPath::XPathNavigator* New_ctor();
 
-  /// @brief Method .ctor addr 0x28aba80 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x272ea5c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XPathNavigator", modifiers: "&&", def_value: None }]

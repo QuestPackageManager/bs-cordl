@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(InvalidTimeZoneException)
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -21,25 +21,25 @@ MARK_REF_PTR_T(::System::InvalidTimeZoneException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2429))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2427))
 // CS Name: ::System::InvalidTimeZoneException*
 class CORDL_TYPE InvalidTimeZoneException : public ::System::Exception {
 public:
   // Declarations
   static inline ::System::InvalidTimeZoneException* New_ctor();
 
-  /// @brief Method .ctor addr 0x25adbdc size 0x58 virtual false final false
+  /// @brief Method .ctor addr 0x2451cec size 0x58 virtual false final false
   inline void _ctor();
 
   static inline ::System::InvalidTimeZoneException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x25adc34 size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x2451d44 size 0x68 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::InvalidTimeZoneException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x25adc9c size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x2451dac size 0x80 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "InvalidTimeZoneException", modifiers: "&&", def_value: None }]

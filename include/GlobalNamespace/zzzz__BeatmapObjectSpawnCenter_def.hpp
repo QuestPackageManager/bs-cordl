@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapObjectSpawnCenter)
-namespace GlobalNamespace {
-class __BeatmapObjectSpawnCenter__PlayerCountToDistance;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class __BeatmapObjectSpawnCenter__PlayerCountToDistance;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDista
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4717))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4838))
 // CS Name: ::BeatmapObjectSpawnCenter::PlayerCountToDistance*
 class CORDL_TYPE __BeatmapObjectSpawnCenter__PlayerCountToDistance : public ::System::Object {
 public:
@@ -56,15 +56,15 @@ public:
 
   constexpr void __set__distance(float_t value);
 
-  /// @brief Method get_playerCount addr 0x237f8e4 size 0x8 virtual false final false
+  /// @brief Method get_playerCount addr 0x224ae70 size 0x8 virtual false final false
   inline int32_t get_playerCount();
 
-  /// @brief Method get_distance addr 0x237f8ec size 0x8 virtual false final false
+  /// @brief Method get_distance addr 0x224ae78 size 0x8 virtual false final false
   inline float_t get_distance();
 
   static inline ::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance* New_ctor();
 
-  /// @brief Method .ctor addr 0x237f8f4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x224ae80 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapObjectSpawnCenter__PlayerCountToDistance", modifiers: "&&", def_value: None }]
@@ -92,13 +92,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance, 0x18>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance, ____playerCount) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance, ____distance) == 0x14, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BeatmapObjectSpawnCenter
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4718))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4839))
 // CS Name: ::BeatmapObjectSpawnCenter*
 class CORDL_TYPE BeatmapObjectSpawnCenter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -157,27 +161,27 @@ public:
 
   constexpr void __set__spawnCenterDistance(float_t value);
 
-  /// @brief Method get_spawnCenterDistance addr 0x237f694 size 0x8 virtual false final false
+  /// @brief Method get_spawnCenterDistance addr 0x224ac20 size 0x8 virtual false final false
   inline float_t get_spawnCenterDistance();
 
-  /// @brief Method get_spawnCenterDistanceWasFound addr 0x237f69c size 0x8 virtual false final false
+  /// @brief Method get_spawnCenterDistanceWasFound addr 0x224ac28 size 0x8 virtual false final false
   inline bool get_spawnCenterDistanceWasFound();
 
-  /// @brief Method add_spawnCenterDistanceWasFoundEvent addr 0x237671c size 0xb0 virtual false final false
+  /// @brief Method add_spawnCenterDistanceWasFoundEvent addr 0x2242014 size 0xb0 virtual false final false
   inline void add_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_spawnCenterDistanceWasFoundEvent addr 0x237f6a4 size 0xb0 virtual false final false
+  /// @brief Method remove_spawnCenterDistanceWasFoundEvent addr 0x224ac30 size 0xb0 virtual false final false
   inline void remove_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method CalculateSpawnCenterPosition addr 0x237f754 size 0x158 virtual false final false
+  /// @brief Method CalculateSpawnCenterPosition addr 0x224ace0 size 0x158 virtual false final false
   inline float_t CalculateSpawnCenterPosition(int32_t numberOfPlayers);
 
-  /// @brief Method ReportAndSaveSpawnCenterDistance addr 0x237f8ac size 0x28 virtual false final false
+  /// @brief Method ReportAndSaveSpawnCenterDistance addr 0x224ae38 size 0x28 virtual false final false
   inline void ReportAndSaveSpawnCenterDistance(float_t distance);
 
   static inline ::GlobalNamespace::BeatmapObjectSpawnCenter* New_ctor();
 
-  /// @brief Method .ctor addr 0x237f8d4 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x224ae60 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnCenter", modifiers: "&&", def_value: None }]
@@ -213,6 +217,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapObjectSpawnCenter, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnCenter, ____distances) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnCenter, ____defaultDistnace) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnCenter, ___spawnCenterDistanceWasFoundEvent) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnCenter, ____spawnCenterDistanceWasFound) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnCenter, ____spawnCenterDistance) == 0x34, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapObjectSpawnCenter);

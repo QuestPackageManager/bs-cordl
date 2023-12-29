@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::FontReference);
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15536))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15520))
 // CS Name: ::UnityEngine.TextCore.LowLevel::FontReference
 struct CORDL_TYPE FontReference {
 public:
@@ -49,6 +49,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::LowLevel::FontReference, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::LowLevel::FontReference, familyName) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::LowLevel::FontReference, styleName) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::LowLevel::FontReference, faceIndex) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::LowLevel::FontReference, filePath) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::FontReference, "UnityEngine.TextCore.LowLevel", "FontReference");

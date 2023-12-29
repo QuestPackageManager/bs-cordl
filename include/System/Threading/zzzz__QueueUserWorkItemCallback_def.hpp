@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(QueueUserWorkItemCallback)
 namespace System::Threading {
-class ExecutionContext;
-}
-namespace System::Threading {
-class IThreadPoolWorkItem;
-}
-namespace System::Threading {
-class ThreadAbortException;
+class ContextCallback;
 }
 namespace System::Threading {
 class WaitCallback;
-}
-namespace System::Threading {
-class ContextCallback;
 }
 namespace System {
 class Object;
 }
 namespace System::Threading {
 struct StackCrawlMark;
+}
+namespace System::Threading {
+class ExecutionContext;
+}
+namespace System::Threading {
+class ThreadAbortException;
+}
+namespace System::Threading {
+class IThreadPoolWorkItem;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::System::Threading::QueueUserWorkItemCallback);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2737))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2735))
 // CS Name: ::System.Threading::QueueUserWorkItemCallback*
 class CORDL_TYPE QueueUserWorkItemCallback : public ::System::Object {
 public:
@@ -82,16 +82,16 @@ public:
   static inline ::System::Threading::QueueUserWorkItemCallback* New_ctor(::System::Threading::WaitCallback* waitCallback, ::System::Object* stateObj, bool compressStack,
                                                                          ByRef<::System::Threading::StackCrawlMark> stackMark);
 
-  /// @brief Method .ctor addr 0x261c2f4 size 0xb8 virtual false final false
+  /// @brief Method .ctor addr 0x24c22d8 size 0xb8 virtual false final false
   inline void _ctor(::System::Threading::WaitCallback* waitCallback, ::System::Object* stateObj, bool compressStack, ByRef<::System::Threading::StackCrawlMark> stackMark);
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem addr 0x261c3ac size 0xd8 virtual true final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem addr 0x24c2390 size 0xd8 virtual true final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted addr 0x261c484 size 0x4 virtual true final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted addr 0x24c2468 size 0x4 virtual true final true
   inline void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
 
-  /// @brief Method WaitCallback_Context addr 0x261c488 size 0x78 virtual false final false
+  /// @brief Method WaitCallback_Context addr 0x24c246c size 0x78 virtual false final false
   static inline void WaitCallback_Context(::System::Object* state);
 
   // Ctor Parameters [CppParam { name: "", ty: "QueueUserWorkItemCallback", modifiers: "&&", def_value: None }]
@@ -121,6 +121,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::QueueUserWorkItemCallback, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::QueueUserWorkItemCallback, ___callback) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::QueueUserWorkItemCallback, ___context) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::QueueUserWorkItemCallback, ___state) == 0x20, "Offset mismatch!");
 
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::QueueUserWorkItemCallback);

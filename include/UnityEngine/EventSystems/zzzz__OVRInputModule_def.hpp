@@ -12,20 +12,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRInputModule)
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::EventSystems {
+class __PointerInputModule__MouseButtonEventData;
+}
 namespace UnityEngine::EventSystems {
 struct __OVRInputModule__InputMode;
 }
 namespace UnityEngine::EventSystems {
-class OVRPointerEventData;
-}
-namespace UnityEngine::EventSystems {
 class __PointerInputModule__MouseState;
 }
-namespace UnityEngine::EventSystems {
-struct __PointerEventData__FramePressState;
-}
-namespace GlobalNamespace {
-class OVRCursor;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class OVRRaycaster;
@@ -34,22 +37,19 @@ namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::EventSystems {
-class __PointerInputModule__MouseButtonEventData;
+class RectTransform;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace GlobalNamespace {
+class OVRCursor;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine::EventSystems {
+class OVRPointerEventData;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::EventSystems {
+struct __PointerEventData__FramePressState;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -66,7 +66,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::OVRInputModule);
 namespace UnityEngine::EventSystems {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8738))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9503))
 // CS Name: ::OVRInputModule::InputMode
 struct CORDL_TYPE __OVRInputModule__InputMode {
 public:
@@ -108,13 +108,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::__OVRInputModule__InputMode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::EventSystems::__OVRInputModule__InputMode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::EventSystems
 // Type: UnityEngine.EventSystems::OVRInputModule
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(7587)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10058))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8739)) CS Name: ::UnityEngine.EventSystems::OVRInputModule*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8481)), TypeDefinitionIndex(TypeDefinitionIndex(13208)), TypeDefinitionIndex(TypeDefinitionIndex(9986)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10170))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9504)) CS Name: ::UnityEngine.EventSystems::OVRInputModule*
 class CORDL_TYPE OVRInputModule : public ::UnityEngine::EventSystems::PointerInputModule {
 public:
   // Declarations
@@ -362,127 +364,127 @@ public:
 
   static inline ::UnityEngine::EventSystems::OVRInputModule* New_ctor();
 
-  /// @brief Method .ctor addr 0x27f87b8 size 0x16c virtual false final false
+  /// @brief Method .ctor addr 0x2681510 size 0x16c virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_inputMode addr 0x27f8924 size 0x8 virtual false final false
+  /// @brief Method get_inputMode addr 0x268167c size 0x8 virtual false final false
   inline ::UnityEngine::EventSystems::__OVRInputModule__InputMode get_inputMode();
 
-  /// @brief Method get_allowActivationOnMobileDevice addr 0x27f892c size 0x8 virtual false final false
+  /// @brief Method get_allowActivationOnMobileDevice addr 0x2681684 size 0x8 virtual false final false
   inline bool get_allowActivationOnMobileDevice();
 
-  /// @brief Method set_allowActivationOnMobileDevice addr 0x27f8934 size 0xc virtual false final false
+  /// @brief Method set_allowActivationOnMobileDevice addr 0x268168c size 0xc virtual false final false
   inline void set_allowActivationOnMobileDevice(bool value);
 
-  /// @brief Method get_inputActionsPerSecond addr 0x27f8940 size 0x8 virtual false final false
+  /// @brief Method get_inputActionsPerSecond addr 0x2681698 size 0x8 virtual false final false
   inline float_t get_inputActionsPerSecond();
 
-  /// @brief Method set_inputActionsPerSecond addr 0x27f8948 size 0x8 virtual false final false
+  /// @brief Method set_inputActionsPerSecond addr 0x26816a0 size 0x8 virtual false final false
   inline void set_inputActionsPerSecond(float_t value);
 
-  /// @brief Method get_horizontalAxis addr 0x27f8950 size 0x8 virtual false final false
+  /// @brief Method get_horizontalAxis addr 0x26816a8 size 0x8 virtual false final false
   inline ::StringW get_horizontalAxis();
 
-  /// @brief Method set_horizontalAxis addr 0x27f8958 size 0x8 virtual false final false
+  /// @brief Method set_horizontalAxis addr 0x26816b0 size 0x8 virtual false final false
   inline void set_horizontalAxis(::StringW value);
 
-  /// @brief Method get_verticalAxis addr 0x27f8960 size 0x8 virtual false final false
+  /// @brief Method get_verticalAxis addr 0x26816b8 size 0x8 virtual false final false
   inline ::StringW get_verticalAxis();
 
-  /// @brief Method set_verticalAxis addr 0x27f8968 size 0x8 virtual false final false
+  /// @brief Method set_verticalAxis addr 0x26816c0 size 0x8 virtual false final false
   inline void set_verticalAxis(::StringW value);
 
-  /// @brief Method get_submitButton addr 0x27f8970 size 0x8 virtual false final false
+  /// @brief Method get_submitButton addr 0x26816c8 size 0x8 virtual false final false
   inline ::StringW get_submitButton();
 
-  /// @brief Method set_submitButton addr 0x27f8978 size 0x8 virtual false final false
+  /// @brief Method set_submitButton addr 0x26816d0 size 0x8 virtual false final false
   inline void set_submitButton(::StringW value);
 
-  /// @brief Method get_cancelButton addr 0x27f8980 size 0x8 virtual false final false
+  /// @brief Method get_cancelButton addr 0x26816d8 size 0x8 virtual false final false
   inline ::StringW get_cancelButton();
 
-  /// @brief Method set_cancelButton addr 0x27f8988 size 0x8 virtual false final false
+  /// @brief Method set_cancelButton addr 0x26816e0 size 0x8 virtual false final false
   inline void set_cancelButton(::StringW value);
 
-  /// @brief Method UpdateModule addr 0x27f8990 size 0x24 virtual true final false
+  /// @brief Method UpdateModule addr 0x26816e8 size 0x24 virtual true final false
   inline void UpdateModule();
 
-  /// @brief Method IsModuleSupported addr 0x27f89b4 size 0x18 virtual true final false
+  /// @brief Method IsModuleSupported addr 0x268170c size 0x18 virtual true final false
   inline bool IsModuleSupported();
 
-  /// @brief Method ShouldActivateModule addr 0x27f89cc size 0x188 virtual true final false
+  /// @brief Method ShouldActivateModule addr 0x2681724 size 0x188 virtual true final false
   inline bool ShouldActivateModule();
 
-  /// @brief Method ActivateModule addr 0x27f8b54 size 0xcc virtual true final false
+  /// @brief Method ActivateModule addr 0x26818ac size 0xcc virtual true final false
   inline void ActivateModule();
 
-  /// @brief Method DeactivateModule addr 0x27f8c20 size 0x1c virtual true final false
+  /// @brief Method DeactivateModule addr 0x2681978 size 0x1c virtual true final false
   inline void DeactivateModule();
 
-  /// @brief Method SendSubmitEventToSelectedObject addr 0x27f8f30 size 0x1e8 virtual false final false
+  /// @brief Method SendSubmitEventToSelectedObject addr 0x2681c88 size 0x1e8 virtual false final false
   inline bool SendSubmitEventToSelectedObject();
 
-  /// @brief Method AllowMoveEventProcessing addr 0x27f9118 size 0x5c virtual false final false
+  /// @brief Method AllowMoveEventProcessing addr 0x2681e70 size 0x5c virtual false final false
   inline bool AllowMoveEventProcessing(float_t time);
 
-  /// @brief Method GetRawMoveVector addr 0x27f9174 size 0xbc virtual false final false
+  /// @brief Method GetRawMoveVector addr 0x2681ecc size 0xbc virtual false final false
   inline ::UnityEngine::Vector2 GetRawMoveVector();
 
-  /// @brief Method SendMoveEventToSelectedObject addr 0x27f9230 size 0x204 virtual false final false
+  /// @brief Method SendMoveEventToSelectedObject addr 0x2681f88 size 0x204 virtual false final false
   inline bool SendMoveEventToSelectedObject();
 
-  /// @brief Method SendUpdateEventToSelectedObject addr 0x27f9434 size 0x148 virtual false final false
+  /// @brief Method SendUpdateEventToSelectedObject addr 0x268218c size 0x148 virtual false final false
   inline bool SendUpdateEventToSelectedObject();
 
-  /// @brief Method ProcessMousePress addr 0x27f957c size 0x64c virtual false final false
+  /// @brief Method ProcessMousePress addr 0x26822d4 size 0x64c virtual false final false
   inline void ProcessMousePress(::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData* data);
 
-  /// @brief Method ProcessMouseEvent addr 0x27f9ccc size 0x2c8 virtual false final false
+  /// @brief Method ProcessMouseEvent addr 0x2682a24 size 0x2c8 virtual false final false
   inline void ProcessMouseEvent(::UnityEngine::EventSystems::__PointerInputModule__MouseState* mouseData);
 
-  /// @brief Method Process addr 0x27f9fd4 size 0x64 virtual true final false
+  /// @brief Method Process addr 0x2682d2c size 0x64 virtual true final false
   inline void Process();
 
-  /// @brief Method UseMouse addr 0x27f9f94 size 0x40 virtual false final false
+  /// @brief Method UseMouse addr 0x2682cec size 0x40 virtual false final false
   static inline bool UseMouse(bool pressed, bool released, ::UnityEngine::EventSystems::PointerEventData* pointerData);
 
-  /// @brief Method CopyFromTo addr 0x27fa06c size 0x68 virtual false final false
+  /// @brief Method CopyFromTo addr 0x2682dc4 size 0x68 virtual false final false
   inline void CopyFromTo(::UnityEngine::EventSystems::OVRPointerEventData* from, ::UnityEngine::EventSystems::OVRPointerEventData* to);
 
-  /// @brief Method CopyFromTo addr 0x27fa0d4 size 0x58 virtual false final false
+  /// @brief Method CopyFromTo addr 0x2682e2c size 0x58 virtual false final false
   inline void CopyFromTo(::UnityEngine::EventSystems::PointerEventData* from, ::UnityEngine::EventSystems::PointerEventData* to);
 
-  /// @brief Method GetPointerData addr 0x27fa12c size 0xec virtual false final false
+  /// @brief Method GetPointerData addr 0x2682e84 size 0xec virtual false final false
   inline bool GetPointerData(int32_t id, ByRef<::UnityEngine::EventSystems::OVRPointerEventData*> data, bool create);
 
-  /// @brief Method ClearSelection addr 0x27f8c3c size 0x2f4 virtual false final false
+  /// @brief Method ClearSelection addr 0x2681994 size 0x2f4 virtual false final false
   inline void ClearSelection();
 
-  /// @brief Method GetRectTransformNormal addr 0x27fa220 size 0x1a4 virtual false final false
+  /// @brief Method GetRectTransformNormal addr 0x2682f78 size 0x1a4 virtual false final false
   static inline ::UnityEngine::Vector3 GetRectTransformNormal(::UnityEngine::RectTransform* rectTransform);
 
-  /// @brief Method GetGazePointerData addr 0x27fa3c4 size 0x674 virtual true final false
+  /// @brief Method GetGazePointerData addr 0x268311c size 0x674 virtual true final false
   inline ::UnityEngine::EventSystems::__PointerInputModule__MouseState* GetGazePointerData();
 
-  /// @brief Method GetCanvasPointerData addr 0x27faf54 size 0x3a4 virtual false final false
+  /// @brief Method GetCanvasPointerData addr 0x2683cac size 0x3a4 virtual false final false
   inline ::UnityEngine::EventSystems::__PointerInputModule__MouseState* GetCanvasPointerData();
 
-  /// @brief Method ShouldStartDrag addr 0x27fb2f8 size 0x338 virtual false final false
+  /// @brief Method ShouldStartDrag addr 0x2684050 size 0x338 virtual false final false
   inline bool ShouldStartDrag(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
 
-  /// @brief Method IsPointerMoving addr 0x27fa038 size 0x34 virtual false final false
+  /// @brief Method IsPointerMoving addr 0x2682d90 size 0x34 virtual false final false
   static inline bool IsPointerMoving(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
 
-  /// @brief Method SwipeAdjustedPosition addr 0x27fb6ac size 0x88 virtual false final false
+  /// @brief Method SwipeAdjustedPosition addr 0x2684404 size 0x88 virtual false final false
   inline ::UnityEngine::Vector2 SwipeAdjustedPosition(::UnityEngine::Vector2 originalPosition, ::UnityEngine::EventSystems::PointerEventData* pointerEvent);
 
-  /// @brief Method ProcessDrag addr 0x27fb734 size 0x2fc virtual true final false
+  /// @brief Method ProcessDrag addr 0x268448c size 0x2fc virtual true final false
   inline void ProcessDrag(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
 
-  /// @brief Method GetGazeButtonState addr 0x27fba30 size 0x110 virtual true final false
+  /// @brief Method GetGazeButtonState addr 0x2684788 size 0x110 virtual true final false
   inline ::UnityEngine::EventSystems::__PointerEventData__FramePressState GetGazeButtonState();
 
-  /// @brief Method GetExtraScrollDelta addr 0x27faa38 size 0x94 virtual false final false
+  /// @brief Method GetExtraScrollDelta addr 0x2683790 size 0x94 virtual false final false
   inline ::UnityEngine::Vector2 GetExtraScrollDelta();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRInputModule", modifiers: "&&", def_value: None }]
@@ -578,6 +580,56 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::OVRInputModule, 0xf0>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___rayTransform) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___m_Cursor) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___joyPadClickButton) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___gazeClickKey) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___performSphereCastForGazepointer) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___useRightStickScroll) == 0x79, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___rightStickDeadZone) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___useSwipeScroll) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___swipeDragThreshold) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___swipeDragScale) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___InvertSwipeXAxis) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___activeGraphicRaycaster) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___angleDragThreshold) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___m_SpherecastRadius) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___m_NextAction) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___m_LastMousePosition) == 0xa4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___m_MousePosition) == 0xac, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___m_HorizontalAxis) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___m_VerticalAxis) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___m_SubmitButton) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___m_CancelButton) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___m_InputActionsPerSecond) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___m_AllowActivationOnMobileDevice) == 0xdc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___m_VRRayPointerData) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::EventSystems::OVRInputModule, ___m_MouseState) == 0xe8, "Offset mismatch!");
 
 } // namespace UnityEngine::EventSystems
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::__OVRInputModule__InputMode, "UnityEngine.EventSystems", "OVRInputModule/InputMode");

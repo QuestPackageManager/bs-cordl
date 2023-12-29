@@ -8,9 +8,6 @@ CORDL_MODULE_EXPORT(TargetInformation)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class Targets;
-}
 namespace System {
 class Object;
 }
@@ -19,6 +16,9 @@ class Target;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class Targets;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -45,28 +45,28 @@ public:
 
   constexpr void __set_targets(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0x1197e8c size 0x18c virtual false final false
+  /// @brief Method GetInstance addr 0x1127c44 size 0x18c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* targets);
 
-  /// @brief Method .ctor addr 0x1198018 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1127dd0 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* targets);
 
-  /// @brief Method GetTargetsObjects addr 0x1198040 size 0x110 virtual true final false
+  /// @brief Method GetTargetsObjects addr 0x1127df8 size 0x110 virtual true final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::Targets*, ::Array<::Org::BouncyCastle::Asn1::X509::Targets*>*> GetTargetsObjects();
 
   static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* New_ctor(::Org::BouncyCastle::Asn1::X509::Targets* targets);
 
-  /// @brief Method .ctor addr 0x11982dc size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x1128094 size 0x7c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::Targets* targets);
 
   static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*, ::Array<::Org::BouncyCastle::Asn1::X509::Target*>*> targets);
 
-  /// @brief Method .ctor addr 0x1198358 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x1128110 size 0x70 virtual false final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*, ::Array<::Org::BouncyCastle::Asn1::X509::Target*>*> targets);
 
-  /// @brief Method ToAsn1Object addr 0x1198444 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x11281fc size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "TargetInformation", modifiers: "&&", def_value: None }]
@@ -90,6 +90,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::TargetInformation, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::TargetInformation, ___targets) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::TargetInformation);

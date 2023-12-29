@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(KeyedCollection_2)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IDictionary_2;
@@ -30,8 +30,8 @@ namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TItem>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3814)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3814), inst: 1020 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3816))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3802)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3802), inst: 999 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3804))
 // CS Name: ::System.Collections.ObjectModel::KeyedCollection`2<TKey,TItem>*
 class CORDL_TYPE KeyedCollection_2 : public ::System::Collections::ObjectModel::Collection_1<TItem> {
 public:

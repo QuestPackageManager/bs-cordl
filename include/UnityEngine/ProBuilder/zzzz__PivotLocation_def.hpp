@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::PivotLocation);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12195))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12123))
 // CS Name: ::UnityEngine.ProBuilder::PivotLocation
 struct CORDL_TYPE PivotLocation {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::PivotLocation, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::PivotLocation, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::PivotLocation, "UnityEngine.ProBuilder", "PivotLocation");

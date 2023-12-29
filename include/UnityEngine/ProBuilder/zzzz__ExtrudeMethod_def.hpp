@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::ExtrudeMethod);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12169))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12097))
 // CS Name: ::UnityEngine.ProBuilder::ExtrudeMethod
 struct CORDL_TYPE ExtrudeMethod {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::ExtrudeMethod, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::ExtrudeMethod, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ExtrudeMethod, "UnityEngine.ProBuilder", "ExtrudeMethod");

@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NtlmSession)
-namespace System::Net {
-class ICredentials;
-}
 namespace Mono::Security::Protocol::Ntlm {
 class MessageBase;
 }
@@ -16,6 +13,9 @@ class WebRequest;
 }
 namespace System::Net {
 class Authorization;
+}
+namespace System::Net {
+class ICredentials;
 }
 // Forward declare root types
 namespace Mono::Http {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::Mono::Http::NtlmSession);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8850))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7687))
 // CS Name: ::Mono.Http::NtlmSession*
 class CORDL_TYPE NtlmSession : public ::System::Object {
 public:
@@ -44,10 +44,10 @@ public:
 
   static inline ::Mono::Http::NtlmSession* New_ctor();
 
-  /// @brief Method .ctor addr 0x2825ed4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26aaec4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Authenticate addr 0x2825edc size 0x48c virtual false final false
+  /// @brief Method Authenticate addr 0x26aaecc size 0x48c virtual false final false
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
   // Ctor Parameters [CppParam { name: "", ty: "NtlmSession", modifiers: "&&", def_value: None }]
@@ -71,6 +71,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Http::NtlmSession, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Http::NtlmSession, ___message) == 0x10, "Offset mismatch!");
 
 } // namespace Mono::Http
 NEED_NO_BOX(::Mono::Http::NtlmSession);

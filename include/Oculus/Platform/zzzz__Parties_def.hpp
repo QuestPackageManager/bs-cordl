@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Parties)
 namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
+template <typename T> class Request_1;
 }
-namespace Oculus::Platform::Models {
-class PartyUpdateNotification;
+namespace Oculus::Platform {
+template <typename T> class __Message_1__Callback;
 }
 namespace Oculus::Platform::Models {
 class Party;
 }
-namespace Oculus::Platform {
-template <typename T> class Request_1;
+namespace Oculus::Platform::Models {
+class PartyUpdateNotification;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -26,16 +26,16 @@ MARK_REF_PTR_T(::Oculus::Platform::Parties);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13368))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13402))
 // CS Name: ::Oculus.Platform::Parties*
 class CORDL_TYPE Parties : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCurrent addr 0x26feee0 size 0x158 virtual false final false
+  /// @brief Method GetCurrent addr 0x25ab300 size 0x15c virtual false final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Party*>* GetCurrent();
 
-  /// @brief Method SetPartyUpdateNotificationCallback addr 0x26ff038 size 0x74 virtual false final false
+  /// @brief Method SetPartyUpdateNotificationCallback addr 0x25ab45c size 0x74 virtual false final false
   static inline void SetPartyUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PartyUpdateNotification*>* callback);
 
   // Ctor Parameters [CppParam { name: "", ty: "Parties", modifiers: "&&", def_value: None }]

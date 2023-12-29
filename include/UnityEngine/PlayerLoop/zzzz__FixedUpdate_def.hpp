@@ -5,19 +5,28 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(FixedUpdate)
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__Physics2DFixedUpdate;
+struct __FixedUpdate__PhysicsClothFixedUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __FixedUpdate__DirectorFixedUpdatePostPhysics;
+}
+namespace UnityEngine::PlayerLoop {
+struct __FixedUpdate__NewInputFixedUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __FixedUpdate__ScriptRunBehaviourFixedUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __FixedUpdate__DirectorFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __FixedUpdate__XRFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__PhysicsClothFixedUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__AudioFixedUpdate;
-}
-namespace UnityEngine::PlayerLoop {
 struct __FixedUpdate__PhysicsFixedUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __FixedUpdate__Physics2DFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __FixedUpdate__DirectorFixedSampleTime;
@@ -26,22 +35,13 @@ namespace UnityEngine::PlayerLoop {
 struct __FixedUpdate__LegacyFixedAnimationUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__DirectorFixedUpdatePostPhysics;
-}
-namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__ClearLines;
-}
-namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__ScriptRunBehaviourFixedUpdate;
+struct __FixedUpdate__AudioFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __FixedUpdate__ScriptRunDelayedFixedFrameRate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__NewInputFixedUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__DirectorFixedUpdate;
+struct __FixedUpdate__ClearLines;
 }
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {
@@ -106,7 +106,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__XRFixedUpdate);
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10517))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10439))
 // CS Name: ::FixedUpdate::ClearLines
 #pragma pack(push, 0)
 struct CORDL_TYPE __FixedUpdate__ClearLines {
@@ -134,7 +134,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10518))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10440))
 // CS Name: ::FixedUpdate::DirectorFixedSampleTime
 #pragma pack(push, 0)
 struct CORDL_TYPE __FixedUpdate__DirectorFixedSampleTime {
@@ -162,7 +162,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10519))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10441))
 // CS Name: ::FixedUpdate::AudioFixedUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __FixedUpdate__AudioFixedUpdate {
@@ -190,7 +190,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10520))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10442))
 // CS Name: ::FixedUpdate::ScriptRunBehaviourFixedUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __FixedUpdate__ScriptRunBehaviourFixedUpdate {
@@ -218,7 +218,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10521))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10443))
 // CS Name: ::FixedUpdate::DirectorFixedUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __FixedUpdate__DirectorFixedUpdate {
@@ -246,7 +246,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10522))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10444))
 // CS Name: ::FixedUpdate::LegacyFixedAnimationUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __FixedUpdate__LegacyFixedAnimationUpdate {
@@ -274,7 +274,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10523))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10445))
 // CS Name: ::FixedUpdate::XRFixedUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __FixedUpdate__XRFixedUpdate {
@@ -302,7 +302,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10524))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10446))
 // CS Name: ::FixedUpdate::PhysicsFixedUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __FixedUpdate__PhysicsFixedUpdate {
@@ -330,7 +330,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10525))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10447))
 // CS Name: ::FixedUpdate::Physics2DFixedUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __FixedUpdate__Physics2DFixedUpdate {
@@ -358,7 +358,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10526))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10448))
 // CS Name: ::FixedUpdate::PhysicsClothFixedUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __FixedUpdate__PhysicsClothFixedUpdate {
@@ -386,7 +386,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10527))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10449))
 // CS Name: ::FixedUpdate::DirectorFixedUpdatePostPhysics
 #pragma pack(push, 0)
 struct CORDL_TYPE __FixedUpdate__DirectorFixedUpdatePostPhysics {
@@ -414,7 +414,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10528))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10450))
 // CS Name: ::FixedUpdate::ScriptRunDelayedFixedFrameRate
 #pragma pack(push, 0)
 struct CORDL_TYPE __FixedUpdate__ScriptRunDelayedFixedFrameRate {
@@ -442,7 +442,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10529))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10451))
 // CS Name: ::FixedUpdate::NewInputFixedUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __FixedUpdate__NewInputFixedUpdate {
@@ -470,7 +470,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10530))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10452))
 // CS Name: ::UnityEngine.PlayerLoop::FixedUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE FixedUpdate {

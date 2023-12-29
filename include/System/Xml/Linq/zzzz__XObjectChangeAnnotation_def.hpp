@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(XObjectChangeAnnotation)
-namespace System::Xml::Linq {
-class XObjectChangeEventArgs;
-}
 namespace System {
 template <typename TEventArgs> class EventHandler_1;
+}
+namespace System::Xml::Linq {
+class XObjectChangeEventArgs;
 }
 // Forward declare root types
 namespace System::Xml::Linq {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Xml::Linq::XObjectChangeAnnotation);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15455))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15439))
 // CS Name: ::System.Xml.Linq::XObjectChangeAnnotation*
 class CORDL_TYPE XObjectChangeAnnotation : public ::System::Object {
 public:
@@ -68,6 +68,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XObjectChangeAnnotation, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XObjectChangeAnnotation, ___changing) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XObjectChangeAnnotation, ___changed) == 0x18, "Offset mismatch!");
 
 } // namespace System::Xml::Linq
 NEED_NO_BOX(::System::Xml::Linq::XObjectChangeAnnotation);

@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(JsonObjectAttribute)
 namespace Newtonsoft::Json {
-struct Required;
+struct MemberSerialization;
 }
 namespace Newtonsoft::Json {
-struct MemberSerialization;
+struct Required;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -24,9 +24,9 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonObjectAttribute);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11815)), TypeDefinitionIndex(TypeDefinitionIndex(11821)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
-// 4756 }), TypeDefinitionIndex(TypeDefinitionIndex(11811)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11818)) CS Name:
-// ::Newtonsoft.Json::JsonObjectAttribute*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11743)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 4657 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(11739)), TypeDefinitionIndex(TypeDefinitionIndex(2446)), TypeDefinitionIndex(TypeDefinitionIndex(11749))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(11746)) CS Name: ::Newtonsoft.Json::JsonObjectAttribute*
 class CORDL_TYPE JsonObjectAttribute : public ::Newtonsoft::Json::JsonContainerAttribute {
 public:
   // Declarations
@@ -52,31 +52,31 @@ public:
 
   constexpr void __set__itemRequired(::System::Nullable_1<::Newtonsoft::Json::Required> value);
 
-  /// @brief Method get_MemberSerialization addr 0x263f418 size 0x8 virtual false final false
+  /// @brief Method get_MemberSerialization addr 0x24dccd4 size 0x8 virtual false final false
   inline ::Newtonsoft::Json::MemberSerialization get_MemberSerialization();
 
-  /// @brief Method set_MemberSerialization addr 0x263f420 size 0x8 virtual false final false
+  /// @brief Method set_MemberSerialization addr 0x24dccdc size 0x8 virtual false final false
   inline void set_MemberSerialization(::Newtonsoft::Json::MemberSerialization value);
 
-  /// @brief Method get_ItemRequired addr 0x263f428 size 0x50 virtual false final false
+  /// @brief Method get_ItemRequired addr 0x24dcce4 size 0x50 virtual false final false
   inline ::Newtonsoft::Json::Required get_ItemRequired();
 
-  /// @brief Method set_ItemRequired addr 0x263f478 size 0x68 virtual false final false
+  /// @brief Method set_ItemRequired addr 0x24dcd34 size 0x68 virtual false final false
   inline void set_ItemRequired(::Newtonsoft::Json::Required value);
 
   static inline ::Newtonsoft::Json::JsonObjectAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x263f4e0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x24dcd9c size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::JsonObjectAttribute* New_ctor(::Newtonsoft::Json::MemberSerialization memberSerialization);
 
-  /// @brief Method .ctor addr 0x263f4e8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x24dcda4 size 0x28 virtual false final false
   inline void _ctor(::Newtonsoft::Json::MemberSerialization memberSerialization);
 
   static inline ::Newtonsoft::Json::JsonObjectAttribute* New_ctor(::StringW id);
 
-  /// @brief Method .ctor addr 0x263f510 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x24dcdcc size 0x28 virtual false final false
   inline void _ctor(::StringW id);
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonObjectAttribute", modifiers: "&&", def_value: None }]
@@ -103,6 +103,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonObjectAttribute, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonObjectAttribute, ____memberSerialization) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::JsonObjectAttribute, ____itemRequired) == 0x50, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json
 NEED_NO_BOX(::Newtonsoft::Json::JsonObjectAttribute);

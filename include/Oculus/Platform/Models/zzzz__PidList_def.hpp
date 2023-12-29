@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::PidList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13469)), TypeDefinitionIndex(TypeDefinitionIndex(13430)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst:
-// 1180 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13470)) CS Name: ::Oculus.Platform.Models::PidList*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13476)), TypeDefinitionIndex(TypeDefinitionIndex(13525)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13476), inst:
+// 1158 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13526)) CS Name: ::Oculus.Platform.Models::PidList*
 class CORDL_TYPE PidList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Pid*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::Models::PidList* New_ctor(void* a);
 
-  /// @brief Method .ctor addr 0x27080f8 size 0x23c virtual false final false
+  /// @brief Method .ctor addr 0x25b694c size 0x23c virtual false final false
   inline void _ctor(void* a);
 
   // Ctor Parameters [CppParam { name: "", ty: "PidList", modifiers: "&&", def_value: None }]

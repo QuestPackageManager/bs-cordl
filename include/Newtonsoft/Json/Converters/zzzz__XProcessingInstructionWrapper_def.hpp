@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XProcessingInstructionWrapper);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12065))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12063))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11993))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11991))
 // CS Name: ::Newtonsoft.Json.Converters::XProcessingInstructionWrapper*
 class CORDL_TYPE XProcessingInstructionWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
 public:
@@ -30,21 +30,21 @@ public:
 
   __declspec(property(get = get_Value, put = set_Value))::StringW Value;
 
-  /// @brief Method get_ProcessingInstruction addr 0x26bc8a4 size 0x78 virtual false final false
+  /// @brief Method get_ProcessingInstruction addr 0x2558160 size 0x78 virtual false final false
   inline ::System::Xml::Linq::XProcessingInstruction* get_ProcessingInstruction();
 
   static inline ::Newtonsoft::Json::Converters::XProcessingInstructionWrapper* New_ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction);
 
-  /// @brief Method .ctor addr 0x26bbb80 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x255743c size 0x6c virtual false final false
   inline void _ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction);
 
-  /// @brief Method get_LocalName addr 0x26bc91c size 0x1c virtual true final false
+  /// @brief Method get_LocalName addr 0x25581d8 size 0x1c virtual true final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Value addr 0x26bc938 size 0x1c virtual true final false
+  /// @brief Method get_Value addr 0x25581f4 size 0x1c virtual true final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value addr 0x26bc954 size 0x24 virtual true final false
+  /// @brief Method set_Value addr 0x2558210 size 0x24 virtual true final false
   inline void set_Value(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "XProcessingInstructionWrapper", modifiers: "&&", def_value: None }]

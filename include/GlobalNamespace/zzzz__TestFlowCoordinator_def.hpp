@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TestFlowCoordinator);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13582))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5529))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13699))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5622))
 // CS Name: ::TestFlowCoordinator*
 class CORDL_TYPE TestFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
@@ -68,12 +68,12 @@ public:
 
   constexpr void __set__topScreenViewController(::HMUI::ViewController* value);
 
-  /// @brief Method DidActivate addr 0x229e188 size 0x1c virtual true final false
+  /// @brief Method DidActivate addr 0x2159204 size 0x1c virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::TestFlowCoordinator* New_ctor();
 
-  /// @brief Method .ctor addr 0x229e1a4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2159220 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TestFlowCoordinator", modifiers: "&&", def_value: None }]
@@ -109,6 +109,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TestFlowCoordinator, 0xd0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TestFlowCoordinator, ____viewController) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TestFlowCoordinator, ____leftViewController) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TestFlowCoordinator, ____rightViewController) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TestFlowCoordinator, ____bottomScreenViewController) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TestFlowCoordinator, ____topScreenViewController) == 0xc8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TestFlowCoordinator);

@@ -13,13 +13,13 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace RootMotion::FinalIK {
-class __RotationLimitPolygonal__ReachCone;
-}
-namespace RootMotion::FinalIK {
 class __RotationLimitPolygonal__LimitPoint;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace RootMotion::FinalIK {
+class __RotationLimitPolygonal__ReachCone;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12625))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12553))
 // CS Name: ::RotationLimitPolygonal::ReachCone*
 class CORDL_TYPE __RotationLimitPolygonal__ReachCone : public ::System::Object {
 public:
@@ -91,27 +91,27 @@ public:
 
   constexpr void __set_B(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_o addr 0x1292788 size 0x2c virtual false final false
+  /// @brief Method get_o addr 0x122145c size 0x2c virtual false final false
   inline ::UnityEngine::Vector3 get_o();
 
-  /// @brief Method get_a addr 0x12927b4 size 0x30 virtual false final false
+  /// @brief Method get_a addr 0x1221488 size 0x30 virtual false final false
   inline ::UnityEngine::Vector3 get_a();
 
-  /// @brief Method get_b addr 0x12927e4 size 0x30 virtual false final false
+  /// @brief Method get_b addr 0x12214b8 size 0x30 virtual false final false
   inline ::UnityEngine::Vector3 get_b();
 
-  /// @brief Method get_c addr 0x1292814 size 0x30 virtual false final false
+  /// @brief Method get_c addr 0x12214e8 size 0x30 virtual false final false
   inline ::UnityEngine::Vector3 get_c();
 
   static inline ::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone* New_ctor(::UnityEngine::Vector3 _o, ::UnityEngine::Vector3 _a, ::UnityEngine::Vector3 _b, ::UnityEngine::Vector3 _c);
 
-  /// @brief Method .ctor addr 0x1292844 size 0x164 virtual false final false
+  /// @brief Method .ctor addr 0x1221518 size 0x164 virtual false final false
   inline void _ctor(::UnityEngine::Vector3 _o, ::UnityEngine::Vector3 _a, ::UnityEngine::Vector3 _b, ::UnityEngine::Vector3 _c);
 
-  /// @brief Method get_isValid addr 0x12929a8 size 0x10 virtual false final false
+  /// @brief Method get_isValid addr 0x122167c size 0x10 virtual false final false
   inline bool get_isValid();
 
-  /// @brief Method Calculate addr 0x12929b8 size 0x274 virtual false final false
+  /// @brief Method Calculate addr 0x122168c size 0x274 virtual false final false
   inline void Calculate();
 
   // Ctor Parameters [CppParam { name: "", ty: "__RotationLimitPolygonal__ReachCone", modifiers: "&&", def_value: None }]
@@ -145,13 +145,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone, ___tetrahedron) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone, ___volume) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone, ___S) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone, ___B) == 0x28, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: ::LimitPoint
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12626))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12554))
 // CS Name: ::RotationLimitPolygonal::LimitPoint*
 class CORDL_TYPE __RotationLimitPolygonal__LimitPoint : public ::System::Object {
 public:
@@ -176,7 +184,7 @@ public:
 
   static inline ::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint* New_ctor();
 
-  /// @brief Method .ctor addr 0x1292c2c size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x1221900 size 0x64 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__RotationLimitPolygonal__LimitPoint", modifiers: "&&", def_value: None }]
@@ -204,13 +212,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint, ___point) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint, ___tangentWeight) == 0x1c, "Offset mismatch!");
+
 } // namespace RootMotion::FinalIK
 // Type: RootMotion.FinalIK::RotationLimitPolygonal
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12622))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12627))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12550))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12555))
 // CS Name: ::RootMotion.FinalIK::RotationLimitPolygonal*
 class CORDL_TYPE RotationLimitPolygonal : public ::RootMotion::FinalIK::RotationLimit {
 public:
@@ -266,54 +278,54 @@ public:
 
   constexpr void __set_reachCones(::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*>*> value);
 
-  /// @brief Method OpenUserManual addr 0x128fe80 size 0x44 virtual false final false
+  /// @brief Method OpenUserManual addr 0x121eb54 size 0x44 virtual false final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference addr 0x128fec4 size 0x44 virtual false final false
+  /// @brief Method OpenScriptReference addr 0x121eb98 size 0x44 virtual false final false
   inline void OpenScriptReference();
 
-  /// @brief Method SupportGroup addr 0x128ff08 size 0x44 virtual false final false
+  /// @brief Method SupportGroup addr 0x121ebdc size 0x44 virtual false final false
   inline void SupportGroup();
 
-  /// @brief Method ASThread addr 0x128ff4c size 0x44 virtual false final false
+  /// @brief Method ASThread addr 0x121ec20 size 0x44 virtual false final false
   inline void ASThread();
 
-  /// @brief Method SetLimitPoints addr 0x128ff90 size 0x8c virtual false final false
+  /// @brief Method SetLimitPoints addr 0x121ec64 size 0x8c virtual false final false
   inline void SetLimitPoints(::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*>*> points);
 
-  /// @brief Method LimitRotation addr 0x12905d4 size 0x88 virtual true final false
+  /// @brief Method LimitRotation addr 0x121f2a8 size 0x88 virtual true final false
   inline ::UnityEngine::Quaternion LimitRotation(::UnityEngine::Quaternion rotation);
 
-  /// @brief Method Start addr 0x129065c size 0x350 virtual false final false
+  /// @brief Method Start addr 0x121f330 size 0x350 virtual false final false
   inline void Start();
 
-  /// @brief Method ResetToDefault addr 0x1290c50 size 0x4cc virtual false final false
+  /// @brief Method ResetToDefault addr 0x121f924 size 0x4cc virtual false final false
   inline void ResetToDefault();
 
-  /// @brief Method BuildReachCones addr 0x129001c size 0x5b8 virtual false final false
+  /// @brief Method BuildReachCones addr 0x121ecf0 size 0x5b8 virtual false final false
   inline void BuildReachCones();
 
-  /// @brief Method SmoothPoints addr 0x129111c size 0x430 virtual false final false
+  /// @brief Method SmoothPoints addr 0x121fdf0 size 0x430 virtual false final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> SmoothPoints();
 
-  /// @brief Method GetScalar addr 0x129154c size 0x48 virtual false final false
+  /// @brief Method GetScalar addr 0x1220220 size 0x48 virtual false final false
   inline float_t GetScalar(int32_t k);
 
-  /// @brief Method PointToTangentPlane addr 0x1291594 size 0x60 virtual false final false
+  /// @brief Method PointToTangentPlane addr 0x1220268 size 0x60 virtual false final false
   inline ::UnityEngine::Vector3 PointToTangentPlane(::UnityEngine::Vector3 p, float_t r);
 
-  /// @brief Method TangentPointToSphere addr 0x12915f4 size 0x6c virtual false final false
+  /// @brief Method TangentPointToSphere addr 0x12202c8 size 0x6c virtual false final false
   inline ::UnityEngine::Vector3 TangentPointToSphere(::UnityEngine::Vector3 q, float_t r);
 
-  /// @brief Method LimitSwing addr 0x12909ac size 0x2a4 virtual false final false
+  /// @brief Method LimitSwing addr 0x121f680 size 0x2a4 virtual false final false
   inline ::UnityEngine::Quaternion LimitSwing(::UnityEngine::Quaternion rotation);
 
-  /// @brief Method GetReachCone addr 0x1291660 size 0xcc virtual false final false
+  /// @brief Method GetReachCone addr 0x1220334 size 0xcc virtual false final false
   inline int32_t GetReachCone(::UnityEngine::Vector3 L);
 
   static inline ::RootMotion::FinalIK::RotationLimitPolygonal* New_ctor();
 
-  /// @brief Method .ctor addr 0x129172c size 0x105c virtual false final false
+  /// @brief Method .ctor addr 0x1220400 size 0x105c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RotationLimitPolygonal", modifiers: "&&", def_value: None }]
@@ -349,6 +361,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::RotationLimitPolygonal, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::RotationLimitPolygonal, ___twistLimit) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::RotationLimitPolygonal, ___smoothIterations) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::RotationLimitPolygonal, ___points) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::RotationLimitPolygonal, ___P) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::RotationLimitPolygonal, ___reachCones) == 0x50, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::RotationLimitPolygonal);

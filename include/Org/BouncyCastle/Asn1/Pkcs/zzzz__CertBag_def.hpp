@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(CertBag)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -54,26 +54,26 @@ public:
 
   constexpr void __set_certValue(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method GetInstance addr 0xf85da0 size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0xf0fb7c size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertBag* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertBag* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf85e44 size 0x13c virtual false final false
+  /// @brief Method .ctor addr 0xf0fc20 size 0x13c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertBag* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* certID, ::Org::BouncyCastle::Asn1::Asn1Object* certValue);
 
-  /// @brief Method .ctor addr 0xf85f80 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xf0fd5c size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* certID, ::Org::BouncyCastle::Asn1::Asn1Object* certValue);
 
-  /// @brief Method get_CertID addr 0xf85fac size 0x8 virtual true final false
+  /// @brief Method get_CertID addr 0xf0fd88 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_CertID();
 
-  /// @brief Method get_CertValue addr 0xf85fb4 size 0x8 virtual true final false
+  /// @brief Method get_CertValue addr 0xf0fd90 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_CertValue();
 
-  /// @brief Method ToAsn1Object addr 0xf85fbc size 0x120 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf0fd98 size 0x120 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertBag", modifiers: "&&", def_value: None }]
@@ -100,6 +100,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::CertBag, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::CertBag, ___certID) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::CertBag, ___certValue) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Pkcs::CertBag);

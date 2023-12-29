@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteTrailParticleSystem);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15889)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4872))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15781)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4990))
 // CS Name: ::NoteTrailParticleSystem*
 class CORDL_TYPE NoteTrailParticleSystem : public ::UnityEngine::MonoBehaviour {
 public:
@@ -46,15 +46,15 @@ public:
 
   constexpr void __set__emitParams(::UnityEngine::__ParticleSystem__EmitParams value);
 
-  /// @brief Method Awake addr 0x239af5c size 0x10 virtual false final false
+  /// @brief Method Awake addr 0x2265ff0 size 0x10 virtual false final false
   inline void Awake();
 
-  /// @brief Method Emit addr 0x239af6c size 0x110 virtual false final false
+  /// @brief Method Emit addr 0x2266000 size 0x110 virtual false final false
   inline void Emit(::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, int32_t count);
 
   static inline ::GlobalNamespace::NoteTrailParticleSystem* New_ctor();
 
-  /// @brief Method .ctor addr 0x239b07c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2266110 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteTrailParticleSystem", modifiers: "&&", def_value: None }]
@@ -81,6 +81,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteTrailParticleSystem, 0xb0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteTrailParticleSystem, ____particleSystem) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteTrailParticleSystem, ____emitParams) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteTrailParticleSystem);

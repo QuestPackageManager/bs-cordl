@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Net::Configuration::NetSectionGroup);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16263))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9574))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16086))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8410))
 // CS Name: ::System.Net.Configuration::NetSectionGroup*
 class CORDL_TYPE NetSectionGroup : public ::System::Configuration::ConfigurationSectionGroup {
 public:
   // Declarations
   static inline ::System::Net::Configuration::NetSectionGroup* New_ctor();
 
-  /// @brief Method .ctor addr 0x2944f4c size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x27c6e2c size 0x38 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSectionGroup", modifiers: "&&", def_value: None }]

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(RuntimeAugments)
-namespace Internal::Runtime::Augments {
-class ReflectionExecutionDomainCallbacks;
-}
 namespace System {
 class Exception;
+}
+namespace Internal::Runtime::Augments {
+class ReflectionExecutionDomainCallbacks;
 }
 // Forward declare root types
 namespace Internal::Runtime::Augments {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Internal::Runtime::Augments::RuntimeAugments);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Internal::Runtime::Augments {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2306))
 // CS Name: ::Internal.Runtime.Augments::RuntimeAugments*
 class CORDL_TYPE RuntimeAugments : public ::System::Object {
@@ -34,10 +34,10 @@ public:
 
   static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* getStaticF_s_reflectionExecutionDomainCallbacks();
 
-  /// @brief Method ReportUnhandledException addr 0x242c5d4 size 0x20 virtual false final false
+  /// @brief Method ReportUnhandledException addr 0x22d2b60 size 0x20 virtual false final false
   static inline void ReportUnhandledException(::System::Exception* exception);
 
-  /// @brief Method get_Callbacks addr 0x242c5f4 size 0x58 virtual false final false
+  /// @brief Method get_Callbacks addr 0x22d2b80 size 0x58 virtual false final false
   static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* get_Callbacks();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeAugments", modifiers: "&&", def_value: None }]

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Net::ResponseDescription);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9037))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7874))
 // CS Name: ::System.Net::ResponseDescription*
 class CORDL_TYPE ResponseDescription : public ::System::Object {
 public:
@@ -80,24 +80,24 @@ public:
 
   constexpr void __set_StatusCodeString(::StringW value);
 
-  /// @brief Method get_PositiveIntermediate addr 0x298ec08 size 0x14 virtual false final false
+  /// @brief Method get_PositiveIntermediate addr 0x2811398 size 0x14 virtual false final false
   inline bool get_PositiveIntermediate();
 
-  /// @brief Method get_PositiveCompletion addr 0x298ec1c size 0x14 virtual false final false
+  /// @brief Method get_PositiveCompletion addr 0x28113ac size 0x14 virtual false final false
   inline bool get_PositiveCompletion();
 
-  /// @brief Method get_TransientFailure addr 0x298ec30 size 0x14 virtual false final false
+  /// @brief Method get_TransientFailure addr 0x28113c0 size 0x14 virtual false final false
   inline bool get_TransientFailure();
 
-  /// @brief Method get_PermanentFailure addr 0x298ec44 size 0x14 virtual false final false
+  /// @brief Method get_PermanentFailure addr 0x28113d4 size 0x14 virtual false final false
   inline bool get_PermanentFailure();
 
-  /// @brief Method get_InvalidStatusCode addr 0x298ec58 size 0x14 virtual false final false
+  /// @brief Method get_InvalidStatusCode addr 0x28113e8 size 0x14 virtual false final false
   inline bool get_InvalidStatusCode();
 
   static inline ::System::Net::ResponseDescription* New_ctor();
 
-  /// @brief Method .ctor addr 0x298ec6c size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x28113fc size 0x70 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResponseDescription", modifiers: "&&", def_value: None }]
@@ -133,6 +133,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::ResponseDescription, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::ResponseDescription, ___Multiline) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ResponseDescription, ___Status) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ResponseDescription, ___StatusDescription) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ResponseDescription, ___StatusBuffer) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::ResponseDescription, ___StatusCodeString) == 0x28, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::ResponseDescription);

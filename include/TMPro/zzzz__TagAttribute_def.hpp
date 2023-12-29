@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TagAttribute);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12325))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12253))
 // CS Name: ::TMPro::TagAttribute
 struct CORDL_TYPE TagAttribute {
 public:
@@ -45,6 +45,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TagAttribute, 0xc>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TagAttribute, startIndex) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TagAttribute, length) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TagAttribute, hashCode) == 0x8, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TagAttribute, "TMPro", "TagAttribute");

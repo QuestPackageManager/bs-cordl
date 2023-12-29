@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Http::HttpCompletionOption);
 namespace System::Net::Http {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14645))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14862))
 // CS Name: ::System.Net.Http::HttpCompletionOption
 struct CORDL_TYPE HttpCompletionOption {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpCompletionOption, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpCompletionOption, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net::Http
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpCompletionOption, "System.Net.Http", "HttpCompletionOption");

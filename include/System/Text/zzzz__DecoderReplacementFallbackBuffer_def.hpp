@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Text::DecoderReplacementFallbackBuffer);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2834))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2837))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2830))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2833))
 // CS Name: ::System.Text::DecoderReplacementFallbackBuffer*
 class CORDL_TYPE DecoderReplacementFallbackBuffer : public ::System::Text::DecoderFallbackBuffer {
 public:
@@ -57,22 +57,22 @@ public:
 
   static inline ::System::Text::DecoderReplacementFallbackBuffer* New_ctor(::System::Text::DecoderReplacementFallback* fallback);
 
-  /// @brief Method .ctor addr 0x2632850 size 0x3c virtual false final false
+  /// @brief Method .ctor addr 0x24d8744 size 0x3c virtual false final false
   inline void _ctor(::System::Text::DecoderReplacementFallback* fallback);
 
-  /// @brief Method Fallback addr 0x2632948 size 0x44 virtual true final false
+  /// @brief Method Fallback addr 0x24d883c size 0x44 virtual true final false
   inline bool Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method GetNextChar addr 0x263298c size 0x50 virtual true final false
+  /// @brief Method GetNextChar addr 0x24d8880 size 0x50 virtual true final false
   inline char16_t GetNextChar();
 
-  /// @brief Method get_Remaining addr 0x26329dc size 0xc virtual true final false
+  /// @brief Method get_Remaining addr 0x24d88d0 size 0xc virtual true final false
   inline int32_t get_Remaining();
 
-  /// @brief Method Reset addr 0x26329e8 size 0x10 virtual true final false
+  /// @brief Method Reset addr 0x24d88dc size 0x10 virtual true final false
   inline void Reset();
 
-  /// @brief Method InternalFallback addr 0x26329f8 size 0x1c virtual true final false
+  /// @brief Method InternalFallback addr 0x24d88ec size 0x1c virtual true final false
   inline int32_t InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::cordl_internals::Ptr<uint8_t> pBytes);
 
   // Ctor Parameters [CppParam { name: "", ty: "DecoderReplacementFallbackBuffer", modifiers: "&&", def_value: None }]
@@ -102,6 +102,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::DecoderReplacementFallbackBuffer, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Text::DecoderReplacementFallbackBuffer, ____strDefault) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::DecoderReplacementFallbackBuffer, ____fallbackCount) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::DecoderReplacementFallbackBuffer, ____fallbackIndex) == 0x2c, "Offset mismatch!");
 
 } // namespace System::Text
 NEED_NO_BOX(::System::Text::DecoderReplacementFallbackBuffer);

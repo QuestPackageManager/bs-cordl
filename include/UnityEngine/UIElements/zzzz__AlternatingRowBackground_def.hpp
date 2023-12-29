@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::AlternatingRowBackground);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7140))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7226))
 // CS Name: ::UnityEngine.UIElements::AlternatingRowBackground
 struct CORDL_TYPE AlternatingRowBackground {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::AlternatingRowBackground, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::AlternatingRowBackground, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::AlternatingRowBackground, "UnityEngine.UIElements", "AlternatingRowBackground");

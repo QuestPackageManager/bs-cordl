@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IInstantiator)
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 class Object;
@@ -20,13 +20,13 @@ namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-class GameObject;
+struct Vector3;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 class Type;
-}
-namespace UnityEngine {
-class Transform;
 }
 namespace UnityEngine {
 class Component;
@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::Zenject::IInstantiator);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11167))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11095))
 // CS Name: ::Zenject::IInstantiator*
 class CORDL_TYPE IInstantiator {
 public:

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XDeclarationWrapper)
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
+}
+namespace System::Xml::Linq {
+class XDeclaration;
+}
 namespace System::Xml {
 struct XmlNodeType;
 }
 namespace Newtonsoft::Json::Converters {
-class IXmlNode;
-}
-namespace Newtonsoft::Json::Converters {
 class IXmlDeclaration;
-}
-namespace System::Xml::Linq {
-class XDeclaration;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XDeclarationWrapper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12065))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12058))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11993))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11986))
 // CS Name: ::Newtonsoft.Json.Converters::XDeclarationWrapper*
 class CORDL_TYPE XDeclarationWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
 public:
@@ -58,33 +58,33 @@ public:
 
   constexpr void __set__Declaration_k__BackingField(::System::Xml::Linq::XDeclaration* value);
 
-  /// @brief Method get_Declaration addr 0x26bae44 size 0x8 virtual false final false
+  /// @brief Method get_Declaration addr 0x2556700 size 0x8 virtual false final false
   inline ::System::Xml::Linq::XDeclaration* get_Declaration();
 
-  /// @brief Method set_Declaration addr 0x26bae4c size 0x8 virtual false final false
+  /// @brief Method set_Declaration addr 0x2556708 size 0x8 virtual false final false
   inline void set_Declaration(::System::Xml::Linq::XDeclaration* value);
 
   static inline ::Newtonsoft::Json::Converters::XDeclarationWrapper* New_ctor(::System::Xml::Linq::XDeclaration* declaration);
 
-  /// @brief Method .ctor addr 0x26bae54 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x2556710 size 0x6c virtual false final false
   inline void _ctor(::System::Xml::Linq::XDeclaration* declaration);
 
-  /// @brief Method get_NodeType addr 0x26baee8 size 0x8 virtual true final false
+  /// @brief Method get_NodeType addr 0x25567a4 size 0x8 virtual true final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Version addr 0x26baef0 size 0x1c virtual true final true
+  /// @brief Method get_Version addr 0x25567ac size 0x1c virtual true final true
   inline ::StringW get_Version();
 
-  /// @brief Method get_Encoding addr 0x26baf0c size 0x1c virtual true final true
+  /// @brief Method get_Encoding addr 0x25567c8 size 0x1c virtual true final true
   inline ::StringW get_Encoding();
 
-  /// @brief Method set_Encoding addr 0x26baf28 size 0x1c virtual true final true
+  /// @brief Method set_Encoding addr 0x25567e4 size 0x1c virtual true final true
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method get_Standalone addr 0x26baf44 size 0x1c virtual true final true
+  /// @brief Method get_Standalone addr 0x2556800 size 0x1c virtual true final true
   inline ::StringW get_Standalone();
 
-  /// @brief Method set_Standalone addr 0x26baf60 size 0x1c virtual true final true
+  /// @brief Method set_Standalone addr 0x255681c size 0x1c virtual true final true
   inline void set_Standalone(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "XDeclarationWrapper", modifiers: "&&", def_value: None }]
@@ -108,6 +108,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Converters::XDeclarationWrapper, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Converters::XDeclarationWrapper, ____Declaration_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Converters
 NEED_NO_BOX(::Newtonsoft::Json::Converters::XDeclarationWrapper);

@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Challenge);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13241)), TypeDefinitionIndex(TypeDefinitionIndex(13244)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2368))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13426)) CS Name: ::Oculus.Platform.Models::Challenge*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13243)), TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13246))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13467)) CS Name: ::Oculus.Platform.Models::Challenge*
 class CORDL_TYPE Challenge : public ::System::Object {
 public:
   // Declarations
@@ -140,7 +140,7 @@ public:
 
   static inline ::Oculus::Platform::Models::Challenge* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x2704fb0 size 0x228 virtual false final false
+  /// @brief Method .ctor addr 0x25b2090 size 0x228 virtual false final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "Challenge", modifiers: "&&", def_value: None }]
@@ -197,6 +197,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::Challenge, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Challenge, ___CreationType) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Challenge, ___Description) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Challenge, ___EndDate) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Challenge, ____cordl_ID) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Challenge, ___InvitedUsersOptional) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Challenge, ___InvitedUsers) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Challenge, ___Leaderboard) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Challenge, ___ParticipantsOptional) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Challenge, ___Participants) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Challenge, ___StartDate) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Challenge, ___Title) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::Challenge, ___Visibility) == 0x68, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::Challenge);

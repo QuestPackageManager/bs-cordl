@@ -12,10 +12,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ToolsInfo)
 namespace HoudiniEngineUnity {
-struct __HEU_ToolsInfo__PaintMergeMode;
+template <typename T> class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+struct __HEU_ToolsInfo__PaintMergeMode;
 }
 namespace HoudiniEngineUnity {
 struct __HEU_ToolsInfo__PaintMeshVisibility;
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ToolsInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9948))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9875))
 // CS Name: ::HEU_ToolsInfo::PaintMergeMode
 struct CORDL_TYPE __HEU_ToolsInfo__PaintMergeMode {
 public:
@@ -89,13 +89,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HoudiniEngineUnity
 // Type: ::PaintMeshVisibility
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9949))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9876))
 // CS Name: ::HEU_ToolsInfo::PaintMeshVisibility
 struct CORDL_TYPE __HEU_ToolsInfo__PaintMeshVisibility {
 public:
@@ -141,13 +143,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility, value__) == 0x0, "Offset mismatch!");
+
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_ToolsInfo
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(9948)), TypeDefinitionIndex(TypeDefinitionIndex(10210)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9949))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9950)) CS Name: ::HoudiniEngineUnity::HEU_ToolsInfo*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137)), TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(9875)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9876))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9877)) CS Name: ::HoudiniEngineUnity::HEU_ToolsInfo*
 class CORDL_TYPE HEU_ToolsInfo : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -347,12 +351,12 @@ public:
 
   constexpr void __set__paintMeshVisiblity(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility value);
 
-  /// @brief Method IsEquivalentTo addr 0x21e9694 size 0x620 virtual true final true
+  /// @brief Method IsEquivalentTo addr 0x2090cf8 size 0x620 virtual true final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ToolsInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_ToolsInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x21e9cb4 size 0x108 virtual false final false
+  /// @brief Method .ctor addr 0x2091318 size 0x108 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ToolsInfo", modifiers: "&&", def_value: None }]
@@ -436,6 +440,48 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_ToolsInfo, 0xa8>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____paintBrushSize) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____paintBrushOpacity) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____paintIntValue) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____paintFloatValue) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____paintStringValue) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____lastAttributesGeoID) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____lastAttributesPartID) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____lastAttributeNodeName) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____lastAttributeName) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____brushHandleColor) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____affectedAreaPaintColor) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____liveUpdate) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____isPainting) == 0x71, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____editPointBoxSize) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____editPointBoxUnselectedColor) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____editPointBoxSelectedColor) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____recacheRequired) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____paintMergeMode) == 0x9c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____showOnlyEditGeometry) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____alwaysCookUpstream) == 0xa1, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ToolsInfo, ____paintMeshVisiblity) == 0xa4, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode, "HoudiniEngineUnity", "HEU_ToolsInfo/PaintMergeMode");

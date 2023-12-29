@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Security::ISecurityEncodable);
 namespace System::Security {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2879))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2875))
 // CS Name: ::System.Security::ISecurityEncodable*
 class CORDL_TYPE ISecurityEncodable {
 public:

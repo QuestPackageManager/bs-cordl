@@ -17,23 +17,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CryptoStream)
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::IO {
+struct SeekOrigin;
+}
+namespace System {
+class Object;
+}
+namespace System::Security::Cryptography {
+struct __CryptoStream___WriteAsyncCore_d__49;
+}
 namespace System::Security::Cryptography {
 struct CryptoStreamMode;
 }
 namespace System::Security::Cryptography {
-struct __CryptoStream___WriteAsyncInternal_d__46;
+class __CryptoStream____c;
 }
 namespace System {
-class IDisposable;
+class AsyncCallback;
+}
+namespace System::Security::Cryptography {
+struct __CryptoStream___WriteAsyncInternal_d__46;
 }
 namespace System::Security::Cryptography {
 struct __CryptoStream___ReadAsyncInternal_d__37;
 }
 namespace System::Security::Cryptography {
-class __CryptoStream____c;
-}
-namespace System::Threading::Tasks {
-class Task;
+struct __CryptoStream___ReadAsyncCore_d__42;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -41,35 +53,26 @@ struct CancellationToken;
 namespace System {
 class IAsyncResult;
 }
-namespace System {
-class AsyncCallback;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace System::Security::Cryptography {
 class ICryptoTransform;
 }
-namespace System {
-class Object;
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Threading {
 class SemaphoreSlim;
 }
+namespace System {
+class IDisposable;
+}
 namespace System::IO {
-struct SeekOrigin;
-}
-namespace System::Security::Cryptography {
-struct __CryptoStream___ReadAsyncCore_d__42;
-}
-namespace System::Security::Cryptography {
-struct __CryptoStream___WriteAsyncCore_d__49;
+class Stream;
 }
 namespace System {
 template <typename TResult> class Func_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct ValueTaskAwaiter_1;
@@ -77,20 +80,17 @@ template <typename TResult> struct ValueTaskAwaiter_1;
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
 namespace System::Threading::Tasks {
 struct ForceAsyncAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct ValueTaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
@@ -125,19 +125,19 @@ MARK_VAL_T(::System::Security::Cryptography::__CryptoStream___WriteAsyncInternal
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2769)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2908)) CS Name: ::CryptoStream::<ReadAsyncInternal>d__37
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 101 }), TypeDefinitionIndex(TypeDefinitionIndex(2767)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 101 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2675))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2904)) CS Name: ::CryptoStream::<ReadAsyncInternal>d__37
 struct CORDL_TYPE __CryptoStream___ReadAsyncInternal_d__37 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x245873c size 0x3c4 virtual true final true
+  /// @brief Method MoveNext addr 0x22fec20 size 0x3c4 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x2458b00 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0x22fefe4 size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -194,24 +194,44 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::__CryptoStream___ReadAsyncInternal_d__37, 0x58>, "Size mismatch!");
 
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncInternal_d__37, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncInternal_d__37, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncInternal_d__37, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncInternal_d__37, buffer) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncInternal_d__37, offset) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncInternal_d__37, count) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncInternal_d__37, cancellationToken) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncInternal_d__37, _semaphore_5__2) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncInternal_d__37, __u__1) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncInternal_d__37, __u__2) == 0x50, "Offset mismatch!");
+
 } // namespace System::Security::Cryptography
 // Type: ::<ReadAsyncCore>d__42
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3391)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3391), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(2909)) CS Name: ::CryptoStream::<ReadAsyncCore>d__42
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3386)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2675)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 101 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3386), inst: 101 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(2905)) CS Name: ::CryptoStream::<ReadAsyncCore>d__42
 struct CORDL_TYPE __CryptoStream___ReadAsyncCore_d__42 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x2458b58 size 0x1100 virtual true final true
+  /// @brief Method MoveNext addr 0x22ff03c size 0x1100 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x2459cc0 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0x23001a4 size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -283,23 +303,51 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::__CryptoStream___ReadAsyncCore_d__42, 0x78>, "Size mismatch!");
 
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncCore_d__42, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncCore_d__42, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncCore_d__42, count) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncCore_d__42, offset) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncCore_d__42, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncCore_d__42, buffer) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncCore_d__42, useAsync) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncCore_d__42, cancellationToken) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncCore_d__42, _bytesToDeliver_5__2) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncCore_d__42, _currentOutputIndex_5__3) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncCore_d__42, _numWholeBlocksInBytes_5__4) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncCore_d__42, _tempInputBuffer_5__5) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncCore_d__42, _tempOutputBuffer_5__6) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAsyncCore_d__42, __u__1) == 0x68, "Offset mismatch!");
+
 } // namespace System::Security::Cryptography
 // Type: ::<WriteAsyncInternal>d__46
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(2769)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2910)) CS Name: ::CryptoStream::<WriteAsyncInternal>d__46
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(3388)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2767))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2906)) CS Name: ::CryptoStream::<WriteAsyncInternal>d__46
 struct CORDL_TYPE __CryptoStream___WriteAsyncInternal_d__46 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x2459d18 size 0x320 virtual true final true
+  /// @brief Method MoveNext addr 0x23001fc size 0x320 virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x245a038 size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0x230051c size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -356,13 +404,33 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::__CryptoStream___WriteAsyncInternal_d__46, 0x58>, "Size mismatch!");
 
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncInternal_d__46, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncInternal_d__46, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncInternal_d__46, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncInternal_d__46, buffer) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncInternal_d__46, offset) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncInternal_d__46, count) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncInternal_d__46, cancellationToken) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncInternal_d__46, _semaphore_5__2) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncInternal_d__46, __u__1) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncInternal_d__46, __u__2) == 0x50, "Offset mismatch!");
+
 } // namespace System::Security::Cryptography
 // Type: ::<WriteAsyncCore>d__49
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2911))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(3385)), TypeDefinitionIndex(TypeDefinitionIndex(3396))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2907))
 // CS Name: ::CryptoStream::<WriteAsyncCore>d__49
 struct CORDL_TYPE __CryptoStream___WriteAsyncCore_d__49 {
 public:
@@ -370,10 +438,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x245a044 size 0x11cc virtual true final true
+  /// @brief Method MoveNext addr 0x2300528 size 0x11cc virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x245b210 size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0x23016f4 size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -444,13 +512,41 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::__CryptoStream___WriteAsyncCore_d__49, 0x78>, "Size mismatch!");
 
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncCore_d__49, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncCore_d__49, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncCore_d__49, count) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncCore_d__49, offset) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncCore_d__49, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncCore_d__49, buffer) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncCore_d__49, useAsync) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncCore_d__49, cancellationToken) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncCore_d__49, _bytesToWrite_5__2) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncCore_d__49, _currentInputIndex_5__3) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncCore_d__49, _numOutputBytes_5__4) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncCore_d__49, __u__1) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncCore_d__49, _numWholeBlocksInBytes_5__5) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteAsyncCore_d__49, _tempOutputBuffer_5__6) == 0x70, "Offset mismatch!");
+
 } // namespace System::Security::Cryptography
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2912))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2908))
 // CS Name: ::CryptoStream::<>c*
 class CORDL_TYPE __CryptoStream____c : public ::System::Object {
 public:
@@ -471,10 +567,10 @@ public:
 
   static inline ::System::Security::Cryptography::__CryptoStream____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x245b280 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2301764 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <get_AsyncActiveSemaphore>b__54_0 addr 0x245b288 size 0x64 virtual false final false
+  /// @brief Method <get_AsyncActiveSemaphore>b__54_0 addr 0x230176c size 0x64 virtual false final false
   inline ::System::Threading::SemaphoreSlim* _get_AsyncActiveSemaphore_b__54_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CryptoStream____c", modifiers: "&&", def_value: None }]
@@ -501,8 +597,8 @@ static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2914)), TypeDefinitionIndex(TypeDefinitionIndex(3619))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2913))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3607)), TypeDefinitionIndex(TypeDefinitionIndex(2910))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2909))
 // CS Name: ::System.Security.Cryptography::CryptoStream*
 class CORDL_TYPE CryptoStream : public ::System::IO::Stream {
 public:
@@ -663,112 +759,112 @@ public:
   static inline ::System::Security::Cryptography::CryptoStream* New_ctor(::System::IO::Stream* stream, ::System::Security::Cryptography::ICryptoTransform* transform,
                                                                          ::System::Security::Cryptography::CryptoStreamMode mode);
 
-  /// @brief Method .ctor addr 0x24571bc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22fd6a0 size 0x8 virtual false final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Security::Cryptography::ICryptoTransform* transform, ::System::Security::Cryptography::CryptoStreamMode mode);
 
   static inline ::System::Security::Cryptography::CryptoStream* New_ctor(::System::IO::Stream* stream, ::System::Security::Cryptography::ICryptoTransform* transform,
                                                                          ::System::Security::Cryptography::CryptoStreamMode mode, bool leaveOpen);
 
-  /// @brief Method .ctor addr 0x24571c4 size 0x1c8 virtual false final false
+  /// @brief Method .ctor addr 0x22fd6a8 size 0x1c8 virtual false final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Security::Cryptography::ICryptoTransform* transform, ::System::Security::Cryptography::CryptoStreamMode mode, bool leaveOpen);
 
-  /// @brief Method get_CanRead addr 0x24574d8 size 0x8 virtual true final false
+  /// @brief Method get_CanRead addr 0x22fd9bc size 0x8 virtual true final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek addr 0x24574e0 size 0x8 virtual true final false
+  /// @brief Method get_CanSeek addr 0x22fd9c4 size 0x8 virtual true final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite addr 0x24574e8 size 0x8 virtual true final false
+  /// @brief Method get_CanWrite addr 0x22fd9cc size 0x8 virtual true final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length addr 0x24574f0 size 0x50 virtual true final false
+  /// @brief Method get_Length addr 0x22fd9d4 size 0x50 virtual true final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position addr 0x2457540 size 0x50 virtual true final false
+  /// @brief Method get_Position addr 0x22fda24 size 0x50 virtual true final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position addr 0x2457590 size 0x50 virtual true final false
+  /// @brief Method set_Position addr 0x22fda74 size 0x50 virtual true final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method get_HasFlushedFinalBlock addr 0x24575e0 size 0x8 virtual false final false
+  /// @brief Method get_HasFlushedFinalBlock addr 0x22fdac4 size 0x8 virtual false final false
   inline bool get_HasFlushedFinalBlock();
 
-  /// @brief Method FlushFinalBlock addr 0x24575e8 size 0x230 virtual false final false
+  /// @brief Method FlushFinalBlock addr 0x22fdacc size 0x230 virtual false final false
   inline void FlushFinalBlock();
 
-  /// @brief Method Flush addr 0x2457818 size 0x4 virtual true final false
+  /// @brief Method Flush addr 0x22fdcfc size 0x4 virtual true final false
   inline void Flush();
 
-  /// @brief Method FlushAsync addr 0x245781c size 0x168 virtual true final false
+  /// @brief Method FlushAsync addr 0x22fdd00 size 0x168 virtual true final false
   inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Seek addr 0x2457984 size 0x50 virtual true final false
+  /// @brief Method Seek addr 0x22fde68 size 0x50 virtual true final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength addr 0x24579d4 size 0x50 virtual true final false
+  /// @brief Method SetLength addr 0x22fdeb8 size 0x50 virtual true final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method ReadAsync addr 0x2457a24 size 0x48 virtual true final false
+  /// @brief Method ReadAsync addr 0x22fdf08 size 0x48 virtual true final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method BeginRead addr 0x2457cd8 size 0xb4 virtual true final false
+  /// @brief Method BeginRead addr 0x22fe1bc size 0xb4 virtual true final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method EndRead addr 0x2457d8c size 0x48 virtual true final false
+  /// @brief Method EndRead addr 0x22fe270 size 0x48 virtual true final false
   inline int32_t EndRead(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method ReadAsyncInternal addr 0x2457bb4 size 0x124 virtual false final false
+  /// @brief Method ReadAsyncInternal addr 0x22fe098 size 0x124 virtual false final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsyncInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count,
                                                                         ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadByte addr 0x2457dd4 size 0x7c virtual true final false
+  /// @brief Method ReadByte addr 0x22fe2b8 size 0x7c virtual true final false
   inline int32_t ReadByte();
 
-  /// @brief Method WriteByte addr 0x2457e50 size 0x54 virtual true final false
+  /// @brief Method WriteByte addr 0x22fe334 size 0x54 virtual true final false
   inline void WriteByte(uint8_t value);
 
-  /// @brief Method Read addr 0x2457ea4 size 0xc4 virtual true final false
+  /// @brief Method Read addr 0x22fe388 size 0xc4 virtual true final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method CheckReadArguments addr 0x2457a6c size 0x148 virtual false final false
+  /// @brief Method CheckReadArguments addr 0x22fdf50 size 0x148 virtual false final false
   inline void CheckReadArguments(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadAsyncCore addr 0x2457f68 size 0x144 virtual false final false
+  /// @brief Method ReadAsyncCore addr 0x22fe44c size 0x144 virtual false final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsyncCore(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count,
                                                                     ::System::Threading::CancellationToken cancellationToken, bool useAsync);
 
-  /// @brief Method WriteAsync addr 0x24580ac size 0x48 virtual true final false
+  /// @brief Method WriteAsync addr 0x22fe590 size 0x48 virtual true final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method BeginWrite addr 0x2458338 size 0xb4 virtual true final false
+  /// @brief Method BeginWrite addr 0x22fe81c size 0xb4 virtual true final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method EndWrite addr 0x24583ec size 0xc virtual true final false
+  /// @brief Method EndWrite addr 0x22fe8d0 size 0xc virtual true final false
   inline void EndWrite(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method WriteAsyncInternal addr 0x245823c size 0xfc virtual false final false
+  /// @brief Method WriteAsyncInternal addr 0x22fe720 size 0xfc virtual false final false
   inline ::System::Threading::Tasks::Task* WriteAsyncInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Write addr 0x24583f8 size 0x70 virtual true final false
+  /// @brief Method Write addr 0x22fe8dc size 0x70 virtual true final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method CheckWriteArguments addr 0x24580f4 size 0x148 virtual false final false
+  /// @brief Method CheckWriteArguments addr 0x22fe5d8 size 0x148 virtual false final false
   inline void CheckWriteArguments(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteAsyncCore addr 0x2458468 size 0x11c virtual false final false
+  /// @brief Method WriteAsyncCore addr 0x22fe94c size 0x11c virtual false final false
   inline ::System::Threading::Tasks::Task* WriteAsyncCore(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken,
                                                           bool useAsync);
 
-  /// @brief Method Clear addr 0x2458584 size 0x10 virtual false final false
+  /// @brief Method Clear addr 0x22fea68 size 0x10 virtual false final false
   inline void Clear();
 
-  /// @brief Method Dispose addr 0x2458594 size 0xb0 virtual true final false
+  /// @brief Method Dispose addr 0x22fea78 size 0xb0 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method InitializeBuffer addr 0x245738c size 0x14c virtual false final false
+  /// @brief Method InitializeBuffer addr 0x22fd870 size 0x14c virtual false final false
   inline void InitializeBuffer();
 
-  /// @brief Method get_AsyncActiveSemaphore addr 0x2458644 size 0xf8 virtual false final false
+  /// @brief Method get_AsyncActiveSemaphore addr 0x22feb28 size 0xf8 virtual false final false
   inline ::System::Threading::SemaphoreSlim* get_AsyncActiveSemaphore();
 
   // Ctor Parameters [CppParam { name: "", ty: "CryptoStream", modifiers: "&&", def_value: None }]
@@ -831,6 +927,34 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::CryptoStream, 0x78>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::CryptoStream, ____stream) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::CryptoStream, ____transform) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::CryptoStream, ____transformMode) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::CryptoStream, ____inputBuffer) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::CryptoStream, ____inputBufferIndex) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::CryptoStream, ____inputBlockSize) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::CryptoStream, ____outputBuffer) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::CryptoStream, ____outputBufferIndex) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::CryptoStream, ____outputBlockSize) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::CryptoStream, ____canRead) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::CryptoStream, ____canWrite) == 0x61, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::CryptoStream, ____finalBlockTransformed) == 0x62, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::CryptoStream, ____lazyAsyncActiveSemaphore) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::CryptoStream, ____leaveOpen) == 0x70, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::CryptoStream);

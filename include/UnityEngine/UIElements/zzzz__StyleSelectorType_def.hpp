@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSelectorType);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7282))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7368))
 // CS Name: ::UnityEngine.UIElements::StyleSelectorType
 struct CORDL_TYPE StyleSelectorType {
 public:
@@ -81,6 +81,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSelectorType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleSelectorType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSelectorType, "UnityEngine.UIElements", "StyleSelectorType");

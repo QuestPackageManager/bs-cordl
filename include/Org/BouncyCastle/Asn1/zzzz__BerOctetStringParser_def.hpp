@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BerOctetStringParser)
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1StreamParser;
@@ -14,10 +14,10 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetStringParser;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class IAsn1Convertible;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerOctetStringParser);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(485))
 // CS Name: ::Org.BouncyCastle.Asn1::BerOctetStringParser*
 class CORDL_TYPE BerOctetStringParser : public ::System::Object {
@@ -52,13 +52,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetStringParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method .ctor addr 0x11b6604 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x11453b4 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method GetOctetStream addr 0x11bd80c size 0x6c virtual true final true
+  /// @brief Method GetOctetStream addr 0x114c5bc size 0x6c virtual true final true
   inline ::System::IO::Stream* GetOctetStream();
 
-  /// @brief Method ToAsn1Object addr 0x11b662c size 0x168 virtual true final true
+  /// @brief Method ToAsn1Object addr 0x11453dc size 0x168 virtual true final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "BerOctetStringParser", modifiers: "&&", def_value: None }]
@@ -82,6 +82,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::BerOctetStringParser, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::BerOctetStringParser, ____parser) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::BerOctetStringParser);

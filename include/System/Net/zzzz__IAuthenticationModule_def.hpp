@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IAuthenticationModule)
 namespace System::Net {
-class Authorization;
+class ICredentials;
 }
 namespace System::Net {
-class ICredentials;
+class Authorization;
 }
 namespace System::Net {
 class WebRequest;
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Net::IAuthenticationModule);
 namespace System::Net {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9068))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7905))
 // CS Name: ::System.Net::IAuthenticationModule*
 class CORDL_TYPE IAuthenticationModule {
 public:

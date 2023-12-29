@@ -14,11 +14,11 @@ class User;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::User);
 // Type: Oculus.Platform.Models::User
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13395)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13484))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13434)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13546))
 // CS Name: ::Oculus.Platform.Models::User*
 class CORDL_TYPE User : public ::System::Object {
 public:
@@ -32,28 +32,31 @@ public:
   /// @brief Field ImageURL, offset 0x20, size 0x8
   __declspec(property(get = __get_ImageURL, put = __set_ImageURL))::StringW ImageURL;
 
-  /// @brief Field OculusID, offset 0x28, size 0x8
+  /// @brief Field InviteToken, offset 0x28, size 0x8
+  __declspec(property(get = __get_InviteToken, put = __set_InviteToken))::StringW InviteToken;
+
+  /// @brief Field OculusID, offset 0x30, size 0x8
   __declspec(property(get = __get_OculusID, put = __set_OculusID))::StringW OculusID;
 
-  /// @brief Field Presence, offset 0x30, size 0x8
+  /// @brief Field Presence, offset 0x38, size 0x8
   __declspec(property(get = __get_Presence, put = __set_Presence))::StringW Presence;
 
-  /// @brief Field PresenceDeeplinkMessage, offset 0x38, size 0x8
+  /// @brief Field PresenceDeeplinkMessage, offset 0x40, size 0x8
   __declspec(property(get = __get_PresenceDeeplinkMessage, put = __set_PresenceDeeplinkMessage))::StringW PresenceDeeplinkMessage;
 
-  /// @brief Field PresenceDestinationApiName, offset 0x40, size 0x8
+  /// @brief Field PresenceDestinationApiName, offset 0x48, size 0x8
   __declspec(property(get = __get_PresenceDestinationApiName, put = __set_PresenceDestinationApiName))::StringW PresenceDestinationApiName;
 
-  /// @brief Field PresenceLobbySessionId, offset 0x48, size 0x8
+  /// @brief Field PresenceLobbySessionId, offset 0x50, size 0x8
   __declspec(property(get = __get_PresenceLobbySessionId, put = __set_PresenceLobbySessionId))::StringW PresenceLobbySessionId;
 
-  /// @brief Field PresenceMatchSessionId, offset 0x50, size 0x8
+  /// @brief Field PresenceMatchSessionId, offset 0x58, size 0x8
   __declspec(property(get = __get_PresenceMatchSessionId, put = __set_PresenceMatchSessionId))::StringW PresenceMatchSessionId;
 
-  /// @brief Field PresenceStatus, offset 0x58, size 0x4
+  /// @brief Field PresenceStatus, offset 0x60, size 0x4
   __declspec(property(get = __get_PresenceStatus, put = __set_PresenceStatus))::Oculus::Platform::UserPresenceStatus PresenceStatus;
 
-  /// @brief Field SmallImageUrl, offset 0x60, size 0x8
+  /// @brief Field SmallImageUrl, offset 0x68, size 0x8
   __declspec(property(get = __get_SmallImageUrl, put = __set_SmallImageUrl))::StringW SmallImageUrl;
 
   constexpr ::StringW& __get_DisplayName();
@@ -73,6 +76,12 @@ public:
   constexpr ::StringW const& __get_ImageURL() const;
 
   constexpr void __set_ImageURL(::StringW value);
+
+  constexpr ::StringW& __get_InviteToken();
+
+  constexpr ::StringW const& __get_InviteToken() const;
+
+  constexpr void __set_InviteToken(::StringW value);
 
   constexpr ::StringW& __get_OculusID();
 
@@ -124,7 +133,7 @@ public:
 
   static inline ::Oculus::Platform::Models::User* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x270414c size 0x118 virtual false final false
+  /// @brief Method .ctor addr 0x25b0e68 size 0x128 virtual false final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "User", modifiers: "&&", def_value: None }]
@@ -150,34 +159,61 @@ public:
   /// @brief Field ImageURL, offset: 0x20, size: 0x8, def value: None
   ::StringW ___ImageURL;
 
-  /// @brief Field OculusID, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field InviteToken, offset: 0x28, size: 0x8, def value: None
+  ::StringW ___InviteToken;
+
+  /// @brief Field OculusID, offset: 0x30, size: 0x8, def value: None
   ::StringW ___OculusID;
 
-  /// @brief Field Presence, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field Presence, offset: 0x38, size: 0x8, def value: None
   ::StringW ___Presence;
 
-  /// @brief Field PresenceDeeplinkMessage, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field PresenceDeeplinkMessage, offset: 0x40, size: 0x8, def value: None
   ::StringW ___PresenceDeeplinkMessage;
 
-  /// @brief Field PresenceDestinationApiName, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field PresenceDestinationApiName, offset: 0x48, size: 0x8, def value: None
   ::StringW ___PresenceDestinationApiName;
 
-  /// @brief Field PresenceLobbySessionId, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field PresenceLobbySessionId, offset: 0x50, size: 0x8, def value: None
   ::StringW ___PresenceLobbySessionId;
 
-  /// @brief Field PresenceMatchSessionId, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field PresenceMatchSessionId, offset: 0x58, size: 0x8, def value: None
   ::StringW ___PresenceMatchSessionId;
 
-  /// @brief Field PresenceStatus, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field PresenceStatus, offset: 0x60, size: 0x4, def value: None
   ::Oculus::Platform::UserPresenceStatus ___PresenceStatus;
 
-  /// @brief Field SmallImageUrl, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field SmallImageUrl, offset: 0x68, size: 0x8, def value: None
   ::StringW ___SmallImageUrl;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::User, 0x68>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::User, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::User, ___DisplayName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::User, ____cordl_ID) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::User, ___ImageURL) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::User, ___InviteToken) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::User, ___OculusID) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::User, ___Presence) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::User, ___PresenceDeeplinkMessage) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::User, ___PresenceDestinationApiName) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::User, ___PresenceLobbySessionId) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::User, ___PresenceMatchSessionId) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::User, ___PresenceStatus) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::User, ___SmallImageUrl) == 0x68, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::User);

@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDeviceExecuteCommandDelegate)
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
+namespace System {
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
@@ -15,8 +15,8 @@ class IAsyncResult;
 namespace System {
 class Object;
 }
-namespace System {
-class AsyncCallback;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputDeviceCommand;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -28,24 +28,24 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDe
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6470))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6556))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputDeviceExecuteCommandDelegate*
 class CORDL_TYPE InputDeviceExecuteCommandDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2ae785c size 0xd4 virtual false final false
+  /// @brief Method .ctor addr 0x2967b14 size 0xd4 virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2ae7930 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2967be8 size 0x14 virtual true final false
   inline int64_t Invoke(ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command);
 
-  /// @brief Method BeginInvoke addr 0x2ae7944 size 0x8c virtual true final false
+  /// @brief Method BeginInvoke addr 0x2967bfc size 0x8c virtual true final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2ae79d0 size 0x2c virtual true final false
+  /// @brief Method EndInvoke addr 0x2967c88 size 0x2c virtual true final false
   inline int64_t EndInvoke(ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "InputDeviceExecuteCommandDelegate", modifiers: "&&", def_value: None }]

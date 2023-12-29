@@ -9,43 +9,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DiffieHellmanUtility)
 namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
-}
-namespace GlobalNamespace {
-class __DiffieHellmanUtility__ElipticalCurveKeyPair;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace GlobalNamespace {
-class __DiffieHellmanUtility__DiffieHellmanKeyPair;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
 }
 namespace GlobalNamespace {
 struct __DiffieHellmanUtility__KeyType;
 }
-namespace BGNet::Core {
-class ITaskUtility;
-}
-namespace GlobalNamespace {
-class __DiffieHellmanUtility__OperationTimer;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace Org::BouncyCastle::Crypto::Agreement {
-class DHBasicAgreement;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace BGNet::Core {
+class ITaskUtility;
 }
 namespace GlobalNamespace {
 class IDiffieHellmanKeyPair;
 }
+namespace GlobalNamespace {
+class __DiffieHellmanUtility__ElipticalCurveKeyPair;
+}
+namespace GlobalNamespace {
+class __DiffieHellmanUtility__DiffieHellmanKeyPair;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
 namespace Org::BouncyCastle::Crypto::Agreement {
 class ECDHBasicAgreement;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace GlobalNamespace {
+class __DiffieHellmanUtility__OperationTimer;
+}
+namespace Org::BouncyCastle::Crypto::Agreement {
+class DHBasicAgreement;
 }
 namespace GlobalNamespace {
 class __DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0;
@@ -53,11 +53,11 @@ class __DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0;
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHPrivateKeyParameters;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPrivateKeyParameters;
-}
 namespace GlobalNamespace {
 class __DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPrivateKeyParameters;
 }
 namespace System {
 class IDisposable;
@@ -100,7 +100,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__DiffieHellmanUtility__OperationTimer);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12712))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12640))
 // CS Name: ::DiffieHellmanUtility::KeyType
 struct CORDL_TYPE __DiffieHellmanUtility__KeyType {
 public:
@@ -142,13 +142,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DiffieHellmanUtility__KeyType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__KeyType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass5_0
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12713))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12641))
 // CS Name: ::DiffieHellmanUtility::DiffieHellmanKeyPair::<>c__DisplayClass5_0*
 class CORDL_TYPE __DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -173,10 +175,10 @@ public:
 
   static inline ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method .ctor addr 0xe3362c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdad614 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <GetPreMasterSecretAsync>b__0 addr 0xe3369c size 0x6c virtual false final false
+  /// @brief Method <GetPreMasterSecretAsync>b__0 addr 0xdad684 size 0x6c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> _GetPreMasterSecretAsync_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
@@ -204,13 +206,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0, ___clientPublicKey) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::DiffieHellmanKeyPair
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12714))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12642))
 // CS Name: ::DiffieHellmanUtility::DiffieHellmanKeyPair*
 class CORDL_TYPE __DiffieHellmanUtility__DiffieHellmanKeyPair : public ::System::Object {
 public:
@@ -240,20 +246,20 @@ public:
 
   constexpr void __set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_publicKey addr 0xe334d4 size 0x8 virtual true final true
+  /// @brief Method get_publicKey addr 0xdad4bc size 0x8 virtual true final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_publicKey();
 
   static inline ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair* New_ctor(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* privateKeyParameters,
                                                                                           ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
-  /// @brief Method .ctor addr 0xe32efc size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0xdacee4 size 0x98 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* privateKeyParameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
-  /// @brief Method GetPreMasterSecretAsync addr 0xe334dc size 0x150 virtual true final true
+  /// @brief Method GetPreMasterSecretAsync addr 0xdad4c4 size 0x150 virtual true final true
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* GetPreMasterSecretAsync(::BGNet::Core::ITaskUtility* taskUtility,
                                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
 
-  /// @brief Method GetPreMasterSecret addr 0xe33634 size 0x68 virtual true final true
+  /// @brief Method GetPreMasterSecret addr 0xdad61c size 0x68 virtual true final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DiffieHellmanUtility__DiffieHellmanKeyPair", modifiers: "&&", def_value: None }]
@@ -281,13 +287,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair, ____dhBasicAgreement) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair, ____publicKey) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass5_0
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12715))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12643))
 // CS Name: ::DiffieHellmanUtility::ElipticalCurveKeyPair::<>c__DisplayClass5_0*
 class CORDL_TYPE __DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -312,10 +322,10 @@ public:
 
   static inline ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method .ctor addr 0xe33860 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xdad848 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <GetPreMasterSecretAsync>b__0 addr 0xe338d0 size 0x6c virtual false final false
+  /// @brief Method <GetPreMasterSecretAsync>b__0 addr 0xdad8b8 size 0x6c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> _GetPreMasterSecretAsync_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
@@ -343,13 +353,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0, ___clientPublicKey) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ElipticalCurveKeyPair
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12716))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12644))
 // CS Name: ::DiffieHellmanUtility::ElipticalCurveKeyPair*
 class CORDL_TYPE __DiffieHellmanUtility__ElipticalCurveKeyPair : public ::System::Object {
 public:
@@ -379,20 +393,20 @@ public:
 
   constexpr void __set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_publicKey addr 0xe33708 size 0x8 virtual true final true
+  /// @brief Method get_publicKey addr 0xdad6f0 size 0x8 virtual true final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_publicKey();
 
   static inline ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair* New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKeyParameters,
                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
-  /// @brief Method .ctor addr 0xe32f94 size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0xdacf7c size 0x98 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKeyParameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
-  /// @brief Method GetPreMasterSecretAsync addr 0xe33710 size 0x150 virtual true final true
+  /// @brief Method GetPreMasterSecretAsync addr 0xdad6f8 size 0x150 virtual true final true
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* GetPreMasterSecretAsync(::BGNet::Core::ITaskUtility* taskUtility,
                                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
 
-  /// @brief Method GetPreMasterSecret addr 0xe33868 size 0x68 virtual true final true
+  /// @brief Method GetPreMasterSecret addr 0xdad850 size 0x68 virtual true final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DiffieHellmanUtility__ElipticalCurveKeyPair", modifiers: "&&", def_value: None }]
@@ -420,13 +434,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair, ____ecdhBasicAgreement) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair, ____publicKey) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OperationTimer
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12717))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12645))
 // CS Name: ::DiffieHellmanUtility::OperationTimer*
 class CORDL_TYPE __DiffieHellmanUtility__OperationTimer : public ::System::Object {
 public:
@@ -454,13 +472,13 @@ public:
 
   static inline ::GlobalNamespace::__DiffieHellmanUtility__OperationTimer* New_ctor(::StringW operationName);
 
-  /// @brief Method .ctor addr 0xe3393c size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0xdad924 size 0x84 virtual false final false
   inline void _ctor(::StringW operationName);
 
-  /// @brief Method Dispose addr 0xe339c0 size 0xe8 virtual true final true
+  /// @brief Method Dispose addr 0xdad9a8 size 0xe8 virtual true final true
   inline void Dispose();
 
-  /// @brief Method Time addr 0xe32ef4 size 0x8 virtual false final false
+  /// @brief Method Time addr 0xdacedc size 0x8 virtual false final false
   static inline ::GlobalNamespace::__DiffieHellmanUtility__OperationTimer* Time(::StringW operation);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DiffieHellmanUtility__OperationTimer", modifiers: "&&", def_value: None }]
@@ -488,13 +506,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DiffieHellmanUtility__OperationTimer, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__OperationTimer, ____stopwatch) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__OperationTimer, ____operationName) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::DiffieHellmanUtility
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12718))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12646))
 // CS Name: ::DiffieHellmanUtility*
 class CORDL_TYPE DiffieHellmanUtility : public ::System::Object {
 public:
@@ -535,24 +557,24 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF__ecPointFormats();
 
-  /// @brief Method GenerateKeysAsync addr 0xe32a4c size 0x194 virtual false final false
+  /// @brief Method GenerateKeysAsync addr 0xdaca34 size 0x194 virtual false final false
   static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>*
   GenerateKeysAsync(::BGNet::Core::ITaskUtility* taskUtility, ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::__DiffieHellmanUtility__KeyType keyType);
 
-  /// @brief Method GenerateKeys addr 0xe2efd4 size 0x64 virtual false final false
+  /// @brief Method GenerateKeys addr 0xda8fcc size 0x64 virtual false final false
   static inline ::GlobalNamespace::IDiffieHellmanKeyPair* GenerateKeys(::GlobalNamespace::__DiffieHellmanUtility__KeyType keyType);
 
-  /// @brief Method GenerateDiffieHellmanKeys addr 0xe32d70 size 0x184 virtual false final false
+  /// @brief Method GenerateDiffieHellmanKeys addr 0xdacd58 size 0x184 virtual false final false
   static inline ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair* GenerateDiffieHellmanKeys();
 
-  /// @brief Method GenerateElipticalCurveKeys addr 0xe32be0 size 0x190 virtual false final false
+  /// @brief Method GenerateElipticalCurveKeys addr 0xdacbc8 size 0x190 virtual false final false
   static inline ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair* GenerateElipticalCurveKeys();
 
-  /// @brief Method GetPreMasterSecret addr 0xe3302c size 0x19c virtual false final false
+  /// @brief Method GetPreMasterSecret addr 0xdad014 size 0x19c virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreMasterSecret(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* dhBasicAgreement,
                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
 
-  /// @brief Method GetPreMasterSecret addr 0xe331c8 size 0x1d0 virtual false final false
+  /// @brief Method GetPreMasterSecret addr 0xdad1b0 size 0x1d0 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreMasterSecret(::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* ecdhBasicAgreement,
                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
 

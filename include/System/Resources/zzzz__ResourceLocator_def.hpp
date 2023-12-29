@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceLocator)
-namespace System {
-class Object;
-}
 namespace System::Resources {
 struct ResourceTypeCode;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Resources {
@@ -22,7 +22,7 @@ MARK_VAL_T(::System::Resources::ResourceLocator);
 namespace System::Resources {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3439))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3434))
 // CS Name: ::System.Resources::ResourceLocator
 struct CORDL_TYPE ResourceLocator {
 public:
@@ -31,19 +31,19 @@ public:
 
   __declspec(property(get = get_Value, put = set_Value))::System::Object* Value;
 
-  /// @brief Method .ctor addr 0x24e0708 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x2387a68 size 0xc virtual false final false
   inline void _ctor(int32_t dataPos, ::System::Object* value);
 
-  /// @brief Method get_DataPosition addr 0x24e1f98 size 0x8 virtual false final false
+  /// @brief Method get_DataPosition addr 0x2387a74 size 0x8 virtual false final false
   inline int32_t get_DataPosition();
 
-  /// @brief Method get_Value addr 0x24e1fa0 size 0x8 virtual false final false
+  /// @brief Method get_Value addr 0x2387a7c size 0x8 virtual false final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method set_Value addr 0x24e1fa8 size 0x8 virtual false final false
+  /// @brief Method set_Value addr 0x2387a84 size 0x8 virtual false final false
   inline void set_Value(::System::Object* value);
 
-  /// @brief Method CanCache addr 0x24e06fc size 0xc virtual false final false
+  /// @brief Method CanCache addr 0x2387a8c size 0xc virtual false final false
   static inline bool CanCache(::System::Resources::ResourceTypeCode value);
 
   // Ctor Parameters [CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_dataPos", ty: "int32_t", modifiers: "", def_value: None }]
@@ -66,6 +66,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Resources::ResourceLocator, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceLocator, _value) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Resources::ResourceLocator, _dataPos) == 0x8, "Offset mismatch!");
 
 } // namespace System::Resources
 DEFINE_IL2CPP_ARG_TYPE(::System::Resources::ResourceLocator, "System.Resources", "ResourceLocator");

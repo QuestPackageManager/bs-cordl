@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::WaitForSeconds);
 // SizeInfo { instance_size: 24, native_size: 4, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10191))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10192))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10119))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10120))
 // CS Name: ::UnityEngine::WaitForSeconds*
 class CORDL_TYPE WaitForSeconds : public ::UnityEngine::YieldInstruction {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::WaitForSeconds* New_ctor(float_t seconds);
 
-  /// @brief Method .ctor addr 0x2ccd2e8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2b66de4 size 0x28 virtual false final false
   inline void _ctor(float_t seconds);
 
   // Ctor Parameters [CppParam { name: "", ty: "WaitForSeconds", modifiers: "&&", def_value: None }]
@@ -56,6 +56,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::WaitForSeconds, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::WaitForSeconds, ___m_Seconds) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::WaitForSeconds);

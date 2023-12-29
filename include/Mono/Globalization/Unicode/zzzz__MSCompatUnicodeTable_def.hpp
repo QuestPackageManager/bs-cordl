@@ -9,25 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MSCompatUnicodeTable)
 namespace Mono::Globalization::Unicode {
-class Level2Map;
-}
-namespace System {
-class Object;
-}
-namespace Mono::Globalization::Unicode {
-class Contraction;
-}
-namespace Mono::Globalization::Unicode {
 class __MSCompatUnicodeTable____c;
-}
-namespace Mono::Globalization::Unicode {
-class TailoringInfo;
 }
 namespace System::Globalization {
 class CultureInfo;
 }
 namespace Mono::Globalization::Unicode {
+class Level2Map;
+}
+namespace Mono::Globalization::Unicode {
+class TailoringInfo;
+}
+namespace Mono::Globalization::Unicode {
 class CodePointIndexer;
+}
+namespace Mono::Globalization::Unicode {
+class Contraction;
+}
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T> class Comparison_1;
@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::Mono::Globalization::Unicode::__MSCompatUnicodeTable____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2263))
 // CS Name: ::MSCompatUnicodeTable::<>c*
 class CORDL_TYPE __MSCompatUnicodeTable____c : public ::System::Object {
@@ -68,10 +68,10 @@ public:
 
   static inline ::Mono::Globalization::Unicode::__MSCompatUnicodeTable____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x241753c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22bdabc size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <BuildTailoringTables>b__17_0 addr 0x2417544 size 0x24 virtual false final false
+  /// @brief Method <BuildTailoringTables>b__17_0 addr 0x22bdac4 size 0x24 virtual false final false
   inline int32_t _BuildTailoringTables_b__17_0(::Mono::Globalization::Unicode::Level2Map* a, ::Mono::Globalization::Unicode::Level2Map* b);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MSCompatUnicodeTable____c", modifiers: "&&", def_value: None }]
@@ -98,7 +98,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Globalization::Unicode::__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2264))
 // CS Name: ::Mono.Globalization.Unicode::MSCompatUnicodeTable*
 class CORDL_TYPE MSCompatUnicodeTable : public ::System::Object {
@@ -240,69 +240,69 @@ public:
 
   static inline bool getStaticF_isReady();
 
-  /// @brief Method GetTailoringInfo addr 0x24156f4 size 0x104 virtual false final false
+  /// @brief Method GetTailoringInfo addr 0x22bbc74 size 0x104 virtual false final false
   static inline ::Mono::Globalization::Unicode::TailoringInfo* GetTailoringInfo(int32_t lcid);
 
-  /// @brief Method BuildTailoringTables addr 0x24157f8 size 0x750 virtual false final false
+  /// @brief Method BuildTailoringTables addr 0x22bbd78 size 0x750 virtual false final false
   static inline void BuildTailoringTables(::System::Globalization::CultureInfo* culture, ::Mono::Globalization::Unicode::TailoringInfo* t,
                                           ByRef<::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*>> contractions,
                                           ByRef<::ArrayW<::Mono::Globalization::Unicode::Level2Map*, ::Array<::Mono::Globalization::Unicode::Level2Map*>*>> diacriticals);
 
-  /// @brief Method SetCJKReferences addr 0x2415f48 size 0x238 virtual false final false
+  /// @brief Method SetCJKReferences addr 0x22bc4c8 size 0x238 virtual false final false
   static inline void SetCJKReferences(::StringW name, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ByRef<::cordl_internals::Ptr<uint8_t>> catTable,
                                       ByRef<::cordl_internals::Ptr<uint8_t>> lv1Table, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> lv2Indexer,
                                       ByRef<::cordl_internals::Ptr<uint8_t>> lv2Table);
 
-  /// @brief Method Category addr 0x2416180 size 0xa4 virtual false final false
+  /// @brief Method Category addr 0x22bc700 size 0xa4 virtual false final false
   static inline uint8_t Category(int32_t cp);
 
-  /// @brief Method Level1 addr 0x2416224 size 0xa4 virtual false final false
+  /// @brief Method Level1 addr 0x22bc7a4 size 0xa4 virtual false final false
   static inline uint8_t Level1(int32_t cp);
 
-  /// @brief Method Level2 addr 0x24162c8 size 0xa4 virtual false final false
+  /// @brief Method Level2 addr 0x22bc848 size 0xa4 virtual false final false
   static inline uint8_t Level2(int32_t cp);
 
-  /// @brief Method Level3 addr 0x241636c size 0xa4 virtual false final false
+  /// @brief Method Level3 addr 0x22bc8ec size 0xa4 virtual false final false
   static inline uint8_t Level3(int32_t cp);
 
-  /// @brief Method IsIgnorable addr 0x2416410 size 0x118 virtual false final false
+  /// @brief Method IsIgnorable addr 0x22bc990 size 0x118 virtual false final false
   static inline bool IsIgnorable(int32_t cp, uint8_t flag);
 
-  /// @brief Method IsIgnorableNonSpacing addr 0x2416528 size 0x58 virtual false final false
+  /// @brief Method IsIgnorableNonSpacing addr 0x22bcaa8 size 0x58 virtual false final false
   static inline bool IsIgnorableNonSpacing(int32_t cp);
 
-  /// @brief Method ToKanaTypeInsensitive addr 0x2416580 size 0x20 virtual false final false
+  /// @brief Method ToKanaTypeInsensitive addr 0x22bcb00 size 0x20 virtual false final false
   static inline int32_t ToKanaTypeInsensitive(int32_t i);
 
-  /// @brief Method ToWidthCompat addr 0x24165a0 size 0x18c virtual false final false
+  /// @brief Method ToWidthCompat addr 0x22bcb20 size 0x18c virtual false final false
   static inline int32_t ToWidthCompat(int32_t i);
 
-  /// @brief Method HasSpecialWeight addr 0x241672c size 0x80 virtual false final false
+  /// @brief Method HasSpecialWeight addr 0x22bccac size 0x80 virtual false final false
   static inline bool HasSpecialWeight(char16_t c);
 
-  /// @brief Method IsHalfWidthKana addr 0x24167ac size 0x14 virtual false final false
+  /// @brief Method IsHalfWidthKana addr 0x22bcd2c size 0x14 virtual false final false
   static inline bool IsHalfWidthKana(char16_t c);
 
-  /// @brief Method IsHiragana addr 0x24167c0 size 0x18 virtual false final false
+  /// @brief Method IsHiragana addr 0x22bcd40 size 0x18 virtual false final false
   static inline bool IsHiragana(char16_t c);
 
-  /// @brief Method IsJapaneseSmallLetter addr 0x24167d8 size 0xe8 virtual false final false
+  /// @brief Method IsJapaneseSmallLetter addr 0x22bcd58 size 0xe8 virtual false final false
   static inline bool IsJapaneseSmallLetter(char16_t c);
 
-  /// @brief Method get_IsReady addr 0x24168c0 size 0x58 virtual false final false
+  /// @brief Method get_IsReady addr 0x22bce40 size 0x58 virtual false final false
   static inline bool get_IsReady();
 
-  /// @brief Method GetResource addr 0x2416918 size 0xb8 virtual false final false
+  /// @brief Method GetResource addr 0x22bce98 size 0xb8 virtual false final false
   static inline void* GetResource(::StringW name);
 
-  /// @brief Method UInt32FromBytePtr addr 0x24169d0 size 0x30 virtual false final false
+  /// @brief Method UInt32FromBytePtr addr 0x22bcf50 size 0x30 virtual false final false
   static inline uint32_t UInt32FromBytePtr(::cordl_internals::Ptr<uint8_t> raw, uint32_t idx);
 
-  /// @brief Method FillCJK addr 0x2416eac size 0x164 virtual false final false
+  /// @brief Method FillCJK addr 0x22bd42c size 0x164 virtual false final false
   static inline void FillCJK(::StringW culture, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ByRef<::cordl_internals::Ptr<uint8_t>> catTable,
                              ByRef<::cordl_internals::Ptr<uint8_t>> lv1Table, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> lv2Indexer, ByRef<::cordl_internals::Ptr<uint8_t>> lv2Table);
 
-  /// @brief Method FillCJKCore addr 0x2417010 size 0x4c8 virtual false final false
+  /// @brief Method FillCJKCore addr 0x22bd590 size 0x4c8 virtual false final false
   static inline void FillCJKCore(::StringW culture, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ByRef<::cordl_internals::Ptr<uint8_t>> catTable,
                                  ByRef<::cordl_internals::Ptr<uint8_t>> lv1Table, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkLv2Indexer,
                                  ByRef<::cordl_internals::Ptr<uint8_t>> lv2Table);

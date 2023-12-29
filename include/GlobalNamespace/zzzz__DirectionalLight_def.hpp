@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DirectionalLight);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14496))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14714))
 // CS Name: ::DirectionalLight*
 class CORDL_TYPE DirectionalLight : public ::UnityEngine::MonoBehaviour {
 public:
@@ -67,18 +67,18 @@ public:
 
   static inline ::GlobalNamespace::DirectionalLight* getStaticF__mainLight();
 
-  /// @brief Method get_lights addr 0x210b294 size 0x58 virtual false final false
+  /// @brief Method get_lights addr 0x1fb5db0 size 0x58 virtual false final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>* get_lights();
 
-  /// @brief Method OnEnable addr 0x210b2ec size 0xd0 virtual false final false
+  /// @brief Method OnEnable addr 0x1fb5e08 size 0xd0 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x210b3bc size 0x80 virtual false final false
+  /// @brief Method OnDisable addr 0x1fb5ed8 size 0x80 virtual false final false
   inline void OnDisable();
 
   static inline ::GlobalNamespace::DirectionalLight* New_ctor();
 
-  /// @brief Method .ctor addr 0x210b43c size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x1fb5f58 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DirectionalLight", modifiers: "&&", def_value: None }]
@@ -111,6 +111,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DirectionalLight, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DirectionalLight, ___color) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DirectionalLight, ___intensity) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DirectionalLight, ___radius) == 0x2c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DirectionalLight);

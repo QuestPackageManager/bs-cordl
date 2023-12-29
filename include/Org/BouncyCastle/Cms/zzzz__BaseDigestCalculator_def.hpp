@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::BaseDigestCalculator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(611))
 // CS Name: ::Org.BouncyCastle.Cms::BaseDigestCalculator*
 class CORDL_TYPE BaseDigestCalculator : public ::System::Object {
@@ -39,10 +39,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::BaseDigestCalculator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method .ctor addr 0x11d81ac size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1166f5c size 0x28 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method GetDigest addr 0x11d81d4 size 0x5c virtual true final true
+  /// @brief Method GetDigest addr 0x1166f84 size 0x5c virtual true final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseDigestCalculator", modifiers: "&&", def_value: None }]
@@ -66,6 +66,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::BaseDigestCalculator, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::BaseDigestCalculator, ___digest) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::BaseDigestCalculator);

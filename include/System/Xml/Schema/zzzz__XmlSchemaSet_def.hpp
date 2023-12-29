@@ -4,14 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(XmlSchemaSet)
+namespace System::Xml {
+class XmlReaderSettings;
+}
 namespace System::Xml::Schema {
-class XmlSchemaCompilationSettings;
+class ValidationEventHandler;
+}
+namespace System::Xml::Schema {
+class SchemaInfo;
+}
+namespace System {
+class Object;
 }
 namespace System::Xml {
 class XmlNameTable;
-}
-namespace System::Xml::Schema {
-class ValidationEventArgs;
 }
 namespace System::Collections {
 class SortedList;
@@ -20,16 +26,10 @@ namespace System::Collections {
 class Hashtable;
 }
 namespace System::Xml::Schema {
-class ValidationEventHandler;
-}
-namespace System {
-class Object;
+class ValidationEventArgs;
 }
 namespace System::Xml::Schema {
-class SchemaInfo;
-}
-namespace System::Xml {
-class XmlReaderSettings;
+class XmlSchemaCompilationSettings;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSet);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11736))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11664))
 // CS Name: ::System.Xml.Schema::XmlSchemaSet*
 class CORDL_TYPE XmlSchemaSet : public ::System::Object {
 public:
@@ -148,15 +148,15 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaSet* New_ctor();
 
-  /// @brief Method .ctor addr 0x28c8db0 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x274ad8c size 0x64 virtual false final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::XmlSchemaSet* New_ctor(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method .ctor addr 0x28c8e14 size 0x288 virtual false final false
+  /// @brief Method .ctor addr 0x274adf0 size 0x288 virtual false final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method InternalValidationCallback addr 0x28c909c size 0x44 virtual false final false
+  /// @brief Method InternalValidationCallback addr 0x274b078 size 0x44 virtual false final false
   inline void InternalValidationCallback(::System::Object* sender, ::System::Xml::Schema::ValidationEventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSet", modifiers: "&&", def_value: None }]
@@ -210,6 +210,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaSet, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaSet, ___nameTable) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaSet, ___schemas) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaSet, ___internalEventHandler) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaSet, ___eventHandler) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaSet, ___schemaLocations) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaSet, ___chameleonSchemas) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaSet, ___targetNamespaces) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaSet, ___compileAll) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaSet, ___cachedCompiledInfo) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaSet, ___readerSettings) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaSet, ___compilationSettings) == 0x60, "Offset mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaSet);

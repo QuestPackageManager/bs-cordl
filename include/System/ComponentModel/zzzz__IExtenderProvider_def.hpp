@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::ComponentModel::IExtenderProvider);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9432))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8269))
 // CS Name: ::System.ComponentModel::IExtenderProvider*
 class CORDL_TYPE IExtenderProvider {
 public:

@@ -3,11 +3,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IContributeObjectSink)
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
-}
 namespace System {
 class MarshalByRefObject;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Contexts {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IContributeObjectSink);
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3110))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3109))
 // CS Name: ::System.Runtime.Remoting.Contexts::IContributeObjectSink*
 class CORDL_TYPE IContributeObjectSink {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::TimeWindow);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13392))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13431))
 // CS Name: ::Oculus.Platform::TimeWindow
 struct CORDL_TYPE TimeWindow {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::TimeWindow, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::TimeWindow, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::TimeWindow, "Oculus.Platform", "TimeWindow");

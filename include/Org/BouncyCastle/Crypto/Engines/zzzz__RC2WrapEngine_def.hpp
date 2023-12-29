@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RC2WrapEngine)
-namespace Org::BouncyCastle::Crypto::Modes {
-class CbcBlockCipher;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ParametersWithIV;
@@ -16,14 +16,14 @@ class ParametersWithIV;
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto {
+class IWrapper;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Crypto {
-class IWrapper;
+namespace Org::BouncyCastle::Crypto::Modes {
+class CbcBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(855))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RC2WrapEngine*
 class CORDL_TYPE RC2WrapEngine : public ::System::Object {
@@ -125,27 +125,27 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_IV2();
 
-  /// @brief Method Init addr 0xed95e0 size 0x2c0 virtual true final false
+  /// @brief Method Init addr 0xe6440c size 0x2c0 virtual true final false
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName addr 0xed98a0 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xe646cc size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Wrap addr 0xed98e0 size 0x478 virtual true final false
+  /// @brief Method Wrap addr 0xe6470c size 0x478 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Unwrap addr 0xed9ed8 size 0x5c0 virtual true final false
+  /// @brief Method Unwrap addr 0xe64d04 size 0x5c0 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method CalculateCmsKeyChecksum addr 0xed9d58 size 0x180 virtual false final false
+  /// @brief Method CalculateCmsKeyChecksum addr 0xe64b84 size 0x180 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateCmsKeyChecksum(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method CheckCmsKeyChecksum addr 0xeda498 size 0x80 virtual false final false
+  /// @brief Method CheckCmsKeyChecksum addr 0xe652c4 size 0x80 virtual false final false
   inline bool CheckCmsKeyChecksum(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> checksum);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine* New_ctor();
 
-  /// @brief Method .ctor addr 0xeda5ac size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0xe653d8 size 0x8c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RC2WrapEngine", modifiers: "&&", def_value: None }]
@@ -190,6 +190,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, ___engine) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, ___parameters) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, ___paramPlusIV) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, ___iv) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, ___forWrapping) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, ___sr) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, ___sha1) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine, ___digest) == 0x48, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine);

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ComponentModel::DesignerSerializationVisibility);
 namespace System::ComponentModel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9391))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8228))
 // CS Name: ::System.ComponentModel::DesignerSerializationVisibility
 struct CORDL_TYPE DesignerSerializationVisibility {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::DesignerSerializationVisibility, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::DesignerSerializationVisibility, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::DesignerSerializationVisibility, "System.ComponentModel", "DesignerSerializationVisibility");

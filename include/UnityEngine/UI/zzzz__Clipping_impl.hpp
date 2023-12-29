@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__Clipping_def.hpp"
-#include "UnityEngine/UI/zzzz__RectMask2D_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/UI/zzzz__RectMask2D_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::Clipping.FindCullAndClipWorldRect
 template <>
@@ -10,9 +10,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (*)(::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>*, ByRef<bool>)>(
     &::UnityEngine::UI::Clipping::FindCullAndClipWorldRect)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x2d53358;
+  constexpr static std::size_t addrs = 0x2beafa8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Clipping*>::get(), "FindCullAndClipWorldRect", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>*>::get(),

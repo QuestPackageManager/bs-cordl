@@ -13,8 +13,8 @@ template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
 namespace System::Collections {
 class IEnumerable;
 }
-namespace Priority_Queue {
-template <typename T> class __StablePriorityQueue_1___GetEnumerator_d__22;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -25,14 +25,14 @@ class IEnumerator;
 namespace Priority_Queue {
 template <typename TItem, typename TPriority> class IPriorityQueue_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-class IDisposable;
+namespace Priority_Queue {
+template <typename T> class __StablePriorityQueue_1___GetEnumerator_d__22;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace Priority_Queue {
@@ -50,8 +50,8 @@ namespace Priority_Queue {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6102))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6173))
 // CS Name: ::StablePriorityQueue`1::<GetEnumerator>d__22<T>*
 class CORDL_TYPE __StablePriorityQueue_1___GetEnumerator_d__22 : public ::System::Object {
 public:
@@ -161,8 +161,8 @@ namespace Priority_Queue {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6103))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6174))
 // CS Name: ::Priority_Queue::StablePriorityQueue`1<T>*
 class CORDL_TYPE StablePriorityQueue_1 : public ::System::Object {
 public:

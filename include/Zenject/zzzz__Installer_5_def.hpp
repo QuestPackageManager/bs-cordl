@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__InstallerBase_def.hpp"
 CORDL_MODULE_EXPORT(Installer_5)
 namespace Zenject {
-class DiContainer;
+class InjectTypeInfo;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -22,8 +22,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TDerived>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11135))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11065))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11063))
 // CS Name: ::Zenject::Installer`5<TParam1,TParam2,TParam3,TParam4,TDerived>*
 class CORDL_TYPE Installer_5 : public ::Zenject::InstallerBase {
 public:

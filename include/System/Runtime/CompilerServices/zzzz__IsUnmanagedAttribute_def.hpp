@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::IsUnmanagedAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7502))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8423))
 // CS Name: ::System.Runtime.CompilerServices::IsUnmanagedAttribute*
 class CORDL_TYPE IsUnmanagedAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::IsUnmanagedAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x270ca8c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x25b966c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IsUnmanagedAttribute", modifiers: "&&", def_value: None }]

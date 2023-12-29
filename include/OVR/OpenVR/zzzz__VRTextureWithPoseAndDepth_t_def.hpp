@@ -18,8 +18,8 @@ MARK_VAL_T(::OVR::OpenVR::VRTextureWithPoseAndDepth_t);
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8661))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8663))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9430))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9432))
 // CS Name: ::OVR.OpenVR::VRTextureWithPoseAndDepth_t
 struct CORDL_TYPE VRTextureWithPoseAndDepth_t {
 public:
@@ -41,6 +41,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VRTextureWithPoseAndDepth_t, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::OVR::OpenVR::VRTextureWithPoseAndDepth_t, depth) == 0x0, "Offset mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VRTextureWithPoseAndDepth_t, "OVR.OpenVR", "VRTextureWithPoseAndDepth_t");

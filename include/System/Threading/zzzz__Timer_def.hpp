@@ -7,41 +7,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Timer)
-namespace System::Threading::Tasks {
-struct ValueTask;
-}
-namespace System {
-struct TimeSpan;
-}
 namespace System {
 class IDisposable;
-}
-namespace System::Threading {
-struct __Timer__TimerComparer;
 }
 namespace System {
 class Object;
 }
-namespace System::Threading {
-class __Timer__Scheduler;
-}
 namespace System {
-class IAsyncDisposable;
+struct TimeSpan;
 }
 namespace System::Threading {
 class TimerCallback;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System::Threading {
+class __Timer__Scheduler;
+}
+namespace System::Threading {
+struct __Timer__TimerComparer;
 }
 namespace System::Threading {
 class ManualResetEvent;
 }
 namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
+template <typename T> class List_1;
 }
 namespace System::Collections {
 class IComparer;
+}
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -62,7 +56,7 @@ MARK_VAL_T(::System::Threading::__Timer__TimerComparer);
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2748))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2746))
 // CS Name: ::Timer::TimerComparer
 #pragma pack(push, 0)
 struct CORDL_TYPE __Timer__TimerComparer {
@@ -74,10 +68,10 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::System::Threading::Timer*>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::System::Threading::Timer*>*();
 
-  /// @brief Method System.Collections.IComparer.Compare addr 0x262002c size 0x98 virtual true final true
+  /// @brief Method System.Collections.IComparer.Compare addr 0x24c5f78 size 0x98 virtual true final true
   inline int32_t System_Collections_IComparer_Compare(::System::Object* x, ::System::Object* y);
 
-  /// @brief Method Compare addr 0x26200c4 size 0x70 virtual true final true
+  /// @brief Method Compare addr 0x24c6010 size 0x70 virtual true final true
   inline int32_t Compare(::System::Threading::Timer* tx, ::System::Threading::Timer* ty);
 
   // Ctor Parameters []
@@ -101,8 +95,8 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::__Timer__Time
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2749))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2747))
 // CS Name: ::Timer::Scheduler*
 class CORDL_TYPE __Timer__Scheduler : public ::System::Object {
 public:
@@ -150,42 +144,42 @@ public:
 
   static inline ::System::Threading::__Timer__Scheduler* getStaticF_instance();
 
-  /// @brief Method InitScheduler addr 0x2620134 size 0xf4 virtual false final false
+  /// @brief Method InitScheduler addr 0x24c6080 size 0xf4 virtual false final false
   inline void InitScheduler();
 
-  /// @brief Method WakeupScheduler addr 0x2620228 size 0x1c virtual false final false
+  /// @brief Method WakeupScheduler addr 0x24c6174 size 0x1c virtual false final false
   inline void WakeupScheduler();
 
-  /// @brief Method SchedulerThread addr 0x2620244 size 0x138 virtual false final false
+  /// @brief Method SchedulerThread addr 0x24c6190 size 0x138 virtual false final false
   inline void SchedulerThread();
 
-  /// @brief Method get_Instance addr 0x2620690 size 0x58 virtual false final false
+  /// @brief Method get_Instance addr 0x24c65dc size 0x58 virtual false final false
   static inline ::System::Threading::__Timer__Scheduler* get_Instance();
 
   static inline ::System::Threading::__Timer__Scheduler* New_ctor();
 
-  /// @brief Method .ctor addr 0x26206e8 size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0x24c6634 size 0x9c virtual false final false
   inline void _ctor();
 
-  /// @brief Method Remove addr 0x261fd34 size 0xcc virtual false final false
+  /// @brief Method Remove addr 0x24c5d14 size 0xcc virtual false final false
   inline void Remove(::System::Threading::Timer* timer);
 
-  /// @brief Method Change addr 0x261fe04 size 0x190 virtual false final false
+  /// @brief Method Change addr 0x24c5de4 size 0x190 virtual false final false
   inline void Change(::System::Threading::Timer* timer, int64_t new_next_run);
 
-  /// @brief Method Add addr 0x26207b4 size 0xf0 virtual false final false
+  /// @brief Method Add addr 0x24c6700 size 0xf0 virtual false final false
   inline void Add(::System::Threading::Timer* timer);
 
-  /// @brief Method InternalRemove addr 0x2620784 size 0x30 virtual false final false
+  /// @brief Method InternalRemove addr 0x24c66d0 size 0x30 virtual false final false
   inline void InternalRemove(::System::Threading::Timer* timer);
 
-  /// @brief Method TimerCB addr 0x26208a4 size 0x78 virtual false final false
+  /// @brief Method TimerCB addr 0x24c67f0 size 0x78 virtual false final false
   static inline void TimerCB(::System::Object* o);
 
-  /// @brief Method FireTimer addr 0x262091c size 0xc8 virtual false final false
+  /// @brief Method FireTimer addr 0x24c6868 size 0xc8 virtual false final false
   inline void FireTimer(::System::Threading::Timer* timer);
 
-  /// @brief Method RunSchedulerLoop addr 0x262037c size 0x314 virtual false final false
+  /// @brief Method RunSchedulerLoop addr 0x24c62c8 size 0x314 virtual false final false
   inline int32_t RunSchedulerLoop();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Timer__Scheduler", modifiers: "&&", def_value: None }]
@@ -219,13 +213,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::__Timer__Scheduler, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::System::Threading::__Timer__Scheduler, ___needReSort) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::__Timer__Scheduler, ___list) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::__Timer__Scheduler, ___current_next_run) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::__Timer__Scheduler, ___changed) == 0x28, "Offset mismatch!");
+
 } // namespace System::Threading
 // Type: System.Threading::Timer
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 67, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2750))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2748))
 // CS Name: ::System.Threading::Timer*
 class CORDL_TYPE Timer : public ::System::MarshalByRefObject {
 public:
@@ -260,9 +262,6 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
-
-  /// @brief Convert operator to "::System::IAsyncDisposable"
-  constexpr operator ::System::IAsyncDisposable*() noexcept;
 
   constexpr ::System::Threading::TimerCallback*& __get_callback();
 
@@ -312,41 +311,38 @@ public:
 
   constexpr void __set_is_added(bool value);
 
-  /// @brief Method get_scheduler addr 0x261f8ac size 0x88 virtual false final false
+  /// @brief Method get_scheduler addr 0x24c588c size 0x88 virtual false final false
   static inline ::System::Threading::__Timer__Scheduler* get_scheduler();
 
   static inline ::System::Threading::Timer* New_ctor(::System::Threading::TimerCallback* callback, ::System::Object* state, int32_t dueTime, int32_t period);
 
-  /// @brief Method .ctor addr 0x261f934 size 0x4c virtual false final false
+  /// @brief Method .ctor addr 0x24c5914 size 0x4c virtual false final false
   inline void _ctor(::System::Threading::TimerCallback* callback, ::System::Object* state, int32_t dueTime, int32_t period);
 
   static inline ::System::Threading::Timer* New_ctor(::System::Threading::TimerCallback* callback, ::System::Object* state, ::System::TimeSpan dueTime, ::System::TimeSpan period);
 
-  /// @brief Method .ctor addr 0x261f9f4 size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x24c59d4 size 0x90 virtual false final false
   inline void _ctor(::System::Threading::TimerCallback* callback, ::System::Object* state, ::System::TimeSpan dueTime, ::System::TimeSpan period);
 
-  /// @brief Method Init addr 0x261f980 size 0x74 virtual false final false
+  /// @brief Method Init addr 0x24c5960 size 0x74 virtual false final false
   inline void Init(::System::Threading::TimerCallback* callback, ::System::Object* state, int64_t dueTime, int64_t period);
 
-  /// @brief Method Change addr 0x261fc64 size 0x20 virtual false final false
+  /// @brief Method Change addr 0x24c5c44 size 0x20 virtual false final false
   inline bool Change(int32_t dueTime, int32_t period);
 
-  /// @brief Method Change addr 0x261fc84 size 0x78 virtual false final false
+  /// @brief Method Change addr 0x24c5c64 size 0x78 virtual false final false
   inline bool Change(::System::TimeSpan dueTime, ::System::TimeSpan period);
 
-  /// @brief Method Dispose addr 0x261fcfc size 0x38 virtual true final true
+  /// @brief Method Dispose addr 0x24c5cdc size 0x38 virtual true final true
   inline void Dispose();
 
-  /// @brief Method Change addr 0x261fa84 size 0x1e0 virtual false final false
+  /// @brief Method Change addr 0x24c5a64 size 0x1e0 virtual false final false
   inline bool Change(int64_t dueTime, int64_t period, bool first);
 
-  /// @brief Method DisposeAsync addr 0x261ff94 size 0x94 virtual true final true
-  inline ::System::Threading::Tasks::ValueTask DisposeAsync();
-
-  /// @brief Method KeepRootedWhileScheduled addr 0x2620028 size 0x4 virtual false final false
+  /// @brief Method KeepRootedWhileScheduled addr 0x24c5f74 size 0x4 virtual false final false
   inline void KeepRootedWhileScheduled();
 
-  /// @brief Method GetTimeMonotonic addr 0x261fe00 size 0x4 virtual false final false
+  /// @brief Method GetTimeMonotonic addr 0x24c5de0 size 0x4 virtual false final false
   static inline int64_t GetTimeMonotonic();
 
   // Ctor Parameters [CppParam { name: "", ty: "Timer", modifiers: "&&", def_value: None }]
@@ -394,6 +390,22 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Timer, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::Timer, ___callback) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Timer, ___state) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Timer, ___due_time_ms) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Timer, ___period_ms) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Timer, ___next_run) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Timer, ___disposed) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Timer, ___is_dead) == 0x41, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Timer, ___is_added) == 0x42, "Offset mismatch!");
 
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::Timer);

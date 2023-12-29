@@ -5,36 +5,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IConnectionManager)
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace GlobalNamespace {
-template <typename T> class IConnectionInitParams_1;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace GlobalNamespace {
-class IConnection;
-}
-namespace GlobalNamespace {
-class IPollable;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace BGNet::Core {
-struct DeliveryMethod;
-}
-namespace System {
-template <typename T> class Action_1;
-}
 namespace System {
 class Action;
 }
@@ -42,7 +12,37 @@ namespace GlobalNamespace {
 struct ConnectionFailedReason;
 }
 namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace GlobalNamespace {
+class IPollable;
+}
+namespace System {
 class IDisposable;
+}
+namespace BGNet::Core {
+struct DeliveryMethod;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace GlobalNamespace {
+template <typename T> class IConnectionInitParams_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace GlobalNamespace {
+class IConnection;
 }
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IConnectionManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12780))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12707))
 // CS Name: ::IConnectionManager*
 class CORDL_TYPE IConnectionManager {
 public:

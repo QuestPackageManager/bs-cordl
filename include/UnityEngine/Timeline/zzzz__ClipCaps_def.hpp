@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Timeline::ClipCaps);
 namespace UnityEngine::Timeline {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13871))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14142))
 // CS Name: ::UnityEngine.Timeline::ClipCaps
 struct CORDL_TYPE ClipCaps {
 public:
@@ -81,6 +81,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::ClipCaps, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::ClipCaps, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Timeline
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::ClipCaps, "UnityEngine.Timeline", "ClipCaps");

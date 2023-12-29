@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::PartyUpdateAction);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13345))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13372))
 // CS Name: ::Oculus.Platform::PartyUpdateAction
 struct CORDL_TYPE PartyUpdateAction {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::PartyUpdateAction, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::PartyUpdateAction, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::PartyUpdateAction, "Oculus.Platform", "PartyUpdateAction");

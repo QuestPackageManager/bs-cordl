@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::TMPro::ITweenValue);
 namespace TMPro {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12337))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12265))
 // CS Name: ::TMPro::ITweenValue*
 class CORDL_TYPE ITweenValue {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Required);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11811))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11739))
 // CS Name: ::Newtonsoft.Json::Required
 struct CORDL_TYPE Required {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Required, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Required, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Required, "Newtonsoft.Json", "Required");

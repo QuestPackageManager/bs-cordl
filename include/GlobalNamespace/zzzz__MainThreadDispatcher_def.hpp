@@ -4,38 +4,38 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MainThreadDispatcher)
+namespace GlobalNamespace {
+template <typename A> class __MainThreadDispatcher____c__DisplayClass2_0_1;
+}
+namespace GlobalNamespace {
+template <typename A, typename B, typename C, typename D> class __MainThreadDispatcher____c__DisplayClass5_0_4;
+}
 namespace System {
-template <typename T1, typename T2> class Action_2;
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+template <typename A, typename B, typename C> class __MainThreadDispatcher____c__DisplayClass4_0_3;
 }
 namespace System {
 class Action;
+}
+namespace System::Collections::Concurrent {
+template <typename T> class ConcurrentQueue_1;
+}
+namespace GlobalNamespace {
+template <typename A, typename B> class __MainThreadDispatcher____c__DisplayClass3_0_2;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace Zenject {
 class ITickable;
 }
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace GlobalNamespace {
-template <typename A, typename B> class __MainThreadDispatcher____c__DisplayClass3_0_2;
-}
-namespace GlobalNamespace {
-template <typename A, typename B, typename C, typename D> class __MainThreadDispatcher____c__DisplayClass5_0_4;
-}
-namespace GlobalNamespace {
-template <typename A, typename B, typename C> class __MainThreadDispatcher____c__DisplayClass4_0_3;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
-namespace GlobalNamespace {
-template <typename A> class __MainThreadDispatcher____c__DisplayClass2_0_1;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Collections::Concurrent {
-template <typename T> class ConcurrentQueue_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -65,8 +65,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename A>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5370))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5463))
 // CS Name: ::MainThreadDispatcher::<>c__DisplayClass2_0`1<A>*
 class CORDL_TYPE __MainThreadDispatcher____c__DisplayClass2_0_1 : public ::System::Object {
 public:
@@ -127,8 +127,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename A, typename B>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5371))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5464))
 // CS Name: ::MainThreadDispatcher::<>c__DisplayClass3_0`2<A,B>*
 class CORDL_TYPE __MainThreadDispatcher____c__DisplayClass3_0_2 : public ::System::Object {
 public:
@@ -201,8 +201,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename A, typename B, typename C>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5372))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5465))
 // CS Name: ::MainThreadDispatcher::<>c__DisplayClass4_0`3<A,B,C>*
 class CORDL_TYPE __MainThreadDispatcher____c__DisplayClass4_0_3 : public ::System::Object {
 public:
@@ -287,8 +287,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename A, typename B, typename C, typename D>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5373))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5466))
 // CS Name: ::MainThreadDispatcher::<>c__DisplayClass5_0`4<A,B,C,D>*
 class CORDL_TYPE __MainThreadDispatcher____c__DisplayClass5_0_4 : public ::System::Object {
 public:
@@ -383,8 +383,8 @@ public:
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5374))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5467))
 // CS Name: ::MainThreadDispatcher*
 class CORDL_TYPE MainThreadDispatcher : public ::System::Object {
 public:
@@ -409,7 +409,7 @@ public:
 
   constexpr void __set__dispatchQueue(::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>* value);
 
-  /// @brief Method DispatchOnMainThread addr 0x226ca44 size 0x58 virtual false final false
+  /// @brief Method DispatchOnMainThread addr 0x21287c8 size 0x58 virtual false final false
   inline void DispatchOnMainThread(::System::Action* action);
 
   /// @brief Method DispatchOnMainThread addr 0x0 size 0xffffffffffffffff virtual false final false
@@ -425,12 +425,12 @@ public:
   template <typename A, typename B, typename C, typename D>
   inline void DispatchOnMainThread(::System::Action_4<A, B, C, D>* action, A firstParameter, B secondParameter, C thirdParameter, D fourthParameter);
 
-  /// @brief Method Tick addr 0x226ca9c size 0x104 virtual true final true
+  /// @brief Method Tick addr 0x2128820 size 0x104 virtual true final true
   inline void Tick();
 
   static inline ::GlobalNamespace::MainThreadDispatcher* New_ctor();
 
-  /// @brief Method .ctor addr 0x226cba0 size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x2128924 size 0x7c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MainThreadDispatcher", modifiers: "&&", def_value: None }]
@@ -454,6 +454,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainThreadDispatcher, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MainThreadDispatcher, ____dispatchQueue) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainThreadDispatcher);

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Request_1)
 namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
+class Message;
 }
 namespace Oculus::Platform {
-class Message;
+template <typename T> class __Message_1__Callback;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -23,8 +23,8 @@ namespace Oculus::Platform {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13381))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13380))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13414))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13413))
 // CS Name: ::Oculus.Platform::Request`1<T>*
 class CORDL_TYPE Request_1 : public ::Oculus::Platform::Request {
 public:

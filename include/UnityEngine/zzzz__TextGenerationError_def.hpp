@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextGenerationError);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15897))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15789))
 // CS Name: ::UnityEngine::TextGenerationError
 struct CORDL_TYPE TextGenerationError {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextGenerationError, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextGenerationError, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextGenerationError, "UnityEngine", "TextGenerationError");

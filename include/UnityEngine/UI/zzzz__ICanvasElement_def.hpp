@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::ICanvasElement);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13021))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13026))
 // CS Name: ::UnityEngine.UI::ICanvasElement*
 class CORDL_TYPE ICanvasElement {
 public:

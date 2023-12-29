@@ -21,8 +21,8 @@ MARK_VAL_T(::Newtonsoft::Json::Utilities::DateTimeParser);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11845))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11846))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11773))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11774))
 // CS Name: ::Newtonsoft.Json.Utilities::DateTimeParser
 struct CORDL_TYPE DateTimeParser {
 public:
@@ -125,28 +125,28 @@ public:
 
   static inline int32_t getStaticF_Lz_zz();
 
-  /// @brief Method Parse addr 0x2658ff4 size 0xd8 virtual false final false
+  /// @brief Method Parse addr 0x24f58b0 size 0xd8 virtual false final false
   inline bool Parse(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
 
-  /// @brief Method ParseDate addr 0x26590cc size 0x198 virtual false final false
+  /// @brief Method ParseDate addr 0x24f5988 size 0x198 virtual false final false
   inline bool ParseDate(int32_t start);
 
-  /// @brief Method ParseTimeAndZoneAndWhitespace addr 0x26592b0 size 0x40 virtual false final false
+  /// @brief Method ParseTimeAndZoneAndWhitespace addr 0x24f5b6c size 0x40 virtual false final false
   inline bool ParseTimeAndZoneAndWhitespace(int32_t start);
 
-  /// @brief Method ParseTime addr 0x2659460 size 0x2c0 virtual false final false
+  /// @brief Method ParseTime addr 0x24f5d1c size 0x2c0 virtual false final false
   inline bool ParseTime(ByRef<int32_t> start);
 
-  /// @brief Method ParseZone addr 0x2659720 size 0x1d0 virtual false final false
+  /// @brief Method ParseZone addr 0x24f5fdc size 0x1d0 virtual false final false
   inline bool ParseZone(int32_t start);
 
-  /// @brief Method Parse4Digit addr 0x26592f0 size 0xdc virtual false final false
+  /// @brief Method Parse4Digit addr 0x24f5bac size 0xdc virtual false final false
   inline bool Parse4Digit(int32_t start, ByRef<int32_t> num);
 
-  /// @brief Method Parse2Digit addr 0x26593cc size 0x94 virtual false final false
+  /// @brief Method Parse2Digit addr 0x24f5c88 size 0x94 virtual false final false
   inline bool Parse2Digit(int32_t start, ByRef<int32_t> num);
 
-  /// @brief Method ParseChar addr 0x2659264 size 0x4c virtual false final false
+  /// @brief Method ParseChar addr 0x24f5b20 size 0x4c virtual false final false
   inline bool ParseChar(int32_t start, char16_t ch);
 
   // Ctor Parameters [CppParam { name: "Year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Month", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Day", ty:
@@ -208,6 +208,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::DateTimeParser, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::DateTimeParser, Year) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::DateTimeParser, Month) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::DateTimeParser, Day) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::DateTimeParser, Hour) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::DateTimeParser, Minute) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::DateTimeParser, Second) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::DateTimeParser, Fraction) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::DateTimeParser, ZoneHour) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::DateTimeParser, ZoneMinute) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::DateTimeParser, Zone) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::DateTimeParser, _text) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::Utilities::DateTimeParser, _end) == 0x30, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::DateTimeParser, "Newtonsoft.Json.Utilities", "DateTimeParser");

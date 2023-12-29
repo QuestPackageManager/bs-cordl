@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::LinuxNetworkInterface);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9292))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9269))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8129))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8106))
 // CS Name: ::System.Net.NetworkInformation::LinuxNetworkInterface*
 class CORDL_TYPE LinuxNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface {
 public:
@@ -58,21 +58,21 @@ public:
 
   constexpr void __set_iface_flags_path(::StringW value);
 
-  /// @brief Method get_IfacePath addr 0x29eec88 size 0x8 virtual false final false
+  /// @brief Method get_IfacePath addr 0x2872404 size 0x8 virtual false final false
   inline ::StringW get_IfacePath();
 
   static inline ::System::Net::NetworkInformation::LinuxNetworkInterface* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x29eeba8 size 0xd8 virtual false final false
+  /// @brief Method .ctor addr 0x2872324 size 0xd8 virtual false final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method GetIPProperties addr 0x29eec90 size 0x74 virtual true final false
+  /// @brief Method GetIPProperties addr 0x287240c size 0x74 virtual true final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
-  /// @brief Method get_OperationalStatus addr 0x29eed04 size 0x2bc virtual true final false
+  /// @brief Method get_OperationalStatus addr 0x2872480 size 0x2bc virtual true final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
-  /// @brief Method ReadLine addr 0x29eefc0 size 0x2ec virtual false final false
+  /// @brief Method ReadLine addr 0x287273c size 0x2ec virtual false final false
   static inline ::StringW ReadLine(::StringW path);
 
   // Ctor Parameters [CppParam { name: "", ty: "LinuxNetworkInterface", modifiers: "&&", def_value: None }]
@@ -102,6 +102,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::LinuxNetworkInterface, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::LinuxNetworkInterface, ___iface_path) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::LinuxNetworkInterface, ___iface_operstate_path) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::LinuxNetworkInterface, ___iface_flags_path) == 0x48, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation
 NEED_NO_BOX(::System::Net::NetworkInformation::LinuxNetworkInterface);

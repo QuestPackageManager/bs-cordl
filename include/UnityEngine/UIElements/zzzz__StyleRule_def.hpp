@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleRule);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7276))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7362))
 // CS Name: ::UnityEngine.UIElements::StyleRule*
 class CORDL_TYPE StyleRule : public ::System::Object {
 public:
@@ -54,12 +54,12 @@ public:
 
   constexpr void __set_customPropertiesCount(int32_t value);
 
-  /// @brief Method get_properties addr 0x2e6b52c size 0x8 virtual false final false
+  /// @brief Method get_properties addr 0x2d0217c size 0x8 virtual false final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> get_properties();
 
   static inline ::UnityEngine::UIElements::StyleRule* New_ctor();
 
-  /// @brief Method .ctor addr 0x2e6b534 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d02184 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleRule", modifiers: "&&", def_value: None }]
@@ -89,6 +89,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleRule, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleRule, ___m_Properties) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleRule, ___line) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleRule, ___customPropertiesCount) == 0x1c, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::StyleRule);

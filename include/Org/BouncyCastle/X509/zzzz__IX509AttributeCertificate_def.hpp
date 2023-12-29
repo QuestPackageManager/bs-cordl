@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IX509AttributeCertificate)
 namespace Org::BouncyCastle::X509 {
+class AttributeCertificateIssuer;
+}
+namespace Org::BouncyCastle::X509 {
 class IX509Extension;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace System {
-struct DateTime;
 }
 namespace Org::BouncyCastle::X509 {
 class AttributeCertificateHolder;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Attribute;
-}
-namespace Org::BouncyCastle::X509 {
-class AttributeCertificateIssuer;
+namespace System {
+struct DateTime;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Attribute;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {

@@ -10,10 +10,10 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
-class TextAsset;
+class Transform;
 }
 namespace UnityEngine {
-class Transform;
+class TextAsset;
 }
 namespace UnityEngine {
 class RectTransform;
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CreditsContent);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5470))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5576))
 // CS Name: ::CreditsContent*
 class CORDL_TYPE CreditsContent : public ::UnityEngine::MonoBehaviour {
 public:
@@ -166,45 +166,45 @@ public:
 
   constexpr void __set__creditsContentTextAsset(::UnityEngine::TextAsset* value);
 
-  /// @brief Method get_normalTextPrefab addr 0x228297c size 0x8 virtual false final false
+  /// @brief Method get_normalTextPrefab addr 0x21413f4 size 0x8 virtual false final false
   inline ::UnityEngine::GameObject* get_normalTextPrefab();
 
-  /// @brief Method get_normalLocalizedTextPrefab addr 0x2282984 size 0x8 virtual false final false
+  /// @brief Method get_normalLocalizedTextPrefab addr 0x21413fc size 0x8 virtual false final false
   inline ::UnityEngine::GameObject* get_normalLocalizedTextPrefab();
 
-  /// @brief Method get_titleTextPrefab addr 0x228298c size 0x8 virtual false final false
+  /// @brief Method get_titleTextPrefab addr 0x2141404 size 0x8 virtual false final false
   inline ::UnityEngine::GameObject* get_titleTextPrefab();
 
-  /// @brief Method get_titleLocalizedTextPrefab addr 0x2282994 size 0x8 virtual false final false
+  /// @brief Method get_titleLocalizedTextPrefab addr 0x214140c size 0x8 virtual false final false
   inline ::UnityEngine::GameObject* get_titleLocalizedTextPrefab();
 
-  /// @brief Method get_headerTextPrefab addr 0x228299c size 0x8 virtual false final false
+  /// @brief Method get_headerTextPrefab addr 0x2141414 size 0x8 virtual false final false
   inline ::UnityEngine::GameObject* get_headerTextPrefab();
 
-  /// @brief Method get_headerLocalizedTextPrefab addr 0x22829a4 size 0x8 virtual false final false
+  /// @brief Method get_headerLocalizedTextPrefab addr 0x214141c size 0x8 virtual false final false
   inline ::UnityEngine::GameObject* get_headerLocalizedTextPrefab();
 
-  /// @brief Method get_columnCount addr 0x22829ac size 0x8 virtual false final false
+  /// @brief Method get_columnCount addr 0x2141424 size 0x8 virtual false final false
   inline int32_t get_columnCount();
 
-  /// @brief Method get_spaceHeight addr 0x22829b4 size 0x8 virtual false final false
+  /// @brief Method get_spaceHeight addr 0x214142c size 0x8 virtual false final false
   inline float_t get_spaceHeight();
 
-  /// @brief Method get_titleHeight addr 0x22829bc size 0x8 virtual false final false
+  /// @brief Method get_titleHeight addr 0x2141434 size 0x8 virtual false final false
   inline float_t get_titleHeight();
 
-  /// @brief Method get_contentRoot addr 0x22829c4 size 0x8 virtual false final false
+  /// @brief Method get_contentRoot addr 0x214143c size 0x8 virtual false final false
   inline ::UnityEngine::Transform* get_contentRoot();
 
-  /// @brief Method get_rootRectTransform addr 0x22829cc size 0x8 virtual false final false
+  /// @brief Method get_rootRectTransform addr 0x2141444 size 0x8 virtual false final false
   inline ::UnityEngine::RectTransform* get_rootRectTransform();
 
-  /// @brief Method get_creditsContentTextAsset addr 0x22829d4 size 0x8 virtual false final false
+  /// @brief Method get_creditsContentTextAsset addr 0x214144c size 0x8 virtual false final false
   inline ::UnityEngine::TextAsset* get_creditsContentTextAsset();
 
   static inline ::GlobalNamespace::CreditsContent* New_ctor();
 
-  /// @brief Method .ctor addr 0x22829dc size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x2141454 size 0x1c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CreditsContent", modifiers: "&&", def_value: None }]
@@ -261,6 +261,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CreditsContent, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CreditsContent, ____normalTextPrefab) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CreditsContent, ____normalLocalizedTextPrefab) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CreditsContent, ____titleTextPrefab) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CreditsContent, ____titleLocalizedTextPrefab) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CreditsContent, ____headerTextPrefab) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CreditsContent, ____headerLocalizedTextPrefab) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CreditsContent, ____columnCount) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CreditsContent, ____spaceHeight) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CreditsContent, ____titleHeight) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CreditsContent, ____contentRoot) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CreditsContent, ____rootRectTransform) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::CreditsContent, ____creditsContentTextAsset) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CreditsContent);

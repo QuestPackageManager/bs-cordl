@@ -21,18 +21,18 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::GetViewDataDictionary);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6873))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6959))
 // CS Name: ::UnityEngine.UIElements::GetViewDataDictionary*
 class CORDL_TYPE GetViewDataDictionary : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::GetViewDataDictionary* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2dc9a04 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x2c62654 size 0xbc virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2dc9ac0 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2c62710 size 0x14 virtual true final false
   inline ::UnityEngine::UIElements::ISerializableJsonDictionary* Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "GetViewDataDictionary", modifiers: "&&", def_value: None }]

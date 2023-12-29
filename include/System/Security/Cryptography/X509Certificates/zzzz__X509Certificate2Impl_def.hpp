@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Certificate2Impl)
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
+}
 namespace System::Text {
 class StringBuilder;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X500DistinguishedName;
 }
 namespace System::Security::Cryptography {
 class AsymmetricAlgorithm;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateImpl;
+class X509CertificateImplCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509NameType;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+class X509Extension;
 }
 namespace System::Security::Cryptography {
 class RSA;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X500DistinguishedName;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateImplCollection;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Extension;
+class X509CertificateImpl;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certifica
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2992))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8996))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2991))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7833))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Certificate2Impl*
 class CORDL_TYPE X509Certificate2Impl : public ::System::Security::Cryptography::X509Certificates::X509CertificateImpl {
 public:
@@ -99,12 +99,12 @@ public:
   /// @brief Method AppendPrivateKeyInfo addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void AppendPrivateKeyInfo(::System::Text::StringBuilder* sb);
 
-  /// @brief Method CopyWithPrivateKey addr 0x297d228 size 0xac virtual true final true
+  /// @brief Method CopyWithPrivateKey addr 0x27ff4b4 size 0xac virtual true final true
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* CopyWithPrivateKey(::System::Security::Cryptography::RSA* privateKey);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* New_ctor();
 
-  /// @brief Method .ctor addr 0x297d2d4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27ff560 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Certificate2Impl", modifiers: "&&", def_value: None }]

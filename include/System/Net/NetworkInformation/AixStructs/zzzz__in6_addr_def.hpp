@@ -17,7 +17,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::in6_addr);
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9309))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8146))
 // CS Name: ::System.Net.NetworkInformation.AixStructs::in6_addr
 struct CORDL_TYPE in6_addr {
 public:
@@ -39,6 +39,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::AixStructs::in6_addr, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::NetworkInformation::AixStructs::in6_addr, u6_addr8) == 0x0, "Offset mismatch!");
 
 } // namespace System::Net::NetworkInformation::AixStructs
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::AixStructs::in6_addr, "System.Net.NetworkInformation.AixStructs", "in6_addr");

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::ConsoleCancelEventArgs);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2522)), TypeDefinitionIndex(TypeDefinitionIndex(2376))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2517))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2520)), TypeDefinitionIndex(TypeDefinitionIndex(2376))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2515))
 // CS Name: ::System::ConsoleCancelEventArgs*
 class CORDL_TYPE ConsoleCancelEventArgs : public ::System::EventArgs {
 public:
@@ -46,15 +46,15 @@ public:
 
   static inline ::System::ConsoleCancelEventArgs* New_ctor(::System::ConsoleSpecialKey type);
 
-  /// @brief Method .ctor addr 0x25cfc74 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x2472d4c size 0x6c virtual false final false
   inline void _ctor(::System::ConsoleSpecialKey type);
 
-  /// @brief Method get_Cancel addr 0x25cfce0 size 0x8 virtual false final false
+  /// @brief Method get_Cancel addr 0x2472db8 size 0x8 virtual false final false
   inline bool get_Cancel();
 
   static inline ::System::ConsoleCancelEventArgs* New_ctor();
 
-  /// @brief Method .ctor addr 0x25cfce8 size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x2472dc0 size 0x38 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConsoleCancelEventArgs", modifiers: "&&", def_value: None }]
@@ -81,6 +81,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ConsoleCancelEventArgs, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::ConsoleCancelEventArgs, ____type) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::ConsoleCancelEventArgs, ____Cancel_k__BackingField) == 0x14, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::ConsoleCancelEventArgs);

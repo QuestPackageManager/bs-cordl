@@ -7,40 +7,40 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryFromBinder_5)
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract> class FactorySubContainerBinder_5;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TSubFactory> class __FactoryFromBinder_5____c__2_1;
-}
-namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
 class FactoryBindInfo;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename TResult> class Func_6;
 }
 namespace System {
 class Object;
 }
 namespace Zenject {
-class DiContainer;
+class ConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class BindInfo;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract> class __FactoryFromBinder_5____c__DisplayClass1_0;
 }
 namespace Zenject {
-class ConditionCopyNonLazyBinder;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TSubFactory> class __FactoryFromBinder_5____c__2_1;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue> class IFactory_5;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract> class FactorySubContainerBinder_5;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename TResult> class Func_6;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace Zenject {
 template <typename TContract> class ConcreteBinderGeneric_1;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue> class IFactory_5;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -68,8 +68,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10754))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10682))
 // CS Name: ::FactoryFromBinder`5::<>c__DisplayClass1_0<TParam1,TParam2,TParam3,TParam4,TContract>*
 class CORDL_TYPE __FactoryFromBinder_5____c__DisplayClass1_0 : public ::System::Object {
 public:
@@ -124,8 +124,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TSubFactory>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10755))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10683))
 // CS Name: ::FactoryFromBinder`5::<>c__2`1<TParam1,TParam2,TParam3,TParam4,TContract,TSubFactory>*
 class CORDL_TYPE __FactoryFromBinder_5____c__2_1 : public ::System::Object {
 public:
@@ -183,8 +183,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10846))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10756))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10774))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10684))
 // CS Name: ::Zenject::FactoryFromBinder`5<TParam1,TParam2,TParam3,TParam4,TContract>*
 class CORDL_TYPE FactoryFromBinder_5 : public ::Zenject::FactoryFromBinderBase {
 public:

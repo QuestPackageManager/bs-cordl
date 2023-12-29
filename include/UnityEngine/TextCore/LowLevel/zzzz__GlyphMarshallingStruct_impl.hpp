@@ -3,9 +3,9 @@
 #include "UnityEngine/TextCore/zzzz__GlyphMetrics_impl.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphRect_impl.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphMarshallingStruct_def.hpp"
-#include "UnityEngine/TextCore/zzzz__GlyphMetrics_def.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphClassDefinitionType_def.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphRect_def.hpp"
+#include "UnityEngine/TextCore/zzzz__GlyphMetrics_def.hpp"
 // Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "metrics", ty: "::UnityEngine::TextCore::GlyphMetrics", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "glyphRect", ty: "::UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: Some("{}") }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "classDefinitionType", ty: "::UnityEngine::TextCore::GlyphClassDefinitionType",

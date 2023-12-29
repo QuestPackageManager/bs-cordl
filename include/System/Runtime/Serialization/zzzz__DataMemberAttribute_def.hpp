@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::DataMemberAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16240))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16071))
 // CS Name: ::System.Runtime.Serialization::DataMemberAttribute*
 class CORDL_TYPE DataMemberAttribute : public ::System::Attribute {
 public:
@@ -66,16 +66,16 @@ public:
 
   constexpr void __set_emitDefaultValue(bool value);
 
-  /// @brief Method get_Name addr 0x284d5fc size 0x8 virtual false final false
+  /// @brief Method get_Name addr 0x26d15e8 size 0x8 virtual false final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Order addr 0x284d604 size 0x8 virtual false final false
+  /// @brief Method get_Order addr 0x26d15f0 size 0x8 virtual false final false
   inline int32_t get_Order();
 
-  /// @brief Method get_IsRequired addr 0x284d60c size 0x8 virtual false final false
+  /// @brief Method get_IsRequired addr 0x26d15f8 size 0x8 virtual false final false
   inline bool get_IsRequired();
 
-  /// @brief Method get_EmitDefaultValue addr 0x284d614 size 0x8 virtual false final false
+  /// @brief Method get_EmitDefaultValue addr 0x26d1600 size 0x8 virtual false final false
   inline bool get_EmitDefaultValue();
 
   // Ctor Parameters [CppParam { name: "", ty: "DataMemberAttribute", modifiers: "&&", def_value: None }]
@@ -108,6 +108,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::DataMemberAttribute, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::DataMemberAttribute, ___name) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::DataMemberAttribute, ___order) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::DataMemberAttribute, ___isRequired) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::DataMemberAttribute, ___emitDefaultValue) == 0x1d, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::DataMemberAttribute);

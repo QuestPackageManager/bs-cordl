@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ComputedTransitionProperty)
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -23,8 +23,8 @@ MARK_VAL_T(::UnityEngine::UIElements::ComputedTransitionProperty);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7487))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7287))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7573))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7373))
 // CS Name: ::UnityEngine.UIElements::ComputedTransitionProperty
 struct CORDL_TYPE ComputedTransitionProperty {
 public:
@@ -57,6 +57,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ComputedTransitionProperty, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ComputedTransitionProperty, id) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ComputedTransitionProperty, durationMs) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ComputedTransitionProperty, delayMs) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ComputedTransitionProperty, easingCurve) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ComputedTransitionProperty, "UnityEngine.UIElements", "ComputedTransitionProperty");

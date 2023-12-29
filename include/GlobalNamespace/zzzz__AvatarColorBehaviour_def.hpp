@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(AvatarColorBehaviour)
-namespace BeatSaber::AvatarCore {
-class AvatarVisualController;
-}
 namespace UnityEngine::Playables {
 struct FrameData;
+}
+namespace GlobalNamespace {
+class AvatarVisualController;
 }
 namespace UnityEngine::Playables {
 struct Playable;
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AvatarColorBehaviour);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6004))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10347)), TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(15944))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6059))
 // CS Name: ::AvatarColorBehaviour*
 class CORDL_TYPE AvatarColorBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -45,7 +45,7 @@ public:
   __declspec(property(get = __get__easeType, put = __set__easeType))::GlobalNamespace::EaseType _easeType;
 
   /// @brief Field _avatarVisualController, offset 0x38, size 0x8
-  __declspec(property(get = __get__avatarVisualController, put = __set__avatarVisualController))::BeatSaber::AvatarCore::AvatarVisualController* _avatarVisualController;
+  __declspec(property(get = __get__avatarVisualController, put = __set__avatarVisualController))::GlobalNamespace::AvatarVisualController* _avatarVisualController;
 
   /// @brief Field _duration, offset 0x40, size 0x4
   __declspec(property(get = __get__duration, put = __set__duration)) float_t _duration;
@@ -68,11 +68,11 @@ public:
 
   constexpr void __set__easeType(::GlobalNamespace::EaseType value);
 
-  constexpr ::BeatSaber::AvatarCore::AvatarVisualController*& __get__avatarVisualController();
+  constexpr ::GlobalNamespace::AvatarVisualController*& __get__avatarVisualController();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::AvatarVisualController*> const& __get__avatarVisualController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AvatarVisualController*> const& __get__avatarVisualController() const;
 
-  constexpr void __set__avatarVisualController(::BeatSaber::AvatarCore::AvatarVisualController* value);
+  constexpr void __set__avatarVisualController(::GlobalNamespace::AvatarVisualController* value);
 
   constexpr float_t& __get__duration();
 
@@ -80,18 +80,18 @@ public:
 
   constexpr void __set__duration(float_t value);
 
-  /// @brief Method OnGraphStart addr 0x2315250 size 0x74 virtual true final false
+  /// @brief Method OnGraphStart addr 0x21c342c size 0x74 virtual true final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame addr 0x23152c4 size 0x1e8 virtual true final false
+  /// @brief Method ProcessFrame addr 0x21c34a0 size 0x1e8 virtual true final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method OnPlayableDestroy addr 0x23154ac size 0x8c virtual true final false
+  /// @brief Method OnPlayableDestroy addr 0x21c3688 size 0x8c virtual true final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
   static inline ::GlobalNamespace::AvatarColorBehaviour* New_ctor();
 
-  /// @brief Method .ctor addr 0x2315538 size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x21c3714 size 0x20 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarColorBehaviour", modifiers: "&&", def_value: None }]
@@ -118,7 +118,7 @@ public:
   ::GlobalNamespace::EaseType ____easeType;
 
   /// @brief Field _avatarVisualController, offset: 0x38, size: 0x8, def value: None
-  ::BeatSaber::AvatarCore::AvatarVisualController* ____avatarVisualController;
+  ::GlobalNamespace::AvatarVisualController* ____avatarVisualController;
 
   /// @brief Field _duration, offset: 0x40, size: 0x4, def value: None
   float_t ____duration;
@@ -127,6 +127,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AvatarColorBehaviour, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AvatarColorBehaviour, ____startColor) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AvatarColorBehaviour, ____endColor) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AvatarColorBehaviour, ____easeType) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AvatarColorBehaviour, ____avatarVisualController) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AvatarColorBehaviour, ____duration) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AvatarColorBehaviour);

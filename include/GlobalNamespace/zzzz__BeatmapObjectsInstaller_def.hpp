@@ -8,25 +8,25 @@ namespace GlobalNamespace {
 class NoteLineConnectionController;
 }
 namespace GlobalNamespace {
+class GameNoteController;
+}
+namespace GlobalNamespace {
+class BeatLine;
+}
+namespace GlobalNamespace {
 class SliderController;
-}
-namespace GlobalNamespace {
-class BombNoteController;
-}
-namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
 class ObstacleController;
 }
 namespace GlobalNamespace {
-class GameNoteController;
-}
-namespace GlobalNamespace {
 class BurstSliderGameNoteController;
 }
 namespace GlobalNamespace {
-class BeatLine;
+class GameplayCoreSceneSetupData;
+}
+namespace GlobalNamespace {
+class BombNoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectsInstaller);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5388))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5479))
 // CS Name: ::BeatmapObjectsInstaller*
 class CORDL_TYPE BeatmapObjectsInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -162,12 +162,12 @@ public:
 
   constexpr void __set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method InstallBindings addr 0x226f0c0 size 0x4d4 virtual true final false
+  /// @brief Method InstallBindings addr 0x2129ac0 size 0x4d4 virtual true final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::BeatmapObjectsInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x226f594 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2129f94 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInstaller", modifiers: "&&", def_value: None }]
@@ -227,6 +227,32 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapObjectsInstaller, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsInstaller, ____normalBasicNotePrefab) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsInstaller, ____proModeNotePrefab) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsInstaller, ____burstSliderHeadNotePrefab) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsInstaller, ____burstSliderNotePrefab) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsInstaller, ____burstSliderFillPrefab) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsInstaller, ____bombNotePrefab) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsInstaller, ____obstaclePrefab) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsInstaller, ____sliderShortPrefab) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsInstaller, ____sliderMediumPrefab) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsInstaller, ____sliderLongPrefab) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsInstaller, ____noteLineConnectionControllerPrefab) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsInstaller, ____beatLinePrefab) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectsInstaller, ____sceneSetupData) == 0x80, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapObjectsInstaller);

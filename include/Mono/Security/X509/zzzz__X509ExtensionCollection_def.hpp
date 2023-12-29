@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ExtensionCollection)
-namespace Mono::Security {
-class ASN1;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace Mono::Security {
+class ASN1;
 }
 namespace Mono::Security::X509 {
 class X509Extension;
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509ExtensionCollection);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3773))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13757))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3761))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14028))
 // CS Name: ::Mono.Security.X509::X509ExtensionCollection*
 class CORDL_TYPE X509ExtensionCollection : public ::System::Collections::CollectionBase {
 public:
@@ -50,21 +50,21 @@ public:
 
   static inline ::Mono::Security::X509::X509ExtensionCollection* New_ctor();
 
-  /// @brief Method .ctor addr 0x23fd400 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x22a30f4 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::Mono::Security::X509::X509ExtensionCollection* New_ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method .ctor addr 0x23f912c size 0x13c virtual false final false
+  /// @brief Method .ctor addr 0x229ee20 size 0x13c virtual false final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method IndexOf addr 0x23fd408 size 0x13c virtual false final false
+  /// @brief Method IndexOf addr 0x22a30fc size 0x13c virtual false final false
   inline int32_t IndexOf(::StringW oid);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x23fd544 size 0x24 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x22a3238 size 0x24 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method get_Item addr 0x23fca8c size 0xb0 virtual false final false
+  /// @brief Method get_Item addr 0x22a2780 size 0xb0 virtual false final false
   inline ::Mono::Security::X509::X509Extension* get_Item(::StringW oid);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509ExtensionCollection", modifiers: "&&", def_value: None }]
@@ -88,6 +88,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509ExtensionCollection, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::X509::X509ExtensionCollection, ___readOnly) == 0x18, "Offset mismatch!");
 
 } // namespace Mono::Security::X509
 NEED_NO_BOX(::Mono::Security::X509::X509ExtensionCollection);

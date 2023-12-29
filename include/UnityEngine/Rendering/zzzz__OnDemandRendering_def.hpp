@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::OnDemandRendering);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10325))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10247))
 // CS Name: ::UnityEngine.Rendering::OnDemandRendering*
 class CORDL_TYPE OnDemandRendering : public ::System::Object {
 public:
@@ -29,10 +29,10 @@ public:
 
   static inline int32_t getStaticF_m_RenderFrameInterval();
 
-  /// @brief Method get_renderFrameInterval addr 0x2ceb9f8 size 0x58 virtual false final false
+  /// @brief Method get_renderFrameInterval addr 0x2b845c4 size 0x58 virtual false final false
   static inline int32_t get_renderFrameInterval();
 
-  /// @brief Method GetRenderFrameInterval addr 0x2ceba50 size 0x58 virtual false final false
+  /// @brief Method GetRenderFrameInterval addr 0x2b8461c size 0x58 virtual false final false
   static inline void GetRenderFrameInterval(ByRef<int32_t> frameInterval);
 
   // Ctor Parameters [CppParam { name: "", ty: "OnDemandRendering", modifiers: "&&", def_value: None }]

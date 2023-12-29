@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_def.hpp"
 CORDL_MODULE_EXPORT(SingleResp)
-namespace Org::BouncyCastle::Ocsp {
-class CertificateID;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
-namespace System {
-struct DateTime;
-}
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class SingleResponse;
 }
 namespace Org::BouncyCastle::Utilities::Date {
 class DateTimeObject;
+}
+namespace Org::BouncyCastle::Ocsp {
+class CertificateID;
+}
+namespace System {
+struct DateTime;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
 }
 namespace System {
 class Object;
@@ -55,25 +55,25 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::SingleResp* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* resp);
 
-  /// @brief Method .ctor addr 0x109c070 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x102ae20 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* resp);
 
-  /// @brief Method GetCertID addr 0x10a5030 size 0x6c virtual false final false
+  /// @brief Method GetCertID addr 0x1033de0 size 0x6c virtual false final false
   inline ::Org::BouncyCastle::Ocsp::CertificateID* GetCertID();
 
-  /// @brief Method GetCertStatus addr 0x10a509c size 0xc8 virtual false final false
+  /// @brief Method GetCertStatus addr 0x1033e4c size 0xc8 virtual false final false
   inline ::System::Object* GetCertStatus();
 
-  /// @brief Method get_ThisUpdate addr 0x10a51bc size 0x24 virtual false final false
+  /// @brief Method get_ThisUpdate addr 0x1033f6c size 0x24 virtual false final false
   inline ::System::DateTime get_ThisUpdate();
 
-  /// @brief Method get_NextUpdate addr 0x10a51e0 size 0x8c virtual false final false
+  /// @brief Method get_NextUpdate addr 0x1033f90 size 0x8c virtual false final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_NextUpdate();
 
-  /// @brief Method get_SingleExtensions addr 0x10a526c size 0x1c virtual false final false
+  /// @brief Method get_SingleExtensions addr 0x103401c size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_SingleExtensions();
 
-  /// @brief Method GetX509Extensions addr 0x10a5288 size 0x1c virtual true final false
+  /// @brief Method GetX509Extensions addr 0x1034038 size 0x1c virtual true final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
   // Ctor Parameters [CppParam { name: "", ty: "SingleResp", modifiers: "&&", def_value: None }]
@@ -97,6 +97,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Ocsp::SingleResp, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Ocsp::SingleResp, ___resp) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Ocsp
 NEED_NO_BOX(::Org::BouncyCastle::Ocsp::SingleResp);

@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Time)
-namespace System {
-struct DateTime;
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -14,11 +14,11 @@ class Asn1Object;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
 namespace System {
 class Object;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -48,32 +48,32 @@ public:
 
   constexpr void __set_time(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method GetInstance addr 0x1199ec8 size 0x1c virtual false final false
+  /// @brief Method GetInstance addr 0x1129c80 size 0x1c virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::Time* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Time* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* time);
 
-  /// @brief Method .ctor addr 0x1199ee4 size 0x140 virtual false final false
+  /// @brief Method .ctor addr 0x1129c9c size 0x140 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* time);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Time* New_ctor(::System::DateTime date);
 
-  /// @brief Method .ctor addr 0x119a024 size 0x168 virtual false final false
+  /// @brief Method .ctor addr 0x1129ddc size 0x168 virtual false final false
   inline void _ctor(::System::DateTime date);
 
-  /// @brief Method GetInstance addr 0x1198c68 size 0x1c0 virtual false final false
+  /// @brief Method GetInstance addr 0x1128a20 size 0x1c0 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::X509::Time* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetTime addr 0x119a18c size 0xf0 virtual false final false
+  /// @brief Method GetTime addr 0x1129f44 size 0xf0 virtual false final false
   inline ::StringW GetTime();
 
-  /// @brief Method ToDateTime addr 0x119a27c size 0x1e4 virtual false final false
+  /// @brief Method ToDateTime addr 0x112a034 size 0x1e4 virtual false final false
   inline ::System::DateTime ToDateTime();
 
-  /// @brief Method ToAsn1Object addr 0x119a460 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0x112a218 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString addr 0x119a468 size 0x4 virtual true final false
+  /// @brief Method ToString addr 0x112a220 size 0x4 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "Time", modifiers: "&&", def_value: None }]
@@ -97,6 +97,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::Time, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::Time, ___time) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::Time);

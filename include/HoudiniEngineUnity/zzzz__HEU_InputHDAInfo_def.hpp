@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputHDAInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9647))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9574))
 // CS Name: ::HoudiniEngineUnity::HEU_InputHDAInfo*
 class CORDL_TYPE HEU_InputHDAInfo : public ::System::Object {
 public:
@@ -57,15 +57,15 @@ public:
 
   constexpr void __set__connectedInputNodeID(int32_t value);
 
-  /// @brief Method CopyTo addr 0x2170b94 size 0x24 virtual false final false
+  /// @brief Method CopyTo addr 0x20191f8 size 0x24 virtual false final false
   inline void CopyTo(::HoudiniEngineUnity::HEU_InputHDAInfo* destInfo);
 
-  /// @brief Method IsEquivalentTo addr 0x217226c size 0x130 virtual true final true
+  /// @brief Method IsEquivalentTo addr 0x201a8d0 size 0x130 virtual true final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputHDAInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_InputHDAInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x2170094 size 0x10 virtual false final false
+  /// @brief Method .ctor addr 0x20186f8 size 0x10 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputHDAInfo", modifiers: "&&", def_value: None }]
@@ -95,6 +95,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputHDAInfo, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputHDAInfo, ____pendingGO) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputHDAInfo, ____connectedGO) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputHDAInfo, ____connectedInputNodeID) == 0x20, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputHDAInfo);

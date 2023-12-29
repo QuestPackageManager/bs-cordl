@@ -19,7 +19,7 @@ MARK_VAL_T(::GlobalNamespace::OVRBinaryChunk);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7564))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8466))
 // CS Name: ::OVRBinaryChunk
 struct CORDL_TYPE OVRBinaryChunk {
 public:
@@ -48,6 +48,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRBinaryChunk, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRBinaryChunk, chunkStream) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRBinaryChunk, chunkLength) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRBinaryChunk, chunkStart) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRBinaryChunk, "", "OVRBinaryChunk");

@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::ChallengeViewerFilter);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13243))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13245))
 // CS Name: ::Oculus.Platform::ChallengeViewerFilter
 struct CORDL_TYPE ChallengeViewerFilter {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::ChallengeViewerFilter, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::ChallengeViewerFilter, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::ChallengeViewerFilter, "Oculus.Platform", "ChallengeViewerFilter");

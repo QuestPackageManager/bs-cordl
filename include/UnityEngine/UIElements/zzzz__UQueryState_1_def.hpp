@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UQueryState_1)
-namespace UnityEngine::UIElements {
-struct RuleMatcher;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace UnityEngine::UIElements {
+struct RuleMatcher;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -18,8 +18,11 @@ class VisualElement;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace UnityEngine::UIElements {
+class __UQuery__SingleQueryMatcher;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -27,26 +30,23 @@ template <typename T> class IEquatable_1;
 namespace UnityEngine::UIElements {
 template <typename T, typename TElement> class __UQueryState_1__ListQueryMatcher_1;
 }
-namespace UnityEngine::UIElements {
-template <typename T> class __UQueryState_1__ActionQueryMatcher;
-}
-namespace System {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> struct __UQueryState_1__Enumerator;
+template <typename T> class __UQueryState_1__ActionQueryMatcher;
 }
 namespace UnityEngine::UIElements {
-class __UQuery__SingleQueryMatcher;
+template <typename T> struct __UQueryState_1__Enumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
@@ -75,8 +75,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T, typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6923))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6927))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7009))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7013))
 // CS Name: ::UQueryState`1::ListQueryMatcher`1<T,TElement>*
 class CORDL_TYPE __UQueryState_1__ListQueryMatcher_1 : public ::UnityEngine::UIElements::__UQuery__UQueryMatcher {
 public:
@@ -136,8 +136,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6923))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6928))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7009))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7014))
 // CS Name: ::UQueryState`1::ActionQueryMatcher<T>*
 class CORDL_TYPE __UQueryState_1__ActionQueryMatcher : public ::UnityEngine::UIElements::__UQuery__UQueryMatcher {
 public:
@@ -192,7 +192,7 @@ namespace UnityEngine::UIElements {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6929))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7015))
 // CS Name: ::UQueryState`1::Enumerator<T>
 struct CORDL_TYPE __UQueryState_1__Enumerator {
 public:
@@ -256,7 +256,7 @@ namespace UnityEngine::UIElements {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6930))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7016))
 // CS Name: ::UnityEngine.UIElements::UQueryState`1<T>
 struct CORDL_TYPE UQueryState_1 {
 public:

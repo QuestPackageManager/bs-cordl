@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::TrickleDown);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7162))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7248))
 // CS Name: ::UnityEngine.UIElements::TrickleDown
 struct CORDL_TYPE TrickleDown {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TrickleDown, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TrickleDown, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TrickleDown, "UnityEngine.UIElements", "TrickleDown");

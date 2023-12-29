@@ -21,22 +21,22 @@ MARK_REF_PTR_T(::GlobalNamespace::Vector3Extensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15877))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16068))
 // CS Name: ::Vector3Extensions*
 class CORDL_TYPE Vector3Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InverseLerp addr 0xe28d50 size 0x54 virtual false final false
+  /// @brief Method InverseLerp addr 0x228a4b8 size 0x54 virtual false final false
   static inline float_t InverseLerp(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 value);
 
-  /// @brief Method RotatedAroundPivot addr 0xe28da4 size 0x60 virtual false final false
+  /// @brief Method RotatedAroundPivot addr 0x228a50c size 0x60 virtual false final false
   static inline ::UnityEngine::Vector3 RotatedAroundPivot(::UnityEngine::Vector3 vector, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 pivot);
 
-  /// @brief Method MirrorOnYZPlane addr 0xe28e04 size 0x8 virtual false final false
+  /// @brief Method MirrorOnYZPlane addr 0x2289de4 size 0x8 virtual false final false
   static inline ::UnityEngine::Vector3 MirrorOnYZPlane(::UnityEngine::Vector3 vector);
 
-  /// @brief Method MirrorEulerAnglesOnYZPlane addr 0xe28e0c size 0xc virtual false final false
+  /// @brief Method MirrorEulerAnglesOnYZPlane addr 0x2289dec size 0xc virtual false final false
   static inline ::UnityEngine::Vector3 MirrorEulerAnglesOnYZPlane(::UnityEngine::Vector3 vector);
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector3Extensions", modifiers: "&&", def_value: None }]

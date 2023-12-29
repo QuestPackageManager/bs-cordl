@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::Linq::XObjectChange);
 namespace System::Xml::Linq {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15449))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15433))
 // CS Name: ::System.Xml.Linq::XObjectChange
 struct CORDL_TYPE XObjectChange {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XObjectChange, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XObjectChange, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml::Linq
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::XObjectChange, "System.Xml.Linq", "XObjectChange");

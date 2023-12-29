@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerSyncStateManager_5)
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class RemoteMultiplayerSyncState_3;
-}
-namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class __MultiplayerSyncStateManager_5____c;
-}
-namespace GlobalNamespace {
 struct __MultiplayerSessionManager__MessageType;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class LocalMultiplayerSyncState_3;
+template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class __MultiplayerSyncStateManager_5____c;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class MultiplayerSyncState_3;
 }
 namespace GlobalNamespace {
 template <typename T> class IPacketPool_1;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState> class LocalMultiplayerSyncState_3;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState> class RemoteMultiplayerSyncState_3;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -53,8 +53,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14950))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4563))
 // CS Name: ::MultiplayerSyncStateManager`5::<>c<TStateTable,TType,TState,TSerializable,TDeltaSerializable>*
 class CORDL_TYPE __MultiplayerSyncStateManager_5____c : public ::System::Object {
 public:
@@ -105,8 +105,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14951))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4564))
 // CS Name: ::MultiplayerSyncStateManager`5<TStateTable,TType,TState,TSerializable,TDeltaSerializable>*
 class CORDL_TYPE MultiplayerSyncStateManager_5 : public ::UnityEngine::MonoBehaviour {
 public:
@@ -136,11 +136,11 @@ public:
 
   __declspec(property(get = get_disconnectedPlayerCount)) int32_t disconnectedPlayerCount;
 
-  __declspec(property(get = get_syncTime)) int64_t syncTime;
+  __declspec(property(get = get_syncTime)) float_t syncTime;
 
-  __declspec(property(get = get_deltaUpdateFrequencyMs)) int64_t deltaUpdateFrequencyMs;
+  __declspec(property(get = get_deltaUpdateFrequency)) float_t deltaUpdateFrequency;
 
-  __declspec(property(get = get_fullStateUpdateFrequencyMs)) int64_t fullStateUpdateFrequencyMs;
+  __declspec(property(get = get_fullStateUpdateFrequency)) float_t fullStateUpdateFrequency;
 
   __declspec(property(get = get_localBufferSize)) int32_t localBufferSize;
 
@@ -193,13 +193,13 @@ public:
   inline int32_t get_disconnectedPlayerCount();
 
   /// @brief Method get_syncTime addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline int64_t get_syncTime();
+  inline float_t get_syncTime();
 
-  /// @brief Method get_deltaUpdateFrequencyMs addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline int64_t get_deltaUpdateFrequencyMs();
+  /// @brief Method get_deltaUpdateFrequency addr 0x0 size 0xffffffffffffffff virtual true final false
+  inline float_t get_deltaUpdateFrequency();
 
-  /// @brief Method get_fullStateUpdateFrequencyMs addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline int64_t get_fullStateUpdateFrequencyMs();
+  /// @brief Method get_fullStateUpdateFrequency addr 0x0 size 0xffffffffffffffff virtual true final false
+  inline float_t get_fullStateUpdateFrequency();
 
   /// @brief Method get_localBufferSize addr 0x0 size 0xffffffffffffffff virtual true final false
   inline int32_t get_localBufferSize();
@@ -229,7 +229,7 @@ public:
   inline void OnDestroy();
 
   /// @brief Method Interpolate addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline TState Interpolate(TState a, int64_t timeA, TState b, int64_t timeB, int64_t time);
+  inline TState Interpolate(TState a, float_t timeA, TState b, float_t timeB, float_t time);
 
   /// @brief Method Smooth addr 0x0 size 0xffffffffffffffff virtual true final false
   inline TState Smooth(TState a, TState b, float_t smoooth);

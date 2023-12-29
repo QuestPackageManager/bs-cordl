@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ActivateOnPlatform);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14415)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14330))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(13987))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13798))
 // CS Name: ::ActivateOnPlatform*
 class CORDL_TYPE ActivateOnPlatform : public ::UnityEngine::MonoBehaviour {
 public:
@@ -42,12 +42,12 @@ public:
 
   constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method Awake addr 0x20ee708 size 0xd0 virtual false final false
+  /// @brief Method Awake addr 0x1f8f0ac size 0xd0 virtual false final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ActivateOnPlatform* New_ctor();
 
-  /// @brief Method .ctor addr 0x20ee7d8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1f8f17c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ActivateOnPlatform", modifiers: "&&", def_value: None }]
@@ -74,6 +74,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ActivateOnPlatform, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ActivateOnPlatform, ____vrPlatformSdk) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ActivateOnPlatform, ____vrPlatformHelper) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ActivateOnPlatform);

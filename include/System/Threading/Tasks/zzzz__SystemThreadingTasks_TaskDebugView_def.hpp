@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::System::Threading::Tasks::SystemThreadingTasks_TaskDebugView);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2789))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2785))
 // CS Name: ::System.Threading.Tasks::SystemThreadingTasks_TaskDebugView*
 class CORDL_TYPE SystemThreadingTasks_TaskDebugView : public ::System::Object {
 public:

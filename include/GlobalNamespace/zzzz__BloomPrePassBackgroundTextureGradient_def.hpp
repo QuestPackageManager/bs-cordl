@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundTextureGradient)
 namespace UnityEngine {
-class RenderTexture;
+class Material;
 }
 namespace UnityEngine {
-class Texture2D;
+struct Color;
 }
 namespace UnityEngine {
 struct Color32;
@@ -19,13 +19,13 @@ namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
 struct Matrix4x4;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundTextureGradient);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14478)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14468))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14696)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14686))
 // CS Name: ::BloomPrePassBackgroundTextureGradient*
 class CORDL_TYPE BloomPrePassBackgroundTextureGradient : public ::GlobalNamespace::BloomPrePassNonLightPass {
 public:
@@ -100,36 +100,36 @@ public:
 
   static inline int32_t getStaticF__colorID();
 
-  /// @brief Method get_tintColor addr 0x210624c size 0xc virtual false final false
+  /// @brief Method get_tintColor addr 0x1fb0f00 size 0xc virtual false final false
   inline ::UnityEngine::Color get_tintColor();
 
-  /// @brief Method set_tintColor addr 0x2106258 size 0xc virtual false final false
+  /// @brief Method set_tintColor addr 0x1fb0f0c size 0xc virtual false final false
   inline void set_tintColor(::UnityEngine::Color value);
 
-  /// @brief Method InitIfNeeded addr 0x2106264 size 0x22c virtual false final false
+  /// @brief Method InitIfNeeded addr 0x1fb0f18 size 0x22c virtual false final false
   inline void InitIfNeeded();
 
-  /// @brief Method Start addr 0x2106490 size 0x4 virtual false final false
+  /// @brief Method Start addr 0x1fb1144 size 0x4 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x2106520 size 0x24 virtual false final false
+  /// @brief Method OnDestroy addr 0x1fb11d4 size 0x24 virtual false final false
   inline void OnDestroy();
 
   /// @brief Method UpdatePixels addr 0x0 size 0xffffffffffffffff virtual true final false
   inline void UpdatePixels(::Unity::Collections::NativeArray_1<::UnityEngine::Color32> pixels, int32_t numberOfPixels);
 
-  /// @brief Method OnValidate addr 0x2106544 size 0xa8 virtual true final false
+  /// @brief Method OnValidate addr 0x1fb11f8 size 0x18 virtual true final false
   inline void OnValidate();
 
-  /// @brief Method UpdateGradientTexture addr 0x2106494 size 0x8c virtual false final false
+  /// @brief Method UpdateGradientTexture addr 0x1fb1148 size 0x8c virtual false final false
   inline void UpdateGradientTexture();
 
-  /// @brief Method Render addr 0x2106618 size 0x1b8 virtual true final false
+  /// @brief Method Render addr 0x1fb123c size 0x1b8 virtual true final false
   inline void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundTextureGradient* New_ctor();
 
-  /// @brief Method .ctor addr 0x21045e8 size 0x60 virtual false final false
+  /// @brief Method .ctor addr 0x1faf4f4 size 0x60 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundTextureGradient", modifiers: "&&", def_value: None }]
@@ -168,6 +168,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundTextureGradient, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundTextureGradient, ____tintColor) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundTextureGradient, ____texture) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundTextureGradient, ____material) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundTextureGradient);

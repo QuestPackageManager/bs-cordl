@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DerPrintableString)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -44,40 +44,40 @@ public:
 
   constexpr void __set_str(::StringW value);
 
-  /// @brief Method GetInstance addr 0x11c3888 size 0xf0 virtual false final false
+  /// @brief Method GetInstance addr 0x1152638 size 0xf0 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerPrintableString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance addr 0x11c3978 size 0xec virtual false final false
+  /// @brief Method GetInstance addr 0x1152728 size 0xec virtual false final false
   static inline ::Org::BouncyCastle::Asn1::DerPrintableString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::DerPrintableString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor addr 0x11b733c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x11460ec size 0x28 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
   static inline ::Org::BouncyCastle::Asn1::DerPrintableString* New_ctor(::StringW str);
 
-  /// @brief Method .ctor addr 0x11c3b3c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x11528ec size 0x8 virtual false final false
   inline void _ctor(::StringW str);
 
   static inline ::Org::BouncyCastle::Asn1::DerPrintableString* New_ctor(::StringW str, bool validate);
 
-  /// @brief Method .ctor addr 0x11c3a64 size 0xd8 virtual false final false
+  /// @brief Method .ctor addr 0x1152814 size 0xd8 virtual false final false
   inline void _ctor(::StringW str, bool validate);
 
-  /// @brief Method GetString addr 0x11c3c34 size 0x8 virtual true final false
+  /// @brief Method GetString addr 0x11529e4 size 0x8 virtual true final false
   inline ::StringW GetString();
 
-  /// @brief Method GetOctets addr 0x11c3c3c size 0xc virtual false final false
+  /// @brief Method GetOctets addr 0x11529ec size 0xc virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-  /// @brief Method Encode addr 0x11c3c48 size 0x30 virtual true final false
+  /// @brief Method Encode addr 0x11529f8 size 0x30 virtual true final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method Asn1Equals addr 0x11c3c78 size 0xa0 virtual true final false
+  /// @brief Method Asn1Equals addr 0x1152a28 size 0xa0 virtual true final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method IsPrintableString addr 0x11c3b44 size 0xf0 virtual false final false
+  /// @brief Method IsPrintableString addr 0x11528f4 size 0xf0 virtual false final false
   static inline bool IsPrintableString(::StringW str);
 
   // Ctor Parameters [CppParam { name: "", ty: "DerPrintableString", modifiers: "&&", def_value: None }]
@@ -101,6 +101,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::DerPrintableString, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::DerPrintableString, ___str) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerPrintableString);

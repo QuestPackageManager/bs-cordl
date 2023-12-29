@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::XmlNodeChangedAction);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11511))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11439))
 // CS Name: ::System.Xml::XmlNodeChangedAction
 struct CORDL_TYPE XmlNodeChangedAction {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlNodeChangedAction, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlNodeChangedAction, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlNodeChangedAction, "System.Xml", "XmlNodeChangedAction");

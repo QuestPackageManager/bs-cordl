@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::Terrain);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10187))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15466))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10115))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15450))
 // CS Name: ::UnityEngine::Terrain*
 class CORDL_TYPE Terrain : public ::UnityEngine::Behaviour {
 public:
@@ -43,48 +43,48 @@ public:
 
   __declspec(property(put = set_drawInstanced)) bool drawInstanced;
 
-  /// @brief Method get_terrainData addr 0x2d1bf3c size 0x3c virtual false final false
+  /// @brief Method get_terrainData addr 0x2bb4b8c size 0x3c virtual false final false
   inline ::UnityEngine::TerrainData* get_terrainData();
 
-  /// @brief Method set_terrainData addr 0x2d1bf78 size 0x44 virtual false final false
+  /// @brief Method set_terrainData addr 0x2bb4bc8 size 0x44 virtual false final false
   inline void set_terrainData(::UnityEngine::TerrainData* value);
 
-  /// @brief Method set_detailObjectDistance addr 0x2d1bfbc size 0x4c virtual false final false
+  /// @brief Method set_detailObjectDistance addr 0x2bb4c0c size 0x4c virtual false final false
   inline void set_detailObjectDistance(float_t value);
 
-  /// @brief Method set_detailObjectDensity addr 0x2d1c008 size 0x4c virtual false final false
+  /// @brief Method set_detailObjectDensity addr 0x2bb4c58 size 0x4c virtual false final false
   inline void set_detailObjectDensity(float_t value);
 
-  /// @brief Method get_materialTemplate addr 0x2d1c054 size 0x3c virtual false final false
+  /// @brief Method get_materialTemplate addr 0x2bb4ca4 size 0x3c virtual false final false
   inline ::UnityEngine::Material* get_materialTemplate();
 
-  /// @brief Method set_materialTemplate addr 0x2d1c090 size 0x44 virtual false final false
+  /// @brief Method set_materialTemplate addr 0x2bb4ce0 size 0x44 virtual false final false
   inline void set_materialTemplate(::UnityEngine::Material* value);
 
-  /// @brief Method get_allowAutoConnect addr 0x2d1c0d4 size 0x3c virtual false final false
+  /// @brief Method get_allowAutoConnect addr 0x2bb4d24 size 0x3c virtual false final false
   inline bool get_allowAutoConnect();
 
-  /// @brief Method set_allowAutoConnect addr 0x2d1c110 size 0x44 virtual false final false
+  /// @brief Method set_allowAutoConnect addr 0x2bb4d60 size 0x44 virtual false final false
   inline void set_allowAutoConnect(bool value);
 
-  /// @brief Method get_groupingID addr 0x2d1c154 size 0x3c virtual false final false
+  /// @brief Method get_groupingID addr 0x2bb4da4 size 0x3c virtual false final false
   inline int32_t get_groupingID();
 
-  /// @brief Method set_drawInstanced addr 0x2d1c190 size 0x44 virtual false final false
+  /// @brief Method set_drawInstanced addr 0x2bb4de0 size 0x44 virtual false final false
   inline void set_drawInstanced(bool value);
 
-  /// @brief Method SetNeighbors addr 0x2d1c1d4 size 0x6c virtual false final false
+  /// @brief Method SetNeighbors addr 0x2bb4e24 size 0x6c virtual false final false
   inline void SetNeighbors(::UnityEngine::Terrain* left, ::UnityEngine::Terrain* top, ::UnityEngine::Terrain* right, ::UnityEngine::Terrain* bottom);
 
-  /// @brief Method Flush addr 0x2d1c240 size 0x3c virtual false final false
+  /// @brief Method Flush addr 0x2bb4e90 size 0x3c virtual false final false
   inline void Flush();
 
-  /// @brief Method get_activeTerrains addr 0x2d1c27c size 0x28 virtual false final false
+  /// @brief Method get_activeTerrains addr 0x2bb4ecc size 0x28 virtual false final false
   static inline ::ArrayW<::UnityEngine::Terrain*, ::Array<::UnityEngine::Terrain*>*> get_activeTerrains();
 
   static inline ::UnityEngine::Terrain* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d1c2a4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2bb4ef4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Terrain", modifiers: "&&", def_value: None }]

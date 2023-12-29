@@ -14,21 +14,21 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServerBrowserStackedController);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13596))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5712))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13713))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5811))
 // CS Name: ::GameServerBrowserStackedController*
 class CORDL_TYPE GameServerBrowserStackedController : public ::HMUI::StackedController {
 public:
   // Declarations
-  /// @brief Method DidActivate addr 0x22cd2fc size 0x4 virtual true final false
+  /// @brief Method DidActivate addr 0x218a8d0 size 0x4 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x22cd300 size 0x4 virtual true final false
+  /// @brief Method DidDeactivate addr 0x218a8d4 size 0x4 virtual true final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
   static inline ::GlobalNamespace::GameServerBrowserStackedController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22cd304 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x218a8d8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServerBrowserStackedController", modifiers: "&&", def_value: None }]

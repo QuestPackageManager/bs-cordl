@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::Kdf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(724))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.Kdf::DHKdfParameters*
 class CORDL_TYPE DHKdfParameters : public ::System::Object {
@@ -74,25 +74,25 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, int32_t keySize,
                                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> z);
 
-  /// @brief Method .ctor addr 0x1216d58 size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0x11a5b08 size 0x40 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, int32_t keySize, ::ArrayW<uint8_t, ::Array<uint8_t>*> z);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, int32_t keySize,
                                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> z, ::ArrayW<uint8_t, ::Array<uint8_t>*> extraInfo);
 
-  /// @brief Method .ctor addr 0x1216d98 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x11a5b48 size 0x44 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, int32_t keySize, ::ArrayW<uint8_t, ::Array<uint8_t>*> z, ::ArrayW<uint8_t, ::Array<uint8_t>*> extraInfo);
 
-  /// @brief Method get_Algorithm addr 0x1216ddc size 0x8 virtual false final false
+  /// @brief Method get_Algorithm addr 0x11a5b8c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Algorithm();
 
-  /// @brief Method get_KeySize addr 0x1216de4 size 0x8 virtual false final false
+  /// @brief Method get_KeySize addr 0x11a5b94 size 0x8 virtual false final false
   inline int32_t get_KeySize();
 
-  /// @brief Method GetZ addr 0x1216dec size 0x8 virtual false final false
+  /// @brief Method GetZ addr 0x11a5b9c size 0x8 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetZ();
 
-  /// @brief Method GetExtraInfo addr 0x1216df4 size 0x8 virtual false final false
+  /// @brief Method GetExtraInfo addr 0x11a5ba4 size 0x8 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetExtraInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHKdfParameters", modifiers: "&&", def_value: None }]
@@ -125,6 +125,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters, ___algorithm) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters, ___keySize) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters, ___z) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters, ___extraInfo) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Agreement::Kdf
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters);

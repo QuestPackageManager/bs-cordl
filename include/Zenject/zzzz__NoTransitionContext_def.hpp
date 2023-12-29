@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(NoTransitionContext)
 namespace Zenject {
-class DiContainer;
+class InjectTypeInfo;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class NoTransitionInstaller;
 }
 namespace Zenject {
-class NoTransitionInstaller;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::Zenject::NoTransitionContext);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11175))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11103))
 // CS Name: ::Zenject::NoTransitionContext*
 class CORDL_TYPE NoTransitionContext : public ::UnityEngine::MonoBehaviour {
 public:
@@ -45,21 +45,21 @@ public:
 
   constexpr void __set__noScenesTransitionInstaller(::Zenject::NoTransitionInstaller* value);
 
-  /// @brief Method get_installMethod addr 0x2f049d0 size 0x74 virtual false final false
+  /// @brief Method get_installMethod addr 0x2d9cc00 size 0x74 virtual false final false
   inline ::System::Action_1<::Zenject::DiContainer*>* get_installMethod();
 
-  /// @brief Method get_postInstallMethod addr 0x2f04a44 size 0x74 virtual false final false
+  /// @brief Method get_postInstallMethod addr 0x2d9cc74 size 0x74 virtual false final false
   inline ::System::Action_1<::Zenject::DiContainer*>* get_postInstallMethod();
 
-  /// @brief Method Awake addr 0x2f04ab8 size 0x78 virtual false final false
+  /// @brief Method Awake addr 0x2d9cce8 size 0x78 virtual false final false
   inline void Awake();
 
   static inline ::Zenject::NoTransitionContext* New_ctor();
 
-  /// @brief Method .ctor addr 0x2f04b30 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2d9cd60 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f04b38 size 0x178 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d9cd68 size 0x178 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoTransitionContext", modifiers: "&&", def_value: None }]
@@ -83,6 +83,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::NoTransitionContext, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::NoTransitionContext, ____noScenesTransitionInstaller) == 0x18, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::NoTransitionContext);

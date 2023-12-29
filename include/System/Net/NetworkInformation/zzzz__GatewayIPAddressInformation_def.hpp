@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::GatewayIPAddressInformation);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9245))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8082))
 // CS Name: ::System.Net.NetworkInformation::GatewayIPAddressInformation*
 class CORDL_TYPE GatewayIPAddressInformation : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Net::NetworkInformation::GatewayIPAddressInformation* New_ctor();
 
-  /// @brief Method .ctor addr 0x29eafc4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x286e740 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GatewayIPAddressInformation", modifiers: "&&", def_value: None }]

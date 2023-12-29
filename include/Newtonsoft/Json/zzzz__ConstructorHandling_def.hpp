@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::ConstructorHandling);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11794))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11722))
 // CS Name: ::Newtonsoft.Json::ConstructorHandling
 struct CORDL_TYPE ConstructorHandling {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::ConstructorHandling, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Newtonsoft::Json::ConstructorHandling, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Newtonsoft::Json
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::ConstructorHandling, "Newtonsoft.Json", "ConstructorHandling");

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::ShadowSamplingMode);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10348))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10270))
 // CS Name: ::UnityEngine.Rendering::ShadowSamplingMode
 struct CORDL_TYPE ShadowSamplingMode {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ShadowSamplingMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::ShadowSamplingMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ShadowSamplingMode, "UnityEngine.Rendering", "ShadowSamplingMode");

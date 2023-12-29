@@ -11,19 +11,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RijndaelManagedTransform)
 namespace System::Security::Cryptography {
-struct PaddingMode;
-}
-namespace System::Security::Cryptography {
-struct CipherMode;
+class ICryptoTransform;
 }
 namespace System::Security::Cryptography {
 struct RijndaelManagedTransformMode;
+}
+namespace System::Security::Cryptography {
+struct PaddingMode;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Security::Cryptography {
-class ICryptoTransform;
+struct CipherMode;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RijndaelManagedTransform);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2922)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2951)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2921))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2952)) CS Name: ::System.Security.Cryptography::RijndaelManagedTransform*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2921)), TypeDefinitionIndex(TypeDefinitionIndex(2950)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2920))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2951)) CS Name: ::System.Security.Cryptography::RijndaelManagedTransform*
 class CORDL_TYPE RijndaelManagedTransform : public ::System::Object {
 public:
   // Declarations
@@ -261,66 +261,66 @@ public:
                                                                                      ::System::Security::Cryptography::PaddingMode PaddingValue,
                                                                                      ::System::Security::Cryptography::RijndaelManagedTransformMode transformMode);
 
-  /// @brief Method .ctor addr 0x2460bb8 size 0x610 virtual false final false
+  /// @brief Method .ctor addr 0x2307540 size 0x610 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::System::Security::Cryptography::CipherMode mode, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV, int32_t blockSize, int32_t feedbackSize,
                     ::System::Security::Cryptography::PaddingMode PaddingValue, ::System::Security::Cryptography::RijndaelManagedTransformMode transformMode);
 
-  /// @brief Method Dispose addr 0x2461724 size 0x8 virtual true final true
+  /// @brief Method Dispose addr 0x23080ac size 0x8 virtual true final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x246172c size 0xbc virtual false final false
+  /// @brief Method Dispose addr 0x23080b4 size 0xbc virtual false final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method get_InputBlockSize addr 0x24617e8 size 0x8 virtual true final true
+  /// @brief Method get_InputBlockSize addr 0x2308170 size 0x8 virtual true final true
   inline int32_t get_InputBlockSize();
 
-  /// @brief Method get_OutputBlockSize addr 0x24617f0 size 0x8 virtual true final true
+  /// @brief Method get_OutputBlockSize addr 0x2308178 size 0x8 virtual true final true
   inline int32_t get_OutputBlockSize();
 
-  /// @brief Method get_CanTransformMultipleBlocks addr 0x24617f8 size 0x8 virtual true final true
+  /// @brief Method get_CanTransformMultipleBlocks addr 0x2308180 size 0x8 virtual true final true
   inline bool get_CanTransformMultipleBlocks();
 
-  /// @brief Method TransformBlock addr 0x2461800 size 0x2d8 virtual true final true
+  /// @brief Method TransformBlock addr 0x2308188 size 0x2d8 virtual true final true
   inline int32_t TransformBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> outputBuffer, int32_t outputOffset);
 
-  /// @brief Method TransformFinalBlock addr 0x24630f4 size 0x2e8 virtual true final true
+  /// @brief Method TransformFinalBlock addr 0x2309a7c size 0x2e8 virtual true final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> TransformFinalBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
-  /// @brief Method Reset addr 0x24633dc size 0x68 virtual false final false
+  /// @brief Method Reset addr 0x2309d64 size 0x68 virtual false final false
   inline void Reset();
 
-  /// @brief Method EncryptData addr 0x2461ad8 size 0xbb0 virtual false final false
+  /// @brief Method EncryptData addr 0x2308460 size 0xbb0 virtual false final false
   inline int32_t EncryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> outputBuffer, int32_t outputOffset,
                              ::System::Security::Cryptography::PaddingMode paddingMode, bool fLast);
 
-  /// @brief Method DecryptData addr 0x2462688 size 0xa6c virtual false final false
+  /// @brief Method DecryptData addr 0x2309010 size 0xa6c virtual false final false
   inline int32_t DecryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> outputBuffer, int32_t outputOffset,
                              ::System::Security::Cryptography::PaddingMode paddingMode, bool fLast);
 
-  /// @brief Method Enc addr 0x2463444 size 0x1c4 virtual false final false
+  /// @brief Method Enc addr 0x2309dcc size 0x1c4 virtual false final false
   inline void Enc(::cordl_internals::Ptr<int32_t> encryptindex, ::cordl_internals::Ptr<int32_t> encryptKeyExpansion, ::cordl_internals::Ptr<int32_t> T, ::cordl_internals::Ptr<int32_t> TF,
                   ::cordl_internals::Ptr<int32_t> work, ::cordl_internals::Ptr<int32_t> temp);
 
-  /// @brief Method Dec addr 0x2463608 size 0x1e0 virtual false final false
+  /// @brief Method Dec addr 0x2309f90 size 0x1e0 virtual false final false
   inline void Dec(::cordl_internals::Ptr<int32_t> decryptindex, ::cordl_internals::Ptr<int32_t> decryptKeyExpansion, ::cordl_internals::Ptr<int32_t> iT, ::cordl_internals::Ptr<int32_t> iTF,
                   ::cordl_internals::Ptr<int32_t> work, ::cordl_internals::Ptr<int32_t> temp);
 
-  /// @brief Method GenerateKeyExpansion addr 0x24611c8 size 0x55c virtual false final false
+  /// @brief Method GenerateKeyExpansion addr 0x2307b50 size 0x55c virtual false final false
   inline void GenerateKeyExpansion(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey);
 
-  /// @brief Method rot1 addr 0x24638e0 size 0x8 virtual false final false
+  /// @brief Method rot1 addr 0x230a268 size 0x8 virtual false final false
   static inline int32_t rot1(int32_t val);
 
-  /// @brief Method rot2 addr 0x24638d8 size 0x8 virtual false final false
+  /// @brief Method rot2 addr 0x230a260 size 0x8 virtual false final false
   static inline int32_t rot2(int32_t val);
 
-  /// @brief Method rot3 addr 0x24637e8 size 0x8 virtual false final false
+  /// @brief Method rot3 addr 0x230a170 size 0x8 virtual false final false
   static inline int32_t rot3(int32_t val);
 
-  /// @brief Method SubWord addr 0x24637f0 size 0xc4 virtual false final false
+  /// @brief Method SubWord addr 0x230a178 size 0xc4 virtual false final false
   static inline int32_t SubWord(int32_t a);
 
-  /// @brief Method MulX addr 0x24638b4 size 0x24 virtual false final false
+  /// @brief Method MulX addr 0x230a23c size 0x24 virtual false final false
   static inline int32_t MulX(int32_t x);
 
   // Ctor Parameters [CppParam { name: "", ty: "RijndaelManagedTransform", modifiers: "&&", def_value: None }]
@@ -395,6 +395,42 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::RijndaelManagedTransform, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_cipherMode) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_paddingValue) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_transformMode) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_blockSizeBits) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_blockSizeBytes) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_inputBlockSize) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_outputBlockSize) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_encryptKeyExpansion) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_decryptKeyExpansion) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_Nr) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_Nb) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_Nk) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_encryptindex) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_decryptindex) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_IV) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_lastBlockBuffer) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_depadBuffer) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_shiftRegister) == 0x78, "Offset mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::RijndaelManagedTransform);

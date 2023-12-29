@@ -6,20 +6,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryFromBinder3Extensions)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace Zenject {
-template <typename TContract> class ConcreteBinderGeneric_1;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TContract> class __FactoryFromBinder3Extensions____c__1_4;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TContract> class FactoryFromBinder_4;
-}
-namespace Zenject {
-template <typename TContract> class MemoryPoolInitialSizeMaxSizeBinder_1;
+template <typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TMemoryPool> class __FactoryFromBinder3Extensions____c__DisplayClass6_0_5;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract> class __FactoryFromBinder3Extensions____c__3_4;
@@ -28,16 +16,28 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue> class IFactory_4;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TMemoryPool> class __FactoryFromBinder3Extensions____c__5_5;
+template <typename TContract> class ConcreteBinderGeneric_1;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TMemoryPool> class __FactoryFromBinder3Extensions____c__DisplayClass6_0_5;
+class ArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TContract> class FactoryFromBinder_4;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract> class __FactoryFromBinder3Extensions____c__DisplayClass0_0_4;
 }
 namespace Zenject {
-class ArgConditionCopyNonLazyBinder;
+template <typename TParam1, typename TParam2, typename TParam3, typename TContract> class __FactoryFromBinder3Extensions____c__1_4;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TMemoryPool> class __FactoryFromBinder3Extensions____c__5_5;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace Zenject {
+template <typename TContract> class MemoryPoolInitialSizeMaxSizeBinder_1;
 }
 namespace System {
 class Object;
@@ -46,10 +46,10 @@ namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-class DiContainer;
+class IProvider;
 }
 namespace Zenject {
-class IProvider;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -83,8 +83,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10748))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10676))
 // CS Name: ::FactoryFromBinder3Extensions::<>c__DisplayClass0_0`4<TParam1,TParam2,TParam3,TContract>*
 class CORDL_TYPE __FactoryFromBinder3Extensions____c__DisplayClass0_0_4 : public ::System::Object {
 public:
@@ -139,8 +139,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10749))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10677))
 // CS Name: ::FactoryFromBinder3Extensions::<>c__1`4<TParam1,TParam2,TParam3,TContract>*
 class CORDL_TYPE __FactoryFromBinder3Extensions____c__1_4 : public ::System::Object {
 public:
@@ -197,8 +197,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10750))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10678))
 // CS Name: ::FactoryFromBinder3Extensions::<>c__3`4<TParam1,TParam2,TParam3,TContract>*
 class CORDL_TYPE __FactoryFromBinder3Extensions____c__3_4 : public ::System::Object {
 public:
@@ -255,8 +255,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TMemoryPool>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10751))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10679))
 // CS Name: ::FactoryFromBinder3Extensions::<>c__5`5<TParam1,TParam2,TParam3,TContract,TMemoryPool>*
 class CORDL_TYPE __FactoryFromBinder3Extensions____c__5_5 : public ::System::Object {
 public:
@@ -313,8 +313,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TMemoryPool>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10752))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10680))
 // CS Name: ::FactoryFromBinder3Extensions::<>c__DisplayClass6_0`5<TParam1,TParam2,TParam3,TContract,TMemoryPool>*
 class CORDL_TYPE __FactoryFromBinder3Extensions____c__DisplayClass6_0_5 : public ::System::Object {
 public:
@@ -367,8 +367,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10753))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10681))
 // CS Name: ::Zenject::FactoryFromBinder3Extensions*
 class CORDL_TYPE FactoryFromBinder3Extensions : public ::System::Object {
 public:

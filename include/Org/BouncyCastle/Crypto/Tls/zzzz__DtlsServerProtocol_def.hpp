@@ -8,37 +8,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsServerProtocol)
 namespace Org::BouncyCastle::Crypto::Tls {
+class DatagramTransport;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class __DtlsServerProtocol__ServerHandshakeState;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class NewSessionTicket;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsServer;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateRequest;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsRecordLayer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsTransport;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class DatagramTransport;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsServer;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class NewSessionTicket;
+class CertificateStatus;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsHandshakeHash;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class __DtlsServerProtocol__ServerHandshakeState;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateStatus;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSession;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class SessionParameters;
@@ -47,19 +53,13 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSession;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsServerContextImpl;
+class __SessionParameters__Builder;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class __SessionParameters__Builder;
+class TlsServerContextImpl;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -75,7 +75,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHan
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1235))
 // CS Name: ::DtlsServerProtocol::ServerHandshakeState*
 class CORDL_TYPE __DtlsServerProtocol__ServerHandshakeState : public ::System::Object {
@@ -245,7 +245,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* New_ctor();
 
-  /// @brief Method .ctor addr 0xf90bc0 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xf1a99c size 0x2c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DtlsServerProtocol__ServerHandshakeState", modifiers: "&&", def_value: None }]
@@ -321,6 +321,42 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, 0x88>, "Size mismatch!");
 
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___server) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___serverContext) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___tlsSession) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___sessionParameters) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___sessionParametersBuilder) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___offeredCipherSuites) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___offeredCompressionMethods) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___clientExtensions) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___serverExtensions) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___resumedSession) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___secure_renegotiation) == 0x59, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___allowCertificateStatus) == 0x5a, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___expectSessionTicket) == 0x5b, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___keyExchange) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___serverCredentials) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___certificateRequest) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___clientCertificateType) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState, ___clientCertificate) == 0x80, "Offset mismatch!");
+
 } // namespace Org::BouncyCastle::Crypto::Tls
 // Type: Org.BouncyCastle.Crypto.Tls::DtlsServerProtocol
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
@@ -347,64 +383,64 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method .ctor addr 0xf7130c size 0xc virtual false final false
+  /// @brief Method .ctor addr 0xefb0e8 size 0xc virtual false final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method get_VerifyRequests addr 0xf71318 size 0x8 virtual true final false
+  /// @brief Method get_VerifyRequests addr 0xefb0f4 size 0x8 virtual true final false
   inline bool get_VerifyRequests();
 
-  /// @brief Method set_VerifyRequests addr 0xf71320 size 0xc virtual true final false
+  /// @brief Method set_VerifyRequests addr 0xefb0fc size 0xc virtual true final false
   inline void set_VerifyRequests(bool value);
 
-  /// @brief Method Accept addr 0xf7132c size 0x58c virtual true final false
+  /// @brief Method Accept addr 0xefb108 size 0x58c virtual true final false
   inline ::Org::BouncyCastle::Crypto::Tls::DtlsTransport* Accept(::Org::BouncyCastle::Crypto::Tls::TlsServer* server, ::Org::BouncyCastle::Crypto::Tls::DatagramTransport* transport);
 
-  /// @brief Method AbortServerHandshake addr 0xf718b8 size 0x50 virtual true final false
+  /// @brief Method AbortServerHandshake addr 0xefb694 size 0x50 virtual true final false
   inline void AbortServerHandshake(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state, ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer,
                                    uint8_t alertDescription);
 
-  /// @brief Method ServerHandshake addr 0xf71908 size 0xe18 virtual true final false
+  /// @brief Method ServerHandshake addr 0xefb6e4 size 0xe18 virtual true final false
   inline ::Org::BouncyCastle::Crypto::Tls::DtlsTransport* ServerHandshake(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state,
                                                                           ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer);
 
-  /// @brief Method InvalidateSession addr 0xf72720 size 0xc4 virtual true final false
+  /// @brief Method InvalidateSession addr 0xefc4fc size 0xc4 virtual true final false
   inline void InvalidateSession(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state);
 
-  /// @brief Method GenerateCertificateRequest addr 0xf727e4 size 0x84 virtual true final false
+  /// @brief Method GenerateCertificateRequest addr 0xefc5c0 size 0x84 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state,
                                                                          ::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
 
-  /// @brief Method GenerateCertificateStatus addr 0xf72868 size 0x84 virtual true final false
+  /// @brief Method GenerateCertificateStatus addr 0xefc644 size 0x84 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateCertificateStatus(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state,
                                                                         ::Org::BouncyCastle::Crypto::Tls::CertificateStatus* certificateStatus);
 
-  /// @brief Method GenerateNewSessionTicket addr 0xf728ec size 0x84 virtual true final false
+  /// @brief Method GenerateNewSessionTicket addr 0xefc6c8 size 0x84 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateNewSessionTicket(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state,
                                                                        ::Org::BouncyCastle::Crypto::Tls::NewSessionTicket* newSessionTicket);
 
-  /// @brief Method GenerateServerHello addr 0xf72970 size 0x764 virtual true final false
+  /// @brief Method GenerateServerHello addr 0xefc74c size 0x764 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateServerHello(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state);
 
-  /// @brief Method NotifyClientCertificate addr 0xf730d4 size 0x2e4 virtual true final false
+  /// @brief Method NotifyClientCertificate addr 0xefceb0 size 0x2e4 virtual true final false
   inline void NotifyClientCertificate(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state, ::Org::BouncyCastle::Crypto::Tls::Certificate* clientCertificate);
 
-  /// @brief Method ProcessClientCertificate addr 0xf733b8 size 0xc8 virtual true final false
+  /// @brief Method ProcessClientCertificate addr 0xefd194 size 0xc8 virtual true final false
   inline void ProcessClientCertificate(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method ProcessCertificateVerify addr 0xf73480 size 0x518 virtual true final false
+  /// @brief Method ProcessCertificateVerify addr 0xefd25c size 0x518 virtual true final false
   inline void ProcessCertificateVerify(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> body,
                                        ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* prepareFinishHash);
 
-  /// @brief Method ProcessClientHello addr 0xf73998 size 0x6b0 virtual true final false
+  /// @brief Method ProcessClientHello addr 0xefd774 size 0x6b0 virtual true final false
   inline void ProcessClientHello(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method ProcessClientKeyExchange addr 0xf74048 size 0xf8 virtual true final false
+  /// @brief Method ProcessClientKeyExchange addr 0xefde24 size 0xf8 virtual true final false
   inline void ProcessClientKeyExchange(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method ProcessClientSupplementalData addr 0xf74140 size 0xfc virtual true final false
+  /// @brief Method ProcessClientSupplementalData addr 0xefdf1c size 0xfc virtual true final false
   inline void ProcessClientSupplementalData(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method ExpectCertificateVerifyMessage addr 0xf7423c size 0x78 virtual true final false
+  /// @brief Method ExpectCertificateVerifyMessage addr 0xefe018 size 0x78 virtual true final false
   inline bool ExpectCertificateVerifyMessage(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state);
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsServerProtocol", modifiers: "&&", def_value: None }]
@@ -428,6 +464,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol, ___mVerifyRequests) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol);

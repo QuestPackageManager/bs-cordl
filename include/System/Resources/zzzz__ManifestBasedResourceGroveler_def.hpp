@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ManifestBasedResourceGroveler)
-namespace System::Globalization {
-class CultureInfo;
+namespace System::Resources {
+class IResourceGroveler;
 }
 namespace System::Resources {
 struct UltimateResourceFallbackLocation;
 }
-namespace System::Resources {
-class IResourceGroveler;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Reflection {
 class Assembly;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Resources::ManifestBasedResourceGroveler);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3435))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3430))
 // CS Name: ::System.Resources::ManifestBasedResourceGroveler*
 class CORDL_TYPE ManifestBasedResourceGroveler : public ::System::Object {
 public:
@@ -52,13 +52,13 @@ public:
 
   static inline ::System::Resources::ManifestBasedResourceGroveler* New_ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
 
-  /// @brief Method .ctor addr 0x24e0f8c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2386a5c size 0x28 virtual false final false
   inline void _ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
 
-  /// @brief Method GetNeutralResourcesLanguage addr 0x24e0fb4 size 0x320 virtual false final false
+  /// @brief Method GetNeutralResourcesLanguage addr 0x2386a84 size 0x320 virtual false final false
   static inline ::System::Globalization::CultureInfo* GetNeutralResourcesLanguage(::System::Reflection::Assembly* a, ByRef<::System::Resources::UltimateResourceFallbackLocation> fallbackLocation);
 
-  /// @brief Method GetNeutralResourcesLanguageAttribute addr 0x24e12d4 size 0x74 virtual false final false
+  /// @brief Method GetNeutralResourcesLanguageAttribute addr 0x2386da4 size 0x74 virtual false final false
   static inline bool GetNeutralResourcesLanguageAttribute(::System::Reflection::Assembly* assembly, ByRef<::StringW> cultureName, ByRef<int16_t> fallbackLocation);
 
   // Ctor Parameters [CppParam { name: "", ty: "ManifestBasedResourceGroveler", modifiers: "&&", def_value: None }]
@@ -82,6 +82,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Resources::ManifestBasedResourceGroveler, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::Resources::ManifestBasedResourceGroveler, ____mediator) == 0x10, "Offset mismatch!");
 
 } // namespace System::Resources
 NEED_NO_BOX(::System::Resources::ManifestBasedResourceGroveler);

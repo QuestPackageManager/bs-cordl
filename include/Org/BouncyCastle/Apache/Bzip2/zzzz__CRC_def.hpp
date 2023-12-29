@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Apache::Bzip2::CRC);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Apache::Bzip2 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1878))
 // CS Name: ::Org.BouncyCastle.Apache.Bzip2::CRC*
 class CORDL_TYPE CRC : public ::System::Object {
@@ -40,22 +40,22 @@ public:
 
   static inline ::Org::BouncyCastle::Apache::Bzip2::CRC* New_ctor();
 
-  /// @brief Method .ctor addr 0x11878fc size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x11176b4 size 0x20 virtual false final false
   inline void _ctor();
 
-  /// @brief Method InitialiseCRC addr 0x1188e20 size 0xc virtual false final false
+  /// @brief Method InitialiseCRC addr 0x1118bd8 size 0xc virtual false final false
   inline void InitialiseCRC();
 
-  /// @brief Method GetFinalCRC addr 0x1188e58 size 0xc virtual false final false
+  /// @brief Method GetFinalCRC addr 0x1118c10 size 0xc virtual false final false
   inline int32_t GetFinalCRC();
 
-  /// @brief Method GetGlobalCRC addr 0x118992c size 0x8 virtual false final false
+  /// @brief Method GetGlobalCRC addr 0x11196e4 size 0x8 virtual false final false
   inline int32_t GetGlobalCRC();
 
-  /// @brief Method SetGlobalCRC addr 0x1189934 size 0x8 virtual false final false
+  /// @brief Method SetGlobalCRC addr 0x11196ec size 0x8 virtual false final false
   inline void SetGlobalCRC(int32_t newCrc);
 
-  /// @brief Method UpdateCRC addr 0x11897a4 size 0xa4 virtual false final false
+  /// @brief Method UpdateCRC addr 0x111955c size 0xa4 virtual false final false
   inline void UpdateCRC(int32_t inCh);
 
   // Ctor Parameters [CppParam { name: "", ty: "CRC", modifiers: "&&", def_value: None }]
@@ -79,6 +79,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Apache::Bzip2::CRC, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::CRC, ___globalCrc) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Apache::Bzip2
 NEED_NO_BOX(::Org::BouncyCastle::Apache::Bzip2::CRC);

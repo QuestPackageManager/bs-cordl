@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(HeaderInfo_HeaderTypeInfo_2)
 namespace System::Net::Http::Headers {
 struct HttpHeaderKind;
 }
-namespace System::Net::Http::Headers {
-class HeaderInfo;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Net::Http::Headers {
-template <typename T> class TryParseDelegate_1;
+namespace System {
+class Object;
 }
 namespace System::Net::Http::Headers {
 class HttpHeaders;
 }
-namespace System {
-class Object;
+namespace System::Net::Http::Headers {
+class HeaderInfo;
+}
+namespace System::Net::Http::Headers {
+template <typename T> class TryParseDelegate_1;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -36,8 +36,8 @@ namespace System::Net::Http::Headers {
 // cpp template
 template <typename T, typename U>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14671))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14669))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14888))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14886))
 // CS Name: ::HeaderInfo::HeaderTypeInfo`2<T,U>*
 class CORDL_TYPE __HeaderInfo__HeaderTypeInfo_2 : public ::System::Net::Http::Headers::HeaderInfo {
 public:

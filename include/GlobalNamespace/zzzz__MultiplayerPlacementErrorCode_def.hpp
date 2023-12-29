@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::MultiplayerPlacementErrorCode);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12738))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12667))
 // CS Name: ::MultiplayerPlacementErrorCode
 struct CORDL_TYPE MultiplayerPlacementErrorCode {
 public:
@@ -81,6 +81,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerPlacementErrorCode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlacementErrorCode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerPlacementErrorCode, "", "MultiplayerPlacementErrorCode");

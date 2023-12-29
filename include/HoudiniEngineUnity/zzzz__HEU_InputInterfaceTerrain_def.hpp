@@ -12,22 +12,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_InputInterfaceTerrain)
 namespace UnityEngine {
-class TerrainData;
+class TerrainLayer;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_VolumeInfo;
+class HEU_SessionBase;
 }
-namespace UnityEngine {
-class TerrainLayer;
+namespace HoudiniEngineUnity {
+struct HAPI_VolumeInfo;
 }
 namespace HoudiniEngineUnity {
 class __HEU_InputInterfaceTerrain__HEU_InputDataTerrain;
 }
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+namespace UnityEngine {
+class TerrainData;
 }
 namespace UnityEngine {
 class Terrain;
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataT
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9838)), TypeDefinitionIndex(TypeDefinitionIndex(9726))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9843))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9653)), TypeDefinitionIndex(TypeDefinitionIndex(9765))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9770))
 // CS Name: ::HEU_InputInterfaceTerrain::HEU_InputDataTerrain*
 class CORDL_TYPE __HEU_InputInterfaceTerrain__HEU_InputDataTerrain : public ::HoudiniEngineUnity::HEU_InputData {
 public:
@@ -171,7 +171,7 @@ public:
 
   static inline ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain* New_ctor();
 
-  /// @brief Method .ctor addr 0x21cb510 size 0x64 virtual false final false
+  /// @brief Method .ctor addr 0x2073b74 size 0x64 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HEU_InputInterfaceTerrain__HEU_InputDataTerrain", modifiers: "&&", def_value: None }]
@@ -232,13 +232,39 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain, 0x80>, "Size mismatch!");
 
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain, ____heightFieldName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain, ____parentNodeID) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain, ____voxelSize) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain, ____terrain) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain, ____terrainData) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain, ____numPointsX) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain, ____numPointsY) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain, ____transform) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain, ____heightScale) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain, ____heightfieldNodeID) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain, ____heightNodeID) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain, ____maskNodeID) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain, ____mergeNodeID) == 0x78, "Offset mismatch!");
+
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_InputInterfaceTerrain
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9839))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9844))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9766))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9771))
 // CS Name: ::HoudiniEngineUnity::HEU_InputInterfaceTerrain*
 class CORDL_TYPE HEU_InputInterfaceTerrain : public ::HoudiniEngineUnity::HEU_InputInterface {
 public:
@@ -247,47 +273,47 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_InputInterfaceTerrain* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c8f90 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x20715f4 size 0xc virtual false final false
   inline void _ctor();
 
-  /// @brief Method CreateInputNodeWithDataUpload addr 0x21c8f9c size 0x1a4 virtual true final false
+  /// @brief Method CreateInputNodeWithDataUpload addr 0x2071600 size 0x1a4 virtual true final false
   inline bool CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t connectNodeID, ::UnityEngine::GameObject* inputObject, ByRef<int32_t> inputNodeID);
 
-  /// @brief Method SetMaskLayer addr 0x21ca5dc size 0x11c virtual false final false
+  /// @brief Method SetMaskLayer addr 0x2072c40 size 0x11c virtual false final false
   inline bool SetMaskLayer(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain* idt,
                            ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> baseVolumeInfo);
 
-  /// @brief Method IsThisInputObjectSupported addr 0x21ca968 size 0xc8 virtual true final false
+  /// @brief Method IsThisInputObjectSupported addr 0x2072fcc size 0xc8 virtual true final false
   inline bool IsThisInputObjectSupported(::UnityEngine::GameObject* inputObject);
 
-  /// @brief Method CreateHeightFieldInputNode addr 0x21c95ec size 0x13c virtual false final false
+  /// @brief Method CreateHeightFieldInputNode addr 0x2071c50 size 0x13c virtual false final false
   inline bool CreateHeightFieldInputNode(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain* idt);
 
-  /// @brief Method UploadHeightValuesWithTransform addr 0x21c9728 size 0x800 virtual false final false
+  /// @brief Method UploadHeightValuesWithTransform addr 0x2071d8c size 0x800 virtual false final false
   inline bool UploadHeightValuesWithTransform(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain* idt,
                                               ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo);
 
-  /// @brief Method UploadAlphaMaps addr 0x21c9f28 size 0x6b4 virtual false final false
+  /// @brief Method UploadAlphaMaps addr 0x207258c size 0x6b4 virtual false final false
   inline bool UploadAlphaMaps(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain* idt,
                               ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> baseVolumeInfo, ByRef<bool> bMaskSet);
 
-  /// @brief Method SetHeightFieldData addr 0x21ca6f8 size 0x270 virtual false final false
+  /// @brief Method SetHeightFieldData addr 0x2072d5c size 0x270 virtual false final false
   inline bool SetHeightFieldData(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t volumeNodeID, int32_t partID, ::ArrayW<float_t, ::Array<float_t>*> heightValues, ::StringW heightFieldName,
                                  ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> baseVolumeInfo);
 
-  /// @brief Method SetTerrainDataAttributesToHeightField addr 0x21cae54 size 0x1b4 virtual false final false
+  /// @brief Method SetTerrainDataAttributesToHeightField addr 0x20734b8 size 0x1b4 virtual false final false
   inline bool SetTerrainDataAttributesToHeightField(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoNodeID, int32_t partID, ::UnityEngine::TerrainData* terrainData);
 
-  /// @brief Method SetTerrainLayerAttributesToHeightField addr 0x21cb2d0 size 0x1b4 virtual false final false
+  /// @brief Method SetTerrainLayerAttributesToHeightField addr 0x2073934 size 0x1b4 virtual false final false
   inline bool SetTerrainLayerAttributesToHeightField(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoNodeID, int32_t partID, ::UnityEngine::TerrainLayer* terrainLayer);
 
-  /// @brief Method SetTreePrototypes addr 0x21cb008 size 0x2c8 virtual false final false
+  /// @brief Method SetTreePrototypes addr 0x207366c size 0x2c8 virtual false final false
   inline void SetTreePrototypes(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoNodeID, int32_t partID, ::UnityEngine::TerrainData* terrainData);
 
-  /// @brief Method SetTreeInstances addr 0x21cb4f8 size 0x18 virtual false final false
+  /// @brief Method SetTreeInstances addr 0x2073b5c size 0x18 virtual false final false
   inline void SetTreeInstances(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoNodeID, int32_t partID, ::UnityEngine::TerrainData* terrainData);
 
-  /// @brief Method GenerateTerrainDataFromGameObject addr 0x21c91a0 size 0x44c virtual false final false
+  /// @brief Method GenerateTerrainDataFromGameObject addr 0x2071804 size 0x44c virtual false final false
   inline ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain* GenerateTerrainDataFromGameObject(::UnityEngine::GameObject* inputObject);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputInterfaceTerrain", modifiers: "&&", def_value: None }]

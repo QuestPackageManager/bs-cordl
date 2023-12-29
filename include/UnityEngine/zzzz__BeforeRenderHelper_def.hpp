@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeforeRenderHelper)
-namespace UnityEngine::Events {
-class UnityAction;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::Events {
+class UnityAction;
 }
 namespace UnityEngine {
 struct __BeforeRenderHelper__OrderBlock;
@@ -30,7 +30,7 @@ MARK_VAL_T(::UnityEngine::__BeforeRenderHelper__OrderBlock);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10099))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10027))
 // CS Name: ::BeforeRenderHelper::OrderBlock
 struct CORDL_TYPE __BeforeRenderHelper__OrderBlock {
 public:
@@ -57,13 +57,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::__BeforeRenderHelper__OrderBlock, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::__BeforeRenderHelper__OrderBlock, order) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::__BeforeRenderHelper__OrderBlock, callback) == 0x8, "Offset mismatch!");
+
 } // namespace UnityEngine
 // Type: UnityEngine::BeforeRenderHelper
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10100))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10028))
 // CS Name: ::UnityEngine::BeforeRenderHelper*
 class CORDL_TYPE BeforeRenderHelper : public ::System::Object {
 public:
@@ -77,16 +81,16 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>* getStaticF_s_OrderBlocks();
 
-  /// @brief Method GetUpdateOrder addr 0x2cc177c size 0x118 virtual false final false
+  /// @brief Method GetUpdateOrder addr 0x2b5c364 size 0x118 virtual false final false
   static inline int32_t GetUpdateOrder(::UnityEngine::Events::UnityAction* callback);
 
-  /// @brief Method RegisterCallback addr 0x2cc1894 size 0x348 virtual false final false
+  /// @brief Method RegisterCallback addr 0x2b5c47c size 0x348 virtual false final false
   static inline void RegisterCallback(::UnityEngine::Events::UnityAction* callback);
 
-  /// @brief Method UnregisterCallback addr 0x2cc1bdc size 0x310 virtual false final false
+  /// @brief Method UnregisterCallback addr 0x2b5c7c4 size 0x310 virtual false final false
   static inline void UnregisterCallback(::UnityEngine::Events::UnityAction* callback);
 
-  /// @brief Method Invoke addr 0x2cc1eec size 0x19c virtual false final false
+  /// @brief Method Invoke addr 0x2b5cad4 size 0x19c virtual false final false
   static inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeforeRenderHelper", modifiers: "&&", def_value: None }]

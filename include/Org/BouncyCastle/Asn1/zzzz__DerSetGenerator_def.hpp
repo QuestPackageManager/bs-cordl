@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DerSetGenerator)
 namespace System::IO {
-class MemoryStream;
+class Stream;
 }
 namespace System::IO {
-class Stream;
+class MemoryStream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
@@ -41,21 +41,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerSetGenerator* New_ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor addr 0x11c3f90 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x1152d40 size 0x80 virtual false final false
   inline void _ctor(::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Asn1::DerSetGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method .ctor addr 0x11c4010 size 0xa4 virtual false final false
+  /// @brief Method .ctor addr 0x1152dc0 size 0xa4 virtual false final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method AddObject addr 0x11c40b4 size 0x80 virtual true final false
+  /// @brief Method AddObject addr 0x1152e64 size 0x80 virtual true final false
   inline void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method GetRawOutputStream addr 0x11c4134 size 0x8 virtual true final false
+  /// @brief Method GetRawOutputStream addr 0x1152ee4 size 0x8 virtual true final false
   inline ::System::IO::Stream* GetRawOutputStream();
 
-  /// @brief Method Close addr 0x11c413c size 0x38 virtual true final false
+  /// @brief Method Close addr 0x1152eec size 0x38 virtual true final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "DerSetGenerator", modifiers: "&&", def_value: None }]
@@ -79,6 +79,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::DerSetGenerator, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::DerSetGenerator, ____bOut) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerSetGenerator);

@@ -11,13 +11,13 @@ namespace System {
 class Object;
 }
 namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace Newtonsoft::Json {
 class JsonReader;
 }
 namespace System {
 class Type;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -29,29 +29,29 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::HashSetConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11830))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12034))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11758))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11962))
 // CS Name: ::Newtonsoft.Json.Converters::HashSetConverter*
 class CORDL_TYPE HashSetConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
   __declspec(property(get = get_CanWrite)) bool CanWrite;
 
-  /// @brief Method WriteJson addr 0x26b3dec size 0x4 virtual true final false
+  /// @brief Method WriteJson addr 0x254f6a8 size 0x4 virtual true final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method ReadJson addr 0x26b3df0 size 0x1f4 virtual true final false
+  /// @brief Method ReadJson addr 0x254f6ac size 0x1f4 virtual true final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method CanConvert addr 0x26b3fe4 size 0xb8 virtual true final false
+  /// @brief Method CanConvert addr 0x254f8a0 size 0xb8 virtual true final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method get_CanWrite addr 0x26b409c size 0x8 virtual true final false
+  /// @brief Method get_CanWrite addr 0x254f958 size 0x8 virtual true final false
   inline bool get_CanWrite();
 
   static inline ::Newtonsoft::Json::Converters::HashSetConverter* New_ctor();
 
-  /// @brief Method .ctor addr 0x26b40a4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x254f960 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HashSetConverter", modifiers: "&&", def_value: None }]

@@ -6,11 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OtherCertID)
-namespace Org::BouncyCastle::Asn1::X509 {
-class IssuerSerial;
-}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1Sequence;
 }
 namespace System {
 class Object;
@@ -19,7 +16,10 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class IssuerSerial;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
@@ -62,35 +62,35 @@ public:
 
   constexpr void __set_issuerSerial(::Org::BouncyCastle::Asn1::X509::IssuerSerial* value);
 
-  /// @brief Method GetInstance addr 0xe9aa78 size 0x190 virtual false final false
+  /// @brief Method GetInstance addr 0xe258a4 size 0x190 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Ess::OtherCertID* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::OtherCertID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe9ac08 size 0x1f8 virtual false final false
+  /// @brief Method .ctor addr 0xe25a34 size 0x1f8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::OtherCertID* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method .ctor addr 0xe9ae00 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0xe25c2c size 0x84 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::OtherCertID* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest,
                                                                       ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
 
-  /// @brief Method .ctor addr 0xe9ae84 size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0xe25cb0 size 0x90 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
 
-  /// @brief Method get_AlgorithmHash addr 0xe9af14 size 0x104 virtual false final false
+  /// @brief Method get_AlgorithmHash addr 0xe25d40 size 0x104 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmHash();
 
-  /// @brief Method GetCertHash addr 0xe9b018 size 0x11c virtual false final false
+  /// @brief Method GetCertHash addr 0xe25e44 size 0x11c virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetCertHash();
 
-  /// @brief Method get_IssuerSerial addr 0xe9b134 size 0x8 virtual false final false
+  /// @brief Method get_IssuerSerial addr 0xe25f60 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_IssuerSerial();
 
-  /// @brief Method ToAsn1Object addr 0xe9b13c size 0x148 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe25f68 size 0x148 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OtherCertID", modifiers: "&&", def_value: None }]
@@ -117,6 +117,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ess::OtherCertID, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ess::OtherCertID, ___otherCertHash) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Ess::OtherCertID, ___issuerSerial) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Ess
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ess::OtherCertID);

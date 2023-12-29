@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AnchorIntoParent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5351))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5446))
 // CS Name: ::AnchorIntoParent*
 class CORDL_TYPE AnchorIntoParent : public ::UnityEngine::MonoBehaviour {
 public:
@@ -42,12 +42,12 @@ public:
 
   constexpr void __set__positionOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method Start addr 0x226be24 size 0x100 virtual false final false
+  /// @brief Method Start addr 0x2127ce8 size 0x100 virtual false final false
   inline void Start();
 
   static inline ::GlobalNamespace::AnchorIntoParent* New_ctor();
 
-  /// @brief Method .ctor addr 0x226bf24 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2127de8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AnchorIntoParent", modifiers: "&&", def_value: None }]
@@ -74,6 +74,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AnchorIntoParent, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AnchorIntoParent, ____parentTransform) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AnchorIntoParent, ____positionOffset) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AnchorIntoParent);

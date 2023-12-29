@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SubsystemDescriptorWithProvider)
 namespace UnityEngine {
-class ISubsystem;
+class ISubsystemDescriptor;
 }
 namespace UnityEngine {
-class ISubsystemDescriptor;
+class ISubsystem;
 }
 // Forward declare root types
 namespace UnityEngine::SubsystemsImplementation {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithP
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::SubsystemsImplementation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15972))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15864))
 // CS Name: ::UnityEngine.SubsystemsImplementation::SubsystemDescriptorWithProvider*
 class CORDL_TYPE SubsystemDescriptorWithProvider : public ::System::Object {
 public:
@@ -41,18 +41,18 @@ public:
 
   constexpr void __set__id_k__BackingField(::StringW value);
 
-  /// @brief Method get_id addr 0x2d1b498 size 0x8 virtual true final true
+  /// @brief Method get_id addr 0x2bb40e8 size 0x8 virtual true final true
   inline ::StringW get_id();
 
   /// @brief Method CreateImpl addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::UnityEngine::ISubsystem* CreateImpl();
 
-  /// @brief Method UnityEngine.ISubsystemDescriptor.Create addr 0x2d1b4a0 size 0xc virtual true final true
+  /// @brief Method UnityEngine.ISubsystemDescriptor.Create addr 0x2bb40f0 size 0xc virtual true final true
   inline ::UnityEngine::ISubsystem* UnityEngine_ISubsystemDescriptor_Create();
 
   static inline ::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d1b4ac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2bb40fc size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SubsystemDescriptorWithProvider", modifiers: "&&", def_value: None }]
@@ -76,6 +76,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider, ____id_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::SubsystemsImplementation
 NEED_NO_BOX(::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider);

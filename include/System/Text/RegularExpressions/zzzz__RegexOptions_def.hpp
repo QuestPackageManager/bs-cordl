@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Text::RegularExpressions::RegexOptions);
 namespace System::Text::RegularExpressions {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8925))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7762))
 // CS Name: ::System.Text.RegularExpressions::RegexOptions
 struct CORDL_TYPE RegexOptions {
 public:
@@ -89,6 +89,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexOptions, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexOptions, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Text::RegularExpressions
 DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexOptions, "System.Text.RegularExpressions", "RegexOptions");

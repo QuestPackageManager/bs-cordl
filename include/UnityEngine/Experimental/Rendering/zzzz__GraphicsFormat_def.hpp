@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Experimental::Rendering::GraphicsFormat);
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10406))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10328))
 // CS Name: ::UnityEngine.Experimental.Rendering::GraphicsFormat
 struct CORDL_TYPE GraphicsFormat {
 public:
@@ -637,6 +637,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Rendering::GraphicsFormat, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Experimental::Rendering::GraphicsFormat, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Experimental::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Rendering::GraphicsFormat, "UnityEngine.Experimental.Rendering", "GraphicsFormat");

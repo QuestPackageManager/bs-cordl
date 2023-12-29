@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::ICryptoTransform);
 namespace System::Security::Cryptography {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2941))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2940))
 // CS Name: ::System.Security.Cryptography::ICryptoTransform*
 class CORDL_TYPE ICryptoTransform {
 public:

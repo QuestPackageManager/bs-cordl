@@ -12,20 +12,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRFaceExpressions)
+namespace GlobalNamespace {
+struct __OVRFaceExpressions__FaceExpressionsEnumerator;
+}
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-struct __OVRFaceExpressions__FaceExpression;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace GlobalNamespace {
-class __OVRFaceExpressions__WeightProvider;
+struct __OVRFaceExpressions__FaceRegionConfidence;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -34,19 +34,16 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace GlobalNamespace {
-struct __OVRFaceExpressions__FaceExpressionsEnumerator;
-}
-namespace GlobalNamespace {
-struct __OVRFaceExpressions__FaceRegionConfidence;
+struct __OVRFaceExpressions__FaceExpression;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -59,48 +56,19 @@ namespace GlobalNamespace {
 class OVRFaceExpressions;
 }
 namespace GlobalNamespace {
-class __OVRFaceExpressions__WeightProvider;
-}
-namespace GlobalNamespace {
 struct __OVRFaceExpressions__FaceExpressionsEnumerator;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::__OVRFaceExpressions__FaceExpression);
 MARK_VAL_T(::GlobalNamespace::__OVRFaceExpressions__FaceRegionConfidence);
 MARK_REF_PTR_T(::GlobalNamespace::OVRFaceExpressions);
-MARK_REF_PTR_T(::GlobalNamespace::__OVRFaceExpressions__WeightProvider);
 MARK_VAL_T(::GlobalNamespace::__OVRFaceExpressions__FaceExpressionsEnumerator);
-// Type: ::WeightProvider
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7546))
-// CS Name: ::OVRFaceExpressions::WeightProvider*
-class CORDL_TYPE __OVRFaceExpressions__WeightProvider {
-public:
-  // Declarations
-  /// @brief Method GetWeight addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline float_t GetWeight(::GlobalNamespace::__OVRFaceExpressions__FaceExpression expression);
-
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRFaceExpressions__WeightProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __OVRFaceExpressions__WeightProvider(__OVRFaceExpressions__WeightProvider&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRFaceExpressions__WeightProvider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __OVRFaceExpressions__WeightProvider(__OVRFaceExpressions__WeightProvider const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace GlobalNamespace
 // Type: ::FaceRegionConfidence
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7547))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8450))
 // CS Name: ::OVRFaceExpressions::FaceRegionConfidence
 struct CORDL_TYPE __OVRFaceExpressions__FaceRegionConfidence {
 public:
@@ -146,13 +114,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRFaceExpressions__FaceRegionConfidence, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRFaceExpressions__FaceRegionConfidence, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::FaceExpression
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7548))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8451))
 // CS Name: ::OVRFaceExpressions::FaceExpression
 struct CORDL_TYPE __OVRFaceExpressions__FaceExpression {
 public:
@@ -161,7 +131,6 @@ public:
 
   /// @brief Nested struct ____OVRFaceExpressions__FaceExpression_Unwrapped
   enum struct ____OVRFaceExpressions__FaceExpression_Unwrapped : int32_t {
-    __E_Invalid = static_cast<int32_t>(0xffffffff),
     __E_BrowLowererL = static_cast<int32_t>(0x0),
     __E_BrowLowererR = static_cast<int32_t>(0x1),
     __E_CheekPuffL = static_cast<int32_t>(0x2),
@@ -245,9 +214,6 @@ public:
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Invalid value: static_cast<int32_t>(0xffffffff)
-  static ::GlobalNamespace::__OVRFaceExpressions__FaceExpression const Invalid;
 
   /// @brief Field BrowLowererL value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__OVRFaceExpressions__FaceExpression const BrowLowererL;
@@ -446,13 +412,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRFaceExpressions__FaceExpression, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRFaceExpressions__FaceExpression, value__) == 0x0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::FaceExpressionsEnumerator
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7549))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8452))
 // CS Name: ::OVRFaceExpressions::FaceExpressionsEnumerator
 struct CORDL_TYPE __OVRFaceExpressions__FaceExpressionsEnumerator {
 public:
@@ -470,22 +438,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method .ctor addr 0x271d634 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x25c4f90 size 0x24 virtual false final false
   inline void _ctor(::ArrayW<float_t, ::Array<float_t>*> array);
 
-  /// @brief Method MoveNext addr 0x271d760 size 0x1c virtual true final true
+  /// @brief Method MoveNext addr 0x25c50bc size 0x1c virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method get_Current addr 0x271d77c size 0x34 virtual true final true
+  /// @brief Method get_Current addr 0x25c50d8 size 0x34 virtual true final true
   inline float_t get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x271d7b0 size 0x60 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x25c510c size 0x60 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method Reset addr 0x271d810 size 0xc virtual true final true
+  /// @brief Method Reset addr 0x25c516c size 0xc virtual true final true
   inline void Reset();
 
-  /// @brief Method Dispose addr 0x271d81c size 0x4 virtual true final true
+  /// @brief Method Dispose addr 0x25c5178 size 0x4 virtual true final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "_faceExpressions", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "",
@@ -513,13 +481,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRFaceExpressions__FaceExpressionsEnumerator, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__OVRFaceExpressions__FaceExpressionsEnumerator, _faceExpressions) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRFaceExpressions__FaceExpressionsEnumerator, _index) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRFaceExpressions__FaceExpressionsEnumerator, _count) == 0xc, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::OVRFaceExpressions
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7679)), TypeDefinitionIndex(TypeDefinitionIndex(7795))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7550))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8671)), TypeDefinitionIndex(TypeDefinitionIndex(8558)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8453))
 // CS Name: ::OVRFaceExpressions*
 class CORDL_TYPE OVRFaceExpressions : public ::UnityEngine::MonoBehaviour {
 public:
@@ -529,8 +503,6 @@ public:
   using FaceExpression = ::GlobalNamespace::__OVRFaceExpressions__FaceExpression;
 
   using FaceRegionConfidence = ::GlobalNamespace::__OVRFaceExpressions__FaceRegionConfidence;
-
-  using WeightProvider = ::GlobalNamespace::__OVRFaceExpressions__WeightProvider;
 
   /// @brief Field <ValidExpressions>k__BackingField, offset 0x18, size 0x1
   __declspec(property(get = __get__ValidExpressions_k__BackingField, put = __set__ValidExpressions_k__BackingField)) bool _ValidExpressions_k__BackingField;
@@ -566,9 +538,6 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert operator to "::GlobalNamespace::__OVRFaceExpressions__WeightProvider"
-  constexpr operator ::GlobalNamespace::__OVRFaceExpressions__WeightProvider*() noexcept;
-
   constexpr bool& __get__ValidExpressions_k__BackingField();
 
   constexpr bool const& __get__ValidExpressions_k__BackingField() const;
@@ -597,78 +566,75 @@ public:
 
   static inline int32_t getStaticF__trackingInstanceCount();
 
-  /// @brief Method get_FaceTrackingEnabled addr 0x271cd88 size 0x50 virtual false final false
+  /// @brief Method get_FaceTrackingEnabled addr 0x25c46e8 size 0x50 virtual false final false
   inline bool get_FaceTrackingEnabled();
 
-  /// @brief Method get_ValidExpressions addr 0x271cdd8 size 0x8 virtual false final false
+  /// @brief Method get_ValidExpressions addr 0x25c4738 size 0x8 virtual false final false
   inline bool get_ValidExpressions();
 
-  /// @brief Method set_ValidExpressions addr 0x271cde0 size 0xc virtual false final false
+  /// @brief Method set_ValidExpressions addr 0x25c4740 size 0xc virtual false final false
   inline void set_ValidExpressions(bool value);
 
-  /// @brief Method get_EyeFollowingBlendshapesValid addr 0x271cdec size 0x8 virtual false final false
+  /// @brief Method get_EyeFollowingBlendshapesValid addr 0x25c474c size 0x8 virtual false final false
   inline bool get_EyeFollowingBlendshapesValid();
 
-  /// @brief Method set_EyeFollowingBlendshapesValid addr 0x271cdf4 size 0xc virtual false final false
+  /// @brief Method set_EyeFollowingBlendshapesValid addr 0x25c4754 size 0xc virtual false final false
   inline void set_EyeFollowingBlendshapesValid(bool value);
 
-  /// @brief Method Awake addr 0x271ce00 size 0x7c virtual false final false
+  /// @brief Method Awake addr 0x25c4760 size 0x7c virtual false final false
   inline void Awake();
 
-  /// @brief Method OnEnable addr 0x271ce7c size 0x78 virtual false final false
+  /// @brief Method OnEnable addr 0x25c47dc size 0x78 virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnPermissionGranted addr 0x271cfcc size 0x60 virtual false final false
+  /// @brief Method OnPermissionGranted addr 0x25c492c size 0x60 virtual false final false
   inline void OnPermissionGranted(::StringW permissionId);
 
-  /// @brief Method StartFaceTracking addr 0x271cef4 size 0xd8 virtual false final false
+  /// @brief Method StartFaceTracking addr 0x25c4854 size 0xd8 virtual false final false
   inline bool StartFaceTracking();
 
-  /// @brief Method OnDisable addr 0x271d02c size 0x88 virtual false final false
+  /// @brief Method OnDisable addr 0x25c498c size 0x88 virtual false final false
   inline void OnDisable();
 
-  /// @brief Method OnDestroy addr 0x271d0b4 size 0xc virtual false final false
+  /// @brief Method OnDestroy addr 0x25c4a14 size 0xc virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method Update addr 0x271d0c0 size 0x94 virtual false final false
+  /// @brief Method Update addr 0x25c4a20 size 0x94 virtual false final false
   inline void Update();
 
-  /// @brief Method get_Item addr 0x271d154 size 0x100 virtual false final false
+  /// @brief Method get_Item addr 0x25c4ab4 size 0x100 virtual false final false
   inline float_t get_Item(::GlobalNamespace::__OVRFaceExpressions__FaceExpression expression);
 
-  /// @brief Method GetWeight addr 0x271d2b4 size 0x4 virtual true final true
-  inline float_t GetWeight(::GlobalNamespace::__OVRFaceExpressions__FaceExpression expression);
-
-  /// @brief Method TryGetFaceExpressionWeight addr 0x271d2b8 size 0x54 virtual false final false
+  /// @brief Method TryGetFaceExpressionWeight addr 0x25c4c14 size 0x54 virtual false final false
   inline bool TryGetFaceExpressionWeight(::GlobalNamespace::__OVRFaceExpressions__FaceExpression expression, ByRef<float_t> weight);
 
-  /// @brief Method TryGetWeightConfidence addr 0x271d30c size 0x54 virtual false final false
+  /// @brief Method TryGetWeightConfidence addr 0x25c4c68 size 0x54 virtual false final false
   inline bool TryGetWeightConfidence(::GlobalNamespace::__OVRFaceExpressions__FaceRegionConfidence region, ByRef<float_t> weightConfidence);
 
-  /// @brief Method CheckValidity addr 0x271d254 size 0x60 virtual false final false
+  /// @brief Method CheckValidity addr 0x25c4bb4 size 0x60 virtual false final false
   inline void CheckValidity();
 
-  /// @brief Method CopyTo addr 0x271d360 size 0x250 virtual false final false
+  /// @brief Method CopyTo addr 0x25c4cbc size 0x250 virtual false final false
   inline void CopyTo(::ArrayW<float_t, ::Array<float_t>*> array, int32_t startIndex);
 
-  /// @brief Method ToArray addr 0x271d5b0 size 0x64 virtual false final false
+  /// @brief Method ToArray addr 0x25c4f0c size 0x64 virtual false final false
   inline ::ArrayW<float_t, ::Array<float_t>*> ToArray();
 
-  /// @brief Method GetEnumerator addr 0x271d614 size 0x20 virtual false final false
+  /// @brief Method GetEnumerator addr 0x25c4f70 size 0x20 virtual false final false
   inline ::GlobalNamespace::__OVRFaceExpressions__FaceExpressionsEnumerator GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Single>.GetEnumerator addr 0x271d658 size 0x74 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Single>.GetEnumerator addr 0x25c4fb4 size 0x74 virtual true final true
   inline ::System::Collections::Generic::IEnumerator_1<float_t>* System_Collections_Generic_IEnumerable_System_Single__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x271d6cc size 0x74 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x25c5028 size 0x74 virtual true final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method get_Count addr 0x271d740 size 0x18 virtual true final true
+  /// @brief Method get_Count addr 0x25c509c size 0x18 virtual true final true
   inline int32_t get_Count();
 
   static inline ::GlobalNamespace::OVRFaceExpressions* New_ctor();
 
-  /// @brief Method .ctor addr 0x271d758 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x25c50b4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRFaceExpressions", modifiers: "&&", def_value: None }]
@@ -705,11 +671,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRFaceExpressions, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::OVRFaceExpressions, ____ValidExpressions_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRFaceExpressions, ____EyeFollowingBlendshapesValid_k__BackingField) == 0x19, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRFaceExpressions, ____currentFaceState) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRFaceExpressions, ____onPermissionGranted) == 0x40, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRFaceExpressions__FaceExpression, "", "OVRFaceExpressions/FaceExpression");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRFaceExpressions__FaceRegionConfidence, "", "OVRFaceExpressions/FaceRegionConfidence");
 NEED_NO_BOX(::GlobalNamespace::OVRFaceExpressions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRFaceExpressions*, "", "OVRFaceExpressions");
-NEED_NO_BOX(::GlobalNamespace::__OVRFaceExpressions__WeightProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRFaceExpressions__WeightProvider*, "", "OVRFaceExpressions/WeightProvider");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRFaceExpressions__FaceExpressionsEnumerator, "", "OVRFaceExpressions/FaceExpressionsEnumerator");

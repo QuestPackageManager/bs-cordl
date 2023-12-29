@@ -9,10 +9,10 @@ namespace System {
 class Exception;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -24,30 +24,30 @@ MARK_REF_PTR_T(::System::InvalidCastException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2426))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2424))
 // CS Name: ::System::InvalidCastException*
 class CORDL_TYPE InvalidCastException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::InvalidCastException* New_ctor();
 
-  /// @brief Method .ctor addr 0x25ada20 size 0x5c virtual false final false
+  /// @brief Method .ctor addr 0x2451b30 size 0x5c virtual false final false
   inline void _ctor();
 
   static inline ::System::InvalidCastException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x25ab064 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x244f174 size 0x24 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::System::InvalidCastException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor addr 0x25ada7c size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x2451b8c size 0x24 virtual false final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::System::InvalidCastException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x25adaa0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2451bb0 size 0x8 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "InvalidCastException", modifiers: "&&", def_value: None }]

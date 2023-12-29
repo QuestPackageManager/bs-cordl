@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TMP_VertexDataUpdateFlags);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12316))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12244))
 // CS Name: ::TMPro::TMP_VertexDataUpdateFlags
 struct CORDL_TYPE TMP_VertexDataUpdateFlags {
 public:
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_VertexDataUpdateFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_VertexDataUpdateFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_VertexDataUpdateFlags, "TMPro", "TMP_VertexDataUpdateFlags");

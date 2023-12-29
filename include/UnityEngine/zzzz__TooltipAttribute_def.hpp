@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::TooltipAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10173))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10098))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10101))
 // CS Name: ::UnityEngine::TooltipAttribute*
 class CORDL_TYPE TooltipAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::TooltipAttribute* New_ctor(::StringW tooltip);
 
-  /// @brief Method .ctor addr 0x2ccc120 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2b65c1c size 0x28 virtual false final false
   inline void _ctor(::StringW tooltip);
 
   // Ctor Parameters [CppParam { name: "", ty: "TooltipAttribute", modifiers: "&&", def_value: None }]
@@ -56,6 +56,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TooltipAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TooltipAttribute, ___tooltip) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::TooltipAttribute);

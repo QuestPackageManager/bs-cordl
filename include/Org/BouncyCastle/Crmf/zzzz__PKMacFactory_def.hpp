@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PKMacFactory)
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PbmParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMacFactory;
+}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Crypto {
 class IStreamCalculator;
-}
-namespace Org::BouncyCastle::Crypto {
-class IMacFactory;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PbmParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::PKMacFactory);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(708))
 // CS Name: ::Org.BouncyCastle.Crmf::PKMacFactory*
 class CORDL_TYPE PKMacFactory : public ::System::Object {
@@ -59,13 +59,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crmf::PKMacFactory* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* parameters);
 
-  /// @brief Method .ctor addr 0x1211fdc size 0x7c virtual false final false
+  /// @brief Method .ctor addr 0x11a0d8c size 0x7c virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* parameters);
 
-  /// @brief Method get_AlgorithmDetails addr 0x1212058 size 0x9c virtual true final false
+  /// @brief Method get_AlgorithmDetails addr 0x11a0e08 size 0x9c virtual true final false
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method CreateCalculator addr 0x12120f4 size 0x174 virtual true final false
+  /// @brief Method CreateCalculator addr 0x11a0ea4 size 0x174 virtual true final false
   inline ::Org::BouncyCastle::Crypto::IStreamCalculator* CreateCalculator();
 
   // Ctor Parameters [CppParam { name: "", ty: "PKMacFactory", modifiers: "&&", def_value: None }]
@@ -92,6 +92,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crmf::PKMacFactory, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crmf::PKMacFactory, ___parameters) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crmf::PKMacFactory, ___key) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Crmf::PKMacFactory);

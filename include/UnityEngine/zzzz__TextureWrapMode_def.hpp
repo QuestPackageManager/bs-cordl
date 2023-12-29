@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextureWrapMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10114))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10042))
 // CS Name: ::UnityEngine::TextureWrapMode
 struct CORDL_TYPE TextureWrapMode {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextureWrapMode, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextureWrapMode, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextureWrapMode, "UnityEngine", "TextureWrapMode");

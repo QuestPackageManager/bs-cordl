@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeMarshal)
 namespace Mono {
-struct SafeStringMarshal;
+struct MonoAssemblyName;
 }
 namespace Mono {
-struct MonoAssemblyName;
+struct SafeStringMarshal;
 }
 // Forward declare root types
 namespace Mono {
@@ -24,28 +24,28 @@ MARK_REF_PTR_T(::Mono::RuntimeMarshal);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2234))
 // CS Name: ::Mono::RuntimeMarshal*
 class CORDL_TYPE RuntimeMarshal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PtrToUtf8String addr 0x2412b38 size 0xe4 virtual false final false
+  /// @brief Method PtrToUtf8String addr 0x22b90b8 size 0xe4 virtual false final false
   static inline ::StringW PtrToUtf8String(void* ptr);
 
-  /// @brief Method MarshalString addr 0x2412c1c size 0x50 virtual false final false
+  /// @brief Method MarshalString addr 0x22b919c size 0x50 virtual false final false
   static inline ::Mono::SafeStringMarshal MarshalString(::StringW str);
 
-  /// @brief Method DecodeBlobSize addr 0x2412ccc size 0x80 virtual false final false
+  /// @brief Method DecodeBlobSize addr 0x22b924c size 0x80 virtual false final false
   static inline int32_t DecodeBlobSize(void* in_ptr, ByRef<void*> out_ptr);
 
-  /// @brief Method DecodeBlobArray addr 0x2412d4c size 0xb8 virtual false final false
+  /// @brief Method DecodeBlobArray addr 0x22b92cc size 0xb8 virtual false final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeBlobArray(void* ptr);
 
-  /// @brief Method AsciHexDigitValue addr 0x2412e04 size 0x2c virtual false final false
+  /// @brief Method AsciHexDigitValue addr 0x22b9384 size 0x2c virtual false final false
   static inline int32_t AsciHexDigitValue(int32_t c);
 
-  /// @brief Method FreeAssemblyName addr 0x2412e30 size 0x8 virtual false final false
+  /// @brief Method FreeAssemblyName addr 0x22b93b0 size 0x8 virtual false final false
   static inline void FreeAssemblyName(ByRef<::Mono::MonoAssemblyName> name, bool freeStruct);
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeMarshal", modifiers: "&&", def_value: None }]

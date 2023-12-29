@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Users::InputUserChange);
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6366))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6452))
 // CS Name: ::UnityEngine.InputSystem.Users::InputUserChange
 struct CORDL_TYPE InputUserChange {
 public:
@@ -101,6 +101,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Users::InputUserChange, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::InputUserChange, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Users
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Users::InputUserChange, "UnityEngine.InputSystem.Users", "InputUserChange");

@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(StartDragArgs)
 namespace UnityEngine {
 class Object;
 }
+namespace System::Collections {
+class Hashtable;
+}
 namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class Hashtable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StartDragArgs);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6957))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7043))
 // CS Name: ::UnityEngine.UIElements::StartDragArgs*
 class CORDL_TYPE StartDragArgs : public ::System::Object {
 public:
@@ -72,12 +72,12 @@ public:
 
   constexpr void __set__unityObjectReferences_k__BackingField(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Object*>* value);
 
-  /// @brief Method get_userData addr 0x2e09984 size 0x8 virtual false final false
+  /// @brief Method get_userData addr 0x2ca35d4 size 0x8 virtual false final false
   inline ::System::Object* get_userData();
 
   static inline ::UnityEngine::UIElements::StartDragArgs* New_ctor(::StringW title, ::System::Object* userData);
 
-  /// @brief Method .ctor addr 0x2e098cc size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x2ca351c size 0x80 virtual false final false
   inline void _ctor(::StringW title, ::System::Object* userData);
 
   // Ctor Parameters [CppParam { name: "", ty: "StartDragArgs", modifiers: "&&", def_value: None }]
@@ -110,6 +110,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StartDragArgs, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StartDragArgs, ____title_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StartDragArgs, ____userData_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StartDragArgs, ___m_GenericData) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StartDragArgs, ____unityObjectReferences_k__BackingField) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::StartDragArgs);

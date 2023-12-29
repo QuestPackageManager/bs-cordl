@@ -8,34 +8,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SM2Signer)
 namespace Org::BouncyCastle::Crypto::Signers {
-class IDsaKCalculator;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+class IDsaEncoding;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class ECMultiplier;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto::Signers {
-class IDsaEncoding;
+class ISigner;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECDomainParameters;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Signers {
+class IDsaKCalculator;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECKeyParameters;
@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::SM2Signer);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1153))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::SM2Signer*
 class CORDL_TYPE SM2Signer : public ::System::Object {
@@ -126,61 +126,61 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Signers::SM2Signer* New_ctor();
 
-  /// @brief Method .ctor addr 0xf577e0 size 0x98 virtual false final false
+  /// @brief Method .ctor addr 0xee15d0 size 0x98 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Signers::SM2Signer* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0xf578f8 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0xee16e8 size 0x70 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::SM2Signer* New_ctor(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding);
 
-  /// @brief Method .ctor addr 0xf57968 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0xee1758 size 0x74 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::SM2Signer* New_ctor(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0xf57878 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0xee1668 size 0x80 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_AlgorithmName addr 0xf579dc size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xee17cc size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0xf57a1c size 0x654 virtual true final false
+  /// @brief Method Init addr 0xee180c size 0x654 virtual true final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method Update addr 0xf581e0 size 0xac virtual true final false
+  /// @brief Method Update addr 0xee1fd0 size 0xac virtual true final false
   inline void Update(uint8_t b);
 
-  /// @brief Method BlockUpdate addr 0xf5828c size 0xc4 virtual true final false
+  /// @brief Method BlockUpdate addr 0xee207c size 0xc4 virtual true final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method VerifySignature addr 0xf58350 size 0x184 virtual true final false
+  /// @brief Method VerifySignature addr 0xee2140 size 0x184 virtual true final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method Reset addr 0xf58738 size 0x134 virtual true final false
+  /// @brief Method Reset addr 0xee2528 size 0x134 virtual true final false
   inline void Reset();
 
-  /// @brief Method GenerateSignature addr 0xf5886c size 0x4fc virtual true final false
+  /// @brief Method GenerateSignature addr 0xee265c size 0x4fc virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method VerifySignature addr 0xf584d4 size 0x264 virtual false final false
+  /// @brief Method VerifySignature addr 0xee22c4 size 0x264 virtual false final false
   inline bool VerifySignature(::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::BigInteger* s);
 
-  /// @brief Method GetZ addr 0xf58070 size 0x170 virtual false final false
+  /// @brief Method GetZ addr 0xee1e60 size 0x170 virtual false final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetZ(::ArrayW<uint8_t, ::Array<uint8_t>*> userID);
 
-  /// @brief Method AddUserID addr 0xf58d68 size 0x188 virtual false final false
+  /// @brief Method AddUserID addr 0xee2b58 size 0x188 virtual false final false
   inline void AddUserID(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> userID);
 
-  /// @brief Method AddFieldElement addr 0xf58ef0 size 0xd4 virtual false final false
+  /// @brief Method AddFieldElement addr 0xee2ce0 size 0xd4 virtual false final false
   inline void AddFieldElement(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECFieldElement* v);
 
-  /// @brief Method CalculateE addr 0xf58fc4 size 0x68 virtual true final false
+  /// @brief Method CalculateE addr 0xee2db4 size 0x68 virtual true final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateE(::Org::BouncyCastle::Math::BigInteger* n, ::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method CreateBasePointMultiplier addr 0xf5902c size 0x5c virtual true final false
+  /// @brief Method CreateBasePointMultiplier addr 0xee2e1c size 0x5c virtual true final false
   inline ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
 
   // Ctor Parameters [CppParam { name: "", ty: "SM2Signer", modifiers: "&&", def_value: None }]
@@ -222,6 +222,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Signers::SM2Signer, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::SM2Signer, ___kCalculator) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::SM2Signer, ___digest) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::SM2Signer, ___encoding) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::SM2Signer, ___ecParams) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::SM2Signer, ___pubPoint) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::SM2Signer, ___ecKey) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::SM2Signer, ___z) == 0x40, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Signers
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::SM2Signer);

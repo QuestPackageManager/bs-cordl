@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AutoSetupData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5557))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5650))
 // CS Name: ::AutoSetupData*
 class CORDL_TYPE AutoSetupData : public ::System::Object {
 public:
@@ -58,7 +58,7 @@ public:
 
   static inline ::GlobalNamespace::AutoSetupData* New_ctor();
 
-  /// @brief Method .ctor addr 0x22a2eac size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x215df28 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AutoSetupData", modifiers: "&&", def_value: None }]
@@ -91,6 +91,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AutoSetupData, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutoSetupData, ___selectBasedOnSuggestions) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutoSetupData, ___autoStartWhenAllReady) == 0x11, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutoSetupData, ___forceAutoStartAfterSongSelection) == 0x12, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AutoSetupData, ___randomSongIfNoneSuggested) == 0x13, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AutoSetupData);

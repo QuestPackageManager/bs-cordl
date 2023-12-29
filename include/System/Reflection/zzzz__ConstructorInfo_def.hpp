@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConstructorInfo)
 namespace System::Reflection {
-class Binder;
-}
-namespace System::Globalization {
-class CultureInfo;
+struct MemberTypes;
 }
 namespace System::Reflection {
-struct MemberTypes;
+class Binder;
 }
 namespace System {
 class Object;
 }
 namespace System::Reflection {
 struct BindingFlags;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Reflection::ConstructorInfo);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3477))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3461))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3472))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3456))
 // CS Name: ::System.Reflection::ConstructorInfo*
 class CORDL_TYPE ConstructorInfo : public ::System::Reflection::MethodBase {
 public:
@@ -56,29 +56,29 @@ public:
 
   static inline ::System::Reflection::ConstructorInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x24e60b8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x238c600 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_MemberType addr 0x24e60c8 size 0x8 virtual true final false
+  /// @brief Method get_MemberType addr 0x238c610 size 0x8 virtual true final false
   inline ::System::Reflection::MemberTypes get_MemberType();
 
-  /// @brief Method Invoke addr 0x24e60d0 size 0x20 virtual false final false
+  /// @brief Method Invoke addr 0x238c618 size 0x20 virtual false final false
   inline ::System::Object* Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
 
   /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
   inline ::System::Object* Invoke(::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters,
                                   ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method Equals addr 0x24e60f0 size 0x8 virtual true final false
+  /// @brief Method Equals addr 0x238c638 size 0x8 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x24e6100 size 0x8 virtual true final false
+  /// @brief Method GetHashCode addr 0x238c648 size 0x8 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality addr 0x24e6110 size 0x2c virtual false final false
+  /// @brief Method op_Equality addr 0x238c658 size 0x2c virtual false final false
   static inline bool op_Equality(::System::Reflection::ConstructorInfo* left, ::System::Reflection::ConstructorInfo* right);
 
-  /// @brief Method op_Inequality addr 0x24e613c size 0x94 virtual false final false
+  /// @brief Method op_Inequality addr 0x238c684 size 0x94 virtual false final false
   static inline bool op_Inequality(::System::Reflection::ConstructorInfo* left, ::System::Reflection::ConstructorInfo* right);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConstructorInfo", modifiers: "&&", def_value: None }]

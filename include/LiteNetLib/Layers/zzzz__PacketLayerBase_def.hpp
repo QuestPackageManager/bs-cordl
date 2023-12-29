@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::LiteNetLib::Layers::PacketLayerBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LiteNetLib::Layers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14242))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14580))
 // CS Name: ::LiteNetLib.Layers::PacketLayerBase*
 class CORDL_TYPE PacketLayerBase : public ::System::Object {
 public:
@@ -37,7 +37,7 @@ public:
 
   static inline ::LiteNetLib::Layers::PacketLayerBase* New_ctor(int32_t extraPacketSizeForLayer);
 
-  /// @brief Method .ctor addr 0x220d20c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x20ac2d4 size 0x28 virtual false final false
   inline void _ctor(int32_t extraPacketSizeForLayer);
 
   /// @brief Method ProcessInboundPacket addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -67,6 +67,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::Layers::PacketLayerBase, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::Layers::PacketLayerBase, ___ExtraPacketSizeForLayer) == 0x10, "Offset mismatch!");
 
 } // namespace LiteNetLib::Layers
 NEED_NO_BOX(::LiteNetLib::Layers::PacketLayerBase);

@@ -19,8 +19,8 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::XmlTagAttribute);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13716))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13707))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13595))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13586))
 // CS Name: ::UnityEngine.TextCore.Text::XmlTagAttribute
 struct CORDL_TYPE XmlTagAttribute {
 public:
@@ -56,6 +56,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::XmlTagAttribute, 0x14>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::XmlTagAttribute, nameHashCode) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::XmlTagAttribute, valueType) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::XmlTagAttribute, valueStartIndex) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::XmlTagAttribute, valueLength) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::XmlTagAttribute, valueHashCode) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::XmlTagAttribute, "UnityEngine.TextCore.Text", "XmlTagAttribute");

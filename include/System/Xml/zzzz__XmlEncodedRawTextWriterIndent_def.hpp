@@ -11,9 +11,6 @@ CORDL_MODULE_EXPORT(XmlEncodedRawTextWriterIndent)
 namespace System::IO {
 class TextWriter;
 }
-namespace System::IO {
-class Stream;
-}
 namespace System::Xml {
 struct ConformanceLevel;
 }
@@ -22,6 +19,9 @@ class XmlWriterSettings;
 }
 namespace System::Xml {
 class BitStack;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::System::Xml::XmlEncodedRawTextWriterIndent);
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 220, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11413)), TypeDefinitionIndex(TypeDefinitionIndex(11449))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11450))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11341)), TypeDefinitionIndex(TypeDefinitionIndex(11377))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11378))
 // CS Name: ::System.Xml::XmlEncodedRawTextWriterIndent*
 class CORDL_TYPE XmlEncodedRawTextWriterIndent : public ::System::Xml::XmlEncodedRawTextWriter {
 public:
@@ -95,75 +95,75 @@ public:
 
   static inline ::System::Xml::XmlEncodedRawTextWriterIndent* New_ctor(::System::IO::TextWriter* writer, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method .ctor addr 0x28586c8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x26dc6ac size 0x28 virtual false final false
   inline void _ctor(::System::IO::TextWriter* writer, ::System::Xml::XmlWriterSettings* settings);
 
   static inline ::System::Xml::XmlEncodedRawTextWriterIndent* New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method .ctor addr 0x2858804 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x26dc7e8 size 0x28 virtual false final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method WriteDocType addr 0x285882c size 0x60 virtual true final false
+  /// @brief Method WriteDocType addr 0x26dc810 size 0x60 virtual true final false
   inline void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset);
 
-  /// @brief Method WriteStartElement addr 0x28588d4 size 0x98 virtual true final false
+  /// @brief Method WriteStartElement addr 0x26dc8b8 size 0x98 virtual true final false
   inline void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method StartElementContent addr 0x285896c size 0x44 virtual true final false
+  /// @brief Method StartElementContent addr 0x26dc950 size 0x44 virtual true final false
   inline void StartElementContent();
 
-  /// @brief Method OnRootElement addr 0x28589b0 size 0x8 virtual true final false
+  /// @brief Method OnRootElement addr 0x26dc994 size 0x8 virtual true final false
   inline void OnRootElement(::System::Xml::ConformanceLevel currentConformanceLevel);
 
-  /// @brief Method WriteEndElement addr 0x28589b8 size 0x98 virtual true final false
+  /// @brief Method WriteEndElement addr 0x26dc99c size 0x98 virtual true final false
   inline void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteFullEndElement addr 0x2858a50 size 0x98 virtual true final false
+  /// @brief Method WriteFullEndElement addr 0x26dca34 size 0x98 virtual true final false
   inline void WriteFullEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteStartAttribute addr 0x2858ae8 size 0x3c virtual true final false
+  /// @brief Method WriteStartAttribute addr 0x26dcacc size 0x3c virtual true final false
   inline void WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteCData addr 0x2858b24 size 0xc virtual true final false
+  /// @brief Method WriteCData addr 0x26dcb08 size 0xc virtual true final false
   inline void WriteCData(::StringW text);
 
-  /// @brief Method WriteComment addr 0x2858b30 size 0x40 virtual true final false
+  /// @brief Method WriteComment addr 0x26dcb14 size 0x40 virtual true final false
   inline void WriteComment(::StringW text);
 
-  /// @brief Method WriteProcessingInstruction addr 0x2858b70 size 0x48 virtual true final false
+  /// @brief Method WriteProcessingInstruction addr 0x26dcb54 size 0x48 virtual true final false
   inline void WriteProcessingInstruction(::StringW target, ::StringW text);
 
-  /// @brief Method WriteEntityRef addr 0x2858bb8 size 0xc virtual true final false
+  /// @brief Method WriteEntityRef addr 0x26dcb9c size 0xc virtual true final false
   inline void WriteEntityRef(::StringW name);
 
-  /// @brief Method WriteCharEntity addr 0x2858bc4 size 0xc virtual true final false
+  /// @brief Method WriteCharEntity addr 0x26dcba8 size 0xc virtual true final false
   inline void WriteCharEntity(char16_t ch);
 
-  /// @brief Method WriteSurrogateCharEntity addr 0x2858bd0 size 0xc virtual true final false
+  /// @brief Method WriteSurrogateCharEntity addr 0x26dcbb4 size 0xc virtual true final false
   inline void WriteSurrogateCharEntity(char16_t lowChar, char16_t highChar);
 
-  /// @brief Method WriteWhitespace addr 0x2858bdc size 0xc virtual true final false
+  /// @brief Method WriteWhitespace addr 0x26dcbc0 size 0xc virtual true final false
   inline void WriteWhitespace(::StringW ws);
 
-  /// @brief Method WriteString addr 0x2858be8 size 0xc virtual true final false
+  /// @brief Method WriteString addr 0x26dcbcc size 0xc virtual true final false
   inline void WriteString(::StringW text);
 
-  /// @brief Method WriteChars addr 0x2858bf4 size 0xc virtual true final false
+  /// @brief Method WriteChars addr 0x26dcbd8 size 0xc virtual true final false
   inline void WriteChars(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteRaw addr 0x2858c00 size 0xc virtual true final false
+  /// @brief Method WriteRaw addr 0x26dcbe4 size 0xc virtual true final false
   inline void WriteRaw(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteRaw addr 0x2858c0c size 0xc virtual true final false
+  /// @brief Method WriteRaw addr 0x26dcbf0 size 0xc virtual true final false
   inline void WriteRaw(::StringW data);
 
-  /// @brief Method WriteBase64 addr 0x2858c18 size 0xc virtual true final false
+  /// @brief Method WriteBase64 addr 0x26dcbfc size 0xc virtual true final false
   inline void WriteBase64(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Init addr 0x28586f0 size 0x114 virtual false final false
+  /// @brief Method Init addr 0x26dc6d4 size 0x114 virtual false final false
   inline void Init(::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method WriteIndent addr 0x285888c size 0x48 virtual false final false
+  /// @brief Method WriteIndent addr 0x26dc870 size 0x48 virtual false final false
   inline void WriteIndent();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlEncodedRawTextWriterIndent", modifiers: "&&", def_value: None }]
@@ -202,6 +202,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlEncodedRawTextWriterIndent, 0xe0>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlEncodedRawTextWriterIndent, ___indentLevel) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlEncodedRawTextWriterIndent, ___newLineOnAttributes) == 0xbc, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlEncodedRawTextWriterIndent, ___indentChars) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlEncodedRawTextWriterIndent, ___mixedContent) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlEncodedRawTextWriterIndent, ___mixedContentStack) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlEncodedRawTextWriterIndent, ___conformanceLevel) == 0xd8, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlEncodedRawTextWriterIndent);

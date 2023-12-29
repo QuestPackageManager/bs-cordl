@@ -18,8 +18,8 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14293))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14631))
 // CS Name: ::System.Linq::EnumerableSorter`1<TElement>*
 class CORDL_TYPE EnumerableSorter_1 : public ::System::Object {
 public:

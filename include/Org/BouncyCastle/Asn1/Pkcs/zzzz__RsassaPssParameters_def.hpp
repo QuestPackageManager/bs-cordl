@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(RsassaPssParameters)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -107,40 +107,40 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_DefaultTrailerField();
 
-  /// @brief Method GetInstance addr 0xf8eb4c size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xf18928 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* New_ctor();
 
-  /// @brief Method .ctor addr 0xf8eeb8 size 0x74 virtual false final false
+  /// @brief Method .ctor addr 0xf18c94 size 0x74 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm,
                                                                                ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* maskGenAlgorithm,
                                                                                ::Org::BouncyCastle::Asn1::DerInteger* saltLength, ::Org::BouncyCastle::Asn1::DerInteger* trailerField);
 
-  /// @brief Method .ctor addr 0xf8ef2c size 0x40 virtual false final false
+  /// @brief Method .ctor addr 0xf18d08 size 0x40 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* maskGenAlgorithm,
                     ::Org::BouncyCastle::Asn1::DerInteger* saltLength, ::Org::BouncyCastle::Asn1::DerInteger* trailerField);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf8ecd4 size 0x1e4 virtual false final false
+  /// @brief Method .ctor addr 0xf18ab0 size 0x1e4 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_HashAlgorithm addr 0xf8ef6c size 0x8 virtual false final false
+  /// @brief Method get_HashAlgorithm addr 0xf18d48 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method get_MaskGenAlgorithm addr 0xf8ef74 size 0x8 virtual false final false
+  /// @brief Method get_MaskGenAlgorithm addr 0xf18d50 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_MaskGenAlgorithm();
 
-  /// @brief Method get_SaltLength addr 0xf8ef7c size 0x8 virtual false final false
+  /// @brief Method get_SaltLength addr 0xf18d58 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_SaltLength();
 
-  /// @brief Method get_TrailerField addr 0xf8ef84 size 0x8 virtual false final false
+  /// @brief Method get_TrailerField addr 0xf18d60 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_TrailerField();
 
-  /// @brief Method ToAsn1Object addr 0xf8ef8c size 0x278 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xf18d68 size 0x278 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "RsassaPssParameters", modifiers: "&&", def_value: None }]
@@ -173,6 +173,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters, ___hashAlgorithm) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters, ___maskGenAlgorithm) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters, ___saltLength) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters, ___trailerField) == 0x28, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters);

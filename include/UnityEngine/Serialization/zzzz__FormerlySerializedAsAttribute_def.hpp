@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::Serialization::FormerlySerializedAsAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10383))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10305))
 // CS Name: ::UnityEngine.Serialization::FormerlySerializedAsAttribute*
 class CORDL_TYPE FormerlySerializedAsAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::Serialization::FormerlySerializedAsAttribute* New_ctor(::StringW oldName);
 
-  /// @brief Method .ctor addr 0x2cf1ee0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2b89abc size 0x28 virtual false final false
   inline void _ctor(::StringW oldName);
 
   // Ctor Parameters [CppParam { name: "", ty: "FormerlySerializedAsAttribute", modifiers: "&&", def_value: None }]
@@ -56,6 +56,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Serialization::FormerlySerializedAsAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Serialization::FormerlySerializedAsAttribute, ___m_oldName) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::Serialization
 NEED_NO_BOX(::UnityEngine::Serialization::FormerlySerializedAsAttribute);

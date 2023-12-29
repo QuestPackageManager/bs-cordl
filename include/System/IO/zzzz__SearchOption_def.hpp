@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::SearchOption);
 namespace System::IO {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3599))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3588))
 // CS Name: ::System.IO::SearchOption
 struct CORDL_TYPE SearchOption {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::SearchOption, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::IO::SearchOption, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::IO
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::SearchOption, "System.IO", "SearchOption");

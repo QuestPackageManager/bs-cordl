@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(ArmoredOutputStream)
 namespace System::IO {
 class Stream;
 }
-namespace Org::BouncyCastle::Bcpg {
-class Crc24;
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
 }
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Bcpg {
+class Crc24;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -190,47 +190,47 @@ public:
 
   static inline ::StringW getStaticF_Version();
 
-  /// @brief Method Encode addr 0x11ca700 size 0x2f4 virtual false final false
+  /// @brief Method Encode addr 0x11594b0 size 0x2f4 virtual false final false
   static inline void Encode(::System::IO::Stream* outStream, ::ArrayW<int32_t, ::Array<int32_t>*> data, int32_t len);
 
   static inline ::Org::BouncyCastle::Bcpg::ArmoredOutputStream* New_ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor addr 0x11ca9f4 size 0x12c virtual false final false
+  /// @brief Method .ctor addr 0x11597a4 size 0x12c virtual false final false
   inline void _ctor(::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Bcpg::ArmoredOutputStream* New_ctor(::System::IO::Stream* outStream, ::System::Collections::IDictionary* headers);
 
-  /// @brief Method .ctor addr 0x11cadd4 size 0x548 virtual false final false
+  /// @brief Method .ctor addr 0x1159b84 size 0x548 virtual false final false
   inline void _ctor(::System::IO::Stream* outStream, ::System::Collections::IDictionary* headers);
 
-  /// @brief Method SetHeader addr 0x11cab20 size 0x2b4 virtual false final false
+  /// @brief Method SetHeader addr 0x11598d0 size 0x2b4 virtual false final false
   inline void SetHeader(::StringW name, ::StringW val);
 
-  /// @brief Method AddHeader addr 0x11cb31c size 0x218 virtual false final false
+  /// @brief Method AddHeader addr 0x115a0cc size 0x218 virtual false final false
   inline void AddHeader(::StringW name, ::StringW val);
 
-  /// @brief Method ResetHeaders addr 0x11cb534 size 0x228 virtual false final false
+  /// @brief Method ResetHeaders addr 0x115a2e4 size 0x228 virtual false final false
   inline void ResetHeaders();
 
-  /// @brief Method BeginClearText addr 0x11cb75c size 0x1dc virtual false final false
+  /// @brief Method BeginClearText addr 0x115a50c size 0x1dc virtual false final false
   inline void BeginClearText(::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm);
 
-  /// @brief Method EndClearText addr 0x11cb97c size 0x8 virtual false final false
+  /// @brief Method EndClearText addr 0x115a72c size 0x8 virtual false final false
   inline void EndClearText();
 
-  /// @brief Method WriteByte addr 0x11cb984 size 0xacc virtual true final false
+  /// @brief Method WriteByte addr 0x115a734 size 0xacc virtual true final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method Close addr 0x11cc4ec size 0x38 virtual true final false
+  /// @brief Method Close addr 0x115b29c size 0x38 virtual true final false
   inline void Close();
 
-  /// @brief Method DoClose addr 0x11cc524 size 0x1ac virtual false final false
+  /// @brief Method DoClose addr 0x115b2d4 size 0x1ac virtual false final false
   inline void DoClose();
 
-  /// @brief Method WriteHeaderEntry addr 0x11cc450 size 0x9c virtual false final false
+  /// @brief Method WriteHeaderEntry addr 0x115b200 size 0x9c virtual false final false
   inline void WriteHeaderEntry(::StringW name, ::StringW v);
 
-  /// @brief Method DoWrite addr 0x11cb938 size 0x44 virtual false final false
+  /// @brief Method DoWrite addr 0x115a6e8 size 0x44 virtual false final false
   inline void DoWrite(::StringW s);
 
   // Ctor Parameters [CppParam { name: "", ty: "ArmoredOutputStream", modifiers: "&&", def_value: None }]
@@ -284,6 +284,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::ArmoredOutputStream, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredOutputStream, ___outStream) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredOutputStream, ___buf) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredOutputStream, ___bufPtr) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredOutputStream, ___crc) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredOutputStream, ___chunkCount) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredOutputStream, ___lastb) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredOutputStream, ___start) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredOutputStream, ___clearText) == 0x59, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredOutputStream, ___newLine) == 0x5a, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredOutputStream, ___type) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ArmoredOutputStream, ___headers) == 0x68, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::ArmoredOutputStream);

@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignerInfoGeneratorBuilder)
-namespace Org::BouncyCastle::Cms {
-class CmsAttributeTableGenerator;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISignatureFactory;
-}
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
+}
+namespace Org::BouncyCastle::Cms {
+class SignerInfoGenerator;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsAttributeTableGenerator;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class SignerIdentifier;
 }
-namespace Org::BouncyCastle::Cms {
-class SignerInfoGenerator;
+namespace Org::BouncyCastle::Crypto {
+class ISignatureFactory;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(690))
 // CS Name: ::Org.BouncyCastle.Cms::SignerInfoGeneratorBuilder*
 class CORDL_TYPE SignerInfoGeneratorBuilder : public ::System::Object {
@@ -66,25 +66,25 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* New_ctor();
 
-  /// @brief Method .ctor addr 0x1208cd8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1197a88 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method SetDirectSignature addr 0x1208ce0 size 0xc virtual false final false
+  /// @brief Method SetDirectSignature addr 0x1197a90 size 0xc virtual false final false
   inline ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* SetDirectSignature(bool hasNoSignedAttributes);
 
-  /// @brief Method WithSignedAttributeGenerator addr 0x1208cec size 0x8 virtual false final false
+  /// @brief Method WithSignedAttributeGenerator addr 0x1197a9c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* WithSignedAttributeGenerator(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen);
 
-  /// @brief Method WithUnsignedAttributeGenerator addr 0x1208cf4 size 0x8 virtual false final false
+  /// @brief Method WithUnsignedAttributeGenerator addr 0x1197aa4 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* WithUnsignedAttributeGenerator(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen);
 
-  /// @brief Method Build addr 0x1208cfc size 0x12c virtual false final false
+  /// @brief Method Build addr 0x1197aac size 0x12c virtual false final false
   inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* Build(::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner, ::Org::BouncyCastle::X509::X509Certificate* certificate);
 
-  /// @brief Method Build addr 0x1208f38 size 0xac virtual false final false
+  /// @brief Method Build addr 0x1197ce8 size 0xac virtual false final false
   inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* Build(::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory, ::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyIdentifier);
 
-  /// @brief Method CreateGenerator addr 0x1208e28 size 0x110 virtual false final false
+  /// @brief Method CreateGenerator addr 0x1197bd8 size 0x110 virtual false final false
   inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* CreateGenerator(::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner, ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignerInfoGeneratorBuilder", modifiers: "&&", def_value: None }]
@@ -114,6 +114,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder, ___directSignature) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder, ___signedGen) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder, ___unsignedGen) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder);

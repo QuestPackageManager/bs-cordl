@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AndroidDeviceCapabilities)
+namespace UnityEngine::InputSystem::Android::LowLevel {
+struct AndroidAxis;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::InputSystem::Android::LowLevel {
-struct AndroidAxis;
+class __AndroidDeviceCapabilities____c;
 }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 struct AndroidInputSource;
-}
-namespace UnityEngine::InputSystem::Android::LowLevel {
-class __AndroidDeviceCapabilities____c;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android::LowLevel {
@@ -35,8 +35,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilit
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6451))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6537))
 // CS Name: ::AndroidDeviceCapabilities::<>c*
 class CORDL_TYPE __AndroidDeviceCapabilities____c : public ::System::Object {
 public:
@@ -57,10 +57,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Android::LowLevel::__AndroidDeviceCapabilities____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ae6ba4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2966e5c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <ToString>b__8_0 addr 0x2ae6bac size 0x64 virtual false final false
+  /// @brief Method <ToString>b__8_0 addr 0x2966e64 size 0x64 virtual false final false
   inline ::StringW _ToString_b__8_0(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis i);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AndroidDeviceCapabilities____c", modifiers: "&&", def_value: None }]
@@ -87,21 +87,21 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Androi
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6450))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6452))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6538))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidDeviceCapabilities
 struct CORDL_TYPE AndroidDeviceCapabilities {
 public:
   // Declarations
   using __c = ::UnityEngine::InputSystem::Android::LowLevel::__AndroidDeviceCapabilities____c;
 
-  /// @brief Method ToJson addr 0x2ae6764 size 0x6c virtual false final false
+  /// @brief Method ToJson addr 0x2966a1c size 0x6c virtual false final false
   inline ::StringW ToJson();
 
-  /// @brief Method FromJson addr 0x2ae6570 size 0xc0 virtual false final false
+  /// @brief Method FromJson addr 0x2966828 size 0xc0 virtual false final false
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities FromJson(::StringW json);
 
-  /// @brief Method ToString addr 0x2ae67d0 size 0x370 virtual true final false
+  /// @brief Method ToString addr 0x2966a88 size 0x370 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "deviceDescriptor", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "productId", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
@@ -141,6 +141,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities, deviceDescriptor) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities, productId) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities, vendorId) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities, isVirtual) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities, motionAxes) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities, inputSources) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Android::LowLevel
 NEED_NO_BOX(::UnityEngine::InputSystem::Android::LowLevel::__AndroidDeviceCapabilities____c);

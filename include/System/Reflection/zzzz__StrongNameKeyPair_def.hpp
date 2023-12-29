@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(StrongNameKeyPair)
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System {
+class Object;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Reflection::StrongNameKeyPair);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3533))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3528))
 // CS Name: ::System.Reflection::StrongNameKeyPair*
 class CORDL_TYPE StrongNameKeyPair : public ::System::Object {
 public:
@@ -82,13 +82,13 @@ public:
 
   static inline ::System::Reflection::StrongNameKeyPair* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x24f958c size 0x1ec virtual false final false
+  /// @brief Method .ctor addr 0x239fa10 size 0x1ec virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x24f9778 size 0x148 virtual true final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x239fbfc size 0x148 virtual true final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization addr 0x24f98c0 size 0x4 virtual true final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization addr 0x239fd44 size 0x4 virtual true final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
   // Ctor Parameters [CppParam { name: "", ty: "StrongNameKeyPair", modifiers: "&&", def_value: None }]
@@ -121,6 +121,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::StrongNameKeyPair, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Reflection::StrongNameKeyPair, ____publicKey) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::StrongNameKeyPair, ____keyPairContainer) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::StrongNameKeyPair, ____keyPairExported) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Reflection::StrongNameKeyPair, ____keyPairArray) == 0x28, "Offset mismatch!");
 
 } // namespace System::Reflection
 NEED_NO_BOX(::System::Reflection::StrongNameKeyPair);

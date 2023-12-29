@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::CullingGroupEvent);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10146))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10074))
 // CS Name: ::UnityEngine::CullingGroupEvent
 struct CORDL_TYPE CullingGroupEvent {
 public:
@@ -45,6 +45,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::CullingGroupEvent, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::CullingGroupEvent, m_Index) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::CullingGroupEvent, m_PrevState) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::CullingGroupEvent, m_ThisState) == 0x5, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CullingGroupEvent, "UnityEngine", "CullingGroupEvent");

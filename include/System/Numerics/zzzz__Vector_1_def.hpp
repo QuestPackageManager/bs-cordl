@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector_1)
 namespace System {
-class Object;
+class IFormatProvider;
 }
 namespace System {
-class IFormatProvider;
+class IFormattable;
 }
 namespace System::Numerics {
 struct Register;
@@ -22,7 +22,7 @@ namespace System::Numerics {
 template <typename T> struct __Vector_1__VectorSizeHelper;
 }
 namespace System {
-class IFormattable;
+class Object;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -43,8 +43,8 @@ namespace System::Numerics {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3551)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3553), inst: 5347 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3553))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3553)) CS Name: ::System.Numerics::Vector`1<T>
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3548), inst: 5225 }), TypeDefinitionIndex(TypeDefinitionIndex(3548)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3546))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3548)) CS Name: ::System.Numerics::Vector`1<T>
 struct CORDL_TYPE Vector_1 {
 public:
   // Declarations
@@ -169,8 +169,8 @@ namespace System::Numerics {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3553), inst: 5348 }), TypeDefinitionIndex(TypeDefinitionIndex(3553))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3552))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3548), inst: 5226 }), TypeDefinitionIndex(TypeDefinitionIndex(3548))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3547))
 // CS Name: ::Vector`1::VectorSizeHelper<T>
 struct CORDL_TYPE __Vector_1__VectorSizeHelper {
 public:

@@ -6,17 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PrefabInstantiator)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace Zenject {
 struct TypeValuePair;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine {
-class Object;
+namespace Zenject {
+class IPrefabProvider;
 }
 namespace Zenject {
 class InjectContext;
@@ -24,23 +18,11 @@ class InjectContext;
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace Zenject {
-class DiContainer;
-}
 namespace System {
-class Object;
+class Action;
 }
 namespace Zenject {
 class IPrefabInstantiator;
-}
-namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace Zenject {
-class __PrefabInstantiator____c__DisplayClass15_0;
-}
-namespace Zenject {
-class IPrefabProvider;
 }
 namespace UnityEngine {
 class GameObject;
@@ -48,8 +30,26 @@ class GameObject;
 namespace System {
 class Type;
 }
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace Zenject {
+class __PrefabInstantiator____c__DisplayClass15_0;
+}
+namespace UnityEngine {
+class Object;
+}
 namespace System {
-class Action;
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -68,8 +68,8 @@ MARK_REF_PTR_T(::Zenject::__PrefabInstantiator____c__DisplayClass15_0);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11228))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11156))
 // CS Name: ::PrefabInstantiator::<>c__DisplayClass15_0*
 class CORDL_TYPE __PrefabInstantiator____c__DisplayClass15_0 : public ::System::Object {
 public:
@@ -121,16 +121,16 @@ public:
 
   static inline ::Zenject::__PrefabInstantiator____c__DisplayClass15_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2f09004 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2da1234 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <Instantiate>b__0 addr 0x2f0900c size 0x5a8 virtual false final false
+  /// @brief Method <Instantiate>b__0 addr 0x2da123c size 0x5a8 virtual false final false
   inline void _Instantiate_b__0();
 
-  /// @brief Method __zenCreate addr 0x2f095b4 size 0x5c virtual false final false
+  /// @brief Method __zenCreate addr 0x2da17e4 size 0x5c virtual false final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2f09610 size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo addr 0x2da1840 size 0x1c0 virtual false final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PrefabInstantiator____c__DisplayClass15_0", modifiers: "&&", def_value: None }]
@@ -167,13 +167,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__PrefabInstantiator____c__DisplayClass15_0, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::Zenject::__PrefabInstantiator____c__DisplayClass15_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__PrefabInstantiator____c__DisplayClass15_0, ___args) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__PrefabInstantiator____c__DisplayClass15_0, ___gameObject) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__PrefabInstantiator____c__DisplayClass15_0, ___context) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::__PrefabInstantiator____c__DisplayClass15_0, ___shouldMakeActive) == 0x30, "Offset mismatch!");
+
 } // namespace Zenject
 // Type: Zenject::PrefabInstantiator
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11229))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11157))
 // CS Name: ::Zenject::PrefabInstantiator*
 class CORDL_TYPE PrefabInstantiator : public ::System::Object {
 public:
@@ -257,24 +267,24 @@ public:
                                                         ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::Zenject::IPrefabProvider* prefabProvider,
                                                         ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method .ctor addr 0x2f08ce0 size 0xc4 virtual false final false
+  /// @brief Method .ctor addr 0x2da0f10 size 0xc4 virtual false final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Type* argumentTarget,
                     ::System::Collections::Generic::IEnumerable_1<::System::Type*>* instantiateCallbackTypes, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments,
                     ::Zenject::IPrefabProvider* prefabProvider, ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_GameObjectCreationParameters addr 0x2f08da4 size 0x8 virtual true final true
+  /// @brief Method get_GameObjectCreationParameters addr 0x2da0fd4 size 0x8 virtual true final true
   inline ::Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
 
-  /// @brief Method get_ArgumentTarget addr 0x2f08dac size 0x8 virtual true final true
+  /// @brief Method get_ArgumentTarget addr 0x2da0fdc size 0x8 virtual true final true
   inline ::System::Type* get_ArgumentTarget();
 
-  /// @brief Method get_ExtraArguments addr 0x2f08db4 size 0x8 virtual true final true
+  /// @brief Method get_ExtraArguments addr 0x2da0fe4 size 0x8 virtual true final true
   inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* get_ExtraArguments();
 
-  /// @brief Method GetPrefab addr 0x2f08dbc size 0xa0 virtual true final true
+  /// @brief Method GetPrefab addr 0x2da0fec size 0xa0 virtual true final true
   inline ::UnityEngine::Object* GetPrefab();
 
-  /// @brief Method Instantiate addr 0x2f08e5c size 0x1a8 virtual true final true
+  /// @brief Method Instantiate addr 0x2da108c size 0x1a8 virtual true final true
   inline ::UnityEngine::GameObject* Instantiate(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction);
 
   // Ctor Parameters [CppParam { name: "", ty: "PrefabInstantiator", modifiers: "&&", def_value: None }]
@@ -316,6 +326,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::PrefabInstantiator, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::PrefabInstantiator, ____prefabProvider) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::PrefabInstantiator, ____container) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::PrefabInstantiator, ____extraArguments) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::PrefabInstantiator, ____gameObjectBindInfo) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::PrefabInstantiator, ____argumentTarget) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::PrefabInstantiator, ____instantiateCallbackTypes) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Zenject::PrefabInstantiator, ____instantiateCallback) == 0x40, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::PrefabInstantiator);

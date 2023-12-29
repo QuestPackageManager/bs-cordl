@@ -13,31 +13,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RareData)
 namespace UnityEngine::UIElements {
-struct TextOverflowPosition;
-}
-namespace UnityEngine::UIElements {
 struct TextOverflow;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleDataGroup_1;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace UnityEngine {
-struct ScaleMode;
-}
-namespace System {
-class Object;
 }
 namespace UnityEngine::UIElements {
 struct OverflowClipBox;
 }
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::UIElements {
+struct TextOverflowPosition;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+struct ScaleMode;
+}
 namespace UnityEngine::UIElements {
 struct Cursor;
 }
-namespace UnityEngine {
-struct Color;
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleDataGroup_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -49,8 +49,8 @@ MARK_VAL_T(::UnityEngine::UIElements::RareData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6808)), TypeDefinitionIndex(TypeDefinitionIndex(6888)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6894)), TypeDefinitionIndex(TypeDefinitionIndex(14596)), TypeDefinitionIndex(TypeDefinitionIndex(6893))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7358))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6894)), TypeDefinitionIndex(TypeDefinitionIndex(6979)), TypeDefinitionIndex(TypeDefinitionIndex(10178)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14813)), TypeDefinitionIndex(TypeDefinitionIndex(6980)), TypeDefinitionIndex(TypeDefinitionIndex(6974))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7444))
 // CS Name: ::UnityEngine.UIElements::RareData
 struct CORDL_TYPE RareData {
 public:
@@ -61,22 +61,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::RareData>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::RareData>*();
 
-  /// @brief Method Copy addr 0x2e8408c size 0x1c virtual true final true
+  /// @brief Method Copy addr 0x2d1bcdc size 0x1c virtual true final true
   inline ::UnityEngine::UIElements::RareData Copy();
 
-  /// @brief Method CopyFrom addr 0x2e840a8 size 0x14 virtual true final true
+  /// @brief Method CopyFrom addr 0x2d1bcf8 size 0x14 virtual true final true
   inline void CopyFrom(ByRef<::UnityEngine::UIElements::RareData> other);
 
-  /// @brief Method op_Equality addr 0x2e840bc size 0x120 virtual false final false
+  /// @brief Method op_Equality addr 0x2d1bd0c size 0x120 virtual false final false
   static inline bool op_Equality(::UnityEngine::UIElements::RareData lhs, ::UnityEngine::UIElements::RareData rhs);
 
-  /// @brief Method Equals addr 0x2e841dc size 0x44 virtual true final true
+  /// @brief Method Equals addr 0x2d1be2c size 0x44 virtual true final true
   inline bool Equals(::UnityEngine::UIElements::RareData other);
 
-  /// @brief Method Equals addr 0x2e84220 size 0xa0 virtual true final false
+  /// @brief Method Equals addr 0x2d1be70 size 0xa0 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2e842c0 size 0xf8 virtual true final false
+  /// @brief Method GetHashCode addr 0x2d1bf10 size 0xf8 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "cursor", ty: "::UnityEngine::UIElements::Cursor", modifiers: "", def_value: None }, CppParam { name: "textOverflow", ty:
@@ -130,6 +130,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RareData, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::RareData, cursor) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::RareData, textOverflow) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::RareData, unityBackgroundImageTintColor) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::RareData, unityBackgroundScaleMode) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::RareData, unityOverflowClipBox) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::RareData, unitySliceBottom) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::RareData, unitySliceLeft) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::RareData, unitySliceRight) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::RareData, unitySliceTop) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::RareData, unityTextOverflowPosition) == 0x44, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::RareData, "UnityEngine.UIElements", "RareData");

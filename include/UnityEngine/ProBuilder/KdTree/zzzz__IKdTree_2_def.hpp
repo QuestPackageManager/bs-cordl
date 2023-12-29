@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKdTree_2)
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename TKey, typename TValue> class KdTreeNode_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::KdTree {
@@ -28,7 +28,7 @@ namespace UnityEngine::ProBuilder::KdTree {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15912))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15804))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::IKdTree`2<TKey,TValue>*
 class CORDL_TYPE IKdTree_2 {
 public:

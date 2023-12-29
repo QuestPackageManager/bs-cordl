@@ -18,10 +18,31 @@ namespace System::Diagnostics {
 class ProcessThreadCollection;
 }
 namespace System::Diagnostics {
-class ProcessThreadTimes;
+struct __Process__State;
+}
+namespace System::Diagnostics {
+class ProcessStartInfo;
+}
+namespace Microsoft::Win32::SafeHandles {
+class SafeProcessHandle;
+}
+namespace System::ComponentModel {
+class ISynchronizeInvoke;
+}
+namespace System::Diagnostics {
+class AsyncStreamReader;
+}
+namespace System::Threading {
+class WaitHandle;
+}
+namespace System {
+struct TimeSpan;
 }
 namespace System::Diagnostics {
 struct __Process__ProcInfo;
+}
+namespace System::IO {
+class StreamReader;
 }
 namespace System::Diagnostics {
 class ProcessInfo;
@@ -32,35 +53,14 @@ class ProcessModuleCollection;
 namespace System {
 class Object;
 }
-namespace System::IO {
-class StreamReader;
+namespace System::Diagnostics {
+class ProcessThreadTimes;
 }
 namespace System::IO {
 class StreamWriter;
 }
-namespace System::Threading {
-class WaitHandle;
-}
-namespace System::Diagnostics {
-struct __Process__State;
-}
 namespace System::Diagnostics {
 struct __Process__StreamReadMode;
-}
-namespace System::ComponentModel {
-class ISynchronizeInvoke;
-}
-namespace System::Diagnostics {
-class AsyncStreamReader;
-}
-namespace Microsoft::Win32::SafeHandles {
-class SafeProcessHandle;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System::Diagnostics {
-class ProcessStartInfo;
 }
 namespace System {
 class EventHandler;
@@ -88,7 +88,7 @@ MARK_VAL_T(::System::Diagnostics::__Process__ProcInfo);
 namespace System::Diagnostics {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8948))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7785))
 // CS Name: ::Process::StreamReadMode
 struct CORDL_TYPE __Process__StreamReadMode {
 public:
@@ -134,13 +134,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::__Process__StreamReadMode, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::System::Diagnostics::__Process__StreamReadMode, value__) == 0x0, "Offset mismatch!");
+
 } // namespace System::Diagnostics
 // Type: ::State
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8949))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7786))
 // CS Name: ::Process::State
 struct CORDL_TYPE __Process__State {
 public:
@@ -206,13 +208,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::__Process__State, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::System::Diagnostics::__Process__State, value__) == 0x0, "Offset mismatch!");
+
 } // namespace System::Diagnostics
 // Type: ::ProcInfo
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8950))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7787))
 // CS Name: ::Process::ProcInfo
 struct CORDL_TYPE __Process__ProcInfo {
 public:
@@ -257,13 +261,27 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::__Process__ProcInfo, 0x38>, "Size mismatch!");
 
+static_assert(offsetof(::System::Diagnostics::__Process__ProcInfo, process_handle) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::__Process__ProcInfo, pid) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::__Process__ProcInfo, envVariables) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::__Process__ProcInfo, UserName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::__Process__ProcInfo, Domain) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::__Process__ProcInfo, Password) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::__Process__ProcInfo, LoadUserProfile) == 0x30, "Offset mismatch!");
+
 } // namespace System::Diagnostics
 // Type: System.Diagnostics::Process
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9469)), TypeDefinitionIndex(TypeDefinitionIndex(8948))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8951))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8306)), TypeDefinitionIndex(TypeDefinitionIndex(7785))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7788))
 // CS Name: ::System.Diagnostics::Process*
 class CORDL_TYPE Process : public ::System::ComponentModel::Component {
 public:
@@ -375,23 +393,17 @@ public:
 
   __declspec(property(get = get_Associated)) bool Associated;
 
-  __declspec(property(get = get_ExitCode)) int32_t ExitCode;
-
   __declspec(property(get = get_HasExited)) bool HasExited;
 
   __declspec(property(get = get_Handle)) void* Handle;
 
   __declspec(property(get = get_Id)) int32_t Id;
 
-  __declspec(property(get = get_StartInfo, put = set_StartInfo))::System::Diagnostics::ProcessStartInfo* StartInfo;
+  __declspec(property(get = get_StartInfo))::System::Diagnostics::ProcessStartInfo* StartInfo;
 
   __declspec(property(get = get_SynchronizingObject))::System::ComponentModel::ISynchronizeInvoke* SynchronizingObject;
 
   __declspec(property(get = get_TotalProcessorTime))::System::TimeSpan TotalProcessorTime;
-
-  __declspec(property(get = get_StandardOutput))::System::IO::StreamReader* StandardOutput;
-
-  __declspec(property(get = get_StandardError))::System::IO::StreamReader* StandardError;
 
   __declspec(property(get = get_ProcessName))::StringW ProcessName;
 
@@ -595,149 +607,137 @@ public:
 
   static inline ::System::Diagnostics::Process* New_ctor();
 
-  /// @brief Method .ctor addr 0x296ec58 size 0x88 virtual false final false
+  /// @brief Method .ctor addr 0x27f135c size 0x88 virtual false final false
   inline void _ctor();
 
   static inline ::System::Diagnostics::Process* New_ctor(::StringW machineName, bool isRemoteMachine, int32_t processId, ::System::Diagnostics::ProcessInfo* processInfo);
 
-  /// @brief Method .ctor addr 0x296ece0 size 0x9c virtual false final false
+  /// @brief Method .ctor addr 0x27f13e4 size 0x9c virtual false final false
   inline void _ctor(::StringW machineName, bool isRemoteMachine, int32_t processId, ::System::Diagnostics::ProcessInfo* processInfo);
 
-  /// @brief Method get_Associated addr 0x296ed7c size 0x20 virtual false final false
+  /// @brief Method get_Associated addr 0x27f1480 size 0x20 virtual false final false
   inline bool get_Associated();
 
-  /// @brief Method get_ExitCode addr 0x296ed9c size 0x12c virtual false final false
-  inline int32_t get_ExitCode();
-
-  /// @brief Method get_HasExited addr 0x296f000 size 0x370 virtual false final false
+  /// @brief Method get_HasExited addr 0x27f14a0 size 0x370 virtual false final false
   inline bool get_HasExited();
 
-  /// @brief Method GetProcessTimes addr 0x296fa68 size 0x2c8 virtual false final false
+  /// @brief Method GetProcessTimes addr 0x27f2040 size 0x2c8 virtual false final false
   inline ::System::Diagnostics::ProcessThreadTimes* GetProcessTimes();
 
-  /// @brief Method get_Handle addr 0x296fd38 size 0x30 virtual false final false
+  /// @brief Method get_Handle addr 0x27f2310 size 0x30 virtual false final false
   inline void* get_Handle();
 
-  /// @brief Method get_Id addr 0x296cdcc size 0x1c virtual false final false
+  /// @brief Method get_Id addr 0x27ef4d0 size 0x1c virtual false final false
   inline int32_t get_Id();
 
-  /// @brief Method get_StartInfo addr 0x296fe24 size 0x6c virtual false final false
+  /// @brief Method get_StartInfo addr 0x27f23fc size 0x6c virtual false final false
   inline ::System::Diagnostics::ProcessStartInfo* get_StartInfo();
 
-  /// @brief Method set_StartInfo addr 0x296ff14 size 0x60 virtual false final false
-  inline void set_StartInfo(::System::Diagnostics::ProcessStartInfo* value);
-
-  /// @brief Method get_SynchronizingObject addr 0x296ff74 size 0x1a0 virtual false final false
+  /// @brief Method get_SynchronizingObject addr 0x27f24ec size 0x1a0 virtual false final false
   inline ::System::ComponentModel::ISynchronizeInvoke* get_SynchronizingObject();
 
-  /// @brief Method get_TotalProcessorTime addr 0x2970114 size 0x20 virtual false final false
+  /// @brief Method get_TotalProcessorTime addr 0x27f268c size 0x20 virtual false final false
   inline ::System::TimeSpan get_TotalProcessorTime();
 
-  /// @brief Method get_StandardOutput addr 0x2970140 size 0x9c virtual false final false
-  inline ::System::IO::StreamReader* get_StandardOutput();
-
-  /// @brief Method get_StandardError addr 0x29701dc size 0x9c virtual false final false
-  inline ::System::IO::StreamReader* get_StandardError();
-
-  /// @brief Method ReleaseProcessHandle addr 0x2970278 size 0x28 virtual false final false
+  /// @brief Method ReleaseProcessHandle addr 0x27f26b8 size 0x28 virtual false final false
   inline void ReleaseProcessHandle(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle);
 
-  /// @brief Method CompletionCallback addr 0x29702a0 size 0x18 virtual false final false
+  /// @brief Method CompletionCallback addr 0x27f26e0 size 0x18 virtual false final false
   inline void CompletionCallback(::System::Object* context, bool wasSignaled);
 
-  /// @brief Method Dispose addr 0x29703cc size 0x50 virtual true final false
+  /// @brief Method Dispose addr 0x27f280c size 0x50 virtual true final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Close addr 0x297041c size 0x158 virtual false final false
+  /// @brief Method Close addr 0x27f285c size 0x158 virtual false final false
   inline void Close();
 
-  /// @brief Method EnsureState addr 0x296eec8 size 0x138 virtual false final false
+  /// @brief Method EnsureState addr 0x27f1810 size 0x138 virtual false final false
   inline void EnsureState(::System::Diagnostics::__Process__State state);
 
-  /// @brief Method EnsureWatchingForExit addr 0x2970588 size 0x234 virtual false final false
+  /// @brief Method EnsureWatchingForExit addr 0x27f29c8 size 0x234 virtual false final false
   inline void EnsureWatchingForExit();
 
-  /// @brief Method GetProcessById addr 0x29707bc size 0x48 virtual false final false
+  /// @brief Method GetProcessById addr 0x27f2bfc size 0x48 virtual false final false
   static inline ::System::Diagnostics::Process* GetProcessById(int32_t processId);
 
-  /// @brief Method GetCurrentProcess addr 0x296cd44 size 0x88 virtual false final false
+  /// @brief Method GetCurrentProcess addr 0x27ef448 size 0x88 virtual false final false
   static inline ::System::Diagnostics::Process* GetCurrentProcess();
 
-  /// @brief Method OnExited addr 0x29709dc size 0x240 virtual false final false
+  /// @brief Method OnExited addr 0x27f2e1c size 0x240 virtual false final false
   inline void OnExited();
 
-  /// @brief Method GetProcessHandle addr 0x296f370 size 0x4c4 virtual false final false
+  /// @brief Method GetProcessHandle addr 0x27f1948 size 0x4c4 virtual false final false
   inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* GetProcessHandle(int32_t access, bool throwIfExited);
 
-  /// @brief Method GetProcessHandle addr 0x2970c1c size 0x8 virtual false final false
+  /// @brief Method GetProcessHandle addr 0x27f305c size 0x8 virtual false final false
   inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* GetProcessHandle(int32_t access);
 
-  /// @brief Method OpenProcessHandle addr 0x296fd68 size 0xbc virtual false final false
+  /// @brief Method OpenProcessHandle addr 0x27f2340 size 0xbc virtual false final false
   inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* OpenProcessHandle(int32_t access);
 
-  /// @brief Method Refresh addr 0x2970574 size 0x14 virtual false final false
+  /// @brief Method Refresh addr 0x27f29b4 size 0x14 virtual false final false
   inline void Refresh();
 
-  /// @brief Method SetProcessHandle addr 0x2970c24 size 0x1c virtual false final false
+  /// @brief Method SetProcessHandle addr 0x27f3064 size 0x1c virtual false final false
   inline void SetProcessHandle(::Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle);
 
-  /// @brief Method SetProcessId addr 0x2970c40 size 0x10 virtual false final false
+  /// @brief Method SetProcessId addr 0x27f3080 size 0x10 virtual false final false
   inline void SetProcessId(int32_t processId);
 
-  /// @brief Method Start addr 0x2970c50 size 0xfc virtual false final false
+  /// @brief Method Start addr 0x27f3090 size 0xfc virtual false final false
   inline bool Start();
 
-  /// @brief Method StopWatchingForExit addr 0x29702b8 size 0x114 virtual false final false
+  /// @brief Method StopWatchingForExit addr 0x27f26f8 size 0x114 virtual false final false
   inline void StopWatchingForExit();
 
-  /// @brief Method ToString addr 0x2972540 size 0x16c virtual true final false
+  /// @brief Method ToString addr 0x27f4980 size 0x16c virtual true final false
   inline ::StringW ToString();
 
   static inline ::System::Diagnostics::Process* New_ctor(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle, int32_t id);
 
-  /// @brief Method .ctor addr 0x29726ac size 0x90 virtual false final false
+  /// @brief Method .ctor addr 0x27f4aec size 0x90 virtual false final false
   inline void _ctor(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle, int32_t id);
 
-  /// @brief Method ProcessName_icall addr 0x297273c size 0x4 virtual false final false
+  /// @brief Method ProcessName_icall addr 0x27f4b7c size 0x4 virtual false final false
   static inline ::StringW ProcessName_icall(void* handle);
 
-  /// @brief Method ProcessName_internal addr 0x2972740 size 0xe0 virtual false final false
+  /// @brief Method ProcessName_internal addr 0x27f4b80 size 0xe0 virtual false final false
   static inline ::StringW ProcessName_internal(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle);
 
-  /// @brief Method get_ProcessName addr 0x296cde8 size 0x230 virtual false final false
+  /// @brief Method get_ProcessName addr 0x27ef4ec size 0x230 virtual false final false
   inline ::StringW get_ProcessName();
 
-  /// @brief Method GetProcess_internal addr 0x2972820 size 0x4 virtual false final false
+  /// @brief Method GetProcess_internal addr 0x27f4c60 size 0x4 virtual false final false
   static inline void* GetProcess_internal(int32_t pid);
 
-  /// @brief Method GetProcessById addr 0x2970804 size 0x1d8 virtual false final false
+  /// @brief Method GetProcessById addr 0x27f2c44 size 0x1d8 virtual false final false
   static inline ::System::Diagnostics::Process* GetProcessById(int32_t processId, ::StringW machineName);
 
-  /// @brief Method IsLocalMachine addr 0x2972824 size 0x90 virtual false final false
+  /// @brief Method IsLocalMachine addr 0x27f4c64 size 0x90 virtual false final false
   static inline bool IsLocalMachine(::StringW machineName);
 
-  /// @brief Method ShellExecuteEx_internal addr 0x29728b4 size 0x4 virtual false final false
+  /// @brief Method ShellExecuteEx_internal addr 0x27f4cf4 size 0x4 virtual false final false
   static inline bool ShellExecuteEx_internal(::System::Diagnostics::ProcessStartInfo* startInfo, ByRef<::System::Diagnostics::__Process__ProcInfo> procInfo);
 
-  /// @brief Method CreateProcess_internal addr 0x29728b8 size 0x4 virtual false final false
+  /// @brief Method CreateProcess_internal addr 0x27f4cf8 size 0x4 virtual false final false
   static inline bool CreateProcess_internal(::System::Diagnostics::ProcessStartInfo* startInfo, void* stdin, void* stdout, void* stderr, ByRef<::System::Diagnostics::__Process__ProcInfo> procInfo);
 
-  /// @brief Method StartWithShellExecuteEx addr 0x2970da0 size 0x3c8 virtual false final false
+  /// @brief Method StartWithShellExecuteEx addr 0x27f31e0 size 0x3c8 virtual false final false
   inline bool StartWithShellExecuteEx(::System::Diagnostics::ProcessStartInfo* startInfo);
 
-  /// @brief Method CreatePipe addr 0x2972a50 size 0x19c virtual false final false
+  /// @brief Method CreatePipe addr 0x27f4e90 size 0x19c virtual false final false
   static inline void CreatePipe(ByRef<void*> read, ByRef<void*> write, bool writeDirection);
 
-  /// @brief Method get_IsWindows addr 0x2972bec size 0x34 virtual false final false
+  /// @brief Method get_IsWindows addr 0x27f502c size 0x34 virtual false final false
   static inline bool get_IsWindows();
 
-  /// @brief Method StartWithCreateProcess addr 0x2971168 size 0x13d8 virtual false final false
+  /// @brief Method StartWithCreateProcess addr 0x27f35a8 size 0x13d8 virtual false final false
   inline bool StartWithCreateProcess(::System::Diagnostics::ProcessStartInfo* startInfo);
 
-  /// @brief Method FillUserInfo addr 0x2972910 size 0x140 virtual false final false
+  /// @brief Method FillUserInfo addr 0x27f4d50 size 0x140 virtual false final false
   static inline void FillUserInfo(::System::Diagnostics::ProcessStartInfo* startInfo, ByRef<::System::Diagnostics::__Process__ProcInfo> procInfo);
 
-  /// @brief Method RaiseOnExited addr 0x296f988 size 0xe0 virtual false final false
+  /// @brief Method RaiseOnExited addr 0x27f1f60 size 0xe0 virtual false final false
   inline void RaiseOnExited();
 
   // Ctor Parameters [CppParam { name: "", ty: "Process", modifiers: "&&", def_value: None }]
@@ -857,6 +857,72 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::Process, 0xf0>, "Size mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___haveProcessId) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___processId) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___haveProcessHandle) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___m_processHandle) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___isRemoteMachine) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___machineName) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___m_processAccess) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___threads) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___modules) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___haveWorkingSetLimits) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___havePriorityClass) == 0x69, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___startInfo) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___watchForExit) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___watchingForExit) == 0x79, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___onExited) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___exited) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___exitCode) == 0x8c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___signaled) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___haveExitTime) == 0x91, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___raisedOnExited) == 0x92, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___registeredWaitHandle) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___waitHandle) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___synchronizingObject) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___standardOutput) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___standardInput) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___standardError) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___disposed) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___outputStreamReadMode) == 0xcc, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___errorStreamReadMode) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___inputStreamReadMode) == 0xd4, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___output) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___error) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Diagnostics::Process, ___process_name) == 0xe8, "Offset mismatch!");
 
 } // namespace System::Diagnostics
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::__Process__State, "System.Diagnostics", "Process/State");

@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::BaseInput);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13198))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13219))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13203))
 // CS Name: ::UnityEngine.EventSystems::BaseInput*
 class CORDL_TYPE BaseInput : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
@@ -48,57 +48,57 @@ public:
 
   __declspec(property(get = get_touchCount)) int32_t touchCount;
 
-  /// @brief Method get_compositionString addr 0x2d9a78c size 0x8 virtual true final false
+  /// @brief Method get_compositionString addr 0x2c323dc size 0x8 virtual true final false
   inline ::StringW get_compositionString();
 
-  /// @brief Method get_imeCompositionMode addr 0x2d9a794 size 0x8 virtual true final false
+  /// @brief Method get_imeCompositionMode addr 0x2c323e4 size 0x8 virtual true final false
   inline ::UnityEngine::IMECompositionMode get_imeCompositionMode();
 
-  /// @brief Method set_imeCompositionMode addr 0x2d9a79c size 0xc virtual true final false
+  /// @brief Method set_imeCompositionMode addr 0x2c323ec size 0xc virtual true final false
   inline void set_imeCompositionMode(::UnityEngine::IMECompositionMode value);
 
-  /// @brief Method get_compositionCursorPos addr 0x2d9a7a8 size 0x8 virtual true final false
+  /// @brief Method get_compositionCursorPos addr 0x2c323f8 size 0x8 virtual true final false
   inline ::UnityEngine::Vector2 get_compositionCursorPos();
 
-  /// @brief Method set_compositionCursorPos addr 0x2d9a7b0 size 0x8 virtual true final false
+  /// @brief Method set_compositionCursorPos addr 0x2c32400 size 0x8 virtual true final false
   inline void set_compositionCursorPos(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_mousePresent addr 0x2d9a7b8 size 0x8 virtual true final false
+  /// @brief Method get_mousePresent addr 0x2c32408 size 0x8 virtual true final false
   inline bool get_mousePresent();
 
-  /// @brief Method GetMouseButtonDown addr 0x2d9a7c0 size 0xc virtual true final false
+  /// @brief Method GetMouseButtonDown addr 0x2c32410 size 0xc virtual true final false
   inline bool GetMouseButtonDown(int32_t button);
 
-  /// @brief Method GetMouseButtonUp addr 0x2d9a7cc size 0xc virtual true final false
+  /// @brief Method GetMouseButtonUp addr 0x2c3241c size 0xc virtual true final false
   inline bool GetMouseButtonUp(int32_t button);
 
-  /// @brief Method GetMouseButton addr 0x2d9a7d8 size 0xc virtual true final false
+  /// @brief Method GetMouseButton addr 0x2c32428 size 0xc virtual true final false
   inline bool GetMouseButton(int32_t button);
 
-  /// @brief Method get_mousePosition addr 0x2d9a7e4 size 0x8 virtual true final false
+  /// @brief Method get_mousePosition addr 0x2c32434 size 0x8 virtual true final false
   inline ::UnityEngine::Vector2 get_mousePosition();
 
-  /// @brief Method get_mouseScrollDelta addr 0x2d9a7ec size 0x8 virtual true final false
+  /// @brief Method get_mouseScrollDelta addr 0x2c3243c size 0x8 virtual true final false
   inline ::UnityEngine::Vector2 get_mouseScrollDelta();
 
-  /// @brief Method get_touchSupported addr 0x2d9a7f4 size 0x8 virtual true final false
+  /// @brief Method get_touchSupported addr 0x2c32444 size 0x8 virtual true final false
   inline bool get_touchSupported();
 
-  /// @brief Method get_touchCount addr 0x2d9a7fc size 0x8 virtual true final false
+  /// @brief Method get_touchCount addr 0x2c3244c size 0x8 virtual true final false
   inline int32_t get_touchCount();
 
-  /// @brief Method GetTouch addr 0x2d9a804 size 0x38 virtual true final false
+  /// @brief Method GetTouch addr 0x2c32454 size 0x38 virtual true final false
   inline ::UnityEngine::Touch GetTouch(int32_t index);
 
-  /// @brief Method GetAxisRaw addr 0x2d9a83c size 0xc virtual true final false
+  /// @brief Method GetAxisRaw addr 0x2c3248c size 0xc virtual true final false
   inline float_t GetAxisRaw(::StringW axisName);
 
-  /// @brief Method GetButtonDown addr 0x2d9a848 size 0xc virtual true final false
+  /// @brief Method GetButtonDown addr 0x2c32498 size 0xc virtual true final false
   inline bool GetButtonDown(::StringW buttonName);
 
   static inline ::UnityEngine::EventSystems::BaseInput* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d9a854 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2c324a4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseInput", modifiers: "&&", def_value: None }]

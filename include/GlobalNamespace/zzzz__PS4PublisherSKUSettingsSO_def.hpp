@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4555))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4644))
 // CS Name: ::PS4PublisherSKUSettingsSO::PS4BuildVersion*
 class CORDL_TYPE __PS4PublisherSKUSettingsSO__PS4BuildVersion : public ::System::Object {
 public:
@@ -56,15 +56,15 @@ public:
 
   constexpr void __set__applicationVersion(::StringW value);
 
-  /// @brief Method get_masterVersion addr 0x2368250 size 0x8 virtual false final false
+  /// @brief Method get_masterVersion addr 0x222e324 size 0x8 virtual false final false
   inline ::StringW get_masterVersion();
 
-  /// @brief Method get_applicationVersion addr 0x2368258 size 0x8 virtual false final false
+  /// @brief Method get_applicationVersion addr 0x222e32c size 0x8 virtual false final false
   inline ::StringW get_applicationVersion();
 
   static inline ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* New_ctor();
 
-  /// @brief Method .ctor addr 0x2368260 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x222e334 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PS4PublisherSKUSettingsSO__PS4BuildVersion", modifiers: "&&", def_value: None }]
@@ -92,13 +92,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion, ____masterVersion) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion, ____applicationVersion) == 0x18, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::PS4PublisherSKUSettingsSO
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4602)), TypeDefinitionIndex(TypeDefinitionIndex(4554))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4556))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4643)), TypeDefinitionIndex(TypeDefinitionIndex(4691))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4645))
 // CS Name: ::PS4PublisherSKUSettingsSO*
 class CORDL_TYPE PS4PublisherSKUSettingsSO : public ::GlobalNamespace::SonyPublisherSKUSettingsSO {
 public:
@@ -171,27 +175,27 @@ public:
 
   constexpr void __set__applicationCategory(::GlobalNamespace::PS4ApplicationCategory value);
 
-  /// @brief Method get_buildVersion addr 0x2368210 size 0x8 virtual false final false
+  /// @brief Method get_buildVersion addr 0x222e2e4 size 0x8 virtual false final false
   inline ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* get_buildVersion();
 
-  /// @brief Method get_latestBuildVersion addr 0x2368218 size 0x8 virtual false final false
+  /// @brief Method get_latestBuildVersion addr 0x222e2ec size 0x8 virtual false final false
   inline ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* get_latestBuildVersion();
 
-  /// @brief Method get_parentalLockLevel addr 0x2368220 size 0x8 virtual false final false
+  /// @brief Method get_parentalLockLevel addr 0x222e2f4 size 0x8 virtual false final false
   inline int32_t get_parentalLockLevel();
 
-  /// @brief Method get_npTitleFilenamePath addr 0x2368228 size 0x8 virtual false final false
+  /// @brief Method get_npTitleFilenamePath addr 0x222e2fc size 0x8 virtual false final false
   inline ::StringW get_npTitleFilenamePath();
 
-  /// @brief Method get_defaultAgeRestriction addr 0x2368230 size 0x8 virtual false final false
+  /// @brief Method get_defaultAgeRestriction addr 0x222e304 size 0x8 virtual false final false
   inline int32_t get_defaultAgeRestriction();
 
-  /// @brief Method get_applicationCategory addr 0x2368238 size 0x8 virtual false final false
+  /// @brief Method get_applicationCategory addr 0x222e30c size 0x8 virtual false final false
   inline ::GlobalNamespace::PS4ApplicationCategory get_applicationCategory();
 
   static inline ::GlobalNamespace::PS4PublisherSKUSettingsSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x2368240 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x222e314 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PS4PublisherSKUSettingsSO", modifiers: "&&", def_value: None }]
@@ -230,6 +234,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PS4PublisherSKUSettingsSO, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PS4PublisherSKUSettingsSO, ____buildVersion) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PS4PublisherSKUSettingsSO, ____latestBuildVersion) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PS4PublisherSKUSettingsSO, ____parentalLockLevel) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PS4PublisherSKUSettingsSO, ____npTitleFilenamePath) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PS4PublisherSKUSettingsSO, ____defaultAgeRestriction) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PS4PublisherSKUSettingsSO, ____applicationCategory) == 0x5c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PS4PublisherSKUSettingsSO);

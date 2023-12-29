@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorDynamicContext)
 namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace Zenject {
 class ISubContainerCreator;
 }
 namespace Zenject {
 class DiContainer;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+class InjectContext;
+}
 namespace Zenject {
 class GameObjectContext;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+class GameObject;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorDynamicContext);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11295))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11223))
 // CS Name: ::Zenject::SubContainerCreatorDynamicContext*
 class CORDL_TYPE SubContainerCreatorDynamicContext : public ::System::Object {
 public:
@@ -58,13 +58,13 @@ public:
 
   static inline ::Zenject::SubContainerCreatorDynamicContext* New_ctor(::Zenject::DiContainer* container);
 
-  /// @brief Method .ctor addr 0x2f0b8cc size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2da3afc size 0x28 virtual false final false
   inline void _ctor(::Zenject::DiContainer* container);
 
-  /// @brief Method get_Container addr 0x2f0d594 size 0x8 virtual false final false
+  /// @brief Method get_Container addr 0x2da57c4 size 0x8 virtual false final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method CreateSubContainer addr 0x2f0d59c size 0xe4 virtual true final true
+  /// @brief Method CreateSubContainer addr 0x2da57cc size 0xe4 virtual true final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* parentContext);
 
   /// @brief Method AddInstallers addr 0x0 size 0xffffffffffffffff virtual true final false
@@ -94,6 +94,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::SubContainerCreatorDynamicContext, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::SubContainerCreatorDynamicContext, ____container) == 0x10, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::SubContainerCreatorDynamicContext);

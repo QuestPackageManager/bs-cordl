@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IStandaloneFileBrowser)
-namespace SFB {
-struct ExtensionFilter;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace SFB {
+struct ExtensionFilter;
 }
 // Forward declare root types
 namespace SFB {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::SFB::IStandaloneFileBrowser);
 namespace SFB {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6088))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6151))
 // CS Name: ::SFB::IStandaloneFileBrowser*
 class CORDL_TYPE IStandaloneFileBrowser {
 public:

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(PooledObject_1)
-namespace System {
-class IDisposable;
-}
 namespace UnityEngine::Pool {
 template <typename T> class IObjectPool_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::Pool {
@@ -23,7 +23,7 @@ namespace UnityEngine::Pool {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10445))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10367))
 // CS Name: ::UnityEngine.Pool::PooledObject`1<T>
 struct CORDL_TYPE PooledObject_1 {
 public:

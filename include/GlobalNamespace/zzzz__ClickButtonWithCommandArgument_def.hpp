@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ClickButtonWithCommandArgument)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace GlobalNamespace {
 class __ClickButtonWithCommandArgument___Start_d__2;
 }
 namespace UnityEngine::UI {
 class Button;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__ClickButtonWithCommandArgument___Start_d__2)
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14355))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13843))
 // CS Name: ::ClickButtonWithCommandArgument::<Start>d__2*
 class CORDL_TYPE __ClickButtonWithCommandArgument___Start_d__2 : public ::System::Object {
 public:
@@ -87,22 +87,22 @@ public:
 
   static inline ::GlobalNamespace::__ClickButtonWithCommandArgument___Start_d__2* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x20f12d0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x1f94160 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x20f1300 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x1f94190 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x20f1304 size 0xc8 virtual true final true
+  /// @brief Method MoveNext addr 0x1f94194 size 0xc8 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x20f13cc size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1f9425c size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x20f13d4 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1f94264 size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x20f1414 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1f942a4 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ClickButtonWithCommandArgument___Start_d__2", modifiers: "&&", def_value: None }]
@@ -133,13 +133,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ClickButtonWithCommandArgument___Start_d__2, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__ClickButtonWithCommandArgument___Start_d__2, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ClickButtonWithCommandArgument___Start_d__2, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ClickButtonWithCommandArgument___Start_d__2, _____4__this) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ClickButtonWithCommandArgument
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14356))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13844))
 // CS Name: ::ClickButtonWithCommandArgument*
 class CORDL_TYPE ClickButtonWithCommandArgument : public ::UnityEngine::MonoBehaviour {
 public:
@@ -164,12 +170,12 @@ public:
 
   constexpr void __set__button(::UnityEngine::UI::Button* value);
 
-  /// @brief Method Start addr 0x20f1268 size 0x68 virtual false final false
+  /// @brief Method Start addr 0x1f940f8 size 0x68 virtual false final false
   inline ::System::Collections::IEnumerator* Start();
 
   static inline ::GlobalNamespace::ClickButtonWithCommandArgument* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f12f8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1f94188 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ClickButtonWithCommandArgument", modifiers: "&&", def_value: None }]
@@ -196,6 +202,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ClickButtonWithCommandArgument, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ClickButtonWithCommandArgument, ____argument) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ClickButtonWithCommandArgument, ____button) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ClickButtonWithCommandArgument);

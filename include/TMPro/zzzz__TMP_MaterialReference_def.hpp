@@ -19,7 +19,7 @@ MARK_VAL_T(::TMPro::TMP_MaterialReference);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12303))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12231))
 // CS Name: ::TMPro::TMP_MaterialReference
 struct CORDL_TYPE TMP_MaterialReference {
 public:
@@ -44,6 +44,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_MaterialReference, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_MaterialReference, material) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TMP_MaterialReference, referenceCount) == 0x8, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_MaterialReference, "TMPro", "TMP_MaterialReference");

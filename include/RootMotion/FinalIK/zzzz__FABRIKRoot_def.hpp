@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "RootMotion/FinalIK/zzzz__IK_def.hpp"
 CORDL_MODULE_EXPORT(FABRIKRoot)
 namespace RootMotion::FinalIK {
-class IKSolverFABRIKRoot;
+class IKSolver;
 }
 namespace RootMotion::FinalIK {
-class IKSolver;
+class IKSolverFABRIKRoot;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::FABRIKRoot);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12536))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12534))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12464))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12462))
 // CS Name: ::RootMotion.FinalIK::FABRIKRoot*
 class CORDL_TYPE FABRIKRoot : public ::RootMotion::FinalIK::IK {
 public:
@@ -35,24 +35,24 @@ public:
 
   constexpr void __set_solver(::RootMotion::FinalIK::IKSolverFABRIKRoot* value);
 
-  /// @brief Method OpenUserManual addr 0x124e5d4 size 0x44 virtual true final false
+  /// @brief Method OpenUserManual addr 0x11de2a8 size 0x44 virtual true final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference addr 0x124e618 size 0x44 virtual true final false
+  /// @brief Method OpenScriptReference addr 0x11de2ec size 0x44 virtual true final false
   inline void OpenScriptReference();
 
-  /// @brief Method SupportGroup addr 0x124e65c size 0x44 virtual false final false
+  /// @brief Method SupportGroup addr 0x11de330 size 0x44 virtual false final false
   inline void SupportGroup();
 
-  /// @brief Method ASThread addr 0x124e6a0 size 0x44 virtual false final false
+  /// @brief Method ASThread addr 0x11de374 size 0x44 virtual false final false
   inline void ASThread();
 
-  /// @brief Method GetIKSolver addr 0x124e6e4 size 0x8 virtual true final false
+  /// @brief Method GetIKSolver addr 0x11de3b8 size 0x8 virtual true final false
   inline ::RootMotion::FinalIK::IKSolver* GetIKSolver();
 
   static inline ::RootMotion::FinalIK::FABRIKRoot* New_ctor();
 
-  /// @brief Method .ctor addr 0x124e6ec size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x11de3c0 size 0x68 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FABRIKRoot", modifiers: "&&", def_value: None }]
@@ -76,6 +76,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::FABRIKRoot, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::FABRIKRoot, ___solver) == 0x38, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::FABRIKRoot);

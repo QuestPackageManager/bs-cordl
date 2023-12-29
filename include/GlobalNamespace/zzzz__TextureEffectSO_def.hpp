@@ -17,18 +17,18 @@ MARK_REF_PTR_T(::GlobalNamespace::TextureEffectSO);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14579))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14796))
 // CS Name: ::TextureEffectSO*
 class CORDL_TYPE TextureEffectSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  /// @brief Method Render addr 0x2115dd4 size 0x68 virtual true final false
+  /// @brief Method Render addr 0x1fc024c size 0x68 virtual true final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   static inline ::GlobalNamespace::TextureEffectSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x2115e3c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x1fc02b4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextureEffectSO", modifiers: "&&", def_value: None }]

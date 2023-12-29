@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::IEnvoyInfo);
 namespace System::Runtime::Remoting {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3058))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3057))
 // CS Name: ::System.Runtime.Remoting::IEnvoyInfo*
 class CORDL_TYPE IEnvoyInfo {
 public:

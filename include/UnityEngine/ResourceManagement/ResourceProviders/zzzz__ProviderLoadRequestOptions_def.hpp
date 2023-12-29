@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoa
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14014))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14285))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::ProviderLoadRequestOptions*
 class CORDL_TYPE ProviderLoadRequestOptions : public ::System::Object {
 public:
@@ -43,24 +43,24 @@ public:
 
   constexpr void __set_m_WebRequestTimeout(int32_t value);
 
-  /// @brief Method Copy addr 0x2bd83bc size 0x80 virtual false final false
+  /// @brief Method Copy addr 0x2a55668 size 0x80 virtual false final false
   inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* Copy();
 
-  /// @brief Method get_IgnoreFailures addr 0x2bd843c size 0x8 virtual false final false
+  /// @brief Method get_IgnoreFailures addr 0x2a556e8 size 0x8 virtual false final false
   inline bool get_IgnoreFailures();
 
-  /// @brief Method set_IgnoreFailures addr 0x2bd8444 size 0xc virtual false final false
+  /// @brief Method set_IgnoreFailures addr 0x2a556f0 size 0xc virtual false final false
   inline void set_IgnoreFailures(bool value);
 
-  /// @brief Method get_WebRequestTimeout addr 0x2bd8450 size 0x8 virtual false final false
+  /// @brief Method get_WebRequestTimeout addr 0x2a556fc size 0x8 virtual false final false
   inline int32_t get_WebRequestTimeout();
 
-  /// @brief Method set_WebRequestTimeout addr 0x2bd8458 size 0x8 virtual false final false
+  /// @brief Method set_WebRequestTimeout addr 0x2a55704 size 0x8 virtual false final false
   inline void set_WebRequestTimeout(int32_t value);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bd8460 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2a5570c size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProviderLoadRequestOptions", modifiers: "&&", def_value: None }]
@@ -87,6 +87,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions, ___m_IgnoreFailures) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions, ___m_WebRequestTimeout) == 0x14, "Offset mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
 NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions);

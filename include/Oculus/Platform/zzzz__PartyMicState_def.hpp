@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::PartyMicState);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13344))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13371))
 // CS Name: ::Oculus.Platform::PartyMicState
 struct CORDL_TYPE PartyMicState {
 public:
@@ -73,6 +73,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::PartyMicState, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::PartyMicState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::PartyMicState, "Oculus.Platform", "PartyMicState");

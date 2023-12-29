@@ -22,77 +22,71 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputUser)
+namespace System {
+class Action;
+}
 namespace UnityEngine::InputSystem::Utilities {
 template <typename T> class __SavedStructState_1__TypedRestore;
 }
-namespace System {
-class Action;
+namespace UnityEngine::InputSystem::Users {
+class __InputUser____c;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlScheme;
 }
 namespace UnityEngine::InputSystem::Users {
 struct InputUserAccountHandle;
 }
 namespace System {
-class Object;
+template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace UnityEngine::InputSystem {
 struct InputActionChange;
-}
-namespace UnityEngine::InputSystem::Users {
-struct __InputUser__UserFlags;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace UnityEngine::InputSystem {
-struct InputControlScheme;
-}
-namespace UnityEngine::InputSystem {
-class IInputActionCollection;
 }
 namespace UnityEngine::InputSystem {
 struct __InputControlScheme__MatchResult;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace UnityEngine::InputSystem::Users {
-struct __InputUser__CompareDevicesByUserAccount;
-}
-namespace UnityEngine::InputSystem::Users {
-struct InputUserChange;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace UnityEngine::InputSystem {
-template <typename TControl> struct InputControlList_1;
-}
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
-}
-namespace UnityEngine::InputSystem::Utilities {
-class ISavedState;
-}
-namespace UnityEngine::InputSystem::Users {
-struct __InputUser__GlobalState;
 }
 namespace UnityEngine::InputSystem::Users {
 struct __InputUser__UserData;
 }
 namespace UnityEngine::InputSystem::Users {
-class __InputUser____c;
+struct InputUserPairingOptions;
+}
+namespace UnityEngine::InputSystem {
+class IInputActionCollection;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::InputSystem::Users {
+struct __InputUser__CompareDevicesByUserAccount;
+}
+namespace UnityEngine::InputSystem::Users {
+struct __InputUser__GlobalState;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
 }
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem {
+template <typename TControl> struct InputControlList_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+class ISavedState;
+}
+namespace UnityEngine::InputSystem::Users {
+struct __InputUser__UserFlags;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
@@ -100,23 +94,29 @@ class InputControl;
 namespace UnityEngine::InputSystem::Users {
 struct __InputUser__ControlSchemeChangeSyntax;
 }
-namespace UnityEngine::InputSystem::Users {
-struct InputUserPairingOptions;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace UnityEngine::InputSystem::Users {
 struct __InputUser__OngoingAccountSelection;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+namespace UnityEngine::InputSystem::Users {
+struct InputUserChange;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TDelegate> struct CallbackArray_1;
+template <typename TValue> struct InlinedArray_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct InlinedArray_1;
+template <typename TDelegate> struct CallbackArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Users {
@@ -157,12 +157,12 @@ MARK_VAL_T(::UnityEngine::InputSystem::Users::__InputUser__UserData);
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6357))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6443))
 // CS Name: ::InputUser::ControlSchemeChangeSyntax
 struct CORDL_TYPE __InputUser__ControlSchemeChangeSyntax {
 public:
   // Declarations
-  /// @brief Method AndPairRemainingDevices addr 0x2acf1b8 size 0x24 virtual false final false
+  /// @brief Method AndPairRemainingDevices addr 0x294f470 size 0x24 virtual false final false
   inline ::UnityEngine::InputSystem::Users::__InputUser__ControlSchemeChangeSyntax AndPairRemainingDevices();
 
   // Ctor Parameters [CppParam { name: "m_UserIndex", ty: "int32_t", modifiers: "", def_value: None }]
@@ -183,13 +183,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Users::__InputUser__ControlSchemeChangeSyntax, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__ControlSchemeChangeSyntax, m_UserIndex) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::Users
 // Type: ::UserFlags
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6358))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6444))
 // CS Name: ::InputUser::UserFlags
 struct CORDL_TYPE __InputUser__UserFlags {
 public:
@@ -231,14 +233,16 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Users::__InputUser__UserFlags, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__UserFlags, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::Users
 // Type: ::UserData
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6204)), TypeDefinitionIndex(TypeDefinitionIndex(6358)), TypeDefinitionIndex(TypeDefinitionIndex(6365)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3107 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6199)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3305 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6359)) CS Name: ::InputUser::UserData
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6290)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 3239 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6451)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 3043 }), TypeDefinitionIndex(TypeDefinitionIndex(6444)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6285)), TypeDefinitionIndex(TypeDefinitionIndex(2446))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6445)) CS Name: ::InputUser::UserData
 struct CORDL_TYPE __InputUser__UserData {
 public:
   // Declarations
@@ -300,13 +304,35 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Users::__InputUser__UserData, 0xb8>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__UserData, platformUserAccountHandle) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__UserData, platformUserAccountName) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__UserData, platformUserAccountId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__UserData, deviceCount) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__UserData, deviceStartIndex) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__UserData, actions) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__UserData, controlScheme) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__UserData, controlSchemeMatch) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__UserData, lostDeviceCount) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__UserData, lostDeviceStartIndex) == 0xac, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__UserData, flags) == 0xb0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::Users
 // Type: ::CompareDevicesByUserAccount
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6365))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6360))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6451))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6446))
 // CS Name: ::InputUser::CompareDevicesByUserAccount
 struct CORDL_TYPE __InputUser__CompareDevicesByUserAccount {
 public:
@@ -314,10 +340,10 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::InputSystem::InputDevice*>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::InputSystem::InputDevice*>*();
 
-  /// @brief Method Compare addr 0x2acf1dc size 0x3c virtual true final true
+  /// @brief Method Compare addr 0x294f494 size 0x3c virtual true final true
   inline int32_t Compare(::UnityEngine::InputSystem::InputDevice* x, ::UnityEngine::InputSystem::InputDevice* y);
 
-  /// @brief Method GetUserAccountHandleForDevice addr 0x2acf218 size 0xc virtual false final false
+  /// @brief Method GetUserAccountHandleForDevice addr 0x294f4d0 size 0xc virtual false final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle> GetUserAccountHandleForDevice(::UnityEngine::InputSystem::InputDevice* device);
 
   // Ctor Parameters [CppParam { name: "platformUserAccountHandle", ty: "::UnityEngine::InputSystem::Users::InputUserAccountHandle", modifiers: "", def_value: None }]
@@ -338,13 +364,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Users::__InputUser__CompareDevicesByUserAccount, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__CompareDevicesByUserAccount, platformUserAccountHandle) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::Users
 // Type: ::OngoingAccountSelection
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6361))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6447))
 // CS Name: ::InputUser::OngoingAccountSelection
 struct CORDL_TYPE __InputUser__OngoingAccountSelection {
 public:
@@ -371,13 +399,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Users::__InputUser__OngoingAccountSelection, 0x10>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__OngoingAccountSelection, device) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__OngoingAccountSelection, userId) == 0x8, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::Users
 // Type: UnityEngine.InputSystem.Users::InputUser
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6362))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6364))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6448))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6450))
 // CS Name: ::UnityEngine.InputSystem.Users::InputUser
 struct CORDL_TYPE InputUser {
 public:
@@ -430,216 +462,216 @@ public:
 
   static inline ::UnityEngine::InputSystem::Users::__InputUser__GlobalState getStaticF_s_GlobalState();
 
-  /// @brief Method get_valid addr 0x2abd218 size 0xa4 virtual false final false
+  /// @brief Method get_valid addr 0x293e4d0 size 0xa4 virtual false final false
   inline bool get_valid();
 
-  /// @brief Method get_index addr 0x2ac9b70 size 0xf4 virtual false final false
+  /// @brief Method get_index addr 0x294ae28 size 0xf4 virtual false final false
   inline int32_t get_index();
 
-  /// @brief Method get_id addr 0x2ac9cf8 size 0x8 virtual false final false
+  /// @brief Method get_id addr 0x294afb0 size 0x8 virtual false final false
   inline uint32_t get_id();
 
-  /// @brief Method get_platformUserAccountHandle addr 0x2ac9d00 size 0x90 virtual false final false
+  /// @brief Method get_platformUserAccountHandle addr 0x294afb8 size 0x90 virtual false final false
   inline ::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle> get_platformUserAccountHandle();
 
-  /// @brief Method get_platformUserAccountName addr 0x2ac9d90 size 0x78 virtual false final false
+  /// @brief Method get_platformUserAccountName addr 0x294b048 size 0x78 virtual false final false
   inline ::StringW get_platformUserAccountName();
 
-  /// @brief Method get_platformUserAccountId addr 0x2ac9e08 size 0x78 virtual false final false
+  /// @brief Method get_platformUserAccountId addr 0x294b0c0 size 0x78 virtual false final false
   inline ::StringW get_platformUserAccountId();
 
-  /// @brief Method get_pairedDevices addr 0x2abdf80 size 0xac virtual false final false
+  /// @brief Method get_pairedDevices addr 0x293f238 size 0xac virtual false final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*> get_pairedDevices();
 
-  /// @brief Method get_lostDevices addr 0x2ac9e80 size 0xac virtual false final false
+  /// @brief Method get_lostDevices addr 0x294b138 size 0xac virtual false final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*> get_lostDevices();
 
-  /// @brief Method get_actions addr 0x2ac9f2c size 0x78 virtual false final false
+  /// @brief Method get_actions addr 0x294b1e4 size 0x78 virtual false final false
   inline ::UnityEngine::InputSystem::IInputActionCollection* get_actions();
 
-  /// @brief Method get_controlScheme addr 0x2abd2bc size 0x8c virtual false final false
+  /// @brief Method get_controlScheme addr 0x293e574 size 0x8c virtual false final false
   inline ::System::Nullable_1<::UnityEngine::InputSystem::InputControlScheme> get_controlScheme();
 
-  /// @brief Method get_controlSchemeMatch addr 0x2ac9fa4 size 0x8c virtual false final false
+  /// @brief Method get_controlSchemeMatch addr 0x294b25c size 0x8c virtual false final false
   inline ::UnityEngine::InputSystem::__InputControlScheme__MatchResult get_controlSchemeMatch();
 
-  /// @brief Method get_hasMissingRequiredDevices addr 0x2abe074 size 0x7c virtual false final false
+  /// @brief Method get_hasMissingRequiredDevices addr 0x293f32c size 0x7c virtual false final false
   inline bool get_hasMissingRequiredDevices();
 
-  /// @brief Method get_all addr 0x2aca030 size 0x80 virtual false final false
+  /// @brief Method get_all addr 0x294b2e8 size 0x80 virtual false final false
   static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Users::InputUser> get_all();
 
-  /// @brief Method add_onChange addr 0x2ac12a4 size 0xb8 virtual false final false
+  /// @brief Method add_onChange addr 0x294255c size 0xb8 virtual false final false
   static inline void
   add_onChange(::System::Action_3<::UnityEngine::InputSystem::Users::InputUser, ::UnityEngine::InputSystem::Users::InputUserChange, ::UnityEngine::InputSystem::InputDevice*>* value);
 
-  /// @brief Method remove_onChange addr 0x2ac1e3c size 0xb8 virtual false final false
+  /// @brief Method remove_onChange addr 0x29430f4 size 0xb8 virtual false final false
   static inline void
   remove_onChange(::System::Action_3<::UnityEngine::InputSystem::Users::InputUser, ::UnityEngine::InputSystem::Users::InputUserChange, ::UnityEngine::InputSystem::InputDevice*>* value);
 
-  /// @brief Method add_onUnpairedDeviceUsed addr 0x2ac1664 size 0xdc virtual false final false
+  /// @brief Method add_onUnpairedDeviceUsed addr 0x294291c size 0xdc virtual false final false
   static inline void add_onUnpairedDeviceUsed(::System::Action_2<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  /// @brief Method remove_onUnpairedDeviceUsed addr 0x2ac1930 size 0xf4 virtual false final false
+  /// @brief Method remove_onUnpairedDeviceUsed addr 0x2942be8 size 0xf4 virtual false final false
   static inline void remove_onUnpairedDeviceUsed(::System::Action_2<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  /// @brief Method add_onPrefilterUnpairedDeviceActivity addr 0x2ac1740 size 0xb8 virtual false final false
+  /// @brief Method add_onPrefilterUnpairedDeviceActivity addr 0x29429f8 size 0xb8 virtual false final false
   static inline void add_onPrefilterUnpairedDeviceActivity(::System::Func_3<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>* value);
 
-  /// @brief Method remove_onPrefilterUnpairedDeviceActivity addr 0x2ac1a24 size 0xb8 virtual false final false
+  /// @brief Method remove_onPrefilterUnpairedDeviceActivity addr 0x2942cdc size 0xb8 virtual false final false
   static inline void remove_onPrefilterUnpairedDeviceActivity(::System::Func_3<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>* value);
 
-  /// @brief Method get_listenForUnpairedDeviceActivity addr 0x2ac17f8 size 0x48 virtual false final false
+  /// @brief Method get_listenForUnpairedDeviceActivity addr 0x2942ab0 size 0x48 virtual false final false
   static inline int32_t get_listenForUnpairedDeviceActivity();
 
-  /// @brief Method set_listenForUnpairedDeviceActivity addr 0x2ac1840 size 0xf0 virtual false final false
+  /// @brief Method set_listenForUnpairedDeviceActivity addr 0x2942af8 size 0xf0 virtual false final false
   static inline void set_listenForUnpairedDeviceActivity(int32_t value);
 
-  /// @brief Method ToString addr 0x2aca264 size 0x26c virtual true final false
+  /// @brief Method ToString addr 0x294b51c size 0x26c virtual true final false
   inline ::StringW ToString();
 
-  /// @brief Method AssociateActionsWithUser addr 0x2ac0508 size 0x338 virtual false final false
+  /// @brief Method AssociateActionsWithUser addr 0x29417c0 size 0x338 virtual false final false
   inline void AssociateActionsWithUser(::UnityEngine::InputSystem::IInputActionCollection* actions);
 
-  /// @brief Method ActivateControlScheme addr 0x2ac0b5c size 0x78 virtual false final false
+  /// @brief Method ActivateControlScheme addr 0x2941e14 size 0x78 virtual false final false
   inline ::UnityEngine::InputSystem::Users::__InputUser__ControlSchemeChangeSyntax ActivateControlScheme(::StringW schemeName);
 
-  /// @brief Method TryFindControlScheme addr 0x2aca980 size 0x280 virtual false final false
+  /// @brief Method TryFindControlScheme addr 0x294bc38 size 0x280 virtual false final false
   inline bool TryFindControlScheme(::StringW schemeName, ByRef<::UnityEngine::InputSystem::InputControlScheme> scheme);
 
-  /// @brief Method FindControlScheme addr 0x2abeaf8 size 0xbc virtual false final false
+  /// @brief Method FindControlScheme addr 0x293fdb0 size 0xbc virtual false final false
   inline void FindControlScheme(::StringW schemeName, ByRef<::UnityEngine::InputSystem::InputControlScheme> scheme);
 
-  /// @brief Method ActivateControlScheme addr 0x2ac0988 size 0x1d4 virtual false final false
+  /// @brief Method ActivateControlScheme addr 0x2941c40 size 0x1d4 virtual false final false
   inline ::UnityEngine::InputSystem::Users::__InputUser__ControlSchemeChangeSyntax ActivateControlScheme(::UnityEngine::InputSystem::InputControlScheme scheme);
 
-  /// @brief Method ActivateControlSchemeInternal addr 0x2aca5e4 size 0x39c virtual false final false
+  /// @brief Method ActivateControlSchemeInternal addr 0x294b89c size 0x39c virtual false final false
   inline void ActivateControlSchemeInternal(int32_t userIndex, ::UnityEngine::InputSystem::InputControlScheme scheme);
 
-  /// @brief Method UnpairDevice addr 0x2ac2c4c size 0xdc virtual false final false
+  /// @brief Method UnpairDevice addr 0x2943f04 size 0xdc virtual false final false
   inline void UnpairDevice(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method UnpairDevices addr 0x2abfd70 size 0x278 virtual false final false
+  /// @brief Method UnpairDevices addr 0x2941028 size 0x278 virtual false final false
   inline void UnpairDevices();
 
-  /// @brief Method RemoveLostDevicesForUser addr 0x2acb730 size 0x12c virtual false final false
+  /// @brief Method RemoveLostDevicesForUser addr 0x294c9e8 size 0x12c virtual false final false
   static inline void RemoveLostDevicesForUser(int32_t userIndex);
 
-  /// @brief Method UnpairDevicesAndRemoveUser addr 0x2ac08f8 size 0x24 virtual false final false
+  /// @brief Method UnpairDevicesAndRemoveUser addr 0x2941bb0 size 0x24 virtual false final false
   inline void UnpairDevicesAndRemoveUser();
 
-  /// @brief Method GetUnpairedInputDevices addr 0x2ac038c size 0x74 virtual false final false
+  /// @brief Method GetUnpairedInputDevices addr 0x2941644 size 0x74 virtual false final false
   static inline ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputDevice*> GetUnpairedInputDevices();
 
-  /// @brief Method GetUnpairedInputDevices addr 0x2acbf74 size 0x214 virtual false final false
+  /// @brief Method GetUnpairedInputDevices addr 0x294d22c size 0x214 virtual false final false
   static inline int32_t GetUnpairedInputDevices(ByRef<::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputDevice*>> list);
 
-  /// @brief Method FindUserPairedToDevice addr 0x2acc188 size 0x100 virtual false final false
+  /// @brief Method FindUserPairedToDevice addr 0x294d440 size 0x100 virtual false final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUser> FindUserPairedToDevice(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method FindUserByAccount addr 0x2acc374 size 0x13c virtual false final false
+  /// @brief Method FindUserByAccount addr 0x294d62c size 0x13c virtual false final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUser> FindUserByAccount(::UnityEngine::InputSystem::Users::InputUserAccountHandle platformUserAccountHandle);
 
-  /// @brief Method CreateUserWithoutPairedDevices addr 0x2ac091c size 0x6c virtual false final false
+  /// @brief Method CreateUserWithoutPairedDevices addr 0x2941bd4 size 0x6c virtual false final false
   static inline ::UnityEngine::InputSystem::Users::InputUser CreateUserWithoutPairedDevices();
 
-  /// @brief Method PerformPairingWithDevice addr 0x2abffe8 size 0x1c4 virtual false final false
+  /// @brief Method PerformPairingWithDevice addr 0x29412a0 size 0x1c4 virtual false final false
   static inline ::UnityEngine::InputSystem::Users::InputUser PerformPairingWithDevice(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::Users::InputUser user,
                                                                                       ::UnityEngine::InputSystem::Users::InputUserPairingOptions options);
 
-  /// @brief Method InitiateUserAccountSelection addr 0x2acc690 size 0x118 virtual false final false
+  /// @brief Method InitiateUserAccountSelection addr 0x294d948 size 0x118 virtual false final false
   static inline bool InitiateUserAccountSelection(int32_t userIndex, ::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::Users::InputUserPairingOptions options);
 
-  /// @brief Method Equals addr 0x2acd0cc size 0x10 virtual true final true
+  /// @brief Method Equals addr 0x294e384 size 0x10 virtual true final true
   inline bool Equals(::UnityEngine::InputSystem::Users::InputUser other);
 
-  /// @brief Method Equals addr 0x2acd0dc size 0x78 virtual true final false
+  /// @brief Method Equals addr 0x294e394 size 0x78 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2acd154 size 0x8 virtual true final false
+  /// @brief Method GetHashCode addr 0x294e40c size 0x8 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality addr 0x2ac2434 size 0xc virtual false final false
+  /// @brief Method op_Equality addr 0x29436ec size 0xc virtual false final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Users::InputUser left, ::UnityEngine::InputSystem::Users::InputUser right);
 
-  /// @brief Method op_Inequality addr 0x2acc684 size 0xc virtual false final false
+  /// @brief Method op_Inequality addr 0x294d93c size 0xc virtual false final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Users::InputUser left, ::UnityEngine::InputSystem::Users::InputUser right);
 
-  /// @brief Method AddUser addr 0x2acc594 size 0xf0 virtual false final false
+  /// @brief Method AddUser addr 0x294d84c size 0xf0 virtual false final false
   static inline int32_t AddUser();
 
-  /// @brief Method RemoveUser addr 0x2acbcbc size 0x2b8 virtual false final false
+  /// @brief Method RemoveUser addr 0x294cf74 size 0x2b8 virtual false final false
   static inline void RemoveUser(int32_t userIndex);
 
-  /// @brief Method Notify addr 0x2acac00 size 0x308 virtual false final false
+  /// @brief Method Notify addr 0x294beb8 size 0x308 virtual false final false
   static inline void Notify(int32_t userIndex, ::UnityEngine::InputSystem::Users::InputUserChange change, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method TryFindUserIndex addr 0x2ac9c64 size 0x94 virtual false final false
+  /// @brief Method TryFindUserIndex addr 0x294af1c size 0x94 virtual false final false
   static inline int32_t TryFindUserIndex(uint32_t userId);
 
-  /// @brief Method TryFindUserIndex addr 0x2acc4b0 size 0xe4 virtual false final false
+  /// @brief Method TryFindUserIndex addr 0x294d768 size 0xe4 virtual false final false
   static inline int32_t TryFindUserIndex(::UnityEngine::InputSystem::Users::InputUserAccountHandle platformHandle);
 
-  /// @brief Method TryFindUserIndex addr 0x2acc288 size 0xec virtual false final false
+  /// @brief Method TryFindUserIndex addr 0x294d540 size 0xec virtual false final false
   static inline int32_t TryFindUserIndex(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method AddDeviceToUser addr 0x2acc7a8 size 0x40c virtual false final false
+  /// @brief Method AddDeviceToUser addr 0x294da60 size 0x40c virtual false final false
   static inline void AddDeviceToUser(int32_t userIndex, ::UnityEngine::InputSystem::InputDevice* device, bool asLostDevice, bool dontUpdateControlScheme);
 
-  /// @brief Method RemoveDeviceFromUser addr 0x2acb85c size 0x460 virtual false final false
+  /// @brief Method RemoveDeviceFromUser addr 0x294cb14 size 0x460 virtual false final false
   static inline void RemoveDeviceFromUser(int32_t userIndex, ::UnityEngine::InputSystem::InputDevice* device, bool asLostDevice);
 
-  /// @brief Method UpdateControlSchemeMatch addr 0x2acaf08 size 0x828 virtual false final false
+  /// @brief Method UpdateControlSchemeMatch addr 0x294c1c0 size 0x828 virtual false final false
   static inline void UpdateControlSchemeMatch(int32_t userIndex, bool autoPairMissing);
 
-  /// @brief Method UpdatePlatformUserAccount addr 0x2accbb4 size 0x36c virtual false final false
+  /// @brief Method UpdatePlatformUserAccount addr 0x294de6c size 0x36c virtual false final false
   static inline int64_t UpdatePlatformUserAccount(int32_t userIndex, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method QueryPairedPlatformUserAccount addr 0x2acd2bc size 0x184 virtual false final false
+  /// @brief Method QueryPairedPlatformUserAccount addr 0x294e574 size 0x184 virtual false final false
   static inline int64_t QueryPairedPlatformUserAccount(::UnityEngine::InputSystem::InputDevice* device,
                                                        ByRef<::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>> platformAccountHandle,
                                                        ByRef<::StringW> platformAccountName, ByRef<::StringW> platformAccountId);
 
-  /// @brief Method InitiateUserAccountSelectionAtPlatformLevel addr 0x2accf20 size 0xc0 virtual false final false
+  /// @brief Method InitiateUserAccountSelectionAtPlatformLevel addr 0x294e1d8 size 0xc0 virtual false final false
   static inline bool InitiateUserAccountSelectionAtPlatformLevel(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method OnActionChange addr 0x2acd440 size 0xc8 virtual false final false
+  /// @brief Method OnActionChange addr 0x294e6f8 size 0xc8 virtual false final false
   static inline void OnActionChange(::System::Object* obj, ::UnityEngine::InputSystem::InputActionChange change);
 
-  /// @brief Method OnDeviceChange addr 0x2acd508 size 0x488 virtual false final false
+  /// @brief Method OnDeviceChange addr 0x294e7c0 size 0x488 virtual false final false
   static inline void OnDeviceChange(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::InputDeviceChange change);
 
-  /// @brief Method FindLostDevice addr 0x2acd990 size 0xb8 virtual false final false
+  /// @brief Method FindLostDevice addr 0x294ec48 size 0xb8 virtual false final false
   static inline int32_t FindLostDevice(::UnityEngine::InputSystem::InputDevice* device, int32_t startIndex);
 
-  /// @brief Method OnEvent addr 0x2acda48 size 0x4bc virtual false final false
+  /// @brief Method OnEvent addr 0x294ed00 size 0x4bc virtual false final false
   static inline void OnEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method SaveAndResetState addr 0x2acdf04 size 0x1e4 virtual false final false
+  /// @brief Method SaveAndResetState addr 0x294f1bc size 0x1e4 virtual false final false
   static inline ::UnityEngine::InputSystem::Utilities::ISavedState* SaveAndResetState();
 
-  /// @brief Method HookIntoActionChange addr 0x2aca4d0 size 0x114 virtual false final false
+  /// @brief Method HookIntoActionChange addr 0x294b788 size 0x114 virtual false final false
   static inline void HookIntoActionChange();
 
-  /// @brief Method UnhookFromActionChange addr 0x2acd1e8 size 0xd4 virtual false final false
+  /// @brief Method UnhookFromActionChange addr 0x294e4a0 size 0xd4 virtual false final false
   static inline void UnhookFromActionChange();
 
-  /// @brief Method HookIntoDeviceChange addr 0x2accfe0 size 0xec virtual false final false
+  /// @brief Method HookIntoDeviceChange addr 0x294e298 size 0xec virtual false final false
   static inline void HookIntoDeviceChange();
 
-  /// @brief Method UnhookFromDeviceChange addr 0x2acd15c size 0x8c virtual false final false
+  /// @brief Method UnhookFromDeviceChange addr 0x294e414 size 0x8c virtual false final false
   static inline void UnhookFromDeviceChange();
 
-  /// @brief Method HookIntoEvents addr 0x2aca0b0 size 0x10c virtual false final false
+  /// @brief Method HookIntoEvents addr 0x294b368 size 0x10c virtual false final false
   static inline void HookIntoEvents();
 
-  /// @brief Method UnhookFromDeviceStateChange addr 0x2aca1bc size 0xa8 virtual false final false
+  /// @brief Method UnhookFromDeviceStateChange addr 0x294b474 size 0xa8 virtual false final false
   static inline void UnhookFromDeviceStateChange();
 
-  /// @brief Method DisposeAndResetGlobalState addr 0x2ace0e8 size 0xb8 virtual false final false
+  /// @brief Method DisposeAndResetGlobalState addr 0x294f3a0 size 0xb8 virtual false final false
   static inline void DisposeAndResetGlobalState();
 
-  /// @brief Method ResetGlobals addr 0x2ace1a0 size 0x1018 virtual false final false
+  /// @brief Method ResetGlobals addr 0x294f458 size 0x18 virtual false final false
   static inline void ResetGlobals();
 
   // Ctor Parameters [CppParam { name: "m_Id", ty: "uint32_t", modifiers: "", def_value: None }]
@@ -663,18 +695,20 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Users::InputUser, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::Users::InputUser, m_Id) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::Users
 // Type: ::GlobalState
 // SizeInfo { instance_size: 360, native_size: -1, calculated_instance_size: 360, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2333)), TypeDefinitionIndex(TypeDefinitionIndex(6366)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 991
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2324)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3871 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2324), inst: 526 }), TypeDefinitionIndex(TypeDefinitionIndex(6660)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2325), inst: 647 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6361)), TypeDefinitionIndex(TypeDefinitionIndex(2325)), TypeDefinitionIndex(TypeDefinitionIndex(6536)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6660), inst: 999 }), TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(6364)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2333), inst: 2487 }), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 997 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6239))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6362)) CS Name: ::InputUser::GlobalState
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6325)), TypeDefinitionIndex(TypeDefinitionIndex(2324)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6746), inst: 985
+// }), TypeDefinitionIndex(TypeDefinitionIndex(6447)), TypeDefinitionIndex(TypeDefinitionIndex(6450)), TypeDefinitionIndex(TypeDefinitionIndex(6301)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2324), inst: 518 }), TypeDefinitionIndex(TypeDefinitionIndex(6755)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6755), inst: 3778 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6746), inst: 983 }), TypeDefinitionIndex(TypeDefinitionIndex(6746)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2325), inst: 637 }), TypeDefinitionIndex(TypeDefinitionIndex(6622)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6746), inst: 977 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2325)), TypeDefinitionIndex(TypeDefinitionIndex(6452)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2333), inst: 2427 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2333))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6448)) CS Name: ::InputUser::GlobalState
 struct CORDL_TYPE __InputUser__GlobalState {
 public:
   // Declarations
@@ -790,13 +824,53 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Users::__InputUser__GlobalState, 0x168>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, pairingStateVersion) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, lastUserId) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, allUserCount) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, allPairedDeviceCount) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, allLostDeviceCount) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, allUsers) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, allUserData) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, allPairedDevices) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, allLostDevices) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, ongoingAccountSelections) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, onChange) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, onUnpairedDeviceUsed) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, onPreFilterUnpairedDeviceUsed) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, actionChangeDelegate) == 0x148, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, onDeviceChangeDelegate) == 0x150, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, onEventDelegate) == 0x158, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, onActionChangeHooked) == 0x160, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, onDeviceChangeHooked) == 0x161, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, onEventHooked) == 0x162, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalState, listenForUnpairedDeviceActivity) == 0x164, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem::Users
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6363))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6449))
 // CS Name: ::InputUser::<>c*
 class CORDL_TYPE __InputUser____c : public ::System::Object {
 public:
@@ -826,13 +900,13 @@ public:
 
   static inline ::UnityEngine::InputSystem::Users::__InputUser____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2acf2b4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x294f56c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <SaveAndResetState>b__86_0 addr 0x2acf2bc size 0x74 virtual false final false
+  /// @brief Method <SaveAndResetState>b__86_0 addr 0x294f574 size 0x74 virtual false final false
   inline void _SaveAndResetState_b__86_0(ByRef<::UnityEngine::InputSystem::Users::__InputUser__GlobalState> state);
 
-  /// @brief Method <SaveAndResetState>b__86_1 addr 0x2acf330 size 0x8 virtual false final false
+  /// @brief Method <SaveAndResetState>b__86_1 addr 0x294f5e8 size 0x8 virtual false final false
   inline void _SaveAndResetState_b__86_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputUser____c", modifiers: "&&", def_value: None }]

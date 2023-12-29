@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::XmlOutputMethod);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11492))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11420))
 // CS Name: ::System.Xml::XmlOutputMethod
 struct CORDL_TYPE XmlOutputMethod {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlOutputMethod, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlOutputMethod, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlOutputMethod, "System.Xml", "XmlOutputMethod");

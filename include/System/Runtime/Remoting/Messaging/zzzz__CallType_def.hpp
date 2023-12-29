@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Remoting::Messaging::CallType);
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3181))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3180))
 // CS Name: ::System.Runtime.Remoting.Messaging::CallType
 struct CORDL_TYPE CallType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::CallType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::CallType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::CallType, "System.Runtime.Remoting.Messaging", "CallType");

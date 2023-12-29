@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataCallbackWrapper_1)
 namespace GlobalNamespace {
-class BeatmapDataItem;
+template <typename T> class BeatmapDataCallback_1;
 }
 namespace GlobalNamespace {
-template <typename T> class BeatmapDataCallback_1;
+class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4711))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4712))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4832))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4833))
 // CS Name: ::BeatmapDataCallbackWrapper`1<T>*
 class CORDL_TYPE BeatmapDataCallbackWrapper_1 : public ::GlobalNamespace::BeatmapDataCallbackWrapper {
 public:

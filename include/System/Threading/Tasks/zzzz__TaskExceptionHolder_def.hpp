@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TaskExceptionHolder)
-namespace System::Collections::ObjectModel {
-template <typename T> class ReadOnlyCollection_1;
-}
-namespace System {
-class Exception;
-}
 namespace System::Collections::Generic {
 template <typename T> class LowLevelListWithIList_1;
 }
 namespace System {
+class Exception;
+}
+namespace System {
 class AggregateException;
 }
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
+namespace System::Collections::ObjectModel {
+template <typename T> class ReadOnlyCollection_1;
 }
 namespace System::Threading::Tasks {
 class Task;
+}
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
 }
 namespace System {
 class Object;
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::System::Threading::Tasks::TaskExceptionHolder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2808))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2804))
 // CS Name: ::System.Threading.Tasks::TaskExceptionHolder*
 class CORDL_TYPE TaskExceptionHolder : public ::System::Object {
 public:
@@ -90,40 +90,40 @@ public:
 
   static inline ::System::Threading::Tasks::TaskExceptionHolder* New_ctor(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method .ctor addr 0x2624af0 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x24ca9e4 size 0x28 virtual false final false
   inline void _ctor(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method ShouldFailFastOnUnobservedException addr 0x262c79c size 0x8 virtual false final false
+  /// @brief Method ShouldFailFastOnUnobservedException addr 0x24d2690 size 0x8 virtual false final false
   static inline bool ShouldFailFastOnUnobservedException();
 
-  /// @brief Method Finalize addr 0x262c7a4 size 0x204 virtual true final false
+  /// @brief Method Finalize addr 0x24d2698 size 0x204 virtual true final false
   inline void Finalize();
 
-  /// @brief Method get_ContainsFaultList addr 0x2624704 size 0x1c virtual false final false
+  /// @brief Method get_ContainsFaultList addr 0x24ca5f8 size 0x1c virtual false final false
   inline bool get_ContainsFaultList();
 
-  /// @brief Method Add addr 0x2624b18 size 0xc virtual false final false
+  /// @brief Method Add addr 0x24caa0c size 0xc virtual false final false
   inline void Add(::System::Object* exceptionObject, bool representsCancellation);
 
-  /// @brief Method SetCancellationException addr 0x262cb48 size 0xbc virtual false final false
+  /// @brief Method SetCancellationException addr 0x24d2a3c size 0xbc virtual false final false
   inline void SetCancellationException(::System::Object* exceptionObject);
 
-  /// @brief Method AddFaultException addr 0x262cc04 size 0x50c virtual false final false
+  /// @brief Method AddFaultException addr 0x24d2af8 size 0x50c virtual false final false
   inline void AddFaultException(::System::Object* exceptionObject);
 
-  /// @brief Method MarkAsUnhandled addr 0x262d110 size 0x70 virtual false final false
+  /// @brief Method MarkAsUnhandled addr 0x24d3004 size 0x70 virtual false final false
   inline void MarkAsUnhandled();
 
-  /// @brief Method MarkAsHandled addr 0x26248dc size 0x7c virtual false final false
+  /// @brief Method MarkAsHandled addr 0x24ca7d0 size 0x7c virtual false final false
   inline void MarkAsHandled(bool calledFromFinalizer);
 
-  /// @brief Method CreateExceptionObject addr 0x2624b24 size 0x1b4 virtual false final false
+  /// @brief Method CreateExceptionObject addr 0x24caa18 size 0x1b4 virtual false final false
   inline ::System::AggregateException* CreateExceptionObject(bool calledFromFinalizer, ::System::Exception* includeThisException);
 
-  /// @brief Method GetExceptionDispatchInfos addr 0x2624de4 size 0x8c virtual false final false
+  /// @brief Method GetExceptionDispatchInfos addr 0x24cacd8 size 0x8c virtual false final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* GetExceptionDispatchInfos();
 
-  /// @brief Method GetCancellationExceptionDispatchInfo addr 0x262d180 size 0x8 virtual false final false
+  /// @brief Method GetCancellationExceptionDispatchInfo addr 0x24d3074 size 0x8 virtual false final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* GetCancellationExceptionDispatchInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskExceptionHolder", modifiers: "&&", def_value: None }]
@@ -156,6 +156,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::TaskExceptionHolder, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::TaskExceptionHolder, ___m_task) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::TaskExceptionHolder, ___m_faultExceptions) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::TaskExceptionHolder, ___m_cancellationException) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::TaskExceptionHolder, ___m_isHandled) == 0x28, "Offset mismatch!");
 
 } // namespace System::Threading::Tasks
 NEED_NO_BOX(::System::Threading::Tasks::TaskExceptionHolder);

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Timeline::TrackOffset);
 namespace UnityEngine::Timeline {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13838))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14109))
 // CS Name: ::UnityEngine.Timeline::TrackOffset
 struct CORDL_TYPE TrackOffset {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::TrackOffset, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Timeline::TrackOffset, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Timeline
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TrackOffset, "UnityEngine.Timeline", "TrackOffset");

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LeaderboardUploadData);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4204))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4237))
 // CS Name: ::LeaderboardUploadData*
 class CORDL_TYPE LeaderboardUploadData : public ::System::Object {
 public:
@@ -127,7 +127,7 @@ public:
                                                                    ::StringW authorName, ::StringW bpm, ::StringW difficulty, ::StringW infoHash,
                                                                    ::System::Collections::Generic::List_1<::StringW>* modifiers);
 
-  /// @brief Method .ctor addr 0x23274c8 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0x21d67d4 size 0x8c virtual false final false
   inline void _ctor(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId, ::StringW songName, ::StringW songSubName, ::StringW authorName, ::StringW bpm,
                     ::StringW difficulty, ::StringW infoHash, ::System::Collections::Generic::List_1<::StringW>* modifiers);
 
@@ -182,6 +182,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LeaderboardUploadData, 0x68>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardUploadData, ___playerName) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardUploadData, ___playerId) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardUploadData, ___score) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardUploadData, ___leaderboardId) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardUploadData, ___songName) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardUploadData, ___songSubName) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardUploadData, ___authorName) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardUploadData, ___bpm) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardUploadData, ___difficulty) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardUploadData, ___infoHash) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LeaderboardUploadData, ___modifiers) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LeaderboardUploadData);

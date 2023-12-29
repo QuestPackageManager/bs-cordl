@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKConstraintBend)
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Vector3;
+namespace RootMotion::FinalIK {
+class IKSolverFullBody;
 }
 namespace RootMotion {
 class __Warning__Logger;
 }
-namespace RootMotion::FinalIK {
-class IKSolverFullBody;
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKConstraintBend);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 134, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12551))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12479))
 // CS Name: ::RootMotion.FinalIK::IKConstraintBend*
 class CORDL_TYPE IKConstraintBend : public ::System::Object {
 public:
@@ -200,44 +200,44 @@ public:
 
   constexpr void __set_limbOrientationsSet(bool value);
 
-  /// @brief Method IsValid addr 0x1257abc size 0x1d8 virtual false final false
+  /// @brief Method IsValid addr 0x11e7790 size 0x1d8 virtual false final false
   inline bool IsValid(::RootMotion::FinalIK::IKSolverFullBody* solver, ::RootMotion::__Warning__Logger* logger);
 
-  /// @brief Method get_initiated addr 0x1257c94 size 0x8 virtual false final false
+  /// @brief Method get_initiated addr 0x11e7968 size 0x8 virtual false final false
   inline bool get_initiated();
 
-  /// @brief Method set_initiated addr 0x1257c9c size 0xc virtual false final false
+  /// @brief Method set_initiated addr 0x11e7970 size 0xc virtual false final false
   inline void set_initiated(bool value);
 
   static inline ::RootMotion::FinalIK::IKConstraintBend* New_ctor();
 
-  /// @brief Method .ctor addr 0x1254c1c size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x11e48f0 size 0x6c virtual false final false
   inline void _ctor();
 
   static inline ::RootMotion::FinalIK::IKConstraintBend* New_ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3);
 
-  /// @brief Method .ctor addr 0x1257ca8 size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0x11e797c size 0x8c virtual false final false
   inline void _ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3);
 
-  /// @brief Method SetBones addr 0x12557b8 size 0xc virtual false final false
+  /// @brief Method SetBones addr 0x11e548c size 0xc virtual false final false
   inline void SetBones(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3);
 
-  /// @brief Method Initiate addr 0x12557c4 size 0x268 virtual false final false
+  /// @brief Method Initiate addr 0x11e5498 size 0x268 virtual false final false
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method SetLimbOrientation addr 0x1257e7c size 0x354 virtual false final false
+  /// @brief Method SetLimbOrientation addr 0x11e7b50 size 0x354 virtual false final false
   inline void SetLimbOrientation(::UnityEngine::Vector3 upper, ::UnityEngine::Vector3 lower, ::UnityEngine::Vector3 last);
 
-  /// @brief Method LimitBend addr 0x12581d0 size 0x13c8 virtual false final false
+  /// @brief Method LimitBend addr 0x11e7ea4 size 0x13c8 virtual false final false
   inline void LimitBend(float_t solverWeight, float_t positionWeight);
 
-  /// @brief Method GetDir addr 0x1256790 size 0x630 virtual false final false
+  /// @brief Method GetDir addr 0x11e6464 size 0x630 virtual false final false
   inline ::UnityEngine::Vector3 GetDir(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method OrthoToLimb addr 0x1257d34 size 0xa4 virtual false final false
+  /// @brief Method OrthoToLimb addr 0x11e7a08 size 0xa4 virtual false final false
   inline ::UnityEngine::Vector3 OrthoToLimb(::RootMotion::FinalIK::IKSolverFullBody* solver, ::UnityEngine::Vector3 tangent);
 
-  /// @brief Method OrthoToBone1 addr 0x1257dd8 size 0xa4 virtual false final false
+  /// @brief Method OrthoToBone1 addr 0x11e7aac size 0xa4 virtual false final false
   inline ::UnityEngine::Vector3 OrthoToBone1(::RootMotion::FinalIK::IKSolverFullBody* solver, ::UnityEngine::Vector3 tangent);
 
   // Ctor Parameters [CppParam { name: "", ty: "IKConstraintBend", modifiers: "&&", def_value: None }]
@@ -312,6 +312,42 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::IKConstraintBend, 0x88>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ___bone1) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ___bone2) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ___bone3) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ___bendGoal) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ___direction) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ___rotationOffset) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ___weight) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ___defaultLocalDirection) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ___defaultChildDirection) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ___clampF) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ___chainIndex1) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ___nodeIndex1) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ___chainIndex2) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ___nodeIndex2) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ___chainIndex3) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ___nodeIndex3) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ____initiated_k__BackingField) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::IKConstraintBend, ___limbOrientationsSet) == 0x85, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::IKConstraintBend);

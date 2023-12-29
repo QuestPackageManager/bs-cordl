@@ -9,7 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FlyingScoreEffect)
 namespace GlobalNamespace {
-class __FlyingScoreEffect__Pool;
+class ICutScoreBufferDidChangeReceiver;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -21,19 +24,16 @@ namespace TMPro {
 class TextMeshPro;
 }
 namespace GlobalNamespace {
-class ICutScoreBufferDidChangeReceiver;
-}
-namespace GlobalNamespace {
-class ICutScoreBufferDidFinishReceiver;
-}
-namespace UnityEngine {
-class AnimationCurve;
+class IReadonlyCutScoreBuffer;
 }
 namespace GlobalNamespace {
 class CutScoreBuffer;
 }
 namespace GlobalNamespace {
-class IReadonlyCutScoreBuffer;
+class ICutScoreBufferDidFinishReceiver;
+}
+namespace GlobalNamespace {
+class __FlyingScoreEffect__Pool;
 }
 namespace UnityEngine {
 class SpriteRenderer;
@@ -52,8 +52,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__FlyingScoreEffect__Pool);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(4852))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4854))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4972)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4974))
 // CS Name: ::FlyingScoreEffect*
 class CORDL_TYPE FlyingScoreEffect : public ::GlobalNamespace::FlyingObjectEffect {
 public:
@@ -129,27 +129,27 @@ public:
 
   constexpr void __set__cutScoreBuffer(::GlobalNamespace::IReadonlyCutScoreBuffer* value);
 
-  /// @brief Method InitAndPresent addr 0x2398790 size 0x4e4 virtual false final false
+  /// @brief Method InitAndPresent addr 0x2263d8c size 0x4e4 virtual false final false
   inline void InitAndPresent(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Color color);
 
-  /// @brief Method ManualUpdate addr 0x2398cfc size 0x88 virtual true final false
+  /// @brief Method ManualUpdate addr 0x22642f8 size 0x88 virtual true final false
   inline void ManualUpdate(float_t t);
 
-  /// @brief Method HandleCutScoreBufferDidChange addr 0x2398d84 size 0x4c virtual true final true
+  /// @brief Method HandleCutScoreBufferDidChange addr 0x2264380 size 0x4c virtual true final true
   inline void HandleCutScoreBufferDidChange(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
 
-  /// @brief Method RefreshScore addr 0x2398c74 size 0x88 virtual false final false
+  /// @brief Method RefreshScore addr 0x2264270 size 0x88 virtual false final false
   inline void RefreshScore(int32_t score, int32_t maxPossibleCutScore);
 
-  /// @brief Method HandleCutScoreBufferDidFinish addr 0x2398dd0 size 0x4 virtual true final true
+  /// @brief Method HandleCutScoreBufferDidFinish addr 0x22643cc size 0x4 virtual true final true
   inline void HandleCutScoreBufferDidFinish(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
 
-  /// @brief Method UnregisterCallbacksIfNeeded addr 0x2398dd4 size 0x128 virtual false final false
+  /// @brief Method UnregisterCallbacksIfNeeded addr 0x22643d0 size 0x128 virtual false final false
   inline void UnregisterCallbacksIfNeeded();
 
   static inline ::GlobalNamespace::FlyingScoreEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x2398efc size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x22644f8 size 0x30 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreEffect", modifiers: "&&", def_value: None }]
@@ -192,22 +192,36 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingScoreEffect, 0xb8>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::FlyingScoreEffect, ____fadeAnimationCurve) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingScoreEffect, ____maxCutDistanceScoreIndicator) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingScoreEffect, ____text) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingScoreEffect, ____color) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingScoreEffect, ____colorAMultiplier) == 0xa8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingScoreEffect, ____registeredToCallbacks) == 0xac, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingScoreEffect, ____cutScoreBuffer) == 0xb0, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::Pool
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4854)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2811 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4853)) CS Name: ::FlyingScoreEffect::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4974)), TypeDefinitionIndex(TypeDefinitionIndex(10978)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst:
+// 2751 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4973)) CS Name: ::FlyingScoreEffect::Pool*
 class CORDL_TYPE __FlyingScoreEffect__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FlyingScoreEffect*> {
 public:
   // Declarations
-  /// @brief Method OnDespawned addr 0x2398f2c size 0x60 virtual true final false
+  /// @brief Method OnDespawned addr 0x2264528 size 0x60 virtual true final false
   inline void OnDespawned(::GlobalNamespace::FlyingScoreEffect* item);
 
   static inline ::GlobalNamespace::__FlyingScoreEffect__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x2398f8c size 0x48 virtual false final false
+  /// @brief Method .ctor addr 0x2264588 size 0x48 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FlyingScoreEffect__Pool", modifiers: "&&", def_value: None }]

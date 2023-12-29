@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IContractResolver)
-namespace Newtonsoft::Json::Serialization {
-class JsonContract;
-}
 namespace System {
 class Type;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonContract;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::IContractResolver);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11933))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11861))
 // CS Name: ::Newtonsoft.Json.Serialization::IContractResolver*
 class CORDL_TYPE IContractResolver {
 public:

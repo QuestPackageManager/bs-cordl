@@ -12,14 +12,14 @@ class __MultiplayerScoreProvider__RankedPlayer;
 namespace GlobalNamespace {
 class MultiplayerScoreProvider;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace TMPro {
 class TextMeshPro;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPositionDisplay);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5240))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5334))
 // CS Name: ::MultiplayerPositionDisplay*
 class CORDL_TYPE MultiplayerPositionDisplay : public ::UnityEngine::MonoBehaviour {
 public:
@@ -181,33 +181,33 @@ public:
 
   constexpr void __set__colorAnimationStartDuration(float_t value);
 
-  /// @brief Method Start addr 0x2257760 size 0x110 virtual false final false
+  /// @brief Method Start addr 0x21143fc size 0x10c virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x2257890 size 0xe0 virtual false final false
+  /// @brief Method OnDestroy addr 0x2114508 size 0xe4 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method Update addr 0x22579ec size 0x4c virtual false final false
+  /// @brief Method Update addr 0x2114668 size 0x44 virtual false final false
   inline void Update();
 
-  /// @brief Method UpdateColors addr 0x2257a38 size 0x94 virtual false final false
+  /// @brief Method UpdateColors addr 0x21146ac size 0x94 virtual false final false
   inline void UpdateColors();
 
-  /// @brief Method UpdatePosition addr 0x2257acc size 0x170 virtual false final false
+  /// @brief Method UpdatePosition addr 0x2114740 size 0x174 virtual false final false
   inline void UpdatePosition();
 
-  /// @brief Method HandlePlayerFailed addr 0x2257c3c size 0x18 virtual false final false
+  /// @brief Method HandlePlayerFailed addr 0x21148b4 size 0x18 virtual false final false
   inline void HandlePlayerFailed();
 
-  /// @brief Method HandleFirstPlayerDidChange addr 0x2257d38 size 0xac virtual false final false
+  /// @brief Method HandleFirstPlayerDidChange addr 0x21148cc size 0xb0 virtual false final false
   inline void HandleFirstPlayerDidChange(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* obj);
 
-  /// @brief Method ChangeColor addr 0x2257970 size 0x7c virtual false final false
+  /// @brief Method ChangeColor addr 0x21145ec size 0x7c virtual false final false
   inline void ChangeColor(::UnityEngine::Color toColor, float_t duration);
 
   static inline ::GlobalNamespace::MultiplayerPositionDisplay* New_ctor();
 
-  /// @brief Method .ctor addr 0x2257de4 size 0x24 virtual false final false
+  /// @brief Method .ctor addr 0x211497c size 0x24 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPositionDisplay", modifiers: "&&", def_value: None }]
@@ -276,6 +276,38 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerPositionDisplay, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____text) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____normalColor) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____leadingColor) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____failedColor) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____fadeInDuration) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____crossFadeDuration) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____fadeOutDuration) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____scoreProvider) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____connectedPlayer) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____wasFirst) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____isFailed) == 0x71, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____updatingColor) == 0x72, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____startColor) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____targetColor) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____colorAnimationStartTime) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerPositionDisplay, ____colorAnimationStartDuration) == 0x98, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerPositionDisplay);

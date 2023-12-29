@@ -9,26 +9,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FtpWebResponse)
-namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System::Net {
-struct FtpStatusCode;
-}
-namespace System::Net {
-class __FtpWebResponse__EmptyStream;
-}
-namespace System {
-struct DateTime;
-}
 namespace System::IO {
 class Stream;
 }
 namespace System {
-class Uri;
+struct DateTime;
+}
+namespace System::Net {
+class WebHeaderCollection;
+}
+namespace System::Net {
+class __FtpWebResponse__EmptyStream;
+}
+namespace System::Net {
+struct FtpStatusCode;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {
@@ -44,15 +44,15 @@ MARK_REF_PTR_T(::System::Net::__FtpWebResponse__EmptyStream);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9052))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3561))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7889))
 // CS Name: ::FtpWebResponse::EmptyStream*
 class CORDL_TYPE __FtpWebResponse__EmptyStream : public ::System::IO::MemoryStream {
 public:
   // Declarations
   static inline ::System::Net::__FtpWebResponse__EmptyStream* New_ctor();
 
-  /// @brief Method .ctor addr 0x299acec size 0x8c virtual false final false
+  /// @brief Method .ctor addr 0x281d478 size 0x8c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FtpWebResponse__EmptyStream", modifiers: "&&", def_value: None }]
@@ -79,8 +79,8 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__FtpWebResponse__E
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9062)), TypeDefinitionIndex(TypeDefinitionIndex(9097)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9053))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7899)), TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(7934))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7890))
 // CS Name: ::System.Net::FtpWebResponse*
 class CORDL_TYPE FtpWebResponse : public ::System::Net::WebResponse {
 public:
@@ -189,29 +189,29 @@ public:
   static inline ::System::Net::FtpWebResponse* New_ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri, ::System::Net::FtpStatusCode statusCode,
                                                         ::StringW statusLine, ::System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage);
 
-  /// @brief Method .ctor addr 0x299a58c size 0x11c virtual false final false
+  /// @brief Method .ctor addr 0x281cd18 size 0x11c virtual false final false
   inline void _ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri, ::System::Net::FtpStatusCode statusCode, ::StringW statusLine,
                     ::System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage);
 
-  /// @brief Method UpdateStatus addr 0x29990f0 size 0x10 virtual false final false
+  /// @brief Method UpdateStatus addr 0x281b87c size 0x10 virtual false final false
   inline void UpdateStatus(::System::Net::FtpStatusCode statusCode, ::StringW statusLine, ::StringW exitMessage);
 
-  /// @brief Method GetResponseStream addr 0x299ac84 size 0x68 virtual true final false
+  /// @brief Method GetResponseStream addr 0x281d410 size 0x68 virtual true final false
   inline ::System::IO::Stream* GetResponseStream();
 
-  /// @brief Method SetResponseStream addr 0x299a4f8 size 0x94 virtual false final false
+  /// @brief Method SetResponseStream addr 0x281cc84 size 0x94 virtual false final false
   inline void SetResponseStream(::System::IO::Stream* stream);
 
-  /// @brief Method Close addr 0x299ad78 size 0xe4 virtual true final false
+  /// @brief Method Close addr 0x281d504 size 0xe4 virtual true final false
   inline void Close();
 
-  /// @brief Method get_Headers addr 0x299ae5c size 0x120 virtual true final false
+  /// @brief Method get_Headers addr 0x281d5e8 size 0x120 virtual true final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_ResponseUri addr 0x299af7c size 0x8 virtual true final false
+  /// @brief Method get_ResponseUri addr 0x281d708 size 0x8 virtual true final false
   inline ::System::Uri* get_ResponseUri();
 
-  /// @brief Method get_StatusCode addr 0x299af84 size 0x8 virtual false final false
+  /// @brief Method get_StatusCode addr 0x281d710 size 0x8 virtual false final false
   inline ::System::Net::FtpStatusCode get_StatusCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "FtpWebResponse", modifiers: "&&", def_value: None }]
@@ -262,6 +262,26 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::FtpWebResponse, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::FtpWebResponse, ____responseStream) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpWebResponse, ____contentLength) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpWebResponse, ____responseUri) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpWebResponse, ____statusCode) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpWebResponse, ____statusLine) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpWebResponse, ____ftpRequestHeaders) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpWebResponse, ____lastModified) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpWebResponse, ____bannerMessage) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpWebResponse, ____welcomeMessage) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::FtpWebResponse, ____exitMessage) == 0x68, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::FtpWebResponse);

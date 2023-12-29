@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ElGamalKeyParameters_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ElGamalPublicKeyParameters)
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ElGamalParameters;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ElGamalParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -44,19 +44,19 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* y,
                                                                                               ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
-  /// @brief Method .ctor addr 0xf35bc8 size 0x84 virtual false final false
+  /// @brief Method .ctor addr 0xec09dc size 0x84 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
-  /// @brief Method get_Y addr 0xf35c4c size 0x8 virtual false final false
+  /// @brief Method get_Y addr 0xec0a60 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Y();
 
-  /// @brief Method Equals addr 0xf35c54 size 0x9c virtual true final false
+  /// @brief Method Equals addr 0xec0a68 size 0x9c virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xf35cf0 size 0x58 virtual false final false
+  /// @brief Method Equals addr 0xec0b04 size 0x58 virtual false final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters* other);
 
-  /// @brief Method GetHashCode addr 0xf35d48 size 0x40 virtual true final false
+  /// @brief Method GetHashCode addr 0xec0b5c size 0x40 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalPublicKeyParameters", modifiers: "&&", def_value: None }]
@@ -80,6 +80,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters, ___y) == 0x20, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters);

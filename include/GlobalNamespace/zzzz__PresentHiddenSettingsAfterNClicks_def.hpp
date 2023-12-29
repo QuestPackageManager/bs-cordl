@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PresentHiddenSettingsAfterNClicks)
-namespace UnityEngine::UI {
-class Button;
-}
 namespace GlobalNamespace {
 class SettingsFlowCoordinator;
 }
 namespace HMUI {
 class ViewController;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 namespace HMUI {
 class ButtonBinder;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PresentHiddenSettingsAfterNClicks);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5609))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5704))
 // CS Name: ::PresentHiddenSettingsAfterNClicks*
 class CORDL_TYPE PresentHiddenSettingsAfterNClicks : public ::UnityEngine::MonoBehaviour {
 public:
@@ -87,18 +87,18 @@ public:
 
   constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  /// @brief Method OnEnable addr 0x22abe84 size 0x9c virtual false final false
+  /// @brief Method OnEnable addr 0x2166e78 size 0x9c virtual false final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x22abf20 size 0x1c virtual false final false
+  /// @brief Method OnDisable addr 0x2166f14 size 0x1c virtual false final false
   inline void OnDisable();
 
   static inline ::GlobalNamespace::PresentHiddenSettingsAfterNClicks* New_ctor();
 
-  /// @brief Method .ctor addr 0x22abf3c size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x2166f30 size 0x70 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <OnEnable>b__6_0 addr 0x22abfac size 0x48 virtual false final false
+  /// @brief Method <OnEnable>b__6_0 addr 0x2166fa0 size 0x44 virtual false final false
   inline void _OnEnable_b__6_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "PresentHiddenSettingsAfterNClicks", modifiers: "&&", def_value: None }]
@@ -137,6 +137,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PresentHiddenSettingsAfterNClicks, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PresentHiddenSettingsAfterNClicks, ____hiddenSettingsButton) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PresentHiddenSettingsAfterNClicks, ____hiddenSettingsViewController) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PresentHiddenSettingsAfterNClicks, ____numberOfClicksRequired) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PresentHiddenSettingsAfterNClicks, ____settingsFlowCoordinator) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PresentHiddenSettingsAfterNClicks, ____currentNumberOfClicks) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PresentHiddenSettingsAfterNClicks, ____buttonBinder) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PresentHiddenSettingsAfterNClicks);

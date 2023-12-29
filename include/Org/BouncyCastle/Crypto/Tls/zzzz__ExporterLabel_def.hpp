@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ExporterLabel);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1242))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::ExporterLabel*
 class CORDL_TYPE ExporterLabel : public ::System::Object {
@@ -30,7 +30,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ExporterLabel* New_ctor();
 
-  /// @brief Method .ctor addr 0xf913f8 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xf1b1d4 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExporterLabel", modifiers: "&&", def_value: None }]

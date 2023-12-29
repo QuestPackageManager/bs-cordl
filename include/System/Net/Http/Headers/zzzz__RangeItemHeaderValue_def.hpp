@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::RangeItemHeaderValue);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 333 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14705)) CS Name: ::System.Net.Http.Headers::RangeItemHeaderValue*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2446)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 844
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14922)) CS Name: ::System.Net.Http.Headers::RangeItemHeaderValue*
 class CORDL_TYPE RangeItemHeaderValue : public ::System::Object {
 public:
   // Declarations
@@ -58,31 +58,31 @@ public:
 
   static inline ::System::Net::Http::Headers::RangeItemHeaderValue* New_ctor(::System::Nullable_1<int64_t> from, ::System::Nullable_1<int64_t> to);
 
-  /// @brief Method .ctor addr 0x2840a80 size 0x15c virtual false final false
+  /// @brief Method .ctor addr 0x26c5a6c size 0x15c virtual false final false
   inline void _ctor(::System::Nullable_1<int64_t> from, ::System::Nullable_1<int64_t> to);
 
-  /// @brief Method get_From addr 0x2840d7c size 0xc virtual false final false
+  /// @brief Method get_From addr 0x26c5d68 size 0xc virtual false final false
   inline ::System::Nullable_1<int64_t> get_From();
 
-  /// @brief Method set_From addr 0x2840d88 size 0x8 virtual false final false
+  /// @brief Method set_From addr 0x26c5d74 size 0x8 virtual false final false
   inline void set_From(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method get_To addr 0x2840d90 size 0xc virtual false final false
+  /// @brief Method get_To addr 0x26c5d7c size 0xc virtual false final false
   inline ::System::Nullable_1<int64_t> get_To();
 
-  /// @brief Method set_To addr 0x2840d9c size 0x8 virtual false final false
+  /// @brief Method set_To addr 0x26c5d88 size 0x8 virtual false final false
   inline void set_To(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method System.ICloneable.Clone addr 0x2840da4 size 0x8 virtual true final true
+  /// @brief Method System.ICloneable.Clone addr 0x26c5d90 size 0x8 virtual true final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals addr 0x2840dac size 0x104 virtual true final false
+  /// @brief Method Equals addr 0x26c5d98 size 0x104 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2840eb0 size 0x78 virtual true final false
+  /// @brief Method GetHashCode addr 0x26c5e9c size 0x78 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x2840f28 size 0x130 virtual true final false
+  /// @brief Method ToString addr 0x26c5f14 size 0x130 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "RangeItemHeaderValue", modifiers: "&&", def_value: None }]
@@ -109,6 +109,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::RangeItemHeaderValue, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::RangeItemHeaderValue, ____From_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::RangeItemHeaderValue, ____To_k__BackingField) == 0x20, "Offset mismatch!");
 
 } // namespace System::Net::Http::Headers
 NEED_NO_BOX(::System::Net::Http::Headers::RangeItemHeaderValue);

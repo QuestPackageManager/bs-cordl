@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(Gost3410KeyPairGenerator)
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricCipherKeyPairGenerator;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Gost3410KeyGenerationParameters;
-}
 namespace Org::BouncyCastle::Crypto {
 class KeyGenerationParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Gost3410KeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::Gost3410KeyPairGenerator
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(904))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::Gost3410KeyPairGenerator*
 class CORDL_TYPE Gost3410KeyPairGenerator : public ::System::Object {
@@ -44,15 +44,15 @@ public:
 
   constexpr void __set_param(::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationParameters* value);
 
-  /// @brief Method Init addr 0xefa688 size 0x120 virtual true final true
+  /// @brief Method Init addr 0xe854b4 size 0x120 virtual true final true
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKeyPair addr 0xefa7a8 size 0x224 virtual true final true
+  /// @brief Method GenerateKeyPair addr 0xe855d4 size 0x224 virtual true final true
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Gost3410KeyPairGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0xefa9cc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xe857f8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Gost3410KeyPairGenerator", modifiers: "&&", def_value: None }]
@@ -76,6 +76,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::Gost3410KeyPairGenerator, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::Gost3410KeyPairGenerator, ___param) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::Gost3410KeyPairGenerator);

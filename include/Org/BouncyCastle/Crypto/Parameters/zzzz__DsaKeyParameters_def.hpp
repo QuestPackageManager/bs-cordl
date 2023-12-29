@@ -40,19 +40,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);
 
-  /// @brief Method .ctor addr 0xf31908 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0xebc71c size 0x30 virtual false final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);
 
-  /// @brief Method get_Parameters addr 0xf31938 size 0x8 virtual false final false
+  /// @brief Method get_Parameters addr 0xebc74c size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* get_Parameters();
 
-  /// @brief Method Equals addr 0xf31940 size 0x9c virtual true final false
+  /// @brief Method Equals addr 0xebc754 size 0x9c virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xf319dc size 0x50 virtual false final false
+  /// @brief Method Equals addr 0xebc7f0 size 0x50 virtual false final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* other);
 
-  /// @brief Method GetHashCode addr 0xf31a2c size 0x50 virtual true final false
+  /// @brief Method GetHashCode addr 0xebc840 size 0x50 virtual true final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DsaKeyParameters", modifiers: "&&", def_value: None }]
@@ -76,6 +76,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters, ___parameters) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters);

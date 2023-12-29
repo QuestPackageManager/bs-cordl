@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeSliceExtensions)
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T> struct NativeSlice_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Unity::Collections::NativeSliceExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9992))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9920))
 // CS Name: ::Unity.Collections::NativeSliceExtensions*
 class CORDL_TYPE NativeSliceExtensions : public ::System::Object {
 public:

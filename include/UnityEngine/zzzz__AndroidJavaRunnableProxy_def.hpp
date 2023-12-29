@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::AndroidJavaRunnableProxy);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14912))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14911))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15057))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15056))
 // CS Name: ::UnityEngine::AndroidJavaRunnableProxy*
 class CORDL_TYPE AndroidJavaRunnableProxy : public ::UnityEngine::AndroidJavaProxy {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::AndroidJavaRunnableProxy* New_ctor(::UnityEngine::AndroidJavaRunnable* runnable);
 
-  /// @brief Method .ctor addr 0x2c840b0 size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0x2b1f188 size 0x80 virtual false final false
   inline void _ctor(::UnityEngine::AndroidJavaRunnable* runnable);
 
-  /// @brief Method run addr 0x2c841ac size 0x24 virtual false final false
+  /// @brief Method run addr 0x2b1f284 size 0x24 virtual false final false
   inline void run();
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaRunnableProxy", modifiers: "&&", def_value: None }]
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AndroidJavaRunnableProxy, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AndroidJavaRunnableProxy, ___mRunnable) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::AndroidJavaRunnableProxy);

@@ -16,7 +16,7 @@ MARK_VAL_T(::OVRSimpleJSON::JSONContainerType);
 namespace OVRSimpleJSON {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8216))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8985))
 // CS Name: ::OVRSimpleJSON::JSONContainerType
 struct CORDL_TYPE JSONContainerType {
 public:
@@ -57,6 +57,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVRSimpleJSON::JSONContainerType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::OVRSimpleJSON::JSONContainerType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace OVRSimpleJSON
 DEFINE_IL2CPP_ARG_TYPE(::OVRSimpleJSON::JSONContainerType, "OVRSimpleJSON", "JSONContainerType");

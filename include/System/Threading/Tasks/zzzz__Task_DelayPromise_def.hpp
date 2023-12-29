@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__Task__DelayPromise);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2794)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2773)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 900 }), TypeDefinitionIndex(TypeDefinitionIndex(2683))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2783)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2769)), TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(2681)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2790)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2769), inst: 880 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(2779)) CS
 // Name: ::Task::DelayPromise*
 class CORDL_TYPE __Task__DelayPromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult> {
 public:
@@ -58,10 +58,10 @@ public:
 
   static inline ::System::Threading::Tasks::__Task__DelayPromise* New_ctor(::System::Threading::CancellationToken token);
 
-  /// @brief Method .ctor addr 0x2629114 size 0x114 virtual false final false
+  /// @brief Method .ctor addr 0x24cf008 size 0x114 virtual false final false
   inline void _ctor(::System::Threading::CancellationToken token);
 
-  /// @brief Method Complete addr 0x262acb0 size 0x138 virtual false final false
+  /// @brief Method Complete addr 0x24d0ba4 size 0x138 virtual false final false
   inline void Complete();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Task__DelayPromise", modifiers: "&&", def_value: None }]
@@ -91,6 +91,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__Task__DelayPromise, 0x80>, "Size mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::__Task__DelayPromise, ___Token) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::__Task__DelayPromise, ___Registration) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::__Task__DelayPromise, ___Timer) == 0x78, "Offset mismatch!");
 
 } // namespace System::Threading::Tasks
 NEED_NO_BOX(::System::Threading::Tasks::__Task__DelayPromise);

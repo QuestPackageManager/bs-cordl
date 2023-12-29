@@ -5,12 +5,6 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DataGroupHash)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
 namespace System {
 class Object;
 }
@@ -18,7 +12,13 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Icao {
@@ -58,26 +58,26 @@ public:
 
   constexpr void __set_dataGroupHashValue(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method GetInstance addr 0xf74820 size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0xefe5fc size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Icao::DataGroupHash* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::DataGroupHash* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf748c4 size 0xe8 virtual false final false
+  /// @brief Method .ctor addr 0xefe6a0 size 0xe8 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::DataGroupHash* New_ctor(int32_t dataGroupNumber, ::Org::BouncyCastle::Asn1::Asn1OctetString* dataGroupHashValue);
 
-  /// @brief Method .ctor addr 0xf749ac size 0x80 virtual false final false
+  /// @brief Method .ctor addr 0xefe788 size 0x80 virtual false final false
   inline void _ctor(int32_t dataGroupNumber, ::Org::BouncyCastle::Asn1::Asn1OctetString* dataGroupHashValue);
 
-  /// @brief Method get_DataGroupNumber addr 0xf74a2c size 0x1c virtual false final false
+  /// @brief Method get_DataGroupNumber addr 0xefe808 size 0x1c virtual false final false
   inline int32_t get_DataGroupNumber();
 
-  /// @brief Method get_DataGroupHashValue addr 0xf74a48 size 0x8 virtual false final false
+  /// @brief Method get_DataGroupHashValue addr 0xefe824 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_DataGroupHashValue();
 
-  /// @brief Method ToAsn1Object addr 0xf74a50 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xefe82c size 0xf0 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "DataGroupHash", modifiers: "&&", def_value: None }]
@@ -104,6 +104,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Icao::DataGroupHash, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Icao::DataGroupHash, ___dataGroupNumber) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Icao::DataGroupHash, ___dataGroupHashValue) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Icao
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Icao::DataGroupHash);

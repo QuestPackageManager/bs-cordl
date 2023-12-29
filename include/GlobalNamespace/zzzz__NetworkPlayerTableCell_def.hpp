@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NetworkPlayerTableCell);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 193, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5588))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(13781))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5680))
 // CS Name: ::NetworkPlayerTableCell*
 class CORDL_TYPE NetworkPlayerTableCell : public ::HMUI::TableCell {
 public:
@@ -140,30 +140,30 @@ public:
 
   constexpr void __set__isMe(bool value);
 
-  /// @brief Method get_showSeparator addr 0x22a9ab0 size 0x1c virtual false final false
+  /// @brief Method get_showSeparator addr 0x2164660 size 0x1c virtual false final false
   inline bool get_showSeparator();
 
-  /// @brief Method set_showSeparator addr 0x22a8ea8 size 0x2c virtual false final false
+  /// @brief Method set_showSeparator addr 0x2163a58 size 0x2c virtual false final false
   inline void set_showSeparator(bool value);
 
-  /// @brief Method SetData addr 0x22a8e0c size 0x9c virtual false final false
+  /// @brief Method SetData addr 0x21639bc size 0x9c virtual false final false
   inline void SetData(::StringW userName, bool isOpenParty, bool wantsToPlayNextLevel, bool isMyPartyOwner, bool isMe);
 
-  /// @brief Method SelectionDidChange addr 0x22a9ce0 size 0x4 virtual true final false
+  /// @brief Method SelectionDidChange addr 0x2164890 size 0x4 virtual true final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method HighlightDidChange addr 0x22a9ce4 size 0x4 virtual true final false
+  /// @brief Method HighlightDidChange addr 0x2164894 size 0x4 virtual true final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method RefreshVisuals addr 0x22a9acc size 0x214 virtual false final false
+  /// @brief Method RefreshVisuals addr 0x216467c size 0x214 virtual false final false
   inline void RefreshVisuals();
 
-  /// @brief Method get_activeColor addr 0x22a9ce8 size 0x5c virtual false final false
+  /// @brief Method get_activeColor addr 0x2164898 size 0x5c virtual false final false
   inline ::UnityEngine::Color get_activeColor();
 
   static inline ::GlobalNamespace::NetworkPlayerTableCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x22a9d44 size 0x1c virtual false final false
+  /// @brief Method .ctor addr 0x21648f4 size 0x1c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerTableCell", modifiers: "&&", def_value: None }]
@@ -217,6 +217,28 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkPlayerTableCell, 0xc8>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____playerNameText) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____separator) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____privateIcon) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____spectateIcon) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____partyLeaderIcon) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____bgImage) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____highlightImage) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____textColorNormal) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____textColorMe) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____textColorSelected) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____isMe) == 0xc0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NetworkPlayerTableCell);

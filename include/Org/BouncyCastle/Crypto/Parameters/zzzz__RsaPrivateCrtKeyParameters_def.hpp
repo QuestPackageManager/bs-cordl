@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(RsaPrivateCrtKeyParameters)
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class RsaPrivateKeyStructure;
-}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class RsaPrivateKeyStructure;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -102,41 +102,41 @@ public:
                                                                                               ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* dP,
                                                                                               ::Org::BouncyCastle::Math::BigInteger* dQ, ::Org::BouncyCastle::Math::BigInteger* qInv);
 
-  /// @brief Method .ctor addr 0xf39c20 size 0x22c virtual false final false
+  /// @brief Method .ctor addr 0xec3a34 size 0x22c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* publicExponent, ::Org::BouncyCastle::Math::BigInteger* privateExponent,
                     ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* dP, ::Org::BouncyCastle::Math::BigInteger* dQ,
                     ::Org::BouncyCastle::Math::BigInteger* qInv);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* rsaPrivateKey);
 
-  /// @brief Method .ctor addr 0xf39f1c size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0xec3d30 size 0x38 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* rsaPrivateKey);
 
-  /// @brief Method get_PublicExponent addr 0xf39f54 size 0x8 virtual false final false
+  /// @brief Method get_PublicExponent addr 0xec3d68 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
 
-  /// @brief Method get_P addr 0xf39f5c size 0x8 virtual false final false
+  /// @brief Method get_P addr 0xec3d70 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q addr 0xf39f64 size 0x8 virtual false final false
+  /// @brief Method get_Q addr 0xec3d78 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_DP addr 0xf39f6c size 0x8 virtual false final false
+  /// @brief Method get_DP addr 0xec3d80 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_DP();
 
-  /// @brief Method get_DQ addr 0xf39f74 size 0x8 virtual false final false
+  /// @brief Method get_DQ addr 0xec3d88 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_DQ();
 
-  /// @brief Method get_QInv addr 0xf39f7c size 0x8 virtual false final false
+  /// @brief Method get_QInv addr 0xec3d90 size 0x8 virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_QInv();
 
-  /// @brief Method Equals addr 0xf39f84 size 0x178 virtual true final false
+  /// @brief Method Equals addr 0xec3d98 size 0x178 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0xf3a0fc size 0x120 virtual true final false
+  /// @brief Method GetHashCode addr 0xec3f10 size 0x120 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ValidateValue addr 0xf39e4c size 0xd0 virtual false final false
+  /// @brief Method ValidateValue addr 0xec3c60 size 0xd0 virtual false final false
   static inline void ValidateValue(::Org::BouncyCastle::Math::BigInteger* x, ::StringW name, ::StringW desc);
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaPrivateCrtKeyParameters", modifiers: "&&", def_value: None }]
@@ -175,6 +175,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters, ___e) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters, ___p) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters, ___q) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters, ___dP) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters, ___dQ) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters, ___qInv) == 0x50, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters);

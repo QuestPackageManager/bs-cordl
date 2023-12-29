@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueFixup)
 namespace System {
-class Object;
+class Array;
 }
 namespace System::Reflection {
 class MemberInfo;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class ReadObjectInfo;
+class ParseRecord;
 }
 namespace System {
-class Array;
+class Object;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class ParseRecord;
+class ReadObjectInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ValueFixup)
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3254))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3296))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3253))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3295))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ValueFixup*
 class CORDL_TYPE ValueFixup : public ::System::Object {
 public:
@@ -111,16 +111,16 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ValueFixup* New_ctor(::System::Array* arrayObj, ::ArrayW<int32_t, ::Array<int32_t>*> indexMap);
 
-  /// @brief Method .ctor addr 0x24ce520 size 0x34 virtual false final false
+  /// @brief Method .ctor addr 0x2375a1c size 0x34 virtual false final false
   inline void _ctor(::System::Array* arrayObj, ::ArrayW<int32_t, ::Array<int32_t>*> indexMap);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ValueFixup* New_ctor(::System::Object* memberObject, ::StringW memberName,
                                                                                            ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo);
 
-  /// @brief Method .ctor addr 0x24ce978 size 0x44 virtual false final false
+  /// @brief Method .ctor addr 0x2375e74 size 0x44 virtual false final false
   inline void _ctor(::System::Object* memberObject, ::StringW memberName, ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo);
 
-  /// @brief Method Fixup addr 0x24cd978 size 0x314 virtual false final false
+  /// @brief Method Fixup addr 0x2374e74 size 0x314 virtual false final false
   inline void Fixup(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* record, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* parent);
 
   // Ctor Parameters [CppParam { name: "", ty: "ValueFixup", modifiers: "&&", def_value: None }]
@@ -162,6 +162,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::ValueFixup, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ValueFixup, ___valueFixupEnum) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ValueFixup, ___arrayObj) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ValueFixup, ___indexMap) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ValueFixup, ___header) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ValueFixup, ___memberObject) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ValueFixup, ___objectInfo) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ValueFixup, ___memberName) == 0x40, "Offset mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::ValueFixup);

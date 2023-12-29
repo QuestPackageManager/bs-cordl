@@ -18,18 +18,18 @@ MARK_REF_PTR_T(::GlobalNamespace::LocalLeaderboardsIdModel);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4205))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4238))
 // CS Name: ::LocalLeaderboardsIdModel*
 class CORDL_TYPE LocalLeaderboardsIdModel : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLocalLeaderboardID addr 0x2327554 size 0x8 virtual false final false
+  /// @brief Method GetLocalLeaderboardID addr 0x21d6860 size 0x8 virtual false final false
   static inline ::StringW GetLocalLeaderboardID(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
 
   static inline ::GlobalNamespace::LocalLeaderboardsIdModel* New_ctor();
 
-  /// @brief Method .ctor addr 0x232755c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21d6868 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsIdModel", modifiers: "&&", def_value: None }]

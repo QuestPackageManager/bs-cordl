@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(SDKTrackedSpace)
 namespace LIV::SDK::Unity {
-struct SDKQuaternion;
+struct SDKVector3;
 }
 namespace LIV::SDK::Unity {
-struct SDKVector3;
+struct SDKQuaternion;
 }
 namespace LIV::SDK::Unity {
 struct SDKMatrix4x4;
@@ -27,16 +27,16 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKTrackedSpace);
 // SizeInfo { instance_size: 168, native_size: 168, calculated_instance_size: 168, calculated_native_size: 184, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15111)), TypeDefinitionIndex(TypeDefinitionIndex(15109)), TypeDefinitionIndex(TypeDefinitionIndex(15110))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15117))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15214)), TypeDefinitionIndex(TypeDefinitionIndex(15215)), TypeDefinitionIndex(TypeDefinitionIndex(15213))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15221))
 // CS Name: ::LIV.SDK.Unity::SDKTrackedSpace
 struct CORDL_TYPE SDKTrackedSpace {
 public:
   // Declarations
-  /// @brief Method get_empty addr 0x22155b0 size 0x64 virtual false final false
+  /// @brief Method get_empty addr 0x20b4678 size 0x64 virtual false final false
   static inline ::LIV::SDK::Unity::SDKTrackedSpace get_empty();
 
-  /// @brief Method ToString addr 0x22156d8 size 0x244 virtual true final false
+  /// @brief Method ToString addr 0x20b47a0 size 0x244 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "trackedSpaceWorldPosition", ty: "::LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }, CppParam { name: "trackedSpaceWorldRotation", ty:
@@ -72,6 +72,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::SDKTrackedSpace, 0xa8>, "Size mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKTrackedSpace, trackedSpaceWorldPosition) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKTrackedSpace, trackedSpaceWorldRotation) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKTrackedSpace, trackedSpaceLocalScale) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKTrackedSpace, trackedSpaceLocalToWorldMatrix) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKTrackedSpace, trackedSpaceWorldToLocalMatrix) == 0x68, "Offset mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKTrackedSpace, "LIV.SDK.Unity", "SDKTrackedSpace");

@@ -25,25 +25,25 @@ MARK_REF_PTR_T(::System::Threading::Tasks::AsyncCausalityTracer);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2820))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2816))
 // CS Name: ::System.Threading.Tasks::AsyncCausalityTracer*
 class CORDL_TYPE AsyncCausalityTracer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_LoggingOn addr 0x262a984 size 0x8 virtual false final false
+  /// @brief Method get_LoggingOn addr 0x24d0878 size 0x8 virtual false final false
   static inline bool get_LoggingOn();
 
-  /// @brief Method TraceOperationCreation addr 0x262ded8 size 0x4 virtual false final false
+  /// @brief Method TraceOperationCreation addr 0x24d3dcc size 0x4 virtual false final false
   static inline void TraceOperationCreation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::StringW operationName, uint64_t relatedContext);
 
-  /// @brief Method TraceOperationCompletion addr 0x262dedc size 0x4 virtual false final false
+  /// @brief Method TraceOperationCompletion addr 0x24d3dd0 size 0x4 virtual false final false
   static inline void TraceOperationCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::AsyncCausalityStatus status);
 
-  /// @brief Method TraceSynchronousWorkStart addr 0x262dee0 size 0x4 virtual false final false
+  /// @brief Method TraceSynchronousWorkStart addr 0x24d3dd4 size 0x4 virtual false final false
   static inline void TraceSynchronousWorkStart(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
-  /// @brief Method TraceSynchronousWorkCompletion addr 0x262a98c size 0x4 virtual false final false
+  /// @brief Method TraceSynchronousWorkCompletion addr 0x24d0880 size 0x4 virtual false final false
   static inline void TraceSynchronousWorkCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncCausalityTracer", modifiers: "&&", def_value: None }]

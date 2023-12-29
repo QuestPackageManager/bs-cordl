@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegexInterpreter)
-namespace System::Text::RegularExpressions {
-class RegexCode;
-}
 namespace System::Globalization {
 class CultureInfo;
+}
+namespace System::Text::RegularExpressions {
+class RegexCode;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexInterpreter);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 154, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8929))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8922))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7766))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7759))
 // CS Name: ::System.Text.RegularExpressions::RegexInterpreter*
 class CORDL_TYPE RegexInterpreter : public ::System::Text::RegularExpressions::RegexRunner {
 public:
@@ -84,124 +84,124 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexInterpreter* New_ctor(::System::Text::RegularExpressions::RegexCode* code, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method .ctor addr 0x296002c size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x27e2730 size 0x2c virtual false final false
   inline void _ctor(::System::Text::RegularExpressions::RegexCode* code, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method InitTrackCount addr 0x2960060 size 0x20 virtual true final false
+  /// @brief Method InitTrackCount addr 0x27e2764 size 0x20 virtual true final false
   inline void InitTrackCount();
 
-  /// @brief Method Advance addr 0x2960080 size 0x64 virtual false final false
+  /// @brief Method Advance addr 0x27e2784 size 0x64 virtual false final false
   inline void Advance(int32_t i);
 
-  /// @brief Method Goto addr 0x2960104 size 0x78 virtual false final false
+  /// @brief Method Goto addr 0x27e2808 size 0x78 virtual false final false
   inline void Goto(int32_t newpos);
 
-  /// @brief Method Textto addr 0x29601c4 size 0x8 virtual false final false
+  /// @brief Method Textto addr 0x27e28c8 size 0x8 virtual false final false
   inline void Textto(int32_t newpos);
 
-  /// @brief Method Trackto addr 0x29601cc size 0x24 virtual false final false
+  /// @brief Method Trackto addr 0x27e28d0 size 0x24 virtual false final false
   inline void Trackto(int32_t newpos);
 
-  /// @brief Method Textstart addr 0x29601f0 size 0x8 virtual false final false
+  /// @brief Method Textstart addr 0x27e28f4 size 0x8 virtual false final false
   inline int32_t Textstart();
 
-  /// @brief Method Textpos addr 0x29601f8 size 0x8 virtual false final false
+  /// @brief Method Textpos addr 0x27e28fc size 0x8 virtual false final false
   inline int32_t Textpos();
 
-  /// @brief Method Trackpos addr 0x2960200 size 0x24 virtual false final false
+  /// @brief Method Trackpos addr 0x27e2904 size 0x24 virtual false final false
   inline int32_t Trackpos();
 
-  /// @brief Method TrackPush addr 0x2960224 size 0x40 virtual false final false
+  /// @brief Method TrackPush addr 0x27e2928 size 0x40 virtual false final false
   inline void TrackPush();
 
-  /// @brief Method TrackPush addr 0x2960264 size 0x5c virtual false final false
+  /// @brief Method TrackPush addr 0x27e2968 size 0x5c virtual false final false
   inline void TrackPush(int32_t I1);
 
-  /// @brief Method TrackPush addr 0x29602c0 size 0x78 virtual false final false
+  /// @brief Method TrackPush addr 0x27e29c4 size 0x78 virtual false final false
   inline void TrackPush(int32_t I1, int32_t I2);
 
-  /// @brief Method TrackPush addr 0x2960338 size 0x94 virtual false final false
+  /// @brief Method TrackPush addr 0x27e2a3c size 0x94 virtual false final false
   inline void TrackPush(int32_t I1, int32_t I2, int32_t I3);
 
-  /// @brief Method TrackPush2 addr 0x29603cc size 0x60 virtual false final false
+  /// @brief Method TrackPush2 addr 0x27e2ad0 size 0x60 virtual false final false
   inline void TrackPush2(int32_t I1);
 
-  /// @brief Method TrackPush2 addr 0x296042c size 0x7c virtual false final false
+  /// @brief Method TrackPush2 addr 0x27e2b30 size 0x7c virtual false final false
   inline void TrackPush2(int32_t I1, int32_t I2);
 
-  /// @brief Method Backtrack addr 0x29604a8 size 0xf8 virtual false final false
+  /// @brief Method Backtrack addr 0x27e2bac size 0xf8 virtual false final false
   inline void Backtrack();
 
-  /// @brief Method SetOperator addr 0x29600e4 size 0x20 virtual false final false
+  /// @brief Method SetOperator addr 0x27e27e8 size 0x20 virtual false final false
   inline void SetOperator(int32_t op);
 
-  /// @brief Method TrackPop addr 0x29605a0 size 0x10 virtual false final false
+  /// @brief Method TrackPop addr 0x27e2ca4 size 0x10 virtual false final false
   inline void TrackPop();
 
-  /// @brief Method TrackPop addr 0x29605b0 size 0x10 virtual false final false
+  /// @brief Method TrackPop addr 0x27e2cb4 size 0x10 virtual false final false
   inline void TrackPop(int32_t framesize);
 
-  /// @brief Method TrackPeek addr 0x29605c0 size 0x38 virtual false final false
+  /// @brief Method TrackPeek addr 0x27e2cc4 size 0x38 virtual false final false
   inline int32_t TrackPeek();
 
-  /// @brief Method TrackPeek addr 0x29605f8 size 0x3c virtual false final false
+  /// @brief Method TrackPeek addr 0x27e2cfc size 0x3c virtual false final false
   inline int32_t TrackPeek(int32_t i);
 
-  /// @brief Method StackPush addr 0x2960634 size 0x3c virtual false final false
+  /// @brief Method StackPush addr 0x27e2d38 size 0x3c virtual false final false
   inline void StackPush(int32_t I1);
 
-  /// @brief Method StackPush addr 0x2960670 size 0x58 virtual false final false
+  /// @brief Method StackPush addr 0x27e2d74 size 0x58 virtual false final false
   inline void StackPush(int32_t I1, int32_t I2);
 
-  /// @brief Method StackPop addr 0x29606c8 size 0x10 virtual false final false
+  /// @brief Method StackPop addr 0x27e2dcc size 0x10 virtual false final false
   inline void StackPop();
 
-  /// @brief Method StackPop addr 0x29606d8 size 0x10 virtual false final false
+  /// @brief Method StackPop addr 0x27e2ddc size 0x10 virtual false final false
   inline void StackPop(int32_t framesize);
 
-  /// @brief Method StackPeek addr 0x29606e8 size 0x38 virtual false final false
+  /// @brief Method StackPeek addr 0x27e2dec size 0x38 virtual false final false
   inline int32_t StackPeek();
 
-  /// @brief Method StackPeek addr 0x2960720 size 0x3c virtual false final false
+  /// @brief Method StackPeek addr 0x27e2e24 size 0x3c virtual false final false
   inline int32_t StackPeek(int32_t i);
 
-  /// @brief Method Operator addr 0x296075c size 0x8 virtual false final false
+  /// @brief Method Operator addr 0x27e2e60 size 0x8 virtual false final false
   inline int32_t Operator();
 
-  /// @brief Method Operand addr 0x2960764 size 0x44 virtual false final false
+  /// @brief Method Operand addr 0x27e2e68 size 0x44 virtual false final false
   inline int32_t Operand(int32_t i);
 
-  /// @brief Method Leftchars addr 0x29607a8 size 0x10 virtual false final false
+  /// @brief Method Leftchars addr 0x27e2eac size 0x10 virtual false final false
   inline int32_t Leftchars();
 
-  /// @brief Method Rightchars addr 0x29607b8 size 0x10 virtual false final false
+  /// @brief Method Rightchars addr 0x27e2ebc size 0x10 virtual false final false
   inline int32_t Rightchars();
 
-  /// @brief Method Bump addr 0x29607c8 size 0x14 virtual false final false
+  /// @brief Method Bump addr 0x27e2ecc size 0x14 virtual false final false
   inline int32_t Bump();
 
-  /// @brief Method Forwardchars addr 0x29607dc size 0x2c virtual false final false
+  /// @brief Method Forwardchars addr 0x27e2ee0 size 0x2c virtual false final false
   inline int32_t Forwardchars();
 
-  /// @brief Method Forwardcharnext addr 0x2960808 size 0x90 virtual false final false
+  /// @brief Method Forwardcharnext addr 0x27e2f0c size 0x90 virtual false final false
   inline char16_t Forwardcharnext();
 
-  /// @brief Method Stringmatch addr 0x2960898 size 0x16c virtual false final false
+  /// @brief Method Stringmatch addr 0x27e2f9c size 0x16c virtual false final false
   inline bool Stringmatch(::StringW str);
 
-  /// @brief Method Refmatch addr 0x2960a04 size 0x19c virtual false final false
+  /// @brief Method Refmatch addr 0x27e3108 size 0x19c virtual false final false
   inline bool Refmatch(int32_t index, int32_t len);
 
-  /// @brief Method Backwardnext addr 0x2960ba0 size 0x30 virtual false final false
+  /// @brief Method Backwardnext addr 0x27e32a4 size 0x30 virtual false final false
   inline void Backwardnext();
 
-  /// @brief Method CharAt addr 0x2960bd0 size 0x1c virtual false final false
+  /// @brief Method CharAt addr 0x27e32d4 size 0x1c virtual false final false
   inline char16_t CharAt(int32_t j);
 
-  /// @brief Method FindFirstChar addr 0x2960bec size 0x360 virtual true final false
+  /// @brief Method FindFirstChar addr 0x27e32f0 size 0x360 virtual true final false
   inline bool FindFirstChar();
 
-  /// @brief Method Go addr 0x2960f4c size 0x11dc virtual true final false
+  /// @brief Method Go addr 0x27e3650 size 0x11dc virtual true final false
   inline void Go();
 
   // Ctor Parameters [CppParam { name: "", ty: "RegexInterpreter", modifiers: "&&", def_value: None }]
@@ -240,6 +240,18 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexInterpreter, 0xa0>, "Size mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexInterpreter, ____code) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexInterpreter, ____culture) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexInterpreter, ____operator) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexInterpreter, ____codepos) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexInterpreter, ____rightToLeft) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::System::Text::RegularExpressions::RegexInterpreter, ____caseInsensitive) == 0x99, "Offset mismatch!");
 
 } // namespace System::Text::RegularExpressions
 NEED_NO_BOX(::System::Text::RegularExpressions::RegexInterpreter);

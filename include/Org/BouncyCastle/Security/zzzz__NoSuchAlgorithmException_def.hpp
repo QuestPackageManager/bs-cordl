@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Security::NoSuchAlgorithmException* New_ctor();
 
-  /// @brief Method .ctor addr 0x1131b34 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x10c08ec size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Security::NoSuchAlgorithmException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x1131b3c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x10c08f4 size 0x8 virtual false final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Security::NoSuchAlgorithmException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor addr 0x1131b44 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x10c08fc size 0x8 virtual false final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "NoSuchAlgorithmException", modifiers: "&&", def_value: None }]

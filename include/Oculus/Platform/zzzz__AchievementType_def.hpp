@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::AchievementType);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13225))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13227))
 // CS Name: ::Oculus.Platform::AchievementType
 struct CORDL_TYPE AchievementType {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::AchievementType, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::AchievementType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::AchievementType, "Oculus.Platform", "AchievementType");

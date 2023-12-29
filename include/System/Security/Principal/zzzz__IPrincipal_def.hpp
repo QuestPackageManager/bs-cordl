@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Security::Principal::IPrincipal);
 namespace System::Security::Principal {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2996))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2995))
 // CS Name: ::System.Security.Principal::IPrincipal*
 class CORDL_TYPE IPrincipal {
 public:

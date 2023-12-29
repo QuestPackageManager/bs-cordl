@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BasicMockPlayerScoreCalculator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15506))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15490))
 // CS Name: ::BasicMockPlayerScoreCalculator*
 class CORDL_TYPE BasicMockPlayerScoreCalculator : public ::System::Object {
 public:
@@ -72,10 +72,10 @@ public:
 
   static inline ::GlobalNamespace::BasicMockPlayerScoreCalculator* New_ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore);
 
-  /// @brief Method .ctor addr 0x23e6748 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x228b170 size 0xbc virtual false final false
   inline void _ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore);
 
-  /// @brief Method GetScoreForNote addr 0x23e6804 size 0x74 virtual true final true
+  /// @brief Method GetScoreForNote addr 0x228b22c size 0x74 virtual true final true
   inline int32_t GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicMockPlayerScoreCalculator", modifiers: "&&", def_value: None }]
@@ -108,6 +108,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BasicMockPlayerScoreCalculator, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BasicMockPlayerScoreCalculator, ____hitFrequency) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BasicMockPlayerScoreCalculator, ____minScore) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BasicMockPlayerScoreCalculator, ____maxScore) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BasicMockPlayerScoreCalculator, ____random) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BasicMockPlayerScoreCalculator);

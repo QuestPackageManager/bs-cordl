@@ -17,7 +17,7 @@ MARK_VAL_T(::System::Collections::Concurrent::PaddedHeadAndTail);
 namespace System::Collections::Concurrent {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3804))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3792))
 // CS Name: ::System.Collections.Concurrent::PaddedHeadAndTail
 #pragma pack(push, 0)
 struct CORDL_TYPE PaddedHeadAndTail {

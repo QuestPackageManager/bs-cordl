@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LazyDerSequence)
 namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -46,22 +46,22 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::LazyDerSequence* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
-  /// @brief Method .ctor addr 0x11c643c size 0x68 virtual false final false
+  /// @brief Method .ctor addr 0x11551ec size 0x68 virtual false final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
-  /// @brief Method Parse addr 0x11c6580 size 0x168 virtual false final false
+  /// @brief Method Parse addr 0x1155330 size 0x168 virtual false final false
   inline void Parse();
 
-  /// @brief Method get_Item addr 0x11c66e8 size 0x28 virtual true final false
+  /// @brief Method get_Item addr 0x1155498 size 0x28 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(int32_t index);
 
-  /// @brief Method GetEnumerator addr 0x11c6710 size 0x24 virtual true final false
+  /// @brief Method GetEnumerator addr 0x11554c0 size 0x24 virtual true final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method get_Count addr 0x11c6734 size 0x24 virtual true final false
+  /// @brief Method get_Count addr 0x11554e4 size 0x24 virtual true final false
   inline int32_t get_Count();
 
-  /// @brief Method Encode addr 0x11c6758 size 0xcc virtual true final false
+  /// @brief Method Encode addr 0x1155508 size 0xcc virtual true final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "LazyDerSequence", modifiers: "&&", def_value: None }]
@@ -85,6 +85,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::LazyDerSequence, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::LazyDerSequence, ___encoded) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::LazyDerSequence);

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableDictionary_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnmodifiableDictionaryProxy)
+namespace System::Collections {
+class IDictionary;
+}
 namespace System {
 class Array;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections {
-class IDictionary;
 }
 namespace System::Collections {
 class ICollection;
@@ -59,37 +59,37 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy* New_ctor(::System::Collections::IDictionary* d);
 
-  /// @brief Method .ctor addr 0x115752c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x10e62e4 size 0x28 virtual false final false
   inline void _ctor(::System::Collections::IDictionary* d);
 
-  /// @brief Method Contains addr 0x115a27c size 0xac virtual true final false
+  /// @brief Method Contains addr 0x10e9034 size 0xac virtual true final false
   inline bool Contains(::System::Object* k);
 
-  /// @brief Method CopyTo addr 0x115a328 size 0xb8 virtual true final false
+  /// @brief Method CopyTo addr 0x10e90e0 size 0xb8 virtual true final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method get_Count addr 0x115a3e0 size 0xa4 virtual true final false
+  /// @brief Method get_Count addr 0x10e9198 size 0xa4 virtual true final false
   inline int32_t get_Count();
 
-  /// @brief Method GetEnumerator addr 0x115a484 size 0xa4 virtual true final false
+  /// @brief Method GetEnumerator addr 0x10e923c size 0xa4 virtual true final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method get_IsFixedSize addr 0x115a528 size 0xa4 virtual true final false
+  /// @brief Method get_IsFixedSize addr 0x10e92e0 size 0xa4 virtual true final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsSynchronized addr 0x115a5cc size 0xa4 virtual true final false
+  /// @brief Method get_IsSynchronized addr 0x10e9384 size 0xa4 virtual true final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot addr 0x115a670 size 0xa4 virtual true final false
+  /// @brief Method get_SyncRoot addr 0x10e9428 size 0xa4 virtual true final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method get_Keys addr 0x115a714 size 0xa4 virtual true final false
+  /// @brief Method get_Keys addr 0x10e94cc size 0xa4 virtual true final false
   inline ::System::Collections::ICollection* get_Keys();
 
-  /// @brief Method get_Values addr 0x115a7b8 size 0xa4 virtual true final false
+  /// @brief Method get_Values addr 0x10e9570 size 0xa4 virtual true final false
   inline ::System::Collections::ICollection* get_Values();
 
-  /// @brief Method GetValue addr 0x115a85c size 0xa8 virtual true final false
+  /// @brief Method GetValue addr 0x10e9614 size 0xa8 virtual true final false
   inline ::System::Object* GetValue(::System::Object* k);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnmodifiableDictionaryProxy", modifiers: "&&", def_value: None }]
@@ -113,6 +113,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy, ___d) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::Collections
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy);

@@ -10,22 +10,22 @@ namespace UnityEngine {
 class Sprite;
 }
 namespace GlobalNamespace {
-class __FlyingSpriteEffect__Pool;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
 class IFlyingObjectEffectDidFinishEvent;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace GlobalNamespace {
+class __FlyingSpriteEffect__Pool;
 }
 namespace GlobalNamespace {
 class FlyingObjectEffect;
 }
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FlyingSpriteSpawner);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4890))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5008))
 // CS Name: ::FlyingSpriteSpawner*
 class CORDL_TYPE FlyingSpriteSpawner : public ::UnityEngine::MonoBehaviour {
 public:
@@ -127,15 +127,15 @@ public:
 
   constexpr void __set__flyingSpriteEffectPool(::GlobalNamespace::__FlyingSpriteEffect__Pool* value);
 
-  /// @brief Method SpawnFlyingSprite addr 0x23a1114 size 0x1fc virtual false final false
+  /// @brief Method SpawnFlyingSprite addr 0x226b1a8 size 0x1f8 virtual false final false
   inline void SpawnFlyingSprite(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation);
 
-  /// @brief Method HandleFlyingObjectEffectDidFinish addr 0x23a1df0 size 0x11c virtual true final true
+  /// @brief Method HandleFlyingObjectEffectDidFinish addr 0x226be7c size 0x11c virtual true final true
   inline void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
 
   static inline ::GlobalNamespace::FlyingSpriteSpawner* New_ctor();
 
-  /// @brief Method .ctor addr 0x23a1f0c size 0x20 virtual false final false
+  /// @brief Method .ctor addr 0x226bf98 size 0x20 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteSpawner", modifiers: "&&", def_value: None }]
@@ -183,6 +183,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingSpriteSpawner, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingSpriteSpawner, ____sprite) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingSpriteSpawner, ____material) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingSpriteSpawner, ____duration) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingSpriteSpawner, ____xSpread) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingSpriteSpawner, ____targetYPos) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingSpriteSpawner, ____targetZPos) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingSpriteSpawner, ____color) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingSpriteSpawner, ____shake) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlyingSpriteSpawner, ____flyingSpriteEffectPool) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FlyingSpriteSpawner);

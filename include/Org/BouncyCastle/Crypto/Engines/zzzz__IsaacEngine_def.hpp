@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::IsaacEngine);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(850))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::IsaacEngine*
 class CORDL_TYPE IsaacEngine : public ::System::Object {
@@ -129,33 +129,33 @@ public:
 
   static inline int32_t getStaticF_stateArraySize();
 
-  /// @brief Method Init addr 0xed5614 size 0x114 virtual true final false
+  /// @brief Method Init addr 0xe60440 size 0x114 virtual true final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method ReturnByte addr 0xed5b10 size 0x78 virtual true final false
+  /// @brief Method ReturnByte addr 0xe6093c size 0x78 virtual true final false
   inline uint8_t ReturnByte(uint8_t input);
 
-  /// @brief Method ProcessBytes addr 0xed5d04 size 0x1ec virtual true final false
+  /// @brief Method ProcessBytes addr 0xe60b30 size 0x1ec virtual true final false
   inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method get_AlgorithmName addr 0xed5ef0 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xe60d1c size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Reset addr 0xed5f30 size 0x8 virtual true final false
+  /// @brief Method Reset addr 0xe60d5c size 0x8 virtual true final false
   inline void Reset();
 
-  /// @brief Method setKey addr 0xed5728 size 0x3e8 virtual false final false
+  /// @brief Method setKey addr 0xe60554 size 0x3e8 virtual false final false
   inline void setKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes);
 
-  /// @brief Method isaac addr 0xed5b88 size 0x17c virtual false final false
+  /// @brief Method isaac addr 0xe609b4 size 0x17c virtual false final false
   inline void isaac();
 
-  /// @brief Method mix addr 0xed5f38 size 0xfc virtual false final false
+  /// @brief Method mix addr 0xe60d64 size 0xfc virtual false final false
   inline void mix(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::IsaacEngine* New_ctor();
 
-  /// @brief Method .ctor addr 0xed6084 size 0x94 virtual false final false
+  /// @brief Method .ctor addr 0xe60eb0 size 0x94 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IsaacEngine", modifiers: "&&", def_value: None }]
@@ -203,6 +203,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::IsaacEngine, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IsaacEngine, ___engineState) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IsaacEngine, ___results) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IsaacEngine, ___a) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IsaacEngine, ___b) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IsaacEngine, ___c) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IsaacEngine, ___index) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IsaacEngine, ___keyStream) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IsaacEngine, ___workingKey) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IsaacEngine, ___initialised) == 0x40, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::IsaacEngine);

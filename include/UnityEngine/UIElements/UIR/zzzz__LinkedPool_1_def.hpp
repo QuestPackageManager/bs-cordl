@@ -23,8 +23,8 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7400))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7486))
 // CS Name: ::UnityEngine.UIElements.UIR::LinkedPool`1<T>*
 class CORDL_TYPE LinkedPool_1 : public ::System::Object {
 public:

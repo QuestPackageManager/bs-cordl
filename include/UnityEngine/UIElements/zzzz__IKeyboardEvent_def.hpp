@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IKeyboardEvent)
 namespace UnityEngine {
-struct EventModifiers;
+struct KeyCode;
 }
 namespace UnityEngine {
-struct KeyCode;
+struct EventModifiers;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IKeyboardEvent);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7239))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7325))
 // CS Name: ::UnityEngine.UIElements::IKeyboardEvent*
 class CORDL_TYPE IKeyboardEvent {
 public:

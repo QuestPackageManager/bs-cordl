@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::MonoIOError);
 namespace System::IO {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3631))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3619))
 // CS Name: ::System.IO::MonoIOError
 struct CORDL_TYPE MonoIOError {
 public:
@@ -157,6 +157,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::MonoIOError, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::IO::MonoIOError, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::IO
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::MonoIOError, "System.IO", "MonoIOError");

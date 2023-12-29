@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags);
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15539))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15523))
 // CS Name: ::UnityEngine.TextCore.LowLevel::FontFeatureLookupFlags
 struct CORDL_TYPE FontFeatureLookupFlags {
 public:
@@ -61,6 +61,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::TextCore::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags, "UnityEngine.TextCore.LowLevel", "FontFeatureLookupFlags");

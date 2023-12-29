@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MissionGameplaySceneSetupData)
 namespace GlobalNamespace {
-class GameplayModifiers;
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class MissionObjective;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionGameplaySceneSetupData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15408)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6054))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13934)), TypeDefinitionIndex(TypeDefinitionIndex(14934))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6109))
 // CS Name: ::MissionGameplaySceneSetupData*
 class CORDL_TYPE MissionGameplaySceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
@@ -106,7 +106,7 @@ public:
                                                                            ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
                                                                            ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText);
 
-  /// @brief Method .ctor addr 0x231cce0 size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x21c9070 size 0x6c virtual false final false
   inline void _ctor(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives, bool autoRestart,
                     ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                     ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText);
@@ -150,6 +150,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionGameplaySceneSetupData, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionGameplaySceneSetupData, ___missionObjectives) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionGameplaySceneSetupData, ___autoRestart) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionGameplaySceneSetupData, ___previewBeatmapLevel) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionGameplaySceneSetupData, ___beatmapDifficulty) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionGameplaySceneSetupData, ___beatmapCharacteristic) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionGameplaySceneSetupData, ___gameplayModifiers) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionGameplaySceneSetupData, ___backButtonText) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionGameplaySceneSetupData);

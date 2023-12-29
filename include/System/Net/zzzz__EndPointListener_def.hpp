@@ -8,25 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EndPointListener)
 namespace System::Net {
+class IPEndPoint;
+}
+namespace System::Net {
 class HttpListenerContext;
 }
-namespace System::Collections {
-class ArrayList;
+namespace System {
+class Uri;
 }
-namespace System::Net::Sockets {
-class SocketAsyncEventArgs;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Net {
-class HttpListener;
-}
-namespace System::Net {
-class ListenerPrefix;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -35,19 +26,28 @@ namespace System::Net {
 class IPAddress;
 }
 namespace System::Net {
+class HttpListener;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Net::Sockets {
+class SocketAsyncEventArgs;
+}
+namespace System::Net {
 class HttpConnection;
 }
 namespace System::Net {
-class IPEndPoint;
+class ListenerPrefix;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
 }
 namespace System::Net::Sockets {
 class Socket;
-}
-namespace System {
-class Uri;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::Net {
@@ -59,8 +59,8 @@ MARK_REF_PTR_T(::System::Net::EndPointListener);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9164))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8001))
 // CS Name: ::System.Net::EndPointListener*
 class CORDL_TYPE EndPointListener : public ::System::Object {
 public:
@@ -150,52 +150,52 @@ public:
 
   static inline ::System::Net::EndPointListener* New_ctor(::System::Net::HttpListener* listener, ::System::Net::IPAddress* addr, int32_t port, bool secure);
 
-  /// @brief Method .ctor addr 0x29c07b4 size 0x244 virtual false final false
+  /// @brief Method .ctor addr 0x2842f3c size 0x244 virtual false final false
   inline void _ctor(::System::Net::HttpListener* listener, ::System::Net::IPAddress* addr, int32_t port, bool secure);
 
-  /// @brief Method get_Listener addr 0x29c0f4c size 0x8 virtual false final false
+  /// @brief Method get_Listener addr 0x28436d4 size 0x8 virtual false final false
   inline ::System::Net::HttpListener* get_Listener();
 
-  /// @brief Method Accept addr 0x29c0e04 size 0x148 virtual false final false
+  /// @brief Method Accept addr 0x284358c size 0x148 virtual false final false
   static inline void Accept(::System::Net::Sockets::Socket* socket, ::System::Net::Sockets::SocketAsyncEventArgs* e, ByRef<::System::Net::Sockets::Socket*> accepted);
 
-  /// @brief Method ProcessAccept addr 0x29c0f54 size 0x24c virtual false final false
+  /// @brief Method ProcessAccept addr 0x28436dc size 0x24c virtual false final false
   static inline void ProcessAccept(::System::Net::Sockets::SocketAsyncEventArgs* args);
 
-  /// @brief Method OnAccept addr 0x29c15a8 size 0x8 virtual false final false
+  /// @brief Method OnAccept addr 0x2843d30 size 0x8 virtual false final false
   static inline void OnAccept(::System::Object* sender, ::System::Net::Sockets::SocketAsyncEventArgs* e);
 
-  /// @brief Method RemoveConnection addr 0x29c15b0 size 0x100 virtual false final false
+  /// @brief Method RemoveConnection addr 0x2843d38 size 0x100 virtual false final false
   inline void RemoveConnection(::System::Net::HttpConnection* conn);
 
-  /// @brief Method BindContext addr 0x29c16b0 size 0x54 virtual false final false
+  /// @brief Method BindContext addr 0x2843e38 size 0x54 virtual false final false
   inline bool BindContext(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method UnbindContext addr 0x29c1d54 size 0x2c virtual false final false
+  /// @brief Method UnbindContext addr 0x28444dc size 0x2c virtual false final false
   inline void UnbindContext(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method SearchListener addr 0x29c1704 size 0x650 virtual false final false
+  /// @brief Method SearchListener addr 0x2843e8c size 0x650 virtual false final false
   inline ::System::Net::HttpListener* SearchListener(::System::Uri* uri, ByRef<::System::Net::ListenerPrefix*> prefix);
 
-  /// @brief Method MatchFromList addr 0x29c1f48 size 0x334 virtual false final false
+  /// @brief Method MatchFromList addr 0x28446d0 size 0x334 virtual false final false
   inline ::System::Net::HttpListener* MatchFromList(::StringW host, ::StringW path, ::System::Collections::ArrayList* list, ByRef<::System::Net::ListenerPrefix*> prefix);
 
-  /// @brief Method AddSpecial addr 0x29c227c size 0x364 virtual false final false
+  /// @brief Method AddSpecial addr 0x2844a04 size 0x364 virtual false final false
   inline void AddSpecial(::System::Collections::ArrayList* coll, ::System::Net::ListenerPrefix* prefix);
 
-  /// @brief Method RemoveSpecial addr 0x29c25e0 size 0xf0 virtual false final false
+  /// @brief Method RemoveSpecial addr 0x2844d68 size 0xf0 virtual false final false
   inline bool RemoveSpecial(::System::Collections::ArrayList* coll, ::System::Net::ListenerPrefix* prefix);
 
-  /// @brief Method CheckIfRemove addr 0x29c26d0 size 0xcc virtual false final false
+  /// @brief Method CheckIfRemove addr 0x2844e58 size 0xcc virtual false final false
   inline void CheckIfRemove();
 
-  /// @brief Method Close addr 0x29c29fc size 0x2b8 virtual false final false
+  /// @brief Method Close addr 0x2845184 size 0x2b8 virtual false final false
   inline void Close();
 
-  /// @brief Method AddPrefix addr 0x29c2f1c size 0x380 virtual false final false
+  /// @brief Method AddPrefix addr 0x28456a4 size 0x380 virtual false final false
   inline void AddPrefix(::System::Net::ListenerPrefix* prefix, ::System::Net::HttpListener* listener);
 
-  /// @brief Method RemovePrefix addr 0x29c329c size 0x2a0 virtual false final false
+  /// @brief Method RemovePrefix addr 0x2845a24 size 0x2a0 virtual false final false
   inline void RemovePrefix(::System::Net::ListenerPrefix* prefix, ::System::Net::HttpListener* listener);
 
   // Ctor Parameters [CppParam { name: "", ty: "EndPointListener", modifiers: "&&", def_value: None }]
@@ -243,6 +243,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::EndPointListener, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::EndPointListener, ___listener) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::EndPointListener, ___endpoint) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::EndPointListener, ___sock) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::EndPointListener, ___prefixes) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::EndPointListener, ___unhandled) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::EndPointListener, ___all) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::EndPointListener, ___cert) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::EndPointListener, ___secure) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::EndPointListener, ___unregistered) == 0x50, "Offset mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::EndPointListener);

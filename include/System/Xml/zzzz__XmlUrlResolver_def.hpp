@@ -11,32 +11,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlUrlResolver)
-namespace System {
-class Object;
-}
-namespace System::Xml {
-struct __XmlUrlResolver___GetEntityAsync_d__15;
-}
 namespace System::Net {
 class ICredentials;
-}
-namespace System::Net::Cache {
-class RequestCachePolicy;
-}
-namespace System {
-class Type;
-}
-namespace System::Net {
-class IWebProxy;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
+namespace System::Xml {
+struct __XmlUrlResolver___GetEntityAsync_d__15;
+}
 namespace System {
-class Uri;
+class Type;
+}
+namespace System {
+class Object;
 }
 namespace System::Xml {
 class XmlDownloadManager;
+}
+namespace System::Net {
+class IWebProxy;
+}
+namespace System {
+class Uri;
+}
+namespace System::Net::Cache {
+class RequestCachePolicy;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -45,10 +45,10 @@ namespace System::IO {
 class Stream;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -64,19 +64,19 @@ MARK_VAL_T(::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3619)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 2
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(11575)) CS Name: ::XmlUrlResolver::<GetEntityAsync>d__15
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 879 }), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 2 }), TypeDefinitionIndex(TypeDefinitionIndex(3392)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3607))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11503)) CS Name: ::XmlUrlResolver::<GetEntityAsync>d__15
 struct CORDL_TYPE __XmlUrlResolver___GetEntityAsync_d__15 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x28a999c size 0x37c virtual true final true
+  /// @brief Method MoveNext addr 0x272c978 size 0x37c virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x28a9d18 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine addr 0x272ccf4 size 0x58 virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -118,13 +118,25 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15, 0x48>, "Size mismatch!");
 
+static_assert(offsetof(::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15, ofObjectToReturn) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15, absoluteUri) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15, __4__this) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15, __u__1) == 0x38, "Offset mismatch!");
+
 } // namespace System::Xml
 // Type: System.Xml::XmlUrlResolver
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11574))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11576))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11502))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11504))
 // CS Name: ::System.Xml::XmlUrlResolver*
 class CORDL_TYPE XmlUrlResolver : public ::System::Xml::XmlResolver {
 public:
@@ -165,21 +177,21 @@ public:
 
   static inline ::System::Object* getStaticF_s_DownloadManager();
 
-  /// @brief Method get_DownloadManager addr 0x28a9634 size 0xd4 virtual false final false
+  /// @brief Method get_DownloadManager addr 0x272c610 size 0xd4 virtual false final false
   static inline ::System::Xml::XmlDownloadManager* get_DownloadManager();
 
   static inline ::System::Xml::XmlUrlResolver* New_ctor();
 
-  /// @brief Method .ctor addr 0x28a9708 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x272c6e4 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method GetEntity addr 0x28a9710 size 0x17c virtual true final false
+  /// @brief Method GetEntity addr 0x272c6ec size 0x17c virtual true final false
   inline ::System::Object* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
-  /// @brief Method ResolveUri addr 0x28a988c size 0x4 virtual true final false
+  /// @brief Method ResolveUri addr 0x272c868 size 0x4 virtual true final false
   inline ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
 
-  /// @brief Method GetEntityAsync addr 0x28a9890 size 0x10c virtual true final false
+  /// @brief Method GetEntityAsync addr 0x272c86c size 0x10c virtual true final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlUrlResolver", modifiers: "&&", def_value: None }]
@@ -209,6 +221,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlUrlResolver, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlUrlResolver, ____credentials) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlUrlResolver, ____proxy) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::XmlUrlResolver, ____cachePolicy) == 0x20, "Offset mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlUrlResolver);

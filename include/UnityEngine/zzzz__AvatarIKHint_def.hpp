@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AvatarIKHint);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14872))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15099))
 // CS Name: ::UnityEngine::AvatarIKHint
 struct CORDL_TYPE AvatarIKHint {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AvatarIKHint, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::AvatarIKHint, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AvatarIKHint, "UnityEngine", "AvatarIKHint");

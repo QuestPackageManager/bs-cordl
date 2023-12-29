@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Collections/ObjectModel/zzzz__Collection_1_impl.hpp"
 #include "System/Collections/ObjectModel/zzzz__KeyedCollection_2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 template <typename TKey, typename TItem> constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__get_comparer() {

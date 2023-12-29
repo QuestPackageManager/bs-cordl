@@ -6,14 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoCustomAttrs)
-namespace System {
-class __MonoCustomAttrs__AttributeInfo;
-}
-namespace System {
-class Attribute;
+namespace System::Reflection {
+class EventInfo;
 }
 namespace System::Reflection {
 class CustomAttributeData;
+}
+namespace System::Reflection {
+class RuntimeEventInfo;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Reflection {
+class ICustomAttributeProvider;
+}
+namespace System {
+class __MonoCustomAttrs__AttributeInfo;
 }
 namespace System {
 class AttributeUsageAttribute;
@@ -21,23 +33,11 @@ class AttributeUsageAttribute;
 namespace System::Reflection {
 class Assembly;
 }
-namespace System::Reflection {
-class ICustomAttributeProvider;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Reflection {
-class RuntimeEventInfo;
-}
-namespace System::Reflection {
-class EventInfo;
-}
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
+}
+namespace System {
+class Attribute;
 }
 namespace System::Reflection {
 class PropertyInfo;
@@ -46,7 +46,7 @@ namespace System::Reflection {
 class RuntimePropertyInfo;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -62,8 +62,8 @@ MARK_REF_PTR_T(::System::__MonoCustomAttrs__AttributeInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2607))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2605))
 // CS Name: ::MonoCustomAttrs::AttributeInfo*
 class CORDL_TYPE __MonoCustomAttrs__AttributeInfo : public ::System::Object {
 public:
@@ -92,13 +92,13 @@ public:
 
   static inline ::System::__MonoCustomAttrs__AttributeInfo* New_ctor(::System::AttributeUsageAttribute* usage, int32_t inheritanceLevel);
 
-  /// @brief Method .ctor addr 0x25fbbd0 size 0xc virtual false final false
+  /// @brief Method .ctor addr 0x24a0c48 size 0xc virtual false final false
   inline void _ctor(::System::AttributeUsageAttribute* usage, int32_t inheritanceLevel);
 
-  /// @brief Method get_Usage addr 0x25fe2f4 size 0x8 virtual false final false
+  /// @brief Method get_Usage addr 0x24a336c size 0x8 virtual false final false
   inline ::System::AttributeUsageAttribute* get_Usage();
 
-  /// @brief Method get_InheritanceLevel addr 0x25fe2fc size 0x8 virtual false final false
+  /// @brief Method get_InheritanceLevel addr 0x24a3374 size 0x8 virtual false final false
   inline int32_t get_InheritanceLevel();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MonoCustomAttrs__AttributeInfo", modifiers: "&&", def_value: None }]
@@ -126,13 +126,17 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::__MonoCustomAttrs__AttributeInfo, 0x20>, "Size mismatch!");
 
+static_assert(offsetof(::System::__MonoCustomAttrs__AttributeInfo, ____usage) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::__MonoCustomAttrs__AttributeInfo, ____inheritanceLevel) == 0x18, "Offset mismatch!");
+
 } // namespace System
 // Type: System::MonoCustomAttrs
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2608))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2606))
 // CS Name: ::System::MonoCustomAttrs*
 class CORDL_TYPE MonoCustomAttrs : public ::System::Object {
 public:
@@ -160,70 +164,70 @@ public:
 
   static inline ::System::AttributeUsageAttribute* getStaticF_DefaultAttributeUsage();
 
-  /// @brief Method IsUserCattrProvider addr 0x25fa558 size 0x1cc virtual false final false
+  /// @brief Method IsUserCattrProvider addr 0x249f5d0 size 0x1cc virtual false final false
   static inline bool IsUserCattrProvider(::System::Object* obj);
 
-  /// @brief Method GetCustomAttributesInternal addr 0x25fa724 size 0x8 virtual false final false
+  /// @brief Method GetCustomAttributesInternal addr 0x249f79c size 0x8 virtual false final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> GetCustomAttributesInternal(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType,
                                                                                                            bool pseudoAttrs);
 
-  /// @brief Method GetPseudoCustomAttributes addr 0x25fa72c size 0x2ec virtual false final false
+  /// @brief Method GetPseudoCustomAttributes addr 0x249f7a4 size 0x2ec virtual false final false
   static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetPseudoCustomAttributes(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType);
 
-  /// @brief Method GetPseudoCustomAttributes addr 0x25faa18 size 0x164 virtual false final false
+  /// @brief Method GetPseudoCustomAttributes addr 0x249fa90 size 0x164 virtual false final false
   static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetPseudoCustomAttributes(::System::Type* type);
 
-  /// @brief Method GetCustomAttributesBase addr 0x25fab7c size 0x1a4 virtual false final false
+  /// @brief Method GetCustomAttributesBase addr 0x249fbf4 size 0x1a4 virtual false final false
   static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributesBase(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType,
                                                                                                  bool inheritedOnly);
 
-  /// @brief Method GetCustomAttributes addr 0x25fad20 size 0x988 virtual false final false
+  /// @brief Method GetCustomAttributes addr 0x249fd98 size 0x988 virtual false final false
   static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes addr 0x25fbbdc size 0x178 virtual false final false
+  /// @brief Method GetCustomAttributes addr 0x24a0c54 size 0x178 virtual false final false
   static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Reflection::ICustomAttributeProvider* obj, bool inherit);
 
-  /// @brief Method GetCustomAttributesDataInternal addr 0x25fbd54 size 0x4 virtual false final false
+  /// @brief Method GetCustomAttributesDataInternal addr 0x24a0dcc size 0x4 virtual false final false
   static inline ::ArrayW<::System::Reflection::CustomAttributeData*, ::Array<::System::Reflection::CustomAttributeData*>*>
   GetCustomAttributesDataInternal(::System::Reflection::ICustomAttributeProvider* obj);
 
-  /// @brief Method GetCustomAttributesData addr 0x25fbd58 size 0x12c virtual false final false
+  /// @brief Method GetCustomAttributesData addr 0x24a0dd0 size 0x12c virtual false final false
   static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesData(::System::Reflection::ICustomAttributeProvider* obj, bool inherit);
 
-  /// @brief Method GetCustomAttributesData addr 0x25fc030 size 0x1360 virtual false final false
+  /// @brief Method GetCustomAttributesData addr 0x24a10a8 size 0x1360 virtual false final false
   static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesData(::System::Reflection::ICustomAttributeProvider* obj,
                                                                                                                              ::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributesDataBase addr 0x25fbe84 size 0x1ac virtual false final false
+  /// @brief Method GetCustomAttributesDataBase addr 0x24a0efc size 0x1ac virtual false final false
   static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesDataBase(::System::Reflection::ICustomAttributeProvider* obj,
                                                                                                                                  ::System::Type* attributeType, bool inheritedOnly);
 
-  /// @brief Method GetPseudoCustomAttributesData addr 0x25fd390 size 0x2f0 virtual false final false
+  /// @brief Method GetPseudoCustomAttributesData addr 0x24a2408 size 0x2f0 virtual false final false
   static inline ::ArrayW<::System::Reflection::CustomAttributeData*, ::Array<::System::Reflection::CustomAttributeData*>*>
   GetPseudoCustomAttributesData(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType);
 
-  /// @brief Method GetPseudoCustomAttributesData addr 0x25fd680 size 0x218 virtual false final false
+  /// @brief Method GetPseudoCustomAttributesData addr 0x24a26f8 size 0x218 virtual false final false
   static inline ::ArrayW<::System::Reflection::CustomAttributeData*, ::Array<::System::Reflection::CustomAttributeData*>*> GetPseudoCustomAttributesData(::System::Type* type);
 
-  /// @brief Method IsDefined addr 0x25fd898 size 0x298 virtual false final false
+  /// @brief Method IsDefined addr 0x24a2910 size 0x298 virtual false final false
   static inline bool IsDefined(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType, bool inherit);
 
-  /// @brief Method IsDefinedInternal addr 0x25fdb30 size 0x4 virtual false final false
+  /// @brief Method IsDefinedInternal addr 0x24a2ba8 size 0x4 virtual false final false
   static inline bool IsDefinedInternal(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* AttributeType);
 
-  /// @brief Method GetBasePropertyDefinition addr 0x25fdb34 size 0x2e8 virtual false final false
+  /// @brief Method GetBasePropertyDefinition addr 0x24a2bac size 0x2e8 virtual false final false
   static inline ::System::Reflection::PropertyInfo* GetBasePropertyDefinition(::System::Reflection::RuntimePropertyInfo* property);
 
-  /// @brief Method GetBaseEventDefinition addr 0x25fde1c size 0x210 virtual false final false
+  /// @brief Method GetBaseEventDefinition addr 0x24a2e94 size 0x210 virtual false final false
   static inline ::System::Reflection::EventInfo* GetBaseEventDefinition(::System::Reflection::RuntimeEventInfo* evt);
 
-  /// @brief Method GetBase addr 0x25fb6a8 size 0x3b4 virtual false final false
+  /// @brief Method GetBase addr 0x24a0720 size 0x3b4 virtual false final false
   static inline ::System::Reflection::ICustomAttributeProvider* GetBase(::System::Reflection::ICustomAttributeProvider* obj);
 
-  /// @brief Method RetrieveAttributeUsageNoCache addr 0x25fe02c size 0x24c virtual false final false
+  /// @brief Method RetrieveAttributeUsageNoCache addr 0x24a30a4 size 0x24c virtual false final false
   static inline ::System::AttributeUsageAttribute* RetrieveAttributeUsageNoCache(::System::Type* attributeType);
 
-  /// @brief Method RetrieveAttributeUsage addr 0x25fba5c size 0x174 virtual false final false
+  /// @brief Method RetrieveAttributeUsage addr 0x24a0ad4 size 0x174 virtual false final false
   static inline ::System::AttributeUsageAttribute* RetrieveAttributeUsage(::System::Type* attributeType);
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoCustomAttrs", modifiers: "&&", def_value: None }]

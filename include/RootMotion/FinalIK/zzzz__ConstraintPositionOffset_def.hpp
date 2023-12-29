@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::ConstraintPositionOffset);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12508)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12510))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12436)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12438))
 // CS Name: ::RootMotion.FinalIK::ConstraintPositionOffset*
 class CORDL_TYPE ConstraintPositionOffset : public ::RootMotion::FinalIK::Constraint {
 public:
@@ -62,20 +62,20 @@ public:
 
   constexpr void __set_initiated(bool value);
 
-  /// @brief Method UpdateConstraint addr 0x12427bc size 0x104 virtual true final false
+  /// @brief Method UpdateConstraint addr 0x11d2490 size 0x104 virtual true final false
   inline void UpdateConstraint();
 
   static inline ::RootMotion::FinalIK::ConstraintPositionOffset* New_ctor();
 
-  /// @brief Method .ctor addr 0x124291c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x11d25f0 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::RootMotion::FinalIK::ConstraintPositionOffset* New_ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method .ctor addr 0x1242924 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x11d25f8 size 0x28 virtual false final false
   inline void _ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method get_positionChanged addr 0x12428c0 size 0x5c virtual false final false
+  /// @brief Method get_positionChanged addr 0x11d2594 size 0x5c virtual false final false
   inline bool get_positionChanged();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConstraintPositionOffset", modifiers: "&&", def_value: None }]
@@ -108,6 +108,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::ConstraintPositionOffset, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::ConstraintPositionOffset, ___offset) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::ConstraintPositionOffset, ___defaultLocalPosition) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::ConstraintPositionOffset, ___lastLocalPosition) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::RootMotion::FinalIK::ConstraintPositionOffset, ___initiated) == 0x40, "Offset mismatch!");
 
 } // namespace RootMotion::FinalIK
 NEED_NO_BOX(::RootMotion::FinalIK::ConstraintPositionOffset);

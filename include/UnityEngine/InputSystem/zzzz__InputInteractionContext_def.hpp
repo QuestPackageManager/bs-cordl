@@ -12,19 +12,19 @@ namespace UnityEngine::InputSystem {
 class InputAction;
 }
 namespace UnityEngine::InputSystem {
-struct InputActionPhase;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionState__TriggerState;
+class InputControl;
 }
 namespace UnityEngine::InputSystem {
 struct __InputInteractionContext__Flags;
 }
 namespace UnityEngine::InputSystem {
-class InputControl;
+struct InputActionPhase;
 }
 namespace UnityEngine::InputSystem {
 class InputActionState;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionState__TriggerState;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -41,7 +41,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::InputInteractionContext);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6205))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6291))
 // CS Name: ::InputInteractionContext::Flags
 struct CORDL_TYPE __InputInteractionContext__Flags {
 public:
@@ -79,13 +79,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputInteractionContext__Flags, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::InputSystem::__InputInteractionContext__Flags, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::InputSystem
 // Type: UnityEngine.InputSystem::InputInteractionContext
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6205)), TypeDefinitionIndex(TypeDefinitionIndex(6176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6206))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6262)), TypeDefinitionIndex(TypeDefinitionIndex(6291))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6292))
 // CS Name: ::UnityEngine.InputSystem::InputInteractionContext
 struct CORDL_TYPE InputInteractionContext {
 public:
@@ -116,76 +118,76 @@ public:
 
   __declspec(property(get = get_interactionIndex)) int32_t interactionIndex;
 
-  /// @brief Method get_action addr 0x2a5db18 size 0x24 virtual false final false
+  /// @brief Method get_action addr 0x28dddd0 size 0x24 virtual false final false
   inline ::UnityEngine::InputSystem::InputAction* get_action();
 
-  /// @brief Method get_control addr 0x2a5db3c size 0x24 virtual false final false
+  /// @brief Method get_control addr 0x28dddf4 size 0x24 virtual false final false
   inline ::UnityEngine::InputSystem::InputControl* get_control();
 
-  /// @brief Method get_phase addr 0x2a5db60 size 0x8 virtual false final false
+  /// @brief Method get_phase addr 0x28dde18 size 0x8 virtual false final false
   inline ::UnityEngine::InputSystem::InputActionPhase get_phase();
 
-  /// @brief Method get_time addr 0x2a5db68 size 0x8 virtual false final false
+  /// @brief Method get_time addr 0x28dde20 size 0x8 virtual false final false
   inline double_t get_time();
 
-  /// @brief Method get_startTime addr 0x2a5db70 size 0x8 virtual false final false
+  /// @brief Method get_startTime addr 0x28dde28 size 0x8 virtual false final false
   inline double_t get_startTime();
 
-  /// @brief Method get_timerHasExpired addr 0x2a5db78 size 0xc virtual false final false
+  /// @brief Method get_timerHasExpired addr 0x28dde30 size 0xc virtual false final false
   inline bool get_timerHasExpired();
 
-  /// @brief Method set_timerHasExpired addr 0x2a5db84 size 0x1c virtual false final false
+  /// @brief Method set_timerHasExpired addr 0x28dde3c size 0x1c virtual false final false
   inline void set_timerHasExpired(bool value);
 
-  /// @brief Method get_isWaiting addr 0x2a5dba0 size 0x10 virtual false final false
+  /// @brief Method get_isWaiting addr 0x28dde58 size 0x10 virtual false final false
   inline bool get_isWaiting();
 
-  /// @brief Method get_isStarted addr 0x2a5dbb0 size 0x10 virtual false final false
+  /// @brief Method get_isStarted addr 0x28dde68 size 0x10 virtual false final false
   inline bool get_isStarted();
 
-  /// @brief Method ComputeMagnitude addr 0x2a5dbc0 size 0x8 virtual false final false
+  /// @brief Method ComputeMagnitude addr 0x28dde78 size 0x8 virtual false final false
   inline float_t ComputeMagnitude();
 
-  /// @brief Method ControlIsActuated addr 0x2a5dbc8 size 0xc virtual false final false
+  /// @brief Method ControlIsActuated addr 0x28dde80 size 0xc virtual false final false
   inline bool ControlIsActuated(float_t threshold);
 
-  /// @brief Method Started addr 0x2a5dbd4 size 0x38 virtual false final false
+  /// @brief Method Started addr 0x28dde8c size 0x38 virtual false final false
   inline void Started();
 
-  /// @brief Method Performed addr 0x2a5dc0c size 0x40 virtual false final false
+  /// @brief Method Performed addr 0x28ddec4 size 0x40 virtual false final false
   inline void Performed();
 
-  /// @brief Method PerformedAndStayStarted addr 0x2a5dc4c size 0x40 virtual false final false
+  /// @brief Method PerformedAndStayStarted addr 0x28ddf04 size 0x40 virtual false final false
   inline void PerformedAndStayStarted();
 
-  /// @brief Method PerformedAndStayPerformed addr 0x2a5dc8c size 0x40 virtual false final false
+  /// @brief Method PerformedAndStayPerformed addr 0x28ddf44 size 0x40 virtual false final false
   inline void PerformedAndStayPerformed();
 
-  /// @brief Method Canceled addr 0x2a5dccc size 0x40 virtual false final false
+  /// @brief Method Canceled addr 0x28ddf84 size 0x40 virtual false final false
   inline void Canceled();
 
-  /// @brief Method Waiting addr 0x2a5dd0c size 0x40 virtual false final false
+  /// @brief Method Waiting addr 0x28ddfc4 size 0x40 virtual false final false
   inline void Waiting();
 
-  /// @brief Method SetTimeout addr 0x2a5dd4c size 0x24 virtual false final false
+  /// @brief Method SetTimeout addr 0x28de004 size 0x24 virtual false final false
   inline void SetTimeout(float_t seconds);
 
-  /// @brief Method SetTotalTimeoutCompletionTime addr 0x2a5dd70 size 0x94 virtual false final false
+  /// @brief Method SetTotalTimeoutCompletionTime addr 0x28de028 size 0x94 virtual false final false
   inline void SetTotalTimeoutCompletionTime(float_t seconds);
 
   /// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual false final false
   template <typename TValue> inline TValue ReadValue();
 
-  /// @brief Method get_mapIndex addr 0x2a5de04 size 0x8 virtual false final false
+  /// @brief Method get_mapIndex addr 0x28de0bc size 0x8 virtual false final false
   inline int32_t get_mapIndex();
 
-  /// @brief Method get_controlIndex addr 0x2a5de0c size 0xc virtual false final false
+  /// @brief Method get_controlIndex addr 0x28de0c4 size 0xc virtual false final false
   inline int32_t get_controlIndex();
 
-  /// @brief Method get_bindingIndex addr 0x2a5de18 size 0x8 virtual false final false
+  /// @brief Method get_bindingIndex addr 0x28de0d0 size 0x8 virtual false final false
   inline int32_t get_bindingIndex();
 
-  /// @brief Method get_interactionIndex addr 0x2a5de20 size 0xc virtual false final false
+  /// @brief Method get_interactionIndex addr 0x28de0d8 size 0xc virtual false final false
   inline int32_t get_interactionIndex();
 
   // Ctor Parameters [CppParam { name: "m_State", ty: "::UnityEngine::InputSystem::InputActionState*", modifiers: "", def_value: None }, CppParam { name: "m_Flags", ty:
@@ -214,6 +216,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputInteractionContext, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputInteractionContext, m_State) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputInteractionContext, m_Flags) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputInteractionContext, m_TriggerState) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::__InputInteractionContext__Flags, "UnityEngine.InputSystem", "InputInteractionContext/Flags");

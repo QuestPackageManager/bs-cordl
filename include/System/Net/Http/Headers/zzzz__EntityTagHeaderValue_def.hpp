@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EntityTagHeaderValue)
-namespace System::Net::Http::Headers {
-struct Token;
-}
-namespace System::Net::Http::Headers {
-class Lexer;
-}
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class ICloneable;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System::Net::Http::Headers {
+class Lexer;
+}
+namespace System::Net::Http::Headers {
+struct Token;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::EntityTagHeaderValue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14665))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14882))
 // CS Name: ::System.Net.Http.Headers::EntityTagHeaderValue*
 class CORDL_TYPE EntityTagHeaderValue : public ::System::Object {
 public:
@@ -72,40 +72,40 @@ public:
 
   static inline ::System::Net::Http::Headers::EntityTagHeaderValue* New_ctor();
 
-  /// @brief Method .ctor addr 0x28388e4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x26bd8d0 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method get_IsWeak addr 0x28388ec size 0x8 virtual false final false
+  /// @brief Method get_IsWeak addr 0x26bd8d8 size 0x8 virtual false final false
   inline bool get_IsWeak();
 
-  /// @brief Method set_IsWeak addr 0x28388f4 size 0xc virtual false final false
+  /// @brief Method set_IsWeak addr 0x26bd8e0 size 0xc virtual false final false
   inline void set_IsWeak(bool value);
 
-  /// @brief Method get_Tag addr 0x2838900 size 0x8 virtual false final false
+  /// @brief Method get_Tag addr 0x26bd8ec size 0x8 virtual false final false
   inline ::StringW get_Tag();
 
-  /// @brief Method set_Tag addr 0x2838908 size 0x8 virtual false final false
+  /// @brief Method set_Tag addr 0x26bd8f4 size 0x8 virtual false final false
   inline void set_Tag(::StringW value);
 
-  /// @brief Method System.ICloneable.Clone addr 0x2838910 size 0x8 virtual true final true
+  /// @brief Method System.ICloneable.Clone addr 0x26bd8fc size 0x8 virtual true final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals addr 0x2838918 size 0xb4 virtual true final false
+  /// @brief Method Equals addr 0x26bd904 size 0xb4 virtual true final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x28389cc size 0x50 virtual true final false
+  /// @brief Method GetHashCode addr 0x26bd9b8 size 0x50 virtual true final false
   inline int32_t GetHashCode();
 
-  /// @brief Method TryParse addr 0x2838a1c size 0xf4 virtual false final false
+  /// @brief Method TryParse addr 0x26bda08 size 0xf4 virtual false final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue);
 
-  /// @brief Method TryParseElement addr 0x2838b10 size 0x1e4 virtual false final false
+  /// @brief Method TryParseElement addr 0x26bdafc size 0x1e4 virtual false final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method TryParse addr 0x2838d44 size 0xb0 virtual false final false
+  /// @brief Method TryParse addr 0x26bdd30 size 0xb0 virtual false final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::EntityTagHeaderValue*>*> result);
 
-  /// @brief Method ToString addr 0x2838df4 size 0x64 virtual true final false
+  /// @brief Method ToString addr 0x26bdde0 size 0x64 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "EntityTagHeaderValue", modifiers: "&&", def_value: None }]
@@ -132,6 +132,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::EntityTagHeaderValue, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::EntityTagHeaderValue, ____IsWeak_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::Headers::EntityTagHeaderValue, ____Tag_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace System::Net::Http::Headers
 NEED_NO_BOX(::System::Net::Http::Headers::EntityTagHeaderValue);

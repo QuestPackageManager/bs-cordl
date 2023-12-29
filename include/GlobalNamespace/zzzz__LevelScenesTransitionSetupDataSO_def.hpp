@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelScenesTransitionSetupDataSO)
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
 namespace GlobalNamespace {
 struct __LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6;
 }
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace System::Threading::Tasks {
-class Task;
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -43,8 +43,8 @@ MARK_VAL_T(::GlobalNamespace::__LevelScenesTransitionSetupDataSO___BeforeScenesW
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6066))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3388)), TypeDefinitionIndex(TypeDefinitionIndex(3396))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6124))
 // CS Name: ::LevelScenesTransitionSetupDataSO::<BeforeScenesWillBeActivatedAsync>d__6
 struct CORDL_TYPE __LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6 {
 public:
@@ -52,10 +52,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x231de40 size 0x188 virtual true final true
+  /// @brief Method MoveNext addr 0x21e2298 size 0x18c virtual true final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x231dfc8 size 0xc virtual true final true
+  /// @brief Method SetStateMachine addr 0x21e2424 size 0xc virtual true final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -89,13 +89,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6, __u__1) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::LevelScenesTransitionSetupDataSO
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15417))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6067))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13939))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6125))
 // CS Name: ::LevelScenesTransitionSetupDataSO*
 class CORDL_TYPE LevelScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
@@ -116,21 +124,21 @@ public:
 
   constexpr void __set__gameplayCoreSceneSetupData_k__BackingField(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method get_transformedBeatmapData addr 0x231dd44 size 0x1c virtual false final false
+  /// @brief Method get_transformedBeatmapData addr 0x21e219c size 0x1c virtual false final false
   inline ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
 
-  /// @brief Method get_gameplayCoreSceneSetupData addr 0x231dd60 size 0x8 virtual false final false
+  /// @brief Method get_gameplayCoreSceneSetupData addr 0x21e21b8 size 0x8 virtual false final false
   inline ::GlobalNamespace::GameplayCoreSceneSetupData* get_gameplayCoreSceneSetupData();
 
-  /// @brief Method set_gameplayCoreSceneSetupData addr 0x231dd68 size 0x8 virtual false final false
+  /// @brief Method set_gameplayCoreSceneSetupData addr 0x21e21c0 size 0x8 virtual false final false
   inline void set_gameplayCoreSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method BeforeScenesWillBeActivatedAsync addr 0x231dd70 size 0xc8 virtual true final false
+  /// @brief Method BeforeScenesWillBeActivatedAsync addr 0x21e21c8 size 0xc8 virtual true final false
   inline ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();
 
   static inline ::GlobalNamespace::LevelScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x231de38 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21e2290 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
@@ -154,6 +162,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelScenesTransitionSetupDataSO, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelScenesTransitionSetupDataSO, ____gameplayCoreSceneSetupData_k__BackingField) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelScenesTransitionSetupDataSO);

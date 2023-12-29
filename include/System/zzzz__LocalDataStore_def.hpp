@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalDataStore)
 namespace System {
-class LocalDataStoreElement;
-}
-namespace System {
-class LocalDataStoreSlot;
+class Object;
 }
 namespace System {
 class LocalDataStoreMgr;
 }
 namespace System {
-class Object;
+class LocalDataStoreElement;
+}
+namespace System {
+class LocalDataStoreSlot;
 }
 // Forward declare root types
 namespace System {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::System::LocalDataStore);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2543))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2541))
 // CS Name: ::System::LocalDataStore*
 class CORDL_TYPE LocalDataStore : public ::System::Object {
 public:
@@ -54,22 +54,22 @@ public:
 
   static inline ::System::LocalDataStore* New_ctor(::System::LocalDataStoreMgr* mgr, int32_t InitialCapacity);
 
-  /// @brief Method .ctor addr 0x25d7c44 size 0x70 virtual false final false
+  /// @brief Method .ctor addr 0x247bd1c size 0x70 virtual false final false
   inline void _ctor(::System::LocalDataStoreMgr* mgr, int32_t InitialCapacity);
 
-  /// @brief Method Dispose addr 0x25d7be0 size 0x1c virtual false final false
+  /// @brief Method Dispose addr 0x247bcb8 size 0x1c virtual false final false
   inline void Dispose();
 
-  /// @brief Method GetData addr 0x25d7db8 size 0xd8 virtual false final false
+  /// @brief Method GetData addr 0x247be90 size 0xd8 virtual false final false
   inline ::System::Object* GetData(::System::LocalDataStoreSlot* slot);
 
-  /// @brief Method SetData addr 0x25d7f0c size 0xe4 virtual false final false
+  /// @brief Method SetData addr 0x247bfe4 size 0xe4 virtual false final false
   inline void SetData(::System::LocalDataStoreSlot* slot, ::System::Object* data);
 
-  /// @brief Method FreeData addr 0x25d829c size 0x48 virtual false final false
+  /// @brief Method FreeData addr 0x247c374 size 0x48 virtual false final false
   inline void FreeData(int32_t slot, int64_t cookie);
 
-  /// @brief Method PopulateElement addr 0x25d7ff0 size 0x2ac virtual false final false
+  /// @brief Method PopulateElement addr 0x247c0c8 size 0x2ac virtual false final false
   inline ::System::LocalDataStoreElement* PopulateElement(::System::LocalDataStoreSlot* slot);
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalDataStore", modifiers: "&&", def_value: None }]
@@ -96,6 +96,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::LocalDataStore, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::System::LocalDataStore, ___m_DataTable) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::LocalDataStore, ___m_Manager) == 0x18, "Offset mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::LocalDataStore);

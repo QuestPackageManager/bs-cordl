@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MenuNeonLightsGenerator);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4693))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4814))
 // CS Name: ::MenuNeonLightsGenerator*
 class CORDL_TYPE MenuNeonLightsGenerator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -139,7 +139,7 @@ public:
 
   static inline ::GlobalNamespace::MenuNeonLightsGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x23765e4 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0x2241edc size 0x2c virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuNeonLightsGenerator", modifiers: "&&", def_value: None }]
@@ -196,6 +196,30 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuNeonLightsGenerator, 0x70>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____generate) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____radius) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____angle) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____numberOfElements) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____intensityCurve) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____intensityMultiplier) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____lengthCurve) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____lengthMultiplier) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____widthCurve) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____widthMultiplier) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____neonLightPrefab) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____afterSpawnRotation) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MenuNeonLightsGenerator);

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AssertionConditionAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(15787))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15786))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15737)), TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15736))
 // CS Name: ::JetBrains.Annotations::AssertionConditionAttribute*
 class CORDL_TYPE AssertionConditionAttribute : public ::System::Attribute {
 public:
@@ -37,13 +37,13 @@ public:
 
   static inline ::JetBrains::Annotations::AssertionConditionAttribute* New_ctor(::JetBrains::Annotations::AssertionConditionType conditionType);
 
-  /// @brief Method .ctor addr 0x2eba71c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2d5299c size 0x28 virtual false final false
   inline void _ctor(::JetBrains::Annotations::AssertionConditionType conditionType);
 
-  /// @brief Method get_ConditionType addr 0x2eba744 size 0x8 virtual false final false
+  /// @brief Method get_ConditionType addr 0x2d529c4 size 0x8 virtual false final false
   inline ::JetBrains::Annotations::AssertionConditionType get_ConditionType();
 
-  /// @brief Method set_ConditionType addr 0x2eba74c size 0x8 virtual false final false
+  /// @brief Method set_ConditionType addr 0x2d529cc size 0x8 virtual false final false
   inline void set_ConditionType(::JetBrains::Annotations::AssertionConditionType value);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssertionConditionAttribute", modifiers: "&&", def_value: None }]
@@ -67,6 +67,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::AssertionConditionAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::JetBrains::Annotations::AssertionConditionAttribute, ____ConditionType_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::AssertionConditionAttribute);

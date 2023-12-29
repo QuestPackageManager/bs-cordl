@@ -10,28 +10,28 @@ namespace Mono {
 class ISystemCertificateProvider;
 }
 namespace Mono {
-struct CertificateImportFlags;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509KeyStorageFlags;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateImpl;
+class X509PalImpl;
 }
 namespace System {
 class Object;
+}
+namespace Mono {
+struct CertificateImportFlags;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateImpl;
 }
 namespace Microsoft::Win32::SafeHandles {
 class SafePasswordHandle;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2Impl;
-}
-namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
-namespace Mono {
-class X509PalImpl;
+namespace System::Security::Cryptography::X509Certificates {
+struct X509KeyStorageFlags;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2Impl;
 }
 // Forward declare root types
 namespace Mono {
@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::Mono::SystemCertificateProvider);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8750))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7587))
 // CS Name: ::Mono::SystemCertificateProvider*
 class CORDL_TYPE SystemCertificateProvider : public ::System::Object {
 public:
@@ -75,39 +75,39 @@ public:
 
   static inline ::System::Object* getStaticF_syncRoot();
 
-  /// @brief Method GetX509Pal addr 0x2816420 size 0x58 virtual false final false
+  /// @brief Method GetX509Pal addr 0x269b40c size 0x58 virtual false final false
   static inline ::Mono::X509PalImpl* GetX509Pal();
 
-  /// @brief Method EnsureInitialized addr 0x28164d0 size 0x154 virtual false final false
+  /// @brief Method EnsureInitialized addr 0x269b4bc size 0x154 virtual false final false
   static inline void EnsureInitialized();
 
-  /// @brief Method get_X509Pal addr 0x2816624 size 0x5c virtual false final false
+  /// @brief Method get_X509Pal addr 0x269b610 size 0x5c virtual false final false
   inline ::Mono::X509PalImpl* get_X509Pal();
 
-  /// @brief Method Import addr 0x2816680 size 0x6c virtual true final true
+  /// @brief Method Import addr 0x269b66c size 0x6c virtual true final true
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::Mono::CertificateImportFlags importFlags);
 
-  /// @brief Method Mono.ISystemCertificateProvider.Import addr 0x28168e8 size 0x4 virtual true final true
+  /// @brief Method Mono.ISystemCertificateProvider.Import addr 0x269b8d4 size 0x4 virtual true final true
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl*
   Mono_ISystemCertificateProvider_Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                                          ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags, ::Mono::CertificateImportFlags importFlags);
 
-  /// @brief Method Import addr 0x28168ec size 0x90 virtual false final false
+  /// @brief Method Import addr 0x269b8d8 size 0x90 virtual false final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                                                                                           ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags,
                                                                                           ::Mono::CertificateImportFlags importFlags);
 
-  /// @brief Method Mono.ISystemCertificateProvider.Import addr 0x28169f8 size 0x4 virtual true final true
+  /// @brief Method Mono.ISystemCertificateProvider.Import addr 0x269b9e4 size 0x4 virtual true final true
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Mono_ISystemCertificateProvider_Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert,
                                                                                                                          ::Mono::CertificateImportFlags importFlags);
 
-  /// @brief Method Import addr 0x28169fc size 0x114 virtual false final false
+  /// @brief Method Import addr 0x269b9e8 size 0x118 virtual false final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert,
                                                                                           ::Mono::CertificateImportFlags importFlags);
 
   static inline ::Mono::SystemCertificateProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x2816b10 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x269bb00 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SystemCertificateProvider", modifiers: "&&", def_value: None }]

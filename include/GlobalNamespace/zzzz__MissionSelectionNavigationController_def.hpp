@@ -6,7 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MissionSelectionNavigationController)
 namespace GlobalNamespace {
-class MissionLevelDetailViewController;
+class MissionSelectionMapViewController;
+}
+namespace GlobalNamespace {
+class __MissionSelectionNavigationController____c__DisplayClass11_0;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -15,10 +18,7 @@ namespace GlobalNamespace {
 class MissionNode;
 }
 namespace GlobalNamespace {
-class MissionSelectionMapViewController;
-}
-namespace GlobalNamespace {
-class __MissionSelectionNavigationController____c__DisplayClass11_0;
+class MissionLevelDetailViewController;
 }
 namespace System {
 class Action;
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionSelectionNavigationController____c__D
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5706))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5805))
 // CS Name: ::MissionSelectionNavigationController::<>c__DisplayClass11_0*
 class CORDL_TYPE __MissionSelectionNavigationController____c__DisplayClass11_0 : public ::System::Object {
 public:
@@ -72,13 +72,13 @@ public:
 
   static inline ::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x22cc25c size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2189860 size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method <PresentMissionClearedIfNeeded>b__0 addr 0x22cc26c size 0xbc virtual false final false
+  /// @brief Method <PresentMissionClearedIfNeeded>b__0 addr 0x2189870 size 0xbc virtual false final false
   inline void _PresentMissionClearedIfNeeded_b__0();
 
-  /// @brief Method <PresentMissionClearedIfNeeded>b__1 addr 0x22cc328 size 0x20 virtual false final false
+  /// @brief Method <PresentMissionClearedIfNeeded>b__1 addr 0x218992c size 0x20 virtual false final false
   inline void _PresentMissionClearedIfNeeded_b__1();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionSelectionNavigationController____c__DisplayClass11_0", modifiers: "&&", def_value: None }]
@@ -109,13 +109,19 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0, 0x28>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0, ___finishedCallback) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0, _____9__1) == 0x20, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::MissionSelectionNavigationController
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13588))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5707))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13705))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5806))
 // CS Name: ::MissionSelectionNavigationController*
 class CORDL_TYPE MissionSelectionNavigationController : public ::HMUI::NavigationController {
 public:
@@ -153,33 +159,33 @@ public:
 
   constexpr void __set_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* value);
 
-  /// @brief Method add_didPressPlayButtonEvent addr 0x22cbcbc size 0xb0 virtual false final false
+  /// @brief Method add_didPressPlayButtonEvent addr 0x21892c0 size 0xb0 virtual false final false
   inline void add_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* value);
 
-  /// @brief Method remove_didPressPlayButtonEvent addr 0x22cbd6c size 0xb0 virtual false final false
+  /// @brief Method remove_didPressPlayButtonEvent addr 0x2189370 size 0xb0 virtual false final false
   inline void remove_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* value);
 
-  /// @brief Method get_selectedMissionNode addr 0x22cbe1c size 0x1c virtual false final false
+  /// @brief Method get_selectedMissionNode addr 0x2189420 size 0x1c virtual false final false
   inline ::GlobalNamespace::MissionNode* get_selectedMissionNode();
 
-  /// @brief Method DidActivate addr 0x22cbe38 size 0x174 virtual true final false
+  /// @brief Method DidActivate addr 0x218943c size 0x174 virtual true final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x22cbfac size 0x104 virtual true final false
+  /// @brief Method DidDeactivate addr 0x21895b0 size 0x104 virtual true final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleMissionSelectionMapViewControllerDidSelectMissionLevel addr 0x22cc0b0 size 0x74 virtual false final false
+  /// @brief Method HandleMissionSelectionMapViewControllerDidSelectMissionLevel addr 0x21896b4 size 0x74 virtual false final false
   inline void HandleMissionSelectionMapViewControllerDidSelectMissionLevel(::GlobalNamespace::MissionSelectionMapViewController* viewController, ::GlobalNamespace::MissionNode* _missionNode);
 
-  /// @brief Method HandleMissionLevelDetailViewControllerDidPressPlayButton addr 0x22cc124 size 0x20 virtual false final false
+  /// @brief Method HandleMissionLevelDetailViewControllerDidPressPlayButton addr 0x2189728 size 0x20 virtual false final false
   inline void HandleMissionLevelDetailViewControllerDidPressPlayButton(::GlobalNamespace::MissionLevelDetailViewController* viewController);
 
-  /// @brief Method PresentMissionClearedIfNeeded addr 0x22cc144 size 0x118 virtual false final false
+  /// @brief Method PresentMissionClearedIfNeeded addr 0x2189748 size 0x118 virtual false final false
   inline void PresentMissionClearedIfNeeded(::System::Action_1<bool>* finishedCallback);
 
   static inline ::GlobalNamespace::MissionSelectionNavigationController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22cc264 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2189868 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionSelectionNavigationController", modifiers: "&&", def_value: None }]
@@ -209,6 +215,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionSelectionNavigationController, 0xb0>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionSelectionNavigationController, ____missionSelectionMapViewController) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionSelectionNavigationController, ____missionLevelDetailViewController) == 0xa0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MissionSelectionNavigationController, ___didPressPlayButtonEvent) == 0xa8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionSelectionNavigationController);

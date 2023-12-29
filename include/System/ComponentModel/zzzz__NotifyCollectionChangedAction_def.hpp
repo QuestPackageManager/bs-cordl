@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ComponentModel::NotifyCollectionChangedAction);
 namespace System::ComponentModel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11789))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11717))
 // CS Name: ::System.ComponentModel::NotifyCollectionChangedAction
 struct CORDL_TYPE NotifyCollectionChangedAction {
 public:
@@ -69,6 +69,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::NotifyCollectionChangedAction, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::NotifyCollectionChangedAction, value__) == 0x0, "Offset mismatch!");
 
 } // namespace System::ComponentModel
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::NotifyCollectionChangedAction, "System.ComponentModel", "NotifyCollectionChangedAction");

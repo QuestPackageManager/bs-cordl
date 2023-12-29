@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Security::Interface::TlsProtocols);
 namespace Mono::Security::Interface {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13786))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14057))
 // CS Name: ::Mono.Security.Interface::TlsProtocols
 struct CORDL_TYPE TlsProtocols {
 public:
@@ -97,6 +97,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::TlsProtocols, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::Interface::TlsProtocols, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Mono::Security::Interface
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::TlsProtocols, "Mono.Security.Interface", "TlsProtocols");

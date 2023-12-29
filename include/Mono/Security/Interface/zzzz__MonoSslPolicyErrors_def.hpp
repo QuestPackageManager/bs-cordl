@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Security::Interface::MonoSslPolicyErrors);
 namespace Mono::Security::Interface {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13779))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14050))
 // CS Name: ::Mono.Security.Interface::MonoSslPolicyErrors
 struct CORDL_TYPE MonoSslPolicyErrors {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::MonoSslPolicyErrors, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::Mono::Security::Interface::MonoSslPolicyErrors, value__) == 0x0, "Offset mismatch!");
 
 } // namespace Mono::Security::Interface
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::MonoSslPolicyErrors, "Mono.Security.Interface", "MonoSslPolicyErrors");

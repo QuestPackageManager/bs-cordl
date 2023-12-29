@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(ScvpReqRes)
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfo;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -54,31 +54,31 @@ public:
 
   constexpr void __set_response(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
-  /// @brief Method GetInstance addr 0xe7d538 size 0xa4 virtual false final false
+  /// @brief Method GetInstance addr 0xe08364 size 0xa4 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Cms::ScvpReqRes* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::ScvpReqRes* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe7d5dc size 0xfc virtual false final false
+  /// @brief Method .ctor addr 0xe08408 size 0xfc virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::ScvpReqRes* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* response);
 
-  /// @brief Method .ctor addr 0xe7d6d8 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xe08504 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* response);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::ScvpReqRes* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* request, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* response);
 
-  /// @brief Method .ctor addr 0xe7d700 size 0x2c virtual false final false
+  /// @brief Method .ctor addr 0xe0852c size 0x2c virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* request, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* response);
 
-  /// @brief Method get_Request addr 0xe7d72c size 0x8 virtual true final false
+  /// @brief Method get_Request addr 0xe08558 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_Request();
 
-  /// @brief Method get_Response addr 0xe7d734 size 0x8 virtual true final false
+  /// @brief Method get_Response addr 0xe08560 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_Response();
 
-  /// @brief Method ToAsn1Object addr 0xe7d73c size 0xb8 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe08568 size 0xb8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScvpReqRes", modifiers: "&&", def_value: None }]
@@ -105,6 +105,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::ScvpReqRes, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::ScvpReqRes, ___request) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::ScvpReqRes, ___response) == 0x18, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::ScvpReqRes);

@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::CheckoutException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel::Design {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3302))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9496))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3301))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8333))
 // CS Name: ::System.ComponentModel.Design::CheckoutException*
 class CORDL_TYPE CheckoutException : public ::System::Runtime::InteropServices::ExternalException {
 public:
@@ -37,17 +37,17 @@ public:
 
   static inline ::System::ComponentModel::Design::CheckoutException* New_ctor();
 
-  /// @brief Method .ctor addr 0x293aaec size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27bcac4 size 0x8 virtual false final false
   inline void _ctor();
 
   static inline ::System::ComponentModel::Design::CheckoutException* New_ctor(::StringW message, int32_t errorCode);
 
-  /// @brief Method .ctor addr 0x293aaf4 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27bcacc size 0x8 virtual false final false
   inline void _ctor(::StringW message, int32_t errorCode);
 
   static inline ::System::ComponentModel::Design::CheckoutException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x293aafc size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x27bcad4 size 0x8 virtual false final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "CheckoutException", modifiers: "&&", def_value: None }]

@@ -7,6 +7,18 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BTSStarTextEffectsManager)
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
+class BTSStarTextEventEffect;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+class Sprite;
+}
 namespace GlobalNamespace {
 class __BTSStarTextEffectsManager___DespawnEffectDelayed_d__5;
 }
@@ -14,28 +26,16 @@ namespace GlobalNamespace {
 class __BTSStarTextEffectController__Pool;
 }
 namespace GlobalNamespace {
-class BTSStarTextEventEffect;
-}
-namespace GlobalNamespace {
 class BTSStarTextEffectController;
 }
-namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDel
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3980))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3966))
 // CS Name: ::BTSStarTextEffectsManager::<DespawnEffectDelayed>d__5*
 class CORDL_TYPE __BTSStarTextEffectsManager___DespawnEffectDelayed_d__5 : public ::System::Object {
 public:
@@ -108,22 +108,22 @@ public:
 
   static inline ::GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x221d650 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x20bc668 size 0x28 virtual false final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x221d680 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose addr 0x20bc698 size 0x4 virtual true final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x221d684 size 0xd8 virtual true final true
+  /// @brief Method MoveNext addr 0x20bc69c size 0xd8 virtual true final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x221d75c size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x20bc774 size 0x8 virtual true final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x221d764 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset addr 0x20bc77c size 0x40 virtual true final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x221d7a4 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x20bc7bc size 0x8 virtual true final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5", modifiers: "&&", def_value: None }]
@@ -157,13 +157,21 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5, 0x30>, "Size mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5, ___effectController) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5, _____4__this) == 0x28, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::BTSStarTextEffectsManager
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3981))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3967))
 // CS Name: ::BTSStarTextEffectsManager*
 class CORDL_TYPE BTSStarTextEffectsManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -189,21 +197,21 @@ public:
 
   constexpr void __set__btsStarTextEffectControllerPool(::GlobalNamespace::__BTSStarTextEffectController__Pool* value);
 
-  /// @brief Method Start addr 0x221d2d8 size 0x88 virtual false final false
+  /// @brief Method Start addr 0x20bc2f0 size 0x88 virtual false final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x221d410 size 0x88 virtual false final false
+  /// @brief Method OnDestroy addr 0x20bc428 size 0x88 virtual false final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBTSStarTextEventEffect addr 0x221d548 size 0x94 virtual false final false
+  /// @brief Method HandleBTSStarTextEventEffect addr 0x20bc560 size 0x94 virtual false final false
   inline void HandleBTSStarTextEventEffect(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* parentTransform, float_t desiredAnimationLength);
 
-  /// @brief Method DespawnEffectDelayed addr 0x221d5dc size 0x74 virtual false final false
+  /// @brief Method DespawnEffectDelayed addr 0x20bc5f4 size 0x74 virtual false final false
   inline ::System::Collections::IEnumerator* DespawnEffectDelayed(::GlobalNamespace::BTSStarTextEffectController* effectController);
 
   static inline ::GlobalNamespace::BTSStarTextEffectsManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x221d678 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x20bc690 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSStarTextEffectsManager", modifiers: "&&", def_value: None }]
@@ -230,6 +238,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BTSStarTextEffectsManager, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BTSStarTextEffectsManager, ____btsStarTextEventEffect) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BTSStarTextEffectsManager, ____btsStarTextEffectControllerPool) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BTSStarTextEffectsManager);

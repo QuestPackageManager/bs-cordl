@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(InteropErrorExtensions)
 namespace GlobalNamespace {
-struct __Interop__Error;
+struct __Interop__ErrorInfo;
 }
 namespace GlobalNamespace {
-struct __Interop__ErrorInfo;
+struct __Interop__Error;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,13 +20,13 @@ MARK_REF_PTR_T(::GlobalNamespace::InteropErrorExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2220))
 // CS Name: ::InteropErrorExtensions*
 class CORDL_TYPE InteropErrorExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Info addr 0x2411d78 size 0x8 virtual false final false
+  /// @brief Method Info addr 0x22b82f8 size 0x8 virtual false final false
   static inline ::GlobalNamespace::__Interop__ErrorInfo Info(::GlobalNamespace::__Interop__Error error);
 
   // Ctor Parameters [CppParam { name: "", ty: "InteropErrorExtensions", modifiers: "&&", def_value: None }]

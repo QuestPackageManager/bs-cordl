@@ -56,24 +56,24 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::ElGamalSecretBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x11d19f0 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x11607a0 size 0x78 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::ElGamalSecretBcpgKey* New_ctor(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method .ctor addr 0x11d1a68 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0x1160818 size 0x78 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method get_Format addr 0x11d1ae0 size 0x40 virtual true final true
+  /// @brief Method get_Format addr 0x1160890 size 0x40 virtual true final true
   inline ::StringW get_Format();
 
-  /// @brief Method get_X addr 0x11d1b20 size 0x1c virtual false final false
+  /// @brief Method get_X addr 0x11608d0 size 0x1c virtual false final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_X();
 
-  /// @brief Method GetEncoded addr 0x11d1b3c size 0x84 virtual true final false
+  /// @brief Method GetEncoded addr 0x11608ec size 0x84 virtual true final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method Encode addr 0x11d1bc0 size 0x24 virtual true final false
+  /// @brief Method Encode addr 0x1160970 size 0x24 virtual true final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalSecretBcpgKey", modifiers: "&&", def_value: None }]
@@ -97,6 +97,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::ElGamalSecretBcpgKey, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::ElGamalSecretBcpgKey, ___x) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::ElGamalSecretBcpgKey);

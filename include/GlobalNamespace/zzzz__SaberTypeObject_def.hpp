@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberTypeObject);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15036)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5301))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15181)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5396))
 // CS Name: ::SaberTypeObject*
 class CORDL_TYPE SaberTypeObject : public ::UnityEngine::MonoBehaviour {
 public:
@@ -35,12 +35,12 @@ public:
 
   constexpr void __set__saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method get_saberType addr 0x2264798 size 0x8 virtual false final false
+  /// @brief Method get_saberType addr 0x21205c8 size 0x8 virtual false final false
   inline ::GlobalNamespace::SaberType get_saberType();
 
   static inline ::GlobalNamespace::SaberTypeObject* New_ctor();
 
-  /// @brief Method .ctor addr 0x22647a0 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x21205d0 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberTypeObject", modifiers: "&&", def_value: None }]
@@ -64,6 +64,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberTypeObject, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberTypeObject, ____saberType) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberTypeObject);

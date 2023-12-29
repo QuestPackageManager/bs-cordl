@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(SDKPlane)
-namespace LIV::SDK::Unity {
-struct SDKVector3;
-}
 namespace UnityEngine {
 struct Plane;
+}
+namespace LIV::SDK::Unity {
+struct SDKVector3;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -23,19 +23,19 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKPlane);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15109))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15112))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15213))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15216))
 // CS Name: ::LIV.SDK.Unity::SDKPlane
 struct CORDL_TYPE SDKPlane {
 public:
   // Declarations
-  /// @brief Method op_Implicit addr 0x2214c44 size 0x5c virtual false final false
+  /// @brief Method op_Implicit addr 0x20b3d0c size 0x5c virtual false final false
   static inline ::LIV::SDK::Unity::SDKPlane op_Implicit___LIV__SDK__Unity__SDKPlane(::UnityEngine::Plane v);
 
-  /// @brief Method get_empty addr 0x2214ca0 size 0x14 virtual false final false
+  /// @brief Method get_empty addr 0x20b3d68 size 0x14 virtual false final false
   static inline ::LIV::SDK::Unity::SDKPlane get_empty();
 
-  /// @brief Method ToString addr 0x2214cb4 size 0xc4 virtual true final false
+  /// @brief Method ToString addr 0x20b3d7c size 0xc4 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "normal", ty: "::LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }]
@@ -58,6 +58,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::SDKPlane, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKPlane, distance) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKPlane, normal) == 0x4, "Offset mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKPlane, "LIV.SDK.Unity", "SDKPlane");

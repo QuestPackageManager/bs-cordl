@@ -18,18 +18,18 @@ MARK_REF_PTR_T(::UnityEngine::AndroidJavaRunnable);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14908))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15053))
 // CS Name: ::UnityEngine::AndroidJavaRunnable*
 class CORDL_TYPE AndroidJavaRunnable : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::AndroidJavaRunnable* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2c83da4 size 0xbc virtual false final false
+  /// @brief Method .ctor addr 0x2b1ee7c size 0xbc virtual false final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2c83e60 size 0x14 virtual true final false
+  /// @brief Method Invoke addr 0x2b1ef38 size 0x14 virtual true final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaRunnable", modifiers: "&&", def_value: None }]

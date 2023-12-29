@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TextOverflowModes);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12435))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12363))
 // CS Name: ::TMPro::TextOverflowModes
 struct CORDL_TYPE TextOverflowModes {
 public:
@@ -77,6 +77,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TextOverflowModes, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::TextOverflowModes, value__) == 0x0, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TextOverflowModes, "TMPro", "TextOverflowModes");

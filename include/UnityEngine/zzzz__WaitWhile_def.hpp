@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::WaitWhile);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10242))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10228))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10169))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10155))
 // CS Name: ::UnityEngine::WaitWhile*
 class CORDL_TYPE WaitWhile : public ::UnityEngine::CustomYieldInstruction {
 public:
@@ -34,12 +34,12 @@ public:
 
   constexpr void __set_m_Predicate(::System::Func_1<bool>* value);
 
-  /// @brief Method get_keepWaiting addr 0x2cd361c size 0x24 virtual true final false
+  /// @brief Method get_keepWaiting addr 0x2b6ce9c size 0x24 virtual true final false
   inline bool get_keepWaiting();
 
   static inline ::UnityEngine::WaitWhile* New_ctor(::System::Func_1<bool>* predicate);
 
-  /// @brief Method .ctor addr 0x2cd3640 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0x2b6cec0 size 0x28 virtual false final false
   inline void _ctor(::System::Func_1<bool>* predicate);
 
   // Ctor Parameters [CppParam { name: "", ty: "WaitWhile", modifiers: "&&", def_value: None }]
@@ -63,6 +63,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::WaitWhile, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::WaitWhile, ___m_Predicate) == 0x10, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::WaitWhile);

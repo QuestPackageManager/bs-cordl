@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::AesLightEngine);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(825))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::AesLightEngine*
 class CORDL_TYPE AesLightEngine : public ::System::Object {
@@ -120,60 +120,60 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_rcon();
 
-  /// @brief Method Shift addr 0xeb98dc size 0x8 virtual false final false
+  /// @brief Method Shift addr 0xe45708 size 0x8 virtual false final false
   static inline uint32_t Shift(uint32_t r, int32_t shift);
 
-  /// @brief Method FFmulX addr 0xeb98e4 size 0x20 virtual false final false
+  /// @brief Method FFmulX addr 0xe45710 size 0x20 virtual false final false
   static inline uint32_t FFmulX(uint32_t x);
 
-  /// @brief Method FFmulX2 addr 0xeb9904 size 0x1c virtual false final false
+  /// @brief Method FFmulX2 addr 0xe45730 size 0x1c virtual false final false
   static inline uint32_t FFmulX2(uint32_t x);
 
-  /// @brief Method Mcol addr 0xeb9920 size 0x7c virtual false final false
+  /// @brief Method Mcol addr 0xe4574c size 0x7c virtual false final false
   static inline uint32_t Mcol(uint32_t x);
 
-  /// @brief Method Inv_Mcol addr 0xeb999c size 0x98 virtual false final false
+  /// @brief Method Inv_Mcol addr 0xe457c8 size 0x98 virtual false final false
   static inline uint32_t Inv_Mcol(uint32_t x);
 
-  /// @brief Method SubWord addr 0xeb9a34 size 0xc4 virtual false final false
+  /// @brief Method SubWord addr 0xe45860 size 0xc4 virtual false final false
   static inline uint32_t SubWord(uint32_t x);
 
-  /// @brief Method GenerateWorkingKey addr 0xeb9af8 size 0xb18 virtual false final false
+  /// @brief Method GenerateWorkingKey addr 0xe45924 size 0xb18 virtual false final false
   inline ::ArrayW<::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Array<::ArrayW<uint32_t, ::Array<uint32_t>*>>*> GenerateWorkingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key, bool forEncryption);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::AesLightEngine* New_ctor();
 
-  /// @brief Method .ctor addr 0xeba610 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0xe4643c size 0x8 virtual false final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0xeba618 size 0x124 virtual true final false
+  /// @brief Method Init addr 0xe46444 size 0x124 virtual true final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName addr 0xeba73c size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName addr 0xe46568 size 0x40 virtual true final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay addr 0xeba77c size 0x8 virtual true final false
+  /// @brief Method get_IsPartialBlockOkay addr 0xe465a8 size 0x8 virtual true final false
   inline bool get_IsPartialBlockOkay();
 
-  /// @brief Method GetBlockSize addr 0xeba784 size 0x8 virtual true final false
+  /// @brief Method GetBlockSize addr 0xe465b0 size 0x8 virtual true final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method ProcessBlock addr 0xeba78c size 0x138 virtual true final false
+  /// @brief Method ProcessBlock addr 0xe465b8 size 0x138 virtual true final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xebbb5c size 0x4 virtual true final false
+  /// @brief Method Reset addr 0xe47988 size 0x4 virtual true final false
   inline void Reset();
 
-  /// @brief Method UnPackBlock addr 0xeba8c4 size 0x70 virtual false final false
+  /// @brief Method UnPackBlock addr 0xe466f0 size 0x70 virtual false final false
   inline void UnPackBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off);
 
-  /// @brief Method PackBlock addr 0xebbaf8 size 0x64 virtual false final false
+  /// @brief Method PackBlock addr 0xe47924 size 0x64 virtual false final false
   inline void PackBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off);
 
-  /// @brief Method EncryptBlock addr 0xeba934 size 0x7b8 virtual false final false
+  /// @brief Method EncryptBlock addr 0xe46760 size 0x7b8 virtual false final false
   inline void EncryptBlock(::ArrayW<::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Array<::ArrayW<uint32_t, ::Array<uint32_t>*>>*> KW);
 
-  /// @brief Method DecryptBlock addr 0xebb0ec size 0xa0c virtual false final false
+  /// @brief Method DecryptBlock addr 0xe46f18 size 0xa0c virtual false final false
   inline void DecryptBlock(::ArrayW<::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Array<::ArrayW<uint32_t, ::Array<uint32_t>*>>*> KW);
 
   // Ctor Parameters [CppParam { name: "", ty: "AesLightEngine", modifiers: "&&", def_value: None }]
@@ -233,6 +233,20 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::AesLightEngine, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::AesLightEngine, ___ROUNDS) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::AesLightEngine, ___WorkingKey) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::AesLightEngine, ___C0) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::AesLightEngine, ___C1) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::AesLightEngine, ___C2) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::AesLightEngine, ___C3) == 0x2c, "Offset mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::AesLightEngine, ___forEncryption) == 0x30, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::AesLightEngine);

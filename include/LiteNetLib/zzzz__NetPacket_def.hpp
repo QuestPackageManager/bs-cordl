@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::LiteNetLib::NetPacket);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14169))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14507))
 // CS Name: ::LiteNetLib::NetPacket*
 class CORDL_TYPE NetPacket : public ::System::Object {
 public:
@@ -78,71 +78,71 @@ public:
 
   static inline int32_t getStaticF_LastProperty();
 
-  /// @brief Method get_Property addr 0x21ffbc4 size 0x2c virtual false final false
+  /// @brief Method get_Property addr 0x209dd70 size 0x2c virtual false final false
   inline ::LiteNetLib::PacketProperty get_Property();
 
-  /// @brief Method set_Property addr 0x22017d8 size 0x34 virtual false final false
+  /// @brief Method set_Property addr 0x209f984 size 0x34 virtual false final false
   inline void set_Property(::LiteNetLib::PacketProperty value);
 
-  /// @brief Method get_ConnectionNumber addr 0x2202b64 size 0x2c virtual false final false
+  /// @brief Method get_ConnectionNumber addr 0x20a0d10 size 0x2c virtual false final false
   inline uint8_t get_ConnectionNumber();
 
-  /// @brief Method set_ConnectionNumber addr 0x21ff160 size 0x34 virtual false final false
+  /// @brief Method set_ConnectionNumber addr 0x209d30c size 0x34 virtual false final false
   inline void set_ConnectionNumber(uint8_t value);
 
-  /// @brief Method get_Sequence addr 0x2202b90 size 0x60 virtual false final false
+  /// @brief Method get_Sequence addr 0x20a0d3c size 0x60 virtual false final false
   inline uint16_t get_Sequence();
 
-  /// @brief Method set_Sequence addr 0x2202bf0 size 0x10 virtual false final false
+  /// @brief Method set_Sequence addr 0x20a0d9c size 0x10 virtual false final false
   inline void set_Sequence(uint16_t value);
 
-  /// @brief Method get_IsFragmented addr 0x2202c04 size 0x30 virtual false final false
+  /// @brief Method get_IsFragmented addr 0x20a0db0 size 0x30 virtual false final false
   inline bool get_IsFragmented();
 
-  /// @brief Method MarkFragmented addr 0x2202c34 size 0x30 virtual false final false
+  /// @brief Method MarkFragmented addr 0x20a0de0 size 0x30 virtual false final false
   inline void MarkFragmented();
 
-  /// @brief Method get_ChannelId addr 0x2202c64 size 0x2c virtual false final false
+  /// @brief Method get_ChannelId addr 0x20a0e10 size 0x2c virtual false final false
   inline uint8_t get_ChannelId();
 
-  /// @brief Method set_ChannelId addr 0x2202c90 size 0x2c virtual false final false
+  /// @brief Method set_ChannelId addr 0x20a0e3c size 0x2c virtual false final false
   inline void set_ChannelId(uint8_t value);
 
-  /// @brief Method get_FragmentId addr 0x2202cbc size 0x60 virtual false final false
+  /// @brief Method get_FragmentId addr 0x20a0e68 size 0x60 virtual false final false
   inline uint16_t get_FragmentId();
 
-  /// @brief Method set_FragmentId addr 0x2202d1c size 0x10 virtual false final false
+  /// @brief Method set_FragmentId addr 0x20a0ec8 size 0x10 virtual false final false
   inline void set_FragmentId(uint16_t value);
 
-  /// @brief Method get_FragmentPart addr 0x2202d2c size 0x60 virtual false final false
+  /// @brief Method get_FragmentPart addr 0x20a0ed8 size 0x60 virtual false final false
   inline uint16_t get_FragmentPart();
 
-  /// @brief Method set_FragmentPart addr 0x2202d8c size 0x10 virtual false final false
+  /// @brief Method set_FragmentPart addr 0x20a0f38 size 0x10 virtual false final false
   inline void set_FragmentPart(uint16_t value);
 
-  /// @brief Method get_FragmentsTotal addr 0x2202d9c size 0x60 virtual false final false
+  /// @brief Method get_FragmentsTotal addr 0x20a0f48 size 0x60 virtual false final false
   inline uint16_t get_FragmentsTotal();
 
-  /// @brief Method set_FragmentsTotal addr 0x2202dfc size 0x10 virtual false final false
+  /// @brief Method set_FragmentsTotal addr 0x20a0fa8 size 0x10 virtual false final false
   inline void set_FragmentsTotal(uint16_t value);
 
   static inline ::LiteNetLib::NetPacket* New_ctor(int32_t size);
 
-  /// @brief Method .ctor addr 0x2202e0c size 0x6c virtual false final false
+  /// @brief Method .ctor addr 0x20a0fb8 size 0x6c virtual false final false
   inline void _ctor(int32_t size);
 
   static inline ::LiteNetLib::NetPacket* New_ctor(::LiteNetLib::PacketProperty property, int32_t size);
 
-  /// @brief Method .ctor addr 0x2202e78 size 0xcc virtual false final false
+  /// @brief Method .ctor addr 0x20a1024 size 0xcc virtual false final false
   inline void _ctor(::LiteNetLib::PacketProperty property, int32_t size);
 
-  /// @brief Method GetHeaderSize addr 0x22017ac size 0x2c virtual false final false
+  /// @brief Method GetHeaderSize addr 0x209f958 size 0x2c virtual false final false
   static inline int32_t GetHeaderSize(::LiteNetLib::PacketProperty property);
 
-  /// @brief Method GetHeaderSize addr 0x21fc3cc size 0x88 virtual false final false
+  /// @brief Method GetHeaderSize addr 0x209a578 size 0x88 virtual false final false
   inline int32_t GetHeaderSize();
 
-  /// @brief Method FromBytes addr 0x21ffa98 size 0x12c virtual false final false
+  /// @brief Method FromBytes addr 0x209dc44 size 0x12c virtual false final false
   inline bool FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t packetSize);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPacket", modifiers: "&&", def_value: None }]
@@ -172,6 +172,12 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::NetPacket, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetPacket, ___RawData) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetPacket, ___Size) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::LiteNetLib::NetPacket, ___UserData) == 0x20, "Offset mismatch!");
 
 } // namespace LiteNetLib
 NEED_NO_BOX(::LiteNetLib::NetPacket);

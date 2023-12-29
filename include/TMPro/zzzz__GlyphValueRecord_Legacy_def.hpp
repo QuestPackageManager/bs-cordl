@@ -19,15 +19,15 @@ MARK_VAL_T(::TMPro::GlyphValueRecord_Legacy);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12362))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12290))
 // CS Name: ::TMPro::GlyphValueRecord_Legacy
 struct CORDL_TYPE GlyphValueRecord_Legacy {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2c102f8 size 0x60 virtual false final false
+  /// @brief Method .ctor addr 0x2a8b5a4 size 0x60 virtual false final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
 
-  /// @brief Method op_Addition addr 0x2c10358 size 0x14 virtual false final false
+  /// @brief Method op_Addition addr 0x2a8b604 size 0x14 virtual false final false
   static inline ::TMPro::GlyphValueRecord_Legacy op_Addition(::TMPro::GlyphValueRecord_Legacy a, ::TMPro::GlyphValueRecord_Legacy b);
 
   // Ctor Parameters [CppParam { name: "xPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
@@ -57,6 +57,14 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::GlyphValueRecord_Legacy, 0x10>, "Size mismatch!");
+
+static_assert(offsetof(::TMPro::GlyphValueRecord_Legacy, xPlacement) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::GlyphValueRecord_Legacy, yPlacement) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::GlyphValueRecord_Legacy, xAdvance) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::GlyphValueRecord_Legacy, yAdvance) == 0xc, "Offset mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::GlyphValueRecord_Legacy, "TMPro", "GlyphValueRecord_Legacy");

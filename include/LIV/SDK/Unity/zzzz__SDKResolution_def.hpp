@@ -17,15 +17,15 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKResolution);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15108))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15212))
 // CS Name: ::LIV.SDK.Unity::SDKResolution
 struct CORDL_TYPE SDKResolution {
 public:
   // Declarations
-  /// @brief Method get_zero addr 0x220fba4 size 0x8 virtual false final false
+  /// @brief Method get_zero addr 0x20aec6c size 0x8 virtual false final false
   static inline ::LIV::SDK::Unity::SDKResolution get_zero();
 
-  /// @brief Method ToString addr 0x2213df4 size 0xa0 virtual true final false
+  /// @brief Method ToString addr 0x20b2ebc size 0xa0 virtual true final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }]
@@ -48,6 +48,10 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::SDKResolution, 0x8>, "Size mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKResolution, width) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::LIV::SDK::Unity::SDKResolution, height) == 0x4, "Offset mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKResolution, "LIV.SDK.Unity", "SDKResolution");

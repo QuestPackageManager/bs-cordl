@@ -27,13 +27,13 @@ MARK_VAL_T(::UnityEngine::InputSystem::UI::NavigationModel);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13207))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6378))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(13212))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6464))
 // CS Name: ::UnityEngine.InputSystem.UI::NavigationModel
 struct CORDL_TYPE NavigationModel {
 public:
   // Declarations
-  /// @brief Method Reset addr 0x2ad3f40 size 0x50 virtual false final false
+  /// @brief Method Reset addr 0x29541f8 size 0x50 virtual false final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "move", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "consecutiveMoveCount", ty: "int32_t", modifiers: "", def_value: None },
@@ -68,6 +68,16 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::UI::NavigationModel, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::NavigationModel, move) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::NavigationModel, consecutiveMoveCount) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::NavigationModel, lastMoveDirection) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::NavigationModel, lastMoveTime) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::UI::NavigationModel, eventData) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::UI
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::UI::NavigationModel, "UnityEngine.InputSystem.UI", "NavigationModel");

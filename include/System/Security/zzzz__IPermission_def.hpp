@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Security::IPermission);
 namespace System::Security {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2878))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2874))
 // CS Name: ::System.Security::IPermission*
 class CORDL_TYPE IPermission {
 public:

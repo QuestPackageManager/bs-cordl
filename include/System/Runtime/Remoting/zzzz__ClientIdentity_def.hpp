@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(ClientIdentity)
 namespace System {
 class WeakReference;
 }
-namespace System::Runtime::Remoting {
-class ObjRef;
-}
 namespace System {
 class MarshalByRefObject;
+}
+namespace System::Runtime::Remoting {
+class ObjRef;
 }
 namespace System {
 class Type;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ClientIdentity);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3060))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3061))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3059))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3060))
 // CS Name: ::System.Runtime.Remoting::ClientIdentity*
 class CORDL_TYPE ClientIdentity : public ::System::Runtime::Remoting::Identity {
 public:
@@ -48,19 +48,19 @@ public:
 
   static inline ::System::Runtime::Remoting::ClientIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::ObjRef* objRef);
 
-  /// @brief Method .ctor addr 0x2485244 size 0x108 virtual false final false
+  /// @brief Method .ctor addr 0x232d750 size 0x108 virtual false final false
   inline void _ctor(::StringW objectUri, ::System::Runtime::Remoting::ObjRef* objRef);
 
-  /// @brief Method get_ClientProxy addr 0x248534c size 0x88 virtual false final false
+  /// @brief Method get_ClientProxy addr 0x232d858 size 0x88 virtual false final false
   inline ::System::MarshalByRefObject* get_ClientProxy();
 
-  /// @brief Method set_ClientProxy addr 0x24853d4 size 0x70 virtual false final false
+  /// @brief Method set_ClientProxy addr 0x232d8e0 size 0x70 virtual false final false
   inline void set_ClientProxy(::System::MarshalByRefObject* value);
 
-  /// @brief Method CreateObjRef addr 0x2485444 size 0x8 virtual true final false
+  /// @brief Method CreateObjRef addr 0x232d950 size 0x8 virtual true final false
   inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
 
-  /// @brief Method get_TargetUri addr 0x248544c size 0x20 virtual false final false
+  /// @brief Method get_TargetUri addr 0x232d958 size 0x20 virtual false final false
   inline ::StringW get_TargetUri();
 
   // Ctor Parameters [CppParam { name: "", ty: "ClientIdentity", modifiers: "&&", def_value: None }]
@@ -84,6 +84,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::ClientIdentity, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::ClientIdentity, ____proxyReference) == 0x48, "Offset mismatch!");
 
 } // namespace System::Runtime::Remoting
 NEED_NO_BOX(::System::Runtime::Remoting::ClientIdentity);

@@ -9,10 +9,10 @@ namespace Oculus::Platform::Models {
 class ShareMediaResult;
 }
 namespace Oculus::Platform {
-template <typename T> class Request_1;
+struct MediaContentType;
 }
 namespace Oculus::Platform {
-struct MediaContentType;
+template <typename T> class Request_1;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -24,13 +24,13 @@ MARK_REF_PTR_T(::Oculus::Platform::Media);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13365))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13399))
 // CS Name: ::Oculus.Platform::Media*
 class CORDL_TYPE Media : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShareToFacebook addr 0x26feb34 size 0x178 virtual false final false
+  /// @brief Method ShareToFacebook addr 0x25aac10 size 0x17c virtual false final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ShareMediaResult*>* ShareToFacebook(::StringW postTextSuggestion, ::StringW filePath,
                                                                                                               ::Oculus::Platform::MediaContentType contentType);
 

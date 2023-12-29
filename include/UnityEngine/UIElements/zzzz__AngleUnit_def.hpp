@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::AngleUnit);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7303))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7389))
 // CS Name: ::UnityEngine.UIElements::AngleUnit
 struct CORDL_TYPE AngleUnit {
 public:
@@ -65,6 +65,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::AngleUnit, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::AngleUnit, value__) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::AngleUnit, "UnityEngine.UIElements", "AngleUnit");

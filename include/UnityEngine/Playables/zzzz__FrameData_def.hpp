@@ -15,10 +15,10 @@ namespace UnityEngine::Playables {
 struct PlayableOutput;
 }
 namespace UnityEngine::Playables {
-struct PlayState;
+struct __FrameData__EvaluationType;
 }
 namespace UnityEngine::Playables {
-struct __FrameData__EvaluationType;
+struct PlayState;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -39,7 +39,7 @@ MARK_VAL_T(::UnityEngine::Playables::FrameData);
 namespace UnityEngine::Playables {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10416))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10338))
 // CS Name: ::FrameData::Flags
 struct CORDL_TYPE __FrameData__Flags {
 public:
@@ -97,13 +97,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Playables::__FrameData__Flags, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::Playables::__FrameData__Flags, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::Playables
 // Type: ::EvaluationType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10417))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10339))
 // CS Name: ::FrameData::EvaluationType
 struct CORDL_TYPE __FrameData__EvaluationType {
 public:
@@ -145,13 +147,15 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Playables::__FrameData__EvaluationType, 0x4>, "Size mismatch!");
 
+static_assert(offsetof(::UnityEngine::Playables::__FrameData__EvaluationType, value__) == 0x0, "Offset mismatch!");
+
 } // namespace UnityEngine::Playables
 // Type: UnityEngine.Playables::FrameData
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10416)), TypeDefinitionIndex(TypeDefinitionIndex(10438))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10418))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10338)), TypeDefinitionIndex(TypeDefinitionIndex(10360))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10340))
 // CS Name: ::UnityEngine.Playables::FrameData
 struct CORDL_TYPE FrameData {
 public:
@@ -176,31 +180,31 @@ public:
 
   __declspec(property(get = get_effectivePlayState))::UnityEngine::Playables::PlayState effectivePlayState;
 
-  /// @brief Method HasFlags addr 0x2cf53b8 size 0x10 virtual false final false
+  /// @brief Method HasFlags addr 0x2b8d078 size 0x10 virtual false final false
   inline bool HasFlags(::UnityEngine::Playables::__FrameData__Flags flag);
 
-  /// @brief Method get_deltaTime addr 0x2cf53c8 size 0xc virtual false final false
+  /// @brief Method get_deltaTime addr 0x2b8d088 size 0xc virtual false final false
   inline float_t get_deltaTime();
 
-  /// @brief Method get_effectiveSpeed addr 0x2cf53d4 size 0x8 virtual false final false
+  /// @brief Method get_effectiveSpeed addr 0x2b8d094 size 0x8 virtual false final false
   inline float_t get_effectiveSpeed();
 
-  /// @brief Method get_evaluationType addr 0x2cf53dc size 0x10 virtual false final false
+  /// @brief Method get_evaluationType addr 0x2b8d09c size 0x10 virtual false final false
   inline ::UnityEngine::Playables::__FrameData__EvaluationType get_evaluationType();
 
-  /// @brief Method get_seekOccurred addr 0x2cf53ec size 0xc virtual false final false
+  /// @brief Method get_seekOccurred addr 0x2b8d0ac size 0xc virtual false final false
   inline bool get_seekOccurred();
 
-  /// @brief Method get_timeLooped addr 0x2cf53f8 size 0xc virtual false final false
+  /// @brief Method get_timeLooped addr 0x2b8d0b8 size 0xc virtual false final false
   inline bool get_timeLooped();
 
-  /// @brief Method get_timeHeld addr 0x2cf5404 size 0xc virtual false final false
+  /// @brief Method get_timeHeld addr 0x2b8d0c4 size 0xc virtual false final false
   inline bool get_timeHeld();
 
-  /// @brief Method get_output addr 0x2cf5410 size 0xc virtual false final false
+  /// @brief Method get_output addr 0x2b8d0d0 size 0xc virtual false final false
   inline ::UnityEngine::Playables::PlayableOutput get_output();
 
-  /// @brief Method get_effectivePlayState addr 0x2cf541c size 0x18 virtual false final false
+  /// @brief Method get_effectivePlayState addr 0x2b8d0dc size 0x18 virtual false final false
   inline ::UnityEngine::Playables::PlayState get_effectivePlayState();
 
   // Ctor Parameters [CppParam { name: "m_FrameID", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_DeltaTime", ty: "double_t", modifiers: "", def_value: None }, CppParam { name:
@@ -249,6 +253,24 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Playables::FrameData, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Playables::FrameData, m_FrameID) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Playables::FrameData, m_DeltaTime) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Playables::FrameData, m_Weight) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Playables::FrameData, m_EffectiveWeight) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Playables::FrameData, m_EffectiveParentDelay) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Playables::FrameData, m_EffectiveParentSpeed) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Playables::FrameData, m_EffectiveSpeed) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Playables::FrameData, m_Flags) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Playables::FrameData, m_Output) == 0x30, "Offset mismatch!");
 
 } // namespace UnityEngine::Playables
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::__FrameData__EvaluationType, "UnityEngine.Playables", "FrameData/EvaluationType");

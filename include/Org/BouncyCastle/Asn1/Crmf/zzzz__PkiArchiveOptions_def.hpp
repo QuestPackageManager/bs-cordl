@@ -6,16 +6,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkiArchiveOptions)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class EncryptedKey;
@@ -24,7 +15,16 @@ namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -58,36 +58,36 @@ public:
 
   constexpr void __set_value(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method GetInstance addr 0xe86a84 size 0x188 virtual false final false
+  /// @brief Method GetInstance addr 0xe118b0 size 0x188 virtual false final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method .ctor addr 0xe86c0c size 0x158 virtual false final false
+  /// @brief Method .ctor addr 0xe11a38 size 0x158 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* New_ctor(::Org::BouncyCastle::Asn1::Crmf::EncryptedKey* encKey);
 
-  /// @brief Method .ctor addr 0xe86d64 size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xe11b90 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::EncryptedKey* encKey);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* keyGenParameters);
 
-  /// @brief Method .ctor addr 0xe86d8c size 0x28 virtual false final false
+  /// @brief Method .ctor addr 0xe11bb8 size 0x28 virtual false final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* keyGenParameters);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* New_ctor(bool archiveRemGenPrivKey);
 
-  /// @brief Method .ctor addr 0xe86db4 size 0x78 virtual false final false
+  /// @brief Method .ctor addr 0xe11be0 size 0x78 virtual false final false
   inline void _ctor(bool archiveRemGenPrivKey);
 
-  /// @brief Method get_Type addr 0xe86e2c size 0xc0 virtual true final false
+  /// @brief Method get_Type addr 0xe11c58 size 0xc0 virtual true final false
   inline int32_t get_Type();
 
-  /// @brief Method get_Value addr 0xe86eec size 0x8 virtual true final false
+  /// @brief Method get_Value addr 0xe11d18 size 0x8 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
-  /// @brief Method ToAsn1Object addr 0xe86ef4 size 0x120 virtual true final false
+  /// @brief Method ToAsn1Object addr 0xe11d20 size 0x120 virtual true final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkiArchiveOptions", modifiers: "&&", def_value: None }]
@@ -120,6 +120,8 @@ public:
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions, ___value) == 0x10, "Offset mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions);

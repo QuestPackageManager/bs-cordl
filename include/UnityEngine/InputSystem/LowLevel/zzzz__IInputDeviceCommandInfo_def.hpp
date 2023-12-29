@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6466))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6552))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IInputDeviceCommandInfo*
 class CORDL_TYPE IInputDeviceCommandInfo {
 public:
